@@ -1,0 +1,52 @@
+﻿<Page
+    x:Class="Ink_Advanced_International.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Ink_Advanced_International"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    x:Name="Main"
+    mc:Ignorable="d">
+
+    <!-- <SnippetUI> -->
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel x:Name="HeaderPanel" 
+                    Orientation="Horizontal" 
+                    Grid.Row="0">
+            <TextBlock x:Name="Header" 
+                       Text="Advanced international ink recognition sample" 
+                       Style="{ThemeResource HeaderTextBlockStyle}" 
+                       Margin="10,0,0,0" />
+            <ComboBox x:Name="comboInstalledRecognizers" 
+                     Margin="50,0,10,0">
+                <ComboBox.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="{Binding Name}" />
+                        </StackPanel>
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
+            <Button x:Name="buttonRecognize" 
+                    Content="Recognize" 
+                    IsEnabled="False"
+                    Margin="50,0,10,0"/>
+        </StackPanel>
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <InkCanvas x:Name="inkCanvas" 
+                       Grid.Row="0"/>
+            <TextBlock x:Name="recognitionResult" 
+                       Grid.Row="1" 
+                       Margin="50,0,10,0"/>
+        </Grid>
+    </Grid>
+    <!-- </SnippetUI> -->
+</Page>

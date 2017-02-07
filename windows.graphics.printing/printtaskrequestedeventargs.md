@@ -1,0 +1,19 @@
+---
+-api-id: T:Windows.Graphics.Printing.PrintTaskRequestedEventArgs
+-api-type: winrt class
+---
+
+<!-- Class syntax.
+public class PrintTaskRequestedEventArgs : Windows.Graphics.Printing.IPrintTaskRequestedEventArgs
+-->
+
+# Windows.Graphics.Printing.PrintTaskRequestedEventArgs
+
+## -description
+Event arguments associated with the [PrintTaskRequest](printtaskrequest.md).
+
+## -remarks
+
+## -examples
+
+## -see-also

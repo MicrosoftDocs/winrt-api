@@ -1,0 +1,85 @@
+﻿<UserControl x:Class="RepeatBehavior.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    Width="400" Height="300">
+    <StackPanel>
+        <TextBlock Margin="10" TextWrapping="Wrap">You can set the RepeatBehavior property to a duration, a number of iterations, or to "Forever". This sample sets the RepeatBehavior several different ways.</TextBlock>
+        <!-- <SnippetRepeatBehavior> -->
+    <StackPanel Margin="20">
+        <StackPanel.Resources>
+            <Storyboard x:Name="myStoryboard">
+
+                <!-- Create an animation that repeats indefinitely. -->
+                <DoubleAnimation 
+                  Storyboard.TargetName="ForeverRepeatingTransform" 
+                  Storyboard.TargetProperty="ScaleX" 
+                  From="1" To="5" Duration="0:0:2" RepeatBehavior="Forever" />
+
+                <!-- Create an animation that repeats for four seconds. Because
+                     the animation is 2 seconds each, you get two repeats. -->
+                <DoubleAnimation 
+                  Storyboard.TargetName="FourSecondsRepeatingTransform" 
+                  Storyboard.TargetProperty="ScaleX"
+                  From="1" To="5" Duration="0:0:2" RepeatBehavior="0:0:4" 
+                  EnableDependentAnimation="True"/>
+
+                <!-- Create an animation that repeats twice. -->
+                <DoubleAnimation 
+                  Storyboard.TargetName="TwiceRepeatingTransform" 
+                  Storyboard.TargetProperty="ScaleX" 
+                  From="1" To="5" Duration="0:0:2" RepeatBehavior="2x" 
+                  EnableDependentAnimation="True"/>
+
+                <!-- Create an animation that repeats 0.5 times. The resulting animation
+                     plays for one second, half of its Duration. It animates from 50 to 150. -->
+                <DoubleAnimation 
+                  Storyboard.TargetName="HalfRepeatingTransform" 
+                  Storyboard.TargetProperty="ScaleX" 
+                  From="1" To="5" Duration="0:0:2" RepeatBehavior="0.5x" 
+                  EnableDependentAnimation="True"/>
+
+                <!-- Create an animation that repeats for one second. The resulting animation
+                     plays for one second, half of its Duration. It animates from 50 to 150. -->
+                <DoubleAnimation 
+                  Storyboard.TargetName="OneSecondRepeatingTransform" 
+                  Storyboard.TargetProperty="ScaleX" 
+                  From="1" To="5" Duration="0:0:2" RepeatBehavior="0:0:1" 
+                  EnableDependentAnimation="True"/>
+            </Storyboard>
+        </StackPanel.Resources>
+
+        <!-- Create several rectangles to animate. -->
+        <Rectangle Fill="Red" Width="50" Height="20" >
+            <Rectangle.RenderTransform>
+                <ScaleTransform x:Name="ForeverRepeatingTransform" />
+            </Rectangle.RenderTransform>
+       </Rectangle>
+       <Rectangle Fill="Blue" Width="50" Height="20" >
+           <Rectangle.RenderTransform>
+               <ScaleTransform x:Name="FourSecondsRepeatingTransform" />
+           </Rectangle.RenderTransform>
+       </Rectangle>
+       <Rectangle Fill="Yellow" Width="50" Height="20" >
+           <Rectangle.RenderTransform>
+               <ScaleTransform x:Name="TwiceRepeatingTransform" />
+           </Rectangle.RenderTransform>
+       </Rectangle>
+       <Rectangle Fill="Green" Width="50" Height="20" >
+           <Rectangle.RenderTransform>
+               <ScaleTransform x:Name="HalfRepeatingTransform" />
+           </Rectangle.RenderTransform>
+       </Rectangle>
+       <Rectangle Fill="Orange" Width="50" Height="20" >
+           <Rectangle.RenderTransform>
+               <ScaleTransform x:Name="OneSecondRepeatingTransform" />
+           </Rectangle.RenderTransform>
+       </Rectangle>
+
+            <!-- Create buttons to restart and stop the animations. -->
+       <Button Margin="10" Content="Restart Animation" Click="Start_Animation" />
+
+
+    </StackPanel>
+    <!-- </SnippetRepeatBehavior> -->
+    </StackPanel>
+</UserControl>

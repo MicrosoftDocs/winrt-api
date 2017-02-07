@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+
+  <Identity Name="6bab7e43-e5c8-4ae9-813f-13c8e1520580"
+            Publisher="CN=Sam"
+            Version="1.0.0.0" />
+
+  <Properties>
+    <DisplayName>EntranceThemeTransitionStyle</DisplayName>
+    <PublisherDisplayName>Sam</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+    <Description>EntranceThemeTransitionStyle</Description>
+  </Properties>
+
+  <Prerequisites>
+    <OSMinVersion>6.2</OSMinVersion>
+    <OSMaxVersionTested>6.2</OSMaxVersionTested>
+  </Prerequisites>
+
+  <Resources>
+    <Resource Language="x-generate"/>
+  </Resources>
+
+  <Applications>
+    <Application Id="App"
+        Executable="$targetnametoken$.exe"
+        EntryPoint="EntranceThemeTransitionStyle.App">
+        <VisualElements
+            DisplayName="EntranceThemeTransitionStyle"
+            Logo="Assets\Logo.png"
+            SmallLogo="Assets\SmallLogo.png"
+            Description="EntranceThemeTransitionStyle"
+            ForegroundText="light"
+            BackgroundColor="#222222">
+            <DefaultTile ShowName="allLogos" />
+            <SplashScreen Image="Assets\SplashScreen.png" />
+        </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>

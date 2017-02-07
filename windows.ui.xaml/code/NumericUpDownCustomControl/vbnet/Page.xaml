@@ -1,0 +1,10 @@
+﻿<UserControl x:Class="NumericUpDownCustomControl.Page"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    xmlns:src="using:NumericUpDownCustomControl"
+    Width="400" Height="300">
+    <Grid x:Name="LayoutRoot" >
+    <src:NumericUpDown Name="nud" Background="Yellow" Width="100" Height="60" HorizontalAlignment="Left" Margin="0,15,0,0" />
+    
+  </Grid>
+</UserControl>

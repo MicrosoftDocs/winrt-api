@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+
+  <Identity
+    Name="05a38fc1-371b-4abd-ab0f-bfacb351b8fa"
+    Version="1.0.0.0"
+    Publisher="CN=dshevitz" />
+
+  <Properties>
+    <DisplayName>ClipBoardBeta</DisplayName>
+    <Description>ClipBoardBeta</Description>
+    <PublisherDisplayName>dshevitz</PublisherDisplayName>
+    <Logo>images\storelogo.png</Logo>
+  </Properties>
+
+  <Prerequisites>
+    <OSMinVersion>6.2</OSMinVersion>
+    <OSMaxVersionTested>6.2</OSMaxVersionTested>
+  </Prerequisites>
+
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+
+  <Applications>
+    <Application 
+      Id="App"
+      StartPage="default.html">
+
+      <VisualElements
+        DisplayName="ClipBoardBeta"
+        Logo="images\logo.png"
+        SmallLogo="images\smalllogo.png"
+        Description="ClipBoardBeta"
+        ForegroundText="light"
+        BackgroundColor="#000000">
+
+        <DefaultTile ShowName="allLogos" />
+        <SplashScreen Image="images\splashscreen.png" />
+
+      </VisualElements>
+    </Application>
+  </Applications>
+
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+
+</Package>

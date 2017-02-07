@@ -1,0 +1,23 @@
+********************************************************************************
+** This is a list of the snippets in these example projects, in the form:
+** 
+** Source path\file
+**     snippet_id
+**         Doc file(s) (as project_name/filename.xml) in which the snippet is used.
+********************************************************************************
+
+ExampleCode\Resources and Globalization\ResourceGlobalization\js\ResourceGlobalizationJS\js\default.js
+	SnippetResourceLoaderJS
+		w_appmod_res/resourceloader.xml
+
+ExampleCode\Resources and Globalization\ResourceGlobalization\cs\ResourceGlobalizationCS\MainPage.xaml.cs
+	SnippetResourceLoaderCS
+		w_appmod_res/resourceloader.xml
+
+ExampleCode\Resources and Globalization\ResourceGlobalization\vb\ResourceGlobalizationVB\MainPage.xaml.vb
+	SnippetResourceLoaderVB
+		w_appmod_res/resourceloader.xml
+
+ExampleCode\Resources and Globalization\ResourceGlobalization\cpp\ResourceGlobalizationCPP\MainPage.xaml.cpp
+	SnippetResourceLoaderCPP
+		w_appmod_res/resourceloader.xml

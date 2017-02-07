@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>530d8a83-1cfa-4e25-890f-ccfeacae8768</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>2d3c0ce8-d95c-4657-ba25-b01f525aaa27</UniqueIdentifier>
+    </Filter>
+    <Page Include="Common\StandardStyles.xaml">
+      <Filter>Common</Filter>
+    </Page>
+    <Image Include="Assets\Logo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SmallLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Filter Include="Strings">
+      <UniqueIdentifier>{1c90e571-5444-4eda-a656-ce49ee9b16de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Strings\en-US">
+      <UniqueIdentifier>{86732071-4b13-462e-a567-34129138e319}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.xaml.cpp" />
+    <ClCompile Include="MainPage.xaml.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Common\BindableBase.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\BooleanToVisibilityConverter.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\BooleanNegationConverter.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\LayoutAwarePage.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\RichTextColumns.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\SuspensionManager.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="App.xaml.h" />
+    <ClInclude Include="MainPage.xaml.h" />
+    <ClInclude Include="Common\BindableBase.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\BooleanToVisibilityConverter.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\BooleanNegationConverter.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\LayoutAwarePage.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\RichTextColumns.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\SuspensionManager.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ResourceGlobalizationCPP_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="MainPage.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Common\ReadMe.txt">
+      <Filter>Common</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <PRIResource Include="Resources.resw">
+      <Filter>Strings\en-US</Filter>
+    </PRIResource>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,23 @@
+---
+-api-id: T:Windows.System.Threading.WorkItemHandler
+-api-type: winrt delegate
+---
+<!-- Delegate syntax.
+public delegate void WorkItemHandler(Windows.Foundation.IAsyncAction operation)
+-->
+# Windows.System.Threading.WorkItemHandler
+
+## -description
+Represents a method that is called when a work item runs.
+
+## -parameters
+### -param operation
+The work item to associate with the callback method.
+
+
+## -remarks
+The thread pool calls a work item's [WorkItemHandler](workitemhandler.md) delegate when a thread becomes available to run the work item. If a work item is canceled, [WorkItemHandler](workitemhandler.md) delegates that have not yet started running are not called. [WorkItemHandler](workitemhandler.md) delegates that are already running are allowed to finish unless the application stops them. If a work item might run for a relatively long time, the application should check if cancellation has been requested and stop the handler in an orderly way.
+
+## -examples
+
+## -see-also

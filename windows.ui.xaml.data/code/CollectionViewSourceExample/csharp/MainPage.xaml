@@ -1,0 +1,51 @@
+﻿<!--<snippetXaml>-->
+<UserControl x:Class="CollectionViewSourceExample.MainPage"
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  xmlns:local="using:CollectionViewSourceExample"
+  mc:Ignorable="d" d:DesignHeight="300" d:DesignWidth="400" >
+
+  <UserControl.Resources>
+
+    <local:CustomerCollection x:Key="customerSampleData" >
+      <local:Customer FirstName="Syed" LastName="Abbas" Age="23" 
+        CustomerID="E7181DC6-3F9E-45A4-A5F7-AC0B119D1FD8" />
+      <local:Customer FirstName="Brenda" LastName="Diaz" Age="55" 
+        CustomerID="BB638D72-8B72-495A-B0F9-79F37964BBAE" />
+      <local:Customer FirstName="Lori" LastName="Kane" Age="17" 
+        CustomerID="B168D811-5548-4D28-8171-318F9A4D7219" />
+    </local:CustomerCollection>
+
+    <CollectionViewSource x:Name="dataSource" 
+      Source="{StaticResource customerSampleData}">
+      <!--<CollectionViewSource.SortDescriptions>
+        <compMod:SortDescription PropertyName="Age" Direction="Ascending"/>
+      </CollectionViewSource.SortDescriptions>-->
+    </CollectionViewSource>
+  </UserControl.Resources>
+
+  <Grid x:Name="LayoutRoot" Background="Black">
+    <GridView ItemsSource="{Binding Source={StaticResource dataSource}}">
+      <GridView.ItemTemplate>
+        <DataTemplate>
+          <StackPanel>
+            <StackPanel Orientation="Horizontal">
+              <TextBlock Text="{Binding FirstName}"/>
+              <TextBlock Text="{Binding LastName}"/>
+              <TextBlock Text=", Age: "/>
+              <TextBlock Text="{Binding Age}"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+              <TextBlock Text="ID: "/>
+              <TextBlock Text="{Binding CustomerID}"/>
+            </StackPanel>
+          </StackPanel>
+        </DataTemplate>
+      </GridView.ItemTemplate>
+    </GridView>
+  </Grid>
+
+</UserControl>
+<!--</snippetXaml>-->

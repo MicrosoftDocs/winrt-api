@@ -1,0 +1,48 @@
+---
+-api-id: T:Windows.ApplicationModel.AppService.AppServiceConnectionStatus
+-api-type: winrt enum
+---
+
+<!-- Enumeration syntax
+public enum Windows.ApplicationModel.AppService.AppServiceConnectionStatus : int
+-->
+
+# AppServiceConnectionStatus
+
+## -description
+Describes the status for the attempt that an app makes to open a connection to an app service by calling the [AppServiceConnection.OpenAsync](appserviceconnection_openasync.md) method. App service providers enable app-to-app communication by providing services that other Universal Windows app can consume.
+
+## -enum-fields
+### -field Success:0
+The connection to the app service was opened successfully.
+
+### -field AppNotInstalled:1
+The package for the app service to which a connection was attempted is not installed on the device. Check that the package is installed before trying to open a connection to the app service.
+
+### -field AppUnavailable:2
+The package for the app service to which a connection was attempted is temporarily unavailable. Try to connect again later.
+
+### -field AppServiceUnavailable:3
+The app with the specified package family name is installed and available, but the app does not declare support for the specified app service. Check that the name of the app service and the version of the app are correct.
+
+### -field Unknown:4
+An unknown error occurred.
+
+### -field RemoteSystemUnavailable:5
+The device to which a connection was attempted is not available.
+
+### -field RemoteSystemNotSupportedByApp:6
+The app does not support remote connections to the device you attempted to connect with.
+
+### -field NotAuthorized:7
+The user for your app is not authorized to connect to the service.
+
+
+## -remarks
+> [!NOTE]
+> **RemoteSystemUnavailable**, **RemoteSystemNotSupportedByApp**, and **NotAuthorized** were introduced in Windows 10, version 1607
+
+## -examples
+
+## -see-also
+[AppServiceConnection.OpenAsync](appserviceconnection_openasync.md)

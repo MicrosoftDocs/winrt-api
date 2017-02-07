@@ -1,0 +1,66 @@
+---
+-api-id: T:Windows.UI.Xaml.Media.Animation.RepositionThemeAnimation
+-api-type: winrt class
+---
+
+<!-- Class syntax.
+public class RepositionThemeAnimation : Windows.UI.Xaml.Media.Animation.Timeline, Windows.UI.Xaml.Media.Animation.IRepositionThemeAnimation
+-->
+
+# Windows.UI.Xaml.Media.Animation.RepositionThemeAnimation
+
+## -description
+Use to animate an object that is being repositioned.
+
+## -xaml-syntax
+```xaml
+<RepositionThemeAnimation .../>
+```
+
+
+## -remarks
+Note that setting the [Duration](timeline_duration.md) property has no effect on this object since the duration is preconfigured.
+
+## -examples
+The following example applies a [RepositionThemeAnimation](repositionthemetransition.md) to a rectangle.
+
+```xaml
+<Grid>
+    <Grid.Resources>
+        <!-- Sets up a RepositionThemeAnimation using the FromHorizontalOffset property 
+             to start the animation from the old location. -->
+        <Storyboard x:Name="PointerReleasedStoryboard">
+            <RepositionThemeAnimation Storyboard.TargetName="myRectangle" FromHorizontalOffset="-400"/>
+        </Storyboard>
+    </Grid.Resources>
+
+    <Rectangle x:Name="myRectangle" 
+         HorizontalAlignment="Left" 
+         Width="200" 
+         Height="200" 
+         Fill="Blue"
+         PointerReleased="Rectangle_PointerReleased" 
+/>
+</Grid>
+```
+
+```csharp
+private void Rectangle_PointerReleased(object sender, PointerRoutedEventArgs e)
+{
+    myRectangle.Margin = new Thickness(400, 0, 0, 0);
+    PointerReleasedStoryboard.Begin();            
+}
+```
+
+```cpp
+void MyPage::Rectangle_PointerReleased(Object^ sender, PointerRoutedEventArgs^ e)
+{
+    myRectangle->Margin = Thickness(400, 0, 0, 0);
+    PointerReleasedStoryboard->Begin();
+}
+```
+
+
+
+## -see-also
+[Timeline](timeline.md), [Animating repositions](http://msdn.microsoft.com/library/4d715c69-79e6-4179-a66c-a193629966d1), [Guidelines and checklist for reposition animations](XREF:TODO:m_personality.guidelines_for_reposition_animation)

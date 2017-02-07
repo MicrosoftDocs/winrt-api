@@ -1,0 +1,3 @@
+----api-id: P:Windows.UI.Xaml.GridLengthHelper.Auto
+-api-type: winrt property
+---<!-- Property syntaxpublic Windows.UI.Xaml.GridLength Auto { get; }--># Windows.UI.Xaml.GridLengthHelper.Auto## -descriptionGets a static [GridLength](gridlength.md) value that corresponds to the special "Auto" value. C# and Microsoft Visual Basic code should use [Auto](gridlength_auto.md) instead.## -property-valueA [GridLength](gridlength.md) value that corresponds to the special "Auto" value.## -remarks## -examples## -see-also

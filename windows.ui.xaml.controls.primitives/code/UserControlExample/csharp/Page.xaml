@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="UserControlExample.Page"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    >
+    <!--<Snippet3>-->
+    <Grid xmlns:src="using:UserControlExample" 
+       Margin="0,50,0,0">
+
+      <Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+      </Grid.RowDefinitions>
+
+      <src:NameReporter Grid.Row="0"/>
+      <src:NameReporter Grid.Row="1" Margin="0,15,0,0"/>
+
+    </Grid>
+    <!--</Snippet3>-->
+</UserControl>

@@ -1,0 +1,60 @@
+﻿<Page
+    x:Class="RepositionThemeTransition.BlankPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:RepositionThemeTransition"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackPanel Background="{StaticResource ApplicationPageBackgroundBrush}">
+
+        <!-- <SnippetRepositionThemeTransitionSimple> -->
+        <Button Content="Click to reposition" Click="Button_PointerPressed"
+                x:Name="animatedButton">
+            <Button.Transitions>
+                <TransitionCollection>
+                    <RepositionThemeTransition/>
+                </TransitionCollection>
+            </Button.Transitions>
+        </Button>
+        <!-- </SnippetRepositionThemeTransitionSimple> -->
+
+        <!-- <SnippetRepositionThemeTransition> -->
+        <Button Content="Remove Rectangle" Click="RemoveButton_Click"/>
+        
+        <ItemsControl Grid.Row="1" x:Name="rectangleItems">
+            <ItemsControl.ItemContainerTransitions>
+                <TransitionCollection>
+                    
+                    <!-- Without this, there would be no animation when items 
+                         are removed. -->
+                    <RepositionThemeTransition/>
+                </TransitionCollection>
+            </ItemsControl.ItemContainerTransitions>
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <WrapGrid Height="400"/>
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+            
+            <!-- All these rectangles are just to demonstrate how the items
+                 in the grid re-flow into position when one of the child items
+                 are removed. -->
+            <ItemsControl.Items>
+                <Rectangle Fill="Red" Width="100" Height="100" Margin="10"/>
+                <Rectangle Fill="Red" Width="100" Height="100" Margin="10"/>
+                <Rectangle Fill="Red" Width="100" Height="100" Margin="10"/>
+                <Rectangle Fill="Red" Width="100" Height="100" Margin="10"/>
+                <Rectangle Fill="Red" Width="100" Height="100" Margin="10"/>
+                <Rectangle Fill="Red" Width="100" Height="100" Margin="10"/>
+                <Rectangle Fill="Red" Width="100" Height="100" Margin="10"/>
+                <Rectangle Fill="Red" Width="100" Height="100" Margin="10"/>
+                <Rectangle Fill="Red" Width="100" Height="100" Margin="10"/>
+            </ItemsControl.Items>
+        </ItemsControl>
+        <!-- </SnippetRepositionThemeTransition> -->
+
+
+    </StackPanel>
+</Page>

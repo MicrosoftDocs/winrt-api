@@ -1,0 +1,40 @@
+﻿<Page
+    x:Class="SimpleCaptureTest2.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SimpleCaptureTest2"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Loaded="Page_Loaded">
+
+    <StackPanel Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <!--<CaptureElement x:Name="capturePreview" 
+                        Width="320" Height="240"/>
+
+        <Button Click="InitCamera_Click" 
+                Content="Init Camera" />
+        <Button Click="StartCapturePreview_Click" 
+                Content="Start Capture Preview" />
+        <Button Click="StartRecord_Click"
+                Content="Start Record" />
+        <Button Click="StopPreivew_Click"
+                Content="Stop Preivew" />
+        <Button Click="StopCapturePreview_Click" 
+                Content="Stop Capture Preview with ThreadPool" />
+        <Button Click="StopCapturePreviewDispatcherTimer_Click"
+                Content="Stop Capture Preview with DispatcherTimer" />
+        <Button Click="StopRecord_Click"
+                Content="Stop Record" />
+        
+        <Button Click="StopRecordThreadPool_Click"
+                Content="Stop Record With ThreadPool" />
+        
+        <Button Click="StopRecordThreadPool2_Click"
+                Content="Stop Record With ThreadPool No Dispatcher"/>
+        
+        <Button Click=" StopRecordDispatcherTimer_Click"
+                Content="Stop Record With DispatcherTimer" />-->
+        
+        <TextBlock Name="txtDisplay" Text="Output" />
+    </StackPanel>
+</Page>

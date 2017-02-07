@@ -1,0 +1,16 @@
+---
+-api-id: N:Windows.Graphics.Imaging
+-api-type: winrt namespace
+---
+
+# Windows.Graphics.Imaging
+
+## -description
+Enables the decoding, editing, and encoding of image files.
+
+## -remarks
+
+## -examples
+
+## -see-also
+[Simple Imaging sample](http://go.microsoft.com/fwlink/p/?LinkID=231549), [Imaging](http://msdn.microsoft.com/library/3fd2aa71-ef67-47b2-9332-3ffa5d3703ea), [Imaging](http://msdn.microsoft.com/library/3fd2aa71-ef67-47b2-9332-3ffa5d3703ea), [Simple imaging sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620601), [Basic face detection sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620512)

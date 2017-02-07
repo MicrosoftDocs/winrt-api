@@ -1,0 +1,34 @@
+﻿<UserControl x:Class="SilverlightApplication1.Page"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    Width="500" Height="300">
+    <StackPanel Orientation="Horizontal">
+        <StackPanel.Resources>
+            <Storyboard x:Name="myStoryboard">
+                <DoubleAnimation x:Name="myDoubleAnimation"
+                 Storyboard.TargetProperty="Opacity"
+                 From="1.0" To="0.0" Duration="0:0:2"
+                 AutoReverse="True" />
+            </Storyboard>
+        </StackPanel.Resources>
+        <Rectangle
+       x:Name="MyAnimatedRectangle1"
+       Margin="3" Width="100" Height="100" Fill="Blue"
+       PointerPressed="Start_Animation" />
+
+        <Rectangle
+       x:Name="MyAnimatedRectangle2"
+       Margin="3" Width="100" Height="100" Fill="Blue"
+       PointerPressed="Start_Animation" />
+
+        <Rectangle
+       x:Name="MyAnimatedRectangle3"
+       Margin="3" Width="100" Height="100" Fill="Blue"
+       PointerPressed="Start_Animation" />
+
+        <Rectangle
+       x:Name="MyAnimatedRectangle4"
+       Margin="3" Width="100" Height="100" Fill="Blue"
+       PointerPressed="Start_Animation" />
+    </StackPanel>
+</UserControl>

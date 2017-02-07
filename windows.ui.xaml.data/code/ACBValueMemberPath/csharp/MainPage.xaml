@@ -1,0 +1,27 @@
+<!--<snippet1>-->
+<UserControl xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk"
+    x:Class="ACBValueMemberPath.MainPage" 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    xmlns:local="using:ACBValueMemberPath"
+    Width="400" Height="413">
+    <StackPanel x:Name="LayoutRoot"  >
+        <StackPanel Orientation="Horizontal">
+         <TextBlock Margin="5" Text="Enter a recording name:" TextWrapping="Wrap" />
+            <!--<AutoCompleteBox FilterMode="ContainsOrdinal" VerticalAlignment="Top" Margin="5" Width="170" 
+                Height="30" x:Name="myACB" 
+                ItemsSource="{Binding}" 
+                ValueMemberPath="Name">
+                <AutoCompleteBox.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel>
+                        <TextBlock Text="{Binding Path=Name}"  />
+                        <TextBlock Text="{Binding Path=Artist}"  />
+                        </StackPanel>
+                    </DataTemplate>
+                </AutoCompleteBox.ItemTemplate>
+            </AutoCompleteBox>-->
+        </StackPanel>
+      </StackPanel>
+</UserControl>
+<!--</snippet1>-->

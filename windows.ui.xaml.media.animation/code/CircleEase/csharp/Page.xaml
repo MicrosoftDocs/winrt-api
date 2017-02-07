@@ -1,0 +1,31 @@
+﻿<UserControl x:Class="CircleEase.Page"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    Width="400" Height="300">
+    <StackPanel>
+        <TextBlock Margin="10" TextWrapping="Wrap">Click on the rectangle to start the animation. Applies a CircleEase easing function to a DoubleAnimation to create a decelerating animation.</TextBlock>
+    <!-- <SnippetCircleEase> -->
+    <StackPanel x:Name="LayoutRoot" >
+        <StackPanel.Resources>
+            <Storyboard x:Name="myStoryboard">
+                <DoubleAnimation From="1" To="6" Duration="00:00:3" 
+                    Storyboard.TargetName="rectScaleTransform" 
+                    Storyboard.TargetProperty="ScaleY" EnableDependentAnimation="True">
+                    <DoubleAnimation.EasingFunction>
+                        <CircleEase EasingMode="EaseOut"/>
+                    </DoubleAnimation.EasingFunction>
+                </DoubleAnimation>
+            </Storyboard>
+        </StackPanel.Resources>
+
+            <Rectangle x:Name="myRectangle" PointerPressed="Pointer_Clicked" 
+         Fill="Blue" Width="200" Height="30">
+                <Rectangle.RenderTransform>
+                    <ScaleTransform x:Name="rectScaleTransform" />
+                </Rectangle.RenderTransform>
+            </Rectangle>
+
+        </StackPanel>
+    <!-- </SnippetCircleEase> -->
+    </StackPanel>
+</UserControl>

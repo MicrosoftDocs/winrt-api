@@ -1,0 +1,10 @@
+﻿<UserControl x:Class="Binding_Simple_2.Page"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    Width="400" Height="300">
+    <Grid x:Name="LayoutRoot">
+<!--<SnippetBindingMode>-->
+<TextBox x:Name="MyTextBox" Text="Text" Foreground="{Binding Brush1, Mode=OneWay}"/>
+<!--</SnippetBindingMode>-->
+    </Grid>
+</UserControl>

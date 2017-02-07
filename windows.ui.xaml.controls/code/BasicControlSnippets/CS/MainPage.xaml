@@ -1,0 +1,284 @@
+﻿<Page
+    x:Class="BasicControlSnippets.MainPage"
+    IsTabStop="false"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BasicControlSnippets"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Page.Resources>
+        <Style TargetType="Canvas">
+            <Setter Property="Margin" Value="80" />
+        </Style>
+    </Page.Resources>
+    <Page.TopAppBar>
+        <AppBar x:Name="topAppBar" Padding="10,0,10,0">
+            <Grid>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                    <Button Style="{StaticResource SaveAppBarButtonStyle}" Click="Button_Click"/>
+                    <Button Style="{StaticResource UploadAppBarButtonStyle}" Click="Button_Click"/>
+                </StackPanel>
+            </Grid>
+        </AppBar>
+    </Page.TopAppBar>
+    <!-- <SnippetBasicAppBarXAML> -->
+    <Page.BottomAppBar>
+        <AppBar x:Name="bottomAppBar" Padding="10,0,10,0">
+            <Grid>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                    <Button Style="{StaticResource EditAppBarButtonStyle}" Click="Button_Click"/>
+                    <Button Style="{StaticResource RemoveAppBarButtonStyle}" Click="Button_Click"/>
+                    <Button Style="{StaticResource AddAppBarButtonStyle}" Click="Button_Click"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                    <Button Style="{StaticResource RefreshAppBarButtonStyle}" Click="Button_Click"/>
+                    <Button Style="{StaticResource HelpAppBarButtonStyle}" Click="Button_Click"/>
+                </StackPanel>
+            </Grid>
+        </AppBar>
+    </Page.BottomAppBar>
+    <!-- </SnippetBasicAppBarXAML> -->
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <ScrollViewer>
+            <StackPanel>
+                <!-- TOOLTIP -->
+                <Canvas>
+                    <!-- <SnippetBasicToolTipXAML> -->
+                    <Button Content="Button" Click="Button_Click" 
+                            ToolTipService.ToolTip="Click to perform action" />
+                    <!-- </SnippetBasicToolTipXAML> -->
+                </Canvas>
+
+                <!-- BUTTON -->
+                <Canvas>
+                    <!-- <SnippetBasicButtonXAML> -->
+                    <Button x:Name="button1" Content="Button" 
+                            Click="Button_Click" />
+                    <!-- </SnippetBasicButtonXAML> -->
+                </Canvas>
+
+                <Canvas>
+                    <!-- <SnippetBasicToggleButtonXAML> -->
+                    <ToggleButton x:Name="toggleButton1" Content="Button" 
+                                  Checked="ToggleButton_Checked"/>
+                    <!-- </SnippetBasicToggleButtonXAML> -->
+                </Canvas>
+
+                <Canvas>
+                    <!-- <SnippetBasicRepeatButtonXAML> -->
+                    <RepeatButton x:Name="repeatButton1" Content="Repeat Button" 
+                                  Click="RepeatButton_Click" />
+                    <!-- </SnippetBasicRepeatButtonXAML> -->
+                </Canvas>
+
+                <Canvas>
+                    <!-- <SnippetBasicHyperlinkButtonXAML> -->
+                    <HyperlinkButton Content="www.microsoft.com" NavigateUri="http://www.microsoft.com"/>
+                    <!-- </SnippetBasicHyperlinkButtonXAML> -->
+                </Canvas>
+
+                <!-- CHECKBOX -->
+                <StackPanel Margin="40">
+                    <!-- <SnippetBasicCheckBoxXAML> -->
+                    <CheckBox x:Name="checkbox1" Content="CheckBox" 
+                              Checked="CheckBox_Checked"/>
+                    <!-- </SnippetBasicCheckBoxXAML> -->
+                    <CheckBox x:Name="checkbox2" Content="CheckBox" Checked="CheckBox_Checked" IsChecked="True"/>
+                    <CheckBox x:Name="checkbox3" Content="CheckBox" Checked="CheckBox_Checked" IsThreeState="True" IsChecked="{x:Null}"/>
+                </StackPanel>
+
+                <!-- RADIOBUTTON -->
+              <!-- <SnippetRadioButtonsXAML> -->
+                <StackPanel Margin="40">
+                    <!-- <SnippetBasicRadioButtonXAML> -->
+                    <RadioButton x:Name="radioButton1" Content="RadioButton 1" GroupName="Group1" 
+                                 Checked="RadioButton_Checked"/>
+                    <RadioButton x:Name="radioButton2" Content="RadioButton 2" GroupName="Group1" 
+                                 Checked="RadioButton_Checked" IsChecked="True"/>
+                    <RadioButton x:Name="radioButton3" Content="RadioButton 3" GroupName="Group1" 
+                                 Checked="RadioButton_Checked"/>
+                    <!-- </SnippetBasicRadioButtonXAML> -->
+                    <RadioButton x:Name="radioButtonA" Content="RadioButton A" GroupName="Group2" 
+                                 Checked="RadioButton_Checked"/>
+                    <RadioButton x:Name="radioButtonB" Content="RadioButton B" GroupName="Group2" 
+                                 Checked="RadioButton_Checked"/>
+                </StackPanel>
+              <!-- </SnippetRadioButtonsXAML> -->
+
+                <!-- SLIDER -->
+                <Canvas>
+                    <!-- <SnippetBasicSliderXAML> -->
+                    <Slider x:Name="slider1" Width="100" ValueChanged="Slider_ValueChanged" />
+                    <!-- </SnippetBasicSliderXAML> -->
+                </Canvas>
+
+                <!-- TOGGLESWITCH -->
+                <StackPanel Margin="40">
+                    <!-- <SnippetBasicToggleSwitchXAML> -->
+                    <ToggleSwitch x:Name="toggleSwitch1" Header="ToggleSwitch" 
+                                  OnContent="On" OffContent="Off" 
+                                  Toggled="ToggleSwitch_Toggled"/>
+                    <!-- </SnippetBasicToggleSwitchXAML> -->
+                    <ToggleSwitch x:Name="toggleSwitch2" Header="ToggleSwitch" OnContent="On" OffContent="Off" Toggled="ToggleSwitch_Toggled" IsOn="True" />
+                </StackPanel>
+
+                <!-- COMBOBOX -->
+                <Grid Margin="40">
+                    <!-- <SnippetBasicComboBoxXAML> -->
+                    <ComboBox x:Name="comboBox1" SelectionChanged="ComboBox_SelectionChanged" Width="100">
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 2</x:String>
+                        <x:String>Item 3</x:String>
+                    </ComboBox>
+                    <!-- </SnippetBasicComboBoxXAML> -->
+                </Grid>
+
+              <Grid Margin="40">
+                <!-- <SnippetBasicBoundComboBoxXAML> -->
+                <ComboBox ItemsSource="{Binding}" SelectionChanged="ComboBox_SelectionChanged" Width="100"/>
+                <!-- </SnippetBasicBoundComboBoxXAML> -->
+              </Grid>
+
+                <!-- LISTBOX -->
+                <Canvas Height="100">
+                    <!-- <SnippetBasicListBoxXAML> -->
+                    <ListBox x:Name="listBox1" SelectionChanged="ListBox_SelectionChanged" Width="100">
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 2</x:String>
+                        <x:String>Item 3</x:String>
+                    </ListBox>
+                    <!-- </SnippetBasicListBoxXAML> -->
+                </Canvas>
+
+              <Canvas Height="100">
+                <!-- <SnippetBasicBoundListBoxXAML> -->
+                <ListBox ItemsSource="{Binding}" SelectionChanged="ListBox_SelectionChanged" Width="100"/>
+                <!-- </SnippetBasicBoundListBoxXAML> -->
+              </Canvas>
+
+                <!-- PROGRESSBAR-->
+                <Canvas>
+                    <!-- <SnippetBasicProgressBarXAML> -->
+                    <ProgressBar x:Name="progressBar1" Value="50" Width="100"/>
+                    <!-- </SnippetBasicProgressBarXAML> -->
+                </Canvas>
+                <Canvas>
+                    <!-- <SnippetIndeterminateProgressBarXAML> -->
+                    <ProgressBar x:Name="indeterminateProgressBar1" IsIndeterminate="True" Width="100"/>
+                    <!-- </SnippetIndeterminateProgressBarXAML> -->
+                </Canvas>
+
+                <!-- PROGRESSRING -->
+                <Canvas>
+                    <!-- <SnippetBasicProgressRingXAML> -->
+                    <ProgressRing x:Name="progressRing1" IsActive="True"/>
+                    <!-- </SnippetBasicProgressRingXAML> -->
+                </Canvas>
+
+                <!-- IMAGE -->
+                <Canvas Height="150">
+                    <!-- <SnippetBasicImageXAML> -->
+                    <Image Source="Assets/Logo.png" />
+                    <!-- </SnippetBasicImageXAML> -->
+                </Canvas>
+
+                <!-- TEXTBLOCK -->
+                <Canvas>
+                    <!-- <SnippetBasicTextBlockXAML> -->
+                    <TextBlock x:Name="textBlock1" Text="I am a TextBlock" />
+                    <!-- </SnippetBasicTextBlockXAML> -->
+                </Canvas>
+
+                <!-- TEXTBOX -->
+                <Canvas>
+                    <!-- <SnippetBasicTextBoxXAML> -->
+                    <TextBox x:Name="textBox1" Text="I am a TextBox" 
+                             TextChanged="TextBox_TextChanged" />
+                    <!-- </SnippetBasicTextBoxXAML> -->
+                </Canvas>
+
+                <!-- PASSWORDBOX -->
+                <Canvas>
+                    <!-- <SnippetBasicPasswordBoxXAML> -->
+                    <PasswordBox x:Name="passwordBox1" IsPasswordRevealButtonEnabled="True" 
+                                 PasswordChanged="PasswordBox_PasswordChanged" />
+                    <!-- </SnippetBasicPasswordBoxXAML> -->
+                </Canvas>
+
+                <!-- LISTVIEW -->
+                <Canvas Height="100" Width="200">
+                    <!-- <SnippetBasicListViewXAML> -->
+                    <ListView x:Name="listView1" SelectionChanged="ListView_SelectionChanged">
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 2</x:String>
+                    </ListView>
+                    <!-- </SnippetBasicListViewXAML> -->
+                </Canvas>
+                <Canvas>
+                    <!-- <SnippetBasicBoundListViewXAML> -->
+                    <ListView ItemsSource="{Binding}" SelectionChanged="ListView_SelectionChanged"/>
+                    <!-- </SnippetBasicBoundListViewXAML> -->
+                </Canvas>
+
+                <!-- GRIDVIEW -->
+                <Canvas Height="100" Width="200">
+                    <!-- <SnippetBasicGridViewXAML> -->
+                    <GridView x:Name="gridView1" SelectionChanged="GridView_SelectionChanged">
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 2</x:String>
+                    </GridView>
+                    <!-- </SnippetBasicGridViewXAML> -->
+                </Canvas>
+                <Canvas>
+                    <!-- <SnippetBasicBoundGridViewXAML> -->
+                    <GridView ItemsSource="{Binding}" SelectionChanged="GridView_SelectionChanged"/>
+                    <!-- </SnippetBasicBoundGridViewXAML> -->
+                </Canvas>
+
+                <!-- FLIPVIEW -->
+                <Grid Height="500" Width="500">
+                    <!-- <SnippetBasicFlipViewXAML> -->
+                    <FlipView x:Name="flipView1" SelectionChanged="FlipView_SelectionChanged">
+                        <Image Source="Assets/Logo.png" />
+                        <Image Source="Assets/SplashScreen.png" />
+                        <Image Source="Assets/SmallLogo.png" />
+                    </FlipView>
+                    <!-- </SnippetBasicFlipViewXAML> -->
+                </Grid>
+                <Grid>
+                    <!-- <SnippetBasicBoundFlipViewXAML> -->
+                    <FlipView ItemsSource="{Binding}" SelectionChanged="FlipView_SelectionChanged"/>
+                    <!-- </SnippetBasicBoundFlipViewXAML> -->
+                </Grid>
+
+                <!-- WEBVIEW -->
+                <Grid>
+                    <!-- <SnippetBasicWebViewXAML> -->
+                    <WebView x:Name="webView1" Source="http://dev.windows.com" Height="400" Width="800" />
+                    <!-- </SnippetBasicWebViewXAML> -->
+                </Grid>
+                <Grid>
+                    <!-- <SnippetBasicWebViewBrushXAML> -->
+                    <Rectangle Height="400" Width="800">
+                        <Rectangle.Fill>
+                            <WebViewBrush SourceName="webView1"/>
+                        </Rectangle.Fill>
+                    </Rectangle>
+                    <!-- </SnippetBasicWebViewBrushXAML> -->
+                </Grid>
+
+            </StackPanel>
+        </ScrollViewer>
+
+        <StackPanel x:Name="stackPanel1" Grid.Column="1">
+            <!-- This stack panel is used to add controls to in code. -->
+        </StackPanel>
+
+    </Grid>
+</Page>

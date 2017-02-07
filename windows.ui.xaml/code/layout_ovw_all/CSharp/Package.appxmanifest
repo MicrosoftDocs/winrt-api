@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  
+  <Identity Name="e1bdaf58-eae1-4278-9e8a-4039ad54457c"
+            Publisher="CN=carolesn"
+            Version="1.0.0.0" />
+  
+  <Properties>
+    <DisplayName>layout_ovw_all</DisplayName>
+    <PublisherDisplayName>carolesn</PublisherDisplayName>
+    <Logo>Images\StoreLogo.png</Logo>
+    <Description>layout_ovw_all</Description>
+  </Properties>
+  
+  <Prerequisites>
+    <OSMinVersion>6.2</OSMinVersion>
+    <OSMaxVersionTested>6.2</OSMaxVersionTested>
+  </Prerequisites>
+  
+  <Resources>
+    <Resource Language="en-us"/>
+  </Resources>
+  
+  <Applications>
+    <Application Id="App" 
+        Executable="layout-ovw-all.exe" 
+        EntryPoint="layout_ovw_all.App">
+        <VisualElements 
+            DisplayName="layout_ovw_all"
+            Logo="Images\Logo.png"
+            SmallLogo="Images\SmallLogo.png"
+            Description="layout_ovw_all"
+            ForegroundText="light"
+            BackgroundColor="#222222">
+            <SplashScreen Image="Images\SplashScreen.png" />
+        </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>

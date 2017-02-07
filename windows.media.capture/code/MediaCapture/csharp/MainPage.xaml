@@ -1,0 +1,54 @@
+﻿<Page
+    x:Class="MediaCaptureSnippets.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MediaCaptureSnippets"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackPanel Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+
+        <!-- <SnippetMediaCapturePreviewXAML> -->
+        <StackPanel Orientation="Horizontal">
+            <CaptureElement x:Name="capturePreview" Width="320" Height="240" />
+            <Image x:Name="imagePreview" Stretch="None" Width="320" Height="240" />
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal">
+            <Button Click="InitCamera_Click" Content="Initialize Camera" />
+            <Button Click="StartCapturePreview_Click" Content="Start Capture Preview" />
+            <Button Click="CapturePhoto_Click" Content="Capture Photo"/>
+            <Button Click="StopCapturePreview_Click" Content="Stop Capture Preview" />
+        </StackPanel>
+        <!-- </SnippetMediaCapturePreviewXAML> -->
+
+        <!-- <SnippetMediaCaptureLowLagXAML> -->
+        <StackPanel Orientation="Horizontal">
+            <Image x:Name="imageLowLagPhoto" Stretch="None" 
+                   Width="320" Height="240" />
+            <Image x:Name="imageLowLagThumbnail" Stretch="None" 
+                   Width="320" Height="240" />
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal">
+            <Button Click="InitMediaCapture_Click" Content="Initialize Camera" />
+            <Button Click="InitLowLagPhotoCapture_Click" Content="Initialize Low Lag Photo Capture"/>
+            <Button Click="CaptureLagPhotoCapture_Click" Content="Capture Low Lag Photo"/>
+            <Button Click="CloseLagPhotoCapture_Click" Content="Finish low Lag Capture"/>
+        </StackPanel>
+        <!-- </SnippetMediaCaptureLowLagXAML> -->
+
+        <!-- <SnippetCaptureMediaElement> -->
+        <MediaElement x:Name="mediaPreivew"
+                      Width="320" />
+        <!-- </SnippetCaptureMediaElement> -->
+
+        <Button Click="RecordVideo_Click" Content="Record Video" />
+        <Button Click="StopRecord_Click" Content="Stop Recording Video" />
+        <Button Click="PlayVideo_Click" Content="Play Recorded Video" />
+        <Button Click="GetDevices_Click" Content="Get Devices" />
+        <TextBlock Name="txtDisplay" Width="200" />
+        <Button Click="CameraCaptureUI_Click" Content="Camera Capture UI" />
+    </StackPanel>
+</Page>

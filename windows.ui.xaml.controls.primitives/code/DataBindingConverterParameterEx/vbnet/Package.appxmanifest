@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+
+  <Identity Name="4ec4702b-1926-49b4-92c3-87e475d1c59e"
+            Publisher="CN=karler"
+            Version="1.0.0.0" />
+
+  <Properties>
+    <DisplayName>DataBindingConverterParameterEx</DisplayName>
+    <PublisherDisplayName>karler</PublisherDisplayName>
+    <Logo>Images\StoreLogo.png</Logo>
+    <Description>DataBindingConverterParameterEx</Description>
+  </Properties>
+
+  <Prerequisites>
+    <OSMinVersion>6.2</OSMinVersion>
+    <OSMaxVersionTested>6.2</OSMaxVersionTested>
+  </Prerequisites>
+
+  <Resources>
+    <Resource Language="en-us"/>
+  </Resources>
+
+  <Applications>
+    <Application Id="App"
+        Executable="$targetnametoken$.exe"
+        EntryPoint="DataBindingConverterParameterEx.App">
+        <VisualElements
+            DisplayName="DataBindingConverterParameterEx"
+            Logo="Images\Logo.png"
+            SmallLogo="Images\SmallLogo.png"
+            Description="DataBindingConverterParameterEx"
+            ForegroundText="light"
+            BackgroundColor="#222222">
+            <DefaultTile ShowName="allLogos" />
+            <SplashScreen Image="Images\SplashScreen.png" />
+        </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>

@@ -1,0 +1,3 @@
+----api-id: M:Windows.Devices.PointOfService.ClaimedBarcodeScanner.Close
+-api-type: winrt method
+---<!-- Method syntaxpublic void Close()--># Windows.Devices.PointOfService.ClaimedBarcodeScanner.Close## -descriptionReleases exclusive claim to the barcode scanner.## -remarks[Close](../windows.foundation/iclosable_close.md) methods aren't callable through Visual C++ component extensions (C++/CX) on Windows Runtime class instances where the class implemented [IClosable](../windows.foundation/iclosable.md). Instead, Visual C++ component extensions (C++/CX) code for runtime classes should call the destructor or set the last reference to **null**.## -examples## -see-also

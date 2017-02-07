@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DSHEVITZ-BUILD</Machine>
+    <WindowsUser>dshevitz</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\WDC_SD\windowssamples\ExampleCode\Sharing\DataTransferManagerSample\javascript\DataTransferClassSample\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <Modified>2011-11-15T09:04:07.511</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppXPackagedFile Include="C:\WDC_SD\windowssamples\ExampleCode\Sharing\DataTransferManagerSample\javascript\DataTransferClassSample\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2011-11-15T09:00:16.302</Modified>
+    </AppXPackagedFile>
+    <AppXPackagedFile Include="C:\WDC_SD\windowssamples\ExampleCode\Sharing\DataTransferManagerSample\javascript\DataTransferClassSample\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2011-11-15T09:05:23.188</Modified>
+    </AppXPackagedFile>
+    <AppXPackagedFile Include="C:\WDC_SD\windowssamples\ExampleCode\Sharing\DataTransferManagerSample\javascript\DataTransferClassSample\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2011-11-15T09:00:16.336</Modified>
+    </AppXPackagedFile>
+    <AppXPackagedFile Include="C:\WDC_SD\windowssamples\ExampleCode\Sharing\DataTransferManagerSample\javascript\DataTransferClassSample\images\logo.png">
+      <PackagePath>images\logo.png</PackagePath>
+      <Modified>2011-11-15T09:00:16.336</Modified>
+    </AppXPackagedFile>
+    <AppXPackagedFile Include="C:\WDC_SD\windowssamples\ExampleCode\Sharing\DataTransferManagerSample\javascript\DataTransferClassSample\images\smalllogo.png">
+      <PackagePath>images\smalllogo.png</PackagePath>
+      <Modified>2011-11-15T09:00:16.336</Modified>
+    </AppXPackagedFile>
+    <AppXPackagedFile Include="C:\WDC_SD\windowssamples\ExampleCode\Sharing\DataTransferManagerSample\javascript\DataTransferClassSample\images\splashscreen.png">
+      <PackagePath>images\splashscreen.png</PackagePath>
+      <Modified>2011-11-15T09:00:16.336</Modified>
+    </AppXPackagedFile>
+    <AppXPackagedFile Include="C:\WDC_SD\windowssamples\ExampleCode\Sharing\DataTransferManagerSample\javascript\DataTransferClassSample\images\storelogo.png">
+      <PackagePath>images\storelogo.png</PackagePath>
+      <Modified>2011-11-15T09:00:16.348</Modified>
+    </AppXPackagedFile>
+    <AppXPackagedFile Include="C:\WDC_SD\windowssamples\ExampleCode\Sharing\DataTransferManagerSample\javascript\DataTransferClassSample\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2011-11-15T09:00:16.348</Modified>
+    </AppXPackagedFile>
+    <AppXPackagedFile Include="C:\WDC_SD\windowssamples\ExampleCode\Sharing\DataTransferManagerSample\javascript\DataTransferClassSample\winjs\Css\ui-dark.css">
+      <PackagePath>winjs\Css\ui-dark.css</PackagePath>
+      <Modified>2011-11-15T09:00:16.348</Modified>
+    </AppXPackagedFile>
+    <AppXPackagedFile Include="C:\WDC_SD\windowssamples\ExampleCode\Sharing\DataTransferManagerSample\javascript\DataTransferClassSample\winjs\Css\ui-light.css">
+      <PackagePath>winjs\Css\ui-light.css</PackagePath>
+      <Modified>2011-11-15T09:00:16.348</Modified>
+    </AppXPackagedFile>
+    <AppXPackagedFile Include="C:\WDC_SD\windowssamples\ExampleCode\Sharing\DataTransferManagerSample\javascript\DataTransferClassSample\winjs\js\animations.js">
+      <PackagePath>winjs\js\animations.js</PackagePath>
+      <Modified>2011-11-15T09:00:16.366</Modified>
+    </AppXPackagedFile>
+    <AppXPackagedFile Include="C:\WDC_SD\windowssamples\ExampleCode\Sharing\DataTransferManagerSample\javascript\DataTransferClassSample\winjs\js\base.js">
+      <PackagePath>winjs\js\base.js</PackagePath>
+      <Modified>2011-11-15T09:00:16.366</Modified>
+    </AppXPackagedFile>
+    <AppXPackagedFile Include="C:\WDC_SD\windowssamples\ExampleCode\Sharing\DataTransferManagerSample\javascript\DataTransferClassSample\winjs\js\binding.js">
+      <PackagePath>winjs\js\binding.js</PackagePath>
+      <Modified>2011-11-15T09:00:16.426</Modified>
+    </AppXPackagedFile>
+    <AppXPackagedFile Include="C:\WDC_SD\windowssamples\ExampleCode\Sharing\DataTransferManagerSample\javascript\DataTransferClassSample\winjs\js\controls.js">
+      <PackagePath>winjs\js\controls.js</PackagePath>
+      <Modified>2011-11-15T09:00:16.492</Modified>
+    </AppXPackagedFile>
+    <AppXPackagedFile Include="C:\WDC_SD\windowssamples\ExampleCode\Sharing\DataTransferManagerSample\javascript\DataTransferClassSample\winjs\js\res.js">
+      <PackagePath>winjs\js\res.js</PackagePath>
+      <Modified>2011-11-15T09:00:16.492</Modified>
+    </AppXPackagedFile>
+    <AppXPackagedFile Include="C:\WDC_SD\windowssamples\ExampleCode\Sharing\DataTransferManagerSample\javascript\DataTransferClassSample\winjs\js\ui.js">
+      <PackagePath>winjs\js\ui.js</PackagePath>
+      <Modified>2011-11-15T09:00:16.570</Modified>
+    </AppXPackagedFile>
+    <AppXPackagedFile Include="C:\WDC_SD\windowssamples\ExampleCode\Sharing\DataTransferManagerSample\javascript\DataTransferClassSample\winjs\js\uicollections.js">
+      <PackagePath>winjs\js\uicollections.js</PackagePath>
+      <Modified>2011-11-15T09:00:16.711</Modified>
+    </AppXPackagedFile>
+    <AppXPackagedFile Include="C:\WDC_SD\windowssamples\ExampleCode\Sharing\DataTransferManagerSample\javascript\DataTransferClassSample\winjs\js\wwaapp.js">
+      <PackagePath>winjs\js\wwaapp.js</PackagePath>
+      <Modified>2011-11-15T09:00:16.711</Modified>
+    </AppXPackagedFile>
+  </ItemGroup>
+</Project>

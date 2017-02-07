@@ -1,0 +1,54 @@
+﻿<UserControl x:Class="StylingTemplatingOverview.DefineTemplateSnippets"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    Width="400" Height="300">
+  <StackPanel>
+    <StackPanel>
+      
+      <!--<SnippetInlineTemplate>-->
+      <Button Content="Button1">
+        <Button.Template>
+          <ControlTemplate TargetType="Button">
+
+            <!--Define the ControlTemplate here.-->
+          
+          </ControlTemplate>
+        </Button.Template>
+      </Button> 
+      <!--</SnippetInlineTemplate>-->
+    </StackPanel>
+    
+    <!--<SnippetTemplateResource>-->
+    <StackPanel>
+      <StackPanel.Resources>
+        <ControlTemplate TargetType="Button" x:Key="newTemplate">
+          
+          <!--Define the ControlTemplate here.-->
+        
+        </ControlTemplate>
+      </StackPanel.Resources>
+      
+      <Button Template="{StaticResource newTemplate}" Content="Button1"/>
+    </StackPanel>
+    <!--</SnippetTemplateResource>-->
+    
+    <!--<SnippetTemplateInStyle>-->
+    <StackPanel>
+      <StackPanel.Resources>
+        <Style TargetType="Button" x:Key="newTemplate"> 
+          <Setter Property="Template">
+            <Setter.Value>
+              <ControlTemplate TargetType="Button">
+        
+                <!--Define the ControlTemplate here.-->
+              
+              </ControlTemplate>
+            </Setter.Value>
+          </Setter>
+        </Style>
+      </StackPanel.Resources>
+      <Button Style="{StaticResource newTemplate}" Content="Button1"/>
+    </StackPanel>
+    <!--</SnippetTemplateInStyle>-->
+  </StackPanel>
+</UserControl>

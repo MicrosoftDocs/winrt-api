@@ -1,0 +1,43 @@
+﻿<UserControl x:Class="text.textblock_scale_transform"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    Width="400" Height="300">
+    <Grid x:Name="LayoutRoot" >
+    <!-- <snippetScaleTransform> -->
+    <Canvas>
+        <StackPanel>
+            <TextBlock
+                FontFamily="Verdana"
+                FontSize="32"
+                FontWeight="Bold" 
+                Foreground="SteelBlue"
+                Text="Scaled Text" />
+
+            <!-- Scale the text width using a ScaleTransform. -->
+            <TextBlock
+                FontFamily="Verdana"
+                FontSize="32"
+                FontWeight="Bold" 
+                Foreground="SteelBlue"
+                Text="Scaled Text">
+              <TextBlock.RenderTransform>
+                <ScaleTransform ScaleX="1.5" ScaleY="1.0" />
+              </TextBlock.RenderTransform>
+            </TextBlock>
+
+            <!-- Scale the text height using a ScaleTransform. -->
+            <TextBlock
+                FontFamily="Verdana"
+                FontSize="32"
+                FontWeight="Bold" 
+                Foreground="SteelBlue"
+                Text="Scaled Text">
+                <TextBlock.RenderTransform>
+                  <ScaleTransform ScaleX="1.0" ScaleY="1.5" />
+                </TextBlock.RenderTransform>
+            </TextBlock>
+        </StackPanel>
+    </Canvas>
+    <!-- </snippetScaleTransform> -->
+    </Grid>
+</UserControl>

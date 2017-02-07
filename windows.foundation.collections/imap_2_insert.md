@@ -1,0 +1,31 @@
+---
+-api-id: M:Windows.Foundation.Collections.IMap`2.Insert(`0,`1)
+-api-type: winrt method
+---
+
+<!-- Method syntax
+public bool Insert(K key, V value)
+-->
+
+# Windows.Foundation.Collections.IMap<K, V>.Insert
+
+## -description
+Inserts or replaces an item in the map.
+
+## -parameters
+### -param key
+The key associated with the item to insert.
+
+### -param value
+The item to insert.
+
+## -returns
+True if an item with the specified key is an existing item that was replaced; otherwise, false.
+
+## -remarks
+When programming with .NET, this interface is hidden and developers should use the [System.Collections.Generic.IDictionary&lt;TKey,TValue&gt;](XREF:TODO:T:System.Collections.Generic.IDictionary`2) interface.
+
+## -examples
+
+## -see-also
+[IMap&lt;K, V&gt;](imap_2.md)

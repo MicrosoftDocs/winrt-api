@@ -1,0 +1,34 @@
+---
+-api-id: T:Windows.UI.Xaml.Media.Animation.EasingPointKeyFrame
+-api-type: winrt class
+---
+
+<!-- Class syntax.
+public class EasingPointKeyFrame : Windows.UI.Xaml.Media.Animation.PointKeyFrame, Windows.UI.Xaml.Media.Animation.IEasingPointKeyFrame
+-->
+
+# Windows.UI.Xaml.Media.Animation.EasingPointKeyFrame
+
+## -description
+Associates an easing function with a [PointAnimationUsingKeyFrames](pointanimationusingkeyframes.md) key-frame animation.
+
+## -xaml-syntax
+```xaml
+<EasingPointKeyFrame .../>
+```
+
+
+## -remarks
+Easing functions allow you to apply custom mathematical formulas to your animations. Mathematical operations are often useful to produce animations that simulate real-world physics in a 2-D coordinate system. For example, you may want an object to realistically bounce or behave as though it were on a spring. For a list of easing functions and info on how to use them, see [Key-frame animations and easing function animations](http://msdn.microsoft.com/library/d8af24cd-f4c2-4562-afd7-25010955d677).
+
+## -examples
+This XAML example shows how to use key frames that have easing functions associated with them to create an animation that simulates an oval going up in the air and falling back down, where it bounces to a stop.
+
+
+
+> [!div class="tabbedCodeSnippets"][!code-xml[EasingFunctionPointKeyFrame](../windows.ui.xaml.media.animation/code/EasingFunctionKeyFrames/csharp/Page.xaml#SnippetEasingFunctionPointKeyFrame)][!code-vb[EasingFunctionPointKeyFrame](../windows.ui.xaml.media.animation/code/EasingFunctionKeyFrames/vbnet/MainPage.xaml.vb#SnippetEasingFunctionPointKeyFrame)]
+
+> [!div class="tabbedCodeSnippets"][!code-cs[EasingFunctionPointKeyFrame_code](../windows.ui.xaml.media.animation/code/EasingFunctionKeyFrames/csharp/Page.xaml.cs#SnippetEasingFunctionPointKeyFrame_code)][!code-vb[EasingFunctionPointKeyFrame_code](../windows.ui.xaml.media.animation/code/EasingFunctionKeyFrames/vbnet/MainPage.xaml.vb#SnippetEasingFunctionPointKeyFrame_code)]
+
+## -see-also
+[Storyboarded animations](http://msdn.microsoft.com/library/0cbceea0-2b0e-44a1-a09a-f7a939632f3a), [Key-frame animations and easing function animations](http://msdn.microsoft.com/library/d8af24cd-f4c2-4562-afd7-25010955d677), [XAML animation sample](http://go.microsoft.com/fwlink/p/?linkid=238571), [PointKeyFrame](pointkeyframe.md), [EasingPointKeyFrame](easingpointkeyframe.md), [EasingDoubleKeyFrame](easingdoublekeyframe.md), [KeyTime](pointkeyframe_keytime.md), [Value](pointkeyframe_value.md)

@@ -1,0 +1,37 @@
+---
+-api-id: T:Windows.Devices.Sms.CellularClass
+-api-type: winrt enum
+---
+
+<!-- Enumeration syntax
+public enum Windows.Devices.Sms.CellularClass : int
+-->
+
+# CellularClass
+
+## -description
+This enumerated type defines the type of radio standard in a device.
+
+> [!NOTE]
+> This functionality is only available to mobile operator apps and Windows Store app given privileged access by mobile network operators, mobile broadband adapter IHV, or OEM. For more information, see [Mobile Broadband:  device apps](http://msdn.microsoft.com/library/windows/hardware/hh852368.aspx).
+
+## -enum-fields
+### -field None:0
+The device type corresponds to no cellular class.
+
+### -field Gsm:1
+The device type is GSM cellular class.
+
+### -field Cdma:2
+The device type is CDMA cellular class.
+
+
+## -remarks
+
+## -examples
+
+## -see-also
+
+
+## -capabilities
+sms, cellularMessaging

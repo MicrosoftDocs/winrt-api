@@ -1,0 +1,31 @@
+﻿<UserControl x:Class="DataTemplates.Page"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    Width="400" Height="300">
+    <Grid x:Name="LayoutRoot" >
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        
+        <Grid.Resources>
+            <DataTemplate x:Key="CBTemplate">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <Image Grid.Column="0" Width="50" Height="50" 
+                        Source="{Binding Photo}" Stretch="Fill"/>
+                    <TextBlock Grid.Column="1" Text="{Binding Title}" 
+                        Margin="10" HorizontalAlignment="Left" FontSize="20"/>
+                </Grid>
+            </DataTemplate>
+        </Grid.Resources>
+       
+        <ComboBox x:Name="CB1" VerticalAlignment="Top" HorizontalAlignment="Left" 
+            ItemTemplate="{StaticResource CBTemplate}" ItemsSource="{Binding}" />
+       
+    </Grid>
+</UserControl>

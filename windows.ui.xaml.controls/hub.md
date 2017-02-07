@@ -1,0 +1,117 @@
+---
+-api-id: T:Windows.UI.Xaml.Controls.Hub
+-api-type: winrt class
+---
+
+<!-- Class syntax.
+public class Hub : Windows.UI.Xaml.Controls.Control, Windows.UI.Xaml.Controls.IHub, Windows.UI.Xaml.Controls.ISemanticZoomInformation
+-->
+
+# Windows.UI.Xaml.Controls.Hub
+
+## -description
+Represents a control that displays groups of content in a panning view.
+
+## -xaml-syntax
+```xaml
+<Hub .../>
+-or-
+<Hub ...>
+  oneOrMoreComponents
+</Hub>
+```
+
+
+## -remarks
+Use a [Hub](hub.md) to show different collections of data, either from the same source or from different sources.
+
+### Hub content
+
+Add content to the [Hub](hub.md) by adding [HubSection](hubsection.md) objects to the [Sections](hub_sections.md) collection. These sections use a [DataTemplate](../windows.ui.xaml/datatemplate.md) to define the content for the section, and a [Header](hubsection_header.md) property, which can be any content. If the [Header](hubsection_header.md) object is a complex data type as opposed to just a string, you can define the look of the header using the [HeaderTemplate](hubsection_headertemplate.md) property.
+
+The [Hub](hub.md) uses virtualization to load sections as the user pans. You can handle the [SectionsInViewChanged](hub_sectionsinviewchanged.md) event to respond to changes.
+
+### Interactive section headers
+
+You can set the [HubSectionHeader.IsHeaderInteractive](hubsection_isheaderinteractive.md) property is **true** to let a user navigate to the corresponding app section page. When its [IsHeaderInteractive](hubsection_isheaderinteractive.md) property is **true**, the default header includes the text, **See more**. When a user taps the **See more** text, the [SectionHeaderClick](hub_sectionheaderclick.md) event is raised. If you use a custom [HeaderTemplate](hubsection_headertemplate.md), you should provide similar visual cues to indicate that the header is interactive.
+
+
+<!--{annotation author="jimwalk" time="12/9/2015 3:32:58 PM"}Might want to  have a note that the See More text uses the hyperlink colors. By default, this is the user selected system accent color, which might be difficult to see  against the section background. If this is a concern, override the default hyperlink color.-->
+You can handle the [SectionHeaderClick](hub_sectionheaderclick.md) event to respond to a tapped header. You get the section that was clicked from the [SectionHeaderClickEventArgs.Section](hubsectionheaderclickeventargs_section.md) property of the event data.
+
+### Hub and SemanticZoom
+
+If you declare a [Hub](hub.md) as the [ZoomedInView](semanticzoom_zoomedinview.md) of a [SemanticZoom](semanticzoom.md), the section headers change to [HyperlinkButton](hyperlinkbutton.md) s that invoke the [ZoomedOutView](semanticzoom_zoomedoutview.md) of the [SemanticZoom](semanticzoom.md) when they're clicked.
+
+### Control style and template
+
+You can modify the default [Style](../windows.ui.xaml/style.md) and [ControlTemplate](controltemplate.md) to give the control a unique appearance. For information about modifying a control's style and template, see [Styling controls](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/styling-controls). The default style, template, and resources that define the look of the control are included in the generic.xaml file. For design purposes, generic.xaml is available in the \(Program Files)\Windows Kits\10\DesignTime\CommonConfiguration\Neutral\UAP\&lt;SDK version&gt;\Generic folder from a Windows Software Development Kit (SDK) installation. Styles and resources from different versions of the SDK might have different values.
+
+Starting in Windows 10, version 1607 (Windows Software Development Kit (SDK) version 10.0.14393.0), generic.xaml includes resources that you can use to modify the colors of a control in different visual states without modifying the control template. In apps that target this software development kit (SDK) or later, modifying these resources is preferred to setting properties such as [Background](control_background.md) and [Foreground](control_foreground.md). For more info, see the [Light-weight styling](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) section of the [Styling controls](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) article.
+
+This table shows the resources used by the [Hub](hub.md) control.
+
+<table>
+   <tr><th>Resource key</th><th>Description</th></tr>
+   <tr><td>HubForeground</td><td>Control foreground color</td></tr>
+</table>
+
+## -examples
+This example shows the basic XAML used to create a [Hub](hub.md).
+
+```xaml
+<Hub Header="News" SectionHeaderClick="Hub_SectionHeaderClick">
+    <HubSection MinWidth="600" Header="Latest">
+        <DataTemplate>
+            <Grid>
+                <TextBlock Text="The most recent news will be here." 
+                   Style="{ThemeResource BodyTextBlockStyle}"/>
+            </Grid>
+        </DataTemplate>
+    </HubSection>
+
+    <HubSection x:Name="Tech" Header="Tech" IsHeaderInteractive="True"  
+        Background="#F4F4F4" MinWidth="250">
+        <DataTemplate>
+            <StackPanel>
+                <TextBlock Text="Tech news goes here."
+                   Style="{ThemeResource BodyTextBlockStyle}"/>
+                <TextBlock Text="Click the header to go to the Tech page."
+                   Style="{ThemeResource BodyTextBlockStyle}"/>
+            </StackPanel>
+        </DataTemplate>
+    </HubSection>
+
+    <HubSection x:Name="Sports" Header="Sports" IsHeaderInteractive="True" 
+        Background="#F9F9F9" MinWidth="250">
+        <DataTemplate>
+            <StackPanel>
+                <TextBlock Text="Sports news goes here."
+                   Style="{ThemeResource BodyTextBlockStyle}"/>
+                <TextBlock Text="Click the header to go to the Sports page." 
+                   Style="{ThemeResource BodyTextBlockStyle}"/>
+            </StackPanel>
+        </DataTemplate>
+    </HubSection>
+</Hub>
+```
+
+```csharp
+private void Hub_SectionHeaderClick(object sender, HubSectionHeaderClickEventArgs e)
+{
+    switch (e.Section.Name)
+    {
+        case "Sports":
+            Frame.Navigate(typeof(SportsNewsPage));
+            break;
+        case "Tech":
+            Frame.Navigate(typeof(TechNewsPage));
+            break;
+    }
+}
+```
+
+
+
+## -see-also
+[Control](control.md), [HubSection](hubsection.md), [HubSectionCollection](hubsectioncollection.md), [HubSectionHeaderClickEventArgs](hubsectionheaderclickeventargs.md), [ISemanticZoomInformation](isemanticzoominformation.md), [Hub styles and templates](http://msdn.microsoft.com/library/534813df-ce43-497e-b7e2-9348df034c8a), [XAML Hub control sample](http://go.microsoft.com/fwlink/p/?LinkID=310072)

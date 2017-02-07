@@ -1,0 +1,22 @@
+<UserControl x:Class="DockPanelEx.Page"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+   xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk"
+    Width="400" Height="300">
+    <!--<snippet1>-->
+    <Border BorderBrush="Black" BorderThickness="3" >
+        <StackPanel x:Name="LayoutRoot" >
+            <TextBlock Margin="5" Text="Dock Panel" />
+            <Border BorderBrush="Black" BorderThickness="3" >
+                <DockPanel LastChildFill="true" Height="265">
+                    <Button  Content="Dock: Left" DockPanel.Dock ="Left" />
+                    <Button Content="Dock: Right" DockPanel.Dock ="Right" />
+                    <Button  Content="Dock: Top" DockPanel.Dock ="Top" />
+                    <Button  Content="Dock: Bottom" DockPanel.Dock ="Bottom" />
+                    <Button Content="Last Child" />
+                </DockPanel>
+            </Border>
+        </StackPanel>
+    </Border>
+    <!--</snippet1>-->
+  </UserControl>

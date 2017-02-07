@@ -1,0 +1,28 @@
+﻿<Page x:Class="geometries.GeometryOvw2"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+
+    mc:Ignorable="d"
+    d:DesignWidth="1366" d:DesignHeight="768">
+
+    <!--Common resources for default dark theme applications-->
+    <UserControl.Resources>
+        <SolidColorBrush x:Key="PageBackgroundBrush" Color="White"/>
+        <SolidColorBrush x:Key="PageForegroundBrush" Color="White"/>
+        <SolidColorBrush x:Key="HighlightBrush" Color="#FF26A0DA"/>
+    </UserControl.Resources>
+
+    <Grid x:Name="LayoutRoot" Background="{StaticResource PageBackgroundBrush}">
+        <!-- <SnippetGeometryOvw2> -->
+        <Canvas>
+            <Path Fill="Gold" Stroke="Red" StrokeThickness="1">
+                <Path.Data>
+                    <EllipseGeometry Center="50,50" RadiusX="50" RadiusY="50" />
+                </Path.Data>
+            </Path>
+        </Canvas>
+        <!-- </SnippetGeometryOvw2> -->
+    </Grid>
+</Page>

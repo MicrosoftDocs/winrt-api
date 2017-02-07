@@ -1,0 +1,35 @@
+﻿<Page
+    x:Class="CurrentChangingExample.BlankPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CurrentChangingExample"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+  <!--<snippetXaml>-->
+  <Page.Resources>
+    <CollectionViewSource x:Name="cvs" />
+    <DataTemplate x:Key="myDataTemplate">
+      <Border Background="#FF939598" Width="200" Height="200">
+        <TextBlock Text="{Binding Path=Name}" />
+      </Border>
+    </DataTemplate>
+  </Page.Resources>
+
+  <Grid Background="{StaticResource ApplicationPageBackgroundBrush}">
+    <GridView x:Name="PicturesGrid" 
+      SelectionMode="Single" CanReorderItems="False" CanDragItems="False"
+      ItemsSource="{Binding Source={StaticResource cvs}}"                
+      ItemTemplate="{StaticResource myDataTemplate}" >
+      <GridView.ItemsPanel>
+        <ItemsPanelTemplate>
+          <WrapGrid VerticalChildrenAlignment="Top" 
+            HorizontalChildrenAlignment="Left" />
+        </ItemsPanelTemplate>
+      </GridView.ItemsPanel>
+    </GridView>
+  </Grid>
+  <!--</snippetXaml>-->
+
+</Page>

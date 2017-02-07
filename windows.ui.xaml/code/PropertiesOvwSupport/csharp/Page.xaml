@@ -1,0 +1,16 @@
+﻿<UserControl x:Class="PropertiesOvwSupport.Page"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" >
+    <Canvas x:Name="LayoutRoot" Background="OldLace">
+    <Border BorderBrush="Red" BorderThickness="4">
+    <Canvas Height="400" Width="400"/>
+    </Border>
+    <StackPanel Canvas.Top="450" Orientation="Horizontal">
+        <TextBlock PointerReleased="ToOne">One</TextBlock>
+        <TextBlock PointerReleased="ToTwo">Two</TextBlock>
+        <TextBlock PointerReleased="ToThree">Three</TextBlock>
+        <TextBlock PointerReleased="ToFour">Four</TextBlock>
+        <TextBlock PointerReleased="ToFive">Five</TextBlock>
+    </StackPanel>
+  </Canvas>
+</UserControl>

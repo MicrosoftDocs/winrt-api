@@ -1,0 +1,99 @@
+﻿<Page
+    x:Class="MediaPlayback2.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MediaPlayback2"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" x:Name="rootPage">
+
+    <StackPanel Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+
+        <!--<SnippetBasicMediaElement>-->
+        <MediaElement x:Name="mediaSimple" 
+                      Source="Videos/video1.mp4" 
+                      Width="400" AutoPlay="False"/>
+        <!--</SnippetBasicMediaElement>-->
+            
+        <!--<SnippetBasicMediaElementControls>-->
+        <MediaElement x:Name="mediaPlayer" 
+                      Source="Videos/video1.mp4" 
+                      Width="400" 
+                      AutoPlay="False"
+                      AreTransportControlsEnabled="True" />
+         <!--</SnippetBasicMediaElementControls>-->
+
+        <!--<SnippetMediaElementControls>-->
+        <StackPanel HorizontalAlignment="Center">
+            <MediaElement x:Name="media" 
+                          Source="Videos/Video1.mp4" 
+                          Width="300"
+                          AreTransportControlsEnabled="False"
+                          MediaFailed="Media_MediaFailed"
+                          MediaOpened="Media_MediaOpened"
+                          MediaEnded="Media_MediaEnded" />
+            
+            <StackPanel Orientation="Horizontal"
+                        HorizontalAlignment="Center">
+                
+                <Button Content="Play" Click="Play_Click"/>
+                <Button Content="Pause" Click="Pause_Click"/>
+                <Button Content="Stop" Click="Stop_Click" />
+                
+            </StackPanel>
+        </StackPanel>
+        <!--</SnippetMediaElementControls>-->
+
+
+        <Border Height="200" Background="LemonChiffon">
+        <!--<SnippetMediaElementSystemMediaTransportControls>-->
+        <MediaElement x:Name="musicPlayer" 
+                      Source="Music/music1.mp3"
+                      CurrentStateChanged="MusicPlayer_CurrentStateChanged"
+                      MediaOpened="MusicPlayer_MediaOpened"/>
+        <!--</SnippetMediaElementSystemMediaTransportControls>-->
+        </Border>
+
+        <Button Click="EmbeddedFile_Click" Content="Load App File" />
+
+        <StackPanel Height="300" Background="Blue">
+            <!--<SnippetTextBoxLoadEmbeddedFile>-->
+            <TextBox x:Name="txtFilePath" Width="400" 
+                       FontSize="20"
+                       KeyUp="TxtFilePath_KeyUp"
+                       Text="Enter File Path"/>
+            <!--</SnippetTextBoxLoadEmbeddedFile>-->
+        </StackPanel>
+
+
+    </StackPanel>
+
+
+    <Page.TopAppBar> 
+        <AppBar>
+            <StackPanel Orientation="Horizontal">
+                <AppBarButton x:Name="btnNextPage" Click="btnNextPage_Click" Label="Background Audio" />
+                <!--<SnippetAppBarStretch>-->
+                <AppBarButton Icon="Switch" 
+                          Label="Resize Video"
+                          Click="PictureSize_Click" />
+                <!--</SnippetAppBarStretch>-->
+            </StackPanel>
+        </AppBar>
+    </Page.TopAppBar>
+
+    
+    <!--<SnippetAppBarFullWindow>-->
+    <Page.BottomAppBar>
+        <AppBar>
+            <AppBarButton Icon="FullScreen" 
+                          Label="Full Window"
+                          Click="FullWindow_Click" />
+        </AppBar>
+    </Page.BottomAppBar>
+    <!--</SnippetAppBarFullWindow>-->
+    
+
+
+    
+</Page>

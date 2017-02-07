@@ -1,0 +1,52 @@
+﻿<UserControl x:Class="ViewBoxVB.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <Grid Height="600" Width="600">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Grid.Column="0" Margin="5,5,5,5" Orientation="Vertical">
+            <TextBlock Text="Stretch" FontWeight="Bold" FontSize="12" />
+            <Button Name="btn1" Click="stretchNone" Content="None" />
+            <Button Name="btn2" Click="stretchFill" Content="Fill" />
+            <Button Name="btn3" Click="stretchUni" Content="Uniform" />
+            <Button Name="btn4" Click="stretchUniFill" Content="UniformToFill" />
+        </StackPanel>
+
+        <StackPanel Grid.Row="0" Grid.Column="1" Margin="5,5,5,5" Orientation="Vertical">
+            <TextBlock Text="StretchDirection" FontWeight="Bold" FontSize="12" />
+            <Button Name="btn5" Click="sdUpOnly" Content="UpOnly" />
+            <Button Name="btn6" Click="sdDownOnly" Content="DownOnly" />
+            <Button Name="btn7" Click="sdBoth" Content="Both" />
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Margin="5,5,5,5" Orientation="Vertical">
+            <TextBlock Name="txt1" FontSize="12" FontWeight="Bold" />
+            <TextBlock Name="txt2" FontSize="12" FontWeight="Bold" />
+        </StackPanel>
+
+        <StackPanel Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Margin="5,5,5,5" Orientation="Horizontal">
+            <Viewbox MaxWidth="100" MaxHeight="100" Name="vb1">
+                <Image Source="flower.jpg"/>
+            </controls:Viewbox>
+            <controls:Viewbox MaxWidth="200" MaxHeight="200" Name="vb2">
+                <Image Source="flower.jpg"/>
+            </Viewbox>
+
+            <Viewbox MaxWidth="300" MaxHeight="300" Name="vb3">
+                <Image Source="flower.jpg"/>
+            </Viewbox>
+        </StackPanel>
+
+    </Grid>
+    
+</UserControl>

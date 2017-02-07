@@ -1,0 +1,3 @@
+----api-id: T:Windows.Devices.Sms.SmsVoicemailMessage
+-api-type: winrt class
+---<!-- Class syntax.public class SmsVoicemailMessage : Windows.Devices.Sms.ISmsMessageBase, Windows.Devices.Sms.ISmsVoicemailMessage--># Windows.Devices.Sms.SmsVoicemailMessage## -descriptionEncapsulates an SMS voicemail message.> [!NOTE]> This functionality is only available to mobile operator apps and Windows Store app given privileged access by mobile network operators, mobile broadband adapter IHV, or OEM. For more information, see [Mobile Broadband:  device apps](http://msdn.microsoft.com/library/windows/hardware/hh852368.aspx).## -remarks## -examples## -see-also[ISmsMessageBase](ismsmessagebase.md), [ISmsMessage](ismsmessage.md)## -capabilitiescellularMessaging

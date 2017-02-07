@@ -1,0 +1,38 @@
+﻿<UserControl x:Class="animation.CompletedEvent"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    Width="400" Height="300">
+    <StackPanel Name="MainPanel">
+        <TextBlock Margin="10" TextWrapping="Wrap">The rectangle animates out of view after it loads and the Completed event fires when the Storyboard (animation) ends.</TextBlock>
+        <!-- <snippet2> -->
+        <Canvas
+            Width="200"
+            Height="200"
+            
+            x:Name="Page">
+            <Canvas.Triggers>
+                <EventTrigger
+                    RoutedEvent="Canvas.Loaded">
+                    <BeginStoryboard>
+                        <Storyboard
+                            x:Name="ColorStoryboard"
+                            Completed="onCompleted">
+
+                            <!-- Animate the background color of the canvas from red to green
+                            over 4 seconds. -->
+                            <ColorAnimation
+                                BeginTime="00:00:00"
+                                Storyboard.TargetName="Page"
+                                Storyboard.TargetProperty="(Panel.Background).(SolidColorBrush.Color)"
+                                From="Red"
+                                To="Green"
+                                Duration="0:0:4" />
+
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+            </Canvas.Triggers>
+        </Canvas>
+        <!-- </snippet2> -->
+    </StackPanel>
+</UserControl>

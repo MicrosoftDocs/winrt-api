@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{05385884-0168-48B3-8254-A2CA2D525031}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>geometries</RootNamespace>
+    <AssemblyName>geometries</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{BC8A1FFA-BEE3-4634-8014-F334798102B3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GeometryOvw1.xaml.cs">
+      <DependentUpon>GeometryOvw1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GeometryOvw2.xaml.cs">
+      <DependentUpon>GeometryOvw2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GeometryOvw3.xaml.cs">
+      <DependentUpon>GeometryOvw3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GeometryOvw4.xaml.cs">
+      <DependentUpon>GeometryOvw4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GeometryOvw5.xaml.cs">
+      <DependentUpon>GeometryOvw5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GeometryOvw6.xaml.cs">
+      <DependentUpon>GeometryOvw6.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GeometryOvw7.xaml.cs">
+      <DependentUpon>GeometryOvw7.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GeometryOvw8.xaml.cs">
+      <DependentUpon>GeometryOvw8.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="graphic_sample.xaml.cs">
+      <DependentUpon>graphic_sample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PolyQuadraticBezierSegment.xaml.cs">
+      <DependentUpon>PolyQuadraticBezierSegment.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="path_syntax_example.xaml.cs">
+      <DependentUpon>path_syntax_example.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PolyBezierSegment.xaml.cs">
+      <DependentUpon>PolyBezierSegment.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="shapes_and_drawing_ovw_1.xaml.cs">
+      <DependentUpon>shapes_and_drawing_ovw_1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="shapes_and_drawing_ovw_2.xaml.cs">
+      <DependentUpon>shapes_and_drawing_ovw_2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="shapes_and_drawing_ovw_3.xaml.cs">
+      <DependentUpon>shapes_and_drawing_ovw_3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="shapes_and_drawing_ovw_4.xaml.cs">
+      <DependentUpon>shapes_and_drawing_ovw_4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="shapes_and_drawing_ovw_5.xaml.cs">
+      <DependentUpon>shapes_and_drawing_ovw_5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="shapes_ovw_ellipse.xaml.cs">
+      <DependentUpon>shapes_ovw_ellipse.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="shapes_ovw_lines.xaml.cs">
+      <DependentUpon>shapes_ovw_lines.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Shapes_Snips_Ellipse.xaml.cs">
+      <DependentUpon>Shapes_Snips_Ellipse.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Shapes_Snips_Lines.xaml.cs">
+      <DependentUpon>Shapes_Snips_Lines.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Shapes_Snips_PolyLine.xaml.cs">
+      <DependentUpon>Shapes_Snips_PolyLine.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Shapes_Snips_Rectangle.xaml.cs">
+      <DependentUpon>Shapes_Snips_Rectangle.xaml</DependentUpon>
+    </Compile>
+    <Page Include="path_syntax_example.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PolyBezierSegment.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\..\..\WinRTXAML\SharedInfrastructureResources\Images\Logo.png">
+      <Link>Images\Logo.png</Link>
+    </Content>
+    <Content Include="..\..\..\WinRTXAML\SharedInfrastructureResources\Images\SmallLogo.png">
+      <Link>Images\SmallLogo.png</Link>
+    </Content>
+    <Content Include="..\..\..\WinRTXAML\SharedInfrastructureResources\Images\SplashScreen.png">
+      <Link>Images\SplashScreen.png</Link>
+    </Content>
+    <Content Include="..\..\..\WinRTXAML\SharedInfrastructureResources\Images\StoreLogo.png">
+      <Link>Images\StoreLogo.png</Link>
+    </Content>
+    <Page Include="PolyQuadraticBezierSegment.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Shapes_Snips_Rectangle.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Shapes_Snips_PolyLine.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Shapes_Snips_Lines.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Shapes_Snips_Ellipse.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="shapes_ovw_lines.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="shapes_ovw_ellipse.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="shapes_and_drawing_ovw_5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="shapes_and_drawing_ovw_3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="shapes_and_drawing_ovw_4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="shapes_and_drawing_ovw_2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="shapes_and_drawing_ovw_1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="graphic_sample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Content Include="Images\Water_lilies.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Page Include="GeometryOvw8.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="GeometryOvw7.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="GeometryOvw6.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="GeometryOvw5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="GeometryOvw4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="GeometryOvw3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="GeometryOvw2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="GeometryOvw1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v1.0\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

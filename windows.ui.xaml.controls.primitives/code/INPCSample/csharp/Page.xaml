@@ -1,0 +1,12 @@
+﻿<UserControl x:Class="INPCSample.Page"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    xmlns:my="using:INPCSample"
+    Width="400" Height="300">
+    <Grid x:Name="LayoutRoot" >
+        <Grid.Resources>
+            <my:Person x:Key="myPerson" FirstName="Joe" />
+        </Grid.Resources>
+        <TextBlock Text="{Binding FirstName, Source={StaticResource myPerson}}" />
+    </Grid>
+</UserControl>

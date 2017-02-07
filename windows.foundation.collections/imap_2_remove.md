@@ -1,0 +1,25 @@
+---
+-api-id: M:Windows.Foundation.Collections.IMap`2.Remove(`0)
+-api-type: winrt method
+---
+
+<!-- Method syntax
+public void Remove(K key)
+-->
+
+# Windows.Foundation.Collections.IMap<K, V>.Remove
+
+## -description
+Removes an item from the map.
+
+## -parameters
+### -param key
+The key associated with the item to remove.
+
+## -remarks
+When programming with .NET, this interface is hidden and developers should use the [System.Collections.Generic.IDictionary&lt;TKey,TValue&gt;](XREF:TODO:T:System.Collections.Generic.IDictionary`2) interface.
+
+## -examples
+
+## -see-also
+[IMap&lt;K, V&gt;](imap_2.md)

@@ -1,0 +1,20 @@
+---
+-api-id: N:Windows.ApplicationModel.Contacts
+-api-type: winrt namespace
+---
+
+# Windows.ApplicationModel.Contacts
+
+## -description
+Enables apps to select and acquire info about contacts. 
+
+> [!IMPORTANT]
+> This namespace includes some members that are new for Windows 8.1 and other members that may be unavailable after Windows 8.1. These two types of members don't work together, and calling both from the same app will cause the app to fail. We recommend that you call only members that aren't marked with the unavailability warning.
+
+## -remarks
+For info about how to manage contacts, see [Managing contact cards ](http://msdn.microsoft.com/library/a0667d13-a274-4cb2-982a-5bfabb0488c2) and [Managing contact cards ](http://msdn.microsoft.com/library/364d763b-adf6-410e-a892-ba4af3799b93).
+
+## -examples
+
+## -see-also
+[Contact manager API sample](http://go.microsoft.com/fwlink/p/?LinkID=310079), [Contact Picker app sample](http://go.microsoft.com/fwlink/p/?linkid=231575), [Handling Contact Actions sample](http://go.microsoft.com/fwlink/p/?LinkID=320151), [Windows.ApplicationModel.Contacts.Provider](../windows.applicationmodel.contacts.provider/windows_applicationmodel_contacts_provider.md), [Contact Card integration sample (Windows 10)](http://go.microsoft.com/fwlink/?LinkID=703783), [Contact cards sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=624040)

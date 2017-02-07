@@ -1,0 +1,13 @@
+﻿<Page x:Class="geometries.path_syntax_example"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    Width="400" Height="300">
+    <StackPanel x:Name="LayoutRoot" Background="White" >
+        <!-- <snippetPathMarkupSyntax> -->
+        <Canvas>
+            <Path Stroke="Black" Fill="Gray"
+                Data="M 10,100 C 10,300 300,-200 300,100" />
+        </Canvas>
+        <!-- </snippetPathMarkupSyntax> -->
+    </StackPanel>
+</Page>

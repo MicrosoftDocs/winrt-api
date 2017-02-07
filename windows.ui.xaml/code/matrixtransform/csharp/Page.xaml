@@ -1,0 +1,21 @@
+﻿<UserControl x:Class="matrixtransform.Page"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    Width="400" Height="300">
+    <Grid x:Name="LayoutRoot" >
+        <Canvas>
+        <!-- <Snippetmatrixtransform> -->
+        <Rectangle Width="60" Height="60" Fill="Blue">
+          <Rectangle.RenderTransform>
+            <MatrixTransform>
+              <MatrixTransform.Matrix >
+                <!-- This matrix transforms the x,y position of the rectangle and skews it. -->
+                <Matrix OffsetX="30" OffsetY="100" M12="0.5" />
+              </MatrixTransform.Matrix>
+            </MatrixTransform>
+          </Rectangle.RenderTransform>
+        </Rectangle>
+        <!-- </Snippetmatrixtransform> -->
+        </Canvas>
+    </Grid>
+</UserControl>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+
+  <Identity Name="9768e61b-cd1b-47b2-887f-532423972b0a"
+            Publisher="CN=jimwalk"
+            Version="1.0.0.0" />
+
+  <Properties>
+    <DisplayName>ListAndGridViewSnippets</DisplayName>
+    <PublisherDisplayName>jimwalk</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+
+  <Prerequisites>
+    <OSMinVersion>6.2.0</OSMinVersion>
+    <OSMaxVersionTested>6.2.0</OSMaxVersionTested>
+  </Prerequisites>
+
+  <Resources>
+    <Resource Language="x-generate"/>
+  </Resources>
+
+  <Applications>
+    <Application Id="App"
+        Executable="$targetnametoken$.exe"
+        EntryPoint="ListAndGridViewSnippets.App">
+        <VisualElements
+            DisplayName="ListAndGridViewSnippets"
+            Logo="Assets\Logo.png"
+            SmallLogo="Assets\SmallLogo.png"
+            Description="ListAndGridViewSnippets"
+            ForegroundText="light"
+            BackgroundColor="#222222">
+            <DefaultTile ShowName="allLogos" />
+            <SplashScreen Image="Assets\SplashScreen.png" />
+        </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>

@@ -1,0 +1,19 @@
+﻿/* <SnippetCSS> */
+body {
+    background-color: #000;
+    font-family: 'Segoe UI';
+}
+
+div {
+    font-size: 56px;
+}
+
+#statusMessage {
+    font-size: 18px;
+    color: white;
+}
+
+canvas {
+    background-color: #fff;
+}
+/* </SnippetCSS> */

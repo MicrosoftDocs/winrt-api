@@ -1,0 +1,20 @@
+---
+-api-id: T:Windows.UI.Composition.CompositionBrush
+-api-type: winrt class
+---
+
+<!-- Class syntax.
+public class CompositionBrush : Windows.UI.Composition.CompositionObject, Windows.UI.Composition.ICompositionBrush
+-->
+
+# Windows.UI.Composition.CompositionBrush
+
+## -description
+Base class for brushes used to paint a [SpriteVisual](spritevisual.md).
+
+## -remarks
+
+## -examples
+
+## -see-also
+[Composition Brushes Overview](http://msdn.microsoft.com/library/03dd256f-78c0-e1b1-3d9f-7b3afab29b2f), [Composition Effects Overview](http://go.microsoft.com/fwlink/p/?LinkID=692063), [CompositionObject](compositionobject.md), [IClosable](../windows.foundation/iclosable.md)

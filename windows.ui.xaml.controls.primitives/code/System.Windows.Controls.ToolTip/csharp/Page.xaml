@@ -1,0 +1,27 @@
+﻿<!-- <snippet5> -->
+<UserControl x:Class="ToolTipExample.Page"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+        Width="400" Height="300">
+
+    <Canvas x:Name="LayoutRoot" >
+
+        <!-- <snippet1> -->
+        <!-- A button with a simple ToolTip. -->
+        <Button Content="Button with a simple ToolTip." 
+                ToolTipService.ToolTip="Simple ToolTip" />
+
+        <!-- <snippet2> -->
+        <!-- A TextBlock with an offset ToolTip. -->
+        <TextBlock Text="TextBlock with an offset ToolTip.">
+            <ToolTipService.ToolTip> 
+                <ToolTip Content="Offset ToolTip." 
+                         HorizontalOffset="20" VerticalOffset="30"/>
+            </ToolTipService.ToolTip>
+        </TextBlock>
+        <!-- </snippet2> -->
+       <!-- </snippet1> --> 
+    
+</Canvas>
+</UserControl>
+<!-- </snippet5> -->

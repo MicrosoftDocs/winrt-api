@@ -1,0 +1,42 @@
+﻿<Page
+    x:Class="AppBarSample.Page2"
+    IsTabStop="false"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AppBarSample"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <Style x:Key="StarAppBarButtonStyle" TargetType="Button" BasedOn="{StaticResource AppBarButtonStyle}">
+            <Setter Property="Content" Value="&#xE0B4;"/>
+            <Setter Property="AutomationProperties.AutomationId" Value="SuperstarButton"/>
+            <Setter Property="AutomationProperties.Name" Value="Superstar"/>
+        </Style>
+    </Page.Resources>
+
+    <Page.BottomAppBar>
+        <AppBar IsOpen="True">
+            <Grid>
+                <StackPanel x:Name="rightCommandPanel" 
+                            Orientation="Horizontal" HorizontalAlignment="Right">
+                    <Button x:Name="starButton"
+                            Style="{StaticResource StarAppBarButtonStyle}" 
+                            Click="StarButton_Click"/>
+                </StackPanel>
+            </Grid>
+        </AppBar>
+    </Page.BottomAppBar>
+
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBlock x:Name="PageTwo" 
+                       Text="This is Page Two" 
+                       FontSize="30" HorizontalAlignment="Center"/>
+            <TextBlock x:Name="UseAppBar" 
+                       Text="(use AppBar to navigate between pages)" 
+                       FontSize="20" HorizontalAlignment="Center"/>
+        </StackPanel>
+    </Grid>
+</Page>

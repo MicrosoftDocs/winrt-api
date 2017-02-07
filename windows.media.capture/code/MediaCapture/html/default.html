@@ -1,0 +1,93 @@
+﻿<!-- <SnippetMediaCaptureHtml> -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Capture API Sample App</title>
+    <link rel="stylesheet" type="text/css" href="css/base-sdk.css" />
+    <link rel="stylesheet" type="text/css" href="css/program.css" />
+    <script type="text/javascript" src="base-sdk.js"></script>
+    <script type="text/javascript" src="program.js"></script>
+</head>
+<body role="application">
+    <div id="rootGrid">
+        <div id="header" role="contentinfo"></div>
+        <div id="content">
+            <h1 id="featureLabel">Capture API Sample</h1>
+
+            <h2 id="inputLabel">Input</h2>
+
+            <div id="input" role="main" aria-labelledby="inputLabel">
+                <div class="options">
+                    <h3 id="listLabel">Select scenario:</h3>
+                    <select size="3" id="scenarios" aria-labelledby="listLabel">
+                        <option value="1" selected="selected">1) Video preview, record video and picture </option>
+                        <option value="2">2) Enumerate and choose a specific device</option>
+                        <option value="3">3) Add Effects</option>
+                    </select>
+                </div>
+                <div class="details" role="region" aria-labelledby="descLabel" aria-live="assertive">
+                    <h3 id="descLabel">Description:</h3>
+
+                    <!-- Scenario 1 Input -->
+                    <div class="item" id="scenario1Input">
+                        <p>Video preview, record video and picture scenario</p>
+                        <button id="btnStartDevice" onclick="initializeMediaCapture()" >Start Device</button>
+                        <button id="btnStartPreview" disabled="disabled" onclick="startPreview('previewTag')" >Start Preview</button>
+                        <button id="btnStartRecord" disabled="disabled" onclick="startRecord()">Start Record</button>
+                        <button id="btnStopRecord" disabled="disabled" onclick="stopRecord()">Stop Record</button>
+                        <button id="btnCapturePhoto" disabled="disabled" onclick="capturePhoto()">Take Photo</button>
+                        <br /><br />
+                    </div>
+
+                    <!-- Scenario 2 Input -->
+                    <div class="item" id="scenario2Input">
+                        <p>Enumerate and choose a specific device</p>
+                        <select size="4" id="webcamSelect" aria-labelledby="listLabel"></select>
+                        <button id="btnStartChosenDevice" onclick="initializeMediaCapture()">Choose device</button>
+                        <button id="btnStartPreviewChosenDevice" onclick="startPreview('previewChosenDeviceTag')">Start Preview</button>
+                    </div>
+
+                    <!-- Scenario 3 Input -->
+                    <div class="item" id="scenario3Input">
+                        <p>Add effect</p>
+                        <select size="2" id="effectSelect" aria-labelledby="listLabel">
+                                <option value="1" selected="selected">1) Gray Scale Effect </option>
+                                <option value="2">2) Video Stabilization</option>
+                        </select>
+                        <button id="btnChooseEffect" onclick="addEffect()">Add effect</button>
+                        <button id="btnClearEffect" onclick="clearEffects()">Clear All Effects</button>
+                    </div>
+                           
+                    </div>
+                </div>
+
+            <h2 id="outputLabel"> Output</h2>
+
+            <div id="output" role="region" aria-labelledby="outputLabel" aria-live="assertive">
+                    <div id="statusMessage"></div>
+  
+                    <!-- Scenario 1 Output -->
+                    <div class="item" id="scenario1Output">
+                        <video width="320" height="240" id="previewTag" msRealTime=true style="vertical-align: top"> </video>
+                        <video width="320" height="240" id="videoPlaybackTag" style="vertical-align: top" controls="true"> </video>
+                        <img width="320" height="240" id="imageTag" src="images\placeholder-sdk.png" style="vertical-align: top"> </img>
+                    </div>
+        
+                    <!-- Scenario 2 Output -->
+                    <div class="item" id="scenario2Output">
+                        <img width="320" height="240" id="imageDeviceIcon" src="images\placeholder-sdk.png" style="vertical-align: top"> </img>
+                        <video width="320" height="240" id="previewChosenDeviceTag" style="vertical-align: top" msRealTime=true> </video>
+                    </div>
+
+                    <!-- Scenario 3 Output -->
+                    <div class="item" id="scenario3Output">
+                        <video width="320" height="240" id="previewEffectTag" style="vertical-align: top" msRealTime=true> </video>
+                    </div>
+
+            </div>
+        </div>
+        <div id="footer" role="contentinfo"></div>
+    </div>
+</body>
+</html>
+<!-- </SnippetMediaCaptureHtml> -->

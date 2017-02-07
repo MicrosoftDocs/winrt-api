@@ -1,0 +1,63 @@
+﻿<Page
+    x:Class="Ink_Basic_InkToolbar.MainPage_AddCustomTool"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Ink_Basic_InkToolbar"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+
+    <!-- <SnippetUI_AddCustomTool> -->
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel x:Name="HeaderPanel" Orientation="Horizontal" Grid.Row="0">
+            <TextBlock x:Name="Header" 
+                       Text="Basic ink sample" 
+                       Style="{ThemeResource HeaderTextBlockStyle}" 
+                       Margin="10,0,0,0" />
+        </StackPanel>
+        <StackPanel x:Name="ToolPanel" Orientation="Horizontal" Grid.Row="1">
+            <InkToolbar x:Name="inkToolbar" 
+                        VerticalAlignment="Top" 
+                        TargetInkCanvas="{x:Bind inkCanvas}">
+                <InkToolbarCustomToolButton 
+                    x:Name="customToolButton" 
+                    Click="customToolButton_Click" 
+                    ToolTipService.ToolTip="Selection tool">
+                    <SymbolIcon Symbol="{x:Bind SelectIcon}"/>
+                </InkToolbarCustomToolButton>
+            </InkToolbar>
+            <Button x:Name="cutButton" 
+                    Content="Cut" 
+                    Click="cutButton_Click"
+                    Width="100"
+                    Margin="5,0,0,0"/>
+            <Button x:Name="copyButton" 
+                    Content="Copy"  
+                    Click="copyButton_Click"
+                    Width="100"
+                    Margin="5,0,0,0"/>
+            <Button x:Name="pasteButton" 
+                    Content="Paste"  
+                    Click="pasteButton_Click"
+                    Width="100"
+                    Margin="5,0,0,0"/>
+        </StackPanel>
+        <Grid Grid.Row="2" x:Name="outputGrid" 
+                  Background="{ThemeResource SystemControlBackgroundChromeWhiteBrush}" 
+                  Height="Auto">
+            <!-- Canvas for displaying selection UI. -->
+            <Canvas x:Name="selectionCanvas"/>
+            <!-- Canvas for displaying ink. -->
+            <InkCanvas x:Name="inkCanvas" />
+        </Grid>
+    </Grid>
+    <!-- </SnippetUI_AddCustomTool> -->
+    <!--<InkToolbarPenConfigurationControl Template="{StaticResource CalligraphicPenConfigControl}" />-->
+
+</Page>

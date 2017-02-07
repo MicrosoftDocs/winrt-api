@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="2801bb29-1a01-4f7b-8b55-2b914bf09512" Publisher="CN=grerol" Version="1.0.0.0" />
+  <Properties>
+    <DisplayName>ShareTargetBetaCS</DisplayName>
+    <PublisherDisplayName>grerol</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+    <Description>ShareTargetBetaCS</Description>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2</OSMinVersion>
+    <OSMaxVersionTested>6.2</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="ShareTargetBetaCS.App">
+      <VisualElements DisplayName="ShareTargetBetaCS" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="ShareTargetBetaCS" ForegroundText="light" BackgroundColor="#222222">
+        <DefaultTile ShowName="allLogos" />
+        <SplashScreen Image="Assets\SplashScreen.png" />
+      </VisualElements>
+      <Extensions>
+        <Extension Category="windows.shareTarget">
+          <ShareTarget>
+            <SupportedFileTypes>
+              <FileType>.txt</FileType>
+              <FileType>.docx</FileType>
+            </SupportedFileTypes>
+            <DataFormat>text</DataFormat>
+          </ShareTarget>
+        </Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>

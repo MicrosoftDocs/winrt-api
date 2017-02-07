@@ -1,0 +1,107 @@
+﻿<!-- The HTML file with the UI for testing -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>SnippetsTest</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.0.6/css/ui-dark.css" rel="stylesheet">
+    <script src="//Microsoft.WinJS.0.6/js/base.js"></script>
+    <script src="//Microsoft.WinJS.0.6/js/ui.js"></script>
+
+    <!-- SnippetsTest references -->
+    <link href="/css/default.css" rel="stylesheet">
+    <script src="/js/default.js"></script>
+</head>
+<body>
+  <div>
+    <label id="OutputText">Output 1</label>
+    <button onclick="initialization()" >Initialize</button>
+    <button onclick="startMediaCaptureSession()">Start Camera</button>
+    <button onclick="stopMediaCaptureSession()">Stop Camera</button>
+    <button onclick="devController()">Device Controller</button>
+    <button onclick="startMediaCaptureSession()">Adjust Devices</button>
+    <button onclick="setRotation()">Set Rotation</button>
+    <button onclick="startPreview()">Start Preview</button>
+    <button onclick="videoStabilization()">Stabilization</button>
+       <button onclick="initMediaCapture()">Init</button>
+      
+    <span id="message"></span>
+     <p id="videoTag1">Video Tag</p>
+    </div>
+</body>
+</html>
+
+<!-- End of the HTML file with the UI for testing -->
+
+
+// <SnippetMediaCaptureVideo_HTMLFile>
+<!DOCTYPE html>
+<html>
+<head>   
+   <title>WinWebApp1</title>
+   <!-- WinJS references -->
+   <link rel="stylesheet" href="/winjs/css/ui-dark.css" />
+   <script src="/winjs/js/base.js"></script>
+   <script src="/winjs/js/wwaapp.js"></script>
+   <!-- WinWebApp1 references -->
+   <link rel="stylesheet" href="/css/default.css" />
+    
+   <script type = "text/javascript" >
+
+   // Takes a photo using the default JPEG format.
+   function takepicture() {
+      var captureUI = new Windows.Media.Capture.CameraCaptureUI();
+      captureUI.captureFileAsync(Windows.Media.Capture.CameraCaptureUIMode.photo).then(function (capturedItem) {
+         if (capturedItem) {
+             document.getElementById("message").innerHTML = "User captured a photo."
+         }
+         else {
+             document.getElementById("message").innerHTML = "User didn't capture a photo."
+         }
+      });
+   }
+   </script>
+</head>
+<body>
+   <input type="button" onclick="takepicture()" value="Take a Picture" /><br />
+   <span id="message"></span>
+</body>
+</html>
+// </SnippetMediaCaptureVideo_HTMLFile>
+
+
+
+// <SnippetMediaCaptureVideo_CaptureSettings>
+captureUI.photoCaptureSettings.format = Windows.Media.Capture.CameraCaptureUIPhotoFormat.png;
+captureUI.photoCaptureSettings.croppedAspectRatio = {width:4, height:3};
+// </SnippetMediaCaptureVideo_CaptureSettings>
+
+
+
+
+<!-- The following is the original html file added temporarily -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>WinWebApp10</title>
+    <!-- WinJS references -->
+    <link rel="stylesheet" href="/winjs/css/ui-dark.css" />
+    <script src="/winjs/js/base.js"></script>
+    <script src="/winjs/js/wwaapp.js"></script>
+    <!-- WinWebApp10 references -->
+    <link rel="stylesheet" href="/css/default.css" />
+    <script src="/js/default.js"></script>
+</head>
+<body>
+   <input type="button" onclick="initialization()" value="Initialize" /><br />
+   <input type="button" onclick="startMediaCaptureSession()" value="Start Video Capture" /><br />
+   <input type="button" onclick="stopMediaCaptureSession()" value="Stop Video Capture" /><br />
+   <span id="message"></span>
+</body>
+</html>
+
+<!-- Ends original html content -->

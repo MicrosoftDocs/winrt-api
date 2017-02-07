@@ -1,0 +1,25 @@
+﻿<UserControl x:Class="ScrollBarVisibilityEx.Page"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+   Height="400" Width="300" >
+    <!--<snippet1>-->
+    <StackPanel Height="400" Width="300">
+        <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Disabled">
+            <Grid VerticalAlignment="Top" HorizontalAlignment="Left">
+                <Rectangle Fill="Green" Width="450" Height="200"></Rectangle>
+                <TextBlock Margin="10,10,10,10">
+                    Auto. The horizontal scroll bar is shown if the content is wider than the viewport.
+                </TextBlock>
+            </Grid>
+        </ScrollViewer>
+        <ScrollViewer HorizontalScrollBarVisibility="Hidden">
+            <Grid>
+                <Rectangle Fill="Blue" Width="450" Height="200" />
+                <TextBlock Margin="10,10,10,10">
+                    Hidden. The horizontal scroll bar is hidden even if the content is wider than the viewport.
+                </TextBlock>
+            </Grid>
+        </ScrollViewer>
+    </StackPanel>
+    <!--</snippet1>-->
+</UserControl>

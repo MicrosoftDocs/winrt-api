@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:wb="http://schemas.microsoft.com/appx/2013/manifest">
+  <Identity Name="9076dc21-1312-4918-a762-e68455642b98" Publisher="CN=blove" Version="1.0.0.0" />
+  <Properties>
+    <DisplayName>MediaPlayback2</DisplayName>
+    <PublisherDisplayName>blove</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.3.0</OSMinVersion>
+    <OSMaxVersionTested>6.3.0</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="MediaPlayback2.App">
+      <wb:VisualElements DisplayName="MediaPlayback2" Square150x150Logo="Assets\Logo.png" Square30x30Logo="Assets\SmallLogo.png" Description="MediaPlayback2" ForegroundText="light" BackgroundColor="#464646">
+        <wb:SplashScreen Image="Assets\SplashScreen.png" />
+      </wb:VisualElements>
+      <Extensions>
+        <Extension Category="windows.backgroundTasks" EntryPoint="MediaPlayback2.App">
+          <BackgroundTasks>
+            <Task Type="audio" />
+          </BackgroundTasks>
+        </Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>

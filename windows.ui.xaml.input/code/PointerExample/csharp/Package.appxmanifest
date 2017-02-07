@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+
+  <Identity Name="5da7cd15-65b1-4d14-98f9-e473b4a5b90d"
+            Publisher="CN=karler"
+            Version="1.0.0.0" />
+
+  <Properties>
+    <DisplayName>PointerExample</DisplayName>
+    <PublisherDisplayName>karler</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+    <Description>PointerExample</Description>
+  </Properties>
+
+  <Prerequisites>
+    <OSMinVersion>6.2</OSMinVersion>
+    <OSMaxVersionTested>6.2</OSMaxVersionTested>
+  </Prerequisites>
+
+  <Resources>
+    <Resource Language="x-generate"/>
+  </Resources>
+
+  <Applications>
+    <Application Id="App"
+        Executable="$targetnametoken$.exe"
+        EntryPoint="PointerExample.App">
+        <VisualElements
+            DisplayName="PointerExample"
+            Logo="Assets\Logo.png"
+            SmallLogo="Assets\SmallLogo.png"
+            Description="PointerExample"
+            ForegroundText="light"
+            BackgroundColor="#222222">
+            <DefaultTile ShowName="allLogos" />
+            <SplashScreen Image="Assets\SplashScreen.png" />
+        </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="c0c77fed-ecdd-4739-b167-899d3f7e656f" Publisher="CN=wolfs" Version="1.0.0.0" />
+  <Properties>
+    <DisplayName>ProgressBarEx</DisplayName>
+    <PublisherDisplayName>wolfs</PublisherDisplayName>
+    <Logo>Images\StoreLogo.png</Logo>
+    <Description>ProgressBarEx</Description>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2</OSMinVersion>
+    <OSMaxVersionTested>6.2</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="en-us" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="ProgressBarEx.exe" EntryPoint="ProgressBarEx.app">
+      <VisualElements DisplayName="ProgressBarEx" Logo="Images\Logo.png" SmallLogo="Images\SmallLogo.png" Description="ProgressBarEx" ForegroundText="light" BackgroundColor="#222222">
+        <SplashScreen Image="Images\SplashScreen.png" />
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>

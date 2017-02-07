@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="CheckboxEx.Page"
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+  Width="400" Height="300">
+  <StackPanel x:Name="LayoutRoot"  Margin="10" >
+    <!--<snippet1> -->
+    <!-- A two-state CheckBox. -->
+    <CheckBox x:Name="cb1" Content="Two-state CheckBox"
+              Checked="HandleCheck" Unchecked="HandleUnchecked" />
+    <TextBlock x:Name="text1"  />
+        
+    <!-- A three-state CheckBox. -->
+    <CheckBox x:Name="cb2" Content="Three-state CheckBox" 
+              IsThreeState="True" Indeterminate="HandleThirdState" 
+              Checked="HandleCheck" Unchecked="HandleUnchecked" />
+    <TextBlock x:Name="text2"  />
+    <!--</snippet1> -->
+  </StackPanel>
+</UserControl>

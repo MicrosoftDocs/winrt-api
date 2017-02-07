@@ -1,0 +1,34 @@
+﻿<UserControl x:Class="text.textblock_skew_transform"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    Width="400" Height="300">
+    <Grid Margin="30" >
+    <!-- <snippetSkewTransform> -->
+    <Canvas x:Name="LayoutRoot" >
+
+        <!-- Skew the text using a SkewTransform. -->
+        <TextBlock
+            FontSize="32"
+            FontWeight="Bold" 
+            Foreground="Maroon"
+            Text="Skewed Text">
+            <TextBlock.RenderTransform>
+                <SkewTransform AngleX="-30" AngleY="0" />
+            </TextBlock.RenderTransform>
+        </TextBlock>
+
+        <TextBlock
+            Canvas.Top="60"
+            FontSize="32"
+            FontWeight="Bold" 
+            Foreground="Maroon"
+            Text="Skewed Text">
+            <TextBlock.RenderTransform>
+                <SkewTransform AngleX="30" AngleY="0" />
+            </TextBlock.RenderTransform>
+        </TextBlock>
+
+    </Canvas>
+    <!-- </snippetSkewTransform> -->
+    </Grid>
+</UserControl>

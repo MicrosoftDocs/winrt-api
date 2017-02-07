@@ -1,0 +1,28 @@
+﻿<Page
+    x:Class="WifiDirectSampleCS.BlankPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WifiDirectSampleCS"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <!-- <SnippetUI_CS>-->
+    <Grid Background="{StaticResource ApplicationPageBackgroundBrush}">
+        <StackPanel Margin="20">
+            <StackPanel Orientation="Horizontal">
+                <Button x:Name="TapToConnectButton" Content="Click Here to Tap to Connect" Click="TapToConnectButton_Click" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Button x:Name="StartFindingPeersButton" Content="Browse for Peers" Click="StartFindingPeersButton_Click" />
+                <Button x:Name="StopFindingPeersButton" Content="Stop Browsing for Peers" Click="StopFindingPeersButton_Click" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBox x:Name="SendMessageTextBox" Width="300" Height="30" />
+                <Button x:Name="SendMessageButton" Content="Send Message" Click="SendMessageButton_Click" />
+            </StackPanel>
+            <TextBlock x:Name="MessageBlock" Width="600" HorizontalAlignment="Left"/>
+        </StackPanel>
+    </Grid>
+    <!-- </SnippetUI_CS>-->
+</Page>

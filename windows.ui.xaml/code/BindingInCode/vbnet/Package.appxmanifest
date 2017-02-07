@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+
+  <Identity Name="360a39f2-1650-4f23-a1b2-4e53c51a8399"
+            Publisher="CN=karler"
+            Version="1.0.0.0" />
+
+  <Properties>
+    <DisplayName>BindingInCode</DisplayName>
+    <PublisherDisplayName>karler</PublisherDisplayName>
+    <Logo>Images\StoreLogo.png</Logo>
+    <Description>BindingInCode</Description>
+  </Properties>
+
+  <Prerequisites>
+    <OSMinVersion>6.2</OSMinVersion>
+    <OSMaxVersionTested>6.2</OSMaxVersionTested>
+  </Prerequisites>
+
+  <Resources>
+    <Resource Language="en-us"/>
+  </Resources>
+
+  <Applications>
+    <Application Id="App"
+        Executable="$targetnametoken$.exe"
+        EntryPoint="BindingInCode.App">
+        <VisualElements
+            DisplayName="BindingInCode"
+            Logo="Images\Logo.png"
+            SmallLogo="Images\SmallLogo.png"
+            Description="BindingInCode"
+            ForegroundText="light"
+            BackgroundColor="#222222">
+            <DefaultTile ShowName="allLogos" />
+            <SplashScreen Image="Images\SplashScreen.png" />
+        </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>

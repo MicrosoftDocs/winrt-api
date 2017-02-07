@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+
+  <Identity Name="4d336f44-7ce2-48bc-9bd6-912ca89f51b9"
+            Publisher="CN=Sam"
+            Version="1.0.0.0" />
+
+  <Properties>
+    <DisplayName>RepositionThemeTransition</DisplayName>
+    <PublisherDisplayName>Sam</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+    <Description>RepositionThemeTransition</Description>
+  </Properties>
+
+  <Prerequisites>
+    <OSMinVersion>6.2</OSMinVersion>
+    <OSMaxVersionTested>6.2</OSMaxVersionTested>
+  </Prerequisites>
+
+  <Resources>
+    <Resource Language="x-generate"/>
+  </Resources>
+
+  <Applications>
+    <Application Id="App"
+        Executable="$targetnametoken$.exe"
+        EntryPoint="RepositionThemeTransition.App">
+        <VisualElements
+            DisplayName="RepositionThemeTransition"
+            Logo="Assets\Logo.png"
+            SmallLogo="Assets\SmallLogo.png"
+            Description="RepositionThemeTransition"
+            ForegroundText="light"
+            BackgroundColor="#222222">
+            <DefaultTile ShowName="allLogos" />
+            <SplashScreen Image="Assets\SplashScreen.png" />
+        </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>

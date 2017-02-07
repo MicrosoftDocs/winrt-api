@@ -1,0 +1,80 @@
+---
+-api-id: T:Windows.Storage.Provider.FileUpdateRequest
+-api-type: winrt class
+---
+
+<!-- Class syntax.
+public class FileUpdateRequest : Windows.Storage.Provider.IFileUpdateRequest, Windows.Storage.Provider.IFileUpdateRequest2
+-->
+
+# Windows.Storage.Provider.FileUpdateRequest
+
+## -description
+Provides information about a requested file update so that the app can complete the request.
+
+## -remarks
+If your app participates in the Cached File Updater contract, use this class to respond when Windows fires [FileUpdateRequested](cachedfileupdaterui_fileupdaterequested.md) events to request file updates. You can access this class from your event handler using the [FileUpdateRequestedEventArgs](fileupdaterequestedeventargs.md).[Request](fileupdaterequestedeventargs_request.md) property. As a part of your response to a [FileUpdateRequested](cachedfileupdaterui_fileupdaterequested.md) event, you must set the [Status](fileupdaterequest_status.md) property of this class to indicate the status of the update.
+
+Learn more about responding to update requests in [FileUpdateRequested](cachedfileupdaterui_fileupdaterequested.md) and [FileUpdateRequestedEventArgs](fileupdaterequestedeventargs.md).
+
+If your app can't complete the update before returning from its [FileUpdateRequested](cachedfileupdaterui_fileupdaterequested.md) event handler, you can use the [GetDeferral](fileupdaterequest_getdeferral.md) property to finish the update asynchronously.
+
+## -examples
+The [File picker contracts sample](http://go.microsoft.com/fwlink/p/?linkid=231536) demonstrates how to respond to a [FileUpdateRequested](cachedfileupdaterui_fileupdaterequested.md) event, including how to use [Request](fileupdaterequestedeventargs_request.md) to get the [FileUpdateRequest](fileupdaterequest.md).
+
+```csharp
+
+// Event handler
+void CachedFileUpdaterUI_FileUpdateRequested(CachedFileUpdaterUI sender, FileUpdateRequestedEventArgs args)
+{
+    fileUpdateRequest = args.Request;
+    fileUpdateRequestDeferral = fileUpdateRequest.GetDeferral();
+    switch (cachedFileUpdaterUI.UIStatus)
+    {
+        case UIStatus.Hidden:
+            fileUpdateRequest.Status = FileUpdateStatus.UserInputNeeded;
+            fileUpdateRequestDeferral.Complete();
+            break;
+        case UIStatus.Visible:
+            break;
+        case UIStatus.Unavailable:
+            fileUpdateRequest.Status = FileUpdateStatus.Failed;
+            fileUpdateRequestDeferral.Complete();
+            break;
+    }
+}
+
+// Register for the event
+cachedFileUpdaterUI.FileUpdateRequested += CachedFileUpdaterUI_FileUpdateRequested;
+```
+
+```javascript
+
+// Event handler
+function onFileUpdateRequest(e) {
+    fileUpdateRequest = e.request;
+    fileUpdateRequestDeferral = fileUpdateRequest.getDeferral();
+
+    switch (cachedFileUpdaterUI.uiStatus) {
+        case Windows.Storage.Provider.UIStatus.hidden:
+            fileUpdateRequest.status = Windows.Storage.Provider.FileUpdateStatus.userInputNeeded;
+            fileUpdateRequestDeferral.complete();
+            break;
+        case Windows.Storage.Provider.UIStatus.visible:
+            var url = scenarios[0].url;
+            WinJS.Navigation.navigate(url, cachedFileUpdaterUI);
+            break;
+        case Windows.Storage.Provider.UIStatus.unavailable:
+            fileUpdateRequest.status = Windows.Storage.Provider.FileUpdateStatus.failed;
+            fileUpdateRequestDeferral.complete();
+            break;
+    }
+}
+
+// Register for the event
+cachedFileUpdaterUI.addEventListener("fileupdaterequested", onFileUpdateRequest);
+```
+
+Both `args` and `e` (in C# and JS respectively) contain a [FileUpdateRequestedEventArgs](fileupdaterequestedeventargs.md) object.
+
+## -see-also

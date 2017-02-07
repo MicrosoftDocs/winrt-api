@@ -1,0 +1,45 @@
+﻿<Page
+    x:Class="AppBarSample.MainPage"
+    IsTabStop="false"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AppBarSample"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <!-- <SnippetTopAppBar> -->
+    <Page.TopAppBar>
+        <AppBar x:Name="topAppBar">
+            <Grid>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                    <Button Style="{StaticResource SaveAppBarButtonStyle}" 
+                            Click="Button_Click"/>
+                    <Button Style="{StaticResource UploadAppBarButtonStyle}" 
+                            Click="Button_Click"/>
+                </StackPanel>
+            </Grid>
+        </AppBar>
+    </Page.TopAppBar>
+    <!-- </SnippetTopAppBar> -->
+    
+    <!-- <SnippetBottomAppBar> -->
+    <Page.BottomAppBar>
+        <AppBar x:Name="bottomAppBar">
+            <Grid>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                    <Button Style="{StaticResource HelpAppBarButtonStyle}" 
+                            Click="Button_Click"/>
+                </StackPanel>
+            </Grid>
+        </AppBar>
+    </Page.BottomAppBar>
+    <!-- </SnippetBottomAppBar> -->
+    
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel Margin="120">
+            <Button Content="Open top app bar" Click="OpenButton_Click"/>
+            <Button Content="Make bottom app bar sticky" Click="StickyButton_Click"/>
+        </StackPanel>
+    </Grid>
+</Page>

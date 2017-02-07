@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>0ca3b1b8-156d-419a-8db4-297610213a1e</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>f9ca9b40-e92d-4f43-a722-a53f8eda134e</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataModel">
+      <UniqueIdentifier>e5169443-985f-4006-b99a-c527079680fb</UniqueIdentifier>
+    </Filter>
+    <None Include="Common\ReadMe.txt">
+      <Filter>Common</Filter>
+    </None>
+    <Page Include="Common\StandardStyles.xaml">
+      <Filter>Common</Filter>
+    </Page>
+    <ClCompile Include="Common\BindableBase.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\BooleanToVisibilityConverter.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\BooleanNegationConverter.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\RichTextColumns.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\LayoutAwarePage.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\SuspensionManager.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClInclude Include="Common\BindableBase.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\BooleanToVisibilityConverter.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\BooleanNegationConverter.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\RichTextColumns.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\LayoutAwarePage.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\SuspensionManager.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <Image Include="Assets\Logo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SmallLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\LightGray.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\MediumGray.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\DarkGray.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <ClCompile Include="DataModel\SampleDataSource.cpp">
+      <Filter>DataModel</Filter>
+    </ClCompile>
+    <ClInclude Include="DataModel\SampleDataSource.h">
+      <Filter>DataModel</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

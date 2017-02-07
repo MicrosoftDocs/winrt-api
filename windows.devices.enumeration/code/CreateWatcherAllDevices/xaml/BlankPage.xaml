@@ -1,0 +1,61 @@
+<!-- <SnippetCreateWatcherAllDevicesXAML>  -->
+<Page
+    x:Class="Application1.BlankPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Application1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid x:Name="ContentRoot" Background="Black" Margin="100,20,100,20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Header -->
+        <StackPanel x:Name="Header" Grid.Row="0">
+            <StackPanel Orientation="Horizontal"/>
+        </StackPanel>
+
+        <!-- Content -->
+        <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" Grid.Row="1" ZoomMode="Disabled">
+            <StackPanel x:Name="ContentPanel">
+                <TextBlock Text="Device Enumeration Sample" Margin="0,25,0,20" Height="25" />
+
+                <StackPanel x:Name="InputPanel" Orientation="Horizontal" HorizontalAlignment="Left" Height="266">
+                    <StackPanel/>
+                    <StackPanel x:Name="Description" MaxWidth="900">
+
+                        <!-- Enumerate Device Interfaces -->
+                        <StackPanel x:Name="EnumerateDevicesInput" Height="270" Width="857">
+
+                            <TextBlock Text="Input" Margin="0,25,0,20" />
+
+                            <TextBlock TextWrapping="Wrap" Text="This example app incrementally enumerates devices, adding them to a list each time a device is found, and also watching for updates. After enumeration is complete, the app prints the list of devices. The app reprints the list if devices are updated, removed, or added." HorizontalAlignment="Left"/>
+                            <StackPanel Orientation="Horizontal" Margin="0,10,0,0"/>
+                            <StackPanel Orientation="Horizontal" Margin="0,10,0,0"/>
+                            <Button Name="WatchAllDevices" Content="Watch (All devices)" Margin="0,10,10,0" Click="WatchDevices" />
+                            <Button Name="StopAllWatcher" Content="Stop" Margin="0,10,10,0" Click="StopWatcher" />
+                        </StackPanel>
+
+                    </StackPanel>
+                </StackPanel>
+                <TextBlock Text="Output" Margin="0,25,0,20" />
+
+                <!-- Output section -->
+                <StackPanel x:Name="Output"  HorizontalAlignment="Left">
+                    <TextBlock Name="OutputText" />
+
+                    <!-- Device Interfaces-->
+                    <ListBox Name="DeviceInterfacesOutputList" IsEnabled="False" BorderThickness="0" />
+
+                </StackPanel>
+            </StackPanel>
+        </ScrollViewer>
+
+    </Grid>
+</Page>
+<!-- </SnippetCreateWatcherAllDevicesXAML>  -->

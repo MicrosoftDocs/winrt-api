@@ -1,0 +1,43 @@
+<UserControl xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk"  x:Class="ACBStyleCS.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    Width="400" Height="300">
+    <!--<snippet1>-->
+    <Border BorderBrush="DarkGray" BorderThickness="2">
+        <StackPanel x:Name="LayoutRoot" Background="LightYellow" Orientation="Vertical">
+            <TextBlock Margin="5" Text="TextBoxStyle and ItemContainerStyle Example" />
+            <StackPanel Orientation="Horizontal">
+                 <StackPanel.Resources>
+                    <!--<snippet2>-->
+                        <Style  x:Key="myTBStyle" TargetType="TextBox">
+                        <Setter Property="Background" Value="LightYellow" />
+                        <Setter Property="Foreground" Value="DarkSlateGray" />
+                        <Setter Property="Margin" Value="5" />
+                        <Setter Property="FontWeight" Value="Bold" />
+                        <Setter Property="FontSize" Value="14" />
+                        <Setter Property="BorderBrush" Value="DarkGray" />
+                    </Style>
+                    <!--</snippet2>-->
+                    <!--<snippet3>-->
+                    <Style  x:Key="myLBStyle" TargetType="ListBoxItem">
+                        <Setter Property="Background" Value="Khaki" />
+                        <Setter Property="Foreground" Value="DarkSlateGray" />
+                        <Setter Property="Margin" Value="5" />
+                        <Setter Property="FontStyle" Value="Italic" />
+                        <Setter Property="FontSize" Value="14" />
+                        <Setter Property="BorderBrush" Value="DarkGray" />
+                    </Style>
+                    <!--</snippet3>-->
+                </StackPanel.Resources>
+                <TextBox Height="30" Width="Auto" IsReadOnly="True" Text="Enter city:" 
+                    Style="{StaticResource myTBStyle}" BorderBrush="LightGray" />
+                <!--<snippet4>-->
+                <!--<AutoCompleteBox Width="150"  Height="30" x:Name="myACB" 
+                    TextBoxStyle="{StaticResource myTBStyle}" 
+                    ItemContainerStyle="{StaticResource myLBStyle}" />-->
+                <!--</snippet4>-->
+            </StackPanel>
+        </StackPanel>
+    </Border>
+    <!--</snippet1>-->
+</UserControl>

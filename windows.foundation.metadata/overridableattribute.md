@@ -1,0 +1,20 @@
+---
+-api-id: T:Windows.Foundation.Metadata.OverridableAttribute
+-api-type: winrt class
+---
+
+<!-- Class syntax.
+public class OverridableAttribute : System.Attribute
+-->
+
+# Windows.Foundation.Metadata.OverridableAttribute
+
+## -description
+Indicates that the interface contains overridable methods.
+
+## -remarks
+
+## -examples
+
+## -see-also
+[Attribute](https://msdn.microsoft.com/library/system.attribute.aspx)

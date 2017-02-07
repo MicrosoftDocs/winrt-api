@@ -1,0 +1,3 @@
+----api-id: M:Windows.Media.Transcoding.PrepareTranscodeResult.TranscodeAsync
+-api-type: winrt method
+---<!-- Method syntaxpublic Windows.Foundation.IAsyncActionWithProgress<double> TranscodeAsync()--># Windows.Media.Transcoding.PrepareTranscodeResult.TranscodeAsync## -descriptionCreates an object to perform an asynchronous media transcode operation on media data.## -returnsAn object that is used to control the asynchronous operation.## -remarks## -examples## -see-also[Transcoding media sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620569)

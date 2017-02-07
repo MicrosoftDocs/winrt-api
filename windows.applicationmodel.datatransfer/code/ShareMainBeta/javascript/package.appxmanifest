@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="a19f8d17-7382-4545-871e-9d4f37f78c69" Version="1.0.0.0" Publisher="CN=dshevitz" />
+  <Properties>
+    <DisplayName>ShareMainBeta</DisplayName>
+    <Description>ShareMainBeta</Description>
+    <PublisherDisplayName>dshevitz</PublisherDisplayName>
+    <Logo>images\storelogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2</OSMinVersion>
+    <OSMaxVersionTested>6.2</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" StartPage="ShareLink.html">
+      <VisualElements DisplayName="ShareMainBeta" Logo="images\logo.png" SmallLogo="images\smalllogo.png" Description="ShareMainBeta" ForegroundText="light" BackgroundColor="#000000">
+        <DefaultTile ShowName="allLogos" />
+        <SplashScreen Image="images\splashscreen.png" />
+      </VisualElements>
+      <Extensions>
+        <Extension Category="windows.shareTarget">
+          <ShareTarget>
+            <DataFormat>text</DataFormat>
+            <DataFormat>uri</DataFormat>
+            <DataFormat>storageitems</DataFormat>
+            <DataFormat>bitmap</DataFormat>
+          </ShareTarget>
+        </Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>

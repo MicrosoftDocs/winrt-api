@@ -1,0 +1,32 @@
+---
+-api-id: T:Windows.Devices.WiFiDirect.WiFiDirectDevice
+-api-type: winrt class
+---
+
+<!-- Class syntax.
+public class WiFiDirectDevice : Windows.Devices.WiFiDirect.IWiFiDirectDevice, Windows.Foundation.IClosable
+-->
+
+# Windows.Devices.WiFiDirect.WiFiDirectDevice
+
+## -description
+Manages connections to associated Wi-Fi Direct devices.
+
+## -remarks
+You can use the [WiFiDirectDevice](wifidirectdevice.md) class to establish a socket connection with other devices that have a Wi-Fi Direct (WFD) capable device. You can call the [GetDeviceSelector](wifidirectdevice_getdeviceselector.md) method to get the device identifier for a Wi-Fi Direct device. Once you have a reference to a [WiFiDirectDevice](wifidirectdevice.md) on your computer, you can call the [GetConnectionEndpointPairs](wifidirectdevice_getconnectionendpointpairs.md) method to get an [EndpointPair](../windows.networking/endpointpair.md) object and establish a socket connection using the [Windows.Networking.Sockets](../windows.networking.sockets/windows_networking_sockets.md) API.
+
+You can add a handler for the [ConnectionStatusChanged](wifidirectdevice_connectionstatuschanged.md) event to be notified when the connection has been established or disconnected.
+
+Only one app can be connected to a Wi-Fi Direct device at a time.
+
+You must enable the **Proximity** capability to communicate with Wi-Fi Direct devices.
+
+## -examples
+
+
+> [!div class="tabbedCodeSnippets"][!code-cs[2](../windows.devices.wifidirect/code/WiFiDirect_Device/cs/MainPage.xaml.cs#Snippet2)][!code-js[2](../windows.devices.wifidirect/code/WiFiDirect_Device/js/default.js#Snippet2)]
+
+[!code-js[2_JS](../windows.devices.wifidirect/code/WiFiDirect_Device/js/default.js#Snippet2_JS)]
+
+## -see-also
+[WiFiDirectDevice sample](http://go.microsoft.com/fwlink/p/?LinkID=301419)

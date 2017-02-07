@@ -1,0 +1,14 @@
+﻿<UserControl x:Class="StackPanel1.Page"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    Width="500" Height="500">
+    <!--<Snippet02>-->
+    <Grid x:Name="LayoutRoot"  Width="500" Height="500">
+        <StackPanel x:Name="MyStackPanel">
+            <TextBlock x:Name="TB1" Text="First Name" Width="77" HorizontalAlignment="Left"/>
+            <TextBlock x:Name="TB2" Text="Last Name" Width="78" HorizontalAlignment="Left"/>
+            <TextBlock x:Name="TB3" Text="Address" Width="60" HorizontalAlignment="Left"/>
+        </StackPanel>
+    </Grid>
+    <!--</Snippet02>-->
+</UserControl>

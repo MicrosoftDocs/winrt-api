@@ -1,0 +1,42 @@
+---
+-api-id: M:Windows.UI.Xaml.UIElement.TransformToVisual(Windows.UI.Xaml.UIElement)
+-api-type: winrt method
+---
+
+<!-- Method syntax
+public Windows.UI.Xaml.Media.GeneralTransform TransformToVisual(Windows.UI.Xaml.UIElement visual)
+-->
+
+# Windows.UI.Xaml.UIElement.TransformToVisual
+
+## -description
+Returns a transform object that can be used to transform coordinates from the [UIElement](uielement.md) to the specified object.
+
+## -parameters
+### -param visual
+The object to compare to the current object for purposes of obtaining the transform.
+
+## -returns
+The transform information as an object. Call methods on this object to get a practical transform.
+
+## -remarks
+Call [TransformToVisual](uielement_transformtovisual.md) in order to get a coordinate offset between two elements in a UI. The first element being considered is the [UIElement](uielement.md) where you call [TransformToVisual](uielement_transformtovisual.md), the second element is the [UIElement](uielement.md) you pass as the *visual* parameter. For example, you can use the transform to determine how the bounds of an element are positioned in a coordinate system that is relative to a layout parent element, rather than the app's window.
+
+[TransformToVisual](uielement_transformtovisual.md) gives coordinate results after all considerations that affect rendering and positioning such as [RenderTransform](uielement_rendertransform.md) have been applied. This is useful if you're processing point values that were obtained during an animation of [RenderTransform](uielement_rendertransform.md) or other position changes.
+
+The most common scenario for [TransformToVisual](uielement_transformtovisual.md) is if you want to use a local coordinate system relative to the [UIElement](uielement.md) you call it on, and you aren't handling a real-time input event that has event data methods for converting a [Point](../windows.foundation/point.md) value into the object's frame of reference. After you call [TransformToVisual](uielement_transformtovisual.md), you can then call [TransformPoint](../windows.ui.xaml.media/generaltransform_transformpoint.md) on the returned [GeneralTransform](../windows.ui.xaml.media/generaltransform.md).
+
+> [!NOTE]
+> The [GeneralTransform](../windows.ui.xaml.media/generaltransform.md) object returned by this method can be cast to a derived type, [Transform](../windows.ui.xaml.media/transform.md), but all the methods you need are defined by [GeneralTransform](../windows.ui.xaml.media/generaltransform.md). You can't cast to [TranslateTransform](../windows.ui.xaml.media/translatetransform.md) even though you might expect that the transform result would be a translation.
+
+## -examples
+This example shows a scenario for calling [TransformToVisual](uielement_transformtovisual.md) in order to interpret the coordinates from a [PointerPoint](../windows.ui.input/pointerpoint.md) in the coordinate reference frame of an element that's not the event sender. Here, the `queryPointer` method first accesses coordinates that do relate to the sender (this is the [GetCurrentPoint](../windows.ui.input/pointerpoint_getcurrentpoint.md) call in the first line of the method) but then later uses [TransformToVisual](uielement_transformtovisual.md) to convert point coordinates into the reference frame for the `page` layout container that's actually several layers of containment up in the XAML. To see more context for this code (including seeing how `queryPointer` displays results in UI and when it's called), see the complete code example that is shown in the topic [Handle pointer input](http://msdn.microsoft.com/library/bdbc9e33-4037-4671-9596-471dcf855c82).
+
+
+
+> [!div class="tabbedCodeSnippets"][!code-xml[UI](../windows.ui.input.inking/code/PointerInput/csharp/MainPage.xaml#SnippetUI)][!code-xml[UI](../windows.ui.input.inking/code/PointerInput_UWP/csharp/MainPage.xaml#SnippetUI)]
+
+> [!div class="tabbedCodeSnippets"][!code-cs[QueryPointer](../windows.ui.input.inking/code/PointerInput/csharp/MainPage.xaml.cs#SnippetQueryPointer)][!code-cs[QueryPointer](../windows.ui.input.inking/code/PointerInput_UWP/csharp/MainPage.xaml.cs#SnippetQueryPointer)]
+
+## -see-also
+[GeneralTransform](../windows.ui.xaml.media/generaltransform.md), [Define layouts with XAML](http://msdn.microsoft.com/library/8d4e4162-1c9c-48f4-8a94-34976fb17079), [XAML two-dimensional transforms sample](http://go.microsoft.com/fwlink/p/?linkid=226868)

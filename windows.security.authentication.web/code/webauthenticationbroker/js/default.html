@@ -1,0 +1,171 @@
+﻿<!DOCTYPE html>
+<html>    
+<head>
+    <title>Web Authentication SDK Sample</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.0.6/css/ui-light.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="//Microsoft.WinJS.0.6/js/base.js"></script>
+    <script type="text/javascript" src="//Microsoft.WinJS.0.6/js/ui.js"></script>
+
+    <!-- SDK Base references -->
+    <link rel="stylesheet" type="text/css" href="css/base-sdk.css" />
+    <script type="text/javascript" src="base-sdk.js"></script>
+
+    <!-- Sample references -->
+    <link rel="stylesheet" type="text/css" href="css/program.css" />
+    <script type="text/javascript" src="program.js"></script>
+</head>
+<body role="application">
+    <div id="rootGrid">
+        <div id="header" role="contentinfo"></div>
+        <div id="content">
+            <h1 id="featureLabel">Web Authentication</h1>
+
+            <h2 id="inputLabel">Input</h2>
+
+            <div id="input" role="main" aria-labelledby="inputLabel">
+                <div class="options">
+                    <h3 id="listLabel">Select scenario:</h3>
+                    <select size="5" id="scenarios" aria-labelledby="listLabel">
+                        <option selected="selected" value="1">1) Facebook</option>
+                        <option value="2">2) Twitter</option>
+                        <option value="3">3) Live</option>                
+                        <option value="4">4) Google</option>                
+                        <option value="5">5) Flickr</option>                
+                    </select>
+                </div>
+                <div class="details" role="region" aria-labelledby="descLabel" aria-live="assertive">
+                    <h3 id="descLabel">&nbsp;</h3>
+ \\ <Snippetwebauthenticationbroker_js>        
+                    <!-- Scenario 1 Input -->
+                    <div class="item" id="scenario1Input">
+                        <p>Connect to Facebook.</p>
+                        <label for="FacebookClientID">Facebook App ID: </label><input type="text" id="FacebookClientID" value=""/>
+                        <br/><label for="FacebookCallbackURL">Callback URL: </label><input type="text" id="FacebookCallbackURL" value="https://www.facebook.com/connect/login_success.html"/>
+                        <br/><button class="action" id="scenario1Launch">Launch</button>
+                        <br /><br />
+                    </div>
+</Snippetwebauthenticationbroker_js>  
+                    <!-- Scenario 2 Input -->
+                    <div class="item" id="scenario2Input">
+                        <p>Connect to Twitter.</p>
+                        <label for="TwitterClientID">Consumer Key: </label><input type="text" id="TwitterClientID" value=""/>
+                        <br/><label for="TwitterSecret">Consumer Secret: </label><input type="text" id="TwitterSecret" value=""/>
+		        <br/><label for="TwitterCallbackURL">Callback URL: </label><input type="text" id="TwitterCallbackURL" value=""/>
+                        <br/><button class="action" id="scenario2Launch">Launch</button>
+                        <br /><br />
+                    </div>
+
+                    <!-- Scenario 3 Input -->
+                    <div class="item" id="scenario3Input">
+                        <p>Connect to Live.</p>
+                        <label for="LiveClientID">Client ID: </label><input type="text" id="LiveClientID" value=""/>
+                        <br/><label for="LiveCallbackURL">Callback URL: </label><input type="text" id="LiveCallbackURL" value=""/>
+                        <br/><button class="action" id="scenario3Launch">Launch</button>
+                        <br /><br />
+                    </div>
+
+                    <!-- Scenario 4 Input -->
+                    <div class="item" id="scenario4Input">
+                        <p>Connect to Picasa/Google Desktop Flow</p>
+                        <label for="GoogleClientID">Client ID: </label><input type="text" id="GoogleClientID" value=""/>
+                        <br/><label for="GoogleCallbackURL">Callback URL: </label><input type="text" id="GoogleCallbackURL" value="urn:ietf:wg:oauth:2.0:oob"/>
+                        <br/><button class="action" id="scenario4Launch">Launch</button>
+                        <br /><br />
+                    </div>
+
+                    <!-- Scenario 5 Input -->
+                    <div class="item" id="scenario5Input">
+                        <p>Connect to Flickr.</p>
+                        <label for="FlickrClientID">App Key: </label><input type="text" id="FlickrClientID" value=""/>
+                        <br/><label for="FlickrSecret">App Secret: </label><input type="text" id="FlickrSecret" value=""/>
+                        <br/><label for="FlickrCallbackURL">Callback URL: </label><input type="text" id="FlickrCallbackURL" value=""/>
+                        <br/><button class="action" id="scenario5Launch">Launch</button>
+                        <br /><br />
+                    </div>
+                </div>
+            </div>
+
+            <h2 id="outputLabel"> Output</h2>
+
+            <div id="output" role="region" aria-labelledby="outputLabel" aria-live="assertive">
+                    <div id="statusMessage"></div>
+
+                    <!-- Scenario 1 Output -->
+                    <div class="item" id="scenario1Output">
+                        <table class="outputTable">
+                        <tr>
+                            <td class="labelTD"><label for="FacebookReturnedToken">Token: </label></td>
+                            <td><input type="text" size="106" id="FacebookReturnedToken"/></td>
+                        </tr>
+                        <tr>
+                            <td class="labelTD"><label for="FacebookDebugArea">Debug Output: </label></td>
+                            <td><textarea id="FacebookDebugArea" rows="15" cols="80"></textarea></td>
+                        </tr>
+                        </table>
+                    </div>
+
+                    <!-- Scenario 2 Output -->
+                    <div class="item" id="scenario2Output">
+                        <table class="outputTable">
+                        <tr>
+                            <td class="labelTD"><label for="TwitterReturnedToken">Token: </label></td>
+                            <td><input type="text" size="106" id="TwitterReturnedToken"/></td>
+                        </tr>
+                        <tr>
+                            <td class="labelTD"><label for="TwitterDebugArea">Debug Output: </label></td>
+                            <td><textarea id="TwitterDebugArea" rows="15" cols="80"></textarea></td>
+                        </tr>
+                        </table>
+                    </div>
+
+                    <!-- Scenario 3 Output -->
+                    <div class="item" id="scenario3Output">
+                        <table class="outputTable">
+                        <tr>
+                            <td class="labelTD"><label for="LiveReturnedToken">Token: </label></td>
+                            <td><input type="text" size="106" id="LiveReturnedToken"/></td>
+                        </tr>
+                        <tr>
+                            <td class="labelTD"><label for="LiveDebugArea">Debug Output: </label></td>
+                            <td><textarea id="LiveDebugArea" rows="15" cols="80"></textarea></td>
+                        </tr>
+                        </table>
+                    </div>
+
+                    <!-- Scenario 4 Output -->
+                    <div class="item" id="scenario4Output">
+                        <table class="outputTable">
+                        <tr>
+                            <td class="labelTD"><label for="GoogleReturnedToken">Token: </label></td>
+                            <td><input type="text" size="106" id="GoogleReturnedToken"/></td>
+                        </tr>
+                        <tr>
+                            <td class="labelTD"><label for="GoogleDebugArea">Debug Output: </label></td>
+                            <td><textarea id="GoogleDebugArea" rows="15" cols="80"></textarea></td>
+                        </tr>
+                        </table>
+                    </div>
+
+                    <!-- Scenario 5 Output -->
+                    <div class="item" id="scenario5Output">
+                        <table class="outputTable">
+                        <tr>
+                            <td class="labelTD"><label for="FlickrReturnedToken">Token: </label></td>
+                            <td><input type="text" size="106" id="FlickrReturnedToken"/></td>
+                        </tr>
+                        <tr>
+                            <td class="labelTD"><label for="FlickrDebugArea">Debug Output: </label></td>
+                            <td><textarea id="FlickrDebugArea" rows="15" cols="80"></textarea></td>
+                        </tr>
+                        </table>
+                    </div>
+            </div>
+        </div>
+
+        <div id="footer" role="contentinfo"></div>
+    </div>
+</body>
+
+</html>

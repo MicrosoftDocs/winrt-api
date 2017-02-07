@@ -1,0 +1,21 @@
+﻿<UserControl x:Class="coloranimation.Page"
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+  Width="400" Height="300">
+  <!-- <SnippetColoranimation> -->
+  <StackPanel x:Name="myStackPanel" Background="Red"
+    Loaded="Start_Animation">
+    <StackPanel.Resources>
+      <Storyboard x:Name="colorStoryboard">
+
+        <!-- Animate the background color of the canvas from red to green
+          over 4 seconds. -->
+        <ColorAnimation Storyboard.TargetName="myStackPanel" 
+          Storyboard.TargetProperty="(Panel.Background).(SolidColorBrush.Color)"
+          From="Red" To="Blue" Duration="0:0:4"/>
+
+      </Storyboard>
+    </StackPanel.Resources>
+  </StackPanel>
+  <!-- </SnippetColoranimation> -->
+</UserControl>

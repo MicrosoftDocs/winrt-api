@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|AnyCPU">
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|AnyCPU">
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{e0c0d0df-493c-46cb-b92a-172c6cbd4e31}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\4.0\Microsoft.VisualStudioVersion.v11.Common.props" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\WWAProject\Microsoft.VisualStudio.WWAProject.Default.props" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\WWAProject\Microsoft.VisualStudio.WWAProject.props" />
+  <PropertyGroup>
+    <DefaultLanguage>en-US</DefaultLanguage>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppxManifest Include="package.appxmanifest" />
+    <Content Include="contactpicker.html" />
+    <Content Include="contacts.html" />
+    <Content Include="default.html" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\smalllogo.png" />
+    <Content Include="images\splashscreen.png" />
+    <Content Include="images\storelogo.png" />
+    <Content Include="js\contactpicker.js" />
+    <Content Include="js\contacts.js" />
+    <Content Include="js\default.js" />
+    <Content Include="css\default.css" />
+    <Content Include="js\test.js" />
+    <Content Include="test.html" />
+    <Content Include="winjs\Css\ui-dark.css" />
+    <Content Include="winjs\Css\ui-light.css" />
+    <Content Include="winjs\js\animations.js" />
+    <Content Include="winjs\js\base.js" />
+    <Content Include="winjs\js\binding.js" />
+    <Content Include="winjs\js\controls.js" />
+    <Content Include="winjs\js\res.js" />
+    <Content Include="winjs\js\ui.js" />
+    <Content Include="winjs\js\uicollections.js" />
+    <Content Include="winjs\js\wwaapp.js" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\WWAProject\Microsoft.VisualStudio.WWAProject.targets" />
+</Project>

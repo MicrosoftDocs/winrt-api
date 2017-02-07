@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+    <meta charset="utf-8" />
+    <title>ContactsMain ContactPicker</title>
+    <!-- WinJS references -->
+    <link rel="stylesheet" href="/winjs/css/ui-dark.css" />
+    <script src="/winjs/js/base.js"></script>
+    <script src="/winjs/js/wwaapp.js"></script>
+    <!-- ContactsMain references -->
+    <link rel="stylesheet" href="/css/default.css" />
+    <script src="/js/default.js"></script>
+    <script src="/js/contactpicker.js"></script>
+    </head>
+<body role="application">
+    <h2 id="inputLabel">Input</h2>
+
+    <div id="input" role="main" aria-labelledby="inputLabel">
+        <div class="options">
+            <h3 id="listLabel">Select scenario:</h3>
+            <select size="4" id="scenarios" aria-labelledby="listLabel">
+                <option selected="selected" value="1">1) Add or remove contacts</option>
+            </select>
+        </div>
+        <div class="details" role="region" aria-labelledby="descLabel" aria-live="assertive">
+            <h3 id="descLabel">Description:</h3>
+
+            <!-- Scenario 1 Input -->
+            <div class="item" id="scenario1Input">
+                <p>Adds or removes known contacts to and from the basket. Demonstrates conversion to the
+                required contact type.</p>
+
+                <div id="scenario1Contacts"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="clear"></div>
+
+    <h2 id="outputLabel"></h2>
+
+    <div id="output" role="region" aria-labelledby="outputLabel" aria-live="assertive">
+            <div id="statusMessage"></div>
+            <!-- Scenario 1 Output -->
+            <div class="item" id="scenario1Output"></div>
+    </div>
+    <div id="output">Hello!</div>
+</body>
+</html>

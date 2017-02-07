@@ -1,0 +1,34 @@
+﻿<UserControl x:Class="ToolTipPlacementExCS.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    Width="400" Height="300">
+
+    <Grid>
+    <!--<snippet1>-->
+<StackPanel Margin="120" >
+    <TextBlock Text="ToolTip Control" Margin="5" 
+               Style="{StaticResource HeaderTextStyle}" />
+    <TextBlock Text="Hover over an item to see its ToolTip: " 
+               Style="{StaticResource ItemTextStyle}" Margin="10" />
+    <ListBox Width="100">
+        <ListBoxItem Content="Left" 
+            ToolTipService.ToolTip="ToolTip to the left." 
+            ToolTipService.Placement="Left" />
+        <ListBoxItem Content="Right" 
+            ToolTipService.ToolTip="ToolTip to the right." 
+            ToolTipService.Placement="Right" />
+        <ListBoxItem Content="Top" 
+            ToolTipService.ToolTip="ToolTip at the top." 
+            ToolTipService.Placement="Top" />
+        <ListBoxItem Content="Bottom" 
+            ToolTipService.ToolTip="ToolTip at the bottom." 
+            ToolTipService.Placement="Bottom"/>
+        <ListBoxItem Content="Mouse" 
+            ToolTipService.ToolTip="ToolTip based on the cursor position." 
+            ToolTipService.Placement="Mouse"/>
+    </ListBox>
+</StackPanel>
+    <!--</snippet1>-->
+    </Grid>
+
+</UserControl>

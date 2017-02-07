@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+
+  <Identity Name="ce60cf13-b440-4bae-916f-9fb69f84f33f"
+            Publisher="CN=karler"
+            Version="1.0.0.0" />
+
+  <Properties>
+    <DisplayName>Binding_Collection</DisplayName>
+    <PublisherDisplayName>karler</PublisherDisplayName>
+    <Logo>Images\StoreLogo.png</Logo>
+    <Description>Binding_Collection</Description>
+  </Properties>
+
+  <Prerequisites>
+    <OSMinVersion>6.2</OSMinVersion>
+    <OSMaxVersionTested>6.2</OSMaxVersionTested>
+  </Prerequisites>
+
+  <Resources>
+    <Resource Language="en-us"/>
+  </Resources>
+
+  <Applications>
+    <Application Id="App"
+        Executable="$targetnametoken$.exe"
+        EntryPoint="Binding_Collection.App">
+        <VisualElements
+            DisplayName="Binding_Collection"
+            Logo="Images\Logo.png"
+            SmallLogo="Images\SmallLogo.png"
+            Description="Binding_Collection"
+            ForegroundText="light"
+            BackgroundColor="#222222">
+            <DefaultTile ShowName="allLogos" />
+            <SplashScreen Image="Images\SplashScreen.png" />
+        </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>

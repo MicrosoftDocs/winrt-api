@@ -1,0 +1,45 @@
+﻿<UserControl x:Class="SilverlightApplication1.Page"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    Width="400" Height="300">
+    <Canvas>
+        <Canvas.Resources>
+            <Storyboard x:Name="myStoryboard">
+
+                <!-- Animate the center point of the ellipse. -->
+                <PointAnimation Storyboard.TargetProperty="Center"
+           Storyboard.TargetName="MyAnimatedEllipseGeometry"
+           Duration="0:0:5"
+           From="20,200"
+           To="400,100"
+           RepeatBehavior="Forever" />
+
+            </Storyboard>
+        </Canvas.Resources>
+        <Path Fill="Blue">
+            <Path.Data>
+                <!-- Describes an ellipse. -->
+                <EllipseGeometry x:Name="MyAnimatedEllipseGeometry"
+           Center="20,20" RadiusX="15" RadiusY="15" />
+            </Path.Data>
+        </Path>
+        <StackPanel Orientation="Horizontal" Canvas.Left="10" Canvas.Top="265">
+            <!-- Button that begins animation. -->
+            <Button Click="Animation_Begin"
+       Width="65" Height="30" Margin="2" Content="Begin" />
+
+            <!-- Button that pauses Animation. -->
+            <Button Click="Animation_Pause"
+       Width="65" Height="30" Margin="2" Content="Pause" />
+
+            <!-- Button that resumes Animation. -->
+            <Button Click="Animation_Resume"
+       Width="65" Height="30" Margin="2" Content="Resume" />
+
+            <!-- Button that stops Animation. Stopping the animation returns the
+           ellipse to its original location. -->
+            <Button Click="Animation_Stop"
+       Width="65" Height="30" Margin="2" Content="Stop" />
+        </StackPanel>
+    </Canvas>
+</UserControl>

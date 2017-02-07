@@ -1,0 +1,40 @@
+﻿<!--<snippetXAML>-->
+    <UserControl x:Class="WebBrowserBrushEx.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="400" d:DesignWidth="412">
+    <Grid x:Name="LayoutRoot" Background="LightBlue" PointerMoved="LayoutRoot_PointerMoved" ShowGridLines="True">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.Resources>
+            <Storyboard x:Name="Spin" >
+                <DoubleAnimation
+                        Storyboard.TargetName="myTransform"
+                        Storyboard.TargetProperty="Angle"
+                        From="0" To="360" Duration="0:0:5" 
+                        RepeatBehavior="Forever" />
+            </Storyboard>
+        </Grid.Resources>
+        <TextBlock Margin="5" Text="Web View" />
+        <WebView Grid.Row="1" Visibility="Visible" Name="WB1" Height="350" Width="350" Source="http://www.bing.com"  />
+
+        <!-- Add Rectangle the same size as the WebBrowser control -->
+        <Rectangle Grid.Row="1" x:Name="brush" Width="350" Height="350"  Visibility="Collapsed" 
+                   PointerPressed="brush_PointerPressed"  >
+            <Rectangle.Fill>
+                <!-- Fill (set background) as an HTML Brush -->
+                <WebViewBrush x:Name="htmlBrush" SourceName="WB1"/>
+            </Rectangle.Fill>
+            <Rectangle.RenderTransform>
+                <RotateTransform x:Name="myTransform" Angle="45" CenterX="175" CenterY="175" />
+            </Rectangle.RenderTransform>
+
+        </Rectangle>
+     </Grid>
+</UserControl>
+<!--</snippetXAML>-->

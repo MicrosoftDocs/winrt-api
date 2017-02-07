@@ -1,0 +1,52 @@
+﻿/* <SnippetCSS> */
+body {
+    overflow: hidden;
+    position: relative;
+}
+
+#grid {
+    display: -ms-grid;
+    height: 100vh; /* 100% of viewport height */
+    -ms-grid-columns: 4fr 1fr; /* 2 columns */
+    -ms-grid-rows: 1fr 320px 1fr;  /* 3 rows */
+    /*touch-action: none;*/ /* Disable panning and zooming */
+}
+#targetContainer {
+    border:solid;
+    border-width:thin;
+    border-color: red;
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    -ms-grid-row-align: center;
+    -ms-grid-column-align: center;
+    /*touch-action: none; /* Disable panning and zooming */*/
+}
+#eventLog {
+    -ms-grid-row: 1;
+    -ms-grid-column: 2; 
+    -ms-grid-row-span: 3;
+    padding-right: 10px;
+    background-color: black;
+    color: white;
+}
+.phone #target {
+    width: 200px;
+    height: 300px;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    -ms-transform-origin: 0% 0%;
+    /*touch-action: none; /* Disable panning and zooming */*/
+}
+.windows #target {
+    width: 400px;
+    height: 200px;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    -ms-transform-origin: 0% 0%;
+    touch-action: none; /* Disable panning and zooming */
+}
+/* </SnippetCSS> */
+
+

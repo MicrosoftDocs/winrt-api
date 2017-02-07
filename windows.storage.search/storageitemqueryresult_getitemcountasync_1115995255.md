@@ -1,0 +1,23 @@
+---
+-api-id: M:Windows.Storage.Search.StorageItemQueryResult.GetItemCountAsync
+-api-type: winrt method
+---
+
+<!-- Method syntax
+public Windows.Foundation.IAsyncOperation<uint> GetItemCountAsync()
+-->
+
+# Windows.Storage.Search.StorageItemQueryResult.GetItemCountAsync
+
+## -description
+Retrieves the number of items in the set of query results.
+
+## -returns
+When this method completes successfully, it returns the number of items in the location that match the query.
+
+## -remarks
+
+## -examples
+
+## -see-also
+[storageItemQueryResult class](storageitemqueryresult.md)

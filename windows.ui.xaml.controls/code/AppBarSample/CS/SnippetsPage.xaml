@@ -1,0 +1,89 @@
+﻿<Page
+    x:Class="AppBarSample.SnippetsPage"
+    IsTabStop="false"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AppBarSample"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    
+    
+    <Page.TopAppBar>
+        <!-- <SnippetHideAppBarCommandsXAML> -->
+        <AppBar IsOpen="True" IsSticky="True">
+            <Grid>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                    <StackPanel x:Name="pinCommands" Orientation="Horizontal"
+                                Visibility="Collapsed">
+                        <Button Style="{StaticResource UnpinAppBarButtonStyle}" 
+                                Click="Button_Click"/>
+                        <Button Style="{StaticResource PinAppBarButtonStyle}" 
+                                Click="Button_Click"/>
+                        <Rectangle Height="50" Width="2" Fill="LightGray"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Button Style="{StaticResource FavoriteAppBarButtonStyle}" 
+                                Click="Button_Click"/>
+                        <Button Style="{StaticResource SearchAppBarButtonStyle}" 
+                                Click="Button_Click"/>
+                    </StackPanel>
+                </StackPanel>
+            </Grid>
+        </AppBar>
+        <!-- </SnippetHideAppBarCommandsXAML> -->
+    </Page.TopAppBar>
+    
+    <!-- <SnippetAppBarMenuXAML> -->
+    <Page.BottomAppBar>
+        <AppBar x:Name="bottomAppBar" IsSticky="True">
+            <Grid>
+                <StackPanel x:Name="rightPanel" 
+                            Orientation="Horizontal" HorizontalAlignment="Right">
+                    <Button Style="{StaticResource AppBarButtonStyle}" 
+                            Content="&#xE174;" 
+                            AutomationProperties.Name="Sort"
+                            AutomationProperties.AutomationId="SortButton"
+                            Click="SortMenuButton_Click" />
+                </StackPanel>
+            </Grid>
+        </AppBar>
+    </Page.BottomAppBar>
+    <!-- </SnippetAppBarMenuXAML> -->
+    
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <Canvas Visibility="Collapsed">
+        
+        <!-- <SnippetIsOpenXAML> -->
+        <AppBar IsOpen="True">
+            <Grid>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                    <Button Style="{StaticResource PreviousAppBarButtonStyle}" 
+                            Click="Button_Click"/>
+                    <Button Style="{StaticResource NextAppBarButtonStyle}" 
+                            Click="Button_Click"/>
+                </StackPanel>
+            </Grid>
+        </AppBar>
+        <!-- </SnippetIsOpenXAML> -->
+        
+        <!-- <SnippetIsStickyXAML> -->
+        <AppBar IsSticky="True">
+            <Grid>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                <Button Style="{StaticResource HelpAppBarButtonStyle}" 
+                        Click="Button_Click"/>
+                </StackPanel>
+            </Grid>
+        </AppBar>
+        <!-- </SnippetIsStickyXAML> -->
+        </Canvas>
+        
+        <ToggleSwitch Header="Pin Commands" 
+                      OnContent="Hide Pin Commands" 
+                      OffContent="Show Pin Commands" 
+                      Toggled="ToggleSwitch_Toggled" 
+                      IsOn="False"
+                      VerticalAlignment="Bottom" Margin="10, 120"/>
+    </Grid>
+</Page>

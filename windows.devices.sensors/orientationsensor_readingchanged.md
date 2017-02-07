@@ -1,0 +1,46 @@
+---
+-api-id: E:Windows.Devices.Sensors.OrientationSensor.ReadingChanged
+-api-type: winrt event
+---
+
+<!-- Event syntax
+public event Windows.Foundation.TypedEventHandler ReadingChanged<Windows.Devices.Sensors.OrientationSensor,  Windows.Devices.Sensors.OrientationSensorReadingChangedEventArgs>
+-->
+
+# Windows.Devices.Sensors.OrientationSensor.ReadingChanged
+
+## -description
+Occurs each time the orientation sensor reports a new sensor reading.
+
+## -remarks
+An application may register this event handler to obtain sensor readings. The application must establish a desired [ReportInterval](orientationsensor_reportinterval.md). This informs the sensor driver that resources should be allocated to satisfy the requirements of the application.
+
+The [OrientationSensor](orientationsensor.md) returns a quaternion and a rotation matrix.
+
+The following example demonstrates how a Windows Store app built with C# and XAML registers its **ReadingChanged** event handler.
+
+
+
+[!code-cs[EnableReadingChangedCS](../windows.devices.sensors/code/orientation/csharp/Scenario1.xaml.cs#SnippetEnableReadingChangedCS)]
+
+The following example shows the [ReadingChanged](orientationsensorreadingchangedeventargs.md) event handler.
+
+
+
+[!code-cs[ReadingChangedCS](../windows.devices.sensors/code/orientation/csharp/Scenario1.xaml.cs#SnippetReadingChangedCS)]
+
+The following example demonstrates how a Windows Store app built with JavaScript registers its **ReadingChanged** event handler.
+
+
+
+[!code-js[EnableReadingChangedJS](../windows.devices.sensors/code/orientation/javascript/scenario1.js#SnippetEnableReadingChangedJS)]
+
+The following example shows the [ReadingChanged](orientationsensor_readingchanged.md) event handler.
+
+
+
+[!code-js[onDataChangedJS](../windows.devices.sensors/code/orientation/javascript/scenario1.js#SnippetonDataChangedJS)]
+
+## -examples
+
+## -see-also

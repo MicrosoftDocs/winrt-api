@@ -1,0 +1,59 @@
+﻿<Page x:Class="geometries.PolyQuadraticBezierSegment"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Loaded="Page_Loaded" Unloaded="Page_Unloaded"
+    mc:Ignorable="d"
+    d:DesignWidth="1366" d:DesignHeight="768">
+
+    <!--Common resources for default dark theme applications-->
+    <UserControl.Resources>
+        <SolidColorBrush x:Key="PageBackgroundBrush" Color="White"/>
+        <SolidColorBrush x:Key="PageForegroundBrush" Color="White"/>
+        <SolidColorBrush x:Key="HighlightBrush" Color="#FF26A0DA"/>
+    </UserControl.Resources>
+
+    <Grid x:Name="LayoutRoot" Background="{StaticResource PageBackgroundBrush}">
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup x:Name="OrientationStates">
+                <VisualState x:Name="Full"/>
+                <VisualState x:Name="Fill"/>
+                <VisualState x:Name="Portrait"/>
+                <VisualState x:Name="Snapped"/>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+
+        <!-- <SnippetPolyQuadraticBezierSegment> -->
+        <Canvas>
+            <Path Stroke="Black" StrokeThickness="4">
+                <Path.Data>
+                    <PathGeometry>
+                        <PathGeometry.Figures>
+                            <PathFigureCollection>
+
+                                <!-- The StartPoint specifies the starting point of the first curve. -->
+                                <PathFigure StartPoint="10,100">
+                                    <PathFigure.Segments>
+                                        <PathSegmentCollection>
+
+                                            <!-- The PolyQuadraticBezierSegment specifies two Bezier curves.
+                          The first curve is from 10,100 (start point specified above)
+                          to 300,100 with a control point of 200,200. The second curve
+                          is from 200,200 (end of the last curve) to 30,400 with a 
+                          control point of 0,200. -->
+                                            <PolyQuadraticBezierSegment Points="200,200 300,100 0,200 30,400" />
+                                        </PathSegmentCollection>
+                                    </PathFigure.Segments>
+                                </PathFigure>
+                            </PathFigureCollection>
+                        </PathGeometry.Figures>
+                    </PathGeometry>
+                </Path.Data>
+            </Path>
+        </Canvas>
+        <!-- </SnippetPolyQuadraticBezierSegment> -->
+
+
+    </Grid>
+</Page>

@@ -1,0 +1,28 @@
+---
+-api-id: P:Windows.Media.PlayTo.PlayToSource.Next
+-api-type: winrt property
+---
+
+<!-- Property syntax
+public Windows.Media.PlayTo.PlayToSource Next { get;  set; }
+-->
+
+# Windows.Media.PlayTo.PlayToSource.Next
+
+## -description
+Gets or sets the next Play To source element.
+
+## -property-value
+The next Play To source element.
+
+## -remarks
+For an example of using the [Next](playtosource_next.md) property, see [Streaming a slide show using Play To
+(JavaScript)](http://msdn.microsoft.com/library/780cb5f5-4ee5-4294-ad60-5be54107838a) or [Media casting](http://msdn.microsoft.com/library/40b97e0c-eb1b-40c2-a022-1ab95dfb085e).
+
+## -examples
+
+
+> [!div class="tabbedCodeSnippets"][!code-cs[PlayToContract](../windows.media.playto/code/PlayTo_SlideShow1/csharp/MainPage.xaml.cs#SnippetPlayToContract)][!code-js[PlayToContract](../windows.media.playto/code/PlayTo_SlideShow1/javascript/default.js#SnippetPlayToContract)][!code-vb[PlayToContract](../windows.media.playto/code/PlayTo_SlideShow1/vbnet/MainPage.xaml.vb#SnippetPlayToContract)]
+
+## -see-also
+[Play To sample](http://go.microsoft.com/fwlink/p/?linkid=245166), [PlayToReceiver sample](http://go.microsoft.com/fwlink/p/?linkid=245167), [Media Server sample](http://go.microsoft.com/fwlink/p/?linkid=245168)

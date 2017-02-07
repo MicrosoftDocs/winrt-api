@@ -1,0 +1,46 @@
+﻿<Page
+    x:Class="AppBarSample.GlobalPage"
+    IsTabStop="false"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AppBarSample"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <Style x:Key="BackAppBarButtonStyle" TargetType="Button" BasedOn="{StaticResource AppBarButtonStyle}">
+            <Setter Property="Content" Value="&#xE0C4;"/>
+            <Setter Property="AutomationProperties.AutomationId" Value="SuperstarButton"/>
+            <Setter Property="AutomationProperties.Name" Value="Superstar"/>
+        </Style>
+    </Page.Resources>
+
+    <Page.TopAppBar>
+        <AppBar x:Name="globalAppBar" Padding="10,0,10,0">
+            <Grid>
+                <StackPanel x:Name="leftCommandPanel" 
+                            Orientation="Horizontal" HorizontalAlignment="Left">
+                    <Button x:Name="Back" Style="{StaticResource BackAppBarButtonStyle}"
+                            AutomationProperties.Name="Back"  
+                            Click="Back_Click"/>
+                </StackPanel>
+                <StackPanel x:Name="rightCommandPanel" 
+                            Orientation="Horizontal" HorizontalAlignment="Right">
+                    <Button x:Name="page1Button" Content="1" 
+                            Style="{StaticResource AppBarButtonStyle}"
+                            AutomationProperties.Name="Page 1"  
+                            Click="Page1Button_Click"/>
+                    <Button x:Name="page2Button" Content="2" 
+                            Style="{StaticResource AppBarButtonStyle}"
+                            AutomationProperties.Name="Page 2"  
+                            Click="Page2Button_Click"/>
+                </StackPanel>
+            </Grid>
+        </AppBar>
+    </Page.TopAppBar>
+
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <Frame x:Name="frame1"/>
+    </Grid>
+</Page>

@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Proximity_PublishSubscribe1</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.0.6/css/ui-dark.css" rel="stylesheet">
+    <script src="//Microsoft.WinJS.0.6/js/base.js"></script>
+    <script src="//Microsoft.WinJS.0.6/js/ui.js"></script>
+
+    <!-- Proximity_PublishSubscribe1 references -->
+    <link href="/css/default.css" rel="stylesheet">
+    <script src="/js/default.js"></script>
+</head>
+<body>
+    <!-- <SnippetUI> -->
+    <table>
+        <tr>
+            <td style="width: 500px;vertical-align: top">
+                <button id="publishMessageButton">Publish Message</button>
+                <input type="text" id="messageText" />
+                <button id="subscribeForMessageButton">Subscribe For Message</button><br />
+                <button id="stopPublishingMessageButton">Stop Publishing Message</button>
+                <button id="stopSubscribingForMessageButton">Stop Subscribing For Message</button><br />
+                Enter a message and click "Publish Message". On another computer, click
+                "Subscribe For Message". Enter proximity to transmit the message.
+            </td>
+            <td><div id="messageDiv" style="width: 500px;vertical-align:top"></div></td>
+        </tr>
+
+    </table>
+    <!-- </SnippetUI> -->
+</body>
+</html>

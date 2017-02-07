@@ -1,0 +1,22 @@
+﻿<!--<Snippet1>-->
+    <UserControl x:Class="BindingXAML.Page"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    xmlns:my="using:BindingXAML">
+<!--</Snippet1>-->
+    <Grid x:Name="LayoutRoot">
+        <!--<Snippet2>-->
+        <Grid.Resources>
+            <my:Dog x:Key="MyDog" DogName="Spot"/>
+        </Grid.Resources>
+        <!--</Snippet2>-->
+        <StackPanel>
+        <!--<Snippet3>-->
+        <TextBlock Text="{Binding DogName, Source={StaticResource MyDog}, Mode=OneTime}"/>
+        <!--</Snippet3>-->
+        <!--<Snippet5>-->
+        <TextBlock Text="{Binding DogName, Mode=OneTime}" DataContext="{StaticResource MyDog}"/>
+        <!--</Snippet5>-->
+        </StackPanel>
+    </Grid>
+</UserControl>

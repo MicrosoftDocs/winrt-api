@@ -1,0 +1,32 @@
+﻿<Page
+    x:Class="Proximity_PublishSubscribe_CS.BlankPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Proximity_PublishSubscribe_CS"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{StaticResource ApplicationPageBackgroundBrush}">
+        <!-- <SnippetUI_CS> -->
+        <StackPanel Margin="20">
+            <StackPanel Orientation="Horizontal">
+                <TextBox x:Name="MessageTextBox" Width="200" />
+                <Button x:Name="PublishMessageButton" Click="PublishMessageButton_Click">Publish Message</Button>
+                <Button x:Name="SubscribeForMessageButton" Click="SubscribeForMessageButton_Click">Subscribe For Message</Button>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Button x:Name="StopPublishingMessageButton" Click="StopPublishingMessageButton_Click">Stop Publishing Message</Button>
+                <Button x:Name="StopSubscribingForMessageButton" Click="StopSubscribingForMessageButton_Click">Stop Subscribing For Message</Button>
+            </StackPanel>
+            <StackPanel>
+                <TextBlock>Enter a message and click "Publish Message". On another computer, click
+                "Subscribe For Message". Enter proximity to transmit the message.</TextBlock>
+            </StackPanel>
+            <StackPanel>
+                <TextBlock x:Name="MessageBlock"></TextBlock>
+            </StackPanel>
+        </StackPanel>
+        <!-- </SnippetUI_CS> -->
+    </Grid>
+</Page>

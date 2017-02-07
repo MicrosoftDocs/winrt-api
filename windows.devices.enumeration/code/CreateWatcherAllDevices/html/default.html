@@ -1,0 +1,30 @@
+<!-- <SnippetCreateWatcherAllDevicesHTML>  -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Device Enumeration Sample</title>
+  <meta charset="utf-8" />
+  <script src="/js/default.js"></script>
+</head>
+<body role="application">
+    <h1>Device Enumeration Sample</h1>
+    <h2 >Input</h2>
+    <div >            
+            <div >
+            <p>This example incrementally enumerates devices, adding them to a list each time a device is found, and also watching for updates.
+               Once enumeration is complete, the list of devices is printed.</p> 
+                <input type="button" value="Watch(All Devices)" onclick="WatchDevices()"/>
+                <br /><br />
+
+                <input type="button" value="Stop" onclick="stopWatcher()"/>
+                <br /><br />
+            </div>
+    </div>
+
+    <h2 > Output</h2>
+            <div id="statusMessage"></div>
+            <!--  Output -->
+            <div  id="output"></div>
+</body>
+</html>
+<!-- </SnippetCreateWatcherAllDevicesHTML>  -->

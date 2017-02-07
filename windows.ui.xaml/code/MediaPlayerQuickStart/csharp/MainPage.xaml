@@ -1,0 +1,85 @@
+﻿<!-- <SnippetMediaPlayer_XamlAll> -->
+<Page
+    x:Class="MediaPlayerQuickStart.MainPage"
+    IsTabStop="false"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MediaPlayerQuickStart"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" 
+    Loaded="MainPage_Loaded"> 
+    
+    <!-- <SnippetMediaPlayer_XamlStyles> -->
+    <Page.Resources>
+        <Style x:Name="transportStyle"  TargetType="Button">
+            <Setter Property="Height" Value="40" />
+            <Setter Property="Width" Value="75" />
+            <Setter Property="FontSize" Value="11" />
+        </Style>
+    </Page.Resources>
+    <!-- </SnippetMediaPlayer_XamlStyles> -->
+
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="100"/>
+            </Grid.RowDefinitions>
+            
+            <!-- <SnippetMediaPlayer_XamlMediaElement> -->
+            <ContentControl x:Name="videoContainer" 
+                            KeyUp="VideoContainer_KeyUp" 
+                            HorizontalContentAlignment="Center" 
+                            VerticalContentAlignment="Center" 
+                            Height="400" Grid.Row="0" >
+                <MediaElement Name="videoMediaElement"
+                              Source="Media/video1.mp4" 
+                              MediaOpened="videoElement_MediaOpened" 
+                              MediaEnded="videoMediaElement_MediaEnded" 
+                              MediaFailed="videoMediaElement_MediaFailed"
+                              CurrentStateChanged="videoMediaElement_CurrentStateChanged"
+                              PosterSource="Media/Video1_Poster.png"
+                              AutoPlay="False" />
+            </ContentControl>
+            <!-- </SnippetMediaPlayer_XamlMediaElement> -->
+            <!-- Transport Controls -->
+        <!-- <SnippetMediaPlayer_XamlTransportPanel> -->
+        <StackPanel Name="TransportControlsPanel" 
+                    HorizontalAlignment="Center" 
+                    Grid.Row="1" >
+            <!-- <SnippetMediaPlayer_XamlSlider> -->
+            <Slider Name="timelineSlider" Margin="10,0" Width="200"/>
+            <!-- </SnippetMediaPlayer_XamlSlider> -->
+            <!-- <SnippetMediaPlayer_XamlTransportControls> -->
+            <StackPanel Orientation="Horizontal">
+                <Button Name="btnPlay" Click="btnPlay_Click" 
+                        Style="{StaticResource transportStyle}" Content="Play" />
+                <Button Name="btnPause" Click="btnPause_Click"
+                        Style="{StaticResource transportStyle}" Content="Pause" />
+                <Button Name="btnStop" Click="btnStop_Click"
+                        Style="{StaticResource transportStyle}" Content="Stop" />
+                <Button Name="btnReverse" Click="btnReverse_Click"
+                        Style="{StaticResource transportStyle}" Content="Rewind" />
+                <Button Name="btnForward" Click="btnForward_Click"
+                        Style="{StaticResource transportStyle}" Content="Forward" />
+                <Button Name="btnMute" Click="btnMute_Click" 
+                        Style="{StaticResource transportStyle}" Content="Mute" />
+                <Button Name="btnFullScreenToggle" Click="btnFullScreenToggle_Click" 
+                        Style="{StaticResource transportStyle}" Content="Full" />
+                <ComboBox Name="cbAudioTracks"
+                          SelectionChanged="cbAudioTracks_SelectionChanged" 
+                          Width="75" />
+                <Button Name="btnVolumeUp" Click="btnVolumeUp_Click" 
+                        Style="{StaticResource transportStyle}" Content="-" />
+                <Button Name="btnVolumeDown" Click="btnVolumeDown_Click" 
+                        Style="{StaticResource transportStyle}" Content="+" />
+                <TextBlock Name="txtVolume" FontSize="14"
+                           Text="{Binding Volume, ElementName=videoMediaElement}" 
+                           VerticalAlignment="Center" HorizontalAlignment="Right"  />
+            </StackPanel>
+            <!-- </SnippetMediaPlayer_XamlTransportControls> -->
+        </StackPanel>
+            <!-- </SnippetMediaPlayer_XamlTransportPanel> -->
+    </Grid>
+</Page>
+<!-- </SnippetMediaPlayer_XamlAll> -->

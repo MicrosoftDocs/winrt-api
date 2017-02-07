@@ -1,0 +1,37 @@
+﻿<UserControl x:Class="animation.intro_animation"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    Width="400" Height="300">
+    <StackPanel>
+        <TextBlock Margin="10" TextWrapping="Wrap">The rectangle animates out of view after it loads.</TextBlock>
+        <!-- <snippet0> -->
+        <Canvas>
+            <Rectangle
+                x:Name="MyAnimatedRectangle"
+                Width="100"
+                Height="100"
+                Fill="Blue">
+                <Rectangle.Triggers>
+
+                    <!-- Animates the rectangle's opacity. -->
+                    <EventTrigger
+                        RoutedEvent="Rectangle.Loaded">
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation
+                                    Storyboard.TargetName="MyAnimatedRectangle"
+                                    Storyboard.TargetProperty="Opacity"
+                                    From="1.0"
+                                    To="0.0"
+                                    Duration="0:0:5"
+                                    AutoReverse="True"
+                                    RepeatBehavior="Forever" />
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger>
+                </Rectangle.Triggers>
+            </Rectangle>
+        </Canvas>
+        <!-- </snippet0> -->
+    </StackPanel>
+</UserControl>

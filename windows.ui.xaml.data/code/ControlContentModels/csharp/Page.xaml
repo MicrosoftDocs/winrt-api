@@ -1,0 +1,88 @@
+<UserControl  x:Class="ContentModelsEx.Page"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+
+    xmlns:my="using:ContentModelsEx"
+    Width="400" Height="600">
+    <StackPanel x:Name="LayoutRoot"  >
+        <StackPanel.Resources>
+            
+        </StackPanel.Resources>
+
+ 	<!--<snippet0>-->
+	<Image Source="myPicture.png" />
+ 	<!--</snippet0>-->
+
+            <!--<snippet1>-->
+        <TextBlock Margin="10" Text="TextBlock" />
+        <!--</snippet1>-->
+        
+        <!--<snippet2>-->
+        <TextBlock Margin="10">  
+        <Run FontFamily="Arial" FontSize="20">TextBlock</Run>
+        <LineBreak />
+         <Run FontFamily="Courier New"  FontWeight="Bold" FontSize="14">using Inlines</Run>
+        </TextBlock>
+        <!--</snippet2>-->
+
+        <!--<snippet3>-->
+        <TextBox Margin="10" HorizontalAlignment="Left"  Width="100" 
+        Text="TextBox with a line of text that wraps." 
+        FontFamily="Arial" TextWrapping="Wrap" />
+        <!--</snippet3>-->
+
+        <!--<snippet4>-->
+        <Button Width="50">
+            <StackPanel Orientation="Horizontal">
+                <Rectangle Width="10" Fill="Green" />
+                <TextBlock Margin="2" Text="Green" />
+            </StackPanel>
+        </Button>
+        <!--</snippet4>-->
+        
+<!--<snippet5>-->
+        <!--<TabControl>
+            <TabItem Header="TabItem1" >
+                <TabItem.Content>
+                    <StackPanel Orientation="Horizontal">
+                        <Rectangle Width="10" Fill="Green" />
+                        <TextBlock Margin="2" Text="TabItem1 Content" />
+                    </StackPanel>
+                </TabItem.Content>
+            </TabItem>
+            <TabItem Content="TabItem 2 Content">
+                <TabItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <Rectangle Width="10" Fill="Green" />
+                        <TextBlock Margin="2" Text="TabItem2" />
+                    </StackPanel>
+                </TabItem.Header>
+            </TabItem>
+         </TabControl>-->
+        <!--</snippet5>-->
+        <!--<snippet6>-->
+        <ComboBox>
+            <ComboBox.Items>
+                <ComboBoxItem Content="Item 1" />
+                <ComboBoxItem Content="Item 2" />
+                <ComboBoxItem Content="Item 3" />
+            </ComboBox.Items>
+        </ComboBox>
+        <!--</snippet6>-->
+        <!--<snippet7>-->
+        <ComboBox x:Name="UriBox1" />
+        <!--</snippet7>-->
+        
+        <!--<snippet8>-->
+        <ComboBox ItemsSource="{Binding}" x:Name="UriBox2" />
+        <!--</snippet8>-->
+
+        <!--<snippet9>-->
+        <GridView x:Name="UriGrid1" />
+        <!--</snippet9>-->
+        
+    <!--<snippet10>-->
+        <GridView ItemsSource="{Binding}" x:Name="UriGrid2" />
+        <!--</snippet10>-->
+    </StackPanel>
+</UserControl>

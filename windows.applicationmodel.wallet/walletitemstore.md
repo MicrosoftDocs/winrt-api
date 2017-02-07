@@ -1,0 +1,23 @@
+---
+-api-id: T:Windows.ApplicationModel.Wallet.WalletItemStore
+-api-type: winrt class
+---
+
+<!-- Class syntax.
+public class WalletItemStore : Windows.ApplicationModel.Wallet.IWalletItemStore
+-->
+
+# Windows.ApplicationModel.Wallet.WalletItemStore
+
+## -description
+Defines a set of asynchronous actions and operations that manage the wallet items in the wallet database. These can be used to read the existing items, or to add and remove items.
+
+## -remarks
+Call the [WalletManager.RequestStoreAsync](walletmanager_requeststoreasync.md) method to obtain an instance of this class.
+
+Most of the APIs for this class can be seen in example usages in the [Quickstart: Using the   APIs](http://msdn.microsoft.com/library/4312628c-37a3-48a7-b41f-14605d478cf7) topic.
+
+## -examples
+
+## -see-also
+[WalletManager.RequestStoreAsync](walletmanager_requeststoreasync.md), [WalletItem](walletitem.md), [Quickstart: Using the   APIs](http://msdn.microsoft.com/library/4312628c-37a3-48a7-b41f-14605d478cf7)

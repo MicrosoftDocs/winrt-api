@@ -1,0 +1,27 @@
+﻿<Page
+    x:Class="App1_CS.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App1_CS"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <!-- <SnippetUI_CS> -->
+        <StackPanel Orientation="Vertical">
+            <StackPanel x:Name="SlideShowPanel"  Height="600" Orientation="Horizontal" />
+            <TextBlock x:Name="MessageBlock" FontSize="14" >Slideshow disconnected</TextBlock>
+            <Button x:Name="DisconnectButton" Width="600" Height="60" Visibility="Collapsed" FontSize="14">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock>Connected to</TextBlock>
+                    <Image x:Name="IconImage" Width="30" />
+                    <TextBlock x:Name="DeviceBlock" />
+                </StackPanel>
+            </Button>
+            <TextBlock x:Name="InstructionsBlock" FontSize="14" >Swipe from the right edge of the screen, select "Devices", 
+                and select a device to stream the slide show to.</TextBlock>
+        </StackPanel>
+        <!-- </SnippetUI_CS> -->
+    </Grid>
+</Page>

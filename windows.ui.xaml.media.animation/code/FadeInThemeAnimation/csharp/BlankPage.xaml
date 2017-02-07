@@ -1,0 +1,35 @@
+﻿<Page
+    x:Class="FadeInThemeAnimation.BlankPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FadeInThemeAnimation"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{StaticResource ApplicationPageBackgroundBrush}">
+        <!-- <SnippetFadeThemeAnimation> -->
+        <StackPanel>
+            <StackPanel.Resources>
+
+                <!-- Theme animations like this can use the default behavior like
+                     this example or you could use properties like BeginTime and 
+                     Duration to tweak when and how quickly the animation occures. 
+                     If you want more control over a fade animation (e.g. just partial
+                     fade), you will need to use DoubleAnimation to animate the Opacity 
+                     property of the element you want to fade in or out. -->
+                <Storyboard x:Name="EnterStoryboard">
+                    <FadeOutThemeAnimation Storyboard.TargetName="myRectangle" />
+                </Storyboard>
+                <Storyboard x:Name="ExitStoryboard">
+                    <FadeInThemeAnimation Storyboard.TargetName="myRectangle" />
+                </Storyboard>
+            </StackPanel.Resources>
+            <Rectangle x:Name="myRectangle" 
+                       PointerEntered="Rectangle_PointerEntered" 
+                       PointerExited="Rectangle_PointerExited"   
+                       Fill="Blue" Width="200" Height="300" />
+        </StackPanel>
+        <!-- </SnippetFadeThemeAnimation> -->
+    </Grid>
+</Page>

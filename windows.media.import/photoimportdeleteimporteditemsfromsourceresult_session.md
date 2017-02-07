@@ -1,0 +1,3 @@
+----api-id: P:Windows.Media.Import.PhotoImportDeleteImportedItemsFromSourceResult.Session
+-api-type: winrt property
+---<!-- Property syntaxpublic Windows.Media.Import.PhotoImportSession Session { get; }--># Windows.Media.Import.PhotoImportDeleteImportedItemsFromSourceResult.Session## -descriptionGets the photo import session associated with the delete operation.## -property-valueThe photo import session associated with the delete operation.## -remarks## -examples## -see-also

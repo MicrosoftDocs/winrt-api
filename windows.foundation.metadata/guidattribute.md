@@ -1,0 +1,20 @@
+---
+-api-id: T:Windows.Foundation.Metadata.GuidAttribute
+-api-type: winrt class
+---
+
+<!-- Class syntax.
+public class GuidAttribute : System.Attribute
+-->
+
+# Windows.Foundation.Metadata.GuidAttribute
+
+## -description
+Indicates the GUID for the interface or delegate.
+
+## -remarks
+
+## -examples
+
+## -see-also
+[Attribute](https://msdn.microsoft.com/library/system.attribute.aspx)

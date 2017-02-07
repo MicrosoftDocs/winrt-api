@@ -1,0 +1,13 @@
+<UserControl 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" >
+>
+<!--<SnippetResourcesResource>-->  
+<UserControl.Resources>
+  <SolidColorBrush x:Key="MyBrush" Color="Gold"/>
+</UserControl.Resources>
+<!--</SnippetResourcesResource>-->  
+<!--<SnippetResourcesReference>-->  
+<Canvas Background="{StaticResource MyBrush}" Width="50" Height="40" />
+<!--</SnippetResourcesReference>-->    
+</UserControl>

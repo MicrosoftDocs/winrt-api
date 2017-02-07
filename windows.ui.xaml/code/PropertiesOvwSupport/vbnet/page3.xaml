@@ -1,0 +1,55 @@
+<UserControl 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  x:Class="DPO.Page3">
+  <UserControl.Resources>
+    <LinearGradientBrush x:Key="RainbowBrush">
+      <GradientStop Offset="0" Color="Red" />
+      <GradientStop Offset="0.14" Color="Orange" />
+      <GradientStop Offset="0.28" Color="Yellow" />
+      <GradientStop Offset="0.57" Color="Green" />
+      <GradientStop Offset="0.71" Color="Blue" />
+      <GradientStop Offset="0.85" Color="Indigo" />
+      <GradientStop Offset="1" Color="Violet" />
+    </LinearGradientBrush>
+    <Style x:Key="GreenStyle" TargetType="Panel">
+      <Setter Property="Background" Value="Green"/>
+    </Style>
+  </UserControl.Resources>
+  <StackPanel>
+  <Canvas Background="Green"/>
+    <Canvas Name="myCanvas" Width="100" Height="100">
+      <Button Click="SetBGByResource" Content="Set Background by Resource"/>
+    </Canvas>
+    <StackPanel Canvas.Top="50">
+      <Canvas>
+        <TextBlock Text="{Binding Team.TeamName}"/>
+      </Canvas> 
+    </StackPanel>
+    <StackPanel Canvas.Top="75">
+      <Canvas Style="{StaticResource GreenStyle}">
+        <TextBlock>I am green!</TextBlock>
+      </Canvas>
+    </StackPanel>
+    <StackPanel>
+      <StackPanel.Resources>
+        <Style x:Key="RedStyle" TargetType="Canvas">
+          <Setter Property="Background" Value="Red"/>
+        </Style>
+      </StackPanel.Resources>
+      <Canvas Background="Green" Style="{StaticResource RedStyle}">
+        <TextBlock>I am NOT red!</TextBlock>
+      </Canvas>
+      <Canvas Style="{StaticResource RedStyle}">
+        <TextBlock>I am styled red</TextBlock>
+      </Canvas>
+    </StackPanel>
+    <StackPanel Canvas.Top="100">
+      <Canvas>
+        <Canvas.Background>
+          <SolidColorBrush x:Name="AnimBrush"/>
+        </Canvas.Background>
+      </Canvas>
+    </StackPanel>
+  </StackPanel>
+</UserControl>

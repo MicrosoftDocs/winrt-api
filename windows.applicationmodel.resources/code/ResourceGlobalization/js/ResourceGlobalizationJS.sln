@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows 8
+Project("{262852C6-CD72-467D-83FE-5EEB1973A190}") = "ResourceGlobalizationJS", "ResourceGlobalizationJS\ResourceGlobalizationJS.jsproj", "{B161DC50-639C-465D-8D80-46CEBEF503EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B161DC50-639C-465D-8D80-46CEBEF503EB}.Debug|ARM.ActiveCfg = Debug|ARM
+		{B161DC50-639C-465D-8D80-46CEBEF503EB}.Debug|ARM.Build.0 = Debug|ARM
+		{B161DC50-639C-465D-8D80-46CEBEF503EB}.Debug|ARM.Deploy.0 = Debug|ARM
+		{B161DC50-639C-465D-8D80-46CEBEF503EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B161DC50-639C-465D-8D80-46CEBEF503EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B161DC50-639C-465D-8D80-46CEBEF503EB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B161DC50-639C-465D-8D80-46CEBEF503EB}.Debug|x64.ActiveCfg = Debug|x64
+		{B161DC50-639C-465D-8D80-46CEBEF503EB}.Debug|x64.Build.0 = Debug|x64
+		{B161DC50-639C-465D-8D80-46CEBEF503EB}.Debug|x64.Deploy.0 = Debug|x64
+		{B161DC50-639C-465D-8D80-46CEBEF503EB}.Debug|x86.ActiveCfg = Debug|x86
+		{B161DC50-639C-465D-8D80-46CEBEF503EB}.Debug|x86.Build.0 = Debug|x86
+		{B161DC50-639C-465D-8D80-46CEBEF503EB}.Debug|x86.Deploy.0 = Debug|x86
+		{B161DC50-639C-465D-8D80-46CEBEF503EB}.Release|ARM.ActiveCfg = Release|ARM
+		{B161DC50-639C-465D-8D80-46CEBEF503EB}.Release|ARM.Build.0 = Release|ARM
+		{B161DC50-639C-465D-8D80-46CEBEF503EB}.Release|ARM.Deploy.0 = Release|ARM
+		{B161DC50-639C-465D-8D80-46CEBEF503EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B161DC50-639C-465D-8D80-46CEBEF503EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B161DC50-639C-465D-8D80-46CEBEF503EB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B161DC50-639C-465D-8D80-46CEBEF503EB}.Release|x64.ActiveCfg = Release|x64
+		{B161DC50-639C-465D-8D80-46CEBEF503EB}.Release|x64.Build.0 = Release|x64
+		{B161DC50-639C-465D-8D80-46CEBEF503EB}.Release|x64.Deploy.0 = Release|x64
+		{B161DC50-639C-465D-8D80-46CEBEF503EB}.Release|x86.ActiveCfg = Release|x86
+		{B161DC50-639C-465D-8D80-46CEBEF503EB}.Release|x86.Build.0 = Release|x86
+		{B161DC50-639C-465D-8D80-46CEBEF503EB}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

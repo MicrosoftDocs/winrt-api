@@ -1,0 +1,30 @@
+﻿<UserControl x:Class="ComboBoxEx.Page"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    xmlns:local="using:ComboBoxEx"
+    Width="200" Height="150" >
+
+    <Border BorderThickness="5" BorderBrush="Black">
+        <StackPanel x:Name="LayoutRoot">
+            <TextBlock HorizontalAlignment="Center" Text="ComboBox Control" Margin="5"/> 
+            <!--<snippet1>-->
+            <ComboBox Width="150">
+                <!-- A string item. -->
+                <ComboBoxItem Content="String Item" />
+                <!-- A formatted text item. -->
+                <ComboBoxItem>
+                    <TextBlock Text="Times New Roman" FontFamily="Times New Roman" FontWeight="Bold" />
+                </ComboBoxItem>
+                <!-- A panel item. -->
+                <ComboBoxItem>
+                    <StackPanel Orientation="Horizontal">
+                        <Rectangle Height="10" Width="20" Fill="Blue" />
+                        <TextBlock Margin="2" Text="Blue" /> 
+                    </StackPanel>
+                </ComboBoxItem>
+            </ComboBox>
+            <!--</snippet1>-->
+        </StackPanel>
+        </Border>
+       
+ </UserControl>

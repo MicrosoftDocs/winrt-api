@@ -1,0 +1,38 @@
+---
+-api-id: M:Windows.Devices.Sensors.Inclinometer.GetDefault
+-api-type: winrt method
+---
+
+<!-- Method syntax
+public Windows.Devices.Sensors.Inclinometer GetDefault()
+-->
+
+# Windows.Devices.Sensors.Inclinometer.GetDefault
+
+## -description
+Returns the default inclinometer.
+
+## -returns
+The default inclinometer or null if no inclinometers are found.
+
+## -remarks
+This method only returns values for hardware that has been integrated into the computer by the manufacturer. (The inclinometer readings are derived from multiple sensors.) A null value will be returned if the specified sensor is not available in the system.
+
+When a system is in Connected Standby, a call to the [GetDefault](inclinometer_getdefault.md) method will return immediately with a null result.
+
+The following example demonstrates how a Windows Store app built with XAML and C# used this method to establish a connection to the default inclinometer.
+
+
+
+[!code-cs[GetDefaultCS](../windows.devices.sensors/code/inclinometer/csharp/Scenario1.xaml.cs#SnippetGetDefaultCS)]
+
+The following example demonstrates how a Windows Store app built for Windows using JavaScript used this method to establish a connection to the default inclinometer.
+
+
+
+[!code-js[GetDefaultJS](../windows.devices.sensors/code/inclinometer/javascript/scenario1.js#SnippetGetDefaultJS)]
+
+## -examples
+
+## -see-also
+[GetDefault(SensorReadingType)](inclinometer_getdefault_2064571144.md)

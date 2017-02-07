@@ -1,0 +1,13 @@
+﻿<UserControl x:Class="WebBrowserEx.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    mc:Ignorable="d" d:DesignWidth="640" d:DesignHeight="480">
+    <StackPanel x:Name="LayoutRoot">
+        <!--<snippet1>-->
+        <TextBlock Text="WebBrowser Control" />
+        <WebView Source="http://localhost/HTMLPage1.html" Height="160" Width="160" x:Name="WB1"/>
+        <Button Width="200" x:Name="Button1" Content="Click for HTML content" Click="Button1_Click"   />
+        <!--</snippet1>-->
+    </StackPanel>
+</UserControl>

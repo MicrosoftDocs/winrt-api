@@ -1,0 +1,27 @@
+---
+-api-id: M:Windows.Devices.PointOfService.ClaimedBarcodeScanner.EnableAsync
+-api-type: winrt method
+---
+
+<!-- Method syntax
+public Windows.Foundation.IAsyncAction EnableAsync()
+-->
+
+# Windows.Devices.PointOfService.ClaimedBarcodeScanner.EnableAsync
+
+## -description
+Gets the barcode scanner into a ready state for [DataReceived](claimedbarcodescanner_datareceived.md) events.
+
+## -returns
+No object or value is returned when this method completes.
+
+## -remarks
+
+## -examples
+
+
+> [!div class="tabbedCodeSnippets"][!code-cpp[EnableBarcodeScanner](../windows.devices.pointofservice/code/BarcodeScanner/cpp/Scenario1.xaml.cpp#SnippetEnableBarcodeScanner)][!code-cs[EnableBarcodeScanner](../windows.devices.pointofservice/code/BarcodeScanner/cs/Scenario1.xaml.cs#SnippetEnableBarcodeScanner)]
+
+[!code-js[CreateBarcodeScannerJS](../windows.devices.pointofservice/code/BarcodeScanner/js/scenario1.js#SnippetCreateBarcodeScannerJS)]
+
+## -see-also

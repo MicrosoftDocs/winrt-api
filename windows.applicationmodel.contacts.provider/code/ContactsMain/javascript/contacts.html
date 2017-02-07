@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+    <meta charset="utf-8" />
+    <title>ContactsMain Contacts</title>
+    <!-- WinJS references -->
+    <link rel="stylesheet" href="/winjs/css/ui-dark.css" />
+    <script src="/winjs/js/base.js"></script>
+    <script src="/winjs/js/wwaapp.js"></script>
+    <!-- ContactsMain references -->
+    <link rel="stylesheet" href="/css/default.css" />
+    <script src="/js/default.js"></script>
+    <script src="/js/contacts.js"></script>
+        </head>
+
+<body role="application">
+    <div id="header" role="contentinfo"></div>
+    <h1>Contact Picker</h1>
+
+    <h2 id="inputLabel">Input</h2>
+
+    <div id="input" role="main" aria-labelledby="inputLabel">
+        <div class="options">
+            <h3 id="listLabel">Select scenario:</h3>
+            <select size="4" id="scenarios" aria-labelledby="listLabel">
+                <option selected="selected" value="1">1) Pick a contact</option>
+                <option value="2">2) Pick multiple contacts</option>
+            </select>
+        </div>
+        <div class="details" role="region" aria-labelledby="descLabel" aria-live="assertive">
+            <h3 id="descLabel">Description:</h3>
+
+            <!-- Scenario 1 Input -->
+            <div class="item" id="scenario1Input">
+                <p>Picks a contact from the contact picker. There is an example contact picker extension included with this sample that can be used.</p>
+                <button id="scenario1Open" class="action">Pick Contact</button>
+            </div>
+            <!-- Scenario 2 Input -->
+            <div class="item" id="scenario2Input">
+                <p>Picks multiple contacts from the contact picker.  There is an example contact picker extension included with this sample that can be used.</p>
+                <button id="scenario2Open" class="action">Pick Contacts</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="clear"></div>
+
+    <h2 id="outputLabel"> Output</h2>
+
+    <div id="output" role="region" aria-labelledby="outputLabel" aria-live="assertive">
+        <div id="statusMessage"></div>
+        <!-- Scenario Output -->
+        <div class="item" id="scenario1Output">
+            <div id="scenario1Contacts" ></div>
+        </div>
+        <div class="item" id="scenario2Output">
+            <div id="scenario2Contacts"></div>
+        </div>
+    </div>
+
+    <div id="footer" role="contentinfo"></div>
+</body>
+</html>

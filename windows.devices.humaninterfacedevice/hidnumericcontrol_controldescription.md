@@ -1,0 +1,3 @@
+----api-id: P:Windows.Devices.HumanInterfaceDevice.HidNumericControl.ControlDescription
+-api-type: winrt property
+---<!-- Property syntaxpublic Windows.Devices.HumanInterfaceDevice.HidNumericControlDescription ControlDescription { get; }--># Windows.Devices.HumanInterfaceDevice.HidNumericControl.ControlDescription## -descriptionRetrieves a control description for the given numeric control.## -property-valueA **HidNumericControlDescription** object.## -remarks## -examples## -see-also

@@ -1,0 +1,11 @@
+﻿<UserControl x:Class="ComboBoxExVB.Page"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    Width="400" Height="300">
+    <Border BorderThickness="5" BorderBrush="Black">
+        <StackPanel x:Name="LayoutRoot"  >
+            <TextBlock HorizontalAlignment="Center" Text="ComboBox Control" Margin="5"/>
+            <ComboBox x:Name="myCombo" Width="150" Margin="10"/>
+        </StackPanel>
+    </Border>
+</UserControl>

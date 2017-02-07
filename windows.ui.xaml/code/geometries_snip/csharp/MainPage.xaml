@@ -1,0 +1,65 @@
+﻿<UserControl x:Class="geometries.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Loaded="Page_Loaded"
+    mc:Ignorable="d"
+    d:DesignWidth="1366" d:DesignHeight="768">
+
+    <!--Common resources for default dark theme applications-->
+    <UserControl.Resources>
+        <SolidColorBrush x:Key="PageBackgroundBrush" Color="#FF1A1A1A"/>
+        <SolidColorBrush x:Key="PageForegroundBrush" Color="White"/>
+        <SolidColorBrush x:Key="HighlightBrush" Color="#FF26A0DA"/>
+        
+        <Style TargetType="Button" x:Key="ButtonStyle">
+            <Setter Property="FontSize" Value="12" />
+            <Setter Property="Width" Value="160" />
+            <Setter Property="Height" Value="50" />
+        </Style>
+    </UserControl.Resources>
+
+    <StackPanel x:Name="LayoutRoot" Background="Blue" >
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup x:Name="OrientationStates">
+                <VisualState x:Name="Full"/>
+                <VisualState x:Name="Fill"/>
+                <VisualState x:Name="Portrait"/>
+                <VisualState x:Name="Snapped"/>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+        <StackPanel Orientation="Horizontal">
+            <Button Click="ChangeSnippet_Click" Content="Path" Name="path_syntax_example" Style="{StaticResource ButtonStyle}" />
+            <Button Click="ChangeSnippet_Click" Content="Poly" Name="PolyBezierSegment" Style="{StaticResource ButtonStyle}" />
+            <Button Click="ChangeSnippet_Click" Content="GeoOvw1" Name="GeometryOvw1" Style="{StaticResource ButtonStyle}" />
+            <Button Click="ChangeSnippet_Click" Content="GeoOvw2" Name="GeometryOvw2" Style="{StaticResource ButtonStyle}" />
+            <Button Click="ChangeSnippet_Click" Content="GeoOvw3" Name="GeometryOvw3" Style="{StaticResource ButtonStyle}" />
+            <Button Click="ChangeSnippet_Click" Content="GeoOvw4" Name="GeometryOvw4" Style="{StaticResource ButtonStyle}" />
+            <Button Click="ChangeSnippet_Click" Content="GeoOvw5" Name="GeometryOvw5" Style="{StaticResource ButtonStyle}" />
+            <Button Click="ChangeSnippet_Click" Content="GeoOvw6" Name="GeometryOvw6" Style="{StaticResource ButtonStyle}" />
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Button Click="ChangeSnippet_Click" Content="GeoOvw7" Name="GeometryOvw7" Style="{StaticResource ButtonStyle}" />
+            <Button Click="ChangeSnippet_Click" Content="GeoOvw8" Name="GeometryOvw8" Style="{StaticResource ButtonStyle}" />
+            <Button Click="ChangeSnippet_Click" Content="graphic_sample" Name="graphic_sample" Style="{StaticResource ButtonStyle}" />
+            <Button Click="ChangeSnippet_Click" Content="ShapesDrawing_ovw_1" Name="shapes_and_drawing_ovw_1" Style="{StaticResource ButtonStyle}" />
+            <Button Click="ChangeSnippet_Click" Content="ShapesDrawing_ovw_2" Name="shapes_and_drawing_ovw_2" Style="{StaticResource ButtonStyle}" />
+            <Button Click="ChangeSnippet_Click" Content="ShapesDrawing_ovw_3" Name="shapes_and_drawing_ovw_3" Style="{StaticResource ButtonStyle}" />
+            <Button Click="ChangeSnippet_Click" Content="ShapesDrawing_ovw_4" Name="shapes_and_drawing_ovw_4" Style="{StaticResource ButtonStyle}" />
+            <Button Click="ChangeSnippet_Click" Content="ShapesDrawing_ovw_5" Name="shapes_and_drawing_ovw_5" Style="{StaticResource ButtonStyle}" />
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Button Click="ChangeSnippet_Click" Content="Shapes_Ovw_Ellipse" Name="shapes_ovw_ellipse" Style="{StaticResource ButtonStyle}" />
+            <Button Click="ChangeSnippet_Click" Content="Shapes_Ovw_Lines" Name="shapes_ovw_lines" Style="{StaticResource ButtonStyle}" />
+            <Button Click="ChangeSnippet_Click" Content="Shapes_Snips_Ellips" Name="Shapes_Snips_Ellipse" Style="{StaticResource ButtonStyle}" />
+            <Button Click="ChangeSnippet_Click" Content="Shapes_Snips_Lines" Name="Shapes_Snips_Lines" Style="{StaticResource ButtonStyle}" />
+            <Button Click="ChangeSnippet_Click" Content="Shapes_Snips_PolyLine" Name="Shapes_Snips_PolyLine" Style="{StaticResource ButtonStyle}" />
+            <Button Click="ChangeSnippet_Click" Content="Shapes_Snips_Rectangle" Name="Shapes_Snips_Rectangle" Style="{StaticResource ButtonStyle}" />
+            <Button Click="ChangeSnippet_Click" Content="PolyQuadraticBezierSegment" Name="PolyQuadraticBezier" Style="{StaticResource ButtonStyle}" />
+        </StackPanel>
+
+        <Frame Name="theframe" Width="800" Height="600" HorizontalAlignment="Left" Background="Green"/>
+
+    </StackPanel>
+</UserControl>

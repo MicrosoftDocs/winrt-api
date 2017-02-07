@@ -1,0 +1,15 @@
+﻿<UserControl x:Class="ProximityEvents.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="768" d:DesignWidth="1366">
+    
+    <Grid x:Name="LayoutRoot" Background="#FF0C0C0C">
+        <Button x:Name="CloseButton" Content="Close" HorizontalAlignment="Left" VerticalAlignment="Top" Width="30" Height="47" Margin="8,8,0,0" Click="CloseButton_Click"/>
+        <TextBlock x:Name="MessageTextBlock" HorizontalAlignment="Left" Height="103" Margin="8,59,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="258"/>
+
+    </Grid>
+    
+</UserControl>

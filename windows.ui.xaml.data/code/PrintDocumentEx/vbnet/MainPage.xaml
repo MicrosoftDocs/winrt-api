@@ -1,0 +1,12 @@
+﻿<UserControl x:Class="SLPrintVB.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    mc:Ignorable="d" d:DesignWidth="640" d:DesignHeight="480">
+       <StackPanel x:Name="LayoutRoot">
+        <Button Margin="5" Width="200" Content="Click to print" x:Name="PrintButton" 
+                Click="PrintButton_Click" />
+        <Image Width="600"  Height="600" Source="RedmondMap.jpg" x:Name="mapImage"/>
+    </StackPanel>
+   </UserControl>

@@ -1,0 +1,37 @@
+﻿<!-- <SnippetAppXAMLFull> -->
+<Application
+    x:Class="ItemsControlGroupingSnippets.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ItemsControlGroupingSnippets">
+
+    <Application.Resources>
+        <ResourceDictionary>
+            <!-- <SnippetListViewResources> -->
+            <DataTemplate x:Key="listViewItemTemplate">
+                <StackPanel Width="320" Margin="10">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding Name}" FontWeight="Bold" Style="{StaticResource BaseTextBlockStyle}"
+                       Margin="2,0,0,0"/>
+                        <TextBlock Text="{Binding DueDate}" Style="{StaticResource BodyTextBlockStyle}" TextWrapping="NoWrap"
+                       Margin="20,0,0,0"/>
+                    </StackPanel>
+                    <CheckBox Content="Complete" IsChecked="{Binding Complete}" IsEnabled="False"/>
+                </StackPanel>
+            </DataTemplate>
+
+            <GroupStyle x:Key="listViewGroupStyle">
+                <GroupStyle.HeaderTemplate>
+                    <DataTemplate>
+                        <Grid Background="LightGray"  >
+                            <TextBlock Text='{Binding Key}' Foreground="Black" Margin="10"
+                           Style="{StaticResource SubheaderTextBlockStyle}" />
+                        </Grid>
+                    </DataTemplate>
+                </GroupStyle.HeaderTemplate>
+            </GroupStyle>
+            <!-- </SnippetListViewResources> -->
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
+<!-- </SnippetAppXAMLFull> -->

@@ -1,0 +1,43 @@
+﻿<Page
+    x:Class="ShareTargetBetaCS.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ShareTargetBetaCS"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{StaticResource ApplicationPageBackgroundBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="300"/>            
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <!-- Page title -->
+        <Grid x:Name="titlePanel">
+            <TextBlock x:Name="pageTitle" Text="ShareTargetBetaCS" Style="{StaticResource PageHeaderTextStyle}" Margin="62,0,852,40"/>
+        </Grid>
+
+        <Grid x:Name="OutputPanel" Grid.Row="1" Margin="0,0,0,61">
+            <TextBlock Text="Shared content:" Style="{StaticResource SubheaderTextStyle}" Margin="62,20,85,40" Height="30" VerticalAlignment="Top"/>
+            <TextBlock x:Name="sharedContent" Text="Shared content area." Style="{StaticResource BodyTextStyle}" TextWrapping="Wrap" Foreground="White" Margin="62,60,62,10" />
+        </Grid>
+        
+        <Grid x:Name="Temp" Grid.Row="2" Margin="0,0,0,61">
+            <StackPanel x:Name="quickLinkCustomization" Visibility="Visible" Width="500">
+                <TextBlock Style="{StaticResource BodyTextStyle}" Text="Quicklink Id: "/>
+                <TextBox x:Name="quickLinkId" FontSize="12" Width="300" TextWrapping="Wrap" HorizontalAlignment="Left" Text="ABC123" />
+                <TextBlock Style="{StaticResource BodyTextStyle}" >
+                        <LineBreak/>Title:
+                </TextBlock>
+                <TextBox x:Name="quickLinkTitle" FontSize="12" Width="300" TextWrapping="Wrap" HorizontalAlignment="Left" Text="Email John Smith" />
+                <TextBlock Style="{StaticResource BodyTextStyle}" >
+                        <LineBreak/>Icon:
+                </TextBlock>
+                <Image x:Name="quickLinkIcon" HorizontalAlignment="Left" MaxHeight="100" MaxWidth="100" Source="Assets/user.png" />
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Page>
+

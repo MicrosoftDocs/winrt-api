@@ -1,0 +1,139 @@
+﻿<Page
+    x:Class="ListAndGridViewSnippets.SplitPage"
+    IsTabStop="false"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ListAndGridViewSnippets"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+<Page.Resources>
+    <!-- Collection of items displayed by this page -->
+    <CollectionViewSource x:Name="itemsViewSource"/>
+</Page.Resources>
+
+    
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        
+<!-- <SnippetListViewCVSBinding> -->
+<ListView x:Name="itemListView" 
+          ItemsSource="{Binding Source={StaticResource itemsViewSource}}"/>
+<!-- </SnippetListViewCVSBinding> -->
+
+<!-- <SnippetListViewItemsPanel> -->
+<ListView Height="320" Width="260">
+    <ListView.ItemsPanel>
+        <ItemsPanelTemplate>
+            <WrapGrid Orientation="Horizontal" MaximumRowsOrColumns="2"/>
+        </ItemsPanelTemplate>
+    </ListView.ItemsPanel>
+
+    <Rectangle Height="100" Width="100" Fill="Blue" />
+    <Rectangle Height="100" Width="100" Fill="Red" />
+    <Rectangle Height="100" Width="100" Fill="Yellow" />
+    <Rectangle Height="100" Width="100" Fill="Green" />
+    <Rectangle Height="100" Width="100" Fill="Gray" />
+    <Rectangle Height="100" Width="100" Fill="LightBlue" />
+    <Rectangle Height="100" Width="100" Fill="Pink" />
+    <Rectangle Height="100" Width="100" Fill="YellowGreen" />
+</ListView>
+<!-- </SnippetListViewItemsPanel> -->        
+        
+<!-- <SnippetGridViewItemsPanel> -->
+<GridView x:Name="itemGridView"
+          Margin="116,0,116,46"
+          ItemsSource="{Binding Source={StaticResource itemsViewSource}}"
+          ItemTemplate="{StaticResource Standard250x250ItemTemplate}">
+    <GridView.ItemsPanel>
+        <ItemsPanelTemplate>
+            <WrapGrid Orientation="Horizontal" MaximumRowsOrColumns="3" />     
+        </ItemsPanelTemplate>
+    </GridView.ItemsPanel>        
+</GridView>
+<!-- </SnippetGridViewItemsPanel> -->
+
+<!-- <SnippetListGridSelectionMode> -->
+        <!-- <SnippetSelectionModeNone> -->
+<ListView x:Name="itemList"
+          ItemsSource="{Binding Source={StaticResource itemsViewSource}}"
+          SelectionMode="None"/>
+        <!-- </SnippetSelectionModeNone> -->
+
+        <!-- <SnippetSelectionModeExtended> -->
+<GridView x:Name="itemGrid"
+          ItemsSource="{Binding Source={StaticResource itemsViewSource}}"
+          SelectionChanged="ItemView_SelectionChanged"
+          SelectionMode="Extended"/>
+        <!-- </SnippetSelectionModeExtended> -->
+<!-- </SnippetListGridSelectionMode> -->
+
+<!-- <SnippetGridViewHeader> -->        
+<GridView x:Name="itemGridView"
+          Margin="0,-14,0,0"
+          Padding="120,0,120,50"
+          ItemsSource="{Binding Source={StaticResource itemsViewSource}}"
+          ItemTemplate="{StaticResource Standard500x130ItemTemplate}">
+
+    <GridView.Header>
+        <StackPanel Width="480" Margin="0,4,14,0">
+            <TextBlock Text="{Binding Subtitle}" Margin="0,0,18,20" 
+                       Style="{StaticResource SubheaderTextStyle}" MaxHeight="60"/>
+            <Image Source="{Binding Image}" Height="400" Margin="0,0,18,20" 
+                   Stretch="UniformToFill" AutomationProperties.Name="{Binding Title}"/>
+            <TextBlock Text="{Binding Description}" Margin="0,0,18,0" 
+                       Style="{StaticResource BodyTextStyle}"/>
+        </StackPanel>
+    </GridView.Header>
+</GridView>
+<!-- </SnippetGridViewHeader> -->        
+        
+<!-- <SnippetFlipViewCVSBinding> -->
+<ListView x:Name="itemFlipView" 
+          ItemsSource="{Binding Source={StaticResource itemsViewSource}}"/>
+<!-- </SnippetFlipViewCVSBinding> -->
+        
+<!-- <SnippetFlipViewItemTemplate> -->  
+    <FlipView x:Name="flipView1" Width="480" Height="270" 
+              BorderBrush="Black" BorderThickness="1">
+            <FlipView.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Image Width="480" Height="270" Source="{Binding Image}" Stretch="UniformToFill"/>
+                        <Border Background="#A5000000" Height="80" VerticalAlignment="Bottom">
+                            <TextBlock Text="{Binding Name}" FontFamily="Segoe UI" FontSize="26.667" 
+                                       Foreground="#CCFFFFFF" Padding="15,20"/>
+                        </Border>
+                    </Grid>
+                </DataTemplate>
+            </FlipView.ItemTemplate>
+        </FlipView>
+        <!-- </SnippetFlipViewItemTemplate> -->
+        
+        <!-- <SnippetFlipViewVerticalOrientation> -->
+        <FlipView x:Name="flipViewVertical" Width="480" Height="270" 
+                  BorderBrush="Black" BorderThickness="1">
+            <!-- Use a vertical stack panel for vertical flipping. -->
+            <FlipView.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <VirtualizingStackPanel Orientation="Vertical"/>
+                </ItemsPanelTemplate>
+            </FlipView.ItemsPanel>
+          
+            <FlipView.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Image Width="480" Height="270" Source="{Binding Image}" Stretch="UniformToFill"/>
+                        <Border Background="#A5000000" Height="80" VerticalAlignment="Bottom">
+                            <TextBlock Text="{Binding Title}" FontFamily="Segoe UI" FontSize="26.667" 
+                                       Foreground="#CCFFFFFF" Padding="15,20"/>
+                        </Border>
+                    </Grid>
+                </DataTemplate>
+            </FlipView.ItemTemplate>
+
+        </FlipView>
+      <!-- </SnippetFlipViewVerticalOrientation> -->
+        
+    </Grid>
+</Page>

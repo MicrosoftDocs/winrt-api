@@ -1,0 +1,42 @@
+﻿<Page x:Class="geometries.GeometryOvw8"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Loaded="Page_Loaded" Unloaded="Page_Unloaded"
+    mc:Ignorable="d"
+    d:DesignWidth="1366" d:DesignHeight="768">
+
+    <!--Common resources for default dark theme applications-->
+    <UserControl.Resources>
+        <SolidColorBrush x:Key="PageBackgroundBrush" Color="#FF1A1A1A"/>
+        <SolidColorBrush x:Key="PageForegroundBrush" Color="White"/>
+        <SolidColorBrush x:Key="HighlightBrush" Color="#FF26A0DA"/>
+    </UserControl.Resources>
+
+    <Grid x:Name="LayoutRoot" Background="White">
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup x:Name="OrientationStates">
+                <VisualState x:Name="Full"/>
+                <VisualState x:Name="Fill"/>
+                <VisualState x:Name="Portrait"/>
+                <VisualState x:Name="Snapped"/>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+        <!-- <SnippetGeometryOvw8> -->
+        <Canvas>
+            <Path Stroke="Black" StrokeThickness="4" Fill="#CCCCFF">
+                <Path.Data>
+
+                    <!-- Creates a composite shape from three geometries. -->
+                    <GeometryGroup FillRule="EvenOdd">
+                        <LineGeometry StartPoint="10,10" EndPoint="50,30" />
+                        <EllipseGeometry Center="40,70" RadiusX="30" RadiusY="30" />
+                        <RectangleGeometry Rect="30,55 100 30" />
+                    </GeometryGroup>
+                </Path.Data>
+            </Path>
+        </Canvas>
+        <!-- </SnippetGeometryOvw8> -->
+    </Grid>
+</Page>

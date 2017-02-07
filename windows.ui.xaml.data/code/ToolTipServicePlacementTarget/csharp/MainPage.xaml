@@ -1,0 +1,31 @@
+<UserControl  x:Class="PlacementTargetEx.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="300" d:DesignWidth="400">
+
+    <StackPanel x:Name="LayoutRoot" >
+        <!--<snippet1>-->
+        <StackPanel Orientation="Horizontal">
+            <Ellipse Height="45" Width="50" 
+                Fill="Red" 
+                HorizontalAlignment="Left"
+                ToolTipService.Placement="Right" 
+                ToolTipService.PlacementTarget="{Binding ElementName=TB1}"
+                ToolTipService.ToolTip="Type the name of the shape in the box." />
+            <TextBox Margin="5" x:Name="TB1" Text="ellipse"  Width="200" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Rectangle Height="45" Width="50" 
+                Fill="Blue" 
+                HorizontalAlignment="Left"
+                ToolTipService.Placement="Right" 
+                ToolTipService.PlacementTarget="{Binding ElementName=TB2}"
+                ToolTipService.ToolTip="Type the name of the shape in the box." />
+                <TextBox Margin="5" x:Name="TB2" Width="200" />
+            </StackPanel>
+        </StackPanel>
+        <!--</snippet1>-->
+</UserControl>

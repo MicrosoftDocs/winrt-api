@@ -1,0 +1,10 @@
+<!-- <SnippetSolidColorBrushIntroExampleWholePage> -->
+<Canvas
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+  <!-- This rectangle's fill is painted with a red SolidColorBrush,
+       described using a named color. -->
+  <Rectangle Width="100" Height="100" Fill="Red" />
+</Canvas>
+<!-- </SnippetSolidColorBrushIntroExampleWholePage> -->

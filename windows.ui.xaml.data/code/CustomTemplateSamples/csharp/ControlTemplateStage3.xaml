@@ -1,0 +1,127 @@
+<UserControl x:Class="CustomTemplateSamples.ControlTemplateStage3"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    Height="300">
+  <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center"  >
+    <StackPanel.Resources>
+      <Style TargetType="Button" x:Key="newTemplate">
+        <!--Set the Background, Foreground, FontSize, Width, 
+            Height, Margin, and Template properties for
+            the Button.-->
+        <Setter Property="Background" Value="Navy"/>
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="Width" Value="100"/>
+        <Setter Property="Height" Value="40"/>
+        <Setter Property="Margin" Value="10"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <!--Create the ControlTemplate for the Button as part
+                of the Button's style.-->
+        <Setter Property="Template">
+          <Setter.Value>
+            <ControlTemplate TargetType="Button">
+              <Border x:Name="RootElement">
+                <VisualStateManager.VisualStateGroups>
+                  <!--<SnippetVisualTransitions>-->
+                  <VisualStateGroup x:Name="CommonStates">
+
+                    <!--Define the VisualTransitions that can be used when the control
+                          transitions between VisualStates that are defined in the
+                          VisualStatGroup.-->
+                    <VisualStateGroup.Transitions>
+
+                      <!--Take one half second to trasition to the MouseOver state.-->
+                      <VisualTransition To="MouseOver" 
+                                            GeneratedDuration="0:0:0.5" />
+
+                      <!--Take one hundredth of a second to transition from the
+                            Pressed state to the MouseOver state.-->
+                      <VisualTransition From="Pressed" To="MouseOver" 
+                                            GeneratedDuration="0:0:0.01" />
+
+                      <!--Take one and a half seconds to transition from the
+                            MouseOver state to the Normal state. 
+                            Have the SolidColorBrush, BorderBrush, fade to blue, 
+                            then to yellow, and then to black in that time.-->
+                      <VisualTransition From="MouseOver" To="Normal" 
+                                            GeneratedDuration="0:0:1.5">
+                        <Storyboard>
+                          <ColorAnimationUsingKeyFrames
+                                Storyboard.TargetProperty="Color"
+                                Storyboard.TargetName="BorderBrush"
+                                FillBehavior="HoldEnd" >
+
+                            <ColorAnimationUsingKeyFrames.KeyFrames>
+
+                              <LinearColorKeyFrame Value="Blue" 
+                                                   KeyTime="0:0:0.5" />
+                              <LinearColorKeyFrame Value="Yellow" 
+                                                   KeyTime="0:0:1" />
+                              <LinearColorKeyFrame Value="Black" 
+                                                   KeyTime="0:0:1.5" />
+
+                            </ColorAnimationUsingKeyFrames.KeyFrames>
+                          </ColorAnimationUsingKeyFrames>
+                        </Storyboard>
+                      </VisualTransition>
+                    </VisualStateGroup.Transitions>
+
+                    <!--The remainder of the VisualStateGroup is the
+                          same as the previous example.-->
+
+                    <VisualState x:Name="Normal" />
+
+                    <VisualState x:Name="MouseOver">
+                      <Storyboard>
+                        <ColorAnimation Storyboard.TargetName="BorderBrush" 
+                                        Storyboard.TargetProperty="Color" To="Red" />
+
+                      </Storyboard>
+                    </VisualState>
+
+                    <VisualState x:Name="Pressed">
+                      <Storyboard >
+                        <ColorAnimation Storyboard.TargetName="BorderBrush" 
+                                        Storyboard.TargetProperty="Color" To="Transparent"/>
+                      </Storyboard>
+                    </VisualState>
+
+                    <!--The Disabled state is omitted for brevity.-->
+
+                  </VisualStateGroup>
+                  <!--</SnippetVisualTransitions>-->
+
+                </VisualStateManager.VisualStateGroups>
+
+                <Border.Background>
+                  <SolidColorBrush x:Name="BorderBrush" Color="Black"/>
+                </Border.Background>
+
+                <Grid Background="{TemplateBinding Background}" Margin="4">
+                  <ContentPresenter
+                        HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                        VerticalAlignment="{TemplateBinding VerticalContentAlignment}"
+                        Margin="4,5,4,4" />
+
+                </Grid>
+
+
+              </Border>
+            </ControlTemplate>
+          </Setter.Value>
+        </Setter>
+      </Style>
+
+    </StackPanel.Resources>
+
+    <TextBlock FontSize="20" Text="Buttons with a custom ControlTemplate" HorizontalAlignment="Center"/>
+    <TextBlock Text="This sample demonstrates adding VisualTransitions to a custom ControlTemplate." HorizontalAlignment="Center" Margin="2"
+               TextWrapping="Wrap"/>
+    <Button Style="{StaticResource newTemplate}" 
+            Content="Button1"/>
+
+    <Button Style="{StaticResource newTemplate}" Background="Purple" 
+            Content="Button2" Click="Button_Click"/>
+  </StackPanel>
+</UserControl>

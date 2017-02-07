@@ -1,0 +1,30 @@
+<UserControl
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:my="using:DPO"
+  x:Class="DPO.SilverlightExampleClass"
+  Loaded="BAQ"
+>
+  <StackPanel>
+    <!--<SnippetDPPrecedence1>-->
+    <StackPanel.Resources>
+      <Style x:Key="ImmediateStyle" TargetType="Button">
+        <Setter Property="Background" Value="Green"/>
+      </Style>
+    </StackPanel.Resources>
+    <!--</SnippetDPPrecedence1>-->
+    <!--<SnippetAPBasicUsage>-->
+    <Canvas>
+      <Button Canvas.Left="50"><TextBlock>Hello</TextBlock></Button>
+    </Canvas>
+    <!--</SnippetAPBasicUsage>-->
+    <Button Click="MakeANewThing">
+      <TextBlock>Make a new thing</TextBlock>
+    </Button>
+    <!--<SnippetDPPrecedence2>-->
+    <Button Style="{StaticResource ImmediateStyle}" Background="Red">
+      <TextBlock>Hello again</TextBlock>
+    </Button>
+    <!--</SnippetDPPrecedence2>-->
+  </StackPanel>
+</UserControl>

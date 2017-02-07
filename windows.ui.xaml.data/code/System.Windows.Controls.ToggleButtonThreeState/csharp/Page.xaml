@@ -1,0 +1,11 @@
+﻿<UserControl x:Class="ToggleButtonEx.Page"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    Width="400" Height="300">
+    <StackPanel x:Name="LayoutRoot"  Margin="10">
+        <!--<snippet1>-->
+        <ToggleButton Margin="5" Content="Three State" Width="150" IsThreeState="True"/>
+        <ToggleButton Margin="5" Content="Two State" Width="150" IsThreeState="False" />
+       <!--</snippet1>-->
+    </StackPanel>
+</UserControl>

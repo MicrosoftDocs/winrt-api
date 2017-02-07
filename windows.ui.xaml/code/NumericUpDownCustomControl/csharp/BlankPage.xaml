@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="NumericUpDownCustomControl.BlankPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:NumericUpDownCustomControl"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+  <StackPanel x:Name="LayoutRoot"  HorizontalAlignment="Center">
+    <TextBlock FontSize="20" Margin="0,20,0,15" Text="Custom Control Example"/>
+    <TextBlock FontSize="14" Width="300" TextWrapping="Wrap" >
+      This is a custom control called NumericUpDown.  Click on the buttons to increase or decrease its value.
+    </TextBlock>
+    <!--<SnippetControlUsage>-->
+    <local:NumericUpDown x:Name="nud" Background="LightCoral" Width="100" Height="60" HorizontalAlignment="Left" Margin="0,15,0,0" Foreground="Black"/>
+    <!--</SnippetControlUsage>-->
+  </StackPanel>
+</Page>

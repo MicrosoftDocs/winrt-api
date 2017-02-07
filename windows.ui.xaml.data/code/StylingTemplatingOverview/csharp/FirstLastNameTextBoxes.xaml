@@ -1,0 +1,54 @@
+﻿<UserControl x:Class="StylingTemplatingOverview.FirstLastNameTextBoxes"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+  <!--<Snippet1>-->
+  <StackPanel>
+    <StackPanel.Resources>
+      <!--Create a Style for a TextBlock to specify that the
+                Foreground equals Navy, FontSize equals 14, and
+                VerticalAlignment equals Botton.-->
+      <Style TargetType="TextBlock" x:Key="TextBlockStyle">
+        <Setter Property="Foreground" Value="Navy"/>
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="VerticalAlignment" Value="Bottom"/>
+      </Style>
+
+      <!--Create a Style for a TextBlock that specifies that
+                the Width is 200, Height is 20, Margin is 4,
+                Background is LightBlue, and FontSize is 14.-->
+      <Style TargetType="TextBox" x:Key="TextBoxStyle">
+        <Setter Property="Width" Value="200"/>
+        <Setter Property="Height" Value="30"/>
+        <Setter Property="Margin" Value="4"/>
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="Background">
+          <Setter.Value>
+            <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+              <GradientStop Color="White" Offset="0.0"/>
+              <GradientStop Color="LightBlue" Offset="0.5"/>
+              <GradientStop Color="Navy" Offset="1"/>
+            </LinearGradientBrush>
+          </Setter.Value>
+        </Setter>
+      </Style>
+    </StackPanel.Resources>
+
+    <!--Apply the TextBlockStyle and TextBoxStyle to each 
+            TextBlock and TextBox, respectively.-->
+    <StackPanel Orientation="Horizontal">
+      <TextBlock Style="{StaticResource TextBlockStyle}">
+                First Name:
+            </TextBlock>
+      <TextBox Style="{StaticResource TextBoxStyle}"/>
+    </StackPanel>
+    <StackPanel Orientation="Horizontal">
+      <TextBlock Style="{StaticResource TextBlockStyle}">
+                Last Name:
+            </TextBlock>
+      <TextBox Style="{StaticResource TextBoxStyle}"  
+                     Margin="6,4,4,4"/>
+    </StackPanel>
+  </StackPanel>
+  <!--</Snippet1>-->
+</UserControl>

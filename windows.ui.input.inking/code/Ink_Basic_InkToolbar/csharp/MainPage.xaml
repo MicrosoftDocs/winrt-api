@@ -1,0 +1,43 @@
+﻿<Page
+    x:Class="Ink_Basic_InkToolbar.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Ink_Basic_InkToolbar"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <!-- <SnippetUI> -->
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel x:Name="HeaderPanel" Orientation="Horizontal" Grid.Row="0">
+            <TextBlock x:Name="Header" 
+                       Text="Basic ink sample" 
+                       Style="{ThemeResource HeaderTextBlockStyle}" 
+                       Margin="10,0,0,0" />
+        </StackPanel>
+        <Grid Grid.Row="1">
+            <Image Source="Assets\StoreLogo.png" />
+            <!-- Clear the default InkToolbar buttons by setting InitialControls to None. -->
+            <!-- Set the active tool to the pencil button. -->
+            <InkCanvas x:Name="inkCanvas" />
+            <InkToolbar x:Name="inkToolbar" 
+                        VerticalAlignment="Top" 
+                        TargetInkCanvas="{x:Bind inkCanvas}" 
+                        InitialControls="None"
+                        ActiveTool="{x:Bind pencilButton}">
+                <!-- 
+                 Add only the ballpoint pen, pencil, and eraser. 
+                 Note that the buttons are added to the toolbar in the order 
+                 defined by the framework, not the order we specify here.
+                -->
+                <InkToolbarEraserButton />
+                <InkToolbarBallpointPenButton />
+                <InkToolbarPencilButton x:Name="pencilButton"/>
+            </InkToolbar>
+        </Grid>
+    </Grid>
+    <!-- </SnippetUI> -->
+</Page>

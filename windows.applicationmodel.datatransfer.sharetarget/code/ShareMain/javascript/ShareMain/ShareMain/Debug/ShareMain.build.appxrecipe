@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>NIKKYO</Machine>
+    <WindowsUser>dshevitz</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\WDC_SD\windowssamples\ExampleCode\Sharing\ShareMain\javascript\ShareMain\ShareMain\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <Modified>2011-10-31T21:53:07.747</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppXPackagedFile Include="C:\WDC_SD\windowssamples\ExampleCode\Sharing\ShareMain\javascript\ShareMain\ShareMain\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2011-08-25T00:29:52.000</Modified>
+    </AppXPackagedFile>
+    <AppXPackagedFile Include="C:\WDC_SD\windowssamples\ExampleCode\Sharing\ShareMain\javascript\ShareMain\ShareMain\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2011-11-01T11:16:17.312</Modified>
+    </AppXPackagedFile>
+    <AppXPackagedFile Include="C:\WDC_SD\windowssamples\ExampleCode\Sharing\ShareMain\javascript\ShareMain\ShareMain\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2011-10-31T13:40:01.227</Modified>
+    </AppXPackagedFile>
+    <AppXPackagedFile Include="C:\WDC_SD\windowssamples\ExampleCode\Sharing\ShareMain\javascript\ShareMain\ShareMain\images\logo.png">
+      <PackagePath>images\logo.png</PackagePath>
+      <Modified>2011-08-25T00:29:54.000</Modified>
+    </AppXPackagedFile>
+    <AppXPackagedFile Include="C:\WDC_SD\windowssamples\ExampleCode\Sharing\ShareMain\javascript\ShareMain\ShareMain\images\smalllogo.png">
+      <PackagePath>images\smalllogo.png</PackagePath>
+      <Modified>2011-08-25T00:29:54.000</Modified>
+    </AppXPackagedFile>
+    <AppXPackagedFile Include="C:\WDC_SD\windowssamples\ExampleCode\Sharing\ShareMain\javascript\ShareMain\ShareMain\images\splashscreen.png">
+      <PackagePath>images\splashscreen.png</PackagePath>
+      <Modified>2011-08-25T00:29:54.000</Modified>
+    </AppXPackagedFile>
+    <AppXPackagedFile Include="C:\WDC_SD\windowssamples\ExampleCode\Sharing\ShareMain\javascript\ShareMain\ShareMain\images\storelogo.png">
+      <PackagePath>images\storelogo.png</PackagePath>
+      <Modified>2011-08-25T00:29:54.000</Modified>
+    </AppXPackagedFile>
+    <AppXPackagedFile Include="C:\WDC_SD\windowssamples\ExampleCode\Sharing\ShareMain\javascript\ShareMain\ShareMain\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2011-10-31T13:44:25.756</Modified>
+    </AppXPackagedFile>
+    <AppXPackagedFile Include="C:\WDC_SD\windowssamples\ExampleCode\Sharing\ShareMain\javascript\ShareMain\ShareMain\js\source.js">
+      <PackagePath>js\source.js</PackagePath>
+      <Modified>2011-11-01T11:09:37.063</Modified>
+    </AppXPackagedFile>
+    <AppXPackagedFile Include="C:\WDC_SD\windowssamples\ExampleCode\Sharing\ShareMain\javascript\ShareMain\ShareMain\js\target.js">
+      <PackagePath>js\target.js</PackagePath>
+      <Modified>2011-11-01T11:16:09.918</Modified>
+    </AppXPackagedFile>
+    <AppXPackagedFile Include="C:\WDC_SD\windowssamples\ExampleCode\Sharing\ShareMain\javascript\ShareMain\ShareMain\source.html">
+      <PackagePath>source.html</PackagePath>
+      <Modified>2011-10-31T15:51:57.184</Modified>
+    </AppXPackagedFile>
+    <AppXPackagedFile Include="C:\WDC_SD\windowssamples\ExampleCode\Sharing\ShareMain\javascript\ShareMain\ShareMain\target.html">
+      <PackagePath>target.html</PackagePath>
+      <Modified>2011-10-31T13:54:49.713</Modified>
+    </AppXPackagedFile>
+    <AppXPackagedFile Include="C:\WDC_SD\windowssamples\ExampleCode\Sharing\ShareMain\javascript\ShareMain\ShareMain\winjs\Css\ui-dark.css">
+      <PackagePath>winjs\Css\ui-dark.css</PackagePath>
+      <Modified>2011-08-25T00:29:52.000</Modified>
+    </AppXPackagedFile>
+    <AppXPackagedFile Include="C:\WDC_SD\windowssamples\ExampleCode\Sharing\ShareMain\javascript\ShareMain\ShareMain\winjs\Css\ui-light.css">
+      <PackagePath>winjs\Css\ui-light.css</PackagePath>
+      <Modified>2011-08-25T00:29:52.000</Modified>
+    </AppXPackagedFile>
+    <AppXPackagedFile Include="C:\WDC_SD\windowssamples\ExampleCode\Sharing\ShareMain\javascript\ShareMain\ShareMain\winjs\js\animations.js">
+      <PackagePath>winjs\js\animations.js</PackagePath>
+      <Modified>2011-08-25T00:29:52.000</Modified>
+    </AppXPackagedFile>
+    <AppXPackagedFile Include="C:\WDC_SD\windowssamples\ExampleCode\Sharing\ShareMain\javascript\ShareMain\ShareMain\winjs\js\base.js">
+      <PackagePath>winjs\js\base.js</PackagePath>
+      <Modified>2011-08-25T00:29:52.000</Modified>
+    </AppXPackagedFile>
+    <AppXPackagedFile Include="C:\WDC_SD\windowssamples\ExampleCode\Sharing\ShareMain\javascript\ShareMain\ShareMain\winjs\js\binding.js">
+      <PackagePath>winjs\js\binding.js</PackagePath>
+      <Modified>2011-08-25T00:29:52.000</Modified>
+    </AppXPackagedFile>
+    <AppXPackagedFile Include="C:\WDC_SD\windowssamples\ExampleCode\Sharing\ShareMain\javascript\ShareMain\ShareMain\winjs\js\controls.js">
+      <PackagePath>winjs\js\controls.js</PackagePath>
+      <Modified>2011-08-25T00:29:52.000</Modified>
+    </AppXPackagedFile>
+    <AppXPackagedFile Include="C:\WDC_SD\windowssamples\ExampleCode\Sharing\ShareMain\javascript\ShareMain\ShareMain\winjs\js\res.js">
+      <PackagePath>winjs\js\res.js</PackagePath>
+      <Modified>2011-08-25T00:29:52.000</Modified>
+    </AppXPackagedFile>
+    <AppXPackagedFile Include="C:\WDC_SD\windowssamples\ExampleCode\Sharing\ShareMain\javascript\ShareMain\ShareMain\winjs\js\ui.js">
+      <PackagePath>winjs\js\ui.js</PackagePath>
+      <Modified>2011-08-25T00:29:52.000</Modified>
+    </AppXPackagedFile>
+    <AppXPackagedFile Include="C:\WDC_SD\windowssamples\ExampleCode\Sharing\ShareMain\javascript\ShareMain\ShareMain\winjs\js\uicollections.js">
+      <PackagePath>winjs\js\uicollections.js</PackagePath>
+      <Modified>2011-08-25T00:29:52.000</Modified>
+    </AppXPackagedFile>
+    <AppXPackagedFile Include="C:\WDC_SD\windowssamples\ExampleCode\Sharing\ShareMain\javascript\ShareMain\ShareMain\winjs\js\wwaapp.js">
+      <PackagePath>winjs\js\wwaapp.js</PackagePath>
+      <Modified>2011-08-25T00:29:54.000</Modified>
+    </AppXPackagedFile>
+  </ItemGroup>
+</Project>

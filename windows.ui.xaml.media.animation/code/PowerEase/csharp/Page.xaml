@@ -1,0 +1,31 @@
+﻿<UserControl x:Class="PowerEase.Page"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    Width="400" Height="300">
+    <StackPanel>
+        <TextBlock Margin="10" TextWrapping="Wrap">Click the rectangle to start the animation. This sample applies a PowerEase easing function with a Power property value of 20 to a DoubleAnimation to create a decelerating animation. Because the Power value is so high, the deceleration is sudden compared to if you used a lower value.</TextBlock>
+        <!-- <SnippetPowerEase> -->
+    <StackPanel x:Name="LayoutRoot" >
+        <StackPanel.Resources>
+            <Storyboard x:Name="myStoryboard">
+                <DoubleAnimation From="1" To="6" Duration="00:00:3" 
+                 Storyboard.TargetName="rectScaleTransform" 
+                 Storyboard.TargetProperty="ScaleY">
+                    <DoubleAnimation.EasingFunction>
+                        <PowerEase Power="20" EasingMode="EaseOut"/>
+                    </DoubleAnimation.EasingFunction>
+                </DoubleAnimation>
+            </Storyboard>
+        </StackPanel.Resources>
+
+        <Rectangle PointerPressed="Pointer_Clicked" 
+         Fill="Blue" Width="200" Height="30">
+            <Rectangle.RenderTransform>
+                <ScaleTransform x:Name="rectScaleTransform" />
+            </Rectangle.RenderTransform>
+        </Rectangle>
+
+        </StackPanel>
+    <!-- </SnippetPowerEase> -->
+    </StackPanel>
+</UserControl>

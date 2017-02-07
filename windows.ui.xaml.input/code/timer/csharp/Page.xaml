@@ -1,0 +1,12 @@
+﻿<UserControl x:Class="timer.Page"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    Width="400" Height="300">
+    <!-- <snippetXaml> -->
+    <Grid x:Name="LayoutRoot" >
+      <!-- Just a TextBlock to show the output of the timer. -->
+      <TextBlock Loaded="StartTimer" x:Name="mytextBlock" />
+    </Grid>
+    <!-- </snippetXaml> -->
+</UserControl>
+   

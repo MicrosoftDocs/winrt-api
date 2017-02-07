@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="App1.MainPage"
+    IsTabStop="false"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <!-- <SnippetUI> -->
+        <Button x:Name="StartReceiverButton" Content="Start Play To Receiver" Margin="283,26,0,703" Click="StartReceiverButton_Click" />
+        <Button x:Name="StopReceiverButton" Content="Stop Play To Receiver" Margin="907,26,0,703" Click="StopReceiverButton_Click" />
+        <MediaElement x:Name="VideoPlayer" Height="600" Width="800" Source="" />
+        <TextBlock x:Name="StatusTextBlock" Height="60" Width="800" Foreground="Green" Margin="283,689,283,19" />
+        <!-- </SnippetUI> -->
+    </Grid>
+</Page>

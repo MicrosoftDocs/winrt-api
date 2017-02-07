@@ -1,0 +1,50 @@
+﻿
+<UserControl x:Class="interactive_animation.Page"
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+  Width="400" Height="300">
+    <StackPanel>
+        <TextBlock Margin="10" TextWrapping="Wrap">This sample uses the Begin, Pause, Resume, and Stop methods to control an animation.</TextBlock>
+        <!-- <SnippetInteractive_animation> -->
+        <StackPanel x:Name="LayoutRoot" >
+            <StackPanel.Resources>
+                <Storyboard x:Name="myStoryboard">
+                    <DoubleAnimation From="1" To="6" Duration="00:00:6" 
+                    Storyboard.TargetName="rectScaleTransform" 
+                    Storyboard.TargetProperty="ScaleY">
+                        <DoubleAnimation.EasingFunction>
+                            <BounceEase Bounces="2" EasingMode="EaseOut" 
+                                    Bounciness="2" />
+                        </DoubleAnimation.EasingFunction>
+                    </DoubleAnimation>
+                </Storyboard>
+            </StackPanel.Resources>
+
+            <!-- Button that begins animation. -->
+            <Button Click="Animation_Begin"
+                 Margin="2" Content="Begin" />
+
+            <!-- Button that pauses Animation. -->
+            <Button Click="Animation_Pause"
+                 Margin="2" Content="Pause" />
+
+            <!-- Button that resumes Animation. -->
+            <Button Click="Animation_Resume"
+                 Margin="2" Content="Resume" />
+
+            <!-- Button that stops Animation. Stopping the animation 
+                 returns the ellipse to its original location. -->
+            <Button Click="Animation_Stop"
+                 Margin="2" Content="Stop" />
+
+            <Rectangle Fill="Blue" Width="200" Height="30">
+                <Rectangle.RenderTransform>
+                    <ScaleTransform x:Name="rectScaleTransform" />
+                </Rectangle.RenderTransform>
+            </Rectangle>
+
+        </StackPanel>
+        <!-- </SnippetInteractive_animation> -->
+
+    </StackPanel>
+</UserControl>

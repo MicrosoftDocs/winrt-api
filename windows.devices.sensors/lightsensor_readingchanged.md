@@ -1,0 +1,46 @@
+---
+-api-id: E:Windows.Devices.Sensors.LightSensor.ReadingChanged
+-api-type: winrt event
+---
+
+<!-- Event syntax
+public event Windows.Foundation.TypedEventHandler ReadingChanged<Windows.Devices.Sensors.LightSensor,  Windows.Devices.Sensors.LightSensorReadingChangedEventArgs>
+-->
+
+# Windows.Devices.Sensors.LightSensor.ReadingChanged
+
+## -description
+Occurs each time the ambient-light sensor reports a new sensor reading.
+
+## -remarks
+An application may register this event handler to obtain sensor readings. The application must establish a desired [ReportInterval](lightsensor_reportinterval.md). This informs the sensor driver that resources should be allocated to satisfy the requirements of the application.
+
+Applications can set the frequency of this event by setting the **ReportInterval** property.
+
+The following example demonstrates how a Windows Store app built with C# and XAML registers its **ReadingChanged** event handler.
+
+
+
+[!code-cs[EnableReadingChangedCS](../windows.devices.sensors/code/lightsensor/csharp/Scenario1.xaml.cs#SnippetEnableReadingChangedCS)]
+
+The following example shows the [ReadingChanged](lightsensor_readingchanged.md) event handler.
+
+
+
+[!code-cs[ReadingChangedCS](../windows.devices.sensors/code/lightsensor/csharp/Scenario1.xaml.cs#SnippetReadingChangedCS)]
+
+The following example demonstrates how a Windows Store app bulit with JavaScript registers its **ReadingChanged** event handler.
+
+
+
+[!code-js[EnableReadingChangedJS](../windows.devices.sensors/code/lightsensor/javascript/scenario1.js#SnippetEnableReadingChangedJS)]
+
+The following example shows the [ReadingChanged](lightsensor_readingchanged.md) event handler.
+
+
+
+[!code-js[onDataChangedJS](../windows.devices.sensors/code/lightsensor/javascript/scenario1.js#SnippetonDataChangedJS)]
+
+## -examples
+
+## -see-also

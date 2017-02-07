@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="e606e892-fcde-4d0a-9d63-9dcd3d35aef5" Publisher="CN=karler" Version="1.0.0.0" />
+  <Properties>
+    <DisplayName>CurrentChangingExample</DisplayName>
+    <PublisherDisplayName>karler</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+    <Description>CurrentChangingExample</Description>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2</OSMinVersion>
+    <OSMaxVersionTested>6.2</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="CurrentChangingExample.App">
+      <VisualElements DisplayName="CurrentChangingExample" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="CurrentChangingExample" ForegroundText="light" BackgroundColor="#222222">
+        <DefaultTile ShowName="allLogos" />
+        <SplashScreen Image="Assets\SplashScreen.png" />
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="picturesLibrary" />
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>
