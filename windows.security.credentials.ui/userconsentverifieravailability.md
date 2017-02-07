@@ -38,7 +38,7 @@ The following example shows a method that checks to see if fingerprint authentic
 
 
 
-> [!div class="tabbedCodeSnippets"][!code-cs[1](../windows.security.credentials.ui/code/BiometricAuth/cs/MainPage.xaml.cs#Snippet1)][!code-js[1](../windows.security.credentials.ui/code/BiometricAuth/js/default.js#Snippet1)]
+[!code-cs[1](../windows.security.credentials.ui/code/BiometricAuth/cs/MainPage.xaml.cs#Snippet1)][!code-js[1](../windows.security.credentials.ui/code/BiometricAuth/js/default.js#Snippet1)]
 
 [!code-js[1_JS](../windows.security.credentials.ui/code/BiometricAuth/js/default.js#Snippet1_JS)]
 
@@ -46,3 +46,4 @@ The following example shows a method that checks to see if fingerprint authentic
 
 ## -see-also
 [Fingerprint biometrics](http://msdn.microsoft.com/library/55483729-5f8a-401a-8072-3cd611ddfed2), [UserConsentVerifier sample](http://go.microsoft.com/fwlink/p/?LinkID=303650), [CheckAvailabilityAsync](userconsentverifier_checkavailabilityasync.md), [UserConsentVerifier](userconsentverifier.md), [Windows.Security.Credentials.UI](windows_security_credentials_ui.md), [Authentication and user identity](http://msdn.microsoft.com/library/53e36ddc-200a-4850-aaf0-07eca3662bb9)
+6ddc-200a-4850-aaf0-07eca3662bb9)

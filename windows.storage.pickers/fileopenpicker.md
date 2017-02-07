@@ -27,7 +27,7 @@ The [File picker sample](http://go.microsoft.com/fwlink/p/?linkid=234890) demons
 
 
 
-> [!div class="tabbedCodeSnippets"][!code-cs[all_openpicker_checksnapped_showsingle](../windows.storage.pickers/code/FilePicker/CS/Scenario1.xaml.cs#Snippetall_openpicker_checksnapped_showsingle)][!code-js[all_openpicker_checksnapped_showsingle](../windows.storage.pickers/code/FilePicker/js/js/scenario1.js#Snippetall_openpicker_checksnapped_showsingle)]
+[!code-cs[all_openpicker_checksnapped_showsingle](../windows.storage.pickers/code/FilePicker/CS/Scenario1.xaml.cs#Snippetall_openpicker_checksnapped_showsingle)][!code-js[all_openpicker_checksnapped_showsingle](../windows.storage.pickers/code/FilePicker/js/js/scenario1.js#Snippetall_openpicker_checksnapped_showsingle)]
 
 
 
@@ -38,7 +38,8 @@ The [File picker sample](http://go.microsoft.com/fwlink/p/?linkid=234890) demons
 
 
 
-> [!div class="tabbedCodeSnippets"][!code-cs[all_openpicker_showmulti](../windows.storage.pickers/code/FilePicker/CS/Scenario2.xaml.cs#Snippetall_openpicker_showmulti)][!code-js[all_openpicker_showmulti](../windows.storage.pickers/code/FilePicker/js/js/scenario2.js#Snippetall_openpicker_showmulti)]
+[!code-cs[all_openpicker_showmulti](../windows.storage.pickers/code/FilePicker/CS/Scenario2.xaml.cs#Snippetall_openpicker_showmulti)][!code-js[all_openpicker_showmulti](../windows.storage.pickers/code/FilePicker/js/js/scenario2.js#Snippetall_openpicker_showmulti)]
 
 ## -see-also
 [File picker sample](http://go.microsoft.com/fwlink/p/?linkid=234890), [Quickstart: Accessing files with ](http://msdn.microsoft.com/library/df082239-381c-462f-9f97-d2b390a2052e), [How to continue your Windows Phone app after calling a file picker](http://msdn.microsoft.com/library/465bbb7a-9ed1-4b57-b60f-e5c6e7cd1470), [Blobs sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620573), [File picker sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=619994)
+ample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=619994)

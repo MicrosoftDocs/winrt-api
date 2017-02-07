@@ -6,7 +6,7 @@
 # Windows.Devices.Portable
 
 ## -description
-[Windows Portable Devices](XREF:TODO:nodepage.windows_portable_devices) (WPD) enables computers to communicate with attached media and storage devices. This namespace provides methods for identifying Windows Portable Device (WPD) services and storage.
+[Windows Portable Devices](http://msdn.microsoft.com/library/b3833a11-631d-4860-867f-a611c9362dae) (WPD) enables computers to communicate with attached media and storage devices. This namespace provides methods for identifying Windows Portable Device (WPD) services and storage.
 
 ## -remarks
 This table lists the GUIDs of standard MTP device services that can be passed to the *serviceId* parameter. For more information about these MTP devices services, see [MTP Device Services for Windows](http://go.microsoft.com/fwlink/p/?LinkID=264914).
@@ -48,4 +48,4 @@ This table lists GUIDs commonly used when accessing storage functionality on WPD
 ## -examples
 
 ## -see-also
-[Windows Portable Devices](XREF:TODO:nodepage.windows_portable_devices)
+[Windows Portable Devices](http://msdn.microsoft.com/library/b3833a11-631d-4860-867f-a611c9362dae)

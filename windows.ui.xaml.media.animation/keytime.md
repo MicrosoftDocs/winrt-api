@@ -53,6 +53,9 @@ This example uses XAML attribute syntax to set [KeyTime](doublekeyframe_keytime.
 
 
 
-> [!div class="tabbedCodeSnippets"][!code-xml[Doubleanimationusingkeyframes](../windows.ui.xaml.media.animation/code/doubleanimationusingkeyframes/csharp/Page.xaml#SnippetDoubleanimationusingkeyframes)][!code-vb[Doubleanimationusingkeyframes](../windows.ui.xaml.media.animation/code/doubleanimationusingkeyframes/vbnet/Page.xaml.vb#SnippetDoubleanimationusingkeyframes)][!code-xml[Doubleanimationusingkeyframes](../windows.ui.xaml.media.animation/code/doubleanimationusingkeyframes2/csharp/Page.xaml#SnippetDoubleanimationusingkeyframes)][!code-vb[Doubleanimationusingkeyframes](../windows.ui.xaml.media.animation/code/doubleanimationusingkeyframes2/vbnet/Page.xaml.vb#SnippetDoubleanimationusingkeyframes)]
+[!code-xml[Doubleanimationusingkeyframes](../windows.ui.xaml.media.animation/code/doubleanimationusingkeyframes/csharp/Page.xaml#SnippetDoubleanimationusingkeyframes)][!code-vb[Doubleanimationusingkeyframes](../windows.ui.xaml.media.animation/code/doubleanimationusingkeyframes/vbnet/Page.xaml.vb#SnippetDoubleanimationusingkeyframes)][!code-xml[Doubleanimationusingkeyframes](../windows.ui.xaml.media.animation/code/doubleanimationusingkeyframes2/csharp/Page.xaml#SnippetDoubleanimationusingkeyframes)][!code-vb[Doubleanimationusingkeyframes](../windows.ui.xaml.media.animation/code/doubleanimationusingkeyframes2/vbnet/Page.xaml.vb#SnippetDoubleanimationusingkeyframes)]
+
+## -see-also
+nusingkeyframes)]
 
 ## -see-also

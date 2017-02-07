@@ -34,7 +34,8 @@ This example calls the [PropertyMetadata(Object)](propertymetadata_propertymetad
 
 
 
-> [!div class="tabbedCodeSnippets"][!code-cs[DOMain](../windows.ui.xaml/code/DOandDP/csharp/Class1.cs#SnippetDOMain)][!code-vb[DOMain](../windows.ui.xaml/code/DOandDP/vbnet/Class1.vb#SnippetDOMain)]
+[!code-cs[DOMain](../windows.ui.xaml/code/DOandDP/csharp/Class1.cs#SnippetDOMain)][!code-vb[DOMain](../windows.ui.xaml/code/DOandDP/vbnet/Class1.vb#SnippetDOMain)]
 
 ## -see-also
 [DependencyProperty.Register](dependencyproperty_register.md), [PropertyChangedCallback](propertychangedcallback.md), [Custom dependency properties](http://msdn.microsoft.com/library/5adf7935-f2cf-4bb6-b1a5-f535c2ed8ef8)
+7935-f2cf-4bb6-b1a5-f535c2ed8ef8)

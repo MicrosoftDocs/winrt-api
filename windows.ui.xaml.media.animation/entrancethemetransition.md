@@ -69,7 +69,7 @@ The following example shows a how to apply an [EntranceThemeTransition](entrance
 [!code-xml[EntranceThemeTransitionGrid](../windows.ui.xaml.media.animation/code/EntranceThemeTransition/csharp/BlankPage.xaml#SnippetEntranceThemeTransitionGrid)]
 
 ## -see-also
-[Transition](transition.md), [Animating page transitions](XREF:TODO:m_personality_mca.page_transition_animations), [Guidelines and checklist for page transition animations](XREF:TODO:m_personality.guidelines_for_page_transitions)
+[Transition](transition.md), [Animating page transitions](http://msdn.microsoft.com/library/57659b10-39c2-4ff4-95ff-51a349d01911), [Guidelines and checklist for page transition animations](http://msdn.microsoft.com/library/a5784163-05a0-414f-872c-f14793d00a91)
 inkUri>
               </externalLink>
             </TRANSLATE_MANUALLY>
@@ -80,4 +80,4 @@ inkUri>
 [TODO:AUTO_SNIPPET (SAMPLE_ID:EntranceThemeTransition)(SNIPPET_ID:EntranceThemeTransitionGrid)]
 
 ## -see-also
-[Transition](transition.md), [Animating page transitions](XREF:TODO:m_personality_mca.page_transition_animations), [Guidelines and checklist for page transition animations](XREF:TODO:m_personality.guidelines_for_page_transitions)
+[Transition](transition.md), [Animating page transitions](http://msdn.microsoft.com/library/57659b10-39c2-4ff4-95ff-51a349d01911), [Guidelines and checklist for page transition animations](http://msdn.microsoft.com/library/a5784163-05a0-414f-872c-f14793d00a91)

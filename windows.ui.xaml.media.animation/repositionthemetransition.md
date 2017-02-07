@@ -58,5 +58,5 @@ The following example applies a [RepositionThemeTransition](repositionthemetrans
 [!code-cs[RepositionThemeTransition_code](../windows.ui.xaml.media.animation/code/RepositionThemeTransition/csharp/BlankPage.xaml.cs#SnippetRepositionThemeTransition_code)]
 
 ## -see-also
-[Transition](transition.md), [Animating repositions](http://msdn.microsoft.com/library/4d715c69-79e6-4179-a66c-a193629966d1), [Guidelines and checklist for reposition animations](XREF:TODO:m_personality.guidelines_for_reposition_animation)
- reposition animations](XREF:TODO:m_personality.guidelines_for_reposition_animation)
+[Transition](transition.md), [Animating repositions](http://msdn.microsoft.com/library/4d715c69-79e6-4179-a66c-a193629966d1), [Guidelines and checklist for reposition animations](http://msdn.microsoft.com/library/25d1ee31-5c25-4f21-b34c-fbd8fb1c8fff)
+ reposition animations](http://msdn.microsoft.com/library/25d1ee31-5c25-4f21-b34c-fbd8fb1c8fff)

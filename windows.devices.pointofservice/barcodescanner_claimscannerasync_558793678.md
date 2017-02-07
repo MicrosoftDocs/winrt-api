@@ -20,9 +20,10 @@ When the method completes, it returns a [ClaimedBarcodeScanner](claimedbarcodesc
 ## -examples
 
 
-> [!div class="tabbedCodeSnippets"][!code-cpp[ClaimBarcodeScanner](../windows.devices.pointofservice/code/BarcodeScanner/cpp/Scenario1.xaml.cpp#SnippetClaimBarcodeScanner)][!code-cs[ClaimBarcodeScanner](../windows.devices.pointofservice/code/BarcodeScanner/cs/Scenario1.xaml.cs#SnippetClaimBarcodeScanner)]
+[!code-cpp[ClaimBarcodeScanner](../windows.devices.pointofservice/code/BarcodeScanner/cpp/Scenario1.xaml.cpp#SnippetClaimBarcodeScanner)][!code-cs[ClaimBarcodeScanner](../windows.devices.pointofservice/code/BarcodeScanner/cs/Scenario1.xaml.cs#SnippetClaimBarcodeScanner)]
 
 [!code-js[CreateBarcodeScannerJS](../windows.devices.pointofservice/code/BarcodeScanner/js/scenario1.js#SnippetCreateBarcodeScannerJS)]
 
 ## -see-also
 [Barcode scanner sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620014)
+soft.com/fwlink/p/?LinkId=620014)

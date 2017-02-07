@@ -22,6 +22,9 @@ This example demonstrates the use of the **StorageItems** property. To use the c
 
 
 
-> [!div class="tabbedCodeSnippets"][!code-cs[HowToShareFiles](../windows.applicationmodel.datatransfer/code/ShareMainBeta/cs/ShareFiles.xaml.cs#SnippetHowToShareFiles)][!code-js[HowToShareFiles](../windows.applicationmodel.datatransfer/code/ShareMainBeta/javascript/js/ShareFiles.js#SnippetHowToShareFiles)]
+[!code-cs[HowToShareFiles](../windows.applicationmodel.datatransfer/code/ShareMainBeta/cs/ShareFiles.xaml.cs#SnippetHowToShareFiles)][!code-js[HowToShareFiles](../windows.applicationmodel.datatransfer/code/ShareMainBeta/javascript/js/ShareFiles.js#SnippetHowToShareFiles)]
+
+## -see-also
+HowToShareFiles)]
 
 ## -see-also

@@ -23,12 +23,13 @@ To enable Play To in your application, register for the [SourceRequested](playto
 
 When a user selects a Play To target from the **Devices** charm, Play To <?xm-deletion_mark author="v-shawja" time="20120127T150717-0800" data="will "?><?xm-insertion_mark_start author="v-shawja" time="20120127T150726-0800"?> fires<?xm-insertion_mark_end?><?xm-deletion_mark author="v-shawja" time="20120127T150727-0800" data="raise"?> the [SourceRequested](playtomanager_sourcerequested.md) event. Play To then streams the media element <?xm-insertion_mark_start author="v-shawja" time="20120127T150749-0800"?> that was <?xm-insertion_mark_end?> passed to the [SetSource](playtosourcerequest_setsource.md) method to the target device <?xm-insertion_mark_start author="v-shawja" time="20120127T150813-0800"?> that the user has <?xm-insertion_mark_end?> selected<?xm-deletion_mark author="v-shawja" time="20120127T150818-0800" data=" by the user"?>.
 
-For an example of <?xm-insertion_mark_start author="v-shawja" time="20120127T150934-0800"?> how to use<?xm-insertion_mark_end?><?xm-deletion_mark author="v-shawja" time="20120127T150936-0800" data="using"?> Play To in an application, see [Quickstart: Using Play To in applications (JavaScript)](XREF:TODO:m_playto.using_playto_in_applications) or [PlayReady DRM](http://msdn.microsoft.com/library/dd8ffa8c-dff0-41e3-8f7a-345c5a248fc2).
+For an example of <?xm-insertion_mark_start author="v-shawja" time="20120127T150934-0800"?> how to use<?xm-insertion_mark_end?><?xm-deletion_mark author="v-shawja" time="20120127T150936-0800" data="using"?> Play To in an application, see [Quickstart: Using Play To in applications (JavaScript)](http://msdn.microsoft.com/library/90ee116a-ee6d-4e1d-8b91-8f7f4f958b9c) or [PlayReady DRM](http://msdn.microsoft.com/library/dd8ffa8c-dff0-41e3-8f7a-345c5a248fc2).
 
 ## -examples
 
 
-> [!div class="tabbedCodeSnippets"][!code-cs[SourceRequested](../windows.media.playto/code/PlayTo_Reference/csharp/MainPage.xaml.cs#SnippetSourceRequested)][!code-js[SourceRequested](../windows.media.playto/code/PlayTo_Reference/javascript/default.js#SnippetSourceRequested)][!code-vb[SourceRequested](../windows.media.playto/code/PlayTo_Reference/vbnet/MainPage.xaml.vb#SnippetSourceRequested)]
+[!code-cs[SourceRequested](../windows.media.playto/code/PlayTo_Reference/csharp/MainPage.xaml.cs#SnippetSourceRequested)][!code-js[SourceRequested](../windows.media.playto/code/PlayTo_Reference/javascript/default.js#SnippetSourceRequested)][!code-vb[SourceRequested](../windows.media.playto/code/PlayTo_Reference/vbnet/MainPage.xaml.vb#SnippetSourceRequested)]
 
 ## -see-also
 [Play To sample](http://go.microsoft.com/fwlink/p/?linkid=245166), [PlayToReceiver sample](http://go.microsoft.com/fwlink/p/?linkid=245167), [Media Server sample](http://go.microsoft.com/fwlink/p/?linkid=245168)
+soft.com/fwlink/p/?linkid=245168)

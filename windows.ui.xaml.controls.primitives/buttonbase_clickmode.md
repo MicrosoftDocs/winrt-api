@@ -39,9 +39,13 @@ The following example shows three buttons that respond to clicks in three differ
 
 
 
-> [!div class="tabbedCodeSnippets"][!code-xml[1](../windows.ui.xaml.data/code/System.Windows.Controls.ButtonClickModeSL/csharp/Page.xaml#Snippet1)][!code-vb[1](../windows.ui.xaml.data/code/System.Windows.Controls.ButtonClickModeSL/vbnet/Page.xaml.vb#Snippet1)]
+[!code-xml[1](../windows.ui.xaml.data/code/System.Windows.Controls.ButtonClickModeSL/csharp/Page.xaml#Snippet1)][!code-vb[1](../windows.ui.xaml.data/code/System.Windows.Controls.ButtonClickModeSL/vbnet/Page.xaml.vb#Snippet1)]
 
-> [!div class="tabbedCodeSnippets"][!code-cs[11](../windows.ui.xaml.data/code/System.Windows.Controls.ButtonClickModeSL/csharp/Page.xaml.cs#Snippet11)][!code-vb[11](../windows.ui.xaml.data/code/System.Windows.Controls.ButtonClickModeSL/vbnet/Page.xaml.vb#Snippet11)]
+[!code-cs[11](../windows.ui.xaml.data/code/System.Windows.Controls.ButtonClickModeSL/csharp/Page.xaml.cs#Snippet11)][!code-vb[11](../windows.ui.xaml.data/code/System.Windows.Controls.ButtonClickModeSL/vbnet/Page.xaml.vb#Snippet11)]
+
+## -see-also
+[Button](../windows.ui.xaml.controls/button.md)
+1)]
 
 ## -see-also
 [Button](../windows.ui.xaml.controls/button.md)

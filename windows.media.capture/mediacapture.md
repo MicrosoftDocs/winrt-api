@@ -56,7 +56,7 @@ The following code sample shows how to create and initialize a **MediaCapture** 
 
 
 
-> [!div class="tabbedCodeSnippets"][!code-cs[MediaCaptureVideo_InitMCobject](../windows.media.capture/code/MediaCaptureVideo/csharp/MainPage.xaml.cs#SnippetMediaCaptureVideo_InitMCobject)][!code-js[MediaCaptureVideo_InitMCobject](../windows.media.capture/code/MediaCaptureVideo/javascript/default.js#SnippetMediaCaptureVideo_InitMCobject)]
+[!code-cs[MediaCaptureVideo_InitMCobject](../windows.media.capture/code/MediaCaptureVideo/csharp/MainPage.xaml.cs#SnippetMediaCaptureVideo_InitMCobject)][!code-js[MediaCaptureVideo_InitMCobject](../windows.media.capture/code/MediaCaptureVideo/javascript/default.js#SnippetMediaCaptureVideo_InitMCobject)]
 
 
 
@@ -72,4 +72,6 @@ webcam, microphone
 kid=245973), [Media extension sample](http://go.microsoft.com/fwlink/p/?linkid=241427), [Hands-on labs for ](http://go.microsoft.com/fwlink/p/?LinkId=263947), [Supported audio and video formats](http://msdn.microsoft.com/library/6037c242-f39c-49bf-b206-c3b6a3e30165), [Real-time communication sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620600)
 
 ## -capabilities
+webcam, microphone
+-capabilities
 webcam, microphone

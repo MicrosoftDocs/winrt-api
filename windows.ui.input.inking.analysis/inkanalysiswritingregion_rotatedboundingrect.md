@@ -1,0 +1,36 @@
+---
+-api-id: P:Windows.UI.Input.Inking.Analysis.InkAnalysisWritingRegion.RotatedBoundingRect
+-api-type: winrt property
+---
+
+<!-- Property syntax.
+public IVectorView<Point> RotatedBoundingRect { get; }
+-->
+
+# Windows.UI.Input.Inking.Analysis.InkAnalysisWritingRegion.RotatedBoundingRect
+
+## -description
+## -description
+Gets the oriented and snapped, bounding rectangle of the InkAnalysisWritingRegion object. 
+
+| Bounding rectangle | Rotated bounding rectangle |
+| --- | --- |
+| ![Bounding rectangle](images/boundingrect.png) | ![Rotated bounding rectangle](images/rotatedboundingrect.png) |
+
+## -property-value
+The X, Y coordinates for each vertex point of the bounding box for the InkAnalysisWritingRegion object, in device-independent pixels (DIPs) relative to the upper left-hand corner of the inking area. 
+
+## -remarks
+
+## -see-also
+[InkAnalysisWritingRegion.BoundingRect](inkanalysiswritingregion_boundingrect.md)
+
+## -examples
+
+
+## -remarks
+
+## -see-also
+
+## -examples
+

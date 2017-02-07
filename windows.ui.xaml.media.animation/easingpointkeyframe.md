@@ -26,9 +26,10 @@ This XAML example shows how to use key frames that have easing functions associa
 
 
 
-> [!div class="tabbedCodeSnippets"][!code-xml[EasingFunctionPointKeyFrame](../windows.ui.xaml.media.animation/code/EasingFunctionKeyFrames/csharp/Page.xaml#SnippetEasingFunctionPointKeyFrame)][!code-vb[EasingFunctionPointKeyFrame](../windows.ui.xaml.media.animation/code/EasingFunctionKeyFrames/vbnet/MainPage.xaml.vb#SnippetEasingFunctionPointKeyFrame)]
+[!code-xml[EasingFunctionPointKeyFrame](../windows.ui.xaml.media.animation/code/EasingFunctionKeyFrames/csharp/Page.xaml#SnippetEasingFunctionPointKeyFrame)][!code-vb[EasingFunctionPointKeyFrame](../windows.ui.xaml.media.animation/code/EasingFunctionKeyFrames/vbnet/MainPage.xaml.vb#SnippetEasingFunctionPointKeyFrame)]
 
-> [!div class="tabbedCodeSnippets"][!code-cs[EasingFunctionPointKeyFrame_code](../windows.ui.xaml.media.animation/code/EasingFunctionKeyFrames/csharp/Page.xaml.cs#SnippetEasingFunctionPointKeyFrame_code)][!code-vb[EasingFunctionPointKeyFrame_code](../windows.ui.xaml.media.animation/code/EasingFunctionKeyFrames/vbnet/MainPage.xaml.vb#SnippetEasingFunctionPointKeyFrame_code)]
+[!code-cs[EasingFunctionPointKeyFrame_code](../windows.ui.xaml.media.animation/code/EasingFunctionKeyFrames/csharp/Page.xaml.cs#SnippetEasingFunctionPointKeyFrame_code)][!code-vb[EasingFunctionPointKeyFrame_code](../windows.ui.xaml.media.animation/code/EasingFunctionKeyFrames/vbnet/MainPage.xaml.vb#SnippetEasingFunctionPointKeyFrame_code)]
 
 ## -see-also
 [Storyboarded animations](http://msdn.microsoft.com/library/0cbceea0-2b0e-44a1-a09a-f7a939632f3a), [Key-frame animations and easing function animations](http://msdn.microsoft.com/library/d8af24cd-f4c2-4562-afd7-25010955d677), [XAML animation sample](http://go.microsoft.com/fwlink/p/?linkid=238571), [PointKeyFrame](pointkeyframe.md), [EasingPointKeyFrame](easingpointkeyframe.md), [EasingDoubleKeyFrame](easingdoublekeyframe.md), [KeyTime](pointkeyframe_keytime.md), [Value](pointkeyframe_value.md)
+[KeyTime](pointkeyframe_keytime.md), [Value](pointkeyframe_value.md)

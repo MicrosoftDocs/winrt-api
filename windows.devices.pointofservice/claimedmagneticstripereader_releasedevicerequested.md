@@ -19,11 +19,12 @@ The following example shows how to setup the event handler.
 
 
 
-> [!div class="tabbedCodeSnippets"][!code-cpp[SetupMagStripeReader](../windows.devices.pointofservice/code/MagneticStripeReader/cpp/Scenario1.xaml.cpp#SnippetSetupMagStripeReader)][!code-cs[SetupMagStripeReader](../windows.devices.pointofservice/code/MagneticStripeReader/cs/Scenario1.xaml.cs#SnippetSetupMagStripeReader)]
+[!code-cpp[SetupMagStripeReader](../windows.devices.pointofservice/code/MagneticStripeReader/cpp/Scenario1.xaml.cpp#SnippetSetupMagStripeReader)][!code-cs[SetupMagStripeReader](../windows.devices.pointofservice/code/MagneticStripeReader/cs/Scenario1.xaml.cs#SnippetSetupMagStripeReader)]
 
 
 
-> [!div class="tabbedCodeSnippets"][!code-cpp[MagStripeReaderReleaseDeviceRequested](../windows.devices.pointofservice/code/MagneticStripeReader/cpp/Scenario1.xaml.cpp#SnippetMagStripeReaderReleaseDeviceRequested)][!code-cs[MagStripeReaderReleaseDeviceRequested](../windows.devices.pointofservice/code/MagneticStripeReader/cs/Scenario1.xaml.cs#SnippetMagStripeReaderReleaseDeviceRequested)]
+[!code-cpp[MagStripeReaderReleaseDeviceRequested](../windows.devices.pointofservice/code/MagneticStripeReader/cpp/Scenario1.xaml.cpp#SnippetMagStripeReaderReleaseDeviceRequested)][!code-cs[MagStripeReaderReleaseDeviceRequested](../windows.devices.pointofservice/code/MagneticStripeReader/cs/Scenario1.xaml.cs#SnippetMagStripeReaderReleaseDeviceRequested)]
 
 ## -see-also
 [Magnetic stripe reader sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620017)
+ample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620017)

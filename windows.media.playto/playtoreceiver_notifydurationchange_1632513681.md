@@ -21,7 +21,7 @@ For an example of creating a software Play To receiver, see [Media casting](http
 
 
 
-> [!div class="tabbedCodeSnippets"][!code-cs[NotifyDurationChange](../windows.media.playto/code/PlayTo_Receiver1/csharp/MainPage.xaml.cs#SnippetNotifyDurationChange)][!code-js[NotifyDurationChange](../windows.media.playto/code/PlayTo_Receiver1/javascript/default.js#SnippetNotifyDurationChange)][!code-vb[NotifyDurationChange](../windows.media.playto/code/PlayTo_Receiver1/vbnet/MainPage.xaml.vb#SnippetNotifyDurationChange)]
+[!code-cs[NotifyDurationChange](../windows.media.playto/code/PlayTo_Receiver1/csharp/MainPage.xaml.cs#SnippetNotifyDurationChange)][!code-js[NotifyDurationChange](../windows.media.playto/code/PlayTo_Receiver1/javascript/default.js#SnippetNotifyDurationChange)][!code-vb[NotifyDurationChange](../windows.media.playto/code/PlayTo_Receiver1/vbnet/MainPage.xaml.vb#SnippetNotifyDurationChange)]
 
 ## -examples
 
@@ -29,4 +29,6 @@ For an example of creating a software Play To receiver, see [Media casting](http
 [Play To sample](http://go.microsoft.com/fwlink/p/?linkid=245166), [PlayToReceiver sample](http://go.microsoft.com/fwlink/p/?linkid=245167), [Media Server sample](http://go.microsoft.com/fwlink/p/?linkid=245168)
 
 ## -capabilities
+privateNetworkClientServer
+ities
 privateNetworkClientServer

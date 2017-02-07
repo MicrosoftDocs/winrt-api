@@ -34,7 +34,7 @@ Mouse input is associated with a single pointer assigned when mouse input is fir
 
 
 
-> [!div class="tabbedCodeSnippets"][!code-cs[PointerMoved](../windows.ui.input.inking/code/PointerInput/csharp/MainPage.xaml.cs#SnippetPointerMoved)][!code-cs[PointerMoved](../windows.ui.input.inking/code/PointerInput_UWP/csharp/MainPage.xaml.cs#SnippetPointerMoved)]
+[!code-cs[PointerMoved](../windows.ui.input.inking/code/PointerInput/csharp/MainPage.xaml.cs#SnippetPointerMoved)][!code-cs[PointerMoved](../windows.ui.input.inking/code/PointerInput_UWP/csharp/MainPage.xaml.cs#SnippetPointerMoved)]
 
 [PointerReleased](uielement_pointerreleased.md) is a routed event. For more info on the routed event concept, see [Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
 
@@ -51,3 +51,4 @@ Controls may also have a [PointerUpThemeAnimation](../windows.ui.xaml.media.anim
 
 ## -see-also
 [Tapped](uielement_tapped.md), [PointerPressed](uielement_pointerpressed.md), [Quickstart: touch input](http://msdn.microsoft.com/library/f10bafee-8792-4a57-ae84-aa11ab95355a), [XAML user input events sample](http://go.microsoft.com/fwlink/p/?linkid=231524)
+soft.com/fwlink/p/?linkid=231524)

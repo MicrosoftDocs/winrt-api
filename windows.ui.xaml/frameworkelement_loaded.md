@@ -61,9 +61,10 @@ The [Loaded](frameworkelement_loaded.md) event is a good time to start decorativ
 
 
 
-> [!div class="tabbedCodeSnippets"][!code-cpp[Pointanimation](../windows.ui.xaml/code/pointanimation/cpp/Page.xaml.cpp#SnippetPointanimation)][!code-xml[Pointanimation](../windows.ui.xaml/code/pointanimation/csharp/Page.xaml#SnippetPointanimation)][!code-vb[Pointanimation](../windows.ui.xaml/code/pointanimation/vbnet/Page.xaml.vb#SnippetPointanimation)][!code-xml[Pointanimation](../windows.ui.xaml/code/pointanimationusingkeyframes/csharp/Page.xaml#SnippetPointanimation)][!code-vb[Pointanimation](../windows.ui.xaml/code/pointanimationusingkeyframes/vbnet/Page.xaml.vb#SnippetPointanimation)]
+[!code-cpp[Pointanimation](../windows.ui.xaml/code/pointanimation/cpp/Page.xaml.cpp#SnippetPointanimation)][!code-xml[Pointanimation](../windows.ui.xaml/code/pointanimation/csharp/Page.xaml#SnippetPointanimation)][!code-vb[Pointanimation](../windows.ui.xaml/code/pointanimation/vbnet/Page.xaml.vb#SnippetPointanimation)][!code-xml[Pointanimation](../windows.ui.xaml/code/pointanimationusingkeyframes/csharp/Page.xaml#SnippetPointanimation)][!code-vb[Pointanimation](../windows.ui.xaml/code/pointanimationusingkeyframes/vbnet/Page.xaml.vb#SnippetPointanimation)]
 
-> [!div class="tabbedCodeSnippets"][!code-cpp[Pointanimation_cs](../windows.ui.xaml/code/pointanimation/cpp/Page.xaml.cpp#SnippetPointanimation_cs)][!code-cs[Pointanimation_cs](../windows.ui.xaml/code/pointanimation/csharp/Page.xaml.cs#SnippetPointanimation_cs)][!code-vb[Pointanimation_cs](../windows.ui.xaml/code/pointanimation/vbnet/Page.xaml.vb#SnippetPointanimation_cs)]
+[!code-cpp[Pointanimation_cs](../windows.ui.xaml/code/pointanimation/cpp/Page.xaml.cpp#SnippetPointanimation_cs)][!code-cs[Pointanimation_cs](../windows.ui.xaml/code/pointanimation/csharp/Page.xaml.cs#SnippetPointanimation_cs)][!code-vb[Pointanimation_cs](../windows.ui.xaml/code/pointanimation/vbnet/Page.xaml.vb#SnippetPointanimation_cs)]
 
 ## -see-also
 [OnApplyTemplate](frameworkelement_onapplytemplate.md), [VisualTreeHelper](../windows.ui.xaml.media/visualtreehelper.md), [Control.Template](../windows.ui.xaml.controls/control_template.md), [Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832), [Quickstart: control templates](http://msdn.microsoft.com/library/67c424ae-afb1-4560-a6a8-4a3506775d77)
+p://msdn.microsoft.com/library/67c424ae-afb1-4560-a6a8-4a3506775d77)

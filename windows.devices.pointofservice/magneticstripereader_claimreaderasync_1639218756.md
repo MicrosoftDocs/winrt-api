@@ -20,9 +20,10 @@ When the method completes, it returns a [ClaimedMagneticStripeReader](claimedmag
 ## -examples
 
 
-> [!div class="tabbedCodeSnippets"][!code-cpp[ClaimMagStripeReader](../windows.devices.pointofservice/code/MagneticStripeReader/cpp/Scenario1.xaml.cpp#SnippetClaimMagStripeReader)][!code-cs[ClaimMagStripeReader](../windows.devices.pointofservice/code/MagneticStripeReader/cs/Scenario1.xaml.cs#SnippetClaimMagStripeReader)]
+[!code-cpp[ClaimMagStripeReader](../windows.devices.pointofservice/code/MagneticStripeReader/cpp/Scenario1.xaml.cpp#SnippetClaimMagStripeReader)][!code-cs[ClaimMagStripeReader](../windows.devices.pointofservice/code/MagneticStripeReader/cs/Scenario1.xaml.cs#SnippetClaimMagStripeReader)]
 
 [!code-js[CreateMagStripeReaderJS](../windows.devices.pointofservice/code/MagneticStripeReader/js/scenario1.js#SnippetCreateMagStripeReaderJS)]
 
 ## -see-also
 [Magnetic stripe reader sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620017)
+soft.com/fwlink/p/?LinkId=620017)

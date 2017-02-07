@@ -23,9 +23,10 @@ The first available barcode scanner. Returns a null object in the following case
 ## -examples
 
 
-> [!div class="tabbedCodeSnippets"][!code-cpp[CreateBarcodeScanner](../windows.devices.pointofservice/code/BarcodeScanner/cpp/Scenario1.xaml.cpp#SnippetCreateBarcodeScanner)][!code-cs[CreateBarcodeScanner](../windows.devices.pointofservice/code/BarcodeScanner/cs/Scenario1.xaml.cs#SnippetCreateBarcodeScanner)][!code-js[CreateBarcodeScanner](../windows.devices.pointofservice/code/BarcodeScanner/js/scenario1.js#SnippetCreateBarcodeScanner)]
+[!code-cpp[CreateBarcodeScanner](../windows.devices.pointofservice/code/BarcodeScanner/cpp/Scenario1.xaml.cpp#SnippetCreateBarcodeScanner)][!code-cs[CreateBarcodeScanner](../windows.devices.pointofservice/code/BarcodeScanner/cs/Scenario1.xaml.cs#SnippetCreateBarcodeScanner)][!code-js[CreateBarcodeScanner](../windows.devices.pointofservice/code/BarcodeScanner/js/scenario1.js#SnippetCreateBarcodeScanner)]
 
 [!code-js[CreateBarcodeScannerJS](../windows.devices.pointofservice/code/BarcodeScanner/js/scenario1.js#SnippetCreateBarcodeScannerJS)]
 
 ## -see-also
 [Barcode scanner sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620014)
+soft.com/fwlink/p/?LinkId=620014)

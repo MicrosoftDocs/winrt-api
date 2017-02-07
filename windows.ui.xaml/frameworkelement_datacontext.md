@@ -48,7 +48,8 @@ This example sets the [DataContext](frameworkelement_datacontext.md) directly to
 
 
 
-> [!div class="tabbedCodeSnippets"][!code-cs[DataContext](../windows.ui.xaml.controls.primitives/code/Binding_Simple/csharp/Page.xaml.cs#SnippetDataContext)][!code-vb[DataContext](../windows.ui.xaml.controls.primitives/code/Binding_Simple/vbnet/BlankPage.xaml.vb#SnippetDataContext)]
+[!code-cs[DataContext](../windows.ui.xaml.controls.primitives/code/Binding_Simple/csharp/Page.xaml.cs#SnippetDataContext)][!code-vb[DataContext](../windows.ui.xaml.controls.primitives/code/Binding_Simple/vbnet/BlankPage.xaml.vb#SnippetDataContext)]
 
 ## -see-also
 [Binding](../windows.ui.xaml.data/binding.md), [Data binding in depth](http://msdn.microsoft.com/library/41e1b4f1-6caf-4128-a61a-4e400b149011), [ObservableCollection&lt;T&gt;](XREF:TODO:T:System.Collections.ObjectModel.ObservableCollection`1)
+jectModel.ObservableCollection`1)

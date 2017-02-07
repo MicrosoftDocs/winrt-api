@@ -32,15 +32,15 @@ The key is an RSA public key defined in the PKCS #1 standard. For more informati
 Microsoft public key format defined by Cryptography API: Next Generation (CNG). For examples, see the following CNG structures:
 
 
-+ [BCRYPT_DH_KEY_BLOB](XREF:TODO:security.bcrypt_dh_key_blob)
-+ [BCRYPT_DSA_KEY_BLOB](XREF:TODO:security.bcrypt_dsa_key_blob)
-+ [BCRYPT_ECCKEY_BLOB](XREF:TODO:security.bcrypt_ecckey_blob)
-+ [BCRYPT_KEY_BLOB](XREF:TODO:security.bcrypt_key_blob)
-+ [BCRYPT_RSAKEY_BLOB](XREF:TODO:security.bcrypt_rsakey_blob)
++ [BCRYPT_DH_KEY_BLOB](http://msdn.microsoft.com/library/6004b2e5-7e06-4108-a0da-472b9b6d5fea)
++ [BCRYPT_DSA_KEY_BLOB](http://msdn.microsoft.com/library/3db36170-106e-49c8-9866-e25759bdd7f9)
++ [BCRYPT_ECCKEY_BLOB](http://msdn.microsoft.com/library/e60f6630-e4b0-4f35-a3cf-95dbcb007124)
++ [BCRYPT_KEY_BLOB](http://msdn.microsoft.com/library/ae7e8db3-858d-4573-afe1-c9bc14d76480)
++ [BCRYPT_RSAKEY_BLOB](http://msdn.microsoft.com/library/bbf3f4b9-5c69-4212-bb23-34bb2c84185c)
 
 
 ### -field Capi1PublicKey:3
-Microsoft public key format defined by the legacy Cryptography API (CAPI). For more information, see [Base Provider Key BLOBs](XREF:TODO:security.base_provider_key_blobs).
+Microsoft public key format defined by the legacy Cryptography API (CAPI). For more information, see [Base Provider Key BLOBs](http://msdn.microsoft.com/library/b4592036-0fa3-4b7e-beed-78cf1d2f39a9).
 
 ### -field BCryptEccFullPublicKey:4
 

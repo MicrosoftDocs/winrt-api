@@ -25,6 +25,9 @@ The following sample shows how to get a [DataRequestDeferral](datarequestdeferra
 
 
 
-> [!div class="tabbedCodeSnippets"][!code-cs[HowToShareImage](../windows.applicationmodel.datatransfer/code/ShareMainBeta/cs/ShareImage.xaml.cs#SnippetHowToShareImage)][!code-js[HowToShareImage](../windows.applicationmodel.datatransfer/code/ShareMainBeta/javascript/js/ShareImage.js#SnippetHowToShareImage)]
+[!code-cs[HowToShareImage](../windows.applicationmodel.datatransfer/code/ShareMainBeta/cs/ShareImage.xaml.cs#SnippetHowToShareImage)][!code-js[HowToShareImage](../windows.applicationmodel.datatransfer/code/ShareMainBeta/javascript/js/ShareImage.js#SnippetHowToShareImage)]
+
+## -see-also
+HowToShareImage)]
 
 ## -see-also

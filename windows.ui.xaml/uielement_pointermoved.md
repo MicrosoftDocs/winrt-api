@@ -39,9 +39,10 @@ Mouse input is associated with a single pointer assigned when mouse input is fir
 
 
 
-> [!div class="tabbedCodeSnippets"][!code-cs[PointerMoved](../windows.ui.input.inking/code/PointerInput/csharp/MainPage.xaml.cs#SnippetPointerMoved)][!code-cs[PointerMoved](../windows.ui.input.inking/code/PointerInput_UWP/csharp/MainPage.xaml.cs#SnippetPointerMoved)]
+[!code-cs[PointerMoved](../windows.ui.input.inking/code/PointerInput/csharp/MainPage.xaml.cs#SnippetPointerMoved)][!code-cs[PointerMoved](../windows.ui.input.inking/code/PointerInput_UWP/csharp/MainPage.xaml.cs#SnippetPointerMoved)]
 
 ## -examples
 
 ## -see-also
 [PointerEntered](uielement_pointerentered.md), [OnPointerMoved](../windows.ui.xaml.controls/control_onpointermoved.md), [Quickstart: Touch input](http://msdn.microsoft.com/library/f10bafee-8792-4a57-ae84-aa11ab95355a), [Handle pointer input](http://msdn.microsoft.com/library/bdbc9e33-4037-4671-9596-471dcf855c82), [XAML user input events sample](http://go.microsoft.com/fwlink/p/?linkid=231524)
+soft.com/fwlink/p/?linkid=231524)

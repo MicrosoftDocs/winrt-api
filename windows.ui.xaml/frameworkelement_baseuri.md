@@ -29,6 +29,9 @@ This example uses [BaseUri](frameworkelement_baseuri.md) in an event handler tha
 
 
 
-> [!div class="tabbedCodeSnippets"][!code-cpp[FEBaseUri](../windows.ui.xaml/code/BaseElementEvents/cpp/PageWithAppBar.xaml.cpp#SnippetFEBaseUri)][!code-cs[FEBaseUri](../windows.ui.xaml/code/BaseElementEvents/csharp/PageWithAppBar.xaml.cs#SnippetFEBaseUri)][!code-vb[FEBaseUri](../windows.ui.xaml/code/BaseElementEvents/vbnet/PageWithAppBar.xaml.vb#SnippetFEBaseUri)]
+[!code-cpp[FEBaseUri](../windows.ui.xaml/code/BaseElementEvents/cpp/PageWithAppBar.xaml.cpp#SnippetFEBaseUri)][!code-cs[FEBaseUri](../windows.ui.xaml/code/BaseElementEvents/csharp/PageWithAppBar.xaml.cs#SnippetFEBaseUri)][!code-vb[FEBaseUri](../windows.ui.xaml/code/BaseElementEvents/vbnet/PageWithAppBar.xaml.vb#SnippetFEBaseUri)]
+
+## -see-also
+nippetFEBaseUri)]
 
 ## -see-also

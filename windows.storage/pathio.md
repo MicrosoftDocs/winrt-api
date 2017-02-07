@@ -15,7 +15,7 @@ Provides helper methods for reading and writing a file using the absolute path o
 ## -remarks
 To read or write to a file using a path or Uniform Resource Identifier (URI), you must have permission to access the file's location. To learn more about what locations your app has permission to access, see [File access permissions](http://msdn.microsoft.com/library/3a404cc0-a997-45c8-b2e8-44745539759d).
 
-You can specify an app Uniform Resource Identifier (URI) to read or write files in app-specific locations like your app data folder ("ms-appdata://"). To learn more about app Uniform Resource Identifier (URI), see [How to reference content](XREF:TODO:m_navigating.reference_content).
+You can specify an app Uniform Resource Identifier (URI) to read or write files in app-specific locations like your app data folder ("ms-appdata://"). To learn more about app Uniform Resource Identifier (URI), see [How to reference content](http://msdn.microsoft.com/library/b1ad2d76-d18f-4e9e-b810-06af0cfd4628).
 
 ## -examples
 You can use [writeTextAsync(filePathOrURI, contents)](pathio_writetextasync_1597275652.md) to write text to a file. In the example, `filePathOrURI` is a local variable that contains a URI (like an app URI "ms-appdata://sampleFile.dat") or a file system path (like C:\examplepath\sampleFile.dat) for the file to read. Although the [writeTextAsync](pathio_writetextasync.md) methods don't have a return value, you can still perform additional tasks after the text is written to the file, as the example shows.

@@ -32,7 +32,7 @@ The following examples demonstrate creating a [UserControl](usercontrol.md) and 
 
 [!code-xml[1](../windows.ui.xaml.controls.primitives/code/UserControlSnippets/csharp/NameReporter.xaml#Snippet1)]
 
-> [!div class="tabbedCodeSnippets"][!code-cs[2](../windows.ui.xaml.controls.primitives/code/UserControlSnippets/csharp/NameReporter.xaml.cs#Snippet2)][!code-vb[2](../windows.ui.xaml.controls.primitives/code/UserControlSnippets/vbnet/NameReporter.xaml.vb#Snippet2)]
+[!code-cs[2](../windows.ui.xaml.controls.primitives/code/UserControlSnippets/csharp/NameReporter.xaml.cs#Snippet2)][!code-vb[2](../windows.ui.xaml.controls.primitives/code/UserControlSnippets/vbnet/NameReporter.xaml.vb#Snippet2)]
 
 > [!NOTE]
 > The `src` prefix in this XAML references the app itself and the `UserControlExample` code namespace within it. That is where the `NameReporter` control is defined. For more info on XAML prefixes, see [XAML namespaces and namespace mapping](http://msdn.microsoft.com/library/a19dff78-e692-47ae-8221-ab5ea9470e8b).
@@ -42,4 +42,6 @@ The following examples demonstrate creating a [UserControl](usercontrol.md) and 
 [!code-xml[3](../windows.ui.xaml.controls.primitives/code/UserControlSnippets/csharp/Page.xaml#Snippet3)]
 
 ## -see-also
+[Control](control.md)
+ -see-also
 [Control](control.md)

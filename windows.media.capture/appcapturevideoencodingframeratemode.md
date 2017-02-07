@@ -25,3 +25,6 @@ Video is encoded with a high frame rate.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appCaptureSettings

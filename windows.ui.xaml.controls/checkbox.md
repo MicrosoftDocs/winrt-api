@@ -129,9 +129,9 @@ The following example shows two check box controls. The first check box demonstr
 
 
 
-> [!div class="tabbedCodeSnippets"][!code-xml[1](../windows.ui.xaml.data/code/System.Windows.Controls.CheckBoxEx/csharp/Page.xaml#Snippet1)][!code-vb[1](../windows.ui.xaml.data/code/System.Windows.Controls.CheckBoxEx/vbnet/Page.xaml.vb#Snippet1)]
+[!code-xml[1](../windows.ui.xaml.data/code/System.Windows.Controls.CheckBoxEx/csharp/Page.xaml#Snippet1)][!code-vb[1](../windows.ui.xaml.data/code/System.Windows.Controls.CheckBoxEx/vbnet/Page.xaml.vb#Snippet1)]
 
-> [!div class="tabbedCodeSnippets"][!code-cs[11](../windows.ui.xaml.data/code/System.Windows.Controls.CheckBoxEx/csharp/Page.xaml.cs#Snippet11)][!code-vb[11](../windows.ui.xaml.data/code/System.Windows.Controls.CheckBoxEx/vbnet/Page.xaml.vb#Snippet11)]
+[!code-cs[11](../windows.ui.xaml.data/code/System.Windows.Controls.CheckBoxEx/csharp/Page.xaml.cs#Snippet11)][!code-vb[11](../windows.ui.xaml.data/code/System.Windows.Controls.CheckBoxEx/vbnet/Page.xaml.vb#Snippet11)]
 
 <img alt="The 3 states of a check box" src="images/CheckBox_3State.png" />
 
@@ -218,3 +218,4 @@ private void Option_Unchecked(object sender, RoutedEventArgs e)
 
 ## -see-also
 [ToggleButton](../windows.ui.xaml.controls.primitives/togglebutton.md), [CheckBox styles and templates](http://msdn.microsoft.com/library/d0f9240d-1165-4fc2-b76c-6eaa9e173e86), [RadioButton](radiobutton.md), [ToggleSwitch](toggleswitch.md), [Controls list](http://msdn.microsoft.com/library/11172840-a63d-4f48-9db4-7baca06308ee), [Controls by function](http://msdn.microsoft.com/library/8db4347b-91d6-4659-91f2-80ecf7bbb596)
+p://msdn.microsoft.com/library/8db4347b-91d6-4659-91f2-80ecf7bbb596)

@@ -27,7 +27,7 @@ Additionally, if you use fragment loading to load an extended splash screen page
 
 Respond to [Activated](../windows.applicationmodel.core/coreapplicationview_activated.md) events by overloading the corresponding activated event handler method. For example, use [OnLaunched](../windows.ui.xaml/application_onlaunched.md) to respond to [ActivationKind.Launch](activationkind.md) activation events. To learn how to respond to activated events, see [App lifecycle](http://msdn.microsoft.com/library/6c469e77-f1e3-4859-a27b-c326f9616d10).
 
-If you notice a flicker during the transition to your extended splash screen, see the [Troubleshooting](XREF:TODO:m_ui_splash.guidelines_and_checklist_for_splash_screens) section in [Guidelines and checklist for splash screens](XREF:TODO:m_ui_splash.guidelines_and_checklist_for_splash_screens) for help.
+If you notice a flicker during the transition to your extended splash screen, see the [Troubleshooting](http://msdn.microsoft.com/library/10e04ab1-000d-4b2c-92c5-8378b92fc001) section in [Guidelines and checklist for splash screens](http://msdn.microsoft.com/library/10e04ab1-000d-4b2c-92c5-8378b92fc001) for help.
 
 The [SplashScreen](iactivatedeventargs_splashscreen.md) property is available on all [Windows.ApplicationModel.Activation](windows_applicationmodel_activation_classes.md) classes.
 

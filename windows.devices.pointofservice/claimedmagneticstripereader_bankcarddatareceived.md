@@ -20,11 +20,11 @@ The following example shows how to setup the magnetic stripe reader to receive d
 
 
 
-> [!div class="tabbedCodeSnippets"][!code-cpp[SetupMagStripeReader](../windows.devices.pointofservice/code/MagneticStripeReader/cpp/Scenario1.xaml.cpp#SnippetSetupMagStripeReader)][!code-cs[SetupMagStripeReader](../windows.devices.pointofservice/code/MagneticStripeReader/cs/Scenario1.xaml.cs#SnippetSetupMagStripeReader)]
+[!code-cpp[SetupMagStripeReader](../windows.devices.pointofservice/code/MagneticStripeReader/cpp/Scenario1.xaml.cpp#SnippetSetupMagStripeReader)][!code-cs[SetupMagStripeReader](../windows.devices.pointofservice/code/MagneticStripeReader/cs/Scenario1.xaml.cs#SnippetSetupMagStripeReader)]
 
 
 
-> [!div class="tabbedCodeSnippets"][!code-cpp[MagStripeReaderDataReceived](../windows.devices.pointofservice/code/MagneticStripeReader/cpp/Scenario1.xaml.cpp#SnippetMagStripeReaderDataReceived)][!code-cs[MagStripeReaderDataReceived](../windows.devices.pointofservice/code/MagneticStripeReader/cs/Scenario1.xaml.cs#SnippetMagStripeReaderDataReceived)][!code-js[MagStripeReaderDataReceived](../windows.devices.pointofservice/code/MagneticStripeReader/js/scenario1.js#SnippetMagStripeReaderDataReceived)]
+[!code-cpp[MagStripeReaderDataReceived](../windows.devices.pointofservice/code/MagneticStripeReader/cpp/Scenario1.xaml.cpp#SnippetMagStripeReaderDataReceived)][!code-cs[MagStripeReaderDataReceived](../windows.devices.pointofservice/code/MagneticStripeReader/cs/Scenario1.xaml.cs#SnippetMagStripeReaderDataReceived)][!code-js[MagStripeReaderDataReceived](../windows.devices.pointofservice/code/MagneticStripeReader/js/scenario1.js#SnippetMagStripeReaderDataReceived)]
 
 
 
@@ -36,3 +36,4 @@ The following example shows how to setup the magnetic stripe reader to receive d
 
 ## -see-also
 [Magnetic stripe reader sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620017)
+ample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620017)

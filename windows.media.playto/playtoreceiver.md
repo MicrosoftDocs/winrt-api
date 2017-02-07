@@ -31,7 +31,7 @@ For an example of creating a software Play To receiver, see [Media casting](http
 
 [!code-js[StartAndStop_JS](../windows.media.playto/code/PlayTo_Receiver1/javascript/default.js#SnippetStartAndStop_JS)]
 
-> [!div class="tabbedCodeSnippets"][!code-cs[StartAndStop](../windows.media.playto/code/PlayTo_Receiver1/csharp/MainPage.xaml.cs#SnippetStartAndStop)][!code-js[StartAndStop](../windows.media.playto/code/PlayTo_Receiver1/javascript/default.js#SnippetStartAndStop)][!code-vb[StartAndStop](../windows.media.playto/code/PlayTo_Receiver1/vbnet/MainPage.xaml.vb#SnippetStartAndStop)]
+[!code-cs[StartAndStop](../windows.media.playto/code/PlayTo_Receiver1/csharp/MainPage.xaml.cs#SnippetStartAndStop)][!code-js[StartAndStop](../windows.media.playto/code/PlayTo_Receiver1/javascript/default.js#SnippetStartAndStop)][!code-vb[StartAndStop](../windows.media.playto/code/PlayTo_Receiver1/vbnet/MainPage.xaml.vb#SnippetStartAndStop)]
 
 PlayTo apps will not be suspended as long as video or music is playing on the Play To receiver or images are continuously sent to the Play To receiver. Apps have approximately 10 seconds to send a new image after the current one is displayed and approximately 10 seconds to send the next audio or video after the current one has ended.
 
@@ -44,4 +44,6 @@ PlayTo apps will not be suspended as long as video or music is playing on the Pl
 [Play To sample](http://go.microsoft.com/fwlink/p/?linkid=245166), [PlayToReceiver sample](http://go.microsoft.com/fwlink/p/?linkid=245167), [Media Server sample](http://go.microsoft.com/fwlink/p/?linkid=245168)
 
 ## -capabilities
+privateNetworkClientServer
+ities
 privateNetworkClientServer

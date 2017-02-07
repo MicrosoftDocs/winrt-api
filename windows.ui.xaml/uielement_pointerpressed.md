@@ -27,7 +27,7 @@ Mouse input is associated with a single pointer assigned when mouse input is fir
 
 
 
-> [!div class="tabbedCodeSnippets"][!code-cs[PointerMoved](../windows.ui.input.inking/code/PointerInput/csharp/MainPage.xaml.cs#SnippetPointerMoved)][!code-cs[PointerMoved](../windows.ui.input.inking/code/PointerInput_UWP/csharp/MainPage.xaml.cs#SnippetPointerMoved)]
+[!code-cs[PointerMoved](../windows.ui.input.inking/code/PointerInput/csharp/MainPage.xaml.cs#SnippetPointerMoved)][!code-cs[PointerMoved](../windows.ui.input.inking/code/PointerInput_UWP/csharp/MainPage.xaml.cs#SnippetPointerMoved)]
 
 Pointer events from a mouse input device generally have the same [PointerId](../windows.ui.input/pointerpoint_pointerid.md) in the event details for the lifetime of the app.
 
@@ -68,3 +68,4 @@ Other events instead of [PointerReleased](uielement_pointerreleased.md) may fire
 
 ## -see-also
 [Tapped](uielement_tapped.md), [PointerReleased](uielement_pointerreleased.md), [Quickstart: Touch input](http://msdn.microsoft.com/library/f10bafee-8792-4a57-ae84-aa11ab95355a), [XAML user input events sample](http://go.microsoft.com/fwlink/p/?linkid=231524)
+soft.com/fwlink/p/?linkid=231524)

@@ -35,7 +35,7 @@ If you save a new copy of a file as the result of a "save as" operation, the sel
 
 
 
-> [!div class="tabbedCodeSnippets"][!code-cs[_CopyProtection](../windows.security.enterprisedata/code/SelectiveWipeSnippets/cs/MainPage.xaml.cs#Snippet_CopyProtection)][!code-js[_CopyProtection](../windows.security.enterprisedata/code/SelectiveWipeSnippets/js/default.js#Snippet_CopyProtection)]
+[!code-cs[_CopyProtection](../windows.security.enterprisedata/code/SelectiveWipeSnippets/cs/MainPage.xaml.cs#Snippet_CopyProtection)][!code-js[_CopyProtection](../windows.security.enterprisedata/code/SelectiveWipeSnippets/js/default.js#Snippet_CopyProtection)]
 
 [!code-js[_CopyProtection_JS](../windows.security.enterprisedata/code/SelectiveWipeSnippets/js/default.js#Snippet_CopyProtection_JS)]
 
@@ -47,3 +47,4 @@ The [CopyProtectionAsync](filerevocationmanager_copyprotectionasync.md) method r
 
 ## -see-also
 [FileRevocationManager sample](http://go.microsoft.com/fwlink/p/?LinkID=299023), [How to protect files with Selective Wipe  (C#/VB/C++)](http://msdn.microsoft.com/library/a1afb4fb-6731-461a-8dd2-51eec5e880a1), [How to protect files with Selective Wipe (JavaScript)](http://msdn.microsoft.com/library/5b8652eb-6462-4bf1-b5b7-4a37957c605f)
+52eb-6462-4bf1-b5b7-4a37957c605f)

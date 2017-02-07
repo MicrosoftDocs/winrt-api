@@ -28,3 +28,6 @@ Standard resolution.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appCaptureSettings
