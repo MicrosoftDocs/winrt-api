@@ -34,9 +34,13 @@ This XAML example applies an [ElasticEase](elasticease.md) easing function to a 
 
 
 
-> [!div class="tabbedCodeSnippets"][!code-xml[ElasticEase](../windows.ui.xaml.media.animation/code/ElasticEase/csharp/Page.xaml#SnippetElasticEase)][!code-vb[ElasticEase](../windows.ui.xaml.media.animation/code/ElasticEase/vbnet/MainPage.xaml.vb#SnippetElasticEase)]
+[!code-xml[ElasticEase](../windows.ui.xaml.media.animation/code/ElasticEase/csharp/Page.xaml#SnippetElasticEase)]
 
-> [!div class="tabbedCodeSnippets"][!code-cs[ElasticEase_code](../windows.ui.xaml.media.animation/code/ElasticEase/csharp/Page.xaml.cs#SnippetElasticEase_code)][!code-vb[ElasticEase_code](../windows.ui.xaml.media.animation/code/ElasticEase/vbnet/MainPage.xaml.vb#SnippetElasticEase_code)]
+[!code-vb[ElasticEase](../windows.ui.xaml.media.animation/code/ElasticEase/vbnet/MainPage.xaml.vb#SnippetElasticEase)]
+
+[!code-cs[ElasticEase_code](../windows.ui.xaml.media.animation/code/ElasticEase/csharp/Page.xaml.cs#SnippetElasticEase_code)]
+
+[!code-vb[ElasticEase_code](../windows.ui.xaml.media.animation/code/ElasticEase/vbnet/MainPage.xaml.vb#SnippetElasticEase_code)]
 
 ## -see-also
 [Storyboarded animations](http://msdn.microsoft.com/library/0cbceea0-2b0e-44a1-a09a-f7a939632f3a), [Key-frame animations and easing function animations](http://msdn.microsoft.com/library/d8af24cd-f4c2-4562-afd7-25010955d677), [PowerEase](powerease.md), [BackEase](backease.md), [BounceEase](bounceease.md), [CircleEase](circleease.md), [CubicEase](cubicease.md), [ExponentialEase](exponentialease.md), [QuadraticEase](quadraticease.md), [QuarticEase](quarticease.md), [QuinticEase](quinticease.md), [SineEase](sineease.md)

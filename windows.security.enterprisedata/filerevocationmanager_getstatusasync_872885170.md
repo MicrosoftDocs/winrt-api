@@ -32,9 +32,13 @@ You can use the [GetStatusAsync](filerevocationmanager_getstatusasync.md) method
 
 
 
-> [!div class="tabbedCodeSnippets"][!code-cs[_Global](../windows.security.enterprisedata/code/SelectiveWipeSnippets/cs/MainPage.xaml.cs#Snippet_Global)][!code-js[_Global](../windows.security.enterprisedata/code/SelectiveWipeSnippets/js/default.js#Snippet_Global)]
+[!code-cs[_Global](../windows.security.enterprisedata/code/SelectiveWipeSnippets/cs/MainPage.xaml.cs#Snippet_Global)]
 
-> [!div class="tabbedCodeSnippets"][!code-cs[_GetStatus](../windows.security.enterprisedata/code/SelectiveWipeSnippets/cs/MainPage.xaml.cs#Snippet_GetStatus)][!code-js[_GetStatus](../windows.security.enterprisedata/code/SelectiveWipeSnippets/js/default.js#Snippet_GetStatus)]
+[!code-js[_Global](../windows.security.enterprisedata/code/SelectiveWipeSnippets/js/default.js#Snippet_Global)]
+
+[!code-cs[_GetStatus](../windows.security.enterprisedata/code/SelectiveWipeSnippets/cs/MainPage.xaml.cs#Snippet_GetStatus)]
+
+[!code-js[_GetStatus](../windows.security.enterprisedata/code/SelectiveWipeSnippets/js/default.js#Snippet_GetStatus)]
 
 
 

@@ -56,7 +56,11 @@ This example shows the basic syntax for wiring an event handler with [AddHandler
 
 
 
-> [!div class="tabbedCodeSnippets"][!code-cpp[AddHandler](../windows.ui.xaml/code/BaseElementEvents/cpp/BasicPage.xaml.cpp#SnippetAddHandler)][!code-cs[AddHandler](../windows.ui.xaml/code/BaseElementEvents/csharp/BasicPage1.xaml.cs#SnippetAddHandler)][!code-vb[AddHandler](../windows.ui.xaml/code/BaseElementEvents/vbnet/MainPage.xaml.vb#SnippetAddHandler)]
+[!code-cpp[AddHandler](../windows.ui.xaml/code/BaseElementEvents/cpp/BasicPage.xaml.cpp#SnippetAddHandler)]
+
+[!code-cs[AddHandler](../windows.ui.xaml/code/BaseElementEvents/csharp/BasicPage1.xaml.cs#SnippetAddHandler)]
+
+[!code-vb[AddHandler](../windows.ui.xaml/code/BaseElementEvents/vbnet/MainPage.xaml.vb#SnippetAddHandler)]
 
 ## -see-also
 [Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832), [UIElement.AddHandler](uielement_addhandler.md), [UIElement.RemoveHandler](uielement_removehandler.md), [RoutedEventArgs](routedeventargs.md)

@@ -23,6 +23,8 @@ To learn more, check out [How to produce requested data asynchronously](http://m
 ## -examples
 
 
-> [!div class="tabbedCodeSnippets"][!code-cs[ShareFileFunction](../windows.applicationmodel.datatransfer/code/ShareMainBeta/cs/ShareEssentials1.xaml.cs#SnippetShareFileFunction)][!code-js[ShareFileFunction](../windows.applicationmodel.datatransfer/code/ShareMainBeta/javascript/js/ShareFiles.js#SnippetShareFileFunction)]
+[!code-cs[ShareFileFunction](../windows.applicationmodel.datatransfer/code/ShareMainBeta/cs/ShareEssentials1.xaml.cs#SnippetShareFileFunction)]
+
+[!code-js[ShareFileFunction](../windows.applicationmodel.datatransfer/code/ShareMainBeta/javascript/js/ShareFiles.js#SnippetShareFileFunction)]
 
 ## -see-also

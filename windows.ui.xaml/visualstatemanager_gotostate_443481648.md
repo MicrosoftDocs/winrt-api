@@ -93,7 +93,9 @@ This example demonstrates control logic that uses the [GoToState](visualstateman
 
 
 
-> [!div class="tabbedCodeSnippets"][!code-cs[UpdateStates](../windows.ui.xaml/code/NumericUpDownCustomControl/csharp/NumericUpDownCustomControl.cs#SnippetUpdateStates)][!code-vb[UpdateStates](../windows.ui.xaml/code/NumericUpDownCustomControl/vbnet/NumericUpDown.vb#SnippetUpdateStates)]
+[!code-cs[UpdateStates](../windows.ui.xaml/code/NumericUpDownCustomControl/csharp/NumericUpDownCustomControl.cs#SnippetUpdateStates)]
+
+[!code-vb[UpdateStates](../windows.ui.xaml/code/NumericUpDownCustomControl/vbnet/NumericUpDown.vb#SnippetUpdateStates)]
 
 
 

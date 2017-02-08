@@ -68,7 +68,9 @@ This example defines a class that derives from [DependencyObject](dependencyobje
 
 
 
-> [!div class="tabbedCodeSnippets"][!code-cs[DOMain](../windows.ui.xaml/code/DOandDP/csharp/Class1.cs#SnippetDOMain)][!code-vb[DOMain](../windows.ui.xaml/code/DOandDP/vbnet/Class1.vb#SnippetDOMain)]
+[!code-cs[DOMain](../windows.ui.xaml/code/DOandDP/csharp/Class1.cs#SnippetDOMain)]
+
+[!code-vb[DOMain](../windows.ui.xaml/code/DOandDP/vbnet/Class1.vb#SnippetDOMain)]
 
 
 

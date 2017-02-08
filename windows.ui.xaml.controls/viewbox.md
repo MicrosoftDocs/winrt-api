@@ -37,7 +37,9 @@ The following example shows what happens when you change the [StretchDirection](
 
 
 
-> [!div class="tabbedCodeSnippets"][!code-cs[ViewBoxCode](../windows.ui.xaml/code/ViewBoxSnippet/csharp/MainPage.xaml.cs#SnippetViewBoxCode)][!code-vb[ViewBoxCode](../windows.ui.xaml/code/ViewBoxSnippet/vbnet/MainPage.xaml.vb#SnippetViewBoxCode)]
+[!code-cs[ViewBoxCode](../windows.ui.xaml/code/ViewBoxSnippet/csharp/MainPage.xaml.cs#SnippetViewBoxCode)]
+
+[!code-vb[ViewBoxCode](../windows.ui.xaml/code/ViewBoxSnippet/vbnet/MainPage.xaml.vb#SnippetViewBoxCode)]
 
 ## -see-also
 [FrameworkElement](../windows.ui.xaml/frameworkelement.md)
