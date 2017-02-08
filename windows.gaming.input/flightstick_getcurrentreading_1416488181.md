@@ -11,9 +11,13 @@ public FlightStickReading FlightStick.GetCurrentReading()
 
 ## -description
 
+Gets a snapshot of the flight stick state.
+
 ## -params
 
 ## -returns
+
+The current state of the flight stick.
 
 ## -remarks
 
