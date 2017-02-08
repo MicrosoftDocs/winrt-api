@@ -9,13 +9,14 @@ public bool IsComplete { get; }
 
 # Windows.ApplicationModel.PackageContentGroupStagingEventArgs.IsComplete
 
-## -desc
+## -description
+Indicates whether the content group is done downloading.
 
 ## -property-value
+**True** indicates that the content group is done installing; **false**, otherwise.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

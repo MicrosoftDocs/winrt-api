@@ -10,12 +10,13 @@ public HResult ErrorCode { get; }
 # Windows.ApplicationModel.PackageContentGroupStagingEventArgs.ErrorCode
 
 ## -desc
+Gets the result of the package content group staging operation.
 
 ## -property-value
+The result of the package content group staging operation.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

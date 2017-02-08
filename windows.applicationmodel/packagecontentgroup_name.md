@@ -10,12 +10,13 @@ public string Name { get; }
 # Windows.ApplicationModel.PackageContentGroup.Name
 
 ## -desc
+Gets the name of this package content group.
 
 ## -property-value
+The content group name.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

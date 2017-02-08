@@ -10,12 +10,13 @@ public Package Package { get; }
 # Windows.ApplicationModel.PackageContentGroupStagingEventArgs.Package
 
 ## -desc
+Gets the package that is being staged.
 
 ## -property-value
+The package being staged.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

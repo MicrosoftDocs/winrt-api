@@ -10,14 +10,13 @@ public IAsyncOperation<PackageContentGroup>> Package.GetContentGroupsAsync()
 # Windows.ApplicationModel.Package.GetContentGroupsAsync
 
 ## -description
-
-## -params
+Provides information about all of the package content groups in the app and their state, name, whether they are required, and so on.
 
 ## -returns
+A list of package content group objects.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

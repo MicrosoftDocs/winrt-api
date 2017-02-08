@@ -10,12 +10,13 @@ public Package Package { get; }
 # Windows.ApplicationModel.PackageContentGroup.Package
 
 ## -desc
+Gets the package for this content group.
 
 ## -property-value
+The package for this content group.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
