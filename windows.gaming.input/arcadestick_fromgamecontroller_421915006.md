@@ -35,8 +35,13 @@ The ArcadeStick that was converted from the given game controller.
 In the following example, the app gets the first available [RawGameController](rawgamecontroller.md) object, and tries to access this game controller via the `ArcadeStick` class.
 
 ```csharp
-RawGameController rawGameController = RawGameController.RawGameControllers[0];
-ArcadeStick arcadeStick = ArcadeStick.FromGameController(rawGameController);
+ArcadeStick arcadeStick = null;
+
+if (RawGameController.RawGameControllers.Count > 0)
+{
+    RawGameController rawGameController = RawGameController.RawGameControllers[0];
+    arcadeStick = ArcadeStick.FromGameController(rawGameController);
+}
 
 if (arcadeStick != null) 
 {
