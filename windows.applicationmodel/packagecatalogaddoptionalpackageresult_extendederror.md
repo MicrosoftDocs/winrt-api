@@ -10,12 +10,12 @@ public HResult ExtendedError { get; }
 # Windows.ApplicationModel.PackageCatalogAddOptionalPackageResult.ExtendedError
 
 ## -desc
+Provides error information about the attempt to add an optional package to the catalog.
 
 ## -property-value
+The exception if one occurred while adding the optional package; **null** otherwise.
 
 ## -remarks
 
 ## -see-also
-
-## -examples
-
+[PackageCatalog.AddOoptionalPackageAsync()](packagecatalog_addoptionalpackageasync_922156115.md)

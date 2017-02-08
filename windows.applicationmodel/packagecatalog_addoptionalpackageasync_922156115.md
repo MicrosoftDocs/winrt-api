@@ -10,16 +10,18 @@ public IAsyncOperation<PackageCatalogAddOptionalPackageResult> PackageCatalog.Ad
 # Windows.ApplicationModel.PackageCatalog.AddOptionalPackageAsync
 
 ## -description
+Adds an optional package to the package catalog.
 
 ## -params
 
 ## -param optionalPackageFamilyName
+The package family of the optional package to add to the catalog.
 
 ## -returns
+The result of adding the package.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
