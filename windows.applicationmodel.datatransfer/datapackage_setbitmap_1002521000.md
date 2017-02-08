@@ -26,6 +26,8 @@ The following example uses the **setBitmap** method to share an image with a tar
 
 
 
-> [!div class="tabbedCodeSnippets"][!code-cs[HowToShareImage](../windows.applicationmodel.datatransfer/code/ShareMainBeta/cs/ShareImage.xaml.cs#SnippetHowToShareImage)][!code-js[HowToShareImage](../windows.applicationmodel.datatransfer/code/ShareMainBeta/javascript/js/ShareImage.js#SnippetHowToShareImage)]
+[!code-cs[HowToShareImage](../windows.applicationmodel.datatransfer/code/ShareMainBeta/cs/ShareImage.xaml.cs#SnippetHowToShareImage)]
+
+[!code-js[HowToShareImage](../windows.applicationmodel.datatransfer/code/ShareMainBeta/javascript/js/ShareImage.js#SnippetHowToShareImage)]
 
 ## -see-also

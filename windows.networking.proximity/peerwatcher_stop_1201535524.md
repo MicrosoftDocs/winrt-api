@@ -17,9 +17,13 @@ Stop dynamically searching for peer apps within wireless range.
 
 
 
-> [!div class="tabbedCodeSnippets"][!code-cs[_StartPeerWatcher](../windows.networking.proximity/code/Proximity_PeerWatcher/cs/MainPage.xaml.cs#Snippet_StartPeerWatcher)][!code-js[_StartPeerWatcher](../windows.networking.proximity/code/Proximity_PeerWatcher/js/default.js#Snippet_StartPeerWatcher)]
+[!code-cs[_StartPeerWatcher](../windows.networking.proximity/code/Proximity_PeerWatcher/cs/MainPage.xaml.cs#Snippet_StartPeerWatcher)]
 
-> [!div class="tabbedCodeSnippets"][!code-cs[_StopPeerWatcher](../windows.networking.proximity/code/Proximity_PeerWatcher/cs/MainPage.xaml.cs#Snippet_StopPeerWatcher)][!code-js[_StopPeerWatcher](../windows.networking.proximity/code/Proximity_PeerWatcher/js/default.js#Snippet_StopPeerWatcher)]
+[!code-js[_StartPeerWatcher](../windows.networking.proximity/code/Proximity_PeerWatcher/js/default.js#Snippet_StartPeerWatcher)]
+
+[!code-cs[_StopPeerWatcher](../windows.networking.proximity/code/Proximity_PeerWatcher/cs/MainPage.xaml.cs#Snippet_StopPeerWatcher)]
+
+[!code-js[_StopPeerWatcher](../windows.networking.proximity/code/Proximity_PeerWatcher/js/default.js#Snippet_StopPeerWatcher)]
 
 [!code-js[_StartPeerWatcher_JS](../windows.networking.proximity/code/Proximity_PeerWatcher/js/default.js#Snippet_StartPeerWatcher_JS)]
 

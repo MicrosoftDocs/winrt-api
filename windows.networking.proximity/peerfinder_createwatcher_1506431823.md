@@ -22,7 +22,9 @@ If you call the [CreateWatcher](peerfinder_createwatcher.md) method multiple tim
 
 
 
-> [!div class="tabbedCodeSnippets"][!code-cs[_StartPeerWatcher](../windows.networking.proximity/code/Proximity_PeerWatcher/cs/MainPage.xaml.cs#Snippet_StartPeerWatcher)][!code-js[_StartPeerWatcher](../windows.networking.proximity/code/Proximity_PeerWatcher/js/default.js#Snippet_StartPeerWatcher)]
+[!code-cs[_StartPeerWatcher](../windows.networking.proximity/code/Proximity_PeerWatcher/cs/MainPage.xaml.cs#Snippet_StartPeerWatcher)]
+
+[!code-js[_StartPeerWatcher](../windows.networking.proximity/code/Proximity_PeerWatcher/js/default.js#Snippet_StartPeerWatcher)]
 
 [!code-js[_StartPeerWatcher_JS](../windows.networking.proximity/code/Proximity_PeerWatcher/js/default.js#Snippet_StartPeerWatcher_JS)]
 

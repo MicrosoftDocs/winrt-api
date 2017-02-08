@@ -29,6 +29,8 @@ The following code sample demonstrates how an app can set the URI on a [DataPack
 
 
 
-> [!div class="tabbedCodeSnippets"][!code-cs[HowToShareLink](../windows.applicationmodel.datatransfer/code/ShareMainBeta/cs/ShareLinks.xaml.cs#SnippetHowToShareLink)][!code-js[HowToShareLink](../windows.applicationmodel.datatransfer/code/ShareMainBeta/javascript/js/ShareLink.js#SnippetHowToShareLink)]
+[!code-cs[HowToShareLink](../windows.applicationmodel.datatransfer/code/ShareMainBeta/cs/ShareLinks.xaml.cs#SnippetHowToShareLink)]
+
+[!code-js[HowToShareLink](../windows.applicationmodel.datatransfer/code/ShareMainBeta/javascript/js/ShareLink.js#SnippetHowToShareLink)]
 
 ## -see-also

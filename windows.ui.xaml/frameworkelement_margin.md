@@ -68,7 +68,9 @@ This example sets [Margin](frameworkelement_margin.md) in code as part of a larg
 
 
 
-> [!div class="tabbedCodeSnippets"][!code-cs[GridClassCode](../windows.ui.xaml/code/GridReferenceSample/csharp/Page.xaml.cs#SnippetGridClassCode)][!code-vb[GridClassCode](../windows.ui.xaml/code/GridReferenceSample/vbnet/Page.xaml.vb#SnippetGridClassCode)]
+[!code-cs[GridClassCode](../windows.ui.xaml/code/GridReferenceSample/csharp/Page.xaml.cs#SnippetGridClassCode)]
+
+[!code-vb[GridClassCode](../windows.ui.xaml/code/GridReferenceSample/vbnet/Page.xaml.vb#SnippetGridClassCode)]
 
 ## -see-also
 [Thickness](thickness.md), [Alignment, margin, and padding](http://msdn.microsoft.com/library/9412abd4-3674-4865-b07d-64c7c26e4842), [Define layouts with XAML](http://msdn.microsoft.com/library/8d4e4162-1c9c-48f4-8a94-34976fb17079)

@@ -21,7 +21,9 @@ The following example shows a method that requests fingerprint verification and 
 
 
 
-> [!div class="tabbedCodeSnippets"][!code-cs[2](../windows.security.credentials.ui/code/BiometricAuth/cs/MainPage.xaml.cs#Snippet2)][!code-js[2](../windows.security.credentials.ui/code/BiometricAuth/js/default.js#Snippet2)]
+[!code-cs[2](../windows.security.credentials.ui/code/BiometricAuth/cs/MainPage.xaml.cs#Snippet2)]
+
+[!code-js[2](../windows.security.credentials.ui/code/BiometricAuth/js/default.js#Snippet2)]
 
 [!code-js[2_JS](../windows.security.credentials.ui/code/BiometricAuth/js/default.js#Snippet2_JS)]
 

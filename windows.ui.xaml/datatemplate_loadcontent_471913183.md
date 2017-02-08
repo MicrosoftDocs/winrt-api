@@ -25,6 +25,8 @@ The following examples demonstrate using the [LoadContent](datatemplate_loadcont
 
 [!code-xml[1](../windows.ui.xaml.controls.primitives/code/DataTemplateSelectionSnippets/csharp/Page.xaml#Snippet1)]
 
-> [!div class="tabbedCodeSnippets"][!code-cs[2](../windows.ui.xaml.controls.primitives/code/DataTemplateSelectionSnippets/csharp/Page.xaml.cs#Snippet2)][!code-vb[2](../windows.ui.xaml.controls.primitives/code/DataTemplateSelectionSnippets/vbnet/Page.xaml.vb#Snippet2)]
+[!code-cs[2](../windows.ui.xaml.controls.primitives/code/DataTemplateSelectionSnippets/csharp/Page.xaml.cs#Snippet2)]
+
+[!code-vb[2](../windows.ui.xaml.controls.primitives/code/DataTemplateSelectionSnippets/vbnet/Page.xaml.vb#Snippet2)]
 
 ## -see-also

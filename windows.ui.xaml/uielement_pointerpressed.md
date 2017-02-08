@@ -27,7 +27,9 @@ Mouse input is associated with a single pointer assigned when mouse input is fir
 
 
 
-> [!div class="tabbedCodeSnippets"][!code-cs[PointerMoved](../windows.ui.input.inking/code/PointerInput/csharp/MainPage.xaml.cs#SnippetPointerMoved)][!code-cs[PointerMoved](../windows.ui.input.inking/code/PointerInput_UWP/csharp/MainPage.xaml.cs#SnippetPointerMoved)]
+[!code-cs[PointerMoved](../windows.ui.input.inking/code/PointerInput/csharp/MainPage.xaml.cs#SnippetPointerMoved)]
+
+[!code-cs[PointerMoved](../windows.ui.input.inking/code/PointerInput_UWP/csharp/MainPage.xaml.cs#SnippetPointerMoved)]
 
 Pointer events from a mouse input device generally have the same [PointerId](../windows.ui.input/pointerpoint_pointerid.md) in the event details for the lifetime of the app.
 
