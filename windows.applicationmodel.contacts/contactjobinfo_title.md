@@ -1,3 +1,22 @@
-----api-id: P:Windows.ApplicationModel.Contacts.ContactJobInfo.Title
+---
+-api-id: P:Windows.ApplicationModel.Contacts.ContactJobInfo.Title
 -api-type: winrt property
----<!-- Property syntaxpublic string Title { get;  set; }--># Windows.ApplicationModel.Contacts.ContactJobInfo.Title## -descriptionGets and sets the title of the job info for a contact. The maximum string length for the title is 1024 characters.## -property-valueThe title of the job info for a contact.## -remarks## -examples## -see-also
+---
+
+<!-- Property syntax
+public string Title { get;  set; }
+-->
+
+# Windows.ApplicationModel.Contacts.ContactJobInfo.Title
+
+## -description
+Gets and sets the title of the job info for a contact. The maximum string length for the title is 1024 characters.
+
+## -property-value
+The title of the job info for a contact.
+
+## -remarks
+
+## -examples
+
+## -see-also

@@ -1,3 +1,25 @@
-----api-id: M:Windows.UI.Input.EdgeGesture.GetForCurrentView
+---
+-api-id: M:Windows.UI.Input.EdgeGesture.GetForCurrentView
 -api-type: winrt method
----<!-- Method syntaxpublic Windows.UI.Input.EdgeGesture GetForCurrentView()--># Windows.UI.Input.EdgeGesture.GetForCurrentView## -descriptionGets an instance of the [EdgeGesture](edgegesture.md) class that is used to add and remove event delegate handlers for the current view.## -returnsThe currently relevant instance of the [EdgeGesture](edgegesture.md) object.## -remarksThis method uses the current [CoreWindow](../windows.ui.core/corewindow.md) of your application's [CoreApplication](../windows.applicationmodel.core/coreapplication.md) object to determine the particular instance. That is, there is a 1:1 correspondence between different instances of [EdgeGesture](edgegesture.md) and [CoreWindow](../windows.ui.core/corewindow.md). You cannot obtain an instance of an [EdgeGesture](edgegesture.md) class for another app, nor can an [EdgeGesture](edgegesture.md) instance be obtained for an app without a current [CoreWindow](../windows.ui.core/corewindow.md).<!-- @WRITER erictill 7/24/2011 : Assumes at least one ICoreWindow-based object in the app. This allows this method to create or return an existing Edge Gesture client object. -->## -examples## -see-also[Edge gesture invocation sample](http://go.microsoft.com/fwlink/p/?linkid=242153)
+---
+
+<!-- Method syntax
+public Windows.UI.Input.EdgeGesture GetForCurrentView()
+-->
+
+# Windows.UI.Input.EdgeGesture.GetForCurrentView
+
+## -description
+Gets an instance of the [EdgeGesture](edgegesture.md) class that is used to add and remove event delegate handlers for the current view.
+
+## -returns
+The currently relevant instance of the [EdgeGesture](edgegesture.md) object.
+
+## -remarks
+This method uses the current [CoreWindow](../windows.ui.core/corewindow.md) of your application's [CoreApplication](../windows.applicationmodel.core/coreapplication.md) object to determine the particular instance. That is, there is a 1:1 correspondence between different instances of [EdgeGesture](edgegesture.md) and [CoreWindow](../windows.ui.core/corewindow.md). You cannot obtain an instance of an [EdgeGesture](edgegesture.md) class for another app, nor can an [EdgeGesture](edgegesture.md) instance be obtained for an app without a current [CoreWindow](../windows.ui.core/corewindow.md).
+<!-- @WRITER erictill 7/24/2011 : Assumes at least one ICoreWindow-based object in the app. This allows this method to create or return an existing Edge Gesture client object. -->
+
+## -examples
+
+## -see-also
+[Edge gesture invocation sample](http://go.microsoft.com/fwlink/p/?linkid=242153)

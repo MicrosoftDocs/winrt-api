@@ -1,3 +1,23 @@
-----api-id: P:Windows.UI.Xaml.Media.Animation.PaneThemeTransition.EdgeProperty
+---
+-api-id: P:Windows.UI.Xaml.Media.Animation.PaneThemeTransition.EdgeProperty
 -api-type: winrt property
----<!-- Property syntaxpublic Windows.UI.Xaml.DependencyProperty EdgeProperty { get; }--># Windows.UI.Xaml.Media.Animation.PaneThemeTransition.EdgeProperty## -descriptionIdentifies the [Edge](panethemetransition_edge.md) dependency property.## -property-valueThe identifier for the [Edge](panethemetransition_edge.md) dependency property.## -remarks## -examples## -see-also[Animating edge-based UI](http://msdn.microsoft.com/library/417805f0-2855-4824-8227-098bf0211eac), [Guidelines and checklist for edge-based UI animations](XREF:TODO:m_personality.guidelines_for_edgebased_animations)
+---
+
+<!-- Property syntax
+public Windows.UI.Xaml.DependencyProperty EdgeProperty { get; }
+-->
+
+# Windows.UI.Xaml.Media.Animation.PaneThemeTransition.EdgeProperty
+
+## -description
+Identifies the [Edge](panethemetransition_edge.md) dependency property.
+
+## -property-value
+The identifier for the [Edge](panethemetransition_edge.md) dependency property.
+
+## -remarks
+
+## -examples
+
+## -see-also
+[Animating edge-based UI](http://msdn.microsoft.com/library/417805f0-2855-4824-8227-098bf0211eac), [Guidelines and checklist for edge-based UI animations](XREF:TODO:m_personality.guidelines_for_edgebased_animations)

@@ -1,3 +1,23 @@
-----api-id: M:Windows.Devices.PointOfService.ClaimedPosPrinter.RetainDeviceAsync
+---
+-api-id: M:Windows.Devices.PointOfService.ClaimedPosPrinter.RetainDeviceAsync
 -api-type: winrt method
----<!-- Method syntaxpublic Windows.Foundation.IAsyncOperation<bool> RetainDeviceAsync()--># Windows.Devices.PointOfService.ClaimedPosPrinter.RetainDeviceAsync## -descriptionRetains the claim on the point-of-service printer asynchronously, usually in response to the [ReleaseDeviceRequested](claimedposprinter_releasedevicerequested.md) event.## -returnsTrue if the printer was successfully retained; otherwise, false.## -remarks## -examples## -see-also[ReleaseDeviceRequested](claimedposprinter_releasedevicerequested.md)
+---
+
+<!-- Method syntax
+public Windows.Foundation.IAsyncOperation<bool> RetainDeviceAsync()
+-->
+
+# Windows.Devices.PointOfService.ClaimedPosPrinter.RetainDeviceAsync
+
+## -description
+Retains the claim on the point-of-service printer asynchronously, usually in response to the [ReleaseDeviceRequested](claimedposprinter_releasedevicerequested.md) event.
+
+## -returns
+True if the printer was successfully retained; otherwise, false.
+
+## -remarks
+
+## -examples
+
+## -see-also
+[ReleaseDeviceRequested](claimedposprinter_releasedevicerequested.md)

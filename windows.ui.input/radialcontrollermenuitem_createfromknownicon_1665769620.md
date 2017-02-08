@@ -1,3 +1,38 @@
-----api-id: M:Windows.UI.Input.RadialControllerMenuItem.CreateFromKnownIcon(System.String,Windows.UI.Input.RadialControllerMenuKnownIcon)
+---
+-api-id: M:Windows.UI.Input.RadialControllerMenuItem.CreateFromKnownIcon(System.String,Windows.UI.Input.RadialControllerMenuKnownIcon)
 -api-type: winrt method
----<!-- Method syntaxpublic Windows.UI.Input.RadialControllerMenuItem CreateFromKnownIcon(System.String displayText, Windows.UI.Input.RadialControllerMenuKnownIcon value)--># Windows.UI.Input.RadialControllerMenuItem.CreateFromKnownIcon## -descriptionCreates a custom tool (using the specified text string and system icon) on the [RadialController](radialcontroller.md) menu.## -parameters### -param displayTextThe text string to display for the custom tool.### -param valueThe system icon to display for the custom tool.## -returnsThe custom tool.## -remarks[UX guidelines](https://msdn.microsoft.com/en-us/windows/uwp/input-and-devices/windows-wheel-interactions) for the Surface Dial recommend the following:Text+ Names should be short to fit inside the central circle of the wheel menu+ Names should clearly identify the primary action (a complementary action can be implied)   + Scroll indicates the effect of both rotation directions   + Undo specifies a primary action, but redo (the complementary action) can be inferred and easily discovered by the user## -examples## -see-also[CreateFromIcon](radialcontrollermenuitem_createfromicon.md), [Surface Dial interactions](https://msdn.microsoft.com/en-us/windows/uwp/input-and-devices/windows-wheel-interactions), [Universal Windows Platform samples (C# and C++)](https://go.microsoft.com/fwlink/?linkid=832713), [Windows classic desktop sample](https://aka.ms/radialcontrollerclassicsample)
+---
+
+<!-- Method syntax
+public Windows.UI.Input.RadialControllerMenuItem CreateFromKnownIcon(System.String displayText, Windows.UI.Input.RadialControllerMenuKnownIcon value)
+-->
+
+# Windows.UI.Input.RadialControllerMenuItem.CreateFromKnownIcon
+
+## -description
+Creates a custom tool (using the specified text string and system icon) on the [RadialController](radialcontroller.md) menu.
+
+## -parameters
+### -param displayText
+The text string to display for the custom tool.
+
+### -param value
+The system icon to display for the custom tool.
+
+## -returns
+The custom tool.
+
+## -remarks
+[UX guidelines](https://msdn.microsoft.com/en-us/windows/uwp/input-and-devices/windows-wheel-interactions) for the Surface Dial recommend the following:
+Text
+
++ Names should be short to fit inside the central circle of the wheel menu
++ Names should clearly identify the primary action (a complementary action can be implied)   + Scroll indicates the effect of both rotation directions
+   + Undo specifies a primary action, but redo (the complementary action) can be inferred and easily discovered by the user
+
+
+
+## -examples
+
+## -see-also
+[CreateFromIcon](radialcontrollermenuitem_createfromicon.md), [Surface Dial interactions](https://msdn.microsoft.com/en-us/windows/uwp/input-and-devices/windows-wheel-interactions), [Universal Windows Platform samples (C# and C++)](https://go.microsoft.com/fwlink/?linkid=832713), [Windows classic desktop sample](https://aka.ms/radialcontrollerclassicsample)

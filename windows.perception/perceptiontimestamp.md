@@ -1,3 +1,22 @@
-----api-id: T:Windows.Perception.PerceptionTimestamp
+---
+-api-id: T:Windows.Perception.PerceptionTimestamp
 -api-type: winrt class
----<!-- Class syntax.public class PerceptionTimestamp : Windows.Perception.IPerceptionTimestamp--># Windows.Perception.PerceptionTimestamp## -descriptionRepresents a particular prediction of the future, or a snapshot of the past.Passing one PerceptionTimestamp instance to multiple API calls ensures that they all return results based on the same set of predicted data, even if Windows has improved predictions available. This ensures that you can correctly correlate the data you get back from these APIs.## -remarks## -examples## -see-also
+---
+
+<!-- Class syntax.
+public class PerceptionTimestamp : Windows.Perception.IPerceptionTimestamp
+-->
+
+# Windows.Perception.PerceptionTimestamp
+
+## -description
+Represents a particular prediction of the future, or a snapshot of the past.
+
+Passing one PerceptionTimestamp instance to multiple API calls ensures that they all return results based on the same set of predicted data, even if Windows has improved predictions available. This ensures that you can correctly correlate the data you get back from these APIs.
+
+## -remarks
+
+
+## -examples
+
+## -see-also
