@@ -26,7 +26,7 @@ Enables application developers to access Point of Service (POS) peripheral devic
 </table>
 
 ## -remarks
-Applications which require this namespace require the addition of “pointOfService” [DeviceCapability](XREF:TODO:appxmanifestschema.element_devicecapability) to the app package manifest.
+Applications which require this namespace require the addition of the “pointOfService” [DeviceCapability](https://msdn.microsoft.com/en-us/library/windows/apps/4353c4fd-f038-4986-81ed-d2ec0c6235ef) to the app package manifest.
 
 ## -examples
 
