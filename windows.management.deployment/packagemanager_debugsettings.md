@@ -10,10 +10,10 @@ public PackageManagerDebugSettings DebugSettings { get; }
 # Windows.Management.Deployment.PackageManager.DebugSettings
 
 ## -description
-Get the debug settings of the package.
+Get the debugging settings for package deployment.
 
 ## -property-value
-The content group state settings.
+The debugging settings for package deployment.
 
 ## -remarks
 
