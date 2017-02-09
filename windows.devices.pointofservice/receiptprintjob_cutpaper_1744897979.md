@@ -20,10 +20,10 @@ Many printers with paper cutting capability can perform both full and partial cu
 
 <table>
    <tr><th>Value</th><th>Meaning</th></tr>
-   <tr><td>100</td><td>Fully cuts the paper.</td></tr>
-   <tr><td>90</td><td>Leaves only a small part of paper for very easy final separation.</td></tr>
-   <tr><td>70</td><td>Perforates the paper for final separation that is somewhat more difficult and unlikely to occur by accidental handling.</td></tr>
-   <tr><td>50</td><td>Partial perforation of the paper.</td></tr>
+   <tr><td>1.0</td><td>Fully cuts the paper.</td></tr>
+   <tr><td>0.9</td><td>Leaves only a small part of paper for very easy final separation.</td></tr>
+   <tr><td>0.7</td><td>Perforates the paper for final separation that is somewhat more difficult and unlikely to occur by accidental handling.</td></tr>
+   <tr><td>0.5</td><td>Partial perforation of the paper.</td></tr>
 </table>
 
 Printer capabilities vary, so the actual result can be device-dependent.
