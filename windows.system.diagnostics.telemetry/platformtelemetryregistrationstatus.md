@@ -14,7 +14,7 @@ public enum PlatformTelemetryRegistrationStatus : int {
 # Windows.System.Diagnostics.Telemetry.PlatformTelemetryRegistrationStatus
 
 ## -description
-Provides information about the status of registering a tenant with Windows telemetry.
+Provides information about the status of registering a client with the Connected User Experience and Telemetry component.
 
 ## -enum-fields
 

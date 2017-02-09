@@ -10,15 +10,15 @@ public PlatformTelemetryRegistrationResult PlatformTelemetryClient.Register(Stri
 # Windows.System.Diagnostics.Telemetry.PlatformTelemetryClient.Register
 
 ## -description
-Registers a tenant with windows telemetry.
+Registers a client with the Connected User Experience and Telemetry component.
 
 ## -params
 
 ## -param id
-Unique string value that identifies the tenant.
+Unique string value that identifies the client.
 
 ## -param settings
-Settings for registering a tenant. See [PlatformTelemetryRegistrationSettings](PlatformTelemetryRegistrationSettings.md).
+[PlatformTelemetryRegistrationSettings](PlatformTelemetryRegistrationSettings.md) for registering a client.
 
 ## -returns
 

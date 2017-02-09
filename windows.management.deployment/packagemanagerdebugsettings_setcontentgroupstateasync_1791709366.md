@@ -10,32 +10,27 @@ public IAsyncAction PackageManagerDebugSettings.SetContentGroupStateAsync(Packag
 # Windows.Management.Deployment.PackageManagerDebugSettings.SetContentGroupStateAsync
 
 ## -description
-Sets the install state of a content group for debugging.
+Sets the staging state of a content group for debugging.
 
 ## -params
 
 ## -param package
-The streamable app package.
+The app package.
 
 ## -param contentGroupName
-The content group name. Case sensitive and must be unique.
+The content group name. An AppxContentGroupMap.xml must be present when the app is registered for this API to work.
 
 ## -param state
-| State      | Description |
-|------------|-------------|
-| Staged     | The content group files have been downloaded and are ready to be accessed by the app. |
-| NotStaged  | The content group files have not been downloaded and are not in queue. |  
-| Queued     | The content group files have not been downloaded but are in queue. |
-| Staging    | The content group files are currently being downloaded. | 
+The [PackageContentGroupState](../Windows.ApplicationModel/PackageContentGroupState.md) enum value.
 
 ## -param completionPercentage
-The simulated percent isntall completion. Progress events only occur at integer percentage values.
+The simulated percent install completion. A value between 0 and 100.0. A value greater than 100 is clamped to 100.
 
 ## -returns
-Returns an IAsyncAction that completes when the content group is finished downloading.
+Returns an IAsyncAction that completes when the state has changed.
 
 ## -remarks
-The required content group name must be named "Required" and no automatic content group can be named "Required".
+The state of the required content group (which is specified by PackageContentGroup.RequiredGroupName) cannot be changed. The method will fail if this group is specified.
 
 ## -see-also
 

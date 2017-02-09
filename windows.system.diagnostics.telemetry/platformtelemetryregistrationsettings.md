@@ -10,7 +10,7 @@ public class PlatformTelemetryRegistrationSettings
 # Windows.System.Diagnostics.Telemetry.PlatformTelemetryRegistrationSettings
 
 ## -description
-Describes the settings for registering an app with Windows telemetry.
+Describes the settings for registering an app with the Connected User Experience and Telemetry component.
 
 ## -remarks
 > [!IMPORTANT]
