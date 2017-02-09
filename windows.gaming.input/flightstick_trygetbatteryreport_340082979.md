@@ -11,7 +11,11 @@ public BatteryReport FlightStick.TryGetBatteryReport()
 
 ## -description
 
+Gets information about the flight stick's current battery state.
+
 ## -returns
+
+Information about the flight stick's current battery state.
 
 ## -remarks
 

@@ -15,13 +15,21 @@ public enum FlightStickButtons : uint {
 
 ## -description
 
+Specifies the button type for a flight stick.
+
 ## -enum-fields
 
 ## -field None:0
 
+No button.
+
 ## -field FireSecondary:2
 
+The secondary fire button.
+
 ## -field FirePrimary:1
+
+The primary fire button.
 
 ## -remarks
 

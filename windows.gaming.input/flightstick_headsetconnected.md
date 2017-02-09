@@ -11,6 +11,8 @@ public event TypedEventHandler HeadsetConnected<IGameController, Headset>
 
 ## -description
 
+Signals when a headset is attached to the flight stick.
+
 ## -remarks
 
 ## -see-also

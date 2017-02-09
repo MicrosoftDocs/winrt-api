@@ -11,7 +11,11 @@ public Headset Headset { get; }
 
 ## -desc
 
+The audio headset attached to the flight stick.
+
 ## -property-value
+
+The audio headset attached to the flight stick.
 
 ## -remarks
 

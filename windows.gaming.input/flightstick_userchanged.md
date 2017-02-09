@@ -11,6 +11,8 @@ public event TypedEventHandler UserChanged<IGameController, UserChangedEventArgs
 
 ## -description
 
+Signals when the user associated with the flight stick has changed.
+
 ## -remarks
 
 ## -see-also

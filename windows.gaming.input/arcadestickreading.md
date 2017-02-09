@@ -10,7 +10,7 @@ public struct ArcadeStickReading
 # ArcadeStickReading
 
 ## -description
-Represents the current state of the arcade stick.
+The current state of the arcade stick.
 
 ## -struct-fields
 
@@ -19,7 +19,7 @@ Time when the state was retrieved from the arcade stick.
     
 
 ### -field Buttons
-The state of the arcade stick buttons.
+The state of the arcade stick's buttons.
     
 
 ## -remarks

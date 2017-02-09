@@ -19,13 +19,21 @@ public struct FlightStickReading  {
 
 ## -description
 
+The current state of the flight stick.
+
 ## -fields
 
 ## -field Buttons
 
+The state of the flight stick's buttons.
+
 ## -field HatSwitch
 
+The position of the hat switch.
+
 ## -field Pitch
+
+The amount of pitch (rotation around the X-axis; forward and backward movement on the flight stick).
 
 ## -field Roll
 

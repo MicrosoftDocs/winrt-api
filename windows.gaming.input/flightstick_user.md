@@ -11,7 +11,11 @@ public User User { get; }
 
 ## -desc
 
+The user associated with the flight stick.
+
 ## -property-value
+
+The user associated with the flight stick.
 
 ## -remarks
 

@@ -11,6 +11,8 @@ public event TypedEventHandler HeadsetDisconnected<IGameController, Headset>
 
 ## -description
 
+Signals when a headset is disconnected from the flight stick.
+
 ## -remarks
 
 ## -see-also
