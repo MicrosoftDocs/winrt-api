@@ -47,7 +47,7 @@ The following Windows 8-specific code example demonstrates how to use a [WebVie
 
 [!code-cpp[WebViewBrushCode](../windows.ui.xaml.input/code/Controls_WebView/cpp/Scenario6.xaml.cpp#SnippetWebViewBrushCode)]
 
-[!code-cs[WebViewBrushCode](../windows.ui.xaml.input/code/Controls_WebView/csharp/Scenario6.xaml.cs#SnippetWebViewBrushCode)]
+[!code-csharp[WebViewBrushCode](../windows.ui.xaml.input/code/Controls_WebView/csharp/Scenario6.xaml.cs#SnippetWebViewBrushCode)]
 
 [!code-vb[WebViewBrushCode](../windows.ui.xaml.input/code/Controls_WebView/vbnet/Scenario6.xaml.vb#SnippetWebViewBrushCode)]
 

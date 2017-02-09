@@ -42,7 +42,7 @@ This XAML example applies a [CubicEase](cubicease.md) easing function to a [Doub
 
 [!code-vb[CubicEase](../windows.ui.xaml.media.animation/code/CubicEase/vbnet/MainPage.xaml.vb#SnippetCubicEase)]
 
-[!code-cs[CubicEase_code](../windows.ui.xaml.media.animation/code/CubicEase/csharp/Page.xaml.cs#SnippetCubicEase_code)]
+[!code-csharp[CubicEase_code](../windows.ui.xaml.media.animation/code/CubicEase/csharp/Page.xaml.cs#SnippetCubicEase_code)]
 
 [!code-vb[CubicEase_code](../windows.ui.xaml.media.animation/code/CubicEase/vbnet/MainPage.xaml.vb#SnippetCubicEase_code)]
 

@@ -74,7 +74,7 @@ This example shows a basic usage where a [DependencyProperty](dependencyproperty
 
 
 
-[!code-cs[DOSimpleDP](../windows.ui.xaml/code/DOandDP/csharp/Class1.cs#SnippetDOSimpleDP)]
+[!code-csharp[DOSimpleDP](../windows.ui.xaml/code/DOandDP/csharp/Class1.cs#SnippetDOSimpleDP)]
 
 [!code-vb[DOSimpleDP](../windows.ui.xaml/code/DOandDP/vbnet/Class1.vb#SnippetDOSimpleDP)]
 > A Visual C++ component extensions (C++/CX) example isn't shown here because it must be factored completely differently than the Microsoft .NET examples, and involves several different code files. See examples in [Custom dependency properties](http://msdn.microsoft.com/library/5adf7935-f2cf-4bb6-b1a5-f535c2ed8ef8).

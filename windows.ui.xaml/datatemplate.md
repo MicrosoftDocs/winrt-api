@@ -53,7 +53,7 @@ The following example uses a [DataTemplate](datatemplate.md) to display the item
 
 
 
-[!code-cs[101](../windows.ui.xaml.data/code/System.Windows.Controls.ListBoxEx/csharp/Page.xaml.cs#Snippet101)]
+[!code-csharp[101](../windows.ui.xaml.data/code/System.Windows.Controls.ListBoxEx/csharp/Page.xaml.cs#Snippet101)]
 
 [!code-vb[101](../windows.ui.xaml.data/code/System.Windows.Controls.ListBoxEx/vbnet/Page.xaml.vb#Snippet101)]
 

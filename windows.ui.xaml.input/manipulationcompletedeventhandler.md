@@ -25,7 +25,7 @@ The following code example shows scenario 4 from the [Input sample](http://go.mi
 
 
 
-[!code-cs[Scenario4Code](../windows.ui.xaml/code/input/csharp/Scenario4.xaml.cs#SnippetScenario4Code)]
+[!code-csharp[Scenario4Code](../windows.ui.xaml/code/input/csharp/Scenario4.xaml.cs#SnippetScenario4Code)]
 
 [!code-vb[Scenario4Code](../windows.ui.xaml/code/input/vbnet/Scenario4.xaml.vb#SnippetScenario4Code)]
 

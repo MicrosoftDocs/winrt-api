@@ -48,7 +48,7 @@ This example sets the [DataContext](frameworkelement_datacontext.md) directly to
 
 
 
-[!code-cs[DataContext](../windows.ui.xaml.controls.primitives/code/Binding_Simple/csharp/Page.xaml.cs#SnippetDataContext)]
+[!code-csharp[DataContext](../windows.ui.xaml.controls.primitives/code/Binding_Simple/csharp/Page.xaml.cs#SnippetDataContext)]
 
 [!code-vb[DataContext](../windows.ui.xaml.controls.primitives/code/Binding_Simple/vbnet/BlankPage.xaml.vb#SnippetDataContext)]
 

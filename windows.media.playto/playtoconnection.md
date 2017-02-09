@@ -18,7 +18,7 @@ For an example of how to use Play To in an application, see [Quickstart: Using P
 ## -examples
 
 
-[!code-cs[PlayToEvents](../windows.media.playto/code/PlayTo_Reference/csharp/MainPage.xaml.cs#SnippetPlayToEvents)]
+[!code-csharp[PlayToEvents](../windows.media.playto/code/PlayTo_Reference/csharp/MainPage.xaml.cs#SnippetPlayToEvents)]
 
 [!code-js[PlayToEvents](../windows.media.playto/code/PlayTo_Reference/javascript/default.js#SnippetPlayToEvents)]
 

@@ -40,7 +40,7 @@ To use your converter in a binding, first create an instance of your converter c
 
 
 
-[!code-cs[1](../windows.ui.xaml.controls.primitives/code/Binding_Collection/csharp/DataConverter.cs#Snippet1)]
+[!code-csharp[1](../windows.ui.xaml.controls.primitives/code/Binding_Collection/csharp/DataConverter.cs#Snippet1)]
 
 [!code-vb[1](../windows.ui.xaml.controls.primitives/code/Binding_Collection/vbnet/DataConverter.vb#Snippet1)]
 

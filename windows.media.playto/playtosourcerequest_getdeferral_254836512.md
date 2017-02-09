@@ -27,7 +27,7 @@ For an example of how to use Play To in an application, see [Quickstart: Using P
 ## -examples
 
 
-[!code-cs[Deferral](../windows.media.playto/code/PlayTo_Reference/csharp/MainPage.xaml.cs#SnippetDeferral)]
+[!code-csharp[Deferral](../windows.media.playto/code/PlayTo_Reference/csharp/MainPage.xaml.cs#SnippetDeferral)]
 
 [!code-js[Deferral](../windows.media.playto/code/PlayTo_Reference/javascript/default.js#SnippetDeferral)]
 

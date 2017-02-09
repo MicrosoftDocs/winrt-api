@@ -21,7 +21,7 @@ If your computer supports Proximity and has an NFC device installed, which is co
 ## -examples
 
 
-[!code-cs[DeviceId](../windows.networking.proximity/code/Proximity_GetDeviceSelector1/csharp/MainPage.xaml.cs#SnippetDeviceId)]
+[!code-csharp[DeviceId](../windows.networking.proximity/code/Proximity_GetDeviceSelector1/csharp/MainPage.xaml.cs#SnippetDeviceId)]
 
 [!code-js[DeviceId](../windows.networking.proximity/code/Proximity_GetDeviceSelector1/javascript/default.js#SnippetDeviceId)]
 

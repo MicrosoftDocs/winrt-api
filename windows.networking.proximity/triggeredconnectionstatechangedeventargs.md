@@ -17,7 +17,7 @@ Contains properties that the [TriggeredConnectionStateChanged](peerfinder_trigge
 ## -examples
 
 
-[!code-cs[Connect](../windows.networking.proximity/code/ProximityReferenceSample/csharp/MainPage.xaml.cs#SnippetConnect)]
+[!code-csharp[Connect](../windows.networking.proximity/code/ProximityReferenceSample/csharp/MainPage.xaml.cs#SnippetConnect)]
 
 [!code-js[Connect](../windows.networking.proximity/code/ProximityReferenceSample/js/default.js#SnippetConnect)]
 

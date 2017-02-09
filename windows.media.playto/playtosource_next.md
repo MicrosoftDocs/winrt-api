@@ -22,7 +22,7 @@ For an example of using the [Next](playtosource_next.md) property, see [Streamin
 ## -examples
 
 
-[!code-cs[PlayToContract](../windows.media.playto/code/PlayTo_SlideShow1/csharp/MainPage.xaml.cs#SnippetPlayToContract_CS)]
+[!code-csharp[PlayToContract](../windows.media.playto/code/PlayTo_SlideShow1/csharp/MainPage.xaml.cs#SnippetPlayToContract_CS)]
 
 [!code-js[PlayToContract](../windows.media.playto/code/PlayTo_SlideShow1/javascript/default.js#SnippetPlayToContract)]
 

@@ -60,7 +60,7 @@ The following example shows how to use the [Begin](storyboard_begin.md), [Stop](
 
 [!code-vb[Interactive_animation](../windows.ui.xaml.media.animation/code/interactive_animation/vbnet/Page.xaml.vb#SnippetInteractive_animation)]
 
-[!code-cs[Interactive_animation_cs](../windows.ui.xaml.media.animation/code/interactive_animation/csharp/Page.xaml.cs#SnippetInteractive_animation_cs)]
+[!code-csharp[Interactive_animation_cs](../windows.ui.xaml.media.animation/code/interactive_animation/csharp/Page.xaml.cs#SnippetInteractive_animation_cs)]
 
 [!code-vb[Interactive_animation_cs](../windows.ui.xaml.media.animation/code/interactive_animation/vbnet/Page.xaml.vb#SnippetInteractive_animation_cs)]
 

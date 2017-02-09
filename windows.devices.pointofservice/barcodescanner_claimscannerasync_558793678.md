@@ -22,7 +22,7 @@ When the method completes, it returns a [ClaimedBarcodeScanner](claimedbarcodesc
 
 [!code-cpp[ClaimBarcodeScanner](../windows.devices.pointofservice/code/BarcodeScanner/cpp/Scenario1.xaml.cpp#SnippetClaimBarcodeScanner)]
 
-[!code-cs[ClaimBarcodeScanner](../windows.devices.pointofservice/code/BarcodeScanner/cs/Scenario1.xaml.cs#SnippetClaimBarcodeScanner)]
+[!code-csharp[ClaimBarcodeScanner](../windows.devices.pointofservice/code/BarcodeScanner/cs/Scenario1.xaml.cs#SnippetClaimBarcodeScanner)]
 
 [!code-js[CreateBarcodeScannerJS](../windows.devices.pointofservice/code/BarcodeScanner/js/scenario1.js#SnippetCreateBarcodeScannerJS)]
 

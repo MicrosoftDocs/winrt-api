@@ -20,7 +20,7 @@ A new proximity device that uses the default proximity provider. Returns **NULL*
 ## -examples
 
 
-[!code-cs[ArriveDepart](../windows.networking.proximity/code/ProximityReferenceSample/csharp/MainPage.xaml.cs#SnippetArriveDepart)]
+[!code-csharp[ArriveDepart](../windows.networking.proximity/code/ProximityReferenceSample/csharp/MainPage.xaml.cs#SnippetArriveDepart)]
 
 [!code-js[ArriveDepart](../windows.networking.proximity/code/ProximityReferenceSample/js/default.js#SnippetArriveDepart)]
 

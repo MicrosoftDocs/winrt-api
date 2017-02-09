@@ -25,7 +25,7 @@ The following example shows how to enumerate through all the current phone lines
 
 
 
-[!code-cs[GetLinesCS](../windows.applicationmodel.calls/code/ApplicationModel.Calls/cs/Scenario1.cs#SnippetGetLinesCS)]
+[!code-csharp[GetLinesCS](../windows.applicationmodel.calls/code/ApplicationModel.Calls/cs/Scenario1.cs#SnippetGetLinesCS)]
 
 ## -examples
 

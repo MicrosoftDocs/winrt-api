@@ -56,7 +56,7 @@ The following example shows how to create a [StackPanel](stackpanel.md) of items
 
 [!code-xml[02](../windows.ui.xaml.controls/code/StackPanel1/csharp/Page.xaml#Snippet02)]
 
-[!code-cs[01](../windows.ui.xaml.controls/code/StackPanel1/csharp/Page.xaml.cs#Snippet01)]
+[!code-csharp[01](../windows.ui.xaml.controls/code/StackPanel1/csharp/Page.xaml.cs#Snippet01)]
 
 [!code-vb[01](../windows.ui.xaml.controls/code/StackPanel1/vbnet/Page.xaml.vb#Snippet01)]
 

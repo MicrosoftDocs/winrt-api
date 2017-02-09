@@ -26,7 +26,7 @@ This example implements a utility method that reports the default value of a giv
 
 
 
-[!code-cs[DPGetMetadata](../windows.ui.xaml/code/DOandDP/csharp/Class1.cs#SnippetDPGetMetadata)]
+[!code-csharp[DPGetMetadata](../windows.ui.xaml/code/DOandDP/csharp/Class1.cs#SnippetDPGetMetadata)]
 
 [!code-vb[DPGetMetadata](../windows.ui.xaml/code/DOandDP/vbnet/Class1.vb#SnippetDPGetMetadata)]
 

@@ -38,25 +38,25 @@ You can use the [PublishMessage](proximitydevice_publishmessage.md) method to pu
 ## -examples
 
 
-[!code-cs[Initialize](../windows.networking.proximity/code/Proximity_PublishUri/csharp/MainPage.xaml.cs#SnippetInitialize)]
+[!code-csharp[Initialize](../windows.networking.proximity/code/Proximity_PublishUri/csharp/MainPage.xaml.cs#SnippetInitialize)]
 
 [!code-js[Initialize](../windows.networking.proximity/code/Proximity_PublishUri/js/default.js#SnippetInitialize)]
 
 [!code-vb[Initialize](../windows.networking.proximity/code/Proximity_PublishUri/vbnet/MainPage.xaml.vb#SnippetInitialize)]
 
-[!code-cs[Initialize](../windows.networking.proximity/code/Proximity_PublishUri/csharp/MainPage.xaml.cs#SnippetInitialize)]
+[!code-csharp[Initialize](../windows.networking.proximity/code/Proximity_PublishUri/csharp/MainPage.xaml.cs#SnippetInitialize)]
 
 [!code-js[Initialize](../windows.networking.proximity/code/Proximity_PublishUri/js/default.js#SnippetInitialize)]
 
 [!code-vb[Initialize](../windows.networking.proximity/code/Proximity_PublishUri/vbnet/MainPage.xaml.vb#SnippetInitialize)]
 
-[!code-cs[PublishSubscribeUri](../windows.networking.proximity/code/Proximity_PublishUri/csharp/MainPage.xaml.cs#SnippetPublishSubscribeUri)]
+[!code-csharp[PublishSubscribeUri](../windows.networking.proximity/code/Proximity_PublishUri/csharp/MainPage.xaml.cs#SnippetPublishSubscribeUri)]
 
 [!code-js[PublishSubscribeUri](../windows.networking.proximity/code/Proximity_PublishUri/js/default.js#SnippetPublishSubscribeUri)]
 
 [!code-vb[PublishSubscribeUri](../windows.networking.proximity/code/Proximity_PublishUri/vbnet/MainPage.xaml.vb#SnippetPublishSubscribeUri)]
 
-[!code-cs[PublishSubscribeUri](../windows.networking.proximity/code/Proximity_PublishUri/csharp/MainPage.xaml.cs#SnippetPublishSubscribeUri)]
+[!code-csharp[PublishSubscribeUri](../windows.networking.proximity/code/Proximity_PublishUri/csharp/MainPage.xaml.cs#SnippetPublishSubscribeUri)]
 
 [!code-js[PublishSubscribeUri](../windows.networking.proximity/code/Proximity_PublishUri/js/default.js#SnippetPublishSubscribeUri)]
 

@@ -42,7 +42,7 @@ This example shows a [PropertyChangedCallback](propertychangedcallback.md) imple
 
 
 
-[!code-cs[ValueChangedCallback](../windows.ui.xaml/code/NumericUpDownCustomControl/csharp/NumericUpDownCustomControl.cs#SnippetValueChangedCallback)]
+[!code-csharp[ValueChangedCallback](../windows.ui.xaml/code/NumericUpDownCustomControl/csharp/NumericUpDownCustomControl.cs#SnippetValueChangedCallback)]
 
 [!code-vb[ValueChangedCallback](../windows.ui.xaml/code/NumericUpDownCustomControl/vbnet/NumericUpDown.vb#SnippetValueChangedCallback)]
 

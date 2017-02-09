@@ -34,7 +34,7 @@ This example shows a common scenario where you use the [ActualHeight](frameworke
 
 [!code-cpp[FEActualHeight](../windows.ui.xaml/code/BaseElementEvents/cpp/PageWithAppBar.xaml.cpp#SnippetFEActualHeight)]
 
-[!code-cs[FEActualHeight](../windows.ui.xaml/code/BaseElementEvents/csharp/PageWithAppBar.xaml.cs#SnippetFEActualHeight)]
+[!code-csharp[FEActualHeight](../windows.ui.xaml/code/BaseElementEvents/csharp/PageWithAppBar.xaml.cs#SnippetFEActualHeight)]
 
 [!code-vb[FEActualHeight](../windows.ui.xaml/code/BaseElementEvents/vbnet/PageWithAppBar.xaml.vb#SnippetFEActualHeight)]
 

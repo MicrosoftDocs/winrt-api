@@ -17,7 +17,7 @@ For an example of creating a software Play To receiver, see [Media casting](http
 
 
 
-[!code-cs[SourceChangeRequested](../windows.media.playto/code/PlayTo_Receiver1/csharp/MainPage.xaml.cs#SnippetSourceChangeRequested)]
+[!code-csharp[SourceChangeRequested](../windows.media.playto/code/PlayTo_Receiver1/csharp/MainPage.xaml.cs#SnippetSourceChangeRequested)]
 
 [!code-js[SourceChangeRequested](../windows.media.playto/code/PlayTo_Receiver1/javascript/default.js#SnippetSourceChangeRequested)]
 

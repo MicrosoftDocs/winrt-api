@@ -21,6 +21,6 @@ The name of a [cryptographic service provider](XREF:TODO:security.c_gly) ([CSP](
 ## -examples
 
 
-[!code-cs[ShowKspName] (../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowKspName)]
+[!code-csharp[ShowKspName] (../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowKspName)]
 
 ## -see-also

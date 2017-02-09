@@ -24,6 +24,6 @@ Output buffer that contains the decoded string.
 ## -examples
 
 
-[!code-cs[ShowHexEncoding] (../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowHexEncoding)]
+[!code-csharp[ShowHexEncoding] (../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowHexEncoding)]
 
 ## -see-also

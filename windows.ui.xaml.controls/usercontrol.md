@@ -32,7 +32,7 @@ The following examples demonstrate creating a [UserControl](usercontrol.md) and 
 
 [!code-xml[1](../windows.ui.xaml.controls.primitives/code/UserControlSnippets/csharp/NameReporter.xaml#Snippet1)]
 
-[!code-cs[2](../windows.ui.xaml.controls.primitives/code/UserControlSnippets/csharp/NameReporter.xaml.cs#Snippet2)]
+[!code-csharp[2](../windows.ui.xaml.controls.primitives/code/UserControlSnippets/csharp/NameReporter.xaml.cs#Snippet2)]
 
 [!code-vb[2](../windows.ui.xaml.controls.primitives/code/UserControlSnippets/vbnet/NameReporter.xaml.vb#Snippet2)]
 

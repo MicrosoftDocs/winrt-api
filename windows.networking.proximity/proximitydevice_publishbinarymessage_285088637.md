@@ -92,13 +92,13 @@ This protocol will launch a properly configured application to handle these even
 ## -examples
 
 
-[!code-cs[LaunchAppWriteTag2](../windows.networking.proximity/code/Proximity_PublishBinaryMessage/csharp/MainPage.xaml.cs#SnippetLaunchAppWriteTag2)]
+[!code-csharp[LaunchAppWriteTag2](../windows.networking.proximity/code/Proximity_PublishBinaryMessage/csharp/MainPage.xaml.cs#SnippetLaunchAppWriteTag2)]
 
 [!code-js[LaunchAppWriteTag2](../windows.networking.proximity/code/Proximity_PublishBinaryMessage/js/default.js#SnippetLaunchAppWriteTag2)]
 
 [!code-vb[LaunchAppWriteTag2](../windows.networking.proximity/code/Proximity_PublishBinaryMessage/vbnet/MainPage.xaml.vb#SnippetLaunchAppWriteTag2)]
 
-[!code-cs[LaunchAppWriteTag2](../windows.networking.proximity/code/Proximity_PublishBinaryMessage/csharp/MainPage.xaml.cs#SnippetLaunchAppWriteTag2)]
+[!code-csharp[LaunchAppWriteTag2](../windows.networking.proximity/code/Proximity_PublishBinaryMessage/csharp/MainPage.xaml.cs#SnippetLaunchAppWriteTag2)]
 
 [!code-js[LaunchAppWriteTag2](../windows.networking.proximity/code/Proximity_PublishBinaryMessage/js/default.js#SnippetLaunchAppWriteTag2)]
 

@@ -38,7 +38,7 @@ The following example applies a [FadeInThemeAnimation](fadeinthemeanimation.md) 
 
 [!code-xml[FadeThemeAnimation](../windows.ui.xaml.media.animation/code/FadeInThemeAnimation/csharp/BlankPage.xaml#SnippetFadeThemeAnimation)]
 
-[!code-cs[FadeThemeAnimation_code](../windows.ui.xaml.media.animation/code/FadeInThemeAnimation/csharp/BlankPage.xaml.cs#SnippetFadeThemeAnimation_code)]
+[!code-csharp[FadeThemeAnimation_code](../windows.ui.xaml.media.animation/code/FadeInThemeAnimation/csharp/BlankPage.xaml.cs#SnippetFadeThemeAnimation_code)]
 
 ## -see-also
 [Timeline](timeline.md), [Animating fades](http://msdn.microsoft.com/library/21be4a46-8d63-451f-ae34-23c9e11f62da), [Guidelines and checklist for fade animations](XREF:TODO:m_personality.guidelines_for_fade_animations)

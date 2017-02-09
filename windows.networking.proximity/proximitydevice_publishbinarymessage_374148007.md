@@ -51,7 +51,7 @@ For details on the types of messages that you can publish with the [PublishBinar
 ## -examples
 
 
-[!code-cs[LaunchAppWriteTag1](../windows.networking.proximity/code/Proximity_PublishBinaryMessage/csharp/MainPage.xaml.cs#SnippetLaunchAppWriteTag1)]
+[!code-csharp[LaunchAppWriteTag1](../windows.networking.proximity/code/Proximity_PublishBinaryMessage/csharp/MainPage.xaml.cs#SnippetLaunchAppWriteTag1)]
 
 [!code-js[LaunchAppWriteTag1](../windows.networking.proximity/code/Proximity_PublishBinaryMessage/js/default.js#SnippetLaunchAppWriteTag1)]
 

@@ -34,7 +34,7 @@ This XAML example applies a [ExponentialEase](exponentialease.md) easing functio
 
 [!code-vb[ExponentialEase](../windows.ui.xaml.media.animation/code/ExponentialEase/vbnet/MainPage.xaml.vb#SnippetExponentialEase)]
 
-[!code-cs[ExponentialEase_code](../windows.ui.xaml.media.animation/code/ExponentialEase/csharp/Page.xaml.cs#SnippetExponentialEase_code)]
+[!code-csharp[ExponentialEase_code](../windows.ui.xaml.media.animation/code/ExponentialEase/csharp/Page.xaml.cs#SnippetExponentialEase_code)]
 
 [!code-vb[ExponentialEase_code](../windows.ui.xaml.media.animation/code/ExponentialEase/vbnet/MainPage.xaml.vb#SnippetExponentialEase_code)]
 

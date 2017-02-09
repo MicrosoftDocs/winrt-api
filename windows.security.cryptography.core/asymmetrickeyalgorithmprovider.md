@@ -32,7 +32,7 @@ The aspects of the preceding process that can be addressed in code are shown by 
 
 
 
-[!code-cs[ShowAsymmKeyAlgOverview] (../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowAsymmKeyAlgOverview)]
+[!code-csharp[ShowAsymmKeyAlgOverview] (../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowAsymmKeyAlgOverview)]
 
 ## -see-also
 [CryptographicEngine](cryptographicengine.md), [CryptographicKey](cryptographickey.md), [SymmetricKeyAlgorithmProvider](symmetrickeyalgorithmprovider.md)

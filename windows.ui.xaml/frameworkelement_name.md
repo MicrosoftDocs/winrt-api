@@ -64,7 +64,7 @@ This example gets a value for [Name](frameworkelement_name.md) from an existing 
 
 
 
-[!code-cs[Change_targetname_1_cs](../windows.ui.xaml/code/change_targetname_1/csharp/Page.xaml.cs#SnippetChange_targetname_1_cs)]
+[!code-csharp[Change_targetname_1_cs](../windows.ui.xaml/code/change_targetname_1/csharp/Page.xaml.cs#SnippetChange_targetname_1_cs)]
 
 [!code-vb[Change_targetname_1_cs](../windows.ui.xaml/code/change_targetname_1/vbnet/Page.xaml.vb#SnippetChange_targetname_1_cs)]
 
