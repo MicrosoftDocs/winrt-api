@@ -18,5 +18,6 @@ The trigger mode.
 ## -remarks
 
 ## -see-also
+[Windows.Devices.Bluetooth.Background.BluetoothEventTriggeringMode](bluetootheventtriggeringmode.md)
 
 ## -examples
