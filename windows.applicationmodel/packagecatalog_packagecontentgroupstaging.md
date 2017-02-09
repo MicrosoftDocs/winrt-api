@@ -10,7 +10,7 @@ public event TypedEventHandler PackageContentGroupStaging<PackageCatalog, Packag
 # Windows.ApplicationModel.PackageCatalog.PackageContentGroupStaging
 
 ## -description
-Event that is fired when a package content group starts downloading.
+Event that is fired when a package content group starts staging.
 
 ## -remarks
 

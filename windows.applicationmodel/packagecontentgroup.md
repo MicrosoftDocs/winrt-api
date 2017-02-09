@@ -13,7 +13,7 @@ public class PackageContentGroup
 Provides information about a package content group.
 
 ## -remarks
-A package content group allows you to segment a large app into different groups. A group may be automatic which means it can be downloaded in the background or on-demand. A group may be required which means that it will be downloaded before the app is launched.
+A package content group allows you to segment a large app into different groups. A group may be automatic which means it can be downloaded in the background or on-demand. A group may be required which means that it will be downloaded during app install.
 
 ## -see-also
 

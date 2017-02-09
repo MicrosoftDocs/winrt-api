@@ -10,7 +10,7 @@ public IAsyncOperation<PackageContentGroup>> Package.StageContentGroupsAsync(IIt
 # Windows.ApplicationModel.Package.StageContentGroupsAsync
 
 ## -description
-Put the packages in the specified content groups into the download queue; optionally placing the content groups at the head of the download queue.
+Put the packages in the specified content groups into the staging queue; optionally placing the content groups at the head of the queue.
 
 ## -params
 
@@ -18,7 +18,7 @@ Put the packages in the specified content groups into the download queue; option
 The names of the content groups to stage.
 
 ## -param moveToHeadOfQueue
-**True** to move the content group to the head of the download queue; **false** otherwise.
+**True** to move the content group to the head of the staging queue; **false** otherwise.
 
 ## -returns
 A list of [PackageContentGroup](packagecontentgroup.md) objects for each content group specified by the _names_  parameter.
