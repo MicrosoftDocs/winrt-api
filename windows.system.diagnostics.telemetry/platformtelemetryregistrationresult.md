@@ -10,7 +10,7 @@ public class PlatformTelemetryRegistrationResult
 # Windows.System.Diagnostics.Telemetry.PlatformTelemetryRegistrationResult
 
 ## -description
-The result of registering a tenant with or without registration settings.
+The result of registering a client with or without registration settings.
 
 ## -remarks
 > [!IMPORTANT]
