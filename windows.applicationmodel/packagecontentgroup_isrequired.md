@@ -16,7 +16,7 @@ Indicates whether this package content group is required or automatic.
 **True** indicates that the content group is required; **false** otherwise.
 
 ## -remarks
-Required packages are downloaded before the app is launched. Automatic packages can be downloaded on demand. There can only be one required packaged content group per app.
+Required packages are downloaded during app install. Automatic packages are downloaded on demand. There can only be one required packaged content group per app.
 
 ## -see-also
 

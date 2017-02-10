@@ -15,21 +15,21 @@ public enum PackageContentGroupState : int {
 # Windows.ApplicationModel.PackageContentGroupState
 
 ## -description
-Describes the download state of the package content group.
+Describes the staging state of the package content group.
 
 ## -enum-fields
 
 ## -field Staging:2
-The package group is currently being downloaded.
+The package group is currently being staged.
 
 ## -field Staged:3
-The package group has been downloaded.
+The package group has been staged.
 
 ## -field NotStaged:0
-The package group has not been downloaded and is not in the download queue.
+The package group has not been staged and is not in the staging queue.
 
 ## -field Queued:1
-The package has not been downloaded but is in the download queue.
+The package has not been staged but is in queue of packages to be staged.
 
 ## -remarks
 

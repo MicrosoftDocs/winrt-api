@@ -16,6 +16,7 @@ Provides information about all of the package content groups in the app and thei
 A list of package content group objects.
 
 ## -remarks
+The returned collection may be empty if the package does not contain any content groups.
 
 ## -see-also
 

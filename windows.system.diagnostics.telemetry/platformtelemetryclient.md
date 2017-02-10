@@ -10,7 +10,7 @@ public class PlatformTelemetryClient
 # Windows.System.Diagnostics.Telemetry.PlatformTelemetryClient
 
 ## -description
-Provides functionality to register a tenant with the Connected User Experience and Telemetry component.
+Provides functionality to register a client with the Connected User Experience and Telemetry component.
 
 ## -remarks
 > [!IMPORTANT]

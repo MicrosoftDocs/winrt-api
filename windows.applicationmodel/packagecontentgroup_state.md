@@ -10,10 +10,10 @@ public PackageContentGroupState State { get; }
 # Windows.ApplicationModel.PackageContentGroup.State
 
 ## -desc
-Gets the download state of the package content group.
+Gets the state of the package content group.
 
 ## -property-value
-A value describing the package content group download state.
+A value describing the package content group state.
 
 ## -remarks
 

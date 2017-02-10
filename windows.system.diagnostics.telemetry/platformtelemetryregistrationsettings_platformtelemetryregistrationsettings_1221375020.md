@@ -10,7 +10,7 @@ public PlatformTelemetryRegistrationSettings.PlatformTelemetryRegistrationSettin
 # Windows.System.Diagnostics.Telemetry.PlatformTelemetryRegistrationSettings.PlatformTelemetryRegistrationSettings
 
 ## -description
-Settings for registering a tenant.
+Settings for registering a client.
 
 ## -remarks
 

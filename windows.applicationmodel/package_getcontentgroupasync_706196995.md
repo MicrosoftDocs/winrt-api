@@ -18,7 +18,8 @@ Provides information about the package content group such as its state, name, wh
 The name of the content group to get.
 
 ## -returns
-An [PackageContentGroup](packagecontentgroup.md) that contains information such as whether the content group is required, its download state, the package associated with the content group, and so on.
+A [PackageContentGroup](packagecontentgroup.md) that contains information such as whether the content group is required, its state, the package associated with the content group, and so on.
+Returns **Null** if the named content group is not part of this package.
 
 ## -remarks
 

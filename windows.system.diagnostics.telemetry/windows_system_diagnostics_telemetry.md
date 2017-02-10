@@ -10,7 +10,7 @@ namespace Windows.System.Diagnostics.Telemetry
 # Windows.System.Diagnostics.Telemetry
 
 ## -description
-Provides functionality for registering tenants with the Connected User Experience and Telemetry component.
+Provides functionality for registering clients with the Connected User Experience and Telemetry component.
 
 ## -remarks
 > [!IMPORTANT]
