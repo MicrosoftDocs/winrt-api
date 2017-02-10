@@ -11,11 +11,17 @@ public void ElementCompositionPreview.SetImplicitShowAnimation(UIElement element
 
 ## -description
 
+Associates the specified show animation with a UIElement.
+
 ## -parameters
 
 ### -param element
 
+The UIElement to associate the animation with.
+
 ### -param animation
+
+The animation to play when the UIElement is shown. A **Null** value prevents show animations from playing for this element until the method is called again with an animation value.
 
 ## -remarks
 

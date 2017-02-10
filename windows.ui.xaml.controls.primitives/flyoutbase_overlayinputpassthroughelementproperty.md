@@ -10,8 +10,10 @@ public DependencyProperty OverlayInputPassThroughElementProperty { get; }
 # Windows.UI.Xaml.Controls.Primitives.FlyoutBase.OverlayInputPassThroughElementProperty
 
 ## -description
+Identifies the **OverlayInputPassThroughElement** dependency property.
 
 ## -property-value
+The identifier for the **OverlayInputPassThroughElement** dependency property.
 
 ## -remarks
 
