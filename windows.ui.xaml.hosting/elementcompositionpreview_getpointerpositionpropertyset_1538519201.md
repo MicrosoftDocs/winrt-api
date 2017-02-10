@@ -10,12 +10,15 @@ public CompositionPropertySet ElementCompositionPreview.GetPointerPositionProper
 # Windows.UI.Xaml.Hosting.ElementCompositionPreview.GetPointerPositionPropertySet
 
 ## -description
+Retrieves the pointer position relative to a UIElement.
 
 ## -parameters
 
 ### -param targetElement
+The element that the pointer position is relative to.
 
 ## -returns
+The position properties of the pointer.
 
 ## -remarks
 

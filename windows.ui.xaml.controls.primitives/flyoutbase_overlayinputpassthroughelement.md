@@ -11,7 +11,11 @@ public DependencyObject OverlayInputPassThroughElement { get;  set; }
 
 ## -description
 
+Gets or sets an element that should receive pointer input events even when underneath the flyout's overlay. 
+
 ## -property-value
+
+The element that should receive pointer input events even when underneath the flyout's overlay.
 
 ## -remarks
 
