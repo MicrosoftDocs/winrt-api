@@ -38,7 +38,7 @@ This example implements [MeasureOverride](frameworkelement_measureoverride.md) t
 
 
 
-[!code-cs[1](../windows.ui.xaml.controls.primitives/code/BlockPanel/csharp/BlankPage.xaml.cs#Snippet1)][!code-vb[1](../windows.ui.xaml.controls.primitives/code/BlockPanel/vbnet/BlankPage.xaml.vb#Snippet1)]
+[!code-csharp[1](../windows.ui.xaml.controls.primitives/code/BlockPanel/csharp/BlankPage.xaml.cs#Snippet1)][!code-vb[1](../windows.ui.xaml.controls.primitives/code/BlockPanel/vbnet/BlankPage.xaml.vb#Snippet1)]
 
 ## -see-also
 [MeasureOverride](frameworkelement_measureoverride.md), [ArrangeOverride](frameworkelement_arrangeoverride.md), [Define layouts with XAML](http://msdn.microsoft.com/library/8d4e4162-1c9c-48f4-8a94-34976fb17079)

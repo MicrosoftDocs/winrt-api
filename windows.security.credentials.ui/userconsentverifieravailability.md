@@ -38,7 +38,7 @@ The following example shows a method that checks to see if fingerprint authentic
 
 
 
-[!code-cs[1](../windows.security.credentials.ui/code/BiometricAuth/cs/MainPage.xaml.cs#Snippet1)][!code-js[1](../windows.security.credentials.ui/code/BiometricAuth/js/default.js#Snippet1)]
+[!code-csharp[1](../windows.security.credentials.ui/code/BiometricAuth/cs/MainPage.xaml.cs#Snippet1)][!code-js[1](../windows.security.credentials.ui/code/BiometricAuth/js/default.js#Snippet1)]
 
 [!code-js[1_JS](../windows.security.credentials.ui/code/BiometricAuth/js/default.js#Snippet1_JS)]
 
