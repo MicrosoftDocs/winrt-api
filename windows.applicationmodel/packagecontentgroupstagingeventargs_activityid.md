@@ -9,7 +9,7 @@ public Guid ActivityId { get; }
 
 # Windows.ApplicationModel.PackageContentGroupStagingEventArgs.ActivityId
 
-## -desc
+## -description
 Gets the id of the content group staging operation.
 
 ## -property-value

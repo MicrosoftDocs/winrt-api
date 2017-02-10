@@ -9,7 +9,7 @@ public bool IsContentGroupRequired { get; }
 
 # Windows.ApplicationModel.PackageContentGroupStagingEventArgs.IsContentGroupRequired
 
-## -desc
+## -description
 Indicates whether the content group is required.
 
 ## -property-value
