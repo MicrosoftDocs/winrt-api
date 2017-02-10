@@ -13,7 +13,7 @@ public Package Package { get; }
 Gets the package that is being staged.
 
 ## -property-value
-The package being staged.
+The package containing the content group being staged.
 
 ## -remarks
 
