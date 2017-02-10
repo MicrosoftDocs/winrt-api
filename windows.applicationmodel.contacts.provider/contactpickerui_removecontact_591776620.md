@@ -1,3 +1,28 @@
-----api-id: M:Windows.ApplicationModel.Contacts.Provider.ContactPickerUI.RemoveContact(System.String)
+---
+-api-id: M:Windows.ApplicationModel.Contacts.Provider.ContactPickerUI.RemoveContact(System.String)
 -api-type: winrt method
----<!-- Method syntaxpublic void RemoveContact(System.String id)--># Windows.ApplicationModel.Contacts.Provider.ContactPickerUI.RemoveContact## -descriptionRemoves a contact.> [!NOTE]> The [Contact.Id](../windows.applicationmodel.contacts/contact_id.md) property must be set when you call [RemoveContact](contactpickerui_removecontact.md). If [Contact.Id](../windows.applicationmodel.contacts/contact_id.md) isn't set, your app won't be able to remove the contact.## -parameters### -param idThe ID of the contact to remove.## -remarks## -examples## -see-also[Contact Picker app sample](http://go.microsoft.com/fwlink/p/?linkid=231575)
+---
+
+<!-- Method syntax
+public void RemoveContact(System.String id)
+-->
+
+# Windows.ApplicationModel.Contacts.Provider.ContactPickerUI.RemoveContact
+
+## -description
+Removes a contact.
+
+> [!NOTE]
+> The [Contact.Id](../windows.applicationmodel.contacts/contact_id.md) property must be set when you call [RemoveContact](contactpickerui_removecontact.md). If [Contact.Id](../windows.applicationmodel.contacts/contact_id.md) isn't set, your app won't be able to remove the contact.
+
+## -parameters
+### -param id
+The ID of the contact to remove.
+
+## -remarks
+
+
+## -examples
+
+## -see-also
+[Contact Picker app sample](http://go.microsoft.com/fwlink/p/?linkid=231575)

@@ -1,3 +1,35 @@
-----api-id: M:Windows.Gaming.Input.Custom.IGipGameControllerInputSink.OnMessageReceived(System.UInt64,Windows.Gaming.Input.Custom.GipMessageClass,System.Byte,System.Byte,System.Byte[])
+---
+-api-id: M:Windows.Gaming.Input.Custom.IGipGameControllerInputSink.OnMessageReceived(System.UInt64,Windows.Gaming.Input.Custom.GipMessageClass,System.Byte,System.Byte,System.Byte[])
 -api-type: winrt method
----<!-- Method syntaxpublic void OnMessageReceived(System.UInt64 timestamp, Windows.Gaming.Input.Custom.GipMessageClass messageClass, System.Byte messageId, System.Byte sequenceId, System.Byte[] messageBuffer)--># Windows.Gaming.Input.Custom.IGipGameControllerInputSink.OnMessageReceived## -descriptionEvent triggered when a message is received.## -parameters### -param timestampTimestamp of the event.### -param messageClassThe class of the message.### -param messageIdThe ID of the message.### -param sequenceIdSequence ID of the message.### -param messageBufferA buffer containing the message.## -remarks## -examples## -see-also
+---
+
+<!-- Method syntax
+public void OnMessageReceived(System.UInt64 timestamp, Windows.Gaming.Input.Custom.GipMessageClass messageClass, System.Byte messageId, System.Byte sequenceId, System.Byte[] messageBuffer)
+-->
+
+# Windows.Gaming.Input.Custom.IGipGameControllerInputSink.OnMessageReceived
+
+## -description
+Event triggered when a message is received.
+
+## -parameters
+### -param timestamp
+Timestamp of the event.
+
+### -param messageClass
+The class of the message.
+
+### -param messageId
+The ID of the message.
+
+### -param sequenceId
+Sequence ID of the message.
+
+### -param messageBuffer
+A buffer containing the message.
+
+## -remarks
+
+## -examples
+
+## -see-also

@@ -1,3 +1,26 @@
-----api-id: M:Windows.Data.Xml.Dom.XmlCDataSection.SelectSingleNode(System.String)
+---
+-api-id: M:Windows.Data.Xml.Dom.XmlCDataSection.SelectSingleNode(System.String)
 -api-type: winrt method
----<!-- Method syntaxpublic Windows.Data.Xml.Dom.IXmlNode SelectSingleNode(System.String xpath)--># Windows.Data.Xml.Dom.XmlCDataSection.SelectSingleNode## -descriptionApplies the specified pattern-matching operation to this node's context and returns the first matching node. This method is not applicable to this class and will throw an exception.## -parameters### -param xpathSpecifies an XPath expression.## -returnsThe first node that matches the given pattern-matching operation. If no nodes match the expression, the method returns a null value.## -remarks## -examples## -see-also
+---
+
+<!-- Method syntax
+public Windows.Data.Xml.Dom.IXmlNode SelectSingleNode(System.String xpath)
+-->
+
+# Windows.Data.Xml.Dom.XmlCDataSection.SelectSingleNode
+
+## -description
+Applies the specified pattern-matching operation to this node's context and returns the first matching node. This method is not applicable to this class and will throw an exception.
+
+## -parameters
+### -param xpath
+Specifies an XPath expression.
+
+## -returns
+The first node that matches the given pattern-matching operation. If no nodes match the expression, the method returns a null value.
+
+## -remarks
+
+## -examples
+
+## -see-also

@@ -19,19 +19,19 @@ The following example demonstrates how a Windows Store app built with XAML and C
 
 
 
-[!code-cs[GetDefaultCS](../windows.devices.sensors/code/lightsensor/csharp/Scenario1.xaml.cs#SnippetGetDefaultCS)]
+[!code-csharp[GetDefaultCS](../windows.devices.sensors/code/lightsensor/csharp/Scenario1.xaml.cs#SnippetGetDefaultCS)]
 
 The following example demonstrates how a Windows Store app built with XAML registers a [ReadingChanged](lightsensor_readingchanged.md) event handler.
 
 
 
-[!code-cs[EnableReadingChangedCS](../windows.devices.sensors/code/lightsensor/csharp/Scenario1.xaml.cs#SnippetEnableReadingChangedCS)]
+[!code-csharp[EnableReadingChangedCS](../windows.devices.sensors/code/lightsensor/csharp/Scenario1.xaml.cs#SnippetEnableReadingChangedCS)]
 
 The following example shows the [ReadingChanged](lightsensor_readingchanged.md) event handler.
 
 
 
-[!code-cs[ReadingChangedCS](../windows.devices.sensors/code/lightsensor/csharp/Scenario1.xaml.cs#SnippetReadingChangedCS)]
+[!code-csharp[ReadingChangedCS](../windows.devices.sensors/code/lightsensor/csharp/Scenario1.xaml.cs#SnippetReadingChangedCS)]
 
 ## -examples
 

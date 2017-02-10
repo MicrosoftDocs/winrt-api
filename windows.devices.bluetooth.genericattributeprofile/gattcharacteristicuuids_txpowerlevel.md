@@ -1,3 +1,22 @@
-----api-id: P:Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.TxPowerLevel
+---
+-api-id: P:Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.TxPowerLevel
 -api-type: winrt property
----<!-- Property syntaxpublic System.Guid TxPowerLevel { get; }--># Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.TxPowerLevel## -descriptionGets the Bluetooth SIG-defined TxPowerLevel characteristic UUID.## -property-valueThe Bluetooth SIG-defined TxPowerLevel characteristic UUID.## -remarks## -examples## -see-also
+---
+
+<!-- Property syntax
+public System.Guid TxPowerLevel { get; }
+-->
+
+# Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.TxPowerLevel
+
+## -description
+Gets the Bluetooth SIG-defined TxPowerLevel characteristic UUID.
+
+## -property-value
+The Bluetooth SIG-defined TxPowerLevel characteristic UUID.
+
+## -remarks
+
+## -examples
+
+## -see-also

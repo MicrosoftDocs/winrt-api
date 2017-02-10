@@ -1,3 +1,25 @@
-----api-id: P:Windows.ApplicationModel.Contacts.ContactInstantMessageField.LaunchUri
+---
+-api-id: P:Windows.ApplicationModel.Contacts.ContactInstantMessageField.LaunchUri
 -api-type: winrt property
----<!-- Property syntaxpublic Windows.Foundation.Uri LaunchUri { get; }--># Windows.ApplicationModel.Contacts.ContactInstantMessageField.LaunchUri## -description> [!NOTE]> [ContactInstantMessageField](contactinstantmessagefield.md) may be altered or unavailable for releases after Windows 8.1. Instead, use [ContactConnectedServiceAccount](contactconnectedserviceaccount.md).Gets the Uniform Resource Identifier (URI)that can start an instant message.## -property-valueThe Uniform Resource Identifier (URI).## -remarks## -examples## -see-also
+---
+
+<!-- Property syntax
+public Windows.Foundation.Uri LaunchUri { get; }
+-->
+
+# Windows.ApplicationModel.Contacts.ContactInstantMessageField.LaunchUri
+
+## -description
+> [!NOTE]
+> [ContactInstantMessageField](contactinstantmessagefield.md) may be altered or unavailable for releases after Windows 8.1. Instead, use [ContactConnectedServiceAccount](contactconnectedserviceaccount.md).
+
+Gets the Uniform Resource Identifier (URI)that can start an instant message.
+
+## -property-value
+The Uniform Resource Identifier (URI).
+
+## -remarks
+
+## -examples
+
+## -see-also

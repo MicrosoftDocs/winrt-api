@@ -26,7 +26,7 @@ The following example demonstrates how a Windows Store app built with XAML and C
 
 
 
-[!code-cs[GetCurrentReadingCS](../windows.devices.sensors/code/Accelerometer/cs/Scenario3.xaml.cs#SnippetGetCurrentReadingCS)]
+[!code-csharp[GetCurrentReadingCS](../windows.devices.sensors/code/Accelerometer/cs/Scenario3.xaml.cs#SnippetGetCurrentReadingCS)]
 
 The following example demonstrates how a Windows Store app built for Windows using JavaScript retrieves the current reading for the three axes of the default accelerometer.
 

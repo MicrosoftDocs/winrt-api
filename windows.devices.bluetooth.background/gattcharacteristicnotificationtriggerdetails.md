@@ -1,3 +1,19 @@
-----api-id: T:Windows.Devices.Bluetooth.Background.GattCharacteristicNotificationTriggerDetails
+---
+-api-id: T:Windows.Devices.Bluetooth.Background.GattCharacteristicNotificationTriggerDetails
 -api-type: winrt class
----<!-- Class syntax.public class GattCharacteristicNotificationTriggerDetails : Windows.Devices.Bluetooth.Background.IGattCharacteristicNotificationTriggerDetails, Windows.Devices.Bluetooth.Background.IGattCharacteristicNotificationTriggerDetails2--># Windows.Devices.Bluetooth.Background.GattCharacteristicNotificationTriggerDetails## -descriptionProvides information about the Bluetooth LE device that caused this trigger to fire.## -remarks## -examples## -see-also
+---
+
+<!-- Class syntax.
+public class GattCharacteristicNotificationTriggerDetails : Windows.Devices.Bluetooth.Background.IGattCharacteristicNotificationTriggerDetails, Windows.Devices.Bluetooth.Background.IGattCharacteristicNotificationTriggerDetails2
+-->
+
+# Windows.Devices.Bluetooth.Background.GattCharacteristicNotificationTriggerDetails
+
+## -description
+Provides information about the Bluetooth LE device that caused this trigger to fire.
+
+## -remarks
+
+## -examples
+
+## -see-also

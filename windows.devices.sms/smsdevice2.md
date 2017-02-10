@@ -1,3 +1,27 @@
-----api-id: T:Windows.Devices.Sms.SmsDevice2
+---
+-api-id: T:Windows.Devices.Sms.SmsDevice2
 -api-type: winrt class
----<!-- Class syntax.public class SmsDevice2 : Windows.Devices.Sms.ISmsDevice2--># Windows.Devices.Sms.SmsDevice2## -descriptionExtends the [SmsDevice](smsdevice.md) class, and supports the operation of a mobile broadband SMS device.> [!NOTE]> This functionality is only available to mobile operator apps and Windows Store app given privileged access by mobile network operators, mobile broadband adapter IHV, or OEM. For more information, see [Mobile Broadband:  device apps](http://msdn.microsoft.com/library/windows/hardware/hh852368.aspx).## -remarksUse this class as you would use the [SmsDevice](smsdevice.md) class, when you need the additional properties and methods this class provides.## -examples## -see-also## -capabilitiescellularMessaging
+---
+
+<!-- Class syntax.
+public class SmsDevice2 : Windows.Devices.Sms.ISmsDevice2
+-->
+
+# Windows.Devices.Sms.SmsDevice2
+
+## -description
+Extends the [SmsDevice](smsdevice.md) class, and supports the operation of a mobile broadband SMS device.
+
+> [!NOTE]
+> This functionality is only available to mobile operator apps and Windows Store app given privileged access by mobile network operators, mobile broadband adapter IHV, or OEM. For more information, see [Mobile Broadband:  device apps](http://msdn.microsoft.com/library/windows/hardware/hh852368.aspx).
+
+## -remarks
+Use this class as you would use the [SmsDevice](smsdevice.md) class, when you need the additional properties and methods this class provides.
+
+## -examples
+
+## -see-also
+
+
+## -capabilities
+cellularMessaging

@@ -37,7 +37,7 @@ For a complete sample that contains the following code example, see the [KeyDeri
 ## -examples
 
 
-[!code-cs[ShowDerivationFromPbkdf] (../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowDerivationFromPbkdf)]
+[!code-csharp[ShowDerivationFromPbkdf] (../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowDerivationFromPbkdf)]
 
 ## -see-also
 [KeyDerivationAlgorithmProvider](keyderivationalgorithmprovider.md), [KeyDerivationParameters](keyderivationparameters.md)

@@ -9,7 +9,7 @@ public BackgroundTaskRegistrationGroup TaskGroup { get;  set; }
 
 # Windows.ApplicationModel.Background.BackgroundTaskBuilder.TaskGroup
 
-## -desc
+## -description
 Gets and sets the group identifier.
 
 ## -property-value

@@ -20,6 +20,6 @@ Here is some code that creates an instance of the [VideoEncodingProperties](vide
 
 
 
-[!code-cs[VideoPropertiesH264ProfileID](../windows.media.mediaproperties/code/MediaProperties/csharp/MainPage.xaml.cs#SnippetVideoPropertiesH264ProfileID)]
+[!code-csharp[VideoPropertiesH264ProfileID](../windows.media.mediaproperties/code/MediaProperties/csharp/MainPage.xaml.cs#SnippetVideoPropertiesH264ProfileID)]
 
 ## -see-also

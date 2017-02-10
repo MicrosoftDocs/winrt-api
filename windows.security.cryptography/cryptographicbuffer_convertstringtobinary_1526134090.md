@@ -27,6 +27,6 @@ Encoded buffer.
 ## -examples
 
 
-[!code-cs[ShowBinaryConversion] (../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowBinaryConversion)]
+[!code-csharp[ShowBinaryConversion] (../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowBinaryConversion)]
 
 ## -see-also

@@ -56,7 +56,7 @@ The following snippet includes both the [Click](../windows.ui.xaml.controls.prim
 
 
 
-[!code-cs[CustomToggleMain](../windows.ui.input.inking/code/Ink_Basic_InkToolbar/csharp/MainPage_AddCustomToggle.xaml.cs#SnippetCustomToggleMain)]
+[!code-csharp[CustomToggleMain](../windows.ui.input.inking/code/Ink_Basic_InkToolbar/csharp/MainPage_AddCustomToggle.xaml.cs#SnippetCustomToggleMain)]
 
 ## -see-also
 [Windows.UI.Xaml.Controls classes](windows_ui_xaml_controls_classes.md)

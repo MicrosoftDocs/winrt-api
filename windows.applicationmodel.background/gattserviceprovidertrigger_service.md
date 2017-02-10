@@ -9,7 +9,7 @@ public GattLocalService Service { get; }
 
 # Windows.ApplicationModel.Background.GattServiceProviderTrigger.Service
 
-## -desc
+## -description
 Gets the service associated with this trigger.
 
 ## -property-value

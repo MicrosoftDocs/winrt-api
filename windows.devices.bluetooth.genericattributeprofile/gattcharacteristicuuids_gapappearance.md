@@ -1,3 +1,22 @@
-----api-id: P:Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.GapAppearance
+---
+-api-id: P:Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.GapAppearance
 -api-type: winrt property
----<!-- Property syntaxpublic System.Guid GapAppearance { get; }--># Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.GapAppearance## -descriptionGets the Bluetooth SIG-defined GapAppearance characteristic UUID.## -property-valueThe Bluetooth SIG-defined GapAppearance characteristic UUID.## -remarks## -examples## -see-also
+---
+
+<!-- Property syntax
+public System.Guid GapAppearance { get; }
+-->
+
+# Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.GapAppearance
+
+## -description
+Gets the Bluetooth SIG-defined GapAppearance characteristic UUID.
+
+## -property-value
+The Bluetooth SIG-defined GapAppearance characteristic UUID.
+
+## -remarks
+
+## -examples
+
+## -see-also

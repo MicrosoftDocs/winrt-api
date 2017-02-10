@@ -1,3 +1,22 @@
-----api-id: M:Windows.Devices.Bluetooth.Rfcomm.RfcommServiceId.AsString
+---
+-api-id: M:Windows.Devices.Bluetooth.Rfcomm.RfcommServiceId.AsString
 -api-type: winrt method
----<!-- Method syntaxpublic string AsString()--># Windows.Devices.Bluetooth.Rfcomm.RfcommServiceId.AsString## -descriptionConverts the RfcommServiceId to a string.## -returnsReturns the string representation of the 128-bit service id.## -remarks## -examples## -see-also
+---
+
+<!-- Method syntax
+public string AsString()
+-->
+
+# Windows.Devices.Bluetooth.Rfcomm.RfcommServiceId.AsString
+
+## -description
+Converts the RfcommServiceId to a string.
+
+## -returns
+Returns the string representation of the 128-bit service id.
+
+## -remarks
+
+## -examples
+
+## -see-also
