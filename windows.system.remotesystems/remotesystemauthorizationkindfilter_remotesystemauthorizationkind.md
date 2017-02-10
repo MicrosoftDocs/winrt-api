@@ -10,8 +10,11 @@ public RemoteSystemAuthorizationKind RemoteSystemAuthorizationKind { get; }
 # Windows.System.RemoteSystems.RemoteSystemAuthorizationKindFilter.RemoteSystemAuthorizationKind
 
 ## -description
+The authorization kind setting that the containing [RemoteSystemAuthorizationKindFilter](RemoteSystemAuthorizationKindFilter.md) object targets.
+
 
 ## -property-value
+The authorization kind to target.
 
 ## -remarks
 

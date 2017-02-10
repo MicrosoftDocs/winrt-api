@@ -10,12 +10,15 @@ public string LaunchUri { get; }
 # Windows.System.RemoteSystems.KnownRemoteSystemCapabilities.LaunchUri
 
 ## -description
+Gets the canonical string name of the launch URI capability.
 
 ## -property-value
+The canonical string name of the launch URI capability.
 
 ## -remarks
 
 ## -see-also
+TBD
 
 ## -examples
 

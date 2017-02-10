@@ -10,12 +10,15 @@ public string SpatialEntity { get; }
 # Windows.System.RemoteSystems.KnownRemoteSystemCapabilities.SpatialEntity
 
 ## -description
+Gets the canonical string name of the spatial entity capability.
 
 ## -property-value
+The canonical string name of the spatial entity capability.
 
 ## -remarks
 
 ## -see-also
+TBD
 
 ## -examples
 
