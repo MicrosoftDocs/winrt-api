@@ -13,7 +13,7 @@ public void AddHttpRoutePolicy(Windows.Networking.Connectivity.RoutePolicy route
 Specifies a [RoutePolicy](routepolicy.md) that the Http stack (WinInet) will follow when routing traffic.
 
 ## -parameters
-### -param RoutePolicy
+### -param routePolicy
 Indicates the policy for traffic routing.
 
 ## -remarks

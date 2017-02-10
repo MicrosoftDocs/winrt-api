@@ -13,7 +13,7 @@ public void RemoveHttpRoutePolicy(Windows.Networking.Connectivity.RoutePolicy ro
 Removes a previously specified [RoutePolicy](routepolicy.md) from the Http stack (WinInet).
 
 ## -parameters
-### -param RoutePolicy
+### -param routePolicy
 The [RoutePolicy](routepolicy.md) to remove.
 
 ## -remarks
