@@ -9,7 +9,7 @@ public IMapView<BackgroundTaskRegistration> AllTasks { get; }
 
 # Windows.ApplicationModel.Background.BackgroundTaskRegistrationGroup.AllTasks
 
-## -desc
+## -description
 Gets all of the background tasks that belong to the group.
 
 ## -property-value
