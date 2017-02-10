@@ -1,3 +1,22 @@
-----api-id: M:Windows.Storage.Streams.IDataReader.ReadUInt64
+---
+-api-id: M:Windows.Storage.Streams.IDataReader.ReadUInt64
 -api-type: winrt method
----<!-- Method syntaxpublic ulong ReadUInt64()--># Windows.Storage.Streams.IDataReader.ReadUInt64## -descriptionReads a 64-bit unsigned integer from the input stream.## -returnsThe value.## -remarks## -examples## -see-also
+---
+
+<!-- Method syntax
+public ulong ReadUInt64()
+-->
+
+# Windows.Storage.Streams.IDataReader.ReadUInt64
+
+## -description
+Reads a 64-bit unsigned integer from the input stream.
+
+## -returns
+The value.
+
+## -remarks
+
+## -examples
+
+## -see-also

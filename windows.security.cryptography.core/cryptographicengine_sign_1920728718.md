@@ -30,6 +30,6 @@ For more information about signing digital data, see [MACs, hashes, and signatur
 ## -examples
 
 
-[!code-cs[ShowSigning] (../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowSigning)]
+[!code-csharp[ShowSigning] (../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowSigning)]
 
 ## -see-also

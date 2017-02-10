@@ -1,3 +1,23 @@
-----api-id: P:Windows.ApplicationModel.Wallet.WalletItem.BodyBackgroundImage
+---
+-api-id: P:Windows.ApplicationModel.Wallet.WalletItem.BodyBackgroundImage
 -api-type: winrt property
----<!-- Property syntaxpublic Windows.Storage.Streams.IRandomAccessStreamReference BodyBackgroundImage { get;  set; }--># Windows.ApplicationModel.Wallet.WalletItem.BodyBackgroundImage## -descriptionGets or sets the background image of the body of the wallet item (uses a stream).## -property-valueThe background image of the body of the wallet item. This is a stream that contains the bitmap image.## -remarks## -examples## -see-also[IRandomAccessStreamReference](../windows.storage.streams/irandomaccessstreamreference.md), [StorageFile.GetFileFromApplicationUriAsync](../windows.storage/storagefile_getfilefromapplicationuriasync.md), [RandomAccessStreamReference.CreateFromUri](../windows.storage.streams/randomaccessstreamreference_createfromuri.md), [RandomAccessStreamReference.CreateFromFile](../windows.storage.streams/randomaccessstreamreference_createfromfile.md)
+---
+
+<!-- Property syntax
+public Windows.Storage.Streams.IRandomAccessStreamReference BodyBackgroundImage { get;  set; }
+-->
+
+# Windows.ApplicationModel.Wallet.WalletItem.BodyBackgroundImage
+
+## -description
+Gets or sets the background image of the body of the wallet item (uses a stream).
+
+## -property-value
+The background image of the body of the wallet item. This is a stream that contains the bitmap image.
+
+## -remarks
+
+## -examples
+
+## -see-also
+[IRandomAccessStreamReference](../windows.storage.streams/irandomaccessstreamreference.md), [StorageFile.GetFileFromApplicationUriAsync](../windows.storage/storagefile_getfilefromapplicationuriasync.md), [RandomAccessStreamReference.CreateFromUri](../windows.storage.streams/randomaccessstreamreference_createfromuri.md), [RandomAccessStreamReference.CreateFromFile](../windows.storage.streams/randomaccessstreamreference_createfromfile.md)

@@ -1,3 +1,22 @@
-----api-id: P:Windows.Devices.HumanInterfaceDevice.HidNumericControlDescription.UnitExponent
+---
+-api-id: P:Windows.Devices.HumanInterfaceDevice.HidNumericControlDescription.UnitExponent
 -api-type: winrt property
----<!-- Property syntaxpublic uint UnitExponent { get; }--># Windows.Devices.HumanInterfaceDevice.HidNumericControlDescription.UnitExponent## -descriptionRetrieves the unit exponent for the given numeric control.## -property-valueThe unit exponent.## -remarks## -examples## -see-also
+---
+
+<!-- Property syntax
+public uint UnitExponent { get; }
+-->
+
+# Windows.Devices.HumanInterfaceDevice.HidNumericControlDescription.UnitExponent
+
+## -description
+Retrieves the unit exponent for the given numeric control.
+
+## -property-value
+The unit exponent.
+
+## -remarks
+
+## -examples
+
+## -see-also

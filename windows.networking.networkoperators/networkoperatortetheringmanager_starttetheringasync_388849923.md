@@ -1,3 +1,22 @@
-----api-id: M:Windows.Networking.NetworkOperators.NetworkOperatorTetheringManager.StartTetheringAsync
+---
+-api-id: M:Windows.Networking.NetworkOperators.NetworkOperatorTetheringManager.StartTetheringAsync
 -api-type: winrt method
----<!-- Method syntaxpublic Windows.Foundation.IAsyncOperation<Windows.Networking.NetworkOperators.NetworkOperatorTetheringOperationResult> StartTetheringAsync()--># Windows.Networking.NetworkOperators.NetworkOperatorTetheringManager.StartTetheringAsync## -descriptionEstablishes the tethering network.## -returnsThe result of the tethering network operation.## -remarks## -examples## -see-also
+---
+
+<!-- Method syntax
+public Windows.Foundation.IAsyncOperation<Windows.Networking.NetworkOperators.NetworkOperatorTetheringOperationResult> StartTetheringAsync()
+-->
+
+# Windows.Networking.NetworkOperators.NetworkOperatorTetheringManager.StartTetheringAsync
+
+## -description
+Establishes the tethering network.
+
+## -returns
+The result of the tethering network operation.
+
+## -remarks
+
+## -examples
+
+## -see-also

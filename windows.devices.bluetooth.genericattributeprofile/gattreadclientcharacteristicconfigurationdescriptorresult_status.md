@@ -1,3 +1,23 @@
-----api-id: P:Windows.Devices.Bluetooth.GenericAttributeProfile.GattReadClientCharacteristicConfigurationDescriptorResult.Status
+---
+-api-id: P:Windows.Devices.Bluetooth.GenericAttributeProfile.GattReadClientCharacteristicConfigurationDescriptorResult.Status
 -api-type: winrt property
----<!-- Property syntaxpublic Windows.Devices.Bluetooth.GenericAttributeProfile.GattCommunicationStatus Status { get; }--># Windows.Devices.Bluetooth.GenericAttributeProfile.GattReadClientCharacteristicConfigurationDescriptorResult.Status## -descriptionGets the status of an asynchronous operation.## -property-valueThe status of the asynchronous operation.## -remarks## -examples## -see-also[ReadClientCharacteristicConfigurationDescriptorAsync](gattcharacteristic_readclientcharacteristicconfigurationdescriptorasync.md)
+---
+
+<!-- Property syntax
+public Windows.Devices.Bluetooth.GenericAttributeProfile.GattCommunicationStatus Status { get; }
+-->
+
+# Windows.Devices.Bluetooth.GenericAttributeProfile.GattReadClientCharacteristicConfigurationDescriptorResult.Status
+
+## -description
+Gets the status of an asynchronous operation.
+
+## -property-value
+The status of the asynchronous operation.
+
+## -remarks
+
+## -examples
+
+## -see-also
+[ReadClientCharacteristicConfigurationDescriptorAsync](gattcharacteristic_readclientcharacteristicconfigurationdescriptorasync.md)

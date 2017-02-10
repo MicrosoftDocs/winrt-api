@@ -1,3 +1,20 @@
-----api-id: T:Windows.Networking.NetworkOperators.NetworkOperatorTetheringClient
+---
+-api-id: T:Windows.Networking.NetworkOperators.NetworkOperatorTetheringClient
 -api-type: winrt class
----<!-- Class syntax.public class NetworkOperatorTetheringClient : Windows.Networking.NetworkOperators.INetworkOperatorTetheringClient--># Windows.Networking.NetworkOperators.NetworkOperatorTetheringClient## -descriptionContains details about a tethering client.## -remarksYour code does not instantiate this class directly. Instead, use [NetworkOperatorTetheringManager.GetTetheringClients](networkoperatortetheringmanager_gettetheringclients.md) to retrieve a list of instances initialized for the current tethering clients.## -examples## -see-also
+---
+
+<!-- Class syntax.
+public class NetworkOperatorTetheringClient : Windows.Networking.NetworkOperators.INetworkOperatorTetheringClient
+-->
+
+# Windows.Networking.NetworkOperators.NetworkOperatorTetheringClient
+
+## -description
+Contains details about a tethering client.
+
+## -remarks
+Your code does not instantiate this class directly. Instead, use [NetworkOperatorTetheringManager.GetTetheringClients](networkoperatortetheringmanager_gettetheringclients.md) to retrieve a list of instances initialized for the current tethering clients.
+
+## -examples
+
+## -see-also

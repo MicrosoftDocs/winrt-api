@@ -1,3 +1,26 @@
-----api-id: P:Windows.Media.Capture.CameraCaptureUIVideoCaptureSettings.MaxDurationInSeconds
+---
+-api-id: P:Windows.Media.Capture.CameraCaptureUIVideoCaptureSettings.MaxDurationInSeconds
 -api-type: winrt property
----<!-- Property syntaxpublic float MaxDurationInSeconds { get;  set; }--># Windows.Media.Capture.CameraCaptureUIVideoCaptureSettings.MaxDurationInSeconds## -descriptionDetermines the maximum duration of a video.## -property-valueThe maximum duration of a video. If this property is set to zero, no maximum duration is enforced.## -remarks## -examples## -see-also## -capabilitieswebcam, microphone
+---
+
+<!-- Property syntax
+public float MaxDurationInSeconds { get;  set; }
+-->
+
+# Windows.Media.Capture.CameraCaptureUIVideoCaptureSettings.MaxDurationInSeconds
+
+## -description
+Determines the maximum duration of a video.
+
+## -property-value
+The maximum duration of a video. If this property is set to zero, no maximum duration is enforced.
+
+## -remarks
+
+## -examples
+
+## -see-also
+
+
+## -capabilities
+webcam, microphone
