@@ -11,7 +11,11 @@ public BatteryReport IGameControllerBatteryInfo.TryGetBatteryReport()
 
 ## -description
 
+Gets information about the game controller's current battery state.
+
 ## -returns
+
+Information about the game controller's current battery state.
 
 ## -remarks
 

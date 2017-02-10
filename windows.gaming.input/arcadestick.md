@@ -13,11 +13,13 @@ public class ArcadeStick : Windows.Gaming.Input.IArcadeStick, Windows.Gaming.Inp
 Represents an Arcade Stick.
 
 ## -remarks
+
+Instances of the **ArcadeStick** class cannot be created directly; instead, instances of the class are retrieved through the [ArcadeStick.ArcadeSticks](arcadestick_arcadesticks.md) property listing all connected arcade sticks or through the [ArcadeStick.ArcadeStickAdded](arcadestick_arcadestickadded.md) event.
+
 ### Supported Devices
 
-`ArcadeStick` supports any Xbox One certified or Xbox 360 compatible arcade stick.
+**ArcadeStick** supports any Xbox One certified or Xbox 360 compatible arcade stick.
 
 ## -examples
 
 ## -see-also
-[IGameController](igamecontroller.md)

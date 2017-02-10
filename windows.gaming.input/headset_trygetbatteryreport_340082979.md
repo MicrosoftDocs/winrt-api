@@ -11,7 +11,11 @@ public BatteryReport Headset.TryGetBatteryReport()
 
 ## -description
 
+Gets information about the headset's current battery state.
+
 ## -returns
+
+Information about the headset's current battery state.
 
 ## -remarks
 

@@ -11,11 +11,17 @@ public Gamepad Gamepad.FromGameController(IGameController gameController)
 
 ## -description
 
+Returns the given game controller as a gamepad.
+
 ## -params
 
 ## -param gameController
 
+The game controller to be converted to a gamepad.
+
 ## -returns
+
+The gamepad that was converted from the given game controller.
 
 ## -remarks
 

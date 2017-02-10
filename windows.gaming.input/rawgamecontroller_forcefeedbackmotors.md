@@ -11,7 +11,11 @@ public IVectorView<ForceFeedbackMotor> ForceFeedbackMotors { get; }
 
 ## -desc
 
+The list of force feedback motors in the game controller.
+
 ## -property-value
+
+The list of force feedback motors in the game controller.
 
 ## -remarks
 

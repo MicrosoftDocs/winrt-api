@@ -11,6 +11,8 @@ public interface IGameControllerBatteryInfo
 
 ## -description
 
+Interface that allows game controller (or headset) classes to query for information about the current battery state, regardless of their actual type (gamepad, steering wheel, flight stick, and so on).
+
 ## -remarks
 
 ## -see-also

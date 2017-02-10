@@ -11,15 +11,25 @@ public ulong RawGameController.GetCurrentReading(Boolean[] buttonArray, GameCont
 
 ## -description
 
+Gets a snapshot of the raw game controller's state.
+
 ## -params
 
 ## -param buttonArray
 
+TODO: How to get this? Create a boolean array from 0 to ButtonCount-1, with true for the ones that the controller has?
+
 ## -param switchArray
+
+TODO: Same question as buttonArray.
 
 ## -param axisArray
 
+TODO: Same question as buttonArray.
+
 ## -returns
+
+The current state of the raw game controller.
 
 ## -remarks
 

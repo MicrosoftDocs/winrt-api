@@ -11,7 +11,11 @@ public BatteryReport Gamepad.TryGetBatteryReport()
 
 ## -description
 
+Gets information about the gamepad's current battery state.
+
 ## -returns
+
+Information about the arcade stick's current battery state.
 
 ## -remarks
 

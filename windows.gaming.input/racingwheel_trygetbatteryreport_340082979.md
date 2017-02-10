@@ -11,7 +11,11 @@ public BatteryReport RacingWheel.TryGetBatteryReport()
 
 ## -description
 
+Gets information about the racing wheel's current battery state.
+
 ## -returns
+
+Information about the racing wheel's current battery state.
 
 ## -remarks
 

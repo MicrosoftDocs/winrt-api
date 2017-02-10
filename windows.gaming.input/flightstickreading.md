@@ -37,11 +37,19 @@ The amount of pitch (rotation around the X-axis; forward and backward movement o
 
 ## -field Roll
 
+The amount of roll (rotation around the Z-axis; left and right movement on the flight stick).
+
 ## -field Throttle
+
+The position of the throttle.
 
 ## -field Timestamp
 
+The time that the reading was reported from the hardware.
+
 ## -field Yaw
+
+The amount of yaw (rotation around the Y-axis; usually read from twisting the joystick or from some other input). 
 
 ## -remarks
 
