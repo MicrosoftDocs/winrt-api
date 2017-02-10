@@ -38,7 +38,7 @@ The following example applies a [RepositionThemeTransition](repositionthemetrans
 
 [!code-xml[RepositionThemeTransitionSimple](../windows.ui.xaml.media.animation/code/RepositionThemeTransition/csharp/BlankPage.xaml#SnippetRepositionThemeTransitionSimple)]
 
-[!code-cs[RepositionThemeTransitionSimple_code](../windows.ui.xaml.media.animation/code/RepositionThemeTransition/csharp/BlankPage.xaml.cs#SnippetRepositionThemeTransitionSimple_code)]
+[!code-csharp[RepositionThemeTransitionSimple_code](../windows.ui.xaml.media.animation/code/RepositionThemeTransition/csharp/BlankPage.xaml.cs#SnippetRepositionThemeTransitionSimple_code)]
 
 
 <!--  
@@ -55,7 +55,7 @@ The following example applies a [RepositionThemeTransition](repositionthemetrans
 
 [!code-xml[RepositionThemeTransition](../windows.ui.xaml.media.animation/code/RepositionThemeTransition/csharp/BlankPage.xaml#SnippetRepositionThemeTransition)]
 
-[!code-cs[RepositionThemeTransition_code](../windows.ui.xaml.media.animation/code/RepositionThemeTransition/csharp/BlankPage.xaml.cs#SnippetRepositionThemeTransition_code)]
+[!code-csharp[RepositionThemeTransition_code](../windows.ui.xaml.media.animation/code/RepositionThemeTransition/csharp/BlankPage.xaml.cs#SnippetRepositionThemeTransition_code)]
 
 ## -see-also
 [Transition](transition.md), [Animating repositions](http://msdn.microsoft.com/library/4d715c69-79e6-4179-a66c-a193629966d1), [Guidelines and checklist for reposition animations](http://msdn.microsoft.com/library/25d1ee31-5c25-4f21-b34c-fbd8fb1c8fff)

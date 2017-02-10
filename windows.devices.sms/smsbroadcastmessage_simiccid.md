@@ -1,3 +1,26 @@
-----api-id: P:Windows.Devices.Sms.SmsBroadcastMessage.SimIccId
+---
+-api-id: P:Windows.Devices.Sms.SmsBroadcastMessage.SimIccId
 -api-type: winrt property
----<!-- Property syntaxpublic string SimIccId { get; }--># Windows.Devices.Sms.SmsBroadcastMessage.SimIccId## -descriptionGets the ICCID (Integrated Circuit Card Identifier) of the SIM that received the message.## -property-valueThe ICCID of the SIM.## -remarks## -examples## -see-also## -capabilitiescellularMessaging
+---
+
+<!-- Property syntax
+public string SimIccId { get; }
+-->
+
+# Windows.Devices.Sms.SmsBroadcastMessage.SimIccId
+
+## -description
+Gets the ICCID (Integrated Circuit Card Identifier) of the SIM that received the message.
+
+## -property-value
+The ICCID of the SIM.
+
+## -remarks
+
+## -examples
+
+## -see-also
+
+
+## -capabilities
+cellularMessaging

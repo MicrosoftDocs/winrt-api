@@ -129,7 +129,7 @@ This example uses a simple [Matrix3D](matrix3d.md) matrix to transform the image
 
 [!code-xml[Matrix3DProjectionSimple](../windows.ui.xaml.media/code/Matrix3DProjectionSimple/csharp/MainPage.xaml#SnippetMatrix3DProjectionSimple)]
 
-[!code-cs[Matrix3DProjectionSimple_code](../windows.ui.xaml.media/code/Matrix3DProjectionSimple/csharp/MainPage.xaml.cs#SnippetMatrix3DProjectionSimple_code)]
+[!code-csharp[Matrix3DProjectionSimple_code](../windows.ui.xaml.media/code/Matrix3DProjectionSimple/csharp/MainPage.xaml.cs#SnippetMatrix3DProjectionSimple_code)]
 
 
 
@@ -139,7 +139,7 @@ This example uses a simple [Matrix3D](matrix3d.md) matrix to transform the image
 
 [!code-xml[Matrix3DProjectionSample](../windows.ui.xaml.media/code/Matrix3DProjectionSample/csharp/MainPage.xaml#SnippetMatrix3DProjectionSample)]
 
-[!code-cs[Matrix3DProjectionSample_code](../windows.ui.xaml.media/code/Matrix3DProjectionSample/csharp/MainPage.xaml.cs#SnippetMatrix3DProjectionSample_code)]
+[!code-csharp[Matrix3DProjectionSample_code](../windows.ui.xaml.media/code/Matrix3DProjectionSample/csharp/MainPage.xaml.cs#SnippetMatrix3DProjectionSample_code)]
 
 ## -see-also
 [Matrix3DHelper](matrix3dhelper.md), [Matrix3DProjection](../windows.ui.xaml.media/matrix3dprojection.md), [UIElement.Projection](../windows.ui.xaml/uielement_projection.md), [3-D perspective effects for XAML UI](http://msdn.microsoft.com/library/90f07341-01f4-4205-8161-92dd2eb49860)

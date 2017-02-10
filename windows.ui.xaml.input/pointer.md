@@ -26,7 +26,7 @@ The following code example shows the usage of [Pointer](pointer.md) class to fin
 
 
 
-[!code-cs[Code](../windows.ui.xaml.input/code/PointerExample/csharp/BlankPage.xaml.cs#SnippetCode)]
+[!code-csharp[Code](../windows.ui.xaml.input/code/PointerExample/csharp/BlankPage.xaml.cs#SnippetCode)]
 
 ## -see-also
 [Input sample](http://go.microsoft.com/fwlink/p/?linkid=226855)

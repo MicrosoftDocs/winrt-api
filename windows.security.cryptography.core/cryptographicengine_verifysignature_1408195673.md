@@ -31,6 +31,6 @@ To sign content, the sender typically creates a hash over the message, signs (en
 ## -examples
 
 
-[!code-cs[ShowVerifySignature] (../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowVerifySignature)]
+[!code-csharp[ShowVerifySignature] (../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowVerifySignature)]
 
 ## -see-also

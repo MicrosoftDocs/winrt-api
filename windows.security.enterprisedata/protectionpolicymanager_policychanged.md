@@ -1,3 +1,22 @@
-----api-id: E:Windows.Security.EnterpriseData.ProtectionPolicyManager.PolicyChanged
+---
+-api-id: E:Windows.Security.EnterpriseData.ProtectionPolicyManager.PolicyChanged
 -api-type: winrt event
----<!-- Event syntaxstatic public event Windows.Foundation.EventHandler PolicyChanged<object>--># Windows.Security.EnterpriseData.ProtectionPolicyManager.PolicyChanged## -description> [!NOTE]> Windows Information Protection (WIP) policy cannot be applied on Windows 10, version 1511 (build 10586) or earlier.An event that is raised in response to changes in Windows Information Protection (WIP) policy managed by the [Policy CSP](XREF:TODO:p_phDeviceMgmt.policy_configuration_service_provider).## -remarks## -examples## -see-also
+---
+
+<!-- Event syntax
+static public event Windows.Foundation.EventHandler PolicyChanged<object>
+-->
+
+# Windows.Security.EnterpriseData.ProtectionPolicyManager.PolicyChanged
+
+## -description
+> [!NOTE]
+> Windows Information Protection (WIP) policy cannot be applied on Windows 10, version 1511 (build 10586) or earlier.
+
+An event that is raised in response to changes in Windows Information Protection (WIP) policy managed by the [Policy CSP](XREF:TODO:p_phDeviceMgmt.policy_configuration_service_provider).
+
+## -remarks
+
+## -examples
+
+## -see-also

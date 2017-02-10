@@ -1,3 +1,29 @@
-----api-id: M:Windows.UI.Xaml.DurationHelper.Add(Windows.UI.Xaml.Duration,Windows.UI.Xaml.Duration)
+---
+-api-id: M:Windows.UI.Xaml.DurationHelper.Add(Windows.UI.Xaml.Duration,Windows.UI.Xaml.Duration)
 -api-type: winrt method
----<!-- Method syntaxpublic Windows.UI.Xaml.Duration Add(Windows.UI.Xaml.Duration target, Windows.UI.Xaml.Duration duration)--># Windows.UI.Xaml.DurationHelper.Add## -descriptionAdds the **TimeSpan** component of two [Duration](duration.md) values. C# and Microsoft Visual Basic code should use the + operator or the [Add](duration_add.md) method instead.## -parameters### -param targetThe value to add to.### -param durationThe value to add.## -returnsThe resulting [Duration](duration.md) after **TimeSpan** component addition.## -remarks## -examples## -see-also
+---
+
+<!-- Method syntax
+public Windows.UI.Xaml.Duration Add(Windows.UI.Xaml.Duration target, Windows.UI.Xaml.Duration duration)
+-->
+
+# Windows.UI.Xaml.DurationHelper.Add
+
+## -description
+Adds the **TimeSpan** component of two [Duration](duration.md) values. C# and Microsoft Visual Basic code should use the + operator or the [Add](duration_add.md) method instead.
+
+## -parameters
+### -param target
+The value to add to.
+
+### -param duration
+The value to add.
+
+## -returns
+The resulting [Duration](duration.md) after **TimeSpan** component addition.
+
+## -remarks
+
+## -examples
+
+## -see-also

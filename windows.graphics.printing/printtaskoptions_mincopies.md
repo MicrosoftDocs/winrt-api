@@ -1,3 +1,22 @@
-----api-id: P:Windows.Graphics.Printing.PrintTaskOptions.MinCopies
+---
+-api-id: P:Windows.Graphics.Printing.PrintTaskOptions.MinCopies
 -api-type: winrt property
----<!-- Property syntaxpublic uint MinCopies { get; }--># Windows.Graphics.Printing.PrintTaskOptions.MinCopies## -descriptionGets the minimum number of copies allowed for the print task.## -property-valueThe minimum number of copies.## -remarks## -examples## -see-also
+---
+
+<!-- Property syntax
+public uint MinCopies { get; }
+-->
+
+# Windows.Graphics.Printing.PrintTaskOptions.MinCopies
+
+## -description
+Gets the minimum number of copies allowed for the print task.
+
+## -property-value
+The minimum number of copies.
+
+## -remarks
+
+## -examples
+
+## -see-also
