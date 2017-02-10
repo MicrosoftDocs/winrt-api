@@ -1,0 +1,21 @@
+---
+-api-id: M:Windows.Media.Core.ImageCue.#ctor
+-api-type: winrt method
+---
+
+<!-- Method syntax.
+public ImageCue.ImageCue()
+-->
+
+# Windows.Media.Core.ImageCue.ImageCue
+
+## -description
+
+## -parameters
+
+## -remarks
+
+## -see-also
+
+## -examples
+

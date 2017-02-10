@@ -32,8 +32,15 @@ The metadata contains description text.
 The metadata contains subtitle text.
 
 
+### -field ImageSubtitle:6
+
+
+### -field Speech:7
+
+
 ## -remarks
 
 ## -examples
 
 ## -see-also
+

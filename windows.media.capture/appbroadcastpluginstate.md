@@ -38,6 +38,9 @@ The broadcast background task is in the process of testing the bandwidth of the 
 The broadcast background task is ready to broadcast.
 
 
+### -field ReadyToBroadcast:6
+
+
 ## -remarks
 
 ## -examples
@@ -47,6 +50,7 @@ The broadcast background task is ready to broadcast.
 ## -capabilities
 appBroadcast
 appBroadcastSettings
+
 
 
 
