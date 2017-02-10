@@ -10,10 +10,12 @@ public RemoteSystemAuthorizationKindFilter.RemoteSystemAuthorizationKindFilter(R
 # Windows.System.RemoteSystems.RemoteSystemAuthorizationKindFilter.RemoteSystemAuthorizationKindFilter
 
 ## -description
+Initializes an instance of the [RemoteSystemAuthorizationKindFilter](RemoteSystemAuthorizationKindFilter.md) class.
 
 ## -parameters
 
 ### -param remoteSystemAuthorizationKind
+The authorization kind to target.
 
 ## -remarks
 
