@@ -23,6 +23,9 @@ The remote system is only discoverable through a proximal connection, such as a 
 The remote system is only discoverable through cloud connection.
 
 
+### -field SpatiallyProximal:3
+
+
 ## -remarks
 
 ## -examples
