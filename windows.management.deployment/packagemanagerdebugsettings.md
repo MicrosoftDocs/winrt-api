@@ -10,10 +10,9 @@ public class PackageManagerDebugSettings
 # Windows.Management.Deployment.PackageManagerDebugSettings
 
 ## -description
-Settings for debugging a loose file deployed app. 
+Settings for debugging app packages. 
 
 ## -remarks
-An AppxContentGroupMap.xml must be present when the app is registered for this API to work.
 
 ## -see-also
 

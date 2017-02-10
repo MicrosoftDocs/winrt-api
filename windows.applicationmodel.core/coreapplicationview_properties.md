@@ -10,11 +10,10 @@ public IPropertySet Properties { get; }
 # Windows.ApplicationModel.Core.CoreApplicationView.Properties
 
 ## -description
-Gets the properties for the view.
+Gets properties that the app can associate with the view.
 
 ## -property-value
-The view properties.
+The property bag.
 
 ## -remarks
-
-## -see-also
+Properties stored here are guaranteed to have a lifetime equal to the **CoreApplicationView**.

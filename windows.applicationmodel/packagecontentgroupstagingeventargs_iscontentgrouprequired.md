@@ -9,14 +9,14 @@ public bool IsContentGroupRequired { get; }
 
 # Windows.ApplicationModel.PackageContentGroupStagingEventArgs.IsContentGroupRequired
 
-## -desc
+## -description
 Indicates whether the content group is required.
 
 ## -property-value
 **True** indicates that the package content group is required; **false**, otherwise.
 
 ## -remarks
-Required packages contain core executable binaries and are downloaded before the app is launched.
+Required content groups contain core executable binaries and are downloaded during app install.
 
 ## -see-also
 
