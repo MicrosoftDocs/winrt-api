@@ -10,10 +10,13 @@ public void XamlMarkupHelper.UnloadObject(DependencyObject element)
 # Windows.UI.Xaml.Markup.XamlMarkupHelper.UnloadObject
 
 ## -description
+Unloads an element from the XAML visual tree.
 
 ## -parameters
 
 ### -param element
+
+The element to unload.
 
 ## -remarks
 
