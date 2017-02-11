@@ -1,3 +1,22 @@
-----api-id: P:Windows.UI.WebUI.WebUIPrint3DWorkflowActivatedEventArgs.ActivatedOperation
+---
+-api-id: P:Windows.UI.WebUI.WebUIPrint3DWorkflowActivatedEventArgs.ActivatedOperation
 -api-type: winrt property
----<!-- Property syntaxpublic Windows.UI.WebUI.ActivatedOperation ActivatedOperation { get; }--># Windows.UI.WebUI.WebUIPrint3DWorkflowActivatedEventArgs.ActivatedOperation## -descriptionGets the activated operation.## -property-valueThe activated operation.## -remarks## -examples## -see-also
+---
+
+<!-- Property syntax
+public Windows.UI.WebUI.ActivatedOperation ActivatedOperation { get; }
+-->
+
+# Windows.UI.WebUI.WebUIPrint3DWorkflowActivatedEventArgs.ActivatedOperation
+
+## -description
+Gets the activated operation.
+
+## -property-value
+The activated operation.
+
+## -remarks
+
+## -examples
+
+## -see-also

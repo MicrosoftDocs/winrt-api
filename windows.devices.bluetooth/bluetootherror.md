@@ -41,6 +41,9 @@ The operation is disabled by the user.
 The operation requires consent.
 
 
+### -field TransportNotSupported:9
+
+
 ## -remarks
 
 ## -examples

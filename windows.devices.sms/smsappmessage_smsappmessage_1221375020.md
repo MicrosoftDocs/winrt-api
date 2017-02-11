@@ -1,3 +1,23 @@
-----api-id: M:Windows.Devices.Sms.SmsAppMessage.#ctor
+---
+-api-id: M:Windows.Devices.Sms.SmsAppMessage.#ctor
 -api-type: winrt method
----<!-- Method syntaxpublic SmsAppMessage()--># Windows.Devices.Sms.SmsAppMessage.SmsAppMessage## -descriptionConstructor. Used to create an [SmsAppMessage](smsappmessage.md) prior to sending it.## -remarks## -examples## -see-also## -capabilitiescellularMessaging
+---
+
+<!-- Method syntax
+public SmsAppMessage()
+-->
+
+# Windows.Devices.Sms.SmsAppMessage.SmsAppMessage
+
+## -description
+Constructor. Used to create an [SmsAppMessage](smsappmessage.md) prior to sending it.
+
+## -remarks
+
+## -examples
+
+## -see-also
+
+
+## -capabilities
+cellularMessaging

@@ -24,7 +24,7 @@ The following example shows how to get the default [PhoneLine](phoneline.md).
 
 
 
-[!code-cs[GetDefaultLine](../windows.applicationmodel.calls/code/ApplicationModel.Calls/cs/Scenario1.cs#SnippetGetDefaultLine)]
+[!code-csharp[GetDefaultLine](../windows.applicationmodel.calls/code/ApplicationModel.Calls/cs/Scenario1.cs#SnippetGetDefaultLine)]
 
 ## -examples
 

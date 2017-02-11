@@ -1,3 +1,26 @@
-----api-id: M:Windows.Data.Xml.Dom.XmlCDataSection.AppendChild(Windows.Data.Xml.Dom.IXmlNode)
+---
+-api-id: M:Windows.Data.Xml.Dom.XmlCDataSection.AppendChild(Windows.Data.Xml.Dom.IXmlNode)
 -api-type: winrt method
----<!-- Method syntaxpublic Windows.Data.Xml.Dom.IXmlNode AppendChild(Windows.Data.Xml.Dom.IXmlNode newChild)--># Windows.Data.Xml.Dom.XmlCDataSection.AppendChild## -descriptionThis method is not applicable to this class. The CDataSection does not have children. This method will throw an exception.## -parameters### -param newChildThe new child node to be appended to the end of the list of children of this node.## -returnsThe new child node successfully appended to the list. If null, no object is created.## -remarks## -examples## -see-also
+---
+
+<!-- Method syntax
+public Windows.Data.Xml.Dom.IXmlNode AppendChild(Windows.Data.Xml.Dom.IXmlNode newChild)
+-->
+
+# Windows.Data.Xml.Dom.XmlCDataSection.AppendChild
+
+## -description
+This method is not applicable to this class. The CDataSection does not have children. This method will throw an exception.
+
+## -parameters
+### -param newChild
+The new child node to be appended to the end of the list of children of this node.
+
+## -returns
+The new child node successfully appended to the list. If null, no object is created.
+
+## -remarks
+
+## -examples
+
+## -see-also

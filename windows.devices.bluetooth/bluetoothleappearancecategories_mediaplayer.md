@@ -1,3 +1,22 @@
-----api-id: P:Windows.Devices.Bluetooth.BluetoothLEAppearanceCategories.MediaPlayer
+---
+-api-id: P:Windows.Devices.Bluetooth.BluetoothLEAppearanceCategories.MediaPlayer
 -api-type: winrt property
----<!-- Property syntaxpublic ushort MediaPlayer { get; }--># Windows.Devices.Bluetooth.BluetoothLEAppearanceCategories.MediaPlayer## -descriptionGets the media player appearance category code.## -property-valueThe appearance category code for a media player Bluetooth LE device.## -remarks## -examples## -see-also
+---
+
+<!-- Property syntax
+public ushort MediaPlayer { get; }
+-->
+
+# Windows.Devices.Bluetooth.BluetoothLEAppearanceCategories.MediaPlayer
+
+## -description
+Gets the media player appearance category code.
+
+## -property-value
+The appearance category code for a media player Bluetooth LE device.
+
+## -remarks
+
+## -examples
+
+## -see-also

@@ -1,3 +1,22 @@
-----api-id: P:Windows.Devices.PointOfService.BarcodeSymbologies.Code32
+---
+-api-id: P:Windows.Devices.PointOfService.BarcodeSymbologies.Code32
 -api-type: winrt property
----<!-- Property syntaxpublic uint Code32 { get; }--># Windows.Devices.PointOfService.BarcodeSymbologies.Code32## -descriptionGets the Code 32 barcode symbology.## -property-valueThe Code 32 barcode symbology.## -remarks## -examples## -see-also
+---
+
+<!-- Property syntax
+public uint Code32 { get; }
+-->
+
+# Windows.Devices.PointOfService.BarcodeSymbologies.Code32
+
+## -description
+Gets the Code 32 barcode symbology.
+
+## -property-value
+The Code 32 barcode symbology.
+
+## -remarks
+
+## -examples
+
+## -see-also

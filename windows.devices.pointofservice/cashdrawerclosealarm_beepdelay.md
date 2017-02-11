@@ -1,3 +1,22 @@
-----api-id: P:Windows.Devices.PointOfService.CashDrawerCloseAlarm.BeepDelay
+---
+-api-id: P:Windows.Devices.PointOfService.CashDrawerCloseAlarm.BeepDelay
 -api-type: winrt property
----<!-- Property syntaxpublic Windows.Foundation.TimeSpan BeepDelay { get;  set; }--># Windows.Devices.PointOfService.CashDrawerCloseAlarm.BeepDelay## -descriptionDelay between cash drawer closed alarm beeps.## -property-valueDefines the amount of time between beeps.## -remarks## -examples## -see-also
+---
+
+<!-- Property syntax
+public Windows.Foundation.TimeSpan BeepDelay { get;  set; }
+-->
+
+# Windows.Devices.PointOfService.CashDrawerCloseAlarm.BeepDelay
+
+## -description
+Delay between cash drawer closed alarm beeps.
+
+## -property-value
+Defines the amount of time between beeps.
+
+## -remarks
+
+## -examples
+
+## -see-also

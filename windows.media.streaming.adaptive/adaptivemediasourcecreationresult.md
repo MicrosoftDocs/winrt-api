@@ -1,3 +1,23 @@
-----api-id: T:Windows.Media.Streaming.Adaptive.AdaptiveMediaSourceCreationResult
+---
+-api-id: T:Windows.Media.Streaming.Adaptive.AdaptiveMediaSourceCreationResult
 -api-type: winrt class
----<!-- Class syntax.public class AdaptiveMediaSourceCreationResult : Windows.Media.Streaming.Adaptive.IAdaptiveMediaSourceCreationResult, Windows.Media.Streaming.Adaptive.IAdaptiveMediaSourceCreationResult2--># Windows.Media.Streaming.Adaptive.AdaptiveMediaSourceCreationResult## -descriptionRepresents the result of the creation of a [AdaptiveMediaSource](adaptivemediasource.md) object.## -remarksThis object is accessed when you call one of the [CreateAsync](adaptivemediasource_createasync.md) methods to create a [AdaptiveMediaSource](adaptivemediasource.md) object.For how-to guidance for using adaptive streaming in your app, see [Adaptive streaming](https://msdn.microsoft.com/en-us/windows/uwp/audio-video-camera/adaptive-streaming).## -examples## -see-also[Adaptive streaming](https://msdn.microsoft.com/en-us/windows/uwp/audio-video-camera/adaptive-streaming)
+---
+
+<!-- Class syntax.
+public class AdaptiveMediaSourceCreationResult : Windows.Media.Streaming.Adaptive.IAdaptiveMediaSourceCreationResult, Windows.Media.Streaming.Adaptive.IAdaptiveMediaSourceCreationResult2
+-->
+
+# Windows.Media.Streaming.Adaptive.AdaptiveMediaSourceCreationResult
+
+## -description
+Represents the result of the creation of a [AdaptiveMediaSource](adaptivemediasource.md) object.
+
+## -remarks
+This object is accessed when you call one of the [CreateAsync](adaptivemediasource_createasync.md) methods to create a [AdaptiveMediaSource](adaptivemediasource.md) object.
+
+For how-to guidance for using adaptive streaming in your app, see [Adaptive streaming](https://msdn.microsoft.com/en-us/windows/uwp/audio-video-camera/adaptive-streaming).
+
+## -examples
+
+## -see-also
+[Adaptive streaming](https://msdn.microsoft.com/en-us/windows/uwp/audio-video-camera/adaptive-streaming)

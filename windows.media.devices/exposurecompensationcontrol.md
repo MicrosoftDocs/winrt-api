@@ -1,3 +1,27 @@
-----api-id: T:Windows.Media.Devices.ExposureCompensationControl
+---
+-api-id: T:Windows.Media.Devices.ExposureCompensationControl
 -api-type: winrt class
----<!-- Class syntax.public class ExposureCompensationControl : Windows.Media.Devices.IExposureCompensationControl--># Windows.Media.Devices.ExposureCompensationControl## -descriptionProvides functionality for modifying exposure levels of captured photos.## -remarks[ExposureCompensationControl](exposurecompensationcontrol.md) enables apps to modify exposure levels of captured photos.You can find out if a device supports this control by checking [ExposureCompensationControl.Supported](exposurecompensationcontrol_supported.md).You can access the [ExposureCompensationControl](exposurecompensationcontrol.md) for the capture device through [MediaCapture.VideoDeviceController](../windows.media.capture/mediacapture_videodevicecontroller.md).For how-to guidance for using the **ExposureCompensationControl**, see [Manual camera controls for photo and video capture](https://msdn.microsoft.com/en-us/windows/uwp/audio-video-camera/capture-device-controls-for-photo-and-video-capture).## -examples## -see-also[MediaCapture.VideoDeviceController](../windows.media.capture/mediacapture_videodevicecontroller.md), [Manual camera controls for photo and video capture](https://msdn.microsoft.com/en-us/windows/uwp/audio-video-camera/capture-device-controls-for-photo-and-video-capture)
+---
+
+<!-- Class syntax.
+public class ExposureCompensationControl : Windows.Media.Devices.IExposureCompensationControl
+-->
+
+# Windows.Media.Devices.ExposureCompensationControl
+
+## -description
+Provides functionality for modifying exposure levels of captured photos.
+
+## -remarks
+[ExposureCompensationControl](exposurecompensationcontrol.md) enables apps to modify exposure levels of captured photos.
+
+You can find out if a device supports this control by checking [ExposureCompensationControl.Supported](exposurecompensationcontrol_supported.md).
+
+You can access the [ExposureCompensationControl](exposurecompensationcontrol.md) for the capture device through [MediaCapture.VideoDeviceController](../windows.media.capture/mediacapture_videodevicecontroller.md).
+
+For how-to guidance for using the **ExposureCompensationControl**, see [Manual camera controls for photo and video capture](https://msdn.microsoft.com/en-us/windows/uwp/audio-video-camera/capture-device-controls-for-photo-and-video-capture).
+
+## -examples
+
+## -see-also
+[MediaCapture.VideoDeviceController](../windows.media.capture/mediacapture_videodevicecontroller.md), [Manual camera controls for photo and video capture](https://msdn.microsoft.com/en-us/windows/uwp/audio-video-camera/capture-device-controls-for-photo-and-video-capture)

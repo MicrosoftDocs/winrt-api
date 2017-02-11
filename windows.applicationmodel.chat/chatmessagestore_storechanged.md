@@ -1,3 +1,23 @@
-----api-id: E:Windows.ApplicationModel.Chat.ChatMessageStore.StoreChanged
+---
+-api-id: E:Windows.ApplicationModel.Chat.ChatMessageStore.StoreChanged
 -api-type: winrt event
----<!-- Event syntaxpublic event Windows.Foundation.TypedEventHandler StoreChanged<Windows.ApplicationModel.Chat.ChatMessageStore,  Windows.ApplicationModel.Chat.ChatMessageStoreChangedEventArgs>--># Windows.ApplicationModel.Chat.ChatMessageStore.StoreChanged## -descriptionOccurs when something in the [ChatMessageStore](chatmessagestore.md) has changed.## -remarks## -examples## -see-also## -capabilitiesblockedChatMessages
+---
+
+<!-- Event syntax
+public event Windows.Foundation.TypedEventHandler StoreChanged<Windows.ApplicationModel.Chat.ChatMessageStore,  Windows.ApplicationModel.Chat.ChatMessageStoreChangedEventArgs>
+-->
+
+# Windows.ApplicationModel.Chat.ChatMessageStore.StoreChanged
+
+## -description
+Occurs when something in the [ChatMessageStore](chatmessagestore.md) has changed.
+
+## -remarks
+
+## -examples
+
+## -see-also
+
+
+## -capabilities
+blockedChatMessages

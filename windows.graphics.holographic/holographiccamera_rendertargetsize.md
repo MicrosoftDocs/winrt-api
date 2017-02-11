@@ -1,3 +1,22 @@
-----api-id: P:Windows.Graphics.Holographic.HolographicCamera.RenderTargetSize
+---
+-api-id: P:Windows.Graphics.Holographic.HolographicCamera.RenderTargetSize
 -api-type: winrt property
----<!-- Property syntaxpublic Windows.Foundation.Size RenderTargetSize { get; }--># Windows.Graphics.Holographic.HolographicCamera.RenderTargetSize## -descriptionGets the dimensions of the render target.## -property-valueThe size## -remarks## -examples## -see-also
+---
+
+<!-- Property syntax
+public Windows.Foundation.Size RenderTargetSize { get; }
+-->
+
+# Windows.Graphics.Holographic.HolographicCamera.RenderTargetSize
+
+## -description
+Gets the dimensions of the render target.
+
+## -property-value
+The size
+
+## -remarks
+
+## -examples
+
+## -see-also

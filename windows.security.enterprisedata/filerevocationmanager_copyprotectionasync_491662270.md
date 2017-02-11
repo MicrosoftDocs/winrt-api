@@ -35,7 +35,7 @@ If you save a new copy of a file as the result of a "save as" operation, the sel
 
 
 
-[!code-cs[_CopyProtection](../windows.security.enterprisedata/code/SelectiveWipeSnippets/cs/MainPage.xaml.cs#Snippet_CopyProtection)][!code-js[_CopyProtection](../windows.security.enterprisedata/code/SelectiveWipeSnippets/js/default.js#Snippet_CopyProtection)]
+[!code-csharp[_CopyProtection](../windows.security.enterprisedata/code/SelectiveWipeSnippets/cs/MainPage.xaml.cs#Snippet_CopyProtection)][!code-js[_CopyProtection](../windows.security.enterprisedata/code/SelectiveWipeSnippets/js/default.js#Snippet_CopyProtection)]
 
 [!code-js[_CopyProtection_JS](../windows.security.enterprisedata/code/SelectiveWipeSnippets/js/default.js#Snippet_CopyProtection_JS)]
 

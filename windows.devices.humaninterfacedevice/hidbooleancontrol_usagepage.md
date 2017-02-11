@@ -1,3 +1,22 @@
-----api-id: P:Windows.Devices.HumanInterfaceDevice.HidBooleanControl.UsagePage
+---
+-api-id: P:Windows.Devices.HumanInterfaceDevice.HidBooleanControl.UsagePage
 -api-type: winrt property
----<!-- Property syntaxpublic ushort UsagePage { get; }--># Windows.Devices.HumanInterfaceDevice.HidBooleanControl.UsagePage## -descriptionRetrieves the usage page for a given Boolean control.## -property-valueThe usage page.## -remarks## -examples## -see-also
+---
+
+<!-- Property syntax
+public ushort UsagePage { get; }
+-->
+
+# Windows.Devices.HumanInterfaceDevice.HidBooleanControl.UsagePage
+
+## -description
+Retrieves the usage page for a given Boolean control.
+
+## -property-value
+The usage page.
+
+## -remarks
+
+## -examples
+
+## -see-also

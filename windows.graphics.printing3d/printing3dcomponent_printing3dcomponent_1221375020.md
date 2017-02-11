@@ -1,3 +1,19 @@
-----api-id: M:Windows.Graphics.Printing3D.Printing3DComponent.#ctor
+---
+-api-id: M:Windows.Graphics.Printing3D.Printing3DComponent.#ctor
 -api-type: winrt method
----<!-- Method syntaxpublic Printing3DComponent()--># Windows.Graphics.Printing3D.Printing3DComponent.Printing3DComponent## -descriptionCreates an instance of the [Printing3DComponent](printing3dcomponent.md) class.## -remarks## -examples## -see-also
+---
+
+<!-- Method syntax
+public Printing3DComponent()
+-->
+
+# Windows.Graphics.Printing3D.Printing3DComponent.Printing3DComponent
+
+## -description
+Creates an instance of the [Printing3DComponent](printing3dcomponent.md) class.
+
+## -remarks
+
+## -examples
+
+## -see-also

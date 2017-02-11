@@ -1,3 +1,24 @@
-----api-id: M:Windows.Globalization.Calendar.#ctor(Windows.Foundation.Collections.IIterable{System.String})
+---
+-api-id: M:Windows.Globalization.Calendar.#ctor(Windows.Foundation.Collections.IIterable{System.String})
 -api-type: winrt method
----<!-- Method syntaxpublic Calendar(Windows.Foundation.Collections.IIterable<System.String> languages)--># Windows.Globalization.Calendar.Calendar## -descriptionCreates a [Calendar](calendar.md) object that is initialized with a language list.## -parameters### -param languagesThe list of language identifiers, in priority order, that represents the choice of languages. These are used for resolving patterns to strings. See Remarks.## -remarks## -examples## -see-also[Calendar(IIterable(String), String, String)](calendar_calendar_1820927522.md), [Unicode Key/Type Definitions](http://go.microsoft.com/fwlink/p/?LinkId=308919)
+---
+
+<!-- Method syntax
+public Calendar(Windows.Foundation.Collections.IIterable<System.String> languages)
+-->
+
+# Windows.Globalization.Calendar.Calendar
+
+## -description
+Creates a [Calendar](calendar.md) object that is initialized with a language list.
+
+## -parameters
+### -param languages
+The list of language identifiers, in priority order, that represents the choice of languages. These are used for resolving patterns to strings. See Remarks.
+
+## -remarks
+
+## -examples
+
+## -see-also
+[Calendar(IIterable(String), String, String)](calendar_calendar_1820927522.md), [Unicode Key/Type Definitions](http://go.microsoft.com/fwlink/p/?LinkId=308919)

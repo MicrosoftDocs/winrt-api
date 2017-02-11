@@ -1,3 +1,19 @@
-----api-id: M:Windows.Devices.Perception.Provider.PerceptionVideoFrameAllocator.Close
+---
+-api-id: M:Windows.Devices.Perception.Provider.PerceptionVideoFrameAllocator.Close
 -api-type: winrt method
----<!-- Method syntaxpublic void Close()--># Windows.Devices.Perception.Provider.PerceptionVideoFrameAllocator.Close## -descriptionReleases system resources that are exposed by a Windows Runtime object.## -remarks## -examples## -see-also
+---
+
+<!-- Method syntax
+public void Close()
+-->
+
+# Windows.Devices.Perception.Provider.PerceptionVideoFrameAllocator.Close
+
+## -description
+Releases system resources that are exposed by a Windows Runtime object.
+
+## -remarks
+
+## -examples
+
+## -see-also

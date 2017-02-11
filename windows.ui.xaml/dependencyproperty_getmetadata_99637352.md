@@ -26,7 +26,7 @@ This example implements a utility method that reports the default value of a giv
 
 
 
-[!code-cs[DPGetMetadata](../windows.ui.xaml/code/DOandDP/csharp/Class1.cs#SnippetDPGetMetadata)][!code-vb[DPGetMetadata](../windows.ui.xaml/code/DOandDP/vbnet/Class1.vb#SnippetDPGetMetadata)]
+[!code-csharp[DPGetMetadata](../windows.ui.xaml/code/DOandDP/csharp/Class1.cs#SnippetDPGetMetadata)][!code-vb[DPGetMetadata](../windows.ui.xaml/code/DOandDP/vbnet/Class1.vb#SnippetDPGetMetadata)]
 
 ## -see-also
 [Custom dependency properties](http://msdn.microsoft.com/library/5adf7935-f2cf-4bb6-b1a5-f535c2ed8ef8), [Dependency properties overview](http://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e)
