@@ -1,4 +1,4 @@
-﻿//<Snippet10_CS
+﻿//<Snippet10_CS>
 using System;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;

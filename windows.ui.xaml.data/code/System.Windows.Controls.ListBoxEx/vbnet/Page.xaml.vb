@@ -1,4 +1,4 @@
-﻿'<snippet10>
+﻿'<Snippet10_VB>
 Imports System
 Imports System.Windows
 Imports System.Windows.Controls
@@ -84,4 +84,4 @@ Public Class Customers
 End Class
 ' </Snippet101_VB>
 
-'</snippet10>
+'</Snippet10_VB>
