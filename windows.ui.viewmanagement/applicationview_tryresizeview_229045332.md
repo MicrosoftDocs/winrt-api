@@ -17,8 +17,7 @@ Attempts to change the size of the view to the specified size in effective pixel
 The new size of the view in effective pixels.
 
 ## -returns
-**
-            true** if the view is resized to the requested size; otherwise, **false**.
+**true** if the view is resized to the requested size; otherwise, **false**.
 
 ## -remarks
 A resize request affects only the view it was requested on. Resizing one view does not affect the size of any other views.
