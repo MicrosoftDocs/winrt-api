@@ -23,5 +23,7 @@ The current state of the flight stick.
 
 ## -see-also
 
+* [Windows.Gaming.Input.FlightStickReading](flightstickreading.md)
+
 ## -examples
 

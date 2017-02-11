@@ -21,5 +21,7 @@ The user associated with the flight stick.
 
 ## -see-also
 
+[Windows.System.User](../windows.system/user.md)
+
 ## -examples
 

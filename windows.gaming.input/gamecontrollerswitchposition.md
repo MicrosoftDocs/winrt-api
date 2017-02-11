@@ -21,7 +21,7 @@ public enum GameControllerSwitchPosition : int {
 
 ## -description
 
-The position of the switch on the game controller.
+The position of the game controller's switch.
 
 ## -enum-fields
 

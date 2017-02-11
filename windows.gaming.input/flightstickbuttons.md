@@ -15,7 +15,7 @@ public enum FlightStickButtons : uint {
 
 ## -description
 
-Specifies the button type for a flight stick.
+Specifies the type of flight stick button.
 
 ## -enum-fields
 
@@ -34,6 +34,8 @@ The primary fire button.
 ## -remarks
 
 ## -see-also
+
+* [Windows.Gaming.Input.FlightStick](flightstick.md)
 
 ## -examples
 

@@ -11,7 +11,13 @@ public ushort HardwareVendorId { get; }
 
 ## -desc
 
+The hardware vendor ID of the raw game controller.
+
+TODO: Anything else to say about this?
+
 ## -property-value
+
+The hardware vendor ID of the raw game controller.
 
 ## -remarks
 

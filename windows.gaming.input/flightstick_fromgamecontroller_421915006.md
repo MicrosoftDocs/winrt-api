@@ -27,9 +27,11 @@ The flight stick that was converted from the given game controller.
 
 ## -see-also
 
+* [Windows.Gaming.Input.IGameController](igamecontroller.md)
+
 ## -examples
 
-In the following example, the app gets the first available [RawGameController](rawgamecontroller.md) object, and tries to access this game controller via the `FlightStick` class.
+<!--In the following example, the app gets the first available [RawGameController](rawgamecontroller.md) object, and tries to access this game controller via the `FlightStick` class.
 
 ```csharp
 FlightStick flightStick = null;
@@ -44,4 +46,4 @@ if (flightStick != null)
 {
     // Assign a standard button mapping to this controller.
 }
-```
+```-->

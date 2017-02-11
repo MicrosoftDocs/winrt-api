@@ -17,5 +17,8 @@ Signals when the user associated with the flight stick has changed.
 
 ## -see-also
 
+* [Windows.Gaming.Input.IGameController](igamecontroller.md)
+* [Windows.System.UserChangedEventArgs](../windows.system/userchangedeventargs.md)
+
 ## -examples
 

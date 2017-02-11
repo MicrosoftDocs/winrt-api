@@ -25,9 +25,9 @@ Returns the label for the specified button. If the button label is blank or ther
 
 ## -remarks
 
-TODO: How do you get buttonIndex parameter?
+Unlike the **GetButtonLabel** member functions of other classes, such as [ArcadeStick.GetButtonLabel](arcadestick_getbuttonlabel.md), this function takes an integer, rather than an [ArcadeStickButtons](arcadestickbuttons.md) or other enumeration value. This integer is an index into the buttons array for the raw game controller.
 
-Unlike the **GetButtonLabel** member functions of other classes, such as [ArcadeStick.GetButtonLabel](arcadestick_getbuttonlabel.md), this function takes an integer, rather than an [ArcadeStickButtons](arcadestickbuttons.md) or other enumeration value. 
+You can create your own buttons array and then populate it with values representing each button's state using [RawGameController.GetCurrentReading](rawgamecontroller_getcurrentreading.md). See that function's documentation for more information.
 
 ## -see-also
 

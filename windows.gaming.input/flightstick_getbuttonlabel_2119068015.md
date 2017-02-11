@@ -21,15 +21,18 @@ The button for which to retrieve the label.
 
 ## -returns
 
-Returns the label for the specified button. If the button label is blank or there is no known label for the controller’s button, then `None` is returned.
+Returns the label for the specified button. If the button label is blank or there is no known label for the controller’s button, then **None** is returned.
 
 ## -remarks
 
 ## -see-also
 
+* [Windows.Gaming.Input.GameControllerButtonLabel](gamecontrollerbuttonlabel.md)
+* [Windows.Gaming.Input.FlightStickButtons](flightstickbuttons.md)
+
 ## -examples
 
-```csharp
+<!--```csharp
 private void ShowFlightStickFirePrimaryButtonIcon(FlightStick flightStick) 
 {
     GameControllerButtonLabel label = 
@@ -44,4 +47,4 @@ private void ShowFlightStickFirePrimaryButtonIcon(FlightStick flightStick)
         // ...
     }
 }
-```
+```-->

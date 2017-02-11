@@ -11,7 +11,11 @@ public User User { get; }
 
 ## -desc
 
+The user associated with the game controller.
+
 ## -property-value
+
+The user associated with the game controller.
 
 ## -remarks
 

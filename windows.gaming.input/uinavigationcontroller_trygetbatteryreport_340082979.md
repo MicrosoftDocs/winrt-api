@@ -11,7 +11,11 @@ public BatteryReport UINavigationController.TryGetBatteryReport()
 
 ## -description
 
+Gets information about the UI navigation controller's current battery state.
+
 ## -returns
+
+Information about the UI navigation controller's current battery state.
 
 ## -remarks
 

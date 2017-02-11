@@ -58,3 +58,5 @@ The second special button.
 ## -examples
 
 ## -see-also
+
+* [Windows.Gaming.Input.ArcadeStick](arcadestick.md)

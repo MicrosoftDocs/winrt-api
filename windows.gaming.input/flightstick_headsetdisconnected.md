@@ -17,5 +17,8 @@ Signals when a headset is disconnected from the flight stick.
 
 ## -see-also
 
+* [Windows.Gaming.Input.IGameController](igamecontroller.md)
+* [Windows.Gaming.Input.Headset](headset.md)
+
 ## -examples
 

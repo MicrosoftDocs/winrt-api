@@ -25,7 +25,7 @@ The current state of the flight stick.
 
 ## -field Buttons
 
-The state of the flight stick's buttons.
+The button currently being pressed.
 
 ## -field HatSwitch
 
@@ -54,6 +54,10 @@ The amount of yaw (rotation around the Y-axis; usually read from twisting the jo
 ## -remarks
 
 ## -see-also
+
+* [Windows.Gaming.Input.FlightStickButtons](flightstickbuttons.md)
+* [Windows.Gaming.Input.GameControllerSwitchPosition](gamecontrollerswitchposition.md)
+* [Windows.Gaming.Input.FlightStick](flightstick.md)
 
 ## -examples
 

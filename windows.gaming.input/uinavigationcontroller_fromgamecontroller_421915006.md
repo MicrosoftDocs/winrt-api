@@ -11,11 +11,17 @@ public UINavigationController UINavigationController.FromGameController(IGameCon
 
 ## -description
 
+Returns the given game controller as a UI navigation controller.
+
 ## -params
 
 ## -param gameController
 
+The game controller to be converted to a UI navigation controller.
+
 ## -returns
+
+The UI navigation controller that was converted from the given game controller.
 
 ## -remarks
 

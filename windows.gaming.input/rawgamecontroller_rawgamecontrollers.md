@@ -11,7 +11,11 @@ public IVectorView<RawGameController> RawGameControllers { get; }
 
 ## -desc
 
+The list of all connected raw game controllers.
+
 ## -property-value
+
+The list of all connected raw game controllers.
 
 ## -remarks
 
