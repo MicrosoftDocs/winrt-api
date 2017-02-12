@@ -54,7 +54,7 @@
                 </ListBox>
             </Grid>
             <!--</Snippet4_XAML> -->
-            <!--<Snippet6>-->
+            <!--<Snippet6_XAML>-->
             <Grid>
                 <Grid.Resources>
                     <Style x:Key="horizontalListBoxStyle" TargetType="ListBox">
@@ -87,7 +87,7 @@
             <!--</Snippet6_XAML>-->
         </StackPanel>
         <TextBlock Margin="5" Text="ListBox with SelectionChanged event handler:" Width="270" HorizontalAlignment="Left" />
-            <!-- <snippet5> -->
+            <!--<Snippet5_XAML> -->
             <ListBox Width="150" Margin="0,5,0,5" SelectionChanged="PrintText" HorizontalAlignment="Left">
                 <ListBoxItem Content="Item 1" />
                 <ListBoxItem Content="Item 2" />
