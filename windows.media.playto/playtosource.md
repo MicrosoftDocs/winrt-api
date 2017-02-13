@@ -19,9 +19,17 @@ For an example of using the [PlayToSource](playtosource.md) class, see [Streamin
 ## -examples
 
 
-[!code-csharp[SlideShow](../windows.media.playto/code/PlayTo_SlideShow1/csharp/MainPage.xaml.cs#SnippetSlideShow)][!code-js[SlideShow](../windows.media.playto/code/PlayTo_SlideShow1/javascript/default.js#SnippetSlideShow)][!code-vb[SlideShow](../windows.media.playto/code/PlayTo_SlideShow1/vbnet/MainPage.xaml.vb#SnippetSlideShow)]
+[!code-csharp[SlideShow](../windows.media.playto/code/PlayTo_SlideShow1/csharp/MainPage.xaml.cs#SnippetSlideShow)]
 
-[!code-csharp[PlayToContract](../windows.media.playto/code/PlayTo_SlideShow1/csharp/MainPage.xaml.cs#SnippetPlayToContract)][!code-js[PlayToContract](../windows.media.playto/code/PlayTo_SlideShow1/javascript/default.js#SnippetPlayToContract)][!code-vb[PlayToContract](../windows.media.playto/code/PlayTo_SlideShow1/vbnet/MainPage.xaml.vb#SnippetPlayToContract)]
+[!code-js[SlideShow](../windows.media.playto/code/PlayTo_SlideShow1/javascript/default.js#SnippetSlideShow)]
+
+[!code-vb[SlideShow](../windows.media.playto/code/PlayTo_SlideShow1/vbnet/MainPage.xaml.vb#SnippetSlideShow)]
+
+[!code-csharp[PlayToContract](../windows.media.playto/code/PlayTo_SlideShow1/csharp/MainPage.xaml.cs#SnippetPlayToContract)]
+
+[!code-js[PlayToContract](../windows.media.playto/code/PlayTo_SlideShow1/javascript/default.js#SnippetPlayToContract)]
+
+[!code-vb[PlayToContract](../windows.media.playto/code/PlayTo_SlideShow1/vbnet/MainPage.xaml.vb#SnippetPlayToContract)]
 
 ## -see-also
 [Play To sample](http://go.microsoft.com/fwlink/p/?linkid=245166), [PlayToReceiver sample](http://go.microsoft.com/fwlink/p/?linkid=245167), [Media Server sample](http://go.microsoft.com/fwlink/p/?linkid=245168)
