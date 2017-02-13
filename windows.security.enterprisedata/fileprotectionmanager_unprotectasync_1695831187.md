@@ -17,7 +17,7 @@ Removes protection from an enterprise-protected file.
 The file to unprotect.
 
 ### -param options
-An object that specifies whether to log this action for future auditing.
+An object that specifies whether to audit this action.
 
 ## -returns
 When the call to this method completes successfully, it returns a [FileProtectionInfo](fileprotectioninfo.md) object that provides information about the protection status of the file.

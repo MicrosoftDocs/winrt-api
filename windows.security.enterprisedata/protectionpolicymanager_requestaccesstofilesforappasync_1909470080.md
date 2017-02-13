@@ -10,7 +10,7 @@ public IAsyncOperation<ProtectionPolicyEvaluationResult> ProtectionPolicyManager
 # Windows.Security.EnterpriseData.ProtectionPolicyManager.RequestAccessToFilesForAppAsync
 
 ## -description
-Requests access to enterprise-protected content for a specific unenlightened app.
+Requests access to enterprise-protected content for a specific app.
 ## -params
 
 ## -param sourceItemList
