@@ -10,6 +10,7 @@ public event TypedEventHandler BrightnessLevelChanged<BrightnessOverride,  objec
 # Windows.Graphics.Display.BrightnessOverride.BrightnessLevelChanged
 
 ## -description
+Occurs when the brightness level changes.
 
 ## -remarks
 

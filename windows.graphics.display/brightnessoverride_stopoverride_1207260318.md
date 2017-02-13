@@ -10,6 +10,7 @@ public void BrightnessOverride.StopOverride()
 # Windows.Graphics.Display.BrightnessOverride.StopOverride
 
 ## -description
+Stops overriding the brightness level.
 
 ## -remarks
 

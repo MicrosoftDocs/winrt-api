@@ -10,6 +10,7 @@ public double BrightnessLevel { get; }
 # Windows.Graphics.Display.BrightnessOverride.BrightnessLevel
 
 ## -description
+The current brightness level.
 
 ## -property-value
 
