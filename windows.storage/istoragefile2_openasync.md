@@ -30,9 +30,9 @@ Using this method, a file can be accessed by both file readers and writers simul
 |                        | FileAccessMode | |
 |------------------------|------|-----------|
 | **StorageOpenOptions** | Read | ReadWrite |
-| None                   | A polite reader, which is lower priority than a writer. If a write occurs, the reader will fail. | This is a single writer. The file cannot be opened if OpenAsync(Read, AllowOnlyReaders) has been used, and it will prevent a new OpenAsync(Read, AllowOnlyReaders) from being used. |
-| AllowOnlyReaders       | A non-polite reader which can only exist with other readers. If an open is attempted with a writer, it will fail with ERROR_SHARING_VIOLATION. | This is a single writer. The file cannot be opened if OpenAsync(Read, AllowOnlyReaders) has been used, and it will prevent a new OpenAsync(Read, AllowOnlyReaders) from being used. |
-| AllowReadersAndWriters | A a non-polite reader which can exist with other readers and writers simultaneously. | This writer will invalidate polite readers when a write occurs and can coexist with other writers and non-polite readers. |
+| None                   | A reader which is lower priority than a writer. If a write occurs, this low priority reader will fail. | This is a single writer. The file cannot be opened if OpenAsync(Read, AllowOnlyReaders) has been used, and it will prevent a new OpenAsync(Read, AllowOnlyReaders) from being used. |
+| AllowOnlyReaders       | A reader which can only exist with other readers. If an open is attempted with a writer, it will fail. | This is a single writer. The file cannot be opened if OpenAsync(Read, AllowOnlyReaders) has been used, and it will prevent a new OpenAsync(Read, AllowOnlyReaders) from being used. |
+| AllowReadersAndWriters | A reader which can exist with other readers and writers simultaneously. | This writer will invalidate low priority readers when a write occurs and can coexist with other readers and writers. |
 
 
 ## -examples
