@@ -10,6 +10,7 @@ public class AudioDeviceModulesManager
 # Windows.Media.Devices.AudioDeviceModulesManager
 
 ## -description
+Manages the collections of audio device modules for a audio device pin instance or for a particular audio endpoint.
 
 ## -remarks
 

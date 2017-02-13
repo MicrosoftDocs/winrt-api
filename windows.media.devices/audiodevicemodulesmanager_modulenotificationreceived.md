@@ -10,6 +10,7 @@ public event TypedEventHandler ModuleNotificationReceived<AudioDeviceModulesMana
 # Windows.Media.Devices.AudioDeviceModulesManager.ModuleNotificationReceived
 
 ## -description
+Occurs when a change occurs in one of the audio device modules associated with the audio device for which the **AudioDeviceModulesManager** was initialized.
 
 ## -remarks
 
