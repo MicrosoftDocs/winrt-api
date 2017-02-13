@@ -39,4 +39,6 @@ Unlike the **GetCurrentReading** member functions of other classes, such as [Arc
 
 ## -see-also
 
+* [Windows.Gaming.Input.GameControllerSwitchPosition](gamecontrollerswitchposition.md)
+
 ## -examples

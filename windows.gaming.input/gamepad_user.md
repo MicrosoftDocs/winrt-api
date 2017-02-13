@@ -20,3 +20,5 @@ The user associated with the gamepad.
 ## -examples
 
 ## -see-also
+
+* [Windows.System.User](../windows.system/user.md)

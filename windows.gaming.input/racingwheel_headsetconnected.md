@@ -17,3 +17,6 @@ Signals when a headset is attached to the racing wheel.
 ## -examples
 
 ## -see-also
+
+* [Windows.Gaming.Input.IGameController](igamecontroller.md)
+* [Windows.Gaming.Input.Headset](headset.md)

@@ -13,7 +13,7 @@ static public event Windows.Foundation.EventHandler UINavigationControllerAdded<
 Signals when a new UI navigation controller is connected.
 
 ## -remarks
-To identify controllers that have allready been added, you query the list of conected controllers using [UINavigationController.UINavigationControllers](uinavigationcontroller_uinavigationcontrollers.md).
+To identify controllers that have already been added, you query the list of connected controllers using [UINavigationController.UINavigationControllers](uinavigationcontroller_uinavigationcontrollers.md).
 
 ## -examples
 

@@ -13,11 +13,9 @@ public class RacingWheel : Windows.Gaming.Input.IGameController, Windows.Gaming.
 Represents a racing wheel.
 
 ## -remarks
-### Supported Device
-s
+### Supported Devices
 
-    **RacingWheel**
-   supports any Xbox One certified or Xbox 360 compatible racing wheel without force feedback support.
+**RacingWheel** supports any Xbox One-certified or Xbox 360-compatible racing wheel without force feedback support.
 
 Force feedback is supported on the following device models:
 

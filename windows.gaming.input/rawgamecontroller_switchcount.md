@@ -11,11 +11,11 @@ public int SwitchCount { get; }
 
 ## -desc
 
-The number of switches on the game controller.
+The number of switches on the raw game controller.
 
 ## -property-value
 
-The number of switches on the game controller.
+The number of switches on the raw game controller.
 
 ## -remarks
 

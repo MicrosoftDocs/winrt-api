@@ -17,7 +17,7 @@ Gets the type of the specified switch on the raw game controller.
 
 ## -param switchIndex
 
-The index in the raw game controller's switch array of the switch whose type we are querying.
+The index in the raw game controller's switch array of the switch whose type you are querying.
 
 ## -returns
 
@@ -28,5 +28,7 @@ The type of the given switch on the raw game controller.
 This function takes an integer, which is the index of the raw game controller's switch array that points to the switch you want to query. You can create your own switch array and then populate it with values representing each switch's state using [RawGameController.GetCurrentReading](rawgamecontroller_getcurrentreading.md). See that function's documentation for more information.
 
 ## -see-also
+
+* [Windows.Gaming.Input.GameControllerSwitchKind](gamecontrollerswitchkind.md)
 
 ## -examples

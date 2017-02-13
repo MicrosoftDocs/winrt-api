@@ -27,4 +27,6 @@ The raw game controller that was converted from the given game controller.
 
 ## -see-also
 
+* [Windows.Gaming.Input.IGameController](igamecontroller.md)
+
 ## -examples

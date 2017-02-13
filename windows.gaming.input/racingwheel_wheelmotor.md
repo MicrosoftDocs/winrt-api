@@ -18,6 +18,10 @@ The force feedback motor for the racing wheel. If the controller does not suppor
 ## -remarks
 Force feedback is only supported for selected HID controllers. Xbox 360 and Xbox One racing wheels do not support force feedback in Windows 10 at this time.
 
+TODO: What does HID stand for?
+
 ## -examples
 
 ## -see-also
+
+* [Windows.Gaming.Input.ForceFeedback.ForceFeedbackMotor](../windows.gaming.input.forcefeedback/forcefeedbackmotor.md)

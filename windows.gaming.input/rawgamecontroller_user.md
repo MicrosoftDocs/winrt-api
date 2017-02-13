@@ -11,14 +11,16 @@ public User User { get; }
 
 ## -desc
 
-The user associated with the game controller.
+The user associated with the raw game controller.
 
 ## -property-value
 
-The user associated with the game controller.
+The user associated with the raw game controller.
 
 ## -remarks
 
 ## -see-also
+
+* [Windows.System.User](../windows.system/user.md)
 
 ## -examples

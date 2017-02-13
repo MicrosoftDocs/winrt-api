@@ -10,7 +10,7 @@ static public event Windows.Foundation.EventHandler RacingWheelRemoved<Windows.G
 # Windows.Gaming.Input.RacingWheel.RacingWheelRemoved
 
 ## -description
-Signals when a new racing wheel is disconnected.
+Signals when a racing wheel is disconnected.
 
 ## -remarks
 

@@ -11,14 +11,16 @@ public BatteryReport RawGameController.TryGetBatteryReport()
 
 ## -description
 
-Gets information about the game controller's current battery state.
+Gets information about the raw game controller's current battery state.
 
 ## -returns
 
-Information about the game controller's current battery state.
+Information about the raw game controller's current battery state.
 
 ## -remarks
 
 ## -see-also
+
+* [Windows.Devices.Power.BatteryReport](../windows.devices.power/batteryreport.md)
 
 ## -examples

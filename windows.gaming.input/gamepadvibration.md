@@ -27,7 +27,7 @@ The left trigger vibration level. Valid values are between 0.0 and 1.0, where 0.
     
 
 ### -field RightTrigger
-The right trigger vibration level, Valid values are between 0.0 and 1.0, where 0.0 signifies no motor use and 1.0 signifies max vibration.
+The right trigger vibration level. Valid values are between 0.0 and 1.0, where 0.0 signifies no motor use and 1.0 signifies max vibration.
     
 
 ## -remarks
