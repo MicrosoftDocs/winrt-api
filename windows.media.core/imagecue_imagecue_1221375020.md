@@ -10,6 +10,7 @@ public ImageCue.ImageCue()
 # Windows.Media.Core.ImageCue.ImageCue
 
 ## -description
+Initializes a new instance of the **ImageCue** class.
 
 ## -parameters
 

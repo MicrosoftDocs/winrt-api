@@ -10,8 +10,10 @@ public string Id { get;  set; }
 # Windows.Media.Core.SpeechCue.Id
 
 ## -description
+Gets the identifier for the timed metadata track
 
 ## -property-value
+The identifier for the timed metadata track
 
 ## -remarks
 

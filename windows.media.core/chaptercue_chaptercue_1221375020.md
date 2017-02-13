@@ -10,6 +10,7 @@ public ChapterCue.ChapterCue()
 # Windows.Media.Core.ChapterCue.ChapterCue
 
 ## -description
+Initializes a new instance of the **ChapterCue** class.
 
 ## -parameters
 

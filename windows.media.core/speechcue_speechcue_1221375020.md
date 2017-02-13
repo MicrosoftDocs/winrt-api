@@ -10,6 +10,7 @@ public SpeechCue.SpeechCue()
 # Windows.Media.Core.SpeechCue.SpeechCue
 
 ## -description
+Initializes a new instance of the **SpeechCue** class.
 
 ## -parameters
 
