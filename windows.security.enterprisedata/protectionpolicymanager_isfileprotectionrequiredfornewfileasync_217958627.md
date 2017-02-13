@@ -13,6 +13,7 @@ public Windows.Foundation.IAsyncOperation<bool> IsFileProtectionRequiredForNewFi
 Indicates whether a file needs to be protected by the enterprise identity.
 
 ## -parameters
+
 ### -param parentFolder
 The folder that contains files that that you want to know whether to protect.
 
