@@ -31,7 +31,7 @@ This example code implements a simple console-style timer that writes data to a 
 
 
 
-[!code-cs[1](../windows.ui.xaml/code/DispatcherTimer/csharp/MainPage.xaml.cs#Snippet1)]
+[!code-csharp[1](../windows.ui.xaml/code/DispatcherTimer/csharp/MainPage.xaml.cs#Snippet1)]
 
 ```cpp
 

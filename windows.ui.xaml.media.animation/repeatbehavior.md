@@ -73,6 +73,6 @@ This example shows several different ways to set the [RepeatBehavior](repeatbeha
 
 [!code-xml[RepeatBehavior](../windows.ui.xaml.media.animation/code/RepeatBehavior/csharp/MainPage.xaml#SnippetRepeatBehavior)]
 
-[!code-cs[RepeatBehavior_code](../windows.ui.xaml.media.animation/code/RepeatBehavior/csharp/MainPage.xaml.cs#SnippetRepeatBehavior_code)]
+[!code-csharp[RepeatBehavior_code](../windows.ui.xaml.media.animation/code/RepeatBehavior/csharp/MainPage.xaml.cs#SnippetRepeatBehavior_code)]
 
 ## -see-also

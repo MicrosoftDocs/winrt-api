@@ -20,6 +20,6 @@ The key algorithm name.
 ## -examples
 
 
-[!code-cs[ShowKeyAlgNamesProps] (../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowKeyAlgNamesProps)]
+[!code-csharp[ShowKeyAlgNamesProps] (../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowKeyAlgNamesProps)]
 
 ## -see-also

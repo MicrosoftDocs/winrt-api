@@ -1,3 +1,19 @@
-----api-id: M:Windows.ApplicationModel.Email.EmailMessage.#ctor
+---
+-api-id: M:Windows.ApplicationModel.Email.EmailMessage.#ctor
 -api-type: winrt method
----<!-- Method syntaxpublic EmailMessage()--># Windows.ApplicationModel.Email.EmailMessage.EmailMessage## -descriptionCreates an instance of the [EmailMessage](emailmessage.md) class.## -remarks## -examples## -see-also
+---
+
+<!-- Method syntax
+public EmailMessage()
+-->
+
+# Windows.ApplicationModel.Email.EmailMessage.EmailMessage
+
+## -description
+Creates an instance of the [EmailMessage](emailmessage.md) class.
+
+## -remarks
+
+## -examples
+
+## -see-also

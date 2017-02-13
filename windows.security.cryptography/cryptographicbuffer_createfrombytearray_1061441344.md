@@ -24,6 +24,6 @@ Output buffer.
 ## -examples
 
 
-[!code-cs[ShowByteArrayCopy] (../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowByteArrayCopy)]
+[!code-csharp[ShowByteArrayCopy] (../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowByteArrayCopy)]
 
 ## -see-also

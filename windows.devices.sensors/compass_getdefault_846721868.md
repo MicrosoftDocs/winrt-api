@@ -24,7 +24,7 @@ The following example demonstrates how a Windows Store app built with XAML and C
 
 
 
-[!code-cs[GetDefaultCS](../windows.devices.sensors/code/compass/csharp/Scenario1.xaml.cs#SnippetGetDefaultCS)]
+[!code-csharp[GetDefaultCS](../windows.devices.sensors/code/compass/csharp/Scenario1.xaml.cs#SnippetGetDefaultCS)]
 
 The following example demonstrates how a Windows Store app built for Windows using JavaScript used this method to establish a connection to the default compass.
 

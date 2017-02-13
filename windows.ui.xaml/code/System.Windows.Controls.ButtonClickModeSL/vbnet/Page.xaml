@@ -1,0 +1,23 @@
+﻿<UserControl x:Class="ButtonExVB.Page"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    Width="400" Height="300">
+    <StackPanel x:Name="LayoutRoot"  Margin="10">
+        <Button x:Name="btn1" Margin ="5" 
+            HorizontalAlignment="Left"
+		    Foreground="Green" Width="120" Click="OnClick1" 
+		    Content="Hover to Click" ClickMode="Hover" />
+        <TextBlock x:Name="text1" Margin ="0,8,0,0" />
+
+        <Button x:Name="btn2" Margin ="5,5,5,5" 
+            HorizontalAlignment="Left" 
+		    Foreground="Blue" Width="120" Click="OnClick2" 
+		    Content="Press to Click" ClickMode="Press" />
+        <TextBlock x:Name="text2" Margin="0,8,0,0" />
+        <Button x:Name="btn3" Margin ="5,5,5,5" 
+            HorizontalAlignment="Left"
+		    Click="OnClick3" Width="120" Content="Reset" 
+            ClickMode="Release"/>
+        <TextBlock x:Name="text3" Margin ="0,8,0,0" />
+    </StackPanel>
+</UserControl>

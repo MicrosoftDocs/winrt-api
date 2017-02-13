@@ -1,3 +1,22 @@
-----api-id: P:Windows.Media.Import.PhotoImportFindItemsResult.SelectedPhotosSizeInBytes
+---
+-api-id: P:Windows.Media.Import.PhotoImportFindItemsResult.SelectedPhotosSizeInBytes
 -api-type: winrt property
----<!-- Property syntaxpublic ulong SelectedPhotosSizeInBytes { get; }--># Windows.Media.Import.PhotoImportFindItemsResult.SelectedPhotosSizeInBytes## -descriptionGets the size of the photos that are currently selected to be included in the [ImportItemsAsync](photoimportfinditemsresult_importitemsasync.md) operation, in bytes.## -property-valueThe size of the photos that are currently selected, in bytes.## -remarks## -examples## -see-also
+---
+
+<!-- Property syntax
+public ulong SelectedPhotosSizeInBytes { get; }
+-->
+
+# Windows.Media.Import.PhotoImportFindItemsResult.SelectedPhotosSizeInBytes
+
+## -description
+Gets the size of the photos that are currently selected to be included in the [ImportItemsAsync](photoimportfinditemsresult_importitemsasync.md) operation, in bytes.
+
+## -property-value
+The size of the photos that are currently selected, in bytes.
+
+## -remarks
+
+## -examples
+
+## -see-also

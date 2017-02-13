@@ -1,3 +1,19 @@
-----api-id: E:Windows.Devices.PointOfService.ClaimedBarcodeScanner.TriggerPressed
+---
+-api-id: E:Windows.Devices.PointOfService.ClaimedBarcodeScanner.TriggerPressed
 -api-type: winrt event
----<!-- Event syntaxpublic event Windows.Foundation.EventHandler TriggerPressed<Windows.Devices.PointOfService.ClaimedBarcodeScanner>--># Windows.Devices.PointOfService.ClaimedBarcodeScanner.TriggerPressed## -descriptionOccurs when the barcode scanner trigger or button is pressed during a scanning operation.## -remarks## -examples## -see-also
+---
+
+<!-- Event syntax
+public event Windows.Foundation.EventHandler TriggerPressed<Windows.Devices.PointOfService.ClaimedBarcodeScanner>
+-->
+
+# Windows.Devices.PointOfService.ClaimedBarcodeScanner.TriggerPressed
+
+## -description
+Occurs when the barcode scanner trigger or button is pressed during a scanning operation.
+
+## -remarks
+
+## -examples
+
+## -see-also

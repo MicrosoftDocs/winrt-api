@@ -1,3 +1,22 @@
-----api-id: P:Windows.Devices.PointOfService.BarcodeSymbologies.SwedenPost
+---
+-api-id: P:Windows.Devices.PointOfService.BarcodeSymbologies.SwedenPost
 -api-type: winrt property
----<!-- Property syntaxpublic uint SwedenPost { get; }--># Windows.Devices.PointOfService.BarcodeSymbologies.SwedenPost## -descriptionGets the Sweden Postal barcode symbology.## -property-valueThe Sweden Postal barcode symbology.## -remarks## -examples## -see-also
+---
+
+<!-- Property syntax
+public uint SwedenPost { get; }
+-->
+
+# Windows.Devices.PointOfService.BarcodeSymbologies.SwedenPost
+
+## -description
+Gets the Sweden Postal barcode symbology.
+
+## -property-value
+The Sweden Postal barcode symbology.
+
+## -remarks
+
+## -examples
+
+## -see-also

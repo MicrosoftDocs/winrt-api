@@ -1,3 +1,26 @@
-----api-id: P:Windows.Devices.AllJoyn.AllJoynStatus.SslIdentityVerificationFailed
+---
+-api-id: P:Windows.Devices.AllJoyn.AllJoynStatus.SslIdentityVerificationFailed
 -api-type: winrt property
----<!-- Property syntaxpublic int SslIdentityVerificationFailed { get; }--># Windows.Devices.AllJoyn.AllJoynStatus.SslIdentityVerificationFailed## -descriptionThe SSL verification failed. Review provided SSL credentials.## -property-valueThe relevant AllJoyn status code.## -remarks## -examples## -see-also## -capabilitiesallJoyn
+---
+
+<!-- Property syntax
+public int SslIdentityVerificationFailed { get; }
+-->
+
+# Windows.Devices.AllJoyn.AllJoynStatus.SslIdentityVerificationFailed
+
+## -description
+The SSL verification failed. Review provided SSL credentials.
+
+## -property-value
+The relevant AllJoyn status code.
+
+## -remarks
+
+## -examples
+
+## -see-also
+
+
+## -capabilities
+allJoyn

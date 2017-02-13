@@ -23,7 +23,7 @@ The first magnetic stripe reader found. Returns a null object in the following c
 ## -examples
 
 
-[!code-cpp[CreateMagStripeReader](../windows.devices.pointofservice/code/MagneticStripeReader/cpp/Scenario1.xaml.cpp#SnippetCreateMagStripeReader)][!code-cs[CreateMagStripeReader](../windows.devices.pointofservice/code/MagneticStripeReader/cs/Scenario1.xaml.cs#SnippetCreateMagStripeReader)][!code-js[CreateMagStripeReader](../windows.devices.pointofservice/code/MagneticStripeReader/js/scenario1.js#SnippetCreateMagStripeReader)]
+[!code-cpp[CreateMagStripeReader](../windows.devices.pointofservice/code/MagneticStripeReader/cpp/Scenario1.xaml.cpp#SnippetCreateMagStripeReader)][!code-csharp[CreateMagStripeReader](../windows.devices.pointofservice/code/MagneticStripeReader/cs/Scenario1.xaml.cs#SnippetCreateMagStripeReader)][!code-js[CreateMagStripeReader](../windows.devices.pointofservice/code/MagneticStripeReader/js/scenario1.js#SnippetCreateMagStripeReader)]
 
 [!code-js[CreateMagStripeReaderJS](../windows.devices.pointofservice/code/MagneticStripeReader/js/scenario1.js#SnippetCreateMagStripeReaderJS)]
 

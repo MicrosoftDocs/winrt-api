@@ -50,6 +50,9 @@ The APDU response was not sent.
 An unknown error occurred.
 
 
+### -field ValidationFailed:12
+
+
 ## -remarks
 
 ## -examples
