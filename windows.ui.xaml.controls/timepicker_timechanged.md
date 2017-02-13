@@ -14,7 +14,7 @@ Occurs when the time value is changed.
 
 ## -xaml-syntax
 ```xaml
->TimePicker TimeChanged="eventhandler" />
+<TimePicker TimeChanged="eventhandler" />
 ```
 
 

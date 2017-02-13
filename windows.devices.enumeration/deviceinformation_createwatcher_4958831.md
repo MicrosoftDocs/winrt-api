@@ -20,6 +20,9 @@ An AQS string that filters the [DeviceInformation](deviceinformation.md) objects
 The created [DeviceWatcher](devicewatcher.md).
 
 ## -remarks
+> [!NOTE]
+> This overload is not available from JavaScript. To create a [DeviceWatcher](devicewatcher.md) from an AQS string in JavaScript, use the [CreateWatcher(String, IIterable_1)](deviceinformation_createwatcher_490167309.md) overload and pass `null` as the second parameter.
+
 The [DeviceWatcher](devicewatcher.md) first performs an initial enumeration of devices, raising an [Added](devicewatcher_added.md) event for each device that it finds, and raising an [EnumerationCompleted](devicewatcher_enumerationcompleted.md) event when the initial enumeration is complete. After the initial enumeration is complete, it raises events when a device is added, deleted, or updated.
 
 > [!NOTE]

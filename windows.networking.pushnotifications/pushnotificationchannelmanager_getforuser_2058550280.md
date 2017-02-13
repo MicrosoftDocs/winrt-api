@@ -10,12 +10,15 @@ public PushNotificationChannelManagerForUser PushNotificationChannelManager.GetF
 # Windows.Networking.PushNotifications.PushNotificationChannelManager.GetForUser
 
 ## -description
+Gets the push notifications for the specified user.
 
 ## -parameters
 
 ### -param user
+The user account for the push notifications.
 
 ## -returns
+A [PushNotificationChannelManagerForUser](PushNotificationChannelManagerForUser,md) object.
 
 ## -remarks
 
