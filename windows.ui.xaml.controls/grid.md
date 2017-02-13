@@ -78,7 +78,7 @@ This XAML example shows how to design a layout by using a [Grid](grid.md).
 
 
 
-[!code-cs[GridClassCode](../windows.ui.xaml/code/GridReferenceSample/csharp/Page.xaml.cs#SnippetGridClassCode)][!code-vb[GridClassCode](../windows.ui.xaml/code/GridReferenceSample/vbnet/Page.xaml.vb#SnippetGridClassCode)]
+[!code-csharp[GridClassCode](../windows.ui.xaml/code/GridReferenceSample/csharp/Page.xaml.cs#SnippetGridClassCode)][!code-vb[GridClassCode](../windows.ui.xaml/code/GridReferenceSample/vbnet/Page.xaml.vb#SnippetGridClassCode)]
 
 ## -see-also
 [Panel](panel.md), [Grid.Row](grid_row.md), [Grid.Column](grid_column.md), [Define layouts](http://msdn.microsoft.com/library/8d4e4162-1c9c-48f4-8a94-34976fb17079), [Alignment, margin, and padding](http://msdn.microsoft.com/library/9412abd4-3674-4865-b07d-64c7c26e4842), [Attached properties overview](http://msdn.microsoft.com/library/098c1de0-d640-48b1-9961-d0adf33266e2), [Canvas](canvas.md), [StackPanel](stackpanel.md), [VariableSizedWrapGrid](variablesizedwrapgrid.md), [WrapGrid](wrapgrid.md), [Controls list](http://msdn.microsoft.com/library/11172840-a63d-4f48-9db4-7baca06308ee), [Controls by function](http://msdn.microsoft.com/library/8db4347b-91d6-4659-91f2-80ecf7bbb596)

@@ -39,7 +39,7 @@ This example checks for an existing local value with [ReadLocalValue](dependency
 
 
 
-[!code-cs[DOCheckClear](../windows.ui.xaml/code/DOandDP/csharp/Class1.cs#SnippetDOCheckClear)][!code-vb[DOCheckClear](../windows.ui.xaml/code/DOandDP/vbnet/Class1.vb#SnippetDOCheckClear)]
+[!code-csharp[DOCheckClear](../windows.ui.xaml/code/DOandDP/csharp/Class1.cs#SnippetDOCheckClear)][!code-vb[DOCheckClear](../windows.ui.xaml/code/DOandDP/vbnet/Class1.vb#SnippetDOCheckClear)]
 
 ## -see-also
 [IValueConverter.Convert](../windows.ui.xaml.data/ivalueconverter_convert.md), [Custom dependency properties](http://msdn.microsoft.com/library/5adf7935-f2cf-4bb6-b1a5-f535c2ed8ef8), [Dependency properties overview](http://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e), [Data binding in depth](http://msdn.microsoft.com/library/41e1b4f1-6caf-4128-a61a-4e400b149011)

@@ -27,11 +27,11 @@ The [File picker sample](http://go.microsoft.com/fwlink/p/?linkid=234890) demons
 
 
 
-[!code-cs[all_savepicker_checksnapped_show](../windows.storage.pickers/code/FilePicker/CS/Scenario4.xaml.cs#Snippetall_savepicker_checksnapped_show)][!code-js[all_savepicker_checksnapped_show](../windows.storage.pickers/code/FilePicker/js/js/scenario4.js#Snippetall_savepicker_checksnapped_show)]
+[!code-csharp[all_savepicker_checksnapped_show](../windows.storage.pickers/code/FilePicker/CS/Scenario4.xaml.cs#Snippetall_savepicker_checksnapped_show)][!code-js[all_savepicker_checksnapped_show](../windows.storage.pickers/code/FilePicker/js/js/scenario4.js#Snippetall_savepicker_checksnapped_show)]
 
 
 
-[!code-cs[cs_checksnapped](../windows.storage.pickers/code/FilePicker/CS/Constants.cs#Snippetcs_checksnapped)]
+[!code-csharp[cs_checksnapped](../windows.storage.pickers/code/FilePicker/CS/Constants.cs#Snippetcs_checksnapped)]
 
 ## -see-also
 [File picker sample](http://go.microsoft.com/fwlink/p/?linkid=234890), [Quickstart: Accessing files with ](http://msdn.microsoft.com/library/df082239-381c-462f-9f97-d2b390a2052e), [How to save files through ](http://msdn.microsoft.com/library/d29085cb-71d1-4537-a375-4a07fc75efc2), [How to continue your Windows Phone app after calling a file picker](http://msdn.microsoft.com/library/465bbb7a-9ed1-4b57-b60f-e5c6e7cd1470), [Windows.Storage.StorageFile class](../windows.storage/storagefile.md), [File picker sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=619994)
