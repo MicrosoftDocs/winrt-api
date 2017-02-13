@@ -16,7 +16,7 @@ Gets the raw header content from the notification.
 A map view of the header values.
 
 ## -remarks
-Headers are in this format:
+Header format:
 ```syntax
 Content-Encoding: aesgcm
 Crypto-Key: dh=<PUBLICKEY>
