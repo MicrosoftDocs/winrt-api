@@ -13,7 +13,7 @@ public enum Windows.Security.EnterpriseData.ProtectionPolicyRequestAccessBehavio
 > [!NOTE]
 > Windows Information Protection (WIP) policy cannot be applied on Windows 10, version 1511 (build 10586) or earlier.
 
-Defines constants that you can use to override default policy behavior.
+Defines constants that you can use to override default behavior of the request access overloads of the [ProtectionPolicyManager](protectionpolicymanager.md) class.
 
 ## -enum-fields
 ### -field Decrypt:0
