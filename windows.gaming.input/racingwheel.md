@@ -36,7 +36,7 @@ Force feedback is supported on the following device models:
    <tr><td /><td>HID-mode for the Xbox One</td></tr>
 </table>
 
-Note that to use the devices listed above you should include a HID capability declaration in your app's appxmanifest:
+Note that to use the devices listed above you should include a HID (Human Interface Device) capability declaration in your app's appxmanifest:
 
 ```xml
 
