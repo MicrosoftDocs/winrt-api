@@ -10,8 +10,10 @@ public bool IsEducationEnvironment { get; }
 # Windows.System.Profile.EducationSettings.IsEducationEnvironment
 
 ## -description
+Gets a Boolean value indicating if the app is running in an education environment.
 
 ## -property-value
+A Boolean value indicating if the app is running in an education environment.
 
 ## -remarks
 
