@@ -8,7 +8,7 @@ public IAsyncOperation<ProtectionPolicyEvaluationResult> ProtectionPolicyManager
 -->
 
 # Windows.Security.EnterpriseData.ProtectionPolicyManager.RequestAccessToFilesForProcessAsync
-Requests access to enterprise-protected content for a specific unenlightened process.
+Requests access to enterprise-protected content for a process of an app.
 ## -description
 
 ## -params

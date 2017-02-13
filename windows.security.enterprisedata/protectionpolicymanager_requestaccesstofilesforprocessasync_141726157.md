@@ -10,7 +10,7 @@ public IAsyncOperation<ProtectionPolicyEvaluationResult> ProtectionPolicyManager
 # Windows.Security.EnterpriseData.ProtectionPolicyManager.RequestAccessToFilesForProcessAsync
 
 ## -description
-Requests access to enterprise-protected content for a specific unenlightened app.
+Requests access to enterprise-protected content for a process of an app.
 ## -params
 
 ## -param sourceItemList
@@ -26,7 +26,7 @@ A constant that defines how you would like to override default policy behavior.
 ## -returns
 A value of the [ProtectionPolicyEvaluationResult](protectionpolicyevaluationresult.md) enumeration that is the result of the query.
 ## -remarks
-Use this method to temporarily grant access of a protected file to an unprotected process.
+Use this method to temporarily grant access of a protected file to a process that can only access unprotected files.
 ## -see-also
 
 ## -examples
