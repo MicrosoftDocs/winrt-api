@@ -22,4 +22,3 @@ The number of axes on the game controller.
 ## -see-also
 
 ## -examples
-

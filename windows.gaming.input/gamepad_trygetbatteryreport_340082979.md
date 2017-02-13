@@ -22,4 +22,3 @@ Information about the arcade stick's current battery state.
 ## -see-also
 
 ## -examples
-

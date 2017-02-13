@@ -24,4 +24,3 @@ Information about the flight stick's current battery state.
 * [Windows.Devices.Power.BatteryReport](../windows.devices.power/batteryreport.md)
 
 ## -examples
-

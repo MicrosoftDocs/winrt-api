@@ -9,7 +9,7 @@ public string Name { get; }
 
 # Windows.ApplicationModel.Background.BackgroundTaskRegistrationGroup.Name
 
-## -desc
+## -description
 Gets the friendly name of the group.
 
 ## -property-value

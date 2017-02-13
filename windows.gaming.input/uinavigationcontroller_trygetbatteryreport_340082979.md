@@ -22,4 +22,3 @@ Information about the UI navigation controller's current battery state.
 ## -see-also
 
 ## -examples
-

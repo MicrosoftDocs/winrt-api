@@ -9,7 +9,7 @@ public bool IsRequired { get; }
 
 # Windows.ApplicationModel.PackageContentGroup.IsRequired
 
-## -desc
+## -description
 Indicates whether this package content group is required or automatic.
 
 ## -property-value

@@ -1,3 +1,19 @@
-----api-id: T:Windows.Devices.Bluetooth.Background.RfcommInboundConnectionInformation
+---
+-api-id: T:Windows.Devices.Bluetooth.Background.RfcommInboundConnectionInformation
 -api-type: winrt class
----<!-- Class syntax.public class RfcommInboundConnectionInformation : Windows.Devices.Bluetooth.Background.IRfcommInboundConnectionInformation--># Windows.Devices.Bluetooth.Background.RfcommInboundConnectionInformation## -descriptionProvides information about incoming RFCOMM connections. If an app wants the system to listen for incoming connections on behalf of an [RfcommConnectionTrigger](../windows.applicationmodel.background/rfcommconnectiontrigger.md), the app must create this object and attach it to the RfcommConnectionTrigger.## -remarks## -examples## -see-also
+---
+
+<!-- Class syntax.
+public class RfcommInboundConnectionInformation : Windows.Devices.Bluetooth.Background.IRfcommInboundConnectionInformation
+-->
+
+# Windows.Devices.Bluetooth.Background.RfcommInboundConnectionInformation
+
+## -description
+Provides information about incoming RFCOMM connections. If an app wants the system to listen for incoming connections on behalf of an [RfcommConnectionTrigger](../windows.applicationmodel.background/rfcommconnectiontrigger.md), the app must create this object and attach it to the RfcommConnectionTrigger.
+
+## -remarks
+
+## -examples
+
+## -see-also

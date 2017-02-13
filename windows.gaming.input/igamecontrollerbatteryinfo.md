@@ -18,4 +18,3 @@ Interface that allows game controller (or headset) classes to query for informat
 ## -see-also
 
 ## -examples
-

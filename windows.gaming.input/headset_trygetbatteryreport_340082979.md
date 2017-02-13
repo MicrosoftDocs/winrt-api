@@ -22,4 +22,3 @@ Information about the headset's current battery state.
 ## -see-also
 
 ## -examples
-

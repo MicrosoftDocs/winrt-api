@@ -22,4 +22,3 @@ The list of all connected flight sticks.
 ## -see-also
 
 ## -examples
-

@@ -38,4 +38,3 @@ The primary fire button.
 * [Windows.Gaming.Input.FlightStick](flightstick.md)
 
 ## -examples
-

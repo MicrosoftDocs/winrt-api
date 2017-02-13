@@ -18,4 +18,3 @@ Signals when a raw game controller is disconnected.
 ## -see-also
 
 ## -examples
-

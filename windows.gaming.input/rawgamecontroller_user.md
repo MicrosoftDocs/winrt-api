@@ -22,4 +22,3 @@ The user associated with the game controller.
 ## -see-also
 
 ## -examples
-

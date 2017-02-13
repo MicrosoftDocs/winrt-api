@@ -22,4 +22,3 @@ True if the raw game controller is wireless. Otherwise, false.
 ## -see-also
 
 ## -examples
-

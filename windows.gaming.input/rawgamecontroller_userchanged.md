@@ -18,4 +18,3 @@ Signals when the user associated with the game controller has changed.
 ## -see-also
 
 ## -examples
-

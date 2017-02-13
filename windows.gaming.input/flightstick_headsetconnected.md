@@ -21,4 +21,3 @@ Signals when a headset is attached to the flight stick.
 * [Windows.Gaming.Input.Headset](headset.md)
 
 ## -examples
-

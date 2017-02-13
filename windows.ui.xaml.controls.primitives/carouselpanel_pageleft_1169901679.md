@@ -1,3 +1,20 @@
-----api-id: M:Windows.UI.Xaml.Controls.Primitives.CarouselPanel.PageLeft
+---
+-api-id: M:Windows.UI.Xaml.Controls.Primitives.CarouselPanel.PageLeft
 -api-type: winrt method
----<!-- Method syntaxpublic void PageLeft()--># Windows.UI.Xaml.Controls.Primitives.CarouselPanel.PageLeft## -descriptionScrolls content by one page towards the left.## -remarksThis implementation calls [SetHorizontalOffset](carouselpanel_sethorizontaloffset.md) using a value for "page" that is same as the [ViewportWidth](carouselpanel_viewportwidth.md).## -examples## -see-also
+---
+
+<!-- Method syntax
+public void PageLeft()
+-->
+
+# Windows.UI.Xaml.Controls.Primitives.CarouselPanel.PageLeft
+
+## -description
+Scrolls content by one page towards the left.
+
+## -remarks
+This implementation calls [SetHorizontalOffset](carouselpanel_sethorizontaloffset.md) using a value for "page" that is same as the [ViewportWidth](carouselpanel_viewportwidth.md).
+
+## -examples
+
+## -see-also

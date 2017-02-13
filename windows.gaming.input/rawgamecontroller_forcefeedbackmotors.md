@@ -22,4 +22,3 @@ The list of force feedback motors in the game controller.
 ## -see-also
 
 ## -examples
-

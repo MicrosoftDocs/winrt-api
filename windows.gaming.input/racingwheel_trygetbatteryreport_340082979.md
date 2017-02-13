@@ -22,4 +22,3 @@ Information about the racing wheel's current battery state.
 ## -see-also
 
 ## -examples
-

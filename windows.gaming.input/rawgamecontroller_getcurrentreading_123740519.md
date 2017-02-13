@@ -40,4 +40,3 @@ Unlike the **GetCurrentReading** member functions of other classes, such as [Arc
 ## -see-also
 
 ## -examples
-

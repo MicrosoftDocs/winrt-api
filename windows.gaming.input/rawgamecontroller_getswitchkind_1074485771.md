@@ -30,4 +30,3 @@ This function takes an integer, which is the index of the raw game controller's 
 ## -see-also
 
 ## -examples
-

@@ -22,4 +22,3 @@ The list of all connected raw game controllers.
 ## -see-also
 
 ## -examples
-

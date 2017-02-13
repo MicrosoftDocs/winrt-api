@@ -1,3 +1,25 @@
-----api-id: T:Windows.Media.Devices.SceneModeControl
+---
+-api-id: T:Windows.Media.Devices.SceneModeControl
 -api-type: winrt class
----<!-- Class syntax.public class SceneModeControl : Windows.Media.Devices.ISceneModeControl--># Windows.Media.Devices.SceneModeControl## -descriptionProvides functionality for controlling the scene mode settings on a capture device.## -remarksThe [SceneModeControl ](scenemodecontrol.md) enables apps to tune the post-processing of captured frames to better match the scene being recorded. The [SupportedModes](scenemodecontrol_supportedmodes.md) enumeration specifies the modes, such as [Snow](capturescenemode.md), [Night](capturescenemode.md), and [Sport](capturescenemode.md), that are supported by the device.To select a mode, call [SceneModeControl.SetValueAsync](scenemodecontrol_setvalueasync.md).You can access the [SceneModeControl ](scenemodecontrol.md) for the capture device through [MediaCapture.VideoDeviceController](../windows.media.capture/mediacapture_videodevicecontroller.md).## -examples## -see-also[MediaCapture.VideoDeviceController](../windows.media.capture/mediacapture_videodevicecontroller.md)
+---
+
+<!-- Class syntax.
+public class SceneModeControl : Windows.Media.Devices.ISceneModeControl
+-->
+
+# Windows.Media.Devices.SceneModeControl
+
+## -description
+Provides functionality for controlling the scene mode settings on a capture device.
+
+## -remarks
+The [SceneModeControl ](scenemodecontrol.md) enables apps to tune the post-processing of captured frames to better match the scene being recorded. The [SupportedModes](scenemodecontrol_supportedmodes.md) enumeration specifies the modes, such as [Snow](capturescenemode.md), [Night](capturescenemode.md), and [Sport](capturescenemode.md), that are supported by the device.
+
+To select a mode, call [SceneModeControl.SetValueAsync](scenemodecontrol_setvalueasync.md).
+
+You can access the [SceneModeControl ](scenemodecontrol.md) for the capture device through [MediaCapture.VideoDeviceController](../windows.media.capture/mediacapture_videodevicecontroller.md).
+
+## -examples
+
+## -see-also
+[MediaCapture.VideoDeviceController](../windows.media.capture/mediacapture_videodevicecontroller.md)

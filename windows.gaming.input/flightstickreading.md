@@ -60,4 +60,3 @@ The amount of yaw (rotation around the Y-axis; usually read from twisting the jo
 * [Windows.Gaming.Input.FlightStick](flightstick.md)
 
 ## -examples
-

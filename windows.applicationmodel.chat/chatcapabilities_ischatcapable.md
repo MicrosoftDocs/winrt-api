@@ -1,3 +1,22 @@
-----api-id: P:Windows.ApplicationModel.Chat.ChatCapabilities.IsChatCapable
+---
+-api-id: P:Windows.ApplicationModel.Chat.ChatCapabilities.IsChatCapable
 -api-type: winrt property
----<!-- Property syntaxpublic bool IsChatCapable { get; }--># Windows.ApplicationModel.Chat.ChatCapabilities.IsChatCapable## -descriptionGets a Boolean value indicating if a phone number supports Rich Communication Services (RCS) chat.## -property-valueA Boolean value indicating of the app supports chat.## -remarks## -examples## -see-also
+---
+
+<!-- Property syntax
+public bool IsChatCapable { get; }
+-->
+
+# Windows.ApplicationModel.Chat.ChatCapabilities.IsChatCapable
+
+## -description
+Gets a Boolean value indicating if a phone number supports Rich Communication Services (RCS) chat.
+
+## -property-value
+A Boolean value indicating of the app supports chat.
+
+## -remarks
+
+## -examples
+
+## -see-also

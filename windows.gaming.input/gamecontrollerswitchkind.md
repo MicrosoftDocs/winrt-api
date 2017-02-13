@@ -38,4 +38,3 @@ An eight-way switch, which has all positions in the [GameControllerSwitchPositio
 * [GameControllerSwitchPosition](gamecontrollerswitchposition.md)
 
 ## -examples
-

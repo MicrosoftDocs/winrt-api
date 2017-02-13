@@ -18,4 +18,3 @@ Signals when a headset is attached to the raw game controller.
 ## -see-also
 
 ## -examples
-

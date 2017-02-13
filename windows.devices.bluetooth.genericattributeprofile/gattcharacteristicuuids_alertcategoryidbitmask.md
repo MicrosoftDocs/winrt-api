@@ -1,3 +1,22 @@
-----api-id: P:Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.AlertCategoryIdBitMask
+---
+-api-id: P:Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.AlertCategoryIdBitMask
 -api-type: winrt property
----<!-- Property syntaxpublic System.Guid AlertCategoryIdBitMask { get; }--># Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.AlertCategoryIdBitMask## -descriptionGets the Bluetooth SIG-Defined AlertCategoryIdBitMask characteristic UUID. To view a list of all Bluetooth SIG-defined characteristic UUIDs, see [Bluetooth SIG-defined Characteristic UUIDs](http://go.microsoft.com/fwlink/p/?LinkId=391800).## -property-valueThe Bluetooth SIG-defined AlertCategoryIdBitMask characteristic UUID.## -remarks## -examples## -see-also
+---
+
+<!-- Property syntax
+public System.Guid AlertCategoryIdBitMask { get; }
+-->
+
+# Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.AlertCategoryIdBitMask
+
+## -description
+Gets the Bluetooth SIG-Defined AlertCategoryIdBitMask characteristic UUID. To view a list of all Bluetooth SIG-defined characteristic UUIDs, see [Bluetooth SIG-defined Characteristic UUIDs](http://go.microsoft.com/fwlink/p/?LinkId=391800).
+
+## -property-value
+The Bluetooth SIG-defined AlertCategoryIdBitMask characteristic UUID.
+
+## -remarks
+
+## -examples
+
+## -see-also

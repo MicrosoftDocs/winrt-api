@@ -9,7 +9,7 @@ public BackgroundTaskRegistrationGroup TaskGroup { get; }
 
 # Windows.ApplicationModel.Background.BackgroundTaskRegistration.TaskGroup
 
-## -desc
+## -description
 Gets the **BackgroundTaskRegistrationGroup** that this **BackgroundTaskRegistration** is a part of.
 
 ## -property-value

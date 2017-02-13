@@ -1,3 +1,25 @@
-----api-id: T:Windows.Devices.WiFiDirect.WiFiDirectConnectionRequest
+---
+-api-id: T:Windows.Devices.WiFiDirect.WiFiDirectConnectionRequest
 -api-type: winrt class
----<!-- Class syntax.public class WiFiDirectConnectionRequest : Windows.Devices.WiFiDirect.IWiFiDirectConnectionRequest, Windows.Foundation.IClosable--># Windows.Devices.WiFiDirect.WiFiDirectConnectionRequest## -descriptionA Wi-FI Direct connection request received by a [WiFiDirectConnectionListener](wifidirectconnectionlistener.md).## -remarksA [WiFiDirectConnectionRequest](wifidirectconnectionrequest.md) instance is retrieved by the [GetConnectionRequest](wifidirectconnectionrequestedeventargs_getconnectionrequest.md) method on the [WiFiDirectConnectionRequestedEventArgs](wifidirectconnectionrequestedeventargs.md) object when the [ConnectionRequested](wifidirectconnectionlistener_connectionrequested.md) event occurs on a [WiFiDirectConnectionListener](wifidirectconnectionlistener.md).Retrieve information about the requesting device using [DeviceInformation](wifidirectconnectionrequest_deviceinformation.md).The [Close](wifidirectconnectionrequest_close.md) method releases all unmanaged resources associated with the [WiFiDirectConnectionRequest](wifidirectconnectionrequest.md) object.## -examples## -see-also[IClosable](../windows.foundation/iclosable.md), [WiFiDirectConnectionRequestedEventArgs](wifidirectconnectionrequestedeventargs.md), [WiFiDirectConnectionRequestedEventArgs.ConnectionRequested](wifidirectconnectionlistener_connectionrequested.md), [WiFiDirectConnectionListener](wifidirectconnectionlistener.md), [WiFiDirectConnectionListener.ConnectionRequested](wifidirectconnectionlistener_connectionrequested.md)
+---
+
+<!-- Class syntax.
+public class WiFiDirectConnectionRequest : Windows.Devices.WiFiDirect.IWiFiDirectConnectionRequest, Windows.Foundation.IClosable
+-->
+
+# Windows.Devices.WiFiDirect.WiFiDirectConnectionRequest
+
+## -description
+A Wi-FI Direct connection request received by a [WiFiDirectConnectionListener](wifidirectconnectionlistener.md).
+
+## -remarks
+A [WiFiDirectConnectionRequest](wifidirectconnectionrequest.md) instance is retrieved by the [GetConnectionRequest](wifidirectconnectionrequestedeventargs_getconnectionrequest.md) method on the [WiFiDirectConnectionRequestedEventArgs](wifidirectconnectionrequestedeventargs.md) object when the [ConnectionRequested](wifidirectconnectionlistener_connectionrequested.md) event occurs on a [WiFiDirectConnectionListener](wifidirectconnectionlistener.md).
+
+Retrieve information about the requesting device using [DeviceInformation](wifidirectconnectionrequest_deviceinformation.md).
+
+The [Close](wifidirectconnectionrequest_close.md) method releases all unmanaged resources associated with the [WiFiDirectConnectionRequest](wifidirectconnectionrequest.md) object.
+
+## -examples
+
+## -see-also
+[IClosable](../windows.foundation/iclosable.md), [WiFiDirectConnectionRequestedEventArgs](wifidirectconnectionrequestedeventargs.md), [WiFiDirectConnectionRequestedEventArgs.ConnectionRequested](wifidirectconnectionlistener_connectionrequested.md), [WiFiDirectConnectionListener](wifidirectconnectionlistener.md), [WiFiDirectConnectionListener.ConnectionRequested](wifidirectconnectionlistener_connectionrequested.md)

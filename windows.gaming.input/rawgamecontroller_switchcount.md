@@ -22,4 +22,3 @@ The number of switches on the game controller.
 ## -see-also
 
 ## -examples
-

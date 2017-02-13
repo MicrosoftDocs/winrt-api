@@ -31,4 +31,3 @@ Represents a flight stick.
 * [IGameControllerBatteryInfo](igamecontrollerbatteryinfo.md)
 
 ## -examples
-

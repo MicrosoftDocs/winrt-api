@@ -22,4 +22,3 @@ Information about the game controller's current battery state.
 ## -see-also
 
 ## -examples
-

@@ -20,4 +20,3 @@ To identify flight sticks that have already been added, you query the list of co
 ## -see-also
 
 ## -examples
-

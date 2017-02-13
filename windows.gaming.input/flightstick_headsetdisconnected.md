@@ -21,4 +21,3 @@ Signals when a headset is disconnected from the flight stick.
 * [Windows.Gaming.Input.Headset](headset.md)
 
 ## -examples
-

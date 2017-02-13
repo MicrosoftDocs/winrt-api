@@ -28,4 +28,3 @@ The raw game controller that was converted from the given game controller.
 ## -see-also
 
 ## -examples
-

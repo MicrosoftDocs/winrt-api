@@ -21,4 +21,3 @@ Signals when the user associated with the flight stick has changed.
 * [Windows.System.UserChangedEventArgs](../windows.system/userchangedeventargs.md)
 
 ## -examples
-

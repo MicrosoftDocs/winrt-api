@@ -24,6 +24,6 @@ The following code example demonstrates how to handle the [CurrentChanging](icol
 
 [!code-xml[Xaml](../windows.ui.xaml.data/code/CurrentChangingExample/csharp/BlankPage.xaml#SnippetXaml)]
 
-[!code-cs[Code](../windows.ui.xaml.data/code/CurrentChangingExample/csharp/BlankPage.xaml.cs#SnippetCode)]
+[!code-csharp[Code](../windows.ui.xaml.data/code/CurrentChangingExample/csharp/BlankPage.xaml.cs#SnippetCode)]
 
 ## -see-also

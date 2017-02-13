@@ -22,4 +22,3 @@ True if the flight stick is wireless. Otherwise, false.
 ## -see-also
 
 ## -examples
-

@@ -24,4 +24,3 @@ The audio headset attached to the flight stick.
 * [Windows.Gaming.Input.Headset](headset.md)
 
 ## -examples
-

@@ -22,4 +22,3 @@ The number of buttons on the game controller.
 ## -see-also
 
 ## -examples
-

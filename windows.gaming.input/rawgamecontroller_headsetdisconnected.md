@@ -18,4 +18,3 @@ Signals when a headset is disconnected from the raw game controller.
 ## -see-also
 
 ## -examples
-
