@@ -11,9 +11,15 @@ public ushort UsagePage { get; }
 
 ## -description
 
+The usage page of the top-level collection. TODO: ???
+
 ## -property-value
 
+The usage page of the top-level collection.
+
 ## -remarks
+
+The **UsagePage** is retrieved from the HID (Human Interface Device) report descriptor.
 
 ## -see-also
 

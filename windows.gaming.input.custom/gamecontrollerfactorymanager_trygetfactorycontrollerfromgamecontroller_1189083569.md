@@ -11,17 +11,24 @@ public IGameController GameControllerFactoryManager.TryGetFactoryControllerFromG
 
 ## -description
 
+TODO: Why does it return IGameController if it's supposed to get a factory controller? Also, why does it take an ICustomGameControllerFactory?
+
 ## -parameters
 
 ### -param factory
 
 ### -param gameController
 
+The game controller to convert to a factory controller.
+
 ## -returns
 
 ## -remarks
 
 ## -see-also
+
+* [Windows.Gaming.Input.IGameController](../windows.gaming.input/igamecontroller.md)
+* [Windows.Gaming.Input.Custom.ICustomGameControllerFactory](icustomgamecontrollerfactory.md)
 
 ## -examples
 

@@ -11,13 +11,21 @@ public void IHidGameControllerInputSink.OnInputReportReceived(UInt64 timestamp, 
 
 ## -description
 
+Event triggered when input is received.
+
 ## -parameters
 
 ### -param timestamp
 
+Timestamp of the event.
+
 ### -param reportId
 
+The ID of the report.
+
 ### -param reportBuffer
+
+A buffer containing the received input.
 
 ## -remarks
 

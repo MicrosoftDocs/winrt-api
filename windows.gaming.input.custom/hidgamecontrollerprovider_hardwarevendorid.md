@@ -11,7 +11,11 @@ public ushort HardwareVendorId { get; }
 
 ## -description
 
+The hardware vendor ID of the controller.
+
 ## -property-value
+
+The hardware vendor ID of the controller.
 
 ## -remarks
 

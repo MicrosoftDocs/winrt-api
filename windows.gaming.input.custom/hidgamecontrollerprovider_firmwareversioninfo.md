@@ -11,11 +11,17 @@ public GameControllerVersionInfo FirmwareVersionInfo { get; }
 
 ## -description
 
+The firmware version of the controller.
+
 ## -property-value
+
+The firmware version of the controller.
 
 ## -remarks
 
 ## -see-also
+
+[Windows.Gaming.Input.Custom.GameControllerVersionInfo](gamecontrollerversioninfo.md)
 
 ## -examples
 
