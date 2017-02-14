@@ -10,10 +10,11 @@ public class LineDisplay : IClosable
 # Windows.Devices.PointOfService.LineDisplay
 
 ## -description
+Represents the line display device.
 
 ## -remarks
+This object is created when [GetDefaultAsync](linedisplay_getdefaultasync.md) or [FromIdAsync](linedisplay_fromidasync.md) method completes.
 
 ## -see-also
 
 ## -examples
-
