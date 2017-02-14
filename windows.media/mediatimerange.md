@@ -13,12 +13,15 @@ public struct MediaTimeRange  {
 # Windows.Media.MediaTimeRange
 
 ## -description
+Represents a time range within media content.
 
 ## -struct-fields
 
 ### -field End
+A time span from the beginning of the media content to the end of the time range.
 
 ### -field Start
+A time span from the beginning of the media content to the beginning of the time range.
 
 ## -remarks
 

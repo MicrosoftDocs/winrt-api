@@ -31,12 +31,11 @@ The metadata contains description text.
 ### -field Subtitle:5
 The metadata contains subtitle text.
 
-
 ### -field ImageSubtitle:6
-
+The metadata contains images to be used as subtitles.
 
 ### -field Speech:7
-
+The metadata contains speech metadata, such as word boundaries, sentence boundaries, and Speech Sythesis Markup Language (SSML) bookmarks.  
 
 ## -remarks
 
