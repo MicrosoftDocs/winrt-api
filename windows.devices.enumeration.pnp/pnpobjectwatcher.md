@@ -17,7 +17,7 @@ An app calls [Start](pnpobjectwatcher_start.md) to begin the search for devices.
 
 The following diagram shows how the [PnpObjectWatcher](pnpobjectwatcher.md) transitions between the states represented by [DeviceWatcherStatus](../windows.devices.enumeration/devicewatcherstatus.md) enumeration.
 
-<img src="images/statediagram.png" alt="state diagram of DeviceWatcher states"><?xm-replace_text {rem}?></img>
+<img src="images/statediagram.png" alt="state diagram of DeviceWatcher states"></img>
 
 The [Start](pnpobjectwatcher_start.md) method can only be called when the [PnpObjectWatcher](pnpobjectwatcher.md) is in the **Created**, **Stopped** or **Aborted** state. The [Status](pnpobjectwatcher_status.md) property indicates the [PnpObjectWatcher](pnpobjectwatcher.md) state. When re-starting the watcher, wait for the [Stopped](pnpobjectwatcher_stopped.md) event before calling [Start](pnpobjectwatcher_start.md).
 

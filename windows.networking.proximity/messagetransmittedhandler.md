@@ -8,7 +8,7 @@ public delegate void MessageTransmittedHandler(Windows.Networking.Proximity.Prox
 # Windows.Networking.Proximity.MessageTransmittedHandler
 
 ## -description
-Describes the method that will handle the event <?xm-insertion_mark_start author="v-shawja" time="20120126T115427-0800"?> that's fired<?xm-insertion_mark_end?><?xm-deletion_mark author="v-shawja" time="20120126T115429-0800" data="raised"?> when a published message has been transmitted.
+Describes the method that will handle the event that's fired when a published message has been transmitted.
 
 ## -parameters
 ### -param sender

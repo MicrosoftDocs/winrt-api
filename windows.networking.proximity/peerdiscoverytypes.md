@@ -14,13 +14,13 @@ Indicates which discovery options are available to use with the [PeerFinder](pee
 
 ## -enum-fields
 ### -field None:0
-<?xm-deletion_mark author="v-shawja" time="20120125T145217-0800" data="There are n"?><?xm-insertion_mark_start author="v-shawja" time="20120125T145219-0800"?> N<?xm-insertion_mark_end?> o supported discovery types <?xm-insertion_mark_start author="v-shawja" time="20120125T145222-0800"?> are <?xm-insertion_mark_end?> available. You can<?xm-insertion_mark_start author="v-shawja" time="20120125T144913-0800"?> '<?xm-insertion_mark_end?><?xm-deletion_mark author="v-shawja" time="20120125T144914-0800" data="no"?> t use the [PeerFinder](peerfinder.md) class.
+ No supported discovery types are available. You can't use the [PeerFinder](peerfinder.md) class.
 
 ### -field Browse:1
-You can use Wifi-Direct to find peers <?xm-insertion_mark_start author="v-shawja" time="20120125T145231-0800"?> by <?xm-insertion_mark_end?> using the [FindAllPeersAsync](peerfinder_findallpeersasync.md) and [ConnectAsync](peerfinder_connectasync.md) methods of the [PeerFinder](peerfinder.md) class.
+You can use Wifi-Direct to find peers by using the [FindAllPeersAsync](peerfinder_findallpeersasync.md) and [ConnectAsync](peerfinder_connectasync.md) methods of the [PeerFinder](peerfinder.md) class.
 
 ### -field Triggered:2
-You can tap to connect to peers <?xm-insertion_mark_start author="v-shawja" time="20120125T145238-0800"?> by <?xm-insertion_mark_end?> using the [PeerFinder](peerfinder.md) class.
+You can tap to connect to peers by using the [PeerFinder](peerfinder.md) class.
 
 
 ## -remarks
