@@ -1,0 +1,21 @@
+---
+-api-id: M:Windows.UI.Text.RichEditTextDocument.Undo
+-api-type: winrt method
+---
+
+<!-- Method syntax.
+public void RichEditTextDocument.Undo()
+-->
+
+# Windows.UI.Text.RichEditTextDocument.Undo
+
+## -description
+
+## -parameters
+
+## -remarks
+
+## -see-also
+
+## -examples
+

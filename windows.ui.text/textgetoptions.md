@@ -38,6 +38,9 @@ Include list numbers.
 Retrieve Rich Text Format (RTF) instead of plain text. Rich Text Format (RTF) is a BYTE (8-bit) format, but because [ITextRange.GetText](itextrange_gettext.md) returns a string, the Rich Text Format (RTF) is returned as WCHARs (16-bit or UTF-16), not bytes, when you call [ITextRange.GetText](itextrange_gettext.md) with the **FormatRtf** value. When you call [ITextRange.SetText](itextrange_settext.md) with **FormatRtf**, the method accepts an string containing either bytes or WCHARs, but other Rich Text Format (RTF) readers only understand bytes.
 
 
+### -field UseLf:16777216
+
+
 ## -remarks
 
 ## -examples
