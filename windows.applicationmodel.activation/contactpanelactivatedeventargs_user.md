@@ -11,7 +11,11 @@ public User User { get; }
 
 ## -description
 
+Gets the user the app was activated for. 
+
 ## -property-value
+
+The user the app was activated for.
 
 ## -remarks
 
