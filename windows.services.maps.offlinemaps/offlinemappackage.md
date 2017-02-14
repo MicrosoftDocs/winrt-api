@@ -10,10 +10,12 @@ public class OfflineMapPackage
 # Windows.Services.Maps.OfflineMaps.OfflineMapPackage
 
 ## -description
-Represents a map package for offline use.
+Represents the map data for a particular geographical region. The data can be downloaded and used offline.
 
 ## -remarks
 Use this class to asynchronously find map packages that you are interested in using offline. You can check the status of packages to determine whether those packages exist on your local system. If they do not, you can asynchronously download them to your system.
+
+You can then access that data in system controls such as the [MapControl](../windows.ui.xaml.controls.maps/mapcontrol.md), and from other objects in the [Windows.Services.Maps](../windows.services.maps/windows_services_maps.md) namespace.
 
 ## -see-also
 
