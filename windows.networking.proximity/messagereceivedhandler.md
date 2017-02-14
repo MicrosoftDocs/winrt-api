@@ -8,14 +8,14 @@ public delegate void MessageReceivedHandler(Windows.Networking.Proximity.Proximi
 # Windows.Networking.Proximity.MessageReceivedHandler
 
 ## -description
-Describes the method that will handle the event <?xm-insertion_mark_start author="v-shawja" time="20120125T143507-0800"?> that's fired<?xm-insertion_mark_end?><?xm-deletion_mark author="v-shawja" time="20120125T143509-0800" data="raised"?> when a message that has been subscribed to has been received.
+Describes the method that will handle the event that's fired when a message that has been subscribed to has been received.
 
 ## -parameters
 ### -param sender
 The proximity device that received the message.
 
 ### -param message
-The message and related data <?xm-insertion_mark_start author="v-shawja" time="20120125T144049-0800"?> that were <?xm-insertion_mark_end?> passed to the event handler.
+The message and related data that were passed to the event handler.
 
 
 ## -remarks

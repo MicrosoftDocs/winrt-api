@@ -17,7 +17,7 @@ To stop a search for devices, an app calls [Stop](devicewatcher_stop.md) and ent
 
 The following diagram shows how the [DeviceWatcher](devicewatcher.md) transitions between the states represented by [DeviceWatcherStatus](devicewatcherstatus.md) enumeration.
 
-<img src="images/statediagram.png" alt="state diagram of DeviceWatcher states"><?xm-replace_text {rem}?></img>
+<img src="images/statediagram.png" alt="state diagram of DeviceWatcher states"></img>
 
 This call transitions the [DeviceWatcher](devicewatcher.md) to the **Stopping** state and completes immediately. The watcher will transition to the **Stopped** state once all events that are already in the process of being raised have completed.
 

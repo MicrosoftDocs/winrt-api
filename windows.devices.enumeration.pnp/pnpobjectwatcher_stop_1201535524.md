@@ -21,7 +21,7 @@ Callers may wait for the [Stopped](pnpobjectwatcher_stopped.md) event if they ne
 
 The following diagram shows how the [PnpObjectWatcher](pnpobjectwatcher.md) transitions between the states represented by [DeviceWatcherStatus](../windows.devices.enumeration/devicewatcherstatus.md) enumeration.
 
-<img src="images/statediagram.png" alt="state diagram of DeviceWatcher states"><?xm-replace_text {rem}?></img>
+<img src="images/statediagram.png" alt="state diagram of DeviceWatcher states"></img>
 
 ## -examples
 
