@@ -34,3 +34,4 @@ For highlighter strokes ([InkDrawingAttributes.DrawAsHighlighter](inkdrawingattr
 ## -examples
 
 ## -see-also
+- [InkPresenter.InkHighContrastAdjustment](inkpresenter_highcontrastadjustment.md)

@@ -10,13 +10,14 @@ public Windows.Foundation.IReference<Windows.Foundation.DateTime> StrokeStartedT
 # Windows.UI.Input.Inking.InkStroke.StrokeStartedTime
 
 ## -description
-TBD
+Gets or sets the date and time when the InkStroke was started. 
 
 ## -property-value
-
+The date and time of day.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
+- [StrokeDuration](inkstroke_strokeduration.md)
