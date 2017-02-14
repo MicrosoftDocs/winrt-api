@@ -10,8 +10,10 @@ public bool RememberDeselectedItems { get;  set; }
 # Windows.Media.Import.PhotoImportSession.RememberDeselectedItems
 
 ## -description
+Gets a value indicating whether the deselected items for the session should be remembered.
 
 ## -property-value
+True if the deselected items for the session should be remembered; otherwise, false.
 
 ## -remarks
 

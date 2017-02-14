@@ -10,12 +10,15 @@ public void MediaPlayer.CopyFrameToStereoscopicVideoSurfaces(IDirect3DSurface de
 # Windows.Media.Playback.MediaPlayer.CopyFrameToStereoscopicVideoSurfaces
 
 ## -description
+Copies the video frame currently displayed by the **MediaPlayer** to the two provided **IDirect3DSurface** objects which represent the left eye and right eye content of a stereoscopic video frame.
 
 ## -parameters
 
 ### -param destinationLeftEye
+The surface to which the left eye content is copied.
 
 ### -param destinationRightEye
+The surface to which the right eye content is copied.
 
 ## -remarks
 

@@ -10,8 +10,10 @@ public Quaternion ViewOrientation { get;  set; }
 # Windows.Media.Playback.MediaPlaybackSphericalVideoProjection.ViewOrientation
 
 ## -description
+Gets or sets a quaternion that specifies the current view orientation used to project spherical video.
 
 ## -property-value
+The current view orientation.
 
 ## -remarks
 

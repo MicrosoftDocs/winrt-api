@@ -10,8 +10,10 @@ public SphericalVideoProjectionMode ProjectionMode { get;  set; }
 # Windows.Media.Playback.MediaPlaybackSphericalVideoProjection.ProjectionMode
 
 ## -description
+Gets or sets a value that specifies the projection mode used for spherical video.
 
 ## -property-value
+A value that specifies the projection mode used for spherical video.
 
 ## -remarks
 

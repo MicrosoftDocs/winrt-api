@@ -10,12 +10,15 @@ public void PhotoImportFindItemsResult.AddItemsInDateRangeToSelection(DateTime r
 # Windows.Media.Import.PhotoImportFindItemsResult.AddItemsInDateRangeToSelection
 
 ## -description
+Adds all items in the specified date range to the current selection.
 
 ## -parameters
 
 ### -param rangeStart
+The start of the date range.
 
 ### -param rangeLength
+The length of the date range.
 
 ## -remarks
 

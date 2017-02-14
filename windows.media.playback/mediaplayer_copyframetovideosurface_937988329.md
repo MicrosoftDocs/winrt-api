@@ -10,12 +10,15 @@ public void MediaPlayer.CopyFrameToVideoSurface(IDirect3DSurface destination, Re
 # Windows.Media.Playback.MediaPlayer.CopyFrameToVideoSurface
 
 ## -description
+Copies the current video frame from the **MediaPlayer** to the specified target rectangle within the provided **IDirect3DSurface**.
 
 ## -parameters
 
 ### -param destination
+The **IDirect3DSurface** to which the video frame is copied.
 
 ### -param targetRectangle
+The target rectangle within the **IDirect3DSurface** to which the video frame is copied.
 
 ## -remarks
 

@@ -10,8 +10,10 @@ public bool IsMirroring { get;  set; }
 # Windows.Media.Playback.MediaPlaybackSession.IsMirroring
 
 ## -description
+Gets or sets a value indicating whether the content of the media playback session is currently being mirrored.
 
 ## -property-value
+True if the content of the media playback session is currently being mirrored; otherwise, false.
 
 ## -remarks
 

@@ -10,6 +10,7 @@ public event TypedEventHandler Failed<MediaTimelineController, MediaTimelineCont
 # Windows.Media.MediaTimelineController.Failed
 
 ## -description
+Occurs when the timeline controller encounters an internal error and can't continue playback.
 
 ## -remarks
 

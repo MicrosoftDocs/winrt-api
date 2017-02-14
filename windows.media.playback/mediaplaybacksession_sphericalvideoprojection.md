@@ -10,8 +10,10 @@ public MediaPlaybackSphericalVideoProjection SphericalVideoProjection { get; }
 # Windows.Media.Playback.MediaPlaybackSession.SphericalVideoProjection
 
 ## -description
+Gets an object that manages the spherical video projection settings used by the media playback session.
 
 ## -property-value
+An object that manages the spherical video projection settings used by the media playback session.
 
 ## -remarks
 
