@@ -10,7 +10,7 @@ public enum DisplayBrightnessScenario : int
 # Windows.Graphics.Display.DisplayBrightnessScenario
 
 ## -description
-Describes common brightness scenarios that have well-known brightness levels. These scenarios are used in the Windows.Graphics.Display.BrightnessOverride.GetLevelForScenario() and Windows.Graphics.Display.BrightnessOverride.SetBrightnessScenario() methods. 
+Describes common brightness scenarios that have well-known brightness levels. These scenarios are used in the [GetLevelForScenario()](# brightnessoverride/_getlevelforscenario/_599977480.md) and [SetBrightnessScenario()](# brightnessoverride/_setbrightnessscenario/_1995700297.md) methods. 
 
 ## -enum-fields
 ### -field IdleBrightness:1

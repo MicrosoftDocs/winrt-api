@@ -1,4 +1,4 @@
----
+-
 -api-id: M:Windows.Graphics.Display.BrightnessOverride.SaveForSystemAsync(Windows.Graphics.Display.BrightnessOverride)
 -api-type: winrt method
 ---
@@ -10,15 +10,15 @@ public IAsyncOperation<bool> BrightnessOverride.SaveForSystemAsync(BrightnessOve
 # Windows.Graphics.Display.BrightnessOverride.SaveForSystemAsync
 
 ## -description
-Saves the specified BrightnessOverride settings by committing these values to user settings.
+Saves the specified brightness override settings by committing these values to user settings. Use this method to persist the override settings after overriding stops.
 
 ## -parameters
 
 ### -param value
-The brightness override settings.
+The brightness override object.
 
 ## -returns
-Boolean value to indicate if the operation is successful or not.
+BOOLEAN value to indicate if the operation is successful or not.
 
 ## -remarks
 Requires the Embedded Mode capability to be declared and enabled.

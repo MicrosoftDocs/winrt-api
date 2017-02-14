@@ -10,7 +10,7 @@ public void BrightnessOverride.SetBrightnessLevel(Double brightnessLevel, Displa
 # Windows.Graphics.Display.BrightnessOverride.SetBrightnessLevel
 
 ## -description
-Set the brightness level and the override options of the brightness override. 
+Sets the brightness level and the override options. 
 
 ## -parameters
 

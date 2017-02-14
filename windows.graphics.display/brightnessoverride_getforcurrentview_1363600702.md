@@ -10,13 +10,13 @@ public BrightnessOverride BrightnessOverride.GetForCurrentView()
 # Windows.Graphics.Display.BrightnessOverride.GetForCurrentView
 
 ## -description
-Gets the brightness level for the current view the app is on when this method is called.
+Returns the system's brightness override object. This method requires [CoreWindow](# ./windows.ui.core/corewindow.md) so it can only be used by apps that are currently running in a window. The returned [BrightnessOverride](# brightnessoverride.md) object may not be the same between multiple [GetForCurrentView()](# brightnessoverride\_getforcurrentview\_1363600702.md) calls on the same thread.
 
 ## -returns
-The brightness level of the current view.
+The brightness override object.
 
 ## -remarks
-This method will fail if there is no [CoreWindow](# ./windows.ui.core/corewindow.md) on the calling thread. Note: When multiple GetForCurrentView() calls are made on the same thread, the returned [BrightnessOverride](# brightnessoverride.md) object may not be exactly the same.
+This method fails if there is no [CoreWindow](# ./windows.ui.core/corewindow.md) on the calling thread.
 
 ## -see-also
 

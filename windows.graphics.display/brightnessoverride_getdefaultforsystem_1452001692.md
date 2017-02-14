@@ -10,10 +10,10 @@ public BrightnessOverride BrightnessOverride.GetDefaultForSystem()
 # Windows.Graphics.Display.BrightnessOverride.GetDefaultForSystem
 
 ## -description
-Gets the default brightness level for the system.
+Returns the system's brightness override object. This method does not require [CoreWindow](# ./windows.ui.core/corewindow.md) so it can be used by apps that are running in the background.
 
 ## -returns
-The default brightness level.
+The brightness override object.
 
 ## -remarks
 Requires the Embedded Mode capability to be declared and enabled.

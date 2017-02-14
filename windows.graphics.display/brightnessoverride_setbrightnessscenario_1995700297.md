@@ -10,15 +10,15 @@ public void BrightnessOverride.SetBrightnessScenario(DisplayBrightnessScenario s
 # Windows.Graphics.Display.BrightnessOverride.SetBrightnessScenario
 
 ## -description
-Sets the specified scenario and the override options of the brightness override.
+Sets the brightness level, by specifying a scenario that has well-known brightness level, and the override options of the brightness override.
 
 ## -parameters
 
 ### -param scenario
-The scenario that the override options is applied to.
+A scenario that has a well-known brightness level.
 
 ### -param options
-The override settings for the scenario.
+Options that modify the brightness level of the screen during the brightness override session.
 
 ## -remarks
 

@@ -13,7 +13,7 @@ public void BrightnessOverride.StartOverride()
 Starts overriding the brightness level.
 
 ## -remarks
-Although the override has started, whether or not the brightness level will be changed to match the overridden value is still dependent on the system and its configuration.
+Although overriding has started, whether or not the brightness level is changed to match the specified override brightness level is still dependent on the system.
 
 ## -see-also
 
