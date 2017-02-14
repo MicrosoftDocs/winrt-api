@@ -11,10 +11,16 @@ public enum PowerState : int
 
 ## -description
 
+Represents power states for fixed-purpose devices.  
+
 ## -enum-fields
 ### -field SleepS3:1
 
+Represents Sleep S3. 
+
 ### -field ConnectedStandby:0
+
+Represents Connected Standby. 
 
 ## -remarks
 
