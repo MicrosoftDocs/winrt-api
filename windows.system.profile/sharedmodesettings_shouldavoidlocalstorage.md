@@ -16,7 +16,12 @@ Gets a Boolean value indicating that your app should not store files on the loca
 A Boolean value indicating that apps should not store files on the local hard drive. Instead, files should be saved to cloud storage.
 
 ## -remarks
-If true, then your app should not show local storage locations in its UI.
+If **true**, then your app should not show local storage locations in its UI.  
+
+Returns **true** when the [RestrictLocalStorage](https://msdn.microsoft.com/en-us/windows/hardware/commercialize/customize/mdm/sharedpc-csp) policy is set.  
+	
+A **true** value means the PC is running in a scenario where apps should hide all entry and save points to the local disk. Windows File Explorer is disabled so customers won’t be able to navigate to any local storage (except downloads, removable drives, and mapped network drives) to access those files.
+
 
 ## -see-also
 

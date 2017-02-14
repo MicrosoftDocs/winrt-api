@@ -16,6 +16,13 @@ Gets a Boolean value indicating if the app is running in an education environmen
 A Boolean value indicating if the app is running in an education environment.
 
 ## -remarks
+Returns **true** when running an Education SKU (Pro Education or Education).  
+
+Returns **true** when the [SetEduPolicies](https://msdn.microsoft.com/en-us/windows/hardware/commercialize/customize/mdm/sharedpc-csp) policy is set.   
+
+Always returns **false** on the Home SKU.  
+
+A **true** value means the PC is running in an education environment (set either by the SKU or by the IT admin) and sets a bunch of policies and behaviors to make Windows education ready.
 
 ## -see-also
 
