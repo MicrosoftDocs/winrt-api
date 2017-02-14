@@ -21,11 +21,13 @@ The ID of the report to get.
 
 ### -param reportBuffer
 
-The buffer in which to put the report. TODO: True?
+The buffer in which the report data is returned.
 
 ## -remarks
 
-The report that you get from this function is the raw, unmodified version in its original format; no parsing is done on it.
+When using this method for your own custom classes, make sure to pass in a valid report ID that is supported by your device; otherwise, the report buffer will be unchanged. Also make sure that your report buffer is the correct size for the type of report that you're requesting.
+
+The report that you get from this method is the raw, unmodified version in its original format; no parsing is done on it.
 
 ## -see-also
 

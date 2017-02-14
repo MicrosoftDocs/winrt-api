@@ -21,11 +21,13 @@ The ID of the report to send.
 
 ### -param reportBuffer
 
-The buffer in which to put the report. TODO: True?
+The buffer in which to put the report data.
 
 ## -remarks
 
-The report that you send from this function is the raw, unmodified version in its original format; no parsing is done on it.
+When using this method for your own custom classes, make sure to pass in a valid report ID that is supported by your device; otherwise, the device will ignore it. Also make sure that your report buffer is the correct size and has valid contents.
+
+The report that you send from this method is the raw, unmodified version in its original format; no parsing is done on it.
 
 ## -see-also
 
