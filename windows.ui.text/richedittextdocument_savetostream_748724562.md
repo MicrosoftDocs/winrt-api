@@ -10,12 +10,17 @@ public void RichEditTextDocument.SaveToStream(TextGetOptions options, IRandomAcc
 # Windows.UI.Text.RichEditTextDocument.SaveToStream
 
 ## -description
+Saves the document to a stream.
 
 ## -parameters
 
 ### -param options
 
+The text options for saving the document.
+
 ### -param value
+
+The random access stream for saving the document.
 
 ## -remarks
 

@@ -10,6 +10,7 @@ public void RichEditTextDocument.Undo()
 # Windows.UI.Text.RichEditTextDocument.Undo
 
 ## -description
+Undoes the most recent undo group.
 
 ## -parameters
 

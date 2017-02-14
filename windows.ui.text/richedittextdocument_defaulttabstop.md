@@ -10,8 +10,10 @@ public float DefaultTabStop { get;  set; }
 # Windows.UI.Text.RichEditTextDocument.DefaultTabStop
 
 ## -description
+Gets or sets the default tab spacing.
 
 ## -property-value
+The default tab spacing.
 
 ## -remarks
 

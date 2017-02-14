@@ -10,14 +10,20 @@ public ITextRange RichEditTextDocument.GetRangeFromPoint(Point point, PointOptio
 # Windows.UI.Text.RichEditTextDocument.GetRangeFromPoint
 
 ## -description
+Retrieves the degenerate (empty) text range at, or nearest to, a particular point on the screen.
 
 ## -parameters
 
 ### -param point
 
+The location of the point on the screen, in screen coordinates.
+
 ### -param options
 
+The alignment type of the specified *point*.
+
 ## -returns
+The new text range.
 
 ## -remarks
 

@@ -10,10 +10,13 @@ public void RichEditTextDocument.SetDefaultCharacterFormat(ITextCharacterFormat 
 # Windows.UI.Text.RichEditTextDocument.SetDefaultCharacterFormat
 
 ## -description
+Sets the default character formatting attributes of the document.
 
 ## -parameters
 
 ### -param value
+
+The new default character formatting attributes.
 
 ## -remarks
 

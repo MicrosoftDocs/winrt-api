@@ -10,8 +10,10 @@ public CaretType CaretType { get;  set; }
 # Windows.UI.Text.RichEditTextDocument.CaretType
 
 ## -description
+Gets or sets the caret type.
 
 ## -property-value
+The caret type.
 
 ## -remarks
 

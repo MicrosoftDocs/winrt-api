@@ -10,12 +10,17 @@ public void RichEditTextDocument.GetText(TextGetOptions options, String value)
 # Windows.UI.Text.RichEditTextDocument.GetText
 
 ## -description
+Gets the text in the active story (document).
 
 ## -parameters
 
 ### -param options
 
+The text retrieval options.
+
 ### -param value
+
+The text in the active story.
 
 ## -remarks
 

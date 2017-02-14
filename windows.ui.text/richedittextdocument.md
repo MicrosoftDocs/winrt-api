@@ -10,6 +10,7 @@ public class RichEditTextDocument : ITextDocument
 # Windows.UI.Text.RichEditTextDocument
 
 ## -description
+Represents a rich text document that can be loaded, saved, and edited.
 
 ## -remarks
 
