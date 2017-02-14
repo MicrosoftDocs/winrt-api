@@ -11,6 +11,8 @@ public class ContactPanelActivatedEventArgs : IActivatedEventArgs, IActivatedEve
 
 ## -description
 
+Provides data when an app is activated because it uses the Contact Panel. 
+
 ## -remarks
 
 ## -see-also
