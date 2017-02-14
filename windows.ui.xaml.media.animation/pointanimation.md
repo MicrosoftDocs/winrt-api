@@ -40,9 +40,21 @@ The following example shows how to use the [PointAnimation](pointanimation.md) t
 
 
 
-[!code-cpp[Pointanimation](../windows.ui.xaml/code/pointanimation/cpp/Page.xaml.cpp#SnippetPointanimation)][!code-xml[Pointanimation](../windows.ui.xaml/code/pointanimation/csharp/Page.xaml#SnippetPointanimation)][!code-vb[Pointanimation](../windows.ui.xaml/code/pointanimation/vbnet/Page.xaml.vb#SnippetPointanimation)][!code-xml[Pointanimation](../windows.ui.xaml/code/pointanimationusingkeyframes/csharp/Page.xaml#SnippetPointanimation)][!code-vb[Pointanimation](../windows.ui.xaml/code/pointanimationusingkeyframes/vbnet/Page.xaml.vb#SnippetPointanimation)]
+[!code-cpp[Pointanimation](../windows.ui.xaml/code/pointanimation/cpp/Page.xaml.cpp#SnippetPointanimation)]
 
-[!code-cpp[Pointanimation_cs](../windows.ui.xaml/code/pointanimation/cpp/Page.xaml.cpp#SnippetPointanimation_cs)][!code-csharp[Pointanimation_cs](../windows.ui.xaml/code/pointanimation/csharp/Page.xaml.cs#SnippetPointanimation_cs)][!code-vb[Pointanimation_cs](../windows.ui.xaml/code/pointanimation/vbnet/Page.xaml.vb#SnippetPointanimation_cs)]
+[!code-xml[Pointanimation](../windows.ui.xaml/code/pointanimation/csharp/Page.xaml#SnippetPointanimation)]
+
+[!code-vb[Pointanimation](../windows.ui.xaml/code/pointanimation/vbnet/Page.xaml.vb#SnippetPointanimation)]
+
+[!code-xml[Pointanimation](../windows.ui.xaml/code/pointanimationusingkeyframes/csharp/Page.xaml#SnippetPointanimation)]
+
+[!code-vb[Pointanimation](../windows.ui.xaml/code/pointanimationusingkeyframes/vbnet/Page.xaml.vb#SnippetPointanimation)]
+
+[!code-cpp[Pointanimation_cs](../windows.ui.xaml/code/pointanimation/cpp/Page.xaml.cpp#SnippetPointanimation_cs)]
+
+[!code-csharp[Pointanimation_cs](../windows.ui.xaml/code/pointanimation/csharp/Page.xaml.cs#SnippetPointanimation_cs)]
+
+[!code-vb[Pointanimation_cs](../windows.ui.xaml/code/pointanimation/vbnet/Page.xaml.vb#SnippetPointanimation_cs)]
 
 ## -see-also
 [Storyboarded animations](http://msdn.microsoft.com/library/0cbceea0-2b0e-44a1-a09a-f7a939632f3a), [XAML animation sample](http://go.microsoft.com/fwlink/p/?linkid=238571), [Timeline](timeline.md), [Point](../windows.foundation/point.md), [PointAnimationUsingKeyFrames](pointanimationusingkeyframes.md)

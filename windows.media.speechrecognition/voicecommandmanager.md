@@ -16,7 +16,6 @@ public class VoiceCommandManager
 A static class that enables installing command sets from a [](voice_command_elements_and_attributes.md) file, and getting installed command sets.
 
 ## -remarks
-<!-- <rem>TODO: Document how the developer can obtain this class object, and add or update retriever elements as necessary.</rem>-->
 
 ## -examples
 

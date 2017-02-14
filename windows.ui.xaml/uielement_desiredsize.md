@@ -27,7 +27,9 @@ This example queries [DesiredSize](uielement_desiredsize.md) as part of the chil
 
 
 
-[!code-csharp[2](../windows.ui.xaml.controls.primitives/code/BlockPanel/csharp/BlankPage.xaml.cs#Snippet2)][!code-vb[2](../windows.ui.xaml.controls.primitives/code/BlockPanel/vbnet/BlankPage.xaml.vb#Snippet2)]
+[!code-csharp[2](../windows.ui.xaml.controls.primitives/code/BlockPanel/csharp/BlankPage.xaml.cs#Snippet2)]
+
+[!code-vb[2](../windows.ui.xaml.controls.primitives/code/BlockPanel/vbnet/BlankPage.xaml.vb#Snippet2)]
 
 ## -see-also
 [ArrangeOverride](frameworkelement_arrangeoverride.md), [MeasureOverride](frameworkelement_measureoverride.md), [Arrange](uielement_arrange.md), [Measure](uielement_measure.md)

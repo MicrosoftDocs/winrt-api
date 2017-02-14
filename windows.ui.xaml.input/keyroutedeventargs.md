@@ -38,7 +38,11 @@ The following example code demonstrates the use of this type. For the complete c
 
 
 
-[!code-cpp[WebViewNavigation](../windows.ui.xaml.input/code/Controls_WebView/cpp/Scenario1.xaml.cpp#SnippetWebViewNavigation)][!code-csharp[WebViewNavigation](../windows.ui.xaml.input/code/Controls_WebView/csharp/Scenario1.xaml.cs#SnippetWebViewNavigation)][!code-vb[WebViewNavigation](../windows.ui.xaml.input/code/Controls_WebView/vbnet/Scenario1.xaml.vb#SnippetWebViewNavigation)]
+[!code-cpp[WebViewNavigation](../windows.ui.xaml.input/code/Controls_WebView/cpp/Scenario1.xaml.cpp#SnippetWebViewNavigation)]
+
+[!code-csharp[WebViewNavigation](../windows.ui.xaml.input/code/Controls_WebView/csharp/Scenario1.xaml.cs#SnippetWebViewNavigation)]
+
+[!code-vb[WebViewNavigation](../windows.ui.xaml.input/code/Controls_WebView/vbnet/Scenario1.xaml.vb#SnippetWebViewNavigation)]
 
 ## -see-also
 [RoutedEventArgs](../windows.ui.xaml/routedeventargs.md), [WebView](../windows.ui.xaml.controls/webview.md), [XAML WebView control sample](http://go.microsoft.com/fwlink/p/?linkid=238582)

@@ -10,10 +10,9 @@ public class VoiceCommandDefinitionManager
 # Windows.ApplicationModel.VoiceCommands.VoiceCommandDefinitionManager
 
 ## -description
-A static class that enables installing command sets from a [](../windows.media.speechrecognition/voice_command_elements_and_attributes.md) file, and getting installed command sets.
+A static class that enables registering and using command sets from a [Voice Command Data (VCD)](../windows.media.speechrecognition/voice_command_elements_and_attributes.md) file.
 
 ## -remarks
-<!--<rem  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">TODO: Document how the developer can obtain this class object, and add or update retriever elements as necessary.</rem>-->
 
 ## -examples
 

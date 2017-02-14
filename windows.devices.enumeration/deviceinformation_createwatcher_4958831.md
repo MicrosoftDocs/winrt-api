@@ -10,7 +10,7 @@ public Windows.Devices.Enumeration.DeviceWatcher CreateWatcher(System.String aqs
 # Windows.Devices.Enumeration.DeviceInformation.CreateWatcher
 
 ## -description
-Create<?xm-insertion_mark_start author="v-dianal" time="20110913T161443-0800"?> s<?xm-insertion_mark_end?> a [DeviceWatcher](devicewatcher.md) for devices matching the specified Advanced Query Syntax (AQS) string.
+Creates a [DeviceWatcher](devicewatcher.md) for devices matching the specified Advanced Query Syntax (AQS) string.
 
 ## -parameters
 ### -param aqsFilter
