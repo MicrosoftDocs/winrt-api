@@ -29,7 +29,7 @@ The protection of the item has been revoked.
 The item is not protected to an enterprise identity.
 
 ### -field LicenseExpired:4
-The item's RMS license has expired.
+The item's RMS license has expired. This value is not currently supported.
 
 ### -field AccessSuspended:5
 The keys to access the protected item have been dropped while the device is locked.
