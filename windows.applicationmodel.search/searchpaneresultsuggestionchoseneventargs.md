@@ -23,7 +23,9 @@ The [Search contract sample](http://go.microsoft.com/fwlink/p/?linkid=234892) de
 
 
 
-[!code-cs[all_suggestionchosen_register](../windows.applicationmodel.search/code/SearchContract/CS/Scenario6.xaml.cs#Snippetall_suggestionchosen_register)][!code-js[all_suggestionchosen_register](../windows.applicationmodel.search/code/SearchContract/js/js/scenario6.js#Snippetall_suggestionchosen_register)]
+[!code-csharp[all_suggestionchosen_register](../windows.applicationmodel.search/code/SearchContract/CS/Scenario6.xaml.cs#Snippetall_suggestionchosen_register)]
+
+[!code-js[all_suggestionchosen_register](../windows.applicationmodel.search/code/SearchContract/js/js/scenario6.js#Snippetall_suggestionchosen_register)]
 
 ## -see-also
 [Search contract sample](http://go.microsoft.com/fwlink/p/?linkid=234892), [SearchPane class](searchpane.md), [SearchPane.ResultSuggestionChosen event](searchpane_resultsuggestionchosen.md), [SearchSuggestionCollection.AppendResultSuggestion method](searchsuggestioncollection_appendresultsuggestion.md)

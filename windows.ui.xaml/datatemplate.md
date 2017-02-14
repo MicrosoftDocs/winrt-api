@@ -49,12 +49,16 @@ The following example uses a [DataTemplate](datatemplate.md) to display the item
 
 
 
-[!code-xml[4](../windows.ui.xaml.data/code/System.Windows.Controls.ListBoxEx/csharp/Page.xaml#Snippet4)]
+
+[!code-xml[Snippet4_XAML](../windows.ui.xaml.data/code/System.Windows.Controls.ListBoxEx/csharp/Page.xaml#Snippet4_XAML)]
 
 
 
-[!code-cs[101](../windows.ui.xaml.data/code/System.Windows.Controls.ListBoxEx/csharp/Page.xaml.cs#Snippet101)][!code-vb[101](../windows.ui.xaml.data/code/System.Windows.Controls.ListBoxEx/vbnet/Page.xaml.vb#Snippet101)]
+
+[!code-csharp[Snippet101_CS](../windows.ui.xaml.data/code/System.Windows.Controls.ListBoxEx/csharp/Page.xaml.cs#Snippet101_CS)]
+
+
+[!code-vb[Snippet101_VB](../windows.ui.xaml.data/code/System.Windows.Controls.ListBoxEx/vbnet/Page.xaml.vb#Snippet101_VB)]
 
 ## -see-also
 [FrameworkTemplate](frameworktemplate.md), [ItemsControl.ItemTemplate](../windows.ui.xaml.controls/itemscontrol_itemtemplate.md), [ContentControl.ContentTemplate](../windows.ui.xaml.controls/contentcontrol_contenttemplate.md), [DataTemplateSelector](../windows.ui.xaml.controls/datatemplateselector.md), [Data binding in depth](http://msdn.microsoft.com/library/41e1b4f1-6caf-4128-a61a-4e400b149011), [ResourceDictionary and XAML resource references](http://msdn.microsoft.com/library/e3cbfa3d-6af5-44e1-b9f9-c3d3ea8a25ce)
-fa3d-6af5-44e1-b9f9-c3d3ea8a25ce)

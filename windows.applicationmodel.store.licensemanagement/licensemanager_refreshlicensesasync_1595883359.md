@@ -12,9 +12,6 @@ public IAsyncAction LicenseManager.RefreshLicensesAsync(LicenseRefreshOption ref
 ## -description
 Refreshes license info for app licenses on the current device.
 
-> [!NOTE]
-> This member requires the **storeLicenseManagement** restricted capability. For more information about restricted capabilities, see [App capability declarations](https://msdn.microsoft.com/windows/uwp/packaging/app-capability-declarations).
-
 ## -params
 
 ## -param refreshOption

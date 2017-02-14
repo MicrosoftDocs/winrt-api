@@ -21,7 +21,11 @@ If your computer supports Proximity and has an NFC device installed, which is co
 ## -examples
 
 
-[!code-cs[DeviceId](../windows.networking.proximity/code/Proximity_GetDeviceSelector1/csharp/MainPage.xaml.cs#SnippetDeviceId)][!code-js[DeviceId](../windows.networking.proximity/code/Proximity_GetDeviceSelector1/javascript/default.js#SnippetDeviceId)][!code-vb[DeviceId](../windows.networking.proximity/code/Proximity_GetDeviceSelector1/vbnet/MainPage.xaml.vb#SnippetDeviceId)]
+[!code-csharp[DeviceId](../windows.networking.proximity/code/Proximity_GetDeviceSelector1/csharp/MainPage.xaml.cs#SnippetDeviceId)]
+
+[!code-js[DeviceId](../windows.networking.proximity/code/Proximity_GetDeviceSelector1/javascript/default.js#SnippetDeviceId)]
+
+[!code-vb[DeviceId](../windows.networking.proximity/code/Proximity_GetDeviceSelector1/vbnet/MainPage.xaml.vb#SnippetDeviceId)]
 
 ## -see-also
 [Proximity and Tapping (JavaScript)](http://msdn.microsoft.com/library/84a30dcf-ef14-4a93-9e7c-7a3de867d46b), [Proximity and Tapping (C#/VB/C++)](http://msdn.microsoft.com/library/f25bb1df-1cfd-45cd-8c67-04eec73ebfbd), [Proximity sample](http://go.microsoft.com/fwlink/p/?linkid=245082)

@@ -12,9 +12,6 @@ public Windows.Foundation.IAsyncAction AddLicenseAsync(Windows.Storage.Streams.I
 ## -description
 Installs the specified app license.
 
-> [!NOTE]
-> This member requires the **storeLicenseManagement** restricted capability. For more information about restricted capabilities, see [App capability declarations](https://msdn.microsoft.com/windows/uwp/packaging/app-capability-declarations).
-
 ## -parameters
 ### -param license
 The contents of the license to install.

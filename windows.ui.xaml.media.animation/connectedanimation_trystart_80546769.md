@@ -10,14 +10,19 @@ public bool ConnectedAnimation.TryStart(UIElement destination, IIterable<UIEleme
 # Windows.UI.Xaml.Media.Animation.ConnectedAnimation.TryStart
 
 ## -description
+Attempts to start the animation on the destination element and specified secondary elements.
 
 ## -parameters
 
 ### -param destination
+The element that is animated into view.
 
 ### -param coordinatedElements
 
+The collection of secondary elements that share the same animation as the destination element.
+
 ## -returns
+**true** if the animation started; **false** if the animation has already been started, if it is no longer active, or if the destination element is the same as the source element.
 
 ## -remarks
 

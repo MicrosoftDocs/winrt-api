@@ -42,9 +42,21 @@ The following example shows how to use **DoubleAnimation** to create a rectangle
 
 
 
-[!code-xml[Doubleanimation](../windows.ui.xaml.media.animation/code/doubleanimation/csharp/Page.xaml#SnippetDoubleanimation)][!code-vb[Doubleanimation](../windows.ui.xaml.media.animation/code/doubleanimation/vbnet/Page.xaml.vb#SnippetDoubleanimation)][!code-xml[Doubleanimation](../windows.ui.xaml.media.animation/code/doubleanimationusingkeyframes/csharp/Page.xaml#SnippetDoubleanimation)][!code-vb[Doubleanimation](../windows.ui.xaml.media.animation/code/doubleanimationusingkeyframes/vbnet/Page.xaml.vb#SnippetDoubleanimation)][!code-xml[Doubleanimation](../windows.ui.xaml.media.animation/code/doubleanimationusingkeyframes2/csharp/Page.xaml#SnippetDoubleanimation)][!code-vb[Doubleanimation](../windows.ui.xaml.media.animation/code/doubleanimationusingkeyframes2/vbnet/Page.xaml.vb#SnippetDoubleanimation)]
+[!code-xml[Doubleanimation](../windows.ui.xaml.media.animation/code/doubleanimation/csharp/Page.xaml#SnippetDoubleanimation)]
 
-[!code-cs[Doubleanimation_cs](../windows.ui.xaml.media.animation/code/doubleanimation/csharp/Page.xaml.cs#SnippetDoubleanimation_cs)][!code-vb[Doubleanimation_cs](../windows.ui.xaml.media.animation/code/doubleanimation/vbnet/Page.xaml.vb#SnippetDoubleanimation_cs)]
+[!code-vb[Doubleanimation](../windows.ui.xaml.media.animation/code/doubleanimation/vbnet/Page.xaml.vb#SnippetDoubleanimation)]
+
+[!code-xml[Doubleanimation](../windows.ui.xaml.media.animation/code/doubleanimationusingkeyframes/csharp/Page.xaml#SnippetDoubleanimation)]
+
+[!code-vb[Doubleanimation](../windows.ui.xaml.media.animation/code/doubleanimationusingkeyframes/vbnet/Page.xaml.vb#SnippetDoubleanimation)]
+
+[!code-xml[Doubleanimation](../windows.ui.xaml.media.animation/code/doubleanimationusingkeyframes2/csharp/Page.xaml#SnippetDoubleanimation)]
+
+[!code-vb[Doubleanimation](../windows.ui.xaml.media.animation/code/doubleanimationusingkeyframes2/vbnet/Page.xaml.vb#SnippetDoubleanimation)]
+
+[!code-csharp[Doubleanimation_cs](../windows.ui.xaml.media.animation/code/doubleanimation/csharp/Page.xaml.cs#SnippetDoubleanimation_cs)]
+
+[!code-vb[Doubleanimation_cs](../windows.ui.xaml.media.animation/code/doubleanimation/vbnet/Page.xaml.vb#SnippetDoubleanimation_cs)]
 
 ## -see-also
 [Storyboarded animations](http://msdn.microsoft.com/library/0cbceea0-2b0e-44a1-a09a-f7a939632f3a), [XAML animation sample](http://go.microsoft.com/fwlink/p/?linkid=238571), [Timeline](timeline.md), [DoubleAnimationUsingKeyFrames](doubleanimationusingkeyframes.md), [Double](https://msdn.microsoft.com/library/system.double.aspx)

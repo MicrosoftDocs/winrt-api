@@ -10,10 +10,12 @@ public double Radius { get;  set; }
 # Windows.UI.Input.Inking.InkPresenterProtractor.Radius
 
 ## -description
-TBD
+Gets or sets the radial size of the protractor.
 
 ## -property-value
+The radial size, in Device Independent Pixels (DIPs).
 
+The default is 280 DIPs.
 
 ## -remarks
 
