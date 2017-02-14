@@ -16,7 +16,7 @@ Gets or sets the input device type from which input data is collected by the [In
 The input device types.
 
 ## -remarks
-If you set this property to [None](../windows.ui.core/coreinputdevicetypes.md), you should remove listeners for all pointer events, including [PointerEntered](inkunprocessedinput_pointerentered.md), [PointerHovered](inkunprocessedinput_pointerhovered.md), and [PointerExited](inkunprocessedinput_pointerexited.md).
+If you set this property to [None](../windows.ui.core/coreinputdevicetypes.md), you should remove listeners for all pointer events, including [PointerEntered](inkunprocessedinput_pointerentered.md), [PointerHovered](inkunprocessedinput_pointerhovered.md), and [PointerExited](inkunprocessedinput_pointerexited.md). In this case, pointer events are passed to the InkCanvas object and not to the InkPresenter object through [InkPresenter.UnprocessedInput](inkpresenter_unprocessedinput.md).
 
 ## -examples
 Here we specify that data from all supported input devices ([CoreInputDeviceTypes](../windows.ui.core/coreinputdevicetypes.md)) be collected by the [InkPresenter](inkpresenter.md) and processed as ink input.
