@@ -10,10 +10,10 @@ public string EnclosingRegionName { get; }
 # Windows.Services.Maps.OfflineMaps.OfflineMapPackage.EnclosingRegionName
 
 ## -description
-Gets the region of the offline map package (for example: USA).
+Gets the surrounding or containing region of the offline map package (for example: USA).
 
 ## -property-value
-The region of the offline map package (for example: USA).
+The surrounding or containing region of the offline map package (for example: USA).
 
 ## -remarks
 
