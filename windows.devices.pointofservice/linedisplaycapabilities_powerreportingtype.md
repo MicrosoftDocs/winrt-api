@@ -10,12 +10,21 @@ public UnifiedPosPowerReportingType PowerReportingType { get; }
 # Windows.Devices.PointOfService.LineDisplayCapabilities.PowerReportingType
 
 ## -description
+Indicates the type of power reporting supported by the line display.
 
 ## -property-value
+This property can have one of the following values:
 
+```CSharp
+typedef enum UnifiedPosPowerReportingType
+{
+  UnknownPowerReportingType = 0,
+  Standard = 1,
+  Advanced = 2
+} UnifiedPosPowerReportingType;
+```
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

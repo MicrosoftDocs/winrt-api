@@ -10,10 +10,10 @@ public LineDisplayTextAttributeGranularity CanBlink { get; }
 # Windows.Devices.PointOfService.LineDisplayCapabilities.CanBlink
 
 ## -description
-Gets whether
+Indicates whether the line display supports blinking.
 
 ## -property-value
-This read-only property describes if the device supports blinking of either each individual displayed character or of the entire screen. The property can have one of the following values:
+This property can have one of the following values:
 
 ```CSharp
 typedef enum LineDisplayTextAttributeGranularity
@@ -24,7 +24,9 @@ typedef enum LineDisplayTextAttributeGranularity
 } LineDisplayTextAttributeGranularity;
 ```
 
-A value of NotSupported means that the device does not support blinking.
++ NotSupported: the device does not support blinking
++ EntireDisplay: the device supports blinking of the entire display
++ PerCharacter: the device supports blinking of individual characters
 
 ## -remarks
 

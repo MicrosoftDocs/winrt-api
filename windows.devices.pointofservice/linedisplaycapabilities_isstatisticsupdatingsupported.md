@@ -10,12 +10,13 @@ public bool IsStatisticsUpdatingSupported { get; }
 # Windows.Devices.PointOfService.LineDisplayCapabilities.IsStatisticsUpdatingSupported
 
 ## -description
+Indicates whether the line display supports updating (or resetting) statistics.
 
 ## -property-value
+True if the line display supports updating statistics; otherwise, false.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

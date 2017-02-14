@@ -10,12 +10,13 @@ public bool IsVerticalMarqueeSupported { get; }
 # Windows.Devices.PointOfService.LineDisplayCapabilities.IsVerticalMarqueeSupported
 
 ## -description
+Indicates whether the line display supports vertical marquee scrolling.
 
 ## -property-value
+True if the line display supports vertical marquee scrolling; otherwise, false.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

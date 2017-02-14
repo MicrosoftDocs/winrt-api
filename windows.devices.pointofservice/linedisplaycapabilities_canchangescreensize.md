@@ -10,12 +10,13 @@ public bool CanChangeScreenSize { get; }
 # Windows.Devices.PointOfService.LineDisplayCapabilities.CanChangeScreenSize
 
 ## -description
+Indicates whether the line display supports changing its screen size.
 
 ## -property-value
+True if the line display supports changing its screen size; otherwise, false.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

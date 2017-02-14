@@ -10,12 +10,13 @@ public bool IsInterCharacterWaitSupported { get; }
 # Windows.Devices.PointOfService.LineDisplayCapabilities.IsInterCharacterWaitSupported
 
 ## -description
+Indicates whether the line display supports delaying between displaying successive characters.
 
 ## -property-value
+True if the line display supports inter-character wait; otherwise, false.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
