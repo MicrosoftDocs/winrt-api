@@ -11,7 +11,7 @@ public void HidGameControllerProvider.SendOutputReport(Byte reportId, Byte[] rep
 
 ## -description
 
-Sends the specified HID (Human Interface Device) output report from the host to the device. TODO: ???
+Sends the specified HID (Human Interface Device) output report to the device.
 
 ## -parameters
 

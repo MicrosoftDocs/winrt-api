@@ -11,7 +11,7 @@ public void HidGameControllerProvider.SendFeatureReport(Byte reportId, Byte[] re
 
 ## -description
 
-Sends the specified HID (Human Interface Device) feature report from the host to the device. TODO: What's the host?
+Sends the specified HID (Human Interface Device) feature report to the device.
 
 ## -parameters
 

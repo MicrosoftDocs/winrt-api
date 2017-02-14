@@ -11,7 +11,7 @@ public ushort UsagePage { get; }
 
 ## -description
 
-The usage page of the top-level collection. TODO: ???
+The usage page of the top-level collection.
 
 ## -property-value
 
