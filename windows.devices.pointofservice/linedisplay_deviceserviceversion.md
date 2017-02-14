@@ -13,7 +13,7 @@ public string DeviceServiceVersion { get; }
 Gets the service version number of the line display.
 
 ## -property-value
-Read-only string that describes the UnifiedPOS service version number formatted as a string.
+The UnifiedPOS service version number, formatted as a string.
 
 ## -remarks
 

@@ -10,7 +10,7 @@ public IAsyncOperation<ClaimedLineDisplay> LineDisplay.ClaimAsync()
 # Windows.Devices.PointOfService.LineDisplay.ClaimAsync
 
 ## -description
-Attempts to get an exclusive access to the line display.
+Attempts to gain exclusive access to the line display.
 
 ## -parameters
 

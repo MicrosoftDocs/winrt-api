@@ -10,6 +10,7 @@ public void ClaimedLineDisplay.Close()
 # Windows.Devices.PointOfService.ClaimedLineDisplay.Close
 
 ## -description
+Close the line display session.
 
 ## -parameters
 
@@ -18,4 +19,3 @@ public void ClaimedLineDisplay.Close()
 ## -see-also
 
 ## -examples
-

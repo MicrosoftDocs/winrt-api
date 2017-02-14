@@ -13,7 +13,7 @@ public string PhysicalDeviceName { get; }
 Gets the physical device name.
 
 ## -property-value
-Read-only string that describes the physical device name as per UnifiedPOS specification.
+The physical device name given by the UnifiedPOS specification.
 
 ## -remarks
 

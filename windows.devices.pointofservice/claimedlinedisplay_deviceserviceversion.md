@@ -10,6 +10,7 @@ public string DeviceServiceVersion { get; }
 # Windows.Devices.PointOfService.ClaimedLineDisplay.DeviceServiceVersion
 
 ## -description
+Gets the service version number of the line display.
 
 ## -property-value
 
@@ -18,4 +19,3 @@ public string DeviceServiceVersion { get; }
 ## -see-also
 
 ## -examples
-

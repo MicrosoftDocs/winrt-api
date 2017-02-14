@@ -13,7 +13,7 @@ public string PhysicalDeviceDescription { get; }
 Gets the physical device description.
 
 ## -property-value
-Read-only string that describes the physical device description as per UnifiedPOS specification.
+The physical device description given by the UnifiedPOS specification.
 
 ## -remarks
 

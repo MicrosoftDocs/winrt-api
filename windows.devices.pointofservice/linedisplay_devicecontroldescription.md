@@ -13,7 +13,7 @@ public string DeviceControlDescription { get; }
 Gets the device control description of the line display.
 
 ## -property-value
-Read-only string that describes the control description as per UnifiedPOS specification.
+The control description of the line display.
 
 ## -remarks
 

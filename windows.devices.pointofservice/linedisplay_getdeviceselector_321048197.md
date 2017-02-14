@@ -18,7 +18,7 @@ Using only the specified connection types, gets an Advanced Query Syntax (AQS) s
 A list of the connection types to test for available line displays.
 
 ## -returns
-An Advanced Query Syntax (AQS) string that is used to enumerate available line displays via the specified connection types.
+An AQS string that is used to enumerate available line displays via the specified connection types.
 
 ## -remarks
 

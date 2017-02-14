@@ -10,7 +10,7 @@ public IAsyncOperation<LineDisplay> LineDisplay.FromIdAsync(String deviceId)
 # Windows.Devices.PointOfService.LineDisplay.FromIdAsync
 
 ## -description
-Creates [LineDisplay](linedisplay.md) object from the [DeviceInformation.Id](../windows.devices.enumeration/deviceinformation_id.md).
+Creates a [LineDisplay](linedisplay.md) object from the [DeviceInformation.Id](../windows.devices.enumeration/deviceinformation_id.md).
 
 ## -parameters
 

@@ -15,7 +15,7 @@ Gets an Advanced Query Syntax (AQS) string that you can use to list the availabl
 ## -parameters
 
 ## -returns
-An Advanced Query Syntax (AQS) string that is used to enumerate available line displays.
+An Advanced Query Syntax string that is used to enumerate available line displays.
 
 ## -remarks
 
