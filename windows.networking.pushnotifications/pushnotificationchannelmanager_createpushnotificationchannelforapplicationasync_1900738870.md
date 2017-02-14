@@ -10,7 +10,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Networking.PushNotifications.P
 # Windows.Networking.PushNotifications.PushNotificationChannelManager.CreatePushNotificationChannelForApplicationAsync
 
 ## -description
-Creates an object, bound to a specified app, through which you retrieve a push notification channel from Windows Push Notification Services (WNS). The specified app must be in the same package as the calling app.
+Creates an object, bound to a specified app, through which you retrieve a push notification channel from Windows Push Notification Services (WNS). The specified app must be in the same package as the calling app. This overload should only be called from a multi-app package, most apps should use the method with no parameter. 
 
 ## -parameters
 ### -param applicationId
