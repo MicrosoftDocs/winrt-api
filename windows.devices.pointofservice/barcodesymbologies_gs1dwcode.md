@@ -10,6 +10,7 @@ public uint Gs1DWCode { get; }
 # Windows.Devices.PointOfService.BarcodeSymbologies.Gs1DWCode
 
 ## -description
+Gets the GS1DWCode symbology.
 
 ## -property-value
 
@@ -18,4 +19,3 @@ public uint Gs1DWCode { get; }
 ## -see-also
 
 ## -examples
-
