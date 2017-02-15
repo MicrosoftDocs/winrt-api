@@ -17,11 +17,12 @@ A **SpeechCue** can be added to a [TimedMetadataTrack](timedmetadatatrack.md) wi
 
 The [SpeechSynthesizer](./windows.media.speechsynthesis/speechsynthesizer.md) class generates metadata that uses the following values for the [TimedMetataTrack.DispatchType](timedmetadatatrack_dispatchtype.md) in order to identify the type of speech metadata included in a track.
 
-|----------|----------|
-|DispatchType|Description|
-|SpeechBookmark|The metadata track contains SSML bookmarks|
-|SpeechSentence|The metadata track contains word boundaries|
-|SpeechWord|The metadata track contains sentence boundaries| 
+<table>
+<tr><th>DispatchType</th><th>Description</th></tr>
+<tr><td>SpeechBookmark</td><td>The metadata track contains SSML bookmarks</td></tr>
+<tr><td>SpeechSentence</td><td>The metadata track contains word boundaries</td></tr>
+<tr><td>SpeechWord</td><td>The metadata track contains sentence boundaries</td></tr>
+</table>
 
 ## -see-also
 
