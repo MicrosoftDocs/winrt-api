@@ -10,7 +10,7 @@ public class TargetedContentAction
 # Windows.Services.TargetedContent.TargetedContentAction
 
 ## -description
-Represents cloud content.
+Represents the actions content can perform.
 ## -remarks
 
 ## -see-also
