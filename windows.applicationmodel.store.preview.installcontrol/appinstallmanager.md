@@ -12,10 +12,10 @@ public class AppInstallManager : Windows.ApplicationModel.Store.Preview.InstallC
 ## -description
 Provides members for programmatically installing apps, including the ability to start an app install and get a list of app installs currently in progress.
 
+## -remarks
+
 > [!IMPORTANT]
 > Access to this API is protected by a private capability that is restricted to apps that are developed by Microsoft.
-
-## -remarks
 
 ## -examples
 

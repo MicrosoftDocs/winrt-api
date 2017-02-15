@@ -15,7 +15,6 @@ Represents a feature report.
 Feature reports are issued by both the device and the host. Devices issue feature reports to describe their capabilities and default settings to a host. Hosts issue feature reports to make requests of the device.
 
 ## -remarks
-<!-- <rem>TODO: Document how the developer can obtain this class object, and add or update retriever elements as necessary.</rem>-->
 
 ## -examples
 

@@ -25,7 +25,9 @@ This example demonstrates the use of the **Uri** property. To use the code in th
 
 
 
-[!code-csharp[HowToShareLink](../windows.applicationmodel.datatransfer/code/ShareMainBeta/cs/ShareLinks.xaml.cs#SnippetHowToShareLink)][!code-js[HowToShareLink](../windows.applicationmodel.datatransfer/code/ShareMainBeta/javascript/js/ShareLink.js#SnippetHowToShareLink)]
+[!code-csharp[HowToShareLink](../windows.applicationmodel.datatransfer/code/ShareMainBeta/cs/ShareLinks.xaml.cs#SnippetHowToShareLink)]
+
+[!code-js[HowToShareLink](../windows.applicationmodel.datatransfer/code/ShareMainBeta/javascript/js/ShareLink.js#SnippetHowToShareLink)]
 
 ## -see-also
 tHowToShareLink)]

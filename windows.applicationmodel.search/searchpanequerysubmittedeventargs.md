@@ -23,7 +23,9 @@ The [Search contract sample](http://go.microsoft.com/fwlink/p/?linkid=234892) de
 
 
 
-[!code-csharp[all_searchpane_querysubmitted_register](../windows.applicationmodel.search/code/SearchContract/CS/App.xaml.cs#Snippetall_searchpane_querysubmitted_register)][!code-js[all_searchpane_querysubmitted_register](../windows.applicationmodel.search/code/SearchContract/js/js/default.js#Snippetall_searchpane_querysubmitted_register)]
+[!code-csharp[all_searchpane_querysubmitted_register](../windows.applicationmodel.search/code/SearchContract/CS/App.xaml.cs#Snippetall_searchpane_querysubmitted_register)]
+
+[!code-js[all_searchpane_querysubmitted_register](../windows.applicationmodel.search/code/SearchContract/js/js/default.js#Snippetall_searchpane_querysubmitted_register)]
 
 ## -see-also
 [SearchPane.QuerySubmitted event](searchpane_querysubmitted.md), [SearchPaneQuerySubmittedEventArgs class](searchpanequerysubmittedeventargs.md)

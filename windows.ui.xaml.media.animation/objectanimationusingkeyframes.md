@@ -38,9 +38,13 @@ The following example uses the [ObjectAnimationUsingKeyFrames](objectanimationus
 
 
 
-[!code-xml[Objectanimationusingkeyframes](../windows.ui.xaml.media.animation/code/objectanimationusingkeyframes/csharp/Page.xaml#SnippetObjectanimationusingkeyframes)][!code-vb[Objectanimationusingkeyframes](../windows.ui.xaml.media.animation/code/objectanimationusingkeyframes/vbnet/Page.xaml.vb#SnippetObjectanimationusingkeyframes)]
+[!code-xml[Objectanimationusingkeyframes](../windows.ui.xaml.media.animation/code/objectanimationusingkeyframes/csharp/Page.xaml#SnippetObjectanimationusingkeyframes)]
 
-[!code-csharp[Objectanimationusingkeyframes_cs](../windows.ui.xaml.media.animation/code/objectanimationusingkeyframes/csharp/Page.xaml.cs#SnippetObjectanimationusingkeyframes_cs)][!code-vb[Objectanimationusingkeyframes_cs](../windows.ui.xaml.media.animation/code/objectanimationusingkeyframes/vbnet/Page.xaml.vb#SnippetObjectanimationusingkeyframes_cs)]
+[!code-vb[Objectanimationusingkeyframes](../windows.ui.xaml.media.animation/code/objectanimationusingkeyframes/vbnet/Page.xaml.vb#SnippetObjectanimationusingkeyframes)]
+
+[!code-csharp[Objectanimationusingkeyframes_cs](../windows.ui.xaml.media.animation/code/objectanimationusingkeyframes/csharp/Page.xaml.cs#SnippetObjectanimationusingkeyframes_cs)]
+
+[!code-vb[Objectanimationusingkeyframes_cs](../windows.ui.xaml.media.animation/code/objectanimationusingkeyframes/vbnet/Page.xaml.vb#SnippetObjectanimationusingkeyframes_cs)]
 
 ## -see-also
 [Storyboarded animations](http://msdn.microsoft.com/library/0cbceea0-2b0e-44a1-a09a-f7a939632f3a), [Timeline](timeline.md), [ObjectKeyFrame](objectkeyframe.md)

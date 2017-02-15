@@ -10,8 +10,7 @@ public class InkPresenterRuler : Windows.UI.Input.Inking.IInkPresenterRuler, Win
 # Windows.UI.Input.Inking.InkPresenterRuler
 
 ## -description
-<!--kbridge: some of the inking APIs predate InkCanvas/InkPresenter, so should mention either/both in the abstract for SEO.-->
-Represents a visual stencil, displayed as an semi-transparent overlay on an [InkCanvas](../windows.ui.xaml.controls/inkcanvas.md).
+Represents a visual stencil, in the form of a straight rule for drawing straight lines, displayed as a semi-transparent overlay on an [InkCanvas](../windows.ui.xaml.controls/inkcanvas.md).
 
 
 The stencil transforms how an ink stroke is rendered:

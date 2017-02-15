@@ -13,7 +13,6 @@ public class HidInputReportReceivedEventArgs : Windows.Devices.HumanInterfaceDev
 Represents the arguments which the HID API sends as part of an input-report event.
 
 ## -remarks
-<!-- <rem>TODO: Document how the developer can obtain this class object, and add or update retriever elements as necessary.</rem>-->
 
 ## -examples
 

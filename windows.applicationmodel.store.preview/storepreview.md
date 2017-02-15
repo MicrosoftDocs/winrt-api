@@ -4,7 +4,7 @@
 ---
 
 <!-- Class syntax.
-public class StorePreview 
+public class StorePreview
 -->
 
 # Windows.ApplicationModel.Store.Preview.StorePreview
@@ -17,3 +17,6 @@ Defines static methods for retrieving the in-app product SKUs available for the 
 ## -examples
 
 ## -see-also
+
+## -capabilities
+previewStore

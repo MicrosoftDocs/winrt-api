@@ -10,11 +10,11 @@ public InkPresenterProtractor(Windows.UI.Input.Inking.InkPresenter inkPresenter)
 # Windows.UI.Input.Inking.InkPresenterProtractor.InkPresenterProtractor
 
 ## -description
-TBD
+Initializes a new instance of the [InkPresenterProtractor](inkpresenterprotractor.md) class.
 
 ## -parameters
 ### -param inkPresenter
-
+The ink presenter associated with the pen input.
 
 ## -remarks
 

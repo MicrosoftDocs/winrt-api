@@ -36,7 +36,9 @@ This example shows an [OnApplyTemplate](frameworkelement_onapplytemplate.md) ove
 
 
 
-[!code-csharp[ApplyTemplate](../windows.ui.xaml/code/NumericUpDownCustomControl/csharp/NumericUpDownCustomControl.cs#SnippetApplyTemplate)][!code-vb[ApplyTemplate](../windows.ui.xaml/code/NumericUpDownCustomControl/vbnet/NumericUpDown.vb#SnippetApplyTemplate)]
+[!code-csharp[ApplyTemplate](../windows.ui.xaml/code/NumericUpDownCustomControl/csharp/NumericUpDownCustomControl.cs#SnippetApplyTemplate)]
+
+[!code-vb[ApplyTemplate](../windows.ui.xaml/code/NumericUpDownCustomControl/vbnet/NumericUpDown.vb#SnippetApplyTemplate)]
 
 ## -see-also
 [ControlTemplate](../windows.ui.xaml.controls/controltemplate.md), [GetTemplateChild](../windows.ui.xaml.controls/control_gettemplatechild.md), [Styling controls](http://msdn.microsoft.com/library/ab469a46-faf5-42d0-9340-948d0edf4150)

@@ -38,9 +38,13 @@ This XAML example applies a [QuarticEase](quarticease.md) easing function to a [
 
 
 
-[!code-xml[QuarticEase](../windows.ui.xaml.media.animation/code/QuarticEase/csharp/Page.xaml#SnippetQuarticEase)][!code-vb[QuarticEase](../windows.ui.xaml.media.animation/code/QuarticEase/vbnet/MainPage.xaml.vb#SnippetQuarticEase)]
+[!code-xml[QuarticEase](../windows.ui.xaml.media.animation/code/QuarticEase/csharp/Page.xaml#SnippetQuarticEase)]
 
-[!code-csharp[QuarticEase_code](../windows.ui.xaml.media.animation/code/QuarticEase/csharp/Page.xaml.cs#SnippetQuarticEase_code)][!code-vb[QuarticEase_code](../windows.ui.xaml.media.animation/code/QuarticEase/vbnet/MainPage.xaml.vb#SnippetQuarticEase_code)]
+[!code-vb[QuarticEase](../windows.ui.xaml.media.animation/code/QuarticEase/vbnet/MainPage.xaml.vb#SnippetQuarticEase)]
+
+[!code-csharp[QuarticEase_code](../windows.ui.xaml.media.animation/code/QuarticEase/csharp/Page.xaml.cs#SnippetQuarticEase_code)]
+
+[!code-vb[QuarticEase_code](../windows.ui.xaml.media.animation/code/QuarticEase/vbnet/MainPage.xaml.vb#SnippetQuarticEase_code)]
 
 ## -see-also
 [Storyboarded animations](http://msdn.microsoft.com/library/0cbceea0-2b0e-44a1-a09a-f7a939632f3a), [Key-frame animations and easing function animations](http://msdn.microsoft.com/library/d8af24cd-f4c2-4562-afd7-25010955d677), [PowerEase](powerease.md), [BackEase](backease.md), [BounceEase](bounceease.md), [CircleEase](circleease.md), [CubicEase](cubicease.md), [ElasticEase](elasticease.md), [ExponentialEase](exponentialease.md), [QuadraticEase](quadraticease.md), [QuinticEase](quinticease.md), [SineEase](sineease.md)

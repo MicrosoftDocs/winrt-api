@@ -19,11 +19,17 @@ The following example shows how to setup the barcode scanner to receive data aft
 
 
 
-[!code-cpp[SetupBarcodeScanner](../windows.devices.pointofservice/code/BarcodeScanner/cpp/Scenario1.xaml.cpp#SnippetSetupBarcodeScanner)][!code-csharp[SetupBarcodeScanner](../windows.devices.pointofservice/code/BarcodeScanner/cs/Scenario1.xaml.cs#SnippetSetupBarcodeScanner)]
+[!code-cpp[SetupBarcodeScanner](../windows.devices.pointofservice/code/BarcodeScanner/cpp/Scenario1.xaml.cpp#SnippetSetupBarcodeScanner)]
+
+[!code-csharp[SetupBarcodeScanner](../windows.devices.pointofservice/code/BarcodeScanner/cs/Scenario1.xaml.cs#SnippetSetupBarcodeScanner)]
 
 
 
-[!code-cpp[DataReceived](../windows.devices.pointofservice/code/BarcodeScanner/cpp/Scenario1.xaml.cpp#SnippetDataReceived)][!code-csharp[DataReceived](../windows.devices.pointofservice/code/BarcodeScanner/cs/Scenario1.xaml.cs#SnippetDataReceived)][!code-js[DataReceived](../windows.devices.pointofservice/code/BarcodeScanner/js/scenario1.js#SnippetDataReceived)]
+[!code-cpp[DataReceived](../windows.devices.pointofservice/code/BarcodeScanner/cpp/Scenario1.xaml.cpp#SnippetDataReceived)]
+
+[!code-csharp[DataReceived](../windows.devices.pointofservice/code/BarcodeScanner/cs/Scenario1.xaml.cs#SnippetDataReceived)]
+
+[!code-js[DataReceived](../windows.devices.pointofservice/code/BarcodeScanner/js/scenario1.js#SnippetDataReceived)]
 
 
 
