@@ -10,12 +10,15 @@ public IAsyncAction InkWorkspaceHostedAppManager.SetThumbnailAsync(SoftwareBitma
 # Windows.ApplicationModel.Preview.InkWorkspace.InkWorkspaceHostedAppManager.SetThumbnailAsync
 
 ## -description
+Asynchronously sets the thumbnail image for the Ink Workspace app.
 
 ## -parameters
 
 ### -param bitmap
+An uncompressed bitmap.
 
 ## -returns
+An asynchronous action that doesn't return anything.
 
 ## -remarks
 
