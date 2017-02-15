@@ -10,8 +10,12 @@ public class RemoteSystemSessionWatcher
 # Windows.System.RemoteSystems.RemoteSystemSessionWatcher
 
 ## -description
+Watches for activity related to the discovery of remote sessions and raises the appropriate events.
 
 ## -remarks
+This class is instantiated when the [**RemoteSystemSession.CreateWatcher**](RemoteSystemSession_CreateWatcher_1506431823.md) method is called.
+
+TBD - code for session discovery - put in others classes?
 
 ## -see-also
 

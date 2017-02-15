@@ -10,8 +10,10 @@ public RemoteSystemSessionJoinRequest JoinRequest { get; }
 # Windows.System.RemoteSystems.RemoteSystemSessionJoinRequestedEventArgs.JoinRequest
 
 ## -description
+Gets the [**RemoteSystemSessionJoinRequest**](RemoteSystemSessionJoinRequest.md) that represents this incoming request.
 
 ## -property-value
+The [**RemoteSystemSessionJoinRequest**](RemoteSystemSessionJoinRequest.md) that represents this incoming request.
 
 ## -remarks
 

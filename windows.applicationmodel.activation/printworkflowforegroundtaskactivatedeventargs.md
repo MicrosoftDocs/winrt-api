@@ -11,6 +11,8 @@ public class PrintWorkflowForegroundTaskActivatedEventArgs : IActivatedEventArgs
 
 ## -description
 
+Provides data when an app is launched as part of a print workflow.
+
 ## -remarks
 
 ## -see-also

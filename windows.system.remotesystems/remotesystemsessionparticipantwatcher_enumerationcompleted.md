@@ -10,6 +10,7 @@ public event TypedEventHandler EnumerationCompleted<RemoteSystemSessionParticipa
 # Windows.System.RemoteSystems.RemoteSystemSessionParticipantWatcher.EnumerationCompleted
 
 ## -description
+Raised after the initial enumeration of participants is complete TBD1
 
 ## -remarks
 

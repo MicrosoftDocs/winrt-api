@@ -11,7 +11,11 @@ public object PrintWorkflowSession { get; }
 
 ## -description
 
+Gets the print workflow session that caused the activation. 
+
 ## -property-value
+
+The print workflow session that caused the activation. 
 
 ## -remarks
 

@@ -11,7 +11,11 @@ public ActivationKind Kind { get; }
 
 ## -description
 
+Gets the activation type.
+
 ## -property-value
+
+The activation type. 
 
 ## -remarks
 

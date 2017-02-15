@@ -10,6 +10,7 @@ public event TypedEventHandler Updated<RemoteSystemSessionWatcher, RemoteSystemS
 # Windows.System.RemoteSystems.RemoteSystemSessionWatcher.Updated
 
 ## -description
+Raised when a previously discovered remote session has some part of its information updated.
 
 ## -remarks
 

@@ -11,7 +11,11 @@ public bool LimitPickerToCurrentAppAndAppUriHandlers { get;  set; }
 
 ## -description
 
+Gets or sets whether to limit the picker for the launcher to the current app and its associated URI handlers. 
+
 ## -property-value
+
+True if the launcher should limit the picker to the current app and its associated URI handlers; otherwise, false.
 
 ## -remarks
 

@@ -10,7 +10,7 @@ public User User { get; }
 # Windows.Management.Policies.NamedPolicyData.User
 
 ## -description
-Gets the user's data for the user policy.
+Gets the user's data for the MDM user policy.
 
 ## -property-value
 [Windows.System.User](../windows.system/user.md) associated with the user policy.

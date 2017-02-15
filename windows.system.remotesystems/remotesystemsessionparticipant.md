@@ -10,6 +10,7 @@ public class RemoteSystemSessionParticipant
 # Windows.System.RemoteSystems.RemoteSystemSessionParticipant
 
 ## -description
+Represents a device that is a participant in a remote session. A session can have one or more participants.
 
 ## -remarks
 

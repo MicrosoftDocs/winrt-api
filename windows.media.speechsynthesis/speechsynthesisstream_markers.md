@@ -10,7 +10,7 @@ public Windows.Foundation.Collections.IVectorView<Windows.Media.IMediaMarker> Ma
 # Windows.Media.SpeechSynthesis.SpeechSynthesisStream.Markers
 
 ## -description
-Gets the collection of timeline markers associated with [SpeechSynthesisStream](speechsynthesisstream.md).
+Gets the collection of timeline markers associated with the [SpeechSynthesisStream](speechsynthesisstream.md).
 
 ## -property-value
 When this method completes successfully, it returns a collection of [IMediaMarker](../windows.media/imediamarker.md) objects that represent the timeline markers in the stream.

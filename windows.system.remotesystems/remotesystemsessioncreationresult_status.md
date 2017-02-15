@@ -10,8 +10,10 @@ public RemoteSystemSessionCreationStatus Status { get; }
 # Windows.System.RemoteSystems.RemoteSystemSessionCreationResult.Status
 
 ## -description
+Gets the status of a [**RemoteSystemSessionController**](RemoteSystemSessionController.md) object's attempt to create a remote session.
 
 ## -property-value
+A [**RemoteSystemSessionCreationStatus**](RemoteSystemSessionCreationStatus.md) value describing the result.
 
 ## -remarks
 
