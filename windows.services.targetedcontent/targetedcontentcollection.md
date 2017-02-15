@@ -10,7 +10,7 @@ public class TargetedContentCollection
 # Windows.Services.TargetedContent.TargetedContentCollection
 
 ## -description
-
+Represents a collection of content containers.
 ## -remarks
 
 ## -see-also
