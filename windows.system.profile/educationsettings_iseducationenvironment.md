@@ -22,9 +22,18 @@ Returns **true** when the [SetEduPolicies](https://msdn.microsoft.com/en-us/wind
 
 Always returns **false** on the Home SKU.  
 
-A **true** value means the PC is running in an education environment (set either by the SKU or by the IT admin) and sets a bunch of policies and behaviors to make Windows education ready.
+A **true** value means the PC is running in an education environment (set either by the SKU or by the IT admin) and sets policies and behaviors to make Windows education ready.
 
 ## -see-also
 
 ## -examples
-
+``` cs
+if (Windows.System.Profile.EducationSettings.IsEducationEnvironment)
+{
+    SetHomePage("about:EDU");
+}
+else
+{
+    SetHomePage("about:start");
+}
+```  
