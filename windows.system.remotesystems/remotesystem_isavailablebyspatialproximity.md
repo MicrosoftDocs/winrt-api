@@ -10,8 +10,10 @@ public bool IsAvailableBySpatialProximity { get; }
 # Windows.System.RemoteSystems.RemoteSystem.IsAvailableBySpatialProximity
 
 ## -description
+Checks whether the given remote system is available for connection by spatial proximity (such as TBD).
 
 ## -property-value
+**true** if the given remote system is available by spatial proximity connection, **false** otherwise.
 
 ## -remarks
 

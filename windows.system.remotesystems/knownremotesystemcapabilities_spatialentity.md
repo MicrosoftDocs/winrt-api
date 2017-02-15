@@ -16,6 +16,7 @@ Gets the canonical string name of the spatial entity capability.
 The canonical string name of the spatial entity capability.
 
 ## -remarks
+TBD - this is needed for remote sessions?
 
 ## -see-also
 TBD
