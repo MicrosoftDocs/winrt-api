@@ -23,9 +23,6 @@ Stop dynamically searching for peer apps within wireless range.
 
 [!code-csharp[_StopPeerWatcher](../windows.networking.proximity/code/Proximity_PeerWatcher/cs/MainPage.xaml.cs#Snippet_StopPeerWatcher)]
 
-[!code-js[_StopPeerWatcher](../windows.networking.proximity/code/Proximity_PeerWatcher/js/default.js#Snippet_StopPeerWatcher)]
-
-
 
 [!code-js[_StopPeerWatcher_JS](../windows.networking.proximity/code/Proximity_PeerWatcher/js/default.js#Snippet_StopPeerWatcher_JS)]
 

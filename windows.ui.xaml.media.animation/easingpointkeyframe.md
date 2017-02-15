@@ -28,8 +28,6 @@ This XAML example shows how to use key frames that have easing functions associa
 
 [!code-xml[EasingFunctionPointKeyFrame](../windows.ui.xaml.media.animation/code/EasingFunctionKeyFrames/csharp/Page.xaml#SnippetEasingFunctionPointKeyFrame)]
 
-[!code-vb[EasingFunctionPointKeyFrame](../windows.ui.xaml.media.animation/code/EasingFunctionKeyFrames/vbnet/MainPage.xaml.vb#SnippetEasingFunctionPointKeyFrame)]
-
 [!code-csharp[EasingFunctionPointKeyFrame_code](../windows.ui.xaml.media.animation/code/EasingFunctionKeyFrames/csharp/Page.xaml.cs#SnippetEasingFunctionPointKeyFrame_code)]
 
 [!code-vb[EasingFunctionPointKeyFrame_code](../windows.ui.xaml.media.animation/code/EasingFunctionKeyFrames/vbnet/MainPage.xaml.vb#SnippetEasingFunctionPointKeyFrame_code)]

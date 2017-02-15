@@ -40,8 +40,6 @@ This XAML example applies a [QuarticEase](quarticease.md) easing function to a [
 
 [!code-xml[QuarticEase](../windows.ui.xaml.media.animation/code/QuarticEase/csharp/Page.xaml#SnippetQuarticEase)]
 
-[!code-vb[QuarticEase](../windows.ui.xaml.media.animation/code/QuarticEase/vbnet/MainPage.xaml.vb#SnippetQuarticEase)]
-
 [!code-csharp[QuarticEase_code](../windows.ui.xaml.media.animation/code/QuarticEase/csharp/Page.xaml.cs#SnippetQuarticEase_code)]
 
 [!code-vb[QuarticEase_code](../windows.ui.xaml.media.animation/code/QuarticEase/vbnet/MainPage.xaml.vb#SnippetQuarticEase_code)]

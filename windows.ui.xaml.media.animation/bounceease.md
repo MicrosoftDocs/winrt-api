@@ -32,7 +32,6 @@ The following example applies a [BounceEase](bounceease.md) easing function to a
 
 [!code-xml[BounceEase](../windows.ui.xaml.media.animation/code/BounceEase/csharp/Page.xaml#SnippetBounceEase)]
 
-[!code-vb[BounceEase](../windows.ui.xaml.media.animation/code/BounceEase/vbnet/MainPage.xaml.vb#SnippetBounceEase)]
 
 [!code-csharp[BounceEase_code](../windows.ui.xaml.media.animation/code/BounceEase/csharp/Page.xaml.cs#SnippetBounceEase_code)]
 

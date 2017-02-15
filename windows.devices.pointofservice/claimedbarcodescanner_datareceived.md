@@ -29,7 +29,6 @@ The following example shows how to setup the barcode scanner to receive data aft
 
 [!code-csharp[DataReceived](../windows.devices.pointofservice/code/BarcodeScanner/cs/Scenario1.xaml.cs#SnippetDataReceived)]
 
-[!code-js[DataReceived](../windows.devices.pointofservice/code/BarcodeScanner/js/scenario1.js#SnippetDataReceived)]
 
 
 

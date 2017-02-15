@@ -36,8 +36,6 @@ This XAML example applies an [ElasticEase](elasticease.md) easing function to a 
 
 [!code-xml[ElasticEase](../windows.ui.xaml.media.animation/code/ElasticEase/csharp/Page.xaml#SnippetElasticEase)]
 
-[!code-vb[ElasticEase](../windows.ui.xaml.media.animation/code/ElasticEase/vbnet/MainPage.xaml.vb#SnippetElasticEase)]
-
 [!code-csharp[ElasticEase_code](../windows.ui.xaml.media.animation/code/ElasticEase/csharp/Page.xaml.cs#SnippetElasticEase_code)]
 
 [!code-vb[ElasticEase_code](../windows.ui.xaml.media.animation/code/ElasticEase/vbnet/MainPage.xaml.vb#SnippetElasticEase_code)]

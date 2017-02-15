@@ -31,8 +31,6 @@ This XAML example uses a [ScaleTransform](scaletransform.md) to scale text from 
 
 [!code-xml[transforms_ovw_interactive_transforms](../windows.ui.xaml.media/code/transforms_ovw_interactive_transforms/csharp/Page.xaml#Snippettransforms_ovw_interactive_transforms)]
 
-[!code-vb[transforms_ovw_interactive_transforms](../windows.ui.xaml.media/code/transforms_ovw_interactive_transforms/vbnet/Page.xaml.vb#Snippettransforms_ovw_interactive_transforms)]
-
 [!code-csharp[transforms_ovw_interactive_transforms_code](../windows.ui.xaml.media/code/transforms_ovw_interactive_transforms/csharp/Page.xaml.cs#Snippettransforms_ovw_interactive_transforms_code)]
 
 [!code-vb[transforms_ovw_interactive_transforms_code](../windows.ui.xaml.media/code/transforms_ovw_interactive_transforms/vbnet/Page.xaml.vb#Snippettransforms_ovw_interactive_transforms_code)]

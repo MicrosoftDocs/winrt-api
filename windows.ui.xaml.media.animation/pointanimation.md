@@ -40,15 +40,15 @@ The following example shows how to use the [PointAnimation](pointanimation.md) t
 
 
 
-[!code-cpp[Pointanimation](../windows.ui.xaml/code/pointanimation/cpp/Page.xaml.cpp#SnippetPointanimation)]
+[!code-cpp[Pointanimation](../windows.ui.xaml/code/pointanimation/cpp/Page.xaml.cpp#SnippetPointanimation_cs)]
 
 [!code-xml[Pointanimation](../windows.ui.xaml/code/pointanimation/csharp/Page.xaml#SnippetPointanimation)]
 
-[!code-vb[Pointanimation](../windows.ui.xaml/code/pointanimation/vbnet/Page.xaml.vb#SnippetPointanimation)]
+
 
 [!code-xml[Pointanimation](../windows.ui.xaml/code/pointanimationusingkeyframes/csharp/Page.xaml#SnippetPointanimation)]
 
-[!code-vb[Pointanimation](../windows.ui.xaml/code/pointanimationusingkeyframes/vbnet/Page.xaml.vb#SnippetPointanimation)]
+
 
 [!code-cpp[Pointanimation_cs](../windows.ui.xaml/code/pointanimation/cpp/Page.xaml.cpp#SnippetPointanimation_cs)]
 

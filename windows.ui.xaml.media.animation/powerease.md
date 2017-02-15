@@ -32,8 +32,6 @@ This XAML example applies a [PowerEase](powerease.md) easing function with a [Po
 
 [!code-xml[PowerEase](../windows.ui.xaml.media.animation/code/PowerEase/csharp/Page.xaml#SnippetPowerEase)]
 
-[!code-vb[PowerEase](../windows.ui.xaml.media.animation/code/PowerEase/vbnet/MainPage.xaml.vb#SnippetPowerEase)]
-
 [!code-csharp[PowerEase_code](../windows.ui.xaml.media.animation/code/PowerEase/csharp/Page.xaml.cs#SnippetPowerEase_code)]
 
 [!code-vb[PowerEase_code](../windows.ui.xaml.media.animation/code/PowerEase/vbnet/MainPage.xaml.vb#SnippetPowerEase_code)]

@@ -30,8 +30,6 @@ This XAML example applies a [QuinticEase](quinticease.md) easing function to a [
 
 [!code-xml[QuinticEase](../windows.ui.xaml.media.animation/code/QuinticEase/csharp/Page.xaml#SnippetQuinticEase)]
 
-[!code-vb[QuinticEase](../windows.ui.xaml.media.animation/code/QuinticEase/vbnet/MainPage.xaml.vb#SnippetQuinticEase)]
-
 [!code-csharp[QuinticEase_code](../windows.ui.xaml.media.animation/code/QuinticEase/csharp/Page.xaml.cs#SnippetQuinticEase_code)]
 
 [!code-vb[QuinticEase_code](../windows.ui.xaml.media.animation/code/QuinticEase/vbnet/MainPage.xaml.vb#SnippetQuinticEase_code)]

@@ -29,7 +29,7 @@ For an example of using the [PlayToSource](playtosource.md) class, see [Streamin
 
 [!code-js[PlayToContract](../windows.media.playto/code/PlayTo_SlideShow1/javascript/default.js#SnippetPlayToContract)]
 
-[!code-vb[PlayToContract](../windows.media.playto/code/PlayTo_SlideShow1/vbnet/MainPage.xaml.vb#SnippetPlayToContract)]
+[!code-vb[PlayToContract_CS](../windows.media.playto/code/PlayTo_SlideShow1/vbnet/MainPage.xaml.vb#SnippetPlayToContract_CS)]
 
 ## -see-also
 [Play To sample](http://go.microsoft.com/fwlink/p/?linkid=245166), [PlayToReceiver sample](http://go.microsoft.com/fwlink/p/?linkid=245167), [Media Server sample](http://go.microsoft.com/fwlink/p/?linkid=245168)
