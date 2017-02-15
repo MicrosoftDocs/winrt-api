@@ -42,18 +42,18 @@ The following example shows how to use **DoubleAnimation** to create a rectangle
 
 
 
-[!code-xml[Doubleanimation](../windows.ui.xaml.media.animation/code/doubleanimation/csharp/Page.xaml#SnippetDoubleanimations)]
+[!code-xml[Doubleanimation](../windows.ui.xaml.media.animation/code/doubleanimation/csharp/Page.xaml#SnippetDoubleanimation)]
 
 [!code-csharp[Doubleanimation_cs](../windows.ui.xaml.media.animation/code/doubleanimation/csharp/Page.xaml.cs#SnippetDoubleanimation_cs)]
 
 [!code-vb[Doubleanimation_cs](../windows.ui.xaml.media.animation/code/doubleanimation/vbnet/Page.xaml.vb#SnippetDoubleanimation_cs)]
 
-[!code-xml[Doubleanimation](../windows.ui.xaml.media.animation/code/doubleanimationusingkeyframes/csharp/Page.xaml#SnippetDoubleanimation)]
+[!code-xml[Doubleanimation](../windows.ui.xaml.media.animation/code/doubleanimationusingkeyframes/csharp/Page.xaml#SnippetDoubleanimationUsingKeyFrames)]
 
 
-[!code-csharp[Doubleanimation](../windows.ui.xaml.media.animation/code/doubleanimationusingkeyframes2/csharp/Page.xaml.cs#SnippetDoubleanimation_cs)]
+[!code-csharp[Doubleanimation](../windows.ui.xaml.media.animation/code/doubleanimationusingkeyframes2/csharp/Page.xaml.cs#SnippetDoubleanimationUsingKeyframes2)]
 
-[!code-vb[Doubleanimation](../windows.ui.xaml.media.animation/code/doubleanimationusingkeyframes2/vbnet/Page.xaml.vb#SnippetDoubleanimation_cs)]
+[!code-vb[Doubleanimation](../windows.ui.xaml.media.animation/code/doubleanimationusingkeyframes2/vbnet/Page.xaml.vb#SnippetDoubleanimationUsingKeyframes2)]
 
 
 
