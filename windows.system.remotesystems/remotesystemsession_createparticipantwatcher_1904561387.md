@@ -10,8 +10,10 @@ public RemoteSystemSessionParticipantWatcher RemoteSystemSession.CreateParticipa
 # Windows.System.RemoteSystems.RemoteSystemSession.CreateParticipantWatcher
 
 ## -description
+Initializes a [**RemoteSystemSessionParticipantWatcher**](RemoteSystemSessionParticipantWatcher.md) to monitor the participants of this remote session.
 
 ## -returns
+A [**RemoteSystemSessionParticipantWatcher**](RemoteSystemSessionParticipantWatcher.md) for this session.
 
 ## -remarks
 

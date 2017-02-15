@@ -10,8 +10,10 @@ public class RemoteSystemSessionInvitationListener
 # Windows.System.RemoteSystems.RemoteSystemSessionInvitationListener
 
 ## -description
+Contains the functionality for receiving and responding to invitations to join remote sessions.
 
 ## -remarks
+TBD
 
 ## -see-also
 

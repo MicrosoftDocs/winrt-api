@@ -10,6 +10,7 @@ public string Id { get; }
 # Windows.System.RemoteSystems.RemoteSystemSession.Id
 
 ## -description
+Set when? TBD
 
 ## -property-value
 

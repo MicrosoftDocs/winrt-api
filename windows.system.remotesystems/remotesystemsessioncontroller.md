@@ -10,8 +10,10 @@ public class RemoteSystemSessionController
 # Windows.System.RemoteSystems.RemoteSystemSessionController
 
 ## -description
+Handles the creation and management of a new remote session for other devices to join.
 
 ## -remarks
+TBD
 
 ## -see-also
 

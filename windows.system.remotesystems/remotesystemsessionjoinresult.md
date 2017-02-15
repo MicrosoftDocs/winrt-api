@@ -10,8 +10,10 @@ public class RemoteSystemSessionJoinResult
 # Windows.System.RemoteSystems.RemoteSystemSessionJoinResult
 
 ## -description
+Represents the result of this device's attempt to join a remote session.
 
 ## -remarks
+TBD
 
 ## -see-also
 

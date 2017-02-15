@@ -10,6 +10,7 @@ public string ControllerDisplayName { get; }
 # Windows.System.RemoteSystems.RemoteSystemSession.ControllerDisplayName
 
 ## -description
+TBD
 
 ## -property-value
 

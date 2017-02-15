@@ -10,6 +10,7 @@ public event TypedEventHandler InvitationReceived<RemoteSystemSessionInvitationL
 # Windows.System.RemoteSystems.RemoteSystemSessionInvitationListener.InvitationReceived
 
 ## -description
+Raised when a remote session invitation from another device has been detected.
 
 ## -remarks
 

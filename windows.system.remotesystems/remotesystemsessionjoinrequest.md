@@ -10,6 +10,7 @@ public class RemoteSystemSessionJoinRequest
 # Windows.System.RemoteSystems.RemoteSystemSessionJoinRequest
 
 ## -description
+Represents a remote device's request to join a session controlled by this device. 
 
 ## -remarks
 

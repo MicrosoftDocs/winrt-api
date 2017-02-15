@@ -10,6 +10,7 @@ public class RemoteSystemSessionInvitationReceivedEventArgs
 # Windows.System.RemoteSystems.RemoteSystemSessionInvitationReceivedEventArgs
 
 ## -description
+Contains information about a [**RemoteSystemSessionInvitationListener.InvitationReceived**](RemoteSystemSessionInvitationListener_InvitationReceived.md) event, namely the associated [**RemoteSystemSessionInvitation**](RemoteSystemSessionInvitation.md) object.
 
 ## -remarks
 

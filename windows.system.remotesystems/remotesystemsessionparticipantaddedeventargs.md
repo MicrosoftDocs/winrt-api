@@ -10,6 +10,7 @@ public class RemoteSystemSessionParticipantAddedEventArgs
 # Windows.System.RemoteSystems.RemoteSystemSessionParticipantAddedEventArgs
 
 ## -description
+Describes TBD - like all event arcts
 
 ## -remarks
 

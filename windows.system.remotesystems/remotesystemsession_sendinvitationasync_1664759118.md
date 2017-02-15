@@ -10,12 +10,15 @@ public IAsyncOperation<bool> RemoteSystemSession.SendInvitationAsync(RemoteSyste
 # Windows.System.RemoteSystems.RemoteSystemSession.SendInvitationAsync
 
 ## -description
+Invites a given remote device to join this remote session. The receiving device will need to use a [**RemoteSystemSessionInvitationListener**](RemoteSystemSessionInvitationListener.md) to handle this invitation.
 
 ## -parameters
 
 ### -param invitee
+The RemoteSystem object representing the system to which this invitation is being sent.
 
 ## -returns
+An asynchronous operation with a boolean value: **true** if the invitation was sent successfully, otherwise **false**.
 
 ## -remarks
 

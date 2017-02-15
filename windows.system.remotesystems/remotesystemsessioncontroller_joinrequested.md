@@ -10,8 +10,10 @@ public event TypedEventHandler JoinRequested<RemoteSystemSessionController, Remo
 # Windows.System.RemoteSystems.RemoteSystemSessionController.JoinRequested
 
 ## -description
+Raised whenever another device has discovered and requested access to the remote session managed by this [**RemoteSystemSessionController**](RemoteSystemSessionController.md).
 
 ## -remarks
+This event must be handled by a custom method. See [**RemoteSystemSessionJoinRequestedEventArgs**](RemoteSystemSessionJoinRequestedEventArgs.md) for details.
 
 ## -see-also
 

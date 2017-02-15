@@ -10,6 +10,7 @@ public event TypedEventHandler Removed<RemoteSystemSessionParticipantWatcher, Re
 # Windows.System.RemoteSystems.RemoteSystemSessionParticipantWatcher.Removed
 
 ## -description
+Raised when a participant in the session has been removed.
 
 ## -remarks
 

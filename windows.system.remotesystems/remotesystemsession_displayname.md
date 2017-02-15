@@ -10,6 +10,7 @@ public string DisplayName { get; }
 # Windows.System.RemoteSystems.RemoteSystemSession.DisplayName
 
 ## -description
+Set when? TBD
 
 ## -property-value
 

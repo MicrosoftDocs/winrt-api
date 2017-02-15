@@ -10,6 +10,7 @@ public event TypedEventHandler Disconnected<RemoteSystemSession, RemoteSystemSes
 # Windows.System.RemoteSystems.RemoteSystemSession.Disconnected
 
 ## -description
+Raised when this device has been disconnected from this remote session.
 
 ## -remarks
 

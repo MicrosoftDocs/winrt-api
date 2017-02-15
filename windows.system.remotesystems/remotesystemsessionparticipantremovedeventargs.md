@@ -10,6 +10,8 @@ public class RemoteSystemSessionParticipantRemovedEventArgs
 # Windows.System.RemoteSystems.RemoteSystemSessionParticipantRemovedEventArgs
 
 ## -description
+Describes TBD - like all event arcts
+
 
 ## -remarks
 
