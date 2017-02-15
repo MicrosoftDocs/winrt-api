@@ -82,6 +82,6 @@ This example creates two styles: one for a [TextBlock](../windows.ui.xaml.contro
 
 
 
-[!code-xml[1](../windows.ui.xaml.data/code/StylingTemplatingOverview/csharp/ButtonStages.xaml#Snippet1)]
+[!code-xml[11](../windows.ui.xaml.data/code/StylingTemplatingOverview/csharp/ButtonStages.xaml#Snippet11)]
 
 ## -see-also

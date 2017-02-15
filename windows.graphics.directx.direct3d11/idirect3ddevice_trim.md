@@ -10,7 +10,7 @@ public void Trim()
 # Windows.Graphics.DirectX.Direct3D11.IDirect3DDevice.Trim
 
 ## -description
-Calls [Trim](direct3ddevice_trim.md). Trims any graphics memory allocated by the graphics device on the app's behalf.
+Trims any graphics memory allocated by the graphics device on the app's behalf.
 
 ## -remarks
 

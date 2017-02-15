@@ -24,7 +24,7 @@ Use this method to download and install a new DLC package for the current app.
 
 This operation will not block. The [IAsyncOperationWithProgress](../windows.foundation/iasyncoperationwithprogress_2.md) object returned by this method will complete after the packages are downloaded and installed.
 
-When you call this method, the OS displays a dialog that tells the user that an app package is available to download and install, and asks the user's permission to proceed with the operation. If the user does not grant permission, the [OverallState](storepackageupdateresult_overallstate.md) property of the [StorePackageUpdateResult](storepackageupdateresult.md) return value has the value [Canceled](storepackageupdatestate.md).
+When you call this method, the OS displays a dialog that tells the user that an app package is available to download and install, and asks the user's permission to proceed with the operation. If the user does not grant permission, the [OverallState](storepackageupdateresult_overallstate.md) property of the [StorePackageUpdateResult](storepackageupdateresult.md) return value has the value **Canceled**.
 
 The method that you assign to handle [Progress](../windows.foundation/iasyncoperationwithprogress_2_progress.md) notifications is called one time for each step in the download and installation process for each package in this request. The [Progress](../windows.foundation/iasyncoperationwithprogress_2_progress.md) handler receives a [StorePackageUpdateStatus](storepackageupdatestatus.md) argument that provides info about the package that raised the progress notification.
 
