@@ -10,7 +10,7 @@ public enum TargetedContentInteraction : int
 # Windows.Services.TargetedContent.TargetedContentInteraction
 
 ## -description
-
+Provides information on how content can be used, such as ClickThrough, Accept, PositiveFeedback.
 ## -enum-fields
 ### -field Opportunity:12
 
