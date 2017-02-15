@@ -10,18 +10,21 @@ public IAsyncOperation<bool> ClaimedBarcodeScanner.SetSymbologyAttributesAsync(U
 # Windows.Devices.PointOfService.ClaimedBarcodeScanner.SetSymbologyAttributesAsync
 
 ## -description
+Sets the attributes of the barcode symbology used by the claimed barcode scanner.
 
 ## -parameters
 
 ### -param barcodeSymbology
+The barcode symbology to be used by the barcode scanner.
 
 ### -param attributes
+The barcode symbology attributes to be used by the barcode scanner.
 
 ## -returns
+True if the barcode symbology attributes were successfully set; otherwise, false.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
