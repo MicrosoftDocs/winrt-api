@@ -10,6 +10,7 @@ public InjectedInputMouseInfo.InjectedInputMouseInfo()
 # Windows.UI.Input.Preview.Injection.InjectedInputMouseInfo.InjectedInputMouseInfo
 
 ## -description
+Creates a new [InjectedInputMouseInfo](injectedinputmouseinfo.md) object that is used to specify the mouse input to inject.
 
 ## -parameters
 
