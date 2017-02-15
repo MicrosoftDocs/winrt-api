@@ -10,6 +10,7 @@ namespace Windows.UI.Input.Core
 # Windows.UI.Input.Core
 
 ## -description
+Provides support for processing input on a background thread.
 
 ## -remarks
 

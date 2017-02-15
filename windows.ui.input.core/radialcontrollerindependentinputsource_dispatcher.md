@@ -10,8 +10,10 @@ public CoreDispatcher Dispatcher { get; }
 # Windows.UI.Input.Core.RadialControllerIndependentInputSource.Dispatcher
 
 ## -description
+Gets the event message dispatcher associated with the current view.
 
 ## -property-value
+The event message dispatcher.
 
 ## -remarks
 
