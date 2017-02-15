@@ -10,8 +10,10 @@ public ushort BuzzContinuous { get; }
 # Windows.Devices.Haptics.KnownSimpleHapticsControllerWaveforms.BuzzContinuous
 
 ## -description
+Gets a buzz waveform that is generated continuously without interruption until terminated.
 
 ## -property-value
+An unsigned 16-bit waveform ID.  
 
 ## -remarks
 

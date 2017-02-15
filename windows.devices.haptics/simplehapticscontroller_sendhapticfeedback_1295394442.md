@@ -10,10 +10,12 @@ public void SimpleHapticsController.SendHapticFeedback(SimpleHapticsControllerFe
 # Windows.Devices.Haptics.SimpleHapticsController.SendHapticFeedback
 
 ## -description
+Start haptic feedback by the input device.
 
 ## -parameters
 
 ### -param feedback
+The type of haptic feedback.
 
 ## -remarks
 
