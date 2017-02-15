@@ -10,9 +10,10 @@ public string DisplayName { get; }
 # Windows.System.RemoteSystems.RemoteSystemSession.DisplayName
 
 ## -description
-Set when? TBD
+Gets the public-facing name for this remote session, given by the controller of the session.
 
 ## -property-value
+The display name for this session.
 
 ## -remarks
 

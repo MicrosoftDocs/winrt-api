@@ -18,7 +18,7 @@ Initializes an instance of [**RemoteSystemSessionMessageChannel**](RemoteSystemS
 The [**RemoteSystemSession**](RemoteSystemSession.md) to which this messaging channel will correspond.
 
 ### -param channelName
-The user-defined name of the messaging channel. It should be simple and descriptive, such as TBD
+The user-defined name of the messaging channel. It should be simple and descriptive, such as TBD1
 
 ## -remarks
 

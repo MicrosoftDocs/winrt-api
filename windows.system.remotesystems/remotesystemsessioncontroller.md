@@ -13,7 +13,8 @@ public class RemoteSystemSessionController
 Handles the creation and management of a new remote session for other devices to join.
 
 ## -remarks
-TBD
+Every remote session has one participant that is the session's controller. Only the controller can specify options for the session and remove participants from the session.
+
 
 ## -see-also
 

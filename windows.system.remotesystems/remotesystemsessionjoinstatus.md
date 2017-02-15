@@ -17,10 +17,10 @@ Contains values which describe the result of this device's attempt to join a rem
 The join attempt was successful.
 
 ### -field SessionUnavailable:3
-TBD
+The connection to the remote session was lost.
 
 ### -field SessionLimitsExceeded:1
-TBD
+TBD1
 
 ### -field RejectedByController:4
 The join request was rejected by the device controlling this session.

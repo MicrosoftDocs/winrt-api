@@ -10,7 +10,7 @@ public class RemoteSystemSessionOptions
 # Windows.System.RemoteSystems.RemoteSystemSessionOptions
 
 ## -description
-Represents additional options that a [**RemoteSystemSessionController**](RemoteSystemSessionController.md) instance can specify when attempting to create a remote session. (I think, TBD)
+Contains additional options that a [**RemoteSystemSessionController**](RemoteSystemSessionController.md) instance can specify when attempting to create a remote session.
 
 ## -remarks
 

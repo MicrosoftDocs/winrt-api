@@ -13,7 +13,9 @@ public event TypedEventHandler JoinRequested<RemoteSystemSessionController, Remo
 Raised whenever another device has discovered and requested access to the remote session managed by this [**RemoteSystemSessionController**](RemoteSystemSessionController.md).
 
 ## -remarks
-This event must be handled by a custom method. See [**RemoteSystemSessionJoinRequestedEventArgs**](RemoteSystemSessionJoinRequestedEventArgs.md) for details.
+See the code example below for the full process of handling a join request.
+TBD2
+
 
 ## -see-also
 

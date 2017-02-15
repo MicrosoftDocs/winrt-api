@@ -18,7 +18,6 @@ The canonical string name of the remote session capability.
 ## -remarks
 
 ## -see-also
-TBD
 
 ## -examples
 

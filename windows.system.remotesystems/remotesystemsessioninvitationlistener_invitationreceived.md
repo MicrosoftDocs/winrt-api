@@ -13,6 +13,8 @@ public event TypedEventHandler InvitationReceived<RemoteSystemSessionInvitationL
 Raised when a remote session invitation from another device has been detected.
 
 ## -remarks
+The device receiving an invitation will need to use a [**RemoteSystemSessionInvitationListener**](RemoteSystemSessionInvitationListener.md) to handle it. See the code example below for the full invitation handling workflow:
+TBD2
 
 ## -see-also
 

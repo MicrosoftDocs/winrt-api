@@ -13,7 +13,8 @@ public class RemoteSystemSessionInvitationListener
 Contains the functionality for receiving and responding to invitations to join remote sessions.
 
 ## -remarks
-TBD
+See the code example below for the full invitation handling workflow:
+TBD2
 
 ## -see-also
 

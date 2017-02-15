@@ -13,9 +13,10 @@ public class RemoteSystemSessionInfo
 Contains identifying information about a remote session.
 
 ## -remarks
-Use references of this class to store session information for use by the app.
+A session that has been joined is represented by a [**RemoteSystemSession**](RemoteSystemSession.md) object. A session that is known about but has not been joined is represented by a [**RemoteSystemSessionInfo**](RemoteSystemSessionInfo.md) object.
 
-TBD code example. TBD - this represents a session that you know about but are not yet included in.
+See the code example below for the full process of handling a join request.
+TBD2
 
 ## -see-also
 

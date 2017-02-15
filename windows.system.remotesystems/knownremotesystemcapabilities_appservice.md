@@ -18,7 +18,6 @@ The canonical string name of the app service capability.
 ## -remarks
 
 ## -see-also
-TBD
 
 ## -examples
 
