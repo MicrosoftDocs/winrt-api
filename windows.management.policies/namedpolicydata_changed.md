@@ -10,10 +10,10 @@ public event TypedEventHandler Changed<NamedPolicyData,  object>
 # Windows.Management.Policies.NamedPolicyData.Changed
 
 ## -description
-Occurs when the policy is changed. 
+Occurs when the MDM policy is changed. 
 
 ## -remarks
-To determine any individual policy's state, the developer must requery any policy in the policy area.
+To determine any individual MDM policy's state, the developer must requery any policy in the policy area.
 
 ## -see-also
 

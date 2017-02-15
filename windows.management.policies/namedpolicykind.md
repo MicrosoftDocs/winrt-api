@@ -17,7 +17,7 @@ public enum NamedPolicyKind : int {
 # Windows.Management.Policies.NamedPolicyKind
 
 ## -description
-Possible data types representing the enterprise management policy.
+Possible data types representing the MDM policy value.
 
 ## -enum-fields
 ## -field Invalid:0
