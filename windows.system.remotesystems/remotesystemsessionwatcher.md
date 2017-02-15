@@ -15,7 +15,8 @@ Watches for activity related to the discovery of remote sessions and raises the 
 ## -remarks
 This class is instantiated when the [**RemoteSystemSession.CreateWatcher**](RemoteSystemSession_CreateWatcher_1506431823.md) method is called.
 
-TBD - code for session discovery - put in others classes?
+See the code example below for the full process of discovering and joining a remote session. 
+TBD - other classes should have this same one.
 
 ## -see-also
 

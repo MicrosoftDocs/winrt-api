@@ -13,7 +13,7 @@ public class RemoteSystemSessionJoinResult
 Represents the result of this device's attempt to join a remote session.
 
 ## -remarks
-See the code example below for the full process of joining a remote session. 
+See the code example below for the full process of discovering and joining a remote session. 
 TBD - other classes should have this same one.
 
 ## -see-also
