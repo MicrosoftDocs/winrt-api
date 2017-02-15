@@ -13,7 +13,7 @@ public class ClaimedLineDisplay : IClosable
 Represents a claimed line display device.
 
 ## -remarks
-This object is created when a [LineDisplay.ClaimAsync](linedisplay_claimasync.md) method completes.
+This object is created when the [LineDisplay.ClaimAsync](linedisplay_claimasync.md) method completes.
 
 ## -see-also
 
