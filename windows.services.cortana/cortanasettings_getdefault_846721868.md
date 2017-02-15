@@ -10,8 +10,10 @@ public CortanaSettings CortanaSettings.GetDefault()
 # Windows.Services.Cortana.CortanaSettings.GetDefault
 
 ## -description
+Retrieves the Cortana settings for the current user.
 
 ## -returns
+A CortanaSettings object.
 
 ## -remarks
 

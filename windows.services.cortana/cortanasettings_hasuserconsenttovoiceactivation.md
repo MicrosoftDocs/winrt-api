@@ -10,8 +10,10 @@ public bool HasUserConsentToVoiceActivation { get; }
 # Windows.Services.Cortana.CortanaSettings.HasUserConsentToVoiceActivation
 
 ## -description
+Gets whether the user has consented to voice activation.
 
 ## -property-value
+**true** if the user has consented. Otherwise, **false**.
 
 ## -remarks
 

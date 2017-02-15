@@ -10,7 +10,7 @@ public class TargetedContentItemState
 # Windows.Services.TargetedContent.TargetedContentItemState
 
 ## -description
-
+Represents the state of a content item.
 ## -remarks
 
 ## -see-also

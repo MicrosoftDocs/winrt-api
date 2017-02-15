@@ -10,7 +10,7 @@ public Windows.UI.Input.Inking.InkStroke CreateStrokeFromInkPoints(Windows.Found
 # Windows.UI.Input.Inking.InkStrokeBuilder.CreateStrokeFromInkPoints
 
 ## -description
-Creates a stroke from collection of [InkPoint](inkpoint.md) objects.
+Creates a basic ink stroke from collection of [InkPoint](inkpoint.md) objects.
 
 > [!NOTE]
 > Use [CreateStrokeFromInkPoints](inkstrokebuilder_createstrokefrominkpoints.md) and [SetDefaultDrawingAttributes](inkstrokebuilder_setdefaultdrawingattributes.md) to programmatically build strokes for an [InkPresenter](inkpresenter.md).
@@ -30,4 +30,8 @@ The ink stroke, including the Bézier curve parameters used for final rendering 
 ## -examples
 
 ## -see-also
-[Pen and stylus interactions](http://msdn.microsoft.com/library/3da4f2d2-5405-42a1-9ed9-3a87bcd84c43), [Ink sample](http://go.microsoft.com/fwlink/p/?LinkID=620308), [Simple ink sample](http://go.microsoft.com/fwlink/p/?LinkID=620312), [Complex ink sample](http://go.microsoft.com/fwlink/p/?LinkID=620314)
+- [CreateStrokeFromInkPoints(CreateStrokeFromInkPoints(IIterable<InkPoint> inkPoints, Matrix3x2 transform, IReference<DateTime> strokeStartedTime, IReference<TimeSpan> strokeDuration)](inkstrokebuilder_createstrokefrominkpoints_2009821049.md)
+- [Pen and stylus interactions](http://msdn.microsoft.com/library/3da4f2d2-5405-42a1-9ed9-3a87bcd84c43)
+- [Ink sample](http://go.microsoft.com/fwlink/p/?LinkID=620308)
+- [Simple ink sample](http://go.microsoft.com/fwlink/p/?LinkID=620312)
+- [Complex ink sample](http://go.microsoft.com/fwlink/p/?LinkID=620314)

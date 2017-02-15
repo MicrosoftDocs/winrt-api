@@ -10,8 +10,10 @@ public bool IsVoiceActivationEnabled { get;  set; }
 # Windows.Services.Cortana.CortanaSettings.IsVoiceActivationEnabled
 
 ## -description
+Gets or sets whether voice activation is enabled.
 
 ## -property-value
+**true** if voice activation is enabled. Otherwise, **false**.
 
 ## -remarks
 

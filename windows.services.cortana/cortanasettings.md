@@ -10,6 +10,7 @@ public class CortanaSettings
 # Windows.Services.Cortana.CortanaSettings
 
 ## -description
+Provides access to Cortana settings.
 
 ## -remarks
 

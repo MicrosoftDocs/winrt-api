@@ -10,16 +10,20 @@ public IAsyncOperation<CortanaPermissionsChangeResult> CortanaPermissionsManager
 # Windows.Services.Cortana.CortanaPermissionsManager.RevokePermissionsAsync
 
 ## -description
+Asynchronously revokes the specified set of Cortana permissions.
 
 ## -parameters
 
 ### -param permissions
+The collection of [permissions](cortanapermission.md) to revoke.
 
 ## -returns
+The result of the permission operation.
 
 ## -remarks
 
 ## -see-also
+[CortanaPermission](cortanapermission.md)
 
 ## -examples
 
