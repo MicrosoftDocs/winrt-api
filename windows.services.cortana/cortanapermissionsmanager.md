@@ -10,6 +10,7 @@ public class CortanaPermissionsManager
 # Windows.Services.Cortana.CortanaPermissionsManager
 
 ## -description
+Provides access to the users Cortana authorization settings.
 
 ## -remarks
 
