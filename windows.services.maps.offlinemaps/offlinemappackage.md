@@ -20,7 +20,10 @@ You can then access that data in system controls such as the [MapControl](../win
 ## -see-also
 
 ## -examples
-The following example finds a map package by using a geographical location. If the map package has not been previously downloaded to the local system, this code asynchronously downloads that map.
+The following example finds a map packages by using a geographical location. If the map package has not been previously downloaded to the local system, this code asynchronously downloads that map.
+
+> [!NOTE]
+> The points near a border or large boxes and circles might return multiple map package matches.
 
 ```csharp
 
