@@ -11,7 +11,11 @@ public ContactPanel ContactPanel { get; }
 
 ## -description
 
+Gets the contact panel. 
+
 ## -property-value
+
+The contact panel. 
 
 ## -remarks
 

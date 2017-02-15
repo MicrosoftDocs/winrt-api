@@ -10,6 +10,7 @@ public class InkWorkspaceHostedAppManager
 # Windows.ApplicationModel.Preview.InkWorkspace.InkWorkspaceHostedAppManager
 
 ## -description
+Represents the manager for apps hosted in the Windws Ink Workspace.
 
 ## -remarks
 
