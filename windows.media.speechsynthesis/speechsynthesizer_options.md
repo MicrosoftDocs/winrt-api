@@ -10,8 +10,10 @@ public SpeechSynthesizerOptions Options { get; }
 # Windows.Media.SpeechSynthesis.SpeechSynthesizer.Options
 
 ## -description
+Gets a reference to the collection of options that can be set on the SpeechSynthesizer object.
 
 ## -property-value
+The speech synthesizer options.
 
 ## -remarks
 
