@@ -10,8 +10,10 @@ public uint SecurityLevel { get; }
 # Windows.Media.Protection.PlayReady.PlayReadyLicense.SecurityLevel
 
 ## -description
+Gets a value that indicates the security level of the license.
 
 ## -property-value
+A value that indicates the security level of the license.
 
 ## -remarks
 

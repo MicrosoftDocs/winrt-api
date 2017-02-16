@@ -10,6 +10,7 @@ public class SoundLevelBroker
 # Windows.Media.Core.Preview.SoundLevelBroker
 
 ## -description
+Provides information about how the app's current sound level is affected by system policy.
 
 ## -remarks
 

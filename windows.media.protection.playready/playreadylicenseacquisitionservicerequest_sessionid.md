@@ -10,8 +10,10 @@ public Guid SessionId { get; }
 # Windows.Media.Protection.PlayReady.PlayReadyLicenseAcquisitionServiceRequest.SessionId
 
 ## -description
+Gets a unique identifier for the PlayReady license acquisition operation.
 
 ## -property-value
+A unique identifier for the PlayReady license acquisition operation.
 
 ## -remarks
 
