@@ -16,7 +16,7 @@ Gets the user's data for the MDM user policy.
 [Windows.System.User](../windows.system/user.md) associated with the user policy.
 
 ## -remarks
-This is only valid for user policies.
+This is only valid for user MDM policies.
 
 ## -see-also
 

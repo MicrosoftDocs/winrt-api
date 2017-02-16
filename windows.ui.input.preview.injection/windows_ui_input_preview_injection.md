@@ -6,7 +6,7 @@
 # Windows.UI.Input.Preview.Injection
 
 ## -description
-Provides support for programmatically generating and automating input from a variety of devices.
+Provides support for programmatically generating and automating input from a variety of devices such as keyboard, mouse, touch, and pen.
 
 ## -remarks
 

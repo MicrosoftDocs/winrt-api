@@ -17,8 +17,7 @@ Attempts to select and activate a tool from the collection of built-in [RadialCo
 The built-in tool to select and activate.
 
 ## -returns
-**
-      true** if the tool can be selected; otherwise **false**.
+**true** if the tool can be selected; otherwise **false**.
 
 ## -remarks
 

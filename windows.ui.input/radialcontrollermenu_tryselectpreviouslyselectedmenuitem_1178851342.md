@@ -15,8 +15,7 @@ Attempts to select and activate the previously selected tool from the [RadialCon
 This method does not differentiate between built-in and custom tools.
 
 ## -returns
-**
-      true** if the previously selected tool can be selected and activated; otherwise **false**.
+**true** if the previously selected tool can be selected and activated; otherwise **false**.
 
 ## -remarks
 
