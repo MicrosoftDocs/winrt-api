@@ -10,7 +10,7 @@ public TargetedContentFile File { get; }
 # Windows.Services.TargetedContent.TargetedContentValue.File
 
 ## -description
-
+Gets a TargetedContentFile object in a TargetedContentValue object.
 ## -property-value
 
 ## -remarks
