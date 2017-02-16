@@ -10,7 +10,7 @@ public double Number { get; }
 # Windows.Services.TargetedContent.TargetedContentValue.Number
 
 ## -description
-
+Gets a double in a TargetedContentValue object.
 ## -property-value
 
 ## -remarks
