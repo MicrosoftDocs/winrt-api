@@ -10,7 +10,7 @@ public IVectorView<double> Numbers { get; }
 # Windows.Services.TargetedContent.TargetedContentValue.Numbers
 
 ## -description
-
+Gets an array of doubles in a TargetedContentValue object.
 ## -property-value
 
 ## -remarks
