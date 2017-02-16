@@ -10,7 +10,7 @@ public TargetedContentImage ImageFile { get; }
 # Windows.Services.TargetedContent.TargetedContentValue.ImageFile
 
 ## -description
-
+Gets a TargetedContentImage object in a TargetedContentValue object.
 ## -property-value
 
 ## -remarks
