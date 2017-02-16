@@ -10,8 +10,10 @@ public SimpleHapticsController SimpleHapticsController { get; }
 # Windows.UI.Input.RadialControllerScreenContactStartedEventArgs.SimpleHapticsController
 
 ## -description
+Gets a reference to the [SimpleHapticsController](../windows.devices.haptics/simplehapticscontroller.md) object associated with the [RadialController](radialcontroller.md).
 
 ## -property-value
+The [SimpleHapticsController](../windows.devices.haptics/simplehapticscontroller.md) object associated with the [RadialController](radialcontroller.md).
 
 ## -remarks
 

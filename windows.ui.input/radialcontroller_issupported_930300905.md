@@ -13,8 +13,7 @@ public bool IsSupported()
 Retrieves a value that indicates whether wheel devices are supported by the system.
 
 ## -returns
-**
-      true** if wheel devices are supported by the system; otherwise **false**.
+**true** if wheel devices are supported by the system; otherwise **false**.
 
 ## -remarks
 
