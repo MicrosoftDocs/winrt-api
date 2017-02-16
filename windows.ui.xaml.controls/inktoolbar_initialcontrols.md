@@ -54,11 +54,11 @@ XAML
 
 [!code-xml[UI_CB](../windows.ui.input.inking/code/Ink_Basic_InkToolbar/csharp/MainPage_CodeBehind.xaml#SnippetUI_CB)]
 
-[!code-cs[InkToolbarMainPageCB](../windows.ui.input.inking/code/Ink_Basic_InkToolbar/csharp/MainPage_CodeBehind.xaml.cs#SnippetInkToolbarMainPageCB)]
+[!code-csharp[InkToolbarMainPageCB](../windows.ui.input.inking/code/Ink_Basic_InkToolbar/csharp/MainPage_CodeBehind.xaml.cs#SnippetInkToolbarMainPageCB)]
 
-[!code-cs[InkToolbarLoadingCB](../windows.ui.input.inking/code/Ink_Basic_InkToolbar/csharp/MainPage_CodeBehind.xaml.cs#SnippetInkToolbarLoadingCB)]
+[!code-csharp[InkToolbarLoadingCB](../windows.ui.input.inking/code/Ink_Basic_InkToolbar/csharp/MainPage_CodeBehind.xaml.cs#SnippetInkToolbarLoadingCB)]
 
-[!code-cs[InkToolbarLoadedCB](../windows.ui.input.inking/code/Ink_Basic_InkToolbar/csharp/MainPage_CodeBehind.xaml.cs#SnippetInkToolbarLoadedCB)]
+[!code-csharp[InkToolbarLoadedCB](../windows.ui.input.inking/code/Ink_Basic_InkToolbar/csharp/MainPage_CodeBehind.xaml.cs#SnippetInkToolbarLoadedCB)]
 
 ## -see-also
 [InitialControlsProperty](inktoolbar_initialcontrolsproperty.md)

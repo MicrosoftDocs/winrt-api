@@ -1,3 +1,30 @@
-----api-id: M:Windows.Devices.Bluetooth.BluetoothDevice.FromIdAsync(System.String)
+---
+-api-id: M:Windows.Devices.Bluetooth.BluetoothDevice.FromIdAsync(System.String)
 -api-type: winrt method
----<!-- Method syntaxpublic Windows.Foundation.IAsyncOperation<Windows.Devices.Bluetooth.BluetoothDevice> FromIdAsync(System.String deviceId)--># Windows.Devices.Bluetooth.BluetoothDevice.FromIdAsync## -descriptionReturns a [BluetoothDevice](bluetoothdevice.md) object identified by the given [DeviceId](bluetoothledevice_deviceid.md).## -parameters### -param deviceIdThe DeviceId value that identifies the BluetoothDevice instance.## -returnsAfter the asynchronous operation completes, returns the [BluetoothDevice](bluetoothdevice.md) object identified by the given [DeviceId](bluetoothledevice_deviceid.md).## -remarks## -examples## -see-also## -capabilitiesbluetooth
+---
+
+<!-- Method syntax
+public Windows.Foundation.IAsyncOperation<Windows.Devices.Bluetooth.BluetoothDevice> FromIdAsync(System.String deviceId)
+-->
+
+# Windows.Devices.Bluetooth.BluetoothDevice.FromIdAsync
+
+## -description
+Returns a [BluetoothDevice](bluetoothdevice.md) object identified by the given [DeviceId](bluetoothledevice_deviceid.md).
+
+## -parameters
+### -param deviceId
+The DeviceId value that identifies the BluetoothDevice instance.
+
+## -returns
+After the asynchronous operation completes, returns the [BluetoothDevice](bluetoothdevice.md) object identified by the given [DeviceId](bluetoothledevice_deviceid.md).
+
+## -remarks
+
+## -examples
+
+## -see-also
+
+
+## -capabilities
+bluetooth

@@ -58,4 +58,12 @@ You can also apply setters to attached property values, by specifying the attach
 
 
 ## -see-also
-vas.Left](../windows.ui.xaml.controls/canvas_left.md), use This XAML.```xaml<Setter Property="Canvas.Left" Value="100"/>```## -see-also
+vas.Left](../windows.ui.xaml.controls/canvas_left.md), use This XAML.
+
+```xaml
+<Setter Property="Canvas.Left" Value="100"/>
+```
+
+
+
+## -see-also

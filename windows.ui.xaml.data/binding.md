@@ -66,7 +66,9 @@ The following example code demonstrates how to create a binding in code.
 
 
 
-[!code-cs[BindingObject](../windows.ui.xaml/code/BindingInCode/csharp/Page.xaml.cs#SnippetBindingObject)][!code-vb[BindingObject](../windows.ui.xaml/code/BindingInCode/vbnet/BlankPage.xaml.vb#SnippetBindingObject)]
+[!code-csharp[BindingObject](../windows.ui.xaml/code/BindingInCode/csharp/Page.xaml.cs#SnippetBindingObject)]
+
+[!code-vb[BindingObject](../windows.ui.xaml/code/BindingInCode/vbnet/BlankPage.xaml.vb#SnippetBindingObject)]
 
 ## -see-also
 [XAML data binding sample](http://go.microsoft.com/fwlink/p/?linkid=226854), [Data binding in depth](http://msdn.microsoft.com/library/41e1b4f1-6caf-4128-a61a-4e400b149011), [Dependency properties overview](http://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e), [Property-path syntax](http://msdn.microsoft.com/library/ff3ecf47-d81f-46e3-be01-c839e0398025), [BindingOperations.SetBinding](bindingoperations_setbinding.md)

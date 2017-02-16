@@ -1,3 +1,22 @@
-----api-id: P:Windows.Media.Import.PhotoImportFindItemsResult.SelectedSidecarsCount
+---
+-api-id: P:Windows.Media.Import.PhotoImportFindItemsResult.SelectedSidecarsCount
 -api-type: winrt property
----<!-- Property syntaxpublic uint SelectedSidecarsCount { get; }--># Windows.Media.Import.PhotoImportFindItemsResult.SelectedSidecarsCount## -descriptionGets the number of sidecar files that are currently selected to be included in the [ImportItemsAsync](photoimportfinditemsresult_importitemsasync.md) operation.## -property-valueThe number of sidecar files that are currently selected.## -remarks## -examples## -see-also
+---
+
+<!-- Property syntax
+public uint SelectedSidecarsCount { get; }
+-->
+
+# Windows.Media.Import.PhotoImportFindItemsResult.SelectedSidecarsCount
+
+## -description
+Gets the number of sidecar files that are currently selected to be included in the [ImportItemsAsync](photoimportfinditemsresult_importitemsasync.md) operation.
+
+## -property-value
+The number of sidecar files that are currently selected.
+
+## -remarks
+
+## -examples
+
+## -see-also

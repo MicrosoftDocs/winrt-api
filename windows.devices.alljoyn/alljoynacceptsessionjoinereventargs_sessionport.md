@@ -1,3 +1,26 @@
-----api-id: P:Windows.Devices.AllJoyn.AllJoynAcceptSessionJoinerEventArgs.SessionPort
+---
+-api-id: P:Windows.Devices.AllJoyn.AllJoynAcceptSessionJoinerEventArgs.SessionPort
 -api-type: winrt property
----<!-- Property syntaxpublic ushort SessionPort { get; }--># Windows.Devices.AllJoyn.AllJoynAcceptSessionJoinerEventArgs.SessionPort## -descriptionThe session port being used to connect to the session.## -property-valueThe session port number.## -remarks## -examples## -see-also## -capabilitiesallJoyn
+---
+
+<!-- Property syntax
+public ushort SessionPort { get; }
+-->
+
+# Windows.Devices.AllJoyn.AllJoynAcceptSessionJoinerEventArgs.SessionPort
+
+## -description
+The session port being used to connect to the session.
+
+## -property-value
+The session port number.
+
+## -remarks
+
+## -examples
+
+## -see-also
+
+
+## -capabilities
+allJoyn

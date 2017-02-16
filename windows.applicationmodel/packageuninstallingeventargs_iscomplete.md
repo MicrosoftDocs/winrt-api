@@ -1,3 +1,22 @@
-----api-id: P:Windows.ApplicationModel.PackageUninstallingEventArgs.IsComplete
+---
+-api-id: P:Windows.ApplicationModel.PackageUninstallingEventArgs.IsComplete
 -api-type: winrt property
----<!-- Property syntaxpublic bool IsComplete { get; }--># Windows.ApplicationModel.PackageUninstallingEventArgs.IsComplete## -descriptionIndicates whether the appx package is done uninstalling.## -property-value**True** indicates that the appx package is done uninstalling; **false**, otherwise.## -remarks## -examples## -see-also
+---
+
+<!-- Property syntax
+public bool IsComplete { get; }
+-->
+
+# Windows.ApplicationModel.PackageUninstallingEventArgs.IsComplete
+
+## -description
+Indicates whether the appx package is done uninstalling.
+
+## -property-value
+**True** indicates that the appx package is done uninstalling; **false**, otherwise.
+
+## -remarks
+
+## -examples
+
+## -see-also

@@ -1,3 +1,22 @@
-----api-id: P:Windows.Devices.PointOfService.BarcodeSymbologies.UsPlanet
+---
+-api-id: P:Windows.Devices.PointOfService.BarcodeSymbologies.UsPlanet
 -api-type: winrt property
----<!-- Property syntaxpublic uint UsPlanet { get; }--># Windows.Devices.PointOfService.BarcodeSymbologies.UsPlanet## -descriptionGets the United States Postal Service PLANET barcode symbology.## -property-valueThe United States Postal Service PLANET barcode symbology.## -remarks## -examples## -see-also
+---
+
+<!-- Property syntax
+public uint UsPlanet { get; }
+-->
+
+# Windows.Devices.PointOfService.BarcodeSymbologies.UsPlanet
+
+## -description
+Gets the United States Postal Service PLANET barcode symbology.
+
+## -property-value
+The United States Postal Service PLANET barcode symbology.
+
+## -remarks
+
+## -examples
+
+## -see-also

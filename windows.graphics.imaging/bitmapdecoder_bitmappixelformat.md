@@ -1,3 +1,23 @@
-----api-id: P:Windows.Graphics.Imaging.BitmapDecoder.BitmapPixelFormat
+---
+-api-id: P:Windows.Graphics.Imaging.BitmapDecoder.BitmapPixelFormat
 -api-type: winrt property
----<!-- Property syntaxpublic Windows.Graphics.Imaging.BitmapPixelFormat BitmapPixelFormat { get; }--># Windows.Graphics.Imaging.BitmapDecoder.BitmapPixelFormat## -descriptionThe pixel format that best fits the first frame.## -property-valueThe pixel format that best fits the first frame.## -remarksThis is the pixel format used when calling the [GetPixelDataAsync](bitmapdecoder_getpixeldataasync_1391309547.md) method.## -examples## -see-also
+---
+
+<!-- Property syntax
+public Windows.Graphics.Imaging.BitmapPixelFormat BitmapPixelFormat { get; }
+-->
+
+# Windows.Graphics.Imaging.BitmapDecoder.BitmapPixelFormat
+
+## -description
+The pixel format that best fits the first frame.
+
+## -property-value
+The pixel format that best fits the first frame.
+
+## -remarks
+This is the pixel format used when calling the [GetPixelDataAsync](bitmapdecoder_getpixeldataasync_1391309547.md) method.
+
+## -examples
+
+## -see-also

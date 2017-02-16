@@ -20,7 +20,9 @@ When the method completes, it returns a [ClaimedMagneticStripeReader](claimedmag
 ## -examples
 
 
-[!code-cpp[ClaimMagStripeReader](../windows.devices.pointofservice/code/MagneticStripeReader/cpp/Scenario1.xaml.cpp#SnippetClaimMagStripeReader)][!code-cs[ClaimMagStripeReader](../windows.devices.pointofservice/code/MagneticStripeReader/cs/Scenario1.xaml.cs#SnippetClaimMagStripeReader)]
+[!code-cpp[ClaimMagStripeReader](../windows.devices.pointofservice/code/MagneticStripeReader/cpp/Scenario1.xaml.cpp#SnippetClaimMagStripeReader)]
+
+[!code-csharp[ClaimMagStripeReader](../windows.devices.pointofservice/code/MagneticStripeReader/cs/Scenario1.xaml.cs#SnippetClaimMagStripeReader)]
 
 [!code-js[CreateMagStripeReaderJS](../windows.devices.pointofservice/code/MagneticStripeReader/js/scenario1.js#SnippetCreateMagStripeReaderJS)]
 

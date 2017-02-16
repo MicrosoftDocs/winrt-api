@@ -37,7 +37,7 @@ Use the [ResourceLoader.GetString | getString](resourceloader_getstring.md) meth
 
 [!code-js[ResourceLoaderJS](../windows.applicationmodel.resources/code/ResourceGlobalization/js/ResourceGlobalizationJS/js/default.js#SnippetResourceLoaderJS)]
 
-[!code-cs[ResourceLoaderCS](../windows.applicationmodel.resources/code/ResourceGlobalization/cs/ResourceGlobalizationCS/MainPage.xaml.cs#SnippetResourceLoaderCS)]
+[!code-csharp[ResourceLoaderCS](../windows.applicationmodel.resources/code/ResourceGlobalization/cs/ResourceGlobalizationCS/MainPage.xaml.cs#SnippetResourceLoaderCS)]
 
 [!code-vb[ResourceLoaderVB](../windows.applicationmodel.resources/code/ResourceGlobalization/vb/ResourceGlobalizationVB/MainPage.xaml.vb#SnippetResourceLoaderVB)]
 

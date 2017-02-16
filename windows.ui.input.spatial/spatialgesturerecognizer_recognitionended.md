@@ -1,3 +1,27 @@
-----api-id: E:Windows.UI.Input.Spatial.SpatialGestureRecognizer.RecognitionEnded
+---
+-api-id: E:Windows.UI.Input.Spatial.SpatialGestureRecognizer.RecognitionEnded
 -api-type: winrt event
----<!-- Event syntaxpublic event Windows.Foundation.TypedEventHandler RecognitionEnded<Windows.UI.Input.Spatial.SpatialGestureRecognizer,  Windows.UI.Input.Spatial.SpatialRecognitionEndedEventArgs>--># Windows.UI.Input.Spatial.SpatialGestureRecognizer.RecognitionEnded## -descriptionOccurs when recognition of gestures is done, either due to completion of a gesture or cancellation. This is the last event to fire.For hand interactions, this event fires on finger release.For voice interactions, this event fires after a system voice command like "Select" has been processed.For controllers, this event fires when the primary button is released.This also fires if the relevant interaction source is lost during recognition.## -remarks## -examples## -see-also
+---
+
+<!-- Event syntax
+public event Windows.Foundation.TypedEventHandler RecognitionEnded<Windows.UI.Input.Spatial.SpatialGestureRecognizer,  Windows.UI.Input.Spatial.SpatialRecognitionEndedEventArgs>
+-->
+
+# Windows.UI.Input.Spatial.SpatialGestureRecognizer.RecognitionEnded
+
+## -description
+Occurs when recognition of gestures is done, either due to completion of a gesture or cancellation. This is the last event to fire.
+
+For hand interactions, this event fires on finger release.
+
+For voice interactions, this event fires after a system voice command like "Select" has been processed.
+
+For controllers, this event fires when the primary button is released.
+
+This also fires if the relevant interaction source is lost during recognition.
+
+## -remarks
+
+## -examples
+
+## -see-also

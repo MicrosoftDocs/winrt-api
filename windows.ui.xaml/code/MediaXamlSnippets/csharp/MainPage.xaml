@@ -1,0 +1,62 @@
+﻿<Page
+    x:Class="MediaXamlSnippets.MainPage"
+    IsTabStop="false"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MediaXamlSnippets"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackPanel Background="{StaticResource ApplicationPageBackgroundThemeBrush}" >
+        <StackPanel Orientation="Horizontal">
+
+
+            <MediaElement Name="media" 
+                          Source="Media/SampleVideo.mp4" 
+                          Height="400"
+                          MediaOpened="media_MediaOpened"/>
+
+            <!-- <SnippetMediaElementXaml>-->
+            <MediaElement x:Name="mediaControl" Height="400" />
+            <!-- </SnippetMediaElementXaml>-->
+
+
+            <!-- <SnippetCaptureElementInXaml>-->
+            <CaptureElement Name="capturePreview" Height="400" />
+            <!-- </SnippetCaptureElementInXaml>-->
+
+            <!-- <SnippetMediaRealTimePlayback>-->
+            <MediaElement RealTimePlayback="True" />
+            <!-- </SnippetMediaRealTimePlayback>-->
+
+        </StackPanel>
+
+        <Button Name="btnStart" Click="btnStart_Click_1" Content="Start" Width="100" />
+        <Button Name="btnStop" Click="btnStop_Click_1" Content="Stop" Width="100"/>
+        <Button Name="btnAudio" Click="ChangeAudio" Content="Switch Audio" Width="100" />
+        <Button Name="btnRealTime" Click="btnRealTime_Click_1" Content="RealTime" Width="100" />
+        <Button Name="btCapture" Click="btCapture_Click_1" Content="StartCapture" Width="400" />
+        <Button Name="btnCaptureRotate" Click="btnCaptureRotate_Click" Content="Capture Rotate" Width="400"/>
+        <Button Name="btnRotate" Click="btnRotate_Click_1" Content="Rotate" Width="400" />
+        <Button Name="btnAddEffect" Click="btnAddEffect_Click_1" Content="AddEffect" Width="400" />
+        <Button Name="btnCapturePreview" Click="btnCapturePreview_Click_1" Content="CapturePreview" Width="400" />
+        <TextBlock Name="txtDisplay" Text="Output: " />
+        <Button Name="btnPlayBackFilePicker" Click="btnPlayBackFilePicker_Click_1" Content="Playback" Width="400" />
+
+        <!--<StackPanel Name="StackFoo">
+            <TextBlock Name="t2" />
+            <Button Name="f1" />
+            <Button Name="f2" />
+            <Button Name="f3" />
+            <TextBlock Name="t1" />
+        </StackPanel>
+        -->
+
+        <!-- <SnippetTimelineMarkerXAML>-->
+        <MediaElement Name="Media" Source="video.mp4" MarkerReached="Media_MarkerReached" />
+        <TextBlock Name="txOutput" />
+        <!-- </SnippetTimelineMarkerXAML>-->
+
+    </StackPanel>
+</Page>

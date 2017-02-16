@@ -1,3 +1,22 @@
-----api-id: P:Windows.Devices.Bluetooth.GenericAttributeProfile.GattPresentationFormatTypes.SFloat
+---
+-api-id: P:Windows.Devices.Bluetooth.GenericAttributeProfile.GattPresentationFormatTypes.SFloat
 -api-type: winrt property
----<!-- Property syntaxpublic byte SFloat { get; }--># Windows.Devices.Bluetooth.GenericAttributeProfile.GattPresentationFormatTypes.SFloat## -descriptionGets the value of the SFloat Format Type.## -property-valueThe value of the SFloat Format Type.## -remarks## -examples## -see-also
+---
+
+<!-- Property syntax
+public byte SFloat { get; }
+-->
+
+# Windows.Devices.Bluetooth.GenericAttributeProfile.GattPresentationFormatTypes.SFloat
+
+## -description
+Gets the value of the SFloat Format Type.
+
+## -property-value
+The value of the SFloat Format Type.
+
+## -remarks
+
+## -examples
+
+## -see-also

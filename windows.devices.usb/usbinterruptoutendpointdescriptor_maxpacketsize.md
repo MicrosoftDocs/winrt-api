@@ -1,3 +1,23 @@
-----api-id: P:Windows.Devices.Usb.UsbInterruptOutEndpointDescriptor.MaxPacketSize
+---
+-api-id: P:Windows.Devices.Usb.UsbInterruptOutEndpointDescriptor.MaxPacketSize
 -api-type: winrt property
----<!-- Property syntaxpublic uint MaxPacketSize { get; }--># Windows.Devices.Usb.UsbInterruptOutEndpointDescriptor.MaxPacketSize## -descriptionGets the maximum number of bytes that can be sent to or received from this endpoint.## -property-valueIndicates the maximum packet size of the endpoint. This value is the **wMaxPacketSize** field value of the endpoint descriptor. For information, see Table 9-13 in the Universal Serial Bus Specification (version 2.0) or Table 9-18 in the Universal Serial Bus 3.0 Specification.## -remarksThe [MaxPacketSize](usbinterruptoutendpointdescriptor_maxpacketsize.md) property value does not necessarily indicate the number of bytes that will be written at a time, in one interval.## -examples## -see-also
+---
+
+<!-- Property syntax
+public uint MaxPacketSize { get; }
+-->
+
+# Windows.Devices.Usb.UsbInterruptOutEndpointDescriptor.MaxPacketSize
+
+## -description
+Gets the maximum number of bytes that can be sent to or received from this endpoint.
+
+## -property-value
+Indicates the maximum packet size of the endpoint. This value is the **wMaxPacketSize** field value of the endpoint descriptor. For information, see Table 9-13 in the Universal Serial Bus Specification (version 2.0) or Table 9-18 in the Universal Serial Bus 3.0 Specification.
+
+## -remarks
+The [MaxPacketSize](usbinterruptoutendpointdescriptor_maxpacketsize.md) property value does not necessarily indicate the number of bytes that will be written at a time, in one interval.
+
+## -examples
+
+## -see-also

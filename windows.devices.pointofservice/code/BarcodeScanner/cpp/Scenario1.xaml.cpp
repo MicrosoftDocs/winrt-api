@@ -141,7 +141,7 @@ void Scenario1::ScenarioStartScanButton_Click(Platform::Object^ sender, Windows:
 }
 //</SnippetSetupBarcodeScanner>
 
-/
+
 
 /// <summary>
 /// Event handler for the Release Device Requested event fired when barcode scanner receives Claim request from another application

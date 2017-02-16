@@ -1,3 +1,23 @@
-----api-id: P:Windows.Devices.SmartCards.SmartCardAutomaticResponseApdu.OutputState
+---
+-api-id: P:Windows.Devices.SmartCards.SmartCardAutomaticResponseApdu.OutputState
 -api-type: winrt property
----<!-- Property syntaxpublic Windows.Foundation.IReference<uint> OutputState { get;  set; }--># Windows.Devices.SmartCards.SmartCardAutomaticResponseApdu.OutputState## -descriptionGets and puts the output state.## -property-valueThe output state.## -remarks## -examples## -see-also[Create an NFC Smart Card app](http://msdn.microsoft.com/library/26834a51-512b-485b-84c8-abf713787588)
+---
+
+<!-- Property syntax
+public Windows.Foundation.IReference<uint> OutputState { get;  set; }
+-->
+
+# Windows.Devices.SmartCards.SmartCardAutomaticResponseApdu.OutputState
+
+## -description
+Gets and puts the output state.
+
+## -property-value
+The output state.
+
+## -remarks
+
+## -examples
+
+## -see-also
+[Create an NFC Smart Card app](http://msdn.microsoft.com/library/26834a51-512b-485b-84c8-abf713787588)

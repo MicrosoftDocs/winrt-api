@@ -9,7 +9,7 @@ public PackageContentGroupState State { get; }
 
 # Windows.ApplicationModel.PackageContentGroup.State
 
-## -desc
+## -description
 Gets the state of the package content group.
 
 ## -property-value

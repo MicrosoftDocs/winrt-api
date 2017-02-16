@@ -10,12 +10,12 @@ public bool NamedPolicyData.GetBoolean()
 # Windows.Management.Policies.NamedPolicyData.GetBoolean
 
 ## -description
-Gets the boolean representation of the policy.
+Gets the boolean representation of the MDM policy value.
 
 ## -params
 
 ## -returns
-The boolean value of the policy.
+The boolean value of the MDM policy.
 
 ## -remarks
 

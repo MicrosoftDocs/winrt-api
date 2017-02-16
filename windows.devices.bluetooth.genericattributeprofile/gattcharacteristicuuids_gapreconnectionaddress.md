@@ -1,3 +1,22 @@
-----api-id: P:Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.GapReconnectionAddress
+---
+-api-id: P:Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.GapReconnectionAddress
 -api-type: winrt property
----<!-- Property syntaxpublic System.Guid GapReconnectionAddress { get; }--># Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.GapReconnectionAddress## -descriptionGets the Bluetooth SIG-defined GapReconnectionAddress characteristic UUID.## -property-valueThe Bluetooth SIG-defined GapReconnectionAddress characteristic UUID.## -remarks## -examples## -see-also
+---
+
+<!-- Property syntax
+public System.Guid GapReconnectionAddress { get; }
+-->
+
+# Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.GapReconnectionAddress
+
+## -description
+Gets the Bluetooth SIG-defined GapReconnectionAddress characteristic UUID.
+
+## -property-value
+The Bluetooth SIG-defined GapReconnectionAddress characteristic UUID.
+
+## -remarks
+
+## -examples
+
+## -see-also

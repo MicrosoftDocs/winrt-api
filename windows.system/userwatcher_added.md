@@ -1,3 +1,19 @@
-----api-id: E:Windows.System.UserWatcher.Added
+---
+-api-id: E:Windows.System.UserWatcher.Added
 -api-type: winrt event
----<!-- Event syntaxpublic event Windows.Foundation.TypedEventHandler Added<Windows.System.UserWatcher,  Windows.System.UserChangedEventArgs>--># Windows.System.UserWatcher.Added## -descriptionFires when a user is added to the collection of users returned by [User.FindAllAsync](user_findallasync.md).## -remarks## -examples## -see-also
+---
+
+<!-- Event syntax
+public event Windows.Foundation.TypedEventHandler Added<Windows.System.UserWatcher,  Windows.System.UserChangedEventArgs>
+-->
+
+# Windows.System.UserWatcher.Added
+
+## -description
+Fires when a user is added to the collection of users returned by [User.FindAllAsync](user_findallasync.md).
+
+## -remarks
+
+## -examples
+
+## -see-also

@@ -1,3 +1,22 @@
-----api-id: P:Windows.ApplicationModel.Contacts.ContactManager.SystemDisplayNameOrder
+---
+-api-id: P:Windows.ApplicationModel.Contacts.ContactManager.SystemDisplayNameOrder
 -api-type: winrt property
----<!-- Property syntaxpublic Windows.ApplicationModel.Contacts.ContactNameOrder SystemDisplayNameOrder { get;  set; }--># Windows.ApplicationModel.Contacts.ContactManager.SystemDisplayNameOrder## -descriptionGets or puts the display name order.## -property-valueSpecifies the display name order.## -remarks## -examples## -see-also
+---
+
+<!-- Property syntax
+public Windows.ApplicationModel.Contacts.ContactNameOrder SystemDisplayNameOrder { get;  set; }
+-->
+
+# Windows.ApplicationModel.Contacts.ContactManager.SystemDisplayNameOrder
+
+## -description
+Gets or puts the display name order.
+
+## -property-value
+Specifies the display name order.
+
+## -remarks
+
+## -examples
+
+## -see-also

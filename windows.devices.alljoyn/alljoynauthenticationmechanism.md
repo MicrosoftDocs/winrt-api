@@ -32,6 +32,9 @@ ECDHE_PSK has been deprecated and should no longer be used.
 ECDHE_ECDSA key exchange.
 
 
+### -field EcdheSpeke:6
+
+
 ## -remarks
 
 ## -examples
@@ -41,3 +44,4 @@ ECDHE_ECDSA key exchange.
 
 ## -capabilities
 allJoyn
+

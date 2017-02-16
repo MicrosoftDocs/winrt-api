@@ -37,7 +37,9 @@ The [PointerRoutedEventArgs](pointerroutedeventargs.md) event data class is used
 
 
 
-[!code-cs[PointerMoved](../windows.ui.input.inking/code/PointerInput/csharp/MainPage.xaml.cs#SnippetPointerMoved)][!code-cs[PointerMoved](../windows.ui.input.inking/code/PointerInput_UWP/csharp/MainPage.xaml.cs#SnippetPointerMoved)]
+[!code-csharp[PointerMoved](../windows.ui.input.inking/code/PointerInput/csharp/MainPage.xaml.cs#SnippetPointerMoved)]
+
+[!code-csharp[PointerMoved](../windows.ui.input.inking/code/PointerInput_UWP/csharp/MainPage.xaml.cs#SnippetPointerMoved)]
 + The value of *sender* (which is on the delegate signature, not this event data class).
 + Specific members of [PointerRoutedEventArgs](pointerroutedeventargs.md), such as [KeyModifiers](pointerroutedeventargs_keymodifiers.md) or [GetCurrentPoint](pointerroutedeventargs_getcurrentpoint.md).
 + Values of a [Pointer](pointer.md) device description class. Get the [Pointer](pointer.md) from the [Pointer](pointerroutedeventargs_pointer.md) property.
@@ -67,7 +69,9 @@ The following code example shows scenario 2 from the [Input sample](http://go.mi
 
 [!code-xml[Scenario2Xaml](../windows.ui.xaml/code/input/csharp/Scenario2.xaml#SnippetScenario2Xaml)]
 
-[!code-cs[Scenario2Code](../windows.ui.xaml/code/input/csharp/Scenario2.xaml.cs#SnippetScenario2Code)][!code-vb[Scenario2Code](../windows.ui.xaml/code/input/vbnet/Scenario2.xaml.vb#SnippetScenario2Code)]
+[!code-csharp[Scenario2Code](../windows.ui.xaml/code/input/csharp/Scenario2.xaml.cs#SnippetScenario2Code)]
+
+[!code-vb[Scenario2Code](../windows.ui.xaml/code/input/vbnet/Scenario2.xaml.vb#SnippetScenario2Code)]
 
 ## -see-also
 [RoutedEventArgs](../windows.ui.xaml/routedeventargs.md), [PointerPressed](../windows.ui.xaml/uielement_pointerpressed.md)

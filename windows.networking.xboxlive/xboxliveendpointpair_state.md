@@ -1,3 +1,22 @@
-----api-id: P:Windows.Networking.XboxLive.XboxLiveEndpointPair.State
+---
+-api-id: P:Windows.Networking.XboxLive.XboxLiveEndpointPair.State
 -api-type: winrt property
----<!-- Property syntaxpublic Windows.Networking.XboxLive.XboxLiveEndpointPairState State { get; }--># Windows.Networking.XboxLive.XboxLiveEndpointPair.State## -descriptionThis API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.## -property-valueThis API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.## -remarks## -examples## -see-also
+---
+
+<!-- Property syntax
+public Windows.Networking.XboxLive.XboxLiveEndpointPairState State { get; }
+-->
+
+# Windows.Networking.XboxLive.XboxLiveEndpointPair.State
+
+## -description
+This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+## -property-value
+This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+## -remarks
+
+## -examples
+
+## -see-also

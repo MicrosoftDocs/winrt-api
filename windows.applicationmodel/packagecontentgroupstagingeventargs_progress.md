@@ -9,7 +9,7 @@ public double Progress { get; }
 
 # Windows.ApplicationModel.PackageContentGroupStagingEventArgs.Progress
 
-## -desc
+## -description
 Gets an approximation of the package content group's staging progress.
 
 ## -property-value

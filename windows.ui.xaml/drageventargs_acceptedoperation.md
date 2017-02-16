@@ -1,3 +1,22 @@
-----api-id: P:Windows.UI.Xaml.DragEventArgs.AcceptedOperation
+---
+-api-id: P:Windows.UI.Xaml.DragEventArgs.AcceptedOperation
 -api-type: winrt property
----<!-- Property syntaxpublic Windows.ApplicationModel.DataTransfer.DataPackageOperation AcceptedOperation { get;  set; }--># Windows.UI.Xaml.DragEventArgs.AcceptedOperation## -descriptionGets or sets a value that specifies which operations are allowed by the originator of the drag event.## -property-valueA member of the [DataPackageOperation](../windows.applicationmodel.datatransfer/datapackageoperation.md) enumeration that specifies which operations are allowed by the originator of the drag event.## -remarks## -examples## -see-also
+---
+
+<!-- Property syntax
+public Windows.ApplicationModel.DataTransfer.DataPackageOperation AcceptedOperation { get;  set; }
+-->
+
+# Windows.UI.Xaml.DragEventArgs.AcceptedOperation
+
+## -description
+Gets or sets a value that specifies which operations are allowed by the originator of the drag event.
+
+## -property-value
+A member of the [DataPackageOperation](../windows.applicationmodel.datatransfer/datapackageoperation.md) enumeration that specifies which operations are allowed by the originator of the drag event.
+
+## -remarks
+
+## -examples
+
+## -see-also

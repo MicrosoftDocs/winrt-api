@@ -9,7 +9,7 @@ public string Id { get; }
 
 # Windows.ApplicationModel.Background.BackgroundTaskRegistrationGroup.Id
 
-## -desc
+## -description
 Gets the group ID.
 
 ## -property-value
