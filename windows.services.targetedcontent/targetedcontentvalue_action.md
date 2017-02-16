@@ -10,7 +10,7 @@ public TargetedContentAction Action { get; }
 # Windows.Services.TargetedContent.TargetedContentValue.Action
 
 ## -description
-
+Gets a TargetedContentAction object in a TargetedContentValue object.
 ## -property-value
 
 ## -remarks
