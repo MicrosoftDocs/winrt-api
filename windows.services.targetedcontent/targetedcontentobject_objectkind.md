@@ -10,7 +10,7 @@ public TargetedContentObjectKind ObjectKind { get; }
 # Windows.Services.TargetedContent.TargetedContentObject.ObjectKind
 
 ## -description
-
+Gets the TargetedContentObjectKind object for the TargetedContentObject object.
 ## -property-value
 
 ## -remarks
