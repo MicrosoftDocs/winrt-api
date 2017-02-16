@@ -10,10 +10,12 @@ public IAsyncOperation<bool> ApplicationView.TryConsolidateAsync()
 # Windows.UI.ViewManagement.ApplicationView.TryConsolidateAsync
 
 ## -description
+Closes the current view in a multi-view app.
 
 ## -parameters
 
 ## -returns
+**true** if the app views are consolidated; otherwise, **false**.
 
 ## -remarks
 
