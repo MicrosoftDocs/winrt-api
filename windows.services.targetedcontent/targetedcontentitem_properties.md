@@ -10,7 +10,7 @@ public IMapView<TargetedContentValue> Properties { get; }
 # Windows.Services.TargetedContent.TargetedContentItem.Properties
 
 ## -description
-
+Gets a IReadOnlyDictionary object containing property name as keys and TargetedContentValues in a TargetedContentItem object.
 ## -property-value
 
 ## -remarks
