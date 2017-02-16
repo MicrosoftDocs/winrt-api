@@ -10,8 +10,10 @@ public DependencyProperty SelectedStencilProperty { get; }
 # Windows.UI.Xaml.Controls.InkToolbarStencilButton.SelectedStencilProperty
 
 ## -description
+Identifies the [SelectedStencil](inktoolbarstencilbutton_selectedstencil.md) dependency property.
 
 ## -property-value
+The identifier for the [SelectedStencil](inktoolbarstencilbutton_selectedstencil.md) dependency property.
 
 ## -remarks
 

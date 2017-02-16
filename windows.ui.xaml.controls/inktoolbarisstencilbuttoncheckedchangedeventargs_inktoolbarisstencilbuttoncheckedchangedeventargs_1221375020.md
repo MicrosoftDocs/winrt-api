@@ -10,6 +10,7 @@ public InkToolbarIsStencilButtonCheckedChangedEventArgs.InkToolbarIsStencilButto
 # Windows.UI.Xaml.Controls.InkToolbarIsStencilButtonCheckedChangedEventArgs.InkToolbarIsStencilButtonCheckedChangedEventArgs
 
 ## -description
+Initializes a new instance of the [InkToolbarIsStencilButtonCheckedChangedEventArgs](inktoolbarisstencilbuttoncheckedchangedeventargs.md) class.
 
 ## -parameters
 
