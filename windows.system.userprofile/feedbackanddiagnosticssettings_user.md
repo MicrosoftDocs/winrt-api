@@ -10,10 +10,10 @@ public User User { get; }
 # Windows.System.UserProfile.FeedbackAndDiagnosticsSettings.User
 
 ## -description
-Gets the current [User](./../windows.system/user.md).
+Gets the [User](./../windows.system/user.md) associated with this instance of feedback and diagnostics settings.
 
 ## -property-value
-The current user.
+The user associated with this instance of feedback and diagnostics settings.
 
 ## -remarks
 
