@@ -21,6 +21,6 @@ The name of a [cryptographic service provider](http://msdn.microsoft.com/library
 ## -examples
 
 
-[!code-csharp[ShowKspName] (../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowKspName)]
+[!code-cs[ShowKspName] (../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowKspName)]
 
 ## -see-also

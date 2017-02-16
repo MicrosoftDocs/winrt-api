@@ -1,23 +1,3 @@
----
--api-id: P:Windows.Devices.PointOfService.JournalPrinterCapabilities.IsDualColorSupported
+----api-id: P:Windows.Devices.PointOfService.JournalPrinterCapabilities.IsDualColorSupported
 -api-type: winrt property
----
-
-<!-- Property syntax
-public bool IsDualColorSupported { get; }
--->
-
-# Windows.Devices.PointOfService.JournalPrinterCapabilities.IsDualColorSupported
-
-## -description
-Gets whether the journal printer station can print a dark color plus an alternate color.
-
-## -property-value
-True if the journal printer station can print a dark color plus an alternate color; otherwise false.
-
-## -remarks
-
-## -examples
-
-## -see-also
-[ICommonPosPrintStationCapabilities.IsDualColorSupported](journalprintercapabilities_isdualcolorsupported.md)
+---<!-- Property syntaxpublic bool IsDualColorSupported { get; }--># Windows.Devices.PointOfService.JournalPrinterCapabilities.IsDualColorSupported## -descriptionGets whether the journal printer station can print a dark color plus an alternate color.## -property-valueTrue if the journal printer station can print a dark color plus an alternate color; otherwise false.## -remarks## -examples## -see-also[ICommonPosPrintStationCapabilities.IsDualColorSupported](journalprintercapabilities_isdualcolorsupported.md)

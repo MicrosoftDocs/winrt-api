@@ -19,7 +19,7 @@ The stencil transforms how an ink stroke is rendered:
 + It acts as a mask and prevents the drawing of an ink stroke within the area obscured by the stencil.
 
 
-The stencil can be manipulated both programmatically and by the user. It also scales and translates with the [InkCanvas](../windows.ui.xaml.controls/inkcanvas.md).
+The [InkPresenterRuler](inkpresenterruler.md) can be manipulated both programmatically and by the user. It also scales and translates with the [InkCanvas](../windows.ui.xaml.controls/inkcanvas.md).
 
 ## -remarks
 

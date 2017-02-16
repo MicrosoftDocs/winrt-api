@@ -29,7 +29,7 @@ You create a [KeyDerivationAlgorithmProvider](keyderivationalgorithmprovider.md)
 ## -examples
 
 
-[!code-csharp[KdfAlgClassOverview] (../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#KdfAlgClassOverview)]
+[!code-cs[KdfAlgClassOverview] (../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#KdfAlgClassOverview)]
 
 ## -see-also
 [CryptographicEngine](cryptographicengine.md), [KeyDerivationParameters](keyderivationparameters.md)

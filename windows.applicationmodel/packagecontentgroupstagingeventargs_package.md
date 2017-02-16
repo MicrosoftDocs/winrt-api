@@ -9,7 +9,7 @@ public Package Package { get; }
 
 # Windows.ApplicationModel.PackageContentGroupStagingEventArgs.Package
 
-## -description
+## -desc
 Gets the package that is being staged.
 
 ## -property-value

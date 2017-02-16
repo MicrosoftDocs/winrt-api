@@ -1,20 +1,3 @@
----
--api-id: T:Windows.Media.DialProtocol.DialAppStateDetails
+----api-id: T:Windows.Media.DialProtocol.DialAppStateDetails
 -api-type: winrt class
----
-
-<!-- Class syntax.
-public class DialAppStateDetails : Windows.Media.DialProtocol.IDialAppStateDetails
--->
-
-# Windows.Media.DialProtocol.DialAppStateDetails
-
-## -description
-Represents the state of the DIAL app.
-
-## -remarks
-This object is returned when [GetAppStateAsync](dialapp_getappstateasync.md) is called on a DIAL app.
-
-## -examples
-
-## -see-also
+---<!-- Class syntax.public class DialAppStateDetails : Windows.Media.DialProtocol.IDialAppStateDetails--># Windows.Media.DialProtocol.DialAppStateDetails## -descriptionRepresents the state of the DIAL app.## -remarksThis object is returned when [GetAppStateAsync](dialapp_getappstateasync.md) is called on a DIAL app.## -examples## -see-also

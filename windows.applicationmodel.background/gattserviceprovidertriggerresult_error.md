@@ -9,7 +9,7 @@ public BluetoothError Error { get; }
 
 # Windows.ApplicationModel.Background.GattServiceProviderTriggerResult.Error
 
-## -description
+## -desc
 Get the status of creating the trigger.
 
 ## -property-value

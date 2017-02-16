@@ -24,19 +24,19 @@ First, you need to enable photo confirmation and hook up the [PhotoConfirmationC
 
 
 
-[!code-csharp[EnablePhotoConfirmation](../windows.media.capture/code/MediaCaptureVideo/csharp/MainPage.xaml.cs#SnippetEnablePhotoConfirmation)]
+[!code-cs[EnablePhotoConfirmation](../windows.media.capture/code/MediaCaptureVideo/csharp/MainPage.xaml.cs#SnippetEnablePhotoConfirmation)]
 
 
 
 
 
-[!code-csharp[PhotoConfirmationCaptured](../windows.media.capture/code/MediaCaptureVideo/csharp/MainPage.xaml.cs#SnippetPhotoConfirmationCaptured)]
+[!code-cs[PhotoConfirmationCaptured](../windows.media.capture/code/MediaCaptureVideo/csharp/MainPage.xaml.cs#SnippetPhotoConfirmationCaptured)]
 
 
 
 The following code snippet shows the helper class that defines the extension methods for the copying captured frame data into the writeable bitmap's pixel data stream. The class provides synchronous and asynchronous methods and overloads that allow you to specify a copy buffer size or use a default size.
 
-[!code-csharp[StreamExtenstions](../windows.media.capture/code/MediaCaptureVideo/csharp/MainPage.xaml.cs#SnippetStreamExtenstions)]
+[!code-cs[StreamExtenstions](../windows.media.capture/code/MediaCaptureVideo/csharp/MainPage.xaml.cs#SnippetStreamExtenstions)]
 
 ## -examples
 

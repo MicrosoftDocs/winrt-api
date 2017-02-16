@@ -21,6 +21,6 @@ This value is an X.500 distinguished name (DN). This can be a full DN string tha
 ## -examples
 
 
-[!code-csharp[ShowSubjectName] (../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowSubjectName)]
+[!code-cs[ShowSubjectName] (../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowSubjectName)]
 
 ## -see-also

@@ -20,9 +20,7 @@ No object or value is returned when this method completes.
 ## -examples
 
 
-[!code-cpp[EnableBarcodeScanner](../windows.devices.pointofservice/code/BarcodeScanner/cpp/Scenario1.xaml.cpp#SnippetEnableBarcodeScanner)]
-
-[!code-csharp[EnableBarcodeScanner](../windows.devices.pointofservice/code/BarcodeScanner/cs/Scenario1.xaml.cs#SnippetEnableBarcodeScanner)]
+[!code-cpp[EnableBarcodeScanner](../windows.devices.pointofservice/code/BarcodeScanner/cpp/Scenario1.xaml.cpp#SnippetEnableBarcodeScanner)][!code-cs[EnableBarcodeScanner](../windows.devices.pointofservice/code/BarcodeScanner/cs/Scenario1.xaml.cs#SnippetEnableBarcodeScanner)]
 
 [!code-js[CreateBarcodeScannerJS](../windows.devices.pointofservice/code/BarcodeScanner/js/scenario1.js#SnippetCreateBarcodeScannerJS)]
 

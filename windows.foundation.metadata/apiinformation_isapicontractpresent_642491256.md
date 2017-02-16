@@ -1,33 +1,3 @@
----
--api-id: M:Windows.Foundation.Metadata.ApiInformation.IsApiContractPresent(System.String,System.UInt16,System.UInt16)
+----api-id: M:Windows.Foundation.Metadata.ApiInformation.IsApiContractPresent(System.String,System.UInt16,System.UInt16)
 -api-type: winrt method
----
-
-<!-- Method syntax
-public bool IsApiContractPresent(System.String contractName, System.UInt16 majorVersion, System.UInt16 minorVersion)
--->
-
-# Windows.Foundation.Metadata.ApiInformation.IsApiContractPresent
-
-## -description
-Returns true or false to indicate whether the API contract with the specified name and major and minor version number is present.
-
-## -parameters
-### -param contractName
-The name of the API contract.
-
-### -param majorVersion
-The major version number of the API contract.
-
-### -param minorVersion
-The minor version number of the API contract.
-
-## -returns
-**True** if the specified API contract is present; otherwise, **false**.
-
-## -remarks
-
-## -examples
-
-## -see-also
-[IsApiContractPresent(String, UInt16)](apiinformation_isapicontractpresent_1836214132.md)
+---<!-- Method syntaxpublic bool IsApiContractPresent(System.String contractName, System.UInt16 majorVersion, System.UInt16 minorVersion)--># Windows.Foundation.Metadata.ApiInformation.IsApiContractPresent## -descriptionReturns true or false to indicate whether the API contract with the specified name and major and minor version number is present.## -parameters### -param contractNameThe name of the API contract.### -param majorVersionThe major version number of the API contract.### -param minorVersionThe minor version number of the API contract.## -returns**True** if the specified API contract is present; otherwise, **false**.## -remarks## -examples## -see-also[IsApiContractPresent(String, UInt16)](apiinformation_isapicontractpresent_1836214132.md)

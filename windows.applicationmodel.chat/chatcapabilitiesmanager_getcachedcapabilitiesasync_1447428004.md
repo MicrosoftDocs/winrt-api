@@ -1,26 +1,3 @@
----
--api-id: M:Windows.ApplicationModel.Chat.ChatCapabilitiesManager.GetCachedCapabilitiesAsync(System.String)
+----api-id: M:Windows.ApplicationModel.Chat.ChatCapabilitiesManager.GetCachedCapabilitiesAsync(System.String)
 -api-type: winrt method
----
-
-<!-- Method syntax
-public Windows.Foundation.IAsyncOperation<Windows.ApplicationModel.Chat.ChatCapabilities> GetCachedCapabilitiesAsync(System.String address)
--->
-
-# Windows.ApplicationModel.Chat.ChatCapabilitiesManager.GetCachedCapabilitiesAsync
-
-## -description
-Asynchronously gets the locally cached Rich Communication Services (RCS) chat capabilities for the specified phone number.
-
-## -parameters
-### -param address
-The phone number for which to get the Rich Communication Services (RCS) chat capabilites
-
-## -returns
-The locally cached Rich Communication Services (RCS) chat capabilities.
-
-## -remarks
-
-## -examples
-
-## -see-also
+---<!-- Method syntaxpublic Windows.Foundation.IAsyncOperation<Windows.ApplicationModel.Chat.ChatCapabilities> GetCachedCapabilitiesAsync(System.String address)--># Windows.ApplicationModel.Chat.ChatCapabilitiesManager.GetCachedCapabilitiesAsync## -descriptionAsynchronously gets the locally cached Rich Communication Services (RCS) chat capabilities for the specified phone number.## -parameters### -param addressThe phone number for which to get the Rich Communication Services (RCS) chat capabilites## -returnsThe locally cached Rich Communication Services (RCS) chat capabilities.## -remarks## -examples## -see-also

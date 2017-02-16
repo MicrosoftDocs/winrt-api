@@ -1,22 +1,3 @@
----
--api-id: P:Windows.UI.Notifications.ScheduledToastNotification.Group
+----api-id: P:Windows.UI.Notifications.ScheduledToastNotification.Group
 -api-type: winrt property
----
-
-<!-- Property syntax
-public string Group { get;  set; }
--->
-
-# Windows.UI.Notifications.ScheduledToastNotification.Group
-
-## -description
-Gets or sets the group identifier for the notification.
-
-## -property-value
-The group identifier for the notification.
-
-## -remarks
-
-## -examples
-
-## -see-also
+---<!-- Property syntaxpublic string Group { get;  set; }--># Windows.UI.Notifications.ScheduledToastNotification.Group## -descriptionGets or sets the group identifier for the notification.## -property-valueThe group identifier for the notification.## -remarks## -examples## -see-also

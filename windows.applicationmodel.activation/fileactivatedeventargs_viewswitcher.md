@@ -1,22 +1,3 @@
----
--api-id: P:Windows.ApplicationModel.Activation.FileActivatedEventArgs.ViewSwitcher
+----api-id: P:Windows.ApplicationModel.Activation.FileActivatedEventArgs.ViewSwitcher
 -api-type: winrt property
----
-
-<!-- Property syntax
-public Windows.UI.ViewManagement.ActivationViewSwitcher ViewSwitcher { get; }
--->
-
-# Windows.ApplicationModel.Activation.FileActivatedEventArgs.ViewSwitcher
-
-## -description
-Provides the object that allows you to set the view for the application.
-
-## -property-value
-Use the [ActivationViewSwitcher](../windows.ui.viewmanagement/activationviewswitcher.md) to show or switch the view in response to the activation. The value will be **null** in hosted scenarios such as Share and File Picker activations.
-
-## -remarks
-
-## -examples
-
-## -see-also
+---<!-- Property syntaxpublic Windows.UI.ViewManagement.ActivationViewSwitcher ViewSwitcher { get; }--># Windows.ApplicationModel.Activation.FileActivatedEventArgs.ViewSwitcher## -descriptionProvides the object that allows you to set the view for the application.## -property-valueUse the [ActivationViewSwitcher](../windows.ui.viewmanagement/activationviewswitcher.md) to show or switch the view in response to the activation. The value will be **null** in hosted scenarios such as Share and File Picker activations.## -remarks## -examples## -see-also

@@ -1,20 +1,3 @@
----
--api-id: T:Windows.Devices.Midi.MidiControlChangeMessage
+----api-id: T:Windows.Devices.Midi.MidiControlChangeMessage
 -api-type: winrt class
----
-
-<!-- Class syntax.
-public class MidiControlChangeMessage : Windows.Devices.Midi.IMidiControlChangeMessage, Windows.Devices.Midi.IMidiMessage
--->
-
-# Windows.Devices.Midi.MidiControlChangeMessage
-
-## -description
-Represents a MIDI message that specifies a control change.
-
-## -remarks
-
-## -examples
-
-## -see-also
-[IMidiMessage](imidimessage.md), [MIDI  sample](http://go.microsoft.com/fwlink/p/?LinkID=394281)
+---<!-- Class syntax.public class MidiControlChangeMessage : Windows.Devices.Midi.IMidiControlChangeMessage, Windows.Devices.Midi.IMidiMessage--># Windows.Devices.Midi.MidiControlChangeMessage## -descriptionRepresents a MIDI message that specifies a control change.## -remarks## -examples## -see-also[IMidiMessage](imidimessage.md), [MIDI  sample](http://go.microsoft.com/fwlink/p/?LinkID=394281)

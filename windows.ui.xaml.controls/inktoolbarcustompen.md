@@ -38,7 +38,7 @@ In this example, we customize the following [InkDrawingAttributes](../windows.ui
 
 
 
-[!code-csharp[CustomCalligraphicPen](../windows.ui.input.inking/code/Ink_Basic_InkToolbar/csharp/CalligraphicPen.cs#SnippetCustomCalligraphicPen)]
+[!code-cs[CustomCalligraphicPen](../windows.ui.input.inking/code/Ink_Basic_InkToolbar/csharp/CalligraphicPen.cs#SnippetCustomCalligraphicPen)]
 1. In markup, we then bind our custom pen class using a [{StaticResource} markup extension](http://msdn.microsoft.com/library/d50349b5-4588-4ebd-9458-75f629ccc395) reference in the [CustomPen](inktoolbarcustompenbutton_custompen.md) attribute of the [InkToolbarCustomPenButton](inktoolbarcustompenbutton.md) element (alternatively, you can instantiate the custom pen and assign it to [InkToolbarCustomPenButton.CustomPen](inktoolbarcustompenbutton_custompen.md) in code).
 
 You can use the built-in [InkToolbarPenConfigurationControl](inktoolbarpenconfigurationcontrol.md) (as shown here) or you can specify a custom [InkToolbarPenConfigurationControl](inktoolbarpenconfigurationcontrol.md) definition in the standard [InkToolbar](inktoolbar.md) pen declaration.
@@ -54,7 +54,7 @@ Here's the definition of `CalligraphicPenIcon` from the `MainPage.xaml.cs` file 
 
 
 
-[!code-csharp[CustomCalligraphicPenMain](../windows.ui.input.inking/code/Ink_Basic_InkToolbar/csharp/MainPage_AddCustomPen.xaml.cs#SnippetCustomCalligraphicPenMain)]
+[!code-cs[CustomCalligraphicPenMain](../windows.ui.input.inking/code/Ink_Basic_InkToolbar/csharp/MainPage_AddCustomPen.xaml.cs#SnippetCustomCalligraphicPenMain)]
 
 ## -see-also
 [Windows.UI.Xaml.Controls classes](windows_ui_xaml_controls_classes.md), [InkToolbarPenButton](inktoolbarpenbutton.md), [DependencyObject](../windows.ui.xaml/dependencyobject.md)

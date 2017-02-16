@@ -32,7 +32,7 @@ This example incrementally enumerates devices, adding them to a list each time a
 
 [!code-js[CreateWatcherAllDevicesJs](../windows.devices.enumeration/code/CreateWatcherAllDevices/javascript/default.js#SnippetCreateWatcherAllDevicesJs)]
 
-[!code-csharp[CreateWatcherAllDevicesCs](../windows.devices.enumeration/code/CreateWatcherAllDevices/cs/BlankPage.xaml.cs#SnippetCreateWatcherAllDevicesCs)]
+[!code-cs[CreateWatcherAllDevicesCs](../windows.devices.enumeration/code/CreateWatcherAllDevices/cs/BlankPage.xaml.cs#SnippetCreateWatcherAllDevicesCs)]
 
 ## -see-also
 [Camera profiles sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620518), [Camera preview frame sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620516), [Basic camera app sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=619479), [Camera resolution sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=624252), [Custom USB device sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620530), [Camera face detection sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=619486), [Video stabilization sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620519), [Manual camera controls sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=627611), [High dynamic range sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620517)

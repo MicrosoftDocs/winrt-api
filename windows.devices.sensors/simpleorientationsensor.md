@@ -19,23 +19,23 @@ The following example demonstrates how a Windows Store app built with XAML and C
 
 
 
-[!code-csharp[GetDefaultCS](../windows.devices.sensors/code/simpleorientation/csharp/Scenario1.xaml.cs#SnippetGetDefaultCS)]
+[!code-cs[GetDefaultCS](../windows.devices.sensors/code/simpleorientation/csharp/Scenario1.xaml.cs#SnippetGetDefaultCS)]
 
 The following example demonstrates how a Windows Store app built with XAML registers a [OrientationChanged](simpleorientationsensor_orientationchanged.md) event handler.
 
 
 
-[!code-csharp[EnableReadingChangedCS](../windows.devices.sensors/code/simpleorientation/csharp/Scenario1.xaml.cs#SnippetEnableReadingChangedCS)]
+[!code-cs[EnableReadingChangedCS](../windows.devices.sensors/code/simpleorientation/csharp/Scenario1.xaml.cs#SnippetEnableReadingChangedCS)]
 
 The following example contains the XAML code for the event handler which writes the orientation readings to the application's form.
 
 
 
-[!code-csharp[ReadingChangedCS](../windows.devices.sensors/code/simpleorientation/csharp/Scenario1.xaml.cs#SnippetReadingChangedCS)]
+[!code-cs[ReadingChangedCS](../windows.devices.sensors/code/simpleorientation/csharp/Scenario1.xaml.cs#SnippetReadingChangedCS)]
 
 
 
-[!code-csharp[ReadingChanged2CS](../windows.devices.sensors/code/simpleorientation/csharp/Scenario1.xaml.cs#SnippetReadingChanged2CS)]
+[!code-cs[ReadingChanged2CS](../windows.devices.sensors/code/simpleorientation/csharp/Scenario1.xaml.cs#SnippetReadingChanged2CS)]
 
 ## -examples
 

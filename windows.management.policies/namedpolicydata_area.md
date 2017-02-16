@@ -10,10 +10,10 @@ public string Area { get; }
 # Windows.Management.Policies.NamedPolicyData.Area
 
 ## -description
-Gets the MDM policy area name.
+Gets the policy area name.
 
 ## -property-value
-The MDM policy area name.
+The policy area name.
 
 ## -remarks
 

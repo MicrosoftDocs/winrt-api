@@ -31,7 +31,7 @@ This example uses a [SkewTransform](skewtransform.md) to skew text. A *skew*, al
 
 [!code-xml[SkewTransform](../windows.ui.xaml/code/transforms/csharp/Skew_Transform.xaml#SnippetSkewTransform)]
 
-[!code-csharp[SkewTransform_code](../windows.ui.xaml/code/transforms/csharp/Skew_Transform.xaml.cs#SnippetSkewTransform_code)]
+[!code-cs[SkewTransform_code](../windows.ui.xaml/code/transforms/csharp/Skew_Transform.xaml.cs#SnippetSkewTransform_code)]
 
 ## -see-also
 [Transform](transform.md), [XAML two-dimensional transforms sample](http://go.microsoft.com/fwlink/p/?linkid=238580)

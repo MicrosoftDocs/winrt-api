@@ -1,23 +1,3 @@
----
--api-id: P:Windows.Devices.PointOfService.SlipPrinterCapabilities.IsLeft90RotationSupported
+----api-id: P:Windows.Devices.PointOfService.SlipPrinterCapabilities.IsLeft90RotationSupported
 -api-type: winrt property
----
-
-<!-- Property syntax
-public bool IsLeft90RotationSupported { get; }
--->
-
-# Windows.Devices.PointOfService.SlipPrinterCapabilities.IsLeft90RotationSupported
-
-## -description
-Gets whether the slip printer station can print information rotated 90 degrees to the left.
-
-## -property-value
-True if the slip printer station can print information rotated 90 degrees to the left; otherwise false.
-
-## -remarks
-
-## -examples
-
-## -see-also
-[ICommonReceiptSlipCapabilities.IsLeft90RotationSupported](icommonreceiptslipcapabilities_isleft90rotationsupported.md)
+---<!-- Property syntaxpublic bool IsLeft90RotationSupported { get; }--># Windows.Devices.PointOfService.SlipPrinterCapabilities.IsLeft90RotationSupported## -descriptionGets whether the slip printer station can print information rotated 90 degrees to the left.## -property-valueTrue if the slip printer station can print information rotated 90 degrees to the left; otherwise false.## -remarks## -examples## -see-also[ICommonReceiptSlipCapabilities.IsLeft90RotationSupported](icommonreceiptslipcapabilities_isleft90rotationsupported.md)

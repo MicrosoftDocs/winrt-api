@@ -1,4 +1,4 @@
-﻿'<Snippet10_VB>
+﻿'<snippet10>
 Imports System
 Imports System.Windows
 Imports System.Windows.Controls
@@ -17,17 +17,17 @@ Partial Public Class Page
         InitializeComponent()
     End Sub
 
-    '<Snippet111_VB>
+    ' <snippet111>
     Private Sub PrintText(ByVal sender As Object, ByVal args As SelectionChangedEventArgs)
         Dim lbi As ListBoxItem = TryCast(TryCast(sender, ListBox).SelectedItem, ListBoxItem)
         textBlock1.Text = " You selected " + lbi.Content.ToString() + "."
     End Sub
-    '</Snippet111_VB>
+    ' </snippet111>
 
 End Class
 
 
-'<Snippet101_VB>
+'<snippet101>
 Public Class Customer
     Private _firstName As String
     Private _lastName As String
@@ -82,6 +82,6 @@ Public Class Customers
     End Sub
 
 End Class
-' </Snippet101_VB>
+' </snippet101>
 
-'</Snippet10_VB>
+'</snippet10>

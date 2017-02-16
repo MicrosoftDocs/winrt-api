@@ -23,13 +23,11 @@ The following examples demonstrate using the [LoadContent](datatemplate_loadcont
 
 
 
+[!code-xml[1](../windows.ui.xaml.controls.primitives/code/DataTemplateSelectionSnippets/csharp/Page.xaml#Snippet1)]
 
-[!code-xml[Snippet1_XAML](../windows.ui.xaml.controls.primitives/code/DataTemplateSelectionSnippets/csharp/Page.xaml#Snippet1_XAML)]
+[!code-cs[2](../windows.ui.xaml.controls.primitives/code/DataTemplateSelectionSnippets/csharp/Page.xaml.cs#Snippet2)][!code-vb[2](../windows.ui.xaml.controls.primitives/code/DataTemplateSelectionSnippets/vbnet/Page.xaml.vb#Snippet2)]
 
-
-[!code-csharp[Snippet2_CS](../windows.ui.xaml.controls.primitives/code/DataTemplateSelectionSnippets/csharp/Page.xaml.cs#Snippet2_CS)]
-
-
-[!code-vb[Snippet2_VB](../windows.ui.xaml.controls.primitives/code/DataTemplateSelectionSnippets/vbnet/Page.xaml.vb#Snippet2_VB)]
+## -see-also
+aml.vb#Snippet2)]
 
 ## -see-also

@@ -1,22 +1,3 @@
----
--api-id: T:Windows.Storage.Pickers.Provider.PickerClosingOperation
+----api-id: T:Windows.Storage.Pickers.Provider.PickerClosingOperation
 -api-type: winrt class
----
-
-<!-- Class syntax.
-public class PickerClosingOperation : Windows.Storage.Pickers.Provider.IPickerClosingOperation
--->
-
-# Windows.Storage.Pickers.Provider.PickerClosingOperation
-
-## -description
-Lets an app that provides files get the deadline for responding to a [closing](fileopenpickerui_closing.md) event and get a deferral so the app can respond to the event asynchronously.
-
-## -remarks
-If your app participates in the File Open Picker contract, you can use this class to respond to a [closing](fileopenpickerui_closing.md) event.
-
-## -examples
-
-
-## -see-also
-[pickerClosingEventArgs.closingOperation](pickerclosingeventargs_closingoperation.md)
+---<!-- Class syntax.public class PickerClosingOperation : Windows.Storage.Pickers.Provider.IPickerClosingOperation--># Windows.Storage.Pickers.Provider.PickerClosingOperation## -descriptionLets an app that provides files get the deadline for responding to a [closing](fileopenpickerui_closing.md) event and get a deferral so the app can respond to the event asynchronously.## -remarksIf your app participates in the File Open Picker contract, you can use this class to respond to a [closing](fileopenpickerui_closing.md) event.## -examples## -see-also[pickerClosingEventArgs.closingOperation](pickerclosingeventargs_closingoperation.md)

@@ -1,23 +1,3 @@
----
--api-id: P:Windows.ApplicationModel.PackageId.Architecture
+----api-id: P:Windows.ApplicationModel.PackageId.Architecture
 -api-type: winrt property
----
-
-<!-- Property syntax
-public Windows.System.ProcessorArchitecture Architecture { get; }
--->
-
-# Windows.ApplicationModel.PackageId.Architecture
-
-## -description
-Gets the processor architecture for which the package was created.
-
-## -property-value
-The processor architecture.
-
-## -remarks
-
-## -examples
-
-## -see-also
-[App package information sample](http://code.msdn.microsoft.com/windowsapps/Package-sample-46e239fa)
+---<!-- Property syntaxpublic Windows.System.ProcessorArchitecture Architecture { get; }--># Windows.ApplicationModel.PackageId.Architecture## -descriptionGets the processor architecture for which the package was created.## -property-valueThe processor architecture.## -remarks## -examples## -see-also[App package information sample](http://code.msdn.microsoft.com/windowsapps/Package-sample-46e239fa)

@@ -1,21 +1,3 @@
----
--api-id: T:Windows.Data.Text.TextConversionGenerator
+----api-id: T:Windows.Data.Text.TextConversionGenerator
 -api-type: winrt class
----
-
-<!-- Class syntax.
-public class TextConversionGenerator : Windows.Data.Text.ITextConversionGenerator
--->
-
-# Windows.Data.Text.TextConversionGenerator
-
-## -description
-Converts input phonetic characters into a collection of corresponding ideographic characters (Chinese characters).
-
-Input of Japanese and Chinese Pinyin is supported.
-
-## -remarks
-
-## -examples
-
-## -see-also
+---<!-- Class syntax.public class TextConversionGenerator : Windows.Data.Text.ITextConversionGenerator--># Windows.Data.Text.TextConversionGenerator## -descriptionConverts input phonetic characters into a collection of corresponding ideographic characters (Chinese characters).Input of Japanese and Chinese Pinyin is supported.## -remarks## -examples## -see-also

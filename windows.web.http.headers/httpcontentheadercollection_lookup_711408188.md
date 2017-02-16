@@ -1,30 +1,3 @@
----
--api-id: M:Windows.Web.Http.Headers.HttpContentHeaderCollection.Lookup(System.String)
+----api-id: M:Windows.Web.Http.Headers.HttpContentHeaderCollection.Lookup(System.String)
 -api-type: winrt method
----
-
-<!-- Method syntax
-public string Lookup(System.String key)
--->
-
-# Windows.Web.Http.Headers.HttpContentHeaderCollection.Lookup
-
-## -description
-Finds an item in the [HttpContentHeaderCollection](httpcontentheadercollection.md) if it exists.
-
-## -parameters
-### -param key
-The key of the item to lookup.
-
-## -returns
-The value, if an item with the specified key exists. Use the **HasKey** method to determine whether the key exists.
-
-## -remarks
-Use the [HasKey](httpcontentheadercollection_haskey.md) method to determine whether the key exists in the [HttpContentHeaderCollection](httpcontentheadercollection.md).
-
-When programming with .NET, this method is hidden and developers should use the [Item](httpcontentheadercollection_item.md) indexer.
-
-## -examples
-
-## -see-also
-[HasKey](httpcontentheadercollection_haskey.md)
+---<!-- Method syntaxpublic string Lookup(System.String key)--># Windows.Web.Http.Headers.HttpContentHeaderCollection.Lookup## -descriptionFinds an item in the [HttpContentHeaderCollection](httpcontentheadercollection.md) if it exists.## -parameters### -param keyThe key of the item to lookup.## -returnsThe value, if an item with the specified key exists. Use the **HasKey** method to determine whether the key exists.## -remarksUse the [HasKey](httpcontentheadercollection_haskey.md) method to determine whether the key exists in the [HttpContentHeaderCollection](httpcontentheadercollection.md).When programming with .NET, this method is hidden and developers should use the [Item](httpcontentheadercollection_item.md) indexer.## -examples## -see-also[HasKey](httpcontentheadercollection_haskey.md)

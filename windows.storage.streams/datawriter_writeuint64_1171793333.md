@@ -1,23 +1,3 @@
----
--api-id: M:Windows.Storage.Streams.DataWriter.WriteUInt64(System.UInt64)
+----api-id: M:Windows.Storage.Streams.DataWriter.WriteUInt64(System.UInt64)
 -api-type: winrt method
----
-
-<!-- Method syntax
-public void WriteUInt64(System.UInt64 value)
--->
-
-# Windows.Storage.Streams.DataWriter.WriteUInt64
-
-## -description
-Writes a 64-bit unsigned integer value to the output stream.
-
-## -parameters
-### -param value
-The value.
-
-## -remarks
-
-## -examples
-
-## -see-also
+---<!-- Method syntaxpublic void WriteUInt64(System.UInt64 value)--># Windows.Storage.Streams.DataWriter.WriteUInt64## -descriptionWrites a 64-bit unsigned integer value to the output stream.## -parameters### -param valueThe value.## -remarks## -examples## -see-also

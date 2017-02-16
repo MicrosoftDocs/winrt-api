@@ -24,7 +24,7 @@ The following example demonstrates how a Windows Store app built with XAML and C
 
 
 
-[!code-csharp[GetDefaultCS](../windows.devices.sensors/code/simpleorientation/csharp/Scenario1.xaml.cs#SnippetGetDefaultCS)]
+[!code-cs[GetDefaultCS](../windows.devices.sensors/code/simpleorientation/csharp/Scenario1.xaml.cs#SnippetGetDefaultCS)]
 
 The following example demonstrates how a Windows Store app built for Windows using JavaScript used this method to establish a connection to the simple orientation sensor.
 

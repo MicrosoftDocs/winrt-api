@@ -1,19 +1,3 @@
----
--api-id: M:Windows.Media.Protection.PlayReady.NDDownloadEngineNotifier.OnNetworkError
+----api-id: M:Windows.Media.Protection.PlayReady.NDDownloadEngineNotifier.OnNetworkError
 -api-type: winrt method
----
-
-<!-- Method syntax
-public void OnNetworkError()
--->
-
-# Windows.Media.Protection.PlayReady.NDDownloadEngineNotifier.OnNetworkError
-
-## -description
-Called by the download engine if an error occurs during downloading.
-
-## -remarks
-
-## -examples
-
-## -see-also
+---<!-- Method syntaxpublic void OnNetworkError()--># Windows.Media.Protection.PlayReady.NDDownloadEngineNotifier.OnNetworkError## -descriptionCalled by the download engine if an error occurs during downloading.## -remarks## -examples## -see-also

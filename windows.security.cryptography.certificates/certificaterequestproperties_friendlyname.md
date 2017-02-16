@@ -21,6 +21,6 @@ By default, this value is an empty string.
 ## -examples
 
 
-[!code-csharp[ShowDisplayName] (../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowDisplayName)]
+[!code-cs[ShowDisplayName] (../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowDisplayName)]
 
 ## -see-also

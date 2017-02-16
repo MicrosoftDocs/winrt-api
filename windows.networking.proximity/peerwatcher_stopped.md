@@ -19,13 +19,9 @@ You can call the [Stop](peerwatcher_stop.md) method to stop the [PeerWatcher](pe
 
 
 
-[!code-csharp[_StartPeerWatcher](../windows.networking.proximity/code/Proximity_PeerWatcher/cs/MainPage.xaml.cs#Snippet_StartPeerWatcher)]
+[!code-cs[_StartPeerWatcher](../windows.networking.proximity/code/Proximity_PeerWatcher/cs/MainPage.xaml.cs#Snippet_StartPeerWatcher)][!code-js[_StartPeerWatcher](../windows.networking.proximity/code/Proximity_PeerWatcher/js/default.js#Snippet_StartPeerWatcher)]
 
-[!code-js[_StartPeerWatcher](../windows.networking.proximity/code/Proximity_PeerWatcher/js/default.js#Snippet_StartPeerWatcher)]
-
-[!code-csharp[_PeerWatcherStopped](../windows.networking.proximity/code/Proximity_PeerWatcher/cs/MainPage.xaml.cs#Snippet_PeerWatcherStopped)]
-
-[!code-js[_PeerWatcherStopped](../windows.networking.proximity/code/Proximity_PeerWatcher/js/default.js#Snippet_PeerWatcherStopped)]
+[!code-cs[_PeerWatcherStopped](../windows.networking.proximity/code/Proximity_PeerWatcher/cs/MainPage.xaml.cs#Snippet_PeerWatcherStopped)][!code-js[_PeerWatcherStopped](../windows.networking.proximity/code/Proximity_PeerWatcher/js/default.js#Snippet_PeerWatcherStopped)]
 
 [!code-js[_StartPeerWatcher_JS](../windows.networking.proximity/code/Proximity_PeerWatcher/js/default.js#Snippet_StartPeerWatcher_JS)]
 

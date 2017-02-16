@@ -4,7 +4,7 @@
     Public Sub New()
         InitializeComponent()
     End Sub
-    '<Snippet2_VB>
+    '<Snippet2>
     Private Sub ListBox_SelectionChanged(ByVal sender As Object, ByVal e As SelectionChangedEventArgs)
         Dim lbi As ListBoxItem = CType(CType(sender, ListBox).SelectedItem, ListBoxItem)
         SelectDataTemplate(lbi.Content)
@@ -63,5 +63,5 @@
         Return Nothing
 
     End Function
-    '</Snippet2_VB>
+    '</Snippet2>
 End Class

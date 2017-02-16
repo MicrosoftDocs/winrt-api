@@ -1,20 +1,3 @@
----
--api-id: T:Windows.System.FolderLauncherOptions
+----api-id: T:Windows.System.FolderLauncherOptions
 -api-type: winrt class
----
-
-<!-- Class syntax.
-public class FolderLauncherOptions : Windows.System.IFolderLauncherOptions, Windows.System.ILauncherViewOptions
--->
-
-# Windows.System.FolderLauncherOptions
-
-## -description
-Specifies the options to use when launching File Explorer to display the contents of a specific folder by calling the [LaunchFolderAsync(IStorageFolder, FolderLauncherOptions)](launcher_launchfolderasync_1551340761.md) method.
-
-## -remarks
-
-## -examples
-
-## -see-also
-[ILauncherViewOptions](ilauncherviewoptions.md)
+---<!-- Class syntax.public class FolderLauncherOptions : Windows.System.IFolderLauncherOptions, Windows.System.ILauncherViewOptions--># Windows.System.FolderLauncherOptions## -descriptionSpecifies the options to use when launching File Explorer to display the contents of a specific folder by calling the [LaunchFolderAsync(IStorageFolder, FolderLauncherOptions)](launcher_launchfolderasync_1551340761.md) method.## -remarks## -examples## -see-also[ILauncherViewOptions](ilauncherviewoptions.md)

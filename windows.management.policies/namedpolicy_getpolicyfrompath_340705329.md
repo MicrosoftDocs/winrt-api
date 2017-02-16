@@ -10,7 +10,7 @@ public NamedPolicyData NamedPolicy.GetPolicyFromPath(String area, String name)
 # Windows.Management.Policies.NamedPolicy.GetPolicyFromPath
 
 ## -description
-Gets the valid MDM policy information given a specified policy name and area name.
+Gets the valid policy given a specified policy name and area name.
 
 ## -params
 

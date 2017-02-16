@@ -1,20 +1,3 @@
----
--api-id: M:Windows.ApplicationModel.AppService.AppServiceDeferral.Complete
+----api-id: M:Windows.ApplicationModel.AppService.AppServiceDeferral.Complete
 -api-type: winrt method
----
-
-<!-- Method syntax
-public void Complete()
--->
-
-# Windows.ApplicationModel.AppService.AppServiceDeferral.Complete
-
-## -description
-Indicates that the content for an asynchronous handler for the [AppServiceConnection.RequestReceived](appserviceconnection_requestreceived.md) event is ready, or that an error occurred.
-
-## -remarks
-
-## -examples
-
-## -see-also
-[AppServiceRequestReceivedEventArgs.GetDeferral](appservicerequestreceivedeventargs_getdeferral.md), [AppServiceConnection.RequestReceived](appserviceconnection_requestreceived.md)
+---<!-- Method syntaxpublic void Complete()--># Windows.ApplicationModel.AppService.AppServiceDeferral.Complete## -descriptionIndicates that the content for an asynchronous handler for the [AppServiceConnection.RequestReceived](appserviceconnection_requestreceived.md) event is ready, or that an error occurred.## -remarks## -examples## -see-also[AppServiceRequestReceivedEventArgs.GetDeferral](appservicerequestreceivedeventargs_getdeferral.md), [AppServiceConnection.RequestReceived](appserviceconnection_requestreceived.md)

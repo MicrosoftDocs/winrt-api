@@ -1,22 +1,3 @@
----
--api-id: P:Windows.Devices.PointOfService.BarcodeSymbologies.UpceAdd2
+----api-id: P:Windows.Devices.PointOfService.BarcodeSymbologies.UpceAdd2
 -api-type: winrt property
----
-
-<!-- Property syntax
-public uint UpceAdd2 { get; }
--->
-
-# Windows.Devices.PointOfService.BarcodeSymbologies.UpceAdd2
-
-## -description
-Gets the UPC-E with 2 digit supplemnent barcode symbology.
-
-## -property-value
-The UPC-E with 2 digit supplemnent barcode symbology.
-
-## -remarks
-
-## -examples
-
-## -see-also
+---<!-- Property syntaxpublic uint UpceAdd2 { get; }--># Windows.Devices.PointOfService.BarcodeSymbologies.UpceAdd2## -descriptionGets the UPC-E with 2 digit supplemnent barcode symbology.## -property-valueThe UPC-E with 2 digit supplemnent barcode symbology.## -remarks## -examples## -see-also

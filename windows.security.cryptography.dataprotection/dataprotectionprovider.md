@@ -40,10 +40,10 @@ The following sample shows how to protect static data.
 
 
 
-[!code-csharp[ShowStaticProtection](../windows.security.cryptography.dataprotection/code/ProtectUnprotectAsync/csharp/StaticDataProtectionApp.xaml.cs#SnippetShowStaticProtection)]
+[!code-cs[ShowStaticProtection](../windows.security.cryptography.dataprotection/code/ProtectUnprotectAsync/csharp/StaticDataProtectionApp.xaml.cs#SnippetShowStaticProtection)]
 
 
 
-[!code-csharp[ShowProtectStream](../windows.security.cryptography.dataprotection/code/ProtectUnprotectStreamAsync/csharp/StreamDataProtectionApp.xaml.cs#SnippetShowProtectStream)]
+[!code-cs[ShowProtectStream](../windows.security.cryptography.dataprotection/code/ProtectUnprotectStreamAsync/csharp/StreamDataProtectionApp.xaml.cs#SnippetShowProtectStream)]
 
 ## -see-also

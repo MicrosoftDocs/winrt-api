@@ -1,20 +1,3 @@
----
--api-id: M:Windows.Devices.WiFiDirect.WiFiDirectDevice.Close
+----api-id: M:Windows.Devices.WiFiDirect.WiFiDirectDevice.Close
 -api-type: winrt method
----
-
-<!-- Method syntax
-public void Close()
--->
-
-# Windows.Devices.WiFiDirect.WiFiDirectDevice.Close
-
-## -description
-Close the active Wi-Fi Direct device connection.
-
-## -remarks
-
-## -examples
-
-## -see-also
-[WiFiDirectDevice sample](http://go.microsoft.com/fwlink/p/?LinkID=301419)
+---<!-- Method syntaxpublic void Close()--># Windows.Devices.WiFiDirect.WiFiDirectDevice.Close## -descriptionClose the active Wi-Fi Direct device connection.## -remarks## -examples## -see-also[WiFiDirectDevice sample](http://go.microsoft.com/fwlink/p/?LinkID=301419)

@@ -9,7 +9,7 @@ public GattServiceProviderTrigger Trigger { get; }
 
 # Windows.ApplicationModel.Background.GattServiceProviderTriggerResult.Trigger
 
-## -description
+## -desc
 Gets the Trigger created by [GattServiceProviderTrigger.CreateAsync](gattserviceprovidertrigger_createasync_776293710.md)
 
 ## -property-value

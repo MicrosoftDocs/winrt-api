@@ -1,20 +1,3 @@
----
--api-id: M:Windows.ApplicationModel.Preview.Notes.NotesWindowManagerPreview.SetFocusToNextView
+----api-id: M:Windows.ApplicationModel.Preview.Notes.NotesWindowManagerPreview.SetFocusToNextView
 -api-type: winrt method
----
-
-<!-- Method syntax
-public void SetFocusToNextView()
--->
-
-# Windows.ApplicationModel.Preview.Notes.NotesWindowManagerPreview.SetFocusToNextView
-
-## -description
-Switches focus to the next visible note view (window) or to the Windows Ink Workspace (see Remarks). The views are selected in a cyclic, system-determined order.
-
-## -remarks
-When the notes app is loaded from the Windows Ink Workspace, this method also switches focus to the Windows Ink Workspace and then back to views within the notes app.
-
-## -examples
-
-## -see-also
+---<!-- Method syntaxpublic void SetFocusToNextView()--># Windows.ApplicationModel.Preview.Notes.NotesWindowManagerPreview.SetFocusToNextView## -descriptionSwitches focus to the next visible note view (window) or to the Windows Ink Workspace (see Remarks). The views are selected in a cyclic, system-determined order.## -remarksWhen the notes app is loaded from the Windows Ink Workspace, this method also switches focus to the Windows Ink Workspace and then back to views within the notes app.## -examples## -see-also

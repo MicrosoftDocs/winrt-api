@@ -1,26 +1,3 @@
----
--api-id: M:Windows.Data.Xml.Dom.XmlElement.RemoveAttributeNS(System.Object,System.String)
+----api-id: M:Windows.Data.Xml.Dom.XmlElement.RemoveAttributeNS(System.Object,System.String)
 -api-type: winrt method
----
-
-<!-- Method syntax
-public void RemoveAttributeNS(System.Object namespaceUri, System.String localName)
--->
-
-# Windows.Data.Xml.Dom.XmlElement.RemoveAttributeNS
-
-## -description
-Removes the specified attribute from this element in the specified namespace.
-
-## -parameters
-### -param namespaceUri
-The namespace of attribute to be removed.
-
-### -param localName
-The name of the attribute without the namespace prefix.
-
-## -remarks
-
-## -examples
-
-## -see-also
+---<!-- Method syntaxpublic void RemoveAttributeNS(System.Object namespaceUri, System.String localName)--># Windows.Data.Xml.Dom.XmlElement.RemoveAttributeNS## -descriptionRemoves the specified attribute from this element in the specified namespace.## -parameters### -param namespaceUriThe namespace of attribute to be removed.### -param localNameThe name of the attribute without the namespace prefix.## -remarks## -examples## -see-also

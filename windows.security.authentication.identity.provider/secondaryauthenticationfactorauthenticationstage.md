@@ -41,9 +41,6 @@ Stopping authentication.
 Ready for lock.
 
 
-### -field CheckingDevicePresence:8
-
-
 ## -remarks
 
 ## -examples

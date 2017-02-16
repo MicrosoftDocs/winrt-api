@@ -17,7 +17,7 @@ The following example demonstrates how to monitor for and update the network sta
 
 
 
-[!code-csharp[MonitorLineChanges](../windows.applicationmodel.calls/code/ApplicationModel.Calls/cs/Scenario1.cs#SnippetMonitorLineChanges)]
+[!code-cs[MonitorLineChanges](../windows.applicationmodel.calls/code/ApplicationModel.Calls/cs/Scenario1.cs#SnippetMonitorLineChanges)]
 
 ## -examples
 

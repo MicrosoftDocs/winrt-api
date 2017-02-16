@@ -24,6 +24,6 @@ Hexadecimal encoded output string.
 ## -examples
 
 
-[!code-csharp[ShowHexEncoding] (../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowHexEncoding)]
+[!code-cs[ShowHexEncoding] (../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowHexEncoding)]
 
 ## -see-also

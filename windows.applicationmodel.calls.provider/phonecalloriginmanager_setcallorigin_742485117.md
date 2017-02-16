@@ -37,7 +37,7 @@ The following example shows how to set the location of the origin in response to
 
 
 
-[!code-csharp[ShowCallLocation](../windows.applicationmodel.calls.provider/code/CallProvider/cs/Scenario1.xaml.cs#SnippetShowCallLocation)]
+[!code-cs[ShowCallLocation](../windows.applicationmodel.calls.provider/code/CallProvider/cs/Scenario1.xaml.cs#SnippetShowCallLocation)]
 
 ## -examples
 

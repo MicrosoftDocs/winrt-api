@@ -10,7 +10,7 @@ namespace Windows.Management.Policies
 # Windows.Management.Policies
 
 ## -description
-Provides the ability for Universal Windows Platform (UWP) apps to query the current Mobile Device Management (MDM) policies on a device. 
+Provides the ability for Universal Windows Platform (UWP) apps to query the current enterprise management policies on a device. 
 
 ## -remarks
 

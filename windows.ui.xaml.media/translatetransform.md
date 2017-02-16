@@ -31,7 +31,7 @@ This example uses a [TranslateTransform](translatetransform.md) to offset text. 
 
 [!code-xml[TranslateTransform_2](../windows.ui.xaml/code/transforms/csharp/Translate_Transform_2.xaml#SnippetTranslateTransform_2)]
 
-[!code-csharp[TranslateTransform_2_code](../windows.ui.xaml/code/transforms/csharp/Translate_Transform_2.xaml.cs#SnippetTranslateTransform_2_code)]
+[!code-cs[TranslateTransform_2_code](../windows.ui.xaml/code/transforms/csharp/Translate_Transform_2.xaml.cs#SnippetTranslateTransform_2_code)]
 
 ## -see-also
 [XAML two-dimensional transforms sample](http://go.microsoft.com/fwlink/p/?linkid=238580), [Transform](transform.md)

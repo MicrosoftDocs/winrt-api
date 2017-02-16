@@ -1,37 +1,3 @@
----
--api-id: M:Windows.System.UserProfile.LockScreen.GetImageStream
+----api-id: M:Windows.System.UserProfile.LockScreen.GetImageStream
 -api-type: winrt method
----
-
-<!-- Method syntax
-public Windows.Storage.Streams.IRandomAccessStream GetImageStream()
--->
-
-# Windows.System.UserProfile.LockScreen.GetImageStream
-
-## -description
-Gets the current lock screen image as a data stream.
-
-## -returns
-The stream that contains the lock screen image data.
-
-## -remarks
-This method can be called only by apps that have set the "Picture Library Access" capability in the package manifest or by the app that set this image on the lock screen.
-
-## -examples
-The following example demonstrates this method being used to retrieve the current lock screen image. For a full sample, see the [Personalization app sample](http://go.microsoft.com/fwlink/p/?linkid=231592).
-
-```csharp
-
-IRandomAccessStream imageStream = LockScreen.GetImageStream();
-```
-
-```cpp
-
-auto imageStream = Windows::System::UserProfile::LockScreen::GetImageStream();
-```
-
-
-
-## -see-also
-[LockScreen.originalImageFile](lockscreen_originalimagefile.md), [LockScreen.setImageFileAsync](lockscreen_setimagefileasync.md), [LockScreen.setImageStreamAsync](lockscreen_setimagestreamasync.md), [Lock screen overview](http://msdn.microsoft.com/library/07fefb48-f55c-4ab7-8b68-a8aed11074fd)
+---<!-- Method syntaxpublic Windows.Storage.Streams.IRandomAccessStream GetImageStream()--># Windows.System.UserProfile.LockScreen.GetImageStream## -descriptionGets the current lock screen image as a data stream.## -returnsThe stream that contains the lock screen image data.## -remarksThis method can be called only by apps that have set the "Picture Library Access" capability in the package manifest or by the app that set this image on the lock screen.## -examplesThe following example demonstrates this method being used to retrieve the current lock screen image. For a full sample, see the [Personalization app sample](http://go.microsoft.com/fwlink/p/?linkid=231592).```csharpIRandomAccessStream imageStream = LockScreen.GetImageStream();``````cppauto imageStream = Windows::System::UserProfile::LockScreen::GetImageStream();```## -see-also[LockScreen.originalImageFile](lockscreen_originalimagefile.md), [LockScreen.setImageFileAsync](lockscreen_setimagefileasync.md), [LockScreen.setImageStreamAsync](lockscreen_setimagestreamasync.md), [Lock screen overview](http://msdn.microsoft.com/library/07fefb48-f55c-4ab7-8b68-a8aed11074fd)

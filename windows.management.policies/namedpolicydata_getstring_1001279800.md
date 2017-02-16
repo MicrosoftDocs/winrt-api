@@ -10,12 +10,12 @@ public string NamedPolicyData.GetString()
 # Windows.Management.Policies.NamedPolicyData.GetString
 
 ## -description
-Gets the string representation of the MDM policy value.
+Gets the string representation of the policy.
 
 ## -params
 
 ## -returns
-The string value of the MDM policy.
+The string value of the policy.
 
 ## -remarks
 

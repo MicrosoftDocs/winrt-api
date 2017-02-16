@@ -1,22 +1,3 @@
----
--api-id: P:Windows.Gaming.Input.Custom.XusbGameControllerProvider.FirmwareVersionInfo
+----api-id: P:Windows.Gaming.Input.Custom.XusbGameControllerProvider.FirmwareVersionInfo
 -api-type: winrt property
----
-
-<!-- Property syntax
-public Windows.Gaming.Input.Custom.GameControllerVersionInfo FirmwareVersionInfo { get; }
--->
-
-# Windows.Gaming.Input.Custom.XusbGameControllerProvider.FirmwareVersionInfo
-
-## -description
-The firmware version of the controller.
-
-## -property-value
-The firmware version of the controller.
-
-## -remarks
-
-## -examples
-
-## -see-also
+---<!-- Property syntaxpublic Windows.Gaming.Input.Custom.GameControllerVersionInfo FirmwareVersionInfo { get; }--># Windows.Gaming.Input.Custom.XusbGameControllerProvider.FirmwareVersionInfo## -descriptionThe firmware version of the controller.## -property-valueThe firmware version of the controller.## -remarks## -examples## -see-also

@@ -1,21 +1,3 @@
----
--api-id: T:Windows.Devices.Gpio.GpioPin
+----api-id: T:Windows.Devices.Gpio.GpioPin
 -api-type: winrt class
----
-
-<!-- Class syntax.
-public class GpioPin : Windows.Devices.Gpio.IGpioPin, Windows.Foundation.IClosable
--->
-
-# Windows.Devices.Gpio.GpioPin
-
-## -description
-Represents a general-purpose I/O (GPIO) pin.
-
-## -remarks
-To get a [GpioPin](gpiopin.md) object, use the [GpioController.OpenPin](gpiocontroller_openpin.md) or [GpioController.TryOpenPin](gpiocontroller_tryopenpin.md) method.
-
-## -examples
-
-## -see-also
-[IClosable](../windows.foundation/iclosable.md)
+---<!-- Class syntax.public class GpioPin : Windows.Devices.Gpio.IGpioPin, Windows.Foundation.IClosable--># Windows.Devices.Gpio.GpioPin## -descriptionRepresents a general-purpose I/O (GPIO) pin.## -remarksTo get a [GpioPin](gpiopin.md) object, use the [GpioController.OpenPin](gpiocontroller_openpin.md) or [GpioController.TryOpenPin](gpiocontroller_tryopenpin.md) method.## -examples## -see-also[IClosable](../windows.foundation/iclosable.md)

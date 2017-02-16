@@ -1,22 +1,3 @@
----
--api-id: P:Windows.Devices.HumanInterfaceDevice.HidCollection.UsageId
+----api-id: P:Windows.Devices.HumanInterfaceDevice.HidCollection.UsageId
 -api-type: winrt property
----
-
-<!-- Property syntax
-public uint UsageId { get; }
--->
-
-# Windows.Devices.HumanInterfaceDevice.HidCollection.UsageId
-
-## -description
-Retrieves the usage identifier for the given control collection.
-
-## -property-value
-The usage identifier.
-
-## -remarks
-
-## -examples
-
-## -see-also
+---<!-- Property syntaxpublic uint UsageId { get; }--># Windows.Devices.HumanInterfaceDevice.HidCollection.UsageId## -descriptionRetrieves the usage identifier for the given control collection.## -property-valueThe usage identifier.## -remarks## -examples## -see-also

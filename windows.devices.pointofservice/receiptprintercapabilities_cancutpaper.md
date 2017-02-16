@@ -1,22 +1,3 @@
----
--api-id: P:Windows.Devices.PointOfService.ReceiptPrinterCapabilities.CanCutPaper
+----api-id: P:Windows.Devices.PointOfService.ReceiptPrinterCapabilities.CanCutPaper
 -api-type: winrt property
----
-
-<!-- Property syntax
-public bool CanCutPaper { get; }
--->
-
-# Windows.Devices.PointOfService.ReceiptPrinterCapabilities.CanCutPaper
-
-## -description
-Gets whether the receipt printer station can perform paper cuts.
-
-## -property-value
-True if the receipt printer station can perform paper cuts; otherwise false.
-
-## -remarks
-
-## -examples
-
-## -see-also
+---<!-- Property syntaxpublic bool CanCutPaper { get; }--># Windows.Devices.PointOfService.ReceiptPrinterCapabilities.CanCutPaper## -descriptionGets whether the receipt printer station can perform paper cuts.## -property-valueTrue if the receipt printer station can perform paper cuts; otherwise false.## -remarks## -examples## -see-also

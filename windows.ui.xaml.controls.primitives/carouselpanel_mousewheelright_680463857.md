@@ -1,20 +1,3 @@
----
--api-id: M:Windows.UI.Xaml.Controls.Primitives.CarouselPanel.MouseWheelRight
+----api-id: M:Windows.UI.Xaml.Controls.Primitives.CarouselPanel.MouseWheelRight
 -api-type: winrt method
----
-
-<!-- Method syntax
-public void MouseWheelRight()
--->
-
-# Windows.UI.Xaml.Controls.Primitives.CarouselPanel.MouseWheelRight
-
-## -description
-Scrolls content by one mousewheel click towards the right.
-
-## -remarks
-This implementation calls [SetHorizontalOffset](carouselpanel_sethorizontaloffset.md) using a default value for "mousewheel click" of 48 pixels (3 lines) that comes from a default [ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md).
-
-## -examples
-
-## -see-also
+---<!-- Method syntaxpublic void MouseWheelRight()--># Windows.UI.Xaml.Controls.Primitives.CarouselPanel.MouseWheelRight## -descriptionScrolls content by one mousewheel click towards the right.## -remarksThis implementation calls [SetHorizontalOffset](carouselpanel_sethorizontaloffset.md) using a default value for "mousewheel click" of 48 pixels (3 lines) that comes from a default [ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md).## -examples## -see-also

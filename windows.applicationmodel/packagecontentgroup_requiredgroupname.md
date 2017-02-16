@@ -9,13 +9,13 @@ public string RequiredGroupName { get; }
 
 # Windows.ApplicationModel.PackageContentGroup.RequiredGroupName
 
-## -description
+## -desc
 Gets the name of the required content group.
 
 ## -property-value
-The name of the required content group.
 
 ## -remarks
+The name of the required content group.
 
 ## -see-also
 

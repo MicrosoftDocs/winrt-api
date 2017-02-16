@@ -1,30 +1,3 @@
----
--api-id: M:Windows.System.User.GetPictureAsync(Windows.System.UserPictureSize)
+----api-id: M:Windows.System.User.GetPictureAsync(Windows.System.UserPictureSize)
 -api-type: winrt method
----
-
-<!-- Method syntax
-public Windows.Foundation.IAsyncOperation<Windows.Storage.Streams.IRandomAccessStreamReference> GetPictureAsync(Windows.System.UserPictureSize desiredSize)
--->
-
-# Windows.System.User.GetPictureAsync
-
-## -description
-Gets a user's picture asynchronously.
-
-## -parameters
-### -param desiredSize
-The desired size of the user's picture to return.
-
-## -returns
-When this method completes, it returns the user's picture.
-
-## -remarks
-
-## -examples
-
-## -see-also
-[User information sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620617)
-
-## -capabilities
-userAccountInformation
+---<!-- Method syntaxpublic Windows.Foundation.IAsyncOperation<Windows.Storage.Streams.IRandomAccessStreamReference> GetPictureAsync(Windows.System.UserPictureSize desiredSize)--># Windows.System.User.GetPictureAsync## -descriptionGets a user's picture asynchronously.## -parameters### -param desiredSizeThe desired size of the user's picture to return.## -returnsWhen this method completes, it returns the user's picture.## -remarks## -examples## -see-also[User information sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620617)## -capabilitiesuserAccountInformation

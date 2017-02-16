@@ -28,6 +28,6 @@ The following code shows how to determine if a media stream is a live stream.
 
 
 
-[!code-csharp[MediaOpenedLiveStream](../windows.ui.xaml.media/code/MediaXamlSnippets/csharp/MainPage.xaml.cs#SnippetMediaOpenedLiveStream)]
+[!code-cs[MediaOpenedLiveStream](../windows.ui.xaml.media/code/MediaXamlSnippets/csharp/MainPage.xaml.cs#SnippetMediaOpenedLiveStream)]
 
 ## -see-also

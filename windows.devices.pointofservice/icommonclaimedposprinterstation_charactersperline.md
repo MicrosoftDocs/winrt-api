@@ -1,22 +1,3 @@
----
--api-id: P:Windows.Devices.PointOfService.ICommonClaimedPosPrinterStation.CharactersPerLine
+----api-id: P:Windows.Devices.PointOfService.ICommonClaimedPosPrinterStation.CharactersPerLine
 -api-type: winrt property
----
-
-<!-- Property syntax
-public uint CharactersPerLine { get;  set; }
--->
-
-# Windows.Devices.PointOfService.ICommonClaimedPosPrinterStation.CharactersPerLine
-
-## -description
-Gets or sets the number of characters the station can print per line of text.
-
-## -property-value
-The number of characters the device can print per line of text.
-
-## -remarks
-
-## -examples
-
-## -see-also
+---<!-- Property syntaxpublic uint CharactersPerLine { get;  set; }--># Windows.Devices.PointOfService.ICommonClaimedPosPrinterStation.CharactersPerLine## -descriptionGets or sets the number of characters the station can print per line of text.## -property-valueThe number of characters the device can print per line of text.## -remarks## -examples## -see-also

@@ -1,23 +1,3 @@
----
--api-id: P:Windows.Security.Authentication.Web.Core.WebTokenResponse.ProviderError
+----api-id: P:Windows.Security.Authentication.Web.Core.WebTokenResponse.ProviderError
 -api-type: winrt property
----
-
-<!-- Property syntax
-public Windows.Security.Authentication.Web.Core.WebProviderError ProviderError { get; }
--->
-
-# Windows.Security.Authentication.Web.Core.WebTokenResponse.ProviderError
-
-## -description
-Gets the error returned by the provider, if any.
-
-## -property-value
-The error returned by the provider.
-
-## -remarks
-
-## -examples
-
-## -see-also
-[Web account management code sample](http://go.microsoft.com/fwlink/p/?LinkId=620621)
+---<!-- Property syntaxpublic Windows.Security.Authentication.Web.Core.WebProviderError ProviderError { get; }--># Windows.Security.Authentication.Web.Core.WebTokenResponse.ProviderError## -descriptionGets the error returned by the provider, if any.## -property-valueThe error returned by the provider.## -remarks## -examples## -see-also[Web account management code sample](http://go.microsoft.com/fwlink/p/?LinkId=620621)

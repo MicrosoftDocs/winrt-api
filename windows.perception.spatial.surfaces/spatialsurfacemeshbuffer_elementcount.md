@@ -1,22 +1,3 @@
----
--api-id: P:Windows.Perception.Spatial.Surfaces.SpatialSurfaceMeshBuffer.ElementCount
+----api-id: P:Windows.Perception.Spatial.Surfaces.SpatialSurfaceMeshBuffer.ElementCount
 -api-type: winrt property
----
-
-<!-- Property syntax
-public uint ElementCount { get; }
--->
-
-# Windows.Perception.Spatial.Surfaces.SpatialSurfaceMeshBuffer.ElementCount
-
-## -description
-Gets the number of elements in the buffer.
-
-## -property-value
-The element count.
-
-## -remarks
-
-## -examples
-
-## -see-also
+---<!-- Property syntaxpublic uint ElementCount { get; }--># Windows.Perception.Spatial.Surfaces.SpatialSurfaceMeshBuffer.ElementCount## -descriptionGets the number of elements in the buffer.## -property-valueThe element count.## -remarks## -examples## -see-also

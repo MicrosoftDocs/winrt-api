@@ -1,23 +1,3 @@
----
--api-id: M:Windows.Media.Playback.MediaPlayer.GetAsCastingSource
+----api-id: M:Windows.Media.Playback.MediaPlayer.GetAsCastingSource
 -api-type: winrt method
----
-
-<!-- Method syntax
-public Windows.Media.Casting.CastingSource GetAsCastingSource()
--->
-
-# Windows.Media.Playback.MediaPlayer.GetAsCastingSource
-
-## -description
-Gets a [CastingSource](../windows.media.casting/castingsource.md) representing the [MediaPlayer](mediaplayer.md), which allows it's media to be cast to other devices.
-
-## -returns
-The casting source.
-
-## -remarks
-For more information on casting media to remote devices, see [Media casting](https://msdn.microsoft.com/windows/uwp/audio-video-camera/media-casting).
-
-## -examples
-
-## -see-also
+---<!-- Method syntaxpublic Windows.Media.Casting.CastingSource GetAsCastingSource()--># Windows.Media.Playback.MediaPlayer.GetAsCastingSource## -descriptionGets a [CastingSource](../windows.media.casting/castingsource.md) representing the [MediaPlayer](mediaplayer.md), which allows it's media to be cast to other devices.## -returnsThe casting source.## -remarksFor more information on casting media to remote devices, see [Media casting](https://msdn.microsoft.com/windows/uwp/audio-video-camera/media-casting).## -examples## -see-also

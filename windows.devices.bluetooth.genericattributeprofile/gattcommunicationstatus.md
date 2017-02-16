@@ -22,15 +22,8 @@ The operation completed successfully.
 No communication can be performed with the device, at this time.
 
 
-### -field AccessDenied:3
-
-
-### -field ProtocolError:2
-
-
 ## -remarks
 
 ## -examples
 
 ## -see-also
-

@@ -1,22 +1,3 @@
----
--api-id: P:Windows.Security.Authentication.Identity.Core.MicrosoftAccountMultiFactorOneTimeCodedInfo.TimeInterval
+----api-id: P:Windows.Security.Authentication.Identity.Core.MicrosoftAccountMultiFactorOneTimeCodedInfo.TimeInterval
 -api-type: winrt property
----
-
-<!-- Property syntax
-public Windows.Foundation.TimeSpan TimeInterval { get; }
--->
-
-# Windows.Security.Authentication.Identity.Core.MicrosoftAccountMultiFactorOneTimeCodedInfo.TimeInterval
-
-## -description
-This API is for internal use only and should not be used in your code.
-
-## -property-value
-This API is for internal use only and should not be used in your code.
-
-## -remarks
-
-## -examples
-
-## -see-also
+---<!-- Property syntaxpublic Windows.Foundation.TimeSpan TimeInterval { get; }--># Windows.Security.Authentication.Identity.Core.MicrosoftAccountMultiFactorOneTimeCodedInfo.TimeInterval## -descriptionThis API is for internal use only and should not be used in your code.## -property-valueThis API is for internal use only and should not be used in your code.## -remarks## -examples## -see-also

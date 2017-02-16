@@ -1,23 +1,3 @@
----
--api-id: M:Windows.Media.Capture.MediaCapture.ResumeRecordAsync
+----api-id: M:Windows.Media.Capture.MediaCapture.ResumeRecordAsync
 -api-type: winrt method
----
-
-<!-- Method syntax
-public Windows.Foundation.IAsyncAction ResumeRecordAsync()
--->
-
-# Windows.Media.Capture.MediaCapture.ResumeRecordAsync
-
-## -description
-Resumes a paused recording operation.
-
-## -returns
-An asynchronous operation.
-
-## -remarks
-Pause recording by calling [PauseRecordAsync](mediacapture_pauserecordasync.md).
-
-## -examples
-
-## -see-also
+---<!-- Method syntaxpublic Windows.Foundation.IAsyncAction ResumeRecordAsync()--># Windows.Media.Capture.MediaCapture.ResumeRecordAsync## -descriptionResumes a paused recording operation.## -returnsAn asynchronous operation.## -remarksPause recording by calling [PauseRecordAsync](mediacapture_pauserecordasync.md).## -examples## -see-also

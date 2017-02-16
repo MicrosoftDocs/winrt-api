@@ -1,23 +1,3 @@
----
--api-id: P:Windows.Media.Devices.FocusControl.Supported
+----api-id: P:Windows.Media.Devices.FocusControl.Supported
 -api-type: winrt property
----
-
-<!-- Property syntax
-public bool Supported { get; }
--->
-
-# Windows.Media.Devices.FocusControl.Supported
-
-## -description
-Gets a value that specifies if the capture device supports the focus control.
-
-## -property-value
-**true** if the capture device supports the [FocusControl](focuscontrol.md); otherwise, **false**.
-
-## -remarks
-If the device does not support the [FocusControl](focuscontrol.md), you can still use the [Focus](videodevicecontroller_focus.md) property on the [VideoCaptureDevice](http://msdn.microsoft.com/library/afba2768-11a0-4105-a5b1-c48bc961e9ed) to set the focus value.
-
-## -examples
-
-## -see-also
+---<!-- Property syntaxpublic bool Supported { get; }--># Windows.Media.Devices.FocusControl.Supported## -descriptionGets a value that specifies if the capture device supports the focus control.## -property-value**true** if the capture device supports the [FocusControl](focuscontrol.md); otherwise, **false**.## -remarksIf the device does not support the [FocusControl](focuscontrol.md), you can still use the [Focus](videodevicecontroller_focus.md) property on the [VideoCaptureDevice](http://msdn.microsoft.com/library/afba2768-11a0-4105-a5b1-c48bc961e9ed) to set the focus value.## -examples## -see-also
