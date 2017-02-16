@@ -10,8 +10,10 @@ public FocusNavigationDirection Direction { get; }
 # Windows.UI.Xaml.Input.LosingFocusEventArgs.Direction
 
 ## -description
+Gets the direction that focus moved from element to element within the app UI.
 
 ## -property-value
+The direction of focus movement.
 
 ## -remarks
 

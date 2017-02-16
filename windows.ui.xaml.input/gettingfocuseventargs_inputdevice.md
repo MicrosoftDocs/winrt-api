@@ -10,8 +10,10 @@ public FocusInputDeviceKind InputDevice { get; }
 # Windows.UI.Xaml.Input.GettingFocusEventArgs.InputDevice
 
 ## -description
+Gets the input device type from which input events are received.
 
 ## -property-value
+The input device type.
 
 ## -remarks
 

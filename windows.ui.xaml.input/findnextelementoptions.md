@@ -10,6 +10,7 @@ public class FindNextElementOptions
 # Windows.UI.Xaml.Input.FindNextElementOptions
 
 ## -description
+Provides options to help identify the next element to receive focus with keyboard/controller/remote navigation.
 
 ## -remarks
 
