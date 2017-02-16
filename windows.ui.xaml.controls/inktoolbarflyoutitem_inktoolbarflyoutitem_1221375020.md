@@ -10,6 +10,7 @@ public InkToolbarFlyoutItem.InkToolbarFlyoutItem()
 # Windows.UI.Xaml.Controls.InkToolbarFlyoutItem.InkToolbarFlyoutItem
 
 ## -description
+Initializes a new instance of the [InkToolbarFlyoutItem](inktoolbarflyoutitem.md) class.
 
 ## -parameters
 

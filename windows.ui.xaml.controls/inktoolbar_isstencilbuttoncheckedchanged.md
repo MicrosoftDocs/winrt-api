@@ -10,10 +10,12 @@ public event TypedEventHandler IsStencilButtonCheckedChanged<InkToolbar, InkTool
 # Windows.UI.Xaml.Controls.InkToolbar.IsStencilButtonCheckedChanged
 
 ## -description
+Occurs when the toggled state of the [InkToolbaStencilButton](inktoolbarstencilbutton.md) changes.
 
 ## -remarks
 
 ## -see-also
+[InkToolbaStencilButton](inktoolbarstencilbutton.md)
 
 ## -examples
 

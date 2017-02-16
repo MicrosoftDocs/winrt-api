@@ -10,8 +10,10 @@ public InkToolbarStencilKind StencilKind { get; }
 # Windows.UI.Xaml.Controls.InkToolbarIsStencilButtonCheckedChangedEventArgs.StencilKind
 
 ## -description
+Gets the type of stencil.
 
 ## -property-value
+The type of stencil.
 
 ## -remarks
 

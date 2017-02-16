@@ -10,8 +10,10 @@ public bool IsProtractorItemVisible { get;  set; }
 # Windows.UI.Xaml.Controls.InkToolbarStencilButton.IsProtractorItemVisible
 
 ## -description
+Gets or sets whether the built-in protractor stencil button is visible.
 
 ## -property-value
+**true** if visible. Otherwise, **false**.
 
 ## -remarks
 

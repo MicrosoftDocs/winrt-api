@@ -10,8 +10,10 @@ public InkToolbarMenuKind MenuKind { get; }
 # Windows.UI.Xaml.Controls.InkToolbarMenuButton.MenuKind
 
 ## -description
+Gets the type of menu button.
 
 ## -property-value
+The type of menu button.
 
 ## -remarks
 

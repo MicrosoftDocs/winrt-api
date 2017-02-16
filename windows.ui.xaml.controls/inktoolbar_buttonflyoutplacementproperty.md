@@ -10,6 +10,7 @@ public DependencyProperty ButtonFlyoutPlacementProperty { get; }
 # Windows.UI.Xaml.Controls.InkToolbar.ButtonFlyoutPlacementProperty
 
 ## -description
+Identifies the [ButtonFlyoutPlacement](inktoolbar_buttonflyoutplacement.md) dependency property.
 
 ## -property-value
 

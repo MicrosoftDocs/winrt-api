@@ -10,12 +10,14 @@ public DependencyProperty OrientationProperty { get; }
 # Windows.UI.Xaml.Controls.InkToolbar.OrientationProperty
 
 ## -description
+Identifies the [InkToolbar.Orientation](inktoolbar_orientation.md) dependency property.
 
 ## -property-value
+The identifier for the [InkToolbar.Orientation](inktoolbar_orientation.md) dependency property.
 
 ## -remarks
 
-## -see-also
-
 ## -examples
 
+## -see-also
+[InkToolbar.Orientation](inktoolbar_orientation.md)

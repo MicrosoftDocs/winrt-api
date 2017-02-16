@@ -10,8 +10,10 @@ public InkToolbarStencilButton StencilButton { get; }
 # Windows.UI.Xaml.Controls.InkToolbarIsStencilButtonCheckedChangedEventArgs.StencilButton
 
 ## -description
+Gets the button for the selected stencil.
 
 ## -property-value
+The stencil button.
 
 ## -remarks
 
