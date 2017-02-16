@@ -10,7 +10,7 @@ public void TargetedContentSubscriptionOptions.Update()
 # Windows.Services.TargetedContent.TargetedContentSubscriptionOptions.Update
 
 ## -description
-
+Updates the TargetedContentSubscriptionOptions object for a subscription.
 ## -parameters
 
 ## -remarks
