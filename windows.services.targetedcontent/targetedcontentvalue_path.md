@@ -10,7 +10,7 @@ public string Path { get; }
 # Windows.Services.TargetedContent.TargetedContentValue.Path
 
 ## -description
-
+Gets the string path for the TargetedContentValue object.
 ## -property-value
 
 ## -remarks
