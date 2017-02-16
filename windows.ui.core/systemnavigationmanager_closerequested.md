@@ -10,6 +10,7 @@ public event TypedEventHandler CloseRequested<SystemNavigationManager, SystemNav
 # Windows.UI.Core.SystemNavigationManager.CloseRequested
 
 ## -description
+Occurs when a user initiates closing the app window using a UI affordance such as the system close button ('x'). 
 
 ## -remarks
 

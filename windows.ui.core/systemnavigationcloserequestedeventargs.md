@@ -10,6 +10,7 @@ public class SystemNavigationCloseRequestedEventArgs
 # Windows.UI.Core.SystemNavigationCloseRequestedEventArgs
 
 ## -description
+Provides event data for the [CloseRequested](systemnavigationmanager_closerequested.md) event.
 
 ## -remarks
 
