@@ -21,19 +21,19 @@ The following example demonstrates how a Windows Store app built with XAML and C
 
 
 
-[!code-csharp[GetDefaultCS](../windows.devices.sensors/code/compass/csharp/Scenario1.xaml.cs#SnippetGetDefaultCS)]
+[!code-cs[GetDefaultCS](../windows.devices.sensors/code/compass/csharp/Scenario1.xaml.cs#SnippetGetDefaultCS)]
 
 The following example demonstrates how a Windows Store app built with XAML registers a [ReadingChanged](compass_readingchanged.md) event handler.
 
 
 
-[!code-csharp[EnableReadingChangedCS](../windows.devices.sensors/code/compass/csharp/Scenario1.xaml.cs#SnippetEnableReadingChangedCS)]
+[!code-cs[EnableReadingChangedCS](../windows.devices.sensors/code/compass/csharp/Scenario1.xaml.cs#SnippetEnableReadingChangedCS)]
 
 The following example shows the [ReadingChanged](compass_readingchanged.md) event handler.
 
 
 
-[!code-csharp[ReadingChangedCS](../windows.devices.sensors/code/compass/csharp/Scenario1.xaml.cs#SnippetReadingChangedCS)]
+[!code-cs[ReadingChangedCS](../windows.devices.sensors/code/compass/csharp/Scenario1.xaml.cs#SnippetReadingChangedCS)]
 
 ## -examples
 

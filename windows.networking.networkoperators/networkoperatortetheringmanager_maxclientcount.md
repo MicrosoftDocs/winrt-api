@@ -1,22 +1,3 @@
----
--api-id: P:Windows.Networking.NetworkOperators.NetworkOperatorTetheringManager.MaxClientCount
+----api-id: P:Windows.Networking.NetworkOperators.NetworkOperatorTetheringManager.MaxClientCount
 -api-type: winrt property
----
-
-<!-- Property syntax
-public uint MaxClientCount { get; }
--->
-
-# Windows.Networking.NetworkOperators.NetworkOperatorTetheringManager.MaxClientCount
-
-## -description
-Gets the maximum number of client connections over a tethered network.
-
-## -property-value
-The maximum number of client connections
-
-## -remarks
-
-## -examples
-
-## -see-also
+---<!-- Property syntaxpublic uint MaxClientCount { get; }--># Windows.Networking.NetworkOperators.NetworkOperatorTetheringManager.MaxClientCount## -descriptionGets the maximum number of client connections over a tethered network.## -property-valueThe maximum number of client connections## -remarks## -examples## -see-also

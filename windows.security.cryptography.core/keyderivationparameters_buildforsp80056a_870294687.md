@@ -45,7 +45,7 @@ You can use the following algorithm names with the [OpenAlgorithm](keyderivation
 ## -examples
 
 
-[!code-csharp[[!code-csharp[GetDefaultLine] (../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowDerivationFromSP80056a)]
+[!code-cs[[!code-cs[GetDefaultLine] (../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowDerivationFromSP80056a)]
 ] (../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowDerivationFromSP80056a)]
 
 ## -see-also

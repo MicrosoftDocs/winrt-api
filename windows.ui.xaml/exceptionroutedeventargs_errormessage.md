@@ -23,7 +23,7 @@ This example shows use of [ExceptionRoutedEventArgs](exceptionroutedeventargs.md
 
 
 
-[!code-csharp[MediaPlayer_MediaFailedHandlers](../windows.ui.xaml/code/MediaPlayerQuickStart/csharp/MainPage.xaml.cs#SnippetMediaPlayer_MediaFailedHandlers)]
+[!code-cs[MediaPlayer_MediaFailedHandlers](../windows.ui.xaml/code/MediaPlayerQuickStart/csharp/MainPage.xaml.cs#SnippetMediaPlayer_MediaFailedHandlers)]
 
 ## -see-also
 [MediaFailedRoutedEventArgs](mediafailedroutedeventargs.md), [ImageFailed](../windows.ui.xaml.controls/image_imagefailed.md)

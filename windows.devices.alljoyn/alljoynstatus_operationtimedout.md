@@ -1,26 +1,3 @@
----
--api-id: P:Windows.Devices.AllJoyn.AllJoynStatus.OperationTimedOut
+----api-id: P:Windows.Devices.AllJoyn.AllJoynStatus.OperationTimedOut
 -api-type: winrt property
----
-
-<!-- Property syntax
-public int OperationTimedOut { get; }
--->
-
-# Windows.Devices.AllJoyn.AllJoynStatus.OperationTimedOut
-
-## -description
-The operation timed out.
-
-## -property-value
-The relevant AllJoyn status code.
-
-## -remarks
-
-## -examples
-
-## -see-also
-
-
-## -capabilities
-allJoyn
+---<!-- Property syntaxpublic int OperationTimedOut { get; }--># Windows.Devices.AllJoyn.AllJoynStatus.OperationTimedOut## -descriptionThe operation timed out.## -property-valueThe relevant AllJoyn status code.## -remarks## -examples## -see-also## -capabilitiesallJoyn

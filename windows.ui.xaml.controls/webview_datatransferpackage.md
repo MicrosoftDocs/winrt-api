@@ -26,11 +26,7 @@ The following code example demonstrates how to use this property to implement sh
 
 
 
-[!code-cpp[DataTransferPackage](../windows.ui.xaml.input/code/Controls_WebView/cpp/Scenario7.xaml.cpp#SnippetDataTransferPackage)]
-
-[!code-csharp[DataTransferPackage](../windows.ui.xaml.input/code/Controls_WebView/csharp/Scenario7.xaml.cs#SnippetDataTransferPackage)]
-
-[!code-vb[DataTransferPackage](../windows.ui.xaml.input/code/Controls_WebView/vbnet/Scenario7.xaml.vb#SnippetDataTransferPackage)]
+[!code-cpp[DataTransferPackage](../windows.ui.xaml.input/code/Controls_WebView/cpp/Scenario7.xaml.cpp#SnippetDataTransferPackage)][!code-cs[DataTransferPackage](../windows.ui.xaml.input/code/Controls_WebView/csharp/Scenario7.xaml.cs#SnippetDataTransferPackage)][!code-vb[DataTransferPackage](../windows.ui.xaml.input/code/Controls_WebView/vbnet/Scenario7.xaml.vb#SnippetDataTransferPackage)]
 
 ## -see-also
 [XAML WebView control sample](http://go.microsoft.com/fwlink/p/?linkid=238582)

@@ -1,21 +1,3 @@
----
--api-id: T:Windows.Devices.PointOfService.PosPrinterCapabilities
+----api-id: T:Windows.Devices.PointOfService.PosPrinterCapabilities
 -api-type: winrt class
----
-
-<!-- Class syntax.
-public class PosPrinterCapabilities : Windows.Devices.PointOfService.IPosPrinterCapabilities
--->
-
-# Windows.Devices.PointOfService.PosPrinterCapabilities
-
-## -description
-Represents the capabilities of the point-of-service printer.
-
-## -remarks
-To get the capabilities of the point-of-service printer, use the [PosPrinter.Capabilities](posprinter_capabilities.md) property.
-
-## -examples
-
-## -see-also
-[PosPrinter.Capabilities](posprinter_capabilities.md)
+---<!-- Class syntax.public class PosPrinterCapabilities : Windows.Devices.PointOfService.IPosPrinterCapabilities--># Windows.Devices.PointOfService.PosPrinterCapabilities## -descriptionRepresents the capabilities of the point-of-service printer.## -remarksTo get the capabilities of the point-of-service printer, use the [PosPrinter.Capabilities](posprinter_capabilities.md) property.## -examples## -see-also[PosPrinter.Capabilities](posprinter_capabilities.md)

@@ -19,6 +19,7 @@ Switches focus to the previous visible note view (window) or to the Windows Ink 
 When the notes app is loaded from the Windows Ink Workspace, this method also switches focus to the Windows Ink Workspace and then back to views within the notes app.
 
 ## -see-also
+[NotesWindowManagerPreview](noteswindowmanagerpreview.md)
 
 ## -examples
 

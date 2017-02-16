@@ -10,10 +10,10 @@ public Windows.UI.Input.Inking.InkPresenterStencilKind Kind { get; }
 # Windows.UI.Input.Inking.InkPresenterProtractor.Kind
 
 ## -description
-Gets the type of stencil to display on the [InkCanvas](../windows.ui.xaml.controls/inkcanvas.md).
+TBD
 
 ## -property-value
-The type of stencil.
+
 
 ## -remarks
 

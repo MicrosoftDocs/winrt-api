@@ -8,13 +8,13 @@
 ## -description
 Enables application developers to access Point of Service (POS) peripheral devices. The namespace provides a vendor-neutral interface for accessing POS devices from various manufacturers from the Windows Store app.
 
-[Barcode scanner](barcodescanner.md) enables application developers to access barcode scanners to retrieve decoded data from a variety of barcode symbologies such as UPC and QR Codes depending on support from the hardware.
+[Barcode scanner](barcode_scanner.md) enables application developers to access barcode scanners to retrieve decoded data from a variety of barcode symbologies such as UPC and QR Codes depending on support from the hardware.
 
-[Cash drawer](cashdrawer.md) enables application developers to interact with cash drawers.
+[Cash drawer](cash_drawer.md) enables application developers to interact with cash drawers.
 
-[Magnetic stripe reader](magneticstripereader.md) enables application developers to access magnetic stripe readers to retrieve data from magnetic stripe enabled cards such as credit/debit cards, loyalty cards, access cards, etc.
+[Magnetic stripe reader](magnetic_stripe_reader.md) enables application developers to access magnetic stripe readers to retrieve data from magnetic stripe enabled cards such as credit/debit cards, loyalty cards, access cards, etc.
 
-[POS printer](posprinter.md) enables application developers to print to network and Bluetooth connected receipt printers using the Epson ESC/POS printer control language.
+[POS printer](pos_printer.md) enables application developers to print to network and Bluetooth connected receipt printers using the Epson ESC/POS printer control language.
 
 <table>
    <tr><th>Common Members</th><th>Description</th></tr>
@@ -26,7 +26,7 @@ Enables application developers to access Point of Service (POS) peripheral devic
 </table>
 
 ## -remarks
-Applications which require this namespace require the addition of the “pointOfService” [DeviceCapability](https://msdn.microsoft.com/en-us/library/windows/apps/4353c4fd-f038-4986-81ed-d2ec0c6235ef) to the app package manifest.
+Applications which require this namespace require the addition of “pointOfService” [DeviceCapability](XREF:TODO:appxmanifestschema.element_devicecapability) to the app package manifest.
 
 ## -examples
 

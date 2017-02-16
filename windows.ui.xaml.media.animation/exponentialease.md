@@ -30,13 +30,9 @@ This XAML example applies a [ExponentialEase](exponentialease.md) easing functio
 
 
 
-[!code-xml[ExponentialEase](../windows.ui.xaml.media.animation/code/ExponentialEase/csharp/Page.xaml#SnippetExponentialEase)]
+[!code-xml[ExponentialEase](../windows.ui.xaml.media.animation/code/ExponentialEase/csharp/Page.xaml#SnippetExponentialEase)][!code-vb[ExponentialEase](../windows.ui.xaml.media.animation/code/ExponentialEase/vbnet/MainPage.xaml.vb#SnippetExponentialEase)]
 
-[!code-vb[ExponentialEase](../windows.ui.xaml.media.animation/code/ExponentialEase/vbnet/MainPage.xaml.vb#SnippetExponentialEase)]
-
-[!code-csharp[ExponentialEase_code](../windows.ui.xaml.media.animation/code/ExponentialEase/csharp/Page.xaml.cs#SnippetExponentialEase_code)]
-
-[!code-vb[ExponentialEase_code](../windows.ui.xaml.media.animation/code/ExponentialEase/vbnet/MainPage.xaml.vb#SnippetExponentialEase_code)]
+[!code-cs[ExponentialEase_code](../windows.ui.xaml.media.animation/code/ExponentialEase/csharp/Page.xaml.cs#SnippetExponentialEase_code)][!code-vb[ExponentialEase_code](../windows.ui.xaml.media.animation/code/ExponentialEase/vbnet/MainPage.xaml.vb#SnippetExponentialEase_code)]
 
 ## -see-also
 [Storyboarded animations](http://msdn.microsoft.com/library/0cbceea0-2b0e-44a1-a09a-f7a939632f3a), [Key-frame animations and easing function animations](http://msdn.microsoft.com/library/d8af24cd-f4c2-4562-afd7-25010955d677), [EasingFunctionBase](easingfunctionbase.md), [PowerEase](powerease.md), [BackEase](backease.md), [BounceEase](bounceease.md), [CircleEase](circleease.md), [CubicEase](cubicease.md), [ElasticEase](elasticease.md), [QuadraticEase](quadraticease.md), [QuarticEase](quarticease.md), [QuinticEase](quinticease.md), [SineEase](sineease.md)

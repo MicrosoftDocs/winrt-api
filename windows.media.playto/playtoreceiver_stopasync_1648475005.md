@@ -20,11 +20,7 @@ For an example of creating a software Play To receiver, see [Media casting](http
 
 
 
-[!code-csharp[StopAsync](../windows.media.playto/code/PlayTo_Receiver1/csharp/MainPage.xaml.cs#SnippetStopAsync)]
-
-[!code-js[StopAsync](../windows.media.playto/code/PlayTo_Receiver1/javascript/default.js#SnippetStopAsync)]
-
-[!code-vb[StopAsync](../windows.media.playto/code/PlayTo_Receiver1/vbnet/MainPage.xaml.vb#SnippetStopAsync)]
+[!code-cs[StopAsync](../windows.media.playto/code/PlayTo_Receiver1/csharp/MainPage.xaml.cs#SnippetStopAsync)][!code-js[StopAsync](../windows.media.playto/code/PlayTo_Receiver1/javascript/default.js#SnippetStopAsync)][!code-vb[StopAsync](../windows.media.playto/code/PlayTo_Receiver1/vbnet/MainPage.xaml.vb#SnippetStopAsync)]
 
 ## -examples
 

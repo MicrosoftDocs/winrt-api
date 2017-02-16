@@ -1,20 +1,3 @@
----
--api-id: T:Windows.Devices.WiFi.WiFiConnectionResult
+----api-id: T:Windows.Devices.WiFi.WiFiConnectionResult
 -api-type: winrt class
----
-
-<!-- Class syntax.
-public class WiFiConnectionResult : Windows.Devices.WiFi.IWiFiConnectionResult
--->
-
-# Windows.Devices.WiFi.WiFiConnectionResult
-
-## -description
-Describes the results of an attempt to connect to a Wi-Fi network.
-
-## -remarks
-An instance of this class is created and returned by the [WiFiAdapter.ConnectAsync](wifiadapter_connectasync.md) function.
-
-## -examples
-
-## -see-also
+---<!-- Class syntax.public class WiFiConnectionResult : Windows.Devices.WiFi.IWiFiConnectionResult--># Windows.Devices.WiFi.WiFiConnectionResult## -descriptionDescribes the results of an attempt to connect to a Wi-Fi network.## -remarksAn instance of this class is created and returned by the [WiFiAdapter.ConnectAsync](wifiadapter_connectasync.md) function.## -examples## -see-also

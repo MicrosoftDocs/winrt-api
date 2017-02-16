@@ -18,7 +18,7 @@ namespace DataTemplateSelectionSnippets
         {
             InitializeComponent();
         }
-        //<Snippet2_CS>
+        //<Snippet2>
         private void ListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             ListBoxItem lbi = ((sender as ListBox).SelectedItem as ListBoxItem);
@@ -81,7 +81,7 @@ namespace DataTemplateSelectionSnippets
             }
             return null;
         }
-        //</Snippet2_CS>
+        //</Snippet2>
 
 
     }

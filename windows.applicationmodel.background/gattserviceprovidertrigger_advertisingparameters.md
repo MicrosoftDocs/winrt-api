@@ -9,7 +9,7 @@ public GattServiceProviderAdvertisingParameters AdvertisingParameters { get;  se
 
 # Windows.ApplicationModel.Background.GattServiceProviderTrigger.AdvertisingParameters
 
-## -description
+## -desc
 Gets the advertising parameters which control whether the radio is connected/discoverable.
 
 ## -property-value

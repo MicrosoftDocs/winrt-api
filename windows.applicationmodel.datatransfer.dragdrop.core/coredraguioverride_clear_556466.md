@@ -1,19 +1,3 @@
----
--api-id: M:Windows.ApplicationModel.DataTransfer.DragDrop.Core.CoreDragUIOverride.Clear
+----api-id: M:Windows.ApplicationModel.DataTransfer.DragDrop.Core.CoreDragUIOverride.Clear
 -api-type: winrt method
----
-
-<!-- Method syntax
-public void Clear()
--->
-
-# Windows.ApplicationModel.DataTransfer.DragDrop.Core.CoreDragUIOverride.Clear
-
-## -description
-Clears all existing custom UI overrides.
-
-## -remarks
-
-## -examples
-
-## -see-also
+---<!-- Method syntaxpublic void Clear()--># Windows.ApplicationModel.DataTransfer.DragDrop.Core.CoreDragUIOverride.Clear## -descriptionClears all existing custom UI overrides.## -remarks## -examples## -see-also

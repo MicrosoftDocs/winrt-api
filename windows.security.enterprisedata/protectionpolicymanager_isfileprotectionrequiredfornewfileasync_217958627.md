@@ -10,10 +10,9 @@ public Windows.Foundation.IAsyncOperation<bool> IsFileProtectionRequiredForNewFi
 # Windows.Security.EnterpriseData.ProtectionPolicyManager.IsFileProtectionRequiredForNewFileAsync
 
 ## -description
-Indicates whether a file needs to be protected by the enterprise identity.
+Indicates whether files in a specific folder need to be protected by the enterprise identity.
 
 ## -parameters
-
 ### -param parentFolder
 The folder that contains files that that you want to know whether to protect.
 
@@ -21,7 +20,7 @@ The folder that contains files that that you want to know whether to protect.
 The enterprise identity.
 
 ### -param desiredName
-The name that you would like to give the file.
+
 
 ## -returns
 **true** if files in this folder should be protected, otherwise **false**.

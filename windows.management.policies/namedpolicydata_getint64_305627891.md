@@ -10,12 +10,12 @@ public long NamedPolicyData.GetInt64()
 # Windows.Management.Policies.NamedPolicyData.GetInt64
 
 ## -description
-Gets the 64 bit integer representation of the MDM policy value.
+Gets the 64 bit integer representation of the policy.
 
 ## -params
 
 ## -returns
-The 64 bit integer value of the MDM policy.
+The 64 bit integer value of the policy.
 
 ## -remarks
 

@@ -1,22 +1,3 @@
----
--api-id: P:Windows.Devices.HumanInterfaceDevice.HidCollection.Id
+----api-id: P:Windows.Devices.HumanInterfaceDevice.HidCollection.Id
 -api-type: winrt property
----
-
-<!-- Property syntax
-public uint Id { get; }
--->
-
-# Windows.Devices.HumanInterfaceDevice.HidCollection.Id
-
-## -description
-Retrieves the identifier for a collection of HID controls.
-
-## -property-value
-The collection identifier.
-
-## -remarks
-
-## -examples
-
-## -see-also
+---<!-- Property syntaxpublic uint Id { get; }--># Windows.Devices.HumanInterfaceDevice.HidCollection.Id## -descriptionRetrieves the identifier for a collection of HID controls.## -property-valueThe collection identifier.## -remarks## -examples## -see-also

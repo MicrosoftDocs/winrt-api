@@ -10,7 +10,7 @@ public enum Windows.Networking.Proximity.TriggeredConnectState : int
 # TriggeredConnectState
 
 ## -description
-Indicates the current state of a connection to a peer application.
+Indicates the current state <?xm-insertion_mark_start author="v-shawja" time="20120126T110818-0800"?> of a connection<?xm-insertion_mark_end?><?xm-deletion_mark author="v-shawja" time="20120126T110823-0800" data="when connecting"?> to a peer application.
 
 ## -enum-fields
 ### -field PeerFound:0
@@ -23,7 +23,7 @@ This side of the socket connection will be the host and is waiting for a connect
 This side of the socket connection will be the client and is attempting to connect to the peer.
 
 ### -field Completed:3
-The connection is complete, and the [StreamSocket](../windows.networking.sockets/streamsocket_streamsocket.md) class can now be used to communicate with the peer.
+The connection is complete<?xm-insertion_mark_start author="v-shawja" time="20120126T110906-0800"?>,<?xm-insertion_mark_end?> and the [StreamSocket](../windows.networking.sockets/streamsocket_streamsocket.md) class can now be used to communicate with the peer.
 
 ### -field Canceled:4
 The connection was stopped before it was completed.
@@ -39,9 +39,7 @@ An error prevented a successful connection.
 
 [!code-js[FindPeers](../windows.networking.proximity/code/Proximity_FindAllPeersAsync1/js/default.js#SnippetFindPeers)]
 
-[!code-csharp[Connect_CS](../windows.networking.proximity/code/Proximity_FindAllPeersAsync1/csharp/BlankPage.xaml.cs#SnippetConnect_CS)]
-
-[!code-vb[Connect_CS](../windows.networking.proximity/code/Proximity_FindAllPeersAsync1/vbnet/BlankPage.xaml.vb#SnippetConnect_CS)]
+[!code-cs[Connect_CS](../windows.networking.proximity/code/Proximity_FindAllPeersAsync1/csharp/BlankPage.xaml.cs#SnippetConnect_CS)][!code-vb[Connect_CS](../windows.networking.proximity/code/Proximity_FindAllPeersAsync1/vbnet/BlankPage.xaml.vb#SnippetConnect_CS)]
 
 ## -see-also
 [Proximity and Tapping (JavaScript)](http://msdn.microsoft.com/library/84a30dcf-ef14-4a93-9e7c-7a3de867d46b), [Proximity and Tapping (C#/VB/C++)](http://msdn.microsoft.com/library/f25bb1df-1cfd-45cd-8c67-04eec73ebfbd), [Proximity sample](http://go.microsoft.com/fwlink/p/?linkid=245082)

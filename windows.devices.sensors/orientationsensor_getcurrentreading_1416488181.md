@@ -24,7 +24,7 @@ The following example demonstrates how a Windows Store app built with XAML and C
 
 
 
-[!code-csharp[GetCurrentReadingCS](../windows.devices.sensors/code/orientation/csharp/Scenario2.xaml.cs#SnippetGetCurrentReadingCS)]
+[!code-cs[GetCurrentReadingCS](../windows.devices.sensors/code/orientation/csharp/Scenario2.xaml.cs#SnippetGetCurrentReadingCS)]
 
 The following example demonstrates how a Windows Store app built for Windows using JavaScript retrieves the current reading for the orientation sensor.
 

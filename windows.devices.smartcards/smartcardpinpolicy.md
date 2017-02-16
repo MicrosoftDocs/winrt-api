@@ -1,20 +1,3 @@
----
--api-id: T:Windows.Devices.SmartCards.SmartCardPinPolicy
+----api-id: T:Windows.Devices.SmartCards.SmartCardPinPolicy
 -api-type: winrt class
----
-
-<!-- Class syntax.
-public class SmartCardPinPolicy : Windows.Devices.SmartCards.ISmartCardPinPolicy
--->
-
-# Windows.Devices.SmartCards.SmartCardPinPolicy
-
-## -description
-Represents a set of personal identification number (PIN) rules on a Trusted Platform Module (TPM) virtual smart card.
-
-## -remarks
-
-## -examples
-
-## -see-also
-[Create an NFC Smart Card app](http://msdn.microsoft.com/library/26834a51-512b-485b-84c8-abf713787588)
+---<!-- Class syntax.public class SmartCardPinPolicy : Windows.Devices.SmartCards.ISmartCardPinPolicy--># Windows.Devices.SmartCards.SmartCardPinPolicy## -descriptionRepresents a set of personal identification number (PIN) rules on a Trusted Platform Module (TPM) virtual smart card.## -remarks## -examples## -see-also[Create an NFC Smart Card app](http://msdn.microsoft.com/library/26834a51-512b-485b-84c8-abf713787588)

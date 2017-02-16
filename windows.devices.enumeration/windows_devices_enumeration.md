@@ -9,9 +9,9 @@
 Provides classes for enumerating devices.
 The following are typical uses of the [Windows.Devices.Enumeration](windows_devices_enumeration.md) API.
 
-+ Building a user interface for selecting the device to be used by an application. For example, a voice chat application may present a list of microphones or webcams for the user to select from, or a photo import application may present a list of removable storage devices for the user to import photos from.
++ Building a user interface for selecting the device to be used by an application. For <?xm-deletion_mark author="dmak" time="20120522T184015-0800" data="instance"?><?xm-insertion_mark_start author="dmak" time="20120522T184015-0800"?> example<?xm-insertion_mark_end?>, a voice chat application may <?xm-deletion_mark author="dmak" time="20120522T184204-0800" data="use the API to "?> present a list of microphones<?xm-insertion_mark_start author="dmak" time="20120522T183936-0800"?> or webcams<?xm-insertion_mark_end?> for the user to select from<?xm-insertion_mark_start author="dmak" time="20120522T183942-0800"?>, or a photo import application may present a list of removable storage devices for the user to import photos from<?xm-insertion_mark_end?>.
 + Get general information about devices connected to or discoverable by the system.
-+ Device discovery and notifications about devices for apps that use them, like [](http://go.microsoft.com/fwlink/p/?linkid=241442).
++ Device discovery and notifications about devices for <?xm-deletion_mark author="dmak" time="20120522T183206-0800" data="general application use"?><?xm-insertion_mark_start author="dmak" time="20120522T183206-0800"?> apps that use them, like <?xm-insertion_mark_end?>[](http://go.microsoft.com/fwlink/p/?linkid=241442).
 
 
 ## -remarks

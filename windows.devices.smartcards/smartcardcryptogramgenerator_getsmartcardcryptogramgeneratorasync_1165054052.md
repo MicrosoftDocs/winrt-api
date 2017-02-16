@@ -1,23 +1,3 @@
----
--api-id: M:Windows.Devices.SmartCards.SmartCardCryptogramGenerator.GetSmartCardCryptogramGeneratorAsync
+----api-id: M:Windows.Devices.SmartCards.SmartCardCryptogramGenerator.GetSmartCardCryptogramGeneratorAsync
 -api-type: winrt method
----
-
-<!-- Method syntax
-public Windows.Foundation.IAsyncOperation<Windows.Devices.SmartCards.SmartCardCryptogramGenerator> GetSmartCardCryptogramGeneratorAsync()
--->
-
-# Windows.Devices.SmartCards.SmartCardCryptogramGenerator.GetSmartCardCryptogramGeneratorAsync
-
-## -description
-Gets the smart card cryptogram generator.
-
-## -returns
-An asynchronous operation that completes with a generator.
-
-## -remarks
-
-## -examples
-
-## -see-also
-[Create an NFC Smart Card app](http://msdn.microsoft.com/library/26834a51-512b-485b-84c8-abf713787588)
+---<!-- Method syntaxpublic Windows.Foundation.IAsyncOperation<Windows.Devices.SmartCards.SmartCardCryptogramGenerator> GetSmartCardCryptogramGeneratorAsync()--># Windows.Devices.SmartCards.SmartCardCryptogramGenerator.GetSmartCardCryptogramGeneratorAsync## -descriptionGets the smart card cryptogram generator.## -returnsAn asynchronous operation that completes with a generator.## -remarks## -examples## -see-also[Create an NFC Smart Card app](http://msdn.microsoft.com/library/26834a51-512b-485b-84c8-abf713787588)

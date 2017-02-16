@@ -1,22 +1,3 @@
----
--api-id: P:Windows.Security.Credentials.WebAccountProvider.DisplayPurpose
+----api-id: P:Windows.Security.Credentials.WebAccountProvider.DisplayPurpose
 -api-type: winrt property
----
-
-<!-- Property syntax
-public string DisplayPurpose { get; }
--->
-
-# Windows.Security.Credentials.WebAccountProvider.DisplayPurpose
-
-## -description
-Gets the display purpose of the web account provider.
-
-## -property-value
-The display purpose of the web account provider.
-
-## -remarks
-
-## -examples
-
-## -see-also
+---<!-- Property syntaxpublic string DisplayPurpose { get; }--># Windows.Security.Credentials.WebAccountProvider.DisplayPurpose## -descriptionGets the display purpose of the web account provider.## -property-valueThe display purpose of the web account provider.## -remarks## -examples## -see-also

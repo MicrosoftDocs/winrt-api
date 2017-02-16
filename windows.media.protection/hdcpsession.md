@@ -30,11 +30,11 @@ First, we make some declarations:
 
 
 
-[!code-csharp[HdcpSessionDeclarations](../windows.media.protection/code/HdcpSession/csharp/MainPage.xaml.cs#SnippetHdcpSessionDeclarations)]
+[!code-cs[HdcpSessionDeclarations](../windows.media.protection/code/HdcpSession/csharp/MainPage.xaml.cs#SnippetHdcpSessionDeclarations)]
 
 
 
-[!code-csharp[HdcpSessionMethod](../windows.media.protection/code/HdcpSession/csharp/MainPage.xaml.cs#SnippetHdcpSessionMethod)]
+[!code-cs[HdcpSessionMethod](../windows.media.protection/code/HdcpSession/csharp/MainPage.xaml.cs#SnippetHdcpSessionMethod)]
 
 ## -see-also
 [IClosable](../windows.foundation/iclosable.md)

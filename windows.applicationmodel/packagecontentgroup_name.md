@@ -9,7 +9,7 @@ public string Name { get; }
 
 # Windows.ApplicationModel.PackageContentGroup.Name
 
-## -description
+## -desc
 Gets the name of this package content group.
 
 ## -property-value

@@ -9,7 +9,7 @@ public BluetoothEventTriggeringMode EventTriggeringMode { get; }
 
 # Windows.ApplicationModel.Background.GattCharacteristicNotificationTrigger.EventTriggeringMode
 
-## -description
+## -desc
 Gets the mode for the trigger. The mode specifies when the trigger is activated.
 
 ## -property-value

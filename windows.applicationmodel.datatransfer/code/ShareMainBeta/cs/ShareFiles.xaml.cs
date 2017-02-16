@@ -125,7 +125,7 @@ namespace ShareMainBetaCS
             }
         }
         //</SnippetShareFileFunction>
-        //</SnippetShareFileFunction_CS>
+        //</SSnippetShareFileFunction_CS>
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
         }

@@ -38,7 +38,7 @@ The following example shows how to pull up the phone call origins application UI
 
 
 
-[!code-csharp[SelectOriginApp](../windows.applicationmodel.calls.provider/code/CallProvider/cs/Scenario1.xaml.cs#SnippetSelectOriginApp)]
+[!code-cs[SelectOriginApp](../windows.applicationmodel.calls.provider/code/CallProvider/cs/Scenario1.xaml.cs#SnippetSelectOriginApp)]
 
 ## -examples
 

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 -api-id: E:Windows.Graphics.Display.BrightnessOverride.BrightnessLevelChanged
 -api-type: winrt event

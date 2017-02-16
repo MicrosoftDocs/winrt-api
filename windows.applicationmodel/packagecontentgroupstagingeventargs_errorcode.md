@@ -9,7 +9,7 @@ public HResult ErrorCode { get; }
 
 # Windows.ApplicationModel.PackageContentGroupStagingEventArgs.ErrorCode
 
-## -description
+## -desc
 Gets the result of the package content group staging operation.
 
 ## -property-value

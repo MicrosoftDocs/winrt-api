@@ -1,22 +1,3 @@
----
--api-id: P:Windows.Storage.Provider.FileUpdateRequestedEventArgs.Request
+----api-id: P:Windows.Storage.Provider.FileUpdateRequestedEventArgs.Request
 -api-type: winrt property
----
-
-<!-- Property syntax
-public Windows.Storage.Provider.FileUpdateRequest Request { get; }
--->
-
-# Windows.Storage.Provider.FileUpdateRequestedEventArgs.Request
-
-## -description
-Gets the details of the requested file update.
-
-## -property-value
-The details of the requested file update.
-
-## -remarks
-
-## -examples
-
-## -see-also
+---<!-- Property syntaxpublic Windows.Storage.Provider.FileUpdateRequest Request { get; }--># Windows.Storage.Provider.FileUpdateRequestedEventArgs.Request## -descriptionGets the details of the requested file update.## -property-valueThe details of the requested file update.## -remarks## -examples## -see-also

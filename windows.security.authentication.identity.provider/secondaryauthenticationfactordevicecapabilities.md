@@ -38,9 +38,6 @@ Set this flag if the companion device transmits auth keys and devices key over a
 The device supports HMacSha256.
 
 
-### -field CloseRangeDataTransmission:64
-
-
 ## -remarks
 
 ## -examples

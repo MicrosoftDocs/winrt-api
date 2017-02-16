@@ -1,22 +1,3 @@
----
--api-id: M:Windows.Networking.NetworkOperators.MobileBroadbandModem.ResetAsync
+----api-id: M:Windows.Networking.NetworkOperators.MobileBroadbandModem.ResetAsync
 -api-type: winrt method
----
-
-<!-- Method syntax
-public Windows.Foundation.IAsyncAction ResetAsync()
--->
-
-# Windows.Networking.NetworkOperators.MobileBroadbandModem.ResetAsync
-
-## -description
-Asynchronously performs a reset operation on the mobile broadband modem.
-
-## -returns
-An asynchronous reset operation.
-
-## -remarks
-
-## -examples
-
-## -see-also
+---<!-- Method syntaxpublic Windows.Foundation.IAsyncAction ResetAsync()--># Windows.Networking.NetworkOperators.MobileBroadbandModem.ResetAsync## -descriptionAsynchronously performs a reset operation on the mobile broadband modem.## -returnsAn asynchronous reset operation.## -remarks## -examples## -see-also

@@ -1,22 +1,3 @@
----
--api-id: P:Windows.ApplicationModel.Store.Preview.StoreHardwareManufacturerInfo.StoreContentModifierId
+----api-id: P:Windows.ApplicationModel.Store.Preview.StoreHardwareManufacturerInfo.StoreContentModifierId
 -api-type: winrt property
----
-
-<!-- Property syntax
-public string StoreContentModifierId { get; }
--->
-
-# Windows.ApplicationModel.Store.Preview.StoreHardwareManufacturerInfo.StoreContentModifierId
-
-## -description
-Gets the ID of the Windows Store content modifier.
-
-## -property-value
-The ID of the Windows Store content modifier.
-
-## -remarks
-
-## -examples
-
-## -see-also
+---<!-- Property syntaxpublic string StoreContentModifierId { get; }--># Windows.ApplicationModel.Store.Preview.StoreHardwareManufacturerInfo.StoreContentModifierId## -descriptionGets the ID of the Windows Store content modifier.## -property-valueThe ID of the Windows Store content modifier.## -remarks## -examples## -see-also

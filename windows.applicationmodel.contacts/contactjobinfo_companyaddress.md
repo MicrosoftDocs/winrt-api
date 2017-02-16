@@ -1,22 +1,3 @@
----
--api-id: P:Windows.ApplicationModel.Contacts.ContactJobInfo.CompanyAddress
+----api-id: P:Windows.ApplicationModel.Contacts.ContactJobInfo.CompanyAddress
 -api-type: winrt property
----
-
-<!-- Property syntax
-public string CompanyAddress { get;  set; }
--->
-
-# Windows.ApplicationModel.Contacts.ContactJobInfo.CompanyAddress
-
-## -description
-Gets and sets the company address of the job info for a contact. The maximum string length for the company address is 1024 characters.
-
-## -property-value
-The company address of the job info for a contact.
-
-## -remarks
-
-## -examples
-
-## -see-also
+---<!-- Property syntaxpublic string CompanyAddress { get;  set; }--># Windows.ApplicationModel.Contacts.ContactJobInfo.CompanyAddress## -descriptionGets and sets the company address of the job info for a contact. The maximum string length for the company address is 1024 characters.## -property-valueThe company address of the job info for a contact.## -remarks## -examples## -see-also

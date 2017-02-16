@@ -1,20 +1,3 @@
----
--api-id: T:Windows.ApplicationModel.Chat.RcsEndUserMessageAvailableTriggerDetails
+----api-id: T:Windows.ApplicationModel.Chat.RcsEndUserMessageAvailableTriggerDetails
 -api-type: winrt class
----
-
-<!-- Class syntax.
-public class RcsEndUserMessageAvailableTriggerDetails : Windows.ApplicationModel.Chat.IRcsEndUserMessageAvailableTriggerDetails
--->
-
-# Windows.ApplicationModel.Chat.RcsEndUserMessageAvailableTriggerDetails
-
-## -description
-Provides data to the background task about a new message.
-
-## -remarks
-An instance of this class is created by the system.
-
-## -examples
-
-## -see-also
+---<!-- Class syntax.public class RcsEndUserMessageAvailableTriggerDetails : Windows.ApplicationModel.Chat.IRcsEndUserMessageAvailableTriggerDetails--># Windows.ApplicationModel.Chat.RcsEndUserMessageAvailableTriggerDetails## -descriptionProvides data to the background task about a new message.## -remarksAn instance of this class is created by the system.## -examples## -see-also

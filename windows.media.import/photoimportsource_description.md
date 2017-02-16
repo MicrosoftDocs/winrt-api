@@ -1,22 +1,3 @@
----
--api-id: P:Windows.Media.Import.PhotoImportSource.Description
+----api-id: P:Windows.Media.Import.PhotoImportSource.Description
 -api-type: winrt property
----
-
-<!-- Property syntax
-public string Description { get; }
--->
-
-# Windows.Media.Import.PhotoImportSource.Description
-
-## -description
-Gets a human-readable description of the source device.
-
-## -property-value
-A human-readable description of the device.
-
-## -remarks
-
-## -examples
-
-## -see-also
+---<!-- Property syntaxpublic string Description { get; }--># Windows.Media.Import.PhotoImportSource.Description## -descriptionGets a human-readable description of the source device.## -property-valueA human-readable description of the device.## -remarks## -examples## -see-also

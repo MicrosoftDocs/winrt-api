@@ -9,7 +9,7 @@ public string ContentGroupName { get; }
 
 # Windows.ApplicationModel.PackageContentGroupStagingEventArgs.ContentGroupName
 
-## -description
+## -desc
 Gets the name of the content group this is being staged.
 
 ## -property-value

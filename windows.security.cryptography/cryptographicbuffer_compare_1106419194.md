@@ -27,6 +27,6 @@ Buffer to be used for comparison.
 ## -examples
 
 
-[!code-csharp[ShowBufferCompare] (../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowBufferCompare)]
+[!code-cs[ShowBufferCompare] (../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowBufferCompare)]
 
 ## -see-also

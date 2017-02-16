@@ -1,22 +1,3 @@
----
--api-id: P:Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.ModelNumberString
+----api-id: P:Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.ModelNumberString
 -api-type: winrt property
----
-
-<!-- Property syntax
-public System.Guid ModelNumberString { get; }
--->
-
-# Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.ModelNumberString
-
-## -description
-Gets the Bluetooth SIG-defined ModelNumberString UUID.
-
-## -property-value
-The Bluetooth SIG-defined ModelNumberString UUID.
-
-## -remarks
-
-## -examples
-
-## -see-also
+---<!-- Property syntaxpublic System.Guid ModelNumberString { get; }--># Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.ModelNumberString## -descriptionGets the Bluetooth SIG-defined ModelNumberString UUID.## -property-valueThe Bluetooth SIG-defined ModelNumberString UUID.## -remarks## -examples## -see-also

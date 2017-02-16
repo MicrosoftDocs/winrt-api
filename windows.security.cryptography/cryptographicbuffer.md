@@ -17,6 +17,6 @@ Contains static methods that implement data management functionality common to c
 ## -examples
 
 
-[!code-csharp[ShowCryptographicBufferOverview] (../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowCryptographicBufferOverview)]
+[!code-cs[ShowCryptographicBufferOverview] (../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowCryptographicBufferOverview)]
 
 ## -see-also

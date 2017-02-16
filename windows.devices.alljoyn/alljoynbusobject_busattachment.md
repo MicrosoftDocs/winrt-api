@@ -1,22 +1,3 @@
----
--api-id: P:Windows.Devices.AllJoyn.AllJoynBusObject.BusAttachment
+----api-id: P:Windows.Devices.AllJoyn.AllJoynBusObject.BusAttachment
 -api-type: winrt property
----
-
-<!-- Property syntax
-public Windows.Devices.AllJoyn.AllJoynBusAttachment BusAttachment { get; }
--->
-
-# Windows.Devices.AllJoyn.AllJoynBusObject.BusAttachment
-
-## -description
-Gets the bus attachment of this [AllJoynBusObject](alljoynbusobject.md).
-
-## -property-value
-The bus attachment.
-
-## -remarks
-
-## -examples
-
-## -see-also
+---<!-- Property syntaxpublic Windows.Devices.AllJoyn.AllJoynBusAttachment BusAttachment { get; }--># Windows.Devices.AllJoyn.AllJoynBusObject.BusAttachment## -descriptionGets the bus attachment of this [AllJoynBusObject](alljoynbusobject.md).## -property-valueThe bus attachment.## -remarks## -examples## -see-also

@@ -34,13 +34,9 @@ This example shows a scenario for calling [TransformToVisual](uielement_transfor
 
 
 
-[!code-xml[UI](../windows.ui.input.inking/code/PointerInput/csharp/MainPage.xaml#SnippetUI)]
+[!code-xml[UI](../windows.ui.input.inking/code/PointerInput/csharp/MainPage.xaml#SnippetUI)][!code-xml[UI](../windows.ui.input.inking/code/PointerInput_UWP/csharp/MainPage.xaml#SnippetUI)]
 
-[!code-xml[UI](../windows.ui.input.inking/code/PointerInput_UWP/csharp/MainPage.xaml#SnippetUI)]
-
-[!code-csharp[QueryPointer](../windows.ui.input.inking/code/PointerInput/csharp/MainPage.xaml.cs#SnippetQueryPointer)]
-
-[!code-csharp[QueryPointer](../windows.ui.input.inking/code/PointerInput_UWP/csharp/MainPage.xaml.cs#SnippetQueryPointer)]
+[!code-cs[QueryPointer](../windows.ui.input.inking/code/PointerInput/csharp/MainPage.xaml.cs#SnippetQueryPointer)][!code-cs[QueryPointer](../windows.ui.input.inking/code/PointerInput_UWP/csharp/MainPage.xaml.cs#SnippetQueryPointer)]
 
 ## -see-also
 [GeneralTransform](../windows.ui.xaml.media/generaltransform.md), [Define layouts with XAML](http://msdn.microsoft.com/library/8d4e4162-1c9c-48f4-8a94-34976fb17079), [XAML two-dimensional transforms sample](http://go.microsoft.com/fwlink/p/?linkid=226868)

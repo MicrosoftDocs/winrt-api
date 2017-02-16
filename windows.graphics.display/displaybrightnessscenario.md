@@ -23,7 +23,7 @@ Sets the screen to 100% brightness.
 Sets the screen to the current screen brightness, essentially freezing the brightness.
 
 ### -field BarcodeReadingBrightness:2
-Sets the screen to the brightness level that it is easily readable by barcode readers. This is currently set to 100% brightness.
+Sets the screen to the brightness level that it is easily readable by barcode readers. This is currently set to 100% brightness. 
 
 ## -remarks
 

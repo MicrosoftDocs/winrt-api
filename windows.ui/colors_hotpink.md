@@ -1,22 +1,3 @@
----
--api-id: P:Windows.UI.Colors.HotPink
+----api-id: P:Windows.UI.Colors.HotPink
 -api-type: winrt property
----
-
-<!-- Property syntax
-public Windows.UI.Color HotPink { get; }
--->
-
-# Windows.UI.Colors.HotPink
-
-## -description
-Gets the color value that represents the HotPink named color.
-
-## -property-value
-The color value that represents the HotPink named color.
-
-## -remarks
-
-## -examples
-
-## -see-also
+---<!-- Property syntaxpublic Windows.UI.Color HotPink { get; }--># Windows.UI.Colors.HotPink## -descriptionGets the color value that represents the HotPink named color.## -property-valueThe color value that represents the HotPink named color.## -remarks## -examples## -see-also

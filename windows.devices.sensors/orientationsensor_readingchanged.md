@@ -21,13 +21,13 @@ The following example demonstrates how a Windows Store app built with C# and XAM
 
 
 
-[!code-csharp[EnableReadingChangedCS](../windows.devices.sensors/code/orientation/csharp/Scenario1.xaml.cs#SnippetEnableReadingChangedCS)]
+[!code-cs[EnableReadingChangedCS](../windows.devices.sensors/code/orientation/csharp/Scenario1.xaml.cs#SnippetEnableReadingChangedCS)]
 
 The following example shows the [ReadingChanged](orientationsensorreadingchangedeventargs.md) event handler.
 
 
 
-[!code-csharp[ReadingChangedCS](../windows.devices.sensors/code/orientation/csharp/Scenario1.xaml.cs#SnippetReadingChangedCS)]
+[!code-cs[ReadingChangedCS](../windows.devices.sensors/code/orientation/csharp/Scenario1.xaml.cs#SnippetReadingChangedCS)]
 
 The following example demonstrates how a Windows Store app built with JavaScript registers its **ReadingChanged** event handler.
 

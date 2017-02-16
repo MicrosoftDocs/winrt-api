@@ -1,22 +1,3 @@
----
--api-id: P:Windows.Media.Import.PhotoImportFindItemsResult.TotalSizeInBytes
+----api-id: P:Windows.Media.Import.PhotoImportFindItemsResult.TotalSizeInBytes
 -api-type: winrt property
----
-
-<!-- Property syntax
-public ulong TotalSizeInBytes { get; }
--->
-
-# Windows.Media.Import.PhotoImportFindItemsResult.TotalSizeInBytes
-
-## -description
-Gets the total size of all items found on the source, in bytes.
-
-## -property-value
-The total size of all items found on the source, in bytes.
-
-## -remarks
-
-## -examples
-
-## -see-also
+---<!-- Property syntaxpublic ulong TotalSizeInBytes { get; }--># Windows.Media.Import.PhotoImportFindItemsResult.TotalSizeInBytes## -descriptionGets the total size of all items found on the source, in bytes.## -property-valueThe total size of all items found on the source, in bytes.## -remarks## -examples## -see-also

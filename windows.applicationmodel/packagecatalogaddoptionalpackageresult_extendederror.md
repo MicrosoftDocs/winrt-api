@@ -9,7 +9,7 @@ public HResult ExtendedError { get; }
 
 # Windows.ApplicationModel.PackageCatalogAddOptionalPackageResult.ExtendedError
 
-## -description
+## -desc
 Provides error information about the attempt to add an optional package to the catalog.
 
 ## -property-value

@@ -10,16 +10,10 @@ public bool AreTickMarksVisible { get;  set; }
 # Windows.UI.Input.Inking.InkPresenterRuler.AreTickMarksVisible
 
 ## -description
-Gets or sets whether the tick marks are displayed on the ruler stencil. 
-
-![Ruler stencil](images\stencil-ruler.png)
-
-Tick marks represent the distance marks on the ruler.
+TBD
 
 ## -property-value
-**true**, if the tick marks are visible. Otherwise, **false**.
 
-The default is **true**.
 
 ## -remarks
 

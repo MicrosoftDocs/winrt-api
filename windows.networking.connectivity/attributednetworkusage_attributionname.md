@@ -1,22 +1,3 @@
----
--api-id: P:Windows.Networking.Connectivity.AttributedNetworkUsage.AttributionName
+----api-id: P:Windows.Networking.Connectivity.AttributedNetworkUsage.AttributionName
 -api-type: winrt property
----
-
-<!-- Property syntax
-public string AttributionName { get; }
--->
-
-# Windows.Networking.Connectivity.AttributedNetworkUsage.AttributionName
-
-## -description
-Gets the name of the app.
-
-## -property-value
-The name of the app.
-
-## -remarks
-
-## -examples
-
-## -see-also
+---<!-- Property syntaxpublic string AttributionName { get; }--># Windows.Networking.Connectivity.AttributedNetworkUsage.AttributionName## -descriptionGets the name of the app.## -property-valueThe name of the app.## -remarks## -examples## -see-also

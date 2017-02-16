@@ -1,19 +1,3 @@
----
--api-id: M:Windows.Graphics.Printing3D.Printing3D3MFPackage.#ctor
+----api-id: M:Windows.Graphics.Printing3D.Printing3D3MFPackage.#ctor
 -api-type: winrt method
----
-
-<!-- Method syntax
-public Printing3D3MFPackage()
--->
-
-# Windows.Graphics.Printing3D.Printing3D3MFPackage.Printing3D3MFPackage
-
-## -description
-Creates a [Printing3D3MFPackage](printing3d3mfpackage.md) object.
-
-## -remarks
-
-## -examples
-
-## -see-also
+---<!-- Method syntaxpublic Printing3D3MFPackage()--># Windows.Graphics.Printing3D.Printing3D3MFPackage.Printing3D3MFPackage## -descriptionCreates a [Printing3D3MFPackage](printing3d3mfpackage.md) object.## -remarks## -examples## -see-also

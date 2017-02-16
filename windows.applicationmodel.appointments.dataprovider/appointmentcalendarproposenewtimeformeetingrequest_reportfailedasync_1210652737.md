@@ -1,23 +1,3 @@
----
--api-id: M:Windows.ApplicationModel.Appointments.DataProvider.AppointmentCalendarProposeNewTimeForMeetingRequest.ReportFailedAsync
+----api-id: M:Windows.ApplicationModel.Appointments.DataProvider.AppointmentCalendarProposeNewTimeForMeetingRequest.ReportFailedAsync
 -api-type: winrt method
----
-
-<!-- Method syntax
-public Windows.Foundation.IAsyncAction ReportFailedAsync()
--->
-
-# Windows.ApplicationModel.Appointments.DataProvider.AppointmentCalendarProposeNewTimeForMeetingRequest.ReportFailedAsync
-
-## -description
-Notifies the system that the task of updating a meeting's time has failed.
-
-## -returns
-An asynchronous operation.
-
-## -remarks
-This method should be called only if the app has failed to push a meeting time change.
-
-## -examples
-
-## -see-also
+---<!-- Method syntaxpublic Windows.Foundation.IAsyncAction ReportFailedAsync()--># Windows.ApplicationModel.Appointments.DataProvider.AppointmentCalendarProposeNewTimeForMeetingRequest.ReportFailedAsync## -descriptionNotifies the system that the task of updating a meeting's time has failed.## -returnsAn asynchronous operation.## -remarksThis method should be called only if the app has failed to push a meeting time change.## -examples## -see-also

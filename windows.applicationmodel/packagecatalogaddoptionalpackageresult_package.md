@@ -9,7 +9,7 @@ public Package Package { get; }
 
 # Windows.ApplicationModel.PackageCatalogAddOptionalPackageResult.Package
 
-## -description
+## -desc
 Get the optional package that was added to the package catalog.
 
 ## -property-value

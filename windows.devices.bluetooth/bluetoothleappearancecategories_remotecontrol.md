@@ -1,22 +1,3 @@
----
--api-id: P:Windows.Devices.Bluetooth.BluetoothLEAppearanceCategories.RemoteControl
+----api-id: P:Windows.Devices.Bluetooth.BluetoothLEAppearanceCategories.RemoteControl
 -api-type: winrt property
----
-
-<!-- Property syntax
-public ushort RemoteControl { get; }
--->
-
-# Windows.Devices.Bluetooth.BluetoothLEAppearanceCategories.RemoteControl
-
-## -description
-Gets the remote control appearance category code.
-
-## -property-value
-The appearance category code for a remote control Bluetooth LE device.
-
-## -remarks
-
-## -examples
-
-## -see-also
+---<!-- Property syntaxpublic ushort RemoteControl { get; }--># Windows.Devices.Bluetooth.BluetoothLEAppearanceCategories.RemoteControl## -descriptionGets the remote control appearance category code.## -property-valueThe appearance category code for a remote control Bluetooth LE device.## -remarks## -examples## -see-also

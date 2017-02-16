@@ -1,22 +1,3 @@
----
--api-id: P:Windows.Devices.PointOfService.MagneticStripeReaderCardTypes.Bank
+----api-id: P:Windows.Devices.PointOfService.MagneticStripeReaderCardTypes.Bank
 -api-type: winrt property
----
-
-<!-- Property syntax
-public uint Bank { get; }
--->
-
-# Windows.Devices.PointOfService.MagneticStripeReaderCardTypes.Bank
-
-## -description
-Indicates a bank card type.
-
-## -property-value
-Bank card type.
-
-## -remarks
-
-## -examples
-
-## -see-also
+---<!-- Property syntaxpublic uint Bank { get; }--># Windows.Devices.PointOfService.MagneticStripeReaderCardTypes.Bank## -descriptionIndicates a bank card type.## -property-valueBank card type.## -remarks## -examples## -see-also

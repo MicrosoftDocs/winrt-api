@@ -1,22 +1,3 @@
----
--api-id: P:Windows.Devices.Bluetooth.GenericAttributeProfile.GattServiceUuids.ImmediateAlert
+----api-id: P:Windows.Devices.Bluetooth.GenericAttributeProfile.GattServiceUuids.ImmediateAlert
 -api-type: winrt property
----
-
-<!-- Property syntax
-public System.Guid ImmediateAlert { get; }
--->
-
-# Windows.Devices.Bluetooth.GenericAttributeProfile.GattServiceUuids.ImmediateAlert
-
-## -description
-Gets the Bluetooth SIG-defined ImmediateAlert service UUID.
-
-## -property-value
-The Bluetooth SIG-defined ImmediateAlert service UUID.
-
-## -remarks
-
-## -examples
-
-## -see-also
+---<!-- Property syntaxpublic System.Guid ImmediateAlert { get; }--># Windows.Devices.Bluetooth.GenericAttributeProfile.GattServiceUuids.ImmediateAlert## -descriptionGets the Bluetooth SIG-defined ImmediateAlert service UUID.## -property-valueThe Bluetooth SIG-defined ImmediateAlert service UUID.## -remarks## -examples## -see-also

@@ -1,22 +1,3 @@
----
--api-id: P:Windows.Devices.Bluetooth.GenericAttributeProfile.GattPresentationFormat.Description
+----api-id: P:Windows.Devices.Bluetooth.GenericAttributeProfile.GattPresentationFormat.Description
 -api-type: winrt property
----
-
-<!-- Property syntax
-public ushort Description { get; }
--->
-
-# Windows.Devices.Bluetooth.GenericAttributeProfile.GattPresentationFormat.Description
-
-## -description
-Gets the Description of the GattPresentationFormat object.
-
-## -property-value
-The Description of the GattPresentationFormat object.
-
-## -remarks
-
-## -examples
-
-## -see-also
+---<!-- Property syntaxpublic ushort Description { get; }--># Windows.Devices.Bluetooth.GenericAttributeProfile.GattPresentationFormat.Description## -descriptionGets the Description of the GattPresentationFormat object.## -property-valueThe Description of the GattPresentationFormat object.## -remarks## -examples## -see-also

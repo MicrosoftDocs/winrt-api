@@ -10,13 +10,13 @@ public OfflineMapPackageQueryStatus Status { get; }
 # Windows.Services.Maps.OfflineMaps.OfflineMapPackageQueryResult.Status
 
 ## -description
-Gets the success or failure of the query to find map packages.
+Gets the status of a map package (For example, whether the map package is downloaded to the local system).
 
 ## -property-value
-The status of the query.
+The status of a map package.
 
 ## -remarks
-If the status is *Success*, then use the [Packages](offlinemappackagequeryresult_packages.md) property to obtain the list of map packages that were found as a result of the query.
+
 ## -see-also
 
 ## -examples

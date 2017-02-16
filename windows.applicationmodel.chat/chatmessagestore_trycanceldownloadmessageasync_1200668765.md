@@ -1,26 +1,3 @@
----
--api-id: M:Windows.ApplicationModel.Chat.ChatMessageStore.TryCancelDownloadMessageAsync(System.String)
+----api-id: M:Windows.ApplicationModel.Chat.ChatMessageStore.TryCancelDownloadMessageAsync(System.String)
 -api-type: winrt method
----
-
-<!-- Method syntax
-public Windows.Foundation.IAsyncOperation<bool> TryCancelDownloadMessageAsync(System.String localChatMessageId)
--->
-
-# Windows.ApplicationModel.Chat.ChatMessageStore.TryCancelDownloadMessageAsync
-
-## -description
-Asynchronously attempts to cancel downloading the specified message.
-
-## -parameters
-### -param localChatMessageId
-The ID of the message to stop downloading.
-
-## -returns
-An async action indicating that the operation has completed.
-
-## -remarks
-
-## -examples
-
-## -see-also
+---<!-- Method syntaxpublic Windows.Foundation.IAsyncOperation<bool> TryCancelDownloadMessageAsync(System.String localChatMessageId)--># Windows.ApplicationModel.Chat.ChatMessageStore.TryCancelDownloadMessageAsync## -descriptionAsynchronously attempts to cancel downloading the specified message.## -parameters### -param localChatMessageIdThe ID of the message to stop downloading.## -returnsAn async action indicating that the operation has completed.## -remarks## -examples## -see-also

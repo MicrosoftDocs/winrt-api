@@ -24,6 +24,6 @@ Here is an example that shows how to setup and take low lag photos. It displays 
 
 [!code-xml[MediaCaptureLowLagXAML](../windows.media.capture/code/MediaCapture/csharp/MainPage.xaml#SnippetMediaCaptureLowLagXAML)]
 
-[!code-csharp[MediaCaptureLowLagPhotoCaptureCode](../windows.media.capture/code/MediaCapture/csharp/MainPage.xaml.cs#SnippetMediaCaptureLowLagPhotoCaptureCode)]
+[!code-cs[MediaCaptureLowLagPhotoCaptureCode](../windows.media.capture/code/MediaCapture/csharp/MainPage.xaml.cs#SnippetMediaCaptureLowLagPhotoCaptureCode)]
 
 ## -see-also

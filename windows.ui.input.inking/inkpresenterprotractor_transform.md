@@ -10,12 +10,10 @@ public Windows.Foundation.Numerics.Matrix3x2 Transform { get;  set; }
 # Windows.UI.Input.Inking.InkPresenterProtractor.Transform
 
 ## -description
-Gets or sets the position and rotation angle of the protractor stencil within the 2-D coordinate space of the [InkCanvas](../windows.ui.xaml.controls/inkcanvas.md).
-
-Both position and rotation are based on the top left corner of the stencil relative to the origin of the [InkCanvas](../windows.ui.xaml.controls/inkcanvas.md).
+TBD
 
 ## -property-value
-The position and angle of the stencil as a 3*2 floating point matrix.The default position is the origin of the [InkCanvas](../windows.ui.xaml.controls/inkcanvas.md). The default rotation angle is 0 degrees.
+
 
 ## -remarks
 

@@ -1,22 +1,3 @@
----
--api-id: M:Windows.Devices.Bluetooth.GenericAttributeProfile.GattDeviceService.GetAllIncludedServices
+----api-id: M:Windows.Devices.Bluetooth.GenericAttributeProfile.GattDeviceService.GetAllIncludedServices
 -api-type: winrt method
----
-
-<!-- Method syntax
-public Windows.Foundation.Collections.IVectorView<Windows.Devices.Bluetooth.GenericAttributeProfile.GattDeviceService> GetAllIncludedServices()
--->
-
-# Windows.Devices.Bluetooth.GenericAttributeProfile.GattDeviceService.GetAllIncludedServices
-
-## -description
-Gets the collection of all included services belonging to this GattDeviceService instance.
-
-## -returns
-The collection of all included services belonging to this GattDeviceService instance.
-
-## -remarks
-
-## -examples
-
-## -see-also
+---<!-- Method syntaxpublic Windows.Foundation.Collections.IVectorView<Windows.Devices.Bluetooth.GenericAttributeProfile.GattDeviceService> GetAllIncludedServices()--># Windows.Devices.Bluetooth.GenericAttributeProfile.GattDeviceService.GetAllIncludedServices## -descriptionGets the collection of all included services belonging to this GattDeviceService instance.## -returnsThe collection of all included services belonging to this GattDeviceService instance.## -remarks## -examples## -see-also

@@ -6,14 +6,14 @@
 # Windows.System.RemoteSystems
 
 ## -description
-Provides an app with the ability to discover and communicate with other devices. This API is part of Project Rome which allows you to create a multi-platform user experience.
+Provides an app with the ability to discover and communicate with other devices. This API is part of Project "Rome" which allows you to create a multi-platform user experience.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
-[Connected apps and devices (Project Rome)](https://msdn.microsoft.com/en-us/windows/uwp/launch-resume/connected-apps-and-devices)
+[Connected apps and devices (Project "Rome")](https://msdn.microsoft.com/en-us/windows/uwp/launch-resume/connected-apps-and-devices)
 
 ## -capabilities
 remoteSystem

@@ -18,7 +18,7 @@ This class contains only static properties. You do not have to create an instanc
 ## -examples
 
 
-[!code-csharp[ShowKeyAlgNamesClass] (../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowKeyAlgNamesClass)]
+[!code-cs[ShowKeyAlgNamesClass] (../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowKeyAlgNamesClass)]
 
 ## -see-also
 [CertificateRequestProperties](certificaterequestproperties.md), [KeyAlgorithmName](certificaterequestproperties_keyalgorithmname.md), [Windows.Security.Cryptography.Certificates](windows_security_cryptography_certificates.md)

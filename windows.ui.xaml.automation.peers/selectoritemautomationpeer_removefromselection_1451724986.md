@@ -1,19 +1,3 @@
----
--api-id: M:Windows.UI.Xaml.Automation.Peers.SelectorItemAutomationPeer.RemoveFromSelection
+----api-id: M:Windows.UI.Xaml.Automation.Peers.SelectorItemAutomationPeer.RemoveFromSelection
 -api-type: winrt method
----
-
-<!-- Method syntax
-public void RemoveFromSelection()
--->
-
-# Windows.UI.Xaml.Automation.Peers.SelectorItemAutomationPeer.RemoveFromSelection
-
-## -description
-Removes the current element from the collection of selected items.
-
-## -remarks
-
-## -examples
-
-## -see-also
+---<!-- Method syntaxpublic void RemoveFromSelection()--># Windows.UI.Xaml.Automation.Peers.SelectorItemAutomationPeer.RemoveFromSelection## -descriptionRemoves the current element from the collection of selected items.## -remarks## -examples## -see-also

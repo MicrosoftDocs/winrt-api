@@ -1,26 +1,3 @@
----
--api-id: M:Windows.ApplicationModel.Chat.ChatMessageStore.TryCancelSendMessageAsync(System.String)
+----api-id: M:Windows.ApplicationModel.Chat.ChatMessageStore.TryCancelSendMessageAsync(System.String)
 -api-type: winrt method
----
-
-<!-- Method syntax
-public Windows.Foundation.IAsyncOperation<bool> TryCancelSendMessageAsync(System.String localChatMessageId)
--->
-
-# Windows.ApplicationModel.Chat.ChatMessageStore.TryCancelSendMessageAsync
-
-## -description
-Asynchronously attempts to cancel sending the specified message.
-
-## -parameters
-### -param localChatMessageId
-The ID of the message to stop sending.
-
-## -returns
-An async action indicating that the operation has completed.
-
-## -remarks
-
-## -examples
-
-## -see-also
+---<!-- Method syntaxpublic Windows.Foundation.IAsyncOperation<bool> TryCancelSendMessageAsync(System.String localChatMessageId)--># Windows.ApplicationModel.Chat.ChatMessageStore.TryCancelSendMessageAsync## -descriptionAsynchronously attempts to cancel sending the specified message.## -parameters### -param localChatMessageIdThe ID of the message to stop sending.## -returnsAn async action indicating that the operation has completed.## -remarks## -examples## -see-also

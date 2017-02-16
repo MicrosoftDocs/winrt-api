@@ -9,7 +9,7 @@ public Package Package { get; }
 
 # Windows.ApplicationModel.PackageContentGroup.Package
 
-## -description
+## -desc
 Gets the package for this content group.
 
 ## -property-value

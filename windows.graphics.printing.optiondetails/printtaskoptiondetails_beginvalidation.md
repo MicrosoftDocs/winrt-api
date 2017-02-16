@@ -1,19 +1,3 @@
----
--api-id: E:Windows.Graphics.Printing.OptionDetails.PrintTaskOptionDetails.BeginValidation
+----api-id: E:Windows.Graphics.Printing.OptionDetails.PrintTaskOptionDetails.BeginValidation
 -api-type: winrt event
----
-
-<!-- Event syntax
-public event Windows.Foundation.TypedEventHandler BeginValidation<Windows.Graphics.Printing.OptionDetails.PrintTaskOptionDetails,  object>
--->
-
-# Windows.Graphics.Printing.OptionDetails.PrintTaskOptionDetails.BeginValidation
-
-## -description
-Raised when the print system begins a validation pass on the current state of the print ticket.
-
-## -remarks
-
-## -examples
-
-## -see-also
+---<!-- Event syntaxpublic event Windows.Foundation.TypedEventHandler BeginValidation<Windows.Graphics.Printing.OptionDetails.PrintTaskOptionDetails,  object>--># Windows.Graphics.Printing.OptionDetails.PrintTaskOptionDetails.BeginValidation## -descriptionRaised when the print system begins a validation pass on the current state of the print ticket.## -remarks## -examples## -see-also

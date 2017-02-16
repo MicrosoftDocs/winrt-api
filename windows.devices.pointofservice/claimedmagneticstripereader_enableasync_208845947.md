@@ -20,9 +20,7 @@ No object or value is returned by this method when it completes.
 ## -examples
 
 
-[!code-cpp[EnableMagStripeReader](../windows.devices.pointofservice/code/MagneticStripeReader/cpp/Scenario1.xaml.cpp#SnippetEnableMagStripeReader)]
-
-[!code-csharp[EnableMagStripeReader](../windows.devices.pointofservice/code/MagneticStripeReader/cs/Scenario1.xaml.cs#SnippetEnableMagStripeReader)]
+[!code-cpp[EnableMagStripeReader](../windows.devices.pointofservice/code/MagneticStripeReader/cpp/Scenario1.xaml.cpp#SnippetEnableMagStripeReader)][!code-cs[EnableMagStripeReader](../windows.devices.pointofservice/code/MagneticStripeReader/cs/Scenario1.xaml.cs#SnippetEnableMagStripeReader)]
 
 [!code-js[CreateMagStripeReaderJS](../windows.devices.pointofservice/code/MagneticStripeReader/js/scenario1.js#SnippetCreateMagStripeReaderJS)]
 

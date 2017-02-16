@@ -1,16 +1,16 @@
-﻿<!--<Snippet1_XAML> -->
-<!--<Snippet11_XAML> -->
+﻿<!-- <snippet1> -->
+<!-- <snippet11> -->
 <UserControl x:Class="ListBoxSnippetEx.Page"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
     xmlns:src="using:ListBoxSnippetEx"
      >
-<!--</Snippet11_XAML> -->
+<!-- </snippet11> -->
 
     <StackPanel x:Name="LayoutRoot"  Margin="10,10,10,10">
         <StackPanel Orientation="Horizontal" >
             <TextBlock Margin="5" Text="ListBox with unbound data:" />
-        <!--<Snippet2_XAML> -->
+        <!-- <snippet2> -->
         <ListBox Width="150" Margin="0,5,0,10">
             <TextBlock Text="TextBlock" />
             <TextBox Text="TextBox" />
@@ -18,10 +18,10 @@
             <Rectangle Fill="LightBlue" Height="20" Width="100"  Margin="2,2,2,2"/>
             <Ellipse Fill="Coral" Height="20" Width="150"  Margin="2,2,2,2"/>
         </ListBox>
-        <!--</Snippet2_XAML> -->
+        <!-- </snippet2> -->
 
         <TextBlock Margin="5" Text="ListBox with bound data:" />
-        <!--<Snippet3_XAML> -->
+        <!-- <snippet3> -->
         <Grid>
             <Grid.Resources>
                 <src:Customers x:Key="customers"/>
@@ -29,11 +29,11 @@
             <ListBox ItemsSource="{StaticResource customers}" Width="250" Margin="0,5,0,10" 
                DisplayMemberPath="LastName"/>
         </Grid>
-        <!--</Snippet3_XAML> -->
+        <!-- </snippet3> -->
 </StackPanel>
         <StackPanel Orientation="Horizontal" >
             <TextBlock Margin="5" Text="ListBox with ItemTemplate:" Width="160" />
-            <!--<Snippet4_XAML> -->
+            <!-- <snippet4> -->
             <Grid>
                 <Grid.Resources>
                     <src:Customers x:Key="customers"/>
@@ -53,8 +53,8 @@
                     </ListBox.ItemTemplate>
                 </ListBox>
             </Grid>
-            <!--</Snippet4_XAML> -->
-            <!--<Snippet6_XAML>-->
+            <!-- </snippet4> -->
+            <!--<Snippet6>-->
             <Grid>
                 <Grid.Resources>
                     <Style x:Key="horizontalListBoxStyle" TargetType="ListBox">
@@ -84,10 +84,10 @@
                 </Grid.Resources>
                 <ListBox Height="25" Width="420" ItemsSource="{StaticResource items}" Style="{StaticResource horizontalListBoxStyle}"/>
             </Grid>
-            <!--</Snippet6_XAML>-->
+            <!--</snippet6>-->
         </StackPanel>
         <TextBlock Margin="5" Text="ListBox with SelectionChanged event handler:" Width="270" HorizontalAlignment="Left" />
-            <!--<Snippet5_XAML> -->
+            <!-- <snippet5> -->
             <ListBox Width="150" Margin="0,5,0,5" SelectionChanged="PrintText" HorizontalAlignment="Left">
                 <ListBoxItem Content="Item 1" />
                 <ListBoxItem Content="Item 2" />
@@ -96,9 +96,9 @@
                 <ListBoxItem Content="Item 5" />
             </ListBox>
             <TextBlock Name="textBlock1" />
-            <!--</Snippet5_XAML> -->
+            <!-- </snippet5> -->
      </StackPanel>
-<!--<Snippet12_XAML> -->
+<!-- <snippet12> -->
 </UserControl>
-<!--</Snippet12_XAML> -->
-<!--</Snippet1_XAML> -->
+<!-- </snippet12> -->
+<!-- </snippet1> -->

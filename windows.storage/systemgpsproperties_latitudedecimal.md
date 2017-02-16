@@ -1,23 +1,3 @@
----
--api-id: P:Windows.Storage.SystemGPSProperties.LatitudeDecimal
+----api-id: P:Windows.Storage.SystemGPSProperties.LatitudeDecimal
 -api-type: winrt property
----
-
-<!-- Property syntax
-public string LatitudeDecimal { get; }
--->
-
-# Windows.Storage.SystemGPSProperties.LatitudeDecimal
-
-## -description
-Gets the name of the  property (one of the [GPS file properties](http://msdn.microsoft.com/library/a19d6c4e-b3f3-4e54-99cd-76e16f650e3a)).
-
-## -property-value
-The name of the  file property.
-
-## -remarks
-
-## -examples
-
-## -see-also
-[SystemProperties](systemproperties.md)
+---<!-- Property syntaxpublic string LatitudeDecimal { get; }--># Windows.Storage.SystemGPSProperties.LatitudeDecimal## -descriptionGets the name of the  property (one of the [GPS file properties](http://msdn.microsoft.com/library/a19d6c4e-b3f3-4e54-99cd-76e16f650e3a)).## -property-valueThe name of the  file property.## -remarks## -examples## -see-also[SystemProperties](systemproperties.md)

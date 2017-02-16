@@ -1,22 +1,3 @@
----
--api-id: P:Windows.ApplicationModel.Chat.ChatMessage.IsSeen
+----api-id: P:Windows.ApplicationModel.Chat.ChatMessage.IsSeen
 -api-type: winrt property
----
-
-<!-- Property syntax
-public bool IsSeen { get;  set; }
--->
-
-# Windows.ApplicationModel.Chat.ChatMessage.IsSeen
-
-## -description
-Gets or sets a Boolean value indicating if the message has been seen.
-
-## -property-value
-A Boolean value indicating if the message has been seen.
-
-## -remarks
-
-## -examples
-
-## -see-also
+---<!-- Property syntaxpublic bool IsSeen { get;  set; }--># Windows.ApplicationModel.Chat.ChatMessage.IsSeen## -descriptionGets or sets a Boolean value indicating if the message has been seen.## -property-valueA Boolean value indicating if the message has been seen.## -remarks## -examples## -see-also

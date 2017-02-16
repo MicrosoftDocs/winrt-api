@@ -1,23 +1,3 @@
----
--api-id: M:Windows.Storage.Streams.IDataWriter.WriteInt64(System.Int64)
+----api-id: M:Windows.Storage.Streams.IDataWriter.WriteInt64(System.Int64)
 -api-type: winrt method
----
-
-<!-- Method syntax
-public void WriteInt64(System.Int64 value)
--->
-
-# Windows.Storage.Streams.IDataWriter.WriteInt64
-
-## -description
-Writes a 64-bit integer value to the output stream.
-
-## -parameters
-### -param value
-The value.
-
-## -remarks
-
-## -examples
-
-## -see-also
+---<!-- Method syntaxpublic void WriteInt64(System.Int64 value)--># Windows.Storage.Streams.IDataWriter.WriteInt64## -descriptionWrites a 64-bit integer value to the output stream.## -parameters### -param valueThe value.## -remarks## -examples## -see-also

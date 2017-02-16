@@ -1,19 +1,3 @@
----
--api-id: M:Windows.Media.Casting.CastingDevicePicker.Hide
+----api-id: M:Windows.Media.Casting.CastingDevicePicker.Hide
 -api-type: winrt method
----
-
-<!-- Method syntax
-public void Hide()
--->
-
-# Windows.Media.Casting.CastingDevicePicker.Hide
-
-## -description
-Hides the device picker UI.
-
-## -remarks
-
-## -examples
-
-## -see-also
+---<!-- Method syntaxpublic void Hide()--># Windows.Media.Casting.CastingDevicePicker.Hide## -descriptionHides the device picker UI.## -remarks## -examples## -see-also

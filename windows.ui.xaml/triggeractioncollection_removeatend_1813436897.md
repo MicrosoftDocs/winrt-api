@@ -1,19 +1,3 @@
----
--api-id: M:Windows.UI.Xaml.TriggerActionCollection.RemoveAtEnd
+----api-id: M:Windows.UI.Xaml.TriggerActionCollection.RemoveAtEnd
 -api-type: winrt method
----
-
-<!-- Method syntax
-public void RemoveAtEnd()
--->
-
-# Windows.UI.Xaml.TriggerActionCollection.RemoveAtEnd
-
-## -description
-Removes the last item in the collection.
-
-## -remarks
-
-## -examples
-
-## -see-also
+---<!-- Method syntaxpublic void RemoveAtEnd()--># Windows.UI.Xaml.TriggerActionCollection.RemoveAtEnd## -descriptionRemoves the last item in the collection.## -remarks## -examples## -see-also

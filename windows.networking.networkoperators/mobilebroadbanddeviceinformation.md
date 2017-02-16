@@ -20,7 +20,6 @@ For permission to use this API, please reach out to [Network Operators API Permi
 For technical help with this API, please reach out to [Network Operators API Help](mailto:netophelp@microsoft.com)
 
 ## -remarks
-If you're trying to get information about a SIM card that uses CMDA, the device information may contain multiple lines. Typically, the first line is for data connection and the second line contains SIM device information.
 
 ## -examples
 

@@ -1,22 +1,3 @@
----
--api-id: P:Windows.Graphics.Printing.IPrintTaskOptionsCoreProperties.MediaSize
+----api-id: P:Windows.Graphics.Printing.IPrintTaskOptionsCoreProperties.MediaSize
 -api-type: winrt property
----
-
-<!-- Property syntax
-public Windows.Graphics.Printing.PrintMediaSize MediaSize { get;  set; }
--->
-
-# Windows.Graphics.Printing.IPrintTaskOptionsCoreProperties.MediaSize
-
-## -description
-Gets or sets the media size option of the print task.
-
-## -property-value
-The media size option.
-
-## -remarks
-
-## -examples
-
-## -see-also
+---<!-- Property syntaxpublic Windows.Graphics.Printing.PrintMediaSize MediaSize { get;  set; }--># Windows.Graphics.Printing.IPrintTaskOptionsCoreProperties.MediaSize## -descriptionGets or sets the media size option of the print task.## -property-valueThe media size option.## -remarks## -examples## -see-also

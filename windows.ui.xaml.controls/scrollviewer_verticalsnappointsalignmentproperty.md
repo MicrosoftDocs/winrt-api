@@ -1,22 +1,3 @@
----
--api-id: P:Windows.UI.Xaml.Controls.ScrollViewer.VerticalSnapPointsAlignmentProperty
+----api-id: P:Windows.UI.Xaml.Controls.ScrollViewer.VerticalSnapPointsAlignmentProperty
 -api-type: winrt property
----
-
-<!-- Property syntax
-public Windows.UI.Xaml.DependencyProperty VerticalSnapPointsAlignmentProperty { get; }
--->
-
-# Windows.UI.Xaml.Controls.ScrollViewer.VerticalSnapPointsAlignmentProperty
-
-## -description
-Identifies the [VerticalSnapPointsAlignment](scrollviewer_verticalsnappointsalignment.md) dependency property.
-
-## -property-value
-The identifier for the [VerticalSnapPointsAlignment](scrollviewer_verticalsnappointsalignment.md) dependency property.
-
-## -remarks
-
-## -examples
-
-## -see-also
+---<!-- Property syntaxpublic Windows.UI.Xaml.DependencyProperty VerticalSnapPointsAlignmentProperty { get; }--># Windows.UI.Xaml.Controls.ScrollViewer.VerticalSnapPointsAlignmentProperty## -descriptionIdentifies the [VerticalSnapPointsAlignment](scrollviewer_verticalsnappointsalignment.md) dependency property.## -property-valueThe identifier for the [VerticalSnapPointsAlignment](scrollviewer_verticalsnappointsalignment.md) dependency property.## -remarks## -examples## -see-also

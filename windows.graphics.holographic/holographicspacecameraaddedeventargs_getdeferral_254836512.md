@@ -1,22 +1,3 @@
----
--api-id: M:Windows.Graphics.Holographic.HolographicSpaceCameraAddedEventArgs.GetDeferral
+----api-id: M:Windows.Graphics.Holographic.HolographicSpaceCameraAddedEventArgs.GetDeferral
 -api-type: winrt method
----
-
-<!-- Method syntax
-public Windows.Foundation.Deferral GetDeferral()
--->
-
-# Windows.Graphics.Holographic.HolographicSpaceCameraAddedEventArgs.GetDeferral
-
-## -description
-Requests that addition of this camera be delayed until the deferral is completed.
-
-## -returns
-The deferral.
-
-## -remarks
-
-## -examples
-
-## -see-also
+---<!-- Method syntaxpublic Windows.Foundation.Deferral GetDeferral()--># Windows.Graphics.Holographic.HolographicSpaceCameraAddedEventArgs.GetDeferral## -descriptionRequests that addition of this camera be delayed until the deferral is completed.## -returnsThe deferral.## -remarks## -examples## -see-also

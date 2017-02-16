@@ -9,7 +9,7 @@ public string TriggerId { get; }
 
 # Windows.ApplicationModel.Background.GattServiceProviderTrigger.TriggerId
 
-## -description
+## -desc
 Gets the trigger identifier.
 
 ## -property-value

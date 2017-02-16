@@ -10,10 +10,10 @@ public string Name { get; }
 # Windows.Management.Policies.NamedPolicyData.Name
 
 ## -description
-Gets the MDM policy name value.
+Gets the policy name.
 
 ## -property-value
-The MDM policy name value.
+The policy name.
 
 ## -remarks
 

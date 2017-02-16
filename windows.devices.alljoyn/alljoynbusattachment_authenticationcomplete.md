@@ -1,23 +1,3 @@
----
--api-id: E:Windows.Devices.AllJoyn.AllJoynBusAttachment.AuthenticationComplete
+----api-id: E:Windows.Devices.AllJoyn.AllJoynBusAttachment.AuthenticationComplete
 -api-type: winrt event
----
-
-<!-- Event syntax
-public event Windows.Foundation.TypedEventHandler AuthenticationComplete<Windows.Devices.AllJoyn.AllJoynBusAttachment,  Windows.Devices.AllJoyn.AllJoynAuthenticationCompleteEventArgs>
--->
-
-# Windows.Devices.AllJoyn.AllJoynBusAttachment.AuthenticationComplete
-
-## -description
-Occurs when verification of supplied credentials is complete.
-
-## -remarks
-
-## -examples
-
-## -see-also
-
-
-## -capabilities
-allJoyn
+---<!-- Event syntaxpublic event Windows.Foundation.TypedEventHandler AuthenticationComplete<Windows.Devices.AllJoyn.AllJoynBusAttachment,  Windows.Devices.AllJoyn.AllJoynAuthenticationCompleteEventArgs>--># Windows.Devices.AllJoyn.AllJoynBusAttachment.AuthenticationComplete## -descriptionOccurs when verification of supplied credentials is complete.## -remarks## -examples## -see-also## -capabilitiesallJoyn
