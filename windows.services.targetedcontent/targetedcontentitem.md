@@ -10,7 +10,7 @@ public class TargetedContentItem
 # Windows.Services.TargetedContent.TargetedContentItem
 
 ## -description
-
+Represents an item with the TargetedContentCollection.
 ## -remarks
 
 ## -see-also
