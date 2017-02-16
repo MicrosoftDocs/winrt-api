@@ -1,3 +1,19 @@
-----api-id: E:Windows.UI.Input.Spatial.SpatialInteractionManager.SourceUpdated
+---
+-api-id: E:Windows.UI.Input.Spatial.SpatialInteractionManager.SourceUpdated
 -api-type: winrt event
----<!-- Event syntaxpublic event Windows.Foundation.TypedEventHandler SourceUpdated<Windows.UI.Input.Spatial.SpatialInteractionManager,  Windows.UI.Input.Spatial.SpatialInteractionSourceEventArgs>--># Windows.UI.Input.Spatial.SpatialInteractionManager.SourceUpdated## -descriptionOccurs when a hand or controller has experienced a change to its SpatialInteractionSourceState.## -remarks## -examples## -see-also
+---
+
+<!-- Event syntax
+public event Windows.Foundation.TypedEventHandler SourceUpdated<Windows.UI.Input.Spatial.SpatialInteractionManager,  Windows.UI.Input.Spatial.SpatialInteractionSourceEventArgs>
+-->
+
+# Windows.UI.Input.Spatial.SpatialInteractionManager.SourceUpdated
+
+## -description
+Occurs when a hand or controller has experienced a change to its SpatialInteractionSourceState.
+
+## -remarks
+
+## -examples
+
+## -see-also

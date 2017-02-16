@@ -18,7 +18,11 @@ For an example of how to use Play To in an application, see [Quickstart: Using P
 ## -examples
 
 
-[!code-cs[PlayToEvents](../windows.media.playto/code/PlayTo_Reference/csharp/MainPage.xaml.cs#SnippetPlayToEvents)][!code-js[PlayToEvents](../windows.media.playto/code/PlayTo_Reference/javascript/default.js#SnippetPlayToEvents)][!code-vb[PlayToEvents](../windows.media.playto/code/PlayTo_Reference/vbnet/MainPage.xaml.vb#SnippetPlayToEvents)]
+[!code-csharp[PlayToEvents](../windows.media.playto/code/PlayTo_Reference/csharp/MainPage.xaml.cs#SnippetPlayToEvents)]
+
+[!code-js[PlayToEvents](../windows.media.playto/code/PlayTo_Reference/javascript/default.js#SnippetPlayToEvents)]
+
+[!code-vb[PlayToEvents](../windows.media.playto/code/PlayTo_Reference/vbnet/MainPage.xaml.vb#SnippetPlayToEvents)]
 
 ## -see-also
 [SourceSelected](playtomanager_sourceselected.md), [Play To sample](http://go.microsoft.com/fwlink/p/?linkid=245166), [PlayToReceiver sample](http://go.microsoft.com/fwlink/p/?linkid=245167), [Media Server sample](http://go.microsoft.com/fwlink/p/?linkid=245168)

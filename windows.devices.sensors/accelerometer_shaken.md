@@ -19,13 +19,13 @@ The following example demonstrates how a Windows Store app built with C# and XAM
 
 
 
-[!code-cs[EnableShakenCS](../windows.devices.sensors/code/Accelerometer/cs/Scenario2.xaml.cs#SnippetEnableShakenCS)]
+[!code-csharp[EnableShakenCS](../windows.devices.sensors/code/Accelerometer/cs/Scenario2.xaml.cs#SnippetEnableShakenCS)]
 
 The following example shows the [Shaken](accelerometer_shaken.md) event handler.
 
 
 
-[!code-cs[ShakenCS](../windows.devices.sensors/code/Accelerometer/cs/Scenario2.xaml.cs#SnippetShakenCS)]
+[!code-csharp[ShakenCS](../windows.devices.sensors/code/Accelerometer/cs/Scenario2.xaml.cs#SnippetShakenCS)]
 
 The following example demonstrates how a Windows Store app built with JavaScript registers its **Shaken** event handler.
 

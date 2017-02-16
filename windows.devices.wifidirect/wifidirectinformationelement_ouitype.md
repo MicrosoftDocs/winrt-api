@@ -1,3 +1,22 @@
-----api-id: P:Windows.Devices.WiFiDirect.WiFiDirectInformationElement.OuiType
+---
+-api-id: P:Windows.Devices.WiFiDirect.WiFiDirectInformationElement.OuiType
 -api-type: winrt property
----<!-- Property syntaxpublic byte OuiType { get;  set; }--># Windows.Devices.WiFiDirect.WiFiDirectInformationElement.OuiType## -descriptionA one byte type value used in a vendor extension information element (IE) to distinguish between different IE formats defined by the same organization.## -property-valueA one byte type value used in a vendor extension information element (IE) to distinguish between different IE formats defined by the same organization.## -remarks## -examples## -see-also
+---
+
+<!-- Property syntax
+public byte OuiType { get;  set; }
+-->
+
+# Windows.Devices.WiFiDirect.WiFiDirectInformationElement.OuiType
+
+## -description
+A one byte type value used in a vendor extension information element (IE) to distinguish between different IE formats defined by the same organization.
+
+## -property-value
+A one byte type value used in a vendor extension information element (IE) to distinguish between different IE formats defined by the same organization.
+
+## -remarks
+
+## -examples
+
+## -see-also

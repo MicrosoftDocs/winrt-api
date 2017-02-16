@@ -1,4 +1,4 @@
-﻿// <snippet10>
+﻿//<Snippet10_CS>
 using System;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
@@ -21,17 +21,17 @@ namespace ListBoxSnippetEx
             InitializeComponent();
         }
 
-        // <snippet111>
+        //<Snippet111_CS>
         void PrintText(object sender, SelectionChangedEventArgs args)
         {
             ListBoxItem lbi = ((sender as ListBox).SelectedItem as ListBoxItem);
             textBlock1.Text = "   You selected " + lbi.Content.ToString() + ".";
         }
-        // </snippet111>
+        //</Snippet111_CS>
 
     }
 
-    //<snippet101>
+    //<Snippet101_CS>
     public class Customer
     {
         public String FirstName { get; set; }
@@ -62,6 +62,6 @@ namespace ListBoxSnippetEx
         }
 
     }
-    //</snippet101>
+    //</Snippet101_CS>
 }
-// </snippet10>
+// </Snippet10_CS>

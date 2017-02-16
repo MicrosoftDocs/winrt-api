@@ -1,3 +1,22 @@
-----api-id: P:Windows.Devices.PointOfService.PosPrinterCharacterSetIds.Utf16LE
+---
+-api-id: P:Windows.Devices.PointOfService.PosPrinterCharacterSetIds.Utf16LE
 -api-type: winrt property
----<!-- Property syntaxpublic uint Utf16LE { get; }--># Windows.Devices.PointOfService.PosPrinterCharacterSetIds.Utf16LE## -descriptionGets the identifier for the UTF16LE character set.## -property-valueThe identifier for the UTF16LE character set.## -remarks## -examples## -see-also
+---
+
+<!-- Property syntax
+public uint Utf16LE { get; }
+-->
+
+# Windows.Devices.PointOfService.PosPrinterCharacterSetIds.Utf16LE
+
+## -description
+Gets the identifier for the UTF16LE character set.
+
+## -property-value
+The identifier for the UTF16LE character set.
+
+## -remarks
+
+## -examples
+
+## -see-also

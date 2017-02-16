@@ -1,3 +1,22 @@
-----api-id: P:Windows.UI.Core.CoreIndependentInputSource.PointerCursor
+---
+-api-id: P:Windows.UI.Core.CoreIndependentInputSource.PointerCursor
 -api-type: winrt property
----<!-- Property syntaxpublic Windows.UI.Core.CoreCursor PointerCursor { get;  set; }--># Windows.UI.Core.CoreIndependentInputSource.PointerCursor## -descriptionGets or sets the cursor used by the Windows Store app.## -property-valueThe app's cursor.## -remarks## -examples## -see-also
+---
+
+<!-- Property syntax
+public Windows.UI.Core.CoreCursor PointerCursor { get;  set; }
+-->
+
+# Windows.UI.Core.CoreIndependentInputSource.PointerCursor
+
+## -description
+Gets or sets the cursor used by the Windows Store app.
+
+## -property-value
+The app's cursor.
+
+## -remarks
+
+## -examples
+
+## -see-also

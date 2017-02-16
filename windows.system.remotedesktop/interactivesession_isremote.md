@@ -20,7 +20,7 @@ Contains **True** if the current process is running in a remote session or **Fal
 ## -examples
 
 
-[!code-cs[_InteractiveSession_IsRemote_cs](../windows.system.remotedesktop/code/IsRemoteSession/cs/RemoteSession.xaml.cs#Snippet_InteractiveSession_IsRemote_cs)]
+[!code-csharp[_InteractiveSession_IsRemote_cs](../windows.system.remotedesktop/code/IsRemoteSession/cs/RemoteSession.xaml.cs#Snippet_InteractiveSession_IsRemote_cs)]
 
 [!code-cpp[_InteractiveSession_IsRemote_cpp](../windows.system.remotedesktop/code/IsRemoteSession/cpp/RemoteSession.xaml.cpp#Snippet_InteractiveSession_IsRemote_cpp)]
 

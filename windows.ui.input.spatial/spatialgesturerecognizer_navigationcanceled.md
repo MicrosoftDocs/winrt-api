@@ -1,3 +1,25 @@
-----api-id: E:Windows.UI.Input.Spatial.SpatialGestureRecognizer.NavigationCanceled
+---
+-api-id: E:Windows.UI.Input.Spatial.SpatialGestureRecognizer.NavigationCanceled
 -api-type: winrt event
----<!-- Event syntaxpublic event Windows.Foundation.TypedEventHandler NavigationCanceled<Windows.UI.Input.Spatial.SpatialGestureRecognizer,  Windows.UI.Input.Spatial.SpatialNavigationCanceledEventArgs>--># Windows.UI.Input.Spatial.SpatialGestureRecognizer.NavigationCanceled## -descriptionOccurs when a Navigation gesture is canceled.For hand interactions, this event fires when the relevant hand that had a NavigationStarted is lost during the gesture.For voice interactions, this event does not fire.For controllers, this event fires when the relevant controller that had a NavigationStarted is lost during the gesture.## -remarks## -examples## -see-also
+---
+
+<!-- Event syntax
+public event Windows.Foundation.TypedEventHandler NavigationCanceled<Windows.UI.Input.Spatial.SpatialGestureRecognizer,  Windows.UI.Input.Spatial.SpatialNavigationCanceledEventArgs>
+-->
+
+# Windows.UI.Input.Spatial.SpatialGestureRecognizer.NavigationCanceled
+
+## -description
+Occurs when a Navigation gesture is canceled.
+
+For hand interactions, this event fires when the relevant hand that had a NavigationStarted is lost during the gesture.
+
+For voice interactions, this event does not fire.
+
+For controllers, this event fires when the relevant controller that had a NavigationStarted is lost during the gesture.
+
+## -remarks
+
+## -examples
+
+## -see-also

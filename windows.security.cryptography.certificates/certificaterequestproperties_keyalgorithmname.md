@@ -21,7 +21,7 @@ The default value is "RSA". You can use properties on the [KeyAlgorithmNames](ke
 ## -examples
 
 
-[!code-cs[ShowPublicKeyAlg] (../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowPublicKeyAlg)]
+[!code-csharp[ShowPublicKeyAlg] (../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowPublicKeyAlg)]
 
 ## -see-also
 [KeyAlgorithmNames](keyalgorithmnames.md)

@@ -17,7 +17,11 @@ For an example of creating a software Play To receiver, see [Media casting](http
 
 
 
-[!code-cs[NotifySeek](../windows.media.playto/code/PlayTo_Receiver1/csharp/MainPage.xaml.cs#SnippetNotifySeek)][!code-js[NotifySeek](../windows.media.playto/code/PlayTo_Receiver1/javascript/default.js#SnippetNotifySeek)][!code-vb[NotifySeek](../windows.media.playto/code/PlayTo_Receiver1/vbnet/MainPage.xaml.vb#SnippetNotifySeek)]
+[!code-csharp[NotifySeek](../windows.media.playto/code/PlayTo_Receiver1/csharp/MainPage.xaml.cs#SnippetNotifySeek)]
+
+[!code-js[NotifySeek](../windows.media.playto/code/PlayTo_Receiver1/javascript/default.js#SnippetNotifySeek)]
+
+[!code-vb[NotifySeek](../windows.media.playto/code/PlayTo_Receiver1/vbnet/MainPage.xaml.vb#SnippetNotifySeek)]
 
 ## -examples
 

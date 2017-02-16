@@ -10,7 +10,7 @@ public enum Windows.UI.Input.Inking.InkManipulationMode : int
 # InkManipulationMode
 
 ## -description
-Identifies the ink input mode.
+Specifies the modes of ink input.
 
 ## -enum-fields
 ### -field Inking:0

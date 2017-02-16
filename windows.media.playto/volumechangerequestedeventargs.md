@@ -17,7 +17,11 @@ For an example of creating a software Play To receiver, see [Media casting](http
 
 
 
-[!code-cs[VolumeChangeRequested](../windows.media.playto/code/PlayTo_Receiver1/csharp/MainPage.xaml.cs#SnippetVolumeChangeRequested)][!code-js[VolumeChangeRequested](../windows.media.playto/code/PlayTo_Receiver1/javascript/default.js#SnippetVolumeChangeRequested)][!code-vb[VolumeChangeRequested](../windows.media.playto/code/PlayTo_Receiver1/vbnet/MainPage.xaml.vb#SnippetVolumeChangeRequested)]
+[!code-csharp[VolumeChangeRequested](../windows.media.playto/code/PlayTo_Receiver1/csharp/MainPage.xaml.cs#SnippetVolumeChangeRequested)]
+
+[!code-js[VolumeChangeRequested](../windows.media.playto/code/PlayTo_Receiver1/javascript/default.js#SnippetVolumeChangeRequested)]
+
+[!code-vb[VolumeChangeRequested](../windows.media.playto/code/PlayTo_Receiver1/vbnet/MainPage.xaml.vb#SnippetVolumeChangeRequested)]
 
 ## -examples
 

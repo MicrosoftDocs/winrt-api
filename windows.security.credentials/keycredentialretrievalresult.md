@@ -1,3 +1,19 @@
-----api-id: T:Windows.Security.Credentials.KeyCredentialRetrievalResult
+---
+-api-id: T:Windows.Security.Credentials.KeyCredentialRetrievalResult
 -api-type: winrt class
----<!-- Class syntax.public class KeyCredentialRetrievalResult : Windows.Security.Credentials.IKeyCredentialRetrievalResult--># Windows.Security.Credentials.KeyCredentialRetrievalResult## -descriptionRepresents the result of a key credential retrieval.## -remarks## -examples## -see-also
+---
+
+<!-- Class syntax.
+public class KeyCredentialRetrievalResult : Windows.Security.Credentials.IKeyCredentialRetrievalResult
+-->
+
+# Windows.Security.Credentials.KeyCredentialRetrievalResult
+
+## -description
+Represents the result of a key credential retrieval.
+
+## -remarks
+
+## -examples
+
+## -see-also

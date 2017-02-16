@@ -44,7 +44,7 @@ You create a [SymmetricKeyAlgorithmProvider](symmetrickeyalgorithmprovider.md) o
 ## -examples
 
 
-[!code-cs[ShowSymmKeyAlgProviderClass] (../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowSymmKeyAlgProviderClass)]
+[!code-csharp[ShowSymmKeyAlgProviderClass] (../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowSymmKeyAlgProviderClass)]
 
 
 ## -see-also

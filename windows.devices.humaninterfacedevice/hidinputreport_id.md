@@ -1,3 +1,22 @@
-----api-id: P:Windows.Devices.HumanInterfaceDevice.HidInputReport.Id
+---
+-api-id: P:Windows.Devices.HumanInterfaceDevice.HidInputReport.Id
 -api-type: winrt property
----<!-- Property syntaxpublic ushort Id { get; }--># Windows.Devices.HumanInterfaceDevice.HidInputReport.Id## -descriptionRetrieves the identifier associated with a given input report.## -property-valueThe input report identifier.## -remarks## -examples## -see-also
+---
+
+<!-- Property syntax
+public ushort Id { get; }
+-->
+
+# Windows.Devices.HumanInterfaceDevice.HidInputReport.Id
+
+## -description
+Retrieves the identifier associated with a given input report.
+
+## -property-value
+The input report identifier.
+
+## -remarks
+
+## -examples
+
+## -see-also

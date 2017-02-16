@@ -17,7 +17,7 @@ Contains read-only strings that identify various device types.
 ## -examples
 
 ## -see-also
-[Connected apps and devices (Project "Rome")](https://msdn.microsoft.com/en-us/windows/uwp/launch-resume/connected-apps-and-devices)
+[Connected apps and devices (Project Rome)](https://msdn.microsoft.com/en-us/windows/uwp/launch-resume/connected-apps-and-devices)
 
 ## -capabilities
 remoteSystem
