@@ -10,7 +10,7 @@ public TargetedContentValue Value { get; }
 # Windows.Services.TargetedContent.TargetedContentObject.Value
 
 ## -description
-
+Gets the TargetedContentValue object for the TargetedContentObject object.
 ## -property-value
 
 ## -remarks
