@@ -10,10 +10,8 @@ public InkPresenterRuler Ruler { get; }
 # Windows.UI.Xaml.Controls.InkToolbarStencilButton.Ruler
 
 ## -description
-Gets a reference to the [ruler](../windows.ui.input.inking/inkpresenterruler) tool of the [InkPresenter](../windows.ui.input.inking/inkpresenter.md) object.
 
 ## -property-value
-The ruler tool.
 
 ## -remarks
 

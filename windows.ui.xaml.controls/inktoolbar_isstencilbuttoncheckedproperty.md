@@ -10,14 +10,12 @@ public DependencyProperty IsStencilButtonCheckedProperty { get; }
 # Windows.UI.Xaml.Controls.InkToolbar.IsStencilButtonCheckedProperty
 
 ## -description
-Identifies the [IsStencilButtonChecked](inktoolbar_isstencilbuttonchecked.md) dependency property.
 
 ## -property-value
-The identifier for the [IsStencilButtonChecked](inktoolbar_isstencilbuttonchecked.md) dependency property.
 
 ## -remarks
 
+## -see-also
+
 ## -examples
 
-## -see-also
-[IsStencilButtonChecked](inktoolbar_isstencilbuttonchecked.md)

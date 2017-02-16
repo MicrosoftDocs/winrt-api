@@ -10,7 +10,6 @@ public class InkToolbarStencilButton : InkToolbarMenuButton, InkToolbarMenuButto
 # Windows.UI.Xaml.Controls.InkToolbarStencilButton
 
 ## -description
-Represents an [InkToolbar](inktoolbar.md) button that sets the state of stencil tool to on or off.
 
 ## -remarks
 

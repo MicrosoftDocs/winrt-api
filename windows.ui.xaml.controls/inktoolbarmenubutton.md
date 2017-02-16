@@ -10,7 +10,6 @@ public class InkToolbarMenuButton : ToggleButton, ToggleButton
 # Windows.UI.Xaml.Controls.InkToolbarMenuButton
 
 ## -description
-Represents an [InkToolbar](inktoolbar.md) button that invokes a menu of tools, defined by the host app.
 
 ## -remarks
 
