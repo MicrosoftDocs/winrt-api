@@ -24,15 +24,14 @@ The custom tool.
 
 ## -remarks
 [UX guidelines](https://msdn.microsoft.com/en-us/windows/uwp/input-and-devices/windows-wheel-interactions) for the Surface Dial recommend the following:
-Text
 
+**Text**
 + Names should be short to fit inside the central circle of the wheel menu
-+ Names should clearly identify the primary action (a complementary action can be implied)   + Scroll indicates the effect of both rotation directions
-   + Undo specifies a primary action, but redo (the complementary action) can be inferred and easily discovered by the user
++ Names should clearly identify the primary action (a complementary action can be implied)   
++ Scroll indicates the effect of both rotation directions
++ Undo specifies a primary action, but redo (the complementary action) can be inferred and easily discovered by the user
 
-
-Icons
-
+**Icons**
 + Provide a high-quality 64 x 64 pixel PNG image (44 x 44 is the smallest supported)
 + Ensure the background is transparent
 + The icon should fill most of the image
@@ -42,4 +41,9 @@ Icons
 ## -examples
 
 ## -see-also
-[CreateFromKnownIcon](radialcontrollermenuitem_createfromknownicon.md), [Surface Dial interactions](https://msdn.microsoft.com/en-us/windows/uwp/input-and-devices/windows-wheel-interactions), [Universal Windows Platform samples (C# and C++)](https://go.microsoft.com/fwlink/?linkid=832713), [Windows classic desktop sample](https://aka.ms/radialcontrollerclassicsample)
+- [CreateFromKnownIcon](radialcontrollermenuitem_createfromknownicon.md)
+- [CreateFromFontGlyph(String displayText, String glyph, String fontFamily)](radialcontrollermenuitem_createfromfontglyph_63723173.md)
+- [CreateFromFontGlyph(String displayText, String glyph, String fontFamily, Uri fontUri)](radialcontrollermenuitem_createfromfontglyph_679326837.md)
+- [Surface Dial interactions](https://msdn.microsoft.com/en-us/windows/uwp/input-and-devices/windows-wheel-interactions)
+- [Universal Windows Platform samples (C# and C++)](https://go.microsoft.com/fwlink/?linkid=832713)
+- [Windows classic desktop sample](https://aka.ms/radialcontrollerclassicsample)

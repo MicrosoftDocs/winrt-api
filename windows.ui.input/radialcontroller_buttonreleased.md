@@ -10,10 +10,12 @@ public event TypedEventHandler ButtonReleased<RadialController, RadialController
 # Windows.UI.Input.RadialController.ButtonReleased
 
 ## -description
+Occurs when the wheel device is pressed and then released.
 
 ## -remarks
 
 ## -see-also
+- [ButtonPressed](buttonpressed.md)
 
 ## -examples
 
