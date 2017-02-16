@@ -11,6 +11,8 @@ public class LockScreenComponentActivatedEventArgs : IActivatedEventArgs
 
 ## -description
 
+Provides data when an app is activated as part of a lock screen component. 
+
 ## -remarks
 
 ## -see-also

@@ -10,8 +10,10 @@ public ValueSet Message { get; }
 # Windows.System.RemoteSystems.RemoteSystemSessionValueSetReceivedEventArgs.Message
 
 ## -description
+Gets the contents of the message received by the channel.
 
 ## -property-value
+A [**ValueSet**](https://docs.microsoft.com/uwp/api/Windows.Foundation.Collections.ValueSet) object containing the data that was received from the channel.
 
 ## -remarks
 

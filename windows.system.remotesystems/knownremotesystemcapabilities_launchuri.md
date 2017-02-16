@@ -18,7 +18,6 @@ The canonical string name of the launch URI capability.
 ## -remarks
 
 ## -see-also
-TBD
 
 ## -examples
 

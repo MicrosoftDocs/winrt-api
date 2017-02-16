@@ -10,8 +10,10 @@ public IAsyncOperation<RemoteSystemSessionJoinResult> RemoteSystemSessionInfo.Jo
 # Windows.System.RemoteSystems.RemoteSystemSessionInfo.JoinAsync
 
 ## -description
+Issues a request from the calling device to join the given remote session.
 
 ## -returns
+An asynchronous operation with the result of this join request.
 
 ## -remarks
 

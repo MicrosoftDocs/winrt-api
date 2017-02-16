@@ -10,6 +10,7 @@ public event TypedEventHandler Added<RemoteSystemSessionWatcher, RemoteSystemSes
 # Windows.System.RemoteSystems.RemoteSystemSessionWatcher.Added
 
 ## -description
+Raised when a new remote session has been discovered by the [**RemoteSystemSessionWatcher**](RemoteSystemSessionWatcher.md).
 
 ## -remarks
 

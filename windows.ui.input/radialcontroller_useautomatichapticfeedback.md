@@ -13,8 +13,7 @@ public bool UseAutomaticHapticFeedback { get;  set; }
 Gets or sets whether haptic feedback is enabled on the wheel device for each [RotationChanged](radialcontroller_rotationchanged.md) event fired by the [RadialController](radialcontroller.md).
 
 ## -property-value
-**
-      true** if haptic feedback is enabled; otherwise **false**.
+**true** if haptic feedback is enabled; otherwise **false**.
 
 ## -remarks
 

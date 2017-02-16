@@ -10,8 +10,10 @@ public RemoteSystemSessionInfo SessionInfo { get; }
 # Windows.System.RemoteSystems.RemoteSystemSessionUpdatedEventArgs.SessionInfo
 
 ## -description
+Gets information about the remote session that was updated.
 
 ## -property-value
+A [**RemoteSystemSessionInfo**](RemoteSystemSessionInfo.md) object describing the remote session that was updated.
 
 ## -remarks
 

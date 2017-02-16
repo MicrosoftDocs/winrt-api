@@ -10,6 +10,7 @@ public IVectorView<HostName> RemoteSystemSessionParticipant.GetHostNames()
 # Windows.System.RemoteSystems.RemoteSystemSessionParticipant.GetHostNames
 
 ## -description
+TBD1
 
 ## -returns
 

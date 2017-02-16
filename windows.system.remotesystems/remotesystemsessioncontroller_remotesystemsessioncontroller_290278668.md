@@ -10,10 +10,12 @@ public RemoteSystemSessionController.RemoteSystemSessionController(String displa
 # Windows.System.RemoteSystems.RemoteSystemSessionController.RemoteSystemSessionController
 
 ## -description
+Initializes a [**RemoteSystemSessionController**](RemoteSystemSessionController.md) with a custom display name.
 
 ## -parameters
 
 ### -param displayName
+The public-facing name for this remote session. It should be simple and descriptive.
 
 ## -remarks
 

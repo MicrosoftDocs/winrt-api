@@ -10,7 +10,7 @@ public bool IsManaged { get; }
 # Windows.Management.Policies.NamedPolicyData.IsManaged
 
 ## -description
-Determines whether a policy is actively managed or not.
+Determines whether an MDM policy is actively managed or not.
 
 ## -property-value
 True if the policy is managed; False if the policy is not managed.

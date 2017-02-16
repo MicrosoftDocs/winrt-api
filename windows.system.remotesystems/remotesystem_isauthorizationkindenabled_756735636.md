@@ -18,10 +18,10 @@ Checks whether the client device is authorized to discover other users' devices 
 The [**RemoteSystemAuthorizationKind**](remotesystemauthorizationkind.md) to check.
 
 ## -returns
-Returns **true** if the client device is set to *kind* authorization, otherwise **false**.
+Returns **true** if the client device is set to *kind* authorization scheme, otherwise **false**.
 
 ## -remarks
-TBD - how is this authorization set?
+This authorization is a system-wide setting. The user can view and change it by going to Settings > System > Shared experiences.
 
 ## -see-also
 

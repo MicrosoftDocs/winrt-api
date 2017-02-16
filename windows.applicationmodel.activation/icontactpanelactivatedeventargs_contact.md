@@ -11,7 +11,11 @@ public Contact Contact { get; }
 
 ## -description
 
+Gets the contact. 
+
 ## -property-value
+
+The contact. 
 
 ## -remarks
 

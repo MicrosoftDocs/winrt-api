@@ -10,7 +10,7 @@ public enum TargetedContentAppInstallationState : int
 # Windows.Services.TargetedContent.TargetedContentAppInstallationState
 
 ## -description
-
+Provides information on the installation state of an app: NotApplicable, NotInstalled or Installed.
 ## -enum-fields
 ### -field NotInstalled:1
 
