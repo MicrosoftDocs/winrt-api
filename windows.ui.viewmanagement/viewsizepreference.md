@@ -31,12 +31,14 @@ The window uses the minimum horizontal pixel width (either 320 or 500 pixels) sp
 ### -field UseNone:5
 The window has no visible component.
 
-
 ### -field Custom:6
-
+The window uses a custom preferred size specifed in the app.
 
 ## -remarks
 An "app view" is the displayed portion of a Windows Store app, and which can be variably sized by the user. A user's screen can have up to 4 app views of variable width displayed simultaneously, with a combined horizontal pixel width equal to that of the display device's horizontal resolution.
+
+### Custom view sizes
+Set the [ViewModePreferences.ViewSizePreference](viewmodepreferences_viewsizepreference.md) property value to **Custom** when you set the [ViewModePreferences.CustomSize](viewmodepreferences_customsize.md) property.
 
 ## -examples
 

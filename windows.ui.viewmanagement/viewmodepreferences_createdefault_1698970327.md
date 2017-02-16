@@ -10,12 +10,15 @@ public ViewModePreferences ViewModePreferences.CreateDefault(ApplicationViewMode
 # Windows.UI.ViewManagement.ViewModePreferences.CreateDefault
 
 ## -description
+Creates a new instance of **ViewModePreferences** with default property values set for the specified view mode. 
 
 ## -parameters
 
 ### -param mode
+The view mode to set default preferences for.
 
 ## -returns
+A new instance of **ViewModePreferences** with default property values set for the specified view mode.
 
 ## -remarks
 
