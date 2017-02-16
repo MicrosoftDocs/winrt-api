@@ -10,8 +10,10 @@ public IAsyncOperation<VibrationDevice>> VibrationDevice.FindAllAsync()
 # Windows.Devices.Haptics.VibrationDevice.FindAllAsync
 
 ## -description
+Asynchronously retrieves all vibration devices detected.
 
 ## -returns
+The collection of [VibrationDevices](vibrationdevice.md) detected.
 
 ## -remarks
 

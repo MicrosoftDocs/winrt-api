@@ -10,6 +10,7 @@ public class SimpleHapticsControllerFeedback
 # Windows.Devices.Haptics.SimpleHapticsControllerFeedback
 
 ## -description
+Provides access to the feedback behaviors supported by the haptic input device.
 
 ## -remarks
 

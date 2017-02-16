@@ -10,6 +10,7 @@ public event TypedEventHandler Removed<RemoteSystemSessionWatcher, RemoteSystemS
 # Windows.System.RemoteSystems.RemoteSystemSessionWatcher.Removed
 
 ## -description
+Raised when a previously discovered remote session has disappeared.
 
 ## -remarks
 

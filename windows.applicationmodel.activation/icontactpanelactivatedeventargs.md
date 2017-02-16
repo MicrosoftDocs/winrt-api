@@ -11,6 +11,8 @@ public interface IContactPanelActivatedEventArgs
 
 ## -description
 
+Provides data when an app is activated by the contact panel.
+
 ## -remarks
 
 ## -see-also

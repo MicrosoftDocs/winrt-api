@@ -10,6 +10,7 @@ public void RemoteSystemSession.Close()
 # Windows.System.RemoteSystems.RemoteSystemSession.Close
 
 ## -description
+Closes the session, disconnecting all participants.
 
 ## -remarks
 

@@ -10,10 +10,10 @@ public InkWorkspaceHostedAppManager InkWorkspaceHostedAppManager.GetForCurrentAp
 # Windows.ApplicationModel.Preview.InkWorkspace.InkWorkspaceHostedAppManager.GetForCurrentApp
 
 ## -description
-
-## -parameters
+Retrieves a reference to the Ink Workspace manager for this app.
 
 ## -returns
+An Ink Workspace reference.
 
 ## -remarks
 

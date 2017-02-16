@@ -13,7 +13,7 @@ public class RemoteSystemConnectionRequest : Windows.System.RemoteSystems.IRemot
 Represents an intent to communicate with a specific remote system (device).
 
 ## -remarks
-An instance of this class is constructed from a given [RemoteSystem](remotesystem.md) object. All of the remote system features, such as remote launch or remote app service connection, require the use of a  object to determine which system (device) to connect to.
+An instance of this class is constructed from a given [RemoteSystem](remotesystem.md) object. All of the remote system features, such as remote launch or remote app service connection, require the use of this object to determine which system (device) to connect to.
 
 ## -examples
 

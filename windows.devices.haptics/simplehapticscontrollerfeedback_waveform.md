@@ -10,8 +10,10 @@ public ushort Waveform { get; }
 # Windows.Devices.Haptics.SimpleHapticsControllerFeedback.Waveform
 
 ## -description
+Gets the haptic waveform type for the haptic input device.
 
 ## -property-value
+An unsigned 16-bit waveform ID.  
 
 ## -remarks
 

@@ -10,8 +10,10 @@ public ushort Press { get; }
 # Windows.Devices.Haptics.KnownSimpleHapticsControllerWaveforms.Press
 
 ## -description
+Gets a press waveform.
 
 ## -property-value
+An unsigned 16-bit waveform ID.  
 
 ## -remarks
 

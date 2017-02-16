@@ -10,7 +10,7 @@ public class TargetedContentContainer
 # Windows.Services.TargetedContent.TargetedContentContainer
 
 ## -description
-
+Represents a content container, storing a subscription.
 ## -remarks
 
 ## -see-also
