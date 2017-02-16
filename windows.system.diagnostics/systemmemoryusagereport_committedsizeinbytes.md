@@ -10,8 +10,10 @@ public ulong CommittedSizeInBytes { get; }
 # Windows.System.Diagnostics.SystemMemoryUsageReport.CommittedSizeInBytes
 
 ## -description
+Gets the amount of committed memory for the system.  
 
 ## -property-value
+The amount of committed memory for the system.  
 
 ## -remarks
 

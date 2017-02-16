@@ -10,7 +10,7 @@ public Windows.System.Diagnostics.ProcessMemoryUsage MemoryUsage { get; }
 # Windows.System.Diagnostics.ProcessDiagnosticInfo.MemoryUsage
 
 ## -description
-Get memory usage data for the process.
+Gets memory usage data for the process.
 
 ## -property-value
 Memory usage data for the process.

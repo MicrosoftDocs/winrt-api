@@ -10,8 +10,10 @@ public ulong TotalPhysicalSizeInBytes { get; }
 # Windows.System.Diagnostics.SystemMemoryUsageReport.TotalPhysicalSizeInBytes
 
 ## -description
+Get the total amount of physical memory for the system.  
 
 ## -property-value
+The total amount of physical memory for the system.  
 
 ## -remarks
 

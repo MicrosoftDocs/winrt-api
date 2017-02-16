@@ -10,8 +10,10 @@ public SystemCpuUsage CpuUsage { get; }
 # Windows.System.Diagnostics.SystemDiagnosticInfo.CpuUsage
 
 ## -description
+Gets the CPU time used by the system.  
 
 ## -property-value
+The CPU time used by the system.  
 
 ## -remarks
 

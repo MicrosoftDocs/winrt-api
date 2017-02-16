@@ -10,8 +10,10 @@ public ulong AvailableSizeInBytes { get; }
 # Windows.System.Diagnostics.SystemMemoryUsageReport.AvailableSizeInBytes
 
 ## -description
+Gets the amount of system memory available in bytes.  
 
 ## -property-value
+The amount of system memory available in bytes.  
 
 ## -remarks
 

@@ -10,10 +10,12 @@ public SystemCpuUsageReport SystemCpuUsage.GetReport()
 # Windows.System.Diagnostics.SystemCpuUsage.GetReport
 
 ## -description
+Gets the CPU usage report for the system.  
 
 ## -parameters
 
 ## -returns
+The [SystemCpuUsageReport](systemcpuusagereport.md).  
 
 ## -remarks
 

@@ -10,6 +10,7 @@ public class SystemMemoryUsage
 # Windows.System.Diagnostics.SystemMemoryUsage
 
 ## -description
+Provides access to data about the memory usage of the system.  
 
 ## -remarks
 

@@ -10,10 +10,12 @@ public SystemDiagnosticInfo SystemDiagnosticInfo.GetForCurrentSystem()
 # Windows.System.Diagnostics.SystemDiagnosticInfo.GetForCurrentSystem
 
 ## -description
+Gets the [SystemDiagnosticInfo](systemdiagnosticinfo.md) for the current system.  
 
 ## -parameters
 
 ## -returns
+The [SystemDiagnosticInfo](systemdiagnosticinfo.md) for the current system.  
 
 ## -remarks
 

@@ -10,8 +10,10 @@ public TimeSpan KernelTime { get; }
 # Windows.System.Diagnostics.SystemCpuUsageReport.KernelTime
 
 ## -description
+Gets the amount of CPU kernel time consumed by the system.  
 
 ## -property-value
+The amount of CPU kernel time consumed by the system.  
 
 ## -remarks
 

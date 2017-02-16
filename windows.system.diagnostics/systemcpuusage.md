@@ -10,6 +10,7 @@ public class SystemCpuUsage
 # Windows.System.Diagnostics.SystemCpuUsage
 
 ## -description
+Provides access to data about the CPU usage of the system.  
 
 ## -remarks
 

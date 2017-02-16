@@ -10,8 +10,10 @@ public TimeSpan UserTime { get; }
 # Windows.System.Diagnostics.SystemCpuUsageReport.UserTime
 
 ## -description
+Gets the amount of CPU user time consumed by the system.  
 
 ## -property-value
+The amount of CPU user time consumed by the system.  
 
 ## -remarks
 

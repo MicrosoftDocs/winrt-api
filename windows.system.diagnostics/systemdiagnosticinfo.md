@@ -10,6 +10,7 @@ public class SystemDiagnosticInfo
 # Windows.System.Diagnostics.SystemDiagnosticInfo
 
 ## -description
+Provides diagnostic information about the system, such as CPU usage, disk usage, memory usage and so on.  
 
 ## -remarks
 
