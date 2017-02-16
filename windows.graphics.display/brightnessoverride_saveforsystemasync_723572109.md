@@ -10,7 +10,7 @@ public IAsyncOperation<bool> BrightnessOverride.SaveForSystemAsync(BrightnessOve
 # Windows.Graphics.Display.BrightnessOverride.SaveForSystemAsync
 
 ## -description
-Saves the specified brightness override settings by committing these values to user settings. Use this method to persist the override settings after overriding stops.
+Saves the specified brightness override settings by committing these values to user settings. Use this method to persist the override settings after overriding stops. If a NULL object is passed in, the system turns on auto-brightness. 
 
 ## -parameters
 

@@ -10,9 +10,10 @@ public event TypedEventHandler BrightnessLevelChanged<BrightnessOverride,  objec
 # Windows.Graphics.Display.BrightnessOverride.BrightnessLevelChanged
 
 ## -description
-Occurs when the override brightness level changes.
+Occurs when the screen brightness level changes.
 
 ## -remarks
+This event is raised whenever the screen brightness changes, regardless whether the app has requested to start the override session or not.
 
 ## -see-also
 

@@ -15,8 +15,6 @@ BOOLEAN value that indicates whether the brightness override is active. If TRUE,
 ## -property-value
 
 ## -remarks
-As a device screen can only be set to one brightness level at any given time, only one [BrightnessOverride](# brightnessoverride.md) object can be set to active to allow the screen's brightness to match the override value.
-In a situation when there are multiple [BrightnessOverride](# brightnessoverride.md) objects from multiple apps that want to override the brightness level, only one [BrightnessOverride](# brightnessoverride.md) object has this property set to TRUE at any one time.
 
 ## -see-also
 

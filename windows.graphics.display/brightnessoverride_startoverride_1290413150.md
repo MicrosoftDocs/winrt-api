@@ -10,10 +10,9 @@ public void BrightnessOverride.StartOverride()
 # Windows.Graphics.Display.BrightnessOverride.StartOverride
 
 ## -description
-Starts overriding the brightness level.
+Request to start overriding the screen brightness level. The request to start overriding does not mean that the screen brightness level always changes to match the specified override brightness level. It's still up to the system to decide whether or not to honor this override request.
 
 ## -remarks
-Although overriding has started, whether or not the brightness level is changed to match the specified override brightness level is still dependent on the system.
 
 ## -see-also
 
