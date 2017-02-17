@@ -10,7 +10,7 @@ public StartScreenManager StartScreenManager.GetDefault()
 # Windows.UI.StartScreen.StartScreenManager.GetDefault
 
 ## -description
-
+Gets the current StartScreen manager.
 ## -parameters
 
 ## -returns
