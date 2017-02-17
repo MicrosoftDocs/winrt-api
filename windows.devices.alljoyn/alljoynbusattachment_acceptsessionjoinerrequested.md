@@ -10,6 +10,7 @@ public event TypedEventHandler AcceptSessionJoinerRequested<AllJoynBusAttachment
 # Windows.Devices.AllJoyn.AllJoynBusAttachment.AcceptSessionJoinerRequested
 
 ## -description
+Occurs when a remote AllJoyn endpoint requests to join the bus attachement's session.
 
 ## -remarks
 
@@ -17,3 +18,5 @@ public event TypedEventHandler AcceptSessionJoinerRequested<AllJoynBusAttachment
 
 ## -examples
 
+## -capabilities
+allJoyn

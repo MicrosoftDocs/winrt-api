@@ -29,9 +29,16 @@ The bus address was not acknowledged.
 For this status code, the value of the **I2cTransferResult.BytesTransferred** member that the method returns of the method is 0.
 
 
+### -field ClockStretchTimeout:3
+The transfer failed due to the clock being stretched for too long. Ensure the clock line is not being held low.
+
+### -field UnknownError:4
+The transfer failed for an unknown reason.
+
 ## -remarks
 
 ## -examples
 
 ## -see-also
 [ReadPartial](i2cdevice_readpartial.md), [WritePartial](i2cdevice_writepartial.md), [WriteReadPartial](i2cdevice_writereadpartial.md), [I2cTransferResult](i2ctransferresult.md)
+

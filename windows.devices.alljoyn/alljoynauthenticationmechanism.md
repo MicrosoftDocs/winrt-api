@@ -33,7 +33,7 @@ ECDHE_ECDSA key exchange.
 
 
 ### -field EcdheSpeke:6
-
+ECDHE_SPEKE key exchange.
 
 ## -remarks
 
@@ -44,4 +44,5 @@ ECDHE_ECDSA key exchange.
 
 ## -capabilities
 allJoyn
+
 
