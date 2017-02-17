@@ -39,10 +39,7 @@ The following example shows the [Shaken](accelerometer_shaken.md) event handler.
 
 [!code-js[onShakenJS](../windows.devices.sensors/code/Accelerometer/javascript/scenario2.js#SnippetonShakenJS)]
 
-
-
-> **Windows Phone 8**
-> The accelerometer sensor does not raise the Shaken event on the Windows Phone 8 platform. If you add an event handler for the Shaken event in your Windows Phone 8 app, no error is raised, but the code in the event handler won’t run.
+Support for the Shaken event is dependent upon hardware and driver support. In practice, very few accelerometers support the Shaken event. If the accelerometer does not support the Shaken event and you add an event handler for the Shaken event, no error is raised, but the code in the event handler won’t run.
 
 ## -examples
 
