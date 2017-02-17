@@ -10,17 +10,17 @@ public void OnInputReceived(System.UInt64 timestamp, System.Byte reportId, Syste
 # Windows.Gaming.Input.Custom.IXusbGameControllerInputSink.OnInputReceived
 
 ## -description
-Event triggered when input is received.
+Event raised when input is received.
 
 ## -parameters
 ### -param timestamp
 Timestamp of the event.
 
 ### -param reportId
-The ID of the report.
+ID of the report.
 
 ### -param inputBuffer
-A buffer containing the received input.
+Buffer containing the received input.
 
 ## -remarks
 

@@ -10,8 +10,10 @@ public IVectorView<SmartCardCryptogramStorageKeyCharacteristics> Characteristics
 # Windows.Devices.SmartCards.SmartCardCryptogramGetAllCryptogramStorageKeyCharacteristicsResult.Characteristics
 
 ## -description
+Gets the characteristics.
 
 ## -property-value
+The characteristics.
 
 ## -remarks
 

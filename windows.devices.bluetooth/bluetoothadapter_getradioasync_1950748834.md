@@ -10,10 +10,12 @@ public IAsyncOperation<Radio> BluetoothAdapter.GetRadioAsync()
 # Windows.Devices.Bluetooth.BluetoothAdapter.GetRadioAsync
 
 ## -description
+Gets the radio represented by this Bluetooth adapter.
 
 ## -parameters
 
 ## -returns
+Returns an asynchronous operation that completes with the Radio.
 
 ## -remarks
 

@@ -10,8 +10,10 @@ public GattSession Session { get; }
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattSubscribedClient.Session
 
 ## -description
+Gets the session of the subscribed client.
 
 ## -property-value
+The session of the subscribed client.
 
 ## -remarks
 

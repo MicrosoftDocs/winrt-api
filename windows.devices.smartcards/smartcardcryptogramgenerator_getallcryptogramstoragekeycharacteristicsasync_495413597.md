@@ -10,10 +10,12 @@ public IAsyncOperation<SmartCardCryptogramGetAllCryptogramStorageKeyCharacterist
 # Windows.Devices.SmartCards.SmartCardCryptogramGenerator.GetAllCryptogramStorageKeyCharacteristicsAsync
 
 ## -description
+Gets all storage key characteristics.
 
 ## -parameters
 
 ## -returns
+Returns an asynchronous operation that completes with the characteristics result.
 
 ## -remarks
 

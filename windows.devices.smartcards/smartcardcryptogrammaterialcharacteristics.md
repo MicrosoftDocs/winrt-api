@@ -10,6 +10,7 @@ public class SmartCardCryptogramMaterialCharacteristics
 # Windows.Devices.SmartCards.SmartCardCryptogramMaterialCharacteristics
 
 ## -description
+This class contains characteristics of cryptogram material.
 
 ## -remarks
 

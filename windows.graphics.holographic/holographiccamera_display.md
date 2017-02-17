@@ -10,8 +10,10 @@ public HolographicDisplay Display { get; }
 # Windows.Graphics.Holographic.HolographicCamera.Display
 
 ## -description
+Gets metadata about the display represented by this HolographicCamera.
 
 ## -property-value
+The display's metadata.
 
 ## -remarks
 

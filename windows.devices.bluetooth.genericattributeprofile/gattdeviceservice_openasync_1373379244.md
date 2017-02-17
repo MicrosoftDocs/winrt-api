@@ -10,12 +10,15 @@ public IAsyncOperation<GattOpenStatus> GattDeviceService.OpenAsync(GattSharingMo
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattDeviceService.OpenAsync
 
 ## -description
+Opens the GATT device service with the specified sharingMode.
 
 ## -parameters
 
 ### -param sharingMode
+The sharing mode.
 
 ## -returns
+An asynchronous operation that completes with a GattOpenStatus object.
 
 ## -remarks
 

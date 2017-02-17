@@ -10,6 +10,7 @@ public void LineDisplayWindow.Close()
 # Windows.Devices.PointOfService.LineDisplayWindow.Close
 
 ## -description
+Close the line display window.
 
 ## -parameters
 
@@ -18,4 +19,3 @@ public void LineDisplayWindow.Close()
 ## -see-also
 
 ## -examples
-

@@ -16,7 +16,7 @@ Gets the error code associated with the playback item error.
 The error code associated with the playback item error.
 
 ## -remarks
-This value provides high-level information about the error that occurred resolving the playback item. To get the low-level exception associated with the error, call [MediaPlaybackItemError.Propagate](mediaplaybackitemerror_propagate.md) which will cause the underlying exception to be raised.
+This value provides high-level information about the error that occurred resolving the playback item. 
 
 ## -examples
 

@@ -10,8 +10,10 @@ public byte AttributeNotFound { get; }
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattProtocolError.AttributeNotFound
 
 ## -description
+Gets the byte value for an attribute not found error.
 
 ## -property-value
+The byte value for an attribute not found error.
 
 ## -remarks
 

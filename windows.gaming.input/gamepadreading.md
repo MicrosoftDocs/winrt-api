@@ -35,11 +35,11 @@ The position of the left thumbstick on the X-axis. The value is between -1.0 and
     
 
 ### -field LeftThumbstickY
-The position of the left thumbstick on the Y-axis.The value is between -1.0 and 1.0.
+The position of the left thumbstick on the Y-axis. The value is between -1.0 and 1.0.
     
 
 ### -field RightThumbstickX
-The position of the right thumbstick on the X-axis.The value is between -1.0 and 1.0.
+The position of the right thumbstick on the X-axis. The value is between -1.0 and 1.0.
     
 
 ### -field RightThumbstickY

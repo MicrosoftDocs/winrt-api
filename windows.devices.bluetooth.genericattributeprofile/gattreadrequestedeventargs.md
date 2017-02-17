@@ -10,6 +10,7 @@ public class GattReadRequestedEventArgs
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattReadRequestedEventArgs
 
 ## -description
+This class contains the arguments for the [StateChanged](gattwriterequest_statechanged.md) event.
 
 ## -remarks
 

@@ -10,6 +10,7 @@ public void GattServiceProviderConnection.Start()
 # Windows.Devices.Bluetooth.Background.GattServiceProviderConnection.Start
 
 ## -description
+Starts a GATT service provider connection.
 
 ## -parameters
 

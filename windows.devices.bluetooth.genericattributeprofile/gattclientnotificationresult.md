@@ -10,6 +10,7 @@ public class GattClientNotificationResult
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattClientNotificationResult
 
 ## -description
+The result of [NotifyValueAsync](gattlocalcharacteristic_notifyvalueasync_483273373.md)
 
 ## -remarks
 

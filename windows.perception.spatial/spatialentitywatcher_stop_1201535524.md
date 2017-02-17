@@ -10,6 +10,7 @@ public void SpatialEntityWatcher.Stop()
 # Windows.Perception.Spatial.SpatialEntityWatcher.Stop
 
 ## -description
+Stops watching for changes to the set of spatial entities in the store.
 
 ## -remarks
 

@@ -17,11 +17,11 @@ Returns the given game controller as a raw game controller.
 
 ## -param gameController
 
-The game controller to be converted to a raw game controller.
+The game controller to be returned as a raw game controller.
 
 ## -returns
 
-The raw game controller that was converted from the given game controller.
+The raw game controller that was returned from the given game controller.
 
 ## -remarks
 

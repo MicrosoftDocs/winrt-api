@@ -10,6 +10,7 @@ public class ShareProviderOperation
 # Windows.ApplicationModel.DataTransfer.ShareProviderOperation
 
 ## -description
+This class represents a share provider operation.
 
 ## -remarks
 

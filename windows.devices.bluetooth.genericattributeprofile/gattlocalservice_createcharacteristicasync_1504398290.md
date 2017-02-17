@@ -10,14 +10,18 @@ public IAsyncOperation<GattLocalCharacteristicResult> GattLocalService.CreateCha
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattLocalService.CreateCharacteristicAsync
 
 ## -description
+Creates a characteristic for this local service.
 
 ## -parameters
 
 ### -param characteristicUuid
+The characteristic UUID.
 
 ### -param parameters
+The characteristic parameters.
 
 ## -returns
+An asynchronous operation 
 
 ## -remarks
 

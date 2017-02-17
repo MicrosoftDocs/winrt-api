@@ -10,6 +10,7 @@ public void BarcodeScanner.Close()
 # Windows.Devices.PointOfService.BarcodeScanner.Close
 
 ## -description
+Close the barcode scanner session, allowing it to be claimed by another client.
 
 ## -parameters
 
@@ -18,4 +19,3 @@ public void BarcodeScanner.Close()
 ## -see-also
 
 ## -examples
-

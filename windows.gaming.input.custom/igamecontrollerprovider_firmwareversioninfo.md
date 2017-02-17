@@ -13,7 +13,7 @@ public Windows.Gaming.Input.Custom.GameControllerVersionInfo FirmwareVersionInfo
 Contains information on the firmware version of the controller.
 
 ## -property-value
-Contains information on the firmware version of the controller.
+Information on the firmware version of the controller.
 
 ## -remarks
 

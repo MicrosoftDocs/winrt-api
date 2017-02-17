@@ -10,6 +10,7 @@ public void ShareProviderOperation.ReportCompleted()
 # Windows.ApplicationModel.DataTransfer.ShareProviderOperation.ReportCompleted
 
 ## -description
+Completes the report.
 
 ## -remarks
 

@@ -36,7 +36,9 @@ The mutual authentication key.
 
 ## -returns
 An asynchronous operation with a registration result instance.
+
 ## -remarks
+A companion device must be registered for secondary authentication before it is optionally registered for device presence monitoring.
 
 ## -examples
 

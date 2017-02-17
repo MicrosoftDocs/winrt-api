@@ -21,7 +21,7 @@ The ID of the report to send.
 
 ### -param reportBuffer
 
-The buffer in which to put the report data.
+The buffer containing the report data to send.
 
 ## -remarks
 

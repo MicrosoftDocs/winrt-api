@@ -10,6 +10,7 @@ public event TypedEventHandler ReadRequested<GattLocalCharacteristic, GattReadRe
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattLocalCharacteristic.ReadRequested
 
 ## -description
+An event that is triggered when a GATT client requests a read operation.
 
 ## -remarks
 

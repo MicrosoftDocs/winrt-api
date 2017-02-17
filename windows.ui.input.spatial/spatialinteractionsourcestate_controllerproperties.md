@@ -10,10 +10,13 @@ public SpatialInteractionControllerProperties ControllerProperties { get; }
 # Windows.UI.Input.Spatial.SpatialInteractionSourceState.ControllerProperties
 
 ## -description
+Gets state specific to spatial controllers.
 
 ## -property-value
+The spatial controller properties.
 
 ## -remarks
+This property will return null if this source is not a spatial controller.
 
 ## -see-also
 

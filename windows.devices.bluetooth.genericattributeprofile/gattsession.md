@@ -10,6 +10,7 @@ public class GattSession : IClosable
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattSession
 
 ## -description
+This class represents a GATT session.
 
 ## -remarks
 

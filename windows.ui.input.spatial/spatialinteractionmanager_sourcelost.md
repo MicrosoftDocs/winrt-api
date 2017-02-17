@@ -10,7 +10,7 @@ public event Windows.Foundation.TypedEventHandler SourceLost<Windows.UI.Input.Sp
 # Windows.UI.Input.Spatial.SpatialInteractionManager.SourceLost
 
 ## -description
-Occurs when a hand, controller, or source of voice commands is no longer available.
+Occurs when a hand, spatial controller, or source of voice commands is no longer available.
 
 ## -remarks
 

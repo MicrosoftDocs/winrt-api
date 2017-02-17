@@ -10,6 +10,7 @@ namespace Windows.ApplicationModel.Preview.Holographic
 # Windows.ApplicationModel.Preview.Holographic
 
 ## -description
+Contains classes that let apps interact with the holographic shell, allowing the user to see content in the world around them.
 
 ## -remarks
 

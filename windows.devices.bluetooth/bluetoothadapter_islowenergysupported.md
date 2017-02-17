@@ -10,8 +10,10 @@ public bool IsLowEnergySupported { get; }
 # Windows.Devices.Bluetooth.BluetoothAdapter.IsLowEnergySupported
 
 ## -description
+Gets a boolean indicating if the adapater supports LowEnergy Bluetooth Transport type.
 
 ## -property-value
+Gets a boolean indicating if the adapater supports LowEnergy Bluetooth Transport type.
 
 ## -remarks
 

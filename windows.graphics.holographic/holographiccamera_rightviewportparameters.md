@@ -10,8 +10,10 @@ public HolographicCameraViewportParameters RightViewportParameters { get; }
 # Windows.Graphics.Holographic.HolographicCamera.RightViewportParameters
 
 ## -description
+Gets rendering parameters related to display's right-eye viewport.
 
 ## -property-value
+The right viewport parameters.
 
 ## -remarks
 

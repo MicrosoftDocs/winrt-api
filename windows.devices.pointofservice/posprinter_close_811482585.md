@@ -10,6 +10,7 @@ public void PosPrinter.Close()
 # Windows.Devices.PointOfService.PosPrinter.Close
 
 ## -description
+Close the POS printer session.
 
 ## -parameters
 
@@ -18,4 +19,3 @@ public void PosPrinter.Close()
 ## -see-also
 
 ## -examples
-

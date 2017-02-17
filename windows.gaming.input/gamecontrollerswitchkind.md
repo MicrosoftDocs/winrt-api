@@ -29,7 +29,7 @@ A four-way switch, which has **Up**, **Down**, **Left**, **Right**, and **Center
 
 ## -field EightWay:2
 
-An eight-way switch, which has all positions in the [GameControllerSwitchPosition](gamecontrollerswitchposition.md) enumeration.
+An eight-way switch, which has all positions in the **GameControllerSwitchPosition** enumeration.
 
 ## -remarks
 

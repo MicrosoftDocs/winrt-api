@@ -10,7 +10,7 @@ public void OnInputResumed(System.UInt64 timestamp)
 # Windows.Gaming.Input.Custom.IGameControllerInputSink.OnInputResumed
 
 ## -description
-Event triggered when input for the controller is resumed.
+Event raised when input for the controller is resumed.
 
 ## -parameters
 ### -param timestamp

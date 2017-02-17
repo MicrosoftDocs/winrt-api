@@ -10,12 +10,15 @@ public IAsyncOperation<GattDescriptorsResult> GattCharacteristic.GetDescriptorsA
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristic.GetDescriptorsAsync
 
 ## -description
+Returns the descriptors with the specified cache mode for this GattCharacteristic instance.
 
 ## -parameters
 
 ### -param cacheMode
+The cache mode.
 
 ## -returns
+An asynchronous operation that completes with the descriptors.
 
 ## -remarks
 

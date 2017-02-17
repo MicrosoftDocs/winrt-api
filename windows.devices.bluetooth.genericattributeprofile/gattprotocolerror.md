@@ -10,6 +10,7 @@ public class GattProtocolError
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattProtocolError
 
 ## -description
+This class contains byte values for GATT protocol errors.
 
 ## -remarks
 

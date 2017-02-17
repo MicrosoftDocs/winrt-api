@@ -10,8 +10,10 @@ public GattServiceProviderConnection Connection { get; }
 # Windows.Devices.Bluetooth.Background.GattServiceProviderTriggerDetails.Connection
 
 ## -description
+Gets the connection that triggered the event.
 
 ## -property-value
+Gets the connection that triggered the event.
 
 ## -remarks
 

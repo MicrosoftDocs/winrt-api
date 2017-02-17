@@ -10,7 +10,7 @@ public IAsyncOperation<SecondaryAuthenticationFactorDevicePresenceMonitoringRegi
 # Windows.Security.Authentication.Identity.Provider.SecondaryAuthenticationFactorRegistration.RegisterDevicePresenceMonitoringAsync
 
 ## -description
-Registers a companion device for presence monitoring by the main device.
+Registers a companion device for presence monitoring by the main device. Includes additional information about the companion device.
 
 ## -parameters
 
@@ -30,12 +30,13 @@ The friendly name of the device.
 The model number of the device.
 
 ### -param deviceConfigurationData
-A byte array of device configuration data.
+The device configuration data. This data is capped at 4KB.
 
 ## -returns
 An asynchronous operation with the status of the registration.
 
 ## -remarks
+A companion device must be registered for secondary authentication before it is optionally registered for device presence monitoring.
 
 ## -see-also
 

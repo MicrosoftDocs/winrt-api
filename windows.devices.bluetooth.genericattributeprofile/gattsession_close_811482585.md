@@ -10,6 +10,7 @@ public void GattSession.Close()
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattSession.Close
 
 ## -description
+Closes the GattSession.
 
 ## -parameters
 

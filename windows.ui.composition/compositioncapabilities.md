@@ -10,7 +10,7 @@ public class CompositionCapabilities
 # Windows.UI.Composition.CompositionCapabilities
 
 ## -description
-Describes supported composition capabilities.
+Allows for a check on the hardware capabilities of the system so as to allow for scaling an effect in a performant way.
 
 ## -remarks
 

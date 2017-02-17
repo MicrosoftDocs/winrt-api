@@ -10,8 +10,10 @@ public GattProtectionLevel WriteProtectionLevel { get;  set; }
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattLocalDescriptorParameters.WriteProtectionLevel
 
 ## -description
+Gets or sets the write protection level.
 
 ## -property-value
+The write protection level.
 
 ## -remarks
 

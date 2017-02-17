@@ -10,8 +10,10 @@ public GattSubscribedClient SubscribedClient { get; }
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattClientNotificationResult.SubscribedClient
 
 ## -description
+Gets the subscribed client.
 
 ## -property-value
+The subscribed client.
 
 ## -remarks
 

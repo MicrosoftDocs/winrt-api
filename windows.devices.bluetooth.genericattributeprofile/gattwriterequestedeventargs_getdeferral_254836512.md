@@ -10,10 +10,12 @@ public Deferral GattWriteRequestedEventArgs.GetDeferral()
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattWriteRequestedEventArgs.GetDeferral
 
 ## -description
+Gets a deferral.
 
 ## -parameters
 
 ## -returns
+An asynchronous operation that completes with the deferral.
 
 ## -remarks
 

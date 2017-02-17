@@ -10,6 +10,7 @@ public event TypedEventHandler ReadRequested<GattLocalDescriptor, GattReadReques
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattLocalDescriptor.ReadRequested
 
 ## -description
+An event that is triggered when a read has been requested.
 
 ## -remarks
 

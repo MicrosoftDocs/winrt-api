@@ -10,8 +10,10 @@ public int MaterialLength { get; }
 # Windows.Devices.SmartCards.SmartCardCryptogramMaterialCharacteristics.MaterialLength
 
 ## -description
+Gets the material length.
 
 ## -property-value
+The material length.
 
 ## -remarks
 

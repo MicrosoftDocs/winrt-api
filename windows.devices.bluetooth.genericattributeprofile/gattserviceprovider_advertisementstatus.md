@@ -10,8 +10,10 @@ public GattServiceProviderAdvertisementStatus AdvertisementStatus { get; }
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattServiceProvider.AdvertisementStatus
 
 ## -description
+Gets the advertisement status of this GATT service.
 
 ## -property-value
+The advertisement service.
 
 ## -remarks
 

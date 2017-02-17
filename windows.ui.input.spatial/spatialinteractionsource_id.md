@@ -10,12 +10,15 @@ public uint Id { get; }
 # Windows.UI.Input.Spatial.SpatialInteractionSource.Id
 
 ## -description
-Gets the identifier for the hand, controller, or user's voice.
+Gets the identifier for the hand, spatial controller, or user's voice.
 
 ## -property-value
-The id.
+The ID.
 
 ## -remarks
+For hands and spatial controllers, each detected hand or controller will get its own ID. For as long as the system can track that a hand is the same hand that was previously detected, it will share an ID.
+
+For the user's voice, a single ID will be used for all voice input.
 
 ## -examples
 

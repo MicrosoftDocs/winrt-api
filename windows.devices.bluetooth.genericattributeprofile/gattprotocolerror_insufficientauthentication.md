@@ -10,8 +10,10 @@ public byte InsufficientAuthentication { get; }
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattProtocolError.InsufficientAuthentication
 
 ## -description
+Gets the byte value for an insufficient authentication error.
 
 ## -property-value
+The byte value for an insufficient authentication error.
 
 ## -remarks
 

@@ -10,12 +10,15 @@ public IAsyncOperation<GattDescriptorsResult> GattCharacteristic.GetDescriptorsF
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristic.GetDescriptorsForUuidAsync
 
 ## -description
+Returns the descriptors whose UUIDs match descriptorUuid.
 
 ## -parameters
 
 ### -param descriptorUuid
+The UUID for the descriptors to be retrieved.
 
 ## -returns
+An asynchronous operation that completes with the descriptors whose UUIDs match descriptorUuid.
 
 ## -remarks
 

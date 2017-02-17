@@ -10,6 +10,7 @@ public class SpatialEntityAddedEventArgs
 # Windows.Perception.Spatial.SpatialEntityAddedEventArgs
 
 ## -description
+Event data for spatial entity added events.
 
 ## -remarks
 

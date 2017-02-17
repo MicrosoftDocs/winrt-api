@@ -17,11 +17,11 @@ Returns the given game controller as an arcade stick.
 
 ## -param gameController
 
-The game controller to be converted to an arcade stick.
+The game controller to be returned as an arcade stick.
 
 ## -returns
 
-The arcade stick that was converted from the given game controller.
+The arcade stick that was returned from the given game controller.
 
 ## -remarks
 
