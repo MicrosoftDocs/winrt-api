@@ -10,7 +10,7 @@ public IVectorView<TargetedContentItem> Items { get; }
 # Windows.Services.TargetedContent.TargetedContentCollection.Items
 
 ## -description
-Gets a collection of TargetedContentITems in a TargetedContentCollection object.
+Gets a collection of TargetedContentItems in a TargetedContentCollection object.
 ## -property-value
 
 ## -remarks

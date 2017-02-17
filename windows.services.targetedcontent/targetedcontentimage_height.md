@@ -10,7 +10,7 @@ public uint Height { get; }
 # Windows.Services.TargetedContent.TargetedContentImage.Height
 
 ## -description
-
+Gets a value indicating the height of the TargetedContentImage object.
 ## -property-value
 
 ## -remarks

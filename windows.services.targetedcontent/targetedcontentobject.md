@@ -10,7 +10,7 @@ public class TargetedContentObject
 # Windows.Services.TargetedContent.TargetedContentObject
 
 ## -description
-Represents a single object within a TargetedContentContainer.
+Represents a single object within the TargetedContentContainer.
 ## -remarks
 
 ## -see-also

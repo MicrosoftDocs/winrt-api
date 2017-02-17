@@ -10,7 +10,7 @@ public IAsyncOperation<TargetedContentContainer> TargetedContentSubscription.Get
 # Windows.Services.TargetedContent.TargetedContentSubscription.GetContentContainerAsync
 
 ## -description
-
+Returns a TargetedContentContainer object for a TargetedContentSubscription.
 ## -parameters
 
 ## -returns

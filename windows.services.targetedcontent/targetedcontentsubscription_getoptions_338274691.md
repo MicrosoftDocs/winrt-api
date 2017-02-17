@@ -10,7 +10,7 @@ public TargetedContentSubscriptionOptions TargetedContentSubscription.GetOptions
 # Windows.Services.TargetedContent.TargetedContentSubscription.GetOptions
 
 ## -description
-
+Gets an object to TargetedContentSubscriptionOptions for a given subscription.
 ## -parameters
 
 ### -param subscriptionId

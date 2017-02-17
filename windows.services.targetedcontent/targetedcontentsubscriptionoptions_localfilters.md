@@ -10,7 +10,7 @@ public IVector<string> LocalFilters { get; }
 # Windows.Services.TargetedContent.TargetedContentSubscriptionOptions.LocalFilters
 
 ## -description
-Gets an Ilist object containing Local Filters for a TargetedContentSubscription object.
+Gets a collection of Local Filters for the TargetedContentSubscription object.
 ## -property-value
 
 ## -remarks
