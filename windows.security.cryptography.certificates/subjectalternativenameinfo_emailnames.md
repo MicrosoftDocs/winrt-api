@@ -10,8 +10,10 @@ public IVector<string> EmailNames { get; }
 # Windows.Security.Cryptography.Certificates.SubjectAlternativeNameInfo.EmailNames
 
 ## -description
+Gets a vector of email names.
 
 ## -property-value
+A vector of email names.
 
 ## -remarks
 

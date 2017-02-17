@@ -10,6 +10,7 @@ public class BluetoothAdapter
 # Windows.Devices.Bluetooth.BluetoothAdapter
 
 ## -description
+Represents a Bluetooth adapter.
 
 ## -remarks
 
@@ -17,3 +18,5 @@ public class BluetoothAdapter
 
 ## -examples
 
+## -capabilities
+bluetooth

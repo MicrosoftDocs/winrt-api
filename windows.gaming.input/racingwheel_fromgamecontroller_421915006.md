@@ -17,11 +17,11 @@ Returns the given game controller as a racing wheel.
 
 ## -param gameController
 
-The game controller to be converted to a racing wheel.
+The game controller to be returned as a racing wheel.
 
 ## -returns
 
-The racing wheel that was converted from the given game controller.
+The racing wheel that was returned from the given game controller.
 
 ## -remarks
 

@@ -10,10 +10,12 @@ public class NotificationData
 # Windows.UI.Notifications.NotificationData
 
 ## -description
-
+Stores data for display in a [toast notification](toastnotification.md). 
+ 
 ## -remarks
 
 ## -see-also
+[ToastNotification.Data](toastnotification_data.md)
 
 ## -examples
 

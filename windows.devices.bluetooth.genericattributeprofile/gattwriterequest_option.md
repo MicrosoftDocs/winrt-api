@@ -10,8 +10,10 @@ public GattWriteOption Option { get; }
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattWriteRequest.Option
 
 ## -description
+Gets the write request option.
 
 ## -property-value
+The write request option.
 
 ## -remarks
 

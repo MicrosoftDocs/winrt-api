@@ -10,8 +10,10 @@ public GattSessionStatus SessionStatus { get; }
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattSession.SessionStatus
 
 ## -description
+Gets the session status.
 
 ## -property-value
+The session status.
 
 ## -remarks
 

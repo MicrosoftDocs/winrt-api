@@ -10,8 +10,10 @@ public GattCharacteristicProperties CharacteristicProperties { get;  set; }
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattLocalCharacteristicParameters.CharacteristicProperties
 
 ## -description
+Gets the properties.
 
 ## -property-value
+The properties.
 
 ## -remarks
 

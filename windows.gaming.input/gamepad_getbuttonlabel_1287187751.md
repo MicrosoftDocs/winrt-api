@@ -17,7 +17,7 @@ Retrieves the button label for the specified button.
 The button for which to retrieve the label.
 
 ## -returns
-Returns the label for the specified button. If the button label is blank or there is no known label for the controller’s button, then **None** is returned.
+The label for the specified button. If the button label is blank or there is no known label for the controller’s button, then **None** is returned.
 
 ## -remarks
 

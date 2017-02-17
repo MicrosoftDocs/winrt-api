@@ -10,8 +10,10 @@ public IVectorView<SmartCardCryptogramMaterialPackageCharacteristics> Characteri
 # Windows.Devices.SmartCards.SmartCardCryptogramGetAllCryptogramMaterialPackageCharacteristicsResult.Characteristics
 
 ## -description
+Gets the characteristics.
 
 ## -property-value
+The characteristics.
 
 ## -remarks
 

@@ -10,8 +10,10 @@ public SmartCardCryptogramMaterialPackageFormat PackageFormat { get; }
 # Windows.Devices.SmartCards.SmartCardCryptogramMaterialPackageCharacteristics.PackageFormat
 
 ## -description
+Gets the package format.
 
 ## -property-value
+The packge format.
 
 ## -remarks
 

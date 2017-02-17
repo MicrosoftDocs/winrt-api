@@ -10,7 +10,7 @@ public class GattLocalCharacteristicResult
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattLocalCharacteristicResult
 
 ## -description
-
+A result of [CreateCharacteristicAsync](gattlocalservice_createcharacteristicasync_1504398290.md).
 ## -remarks
 
 ## -see-also

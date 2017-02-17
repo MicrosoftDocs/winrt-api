@@ -10,8 +10,10 @@ public IVectorView<GattCharacteristic> Characteristics { get; }
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicsResult.Characteristics
 
 ## -description
+Gets the characterisitics.
 
 ## -property-value
+The characteristics.
 
 ## -remarks
 

@@ -10,7 +10,7 @@ public void OnMessageReceived(System.UInt64 timestamp, Windows.Gaming.Input.Cust
 # Windows.Gaming.Input.Custom.IGipGameControllerInputSink.OnMessageReceived
 
 ## -description
-Event triggered when a message is received.
+Event raised when a message is received.
 
 ## -parameters
 ### -param timestamp
@@ -26,7 +26,7 @@ The ID of the message.
 Sequence ID of the message.
 
 ### -param messageBuffer
-A buffer containing the message.
+Buffer containing the message.
 
 ## -remarks
 

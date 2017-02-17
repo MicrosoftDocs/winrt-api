@@ -10,6 +10,7 @@ public event TypedEventHandler AdvertisementStatusChanged<GattServiceProvider, G
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattServiceProvider.AdvertisementStatusChanged
 
 ## -description
+An event that is triggered when the advertisement status has changed.
 
 ## -remarks
 

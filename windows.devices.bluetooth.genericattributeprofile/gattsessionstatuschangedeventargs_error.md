@@ -10,8 +10,10 @@ public BluetoothError Error { get; }
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattSessionStatusChangedEventArgs.Error
 
 ## -description
+Gets the error of the GATT session.
 
 ## -property-value
+The error of the GATT session.
 
 ## -remarks
 

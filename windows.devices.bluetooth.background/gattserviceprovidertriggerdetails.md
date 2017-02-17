@@ -10,6 +10,7 @@ public class GattServiceProviderTriggerDetails
 # Windows.Devices.Bluetooth.Background.GattServiceProviderTriggerDetails
 
 ## -description
+Provides information about the Bluetooth device that caused this trigger to fire.
 
 ## -remarks
 

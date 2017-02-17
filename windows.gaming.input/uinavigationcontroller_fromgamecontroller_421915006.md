@@ -17,11 +17,11 @@ Returns the given game controller as a UI navigation controller.
 
 ## -param gameController
 
-The game controller to be converted to a UI navigation controller.
+The game controller to be returned as a UI navigation controller.
 
 ## -returns
 
-The UI navigation controller that was converted from the given game controller.
+The UI navigation controller that was returned from the given game controller.
 
 ## -remarks
 

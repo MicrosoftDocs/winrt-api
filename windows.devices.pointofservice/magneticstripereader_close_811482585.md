@@ -10,6 +10,7 @@ public void MagneticStripeReader.Close()
 # Windows.Devices.PointOfService.MagneticStripeReader.Close
 
 ## -description
+Close the magnetic stripe reader session.
 
 ## -parameters
 
@@ -18,4 +19,3 @@ public void MagneticStripeReader.Close()
 ## -see-also
 
 ## -examples
-

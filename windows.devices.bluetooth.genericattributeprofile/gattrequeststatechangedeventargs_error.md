@@ -10,8 +10,10 @@ public BluetoothError Error { get; }
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattRequestStateChangedEventArgs.Error
 
 ## -description
+Gets the Bluetooth error.
 
 ## -property-value
+The Bluetooth error.
 
 ## -remarks
 

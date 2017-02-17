@@ -10,6 +10,7 @@ public event TypedEventHandler StateChanged<GattWriteRequest, GattRequestStateCh
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattWriteRequest.StateChanged
 
 ## -description
+An event that is triggered when the state of the write request has changed.
 
 ## -remarks
 

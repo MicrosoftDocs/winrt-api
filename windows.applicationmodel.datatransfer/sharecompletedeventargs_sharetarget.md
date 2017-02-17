@@ -10,8 +10,10 @@ public ShareTargetInfo ShareTarget { get; }
 # Windows.ApplicationModel.DataTransfer.ShareCompletedEventArgs.ShareTarget
 
 ## -description
+Gets the share target.
 
 ## -property-value
+The share target.
 
 ## -remarks
 

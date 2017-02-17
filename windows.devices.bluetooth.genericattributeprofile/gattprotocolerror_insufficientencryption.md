@@ -10,8 +10,10 @@ public byte InsufficientEncryption { get; }
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattProtocolError.InsufficientEncryption
 
 ## -description
+Gets the byte value for an insufficient encryption error.
 
 ## -property-value
+The byte value for an insufficient encryption error.
 
 ## -remarks
 

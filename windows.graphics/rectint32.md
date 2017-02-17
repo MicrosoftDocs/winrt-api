@@ -15,16 +15,21 @@ public struct RectInt32  {
 # Windows.Graphics.RectInt32
 
 ## -description
+Defines the size and location of a rectangular surface.
 
 ## -struct-fields
 
 ### -field Height
+The height of a rectangle.
 
 ### -field Width
+The width of a rectangle.
 
 ### -field X
+The X coordinate at the center of a rectangle. 
 
 ### -field Y
+The Y coordinate at the center of a rectangle.
 
 ## -remarks
 

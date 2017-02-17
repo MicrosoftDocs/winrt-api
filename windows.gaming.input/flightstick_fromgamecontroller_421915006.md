@@ -17,11 +17,11 @@ Returns the given game controller as a flight stick.
 
 ## -param gameController
 
-The game controller to be converted to a flight stick.
+The game controller to be returned as a flight stick.
 
 ## -returns
 
-The flight stick that was converted from the given game controller.
+The flight stick that was returned from the given game controller.
 
 ## -remarks
 

@@ -10,6 +10,7 @@ public event TypedEventHandler SubscribedClientsChanged<GattLocalCharacteristic,
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattLocalCharacteristic.SubscribedClientsChanged
 
 ## -description
+An event that triggers when the clients subscribed to this local characteristic changes.
 
 ## -remarks
 

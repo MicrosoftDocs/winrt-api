@@ -10,8 +10,10 @@ public IVector<string> Urls { get; }
 # Windows.Security.Cryptography.Certificates.SubjectAlternativeNameInfo.Urls
 
 ## -description
+Gets a vector of URLs.
 
 ## -property-value
+A vector of URLs.
 
 ## -remarks
 

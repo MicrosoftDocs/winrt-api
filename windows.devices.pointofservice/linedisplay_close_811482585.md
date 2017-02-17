@@ -10,6 +10,7 @@ public void LineDisplay.Close()
 # Windows.Devices.PointOfService.LineDisplay.Close
 
 ## -description
+Close the line display session, allowing it to be claimed by another client.
 
 ## -parameters
 
@@ -18,4 +19,3 @@ public void LineDisplay.Close()
 ## -see-also
 
 ## -examples
-

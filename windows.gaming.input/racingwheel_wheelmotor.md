@@ -13,7 +13,7 @@ public Windows.Gaming.Input.ForceFeedback.ForceFeedbackMotor WheelMotor { get; }
 The force feedback motor for the racing wheel.
 
 ## -property-value
-The force feedback motor for the racing wheel. If the controller does not support force feedback, this property will be null.
+The force feedback motor for the racing wheel. If the controller does not support force feedback, this property will be **null**.
 
 ## -remarks
 Force feedback is only supported for selected HID (Human Interface Device) controllers. Xbox 360 and Xbox One racing wheels do not support force feedback in Windows 10 at this time.

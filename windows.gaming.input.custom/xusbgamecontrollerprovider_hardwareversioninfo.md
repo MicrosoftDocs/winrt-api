@@ -13,7 +13,7 @@ public Windows.Gaming.Input.Custom.GameControllerVersionInfo HardwareVersionInfo
 Contains information on the hardware version of the controller.
 
 ## -property-value
-Structure containing information on the hardware version of the controller.
+Information on the hardware version of the controller.
 
 ## -remarks
 

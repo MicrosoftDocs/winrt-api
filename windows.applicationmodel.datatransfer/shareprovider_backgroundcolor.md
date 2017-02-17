@@ -10,8 +10,10 @@ public Color BackgroundColor { get; }
 # Windows.ApplicationModel.DataTransfer.ShareProvider.BackgroundColor
 
 ## -description
+Gets the background color of the share provider.
 
 ## -property-value
+The background color of the share provider.
 
 ## -remarks
 

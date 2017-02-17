@@ -10,8 +10,10 @@ public byte UnsupportedGroupType { get; }
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattProtocolError.UnsupportedGroupType
 
 ## -description
+Gets the byte value for an unsupported group type error.
 
 ## -property-value
+The byte value for an unsupported group type error.
 
 ## -remarks
 
