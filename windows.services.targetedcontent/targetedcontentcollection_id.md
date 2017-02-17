@@ -10,7 +10,7 @@ public string Id { get; }
 # Windows.Services.TargetedContent.TargetedContentCollection.Id
 
 ## -description
-Gets the Id of the Collection.
+Gets the ID of the Collection.
 ## -property-value
 
 ## -remarks
