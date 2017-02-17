@@ -10,7 +10,7 @@ public IMap<string, string> CloudQueryParameters { get; }
 # Windows.Services.TargetedContent.TargetedContentSubscriptionOptions.CloudQueryParameters
 
 ## -description
-Gets a collection of Cloud Query parameters for a TargetedContentSubscription object.
+Gets a collection of Cloud Query parameters for the TargetedContentSubscription object.
 ## -property-value
 
 ## -remarks
