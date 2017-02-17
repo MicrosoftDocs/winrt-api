@@ -13,10 +13,7 @@ public class MediaSourceError : Windows.Media.Core.IMediaSourceError
 Represents an error that occurred with a [MediaSource](mediasource.md).
 
 ## -remarks
-Get an instance of this class by accessing one of the following properties:
-+ [MediaSourceOpenCompletedEventArgs.Error](mediasourceopencompletedeventargs_error.md)
-+ [TimedMetadataTrackErrorEventArgs.Error](timedmetadatatrackerroreventargs_error.md)
-+ [TimedTextSourceResolveResultEventArgs.Error](timedtextsourceresolveresulteventargs_error.md)
+Get an instance of this class by accessing the [MediaSourceOpenCompletedEventArgs.Error](mediasourceopenoperationcompletedeventargs_error.md) property.
 
 
 ## -examples
