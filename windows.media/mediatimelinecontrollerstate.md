@@ -20,8 +20,15 @@ The **MediaTimelineController** is paused.
 The **MediaTimelineController** is running.
 
 
+### -field Error:3
+
+
+### -field Stalled:2
+
+
 ## -remarks
 
 ## -examples
 
 ## -see-also
+

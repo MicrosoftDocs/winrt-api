@@ -10,10 +10,12 @@ public bool IsResizable { get;  set; }
 # Windows.UI.Input.Inking.InkPresenterProtractor.IsResizable
 
 ## -description
-TBD
+Gets or sets whether the protractor stencil can be resized. 
 
 ## -property-value
+**true**, if the stencil can be resized. Otherwise, **false**.
 
+The default is **true**.
 
 ## -remarks
 

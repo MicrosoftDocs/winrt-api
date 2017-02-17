@@ -12,12 +12,10 @@ public event Windows.Foundation.TypedEventHandler RotationChanged<Windows.UI.Inp
 ## -description
 Occurs when the wheel device is rotated while a custom [RadialController](radialcontroller.md) tool is active.
 
-
 Your app does not receive this event when:
 
 + The [RadialController](radialcontroller.md) menu is active
 + A built-in tool is active
-
 
 ## -remarks
 

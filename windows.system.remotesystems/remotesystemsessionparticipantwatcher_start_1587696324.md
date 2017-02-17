@@ -10,6 +10,7 @@ public void RemoteSystemSessionParticipantWatcher.Start()
 # Windows.System.RemoteSystems.RemoteSystemSessionParticipantWatcher.Start
 
 ## -description
+Starts watching for participants in the remote session. The discovery process runs for 30 seconds or until the **Stop** method is called. A [**RemoteSystemSessionParticipantWatcher**](RemoteSystemSessionParticipantWatcher.md) object can have its **Start** method called again at a later time.
 
 ## -remarks
 

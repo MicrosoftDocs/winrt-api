@@ -10,6 +10,7 @@ public event TypedEventHandler ValueSetReceived<RemoteSystemSessionMessageChanne
 # Windows.System.RemoteSystems.RemoteSystemSessionMessageChannel.ValueSetReceived
 
 ## -description
+Raised when a message (in the form of a key-value pair) is received by the channel. The contents of the message are contained by the [**RemoteSystemSessionValueSetReceivedEventArgs**](RemoteSystemSessionValueSetReceivedEventArgs.md) object that is passed in.
 
 ## -remarks
 

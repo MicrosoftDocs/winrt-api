@@ -14,8 +14,6 @@ Initiates a request to the XAML framework to bring the element into view.
 
 ## -parameters
 
-## -returns
-
 ## -remarks
 
 ## -see-also

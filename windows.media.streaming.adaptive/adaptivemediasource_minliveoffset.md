@@ -10,13 +10,13 @@ public IReference<TimeSpan> MinLiveOffset { get; }
 # Windows.Media.Streaming.Adaptive.AdaptiveMediaSource.MinLiveOffset
 
 ## -desc
-Gets or sets the minimum offset of live playback from the end of the known media content that has been downloaded.
+Gets the minimum offset of live playback from the end of the known media content that has been downloaded.
 
 ## -property-value
 The minimum offset of live playback from the end of the known media content that has been downloaded.
 
 ## -remarks
-This property specifies the minimum value to which the [DesiredLiveOffset](adaptivemediasource_desiredliveoffset) property can be set.
+This property specifies the minimum value to which the [DesiredLiveOffset](adaptivemediasource_desiredliveoffset) property can be set. This value is specified by the media content or platform.
 
 ## -see-also
 

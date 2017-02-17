@@ -10,8 +10,10 @@ public RemoteSystemSessionInfo SessionInfo { get; }
 # Windows.System.RemoteSystems.RemoteSystemSessionInvitation.SessionInfo
 
 ## -description
+Gets a [**RemoteSystemSessionInfo**](RemoteSystemSessionInfo.md) object representing the session to which this device was invited.
 
 ## -property-value
+The [**RemoteSystemSessionInfo**](RemoteSystemSessionInfo.md) object representing the session to which this device was invited.
 
 ## -remarks
 

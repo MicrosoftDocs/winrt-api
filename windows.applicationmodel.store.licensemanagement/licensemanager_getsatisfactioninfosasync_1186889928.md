@@ -12,9 +12,6 @@ public Windows.Foundation.IAsyncOperation<Windows.ApplicationModel.Store.License
 ## -description
 Gets license entitlement info for the specified products.
 
-> [!NOTE]
-> This member requires the **storeLicenseManagement** restricted capability. For more information about restricted capabilities, see [App capability declarations](https://msdn.microsoft.com/windows/uwp/packaging/app-capability-declarations).
-
 ## -parameters
 ### -param contentIds
 The content IDs of the products for which to get license entitlement info.

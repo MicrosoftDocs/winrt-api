@@ -8,7 +8,7 @@ public delegate void MessageTransmittedHandler(Windows.Networking.Proximity.Prox
 # Windows.Networking.Proximity.MessageTransmittedHandler
 
 ## -description
-Describes the method that will handle the event <?xm-insertion_mark_start author="v-shawja" time="20120126T115427-0800"?> that's fired<?xm-insertion_mark_end?><?xm-deletion_mark author="v-shawja" time="20120126T115429-0800" data="raised"?> when a published message has been transmitted.
+Describes the method that will handle the event that's fired when a published message has been transmitted.
 
 ## -parameters
 ### -param sender
@@ -28,7 +28,11 @@ The [MessageTransmittedHandler](messagetransmittedhandler.md) delegate is called
 ## -examples
 
 
-[!code-csharp[PublishSubscribe2](../windows.networking.proximity/code/ProximityReferenceSample/csharp/MainPage.xaml.cs#SnippetPublishSubscribe2)][!code-js[PublishSubscribe2](../windows.networking.proximity/code/ProximityReferenceSample/js/default.js#SnippetPublishSubscribe2)][!code-vb[PublishSubscribe2](../windows.networking.proximity/code/ProximityReferenceSample/vbnet/MainPage.xaml.vb#SnippetPublishSubscribe2)]
+[!code-csharp[PublishSubscribe2](../windows.networking.proximity/code/ProximityReferenceSample/csharp/MainPage.xaml.cs#SnippetPublishSubscribe2)]
+
+[!code-js[PublishSubscribe2](../windows.networking.proximity/code/ProximityReferenceSample/js/default.js#SnippetPublishSubscribe2)]
+
+[!code-vb[PublishSubscribe2](../windows.networking.proximity/code/ProximityReferenceSample/vbnet/MainPage.xaml.vb#SnippetPublishSubscribe2)]
 
 ## -see-also
 [PublishMessage(String, String, MessageTransmittedHandler)](proximitydevice_publishmessage_1989900324.md), [PublishBinaryMessage(String, IBuffer, MessageTransmittedHandler)](proximitydevice_publishbinarymessage_374148007.md), [PublishUriMessage(Uri, MessageTransmittedHandler)](proximitydevice_publishurimessage_652448219.md), [Proximity and Tapping (JavaScript)](http://msdn.microsoft.com/library/84a30dcf-ef14-4a93-9e7c-7a3de867d46b), [Proximity and Tapping (C#/VB/C++)](http://msdn.microsoft.com/library/f25bb1df-1cfd-45cd-8c67-04eec73ebfbd), [Proximity sample](http://go.microsoft.com/fwlink/p/?linkid=245082)

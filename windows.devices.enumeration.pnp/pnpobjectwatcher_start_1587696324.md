@@ -19,7 +19,7 @@ The [Start](pnpobjectwatcher_start.md) method can only be called when the [PnpOb
 
 The following diagram shows how the [PnpObjectWatcher](pnpobjectwatcher.md) transitions between the states represented by [DeviceWatcherStatus](../windows.devices.enumeration/devicewatcherstatus.md) enumeration.
 
-<img src="images/statediagram.png" alt="state diagram of DeviceWatcher states"><?xm-replace_text {rem}?></img>
+<img src="images/statediagram.png" alt="state diagram of DeviceWatcher states"></img>
 
 ## -examples
 

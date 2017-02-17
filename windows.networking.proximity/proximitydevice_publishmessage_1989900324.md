@@ -48,7 +48,11 @@ For Windows Store app, publications and subscriptions are active only if the cal
 ## -examples
 
 
-[!code-csharp[PublishSubscribe2](../windows.networking.proximity/code/ProximityReferenceSample/csharp/MainPage.xaml.cs#SnippetPublishSubscribe2)][!code-js[PublishSubscribe2](../windows.networking.proximity/code/ProximityReferenceSample/js/default.js#SnippetPublishSubscribe2)][!code-vb[PublishSubscribe2](../windows.networking.proximity/code/ProximityReferenceSample/vbnet/MainPage.xaml.vb#SnippetPublishSubscribe2)]
+[!code-csharp[PublishSubscribe2](../windows.networking.proximity/code/ProximityReferenceSample/csharp/MainPage.xaml.cs#SnippetPublishSubscribe2)]
+
+[!code-js[PublishSubscribe2](../windows.networking.proximity/code/ProximityReferenceSample/js/default.js#SnippetPublishSubscribe2)]
+
+[!code-vb[PublishSubscribe2](../windows.networking.proximity/code/ProximityReferenceSample/vbnet/MainPage.xaml.vb#SnippetPublishSubscribe2)]
 
 ## -see-also
 [PublishMessage(String, String)](proximitydevice_publishmessage_1881696512.md), [PublishBinaryMessage](proximitydevice_publishbinarymessage.md), [PublishUriMessage](proximitydevice_publishurimessage.md), [StopPublishingMessage](proximitydevice_stoppublishingmessage.md), [Proximity and Tapping (JavaScript)](http://msdn.microsoft.com/library/84a30dcf-ef14-4a93-9e7c-7a3de867d46b), [Proximity and Tapping (C#/VB/C++)](http://msdn.microsoft.com/library/f25bb1df-1cfd-45cd-8c67-04eec73ebfbd), [Proximity sample](http://go.microsoft.com/fwlink/p/?linkid=245082)

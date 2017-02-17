@@ -10,8 +10,10 @@ public RemoteSystem Sender { get; }
 # Windows.System.RemoteSystems.RemoteSystemSessionInvitation.Sender
 
 ## -description
+Gets a [**RemoteSystem**](RemoteSystem.md) object representing the device that sent the invitation.
 
 ## -property-value
+The [**RemoteSystem**](RemoteSystem.md) object representing the sending device.
 
 ## -remarks
 

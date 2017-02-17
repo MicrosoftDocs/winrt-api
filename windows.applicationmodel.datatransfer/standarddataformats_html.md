@@ -22,7 +22,9 @@ This example demonstrates the use of the **Html** property. To use the code in t
 
 
 
-[!code-csharp[HowToShareHtml](../windows.applicationmodel.datatransfer/code/ShareMainBeta/cs/ShareHTML.xaml.cs#SnippetHowToShareHtml)][!code-js[HowToShareHtml](../windows.applicationmodel.datatransfer/code/ShareMainBeta/javascript/js/ShareHtml.js#SnippetHowToShareHtml)]
+[!code-csharp[HowToShareHtml](../windows.applicationmodel.datatransfer/code/ShareMainBeta/cs/ShareHTML.xaml.cs#SnippetHowToShareHtml)]
+
+[!code-js[HowToShareHtml](../windows.applicationmodel.datatransfer/code/ShareMainBeta/javascript/js/ShareHtml.js#SnippetHowToShareHtml)]
 
 ## -see-also
 tHowToShareHtml)]

@@ -20,11 +20,15 @@ The following example shows how to setup the event handler.
 
 
 
-[!code-cpp[SetupBarcodeScanner](../windows.devices.pointofservice/code/BarcodeScanner/cpp/Scenario1.xaml.cpp#SnippetSetupBarcodeScanner)][!code-csharp[SetupBarcodeScanner](../windows.devices.pointofservice/code/BarcodeScanner/cs/Scenario1.xaml.cs#SnippetSetupBarcodeScanner)]
+[!code-cpp[SetupBarcodeScanner](../windows.devices.pointofservice/code/BarcodeScanner/cpp/Scenario1.xaml.cpp#SnippetSetupBarcodeScanner)]
+
+[!code-csharp[SetupBarcodeScanner](../windows.devices.pointofservice/code/BarcodeScanner/cs/Scenario1.xaml.cs#SnippetSetupBarcodeScanner)]
 
 
 
-[!code-cpp[ReleaseDeviceRequested](../windows.devices.pointofservice/code/BarcodeScanner/cpp/Scenario1.xaml.cpp#SnippetReleaseDeviceRequested)][!code-csharp[ReleaseDeviceRequested](../windows.devices.pointofservice/code/BarcodeScanner/cs/Scenario1.xaml.cs#SnippetReleaseDeviceRequested)]
+[!code-cpp[ReleaseDeviceRequested](../windows.devices.pointofservice/code/BarcodeScanner/cpp/Scenario1.xaml.cpp#SnippetReleaseDeviceRequested)]
+
+[!code-csharp[ReleaseDeviceRequested](../windows.devices.pointofservice/code/BarcodeScanner/cs/Scenario1.xaml.cs#SnippetReleaseDeviceRequested)]
 
 ## -see-also
 [Barcode scanner sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620014)

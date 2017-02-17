@@ -13,7 +13,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Foundation.Collections.IVector
 Gets the list of changes to the contact store associated with the provided revision number.
 
 ## -parameters
-### -param baseREvisionNumber
+### -param baseRevisionNumber
 The revision number for which changes should be retrieved.
 
 ## -returns
