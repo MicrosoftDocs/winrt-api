@@ -10,7 +10,7 @@ public class TargetedContentAction
 # Windows.Services.TargetedContent.TargetedContentAction
 
 ## -description
-Represents the actions content can perform.
+Represents the TargetedContentValue of the TargetedContentValueKind action.
 ## -remarks
 
 ## -see-also
