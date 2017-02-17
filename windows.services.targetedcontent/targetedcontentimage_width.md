@@ -10,7 +10,7 @@ public uint Width { get; }
 # Windows.Services.TargetedContent.TargetedContentImage.Width
 
 ## -description
-
+Gets a value indicating the width of the TargetedContentImage object.
 ## -property-value
 
 ## -remarks
