@@ -10,8 +10,10 @@ public Vector3 Position { get; }
 # Windows.UI.Input.Spatial.SpatialPointerInteractionSourcePose.Position
 
 ## -description
+Gets the position of the spatial controller's pointer pose in the specified coordinate system.
 
 ## -property-value
+The position.
 
 ## -remarks
 
