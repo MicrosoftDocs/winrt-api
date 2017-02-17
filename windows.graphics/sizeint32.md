@@ -13,12 +13,15 @@ public struct SizeInt32  {
 # Windows.Graphics.SizeInt32
 
 ## -description
+Defines the height and wide of a surface in a two-dimensional plane.
 
 ## -struct-fields
 
 ### -field Height
+The height of a surface.
 
 ### -field Width
+The width of a surface.
 
 ## -remarks
 
