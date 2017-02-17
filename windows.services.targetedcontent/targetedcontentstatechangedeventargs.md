@@ -10,7 +10,7 @@ public class TargetedContentStateChangedEventArgs
 # Windows.Services.TargetedContent.TargetedContentStateChangedEventArgs
 
 ## -description
-
+Represents the arguments for the State Changed event.
 ## -remarks
 
 ## -see-also
