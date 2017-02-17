@@ -10,7 +10,7 @@ public BrightnessOverride BrightnessOverride.GetDefaultForSystem()
 # Windows.Graphics.Display.BrightnessOverride.GetDefaultForSystem
 
 ## -description
-Returns a brightness override object. This method does not require [CoreWindow](# ./windows.ui.core/corewindow.md) so it can be used by apps that are running in the background.
+Returns a brightness override object. This method does not require [CoreWindow](../windows.ui.core/corewindow.md) so it can be used by apps that are running in the background.
 
 ## -returns
 The brightness override object.
