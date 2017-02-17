@@ -35,8 +35,7 @@ The device key.
 The mutual authentication key.
 
 ## -returns
-This method does not return a value.
-
+An asynchronous operation with a registration result instance.
 ## -remarks
 
 ## -examples

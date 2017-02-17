@@ -10,12 +10,15 @@ public IAsyncAction SecondaryAuthenticationFactorRegistration.UnregisterDevicePr
 # Windows.Security.Authentication.Identity.Provider.SecondaryAuthenticationFactorRegistration.UnregisterDevicePresenceMonitoringAsync
 
 ## -description
+Unregisters a companion device from presence monitoring.
 
 ## -parameters
 
 ### -param deviceId
+The unique identifier for the device.
 
 ## -returns
+This method does not return a value.
 
 ## -remarks
 

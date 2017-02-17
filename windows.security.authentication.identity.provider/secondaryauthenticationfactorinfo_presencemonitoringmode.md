@@ -10,8 +10,10 @@ public SecondaryAuthenticationFactorDevicePresenceMonitoringMode PresenceMonitor
 # Windows.Security.Authentication.Identity.Provider.SecondaryAuthenticationFactorInfo.PresenceMonitoringMode
 
 ## -description
+Gets the presence monitoring mode of the companion device (the mechanism by which the main device checks the presence of the companion device).
 
 ## -property-value
+A [**SecondaryAuthenticationFactorDevicePresenceMonitoringMode**](SecondaryAuthenticationFactorDevicePresenceMonitoringMode.md) value describing the monitoring mode.
 
 ## -remarks
 

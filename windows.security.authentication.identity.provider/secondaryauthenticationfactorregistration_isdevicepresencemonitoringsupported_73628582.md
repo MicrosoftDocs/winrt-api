@@ -10,8 +10,10 @@ public bool SecondaryAuthenticationFactorRegistration.IsDevicePresenceMonitoring
 # Windows.Security.Authentication.Identity.Provider.SecondaryAuthenticationFactorRegistration.IsDevicePresenceMonitoringSupported
 
 ## -description
+Checks whether the main device is able to monitor for the presence of companion devices.
 
 ## -returns
+A value of **true** if the device can monitor companion devices, otherwise **false**.
 
 ## -remarks
 
