@@ -12,10 +12,6 @@ public void SetFocusPoint(Windows.Perception.Spatial.SpatialCoordinateSystem coo
 ## -description
 Sets the moving point in the holographic space that the user will focus on, as well as the normal for a focus plane through that point.
 
-This is used to improve image quality at the moving focus point and along its focus plane.
-
-You must set the focus point each frame, or it will reset to its default.
-
 ## -parameters
 ### -param coordinateSystem
 The coordinate system of the position, normal and velocity vectors.
@@ -30,6 +26,9 @@ The normal of the focus point in the specified coordinate system, if known. If t
 The velocity vector of the focus point in the specified coordinate system.
 
 ## -remarks
+This is used to improve image quality at the focus point and along its focus plane.
+
+You must set the focus point each frame, or it will reset to its default.  If you call [CommitDirect3D11DepthBuffer](holographiccamerarenderingparameters_commitdirect3d11depthbuffer_1424767526.md), the default focus point and normal will be inferred from your rendered depth data.  Otherwise, the default focus point will be 2 meters away from the headset, with a normal facing the headset.
 
 ## -examples
 

@@ -10,10 +10,13 @@ public ushort VendorId { get; }
 # Windows.UI.Input.Spatial.SpatialInteractionController.VendorId
 
 ## -description
+Gets the vendor identifier for this spatial controller.
 
 ## -property-value
+The vendor identifier.
 
 ## -remarks
+The [VendorId], [ProductId] and [Version] properties can be used together to identify a particular controller design.  This can then be used on occluded Mixed Reality headsets to choose a matching render model to display in the user's surroundings.
 
 ## -see-also
 

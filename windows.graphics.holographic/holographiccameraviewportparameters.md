@@ -10,6 +10,7 @@ public class HolographicCameraViewportParameters
 # Windows.Graphics.Holographic.HolographicCameraViewportParameters
 
 ## -description
+Represents per-viewport parameters for rendering holographic content.
 
 ## -remarks
 

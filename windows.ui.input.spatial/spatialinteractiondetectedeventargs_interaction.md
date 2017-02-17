@@ -12,12 +12,11 @@ public Windows.UI.Input.Spatial.SpatialInteraction Interaction { get; }
 ## -description
 Gets the detected interaction, for routing to a SpatialGestureRecognizer.
 
-Pass this SpatialInteraction object to the SpatialGestureRecognizer.CaptureInteraction method to route this interaction to that gesture recognizer.
-
 ## -property-value
 The interaction.
 
 ## -remarks
+Pass this SpatialInteraction object to the SpatialGestureRecognizer.CaptureInteraction method to route this interaction to that gesture recognizer.
 
 ## -examples
 

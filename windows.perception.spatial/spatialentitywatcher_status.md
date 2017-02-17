@@ -10,8 +10,10 @@ public SpatialEntityWatcherStatus Status { get; }
 # Windows.Perception.Spatial.SpatialEntityWatcher.Status
 
 ## -description
+Gets the operational status of the spatial entity watcher.
 
 ## -property-value
+The status.
 
 ## -remarks
 

@@ -10,8 +10,10 @@ public SpatialEntity Entity { get; }
 # Windows.Perception.Spatial.SpatialEntityAddedEventArgs.Entity
 
 ## -description
+Gets the spatial entity that was added.
 
 ## -property-value
+The added entity.
 
 ## -remarks
 
