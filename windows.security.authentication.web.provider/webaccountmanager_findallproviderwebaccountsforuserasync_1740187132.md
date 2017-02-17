@@ -10,7 +10,7 @@ public IAsyncOperation<WebAccount>> WebAccountManager.FindAllProviderWebAccounts
 # Windows.Security.Authentication.Web.Provider.WebAccountManager.FindAllProviderWebAccountsForUserAsync
 
 ## -description
-Finds all provider web accounts for a given user asynchronously.
+Finds all provider web accounts for a given user asynchronously (for use with multi-user-aware apps).
 
 ## -parameters
 

@@ -14,7 +14,6 @@ Defines properties for web account provider token objects.
 
 ## -remarks
 
-## -see-also
-
 ## -examples
 
+## -see-also

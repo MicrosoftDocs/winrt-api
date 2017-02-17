@@ -10,12 +10,12 @@ public IAsyncOperation<WebAccount> WebAccountManager.AddWebAccountForUserAsync(U
 # Windows.Security.Authentication.Web.Provider.WebAccountManager.AddWebAccountForUserAsync
 
 ## -description
-Adds a new web account for a specific user (for use on multi user aware apps).
+Adds a new web account for a specific user (for use with multi-user-aware apps).
 
 ## -parameters
 
 ### -param user
-The Windows user for which an account must be authenticated.
+The user for which an account must be authenticated.
 
 ### -param webAccountId
 The Id for the web account.
