@@ -13,7 +13,6 @@ public class CoreComponentInputSource : Windows.UI.Core.ICoreClosestInteractiveB
 Provides a mechanism to receive input for a XAML framework element hosted in another framework, such as a DirectX interop framework.
 
 ## -remarks
-<!-- <rem>TODO: Document how the developer can obtain this class object, and add or update retriever elements as necessary.</rem>-->
 
 ## -examples
 
