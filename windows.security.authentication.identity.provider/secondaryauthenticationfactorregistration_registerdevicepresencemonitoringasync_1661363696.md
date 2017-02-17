@@ -27,6 +27,7 @@ A [**SecondaryAuthenticationFactorDevicePresenceMonitoringMode**](SecondaryAuthe
 An asynchronous operation with the status of the registration.
 
 ## -remarks
+A companion device must be registered for secondary authentication before it is optionally registered for device presence monitoring.
 
 ## -see-also
 

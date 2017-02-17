@@ -20,7 +20,7 @@ Updates the configuration data of a companion device.
 The Id of the device to update.
 
 ### -param deviceConfigurationData
-The updated configuration data.
+The updated configuration data. This data is capped at 4KB.
 
 ## -returns
 This method does not return a value.
