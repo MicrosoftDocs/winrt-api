@@ -10,7 +10,7 @@ public bool CanReadCharacterAtCursor { get; }
 # Windows.Devices.PointOfService.LineDisplayCapabilities.CanReadCharacterAtCursor
 
 ## -description
-Indicates whether the line display supports reading characters at the current cursor position.
+Gets whether the line display supports reading characters at the current cursor position.
 
 ## -property-value
 True if the line display supports reading characters at the cursor; otherwise false.

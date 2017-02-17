@@ -10,15 +10,15 @@ public string ClaimedLineDisplay.GetDeviceSelector(PosConnectionTypes connection
 # Windows.Devices.PointOfService.ClaimedLineDisplay.GetDeviceSelector
 
 ## -description
-Using only the specified connection types, gets an Advanced Query Syntax (AQS) string that you can use to list the available line displays.
+Gets an Advanced Query Syntax (AQS) string that you can use to list the line displays available over the specified connection types
 
 ## -parameters
 
 ### -param connectionTypes
-A list of the connection types to test for available line displays.
+A list of the connection types to check for available line displays.
 
 ## -returns
-An AQS string that is used to enumerate available line displays via the specified connection types.
+An AQS string that is used to enumerate available line displays available over the specified connection types
 
 ## -remarks
 

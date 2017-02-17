@@ -10,7 +10,7 @@ public bool IsStatisticsReportingSupported { get; }
 # Windows.Devices.PointOfService.LineDisplayCapabilities.IsStatisticsReportingSupported
 
 ## -description
-Indicates whether the line display supports reporting statistics.
+Gets whether the line display supports reporting statistics.
 
 ## -property-value
 True if the line display supports reporting statistics; otherwise, false.

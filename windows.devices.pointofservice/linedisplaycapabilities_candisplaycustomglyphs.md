@@ -10,7 +10,7 @@ public bool CanDisplayCustomGlyphs { get; }
 # Windows.Devices.PointOfService.LineDisplayCapabilities.CanDisplayCustomGlyphs
 
 ## -description
-Indicates whether the line display supports displaying custom glyphs.
+Gets whether the line display supports displaying custom glyphs.
 
 ## -property-value
 True if the line display supports displaying custom glyphs; otherwise, false.

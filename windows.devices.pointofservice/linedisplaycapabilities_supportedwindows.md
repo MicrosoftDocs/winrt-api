@@ -10,10 +10,10 @@ public uint SupportedWindows { get; }
 # Windows.Devices.PointOfService.LineDisplayCapabilities.SupportedWindows
 
 ## -description
-Indicates the maximum number of windows supported by the line display.
+Gets the maximum number of windows supported by the line display.
 
 ## -property-value
-The maximum number of windows supported by the line display. A value of zero indicates that only the device window is supported, and that no additional windows may be created by calling CreateWindowAsync.
+The maximum number of windows supported by the line display.
 
 ## -remarks
 

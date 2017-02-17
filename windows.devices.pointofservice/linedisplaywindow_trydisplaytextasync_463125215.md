@@ -18,22 +18,7 @@ Try to display the specified text at a specified position in the line display wi
 The text to be displayed.
 
 ### -param displayAttribute
-The display attribute used. This argument can take one of the following values:
-
-```Csharp
-typedef enum LineDisplayTextAttribute
-{
-  Normal = 0,
-  Blink = 1,
-  Reverse = 2,
-  ReverseBlink = 3
-} LineDisplayTextDisplayAttribute;
-```
-
-+ Normal: display text normally
-+ Blink: display text blinking
-+ Reverse: display text reversed
-+ ReverseBlink: display text reversed and blinking
+The display attribute to be applied to the window.
 
 ### -param startPosition
 The row and column at which to start displaying the text.

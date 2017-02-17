@@ -10,15 +10,15 @@ public string CashDrawer.GetDeviceSelector(PosConnectionTypes connectionTypes)
 # Windows.Devices.PointOfService.CashDrawer.GetDeviceSelector
 
 ## -description
-Using only the specified connection types, gets an Advanced Query Syntax (AQS) string that you can use to list the available cash drawers.
+Gets an Advanced Query Syntax (AQS) string that you can use to list the cash drawers available over the specified connection types
 
 ## -parameters
 
 ### -param connectionTypes
-A list of the connection types to test for available cash drawers.
+A list of the connection types to check for available cash drawers.
 
 ## -returns
-An Advanced Query Syntax (AQS) string that is used to enumerate available cash drawers via the specified connection types.
+An Advanced Query Syntax (AQS) string that is used to enumerate the cash drawers available over the specified connection types
 
 ## -remarks
 

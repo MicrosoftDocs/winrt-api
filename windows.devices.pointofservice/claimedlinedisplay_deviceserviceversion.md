@@ -13,6 +13,7 @@ public string DeviceServiceVersion { get; }
 Gets the service version number of the line display.
 
 ## -property-value
+The service version number.
 
 ## -remarks
 

@@ -10,7 +10,7 @@ public bool IsCheckDigitValidationEnabled { get;  set; }
 # Windows.Devices.PointOfService.BarcodeSymbologyAttributes.IsCheckDigitValidationEnabled
 
 ## -description
-Indicates whether barcode check digit will be validated.
+Gets whether barcode check digit will be validated.
 
 ## -property-value
 True if the barcode check digit will be validated; otherwise, false.

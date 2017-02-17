@@ -10,7 +10,7 @@ public uint SupportedDescriptors { get; }
 # Windows.Devices.PointOfService.LineDisplayCapabilities.SupportedDescriptors
 
 ## -description
-Indicates the number of descriptors supported by the line display.
+Gets the number of descriptors supported by the line display.
 
 ## -property-value
 The number of descriptors supported by the line display. A value of zero indicates that the line display does not support descriptors.

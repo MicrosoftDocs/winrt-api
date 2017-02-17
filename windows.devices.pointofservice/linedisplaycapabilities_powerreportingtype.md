@@ -10,7 +10,7 @@ public UnifiedPosPowerReportingType PowerReportingType { get; }
 # Windows.Devices.PointOfService.LineDisplayCapabilities.PowerReportingType
 
 ## -description
-Indicates the type of power reporting supported by the line display.
+Gets the type of power reporting supported by the line display.
 
 ## -property-value
 This property can have one of the following values:

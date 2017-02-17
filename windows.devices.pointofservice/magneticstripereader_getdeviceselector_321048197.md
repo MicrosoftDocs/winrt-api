@@ -10,15 +10,15 @@ public string MagneticStripeReader.GetDeviceSelector(PosConnectionTypes connecti
 # Windows.Devices.PointOfService.MagneticStripeReader.GetDeviceSelector
 
 ## -description
-Using only the specified connection types, gets an Advanced Query Syntax (AQS) string that you can use to list the available magnetic stripe readers.
+Gets an Advanced Query Syntax (AQS) string that you can use to list the magnetic stripe readers available over the specified connection types
 
 ## -parameters
 
 ### -param connectionTypes
-A list of the connection types to test for available magnetic stripe readers.
+A list of the connection types to check for available magnetic stripe readers.
 
 ## -returns
-An Advanced Query Syntax (AQS) string that is used to enumerate available magnetic stripe readers via the specified connection types.
+An Advanced Query Syntax (AQS) string that is used to enumerate the magnetic stripe readers available over the specified connection types
 
 ## -remarks
 

@@ -15,7 +15,7 @@ Gets the attributes of the specified barcode symbology.
 ## -parameters
 
 ### -param barcodeSymbology
-The barcode symbology whose attributes will be retrieved. For a complete list of barcode symbologies supported, see [BarcodeSymbologies](barcodesymbologies.md).
+The barcode symbology.
 
 ## -returns
 A [BarcodeSymbologyAttributes](barcodesymbologyattributes.md) object, containing the attributes of the specified barcode symbology.

@@ -10,7 +10,7 @@ public uint DecodeLength2 { get;  set; }
 # Windows.Devices.PointOfService.BarcodeSymbologyAttributes.DecodeLength2
 
 ## -description
-The second value used to determine the barcode symbology decode length.
+Gets or sets the second value used to determine the barcode symbology decode length.
 
 ## -property-value
 The second part of the decode length.

@@ -10,7 +10,7 @@ public bool IsCursorSupported { get; }
 # Windows.Devices.PointOfService.LineDisplayCapabilities.IsCursorSupported
 
 ## -description
-Indicates whether the line display supports a cursor.
+Gets whether the line display supports a cursor.
 
 ## -property-value
 True if the line display supports a cursor; otherwise, false.
