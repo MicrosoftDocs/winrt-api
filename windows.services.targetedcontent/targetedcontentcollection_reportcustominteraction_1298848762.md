@@ -10,7 +10,7 @@ public void TargetedContentCollection.ReportCustomInteraction(String customInter
 # Windows.Services.TargetedContent.TargetedContentCollection.ReportCustomInteraction
 
 ## -description
-
+Reports custom interaction for a TargetedContentCollection object.
 ## -parameters
 
 ### -param customInteractionName
