@@ -17,7 +17,7 @@ Creates an instance of a game controller.
 The controller provider for the controller.
 
 ## -returns
-Returns the created object.
+The created object.
 
 ## -remarks
 
