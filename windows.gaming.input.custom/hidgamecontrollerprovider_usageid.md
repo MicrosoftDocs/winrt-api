@@ -11,11 +11,11 @@ public ushort UsageId { get; }
 
 ## -description
 
-The usage ID for the HID (Human Interface Device) game controller.
+The usage ID of the top-level collection.
 
 ## -property-value
 
-The usage ID for the HID game controller.
+The usage ID of the top-level collection.
 
 ## -remarks
 
