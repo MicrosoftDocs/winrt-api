@@ -10,7 +10,7 @@ public class SystemGPSProperties : Windows.Storage.ISystemGPSProperties
 # Windows.Storage.SystemGPSProperties
 
 ## -description
-A helper object that provides indexing names for [GPS file properties](XREF:TODO:shell.gps_bumper).
+A helper object that provides indexing names for [GPS file properties](https://msdn.microsoft.com/library/windows/desktop/ff521689.aspx).
 
 ## -remarks
 

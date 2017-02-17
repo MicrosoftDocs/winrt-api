@@ -23,7 +23,7 @@ Use one of the following properties to retrieve a [fileSavePickerUI](filesavepic
 > [FileSavePickerActivatedEventArgs.FileSavePickerUI](../windows.applicationmodel.activation/filesavepickeractivatedeventargs_filesavepickerui.md)
 
 
-To learn about creating a good experience for users when they use your app as a save location, see [Guidelines and checklist for  contracts](XREF:TODO:m_data_files.guidelines_and_checklist_for_file_picker_contracts).
+To learn about creating a good experience for users when they use your app as a save location, see [Open files and folders with a picker](https://docs.microsoft.com/windows/uwp/files/quickstart-using-file-and-folder-pickers).
 
 ## -examples
 The [File picker sample](http://go.microsoft.com/fwlink/p/?linkid=234890) demonstrates how to respond to a [filesavepicker](../windows.applicationmodel.activation/activationkind.md) activated event.
@@ -80,4 +80,4 @@ For JavaScript, `eventObject` contains a [webUIFileSavePickerActivatedEventArgs]
 For C#, `args` contains a [FileSavePickerActivatedEventArgs](../windows.applicationmodel.activation/filesavepickeractivatedeventargs.md) object. Additionally, the `OnFileSavePickerActivated` is in the App.xaml.cs file and the `Activate` method is in the FileSavePickerPage.xaml.cs file of the [File picker sample](http://go.microsoft.com/fwlink/p/?linkid=234890).
 
 ## -see-also
-[Guidelines and checklist for ](XREF:TODO:m_data_files.guidelines_and_checklist_for_pickers), [Windows.ApplicationModel.Activation.activationKind](../windows.applicationmodel.activation/activationkind.md), [Windows.UI.WebUI.webUIFileOpenPickerActivatedEventArgs.fileSavePickerUI](../windows.ui.webui/webuifilesavepickeractivatedeventargs_filesavepickerui.md), [Windows.ApplicationModel.Activation.ActivationKind](../windows.applicationmodel.activation/activationkind.md), [Windows.ApplicationModel.Activation.FileOpenPickerActivatedEventArgs.FileSavePickerUI](../windows.applicationmodel.activation/filesavepickeractivatedeventargs_filesavepickerui.md), [File picker provider sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620543)
+[Open files and folders with a picker](https://docs.microsoft.com/windows/uwp/files/quickstart-using-file-and-folder-pickers), [Windows.ApplicationModel.Activation.activationKind](../windows.applicationmodel.activation/activationkind.md), [Windows.UI.WebUI.webUIFileOpenPickerActivatedEventArgs.fileSavePickerUI](../windows.ui.webui/webuifilesavepickeractivatedeventargs_filesavepickerui.md), [Windows.ApplicationModel.Activation.ActivationKind](../windows.applicationmodel.activation/activationkind.md), [Windows.ApplicationModel.Activation.FileOpenPickerActivatedEventArgs.FileSavePickerUI](../windows.applicationmodel.activation/filesavepickeractivatedeventargs_filesavepickerui.md), [File picker provider sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620543)

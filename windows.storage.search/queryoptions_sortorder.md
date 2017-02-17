@@ -16,7 +16,7 @@ Gets the list of [SortEntry](sortentry.md) structures that specify how to sort c
 A [SortEntryVector](sortentryvector.md) that contains [SortEntry](sortentry.md) structures. These structures specify how to sort query results.
 
 ## -remarks
-If the folder being queried is not in a library or in the HomeGroup folder, [SortOrder](queryoptions_sortorder.md) only supports entries based on the [System.ItemNameDisplay](XREF:TODO:properties.props_System_ItemNameDisplay) (**PKEY_ItemNameDisplay**), [System.Search.Rank](XREF:TODO:properties.props_System_Search_Rank) (**PKEY_Search_Rank**), or [System.DateModified](XREF:TODO:properties.props_System_DateModified) (**PKEY_DateModified**) properties; [SortOrder](queryoptions_sortorder.md) entries based on any other properties will return **E_INVALIDARG**.
+If the folder being queried is not in a library or in the HomeGroup folder, [SortOrder](queryoptions_sortorder.md) only supports entries based on the [System.ItemNameDisplay](https://msdn.microsoft.com/library/windows/desktop/bb760770.aspx) (**PKEY_ItemNameDisplay**), [System.Search.Rank](https://msdn.microsoft.com/library/windows/desktop/bb760173.aspx) (**PKEY_Search_Rank**), or [System.DateModified](https://msdn.microsoft.com/library/windows/desktop/bb760685.aspx) (**PKEY_DateModified**) properties; [SortOrder](queryoptions_sortorder.md) entries based on any other properties will return **E_INVALIDARG**.
 
 ## -examples
 

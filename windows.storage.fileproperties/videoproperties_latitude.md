@@ -18,10 +18,10 @@ The latitude coordinate where the video was shot.
 
 The system computes this coordinate using the following file properties:
 
-+ [System.GPS.Latitude](XREF:TODO:properties.props_System_GPS_Latitude)
-+ [System.GPS.LatitudeDenominator](XREF:TODO:properties.props_System_GPS_LatitudeDenominator)
-+ [System.GPS.LatitudeNumerator](XREF:TODO:properties.props_System_GPS_LatitudeNumerator)
-+ [System.GPS.LatitudeRef](XREF:TODO:properties.props_System_GPS_LatitudeRef)
++ [System.GPS.Latitude](https://msdn.microsoft.com/library/windows/desktop/bb760543.aspx)
++ [System.GPS.LatitudeDenominator](https://msdn.microsoft.com/library/windows/desktop/bb760545.aspx)
++ [System.GPS.LatitudeNumerator](https://msdn.microsoft.com/library/windows/desktop/bb760562.aspx)
++ [System.GPS.LatitudeRef](https://msdn.microsoft.com/library/windows/desktop/bb760564.aspx)
 
 
 ## -remarks

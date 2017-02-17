@@ -10,10 +10,10 @@ public string LongitudeDecimal { get; }
 # Windows.Storage.SystemGPSProperties.LongitudeDecimal
 
 ## -description
-Gets the name of the  property (one of the [GPS file properties](XREF:TODO:shell.gps_bumper)).
+Gets the name of the property (one of the [GPS file properties](https://msdn.microsoft.com/library/windows/desktop/mt805736.aspx).
 
 ## -property-value
-The name of the  file property.
+The name of the file property.
 
 ## -remarks
 

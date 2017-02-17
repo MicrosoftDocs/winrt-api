@@ -19,9 +19,9 @@ This class is static and cannot be instantiated. Call the methods directly inste
 
 All apps can create files and folders in the Downloads folder and can access the files that they create. But apps can't access files in the Downloads folder that they didn't create.
 
-When your app creates a file in the Downloads folder, other apps can't interfere with or access your file unless the user explicitly gives the other app access. The user can give another app access to your file by selecting the file from the file picker. Your app can also use the file picker to get access to the files in the Downloads folder that it didn't create. Learn more about opening files with the file picker in [Quickstart: Accessing files with a file picker](XREF:TODO:m_pickers.quickstart__opening_a_file_through_the_file_picker).
+When your app creates a file in the Downloads folder, other apps can't interfere with or access your file unless the user explicitly gives the other app access. The user can give another app access to your file by selecting the file from the file picker. Your app can also use the file picker to get access to the files in the Downloads folder that it didn't create. Learn more about opening files with the file picker in [Open files and folders with a picker](https://docs.microsoft.com/windows/uwp/files/quickstart-using-file-and-folder-pickers).
 
-Capabilities are not needed to create or access files in the Downloads folder. Learn more about capabilities in [Access to user resources using the Windows Runtime](XREF:TODO:m_win_runtime.protected_access_to_user_resources_using_the_windows_runtime).
+Capabilities are not needed to create or access files in the Downloads folder. Learn more about capabilities in [App capability declarations](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations).
 
 To learn more about what locations your app can access, see [File access permissions](http://msdn.microsoft.com/library/3a404cc0-a997-45c8-b2e8-44745539759d).
 

@@ -21,7 +21,7 @@ For JavaScript, [FileExtensionVector](fileextensionvector.md) has the members sh
 <!--Begin NET note for IEnumerable support-->
 ### Enumerating the collection in C# or Microsoft Visual Basic
 
-A [FileExtensionVector](fileextensionvector.md) is enumerable, so you can use language-specific syntax such as **foreach** in C# to enumerate the items in the collection. The compiler does the type-casting for you and you won't need to cast to `IEnumerable<String>` explicitly. If you do need to cast explicitly, for example if you want to call [GetEnumerator](XREF:TODO:M:System.Collections.Generic.IEnumerable`1.GetEnumerator), cast to [IEnumerable&lt;T&gt;](XREF:TODO:T:System.Collections.Generic.IEnumerable`1) with a [String](https://msdn.microsoft.com/library/system.string.aspx) constraint.
+A [FileExtensionVector](fileextensionvector.md) is enumerable, so you can use language-specific syntax such as **foreach** in C# to enumerate the items in the collection. The compiler does the type-casting for you and you won't need to cast to `IEnumerable<String>` explicitly. If you do need to cast explicitly, for example if you want to call [GetEnumerator](https://msdn.microsoft.com/library/system.collections.ienumerable.getenumerator.aspx), cast to [IEnumerable&lt;T&gt;](https://msdn.microsoft.com/library/system.collections.ienumerable.aspx) with a [String](https://msdn.microsoft.com/library/system.string.aspx) constraint.
 
 
 <!--End NET note for IEnumerable support-->

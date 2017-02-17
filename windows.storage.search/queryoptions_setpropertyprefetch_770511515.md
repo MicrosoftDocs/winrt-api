@@ -19,7 +19,7 @@ A value that specifies the set of properties to retrieve in advance.
 The possible property sets match the sets of properties available on from the [StorageFile](../windows.storage/storagefile.md) class. For example, [PropertyPrefetchOptions.BasicProperties](../windows.storage.fileproperties/propertyprefetchoptions.md) will retrieve all of the properties available through [StorageFile.GetBasicPropertiesAsync](../windows.storage/storagefile_getbasicpropertiesasync.md) in advance.
 
 ### -param propertiesToRetrieve
-A custom list of properties to retrieve in advance as an array of property names. Use the system property names to specify properties, for example [System.Copyright](XREF:TODO:properties.props_System_Copyright) and [System.Image.ColorSpace](XREF:TODO:properties.props_System_Image_ColorSpace).
+A custom list of properties to retrieve in advance as an array of property names. Use the system property names to specify properties, for example [System.Copyright](https://msdn.microsoft.com/library/windows/desktop/bb760671.aspx) and [System.Image.ColorSpace](https://msdn.microsoft.com/library/windows/desktop/bb787447.aspx).
 
 A list of additional properties to retrieve.
 

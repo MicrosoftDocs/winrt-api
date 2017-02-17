@@ -16,7 +16,7 @@ Gets or sets the name of the album artist of the song.
 The name of the song's album artist.
 
 ## -remarks
-If you want to get the names of all the artists that contributed to the song (from the song's [System.Music.Artist](XREF:TODO:properties.props_System_Music_Artist) file property) use [Artist](musicproperties_artist.md) instead.
+If you want to get the names of all the artists that contributed to the song (from the song's [System.Music.Artist](https://msdn.microsoft.com/library/windows/desktop/bb787294.aspx) file property) use [Artist](musicproperties_artist.md) instead.
 
 ## -examples
 

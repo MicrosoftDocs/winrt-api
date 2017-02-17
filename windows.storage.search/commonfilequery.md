@@ -19,12 +19,12 @@ A shallow list of files in the current folder, similar to the list that File Exp
 You can use this option for any storage location.
 
 ### -field OrderByName:1
-A deep, flat list of files in a folder and its subfolders, sorted by [System.ItemNameDisplay](XREF:TODO:properties.props_System_ItemNameDisplay).
+A deep, flat list of files in a folder and its subfolders, sorted by [System.ItemNameDisplay](https://msdn.microsoft.com/library/windows/desktop/bb760770.aspx).
 
 You can use this option for any storage location.
 
 ### -field OrderByTitle:2
-A deep, flat list of files in a folder and its subfolders, sorted by [System.Title](XREF:TODO:properties.props_System_Title).
+A deep, flat list of files in a folder and its subfolders, sorted by [System.Title](https://msdn.microsoft.com/library/windows/desktop/bb787584.aspx).
 
 You can use this option only for folders in a library or the HomeGroup folder.
 
@@ -34,17 +34,17 @@ A deep, flat list of files in a folder and its subfolders, sorted by music prope
 You can use this option only for folders in a library or the HomeGroup folder.
 
 ### -field OrderBySearchRank:4
-A deep, flat list of files in a folder and its subfolders, sorted by [System.Search.Rank](XREF:TODO:properties.props_System_Search_Rank) followed by [System.DateModified](XREF:TODO:properties.props_System_DateModified).
+A deep, flat list of files in a folder and its subfolders, sorted by [System.Search.Rank](https://msdn.microsoft.com/library/windows/desktop/bb760173.aspx) followed by [System.DateModified](https://msdn.microsoft.com/library/windows/desktop/bb760685.aspx).
 
 You can use this option for any storage location.
 
 ### -field OrderByDate:5
-A deep, flat list of files in a folder and its subfolders, sorted by [System.ItemDate](XREF:TODO:properties.props_System_ItemDate).
+A deep, flat list of files in a folder and its subfolders, sorted by [System.ItemDate](https://msdn.microsoft.com/library/windows/desktop/bb760745.aspx).
 
 You can use this option only for folders in a library or the HomeGroup folder.
 
 > [!NOTE]
-> [System.ItemDate](XREF:TODO:properties.props_System_ItemDate) is a computed property that changes based on the content type; for example, it maps to [System.Photo.DateTaken](XREF:TODO:properties.props_System_Photo_DateTaken) for photos.
+> [System.ItemDate](https://msdn.microsoft.com/library/windows/desktop/bb760745.aspx) is a computed property that changes based on the content type; for example, it maps to [System.Photo.DateTaken](https://msdn.microsoft.com/library/windows/desktop/bb760410.aspx) for photos.
 
 
 ## -remarks
