@@ -10,8 +10,10 @@ public DevicePortalConnectionClosedReason Reason { get; }
 # Windows.System.Diagnostics.DevicePortal.DevicePortalConnectionClosedEventArgs.Reason
 
 ## -description
+Describes the reason that the device portal connection was closed.
 
 ## -property-value
+A [**DevicePortalConnectionClosedReason**](DevicePortalConnectionClosedReason.md) value describing the reason for closing.
 
 ## -remarks
 

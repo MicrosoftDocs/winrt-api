@@ -10,6 +10,7 @@ public event TypedEventHandler Closed<DevicePortalConnection, DevicePortalConnec
 # Windows.System.Diagnostics.DevicePortal.DevicePortalConnection.Closed
 
 ## -description
+Raised when the connection to the device portal is closed.
 
 ## -remarks
 

@@ -10,6 +10,7 @@ public event TypedEventHandler RequestReceived<DevicePortalConnection, DevicePor
 # Windows.System.Diagnostics.DevicePortal.DevicePortalConnection.RequestReceived
 
 ## -description
+Raised when a request has been received through the Windows Device Portal server.
 
 ## -remarks
 
