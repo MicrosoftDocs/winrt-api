@@ -10,7 +10,7 @@ public TargetedContentValueKind ValueKind { get; }
 # Windows.Services.TargetedContent.TargetedContentValue.ValueKind
 
 ## -description
-Gets or sets the type of information a piece of content can contain.
+Gets the TargetedContentValueKind object for the TargetedContentValue object.
 ## -property-value
 
 ## -remarks

@@ -10,7 +10,7 @@ public TargetedContentItem Item { get; }
 # Windows.Services.TargetedContent.TargetedContentObject.Item
 
 ## -description
-
+Gets a TargetedContentItem object in a TargetedContentObject object.
 ## -property-value
 
 ## -remarks

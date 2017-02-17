@@ -10,7 +10,7 @@ public bool AllowPartialContentAvailability { get;  set; }
 # Windows.Services.TargetedContent.TargetedContentSubscriptionOptions.AllowPartialContentAvailability
 
 ## -description
-
+Gets or Sets the Partial Content Availability for a TargetedContentSubscription object.
 ## -property-value
 
 ## -remarks

@@ -10,7 +10,7 @@ public Uri Uri { get; }
 # Windows.Services.TargetedContent.TargetedContentValue.Uri
 
 ## -description
-
+Gets a Uri object in a TargetedContentValue object.
 ## -property-value
 
 ## -remarks

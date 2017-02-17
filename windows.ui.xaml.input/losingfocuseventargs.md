@@ -10,6 +10,7 @@ public class LosingFocusEventArgs : RoutedEventArgs, RoutedEventArgs
 # Windows.UI.Xaml.Input.LosingFocusEventArgs
 
 ## -description
+Provides data for the [LosingFocus](../windows.ui.xaml/uielement_losingfocus.md) event.
 
 ## -remarks
 

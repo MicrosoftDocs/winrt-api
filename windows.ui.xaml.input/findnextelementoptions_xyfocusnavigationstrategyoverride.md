@@ -10,8 +10,10 @@ public XYFocusNavigationStrategyOverride XYFocusNavigationStrategyOverride { get
 # Windows.UI.Xaml.Input.FindNextElementOptions.XYFocusNavigationStrategyOverride
 
 ## -description
+Gets or sets the navigation strategy used to identify the next element to receive focus.
 
 ## -property-value
+The navigation strategy.
 
 ## -remarks
 

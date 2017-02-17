@@ -10,7 +10,7 @@ public bool ShouldDisplay { get; }
 # Windows.Services.TargetedContent.TargetedContentItemState.ShouldDisplay
 
 ## -description
-
+Gets the boolean for the ShouldDisplay state for an item.
 ## -property-value
 
 ## -remarks

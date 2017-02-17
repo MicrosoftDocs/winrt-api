@@ -10,6 +10,7 @@ public class GettingFocusEventArgs : RoutedEventArgs, RoutedEventArgs
 # Windows.UI.Xaml.Input.GettingFocusEventArgs
 
 ## -description
+Provides data for the [GettingFocus](../windows.ui.xaml/uielement_gettingfocus.md) event.
 
 ## -remarks
 

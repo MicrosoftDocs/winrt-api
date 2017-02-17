@@ -10,8 +10,10 @@ public DependencyObject OldFocusedElement { get; }
 # Windows.UI.Xaml.Input.GettingFocusEventArgs.OldFocusedElement
 
 ## -description
+Gets the last focused object.
 
 ## -property-value
+The last focused object.
 
 ## -remarks
 
