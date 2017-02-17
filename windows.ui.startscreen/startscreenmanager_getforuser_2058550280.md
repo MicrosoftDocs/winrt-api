@@ -10,7 +10,7 @@ public StartScreenManager StartScreenManager.GetForUser(User user)
 # Windows.UI.StartScreen.StartScreenManager.GetForUser
 
 ## -description
-
+Gets the Start screen manager for the specific user.
 ## -parameters
 
 ### -param user
