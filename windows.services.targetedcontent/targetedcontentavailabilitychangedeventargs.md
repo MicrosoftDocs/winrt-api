@@ -10,7 +10,7 @@ public class TargetedContentAvailabilityChangedEventArgs
 # Windows.Services.TargetedContent.TargetedContentAvailabilityChangedEventArgs
 
 ## -description
-Gets the deferral. Required for async handlers. The caller is responsible for calling Complete when the event is handled.
+Represents the arguments for the Availability Changed event.
 ## -remarks
 
 ## -see-also
