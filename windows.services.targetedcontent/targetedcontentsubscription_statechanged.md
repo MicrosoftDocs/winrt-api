@@ -10,7 +10,7 @@ public event TypedEventHandler StateChanged<TargetedContentSubscription, Targete
 # Windows.Services.TargetedContent.TargetedContentSubscription.StateChanged
 
 ## -description
-
+Event invoked when TargetedContentSubscription State has changed.
 ## -remarks
 
 ## -see-also

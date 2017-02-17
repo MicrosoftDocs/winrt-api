@@ -10,18 +10,16 @@ public class Gamepad : Windows.Gaming.Input.IGameController, Windows.Gaming.Inpu
 # Windows.Gaming.Input.Gamepad
 
 ## -description
-Represents a game controller.
+Represents a gamepad.
 
 ## -remarks
-Instances of the [Gamepad](gamepad.md) class cannot be created directly, instead instances of the [Gamepad](gamepad.md) class are retrieved through the [Gamepads](gamepad_gamepads.md) property listing all connected gamepads or through the [GamepadAdded](gamepad_gamepadadded.md) event.
+Instances of the **Gamepad** class cannot be created directly; instead, instances of the **Gamepad** class are retrieved through the [Gamepad.Gamepads](gamepad_gamepads.md) property listing all connected gamepads or through the [Gamepad.GamepadAdded](gamepad_gamepadadded.md) event.
 
-### Supported Device
-s
+### Supported Devices
 
-    **Gamepad**
-   supports any Xbox One certified or Xbox 360 compatible gamepad.
+**Gamepad** supports any Xbox One certified or Xbox 360 compatible gamepad.
 
 ## -examples
 
 ## -see-also
-[IGameController](igamecontroller.md)
+* [Windows.Gaming.Input.IGameController](igamecontroller.md)

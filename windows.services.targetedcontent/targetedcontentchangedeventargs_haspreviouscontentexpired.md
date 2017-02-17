@@ -10,7 +10,7 @@ public bool HasPreviousContentExpired { get; }
 # Windows.Services.TargetedContent.TargetedContentChangedEventArgs.HasPreviousContentExpired
 
 ## -description
-
+Gets a boolean value indicating if the previous content for TargetedContentChangedEventArgs has expired.
 ## -property-value
 
 ## -remarks

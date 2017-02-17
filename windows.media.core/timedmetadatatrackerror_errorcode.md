@@ -16,7 +16,7 @@ Gets the error code associated with the timed metadata track error.
 The error code associated with the timed metadata track error.
 
 ## -remarks
-This value provides high-level information about the error that occurred with the timed metadata track. To get the low-level exception associated with the error, call [TimedMetadataTrackError.Propagate](timedmetadatatrackerror_propagate.md) which will cause the underlying exception to be raised.
+This value provides high-level information about the error that occurred with the timed metadata track.
 
 ## -examples
 

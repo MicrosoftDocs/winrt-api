@@ -6,7 +6,7 @@
 # Windows.ApplicationModel.Payments.Provider
 
 ## -description
-
+This namespace provides API that allow your app to facilitate payment transactions submitted by users.
 
 ## -remarks
 

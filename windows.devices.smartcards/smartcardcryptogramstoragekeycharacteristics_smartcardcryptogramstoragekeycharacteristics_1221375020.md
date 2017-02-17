@@ -10,7 +10,7 @@ public SmartCardCryptogramStorageKeyCharacteristics.SmartCardCryptogramStorageKe
 # Windows.Devices.SmartCards.SmartCardCryptogramStorageKeyCharacteristics.SmartCardCryptogramStorageKeyCharacteristics
 
 ## -description
-
+Creates a new instance of [**SmartCardCryptogramStorageKeyCharacteristics**](../../windows.devices.smartcards/smartcardcryptogramstoragekeycharacteristics.md).
 ## -parameters
 
 ## -remarks

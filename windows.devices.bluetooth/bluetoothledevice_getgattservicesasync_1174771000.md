@@ -10,12 +10,15 @@ public IAsyncOperation<GattDeviceServicesResult> BluetoothLEDevice.GetGattServic
 # Windows.Devices.Bluetooth.BluetoothLEDevice.GetGattServicesAsync
 
 ## -description
+Returns the GattDeviceServices for this Bluetooth LowEnergy device with the specified cache mode.
 
 ## -parameters
 
 ### -param cacheMode
+The cache mode.
 
 ## -returns
+Returns an asynchronous operation that completes with a GattDeviceServicesResult.
 
 ## -remarks
 

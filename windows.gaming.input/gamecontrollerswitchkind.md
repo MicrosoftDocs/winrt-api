@@ -15,17 +15,26 @@ public enum GameControllerSwitchKind : int {
 
 ## -description
 
+The type of switch on the game controller.
+
 ## -enum-fields
 
 ## -field TwoWay:0
 
+A two-way switch, which has **Up**, **Down**, and **Center** positions.
+
 ## -field FourWay:1
 
+A four-way switch, which has **Up**, **Down**, **Left**, **Right**, and **Center** positions.
+
 ## -field EightWay:2
+
+An eight-way switch, which has all positions in the **GameControllerSwitchPosition** enumeration.
 
 ## -remarks
 
 ## -see-also
 
-## -examples
+* [GameControllerSwitchPosition](gamecontrollerswitchposition.md)
 
+## -examples

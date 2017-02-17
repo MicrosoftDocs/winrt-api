@@ -16,7 +16,7 @@ Gets or sets the display name of the enrolled certificate.
 The display name.
 
 ## -remarks
-By default, this value is an empty string.
+By default, this value is an empty string. FriendlyName
 
 ## -examples
 

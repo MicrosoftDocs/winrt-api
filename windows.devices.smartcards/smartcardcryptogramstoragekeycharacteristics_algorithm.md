@@ -10,8 +10,10 @@ public SmartCardCryptogramStorageKeyAlgorithm Algorithm { get; }
 # Windows.Devices.SmartCards.SmartCardCryptogramStorageKeyCharacteristics.Algorithm
 
 ## -description
+Gets the algorithm.
 
 ## -property-value
+The algorithm.
 
 ## -remarks
 

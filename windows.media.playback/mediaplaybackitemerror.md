@@ -13,7 +13,7 @@ public class MediaPlaybackItemError : Windows.Media.Playback.IMediaPlaybackItemE
 Represents an error that occurred trying to resolve a [MediaPlaybackItem](mediaplaybackitem.md).
 
 ## -remarks
-The [ErrorCode](mediaplaybackitemerror_errorcode.md) property provides high-level information about the error that occurred resolving the playback item. The [Propagate](mediaplaybackitemerror_propagate.md) method propagates the underlying exception that caused the error.
+The [ErrorCode](mediaplaybackitemerror_errorcode.md) property provides high-level information about the error that occurred resolving the playback item. The [ExtendedError](mediaplaybackitemerror_extendederror.md) method propagates the underlying exception that caused the error.
 
 ## -examples
 

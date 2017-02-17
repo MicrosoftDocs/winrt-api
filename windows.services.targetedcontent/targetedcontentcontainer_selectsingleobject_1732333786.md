@@ -10,7 +10,7 @@ public TargetedContentObject TargetedContentContainer.SelectSingleObject(String 
 # Windows.Services.TargetedContent.TargetedContentContainer.SelectSingleObject
 
 ## -description
-
+Gets the TargetedContentObject object in the TargetedContentContainer object.
 ## -parameters
 
 ### -param path

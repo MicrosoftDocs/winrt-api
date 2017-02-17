@@ -11,11 +11,16 @@ public IVectorView<ForceFeedbackMotor> ForceFeedbackMotors { get; }
 
 ## -desc
 
+The list of force feedback motors in the raw game controller.
+
 ## -property-value
+
+The list of force feedback motors in the raw game controller.
 
 ## -remarks
 
 ## -see-also
 
-## -examples
+* [Windows.Gaming.Input.ForceFeedback.ForceFeedbackMotor](../windows.gaming.input.forcefeedback/forcefeedbackmotor.md)
 
+## -examples

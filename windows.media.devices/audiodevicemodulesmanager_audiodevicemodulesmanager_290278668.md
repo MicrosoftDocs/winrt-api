@@ -10,12 +10,12 @@ public AudioDeviceModulesManager.AudioDeviceModulesManager(String deviceId)
 # Windows.Media.Devices.AudioDeviceModulesManager.AudioDeviceModulesManager
 
 ## -description
-Gets an instance of the **AudioDeviceManager** class for the specified audio device ID.
+Gets an instance of the **AudioDeviceModulesManager** class for the specified audio device ID.
 
 ## -parameters
 
 ### -param deviceId
-The identifier of the audio device for which the **AudioDeviceManager** is retrieved.
+The identifier of the audio device for which the **AudioDeviceModulesManager** is retrieved.
 
 ## -remarks
 

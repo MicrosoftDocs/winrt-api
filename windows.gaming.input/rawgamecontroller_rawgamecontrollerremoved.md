@@ -11,9 +11,10 @@ static public event EventHandler RawGameControllerRemoved<RawGameController>
 
 ## -description
 
+Signals when a raw game controller is disconnected.
+
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

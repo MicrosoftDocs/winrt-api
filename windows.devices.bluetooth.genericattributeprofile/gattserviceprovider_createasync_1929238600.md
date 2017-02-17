@@ -10,12 +10,15 @@ public IAsyncOperation<GattServiceProviderResult> GattServiceProvider.CreateAsyn
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattServiceProvider.CreateAsync
 
 ## -description
+Creates a new GATT service with the specified serviceUuid
 
 ## -parameters
 
 ### -param serviceUuid
+The service UUID.
 
 ## -returns
+An asynchronous operation that completes with a GattServiceProviderResult object.
 
 ## -remarks
 

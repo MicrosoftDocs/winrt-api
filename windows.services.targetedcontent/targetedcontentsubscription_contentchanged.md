@@ -10,7 +10,7 @@ public event TypedEventHandler ContentChanged<TargetedContentSubscription, Targe
 # Windows.Services.TargetedContent.TargetedContentSubscription.ContentChanged
 
 ## -description
-
+Event invoked when TargetedContentSubscription Content has changed.
 ## -remarks
 
 ## -see-also

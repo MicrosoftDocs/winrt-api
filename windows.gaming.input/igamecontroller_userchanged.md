@@ -17,3 +17,5 @@ Signals when the user associated with the controller has changed.
 ## -examples
 
 ## -see-also
+
+* [Windows.System.UserChangedEventArgs](../windows.system/userchangedeventargs.md)

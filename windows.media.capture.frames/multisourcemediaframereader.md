@@ -10,7 +10,7 @@ public class MultiSourceMediaFrameReader : IClosable
 # Windows.Media.Capture.Frames.MultiSourceMediaFrameReader
 
 ## -description
-Provides access to time-correlated frames from multiple [MediaFrameSource](mediaframesource.md) and notification when new frames arrive. This is useful if you need to process frames from different sources, such as a depth camera and an rbg camera, and you need to make sure that the frames from each source were captured close to each other in time.
+Provides access to time-correlated frames from multiple [MediaFrameSource](mediaframesource.md) and provides notifications when new frames arrive. This is useful if you need to process frames from different sources, such as a depth camera and an rbg camera, and you need to make sure that the frames from each source were captured close to each other in time.
 
 ## -remarks
 Get an instance of this class by calling [CreateMultiSourceFrameReaderAsync](../windows.media.capture/mediacapture_createmultisourceframereaderasync_1316837028.md) on a [MediaCapture](../windows.media.capture/mediacapture.md) object that has been initialized to use the desired media frame source.

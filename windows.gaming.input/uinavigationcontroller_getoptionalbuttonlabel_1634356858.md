@@ -14,7 +14,7 @@ Retrieves a label for an optional UI navigation button.
 
 ## -parameters
 ### -param button
-Enumeration indicating which UI navigation button to retrieve the label for.
+Enumeration indicating the UI navigation button whose label to retrieve.
 
 ## -returns
 The label of the specified button.
@@ -24,3 +24,6 @@ The label of the specified button.
 ## -examples
 
 ## -see-also
+
+* [Windows.Gaming.Input.GameControllerButtonLabel](gamecontrollerbuttonlabel.md)
+* [Windows.Gaming.Input.OptionalUINavigationButtons](optionaluinavigationbuttons.md)

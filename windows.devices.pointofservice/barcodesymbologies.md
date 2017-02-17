@@ -4,7 +4,7 @@
 ---
 
 <!-- Class syntax.
-public class BarcodeSymbologies 
+public class BarcodeSymbologies
 -->
 
 # Windows.Devices.PointOfService.BarcodeSymbologies

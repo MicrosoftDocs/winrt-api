@@ -10,8 +10,10 @@ public IVectorView<SmartCardCryptogramAlgorithm> AllowedAlgorithms { get; }
 # Windows.Devices.SmartCards.SmartCardCryptogramMaterialCharacteristics.AllowedAlgorithms
 
 ## -description
+Gets the allowed algorithms.
 
 ## -property-value
+The allowed algorithms.
 
 ## -remarks
 

@@ -10,6 +10,7 @@ public event Windows.Foundation.TypedEventHandler UserChanged<Windows.Gaming.Inp
 # Windows.Gaming.Input.ArcadeStick.UserChanged
 
 ## -description
+
 Signals when the user associated with the arcade stick has changed.
 
 ## -remarks
@@ -17,3 +18,6 @@ Signals when the user associated with the arcade stick has changed.
 ## -examples
 
 ## -see-also
+
+* [Windows.Gaming.Input.IGameController](igamecontroller.md)
+* [Windows.System.UserChangedEventArgs](../windows.system/userchangedeventargs.md)

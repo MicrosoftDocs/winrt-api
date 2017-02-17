@@ -10,10 +10,12 @@ public void GattWriteRequest.RespondWithProtocolError(Byte protocolError)
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattWriteRequest.RespondWithProtocolError
 
 ## -description
+Responds with a protocol error.
 
 ## -parameters
 
 ### -param protocolError
+The GATT protocol error.
 
 ## -remarks
 

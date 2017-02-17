@@ -10,14 +10,18 @@ public IAsyncOperation<GattLocalDescriptorResult> GattLocalCharacteristic.Create
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattLocalCharacteristic.CreateDescriptorAsync
 
 ## -description
+Creates descriptor for this local characteristic.
 
 ## -parameters
 
 ### -param descriptorUuid
+The descriptor UUID.
 
 ### -param parameters
+The parameters for the descriptor.
 
 ## -returns
+An asynchronous operation that completes with a GattLocalDescriptorResult object.
 
 ## -remarks
 

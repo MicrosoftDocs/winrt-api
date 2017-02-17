@@ -10,6 +10,7 @@ public class GattServiceProviderAdvertisementStatusChangedEventArgs
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattServiceProviderAdvertisementStatusChangedEventArgs
 
 ## -description
+The event args for the [GattServiceProvider](gattserviceprovider_advertisementstatuschanged.md).
 
 ## -remarks
 

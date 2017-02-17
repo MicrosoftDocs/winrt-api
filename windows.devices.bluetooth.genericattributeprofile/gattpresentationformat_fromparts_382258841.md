@@ -10,20 +10,27 @@ public GattPresentationFormat GattPresentationFormat.FromParts(Byte formatType, 
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattPresentationFormat.FromParts
 
 ## -description
+Creates a GattPresentationFormat object from parts.
 
 ## -parameters
 
 ### -param formatType
+The Format Type.
 
 ### -param exponent
+The exponent.
 
 ### -param unit
+The unit.
 
 ### -param namespaceId
+The namespace ID.
 
 ### -param description
+The description.
 
 ## -returns
+An instance of GattPresentationFormat.
 
 ## -remarks
 

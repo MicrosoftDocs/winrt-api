@@ -10,7 +10,7 @@ public class TargetedContentAvailabilityChangedEventArgs
 # Windows.Services.TargetedContent.TargetedContentAvailabilityChangedEventArgs
 
 ## -description
-
+Represents the arguments for the Availability Changed event.
 ## -remarks
 
 ## -see-also

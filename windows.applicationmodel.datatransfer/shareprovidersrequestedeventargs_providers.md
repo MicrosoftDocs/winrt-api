@@ -10,6 +10,7 @@ public IVector<ShareProvider> Providers { get; }
 # Windows.ApplicationModel.DataTransfer.ShareProvidersRequestedEventArgs.Providers
 
 ## -description
+Gets the share providers.
 
 ## -property-value
 

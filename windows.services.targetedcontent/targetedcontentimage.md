@@ -10,7 +10,7 @@ public class TargetedContentImage : IRandomAccessStreamReference
 # Windows.Services.TargetedContent.TargetedContentImage
 
 ## -description
-
+Represents the TargetedContentValue of the TargetedContentValueKind Image.
 ## -remarks
 
 ## -see-also

@@ -10,7 +10,7 @@ public IBuffer NotificationData { get; }
 # Windows.Media.Devices.AudioDeviceModuleNotificationEventArgs.NotificationData
 
 ## -description
-Gets a buffer containing data, defined by the module audio device module developer, that identifies the change that occurred in the module.
+Gets a buffer containing data that identifies the change that occurred in the module. This data is defined by the module developer.
 
 ## -property-value
 

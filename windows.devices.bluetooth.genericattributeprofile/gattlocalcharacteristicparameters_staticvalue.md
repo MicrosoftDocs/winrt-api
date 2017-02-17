@@ -10,8 +10,10 @@ public IBuffer StaticValue { get;  set; }
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattLocalCharacteristicParameters.StaticValue
 
 ## -description
+Gets or sets the static value.
 
 ## -property-value
+The static value.
 
 ## -remarks
 

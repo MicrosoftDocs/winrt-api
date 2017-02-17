@@ -10,11 +10,11 @@ public class UINavigationController : Windows.Gaming.Input.IGameController, Wind
 # Windows.Gaming.Input.UINavigationController
 
 ## -description
-Represents buttons on a controller of any type that can be used for UI navigation. Most Gamepads, ArcadeSticks, and RacingWheels can also be accessed as a UINavigationController. It is recommended that games use the controller specific class during gameplay and the UINavigationController class for UI menus.
+Represents a controller of any type that can be used for UI navigation. Most gamepads, arcade sticks, and racing wheels can also be accessed as a **UINavigationController**. It is recommended that games use the controller-specific class during gameplay and the **UINavigationController** class for UI menus.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
-[IGameController](igamecontroller.md)
+[Windows.Gaming.Input.IGameController](igamecontroller.md)

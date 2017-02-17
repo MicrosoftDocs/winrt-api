@@ -10,8 +10,10 @@ public GattRequestState State { get; }
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattRequestStateChangedEventArgs.State
 
 ## -description
+Gets the state of the read request.
 
 ## -property-value
+The state of the read request.
 
 ## -remarks
 

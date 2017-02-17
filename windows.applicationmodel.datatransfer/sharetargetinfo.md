@@ -10,6 +10,7 @@ public class ShareTargetInfo
 # Windows.ApplicationModel.DataTransfer.ShareTargetInfo
 
 ## -description
+This class contains information about a share target.
 
 ## -remarks
 

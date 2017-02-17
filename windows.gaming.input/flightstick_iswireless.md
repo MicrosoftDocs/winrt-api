@@ -11,11 +11,14 @@ public bool IsWireless { get; }
 
 ## -desc
 
+Gets a value that indicates the wireless state of the flight stick.
+
 ## -property-value
+
+True if the flight stick is wireless. Otherwise, false.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

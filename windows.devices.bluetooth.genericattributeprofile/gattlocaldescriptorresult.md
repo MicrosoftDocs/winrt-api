@@ -10,6 +10,7 @@ public class GattLocalDescriptorResult
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattLocalDescriptorResult
 
 ## -description
+The result of local characteristic descriptor operations like [CreateDescriptorAsync](gattlocalcharacteristic_createdescriptorasync_490182673.md).
 
 ## -remarks
 

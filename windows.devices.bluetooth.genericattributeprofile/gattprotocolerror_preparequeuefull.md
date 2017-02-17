@@ -10,8 +10,10 @@ public byte PrepareQueueFull { get; }
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattProtocolError.PrepareQueueFull
 
 ## -description
+Gets the byte value for a prepare queue full error.
 
 ## -property-value
+The byte value for a prepare queue full error.
 
 ## -remarks
 

@@ -11,11 +11,14 @@ public int AxisCount { get; }
 
 ## -desc
 
+The number of axes on the raw game controller.
+
 ## -property-value
+
+The number of axes on the raw game controller.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

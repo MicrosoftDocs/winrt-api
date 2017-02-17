@@ -10,6 +10,7 @@ public class GattServiceProvider
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattServiceProvider
 
 ## -description
+This class is used to advertise a GATT service.
 
 ## -remarks
 

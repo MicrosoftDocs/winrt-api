@@ -11,7 +11,11 @@ public bool IsConnected { get; }
 
 ## -description
 
+Boolean value indicating whether the controller is connected.
+
 ## -property-value
+
+Boolean value indicating whether the controller is connected.
 
 ## -remarks
 

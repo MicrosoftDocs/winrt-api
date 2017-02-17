@@ -10,6 +10,7 @@ public class ShareProvidersRequestedEventArgs
 # Windows.ApplicationModel.DataTransfer.ShareProvidersRequestedEventArgs
 
 ## -description
+The event args of [ShareProvidersRequested](datatransfermanager_shareprovidersrequested.md).
 
 ## -remarks
 

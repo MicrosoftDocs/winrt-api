@@ -10,7 +10,7 @@ public enum TargetedContentAvailability : int
 # Windows.Services.TargetedContent.TargetedContentAvailability
 
 ## -description
-Provides information on the availability of the content: None, Partial or All.
+Enum that defines all values TargetedContentAvailability can hold: All, Partial or None.
 ## -enum-fields
 ### -field Partial:1
 

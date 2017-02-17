@@ -13,12 +13,15 @@ public struct PointInt32  {
 # Windows.Graphics.PointInt32
 
 ## -description
+Defines a point in a two-dimensional plane.
 
 ## -struct-fields
 
 ### -field X
+The X coordinate value of a point.
 
 ### -field Y
+The Y coordinate value of a point.
 
 ## -remarks
 

@@ -10,8 +10,10 @@ public GattCommunicationStatus Status { get; }
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattDeviceServicesResult.Status
 
 ## -description
+Gets the communication status of the operation.
 
 ## -property-value
+The communication status of the operation.
 
 ## -remarks
 

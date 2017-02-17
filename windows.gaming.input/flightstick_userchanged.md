@@ -11,9 +11,13 @@ public event TypedEventHandler UserChanged<IGameController, UserChangedEventArgs
 
 ## -description
 
+Signals when the user associated with the flight stick has changed.
+
 ## -remarks
 
 ## -see-also
 
-## -examples
+* [Windows.Gaming.Input.IGameController](igamecontroller.md)
+* [Windows.System.UserChangedEventArgs](../windows.system/userchangedeventargs.md)
 
+## -examples

@@ -10,7 +10,7 @@ public TargetedContentAppInstallationState AppInstallationState { get; }
 # Windows.Services.TargetedContent.TargetedContentItemState.AppInstallationState
 
 ## -description
-
+Gets TargetedContentAppInstallationState for the item.
 ## -property-value
 
 ## -remarks

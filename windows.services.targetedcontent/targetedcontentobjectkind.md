@@ -10,7 +10,7 @@ public enum TargetedContentObjectKind : int
 # Windows.Services.TargetedContent.TargetedContentObjectKind
 
 ## -description
-Defines all the type of values TargetedContentObject object can have.
+Enum that defines all the type of values TargetedContentObject object can have.
 ## -enum-fields
 ### -field Value:2
 

@@ -10,16 +10,21 @@ public ShareProvider.ShareProvider(String title, RandomAccessStreamReference dis
 # Windows.ApplicationModel.DataTransfer.ShareProvider.ShareProvider
 
 ## -description
+Creates a new ShareProvider object.
 
 ## -parameters
 
 ### -param title
+The title of the share provider.
 
 ### -param displayIcon
+The display icon of the share provider.
 
 ### -param backgroundColor
+The background color of the share provider.
 
 ### -param handler
+The handler of the share provider.
 
 ## -remarks
 

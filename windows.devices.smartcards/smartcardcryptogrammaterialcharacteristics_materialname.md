@@ -10,8 +10,10 @@ public string MaterialName { get; }
 # Windows.Devices.SmartCards.SmartCardCryptogramMaterialCharacteristics.MaterialName
 
 ## -description
+Gets the material name.
 
 ## -property-value
+The material name.
 
 ## -remarks
 

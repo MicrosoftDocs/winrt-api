@@ -10,7 +10,7 @@ public void OnInputSuspended(System.UInt64 timestamp)
 # Windows.Gaming.Input.Custom.IGameControllerInputSink.OnInputSuspended
 
 ## -description
-Event triggered when input for the controller is suspended.
+Event raised when input for the controller is suspended.
 
 ## -parameters
 ### -param timestamp

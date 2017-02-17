@@ -10,8 +10,10 @@ public IVector<GattPresentationFormat> PresentationFormats { get; }
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattLocalCharacteristicParameters.PresentationFormats
 
 ## -description
+Gets or sets the presentation formats.
 
 ## -property-value
+The presentation formats.
 
 ## -remarks
 

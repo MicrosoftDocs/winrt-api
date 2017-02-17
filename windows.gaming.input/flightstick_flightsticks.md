@@ -11,11 +11,14 @@ public IVectorView<FlightStick> FlightSticks { get; }
 
 ## -desc
 
+The list of all connected flight sticks.
+
 ## -property-value
+
+The list of all connected flight sticks.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

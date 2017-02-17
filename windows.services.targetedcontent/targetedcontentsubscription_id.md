@@ -10,7 +10,7 @@ public string Id { get; }
 # Windows.Services.TargetedContent.TargetedContentSubscription.Id
 
 ## -description
-
+Gets the ID of a Subscription.
 ## -property-value
 
 ## -remarks

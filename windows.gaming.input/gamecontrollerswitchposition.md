@@ -21,29 +21,48 @@ public enum GameControllerSwitchPosition : int {
 
 ## -description
 
+The position of the game controller's switch.
+
 ## -enum-fields
 
 ## -field UpRight:2
 
+The top-right position.
+
 ## -field UpLeft:8
+
+The top-left position.
 
 ## -field Up:1
 
+The top position.
+
 ## -field Right:3
+
+The right position.
 
 ## -field Left:7
 
+The left position.
+
 ## -field DownRight:4
+
+The bottom right position.
 
 ## -field DownLeft:6
 
+The bottom left position.
+
 ## -field Down:5
 
+The bottom position.
+
 ## -field Center:0
+
+The center position.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

@@ -10,8 +10,10 @@ public Guid Uuid { get; }
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattLocalService.Uuid
 
 ## -description
+Gets the local service UUID.
 
 ## -property-value
+The local service UUID.
 
 ## -remarks
 

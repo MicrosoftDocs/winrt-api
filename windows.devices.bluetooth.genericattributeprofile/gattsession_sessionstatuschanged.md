@@ -10,6 +10,7 @@ public event TypedEventHandler SessionStatusChanged<GattSession, GattSessionStat
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattSession.SessionStatusChanged
 
 ## -description
+An event that is triggered when the GATT session status has changed.
 
 ## -remarks
 

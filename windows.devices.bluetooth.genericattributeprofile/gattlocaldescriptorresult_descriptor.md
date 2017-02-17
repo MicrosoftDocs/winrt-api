@@ -10,8 +10,10 @@ public GattLocalDescriptor Descriptor { get; }
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattLocalDescriptorResult.Descriptor
 
 ## -description
+Gets the descriptor.
 
 ## -property-value
+The descriptor.
 
 ## -remarks
 

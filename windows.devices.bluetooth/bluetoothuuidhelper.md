@@ -10,6 +10,7 @@ public class BluetoothUuidHelper
 # Windows.Devices.Bluetooth.BluetoothUuidHelper
 
 ## -description
+A helper class that provides methods to convert between bluetooth device UUID and short ID.
 
 ## -remarks
 

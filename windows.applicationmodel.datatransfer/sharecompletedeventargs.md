@@ -10,7 +10,7 @@ public class ShareCompletedEventArgs
 # Windows.ApplicationModel.DataTransfer.ShareCompletedEventArgs
 
 ## -description
-
+This class contains the event args for [ShareCompleted](datapackage_sharecompleted.md).
 ## -remarks
 
 ## -see-also

@@ -10,8 +10,10 @@ public GattSession Session { get; }
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattReadRequestedEventArgs.Session
 
 ## -description
+Gets the session.
 
 ## -property-value
+The session.
 
 ## -remarks
 

@@ -10,12 +10,15 @@ public IAsyncOperation<GattDeviceServicesResult> GattDeviceService.GetIncludedSe
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattDeviceService.GetIncludedServicesForUuidAsync
 
 ## -description
+Gets the included services from the serviceUuid that is associated with this GattDeviceService instance.
 
 ## -parameters
 
 ### -param serviceUuid
+A 128-bit Bluetooth GATT Service UUID, represented as a standard GUID object.
 
 ## -returns
+An asynchronous operation that completes with a GattDeviceServicesResult object.
 
 ## -remarks
 

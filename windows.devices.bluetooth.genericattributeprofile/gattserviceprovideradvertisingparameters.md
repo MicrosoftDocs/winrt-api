@@ -10,6 +10,7 @@ public class GattServiceProviderAdvertisingParameters
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattServiceProviderAdvertisingParameters
 
 ## -description
+This class is used to define a GATT service advertisement parameters.
 
 ## -remarks
 

@@ -21,12 +21,11 @@ The operation completed successfully.
 ### -field Unreachable:1
 No communication can be performed with the device, at this time.
 
-
 ### -field AccessDenied:3
-
+Access is denied.
 
 ### -field ProtocolError:2
-
+There was a GATT communication protocol error.
 
 ## -remarks
 

@@ -10,7 +10,7 @@ public IAsyncAction TargetedContentAction.InvokeAsync()
 # Windows.Services.TargetedContent.TargetedContentAction.InvokeAsync
 
 ## -description
-
+Invokes the action.
 ## -parameters
 
 ## -returns

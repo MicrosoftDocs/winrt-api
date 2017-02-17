@@ -10,7 +10,7 @@ public IAsyncOperation<IRandomAccessStreamWithContentType> TargetedContentFile.O
 # Windows.Services.TargetedContent.TargetedContentFile.OpenReadAsync
 
 ## -description
-
+Opens a stream for read-only, random access.
 ## -parameters
 
 ## -returns

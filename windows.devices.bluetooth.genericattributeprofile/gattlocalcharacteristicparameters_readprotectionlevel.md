@@ -10,8 +10,10 @@ public GattProtectionLevel ReadProtectionLevel { get;  set; }
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattLocalCharacteristicParameters.ReadProtectionLevel
 
 ## -description
+Gets or sets the read protection level.
 
 ## -property-value
+The read protection level.
 
 ## -remarks
 

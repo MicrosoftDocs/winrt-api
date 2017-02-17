@@ -27,7 +27,7 @@ To get a [StoreContext](storecontext.md) object, use one of these static methods
   Windows.Services.Store.StoreContext context = StoreContext.GetDefault();
   ```
 
-+ [GetForUser](storecontext_getforuser.md). Use this method in multi-user apps. This method gets a [StoreContext](storecontext.md) object that you can use to access and manage Windows Store-related data for a specific user. For more information about multi-user apps, see [Introduction to multi-user applications](https://msdn.microsoft.com/windows/uwp/xbox-apps/multi-user-applications).
++ [GetForUser](storecontext_getforuser.md): Use this method in multi-user apps. This method gets a [StoreContext](storecontext.md) object that you can use to access and manage Windows Store-related data for a specific user. For more information about multi-user apps, see [Introduction to multi-user applications](https://msdn.microsoft.com/windows/uwp/xbox-apps/multi-user-applications).
 
   ```csharp
   var users = await Windows.System.User.FindAllAsync();

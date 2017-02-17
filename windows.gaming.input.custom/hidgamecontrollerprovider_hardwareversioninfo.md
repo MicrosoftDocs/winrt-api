@@ -11,11 +11,17 @@ public GameControllerVersionInfo HardwareVersionInfo { get; }
 
 ## -description
 
+Contains information on the hardware version of the controller.
+
 ## -property-value
+
+Contains information on the hardware version of the controller.
 
 ## -remarks
 
 ## -see-also
+
+* [GameControllerVersionInfo](gamecontrollerversioninfo.md)
 
 ## -examples
 

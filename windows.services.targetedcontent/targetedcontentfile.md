@@ -10,7 +10,7 @@ public class TargetedContentFile : IRandomAccessStreamReference
 # Windows.Services.TargetedContent.TargetedContentFile
 
 ## -description
-
+Represents the TargetedContentValue of the TargetedContentValueKind File.
 ## -remarks
 
 ## -see-also

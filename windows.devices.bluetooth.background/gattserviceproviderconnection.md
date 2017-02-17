@@ -10,6 +10,7 @@ public class GattServiceProviderConnection
 # Windows.Devices.Bluetooth.Background.GattServiceProviderConnection
 
 ## -description
+This class represents a gatt service provider connection.
 
 ## -remarks
 

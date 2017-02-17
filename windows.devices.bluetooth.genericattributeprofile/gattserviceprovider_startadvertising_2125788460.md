@@ -10,10 +10,12 @@ public void GattServiceProvider.StartAdvertising(GattServiceProviderAdvertisingP
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattServiceProvider.StartAdvertising
 
 ## -description
+Start advertising the GATT service.
 
 ## -parameters
 
 ### -param parameters
+The advertising parameters.
 
 ## -remarks
 

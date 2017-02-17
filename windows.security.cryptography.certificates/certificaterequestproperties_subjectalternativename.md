@@ -10,8 +10,10 @@ public SubjectAlternativeNameInfo SubjectAlternativeName { get; }
 # Windows.Security.Cryptography.Certificates.CertificateRequestProperties.SubjectAlternativeName
 
 ## -description
+Gets the subject alternative name.
 
 ## -property-value
+The subject alternative name.
 
 ## -remarks
 

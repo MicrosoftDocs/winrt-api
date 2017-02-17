@@ -10,7 +10,7 @@ public class TargetedContentSubscription
 # Windows.Services.TargetedContent.TargetedContentSubscription
 
 ## -description
-Represents a subscription to a piece of cloud-stored content.
+Represents a Subscription object.
 ## -remarks
 
 ## -see-also

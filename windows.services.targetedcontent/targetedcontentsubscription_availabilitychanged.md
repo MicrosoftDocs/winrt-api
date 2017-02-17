@@ -10,7 +10,7 @@ public event TypedEventHandler AvailabilityChanged<TargetedContentSubscription, 
 # Windows.Services.TargetedContent.TargetedContentSubscription.AvailabilityChanged
 
 ## -description
-
+Event invoked when TargetedContentSubscription Availability has changed.
 ## -remarks
 
 ## -see-also

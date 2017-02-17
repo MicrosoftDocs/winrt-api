@@ -10,8 +10,10 @@ public IReference<byte> ProtocolError { get; }
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattDescriptorsResult.ProtocolError
 
 ## -description
+Gets the GATT protocol error.
 
 ## -property-value
+The GATT protocol error.
 
 ## -remarks
 

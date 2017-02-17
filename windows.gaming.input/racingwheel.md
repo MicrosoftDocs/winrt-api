@@ -13,11 +13,9 @@ public class RacingWheel : Windows.Gaming.Input.IGameController, Windows.Gaming.
 Represents a racing wheel.
 
 ## -remarks
-### Supported Device
-s
+### Supported Devices
 
-    **RacingWheel**
-   supports any Xbox One certified or Xbox 360 compatible racing wheel without force feedback support.
+**RacingWheel** supports any Xbox One-certified or Xbox 360-compatible racing wheel without force feedback support.
 
 Force feedback is supported on the following device models:
 
@@ -38,7 +36,7 @@ Force feedback is supported on the following device models:
    <tr><td /><td>HID-mode for the Xbox One</td></tr>
 </table>
 
-Note that to use the devices listed above you should include a HID capability declaration in your app's appxmanifest:
+Note that to use the devices listed above you should include a HID (Human Interface Device) capability declaration in your app's appxmanifest:
 
 ```xml
 

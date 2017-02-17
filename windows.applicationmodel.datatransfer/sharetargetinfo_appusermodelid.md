@@ -10,8 +10,10 @@ public string AppUserModelId { get; }
 # Windows.ApplicationModel.DataTransfer.ShareTargetInfo.AppUserModelId
 
 ## -description
+Gets the app user model ID.
 
 ## -property-value
+The app user model ID.
 
 ## -remarks
 

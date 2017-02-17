@@ -10,6 +10,7 @@ public GattServiceProviderAdvertisingParameters.GattServiceProviderAdvertisingPa
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattServiceProviderAdvertisingParameters.GattServiceProviderAdvertisingParameters
 
 ## -description
+Creates a new GattServiceProviderAdvertisingParameters object.
 
 ## -parameters
 

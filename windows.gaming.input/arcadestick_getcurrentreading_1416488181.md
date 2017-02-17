@@ -10,13 +10,17 @@ public Windows.Gaming.Input.ArcadeStickReading GetCurrentReading()
 # Windows.Gaming.Input.ArcadeStick.GetCurrentReading
 
 ## -description
-Gets a snapshot of the acrade stick state.
+
+Gets a snapshot of the arcade stick state.
 
 ## -returns
-Returns an [ArcadeStickReading](arcadestickreading.md) containing the current state of the arcade stick.
+
+The current state of the arcade stick.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
+
+* [Windows.Gaming.Input.ArcadeStickReading](arcadestickreading.md)

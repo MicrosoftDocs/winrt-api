@@ -10,7 +10,7 @@ public TargetedContentCollection Content { get; }
 # Windows.Services.TargetedContent.TargetedContentContainer.Content
 
 ## -description
-
+Gets TargetedContentCollection object for a TargetedContentContainer object.
 ## -property-value
 
 ## -remarks
