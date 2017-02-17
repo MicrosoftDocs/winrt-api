@@ -10,7 +10,7 @@ public string Id { get; }
 # Windows.Services.TargetedContent.TargetedContentContainer.Id
 
 ## -description
-
+Gets Id for TargetedContainerContainer object.
 ## -property-value
 
 ## -remarks
