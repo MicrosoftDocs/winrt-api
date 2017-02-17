@@ -10,8 +10,10 @@ public HolographicAdapterId AdapterId { get; }
 # Windows.Graphics.Holographic.HolographicDisplay.AdapterId
 
 ## -description
+Gets the identifier of the graphics adapter to be used when displaying holographic content to this HolographicDisplay.
 
 ## -property-value
+The identifier.
 
 ## -remarks
 
