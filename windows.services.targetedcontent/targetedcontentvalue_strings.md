@@ -10,7 +10,7 @@ public IVectorView<string> Strings { get; }
 # Windows.Services.TargetedContent.TargetedContentValue.Strings
 
 ## -description
-
+Gets an array of strings in a TargetedContentValue object.
 ## -property-value
 
 ## -remarks

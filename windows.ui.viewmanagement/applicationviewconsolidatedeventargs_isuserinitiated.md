@@ -10,12 +10,13 @@ public bool IsUserInitiated { get; }
 # Windows.UI.ViewManagement.ApplicationViewConsolidatedEventArgs.IsUserInitiated
 
 ## -description
-Indicates whether the window consolidation was user- or system-initiated.
+Gets a value that indicates whether the window consolidation was user-initiated.
 
 ## -property-value
-**true** if the window consolidation operation was user-initiated; **false** if it was system-initiated.
+**true** if the window consolidation operation was user-initiated; otherwise, **false**.
 
 ## -remarks
+This property is **true** if the window consolidation was due to the user performing a close gesture. Otherwise, windows consolidation could be system-initiated or app-initiated (by a call to [ApplicationView.TryConsolidateAsync](./applicationview_tryconsolidateasync_451004985.md)).
 
 ## -examples
 

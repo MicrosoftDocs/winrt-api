@@ -10,7 +10,7 @@ public class TargetedContentItemState
 # Windows.Services.TargetedContent.TargetedContentItemState
 
 ## -description
-Represents the state of a content item.
+Represents a state of a TargetedContentItem object: AppInstallationState, ShouldDisplay.
 ## -remarks
 
 ## -see-also

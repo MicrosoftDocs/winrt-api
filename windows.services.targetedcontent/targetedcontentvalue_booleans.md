@@ -10,7 +10,7 @@ public IVectorView<bool> Booleans { get; }
 # Windows.Services.TargetedContent.TargetedContentValue.Booleans
 
 ## -description
-
+Gets an array of Booleans in a TargetedContentValue object.
 ## -property-value
 
 ## -remarks

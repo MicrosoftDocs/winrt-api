@@ -10,8 +10,6 @@ public void XamlLight.RemoveTargetElement(String lightId, UIElement element)
 # Windows.UI.Xaml.Media.XamlLight.RemoveTargetElement
 
 ## -description
-
-## -description
 Removes a UIElement from being a target of a compostion light.
 
 ## -params

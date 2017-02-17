@@ -10,7 +10,6 @@ public bool IsRulerItemVisible { get;  set; }
 # Windows.UI.Xaml.Controls.InkToolbarStencilButton.IsRulerItemVisible
 
 ## -description
-## -description
 Gets or sets whether the built-in ruler stencil button is visible.
 
 ## -property-value

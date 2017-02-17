@@ -10,7 +10,7 @@ public enum TargetedContentValueKind : int
 # Windows.Services.TargetedContent.TargetedContentValueKind
 
 ## -description
-Provides information about the type of data a piece of content can contain.
+Defines all the types of values content within a TargetedContentContainer can have.
 ## -enum-fields
 ### -field Uris:8
 

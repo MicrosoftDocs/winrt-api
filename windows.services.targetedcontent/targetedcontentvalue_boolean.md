@@ -10,7 +10,7 @@ public bool Boolean { get; }
 # Windows.Services.TargetedContent.TargetedContentValue.Boolean
 
 ## -description
-
+Gets a Boolean in a TargetedContentValue object.
 ## -property-value
 
 ## -remarks

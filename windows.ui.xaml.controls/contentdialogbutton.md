@@ -15,6 +15,7 @@ public enum ContentDialogButton : int {
 # Windows.UI.Xaml.Controls.ContentDialogButton
 
 ## -description
+Defines constants that specify the default button on a content dialog.
 
 ## -enum-fields
 

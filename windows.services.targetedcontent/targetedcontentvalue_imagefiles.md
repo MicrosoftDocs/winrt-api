@@ -10,7 +10,7 @@ public IVectorView<TargetedContentImage> ImageFiles { get; }
 # Windows.Services.TargetedContent.TargetedContentValue.ImageFiles
 
 ## -description
-
+Gets an array of TargetedContentImage objects in a TargetedContentValue object.
 ## -property-value
 
 ## -remarks

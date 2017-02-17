@@ -10,6 +10,7 @@ public event TypedEventHandler SessionJoined<AllJoynBusAttachment, AllJoynSessio
 # Windows.Devices.AllJoyn.AllJoynBusAttachment.SessionJoined
 
 ## -description
+Occurs when a remote AllJoyn endpoint joins the session of the bus attachment.
 
 ## -remarks
 
@@ -17,3 +18,5 @@ public event TypedEventHandler SessionJoined<AllJoynBusAttachment, AllJoynSessio
 
 ## -examples
 
+## -capabilities
+allJoyn
