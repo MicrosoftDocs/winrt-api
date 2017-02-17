@@ -10,7 +10,7 @@ public IAsyncOperation<bool> StartScreenManager.ContainsAppListEntryAsync(AppLis
 # Windows.UI.StartScreen.StartScreenManager.ContainsAppListEntryAsync
 
 ## -description
-
+Checks if the app is currently pinned to the Start Screen.
 ## -parameters
 
 ### -param appListEntry
