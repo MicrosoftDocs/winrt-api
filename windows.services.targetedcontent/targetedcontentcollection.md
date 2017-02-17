@@ -10,7 +10,7 @@ public class TargetedContentCollection
 # Windows.Services.TargetedContent.TargetedContentCollection
 
 ## -description
-Represents a collection of content containers.
+Represents a collection of items or subcollections in a TargetedContentContainer object.
 ## -remarks
 
 ## -see-also
