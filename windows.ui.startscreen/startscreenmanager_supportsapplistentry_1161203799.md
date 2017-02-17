@@ -10,7 +10,7 @@ public bool StartScreenManager.SupportsAppListEntry(AppListEntry appListEntry)
 # Windows.UI.StartScreen.StartScreenManager.SupportsAppListEntry
 
 ## -description
-Checks if the app can be pinned to the current Start Screen.
+Checks if the app can be pinned to the current Start screen.
 ## -parameters
 
 ### -param appListEntry
