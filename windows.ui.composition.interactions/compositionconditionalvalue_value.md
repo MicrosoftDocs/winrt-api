@@ -10,8 +10,10 @@ public ExpressionAnimation Value { get;  set; }
 # Windows.UI.Composition.Interactions.CompositionConditionalValue.Value
 
 ## -description
+The value of the conditional.
 
 ## -property-value
+The value of the conditional.
 
 ## -remarks
 

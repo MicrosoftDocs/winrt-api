@@ -10,8 +10,10 @@ public AnimationDelayBehavior DelayBehavior { get;  set; }
 # Windows.UI.Composition.KeyFrameAnimation.DelayBehavior
 
 ## -description
+The delay behavior of the key frame animation.
 
 ## -property-value
+The delay behavior of the key frame animation.
 
 ## -remarks
 

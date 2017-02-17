@@ -10,6 +10,7 @@ public void InteractionTracker.ConfigureCenterPointYInertiaModifiers(IIterable<C
 # Windows.UI.Composition.Interactions.InteractionTracker.ConfigureCenterPointYInertiaModifiers
 
 ## -description
+Configures centerpoint inertia modifiers for the Y direction.
 
 ## -parameters
 

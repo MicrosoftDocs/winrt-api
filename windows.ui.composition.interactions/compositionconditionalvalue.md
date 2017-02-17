@@ -10,6 +10,7 @@ public class CompositionConditionalValue : CompositionObject, CompositionObject
 # Windows.UI.Composition.Interactions.CompositionConditionalValue
 
 ## -description
+Describes a conditional value.
 
 ## -remarks
 

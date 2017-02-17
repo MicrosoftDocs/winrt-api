@@ -10,6 +10,7 @@ public void VisualInteractionSource.ConfigureDeltaPositionXModifiers(IIterable<C
 # Windows.UI.Composition.Interactions.VisualInteractionSource.ConfigureDeltaPositionXModifiers
 
 ## -description
+Configures position modifiers for the X direction.
 
 ## -parameters
 

@@ -10,6 +10,7 @@ public class CompositionVirtualDrawingSurface : CompositionDrawingSurface, Compo
 # Windows.UI.Composition.CompositionVirtualDrawingSurface
 
 ## -description
+Represents a virtual drawing surface.
 
 ## -remarks
 

@@ -10,14 +10,18 @@ public void CompositionDrawingSurface.ScrollWithClip(PointInt32 offset, RectInt3
 # Windows.UI.Composition.CompositionDrawingSurface.ScrollWithClip
 
 ## -description
+Scrolls the drawing surface with the specified clip rectangle.
 
 ## -parameters
 
 ### -param offset
+The scrolling offset.
 
 ### -param clipRect
+The clipping rectangle to apply.
 
 ### -param scrollRect
+The scrolling rectangle.
 
 ## -remarks
 

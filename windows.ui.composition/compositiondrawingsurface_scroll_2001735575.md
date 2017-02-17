@@ -10,12 +10,15 @@ public void CompositionDrawingSurface.Scroll(PointInt32 offset, RectInt32 scroll
 # Windows.UI.Composition.CompositionDrawingSurface.Scroll
 
 ## -description
+Scrolls the drawing surface.
 
 ## -parameters
 
 ### -param offset
+The scrolling offset.
 
 ### -param scrollRect
+The scrolling rectangle.
 
 ## -remarks
 

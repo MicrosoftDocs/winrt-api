@@ -10,16 +10,21 @@ public CompositionVirtualDrawingSurface CompositionGraphicsDevice.CreateVirtualD
 # Windows.UI.Composition.CompositionGraphicsDevice.CreateVirtualDrawingSurface
 
 ## -description
+Creates an instance of CompositionVirtualDrawingSurface.
 
 ## -parameters
 
 ### -param sizePixels
+The size in pixels of the drawing surface.
 
 ### -param pixelFormat
+The pixel format of the drawing surface.
 
 ### -param alphaMode
+The alpha mode of the drawing surface.
 
 ## -returns
+Returns the created CompositionVirtualDrawingSurface.
 
 ## -remarks
 

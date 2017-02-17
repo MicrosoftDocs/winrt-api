@@ -10,8 +10,10 @@ public float Scale { get; }
 # Windows.UI.Composition.Interactions.VisualInteractionSource.Scale
 
 ## -description
+The scale of the interaction source.
 
 ## -property-value
+The scale of the interaction source.
 
 ## -remarks
 

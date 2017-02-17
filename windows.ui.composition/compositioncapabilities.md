@@ -10,6 +10,7 @@ public class CompositionCapabilities
 # Windows.UI.Composition.CompositionCapabilities
 
 ## -description
+Describes supported composition capabilities.
 
 ## -remarks
 

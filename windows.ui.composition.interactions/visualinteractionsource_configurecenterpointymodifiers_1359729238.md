@@ -10,6 +10,7 @@ public void VisualInteractionSource.ConfigureCenterPointYModifiers(IIterable<Com
 # Windows.UI.Composition.Interactions.VisualInteractionSource.ConfigureCenterPointYModifiers
 
 ## -description
+Configures centerpoint modifiers for the Y direction.
 
 ## -parameters
 

@@ -10,6 +10,7 @@ public void VisualInteractionSource.ConfigureDeltaPositionYModifiers(IIterable<C
 # Windows.UI.Composition.Interactions.VisualInteractionSource.ConfigureDeltaPositionYModifiers
 
 ## -description
+Configures modifiers for the Y direction.
 
 ## -parameters
 

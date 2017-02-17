@@ -10,16 +10,21 @@ public CompositionDrawingSurface CompositionGraphicsDevice.CreateDrawingSurface2
 # Windows.UI.Composition.CompositionGraphicsDevice.CreateDrawingSurface2
 
 ## -description
+Creates an instance of CompositionDrawingSurface.
 
 ## -parameters
 
 ### -param sizePixels
+The size of the drawing surface in pixels.
 
 ### -param pixelFormat
+The pixel format of the drawing surface.
 
 ### -param alphaMode
+The alpha mode of the drawing surface.
 
 ## -returns
+Returns the created CompositionDrawingSurface.
 
 ## -remarks
 
