@@ -10,7 +10,7 @@ public void TargetedContentCollection.ReportInteraction(TargetedContentInteracti
 # Windows.Services.TargetedContent.TargetedContentCollection.ReportInteraction
 
 ## -description
-
+Reports interaction for a TargetedContentCollection object.
 ## -parameters
 
 ### -param interaction
