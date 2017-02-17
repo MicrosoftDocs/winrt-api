@@ -10,8 +10,10 @@ public SpatialCoordinateSystem CoordinateSystem { get; }
 # Windows.Perception.Spatial.SpatialStageFrameOfReference.CoordinateSystem
 
 ## -description
+Gets a floor-level coordinate system located at the stage origin defined by the user.
 
 ## -property-value
+The coordinate system.
 
 ## -remarks
 
