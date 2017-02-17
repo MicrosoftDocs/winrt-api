@@ -11,35 +11,39 @@ public ArcadeStick ArcadeStick.FromGameController(IGameController gameController
 
 ## -description
 
-Returns the given game controller as an [ArcadeStick](arcadestick.md) object.
+Returns the given game controller as an arcade stick.
 
 ## -params
 
 ## -param gameController
 
-The game controller to be converted to an ArcadeStick.
+The game controller to be converted to an arcade stick.
 
 ## -returns
 
-The ArcadeStick that was converted from the given game controller.
+The arcade stick that was converted from the given game controller.
 
 ## -remarks
 
 ## -see-also
 
-* [ArcadeStick](arcadestick.md)
-* [IGameController](igamecontroller.md)
+* [Windows.Gaming.Input.IGameController](igamecontroller.md)
 
 ## -examples
 
-In the following example, the app gets the first available [RawGameController](rawgamecontroller.md) object, and tries to access this game controller via the `ArcadeStick` class.
+<!--In the following example, the app gets the first available [RawGameController](rawgamecontroller.md) object, and tries to access this game controller via the `ArcadeStick` class.
 
 ```csharp
-RawGameController rawGameController = RawGameController.RawGameControllers[0];
-ArcadeStick arcadeStick = ArcadeStick.FromGameController(rawGameController);
+ArcadeStick arcadeStick = null;
+
+if (RawGameController.RawGameControllers.Count > 0)
+{
+    RawGameController rawGameController = RawGameController.RawGameControllers[0];
+    arcadeStick = ArcadeStick.FromGameController(rawGameController);
+}
 
 if (arcadeStick != null) 
 {
     // Assign a standard button mapping to this controller.
 }
-```
+```-->

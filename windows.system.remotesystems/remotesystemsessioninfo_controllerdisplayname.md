@@ -10,8 +10,10 @@ public string ControllerDisplayName { get; }
 # Windows.System.RemoteSystems.RemoteSystemSessionInfo.ControllerDisplayName
 
 ## -description
+Gets the machine name of the device that is the controller of the remote session.
 
 ## -property-value
+The machine name of the controller device.
 
 ## -remarks
 

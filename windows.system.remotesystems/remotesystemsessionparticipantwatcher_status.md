@@ -10,8 +10,10 @@ public RemoteSystemSessionParticipantWatcherStatus Status { get; }
 # Windows.System.RemoteSystems.RemoteSystemSessionParticipantWatcher.Status
 
 ## -description
+Gets the operational status of this participant watcher.
 
 ## -property-value
+A [**RemoteSystemSessionParticipantWatcherStatus**](RemoteSystemSessionParticipantWatcherStatus.md) value describing the status of the watcher.
 
 ## -remarks
 

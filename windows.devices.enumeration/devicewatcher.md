@@ -17,7 +17,7 @@ An app calls [Start](devicewatcher_start.md) to begin the search for devices. Du
 
 The following diagram shows how the [DeviceWatcher](devicewatcher.md) transitions between the states represented by [DeviceWatcherStatus](devicewatcherstatus.md) enumeration.
 
-<img src="images/statediagram.png" alt="state diagram of DeviceWatcher states"><?xm-replace_text {rem}?></img>
+<img src="images/statediagram.png" alt="state diagram of DeviceWatcher states"></img>
 
 The [Start](devicewatcher_start.md) method can only be called when the [DeviceWatcher](devicewatcher.md) is in the **Created**, **Stopped** or **Aborted** state. The [Status](devicewatcher_status.md) property indicates the [DeviceWatcher](devicewatcher.md) state. When re-starting the watcher, wait for the [Stopped](devicewatcher_stopped.md) event before calling [Start](devicewatcher_start.md).
 

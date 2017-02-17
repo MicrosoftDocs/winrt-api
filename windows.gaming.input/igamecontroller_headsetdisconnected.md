@@ -17,3 +17,5 @@ Signals when a headset is disconnected from the controller.
 ## -examples
 
 ## -see-also
+
+* [Windows.Gaming.Input.Headset](headset.md)

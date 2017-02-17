@@ -20,3 +20,5 @@ The audio headset attached to the controller.
 ## -examples
 
 ## -see-also
+
+* [Windows.Gaming.Input.Headset](headset.md)

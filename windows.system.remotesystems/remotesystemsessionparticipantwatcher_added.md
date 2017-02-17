@@ -10,6 +10,7 @@ public event TypedEventHandler Added<RemoteSystemSessionParticipantWatcher, Remo
 # Windows.System.RemoteSystems.RemoteSystemSessionParticipantWatcher.Added
 
 ## -description
+Raised when a new participant has been added to the remote session.
 
 ## -remarks
 

@@ -11,15 +11,22 @@ public RacingWheel RacingWheel.FromGameController(IGameController gameController
 
 ## -description
 
+Returns the given game controller as a racing wheel.
+
 ## -params
 
 ## -param gameController
 
+The game controller to be converted to a racing wheel.
+
 ## -returns
+
+The racing wheel that was converted from the given game controller.
 
 ## -remarks
 
 ## -see-also
 
-## -examples
+* [Windows.Gaming.Input.IGameController](igamecontroller.md)
 
+## -examples

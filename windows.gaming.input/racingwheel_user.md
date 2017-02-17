@@ -20,3 +20,5 @@ The user associated with the racing wheel.
 ## -examples
 
 ## -see-also
+
+* [Windows.System.User](../windows.system/user.md)

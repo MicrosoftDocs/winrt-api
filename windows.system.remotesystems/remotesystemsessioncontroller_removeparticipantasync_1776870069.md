@@ -10,12 +10,15 @@ public IAsyncOperation<bool> RemoteSystemSessionController.RemoveParticipantAsyn
 # Windows.System.RemoteSystems.RemoteSystemSessionController.RemoveParticipantAsync
 
 ## -description
+Removes a participant from the remote session.
 
 ## -parameters
 
 ### -param pParticipant
+A [**RemoteSystemSessionParticipant**](RemoteSystemSessionParticipant.md) object corresponding to the participant being removed.
 
 ## -returns
+An asynchronous operation containing a boolean value: **true** if the removal operation was a success, otherwise **false**.
 
 ## -remarks
 

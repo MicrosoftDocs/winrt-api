@@ -10,10 +10,12 @@ static public event Windows.Foundation.EventHandler ArcadeStickAdded<Windows.Gam
 # Windows.Gaming.Input.ArcadeStick.ArcadeStickAdded
 
 ## -description
+
 Signals when a new arcade stick is connected.
 
 ## -remarks
-To identify controllers that have allready been added, you query the list of conected controllers using [ArcadeStick.ArcadeSticks](arcadestick_arcadesticks.md).
+
+To identify controllers that have already been added, you query the list of connected controllers using [ArcadeStick.ArcadeSticks](arcadestick_arcadesticks.md).
 
 ## -examples
 

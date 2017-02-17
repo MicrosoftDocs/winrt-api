@@ -16,7 +16,7 @@ Gets the maximum time window time window within which the user can seek within t
 The maximum time window time window within which the user can seek within the streaming media. 
 
 ## -remarks
-This time window is calculated by taking the total duration of media that has been downloaded and subtracting the value of the [DesiredLiveOffset](adaptivemediasource_desiredliveoffset.md) property.
+This time window is calculated by taking the total duration of media that has been downloaded and subtracting the value of the [DesiredLiveOffset](adaptivemediasource_desiredliveoffset.md) property. This value is specified by the media content.
 
 ## -see-also
 

@@ -14,7 +14,6 @@ Identifies the local device (system) on which the user account in question exist
 
 ## -remarks
 
-
 ## -examples
 
 ## -see-also

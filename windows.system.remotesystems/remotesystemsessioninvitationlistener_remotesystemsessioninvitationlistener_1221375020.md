@@ -10,6 +10,7 @@ public RemoteSystemSessionInvitationListener.RemoteSystemSessionInvitationListen
 # Windows.System.RemoteSystems.RemoteSystemSessionInvitationListener.RemoteSystemSessionInvitationListener
 
 ## -description
+Initializes an instance of [**RemoteSystemSessionInvitationListener**](RemoteSystemSessionInvitationListener.md).
 
 ## -remarks
 

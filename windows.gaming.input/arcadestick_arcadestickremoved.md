@@ -10,6 +10,7 @@ static public event Windows.Foundation.EventHandler ArcadeStickRemoved<Windows.G
 # Windows.Gaming.Input.ArcadeStick.ArcadeStickRemoved
 
 ## -description
+
 Signals when an arcade stick is disconnected.
 
 ## -remarks

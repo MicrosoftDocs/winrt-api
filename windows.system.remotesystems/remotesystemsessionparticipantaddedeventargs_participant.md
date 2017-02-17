@@ -10,8 +10,10 @@ public RemoteSystemSessionParticipant Participant { get; }
 # Windows.System.RemoteSystems.RemoteSystemSessionParticipantAddedEventArgs.Participant
 
 ## -description
+Gets the participant that was added to the remote session.
 
 ## -property-value
+A [**RemoteSystemSessionParticipant**](RemoteSystemSessionParticipant.md) object corresponding to the participant added.
 
 ## -remarks
 

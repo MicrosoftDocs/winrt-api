@@ -11,11 +11,16 @@ public Headset Headset { get; }
 
 ## -desc
 
+The audio headset attached to the raw game controller.
+
 ## -property-value
+
+The audio headset attached to the raw game controller.
 
 ## -remarks
 
 ## -see-also
 
-## -examples
+* [Windows.Gaming.Input.Headset](headset.md)
 
+## -examples

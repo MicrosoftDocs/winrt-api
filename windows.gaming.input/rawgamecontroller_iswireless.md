@@ -11,11 +11,14 @@ public bool IsWireless { get; }
 
 ## -desc
 
+Gets a value that indicates the wireless state of the raw game controller.
+
 ## -property-value
+
+True if the raw game controller is wireless. Otherwise, false.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

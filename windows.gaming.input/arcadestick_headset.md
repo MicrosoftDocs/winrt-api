@@ -10,9 +10,11 @@ public Windows.Gaming.Input.Headset Headset { get; }
 # Windows.Gaming.Input.ArcadeStick.Headset
 
 ## -description
+
 The audio headset attached to the arcade stick.
 
 ## -property-value
+
 The audio headset attached to the arcade stick.
 
 ## -remarks
@@ -20,3 +22,5 @@ The audio headset attached to the arcade stick.
 ## -examples
 
 ## -see-also
+
+* [Windows.Gaming.Input.Headset](headset.md)

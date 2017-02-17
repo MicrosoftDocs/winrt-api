@@ -84,7 +84,7 @@ Button 16.
 
 
 ## -remarks
-The assignment of buttons to the Button# values may change from controller to controller. They are intended to be used via a button mapping UI to assign functionality based on the user’s choices.
+The assignment of buttons to the **Button#** values may change from controller to controller. They are intended to be used via a button mapping UI to assign functionality based on the user’s choices.
 
 ## -examples
 

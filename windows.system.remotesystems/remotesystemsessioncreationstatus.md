@@ -10,13 +10,17 @@ public enum RemoteSystemSessionCreationStatus : int
 # Windows.System.RemoteSystems.RemoteSystemSessionCreationStatus
 
 ## -description
+Describes the status of an attempt to create a remote session.
 
 ## -enum-fields
 ### -field Success:0
+The remote session was created successfully.
 
 ### -field SessionLimitsExceeded:1
+The remote session was not created because this device is already managing the maximum number of sessions allowed.
 
 ### -field OperationAborted:2
+The creation attempt failed for an unknown reason.
 
 ## -remarks
 

@@ -11,9 +11,13 @@ public event TypedEventHandler HeadsetConnected<IGameController, Headset>
 
 ## -description
 
+Signals when a headset is attached to the raw game controller.
+
 ## -remarks
 
 ## -see-also
 
-## -examples
+* [Windows.Gaming.Input.IGameController](igamecontroller.md)
+* [Windows.Gaming.Input.Headset](headset.md)
 
+## -examples

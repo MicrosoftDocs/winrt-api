@@ -10,6 +10,7 @@ public void RemoteSystemSessionWatcher.Stop()
 # Windows.System.RemoteSystems.RemoteSystemSessionWatcher.Stop
 
 ## -description
+Stops watching for discoverable remote sessions.
 
 ## -remarks
 

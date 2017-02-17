@@ -11,11 +11,16 @@ public User User { get; }
 
 ## -desc
 
+The user associated with the flight stick.
+
 ## -property-value
+
+The user associated with the flight stick.
 
 ## -remarks
 
 ## -see-also
 
-## -examples
+[Windows.System.User](../windows.system/user.md)
 
+## -examples

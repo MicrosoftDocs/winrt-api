@@ -11,15 +11,22 @@ public RawGameController RawGameController.FromGameController(IGameController ga
 
 ## -description
 
+Returns the given game controller as a raw game controller.
+
 ## -params
 
 ## -param gameController
 
+The game controller to be converted to a raw game controller.
+
 ## -returns
+
+The raw game controller that was converted from the given game controller.
 
 ## -remarks
 
 ## -see-also
 
-## -examples
+* [Windows.Gaming.Input.IGameController](igamecontroller.md)
 
+## -examples

@@ -10,16 +10,16 @@ public struct GamepadReading
 # GamepadReading
 
 ## -description
-Represents the current state of the controller.
+Represents the current state of the gamepad.
 
 ## -struct-fields
 
 ### -field Timestamp
-Time when the state was retrieved from the controller.
+Time when the state was retrieved from the gamepad.
     
 
 ### -field Buttons
-The state of the controller buttons.
+The state of the gamepad's buttons.
     
 
 ### -field LeftTrigger

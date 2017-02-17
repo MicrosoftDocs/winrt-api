@@ -13,7 +13,7 @@ static public event Windows.Foundation.EventHandler RacingWheelAdded<Windows.Gam
 Signals when a new racing wheel is connected.
 
 ## -remarks
-To identify controllers that have allready been added, you query the list of conected controllers using [RacingWheel.RacingWheels](racingwheel_racingwheels.md).
+To identify racing wheels that have already been added, you query the list of connected racing wheels using [RacingWheel.RacingWheels](racingwheel_racingwheels.md).
 
 ## -examples
 

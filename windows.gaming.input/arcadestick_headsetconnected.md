@@ -10,6 +10,7 @@ public event Windows.Foundation.TypedEventHandler HeadsetConnected<Windows.Gamin
 # Windows.Gaming.Input.ArcadeStick.HeadsetConnected
 
 ## -description
+
 Signals when a headset is attached to the arcade stick.
 
 ## -remarks
@@ -17,3 +18,6 @@ Signals when a headset is attached to the arcade stick.
 ## -examples
 
 ## -see-also
+
+* [Windows.Gaming.Input.IGameController](igamecontroller.md)
+* [Windows.Gaming.Input.Headset](headset.md)

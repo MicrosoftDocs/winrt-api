@@ -11,11 +11,14 @@ public int ButtonCount { get; }
 
 ## -desc
 
+The number of buttons on the raw game controller.
+
 ## -property-value
+
+The number of buttons on the raw game controller.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

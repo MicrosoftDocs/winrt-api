@@ -10,8 +10,10 @@ public IAsyncOperation<RemoteSystemSessionCreationResult> RemoteSystemSessionCon
 # Windows.System.RemoteSystems.RemoteSystemSessionController.CreateSessionAsync
 
 ## -description
+Asynchronously attempts to create a remote session.
 
 ## -returns
+An asynchronous operation with a [**RemoteSystemSessionCreationResult**](RemoteSystemSessionCreationResult.md) object describing the result.
 
 ## -remarks
 

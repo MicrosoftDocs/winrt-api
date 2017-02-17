@@ -20,6 +20,9 @@ No reason is specified or no audio degradation has been applied to the track.
 The audio track was degraded due to a licensing requirement.
 
 
+### -field SpatialAudioNotSupported:2
+
+
 ## -remarks
 Get the **AudioDecoderDegradation** value for an audio track by checking the [DegradationReason](audiotracksupportinfo_degradationreason.md) property of the track's [SupportInfo](audiotrack_supportinfo.md) property.
 

@@ -13,10 +13,12 @@ public Windows.Gaming.Input.GamepadReading GetCurrentReading()
 Gets a snapshot of the gamepad state.
 
 ## -returns
-Returns a [GamepadReading](gamepadreading.md) containing the current state of the gamepad.
+The current state of the gamepad.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
+
+* [Windows.Gaming.Input.GamepadReading](gamepadreading.md)

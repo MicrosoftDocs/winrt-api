@@ -10,6 +10,7 @@ public void RemoteSystemSessionParticipantWatcher.Stop()
 # Windows.System.RemoteSystems.RemoteSystemSessionParticipantWatcher.Stop
 
 ## -description
+Stops watching for discoverable session participants.
 
 ## -remarks
 

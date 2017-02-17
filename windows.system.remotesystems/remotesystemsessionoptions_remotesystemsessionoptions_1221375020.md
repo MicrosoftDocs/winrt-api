@@ -10,6 +10,7 @@ public RemoteSystemSessionOptions.RemoteSystemSessionOptions()
 # Windows.System.RemoteSystems.RemoteSystemSessionOptions.RemoteSystemSessionOptions
 
 ## -description
+Initializes an instance of the [**RemoteSystemSessionOptions**](RemoteSystemSessionOptions.md) class.
 
 ## -remarks
 

@@ -10,11 +10,11 @@ public Windows.Foundation.IAsyncOperation<Windows.Devices.AllJoyn.AllJoynService
 # Windows.Devices.AllJoyn.AllJoynServiceInfo.FromIdAsync
 
 ## -description
-TBD
+Converts a [DeviceInformation ID](https://docs.microsoft.com/uwp/api/Windows.Devices.Enumeration.DeviceInformation#Windows_Devices_Enumeration_DeviceInformation_Id) acquired by a device enumeration into an [AllJoynServiceInfo](alljoynserviceinfo.md) object that can be used to establish sessions with, and retrieve About data from, remote endpoints.
 
 ## -parameters
 ### -param deviceId
-
+The acquired [DeviceInformation ID](https://docs.microsoft.com/uwp/api/Windows.Devices.Enumeration.DeviceInformation#Windows_Devices_Enumeration_DeviceInformation_Id).
 
 ## -returns
 
@@ -24,3 +24,7 @@ TBD
 ## -examples
 
 ## -see-also
+
+
+## -capabilities
+allJoyn
