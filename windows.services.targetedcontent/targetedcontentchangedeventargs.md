@@ -10,7 +10,7 @@ public class TargetedContentChangedEventArgs
 # Windows.Services.TargetedContent.TargetedContentChangedEventArgs
 
 ## -description
-
+Represents the arguments for the Content Changed event.
 ## -remarks
 
 ## -see-also
