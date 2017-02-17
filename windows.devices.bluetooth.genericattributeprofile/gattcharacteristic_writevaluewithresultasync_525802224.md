@@ -10,12 +10,14 @@ public IAsyncOperation<GattWriteResult> GattCharacteristic.WriteValueWithResultA
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristic.WriteValueWithResultAsync
 
 ## -description
+Performs a Characteristic Value write to a Bluetooth LE device.
 
 ## -parameters
-
 ### -param value
+A Windows.Storage.Streams.IBuffer object which contains the data to be written to the Bluetooth LE device.
 
 ## -returns
+An asynchronous operation that completes with a GattWriteResult object.
 
 ## -remarks
 

@@ -10,8 +10,10 @@ public IVectorView<SmartCardCryptogramMaterialPackageConfirmationResponseFormat>
 # Windows.Devices.SmartCards.SmartCardCryptogramMaterialCharacteristics.AllowedProofOfPossessionAlgorithms
 
 ## -description
+Gets the allowed proof of allowed proof of possession algorithms.
 
 ## -property-value
+The allowed proof of allowed proof of possession algorithms.
 
 ## -remarks
 

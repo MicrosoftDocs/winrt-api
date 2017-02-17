@@ -10,6 +10,7 @@ public class CertificateExtension
 # Windows.Security.Cryptography.Certificates.CertificateExtension
 
 ## -description
+Represents a certificate extension.
 
 ## -remarks
 

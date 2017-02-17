@@ -10,6 +10,7 @@ public class GattReadRequest
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattReadRequest
 
 ## -description
+This class represents a Bluetooth GATT read request.
 
 ## -remarks
 

@@ -10,6 +10,7 @@ public class BluetoothDeviceId
 # Windows.Devices.Bluetooth.BluetoothDeviceId
 
 ## -description
+Represents a bluetooth device ID.
 
 ## -remarks
 

@@ -10,8 +10,10 @@ public IVectorView<GattLocalCharacteristic> Characteristics { get; }
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattLocalService.Characteristics
 
 ## -description
+Gets a vector list of the characteristics available for this local service.
 
 ## -property-value
+A vector list of the characteristics available for this local service.
 
 ## -remarks
 

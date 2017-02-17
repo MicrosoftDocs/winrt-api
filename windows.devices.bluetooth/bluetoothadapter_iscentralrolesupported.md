@@ -10,8 +10,10 @@ public bool IsCentralRoleSupported { get; }
 # Windows.Devices.Bluetooth.BluetoothAdapter.IsCentralRoleSupported
 
 ## -description
+Gets a boolean indicating if the adapater supports LowEnergy central role.
 
 ## -property-value
+Gets a boolean indicating if the adapater supports LowEnergy central role.
 
 ## -remarks
 

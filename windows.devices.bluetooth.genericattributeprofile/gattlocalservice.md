@@ -10,6 +10,7 @@ public class GattLocalService
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattLocalService
 
 ## -description
+This class represents a GATT local service.
 
 ## -remarks
 

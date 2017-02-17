@@ -10,8 +10,10 @@ public GattServiceProvider ServiceProvider { get; }
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattServiceProviderResult.ServiceProvider
 
 ## -description
+Gets the service provider.
 
 ## -property-value
+The service provider.
 
 ## -remarks
 

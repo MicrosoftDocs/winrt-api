@@ -10,12 +10,18 @@ public string DeviceId { get; }
 # Windows.Devices.Bluetooth.BluetoothAdapter.DeviceId
 
 ## -description
+Gets the device ID.
 
 ## -property-value
+The ID of the device.
 
 ## -remarks
 
+## -examples
+
 ## -see-also
 
-## -examples
+
+## -capabilities
+bluetooth
 

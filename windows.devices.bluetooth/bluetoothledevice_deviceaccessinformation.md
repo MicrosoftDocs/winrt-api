@@ -10,8 +10,10 @@ public DeviceAccessInformation DeviceAccessInformation { get; }
 # Windows.Devices.Bluetooth.BluetoothLEDevice.DeviceAccessInformation
 
 ## -description
+Gets the DeviceAccessInformation.
 
 ## -property-value
+Gets the DeviceAccessInformation.
 
 ## -remarks
 

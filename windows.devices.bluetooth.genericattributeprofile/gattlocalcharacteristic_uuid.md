@@ -10,8 +10,10 @@ public Guid Uuid { get; }
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattLocalCharacteristic.Uuid
 
 ## -description
+Gets the BluetoothSIG-defined UUID for this local characteristic.
 
 ## -property-value
+The BluetoothSIG-defined UUID for this local characteristic.
 
 ## -remarks
 

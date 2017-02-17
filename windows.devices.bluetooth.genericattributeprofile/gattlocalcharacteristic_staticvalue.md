@@ -10,8 +10,10 @@ public IBuffer StaticValue { get; }
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattLocalCharacteristic.StaticValue
 
 ## -description
+Gets the static value for this local GATT characteristic.
 
 ## -property-value
+The static value for this local GATT characteristic.
 
 ## -remarks
 

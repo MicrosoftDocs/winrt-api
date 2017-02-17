@@ -10,6 +10,7 @@ public class GattWriteRequest
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattWriteRequest
 
 ## -description
+This class represents a GATT write request.
 
 ## -remarks
 

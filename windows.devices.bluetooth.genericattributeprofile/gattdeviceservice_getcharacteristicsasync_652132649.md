@@ -10,10 +10,12 @@ public IAsyncOperation<GattCharacteristicsResult> GattDeviceService.GetCharacter
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattDeviceService.GetCharacteristicsAsync
 
 ## -description
+Gets the characterisitics that are part of this GattDeviceService instance.
 
 ## -parameters
 
 ## -returns
+An asynchronous operation that completes with a GattCharacteristicsResult object.
 
 ## -remarks
 

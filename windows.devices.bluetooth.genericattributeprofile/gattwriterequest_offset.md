@@ -10,8 +10,10 @@ public uint Offset { get; }
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattWriteRequest.Offset
 
 ## -description
+Gets the offset.
 
 ## -property-value
+The offset.
 
 ## -remarks
 

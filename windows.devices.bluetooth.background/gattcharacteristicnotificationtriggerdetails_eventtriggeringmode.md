@@ -10,8 +10,10 @@ public BluetoothEventTriggeringMode EventTriggeringMode { get; }
 # Windows.Devices.Bluetooth.Background.GattCharacteristicNotificationTriggerDetails.EventTriggeringMode
 
 ## -description
+Gets the event trigger mode.
 
 ## -property-value
+Gets the event trigger mode.
 
 ## -remarks
 

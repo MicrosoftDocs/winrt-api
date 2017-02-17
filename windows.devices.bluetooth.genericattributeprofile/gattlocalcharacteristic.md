@@ -10,6 +10,7 @@ public class GattLocalCharacteristic
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattLocalCharacteristic
 
 ## -description
+This class represents a local characteristic.
 
 ## -remarks
 

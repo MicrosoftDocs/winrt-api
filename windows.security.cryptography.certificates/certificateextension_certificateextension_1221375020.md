@@ -10,6 +10,7 @@ public CertificateExtension.CertificateExtension()
 # Windows.Security.Cryptography.Certificates.CertificateExtension.CertificateExtension
 
 ## -description
+Creates a new certificateExtension object.
 
 ## -parameters
 

@@ -10,8 +10,10 @@ public IVector<string> PrincipalNames { get; }
 # Windows.Security.Cryptography.Certificates.SubjectAlternativeNameInfo.PrincipalNames
 
 ## -description
+Gets a vector of principal names.
 
 ## -property-value
+A vector of principal names.
 
 ## -remarks
 

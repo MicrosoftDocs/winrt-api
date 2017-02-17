@@ -10,8 +10,10 @@ public string StorageKeyName { get; }
 # Windows.Devices.SmartCards.SmartCardCryptogramMaterialPackageCharacteristics.StorageKeyName
 
 ## -description
+Gets the storage key name.
 
 ## -property-value
+The storage key name.
 
 ## -remarks
 

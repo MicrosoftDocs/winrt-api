@@ -10,6 +10,7 @@ public event TypedEventHandler WriteRequested<GattLocalDescriptor, GattWriteRequ
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattLocalDescriptor.WriteRequested
 
 ## -description
+An event that is triggered when a write has been requested.
 
 ## -remarks
 

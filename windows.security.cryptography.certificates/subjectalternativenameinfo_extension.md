@@ -10,8 +10,10 @@ public CertificateExtension Extension { get; }
 # Windows.Security.Cryptography.Certificates.SubjectAlternativeNameInfo.Extension
 
 ## -description
+Gets the certificate extension.
 
 ## -property-value
+The certificate extension.
 
 ## -remarks
 

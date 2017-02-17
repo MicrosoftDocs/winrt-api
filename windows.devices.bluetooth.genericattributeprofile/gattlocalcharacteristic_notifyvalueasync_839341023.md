@@ -10,14 +10,18 @@ public IAsyncOperation<GattClientNotificationResult> GattLocalCharacteristic.Not
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattLocalCharacteristic.NotifyValueAsync
 
 ## -description
+Sends and notifies a GattSubscribedClient of a value.
 
 ## -parameters
 
 ### -param value
+The buffer that contains the value to send to the GattSubscribedClient.
 
 ### -param subscribedClient
+The subscribed client notify the value.
 
 ## -returns
+An asynchronous operation that completes with a GattClientNotificationResult object.
 
 ## -remarks
 

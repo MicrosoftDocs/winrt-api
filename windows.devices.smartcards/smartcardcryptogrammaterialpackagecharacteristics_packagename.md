@@ -10,8 +10,10 @@ public string PackageName { get; }
 # Windows.Devices.SmartCards.SmartCardCryptogramMaterialPackageCharacteristics.PackageName
 
 ## -description
+Gets the package name.
 
 ## -property-value
+The package name.
 
 ## -remarks
 

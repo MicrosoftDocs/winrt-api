@@ -10,6 +10,7 @@ public class GattLocalDescriptor
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattLocalDescriptor
 
 ## -description
+This class defines a descriptor of a local characteristic.
 
 ## -remarks
 

@@ -10,8 +10,10 @@ public IVector<string> DistinguishedNames { get; }
 # Windows.Security.Cryptography.Certificates.SubjectAlternativeNameInfo.DistinguishedNames
 
 ## -description
+Gets a vector of distinguished names.
 
 ## -property-value
+A vector of distinguished names.
 
 ## -remarks
 

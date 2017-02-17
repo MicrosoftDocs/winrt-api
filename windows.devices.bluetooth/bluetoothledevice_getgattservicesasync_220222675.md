@@ -10,10 +10,12 @@ public IAsyncOperation<GattDeviceServicesResult> BluetoothLEDevice.GetGattServic
 # Windows.Devices.Bluetooth.BluetoothLEDevice.GetGattServicesAsync
 
 ## -description
+Gets the GattDeviceServices for this Bluetooth LowEnergy device.
 
 ## -parameters
 
 ## -returns
+Returns an asynchronous operation that completes with a GattDeviceServicesResult.
 
 ## -remarks
 

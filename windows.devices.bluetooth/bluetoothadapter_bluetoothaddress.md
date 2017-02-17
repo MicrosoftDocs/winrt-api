@@ -10,8 +10,10 @@ public ulong BluetoothAddress { get; }
 # Windows.Devices.Bluetooth.BluetoothAdapter.BluetoothAddress
 
 ## -description
+Gets the device address.
 
 ## -property-value
+The device address.
 
 ## -remarks
 
@@ -19,3 +21,5 @@ public ulong BluetoothAddress { get; }
 
 ## -examples
 
+## -capabilities
+bluetooth

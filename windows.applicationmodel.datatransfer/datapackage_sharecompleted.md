@@ -10,6 +10,7 @@ public event TypedEventHandler ShareCompleted<DataPackage, ShareCompletedEventAr
 # Windows.ApplicationModel.DataTransfer.DataPackage.ShareCompleted
 
 ## -description
+An event that is triggered when a share is completed. Shares can be sent to an app, a provider, or a contact.
 
 ## -remarks
 

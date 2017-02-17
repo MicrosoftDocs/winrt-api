@@ -10,8 +10,10 @@ public RandomAccessStreamReference DisplayIcon { get; }
 # Windows.ApplicationModel.DataTransfer.ShareProvider.DisplayIcon
 
 ## -description
+Gets the display icon of the share provider.
 
 ## -property-value
+The display icon of the share provider.
 
 ## -remarks
 

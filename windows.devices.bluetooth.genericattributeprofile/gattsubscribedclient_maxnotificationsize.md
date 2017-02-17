@@ -10,8 +10,10 @@ public ushort MaxNotificationSize { get; }
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattSubscribedClient.MaxNotificationSize
 
 ## -description
+Gets the max notification size.
 
 ## -property-value
+The max notification size.
 
 ## -remarks
 

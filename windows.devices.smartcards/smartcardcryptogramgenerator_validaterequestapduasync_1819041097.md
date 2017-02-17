@@ -10,16 +10,21 @@ public IAsyncOperation<SmartCardCryptogramGeneratorOperationStatus> SmartCardCry
 # Windows.Devices.SmartCards.SmartCardCryptogramGenerator.ValidateRequestApduAsync
 
 ## -description
+Validates the APDU request.
 
 ## -parameters
 
 ### -param promptingBehavior
+The prompting behavior.
 
 ### -param apduToValidate
+The APDU to validate.
 
 ### -param cryptogramPlacementSteps
+The cryptogram placement steps.
 
 ## -returns
+Returns an asynchronous operation that completes with the operation status.
 
 ## -remarks
 

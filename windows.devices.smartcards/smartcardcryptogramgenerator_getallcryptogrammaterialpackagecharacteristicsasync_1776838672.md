@@ -10,10 +10,12 @@ public IAsyncOperation<SmartCardCryptogramGetAllCryptogramMaterialPackageCharact
 # Windows.Devices.SmartCards.SmartCardCryptogramGenerator.GetAllCryptogramMaterialPackageCharacteristicsAsync
 
 ## -description
+Gets all cryptogram material package characteristics.
 
 ## -parameters
 
 ## -returns
+Returns an asynchronous operation that completes with the package characteristics result.
 
 ## -remarks
 

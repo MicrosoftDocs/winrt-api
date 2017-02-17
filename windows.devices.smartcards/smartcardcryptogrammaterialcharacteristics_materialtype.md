@@ -10,8 +10,10 @@ public SmartCardCryptogramMaterialType MaterialType { get; }
 # Windows.Devices.SmartCards.SmartCardCryptogramMaterialCharacteristics.MaterialType
 
 ## -description
+Gets the material type.
 
 ## -property-value
+The material type.
 
 ## -remarks
 

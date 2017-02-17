@@ -10,8 +10,10 @@ public ShareProvider ShareProvider { get; }
 # Windows.ApplicationModel.DataTransfer.ShareTargetInfo.ShareProvider
 
 ## -description
+Gets the share provider.
 
 ## -property-value
+The share provider.
 
 ## -remarks
 
