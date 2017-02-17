@@ -10,6 +10,7 @@ public interface IWebAccountProviderTokenObjects2 : IWebAccountProviderTokenObje
 # Windows.Security.Authentication.Web.Provider.IWebAccountProviderTokenObjects2
 
 ## -description
+Defines properties for web account provider token objects.
 
 ## -remarks
 
