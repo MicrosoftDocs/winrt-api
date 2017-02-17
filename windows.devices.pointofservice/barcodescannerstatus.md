@@ -10,7 +10,7 @@ public enum Windows.Devices.PointOfService.BarcodeScannerStatus : int
 # BarcodeScannerStatus
 
 ## -description
-Defines the constants that indicates the barcode scanner status.
+Defines the constants that indicate the barcode scanner status.
 
 ## -enum-fields
 ### -field Online:0

@@ -10,12 +10,13 @@ public LineDisplayCapabilities Capabilities { get; }
 # Windows.Devices.PointOfService.ClaimedLineDisplay.Capabilities
 
 ## -description
+Gets the capabilities of the claimed line display.
 
 ## -property-value
+The capabilities of the line display.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

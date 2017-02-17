@@ -10,16 +10,18 @@ public IAsyncOperation<BarcodeSymbologyAttributes> ClaimedBarcodeScanner.GetSymb
 # Windows.Devices.PointOfService.ClaimedBarcodeScanner.GetSymbologyAttributesAsync
 
 ## -description
+Gets the attributes of the specified barcode symbology.
 
 ## -parameters
 
 ### -param barcodeSymbology
+The barcode symbology.
 
 ## -returns
+A [BarcodeSymbologyAttributes](barcodesymbologyattributes.md) object, containing the attributes of the specified barcode symbology.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
