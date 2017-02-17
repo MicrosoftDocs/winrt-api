@@ -13,7 +13,6 @@ public class ContentDialogClosedEventArgs : Windows.UI.Xaml.Controls.IContentDia
 Provides data for the [Closed](contentdialog_closed.md) event.
 
 ## -remarks
-<!-- <rem>TODO: Document how the developer can obtain this class object, and add or update retriever elements as necessary.</rem>-->
 
 ## -examples
 
