@@ -13,7 +13,7 @@ public RemoteSystemSession Session { get; }
 Gets the [**RemoteSystemSession**](RemoteSystemSession.md) object representing the session that was joined (if the join attempt was successful).
 
 ## -property-value
-The [**RemoteSystemSession**](RemoteSystemSession.md) object representing the session that was joined (if the join attempt was successful). If the attempt failed, this value is **null**. TBD1 - sure?
+The [**RemoteSystemSession**](RemoteSystemSession.md) object representing the session that was joined (if the join attempt was successful). If the attempt failed, this value is **null**.
 
 ## -remarks
 

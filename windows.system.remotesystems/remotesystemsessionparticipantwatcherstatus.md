@@ -23,7 +23,7 @@ The watcher has stopped looking for session participants.
 The watcher has started looking for session participants.
 
 ### -field EnumerationCompleted:2
-TBD1
+The initial enumeration of session participants has completed.
 
 ### -field Created:0
 The watcher has been created but has not yet been started.

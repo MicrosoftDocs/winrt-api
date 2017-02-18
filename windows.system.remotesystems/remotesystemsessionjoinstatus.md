@@ -20,7 +20,7 @@ The join attempt was successful.
 The connection to the remote session was lost.
 
 ### -field SessionLimitsExceeded:1
-TBD1
+The join request failed because this device is already a participant in the maximum allowed number of sessions.
 
 ### -field RejectedByController:4
 The join request was rejected by the device controlling this session.

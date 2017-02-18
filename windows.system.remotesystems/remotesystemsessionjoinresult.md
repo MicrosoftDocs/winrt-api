@@ -14,7 +14,7 @@ Represents the result of this device's attempt to join a remote session.
 
 ## -remarks
 See the code example below for the full process of discovering and joining a remote session. 
-TBD - other classes should have this same one.
+TBD2 - other classes should have this same one.
 
 ## -see-also
 

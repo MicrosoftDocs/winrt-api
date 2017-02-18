@@ -14,7 +14,7 @@ Contains values specifying whether the client device can discover only same-user
 
 ## -enum-fields
 ### -field SameUser:0
-The client device can only discover devices signed in by the same user or communal devices such as the Surface Hub and Xbox One (TBD1 check).
+The client device can only discover devices signed in by the same user or nearby communal devices such as the Surface Hub and Xbox One.
 
 ### -field Anonymous:1
 The client device can discover other users' devices, provided they are available for proximal connection.

@@ -17,7 +17,7 @@ Describes the status of an attempt to create a remote session.
 The remote session was created successfully.
 
 ### -field SessionLimitsExceeded:1
-The remote session was not created because this device is already managing the maximum number of sessions allowed.
+The remote session was not created because this device is already a participant in the maximum allowed number of sessions.
 
 ### -field OperationAborted:2
 The creation attempt failed for an unknown reason.
