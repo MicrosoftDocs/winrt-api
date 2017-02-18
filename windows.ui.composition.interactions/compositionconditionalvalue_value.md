@@ -10,10 +10,10 @@ public ExpressionAnimation Value { get;  set; }
 # Windows.UI.Composition.Interactions.CompositionConditionalValue.Value
 
 ## -description
-The value of the conditional.
+The modified input expression to be applied when the condition is true.
 
 ## -property-value
-The value of the conditional.
+The modified input expression to be applied when the condition is true.
 
 ## -remarks
 

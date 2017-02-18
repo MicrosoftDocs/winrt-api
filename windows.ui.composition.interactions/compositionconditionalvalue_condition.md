@@ -10,10 +10,10 @@ public ExpressionAnimation Condition { get;  set; }
 # Windows.UI.Composition.Interactions.CompositionConditionalValue.Condition
 
 ## -description
-Describes the condition.
+The condition expression that determines when to apply modifiers to the visual interaction source.
 
 ## -property-value
-Describes the condition.
+The condition expression that determines when to apply modifiers to the visual interaction source.
 
 ## -remarks
 

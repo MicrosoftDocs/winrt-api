@@ -10,7 +10,7 @@ public class CompositionConditionalValue : CompositionObject, CompositionObject
 # Windows.UI.Composition.Interactions.CompositionConditionalValue
 
 ## -description
-Describes a conditional value.
+Allows conditional modification of the position and scale of a visual interaction source.
 
 ## -remarks
 

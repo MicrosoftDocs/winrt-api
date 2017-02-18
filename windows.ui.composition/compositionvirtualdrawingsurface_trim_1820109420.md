@@ -10,12 +10,13 @@ public void CompositionVirtualDrawingSurface.Trim(RectInt32[] rects)
 # Windows.UI.Composition.CompositionVirtualDrawingSurface.Trim
 
 ## -description
-Trims the drawing surface using the specified rectangle.
+Clears portions of a virtual drawing surface that were previously defined. Areas that are cleared will be treated as empty once again, and video memory that was previously backing them will be reclaimed.
+
 
 ## -parameters
 
 ### -param rects
-The rectangle to trim the drawing surface to.
+The region of the drawing surface to trim.
 
 ## -remarks
 
