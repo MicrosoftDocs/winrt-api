@@ -10,7 +10,7 @@ public RemoteSystemSessionMessageChannel.RemoteSystemSessionMessageChannel(Remot
 # Windows.System.RemoteSystems.RemoteSystemSessionMessageChannel.RemoteSystemSessionMessageChannel
 
 ## -description
-Initializes an instance of [**RemoteSystemSessionMessageChannel**](RemoteSystemSessionMessageChannel.md) to manage messaging for a given remote session, specifying the degree of channel reliability (TBD1).
+Initializes an instance of [**RemoteSystemSessionMessageChannel**](RemoteSystemSessionMessageChannel.md) to manage messaging for a given remote session, specifying the degree of channel reliability.
 
 ## -parameters
 
@@ -18,10 +18,10 @@ Initializes an instance of [**RemoteSystemSessionMessageChannel**](RemoteSystemS
 The [**RemoteSystemSession**](RemoteSystemSession.md) to which this messaging channel will correspond.
 
 ### -param channelName
-The user-defined name of the messaging channel. It should be simple and descriptive, such as TBD1
+The user-defined name of the messaging channel. It should be simple and descriptive, such as "Bob's 3D App messaging channel."
 
 ### -param reliability
-A [**RemoteSystemSessionMessageChannelReliability**](RemoteSystemSessionMessageChannelReliability.md) value describing the reliability (TBD1) of this channel.
+A [**RemoteSystemSessionMessageChannelReliability**](RemoteSystemSessionMessageChannelReliability.md) value describing the reliability of this channel.
 
 ## -remarks
 

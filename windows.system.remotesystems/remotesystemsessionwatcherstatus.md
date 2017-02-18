@@ -14,7 +14,7 @@ Contains values that describe the operational status of a remote session watcher
 
 ## -enum-fields
 ### -field Stopping:3
-The watcher  TBD1
+The watcher is in the process of stopping.
 
 ### -field Stopped:4
 The watcher has stopped looking for remote sessions.
@@ -29,7 +29,7 @@ The initial enumeration of remote sessions has completed.
 The watcher has been created but has not yet been started.
 
 ### -field Aborted:5
-TBD1
+The watching operation was aborted for an unknown reason.
 
 ## -remarks
 

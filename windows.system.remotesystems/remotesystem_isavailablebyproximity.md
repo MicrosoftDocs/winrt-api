@@ -10,10 +10,10 @@ public bool IsAvailableByProximity { get; }
 # Windows.System.RemoteSystems.RemoteSystem.IsAvailableByProximity
 
 ## -description
-Checks whether the given remote system is available for connection by proximity (such as a Bluetooth or local network connection) as opposed to cloud connection.
+Checks whether the given remote system is available through proximal connection (such as a Bluetooth or local network connection) as opposed to cloud connection.
 
 ## -property-value
-**True** if the given remote system is available by proximity connection, **False** otherwise.
+**True** if the given remote system is available by proximal connection, **False** otherwise.
 
 ## -remarks
 

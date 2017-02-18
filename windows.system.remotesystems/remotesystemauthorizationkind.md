@@ -10,7 +10,7 @@ public enum RemoteSystemAuthorizationKind : int
 # Windows.System.RemoteSystems.RemoteSystemAuthorizationKind
 
 ## -description
-Contains values specifying whether the client device can discover only same-user devices or other users' devices as well. Cross-user devices must be available for proximal connection in order to be discovered (see [**RemoteSystemDiscoveryType**](remotesystemdiscoverytype.md) for details).
+Contains values specifying whether the client device can discover only same-user devices or other users' devices as well. Cross-user devices must be available through a proximal connection in order to be discovered (see [**RemoteSystemDiscoveryType**](remotesystemdiscoverytype.md) for details).
 
 ## -enum-fields
 ### -field SameUser:0
