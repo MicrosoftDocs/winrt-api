@@ -10,7 +10,7 @@ public User User { get; }
 # Windows.UI.StartScreen.StartScreenManager.User
 
 ## -description
-
+Gets the user associated with the current Start screen.
 ## -property-value
 
 ## -remarks

@@ -10,10 +10,13 @@ public ushort Version { get; }
 # Windows.UI.Input.Spatial.SpatialInteractionController.Version
 
 ## -description
+Gets the version, or revision, number for this spatial controller.
 
 ## -property-value
+The version number.
 
 ## -remarks
+The [VendorId], [ProductId] and [Version] properties can be used together to identify a particular controller design.  This can then be used on occluded Mixed Reality headsets to choose a matching render model to display in the user's surroundings.
 
 ## -see-also
 

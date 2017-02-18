@@ -10,6 +10,7 @@ public class SpatialEntityRemovedEventArgs
 # Windows.Perception.Spatial.SpatialEntityRemovedEventArgs
 
 ## -description
+Event data for spatial entity removed events.
 
 ## -remarks
 

@@ -10,6 +10,7 @@ public class HolographicApplicationPreview
 # Windows.ApplicationModel.Preview.Holographic.HolographicApplicationPreview
 
 ## -description
+Provides preview functionality that let apps interact with the holographic shell, allowing the user to see content in the world around them.
 
 ## -remarks
 

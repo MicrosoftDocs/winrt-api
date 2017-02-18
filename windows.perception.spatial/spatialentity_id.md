@@ -10,8 +10,10 @@ public string Id { get; }
 # Windows.Perception.Spatial.SpatialEntity.Id
 
 ## -description
+Gets the globally-unique ID for this spatial entity.
 
 ## -property-value
+The ID.
 
 ## -remarks
 

@@ -10,12 +10,15 @@ public SpatialCoordinateSystem SpatialStageFrameOfReference.GetCoordinateSystemA
 # Windows.Perception.Spatial.SpatialStageFrameOfReference.GetCoordinateSystemAtCurrentLocation
 
 ## -description
+Gets a floor-level coordinate system at the user's current position and orientation.
 
 ## -parameters
 
 ### -param locator
+The spatial locator with the position and orientation to use as the origin for the returned coordinate system.
 
 ## -returns
+The coordinate system.
 
 ## -remarks
 

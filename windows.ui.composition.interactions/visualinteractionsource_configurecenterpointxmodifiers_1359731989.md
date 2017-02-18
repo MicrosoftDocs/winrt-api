@@ -10,7 +10,7 @@ public void VisualInteractionSource.ConfigureCenterPointXModifiers(IIterable<Com
 # Windows.UI.Composition.Interactions.VisualInteractionSource.ConfigureCenterPointXModifiers
 
 ## -description
-
+Configures centerpoint modifiers for the X direction.
 ## -parameters
 
 ### -param conditionalValues

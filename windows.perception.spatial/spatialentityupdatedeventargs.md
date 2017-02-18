@@ -10,6 +10,7 @@ public class SpatialEntityUpdatedEventArgs
 # Windows.Perception.Spatial.SpatialEntityUpdatedEventArgs
 
 ## -description
+Event data for spatial entity updated events.
 
 ## -remarks
 

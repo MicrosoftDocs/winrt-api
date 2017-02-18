@@ -10,8 +10,10 @@ public HolographicCameraViewportParameters LeftViewportParameters { get; }
 # Windows.Graphics.Holographic.HolographicCamera.LeftViewportParameters
 
 ## -description
+Gets rendering parameters related to display's left-eye viewport.
 
 ## -property-value
+The left viewport parameters.
 
 ## -remarks
 

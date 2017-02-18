@@ -10,8 +10,10 @@ public Vector3 Position { get; }
 # Windows.UI.Composition.Interactions.VisualInteractionSource.Position
 
 ## -description
+The position of the interaction source.
 
 ## -property-value
+The position of the interaction source.
 
 ## -remarks
 

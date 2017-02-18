@@ -10,12 +10,15 @@ public SpatialEntity.SpatialEntity(SpatialAnchor spatialAnchor, ValueSet propert
 # Windows.Perception.Spatial.SpatialEntity.SpatialEntity
 
 ## -description
+Creates a new spatial entity to share the provided spatial anchor and metadata.
 
 ## -parameters
 
 ### -param spatialAnchor
+The spatial anchor to share.
 
 ### -param propertySet
+The metadata to share for this anchor.
 
 ## -remarks
 

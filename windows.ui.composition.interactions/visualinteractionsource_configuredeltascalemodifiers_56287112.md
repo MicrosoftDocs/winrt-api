@@ -10,6 +10,7 @@ public void VisualInteractionSource.ConfigureDeltaScaleModifiers(IIterable<Compo
 # Windows.UI.Composition.Interactions.VisualInteractionSource.ConfigureDeltaScaleModifiers
 
 ## -description
+Configures modifiers for scale.
 
 ## -parameters
 

@@ -10,6 +10,7 @@ public event TypedEventHandler Changed<CompositionCapabilities,  object>
 # Windows.UI.Composition.CompositionCapabilities.Changed
 
 ## -description
+Event triggered when the supported composition capabilities changes.
 
 ## -remarks
 

@@ -10,8 +10,10 @@ public ValueSet Properties { get; }
 # Windows.Perception.Spatial.SpatialEntity.Properties
 
 ## -description
+Gets the key/value store of metadata for this spatial entity.
 
 ## -property-value
+The metadata.
 
 ## -remarks
 

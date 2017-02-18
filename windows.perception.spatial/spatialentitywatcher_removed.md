@@ -10,6 +10,7 @@ public event TypedEventHandler Removed<SpatialEntityWatcher, SpatialEntityRemove
 # Windows.Perception.Spatial.SpatialEntityWatcher.Removed
 
 ## -description
+The event that is raised when a spatial entity is removed from the store by a participant.
 
 ## -remarks
 

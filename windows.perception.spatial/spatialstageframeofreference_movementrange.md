@@ -10,8 +10,10 @@ public SpatialMovementRange MovementRange { get; }
 # Windows.Perception.Spatial.SpatialStageFrameOfReference.MovementRange
 
 ## -description
+Gets the extent to which the user can move while wearing their headset.
 
 ## -property-value
+The movement range.
 
 ## -remarks
 

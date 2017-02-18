@@ -10,6 +10,7 @@ public event TypedEventHandler Added<SpatialEntityWatcher, SpatialEntityAddedEve
 # Windows.Perception.Spatial.SpatialEntityWatcher.Added
 
 ## -description
+The event that is raised when a new spatial entity is added to the store by a participant.
 
 ## -remarks
 

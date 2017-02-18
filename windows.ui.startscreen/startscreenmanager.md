@@ -10,7 +10,7 @@ public class StartScreenManager
 # Windows.UI.StartScreen.StartScreenManager
 
 ## -description
-
+Represents a Start screen manager object.
 ## -remarks
 
 ## -see-also

@@ -10,8 +10,10 @@ public float DeltaScale { get; }
 # Windows.UI.Composition.Interactions.VisualInteractionSource.DeltaScale
 
 ## -description
+The change in scale of the visual interaction source.
 
 ## -property-value
+The change in scale of the visual interaction source.
 
 ## -remarks
 

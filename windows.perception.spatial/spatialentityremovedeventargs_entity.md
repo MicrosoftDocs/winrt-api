@@ -10,8 +10,10 @@ public SpatialEntity Entity { get; }
 # Windows.Perception.Spatial.SpatialEntityRemovedEventArgs.Entity
 
 ## -description
+Gets the spatial entity that was removed.
 
 ## -property-value
+The removed entity.
 
 ## -remarks
 

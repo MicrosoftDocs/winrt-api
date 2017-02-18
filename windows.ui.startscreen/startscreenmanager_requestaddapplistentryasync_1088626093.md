@@ -10,7 +10,7 @@ public IAsyncOperation<bool> StartScreenManager.RequestAddAppListEntryAsync(AppL
 # Windows.UI.StartScreen.StartScreenManager.RequestAddAppListEntryAsync
 
 ## -description
-
+Pin the app to the current Start screen.
 ## -parameters
 
 ### -param appListEntry

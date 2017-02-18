@@ -10,8 +10,10 @@ public SizeInt32 SizeInt32 { get; }
 # Windows.UI.Composition.CompositionDrawingSurface.SizeInt32
 
 ## -description
+The size of the drawing surface.
 
 ## -property-value
+The size of the drawing surface.
 
 ## -remarks
 

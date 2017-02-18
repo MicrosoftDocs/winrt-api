@@ -10,7 +10,7 @@ public Windows.UI.Input.Spatial.SpatialInteractionSourceKind InteractionSourceKi
 # Windows.UI.Input.Spatial.SpatialInteractionDetectedEventArgs.InteractionSourceKind
 
 ## -description
-Gets the kind of source associated with this interaction.
+Gets the kind of source associated with the detected interaction.
 
 ## -property-value
 The interaction source kind.

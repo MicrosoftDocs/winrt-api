@@ -10,8 +10,10 @@ public CompositionBackdropBrush Compositor.CreateHostBackdropBrush()
 # Windows.UI.Composition.Compositor.CreateHostBackdropBrush
 
 ## -description
+Creates an instance of CompositionBackdropBrush.
 
 ## -returns
+Returns the created instance of CompositionBackdropBrush.
 
 ## -remarks
 

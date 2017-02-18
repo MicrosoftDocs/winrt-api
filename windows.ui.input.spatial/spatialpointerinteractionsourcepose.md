@@ -10,6 +10,7 @@ public class SpatialPointerInteractionSourcePose
 # Windows.UI.Input.Spatial.SpatialPointerInteractionSourcePose
 
 ## -description
+Represents a spatial controller's pointer pose in relation to its surroundings.
 
 ## -remarks
 

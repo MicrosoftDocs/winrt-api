@@ -10,8 +10,10 @@ public bool CompositionCapabilities.AreEffectsSupported()
 # Windows.UI.Composition.CompositionCapabilities.AreEffectsSupported
 
 ## -description
+Indicates whether effects are supported.
 
 ## -returns
+Returns a boolean indicating whether effects are supported.
 
 ## -remarks
 

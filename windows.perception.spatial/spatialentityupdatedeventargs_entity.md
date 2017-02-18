@@ -10,8 +10,10 @@ public SpatialEntity Entity { get; }
 # Windows.Perception.Spatial.SpatialEntityUpdatedEventArgs.Entity
 
 ## -description
+Gets the spatial entity that was updated.
 
 ## -property-value
+The updated entity.
 
 ## -remarks
 

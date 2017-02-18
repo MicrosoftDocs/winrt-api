@@ -10,7 +10,7 @@ public event Windows.Foundation.TypedEventHandler SourceUpdated<Windows.UI.Input
 # Windows.UI.Input.Spatial.SpatialInteractionManager.SourceUpdated
 
 ## -description
-Occurs when a hand or controller has experienced a change to its SpatialInteractionSourceState.
+Occurs when a hand, spatial controller, or source of voice commands has experienced a change to its SpatialInteractionSourceState.
 
 ## -remarks
 

@@ -10,10 +10,10 @@ public class HolographicCamera : Windows.Graphics.Holographic.IHolographicCamera
 # Windows.Graphics.Holographic.HolographicCamera
 
 ## -description
-Represents a display that requires an app to render the holographic space from a particular perspective. An app must render to each HolographicCamera each frame.
+Provides rendering state for a display to which a holographic view must render each frame from that frame's pose.
 
 ## -remarks
-An app must render to each HolographicCamera each frame.
+An app must render to each HolographicCamera before presenting each HolographicFrame.
 
 ## -examples
 
