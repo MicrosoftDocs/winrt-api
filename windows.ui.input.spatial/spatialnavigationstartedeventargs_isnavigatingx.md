@@ -12,12 +12,11 @@ public bool IsNavigatingX { get; }
 ## -description
 Gets whether the navigation gesture the user is performing involves motion on the horizontal axis.
 
-If the user has moved their hand so as to snap to vertical rails, for example, this will return false.
-
 ## -property-value
 Whether the gesture involves horizontal navigation.
 
 ## -remarks
+If the user has moved their hand or spatial controller so as to snap to vertical rails, for example, this will return false.
 
 ## -examples
 

@@ -10,7 +10,7 @@ public Windows.UI.Input.Spatial.SpatialPointerPose TryGetPointerPose(Windows.Per
 # Windows.UI.Input.Spatial.SpatialHoldStartedEventArgs.TryGetPointerPose
 
 ## -description
-Gets the available pointing poses, such as the user's head gaze and each spatial controller's pointing pose, for use in targeting this gesture.
+Gets the available pointing poses, such as the user's head gaze and each spatial controller's pointing ray, for use in targeting this gesture.
 
 ## -remarks
 This pose is from the timestamp of the initial SpatialInteraction routed to this recognizer to begin the active gesture.

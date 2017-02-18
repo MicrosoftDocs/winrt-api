@@ -10,10 +10,10 @@ public class SpatialLocatorPositionalTrackingDeactivatingEventArgs : Windows.Per
 # Windows.Perception.Spatial.SpatialLocatorPositionalTrackingDeactivatingEventArgs
 
 ## -description
-Provides data for the SpatialLocator.PositionalTrackingDeactivating event.
+Provides data for the [SpatialLocator.PositionalTrackingDeactivating](spatiallocator_positionaltrackingdeactivating.md) event.
 
 ## -remarks
-Set the Canceled property to true to prevent positional tracking from deactivating due to inactivity.
+Set the [Canceled](spatiallocatorpositionaltrackingdeactivatingeventargs_canceled.md) property to true to prevent positional tracking from deactivating due to inactivity.
 
 ## -examples
 

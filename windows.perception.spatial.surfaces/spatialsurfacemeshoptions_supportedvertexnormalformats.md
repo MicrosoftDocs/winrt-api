@@ -16,7 +16,7 @@ Gets a list of the vertex normal formats that the system can generate a normal b
 The supported normal buffer formats.
 
 ## -remarks
-Supply a value from this list to the SpatialSurfacesMeshOptions.VertexNormalFormat property when calling SpatialSurfaceInfo.TryComputeLatestMeshAsync to request normal buffers in that format.
+Supply a value from this list to the [VertexNormalFormat](spatialsurfacemeshoptions_vertexnormalformat.md) property when calling [SpatialSurfaceInfo.TryComputeLatestMeshAsync](spatialsurfaceinfo_trycomputelatestmeshasync_1431485667.md) to request normal buffers in that format.
 
 ## -examples
 

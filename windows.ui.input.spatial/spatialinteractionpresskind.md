@@ -10,7 +10,7 @@ public enum SpatialInteractionPressKind : int
 # Windows.UI.Input.Spatial.SpatialInteractionPressKind
 
 ## -description
-Specifies the kind of press represented by a SourcePressed or SourceReleased event.
+Specifies the kind of press represented by a [SourcePressed](spatialinteractionmanager_sourcepressed.md) or [SourceReleased](spatialinteractionmanager_sourcereleased.md) event.
 
 ## -enum-fields
 ### -field None:0
@@ -19,7 +19,7 @@ This is a SourceDetected, SourceLost or SourceUpdated event, which does not repr
 ### -field Select:1
 Select represents the primary press for a spatial interaction source:
 * For hands, a Select press represents the user's index finger in the down position.
-* For spatial controllers, a Select press represents the controller's index-finger trigger being fully pulled.
+* For spatial controllers, a Select press represents the controller's index-finger trigger (or primary face button, if no trigger) being fully pressed.
 * For voice, a Select press represents the user saying the system keyword "Select".
 
 ### -field Menu:2

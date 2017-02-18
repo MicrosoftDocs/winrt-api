@@ -16,7 +16,7 @@ Provides access to the spatial controller's ability to vibrate in the user's han
 The simple haptics controller.
 
 ## -remarks
-If this spatial controller supports haptics, this property returns a [SimpleHapticsController](..\windows.devices.haptics\simplehapticscontroller.md) object that provides access to the controller's vibration functionality.  Otherwise, this property returns null.
+If this spatial controller supports haptics, this property returns a [SimpleHapticsController](../windows.devices.haptics/simplehapticscontroller.md) object that provides access to the controller's vibration functionality.  Otherwise, this property returns null.
 
 ## -see-also
 

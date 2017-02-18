@@ -6,7 +6,7 @@
 # Windows.Perception.Spatial
 
 ## -description
-Contains classes that let apps react naturally to your gaze, gestures, and voice in the world around you.
+Contains classes for reasoning about the spatial relationships within the user's surroundings.
 
 ## -remarks
 

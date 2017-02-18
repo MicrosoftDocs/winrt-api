@@ -10,7 +10,7 @@ public class SpatialAnchorRawCoordinateSystemAdjustedEventArgs : Windows.Percept
 # Windows.Perception.Spatial.SpatialAnchorRawCoordinateSystemAdjustedEventArgs
 
 ## -description
-Provides data for the SpatialAnchor.RawCoordinateSystemAdjusted event.
+Provides data for the [SpatialAnchor.RawCoordinateSystemAdjusted](spatialanchor_rawcoordinatesystemadjusted.md) event.
 
 ## -remarks
 

@@ -12,11 +12,10 @@ public event Windows.Foundation.TypedEventHandler CameraRemoved<Windows.Graphics
 ## -description
 Occurs when a HolographicCamera is removed from the current HolographicSpace.
 
+## -remarks
 Apps can use this event to tear down any per-camera resources they may have set up during CameraAdded.
 
 The system will no longer require that the app render to this camera, starting in the next frame after this event.
-
-## -remarks
 
 ## -examples
 

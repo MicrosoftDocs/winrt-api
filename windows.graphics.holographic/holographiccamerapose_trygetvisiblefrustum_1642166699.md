@@ -12,12 +12,6 @@ public Windows.Foundation.IReference<Windows.Perception.Spatial.SpatialBoundingF
 ## -description
 Gets the predicted view frustum for the current pose, expressed in the specified coordinate system.
 
-If this is a stereo display, this is the combined frustum of both stereo views, including the left and right view and projection matrices.
-
-This frustum shares the same dimensions as the true view frustum at the time of rendering, although it may be off by some amount due to prediction error. Call TryGetCullingFrustum to get a conservative frustum that takes this uncertainty into account.
-
-This method will return null if the specified coordinate system cannot be located at the moment.
-
 ## -parameters
 ### -param coordinateSystem
 The coordinate system in which to express the visible frustum.
@@ -26,6 +20,11 @@ The coordinate system in which to express the visible frustum.
 The visible frustum.
 
 ## -remarks
+If this is a stereo display, this is the combined frustum of both stereo views, including the left and right view and projection matrices.
+
+This frustum shares the same dimensions as the true view frustum at the time of rendering, although it may be off by some amount due to prediction error. Call TryGetCullingFrustum to get a conservative frustum that takes this uncertainty into account.
+
+This method will return null if the specified coordinate system cannot be located at the moment.
 
 ## -examples
 

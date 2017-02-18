@@ -12,8 +12,6 @@ public Windows.Graphics.Holographic.HolographicSpace CreateForCoreWindow(Windows
 ## -description
 Creates a HolographicSpace that corresponds with the specified window's CoreApplicationView.
 
-Calling this method permanently assigns the CoreApplicationView to be holographic. You may no longer call IDXGIFactory2::CreateSwapChainForCoreWindow after calling this method, or vice versa.
-
 ## -parameters
 ### -param window
 The window to create a HolographicSpace for.
@@ -22,6 +20,7 @@ The window to create a HolographicSpace for.
 The HolographicSpace.
 
 ## -remarks
+Calling this method permanently assigns the CoreApplicationView to be holographic. You may no longer call IDXGIFactory2::CreateSwapChainForCoreWindow after calling this method, or vice versa.
 
 ## -examples
 
