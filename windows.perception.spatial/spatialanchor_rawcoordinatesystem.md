@@ -18,7 +18,7 @@ The raw coordinate system.
 ## -remarks
 This coordinate system lets you precisely place holograms near the anchor, with immediate updates when the device adjusts the anchor's precise location.
 
-Use the corresponding RawCoordinateSystemAdjusted event to react when anchor adjustments occur.
+Use the corresponding [RawCoordinateSystemAdjusted](spatialanchor_rawcoordinatesystemadjusted.md) event to react when anchor adjustments occur.
 
 ## -examples
 

@@ -22,7 +22,7 @@ The operation that triggers once the import is complete, providing the imported 
 ## -remarks
 You must first export the anchors on the source device using the TryExportAnchorsAsync method. It is then the app's responsibility to get the data in the stream to the other device through its own network channel.
 
-This imports the anchors and their supporting data into the device's spatial understanding. An app should then use SpatialAnchorStore.TrySave if it needs to retain access to this anchor.
+This imports the anchors and their supporting data into the device's spatial understanding. An app should then use [SpatialAnchorStore.TrySave](spatialanchorstore_trysave_1258774399.md) if it needs to retain access to this anchor.
 
 This method can yield null if the device has reached its limit of spatial anchors, or if the spatial understanding system times out during the import.
 

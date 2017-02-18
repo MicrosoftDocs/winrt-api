@@ -16,7 +16,7 @@ Gets or sets the element format for generated normal buffers.
 The vertex normal format.
 
 ## -remarks
-Note that normal buffers will only be generated if you set IncludeVertexNormals to true.
+Note that normal buffers will only be generated if you set [IncludeVertexNormals](spatialsurfacemeshoptions_includevertexnormals.md) to true.
 
 ## -examples
 

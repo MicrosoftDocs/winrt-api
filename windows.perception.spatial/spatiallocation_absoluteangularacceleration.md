@@ -16,6 +16,7 @@ Gets the absolute angular acceleration of the device. This acceleration is expre
 The angular acceleration.
 
 ## -remarks
+The acceleration is clamped to be less than 180 degrees in any direction.
 
 ## -examples
 

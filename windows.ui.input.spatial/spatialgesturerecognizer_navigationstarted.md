@@ -12,13 +12,12 @@ public event Windows.Foundation.TypedEventHandler NavigationStarted<Windows.UI.I
 ## -description
 Occurs when an interaction becomes a Navigation gesture.
 
+## -remarks
 For hand interactions, this event fires when a finger is pressed and then moves outside of the small Navigation deadzone.
 
 For voice interactions, this event does not fire.
 
-For controllers, this event fires when the primary button is pressed and then the controller is moved outside of the small Navigation deadzone.
-
-## -remarks
+For spatial controllers, this event fires when the Select trigger or button is pressed and then the controller is moved outside of the small Navigation deadzone.
 
 ## -examples
 

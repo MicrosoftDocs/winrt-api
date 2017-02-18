@@ -12,13 +12,12 @@ public event Windows.Foundation.TypedEventHandler HoldCompleted<Windows.UI.Input
 ## -description
 Occurs when a Hold gesture completes.
 
+## -remarks
 For hand interactions, this event fires when the finger is released after HoldStarted.
 
 For voice interactions, this event does not fire.
 
-For controllers, this event fires when the primary button is released after HoldStarted.
-
-## -remarks
+For spatial controllers, this event fires when the Select trigger or button is released after HoldStarted.
 
 ## -examples
 

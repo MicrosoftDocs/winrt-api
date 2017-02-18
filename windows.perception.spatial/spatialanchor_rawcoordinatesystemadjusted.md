@@ -10,9 +10,10 @@ public event Windows.Foundation.TypedEventHandler RawCoordinateSystemAdjusted<Wi
 # Windows.Perception.Spatial.SpatialAnchor.RawCoordinateSystemAdjusted
 
 ## -description
-Occurs when the device adjusts the anchor's precise location, which updates the RawCoordinateSystem. The event arguments contain a transform representing the adjustment that was made.
+Occurs when the device adjusts the anchor's precise location, which updates the [RawCoordinateSystem](spatialanchor_rawcoordinatesystem.md).
 
 ## -remarks
+The event arguments contain a transform representing the adjustment that was made.
 
 ## -examples
 

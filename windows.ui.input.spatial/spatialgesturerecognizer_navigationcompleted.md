@@ -12,13 +12,12 @@ public event Windows.Foundation.TypedEventHandler NavigationCompleted<Windows.UI
 ## -description
 Occurs when a Navigation gesture is completed.
 
+## -remarks
 For hand interactions, this event fires when the finger is released after NavigationStarted.
 
 For voice interactions, this event does not fire.
 
-For controllers, this event fires when the primary button is released after NavigationStarted.
-
-## -remarks
+For spatial controllers, this event fires when the Select trigger or button is released after NavigationStarted.
 
 ## -examples
 

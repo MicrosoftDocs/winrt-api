@@ -12,11 +12,10 @@ public event Windows.Foundation.TypedEventHandler ManipulationCanceled<Windows.U
 ## -description
 Occurs when a Manipulation gesture is canceled.
 
+## -remarks
 For hand interactions, this event fires when the relevant hand that had a ManipulationStarted is lost during the gesture.
 
-For voice interactions and controllers, this event does not fire.
-
-## -remarks
+For voice interactions and spatial controllers, this event does not fire.
 
 ## -examples
 

@@ -10,7 +10,7 @@ public Windows.UI.Input.Spatial.SpatialInteraction Interaction { get; }
 # Windows.UI.Input.Spatial.SpatialInteractionDetectedEventArgs.Interaction
 
 ## -description
-Gets the detected interaction, for routing to a SpatialGestureRecognizer.
+Gets the detected interaction, for routing to a [SpatialGestureRecognizer](spatialgesturerecognizer.md).
 
 ## -property-value
 The interaction.

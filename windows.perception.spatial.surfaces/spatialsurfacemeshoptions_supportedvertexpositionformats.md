@@ -16,7 +16,7 @@ Gets a list of the vertex position formats that the system can generate a vertex
 The supported vertex buffer formats.
 
 ## -remarks
-Supply a value from this list to the SpatialSurfacesMeshOptions.VertexPositionFormat property when calling SpatialSurfaceInfo.TryComputeLatestMeshAsync to request vertex buffers in that format.
+Supply a value from this list to the [VertexPositionFormat](spatialsurfacemeshoptions_vertexpositionformat.md) property when calling [SpatialSurfaceInfo.TryComputeLatestMeshAsync](spatialsurfaceinfo_trycomputelatestmeshasync_1431485667.md) to request vertex buffers in that format.
 
 ## -examples
 

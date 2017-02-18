@@ -16,6 +16,7 @@ Gets a floor-level coordinate system located at the stage origin defined by the 
 The coordinate system.
 
 ## -remarks
+The coordinate system is right-handed, with +y up, +x to the right, and -z forward.
 
 ## -see-also
 

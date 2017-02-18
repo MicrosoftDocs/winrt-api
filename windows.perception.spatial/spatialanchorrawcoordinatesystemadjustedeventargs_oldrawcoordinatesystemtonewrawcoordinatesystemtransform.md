@@ -10,7 +10,7 @@ public Windows.Foundation.Numerics.Matrix4x4 OldRawCoordinateSystemToNewRawCoord
 # Windows.Perception.Spatial.SpatialAnchorRawCoordinateSystemAdjustedEventArgs.OldRawCoordinateSystemToNewRawCoordinateSystemTransform
 
 ## -description
-Gets a transform representing the adjustment of this SpatialAnchor relative to its previous location.
+Gets a transform representing the adjustment of this [SpatialAnchor](spatialanchor.md) relative to its previous location.
 
 ## -property-value
 The transform.

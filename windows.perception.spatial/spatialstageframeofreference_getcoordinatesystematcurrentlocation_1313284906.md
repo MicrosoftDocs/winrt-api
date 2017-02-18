@@ -21,6 +21,7 @@ The spatial locator with the position and orientation to use as the origin for t
 The coordinate system.
 
 ## -remarks
+The coordinate system is right-handed, with +y up, +x to the right, and -z forward.
 
 ## -see-also
 

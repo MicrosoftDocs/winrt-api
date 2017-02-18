@@ -16,7 +16,7 @@ Gets the buffer object representing the mesh's index buffer.
 The mesh buffer.
 
 ## -remarks
-If SpatialSurfaceMeshOptions.TriangleIndexFormat is set as an option in the call to SpatialSurfaceInfo.TryComputeLatestMeshAsync, this buffer will be generated in the format indicated.
+If [SpatialSurfaceMeshOptions.TriangleIndexFormat](spatialsurfacemeshoptions_triangleindexformat.md) is set as an option in the call to [SpatialSurfaceInfo.TryComputeLatestMeshAsync](spatialsurfaceinfo_trycomputelatestmeshasync_1431485667.md), this buffer will be generated in the format indicated.
 
 ## -examples
 

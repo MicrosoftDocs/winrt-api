@@ -10,7 +10,7 @@ public class HolographicFramePrediction : Windows.Graphics.Holographic.IHolograp
 # Windows.Graphics.Holographic.HolographicFramePrediction
 
 ## -description
-holographicframeprediction
+Represents the poses for each holographic camera at the time that they're predicted to be displayed.
 
 ## -remarks
 
