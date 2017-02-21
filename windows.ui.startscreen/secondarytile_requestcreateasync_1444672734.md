@@ -30,13 +30,11 @@ After a secondary tile is created, you must provide the following properties bef
 
 This method returns an asynchronous **Boolean** value through its [IAsyncOperation](../windows.foundation/iasyncoperation_1.md) object as shown here. A value of **true** indicates that the secondary tile was created and pinned to the Start screen. ```javascript
   
-[JavaScript]  
+```JavaScript  
 secondaryTile.requestCreateAsync().then( function (isPinned) { } );
 ```
 
 ```csharp
-
-[C#]  
 async void showTileCreateRequest( SecondaryTile tile )  
 {      
     bool isPinned = await tile.requestCreateAsync();  
