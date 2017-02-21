@@ -9,7 +9,7 @@ public string VideoFormatH264 { get; }
 
 # Windows.Media.Core.CodecSubtypes.VideoFormatH264
 
-## -desc
+## -description
 Gets the string representation of the GUID for the H.264 video subtype.
 
 ## -property-value

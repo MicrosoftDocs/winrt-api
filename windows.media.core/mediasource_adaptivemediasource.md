@@ -9,7 +9,7 @@ public AdaptiveMediaSource AdaptiveMediaSource { get; }
 
 # Windows.Media.Core.MediaSource.AdaptiveMediaSource
 
-## -desc
+## -description
 Gets the [AdaptiveMediaSource](../windows.media.streaming.adaptive./adaptivemediasource.md) associated with the **MediaSource**.
 
 ## -property-value

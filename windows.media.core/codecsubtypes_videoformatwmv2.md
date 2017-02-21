@@ -9,7 +9,7 @@ public string VideoFormatWmv2 { get; }
 
 # Windows.Media.Core.CodecSubtypes.VideoFormatWmv2
 
-## -desc
+## -description
 Gets the string representation of the GUID for the Windows Media Video 8 video subtype.
 
 ## -property-value

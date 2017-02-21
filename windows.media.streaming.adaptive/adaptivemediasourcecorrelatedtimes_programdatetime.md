@@ -9,7 +9,7 @@ public IReference<DateTime> ProgramDateTime { get; }
 
 # Windows.Media.Streaming.Adaptive.AdaptiveMediaSourceCorrelatedTimes.ProgramDateTime
 
-## -desc
+## -description
 Gets a [DateTime](https://docs.microsoft.com/en-us/uwp/api/windows.foundation.datetime) structure representing a time specified in the manifest file for the streaming media.
 
 ## -property-value

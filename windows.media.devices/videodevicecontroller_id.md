@@ -9,7 +9,7 @@ public string Id { get; }
 
 # Windows.Media.Devices.VideoDeviceController.Id
 
-## -desc
+## -description
 Gets a string containing the identifier for the video device controller.
 
 ## -property-value

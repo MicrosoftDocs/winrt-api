@@ -9,7 +9,7 @@ public Headset Headset { get; }
 
 # Windows.Gaming.Input.RawGameController.Headset
 
-## -desc
+## -description
 
 The audio headset attached to the raw game controller.
 

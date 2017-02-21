@@ -9,7 +9,7 @@ public int ButtonCount { get; }
 
 # Windows.Gaming.Input.RawGameController.ButtonCount
 
-## -desc
+## -description
 
 The number of buttons on the raw game controller.
 

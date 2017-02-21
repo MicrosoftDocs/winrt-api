@@ -9,7 +9,7 @@ public string AudioFormatAac { get; }
 
 # Windows.Media.Core.CodecSubtypes.AudioFormatAac
 
-## -desc
+## -description
 Gets the string representation of the GUID for the Advanced Audio Coding (AAC) audio subtype.
 
 ## -property-value

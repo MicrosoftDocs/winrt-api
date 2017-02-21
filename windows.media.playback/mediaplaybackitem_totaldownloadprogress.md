@@ -9,7 +9,7 @@ public double TotalDownloadProgress { get; }
 
 # Windows.Media.Playback.MediaPlaybackItem.TotalDownloadProgress
 
-## -desc
+## -description
 Gets a value that indicates the proportion of the data for the **MediaPlaybackItem** that is currently downloaded.
 
 ## -property-value

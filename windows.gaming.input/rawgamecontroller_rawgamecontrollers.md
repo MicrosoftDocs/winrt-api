@@ -9,7 +9,7 @@ public IVectorView<RawGameController> RawGameControllers { get; }
 
 # Windows.Gaming.Input.RawGameController.RawGameControllers
 
-## -desc
+## -description
 
 The list of all connected raw game controllers.
 

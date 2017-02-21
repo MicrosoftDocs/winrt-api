@@ -9,7 +9,7 @@ public string AudioFormatMPeg { get; }
 
 # Windows.Media.Core.CodecSubtypes.AudioFormatMPeg
 
-## -desc
+## -description
 Gets the string representation of the GUID for the MPEG-1 audio subtype.
 
 ## -property-value

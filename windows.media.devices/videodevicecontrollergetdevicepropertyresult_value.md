@@ -9,7 +9,7 @@ public object Value { get; }
 
 # Windows.Media.Devices.VideoDeviceControllerGetDevicePropertyResult.Value
 
-## -desc
+## -description
 Gets an object representing the result value of an operation to get the value of a video device controller driver property.
 
 ## -property-value

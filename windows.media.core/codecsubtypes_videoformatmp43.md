@@ -9,7 +9,7 @@ public string VideoFormatMP43 { get; }
 
 # Windows.Media.Core.CodecSubtypes.VideoFormatMP43
 
-## -desc
+## -description
 Gets the string representation of the GUID for the Microsoft MPEG 4 codec version 3 video subtype.
 
 ## -property-value

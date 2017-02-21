@@ -9,7 +9,7 @@ public uint MinReliableDepth { get; }
 
 # Windows.Media.Capture.Frames.DepthMediaFrame.MinReliableDepth
 
-## -desc
+## -description
 Gets a value that specifies the minimum reliable depth value for the camera that captured the depth frame.
 
 ## -property-value

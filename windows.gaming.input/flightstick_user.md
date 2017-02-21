@@ -9,7 +9,7 @@ public User User { get; }
 
 # Windows.Gaming.Input.FlightStick.User
 
-## -desc
+## -description
 
 The user associated with the flight stick.
 

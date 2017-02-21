@@ -9,7 +9,7 @@ public string VideoFormatDV25 { get; }
 
 # Windows.Media.Core.CodecSubtypes.VideoFormatDV25
 
-## -desc
+## -description
 Gets the string representation of the GUID for the DVCPRO 25 (525-60 or 625-50) video subtype.
 
 ## -property-value

@@ -9,7 +9,7 @@ public AutoLoadedDisplayPropertyKind AutoLoadedDisplayProperties { get;  set; }
 
 # Windows.Media.Playback.MediaPlaybackItem.AutoLoadedDisplayProperties
 
-## -desc
+## -description
 Gets or sets a value that specifies for which types of media content, if any, the system should automatically load metadata to display in the System Media Transport Controls.
 
 ## -property-value

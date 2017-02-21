@@ -9,7 +9,7 @@ public Headset Headset { get; }
 
 # Windows.Gaming.Input.FlightStick.Headset
 
-## -desc
+## -description
 
 The audio headset attached to the flight stick.
 

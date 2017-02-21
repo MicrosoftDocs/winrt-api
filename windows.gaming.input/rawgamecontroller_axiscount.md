@@ -9,7 +9,7 @@ public int AxisCount { get; }
 
 # Windows.Gaming.Input.RawGameController.AxisCount
 
-## -desc
+## -description
 
 The number of axes on the raw game controller.
 

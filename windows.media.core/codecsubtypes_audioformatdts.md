@@ -9,7 +9,7 @@ public string AudioFormatDts { get; }
 
 # Windows.Media.Core.CodecSubtypes.AudioFormatDts
 
-## -desc
+## -description
 Gets the string representation of the GUID for the Digital Theater Systems (DTS) audio subtype.
 
 ## -property-value

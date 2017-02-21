@@ -9,7 +9,7 @@ public IVectorView<FlightStick> FlightSticks { get; }
 
 # Windows.Gaming.Input.FlightStick.FlightSticks
 
-## -desc
+## -description
 
 The list of all connected flight sticks.
 

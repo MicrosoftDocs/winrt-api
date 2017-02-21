@@ -9,7 +9,7 @@ public string VideoFormatWmv3 { get; }
 
 # Windows.Media.Core.CodecSubtypes.VideoFormatWmv3
 
-## -desc
+## -description
 Gets the string representation of the GUID for the Windows Media Video 9 video subtype.
 
 ## -property-value

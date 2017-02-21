@@ -9,7 +9,7 @@ public bool IsWireless { get; }
 
 # Windows.Gaming.Input.RawGameController.IsWireless
 
-## -desc
+## -description
 
 Gets a value that indicates the wireless state of the raw game controller.
 

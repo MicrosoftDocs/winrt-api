@@ -9,7 +9,7 @@ public GameControllerSwitchKind HatSwitchKind { get; }
 
 # Windows.Gaming.Input.FlightStick.HatSwitchKind
 
-## -desc
+## -description
 
 The type of hat switch on the flight stick.
 

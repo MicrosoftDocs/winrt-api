@@ -9,7 +9,7 @@ public string AudioFormatDrm { get; }
 
 # Windows.Media.Core.CodecSubtypes.AudioFormatDrm
 
-## -desc
+## -description
 Gets the string representation of the GUID for the encrypted audio data used with secure audio path audio subtype.
 
 ## -property-value

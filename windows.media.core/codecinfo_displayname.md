@@ -9,7 +9,7 @@ public string DisplayName { get; }
 
 # Windows.Media.Core.CodecInfo.DisplayName
 
-## -desc
+## -description
 Gets the friendly display name for the codec.
 
 ## -property-value

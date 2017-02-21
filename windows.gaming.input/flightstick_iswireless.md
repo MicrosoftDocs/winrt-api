@@ -9,7 +9,7 @@ public bool IsWireless { get; }
 
 # Windows.Gaming.Input.FlightStick.IsWireless
 
-## -desc
+## -description
 
 Gets a value that indicates the wireless state of the flight stick.
 

@@ -9,7 +9,7 @@ public MseStreamSource MseStreamSource { get; }
 
 # Windows.Media.Core.MediaSource.MseStreamSource
 
-## -desc
+## -description
 Gets the [MseStreamSource](msestreamsource.md) associated with the **MediaSource**.
 
 ## -property-value

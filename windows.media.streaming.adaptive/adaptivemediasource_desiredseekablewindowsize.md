@@ -9,7 +9,7 @@ public IReference<TimeSpan> DesiredSeekableWindowSize { get;  set; }
 
 # Windows.Media.Streaming.Adaptive.AdaptiveMediaSource.DesiredSeekableWindowSize
 
-## -desc
+## -description
 Gets or sets the requested maximum size of the time window within which the user can seek within the streaming media.
 
 ## -property-value

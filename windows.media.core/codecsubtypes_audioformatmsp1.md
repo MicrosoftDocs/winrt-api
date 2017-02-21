@@ -9,7 +9,7 @@ public string AudioFormatMsp1 { get; }
 
 # Windows.Media.Core.CodecSubtypes.AudioFormatMsp1
 
-## -desc
+## -description
 Gets the string representation of the GUID for the Windows Media Audio 9 Voice codec audio subtype.
 
 ## -property-value

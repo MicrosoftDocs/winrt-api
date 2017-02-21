@@ -9,7 +9,7 @@ public HResult ExtendedError { get; }
 
 # Windows.Media.Streaming.Adaptive.AdaptiveMediaSourceCreationResult.ExtendedError
 
-## -desc
+## -description
 Gets the extended error code associated with the creation of a [AdaptiveMediaSource](adaptivemediasource.md) object. 
 
 ## -property-value

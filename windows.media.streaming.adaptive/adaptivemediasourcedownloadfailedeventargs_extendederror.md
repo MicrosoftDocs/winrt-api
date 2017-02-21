@@ -9,7 +9,7 @@ public HResult ExtendedError { get; }
 
 # Windows.Media.Streaming.Adaptive.AdaptiveMediaSourceDownloadFailedEventArgs.ExtendedError
 
-## -desc
+## -description
 Gets the extended error code associate with the event.
 
 ## -property-value

@@ -9,7 +9,7 @@ public AdaptiveMediaSourceDownloadBitrateChangedReason Reason { get; }
 
 # Windows.Media.Streaming.Adaptive.AdaptiveMediaSourceDownloadBitrateChangedEventArgs.Reason
 
-## -desc
+## -description
 Gets a value specifying the reason that the download bitrate changed.
 
 ## -property-value

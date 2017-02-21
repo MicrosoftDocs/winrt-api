@@ -9,7 +9,7 @@ public IReference<ulong> ResourceByteRangeLength { get; }
 
 # Windows.Media.Streaming.Adaptive.AdaptiveMediaSourceDiagnosticAvailableEventArgs.ResourceByteRangeLength
 
-## -desc
+## -description
 Gets the resource byte range length of the web request to which the diagnostic information applies.
 
 ## -property-value

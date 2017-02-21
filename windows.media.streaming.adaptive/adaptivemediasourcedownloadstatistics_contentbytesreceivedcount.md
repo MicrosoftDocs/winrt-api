@@ -9,7 +9,7 @@ public ulong ContentBytesReceivedCount { get; }
 
 # Windows.Media.Streaming.Adaptive.AdaptiveMediaSourceDownloadStatistics.ContentBytesReceivedCount
 
-## -desc
+## -description
 Gets the count of bytes that have been received at the time of the event.
 
 ## -property-value

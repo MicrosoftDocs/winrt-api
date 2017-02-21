@@ -9,7 +9,7 @@ public int SwitchCount { get; }
 
 # Windows.Gaming.Input.RawGameController.SwitchCount
 
-## -desc
+## -description
 
 The number of switches on the raw game controller.
 

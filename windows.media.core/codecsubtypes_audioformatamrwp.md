@@ -9,7 +9,7 @@ public string AudioFormatAmrWP { get; }
 
 # Windows.Media.Core.CodecSubtypes.AudioFormatAmrWP
 
-## -desc
+## -description
 Gets the string representation of the GUID for the Adaptive Multi-Rate (AMR-WP) audio subtype.
 
 ## -property-value

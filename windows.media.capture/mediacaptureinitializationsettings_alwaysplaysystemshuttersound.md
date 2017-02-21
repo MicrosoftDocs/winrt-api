@@ -9,7 +9,7 @@ public bool AlwaysPlaySystemShutterSound { get;  set; }
 
 # Windows.Media.Capture.MediaCaptureInitializationSettings.AlwaysPlaySystemShutterSound
 
-## -desc
+## -description
 Gets a value indicating whether the system should always play a shutter sound when a photo is captured.
 
 ## -property-value

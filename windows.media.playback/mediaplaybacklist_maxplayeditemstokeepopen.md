@@ -9,7 +9,7 @@ public IReference<uint> MaxPlayedItemsToKeepOpen { get;  set; }
 
 # Windows.Media.Playback.MediaPlaybackList.MaxPlayedItemsToKeepOpen
 
-## -desc
+## -description
 Gets or sets a value that specifies the number of [MediaPlaybackItem](mediaplaybackitem.md) objects that should be kept open after they have been played. 
 
 ## -property-value

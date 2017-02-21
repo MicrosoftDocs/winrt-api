@@ -9,7 +9,7 @@ public string VideoFormatMP4S { get; }
 
 # Windows.Media.Core.CodecSubtypes.VideoFormatMP4S
 
-## -desc
+## -description
 Gets the string representation of the GUID for the ISO MPEG 4 codec version 1 video subtype.
 
 ## -property-value

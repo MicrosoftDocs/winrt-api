@@ -9,7 +9,7 @@ public string AudioFormatWMAudioLossless { get; }
 
 # Windows.Media.Core.CodecSubtypes.AudioFormatWMAudioLossless
 
-## -desc
+## -description
 Gets the string representation of the GUID for the Windows Media Audio 9 Lossless codec or Windows Media Audio 9.1 audio subtype.
 
 ## -property-value

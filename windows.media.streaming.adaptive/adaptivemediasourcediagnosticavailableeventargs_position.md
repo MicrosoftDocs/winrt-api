@@ -9,7 +9,7 @@ public IReference<TimeSpan> Position { get; }
 
 # Windows.Media.Streaming.Adaptive.AdaptiveMediaSourceDiagnosticAvailableEventArgs.Position
 
-## -desc
+## -description
 Gets the presentation playback position associated with the event.
 
 ## -property-value

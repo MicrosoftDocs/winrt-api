@@ -9,7 +9,7 @@ public AdaptiveMediaSourceDownloadStatistics Statistics { get; }
 
 # Windows.Media.Streaming.Adaptive.AdaptiveMediaSourceDownloadCompletedEventArgs.Statistics
 
-## -desc
+## -description
 Gets an object that provides download statistics associated with the event.
 
 ## -property-value

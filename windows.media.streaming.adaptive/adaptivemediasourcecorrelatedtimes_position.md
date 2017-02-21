@@ -9,7 +9,7 @@ public IReference<TimeSpan> Position { get; }
 
 # Windows.Media.Streaming.Adaptive.AdaptiveMediaSourceCorrelatedTimes.Position
 
-## -desc
+## -description
 Gets a timespan representing the current playback position of the media player that is playing the content.
 
 ## -property-value

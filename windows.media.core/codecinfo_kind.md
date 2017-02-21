@@ -9,7 +9,7 @@ public CodecKind Kind { get; }
 
 # Windows.Media.Core.CodecInfo.Kind
 
-## -desc
+## -description
 Gets a value specifying whether the codec operates on audio or video data.
 
 ## -property-value

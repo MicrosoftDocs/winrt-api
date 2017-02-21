@@ -9,7 +9,7 @@ public string VideoFormatMpg1 { get; }
 
 # Windows.Media.Core.CodecSubtypes.VideoFormatMpg1
 
-## -desc
+## -description
 Gets the string representation of the GUID for the MPEG-1 video subtype.
 
 ## -property-value

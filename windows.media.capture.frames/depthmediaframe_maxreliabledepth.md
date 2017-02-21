@@ -9,7 +9,7 @@ public uint MaxReliableDepth { get; }
 
 # Windows.Media.Capture.Frames.DepthMediaFrame.MaxReliableDepth
 
-## -desc
+## -description
 Gets a value that specifies the maximum reliable depth value for the camera that captured the depth frame.
 
 ## -property-value

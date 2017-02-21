@@ -9,7 +9,7 @@ public int RequestId { get; }
 
 # Windows.Media.Streaming.Adaptive.AdaptiveMediaSourceDownloadRequestedEventArgs.RequestId
 
-## -desc
+## -description
 Gets a locally-unique identifier for the web request associated with the event.
 
 ## -property-value

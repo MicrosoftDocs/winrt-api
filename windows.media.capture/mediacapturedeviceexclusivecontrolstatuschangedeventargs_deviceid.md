@@ -9,7 +9,7 @@ public string DeviceId { get; }
 
 # Windows.Media.Capture.MediaCaptureDeviceExclusiveControlStatusChangedEventArgs.DeviceId
 
-## -desc
+## -description
 Gets the device ID for the capture device for which exlusive control status has changed.
 
 ## -property-value

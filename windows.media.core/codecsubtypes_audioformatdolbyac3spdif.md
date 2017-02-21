@@ -9,7 +9,7 @@ public string AudioFormatDolbyAC3Spdif { get; }
 
 # Windows.Media.Core.CodecSubtypes.AudioFormatDolbyAC3Spdif
 
-## -desc
+## -description
 Gets the string representation of the GUID for the Dolby AC-3 audio over Sony/Philips Digital Interface (S/PDIF) audio subtype.
 
 ## -property-value

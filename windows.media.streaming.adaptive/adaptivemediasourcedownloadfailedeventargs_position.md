@@ -9,7 +9,7 @@ public IReference<TimeSpan> Position { get; }
 
 # Windows.Media.Streaming.Adaptive.AdaptiveMediaSourceDownloadFailedEventArgs.Position
 
-## -desc
+## -description
 Gets a time span representing the position within the timeline of the media segment to which the event applies.
 
 ## -property-value

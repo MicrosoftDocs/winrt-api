@@ -9,7 +9,7 @@ public IVectorView<ForceFeedbackMotor> ForceFeedbackMotors { get; }
 
 # Windows.Gaming.Input.RawGameController.ForceFeedbackMotors
 
-## -desc
+## -description
 
 The list of force feedback motors in the raw game controller.
 

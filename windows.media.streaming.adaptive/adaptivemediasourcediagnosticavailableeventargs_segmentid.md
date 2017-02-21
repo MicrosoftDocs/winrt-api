@@ -9,7 +9,7 @@ public IReference<ulong> SegmentId { get; }
 
 # Windows.Media.Streaming.Adaptive.AdaptiveMediaSourceDiagnosticAvailableEventArgs.SegmentId
 
-## -desc
+## -description
 Gets the segment ID of the media segment to which the diagnostic information applies.
 
 

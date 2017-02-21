@@ -9,7 +9,7 @@ public AdaptiveMediaSourceDiagnostics Diagnostics { get; }
 
 # Windows.Media.Streaming.Adaptive.AdaptiveMediaSource.Diagnostics
 
-## -desc
+## -description
 Gets an object that provides an event that is raised when diagnostic information about the adaptive media source is available.
 
 ## -property-value

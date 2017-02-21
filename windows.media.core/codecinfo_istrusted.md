@@ -9,7 +9,7 @@ public bool IsTrusted { get; }
 
 # Windows.Media.Core.CodecInfo.IsTrusted
 
-## -desc
+## -description
 Gets a value that indicates whether the codec runs in your app's process space rather than in a separate app service.
 
 ## -property-value

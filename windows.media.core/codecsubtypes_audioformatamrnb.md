@@ -9,7 +9,7 @@ public string AudioFormatAmrNB { get; }
 
 # Windows.Media.Core.CodecSubtypes.AudioFormatAmrNB
 
-## -desc
+## -description
 Gets the string representation of the GUID for the Adaptive Multi-Rate (AMR-NB) audio subtype.
 
 ## -property-value

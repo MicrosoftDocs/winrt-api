@@ -9,7 +9,7 @@ public Uri ResourceUri { get; }
 
 # Windows.Media.Streaming.Adaptive.AdaptiveMediaSourceDiagnosticAvailableEventArgs.ResourceUri
 
-## -desc
+## -description
 Gets the resource URI of the web request to which the diagnostic information applies.
 
 ## -property-value

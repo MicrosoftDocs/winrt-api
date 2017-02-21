@@ -9,7 +9,7 @@ public string VideoFormat420O { get; }
 
 # Windows.Media.Core.CodecSubtypes.VideoFormat420O
 
-## -desc
+## -description
 Gets the string representation of the GUID for the 8-bit per channel planar YUV 4:2:0 video subtype.
 
 ## -property-value

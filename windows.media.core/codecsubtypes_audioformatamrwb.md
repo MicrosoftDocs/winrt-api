@@ -9,7 +9,7 @@ public string AudioFormatAmrWB { get; }
 
 # Windows.Media.Core.CodecSubtypes.AudioFormatAmrWB
 
-## -desc
+## -description
 Gets the string representation of the GUID for the Adaptive Multi-Rate Wideband (AMR-WB) audio subtype.
 
 ## -property-value

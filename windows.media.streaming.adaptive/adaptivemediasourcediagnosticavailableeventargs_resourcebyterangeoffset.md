@@ -9,7 +9,7 @@ public IReference<ulong> ResourceByteRangeOffset { get; }
 
 # Windows.Media.Streaming.Adaptive.AdaptiveMediaSourceDiagnosticAvailableEventArgs.ResourceByteRangeOffset
 
-## -desc
+## -description
 Gets the resource byte range offset of the web request to which the diagnostic information applies.
 
 ## -property-value

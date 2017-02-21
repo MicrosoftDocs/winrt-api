@@ -9,7 +9,7 @@ public User User { get; }
 
 # Windows.Gaming.Input.RawGameController.User
 
-## -desc
+## -description
 
 The user associated with the raw game controller.
 

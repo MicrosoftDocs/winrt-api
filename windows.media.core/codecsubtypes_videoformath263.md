@@ -9,7 +9,7 @@ public string VideoFormatH263 { get; }
 
 # Windows.Media.Core.CodecSubtypes.VideoFormatH263
 
-## -desc
+## -description
 Gets the string representation of the GUID for the H.263 video subtype.
 
 ## -property-value

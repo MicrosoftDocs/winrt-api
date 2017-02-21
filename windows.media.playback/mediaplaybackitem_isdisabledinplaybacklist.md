@@ -9,7 +9,7 @@ public bool IsDisabledInPlaybackList { get;  set; }
 
 # Windows.Media.Playback.MediaPlaybackItem.IsDisabledInPlaybackList
 
-## -desc
+## -description
 Gets or sets a value that specifies whether a [MediaPlaybackItem](mediaplaybackitem.md) is disabled in a [MediaPlaybackList](mediaplaybacklist.md).
 
 ## -property-value

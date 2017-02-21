@@ -9,7 +9,7 @@ public MediaCaptureDeviceExclusiveControlStatus Status { get; }
 
 # Windows.Media.Capture.MediaCaptureDeviceExclusiveControlStatusChangedEventArgs.Status
 
-## -desc
+## -description
 Gets a value indicating whether exclusive control of the capture device specified with the [DeviceID](mediacapturedeviceexclusivecontrolstatuschangedeventargs_deviceid.md) property is available to the current app.
 
 ## -property-value

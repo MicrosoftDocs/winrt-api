@@ -9,7 +9,7 @@ public AdaptiveMediaSourceDiagnosticType DiagnosticType { get; }
 
 # Windows.Media.Streaming.Adaptive.AdaptiveMediaSourceDiagnosticAvailableEventArgs.DiagnosticType
 
-## -desc
+## -description
 Gets a value indicating the type of diagnostic that is associated with the event.
 
 ## -property-value

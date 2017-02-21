@@ -9,7 +9,7 @@ public IVectorView<string> Subtypes { get; }
 
 # Windows.Media.Core.CodecInfo.Subtypes
 
-## -desc
+## -description
 Gets a read-only list of values that specify the media subtypes supported by the codec.
 
 ## -property-value

@@ -9,7 +9,7 @@ public string VideoFormatHevc { get; }
 
 # Windows.Media.Core.CodecSubtypes.VideoFormatHevc
 
-## -desc
+## -description
 Gets the string representation of the GUID for the High Efficiency Video Coding (HEVC) Main profile and Main Still Picture profile video subtype.
 
 ## -property-value

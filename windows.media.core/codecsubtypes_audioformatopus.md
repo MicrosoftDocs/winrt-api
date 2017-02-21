@@ -9,7 +9,7 @@ public string AudioFormatOpus { get; }
 
 # Windows.Media.Core.CodecSubtypes.AudioFormatOpus
 
-## -desc
+## -description
 Gets the string representation of the GUID for the Opus audio subtype.
 
 ## -property-value

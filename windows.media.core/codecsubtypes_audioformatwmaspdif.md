@@ -9,7 +9,7 @@ public string AudioFormatWmaSpdif { get; }
 
 # Windows.Media.Core.CodecSubtypes.AudioFormatWmaSpdif
 
-## -desc
+## -description
 Gets the string representation of the GUID for the Windows Media Audio 9 Professional codec over S/PDIF audio subtype.
 
 ## -property-value

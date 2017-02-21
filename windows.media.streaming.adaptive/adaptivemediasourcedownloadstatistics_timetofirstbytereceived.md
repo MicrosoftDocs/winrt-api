@@ -9,7 +9,7 @@ public IReference<TimeSpan> TimeToFirstByteReceived { get; }
 
 # Windows.Media.Streaming.Adaptive.AdaptiveMediaSourceDownloadStatistics.TimeToFirstByteReceived
 
-## -desc
+## -description
 Gets the time window between when the system makes the asyncronous http request for the content and when the first block of data has been read from the http stream.
 
 ## -property-value

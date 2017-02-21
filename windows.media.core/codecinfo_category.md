@@ -9,7 +9,7 @@ public CodecCategory Category { get; }
 
 # Windows.Media.Core.CodecInfo.Category
 
-## -desc
+## -description
 Gets a value that specifies whether the codec is an encoder or a decoder.
 
 ## -property-value

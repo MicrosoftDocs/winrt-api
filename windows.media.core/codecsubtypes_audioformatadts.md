@@ -9,7 +9,7 @@ public string AudioFormatAdts { get; }
 
 # Windows.Media.Core.CodecSubtypes.AudioFormatAdts
 
-## -desc
+## -description
 Gets the string representation of the GUID for the Audio Data Transport Stream (ADTS) audio subtype.
 
 ## -property-value

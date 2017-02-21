@@ -9,7 +9,7 @@ public string VideoFormatDvsl { get; }
 
 # Windows.Media.Core.CodecSubtypes.VideoFormatDvsl
 
-## -desc
+## -description
 Gets the string representation of the GUID for the SD-DVCR (525-60 or 625-50) video subtype.
 
 ## -property-value

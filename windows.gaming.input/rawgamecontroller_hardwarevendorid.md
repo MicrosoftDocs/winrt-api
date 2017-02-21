@@ -9,7 +9,7 @@ public ushort HardwareVendorId { get; }
 
 # Windows.Gaming.Input.RawGameController.HardwareVendorId
 
-## -desc
+## -description
 
 The hardware vendor ID of the raw game controller.
 

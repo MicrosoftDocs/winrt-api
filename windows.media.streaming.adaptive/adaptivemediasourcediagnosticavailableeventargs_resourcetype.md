@@ -9,7 +9,7 @@ public IReference<AdaptiveMediaSourceResourceType> ResourceType { get; }
 
 # Windows.Media.Streaming.Adaptive.AdaptiveMediaSourceDiagnosticAvailableEventArgs.ResourceType
 
-## -desc
+## -description
 Gets the resource type of the web request to which the diagnostic information applies.
 
 

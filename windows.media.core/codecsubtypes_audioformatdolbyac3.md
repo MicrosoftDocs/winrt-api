@@ -9,7 +9,7 @@ public string AudioFormatDolbyAC3 { get; }
 
 # Windows.Media.Core.CodecSubtypes.AudioFormatDolbyAC3
 
-## -desc
+## -description
 Gets the string representation of the GUID for the Dolby Digital Audio Coding 3 (AC-3) audio subtype.
 
 ## -property-value

@@ -9,7 +9,7 @@ public string VideoFormatMpeg2 { get; }
 
 # Windows.Media.Core.CodecSubtypes.VideoFormatMpeg2
 
-## -desc
+## -description
 Gets the string representation of the GUID for the MPEG-2 video subtype.
 
 ## -property-value

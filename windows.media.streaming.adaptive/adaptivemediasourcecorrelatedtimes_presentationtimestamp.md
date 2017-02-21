@@ -9,7 +9,7 @@ public IReference<TimeSpan> PresentationTimeStamp { get; }
 
 # Windows.Media.Streaming.Adaptive.AdaptiveMediaSourceCorrelatedTimes.PresentationTimeStamp
 
-## -desc
+## -description
 Gets a timespan representing the presentation timestamp embedded in the streaming media.
 
 ## -property-value

@@ -9,7 +9,7 @@ public string VideoFormatMss1 { get; }
 
 # Windows.Media.Core.CodecSubtypes.VideoFormatMss1
 
-## -desc
+## -description
 Gets the string representation of the GUID for the Windows Media Screen codec version 1 video subtype.
 
 ## -property-value

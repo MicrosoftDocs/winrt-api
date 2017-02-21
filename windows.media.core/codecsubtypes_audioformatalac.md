@@ -9,7 +9,7 @@ public string AudioFormatAlac { get; }
 
 # Windows.Media.Core.CodecSubtypes.AudioFormatAlac
 
-## -desc
+## -description
 Gets the string representation of the GUID for the Apple Lossless Audio Codec (ALAC) audio subtype.
 
 ## -property-value

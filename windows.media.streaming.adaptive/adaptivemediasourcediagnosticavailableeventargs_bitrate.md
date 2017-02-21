@@ -9,7 +9,7 @@ public IReference<uint> Bitrate { get; }
 
 # Windows.Media.Streaming.Adaptive.AdaptiveMediaSourceDiagnosticAvailableEventArgs.Bitrate
 
-## -desc
+## -description
 Gets the bitrate of the web request to which the diagnostic information applies.
 
 ## -property-value

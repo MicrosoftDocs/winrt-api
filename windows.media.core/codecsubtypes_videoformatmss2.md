@@ -9,7 +9,7 @@ public string VideoFormatMss2 { get; }
 
 # Windows.Media.Core.CodecSubtypes.VideoFormatMss2
 
-## -desc
+## -description
 Gets the string representation of the GUID for the Windows Media Video 9 Screen codec video subtype.
 
 ## -property-value

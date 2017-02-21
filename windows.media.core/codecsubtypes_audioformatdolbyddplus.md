@@ -9,7 +9,7 @@ public string AudioFormatDolbyDDPlus { get; }
 
 # Windows.Media.Core.CodecSubtypes.AudioFormatDolbyDDPlus
 
-## -desc
+## -description
 Gets the string representation of the GUID for the Dolby Digital Plus (DD Plus) audio subtype.
 
 ## -property-value

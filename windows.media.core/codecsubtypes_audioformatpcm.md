@@ -9,7 +9,7 @@ public string AudioFormatPcm { get; }
 
 # Windows.Media.Core.CodecSubtypes.AudioFormatPcm
 
-## -desc
+## -description
 Gets the string representation of the GUID for the uncompressed PCM audio subtype.
 
 ## -property-value
