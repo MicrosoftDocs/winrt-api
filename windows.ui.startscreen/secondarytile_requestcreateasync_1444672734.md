@@ -28,7 +28,7 @@ After a secondary tile is created, you must provide the following properties bef
 + [SecondaryTileVisualElements.Square150x150Logo](secondarytilevisualelements_square150x150logo.md)
 
 
-This method returns an asynchronous **Boolean** value through its [IAsyncOperation](../windows.foundation/iasyncoperation_1.md) object as shown here. A value of **true** indicates that the secondary tile was created and pinned to the Start screen. ```javascript
+This method returns an asynchronous **Boolean** value through its [IAsyncOperation](../windows.foundation/iasyncoperation_1.md) object as shown here. A value of **true** indicates that the secondary tile was created and pinned to the Start screen.
   
 ```JavaScript  
 secondaryTile.requestCreateAsync().then( function (isPinned) { } );
