@@ -15,7 +15,7 @@ An entry in the [SortOrder](queryoptions_sortorder.md) list the specifies a prop
 ## -struct-fields
 
 ### -field PropertyName
-The name of the property to use for sorting, like [System.Author](XREF:TODO:properties.props_System_Author). The property must be registered on the system.
+The name of the property to use for sorting, like [System.Author](https://msdn.microsoft.com/library/windows/desktop/bb760652.aspx). The property must be registered on the system.
 
 For more information, see the [Windows Property System](http://msdn.microsoft.com/library/c2094bbe-a4ca-4f30-b16e-14dced2912bc).
     

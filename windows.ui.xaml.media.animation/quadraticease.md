@@ -30,8 +30,6 @@ The following example applies a [QuadraticEase](quadraticease.md) easing functio
 
 [!code-xml[QuadraticEase](../windows.ui.xaml.media.animation/code/QuadraticEase/csharp/Page.xaml#SnippetQuadraticEase)]
 
-[!code-vb[QuadraticEase](../windows.ui.xaml.media.animation/code/QuadraticEase/vbnet/MainPage.xaml.vb#SnippetQuadraticEase)]
-
 [!code-csharp[QuadraticEase_code](../windows.ui.xaml.media.animation/code/QuadraticEase/csharp/Page.xaml.cs#SnippetQuadraticEase_code)]
 
 [!code-vb[QuadraticEase_code](../windows.ui.xaml.media.animation/code/QuadraticEase/vbnet/MainPage.xaml.vb#SnippetQuadraticEase_code)]

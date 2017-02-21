@@ -34,8 +34,6 @@ This XAML example applies a [SineEase](sineease.md) easing function to a [Double
 
 [!code-xml[SineEase](../windows.ui.xaml.media.animation/code/SineEase/csharp/Page.xaml#SnippetSineEase)]
 
-[!code-vb[SineEase](../windows.ui.xaml.media.animation/code/SineEase/vbnet/MainPage.xaml.vb#SnippetSineEase)]
-
 [!code-csharp[SineEase_code](../windows.ui.xaml.media.animation/code/SineEase/csharp/Page.xaml.cs#SnippetSineEase_code)]
 
 [!code-vb[SineEase_code](../windows.ui.xaml.media.animation/code/SineEase/vbnet/MainPage.xaml.vb#SnippetSineEase_code)]

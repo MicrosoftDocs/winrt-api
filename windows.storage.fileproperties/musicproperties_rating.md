@@ -16,7 +16,7 @@ Gets or sets the rating associated with a music file.
 The media file rating, as a value between 0 and 99.
 
 ## -remarks
-The rating property for this media file type is obtained from the [Windows file properties](http://msdn.microsoft.com/library/7532e58f-bbf2-4e36-9d81-c8e04b92cb7c), specifically from [System.Rating](XREF:TODO:properties.props_System_Rating). [System.Rating](XREF:TODO:properties.props_System_Rating) has a value from 0 to 99. A value of 0 indicates that the file has not been rated.
+The rating property for this media file type is obtained from the [Windows file properties](http://msdn.microsoft.com/library/7532e58f-bbf2-4e36-9d81-c8e04b92cb7c), specifically from [System.Rating](https://msdn.microsoft.com/library/windows/desktop/bb787554.aspx). [System.Rating](https://msdn.microsoft.com/library/windows/desktop/bb787554.aspx) has a value from 0 to 99. A value of 0 indicates that the file has not been rated.
 
 Rating info is often presented to the user as a “star” metaphor, where a star rating can be from 0 to 5 stars. This is shown as the outline of 5 star shapes, with the current rating indicated by a horizontal color bar within the 5 star shapes. For more info, see [Guidelines for the Rating control](http://msdn.microsoft.com/library/7ef0eeeb-c097-4508-a295-2eba3f79cafd).
 

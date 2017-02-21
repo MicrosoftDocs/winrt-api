@@ -26,9 +26,10 @@ This operation will not block. The [IAsyncOperationWithProgress](../windows.foun
 
 When you call this method, the OS displays the following UI:
 
+  * The OS displays a dialog that tells the user that an app update is available to download and asks the user's permission to proceed with the download. If the user does not grant permission to start the download, the [OverallState](storepackageupdateresult_overallstate.md) property of the [StorePackageUpdateResult](storepackageupdateresult.md) return value has the value **Canceled**.
 
-+ The OS displays a dialog that tells the user that an app update is available to download and asks the user's permission to proceed with the download. If the user does not grant permission to start the download, the [OverallState](storepackageupdateresult_overallstate.md) property of the [StorePackageUpdateResult](storepackageupdateresult.md) return value has the value [Canceled](storepackageupdatestate.md).
-+ After the updated packages are downloaded, the OS displays another dialog that tells the user that the app update is waiting to be installed and asks the user's permission to proceed with the installation. This dialog warns the user that the app might need to restart. If the user does not grant permission to start the installation, the [OverallState](storepackageupdateresult_overallstate.md) property of the [StorePackageUpdateResult](storepackageupdateresult.md) return value has the value [Canceled](storepackageupdatestate.md).
+  * After the updated packages are downloaded, the OS displays another dialog that tells the user that the app update is waiting to be installed and asks the user's permission to proceed with the installation. This dialog warns the user that the app might need to restart. If the user does not grant permission to start the installation, the [OverallState](storepackageupdateresult_overallstate.md) property of the [StorePackageUpdateResult](storepackageupdateresult.md) return value has the value **Canceled**.
+
 The method that you assign to handle [Progress](../windows.foundation/iasyncoperationwithprogress_2_progress.md) notifications is called one time for each step in the download and installation process for each package in this request. The [Progress](../windows.foundation/iasyncoperationwithprogress_2_progress.md) handler receives a [StorePackageUpdateStatus](storepackageupdatestatus.md) argument that provides info about the update package that raised the progress notification.
 
 ## -examples

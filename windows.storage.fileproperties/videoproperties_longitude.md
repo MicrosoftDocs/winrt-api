@@ -18,10 +18,10 @@ The longitude coordinate where the photo was taken.
 
 The system computes this coordinate using the following file properties:
 
-+ [System.GPS.Longitude](XREF:TODO:properties.props_System_GPS_Longitude)
-+ [System.GPS.LongitudeDenominator](XREF:TODO:properties.props_System_GPS_LongitudeDenominator)
-+ [System.GPS.LongitudeNumerator](XREF:TODO:properties.props_System_GPS_LongitudeNumerator)
-+ [System.GPS.LongitudeRef](XREF:TODO:properties.props_System_GPS_LongitudeRef)
++ [System.GPS.Longitude](https://msdn.microsoft.com/library/windows/desktop/bb760566.aspx)
++ [System.GPS.LongitudeDenominator](https://msdn.microsoft.com/library/windows/desktop/bb760568.aspx)
++ [System.GPS.LongitudeNumerator](https://msdn.microsoft.com/library/windows/desktop/bb760570.aspx)
++ [System.GPS.LongitudeRef](https://msdn.microsoft.com/library/windows/desktop/bb760572.aspx)
 
 
 ## -remarks

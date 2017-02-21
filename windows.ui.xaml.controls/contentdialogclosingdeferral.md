@@ -13,7 +13,7 @@ public class ContentDialogClosingDeferral : Windows.UI.Xaml.Controls.IContentDia
 Represents a deferral that can be used by an app to respond asynchronously to the closing event of the [ContentDialog](contentdialog.md).
 
 ## -remarks
-<!-- <rem>TODO: Document how the developer can obtain this class object, and add or update retriever elements as necessary.</rem>-->
+You can get an instance of this class by calling [ContentDialogClosingEventArgs.GetDeferral](contentdialogclosingeventargs_getdeferral_254836512.md).
 
 ## -examples
 

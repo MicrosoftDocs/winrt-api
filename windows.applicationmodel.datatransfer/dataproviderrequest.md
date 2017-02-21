@@ -18,7 +18,7 @@ Use this object when you need to delay, or defer, a share for a few milliseconds
 ## -examples
 
 
-[!code-csharp[ShareFileFunction](../windows.applicationmodel.datatransfer/code/ShareMainBeta/cs/ShareEssentials1.xaml.cs#SnippetShareFileFunction)]
+[!code-csharp[ShareFileFunction_CS](../windows.applicationmodel.datatransfer/code/ShareMainBeta/cs/ShareEssentials1.xaml.cs#SnippetShareFileFunction_CS)]
 
 [!code-js[ShareFileFunction](../windows.applicationmodel.datatransfer/code/ShareMainBeta/javascript/js/ShareFiles.js#SnippetShareFileFunction)]
 

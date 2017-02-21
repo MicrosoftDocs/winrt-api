@@ -9,7 +9,7 @@
 Provides a common way to securely store and manage your passcodes, passphrases, and other identification information.
 
 > [!NOTE]
-> Enterprise credentials can't be roamed. For more information, see the [Managing user info (JavaScript)](XREF:TODO:nodepage.managing_user_information) or [Managing user info (C#/C++/VB)](XREF:TODO:nodepage.managing_user_information_xaml_) topics.
+> Enterprise credentials can't be roamed.
 
 The [Credential locker sample](http://code.msdn.microsoft.com/windowsapps/PasswordVault-f01be74a) gives specific scenarios of storing and retrieving credentials.
 

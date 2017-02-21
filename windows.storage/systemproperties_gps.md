@@ -10,10 +10,10 @@ public Windows.Storage.SystemGPSProperties GPS { get; }
 # Windows.Storage.SystemProperties.GPS
 
 ## -description
-Gets an object that provides the indexing names of [Windows system file properties](http://msdn.microsoft.com/library/a19d6c4e-b3f3-4e54-99cd-76e16f650e3a) for **System.GPS**.
+Gets an object that provides the indexing names of [Windows system file properties](https://msdn.microsoft.com/library/windows/desktop/dd561977.aspx) for **System.GPS**.
 
 ## -property-value
-A helper object that provides names for [GPS-related file properties](http://msdn.microsoft.com/library/a19d6c4e-b3f3-4e54-99cd-76e16f650e3a).
+A helper object that provides names for [GPS-related file properties](https://msdn.microsoft.com/library/windows/desktop/ff521689.aspx).
 
 ## -remarks
 
