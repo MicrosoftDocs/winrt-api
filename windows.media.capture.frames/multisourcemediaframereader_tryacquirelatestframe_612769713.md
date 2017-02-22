@@ -10,7 +10,6 @@ public MultiSourceMediaFrameReference MultiSourceMediaFrameReader.TryAcquireLate
 # Windows.Media.Capture.Frames.MultiSourceMediaFrameReader.TryAcquireLatestFrame
 
 ## -description
-## -description
 Attempts to obtain a [MultiSourceMediaFrameReference](multisourcemediaframereference.md) object which provides access to the latest time-correlated frames from one or more [MediaFrameSource](mediaframesource.md) objects.
 
 ## -returns

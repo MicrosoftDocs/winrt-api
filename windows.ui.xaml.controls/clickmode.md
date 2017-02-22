@@ -51,5 +51,3 @@ The following example demonstrates the [ClickMode](clickmode.md) enumeration.
 
 ## -see-also
 ols.ButtonClickModeSL/vbnet/Page.xaml.vb#Snippet11)]
-
-## -see-also
