@@ -28,7 +28,5 @@ Text is one of the data types that the [DataPackage](datapackage.md) object supp
 
 [!code-js[HowToShareTextBasic](../windows.applicationmodel.datatransfer/code/ShareMainBeta/javascript/js/ShareText.js#SnippetHowToShareTextBasic)]
 
-## -see-also
-oShareTextBasic)]
 
 ## -see-also

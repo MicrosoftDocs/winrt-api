@@ -32,6 +32,3 @@ The following code shows how to get a [DataPackage](datapackage.md) object from 
 [!code-js[HowToShareTextBasic](../windows.applicationmodel.datatransfer/code/ShareMainBeta/javascript/js/ShareText.js#SnippetHowToShareTextBasic)]
 
 ## -see-also
-oShareTextBasic)]
-
-## -see-also

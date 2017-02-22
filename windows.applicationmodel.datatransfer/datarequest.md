@@ -25,6 +25,3 @@ The following code shows how to use the **DataRequest** object as part of settin
 [!code-js[HowToShareTextBasic](../windows.applicationmodel.datatransfer/code/ShareMainBeta/javascript/js/ShareText.js#SnippetHowToShareTextBasic)]
 
 ## -see-also
-oShareTextBasic)]
-
-## -see-also

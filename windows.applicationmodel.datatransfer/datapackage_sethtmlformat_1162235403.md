@@ -28,7 +28,5 @@ If your app supports selection or copying/pasting of HTML content that contains 
 
 [!code-js[HowToShareHtml](../windows.applicationmodel.datatransfer/code/ShareMainBeta/javascript/js/ShareHtml.js#SnippetHowToShareHtml)]
 
-## -see-also
-tHowToShareHtml)]
 
 ## -see-also

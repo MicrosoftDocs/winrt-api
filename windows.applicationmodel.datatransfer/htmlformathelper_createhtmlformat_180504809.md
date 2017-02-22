@@ -29,6 +29,3 @@ A string representing the formatted HTML.
 [!code-js[HowToShareHtml](../windows.applicationmodel.datatransfer/code/ShareMainBeta/javascript/js/ShareHtml.js#SnippetHowToShareHtml)]
 
 ## -see-also
-tHowToShareHtml)]
-
-## -see-also

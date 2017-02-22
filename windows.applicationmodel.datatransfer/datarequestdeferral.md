@@ -25,6 +25,3 @@ This example shows how to get a [DataRequestDeferral](datarequestdeferral.md) ob
 [!code-js[HowToShareImage](../windows.applicationmodel.datatransfer/code/ShareMainBeta/javascript/js/ShareImage.js#SnippetHowToShareImage)]
 
 ## -see-also
-HowToShareImage)]
-
-## -see-also

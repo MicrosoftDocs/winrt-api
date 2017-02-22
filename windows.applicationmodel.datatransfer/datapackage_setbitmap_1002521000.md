@@ -31,6 +31,3 @@ The following example uses the **setBitmap** method to share an image with a tar
 [!code-js[HowToShareImage](../windows.applicationmodel.datatransfer/code/ShareMainBeta/javascript/js/ShareImage.js#SnippetHowToShareImage)]
 
 ## -see-also
-HowToShareImage)]
-
-## -see-also

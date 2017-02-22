@@ -27,6 +27,3 @@ This example demonstrates the use of the **Bitmap** property. To use the code in
 [!code-js[HowToShareImage](../windows.applicationmodel.datatransfer/code/ShareMainBeta/javascript/js/ShareImage.js#SnippetHowToShareImage)]
 
 ## -see-also
-HowToShareImage)]
-
-## -see-also

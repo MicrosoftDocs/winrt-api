@@ -28,6 +28,3 @@ This example shows how you can set the title for the content in a [DataPackage.]
 [!code-js[HowToShareTextBasic](../windows.applicationmodel.datatransfer/code/ShareMainBeta/javascript/js/ShareText.js#SnippetHowToShareTextBasic)]
 
 ## -see-also
-oShareTextBasic)]
-
-## -see-also

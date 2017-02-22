@@ -29,6 +29,3 @@ This example uses an inline function to handle a **datarequested** event.
 [!code-js[HowToShareTextBasic](../windows.applicationmodel.datatransfer/code/ShareMainBeta/javascript/js/ShareText.js#SnippetHowToShareTextBasic)]
 
 ## -see-also
-oShareTextBasic)]
-
-## -see-also
