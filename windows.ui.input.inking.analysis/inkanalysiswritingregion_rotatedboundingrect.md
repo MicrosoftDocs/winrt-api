@@ -10,7 +10,6 @@ public IVectorView<Point> RotatedBoundingRect { get; }
 # Windows.UI.Input.Inking.Analysis.InkAnalysisWritingRegion.RotatedBoundingRect
 
 ## -description
-## -description
 Gets the oriented and snapped, bounding rectangle of the InkAnalysisWritingRegion object. 
 
 | Bounding rectangle | Rotated bounding rectangle |
