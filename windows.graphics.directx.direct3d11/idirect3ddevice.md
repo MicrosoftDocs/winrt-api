@@ -10,10 +10,10 @@ public interface IDirect3DDevice : Windows.Foundation.IClosable
 # Windows.Graphics.DirectX.Direct3D11.IDirect3DDevice
 
 ## -description
-This represents an [IDXGIDevice](http://msdn.microsoft.com/library/83b24b82-9044-4c99-8d50-63f1e8aef8db) and can be used to interop between Windows Runtime components that need to exchange [IDXGIDevice](http://msdn.microsoft.com/library/83b24b82-9044-4c99-8d50-63f1e8aef8db) references.
+This represents an [IDXGIDevice](https://msdn.microsoft.com/en-us/library/windows/desktop/bb174527) and can be used to interop between Windows Runtime components that need to exchange [IDXGIDevice](https://msdn.microsoft.com/en-us/library/windows/desktop/bb174527) references.
 
 ## -remarks
-To move back and forth between [IDirect3DDevice](direct3ddevice.md) and [IDXGIDevice](http://msdn.microsoft.com/library/83b24b82-9044-4c99-8d50-63f1e8aef8db), use the [CreateDirect3DDevice](createdirect3ddevice.md) and [GetDXGIInterface(IDirect3DDevice^, DXGIType**)](getdxgiinterface.md) functions.
+To move back and forth between [IDirect3DDevice](idirect3ddevice.md) and [IDXGIDevice](https://msdn.microsoft.com/en-us/library/windows/desktop/bb174527), use the [CreateDirect3DDevice](https://msdn.microsoft.com/en-us/library/windows/apps/dn895089) and [GetDXGIInterface(IDirect3DDevice^, DXGIType**)](https://msdn.microsoft.com/en-us/library/windows/apps/dn895100) functions.
 
 ## -examples
 First include the necessary headers and namespaces:

@@ -36,8 +36,6 @@ This XAML example applies a [CircleEase](circleease.md) easing function to a [Do
 
 [!code-xml[CircleEase](../windows.ui.xaml.media.animation/code/CircleEase/csharp/Page.xaml#SnippetCircleEase)]
 
-[!code-vb[CircleEase](../windows.ui.xaml.media.animation/code/CircleEase/vbnet/MainPage.xaml.vb#SnippetCircleEase)]
-
 [!code-csharp[CircleEase_code](../windows.ui.xaml.media.animation/code/CircleEase/csharp/Page.xaml.cs#SnippetCircleEase_code)]
 
 [!code-vb[CircleEase_code](../windows.ui.xaml.media.animation/code/CircleEase/vbnet/MainPage.xaml.vb#SnippetCircleEase_code)]

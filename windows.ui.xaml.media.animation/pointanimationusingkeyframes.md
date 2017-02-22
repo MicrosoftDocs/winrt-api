@@ -43,8 +43,6 @@ The following example moves an ellipse along a triangular path. The example uses
 
 [!code-xml[Pointanimationusingkeyframes](../windows.ui.xaml/code/pointanimationusingkeyframes/csharp/Page.xaml#SnippetPointanimationusingkeyframes)]
 
-[!code-vb[Pointanimationusingkeyframes](../windows.ui.xaml/code/pointanimationusingkeyframes/vbnet/Page.xaml.vb#SnippetPointanimationusingkeyframes)]
-
 [!code-csharp[Pointanimationusingkeyframes_cs](../windows.ui.xaml/code/pointanimationusingkeyframes/csharp/Page.xaml.cs#SnippetPointanimationusingkeyframes_cs)]
 
 [!code-vb[Pointanimationusingkeyframes_cs](../windows.ui.xaml/code/pointanimationusingkeyframes/vbnet/Page.xaml.vb#SnippetPointanimationusingkeyframes_cs)]

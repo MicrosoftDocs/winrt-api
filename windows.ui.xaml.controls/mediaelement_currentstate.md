@@ -24,13 +24,9 @@ The following example demonstrates one way to display the [CurrentState](mediael
 
 [!code-xml[media_ovw_controlling_media_with_currentstate](../windows.ui.xaml.controls/code/media_ovw_controlling_media_with_currentstate/csharp/Page.xaml#Snippetmedia_ovw_controlling_media_with_currentstate)]
 
-[!code-vb[media_ovw_controlling_media_with_currentstate](../windows.ui.xaml.controls/code/media_ovw_controlling_media_with_currentstate/vbnet/Page.xaml.vb#Snippetmedia_ovw_controlling_media_with_currentstate)]
 
 [!code-csharp[media_ovw_controlling_media_with_currentstate_code](../windows.ui.xaml.controls/code/media_ovw_controlling_media_with_currentstate/csharp/Page.xaml.cs#Snippetmedia_ovw_controlling_media_with_currentstate_code)]
 
 [!code-vb[media_ovw_controlling_media_with_currentstate_code](../windows.ui.xaml.controls/code/media_ovw_controlling_media_with_currentstate/vbnet/Page.xaml.vb#Snippetmedia_ovw_controlling_media_with_currentstate_code)]
-
-## -see-also
-media_ovw_controlling_media_with_currentstate_code)]
 
 ## -see-also

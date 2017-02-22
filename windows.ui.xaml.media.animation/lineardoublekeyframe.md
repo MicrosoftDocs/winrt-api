@@ -42,11 +42,11 @@ This XAML example moves a rectangle across a screen. The example uses the [Linea
 
 
 
-[!code-xml[Doubleanimationusingkeyframes2](../windows.ui.xaml.media.animation/code/doubleanimationusingkeyframes2/csharp/Page.xaml#SnippetDoubleanimationusingkeyframes2)]
+[!code-xml[Doubleanimationusingkeyframes2](../windows.ui.xaml.media.animation/code/doubleanimationusingkeyframes2/csharp/Page.xaml#SnippetDoubleanimationusingkeyframes2_cs)]
 
 [!code-vb[Doubleanimationusingkeyframes2](../windows.ui.xaml.media.animation/code/doubleanimationusingkeyframes2/vbnet/Page.xaml.vb#SnippetDoubleanimationusingkeyframes2)]
 
-[!code-xml[Doubleanimationusingkeyframes2_cs](../windows.ui.xaml.media.animation/code/doubleanimationusingkeyframes2/csharp/Page.xaml#SnippetDoubleanimationusingkeyframes2_cs)]
+[!code-csharp[Doubleanimationusingkeyframes2_cs](../windows.ui.xaml.media.animation/code/doubleanimationusingkeyframes2/csharp/Page.xaml.cs#SnippetDoubleanimationusingkeyframes2)]
 
 ## -see-also
 [Storyboarded animations](http://msdn.microsoft.com/library/0cbceea0-2b0e-44a1-a09a-f7a939632f3a), [Key-frame animations and easing function animations](http://msdn.microsoft.com/library/d8af24cd-f4c2-4562-afd7-25010955d677), [DoubleKeyFrame](doublekeyframe.md), [DoubleAnimationUsingKeyFrames](doubleanimationusingkeyframes.md), [DoubleKeyFrameCollection](doublekeyframecollection.md), [KeyTime](doublekeyframe_keytime.md), [Value](doublekeyframe_value.md)

@@ -16,7 +16,7 @@ Gets the pixels per logical inch of the current environment.
 The pixels per logical inch of the current environment.
 
 ## -remarks
-The logical dots per inch (DPI) can change based on scaling. For info about the meaning of logical DPI, see [DPI and Device-Independent Pixels](XREF:TODO:learnwin32.dpi_and_device-independent_pixels).
+The logical dots per inch (DPI) can change based on scaling. For info about the meaning of logical DPI, see [DPI and Device-Independent Pixels](https://msdn.microsoft.com/en-us/library/windows/desktop/ff684173).
 
 ## -examples
 

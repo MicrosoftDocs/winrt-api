@@ -10,10 +10,10 @@ public string HorizontalSize { get; }
 # Windows.Storage.SystemImageProperties.HorizontalSize
 
 ## -description
-Gets the name of the [System.Image.HorizontalSize](XREF:TODO:properties.props_System_Image_HorizontalSize) property (one of the [Windows image file properties](http://msdn.microsoft.com/library/278eadc0-62ab-4b28-b238-93e96ce9da00)).
+Gets the name of the [System.Image.HorizontalSize](https://msdn.microsoft.com/library/windows/desktop/bb787462.aspx) property (one of the [Windows image file properties](https://msdn.microsoft.com/library/windows/desktop/ff521691.aspx).
 
 ## -property-value
-The name of the [System.Image.HorizontalSize](XREF:TODO:properties.props_System_Image_HorizontalSize) file property.
+The name of the [System.Image.HorizontalSize](https://msdn.microsoft.com/library/windows/desktop/bb787462.aspx) file property.
 
 ## -remarks
 

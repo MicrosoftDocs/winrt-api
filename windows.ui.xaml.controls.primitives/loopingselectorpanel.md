@@ -13,7 +13,6 @@ public class LoopingSelectorPanel : Windows.UI.Xaml.Controls.Canvas, Windows.UI.
 A panel for positioning and arranging child [LoopingSelector](loopingselector.md) elements.
 
 ## -remarks
-<!-- <rem>TODO: Document how the developer can obtain this class object, and add or update retriever elements as necessary.</rem>-->
 
 <!--No XAML syntax for this class. Can't be used as a XAML element because there is no public constructor. Not actually sure what scenarios require that the class is public.-->
 

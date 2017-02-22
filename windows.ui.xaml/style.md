@@ -85,7 +85,7 @@ Notice that in the style for the [TextBox](../windows.ui.xaml.controls/textbox.m
 
 
 
-[!code-xml[1](../windows.ui.xaml.data/code/StylingTemplatingOverview/csharp/ButtonStages.xaml#Snippet1)]
+[!code-xml[11](../windows.ui.xaml.data/code/StylingTemplatingOverview/csharp/ButtonStages.xaml#Snippet11)]
 
 
 

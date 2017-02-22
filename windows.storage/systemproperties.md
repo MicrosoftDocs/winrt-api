@@ -10,7 +10,7 @@ public class SystemProperties
 # Windows.Storage.SystemProperties
 
 ## -description
-Provides string values for indexing names of common [Windows file properties](http://msdn.microsoft.com/library/7532e58f-bbf2-4e36-9d81-c8e04b92cb7c) such as [System.Title](XREF:TODO:properties.props_System_Title), and also references helper objects that provide indexing names for properties of specific file types (for example video files).
+Provides string values for indexing names of common [Windows file properties](http://msdn.microsoft.com/library/7532e58f-bbf2-4e36-9d81-c8e04b92cb7c) such as [System.Title](https://msdn.microsoft.com/library/windows/desktop/bb787584.aspx), and also references helper objects that provide indexing names for properties of specific file types (for example video files).
 
 ## -remarks
 The scenario for using [SystemProperties](systemproperties.md) is when you are defining search indexes or other operations where you want the indexing to use the same name for a property that the system has already defined, as one of the [Windows file properties](http://msdn.microsoft.com/library/7532e58f-bbf2-4e36-9d81-c8e04b92cb7c).

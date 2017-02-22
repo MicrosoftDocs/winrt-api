@@ -27,10 +27,8 @@ The first magnetic stripe reader found. Returns a null object in the following c
 
 [!code-csharp[CreateMagStripeReader](../windows.devices.pointofservice/code/MagneticStripeReader/cs/Scenario1.xaml.cs#SnippetCreateMagStripeReader)]
 
-[!code-js[CreateMagStripeReader](../windows.devices.pointofservice/code/MagneticStripeReader/js/scenario1.js#SnippetCreateMagStripeReader)]
 
 [!code-js[CreateMagStripeReaderJS](../windows.devices.pointofservice/code/MagneticStripeReader/js/scenario1.js#SnippetCreateMagStripeReaderJS)]
 
 ## -see-also
 [Magnetic stripe reader sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620017)
-soft.com/fwlink/p/?LinkId=620017)

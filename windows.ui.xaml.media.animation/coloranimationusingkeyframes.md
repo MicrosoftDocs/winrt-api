@@ -43,7 +43,7 @@ The following example uses the [ColorAnimationUsingKeyFrames](coloranimationusin
 
 [!code-xml[Coloranimationusingkeyframes](../windows.ui.xaml.media.animation/code/coloranimationusingkeyframes/csharp/Page.xaml#SnippetColoranimationusingkeyframes)]
 
-[!code-vb[Coloranimationusingkeyframes](../windows.ui.xaml.media.animation/code/coloranimationusingkeyframes/vbnet/Page.xaml.vb#SnippetColoranimationusingkeyframes)]
+
 
 [!code-csharp[Coloranimationusingkeyframes_cs](../windows.ui.xaml.media.animation/code/coloranimationusingkeyframes/csharp/Page.xaml.cs#SnippetColoranimationusingkeyframes_cs)]
 

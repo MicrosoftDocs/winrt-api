@@ -17,7 +17,7 @@ To use this API, you must specify the **networkingVpnProvider** capability in yo
 
 If your app is using this API and you wish to publish your app to the Microsoft Store, special permissions must be provisioned for your Microsoft developer account, or the VPN calls will fail at runtime. This permission is not needed if the application is side-loaded or installed through a different method.
 
-To request permission to release your VPN app through the Microsoft Store, contact [msftvpnstore@microsoft.com](mailto:msftvpnstore@microsoft.com) and include information about your company and your VPN app.
+To request permission to release your VPN app through the Microsoft Store,  go to the [Windows Developer Support](https://developer.microsoft.com/windows/support) page and choose **Submit an Incident**. Indicate your request to publish your VPN Plug-In through the Microsoft Store.
 
 If you have any questions about the VPN API, contact [msftvpnapi@microsoft.com](mailto:msftvpnapi@microsoft.com).
 

@@ -42,15 +42,12 @@ The following example shows how to use [ColorAnimation](coloranimation.md) to an
 
 [!code-xml[Coloranimation](../windows.ui.xaml.media.animation/code/coloranimation/csharp/Page.xaml#SnippetColoranimation)]
 
-[!code-vb[Coloranimation](../windows.ui.xaml.media.animation/code/coloranimation/vbnet/Page.xaml.vb#SnippetColoranimation)]
 
-[!code-xml[Coloranimation](../windows.ui.xaml.media.animation/code/coloranimationusingkeyframes/csharp/Page.xaml#SnippetColoranimation)]
+[!code-xml[Coloranimation](../windows.ui.xaml.media.animation/code/coloranimationusingkeyframes/csharp/Page.xaml#SnippetColoranimationUsingKeyframesw)]
 
-[!code-vb[Coloranimation](../windows.ui.xaml.media.animation/code/coloranimationusingkeyframes/vbnet/Page.xaml.vb#SnippetColoranimation)]
 
-[!code-xml[Coloranimation](../windows.ui.xaml.media.animation/code/coloranimation_direct_targeting/csharp/Page.xaml#SnippetColoranimation)]
+[!code-xml[Coloranimation](../windows.ui.xaml.media.animation/code/coloranimation_direct_targeting/csharp/Page.xaml#SnippetColoranimation_direct_targeting)]
 
-[!code-vb[Coloranimation](../windows.ui.xaml.media.animation/code/coloranimation_direct_targeting/vbnet/Page.xaml.vb#SnippetColoranimation)]
 
 [!code-csharp[Coloranimation_cs](../windows.ui.xaml.media.animation/code/coloranimation/csharp/Page.xaml.cs#SnippetColoranimation_cs)]
 
@@ -66,7 +63,6 @@ Alternatively, you could explicitly create the [SolidColorBrush](../windows.ui.x
 
 [!code-xml[Coloranimation_direct_targeting](../windows.ui.xaml.media.animation/code/coloranimation_direct_targeting/csharp/Page.xaml#SnippetColoranimation_direct_targeting)]
 
-[!code-vb[Coloranimation_direct_targeting](../windows.ui.xaml.media.animation/code/coloranimation_direct_targeting/vbnet/Page.xaml.vb#SnippetColoranimation_direct_targeting)]
 
 [!code-csharp[Coloranimation_direct_targeting_cs](../windows.ui.xaml.media.animation/code/coloranimation_direct_targeting/csharp/Page.xaml.cs#SnippetColoranimation_direct_targeting_cs)]
 
