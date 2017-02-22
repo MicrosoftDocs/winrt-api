@@ -16,7 +16,7 @@ Gets or sets the anchor point of the [MapBillboard](mapbillboard.md). The anchor
 The anchor point of the [MapBillboard](mapbillboard.md).
 
 ## -remarks
-When you display a [MapBillboard](mapbillboard.md) image that points to a specific location on the map - for example, a pushpin or an arrow - consider setting the value of the [NormalizedAnchorPoint](mapbillboard_normalizedanchorpoint.md) property to the approximate location of the pointer on the image. If you leave the value of [NormalizedAnchorPoint](mapbillboard_normalizedanchorpoint.md) at its default value of (0, 0), which represents the upper left corner of the image, changes in the [ZoomLevel](mapcontrol_zoomlevel.md) of the map may leave the image pointing to a different location.
+When you display a [MapBillboard](mapbillboard.md) image that points to a specific location on the map - for example, a pushpin or an arrow - consider setting the value of the [NormalizedAnchorPoint](mapbillboard_normalizedanchorpoint.md) property to the approximate location of the pointer on the image. If you leave the value of [NormalizedAnchorPoint](mapbillboard_normalizedanchorpoint.md) at its default value of (0.5, 1), which represents the bottom center of the image, changes in the [ZoomLevel](mapcontrol_zoomlevel.md) of the map may leave the image pointing to a different location.
 
 ## -see-also
 

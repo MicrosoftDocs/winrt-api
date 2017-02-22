@@ -15,7 +15,7 @@ Initializes a new instance of the [MapBillboard](mapbillboard.md) class.
 ## -params
 
 ## -param camera
-The [MapCamera](mapcamera.md) settings that define the current position of the camera.
+The [MapCamera](mapcamera.md) settings that define the current position of the reference camera.
 
 ## -remarks
 
