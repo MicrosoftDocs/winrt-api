@@ -28,6 +28,3 @@ This example calls the **GetForCurrentView** method to get the [DataTransferMana
 [!code-js[HowToShareTextBasic](../windows.applicationmodel.datatransfer/code/ShareMainBeta/javascript/js/ShareText.js#SnippetHowToShareTextBasic)]
 
 ## -see-also
-oShareTextBasic)]
-
-## -see-also

@@ -26,6 +26,3 @@ HTML content often contains references to other files. The most common example i
 [!code-js[HowToShareHtml](../windows.applicationmodel.datatransfer/code/ShareMainBeta/javascript/js/ShareHtml.js#SnippetHowToShareHtml)]
 
 ## -see-also
-tHowToShareHtml)]
-
-## -see-also

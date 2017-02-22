@@ -32,6 +32,3 @@ This example shows how you can add a thumbnail image to a [DataPackage](datapack
 [!code-js[HowToShareImage](../windows.applicationmodel.datatransfer/code/ShareMainBeta/javascript/js/ShareImage.js#SnippetHowToShareImage)]
 
 ## -see-also
-HowToShareImage)]
-
-## -see-also

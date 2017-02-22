@@ -37,7 +37,5 @@ The **SetDataProvider** method is different from the [GetDeferral](datarequest_g
 
 [!code-js[HowToShareFiles](../windows.applicationmodel.datatransfer/code/ShareMainBeta/javascript/js/ShareFiles.js#SnippetHowToShareFiles)]
 
-## -see-also
-HowToShareFiles)]
 
 ## -see-also

@@ -25,6 +25,3 @@ This example shows how to call the **complete** method after getting a [DataRequ
 [!code-js[HowToShareImage](../windows.applicationmodel.datatransfer/code/ShareMainBeta/javascript/js/ShareImage.js#SnippetHowToShareImage)]
 
 ## -see-also
-HowToShareImage)]
-
-## -see-also

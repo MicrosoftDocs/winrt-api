@@ -23,6 +23,3 @@ Use this object when you need to delay, or defer, a share for a few milliseconds
 [!code-js[ShareFileFunction](../windows.applicationmodel.datatransfer/code/ShareMainBeta/javascript/js/ShareFiles.js#SnippetShareFileFunction)]
 
 ## -see-also
-areFileFunction)]
-
-## -see-also
