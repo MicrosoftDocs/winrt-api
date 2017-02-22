@@ -25,7 +25,5 @@ The following example shows how to use [GetLayoutSlot](layoutinformation_getlayo
 
 [!code-vb[2](../windows.ui.xaml.controls.primitives/code/GetLayoutInfo/vbnet/Page.xaml.vb#Snippet2)]
 
-## -see-also
-aml.vb#Snippet2)]
 
 ## -see-also

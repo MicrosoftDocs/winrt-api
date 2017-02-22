@@ -216,15 +216,3 @@ private void ShowPopupClicked(object sender, RoutedEventArgs e)
 
 ## -see-also
 [Control](control.md)
-e page and opens the Popup. 
-private void ShowPopupClicked(object sender, RoutedEventArgs e)
-{
-    // Open the Popup if it isn't open already.
-    if (!mediaPlayerPopup.IsOpen) { mediaPlayerPopup.IsOpen = true; }
-}
-```
-
-
-
-## -see-also
-[Control](control.md)

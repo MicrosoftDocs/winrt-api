@@ -22,15 +22,13 @@ The X, Y coordinates for each vertex point of the bounding box for the InkAnalys
 
 ## -remarks
 
+## -examples
+
 ## -see-also
 [InkAnalysisWritingRegion.BoundingRect](inkanalysiswritingregion_boundingrect.md)
 
-## -examples
 
 
-## -remarks
 
-## -see-also
 
-## -examples
 

@@ -27,6 +27,3 @@ No object or value is returned when this method completes.
 [!code-js[CreateBarcodeScannerJS](../windows.devices.pointofservice/code/BarcodeScanner/js/scenario1.js#SnippetCreateBarcodeScannerJS)]
 
 ## -see-also
-arcodeScannerJS)]
-
-## -see-also

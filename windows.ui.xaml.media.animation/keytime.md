@@ -59,7 +59,5 @@ This example uses XAML attribute syntax to set [KeyTime](doublekeyframe_keytime.
 
 [!code-vb[Doubleanimationusingkeyframes](../windows.ui.xaml.media.animation/code/doubleanimationusingkeyframes2/vbnet/Page.xaml.vb#SnippetDoubleanimationusingkeyframes_cs)]
 
-## -see-also
-nusingkeyframes)]
 
 ## -see-also

@@ -44,9 +44,6 @@ Additionally, the [Context menu sample](http://go.microsoft.com/fwlink/p/?linkid
 
 [!code-js[selectionrect_js](../windows.ui.popups/code/ContextMenu/js/js/scenario2.js#Snippetselectionrect_js)]
 
-## -see-also
-[Adding context menus](http://msdn.microsoft.com/library/9778aea7-c959-4b3e-bd79-9659f07095a6), [Context menu sample](http://go.microsoft.com/fwlink/p/?linkid=234891), [Guidelines and checklist for ](http://msdn.microsoft.com/library/23063edd-ed89-4a82-9857-44001fad770b), [IUICommand](iuicommand.md), [oncontextmenu](XREF:TODO:wwa.oncontextmenu_Event), [Rect](../windows.foundation/rect.md), [ShowForSelectionAsync(Rect, Placement)](popupmenu_showforselectionasync_655080999.md), [UICommand](uicommand.md)
-tes, and those coordinates are used as the *selection*[Rect](../windows.foundation/rect.md).
 
 ## -see-also
 [Adding context menus](http://msdn.microsoft.com/library/9778aea7-c959-4b3e-bd79-9659f07095a6), [Context menu sample](http://go.microsoft.com/fwlink/p/?linkid=234891), [Guidelines and checklist for ](http://msdn.microsoft.com/library/23063edd-ed89-4a82-9857-44001fad770b), [IUICommand](iuicommand.md), [oncontextmenu](XREF:TODO:wwa.oncontextmenu_Event), [Rect](../windows.foundation/rect.md), [ShowForSelectionAsync(Rect, Placement)](popupmenu_showforselectionasync_655080999.md), [UICommand](uicommand.md)

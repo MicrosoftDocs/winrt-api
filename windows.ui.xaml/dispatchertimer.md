@@ -53,14 +53,3 @@ void MainPage::OnTick(Object^ sender, Object^ e) {
 
 ## -see-also
 [CoreDispatcher](../windows.ui.core/coredispatcher.md), [ThreadPoolTimer](../windows.system.threading/threadpooltimer.md)
-strationtoken = timer->Tick += ref new EventHandler<Object^>(this,&MainPage::OnTick);
-}
-void MainPage::OnTick(Object^ sender, Object^ e) {
-    // do something on each tick here ...
-}
-```
-
-
-
-## -see-also
-[CoreDispatcher](../windows.ui.core/coredispatcher.md), [ThreadPoolTimer](../windows.system.threading/threadpooltimer.md)

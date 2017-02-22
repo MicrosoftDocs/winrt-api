@@ -106,10 +106,3 @@ VisualStateManager.GoToState(this, state, false); // 'this' is the LayoutAwarePa
 
 ## -see-also
 [DependencyObject](dependencyobject.md), [VisualStateGroup](visualstategroup.md), [VisualState](visualstate.md), [Storyboard](../windows.ui.xaml.media.animation/storyboard.md), [Quickstart: Control templates](http://msdn.microsoft.com/library/67c424ae-afb1-4560-a6a8-4a3506775d77), [Storyboarded animations](http://msdn.microsoft.com/library/0cbceea0-2b0e-44a1-a09a-f7a939632f3a), [Storyboarded animations for visual states](http://msdn.microsoft.com/library/5e715281-d247-4e7f-9f88-2af0d88ed5e4), [Attached properties overview](http://msdn.microsoft.com/library/098c1de0-d640-48b1-9961-d0adf33266e2), [Snap sample](http://go.microsoft.com/fwlink/p/?LinkID=231523), [XAML control and app styling sample](http://go.microsoft.com/fwlink/p/?LinkID=258670)
-oToState(this, state, false); // 'this' is the LayoutAwarePage, scope is page code-behind
-```
-
-
-
-## -see-also
-[DependencyObject](dependencyobject.md), [VisualStateGroup](visualstategroup.md), [VisualState](visualstate.md), [Storyboard](../windows.ui.xaml.media.animation/storyboard.md), [Quickstart: Control templates](http://msdn.microsoft.com/library/67c424ae-afb1-4560-a6a8-4a3506775d77), [Storyboarded animations](http://msdn.microsoft.com/library/0cbceea0-2b0e-44a1-a09a-f7a939632f3a), [Storyboarded animations for visual states](http://msdn.microsoft.com/library/5e715281-d247-4e7f-9f88-2af0d88ed5e4), [Attached properties overview](http://msdn.microsoft.com/library/098c1de0-d640-48b1-9961-d0adf33266e2), [Snap sample](http://go.microsoft.com/fwlink/p/?LinkID=231523), [XAML control and app styling sample](http://go.microsoft.com/fwlink/p/?LinkID=258670)

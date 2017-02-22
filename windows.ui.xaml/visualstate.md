@@ -117,17 +117,6 @@ This example creates a [VisualStateGroup](visualstategroup.md) in the [ControlTe
 
 
 
-## -see-also
-[DependencyObject](dependencyobject.md), [VisualStateGroup](visualstategroup.md), [Storyboarded animations for visual states](http://msdn.microsoft.com/library/5e715281-d247-4e7f-9f88-2af0d88ed5e4), [Storyboarded animations](http://msdn.microsoft.com/library/0cbceea0-2b0e-44a1-a09a-f7a939632f3a), [x:Name attribute](http://msdn.microsoft.com/library/4ff1f3ed-903a-4305-b2bd-dcd29e0c9e6d), [Quickstart: Control templates](http://msdn.microsoft.com/library/67c424ae-afb1-4560-a6a8-4a3506775d77), [XAML control and app styling sample](http://go.microsoft.com/fwlink/p/?LinkID=258670), [Master/detail sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=619901)
-<StackPanel x:Name="myPanel" Orientation="Vertical">
-            <TextBlock x:Name="myTextBlock" MaxLines="5" Style="{ThemeResource BodyTextBlockStyle}"/>
-        </StackPanel>
-    </Grid>
-</Page>
-
-```
-
-
 
 ## -see-also
 [DependencyObject](dependencyobject.md), [VisualStateGroup](visualstategroup.md), [Storyboarded animations for visual states](http://msdn.microsoft.com/library/5e715281-d247-4e7f-9f88-2af0d88ed5e4), [Storyboarded animations](http://msdn.microsoft.com/library/0cbceea0-2b0e-44a1-a09a-f7a939632f3a), [x:Name attribute](http://msdn.microsoft.com/library/4ff1f3ed-903a-4305-b2bd-dcd29e0c9e6d), [Quickstart: Control templates](http://msdn.microsoft.com/library/67c424ae-afb1-4560-a6a8-4a3506775d77), [XAML control and app styling sample](http://go.microsoft.com/fwlink/p/?LinkID=258670), [Master/detail sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=619901)

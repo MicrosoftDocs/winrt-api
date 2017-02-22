@@ -36,6 +36,3 @@ This example uses [BaseUri](frameworkelement_baseuri.md) in an event handler tha
 [!code-vb[FEBaseUri](../windows.ui.xaml/code/BaseElementEvents/vbnet/PageWithAppBar.xaml.vb#SnippetFEBaseUri)]
 
 ## -see-also
-nippetFEBaseUri)]
-
-## -see-also

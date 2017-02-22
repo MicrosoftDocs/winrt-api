@@ -50,6 +50,3 @@ The following example demonstrates the [ClickMode](clickmode.md) enumeration.
 [!code-vb[11](../windows.ui.xaml.data/code/System.Windows.Controls.ButtonClickModeSL/vbnet/Page.xaml.vb#Snippet11)]
 
 ## -see-also
-ols.ButtonClickModeSL/vbnet/Page.xaml.vb#Snippet11)]
-
-## -see-also
