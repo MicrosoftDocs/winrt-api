@@ -4,7 +4,7 @@
 ---
 
 <!-- Structure syntax.
-public struct DateTime 
+public struct DateTime
 -->
 
 # DateTime
@@ -31,7 +31,7 @@ JavaScript and Microsoft .NET languages do not use this type directly. In JavaSc
 
 In Visual C++ component extensions (C++/CX), a **DateTime.UniversalTime** value has the same granularity as a [FILETIME](https://msdn.microsoft.com/library/windows/desktop/ms724284) (100-nanosecond intervals). For positive values, a **DateTime.UniversalTime** value is identical to a [FILETIME](https://msdn.microsoft.com/library/windows/desktop/ms724284) value although it can only represent dates up to about 29000 C.E. A negative value represents the number of intervals prior to January 1, 1601 and can represent dates back to about 27,400 B.C.E. For the Gregorian Calendar, you can use a [DateTimeFormatter](../windows.globalization.datetimeformatting/datetimeformatter.md) to create string representations of a [DateTime](datetime.md) for dates after midnight on Year 1 C.E.
 
-To convert the **UniversalTime** to [SYSTEMTIME](https://msdn.microsoft.com/library/windows/desktop/ms724950), use [ULARGE_INTEGER](http://msdn.microsoft.com/library/83a10c12-2cd1-449a-af3f-b2138fc50ee0) to convert the **int64** value to [FILETIME](https://msdn.microsoft.com/library/windows/desktop/ms724284), then use [FileTimeToSystemTime](XREF:TODO:base.filetimetosystemtime) to get [SYSTEMTIME](https://msdn.microsoft.com/library/windows/desktop/ms724950).
+To convert the **UniversalTime** to [SYSTEMTIME](https://msdn.microsoft.com/library/windows/desktop/ms724950), use [ULARGE_INTEGER](http://msdn.microsoft.com/library/83a10c12-2cd1-449a-af3f-b2138fc50ee0) to convert the **int64** value to [FILETIME](https://msdn.microsoft.com/library/windows/desktop/ms724284), then use [FileTimeToSystemTime](https://msdn.microsoft.com/library/windows/desktop/ms724280) to get [SYSTEMTIME](https://msdn.microsoft.com/library/windows/desktop/ms724950).
 
 ## -examples
 

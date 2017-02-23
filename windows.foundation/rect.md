@@ -4,7 +4,7 @@
 ---
 
 <!-- Structure syntax.
-public struct Rect 
+public struct Rect
 -->
 
 # Rect
@@ -31,19 +31,19 @@ Contains number values that represent the location and size of a rectangle.
 
 ### -field X
 The x-coordinate of the upper-left corner of the rectangle.
-    
+
 
 ### -field Y
 The y-coordinate of the upper-left corner of the rectangle.
-    
+
 
 ### -field Width
 The width of the rectangle, in pixels.
-    
+
 
 ### -field Height
 The height of the rectangle, in pixels.
-    
+
 
 ## -remarks
 When applied to properties that represent UI information, the width and height values of a [Rect](rect.md) value represent device-independent pixels. The *x* and *y* values have an indeterminate frame of reference (it depends on how this value is applied) but they often represent a point in the coordinate space of the main app window.
@@ -65,7 +65,7 @@ A [Rect](rect.md) element cannot be declared as a resource in a XAML [ResourceDi
 
 If you are using a Microsoft .NET language (C# or Microsoft Visual Basic) or Visual C++ component extensions (C++/CX), then [Rect](rect.md) has non-data members available, and its data members are exposed as read-write properties, not fields. Microsoft .NET supports this functionality through the System.Runtime.WindowsRuntime.dll interop assembly that's shipped as part of .NET for Windows Runtime app. Visual C++ component extensions (C++/CX) supports it through the language-specific platform.winmd metadata and the runtime behavior it represents.
 
-If you are programming with C++ using the Windows Template Runtime Library (WRL), then only the data member fields exist as members of [Rect](rect.md), and you cannot use the utility methods or properties listed in the members table. WRL code can access similar utility methods that are available from the [RectHelper](../windows.ui.xaml/recthelper.md) static class. For more info on WRL, see [WRL Integration](XREF:TODO:3ad43894-c574-477c-ad3e-240301f381d4).
+If you are programming with C++ using the Windows Template Runtime Library (WRL), then only the data member fields exist as members of [Rect](rect.md), and you cannot use the utility methods or properties listed in the members table. WRL code can access similar utility methods that are available from the [RectHelper](../windows.ui.xaml/recthelper.md) static class. For more info on WRL, see [WRL Integration](http://msdn.microsoft.com/library/3ad43894-c574-477c-ad3e-240301f381d4).
 
 ### Rect values and how they are interpreted by properties
 

@@ -1,4 +1,4 @@
----
+****---
 -api-id: T:Windows.Foundation.Uri
 -api-type: winrt class
 ---
@@ -73,9 +73,9 @@ This example creates a [Uri](uri.md) object that represents a Uniform Resource I
 
 ```javascript
 // The URI string
-var uriToLaunch = "http://www.bing.com"; 
+var uriToLaunch = "http://www.bing.com";
 
-// Create a Uri object from the URI string 
+// Create a Uri object from the URI string
 var uri = new Windows.Foundation.Uri(uriToLaunch);
 ```
 
@@ -126,4 +126,4 @@ auto uri = ref new Windows::Foundation::Uri(uriFile);
 
 
 ## -see-also
-[System.Uri](https://msdn.microsoft.com/library/system.uri.aspx), [How to reference content (HTML)](http://msdn.microsoft.com/library/b1ad2d76-d18f-4e9e-b810-06af0cfd4628), [How to load file resources (XAML)](http://msdn.microsoft.com/library/a1bfa080-757c-49f7-8b7e-dcf64234edac), [Connecting to networks and web services](XREF:TODO:nodepage.networking__xaml_), [WwwFormUrlDecoder](wwwformurldecoder.md), [createObjectURL (for HTML/JavaScript)](XREF:TODO:wwa.createObjectURL_Method), [RFC 3986](http://go.microsoft.com/fwlink/p/?LinkId=263444), [RFC 3987](http://tools.ietf.org/html/rfc3987), [RSS reader end-to-end (JavaScript) sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620542)
+[System.Uri](https://msdn.microsoft.com/library/system.uri.aspx), [How to reference content (HTML)](http://msdn.microsoft.com/library/b1ad2d76-d18f-4e9e-b810-06af0cfd4628), [How to load file resources (XAML)](http://msdn.microsoft.com/library/a1bfa080-757c-49f7-8b7e-dcf64234edac), [Connecting to networks and web services](https://docs.microsoft.com/en-us/windows/uwp/networking/index), [WwwFormUrlDecoder](wwwformurldecoder.md), [createObjectURL (for HTML/JavaScript)](https://msdn.microsoft.com/library/windows/apps/hh453196), [RFC 3986](http://go.microsoft.com/fwlink/p/?LinkId=263444), [RFC 3987](http://tools.ietf.org/html/rfc3987), [RSS reader end-to-end (JavaScript) sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620542)
