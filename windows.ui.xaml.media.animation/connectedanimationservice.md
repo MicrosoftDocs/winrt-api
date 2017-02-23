@@ -17,7 +17,7 @@ To get an instance of [ConnectedAnimationService](connectedanimationservice.md),
 
 When you call [PrepareToAnimate](connectedanimationservice_preparetoanimate.md), you supply a key to associate with the newly created [ConnectedAnimation](connectedanimation.md) returned by the method. You can later use this key to retrieve the same animation by calling [GetAnimation](connectedanimationservice_getanimation.md). This lets you connect the animation between two different pages without having to manually pass the reference to the [ConnectedAnimation](connectedanimation.md) object between pages.
 
-See the [Connected animation](https://github.com/Microsoft/WindowsUIDevLabs/tree/master/SampleGallery/Samples/SDK%20Insider/ConnectedAnimationSample) sample for a complete example of [ConnectedAnimationService](connectedanimationservice.md).
+See the [Connected animation sample](https://github.com/Microsoft/WindowsUIDevLabs/tree/master/SampleGallery/Samples/SDK%2014393/ConnectedAnimationSample) for a complete example of [ConnectedAnimationService](connectedanimationservice.md).
 
 ## -examples
 This example shows how to animate an image between two pages during a navigation.
