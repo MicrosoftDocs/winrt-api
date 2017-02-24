@@ -13,7 +13,7 @@ public class ProtocolForResultsOperation : Windows.System.IProtocolForResultsOpe
 Represents the result to the application that launched the current application for results.
 
 ## -remarks
-Use this class from an activated application launched via [Launcher.LaunchUriForResultsAndContinueAsync](launcher_launchuriforresultsandcontinueasync.md) to indicate when activation is complete and to return a result to the activating application. This class is passed to the activated application's [Application.OnActivated](../windows.ui.xaml/application_onactivated.md) () method via the [IActivatedEventArgs ](../windows.applicationmodel.activation/iactivatedeventargs.md) argument.
+Use this class from an activated application launched via [Launcher.LaunchUriForResultsAsync](launcher_launchuriforresultsasync_148601521.md) to indicate when activation is complete and to return a result to the activating application. This class is passed to the activated application's [Application.OnActivated](../windows.ui.xaml/application_onactivated_603737819.md) method via the [IActivatedEventArgs](../windows.applicationmodel.activation/iactivatedeventargs.md) argument.
 
 ## -examples
 

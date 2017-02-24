@@ -19,7 +19,7 @@ When you call [TryStart](connectedanimation_trystart.md), the element you pass i
 
 There is a known limitation where [ConnectedAnimation](connectedanimation.md) does not work well with theme transitions that have a translation component, including [NavigationThemeTransition](navigationthemetransition.md) and [EntranceThemeTransition](entrancethemetransition.md). We recommend that you remove these transitions, or suppress the navigation using [SuppressNavigationTransitionInfo](suppressnavigationtransitioninfo.md), when you create an experience with [ConnectedAnimation](connectedanimation.md).
 
-See the [Connected animation](https://github.com/Microsoft/WindowsUIDevLabs/tree/master/SampleGallery/Samples/SDK%20Insider/ConnectedAnimationSample) sample for a complete example of [ConnectedAnimation](connectedanimation.md).
+See the [Connected animation sample](https://github.com/Microsoft/WindowsUIDevLabs/tree/master/SampleGallery/Samples/SDK%2014393/ConnectedAnimationSample) for a complete example of [ConnectedAnimation](connectedanimation.md).
 
 ## -examples
 

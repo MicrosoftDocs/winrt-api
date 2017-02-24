@@ -32,7 +32,7 @@ The item is not protected using enterprise protection.
 The item has been revoked using enterprise protection.
 
 ### -field Protected:3
-The item is protected using enterprise protection.
+The item is protected using enterprise protection and you're app can open this file because it is on the allowed list of the policy.
 
 ### -field ProtectedByOtherUser:4
 > [!NOTE]
