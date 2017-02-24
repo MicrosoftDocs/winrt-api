@@ -16,7 +16,7 @@ Identifies the [AutomationProperties.AcceleratorKey](automationproperties_accele
 The identifier for the [AutomationProperties.AcceleratorKey](automationproperties_acceleratorkey.md) attached property.
 
 ## -remarks
-Shortcut key combinations invoke an action. For example, CTRL+O is often used to invoke the Open file common dialog box. An automation element that has the [AcceleratorKey](automationproperties_acceleratorkey.md) property can implement the [Invoke](XREF:TODO:automat.idispatch_invoke) control pattern for the action that is equivalent to the shortcut command.
+Shortcut key combinations invoke an action. For example, CTRL+O is often used to invoke the Open file common dialog box. An automation element that has the [AcceleratorKey](automationproperties_acceleratorkey.md) property can implement the [Invoke](https://msdn.microsoft.com/library/windows/desktop/ms221479) control pattern for the action that is equivalent to the shortcut command.
 
 ## -examples
 
