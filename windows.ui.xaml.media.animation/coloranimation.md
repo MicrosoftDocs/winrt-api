@@ -43,7 +43,7 @@ The following example shows how to use [ColorAnimation](coloranimation.md) to an
 [!code-xml[Coloranimation](../windows.ui.xaml.media.animation/code/coloranimation/csharp/Page.xaml#SnippetColoranimation)]
 
 
-[!code-xml[Coloranimation](../windows.ui.xaml.media.animation/code/coloranimationusingkeyframes/csharp/Page.xaml#SnippetColoranimationUsingKeyframesw)]
+[!code-xml[Coloranimation](../windows.ui.xaml.media.animation/code/coloranimationusingkeyframes/csharp/Page.xaml#SnippetColoranimationUsingKeyframes)]
 
 
 [!code-xml[Coloranimation](../windows.ui.xaml.media.animation/code/coloranimation_direct_targeting/csharp/Page.xaml#SnippetColoranimation_direct_targeting)]

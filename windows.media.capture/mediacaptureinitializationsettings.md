@@ -20,7 +20,7 @@ The following example initializes the **MediaCaptureInitializationSettings**. Ca
 
 
 
-[!code-csharp[MediaCaptureVideo_InitSettings](../windows.media.capture/code/MediaCaptureVideo/csharp/MainPage.xaml.cs#SnippetMediaCaptureVideo_InitSettings)]
+[!code-csharp[MediaCaptureVideo_InitSettings](../windows.media.capture/code/MediaCaptureVideo/csharp/MainPage.xaml.cs#SnippetMediaCaptureVideo_InitSettingsCS)]
 
 [!code-js[MediaCaptureVideo_InitSettings](../windows.media.capture/code/MediaCaptureVideo/javascript/default.js#SnippetMediaCaptureVideo_InitSettings)]
 
