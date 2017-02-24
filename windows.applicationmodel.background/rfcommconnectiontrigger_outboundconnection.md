@@ -10,10 +10,10 @@ public Windows.Devices.Bluetooth.Background.RfcommOutboundConnectionInformation 
 # Windows.ApplicationModel.Background.RfcommConnectionTrigger.OutboundConnection
 
 ## -description
-Gets or sets the [RfcommOutboundConnectionInformation](rfcommoutboundconnectioninformation.md) object that describes how the system will create outgoing connections on behalf of the app.
+Gets or sets the [RfcommOutboundConnectionInformation](../windows.devices.bluetooth.background/rfcommoutboundconnectioninformation.md) object that describes how the system will create outgoing connections on behalf of the app.
 
 ## -property-value
-The [RfcommOutboundConnectionInformation](rfcommoutboundconnectioninformation.md) object that describes how the system will create outgoing connections on behalf of the app. The default is null.
+The [RfcommOutboundConnectionInformation](../windows.devices.bluetooth.background/rfcommoutboundconnectioninformation.md) object that describes how the system will create outgoing connections on behalf of the app. The default is null.
 
 ## -remarks
 If this property is null, the system will not create outgoing connections.
