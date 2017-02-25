@@ -4,7 +4,7 @@
 ---
 
 <!-- Structure syntax.
-public struct Rect 
+public struct Rect
 -->
 
 # Rect
