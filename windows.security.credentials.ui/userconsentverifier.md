@@ -23,6 +23,7 @@ The following example shows a method that requests fingerprint verification and 
 
 [!code-csharp[2](../windows.security.credentials.ui/code/BiometricAuth/cs/MainPage.xaml.cs#Snippet2)]
 
+[!code-js[2](../windows.security.credentials.ui/code/BiometricAuth/js/default.js#Snippet2)]
 
 [!code-js[2_JS](../windows.security.credentials.ui/code/BiometricAuth/js/default.js#Snippet2_JS)]
 
@@ -30,3 +31,4 @@ The following example shows a method that requests fingerprint verification and 
 
 ## -see-also
 [Fingerprint biometrics](http://msdn.microsoft.com/library/55483729-5f8a-401a-8072-3cd611ddfed2), [UserConsentVerifier sample](http://go.microsoft.com/fwlink/p/?LinkID=303650), [Windows.Security.Credentials.UI](windows_security_credentials_ui.md), [Authentication and user identity](http://msdn.microsoft.com/library/53e36ddc-200a-4850-aaf0-07eca3662bb9), [UserConsentVerifier sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620615)
+soft.com/fwlink/p/?LinkId=620615)
