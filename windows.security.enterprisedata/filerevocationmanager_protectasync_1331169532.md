@@ -37,9 +37,7 @@ You can use the [ProtectAsync](filerevocationmanager_protectasync.md) method to 
 
 [!code-csharp[_Global](../windows.security.enterprisedata/code/SelectiveWipeSnippets/cs/MainPage.xaml.cs#Snippet_Global)]
 
-
 [!code-csharp[_Protect](../windows.security.enterprisedata/code/SelectiveWipeSnippets/cs/MainPage.xaml.cs#Snippet_Protect)]
-
 
 [!code-js[_Global_JS](../windows.security.enterprisedata/code/SelectiveWipeSnippets/js/default.js#Snippet_Global_JS)]
 

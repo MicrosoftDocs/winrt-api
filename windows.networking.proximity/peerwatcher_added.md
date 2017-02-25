@@ -28,10 +28,6 @@ After you start the [PeerWatcher](peerwatcher.md)by calling the [Start](peerfind
 
 [!code-csharp[_PeerWatcherAdded](../windows.networking.proximity/code/Proximity_PeerWatcher/cs/MainPage.xaml.cs#Snippet_PeerWatcherAdded)]
 
-[!code-js[_PeerWatcherAdded](../windows.networking.proximity/code/Proximity_PeerWatcher/js/default.js#Snippet_PeerWatcherAdded_JS)]
-
-
-
 [!code-js[_PeerWatcherAdded_JS](../windows.networking.proximity/code/Proximity_PeerWatcher/js/default.js#Snippet_PeerWatcherAdded_JS)]
 
 ## -examples

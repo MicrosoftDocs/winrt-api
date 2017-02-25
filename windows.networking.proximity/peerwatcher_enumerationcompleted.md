@@ -28,7 +28,6 @@ Occurs after a scan operation is complete and all peer apps within wireless rang
 
 [!code-csharp[_PeerWatcherEnumerationCompleted](../windows.networking.proximity/code/Proximity_PeerWatcher/cs/MainPage.xaml.cs#Snippet_PeerWatcherEnumerationCompleted)]
 
-
 [!code-js[_PeerWatcherEnumerationCompleted_JS](../windows.networking.proximity/code/Proximity_PeerWatcher/js/default.js#Snippet_PeerWatcherEnumerationCompleted_JS)]
 
 ## -examples

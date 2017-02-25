@@ -19,13 +19,13 @@ For an example of using the [PlayToSource](playtosource.md) class, see [Streamin
 ## -examples
 
 
-[!code-csharp[SlideShow](../windows.media.playto/code/PlayTo_SlideShow1/csharp/MainPage.xaml.cs#SnippetSlideShow)]
+[!code-csharp[SlideShow](../windows.media.playto/code/PlayTo_SlideShow1/csharp/MainPage.xaml.cs#SnippetSlideShow_CS)]
 
 [!code-js[SlideShow](../windows.media.playto/code/PlayTo_SlideShow1/javascript/default.js#SnippetSlideShow)]
 
-[!code-vb[SlideShow](../windows.media.playto/code/PlayTo_SlideShow1/vbnet/MainPage.xaml.vb#SnippetSlideShow)]
+[!code-vb[SlideShow](../windows.media.playto/code/PlayTo_SlideShow1/vbnet/MainPage.xaml.vb#SnippetSlideShow_CS)]
 
-[!code-csharp[PlayToContract](../windows.media.playto/code/PlayTo_SlideShow1/csharp/MainPage.xaml.cs#SnippetPlayToContract)]
+[!code-csharp[PlayToContract](../windows.media.playto/code/PlayTo_SlideShow1/csharp/MainPage.xaml.cs#SnippetPlayToContract_CS)]
 
 [!code-js[PlayToContract](../windows.media.playto/code/PlayTo_SlideShow1/javascript/default.js#SnippetPlayToContract)]
 
