@@ -26,4 +26,4 @@ The retrieved elements and their attributes are manipulated through Document Obj
 ## -examples
 
 ## -see-also
-[Scheduled notifications sample](http://go.microsoft.com/fwlink/p/?linkid=241614), [Tile schema](XREF:TODO:tile.Schema_Root), [Guidelines and checklist for scheduled notifications](XREF:TODO:m_ui_tiles.guidelines_for_scheduled_notifications)
+[Scheduled notifications sample](http://go.microsoft.com/fwlink/p/?linkid=241614), [Tile schema](XREF:TODO:tile.Schema_Root), [Guidelines and checklist for scheduled notifications](http://msdn.microsoft.com/library/ca9e9121-d1b1-461f-9c7e-b25225d917ca)

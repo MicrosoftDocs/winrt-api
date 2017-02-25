@@ -23,3 +23,7 @@ The toggle microphone capture shortcut key.
 ## -examples
 
 ## -see-also
+[AppCaptureAlternateShortcutKeys](appcapturealternateshortcutkeys.md)
+
+## -capabilities
+appCaptureSettings

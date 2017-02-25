@@ -42,3 +42,4 @@ It also shows code for capturing the pointer initially, and a pattern for tracki
 
 ## -see-also
 [CapturePointer](uielement_capturepointer.md), [PointerReleased](uielement_pointerreleased.md), [PointerCaptureLost](uielement_pointercapturelost.md), [Input sample](http://go.microsoft.com/fwlink/p/?linkid=226855)
+soft.com/fwlink/p/?linkid=226855)

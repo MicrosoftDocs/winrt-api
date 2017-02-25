@@ -32,3 +32,4 @@ This API is supported in native apps only.
 
 ## -see-also
 [Clipboard sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620520), [Sharing content source app sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620596)
+soft.com/fwlink/p/?LinkId=620596)

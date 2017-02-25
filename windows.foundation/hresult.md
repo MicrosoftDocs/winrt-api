@@ -26,15 +26,19 @@ When programming with .NET, this class is hidden. All exceptions that are visibl
 
 For more info on how to handle exceptions using C# or Visual Basic, see [Exception handling for  in C# or Visual Basic](http://msdn.microsoft.com/library/825c5d4f-5ce0-ee93-fd1e-aca1372b1670).
 
-For more info on how to handle exceptions using Visual C++ component extensions (C++/CX), see [Exceptions (C++/CX)](XREF:TODO:6cbdc1f1-e4d7-4707-a670-86365146432f).
+For more info on how to handle exceptions using Visual C++ component extensions (C++/CX), see [Exceptions (C++/CX)](http://msdn.microsoft.com/library/6cbdc1f1-e4d7-4707-a670-86365146432f).
 
-For more info on how to handle errors in JavaScript, see [JavaScript Run-time Errors](XREF:TODO:c111469d-8f31-4bde-9d46-16d58775db7d).
+For more info on how to handle errors in JavaScript, see [JavaScript Run-time Errors](http://msdn.microsoft.com/library/c111469d-8f31-4bde-9d46-16d58775db7d).
 
 
 <!--The JS topic is just a lookup table but that is better than nothing?-->
-The Windows Runtime  **HResult** is based on the [Windows Error codes model](XREF:TODO:1bc92ddf-b79e-413c-bbaa-99a5281a6c90). The **Value** field combines all the parts of a conventional **HRESULT** as a single integer (preceding bits, facility, error code). The Windows Runtime does have its own facility, but also uses (and can throw) error codes defined by other facilities.
+The Windows Runtime  **HResult** is based on the [Windows Error codes model](http://msdn.microsoft.com/library/1bc92ddf-b79e-413c-bbaa-99a5281a6c90). The **Value** field combines all the parts of a conventional **HRESULT** as a single integer (preceding bits, facility, error code). The Windows Runtime does have its own facility, but also uses (and can throw) error codes defined by other facilities.
 
 ## -examples
 
 ## -see-also
-[Exception handling for  in C# or Visual Basic](http://msdn.microsoft.com/library/825c5d4f-5ce0-ee93-fd1e-aca1372b1670), [Exceptions (C++/CX)](XREF:TODO:6cbdc1f1-e4d7-4707-a670-86365146432f), [JavaScript Run-time Errors](XREF:TODO:c111469d-8f31-4bde-9d46-16d58775db7d), [Application.UnhandledException](../windows.ui.xaml/application_unhandledexception.md), [Debug apps in Visual Studio](XREF:TODO:48a85bcf-290b-4390-9993-f6f9dd73ad03)
+[Exception handling in C# or Visual Basic](http://msdn.microsoft.com/library/825c5d4f-5ce0-ee93-fd1e-aca1372b1670)  
+[Exceptions (C++/CX)](https://msdn.microsoft.com/library/6cbdc1f1-e4d7-4707-a670-86365146432f)  
+[JavaScript Run-time Errors](http://msdn.microsoft.com/library/c111469d-8f31-4bde-9d46-16d58775db7d)  
+[Application.UnhandledException](../windows.ui.xaml/application_unhandledexception.md)  
+[Debug apps in Visual Studio](http://msdn.microsoft.com/library/48a85bcf-290b-4390-9993-f6f9dd73ad03)

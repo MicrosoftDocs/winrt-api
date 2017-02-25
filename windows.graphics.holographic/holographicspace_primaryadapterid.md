@@ -10,7 +10,7 @@ public Windows.Graphics.Holographic.HolographicAdapterId PrimaryAdapterId { get;
 # Windows.Graphics.Holographic.HolographicSpace.PrimaryAdapterId
 
 ## -description
-Gets the identifier of the graphics adapter to be used when displaying holographic content.
+Gets the identifier of the graphics adapter to be used when displaying holographic content to the default HolographicDisplay.
 
 ## -property-value
 The identifier.

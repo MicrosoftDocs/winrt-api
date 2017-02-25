@@ -28,9 +28,16 @@ The pin is currently open in an incompatible sharing mode. For example:
 
 
 
+### -field MuxingConflict:3
+
+
+### -field UnknownError:4
+
+
 ## -remarks
 
 ## -examples
 
 ## -see-also
 [GpioController.TryOpenPin](gpiocontroller_tryopenpin.md), [GpioSharingMode](gpiosharingmode.md)
+

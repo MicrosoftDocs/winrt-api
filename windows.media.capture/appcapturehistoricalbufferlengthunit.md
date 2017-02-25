@@ -25,3 +25,6 @@ Seconds
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appCaptureSettings

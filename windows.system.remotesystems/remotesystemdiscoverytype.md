@@ -22,13 +22,16 @@ The remote system is only discoverable through a proximal connection, such as a 
 ### -field Cloud:2
 The remote system is only discoverable through cloud connection.
 
+### -field SpatiallyProximal:3
+The remote system is discoverable through a proximal connection and is expected to be spatially near to the client device.
+
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
-[Connected apps and devices (Project "Rome")](https://msdn.microsoft.com/en-us/windows/uwp/launch-resume/connected-apps-and-devices)
+[Connected apps and devices (Project Rome)](https://msdn.microsoft.com/en-us/windows/uwp/launch-resume/connected-apps-and-devices)
 
 ## -capabilities
 remoteSystem

@@ -62,3 +62,4 @@ For details on the types of messages that you can publish with the [PublishBinar
 
 ## -capabilities
 proximity, ID_CAP_PROXIMITY [Windows Phone]
+ ID_CAP_PROXIMITY [Windows Phone]

@@ -20,7 +20,7 @@ True to enable mirroring; false to disable mirroring.
 ## -remarks
 Horizontal mirroring is useful for video conferencing or video chat applications, because the users typically want to see a reflected image of themselves. The non-mirrored view can look strange, because we are used to seeing ourselves in a mirror.
 
-To mirror the preview video, apps should instead use the following method. Windows app using JavaScript should use the [msHorizontalMirror](XREF:TODO:ie.HTMLVideoElement_msHorizontalMirror) property of the [video](XREF:TODO:wwa.HTMLVideoObject) object. Windows Store app using C++, C#, or Visual Basic should use the [FlowDirection](../windows.ui.xaml/flowdirection.md) property on the [CaptureElement](../windows.ui.xaml.controls/captureelement.md).
+To mirror the preview video, apps should instead use the following method. Windows app using JavaScript should use the [msHorizontalMirror](https://msdn.microsoft.com/en-us/library/windows/apps/hh465967.aspx) property of the [video](https://msdn.microsoft.com/en-us/library/windows/apps/hh465962.aspx) object. Windows Store app using C++, C#, or Visual Basic should use the [FlowDirection](../windows.ui.xaml/flowdirection.md) property on the [CaptureElement](../windows.ui.xaml.controls/captureelement.md).
 
 [SetPreviewMirroring](mediacapture_setpreviewmirroring.md) can potentially be used as a performance optimization on some devices
 

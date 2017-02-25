@@ -77,4 +77,4 @@ For an example of a full implementation of periodic notifications used in conjun
 ## -examples
 
 ## -see-also
-[StartPeriodicUpdateBatch(IIterable(Uri), DateTime, PeriodicUpdateRecurrence)](tileupdater_startperiodicupdatebatch_1807273799.md), [StartPeriodicUpdate](tileupdater_startperiodicupdate.md), [How to set up periodic notifications for tiles](XREF:TODO:m_ui_tiles.howto_setup_tile_polling), [Guidelines and checklist for periodic notifications](XREF:TODO:m_ui_tiles.guidelines_for_polling), [Tile and tile notification overview](http://msdn.microsoft.com/library/10a05b52-42c4-4f85-9310-57663e378b9e)
+[StartPeriodicUpdateBatch(IIterable(Uri), DateTime, PeriodicUpdateRecurrence)](tileupdater_startperiodicupdatebatch_1807273799.md), [StartPeriodicUpdate](tileupdater_startperiodicupdate.md), [How to set up periodic notifications for tiles](http://msdn.microsoft.com/library/96c67773-2e5b-4278-b16d-2f813b16580c), [Guidelines and checklist for periodic notifications](http://msdn.microsoft.com/library/4be95d67-2adf-4d0e-83e1-4ad25e0f4c0b), [Tile and tile notification overview](http://msdn.microsoft.com/library/10a05b52-42c4-4f85-9310-57663e378b9e)

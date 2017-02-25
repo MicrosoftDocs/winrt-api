@@ -1,0 +1,24 @@
+---
+-api-id: M:Windows.UI.Xaml.Automation.Peers.AutomationPeer.IsRequiredForFormCore
+-api-type: winrt method
+---
+
+<!-- Method syntax
+virtual protected bool IsRequiredForFormCore()
+-->
+
+# Windows.UI.Xaml.Automation.Peers.AutomationPeer.IsRequiredForFormCore
+
+## -description
+Provides the peer's behavior when a Microsoft UI Automation client calls [IsRequiredForForm](automationpeer_isrequiredforform.md) or an equivalent Microsoft UI Automation client API.
+
+## -returns
+**true** if the element must be completed; otherwise, **false**.
+
+## -remarks
+The standard implementation returns false. Overriding this value at the peer level to return true is probably an uncommon scenario, because you are implying that every instance of your control has a required-for-form behavior no matter what app or UI situation it is used for. It's more typical for apps to specify a required-for-form behavior that is declared in the app's XAML UI definitions, by setting [AutomationProperties.IsRequiredForForm](../windows.ui.xaml.automation/automationproperties_isrequiredforform.md).
+
+## -examples
+
+## -see-also
+[FrameworkElementAutomationPeer](frameworkelementautomationpeer.md), [Custom automation peers](http://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4), [Accessibility](http://msdn.microsoft.com/library/c89d79c2-b830-493d-b020-f3ff8eb5ffdd)

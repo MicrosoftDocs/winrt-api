@@ -25,6 +25,7 @@ In a multi-peer app scenario, the Role identifies the capability of the apps to 
 
 [!code-csharp[PeerRole_CS](../windows.networking.proximity/code/Proximity_FindAllPeersAsync1/csharp/PeerRole.xaml.cs#SnippetPeerRole_CS)]
 
+[!code-csharp[PeerRole](../windows.networking.proximity/code/Proximity_FindAllPeersAsync1/csharp/PeerRole.xaml.cs#SnippetPeerRole)]
 
 [!code-js[PeerRole](../windows.networking.proximity/code/Proximity_FindAllPeersAsync1/js/peerrole.js#SnippetPeerRole)]
 
@@ -33,3 +34,4 @@ In a multi-peer app scenario, the Role identifies the capability of the apps to 
 
 ## -capabilities
 proximity, ID_CAP_PROXIMITY [Windows Phone], ID_CAP_NETWORKING [Windows Phone]
+ID_CAP_NETWORKING [Windows Phone]

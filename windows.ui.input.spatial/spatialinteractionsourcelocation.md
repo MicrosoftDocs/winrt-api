@@ -10,7 +10,7 @@ public class SpatialInteractionSourceLocation : Windows.UI.Input.Spatial.ISpatia
 # Windows.UI.Input.Spatial.SpatialInteractionSourceLocation
 
 ## -description
-Represents the position and velocity of a hand.
+Represents the position, orientation and velocity of a hand or spatial controller.
 
 ## -remarks
 

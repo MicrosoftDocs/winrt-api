@@ -28,3 +28,4 @@ When the method completes, it returns a [ClaimedBarcodeScanner](claimedbarcodesc
 
 ## -see-also
 [Barcode scanner sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620014)
+soft.com/fwlink/p/?LinkId=620014)

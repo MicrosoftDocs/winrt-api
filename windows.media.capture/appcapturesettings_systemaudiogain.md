@@ -23,3 +23,7 @@ The gain applied to the system audio.
 ## -examples
 
 ## -see-also
+[AppCaptureSettings](appcapturesettings.md)
+
+## -capabilities
+appCaptureSettings

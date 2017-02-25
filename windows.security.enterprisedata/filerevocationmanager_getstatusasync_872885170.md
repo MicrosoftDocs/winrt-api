@@ -34,10 +34,11 @@ You can use the [GetStatusAsync](filerevocationmanager_getstatusasync.md) method
 
 [!code-csharp[_Global](../windows.security.enterprisedata/code/SelectiveWipeSnippets/cs/MainPage.xaml.cs#Snippet_Global)]
 
+[!code-js[_Global](../windows.security.enterprisedata/code/SelectiveWipeSnippets/js/default.js#Snippet_Global)]
 
 [!code-csharp[_GetStatus](../windows.security.enterprisedata/code/SelectiveWipeSnippets/cs/MainPage.xaml.cs#Snippet_GetStatus)]
 
-
+[!code-js[_GetStatus](../windows.security.enterprisedata/code/SelectiveWipeSnippets/js/default.js#Snippet_GetStatus)]
 
 
 
@@ -49,3 +50,4 @@ You can use the [GetStatusAsync](filerevocationmanager_getstatusasync.md) method
 
 ## -see-also
 [FileRevocationManager sample](http://go.microsoft.com/fwlink/p/?LinkID=299023), [How to protect files with Selective Wipe  (C#/VB/C++)](http://msdn.microsoft.com/library/a1afb4fb-6731-461a-8dd2-51eec5e880a1), [How to protect files with Selective Wipe (JavaScript)](http://msdn.microsoft.com/library/5b8652eb-6462-4bf1-b5b7-4a37957c605f)
+p://msdn.microsoft.com/library/5b8652eb-6462-4bf1-b5b7-4a37957c605f)

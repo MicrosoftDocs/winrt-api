@@ -36,3 +36,4 @@ The following example code demonstrates the use of this type. For the complete c
 
 ## -see-also
 [WebView](../windows.ui.xaml.controls/webview.md), [XAML WebView control sample](http://go.microsoft.com/fwlink/p/?linkid=238582)
+soft.com/fwlink/p/?linkid=238582)

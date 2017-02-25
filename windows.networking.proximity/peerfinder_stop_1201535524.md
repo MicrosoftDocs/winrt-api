@@ -29,3 +29,4 @@ You can call the [Stop](peerfinder_stop.md) method to stop the [PeerFinder](peer
 
 ## -capabilities
 proximity, ID_CAP_PROXIMITY [Windows Phone], ID_CAP_NETWORKING [Windows Phone]
+ID_CAP_NETWORKING [Windows Phone]

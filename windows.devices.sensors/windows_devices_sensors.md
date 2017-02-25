@@ -9,7 +9,7 @@
 Provides access to the supported types of sensors and related motion data.
 
 ## -remarks
-This namespace provides access to the sensor types listed in the table below. The driver for a sensor must indicate that the hardware is integrated with the PC chassis for it to be accessible via this namespace. Sensors not marked as PC-integrated, even if they are of a supported type, will not be accessible. Driver developers can refer to [SensorConnectionType](XREF:TODO:sensors.sensorconnectiontype) enumeration for more details.
+This namespace provides access to the sensor types listed in the table below. The driver for a sensor must indicate that the hardware is integrated with the PC chassis for it to be accessible via this namespace. Sensors not marked as PC-integrated, even if they are of a supported type, will not be accessible. Driver developers can refer to [SensorConnectionType](http://msdn.microsoft.com/library/63df4f99-ddc2-4a0b-b19b-63390771d529) enumeration for more details.
 
 <table>
    <tr><th>Sensor</th><th>Description</th></tr>

@@ -31,3 +31,4 @@ A value that indicates which discovery options are available to use with the [Pe
 
 ## -capabilities
 proximity, ID_CAP_PROXIMITY [Windows Phone], ID_CAP_NETWORKING [Windows Phone]
+ID_CAP_NETWORKING [Windows Phone]

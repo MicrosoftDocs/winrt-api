@@ -10,7 +10,7 @@ public event Windows.Foundation.TypedEventHandler ButtonClicked<Windows.UI.Input
 # Windows.UI.Input.RadialController.ButtonClicked
 
 ## -description
-Occurs when the wheel device is pressed and then released while a custom[RadialController](radialcontroller.md) tool is active.
+Occurs when the wheel device is pressed and then released while a custom [RadialController](radialcontroller.md) tool is active.
 
 
 Your app does not receive this event when:

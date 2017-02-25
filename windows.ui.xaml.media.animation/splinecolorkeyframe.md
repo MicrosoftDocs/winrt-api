@@ -50,3 +50,4 @@ This XAML example uses the [ColorAnimationUsingKeyFrames](coloranimationusingkey
 
 ## -see-also
 [Storyboarded animations](http://msdn.microsoft.com/library/0cbceea0-2b0e-44a1-a09a-f7a939632f3a), [Key-frame animations and easing function animations](http://msdn.microsoft.com/library/d8af24cd-f4c2-4562-afd7-25010955d677), [ColorKeyFrame](colorkeyframe.md), [ColorAnimationUsingKeyFrames](coloranimationusingkeyframes.md), [ColorKeyFrameCollection](colorkeyframecollection.md), [KeyTime](colorkeyframe_keytime.md), [Value](colorkeyframe_value.md)
+[KeyTime](colorkeyframe_keytime.md), [Value](colorkeyframe_value.md)

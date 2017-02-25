@@ -23,3 +23,7 @@ The video encoding frame rate mode.
 ## -examples
 
 ## -see-also
+[AppCaptureSettings](appcapturesettings.md)
+
+## -capabilities
+appCaptureSettings

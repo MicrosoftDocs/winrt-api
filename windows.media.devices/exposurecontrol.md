@@ -19,7 +19,7 @@ To set an exposure value, call [SetValueAsync](exposurecontrol_setvalueasync.md)
 
 You can find out if a device supports this control by checking [ExposureControl.Supported](exposurecontrol_supported.md).
 
-If the device does not support the [ExposureControl](exposurecontrol.md), you can still use the [Exposure](videodevicecontroller_exposure.md) property on the [VideoCaptureDevice](XREF:TODO:wp_media_capture.audiovideocapturedevice) to set the exposure value.
+If the device does not support the [ExposureControl](exposurecontrol.md), you can still use the [Exposure](videodevicecontroller_exposure.md) property on the [VideoCaptureDevice](http://msdn.microsoft.com/library/afba2768-11a0-4105-a5b1-c48bc961e9ed) to set the exposure value.
 
 You can access the [ExposureControl](exposurecontrol.md) for the capture device through [MediaCapture.VideoDeviceController](../windows.media.capture/mediacapture_videodevicecontroller.md).
 

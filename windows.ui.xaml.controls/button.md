@@ -88,3 +88,4 @@ The following example shows three buttons that respond to clicks in three differ
 
 ## -see-also
 [ButtonBase](../windows.ui.xaml.controls.primitives/buttonbase.md), [Button styles and templates](http://msdn.microsoft.com/library/05f2b757-6a25-42a7-824a-45776e76c2d2), [AppBarButton](appbarbutton.md), [CheckBox](checkbox.md), [HyperlinkButton](hyperlinkbutton.md), [RepeatButton](../windows.ui.xaml.controls.primitives/repeatbutton.md), [RadioButton](radiobutton.md), [ToggleSwitch](toggleswitch.md), [Controls list](http://msdn.microsoft.com/library/11172840-a63d-4f48-9db4-7baca06308ee), [Controls by function](http://msdn.microsoft.com/library/8db4347b-91d6-4659-91f2-80ecf7bbb596)
+p://msdn.microsoft.com/library/8db4347b-91d6-4659-91f2-80ecf7bbb596)

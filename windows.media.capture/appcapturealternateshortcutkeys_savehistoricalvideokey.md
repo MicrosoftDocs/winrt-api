@@ -23,3 +23,7 @@ The save historical video shortcut key.
 ## -examples
 
 ## -see-also
+[AppCaptureAlternateShortcutKeys](appcapturealternateshortcutkeys.md)
+
+## -capabilities
+appCaptureSettings

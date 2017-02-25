@@ -13,7 +13,7 @@ public string Description { get; }
 Gets the application's description.
 
 ## -property-value
-The description of the application as defined in the package manifest (Package.appxmanifest).
+The description of the application as defined in the package manifest (Package.appxmanifest). 
 
 ## -remarks
 

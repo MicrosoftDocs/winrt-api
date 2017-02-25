@@ -42,6 +42,13 @@ The following example shows how to use [ColorAnimation](coloranimation.md) to an
 
 [!code-xml[Coloranimation](../windows.ui.xaml.media.animation/code/coloranimation/csharp/Page.xaml#SnippetColoranimation)]
 
+
+[!code-xml[Coloranimation](../windows.ui.xaml.media.animation/code/coloranimationusingkeyframes/csharp/Page.xaml#SnippetColoranimationUsingKeyframesw)]
+
+
+[!code-xml[Coloranimation](../windows.ui.xaml.media.animation/code/coloranimation_direct_targeting/csharp/Page.xaml#SnippetColoranimation_direct_targeting)]
+
+
 [!code-csharp[Coloranimation_cs](../windows.ui.xaml.media.animation/code/coloranimation/csharp/Page.xaml.cs#SnippetColoranimation_cs)]
 
 [!code-vb[Coloranimation_cs](../windows.ui.xaml.media.animation/code/coloranimation/vbnet/Page.xaml.vb#SnippetColoranimation_cs)]
@@ -63,3 +70,4 @@ Alternatively, you could explicitly create the [SolidColorBrush](../windows.ui.x
 
 ## -see-also
 [Storyboarded animations](http://msdn.microsoft.com/library/0cbceea0-2b0e-44a1-a09a-f7a939632f3a), [XAML animation sample](http://go.microsoft.com/fwlink/p/?linkid=238571), [Timeline](timeline.md), [SolidColorBrush](../windows.ui.xaml.media/solidcolorbrush.md), [LinearGradientBrush](../windows.ui.xaml.media/lineargradientbrush.md), [Color](../windows.ui/color.md), [Colors](../windows.ui/colors.md)
+[LinearGradientBrush](../windows.ui.xaml.media/lineargradientbrush.md), [Color](../windows.ui/color.md), [Colors](../windows.ui/colors.md)

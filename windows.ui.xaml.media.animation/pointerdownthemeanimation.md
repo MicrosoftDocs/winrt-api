@@ -114,4 +114,4 @@ void SplitOpenControl::OnPointerReleased(PointerRoutedEventArgs^ e)
 
 
 ## -see-also
-[Timeline](timeline.md), [Animating pointer clicks](http://msdn.microsoft.com/library/b100b9c1-dfd7-43ac-99ed-a742a029c39b), [Guidelines and checklist for pointer click animations](XREF:TODO:m_personality.guidelines_for_pointer_animations)
+[Timeline](timeline.md), [Animating pointer clicks](http://msdn.microsoft.com/library/b100b9c1-dfd7-43ac-99ed-a742a029c39b), [Guidelines and checklist for pointer click animations](http://msdn.microsoft.com/library/eeb10a2c-629a-4705-8468-4d019d74ddff)

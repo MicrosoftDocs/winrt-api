@@ -20,3 +20,5 @@ Describes the gamepad motor speed.
 ## -examples
 
 ## -see-also
+
+* [Windows.Gaming.Input.GamepadVibration](gamepadvibration.md)

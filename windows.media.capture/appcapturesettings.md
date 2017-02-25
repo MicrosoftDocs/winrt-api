@@ -21,3 +21,7 @@ Represents app capture settings.
 ## -examples
 
 ## -see-also
+[Object](https://msdn.microsoft.com/library/system.object.aspx)
+
+## -capabilities
+appCaptureSettings

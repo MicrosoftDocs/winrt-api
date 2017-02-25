@@ -20,3 +20,7 @@ The video encoding resolution mode.
 ## -examples
 
 ## -see-also
+[AppCaptureSettings](appcapturesettings.md)
+
+## -capabilities
+appCaptureSettings

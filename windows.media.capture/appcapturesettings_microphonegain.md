@@ -23,3 +23,7 @@ The gain applied to the microphone audio.
 ## -examples
 
 ## -see-also
+[AppCaptureSettings](appcapturesettings.md)
+
+## -capabilities
+appCaptureSettings

@@ -51,3 +51,4 @@ The following example shows how to use the [PointAnimation](pointanimation.md) t
 
 ## -see-also
 [Storyboarded animations](http://msdn.microsoft.com/library/0cbceea0-2b0e-44a1-a09a-f7a939632f3a), [XAML animation sample](http://go.microsoft.com/fwlink/p/?linkid=238571), [Timeline](timeline.md), [Point](../windows.foundation/point.md), [PointAnimationUsingKeyFrames](pointanimationusingkeyframes.md)
+md), [PointAnimationUsingKeyFrames](pointanimationusingkeyframes.md)

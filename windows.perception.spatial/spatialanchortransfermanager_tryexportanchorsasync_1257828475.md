@@ -27,8 +27,7 @@ It's the app's responsibility to get the data in the stream to the other device 
 
 This method yields a result of **true** if the export succeeded. The export can fail if the spatial understanding system times out during the export.
 
-> [!IMPORTANT]
-> If you're using JavaScript, you can't create the *anchors* parameter directly, because it's of type IIterable&lt;IKeyValuePair&lt;Platform::String^, Windows::Perception::Spatial::SpatialAnchor^&gt;&gt;. Instead, create a native WinRT helper component that has a **CreateMap** function:
+**Note:** If you're using JavaScript, you can't create the *anchors* parameter directly, because it's of type IIterable&lt;IKeyValuePair&lt;Platform::String^, Windows::Perception::Spatial::SpatialAnchor^&gt;&gt;. Instead, create a native WinRT helper component that has a **CreateMap** function:
 
 ```cpp
 #include "pch.h"
@@ -41,13 +40,11 @@ Windows::Foundation::Collections::IMap<Platform::String^, Windows::Perception::S
 {
        return ref new Platform::Collections::Map<Platform::String^, Windows::Perception::Spatial::SpatialAnchor^>();
 }
- 
-
 ```
 
+Now you can populate the anchors collection in JavaScript and pass it to the [TryExportAnchorsAsync](spatialanchortransfermanager_tryexportanchorsasync.md) method. The following code example shows how to use the SpatialAnchorHelper class to populate the anchors collection.
 
-
-Now you can populate the anchors collection in JavaScript and pass it to the [TryExportAnchorsAsync](spatialanchortransfermanager_tryexportanchorsasync.md) method. The following code example shows how to use the SpatialAnchorHelper class to populate the anchors collection.```javascript
+```javascript
 waitForPositionalTracking(function () {
 	var spatialAnchor = Windows.Perception.Spatial.SpatialAnchor.tryCreateRelativeTo(stationaryRef.coordinateSystem);
 
@@ -64,7 +61,6 @@ waitForPositionalTracking(function () {
                 if (succeeded) {
                     console.log("Exported " + stream.size + " bytes to stream.  Elapsed time: " + exportWatch.stop() + " seconds");
 ...
-
 ```
 
 

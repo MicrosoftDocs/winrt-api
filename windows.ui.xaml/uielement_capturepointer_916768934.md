@@ -55,3 +55,4 @@ This example shows calling [CapturePointer](uielement_capturepointer.md) based o
 
 ## -see-also
 [Pointer](../windows.ui.xaml.input/pointer.md), [ReleasePointerCapture](uielement_releasepointercapture.md), [Quickstart: Touch input](http://msdn.microsoft.com/library/f10bafee-8792-4a57-ae84-aa11ab95355a), [Input sample](http://go.microsoft.com/fwlink/p/?linkid=226855)
+soft.com/fwlink/p/?linkid=226855)

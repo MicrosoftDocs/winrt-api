@@ -30,3 +30,4 @@ Enables you to discover other instances of your app on nearby devices and create
 
 ## -capabilities
 proximity, ID_CAP_PROXIMITY [Windows Phone], ID_CAP_NETWORKING [Windows Phone]
+ID_CAP_NETWORKING [Windows Phone]

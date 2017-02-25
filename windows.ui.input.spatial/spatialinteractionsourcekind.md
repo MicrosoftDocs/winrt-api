@@ -20,10 +20,10 @@ The interaction source is of a kind not known in this version of the API.
 The interaction source is one of the user's hands.
 
 ### -field Voice:2
-The interaction source is the user's speech.
+The interaction source is the user's speech, when speaking a system command such as "Select".
 
 ### -field Controller:3
-The interaction source is a controller.
+The interaction source is a spatial controller.
 
 
 ## -remarks

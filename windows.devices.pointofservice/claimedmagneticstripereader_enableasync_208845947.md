@@ -28,3 +28,4 @@ No object or value is returned by this method when it completes.
 
 ## -see-also
 [Magnetic stripe reader sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620017)
+soft.com/fwlink/p/?LinkId=620017)

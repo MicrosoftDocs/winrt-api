@@ -23,3 +23,7 @@ The toggle recoding indicator shortcut key.
 ## -examples
 
 ## -see-also
+[AppCaptureAlternateShortcutKeys](appcapturealternateshortcutkeys.md)
+
+## -capabilities
+appCaptureSettings

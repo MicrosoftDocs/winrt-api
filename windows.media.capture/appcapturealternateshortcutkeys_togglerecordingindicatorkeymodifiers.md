@@ -23,3 +23,7 @@ The toggle recording indicator shortcut key modifiers.
 ## -examples
 
 ## -see-also
+[AppCaptureAlternateShortcutKeys](appcapturealternateshortcutkeys.md)
+
+## -capabilities
+appCaptureSettings

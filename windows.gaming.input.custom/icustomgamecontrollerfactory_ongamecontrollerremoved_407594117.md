@@ -10,11 +10,11 @@ public void OnGameControllerRemoved(Windows.Gaming.Input.IGameController value)
 # Windows.Gaming.Input.Custom.ICustomGameControllerFactory.OnGameControllerRemoved
 
 ## -description
-Event triggered when the controller is removed.
+Event raised when the controller is removed.
 
 ## -parameters
 ### -param value
-An interface representing the removed controller.
+The removed controller.
 
 ## -remarks
 

@@ -23,3 +23,7 @@ The custom video encoding width.
 ## -examples
 
 ## -see-also
+[AppCaptureSettings](appcapturesettings.md)
+
+## -capabilities
+appCaptureSettings

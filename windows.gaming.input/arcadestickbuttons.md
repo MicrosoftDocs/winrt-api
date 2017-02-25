@@ -14,7 +14,7 @@ Specifies the button type for an arcade stick.
 
 ## -enum-fields
 ### -field None:0
-No Button
+No button.
 
 ### -field StickUp:1
 The stick is pressed up.
@@ -26,7 +26,7 @@ The stick is pressed down.
 The stick is pressed left.
 
 ### -field StickRight:8
-The stick is pressed rigth.
+The stick is pressed right.
 
 ### -field Action1:16
 The first action button.
@@ -41,7 +41,7 @@ The third action button.
 The fourth action button.
 
 ### -field Action5:256
-The fith action button.
+The fifth action button.
 
 ### -field Action6:512
 The sixth action button.
@@ -58,3 +58,5 @@ The second special button.
 ## -examples
 
 ## -see-also
+
+* [Windows.Gaming.Input.ArcadeStick](arcadestick.md)

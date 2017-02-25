@@ -25,3 +25,4 @@ The following code example demonstrates how to implement this interface. For the
 
 ## -see-also
 [Binding](binding.md), [XAML data Binding sample](http://go.microsoft.com/fwlink/p/?linkid=226854), [Data binding in depth](http://msdn.microsoft.com/library/41e1b4f1-6caf-4128-a61a-4e400b149011)
+b4f1-6caf-4128-a61a-4e400b149011)

@@ -10,7 +10,7 @@ public enum Windows.Perception.Spatial.SpatialPerceptionAccessStatus : int
 # SpatialPerceptionAccessStatus
 
 ## -description
-This enumeration describes an app's ability to see the user's surroundings in ways that require the spatialPerception capability. This includes use of either SpatialSurfaceObserver or SpatialAnchorTransferManager.
+This enumeration describes an app's ability to see the user's surroundings in ways that require the spatialPerception capability. This includes use of either [SpatialSurfaceObserver](../windows.perception.spatial.surfaces/spatialsurfaceobserver.md) or [SpatialAnchorTransferManager](spatialanchortransfermanager.md).
 
 ## -enum-fields
 ### -field Unspecified:0

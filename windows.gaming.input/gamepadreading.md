@@ -10,16 +10,16 @@ public struct GamepadReading
 # GamepadReading
 
 ## -description
-Represents the current state of the controller.
+Represents the current state of the gamepad.
 
 ## -struct-fields
 
 ### -field Timestamp
-Time when the state was retrieved from the controller.
+Time when the state was retrieved from the gamepad.
     
 
 ### -field Buttons
-The state of the controller buttons.
+The state of the gamepad's buttons.
     
 
 ### -field LeftTrigger
@@ -35,11 +35,11 @@ The position of the left thumbstick on the X-axis. The value is between -1.0 and
     
 
 ### -field LeftThumbstickY
-The position of the left thumbstick on the Y-axis.The value is between -1.0 and 1.0.
+The position of the left thumbstick on the Y-axis. The value is between -1.0 and 1.0.
     
 
 ### -field RightThumbstickX
-The position of the right thumbstick on the X-axis.The value is between -1.0 and 1.0.
+The position of the right thumbstick on the X-axis. The value is between -1.0 and 1.0.
     
 
 ### -field RightThumbstickY

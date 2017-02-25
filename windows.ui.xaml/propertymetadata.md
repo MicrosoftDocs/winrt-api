@@ -40,3 +40,4 @@ This example calls the [PropertyMetadata(Object)](propertymetadata_propertymetad
 
 ## -see-also
 [DependencyProperty.Register](dependencyproperty_register.md), [PropertyChangedCallback](propertychangedcallback.md), [Custom dependency properties](http://msdn.microsoft.com/library/5adf7935-f2cf-4bb6-b1a5-f535c2ed8ef8)
+7935-f2cf-4bb6-b1a5-f535c2ed8ef8)

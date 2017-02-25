@@ -29,3 +29,4 @@ A [PeerInformation](peerinformation.md) instance is created when you call the [F
 
 ## -capabilities
 proximity, ID_CAP_PROXIMITY [Windows Phone]
+ ID_CAP_PROXIMITY [Windows Phone]

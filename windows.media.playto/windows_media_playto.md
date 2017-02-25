@@ -25,6 +25,7 @@ When a user selects a Play To target from the **Devices** charm, Play To  fires 
 
 For an example of how to use  Play To in an application, see [PlayReady DRM](http://msdn.microsoft.com/library/dd8ffa8c-dff0-41e3-8f7a-345c5a248fc2).
 
+
 ## -examples
 
 
@@ -34,5 +35,7 @@ For an example of how to use  Play To in an application, see [PlayReady DRM](htt
 
 [!code-vb[SourceRequested](../windows.media.playto/code/PlayTo_Reference/vbnet/MainPage.xaml.vb#SnippetSourceRequested)]
 
+
 ## -see-also
 [Play To sample](http://go.microsoft.com/fwlink/p/?linkid=245166), [PlayToReceiver sample](http://go.microsoft.com/fwlink/p/?linkid=245167), [Media Server sample](http://go.microsoft.com/fwlink/p/?linkid=245168)
+soft.com/fwlink/p/?linkid=245168)

@@ -78,3 +78,4 @@ Using XAML resource definitions and resource references is the typical way to us
 
 ## -see-also
 [ResourceDictionary](resourcedictionary.md), [x:Key attribute](http://msdn.microsoft.com/library/141fc5af-80ee-4401-8a1b-17cb22c2277a), [ResourceDictionary and XAML resource references](http://msdn.microsoft.com/library/e3cbfa3d-6af5-44e1-b9f9-c3d3ea8a25ce), [{StaticResource} markup extension](http://msdn.microsoft.com/library/d50349b5-4588-4ebd-9458-75f629ccc395), [{ThemeResource} markup extension](http://msdn.microsoft.com/library/8a1c79d2-9566-44aa-b8e1-cc7adad1bcc5), [Application resources and localization sample](http://go.microsoft.com/fwlink/p/?linkid=231501), [XAML overview](http://msdn.microsoft.com/library/48041b37-f1a8-44a4-bb8e-1d4de30e7823)
+1b37-f1a8-44a4-bb8e-1d4de30e7823)

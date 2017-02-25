@@ -75,3 +75,4 @@ The following code example shows scenario 2 from the [Input sample](http://go.mi
 
 ## -see-also
 [RoutedEventArgs](../windows.ui.xaml/routedeventargs.md), [PointerPressed](../windows.ui.xaml/uielement_pointerpressed.md)
+d), [PointerPressed](../windows.ui.xaml/uielement_pointerpressed.md)

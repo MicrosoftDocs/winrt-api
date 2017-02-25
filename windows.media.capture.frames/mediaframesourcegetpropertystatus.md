@@ -31,3 +31,10 @@ The operation failed because the media frame source device is unavailable.
 ## -examples
 
 ## -see-also
+
+### -field MaxPropertyValueSizeRequired:5
+
+
+
+### -field MaxPropertyValueSizeTooSmall:4
+

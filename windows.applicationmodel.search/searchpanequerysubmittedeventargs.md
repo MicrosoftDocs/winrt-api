@@ -29,3 +29,4 @@ The [Search contract sample](http://go.microsoft.com/fwlink/p/?linkid=234892) de
 
 ## -see-also
 [SearchPane.QuerySubmitted event](searchpane_querysubmitted.md), [SearchPaneQuerySubmittedEventArgs class](searchpanequerysubmittedeventargs.md)
+chpanequerysubmittedeventargs.md)

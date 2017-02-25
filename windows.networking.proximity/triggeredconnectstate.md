@@ -48,3 +48,4 @@ An error prevented a successful connection.
 
 ## -capabilities
 proximity, ID_CAP_PROXIMITY [Windows Phone]
+ ID_CAP_PROXIMITY [Windows Phone]

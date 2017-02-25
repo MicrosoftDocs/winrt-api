@@ -28,3 +28,4 @@ The [Search contract sample](http://go.microsoft.com/fwlink/p/?linkid=234892) de
 
 ## -see-also
 [Search contract sample](http://go.microsoft.com/fwlink/p/?linkid=234892), [SearchPane.SuggestionsRequested event](searchpane_suggestionsrequested.md), [SearchPaneSuggestionsRequestedEventArgs class](searchpanesuggestionsrequestedeventargs.md), [SearchPaneSuggestionsRequestedEventArgs.Request property](searchpanesuggestionsrequestedeventargs_request.md)
+onsrequestedeventargs_request.md)

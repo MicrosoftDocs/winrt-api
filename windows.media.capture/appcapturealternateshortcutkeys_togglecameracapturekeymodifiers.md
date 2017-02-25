@@ -23,3 +23,7 @@ The toggle camera capture shortcut key modifiers.
 ## -examples
 
 ## -see-also
+[AppCaptureAlternateShortcutKeys](appcapturealternateshortcutkeys.md)
+
+## -capabilities
+appCaptureSettings

@@ -10,7 +10,7 @@ public event Windows.Foundation.TypedEventHandler CrossSliding<Windows.UI.Input.
 # Windows.UI.Input.GestureRecognizer.CrossSliding
 
 ## -description
-Occurs when a user performs a [slide](XREF:TODO:m_ux_principles.cross-slide) or [swipe](XREF:TODO:m_ux_principles.cross-slide) gesture (through a single touch contact) within a content area that supports panning along a single axis only. The gesture must occur in a direction that is perpendicular to this panning axis.
+Occurs when a user performs a [slide](http://msdn.microsoft.com/library/897555e2-c567-4bbe-b600-553daeb223d5) or [swipe](http://msdn.microsoft.com/library/897555e2-c567-4bbe-b600-553daeb223d5) gesture (through a single touch contact) within a content area that supports panning along a single axis only. The gesture must occur in a direction that is perpendicular to this panning axis.
 
 > [!NOTE]
 > A swipe is a short sliding gesture that results in a selection action while the longer slide gesture crosses a distance threshold and results in a rearrange action. The swipe and slide gestures are demonstrated in the following diagram.

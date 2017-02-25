@@ -62,3 +62,4 @@ For Windows Store app, publications and subscriptions are active only if the cal
 
 ## -capabilities
 proximity, ID_CAP_PROXIMITY [Windows Phone]
+ ID_CAP_PROXIMITY [Windows Phone]

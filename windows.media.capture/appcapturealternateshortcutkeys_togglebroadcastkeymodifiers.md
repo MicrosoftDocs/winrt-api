@@ -23,3 +23,7 @@ The toggle broadcast shortcut key modifiers.
 ## -examples
 
 ## -see-also
+[AppCaptureAlternateShortcutKeys](appcapturealternateshortcutkeys.md)
+
+## -capabilities
+appCaptureSettings

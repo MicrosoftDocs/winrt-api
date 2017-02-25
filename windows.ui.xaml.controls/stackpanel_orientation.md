@@ -38,9 +38,5 @@ The following example creates a horizontal list of items by setting the [Orienta
         </mediaLink>
       </TRANSLATE_MANUALLY>-->
 
-## -see-also
-w3.org/1999/xlink" />
-        </mediaLink>
-      </TRANSLATE_MANUALLY>-->
 
 ## -see-also

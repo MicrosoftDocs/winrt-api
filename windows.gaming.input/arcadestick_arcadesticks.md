@@ -10,9 +10,11 @@ public Windows.Foundation.Collections.IVectorView<Windows.Gaming.Input.ArcadeSti
 # Windows.Gaming.Input.ArcadeStick.ArcadeSticks
 
 ## -description
+
 The list of all connected arcade sticks.
 
 ## -property-value
+
 The list of all connected arcade sticks.
 
 ## -remarks

@@ -34,3 +34,4 @@ This XAML example shows how to use key frames that have easing functions associa
 
 ## -see-also
 [Storyboarded animations](http://msdn.microsoft.com/library/0cbceea0-2b0e-44a1-a09a-f7a939632f3a), [Key-frame animations and easing function animations](http://msdn.microsoft.com/library/d8af24cd-f4c2-4562-afd7-25010955d677), [XAML animation sample](http://go.microsoft.com/fwlink/p/?linkid=238571), [DoubleKeyFrame](doublekeyframe.md), [EasingColorKeyFrame](easingcolorkeyframe.md), [EasingPointKeyFrame](easingpointkeyframe.md), [KeyTime](doublekeyframe_keytime.md), [Value](doublekeyframe_value.md)
+eyTime](doublekeyframe_keytime.md), [Value](doublekeyframe_value.md)

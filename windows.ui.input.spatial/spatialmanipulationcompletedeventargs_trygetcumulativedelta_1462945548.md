@@ -12,8 +12,6 @@ public Windows.UI.Input.Spatial.SpatialManipulationDelta TryGetCumulativeDelta(W
 ## -description
 Get the relative motion of the hand since the start of the Manipulation gesture.
 
-This method will return null if the specified coordinate system cannot be located at the moment.
-
 ## -parameters
 ### -param coordinateSystem
 The coordinate system in which to express the delta.
@@ -22,6 +20,7 @@ The coordinate system in which to express the delta.
 The delta.
 
 ## -remarks
+This method will return null if the specified coordinate system cannot be located at the moment.
 
 ## -examples
 

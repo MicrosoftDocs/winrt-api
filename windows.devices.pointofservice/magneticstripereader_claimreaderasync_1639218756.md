@@ -28,3 +28,4 @@ When the method completes, it returns a [ClaimedMagneticStripeReader](claimedmag
 
 ## -see-also
 [Magnetic stripe reader sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620017)
+soft.com/fwlink/p/?LinkId=620017)

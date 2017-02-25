@@ -38,6 +38,4 @@ foreach (var cur in BackgroundTaskRegistration.AllTasks)
 }
 ```
 
-
-
 ## -see-also

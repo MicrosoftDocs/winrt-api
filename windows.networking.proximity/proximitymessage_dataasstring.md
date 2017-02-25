@@ -32,3 +32,4 @@ The [DataAsString](proximitymessage_dataasstring.md) property is available only 
 
 ## -capabilities
 proximity, ID_CAP_PROXIMITY [Windows Phone]
+ ID_CAP_PROXIMITY [Windows Phone]

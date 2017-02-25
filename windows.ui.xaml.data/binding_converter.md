@@ -46,3 +46,4 @@ To use your converter in a binding, first create an instance of your converter c
 
 ## -see-also
 [XAML data binding sample](http://go.microsoft.com/fwlink/p/?linkid=226854), [Data binding in depth](http://msdn.microsoft.com/library/41e1b4f1-6caf-4128-a61a-4e400b149011)
+b4f1-6caf-4128-a61a-4e400b149011)

@@ -53,3 +53,4 @@ Controls may also have a [PointerUpThemeAnimation](../windows.ui.xaml.media.anim
 
 ## -see-also
 [Tapped](uielement_tapped.md), [PointerPressed](uielement_pointerpressed.md), [Quickstart: touch input](http://msdn.microsoft.com/library/f10bafee-8792-4a57-ae84-aa11ab95355a), [XAML user input events sample](http://go.microsoft.com/fwlink/p/?linkid=231524)
+soft.com/fwlink/p/?linkid=231524)

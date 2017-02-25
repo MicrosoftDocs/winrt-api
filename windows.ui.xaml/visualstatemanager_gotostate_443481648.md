@@ -103,3 +103,4 @@ This example demonstrates control logic that uses the [GoToState](visualstateman
 
 ## -see-also
 [Quickstart: Control templates](http://msdn.microsoft.com/library/67c424ae-afb1-4560-a6a8-4a3506775d77), [GoToStateCore](visualstatemanager_gotostatecore.md), [x:Name attribute](http://msdn.microsoft.com/library/4ff1f3ed-903a-4305-b2bd-dcd29e0c9e6d), [TemplateVisualStateAttribute](templatevisualstateattribute.md), [VisualStateGroup](visualstategroup.md), [VisualState](visualstate.md)
+d), [VisualState](visualstate.md)

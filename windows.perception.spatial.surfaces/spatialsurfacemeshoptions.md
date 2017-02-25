@@ -10,12 +10,9 @@ public class SpatialSurfaceMeshOptions : Windows.Perception.Spatial.Surfaces.ISp
 # Windows.Perception.Spatial.Surfaces.SpatialSurfaceMeshOptions
 
 ## -description
-Provides options to customize the SpatialSurfaceMesh objects you get back from SpatialSurfaceInfo.TryComputeLatestMeshAsync.
+Provides options to customize the [SpatialSurfaceMesh](spatialsurfacemesh.md) objects you get back from [SpatialSurfaceInfo.TryComputeLatestMeshAsync](spatialsurfaceinfo_trycomputelatestmeshasync_1431485667.md).
 
 ## -remarks
-You can get the list of supported vertex position formats from SpatialSurfaceMeshOptions.SupportedVertexPositionFormats.
-
-
 
 ## -examples
 

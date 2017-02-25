@@ -15,7 +15,7 @@ Represents a media source that delivers media samples to a media pipeline.
 ## -remarks
 The [IMediaSource](imediasource.md) interface is implemented by the [MediaStreamSource](mediastreamsource.md) runtime class and can also be implemented by other runtime classes.
 
-Runtime classes that implement this interface must also implement the [IMFGetService](XREF:TODO:mf.imfgetservice) interface and must support returning an [IMFMediaSource](XREF:TODO:mf.imfmediasource) or an [IMFMediaSourceExtension](XREF:TODO:mf.imfmediasourceextension) interface when [IMFGetService.GetService](XREF:TODO:mf.imfgetservice_getservice) method is invoked for the MF_MEDIASOURCE_SERVICE service.
+Runtime classes that implement this interface must also implement the [IMFGetService](https://msdn.microsoft.com/en-us/library/windows/desktop/ms694261.aspx) interface and must support returning an [IMFMediaSource](https://msdn.microsoft.com/en-us/library/windows/desktop/ms700189.aspx) or an [IMFMediaSourceExtension](https://msdn.microsoft.com/en-us/library/windows/desktop/dn280726.aspx) interface when [IMFGetService.GetService](https://msdn.microsoft.com/en-us/library/windows/desktop/ms696978.aspx) method is invoked for the MF_MEDIASOURCE_SERVICE service.
 
 ## -examples
 

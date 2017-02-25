@@ -10,7 +10,7 @@ public void SetStreamReference(Windows.Storage.Streams.IRandomAccessStreamRefere
 # Windows.Media.Core.MediaBindingEventArgs.SetStreamReference
 
 ## -description
-Sets the media content to be bound to the [MediaSource](mediasource.md).
+Binds a media content stream reference to the [MediaSource](mediasource.md) associated with the event.
 
 ## -parameters
 ### -param stream
@@ -24,3 +24,4 @@ A string specifying the content type of the media content.
 ## -examples
 
 ## -see-also
+[MediaBindingEventArgs](mediabindingeventargs.md)

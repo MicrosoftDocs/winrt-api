@@ -31,3 +31,4 @@ The [File picker sample](http://go.microsoft.com/fwlink/p/?linkid=234890) demons
 
 ## -see-also
 [File picker sample](http://go.microsoft.com/fwlink/p/?linkid=234890), [FileSavePicker class](filesavepicker.md), [FilePickerFileTypesOrderedMap](filepickerfiletypesorderedmap.md)
+filepickerfiletypesorderedmap.md)

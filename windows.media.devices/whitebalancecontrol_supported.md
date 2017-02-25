@@ -16,7 +16,7 @@ Gets a value that specifies if the capture device supports the white balance con
 **true** if the capture device supports the white balance control; otherwise, **false**.
 
 ## -remarks
-If the device does not support the [WhiteBalanceControl](whitebalancecontrol.md), you can still use the [WhiteBalance](videodevicecontroller_whitebalance.md) on the [VideoCaptureDevice](XREF:TODO:wp_media_capture.audiovideocapturedevice) to set the white balance color temperature.
+If the device does not support the [WhiteBalanceControl](whitebalancecontrol.md), you can still use the [WhiteBalance](videodevicecontroller_whitebalance.md) on the [VideoDeviceController](videodevicecontroller_md) to set the white balance color temperature.
 
 ## -examples
 

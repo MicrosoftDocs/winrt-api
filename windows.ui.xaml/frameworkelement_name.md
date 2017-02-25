@@ -70,3 +70,4 @@ This example gets a value for [Name](frameworkelement_name.md) from an existing 
 
 ## -see-also
 [x:Name attribute](http://msdn.microsoft.com/library/4ff1f3ed-903a-4305-b2bd-dcd29e0c9e6d), [FindName](frameworkelement_findname.md), [Storyboard.TargetName](../windows.ui.xaml.media.animation/storyboard_targetname.md), [XAML namescopes](http://msdn.microsoft.com/library/eb060cbd-a589-475e-b83d-b24068b54c21), [XAML overview](http://msdn.microsoft.com/library/48041b37-f1a8-44a4-bb8e-1d4de30e7823)
+1b37-f1a8-44a4-bb8e-1d4de30e7823)

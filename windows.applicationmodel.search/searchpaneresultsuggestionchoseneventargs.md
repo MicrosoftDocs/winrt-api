@@ -29,3 +29,4 @@ The [Search contract sample](http://go.microsoft.com/fwlink/p/?linkid=234892) de
 
 ## -see-also
 [Search contract sample](http://go.microsoft.com/fwlink/p/?linkid=234892), [SearchPane class](searchpane.md), [SearchPane.ResultSuggestionChosen event](searchpane_resultsuggestionchosen.md), [SearchSuggestionCollection.AppendResultSuggestion method](searchsuggestioncollection_appendresultsuggestion.md)
+ection_appendresultsuggestion.md)

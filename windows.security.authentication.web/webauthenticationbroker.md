@@ -18,7 +18,7 @@ All members of this class are static. You can access them without creating an ob
 ## -examples
 
 
-[!code-csharp[webauthenticationbroker](../windows.security.authentication.web/code/webauthenticationbroker/cs/ScenarioInput1.xaml.cs#Snippetwebauthenticationbroker)]
+[!code-xml[webauthenticationbroker](../windows.security.authentication.web/code/webauthenticationbroker/cs/ScenarioInput1.xaml.cs#Snippetwebauthenticationbroker)]
 
 [!code-xml[WebAuthenticationBrokerXAML](../windows.security.authentication.web/code/webauthenticationbroker/cs/Scenario1.xaml#SnippetWebAuthenticationBrokerXAML)]
 

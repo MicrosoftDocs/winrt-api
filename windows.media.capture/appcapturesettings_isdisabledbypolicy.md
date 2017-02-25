@@ -23,3 +23,7 @@ True if app capture is disabled by policy; otherwise, false.
 ## -examples
 
 ## -see-also
+[AppCaptureSettings](appcapturesettings.md)
+
+## -capabilities
+appCaptureSettings

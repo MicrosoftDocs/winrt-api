@@ -17,8 +17,7 @@ Attempts to start the animation.
 The element that is animated into view.
 
 ## -returns
-**
-            true** if the animation started; **false** if the animation has already been started, if it is no longer active, or if the destination element is the same as the source element.
+**true** if the animation started; **false** if the animation has already been started, if it is no longer active, or if the destination element is the same as the source element.
 
 ## -remarks
 

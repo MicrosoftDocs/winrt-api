@@ -13,8 +13,7 @@ public bool IsEnabled { get;  set; }
 Gets or sets whether custom tools are displayed on the [RadialController](radialcontroller.md) menu.
 
 ## -property-value
-**
-      true** if the menu displays custom tools; otherwise **false**.
+**true** if the menu displays custom tools; otherwise **false**.
 
 If **false**, no custom tools are displayed, and [Items](radialcontrollermenu_items.md) is empty.
 

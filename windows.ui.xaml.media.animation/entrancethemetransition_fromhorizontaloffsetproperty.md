@@ -20,4 +20,4 @@ The identifier for the [FromHorizontalOffset](entrancethemetransition_fromhorizo
 ## -examples
 
 ## -see-also
-[Animating page transitions](XREF:TODO:m_personality_mca.page_transition_animations), [Guidelines and checklist for page transition animations](XREF:TODO:m_personality.guidelines_for_page_transitions)
+[Animating page transitions](http://msdn.microsoft.com/library/57659b10-39c2-4ff4-95ff-51a349d01911), [Guidelines and checklist for page transition animations](http://msdn.microsoft.com/library/a5784163-05a0-414f-872c-f14793d00a91)

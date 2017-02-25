@@ -33,3 +33,4 @@ The publication ID for a message is returned from the [PublishMessage](proximity
 
 ## -capabilities
 proximity, ID_CAP_PROXIMITY [Windows Phone]
+ ID_CAP_PROXIMITY [Windows Phone]

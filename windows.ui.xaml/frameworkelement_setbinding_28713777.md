@@ -52,3 +52,4 @@ This example establishes a binding to a dependency property on an object by call
 
 ## -see-also
 [Binding](../windows.ui.xaml.data/binding.md), [BindingOperations](../windows.ui.xaml.data/bindingoperations.md), [Data binding in depth](http://msdn.microsoft.com/library/41e1b4f1-6caf-4128-a61a-4e400b149011), [Dependency properties overview](http://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e)
+9e66-f71c-4daa-9994-617c886fda7e)

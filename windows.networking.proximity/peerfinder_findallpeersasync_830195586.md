@@ -44,3 +44,4 @@ Wi-Fi Direct is not supported on Windows Phone 8. For more information, see [P
 
 ## -capabilities
 proximity, ID_CAP_PROXIMITY [Windows Phone], ID_CAP_NETWORKING [Windows Phone]
+ID_CAP_NETWORKING [Windows Phone]

@@ -31,7 +31,7 @@ Represents a control that can be used to enter search query text. (Not recommend
 
 To support keyboard interaction and make your app's search experience consistent with the Start screen, set the [FocusOnKeyboardInput](searchbox_focusonkeyboardinput.md) property to **true**. For more info, see [Guidelines and checklist for search](http://msdn.microsoft.com/library/c328faa3-f6ae-4970-8372-b413f1290c39).
 
-At a minimum each [SearchBox](searchbox.md) control should always have a [QuerySubmitted](searchbox_querysubmitted.md) handler. This handler passes the user's query text to a search results page that the handler opens. Open this page by calling [Frame.Navigate](frame_navigate.md). For more info on how to write a basic [QuerySubmitted](searchbox_querysubmitted.md) handler and create a search results page as part of your app, see [Enabling users to search for information in your ](XREF:TODO:m_getstarted.adding_a_search_contract_item_template_using_xaml).
+At a minimum each [SearchBox](searchbox.md) control should always have a [QuerySubmitted](searchbox_querysubmitted.md) handler. This handler passes the user's query text to a search results page that the handler opens. Open this page by calling [Frame.Navigate](frame_navigate.md). For more info on how to write a basic [QuerySubmitted](searchbox_querysubmitted.md) handler and create a search results page as part of your app, see [Enabling users to search for information in your ](http://msdn.microsoft.com/library/9fa49c2a-5237-4432-aa93-0829bdc9dfe0).
 
 In addition to the basic results and search experience, a [SearchBox](searchbox.md) also supports search suggestions, programmatically setting the starting search text, and search history. The search suggestion feature is supported by API in the [Windows.ApplicationModel.Search](../windows.applicationmodel.search/windows_applicationmodel_search.md) namespace. For example code that shows how to use these features, see [SearchBox control sample](http://go.microsoft.com/fwlink/p/?LinkId=317444).
 
@@ -65,4 +65,4 @@ End Sub
 
 
 ## -see-also
-[Quickstart: Adding search to an app](http://msdn.microsoft.com/library/9fa49c2a-5237-4432-aa93-0829bdc9dfe0), [Control](control.md), [SearchBoxQuerySubmittedEventArgs](searchboxquerysubmittedeventargs.md), [SearchBox control sample](http://go.microsoft.com/fwlink/p/?LinkId=317444), [Enabling users to search for information in your ](XREF:TODO:m_getstarted.adding_a_search_contract_item_template_using_xaml)
+[Quickstart: Adding search to an app](http://msdn.microsoft.com/library/9fa49c2a-5237-4432-aa93-0829bdc9dfe0), [Control](control.md), [SearchBoxQuerySubmittedEventArgs](searchboxquerysubmittedeventargs.md), [SearchBox control sample](http://go.microsoft.com/fwlink/p/?LinkId=317444), [Enabling users to search for information in your ](http://msdn.microsoft.com/library/9fa49c2a-5237-4432-aa93-0829bdc9dfe0)

@@ -19,7 +19,7 @@ Establishes a connection to a specific access point on a network. The request is
 <!--For more information, see <xref hlink="https://msdn.redmond.corp.microsoft.com/library/windows/hardware/Dn247051.aspx" >Mobile Broadband: Windows Store device apps</xref>.-->
 
 ## -parameters
-### -param CellularApnContext
+### -param cellularApnContext
 Provides specific details about the APN.
 
 ## -returns

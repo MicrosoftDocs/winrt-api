@@ -62,7 +62,7 @@ A 32-bit Windows **NTSTATUS** value.
 A 32-bit Windows **HRESULT** value.
 
 ### -field FileTime:16
-A 64-bit [FILETIME](XREF:TODO:base.filetime_str) value.
+A 64-bit [FILETIME](https://msdn.microsoft.com/library/windows/desktop/ms724284) value.
 
 ### -field Signed:17
 A signed value.

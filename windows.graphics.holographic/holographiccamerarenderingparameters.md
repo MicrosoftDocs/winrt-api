@@ -12,10 +12,8 @@ public class HolographicCameraRenderingParameters : Windows.Graphics.Holographic
 ## -description
 Represents per-camera parameters for rendering holographic content.
 
-An app can call the SetFocusPoint method each frame to improve holographic image quality. The app can specify the position, normal, and velocity of the user's likely focus point within the scene. Holograms will be most stable both at the specified position, and along the plane defined by that position and the normal. If the content does not have an obvious normal, omit it or have it face the user.
-
 ## -remarks
-
+An app can call the SetFocusPoint method each frame to improve holographic image quality. The app can specify the position, normal, and velocity of the user's likely focus point within the scene. Holograms will be most stable both at the specified position, and along the plane defined by that position and the normal. If the content does not have an obvious normal, omit it or have it face the user.
 
 ## -examples
 

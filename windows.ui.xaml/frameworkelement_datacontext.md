@@ -54,3 +54,4 @@ This example sets the [DataContext](frameworkelement_datacontext.md) directly to
 
 ## -see-also
 [Binding](../windows.ui.xaml.data/binding.md), [Data binding in depth](http://msdn.microsoft.com/library/41e1b4f1-6caf-4128-a61a-4e400b149011), [ObservableCollection&lt;T&gt;](XREF:TODO:T:System.Collections.ObjectModel.ObservableCollection`1)
+jectModel.ObservableCollection`1)

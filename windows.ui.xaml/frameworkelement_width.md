@@ -62,3 +62,4 @@ This example shows a simple property set of a UI element that is created at run 
 
 ## -see-also
 [Control](../windows.ui.xaml.controls/control.md), [Height](frameworkelement_height.md), [ActualWidth](frameworkelement_actualwidth.md), [MinWidth](frameworkelement_minwidth.md), [MaxWidth](frameworkelement_maxwidth.md), [Define layouts with XAML](http://msdn.microsoft.com/library/8d4e4162-1c9c-48f4-8a94-34976fb17079), [Alignment, margin, and padding](http://msdn.microsoft.com/library/9412abd4-3674-4865-b07d-64c7c26e4842)
+abd4-3674-4865-b07d-64c7c26e4842)

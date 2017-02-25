@@ -10,6 +10,7 @@ public event Windows.Foundation.TypedEventHandler HeadsetDisconnected<Windows.Ga
 # Windows.Gaming.Input.ArcadeStick.HeadsetDisconnected
 
 ## -description
+
 Signals when a headset is disconnected from the arcade stick.
 
 ## -remarks
@@ -17,3 +18,6 @@ Signals when a headset is disconnected from the arcade stick.
 ## -examples
 
 ## -see-also
+
+* [Windows.Gaming.Input.IGameController](igamecontroller.md)
+* [Windows.Gaming.Input.Headset](headset.md)

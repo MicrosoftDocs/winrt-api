@@ -32,3 +32,4 @@ Pass this reference to the [ConnectAsync](peerfinder_connectasync.md) method to 
 
 ## -capabilities
 proximity, ID_CAP_PROXIMITY [Windows Phone]
+ ID_CAP_PROXIMITY [Windows Phone]

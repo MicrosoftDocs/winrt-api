@@ -16,7 +16,7 @@ Gets or sets whether to compute a normal buffer.
 Whether to compute normals.
 
 ## -remarks
-SpatialSurfaceMesh.VertexNormals will only be non-null if IncludeVertexNormals is set to true.
+[SpatialSurfaceMesh.VertexNormals](spatialsurfacemesh_vertexnormals.md) will only be non-null if IncludeVertexNormals is set to true.
 
 ## -examples
 

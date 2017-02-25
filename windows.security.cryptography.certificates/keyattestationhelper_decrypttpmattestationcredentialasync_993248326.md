@@ -17,3 +17,10 @@ Decrypts a TPM key attestation credential.
 ## -examples
 
 ## -see-also
+### -param credential
+
+
+
+## -returns
+
+

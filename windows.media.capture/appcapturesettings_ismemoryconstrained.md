@@ -23,3 +23,7 @@ True if the device is memory-constrained; otherwise, false.
 ## -examples
 
 ## -see-also
+[AppCaptureSettings](appcapturesettings.md)
+
+## -capabilities
+appCaptureSettings

@@ -14,7 +14,7 @@ Attempts to asynchronously update the firmware for the controller.
 
 ## -parameters
 ### -param firmwareImage
-A stream pointing to the firmware image to update the controller with.
+A stream pointing to the firmware image with which to update the controller.
 
 ## -returns
 Returns the result of the asynchronous operation.

@@ -80,3 +80,4 @@ The following code example shows several slider controls and how to handle the [
 
 ## -see-also
 [RangeBase](../windows.ui.xaml.controls.primitives/rangebase.md), [Slider styles and templates](http://msdn.microsoft.com/library/beef17b1-50bb-49e5-83c3-59645cb36389), [ComboBox](combobox.md), [ListBox](listbox.md), [Controls list](http://msdn.microsoft.com/library/11172840-a63d-4f48-9db4-7baca06308ee), [Controls by function](http://msdn.microsoft.com/library/8db4347b-91d6-4659-91f2-80ecf7bbb596)
+p://msdn.microsoft.com/library/8db4347b-91d6-4659-91f2-80ecf7bbb596)

@@ -32,3 +32,4 @@ The proximity device that raised the [DeviceArrived](proximitydevice_devicearriv
 
 ## -capabilities
 proximity, ID_CAP_PROXIMITY [Windows Phone]
+ ID_CAP_PROXIMITY [Windows Phone]

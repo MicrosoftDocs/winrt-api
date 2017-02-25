@@ -19,4 +19,3 @@ An instance of this class is passed to the background task in its [Run](ibackgro
 ## -examples
 
 ## -see-also
-

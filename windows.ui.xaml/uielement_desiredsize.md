@@ -33,3 +33,4 @@ This example queries [DesiredSize](uielement_desiredsize.md) as part of the chil
 
 ## -see-also
 [ArrangeOverride](frameworkelement_arrangeoverride.md), [MeasureOverride](frameworkelement_measureoverride.md), [Arrange](uielement_arrange.md), [Measure](uielement_measure.md)
+, [Measure](uielement_measure.md)

@@ -47,3 +47,5 @@ PlayTo apps will not be suspended as long as video or music is playing on the Pl
 
 ## -capabilities
 privateNetworkClientServer
+ities
+privateNetworkClientServer

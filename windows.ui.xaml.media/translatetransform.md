@@ -35,7 +35,3 @@ This example uses a [TranslateTransform](translatetransform.md) to offset text. 
 
 ## -see-also
 [XAML two-dimensional transforms sample](http://go.microsoft.com/fwlink/p/?linkid=238580), [Transform](transform.md)
-)]
-
-## -see-also
-[XAML two-dimensional transforms sample](http://go.microsoft.com/fwlink/p/?linkid=238580), [Transform](transform.md)

@@ -17,14 +17,14 @@ Use the [WwwFormUrlDecoder](wwwformurldecoder.md) class to parse a query string 
 
 Use [GetFirstValueByName](wwwformurldecoder_getfirstvaluebyname.md) to find a specific named query string parameter. All languages can use this method. You'd typically use [GetFirstValueByName](wwwformurldecoder_getfirstvaluebyname.md) rather than [GetAt](wwwformurldecoder_getat.md) or [Item](wwwformurldecoder_item.md) because the order of items in a query string usually isn't important, whereas the parameter name is the important identifier of the parts of a query. Or, if you're not sure what names exist in the query string, you might enumerate over the complete [WwwFormUrlDecoder](wwwformurldecoder.md) collection.
 
-The [Uri.QueryParsed](uri_queryparsed.md) property returns a complete [WwwFormUrlDecoder](wwwformurldecoder.md) based on a [Uri](uri.md) instance. So if you're using Visual C++ component extensions (C++/CX) or JavaScript code, and you already have a [Uri](uri.md) instance, you won't need to construct a new [WwwFormUrlDecoder](wwwformurldecoder.md) object, the [Uri](uri.md) instance already has one. You might construct a [WwwFormUrlDecoder](wwwformurldecoder.md) if you have a string representing a URL or its query string component from other sources, such as from a [Windows.Web.Http](../windows.web.http/windows_web_http.md) API. 
+The [Uri.QueryParsed](uri_queryparsed.md) property returns a complete [WwwFormUrlDecoder](wwwformurldecoder.md) based on a [Uri](uri.md) instance. So if you're using Visual C++ component extensions (C++/CX) or JavaScript code, and you already have a [Uri](uri.md) instance, you won't need to construct a new [WwwFormUrlDecoder](wwwformurldecoder.md) object, the [Uri](uri.md) instance already has one. You might construct a [WwwFormUrlDecoder](wwwformurldecoder.md) if you have a string representing a URL or its query string component from other sources, such as from a [Windows.Web.Http](../windows.web.http/windows_web_http.md) API.
 
 > [!NOTE]
 > This collection is a vector rather than a map in case the original order has any meaning to an implementation, and also because it's legal for the same name to appear in the query string twice, whereas it's not legal for maps to have duplicate keys.
 
 ### Collection member lists
 
-For .NET usage, [WwwFormUrlDecoder](wwwformurldecoder.md) has the projected APIs of a generic [IReadOnlyList](XREF:TODO:T:System.Collections.Generic.IReadOnlyList`1) with a [IWwwFormUrlDecoderEntry](iwwwformurldecoderentry.md) constraint. The APIs that are available for each language are indicated in the member lists.
+For .NET usage, [WwwFormUrlDecoder](wwwformurldecoder.md) has the projected APIs of a generic [IReadOnlyList](https://msdn.microsoft.com/library/windows/apps/hh192385) with a [IWwwFormUrlDecoderEntry](iwwwformurldecoderentry.md) constraint. The APIs that are available for each language are indicated in the member lists.
 
 For JavaScript, [WwwFormUrlDecoder](wwwformurldecoder.md) has the members shown in the member lists. In addition, [WwwFormUrlDecoder](wwwformurldecoder.md) supports a **length** property, members of **Array.prototype**, and using an index to access items.
 
@@ -34,7 +34,7 @@ For JavaScript, [WwwFormUrlDecoder](wwwformurldecoder.md) has the members shown 
 
 Use the [IWwwFormUrlDecoderEntry](iwwwformurldecoderentry.md) interface for the type of the items in the collection (this is how the items are typed by [Item](wwwformurldecoder_item.md), [IndexOf](wwwformurldecoder_indexof.md) and so on). Don't use the [WwwFormUrlDecoderEntry](wwwformurldecoderentry.md) class, it isn't available for .NET usage.
 
-[WwwFormUrlDecoder](wwwformurldecoder.md) also has the projected APIs of a generic [IReadOnlyList](XREF:TODO:T:System.Collections.Generic.IReadOnlyList`1) with a [IWwwFormUrlDecoderEntry](iwwwformurldecoderentry.md) constraint, but these APIs aren't commonly used.
+[WwwFormUrlDecoder](wwwformurldecoder.md) also has the projected APIs of a generic [IReadOnlyList](https://msdn.microsoft.com/library/windows/apps/hh192385) with a [IWwwFormUrlDecoderEntry](iwwwformurldecoderentry.md) constraint, but these APIs aren't commonly used.
 
 > [!NOTE]
 > `System.Web.HttpUtility.ParseQueryString` isn't available for .NET for Windows Runtime app. [WwwFormUrlDecoder](wwwformurldecoder.md) is the recommended replacement for it.
@@ -43,7 +43,7 @@ Use the [IWwwFormUrlDecoderEntry](iwwwformurldecoderentry.md) interface for the 
 <!--Begin NET note for IEnumerable support-->
 ### Enumerating the collection in C# or Microsoft Visual Basic
 
-[WwwFormUrlDecoder](wwwformurldecoder.md) is enumerable, so you can use language-specific syntax such as **foreach** in C# to enumerate the items in the collection. The compiler does the type-casting for you and you won't need to cast to `IEnumerable<IWwwFormUrlDecoderEntry>` explicitly. If you do need to cast explicitly, for example if you want to call [GetEnumerator](XREF:TODO:M:System.Collections.Generic.IEnumerable`1.GetEnumerator), cast to [IEnumerable&lt;T&gt;](XREF:TODO:T:System.Collections.Generic.IEnumerable`1) with an [IWwwFormUrlDecoderEntry](iwwwformurldecoderentry.md) constraint.
+[WwwFormUrlDecoder](wwwformurldecoder.md) is enumerable, so you can use language-specific syntax such as **foreach** in C# to enumerate the items in the collection. The compiler does the type-casting for you and you won't need to cast to `IEnumerable<IWwwFormUrlDecoderEntry>` explicitly. If you do need to cast explicitly, for example if you want to call [GetEnumerator](https://msdn.microsoft.com/library/windows/apps/system.collections.ienumerable.getenumerator), cast to [IEnumerable&lt;T&gt;](https://msdn.microsoft.com/library/windows/apps/system.collections.ienumerable) with an [IWwwFormUrlDecoderEntry](iwwwformurldecoderentry.md) constraint.
 
 
 <!--End NET note for IEnumerable support-->

@@ -20,3 +20,7 @@ True if audio capture is enabled; otherwise, false.
 ## -examples
 
 ## -see-also
+[AppCaptureSettings](appcapturesettings.md)
+
+## -capabilities
+appCaptureSettings

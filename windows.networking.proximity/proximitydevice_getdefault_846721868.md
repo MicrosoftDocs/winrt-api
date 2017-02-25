@@ -31,3 +31,4 @@ A new proximity device that uses the default proximity provider. Returns **NULL*
 
 ## -capabilities
 proximity, ID_CAP_PROXIMITY [Windows Phone]
+ ID_CAP_PROXIMITY [Windows Phone]

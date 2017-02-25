@@ -40,3 +40,4 @@ This example shows a common scenario where you use the [ActualHeight](frameworke
 
 ## -see-also
 [ActualWidth](frameworkelement_actualwidth.md), [Height](frameworkelement_height.md), [SizeChanged](frameworkelement_sizechanged.md)
+(frameworkelement_sizechanged.md)

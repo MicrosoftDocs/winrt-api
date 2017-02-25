@@ -32,3 +32,4 @@ The [Socket](triggeredconnectionstatechangedeventargs_socket.md) property is nul
 
 ## -capabilities
 proximity, ID_CAP_PROXIMITY [Windows Phone]
+ ID_CAP_PROXIMITY [Windows Phone]

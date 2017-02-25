@@ -17,7 +17,7 @@ Sets the list of bounding volumes that this observer will track for new, updated
 The bounding volumes.
 
 ## -remarks
-When the set of surface metadata within these bounding volumes changes, the ObservedSurfacesChanged event will fire.
+When the set of surface metadata within these bounding volumes changes, the [ObservedSurfacesChanged](spatialsurfaceobserver_observedsurfaceschanged.md) event will fire.
 
 ## -examples
 

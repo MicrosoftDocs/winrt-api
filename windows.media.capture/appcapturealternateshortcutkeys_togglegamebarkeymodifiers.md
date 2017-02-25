@@ -23,3 +23,4 @@ The toggle game bar shortcut key modifiers.
 ## -examples
 
 ## -see-also
+[AppCaptureAlternateShortcutKeys](appcapturealternateshortcutkeys.md)

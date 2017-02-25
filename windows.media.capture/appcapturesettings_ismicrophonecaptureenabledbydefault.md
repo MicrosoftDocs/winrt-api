@@ -23,3 +23,7 @@ True if microphone capture is enabled by default; otherwise, false.
 ## -examples
 
 ## -see-also
+[AppCaptureSettings](appcapturesettings.md)
+
+## -capabilities
+appCaptureSettings

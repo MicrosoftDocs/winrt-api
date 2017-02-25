@@ -23,3 +23,7 @@ True if the device has a hardware encoder; otherwise, false.
 ## -examples
 
 ## -see-also
+[AppCaptureSettings](appcapturesettings.md)
+
+## -capabilities
+appCaptureSettings

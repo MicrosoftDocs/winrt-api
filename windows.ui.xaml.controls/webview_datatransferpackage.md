@@ -34,3 +34,4 @@ The following code example demonstrates how to use this property to implement sh
 
 ## -see-also
 [XAML WebView control sample](http://go.microsoft.com/fwlink/p/?linkid=238582)
+soft.com/fwlink/p/?linkid=238582)

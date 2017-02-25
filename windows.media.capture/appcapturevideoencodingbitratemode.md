@@ -28,3 +28,6 @@ Standard bitrate.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appCaptureSettings

@@ -37,3 +37,5 @@ The following example demonstrates handling the [Click](buttonbase_click.md) eve
 
 ## -see-also
 [ContentControl](../windows.ui.xaml.controls/contentcontrol.md)
+lso
+[ContentControl](../windows.ui.xaml.controls/contentcontrol.md)

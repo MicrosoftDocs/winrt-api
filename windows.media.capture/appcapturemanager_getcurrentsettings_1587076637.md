@@ -23,7 +23,7 @@ The current app capture settings.
 ## -examples
 
 ## -see-also
-
+[AppCaptureManager](appcapturemanager.md)
 
 ## -capabilities
 appCaptureSettings

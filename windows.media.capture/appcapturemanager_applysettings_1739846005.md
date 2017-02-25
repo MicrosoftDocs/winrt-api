@@ -24,7 +24,7 @@ The settings to apply.
 ## -examples
 
 ## -see-also
-
+[AppCaptureManager](appcapturemanager.md)
 
 ## -capabilities
 appCaptureSettings

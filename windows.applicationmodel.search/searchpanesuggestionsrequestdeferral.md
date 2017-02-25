@@ -30,3 +30,4 @@ The [Search contract sample](http://go.microsoft.com/fwlink/p/?linkid=234892) de
 
 ## -see-also
 [SearchPane class](searchpane.md), [SearchPane.SuggestionsRequested event](searchpane_suggestionsrequested.md), [SearchPaneSuggestionsRequest class](searchpanesuggestionsrequest.md), [SearchPaneSuggestionsRequest.GetDeferral method](searchpanesuggestionsrequest_getdeferral.md), [SearchPaneSuggestionsRequestedEventArgs class](searchpanesuggestionsrequestedeventargs.md)
+suggestionsrequestedeventargs.md)

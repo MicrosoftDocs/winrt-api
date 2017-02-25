@@ -50,3 +50,4 @@ This XAML example moves an ellipse along a triangular path. The example uses the
 
 ## -see-also
 [Storyboarded animations](http://msdn.microsoft.com/library/0cbceea0-2b0e-44a1-a09a-f7a939632f3a), [PointKeyFrame](pointkeyframe.md), [PointAnimationUsingKeyFrames](pointanimationusingkeyframes.md), [KeyTime](pointkeyframe_keytime.md), [Value](pointkeyframe_value.md)
+[KeyTime](pointkeyframe_keytime.md), [Value](pointkeyframe_value.md)

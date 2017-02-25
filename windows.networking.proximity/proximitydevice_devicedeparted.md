@@ -28,3 +28,4 @@ Occurs when a device leaves the proximate range.
 
 ## -capabilities
 proximity, ID_CAP_PROXIMITY [Windows Phone]
+ ID_CAP_PROXIMITY [Windows Phone]

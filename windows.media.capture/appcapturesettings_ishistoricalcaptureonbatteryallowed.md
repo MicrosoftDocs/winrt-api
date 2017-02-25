@@ -23,3 +23,7 @@ True if historical capture is allowed while the device is on battery power; othe
 ## -examples
 
 ## -see-also
+[AppCaptureSettings](appcapturesettings.md)
+
+## -capabilities
+appCaptureSettings

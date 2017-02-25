@@ -109,3 +109,4 @@ This protocol will launch a properly configured application to handle these even
 
 ## -capabilities
 proximity, ID_CAP_PROXIMITY [Windows Phone]
+ ID_CAP_PROXIMITY [Windows Phone]

@@ -26,7 +26,7 @@ All input can be passed through to your app for processing by setting [InkInputP
 
 Leaving input unprocessed by the [InkPresenter](inkunprocessedinput_inkpresenter.md) lets you support a customized ink experience and extended functionality such as selection.
 
-For complete control of ink input and to render it to the Direct2D device context of your Universal Windows app, instead of the default [InkCanvas](../windows.ui.xaml.controls/inkcanvas.md) control, call [ActivateCustomDrying](inkpresenter_activatecustomdrying.md) prior to loading the [InkCanvas](../windows.ui.xaml.controls/inkcanvas.md). This requires an [IInkD2DRenderer](XREF:TODO:input_ink.iinkd2drenderer) object to manage the ink input (see the [Complex ink sample](http://go.microsoft.com/fwlink/p/?LinkID=620314)).
+For complete control of ink input and to render it to the Direct2D device context of your Universal Windows app, instead of the default [InkCanvas](../windows.ui.xaml.controls/inkcanvas.md) control, call [ActivateCustomDrying](inkpresenter_activatecustomdrying.md) prior to loading the [InkCanvas](../windows.ui.xaml.controls/inkcanvas.md). This requires an [IInkD2DRenderer](http://msdn.microsoft.com/library/d1bd910d-ce64-4424-a0e1-4f55110b0265) object to manage the ink input (see the [Complex ink sample](http://go.microsoft.com/fwlink/p/?LinkID=620314)).
 
 ## -remarks
 The [InkPresenter](inkpresenter.md) class cannot be instantiated directly. It is returned as a property of an [InkCanvas](../windows.ui.xaml.controls/inkcanvas.md) object.

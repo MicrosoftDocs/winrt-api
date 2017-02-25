@@ -12,11 +12,10 @@ public event Windows.Foundation.TypedEventHandler CameraAdded<Windows.Graphics.H
 ## -description
 Occurs when a HolographicCamera is added to the current HolographicSpace.
 
+## -remarks
 Apps can use this event to set up any per-camera resources they may need.
 
 Unless the deferral is taken, once all event handlers are complete, the system will include this camera in the list of cameras that the app must render to each frame.
-
-## -remarks
 
 ## -examples
 

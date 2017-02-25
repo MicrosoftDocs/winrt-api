@@ -33,3 +33,4 @@ The subscription ID for a message subscription is returned from the [SubscribeFo
 
 ## -capabilities
 proximity, ID_CAP_PROXIMITY [Windows Phone]
+ ID_CAP_PROXIMITY [Windows Phone]

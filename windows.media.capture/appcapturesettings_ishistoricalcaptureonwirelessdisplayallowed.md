@@ -23,3 +23,7 @@ True if historical capture is allowed on wireless displays; otherwise, true.
 ## -examples
 
 ## -see-also
+[AppCaptureSettings](appcapturesettings.md)
+
+## -capabilities
+appCaptureSettings

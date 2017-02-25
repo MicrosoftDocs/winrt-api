@@ -70,3 +70,4 @@ Other events instead of [PointerReleased](uielement_pointerreleased.md) may fire
 
 ## -see-also
 [Tapped](uielement_tapped.md), [PointerReleased](uielement_pointerreleased.md), [Quickstart: Touch input](http://msdn.microsoft.com/library/f10bafee-8792-4a57-ae84-aa11ab95355a), [XAML user input events sample](http://go.microsoft.com/fwlink/p/?linkid=231524)
+soft.com/fwlink/p/?linkid=231524)

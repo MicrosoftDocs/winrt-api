@@ -6,7 +6,7 @@
 # Windows.Perception.Automation.Core
 
 ## -description
-Defines the support types for Microsoft UI Automation infrastructure.
+Defines support types for the Perception Automation infrastructure.
 
 ## -remarks
 

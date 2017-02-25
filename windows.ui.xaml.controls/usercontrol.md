@@ -45,3 +45,5 @@ The following examples demonstrate creating a [UserControl](usercontrol.md) and 
 
 ## -see-also
 [Control](control.md)
+ -see-also
+[Control](control.md)

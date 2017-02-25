@@ -23,3 +23,7 @@ The alternate shortcut key settings.
 ## -examples
 
 ## -see-also
+[AppCaptureSettings](appcapturesettings.md)
+
+## -capabilities
+appCaptureSettings

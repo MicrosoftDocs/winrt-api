@@ -15,7 +15,7 @@ Represents a read-only list of [VideoTrack](../windows.media.core/videotrack.md)
 ## -remarks
 Get an instance of this class by accessing the [VideoTracks](mediaplaybackitem_videotracks.md) property of a [MediaPlaybackItem](mediaplaybackitem.md). To be notified when the list of tracks changes, handle the [VideoTracksChanged](mediaplaybackitem_videotrackschanged.md) event.
 
-This class provides access to the list of [VideoTrack](../windows.media.core/videotrack.md) objects that are associated with a [MediaPlaybackItem](mediaplaybackitem.md). When the media item is opened by a component and the [ItemResolved](mediaplaybacklist_itemresolved.md) event is raised, you can select one of the video tracks in the track list for playback.
+This class provides access to the list of [VideoTrack](../windows.media.core/videotrack.md) objects that are associated with a [MediaPlaybackItem](mediaplaybackitem.md). When the media item is opened by a component and the [ItemOpened](mediaplaybacklist_itemopened.md) event is raised, you can select one of the video tracks in the track list for playback.
 
 Note that this class does not represent a playlist of video tracks that are played sequentially. To play a sequential list of tracks, use [MediaPlaybackList](mediaplaybacklist.md).
 

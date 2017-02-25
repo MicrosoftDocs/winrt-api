@@ -29,3 +29,4 @@ Messages published using the [PublishMessage](proximitydevice_publishmessage.md)
 
 ## -capabilities
 proximity, ID_CAP_PROXIMITY [Windows Phone]
+ ID_CAP_PROXIMITY [Windows Phone]

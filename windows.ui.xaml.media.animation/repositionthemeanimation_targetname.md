@@ -26,4 +26,4 @@ The reference name. This is typically the **x:Name** of the relevant element as 
 ## -examples
 
 ## -see-also
-[Animating repositions](http://msdn.microsoft.com/library/4d715c69-79e6-4179-a66c-a193629966d1), [Guidelines and checklist for reposition animations](XREF:TODO:m_personality.guidelines_for_reposition_animation)
+[Animating repositions](http://msdn.microsoft.com/library/4d715c69-79e6-4179-a66c-a193629966d1), [Guidelines and checklist for reposition animations](http://msdn.microsoft.com/library/25d1ee31-5c25-4f21-b34c-fbd8fb1c8fff)

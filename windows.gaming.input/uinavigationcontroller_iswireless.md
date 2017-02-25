@@ -13,7 +13,7 @@ public bool IsWireless { get; }
 Gets a value that indicates the wireless state of the UI navigation controller.
 
 ## -property-value
-True if the gamepad is wireless. Otherwise, false.
+True if the UI navigation controller is wireless. Otherwise, false.
 
 ## -remarks
 

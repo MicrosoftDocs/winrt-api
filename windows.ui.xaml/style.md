@@ -95,13 +95,7 @@ Notice that in the style for the [TextBox](../windows.ui.xaml.controls/textbox.m
 
 [!code-xml[BasedOn](../windows.ui.xaml/code/BasedOnSnippet/csharp/MainPage.xaml#SnippetBasedOn)]
 
-## -see-also
-[DependencyObject](dependencyobject.md), [ControlTemplate](../windows.ui.xaml.controls/controltemplate.md), [Setter](setter.md), [Dependency properties overview](http://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e), [ResourceDictionary and XAML resource references](http://msdn.microsoft.com/library/e3cbfa3d-6af5-44e1-b9f9-c3d3ea8a25ce), [Styling controls](http://msdn.microsoft.com/library/ab469a46-faf5-42d0-9340-948d0edf4150), [Quickstart: Control templates](http://msdn.microsoft.com/library/67c424ae-afb1-4560-a6a8-4a3506775d77)
-(../windows.ui/colors_yellow.md) from `BaseStyle` and adds a [Foreground](../windows.ui.xaml.controls/control_foreground.md) value of [Blue](../windows.ui/colors_blue.md).
 
-
-
-[TODO:AUTO_SNIPPET (SAMPLE_ID:BasedOnSnippet)(SNIPPET_ID:BasedOn)]
 
 ## -see-also
 [DependencyObject](dependencyobject.md), [ControlTemplate](../windows.ui.xaml.controls/controltemplate.md), [Setter](setter.md), [Dependency properties overview](http://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e), [ResourceDictionary and XAML resource references](http://msdn.microsoft.com/library/e3cbfa3d-6af5-44e1-b9f9-c3d3ea8a25ce), [Styling controls](http://msdn.microsoft.com/library/ab469a46-faf5-42d0-9340-948d0edf4150), [Quickstart: Control templates](http://msdn.microsoft.com/library/67c424ae-afb1-4560-a6a8-4a3506775d77)

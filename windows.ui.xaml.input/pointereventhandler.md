@@ -43,4 +43,5 @@ The following code example shows scenario 2 from the [Input sample](http://go.mi
 
 [!code-vb[Scenario2Code](../windows.ui.xaml/code/input/vbnet/Scenario2.xaml.vb#SnippetScenario2Code)]
 
+
 ## -see-also

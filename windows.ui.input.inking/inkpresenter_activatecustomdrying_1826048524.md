@@ -10,7 +10,7 @@ public Windows.UI.Input.Inking.InkSynchronizer ActivateCustomDrying()
 # Windows.UI.Input.Inking.InkPresenter.ActivateCustomDrying
 
 ## -description
-Indicates that your app requires complete control of ink input rendering it to the Direct2D device context of your Universal Windows app, instead of the default [InkCanvas](../windows.ui.xaml.controls/inkcanvas.md) control. This requires an [IInkD2DRenderer](XREF:TODO:input_ink.iinkd2drenderer) object to manage the ink input (see the [Complex ink sample](http://go.microsoft.com/fwlink/p/?LinkID=620314)).
+Indicates that your app requires complete control of ink input rendering it to the Direct2D device context of your Universal Windows app, instead of the default [InkCanvas](../windows.ui.xaml.controls/inkcanvas.md) control. This requires an [IInkD2DRenderer](http://msdn.microsoft.com/library/d1bd910d-ce64-4424-a0e1-4f55110b0265) object to manage the ink input (see the [Complex ink sample](http://go.microsoft.com/fwlink/p/?LinkID=620314)).
 
 By default, ink input is processed on a low-latency background thread and rendered "wet" as it is drawn. When the stroke is completed (pen or finger lifted, or mouse button released), the stroke is processed on the UI thread and rendered "dry" to the [InkCanvas](../windows.ui.xaml.controls/inkcanvas.md) layer (above the application content and replacing the wet ink).
 

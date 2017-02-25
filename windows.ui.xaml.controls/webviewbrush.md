@@ -53,3 +53,4 @@ The following Windows 8-specific code example demonstrates how to use a [WebVie
 
 ## -see-also
 [TileBrush](../windows.ui.xaml.media/tilebrush.md), [Brush](../windows.ui.xaml.media/brush.md), [WebView](webview.md), [Use brushes](http://msdn.microsoft.com/library/02141f86-355e-4046-86ea-2a89d615b7db), [XAML WebView control sample](http://go.microsoft.com/fwlink/p/?linkid=238582)
+soft.com/fwlink/p/?linkid=238582)

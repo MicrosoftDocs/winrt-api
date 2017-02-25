@@ -14,10 +14,10 @@ Gets or sets the width of the [InkPresenterRuler](inkpresenterruler.md).
 
 ## -property-value
 
-The width in device-independent pixel (DIP).
+The width in device-independent pixels (DIPs).
 
-+ Default: 120 device-independent pixel (DIP)
-+ Minimum: 120 device-independent pixel (DIP)
++ Default: 120 DIPs
++ Minimum: 120 DIPs
 
 
 ## -remarks
