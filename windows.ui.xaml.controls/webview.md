@@ -86,7 +86,9 @@ You can load local content through a custom resolver using the [NavigateToLocalS
 [WebView](webview.md) provides several events that you can use to respond to navigation and content loading states. The events occur in the following order for the root WebView content:
 
 
-+ [NavigationStarting](webview_navigationstarting.md)- Occurs before the [WebView](webview.md) navigates to new content. You can cancel navigation in a handler for this event by setting the [WebViewNavigationStartingEventArgs.Cancel](webviewnavigationstartingeventargs_cancel.md) property to **true**.```csharp
++ [NavigationStarting](webview_navigationstarting.md)- Occurs before the [WebView](webview.md) navigates to new content. You can cancel navigation in a handler for this event by setting the [WebViewNavigationStartingEventArgs.Cancel](webviewnavigationstartingeventargs_cancel.md) property to **true**.
+
+```csharp
 webView1.NavigationStarting += webView1_NavigationStarting;
 
 private void webView1_NavigationStarting(object sender, WebViewNavigationStartingEventArgs args)
@@ -99,7 +101,9 @@ private void webView1_NavigationStarting(object sender, WebViewNavigationStartin
 ```
 
 
-+ [ContentLoading](webview_contentloading.md) - Occurs when the [WebView](webview.md) has started loading new content.```csharp
++ [ContentLoading](webview_contentloading.md) - Occurs when the [WebView](webview.md) has started loading new content.
+
+```csharp
 webView1.ContentLoading += webView1_ContentLoading;
 
 private void webView1_ContentLoading(WebView sender, WebViewContentLoadingEventArgs args)
@@ -114,7 +118,9 @@ private void webView1_ContentLoading(WebView sender, WebViewContentLoadingEventA
 ```
 
 
-+ [DOMContentLoaded](webview_domcontentloaded.md) - Occurs when the [WebView](webview.md) has finished parsing the current HTML content.```csharp
++ [DOMContentLoaded](webview_domcontentloaded.md) - Occurs when the [WebView](webview.md) has finished parsing the current HTML content.
+
+```csharp
 webView1.DOMContentLoaded += webView1_DOMContentLoaded;
 
 private void webView1_DOMContentLoaded(WebView sender, WebViewDOMContentLoadedEventArgs args)
@@ -129,7 +135,9 @@ private void webView1_DOMContentLoaded(WebView sender, WebViewDOMContentLoadedEv
 ```
 
 
-+ [NavigationCompleted](webview_navigationcompleted.md) - Occurs when the [WebView](webview.md) has finished loading the current content or if navigation has failed. To determine whether navigation has failed, check the [IsSuccess](webviewnavigationcompletedeventargs_issuccess.md) and [WebErrorStatus](webviewnavigationcompletedeventargs_weberrorstatus.md) properties of the [WebViewNavigationCompletedEventArgs](webviewnavigationcompletedeventargs.md) class.```csharp
++ [NavigationCompleted](webview_navigationcompleted.md) - Occurs when the [WebView](webview.md) has finished loading the current content or if navigation has failed. To determine whether navigation has failed, check the [IsSuccess](webviewnavigationcompletedeventargs_issuccess.md) and [WebErrorStatus](webviewnavigationcompletedeventargs_weberrorstatus.md) properties of the [WebViewNavigationCompletedEventArgs](webviewnavigationcompletedeventargs.md) class.
+
+```csharp
 webView1.NavigationCompleted += webView1_NavigationCompleted;
 
 private void webView1_NavigationCompleted(WebView sender, WebViewNavigationCompletedEventArgs args)
@@ -146,9 +154,6 @@ private void webView1_NavigationCompleted(WebView sender, WebViewNavigationCompl
 }
 
 ```
-
-
-
 
 Similar events occur in the same order for each **iframe** in the [WebView](webview.md) content: 
 + [FrameNavigationStarting](webview_framenavigationstarting.md) - Occurs before a frame in the [WebView](webview.md) navigates to new content.
