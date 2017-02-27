@@ -30,4 +30,4 @@ For how-to guidance for using **MediaSource** to play back media, see [Media ite
 ## -examples
 
 ## -see-also
-[Media items, playlists, and tracks](http://www.thecrocodile.com/event/1265083-pere-ubu-coed-jail-songs-seattle/), [MediaPlaybackItem](../windows.media.playback/mediaplaybackitem.md)
+[Media items, playlists, and tracks](https://docs.microsoft.com/en-us/windows/uwp/audio-video-camera/media-playback-with-mediasource/), [MediaPlaybackItem](../windows.media.playback/mediaplaybackitem.md)
