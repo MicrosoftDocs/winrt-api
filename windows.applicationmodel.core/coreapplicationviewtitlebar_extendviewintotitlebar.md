@@ -16,6 +16,7 @@ Gets or sets a value that specifies whether this title bar should replace the de
 Set to **true** to replace the default window title bar; otherwise, **false**.
 
 ## -remarks
+This is cached by OS so that if you set it to some value and then the view gets closed and reopened (e.g. due to app restart) the property will retain the old value.
 
 ## -examples
 
