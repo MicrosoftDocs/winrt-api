@@ -10,7 +10,7 @@ public bool IsFocusEngaged { get;  set; }
 # Windows.UI.Xaml.Controls.Control.IsFocusEngaged
 
 ## -description
-Get or sets a value that indicates whether game pad mouse simulation is engaged.
+Get or sets a value that indicates whether XY focus navigation (for game pad/remote) is engaged.
 
 ## -xaml-syntax
 ```xaml
