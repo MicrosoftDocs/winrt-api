@@ -13,7 +13,7 @@ public class ListBoxItemAutomationPeer : Windows.UI.Xaml.Automation.Peers.Framew
 Exposes the items in the [Items](../windows.ui.xaml.controls/itemscontrol_items.md) collection of a [ListBox](../windows.ui.xaml.controls/listbox.md) to Microsoft UI Automation.
 
 ## -remarks
-The Windows Runtime  [ListBoxItem](../windows.ui.xaml.controls/listboxitem.md) class creates a new [ListBoxItemAutomationPeer](listboxitemautomationpeer.md) as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer.md) definition. Derive your automation peer from [ListBoxItemAutomationPeer](listboxitemautomationpeer.md) if you are deriving a custom class from [ListBoxItem](../windows.ui.xaml.controls/listboxitem.md) and want to add automation support for additional features that you enabled in your custom class. Then override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer.md) so that it returns your custom peer.
+The Windows Runtime  [ListBoxItem](../windows.ui.xaml.controls/listboxitem.md) class creates a new [ListBoxItemAutomationPeer](listboxitemautomationpeer.md) as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. Derive your automation peer from [ListBoxItemAutomationPeer](listboxitemautomationpeer.md) if you are deriving a custom class from [ListBoxItem](../windows.ui.xaml.controls/listboxitem.md) and want to add automation support for additional features that you enabled in your custom class. Then override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) so that it returns your custom peer.
 
 ### Default peer implementation and overrides in **ListBoxItemAutomationPeer**
 

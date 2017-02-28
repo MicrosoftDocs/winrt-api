@@ -13,7 +13,7 @@ public class SemanticZoomAutomationPeer : Windows.UI.Xaml.Automation.Peers.Frame
 Exposes [SemanticZoom](../windows.ui.xaml.controls/semanticzoom.md) types to Microsoft UI Automation.
 
 ## -remarks
-The Windows Runtime  [SemanticZoom](../windows.ui.xaml.controls/semanticzoom.md) class creates a new [SemanticZoomAutomationPeer](semanticzoomautomationpeer.md) as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer.md) definition. [SemanticZoom](../windows.ui.xaml.controls/semanticzoom.md) is sealed, so the normal scenario of deriving from the [SemanticZoom](../windows.ui.xaml.controls/semanticzoom.md) class and its existing peer isn't applicable to [SemanticZoomAutomationPeer](semanticzoomautomationpeer.md).
+The Windows Runtime  [SemanticZoom](../windows.ui.xaml.controls/semanticzoom.md) class creates a new [SemanticZoomAutomationPeer](semanticzoomautomationpeer.md) as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. [SemanticZoom](../windows.ui.xaml.controls/semanticzoom.md) is sealed, so the normal scenario of deriving from the [SemanticZoom](../windows.ui.xaml.controls/semanticzoom.md) class and its existing peer isn't applicable to [SemanticZoomAutomationPeer](semanticzoomautomationpeer.md).
 
 ### Default peer implementation and overrides in **SemanticZoomAutomationPeer**
 

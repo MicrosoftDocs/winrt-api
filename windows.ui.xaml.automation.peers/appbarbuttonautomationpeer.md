@@ -13,7 +13,7 @@ public class AppBarButtonAutomationPeer : Windows.UI.Xaml.Automation.Peers.Butto
 Exposes [AppBarButton](../windows.ui.xaml.controls/appbarbutton.md) types to Microsoft UI Automation.
 
 ## -remarks
-The Windows Runtime  [AppBarButton](../windows.ui.xaml.controls/appbarbutton.md) class creates a new [AppBarButtonAutomationPeer](appbarbuttonautomationpeer.md) as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer.md) definition. Derive your automation peer from [AppBarButtonAutomationPeer](appbarbuttonautomationpeer.md) if you are deriving a custom class from [AppBarButton](../windows.ui.xaml.controls/appbarbutton.md) and want to add automation support for additional features that you enabled in your custom class. Then override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer.md) so that it returns your custom peer.
+The Windows Runtime  [AppBarButton](../windows.ui.xaml.controls/appbarbutton.md) class creates a new [AppBarButtonAutomationPeer](appbarbuttonautomationpeer.md) as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. Derive your automation peer from [AppBarButtonAutomationPeer](appbarbuttonautomationpeer.md) if you are deriving a custom class from [AppBarButton](../windows.ui.xaml.controls/appbarbutton.md) and want to add automation support for additional features that you enabled in your custom class. Then override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) so that it returns your custom peer.
 
 ### Default peer implementation and overrides in **AppBarButtonAutomationPeer**
 
