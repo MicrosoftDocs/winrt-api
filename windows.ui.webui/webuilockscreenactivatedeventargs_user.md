@@ -10,8 +10,10 @@ public User User { get; }
 # Windows.UI.WebUI.WebUILockScreenActivatedEventArgs.User
 
 ## -description
+Gets the user the app was activated for. 
 
 ## -property-value
+The user the app was activated for. 
 
 ## -remarks
 

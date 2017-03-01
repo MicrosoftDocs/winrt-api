@@ -10,8 +10,10 @@ public ActivationKind Kind { get; }
 # Windows.UI.WebUI.WebUIPrintWorkflowForegroundTaskActivatedEventArgs.Kind
 
 ## -description
+Gets the activation type. 
 
 ## -property-value
+The activation type. 
 
 ## -remarks
 
