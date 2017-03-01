@@ -10,7 +10,7 @@ public bool IsFocusEngagementEnabled { get;  set; }
 # Windows.UI.Xaml.Controls.Control.IsFocusEngagementEnabled
 
 ## -description
-Get or sets a value that indicates whether XY focus navigation (for game pad/remote) can be engaged.
+Get or sets a value that indicates whether focus can be constrained within the control boundaries (for game pad/remote interaction).
 
 ## -xaml-syntax
 ```xaml
@@ -19,7 +19,7 @@ Get or sets a value that indicates whether XY focus navigation (for game pad/rem
 
 
 ## -property-value
-**true** if game pad mouse simulation can be engaged; otherwise, **false**.
+**true** if focus can be constrained within the control boundaries; otherwise, **false**.
 
 ## -remarks
 Focus engagement makes it easier to use a game pad or remote control to interact with an app. Setting focus engagement does not affect keyboard or other input devices.
