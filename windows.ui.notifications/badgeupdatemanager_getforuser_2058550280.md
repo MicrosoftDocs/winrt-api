@@ -10,7 +10,7 @@ public BadgeUpdateManagerForUser BadgeUpdateManager.GetForUser(User user)
 # Windows.UI.Notifications.BadgeUpdateManager.GetForUser
 
 ## -description
-Creates and initializes a new instance of the [BadgeUpdateManagerForUser](badgeupdatemanagerforuser.md) for a specific user, which lets you change the appearance or content of the badge on a tile for a specific user.
+Creates and initializes a new [BadgeUpdateManagerForUser](badgeupdatemanagerforuser.md) for the specified user, which lets you change the appearance or content of the badge on a tile for a specific user.
 
 ## -parameters
 
