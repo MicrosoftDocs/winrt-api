@@ -10,13 +10,13 @@ public string VibrationDevice.GetDeviceSelector()
 # Windows.Devices.Haptics.VibrationDevice.GetDeviceSelector
 
 ## -description
-Retrieves an identifier as a query string that can be used as a reference to a vibration device.
+Returns the class selection string that you can use to enumerate vibration devices.
 
 ## -returns
-The unique identifier for a vibration device.
+The class selection string for vibration devices.
 
 ## -remarks
-To access the vibration device, pass the query string to [FromIdAsync](vibrationdevice_fromidasync_1322863552.md).
+You can enumerate vibration devices by passing the class selection string returned by the [GetDeviceSelector()](vibrationdevice_getdeviceselector_838466080.md) method to [FindAllAsync()](../windows.devices.enumeration/deviceinformation_findallasync.md) or [CreateWatcher()](../windows.devices.enumeration/deviceinformation_createwatcher.md) method.
 
 ## -see-also
 - [FromIdAsync](vibrationdevice_fromidasync_1322863552.md)
