@@ -10,7 +10,7 @@ public void RemoveFocusEngagement()
 # Windows.UI.Xaml.Controls.Control.RemoveFocusEngagement
 
 ## -description
-Disables game pad mouse simulation.
+Disengages XY focus navigation from a control that has focus engagement.
 
 ## -remarks
 Focus engagement makes it easier to use a game pad or remote control to interact with an app. Setting focus engagement does not affect keyboard or other input devices.

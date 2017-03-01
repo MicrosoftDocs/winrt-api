@@ -10,7 +10,7 @@ public event Windows.Foundation.TypedEventHandler FocusEngaged<Windows.UI.Xaml.C
 # Windows.UI.Xaml.Controls.Control.FocusEngaged
 
 ## -description
-Occurs when the control engages game pad mouse simulation.
+Occurs when the control engages XY focus navigation (for game pad/remote).
 
 ## -xaml-syntax
 ```xaml
