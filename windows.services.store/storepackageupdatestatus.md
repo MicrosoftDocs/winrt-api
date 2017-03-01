@@ -27,7 +27,7 @@ The number of bytes that have been downloaded.
 
 
 ### -field PackageDownloadProgress
-The current progress of the package download, represented by a value from 0.0 to 1.0.
+The current progress of the package download and install process, represented by a value from 0.0 to 1.0. This value increases from 0.0 to 0.8 during the download, and then it increases from 0.8 to 1.0 during the install.
 
 
 ### -field TotalDownloadProgress
