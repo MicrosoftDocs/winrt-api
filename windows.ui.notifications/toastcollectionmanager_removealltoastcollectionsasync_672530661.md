@@ -10,7 +10,7 @@ public IAsyncAction ToastCollectionManager.RemoveAllToastCollectionsAsync()
 # Windows.UI.Notifications.ToastCollectionManager.RemoveAllToastCollectionsAsync
 
 ## -description
-Starts the asynchronous removal of all toast notification groups created by this manager.  
+Starts the asynchronous removal of all toast notification groups for the app.  
 
 ## -parameters
 
