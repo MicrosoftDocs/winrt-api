@@ -10,7 +10,7 @@ public void VisualInteractionSource.ConfigureCenterPointXModifiers(IIterable<Com
 # Windows.UI.Composition.Interactions.VisualInteractionSource.ConfigureCenterPointXModifiers
 
 ## -description
-Configures centerpoint modifiers for the X direction.
+Takes an ordered list of CompositionConditionalValue. In a frame, the first CompositionConditionalValue to have its “.Condition” evaluate to true replaces the zoom CenterPointX value the VisualInteractionSource provides with its “.Value”. If none evaluate to true, the CenterPointX is not replaced that frame.
 ## -parameters
 
 ### -param conditionalValues
