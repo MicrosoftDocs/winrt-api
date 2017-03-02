@@ -10,7 +10,7 @@ public Vector3 Position { get; }
 # Windows.UI.Composition.Interactions.VisualInteractionSource.Position
 
 ## -description
-The position of the interaction source.
+The total amount of position change since the start of the interaction. Defaults to 0. Readable only via expression/animation.
 
 ## -property-value
 The position of the interaction source.
