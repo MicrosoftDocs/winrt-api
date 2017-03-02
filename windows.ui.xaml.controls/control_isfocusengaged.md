@@ -10,7 +10,7 @@ public bool IsFocusEngaged { get;  set; }
 # Windows.UI.Xaml.Controls.Control.IsFocusEngaged
 
 ## -description
-Get or sets a value that indicates whether XY focus navigation (for game pad/remote) is engaged.
+Get or sets a value that indicates whether focus is constrained within the control boundaries (for game pad/remote interaction).
 
 ## -xaml-syntax
 ```xaml
@@ -19,7 +19,7 @@ Get or sets a value that indicates whether XY focus navigation (for game pad/rem
 
 
 ## -property-value
-**true** if game pad mouse simulation is engaged; otherwise, **false**.
+**true** if focus is constrained within the control boundaries; otherwise, **false**.
 
 ## -remarks
 [IsFocusEngagementEnabled](control_isfocusengagementenabled.md) must be **true** and the control must have focus before you set the [IsFocusEngaged](control_isfocusengaged.md) property to **true**. Otherwise, a runtime exception will occur.
