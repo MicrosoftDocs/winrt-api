@@ -10,10 +10,10 @@ public bool AdvancedEffectsEnabled { get; }
 # Windows.UI.ViewManagement.UISettings.AdvancedEffectsEnabled
 
 ## -description
-Gets a value that indicates whether the system advanced UI effects setting is enabled.
+Gets a value that indicates whether the system Transparency effects setting is enabled.
 
 ## -property-value
-**true** if advanced UI effects are enabled; otherwise, **false**.
+**true** if Transparency UI effects are enabled; otherwise, **false**.
 
 ## -remarks
 
