@@ -10,7 +10,7 @@ public void MagneticStripeReader.Close()
 # Windows.Devices.PointOfService.MagneticStripeReader.Close
 
 ## -description
-Close the magnetic stripe reader session.
+Close the magnetic stripe reader session. For C++ and JavaScript, use Close(). For C# and Visual Basic, use Dispose().
 
 ## -parameters
 
