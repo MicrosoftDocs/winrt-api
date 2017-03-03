@@ -32,7 +32,7 @@ This method is intended to be used to send requests to the Windows Store for ope
 
 >**Note**&nbsp;&nbsp;The requests described in this section can only be used by developer accounts that are specially provisioned to use them. These requests are not currently available to most developer accounts.
 
-This method supports a set of requests for monetization and engagement scenarios. To submit these requests, pass the value 7 or 8 to the *requestKind* parameter along with a JSON-formatted string to the *parametersAsJson* parameter that indicates the request you want to submit along with any related arguments. The *requestKind* values differ in the following ways:
+This method supports a set of requests for monetization and engagement scenarios. To submit these requests, pass the value 7 or 8 to the *requestKind* parameter along with a JSON-formatted string to the *parametersAsJson* parameter that indicates the request you want to submit along with any related arguments. These *requestKind* values differ in the following ways:
 
   * When you pass the value 7, the requests are performed in the context of the current device. This value can only be used on Windows 10 Creators Update or later.
 
@@ -82,7 +82,7 @@ To send this request, pass the following information to the *requestKind* and *p
 
   * *requestKind*: Specify 7 to add the user who is currently signed in to the device to a flight group, or specify 8 to add the device to a flight group.
 
-  * *parametersAsJson*: Pass a JSON string that contains the following data. The *type* field must be assigned to the string *AddToFlightGroup*. Replace the value of the *Flight group ID* string with the ID of the flight group to which you want to add the device or user.
+  * *parametersAsJson*: Pass a JSON string that contains the following data. The *type* field must be assigned to the string *AddToFlightGroup*. Replace the value of the *flightGroupId* field with the ID of the flight group to which you want to add the device or user.
 
   ```json
   { 
@@ -103,7 +103,7 @@ To send this request, pass the following information to the *requestKind* and *p
 
   * *requestKind*: Specify 7 to remove the user who is currently signed in to the device from a flight group, or specify 8 to remove the device from a flight group.
 
-  * *parametersAsJson*: Pass a JSON string that contains the following data. The *type* field must be assigned to the string *RemoveFromFlightGroup*. Replace the value of the *Flight group ID* string with the ID of the flight group from which you want to remove the device or user.
+  * *parametersAsJson*: Pass a JSON string that contains the following data. The *type* field must be assigned to the string *RemoveFromFlightGroup*. Replace the value of the *flightGroupId* field with the ID of the flight group from which you want to remove the device or user.
 
   ```json
   { 
