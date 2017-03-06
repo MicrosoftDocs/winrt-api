@@ -129,7 +129,7 @@ The following example shows two check box controls. The first check box demonstr
 
 
 
-[!code-xaml[1](../windows.ui.xaml.data/code/System.Windows.Controls.CheckBoxEx/csharp/Page.xaml#Snippet1)]
+[!code-xml[1](../windows.ui.xaml.data/code/System.Windows.Controls.CheckBoxEx/csharp/Page.xaml#Snippet1)]
 
 [!code-csharp[11](../windows.ui.xaml.data/code/System.Windows.Controls.CheckBoxEx/csharp/Page.xaml.cs#Snippet11)]
 
