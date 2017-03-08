@@ -23,7 +23,6 @@ The default value to use if the JSON property is not found.
 The [JsonValue](jsonvalue.md) with the specified *name*, or if this value wasn't found, the *defaultValue* is returned.
 
 ## -remarks
-This method should always used with a try/catch block because it throws an exception if the name is not found.
 
 ## -examples
 
