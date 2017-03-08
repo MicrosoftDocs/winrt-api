@@ -13,7 +13,7 @@ public class WwwFormUrlDecoder : Windows.Foundation.Collections.IIterable<Window
 Parses a URL query string, and exposes the results as a read-only vector (list) of name-value pairs from the query string.
 
 ## -remarks
-Use the [WwwFormUrlDecoder](wwwformurldecoder.md) class to parse a query string into name-value pairs, based on the number and placement of "" and "=" symbols. Each name-value pair is represented by an [IWwwFormUrlDecoderEntry](iwwwformurldecoderentry.md) object, which has a [Name](wwwformurldecoderentry_name.md) property and a [Value](ireferencearray_1_value.md) property (both strings).
+Use the [WwwFormUrlDecoder](wwwformurldecoder.md) class to parse a query string into name-value pairs, based on the number and placement of "&" and "=" symbols. Each name-value pair is represented by an [IWwwFormUrlDecoderEntry](iwwwformurldecoderentry.md) object, which has a [Name](wwwformurldecoderentry_name.md) property and a [Value](ireferencearray_1_value.md) property (both strings).
 
 Use [GetFirstValueByName](wwwformurldecoder_getfirstvaluebyname.md) to find a specific named query string parameter. All languages can use this method. You'd typically use [GetFirstValueByName](wwwformurldecoder_getfirstvaluebyname.md) rather than [GetAt](wwwformurldecoder_getat.md) because the order of items in a query string usually isn't important, whereas the parameter name is the important identifier of the parts of a query. Or, if you're not sure what names exist in the query string, you might enumerate over the complete [WwwFormUrlDecoder](wwwformurldecoder.md) collection.
 
