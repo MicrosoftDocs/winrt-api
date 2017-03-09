@@ -14,16 +14,16 @@ Specifies the level of contact read access granted to other apps.
 
 ## -enum-fields
 ### -field SystemOnly:0
-Other apps can only read system contacts.
+Only apps specially provisioned by Microsoft can read these contacts
 
 ### -field Limited:1
-Other apps can only read contacts for this app.
+All apps can read DisplayName and Picture, other properites are only available to specially provisioned apps
 
 ### -field Full:2
-Other apps have read access to system and app contacts.
+All apps can read all properties
 
 ### -field None:3
-Other apps cannot access any contacts.
+No other apps can read any of the contact information
 
 
 ## -remarks
