@@ -10,10 +10,7 @@ public class PaymentCurrencyAmount : Windows.ApplicationModel.Payments.IPaymentC
 # Windows.ApplicationModel.Payments.PaymentCurrencyAmount
 
 ## -description
-This class describes a monetary value associated with a purchase. For example, charges or discounts.
-
-> [!NOTE]
-> This class reflects the [W3C PaymentCurrencyAmount dictionary](https://aka.ms/prapi#paymentcurrencyamount-dictionary).
+This class describes a monetary value associated with a purchase. For example, charges or discounts. This class reflects the [W3C PaymentCurrencyAmount dictionary](https://aka.ms/prapi#paymentcurrencyamount-dictionary).
 
 ## -remarks
 
