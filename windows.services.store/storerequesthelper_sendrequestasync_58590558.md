@@ -35,7 +35,7 @@ This method supports a set of requests for flight group scenarios, such as addin
 
 |  Request kind value  |  Description  |
 |----------------------|---------------|
-|  7                   |  The requests are performed in the context of the current device. This value can only be used on Windows 10 Creators Update or later.  |
+|  7                   |  The requests are performed in the context of the current device. This value can only be used on Windows 10, version 1703, or later.  |
 |  8                   |  The requests are performed in the context of the user who is currently signed in to the Store. This value can be used on Windows 10, version 1607, or later.  |
 
 The following flight group requests are currently supported.
