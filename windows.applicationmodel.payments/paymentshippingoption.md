@@ -10,10 +10,7 @@ public class PaymentShippingOption : Windows.ApplicationModel.Payments.IPaymentS
 # Windows.ApplicationModel.Payments.PaymentShippingOption
 
 ## -description
-A class that contains information about a shipping option.
-
-> [!NOTE]
-> This class reflects the [W3C PaymentShippingOption dictionary](https://www.w3.org/TR/payment-request/#paymentrequest-interface).
+A class that contains information about a shipping option. This class reflects the [W3C PaymentShippingOption dictionary](https://www.w3.org/TR/payment-request/#paymentrequest-interface).
 
 ## -remarks
 
