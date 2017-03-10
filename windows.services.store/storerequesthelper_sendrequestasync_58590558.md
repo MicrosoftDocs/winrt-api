@@ -1,3 +1,4 @@
+---
 -api-id: M:Windows.Services.Store.StoreRequestHelper.SendRequestAsync(Windows.Services.Store.StoreContext,System.UInt32,System.String)
 -api-type: winrt method
 ---
