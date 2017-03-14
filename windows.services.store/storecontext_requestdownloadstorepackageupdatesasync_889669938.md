@@ -12,12 +12,20 @@ public Windows.Foundation.IAsyncOperationWithProgress<Windows.Services.Store.Sto
 ## -description
 Downloads the specified package updates for the current app from the Windows Store.
 
+> [!IMPORTANT]
+> This method must be called on the UI thread.
+
 ## -parameters
 ### -param storePackageUpdates
 The set of [StorePackageUpdate](storepackageupdate.md) objects that represent the updated packages to download.
 
 ## -returns
 An object that the caller can observe to track progress and completion for the operation. On successful completion, the result is a [StorePackageUpdateResult](storepackageupdateresult.md) object that provides info about the package updates.
+
+## -exceptions
+### System.Runtime.InteropServices.COMException
+
+If the **ErrorCode** property of the exception has the value 0x80070578 (ERROR_INVALID_WINDOW_HANDLE), this indicates that the method was not called on the UI thread. If you are calling this method in a desktop application that uses the Desktop Bridge, this can also indicate that you did not configure the [StoreContext](storecontext.md) object to specify which application window is the owner window for modal dialogs shown by this method. For more information, see [this article](https://docs.microsoft.com/windows/uwp/monetize/in-app-purchases-and-trials#desktop).
 
 ## -remarks
 To get the list of packages that have updates available, use the [GetAppAndOptionalStorePackageUpdatesAsync](storecontext_getappandoptionalstorepackageupdatesasync.md) method. After you download the packages, you can install packages by using the [RequestDownloadAndInstallStorePackageUpdatesAsync](storecontext_requestdownloadandinstallstorepackageupdatesasync.md) method. For more information about using this method, including a code example, see [Download and install package updates for your app](https://msdn.microsoft.com/windows/uwp/packaging/self-install-package-updates).
