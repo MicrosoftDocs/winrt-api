@@ -18,6 +18,7 @@ Gets or sets whether custom tools are displayed on the [RadialController](radial
 If **false**, no custom tools are displayed, and [Items](radialcontrollermenu_items.md) is empty.
 
 ## -remarks
+In Windows 10 Anniversary Update, this property does not return a value.
 
 ## -examples
 
