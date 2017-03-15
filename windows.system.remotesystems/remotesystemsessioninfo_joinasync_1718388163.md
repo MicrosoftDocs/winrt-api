@@ -13,7 +13,7 @@ public IAsyncOperation<RemoteSystemSessionJoinResult> RemoteSystemSessionInfo.Jo
 Issues a request from the calling device to join the given remote session.
 
 ## -returns
-An asynchronous operation with the result of this join request.
+An asynchronous operation with the result of this join request. This also returns a value if the connection to the device controlling the session is lost.
 
 ## -remarks
 

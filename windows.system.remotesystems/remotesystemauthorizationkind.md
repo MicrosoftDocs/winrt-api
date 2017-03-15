@@ -20,6 +20,7 @@ The client device can only discover devices signed in by the same user.
 The client device can discover other users' devices, provided they are available for proximal connection.
 
 ## -remarks
+If a [**RemoteSystemAuthorizationKindFilter**](RemoteSystemAuthorizationKindFilter.md) is not used in device discovery, the default behavior is to discover same-user devices only.
 
 ## -see-also
 

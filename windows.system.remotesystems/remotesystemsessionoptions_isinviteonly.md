@@ -10,10 +10,10 @@ public bool IsInviteOnly { get;  set; }
 # Windows.System.RemoteSystems.RemoteSystemSessionOptions.IsInviteOnly
 
 ## -description
-Indicates whether or not the session described by this [**RemoteSystemSessionOptions**](RemoteSystemSessionOptions.md) instance should be joinable by invite only.
+Indicates whether or not the session described by this [**RemoteSystemSessionOptions**](RemoteSystemSessionOptions.md) instance should be discoverable by invite only.
 
 ## -property-value
-A value of **true** if the corresponding session will only be available to participants who receive an invitation, **false** if the session will be open to join requests from any participants.
+A value of **true** if the corresponding session will only be discoverable for systems that receive an invitation, **false** if the session will be publicly discoverable.
 
 ## -remarks
 
