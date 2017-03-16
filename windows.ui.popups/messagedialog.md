@@ -10,17 +10,22 @@ public class MessageDialog : Windows.UI.Popups.IMessageDialog
 # Windows.UI.Popups.MessageDialog
 
 ## -description
-Represents a dialog. The dialog has a command bar that can support up to 3 commands in desktop apps, or 2 commands in mobile apps. If you don't specify any commands, then a default command is added to close the dialog.
+Represents a dialog for showing messages to the user. 
+
+## -remarks
+> [!IMPORTANT]
+> You should use MessageDialog only when you are upgrading a Universal Windows 8 app that uses MessageDialog, and need to minimize changes. For new apps in Windows 10, we recommend using the [ContentDialog](./../windows.ui.xaml.controls/contentdialog.md) control instead.
+
+> [!NOTE]
+> This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://go.microsoft.com/fwlink/p/?linkid=258275) and [Using Windows Runtime objects in a multithreaded environment (.NET)](http://go.microsoft.com/fwlink/p/?linkid=258277).
+
+The dialog has a command bar that can support up to 3 commands in desktop apps, or 2 commands in mobile apps. If you don't specify any commands, then a default command is added to close the dialog.
 
 The dialog dims the screen behind it and blocks touch events from passing to the app's canvas until the user responds.
 
 Message dialogs should be used sparingly, and only for critical messages or simple questions that must block the user's flow.
 
-## -remarks
-> [!NOTE]
-> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://go.microsoft.com/fwlink/p/?linkid=258275) and [Using Windows Runtime objects in a multithreaded environment (.NET)](http://go.microsoft.com/fwlink/p/?linkid=258277).
-
-An example of a dialog, as created by the following example:
+Here's an example of a dialog created by the code in the Examples section.
 
 <img src="images/MessageDialogWithTwoCommands.png" alt="Message dialog with two commands" />
 
