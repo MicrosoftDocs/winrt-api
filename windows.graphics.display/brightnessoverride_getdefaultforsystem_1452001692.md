@@ -16,7 +16,7 @@ Returns a brightness override object. This method does not require [CoreWindow](
 The brightness override object.
 
 ## -remarks
-Requires the Embedded Mode capability to be declared and enabled.
+Requires the __systemManagement__ capability to be declared in your app's package manifest. This capability allows apps to have basic system administration privileges. If it isn’t declared, this method throws an access is denied exception. For more info, see [App capability declarations](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#general-use-capabilities).
 
 ## -see-also
 

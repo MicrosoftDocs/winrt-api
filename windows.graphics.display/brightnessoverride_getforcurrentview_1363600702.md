@@ -16,7 +16,7 @@ Returns a brightness override object. This method requires [CoreWindow](../windo
 The brightness override object.
 
 ## -remarks
-This method fails if there is no [CoreWindow](../windows.ui.core/corewindow.md) on the calling thread.
+This method throws an access is denied exception if there is no [CoreWindow](../windows.ui.core/corewindow.md) on the calling thread.
 
 ## -see-also
 
