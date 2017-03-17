@@ -10,7 +10,7 @@ public event TypedEventHandler Closed<DevicePortalConnection, DevicePortalConnec
 # Windows.System.Diagnostics.DevicePortal.DevicePortalConnection.Closed
 
 ## -description
-Raised when the connection to the device portal is closed.
+Raised when the connection to the Windows Device Portal is closed. A device portal plugin app must implement a handler for this event.
 
 ## -remarks
 
