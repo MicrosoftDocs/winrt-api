@@ -10,7 +10,7 @@ public void ShutdownManager.EnterPowerState(PowerState powerState)
 # Windows.System.ShutdownManager.EnterPowerState
 
 ## -description
-Instructs a fixed-purpose device to enter the given power state. The device will not automatically wake up after a given period of time.
+Instructs a fixed-purpose device to enter the given power state.
 
 ## -parameters
 
