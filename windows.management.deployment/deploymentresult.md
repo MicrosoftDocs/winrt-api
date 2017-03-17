@@ -12,9 +12,6 @@ public class DeploymentResult : Windows.Management.Deployment.IDeploymentResult,
 ## -description
 Provides the result of a deployment request.
 
-> [!IMPORTANT]
-> You can't use this class in a Windows Store app.
-
 ## -remarks
 
 ## -examples

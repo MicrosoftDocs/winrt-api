@@ -28,7 +28,6 @@ The bus address was not acknowledged.
 
 For this status code, the value of the **I2cTransferResult.BytesTransferred** member that the method returns of the method is 0.
 
-
 ### -field ClockStretchTimeout:3
 The transfer failed due to the clock being stretched for too long. Ensure the clock line is not being held low.
 

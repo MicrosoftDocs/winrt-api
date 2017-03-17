@@ -11,6 +11,7 @@ public IAsyncOperation<AllJoynAboutDataView> AllJoynBusAttachment.GetAboutDataAs
 
 ## -description
 Gets the About data for a specific AllJoyn endpoint in a specific language. This method is intended to replace the less intuitive static [AllJoynAboutDataView.GetDataBySessionPortAsync()](alljoynaboutdataview_getdatabysessionportasync_561097955.md).
+
 ## -parameters
 
 ### -param serviceInfo
@@ -20,6 +21,7 @@ The AllJoyn endpoint from which to retrieve About data.
 The language in which to request About data. If the requested language is not supported, the remote device's default language will be used.
 
 ## -returns
+This method makes acquiring About data more intuitive than it was in previous Windows releases.
 
 ## -remarks
 

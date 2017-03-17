@@ -16,6 +16,7 @@ Gets the default [AllJoynBusAttachment](alljoynbusattachment.md) as defined by t
 The default bus attachment.
 
 ## -remarks
+This method is thread-safe, and each call of it is guarenteed to return the same bus attachment instance.
 
 ## -examples
 

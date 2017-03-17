@@ -15,11 +15,13 @@ Reads the current count of polarity changes. Before counting has been started, t
 ## -parameters
 
 ## -returns
-[GpioChangeCount](gpiochangecount.md)
 
-A structure containing a count and an associated timestamp.
+A [GpioChangeCount](gpiochangecount.md) structure containing a count and an associated timestamp.
 
 ## -remarks
+The following exception can be thrown by this method:
+
+* HRESULT_FROM_WIN32(ERROR_INVALID_HANDLE) - the change counter or the associated pin has been disposed.
 
 ## -see-also
 
