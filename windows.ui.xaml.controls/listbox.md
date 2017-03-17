@@ -12,8 +12,6 @@ public class ListBox : Windows.UI.Xaml.Controls.Primitives.Selector, Windows.UI.
 ## -description
 Presents a list of items the user can select from.
 
-[ListBox](listbox.md) lets users select from a pre-defined list of options presented like a text control. Use a [ListBox](listbox.md) when you want the options to be visible all the time or when users can select more than one option at a time. [ListBox](listbox.md) controls are always open, so several items can be displayed without user interaction.
-
 ## -xaml-syntax
 ```xaml
 <ListBox .../>
@@ -23,11 +21,13 @@ Presents a list of items the user can select from.
 </ListBox>
 ```
 
-
 ## -remarks
-[ListBox](listbox.md) is a control that presents a list of items the user can select from.
+[ListBox](listbox.md) lets users select from a pre-defined list of options presented like a text control. Use a [ListBox](listbox.md) when you want the options to be visible all the time or when users can select more than one option at a time. [ListBox](listbox.md) controls are always open, so several items can be displayed without user interaction.
 
 <img alt="List box control" src="images/controls/ListBox.png" />
+
+> [!NOTE]
+> ListBox is useful when you are upgrading a Universal Windows 8 app that uses ListBox, and need to minimize changes. For new apps in Windows 10, we recommend using the [ListView](listview.md) control instead.
 
 ### Using a ListBox
 
