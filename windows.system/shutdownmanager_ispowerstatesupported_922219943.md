@@ -11,12 +11,15 @@ public bool ShutdownManager.IsPowerStateSupported(PowerState powerState)
 
 ## -description
 
-Gets whether a given [power state](powerstate.md) is supported on a fixed-purpose device. 
+Gets whether a given [power state](powerstate.md) is supported on a fixed-purpose device.
+
 ## -parameters
 
 ### -param powerState
+The power state to be examined.
 
 ## -returns
+This method returns TRUE if the power state is supported on the specified device, and FALSE otherwise.
 
 ## -remarks
 

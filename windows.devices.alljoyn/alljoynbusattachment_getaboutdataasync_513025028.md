@@ -20,6 +20,7 @@ The AllJoyn endpoint from which to retrieve About data.
 ## -returns
 
 ## -remarks
+This method makes acquiring About data more intuitive than it was in previous Windows releases.
 
 ## -see-also
 [GetAboutDataAsync(AllJoynServiceInfo serviceInfo, Language language)](alljoynbusattachment_getaboutdataasync_522145388.md)
