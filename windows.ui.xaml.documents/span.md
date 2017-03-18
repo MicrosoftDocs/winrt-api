@@ -29,7 +29,8 @@ Groups other [Inline](inline.md) content elements. Parent class for [Bold](bold.
 ## -remarks
 You can use [Span](span.md) as an object element in XAML to enclose text. This enables a similar usage to how you might use the` span` tag in HTML. For this usage you'd set the attributes that are supported by [TextElement](textelement.md) such as [FontSize](textelement_fontsize.md) or [FontFamily](textelement_fontfamily.md), so that you can apply these text formatting decisions to the enclosed span of text. [Run](run.md) has similar functionality of applying [TextElement](textelement.md) properties to a range of text, but [Run](run.md) doesn't support mixed content (its [Run.Text](run_text.md) XAML content property can only contain text, not mixed content and further inlines).
 
-[Span](span.md) supports mixed content if you set the content in XAML. What this means is that you can mix [Inline](inline.md) tags such as [Run](run.md), [Bold](bold.md) and so on with XAML text content (plain text), with no restrictions on the order in which tags versus text must appear. All text, whether plain text or as enclosed in an [Inline](inline.md) tag, renders in the order that the text is defined in the mixed content. For example, this is legal XAML:```xaml
+[Span](span.md) supports mixed content if you set the content in XAML. What this means is that you can mix [Inline](inline.md) tags such as [Run](run.md), [Bold](bold.md) and so on with XAML text content (plain text), with no restrictions on the order in which tags versus text must appear. All text, whether plain text or as enclosed in an [Inline](inline.md) tag, renders in the order that the text is defined in the mixed content. For example, this is legal XAML:
+```xaml
 <RichTextBlock>
   <Paragraph>
     <Span>This is <Bold>mixed content</Bold> with multiple text areas <Italic> and inlines</Italic>.</Span>
