@@ -21,7 +21,7 @@ The button for which to retrieve the label.
 
 ## -returns
 
-Returns the label for the specified button. If the button label is blank or there is no known label for the controller’s button, then **None** is returned.
+The label for the specified button. If the button label is blank or there is no known label for the controller’s button, then **None** is returned.
 
 ## -remarks
 
@@ -32,19 +32,21 @@ Returns the label for the specified button. If the button label is blank or ther
 
 ## -examples
 
-<!--```csharp
-private void ShowFlightStickFirePrimaryButtonIcon(FlightStick flightStick) 
-{
-    GameControllerButtonLabel label = 
-        flightStick.GetButtonLabel(FlightStickButtons.FirePrimary);
+The following example gets the label on the **FirePrimary** button on the flight stick, and shows an icon based on the label:
 
-    switch (label)
-    {
-        case (RightTrigger)
-        {
-            // Show right trigger icon
-        }
-        // ...
-    }
+```cpp
+void ShowFlightStickFirePrimaryButtonIcon(FlightStick flightStick)
+{
+	GameControllerButtonLabel label =
+		flightStick.GetButtonLabel(FlightStickButtons::FirePrimary);
+
+	switch (label)
+	{
+		case (GameControllerButtonLabel::RightTrigger):
+		{
+			// Show the right trigger icon.
+		}
+		// ...
+	}
 }
-```-->
+```

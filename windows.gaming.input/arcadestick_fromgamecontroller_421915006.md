@@ -25,25 +25,27 @@ The arcade stick that was returned from the given game controller.
 
 ## -remarks
 
+This method checks if the provided game controller has an arcade stick implementation, and if so, it returns that implementation. You might use this method if you want to first get the controller as a [RawGameController](rawgamecontroller.md), and then see if it can be used as an **ArcadeStick**&mdash;if so, you can use a default control scheme for arcade sticks, otherwise you can let the player do their own input mapping.
+
 ## -see-also
 
 * [Windows.Gaming.Input.IGameController](igamecontroller.md)
 
 ## -examples
 
-<!--In the following example, the app gets the first available [RawGameController](rawgamecontroller.md) object, and tries to access this game controller via the `ArcadeStick` class.
+In the following example, the app gets the first available [RawGameController](rawgamecontroller.md) object, and tries to access this game controller via the **ArcadeStick** class:
 
-```csharp
-ArcadeStick arcadeStick = null;
+```cpp
+ArcadeStick^ arcadeStick;
 
-if (RawGameController.RawGameControllers.Count > 0)
+if (RawGameController::RawGameControllers->Size > 0)
 {
-    RawGameController rawGameController = RawGameController.RawGameControllers[0];
-    arcadeStick = ArcadeStick.FromGameController(rawGameController);
+    RawGameController^ rawGameController = RawGameController::RawGameControllers->GetAt(0);
+    arcadeStick = ArcadeStick::FromGameController(rawGameController);
 }
 
-if (arcadeStick != null) 
+if (arcadeStick != nullptr)
 {
     // Assign a standard button mapping to this controller.
 }
-```-->
+```
