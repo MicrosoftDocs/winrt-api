@@ -23,9 +23,9 @@ The UIElement to associate the animation with.
 
 The animation to play when the UIElement is shown. A **Null** value prevents show animations from playing for this element until the method is called again with an animation value.
 
-When an element is added to the scene or its **Visibility** property becomes **Visibility.Visible**, the element and all of its descendents in the UI tree will play their show animations.
-
 ## -remarks
+
+When an element is added to the scene or its **Visibility** property becomes **Visibility.Visible**, the element and all of its descendents in the UI tree will play their show animations.
 
 ## -see-also
 
