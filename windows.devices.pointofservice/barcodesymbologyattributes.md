@@ -10,7 +10,7 @@ public class BarcodeSymbologyAttributes
 # Windows.Devices.PointOfService.BarcodeSymbologyAttributes
 
 ## -description
-The symbology attributes of a barcode scanner.
+The attributes of a barcode scanner symbology.
 
 ## -remarks
 This object is created when a [ClaimedBarcodeScanner.GetSymbologyAttributesAsync](claimedbarcodescanner_getsymbologyattributesasync.md) method completes.
