@@ -23,9 +23,9 @@ The UIElement to associate the animation with.
 
 The animation to play when the UIElement is hidden. A **Null** value prevents hide animations from playing for this element until the method is called again with an animation value.
 
-When an element is removed from the scene or its **Visibility** property becomes **Visibility.Collapsed**, the element and all of its descendents in the UI tree will play their hide animations.
-
 ## -remarks
+
+When an element is removed from the scene or its **Visibility** property becomes **Visibility.Collapsed**, the element and all of its descendents in the UI tree will play their hide animations.
 
 ## -see-also
 
