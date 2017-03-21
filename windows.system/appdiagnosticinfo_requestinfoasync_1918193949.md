@@ -23,3 +23,6 @@ A list of [AppDiagnosticInfo](appdiagnosticinfo.md) objects for all running apps
 
 ## -examples
 
+## -capabilities
+appDiagnostics
+
