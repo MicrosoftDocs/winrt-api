@@ -21,7 +21,7 @@ Gets or sets the text to display on the close button.
 The text to display on the close button.
 
 ## -remarks
-Every dialog should contain a safe, nondestructive action button that enables theuser to confidently exit the dialog.
+Every dialog should contain a safe, nondestructive action button that enables the user to confidently exit the dialog.
 
 Use the close button to create this button. This allows you to create the right user experience for all inputs including mouse, keyboard, touch, and gamepad. The dialog will close when:
 - The user clicks or taps on the close button

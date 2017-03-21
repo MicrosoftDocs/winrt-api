@@ -19,9 +19,9 @@ A value of the enumeration. The default is **None.**
 You may optionally choose to differentiate one of the three buttons as the default button. Specifying the default button causes the following to happen:
 - The button receives the Accent Button visual treatment
 - The button will respond to the ENTER key automatically
-    - When the user presses the ENTER key on the keyboard, the click handler associated with the Default Button will fire and the [ContentDialogResult](contentdialogresult.md) will return the value associated with the default button
+    - When the user presses the ENTER key on the keyboard, the click handler associated with the default button will fire and the [ContentDialogResult](contentdialogresult.md) will return the value associated with the default button
     - If the user has placed focus on a control that handles ENTER, the default button will not respond to ENTER presses
-- The button will receive focus automatically when the Dialog is opened unless the dialog’s content contains focusable UI
+- The button will receive focus automatically when the dialog is opened unless the dialog’s content contains focusable UI
 
 ### Version compatibility
 

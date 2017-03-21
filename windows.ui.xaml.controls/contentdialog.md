@@ -38,9 +38,9 @@ The [CloseButtonText](contentdialog_closebuttontext.md) property is not availabl
 
 To show the dialog, call the [ShowAsync](contentdialog_showasync.md) method. Use the result of this method to determine which of the buttons was clicked, if any button was clicked. If the user presses ESC, the system back arrow, or Gamepad B, the result of this method will be None.
 
-To do work before the dialog closes (for example, to verify that the user entered information into form fields), handle the [PrimaryButtonClick](contentdialog_primarybuttonclick.md), [SecondaryButtonClick](contentdialog_secondarybuttonclick.md), and [CloseButtonClick](contentdialog_closebuttonclick.md) events to get the user's response and do any work before the dialog closes.
-
 You may optionally choose to differentiate one of the three buttons as the dialog's default button. Use the [DefaultButton](contentdialog_defaultbutton.md) property to differentiate one of the buttons. This button will receive the Accent Button visual treatment, respond to the ENTER key automatically, and receive focus when the Dialog is opened unless the dialog's content contains focusable elements.
+
+You may wish to do some work before the dialog closes (for example, to verify that the user entered into form fields before submitting a request). You have two ways to do work before the dialog closes. You can handle the [PrimaryButtonClick](contentdialog_primarybuttonclick.md), [SecondaryButtonClick](contentdialog_secondarybuttonclick.md), or [CloseButtonClick](contentdialog_closebuttonclick.md) events to get the user's response when the user presses a button and verify the state of the dialog before it closes. You can also handle the [Closing](contentdialog_closing.md) event to do work before the dialog closes.
 
 Only one [ContentDialog](contentdialog.md) can be shown at a time. To chain together more than one [ContentDialog](contentdialog.md), handle the [Closing](contentdialog_closing.md) event of the first [ContentDialog](contentdialog.md). In the [Closing](contentdialog_closing.md) event handler, call [ShowAsync](contentdialog_showasync.md) on the second dialog to show it.
 
