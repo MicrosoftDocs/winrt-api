@@ -34,7 +34,7 @@ class PropertyAnimation
   ImplicitAnimationCollection implicitAnimations =  compositor.CreateImplicitAnimationCollection(); 
 
   // Create AnimationGroup 
-  CompositionAnimationGroup animationGroup = compositor.CreateCompositionAnimationGroup(); 
+  CompositionAnimationGroup animationGroup = compositor.CreateAnimationGroup(); 
 
   animationGroup.Add(sizeAnimation); 
   animationGroup.Add(offsetAnimation); 
@@ -61,7 +61,7 @@ class PropertyAnimation
   { 
     // Create AnimationGroup 
     CompositionAnimationGroup animationGroup =  
-    compositor.CreateCompositionAnimationGroup(); 
+    compositor.CreateAnimationGroup(); 
 
     animationGroup.Add(sizeAnimation); 
     animationGroup.Add(offsetAnimation); 
