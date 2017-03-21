@@ -18,4 +18,4 @@ Represents the TargetedContentValue of the TargetedContentValueKind action.
 ## -examples
 
 ## -capabilities
-TargetedContent
+targetedContent
