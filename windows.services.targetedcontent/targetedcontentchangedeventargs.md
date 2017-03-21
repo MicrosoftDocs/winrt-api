@@ -18,5 +18,5 @@ Represents the arguments for the Content Changed event.
 ## -examples
 
 ## -capabilities
-TargetedContent
+argetedContent
 
