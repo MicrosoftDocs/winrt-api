@@ -13,7 +13,7 @@ public bool FitToCurve { get;  set; }
 Gets or sets a value that indicates whether a Bezier curve or a collection of straight line segments is used to draw an [InkStroke](inkstroke.md).
 
 ## -property-value
-**true** if a Bezier curve is used; otherwise **false**. The default value is **false**.
+**true** if a Bezier curve is used; otherwise **false**. The default value is **true**.
 
 ## -remarks
 
