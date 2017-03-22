@@ -29,7 +29,7 @@ Gets or sets the brush used to highlight the selected text when the RichEditBox 
 </dl>
 
 ## -property-value
-The brush used to highlight the selected text when [RichEditBox](richeditbox.md) loses focus. The default is a null brush from a pure code perspective, but the default control template for [RichEditBox](richeditbox.md) applies a Transparent brush for this in a runtime instance of a [RichEditBox](richeditbox.md) control.
+The brush used to highlight the selected text when [RichEditBox](richeditbox.md) loses focus. The default is a null brush from a pure code perspective, but the default control template for [RichEditBox](richeditbox.md) applies a Transparent brush for this in a runtime instance of a [RichEditBox](richeditbox.md) control. To disable the SelectionHighlightColorWhenNotFocused, set the brush to Transparent once again.
 
 ## -remarks
 
