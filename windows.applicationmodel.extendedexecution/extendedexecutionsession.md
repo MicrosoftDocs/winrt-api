@@ -13,6 +13,7 @@ public class ExtendedExecutionSession : Windows.ApplicationModel.ExtendedExecuti
 Supports managing a request for background execution.
 
 ## -remarks
+The amount of time available to perform background execution may be several minutes, but you must be prepared to handle the session being revoked at any time.
 
 ## -examples
 
