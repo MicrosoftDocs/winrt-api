@@ -21,6 +21,7 @@ The package family of the optional package to add to the catalog.
 The result of adding the package.
 
 ## -remarks
+This method only works for optional packages in a related set.
 
 ## -see-also
 
