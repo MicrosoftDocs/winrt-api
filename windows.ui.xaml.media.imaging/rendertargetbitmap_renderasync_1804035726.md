@@ -28,9 +28,7 @@ This is an async method, so there's no guarantee of exact frame synchronization 
 
 You can pass **null** for the *element* parameter, and that renders the root visual tree of the app.
 
-### XAML visuals and **RenderTargetBitmap** capture capabilitie
-s
-
+### XAML visuals and **RenderTargetBitmap** capture capabilities
 
 There are a few scenarios for XAML-composed visual content that you can't capture to a [RenderTargetBitmap](rendertargetbitmap.md):
 + Video content in a [MediaElement](../windows.ui.xaml.controls/mediaelement.md) or [CaptureElement](../windows.ui.xaml.controls/captureelement.md) can't be captured using [RenderTargetBitmap](rendertargetbitmap.md). That includes capturing frames from within video content.
