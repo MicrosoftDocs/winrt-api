@@ -20,7 +20,8 @@ The target element for which to set the value.
 The [Storyboard.TargetProperty](storyboard_targetproperty.md) value of the target element to set. This specifies a qualification path that targets the dependency property where the animation applies. See Remarks.
 
 ## -remarks
-Using [SetTargetProperty](storyboard_settargetproperty.md) in code as opposed to targeting an animation in initial XAML definitions is rare. It's tricky to get all the targeting and timing correct in an animation, particularly if you're trying to incorporate values that are only available at run time. We recommend that you create your animations in XAML, which means you'll use the [Storyboard.TargetProperty](storyboard_targetproperty.md) attached property, not the [SetTargetProperty](storyboard_settargetproperty.md) runtime method (which supports the XAML behind the scenes). Building up animations in code is an advanced scenario. Here's a very basic code example of what's involved:```csharp
+Using [SetTargetProperty](storyboard_settargetproperty.md) in code as opposed to targeting an animation in initial XAML definitions is rare. It's tricky to get all the targeting and timing correct in an animation, particularly if you're trying to incorporate values that are only available at run time. We recommend that you create your animations in XAML, which means you'll use the [Storyboard.TargetProperty](storyboard_targetproperty.md) attached property, not the [SetTargetProperty](storyboard_settargetproperty.md) runtime method (which supports the XAML behind the scenes). Building up animations in code is an advanced scenario. Here's a very basic code example of what's involved:
+```csharp
             Rectangle rect = new Rectangle();
             rect.RenderTransform = new ScaleTransform();
             //TODO - connect this Rectangle to the visual tree
