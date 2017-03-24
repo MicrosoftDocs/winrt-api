@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Media.Casting.CastingDevice.GetDeviceSelectorFromCastingSourceAsync(Windows.Media.Casting.CastingSource)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

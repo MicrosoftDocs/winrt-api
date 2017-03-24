@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.ApplicationModel.Chat.ChatSyncManager.Configuration
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Networking.Proximity.PeerFinder.Start(System.String)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

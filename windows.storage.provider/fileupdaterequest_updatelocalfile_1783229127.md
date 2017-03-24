@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Storage.Provider.FileUpdateRequest.UpdateLocalFile(Windows.Storage.IStorageFile)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

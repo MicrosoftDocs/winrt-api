@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.UI.Input.Spatial.SpatialHoldStartedEventArgs
 -api-type: winrt class
+-api-device-family-note: xbox
 ---
 
 <!-- Class syntax.

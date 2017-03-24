@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristic.WriteClientCharacteristicConfigurationDescriptorAsync(Windows.Devices.Bluetooth.GenericAttributeProfile.GattClientCharacteristicConfigurationDescriptorValue)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

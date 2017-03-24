@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Devices.PointOfService.ICommonClaimedPosPrinterStation.CharactersPerLine
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

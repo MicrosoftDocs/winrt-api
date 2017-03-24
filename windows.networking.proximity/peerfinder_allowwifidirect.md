@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Networking.Proximity.PeerFinder.AllowWiFiDirect
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

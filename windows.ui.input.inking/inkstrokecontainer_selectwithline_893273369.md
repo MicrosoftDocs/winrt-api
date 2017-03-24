@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.Input.Inking.InkStrokeContainer.SelectWithLine(Windows.Foundation.Point,Windows.Foundation.Point)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

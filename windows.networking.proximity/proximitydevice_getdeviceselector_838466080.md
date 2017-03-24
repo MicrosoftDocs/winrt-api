@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Networking.Proximity.ProximityDevice.GetDeviceSelector
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Perception.Spatial.Surfaces.SpatialSurfaceInfo.TryComputeLatestMeshAsync(System.Double,Windows.Perception.Spatial.Surfaces.SpatialSurfaceMeshOptions)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

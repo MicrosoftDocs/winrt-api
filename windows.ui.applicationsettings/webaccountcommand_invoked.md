@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.UI.ApplicationSettings.WebAccountCommand.Invoked
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

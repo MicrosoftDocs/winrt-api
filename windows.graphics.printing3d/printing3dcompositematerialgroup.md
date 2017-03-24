@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.Graphics.Printing3D.Printing3DCompositeMaterialGroup
 -api-type: winrt class
+-api-device-family-note: xbox
 ---
 
 <!-- Class syntax.

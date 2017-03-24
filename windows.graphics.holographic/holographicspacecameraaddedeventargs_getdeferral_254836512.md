@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Graphics.Holographic.HolographicSpaceCameraAddedEventArgs.GetDeferral
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

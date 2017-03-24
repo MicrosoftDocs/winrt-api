@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Networking.Connectivity.DataPlanUsage.MegabytesUsed
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

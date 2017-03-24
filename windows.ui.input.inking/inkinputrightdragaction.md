@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.UI.Input.Inking.InkInputRightDragAction
 -api-type: winrt enum
+-api-device-family-note: xbox
 ---
 
 <!-- Enumeration syntax

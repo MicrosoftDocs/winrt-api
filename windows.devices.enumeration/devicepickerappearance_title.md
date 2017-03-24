@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Devices.Enumeration.DevicePickerAppearance.Title
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

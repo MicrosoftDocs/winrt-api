@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Data.Text.TextConversionGenerator.GetCandidatesAsync(System.String,System.UInt32)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

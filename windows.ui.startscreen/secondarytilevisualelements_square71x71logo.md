@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.UI.StartScreen.SecondaryTileVisualElements.Square71x71Logo
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

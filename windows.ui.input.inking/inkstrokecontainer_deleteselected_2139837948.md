@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.Input.Inking.InkStrokeContainer.DeleteSelected
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Perception.Spatial.Surfaces.SpatialSurfaceMeshOptions.SupportedVertexPositionFormats
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

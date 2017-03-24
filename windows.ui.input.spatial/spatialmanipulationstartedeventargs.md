@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.UI.Input.Spatial.SpatialManipulationStartedEventArgs
 -api-type: winrt class
+-api-device-family-note: xbox
 ---
 
 <!-- Class syntax.

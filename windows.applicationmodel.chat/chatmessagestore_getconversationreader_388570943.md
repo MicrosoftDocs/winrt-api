@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.ApplicationModel.Chat.ChatMessageStore.GetConversationReader
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

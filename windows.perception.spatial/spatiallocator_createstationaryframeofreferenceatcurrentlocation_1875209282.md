@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Perception.Spatial.SpatialLocator.CreateStationaryFrameOfReferenceAtCurrentLocation
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

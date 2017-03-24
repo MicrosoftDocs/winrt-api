@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.Input.Spatial.SpatialGestureRecognizer.CaptureInteraction(Windows.UI.Input.Spatial.SpatialInteraction)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

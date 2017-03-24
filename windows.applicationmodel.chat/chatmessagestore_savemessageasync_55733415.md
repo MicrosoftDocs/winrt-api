@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.ApplicationModel.Chat.ChatMessageStore.SaveMessageAsync(Windows.ApplicationModel.Chat.ChatMessage)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

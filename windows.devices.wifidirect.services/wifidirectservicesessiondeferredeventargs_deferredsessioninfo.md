@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Devices.WiFiDirect.Services.WiFiDirectServiceSessionDeferredEventArgs.DeferredSessionInfo
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

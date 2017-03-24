@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Perception.Spatial.SpatialLocatorPositionalTrackingDeactivatingEventArgs.Canceled
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

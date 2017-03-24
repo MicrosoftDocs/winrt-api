@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.Input.Spatial.SpatialRecognitionStartedEventArgs.IsGesturePossible(Windows.UI.Input.Spatial.SpatialGestureSettings)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

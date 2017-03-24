@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.Input.Spatial.SpatialGestureRecognizer.TrySetGestureSettings(Windows.UI.Input.Spatial.SpatialGestureSettings)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

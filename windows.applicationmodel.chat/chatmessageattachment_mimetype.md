@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.ApplicationModel.Chat.ChatMessageAttachment.MimeType
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

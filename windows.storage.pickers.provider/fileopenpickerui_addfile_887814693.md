@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Storage.Pickers.Provider.FileOpenPickerUI.AddFile(System.String,Windows.Storage.IStorageFile)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

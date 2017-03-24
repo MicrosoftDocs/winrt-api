@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.ApplicationModel.Chat.RcsEndUserMessage.SendResponseWithPinAsync(Windows.ApplicationModel.Chat.RcsEndUserMessageAction,System.String)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

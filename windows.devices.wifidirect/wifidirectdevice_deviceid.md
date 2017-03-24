@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Devices.WiFiDirect.WiFiDirectDevice.DeviceId
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

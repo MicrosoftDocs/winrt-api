@@ -1,6 +1,7 @@
 ---
 -api-id: E:Windows.Devices.Enumeration.DevicePicker.DevicePickerDismissed
 -api-type: winrt event
+-api-device-family-note: xbox
 ---
 
 <!-- Event syntax

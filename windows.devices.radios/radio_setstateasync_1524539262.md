@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.Radios.Radio.SetStateAsync(Windows.Devices.Radios.RadioState)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

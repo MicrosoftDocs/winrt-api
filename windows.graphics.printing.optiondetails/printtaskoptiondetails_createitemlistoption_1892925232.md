@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Graphics.Printing.OptionDetails.PrintTaskOptionDetails.CreateItemListOption(System.String,System.String)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

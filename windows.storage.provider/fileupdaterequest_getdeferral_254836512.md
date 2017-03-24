@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Storage.Provider.FileUpdateRequest.GetDeferral
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

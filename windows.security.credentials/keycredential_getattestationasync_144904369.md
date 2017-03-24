@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Security.Credentials.KeyCredential.GetAttestationAsync
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

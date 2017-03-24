@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.System.FolderLauncherOptions.DesiredRemainingView
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

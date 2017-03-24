@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.Notifications.ToastNotification.#ctor(Windows.Data.Xml.Dom.XmlDocument)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristic.ConvertShortIdToUuid(System.UInt16)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

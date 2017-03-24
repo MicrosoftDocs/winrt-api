@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.PointOfService.ClaimedMagneticStripeReader.SetErrorReportingType(Windows.Devices.PointOfService.MagneticStripeReaderErrorReportingType)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

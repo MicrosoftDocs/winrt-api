@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Perception.Spatial.Surfaces.SpatialSurfaceInfo.TryGetBounds(Windows.Perception.Spatial.SpatialCoordinateSystem)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

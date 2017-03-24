@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Perception.Spatial.SpatialAnchor.TryCreateRelativeTo(Windows.Perception.Spatial.SpatialCoordinateSystem,Windows.Foundation.Numerics.Vector3,Windows.Foundation.Numerics.Quaternion)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

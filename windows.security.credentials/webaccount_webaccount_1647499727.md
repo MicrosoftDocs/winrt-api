@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Security.Credentials.WebAccount.#ctor(Windows.Security.Credentials.WebAccountProvider,System.String,Windows.Security.Credentials.WebAccountState)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

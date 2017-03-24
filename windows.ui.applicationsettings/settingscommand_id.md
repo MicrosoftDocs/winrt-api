@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.UI.ApplicationSettings.SettingsCommand.Id
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

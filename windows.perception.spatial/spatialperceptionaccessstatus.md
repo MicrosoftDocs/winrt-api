@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.Perception.Spatial.SpatialPerceptionAccessStatus
 -api-type: winrt enum
+-api-device-family-note: xbox
 ---
 
 <!-- Enumeration syntax

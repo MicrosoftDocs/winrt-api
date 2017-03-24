@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Devices.WiFi.WiFiAvailableNetwork.ChannelCenterFrequencyInKilohertz
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

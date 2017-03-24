@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Networking.Proximity.ProximityDevice.PublishUriMessage(Windows.Foundation.Uri)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

@@ -1,6 +1,7 @@
 ---
 -api-id: E:Windows.Storage.Pickers.Provider.FileSavePickerUI.FileNameChanged
 -api-type: winrt event
+-api-device-family-note: xbox
 ---
 
 <!-- Event syntax

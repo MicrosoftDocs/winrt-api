@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.Devices.Printers.Extensions.Print3DWorkflowPrinterChangedEventArgs
 -api-type: winrt class
+-api-device-family-note: xbox
 ---
 
 <!-- Class syntax.
