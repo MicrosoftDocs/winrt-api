@@ -17,8 +17,7 @@ Provides phased rendering of bound data in a data template.
 Gets the number of times the method has been called.
 
 ## -returns
-**
-            true** if there are more phases to be processed; otherwise, **false**.
+**true** if there are more phases to be processed; otherwise, **false**.
 
 ## -remarks
 

@@ -18,7 +18,8 @@ An asynchronous operation. If you use [Asynchronous programming](http://msdn.mic
 ## -remarks
 If the [WalletBarcode](walletbarcode.md) object was instantiated using the [WalletBarcode](walletbarcode_walletbarcode_199548425.md) constructor that takes a custom image as a parameter, that custom image is returned on completion. Otherwise, an image of the system-defined barcode is created and then returned.
 
-This method doesn't literally return an image object that's ready for UI, it returns a stream that defines a bitmap image. To actually set an image in JavaScript, you can use code similar to this:```javascript
+This method doesn't literally return an image object that's ready for UI, it returns a stream that defines a bitmap image. To actually set an image in JavaScript, you can use code similar to this:
+```javascript
 var awns = Windows.ApplicationModel.Wallet;
 var wbc = new awns.WalletBarcode(awns.WalletBarcodeSymbology.qr, "123123123123");
 wbc.getImageAsync().done(function (img) {

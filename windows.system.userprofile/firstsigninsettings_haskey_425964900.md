@@ -17,8 +17,7 @@ Determines whether the map view contains the specified key.
 The key to locate in the map view.
 
 ## -returns
-**
-            true** if the key is found; otherwise, **false**.
+**true** if the key is found; otherwise, **false**.
 
 ## -remarks
 

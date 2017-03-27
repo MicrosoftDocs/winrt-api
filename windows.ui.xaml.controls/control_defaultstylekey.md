@@ -21,7 +21,8 @@ The key that references the default style for the control. To work correctly as 
  [DefaultStyleKey](control_defaultstylekey.md) is one of the very few protected properties in the Windows Runtime  API. It's intended only for use by control authors, who will be subclassing some existing control class and therefore have the necessary access to set this property. For many custom control scenarios where you'll be setting [DefaultStyleKey](control_defaultstylekey.md), you'll also be overriding [OnApplyTemplate](../windows.ui.xaml/frameworkelement_onapplytemplate.md).
 
 The return type of [DefaultStyleKey](control_defaultstylekey.md) is loosely typed as **Object** in the syntax, but the XAML style system will expect the value to provide a type reference:
-+ For a control that has its logic written in C#, the value of [DefaultStyleKey](control_defaultstylekey.md) should be an instance of [System.Type](https://msdn.microsoft.com/library/system.type.aspx). Typically you set this value in the default constructor:```csharp
++ For a control that has its logic written in C#, the value of [DefaultStyleKey](control_defaultstylekey.md) should be an instance of [System.Type](https://msdn.microsoft.com/library/system.type.aspx). Typically you set this value in the default constructor:
+```csharp
 public CustomControl1()
 {
     this.DefaultStyleKey = typeof(CustomControl1);
@@ -29,14 +30,16 @@ public CustomControl1()
 ```
 
 
-+ For a control that has its logic written in Microsoft Visual Basic, the value of [DefaultStyleKey](control_defaultstylekey.md) should be an instance of [System.Type](https://msdn.microsoft.com/library/system.type.aspx). Typically you set this value in the default constructor:```vbnet
++ For a control that has its logic written in Microsoft Visual Basic, the value of [DefaultStyleKey](control_defaultstylekey.md) should be an instance of [System.Type](https://msdn.microsoft.com/library/system.type.aspx). Typically you set this value in the default constructor:
+```vbnet
 Public Sub New()
     Me.DefaultStyleKey = GetType(CustomControl1)
 End Sub
 ```
 
 
-+ For a control that has its logic written in Visual C++ component extensions (C++/CX), the value of [DefaultStyleKey](control_defaultstylekey.md) should be a namespace-qualified string that is the name of the custom control class. Typically you set this value in the default constructor:```vbnet
++ For a control that has its logic written in Visual C++ component extensions (C++/CX), the value of [DefaultStyleKey](control_defaultstylekey.md) should be a namespace-qualified string that is the name of the custom control class. Typically you set this value in the default constructor:
+```vbnet
 CustomControl1::CustomControl1() //public: in the header
 {
     DefaultStyleKey = "App1.CustomControl1";
