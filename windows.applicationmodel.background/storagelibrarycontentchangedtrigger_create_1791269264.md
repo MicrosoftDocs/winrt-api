@@ -20,6 +20,7 @@ The location that the trigger monitors such as the music library or documents li
 A trigger that monitors the specified location.
 
 ## -remarks
+For more details on how to use the trigger and a code sample, please see [File System Monitoring in Universal Windows Platform Apps](https://msdn.microsoft.com/magazine/mt790201)
 
 ## -examples
 ```csharp
