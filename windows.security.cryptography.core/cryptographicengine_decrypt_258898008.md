@@ -33,7 +33,7 @@ If the key is a persisted key and the decrypt operation requires UI or takes a l
 ## -examples
 
 
-[!code-csharp[ShowSymmDecryption] (../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowSymmDecryption)]
+[!code-csharp[ShowSymmDecryption](../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowSymmDecryption)]
 
 ## -see-also
 [AsymmetricKeyAlgorithmProvider](asymmetrickeyalgorithmprovider.md), [Cryptographic keys](http://msdn.microsoft.com/library/f35bebdf-28c5-4f91-a94e-f7d862b6ed59), [Encrypt](cryptographicengine_encrypt.md), [SymmetricKeyAlgorithmProvider](symmetrickeyalgorithmprovider.md)
