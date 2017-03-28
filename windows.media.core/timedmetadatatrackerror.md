@@ -13,7 +13,7 @@ public class TimedMetadataTrackError : Windows.Media.Core.ITimedMetadataTrackErr
 Provides information about an error that occurred with a timed metadata track.
 
 ## -remarks
-Get an instance of this class by accessing the [TimedTextSourceResolveResultEventArgs.Error](timedtextsourceresolveresulteventargs_error.md) property.
+Get an instance of this class by accessing the [TimedMetadataTrackFailedEventArgs.Error](timedmetadatatrackfailedeventargs_error.md) property.
 
 ## -examples
 
