@@ -10,7 +10,7 @@ public Windows.Foundation.Collections.IMapView<System.Guid, Windows.ApplicationM
 # Windows.ApplicationModel.Background.BackgroundTaskRegistration.AllTasks
 
 ## -description
-Enumerates an application's registered background tasks.
+Enumerates an application's registered background tasks, except for the background tasks registered in a group with [Windows.ApplicationModel.Background.BackgroundTaskBuilder.TaskGroup](backgroundtaskbuilder_taskgroup.md).
 
 ## -property-value
 A view into a map of registered background tasks consisting of the task ID and an [IBackgroundTaskRegistration](ibackgroundtaskregistration.md) interface.
@@ -39,3 +39,4 @@ foreach (var cur in BackgroundTaskRegistration.AllTasks)
 ```
 
 ## -see-also
+[Windows.ApplicationModel.Background.BackgroundTaskBuilder.TaskGroup](backgroundtaskbuilder_taskgroup.md)
