@@ -16,6 +16,7 @@ Gets the basic properties of the current file.
 When this method completes successfully, it returns the basic properties of the current file as a [BasicProperties](../windows.storage.fileproperties/basicproperties.md) object.
 
 ## -remarks
+This method will return E_ILLEGAL_METHOD_CALL if there are other async operations in progress on the same StorageItem instance. Make sure that another thread isn't modifying the StorageItem at the same time.  
 
 ## -examples
 This example shows you how to access basic properties of a file using the [storageFile.getBasicPropertiesAsync](storagefile_getbasicpropertiesasync.md) method.
