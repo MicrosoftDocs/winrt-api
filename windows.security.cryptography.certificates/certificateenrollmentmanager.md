@@ -20,7 +20,7 @@ This class contains only static properties. You do not have to create an instanc
 ## -examples
 
 
-[!code-csharp[ShowCertEnrollMgr] (../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowCertEnrollMgr)]
+[!code-csharp[ShowCertEnrollMgr](../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowCertEnrollMgr)]
 
 
 ## -see-also

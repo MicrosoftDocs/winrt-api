@@ -14,7 +14,7 @@ Retrieves the specified properties associated with the item.
 
 ## -parameters
 ### -param propertiesToRetrieve
-A collection that contains the names of the properties to retrieve.
+A collection that contains the names of the properties to retrieve. Pass null to retrieve all possible properties.
 
 ## -returns
 When this method completes successfully, it returns a collection (type [IMap](../windows.foundation.collections/imap_2.md)) that contains the specified properties and values as key-value pairs.

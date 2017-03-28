@@ -15,7 +15,7 @@ Identifies an alternate form of the word represented by a [WordSegment](wordsegm
 ## -remarks
 Your code does not create instances of this class. It retrieves them from a [WordSegment.AlternateForms](wordsegment_alternateforms.md) list.
 
-The value of the [AlternateNormalizationFormat](alternatenormalizationformat.md) property indicates the normalization format used to format the [AlternateText](alternatetext.md) property. It is one of the following possible normalization formats.
+The value of the [AlternateNormalizationFormat](alternatenormalizationformat.md) property indicates the normalization format used to format the [AlternateText](alternatewordform_alternatetext.md) property. It is one of the following possible normalization formats.
 
 When *NormalizationFormat* property is **AlternateNormalizationFormat.Number**, "." is used to indicate the decimal separator, and a leading "-" indicates that the number is negative.
 
