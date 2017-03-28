@@ -24,7 +24,7 @@ You create a [HashAlgorithmProvider](hashalgorithmprovider.md) object by calling
 ## -examples
 
 
-[!code-csharp[ShowHashAlgProviderClass] (../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowHashAlgProviderClass)]
+[!code-csharp[ShowHashAlgProviderClass](../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowHashAlgProviderClass)]
 
 ## -see-also
 [MACs, hashes, and signatures](http://msdn.microsoft.com/library/e674312f-6678-44c5-91d9-b489f49c4d3c)
