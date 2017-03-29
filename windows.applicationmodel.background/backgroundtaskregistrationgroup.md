@@ -18,6 +18,7 @@ Developers are encouraged to unregister, and then register, all background tasks
 Grouped background task registration provides roughly the equivalent of a namespace for background tasks. You can register/unregister background tasks that belong to a group that you define without disturbing the registration of other background tasks on the device.
 
 ## -see-also
+[Group background task registration](https://docs.microsoft.com/windows/uwp/launch-resume/group-background-tasks)
 [Launching, resuming, and background tasks](https://msdn.microsoft.com/windows/uwp/launch-resume/index)
 
 ## -examples
