@@ -23,6 +23,8 @@ The button for which to retrieve the label.
 
 The label for the specified button. If the button label is blank or there is no known label for the controller’s button, then **None** is returned.
 
+## -remarks
+
 ## -see-also
 
 * [Windows.Gaming.Input.GameControllerButtonLabel](gamecontrollerbuttonlabel.md)
