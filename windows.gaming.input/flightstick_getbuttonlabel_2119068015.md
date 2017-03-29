@@ -25,13 +25,6 @@ The label for the specified button. If the button label is blank or there is no 
 
 ## -remarks
 
-## -see-also
-
-* [Windows.Gaming.Input.GameControllerButtonLabel](gamecontrollerbuttonlabel.md)
-* [Windows.Gaming.Input.FlightStickButtons](flightstickbuttons.md)
-
-## -examples
-
 The following example gets the label on the **FirePrimary** button on the flight stick, and shows an icon based on the label:
 
 ```cpp
@@ -50,3 +43,10 @@ void ShowFlightStickFirePrimaryButtonIcon(FlightStick flightStick)
 	}
 }
 ```
+
+## -see-also
+
+* [Windows.Gaming.Input.GameControllerButtonLabel](gamecontrollerbuttonlabel.md)
+* [Windows.Gaming.Input.FlightStickButtons](flightstickbuttons.md)
+
+## -examples

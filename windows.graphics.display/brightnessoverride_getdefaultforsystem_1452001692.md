@@ -22,3 +22,18 @@ Requires the __systemManagement__ capability to be declared in your app's packag
 
 ## -examples
 
+This example overrides the device's brightness at full brightness, but is used by apps that run in the background and do not have a [CoreWindow](../windows.ui.core/corewindow.md).
+
+```csharp
+private void Set_Full_Brightness_AppsInBackground()
+{
+    //Create BrightnessOverride object
+    BrightnessOverride bo = BrightnessOverride.GetDefaultForSystem();
+
+    //Set override brightness to full brightness even when battery is low
+    bo.SetBrightnessScenario(DisplayBrightnessScenario.FullBrightness, DisplayBrightnessOverrideOptions.None);
+
+    //Request to start the overriding process
+    bo.StartOverride();
+}
+```
