@@ -29,12 +29,6 @@ private void Set_Full_Brightness()
 }
 ```
 
-## -remarks
-
-## -see-also
-
-## -examples
-
 This example also overrides the device's brightness at full brightness, but is used by apps that run in the background and do not have a [CoreWindow](../windows.ui.core/corewindow.md).
 
 ```csharp
@@ -50,3 +44,9 @@ private void Set_Full_Brightness_AppsInBackground()
     bo.StartOverride();
 }
 ```
+
+## -remarks
+
+## -see-also
+
+## -examples
