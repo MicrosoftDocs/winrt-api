@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Networking.Connectivity.ConnectivityInterval.StartTime
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

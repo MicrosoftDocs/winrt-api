@@ -16,6 +16,7 @@ Gets a value that indicates whether the event occured due to a change in the tex
 **true** if a change to the text content caused the event; otherwise, **false**.
 
 ## -remarks
+This event is fired for a format or content change. The IsContentChanging property helps to distinguish when text content is changing.
 
 ## -see-also
 

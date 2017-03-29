@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.AllJoyn.AllJoynBusObject.AddProducer(Windows.Devices.AllJoyn.IAllJoynProducer)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

@@ -17,3 +17,6 @@ Represents an item with the TargetedContentCollection.
 
 ## -examples
 
+## -capabilities
+targetedContent
+

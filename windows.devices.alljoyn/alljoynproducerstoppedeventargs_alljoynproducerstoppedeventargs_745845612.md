@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.AllJoyn.AllJoynProducerStoppedEventArgs.#ctor(System.Int32)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

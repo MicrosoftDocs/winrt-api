@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.PointOfService.ReceiptPrintJob.CutPaper(System.Double)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

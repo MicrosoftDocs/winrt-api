@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Perception.Spatial.Surfaces.SpatialSurfaceObserver.RequestAccessAsync
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

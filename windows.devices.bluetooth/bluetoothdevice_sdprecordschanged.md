@@ -1,6 +1,7 @@
 ---
 -api-id: E:Windows.Devices.Bluetooth.BluetoothDevice.SdpRecordsChanged
 -api-type: winrt event
+-api-device-family-note: xbox
 ---
 
 <!-- Event syntax

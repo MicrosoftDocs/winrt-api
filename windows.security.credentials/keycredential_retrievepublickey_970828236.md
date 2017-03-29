@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Security.Credentials.KeyCredential.RetrievePublicKey(Windows.Security.Cryptography.Core.CryptographicPublicKeyBlobType)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Devices.Bluetooth.GenericAttributeProfile.GattDeviceService.AttributeHandle
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

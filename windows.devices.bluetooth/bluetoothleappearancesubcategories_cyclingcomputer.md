@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Devices.Bluetooth.BluetoothLEAppearanceSubcategories.CyclingComputer
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

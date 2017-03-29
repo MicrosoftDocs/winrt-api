@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.Devices.HumanInterfaceDevice.HidReportType
 -api-type: winrt enum
+-api-device-family-note: xbox
 ---
 
 <!-- Enumeration syntax

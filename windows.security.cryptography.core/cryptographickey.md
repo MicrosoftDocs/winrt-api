@@ -25,7 +25,7 @@ A [CryptographicKey](cryptographickey.md) object is created when you use methods
 ## -examples
 
 
-[!code-csharp[ShowCryptographicKeyClass] (../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowCryptographicKeyClass)]
+[!code-csharp[ShowCryptographicKeyClass](../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowCryptographicKeyClass)]
 
 ## -see-also
 [AsymmetricKeyAlgorithmProvider](asymmetrickeyalgorithmprovider.md), [SymmetricKeyAlgorithmProvider](symmetrickeyalgorithmprovider.md)

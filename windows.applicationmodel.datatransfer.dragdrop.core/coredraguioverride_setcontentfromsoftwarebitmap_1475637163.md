@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.ApplicationModel.DataTransfer.DragDrop.Core.CoreDragUIOverride.SetContentFromSoftwareBitmap(Windows.Graphics.Imaging.SoftwareBitmap)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

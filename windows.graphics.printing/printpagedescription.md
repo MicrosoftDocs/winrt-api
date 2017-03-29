@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.Graphics.Printing.PrintPageDescription
 -api-type: winrt struct
+-api-device-family-note: xbox
 ---
 
 <!-- Structure syntax.

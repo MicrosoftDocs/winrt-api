@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.Input.Inking.InkPresenter.CopyDefaultDrawingAttributes
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

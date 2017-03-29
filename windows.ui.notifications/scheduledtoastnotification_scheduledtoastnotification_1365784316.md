@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.Notifications.ScheduledToastNotification.#ctor(Windows.Data.Xml.Dom.XmlDocument,Windows.Foundation.DateTime,Windows.Foundation.TimeSpan,System.UInt32)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

@@ -1,6 +1,7 @@
 ---
 -api-id: E:Windows.UI.Input.Inking.InkPresenter.StrokesErased
 -api-type: winrt event
+-api-device-family-note: xbox
 ---
 
 <!-- Event syntax

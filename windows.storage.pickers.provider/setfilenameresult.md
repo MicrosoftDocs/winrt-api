@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.Storage.Pickers.Provider.SetFileNameResult
 -api-type: winrt enum
+-api-device-family-note: xbox
 ---
 
 <!-- Enumeration syntax

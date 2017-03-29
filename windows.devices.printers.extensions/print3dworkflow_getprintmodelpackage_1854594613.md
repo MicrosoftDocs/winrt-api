@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.Printers.Extensions.Print3DWorkflow.GetPrintModelPackage
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

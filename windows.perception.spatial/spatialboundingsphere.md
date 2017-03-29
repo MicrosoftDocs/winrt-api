@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.Perception.Spatial.SpatialBoundingSphere
 -api-type: winrt struct
+-api-device-family-note: xbox
 ---
 
 <!-- Structure syntax.

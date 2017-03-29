@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.Bluetooth.GenericAttributeProfile.GattDeviceService.GetCharacteristics(System.Guid)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

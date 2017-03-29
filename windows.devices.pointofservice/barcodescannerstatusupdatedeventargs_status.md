@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Devices.PointOfService.BarcodeScannerStatusUpdatedEventArgs.Status
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

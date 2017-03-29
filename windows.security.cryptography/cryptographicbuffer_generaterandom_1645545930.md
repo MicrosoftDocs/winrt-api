@@ -24,6 +24,6 @@ Output buffer that contains the random data.
 ## -examples
 
 
-[!code-csharp[ShowRandom] (../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowRandom)]
+[!code-csharp[ShowRandom](../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowRandom)]
 
 ## -see-also

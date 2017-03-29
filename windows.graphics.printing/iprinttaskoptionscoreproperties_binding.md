@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Graphics.Printing.IPrintTaskOptionsCoreProperties.Binding
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

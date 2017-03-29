@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.Data.Text.SelectableWordSegmentsTokenizingHandler
 -api-type: winrt delegate
+-api-device-family-note: xbox
 ---
 <!-- Delegate syntax.
 public delegate void SelectableWordSegmentsTokenizingHandler(Windows.Foundation.Collections.IIterable<Windows.Data.Text.SelectableWordSegment> precedingWords, Windows.Foundation.Collections.IIterable<Windows.Data.Text.SelectableWordSegment> words)

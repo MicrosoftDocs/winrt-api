@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.HumanInterfaceDevice.HidInputReport.GetNumericControlByDescription(Windows.Devices.HumanInterfaceDevice.HidNumericControlDescription)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

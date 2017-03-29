@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.PointOfService.ReceiptPrintJob.SetPrintRotation(Windows.Devices.PointOfService.PosPrinterRotation,System.Boolean)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

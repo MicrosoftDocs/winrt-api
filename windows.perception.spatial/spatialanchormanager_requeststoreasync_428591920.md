@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Perception.Spatial.SpatialAnchorManager.RequestStoreAsync
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Perception.Spatial.SpatialBoundingVolume.FromFrustum(Windows.Perception.Spatial.SpatialCoordinateSystem,Windows.Perception.Spatial.SpatialBoundingFrustum)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

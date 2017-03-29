@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Data.Text.UnicodeCharacters.IsAlphabetic(System.UInt32)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

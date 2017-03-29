@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Devices.Sms.SmsBroadcastMessage.GeographicalScope
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

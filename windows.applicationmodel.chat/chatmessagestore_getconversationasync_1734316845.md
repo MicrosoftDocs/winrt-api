@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.ApplicationModel.Chat.ChatMessageStore.GetConversationAsync(System.String,Windows.Foundation.Collections.IIterable{System.String})
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

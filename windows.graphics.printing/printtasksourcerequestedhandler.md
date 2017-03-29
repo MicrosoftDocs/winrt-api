@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.Graphics.Printing.PrintTaskSourceRequestedHandler
 -api-type: winrt delegate
+-api-device-family-note: xbox
 ---
 <!-- Delegate syntax.
 public delegate void PrintTaskSourceRequestedHandler(Windows.Graphics.Printing.PrintTaskSourceRequestedArgs args)

@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.ApplicationModel.LockScreen.LockScreenUnlockingDeferral.Complete
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

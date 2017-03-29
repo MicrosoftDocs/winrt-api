@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Networking.NetworkOperators.UssdReply.ResultCode
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

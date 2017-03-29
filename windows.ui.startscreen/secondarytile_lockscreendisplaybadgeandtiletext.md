@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.UI.StartScreen.SecondaryTile.LockScreenDisplayBadgeAndTileText
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.Graphics.Printing.OptionDetails.PrintOptionType
 -api-type: winrt enum
+-api-device-family-note: xbox
 ---
 
 <!-- Enumeration syntax

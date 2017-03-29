@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Devices.PointOfService.ClaimedReceiptPrinter.IsPaperNearEnd
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

@@ -25,7 +25,7 @@ You can use an authenticated encryption algorithm after calling the [OpenAlgorit
 ## -examples
 
 
-[!code-csharp[ShowEncryptedAuthenticatedDataClass] (../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowEncryptedAuthenticatedDataClass)]
+[!code-csharp[ShowEncryptedAuthenticatedDataClass](../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowEncryptedAuthenticatedDataClass)]
 
 ## -see-also
 [CryptographicEngine](cryptographicengine.md), [DecryptAndAuthenticate](cryptographicengine_decryptandauthenticate.md), [EncryptAndAuthenticate](cryptographicengine_encryptandauthenticate.md), [SymmetricKeyAlgorithmProvider](symmetrickeyalgorithmprovider.md)

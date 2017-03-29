@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.Notifications.TileNotification.#ctor(Windows.Data.Xml.Dom.XmlDocument)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

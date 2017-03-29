@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.UI.ApplicationSettings.CredentialCommand.CredentialDeleted
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

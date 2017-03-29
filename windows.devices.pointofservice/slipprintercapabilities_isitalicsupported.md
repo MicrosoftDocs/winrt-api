@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Devices.PointOfService.SlipPrinterCapabilities.IsItalicSupported
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

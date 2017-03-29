@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.ApplicationModel.LockScreen.LockScreenInfo
 -api-type: winrt class
+-api-device-family-note: xbox
 ---
 
 <!-- Class syntax.

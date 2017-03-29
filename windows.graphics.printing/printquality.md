@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.Graphics.Printing.PrintQuality
 -api-type: winrt enum
+-api-device-family-note: xbox
 ---
 
 <!-- Enumeration syntax

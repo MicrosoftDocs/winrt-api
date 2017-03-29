@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Devices.Sms.SmsAppMessage.TeleserviceId
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.WiFi.WiFiAdapter.ConnectAsync(Windows.Devices.WiFi.WiFiAvailableNetwork,Windows.Devices.WiFi.WiFiReconnectionKind)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

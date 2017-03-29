@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Devices.HumanInterfaceDevice.HidDevice.UsageId
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

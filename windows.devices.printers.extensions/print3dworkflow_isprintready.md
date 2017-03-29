@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Devices.Printers.Extensions.Print3DWorkflow.IsPrintReady
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

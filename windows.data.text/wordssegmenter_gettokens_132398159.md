@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Data.Text.WordsSegmenter.GetTokens(System.String)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Devices.PointOfService.BarcodeScannerCapabilities.PowerReportingType
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

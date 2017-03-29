@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.StartScreen.SecondaryTile.RequestCreateAsync
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

@@ -19,8 +19,7 @@ Gets or sets a value that indicates whether the progress bar reports generic pro
 
 
 ## -property-value
-**
-        True** if the progress bar reports generic progress with a repeating pattern; **false** if the progress bar reports progress based on the [Value](../windows.ui.xaml.controls.primitives/rangebase_value.md) property. The default is **false**.
+**True** if the progress bar reports generic progress with a repeating pattern; **false** if the progress bar reports progress based on the [Value](../windows.ui.xaml.controls.primitives/rangebase_value.md) property. The default is **false**.
 
 ## -remarks
 ### Notes for Windows 8.x

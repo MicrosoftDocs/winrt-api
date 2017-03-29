@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.UI.Input.Spatial.SpatialNavigationUpdatedEventArgs.NormalizedOffset
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

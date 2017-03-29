@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Storage.Pickers.Provider.TargetFileRequestedEventArgs.Request
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

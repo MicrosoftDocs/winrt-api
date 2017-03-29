@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.Bluetooth.BluetoothDevice.GetDeviceSelectorFromPairingState(System.Boolean)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Graphics.Holographic.HolographicFrame.GetRenderingParameters(Windows.Graphics.Holographic.HolographicCameraPose)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

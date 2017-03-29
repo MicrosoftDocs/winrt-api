@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.ApplicationModel.Chat.ChatSyncManager.IsAccountAssociated(Windows.Security.Credentials.WebAccount)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.Notifications.ToastNotificationHistory.GetHistory
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

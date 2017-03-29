@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Graphics.Printing.OptionDetails.PrintBorderingOptionDetails.Items
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

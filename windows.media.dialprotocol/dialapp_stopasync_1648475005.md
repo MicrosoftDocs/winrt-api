@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Media.DialProtocol.DialApp.StopAsync
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

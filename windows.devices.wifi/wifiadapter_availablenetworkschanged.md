@@ -1,6 +1,7 @@
 ---
 -api-id: E:Windows.Devices.WiFi.WiFiAdapter.AvailableNetworksChanged
 -api-type: winrt event
+-api-device-family-note: xbox
 ---
 
 <!-- Event syntax

@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.UI.Notifications.ToastActivatedEventArgs.Arguments
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

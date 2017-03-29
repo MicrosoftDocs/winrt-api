@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Devices.PointOfService.ClaimedMagneticStripeReader.IsDecodeDataEnabled
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

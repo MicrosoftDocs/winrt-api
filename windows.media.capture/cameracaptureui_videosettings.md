@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Media.Capture.CameraCaptureUI.VideoSettings
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax
