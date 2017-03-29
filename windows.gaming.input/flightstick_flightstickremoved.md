@@ -15,10 +15,6 @@ Signals when a flight stick is disconnected.
 
 ## -remarks
 
-## -see-also
-
-## -examples
-
 The following example stops tracking a flight stick that's been removed. `myFlightSticks` is a `Vector<FlightStick^>` that contains the flight sticks that your game is tracking.
 
 ```cpp
@@ -33,3 +29,7 @@ FlightStick::FlightStickRemoved +=
     }
 });
 ```
+
+## -see-also
+
+## -examples
