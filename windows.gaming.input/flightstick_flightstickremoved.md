@@ -13,8 +13,6 @@ static public event EventHandler FlightStickRemoved<FlightStick>
 
 Signals when a flight stick is disconnected.
 
-## -remarks
-
 ## -see-also
 
 ## -examples
