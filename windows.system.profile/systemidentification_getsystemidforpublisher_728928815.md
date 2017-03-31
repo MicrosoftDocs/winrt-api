@@ -22,9 +22,9 @@ The identifier returned by this method is specific to the app publisher on the c
 The ID has the following characteristics:
 
 + Unique for each system
-+ On any particular system, all apps by teh same publisher will get the same value for this ID (for all users). Conversely, apps by different publishers on the same system will obtain different IDs
++ On any particular system, all apps by the same publisher will get the same value for this ID (for all users). Conversely, apps by different publishers on the same system will obtain different IDs.
 + Can be created offline
-+ Persists across restarts, reinstalls and upgrades of Windows, including clean installs (please see below for some exceptions)
++ Persists across restarts, reinstalls and upgrades of Windows, including clean installs (please see below for exceptions)
 + Persists across most hardware modifications
 + Available in OneCore
 
