@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.UI.Input.Inking.InkInputProcessingConfiguration.Mode
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

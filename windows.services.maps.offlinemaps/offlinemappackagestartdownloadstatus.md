@@ -20,13 +20,13 @@ Specifies the status of an [OfflineMapPackageStartDownloadResult](offlinemappack
 ## -enum-fields
 
 ## -field UnknownError:1
-An error occurred.
+The operation returned an unknown error.
 
 ## -field Success:0
 The operation completed successfully.
 
 ## -field InvalidCredentials:2
-The credentials used to complete this operation were invalid.
+The credentials used to complete this operation are invalid.
 
 ## -field DeniedWithoutCapability:3
 The ``<uap4:Capability Name="offlineMapsManagement" />`` has not been added to the package manifest.

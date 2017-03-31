@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Graphics.Printing3D.Printing3DMesh.VerifyAsync(Windows.Graphics.Printing3D.Printing3DMeshVerificationMode)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

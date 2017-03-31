@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.Graphics.Printing3D.Printing3D3MFPackage
 -api-type: winrt class
+-api-device-family-note: xbox
 ---
 
 <!-- Class syntax.

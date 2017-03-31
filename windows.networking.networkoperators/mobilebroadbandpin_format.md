@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Networking.NetworkOperators.MobileBroadbandPin.Format
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

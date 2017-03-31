@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.Bluetooth.Rfcomm.RfcommDeviceService.GetDeviceSelector(Windows.Devices.Bluetooth.Rfcomm.RfcommServiceId)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

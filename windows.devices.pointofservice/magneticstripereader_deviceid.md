@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Devices.PointOfService.MagneticStripeReader.DeviceId
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

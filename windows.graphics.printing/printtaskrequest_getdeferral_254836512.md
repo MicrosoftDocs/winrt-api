@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Graphics.Printing.PrintTaskRequest.GetDeferral
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Networking.NetworkOperators.HotspotAuthenticationContext.AbortAuthentication(System.Boolean)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

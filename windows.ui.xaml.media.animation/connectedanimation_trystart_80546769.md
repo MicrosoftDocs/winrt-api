@@ -19,7 +19,7 @@ The element that is animated into view.
 
 ### -param coordinatedElements
 
-The collection of secondary elements that share the same animation as the destination element.
+The collection of secondary elements. These elements will play an entrance animation where they travel alongside the connected animation target in a "coordinated animation".
 
 ## -returns
 **true** if the animation started; **false** if the animation has already been started, if it is no longer active, or if the destination element is the same as the source element.

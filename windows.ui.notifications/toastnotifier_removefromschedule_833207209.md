@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.Notifications.ToastNotifier.RemoveFromSchedule(Windows.UI.Notifications.ScheduledToastNotification)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

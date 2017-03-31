@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.Graphics.Printing3D.Print3DTaskRequestedEventArgs
 -api-type: winrt class
+-api-device-family-note: xbox
 ---
 
 <!-- Class syntax.

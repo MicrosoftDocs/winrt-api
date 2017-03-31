@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Graphics.Holographic.HolographicSpace.CreateForCoreWindow(Windows.UI.Core.CoreWindow)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

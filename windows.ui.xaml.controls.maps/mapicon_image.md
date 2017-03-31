@@ -10,10 +10,10 @@ public Windows.Storage.Streams.IRandomAccessStreamReference Image { get;  set; }
 # Windows.UI.Xaml.Controls.Maps.MapIcon.Image
 
 ## -description
-Gets or sets the image for the [MapIcon](mapicon.md). Provide an optional custom image to replace the default image.
+Gets or sets the image for the [MapIcon](mapicon.md). Provide an optional custom image to replace the default point of interest (POI) image.
 
 ## -property-value
-The image for the [MapIcon](mapicon.md).
+The point of interest (POI) image for the [MapIcon](mapicon.md).
 
 ## -remarks
 The following line of code displays the [MapIcon](mapicon.md) with a custom image saved in the Assets folder of the project.

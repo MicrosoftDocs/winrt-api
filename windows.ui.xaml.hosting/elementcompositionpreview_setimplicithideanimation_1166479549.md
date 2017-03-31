@@ -25,6 +25,8 @@ The animation to play when the UIElement is hidden. A **Null** value prevents hi
 
 ## -remarks
 
+When an element is removed from the scene or its **Visibility** property becomes **Visibility.Collapsed**, the element and all of its descendents in the UI tree will play their hide animations.
+
 ## -see-also
 
 ## -examples

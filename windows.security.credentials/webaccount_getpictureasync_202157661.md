@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Security.Credentials.WebAccount.GetPictureAsync(Windows.Security.Credentials.WebAccountPictureSize)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

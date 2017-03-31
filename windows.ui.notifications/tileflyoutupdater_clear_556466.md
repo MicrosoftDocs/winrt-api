@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.Notifications.TileFlyoutUpdater.Clear
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

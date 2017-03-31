@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Devices.Sms.SmsAppMessage.PortNumber
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Media.Casting.CastingConnection.State
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

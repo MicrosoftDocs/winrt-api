@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Devices.Sms.SmsWapMessage.CellularClass
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.WiFiDirect.WiFiDirectConnectionRequestedEventArgs.GetConnectionRequest
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

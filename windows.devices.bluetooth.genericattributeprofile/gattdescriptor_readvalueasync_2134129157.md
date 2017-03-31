@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.Bluetooth.GenericAttributeProfile.GattDescriptor.ReadValueAsync(Windows.Devices.Bluetooth.BluetoothCacheMode)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Security.Credentials.WebAccount.UserName
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

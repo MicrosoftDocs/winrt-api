@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Perception.PerceptionTimestampHelper.FromHistoricalTargetTime(Windows.Foundation.DateTime)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.WiFiDirect.Services.WiFiDirectService.GetProvisioningInfoAsync(Windows.Devices.WiFiDirect.Services.WiFiDirectServiceConfigurationMethod)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

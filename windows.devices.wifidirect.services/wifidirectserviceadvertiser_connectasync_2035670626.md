@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.WiFiDirect.Services.WiFiDirectServiceAdvertiser.ConnectAsync(Windows.Devices.Enumeration.DeviceInformation,System.String)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

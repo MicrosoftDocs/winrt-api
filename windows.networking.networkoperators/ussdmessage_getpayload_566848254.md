@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Networking.NetworkOperators.UssdMessage.GetPayload
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

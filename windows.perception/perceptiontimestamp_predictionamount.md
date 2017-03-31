@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Perception.PerceptionTimestamp.PredictionAmount
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

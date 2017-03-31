@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Perception.Spatial.SpatialAnchorTransferManager.TryExportAnchorsAsync(Windows.Foundation.Collections.IIterable{Windows.Foundation.Collections.IKeyValuePair{System.String,Windows.Perception.Spatial.SpatialAnchor}},Windows.Storage.Streams.IOutputStream)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

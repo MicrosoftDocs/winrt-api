@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.System.Launcher.LaunchFolderAsync(Windows.Storage.IStorageFolder,Windows.System.FolderLauncherOptions)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

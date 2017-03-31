@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Networking.Connectivity.NetworkInformation.GetSortedEndpointPairs(Windows.Foundation.Collections.IIterable{Windows.Networking.EndpointPair},Windows.Networking.HostNameSortOptions)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

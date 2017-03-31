@@ -61,7 +61,7 @@ class PropertyAnimation
   { 
     // Create AnimationGroup 
     CompositionAnimationGroup animationGroup =  
-    compositor.CreateCompositionAnimationGroup(); 
+    compositor.CreateAnimationGroup(); 
 
     animationGroup.Add(sizeAnimation); 
     animationGroup.Add(offsetAnimation); 

@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Networking.NetworkOperators.NetworkOperatorTetheringManager.CreateFromConnectionProfile(Windows.Networking.Connectivity.ConnectionProfile)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

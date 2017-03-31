@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.Notifications.ToastNotificationManager.CreateToastNotifier(System.String)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

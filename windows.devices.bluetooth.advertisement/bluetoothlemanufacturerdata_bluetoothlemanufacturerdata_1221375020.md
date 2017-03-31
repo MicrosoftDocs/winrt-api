@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.Bluetooth.Advertisement.BluetoothLEManufacturerData.#ctor
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

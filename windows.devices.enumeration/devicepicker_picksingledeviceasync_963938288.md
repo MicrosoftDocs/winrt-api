@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.Enumeration.DevicePicker.PickSingleDeviceAsync(Windows.Foundation.Rect)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

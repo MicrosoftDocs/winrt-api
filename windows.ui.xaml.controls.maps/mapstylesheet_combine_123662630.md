@@ -10,18 +10,18 @@ public MapStyleSheet MapStyleSheet.Combine(IIterable<MapStyleSheet> styleSheets)
 # Windows.UI.Xaml.Controls.Maps.MapStyleSheet.Combine
 
 ## -description
-Combines the rules defined in two custom [MapStyleSheet](mapstylesheet.md) instances.
+Combines the rules defined in two [MapStyleSheet](mapstylesheet.md) instances.
 
 ## -params
 
 ## -param styleSheets
-The custom [MapStyleSheet](mapstylesheet.md) instances that you want to combine.
+The [MapStyleSheet](mapstylesheet.md) instances that you want to combine.
 
 ## -returns
 A [MapStyleSheet](mapstylesheet.md) instance that contains the combined rules defined in each [MapStyleSheet](mapstylesheet.md) instance that you passed to the *styleSheets* parameter.
 
 ## -remarks
-
+If both [MapStyleSheet](mapstylesheet.md) instances define the same rule, the last instance will override the rule defined in the first instance.
 ## -see-also
 
 ## -examples
@@ -40,7 +40,8 @@ string jsonString = @"{
       ""labelScale"":1.5,
       ""font"": ""Comic Sans MS""
                    }
- }
+ },
+    ""version"": ""1.0""
 }";
 
  string jsonString2 = @"{
@@ -49,7 +50,8 @@ string jsonString = @"{
     },
 ""elements"":
     {
- }
+ },
+    ""version"": ""1.0""
 }";
 
 MapStyleSheet myCustomStyleSheet = MapStyleSheet.ParseFromJson(jsonString);

@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Devices.Bluetooth.Advertisement.BluetoothLEAdvertisementWatcher.AdvertisementFilter
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

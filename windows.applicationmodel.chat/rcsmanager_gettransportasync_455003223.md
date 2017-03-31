@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.ApplicationModel.Chat.RcsManager.GetTransportAsync(System.String)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.UI.Input.Spatial.SpatialInteractionSourceProperties.SourceLossRisk
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

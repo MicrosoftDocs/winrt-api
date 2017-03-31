@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.PointOfService.SlipPrintJob.SetCustomAlignedBitmap(System.UInt32,Windows.Graphics.Imaging.BitmapFrame,System.UInt32,System.UInt32)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

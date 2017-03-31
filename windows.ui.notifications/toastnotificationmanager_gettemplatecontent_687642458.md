@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.Notifications.ToastNotificationManager.GetTemplateContent(Windows.UI.Notifications.ToastTemplateType)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

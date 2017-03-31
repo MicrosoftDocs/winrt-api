@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Data.Text.WordsSegmenter.Tokenize(System.String,System.UInt32,Windows.Data.Text.WordSegmentsTokenizingHandler)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

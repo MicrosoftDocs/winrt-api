@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.PointOfService.ClaimedSlipPrinter.InsertSlipAsync(Windows.Foundation.TimeSpan)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

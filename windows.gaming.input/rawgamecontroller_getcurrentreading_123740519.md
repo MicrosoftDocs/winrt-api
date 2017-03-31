@@ -37,6 +37,8 @@ Unlike the **GetCurrentReading** member functions of other classes, such as [Arc
 
 **RawGameController.GetCurrentReading** populates each of these arrays with the current states of each input. The button array is an array of Booleans, where **true** means the button is pressed and **false** means it is not. The switch array is an array of [GameControllerSwitchPosition](gamecontrollerswitchposition.md), where the value at each index represents that switch's current position. Finally, the axis array is an array of doubles, where the value at each index (between 0.0 and 1.0) represents the position of that axis.
 
+See [Raw game controller](https://docs.microsoft.com/windows/uwp/gaming/raw-game-controller) for more information about how to read input from a raw game controller.
+
 ## -see-also
 
 * [Windows.Gaming.Input.GameControllerSwitchPosition](gamecontrollerswitchposition.md)

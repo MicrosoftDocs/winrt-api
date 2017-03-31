@@ -20,7 +20,7 @@ Specifies the status of a [OfflineMapPackageQueryResult](offlinemappackagequeryr
 ## -enum-fields
 
 ## -field UnknownError:1
-There is an error.
+The query returned an unknown error.
 
 ## -field Success:0
 The query completed successfully.
@@ -32,7 +32,7 @@ There was a network failure that prevented the query from being completed succes
 The credentials used to perform this query are invalid.
 
 ## -remarks
-You can query your system for map data by using the [FindPackagesAsync](offlinemappackage_findpackagesasync_1312242741.md), [FindPackagesInBoundingBoxAsync](offlinemappackage_findpackagesinboundingboxasync_121221617.md), and [FindPackagesInGeocircle](offlinemappackage_findpackagesingeocircleasync_917543629.md) methods.
+You can query your system for map data by using the [FindPackagesAsync](offlinemappackage_findpackagesasync_1312242741.md), [FindPackagesInBoundingBoxAsync](offlinemappackage_findpackagesinboundingboxasync_121221617.md), and [FindPackagesInGeocircleAsync](offlinemappackage_findpackagesingeocircleasync_917543629.md) methods.
 
 Use the [Status](offlinemappackagequeryresult_status.md) property of the resulting query result to obtain of the enumeration values described in this topic.
 

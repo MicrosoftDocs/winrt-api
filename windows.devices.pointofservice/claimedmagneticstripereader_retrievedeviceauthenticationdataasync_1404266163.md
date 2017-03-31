@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.PointOfService.ClaimedMagneticStripeReader.RetrieveDeviceAuthenticationDataAsync
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

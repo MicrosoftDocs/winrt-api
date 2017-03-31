@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.Media.Import.PhotoImportVideoSegment
 -api-type: winrt class
+-api-device-family-note: xbox
 ---
 
 <!-- Class syntax.

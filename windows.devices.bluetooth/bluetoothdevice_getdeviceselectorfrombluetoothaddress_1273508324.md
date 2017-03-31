@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.Bluetooth.BluetoothDevice.GetDeviceSelectorFromBluetoothAddress(System.UInt64)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.ApplicationSettings.AccountsSettingsPane.Show
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

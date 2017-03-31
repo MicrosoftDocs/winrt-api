@@ -17,3 +17,6 @@ Represents the content value object for a subscription.
 
 ## -examples
 
+## -capabilities
+targetedContent
+

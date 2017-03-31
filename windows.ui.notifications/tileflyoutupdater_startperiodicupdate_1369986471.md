@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.Notifications.TileFlyoutUpdater.StartPeriodicUpdate(Windows.Foundation.Uri,Windows.Foundation.DateTime,Windows.UI.Notifications.PeriodicUpdateRecurrence)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

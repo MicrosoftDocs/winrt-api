@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Networking.NetworkOperators.MobileBroadbandDeviceServiceDataSession.WriteDataAsync(Windows.Storage.Streams.IBuffer)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

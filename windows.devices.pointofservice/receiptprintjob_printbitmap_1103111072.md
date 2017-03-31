@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.PointOfService.ReceiptPrintJob.PrintBitmap(Windows.Graphics.Imaging.BitmapFrame,Windows.Devices.PointOfService.PosPrinterAlignment,System.UInt32)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

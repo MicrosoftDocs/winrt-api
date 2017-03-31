@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.AllJoyn.AllJoynBusObject.#ctor(System.String,Windows.Devices.AllJoyn.AllJoynBusAttachment)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax
