@@ -23,7 +23,7 @@ Represents a control that displays data items in a vertical stack.
 
 
 ## -remarks
-Use a [ListView](listview.md) to display a collection stacked vertically. To display a collection in rows and columns, use a [GridView](gridview.md).
+Use a [ListView](listview.md) to display a collection of items stacked vertically or horizontally. To display a collection in rows and columns, use a [GridView](gridview.md).
 
 <img alt="List view control" src="images/controls/ListViewBasic.png" />
 
