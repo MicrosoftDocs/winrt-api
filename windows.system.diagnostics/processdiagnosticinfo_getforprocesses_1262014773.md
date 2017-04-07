@@ -10,12 +10,13 @@ public Windows.Foundation.Collections.IVectorView<Windows.System.Diagnostics.Pro
 # Windows.System.Diagnostics.ProcessDiagnosticInfo.GetForProcesses
 
 ## -description
-Gets a list of [ProcessDiagnosticInfo](processdiagnosticinfo.md) objects for all running processes.
+Gets a list of [ProcessDiagnosticInfo](processdiagnosticinfo.md) objects for all running processes that are accessible to the caller.
 
 ## -returns
 A list of [ProcessDiagnosticInfo](processdiagnosticinfo.md) objects for all running processes.
 
 ## -remarks
+For UWP apps, processes must be in the same **AppContainer**.
 
 ## -examples
 
