@@ -24,6 +24,9 @@ To access files in the app package, use [Windows.ApplicationModel.Package.Curren
 
 To request that Windows index your app data for search, create a folder named "Indexed" under this folder and store the files that you want indexed there. Windows indexes the file content and metadata (properties) in this "Indexed" folder and all its subfolders.
 
+> [!NOTE]
+> Content in the indexed folder will not be surfaced in a system search, but can be searched by the app. 
+
 If the device that runs this app supports app data backup, any content placed on [LocalFolder](applicationdata_localfolder.md) will be eligible to be backed up to the cloud. Therefore if you want to persist data and keep it local to the device you should consider using [LocalCacheFolder](applicationdata_localcachefolder.md).
 
 ## -examples
