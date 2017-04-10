@@ -58,12 +58,12 @@ The *clear all* button is not shown in any of these cases:
 
 + [IsReadOnly](textbox_isreadonly.md) is **true**
 + [AcceptsReturn](textbox_acceptsreturn.md) is **true**
-+ [TextWrap](textbox_textwrapping.md) has a value other than **NoWrap**
++ [TextWrap](textbox_textwrapping.md) is **Wrap**
 
 
 ### Make a TextBox read-only
 
-You can make a [TextBox](textbox.md) read-only by setting the [IsReadOnly](textbox_isreadonly.md) property to **true**. For example, you might have a [TextBox](textbox.md) for a user to enter comments that is enabled only under certain conditions. You can make the [TextBox](textbox.md) read-only until the conditions are met. If you need only to display text, consider using a [TextBlock](textblock.md) or [RichTextBlock](richtextblock.md) instead.
+You can make a [TextBox](textbox.md) re[TextWrap](textbox_textwrapping.md) has a value other than **Wrap**ad-only by setting the [IsReadOnly](textbox_isreadonly.md) property to **true**. For example, you might have a [TextBox](textbox.md) for a user to enter comments that is enabled only under certain conditions. You can make the [TextBox](textbox.md) read-only until the conditions are met. If you need only to display text, consider using a [TextBlock](textblock.md) or [RichTextBlock](richtextblock.md) instead.
 
 ### Enable multi-line input
 
