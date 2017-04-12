@@ -31,6 +31,7 @@ To learn more about the properties used in this example, see [Map stylesheet ref
 
 ```csharp
 string jsonString = @"{
+  ""version"": ""1.*""
   ""settings"": {
     ""rasterRegionsVisible"":true,
     ""spaceColor"":""#000000""
@@ -41,16 +42,14 @@ string jsonString = @"{
       ""labelScale"":1.5,
       ""font"": ""Comic Sans MS""
     }
-},
-""version"": ""1.0""
+  }
 }";
 
 string jsonString2 = @"{
   ""settings"":{
     ""landColor"":""#FFC8DD""
   },
-  ""elements"":
-  {
+  ""elements"":{
   },
   ""version"": ""1.*""
 }";

@@ -31,19 +31,18 @@ To learn more about the properties used in this example, see [Map stylesheet ref
 
 ```csharp
 string jsonString = @"{
+  ""version"": ""1.0*""
   ""settings"":{
     ""rasterRegionsVisible"":true,
     ""spaceColor"":""#000000""
   },
-  ""elements"":
-  {
+  ""elements"":{
     ""majorRoad"":{
-    ""labelColor"":""#490B7D"",
-    ""labelScale"":1.5,
-    ""font"": ""Comic Sans MS""
+      ""labelColor"":""#490B7D"",
+      ""labelScale"":1.5,
+      ""font"": ""Comic Sans MS""
+    }
   }
-}
-""version"": ""1.0*""
 }";
 
 MapStyleSheet myCustomStyleSheet = MapStyleSheet.ParseFromJson(jsonString);
