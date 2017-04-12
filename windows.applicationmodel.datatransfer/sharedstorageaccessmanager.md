@@ -28,6 +28,7 @@ The use of the [SharedStorageAccessManager](sharedstorageaccessmanager.md) class
 + A sharing token expires after 14 days and is no longer valid.
 + The source app cannot get more than one thousand sharing tokens. After a token is redeemed, removed, or expires, however, it no longer counts against the quota of the source app.
 
+Network files are not supported with this class.
 
 ## -examples
 In the following example, a source app launches a mapping app and provides a .gpx file that contains driving directions to be displayed by the target app.
