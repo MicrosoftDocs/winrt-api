@@ -27,21 +27,23 @@ A [MapStyleSheet](mapstylesheet.md) that represents the rules defined in JSON ma
 ## -examples
 The following example uses the [ParseFromJson](mapstylesheet_parsefromjson_1626148147.md) method to create a [MapStyleSheet](mapstylesheet.md) and then applies that style sheet to the map control.
 
-```
+To learn more about the properties used in this example, see [Map stylesheet reference](https://docs.microsoft.com/windows/uwp/maps-and-location/elements-of-map-style-sheet).
+
+```csharp
 string jsonString = @"{
- ""settings"": {
- ""rasterRegionsVisible"":true,
- ""spaceColor"":""#000000""
- },
- ""elements"":
- {
-   ""majorRoad"": {
-   ""labelColor"":""#490B7D"",
-   ""labelScale"":1.5,
-   ""font"": ""Comic Sans MS""
-   }
- }
-""version"": ""1.0""
+  ""settings"":{
+    ""rasterRegionsVisible"":true,
+    ""spaceColor"":""#000000""
+  },
+  ""elements"":
+  {
+    ""majorRoad"":{
+    ""labelColor"":""#490B7D"",
+    ""labelScale"":1.5,
+    ""font"": ""Comic Sans MS""
+  }
+}
+""version"": ""1.0*""
 }";
 
 MapStyleSheet myCustomStyleSheet = MapStyleSheet.ParseFromJson(jsonString);
