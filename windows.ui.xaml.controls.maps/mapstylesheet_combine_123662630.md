@@ -46,10 +46,10 @@ string jsonString = @"{
 }";
 
 string jsonString2 = @"{
+  ""version"": ""1.*"",
   ""settings"":{
-    ""version"": ""1.*"",
     ""landColor"":""#FFC8DD""
-  },
+  }
 }";
 
 MapStyleSheet myCustomStyleSheet = MapStyleSheet.ParseFromJson(jsonString);
