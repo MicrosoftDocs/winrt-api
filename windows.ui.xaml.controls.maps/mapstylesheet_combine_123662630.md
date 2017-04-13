@@ -38,9 +38,9 @@ string jsonString = @"{
     },
   ""elements"":{
     ""majorRoad"":{
-    ""labelColor"":""#490B7D"",
-    ""labelScale"":1.5,
-    ""font"": ""Comic Sans MS""
+      ""labelColor"":""#490B7D"",
+      ""labelScale"":1.5,
+      ""font"": ""Comic Sans MS""
     }
   }
 }";
