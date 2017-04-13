@@ -36,11 +36,11 @@ string jsonString = @"{
     ""rasterRegionsVisible"":true,
     ""spaceColor"":""#000000""
     },
-    ""elements"":{
-      ""majorRoad"":{
-      ""labelColor"":""#490B7D"",
-      ""labelScale"":1.5,
-      ""font"": ""Comic Sans MS""
+  ""elements"":{
+    ""majorRoad"":{
+    ""labelColor"":""#490B7D"",
+    ""labelScale"":1.5,
+    ""font"": ""Comic Sans MS""
     }
   }
 }";
@@ -50,8 +50,6 @@ string jsonString2 = @"{
     ""version"": ""1.*"",
     ""landColor"":""#FFC8DD""
   },
-  ""elements"":{
-  }
 }";
 
 MapStyleSheet myCustomStyleSheet = MapStyleSheet.ParseFromJson(jsonString);
