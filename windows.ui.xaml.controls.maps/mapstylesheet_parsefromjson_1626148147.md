@@ -31,7 +31,7 @@ To learn more about the properties used in this example, see [Map stylesheet ref
 
 ```csharp
 string jsonString = @"{
-  ""version"": ""1.0*""
+  ""version"": ""1.*"",
   ""settings"":{
     ""rasterRegionsVisible"":true,
     ""spaceColor"":""#000000""

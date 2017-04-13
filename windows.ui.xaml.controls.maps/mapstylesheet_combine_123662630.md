@@ -31,7 +31,7 @@ To learn more about the properties used in this example, see [Map stylesheet ref
 
 ```csharp
 string jsonString = @"{
-  ""version"": ""1.*""
+  ""version"": ""1.*"",
   ""settings"": {
     ""rasterRegionsVisible"":true,
     ""spaceColor"":""#000000""
@@ -47,11 +47,11 @@ string jsonString = @"{
 
 string jsonString2 = @"{
   ""settings"":{
+    ""version"": ""1.*"",
     ""landColor"":""#FFC8DD""
   },
   ""elements"":{
-  },
-  ""version"": ""1.*""
+  }
 }";
 
 MapStyleSheet myCustomStyleSheet = MapStyleSheet.ParseFromJson(jsonString);
