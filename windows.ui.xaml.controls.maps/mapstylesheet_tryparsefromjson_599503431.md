@@ -23,6 +23,8 @@ The [MapStyleSheet](mapstylesheet.md) that will represent the rules defined in J
 **true** if the operation completed successfully; otherwise, **false**.
 
 ## -remarks
+To learn more about the properties that you can use in your JSON string to define styles, see [Map stylesheet reference](https://docs.microsoft.com/windows/uwp/maps-and-location/elements-of-map-style-sheet).
+
 If there's an error in the JSON markup string, this method does not throw an exception. Instead, it returns **false**.
 ## -see-also
 

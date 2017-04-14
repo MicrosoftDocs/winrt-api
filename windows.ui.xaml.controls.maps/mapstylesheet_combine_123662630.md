@@ -27,31 +27,29 @@ If both [MapStyleSheet](mapstylesheet.md) instances define the same rule, the la
 ## -examples
 The following example combines rules from two [MapStyleSheet](mapstylesheet.md) instances into one [MapStyleSheet](mapstylesheet.md) instance.
 
+To learn more about the properties used in this example, see [Map stylesheet reference](https://docs.microsoft.com/windows/uwp/maps-and-location/elements-of-map-style-sheet).
+
 ```csharp
 string jsonString = @"{
-""settings"": {
- ""rasterRegionsVisible"":true,
- ""spaceColor"":""#000000""
+  ""version"": ""1.*"",
+  ""settings"": {
+    ""rasterRegionsVisible"":true,
+    ""spaceColor"":""#000000""
     },
-""elements"":
-    {
-     ""majorRoad"": {
-         ""labelColor"":""#490B7D"",
+  ""elements"":{
+    ""majorRoad"":{
+      ""labelColor"":""#490B7D"",
       ""labelScale"":1.5,
       ""font"": ""Comic Sans MS""
-                   }
- },
-    ""version"": ""1.0""
+    }
+  }
 }";
 
- string jsonString2 = @"{
-""settings"": {
-     ""landColor"":""#FFC8DD""
-    },
-""elements"":
-    {
- },
-    ""version"": ""1.0""
+string jsonString2 = @"{
+  ""version"": ""1.*"",
+  ""settings"":{
+    ""landColor"":""#FFC8DD""
+  }
 }";
 
 MapStyleSheet myCustomStyleSheet = MapStyleSheet.ParseFromJson(jsonString);
