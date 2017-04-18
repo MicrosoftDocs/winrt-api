@@ -13,7 +13,9 @@ public interface IVideoCompositor : Windows.Media.IMediaExtension
 The interface you implement to create a custom video compositor.
 
 ## -remarks
-1. In a Windows Runtime Component project, derive a public sealed class from this interface and then use the full class name in a [MediaOverlayLayer] constructor.  
+1. In a Windows Runtime Component project, derive a public sealed class from this interface (see example below).
+2. Use the full class name in a [MediaOverlayLayer](https://docs.microsoft.com/en-us/uwp/api/windows.media.editing.mediaoverlaylayer) constructor.  
+
     var propertySet = new PropertySet
     {
         ["Feather"] = true,
@@ -26,8 +28,9 @@ The interface you implement to create a custom video compositor.
         propertySet);
 
     var mediaOverlayLayer = new MediaOverlayLayer(compositorDefinition);
-
+    
 ## -examples
+    
     using Microsoft.Graphics.Canvas;
     using Microsoft.Graphics.Canvas.Effects;
     using Windows.Foundation.Collections;
