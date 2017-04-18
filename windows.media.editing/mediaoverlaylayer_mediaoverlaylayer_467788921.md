@@ -20,6 +20,7 @@ typically an instance of the [VideoCompositorDefinition] class.
 ## -remarks
 
 ## -examples
+
     var propertySet = new PropertySet
     {
        ["Feather"] = true,
