@@ -1,3 +1,4 @@
+
 ---
 -api-id: T:Windows.UI.Xaml.Controls.Primitives.Popup
 -api-type: winrt class
@@ -31,6 +32,8 @@ You position the [Popup](popup.md) by setting the [HorizontalOffset](popup_horiz
 To show a [Popup](popup.md), set its [IsOpen](popup_isopen.md) property to **true**. To hide the [Popup](popup.md), set [IsOpen](popup_isopen.md) to **false**. You can set [IsLightDismissEnabled](popup_islightdismissenabled.md) to make the [Popup](popup.md) hide automatically when a user taps anywhere away from it.
 
 The [Popup](popup.md) can host input controls. When hosting input controls like [TextBox](../windows.ui.xaml.controls/textbox.md), the touch keyboard might slide into view when the user touches the input control. If the [Popup](popup.md) 's parent container is already in the visual tree, the [Popup](popup.md) automatically repositions itself when the touch keyboard is in view. Otherwise, the [Popup](popup.md) is not repositioned and the touch keyboard can cover it. This can happen if you create the [Popup](popup.md) in code and set [IsOpen](popup_isopen.md) to true without adding the [Popup](popup.md) as a child of an element in the visual tree.
+
+The [Popup](popup.md) doesn't fire [RoutedEvents](../windows.ui.xaml/routedevent.md), for example KeyDown and PointerPressed. You can wire an event handler for these [RoutedEvents](../windows.ui.xaml/routedevent.md) on the child of the [Popup](popup.md). 
 
 For more code examples that show the [Popup](popup.md) control, see the [XAML Popup sample](http://go.microsoft.com/fwlink/p/?linkid=286183).
 
