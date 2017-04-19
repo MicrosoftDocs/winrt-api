@@ -58,18 +58,18 @@ The *clear all* button is not shown in any of these cases:
 
 + [IsReadOnly](textbox_isreadonly.md) is **true**
 + [AcceptsReturn](textbox_acceptsreturn.md) is **true**
-+ [TextWrap](textbox_textwrapping.md) is **Wrap**
++ [TextWrapping](textbox_textwrapping.md) is **Wrap**
 
 
 ### Make a TextBox read-only
 
-You can make a [TextBox](textbox.md) re[TextWrap](textbox_textwrapping.md) has a value other than **Wrap**ad-only by setting the [IsReadOnly](textbox_isreadonly.md) property to **true**. For example, you might have a [TextBox](textbox.md) for a user to enter comments that is enabled only under certain conditions. You can make the [TextBox](textbox.md) read-only until the conditions are met. If you need only to display text, consider using a [TextBlock](textblock.md) or [RichTextBlock](richtextblock.md) instead.
+You can make a [TextBox](textbox.md) read-only by setting the [IsReadOnly](textbox_isreadonly.md) property to **true**. For example, you might have a [TextBox](textbox.md) for a user to enter comments that is enabled only under certain conditions. You can make the [TextBox](textbox.md) read-only until the conditions are met. If you need only to display text, consider using a [TextBlock](textblock.md) or [RichTextBlock](richtextblock.md) instead.
 
 ### Enable multi-line input
 
 There are two properties that control whether the [TextBox](textbox.md) displays text on more than one line. 
 + To let the text box allow and display the newline or return characters, set the [AcceptsReturn](textbox_acceptsreturn.md) property to **true**.
-+ To enable text wrapping, set the [TextWrap](textbox_textwrapping.md) property to **Wrap**. ([TextBox](textbox.md) doesn't support the **TextWrapping.WrapWholeWords** enumeration value.)
++ To enable text wrapping, set the [TextWrapping](textbox_textwrapping.md) property to **Wrap**. ([TextBox](textbox.md) doesn't support the **TextWrapping.WrapWholeWords** enumeration value.)
  A multi-line [TextBox](textbox.md) will continue to grow vertically as text is entered unless it’s constrained by its [Height](../windows.ui.xaml/frameworkelement_height.md) or [MaxHeight](../windows.ui.xaml/frameworkelement_maxheight.md) property, or by a parent container. You should test that a multi-line [TextBox](textbox.md) doesn’t grow beyond its visible area, and constrain its growth if it does. Scrolling using a scroll-wheel or touch is automatically enabled when needed. However, vertical scrollbars are not shown by default. You can show the vertical scrollbars by setting the [ScrollViewer.VerticalScrollBarVisibility](scrollviewer_verticalscrollbarvisibility.md) to **Auto** on the embedded [ScrollViewer](scrollviewer.md), as shown here.
 
 ```xaml
