@@ -32,7 +32,7 @@ An unknown error occurred.
 The device to which a connection was attempted is not available.
 
 ### -field RemoteSystemNotSupportedByApp:6
-The app does not support remote connections to the device you attempted to connect with.
+The app on the remote device does not support remote connections. It needs to specify SupportsRemoteSystems="true" on the appService extension in its AppXManifest to accept remote connections.
 
 ### -field NotAuthorized:7
 The user for your app is not authorized to connect to the service.
