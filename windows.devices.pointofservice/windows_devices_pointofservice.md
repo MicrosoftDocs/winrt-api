@@ -1,4 +1,3 @@
-
 ---
 -api-id: N:Windows.Devices.PointOfService
 -api-type: winrt namespace
