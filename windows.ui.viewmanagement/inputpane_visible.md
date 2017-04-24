@@ -21,9 +21,6 @@ For universal apps, the [OccludedRect](inputpane_occludedrect.md) property indic
 **true** if the input pane is shown; otherwise, **false**.
 
 ## -remarks
-> In some cases, overlay UI such as an [InputPane](inputpane.md) is not fully supported. This includes:+ [ apps](https://msdn.microsoft.com/en-us/windows/uwp/gaming/index) in full-screen mode.
-+ Windows Holographic apps in [holographic view](https://developer.microsoft.com/en-us/windows/holographic/app_model#app_views).
-
 
 ## -examples
 

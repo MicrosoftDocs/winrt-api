@@ -20,10 +20,6 @@ If this property is false, Windows ensures that the input pane doesn't cover the
 
 If you do the work to ensure that the focused element isn't covered, be sure to set this property to true to prevent Windows from trying to do the same work; otherwise, the results can be unpredictable.
 
-> In some cases, overlay UI such as an [InputPane](inputpane.md) is not fully supported. This includes:+ [ apps](https://msdn.microsoft.com/en-us/windows/uwp/gaming/index) in full-screen mode.
-+ Windows Holographic apps in [holographic view](https://developer.microsoft.com/en-us/windows/holographic/app_model#app_views).
-
-
 ## -examples
 
 ## -see-also

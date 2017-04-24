@@ -16,10 +16,10 @@ Enables an app to receive notifications when the input pane is about to be displ
 
 The input pane appears when the user performs an action that requires them to enter information, such as selecting a text entry field. By default, Windows handles the input pane events and repositions content so that users can see where they are typing. Use this class to override this default behavior and create your own custom input pane.
 
-> [!NOTE]
-> In some cases, overlay UI such as an [InputPane](inputpane.md) is not fully supported. This includes:
-+ [ apps](https://msdn.microsoft.com/en-us/windows/uwp/gaming/index) in full-screen mode.
-+ Windows Holographic apps in [holographic view](https://developer.microsoft.com/en-us/windows/holographic/app_model#app_views).
+In some cases, overlay UI such as an [InputPane](inputpane.md) is not fully supported. This includes:
+
++ apps in full-screen mode, like [games](https://msdn.microsoft.com/windows/uwp/gaming/index).
++ Windows Holographic apps in [holographic view](https://developer.microsoft.com/windows/holographic/app_model#app_views).
 
 Call [GetForCurrentView](inputpane_getforcurrentview.md) to get an [InputPane](inputpane.md) object.
 
