@@ -17,6 +17,8 @@ Hides the [InputPane](inputpane.md) if it is showing.
 
 ## -remarks
 
+If [CoreTextEditContext.InputPaneDisplayPolicy](../windows.ui.text.core/coretexteditcontext_inputpanedisplaypolicy.md) is set to **Manual**, you are responsible for showing and hiding the input pane using TryShow and TryHide.
+
 ## -examples
 
 ## -see-also
