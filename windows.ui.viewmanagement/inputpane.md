@@ -14,7 +14,7 @@ Enables an app to receive notifications when the input pane is about to be displ
 
 ## -remarks
 
-The input pane appears when the user performs an action that requires them to enter information, such as selecting a text entry field. By default, Windows handles the input pane events and repositions content so that users can see where they are typing. If [CoreTextEditContext.InputPaneDisplayPolicy](../windows.ui.text.core/coretexteditcontext_inputpanedisplaypolicy.md) is set to **Manual**, you are responsible for showing and hiding the input pane using TryShow and TryHide. Use this class to override the default behavior and customize the input pane.
+The input pane appears when the user performs an action that requires them to enter information, such as selecting a text entry field. By default, Windows handles the input pane events and repositions content so that users can see where they are typing. If you set[CoreTextEditContext.InputPaneDisplayPolicy](../windows.ui.text.core/coretexteditcontext_inputpanedisplaypolicy.md) to **Manual** in your app, you are responsible for showing and hiding the input pane using TryShow and TryHide. Use this class to override the default behavior and customize the input pane.
 
 In some cases, overlay UI such as an [InputPane](inputpane.md) is not fully supported. This includes:
 
