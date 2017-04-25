@@ -39,6 +39,9 @@ In some cases, using a format pattern gives you more precise control over the fo
 
 For the complete list of format templates and format patterns, see the Remarks section of the [DateTimeFormatter](../windows.globalization.datetimeformatting/datetimeformatter.md) class documentation.
 
+> [!NOTE]
+> Some date formats should be avoided if the date picker might be displayed in a small area, such as adding the full string value of the day of week. These strings can be long and might be clipped if the DatePicker's width is forced to be small.
+
 ## -examples
 Here's a [DatePicker](datepicker.md) formatted using format templates, and a [DatePicker](datepicker.md) formatted using format strings. Both [DatePicker](datepicker.md) controls look the same when the app is run because the formatting is equivalent.
 
