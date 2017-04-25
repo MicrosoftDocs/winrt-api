@@ -29,7 +29,9 @@ The mode in which you want to open the GPIO pin, which determines whether other 
 ## -returns
 The opened GPIO pin.
 
-## -exceptions
+## -remarks
+The following exceptions can be thrown by this method:
+
 ### E_INVALIDARG  (0x80070057)
 
 An invalid parameter was specified. This error will be returned if the pin number is out of range. Pin numbers start at 0 and increase to the maximum pin number, which is one less than the value returned by [GpioController.PinCount](gpiocontroller_pincount.md).
@@ -54,8 +56,6 @@ The pin is currently muxed to a different function; for example I2C, SPI, or UAR
 ### HRESULT_FROM_WIN32(ERROR_GEN_FAILURE) (0x8007001f)
 
 The GPIO driver returned an error. Ensure that the GPIO driver is running and configured correctly.
-
-## -remarks
 
 ## -examples
 
