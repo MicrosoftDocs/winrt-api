@@ -10,10 +10,13 @@ public Windows.Foundation.Collections.IVectorView<Windows.ApplicationModel.AppEx
 # Windows.ApplicationModel.AppExtensions.AppExtensionPackageInstalledEventArgs.Extensions
 
 ## -description
-Provides a list of extensions that are in the extension package that was installed.
+Provides a list of extensions in the extension package that was just installed.
 
 ## -property-value
-A list of extensions within the extension package.
+The list of extensions within the extension package.
+
+Extensions are scoped by the `<uap3:AppExtension Name=...>` defined in the extension's Package.appxmanifest file. Only extensions that match the `<uap3:AppExtension Name=...>` defined in the host's Package.appxmanifest file are returned.
+
 
 ## -remarks
 
