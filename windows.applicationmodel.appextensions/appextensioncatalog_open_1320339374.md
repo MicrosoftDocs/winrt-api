@@ -22,7 +22,7 @@ A catalog containing the extensions declared with the specified extension namesp
 ## -remarks
 Extensions are scoped by the `<uap3:AppExtension Name=...>` defined in the extension's Package.appxmanifest file. Only extensions that match the  `<uap3:AppExtension Name=...>` defined in the host's Package.appxmanifest file appear in the catalog.  
 
-If you have multiple `<uap3:AppExtension>` declarations in your host app, you need to open a separate catalog for each one.
+If you have multiple `<uap3:AppExtensionHost>` declarations in your host app, you need to open a separate catalog for each one.
 
 An instance of the **PackageCatalog** is required to handle the events so keep a reference to it as long as you need to manage your app extensions.
 
