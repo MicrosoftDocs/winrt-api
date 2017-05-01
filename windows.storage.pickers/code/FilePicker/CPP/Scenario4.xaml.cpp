@@ -38,7 +38,7 @@ void Scenario4::SaveFileButton_Click(Object^ sender, RoutedEventArgs^ e)
 {
     // Clear previous returned file name, if it exists, between iterations of this scenario
     rootPage->ResetScenarioOutput(OutputTextBlock);
-
+    //<Snippetall_savepicker_checksnapped_show>
     FileSavePicker^ savePicker = ref new FileSavePicker();
     savePicker->SuggestedStartLocation = PickerLocationId::DocumentsLibrary;
 
@@ -76,4 +76,5 @@ void Scenario4::SaveFileButton_Click(Object^ sender, RoutedEventArgs^ e)
             OutputTextBlock->Text = "Operation cancelled.";
         }
     });
+    //</Snippetall_savepicker_checksnapped_show>
 }
