@@ -26,7 +26,7 @@ The strength of the haptic feedback based on the capability of the input device.
 The number of times to repeat the haptic feedback.
 
 ### -param replayPauseInterval
-The time period between feedback cycles, expressed in 100-nanosecond units.
+The time period between feedback cycles, expressed in 100-nanosecond units (1 = 100ns).
 
 ## -remarks
 
