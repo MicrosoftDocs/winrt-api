@@ -10,7 +10,7 @@ public double Height { get; }
 # Windows.ApplicationModel.Core.CoreApplicationViewTitleBar.Height
 
 ## -description
-Gets or sets the height of the title bar.
+Gets the height of the title bar.
 
 ## -property-value
 The height of the custom title bar.

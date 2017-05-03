@@ -21,13 +21,19 @@ Represents a flight stick.
 * A hat switch for camera view and/or target selection.
 * Axis data for pitch, roll, yaw, and throttle position.
 
+Instances of the **FlightStick** class cannot be created directly; instead, instances of the class are retrieved through the [FlightStick.FlightSticks](flightstick_flightsticks.md) property listing all connected flight sticks or through the [FlightStick.FlightStickAdded](flightstick_flightstickadded.md) event.
+
+See [Flight stick](https://docs.microsoft.com/windows/uwp/gaming/flight-stick) for more information about how to use the **FlightStick** class.
+
 ### Supported Devices
 
-`FlightStick` supports any Xbox One certified or Xbox 360 compatible flight stick.
+**FlightStick** supports any Xbox One-certified or Xbox 360-compatible flight stick.
 
 ## -see-also
 
-* [IGameController](igamecontroller.md)
-* [IGameControllerBatteryInfo](igamecontrollerbatteryinfo.md)
+* [Flight stick](https://docs.microsoft.com/windows/uwp/gaming/flight-stick)
+* [Windows.Gaming.Input.IGameController interface](igamecontroller.md)
+* [Windows.Gaming.Input.IGameControllerBatteryInfo interface](igamecontrollerbatteryinfo.md)
 
 ## -examples
+

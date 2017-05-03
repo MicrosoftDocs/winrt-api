@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.ApplicationSettings.SettingsCommand.#ctor(System.Object,System.String,Windows.UI.Popups.UICommandInvokedHandler)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

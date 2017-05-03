@@ -25,13 +25,22 @@ Represents a dialog box that can be customized to contain checkboxes, hyperlinks
 
 
 ## -remarks
-Use a [ContentDialog](contentdialog.md) to show information in a modal dialog. You can add a [ContentDialog](contentdialog.md) to an app page using code or XAML, or you can create a custom dialog class that's derived from [ContentDialog](contentdialog.md). Both ways are shown in the examples section of this topic.
+Use a [ContentDialog](contentdialog.md) to request input from the user, or to show information in a modal dialog. You can add a [ContentDialog](contentdialog.md) to an app page using code or XAML, or you can create a custom dialog class that's derived from [ContentDialog](contentdialog.md). Both ways are shown in the examples section of this topic.
 
 Use the [Title](contentdialog_title.md) property to put a title on the dialog. To add a complex title element with more than simple text, you can use the [TitleTemplate](contentdialog_titletemplate.md) property.
 
-The [ContentDialog](contentdialog.md) has 2 built-in buttons that let a user respond to the dialog. Use the [PrimaryButtonText](contentdialog_primarybuttontext.md) and [SecondaryButtonText](contentdialog_secondarybuttontext.md) properties to set the display text on each respective button. If you set the text value to an empty string, the button is hidden. Handle the [PrimaryButtonClick](contentdialog_primarybuttonclick.md) and [SecondaryButtonClick](contentdialog_secondarybuttonclick.md) events to get the user's response and do any work before the dialog closes.
+The [ContentDialog](contentdialog.md) has 3 built-in buttons that describe the actions that the user may take in response to the dialog's prompt. All dialogs should have a safe, non-destructive action. Dialogs may also optionally contain one or two specific "do it" actions in response to the prompt.  
 
-To show the dialog, call the [ShowAsync](contentdialog_showasync.md) method. Use the result of this method to determine which of the buttons was clicked.
+Use the [CloseButtonText](contentdialog_closebuttontext.md) and property to set the display text for the safe, non-destructive button. The dialog's close button will also be invoked when the user performs a Cancel action, like pressing the ESC key or pressing the system back button.
+Use the [PrimaryButtonText](contentdialog_primarybuttontext.md) and [SecondaryButtonText](contentdialog_secondarybuttontext.md) properties to display responses to the main question or action posed by the dialog.
+
+The [CloseButtonText](contentdialog_closebuttontext.md) property is not available prior to Windows 10, version 1703. If your app’s 'minimum platform version' setting in Microsoft Visual Studio is less than the 'introduced version' shown in the Requirements block later in this page, you should use the [SecondaryButtonText](contentdialog_secondarybuttontext.md) property instead. For more info, see [Version adaptive code](https://msdn.microsoft.com/windows/uwp/debug-test-perf/version-adaptive-code).
+
+To show the dialog, call the [ShowAsync](contentdialog_showasync.md) method. Use the result of this method to determine which of the buttons was clicked, if any button was clicked. If the user presses ESC, the system back arrow, or Gamepad B, the result of this method will be None.
+
+You may optionally choose to differentiate one of the three buttons as the dialog's default button. Use the [DefaultButton](contentdialog_defaultbutton.md) property to differentiate one of the buttons. This button will receive the Accent Button visual treatment, respond to the ENTER key automatically, and receive focus when the Dialog is opened unless the dialog's content contains focusable elements.
+
+You may wish to do some work before the dialog closes (for example, to verify that the user entered into form fields before submitting a request). You have two ways to do work before the dialog closes. You can handle the [PrimaryButtonClick](contentdialog_primarybuttonclick.md), [SecondaryButtonClick](contentdialog_secondarybuttonclick.md), or [CloseButtonClick](contentdialog_closebuttonclick.md) events to get the user's response when the user presses a button and verify the state of the dialog before it closes. You can also handle the [Closing](contentdialog_closing.md) event to do work before the dialog closes.
 
 Only one [ContentDialog](contentdialog.md) can be shown at a time. To chain together more than one [ContentDialog](contentdialog.md), handle the [Closing](contentdialog_closing.md) event of the first [ContentDialog](contentdialog.md). In the [Closing](contentdialog_closing.md) event handler, call [ShowAsync](contentdialog_showasync.md) on the second dialog to show it.
 
@@ -54,13 +63,13 @@ This table shows the resources used by the [ContentDialog](contentdialog.md) con
 This example shows how to create and show a simple [ContentDialog](contentdialog.md) in code.
 
 ```csharp
-private async void WifiConnectionLost()
+private async void DisplayNoWifiDialog()
 {
     ContentDialog noWifiDialog = new ContentDialog()
     {
         Title = "No wifi connection",
-        Content = "Check connection and try again",
-        PrimaryButtonText = "Ok"
+        Content = "Check connection and try again.",
+        CloseButtonText = "Ok"
     };
 
     await noWifiDialog.ShowAsync();
@@ -74,9 +83,9 @@ Here, the [IsPrimaryButtonEnabled](contentdialog_isprimarybuttonenabled.md) prop
 The [TitleTemplate](contentdialog_titletemplate.md) property is used to create a title that includes both a logo and text.
 
 ```xaml
-<ContentDialog x:Name="termsOfUseContentDialog" 
-           PrimaryButtonText="accept" IsPrimaryButtonEnabled="False"
-           SecondaryButtonText="cancel" FullSizeDesired ="True"
+<ContentDialog x:Name="termsOfUseContentDialog"
+           PrimaryButtonText="Accept" IsPrimaryButtonEnabled="False"
+           CloseButtonText="Cancel"
            Opened="TermsOfUseContentDialog_Opened">
     <ContentDialog.TitleTemplate>
         <DataTemplate>
@@ -88,16 +97,16 @@ The [TitleTemplate](contentdialog_titletemplate.md) property is used to create a
     </ContentDialog.TitleTemplate>
     <StackPanel>
         <TextBlock TextWrapping="WrapWholeWords">
-        <Run>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor 
-             congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus 
+        <Run>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor
+             congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus
              malesuada libero, sit amet commodo magna eros quis urna.</Run><LineBreak/>
         <Run>Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.</Run><LineBreak/>
-        <Run>Pellentesque habitant morbi tristique senectus et netus et malesuada fames 
+        <Run>Pellentesque habitant morbi tristique senectus et netus et malesuada fames
              ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.</Run><LineBreak/>
-        <Run>Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. 
+        <Run>Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc.
              Mauris eget neque at sem venenatis eleifend. Ut nonummy.</Run>
         </TextBlock>
-        <CheckBox x:Name="ConfirmAgeCheckBox" Content="I am over 13 years of age." 
+        <CheckBox x:Name="ConfirmAgeCheckBox" Content="I am over 13 years of age."
               Checked="ConfirmAgeCheckBox_Checked" Unchecked="ConfirmAgeCheckBox_Unchecked"/>
     </StackPanel>
 </ContentDialog>
@@ -113,7 +122,7 @@ private async void ShowTermsOfUseContentDialogButton_Click(object sender, Routed
     }
     else
     {
-        // User pressed Cancel or the back arrow.
+        // User pressed Cancel, ESC, or the back arrow.
         // Terms of use were not accepted.
     }
 }
@@ -149,13 +158,13 @@ This example shows how to create and use a custom dialog (`SignInContentDialog`)
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Title="SIGN IN"
-    PrimaryButtonText="sign in"  
-    SecondaryButtonText="cancel"
+    PrimaryButtonText="Sign In"  
+    CloseButtonText="Cancel"
     PrimaryButtonClick="ContentDialog_PrimaryButtonClick"
-    SecondaryButtonClick="ContentDialog_SecondaryButtonClick">
-    
+    CloseButtonClick="ContentDialog_CloseButtonClick">
+
     <ContentDialog.Resources>
-    <!-- These flyouts or used for confirmation when the user changes 
+    <!-- These flyouts or used for confirmation when the user changes
          the option to save their user name. -->
         <Flyout x:Key="DiscardNameFlyout" Closed="Flyout_Closed">
             <StackPanel>
@@ -217,7 +226,7 @@ namespace ExampleApp
             this.Opened += SignInContentDialog_Opened;
             this.Closing += SignInContentDialog_Closing;
         }
-        
+
         private void ContentDialog_PrimaryButtonClick(ContentDialog sender, ContentDialogButtonClickEventArgs args)
         {
             // Ensure the user name and password fields aren't empty. If a required field
@@ -249,9 +258,9 @@ namespace ExampleApp
             deferral.Complete();
         }
 
-        private void ContentDialog_SecondaryButtonClick(ContentDialog sender, ContentDialogButtonClickEventArgs args)
+        private void ContentDialog_CloseButtonClick(ContentDialog sender, ContentDialogButtonClickEventArgs args)
         {
-            // User clicked Cancel.
+            // User clicked Cancel, ESC, or the system back button.
             this.Result = SignInResult.SignInCancel;
         }
 
@@ -284,7 +293,7 @@ namespace ExampleApp
             }
 
             // If the user entered a name and checked or cleared the 'save user name' checkbox, then clicked the back arrow,
-            // confirm if it was their intention to save or clear the user name without signing in. 
+            // confirm if it was their intention to save or clear the user name without signing in.
             if (this.Result == SignInResult.Nothing && !string.IsNullOrEmpty(userNameTextBox.Text))
             {
                 if (saveUserNameCheckBox.IsChecked == false)

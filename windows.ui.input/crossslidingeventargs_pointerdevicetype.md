@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.UI.Input.CrossSlidingEventArgs.PointerDeviceType
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

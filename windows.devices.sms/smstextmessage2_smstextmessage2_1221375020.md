@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.Sms.SmsTextMessage2.#ctor
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

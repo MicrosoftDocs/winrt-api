@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Media.Ocr.OcrEngine.RecognizeAsync(Windows.Graphics.Imaging.SoftwareBitmap)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

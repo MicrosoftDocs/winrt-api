@@ -10,8 +10,10 @@ public ActivationKind Kind { get; }
 # Windows.UI.WebUI.WebUILockScreenComponentActivatedEventArgs.Kind
 
 ## -description
+Gets the activation type.
 
 ## -property-value
+The activation type. 
 
 ## -remarks
 

@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.UI.Input.Inking.InkStrokesCollectedEventArgs.Strokes
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

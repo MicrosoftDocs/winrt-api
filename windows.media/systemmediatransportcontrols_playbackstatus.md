@@ -10,7 +10,7 @@ public Windows.Media.MediaPlaybackStatus PlaybackStatus { get;  set; }
 # Windows.Media.SystemMediaTransportControls.PlaybackStatus
 
 ## -description
-Gets the playback status of the media.
+Gets or sets the playback status of the media.
 
 ## -property-value
 The playback status.

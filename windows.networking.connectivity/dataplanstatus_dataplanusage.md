@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Networking.Connectivity.DataPlanStatus.DataPlanUsage
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

@@ -1,6 +1,7 @@
 ---
 -api-id: E:Windows.Media.Import.PhotoImportFindItemsResult.SelectionChanged
 -api-type: winrt event
+-api-device-family-note: xbox
 ---
 
 <!-- Event syntax

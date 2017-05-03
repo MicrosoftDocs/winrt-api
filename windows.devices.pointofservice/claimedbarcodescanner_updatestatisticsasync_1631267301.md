@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.PointOfService.ClaimedBarcodeScanner.UpdateStatisticsAsync(Windows.Foundation.Collections.IIterable{Windows.Foundation.Collections.IKeyValuePair{System.String,System.String}})
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

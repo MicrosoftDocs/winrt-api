@@ -17,8 +17,8 @@ Attempts to set the specified image file as the lock screen background image.
 The image to set as the lock screen background.
 
 ## -returns
-The result of the async operation. **
-            true** if the background image was set successfully; otherwise, **false**.
+The result of the async operation.
+**true** if the background image was set successfully; otherwise, **false**.
 
 ## -remarks
 > [!NOTE]

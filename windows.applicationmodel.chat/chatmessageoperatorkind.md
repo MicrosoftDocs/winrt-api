@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.ApplicationModel.Chat.ChatMessageOperatorKind
 -api-type: winrt enum
+-api-device-family-note: xbox
 ---
 
 <!-- Enumeration syntax

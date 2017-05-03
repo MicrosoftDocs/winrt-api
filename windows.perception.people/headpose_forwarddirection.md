@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Perception.People.HeadPose.ForwardDirection
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

@@ -17,3 +17,6 @@ Represents the arguments for the State Changed event.
 
 ## -examples
 
+## -capabilities
+targetedContent
+

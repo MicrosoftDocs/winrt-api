@@ -33,7 +33,7 @@ The style of the map - for example, a road map or an aerial map.
 
 ## -remarks
 > [!IMPORTANT]
-> Arial styles are not available in when the network is disconnected from the internet.
+> Aerial styles are not available when the network is disconnected from the internet.
 
 ## -examples
 

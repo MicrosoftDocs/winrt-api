@@ -10,12 +10,12 @@ public MapStyleSheet MapStyleSheet.RoadDark()
 # Windows.UI.Xaml.Controls.Maps.MapStyleSheet.RoadDark
 
 ## -description
-Gets a [MapStyleSheet](mapstylesheet.md) presents a road map with a dark theme.
+Gets a [MapStyleSheet](mapstylesheet.md) that presents a road map with a dark theme.
 
 ## -params
 
 ## -returns
-A [MapStyleSheet](mapstylesheet.md) presents a road map with a dark theme.
+A [MapStyleSheet](mapstylesheet.md) that presents a road map with a dark theme.
 
 ## -remarks
 

@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.Input.Inking.InkStroke.GetRenderingSegments
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

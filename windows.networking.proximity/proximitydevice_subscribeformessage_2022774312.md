@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Networking.Proximity.ProximityDevice.SubscribeForMessage(System.String,Windows.Networking.Proximity.MessageReceivedHandler)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

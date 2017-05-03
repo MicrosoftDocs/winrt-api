@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.ApplicationModel.DataTransfer.DragDrop.Core.CoreDragOperation.AllowedOperations
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

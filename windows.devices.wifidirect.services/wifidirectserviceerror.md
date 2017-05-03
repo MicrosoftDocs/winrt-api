@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.Devices.WiFiDirect.Services.WiFiDirectServiceError
 -api-type: winrt enum
+-api-device-family-note: xbox
 ---
 
 <!-- Enumeration syntax

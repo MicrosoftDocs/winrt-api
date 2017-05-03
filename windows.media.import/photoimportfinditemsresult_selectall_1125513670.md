@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Media.Import.PhotoImportFindItemsResult.SelectAll
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Devices.PointOfService.BarcodeSymbologies.TfDis
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

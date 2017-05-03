@@ -68,6 +68,8 @@ The following example code demonstrates how to create a binding in code.
 
 [!code-csharp[BindingObject](../windows.ui.xaml/code/BindingInCode/csharp/Page.xaml.cs#SnippetBindingObject)]
 
+[!code-cpp[BindingObject](../windows.ui.xaml/code/BindingInCode/cpp/MainPage.xaml.cpp#SnippetBindingObject)]
+
 [!code-vb[BindingObject](../windows.ui.xaml/code/BindingInCode/vbnet/BlankPage.xaml.vb#SnippetBindingObject)]
 
 ## -see-also

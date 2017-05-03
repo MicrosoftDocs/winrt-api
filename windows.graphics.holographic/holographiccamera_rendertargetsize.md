@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Graphics.Holographic.HolographicCamera.RenderTargetSize
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

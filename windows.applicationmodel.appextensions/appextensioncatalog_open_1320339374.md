@@ -10,17 +10,21 @@ public Windows.ApplicationModel.AppExtensions.AppExtensionCatalog Open(System.St
 # Windows.ApplicationModel.AppExtensions.AppExtensionCatalog.Open
 
 ## -description
-Opens an app package that contains one or more extensions.
+Opens a catalog of extensions.
 
 ## -parameters
 ### -param appExtensionName
-The name of the extension.
-<!--how do you specify this name?-->
+The extension namespace name.
 
 ## -returns
-Information about the various extensions within an extension group.
+A catalog containing the extensions declared with the specified extension namespace name.
 
 ## -remarks
+Extensions are scoped by the `<uap3:AppExtension Name=...>` defined in the extension's Package.appxmanifest file. Only extensions that match the  `<uap3:AppExtension Name=...>` defined in the host's Package.appxmanifest file appear in the catalog.  
+
+If you have multiple `<uap3:AppExtensionHost>` declarations in your host app, you need to open a separate catalog for each one.
+
+An instance of the **PackageCatalog** is required to handle the events so keep a reference to it as long as you need to manage your app extensions.
 
 ## -examples
 

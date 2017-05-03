@@ -1,6 +1,7 @@
 ---
 -api-id: E:Windows.Networking.Proximity.PeerWatcher.Updated
 -api-type: winrt event
+-api-device-family-note: xbox
 ---
 
 <!-- Event syntax

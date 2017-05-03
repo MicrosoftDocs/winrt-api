@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Networking.Connectivity.NetworkInformation.FindConnectionProfilesAsync(Windows.Networking.Connectivity.ConnectionProfileFilter)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

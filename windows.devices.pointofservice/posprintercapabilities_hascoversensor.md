@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Devices.PointOfService.PosPrinterCapabilities.HasCoverSensor
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

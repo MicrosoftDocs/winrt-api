@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.UI.ApplicationSettings.WebAccountProviderCommandInvokedHandler
 -api-type: winrt delegate
+-api-device-family-note: xbox
 ---
 <!-- Delegate syntax.
 public delegate void WebAccountProviderCommandInvokedHandler(Windows.UI.ApplicationSettings.WebAccountProviderCommand command)

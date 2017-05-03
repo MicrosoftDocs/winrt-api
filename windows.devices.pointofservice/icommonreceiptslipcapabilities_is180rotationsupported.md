@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Devices.PointOfService.ICommonReceiptSlipCapabilities.Is180RotationSupported
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.System.Launcher.FindUriSchemeHandlersAsync(System.String,Windows.System.LaunchQuerySupportType)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

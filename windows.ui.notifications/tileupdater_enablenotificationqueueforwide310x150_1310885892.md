@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.Notifications.TileUpdater.EnableNotificationQueueForWide310x150(System.Boolean)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Graphics.Printing3D.Printing3DModel.Material
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

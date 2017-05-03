@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.WiFiDirect.WiFiDirectConnectionRequest.Close
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

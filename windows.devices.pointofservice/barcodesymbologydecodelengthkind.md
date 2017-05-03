@@ -20,7 +20,7 @@ Decode lengths between [DecodeLength1](barcodesymbologyattributes_decodelength1.
 Decode lengths of either [DecodeLength1](barcodesymbologyattributes_decodelength1.md) or [DecodeLength2](barcodesymbologyattributes_decodelength2.md) single-byte characters.
 
 ### -field AnyLength:0
-Decode lengths of any number of single-byte characters.
+Decode lengths of any number. 
 
 ## -remarks
 

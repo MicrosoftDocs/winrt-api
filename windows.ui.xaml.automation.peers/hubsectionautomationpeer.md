@@ -13,7 +13,7 @@ public class HubSectionAutomationPeer : Windows.UI.Xaml.Automation.Peers.Framewo
 Exposes [HubSection](../windows.ui.xaml.controls/hubsection.md) types to Microsoft UI Automation.
 
 ## -remarks
-The Windows Runtime  [HubSection](../windows.ui.xaml.controls/hubsection.md) class creates a new [HubSectionAutomationPeer](hubsectionautomationpeer.md) as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer.md) definition. Derive your automation peer from [HubSectionAutomationPeer](hubsectionautomationpeer.md) if you are deriving a custom class from [HubSection](../windows.ui.xaml.controls/hubsection.md) and want to add automation support for additional features that you enabled in your custom class. Then override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer.md) so that it returns your custom peer.
+The Windows Runtime  [HubSection](../windows.ui.xaml.controls/hubsection.md) class creates a new [HubSectionAutomationPeer](hubsectionautomationpeer.md) as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. Derive your automation peer from [HubSectionAutomationPeer](hubsectionautomationpeer.md) if you are deriving a custom class from [HubSection](../windows.ui.xaml.controls/hubsection.md) and want to add automation support for additional features that you enabled in your custom class. Then override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) so that it returns your custom peer.
 
 ### Default peer implementation and overrides in **HubSectionAutomationPeer**
 

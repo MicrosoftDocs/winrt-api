@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Networking.NetworkOperators.ProvisionedProfile.UpdateCost(Windows.Networking.Connectivity.NetworkCostType)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

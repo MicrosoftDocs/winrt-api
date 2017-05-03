@@ -13,7 +13,7 @@ public class ScrollViewerAutomationPeer : Windows.UI.Xaml.Automation.Peers.Frame
 Exposes [ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md) types to Microsoft UI Automation.
 
 ## -remarks
-The Windows Runtime  [ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md) class creates a new [ScrollViewerAutomationPeer](scrollviewerautomationpeer.md) as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer.md) definition. [ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md) is sealed, so the normal scenario of deriving from the [ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md) class and its existing peer isn't applicable to [ScrollViewerAutomationPeer](scrollviewerautomationpeer.md).
+The Windows Runtime  [ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md) class creates a new [ScrollViewerAutomationPeer](scrollviewerautomationpeer.md) as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. [ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md) is sealed, so the normal scenario of deriving from the [ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md) class and its existing peer isn't applicable to [ScrollViewerAutomationPeer](scrollviewerautomationpeer.md).
 
 ### Default peer implementation and overrides in **ScrollViewerAutomationPeer**
 

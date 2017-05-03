@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.ApplicationModel.Chat.RcsEndUserMessage.SendResponseAsync(Windows.ApplicationModel.Chat.RcsEndUserMessageAction)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

@@ -10,7 +10,7 @@ public class KnownSimpleHapticsControllerWaveforms
 # Windows.Devices.Haptics.KnownSimpleHapticsControllerWaveforms
 
 ## -description
-Provides a set of well-known haptic waveform types.
+Provides a set of well-known haptic waveform types (based on the [Haptic Usage Page](https://aka.ms/hid-haptics) HID specification.
 
 ## -remarks
 

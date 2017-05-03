@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.PointOfService.SlipPrintJob.DrawRuledLine(System.String,Windows.Devices.PointOfService.PosPrinterLineDirection,System.UInt32,Windows.Devices.PointOfService.PosPrinterLineStyle,System.UInt32)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

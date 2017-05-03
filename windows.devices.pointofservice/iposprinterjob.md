@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.Devices.PointOfService.IPosPrinterJob
 -api-type: winrt interface
+-api-device-family-note: xbox
 ---
 
 <!-- Interface syntax.

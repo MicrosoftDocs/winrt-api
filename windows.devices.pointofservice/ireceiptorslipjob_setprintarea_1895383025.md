@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.PointOfService.IReceiptOrSlipJob.SetPrintArea(Windows.Foundation.Rect)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

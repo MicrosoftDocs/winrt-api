@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.ApplicationModel.Chat.ChatMessageChangeReader.ReadBatchAsync
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

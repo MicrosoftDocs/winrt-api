@@ -21,6 +21,6 @@ The default value is SHA256.
 ## -examples
 
 
-[!code-csharp[ShowHashAlg] (../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowHashAlg)]
+[!code-csharp[ShowHashAlg](../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowHashAlg)]
 
 ## -see-also

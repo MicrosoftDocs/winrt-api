@@ -10,7 +10,7 @@ public bool MapStyleSheet.TryParseFromJson(String styleAsJson, MapStyleSheet sty
 # Windows.UI.Xaml.Controls.Maps.MapStyleSheet.TryParseFromJson
 
 ## -description
-Starts an asynchronous operation to create a stylesheet by parsing a JSON markup string that defines a set of custom rules.
+Creates stylesheet by parsing a JSON markup string that defines a set of custom rules.
 ## -params
 
 ## -param styleAsJson
@@ -20,10 +20,12 @@ A JSON markup string that defines a set of custom rules.
 The [MapStyleSheet](mapstylesheet.md) that will represent the rules defined in JSON markup string.
 
 ## -returns
-Contains the results of the operation: **true** if the operation completed successfully; otherwise, **false**.
+**true** if the operation completed successfully; otherwise, **false**.
 
 ## -remarks
+To learn more about the properties that you can use in your JSON string to define styles, see [Map stylesheet reference](https://docs.microsoft.com/windows/uwp/maps-and-location/elements-of-map-style-sheet).
 
+If there's an error in the JSON markup string, this method does not throw an exception. Instead, it returns **false**.
 ## -see-also
 
 ## -examples

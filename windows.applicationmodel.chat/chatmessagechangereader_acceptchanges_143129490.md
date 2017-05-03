@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.ApplicationModel.Chat.ChatMessageChangeReader.AcceptChanges
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

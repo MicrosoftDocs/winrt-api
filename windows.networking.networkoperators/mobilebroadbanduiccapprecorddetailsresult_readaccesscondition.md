@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Networking.NetworkOperators.MobileBroadbandUiccAppRecordDetailsResult.ReadAccessCondition
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

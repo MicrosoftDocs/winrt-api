@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Devices.PointOfService.ClaimedReceiptPrinter.IsPaperEmpty
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

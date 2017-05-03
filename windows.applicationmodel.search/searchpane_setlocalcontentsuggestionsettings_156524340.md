@@ -53,7 +53,7 @@ settings.aqsFilter = "kind:=music";
 Windows.ApplicationModel.Search.SearchPane.getForCurrentView().setLocalContentSuggestionSettings(settings);
 ```
 
-In the example, suggestions are restricted to one kind of file, music files, using an Advanced Query Syntax (AQS) string. Two of the most common Advanced Query Syntax (AQS) filters restrict based on file kind, like "kind:=.music" in the example; and based on file name extension, like "ext:=.mp3". You can learn more about Advanced Query Syntax (AQS) in [](http://msdn.microsoft.com/library/8e55bd40-c7cf-44a6-bc18-24bc7a267779).
+In the example, suggestions are restricted to one kind of file, music files, using an Advanced Query Syntax (AQS) string. Two of the most common Advanced Query Syntax (AQS) filters restrict based on file kind, like "kind:=.music" in the example; and based on file name extension, like "ext:=.mp3". You can learn more about AQS in [Advanced Query Syntax (AQS)](https://msdn.microsoft.com/en-us/library/aa965711.aspx).
 
 ## -see-also
 [](http://msdn.microsoft.com/library/8e55bd40-c7cf-44a6-bc18-24bc7a267779), [Quickstart: Adding search](http://msdn.microsoft.com/library/d412c562-22d2-41c4-9f27-27503b89b9e9), [Search contract sample](http://go.microsoft.com/fwlink/p/?linkid=234892), [LocalContentSuggestionSettings class](localcontentsuggestionsettings.md), [SearchPane class](searchpane.md)

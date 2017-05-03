@@ -17,7 +17,8 @@ True to enable default source selection; otherwise false. The default is true.
 
 ## -remarks
 <!--{annotation author="v-shawja" time="1/27/2012 10:47:33 AM"}In the second sentence of the following paragraph, note that MSTP generally prefers "destination" over "target". Please make that change if it would be accurate. Or "target" can simply be deleted if it's unnecessary.-->
-An app that contains media elements has Play To enabled by default. If a user invokes the **Devices** charm while running the app and selects a target device to stream media to, Play To will stream the media from the first audio, video, or image element on the current page. You can disable this default behavior by setting the **DefaultSourceSelection** property to **false**.```javascript
+An app that contains media elements has Play To enabled by default. If a user invokes the **Devices** charm while running the app and selects a target device to stream media to, Play To will stream the media from the first audio, video, or image element on the current page. You can disable this default behavior by setting the **DefaultSourceSelection** property to **false**.
+```javascript
 var ptm = Windows.Media.PlayTo.PlayToManager.getForCurrentView();
 ptm.defaultSourceSelection = false;
 
@@ -25,7 +26,8 @@ ptm.defaultSourceSelection = false;
 
 
 
-You can exclude individual HTML elements from the default Play To behavior by adding the **-ms-playToDisabled** attribute in your HTML markup.```javascript
+You can exclude individual HTML elements from the default Play To behavior by adding the **-ms-playToDisabled** attribute in your HTML markup.
+```javascript
 <video src="http://www.example.com/videos/video.mp4" x-ms-playToDisabled/>
 ```
 

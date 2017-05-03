@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.StartScreen.SecondaryTile.#ctor(System.String,System.String,System.String,System.String,Windows.UI.StartScreen.TileOptions,Windows.Foundation.Uri,Windows.Foundation.Uri)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

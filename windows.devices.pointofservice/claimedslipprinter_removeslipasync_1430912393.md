@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.PointOfService.ClaimedSlipPrinter.RemoveSlipAsync(Windows.Foundation.TimeSpan)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

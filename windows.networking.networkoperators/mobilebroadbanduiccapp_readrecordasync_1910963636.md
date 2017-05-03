@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Networking.NetworkOperators.MobileBroadbandUiccApp.ReadRecordAsync(Windows.Foundation.Collections.IIterable{System.UInt32},System.Int32)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

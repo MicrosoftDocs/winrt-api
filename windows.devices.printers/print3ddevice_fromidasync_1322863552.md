@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.Printers.Print3DDevice.FromIdAsync(System.String)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

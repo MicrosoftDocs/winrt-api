@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.Printers.PrintSchema.GetDefaultPrintTicketAsync
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

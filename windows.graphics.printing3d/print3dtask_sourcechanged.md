@@ -1,6 +1,7 @@
 ---
 -api-id: E:Windows.Graphics.Printing3D.Print3DTask.SourceChanged
 -api-type: winrt event
+-api-device-family-note: xbox
 ---
 
 <!-- Event syntax

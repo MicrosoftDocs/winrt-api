@@ -14,7 +14,7 @@ Gets the oriented and snapped, bounding rectangle of the InkAnalysisInkWord obje
 
 | Bounding rectangle | Rotated bounding rectangle |
 | --- | --- |
-| ![Bounding rectangle](images/boundingrect.png) | ![Rotated bounding rectangle](images/rotatedboundingrect.png) |
+| <img alt="Bounding rectangle" src="images/boundingrect.png" /> | <img alt="Rotated bounding rectangle" src="images/rotatedboundingrect.png" /> |
 
 ## -property-value
 The X, Y coordinates for each vertex point of the bounding box for the InkAnalysisInkWord object, in device-independent pixels (DIPs) relative to the upper left-hand corner of the inking area. 

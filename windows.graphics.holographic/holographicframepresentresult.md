@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.Graphics.Holographic.HolographicFramePresentResult
 -api-type: winrt enum
+-api-device-family-note: xbox
 ---
 
 <!-- Enumeration syntax

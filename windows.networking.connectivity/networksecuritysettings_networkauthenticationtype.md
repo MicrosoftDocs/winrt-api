@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Networking.Connectivity.NetworkSecuritySettings.NetworkAuthenticationType
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

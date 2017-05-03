@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Devices.PointOfService.BarcodeSymbologies.UpcaAdd5
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

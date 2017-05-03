@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.Notifications.TileFlyoutUpdateManager.CreateTileFlyoutUpdaterForSecondaryTile(System.String)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

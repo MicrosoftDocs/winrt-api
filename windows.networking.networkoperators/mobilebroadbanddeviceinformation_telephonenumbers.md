@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Networking.NetworkOperators.MobileBroadbandDeviceInformation.TelephoneNumbers
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.ApplicationModel.Chat.ChatCapabilitiesManager.GetCapabilitiesFromNetworkAsync(System.String)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

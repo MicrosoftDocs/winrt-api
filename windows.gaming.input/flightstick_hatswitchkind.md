@@ -26,3 +26,4 @@ A hat switch is a control often used for camera view and/or target selection. It
 * [Windows.Gaming.Input.GameControllerSwitchKind](gamecontrollerswitchkind.md)
 
 ## -examples
+

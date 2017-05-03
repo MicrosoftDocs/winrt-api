@@ -15,6 +15,7 @@ Provides access to a single haptic input device.
 ## -remarks
 
 ## -see-also
+* [Haptic Usage Page](https://aka.ms/hid-haptics) HID specification
 
 ## -examples
 

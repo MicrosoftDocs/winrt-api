@@ -10,7 +10,7 @@ public IAsyncOperation<OfflineMapPackageStartDownloadResult> OfflineMapPackage.R
 # Windows.Services.Maps.OfflineMaps.OfflineMapPackage.RequestStartDownloadAsync
 
 ## -description
-Starts an asynchronous operation to download a map package to your local system.
+Starts an asynchronous operation to request the download of a map package to your local system.
 
 ## -params
 

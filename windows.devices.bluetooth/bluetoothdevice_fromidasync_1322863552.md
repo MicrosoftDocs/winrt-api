@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.Bluetooth.BluetoothDevice.FromIdAsync(System.String)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.ApplicationModel.DataTransfer.DragDrop.Core.ICoreDropOperationTarget.LeaveAsync(Windows.ApplicationModel.DataTransfer.DragDrop.Core.CoreDragInfo)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

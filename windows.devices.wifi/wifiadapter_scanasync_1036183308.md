@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.WiFi.WiFiAdapter.ScanAsync
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

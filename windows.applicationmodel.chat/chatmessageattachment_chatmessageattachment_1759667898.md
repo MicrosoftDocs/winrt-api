@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.ApplicationModel.Chat.ChatMessageAttachment.#ctor(System.String,Windows.Storage.Streams.IRandomAccessStreamReference)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

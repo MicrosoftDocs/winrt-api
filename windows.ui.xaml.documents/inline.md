@@ -13,7 +13,8 @@ public class Inline : Windows.UI.Xaml.Documents.TextElement, Windows.UI.Xaml.Doc
 Provides a base class for inline text elements, such as [Span](span.md) and [Run](run.md).
 
 ## -remarks
-[InlineCollection](inlinecollection.md) is a strongly typed collection class that is used by various **Inlines** properties: [TextBlock.Inlines](../windows.ui.xaml.controls/textblock_inlines.md), [Paragraph.Inlines](paragraph_inlines.md) and [Span.Inlines](span_inlines.md). By specifying XAML object elements within one of these **Inlines** properties, you can assign multiple [Inline](inline.md) elements to be the text content for an inline text container. This is usually done using an implicit collection and XAML property syntax, such that the inline child elements appear as direct children of the container in XAML markup. This example uses all of the common [Inline](inline.md) types as content for a [Paragraph](paragraph.md):```xaml
+[InlineCollection](inlinecollection.md) is a strongly typed collection class that is used by various **Inlines** properties: [TextBlock.Inlines](../windows.ui.xaml.controls/textblock_inlines.md), [Paragraph.Inlines](paragraph_inlines.md) and [Span.Inlines](span_inlines.md). By specifying XAML object elements within one of these **Inlines** properties, you can assign multiple [Inline](inline.md) elements to be the text content for an inline text container. This is usually done using an implicit collection and XAML property syntax, such that the inline child elements appear as direct children of the container in XAML markup. This example uses all of the common [Inline](inline.md) types as content for a [Paragraph](paragraph.md):
+```xaml
 <Paragraph>
   <Bold>Bold</Bold><LineBreak/>
   <Hyperlink>Hyperlink</Hyperlink><LineBreak/>

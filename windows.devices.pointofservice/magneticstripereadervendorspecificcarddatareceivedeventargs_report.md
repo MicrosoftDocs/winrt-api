@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Devices.PointOfService.MagneticStripeReaderVendorSpecificCardDataReceivedEventArgs.Report
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

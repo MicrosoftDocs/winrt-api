@@ -17,3 +17,6 @@ Represents a collection of items or subcollections in a TargetedContentContainer
 
 ## -examples
 
+## -capabilities
+targetedContent
+

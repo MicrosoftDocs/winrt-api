@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.ApplicationModel.Chat.ChatRecipientDeliveryInfo.TransportErrorCodeCategory
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

@@ -10,6 +10,7 @@ public class WebUILockScreenComponentActivatedEventArgs : IActivatedEventArgs, I
 # Windows.UI.WebUI.WebUILockScreenComponentActivatedEventArgs
 
 ## -description
+Provides data when an app is activated as part of a lock screen component. 
 
 ## -remarks
 

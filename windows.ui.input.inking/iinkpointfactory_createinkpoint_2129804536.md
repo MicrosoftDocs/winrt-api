@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.Input.Inking.IInkPointFactory.CreateInkPoint(Windows.Foundation.Point,System.Single)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

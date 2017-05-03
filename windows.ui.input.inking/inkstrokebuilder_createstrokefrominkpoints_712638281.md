@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.Input.Inking.InkStrokeBuilder.CreateStrokeFromInkPoints(Windows.Foundation.Collections.IIterable{Windows.UI.Input.Inking.InkPoint},Windows.Foundation.Numerics.Matrix3x2)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

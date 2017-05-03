@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.Networking.Proximity.DeviceArrivedEventHandler
 -api-type: winrt delegate
+-api-device-family-note: xbox
 ---
 <!-- Delegate syntax.
 public delegate void DeviceArrivedEventHandler(Windows.Networking.Proximity.ProximityDevice sender)
