@@ -1,7 +1,6 @@
 ---
 -api-id: P:Windows.Media.Import.PhotoImportSession.SubfolderDateFormat
 -api-type: winrt property
--api-device-family-note: xbox
 ---
 
 <!-- Property syntax.

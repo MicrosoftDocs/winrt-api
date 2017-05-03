@@ -1,7 +1,6 @@
 ---
 -api-id: T:Windows.UI.Input.Inking.IInkPointFactory
 -api-type: winrt interface
--api-device-family-note: xbox
 ---
 
 <!-- Interface syntax.

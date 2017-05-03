@@ -13,7 +13,8 @@ public bool IsOpen { get;  set; }
 Gets or sets a value that indicates whether the [ToolTip](tooltip.md) is visible.
 
 ## -property-value
-**true** if the [ToolTip](tooltip.md) is visible; otherwise, **false**. The default is **false**.
+**
+        true** if the [ToolTip](tooltip.md) is visible; otherwise, **false**. The default is **false**.
 
 ## -remarks
 This property is not typically set in XAML.

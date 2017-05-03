@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.Devices.AllJoyn.AllJoynServiceInfo.#ctor(System.String,System.String,System.UInt16)
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.Networking.NetworkOperators.HotspotAuthenticationContext.TryGetAuthenticationContext(System.String,Windows.Networking.NetworkOperators.HotspotAuthenticationContext@)
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

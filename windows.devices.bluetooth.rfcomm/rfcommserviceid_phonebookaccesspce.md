@@ -1,7 +1,6 @@
 ---
 -api-id: P:Windows.Devices.Bluetooth.Rfcomm.RfcommServiceId.PhoneBookAccessPce
 -api-type: winrt property
--api-device-family-note: xbox
 ---
 
 <!-- Property syntax

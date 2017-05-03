@@ -14,9 +14,6 @@ This allows you to programmatically trigger a background tasks from within your 
 
 ## -remarks
 
-> [!IMPORTANT]
-> An app can only register one **ApplicationTrigger** with the [BackgroundTaskBuilder](https://docs.microsoft.com/en-us/uwp/api/Windows.ApplicationModel.Background.BackgroundTaskBuilder) at any given time.
-
 ## -examples
 
 ## -see-also

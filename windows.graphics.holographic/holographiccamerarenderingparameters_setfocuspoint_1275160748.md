@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.Graphics.Holographic.HolographicCameraRenderingParameters.SetFocusPoint(Windows.Perception.Spatial.SpatialCoordinateSystem,Windows.Foundation.Numerics.Vector3,Windows.Foundation.Numerics.Vector3)
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

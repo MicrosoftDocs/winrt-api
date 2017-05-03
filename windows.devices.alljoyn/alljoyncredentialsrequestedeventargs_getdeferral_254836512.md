@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.Devices.AllJoyn.AllJoynCredentialsRequestedEventArgs.GetDeferral
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

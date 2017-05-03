@@ -16,24 +16,9 @@ Returns a brightness override object. This method requires [CoreWindow](../windo
 The brightness override object.
 
 ## -remarks
-This method throws an access is denied exception if there is no [CoreWindow](../windows.ui.core/corewindow.md) on the calling thread.
+This method fails if there is no [CoreWindow](../windows.ui.core/corewindow.md) on the calling thread.
 
 ## -see-also
 
 ## -examples
 
-This example shows how apps that run in a window can override the device's brightness at full brightness. To stop the overriding process, use [StopOverride()](brightnessoverride_stopoverride_1207260318.md).
-
-```csharp
-private void Set_Full_Brightness()
-{
-    //Create BrightnessOverride object
-    BrightnessOverride bo = BrightnessOverride.GetForCurrentView();
-
-    //Set override brightness to full brightness even when battery is low
-    bo.SetBrightnessScenario(DisplayBrightnessScenario.FullBrightness, DisplayBrightnessOverrideOptions.None);
-
-    //Request to start the overriding process
-    bo.StartOverride();
-}
-```

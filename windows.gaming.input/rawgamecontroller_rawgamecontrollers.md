@@ -19,20 +19,6 @@ The list of all connected raw game controllers.
 
 ## -remarks
 
-**RawGameController** objects are managed by the system, therefore you don't have to create or initialize them. Instead, you can access connected raw game controllers through this property. Because you might only be interested in some of the connected raw game controllers, we recommend that you maintain your own collection.
-
 ## -see-also
 
 ## -examples
-
-The following example copies all connected raw game controllers into a new collection:
-
-```cpp
-auto myRawGameControllers = ref new Vector<RawGameController^>();
-
-for (auto rawGameController : RawGameController::RawGameControllers)
-{
-    // This code assumes that you're interested in all raw game controllers.
-    myRawGameControllers->Append(rawGameController);
-}
-```

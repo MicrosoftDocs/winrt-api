@@ -13,7 +13,7 @@ public class ImageAutomationPeer : Windows.UI.Xaml.Automation.Peers.FrameworkEle
 Exposes [Image](../windows.ui.xaml.controls/image.md) types to Microsoft UI Automation.
 
 ## -remarks
-The Windows Runtime  [Image](../windows.ui.xaml.controls/image.md) class creates a new [ImageAutomationPeer](imageautomationpeer.md) as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. [Image](../windows.ui.xaml.controls/image.md) is sealed, so the normal scenario of deriving from the class and its existing peer isn't applicable to [ImageAutomationPeer](imageautomationpeer.md).
+The Windows Runtime  [Image](../windows.ui.xaml.controls/image.md) class creates a new [ImageAutomationPeer](imageautomationpeer.md) as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer.md) definition. [Image](../windows.ui.xaml.controls/image.md) is sealed, so the normal scenario of deriving from the class and its existing peer isn't applicable to [ImageAutomationPeer](imageautomationpeer.md).
 
 Also, the [Image](../windows.ui.xaml.controls/image.md) isn't focusable, which limits its participation in a Microsoft UI Automation tree view of the UI. There are techniques for increasing the accessibility visibility of images in UI, such as applying labels or visible captions. For more info, see "Accessible names for images" section of [Basic accessibility information](http://msdn.microsoft.com/library/9641c926-68c9-4842-8b55-c38c39a9e5c5).
 

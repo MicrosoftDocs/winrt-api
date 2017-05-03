@@ -1,7 +1,6 @@
 ---
 -api-id: E:Windows.UI.Input.Spatial.SpatialInteractionManager.SourcePressed
 -api-type: winrt event
--api-device-family-note: xbox
 ---
 
 <!-- Event syntax

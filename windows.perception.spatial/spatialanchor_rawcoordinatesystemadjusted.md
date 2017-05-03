@@ -1,7 +1,6 @@
 ---
 -api-id: E:Windows.Perception.Spatial.SpatialAnchor.RawCoordinateSystemAdjusted
 -api-type: winrt event
--api-device-family-note: xbox
 ---
 
 <!-- Event syntax

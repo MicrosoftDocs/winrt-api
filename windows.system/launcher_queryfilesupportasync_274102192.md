@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.System.Launcher.QueryFileSupportAsync(Windows.Storage.StorageFile,System.String)
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

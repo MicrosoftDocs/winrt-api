@@ -10,7 +10,7 @@ public void ShutdownManager.EnterPowerState(PowerState powerState)
 # Windows.System.ShutdownManager.EnterPowerState
 
 ## -description
-Instructs a fixed-purpose device to enter the given power state.
+Instructs a fixed-purpose device to enter the given power state. 
 
 ## -parameters
 
@@ -24,7 +24,6 @@ This API requires the use of the IoT **systemManagement** capability, and the in
 <iot:Capability Name="systemManagement"/>`, and add **iot** to their existing list of **IgnorableNamespaces**.
 
 ## -see-also
-[EnterPowerState(PowerState powerState, TimeSpan wakeUpAfter)](shutdownmanager_enterpowerstate_1157290732.md)
 
 ## -examples
 

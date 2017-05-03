@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.Graphics.Printing3D.Printing3DMesh.GetVertexPositions
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

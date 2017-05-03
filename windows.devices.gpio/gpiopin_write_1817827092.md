@@ -20,12 +20,12 @@ If the GPIO pin is configured as an output, the method drives the specified valu
 
 If the GPIO pin is configured as an input, the method updates the latched output value for the pin. The latched output value is driven onto the pin when the configuration for the pin changes to output.
 
-## -remarks
-The following exceptions can be thrown by this method:
-
+## -exceptions
 ### E_ACCESSDENIED
 
 The GPIO pin is open in shared read-only mode. To write to the pin, close the pin and reopen the pin in exclusive mode.
+
+## -remarks
 
 ## -examples
 

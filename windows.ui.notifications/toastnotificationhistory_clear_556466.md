@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.UI.Notifications.ToastNotificationHistory.Clear
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

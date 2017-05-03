@@ -13,9 +13,9 @@ public class ToggleButtonAutomationPeer : Windows.UI.Xaml.Automation.Peers.Butto
 Exposes [ToggleButton](../windows.ui.xaml.controls.primitives/togglebutton.md) types to Microsoft UI Automation.
 
 ## -remarks
-The Windows Runtime  [ToggleButton](../windows.ui.xaml.controls.primitives/togglebutton.md) class creates a new [ToggleButtonAutomationPeer](togglebuttonautomationpeer.md) as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition.
+The Windows Runtime  [ToggleButton](../windows.ui.xaml.controls.primitives/togglebutton.md) class creates a new [ToggleButtonAutomationPeer](togglebuttonautomationpeer.md) as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer.md) definition.
 
-[ToggleButton](../windows.ui.xaml.controls.primitives/togglebutton.md) has several derived classes such as [RadioButton](../windows.ui.xaml.controls/radiobutton.md), which have template support and practical implementations of some important functionality. Make sure that you really want to derive from the base class. If you're sure you want to derive from [ToggleButton](../windows.ui.xaml.controls.primitives/togglebutton.md), directly, derive your automation peer from [ToggleButtonAutomationPeer](togglebuttonautomationpeer.md) and override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) so that it returns your custom peer.
+[ToggleButton](../windows.ui.xaml.controls.primitives/togglebutton.md) has several derived classes such as [RadioButton](../windows.ui.xaml.controls/radiobutton.md), which have template support and practical implementations of some important functionality. Make sure that you really want to derive from the base class. If you're sure you want to derive from [ToggleButton](../windows.ui.xaml.controls.primitives/togglebutton.md), directly, derive your automation peer from [ToggleButtonAutomationPeer](togglebuttonautomationpeer.md) and override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer.md) so that it returns your custom peer.
 
 ### Default peer implementation and overrides in **ToggleButtonAutomationPeer**
 

@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.Storage.Provider.CachedFileUpdater.SetUpdateInformation(Windows.Storage.IStorageFile,System.String,Windows.Storage.Provider.ReadActivationMode,Windows.Storage.Provider.WriteActivationMode,Windows.Storage.Provider.CachedFileOptions)
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

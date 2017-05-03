@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.Networking.Proximity.PeerFinder.ConnectAsync(Windows.Networking.Proximity.PeerInformation)
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

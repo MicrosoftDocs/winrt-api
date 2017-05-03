@@ -18,7 +18,7 @@ Represents the map control, which displays a map.
 
 <Maps:MapControl/>
 - or -
-<Maps:MapControl></Maps:MapControl>
+<Maps:MapControl></Maps:MapControl/>
 
 ```
 

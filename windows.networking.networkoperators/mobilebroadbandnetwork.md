@@ -1,7 +1,6 @@
 ---
 -api-id: T:Windows.Networking.NetworkOperators.MobileBroadbandNetwork
 -api-type: winrt class
--api-device-family-note: xbox
 ---
 
 <!-- Class syntax.

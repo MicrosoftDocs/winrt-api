@@ -1,7 +1,6 @@
 ---
 -api-id: E:Windows.UI.StartScreen.SecondaryTile.VisualElementsRequested
 -api-type: winrt event
--api-device-family-note: xbox
 ---
 
 <!-- Event syntax

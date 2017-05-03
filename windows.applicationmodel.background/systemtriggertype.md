@@ -22,23 +22,23 @@ The background task is triggered when a new SMS message is received by an instal
 ### -field UserPresent:2
 The background task is triggered when the user becomes present.
 
-> **Windows 8, Windows Server 2012, Windows 8.1, Windows Server 2012 R2, Windows Phone 8.1**
+> **Windows 8Windows Server 2012Windows 8.1Windows Server 2012 R2Windows Phone 8.1**
 > An app must be placed on the lock screen before it can successfully register background tasks using this trigger type.
 
 
 
-> **Windows 10, Windows Server 2016, Windows 10 Mobile**
+> **Windows 10Windows Server 2016Windows 10 Mobile**
 > You do not need to place an app on the lock screen before the app can successfully register background tasks using this trigger type.
 
 ### -field UserAway:3
 The background task is triggered when the user becomes absent.
 
-> **Windows 8, Windows Server 2012, Windows 8.1, Windows Server 2012 R2, Windows Phone 8.1**
+> **Windows 8Windows Server 2012Windows 8.1Windows Server 2012 R2Windows Phone 8.1**
 > An app must be placed on the lock screen before it can successfully register background tasks using this trigger type.
 
 
 
-> **Windows 10, Windows Server 2016, Windows 10 Mobile**
+> **Windows 10Windows Server 2016Windows 10 Mobile**
 > You do not need to place an app on the lock screen before the app can successfully register background tasks using this trigger type.
 
 ### -field NetworkStateChange:4
@@ -52,12 +52,12 @@ The background task is triggered when a control channel is reset.
 
 
 
-> **Windows 8, Windows Server 2012, Windows 8.1, Windows Server 2012 R2, Windows Phone 8.1**
+> **Windows 8Windows Server 2012Windows 8.1Windows Server 2012 R2Windows Phone 8.1**
 > An app must be placed on the lock screen before it can successfully register background tasks using this trigger type.
 
 
 
-> **Windows 10, Windows Server 2016, Windows 10 Mobile**
+> **Windows 10Windows Server 2016Windows 10 Mobile**
 > You do not need to place an app on the lock screen before the app can successfully register background tasks using this trigger type.
 
 ### -field InternetAvailable:6
@@ -66,12 +66,12 @@ The background task is triggered when the Internet becomes available.
 ### -field SessionConnected:7
 The background task is triggered when the session is connected.
 
-> **Windows 8, Windows Server 2012, Windows 8.1, Windows Server 2012 R2, Windows Phone 8.1**
+> **Windows 8Windows Server 2012Windows 8.1Windows Server 2012 R2Windows Phone 8.1**
 > An app must be placed on the lock screen before it can successfully register background tasks using this trigger type.
 
 
 
-> **Windows 10, Windows Server 2016, Windows 10 Mobile**
+> **Windows 10Windows Server 2016Windows 10 Mobile**
 > You do not need to place an app on the lock screen before the app can successfully register background tasks using this trigger type.
 
 ### -field ServicingComplete:8
@@ -95,12 +95,12 @@ The background task is triggered when the Microsoft account connected to the acc
 ### -field BackgroundWorkCostChange:13
 The background task is triggered when the cost of background work changes.
 
-> **Windows 8, Windows Server 2012, Windows 8.1, Windows Server 2012 R2, Windows Phone 8.1**
+> **Windows 8Windows Server 2012Windows 8.1Windows Server 2012 R2Windows Phone 8.1**
 > An app must be placed on the lock screen before it can successfully register background tasks using this trigger type.
 
 
 
-> **Windows 10, Windows Server 2016, Windows 10 Mobile**
+> **Windows 10Windows Server 2016Windows 10 Mobile**
 > You do not need to place an app on the lock screen before the app can successfully register background tasks using this trigger type.
 
 ### -field PowerStateChange:14

@@ -21,11 +21,9 @@ All inputs available on a **RawGameController** are exposed as simple arrays of 
 
 You'll need to create these arrays yourself, and then populate them using [RawGameController.GetCurrentReading](rawgamecontroller_getcurrentreading.md) to determine the states of the buttons, switches, and axes. See that function's documentation for more information.
 
-See [Raw game controller](https://docs.microsoft.com/en-us/windows/uwp/gaming/raw-game-controller) for information about how to use the **RawGameController** class.
-
 ## -see-also
 
-* [Windows.Gaming.Input.IGameController interface](igamecontroller.md)
-* [Windows.Gaming.Input.IGameControllerBatteryInfo interface](igamecontrollerbatteryinfo.md)
+* [Windows.Gaming.Input.IGameController](igamecontroller.md)
+* [Windows.Gaming.Input.IGameControllerBatteryInfo](igamecontrollerbatteryinfo.md)
 
 ## -examples

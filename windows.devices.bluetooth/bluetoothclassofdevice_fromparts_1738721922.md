@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.Devices.Bluetooth.BluetoothClassOfDevice.FromParts(Windows.Devices.Bluetooth.BluetoothMajorClass,Windows.Devices.Bluetooth.BluetoothMinorClass,Windows.Devices.Bluetooth.BluetoothServiceCapabilities)
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

@@ -10,10 +10,8 @@ public string DisplayName { get;  set; }
 # Windows.UI.Notifications.ToastCollection.DisplayName
 
 ## -description
-Gets or sets the group title that displays in the Action Center. 
 
 ## -property-value
-The group title that displays in the Action Center.
 
 ## -remarks
 

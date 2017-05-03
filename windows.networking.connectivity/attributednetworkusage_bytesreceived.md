@@ -1,7 +1,6 @@
 ---
 -api-id: P:Windows.Networking.Connectivity.AttributedNetworkUsage.BytesReceived
 -api-type: winrt property
--api-device-family-note: xbox
 ---
 
 <!-- Property syntax

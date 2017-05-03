@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.Networking.NetworkOperators.HotspotAuthenticationContext.IssueCredentials(System.String,System.String,System.String,System.Boolean)
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

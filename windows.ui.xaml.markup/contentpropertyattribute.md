@@ -17,8 +17,7 @@ This attribute is used to identify that a specific property of the attributed ty
 
 An example of a class in the default Windows Runtime XAML vocabulary that has [ContentPropertyAttribute](contentpropertyattribute.md) applied is [Panel](../windows.ui.xaml.controls/panel.md). The property [Children](../windows.ui.xaml.controls/panel_children.md) on the [Panel](../windows.ui.xaml.controls/panel.md) is identified as the XAML content property as defined by the [ContentPropertyAttribute](contentpropertyattribute.md) and its **Name** value. The content property information is inherited by all derived types of [Panel](../windows.ui.xaml.controls/panel.md), such as [Grid](../windows.ui.xaml.controls/grid.md) and [Canvas](../windows.ui.xaml.controls/canvas.md) and [StackPanel](../windows.ui.xaml.controls/stackpanel.md).
 
-This code approximates how [Panel](../windows.ui.xaml.controls/panel.md) applies [ContentPropertyAttribute](contentpropertyattribute.md) in C# (the true definition is applied in native code, this is for illustration only):
-```csharp
+This code approximates how [Panel](../windows.ui.xaml.controls/panel.md) applies [ContentPropertyAttribute](contentpropertyattribute.md) in C# (the true definition is applied in native code, this is for illustration only):```csharp
 [ContentProperty(Name = "Children")]
     public class Panel : FrameworkElement
     { ...}
@@ -36,8 +35,7 @@ Using [Panel](../windows.ui.xaml.controls/panel.md) and its derived class [Stack
 
 
 
-The above is equivalent to this more readable XAML:
-```xaml
+The above is equivalent to this more readable XAML:```xaml
 <StackPanel>
   <TextBlock>Testing content attribute</TextBlock>
 </StackPanel>

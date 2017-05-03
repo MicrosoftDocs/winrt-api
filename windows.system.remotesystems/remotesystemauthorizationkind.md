@@ -14,13 +14,12 @@ Contains values specifying whether the client device can discover only same-user
 
 ## -enum-fields
 ### -field SameUser:0
-The client device can only discover devices signed in by the same user.
+The client device can only discover devices signed in by the same user or nearby communal devices such as the Surface Hub and Xbox One.
 
 ### -field Anonymous:1
 The client device can discover other users' devices, provided they are available for proximal connection.
 
 ## -remarks
-If a [**RemoteSystemAuthorizationKindFilter**](RemoteSystemAuthorizationKindFilter.md) is not used in device discovery, the default behavior is to discover same-user devices only.
 
 ## -see-also
 

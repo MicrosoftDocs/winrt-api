@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.Graphics.Holographic.HolographicSpace.SetDirect3D11Device(Windows.Graphics.DirectX.Direct3D11.IDirect3DDevice)
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

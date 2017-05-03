@@ -20,7 +20,7 @@ Specifies how focus was set, as a value of the enumeration.
 **true** if focus was set to the control, or focus was already on the control. **false** if the control is not focusable.
 
 ## -remarks
-You can't remove focus from a control by calling this method with @Windows.UI.Xaml.FocusState.Unfocused as the parameter. This value is not allowed and causes an exception. To remove focus from a control, set focus to a different control.
+You can't remove focus from a control by calling this method with [FocusState.Unfocused](../windows.ui.xaml/focusstate.md) as the parameter. This value is not allowed and causes an exception. To remove focus from a control, set focus to a different control.
 
 You typically pass [FocusState.Programmatic](../windows.ui.xaml/focusstate.md) as the parameter to indicate the control obtained focus through a deliberate call to the [Focus](control_focus.md) method. For example, if clicking an "Edit" button causes focus to be set on a [TextBox](textbox.md), use the [Programmatic](../windows.ui.xaml/focusstate.md) focus state.
 

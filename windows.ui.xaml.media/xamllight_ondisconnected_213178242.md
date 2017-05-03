@@ -10,15 +10,11 @@ virtual protected void XamlLight.OnDisconnected(UIElement oldElement)
 # Windows.UI.Xaml.Media.XamlLight.OnDisconnected
 
 ## -description
-This method is automatically called when the XamlLight is no longer in use anywhere on the screen.
-
-This provides an opportunity to safely dispose of resources such as the CompositionLight when they aren't currently required.
-
-[OnConnected](xamllight_onconnected.md) will be called again if the XamlLight is later used to light any UIElements or Brushes after being disconnected.
+When implemented in a derived class, removes the target UIElement and disposes of the compostion light.
 
 ## -params
 ## -param oldElement
-The [UIElement](https://docs.microsoft.com/en-us/uwp/api/Windows.UI.Xaml.UIElement) that the light is attached to.
+The element to remove as a target of the composition light.
 
 ## -remarks
 

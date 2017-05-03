@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.Media.DialProtocol.DialDevice.GetDeviceSelector(System.String)
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

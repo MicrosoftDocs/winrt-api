@@ -1,7 +1,6 @@
 ---
 -api-id: T:Windows.Data.Text.TextConversionGenerator
 -api-type: winrt class
--api-device-family-note: xbox
 ---
 
 <!-- Class syntax.

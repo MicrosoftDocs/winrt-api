@@ -33,7 +33,9 @@ The rendered bitmap contents of a [RenderTargetBitmap](rendertargetbitmap.md) do
 
 The maximum rendered size of a XAML visual tree is restricted by the maximum dimensions of a Microsoft DirectX texture; for more info see [Resource Limits ()](http://msdn.microsoft.com/library/80ae49f2-4a6d-4cfc-95d6-510685ab9736). This limit can vary depending on the hardware whre the app runs. Very large content that exceeds this limit might be scaled to fit. If scaling limits are applied in this way, the rendered size after scaling can be queried using the [PixelWidth](rendertargetbitmap_pixelwidth.md) and [PixelHeight](rendertargetbitmap_pixelheight.md) properties. For example, a 10000 by 10000 pixel XAML visual tree might be scaled to 4096 by 4096 pixels, an example of a particular limit as forced by the hardware where the app runs.
 
-### XAML visuals and **RenderTargetBitmap** capture capabilities
+### XAML visuals and **RenderTargetBitmap** capture capabilitie
+s
+
 
 There are a few scenarios for XAML-composed visual content that you can't capture to a [RenderTargetBitmap](rendertargetbitmap.md):
 + Video content in a [MediaElement](../windows.ui.xaml.controls/mediaelement.md) or [CaptureElement](../windows.ui.xaml.controls/captureelement.md) can't be captured using [RenderTargetBitmap](rendertargetbitmap.md). That includes capturing frames from within video content.

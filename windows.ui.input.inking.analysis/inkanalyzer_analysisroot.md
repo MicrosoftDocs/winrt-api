@@ -11,8 +11,6 @@ public InkAnalysisRoot AnalysisRoot { get; }
 
 ## -description
 
-Gets the root node of the ink analysis results.
-
 ## -remarks
 
 ## -see-also

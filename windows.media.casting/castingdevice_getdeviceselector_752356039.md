@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.Media.Casting.CastingDevice.GetDeviceSelector(Windows.Media.Casting.CastingPlaybackTypes)
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.ApplicationModel.Chat.RcsManager.LeaveConversationAsync(Windows.ApplicationModel.Chat.ChatConversation)
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

@@ -58,7 +58,7 @@ The *clear all* button is not shown in any of these cases:
 
 + [IsReadOnly](textbox_isreadonly.md) is **true**
 + [AcceptsReturn](textbox_acceptsreturn.md) is **true**
-+ [TextWrapping](textbox_textwrapping.md) is **Wrap**
++ [TextWrap](textbox_textwrapping.md) has a value other than **NoWrap**
 
 
 ### Make a TextBox read-only
@@ -69,7 +69,7 @@ You can make a [TextBox](textbox.md) read-only by setting the [IsReadOnly](textb
 
 There are two properties that control whether the [TextBox](textbox.md) displays text on more than one line. 
 + To let the text box allow and display the newline or return characters, set the [AcceptsReturn](textbox_acceptsreturn.md) property to **true**.
-+ To enable text wrapping, set the [TextWrapping](textbox_textwrapping.md) property to **Wrap**. ([TextBox](textbox.md) doesn't support the **TextWrapping.WrapWholeWords** enumeration value.)
++ To enable text wrapping, set the [TextWrap](textbox_textwrapping.md) property to **Wrap**. ([TextBox](textbox.md) doesn't support the **TextWrapping.WrapWholeWords** enumeration value.)
  A multi-line [TextBox](textbox.md) will continue to grow vertically as text is entered unless it’s constrained by its [Height](../windows.ui.xaml/frameworkelement_height.md) or [MaxHeight](../windows.ui.xaml/frameworkelement_maxheight.md) property, or by a parent container. You should test that a multi-line [TextBox](textbox.md) doesn’t grow beyond its visible area, and constrain its growth if it does. Scrolling using a scroll-wheel or touch is automatically enabled when needed. However, vertical scrollbars are not shown by default. You can show the vertical scrollbars by setting the [ScrollViewer.VerticalScrollBarVisibility](scrollviewer_verticalscrollbarvisibility.md) to **Auto** on the embedded [ScrollViewer](scrollviewer.md), as shown here.
 
 ```xaml

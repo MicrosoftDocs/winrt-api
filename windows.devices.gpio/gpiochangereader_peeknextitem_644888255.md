@@ -15,13 +15,11 @@ Retrieves the earlier inserted change record from the reader's buffer, without r
 ## -parameters
 
 ## -returns
-A [GpioChangeRecord](gpiochangerecord.md) structure containing the timestamp and polarity (rising or falling) of the change.
+[GpioChangeRecord](gpiochangerecord.md)
+
+A structure containing the timestamp and polarity (rising or falling) of the change.
 
 ## -remarks
-
-The following exception can be thrown by this method:
-
-* HRESULT_FROM_WIN32(ERROR_NO_MORE_ITEMS) - the reader's buffer is empty.
 
 ## -see-also
 

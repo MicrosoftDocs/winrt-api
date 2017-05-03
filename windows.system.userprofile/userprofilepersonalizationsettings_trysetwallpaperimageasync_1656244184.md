@@ -17,8 +17,8 @@ Attempts to set the specified image file as the desktop wallpaper image.
 The image to set as the desktop background.
 
 ## -returns
-The result of the async operation.
-**true** if the background image was set successfully; otherwise, **false**.
+The result of the async operation. **
+            true** if the background image was set successfully; otherwise, **false**.
 
 ## -remarks
 <!--{annotation author="jimwalk" time="10/29/2015 3:12:04 PM"}This is the result of a bug, which might be fixed after TH2.-->

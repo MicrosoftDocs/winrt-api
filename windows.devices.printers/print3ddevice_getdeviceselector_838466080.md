@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.Devices.Printers.Print3DDevice.GetDeviceSelector
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

@@ -20,7 +20,7 @@ A point on the map to convert to a geographic location.
 When this method returns, contains the corresponding geographic location.
 
 ## -remarks
-This method will throw an exception if the point is invalid.
+Compare the [GetOffsetFromLocation](mapcontrol_getoffsetfromlocation.md) method. This method will throw an exception if the point is invalid.
 
 ## -examples
 

@@ -10,17 +10,14 @@ public MapStyleSheet MapStyleSheet.RoadHighContrastDark()
 # Windows.UI.Xaml.Controls.Maps.MapStyleSheet.RoadHighContrastDark
 
 ## -description
-Gets a [MapStyleSheet](mapstylesheet.md) styles the map with a high contrast dark theme.
+Gets a [MapStyleSheet](mapstylesheet.md) styles the map with a black background with white lines that represent roads.
 
 ## -params
 
 ## -returns
-A [MapStyleSheet](mapstylesheet.md) styles the map with a high contrast dark theme.
+A [MapStyleSheet](mapstylesheet.md) styles the map with a black background with white lines that represent roads.
 
 ## -remarks
-High contrast themes use a small palette of contrasting colors that makes the interface easier to see.
-
-See [High contrast themes](https://docs.microsoft.com/windows/uwp/accessibility/high-contrast-themes).
 
 ## -see-also
 

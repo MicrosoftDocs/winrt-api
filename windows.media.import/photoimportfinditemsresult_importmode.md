@@ -1,7 +1,6 @@
 ---
 -api-id: P:Windows.Media.Import.PhotoImportFindItemsResult.ImportMode
 -api-type: winrt property
--api-device-family-note: xbox
 ---
 
 <!-- Property syntax

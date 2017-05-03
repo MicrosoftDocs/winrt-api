@@ -1,7 +1,6 @@
 ---
 -api-id: T:Windows.ApplicationModel.Chat.ChatRestoreHistorySpan
 -api-type: winrt enum
--api-device-family-note: xbox
 ---
 
 <!-- Enumeration syntax

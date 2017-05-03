@@ -10,7 +10,7 @@ public double RasterizePixelHeight { get;  set; }
 # Windows.UI.Xaml.Media.Imaging.SvgImageSource.RasterizePixelHeight
 
 ## -description
-Gets or sets the height to use for SVG rasterization operations.
+Gets or sets the height to use for image rasterization operations.
 
 ## -xaml-syntax
 ```xaml
@@ -18,13 +18,11 @@ Gets or sets the height to use for SVG rasterization operations.
 ```
 
 ## -property-value
-The height (in logical pixels) to use for SVG decoding operations. The default is **Double.NaN**.
+The height (in pixels) to use for image rasterization operations. The default is **Double.NaN**.
 
 ## -remarks
-Since the units are logical pixels, the SVG is decoded using values that are pre-factored for the logical resolution, and it potentially won't use as much memory.
 
-If [RasterizePixelHeight](svgimagesource_rasterizepixelheight.md) and [RasterizePixelWidth](svgimagesource_rasterizepixelwidth.md) aren't explicitly set, then the application's layout will determine the decode size so that the [SvgImageSource](svgimagesource.md) fits
-in the available space.
+## -see-also
 
-
+## -examples
 

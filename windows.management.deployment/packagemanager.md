@@ -12,6 +12,9 @@ public class PackageManager : Windows.Management.Deployment.IPackageManager, Win
 ## -description
 Manages the software available to a user.
 
+> [!IMPORTANT]
+> You can't use this class in a Windows Store app.
+
 ## -remarks
 
 ## -examples

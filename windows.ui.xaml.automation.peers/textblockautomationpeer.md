@@ -13,7 +13,7 @@ public class TextBlockAutomationPeer : Windows.UI.Xaml.Automation.Peers.Framewor
 Exposes [TextBlock](../windows.ui.xaml.controls/textblock.md) types to Microsoft UI Automation.
 
 ## -remarks
-The Windows Runtime  [TextBlock](../windows.ui.xaml.controls/textblock.md) class creates a new [TextBlockAutomationPeer](textblockautomationpeer.md) as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. [TextBlock](../windows.ui.xaml.controls/textblock.md) is sealed, so the normal scenario of deriving from the [TextBlock](../windows.ui.xaml.controls/textblock.md) class and its existing peer isn't applicable to [TextBlockAutomationPeer](textblockautomationpeer.md).
+The Windows Runtime  [TextBlock](../windows.ui.xaml.controls/textblock.md) class creates a new [TextBlockAutomationPeer](textblockautomationpeer.md) as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer.md) definition. [TextBlock](../windows.ui.xaml.controls/textblock.md) is sealed, so the normal scenario of deriving from the [TextBlock](../windows.ui.xaml.controls/textblock.md) class and its existing peer isn't applicable to [TextBlockAutomationPeer](textblockautomationpeer.md).
 
 ### Default peer implementation and overrides in **TextBlockAutomationPeer**
 

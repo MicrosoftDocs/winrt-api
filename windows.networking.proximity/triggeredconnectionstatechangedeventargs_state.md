@@ -1,7 +1,6 @@
 ---
 -api-id: P:Windows.Networking.Proximity.TriggeredConnectionStateChangedEventArgs.State
 -api-type: winrt property
--api-device-family-note: xbox
 ---
 
 <!-- Property syntax

@@ -24,12 +24,12 @@ The [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md), or null
 
 [CreatePeerForElement](frameworkelementautomationpeer_createpeerforelement.md) has basically the same behavior as [FromElement](frameworkelementautomationpeer_fromelement.md).
 
-If [FromElement](frameworkelementautomationpeer_fromelement.md) returns **null**, it's probably because the element you passed does not have an implementation for [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md).
+If [FromElement](frameworkelementautomationpeer_fromelement.md) returns **null**, it's probably because the element you passed does not have an implementation for [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer.md).
 
 [FromElement](frameworkelementautomationpeer_fromelement.md) can return the peer even if the **CreateAutomationPeer** system logic hasn't run yet on the *element* target for some reason. It will invoke the same **CreateAutomationPeer** logic internally in order to get the peer.
 
 ## -examples
-The automation support design doesn't retain a handle to your own peer as part of how you implement [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md), because there aren't any guarantees of when the peer is actually created. Instead, you can check for run-time automation event listeners inside your control class definitions just-in-time, using code like this:
+The automation support design doesn't retain a handle to your own peer as part of how you implement [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer.md), because there aren't any guarantees of when the peer is actually created. Instead, you can check for run-time automation event listeners inside your control class definitions just-in-time, using code like this:
 
 ```csharp
 if (AutomationPeer.ListenerExists(AutomationEvents.PropertyChanged))

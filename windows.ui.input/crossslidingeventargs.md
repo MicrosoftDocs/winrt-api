@@ -1,7 +1,6 @@
 ---
 -api-id: T:Windows.UI.Input.CrossSlidingEventArgs
 -api-type: winrt class
--api-device-family-note: xbox
 ---
 
 <!-- Class syntax.

@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.Media.DialProtocol.DialDevicePicker.SetDisplayStatus(Windows.Media.DialProtocol.DialDevice,Windows.Media.DialProtocol.DialDeviceDisplayStatus)
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

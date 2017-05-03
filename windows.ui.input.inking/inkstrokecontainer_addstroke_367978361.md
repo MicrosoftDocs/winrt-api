@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.UI.Input.Inking.InkStrokeContainer.AddStroke(Windows.UI.Input.Inking.InkStroke)
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

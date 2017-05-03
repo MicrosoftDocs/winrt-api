@@ -1,7 +1,6 @@
 ---
 -api-id: T:Windows.Networking.Proximity.PeerRole
 -api-type: winrt enum
--api-device-family-note: xbox
 ---
 
 <!-- Enumeration syntax

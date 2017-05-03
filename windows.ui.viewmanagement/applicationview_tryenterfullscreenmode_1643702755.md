@@ -13,7 +13,8 @@ public bool TryEnterFullScreenMode()
 Attempts to place the app in full-screen mode.
 
 ## -returns
-**true** if the app is placed in full-screen mode; otherwise, **false**.
+**
+            true** if the app is placed in full-screen mode; otherwise, **false**.
 
 ## -remarks
 To preserve full screen mode when a user restarts the app, set [PreferredLaunchWindowingMode](applicationview_preferredlaunchwindowingmode.md) to **FullScreen** if the call to [TryEnterFullScreenMode](applicationview_tryenterfullscreenmode.md) returns **true**. When you call [ExitFullScreenMode](applicationview_exitfullscreenmode.md), you should set [PreferredLaunchWindowingMode](applicationview_preferredlaunchwindowingmode.md) back to **Auto** or **PreferredLaunchViewSize**.

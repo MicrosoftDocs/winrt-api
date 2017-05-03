@@ -17,7 +17,7 @@ Sets the value of the [AutomationProperties.AccessibilityView](automationpropert
 The [DependencyObject](../windows.ui.xaml/dependencyobject.md) to set the attached property on.
 
 ### -param value
-The enumeration value to set.
+The enumeration value to set
 
 ## -remarks
 

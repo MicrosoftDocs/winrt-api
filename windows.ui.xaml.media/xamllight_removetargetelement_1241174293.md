@@ -10,14 +10,14 @@ public void XamlLight.RemoveTargetElement(String lightId, UIElement element)
 # Windows.UI.Xaml.Media.XamlLight.RemoveTargetElement
 
 ## -description
-Stops a [UIElement](https://docs.microsoft.com/en-us/uwp/api/Windows.UI.Xaml.UIElement) from being a target of a [XamlLight](XamlLight.md).
+Removes a UIElement from being a target of a compostion light.
 
 ## -params
 ### -param lightId
-The identifier for the [XamlLight](XamlLight.md) that should no longer target the [UIElement](https://docs.microsoft.com/en-us/uwp/api/Windows.UI.Xaml.UIElement).
+The identifier for the compostion light.
 
 ### -param element
-The [UIElement](https://docs.microsoft.com/en-us/uwp/api/Windows.UI.Xaml.UIElement) that the light should no longer target.
+The element that the compostion light targets.
 
 ## -remarks
 

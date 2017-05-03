@@ -10,10 +10,10 @@ public BackgroundTaskRegistrationGroup TaskGroup { get; }
 # Windows.ApplicationModel.Background.IBackgroundTaskRegistration3.TaskGroup
 
 ## -description
-Gets the [BackgroundTaskRegistrationGroup](backgroundtaskregistrationgroup.md) that this **BackgroundTaskRegistration** is a part of.
+Gets the **BackgroundTaskRegistrationGroup** that this **BackgroundTaskRegistration** is a part of.
 
 ## -property-value
-The **BackgroundTaskRegistrationGroup** that this [BackgroundTaskRegistration](backgroundtaskregistration.md) is a part of.
+The **BackgroundTaskRegistrationGroup** that this **BackgroundTaskRegistration** is a part of.
 
 ## -remarks
 

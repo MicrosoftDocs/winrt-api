@@ -1,7 +1,6 @@
 ---
 -api-id: T:Windows.Devices.WiFiDirect.WiFiDirectConnectionRequestedEventArgs
 -api-type: winrt class
--api-device-family-note: xbox
 ---
 
 <!-- Class syntax.

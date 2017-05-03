@@ -4,13 +4,13 @@
 ---
 
 <!-- Enumeration syntax.
-public enum BluetoothEventTriggeringMode : int
+public enum BluetoothEventTriggeringMode : int 
 -->
 
 # Windows.Devices.Bluetooth.Background.BluetoothEventTriggeringMode
 
 ## -description
-This enumeration represents a Bluetooth background event triggering mode.
+This enumeration represents a Bluetooth backgorund event triggering mode.
 ## -enum-fields
 ### -field Serial:0
 The triggering method is serial.
@@ -19,10 +19,11 @@ The triggering method is serial.
 The triggering mode is keep latest.
 
 ### -field Batch:1
-The triggering mode is batch.
+The triggering mdoe is batch.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
+

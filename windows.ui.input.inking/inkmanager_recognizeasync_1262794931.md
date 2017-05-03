@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.UI.Input.Inking.InkManager.RecognizeAsync(Windows.UI.Input.Inking.InkRecognitionTarget)
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

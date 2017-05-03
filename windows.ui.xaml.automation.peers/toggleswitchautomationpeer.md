@@ -13,7 +13,7 @@ public class ToggleSwitchAutomationPeer : Windows.UI.Xaml.Automation.Peers.Frame
 Exposes [ToggleSwitch](../windows.ui.xaml.controls/toggleswitch.md) types to Microsoft UI Automation.
 
 ## -remarks
-The Windows Runtime  [ToggleSwitch](../windows.ui.xaml.controls/toggleswitch.md) class creates a new [ToggleSwitchAutomationPeer](toggleswitchautomationpeer.md) as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. [ToggleSwitch](../windows.ui.xaml.controls/toggleswitch.md) is sealed, so the normal scenario of deriving from the [ToggleSwitch](../windows.ui.xaml.controls/toggleswitch.md) class and its existing peer isn't applicable to [ToggleSwitchAutomationPeer](toggleswitchautomationpeer.md).
+The Windows Runtime  [ToggleSwitch](../windows.ui.xaml.controls/toggleswitch.md) class creates a new [ToggleSwitchAutomationPeer](toggleswitchautomationpeer.md) as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer.md) definition. [ToggleSwitch](../windows.ui.xaml.controls/toggleswitch.md) is sealed, so the normal scenario of deriving from the [ToggleSwitch](../windows.ui.xaml.controls/toggleswitch.md) class and its existing peer isn't applicable to [ToggleSwitchAutomationPeer](toggleswitchautomationpeer.md).
 
 ### Default peer implementation and overrides in **ToggleSwitchAutomationPeer**
 

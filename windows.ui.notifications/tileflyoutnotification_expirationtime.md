@@ -1,7 +1,6 @@
 ---
 -api-id: P:Windows.UI.Notifications.TileFlyoutNotification.ExpirationTime
 -api-type: winrt property
--api-device-family-note: xbox
 ---
 
 <!-- Property syntax

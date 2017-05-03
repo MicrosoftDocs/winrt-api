@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.System.FolderLauncherOptions.#ctor
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

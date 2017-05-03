@@ -1,4 +1,4 @@
-.---
+---
 -api-id: T:Windows.ApplicationModel.Contacts.ContactListOtherAppReadAccess
 -api-type: winrt enum
 ---
@@ -14,16 +14,16 @@ Specifies the level of contact read access granted to other apps.
 
 ## -enum-fields
 ### -field SystemOnly:0
-Only apps specially provisioned by Microsoft can read these contacts.
+Other apps can only read system contacts.
 
 ### -field Limited:1
-All apps can read the DisplayName and Picture properties, other properites are only available to specially provisioned apps.
+Other apps can only read contacts for this app.
 
 ### -field Full:2
-All apps can read all properties.
+Other apps have read access to system and app contacts.
 
 ### -field None:3
-No other apps can read any of the contact information.
+Other apps cannot access any contacts.
 
 
 ## -remarks

@@ -1,7 +1,6 @@
 ---
 -api-id: P:Windows.Data.Text.TextReverseConversionGenerator.LanguageAvailableButNotInstalled
 -api-type: winrt property
--api-device-family-note: xbox
 ---
 
 <!-- Property syntax

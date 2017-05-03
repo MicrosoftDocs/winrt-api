@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.Devices.WiFiDirect.WiFiDirectInformationElement.CreateFromDeviceInformation(Windows.Devices.Enumeration.DeviceInformation)
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

@@ -27,7 +27,7 @@ You create a [MacAlgorithmProvider](macalgorithmprovider.md) object by calling t
 ## -examples
 
 
-[!code-csharp[ShowMacAlgProviderClass](../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowMacAlgProviderClass)]
+[!code-csharp[ShowMacAlgProviderClass] (../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowMacAlgProviderClass)]
 
 ## -see-also
 [HashAlgorithmProvider](hashalgorithmprovider.md)

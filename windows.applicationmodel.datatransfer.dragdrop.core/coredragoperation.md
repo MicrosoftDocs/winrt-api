@@ -1,7 +1,6 @@
 ---
 -api-id: T:Windows.ApplicationModel.DataTransfer.DragDrop.Core.CoreDragOperation
 -api-type: winrt class
--api-device-family-note: xbox
 ---
 
 <!-- Class syntax.

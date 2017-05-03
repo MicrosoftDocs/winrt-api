@@ -31,7 +31,6 @@ The [File picker sample](http://go.microsoft.com/fwlink/p/?linkid=234890) demons
 
 [!code-js[all_savepicker_checksnapped_show](../windows.storage.pickers/code/FilePicker/js/js/scenario4.js#Snippetall_savepicker_checksnapped_show)]
 
-[!code-cpp[all_savepicker_checksnapped_show](../windows.storage.pickers/code/FilePicker/CPP/Scenario4.xaml.cpp#Snippetall_savepicker_checksnapped_show)]
 
 
 [!code-csharp[cs_checksnapped](../windows.storage.pickers/code/FilePicker/CS/Constants.cs#Snippetcs_checksnapped)]

@@ -10,7 +10,7 @@ public SolidColorBrush SelectionHighlightColorWhenNotFocused { get;  set; }
 # Windows.UI.Xaml.Controls.TextBox.SelectionHighlightColorWhenNotFocused
 
 ## -description
-Gets or sets the brush used to highlight the selected text when the TextBox does not have focus.
+Gets or sets the brush used to highlight the selected text when it doesn't have focus.
 
 ## -xaml-syntax
 ```xaml
@@ -29,7 +29,7 @@ Gets or sets the brush used to highlight the selected text when the TextBox does
 </dl>
 
 ## -property-value
-The brush used to highlight the selected text when [TextBox](textbox.md) loses focus. The default is a null brush from a pure code perspective, but the default control template for [TextBox](textbox.md) applies a Transparent brush for this in a runtime instance of a [TextBox](textbox.md) control. To disable the SelectionHighlightColorWhenNotFocused, set the brush to Transparent once again.
+The brush used to highlight the selected text. The default is a null brush from a pure code perspective, but the default control template for TextBox applies a theme resource brush for this in a runtime instance of a TextBox control.
 
 ## -remarks
 
@@ -37,5 +37,4 @@ The brush used to highlight the selected text when [TextBox](textbox.md) loses f
 [SelectionHighlightColor](textbox_selectionhighlightcolor.md)
 
 ## -examples
-
 

@@ -1,7 +1,6 @@
 ---
 -api-id: E:Windows.Devices.Sms.SmsDevice2.DeviceStatusChanged
 -api-type: winrt event
--api-device-family-note: xbox
 ---
 
 <!-- Event syntax

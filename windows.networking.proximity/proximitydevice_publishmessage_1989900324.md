@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.Networking.Proximity.ProximityDevice.PublishMessage(System.String,System.String,Windows.Networking.Proximity.MessageTransmittedHandler)
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

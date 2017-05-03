@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.Devices.AllJoyn.AllJoynCredentialsVerificationRequestedEventArgs.Accept
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

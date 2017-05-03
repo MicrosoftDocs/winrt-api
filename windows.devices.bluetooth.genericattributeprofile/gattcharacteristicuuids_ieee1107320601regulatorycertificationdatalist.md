@@ -1,7 +1,6 @@
 ---
 -api-id: P:Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.Ieee1107320601RegulatoryCertificationDataList
 -api-type: winrt property
--api-device-family-note: xbox
 ---
 
 <!-- Property syntax

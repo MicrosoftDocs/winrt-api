@@ -1,7 +1,6 @@
 ---
 -api-id: T:Windows.Storage.Pickers.Provider.TargetFileRequest
 -api-type: winrt class
--api-device-family-note: xbox
 ---
 
 <!-- Class syntax.

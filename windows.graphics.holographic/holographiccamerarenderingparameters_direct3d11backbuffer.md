@@ -1,7 +1,6 @@
 ---
 -api-id: P:Windows.Graphics.Holographic.HolographicCameraRenderingParameters.Direct3D11BackBuffer
 -api-type: winrt property
--api-device-family-note: xbox
 ---
 
 <!-- Property syntax

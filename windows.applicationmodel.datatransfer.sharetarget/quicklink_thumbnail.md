@@ -1,7 +1,6 @@
 ---
 -api-id: P:Windows.ApplicationModel.DataTransfer.ShareTarget.QuickLink.Thumbnail
 -api-type: winrt property
--api-device-family-note: xbox
 ---
 
 <!-- Property syntax

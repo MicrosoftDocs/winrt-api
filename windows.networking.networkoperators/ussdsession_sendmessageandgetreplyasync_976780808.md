@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.Networking.NetworkOperators.UssdSession.SendMessageAndGetReplyAsync(Windows.Networking.NetworkOperators.UssdMessage)
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

@@ -1,7 +1,6 @@
 ---
 -api-id: E:Windows.Graphics.Printing.PrintTask.Submitting
 -api-type: winrt event
--api-device-family-note: xbox
 ---
 
 <!-- Event syntax

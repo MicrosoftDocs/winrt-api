@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.ApplicationModel.DataTransfer.ShareTarget.ShareOperation.ReportError(System.String)
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

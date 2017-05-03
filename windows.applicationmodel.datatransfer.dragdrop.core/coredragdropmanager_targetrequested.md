@@ -1,7 +1,6 @@
 ---
 -api-id: E:Windows.ApplicationModel.DataTransfer.DragDrop.Core.CoreDragDropManager.TargetRequested
 -api-type: winrt event
--api-device-family-note: xbox
 ---
 
 <!-- Event syntax

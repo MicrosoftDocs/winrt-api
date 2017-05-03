@@ -10,14 +10,14 @@ public void SetPositionInSet(Windows.UI.Xaml.DependencyObject element, System.In
 # Windows.UI.Xaml.Automation.AutomationProperties.SetPositionInSet
 
 ## -description
-Sets the value of the [AutomationProperties.PositionInSet](automationproperties_positioninset.md) attached property for the specified [DependencyObject](../windows.ui.xaml/dependencyobject.md).
+Sets the value of the  property for the specified .
 
 ## -parameters
 ### -param element
-The [DependencyObject](../windows.ui.xaml/dependencyobject.md) for which to set the property.
+The specified .
 
 ### -param value
-The value of the property.
+The value of the  property.
 
 ## -remarks
 

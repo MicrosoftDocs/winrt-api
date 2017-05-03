@@ -1,7 +1,6 @@
 ---
 -api-id: E:Windows.UI.ApplicationSettings.AccountsSettingsPane.AccountCommandsRequested
 -api-type: winrt event
--api-device-family-note: xbox
 ---
 
 <!-- Event syntax

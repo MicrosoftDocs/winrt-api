@@ -1,7 +1,6 @@
 ---
 -api-id: P:Windows.Networking.Connectivity.DataPlanStatus.OutboundBitsPerSecond
 -api-type: winrt property
--api-device-family-note: xbox
 ---
 
 <!-- Property syntax

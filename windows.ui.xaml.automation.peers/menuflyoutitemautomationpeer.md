@@ -13,7 +13,7 @@ public class MenuFlyoutItemAutomationPeer : Windows.UI.Xaml.Automation.Peers.Fra
 Exposes [MenuFlyoutItem](../windows.ui.xaml.controls/menuflyoutitem.md) types to Microsoft UI Automation.
 
 ## -remarks
-The Windows Runtime  [MenuFlyoutItem](../windows.ui.xaml.controls/menuflyoutitem.md) class creates a new [MenuFlyoutItemAutomationPeer](menuflyoutitemautomationpeer.md) as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. Derive your automation peer from [MenuFlyoutItemAutomationPeer](menuflyoutitemautomationpeer.md) if you are deriving a custom class from [MenuFlyoutItem](../windows.ui.xaml.controls/menuflyoutitem.md) and want to add automation support for additional features that you enabled in your custom class. Then override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) so that it returns your custom peer.
+The Windows Runtime  [MenuFlyoutItem](../windows.ui.xaml.controls/menuflyoutitem.md) class creates a new [MenuFlyoutItemAutomationPeer](menuflyoutitemautomationpeer.md) as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer.md) definition. Derive your automation peer from [MenuFlyoutItemAutomationPeer](menuflyoutitemautomationpeer.md) if you are deriving a custom class from [MenuFlyoutItem](../windows.ui.xaml.controls/menuflyoutitem.md) and want to add automation support for additional features that you enabled in your custom class. Then override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer.md) so that it returns your custom peer.
 
 ### Default peer implementation and overrides in **MenuFlyoutItemAutomationPeer**
 

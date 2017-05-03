@@ -1,7 +1,6 @@
 ---
 -api-id: T:Windows.Devices.AllJoyn.IAllJoynAcceptSessionJoiner
 -api-type: winrt interface
--api-device-family-note: xbox
 ---
 
 <!-- Interface syntax.

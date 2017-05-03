@@ -23,6 +23,9 @@ Exposes [GridView](../windows.ui.xaml.controls/gridview.md) items to Microsoft U
 + [GetClassName](automationpeer_getclassname.md) returns "GridViewItem".
 + [GetAutomationControlType](automationpeer_getautomationcontroltype.md) returns [AutomationControlType.ListItem](automationcontroltype.md).
 
+<!--TODO investigate whether there is a default Name forwarding. There was something sticky with data bound items not being able to add Name into a tree, but maybe that is separate from the 'data' concept here-->
+
+<!--Not sure where Realize got implemented-->
 The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](http://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4).
 
 ## -examples

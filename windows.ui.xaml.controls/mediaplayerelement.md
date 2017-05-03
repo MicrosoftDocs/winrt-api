@@ -39,6 +39,10 @@ Here’s how to create a [MediaPlayerElement](mediaplayerelement.md) in XAML wit
 <MediaPlayerElement Source="Media/video1.mp4" AutoPlay="True"/>
 ```
 
+```xaml
+
+```
+
 Here’s how to create the [MediaPlayerElement](mediaplayerelement.md) in code.
 
 ```xaml

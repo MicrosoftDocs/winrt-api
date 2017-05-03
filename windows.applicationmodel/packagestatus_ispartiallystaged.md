@@ -10,10 +10,10 @@ public bool IsPartiallyStaged { get; }
 # Windows.ApplicationModel.PackageStatus.IsPartiallyStaged
 
 ## -description
-Indicates whether the package is partially staged.
+Get whether the package is partially staged.
 
 ## -property-value
-**True** means that the package is partially staged; **false**, otherwise.
+**True** indicates that the package is partially staged; **false**, otherwise.
 
 ## -remarks
 

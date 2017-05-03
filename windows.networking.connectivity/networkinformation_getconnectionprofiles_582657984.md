@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.Networking.Connectivity.NetworkInformation.GetConnectionProfiles
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

@@ -19,12 +19,6 @@ The pin on which to count changes. This pin must have been opened in Exclusive m
 
 ## -remarks
 
-The following exceptions can be thrown by this method:
-
-* E_POINTER - The pin passed in is null.
-* HRESULT_FROM_WIN32(ERROR_SHARING_VIOLATION) - The pin is already associated with a change counter. That change counter must be disposed before the pin can be associated with a new change counter.
-* E_ACCESSDENIED - The pin is not opened in Exclusive mode.
-
 ## -see-also
 
 ## -examples

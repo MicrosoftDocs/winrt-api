@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.Devices.Sms.SmsDevice2.SendMessageAndGetResultAsync(Windows.Devices.Sms.ISmsMessageBase)
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

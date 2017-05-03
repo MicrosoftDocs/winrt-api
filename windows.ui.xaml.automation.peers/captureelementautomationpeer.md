@@ -13,7 +13,7 @@ public class CaptureElementAutomationPeer : Windows.UI.Xaml.Automation.Peers.Fra
 Exposes [CaptureElement](../windows.ui.xaml.controls/captureelement.md) types to Microsoft UI Automation.
 
 ## -remarks
-The Windows Runtime  [CaptureElement](../windows.ui.xaml.controls/captureelement.md) class creates a new [CaptureElementAutomationPeer](captureelementautomationpeer.md) as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. [CaptureElement](../windows.ui.xaml.controls/captureelement.md) is sealed, so the normal scenario of deriving from the class and its existing peer isn't applicable to [CaptureElementAutomationPeer](captureelementautomationpeer.md).
+The Windows Runtime  [CaptureElement](../windows.ui.xaml.controls/captureelement.md) class creates a new [CaptureElementAutomationPeer](captureelementautomationpeer.md) as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer.md) definition. [CaptureElement](../windows.ui.xaml.controls/captureelement.md) is sealed, so the normal scenario of deriving from the class and its existing peer isn't applicable to [CaptureElementAutomationPeer](captureelementautomationpeer.md).
 
 Also, the [CaptureElement](../windows.ui.xaml.controls/captureelement.md) isn't focusable, which limits its participation in a Microsoft UI Automation tree view of the UI.
 

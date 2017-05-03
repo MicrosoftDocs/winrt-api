@@ -26,7 +26,7 @@ Specifies the type of the asynchronous read operation.
 The asynchronous operation.
 
 ## -remarks
-Always read data from the buffer returned in the [IAsyncOperationWithProgress(IBuffer, UInt32)](../windows.foundation/iasyncoperationwithprogress_2.md). Don't assume that the input buffer contains the data. Depending on the implementation, the data that's read might be placed into the input buffer, or it might be returned in a different buffer. For the input buffer, you don't have to implement the [IBuffer](ibuffer.md) interface. Instead, you can create an instance of the [Buffer](buffer.md) class.
+Always read data from the buffer returned in the [IAsyncOperationWithProgress(IBuffer, UInt32)](../windows.foundation/iasyncoperationwithprogress_2.md). Don't assume that the input buffer contains the data. Depending on the implementation, the data that's read might be placed into the input buffer, or it might be returned in a different buffer.For the input buffer, you don't have to implement the [IBuffer](ibuffer.md) interface. Instead, you can create an instance of the [Buffer](buffer.md) class.
 
 Also consider reading a buffer into an [IInputStream](iinputstream.md) by using the [ReadBuffer](datareader_readbuffer.md) method of the [DataReader](datareader.md) class.
 

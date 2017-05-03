@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristic.WriteValueAsync(Windows.Storage.Streams.IBuffer)
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

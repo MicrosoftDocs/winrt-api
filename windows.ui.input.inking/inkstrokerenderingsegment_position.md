@@ -1,7 +1,6 @@
 ---
 -api-id: P:Windows.UI.Input.Inking.InkStrokeRenderingSegment.Position
 -api-type: winrt property
--api-device-family-note: xbox
 ---
 
 <!-- Property syntax

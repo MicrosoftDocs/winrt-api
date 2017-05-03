@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.Devices.PointOfService.ClaimedJournalPrinter.ValidateData(System.String)
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

@@ -1,7 +1,6 @@
 ---
 -api-id: T:Windows.UI.ApplicationSettings.CredentialCommandCredentialDeletedHandler
 -api-type: winrt delegate
--api-device-family-note: xbox
 ---
 <!-- Delegate syntax.
 public delegate void CredentialCommandCredentialDeletedHandler(Windows.UI.ApplicationSettings.CredentialCommand command)

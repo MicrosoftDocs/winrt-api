@@ -25,29 +25,25 @@ The flight stick that was returned from the given game controller.
 
 ## -remarks
 
-This method checks if the provided game controller has a flight stick implementation, and if so, it returns that implementation. You might use this method if you want to first get the controller as a [RawGameController](rawgamecontroller.md), and then see if it can be used as a **FlightStick**&mdash;if so, you can use a default control scheme for flight sticks, otherwise you can let the player do their own input mapping.
-
 ## -see-also
 
 * [Windows.Gaming.Input.IGameController](igamecontroller.md)
 
 ## -examples
 
-In the following example, the app gets the first available [RawGameController](rawgamecontroller.md) object, and tries to access this game controller via the **FlightStick** class:
+<!--In the following example, the app gets the first available [RawGameController](rawgamecontroller.md) object, and tries to access this game controller via the `FlightStick` class.
 
-```cpp
-FlightStick^ flightStick;
+```csharp
+FlightStick flightStick = null;
 
-if (RawGameController::RawGameControllers->Size > 0)
+if (RawGameController.RawGameControllers.Count > 0)
 {
-    RawGameController^ rawGameController = 
-        RawGameController::RawGameControllers->GetAt(0);
-        
-    flightStick = FlightStick::FromGameController(rawGameController);
+    RawGameController rawGameController = RawGameController.RawGameControllers[0];
+    flightStick = FlightStick.FromGameController(rawGameController);
 }
 
-if (flightStick != nullptr)
+if (flightStick != null) 
 {
     // Assign a standard button mapping to this controller.
 }
-```
+```-->

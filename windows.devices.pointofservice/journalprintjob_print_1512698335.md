@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.Devices.PointOfService.JournalPrintJob.Print(System.String)
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

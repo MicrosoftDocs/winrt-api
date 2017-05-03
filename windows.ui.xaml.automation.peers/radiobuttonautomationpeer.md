@@ -13,7 +13,7 @@ public class RadioButtonAutomationPeer : Windows.UI.Xaml.Automation.Peers.Toggle
 Exposes [RadioButton](../windows.ui.xaml.controls/radiobutton.md) types to Microsoft UI Automation.
 
 ## -remarks
-The Windows Runtime  [RadioButton](../windows.ui.xaml.controls/radiobutton.md) class creates a new [RadioButtonAutomationPeer](radiobuttonautomationpeer.md) as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. Derive your automation peer from [RadioButtonAutomationPeer](radiobuttonautomationpeer.md) if you are deriving a custom class from [RadioButton](../windows.ui.xaml.controls/radiobutton.md) and want to add automation support for additional features that you enabled in your custom class. Then override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) so that it returns your custom peer.
+The Windows Runtime  [RadioButton](../windows.ui.xaml.controls/radiobutton.md) class creates a new [RadioButtonAutomationPeer](radiobuttonautomationpeer.md) as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer.md) definition. Derive your automation peer from [RadioButtonAutomationPeer](radiobuttonautomationpeer.md) if you are deriving a custom class from [RadioButton](../windows.ui.xaml.controls/radiobutton.md) and want to add automation support for additional features that you enabled in your custom class. Then override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer.md) so that it returns your custom peer.
 
 ### Default peer implementation and overrides in **RadioButtonAutomationPeer**
 

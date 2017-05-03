@@ -1,7 +1,6 @@
 ---
 -api-id: T:Windows.Media.Capture.CameraCaptureUIPhotoFormat
 -api-type: winrt enum
--api-device-family-note: xbox
 ---
 
 <!-- Enumeration syntax

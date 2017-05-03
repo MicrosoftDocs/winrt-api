@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.Data.Text.TextReverseConversionGenerator.ConvertBackAsync(System.String)
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

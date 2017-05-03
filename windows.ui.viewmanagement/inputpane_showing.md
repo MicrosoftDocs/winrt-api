@@ -21,6 +21,12 @@ You can use the [Showing](inputpane_showing.md) event to create a custom user ex
 
 You should minimize the amount of work you do while the input pane is being shown because multiple animations and content resizes may be happening simultaneously. The more work you do during this period affects the overall system performance, causing a poor user experience.
 
+
+
+> In some cases, overlay UI such as an [InputPane](inputpane.md) is not fully supported. This includes:+ [ apps](https://msdn.microsoft.com/en-us/windows/uwp/gaming/index) in full-screen mode.
++ Windows Holographic apps in [holographic view](https://developer.microsoft.com/en-us/windows/holographic/app_model#app_views).
+
+
 ## -examples
 
 ## -see-also

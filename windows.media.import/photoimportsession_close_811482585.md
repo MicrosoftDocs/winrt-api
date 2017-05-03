@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.Media.Import.PhotoImportSession.Close
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

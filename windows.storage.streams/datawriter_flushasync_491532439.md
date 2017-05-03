@@ -9,7 +9,8 @@ public Windows.Foundation.IAsyncOperation<bool> FlushAsync()
 
 # Windows.Storage.Streams.DataWriter.FlushAsync
 
-## -description  
+## -description
+<!--{annotation author="miriamw" time="6/1/2012 1:04:52 PM"}Description contained link to an API that DNE. Used other flushAsync method description to rewrite this one. Original description appears in comment immediately following.-->
 Flushes data asynchronously.
 
 
@@ -19,7 +20,6 @@ Flushes data asynchronously.
 The stream flush operation.
 
 ## -remarks
-The FlushAsync method may produce latencies and does not always guarantee durable and coherent storage of data. It's generally recommended to avoid this method if possible.
 
 ## -examples
 

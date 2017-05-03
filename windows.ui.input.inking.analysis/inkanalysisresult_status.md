@@ -8,9 +8,9 @@ public InkAnalysisStatus Status { get; }
 -->
 
 # Windows.UI.Input.Inking.Analysis.InkAnalysisResult.Status
+Gets the [status](inkanalysisstatus.md) of the ink analysis operation, such as whether any changes were applied.
 
 ## -description
-Gets the [status](inkanalysisstatus.md) of the ink analysis operation, such as whether any changes were applied.
 
 ## -remarks
 

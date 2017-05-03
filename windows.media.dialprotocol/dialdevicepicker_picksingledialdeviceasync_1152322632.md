@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.Media.DialProtocol.DialDevicePicker.PickSingleDialDeviceAsync(Windows.Foundation.Rect)
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

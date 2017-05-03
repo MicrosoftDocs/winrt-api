@@ -1,7 +1,6 @@
 ---
 -api-id: P:Windows.Security.Credentials.KeyCredentialAttestationResult.AttestationBuffer
 -api-type: winrt property
--api-device-family-note: xbox
 ---
 
 <!-- Property syntax

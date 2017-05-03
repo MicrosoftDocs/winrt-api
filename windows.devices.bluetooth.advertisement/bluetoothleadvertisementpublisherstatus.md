@@ -1,7 +1,6 @@
 ---
 -api-id: T:Windows.Devices.Bluetooth.Advertisement.BluetoothLEAdvertisementPublisherStatus
 -api-type: winrt enum
--api-device-family-note: xbox
 ---
 
 <!-- Enumeration syntax

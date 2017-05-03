@@ -10,7 +10,7 @@ public void VisualInteractionSource.ConfigureDeltaPositionXModifiers(IIterable<C
 # Windows.UI.Composition.Interactions.VisualInteractionSource.ConfigureDeltaPositionXModifiers
 
 ## -description
-Takes an ordered list of CompositionConditionalValue. In a frame, the first CompositionConditionalValue to have its “.Condition” evaluate to true replaces the DeltaPositionX value the VisualInteractionSource provides with its “.Value”. If none evaluate to true, the DeltaPositionX is not replaced that frame.
+Configures position modifiers for the X direction.
 
 ## -parameters
 

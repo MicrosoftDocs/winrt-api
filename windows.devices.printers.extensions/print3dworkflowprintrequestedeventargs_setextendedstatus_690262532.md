@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.Devices.Printers.Extensions.Print3DWorkflowPrintRequestedEventArgs.SetExtendedStatus(Windows.Devices.Printers.Extensions.Print3DWorkflowDetail)
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

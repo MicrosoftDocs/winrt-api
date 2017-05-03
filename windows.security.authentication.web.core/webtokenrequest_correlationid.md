@@ -10,10 +10,10 @@ public string CorrelationId { get;  set; }
 # Windows.Security.Authentication.Web.Core.WebTokenRequest.CorrelationId
 
 ## -description
-Gets and sets a correlation Id, a unique identifier used for tracking authentication-related requests.
+Gets and sets the correlation Id.
 
 ## -property-value
-The correlation Id for this request.
+The correlation Id.
 
 ## -remarks
 

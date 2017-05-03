@@ -1,7 +1,6 @@
 ---
 -api-id: E:Windows.Networking.NetworkOperators.MobileBroadbandAccountWatcher.AccountAdded
 -api-type: winrt event
--api-device-family-note: xbox
 ---
 
 <!-- Event syntax

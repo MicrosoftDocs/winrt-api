@@ -1,7 +1,6 @@
 ---
 -api-id: P:Windows.Graphics.Printing.OptionDetails.PrintCustomTextOptionDetails.DisplayName
 -api-type: winrt property
--api-device-family-note: xbox
 ---
 
 <!-- Property syntax

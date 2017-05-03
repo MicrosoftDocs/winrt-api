@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.Devices.WiFiDirect.WiFiDirectAdvertisementPublisher.Stop
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

@@ -1,7 +1,6 @@
 ---
 -api-id: T:Windows.UI.Input.Inking.InkStrokeContainer
 -api-type: winrt class
--api-device-family-note: xbox
 ---
 
 <!-- Class syntax.

@@ -1,7 +1,6 @@
 ---
 -api-id: T:Windows.Devices.Radios.RadioState
 -api-type: winrt enum
--api-device-family-note: xbox
 ---
 
 <!-- Enumeration syntax

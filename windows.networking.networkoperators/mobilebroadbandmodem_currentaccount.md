@@ -1,7 +1,6 @@
 ---
 -api-id: P:Windows.Networking.NetworkOperators.MobileBroadbandModem.CurrentAccount
 -api-type: winrt property
--api-device-family-note: xbox
 ---
 
 <!-- Property syntax

@@ -13,7 +13,7 @@ public class RichTextBlockAutomationPeer : Windows.UI.Xaml.Automation.Peers.Fram
 Exposes [RichTextBlock](../windows.ui.xaml.controls/richtextblock.md) types to Microsoft UI Automation.
 
 ## -remarks
-The Windows Runtime  [RichTextBlock](../windows.ui.xaml.controls/richtextblock.md) class creates a new [RichTextBlockAutomationPeer](richtextblockautomationpeer.md) as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. [RichTextBlock](../windows.ui.xaml.controls/richtextblock.md) is sealed, so the normal scenario of deriving from the [RichTextBlock](../windows.ui.xaml.controls/richtextblock.md) class and its existing peer isn't applicable to [RichTextBlockAutomationPeer](richtextblockautomationpeer.md).
+The Windows Runtime  [RichTextBlock](../windows.ui.xaml.controls/richtextblock.md) class creates a new [RichTextBlockAutomationPeer](richtextblockautomationpeer.md) as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer.md) definition. [RichTextBlock](../windows.ui.xaml.controls/richtextblock.md) is sealed, so the normal scenario of deriving from the [RichTextBlock](../windows.ui.xaml.controls/richtextblock.md) class and its existing peer isn't applicable to [RichTextBlockAutomationPeer](richtextblockautomationpeer.md).
 
 ### Default peer implementation and overrides in **RichTextBlockAutomationPeer**
 

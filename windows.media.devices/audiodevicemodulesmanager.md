@@ -18,6 +18,3 @@ Manages the collections of audio device modules for a audio device pin instance 
 
 ## -examples
 
-## -capabilities
-audioDeviceConfiguration
-

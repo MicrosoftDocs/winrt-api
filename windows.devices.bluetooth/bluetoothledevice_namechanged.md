@@ -1,7 +1,6 @@
 ---
 -api-id: E:Windows.Devices.Bluetooth.BluetoothLEDevice.NameChanged
 -api-type: winrt event
--api-device-family-note: xbox
 ---
 
 <!-- Event syntax

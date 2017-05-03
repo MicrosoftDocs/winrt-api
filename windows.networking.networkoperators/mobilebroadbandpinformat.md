@@ -1,7 +1,6 @@
 ---
 -api-id: T:Windows.Networking.NetworkOperators.MobileBroadbandPinFormat
 -api-type: winrt enum
--api-device-family-note: xbox
 ---
 
 <!-- Enumeration syntax

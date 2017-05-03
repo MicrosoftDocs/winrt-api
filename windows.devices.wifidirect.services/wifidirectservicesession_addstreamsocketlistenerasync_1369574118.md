@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.Devices.WiFiDirect.Services.WiFiDirectServiceSession.AddStreamSocketListenerAsync(Windows.Networking.Sockets.StreamSocketListener)
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

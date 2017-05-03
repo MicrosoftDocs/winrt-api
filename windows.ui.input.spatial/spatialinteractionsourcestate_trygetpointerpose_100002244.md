@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.UI.Input.Spatial.SpatialInteractionSourceState.TryGetPointerPose(Windows.Perception.Spatial.SpatialCoordinateSystem)
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

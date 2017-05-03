@@ -22,15 +22,12 @@ The Store ID of the app or the add-on that you want to purchase for the current 
 ## -returns
 An asynchronous operation that, on successful completion, returns a [StorePurchaseResult](storepurchaseresult.md) object that provides status and error info about the purchase.
 
-## -exceptions
-### System.Runtime.InteropServices.COMException
-
-If the **ErrorCode** property of the exception has the value 0x80070578 (ERROR_INVALID_WINDOW_HANDLE), this indicates that the method was not called on the UI thread. If you are calling this method in a desktop application that uses the Desktop Bridge, this can also indicate that you did not configure the [StoreContext](storecontext.md) object to specify which application window is the owner window for modal dialogs shown by this method. For more information, see [this article](https://docs.microsoft.com/windows/uwp/monetize/in-app-purchases-and-trials#desktop).
-
 ## -remarks
 For more information about using this method, including a code example, see [Enable in-app purchases of apps and add-ons](https://msdn.microsoft.com/windows/uwp/monetize/enable-in-app-purchases-of-apps-and-add-ons).
 
 The Store ID for an app or add-on is available in the Windows Dev Center dashboard, and it is returned by the [StoreId](storeproduct_storeid.md) property of the [StoreProduct](storeproduct.md) that represents the app or add-on.
+
+If this method is not called on the UI thread, the [StorePurchaseResult](storepurchaseresult.md) return value might indicate that an error occurred, and the [ExtendedError](storepurchaseresult_extendederror.md) property could have the value 0x800706be. This value corresponds to the [RPC_S_CALL_FAILED](https://msdn.microsoft.com/en-us/library/windows/desktop/aa378645(v=vs.85).aspx) error code.
 
 ## -examples
 

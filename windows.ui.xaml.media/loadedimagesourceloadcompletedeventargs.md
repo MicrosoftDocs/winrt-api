@@ -10,7 +10,7 @@ public class LoadedImageSourceLoadCompletedEventArgs
 # Windows.UI.Xaml.Media.LoadedImageSourceLoadCompletedEventArgs
 
 ## -description
-Provides event data for the [LoadedImageSurface.LoadCompleted](loadedimagesurface_loadcompleted.md) event.
+Provides event data for the [LoadedImageSource.LoadCompleted](loadedimagesource_loadcompleted.md) event.
 
 ## -remarks
 

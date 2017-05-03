@@ -24,10 +24,7 @@ Use a [DatePicker](datepicker.md) to let a user enter a date value. The user pic
 
 <img src="images/controls/DatePicker.png" alt="Date picker control" />
 
-You can use a [DateTimeFormatter](../windows.globalization.datetimeformatting/datetimeformatter.md) object to format the contents of each [ComboBox](combobox.md) selector. For more info, see [Date picker](https://docs.microsoft.com/windows/uwp/controls-and-patterns/date-picker).
-
-> [!NOTE]
-> Some date formats should be avoided if the date picker might be displayed in a small area, such as adding the full string value of the day of week. These strings can be long and might be clipped if the DatePicker's width is forced to be small.
+You can use a [DateTimeFormatter](../windows.globalization.datetimeformatting/datetimeformatter.md) object to format the contents of each [ComboBox](combobox.md) selector. For more info, see [Quickstart: Adding a DatePicker](http://msdn.microsoft.com/library/feae870d-e423-457b-9d0a-3929247952a9).
 
 ### DateTime and Calendar values
 

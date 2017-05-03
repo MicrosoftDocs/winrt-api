@@ -1,7 +1,6 @@
 ---
 -api-id: E:Windows.Storage.Pickers.Provider.FileSavePickerUI.TargetFileRequested
 -api-type: winrt event
--api-device-family-note: xbox
 ---
 
 <!-- Event syntax

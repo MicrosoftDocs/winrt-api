@@ -8,19 +8,13 @@
 ## -description
 Enables application developers to access Point of Service (POS) peripheral devices. The namespace provides a vendor-neutral interface for accessing POS devices from various manufacturers from the Windows Store app.
 
-<hr>
+[Barcode scanner](barcodescanner.md) enables application developers to access barcode scanners to retrieve decoded data from a variety of barcode symbologies such as UPC and QR Codes depending on support from the hardware.
 
-[**BarcodeScanner**](barcodescanner.md) enables application developers to access barcode scanners to retrieve decoded data from a variety of barcode symbologies such as UPC and QR Codes depending on support from the hardware.
+[Cash drawer](cashdrawer.md) enables application developers to interact with cash drawers.
 
-[**CashDrawer**](cashdrawer.md) enables application developers to interact with cash drawers.
+[Magnetic stripe reader](magneticstripereader.md) enables application developers to access magnetic stripe readers to retrieve data from magnetic stripe enabled cards such as credit/debit cards, loyalty cards, access cards, etc.
 
-[**LineDisplay**](linedisplay.md) enables application developers to control customer facing 2x20 line displays.
-
-[**MagneticStripeReader**](magneticstripereader.md) enables application developers to access magnetic stripe readers to retrieve data from magnetic stripe enabled cards such as credit/debit cards, loyalty cards, access cards, etc.
-
-[**POSPrinter**](posprinter.md) enables application developers to print to network and Bluetooth connected receipt printers using the Epson ESC/POS printer control language.
-
-<hr>
+[POS printer](posprinter.md) enables application developers to print to network and Bluetooth connected receipt printers using the Epson ESC/POS printer control language.
 
 <table>
    <tr><th>Common Members</th><th>Description</th></tr>

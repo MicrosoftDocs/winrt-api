@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.Perception.Spatial.SpatialBoundingVolume.FromOrientedBox(Windows.Perception.Spatial.SpatialCoordinateSystem,Windows.Perception.Spatial.SpatialBoundingOrientedBox)
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

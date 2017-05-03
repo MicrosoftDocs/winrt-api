@@ -27,15 +27,13 @@ The font family that contains the glyph to display for the custom tool.
 The custom tool.
 
 ## -remarks
-Use this method overload when you referencing a font already installed on the system. Otherwise, use [CreateFromFontGlyph(String displayText, String glyph, String fontFamily, Uri fontUri)](radialcontrollermenuitem_createfromfontglyph_679326837.md).
-
 [UX guidelines](https://msdn.microsoft.com/en-us/windows/uwp/input-and-devices/windows-wheel-interactions) for the Surface Dial recommend the following:
 
-+ **Text**
-  + Names should be short to fit inside the central circle of the wheel menu
-  + Names should clearly identify the primary action (a complementary action can be implied)   
-  + Scroll indicates the effect of both rotation directions
-  + Undo specifies a primary action, but redo (the complementary action) can be inferred and easily discovered by the user
+**Text**
++ Names should be short to fit inside the central circle of the wheel menu
++ Names should clearly identify the primary action (a complementary action can be implied)   
++ Scroll indicates the effect of both rotation directions
++ Undo specifies a primary action, but redo (the complementary action) can be inferred and easily discovered by the user
 
 ## -see-also
 - [CreateFromFontGlyph(String displayText, String glyph, String fontFamily, Uri fontUri)](radialcontrollermenuitem_createfromfontglyph_679326837.md)

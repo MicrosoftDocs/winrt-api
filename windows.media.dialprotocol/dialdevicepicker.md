@@ -1,7 +1,6 @@
 ---
 -api-id: T:Windows.Media.DialProtocol.DialDevicePicker
 -api-type: winrt class
--api-device-family-note: xbox
 ---
 
 <!-- Class syntax.

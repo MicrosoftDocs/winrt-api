@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.Networking.Connectivity.NetworkItem.GetNetworkTypes
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

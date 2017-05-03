@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.Networking.Proximity.ProximityDevice.StopPublishingMessage(System.Int64)
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

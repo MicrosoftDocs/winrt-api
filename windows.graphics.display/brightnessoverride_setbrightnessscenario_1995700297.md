@@ -26,8 +26,3 @@ Options that modify the brightness level of the screen during the brightness ove
 
 ## -examples
 
-```csharp
-/* Set the display brightness to a level that is optimum for reading barcodes. If the device is on low battery during overriding, allow the display to dim*/
-
-bo.SetBrightnessScenario(DisplayBrightnessScenario.BarcodeReadingBrightness, DisplayBrightnessOverrideOptions.UseDimmedPolicyWhenBatteryIsLow); 
-```

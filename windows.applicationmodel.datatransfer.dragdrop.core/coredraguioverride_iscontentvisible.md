@@ -1,7 +1,6 @@
 ---
 -api-id: P:Windows.ApplicationModel.DataTransfer.DragDrop.Core.CoreDragUIOverride.IsContentVisible
 -api-type: winrt property
--api-device-family-note: xbox
 ---
 
 <!-- Property syntax

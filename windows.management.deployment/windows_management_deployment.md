@@ -8,6 +8,9 @@
 ## -description
 Provides functionality for managing app packages.
 
+> [!IMPORTANT]
+> You can't use this namespace in a Windows Store app.
+
 ## -remarks
 
 ## -examples

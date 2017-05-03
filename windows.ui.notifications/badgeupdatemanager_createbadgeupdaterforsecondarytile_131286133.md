@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.UI.Notifications.BadgeUpdateManager.CreateBadgeUpdaterForSecondaryTile(System.String)
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

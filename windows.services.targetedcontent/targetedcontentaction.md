@@ -17,5 +17,3 @@ Represents the TargetedContentValue of the TargetedContentValueKind action.
 
 ## -examples
 
-## -capabilities
-targetedContent

@@ -20,7 +20,7 @@ The power state to enter.
 
 ### -param wakeUpAfter
 
-The period of time to remain in the specified power state. After this time elapses, the device will wake up.
+The amount of time to wake up after.
 
 ## -remarks
 
@@ -28,7 +28,6 @@ This API requires the use of the IoT **systemManagement** capability, and the in
 <iot:Capability Name="systemManagement"/>`, and add **iot** to their existing list of **IgnorableNamespaces**.
 
 ## -see-also
-[ShutdownManager.EnterPowerState(PowerState powerState)](shutdownmanager_enterpowerstate_777933300.md)
 
 ## -examples
 

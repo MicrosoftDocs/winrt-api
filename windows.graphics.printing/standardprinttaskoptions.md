@@ -1,7 +1,6 @@
 ---
 -api-id: T:Windows.Graphics.Printing.StandardPrintTaskOptions
 -api-type: winrt class
--api-device-family-note: xbox
 ---
 
 <!-- Class syntax.

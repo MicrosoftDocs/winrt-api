@@ -36,7 +36,7 @@ A calendar was deleted.
 
 
 ## -remarks
-
+The [VersionAvailable](http://msdn.microsoft.com/library/a9b27475-77d4-4e5c-8577-ca155232afdb) property can be used to determine which version of Windows Phone includes a specific API.
 
 ## -examples
 

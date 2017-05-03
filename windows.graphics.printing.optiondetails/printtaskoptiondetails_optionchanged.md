@@ -1,7 +1,6 @@
 ---
 -api-id: E:Windows.Graphics.Printing.OptionDetails.PrintTaskOptionDetails.OptionChanged
 -api-type: winrt event
--api-device-family-note: xbox
 ---
 
 <!-- Event syntax

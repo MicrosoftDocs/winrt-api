@@ -19,8 +19,6 @@ The hardware vendor ID of the raw game controller.
 
 ## -remarks
 
-See [RawGameController.HardwareProductId](rawgamecontroller_hardwareproductid.md) for information about how to use this value to support specific types of controllers.
-
 ## -see-also
 
 ## -examples

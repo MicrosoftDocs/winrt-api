@@ -10,7 +10,6 @@ public class WebUIPrintWorkflowForegroundTaskActivatedEventArgs : IActivatedEven
 # Windows.UI.WebUI.WebUIPrintWorkflowForegroundTaskActivatedEventArgs
 
 ## -description
-Provides data when an app is launched as part of a print workflow.
 
 ## -remarks
 

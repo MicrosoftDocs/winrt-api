@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.Devices.Bluetooth.Advertisement.BluetoothLEAdvertisementDataSection.#ctor(System.Byte,Windows.Storage.Streams.IBuffer)
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

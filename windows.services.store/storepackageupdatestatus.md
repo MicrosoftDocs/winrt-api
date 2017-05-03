@@ -27,11 +27,11 @@ The number of bytes that have been downloaded.
 
 
 ### -field PackageDownloadProgress
-The download (or download and install) progress of the current package, represented by a value from 0.0 to 1.0. When you use [RequestDownloadStorePackageUpdatesAsync](storecontext_requestdownloadstorepackageupdatesasync.md) to download packages, this value increases from 0.0 to 1.0 during the download of each package. When you use [RequestDownloadAndInstallStorePackageUpdatesAsync](storecontext_requestdownloadandinstallstorepackageupdatesasync.md) to download *and* install packages in a single operation, this value increases from 0.0 to 0.8 during the download of each package, and then it increases from 0.8 to 1.0 during the install phase.
+The current progress of the package download and install process, represented by a value from 0.0 to 1.0. This value increases from 0.0 to 0.8 during the download, and then it increases from 0.8 to 1.0 during the install.
 
 
 ### -field TotalDownloadProgress
-The current progress of all package downloads in the request, represented by a value from 0.0 to 1.0.
+The current progress of all package downloads in the current request, represented by a value from 0.0 to 1.0.
 
 
 ### -field PackageUpdateState
@@ -39,7 +39,7 @@ A [StorePackageUpdateState](storepackageupdatestate.md) value that indicates the
 
 
 ## -remarks
-To request the download or install of a package, use the [RequestDownloadAndInstallStorePackagesAsync](storecontext_requestdownloadandinstallstorepackagesasync.md), [RequestDownloadAndInstallStorePackageUpdatesAsync](storecontext_requestdownloadandinstallstorepackageupdatesasync.md), or [RequestDownloadStorePackageUpdatesAsync](storecontext_requestdownloadstorepackageupdatesasync.md) methods of the [StoreContext](storecontext.md) class. The method that you assign to handle [Progress](../windows.foundation/iasyncoperationwithprogress_2_progress.md) notifications for the request receives a **StorePackageUpdateStatus** object.
+To request the download or install of a package, use the [RequestDownloadAndInstallStorePackagesAsync](storecontext_requestdownloadandinstallstorepackagesasync.md), [RequestDownloadAndInstallStorePackageUpdatesAsync](storecontext_requestdownloadandinstallstorepackageupdatesasync.md), or [RequestDownloadStorePackageUpdatesAsync](storecontext_requestdownloadstorepackageupdatesasync.md) methods of the [StoreContext](storecontext.md) class. An object of this type is passed to the method that you assign to handle [Progress](../windows.foundation/iasyncoperationwithprogress_2_progress.md) notifications for the request.
 
 ## -examples
 

@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.Media.Import.PhotoImportFindItemsResult.AddItemsInDateRangeToSelection(Windows.Foundation.DateTime,Windows.Foundation.TimeSpan)
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax.

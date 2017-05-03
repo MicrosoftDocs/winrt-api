@@ -1,7 +1,6 @@
 ---
 -api-id: T:Windows.Devices.Sms.SmsMessageType
 -api-type: winrt enum
--api-device-family-note: xbox
 ---
 
 <!-- Enumeration syntax

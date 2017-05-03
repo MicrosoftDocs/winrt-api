@@ -16,7 +16,6 @@ Gets the status of the calling app's access to the Remote Systems feature. This 
 An asynchronous operation that returns the status of access.
 
 ## -remarks
-This method must be called from the UI thread.
 
 ## -examples
 

@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.Networking.NetworkOperators.MobileBroadbandModem.GetCurrentConfigurationAsync
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

@@ -1,7 +1,6 @@
 ---
 -api-id: T:Windows.Networking.NetworkOperators.NetworkOperatorTetheringManager
 -api-type: winrt class
--api-device-family-note: xbox
 ---
 
 <!-- Class syntax.

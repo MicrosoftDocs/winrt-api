@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.Devices.WiFiDirect.Services.WiFiDirectServiceSession.AddDatagramSocketAsync(Windows.Networking.Sockets.DatagramSocket)
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

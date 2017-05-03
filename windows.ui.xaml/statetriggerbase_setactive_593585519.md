@@ -14,7 +14,8 @@ Sets the value that indicates whether the state trigger is active.
 
 ## -parameters
 ### -param IsActive
-**true** if the system should apply the trigger; otherwise, **false**.
+**
+            true** if the system should apply the trigger; otherwise, **false**.
 
 ## -remarks
 

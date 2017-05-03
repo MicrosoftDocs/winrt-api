@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.Perception.Spatial.Surfaces.SpatialSurfaceObserver.SetBoundingVolumes(Windows.Foundation.Collections.IIterable{Windows.Perception.Spatial.SpatialBoundingVolume})
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

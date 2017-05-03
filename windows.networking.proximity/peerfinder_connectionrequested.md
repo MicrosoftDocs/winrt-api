@@ -1,7 +1,6 @@
 ---
 -api-id: E:Windows.Networking.Proximity.PeerFinder.ConnectionRequested
 -api-type: winrt event
--api-device-family-note: xbox
 ---
 
 <!-- Event syntax

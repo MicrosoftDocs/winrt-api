@@ -24,7 +24,6 @@ A number that's added to the offset to mark the edge of the radius.
 The collection of [MapElement](mapcontrol_mapelements.md) objects within the specified radius.
 
 ## -remarks
-Use this overload to retrieve a collection of map objects by using a hit test area that your app captures from touch interactions.
 
 ## -see-also
 [Display maps with 2D, 3D, and Streetside views](http://msdn.microsoft.com/library/3839e00b-2c1e-4627-a45f-6dda98d7077f)

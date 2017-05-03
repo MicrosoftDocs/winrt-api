@@ -1,7 +1,6 @@
 ---
 -api-id: T:Windows.Graphics.Printing.PrintColorMode
 -api-type: winrt enum
--api-device-family-note: xbox
 ---
 
 <!-- Enumeration syntax

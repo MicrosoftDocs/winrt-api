@@ -17,6 +17,7 @@ When a toast message is read on an accessory device, it can cause the toast to b
 String containing the instance id of the toast to clear.
 
 ## -remarks
+The [VersionAvailable](http://msdn.microsoft.com/library/a9b27475-77d4-4e5c-8577-ca155232afdb) property can be used to determine which version of Windows Phone includes a specific API.
 
 ## -examples
 

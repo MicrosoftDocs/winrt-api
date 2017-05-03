@@ -25,6 +25,6 @@ Base64 processes data as 24-bit groups, mapping each group to four encoded 8-bit
 ## -examples
 
 
-[!code-csharp[ShowBase64Encoding](../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowBase64Encoding)]
+[!code-csharp[ShowBase64Encoding] (../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowBase64Encoding)]
 
 ## -see-also

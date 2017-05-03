@@ -10,10 +10,10 @@ public string Description { get;  set; }
 # Windows.ApplicationModel.ExtendedExecution.ExtendedExecutionSession.Description
 
 ## -description
-This property is not used in the current release.
+Gets or sets a string to display in the shell.
 
 ## -property-value
-This property is not used in the current release.
+A string to display in the shell.
 
 ## -remarks
 

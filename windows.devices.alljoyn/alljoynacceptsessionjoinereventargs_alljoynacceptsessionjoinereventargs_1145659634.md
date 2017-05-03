@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.Devices.AllJoyn.AllJoynAcceptSessionJoinerEventArgs.#ctor(System.String,System.UInt16,Windows.Devices.AllJoyn.AllJoynTrafficType,System.Byte,Windows.Devices.AllJoyn.IAllJoynAcceptSessionJoiner)
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

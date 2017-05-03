@@ -1,7 +1,6 @@
 ---
 -api-id: E:Windows.ApplicationModel.LockScreen.LockScreenInfo.DetailTextChanged
 -api-type: winrt event
--api-device-family-note: xbox
 ---
 
 <!-- Event syntax

@@ -1,7 +1,6 @@
 ---
 -api-id: P:Windows.UI.Input.Spatial.SpatialNavigationStartedEventArgs.IsNavigatingX
 -api-type: winrt property
--api-device-family-note: xbox
 ---
 
 <!-- Property syntax

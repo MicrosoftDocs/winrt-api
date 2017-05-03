@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.Graphics.Printing.OptionDetails.PrintCopiesOptionDetails.TrySetValue(System.Object)
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

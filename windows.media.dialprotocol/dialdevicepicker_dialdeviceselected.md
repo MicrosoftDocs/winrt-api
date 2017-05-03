@@ -1,7 +1,6 @@
 ---
 -api-id: E:Windows.Media.DialProtocol.DialDevicePicker.DialDeviceSelected
 -api-type: winrt event
--api-device-family-note: xbox
 ---
 
 <!-- Event syntax

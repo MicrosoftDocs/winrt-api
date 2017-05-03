@@ -1,7 +1,6 @@
 ---
 -api-id: E:Windows.UI.Notifications.ToastNotification.Failed
 -api-type: winrt event
--api-device-family-note: xbox
 ---
 
 <!-- Event syntax

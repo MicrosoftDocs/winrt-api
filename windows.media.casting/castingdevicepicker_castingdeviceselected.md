@@ -1,7 +1,6 @@
 ---
 -api-id: E:Windows.Media.Casting.CastingDevicePicker.CastingDeviceSelected
 -api-type: winrt event
--api-device-family-note: xbox
 ---
 
 <!-- Event syntax

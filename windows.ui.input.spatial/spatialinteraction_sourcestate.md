@@ -1,7 +1,6 @@
 ---
 -api-id: P:Windows.UI.Input.Spatial.SpatialInteraction.SourceState
 -api-type: winrt property
--api-device-family-note: xbox
 ---
 
 <!-- Property syntax

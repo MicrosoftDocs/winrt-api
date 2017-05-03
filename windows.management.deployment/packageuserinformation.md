@@ -12,6 +12,9 @@ public class PackageUserInformation : Windows.Management.Deployment.IPackageUser
 ## -description
 Provides information about the users of an installed package.
 
+> [!IMPORTANT]
+> You can't use this class in a Windows Store app.
+
 ## -remarks
 To enumerate the users who have installed a package, use the [PackageManager.FindUsers](packagemanager_findusers.md) method.
 

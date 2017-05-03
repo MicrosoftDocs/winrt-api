@@ -10,7 +10,7 @@ public void InteractionTracker.ConfigureCenterPointYInertiaModifiers(IIterable<C
 # Windows.UI.Composition.Interactions.InteractionTracker.ConfigureCenterPointYInertiaModifiers
 
 ## -description
-Takes an ordered list of CompositionConditionalValue. In a frame, while the tracker is in Inertia, the first CompositionConditionalValue to have its “.Condition” evaluate to true replaces the zoom CenterPointY value the tracker uses with its “.Value”. If none evaluate to true, the CenterPointY is not replaced that frame.
+Configures centerpoint inertia modifiers for the Y direction.
 
 ## -parameters
 

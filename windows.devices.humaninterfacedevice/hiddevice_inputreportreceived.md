@@ -1,7 +1,6 @@
 ---
 -api-id: E:Windows.Devices.HumanInterfaceDevice.HidDevice.InputReportReceived
 -api-type: winrt event
--api-device-family-note: xbox
 ---
 
 <!-- Event syntax

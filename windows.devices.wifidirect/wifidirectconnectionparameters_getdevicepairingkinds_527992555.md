@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.Devices.WiFiDirect.WiFiDirectConnectionParameters.GetDevicePairingKinds(Windows.Devices.WiFiDirect.WiFiDirectConfigurationMethod)
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

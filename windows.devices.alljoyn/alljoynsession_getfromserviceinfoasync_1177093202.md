@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.Devices.AllJoyn.AllJoynSession.GetFromServiceInfoAsync(Windows.Devices.AllJoyn.AllJoynServiceInfo,Windows.Devices.AllJoyn.AllJoynBusAttachment)
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

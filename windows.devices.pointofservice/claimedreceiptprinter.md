@@ -1,7 +1,6 @@
 ---
 -api-id: T:Windows.Devices.PointOfService.ClaimedReceiptPrinter
 -api-type: winrt class
--api-device-family-note: xbox
 ---
 
 <!-- Class syntax.

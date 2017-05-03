@@ -1,7 +1,6 @@
 ---
 -api-id: P:Windows.Devices.Sms.SmsDevice2.ParentDeviceId
 -api-type: winrt property
--api-device-family-note: xbox
 ---
 
 <!-- Property syntax

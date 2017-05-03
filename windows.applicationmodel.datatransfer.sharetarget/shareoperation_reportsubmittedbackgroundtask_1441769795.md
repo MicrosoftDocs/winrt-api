@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.ApplicationModel.DataTransfer.ShareTarget.ShareOperation.ReportSubmittedBackgroundTask
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

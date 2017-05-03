@@ -17,6 +17,3 @@ Provides information about an application such as it name, logo, package informa
 ## -examples
 
 ## -see-also
-
-## -capabilities
-appDiagnostics

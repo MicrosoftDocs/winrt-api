@@ -13,7 +13,7 @@ public class ScrollBarAutomationPeer : Windows.UI.Xaml.Automation.Peers.RangeBas
 Exposes [ScrollBar](../windows.ui.xaml.controls.primitives/scrollbar.md) types to Microsoft UI Automation.
 
 ## -remarks
-The Windows Runtime  [ScrollBar](../windows.ui.xaml.controls.primitives/scrollbar.md) class creates a new [ScrollBarAutomationPeer](scrollbarautomationpeer.md) as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. [ScrollBar](../windows.ui.xaml.controls.primitives/scrollbar.md) is sealed, so the normal scenario of deriving from the [ScrollBar](../windows.ui.xaml.controls.primitives/scrollbar.md) class and its existing peer isn't applicable to [ScrollBarAutomationPeer](scrollbarautomationpeer.md).
+The Windows Runtime  [ScrollBar](../windows.ui.xaml.controls.primitives/scrollbar.md) class creates a new [ScrollBarAutomationPeer](scrollbarautomationpeer.md) as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer.md) definition. [ScrollBar](../windows.ui.xaml.controls.primitives/scrollbar.md) is sealed, so the normal scenario of deriving from the [ScrollBar](../windows.ui.xaml.controls.primitives/scrollbar.md) class and its existing peer isn't applicable to [ScrollBarAutomationPeer](scrollbarautomationpeer.md).
 
 ### Default peer implementation and overrides in **ScrollBarBarAutomationPeer**
 

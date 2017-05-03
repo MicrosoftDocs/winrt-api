@@ -10,7 +10,6 @@ public class ToastCollectionManager
 # Windows.UI.Notifications.ToastCollectionManager
 
 ## -description
-Provides methods for creating, retrieving, updating, and removing [toast collections](ToastCollection).
 
 ## -remarks
 

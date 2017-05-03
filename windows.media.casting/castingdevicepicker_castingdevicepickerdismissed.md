@@ -1,7 +1,6 @@
 ---
 -api-id: E:Windows.Media.Casting.CastingDevicePicker.CastingDevicePickerDismissed
 -api-type: winrt event
--api-device-family-note: xbox
 ---
 
 <!-- Event syntax

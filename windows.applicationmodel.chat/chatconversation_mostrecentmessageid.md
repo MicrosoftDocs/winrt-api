@@ -1,7 +1,6 @@
 ---
 -api-id: P:Windows.ApplicationModel.Chat.ChatConversation.MostRecentMessageId
 -api-type: winrt property
--api-device-family-note: xbox
 ---
 
 <!-- Property syntax

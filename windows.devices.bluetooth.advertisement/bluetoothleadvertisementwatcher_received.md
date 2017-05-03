@@ -1,7 +1,6 @@
 ---
 -api-id: E:Windows.Devices.Bluetooth.Advertisement.BluetoothLEAdvertisementWatcher.Received
 -api-type: winrt event
--api-device-family-note: xbox
 ---
 
 <!-- Event syntax

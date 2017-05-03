@@ -1,7 +1,6 @@
 ---
 -api-id: T:Windows.Media.Import.PhotoImportContentTypeFilter
 -api-type: winrt enum
--api-device-family-note: xbox
 ---
 
 <!-- Enumeration syntax

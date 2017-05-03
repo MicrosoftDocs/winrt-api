@@ -23,7 +23,6 @@ The package publisher. This parameter cannot be **null**.
 If the method succeeds, an enumerable collection of package objects with the same package name and publisher name is returned. Each Package object in this collection contains information about the package, including but not limited to its name, publisher, version, and install location. If no packages with the specified name and publisher are found, this method returns an empty list.
 
 ## -remarks
-This method requires administrative privileges.
 
 ## -examples
 

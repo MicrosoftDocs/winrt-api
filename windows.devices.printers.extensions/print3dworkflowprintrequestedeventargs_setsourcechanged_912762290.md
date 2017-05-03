@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.Devices.Printers.Extensions.Print3DWorkflowPrintRequestedEventArgs.SetSourceChanged(System.Boolean)
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

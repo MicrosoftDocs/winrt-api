@@ -1,7 +1,6 @@
 ---
 -api-id: E:Windows.Graphics.Printing.OptionDetails.PrintTaskOptionDetails.BeginValidation
 -api-type: winrt event
--api-device-family-note: xbox
 ---
 
 <!-- Event syntax

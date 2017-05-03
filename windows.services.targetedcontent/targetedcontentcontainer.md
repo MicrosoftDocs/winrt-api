@@ -17,6 +17,3 @@ Represents a container for all the content in a TargetedContentSubscription obje
 
 ## -examples
 
-## -capabilities
-targetedContent
-

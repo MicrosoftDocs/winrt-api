@@ -10,10 +10,8 @@ public ContactPanel ContactPanel { get; }
 # Windows.UI.WebUI.WebUIContactPanelActivatedEventArgs.ContactPanel
 
 ## -description
-Gets the contact panel. 
 
 ## -property-value
-The contact panel. 
 
 ## -remarks
 

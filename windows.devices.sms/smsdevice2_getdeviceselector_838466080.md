@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.Devices.Sms.SmsDevice2.GetDeviceSelector
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

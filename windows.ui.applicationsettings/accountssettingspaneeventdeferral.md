@@ -1,7 +1,6 @@
 ---
 -api-id: T:Windows.UI.ApplicationSettings.AccountsSettingsPaneEventDeferral
 -api-type: winrt class
--api-device-family-note: xbox
 ---
 
 <!-- Class syntax.

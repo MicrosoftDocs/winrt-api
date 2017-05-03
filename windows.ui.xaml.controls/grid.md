@@ -65,27 +65,6 @@ Setting the [Margin](../windows.ui.xaml/frameworkelement_margin.md) property on 
 
 In order to support XAML processor access to the attached properties, and also to expose equivalent get and set operations to code, each XAML attached property has a pair of **Get** and **Set** accessor methods. For example, the [GetColumnSpan](grid_getcolumnspan.md) and [SetColumnSpan](grid_setcolumnspan.md) methods support and provide the equivalent code-only support for [Grid.ColumnSpan](grid_columnspan.md). Alternatively, you can use the dependency property system to get or set the value of the attached property. Call [GetValue](../windows.ui.xaml/dependencyobject_getvalue.md) or [SetValue](../windows.ui.xaml/dependencyobject_setvalue.md), passing the arguments of the dependency property identifier to set, and a reference to the target object on which to get or set the value.
 
-An element in the first column that spans multiple rows can affect the height of each spanned row even if the first row has enough height to accomodate the element, and subsequent spanned rows would otherwise have a height of 0. For example, the second row in this Grid has its height set to 0, so the blue rectangle would not typically be visible. In this case, you might expect that the red ellipse would not affect the second row because the first row is tall enough to contain the ellipse. However, the Grid calculates the MinHeight of each row to be enough to accomodate the red ellipse, and then spans the element across the rows. As a result, the second row is given a MinHeight of 50, the red ellipse is centered in the 150px span, and half of the blue rectangle is visible in the second row.
-
-> [!NOTE]
-> (This example uses an element that spans columns, but also applies to an element in the first column that spans multiple rows.)
-
-```xaml
-<Grid Background="Yellow" Width="300">
-    <Grid.ColumnDefinitions>
-        <ColumnDefinition Width="50"/>
-        <ColumnDefinition Width="*"/>
-    </Grid.ColumnDefinitions>
-    <Grid.RowDefinitions>
-        <RowDefinition Height="Auto"/>
-        <RowDefinition Height="0"/>
-    </Grid.RowDefinitions>
-    <Ellipse   Grid.Row="0" Grid.Column="0"  Height="50" Fill="Red" Grid.RowSpan="2"/>
-    <Rectangle Grid.Row="0" Grid.Column="1" Fill="Green" Height="100"/>
-    <Rectangle Grid.Row="1" Grid.Column="1" Fill="Blue" Height="100"/>
-</Grid>
-```
-
 ### **Grid** derived classes
 
 [Grid](grid.md) is the parent class for [SwapChainPanel](swapchainpanel.md) and [SwapChainBackgroundPanel](swapchainbackgroundpanel.md).

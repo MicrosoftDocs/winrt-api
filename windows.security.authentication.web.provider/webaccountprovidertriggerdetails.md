@@ -10,7 +10,7 @@ public class WebAccountProviderTriggerDetails : Windows.Security.Authentication.
 # Windows.Security.Authentication.Web.Provider.WebAccountProviderTriggerDetails
 
 ## -description
-Provides information about the trigger that started the web account provider task.
+Provides information about a web account provider trigger.
 
 ## -remarks
 

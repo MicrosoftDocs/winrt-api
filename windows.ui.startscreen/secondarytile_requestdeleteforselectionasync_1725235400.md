@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.UI.StartScreen.SecondaryTile.RequestDeleteForSelectionAsync(Windows.Foundation.Rect,Windows.UI.Popups.Placement)
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

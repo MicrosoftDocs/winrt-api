@@ -13,7 +13,7 @@ public string Author { get; }
 Windows Phone only. Gets the value of the Author attribute for the specified application package.
 
 ## -property-value
-The value of the Author attribute for the specified application package.
+The value of the Author attribute the specified application package.
 
 ## -remarks
 

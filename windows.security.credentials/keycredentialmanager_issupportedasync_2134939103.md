@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.Security.Credentials.KeyCredentialManager.IsSupportedAsync
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

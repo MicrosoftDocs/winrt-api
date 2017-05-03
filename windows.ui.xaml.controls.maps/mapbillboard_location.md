@@ -16,7 +16,7 @@ Gets or sets the geographic location of the [MapBillboard](mapbillboard.md) on t
 The geographic location of the [MapBillboard](mapbillboard.md) on the [MapControl](mapcontrol.md).
 
 ## -remarks
-If you provide an altitude and altitude reference system in 3D views, then [MapBillboard](mapbillboard.md) elements added to the [MapControl](mapcontrol.md) end up being placed underground or floating in space.
+If you provide an Altitude and AltitudeReferenceSystem in 3D views, then [MapBillboard](mapbillboard.md) elements added to the [MapControl](mapcontrol.md) end up being placed underground or floating in space.
 
 ## -see-also
 

@@ -1,7 +1,6 @@
 ---
 -api-id: T:Windows.Data.Text.WordSegmentsTokenizingHandler
 -api-type: winrt delegate
--api-device-family-note: xbox
 ---
 <!-- Delegate syntax.
 public delegate void WordSegmentsTokenizingHandler(Windows.Foundation.Collections.IIterable<Windows.Data.Text.WordSegment> precedingWords, Windows.Foundation.Collections.IIterable<Windows.Data.Text.WordSegment> words)

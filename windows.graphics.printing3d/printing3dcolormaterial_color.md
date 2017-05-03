@@ -1,7 +1,6 @@
 ---
 -api-id: P:Windows.Graphics.Printing3D.Printing3DColorMaterial.Color
 -api-type: winrt property
--api-device-family-note: xbox
 ---
 
 <!-- Property syntax

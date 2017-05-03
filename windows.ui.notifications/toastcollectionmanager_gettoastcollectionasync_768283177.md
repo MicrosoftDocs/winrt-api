@@ -10,15 +10,12 @@ public IAsyncOperation<ToastCollection> ToastCollectionManager.GetToastCollectio
 # Windows.UI.Notifications.ToastCollectionManager.GetToastCollectionAsync
 
 ## -description
-Starts the retrieval of the specified notification group.
 
 ## -parameters
 
 ### -param collectionId
-The ID of the notification group to retrieve. 
 
 ## -returns
-An object that represents the asynchronous operation.
 
 ## -remarks
 

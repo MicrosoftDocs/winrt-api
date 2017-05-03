@@ -41,8 +41,8 @@ There are three ways to apply multiple transformations to the same object:
 
 ### Animating a **RotateTransform**
 
-You can apply an animation to a [RotateTransform](rotatetransform.md) to cause an element to rotate over time. Typically you only apply the animation to the [Angle](rotatetransform_angle.md) property, and don't animate [CenterX](rotatetransform_centerx.md), [CenterY](rotatetransform_centery.md). For a continuously spinning animation, you'd typically use just the **To** value for a **From/To/By** style animation. [Angle](rotatetransform_angle.md) is a [Double](https://msdn.microsoft.com/library/system.double.aspx) so this involves a [DoubleAnimation](../windows.ui.xaml.media.animation/doubleanimation.md). For a continuous animation you'd set the [RepeatBehavior](../windows.ui.xaml.media.animation/timeline_repeatbehavior.md) of the [DoubleAnimation](../windows.ui.xaml.media.animation/doubleanimation.md) to **Forever**.
-```xaml
+You can apply an animation to a [RotateTransform](rotatetransform.md) to cause an element to rotate over time. Typically you only apply the animation to the [Angle](rotatetransform_angle.md) property, and don't animate [CenterX](rotatetransform_centerx.md), [CenterY](rotatetransform_centery.md). For a continuously spinning animation, you'd typically use just the **To** value for a **From/To/By** style animation. [Angle](rotatetransform_angle.md) is a [Double](https://msdn.microsoft.com/library/system.double.aspx) so this involves a [DoubleAnimation](../windows.ui.xaml.media.animation/doubleanimation.md). For a continuous animation you'd set the [RepeatBehavior](../windows.ui.xaml.media.animation/timeline_repeatbehavior.md) of the [DoubleAnimation](../windows.ui.xaml.media.animation/doubleanimation.md) to **Forever**.```xaml
+
 <Page.Resources>
   <Storyboard x:Name="spinrect">
      <DoubleAnimation To="360" RepeatBehavior="Forever" 
@@ -58,6 +58,7 @@ You can apply an animation to a [RotateTransform](rotatetransform.md) to cause a
     </Rectangle.RenderTransform>
   </Rectangle>
 </StackPanel>
+
 ```
 
 ```csharp

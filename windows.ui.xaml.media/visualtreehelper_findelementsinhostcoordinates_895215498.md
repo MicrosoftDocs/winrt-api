@@ -26,13 +26,25 @@ An object to search for. If the *subtree* object exists in the overall set of el
 An enumerable set of [UIElement](../windows.ui.xaml/uielement.md) objects that are determined to be located in the visual tree composition in the specified [Rect](../windows.foundation/rect.md) frame.
 
 ## -remarks
-An element is considered hit-testable if it both occupies space in the layout and "*produces ink*". 
-For elements that have a [Brush](./brush.md), any non-**null** Brush is considered something that produces ink, even if the Brush doesn't produce visible pixels. For example, a [SolidColorBrush](./solidcolorbrush.md) with it's color set to *Transparent* still produces ink. Only a **null** brush does not produce ink. The Opacity property is not considered. The element still produces ink even if it's Opacity is 0.
+The return value is not a single element, it is a collection. The collection can have more than one element because there can be multiple UI elements stacked over each other in a z-order, and also multiple elements fully or partially in the *intersectingRect* frame. The conventional hit-testing techniques exposed by the input event handlers, such as the *sender* value for a [PointerPressed](../windows.ui.xaml/uielement_pointerpressed.md) event, only account for the topmost element that has the highest z-order. [FindElementsInHostCoordinates](visualtreehelper_findelementsinhostcoordinates.md) methods return the whole stack of elements that share that point or area in the app UI, listed by visual tree order (which is usually the same as inverse of XAML declaration order). Using [FindElementsInHostCoordinates](visualtreehelper_findelementsinhostcoordinates.md) can thus be useful for examining cases where you've intentionally or unintentionally stacked elements. You may want to correct the order for rendering and hit-testing, or examine that order for other reasons.
 
-When the *includeAllElements* parameter is set to **true**, elements that don't produce ink are considered for hit-testing. In this case, as long as the element meets the spatial requirements (the rect intersects the element bounds), then it and its ancestors are included in the results.
+[FindElementsInHostCoordinates](visualtreehelper_findelementsinhostcoordinates.md) over an area is useful for two scenarios: basic hit testing and hit testing that is filtering for a specific element.
 
-> [!NOTE]
-> Some special elements, like [SwapChainPanel](./../windows.ui.xaml.controls/swapchainpanel.md) and [MediaElement](./../windows.ui.xaml.controls/mediaelement.md), don’t have a brush but can still produce ink.
+### Basic hit testing
+
+For basic hit testing, the goal is to discover which element is highest in the z-order of an app UI. If you are hit-testing for a mouse interaction you might use a point, but for touch-oriented hit testing it's often appropriate to use a rectangular area. You might have hit testing scenarios where you want to know what element exists at the top z-order before any touch event takes place. Or you might have a point that you want to expand to be a rectangle to see what's near a center point and which element might be the intended target.
+
+For this scenario, you should pass the rectangle you're interested in hit-testing as the value of the *intersectingRect* parameter. For the *subtree* parameter, you can pass it as **null**. Or you can specify *subtree* to be some element that you know is the root visual of a page, or is otherwise some element that you want to be the final stop for hit testing.
+
+The order of element in the returned [IEnumerable](XREF:TODO:T:System.Collections.Generic.IEnumerable`1) of [UIElement](../windows.ui.xaml/uielement.md) items is accounting for both coordinate space in the area and for the z-order. So it's possible to get hits for items that are not at the highest z-order and therefore couldn't be the source of input events. To make sure, you can do an element-filtered hit test for any items from the returned list that you're interested in, using the same *intersectingRect* but passing the element of interest as *subtree*.
+
+### Element-filtered hit testing
+
+Sometimes you want to know whether a specific element exists within an area of the UI. If so, you can specify that area for *intersectingRect* and specify the element you're looking for as the *subtree* parameter. If the return value is not empty, that means that the element exists somewhere in that area. When you're hit-testing an area, the order in the return set isn't as useful for determining z-order because the set includes elements at more than one x-y coordinate. The set has a mix of elements drawing at various x-y coordinates and also elements that might be fully or partially overdrawn. To really examine an overdraw situation, use the overloads of [FindElementsInHostCoordinates](visualtreehelper_findelementsinhostcoordinates.md) that use a [Point](../windows.foundation/point.md), so that the x-y coordinates and the visual tree order are no longer a factor. See [FindElementsInHostCoordinates(Point,UIElement)](visualtreehelper_findelementsinhostcoordinates_1478853318.md).
+
+If the return value is empty, that means that the *subtree* element didn't exist in the area.
+
+If you are programming using C# or Microsoft Visual Basic, the return value type of this method is projected as an [IEnumerable](XREF:TODO:T:System.Collections.Generic.IEnumerable`1) generic collection that contains [UIElement](../windows.ui.xaml/uielement.md) items. If you are programming using Visual C++ component extensions (C++/CX), the return type of this method is [IIterable&lt;UIElement&gt;](../windows.foundation.collections/iiterable_1.md).
 
 ## -examples
 Given this XAML UI:

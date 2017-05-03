@@ -37,14 +37,12 @@ For design guidelines, see [Guidelines for tooltips](http://msdn.microsoft.com/l
 
 A [ToolTip](tooltip.md) must be assigned to another UI element that is its owner. The [ToolTipService](tooltipservice.md) class provides static methods to display a [ToolTip](tooltip.md).
 
-+ In XAML, use the [ToolTipService.Tooltip](tooltipservice_tooltip.md) attached property to assign the [ToolTip](tooltip.md) to an owner.
-```xaml
++ In XAML, use the [ToolTipService.Tooltip](tooltipservice_tooltip.md) attached property to assign the [ToolTip](tooltip.md) to an owner.```xaml
 <Button Content="Submit" ToolTipService.ToolTip="Click to submit"/>
 ```
 
 
-+ In code, use the [ToolTipService.SetToolTip](tooltipservice_settooltip.md) method to assign the [ToolTip](tooltip.md) to an owner.
-```xaml
++ In code, use the [ToolTipService.SetToolTip](tooltipservice_settooltip.md) method to assign the [ToolTip](tooltip.md) to an owner.```xaml
 <Button x:Name="submitButton" Content="Submit"/>
 ```
 

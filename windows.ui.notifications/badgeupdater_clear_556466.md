@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.UI.Notifications.BadgeUpdater.Clear
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

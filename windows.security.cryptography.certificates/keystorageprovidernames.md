@@ -18,7 +18,7 @@ This class contains only static properties. You do not have to create an instanc
 ## -examples
 
 
-[!code-csharp[ShowKspNamesClass](../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowKspNamesClass)]
+[!code-csharp[ShowKspNamesClass] (../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowKspNamesClass)]
 
 ## -see-also
 [CertificateRequestProperties](certificaterequestproperties.md), [KeyStorageProviderName](certificaterequestproperties_keystorageprovidername.md), [Windows.Security.Cryptography.Certificates](windows_security_cryptography_certificates.md)

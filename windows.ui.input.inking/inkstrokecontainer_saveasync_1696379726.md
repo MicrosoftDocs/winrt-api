@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.UI.Input.Inking.InkStrokeContainer.SaveAsync(Windows.Storage.Streams.IOutputStream)
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

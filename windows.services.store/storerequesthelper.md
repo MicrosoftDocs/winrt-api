@@ -4,7 +4,7 @@
 ---
 
 <!-- Class syntax.
-public class StoreRequestHelper
+public class StoreRequestHelper 
 -->
 
 # Windows.Services.Store.StoreRequestHelper
@@ -18,4 +18,3 @@ Provides a helper method that can be used to send requests to the Windows Store 
 ## -examples
 
 ## -see-also
-[Send requests to the Store](https://docs.microsoft.com/windows/uwp/monetize/send-requests-to-the-store)

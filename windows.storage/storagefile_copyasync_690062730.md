@@ -27,10 +27,6 @@ You don't have permission to copy a file into the destination folder.
 ## -remarks
 This method uses the **FailIfExists** value from the [CreationCollisionOption](creationcollisionoption.md) enumeration by default. That is, this method raises an exception if a file with the same name already exists in the destination folder. If you want to handle a file name collision in a different way, call the [CopyAsync(IStorageFolder, String, NameCollisionOption)](storagefile_copyasync_460876542.md) overloaded method.
 
-
-> [!NOTE]
-> When StorageFile.CopyAsync is used to copy a file that is encrypted to a destination that is not encrypted, the call will fail with the following exception: `System.UnauthorizedAccessException: Access is denied. (Excep_FromHResult 0x80070005)`
-
 ## -examples
 The following example copies a file to the specified folder and renames the copy by calling the [CopyAsync(IStorageFolder,  String, NameCollisionOption)](storagefile_copyasync_460876542.md) method. This example explicitly specifies a value for *option* that replaces the file in the destination folder if a file with the specified name already exists.
 

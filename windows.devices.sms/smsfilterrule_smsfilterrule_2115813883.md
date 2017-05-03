@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.Devices.Sms.SmsFilterRule.#ctor(Windows.Devices.Sms.SmsMessageType)
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

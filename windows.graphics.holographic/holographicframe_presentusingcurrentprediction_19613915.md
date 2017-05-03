@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.Graphics.Holographic.HolographicFrame.PresentUsingCurrentPrediction(Windows.Graphics.Holographic.HolographicFramePresentWaitBehavior)
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

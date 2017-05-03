@@ -21,6 +21,6 @@ The default key size for RSA and DSA algorithms is 2048 bits. If an elliptic cur
 ## -examples
 
 
-[!code-csharp[ShowKeySize](../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowKeySize)]
+[!code-csharp[ShowKeySize] (../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowKeySize)]
 
 ## -see-also

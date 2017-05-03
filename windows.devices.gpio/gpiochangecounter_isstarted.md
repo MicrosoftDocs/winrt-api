@@ -15,7 +15,6 @@ Gets whether pin change counting is currently active.
 ## -property-value
 
 ## -remarks
-Returns TRUE if pin change counting is active, and FALSE otherwise.
 
 ## -see-also
 

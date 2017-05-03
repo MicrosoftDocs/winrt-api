@@ -1,7 +1,6 @@
 ---
 -api-id: T:Windows.UI.Notifications.PeriodicUpdateRecurrence
 -api-type: winrt enum
--api-device-family-note: xbox
 ---
 
 <!-- Enumeration syntax

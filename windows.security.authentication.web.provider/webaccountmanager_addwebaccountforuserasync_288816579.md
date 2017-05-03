@@ -10,7 +10,7 @@ public IAsyncOperation<WebAccount> WebAccountManager.AddWebAccountForUserAsync(U
 # Windows.Security.Authentication.Web.Provider.WebAccountManager.AddWebAccountForUserAsync
 
 ## -description
-Adds a new web account. This process is tracked as belonging to a specified user (for use with multi-user-aware apps).
+Adds a new web account for a specific user (for use with multi-user-aware apps).
 
 ## -parameters
 
@@ -30,10 +30,10 @@ Properties for the web account.
 The scope of the web account.
 
 ### -param perUserWebAccountId
-The web account Id for this particular user.
+The per-user web account Id.
 
 ## -returns
-An asynchronous operation with the new web account.
+When this method completes, it returns the new web account.
 
 ## -remarks
 

@@ -1,7 +1,6 @@
 ---
 -api-id: T:Windows.Devices.Enumeration.DeviceDisconnectButtonClickedEventArgs
 -api-type: winrt class
--api-device-family-note: xbox
 ---
 
 <!-- Class syntax.

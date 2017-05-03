@@ -10,12 +10,7 @@ virtual protected void XamlCompositionBrushBase.OnConnected()
 # Windows.UI.Xaml.Media.XamlCompositionBrushBase.OnConnected
 
 ## -description
-
-Invoked when a brush is first used on screen to paint an element. 
-
-When implemented in a derived class, you can create a [CompositionBrush](./../windows.ui.composition/compositionbrush.md) instance and provide it to the framework by setting the [CompositionBrush](xamlcompositionbrushbase_compositionbrush.md) property.
-
-[OnDisconnected](xamlcompositionbrushbase_ondisconnected.md) will be called when the brush is no longer being used to paint any elements.
+When implemented in a derived class, creates an instance of [CompositionBrush](./../windows.ui.composition/compositionbrush.md) and provides it to the framework.
 
 ## -remarks
 

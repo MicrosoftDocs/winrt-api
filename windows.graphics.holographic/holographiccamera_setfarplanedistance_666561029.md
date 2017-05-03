@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.Graphics.Holographic.HolographicCamera.SetFarPlaneDistance(System.Double)
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

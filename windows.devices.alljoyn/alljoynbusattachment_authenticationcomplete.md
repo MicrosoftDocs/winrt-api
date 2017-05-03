@@ -1,7 +1,6 @@
 ---
 -api-id: E:Windows.Devices.AllJoyn.AllJoynBusAttachment.AuthenticationComplete
 -api-type: winrt event
--api-device-family-note: xbox
 ---
 
 <!-- Event syntax

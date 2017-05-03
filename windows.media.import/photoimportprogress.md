@@ -1,7 +1,6 @@
 ---
 -api-id: T:Windows.Media.Import.PhotoImportProgress
 -api-type: winrt struct
--api-device-family-note: xbox
 ---
 
 <!-- Structure syntax.

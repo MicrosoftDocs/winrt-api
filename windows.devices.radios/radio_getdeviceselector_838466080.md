@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.Devices.Radios.Radio.GetDeviceSelector
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

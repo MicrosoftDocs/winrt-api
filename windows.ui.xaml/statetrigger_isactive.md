@@ -19,7 +19,8 @@ Gets or sets a value that indicates whether the trigger should be applied.
 
 
 ## -property-value
-**true** if the system should apply the trigger; otherwise, **false**.
+**
+            true** if the system should apply the trigger; otherwise, **false**.
 
 ## -remarks
 

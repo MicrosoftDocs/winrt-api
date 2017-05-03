@@ -17,10 +17,9 @@ Provides a base class that exposes the automation peer for an associated owner c
 
 ### Firing automation events
 
-The [AutomationPeer](automationpeer.md) class is relevant to Windows Runtime control authors because you will have a peer instance available at run time, after the runtime invokes the [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) method. Using this peer, you can fire automation events by calling [RaiseAutomationEvent](automationpeer_raiseautomationevent.md) and [RaisePropertyChangedEvent](automationpeer_raisepropertychangedevent.md). You would do this whenever a related property in the peer's owner (your class) changes, or when firing an event is needed for correct automation support.
+The [AutomationPeer](automationpeer.md) class is relevant to Windows Runtime control authors because you will have a peer instance available at run time, after the runtime invokes the [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer.md) method. Using this peer, you can fire automation events by calling [RaiseAutomationEvent](automationpeer_raiseautomationevent.md) and [RaisePropertyChangedEvent](automationpeer_raisepropertychangedevent.md). You would do this whenever a related property in the peer's owner (your class) changes, or when firing an event is needed for correct automation support.
 
-The automation support design doesn't retain a handle to your own peer as part of how you implement [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md), because there aren't any guarantees of when the peer is actually created. Instead, you can check for run-time automation event listeners inside your control class definitions just-in-time, using code like this:
-```csharp
+The automation support design doesn't retain a handle to your own peer as part of how you implement [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer.md), because there aren't any guarantees of when the peer is actually created. Instead, you can check for run-time automation event listeners inside your control class definitions just-in-time, using code like this:```csharp
 if (AutomationPeer.ListenerExists(AutomationEvents.PropertyChanged))
 {
     MyAutomationPeer peer = 

@@ -1,7 +1,6 @@
 ---
 -api-id: E:Windows.ApplicationModel.LockScreen.LockScreenInfo.LockScreenImageChanged
 -api-type: winrt event
--api-device-family-note: xbox
 ---
 
 <!-- Event syntax

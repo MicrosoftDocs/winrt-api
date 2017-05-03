@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.Devices.PointOfService.SlipPrintJob.PrintBitmap(Windows.Graphics.Imaging.BitmapFrame,Windows.Devices.PointOfService.PosPrinterAlignment)
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

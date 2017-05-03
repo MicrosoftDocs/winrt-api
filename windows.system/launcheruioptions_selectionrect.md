@@ -1,7 +1,6 @@
 ---
 -api-id: P:Windows.System.LauncherUIOptions.SelectionRect
 -api-type: winrt property
--api-device-family-note: xbox
 ---
 
 <!-- Property syntax

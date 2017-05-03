@@ -1,7 +1,6 @@
 ---
 -api-id: T:Windows.Devices.AllJoyn.AllJoynAuthenticationMechanism
 -api-type: winrt enum
--api-device-family-note: xbox
 ---
 
 <!-- Enumeration syntax
@@ -31,6 +30,7 @@ ECDHE_PSK has been deprecated and should no longer be used.
 
 ### -field EcdheEcdsa:5
 ECDHE_ECDSA key exchange.
+
 
 ### -field EcdheSpeke:6
 ECDHE_SPEKE key exchange.

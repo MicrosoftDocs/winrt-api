@@ -1,7 +1,6 @@
 ---
 -api-id: P:Windows.Networking.Proximity.PeerFinder.AllowInfrastructure
 -api-type: winrt property
--api-device-family-note: xbox
 ---
 
 <!-- Property syntax

@@ -29,7 +29,7 @@ The package group has been staged.
 The package group has not been staged and is not in the staging queue.
 
 ## -field Queued:1
-The package has not been staged but is in the queue of packages to be staged.
+The package has not been staged but is in queue of packages to be staged.
 
 ## -remarks
 

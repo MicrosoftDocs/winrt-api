@@ -33,8 +33,7 @@ If your UI consists of multiple nested panels, [RelativePanel](relativepanel.md)
 <!--{annotation author="jimwalk" time="6/18/2015 2:48:23 PM"}Add link to Layout overview.-->
 Here's an example of a UI using a [RelativePanel](relativepanel.md) for its layout:
 
-<img alt="Relative panel control" src="images/controls/RelativePanelBasic.png" />
-```xaml
+<img alt="Relative panel control" src="images/controls/RelativePanelBasic.png" />```xaml
 <RelativePanel BorderBrush="Gray" BorderThickness="10">
     <Rectangle x:Name="RedRect" Fill="Red" MinHeight="100" MinWidth="100"/>
     <Rectangle x:Name="BlueRect" Fill="Blue" MinHeight="100" MinWidth="100" 

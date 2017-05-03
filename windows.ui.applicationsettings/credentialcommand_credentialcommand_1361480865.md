@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.UI.ApplicationSettings.CredentialCommand.#ctor(Windows.Security.Credentials.PasswordCredential)
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

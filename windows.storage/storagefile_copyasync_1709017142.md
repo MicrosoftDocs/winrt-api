@@ -22,9 +22,6 @@ The new name for the copy of the file created in the *destinationFolder*.
 ## -returns
 When this method completes, it returns a [StorageFile](storagefile.md) that represents the copy of the file created in the *destinationFolder*.
 
-> [!NOTE]
-> When StorageFile.CopyAsync is used to copy a file that is encrypted to a destination that is not encrypted, the call will fail with the following exception: `System.UnauthorizedAccessException: Access is denied. (Excep_FromHResult 0x80070005)`
-
 ## -exceptions
 ### System.UnauthorizedAccessException
 

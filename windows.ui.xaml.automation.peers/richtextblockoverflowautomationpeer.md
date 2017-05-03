@@ -13,7 +13,7 @@ public class RichTextBlockOverflowAutomationPeer : Windows.UI.Xaml.Automation.Pe
 Exposes [RichTextBlockOverflow](../windows.ui.xaml.controls/richtextblockoverflow.md) types to Microsoft UI Automation.
 
 ## -remarks
-The Windows Runtime  [RichTextBlockOverflow](../windows.ui.xaml.controls/richtextblockoverflow.md) class creates a new [RichTextBlockOverflowAutomationPeer](richtextblockoverflowautomationpeer.md) as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. [RichTextBlockOverflow](../windows.ui.xaml.controls/richtextblockoverflow.md) is sealed, so the normal scenario of deriving from the [RichTextBlockOverflow](../windows.ui.xaml.controls/richtextblockoverflow.md) class and its existing peer isn't applicable to [RichTextBlockOverflowAutomationPeer](richtextblockoverflowautomationpeer.md).
+The Windows Runtime  [RichTextBlockOverflow](../windows.ui.xaml.controls/richtextblockoverflow.md) class creates a new [RichTextBlockOverflowAutomationPeer](richtextblockoverflowautomationpeer.md) as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer.md) definition. [RichTextBlockOverflow](../windows.ui.xaml.controls/richtextblockoverflow.md) is sealed, so the normal scenario of deriving from the [RichTextBlockOverflow](../windows.ui.xaml.controls/richtextblockoverflow.md) class and its existing peer isn't applicable to [RichTextBlockOverflowAutomationPeer](richtextblockoverflowautomationpeer.md).
 
 ### Default peer implementation and overrides in **RichTextBlockOverflowAutomationPeer**
 

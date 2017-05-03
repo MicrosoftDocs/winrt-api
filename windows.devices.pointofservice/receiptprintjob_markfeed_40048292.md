@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.Devices.PointOfService.ReceiptPrintJob.MarkFeed(Windows.Devices.PointOfService.PosPrinterMarkFeedKind)
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

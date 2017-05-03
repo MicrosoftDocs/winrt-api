@@ -24,6 +24,6 @@ An array of bytes that contains the values copied from the input buffer. You mus
 ## -examples
 
 
-[!code-csharp[ShowByteArrayCopy](../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowByteArrayCopy)]
+[!code-csharp[ShowByteArrayCopy] (../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowByteArrayCopy)]
 
 ## -see-also

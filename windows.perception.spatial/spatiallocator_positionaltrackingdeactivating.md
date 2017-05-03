@@ -1,7 +1,6 @@
 ---
 -api-id: E:Windows.Perception.Spatial.SpatialLocator.PositionalTrackingDeactivating
 -api-type: winrt event
--api-device-family-note: xbox
 ---
 
 <!-- Event syntax

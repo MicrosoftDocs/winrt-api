@@ -23,20 +23,13 @@ Setting all permissions succeeded.
 Changes to settings are not permitted.
 
 ## -remarks
-The [CortanaPermissionManager](cortanapermissionsmanager.md) class requires the following be added to the Package.appmanifest:
-
-- `<iot:Capability Name="systemManagement"/>`
-- "iot" to the list of **IgnorableNamespaces**
-
-
-## -see-also
-- `<iot:Capability Name="systemManagement"/>`
-- "iot" to the list of **IgnorableNamespaces**
 - [CortanaPermission](cortanapermission.md)
 - [CortanaPermissionManager](cortanapermissionsmanager.md)
 - [CortanaPermissionsManager.ArePermissionsGrantedAsync](cortanapermissionsmanager_arepermissionsgrantedasync_1821808521.md)
 - [CortanaPermissionsManager.GrantPermissionsAsync](cortanapermissionsmanager_grantpermissionsasync_1382961431.md)
 - [CortanaPermissionsManager.RevokePermissionsAsync](cortanapermissionsmanager_revokepermissionsasync_517405145.md)
+
+## -see-also
 
 
 ## -examples

@@ -10,15 +10,12 @@ public IAsyncOperation<ToastNotifier> ToastNotificationManagerForUser.GetToastNo
 # Windows.UI.Notifications.ToastNotificationManagerForUser.GetToastNotifierForToastCollectionIdAsync
 
 ## -description
-Creates a new [ToastNotification](toastnotification.md) for the bound [user](toastnotificationmanagerforuser_user.md) and app for the specified notification group.
 
 ## -parameters
 
 ### -param collectionId
-The ID of the [ToastNotificationCollection](toastnotificationcollection) that represents the notification group you want to send.
 
 ## -returns
-The object you will use to send the toast notifications.
 
 ## -remarks
 

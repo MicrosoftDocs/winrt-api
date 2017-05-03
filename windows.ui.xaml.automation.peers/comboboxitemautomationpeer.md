@@ -13,7 +13,7 @@ public class ComboBoxItemAutomationPeer : Windows.UI.Xaml.Automation.Peers.Frame
 Exposes the [ComboBoxItem](../windows.ui.xaml.controls/comboboxitem.md) contents in a [ComboBox](../windows.ui.xaml.controls/combobox.md) to Microsoft UI Automation.
 
 ## -remarks
-The Windows Runtime  [ComboBoxItem](../windows.ui.xaml.controls/comboboxitem.md) class creates a new [ComboBoxItemAutomationPeer](comboboxitemautomationpeer.md) as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. Derive your automation peer from [ComboBoxItemAutomationPeer](comboboxitemautomationpeer.md) if you are deriving a custom class from [ComboBoxItem](../windows.ui.xaml.controls/comboboxitem.md) and want to add automation support for additional features that you enabled in your custom class. Then override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) so that it returns your custom peer.
+The Windows Runtime  [ComboBoxItem](../windows.ui.xaml.controls/comboboxitem.md) class creates a new [ComboBoxItemAutomationPeer](comboboxitemautomationpeer.md) as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer.md) definition. Derive your automation peer from [ComboBoxItemAutomationPeer](comboboxitemautomationpeer.md) if you are deriving a custom class from [ComboBoxItem](../windows.ui.xaml.controls/comboboxitem.md) and want to add automation support for additional features that you enabled in your custom class. Then override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer.md) so that it returns your custom peer.
 
 ### Default peer implementation and overrides in **ComboBoxItemAutomationPeer**
 

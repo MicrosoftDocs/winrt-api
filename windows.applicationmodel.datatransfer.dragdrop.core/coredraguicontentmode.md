@@ -1,7 +1,6 @@
 ---
 -api-id: T:Windows.ApplicationModel.DataTransfer.DragDrop.Core.CoreDragUIContentMode
 -api-type: winrt enum
--api-device-family-note: xbox
 ---
 
 <!-- Enumeration syntax

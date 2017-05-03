@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.UI.Notifications.BadgeNotification.#ctor(Windows.Data.Xml.Dom.XmlDocument)
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

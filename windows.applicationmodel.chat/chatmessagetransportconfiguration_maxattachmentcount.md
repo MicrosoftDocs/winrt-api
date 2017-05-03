@@ -1,7 +1,6 @@
 ---
 -api-id: P:Windows.ApplicationModel.Chat.ChatMessageTransportConfiguration.MaxAttachmentCount
 -api-type: winrt property
--api-device-family-note: xbox
 ---
 
 <!-- Property syntax

@@ -1,7 +1,6 @@
 ---
 -api-id: E:Windows.Devices.PointOfService.PosPrinter.StatusUpdated
 -api-type: winrt event
--api-device-family-note: xbox
 ---
 
 <!-- Event syntax

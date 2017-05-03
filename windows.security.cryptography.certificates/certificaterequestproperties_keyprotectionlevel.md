@@ -21,6 +21,6 @@ The default [KeyProtectionLevel](keyprotectionlevel.md) value is **NoConsent**. 
 ## -examples
 
 
-[!code-csharp[ShowProtectionLevel](../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowProtectionLevel)]
+[!code-csharp[ShowProtectionLevel] (../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowProtectionLevel)]
 
 ## -see-also

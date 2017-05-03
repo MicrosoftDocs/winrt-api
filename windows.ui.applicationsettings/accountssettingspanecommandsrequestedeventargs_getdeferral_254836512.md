@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.UI.ApplicationSettings.AccountsSettingsPaneCommandsRequestedEventArgs.GetDeferral
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

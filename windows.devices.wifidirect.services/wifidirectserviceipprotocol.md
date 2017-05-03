@@ -1,7 +1,6 @@
 ---
 -api-id: T:Windows.Devices.WiFiDirect.Services.WiFiDirectServiceIPProtocol
 -api-type: winrt enum
--api-device-family-note: xbox
 ---
 
 <!-- Enumeration syntax

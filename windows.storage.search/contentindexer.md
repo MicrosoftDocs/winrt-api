@@ -15,7 +15,7 @@ Enables Windows Store app to place content properties in the system index.
 ## -remarks
 The index is a cache of searchable properties for data that's backed by storage elsewhere. Don't use the index as a primary data store.
 
-Define properties for the index with string-object key-value pairs, where the keys are standard Windows property names, like [System.Author](https://msdn.microsoft.com/library/windows/desktop/bb760652.aspx), and the values are [PropertyValue](../windows.foundation/propertyvalue.md) instances. The property must be registered on the system and have isColumn and isInvertedIndex set to true. 
+Define properties for the index with string-object key-value pairs, where the keys are standard Windows property names, like [System.Author](https://msdn.microsoft.com/library/windows/desktop/bb760652.aspx), and the values are [PropertyValue](../windows.foundation/propertyvalue.md) instances. The property must be registered on the system.
 
 You query over content by using Advanced Query Syntax (AQS).
 

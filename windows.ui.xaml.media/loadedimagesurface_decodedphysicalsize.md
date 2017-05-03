@@ -10,10 +10,10 @@ public Size DecodedPhysicalSize { get; }
 # Windows.UI.Xaml.Media.LoadedImageSurface.DecodedPhysicalSize
 
 ## -description
-Gets the size of the decoded image in physical pixels. 
+Gets the physical size of the decoded image. 
 
 ## -property-value
-The size of the decoded image in physical pixels.
+The physical size of the decoded image.
 
 ## -remarks
 

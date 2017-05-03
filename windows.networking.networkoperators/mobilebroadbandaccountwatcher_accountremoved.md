@@ -1,7 +1,6 @@
 ---
 -api-id: E:Windows.Networking.NetworkOperators.MobileBroadbandAccountWatcher.AccountRemoved
 -api-type: winrt event
--api-device-family-note: xbox
 ---
 
 <!-- Event syntax

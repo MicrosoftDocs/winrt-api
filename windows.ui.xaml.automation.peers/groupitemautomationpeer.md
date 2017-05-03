@@ -13,7 +13,7 @@ public class GroupItemAutomationPeer : Windows.UI.Xaml.Automation.Peers.Framewor
 Exposes a [GroupItem](../windows.ui.xaml.controls/groupitem.md) to Microsoft UI Automation.
 
 ## -remarks
-The Windows Runtime  [GroupItem](../windows.ui.xaml.controls/groupitem.md) class creates a new [GroupItemAutomationPeer](groupitemautomationpeer.md) as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. Derive your automation peer from [GroupItemAutomationPeer](groupitemautomationpeer.md) if you are deriving a custom class from [GroupItem](../windows.ui.xaml.controls/groupitem.md) and want to add automation support for additional features that you enabled in your custom class. Then override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) so that it returns your custom peer.
+The Windows Runtime  [GroupItem](../windows.ui.xaml.controls/groupitem.md) class creates a new [GroupItemAutomationPeer](groupitemautomationpeer.md) as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer.md) definition. Derive your automation peer from [GroupItemAutomationPeer](groupitemautomationpeer.md) if you are deriving a custom class from [GroupItem](../windows.ui.xaml.controls/groupitem.md) and want to add automation support for additional features that you enabled in your custom class. Then override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer.md) so that it returns your custom peer.
 
 ### Default peer implementation and overrides in **GroupItemAutomationPeer**
 

@@ -1,7 +1,6 @@
 ---
 -api-id: T:Windows.Security.Credentials.IWebAccount
 -api-type: winrt interface
--api-device-family-note: xbox
 ---
 
 <!-- Interface syntax.

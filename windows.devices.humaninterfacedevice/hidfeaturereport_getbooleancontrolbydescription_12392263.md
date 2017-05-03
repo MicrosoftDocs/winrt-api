@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.Devices.HumanInterfaceDevice.HidFeatureReport.GetBooleanControlByDescription(Windows.Devices.HumanInterfaceDevice.HidBooleanControlDescription)
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

@@ -1,7 +1,6 @@
 ---
 -api-id: P:Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.CyclingPowerMeasurement
 -api-type: winrt property
--api-device-family-note: xbox
 ---
 
 <!-- Property syntax

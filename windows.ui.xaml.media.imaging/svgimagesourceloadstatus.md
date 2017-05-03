@@ -19,16 +19,16 @@ Defines constants that specify the result of loading an [SvgImageSource](svgimag
 
 ## -enum-fields
 ### -field Success:0
-The SVG loaded.
+The image loaded.
 
 ### -field NetworkError:1
-The SVG did not load due to a network error.
+The image did not load due to a network error.
 
 ### -field InvalidFormat:2
-The SVG did not load because the SVG format is invalid.
+The image did not load because the image format is invalid.
 
 ### -field Other:3
-The SVG did not load for some other reason.
+The image did not load for some other reason.
 
 ## -remarks
 

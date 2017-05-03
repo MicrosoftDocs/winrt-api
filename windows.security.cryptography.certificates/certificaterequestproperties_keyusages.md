@@ -21,6 +21,6 @@ The default key usage value is **Signing**.
 ## -examples
 
 
-[!code-csharp[ShowKeyUsages](../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowKeyUsages)]
+[!code-csharp[ShowKeyUsages] (../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowKeyUsages)]
 
 ## -see-also

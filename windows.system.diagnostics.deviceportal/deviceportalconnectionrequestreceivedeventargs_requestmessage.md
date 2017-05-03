@@ -13,7 +13,7 @@ public HttpRequestMessage RequestMessage { get; }
 Gets the http request message for this request.
 
 ## -property-value
-An [HttpRequestMessage](https://docs.microsoft.com/en-us/uwp/api/Windows.Web.Http.HttpRequestMessage) instance representing the HTTP request coming in through the Windows Device Portal server.
+An [HttpRequestMessage](https://docs.microsoft.com/en-us/uwp/api/Windows.Web.Http.HttpRequestMessage) instance for the request.
 ## -remarks
 
 ## -see-also

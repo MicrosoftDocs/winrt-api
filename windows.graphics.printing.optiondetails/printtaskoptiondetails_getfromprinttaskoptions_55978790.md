@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.Graphics.Printing.OptionDetails.PrintTaskOptionDetails.GetFromPrintTaskOptions(Windows.Graphics.Printing.PrintTaskOptions)
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

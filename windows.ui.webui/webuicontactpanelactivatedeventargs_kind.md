@@ -10,10 +10,8 @@ public ActivationKind Kind { get; }
 # Windows.UI.WebUI.WebUIContactPanelActivatedEventArgs.Kind
 
 ## -description
-Gets the activation type. 
 
 ## -property-value
-The [ActivationKind.Contact](activationkind.md) enumeration value.
 
 ## -remarks
 

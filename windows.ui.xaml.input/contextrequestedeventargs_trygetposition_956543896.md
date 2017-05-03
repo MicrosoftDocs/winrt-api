@@ -20,7 +20,8 @@ Any [UIElement](../windows.ui.xaml/uielement.md)-derived object that is connecte
 A [Point](../windows.foundation/point.md) that represents the current x- and y-coordinates of the mouse pointer position. If **null** was passed as *relativeTo*, this coordinate is for the overall window. If a *relativeTo* value other than **null** was passed, this coordinate is relative to the object referenced by *relativeTo*.
 
 ## -returns
-**true** if the context request was initiated by a pointer device; otherwise, **false**.
+**
+            true** if the context request was initiated by a pointer device; otherwise, **false**.
 
 ## -remarks
 

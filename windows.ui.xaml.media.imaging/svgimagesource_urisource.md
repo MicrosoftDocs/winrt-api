@@ -10,7 +10,7 @@ public Uri UriSource { get;  set; }
 # Windows.UI.Xaml.Media.Imaging.SvgImageSource.UriSource
 
 ## -description
-Gets or sets the Uniform Resource Identifier (URI) of the SVG source file that generated this [SvgImageSource](svgimagesource.md).
+Gets or sets the Uniform Resource Identifier (URI) of the graphics source file that generated this **SvgImageSource**.
 
 ## -xaml-syntax
 ```xaml
@@ -18,7 +18,7 @@ Gets or sets the Uniform Resource Identifier (URI) of the SVG source file that g
 ```
 
 ## -property-value
-An object describing the Uniform Resource Identifier (URI) of the SVG source file that generated this [SvgImageSource](svgimagesource.md).
+An object describing the Uniform Resource Identifier (URI) of the graphics source file that generated this **SvgImageSource**.
 
 ## -remarks
 

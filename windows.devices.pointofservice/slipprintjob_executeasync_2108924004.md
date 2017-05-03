@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.Devices.PointOfService.SlipPrintJob.ExecuteAsync
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

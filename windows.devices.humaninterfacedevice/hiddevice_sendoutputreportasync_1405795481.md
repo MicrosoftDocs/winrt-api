@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.Devices.HumanInterfaceDevice.HidDevice.SendOutputReportAsync(Windows.Devices.HumanInterfaceDevice.HidOutputReport)
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

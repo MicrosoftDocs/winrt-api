@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.ApplicationModel.DataTransfer.DragDrop.Core.CoreDragUIOverride.Clear
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

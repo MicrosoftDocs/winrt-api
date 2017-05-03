@@ -40,9 +40,6 @@ The string content of the year value is created by a [DateTimeFormatter](../wind
 
 For the complete list of format templates and format patterns, see the Remarks section of the [DateTimeFormatter](../windows.globalization.datetimeformatting/datetimeformatter.md) class documentation.
 
-> [!NOTE]
-> Some date formats should be avoided if the date picker might be displayed in a small area, such as adding the full string value of the day of week. These strings can be long and might be clipped if the DatePicker's width is forced to be small.
-
 ## -examples
 
 ## -see-also

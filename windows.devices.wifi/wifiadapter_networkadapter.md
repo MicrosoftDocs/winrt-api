@@ -1,7 +1,6 @@
 ---
 -api-id: P:Windows.Devices.WiFi.WiFiAdapter.NetworkAdapter
 -api-type: winrt property
--api-device-family-note: xbox
 ---
 
 <!-- Property syntax

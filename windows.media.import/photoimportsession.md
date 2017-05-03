@@ -1,7 +1,6 @@
 ---
 -api-id: T:Windows.Media.Import.PhotoImportSession
 -api-type: winrt class
--api-device-family-note: xbox
 ---
 
 <!-- Class syntax.

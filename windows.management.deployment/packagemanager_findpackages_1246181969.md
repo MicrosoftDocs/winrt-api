@@ -16,7 +16,6 @@ Retrieves information about a specified family of packages installed across all 
 If the method succeeds, an enumerable collection of package objects is returned. Each Package object in this collection contains information about the package, including but not limited to its name, publisher, version, and install location.
 
 ## -remarks
-This method requires administrative privileges.
 
 ## -examples
 This example uses [FindPackages()](packagemanager_findpackages_1246181969.md) to enumerate the installed packages for all users.

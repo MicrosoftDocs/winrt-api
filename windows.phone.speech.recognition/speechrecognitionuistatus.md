@@ -10,7 +10,7 @@ public enum Windows.Phone.Speech.Recognition.SpeechRecognitionUIStatus : int
 # SpeechRecognitionUIStatus
 
 ## -description
-Indicates the status of the speech recognition session. 
+Indicates the status of the speech recognition session that was initiated by the [SpeechRecognizerUI](speechrecognizerui.md) object.
 
 ## -enum-fields
 ### -field Succeeded:0

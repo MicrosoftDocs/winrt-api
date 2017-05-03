@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.Devices.Bluetooth.Rfcomm.RfcommServiceProvider.StartAdvertising(Windows.Networking.Sockets.StreamSocketListener)
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

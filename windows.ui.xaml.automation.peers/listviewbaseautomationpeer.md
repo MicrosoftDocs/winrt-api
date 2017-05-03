@@ -13,7 +13,7 @@ public class ListViewBaseAutomationPeer : Windows.UI.Xaml.Automation.Peers.Selec
 A base class that provides a Microsoft UI Automation peer implementation for types that derive from [ListViewBase](../windows.ui.xaml.controls/listviewbase.md).
 
 ## -remarks
- [ListViewBase](../windows.ui.xaml.controls/listviewbase.md) isn't used as a control class, because it is the base class for other controls. You could either derive from those other controls or derive from directly, but the latter means that you have to provide a template and a lot more behavior. If you derive from [ListViewBase](../windows.ui.xaml.controls/listviewbase.md), override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) so that it returns a custom peer that is based on [ListViewBaseAutomationPeer](listviewbaseautomationpeer.md).
+ [ListViewBase](../windows.ui.xaml.controls/listviewbase.md) isn't used as a control class, because it is the base class for other controls. You could either derive from those other controls or derive from directly, but the latter means that you have to provide a template and a lot more behavior. If you derive from [ListViewBase](../windows.ui.xaml.controls/listviewbase.md), override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer.md) so that it returns a custom peer that is based on [ListViewBaseAutomationPeer](listviewbaseautomationpeer.md).
 
 ### Default peer implementation and overrides in **ListViewBaseAutomationPeer**
 

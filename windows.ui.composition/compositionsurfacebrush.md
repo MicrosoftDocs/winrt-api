@@ -17,6 +17,7 @@ CompositionSurfaceBrush.Stretch, in conjunction with CompositionSurfaceBrush.Hor
 
 CompositionSurfaceBrush also has the following properties that enable custom transformations:
 
+
 + AnchorPoint
 + CenterPoint
 + Offset
@@ -24,12 +25,11 @@ CompositionSurfaceBrush also has the following properties that enable custom tra
 + RotationAngleInDegrees
 + Scale
 + TransformMatrix
-
 The order of transformation operations on a SurfaceBrush is as follows:
 
-1. The content of the [CompositionSurfaceBrush](compositionsurfacebrush.md) is stretched and aligned onto the [SpriteVisual](spritevisual.md) (CompositionSurfaceBrush.[Stretch](compositionsurfacebrush_stretch.md), CompositionSurfaceBrush.[HorizontalAlignmentRatio](compositionsurfacebrush_horizontalalignmentratio.md), and CompositionSurfaceBrush.[VerticalAlignmentRatio](compositionsurfacebrush_verticalalignmentratio.md)).
 
-2. Any other transformation properties set on the [CompositionSurfaceBrush](compositionsurfacebrush.md) are applied.
++ 1. The content of the [CompositionSurfaceBrush](compositionsurfacebrush.md) is stretched and aligned onto the [SpriteVisual](spritevisual.md) (CompositionSurfaceBrush.[Stretch](compositionsurfacebrush_stretch.md), CompositionSurfaceBrush.[HorizontalAlignmentRatio](compositionsurfacebrush_horizontalalignmentratio.md), and CompositionSurfaceBrush.[VerticalAlignmentRatio](compositionsurfacebrush_verticalalignmentratio.md)).
++ 2. Any other transformation properties set on the [CompositionSurfaceBrush](compositionsurfacebrush.md) are applied.
 Custom transformations applied to a SurfaceBrush are therefore evaluated in the coordinate space of the SpriteVisual that the brush is painted onto (that is, setting an Offset of Vector2(100, 0) translates the brush’s stretched and aligned contents by 100 units to the right relative to the left edge of the [SpriteVisual](spritevisual.md) it is painted onto).
 
 ## -examples

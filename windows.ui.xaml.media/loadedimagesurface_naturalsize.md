@@ -10,10 +10,10 @@ public Size NaturalSize { get; }
 # Windows.UI.Xaml.Media.LoadedImageSurface.NaturalSize
 
 ## -description
-Gets the natural size of the image in physical pixels, which is defined in the original image source.
+Gets the natural size of the image.
 
 ## -property-value
-The natural size of the image in physical pixels.
+The natural size of the image.
 
 ## -remarks
 

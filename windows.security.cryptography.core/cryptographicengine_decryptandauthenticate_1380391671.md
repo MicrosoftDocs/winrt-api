@@ -44,7 +44,7 @@ For a complete sample that contains the following code example, see the [Encrypt
 ## -examples
 
 
-[!code-csharp[ShowAuthenticatedDecryption](../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowAuthenticatedDecryption)]
+[!code-csharp[ShowAuthenticatedDecryption] (../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowAuthenticatedDecryption)]
 
 ## -see-also
 [EncryptedAndAuthenticatedData](encryptedandauthenticateddata.md)

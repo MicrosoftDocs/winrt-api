@@ -10,7 +10,7 @@ public IAsyncOperation<bool> ApplicationView.TryConsolidateAsync()
 # Windows.UI.ViewManagement.ApplicationView.TryConsolidateAsync
 
 ## -description
-Tries to close the current app view. This method is a programmatic equivalent to a user initiating a close gesture for the app view.
+Closes the current view in a multi-view app.
 
 ## -parameters
 

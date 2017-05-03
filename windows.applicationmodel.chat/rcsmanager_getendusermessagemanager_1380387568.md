@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.ApplicationModel.Chat.RcsManager.GetEndUserMessageManager
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

@@ -1,7 +1,6 @@
 ---
 -api-id: T:Windows.Graphics.Holographic.HolographicStereoTransform
 -api-type: winrt struct
--api-device-family-note: xbox
 ---
 
 <!-- Structure syntax.

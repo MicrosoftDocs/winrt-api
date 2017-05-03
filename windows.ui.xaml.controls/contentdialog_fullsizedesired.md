@@ -10,7 +10,7 @@ public bool FullSizeDesired { get;  set; }
 # Windows.UI.Xaml.Controls.ContentDialog.FullSizeDesired
 
 ## -description
-Gets or sets a value that indicates whether a request is being made to display the dialog full screen.
+Determines whether a request is being made to display the dialog full screen, with buttons appearing in the app bar.
 
 ## -xaml-syntax
 ```xaml
@@ -19,7 +19,7 @@ Gets or sets a value that indicates whether a request is being made to display t
 
 
 ## -property-value
-**true** to request that the dialog is displayed full screen; otherwise, **false**. The default is **false**.
+True to request that the dialog is displayed full screen; Otherwise, false. The default is false.
 
 ## -remarks
 

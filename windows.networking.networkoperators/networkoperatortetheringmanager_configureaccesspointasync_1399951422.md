@@ -1,7 +1,6 @@
 ---
 -api-id: M:Windows.Networking.NetworkOperators.NetworkOperatorTetheringManager.ConfigureAccessPointAsync(Windows.Networking.NetworkOperators.NetworkOperatorTetheringAccessPointConfiguration)
 -api-type: winrt method
--api-device-family-note: xbox
 ---
 
 <!-- Method syntax

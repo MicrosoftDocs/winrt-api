@@ -1,7 +1,6 @@
 ---
 -api-id: P:Windows.Devices.PointOfService.SlipPrinterCapabilities.ColorCartridgeCapabilities
 -api-type: winrt property
--api-device-family-note: xbox
 ---
 
 <!-- Property syntax

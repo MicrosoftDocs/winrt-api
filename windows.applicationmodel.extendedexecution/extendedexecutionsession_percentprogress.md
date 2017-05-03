@@ -10,12 +10,13 @@ public uint PercentProgress { get;  set; }
 # Windows.ApplicationModel.ExtendedExecution.ExtendedExecutionSession.PercentProgress
 
 ## -description
-This property is not used in the current release.
+Gets or sets a value to show progress in the shell.
 
 ## -property-value
-This property is not used in the current release.
+A value to show progress in the shell.
 
 ## -remarks
+The default value is 0. The range of this value is 0–100. This should be populated to show the progress in the shell.
 
 ## -examples
 

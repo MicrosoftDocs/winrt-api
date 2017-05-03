@@ -1,7 +1,6 @@
 ---
 -api-id: T:Windows.Graphics.Printing3D.Printing3DTextureEdgeBehavior
 -api-type: winrt enum
--api-device-family-note: xbox
 ---
 
 <!-- Enumeration syntax

@@ -25,4 +25,4 @@ The capture device is overheated. You should stop the current capture session an
 ## -examples
 
 ## -see-also
-[ThermalStatusChanged](mediacapture_thermalstatuschanged.md), [MediaCaptureThermalStatus](mediacapture_thermalstatus.md)
+[ThermalStatusChanged](mediacapture_thermalstatuschanged.md), [MediaCaptureThermalStatus](mediacapture_mediacapturethermalstatus.md)

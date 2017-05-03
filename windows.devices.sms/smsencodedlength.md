@@ -1,7 +1,6 @@
 ---
 -api-id: T:Windows.Devices.Sms.SmsEncodedLength
 -api-type: winrt struct
--api-device-family-note: xbox
 ---
 
 <!-- Structure syntax.

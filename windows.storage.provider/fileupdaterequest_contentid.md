@@ -1,7 +1,6 @@
 ---
 -api-id: P:Windows.Storage.Provider.FileUpdateRequest.ContentId
 -api-type: winrt property
--api-device-family-note: xbox
 ---
 
 <!-- Property syntax

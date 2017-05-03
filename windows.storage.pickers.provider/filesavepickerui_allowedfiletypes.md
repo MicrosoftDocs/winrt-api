@@ -1,7 +1,6 @@
 ---
 -api-id: P:Windows.Storage.Pickers.Provider.FileSavePickerUI.AllowedFileTypes
 -api-type: winrt property
--api-device-family-note: xbox
 ---
 
 <!-- Property syntax

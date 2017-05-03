@@ -19,7 +19,8 @@ Gets or sets a value that indicates whether the user can change the text in the 
 
 
 ## -property-value
-**True** if the [RichEditBox](richeditbox.md) is read-only; otherwise, **false**. The default is **false**.
+**
+        True** if the [RichEditBox](richeditbox.md) is read-only; otherwise, **false**. The default is **false**.
 
 ## -remarks
 

@@ -21,6 +21,6 @@ By default, the private key is not exportable.
 ## -examples
 
 
-[!code-csharp[ShowExportable](../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowExportable)]
+[!code-csharp[ShowExportable] (../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowExportable)]
 
 ## -see-also

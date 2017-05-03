@@ -1,7 +1,6 @@
 ---
 -api-id: T:Windows.Graphics.Printing3D.Printing3DBufferDescription
 -api-type: winrt struct
--api-device-family-note: xbox
 ---
 
 <!-- Structure syntax.

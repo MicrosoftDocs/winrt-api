@@ -10,10 +10,10 @@ public uint Width { get; }
 # Windows.Media.Capture.MediaCaptureVideoProfileMediaDescription.Width
 
 ## -description
-Gets the width of the media description.
+Gets the height of the media description.
 
 ## -property-value
-The width of the media description.
+The height of the media description.
 
 ## -remarks
 
