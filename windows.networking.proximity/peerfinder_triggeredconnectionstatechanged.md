@@ -1,6 +1,7 @@
 ---
 -api-id: E:Windows.Networking.Proximity.PeerFinder.TriggeredConnectionStateChanged
 -api-type: winrt event
+-api-device-family-note: xbox
 ---
 
 <!-- Event syntax

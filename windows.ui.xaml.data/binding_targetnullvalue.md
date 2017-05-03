@@ -39,7 +39,8 @@ The value that is used in the binding target when the value of the source is **n
 [TargetNullValue](binding_targetnullvalue.md) might be used for bindings that bind a collection and the source data uses **null** for missing info only in some of the items. It might also be used for general cases where the data is coming from a database that uses **null** values as source info to signify something, such as a record that needs more info from the user and isn't complete in the source.
 
 There are two recommended patterns for using [TargetNullValue](binding_targetnullvalue.md) behavior in a [Binding](binding.md):
-+ The binding source provides a separate value that is accessed by a different path, which acts as the singleton value that can substitute for any **null** value coming from a specific data item in the source. For example:```xaml
++ The binding source provides a separate value that is accessed by a different path, which acts as the singleton value that can substitute for any **null** value coming from a specific data item in the source. For example:
+```xaml
 <Button Content="{Binding Path=NextItem, Mode=OneWay, TargetNullValue={Binding Path=NullValue}}"/>
 ```
 

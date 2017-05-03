@@ -25,6 +25,8 @@ The animation to play when the UIElement is shown. A **Null** value prevents sho
 
 ## -remarks
 
+When an element is added to the scene or its **Visibility** property becomes **Visibility.Visible**, the element and all of its descendents in the UI tree will play their show animations.
+
 ## -see-also
 
 ## -examples

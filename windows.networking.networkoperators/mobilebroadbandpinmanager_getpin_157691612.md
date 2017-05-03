@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Networking.NetworkOperators.MobileBroadbandPinManager.GetPin(Windows.Networking.NetworkOperators.MobileBroadbandPinType)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

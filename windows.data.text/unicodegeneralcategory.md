@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.Data.Text.UnicodeGeneralCategory
 -api-type: winrt enum
+-api-device-family-note: xbox
 ---
 
 <!-- Enumeration syntax

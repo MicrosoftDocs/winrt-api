@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.ApplicationModel.DataTransfer.DragDrop.Core.CoreDragDropManager.GetForCurrentView
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

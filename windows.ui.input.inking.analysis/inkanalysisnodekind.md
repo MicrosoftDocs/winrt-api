@@ -18,10 +18,9 @@ public enum InkAnalysisNodeKind : int {
 -->
 
 # Windows.UI.Input.Inking.Analysis.InkAnalysisNodeKind
-Specifies the shapes that an InkAnalyzer can recognize when [InkAnalysisNode.Kind](inkanalysisnode_kind.md) is set to [InkDrawing](inkanalysisnodekind.md).
 
 ## -description
-Specifies the types of nodes that ink analysis supports for categorizing ink input.
+Specifies the types of nodes (or categories of ink input) that ink analysis can differentiate and recognize.
 
 ## -enum-fields
 
@@ -55,6 +54,7 @@ Node is for a list item bullet.
 ## -remarks
 
 ## -see-also
+- [InkAnalysisNode.Kind](inkanalysisnode_kind.md)
 
 ## -examples
 

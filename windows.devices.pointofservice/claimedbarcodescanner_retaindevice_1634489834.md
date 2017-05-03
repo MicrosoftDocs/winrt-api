@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.PointOfService.ClaimedBarcodeScanner.RetainDevice
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

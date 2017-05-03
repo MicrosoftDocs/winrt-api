@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.ApplicationModel.Chat.IChatItem
 -api-type: winrt interface
+-api-device-family-note: xbox
 ---
 
 <!-- Interface syntax.

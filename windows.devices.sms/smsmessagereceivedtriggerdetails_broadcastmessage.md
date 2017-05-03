@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Devices.Sms.SmsMessageReceivedTriggerDetails.BroadcastMessage
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

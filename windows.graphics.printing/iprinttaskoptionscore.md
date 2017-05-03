@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.Graphics.Printing.IPrintTaskOptionsCore
 -api-type: winrt interface
+-api-device-family-note: xbox
 ---
 
 <!-- Interface syntax.

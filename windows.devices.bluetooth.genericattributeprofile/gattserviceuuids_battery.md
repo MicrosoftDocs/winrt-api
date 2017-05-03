@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Devices.Bluetooth.GenericAttributeProfile.GattServiceUuids.Battery
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

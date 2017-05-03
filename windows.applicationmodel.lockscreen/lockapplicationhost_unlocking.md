@@ -1,6 +1,7 @@
 ---
 -api-id: E:Windows.ApplicationModel.LockScreen.LockApplicationHost.Unlocking
 -api-type: winrt event
+-api-device-family-note: xbox
 ---
 
 <!-- Event syntax

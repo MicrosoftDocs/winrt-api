@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.Notifications.ToastNotifier.Hide(Windows.UI.Notifications.ToastNotification)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

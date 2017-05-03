@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Devices.PointOfService.ReceiptPrinterCapabilities.MarkFeedCapabilities
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

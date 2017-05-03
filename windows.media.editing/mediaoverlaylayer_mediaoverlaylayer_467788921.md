@@ -14,10 +14,25 @@ Initializes a new instance of the [MediaOverlayLayer](mediaoverlaylayer.md) clas
 
 ## -parameters
 ### -param compositorDefinition
-The definition of the custom compositor associated with the media overlay layer.
+The definition of the custom compositor associated with the media overlay layer.  This is 
+typically an instance of the [VideoCompositorDefinition] class.
 
 ## -remarks
 
 ## -examples
 
+    var propertySet = new PropertySet
+    {
+       ["Feather"] = true,
+       ["Tolerance"] = 0.2f,
+       ["Color"] = Colors.Blue
+    };
+
+    // the name of a sealed class in a Windows Runtime Component project that implements 
+    // the IVideoCompositor interface.
+    var className = "Effects.ChromaKeyVideoCompositor";
+
+    var compositorDefinition = new VideoCompositorDefinition(className, propertySet);
+
+    var layer = new MediaOverlayLayer(compositorDefinition);'
 ## -see-also

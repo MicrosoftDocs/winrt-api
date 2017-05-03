@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.System.Launcher.LaunchUriAsync(Windows.Foundation.Uri,Windows.System.LauncherOptions)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

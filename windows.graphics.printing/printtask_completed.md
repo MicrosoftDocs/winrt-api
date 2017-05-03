@@ -1,6 +1,7 @@
 ---
 -api-id: E:Windows.Graphics.Printing.PrintTask.Completed
 -api-type: winrt event
+-api-device-family-note: xbox
 ---
 
 <!-- Event syntax

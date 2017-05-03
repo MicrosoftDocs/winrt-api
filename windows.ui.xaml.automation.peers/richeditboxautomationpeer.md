@@ -13,7 +13,7 @@ public class RichEditBoxAutomationPeer : Windows.UI.Xaml.Automation.Peers.Framew
 Exposes [RichEditBox](../windows.ui.xaml.controls/richeditbox.md) types to Microsoft UI Automation.
 
 ## -remarks
-The Windows Runtime  [RichEditBox](../windows.ui.xaml.controls/richeditbox.md) class creates a new [RichEditBoxAutomationPeer](richeditboxautomationpeer.md) as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer.md) definition. Derive your automation peer from [RichEditBoxAutomationPeer](richeditboxautomationpeer.md) if you are deriving a custom class from [RichEditBox](../windows.ui.xaml.controls/richeditbox.md) and want to add automation support for additional features that you enabled in your custom class. Then override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer.md) so that it returns your custom peer.
+The Windows Runtime  [RichEditBox](../windows.ui.xaml.controls/richeditbox.md) class creates a new [RichEditBoxAutomationPeer](richeditboxautomationpeer.md) as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. Derive your automation peer from [RichEditBoxAutomationPeer](richeditboxautomationpeer.md) if you are deriving a custom class from [RichEditBox](../windows.ui.xaml.controls/richeditbox.md) and want to add automation support for additional features that you enabled in your custom class. Then override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) so that it returns your custom peer.
 
 ### Default peer implementation and overrides in **RichEditBoxAutomationPeer**
 

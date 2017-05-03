@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Security.Credentials.WebAccountProvider.Authority
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.HumanInterfaceDevice.HidDevice.FromIdAsync(System.String,Windows.Storage.FileAccessMode)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

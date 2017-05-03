@@ -29,10 +29,10 @@ The pin is currently open in an incompatible sharing mode. For example:
 
 
 ### -field MuxingConflict:3
-
+The pin is currently opened for a different function, such as **I2c**, **Spi**, or **UART**. Ensure the pin is not in use by another function.
 
 ### -field UnknownError:4
-
+The pin could not be opened.
 
 ## -remarks
 

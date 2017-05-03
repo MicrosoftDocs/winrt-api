@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.ApplicationModel.DataTransfer.DragDrop.Core.ICoreDropOperationTarget
 -api-type: winrt interface
+-api-device-family-note: xbox
 ---
 
 <!-- Interface syntax.

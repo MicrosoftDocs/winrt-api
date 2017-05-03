@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Devices.AllJoyn.AllJoynAcceptSessionJoinerEventArgs.SamePhysicalNode
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

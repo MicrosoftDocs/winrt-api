@@ -10,11 +10,15 @@ virtual protected void XamlLight.OnConnected(UIElement newElement)
 # Windows.UI.Xaml.Media.XamlLight.OnConnected
 
 ## -description
-When implemented in a derived class, initializes a [CompositionLight](./../windows.ui.composition/compositionlight.md) and sets the specified UIElement as a target.
+This method is automatically called when the XamlLight is first in use on the screen, or after being previously disconnected then used again.
+
+This provides an opportunity to create resources such as the CompositionLight only when required.
+
+[OnDisconnected](xamllight_ondisconnected.md) will be called when the XamlLight is no longer being used to light any UIElements or Brushes.
 
 ## -params
 ### -param newElement
-The element that is a target of the composition light.
+The [UIElement](https://docs.microsoft.com/en-us/uwp/api/Windows.UI.Xaml.UIElement) that the light is attached to.
 
 ## -remarks
 

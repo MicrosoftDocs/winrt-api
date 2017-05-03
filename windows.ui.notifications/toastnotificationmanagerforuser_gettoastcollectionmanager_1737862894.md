@@ -10,12 +10,15 @@ public ToastCollectionManager ToastNotificationManagerForUser.GetToastCollection
 # Windows.UI.Notifications.ToastNotificationManagerForUser.GetToastCollectionManager
 
 ## -description
+Creates a [ToastCollectionManager](toastcollectionmanager.md) that you can use to save, update, and clear notification groups for the specified app.
 
 ## -parameters
 
 ### -param appId
+The ID of the app whose notification groups you want to manipulate. 
 
 ## -returns
+An object you can use to save, update, and clear notification groups. 
 
 ## -remarks
 

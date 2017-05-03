@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.PointOfService.ReceiptPrintJob.Print(System.String)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

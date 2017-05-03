@@ -10,7 +10,7 @@ public class ExtendedExecutionForegroundSession : Windows.ApplicationModel.Exten
 # Windows.ApplicationModel.ExtendedExecution.Foreground.ExtendedExecutionForegroundSession
 
 ## -description
-Supports managing a request for extended foreground execution.
+Supports managing a request for extended execution. This API requires the use of restricted capabilities and cannot be used for Store applications.
 
 ## -remarks
 

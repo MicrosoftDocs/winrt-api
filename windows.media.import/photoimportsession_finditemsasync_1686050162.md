@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Media.Import.PhotoImportSession.FindItemsAsync(Windows.Media.Import.PhotoImportContentTypeFilter,Windows.Media.Import.PhotoImportItemSelectionMode)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

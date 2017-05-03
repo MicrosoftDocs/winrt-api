@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Networking.NetworkOperators.ProvisioningAgent.GetProvisionedProfile(Windows.Networking.NetworkOperators.ProfileMediaType,System.String)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

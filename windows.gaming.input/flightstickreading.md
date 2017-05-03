@@ -53,6 +53,8 @@ The amount of yaw (rotation around the Y-axis; usually read from twisting the jo
 
 ## -remarks
 
+For information about how to process the information provided in this structure, see [Flight stick](https://docs.microsoft.com/windows/uwp/gaming/flight-stick).
+
 ## -see-also
 
 * [Windows.Gaming.Input.FlightStickButtons](flightstickbuttons.md)

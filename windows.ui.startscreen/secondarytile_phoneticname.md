@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.UI.StartScreen.SecondaryTile.PhoneticName
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Perception.Spatial.SpatialLocator.Locatability
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

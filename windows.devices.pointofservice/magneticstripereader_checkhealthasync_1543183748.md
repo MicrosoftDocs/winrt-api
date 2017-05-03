@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.PointOfService.MagneticStripeReader.CheckHealthAsync(Windows.Devices.PointOfService.UnifiedPosHealthCheckLevel)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

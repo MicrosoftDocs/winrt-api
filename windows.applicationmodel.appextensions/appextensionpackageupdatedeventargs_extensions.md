@@ -16,6 +16,7 @@ Provides a list of extensions that are in the extension package that was updated
 A list of extensions within the updated extension package.
 
 ## -remarks
+Extensions are scoped by the `<uap3:AppExtension Name=...>` in the extension's Package.appxmanifest file. Only extensions that match the `<uap3:AppExtension Name=...>` defined in the host's Package.appxmanifest file are returned.
 
 ## -examples
 

@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.Input.Inking.InkStrokeContainer.UpdateRecognitionResults(Windows.Foundation.Collections.IVectorView{Windows.UI.Input.Inking.InkRecognitionResult})
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

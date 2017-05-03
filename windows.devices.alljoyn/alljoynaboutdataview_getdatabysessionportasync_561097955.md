@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.AllJoyn.AllJoynAboutDataView.GetDataBySessionPortAsync(System.String,Windows.Devices.AllJoyn.AllJoynBusAttachment,System.UInt16,Windows.Globalization.Language)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

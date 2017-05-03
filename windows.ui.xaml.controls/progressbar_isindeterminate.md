@@ -19,14 +19,13 @@ Gets or sets a value that indicates whether the progress bar reports generic pro
 
 
 ## -property-value
-**
-        True** if the progress bar reports generic progress with a repeating pattern; **false** if the progress bar reports progress based on the [Value](../windows.ui.xaml.controls.primitives/rangebase_value.md) property. The default is **false**.
+**True** if the progress bar reports generic progress with a repeating pattern; **false** if the progress bar reports progress based on the [Value](../windows.ui.xaml.controls.primitives/rangebase_value.md) property. The default is **false**.
 
 ## -remarks
 ### Notes for Windows 8.x
 
 > **Windows 8.x**
-> In an app compiled for Windows 8, when the [ProgressBar](progressbar.md) is indeterminate, the progress animation continues even if it's not visible on the screen, such as when the [ProgressBar](progressbar.md)  [Visibility](../windows.ui.xaml/uielement_visibility.md) is [Collapsed](../windows.ui.xaml/visibility.md). This can keep the UI thread awake, use resources, and impair app performance. When the [ProgressBar](progressbar.md) is not visible, you should disable the animation by setting [IsIndeterminate](progressbar_isindeterminate.md) to **false**.
+> In an app compiled for Windows 8, when the [ProgressBar](progressbar.md) is indeterminate, the progress animation continues even if it's not visible on the screen, such as when the [ProgressBar](progressbar.md)  [Visibility](../windows.ui.xaml/uielement_visibility.md) is collapsed. This can keep the UI thread awake, use resources, and impair app performance. When the [ProgressBar](progressbar.md) is not visible, you should disable the animation by setting [IsIndeterminate](progressbar_isindeterminate.md) to **false**.
 
 
 

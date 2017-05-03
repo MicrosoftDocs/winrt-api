@@ -1,6 +1,7 @@
 ---
 -api-id: E:Windows.UI.Input.Spatial.SpatialGestureRecognizer.NavigationStarted
 -api-type: winrt event
+-api-device-family-note: xbox
 ---
 
 <!-- Event syntax

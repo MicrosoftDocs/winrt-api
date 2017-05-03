@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Perception.Spatial.SpatialAnchorStore.TrySave(System.String,Windows.Perception.Spatial.SpatialAnchor)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

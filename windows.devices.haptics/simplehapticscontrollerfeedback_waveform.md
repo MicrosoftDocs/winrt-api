@@ -13,7 +13,7 @@ public ushort Waveform { get; }
 Gets the haptic waveform type for the haptic input device.
 
 ## -property-value
-An unsigned 16-bit waveform ID.  
+An unsigned 16-bit waveform ID (based on the [Haptic Usage Page](https://aka.ms/hid-haptics) HID specification.  
 
 ## -remarks
 

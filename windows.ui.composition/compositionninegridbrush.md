@@ -19,7 +19,7 @@ Nine-Grid stretching refers to the partitioning of visual content (the content o
 
 When a [SpriteVisual](spritevisual.md) painted with a [CompositionNineGridBrush](compositionninegridbrush.md) is resized or scaled, the left and right margins (rectangles 4 and 6) stretch along the vertical axis, the top and bottom margins rectangles (rectangles 2 and 8) stretch along the horizontal axis, and the center (rectangle 5) is stretched along both axes while the corners (rectangles 1,3,7, and 9) do not stretch.
 
-The [Source](compositionninegridbrush_source.md) property of [CompositionNineGridBrush](compositionninegridbrush.md) accepts brushes of one of two types:
+The **Source** property of [CompositionNineGridBrush](compositionninegridbrush.md) accepts brushes of one of two types:
 
 
 + [CompositionSurfaceBrush](compositionsurfacebrush.md): apply Nine-Grid Stretching to a textured image surface.
@@ -63,7 +63,7 @@ A [CompositionNineGridBrush](compositionninegridbrush.md) may be set as source t
 
 ### Notes on CompositionColorBrush Source
 
-In conjunction with the [IsCenterHollow](compositionninegridbrush_iscenterhollow.md) property, a [CompositionColorBrush](compositioncolorbrush.md)[Source](compositionninegridbrush_source.md) allows for the creation of solid color borders. Note that insets for a [CompositionColorBrush](compositioncolorbrush.md)[Source](compositionninegridbrush_source.md) are measured in the coordinate space of the [SpriteVisual](spritevisual.md) itself.
+In conjunction with the [IsCenterHollow](compositionninegridbrush_iscenterhollow.md) property, a [CompositionColorBrush](compositioncolorbrush.md) **Source** allows for the creation of solid color borders. Note that insets for a [CompositionColorBrush](compositioncolorbrush.md) **Source** are measured in the coordinate space of the [SpriteVisual](spritevisual.md) itself.
 
 ### Notes on Inset Thickness and Inset Scale
 
@@ -72,7 +72,7 @@ The inset thickness of a [CompositionNineGridBrush](compositionninegridbrush.md)
 The inset scale properties provide a mechanism to scale Nine-Grid Insets from the brush’s coordinate space (such as pixel space for an image) to that of the [SpriteVisual](spritevisual.md). For instance, the inset scale properties may be used to control inset thickness in response to scale transformation inherited from the [SpriteVisual](spritevisual.md) that the NineGridBrush is painted onto or an arbitrary ancestor in its Visual tree (such as in cases of DPI scale, etc.). In this case, [ExpressionAnimation](expressionanimation.md) s provide a means to dynamically update values of inset scale.
 
 ## -examples
-Apply Nine-Grid Stretching to a button asset ([CompositionSurfaceBrush](compositionsurfacebrush.md)[Source](compositionninegridbrush_source.md))
+Apply Nine-Grid Stretching to a button asset ([CompositionSurfaceBrush](compositionsurfacebrush.md) **Source**)
 
 ```csharp
 
@@ -106,7 +106,7 @@ private SpriteVisual CreateNineGridVisualFromImageSurface(ICompositionSurface im
        
 ```
 
-Create a solid color border ([CompositionColorBrush](compositioncolorbrush.md)[Source](compositionninegridbrush_source.md))
+Create a solid color border ([CompositionColorBrush](compositioncolorbrush.md) **Source**)
 
 ```csharp
 

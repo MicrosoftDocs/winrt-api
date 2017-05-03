@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Media.Casting.CastingDevicePickerFilter.SupportsPictures
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

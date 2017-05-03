@@ -10,7 +10,7 @@ public void VisualInteractionSource.ConfigureDeltaPositionYModifiers(IIterable<C
 # Windows.UI.Composition.Interactions.VisualInteractionSource.ConfigureDeltaPositionYModifiers
 
 ## -description
-Configures modifiers for the Y direction.
+Takes an ordered list of CompositionConditionalValue. In a frame, the first CompositionConditionalValue to have its “.Condition” evaluate to true replaces the DeltaPositionY value the VisualInteractionSource provides with its “.Value”. If none evaluate to true, the DeltaPositionY is not replaced that frame.
 
 ## -parameters
 

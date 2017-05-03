@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Devices.PointOfService.MagneticStripeReaderAamvaCardDataReceivedEventArgs.Height
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

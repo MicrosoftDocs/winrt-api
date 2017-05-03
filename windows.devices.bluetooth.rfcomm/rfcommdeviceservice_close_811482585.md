@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.Bluetooth.Rfcomm.RfcommDeviceService.Close
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

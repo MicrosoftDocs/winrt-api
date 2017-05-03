@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.ApplicationSettings.WebAccountCommand.#ctor(Windows.Security.Credentials.WebAccount,Windows.UI.ApplicationSettings.WebAccountCommandInvokedHandler,Windows.UI.ApplicationSettings.SupportedWebAccountActions)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

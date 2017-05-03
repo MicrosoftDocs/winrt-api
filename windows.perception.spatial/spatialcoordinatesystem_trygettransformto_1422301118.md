@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Perception.Spatial.SpatialCoordinateSystem.TryGetTransformTo(Windows.Perception.Spatial.SpatialCoordinateSystem)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

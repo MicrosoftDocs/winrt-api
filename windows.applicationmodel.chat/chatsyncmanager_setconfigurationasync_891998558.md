@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.ApplicationModel.Chat.ChatSyncManager.SetConfigurationAsync(Windows.ApplicationModel.Chat.ChatSyncConfiguration)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

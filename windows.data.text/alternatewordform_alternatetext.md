@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Data.Text.AlternateWordForm.AlternateText
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

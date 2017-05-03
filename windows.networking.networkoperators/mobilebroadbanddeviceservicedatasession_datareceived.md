@@ -1,6 +1,7 @@
 ---
 -api-id: E:Windows.Networking.NetworkOperators.MobileBroadbandDeviceServiceDataSession.DataReceived
 -api-type: winrt event
+-api-device-family-note: xbox
 ---
 
 <!-- Event syntax

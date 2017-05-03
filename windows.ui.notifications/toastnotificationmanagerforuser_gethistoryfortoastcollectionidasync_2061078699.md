@@ -10,12 +10,15 @@ public IAsyncOperation<ToastNotificationHistory> ToastNotificationManagerForUser
 # Windows.UI.Notifications.ToastNotificationManagerForUser.GetHistoryForToastCollectionIdAsync
 
 ## -description
+Starts the retrieval of notification history for the specified notification group. 
 
 ## -parameters
 
 ### -param collectionId
+The ID of the notification group whose history you want to retrieve. 
 
 ## -returns
+An object that represents the asynchronous operation. 
 
 ## -remarks
 

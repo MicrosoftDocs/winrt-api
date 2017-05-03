@@ -13,7 +13,7 @@ public ushort Press { get; }
 Gets a press waveform.
 
 ## -property-value
-An unsigned 16-bit waveform ID.  
+An unsigned 16-bit waveform ID (0x1006/4102), based on the [Haptic Usage Page](https://aka.ms/hid-haptics) HID specification. 
 
 ## -remarks
 

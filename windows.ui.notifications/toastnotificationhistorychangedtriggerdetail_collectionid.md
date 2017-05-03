@@ -10,8 +10,10 @@ public string CollectionId { get; }
 # Windows.UI.Notifications.ToastNotificationHistoryChangedTriggerDetail.CollectionId
 
 ## -description
+Gets the ID of the notification group to which the notification that caused the change trigger belongs. 
 
 ## -property-value
+The ID of the notification group to which the notification that caused the change trigger belongs.
 
 ## -remarks
 

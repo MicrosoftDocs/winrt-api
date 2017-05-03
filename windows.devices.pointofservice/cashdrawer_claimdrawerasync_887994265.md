@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.PointOfService.CashDrawer.ClaimDrawerAsync
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

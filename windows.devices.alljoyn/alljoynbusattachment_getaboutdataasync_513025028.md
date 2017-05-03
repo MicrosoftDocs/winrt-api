@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.AllJoyn.AllJoynBusAttachment.GetAboutDataAsync(Windows.Devices.AllJoyn.AllJoynServiceInfo)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax.
@@ -20,6 +21,7 @@ The AllJoyn endpoint from which to retrieve About data.
 ## -returns
 
 ## -remarks
+This method makes acquiring About data more intuitive than it was in previous Windows releases.
 
 ## -see-also
 [GetAboutDataAsync(AllJoynServiceInfo serviceInfo, Language language)](alljoynbusattachment_getaboutdataasync_522145388.md)

@@ -10,8 +10,10 @@ public ActivatedOperation ActivatedOperation { get; }
 # Windows.UI.WebUI.WebUIPrintWorkflowForegroundTaskActivatedEventArgs.ActivatedOperation
 
 ## -description
+Gets the operation that activated the app.
 
 ## -property-value
+The operation that activated the app.
 
 ## -remarks
 

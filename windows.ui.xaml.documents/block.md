@@ -17,7 +17,8 @@ An abstract class that provides a base for all block-level content elements.
 
 In the Windows Runtime XAML vocabulary the only block type is [Paragraph](paragraph.md). You use [Paragraph](paragraph.md) to define the blocks of text to display within a [RichTextBlock](../windows.ui.xaml.controls/richtextblock.md) control. Every [RichTextBlock](../windows.ui.xaml.controls/richtextblock.md) should include at least one [Paragraph](paragraph.md).
 
-[BlockCollection](blockcollection.md) is a strongly typed collection class that is used by the [RichTextBlock.Blocks](../windows.ui.xaml.controls/richtextblock_blocks.md) property. By specifying XAML object elements within a [RichTextBlock](../windows.ui.xaml.controls/richtextblock.md), you can assign the block text content for the [RichTextBlock](../windows.ui.xaml.controls/richtextblock.md). This is usually done using an implicit collection and XAML property syntax, such that the [Paragraph](paragraph.md) elements appear as direct children of [RichTextBlock](../windows.ui.xaml.controls/richtextblock.md) in XAML markup. For example:```xaml
+[BlockCollection](blockcollection.md) is a strongly typed collection class that is used by the [RichTextBlock.Blocks](../windows.ui.xaml.controls/richtextblock_blocks.md) property. By specifying XAML object elements within a [RichTextBlock](../windows.ui.xaml.controls/richtextblock.md), you can assign the block text content for the [RichTextBlock](../windows.ui.xaml.controls/richtextblock.md). This is usually done using an implicit collection and XAML property syntax, such that the [Paragraph](paragraph.md) elements appear as direct children of [RichTextBlock](../windows.ui.xaml.controls/richtextblock.md) in XAML markup. For example:
+```xaml
 <RichTextBlock>
   <Paragraph>First paragraph.</Paragraph>
   <Paragraph>Second paragraph.</Paragraph>

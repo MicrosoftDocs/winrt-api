@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.Graphics.Printing.OptionDetails.PrintQualityOptionDetails
 -api-type: winrt class
+-api-device-family-note: xbox
 ---
 
 <!-- Class syntax.

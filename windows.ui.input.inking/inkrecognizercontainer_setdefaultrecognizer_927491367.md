@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.Input.Inking.InkRecognizerContainer.SetDefaultRecognizer(Windows.UI.Input.Inking.InkRecognizer)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

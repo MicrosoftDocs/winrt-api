@@ -16,7 +16,7 @@ Gets the [VideoMediaFrame](videomediaframe.md) wrapped by the [MediaFrameReferen
 The [VideoMediaFrame](videomediaframe.md) wrapped by the [MediaFrameReference](mediaframereference.md).
 
 ## -remarks
-If the frame reference wraps a different type of frame, such as a [BufferMediaFrame](buffermediaframe.md), the object returned by this property is null.
+If the frame reference wraps a different type of frame, or if the video frame data is in a format that is unsupported, such as RGB24, then this property is null. In this case, you can access the [BufferMediaFrame](mediaframereference_buffermediaframe.md) property, which is always non-null.
 
 ## -examples
 

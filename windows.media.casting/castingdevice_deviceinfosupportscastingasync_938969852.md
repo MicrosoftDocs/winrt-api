@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Media.Casting.CastingDevice.DeviceInfoSupportsCastingAsync(Windows.Devices.Enumeration.DeviceInformation)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

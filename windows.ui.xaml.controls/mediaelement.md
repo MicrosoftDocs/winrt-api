@@ -14,6 +14,10 @@ Represents an object that renders audio and video to the display.
 
 Use a [MediaElement](mediaelement.md) control to play audio and video files in your app. Built– in media transport controls let users interact with their media by providing a default playback experience comprised of various buttons including play, pause, closed captions, and others. See [MediaTransportControls](mediatransportcontrols.md) for more info.
 
+> [!NOTE] In Windows 10, build 1607 and on we recommend that you use [MediaPlayerElement](mediaplayerelement.md) in place of [MediaElement](mediaelement.md). **MediaPlayerElement**
+> has the same functionality as **MediaElement**, while also enabling more advanced media playback scenarios. Additionally, all future improvements in media playback will happen in
+> **MediaPlayerElement**.
+
 ## -xaml-syntax
 ```xaml
 <MediaElement .../>

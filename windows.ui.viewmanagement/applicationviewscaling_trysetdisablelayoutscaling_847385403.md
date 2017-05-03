@@ -17,8 +17,7 @@ Attempts to set the [DisableLayoutScaling](applicationviewscaling_disablelayouts
 **true** to disable layout scaling; **false** to enable it.
 
 ## -returns
-**
-            true** if the property was set successfully; otherwise, **false**.
+**true** if the property was set successfully; otherwise, **false**.
 
 ## -remarks
 

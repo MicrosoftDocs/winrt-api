@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.ApplicationModel.Chat.ChatConversationThreadingInfo.ConversationId
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.PointOfService.SlipPrintJob.PrintBarcode(System.String,System.UInt32,System.UInt32,System.UInt32,Windows.Devices.PointOfService.PosPrinterBarcodeTextPosition,Windows.Devices.PointOfService.PosPrinterAlignment)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

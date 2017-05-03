@@ -19,6 +19,8 @@ The audio headset attached to the raw game controller.
 
 ## -remarks
 
+See [Headset](https://docs.microsoft.com/windows/uwp/gaming/headset) for information about programming for headsets.
+
 ## -see-also
 
 * [Windows.Gaming.Input.Headset](headset.md)

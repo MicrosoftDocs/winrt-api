@@ -10,7 +10,7 @@ public SvgImageSource.SvgImageSource()
 # Windows.UI.Xaml.Media.Imaging.SvgImageSource.SvgImageSource
 
 ## -description
-Initializes a new instance of the **SvgImageSource** class.
+Initializes a new instance of the [SvgImageSource](svgimagesource.md) class.
 
 ## -params
 

@@ -10,11 +10,11 @@ public SvgImageSource.SvgImageSource(Uri uriSource)
 # Windows.UI.Xaml.Media.Imaging.SvgImageSource.SvgImageSource
 
 ## -description
-Initializes a new instance of the **SvgImageSource** class, using the supplied Uniform Resource Identifier (URI).
+Initializes a new instance of the [SvgImageSource](svgimagesource.md) class, using the supplied Uniform Resource Identifier (URI).
 
 ## -parameters
 ### -param uriSource
-A reference to the image source file.
+A reference to the SVG source file.
 
 ## -remarks
 

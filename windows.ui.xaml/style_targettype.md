@@ -51,7 +51,8 @@ The Windows Runtime defines default implicit styles for every practical UI eleme
 
 Setting [TargetType](style_targettype.md) in code is uncommon. The XAML style system is intended to be used by loading XAML as a resource and having all aspects of a style be ready beforehand. There should be very few scenarios where you would not know info about how to style a control or apply a style until runtime, where there'd be a need to set a [TargetType](style_targettype.md) on a [Style](style.md) created or referenced in code.
 
-Getting a [TargetType](style_targettype.md) in code is also uncommon, but there are perhaps a few more scenarios where you might be doing this. For example, there might be a set of named [Style](style.md) resources already defined in your XAML. But you might want to double-check that a style you're about to apply to a control has a [TargetType](style_targettype.md) value that works for the type of the control you're applying it to. So, you might have code like this:```csharp
+Getting a [TargetType](style_targettype.md) in code is also uncommon, but there are perhaps a few more scenarios where you might be doing this. For example, there might be a set of named [Style](style.md) resources already defined in your XAML. But you might want to double-check that a style you're about to apply to a control has a [TargetType](style_targettype.md) value that works for the type of the control you're applying it to. So, you might have code like this:
+```csharp
         private bool VerifyStyle(FrameworkElement scope, String styleKey, Control applyTo)
         {
             Style styleToCheck = scope.Resources[styleKey] as Style;

@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.ApplicationModel.Chat.RcsTransport.IsServiceKindSupported(Windows.ApplicationModel.Chat.RcsServiceKind)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

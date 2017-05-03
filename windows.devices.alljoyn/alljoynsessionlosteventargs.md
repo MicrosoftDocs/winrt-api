@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.Devices.AllJoyn.AllJoynSessionLostEventArgs
 -api-type: winrt class
+-api-device-family-note: xbox
 ---
 
 <!-- Class syntax.

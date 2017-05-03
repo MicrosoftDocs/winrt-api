@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Data.Text.SelectableWordSegment.Text
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

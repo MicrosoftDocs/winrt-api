@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.Notifications.TileUpdater.StartPeriodicUpdateBatch(Windows.Foundation.Collections.IIterable{Windows.Foundation.Uri},Windows.UI.Notifications.PeriodicUpdateRecurrence)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

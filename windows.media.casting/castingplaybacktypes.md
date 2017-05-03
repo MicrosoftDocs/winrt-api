@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.Media.Casting.CastingPlaybackTypes
 -api-type: winrt enum
+-api-device-family-note: xbox
 ---
 
 <!-- Enumeration syntax

@@ -33,9 +33,6 @@ As indicated in the Events table, [WebView](webview.md) doesn’t support most o
 
 In apps compiled for Windows 10, [WebView](webview.md) uses the Microsoft Edge rendering engine to display HTML content. In apps compiled for Windows 8 or Windows 8.1, [WebView](webview.md) uses Internet Explorer 11 in document mode. It does not support any Microsoft ActiveX controls or plugins like Microsoft Silverlight or Portable Document Format (PDF) files.
 
-
-<!--{annotation author="jimwalk" time="10/20/2015 11:41:48 AM"}Ambiguous. Does this apply to Win 8 only, or both Win 8 and 10?-->
-
 ### Navigating to content
 
 [WebView](webview.md) provides several API for basic navigation: [GoBack](webview_goback.md), [GoForward](webview_goforward.md), [Stop](webview_stop.md), [Refresh](webview_refresh.md), [CanGoBack](webview_cangoback.md), and [CanGoForward](webview_cangoforward.md). You can use these to add typical web browsing capabilities to your app.
@@ -323,6 +320,15 @@ By default, [WebView](webview.md) content is hosted on the UI thread on devices 
 > There might be performance issues when hosting content on the UI thread on mobile devices, so be sure to test on all target devices when you change [DefaultExecutionMode](webview_defaultexecutionmode.md).
 
 A [WebView](webview.md) that hosts content off the UI thread is not compatible with parent controls that require gestures to propagate up from the [WebView](webview.md) control to the parent, such as [FlipView](flipview.md), [ScrollViewer](scrollviewer.md), and other related controls. These controls will not be able to receive gestures initiated in the off-thread [WebView](webview.md). In addition, printing off-thread web content is not directly supported – you should print an element with [WebViewBrush](webviewbrush.md) fill instead.
+
+### Use of Alert
+
+If a web page hosted in a WebView uses the JavaScript **Alert** function, it will not be displayed. This is by design for all versions of WebView.
+
+You might be able to intercept the information displayed by an **Alert** and do what you want with it in the host application. Whether this is possible depends on how the page is written and whether you have control of it. A sample is available that demonstrates one possible technique to do this. The sample is written for Windows 8.1 and Windows Phone 8.1, but will also work for apps using the Universal Windows Platform (UWP). However, this might not work for every scenario.
+
+[How to intercept JavaScript alert in WebView in universal Windows apps sample](https://code.msdn.microsoft.com/windowsapps/How-to-intercept-854d33da)
+
 
 ### Notes for previous versions
 

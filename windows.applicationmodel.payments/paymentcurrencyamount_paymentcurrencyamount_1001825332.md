@@ -14,7 +14,8 @@ Creates a new PaymentCurrencyAmount object.
 
 ## -parameters
 ### -param value
-The monetary value. An exception will be thrown if this value doesn't match the following regex pattern.```
+The monetary value. An exception will be thrown if this value doesn't match the following regex pattern.
+```
 ^-?[0-9]+(\.[0-9]+)?$
 ```
 

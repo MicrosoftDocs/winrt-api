@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.ApplicationModel.DataTransfer.ShareTarget.ShareOperation.ReportCompleted(Windows.ApplicationModel.DataTransfer.ShareTarget.QuickLink)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

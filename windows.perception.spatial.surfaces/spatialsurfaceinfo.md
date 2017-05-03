@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.Perception.Spatial.Surfaces.SpatialSurfaceInfo
 -api-type: winrt class
+-api-device-family-note: xbox
 ---
 
 <!-- Class syntax.

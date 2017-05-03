@@ -1,6 +1,7 @@
 ---
 -api-id: E:Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristic.ValueChanged
 -api-type: winrt event
+-api-device-family-note: xbox
 ---
 
 <!-- Event syntax

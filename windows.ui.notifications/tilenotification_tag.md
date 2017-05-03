@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.UI.Notifications.TileNotification.Tag
 -api-type: winrt property
+-api-device-family-note: xbox
 ---
 
 <!-- Property syntax

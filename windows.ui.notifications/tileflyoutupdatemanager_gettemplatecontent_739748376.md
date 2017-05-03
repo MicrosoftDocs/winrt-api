@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.Notifications.TileFlyoutUpdateManager.GetTemplateContent(Windows.UI.Notifications.TileFlyoutTemplateType)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

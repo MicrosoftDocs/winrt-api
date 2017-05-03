@@ -10,6 +10,7 @@ public class WebUIContactPanelActivatedEventArgs : IActivatedEventArgs, IActivat
 # Windows.UI.WebUI.WebUIContactPanelActivatedEventArgs
 
 ## -description
+Provides data when an app is activated because it uses the Contact Panel. 
 
 ## -remarks
 

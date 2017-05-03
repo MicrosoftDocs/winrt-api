@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.Notifications.TileUpdater.AddToSchedule(Windows.UI.Notifications.ScheduledTileNotification)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

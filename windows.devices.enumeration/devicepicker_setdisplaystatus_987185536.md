@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.Enumeration.DevicePicker.SetDisplayStatus(Windows.Devices.Enumeration.DeviceInformation,System.String,Windows.Devices.Enumeration.DevicePickerDisplayStatusOptions)
 -api-type: winrt method
+-api-device-family-note: xbox
 ---
 
 <!-- Method syntax

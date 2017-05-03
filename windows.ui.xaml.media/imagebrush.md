@@ -17,16 +17,21 @@ Paints an area with an image. The image source is typically obtained from file f
 <ImageBrush .../>
 ```
 
-
 ## -remarks
-An [ImageBrush](imagebrush.md) is a type of [TileBrush](tilebrush.md) that defines its content as an image. You can control how the image is stretched, aligned, and tiled, enabling you to produce patterns and other effects. Use for an [ImageBrush](imagebrush.md) include decorative effects for text, or tiled backgrounds for controls or layout containers.
+An [ImageBrush](imagebrush.md) is a type of [brush](brush.md) that defines its content as an image which can be optionally stretched and aligned. Uses for an [ImageBrush](imagebrush.md) include decorative effects for text, or image backgrounds for controls or layout containers.
+
+It's useful to use an [ImageBrush](imagebrush.md) instead of an [Image control](https://docs.microsoft.com/en-us/uwp/api/Windows.UI.Xaml.Controls.Image) in two main  scenarios:
+
+1. You want to paint a non-rectangular area such as an ellipse or border with an image
+2. You want to use a single ImageBrush to paint multiple areas or UIElements with the same image, which is more efficient than using multiple [Image](https://docs.microsoft.com/en-us/uwp/api/Windows.UI.Xaml.Controls.Image) controls
+
 
 If you define an [ImageBrush](imagebrush.md) using code, use the default constructor, then set [ImageBrush.ImageSource](imagebrush_imagesource.md). This requires a [BitmapImage](../windows.ui.xaml.media.imaging/bitmapimage.md) (not a Uniform Resource Identifier (URI)) in code. If your source is a stream, use the [SetSourceAsync](../windows.ui.xaml.media.imaging/bitmapsource_setsourceasync.md) method to initialize the value. If your source is a Uniform Resource Identifier (URI), which includes content in your app that uses the **ms-appx** or **ms-resource** schemes, use the [BitmapImage](../windows.ui.xaml.media.imaging/bitmapimage_bitmapimage_843413386.md) constructor that takes a Uniform Resource Identifier (URI). You might also consider handling the [ImageOpened](imagebrush_imageopened.md) event if there are any timing issues with retrieving or decoding the image source, where you might need alternate content to display until the image source is available. See [XAML images sample](http://go.microsoft.com/fwlink/p/?linkid=238575) for example code.
 
 > [!NOTE]
 > You can use automatic handling for accessing unqualified resources with current scale and culture qualifiers, or you can use [ResourceManager](../windows.applicationmodel.resources.core/resourcemanager.md) and [ResourceMap](../windows.applicationmodel.resources.core/resourcemap.md) with qualifiers for culture and scale to obtain the resources directly. For more info see [Resource management system](http://msdn.microsoft.com/library/a090a59f-a8fa-489f-a600-9e7bfb67e5ad).
 
-The [Stretch](tilebrush_stretch.md) property is important for how the image is applied when used as a brush. Some images look good when stretched as applied to a particular [Brush](brush.md) property with the **Fill** behavior whereas other images do not stretch or scale well and might require a value of **None** or **Uniform** for [Stretch](tilebrush_stretch.md). Also some images are designed to tile whereas some are not. Experiment with different values for [Stretch](tilebrush_stretch.md) to see which behavior looks best when applied to the UI.
+The [Stretch](tilebrush_stretch.md) property is important for how the image is applied when used as a brush. Some images look good when stretched as applied to a particular [Brush](brush.md) property with the **Fill** behavior whereas other images do not stretch or scale well and might require a value of **None** or **Uniform** for [Stretch](tilebrush_stretch.md). Experiment with different values for [Stretch](tilebrush_stretch.md) to see which behavior looks best when applied to the UI.
 
 ### Image sources and scaling
 

@@ -99,42 +99,8 @@ public void ConvertData()
 
 //</SnippetShowBinaryConversion>
 
-//<SnippetShowBinaryConversion>
-public void ConvertData()
-{
-    // Create a string to convert.
-    String strIn = "Input String";
 
-    // Convert the string to UTF16BE binary data.
-    IBuffer buffUTF16BE = CryptographicBuffer.ConvertStringToBinary(strIn, BinaryStringEncoding.Utf16BE);
 
-    // Convert the string to UTF16LE binary data.
-    IBuffer buffUTF16LE = CryptographicBuffer.ConvertStringToBinary(strIn, BinaryStringEncoding.Utf16LE);
-
-    // Convert the string to UTF8 binary data.
-    IBuffer buffUTF8 = CryptographicBuffer.ConvertStringToBinary(strIn, BinaryStringEncoding.Utf8);
-}
-
-//</SnippetShowBinaryConversion>
-
-//<SnippetShowByteArrayCopy>
-public void ByteArrayCopy()
-{
-    // Initialize a byte array.
-    byte[] arrByte = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-
-    // Create a buffer from the byte array.
-    IBuffer buffer = CryptographicBuffer.CreateFromByteArray(arrByte);
-
-    // Encode the buffer into a hexadecimal string (for display);
-    String strHex = CryptographicBuffer.EncodeToHexString(buffer);
-
-    // Copy the buffer back into a new byte array.
-    byte[] arrByteNew;
-    CryptographicBuffer.CopyToByteArray(buffer, out arrByteNew);
-}
-
-//</SnippetShowByteArrayCopy>
 
 //<SnippetShowByteArrayCopy>
 public void ByteArrayCopy()
@@ -185,35 +151,7 @@ public void EncodeDecodeHex()
 
 //</SnippetShowHexEncoding>
 
-//<SnippetShowBase64Encoding>
-public void EncodeDecodeBase64()
-{
-    // Define a Base64 encoded string.
-    String strBase64 = "uiwyeroiugfyqcajkds897945234==";
 
-    // Decoded the string from Base64 to binary.
-    IBuffer buffer = CryptographicBuffer.DecodeFromBase64String(strBase64);
-
-    // Encode the buffer back into a Base64 string.
-    String strBase64New = CryptographicBuffer.EncodeToBase64String(buffer);
-}
-
-//</SnippetShowBase64Encoding>
-
-//<SnippetShowHexEncoding>
-public void EncodeDecodeHex()
-{
-    // Define a hexadecimal string.
-    String strHex = "30310AFF";
-
-    // Decode a hexadecimal string to binary.
-    IBuffer buffer = CryptographicBuffer.DecodeFromHexString(strHex);
-
-    // Encode the buffer back into a hexadecimal string.
-    String strHexNew = CryptographicBuffer.EncodeToHexString(buffer);
-}
-
-//</SnippetShowHexEncoding>
 
 //<SnippetShowRandom>
 
@@ -262,52 +200,7 @@ namespace Random
 
 //</SnippetShowRandom>
 
-//<SnippetShowRandom>
 
-using Windows.Security.Cryptography;
-using Windows.Storage.Streams;
-
-namespace Random
-{
-    sealed partial class GenerateRandomDataApp : Application
-    {
-        public GenerateRandomDataApp()
-        {
-            // Initialize the application.
-            this.InitializeComponent();
-
-            // Create a buffer that contains random data.
-            String strRndHex = this.GenerateRndData();
-
-            // Create a random integer.
-            UInt32 uRnd = this.GenerateRndNumber();
-        }
-
-        public String GenerateRndData()
-        {
-            // Define the length, in bytes, of the buffer.
-            UInt32 length = 32;
-
-            // Generate random data and copy it to a buffer.
-            IBuffer buffer = CryptographicBuffer.GenerateRandom(length);
-
-            // Encode the buffer to a hexadecimal string (for display).
-            String hexRnd = CryptographicBuffer.EncodeToHexString(buffer);
-
-            return hexRnd;
-        }
-
-        public UInt32 GenerateRndNumber()
-        {
-            // Generate a random number.
-            UInt32 Rnd = CryptographicBuffer.GenerateRandomNumber();
-
-            return Rnd;
-        }
-    }
-}
-
-//</SnippetShowRandom>
 
 //<SnippetShowCertEnrollMgr>
 using Windows.Security.Cryptography.Certificates;
@@ -1421,44 +1314,7 @@ namespace SampleKeyDerivationAlgorithm
 
 //</SnippetKdfAlgClassOverview>
 
-//<SnippetShowDerivationFromPbkdf>
-public String SampleDeriveFromPbkdf(
-    String strAlgName,
-    UInt32 targetSize)
-{
-    // Open the specified algorithm.
-    KeyDerivationAlgorithmProvider objKdfProv = KeyDerivationAlgorithmProvider.OpenAlgorithm(strAlgName);
 
-    // Create a buffer that contains the secret used during derivation.
-    String strSecret = "MyPassword";
-    IBuffer buffSecret = CryptographicBuffer.ConvertStringToBinary(strSecret, BinaryStringEncoding.Utf8);
-
-    // Create a random salt value.
-    IBuffer buffSalt = CryptographicBuffer.GenerateRandom(32);
-
-    // Specify the number of iterations to be used during derivation.
-    UInt32 iterationCount = 10000;
-
-    // Create the derivation parameters.
-    KeyDerivationParameters pbkdf2Params = KeyDerivationParameters.BuildForPbkdf2(buffSalt, iterationCount);
-
-    // Create a key from the secret value.
-    CryptographicKey keyOriginal = objKdfProv.CreateKey(buffSecret);
-
-    // Derive a key based on the original key and the derivation parameters.
-    IBuffer keyDerived = CryptographicEngine.DeriveKeyMaterial(
-        keyOriginal,
-        pbkdf2Params,
-        targetSize);
-
-    // Encode the key to a hexadecimal value (for display)
-    String strKeyHex = CryptographicBuffer.EncodeToHexString(keyDerived);
-
-    // Return the encoded string
-    return strKeyHex;
-}
-
-//</SnippetShowDerivationFromPbkdf>
 
 //<SnippetShowDerivationFromSP800108>
 public void SampleDeriveFromSP800108()

@@ -13,7 +13,8 @@ public class MenuFlyoutPresenter : Windows.UI.Xaml.Controls.ItemsControl, Window
 Displays the content of a [MenuFlyout](menuflyout.md) control.
 
 ## -remarks
-You don't typically use a [MenuFlyoutPresenter](menuflyoutpresenter.md) directly, either in XAML or code. Instead, you reference the [MenuFlyoutPresenter](menuflyoutpresenter.md) type as the [TargetType](../windows.ui.xaml/style_targettype.md) of the style you use for the [MenuFlyout.MenuFlyoutPresenterStyle](menuflyout_menuflyoutpresenterstyle.md) property. Then, you use style [Setter](../windows.ui.xaml/setter.md) elements to set the various [Control](control.md) properties that influence the appearance of the [MenuFlyout](menuflyout.md) through this presenter. For example you can use a [Setter](../windows.ui.xaml/setter.md) to set the [Width](../windows.ui.xaml/frameworkelement_width.md) of the [MenuFlyout](menuflyout.md):```xaml
+You don't typically use a [MenuFlyoutPresenter](menuflyoutpresenter.md) directly, either in XAML or code. Instead, you reference the [MenuFlyoutPresenter](menuflyoutpresenter.md) type as the [TargetType](../windows.ui.xaml/style_targettype.md) of the style you use for the [MenuFlyout.MenuFlyoutPresenterStyle](menuflyout_menuflyoutpresenterstyle.md) property. Then, you use style [Setter](../windows.ui.xaml/setter.md) elements to set the various [Control](control.md) properties that influence the appearance of the [MenuFlyout](menuflyout.md) through this presenter. For example you can use a [Setter](../windows.ui.xaml/setter.md) to set the [Width](../windows.ui.xaml/frameworkelement_width.md) of the [MenuFlyout](menuflyout.md):
+```xaml
 <MenuFlyout x:Name="optionFlyout">
   <MenuFlyout.MenuFlyoutPresenterStyle>
     <Style TargetType="MenuFlyoutPresenter">

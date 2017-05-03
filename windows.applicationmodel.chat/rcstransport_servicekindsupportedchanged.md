@@ -1,6 +1,7 @@
 ---
 -api-id: E:Windows.ApplicationModel.Chat.RcsTransport.ServiceKindSupportedChanged
 -api-type: winrt event
+-api-device-family-note: xbox
 ---
 
 <!-- Event syntax
