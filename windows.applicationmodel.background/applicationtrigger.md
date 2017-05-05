@@ -20,4 +20,6 @@ This allows you to programmatically trigger a background tasks from within your 
 ## -examples
 
 ## -see-also
+
+[Trigger a background task from within your app](trigger-background-task-from-app.md)  
 [IBackgroundTrigger](ibackgroundtrigger.md)
