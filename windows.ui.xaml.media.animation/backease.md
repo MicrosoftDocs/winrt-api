@@ -25,7 +25,7 @@ Represents an easing function that changes a value in the opposite direction of 
 + If [EasingMode](easingmode.md) is **EaseInOut** then the function gives values that are less than **From** at the beginning and greater than **To** near the end.
  This illustration shows a function-over-time graph approximation for a [BackEase](backease.md) for each of the three possible [EasingMode](easingmode.md) values, with [Amplitude](backease_amplitude.md) as its default value.<img src="images/backease_concept.png" alt="Illustration of function-over-time graph for the BackEase easing function. The graph shows curves where the x axis is time t and the y axis is function-over-time f(t)" />
 
-You might get best results by just experimenting with the [Springiness](elasticease_springiness.md), [Oscillations](elasticease_oscillations.md) and [EasingMode](easingfunctionbase_easingmode.md) properties until the animation is visually doing what you want for your animated property value scenario.
+You might get best results by just experimenting with the [Springiness](elasticease_springiness.md) and [EasingMode](easingfunctionbase_easingmode.md) properties until the animation is visually doing what you want for your animated property value scenario.
 
 An easing function can be applied to the **EasingFunction** properties of **From**/**To**/**By** animations, or to the **EasingFunction** properties of key-frame types used for the **Easing** variants of key-frame animations. For more info, see [Key-frame animations and easing function animations](http://msdn.microsoft.com/library/d8af24cd-f4c2-4562-afd7-25010955d677).
 
