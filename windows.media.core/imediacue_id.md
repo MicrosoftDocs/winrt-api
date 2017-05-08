@@ -16,6 +16,7 @@ Gets or sets the identifier for the media cue.
 The identifier for the media cue.
 
 ## -remarks
+Can not be null.
 
 ## -examples
 
