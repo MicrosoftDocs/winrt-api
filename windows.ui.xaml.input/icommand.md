@@ -26,3 +26,5 @@ When programming with .NET, this interface is hidden and developers should use t
 ## -examples
 
 ## -see-also
+
+* [Command design basics](https://docs.microsoft.com/en-us/windows/uwp/layout/commanding-basics)
