@@ -14,10 +14,10 @@ public Windows.Foundation.IReference<int> ChargeRateInMilliwatts { get; }
 Gets the rate that the battery is charging.
 
 ## -property-value
-The rate that the battery is charging in milliwatts (mW).
+The rate that the battery is charging in milliwatts (mW). This value is negative when the battery is discharging.
 
 ## -remarks
-This value is negative when the battery is discharging.
+
 
 ## -examples
 

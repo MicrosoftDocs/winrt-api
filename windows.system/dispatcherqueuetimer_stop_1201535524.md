@@ -1,0 +1,19 @@
+---
+-api-id: M:Windows.System.DispatcherQueueTimer.Stop
+-api-type: winrt method
+---
+
+<!-- Method syntax.
+public void DispatcherQueueTimer.Stop()
+-->
+
+# Windows.System.DispatcherQueueTimer.Stop
+
+## -description
+
+## -remarks
+
+## -see-also
+
+## -examples
+

@@ -15,7 +15,7 @@ Checks whether the client device is authorized to discover other users' devices 
 ## -parameters
 
 ### -param kind
-The [**RemoteSystemAuthorizationKind**](remotesystemauthorizationkind.md) to check.
+The [RemoteSystemAuthorizationKind](remotesystemauthorizationkind.md) to check.
 
 ## -returns
 Returns **true** if the client device is set to *kind* authorization scheme, otherwise **false**.

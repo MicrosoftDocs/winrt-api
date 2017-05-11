@@ -18,8 +18,6 @@ The configuration of the [InkPresenter](../windows.ui.input.inking/inkpresenter.
 
 To handle pointer events with the InkPresenter object, you must set [RightDragAction](../windows.ui.input.inking/inkinputprocessingconfiguration_rightdragaction.md) to [LeaveUnprocessed](../windows.ui.input.inking/inkinputrightdragaction.md) to pass the input through as [UnprocessedInput](../windows.ui.input.inking/inkpresenter_unprocessedinput.md) for custom processing by your app.
 
-..\windows.ui.input.inking\inkpresenter_unprocessedinput.md
-
 > [!IMPORTANT]
 > The [InkPresenter](../windows.ui.input.inking/inkpresenter.md) cannot be instantiated directly.
 
