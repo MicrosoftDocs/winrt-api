@@ -10,12 +10,11 @@ public enum Windows.UI.Xaml.Input.InputScopeNameValue : int
 # InputScopeNameValue
 
 ## -description
+
 Specifies a particular named input mode ([InputScopeName](inputscopename.md)) used to populate an [InputScope](inputscope.md).
 
-> [!NOTE]
-> Support for a given input scope value can vary across input methods.
-
 ## -xaml-syntax
+
 ```xaml
 <object property="enumNamedConstant"/>
 ```
@@ -153,6 +152,9 @@ Expected input does not include emoji. Advises input processors to not show the 
 
 
 ## -remarks
+
+> [!NOTE]
+> Support for a given input scope value can vary across input methods.
 
 ## -examples
 

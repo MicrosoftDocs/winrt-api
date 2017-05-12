@@ -8,10 +8,11 @@ public delegate void LoadCompletedEventHandler(System.Object sender, Windows.UI.
 # Windows.UI.Xaml.Navigation.LoadCompletedEventHandler
 
 ## -description
-> [!NOTE]
-> [LoadCompleted](../windows.ui.xaml.controls/webview_loadcompleted.md) may be altered or unavailable for releases after Windows 8.1. Instead, use [NavigationCompleted](../windows.ui.xaml.controls/webview_navigationcompleted.md).
 
 Represents the method that will handle the [LoadCompleted](../windows.ui.xaml.controls/webview_loadcompleted.md) event.
+
+> [!IMPORTANT]
+> [LoadCompleted](../windows.ui.xaml.controls/webview_loadcompleted.md) may be altered or unavailable for releases after Windows 8.1. Instead, use [NavigationCompleted](../windows.ui.xaml.controls/webview_navigationcompleted.md).
 
 ## -parameters
 ### -param sender
@@ -24,6 +25,7 @@ The event data.
 ## -remarks
 
 ## -examples
+
 The following example code demonstrates the use of this type. For the complete code listing, see the [XAML WebView control sample](http://go.microsoft.com/fwlink/p/?linkid=238582).
 
 

@@ -12,29 +12,25 @@ public class InkToolbarHighlighterButton : Windows.UI.Xaml.Controls.InkToolbarPe
 ## -description
 Represents an [InkToolbar](inktoolbar.md) toggle button control that activates the built-in highlighter pen.
 
-The highlighter draws a semi-transparent stroke with a [Rectangle](../windows.ui.input.inking/pentipshape.md) [PenTip](../windows.ui.input.inking/inkdrawingattributes_pentip.md).
+## -remarks
 
+The highlighter draws a semi-transparent stroke with a [Rectangle](../windows.ui.input.inking/pentipshape.md) [PenTip](../windows.ui.input.inking/inkdrawingattributes_pentip.md).
 
 The [InkToolbar](inktoolbar.md) consists of two distinct groups of button types:
 
 + One group of "tool" buttons containing the built-in drawing ([InkToolbarBallpointPenButton](inktoolbarballpointpenbutton.md), [InkToolbarPencilButton](inktoolbarpencilbutton.md)), erasing ([InkToolbarEraserButton](inktoolbareraserbutton.md)), and highlighting ([InkToolbarHighlighterButton](inktoolbarhighlighterbutton.md)) buttons. Custom tools ([InkToolbarCustomPenButton](inktoolbarcustompenbutton.md) and [InkToolbarCustomToolButton](inktoolbarcustomtoolbutton.md)) are added here.
 
+    > Feature selection is mutually exclusive.
 
-
-> Feature selection is mutually exclusive.
 + A second group of "toggle" buttons containing the built-in ruler ([InkToolbarRulerButton](inktoolbarrulerbutton.md)) button. Custom toggles ([InkToolbarCustomToggleButton](inktoolbarcustomtogglebutton.md)) are added here.
 
+    > Features are not mutually exclusive and can be used concurrently with other active tools.
 
-
-> Features are not mutually exclusive and can be used concurrently with other active tools.
-
-
-## -remarks
 [InkToolbarHighlighterButton](inktoolbarhighlighterbutton.md) inherits from [InkToolbarPenButton](inktoolbarpenbutton.md).
 
 By default, the stroke height is 36 pixels and the width is 12 pixels.
 
-The size (in [](https://msdn.microsoft.com/library/windows/desktop/ff684173.aspx)) of the highlighter stroke is obtained from the [InkDrawingAttributes](inktoolbar_inkdrawingattributes.md) setting for [Size](../windows.ui.input.inking/inkdrawingattributes_size.md) —the stroke height is set to [Size.Width](../windows.foundation/size.md) and the stroke width is set to [Size.Width](../windows.foundation/size.md)/3.
+The size (in [Device-Independent Pixels](https://msdn.microsoft.com/library/windows/desktop/ff684173.aspx)) of the highlighter stroke is obtained from the [InkDrawingAttributes](inktoolbar_inkdrawingattributes.md) setting for [Size](../windows.ui.input.inking/inkdrawingattributes_size.md) —the stroke height is set to [Size.Width](../windows.foundation/size.md) and the stroke width is set to [Size.Width](../windows.foundation/size.md)/3.
 
 ## -examples
 

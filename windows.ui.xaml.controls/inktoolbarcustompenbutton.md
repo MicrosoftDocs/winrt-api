@@ -10,28 +10,26 @@ public class InkToolbarCustomPenButton : Windows.UI.Xaml.Controls.InkToolbarPenB
 # Windows.UI.Xaml.Controls.InkToolbarCustomPenButton
 
 ## -description
+
 Represents an [InkToolbar](inktoolbar.md) button that activates a pen for which the ink color palette and pen tip properties, such as shape, rotation, and size, are defined by the host app.
 
+## -remarks
 
 The [InkToolbar](inktoolbar.md) consists of two distinct groups of button types:
 
 + One group of "tool" buttons containing the built-in drawing ([InkToolbarBallpointPenButton](inktoolbarballpointpenbutton.md), [InkToolbarPencilButton](inktoolbarpencilbutton.md)), erasing ([InkToolbarEraserButton](inktoolbareraserbutton.md)), and highlighting ([InkToolbarHighlighterButton](inktoolbarhighlighterbutton.md)) buttons. Custom tools ([InkToolbarCustomPenButton](inktoolbarcustompenbutton.md) and [InkToolbarCustomToolButton](inktoolbarcustomtoolbutton.md)) are added here.
 
+    > Feature selection is mutually exclusive.
 
-
-> Feature selection is mutually exclusive.
 + A second group of "toggle" buttons containing the built-in ruler ([InkToolbarRulerButton](inktoolbarrulerbutton.md)) button. Custom toggles ([InkToolbarCustomToggleButton](inktoolbarcustomtogglebutton.md)) are added here.
 
-
-
-> Features are not mutually exclusive and can be used concurrently with other active tools.
+    > Features are not mutually exclusive and can be used concurrently with other active tools.
 
 
 Built-in buttons can be displayed by default, or you can specify which should be displayed by your app. 
 
-> You cannot change the display order of the built-in buttons. The default display order is: [InkToolbarBallpointPenButton](inktoolbarballpointpenbutton.md), [InkToolbarPencilButton](inktoolbarpencilbutton.md), [InkToolbarHighlighterButton](inktoolbarhighlighterbutton.md), [InkToolbarEraserButton](inktoolbareraserbutton.md), and [InkToolbarRulerButton](inktoolbarrulerbutton.md), with custom tool buttons appended to the radio button group and custom toggle buttons appended to the toggle button group.
+You cannot change the display order of the built-in buttons. The default display order is: [InkToolbarBallpointPenButton](inktoolbarballpointpenbutton.md), [InkToolbarPencilButton](inktoolbarpencilbutton.md), [InkToolbarHighlighterButton](inktoolbarhighlighterbutton.md), [InkToolbarEraserButton](inktoolbareraserbutton.md), and [InkToolbarRulerButton](inktoolbarrulerbutton.md), with custom tool buttons appended to the radio button group and custom toggle buttons appended to the toggle button group.
 
-## -remarks
 You can use the built-in [InkToolbarPenConfigurationControl](inktoolbarpenconfigurationcontrol.md) or you can specify a custom [InkToolbarPenConfigurationControl](inktoolbarpenconfigurationcontrol.md) definition in the standard [InkToolbar](inktoolbar.md) pen declaration.
 
 For custom configurations, your pen class must derive from [InkToolbarCustomPen](inktoolbarcustompen.md), and override the [CreateInkDrawingAttributesCore](inktoolbarcustompen_createinkdrawingattributescore.md) method. You can then set an instance of the derived class into [InkToolbarCustomPenButton.CustomPen](inktoolbarcustompenbutton_custompen.md) and provide the custom configuration UI elements.

@@ -12,8 +12,6 @@ public class RelativePanel : Windows.UI.Xaml.Controls.Panel, Windows.UI.Xaml.Con
 ## -description
 Defines an area within which you can position and align child objects in relation to each other or the parent panel.
 
- [RelativePanel](relativepanel.md) is a constraint based layout container that you can use to create UI by expressing spatial relationships between elements. Using [RelativePanel](relativepanel.md) ’s attached properties, you can position a UI element relative to another UI element (*A* is `RelativePanel.Below`  *B*) as well as relative to the panel (*A* is `RelativePanel.AlignTopWithPanel`).
-
 ## -xaml-syntax
 ```xaml
 <RelativePanel ...>

@@ -10,15 +10,16 @@ public class PointerRoutedEventArgs : Windows.UI.Xaml.RoutedEventArgs, Windows.U
 # Windows.UI.Xaml.Input.PointerRoutedEventArgs
 
 ## -description
+
 Contains the arguments returned by the last pointer event message.
+
+## -remarks
 
 In most cases, we recommend that you get pointer info through the event argument of the pointer event handlers in your chosen Windows 8 language framework (Windows app using JavaScript, Windows Store app using C++, C#, or Visual Basic, or Windows Store app using DirectX with C++).
 
 If the event argument doesn't intrinsically expose the pointer details required by your app, you can get access to extended pointer data through the [GetCurrentPoint](pointerroutedeventargs_getcurrentpoint.md) and [GetIntermediatePoints](pointerroutedeventargs_getintermediatepoints.md) methods of [PointerRoutedEventArgs](pointerroutedeventargs.md). Use these methods to specify the context of the pointer data.
 
 The static [PointerPoint](../windows.ui.input/pointerpoint.md) methods, [GetCurrentPoint](../windows.ui.input/pointerpoint_getcurrentpoint.md) and [GetIntermediatePoints](../windows.ui.input/pointerpoint_getintermediatepoints.md), always use the context of the app.
-
-## -remarks
 The [PointerRoutedEventArgs](pointerroutedeventargs.md) event data class is used for these events:
 
 
@@ -30,16 +31,15 @@ The [PointerRoutedEventArgs](pointerroutedeventargs.md) event data class is used
 + [PointerMoved](../windows.ui.xaml/uielement_pointermoved.md)
 + [PointerReleased](../windows.ui.xaml/uielement_pointerreleased.md)
 + [PointerWheelChanged](../windows.ui.xaml/uielement_pointerwheelchanged.md)
+
 > [!IMPORTANT]
 > Mouse input is associated with a single pointer assigned when mouse input is first detected. Clicking a mouse button (left, wheel, or right) creates a secondary association between the pointer and that button through the [PointerPressed](../windows.ui.xaml/uielement_pointerpressed.md) event. The [PointerReleased](../windows.ui.xaml/uielement_pointerreleased.md) event is fired only when that same mouse button is released (no other button can be associated with the pointer until this event is complete). Because of this exclusive association, other mouse button clicks are routed through the [PointerMoved](../windows.ui.xaml/uielement_pointermoved.md) event. You can test the mouse button state when handling this event, as shown in the following example.
-
-
-
 
 
 [!code-csharp[PointerMoved](../windows.ui.input.inking/code/PointerInput/csharp/MainPage.xaml.cs#SnippetPointerMoved)]
 
 [!code-csharp[PointerMoved](../windows.ui.input.inking/code/PointerInput_UWP/csharp/MainPage.xaml.cs#SnippetPointerMoved)]
+
 + The value of *sender* (which is on the delegate signature, not this event data class).
 + Specific members of [PointerRoutedEventArgs](pointerroutedeventargs.md), such as [KeyModifiers](pointerroutedeventargs_keymodifiers.md) or [GetCurrentPoint](pointerroutedeventargs_getcurrentpoint.md).
 + Values of a [Pointer](pointer.md) device description class. Get the [Pointer](pointer.md) from the [Pointer](pointerroutedeventargs_pointer.md) property.
@@ -53,7 +53,6 @@ The object retrieved by the GetCurrentPoint and GetIntermediatePoints methods pr
 
 
 In the following example, we get extended pointer properties through the [PointerPoint](../windows.ui.input/pointerpoint.md) and [PointerPointProperties](../windows.ui.input/pointerpointproperties.md) objects. (See [Quickstart: Pointers](http://msdn.microsoft.com/library/90967981-40c0-4a7c-9ba9-86c28c78e154) for the complete example.)
-
 
 
 [TODO:AUTO_SNIPPET (SAMPLE_ID:PointerInput)(SNIPPET_ID:QueryPointer)]

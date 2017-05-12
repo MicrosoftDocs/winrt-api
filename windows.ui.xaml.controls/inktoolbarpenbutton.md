@@ -12,14 +12,16 @@ public class InkToolbarPenButton : Windows.UI.Xaml.Controls.InkToolbarToolButton
 ## -description
 Provides a base class for all built-in and custom pen buttons on an [InkToolbar](inktoolbar.md).
 
+## -remarks
+
 The [InkToolbarPenButton](inktoolbarpenbutton.md) class cannot be instantiated directly. Use the various built-in and custom [InkToolbar](inktoolbar.md) pen buttons instead.
 
-## -remarks
 You must create an [InkDrawingAttributes](inktoolbar_inkdrawingattributes.md) object based on the current stroke [Size](../windows.ui.input.inking/inkdrawingattributes_size.md) and [Brush](../windows.ui.xaml.media/brush.md).
 
 The size of the pen stroke is obtained from the [InkDrawingAttributes](inktoolbar_inkdrawingattributes.md) setting for [Size](../windows.ui.input.inking/inkdrawingattributes_size.md). By default, the stroke height and width are set to [Width](../windows.foundation/size.md).
 
 By default, the [InkToolbar](inktoolbar.md) contains the following built-in pen buttons:
+
 Radio group toggle buttons
 
 + [InkToolbarBallpointPenButton](inktoolbarballpointpenbutton.md)
@@ -34,9 +36,11 @@ Radio group toggle buttons
 Pen buttons
 
 + [InkToolbarPenButton](inktoolbarpenbutton.md)
+
 Custom pen buttons
 
 + [InkToolbarCustomPenButton](inktoolbarcustompenbutton.md)
+
 Radio group toggle buttons (built-in)
 
 + [InkToolbarBallpointPenButton](inktoolbarballpointpenbutton.md)
