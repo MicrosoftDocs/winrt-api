@@ -10,17 +10,20 @@ public class MediaTransportControls : Windows.UI.Xaml.Controls.Control, Windows.
 # Windows.UI.Xaml.Controls.MediaTransportControls
 
 ## -description
+
 Represents the playback controls for a media player element.
 
-The media transport controls let users interact with their media by providing a default playback experience comprised of various buttons including play, pause, closed captions, and others. It has many properties to allow for easy customization of the UI and configuration of which buttons are visible or enabled.
-
 ## -xaml-syntax
+
 ```xaml
 <MediaTransportControls .../>
 ```
 
 
 ## -remarks
+
+The media transport controls let users interact with their media by providing a default playback experience comprised of various buttons including play, pause, closed captions, and others. It has many properties to allow for easy customization of the UI and configuration of which buttons are visible or enabled.
+
 You can use the [MediaTransportControls](mediatransportcontrols.md) to make it easy for users to control their audio and video content. The [MediaTransportControls](mediatransportcontrols.md) class is intended to be used only in conjunction with a [MediaElement](mediaelement.md) or [MediaPlayerElement](mediaplayerelement.md) control. It doesn't function as a stand-alone control. You access an instance of [MediaTransportControls](mediatransportcontrols.md) through the [MediaElement.TransportControls](mediaelement_transportcontrols.md) or [MediaPlayerElement.TransportControls](mediaplayerelement_transportcontrols.md) property.
 
 <img alt="Default media transport controls" src="images/controls/MediaTransportControlsBasic.png" />

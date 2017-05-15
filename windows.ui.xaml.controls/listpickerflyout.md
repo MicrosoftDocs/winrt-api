@@ -10,13 +10,12 @@ public class ListPickerFlyout : Windows.UI.Xaml.Controls.Primitives.PickerFlyout
 # Windows.UI.Xaml.Controls.ListPickerFlyout
 
 ## -description
+
 Represents a control that allows a user to pick one or more items from a list. See Remarks.
 
-> [!NOTE]
-> [ListPickerFlyout](listpickerflyout.md) is not supported for use in Universal Windows Platform (UWP) app for Windows 10. Instead, to let a user to pick one item from a list use a [MenuFlyout](menuflyout.md). To let a user pick multiple items, use a [Flyout](flyout.md) with a list that has multiple-selection enabled.
-
 ## -remarks
-> [!NOTE]
+
+> [!IMPORTANT]
 > [ListPickerFlyout](listpickerflyout.md) is not supported for use in Universal Windows Platform (UWP) app for Windows 10. Instead, to let a user to pick one item from a list use a [MenuFlyout](menuflyout.md). To let a user pick multiple items, use a [Flyout](flyout.md) with a list that has multiple-selection enabled.
 
 ## -examples

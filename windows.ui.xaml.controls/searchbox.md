@@ -10,22 +10,21 @@ public class SearchBox : Windows.UI.Xaml.Controls.Control, Windows.UI.Xaml.Contr
 # Windows.UI.Xaml.Controls.SearchBox
 
 ## -description
-Represents a control that can be used to enter search query text. (Not recommended for Universal Windows Platform (UWP) app. See [AutoSuggestBox](autosuggestbox.md).)
 
-> **Windows 10**
-> Although [SearchBox](searchbox_searchbox.md) is implemented in the Universal device family, it is not fully functional on mobile devices. Use [AutoSuggestBox](autosuggestbox.md) for your universal search experience. See [SearchBox deprecated in favor of AutoSuggestBox](http://msdn.microsoft.com/library/78b86762-7359-474f-b1e3-c2d7cf9aa907).
+Represents a control that can be used to enter search query text. (Not recommended for Universal Windows Platform (UWP) apps. See [AutoSuggestBox](autosuggestbox.md).)
 
 ## -xaml-syntax
+
 ```xaml
 <SearchBox .../>
 ```
 
-
 ## -remarks
+
 ### Windows 10
 
 > [!IMPORTANT]
-> Although [SearchBox](searchbox_searchbox.md) is implemented in the Universal device family, it is not fully functional on mobile devices. Use [AutoSuggestBox](autosuggestbox.md) for your universal search experience. See [SearchBox deprecated in favor of AutoSuggestBox](http://msdn.microsoft.com/library/78b86762-7359-474f-b1e3-c2d7cf9aa907).
+> Although [SearchBox](searchbox_searchbox.md) is implemented in the Universal device family, it is not fully functional on mobile devices. Use [AutoSuggestBox](autosuggestbox.md) for your universal search experience. See [SearchBox deprecated in favor of AutoSuggestBox](https://docs.microsoft.com/windows/uwp/porting/w8x-to-uwp-porting-xaml-and-ui#searchbox-deprecated-in-favor-of-autosuggestbox).
 
 ### Windows 8.x
 

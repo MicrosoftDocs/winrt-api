@@ -10,21 +10,24 @@ public class TextBox : Windows.UI.Xaml.Controls.Control, Windows.UI.Xaml.Control
 # Windows.UI.Xaml.Controls.TextBox
 
 ## -description
+
 Represents a control that can be used to display and edit plain text (single or multi-line).
 
-<img alt="Text box control" src="images/controls/TextBox.png" />
-The [TextBox](textbox.md) control enables a user to type text into an app. It's typically used to capture a single line of text, but can be configured to capture multiple lines of text. The text displays on the screen in a simple uniform plaintext format.
-
-[TextBox](textbox.md) has a number of features that can simplify text entry. It comes with a familiar, built-in context menu with support for copying and pasting text. The "clear all" button lets a user quickly delete all text that has been entered. It also has spell checking capabilities built in and enabled by default.
-
 ## -xaml-syntax
+
 ```xaml
 <TextBox .../>
 ```
 
-
 ## -remarks
-[TextBox](textbox.md)Here's how to create a [TextBox](textbox.md) in XAML and in code.
+
+<img alt="Text box control" src="images/controls/TextBox.png" />
+
+The [TextBox](textbox.md) control enables a user to type text into an app. It's typically used to capture a single line of text, but can be configured to capture multiple lines of text. The text displays on the screen in a simple uniform plaintext format.
+
+[TextBox](textbox.md) has a number of features that can simplify text entry. It comes with a familiar, built-in context menu with support for copying and pasting text. The "clear all" button lets a user quickly delete all text that has been entered. It also has spell checking capabilities built in and enabled by default.
+
+Here's how to create a [TextBox](textbox.md) in XAML and in code.
 
 ```xaml
 <TextBox Width="500" Header="Notes" PlaceholderText="Type your notes here"/>

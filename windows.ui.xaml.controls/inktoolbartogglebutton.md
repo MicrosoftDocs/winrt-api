@@ -12,10 +12,9 @@ public class InkToolbarToggleButton : Windows.UI.Xaml.Controls.CheckBox, Windows
 ## -description
 Represents an object that provides infrastructure for both built-in and custom toggle buttons on an [InkToolbar](inktoolbar.md).
 
-The [InkToolbarToggleButton](inktoolbartogglebutton.md) class cannot be instantiated directly.
-
 ## -remarks
-For user interface purposes, treat [InkToolbarToggleButton](inktoolbartogglebutton.md) as an abstract base class. Use the various built-in and custom [InkToolbar](inktoolbar.md) buttons instead.
+
+The [InkToolbarToggleButton](inktoolbartogglebutton.md) class cannot be instantiated directly. For user interface purposes, treat [InkToolbarToggleButton](inktoolbartogglebutton.md) as an abstract base class. Use the various built-in and custom [InkToolbar](inktoolbar.md) buttons instead.
 
 By default, the [InkToolbar](inktoolbar.md) contains the following built-in buttons:
 Radio group toggle buttons
@@ -37,6 +36,7 @@ Standalone toggle button
 Standalone toggle button (built-in)
 
 + [InkToolbarRulerButton](inktoolbarrulerbutton.md)
+
 Custom toggle buttons
 
 + [InkToolbarCustomToggleButton](inktoolbarcustomtogglebutton.md)

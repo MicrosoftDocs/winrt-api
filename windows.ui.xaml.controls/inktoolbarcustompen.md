@@ -12,13 +12,8 @@ public class InkToolbarCustomPen : Windows.UI.Xaml.DependencyObject, Windows.UI.
 ## -description
 Represents an [InkToolbar](inktoolbar.md) pen for which the ink color palette and pen tip properties, such as shape, rotation, and size, are defined by the host app.
 
-
-
-> To create an app-defined pen and corresponding button on the [InkToolbar](inktoolbar.md), use this class in conjunction with [InkToolbarCustomPenButton](inktoolbarcustompenbutton.md).
-
-See a custom pen example at the end of this topic.
-
 ## -remarks
+To create an app-defined pen and corresponding button on the [InkToolbar](inktoolbar.md), use this class in conjunction with [InkToolbarCustomPenButton](inktoolbarcustompenbutton.md).
 
 ## -examples
 Here's a definition of a custom calligraphic pen.

@@ -10,13 +10,7 @@ public class MediaElement : Windows.UI.Xaml.FrameworkElement, Windows.UI.Xaml.Co
 # Windows.UI.Xaml.Controls.MediaElement
 
 ## -description
-Represents an object that renders audio and video to the display.
-
-Use a [MediaElement](mediaelement.md) control to play audio and video files in your app. Built– in media transport controls let users interact with their media by providing a default playback experience comprised of various buttons including play, pause, closed captions, and others. See [MediaTransportControls](mediatransportcontrols.md) for more info.
-
-> [!NOTE] In Windows 10, build 1607 and on we recommend that you use [MediaPlayerElement](mediaplayerelement.md) in place of [MediaElement](mediaelement.md). **MediaPlayerElement**
-> has the same functionality as **MediaElement**, while also enabling more advanced media playback scenarios. Additionally, all future improvements in media playback will happen in
-> **MediaPlayerElement**.
+Represents an object that renders audio and video to the display. See Remarks.
 
 ## -xaml-syntax
 ```xaml
@@ -25,6 +19,13 @@ Use a [MediaElement](mediaelement.md) control to play audio and video files in y
 
 
 ## -remarks
+
+> [!IMPORTANT] In Windows 10, build 1607 and on we recommend that you use [MediaPlayerElement](mediaplayerelement.md) in place of [MediaElement](mediaelement.md). **MediaPlayerElement**
+> has the same functionality as **MediaElement**, while also enabling more advanced media playback scenarios. Additionally, all future improvements in media playback will happen in
+> **MediaPlayerElement**.
+
+Use a [MediaElement](mediaelement.md) control to play audio and video files in your app. Built– in media transport controls let users interact with their media by providing a default playback experience comprised of various buttons including play, pause, closed captions, and others. See [MediaTransportControls](mediatransportcontrols.md) for more info.
+
 For info about the media formats that [MediaElement](mediaelement.md) supports, see [Supported codecs](http://msdn.microsoft.com/library/9347ad7c-3a90-4073-bff4-9e8237398343).
 
 For info about performance related to [MediaElement](mediaelement.md), see [Optimize animations and media](http://msdn.microsoft.com/library/de5b084c-dac1-430b-a15b-5b3d5fb698f7).
