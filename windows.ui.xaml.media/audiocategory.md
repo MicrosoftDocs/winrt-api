@@ -55,7 +55,7 @@ These enumeration values are used by the [MediaElement.AudioCategory](../windows
 
 Starting in Windows 10, version 1511 the **ForegroundOnlyMedia** and **BackgroundCapableMedia** enumeration values are deprecated. For more info about using background audio in your app, see [Play media in the background]( http://go.microsoft.com/fwlink/?LinkId=824832).
 
-Games should categorize their music streams as **GameMedia** so that game music mutes automatically if another application plays music in the background. Music or video applications should categorize their streams as **Media** or **Movie** so they will take priority over **GameMedia** streams.
+Games should categorize their music streams as **GameMedia** so that game music mutes automatically if another application plays music in the background. Music or video applications should categorize their streams as **Media** or **Movie** so they will take priority over **GameMedia** streams. Game audio for in-game cinematics or cutscenes, when the audio is premixed or for creative reasons should take priority over background audio, should also be categorized as **Media** or **Movie**.
 
 ## -examples
 
