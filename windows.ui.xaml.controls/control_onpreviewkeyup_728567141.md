@@ -11,8 +11,12 @@ virtual protected void Control.OnPreviewKeyUp(KeyRoutedEventArgs e)
 
 ## -description
 
+Called before the [PreviewKeyUp](../windows.ui.xaml/uielement_previewkeyup.md) event occurs.
+
 ## -parameters
 ### -param e
+
+The data for the event.
 
 ## -remarks
 

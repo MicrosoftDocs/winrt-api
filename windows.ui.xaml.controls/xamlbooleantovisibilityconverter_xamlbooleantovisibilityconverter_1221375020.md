@@ -11,6 +11,8 @@ public XamlBooleanToVisibilityConverter.XamlBooleanToVisibilityConverter()
 
 ## -description
 
+Initializes a new instance of the XamlBooleanToVisibilityConverter class.
+
 ## -remarks
 
 ## -see-also

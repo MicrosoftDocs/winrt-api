@@ -11,7 +11,11 @@ public NavigationViewDisplayMode DisplayMode { get; }
 
 ## -description
 
+Gets the new display mode.
+
 ## -property-value
+
+The new display mode.
 
 ## -remarks
 

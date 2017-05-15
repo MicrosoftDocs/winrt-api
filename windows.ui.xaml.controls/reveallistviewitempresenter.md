@@ -11,6 +11,8 @@ public class RevealListViewItemPresenter : ListViewItemPresenter, ListViewItemPr
 
 ## -description
 
+Represents the visual elements of a [ListViewItem](../windows.ui.xaml.controls/listviewitem.md) that uses Reveal effects.
+
 ## -remarks
 
 ## -see-also
