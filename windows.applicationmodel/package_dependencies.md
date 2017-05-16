@@ -17,7 +17,7 @@ The packages on which the current package depends.
 
 ## -remarks
 > [!IMPORTANT]
-> Although Package is supported in desktop apps, this member is supported only in Windows Store app. To access a package's dependencies from a desktop app, use [GetPackageInfo](http://msdn.microsoft.com/library/28f45b3b-a61f-44d3-b606-6966ad5866fa).
+> Although [Package](package.md) is supported in desktop apps, this member is supported only in Windows Store app. To access a package's dependencies from a desktop app, use [GetPackageInfo](http://msdn.microsoft.com/library/28f45b3b-a61f-44d3-b606-6966ad5866fa).
 
 ## -examples
 
