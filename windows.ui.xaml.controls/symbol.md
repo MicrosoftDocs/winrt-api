@@ -599,6 +599,18 @@ E294 <img alt="Scan icon" src="images/symbol/scan.PNG" />
 E295 <img alt="Preview icon" src="images/symbol/preview.PNG" />
 
 
+### -field GlobalNavButton:59136
+
+
+### -field Print:59209
+
+
+### -field Share:59181
+
+
+### -field XboxOneConsole:59792
+
+
 ## -remarks
 The [Symbol](symbol.md) enumeration is typically used to set the value of the [AppBarButton.Icon](appbarbutton_icon.md) property or the [SymbolIcon.Symbol](symbolicon_symbol.md) property. For more info and examples, see the documentation for [AppBarButton](appbarbutton.md) and [SymbolIcon](symbolicon.md).
 
@@ -611,3 +623,6 @@ The [Symbol](symbol.md) enumeration is typically used to set the value of the [A
 
 ## -see-also
 [Quickstart: Adding app bar buttons](http://msdn.microsoft.com/library/743b852c-f4fe-4b4f-814e-77155ccfdefe), [Guidelines for Segoe MDL2 icons](http://msdn.microsoft.com/library/dfb215c2-8a61-4957-b662-3b1991ac9be1)
+
+
+

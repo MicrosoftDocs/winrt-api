@@ -10,21 +10,20 @@ public class WrapGrid : Windows.UI.Xaml.Controls.Primitives.OrientedVirtualizing
 # Windows.UI.Xaml.Controls.WrapGrid
 
 ## -description
-Positions child elements sequentially from left to right or top to bottom. When elements extend beyond the container edge, elements are positioned in the next row or column. Can only be used to display items in an [ItemsControl](itemscontrol.md).
 
-> [!NOTE]
-> Starting in Windows 8.1, we recommend that you use [ItemsWrapGrid](itemswrapgrid.md) instead of [WrapGrid](wrapgrid.md).
+Positions child elements sequentially from left to right or top to bottom. When elements extend beyond the container edge, elements are positioned in the next row or column. Can only be used to display items in an [ItemsControl](itemscontrol.md). See Remarks.
 
 ## -xaml-syntax
+
 ```xaml
 <WrapGrid ...>
   oneOrMoreUIElements
 </WrapGrid>
 ```
 
-
 ## -remarks
-> [!NOTE]
+
+> [!IMPORTANT]
 > Starting in Windows 8.1, [ItemsWrapGrid](itemswrapgrid.md) is used as the default [ItemsPanel](itemscontrol_itemspanel.md) for [GridView](gridview.md). If you modify the [ItemsPanel](itemscontrol_itemspanel.md), we recommend you use [ItemsStackPanel](itemsstackpanel.md) or [ItemsWrapGrid](itemswrapgrid.md) instead of [VirtualizingStackPanel](virtualizingstackpanel.md) or [WrapGrid](wrapgrid.md).
 
 [WrapGrid](wrapgrid.md) can only be used to display items in an [ItemsControl](itemscontrol.md).
@@ -33,13 +32,17 @@ The content of a [WrapGrid](wrapgrid.md) is virtualized. This can improve perfor
 
 In a [WrapGrid](wrapgrid.md), elements are arranged in rows or columns that automatically wrap to a new row or column when the [MaximumRowsOrColumns](wrapgrid_maximumrowsorcolumns.md) value is reached. The [Orientation](wrapgrid_orientation.md) property specifies whether the grid adds its items in rows or columns before wrapping.
 
-When the value is **Vertical**, the grid adds items in columns from top to bottom, then wraps from left to right, like this:<table>
+When the value is **Vertical**, the grid adds items in columns from top to bottom, then wraps from left to right, like this:
+
+<table>
    <tr><td>Item 1</td><td>Item 4</td><td>Item 7</td></tr>
    <tr><td>Item 2</td><td>Item 5</td><td>Item 8</td></tr>
    <tr><td>Item 3</td><td>Item 6</td><td>Item 9</td></tr>
 </table>
 
-When the value is **Horizontal**, the grid adds items in rows from left to right, then wraps from top to bottom, like this:<table>
+When the value is **Horizontal**, the grid adds items in rows from left to right, then wraps from top to bottom, like this:
+
+<table>
    <tr><td>Item 1</td><td>Item 2</td><td>Item 3</td></tr>
    <tr><td>Item 4</td><td>Item 5</td><td>Item 6</td></tr>
    <tr><td>Item 7</td><td>Item 8</td><td>Item 9</td></tr>
@@ -47,6 +50,7 @@ When the value is **Horizontal**, the grid adds items in rows from left to right
 
 
 <!--The following remark is relevant for Windows 8 > 8.1 migration. See WBB 465778-->
+
 ### Windows 8 behavior
 
 For Windows 8, items added to the items lists programmatically at run-time sometimes would start a new row in the internal grid representation, even if the item could have been added to an existing row based on the [MaximumRowsOrColumns](wrapgrid_maximumrowsorcolumns.md) setting.

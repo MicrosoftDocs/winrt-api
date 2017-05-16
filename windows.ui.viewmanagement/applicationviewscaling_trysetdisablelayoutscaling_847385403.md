@@ -20,6 +20,7 @@ Attempts to set the [DisableLayoutScaling](applicationviewscaling_disablelayouts
 **true** if the property was set successfully; otherwise, **false**.
 
 ## -remarks
+This method will always return false on devices other than Xbox.
 
 ## -examples
 

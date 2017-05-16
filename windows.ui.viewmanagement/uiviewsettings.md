@@ -12,13 +12,14 @@ public class UIViewSettings : Windows.UI.ViewManagement.IUIViewSettings
 ## -description
 Represents UI states and behaviors associated with the device mode (Tablet or Desktop) and input device type.
 
+## -remarks
+To get an instance of this class, call [GetForCurrentView](uiviewsettings_getforcurrentview.md).
+
+
 > [!NOTE]
 > Some devices (PC, laptop, tablet) support both Desktop and Tablet mode.
 
 Users can switch between running in Tablet mode and Desktop mode by going to **Settings &gt; System &gt; Tablet mode** and setting **Make Windows more touch-friendly when using your device as a tablet**.
-
-## -remarks
-To get an instance of this class, call [GetForCurrentView](uiviewsettings_getforcurrentview.md).
 
 ## -examples
 Here, we show how to use the interaction mode to optimize the app layout on launch or when the device mode is changed.

@@ -10,11 +10,11 @@ public class ToolTip : Windows.UI.Xaml.Controls.ContentControl, Windows.UI.Xaml.
 # Windows.UI.Xaml.Controls.ToolTip
 
 ## -description
+
 Represents a control that creates a pop-up window that displays information for an element in the UI.
 
-A [ToolTip](tooltip.md) is a short description that is linked to another control or object. [ToolTip](tooltip.md) s help users understand unfamiliar objects that aren't described directly in the UI. They display automatically when the user presses and holds or hovers the mouse pointer over a control. The [ToolTip](tooltip.md) disappears after a short time, or when the user moves the pointer.
-
 ## -xaml-syntax
+
 ```xaml
 <ToolTip .../>
 -or-
@@ -27,7 +27,10 @@ A [ToolTip](tooltip.md) is a short description that is linked to another control
 
 
 ## -remarks
-[ToolTip](tooltip.md) is a pop-up window that displays information for another element. Here's a [ToolTip](tooltip.md) for a [Button](button.md).
+
+A [ToolTip](tooltip.md) is a short description that is linked to another control or object. [ToolTip](tooltip.md) s help users understand unfamiliar objects that aren't described directly in the UI. They display automatically when the user presses and holds or hovers the mouse pointer over a control. The [ToolTip](tooltip.md) disappears after a short time, or when the user moves the pointer.
+
+Here's a [ToolTip](tooltip.md) for a [Button](button.md).
 
 <img alt="Tool tip control" src="images/controls/ToolTip.png" />
 

@@ -49,9 +49,13 @@ This will also result in a playback error event for the associated [MediaElement
 The [AdaptiveMediaSource](adaptivemediasource.md) will not attempt to download any more segments for a particular bitrate.   
 This can occur if the web server returns a 410 – Gone response when downloading a manifest update for a particular bitrate if the server implements server side congestion control. It can also occur if the AdaptiveMediaSource is unable to download either the initialization segment or decryption key for a particular bitrate. 
 
+### -field FatalMediaSourceError:8
+
+
 ## -remarks
 
 ## -see-also
 
 ## -examples
+
 

@@ -53,8 +53,59 @@ A window.
 The text displayed in a window's UI decoration.
 
 
+### -field AccentColor:1000
+
+
+### -field NonTextHigh:1005
+
+
+### -field NonTextLow:1009
+
+
+### -field NonTextMedium:1007
+
+
+### -field NonTextMediumHigh:1006
+
+
+### -field NonTextMediumLow:1008
+
+
+### -field OverlayOutsidePopup:1012
+
+
+### -field PageBackground:1010
+
+
+### -field PopupBackground:1011
+
+
+### -field TextContrastWithHigh:1004
+
+
+### -field TextHigh:1001
+
+
+### -field TextLow:1003
+
+
+### -field TextMedium:1002
+
+
 ## -remarks
 
 ## -examples
 
 ## -see-also
+
+
+
+
+
+
+
+
+
+
+
+

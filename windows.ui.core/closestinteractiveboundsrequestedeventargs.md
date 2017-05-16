@@ -10,16 +10,15 @@ public class ClosestInteractiveBoundsRequestedEventArgs : Windows.UI.Core.IClose
 # Windows.UI.Core.ClosestInteractiveBoundsRequestedEventArgs
 
 ## -description
+
+Provides event data for the **ClosestInteractiveBoundsRequested** event. Not intended for general use. See [CoreComponentInputSource.ClosestInteractiveBoundsRequested](corecomponentinputsource_closestinteractiveboundsrequested.md) and [CoreWindow.ClosestInteractiveBoundsRequested](corewindow_closestinteractiveboundsrequested.md).
+
+## -remarks
+
 > [!NOTE]
 > Not intended for general use.
 
-Provides event data for the **ClosestInteractiveBoundsRequested** event.
-
-
-
 > See [CoreComponentInputSource.ClosestInteractiveBoundsRequested](corecomponentinputsource_closestinteractiveboundsrequested.md) and [CoreWindow.ClosestInteractiveBoundsRequested](corewindow_closestinteractiveboundsrequested.md).
-
-## -remarks
 
 ## -examples
 

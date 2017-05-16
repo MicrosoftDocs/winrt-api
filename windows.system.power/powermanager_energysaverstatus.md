@@ -10,7 +10,7 @@ public Windows.System.Power.EnergySaverStatus EnergySaverStatus { get; }
 # Windows.System.Power.PowerManager.EnergySaverStatus
 
 ## -description
-Gets battery saver status, indicating when to save energy.
+Gets the devices's battery saver status, indicating when to save energy.
 
 ## -property-value
 The status of battery saver.

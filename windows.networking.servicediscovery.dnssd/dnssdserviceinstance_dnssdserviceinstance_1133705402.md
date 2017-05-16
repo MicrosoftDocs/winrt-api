@@ -13,7 +13,7 @@ public DnssdServiceInstance(System.String dnssdServiceInstanceName, Windows.Netw
 Creates a new DnssdServiceInstance object with the specified instance name, host name, and port.
 
 ## -parameters
-### -param DnssdServiceInstanceName
+### -param dnssdServiceInstanceName
 The service instance name for the service instance being created.
 
 ### -param hostName

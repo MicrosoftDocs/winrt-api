@@ -21,3 +21,7 @@ True to upload even if the device only has access to a cellular data connection;
 
 ### -param uploadOverBattery
 **True** to upload even if the device is running on battery; **false** otherwise.
+
+## -returns
+
+

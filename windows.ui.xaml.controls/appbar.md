@@ -10,10 +10,7 @@ public class AppBar : Windows.UI.Xaml.Controls.ContentControl, Windows.UI.Xaml.C
 # Windows.UI.Xaml.Controls.AppBar
 
 ## -description
-Represents the container control that holds app UI components for commanding and experiences.
-
-> [!IMPORTANT]
-> You should use the [AppBar](appbar.md) only when you are upgrading a Universal Windows 8 app that uses the [AppBar](appbar.md), and need to minimize changes. For new apps in Windows 10, we recommend using the [CommandBar](commandbar.md) control instead.
+Represents the container control that holds app UI components for commanding and experiences. For Windows 10, see Remarks.
 
 ## -xaml-syntax
 ```xaml
@@ -23,7 +20,6 @@ Represents the container control that holds app UI components for commanding and
   content
 </AppBar>
 ```
-
 
 ## -remarks
 > [!IMPORTANT]

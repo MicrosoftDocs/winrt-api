@@ -10,18 +10,20 @@ public class SwapChainBackgroundPanel : Windows.UI.Xaml.Controls.Grid, Windows.U
 # Windows.UI.Xaml.Controls.SwapChainBackgroundPanel
 
 ## -description
-> [!NOTE]
-> [SwapChainBackgroundPanel](swapchainbackgroundpanel.md) may be altered or unavailable for releases after Windows 8.1 Instead, use [SwapChainPanel](swapchainpanel.md).
 
 Implements a XAML layout surface target for Microsoft DirectX interoperation scenarios. This panel has some atypical restrictions on its usage within an app window; see Remarks.
 
+> [!IMPORTANT]
+> [SwapChainBackgroundPanel](swapchainbackgroundpanel.md) may be altered or unavailable for releases after Windows 8.1 Instead, use [SwapChainPanel](swapchainpanel.md).
+
 ## -xaml-syntax
+
 ```xaml
 <SwapChainBackgroundPanel .../>
 ```
 
-
 ## -remarks
+
 > [!IMPORTANT]
 > [SwapChainBackgroundPanel](swapchainbackgroundpanel.md) is deprecated and may not be supported in future releases. Change any existing code that used [SwapChainBackgroundPanel](swapchainbackgroundpanel.md) to use [SwapChainPanel](swapchainpanel.md) instead. There's no downside to using [SwapChainPanel](swapchainpanel.md), the API is new because it relies upon an upgrade in the internal rendering and composition systems that were introduced starting with Windows 8.1.
 
