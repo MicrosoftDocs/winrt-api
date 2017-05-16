@@ -11,7 +11,11 @@ public DependencyProperty IsTabStopProperty { get; }
 
 ## -description
 
+Identifies the IsTabStop dependency property.
+
 ## -property-value
+
+The identifier for the IsTabStop dependency property.
 
 ## -remarks
 
