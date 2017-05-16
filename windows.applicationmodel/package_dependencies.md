@@ -21,5 +21,13 @@ The packages on which the current package depends.
 
 ## -examples
 
+```csharp
+// Get the app package
+Package currentPackage = Package.Current;
+
+// Get a list of dependencies for the app package. This includes all resource packages, framework packages, and optional packages.
+IReadOnlyList<Package> dependencies = currentPackage.Dependencies;
+```
+
 ## -see-also
 [App package information sample](http://code.msdn.microsoft.com/windowsapps/Package-sample-46e239fa), [App package information sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620581)
