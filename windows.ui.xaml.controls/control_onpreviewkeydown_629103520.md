@@ -11,12 +11,18 @@ virtual protected void Control.OnPreviewKeyDown(KeyRoutedEventArgs e)
 
 ## -description
 
+Called before the [PreviewKeyDown](../windows.ui.xaml/uielement_previewkeydown.md) event occurs.
+
 ## -parameters
 ### -param e
 
+The data for the event.
+
 ## -remarks
+
+## -examples
 
 ## -see-also
 
-## -examples
+
 

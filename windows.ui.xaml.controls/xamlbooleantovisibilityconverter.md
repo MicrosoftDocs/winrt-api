@@ -11,9 +11,13 @@ public class XamlBooleanToVisibilityConverter : IValueConverter
 
 ## -description
 
+Converts a Boolean value to a [Visibilty](../windows.ui.xaml/visibility.md) value.
+
 ## -remarks
 
 ## -see-also
+
+[IValueConverter](../windows.ui.xaml.data/ivalueconverter.md)
 
 ## -examples
 

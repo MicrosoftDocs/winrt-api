@@ -11,7 +11,11 @@ public DependencyProperty TabIndexProperty { get; }
 
 ## -description
 
+Identifies the TabIndex dependency property.
+
 ## -property-value
+
+The identifier for the TabIndex dependency property.
 
 ## -remarks
 

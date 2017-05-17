@@ -11,10 +11,16 @@ public bool GlobalizationPreferences.TrySetLanguages(IIterable<String> languageT
 
 ## -description
 
+Attempts to set the preferred languages.
+
 ## -parameters
 ### -param languageTags
 
+One or more language identifiers for the user's preferred languages.
+
 ## -returns
+
+**true** if Languages was set; otherwise, **false**.
 
 ## -remarks
 

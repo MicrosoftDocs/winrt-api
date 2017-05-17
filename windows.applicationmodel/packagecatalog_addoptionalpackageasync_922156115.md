@@ -23,6 +23,15 @@ The result of adding the package.
 ## -remarks
 This method only works for optional packages in a related set.
 
+## -examples
+The example below installs an optional app package based on its app package family name.
+
+```csharp
+var packageCatalog = PackageCatalog.OpenForCurrentPackage();
+string familyName = "<Your app package family name>";
+Package installedPackage = await packageCatalog.AddOptionalPackageAsync(familyName);
+```
+
 ## -see-also
 
 ## -examples

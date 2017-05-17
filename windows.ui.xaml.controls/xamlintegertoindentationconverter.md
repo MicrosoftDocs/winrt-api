@@ -11,9 +11,13 @@ public class XamlIntegerToIndentationConverter : IValueConverter
 
 ## -description
 
+Converts an integer value to an indentation value.
+
 ## -remarks
 
 ## -see-also
+
+[IValueConverter](../windows.ui.xaml.data/ivalueconverter.md)
 
 ## -examples
 

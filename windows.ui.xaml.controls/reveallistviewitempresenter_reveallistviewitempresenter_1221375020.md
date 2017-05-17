@@ -11,6 +11,8 @@ public RevealListViewItemPresenter.RevealListViewItemPresenter()
 
 ## -description
 
+Initializes a new instance of the RevealListViewItemPresenter class.
+
 ## -remarks
 
 ## -see-also

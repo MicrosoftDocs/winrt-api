@@ -11,7 +11,11 @@ public DispatcherQueue DispatcherQueue { get; }
 
 ## -description
 
+Gets the dispatcher queue for the window.
+
 ## -property-value
+
+The dispatcher queue for the window.
 
 ## -remarks
 

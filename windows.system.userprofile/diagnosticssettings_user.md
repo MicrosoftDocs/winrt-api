@@ -11,7 +11,11 @@ public User User { get; }
 
 ## -description
 
+Gets the [User](./../windows.system/user.md) associated with this instance of diagnostics settings.
+
 ## -property-value
+
+The user associated with this instance of diagnostics settings.
 
 ## -remarks
 

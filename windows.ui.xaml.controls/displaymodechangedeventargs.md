@@ -11,9 +11,13 @@ public class DisplayModeChangedEventArgs
 
 ## -description
 
+Provides data for the [DisplayModeChanged](navigationview_displaymodechanged.md) event.
+
 ## -remarks
 
 ## -see-also
+
+[NavigationView.DisplayModeChanged](navigationview_displaymodechanged.md)
 
 ## -examples
 

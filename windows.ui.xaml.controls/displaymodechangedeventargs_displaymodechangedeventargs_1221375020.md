@@ -11,6 +11,8 @@ public DisplayModeChangedEventArgs.DisplayModeChangedEventArgs()
 
 ## -description
 
+Initializes a new instance of the DisplayModeChangedEventArgs class.
+
 ## -remarks
 
 ## -see-also

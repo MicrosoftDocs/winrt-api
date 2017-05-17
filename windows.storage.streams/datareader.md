@@ -15,7 +15,7 @@ Reads data from an input stream.
 ## -remarks
 
 ## -examples
-The following example shows how to write and read strings to an in-memory stream. For the full code sample, see [Reading and writing data sample](http://go.microsoft.com/fwlink/p/?linkid=231581).
+The following example shows how to write and read strings to an in-memory stream. For the full code sample, see [Serializing and deserializing data sample](http://go.microsoft.com/fwlink/p/?LinkId=620535).
 
 ```cpp
 #include "pch.h"

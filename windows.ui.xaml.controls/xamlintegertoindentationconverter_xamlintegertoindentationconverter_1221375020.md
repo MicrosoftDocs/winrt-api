@@ -11,6 +11,8 @@ public XamlIntegerToIndentationConverter.XamlIntegerToIndentationConverter()
 
 ## -description
 
+Initializes a new instance of the XamlIntegerToIndentationConverter class.
+
 ## -remarks
 
 ## -see-also
