@@ -9,9 +9,10 @@ public class SvgImageSource : ImageSource, ImageSource
 
 # Windows.UI.Xaml.Media.Imaging.SvgImageSource
 
-
+## -description
 Provides a source object for properties that use a Scalable Vector Graphics (SVG) source. You can define a [SvgImageSource](svgimagesource.md) by using a Uniform Resource Identifier (URI) that references a SVG file, or by calling [SetSourceAsync(IRandomAccessStream)](svgimagesource_setsourceasync_1118221574.md) and supplying a stream.
 
+## -remarks
 ## Remarks
 [SvgImageSource](svgimagesource.md) lets you use a SVG source to be displayed using an [ImageBrush](../windows.ui.xaml.media/imagebrush.md) or directly in an [Image](../windows.ui.xaml.controls/image.md) control. [SvgImageSource](svgimagesource.md) supports secure static mode from the SVG specification and does not support animations or interactions. 
 The Direct2D API supplies the underlying SVG rendering support and for more info on specific SVG element and attribute support, see [SVG Support](https://msdn.microsoft.com/en-us/library/windows/desktop/mt790715%28v=vs.85%29.aspx). For more info on formats and how to use Uniform Resource Identifier (URI) to access image source files that come from app resources, see [Image and ImageBrush](http://msdn.microsoft.com/library/cea8780c-71a3-4168-a6e8-6361cdfb2faf).
