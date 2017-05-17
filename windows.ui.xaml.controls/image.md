@@ -39,6 +39,12 @@ Starting in Windows 10, version 1607, the [Image](image.md) element supports an
 > [!NOTE]
 > Animated Graphics Interchange Format (GIF) support is available when your app is compiled for Windows 10, version 1607 and running on version 1607 (or later). When your app is compiled for or runs on previous versions, the first frame of the Graphics Interchange Format (GIF) is shown, but it is not animated.
 
+Starting in Windows 10, version 1703, the [Image](image.md) element supports static Scalable Vector Graphics (SVG) images through [SvgImageSource](../windows.ui.xaml.media.imaging/svgimagesource.md). **SvgImageSource** supports secure static mode from the SVG specification and does not support animations or interactions. 
+The Direct2D API supplies the underlying SVG rendering support and for more info on specific SVG element and attribute support, see [SVG Support](https://msdn.microsoft.com/en-us/library/windows/desktop/mt790715%28v=vs.85%29.aspx). To learn more about how to insert a SVG in your app, visit the [SvgImageSource](../windows.ui.xaml.media.imaging/svgimagesource.md) class page.
+
+> [!NOTE]
+> Scalable Vector Graphics (SVG) support is available when your app is compiled for Windows 10, version 1703 and running on version 1703 (or later). When your app is compiled for or runs on previous versions, the SVG image will not be shown.
+
 ### Setting Image.Source
 
 To set the image source file that an [Image](image.md) displays, you set its [Source](image_source.md) property, either in XAML or in code. Here's a simple example of setting [Source](image_source.md) in XAML:
