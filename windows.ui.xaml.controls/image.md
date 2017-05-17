@@ -21,13 +21,15 @@ Represents a control that displays an image. The image source is specified by re
 ## -remarks
 ### Image file formats
 
-An [Image](image.md) can display these image file formats:+ Joint Photographic Experts Group (JPEG)
+An [Image](image.md) can display these image file formats:
++ Joint Photographic Experts Group (JPEG)
 + Portable Network Graphics (PNG)
 + bitmap (BMP)
 + Graphics Interchange Format (GIF)
 + Tagged Image File Format (TIFF)
 + JPEG XR
-+ icons (ICO) 
++ icons (ICO)
++ Scalable Vector Graphics (SVG)
 
 > [!NOTE]
 > Icon files supported on Windows only. Not supported on Windows Phone 8.1
@@ -40,7 +42,7 @@ Starting in Windows 10, version 1607, the [Image](image.md) element supports an
 > Animated Graphics Interchange Format (GIF) support is available when your app is compiled for Windows 10, version 1607 and running on version 1607 (or later). When your app is compiled for or runs on previous versions, the first frame of the Graphics Interchange Format (GIF) is shown, but it is not animated.
 
 Starting in Windows 10, version 1703, the [Image](image.md) element supports static Scalable Vector Graphics (SVG) images through [SvgImageSource](../windows.ui.xaml.media.imaging/svgimagesource.md). **SvgImageSource** supports secure static mode from the SVG specification and does not support animations or interactions. 
-The Direct2D API supplies the underlying SVG rendering support and for more info on specific SVG element and attribute support, see [SVG Support](https://msdn.microsoft.com/en-us/library/windows/desktop/mt790715%28v=vs.85%29.aspx). To learn more about how to insert a SVG in your app, visit the [SvgImageSource](../windows.ui.xaml.media.imaging/svgimagesource.md) class page.
+Direct2D supplies the underlying SVG rendering support and for more info on specific SVG element and attribute support, see [SVG Support](https://msdn.microsoft.com/en-us/library/windows/desktop/mt790715%28v=vs.85%29.aspx). To learn more about how to insert a SVG in your app, visit the [SvgImageSource](../windows.ui.xaml.media.imaging/svgimagesource.md) class page.
 
 > [!NOTE]
 > Scalable Vector Graphics (SVG) support is available when your app is compiled for Windows 10, version 1703 and running on version 1703 (or later). When your app is compiled for or runs on previous versions, the SVG image will not be shown.
