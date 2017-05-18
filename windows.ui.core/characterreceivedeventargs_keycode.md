@@ -10,10 +10,10 @@ public uint KeyCode { get; }
 # Windows.UI.Core.CharacterReceivedEventArgs.KeyCode
 
 ## -description
-Gets the key code of the character whose input raised the event.
+Gets the key code of the character received by the input queue.
 
 ## -property-value
-The key code of the character received by the input queue.
+The character in UTF-32 encoding.
 
 ## -remarks
 > **Windows 10**
