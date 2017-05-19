@@ -110,25 +110,21 @@ This app was launched by another app on a different device by using the DIAL pro
 This app was activated as a result of pairing a device.
 
 ### -field UserDataAccountsProvider:1014
-The app was launched to handle the user interface for account management. In circumstances where the system would have shown the default system user interface, it instead has invoked your app with the UserDataAccountProvider contract. The activation payload contains information about the type of operation being requested and all the information necessary to replicate the system-provided user interface.This activation kind is limited to 1st party apps. To use this field, you must add the **userDataAccountsProvider** capability in your app's package manifest. For more info see [App capability declarations](http://aka.ms/appcap).
-
-Introduced in Windows 10, version 1607.
+The app was launched to handle the user interface for account management. In circumstances where the system would have shown the default system user interface, it instead has invoked your app with the UserDataAccountProvider contract. The activation payload contains information about the type of operation being requested and all the information necessary to replicate the system-provided user interface.This activation kind is limited to 1st party apps. To use this field, you must add the **userDataAccountsProvider** capability in your app's package manifest. For more info see [App capability declarations](http://aka.ms/appcap). Introduced in Windows 10, version 1607.
 
 ### -field FilePickerExperience:1015
 Reserved for system use. Introduced in Windows 10, version 1607.
 
-
 ### -field ContactPanel:1017
-
+Prerelease: The app was launched by the **My People** UI. Note: introduced in Windows 10, version 1607, but not used.
 
 ### -field LockScreenComponent:1016
-
+Not used. Introduced in Windows 10, version 1607.
 
 ### -field PrintWorkflowForegroundTask:1018
 
-
 ### -field Console:1019
-
+Prerelease.
 
 ## -remarks
 
@@ -136,6 +132,3 @@ Reserved for system use. Introduced in Windows 10, version 1607.
 
 ## -see-also
 [CachedFileUpdaterActivatedEventArgs.Kind](cachedfileupdateractivatedeventargs_kind.md), [CameraSettingsActivatedEventArgs.Kind](camerasettingsactivatedeventargs_kind.md), [ContactPickerActivatedEventArgs.Kind](contactpickeractivatedeventargs_kind.md), [DeviceActivatedEventArgs.Kind](deviceactivatedeventargs_kind.md), [FileActivatedEventArgs.Kind](fileactivatedeventargs_kind.md), [FileOpenPickerActivatedEventArgs.Kind](fileopenpickeractivatedeventargs_kind.md), [FileSavePickerActivatedEventArgs.Kind](filesavepickeractivatedeventargs_kind.md), [LaunchActivatedEventArgs.Kind](launchactivatedeventargs_kind.md), [LockScreenActivatedEventsArg.Kind](lockscreenactivatedeventargs_kind.md), [PrintTaskSettingsActivatedEventArgs.Kind](printtasksettingsactivatedeventargs_kind.md), [ProtocolActivatedEventArgs.Kind](protocolactivatedeventargs_kind.md), [SearchActivatedEventArgs.Kind](searchactivatedeventargs_kind.md), [ShareTargetActivatedEventArgs.Kind](sharetargetactivatedeventargs_kind.md), [WebUICachedFileUpdaterActivatedEventArgs.kind](../windows.ui.webui/webuicachedfileupdateractivatedeventargs_kind.md), [WebUICameraSettingsActivatedEventArgs.kind](../windows.ui.webui/webuicamerasettingsactivatedeventargs_kind.md), [WebUIContactPickerActivatedEventArgs.kind](../windows.ui.webui/webuicontactpickeractivatedeventargs_kind.md), [WebUIDeviceActivatedEventArgs.kind](../windows.ui.webui/webuideviceactivatedeventargs_kind.md), [WebUIFileActivatedEventArgs.kind](../windows.ui.webui/webuifileactivatedeventargs_kind.md), [WebUIFileOpenPickerActivatedEventArgs.kind](../windows.ui.webui/webuifileopenpickeractivatedeventargs_kind.md), [WebUIFileSavePickerActivatedEventArgs.kind](../windows.ui.webui/webuifilesavepickeractivatedeventargs_kind.md), [WebUILaunchActivatedEventArgs.kind](../windows.ui.webui/webuilaunchactivatedeventargs_kind.md), [WebUIPrintTaskSettingsActivatedEventArgs.kind](../windows.ui.webui/webuiprinttasksettingsactivatedeventargs_kind.md), [WebUIProtocolActivatedEventArgs.kind](../windows.ui.webui/webuiprotocolactivatedeventargs_kind.md), [WebUISearchActivatedEventArgs.kind](../windows.ui.webui/webuisearchactivatedeventargs_kind.md), [WebUIShareTargetActivatedEventArgs.kind](../windows.ui.webui/webuisharetargetactivatedeventargs_kind.md)
-
-
-
