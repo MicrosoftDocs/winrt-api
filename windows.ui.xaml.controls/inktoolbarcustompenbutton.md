@@ -41,13 +41,13 @@ Here's an example of a custom pen that reuses the default [InkToolbarPenConfigur
 <Page ...>
     <Page.Resources>
         <local:CalligraphicPen x:Key="CalligraphicPen"/>
-        <ColorCollection x:Key="CalligraphicPenPalette">
-            <Color>Crimson</Color>
-            <Color>Black</Color>
-            <Color>Green</Color>
-            <Color>Blue</Color>
-            <Color>White</Color>
-        </ColorCollection>
+        <BrushCollection x:Key="CalligraphicPenPalette">
+            <SolidColorBrush>Crimson</Color>
+            <SolidColorBrush>Black</Color>
+            <SolidColorBrush>Green</Color>
+            <SolidColorBrush>Blue</Color>
+            <SolidColorBrush>White</Color>
+        </BrushCollection>
         <Color x:Key="CallipgraphicPenDefaultColor">Crimson</Color>
     </Page.Resources>
 
@@ -56,7 +56,7 @@ Here's an example of a custom pen that reuses the default [InkToolbarPenConfigur
     <InkToolbar TargetInkCanvas="{x:Bind m_inkCanvas}">
         <InkToolbarCustomPenButton CustomPen="{StaticResource CalligraphicPen}"
         MinStrokeWidth="1" MaxStrokeWidth="3" SelectedStrokeWidth="2"
-        ColorPalette="{StaticResource CalligraphicPenPalette}"
+        Palette="{StaticResource CalligraphicPenPalette}"
         SelectedColor="{StaticResource CallipgraphicPenDefaultColor}">
     
             <SymbolIcon Symbol="Placeholder"/>
@@ -74,10 +74,10 @@ Here's an example of a custom pen that reuses the default [InkToolbarPenConfigur
 Here's an example of a custom pen that customizes the default [InkToolbarPenConfigurationControl](inktoolbarpenconfigurationcontrol.md).
 
 ```xaml
-<Style TargetType="local:InkToolbarPenConfigurationControl">
+<Style TargetType="InkToolbarPenConfigurationControl">
     <Setter Property="Template">
         <Setter.Value>
-            <ControlTemplate TargetType="local:InkToolbarPenConfigurationControl">
+            <ControlTemplate TargetType="InkToolbarPenConfigurationControl">
                 <Grid MinWidth="272">
                     <Grid.Resources>
                         <Style x:Key="FlyoutStrokeWidthSelectorStyle" TargetType="Slider">
