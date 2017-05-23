@@ -11,11 +11,15 @@ public IAsyncOperation<bool> HdmiDisplayInformation.RequestSetCurrentDisplayMode
 
 ## -description
 
+Sends request to set only the display mode for the display.
+
 ## -parameters
 
 ### -param mode
 
 ## -returns
+
+Value that indicates whether the set request is successful.
 
 ## -remarks
 

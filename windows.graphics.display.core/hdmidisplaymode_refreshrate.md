@@ -11,6 +11,8 @@ public double RefreshRate { get; }
 
 ## -description
 
+Gets the device's refresh rate, in Hertz (Hz).
+
 ## -property-value
 
 ## -remarks

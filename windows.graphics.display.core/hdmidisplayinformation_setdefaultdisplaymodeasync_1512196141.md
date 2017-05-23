@@ -11,6 +11,8 @@ public IAsyncAction HdmiDisplayInformation.SetDefaultDisplayModeAsync()
 
 ## -description
 
+Sets the display to the back to default settings.
+
 ## -returns
 
 ## -remarks

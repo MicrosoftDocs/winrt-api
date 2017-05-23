@@ -11,6 +11,8 @@ public uint ResolutionHeightInRawPixels { get; }
 
 ## -description
 
+Gets the device's resolution height in raw pixels.
+
 ## -property-value
 
 ## -remarks

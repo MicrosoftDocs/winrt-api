@@ -11,6 +11,8 @@ public bool StereoEnabled { get; }
 
 ## -description
 
+Gets the value that indicates whether stereoscorpic 3D is enabled on the device.
+
 ## -property-value
 
 ## -remarks

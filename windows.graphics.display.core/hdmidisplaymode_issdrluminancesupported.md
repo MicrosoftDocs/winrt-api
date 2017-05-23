@@ -11,6 +11,8 @@ public bool IsSdrLuminanceSupported { get; }
 
 ## -description
 
+Gets the value that indicates whether standard dynamic range (SDR) luminance levels are supported by the device.
+
 ## -property-value
 
 ## -remarks

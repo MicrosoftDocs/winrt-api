@@ -11,6 +11,8 @@ public uint ResolutionWidthInRawPixels { get; }
 
 ## -description
 
+Gets the device's resolution width in raw pixels.
+
 ## -property-value
 
 ## -remarks

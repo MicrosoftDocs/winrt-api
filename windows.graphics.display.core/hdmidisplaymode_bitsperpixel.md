@@ -11,6 +11,8 @@ public ushort BitsPerPixel { get; }
 
 ## -description
 
+Gets the number of bits per pixel. It specifies the number of bits used in a pixel.
+
 ## -property-value
 
 ## -remarks

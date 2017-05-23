@@ -11,6 +11,8 @@ public HdmiDisplayPixelEncoding PixelEncoding { get; }
 
 ## -description
 
+Gets the type of pixel encoding the device uses for rendering display content.
+
 ## -property-value
 
 ## -remarks

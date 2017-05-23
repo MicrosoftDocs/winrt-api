@@ -11,6 +11,8 @@ public event TypedEventHandler DisplayModesChanged<HdmiDisplayInformation,  obje
 
 ## -description
 
+Event raised when the display mode changes.
+
 ## -remarks
 
 ## -see-also

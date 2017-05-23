@@ -11,15 +11,25 @@ public IAsyncOperation<bool> HdmiDisplayInformation.RequestSetCurrentDisplayMode
 
 ## -description
 
+Sends request to set the display according to the input parameters.
+
 ## -parameters
 
 ### -param mode
 
+The display mode.
+
 ### -param hdrOption
+
+The electro-optical transfer function (EOTF) used to master the HDR content.
 
 ### -param hdrMetadata
 
+The 10 bit display metadata used to adjust the output.
+
 ## -returns
+
+Value that indicates whether the set request is successful.
 
 ## -remarks
 
