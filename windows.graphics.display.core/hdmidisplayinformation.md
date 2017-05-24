@@ -11,6 +11,8 @@ public class HdmiDisplayInformation
 
 ## -description
 
+Represents a class containing methods which can be used to interact with the display.
+
 ## -remarks
 
 ## -see-also

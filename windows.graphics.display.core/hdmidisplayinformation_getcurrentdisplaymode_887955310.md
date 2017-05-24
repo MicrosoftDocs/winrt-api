@@ -11,7 +11,11 @@ public HdmiDisplayMode HdmiDisplayInformation.GetCurrentDisplayMode()
 
 ## -description
 
+Gets the [HdmiDisplayMode](hdmidisplaymode.md) object, which provides info about the current display mode of a connected device, like a TV.
+
 ## -returns
+
+The display mode.
 
 ## -remarks
 

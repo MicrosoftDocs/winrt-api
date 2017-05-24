@@ -11,6 +11,8 @@ public bool IsSmpte2084Supported { get; }
 
 ## -description
 
+Gets the value that indicates whether the SMPTE (Society of Motion Picture and Television Engineers) ST 2084 electo-optical transfer function (EOTF) is supported.
+
 ## -property-value
 
 ## -remarks

@@ -11,7 +11,11 @@ public HdmiDisplayInformation HdmiDisplayInformation.GetForCurrentView()
 
 ## -description
 
+Gets the [HdmiDisplayInformation](hdmidisplayinformation.md) object which is the display info of a video content that is currently sent to a display, like a TV or monitor.
+
 ## -returns
+
+The display info of a video content that's currently on screen.
 
 ## -remarks
 

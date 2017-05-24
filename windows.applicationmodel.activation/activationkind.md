@@ -119,7 +119,7 @@ Reserved for system use. Introduced in Windows 10, version 1607 (10.0.14393).
 The app was launched by the **My People** UI. Note: introduced in Windows 10, version 1703 (10.0.15063), but not used. Prerelease: now used.
 
 ### -field LockScreenComponent:1016
-Not used. Introduced in Windows 10, version 1703 (10.0.15063).
+Reserved for system use. Introduced in Windows 10, version 1703 (10.0.15063).
 
 ### -field PrintWorkflowForegroundTask:1018
 This app was activated because the user is printing to a printer that has a Print Workflow Application associated with it which has requested user input. Prerelease.

@@ -11,6 +11,8 @@ namespace Windows.Graphics.Display.Core
 
 ## -description
 
+Gets info about a display and configures their settings to support the display of your content.
+
 ## -remarks
 
 ## -see-also

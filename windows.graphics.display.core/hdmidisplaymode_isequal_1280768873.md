@@ -11,11 +11,15 @@ public bool HdmiDisplayMode.IsEqual(HdmiDisplayMode mode)
 
 ## -description
 
+Checks to see whether the current display mode is equal to a specific display mode.
+
 ## -parameters
 
 ### -param mode
 
 ## -returns
+
+Value that indicates if the current display mode is equal to a specifc display mode. If TRUE, they are the equal.
 
 ## -remarks
 

@@ -11,7 +11,11 @@ public IVectorView<HdmiDisplayMode> HdmiDisplayInformation.GetSupportedDisplayMo
 
 ## -description
 
+Gets the display modes that are supported by your current display. This is determined in combination by your device type, specifications, and settings.
+
 ## -returns
+
+The list of display modes that are supported.
 
 ## -remarks
 

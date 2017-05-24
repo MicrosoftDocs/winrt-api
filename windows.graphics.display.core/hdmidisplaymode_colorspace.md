@@ -11,6 +11,8 @@ public HdmiDisplayColorSpace ColorSpace { get; }
 
 ## -description
 
+Gets the color space.
+
 ## -property-value
 
 ## -remarks
