@@ -6,7 +6,7 @@
 # Windows.ApplicationModel.Chat
 
 ## -description
-This API is not available to all Windows/Windows Phone apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+This namespace allows apps to implement messaging through SMS, MMS, and RCS protocols on devices that support it.
 
 ## -remarks
 

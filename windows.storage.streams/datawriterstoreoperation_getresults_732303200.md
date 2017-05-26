@@ -13,7 +13,7 @@ public uint GetResults()
 Returns the result of the data store operation.
 
 ## -returns
-The result of the operation.
+The number of bytes returned by the StoreAsync method of the [DataWriter](datawriter.md).
 
 ## -remarks
 
