@@ -1,4 +1,4 @@
-
+ [
 ---
 -api-id: T:Windows.UI.Xaml.Controls.Primitives.Popup
 -api-type: winrt class
@@ -20,7 +20,7 @@ Displays content on top of existing content, within the bounds of the applicatio
 
 
 ## -remarks
-Do not use a [Popup](popup.md) if a [Flyout](../windows.ui.xaml.controls/flyout.md), [MenuFlyout](../windows.ui.xaml.controls/menuflyout.md), [ToolTip](../windows.ui.xaml.controls/tooltip.md) or [MessageDialog](../windows.ui.popups/messagedialog.md) is more appropriate.
+Do not use a [Popup](popup.md) if a [Flyout](../windows.ui.xaml.controls/flyout.md), [MenuFlyout](../windows.ui.xaml.controls/menuflyout.md), [ToolTip](../windows.ui.xaml.controls/tooltip.md) or [ContentDialog](../windows.ui.popups/contentdialog.md) ([MessageDialog](../windows.ui.popups/messagedialog.md) for a Windows 8 app) is more appropriate.
 
 
 <!--For more info, see Displaying popups. (Add this when the topic is created.)-->
