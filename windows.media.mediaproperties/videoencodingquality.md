@@ -42,7 +42,7 @@ Qvga format.
 2160p UHD format.  
 Use this API to test for avaiability of this enum:
 
-     if (ApiInformation.IsEnumNamedValuePresent("Windows.Media.MediaProperties.VideoEncodingQuality" "Uhd2160p"))
+     if (ApiInformation.IsEnumNamedValuePresent("Windows.Media.MediaProperties.VideoEncodingQuality", "Uhd2160p"))
      {
      }
 
@@ -50,7 +50,7 @@ Use this API to test for avaiability of this enum:
 4320p UHD format.  
 Use this API to test for avaiability of this enum:
      
-     if (ApiInformation.IsEnumNamedValuePresent("Windows.Media.MediaProperties.VideoEncodingQuality" "Uhd4320p"))
+     if (ApiInformation.IsEnumNamedValuePresent("Windows.Media.MediaProperties.VideoEncodingQuality", "Uhd4320p"))
      {
      }
 ## -remarks
