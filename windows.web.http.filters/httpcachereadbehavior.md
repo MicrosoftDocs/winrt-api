@@ -24,7 +24,8 @@ The server returns an HTTP status code of 200 (OK) or 304 (Not Modified) when th
 ### -field OnlyFromCache:2
 Only use data from the local HTTP cache. This is the offline behavior.
 
-### -field NoCache:3
+### -field NoCache:3 (introduced v3)
+
 Do not use cache nor do a conditional request. This ensures that all HTTP requests go directly to the server.
 
 
