@@ -16,6 +16,8 @@ Represents the magnetic stripe reader device.
 ## -remarks
 This object is created when [GetDefaultAsync](magneticstripereader_getdefaultasync.md) or [FromIdAsync](magneticstripereader_fromidasync.md) method completes.
 
+See the [magnetic stripe reader sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/MagneticStripeReader) for an example implementation.
+
 ## -examples
 
 ## -see-also
