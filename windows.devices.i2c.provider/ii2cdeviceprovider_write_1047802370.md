@@ -16,16 +16,16 @@ Writes data to the inter-integrated circuit (I<sup>2</sup> C) bus on which the d
 ### -param buffer
 A buffer that contains the data that you want to write to the I<sup>2</sup> C device. This data should not include the bus address.
 
-## -exceptions
-### 0x80070002
+## -remarks
+
+#### Error Codes
+##### 0x80070002
 
 The bus address was not acknowledged.
 
-### 0x8007045D
+##### 0x8007045D
 
 The I<sup>2</sup> C device negatively acknowledged the data transfer before the entire buffer was read.
-
-## -remarks
 
 ## -examples
 

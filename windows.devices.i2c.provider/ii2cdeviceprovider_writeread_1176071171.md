@@ -19,16 +19,16 @@ A buffer that contains the data that you want to write to the I<sup>2</sup> C de
 ### -param readBuffer
 The buffer to which you want to read the data from the I<sup>2</sup> C bus. The length of the buffer determines how much data to request from the device.
 
-## -exceptions
-### 0x80070002
+## -remarks
+
+#### Error Codes
+##### 0x80070002
 
 The bus address was not acknowledged.
 
-### 0x8007045D
+##### 0x8007045D
 
 The I<sup>2</sup> C device negatively acknowledged the data transfer before the entire buffer was read.
-
-## -remarks
 
 ## -examples
 

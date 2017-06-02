@@ -127,7 +127,7 @@ Here's an example of a custom pen that customizes the default [InkToolbarPenConf
 [Get Started Tutorial: Support ink in your UWP app](https://docs.microsoft.com/windows/uwp/get-started/ink-walkthrough)
 
 ### Reference
-[InkToolbarPenButton](inktoolbarpenbutton.md), [InkToolbarCustomPen](inktoolbarcustompen.md)
+[Windows.UI.Xaml.Controls classes](windows_ui_xaml_controls_classes.md), [InkToolbarPenButton](inktoolbarpenbutton.md), [InkToolbarCustomPen](inktoolbarcustompen.md)
 
 ### Samples
 * [Simple ink sample (C#/C++)](http://go.microsoft.com/fwlink/p/?LinkID=620312)
