@@ -20,12 +20,11 @@ By calling [ActivateCustomDrying](inkpresenter_activatecustomdrying.md) (before 
 ## -returns
 The object used for custom ink stroke rendering.
 
-## -exceptions
-### E_ILLEGAL_METHOD_CALL
-
+## -remarks
+#### Error codes
+##### E_ILLEGAL_METHOD_CALL  (0x8000000E)
 Thrown if [ActivateCustomDrying](inkpresenter_activatecustomdrying.md) is called after [InkCanvas](../windows.ui.xaml.controls/inkcanvas.md) is loaded.
 
-## -remarks
 This method must be called prior to loading the [InkCanvas](../windows.ui.xaml.controls/inkcanvas.md).
 
 > **Custom drying and the InkToolbar**

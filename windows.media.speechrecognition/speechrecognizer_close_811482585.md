@@ -15,7 +15,7 @@ Disposes the speech recognizer by freeing, releasing, or resetting allocated res
 If a [SpeechContinuousRecognitionSession](speechcontinuousrecognitionsession.md) is underway, [Close](speechrecognizer_close.md) is functionally equivalent to calling [CancelAsync](speechcontinuousrecognitionsession_cancelasync.md).
 
 ## -exceptions
-### ObjectDisposedException
+### System.ObjectDisposedException
 
 Thrown if either [RecognizeAsync](speechrecognizer_recognizeasync.md) or [RecognizeWithUIAsync](speechrecognizer_recognizewithuiasync.md) is in progress.
 
