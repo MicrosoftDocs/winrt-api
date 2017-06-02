@@ -16,14 +16,13 @@ Parses and adds an entry to the [HttpConnectionOptionHeaderValueCollection](http
 ### -param input
 The entry to add.
 
-## -exceptions
-### E_INVALIDARG
+## -remarks
+Below are exceptions that this function throws.
 
+### E_INVALIDARG
 The *input* parameter is **null** (**Nothing** in Visual Basic).
 
 The *input* parameter is not a valid value for the **Connection** HTTP header.
-
-## -remarks
 
 ## -examples
 

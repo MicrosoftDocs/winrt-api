@@ -19,14 +19,14 @@ A string that represents the credential information in the **Authorization** or 
 ## -returns
 An [HttpCredentialsHeaderValue](httpcredentialsheadervalue.md) instance.
 
-## -exceptions
+## -remarks
+Below are the exceptions that this function throws.
+
 ### E_INVALIDARG
 
 The *input* parameter is **null** (**Nothing** in Visual Basic).
 
 The *input* parameter is not valid credential information.
-
-## -remarks
 
 ## -examples
 

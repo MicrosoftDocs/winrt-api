@@ -16,14 +16,15 @@ Parses and adds an entry to the [HttpCacheDirectiveHeaderValueCollection](httpca
 ### -param input
 The entry to add.
 
-## -exceptions
+## -remarks
+
+Below are exceptions that this function throws.
+
 ### E_INVALIDARG
 
 The *input* parameter is **null** (**Nothing** in Visual Basic).
 
 The *input* parameter is not a valid value for the **Cache-Control** HTTP header.
-
-## -remarks
 
 ## -examples
 

@@ -16,12 +16,12 @@ Add HTTP content to the [HttpMultipartFormDataContent](httpmultipartformdatacont
 ### -param content
 The HTTP content to add to [HttpMultipartFormDataContent](httpmultipartformdatacontent.md).
 
-## -exceptions
+## -remarks
+Below are the exceptions that this function throws.
+
 ### E_INVALIDARG
 
 The *content* parameter is **null** (**Nothing** in Visual Basic).
-
-## -remarks
 
 ## -examples
 

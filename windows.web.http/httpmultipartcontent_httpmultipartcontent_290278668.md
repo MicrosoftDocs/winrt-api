@@ -16,12 +16,12 @@ Initializes a new instance of the [HttpMultipartContent](httpmultipartcontent.md
 ### -param subtype
 The MIME subtype of the multipart content.
 
-## -exceptions
+## -remarks
+Below are the exceptions that this function throws.
+
 ### E_INVALIDARG
 
 The *subtype* parameter is **null** (**Nothing** in Visual Basic).
-
-## -remarks
 
 ## -examples
 

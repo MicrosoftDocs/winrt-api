@@ -16,13 +16,14 @@ Initializes a new instance of the [HttpBufferContent](httpbuffercontent.md) clas
 ### -param content
 The content used to initialize the [HttpBufferContent](httpbuffercontent.md).
 
-## -exceptions
+## -remarks
+The entire buffer specified in the *content* parameter is used to initialize the [HttpBufferContent](httpbuffercontent.md).
+
+Below are the exceptions that this function throws.
+
 ### E_INVALIDARG
 
 The *content* parameter is **null** (**Nothing** in Visual Basic).
-
-## -remarks
-The entire buffer specified in the *content* parameter is used to initialize the [HttpBufferContent](httpbuffercontent.md).
 
 ## -examples
 

@@ -19,14 +19,14 @@ A string that represents the media-type and character set information used in th
 ## -returns
 An [HttpMediaTypeHeaderValue](httpmediatypeheadervalue.md) instance.
 
-## -exceptions
+## -remarks
+Below are the exceptions that this function throws.
+
 ### E_INVALIDARG
 
 The *input* parameter is **null** (**Nothing** in Visual Basic).
 
 The *input* parameter is not valid media-type and character set information.
-
-## -remarks
 
 ## -examples
 

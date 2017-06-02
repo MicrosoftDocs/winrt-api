@@ -19,14 +19,14 @@ A string that represents authentication header value information.
 ## -returns
 An [HttpChallengeHeaderValue](httpchallengeheadervalue.md) instance.
 
-## -exceptions
+## -remarks
+Below are exceptions that this function throws.
+
 ### E_INVALIDARG
 
 The *input* parameter is **null** (**Nothing** in Visual Basic).
 
 The *input* parameter is not valid authentication header information.
-
-## -remarks
 
 ## -examples
 

@@ -19,14 +19,14 @@ A string that represents the information in the **Expect** HTTP header.
 ## -returns
 An [HttpExpectationHeaderValue](httpexpectationheadervalue.md) instance.
 
-## -exceptions
+## -remarks
+Below are the exceptions that this function throws.
+
 ### E_INVALIDARG
 
 The *input* parameter is **null** (**Nothing** in Visual Basic).
 
 The *input* parameter is not valid expect information.
-
-## -remarks
 
 ## -examples
 

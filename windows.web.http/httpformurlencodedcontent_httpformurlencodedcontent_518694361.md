@@ -16,12 +16,12 @@ Initializes a new instance of the [HttpFormUrlEncodedContent](httpformurlencoded
 ### -param content
 The content used to initialize the [HttpFormUrlEncodedContent](httpformurlencodedcontent.md).
 
-## -exceptions
+## -remarks
+Below are the exceptions that this function throws.
+
 ### E_INVALIDARG
 
 The *content* parameter is **null** (**Nothing** in Visual Basic).
-
-## -remarks
 
 ## -examples
 
