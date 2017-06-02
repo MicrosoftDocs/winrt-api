@@ -16,6 +16,8 @@ A cash drawer device in a retail scenario.
 ## -remarks
 To get a [CashDrawer](cashdrawer.md) object, use the [FromIdAsync](cashdrawer_fromidasync.md) or [GetDefaultAsync](posprinter_getdefaultasync.md) static methods.
 
+See the [cash drawer sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/CashDrawer) for an example implementation.
+
 ## -examples
 
 ## -see-also

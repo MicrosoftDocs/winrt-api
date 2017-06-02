@@ -16,6 +16,8 @@ Represents the barcode scanner device.
 ## -remarks
 This object is created when [GetDefaultAsync](barcodescanner_getdefaultasync.md) or [FromIdAsync](barcodescanner_fromidasync.md) method completes.
 
+See the [barcode scanner sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/BarcodeScanner) for an example implementation.
+
 ## -examples
 
 ## -see-also
