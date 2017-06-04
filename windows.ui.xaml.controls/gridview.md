@@ -23,7 +23,7 @@ Represents a control that displays data items in rows and columns.
 
 
 ## -remarks
-Use a [GridView](gridview.md) to display a collection of data in rows and columns that can scroll vertically. To display a collection stacked vertically, use a [ListView](listview.md).
+Use a [GridView](gridview.md) to display a collection of data in rows and columns that can scroll horizontally. To display a collection stacked vertically, use a [ListView](listview.md).
 
 <img alt="Grid view control" src="images/controls/GridViewBasic.png" />
 
