@@ -19,17 +19,16 @@ The HTTP request message to send.
 ## -returns
 The object representing the asynchronous operation.
 
-## -exceptions
-### E_INVALIDARG
+## -remarks
+This operation will not block. The returned [IAsyncOperationWithProgress(HttpResponseMessage, HttpProgress)](../windows.foundation/iasyncoperationwithprogress_2.md) object will complete once the entire HTTP response message is received.
 
+Below are exceptions that this function throws.
+
+### E_INVALIDARG
 The *request* parameter was a **null** reference (**Nothing** in Visual Basic).
 
 ### E_ILLEGAL_METHOD_CALL
-
 The request message was already sent by the [HttpBaseProtocolFilter](httpbaseprotocolfilter.md) instance.
-
-## -remarks
-This operation will not block. The returned [IAsyncOperationWithProgress(HttpResponseMessage, HttpProgress)](../windows.foundation/iasyncoperationwithprogress_2.md) object will complete once the entire HTTP response message is received.
 
 ## -examples
 

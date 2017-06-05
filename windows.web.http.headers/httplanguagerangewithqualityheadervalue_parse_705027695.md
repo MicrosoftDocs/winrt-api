@@ -19,14 +19,14 @@ A string that represents the language-range and quality factor information used 
 ## -returns
 An [HttpLanguageRangeWithQualityHeaderValue](httplanguagerangewithqualityheadervalue.md) instance.
 
-## -exceptions
+## -remarks
+Below is the exception that this function throws.
+
 ### E_INVALIDARG
 
 The *input* parameter is **null** (**Nothing** in Visual Basic).
 
 The *input* parameter is not valid language-range and quality factor information.
-
-## -remarks
 
 ## -examples
 

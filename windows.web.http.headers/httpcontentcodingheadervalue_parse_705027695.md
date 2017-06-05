@@ -19,14 +19,14 @@ A string that represents the content coding information in the **Content-Encodin
 ## -returns
 An [HttpContentCodingHeaderValue](httpcontentcodingheadervalue.md) instance.
 
-## -exceptions
+## -remarks
+Below are the exceptions that this function throws.
+
 ### E_INVALIDARG
 
 The *input* parameter is **null** (**Nothing** in Visual Basic).
 
 The *input* parameter is not valid content coding information.
-
-## -remarks
 
 ## -examples
 

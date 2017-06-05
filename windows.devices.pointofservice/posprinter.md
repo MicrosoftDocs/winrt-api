@@ -16,6 +16,8 @@ Represents a point-of-service printer.
 ## -remarks
 To get a [PosPrinter](posprinter.md) object, use the [FromIdAsync](posprinter_fromidasync.md) or [GetDefaultAsync](posprinter_getdefaultasync.md) static methods.
 
+See the [POS printer sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/PosPrinter) for an example implementation.
+
 ## -examples
 
 ## -see-also

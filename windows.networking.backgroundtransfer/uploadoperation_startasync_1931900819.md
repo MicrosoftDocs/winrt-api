@@ -15,32 +15,34 @@ Starts an asynchronous upload operation.
 ## -returns
 An asynchronous upload operation that includes progress updates.
 
-## -exceptions
-### COMException
+
+## -remarks
+
+### Exceptions
+#### COMException
 
 Thrown when a feature-specific **HRESULT** is returned from a method call.
 
 This is the most common exception that is thrown by networking methods. An app should use the **HRESULT** from the exception to determine the cause of the error. For more information on specific errors, see the **Error Codes** section below.
 
-### AccessDeniedException
+#### AccessDeniedException
 
 Thrown when access is denied to a resource or feature. This exception occurs when an app doesn't have the required network capabilities set in the app manifest for the network operation requested.
 
-### InvalidArgumentException
+#### InvalidArgumentException
 
 Thrown when one of the arguments that are provided to a method is not valid.
 
 If user-supplied input caused this exception, an app could inform the user and request new input.
 
-### ObjectDisposedException
+#### ObjectDisposedException
 
 Thrown when an operation is performed on a disposed object.
 
-### OutOfMemoryException
+#### OutOfMemoryException
 
 Thrown when insufficient memory is available to complete the operation.
 
-## -remarks
 An upload operation must be scheduled using one of the [BackgroundUploader.CreateUpload](backgrounduploader_createupload.md), [BackgroundUploader.CreateUploadAsync](backgrounduploader_createuploadasync.md) , or [BackgroundUploader.CreateUploadFromStreamAsync](backgrounduploader_createuploadfromstreamasync.md) methods before the [StartAsync](uploadoperation_startasync.md) method is called.
 
 > [!IMPORTANT]

@@ -19,13 +19,14 @@ The [Uri](../windows.foundation/uri.md) the request is sent to.
 ## -returns
 The object representing the asynchronous operation.
 
-## -exceptions
+## -remarks
+This operation will not block. The returned [IAsyncOperationWithProgress(IInputStream, HttpProgress)](../windows.foundation/iasyncoperationwithprogress_2.md) object will complete after the whole response body is read. This method does not buffer the stream, so this method can support long streams of arbitrary length.
+
+Below are the exceptions that this function throws.
+
 ### E_INVALIDARG
 
 The *uri* parameter was a **null** reference (**Nothing** in Visual Basic).
-
-## -remarks
-This operation will not block. The returned [IAsyncOperationWithProgress(IInputStream, HttpProgress)](../windows.foundation/iasyncoperationwithprogress_2.md) object will complete after the whole response body is read. This method does not buffer the stream, so this method can support long streams of arbitrary length.
 
 ## -examples
 

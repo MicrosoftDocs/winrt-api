@@ -22,7 +22,13 @@ A value that indicates whether the [HttpClient](httpclient.md) operation is cons
 ## -returns
 The object representing the asynchronous operation.
 
-## -exceptions
+## -remarks
+This operation will not block. The returned [IAsyncOperationWithProgress(HttpResponseMessage, HttpProgress)](../windows.foundation/iasyncoperationwithprogress_2.md) object will complete depending on the value of the *completionOption* parameter.
+
+The [HttpRequestMessage](httprequestmessage.md) passed in the *request* parameter allows the [SendRequestAsync](httpclient_sendrequestasync_234300504.md) method to set headers on the request message as well as on the HTTP content to be sent. In contrast, the [PostAsync](httpclient_postasync.md) and [PutAsync](httpclient_putasync.md) methods only allow setting a more limited set of HTTP content headers.
+
+Below are the exceptions that this function throws.
+
 ### E_INVALIDARG
 
 The *request* parameter was a **null** reference (**Nothing** in Visual Basic).
@@ -30,11 +36,6 @@ The *request* parameter was a **null** reference (**Nothing** in Visual Basic).
 ### E_ILLEGAL_METHOD_CALL
 
 The request message was already sent by the [HttpClient](httpclient.md) instance.
-
-## -remarks
-This operation will not block. The returned [IAsyncOperationWithProgress(HttpResponseMessage, HttpProgress)](../windows.foundation/iasyncoperationwithprogress_2.md) object will complete depending on the value of the *completionOption* parameter.
-
-The [HttpRequestMessage](httprequestmessage.md) passed in the *request* parameter allows the [SendRequestAsync](httpclient_sendrequestasync_234300504.md) method to set headers on the request message as well as on the HTTP content to be sent. In contrast, the [PostAsync](httpclient_postasync.md) and [PutAsync](httpclient_putasync.md) methods only allow setting a more limited set of HTTP content headers.
 
 ### Exception Handling
 

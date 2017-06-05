@@ -16,14 +16,14 @@ Parses and adds an entry to the [HttpLanguageHeaderValueCollection](httplanguage
 ### -param input
 The entry to add.
 
-## -exceptions
+## -remarks
+Below are the exceptions that this function throws.
+
 ### E_INVALIDARG
 
 The *input* parameter is **null** (**Nothing** in Visual Basic).
 
 The *input* parameter is not a valid value for the **Content-Language** HTTP header.
-
-## -remarks
 
 ## -examples
 

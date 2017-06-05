@@ -20,12 +20,10 @@ By calling [ActivateCustomDrying](inkpresenter_activatecustomdrying.md) (before 
 ## -returns
 The collection of "wet" ink strokes to pass to the [IInkD2DRenderer](http://msdn.microsoft.com/library/d1bd910d-ce64-4424-a0e1-4f55110b0265) object .
 
-## -exceptions
-### E_ILLEGAL_METHOD_CALL
-
-Thrown if [BeginDry](inksynchronizer_begindry.md) is called again, before [EndDry](inksynchronizer_enddry.md) is called.
-
 ## -remarks
+#### Error codes
+##### E_ILLEGAL_METHOD_CALL  (0x8000000E)
+Thrown if [BeginDry](inksynchronizer_begindry.md) is called again, before [EndDry](inksynchronizer_enddry.md) is called.
 
 ## -examples
 

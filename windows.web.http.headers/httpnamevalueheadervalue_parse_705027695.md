@@ -19,14 +19,14 @@ A string that represents the name and value.
 ## -returns
 An [HttpNameValueHeaderValue](httpnamevalueheadervalue.md) instance.
 
-## -exceptions
+## -remarks
+Below are the exceptions that this function throws.
+
 ### E_INVALIDARG
 
 The *input* parameter is **null** (**Nothing** in Visual Basic).
 
 The *input* parameter is not valid name and value information.
-
-## -remarks
 
 ## -examples
 

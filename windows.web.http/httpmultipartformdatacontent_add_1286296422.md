@@ -22,7 +22,9 @@ The name for the HTTP content to add to [HttpMultipartFormDataContent](httpmulti
 ### -param fileName
 The file name for the HTTP content to add to [HttpMultipartFormDataContent](httpmultipartformdatacontent.md).
 
-## -exceptions
+## -remarks
+Below are the exceptions that this function throws.
+
 ### E_INVALIDARG
 
 The *content* parameter is **null** (**Nothing** in Visual Basic).
@@ -30,8 +32,6 @@ The *content* parameter is **null** (**Nothing** in Visual Basic).
 The *name* parameter is **null** (**Nothing** in Visual Basic) or contains only white space characters.
 
 The *filename* parameter is **null** (**Nothing** in Visual Basic) or contains only white space characters.
-
-## -remarks
 
 ## -examples
 

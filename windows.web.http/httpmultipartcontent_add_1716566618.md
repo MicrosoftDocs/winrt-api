@@ -16,12 +16,12 @@ Add HTTP content to the [HttpMultipartContent](httpmultipartcontent.md) instance
 ### -param content
 The HTTP content to add to [HttpMultipartContent](httpmultipartcontent.md).
 
-## -exceptions
+## -remarks
+Below are the exceptions that this function throws.
+
 ### E_INVALIDARG
 
 The *content* parameter is **null** (**Nothing** in Visual Basic).
-
-## -remarks
 
 ## -examples
 

@@ -19,14 +19,13 @@ A string that represents the content range information in the **Content-Range** 
 ## -returns
 An [HttpContentRangeHeaderValue](httpcontentrangeheadervalue.md) instance.
 
-## -exceptions
+## -remarks
+Below are the exceptions that this function throws.
 ### E_INVALIDARG
 
 The *input* parameter is **null** (**Nothing** in Visual Basic).
 
 The *input* parameter is not valid content range information.
-
-## -remarks
 
 ## -examples
 
