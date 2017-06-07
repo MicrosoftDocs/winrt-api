@@ -25,6 +25,8 @@ You can begin the process of stopping a [MobileBroadbandAccountWatcher](mobilebr
 
 You can query the status of a watcher using the [Status](mobilebroadbandaccountwatcher_status.md) property to determine if the watcher was aborted due to an unexpected internal error condition.
 
+Note that you do not need to explicitly stop and start the account watcher on App Suspend/Resume events. Instead, starting and starting the watcher is handled by the API itself.
+
 ## -examples
 
 ## -see-also
