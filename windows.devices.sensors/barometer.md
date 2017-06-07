@@ -12,6 +12,8 @@ public class Barometer : Windows.Devices.Sensors.IBarometer
 ## -description
 Provides an interface for a barometric sensor to measure atmospheric pressure.
 
+For an example implementation, see the [barometer sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Barometer).
+
 ## -remarks
 
 ## -examples

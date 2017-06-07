@@ -14,6 +14,8 @@ Represents a gyrometer sensor.
 
 This sensor returns angular velocity values with respect to the x, y, and z axes.
 
+For an example implementation, see the [gyrometer sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Gyrometer).
+
 ## -remarks
 Sensor data is provided relative to the device's fixed sensor coordinate system, and is independent of display orientation. For applications that rely on sensor data for input control or to manipulate elements on the screen, the developer must take current display orientation into account and compensate the data appropriately. For more info about the sensor coordinate system, see [Sensor data and display orientation](http://msdn.microsoft.com/library/f90937f1-edaf-469c-b360-2ed67cb4fad0).
 
