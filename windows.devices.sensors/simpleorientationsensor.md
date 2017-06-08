@@ -12,6 +12,9 @@ public class SimpleOrientationSensor : Windows.Devices.Sensors.ISimpleOrientatio
 ## -description
 Represents a simple orientation sensor.
 
+For an example implementation, see the [simple orientation sensor sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SimpleOrientationSensor).
+
+
 This sensor detects the current quadrant orientation of the specified device as well as its face-up or face-down status.
 
 ## -remarks
