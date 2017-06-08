@@ -19,6 +19,7 @@ Reacts to layout moves when no context is set and a trigger of *move* is passed.
 
 
 ## -remarks
+The RepositionThemeTransition is not designed to be used with Panels that perform UI virtualization such as the default Panel on a ListView or GridView control.
 
 ## -examples
 The following example applies a [RepositionThemeTransition](repositionthemetransition.md) to a button. When you click the button, its margin changes, which changes its position. This position change is animated.
