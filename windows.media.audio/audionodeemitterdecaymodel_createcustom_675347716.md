@@ -23,6 +23,7 @@ The maximum gain level for the signal.
 The created decay model.
 
 ## -remarks
+The *minGain* parameter value must be greater than or equal to 1.58439*10<sup>-5</sup>, and the *maxGain* parameter must be less than or equal to 3.98. In decibels, these limits map to a range of -96 dB to 12 dB. Convert from a decibel value to amplitude scale using the equation *gain = 10<sup>(dB/20)</sup>* where *dB* is the decibel value you wish to convert. 
 
 ## -examples
 
