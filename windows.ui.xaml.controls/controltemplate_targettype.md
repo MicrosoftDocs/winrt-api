@@ -41,7 +41,7 @@ Setting [TargetType](controltemplate_targettype.md) in code is uncommon. The XAM
 Getting a [TargetType](controltemplate_targettype.md) in code is also uncommon, but you might do this to double-check that a [ControlTemplate](controltemplate.md) that you've loaded from XAML is compatible with a given control target that you got from the runtime tree.
 
 > [!TIP]
-> If you are programming using a Microsoft .NET language (C# or Microsoft Visual Basic), the [TypeName](../windows.ui.xaml.interop/typename.md) type projects as [System.Type](https://msdn.microsoft.com/library/system.type.aspx). When programming using C#C#, you usually use the **typeof** operator to get references to the [System.Type](https://msdn.microsoft.com/library/system.type.aspx) of a type based on a type name as a string. In Microsoft Visual Basic, use **GetType**.
+> If you are programming using a Microsoft .NET language (C# or Microsoft Visual Basic), the [TypeName](../windows.ui.xaml.interop/typename.md) type projects as [System.Type](https://msdn.microsoft.com/library/system.type.aspx). When programming using C#, you usually use the **typeof** operator to get references to the [System.Type](https://msdn.microsoft.com/library/system.type.aspx) of a type based on a type name as a string. In Microsoft Visual Basic, use **GetType**.
 
 ## -examples
 
