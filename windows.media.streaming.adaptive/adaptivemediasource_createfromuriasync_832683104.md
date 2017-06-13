@@ -14,7 +14,7 @@ Asynchronously creates a [AdaptiveMediaSource](adaptivemediasource.md) object fr
 
 ## -parameters
 ### -param uri
-T he Uniform Resource Identifier (URI) of the source.
+The Uniform Resource Identifier (URI) of the source.
 
 ### -param httpClient
 The [HttpClient](../windows.web.http/httpclient.md) instance that the [AdaptiveMediaSource](adaptivemediasource.md) should use for downloading resources. This allows you to specify custom HTTP headers for the requests.
