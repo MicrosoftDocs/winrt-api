@@ -13,11 +13,11 @@ public Windows.Foundation.IAsyncOperation<string> RequestProductPurchaseAsync(Sy
 > [!NOTE]
 > [RequestProductPurchaseAsync(String, Boolean)](currentapp_requestproductpurchaseasync_1631257175.md) may be altered or unavailable for releases after Windows 8.1. Instead, use [RequestProductPurchaseAsync(String)](currentapp_requestproductpurchaseasync_2091240017.md).
 
-Requests the purchase of an in-app product. Additionally, calling this method displays the UI that is used to complete the transaction via the Windows Store.
+Requests the purchase of an add-on (also called an in-app product or IAP). Additionally, calling this method displays the UI that is used to complete the transaction via the Windows Store.
 
 ## -parameters
 ### -param productId
-Specifies the id of the in-app product.
+The product ID of the add-on to purchase.
 
 ### -param includeReceipt
 Determines if the method should return the receipts for the specified *productId.*
@@ -26,6 +26,9 @@ Determines if the method should return the receipts for the specified *productId
 A string providing in-app transaction details for the provided *productId*. If *includeReceipt* is set **true**, the returned string will include a full receipt xml.
 
 ## -remarks
+The remarks for [RequestProductPurchaseAsync(String)](currentapp_requestproductpurchaseasync_2091240017.md) also apply to this overload.
+
+To confirm whether the product license is active after a successful call to this overload, use the [LicenseInformation.IsActive](licenseinformation_isactive.md) property.
 
 ## -examples
 

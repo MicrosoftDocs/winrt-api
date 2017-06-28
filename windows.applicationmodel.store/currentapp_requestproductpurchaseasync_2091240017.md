@@ -10,24 +10,19 @@ public Windows.Foundation.IAsyncOperation<Windows.ApplicationModel.Store.Purchas
 # Windows.ApplicationModel.Store.CurrentApp.RequestProductPurchaseAsync
 
 ## -description
-Requests the purchase of an in-app product. Additionally, calling this method displays the UI that is used to complete the transaction via the Windows Store.
+Requests the purchase of an add-on (also called an in-app product or IAP). Additionally, calling this method displays the UI that is used to complete the transaction via the Windows Store.
 
 ## -parameters
 ### -param productId
-Specifies the id of the in-app product.
+The product ID of the add-on to purchase.
 
 ## -returns
-The results of the in-app product purchase request.
+A [PurchaseResults](purchaseresults.md) that contains the results of the in-app product purchase request.
 
 ## -remarks
-Use the [LicenseInformation.IsActive](licenseinformation_isactive.md) property to confirm that a product license is active after a successful [RequestProductPurchaseAsync](currentappsimulator_requestproductpurchaseasync.md) call.
-
-> [!NOTE]
-> This method of confirming a successful purchase is only applicable to the [RequestProductPurchaseAsync](currentappsimulator_requestproductpurchaseasync.md) overloads that don't return a [PurchaseResults](purchaseresults.md) object.
+The product ID is the string that the app uses to identify the add-on. You enter the product ID when [submitting your add-on](https://docs.microsoft.com/windows/uwp/publish/set-your-add-on-product-id) in the Windows Dev Center dashboard, where it is associated with the description, price tier and lifetime. For more information, see [How to use product IDs for add-ons in your code](https://docs.microsoft.com/windows/uwp/monetize/in-app-purchases-and-trials#how-to-use-product-ids-for-add-ons-in-your-code).
 
 You can see an example of how to use this method in our [code sample](http://go.microsoft.com/fwlink/p/?linkid=231569).
-
-
 
 ## -examples
 

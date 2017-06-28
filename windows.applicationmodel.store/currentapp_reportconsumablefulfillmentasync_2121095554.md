@@ -10,20 +10,22 @@ public Windows.Foundation.IAsyncOperation<Windows.ApplicationModel.Store.Fulfill
 # Windows.ApplicationModel.Store.CurrentApp.ReportConsumableFulfillmentAsync
 
 ## -description
-Notifies the Windows Store that the purchase of a consumable is fulfilled and that the user has the right to access the content.
+Notifies the Windows Store that the purchase of a consumable add-on (also called an in-app product or IAP) is fulfilled and that the user has the right to access the content.
 
 ## -parameters
 ### -param productId
-Identifies the consumable.
+The product ID of the consumable add-on to report as fulfilled.
 
 ### -param transactionId
-Identifies a transaction that includes the purchase of the consumable (*productId*).
+The transaction ID for the purchase of the consumable add-on.
 
 ## -returns
-A value that indicates the status of fulfillment for a consumable in-app product. Possible values are defined by the [FulfillmentResult](fulfillmentresult.md) enumeration.
+A [FulfillmentResult](fulfillmentresult.md) value that indicates the fulfillment status for the consumable add-on.
 
 ## -remarks
-A unique ID is required for each instance of a consumable product that has been purchased more than once.
+The product ID is the string that the app uses to identify the add-on. You enter the product ID when [submitting your add-on](https://docs.microsoft.com/windows/uwp/publish/set-your-add-on-product-id) in the Windows Dev Center dashboard, where it is associated with the description, price tier and lifetime. For more information, see [How to use product IDs for add-ons in your code](https://docs.microsoft.com/windows/uwp/monetize/in-app-purchases-and-trials#how-to-use-product-ids-for-add-ons-in-your-code).
+
+A unique transaction ID is required for each instance of a consumable product that has been purchased more than once.
 
 ## -examples
 
