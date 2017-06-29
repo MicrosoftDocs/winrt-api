@@ -16,7 +16,7 @@ Gets license info for the current app, including licenses for add-ons for the cu
 An asynchronous operation that, on successful completion, returns a [StoreAppLicense](storeapplicense.md) object that contains license info for the current app, including add-on licenses.
 
 ## -remarks
-The [StoreAppLicense](storeapplicense.md) object returned by this method provides access to licenses for add-ons and other info, such as whether the license is active. If this method is called while the device is offline, it returns the cached value of the current licenses on the device.The [OfflineLicensesChanged](storecontext_offlinelicenseschanged.md) event is raised when the status of the app's license changes.
+The [StoreAppLicense](storeapplicense.md) object returned by this method provides access to licenses for add-ons and other info, such as whether the license is active. If this method is called while the device is offline, it returns the cached value of the current licenses on the device. The [OfflineLicensesChanged](storecontext_offlinelicenseschanged.md) event is raised when the status of the app's license changes.
 
 For more information about using this method, including code examples, see [Get license info for apps and add-ons](https://msdn.microsoft.com/windows/uwp/monetize/get-license-info-for-apps-and-add-ons) and [Implement a trial version of your app](https://msdn.microsoft.com/windows/uwp/monetize/implement-a-trial-version-of-your-app).
 

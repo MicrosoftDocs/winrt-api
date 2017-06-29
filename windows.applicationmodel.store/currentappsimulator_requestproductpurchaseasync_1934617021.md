@@ -10,13 +10,11 @@ public Windows.Foundation.IAsyncOperation<Windows.ApplicationModel.Store.Purchas
 # Windows.ApplicationModel.Store.CurrentAppSimulator.RequestProductPurchaseAsync
 
 ## -description
-Creates the async operation that displays the UI that is used to simulate the purchase of an in-app product from the Windows Store.
-
-The resulting [RequestProductPurchaseAsync](currentappsimulator_requestproductpurchaseasync.md) object includes the parameters required to display details for a specific offer within a large catalog of in-app products that is represented by a single entry in the Windows Store.
+Creates the async operation that displays the UI that is used to simulate the purchase of an add-on (also called an in-app product or IAP) from the Windows Store. This overload includes parameters you can use to display details for a specific offer within a large catalog of in-app purchases that is represented by a single product entry in the Store.
 
 ## -parameters
 ### -param productId
-The product ID used for listing in the Windows Store.
+The product ID (as defined by the simulation) of the add-on to purchase.
 
 ### -param offerId
 The specific in-app product within the large purchase catalog represented on the Windows Store by the *productId.* This value correlates with the content your app is responsible for fulfilling. The Windows Store only uses this parameter value to itemize the [PurchaseResults](purchaseresults.md).
@@ -25,9 +23,10 @@ The specific in-app product within the large purchase catalog represented on the
 The name of the in-app product that is displayed to the user at time of purchase.
 
 ## -returns
-The results of the in-app product purchase.
+A [PurchaseResults](purchaseresults.md) that contains the results of the simulated in-app product purchase request.
 
 ## -remarks
+The remarks for [RequestProductPurchaseAsync(String)](currentappsimulator_requestproductpurchaseasync_2091240017.md) also apply to this overload.
 
 ## -examples
 
