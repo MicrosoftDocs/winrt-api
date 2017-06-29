@@ -17,10 +17,10 @@ Creates and initializes a new instance of the [PasswordCredential](passwordcrede
 The resource for which the credentials are used.
 
 ### -param userName
-The user name that must be present in the credentials.
+The user name that must be present in the credentials. This value must not be null or empty, otherwise an exception will be thrown.
 
 ### -param password
-The password for the created credentials.
+The password for the created credentials. This value must not be null or empty, otherwise an exception will be thrown.
 
 ## -remarks
 
