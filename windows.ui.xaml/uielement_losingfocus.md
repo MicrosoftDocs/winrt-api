@@ -12,6 +12,12 @@ public event TypedEventHandler LosingFocus<UIElement, LosingFocusEventArgs>
 ## -description
 Occurs before a [UIElement](uielement.md) loses focus.
 
+## -xaml-syntax
+
+```xaml
+<uiElement LosingFocus="eventhandler"/>
+```
+
 ## -remarks
 
 ## -see-also

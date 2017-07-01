@@ -13,6 +13,12 @@ public event TypedEventHandler ColorChanged<ColorPicker, ColorChangedEventArgs>
 
 Occurs when the Color property has changed.
 
+## -xaml-syntax
+
+```xaml
+<ColorPicker ColorChanged="eventhandler" .../>
+```
+
 ## -remarks
 
 ## -see-also

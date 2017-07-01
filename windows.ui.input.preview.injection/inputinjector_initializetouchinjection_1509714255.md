@@ -10,7 +10,7 @@ public void InitializeTouchInjection(Windows.UI.Input.Preview.Injection.Injected
 # Windows.UI.Input.Preview.Injection.InputInjector.InitializeTouchInjection
 
 ## -description
-Initializes the virtual touch device for sending the input data.
+Initializes a virtual touch device that can synthesize input events and provide corresponding input data to your app. 
 
 ## -parameters
 ### -param visualMode
@@ -21,3 +21,4 @@ The visual feedback mode for touch input injection.
 ## -examples
 
 ## -see-also
+- [UninitializeTouchInjection](inputinjector_uninitializetouchinjection_1885359186.md)

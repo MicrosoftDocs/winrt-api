@@ -11,8 +11,8 @@ public void MapControl.GetLocationFromOffset(Point offset, AltitudeReferenceSyst
 
 ## -description
 Converts a point on the map to a geographic location by using the specified altitude reference system.
-
-__Note__: Map controls do not support the Geoid altitude reference system.
+> [!NOTE]
+This method is deprecated. Use the [TryGetLocationFromOffset](mapcontrol_trygetlocationfromoffset_418557555.md) method instead.
 
 ## -params
 
@@ -20,7 +20,7 @@ __Note__: Map controls do not support the Geoid altitude reference system.
 A point on the map to convert to a geographic location.
 
 ## -param desiredReferenceSystem
-The altitude reference system of the geographic point. Map controls do not support the Geoid altitude reference system. A value of **Unspecified** for the altitude reference system has the same effect as using the default [GetLocationFromOffset(Windows.Foundation.Point offset, Windows.Devices.Geolocation.Geopoint location)](mapcontrol_getlocationfromoffset_1345615754.md) overload.
+The altitude reference system of the geographic point. A value of **Unspecified** for the altitude reference system has the same effect as using the default [GetLocationFromOffset(Windows.Foundation.Point offset, Windows.Devices.Geolocation.Geopoint location)](mapcontrol_getlocationfromoffset_1345615754.md) overload.
 
 ## -param location
 When this method returns, contains the corresponding geographic location.
@@ -30,7 +30,7 @@ This method provides an instance of a [Geopoint](../windows.devices.geolocation/
 
 This method will throw an exception if the point is invalid.
 > [!NOTE]
-> An [AltitudeReferenceSystem](../windows.devices.geolocation/altitudereferencesystem.md) of **Geoid** and **Ellipsoid** might not be supported.
+> An [AltitudeReferenceSystem](../windows.devices.geolocation/altitudereferencesystem.md) of **Ellipsoid** might not be supported.
 
 ## -see-also
 [Display maps with 2D, 3D, and Streetside views](http://msdn.microsoft.com/library/3839e00b-2c1e-4627-a45f-6dda98d7077f).

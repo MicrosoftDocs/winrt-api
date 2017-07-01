@@ -64,6 +64,9 @@ A TCP socket that must use SSL for encryption. This value supports the TLS 1.2, 
 This value is supported on Windows 8.1, Windows Server 2012 R2, and later.
 
 
+### -field Unspecified:9
+The protection level is unspecified.
+
 ## -remarks
 The [SocketProtectionLevel](socketprotectionlevel.md) enumeration allow clients to control protocol negotiation for security options with servers when using the [StreamSocket](streamsocket.md) object.
 

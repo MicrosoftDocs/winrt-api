@@ -10,8 +10,10 @@ public string JobTitle { get; }
 # Windows.Graphics.Printing.Workflow.PrintWorkflowConfiguration.JobTitle
 
 ## -description
+Gets the job title for this print job.
 
 ## -property-value
+The job title string.
 
 ## -remarks
 

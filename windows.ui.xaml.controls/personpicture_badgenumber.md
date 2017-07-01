@@ -13,6 +13,12 @@ public int BadgeNumber { get;  set; }
 
 Gets or sets the contact number to display on the badge.
 
+## -xaml-syntax
+
+```xaml
+<PersonPicture BadgeNumber="int"/>
+```
+
 ## -property-value
 
 The contact number to display on the badge.

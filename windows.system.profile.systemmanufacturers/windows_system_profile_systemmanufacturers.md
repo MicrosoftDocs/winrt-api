@@ -6,7 +6,7 @@
 # Windows.System.Profile.SystemManufacturers
 
 ## -description
-Provides info for hardware developers and OEM.
+Provides info for hardware developers and OEMs.
 
 ## -remarks
 

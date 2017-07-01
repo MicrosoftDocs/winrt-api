@@ -10,8 +10,10 @@ public PrintWorkflowSpoolStreamContent PrintWorkflowSourceContent.GetSourceSpool
 # Windows.Graphics.Printing.Workflow.PrintWorkflowSourceContent.GetSourceSpoolDataAsStreamContent
 
 ## -description
+Gets the print data as an XPS data stream.
 
 ## -returns
+An data stream of XPS data.
 
 ## -remarks
 

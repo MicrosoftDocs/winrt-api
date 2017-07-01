@@ -10,8 +10,10 @@ public IXmlNode XmlNode { get; }
 # Windows.Graphics.Printing.PrintTicket.PrintTicketParameterDefinition.XmlNode
 
 ## -description
+Get the XML node of the print parameter.
 
 ## -property-value
+The XML node.
 
 ## -remarks
 

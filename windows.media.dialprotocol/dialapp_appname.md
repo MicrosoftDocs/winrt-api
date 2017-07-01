@@ -11,7 +11,7 @@ public string AppName { get; }
 # Windows.Media.DialProtocol.DialApp.AppName
 
 ## -description
-Gets the applications registered DIAL name.
+Gets the application's registered DIAL name.
 
 ## -property-value
 The DIAL name.

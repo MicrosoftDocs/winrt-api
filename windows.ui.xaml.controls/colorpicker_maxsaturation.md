@@ -13,6 +13,12 @@ public int MaxSaturation { get;  set; }
 
 Gets or sets the maximum Saturation value in the range 0-100.
 
+## -xaml-syntax
+
+```xaml
+<ColorPicker MaxSaturation="int" .../>
+```
+
 ## -property-value
 
 The maximum Saturation value in the range 0-100. The default is 100.

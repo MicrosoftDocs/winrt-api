@@ -10,6 +10,7 @@ public class PrintWorkflowSourceContent
 # Windows.Graphics.Printing.Workflow.PrintWorkflowSourceContent
 
 ## -description
+Represents raw print data from the source application.
 
 ## -remarks
 

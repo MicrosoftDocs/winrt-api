@@ -8,8 +8,9 @@ public bool IsSpatial { get; }
 -->
 
 # Windows.Media.MediaProperties.AudioEncodingProperties.IsSpatial
-Gets a value indicating whether the audio is encoded with spatial audio information.
+
 ## -description
+Gets a value indicating whether the audio is encoded with spatial audio information.
 
 ## -property-value
 True if the audio is encoded with spatial audio information; otherwise, false.

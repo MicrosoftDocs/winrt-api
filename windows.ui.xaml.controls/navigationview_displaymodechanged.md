@@ -13,6 +13,12 @@ public event TypedEventHandler DisplayModeChanged<NavigationView, DisplayModeCha
 
 Occurs when the DisplayMode property changes.
 
+## -xaml-syntax
+
+```xaml
+<NavigationView DisplayModeChanged="eventhandler" />
+```
+
 ## -remarks
 
 ## -see-also

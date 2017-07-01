@@ -10,6 +10,7 @@ public class PrintWorkflowBackgroundSetupRequestedEventArgs
 # Windows.Graphics.Printing.Workflow.PrintWorkflowBackgroundSetupRequestedEventArgs
 
 ## -description
+Contains information about a [PrintWorkflowBackgroundSession.SetupRequested](PrintWorkflowbackgroundsession_setuprequested.md) event that was raised.
 
 ## -remarks
 

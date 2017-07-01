@@ -11,7 +11,7 @@ public enum Windows.Devices.PointOfService.MagneticStripeReaderStatus : int
 # MagneticStripeReaderStatus
 
 ## -description
-Defines the constants that indicates the device authentication status.
+Defines the constants that indicate the device authentication status.
 
 ## -enum-fields
 ### -field Unauthenticated:0

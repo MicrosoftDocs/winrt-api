@@ -10,13 +10,17 @@ public IXmlNode PrintTicketOption.GetScoredPropertyNode(String name, String xmlN
 # Windows.Graphics.Printing.PrintTicket.PrintTicketOption.GetScoredPropertyNode
 
 ## -description
+Gets the XML node of a scored property element of the current print option.
 
 ## -parameters
 ### -param name
+The canonical name of the scored property.
 
 ### -param xmlNamespace
+The XML namespace of the scored property.
 
 ## -returns
+The XML node for the property element.
 
 ## -remarks
 

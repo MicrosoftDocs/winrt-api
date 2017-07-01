@@ -13,6 +13,12 @@ public bool IsSettingsVisible { get;  set; }
 
 Gets or sets a value that indicates whether the settings button is shown.
 
+## -xaml-syntax
+
+```xaml
+<NavigationView IsSettingsVisible="bool" .../>
+```
+
 ## -property-value
 
 **true** if the settings button is shown; otherwise, **false**. The default is **true**.

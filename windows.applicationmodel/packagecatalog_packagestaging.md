@@ -10,10 +10,10 @@ public event Windows.Foundation.TypedEventHandler PackageStaging<Windows.Applica
 # Windows.ApplicationModel.PackageCatalog.PackageStaging
 
 ## -description
-Indicates that an optional appx package is staging.
+Indicates that an optional app package is staging.
 
 ## -remarks
-An appx package is staged when it is added to the device but is not yet registered.
+An app package is staged when it is added to the device but is not yet registered.
 
 Apps only receive package events for their optional packages.
 

@@ -10,6 +10,7 @@ public void AppDiagnosticInfoWatcher.Start()
 # Windows.System.AppDiagnosticInfoWatcher.Start
 
 ## -description
+Start firing events when the execution state changes, or apps change, within the list of running apps.
 
 ## -remarks
 
@@ -17,3 +18,5 @@ public void AppDiagnosticInfoWatcher.Start()
 
 ## -examples
 
+## -capabilities
+appDiagnostics

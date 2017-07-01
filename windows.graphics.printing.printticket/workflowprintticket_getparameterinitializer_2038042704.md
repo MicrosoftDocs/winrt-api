@@ -10,13 +10,17 @@ public PrintTicketParameterInitializer WorkflowPrintTicket.GetParameterInitializ
 # Windows.Graphics.Printing.PrintTicket.WorkflowPrintTicket.GetParameterInitializer
 
 ## -description
+Gets the parameter initializer object for a specified printing parameter.
 
 ## -parameters
 ### -param name
+The canonical name of the printing parameter 
 
 ### -param xmlNamespace
+The XML namespace of the printing parameter.
 
 ## -returns
+The parameter initializer object.
 
 ## -remarks
 

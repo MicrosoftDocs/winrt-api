@@ -22,7 +22,7 @@ A session that has been joined is represented by a [RemoteSystemSession](RemoteS
 ## -examples
 See the code example below for the process of joining a remote session (including obtaining a reference to a [RemoteSystemSession](RemoteSystemSession.md) instance).
 
-```java
+```csharp
 public async void JoinExistingSession() {
     
     // request to join. sessionInfo has already been selected by user.
@@ -52,7 +52,7 @@ public async void JoinExistingSession() {
 
 Alternatively, see the following code for an example of how to create a remote session and handle join requests.
 
-```java
+```csharp
 public async void StartNewSharedExperience() {
     
     var manager = new RemoteSystemSessionController("Bob’s Minecraft game");

@@ -13,6 +13,12 @@ public double HorizontalShift { get;  set; }
 
 Represents the horizontal range of motion of the child element.
 
+## -xaml-syntax
+
+```xaml
+<ParallaxView HorizontalShift="double" .../>
+```
+
 ## -property-value
 
 The horizontal range of motion. The default is 0.

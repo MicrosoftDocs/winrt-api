@@ -10,7 +10,7 @@ public IAsyncOperation<bool> LineDisplayWindow.TryClearTextAsync()
 # Windows.Devices.PointOfService.LineDisplayWindow.TryClearTextAsync
 
 ## -description
-Clears the current window. Changers all characters to blanks, clears any bitmaps displayed in the window, exits **Marquee Mode** if it is being used, clears and sets **InterCharacterWait** to 0, and **Cursor.Position** to {0,0}.
+Clears the current window. Changers all characters to blanks, clears any bitmaps displayed in the window, and sets **Cursor.Position** to {0,0}.
 
 ## -parameters
 

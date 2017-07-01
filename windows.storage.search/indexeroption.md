@@ -22,6 +22,8 @@ Use only indexed content and ignore content that has not been indexed.
 ### -field DoNotUseIndexer:2
 Access the file system directly; don't use the system index.
 
+### -field OnlyUseIndexerAndOptimizeForIndexedProperties:3
+Only returns the properties specified in [QueryOptions.SetPropertyPrefetch](queryoptions_setpropertyprefetch_770511515.md) for faster results.
 
 ## -remarks
 

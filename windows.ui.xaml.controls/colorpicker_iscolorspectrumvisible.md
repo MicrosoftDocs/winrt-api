@@ -13,6 +13,12 @@ public bool IsColorSpectrumVisible { get;  set; }
 
 Gets or sets a value that indicates whether the color spectrum control is shown.
 
+## -xaml-syntax
+
+```xaml
+<ColorPicker IsColorSpectrumVisible="bool" .../>
+```
+
 ## -property-value
 
 **true** if the color spectrum is shown; otherwise, **false**. The default is **true**.

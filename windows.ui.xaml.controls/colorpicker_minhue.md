@@ -13,6 +13,12 @@ public int MinHue { get;  set; }
 
 Gets or sets the minimum Hue value in the range 0-359.
 
+## -xaml-syntax
+
+```xaml
+<ColorPicker MinHue="int" .../>
+```
+
 ## -property-value
 
 The minimum Hue value in the range 0-359. The default is 0.

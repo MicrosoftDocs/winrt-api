@@ -10,8 +10,10 @@ public PrintTicketParameterDataType DataType { get; }
 # Windows.Graphics.Printing.PrintTicket.PrintTicketParameterDefinition.DataType
 
 ## -description
+Gets the data type of this print parameter.
 
 ## -property-value
+The parameter data type.
 
 ## -remarks
 

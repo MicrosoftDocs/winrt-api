@@ -10,8 +10,10 @@ public PrintTicketFeature DocumentHolePunchFeature { get; }
 # Windows.Graphics.Printing.PrintTicket.PrintTicketCapabilities.DocumentHolePunchFeature
 
 ## -description
+Gets the available document hole-punch feature for this print ticket.
 
 ## -property-value
+The document hole-punch feature object.
 
 ## -remarks
 

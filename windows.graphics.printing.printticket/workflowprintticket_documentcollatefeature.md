@@ -10,8 +10,10 @@ public PrintTicketFeature DocumentCollateFeature { get; }
 # Windows.Graphics.Printing.PrintTicket.WorkflowPrintTicket.DocumentCollateFeature
 
 ## -description
+Gets the document collation configuration for this print ticket.
 
 ## -property-value
+The document collation feature object.
 
 ## -remarks
 

@@ -13,7 +13,7 @@ public class PackageStagingEventArgs : Windows.ApplicationModel.IPackageStagingE
 Provides information about the optional package that is being staged.
 
 ## -remarks
-An appx package is staged when it is added to the device but is not yet registered.
+An app package is staged when it is added to the device but is not yet registered.
 
 Apps only receive package events for their optional packages.
 

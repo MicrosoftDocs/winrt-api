@@ -10,13 +10,17 @@ public PrintTicketFeature PrintTicketCapabilities.GetFeature(String name, String
 # Windows.Graphics.Printing.PrintTicket.PrintTicketCapabilities.GetFeature
 
 ## -description
+Gets the specified print feature object.
 
 ## -parameters
 ### -param name
+The canonical name of the print feature.
 
 ### -param xmlNamespace
+The XML namespace of the print feature.
 
 ## -returns
+The specified print feature object.
 
 ## -remarks
 

@@ -10,7 +10,7 @@ public event Windows.Foundation.TypedEventHandler PackageUninstalling<Windows.Ap
 # Windows.ApplicationModel.PackageCatalog.PackageUninstalling
 
 ## -description
-Indicates that an optional appx package is uninstalling.
+Indicates that an optional app package is uninstalling.
 
 ## -remarks
 Apps only receive package events for their optional packages.

@@ -20,7 +20,7 @@ This class is instantiated whenever the [RemoteSystemSession.Disconnected](Remot
 ## -examples
 See the code example below for the process of joining a remote session (including using a [RemoteSystemSessionDisconnectedEventArgs](RemoteSystemSessionDisconnectedEventArgs.md) instance).
 
-```java
+```csharp
 
 public async void JoinExistingSession() {
     

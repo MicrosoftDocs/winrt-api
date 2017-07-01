@@ -10,10 +10,10 @@ public bool IsComplete { get; }
 # Windows.ApplicationModel.PackageUpdatingEventArgs.IsComplete
 
 ## -description
-Indicates whether the appx package is done updating.
+Indicates whether the app package is done updating.
 
 ## -property-value
-**True** if the appx package is done updating; **false** otherwise.
+**True** if the app package is done updating; **false** otherwise.
 
 ## -remarks
 

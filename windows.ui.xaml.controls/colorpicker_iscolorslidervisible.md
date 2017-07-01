@@ -13,6 +13,12 @@ public bool IsColorSliderVisible { get;  set; }
 
 Gets or sets a value that indicates whether the slider control for the color value is shown.
 
+## -xaml-syntax
+
+```xaml
+<ColorPicker IsColorSliderVisible="bool" .../>
+```
+
 ## -property-value
 
 **true** if the color slider is shown; otherwise, **false**. The default is **true**.

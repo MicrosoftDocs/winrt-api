@@ -20,7 +20,7 @@ This class is instantiated when the [RemoteSystemSession.CreateWatcher](RemoteSy
 ## -examples
 See the code example below for the process of discovering a remote session. 
 
-```java
+```csharp
 
 // Discover an existing shared experience.
 public void DiscoverExistingSessions() {

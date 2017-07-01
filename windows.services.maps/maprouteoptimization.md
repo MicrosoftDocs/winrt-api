@@ -26,6 +26,9 @@ Optimize the route by minimizing the time with traffic.
 > Traffic-based routing is not automatically updated. To capture changes in traffic conditions, repeat the query.
 
 
+### -field Scenic:3
+Optimize the route to include the most scenic roads.
+
 ## -remarks
 Your [Universal Windows app](https://msdn.microsoft.com/windows/uwp/get-started/universal-application-platform-guide) must be authenticated before it can use the [MapControl](../windows.ui.xaml.controls.maps/mapcontrol.md) and map services in the [Windows.Services.Maps](windows_services_maps.md) namespace. To authenticate your app, you must specify a maps authentication key.
 

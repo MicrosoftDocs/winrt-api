@@ -10,6 +10,7 @@ public class PrintTicketParameterDefinition
 # Windows.Graphics.Printing.PrintTicket.PrintTicketParameterDefinition
 
 ## -description
+Represents the definition and value characteristics of a print parameter.
 
 ## -remarks
 

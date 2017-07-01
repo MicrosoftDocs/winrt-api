@@ -10,8 +10,10 @@ public PrintWorkflowSessionStatus Status { get; }
 # Windows.Graphics.Printing.Workflow.PrintWorkflowBackgroundSession.Status
 
 ## -description
+The status of the current print workflow session.
 
 ## -property-value
+The session status.
 
 ## -remarks
 

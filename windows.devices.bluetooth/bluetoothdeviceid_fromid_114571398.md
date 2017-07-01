@@ -10,9 +10,11 @@ public BluetoothDeviceId BluetoothDeviceId.FromId(String deviceId)
 # Windows.Devices.Bluetooth.BluetoothDeviceId.FromId
 
 ## -description
+Creates a BluetoothDeviceId object from the device ID.
 
 ## -parameters
 ### -param deviceId
+The device ID.
 
 ## -returns
 

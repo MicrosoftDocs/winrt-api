@@ -17,7 +17,7 @@ Tries to set a specific memory cap for the current app or task. In cases where m
 The new memory limit to set.
 
 ## -returns
-True if the operation succeeded; otherwise, false.
+**True** if the operation succeeded; otherwise, **false**.
 
 ## -remarks
 

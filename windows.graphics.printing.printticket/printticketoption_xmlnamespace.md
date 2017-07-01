@@ -10,8 +10,10 @@ public string XmlNamespace { get; }
 # Windows.Graphics.Printing.PrintTicket.PrintTicketOption.XmlNamespace
 
 ## -description
+Gets the XML namespace of this print option.
 
 ## -property-value
+The XML namespace.
 
 ## -remarks
 

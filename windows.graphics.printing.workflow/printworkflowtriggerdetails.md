@@ -10,6 +10,7 @@ public class PrintWorkflowTriggerDetails
 # Windows.Graphics.Printing.Workflow.PrintWorkflowTriggerDetails
 
 ## -description
+Represents contextual information about the triggering of a print workflow background task.
 
 ## -remarks
 

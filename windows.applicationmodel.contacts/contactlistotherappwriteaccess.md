@@ -19,6 +19,8 @@ No write access is granted.
 ### -field SystemOnly:1
 Other apps can only write system contacts.
 
+### -field Limited:2
+Other apps can only write contacts for this app.
 
 ## -remarks
 

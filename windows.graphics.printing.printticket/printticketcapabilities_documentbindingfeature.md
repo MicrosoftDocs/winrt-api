@@ -10,8 +10,10 @@ public PrintTicketFeature DocumentBindingFeature { get; }
 # Windows.Graphics.Printing.PrintTicket.PrintTicketCapabilities.DocumentBindingFeature
 
 ## -description
+Gets the available document binding feature for this print ticket.
 
 ## -property-value
+The document binding feature object.
 
 ## -remarks
 

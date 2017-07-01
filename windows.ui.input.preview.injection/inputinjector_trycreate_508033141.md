@@ -10,7 +10,7 @@ public InputInjector InputInjector.TryCreate()
 # Windows.UI.Input.Preview.Injection.InputInjector.TryCreate
 
 ## -description
-Creates a new instance of the [InputInjector](inputinjector.md) class.
+Attempts to create a new instance of the [InputInjector](inputinjector.md) class.
 
 ## -parameters
 

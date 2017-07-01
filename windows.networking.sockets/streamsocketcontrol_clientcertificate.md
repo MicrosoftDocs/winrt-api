@@ -20,3 +20,4 @@ The client certificate.
 ## -examples
 
 ## -see-also
+[StreamSocket](streamsocket.md)

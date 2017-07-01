@@ -10,6 +10,7 @@ public event TypedEventHandler Added<AppDiagnosticInfoWatcher, AppDiagnosticInfo
 # Windows.System.AppDiagnosticInfoWatcher.Added
 
 ## -description
+Event that fires when an app is added to the list of running apps.
 
 ## -remarks
 
@@ -17,3 +18,5 @@ public event TypedEventHandler Added<AppDiagnosticInfoWatcher, AppDiagnosticInfo
 
 ## -examples
 
+## -capabilities
+appDiagnostics

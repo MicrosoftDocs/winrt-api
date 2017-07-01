@@ -10,10 +10,10 @@ public void DispatcherQueueTimer.Stop()
 # Windows.System.DispatcherQueueTimer.Stop
 
 ## -description
+Stops the timer.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

@@ -10,8 +10,10 @@ public string DisplayName { get; }
 # Windows.Graphics.Printing.PrintTicket.PrintTicketOption.DisplayName
 
 ## -description
+Gets the UI-friendly display name of this option.
 
 ## -property-value
+The display name.
 
 ## -remarks
 

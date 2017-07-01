@@ -13,6 +13,12 @@ public double VerticalSourceStartOffset { get;  set; }
 
 Represents the vertical scroll offset at which parallax motion starts.
 
+## -xaml-syntax
+
+```xaml
+<ParallaxView VerticalSourceStartOffset="double" .../>
+```
+
 ## -property-value
 
 The vertical scroll offset at which parallax motion starts. The default is 0.

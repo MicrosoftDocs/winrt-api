@@ -12,29 +12,62 @@ public enum XYFocusNavigationStrategyOverride : int
 ## -description
 Specifies how the XAML framework determines the target of an XY navigation.
 
-Overrides [XYFocusNavigationStrategyMode](xyfocusnavigationstrategymode.md).
+Overrides [XYFocusKeyboardNavigationStrategyMode](xyfocuskeyboardnavigationmode.md).
 
 ## -enum-fields
 ### -field None:0
 No navigation override is applied. 
 
 ### -field Auto:1
-The strategy is inherited from the elements ancestors. If all ancestors have a value of **Auto**, the fallback strategy is **Projection**. 
+Indicates that navigation strategy is inherited from the element's ancestors. If all ancestors have a value of **Auto**, the fallback strategy is **Projection**. 
 
 ### -field Projection:2
-Focus moves to the element that has the highest score determined by factors such as the direction of navigation and nearness to the primary axis.
+Indicates that focus moves to the first element encountered when projecting the edge of the currently focused element in the  direction of navigation.
+
+> [!NOTE]
+> Other factors, such as the previously focused element and proximity to the axis of the navigation direction, can influence the result.
+
+![projection](images/projection.png)
+
+*Focus moves from A to D on down navigation based on projection of the bottom edge of A*
 
 ### -field NavigationDirectionDistance:3
-Focus moves to the nearest element on the primary axis.
+Indicates that focus moves to the element closest to the axis of the navigation direction.
+
+The edge of the bounding rect corresponding to the navigation direction is extended and projected to identify candidate targets. The first element encountered is identified as the target. In the case of multiple candidates, the closest element is identified as the target. If there are still multiple candidates, the topmost/leftmost element is identified as the candidate.
+
+![navigation direction distance](images/navigation-direction-distance.png)
+
+*Focus moves from A to C and then from C to B on down navigation*
 
 ### -field RectilinearDistance:4
-Focus moves to the nearest element determined by the shortest 2D distance.
+Indicates that focus moves to the closest element based on the shortest 2D distance (Manhattan metric). 
+
+This distance is calculated by adding the primary distance and the secondary distance of each potential candidate. In the case of a tie:
+- The first element to the left is selected if the navigation direction is up or down
+- The first element to the top is selected if the navigation direction is left or right
+
+Here we show how focus moves from A to B based on rectilinear distance.
+
+-   Distance (A, B, Down) = 10 + 0 = 10
+-   Distance (A, C, Down) = 0 + 30 = 30
+-   Distance (A, D, Down) 30 + 0 = 30
+
+![Rectilinear Distance](images/rectilinear-distance.png)
+
+*Focus moves from A to B based on rectilinear distance*
 
 ## -remarks
 XY navigation is used to navigate a user interface (UI) with a gamepad, remote control, or keyboard directional arrows. For more info, see [Gamepad and remote control interactions](https://msdn.microsoft.com/windows/uwp/input-and-devices/gamepad-and-remote-interactions)
 
 ## -see-also
-[Desiging for Xbox - XY focus navigation and interaction](https://msdn.microsoft.com/windows/uwp/input-and-devices/designing-for-tv#xy-focus-navigation-and-interaction)
+
+### Reference
+- [XYFocusNavigationStrategy](xyfocusnavigationstrategy.md)
+
+### Conceptual
+- [Managing focus navigation](https://docs.microsoft.com/windows/uwp/input-and-devices/managing-focus-navigation)
+- [Desiging for Xbox - XY focus navigation and interaction](https://msdn.microsoft.com/windows/uwp/input-and-devices/designing-for-tv#xy-focus-navigation-and-interaction)
 
 ## -examples
 

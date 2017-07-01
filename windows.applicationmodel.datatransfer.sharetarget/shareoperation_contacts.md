@@ -10,8 +10,10 @@ public IVectorView<Contact> Contacts { get; }
 # Windows.ApplicationModel.DataTransfer.ShareTarget.ShareOperation.Contacts
 
 ## -description
+Gets the contacts for the share operation.
 
 ## -property-value
+The contacts for the share operation.
 
 ## -remarks
 

@@ -10,8 +10,10 @@ public PrintTicketFeature PageMediaTypeFeature { get; }
 # Windows.Graphics.Printing.PrintTicket.WorkflowPrintTicket.PageMediaTypeFeature
 
 ## -description
+Gets the page media type configuration for this print ticket.
 
 ## -property-value
+The page media type feature object.
 
 ## -remarks
 

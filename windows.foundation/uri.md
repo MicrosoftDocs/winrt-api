@@ -1,4 +1,4 @@
-****---
+---
 -api-id: T:Windows.Foundation.Uri
 -api-type: winrt class
 ---

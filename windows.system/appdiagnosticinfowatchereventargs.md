@@ -10,6 +10,7 @@ public class AppDiagnosticInfoWatcherEventArgs
 # Windows.System.AppDiagnosticInfoWatcherEventArgs
 
 ## -description
+The data object passed to an **[AppDiagnosticInfoWatcher](appdiagnosticinfowatcher.md)** event.
 
 ## -remarks
 
@@ -17,3 +18,5 @@ public class AppDiagnosticInfoWatcherEventArgs
 
 ## -examples
 
+## -capabilities
+appDiagnostics

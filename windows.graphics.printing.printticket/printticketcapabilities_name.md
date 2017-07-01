@@ -10,8 +10,10 @@ public string Name { get; }
 # Windows.Graphics.Printing.PrintTicket.PrintTicketCapabilities.Name
 
 ## -description
+Gets the canonical name of this object.
 
 ## -property-value
+The canonical name.
 
 ## -remarks
 

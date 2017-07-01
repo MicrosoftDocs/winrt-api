@@ -19,7 +19,7 @@ Contains the functionality for receiving and handling invitations to join remote
 ## -examples
 See the following code for an example of how to receive and handle remote session invitations.
 
-```java
+```csharp
 public void SubscribeAndHandleInvites() {
     var invitationListener = new RemoteSystemSessionInvitationListener();
     

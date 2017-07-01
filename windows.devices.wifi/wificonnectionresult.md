@@ -19,3 +19,4 @@ An instance of this class is created and returned by the [WiFiAdapter.ConnectAsy
 ## -examples
 
 ## -see-also
+[WiFiAdapter.ConnectAsync](wifiadapter_connectasync.md) 

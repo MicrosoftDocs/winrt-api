@@ -12,6 +12,12 @@ public event TypedEventHandler GettingFocus<UIElement, GettingFocusEventArgs>
 ## -description
 Occurs before a [UIElement](uielement.md) receives focus.
 
+## -xaml-syntax
+
+```xaml
+<uiElement GettingFocus="eventhandler"/>
+```
+
 ## -remarks
 
 ## -see-also

@@ -10,11 +10,12 @@ public void LineDisplayWindow.Close()
 # Windows.Devices.PointOfService.LineDisplayWindow.Close
 
 ## -description
-Close the line display window.
+Closes the line display window resource, destroying the window on the device.
 
 ## -parameters
 
 ## -remarks
+Closing a window does not remove any content that it is displaying on the device. Use [LineDisplay.TryClearTextAsync()](linedisplaywindow_trycleartextasync_2039536783.md) to clear window contents before destroying it.
 
 ## -see-also
 

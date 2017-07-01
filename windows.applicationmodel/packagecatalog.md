@@ -10,7 +10,7 @@ public class PackageCatalog : Windows.ApplicationModel.IPackageCatalog, Windows.
 # Windows.ApplicationModel.PackageCatalog
 
 ## -description
-Provides access to appx packages on the device.
+Provides access to app packages on the device.
 
 ## -remarks
 

@@ -10,7 +10,7 @@ public class Visual : Windows.UI.Composition.CompositionObject, Windows.UI.Compo
 # Windows.UI.Composition.Visual
 
 ## -description
-The base object in visual tree.
+The base visual object in the visual hierarchy.
 
 ## -remarks
 Visual objects compose and render serialized drawing content and form the basis of a retained mode visual system. The Visual class supports basic position and clipping and can have 2D and 3D transformations applied to them. Addition functionality like solid colors, images, and content with effects is provided through subclasses like [SpriteVisual](spritevisual.md), and by setting the [Brush](spritevisual_brush.md) property of the visual to CompositionBrush subclasses such as [CompositionColorBrush](compositioncolorbrush.md), [CompositionEffectBrush](compositioneffectbrush.md), and [CompositionSurfaceBrush](compositionsurfacebrush.md).

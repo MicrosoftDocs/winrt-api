@@ -13,6 +13,12 @@ public bool PreferSmallImage { get;  set; }
 
 Gets or sets a value that indicates whether a small image is displayed rather than a large image when both are available.
 
+## -xaml-syntax
+
+```xaml
+<PersonPicture PreferSmallImage="bool"/>
+```
+
 ## -property-value
 
 **true** to display a small image even when a large image is available; otherwise, **false**. The default is **false**.

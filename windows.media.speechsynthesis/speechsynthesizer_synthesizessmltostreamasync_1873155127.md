@@ -10,7 +10,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Media.SpeechSynthesis.SpeechSy
 # Windows.Media.SpeechSynthesis.SpeechSynthesizer.SynthesizeSsmlToStreamAsync
 
 ## -description
-Asynchronously generate speech output from a string containing [](http://go.microsoft.com/fwlink/p/?LinkID=201763).
+Asynchronously generate speech output from a string containing [Speech Synthesis Markup Language (SSML)](http://go.microsoft.com/fwlink/p/?LinkID=201763).
 
 ## -parameters
 ### -param Ssml

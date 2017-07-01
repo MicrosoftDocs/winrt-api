@@ -27,10 +27,10 @@ The encryption method has not been set.
 
 
 ### -field Aes128Cbc:5
-
+AES128CBC encryption.
 
 ### -field Unspecified:65535
-
+The encryption method is unspecified.
 
 ## -remarks
 

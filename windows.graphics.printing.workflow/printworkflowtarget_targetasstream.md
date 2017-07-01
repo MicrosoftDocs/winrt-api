@@ -10,8 +10,10 @@ public PrintWorkflowStreamTarget TargetAsStream { get; }
 # Windows.Graphics.Printing.Workflow.PrintWorkflowTarget.TargetAsStream
 
 ## -description
+Gets the output document in the form of a data stream.
 
 ## -property-value
+The target document data stream.
 
 ## -remarks
 

@@ -10,6 +10,7 @@ public class PrintWorkflowUIActivatedEventArgs : IActivatedEventArgs, IActivated
 # Windows.Graphics.Printing.Workflow.PrintWorkflowUIActivatedEventArgs
 
 ## -description
+Contains contextual information about a print workflow foreground task that has been activated.
 
 ## -remarks
 

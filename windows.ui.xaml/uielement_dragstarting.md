@@ -12,6 +12,12 @@ public event Windows.Foundation.TypedEventHandler DragStarting<Windows.UI.Xaml.U
 ## -description
 Occurs when a drag operation is initiated.
 
+## -xaml-syntax
+
+```xaml
+<uiElement DragStarting="eventhandler"/>
+```
+
 ## -remarks
 
 ## -examples
