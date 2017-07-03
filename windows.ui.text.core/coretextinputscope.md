@@ -92,13 +92,16 @@ Expected input is the numeric day portion of a calendar date.
 Expected input is the year portion of a calendar date.
 
 ### -field DateMonthName:26
-Expected input is the name of the month portion of a calendar date.
+Expected input is the alphabetic name of the month from a calendar date.
 
 ### -field DateDayName:27
-Expected input is the name of the day in a calendar date.
+Expected input is the alphabetic name of the day from a calendar date.
+
+### -field Digits:28
+Expected input includes positive whole numbers, constrained to 0-9.
 
 ### -field Number:29
-Expected input is the digits 0-9.
+Expected input includes the digits 0-9, decimal separators, place separators, and negative sign. The exact characters used for  decimal separators, place separators, and negative sign, depend on the user’s regional settings. 
 
 ### -field SingleCharacter:30
 Expected input is a single ANSI character, codepage 1252.
@@ -188,10 +191,10 @@ Expected input is chat strings.
 Expected input is a name or a telephone number.
 
 ### -field EmailUserNameOrAddress:60
-Expected input is an email user name (&lt;accountname&gt;) or full email address (&lt;accountname&gt;@&lt;host&gt;).
+Expected input is an email user name (\<accountname>) or full email address (\<accountname>@\<host>).
 
 ### -field Private:61
-Expected input is private text. Advises input processors that the text should not be stored nor logged.
+Expected input is private data. Advises input processors that the text should not be stored nor logged.
 
 ### -field Maps:62
 Expected input is from the device's Maps layout; does not include typing intelligence.
@@ -199,12 +202,17 @@ Expected input is from the device's Maps layout; does not include typing intelli
 ### -field PasswordNumeric:63
 Expected input is a numeric password, or PIN.
 
+### -field PinNumeric:64
+Expected input is an numeric password, or PIN. Typically constrained to 5-6 digits.
+
+### -field PinAlphanumeric:65
+Expected input is an alphanumeric password, or PIN. Typically constrained to 5-6 characters.
+
 ### -field FormulaNumber:67
 Expected input is a mathematical formula. Advises input processors to show the number page.
 
 ### -field ChatWithoutEmoji:68
 Expected input does not include emoji. Advises input processors to not display the emoji key.
-
 
 ## -remarks
 
@@ -212,3 +220,5 @@ Expected input does not include emoji. Advises input processors to not display t
 
 ## -see-also
 [Windows.UI.Text.Core](windows_ui_text_core.md), [Use input scope to change the touch keyboard](http://msdn.microsoft.com/library/6e5f55d7-24d6-47cc-b457-b6231ede2a71)
+
+

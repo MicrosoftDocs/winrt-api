@@ -10,10 +10,10 @@ public bool IsComplete { get; }
 # Windows.ApplicationModel.PackageInstallingEventArgs.IsComplete
 
 ## -description
-Indicates whether the appx package is done installing.
+Indicates whether the app package is done installing.
 
 ## -property-value
-**True** indicates that the appx package is done installing; **false**, otherwise.
+**True** indicates that the app package is done installing; **false**, otherwise.
 
 ## -remarks
 

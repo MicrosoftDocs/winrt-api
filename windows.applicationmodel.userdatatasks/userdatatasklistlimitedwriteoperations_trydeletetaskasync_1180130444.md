@@ -10,7 +10,7 @@ public IAsyncOperation<bool> UserDataTaskListLimitedWriteOperations.TryDeleteTas
 # Windows.ApplicationModel.UserDataTasks.UserDataTaskListLimitedWriteOperations.TryDeleteTaskAsync
 
 ## -description
-Asynchronously attempts to delete a meeting.
+Asynchronously attempts to delete a task.
 ## -params
 
 ## -param userDataTaskId

@@ -23,8 +23,15 @@ Use the HSL color space for interpolation.
 Use the ARGB color space for interpolation.
 
 
+### -field HslLinear:3
+
+
+### -field RgbLinear:4
+
+
 ## -remarks
 
 ## -examples
 
 ## -see-also
+

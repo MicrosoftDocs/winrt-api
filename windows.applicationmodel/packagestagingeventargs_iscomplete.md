@@ -10,10 +10,10 @@ public bool IsComplete { get; }
 # Windows.ApplicationModel.PackageStagingEventArgs.IsComplete
 
 ## -description
-Indicates whether the appx package is done staging.
+Indicates whether the app package is done staging.
 
 ## -property-value
-**True** indicates that the appx package is done staging; **false**, otherwise.
+**True** indicates that the app package is done staging; **false**, otherwise.
 
 ## -remarks
 

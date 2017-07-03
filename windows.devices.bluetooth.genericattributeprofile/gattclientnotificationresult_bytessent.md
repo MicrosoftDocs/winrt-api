@@ -10,8 +10,10 @@ public ushort BytesSent { get; }
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattClientNotificationResult.BytesSent
 
 ## -description
+Gets the bytes that were sent.
 
 ## -property-value
+The bytes that were sent.
 
 ## -remarks
 

@@ -12,6 +12,12 @@ public event Windows.Foundation.TypedEventHandler ContextRequested<Windows.UI.Xa
 ## -description
 Occurs when the user has completed a context input gesture, such as a right-click.
 
+## -xaml-syntax
+
+```xaml
+<uiElement ContextRequested="eventhandler"/>
+```
+
 ## -remarks
 If the [ContextFlyout](uielement_contextflyout.md) property is **null**, this event is marked as handled.
 

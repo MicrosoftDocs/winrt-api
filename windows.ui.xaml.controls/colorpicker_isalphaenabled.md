@@ -13,6 +13,12 @@ public bool IsAlphaEnabled { get;  set; }
 
 Gets or sets a value that indicates whether the alpha channel can be modified.
 
+## -xaml-syntax
+
+```xaml
+<ColorPicker IsAlphaEnabled="bool" .../>
+```
+
 ## -property-value
 
 **true** if the alpha channel is enabled; otherwise, **false**. The default is **false**.

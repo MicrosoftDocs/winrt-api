@@ -22,7 +22,7 @@ A watcher object to be used in discovering remote sessions.
 ## -examples
 See the code example below for the process of discovering a remote session. 
 
-```java
+```csharp
 
 // Discover an existing shared experience.
 public void DiscoverExistingSessions() {

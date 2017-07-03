@@ -19,6 +19,7 @@ The text to be displayed.
 
 ### -param displayAttribute
 The display attribute to be applied to the window.
+
 ## -returns
 True if the text was displayed successfully; otherwise, false.
 

@@ -13,6 +13,12 @@ public string Initials { get;  set; }
 
 Gets or sets the contact's initials.
 
+## -xaml-syntax
+
+```xaml
+<PersonPicture Initials="string"/>
+```
+
 ## -property-value
 
 The contact's initials.

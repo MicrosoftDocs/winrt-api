@@ -13,6 +13,12 @@ public int MaxHue { get;  set; }
 
 Gets or sets the maximum Hue value in the range 0-359.
 
+## -xaml-syntax
+
+```xaml
+<ColorPicker MaxHue="int" .../>
+```
+
 ## -property-value
 
 The maximum Hue value in the range 0-359. The default is 359.

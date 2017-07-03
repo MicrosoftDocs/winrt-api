@@ -13,6 +13,12 @@ public UIElement Source { get;  set; }
 
 The element that either is or contains the ScrollViewer that controls the parallax operation.
 
+## -xaml-syntax
+
+```xaml
+<ParallaxView Source="sourceElement" .../>
+```
+
 ## -property-value
 
 ## -remarks

@@ -13,6 +13,12 @@ public double HorizontalSourceStartOffset { get;  set; }
 
 Represents the horizontal scroll offset at which parallax motion starts.
 
+## -xaml-syntax
+
+```xaml
+<ParallaxView HorizontalSourceStartOffset="double" .../>
+```
+
 ## -property-value
 
 The horizontal scroll offset at which parallax motion starts. The default is 0.

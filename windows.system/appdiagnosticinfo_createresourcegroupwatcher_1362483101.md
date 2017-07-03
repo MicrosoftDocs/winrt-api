@@ -10,8 +10,10 @@ public ResourceGroupInfoWatcher AppDiagnosticInfo.CreateResourceGroupWatcher()
 # Windows.System.AppDiagnosticInfo.CreateResourceGroupWatcher
 
 ## -description
+Creates a **ResourceGroupInfoWatcher** that monitors the execution state of an app or task, and provides notifications when its state changes.
 
 ## -returns
+A **ResourceGroupInfoWatcher** that can be used to monitor diagnostic info.
 
 ## -remarks
 
@@ -19,3 +21,5 @@ public ResourceGroupInfoWatcher AppDiagnosticInfo.CreateResourceGroupWatcher()
 
 ## -examples
 
+## -capabilities
+appDiagnostics

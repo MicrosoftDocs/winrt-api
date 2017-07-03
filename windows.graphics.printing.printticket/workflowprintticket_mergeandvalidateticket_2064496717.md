@@ -10,11 +10,14 @@ public WorkflowPrintTicket WorkflowPrintTicket.MergeAndValidateTicket(WorkflowPr
 # Windows.Graphics.Printing.PrintTicket.WorkflowPrintTicket.MergeAndValidateTicket
 
 ## -description
+Merges a newly configured print ticket onto the current print ticket and validates the merged ticket, guaranteeing that it does not ask for any printing functionality that the printer does not support.
 
 ## -parameters
 ### -param deltaShemaTicket
+The print ticket object that has been configured.
 
 ## -returns
+The validated print ticket object.
 
 ## -remarks
 

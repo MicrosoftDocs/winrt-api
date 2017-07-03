@@ -19,7 +19,7 @@ Represents the result of this device's attempt to join a remote session.
 ## -examples
 See the code example below for the process of joining a remote session.
 
-```java
+```csharp
 
 public async void JoinExistingSession() {
     

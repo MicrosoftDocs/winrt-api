@@ -10,9 +10,11 @@ public void PrintTicketFeature.SetSelectedOption(PrintTicketOption value)
 # Windows.Graphics.Printing.PrintTicket.PrintTicketFeature.SetSelectedOption
 
 ## -description
+Sets the given option as the selected option for this print feature.
 
 ## -parameters
 ### -param value
+The option to be set as selected.
 
 ## -remarks
 

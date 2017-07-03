@@ -20,7 +20,7 @@ This class is instantiated whenever the [RemoteSystemSessionController.JoinReque
 ## -examples
 See the following code for an example of how to create a remote session and handle join requests.
 
-```java
+```csharp
 
 public async void StartNewSharedExperience() {
     

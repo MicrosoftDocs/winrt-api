@@ -10,7 +10,7 @@ public void InitializePenInjection(Windows.UI.Input.Preview.Injection.InjectedIn
 # Windows.UI.Input.Preview.Injection.InputInjector.InitializePenInjection
 
 ## -description
-Initializes the virtual pen device for sending the input data.
+Initializes a virtual pen device that can synthesize input events and provide corresponding input data to your app. 
 
 ## -parameters
 ### -param visualMode
@@ -21,3 +21,4 @@ The visual feedback mode for pen input injection.
 ## -examples
 
 ## -see-also
+- [UninitializePenInjection](inputinjector_uninitializepeninjection_664142813.md)

@@ -10,8 +10,10 @@ public IOutputStream PrintWorkflowStreamTarget.GetOutputStream()
 # Windows.Graphics.Printing.Workflow.PrintWorkflowStreamTarget.GetOutputStream
 
 ## -description
+Returns the print data as an output stream.
 
 ## -returns
+An output stream of the print data.
 
 ## -remarks
 

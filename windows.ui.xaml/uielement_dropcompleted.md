@@ -12,6 +12,12 @@ public event Windows.Foundation.TypedEventHandler DropCompleted<Windows.UI.Xaml.
 ## -description
 Occurs when a drag-and-drop operation is ended.
 
+## -xaml-syntax
+
+```xaml
+<uiElement DropCompleted="eventhandler"/>
+```
+
 ## -remarks
 
 ## -examples

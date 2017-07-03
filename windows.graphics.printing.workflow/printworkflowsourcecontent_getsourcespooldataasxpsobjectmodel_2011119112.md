@@ -10,8 +10,10 @@ public PrintWorkflowObjectModelSourceFileContent PrintWorkflowSourceContent.GetS
 # Windows.Graphics.Printing.Workflow.PrintWorkflowSourceContent.GetSourceSpoolDataAsXpsObjectModel
 
 ## -description
+Gets the print data in the form of the COM-friendly XPS object model.
 
 ## -returns
+The XPS object model content.
 
 ## -remarks
 

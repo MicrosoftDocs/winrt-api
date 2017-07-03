@@ -11,7 +11,7 @@ public class UserActivity
 
 ## -description
 
-Provides information about a task the user is engaged in.
+A **UserActivity** is created by an app during its execution to notify the system of a user work stream that can be continued on another device, or at another time on the same device. It provides information about a task the user is engaged in.
 
 ## -remarks
 

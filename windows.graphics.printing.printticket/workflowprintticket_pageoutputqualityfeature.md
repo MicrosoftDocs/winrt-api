@@ -10,8 +10,10 @@ public PrintTicketFeature PageOutputQualityFeature { get; }
 # Windows.Graphics.Printing.PrintTicket.WorkflowPrintTicket.PageOutputQualityFeature
 
 ## -description
+Gets the page quality configuration for this print ticket.
 
 ## -property-value
+The page quality feature object.
 
 ## -remarks
 

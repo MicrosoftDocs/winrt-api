@@ -10,7 +10,7 @@ public void UninitializeTouchInjection()
 # Windows.UI.Input.Preview.Injection.InputInjector.UninitializeTouchInjection
 
 ## -description
-Shuts down the virtual touch device sending the input data.
+Shuts down the virtual touch device created with [InitializeTouchInjection](inputinjector_initializetouchinjection_1509714255.md).
 
 ## -remarks
 

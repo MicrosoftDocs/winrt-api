@@ -13,6 +13,12 @@ public int MinValue { get;  set; }
 
 Gets or sets the minimum Value value in the range 0-100.
 
+## -xaml-syntax
+
+```xaml
+<ColorPicker MinValue="int" .../>
+```
+
 ## -property-value
 
 The minimum Value value in the range 0-100. The default is 100.

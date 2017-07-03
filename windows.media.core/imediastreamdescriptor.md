@@ -10,7 +10,7 @@ public interface IMediaStreamDescriptor :
 # Windows.Media.Core.IMediaStreamDescriptor
 
 ## -description
-Defines a media stream.
+Defines an interface implemented by a audio or video stream descriptor.
 
 ## -remarks
 

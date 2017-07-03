@@ -19,7 +19,7 @@ Gets or sets the thickness of the specified font.
 
 
 ## -xaml-values
-<dl><dt>fontWeightsPropertyName</dt><dd>fontWeightsPropertyNameA FontWeights member name, such as Light or Normal.</dd>
+<dl><dt>fontWeightMemberName</dt><dd>fontWeightMemberNameA FontWeights member name, such as Light or Normal.</dd>
 </dl>
 ## -property-value
 One of the values that specifies the thickness of the specified font. The default is [Normal](../windows.ui.text/fontweights_normal.md).

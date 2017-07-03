@@ -10,6 +10,7 @@ public event TypedEventHandler XpsDataAvailable<PrintWorkflowForegroundSession, 
 # Windows.Graphics.Printing.Workflow.PrintWorkflowForegroundSession.XpsDataAvailable
 
 ## -description
+Raised when the XPS print data is available to be read. This is done after the [SetupRequested](Printworkflowforegroundsession_setuprequested.md) event is raised. Register for this event to do UI-dependent work that requires displaying the print content.
 
 ## -remarks
 

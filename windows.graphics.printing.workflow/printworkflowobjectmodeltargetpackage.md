@@ -10,6 +10,7 @@ public class PrintWorkflowObjectModelTargetPackage
 # Windows.Graphics.Printing.Workflow.PrintWorkflowObjectModelTargetPackage
 
 ## -description
+Represents the print output data in the form of the COM-based XPS object model.
 
 ## -remarks
 

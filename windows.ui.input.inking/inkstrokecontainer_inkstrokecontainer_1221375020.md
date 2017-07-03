@@ -11,7 +11,7 @@ public InkStrokeContainer()
 # Windows.UI.Input.Inking.InkStrokeContainer.InkStrokeContainer
 
 ## -description
-Creates a new [InkStrokeContainer](inkstrokecontainer.md) object that is used to manage [InkStroke](inkstroke.md) objects.
+Initializes a new [InkStrokeContainer](inkstrokecontainer.md) object that is used to manage [InkStroke](inkstroke.md) objects.
 
 ## -remarks
 

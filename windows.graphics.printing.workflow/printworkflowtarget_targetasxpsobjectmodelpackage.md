@@ -10,8 +10,10 @@ public PrintWorkflowObjectModelTargetPackage TargetAsXpsObjectModelPackage { get
 # Windows.Graphics.Printing.Workflow.PrintWorkflowTarget.TargetAsXpsObjectModelPackage
 
 ## -description
+Gets the output document in the form of the COM-based XPS object model.
 
-## -property-value
+## -returns
+The output document object model content.
 
 ## -remarks
 

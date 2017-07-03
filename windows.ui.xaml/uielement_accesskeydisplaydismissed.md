@@ -12,6 +12,12 @@ public event Windows.Foundation.TypedEventHandler AccessKeyDisplayDismissed<Wind
 ## -description
 Occurs when the access key sequence is complete to notify controls that they should hide access key visuals.
 
+## -xaml-syntax
+
+```xaml
+<uiElement AccessKeyDisplayDismissed="eventhandler"/>
+```
+
 ## -remarks
 
 ## -examples

@@ -22,7 +22,7 @@ The device receiving an invitation will need to use a [RemoteSystemSessionInvita
 ## -examples
 See the following code for an example of how to receive and handle remote session invitations.
 
-```java
+```csharp
 public void SubscribeAndHandleInvites() {
     var invitationListener = new RemoteSystemSessionInvitationListener();
     

@@ -12,6 +12,12 @@ public event Windows.Foundation.TypedEventHandler TextCompositionChanged<Windows
 ## -description
 Occurs when text being composed through an Input Method Editor (IME) changes.
 
+## -xaml-syntax
+
+```xaml
+<RichEditBox TextCompositionChanged="eventhandler"/>
+```
+
 ## -remarks
 For event data, see [TextCompositionChangedEventArgs](textcompositionchangedeventargs.md).
 

@@ -10,13 +10,17 @@ public PrintTicketParameterInitializer WorkflowPrintTicket.SetParameterInitializ
 # Windows.Graphics.Printing.PrintTicket.WorkflowPrintTicket.SetParameterInitializerAsInteger
 
 ## -description
+Sets the parameter initializer object for a specified printing parameter. This can only be done if an initializer for the specified parameter doesn't yet exist.
 
 ## -parameters
 ### -param name
+The canonical name of the printing parameter 
 
 ### -param xmlNamespace
+The XML namespace of the printing parameter.
 
-### -param integerValue
+## -returns
+The parameter initializer object.
 
 ## -returns
 

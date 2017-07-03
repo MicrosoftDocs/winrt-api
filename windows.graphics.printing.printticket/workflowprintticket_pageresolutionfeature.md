@@ -10,8 +10,10 @@ public PrintTicketFeature PageResolutionFeature { get; }
 # Windows.Graphics.Printing.PrintTicket.WorkflowPrintTicket.PageResolutionFeature
 
 ## -description
+Gets the page resolution configuration for this print ticket.
 
 ## -property-value
+The page resolution feature object.
 
 ## -remarks
 

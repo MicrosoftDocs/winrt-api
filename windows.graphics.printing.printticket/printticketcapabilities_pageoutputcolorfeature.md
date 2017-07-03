@@ -10,8 +10,10 @@ public PrintTicketFeature PageOutputColorFeature { get; }
 # Windows.Graphics.Printing.PrintTicket.PrintTicketCapabilities.PageOutputColorFeature
 
 ## -description
+Gets the available page color feature for this print ticket.
 
 ## -property-value
+The page color feature object.
 
 ## -remarks
 

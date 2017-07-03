@@ -13,6 +13,12 @@ public Contact Contact { get;  set; }
 
 Gets or sets a [Contact](../windows.applicationmodel.contacts/contact.md) object that contains information about the person.
 
+## -xaml-syntax
+
+```xaml
+<PersonPicture Contact="{x:Bind contactObject}"/>
+```
+
 ## -property-value
 
 A [Contact](../windows.applicationmodel.contacts/contact.md) object that contains information about the person.

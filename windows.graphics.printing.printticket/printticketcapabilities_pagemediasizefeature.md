@@ -10,8 +10,10 @@ public PrintTicketFeature PageMediaSizeFeature { get; }
 # Windows.Graphics.Printing.PrintTicket.PrintTicketCapabilities.PageMediaSizeFeature
 
 ## -description
+Gets the available page media size feature for this print ticket.
 
 ## -property-value
+The page media size feature object.
 
 ## -remarks
 

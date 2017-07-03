@@ -10,8 +10,10 @@ public string XmlNamespace { get; }
 # Windows.Graphics.Printing.PrintTicket.WorkflowPrintTicket.XmlNamespace
 
 ## -description
+Gets the XML namespace for the print ticket.
 
 ## -property-value
+The XML namespace.
 
 ## -remarks
 

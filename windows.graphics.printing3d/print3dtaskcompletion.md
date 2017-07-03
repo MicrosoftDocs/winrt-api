@@ -18,7 +18,7 @@ Specifies the completion status of a 3D print request.
 The request has been abandoned.
 
 ### -field Canceled:1
-The request has been canceled.
+The request has been cancelled.
 
 ### -field Failed:2
 The request has failed.
