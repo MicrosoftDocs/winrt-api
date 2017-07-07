@@ -35,6 +35,72 @@ When a [ScrollViewer](scrollviewer.md) part in a control exists, the host contro
 
 To make it possible for controls that include a [ScrollViewer](scrollviewer.md) to influence some of the behavior and properties that are from within the [ScrollViewer](scrollviewer.md) part, [ScrollViewer](scrollviewer.md) defines a number of XAML attached properties that can be set in styles and used in template bindings.
 
+### Pen interaction
+
+> <div id="main">
+> <strong><span class="uwpd-prelease">Prerelease.</span> Fall Creators Update (Windows 10 Insider Preview Build 16215 and later) - Behavior change</strong>
+> </div>
+
+By default, instead of text selection, an active pen now scrolls/pans in UWP apps (just like touch, touchpad, and passive pen). The ScrollViewer consumes pointer events unless you specify that you want to handle the events yourself, and don't want them to be used for manipulation.
+
+If your app depends on the previous behavior, you can override pen scrolling and revert to the previous behavior. To do this, handle the **[PointerPressed](../windows.ui.xaml/uielement_pointerpressed.md)** event and set the **[ManipulationMode](../windows.ui.xaml/uielement_manipulationmode.md)** property to specify that the system should not handle pen interaction to scroll your main ScrollViewer. You also handle the **[PointerReleased](../windows.ui.xaml/uielement_pointerreleased.md)** and **[PointerCanceled](../windows.ui.xaml/uielement_pointercanceled.md)** events to turn the default system behavior back on when the Pen is removed.
+
+This  example shows how to:
+
++ Register the events using the [AddHandler](../windows.ui.xaml/uielement_addhandler_2121467075.md) method with the *handledEventsToo* parameter set to **true**.
++ Check if the pointer device is a [Pen](../windows.devices.input/pointerdevicetype.md).
++ In the [PointerPressed](../windows.ui.xaml/uielement_pointerpressed.md) event handler, turn off system manipulation support in the ScrollViewer.
++ In the [PointerReleased](../windows.ui.xaml/uielement_pointerreleased.md) and [PointerCanceled](../windows.ui.xaml/uielement_pointercanceled.md) event handlers, turn back on system manipulation support.
+
+```xaml
+<Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <ScrollViewer x:Name="myScrollViewer">
+        <Image Source="Assets/StoreLogo.png"/>
+    </ScrollViewer>
+</Grid>
+```
+
+```csharp
+public MainPage()
+{
+    this.InitializeComponent();
+
+    this.myScrollViewer.AddHandler(UIElement.PointerPressedEvent, 
+        new PointerEventHandler(myScrollViewer_PointerPressed), 
+        true /*handledEventsToo*/);
+    this.myScrollViewer.AddHandler(UIElement.PointerReleasedEvent, 
+        new PointerEventHandler(myScrollViewer_PointerReleased), 
+        true /*handledEventsToo*/);
+    this.myScrollViewer.AddHandler(UIElement.PointerCanceledEvent, 
+        new PointerEventHandler(myScrollViewer_PointerCanceled), 
+        true /*handledEventsToo*/);
+}
+
+private void myScrollViewer_PointerPressed(object sender, PointerRoutedEventArgs e)
+{
+    if (e.Pointer.PointerDeviceType == Windows.Devices.Input.PointerDeviceType.Pen)
+    {
+        (myScrollViewer.Content as UIElement).ManipulationMode &= ~ManipulationModes.System;
+    }
+}
+
+private void myScrollViewer_PointerReleased(object sender, PointerRoutedEventArgs e)
+{
+    if (e.Pointer.PointerDeviceType == Windows.Devices.Input.PointerDeviceType.Pen)
+    {
+        (myScrollViewer.Content as UIElement).ManipulationMode |= ManipulationModes.System;
+    }
+}
+
+private void myScrollViewer_PointerCanceled(object sender, PointerRoutedEventArgs e)
+{
+    if (e.Pointer.PointerDeviceType == Windows.Devices.Input.PointerDeviceType.Pen)
+    {
+        (myScrollViewer.Content as UIElement).ManipulationMode |= ManipulationModes.System;
+    }
+}
+```
+
 ### ScrollViewer XAML attached properties
 
 [ScrollViewer](scrollviewer.md) defines the following XAML attached properties:
