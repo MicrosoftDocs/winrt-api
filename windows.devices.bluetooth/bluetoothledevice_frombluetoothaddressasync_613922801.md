@@ -11,7 +11,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Devices.Bluetooth.BluetoothLED
 # Windows.Devices.Bluetooth.BluetoothLEDevice.FromBluetoothAddressAsync
 
 ## -description
-Returns a [BluetoothLEDevice](bluetoothledevice.md) object for the given [BluetoothAddress](bluetoothaddresstype.md) value and [BluetoothAddressType](bluetoothaddresstype.md) value.
+Returns a [BluetoothLEDevice](bluetoothledevice.md) object for the given [BluetoothAddress](bluetoothaddresstype.md) value and [BluetoothAddressType](bluetoothaddresstype.md) value and initiates a connection.
 
 ## -parameters
 ### -param bluetoothAddress
