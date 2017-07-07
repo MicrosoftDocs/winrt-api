@@ -10,10 +10,10 @@ public bool TransitFeaturesEnabled { get;  set; }
 # Windows.UI.Xaml.Controls.Maps.MapControl.TransitFeaturesEnabled
 
 ## -description
-Gets or sets a value that indicates whether transit features are enabled on the map.
+This property is not implemented.
 
 ## -property-value
-Value that indicates whether transit features are enabled on the map.
+This property is not implemented.
 
 ## -remarks
 
