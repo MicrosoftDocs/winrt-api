@@ -10,10 +10,10 @@ public Windows.UI.Xaml.DependencyProperty BusinessLandmarksEnabledProperty { get
 # Windows.UI.Xaml.Controls.Maps.MapControl.BusinessLandmarksEnabledProperty
 
 ## -description
-Identifies the [BusinessLandmarksEnabled](mapcontrol_businesslandmarksenabled.md) dependency property.
+This property is not implemented.
 
 ## -property-value
-The [BusinessLandmarksEnabled](mapcontrol_businesslandmarksenabled.md) dependency property.
+This property is not implemented.
 
 ## -remarks
 
