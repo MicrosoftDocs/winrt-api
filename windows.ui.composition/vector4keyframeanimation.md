@@ -13,6 +13,9 @@ public class Vector4KeyFrameAnimation : Windows.UI.Composition.KeyFrameAnimation
 A time-based animation that targets any Vector4-based property with one or more keyframes.
 
 ## -remarks
+
+Use the [CompostionObject.StartAnimation](compositionobject_startanimation_709050842.md) and [CompostionObject.StopAnimation](compositionobject_stopanimation_1075337060.md) methods to start and stop the animation.
+
 An animation is associated with an object's property by calling [CompositionObject::StartAnimation](compositionobject_startanimation.md) and specifying the property name and the animation. See the remarks section of [CompositionObject::StartAnimation](compositionobject_startanimation.md) for a list of animatable properties.
 
 ## -examples
