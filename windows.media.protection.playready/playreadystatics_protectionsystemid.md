@@ -25,7 +25,7 @@ In the [MediaProtectionManager.Properties](https://msdn.microsoft.com/library/wi
 
 
 
-<!--<auto_snippet sample_id="PlayReadyStatics" snippet_id="SetUpMediaProtectionManager"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>-->
+[!code-csharp[SnippetSetUpMediaProtectionManager](../windows.media.protection.playready/code/PlayReadyStatics/csharp/MainPage.xaml.cs#SnippetSetUpMediaProtectionManager)]
 
 ## -examples
 
