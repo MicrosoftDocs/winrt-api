@@ -53,7 +53,7 @@ Ink stroke attributes can be set dynamically to accommodate user preferences or 
 
 Here, we let a user choose from a list of ink colors.
 
-[!code-csharp[SnippetUI](../windows.ui.input.inking/code/Ink_Basic_Customization/csharp/MainPage.xaml#SnippetUI)]
+[!code-xml[SnippetUI](../windows.ui.input.inking/code/Ink_Basic_Customization/csharp/MainPage.xaml#SnippetUI)]
 
 We then handle changes to the selected color and update the ink stroke attributes accordingly.
 
