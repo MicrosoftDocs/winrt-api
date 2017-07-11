@@ -17,4 +17,4 @@ Base class for shadows that can be applied to a [SpriteVisual](spritevisual.md).
 ## -examples
 
 ## -see-also
-[CompositionObject](compositionobject.md), [IClosable](../windows.foundation/iclosable.md)
+[DropShadow](dropshadow.md), [CompositionObject](compositionobject.md), [IClosable](../windows.foundation/iclosable.md)
