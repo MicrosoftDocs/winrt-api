@@ -35,5 +35,29 @@ You don't have permission to access the contents of the current folder.
 
 ## -examples
 
+using Windows.Storage;
+
+...
+
+Task<IStorageFile> OpenOrCreateFile(string FileName, IStorageFolder InFolder)
+{  
+    try
+    {
+        return await InFolder.GetFileAsync(FileName);
+    }
+    catch (Exception eIn)
+    {
+        try
+        {
+            return await InFolder.CreateFileAsync(FileName);
+        }
+        catch (Exception eOut)
+        { 
+            throw new Exception(eOut.Message, eIn);
+        }
+    }
+
+}
+
 ## -see-also
 [GetFilesAsync(CommonFileQuery)](storagefolder_getfilesasync_1429382825.md), [GetFilesAsync](storagefolder_getfilesasync_819750470.md), [GetItemsAsync](storagefolder_getitemsasync.md)
