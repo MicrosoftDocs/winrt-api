@@ -6,7 +6,7 @@
 # Windows.Networking.BackgroundTransfer
 
 ## -description
-Enables advanced download and upload transfer capabilities within an app. For an overview of Background Transfer capabilities, see [Transferring data in the background](http://msdn.microsoft.com/library/9e2ed5b4-af57-456a-884f-1e1d2136a8e8). Download the [Background Transfer sample](http://go.microsoft.com/fwlink/p/?linkid=245064) for examples in JavaScript, C#, and C++.
+Enables advanced download and upload transfer capabilities within an app. For an overview of Background Transfer capabilities, see [Transferring data in the background](http://msdn.microsoft.com/library/9e2ed5b4-af57-456a-884f-1e1d2136a8e8). Download the [Background Transfer sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/BackgroundTransfer) for examples in JavaScript, C#, and C++.
 
 > [!NOTE]
 > Background transfer is primarily designed for long-term transfer operations for resources like video, music, and large images. For short-term operations involving transfers of smaller resources (i.e. a couple KB), the HTTP APIs are recommended. [HttpClient](../windows.web.http/httpclient.md) is preferred and can be used in all languages supported by Windows Store app. [XHR](http://msdn.microsoft.com/library/62fc3e32-3d52-4654-8807-8c0563150f01) can be used in JavaScript. [IXHR2](http://msdn.microsoft.com/library/cc7aed53-b2c5-4d83-b85d-cff2f5ba7b35) can be used in C++.
