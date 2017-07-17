@@ -52,4 +52,4 @@ auto advertisingId = Windows::System::UserProfile::AdvertisingManager::Advertisi
 ## -examples
 
 ## -see-also
-[Microsoft Advertising SDK](http://go.microsoft.com/fwlink/p/?linkid=296388), [Windows 8.1 app certification requirements for ads](http://go.microsoft.com/fwlink/p/?linkid=320558)
+[Microsoft Advertising SDK](http://aka.ms/ads-sdk-uwp), [Windows Store policies for advertising conduct and content](https://msdn.microsoft.com/en-us/library/windows/apps/dn764944.aspx#pol_10_10)

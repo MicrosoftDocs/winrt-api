@@ -14,7 +14,7 @@ Contains the values of status codes defined for HTTP in the response to an HTTP 
 
 ## -enum-fields
 ### -field None:0
-The client request was successful.
+The client request wasn't successful.
 
 ### -field Continue:100
 The client should continue with its request.

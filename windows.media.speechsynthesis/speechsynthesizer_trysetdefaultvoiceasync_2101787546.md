@@ -10,7 +10,7 @@ public IAsyncOperation<bool> SpeechSynthesizer.TrySetDefaultVoiceAsync(VoiceInfo
 # Windows.Media.SpeechSynthesis.SpeechSynthesizer.TrySetDefaultVoiceAsync
 
 ## -description
-Asynchronously attempts to set the voice used for speech synthesis.
+Asynchronously attempts to set the voice used for speech synthesis on an [IoT](https://developer.microsoft.com/en-us/windows/iot) device.
 
 > [!NOTE]
 > This method is available only in [Embedded mode](https://developer.microsoft.com/windows/iot/docs/embeddedmode). 
@@ -23,7 +23,7 @@ One of the installed speech synthesis engines (voices).
 An asynchronous operation that returns true if the set operation was a success. Otherwise, returns false.
 
 ## -remarks
- Your app must declare the **systemManagement** capability, which lets apps have basic system administration privileges such as shutting down or rebooting, locale, and timezone.
+ Your app must declare the **systemManagement** capability, which lets apps access basic system administration privileges including locale, timezone, shut down, and reboot.
 
 The systemManagement capability must include the iot namespace when you declare it in your app's package manifest.
 

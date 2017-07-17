@@ -18,4 +18,4 @@ Provides a property that lets the caller retrieve the advertising ID.
 ## -examples
 
 ## -see-also
-[Microsoft Advertising SDK](http://go.microsoft.com/fwlink/p/?linkid=296388), [Windows and Windows Phone Store Policies](http://msdn.microsoft.com/library/f02a720e-2899-4863-8945-9ab99158bca1)
+[Microsoft Advertising SDK](http://aka.ms/ads-sdk-uwp), [Windows Store policies for advertising conduct and content](https://msdn.microsoft.com/en-us/library/windows/apps/dn764944.aspx#pol_10_10)
