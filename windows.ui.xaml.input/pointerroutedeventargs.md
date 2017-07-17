@@ -54,8 +54,7 @@ The object retrieved by the GetCurrentPoint and GetIntermediatePoints methods pr
 
 In the following example, we get extended pointer properties through the [PointerPoint](../windows.ui.input/pointerpoint.md) and [PointerPointProperties](../windows.ui.input/pointerpointproperties.md) objects. (See [Quickstart: Pointers](http://msdn.microsoft.com/library/90967981-40c0-4a7c-9ba9-86c28c78e154) for the complete example.)
 
-
-[TODO:AUTO_SNIPPET (SAMPLE_ID:PointerInput)(SNIPPET_ID:QueryPointer)]
+[!code-csharp[SnippetQueryPointer](../windows.ui.input.inking/code/PointerInput/csharp/MainPage.xaml.cs#SnippetQueryPointer)]
 
 Typically, the object returned by this method is used to feed pointer data to a [GestureRecognizer](../windows.ui.input/gesturerecognizer.md). Another scenario is getting the [MouseWheelDelta](../windows.ui.input/pointerpointproperties_mousewheeldelta.md) for a [PointerWheelChanged](../windows.ui.xaml/uielement_pointerwheelchanged.md) event; that value is in [PointerPointProperties](../windows.ui.input/pointerpointproperties.md).
 
