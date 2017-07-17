@@ -16,7 +16,7 @@ Gets a value that indicates whether the process is running in design mode.
 **True** if the process is running in design mode; otherwise **false**.
 
 ## -remarks
-Use the [DesignModeEnabled](designmode_designmodeenabled.md) property when your custom types require special logic when running in a visual designer. For example, you can query this property to determine whether to display placeholder data instead of live data from a web service.
+Use this property when your custom types require special logic when running in a visual designer. For example, you can query this property to determine whether to display placeholder data instead of live data from a web service.
 
 > [!NOTE]
 > The [DesignModeEnabled](designmode_designmodeenabled.md) property is available only in the presence of a developer certificate.
@@ -24,3 +24,4 @@ Use the [DesignModeEnabled](designmode_designmodeenabled.md) property when your 
 ## -examples
 
 ## -see-also
+[DesignModeEnabled2](designmode_designmode2enabled.md)

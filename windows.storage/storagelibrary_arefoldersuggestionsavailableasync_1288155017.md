@@ -10,7 +10,7 @@ public IAsyncOperation<bool> StorageLibrary.AreFolderSuggestionsAvailableAsync()
 # Windows.Storage.StorageLibrary.AreFolderSuggestionsAvailableAsync
 
 ## -description
-Determines if there are suggestions for placing your content in a new or existing folder within the StorageLibrary.
+Determines if there are suggestions for adding existing folders with content to the StorageLibrary.
 
 ## -returns
 **True** if there are folder suggestions; **False** otherwise
@@ -21,7 +21,7 @@ If this feature is not supported on your version of Windows, the method will ret
 ## -see-also
 
 ## -examples
-This example demonstrates how to determine whether the content in your Pictures library has any folder suggestions.
+This example demonstrates how to determine whether there are any suggested folders with content that can be added to your Pictures library.
 
 ```csharp
 private async Task<StorageLibrary> SetupPicturesLibraryAsync()
@@ -46,7 +46,10 @@ private async void CheckForFolderSuggestions_Clicked(object sender, RoutedEventA
         // Note that the RequestAddFolderAsync method returns only one folder.
         // If the user adds multiple folders, only one will be returned.
         // In this example, to keep track of all the added folders, the app can subscribe to the
-        // StorageLibrary.DefinitionChanged event by awaiting library.RequestAddFolderAsync(); 
+        // StorageLibrary.DefinitionChanged event by awaiting library.RequestAddFolderAsync();
+
+        // Launch the folder suggestion dialog
+        var folder = await library.RequestAddFolderAsync(); 
     }
 }
 
