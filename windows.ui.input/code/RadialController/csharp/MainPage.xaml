@@ -1,0 +1,151 @@
+﻿<Page
+    x:Class="RadialControllerApp1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:RadialControllerApp1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <Style x:Key="HeadingStyle" TargetType="TextBlock">
+            <Setter Property="FontStyle" Value="Oblique"/>
+            <Setter Property="FontSize" Value="24"/>
+            <Setter Property="Foreground" Value="Black"/>
+        </Style>
+        <Style x:Key="SubHeadingStyle" TargetType="TextBlock">
+            <Setter Property="FontStyle" Value="Oblique"/>
+            <Setter Property="FontSize" Value="32"/>
+            <Setter Property="Foreground" Value="Red"/>
+        </Style>
+    </Page.Resources>
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel x:Name="HeaderPanel" 
+                    Orientation="Horizontal" 
+                    Grid.Row="0">
+            <TextBlock x:Name="Header"
+                       Text="RadialController customization sample"
+                       VerticalAlignment="Center"
+                       Style="{ThemeResource HeaderTextBlockStyle}"
+                       Margin="10,0,0,0" />
+        </StackPanel>
+
+        <Grid Grid.Row="1" 
+              Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel x:Name="Stack0" 
+                            Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+                            Grid.Column="0"
+                            Orientation="Vertical" 
+                            HorizontalAlignment="Stretch" 
+                            VerticalAlignment="Stretch" 
+                            BorderBrush="Gray" 
+                            BorderThickness="1">
+                    <TextBlock x:Name="Title0" 
+                               HorizontalAlignment="Center" 
+                               Margin="10"
+                               Style="{StaticResource HeadingStyle}"
+                               Text="Primary tool (default)" />
+                    <TextBlock x:Name="SubHeading0" 
+                               HorizontalAlignment="Center" 
+                               Margin="10"
+                               Style="{StaticResource SubHeadingStyle}"
+                               Text="Inactive" />
+                    <Button x:Name="AddButton0" 
+                            HorizontalAlignment="Center" 
+                            Margin="10" 
+                            Content="Add Item 0" 
+                            Click="AddItem" 
+                            CommandParameter="0"/>
+                    <Button x:Name="SelectButton0" 
+                            HorizontalAlignment="Center" 
+                            Margin="10"
+                            Content="Select Item 0" 
+                            Click="SelectItem" 
+                            CommandParameter="0"/>
+                    <Button x:Name="RemoveButton0" 
+                            HorizontalAlignment="Center" 
+                            Margin="10"
+                            Content="Remove Item 0" 
+                            Click="RemoveItem" 
+                            CommandParameter="0"/>
+                    <!-- Rotation input -->
+                    <Slider x:Name="RotationSlider0"
+                            Width="300"
+                            HorizontalAlignment="Center"/>
+                    <!-- Click input -->
+                    <ToggleSwitch x:Name="ClickToggle0"
+                                  HorizontalAlignment="center"/>
+                </StackPanel>
+                <StackPanel x:Name="Stack1"
+                            Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+                            Grid.Column="1"
+                            Orientation="Vertical" 
+                            HorizontalAlignment="Stretch" 
+                            VerticalAlignment="Stretch" 
+                            BorderBrush="Gray" 
+                            BorderThickness="1">
+                    <TextBlock x:Name="Title1" 
+                               HorizontalAlignment="Center" 
+                               Margin="10"
+                               Style="{StaticResource HeadingStyle}"
+                               Text="Secondary tool" />
+                    <TextBlock x:Name="SubHeading1" 
+                               HorizontalAlignment="Center" 
+                               Margin="10"
+                               Style="{StaticResource SubHeadingStyle}"
+                               Text="Inactive" />
+                    <Button x:Name="AddButton1"
+                            HorizontalAlignment="Center" 
+                            Margin="10"
+                            Content="Add Item 1" 
+                            Click="AddItem" 
+                            CommandParameter="1"/>
+                    <Button x:Name="SelectButton1"  
+                            HorizontalAlignment="Center" 
+                            Margin="10"
+                            Content="Select Item 1" 
+                            Click="SelectItem" 
+                            CommandParameter="1"/>
+                    <Button x:Name="RemoveButton1"  
+                            HorizontalAlignment="Center" 
+                            Margin="10"
+                            Content="Remove Item 1" 
+                            Click="RemoveItem" 
+                            CommandParameter="1"/>
+                    <!-- Rotation input -->
+                    <Slider x:Name="RotationSlider1"
+                            Width="300"
+                            HorizontalAlignment="Center"/>
+                    <!-- Click input -->
+                    <ToggleSwitch x:Name="ClickToggle1"
+                                  HorizontalAlignment="center"/>
+                </StackPanel>
+            </Grid>
+            <StackPanel Grid.Row="1"
+                        Orientation="Vertical">
+                <TextBlock x:Name="LogTitle" 
+                            HorizontalAlignment="Center" 
+                            Margin="10"
+                            Style="{StaticResource HeadingStyle}"
+                            Text="Log" />
+                <ScrollViewer x:Name="logViewer" MaxHeight="200">
+                    <TextBlock x:Name="logText" SizeChanged="OnLogViewerSizeChanged"/>
+                </ScrollViewer>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Page>
