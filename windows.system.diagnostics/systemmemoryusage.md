@@ -13,7 +13,7 @@ public class SystemMemoryUsage
 Provides access to data about the memory usage of the system.  
 
 ## -remarks
-
+Call SystemDiagnosticInfo.MemoryUsage to get an instance of this class.
 ## -see-also
 
 ## -examples
