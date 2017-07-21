@@ -1,4 +1,4 @@
----
+a ---
 -api-id: T:Windows.UI.Xaml.Controls.Maps.MapControl
 -api-type: winrt class
 ---
@@ -10,7 +10,7 @@ public class MapControl : Windows.UI.Xaml.Controls.Control, Windows.UI.Xaml.Cont
 # Windows.UI.Xaml.Controls.Maps.MapControl
 
 ## -description
-Represents the map control, which displays a map.
+Represents a symbolic or photorealistic map of the Earth.
 
 ## -xaml-syntax
 ```xaml
