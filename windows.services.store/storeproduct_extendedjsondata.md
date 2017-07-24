@@ -10,13 +10,15 @@ public string ExtendedJsonData { get; }
 # Windows.Services.Store.StoreProduct.ExtendedJsonData
 
 ## -description
-Gets complete Windows Store listing data for the product in JSON format.
+Gets complete data for the product from the Store in JSON format.
 
 ## -property-value
-A JSON-formatted string that contains complete Windows Store listing data for the product.
+A JSON-formatted string that contains complete data for the product from the Store in JSON format.
 
 ## -remarks
+Use the **ExtendedJsonData** property to access the complete data for the [StoreProduct](storeproduct.md) object as a JSON-formatted string in your code. For more information about the structure of the data, see [Data schemas for Store products](https://docs.microsoft.com/windows/uwp/monetize/data-schemas-for-store-products).
 
 ## -examples
 
 ## -see-also
+[Data schemas for Store products](https://docs.microsoft.com/windows/uwp/monetize/data-schemas-for-store-products)
