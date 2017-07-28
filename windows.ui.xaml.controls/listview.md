@@ -36,6 +36,12 @@ By default, a data item is displayed in the [ListView](listview.md) as the strin
 
 If you use the [ListView](listview.md) to display large sets of data, see [Optimize ListView and GridView](http://msdn.microsoft.com/library/26df15e8-2c05-4174-a714-7df2e8273d32) for tips to maintain a smooth and responsive user experience.
 
+> <div id="main">
+> <strong><span class="uwpd-prelease">Prerelease.</span> Fall Creators Update (Windows 10 Insider Preview Build 16215 and later) - Behavior change</strong>
+> </div>
+> By default, instead of performing selection, an active pen now scrolls/pans a list in UWP apps (like touch, touchpad, and passive pen).
+> If your app depends on the previous behavior, you can override pen scrolling and revert to the previous behavior. See the [Scroll​Viewer](scrollviewer.md) class reference for details.
+
 By default, a user can select a single item in a [ListView](listview.md). You can set the [SelectionMode](listviewbase_selectionmode.md) property to a [ListViewSelectionMode](listviewselectionmode.md) enumeration value to allow multi-selection or to disable selection. You can also change the [ListView](listview.md) interaction mode to make items respond to a user click like a button instead of being selected.
 
 This table shows the ways a user can interact with a [ListView](listview.md), and how you can respond to the interaction.<table>
