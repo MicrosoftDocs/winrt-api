@@ -19,7 +19,6 @@ If your app is using this API and you wish to publish your app to the Microsoft 
 
 To request permission to release your VPN app through the Microsoft Store,  go to the [Windows Developer Support](https://developer.microsoft.com/windows/support) page and choose **Submit an Incident**. Indicate your request to publish your VPN Plug-In through the Microsoft Store.
 
-If you have any questions about the VPN API, contact [msftvpnapi@microsoft.com](mailto:msftvpnapi@microsoft.com).
 
 ## -remarks
 
