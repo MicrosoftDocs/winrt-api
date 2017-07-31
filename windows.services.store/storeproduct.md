@@ -13,16 +13,16 @@ public class StoreProduct : Windows.Services.Store.IStoreProduct
 Represents a product that is available in the Windows Store.
 
 ## -remarks
-The [StoreProductQueryResult.Products](storeproductqueryresult_products.md), [StoreProductPagedQueryResult.Products](storeproductpagedqueryresult_products.md), and [StoreProductResult.Product](storeproductresult_product.md) properties return objects of this type. For more information about products and their relationship with SKUs and availabilities, see [In-app purchases and trials](https://msdn.microsoft.com/windows/uwp/monetize/in-app-purchases-and-trials).
+Products in the Store are organized in a hierarcy of *product*, *SKU*, and *availability* objects. Products are represented by **StoreProduct** objects. The SKUs for each product are represented by [StoreSku](storesku.md) objects, and the availabilities for each SKU are represented by [StoreAvailability](storeavailability.md) objects. For more information, see [In-app purchases and trials](https://msdn.microsoft.com/windows/uwp/monetize/in-app-purchases-and-trials#products-skus).
 
-To retrieve product listing info for a product, use the following methods of the [StoreContext](storecontext.md) class:
+To retrieve a **StoreProduct** object for the current app, use the [GetStoreProductForCurrentAppAsync](storecontext_getstoreproductforcurrentappasync.md) method. 
+
+To retrieve **StoreProduct** objects for products that can be purchased from within the current app, use these methods.
 + [GetAssociatedStoreProductsAsync](storecontext_getassociatedstoreproductsasync.md)
 + [GetAssociatedStoreProductsWithPagingAsync](storecontext_getassociatedstoreproductswithpagingasync.md)
 + [GetStoreProductsAsync](storecontext_getstoreproductsasync.md)
-+ [GetStoreProductForCurrentAppAsync](storecontext_getstoreproductforcurrentappasync.md)
 + [GetUserCollectionAsync](storecontext_getusercollectionasync.md)
 + [GetUserCollectionWithPagingAsync](storecontext_getusercollectionwithpagingasync.md)
-
 
 ## -examples
 

@@ -19,7 +19,7 @@ Represents a remote device's request to join a session controlled by this device
 ## -examples
 See the following code for an example of how to create a remote session and handle join requests.
 
-```java
+```csharp
 
 public async void StartNewSharedExperience() {
     

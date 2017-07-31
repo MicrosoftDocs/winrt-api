@@ -12,6 +12,8 @@ public class ActivitySensor : Windows.Devices.Sensors.IActivitySensor
 ## -description
 Represents an activity sensor that provides the activity and status of a sensor.
 
+For an example implementation, see the [activity sensor sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/ActivitySensor).
+
 ## -remarks
 > [!NOTE]
 > This class is not supported in JavaScript

@@ -18,13 +18,12 @@ Asynchronously starts a speech recognition session that includes additional UI m
 ### -param language
 The spoken language to use for recognition.
 
-## -exceptions
-### 0x800455bc (SPERR_WINRT_UNSUPPORTED_LANG)
-
-If the specified language is not supported.
-
 ## -remarks
 [CurrentLanguage](speechrecognizer_currentlanguage.md) is set to the value of *language*.
+
+#### Error codes
+##### SPERR_WINRT_UNSUPPORTED_LANG  (0x800455bc)
+Thrown if the specified language is not supported.
 
 ## -examples
 

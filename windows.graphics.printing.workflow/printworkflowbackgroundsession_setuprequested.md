@@ -10,6 +10,7 @@ public event TypedEventHandler SetupRequested<PrintWorkflowBackgroundSession, Pr
 # Windows.Graphics.Printing.Workflow.PrintWorkflowBackgroundSession.SetupRequested
 
 ## -description
+Raised first in the print workflow background session. This event exposes information about the print job but not the print content itself. Register for this event to do work on a print job configuration before printing.
 
 ## -remarks
 

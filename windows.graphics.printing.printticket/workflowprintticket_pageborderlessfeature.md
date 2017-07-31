@@ -10,8 +10,10 @@ public PrintTicketFeature PageBorderlessFeature { get; }
 # Windows.Graphics.Printing.PrintTicket.WorkflowPrintTicket.PageBorderlessFeature
 
 ## -description
+Gets the document borderless configuration for this print ticket.
 
 ## -property-value
+The borderless feature object.
 
 ## -remarks
 

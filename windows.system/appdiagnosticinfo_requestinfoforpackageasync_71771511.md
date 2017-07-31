@@ -10,11 +10,14 @@ public IAsyncOperation<AppDiagnosticInfo>> AppDiagnosticInfo.RequestInfoForPacka
 # Windows.System.AppDiagnosticInfo.RequestInfoForPackageAsync
 
 ## -description
+Gets a collection of **[AppDiagnosticInfo](appdiagnosticinfo.md)** objects for all instances of the specified app package. 
 
 ## -parameters
 ### -param packageFamilyName
+The identifier of the app package for which to get the **[AppDiagnosticInfo](appdiagnosticinfo.md)**.
 
 ## -returns
+A collection of **[AppDiagnosticInfo](appdiagnosticinfo.md)** objects for all instances of the app package specified by *packageFamilyName*. 
 
 ## -remarks
 
@@ -22,3 +25,5 @@ public IAsyncOperation<AppDiagnosticInfo>> AppDiagnosticInfo.RequestInfoForPacka
 
 ## -examples
 
+## -capabilities
+appDiagnostics

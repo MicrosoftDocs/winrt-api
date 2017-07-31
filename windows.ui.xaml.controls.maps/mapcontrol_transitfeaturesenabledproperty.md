@@ -10,10 +10,10 @@ public Windows.UI.Xaml.DependencyProperty TransitFeaturesEnabledProperty { get; 
 # Windows.UI.Xaml.Controls.Maps.MapControl.TransitFeaturesEnabledProperty
 
 ## -description
-Identifies the [TransitFeaturesEnabled](mapcontrol_transitfeaturesenabled.md) dependency property.
+This property is not implemented.
 
 ## -property-value
-The [TransitFeaturesEnabled](mapcontrol_transitfeaturesenabled.md) dependency property.
+This property is not implemented.
 
 ## -remarks
 

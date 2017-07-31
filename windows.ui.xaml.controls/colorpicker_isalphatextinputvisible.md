@@ -13,6 +13,12 @@ public bool IsAlphaTextInputVisible { get;  set; }
 
 Gets or sets a value that indicates whether the text input box for the alpha channel is shown.
 
+## -xaml-syntax
+
+```xaml
+<ColorPicker IsAlphaTextInputVisible="bool" .../>
+```
+
 ## -property-value
 
 **true** if the alpha channel text input box is shown; otherwise, **false**. The default is **true**.

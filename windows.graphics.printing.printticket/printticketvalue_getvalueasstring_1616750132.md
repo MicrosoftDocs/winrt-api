@@ -10,8 +10,10 @@ public string PrintTicketValue.GetValueAsString()
 # Windows.Graphics.Printing.PrintTicket.PrintTicketValue.GetValueAsString
 
 ## -description
+Converts the print value to a string.
 
 ## -returns
+A string indicating the value.
 
 ## -remarks
 

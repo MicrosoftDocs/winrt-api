@@ -34,6 +34,14 @@ Text is justified within the container.
 ### -field DetectFromContent:4
 Text alignment is inferred from the text content.
 
+### -field End:2
+
+The end of the text is aligned to the edge of the container.
+
+### -field Start:1
+
+The beginning of the text is aligned to the edge of the container.
+
 
 ## -remarks
 **DetectFromContent** is available starting with Windows 10. When the **TextAlignment** property is set to **DetectFromContent**, alignment is inferred from the text content of the control. For example, English text is left aligned, and Arabic text is right aligned.
@@ -42,3 +50,4 @@ Text alignment is inferred from the text content.
 
 ## -see-also
 [RichEditBox.TextAlignment](../windows.ui.xaml.controls/richeditbox_textalignment.md), [RichTextBlock.TextAlignment](../windows.ui.xaml.controls/richtextblock_textalignment.md), [TextBlock.TextAlignment](../windows.ui.xaml.controls/textblock_textalignment.md), [TextBox.TextAlignment](../windows.ui.xaml.controls/textbox_textalignment.md), [FlowDirection](flowdirection.md), [How to support bidirectional UI](http://msdn.microsoft.com/library/66f92aff-6f1c-428f-b06f-b2892a8015b7)
+

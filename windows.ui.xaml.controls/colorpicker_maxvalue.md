@@ -13,6 +13,12 @@ public int MaxValue { get;  set; }
 
 Gets or sets the maximum Value value in the range 0-100.
 
+## -xaml-syntax
+
+```xaml
+<ColorPicker MaxValue="int" .../>
+```
+
 ## -property-value
 
 The maximum Value value in the range 0-100. The default is 100.

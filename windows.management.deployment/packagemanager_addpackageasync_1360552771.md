@@ -33,6 +33,7 @@ The package family names from the main bundle to be registered.
 The URIs of the other packages in the main bundle to be registered.
 
 ## -returns
+The DeploymentProgress percentage of completion over the entire course of the deployment operation.
 
 ## -remarks
 

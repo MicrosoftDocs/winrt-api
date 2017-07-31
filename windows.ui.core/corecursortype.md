@@ -26,7 +26,7 @@ A custom cursor.
 The "hand" Windows cursor.
 
 ### -field Help:4
-The "
+The left-upward (northwest) arrow Windows cursor with a question mark.
 
 ### -field IBeam:5
 The "I"-shaped Windows cursor used for text selection.
@@ -55,9 +55,18 @@ The up arrow Windows cursor.
 ### -field Wait:13
 The cycling Windows "wait" cursor often used to indicate that an element or behavior is in a wait state and cannot respond at the time.
 
+### -field Person:15
+
+The "hand" Windows cursor with a person symbol.
+
+### -field Pin:14
+
+The "hand" Windows cursor with a pin symbol.
+
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
+

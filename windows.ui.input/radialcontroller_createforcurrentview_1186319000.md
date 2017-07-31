@@ -16,6 +16,7 @@ Instantiates a [RadialController](radialcontroller.md) object for the wheel devi
 The [RadialController](radialcontroller.md) object to bind to the active application.
 
 ## -remarks
+We recommend creating the [RadialController](radialcontroller.md) object in your app's OnPageLoaded event handler.
 
 ## -examples
 

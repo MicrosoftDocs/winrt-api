@@ -10,8 +10,10 @@ public IAsyncOperation<WorkflowPrintTicket> PrintWorkflowSourceContent.GetJobPri
 # Windows.Graphics.Printing.Workflow.PrintWorkflowSourceContent.GetJobPrintTicketAsync
 
 ## -description
+Gets the print ticket for the printing task associated with this print data.
 
 ## -returns
+A print ticket object with the current print task configuration.
 
 ## -remarks
 

@@ -10,15 +10,21 @@ public IAsyncOperation<AppDiagnosticInfo>> AppDiagnosticInfo.RequestInfoForAppAs
 # Windows.System.AppDiagnosticInfo.RequestInfoForAppAsync
 
 ## -description
+Gets a collection of **[AppDiagnosticInfo](appdiagnosticinfo.md)** objects for all instances of the specified running app. 
 
 ## -parameters
-### -param aumid
+### -param appUserModelId
+The identifier of the running app for which to get the **[AppDiagnosticInfo](appdiagnosticinfo.md)**.
 
 ## -returns
+A collection of **[AppDiagnosticInfo](appdiagnosticinfo.md)** objects for all instances of the app specified by *appUserModelId*. 
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
+
+## -capabilities
+appDiagnostics
 

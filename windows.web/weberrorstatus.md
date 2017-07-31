@@ -173,6 +173,12 @@ The server was acting as a gateway or proxy and did not receive a timely respons
 The server does not support the HTTP protocol version used in the request.
 
 
+### -field InsufficientRangeSupport:22
+The request does not support the range. 
+
+### -field MissingContentLengthSupport:23
+The request is mising the file size.
+
 ## -remarks
 A [WebErrorStatus](weberrorstatus.md) value is returned by [Windows.Web.WebError.GetStatus | getStatus](weberror_getstatus.md), [Windows.Networking.WebSocketError.GetStatus | getStatus](../windows.networking.sockets/websocketerror_getstatus.md), and [Windows.Networking.BackgroundTransfer.GetStatus | getStatus](../windows.networking.backgroundtransfer/backgroundtransfererror_getstatus.md).
 
@@ -243,3 +249,4 @@ else
 
 ## -see-also
 [Windows.Web.WebError.GetStatus | getStatus](weberror_getstatus.md), [Windows.Networking.WebSocketError.GetStatus | getStatus](../windows.networking.sockets/websocketerror_getstatus.md), [Windows.Networking.BackgroundTransfer.GetStatus | getStatus](../windows.networking.backgroundtransfer/backgroundtransfererror_getstatus.md), [Background Transfer Download  sample](http://go.microsoft.com/fwlink/p/?linkid=245064)
+

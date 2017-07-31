@@ -12,6 +12,12 @@ public event Windows.Foundation.TypedEventHandler AccessKeyInvoked<Windows.UI.Xa
 ## -description
 Occurs when a user completes an access key sequence to notify the element that the access key action should be invoked.
 
+## -xaml-syntax
+
+```xaml
+<uiElement AccessKeyInvoked="eventhandler"/>
+```
+
 ## -remarks
 This event indicates that an element’s access key action should be invoked. For example, this will be raised if an element’s [AccessKey](uielement_accesskey.md) is "A" and the user presses Alt-A.
 

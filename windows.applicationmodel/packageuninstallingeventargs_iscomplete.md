@@ -10,10 +10,10 @@ public bool IsComplete { get; }
 # Windows.ApplicationModel.PackageUninstallingEventArgs.IsComplete
 
 ## -description
-Indicates whether the appx package is done uninstalling.
+Indicates whether the app package is done uninstalling.
 
 ## -property-value
-**True** indicates that the appx package is done uninstalling; **false**, otherwise.
+**True** indicates that the app package is done uninstalling; **false**, otherwise.
 
 ## -remarks
 

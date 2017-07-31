@@ -11,6 +11,8 @@ public void GetLocationFromOffset(Windows.Foundation.Point offset, Windows.Devic
 
 ## -description
 Converts a point on the map to a geographic location.
+> [!NOTE]
+This method is deprecated. Use the [TryGetLocationFromOffset](mapcontrol_trygetlocationfromoffset_77980665.md) method instead.
 
 ## -parameters
 ### -param offset
@@ -21,6 +23,7 @@ When this method returns, contains the corresponding geographic location.
 
 ## -remarks
 This method will throw an exception if the point is invalid.
+
 
 ## -examples
 

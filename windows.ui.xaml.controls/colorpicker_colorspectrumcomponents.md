@@ -13,6 +13,12 @@ public ColorSpectrumComponents ColorSpectrumComponents { get;  set; }
 
 Gets or sets a value that indicates how the Hue-Saturation-Value (HSV) color components are mapped onto the [ColorSpectrum](colorspectrum.md).
 
+## -xaml-syntax
+
+```xaml
+<ColorPicker ColorSpectrumComponents="colorSpectrumComponentsName" .../>
+```
+
 ## -property-value
 
 A value of the enumeration. The default is **HueSaturation**.

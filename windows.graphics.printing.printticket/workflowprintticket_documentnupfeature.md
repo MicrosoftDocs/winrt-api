@@ -10,8 +10,10 @@ public PrintTicketFeature DocumentNUpFeature { get; }
 # Windows.Graphics.Printing.PrintTicket.WorkflowPrintTicket.DocumentNUpFeature
 
 ## -description
+Gets the N-up printing configuration for this print ticket.
 
 ## -property-value
+The N-up printing feature object.
 
 ## -remarks
 

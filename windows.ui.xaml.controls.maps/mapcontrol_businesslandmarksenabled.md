@@ -10,10 +10,10 @@ public bool BusinessLandmarksEnabled { get;  set; }
 # Windows.UI.Xaml.Controls.Maps.MapControl.BusinessLandmarksEnabled
 
 ## -description
-Gets or sets a value that indicates whether businesses landmarks are enabled on the map.
+This property is not implemented.
 
 ## -property-value
-Value that indicates whether businesses landmarks are enabled on the map.
+This property is not implemented.
 
 ## -remarks
 

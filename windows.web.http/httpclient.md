@@ -67,7 +67,7 @@ catch
 
 // Once your app is done using the HttpClient object call dispose to 
 // free up system resources (the underlying socket and memory used for the object)
-httpclient.Dispose();
+httpClient.Dispose();
 
 
 ```

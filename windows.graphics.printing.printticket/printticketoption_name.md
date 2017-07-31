@@ -10,8 +10,10 @@ public string Name { get; }
 # Windows.Graphics.Printing.PrintTicket.PrintTicketOption.Name
 
 ## -description
+Gets the canonical name of this print option.
 
 ## -property-value
+The canonical name.
 
 ## -remarks
 

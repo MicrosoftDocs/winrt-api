@@ -22,13 +22,13 @@ A watcher object to be used in discovering remote sessions.
 ## -examples
 See the code example below for the process of discovering a remote session. 
 
-```java
+```csharp
 
 // Discover an existing shared experience.
 public void DiscoverExistingSessions() {
     
     // create a watcher for remote system sessions
-    sessionWatcher = RemoteSystemSession.CreateWatcher();
+    RemoteSystemSessionWatcher sessionWatcher = RemoteSystemSession.CreateWatcher();
     
     // register a handler for the "added" event
     sessionWatcher.Added += async (sender, args) => {
@@ -44,7 +44,7 @@ public void DiscoverExistingSessions() {
         //...
     };
     
-    // 3. Begin watching
+    // Begin watching
     sessionWatcher.Start();
 }
 ```

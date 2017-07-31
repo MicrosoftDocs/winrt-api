@@ -19,14 +19,14 @@ A string that represents the **HTTP-date** or **delta-seconds** information in t
 ## -returns
 An [HttpDateOrDeltaHeaderValue](httpdateordeltaheadervalue.md) instance.
 
-## -exceptions
+## -remarks
+Below are the exceptions that this function throws.
+
 ### E_INVALIDARG
 
 The *input* parameter is **null** (**Nothing** in Visual Basic).
 
 The *input* parameter is not valid **HTTP-date** or **delta-seconds** information.
-
-## -remarks
 
 ## -examples
 

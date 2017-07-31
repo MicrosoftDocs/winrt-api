@@ -22,7 +22,11 @@ An HTTP completion option value that indicates when the operation should be cons
 ## -returns
 The object representing the asynchronous operation.
 
-## -exceptions
+## -remarks
+This operation will not block. The returned [IAsyncOperationWithProgress(HttpResponseMessage, HttpProgress)](../windows.foundation/iasyncoperationwithprogress_2.md) object will complete based on the *completionOption* parameter after part or all of the response (including content) is read.
+
+Below are the exceptions that this content throws.
+
 ### COMException
 
 Thrown when a feature-specific **HRESULT** is returned from a method call.
@@ -46,9 +50,6 @@ Thrown when an operation is performed on a disposed object.
 ### OutOfMemoryException
 
 Thrown when insufficient memory is available to complete the operation.
-
-## -remarks
-This operation will not block. The returned [IAsyncOperationWithProgress(HttpResponseMessage, HttpProgress)](../windows.foundation/iasyncoperationwithprogress_2.md) object will complete based on the *completionOption* parameter after part or all of the response (including content) is read.
 
 ## -examples
 

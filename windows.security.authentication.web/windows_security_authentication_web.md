@@ -8,7 +8,7 @@
 ## -description
 Enables apps to integrate with online web services without exposing a user's credentials. The web authentication broker provides a set of APIs and infrastructure for apps to use Internet authentication and authorization protocols like OAuth and OpenID.
 
-The single sign-on (SSO) mode of the web authentication broker APIs is provided to enable users to seamlessly authenticate to a single service across multiple apps. The provider of the service must all the user to explicitly consent to that authentication, typically by providing a "Keep me logged in" option. The provider must also make it clear to the user how their identity is being used, typically by providing a link to a privacy statement from the logon page.
+The single sign-on (SSO) mode of the web authentication broker APIs is provided to enable users to seamlessly authenticate to a single service across multiple apps. The provider of the service must allow the user to explicitly consent to that authentication, typically by providing a "Keep me logged in" option. The provider must also make it clear to the user how their identity is being used, typically by providing a link to a privacy statement from the logon page.
 
 The [Web authentication broker sample](http://code.msdn.microsoft.com/windowsapps/Web-Authentication-d0485122) in the Samples gallery is an example of how to use single sign on (SSO) for connections.
 

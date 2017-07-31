@@ -47,18 +47,19 @@ Here, we show how to overlay ink annotations on an image. For this example, ink 
 Here, we configure the [InkPresenter](../windows.ui.xaml.controls/inkcanvas_inkpresenter.md) to interpret input data from both pen and mouse as ink strokes. We also set some initial ink stroke attributes used for rendering strokes to the [InkCanvas](../windows.ui.xaml.controls/inkcanvas.md).
 
 
+[!code-csharp[SnippetSetInitialStrokeAttributes](../windows.ui.input.inking/code/Ink_Basic_Customization/csharp/MainPage.xaml.cs#SnippetSetInitialStrokeAttributes)]
 
-[TODO:AUTO_SNIPPET (SAMPLE_ID:Ink_Basic_Customization)(SNIPPET_ID:SetInitialStrokeAttributes)]Ink stroke attributes can be set dynamically to accommodate user preferences or app requirements.
+Ink stroke attributes can be set dynamically to accommodate user preferences or app requirements.
 
 Here, we let a user choose from a list of ink colors.
 
+[!code-xml[SnippetUI](../windows.ui.input.inking/code/Ink_Basic_Customization/csharp/MainPage.xaml#SnippetUI)]
+
+We then handle changes to the selected color and update the ink stroke attributes accordingly.
 
 
-[TODO:AUTO_SNIPPET (SAMPLE_ID:Ink_Basic_Customization)(SNIPPET_ID:UI)]We then handle changes to the selected color and update the ink stroke attributes accordingly.
+[!code-csharp[SnippetSetColorStrokeAttribute](../windows.ui.input.inking/code/Ink_Basic_Customization/csharp/MainPage.xaml.cs#SnippetSetColorStrokeAttribute)]
 
-
-
-[TODO:AUTO_SNIPPET (SAMPLE_ID:Ink_Basic_Customization)(SNIPPET_ID:SetColorStrokeAttribute)]
 
 ## -see-also
 [Windows.UI.Input.Inking Classes](windows_ui_input_inking_classes.md), [Pen and stylus interactions](http://msdn.microsoft.com/library/3da4f2d2-5405-42a1-9ed9-3a87bcd84c43), [Ink sample](http://go.microsoft.com/fwlink/p/?LinkID=620308), [Simple ink sample](http://go.microsoft.com/fwlink/p/?LinkID=620312), [Complex ink sample](http://go.microsoft.com/fwlink/p/?LinkID=620314)

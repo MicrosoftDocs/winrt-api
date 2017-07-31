@@ -10,6 +10,7 @@ public event TypedEventHandler Removed<AppDiagnosticInfoWatcher, AppDiagnosticIn
 # Windows.System.AppDiagnosticInfoWatcher.Removed
 
 ## -description
+Fires when one of the apps has been removed from the list of running apps.
 
 ## -remarks
 
@@ -17,3 +18,5 @@ public event TypedEventHandler Removed<AppDiagnosticInfoWatcher, AppDiagnosticIn
 
 ## -examples
 
+## -capabilities
+appDiagnostics

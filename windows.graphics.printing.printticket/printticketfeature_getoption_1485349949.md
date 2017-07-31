@@ -10,13 +10,17 @@ public PrintTicketOption PrintTicketFeature.GetOption(String name, String xmlNam
 # Windows.Graphics.Printing.PrintTicket.PrintTicketFeature.GetOption
 
 ## -description
+Gets the specified print feature option object.
 
 ## -parameters
 ### -param name
+The canonical name of the print feature option.
 
 ### -param xmlNamespace
+The XML namespace of the print feature option.
 
 ## -returns
+The specified print feature option object.
 
 ## -remarks
 

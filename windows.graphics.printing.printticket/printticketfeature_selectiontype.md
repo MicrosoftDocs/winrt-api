@@ -10,8 +10,10 @@ public PrintTicketFeatureSelectionType SelectionType { get; }
 # Windows.Graphics.Printing.PrintTicket.PrintTicketFeature.SelectionType
 
 ## -description
+Gets the selection type for this print feature.
 
 ## -property-value
+The selection type.
 
 ## -remarks
 

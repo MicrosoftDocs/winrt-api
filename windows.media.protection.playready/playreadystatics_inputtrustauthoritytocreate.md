@@ -20,8 +20,7 @@ Previous releases of the PlayReady API required callers to hard-code a well-know
 
 In the [MediaProtectionManager.Properties](https://msdn.microsoft.com/library/windows/apps/windows.media.protection.mediaprotectionmanager.properties.aspx) property (a [PropertySet](https://msdn.microsoft.com/library/windows/apps/windows.foundation.collections.propertyset.aspx) object), the "Windows.Media.Protection.MediaProtectionSystemIdMapping" string maps to another **PropertySet**. This in turn will typically have the string "Windows.Media.Protection.PlayReady.PlayReadyStatics.MediaProtectionSystemId" map to **Windows.Media.Protection.PlayReady.PlayReadyStatics.InputTrustAuthorityToCreate**.
 
-
-<!--<auto_snippet sample_id="PlayReadyStatics" snippet_id="SetUpMediaProtectionManager"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>-->
+[!code-csharp[SnippetSetUpMediaProtectionManager](../windows.media.protection.playready/code/PlayReadyStatics/csharp/MainPage.xaml.cs#SnippetSetUpMediaProtectionManager)]
 
 ## -examples
 

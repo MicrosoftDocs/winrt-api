@@ -10,10 +10,12 @@ public class WorkflowPrintTicket
 # Windows.Graphics.Printing.PrintTicket.WorkflowPrintTicket
 
 ## -description
+This class represents an XML *PrintTicket document* and allows it to be modified easily. The *PrintTicket document* contains instructions on how the printer should set its various features for a printing task.
 
 ## -remarks
 
 ## -see-also
+[IPrintSchemaTicket interface](https://msdn.microsoft.com/library/windows/hardware/hh451398(v=vs.85).aspx)
 
 ## -examples
 

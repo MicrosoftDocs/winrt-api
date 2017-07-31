@@ -19,14 +19,14 @@ A string that represents the product name and version.
 ## -returns
 An [HttpProductHeaderValue](httpproductheadervalue.md) instance.
 
-## -exceptions
+## -remarks
+Below are the exceptions that this function throws.,
+
 ### E_INVALIDARG
 
 The *input* parameter is **null** (**Nothing** in Visual Basic).
 
 The *input* parameter is not valid product name and version information.
-
-## -remarks
 
 ## -examples
 

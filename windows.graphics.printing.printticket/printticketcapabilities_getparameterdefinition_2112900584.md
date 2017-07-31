@@ -10,13 +10,17 @@ public PrintTicketParameterDefinition PrintTicketCapabilities.GetParameterDefini
 # Windows.Graphics.Printing.PrintTicket.PrintTicketCapabilities.GetParameterDefinition
 
 ## -description
+Gets the parameter definition object for the specified printing parameter.
 
 ## -parameters
 ### -param name
+The canonical name of the printing parameter.
 
 ### -param xmlNamespace
+The XML namespace of the printing parameter.
 
 ## -returns
+The parameter definition object.
 
 ## -remarks
 

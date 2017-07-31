@@ -20,7 +20,7 @@ A vector describing the direction and magnitude of the effect on each axis. Each
 The number of times the periodic wave occurs in one second.
 
 ### -param phase
-The percent at which to start the effect. Range is between -1 and 1.
+The phase offset from the origin of the periodic waveform, where 0.0 equals zero degrees of offset, and 1.0 equals 360 degrees of offset. For example, a phase value of 0.25 would correspond to a phase offset of 90 degrees.
 
 ### -param bias
 The adjustment to add to the magnitude after calculating the wave and before applying the ramp or gain. Range is between -1 and 1.

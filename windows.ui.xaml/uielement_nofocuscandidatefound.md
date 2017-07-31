@@ -12,6 +12,12 @@ public event TypedEventHandler NoFocusCandidateFound<UIElement, NoFocusCandidate
 ## -description
 Occurs when a user attempts to move focus (via tab or directional arrows), but focus doesn't move because no focus candidate is found in the direction of movement.
 
+## -xaml-syntax
+
+```xaml
+<uiElement NoFocusCandidateFound="eventhandler"/>
+```
+
 ## -remarks
 
 ## -see-also

@@ -14,6 +14,13 @@ Base class for brushes used to paint a [SpriteVisual](spritevisual.md).
 
 ## -remarks
 
+In your app, you'll typically use one of these subclasses of CompositionBrush:
+
++ [CompositionBackdropBrush](compositionbackdropbrush.md)
++ [CompositionColorBrush](compositioncolorbrush.md)
++ [CompositionEffectBrush](compositioneffectbrush.md)
++ [CompositionSurfaceBrush](compositionsurfacebrush.md)
+
 ## -examples
 
 ## -see-also

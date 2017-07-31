@@ -16,12 +16,12 @@ Initializes a new instance of the [HttpStreamContent](httpstreamcontent.md) clas
 ### -param content
 The content used to initialize the [HttpStreamContent](httpstreamcontent.md).
 
-## -exceptions
+## -remarks
+Below are the exceptions that this function throws.
+
 ### E_INVALIDARG
 
 The *content* parameter is **null** (**Nothing** in Visual Basic).
-
-## -remarks
 
 ## -examples
 

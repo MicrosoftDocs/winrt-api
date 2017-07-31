@@ -10,8 +10,10 @@ public PrintWorkflowSubmittedOperation Operation { get; }
 # Windows.Graphics.Printing.Workflow.PrintWorkflowXpsDataAvailableEventArgs.Operation
 
 ## -description
+Gets information about the current print task.
 
 ## -property-value
+Information about the print task.
 
 ## -remarks
 

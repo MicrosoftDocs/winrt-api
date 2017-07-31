@@ -19,14 +19,13 @@ A string that represents the connection information in the **Connection** HTTP h
 ## -returns
 An [HttpConnectionOptionHeaderValue](httpconnectionoptionheadervalue.md) instance.
 
-## -exceptions
+## -remarks
+Below are exceptions that this function throws.
 ### E_INVALIDARG
 
 The *input* parameter is **null** (**Nothing** in Visual Basic).
 
 The *input* parameter is not valid connection header information.
-
-## -remarks
 
 ## -examples
 

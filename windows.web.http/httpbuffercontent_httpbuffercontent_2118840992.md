@@ -22,7 +22,10 @@ The offset in bytes from the beginning of the *content* buffer to initialize the
 ### -param count
 The count of bytes in the *content* buffer to initialize the [HttpBufferContent](httpbuffercontent.md).
 
-## -exceptions
+## -remarks
+Only the range specified by the *offset* parameter and the *count* parameter is used to initialize the [HttpBufferContent](httpbuffercontent.md).
+
+Below are the exceptions that this content throws.
 ### E_INVALIDARG
 
 The *content* parameter is **null** (**Nothing** in Visual Basic).
@@ -33,8 +36,6 @@ The *offset* parameter is greater than the length of content specified by the *c
 
 The *count* parameter is less than zero or the *count* parameter is greater than the length of content specified by the *count* parameter minus the *offset* parameter.
 
-## -remarks
-Only the range specified by the *offset* parameter and the *count* parameter is used to initialize the [HttpBufferContent](httpbuffercontent.md).
 
 ## -examples
 

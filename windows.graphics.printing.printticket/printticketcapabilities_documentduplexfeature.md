@@ -10,8 +10,10 @@ public PrintTicketFeature DocumentDuplexFeature { get; }
 # Windows.Graphics.Printing.PrintTicket.PrintTicketCapabilities.DocumentDuplexFeature
 
 ## -description
+Gets the available duplex printing feature for this print ticket.
 
 ## -property-value
+The duplex printing feature object.
 
 ## -remarks
 

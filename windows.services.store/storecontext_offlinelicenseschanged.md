@@ -10,12 +10,17 @@ public event Windows.Foundation.TypedEventHandler OfflineLicensesChanged<Windows
 # Windows.Services.Store.StoreContext.OfflineLicensesChanged
 
 ## -description
-Raised when the status of the app's license changes (for example, the trial period has expired).
+Raised when the status of the app's license changes (for example, the trial period has expired or the user has purchased the full version of the app).
 
 ## -remarks
-When the [OfflineLicensesChanged](storecontext_offlinelicenseschanged.md) event is raised, you can get the latest license from the Windows Store by calling the [GetAppLicenseAsync](storecontext_getapplicenseasync.md) method. For more information about this event, including a code example, see [Implement a trial version of your app](https://msdn.microsoft.com/windows/uwp/monetize/implement-a-trial-version-of-your-app).
+When this event is raised, you can get the latest app license from the Windows Store by calling the [GetAppLicenseAsync](storecontext_getapplicenseasync.md) method. The [StoreAppLicense](storeapplicense.md) object returned by this method also contains the latest add-on licenses for the app in the [AddOnLicenses](storeapplicense_addonlicenses.md) property. 
+
+For more information about the [OfflineLicensesChanged](storecontext_offlinelicenseschanged.md) event, including a code example, see [Implement a trial version of your app](https://msdn.microsoft.com/windows/uwp/monetize/implement-a-trial-version-of-your-app).
+
+> [!NOTE]
+> This event is the equivalent of the [LicenseChanged](..\windows.applicationmodel.store\licenseinformation_licensechanged.md) event in the [Windows.ApplicationModel.Store](..\windows.applicationmodel.store\windows_applicationmodel_store.md) namespace.
 
 ## -examples
 
 ## -see-also
-[Implement a trial version of your app](https://msdn.microsoft.com/windows/uwp/monetize/implement-a-trial-version-of-your-app)
+[Implement a trial version of your app](https://msdn.microsoft.com/windows/uwp/monetize/implement-a-trial-version-of-your-app), [Store sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Store)

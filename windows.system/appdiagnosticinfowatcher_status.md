@@ -10,8 +10,10 @@ public AppDiagnosticInfoWatcherStatus Status { get; }
 # Windows.System.AppDiagnosticInfoWatcher.Status
 
 ## -description
+Gets this **AppDiagnosticInfoWatcher** status.
 
 ## -property-value
+The status such as Started, Stopped, and so on.
 
 ## -remarks
 
@@ -19,3 +21,5 @@ public AppDiagnosticInfoWatcherStatus Status { get; }
 
 ## -examples
 
+## -capabilities
+appDiagnostics

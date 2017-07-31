@@ -13,6 +13,12 @@ public double VerticalShift { get;  set; }
 
 Represents the vertical range of motion of the child element.
 
+## -xaml-syntax
+
+```xaml
+<ParallaxView VerticalShift="double" .../>
+```
+
 ## -property-value
 
 The vertical range of motion. The default is 0.

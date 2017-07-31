@@ -19,14 +19,14 @@ A string that represents the media-type, character set, and quality information 
 ## -returns
 An [HttpMediaTypeWithQualityHeaderValue](httpmediatypewithqualityheadervalue.md) instance.
 
-## -exceptions
+## -remarks
+Below are the exceptions that this function throws.
+
 ### E_INVALIDARG
 
 The *input* parameter is **null** (**Nothing** in Visual Basic).
 
 The *input* parameter is not valid media-type, character set , and quality information.
-
-## -remarks
 
 ## -examples
 

@@ -24,4 +24,5 @@ You should minimize the amount of work you do while the input pane is being hidd
 ## -examples
 
 ## -see-also
-[InputPaneVisibilityEventArgs](inputpanevisibilityeventargs.md)
+- [InputPaneVisibilityEventArgs](inputpanevisibilityeventargs.md)
+- [TryHide](inputpane_tryhide_42550069.md)

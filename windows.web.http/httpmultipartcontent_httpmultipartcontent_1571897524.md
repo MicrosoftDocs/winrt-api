@@ -19,7 +19,9 @@ The MIME subtype of the multipart content.
 ### -param boundary
 The boundary string for the multipart content.
 
-## -exceptions
+## -remarks
+Below are the exceptions that this function throws.
+
 ### E_INVALIDARG
 
 The *subtype* parameter is **null** (**Nothing** in Visual Basic).
@@ -27,8 +29,6 @@ The *subtype* parameter is **null** (**Nothing** in Visual Basic).
 The *boundary* parameter is **null** (**Nothing** in Visual Basic) or contains only white space characters or the boundary ends with a space character.
 
 The length of the *boundary* parameter is greater than 70.
-
-## -remarks
 
 ## -examples
 

@@ -10,8 +10,10 @@ public int PrintTicketValue.GetValueAsInteger()
 # Windows.Graphics.Printing.PrintTicket.PrintTicketValue.GetValueAsInteger
 
 ## -description
+Converts the print value to an `int`.
 
 ## -returns
+An `int` indicating the value.
 
 ## -remarks
 

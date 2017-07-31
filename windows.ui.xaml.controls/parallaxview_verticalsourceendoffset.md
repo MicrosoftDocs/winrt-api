@@ -13,6 +13,12 @@ public double VerticalSourceEndOffset { get;  set; }
 
 Represents the vertical scroll offset at which the parallax motion ends.
 
+## -xaml-syntax
+
+```xaml
+<ParallaxView VerticalSourceEndOffset="double" .../>
+```
+
 ## -property-value
 
 The vertical scroll offset at which parallax motion ends. The default is 0.

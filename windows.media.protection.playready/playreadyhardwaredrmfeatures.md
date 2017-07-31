@@ -21,7 +21,7 @@ Indicates the hardware supports High Efficiency Video Coding (HEVC)/H.265 codec.
 
 
 ### -field Aes128Cbc:3
-
+Indicates the hardware supports AES128CBC encryption.
 
 ## -remarks
 

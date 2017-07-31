@@ -10,8 +10,10 @@ public PrintTicketFeature DocumentInputBinFeature { get; }
 # Windows.Graphics.Printing.PrintTicket.PrintTicketCapabilities.DocumentInputBinFeature
 
 ## -description
+Gets the available printing input bin feature for this print ticket.
 
 ## -property-value
+The printing input bin feature object.
 
 ## -remarks
 

@@ -10,8 +10,10 @@ public IXmlNode XmlNode { get; }
 # Windows.Graphics.Printing.PrintTicket.PrintTicketCapabilities.XmlNode
 
 ## -description
+Gets the XML node for this capabilities object.
 
 ## -property-value
+The XML node.
 
 ## -remarks
 

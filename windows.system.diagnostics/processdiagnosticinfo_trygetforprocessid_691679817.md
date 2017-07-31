@@ -10,9 +10,11 @@ public ProcessDiagnosticInfo ProcessDiagnosticInfo.TryGetForProcessId(UInt32 pro
 # Windows.System.Diagnostics.ProcessDiagnosticInfo.TryGetForProcessId
 
 ## -description
+Gets a [ProcessDiagnosticInfo](processdiagnosticinfo.md) object for the specified process.
 
 ## -parameters
 ### -param processId
+The identifier of the process for which to retrieve a [ProcessDiagnosticInfo](processdiagnosticinfo.md) object.
 
 ## -returns
 

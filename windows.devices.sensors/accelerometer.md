@@ -14,6 +14,8 @@ Represents an accelerometer sensor.
 
 This sensor returns G-force values with respect to the x, y, and z axes.
 
+For an example implementation, see the [accelerometer sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Accelerometer).
+
 ## -remarks
 Applications use the methods in this class to determine whether the sensor reading has changed or the device has been shaken.
 

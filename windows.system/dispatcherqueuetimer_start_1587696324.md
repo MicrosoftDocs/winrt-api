@@ -10,10 +10,10 @@ public void DispatcherQueueTimer.Start()
 # Windows.System.DispatcherQueueTimer.Start
 
 ## -description
+Starts the timer.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

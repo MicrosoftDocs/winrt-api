@@ -13,6 +13,12 @@ public double MaxVerticalShiftRatio { get;  set; }
 
 Clamps the vertical parallax ratio to the specified percentage of the source scroll velocity.
 
+## -xaml-syntax
+
+```xaml
+<ParallaxView MaxVerticalShiftRatio="double" .../>
+```
+
 ## -property-value
 
 The maximum percentage of the source scroll velocity. The default is 1.0.

@@ -19,14 +19,14 @@ The HTTP content to add to [HttpMultipartFormDataContent](httpmultipartformdatac
 ### -param name
 The name for the HTTP content to add to [HttpMultipartFormDataContent](httpmultipartformdatacontent.md).
 
-## -exceptions
+## -remarks
+Below are the exceptions that this function throws
+
 ### E_INVALIDARG
 
 The *content* parameter is **null** (**Nothing** in Visual Basic).
 
 The *name* parameter is **null** (**Nothing** in Visual Basic).
-
-## -remarks
 
 ## -examples
 

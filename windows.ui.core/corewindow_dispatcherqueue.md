@@ -11,15 +11,14 @@ public DispatcherQueue DispatcherQueue { get; }
 
 ## -description
 
-Gets the dispatcher queue for the window.
+Gets the **DispatcherQueue** for the window.
 
 ## -property-value
 
-The dispatcher queue for the window.
+The **DispatcherQueue**.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

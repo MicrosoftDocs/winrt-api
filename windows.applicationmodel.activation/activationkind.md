@@ -124,8 +124,14 @@ Reserved for system use. Introduced in Windows 10, version 1703 (10.0.15063).
 ### -field PrintWorkflowForegroundTask:1018
 This app was activated because the user is printing to a printer that has a Print Workflow Application associated with it which has requested user input. Prerelease.
 
-### -field Console:1019
-The app was launched because it was activated from the command line. Prerelease.
+### -field GameUIProvider:1019
+
+
+### -field StartupTask:1020
+
+
+### -field CommandLineLaunch:1021
+The app was launched from the command line. Prerelease.
 
 ## -remarks
 

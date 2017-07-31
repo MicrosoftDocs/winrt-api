@@ -20,13 +20,13 @@ A session that has been joined is represented by a [RemoteSystemSession](RemoteS
 ## -examples
 See the code example below for the full process of discovering a remote session (including obtaining a reference to a [RemoteSystemSessionInfo](RemoteSystemSessionInfo.md) instance).
 
-```java
+```csharp
 
 // Discover an existing shared experience.
 public void DiscoverExistingSessions() {
     
     // create a watcher for remote system sessions
-    sessionWatcher = RemoteSystemSession.CreateWatcher();
+    RemoteSystemSessionWatcher sessionWatcher = RemoteSystemSession.CreateWatcher();
     
     // register a handler for the "added" event
     sessionWatcher.Added += async (sender, args) => {
@@ -42,14 +42,14 @@ public void DiscoverExistingSessions() {
         //...
     };
     
-    // 3. Begin watching
+    // Begin watching
     sessionWatcher.Start();
 }
 ```
 
 Once a [RemoteSystemSessionInfo](RemoteSystemSessionInfo.md) reference has be acquired, it can be used to issue a join request. See the code example below for the process of joining a remote session.
 
-```java
+```csharp
 
 public async void JoinExistingSession() {
     

@@ -23,7 +23,8 @@ Represents a control that displays data items in rows and columns.
 
 
 ## -remarks
-Use a [GridView](gridview.md) to display a collection of data in rows and columns that can scroll vertically. To display a collection stacked vertically, use a [ListView](listview.md).
+
+Use a **GridView** to display a collection of items in rows and columns that can scroll vertically. Data is stacked horizontally until it fills the columns, then continues with the next row. It's often used when you need to show a rich visualization of each item that takes more space, such as a photo gallery.
 
 <img alt="Grid view control" src="images/controls/GridViewBasic.png" />
 
@@ -35,6 +36,12 @@ By default, a data item is displayed in the [GridView](gridview.md) as the strin
 > If you populate the [GridView](gridview.md) by setting the [ItemsSource](itemscontrol_itemssource.md) property, the [ItemTemplate](itemscontrol_itemtemplate.md) is applied to every item. If you populate the [Items](itemscontrol_items.md) collection directly, the [ItemTemplate](itemscontrol_itemtemplate.md) is applied only if the item is not a [GridViewItem](gridviewitem.md). See Examples for more info.
 
 If you use the [GridView](gridview.md) to display large sets of data, see [Optimize ListView and GridView](http://msdn.microsoft.com/library/26df15e8-2c05-4174-a714-7df2e8273d32) for tips to maintain a smooth and responsive user experience.
+
+> <div id="main">
+> <strong><span class="uwpd-prelease">Prerelease.</span> Fall Creators Update (Windows 10 Insider Preview Build 16215 and later) - Behavior change</strong>
+> </div>
+> By default, instead of performing selection, an active pen now scrolls/pans a list in UWP apps (like touch, touchpad, and passive pen).
+> If your app depends on the previous behavior, you can override pen scrolling and revert to the previous behavior. See the [Scroll​Viewer](scrollviewer.md) class reference for details.
 
 By default, a user can select a single item in a [GridView](gridview.md). You can set the [SelectionMode](listviewbase_selectionmode.md) property to a [ListViewSelectionMode](listviewselectionmode.md) enumeration value to allow multi-selection or to disable selection. You can also change the [GridView](gridview.md) interaction mode to make items respond to a user click like a button instead of being selected.
 

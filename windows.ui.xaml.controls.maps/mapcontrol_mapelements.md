@@ -16,6 +16,9 @@ Gets the collection of [MapElement](mapelement.md) objects that are children of 
 The collection of [MapElement](mapelement.md) objects that are children of the [MapControl](mapcontrol.md).
 
 ## -remarks
+>[!Note]
+In the Windows 10 Fall Creators Update, we recommend that you add [MapElement](mapelement.md) objects to a [MapElementsLayer](mapelementslayer.md) instead of adding them to the [MapElements](mapcontrol_mapelements.md) collection.
+
 Display pushpins, images, and shapes on the [MapControl](mapcontrol.md) by adding them to its [MapElements](mapcontrol_mapelements.md) collection.
 
 

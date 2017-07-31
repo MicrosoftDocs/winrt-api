@@ -19,15 +19,6 @@ The HTTP request message to send.
 ## -returns
 The object representing the asynchronous operation.
 
-## -exceptions
-### E_INVALIDARG
-
-The *request* parameter was a **null** reference (**Nothing** in Visual Basic).
-
-### E_ILLEGAL_METHOD_CALL
-
-The request message was already sent by the [IHttpFilter](ihttpfilter.md) instance.
-
 ## -remarks
 Custom filters are implemented in the [SendRequestAsync](ihttpfilter_sendrequestasync.md) method on their [IHttpFilter](ihttpfilter.md) interface.
 
@@ -38,6 +29,14 @@ An HTTP filter is a black box which takes an HTTP request message and produces a
 Filters commonly add or change headers, handle authorization (possibly using the [WebAuthenticationBroker](../windows.security.authentication.web/webauthenticationbroker.md)), or allow or disallow a request based on network conditions. Filters usually make changes and then pass the request to an inner filter, which is typically set when a filter is constructed.
 
 This approach allows filters to be only responsible for a specific aspect of an HTTP request execution and delegate other aspects to other filters. A filter can implement caching, authentication, redirects, cookies, actual communication with the server, or a combination of these. The bottom-most (base) filter will usually be the one that does actual communication with the network.
+
+Below are some exceptions that this function throws.
+
+### E_INVALIDARG
+The *request* parameter was a **null** reference (**Nothing** in Visual Basic).
+
+### E_ILLEGAL_METHOD_CALL
+The request message was already sent by the [IHttpFilter](ihttpfilter.md) instance.
 
 ## -examples
 

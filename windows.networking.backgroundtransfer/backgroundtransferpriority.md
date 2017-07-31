@@ -10,7 +10,7 @@ public enum Windows.Networking.BackgroundTransfer.BackgroundTransferPriority : i
 # BackgroundTransferPriority
 
 ## -description
-Defines the values used to indicate the priority of a download or upload operation when within a [BackgroundTransferGroup](backgroundtransfergroup.md).
+Indicates the priority that a BackgroundTransfer operation(download or upload) has in terms of scheduling within an app.
 
 ## -enum-fields
 ### -field Default:0

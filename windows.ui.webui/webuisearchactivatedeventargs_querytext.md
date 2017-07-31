@@ -22,6 +22,8 @@ The [Search contract sample](http://go.microsoft.com/fwlink/p/?linkid=234892) de
 
 
 
-[TODO:AUTO_SNIPPET (SAMPLE_ID:searchextension)(SNIPPET_ID:searchkind_js)]In the example, `e` is a [webUISearchActivatedEventArgs](webuisearchactivatedeventargs.md) object.
+[!code-csharp[Snippetsearchkind_js](../windows.applicationmodel.search/code/SearchContract/js/js/default.js#Snippetsearchkind_js)]
+
+In the example, `e` is a [webUISearchActivatedEventArgs](webuisearchactivatedeventargs.md) object.
 
 ## -see-also

@@ -10,8 +10,10 @@ public PrintTicketFeature DocumentStapleFeature { get; }
 # Windows.Graphics.Printing.PrintTicket.WorkflowPrintTicket.DocumentStapleFeature
 
 ## -description
+Gets the document staple configuration for this print ticket.
 
 ## -property-value
+The document staple feature object.
 
 ## -remarks
 

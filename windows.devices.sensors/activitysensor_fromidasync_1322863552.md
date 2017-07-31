@@ -14,7 +14,7 @@ Asynchronously obtains the sensor from its identifier.
 
 ## -parameters
 ### -param deviceId
-The sensor identifier.
+[The sensor identifier](https://docs.microsoft.com/en-us/windows-hardware/drivers/install/device-instance-ids)
 
 ## -returns
 Returns the [ActivitySensor](activitysensor.md) object from its identifier.
@@ -24,7 +24,6 @@ Returns the [ActivitySensor](activitysensor.md) object from its identifier.
 ## -examples
 
 ## -see-also
-
 
 ## -capabilities
 activity

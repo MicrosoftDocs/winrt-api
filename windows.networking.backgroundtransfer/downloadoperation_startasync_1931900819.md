@@ -15,32 +15,33 @@ Starts an asynchronous download operation.
 ## -returns
 An asynchronous download operation that includes progress updates.
 
-## -exceptions
-### COMException
+## -remarks
+
+### Exceptions
+#### COMException
 
 Thrown when a feature-specific **HRESULT** is returned from a method call.
 
 This is the most common exception that is thrown by networking methods. An app should use the **HRESULT** from the exception to determine the cause of the error. For more information on specific errors, see the **Error Codes** section below.
 
-### AccessDeniedException
+#### AccessDeniedException
 
 Thrown when access is denied to a resource or feature. This exception occurs when an app doesn't have the required network capabilities set in the app manifest for the network operation requested.
 
-### InvalidArgumentException
+#### InvalidArgumentException
 
 Thrown when one of the arguments that are provided to a method is not valid.
 
 If user-supplied input caused this exception, an app could inform the user and request new input.
 
-### ObjectDisposedException
+#### ObjectDisposedException
 
 Thrown when an operation is performed on a disposed object.
 
-### OutOfMemoryException
+#### OutOfMemoryException
 
 Thrown when insufficient memory is available to complete the operation.
 
-## -remarks
 Background transfer doesn't support concurrent downloads of the same [Uri](../windows.foundation/uri.md). So an app can download *http://example.com/myfile.wmv* once, or download it again after a previous download completed. An app shouldn't start two downloads of the same [Uri](../windows.foundation/uri.md) concurrently, since this may result in truncated files.
 
 A download operation must be scheduled using one of the [BackgroundDownloader.CreateDownload](backgrounddownloader_createdownload.md) or [BackgroundDownloader.CreateDownloadAsync](backgrounddownloader_createdownloadasync.md) methods before the [StartAsync](downloadoperation_startasync.md) method is called.

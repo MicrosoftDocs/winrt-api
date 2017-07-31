@@ -13,6 +13,12 @@ public bool IsGroup { get;  set; }
 
 Gets or sets a value that indicates whether the PersonPicture represents a group or an individual.
 
+## -xaml-syntax
+
+```xaml
+<PersonPicture IsGroup="bool"/>
+```
+
 ## -property-value
 
 **true** if the PersonPicture represents a group; otherwise, **false**.

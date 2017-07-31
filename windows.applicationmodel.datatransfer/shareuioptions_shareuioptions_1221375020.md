@@ -10,6 +10,7 @@ public ShareUIOptions.ShareUIOptions()
 # Windows.ApplicationModel.DataTransfer.ShareUIOptions.ShareUIOptions
 
 ## -description
+Creates a new ShareUIOptions object.
 
 ## -remarks
 

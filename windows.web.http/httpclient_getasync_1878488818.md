@@ -19,7 +19,15 @@ The [Uri](../windows.foundation/uri.md) to which the request is to be sent.
 ## -returns
 The object representing the asynchronous operation.
 
-## -exceptions
+## -remarks
+This operation will not block. The returned [IAsyncOperationWithProgress(HttpResponseMessage, HttpProgress)](../windows.foundation/iasyncoperationwithprogress_2.md) object will complete after the whole response (including content) is read.
+
+For sample code in C#/VB/C++ and XAML that shows how to use [HttpClient](httpclient.md) and [GetAsync(Uri)](httpclient_getasync_1878488818.md) to connect to an HTTP server and send a GET request, see [HttpClient](http://msdn.microsoft.com/library/ec9820d3-3a46-474f-8a01-ae1c27442750).
+
+For sample code in JavaScript and HTML that shows how to use [HttpClient](httpclient.md) and [GetAsync(Uri)](httpclient_getasync_1878488818.md) to connect to an HTTP server and send a GET request, see [Connecting to an HTTP server using Windows.Web.Http](http://msdn.microsoft.com/library/dfc2a92c-e84a-4def-9203-e348e64befe5).
+
+Below are the exceptions that this function throws.
+
 ### COMException
 
 Thrown when a feature-specific **HRESULT** is returned from a method call.
@@ -43,13 +51,6 @@ Thrown when an operation is performed on a disposed object.
 ### OutOfMemoryException
 
 Thrown when insufficient memory is available to complete the operation.
-
-## -remarks
-This operation will not block. The returned [IAsyncOperationWithProgress(HttpResponseMessage, HttpProgress)](../windows.foundation/iasyncoperationwithprogress_2.md) object will complete after the whole response (including content) is read.
-
-For sample code in C#/VB/C++ and XAML that shows how to use [HttpClient](httpclient.md) and [GetAsync(Uri)](httpclient_getasync_1878488818.md) to connect to an HTTP server and send a GET request, see [HttpClient](http://msdn.microsoft.com/library/ec9820d3-3a46-474f-8a01-ae1c27442750).
-
-For sample code in JavaScript and HTML that shows how to use [HttpClient](httpclient.md) and [GetAsync(Uri)](httpclient_getasync_1878488818.md) to connect to an HTTP server and send a GET request, see [Connecting to an HTTP server using Windows.Web.Http](http://msdn.microsoft.com/library/dfc2a92c-e84a-4def-9203-e348e64befe5).
 
 ## -examples
 

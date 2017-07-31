@@ -10,7 +10,7 @@ public string CustomDeveloperData { get; }
 # Windows.Services.Store.StoreSku.CustomDeveloperData
 
 ## -description
-Gets the custom developer data string (also called a tag) that contains custom information about the add-on (also called an in-app product or IAP) that this product SKU represents. This string corresponds to the value of the **Custom developer data field** in the properties page for the add-on in the Windows Dev Center dashboard.
+Gets the custom developer data string (also called a tag) that contains custom information about the add-on that this product SKU represents. This string corresponds to the value of the **Custom developer data** field in the properties page for the add-on in the Windows Dev Center dashboard.
 
 ## -property-value
 The custom developer data for the add-on.

@@ -10,8 +10,10 @@ public BluetoothDeviceId BluetoothDeviceId { get; }
 # Windows.Devices.Bluetooth.BluetoothDevice.BluetoothDeviceId
 
 ## -description
+Gets the bluetooth device ID.
 
 ## -property-value
+The bluetooth device ID.
 
 ## -remarks
 

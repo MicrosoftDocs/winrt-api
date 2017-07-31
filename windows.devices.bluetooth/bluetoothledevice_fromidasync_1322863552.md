@@ -11,7 +11,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Devices.Bluetooth.BluetoothLED
 # Windows.Devices.Bluetooth.BluetoothLEDevice.FromIdAsync
 
 ## -description
-Returns a BluetoothLEDevice object for the given Id.
+Returns a BluetoothLEDevice object for the given Id and initiate a connection.
 
 ## -parameters
 ### -param deviceId
