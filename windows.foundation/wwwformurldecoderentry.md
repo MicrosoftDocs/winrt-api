@@ -17,8 +17,6 @@ The [WwwFormUrlDecoder](wwwformurldecoder.md) class represents a Uniform Resourc
 
 Use [IWwwFormUrlDecoderEntry](iwwwformurldecoderentry.md) the interface rather than [WwwFormUrlDecoder](wwwformurldecoder.md) the class when possible. The [WwwFormUrlDecoderEntry](wwwformurldecoderentry.md) class isn't present as a runtime class for all languages or for all platforms. C# and Visual Basic code can use the [WwwFormUrlDecoder](wwwformurldecoder.md) class, but can't use [WwwFormUrlDecoderEntry](wwwformurldecoderentry.md). Windows Phone for all languages, all versions can't use [WwwFormUrlDecoderEntry](wwwformurldecoderentry.md). In all Windows Runtime APIs that reference the entries, they are passed as objects implementing the [IWwwFormUrlDecoderEntry](iwwwformurldecoderentry.md) interface, so you shouldn't need to recast to [WwwFormUrlDecoderEntry](wwwformurldecoderentry.md) for any scenario.
 
-<!--The APIs for C++ and JavaScript technically use the interface too, not the class, per the sigs and T type in WwwFormUrlDecoder. But the API is marked Dual, and it's possible that there is magic marshalling into this class, either because interfaces can't be dual or because of whatever crazy things JS does. Also, the class isn't supported for Phone, but the interface is. Makes me think that failing to remove the class from Windows 8.1 may have been a benign oversight that Phone has now corrected in its metadata.-->
-
 ## -examples
 
 ## -see-also
