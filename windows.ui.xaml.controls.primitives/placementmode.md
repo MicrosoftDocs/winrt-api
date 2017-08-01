@@ -21,7 +21,7 @@ Defines constants that specify the preferred location for positioning a [ToolTip
 
 ## -enum-fields
 ### -field Bottom:2
-The preferred location of the [ToolTip](../windows.ui.xaml.controls/tooltip.md) is below of the target element when element receives keyboard focus, at the bottom of the mouse pointer when element is hovered over with pointer.
+The preferred location of the [ToolTip](../windows.ui.xaml.controls/tooltip.md) is below the target element when element receives keyboard focus, at the bottom of the mouse pointer when element is hovered over with pointer.
 
 ### -field Left:9
 The preferred location of the [ToolTip](../windows.ui.xaml.controls/tooltip.md) is to the left of the target element when element receives keyboard focus, to the left of the mouse pointer when element is hovered over with pointer.
