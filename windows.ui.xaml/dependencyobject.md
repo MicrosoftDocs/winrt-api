@@ -86,4 +86,3 @@ This example shows a simple dependency property declaration. A call to [GetValue
 
 ## -see-also
 [DependencyProperty](dependencyproperty.md), [Dependency properties overview](http://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e), [Custom dependency properties](http://msdn.microsoft.com/library/5adf7935-f2cf-4bb6-b1a5-f535c2ed8ef8), [Custom attached properties](http://msdn.microsoft.com/library/e9c0c57e-6098-4875-aa3e-9d7b36e160e0), [Attached properties overview](http://msdn.microsoft.com/library/098c1de0-d640-48b1-9961-d0adf33266e2)
-XREF:TODO:dev_platform.custom_attached_properties), [Attached properties overview](http://msdn.microsoft.com/library/098c1de0-d640-48b1-9961-d0adf33266e2)
