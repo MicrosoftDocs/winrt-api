@@ -36,7 +36,7 @@ An *Access Denied* exception will be thrown if you attempt to call **ConnectAsyn
 
 ### Windows Phone 8
 
-Wi-Fi Direct is not supported on Windows Phone 8. For more information, see [Proximity](XREF:TODO:d3654cbf-7e79-4833-9bd3-f4c926eb7282).
+Wi-Fi Direct is not supported on Windows Phone 8. 
 
 ## -examples
 

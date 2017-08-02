@@ -29,4 +29,4 @@ The [IMap&lt;K,V&gt;](imap_2.md) interface represents a collection of key-value 
 ## -examples
 
 ## -see-also
-[Collections ()](XREF:TODO:914da30b-aac5-4cd7-9da3-a5ac08cdd72c), [System.Collections.Generic.IDictionary&lt;TKey,TValue&gt;](XREF:TODO:T:System.Collections.Generic.IDictionary`2)
+[Collections (C++/CX)](https://docs.microsoft.com/en-us/cpp/cppcx/collections-c-cx), [System.Collections.Generic.IDictionary&lt;TKey,TValue&gt;](XREF:TODO:T:System.Collections.Generic.IDictionary`2)

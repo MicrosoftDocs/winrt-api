@@ -28,4 +28,4 @@ Observable collections are mainly useful for XAML data binding scenarios. For mo
 ## -examples
 
 ## -see-also
-[IObservableVector&lt;T&gt;](iobservablevector_1.md), [Collections ()](XREF:TODO:914da30b-aac5-4cd7-9da3-a5ac08cdd72c), [Data binding in depth](http://msdn.microsoft.com/library/41e1b4f1-6caf-4128-a61a-4e400b149011)
+[IObservableVector&lt;T&gt;](iobservablevector_1.md), [Collections (C++/CX)](https://docs.microsoft.com/en-us/cpp/cppcx/collections-c-cx), [Data binding in depth](http://msdn.microsoft.com/library/41e1b4f1-6caf-4128-a61a-4e400b149011)

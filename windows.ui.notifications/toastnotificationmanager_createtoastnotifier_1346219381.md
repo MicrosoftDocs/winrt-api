@@ -19,7 +19,7 @@ The object you will use to send the toast notification to the app.
 ## -remarks
 Do not use this overload when creating a toast notifier for a desktop app. Use [CreateToastNotifier(appID)](toastnotificationmanager_createtoastnotifier_163337301.md) to supply the required [AppUserModelID](http://msdn.microsoft.com/library/ebce2d99-6f20-4545-9f12-d79cd8d0828f).
 
-If your app uses a [background voice-over-Internet protocol (VOIP) agent](XREF:TODO:405cff28-3276-49d8-ab73-87c01ce0258d), it must specify the app ID to show a toast. Use the [CreateToastNotifier(appID)](toastnotificationmanager_createtoastnotifier_163337301.md) method overload.
+If your app uses a background voice-over-Internet protocol (VOIP) agent, it must specify the app ID to show a toast. Use the [CreateToastNotifier(appID)](toastnotificationmanager_createtoastnotifier_163337301.md) method overload.
 
 ## -examples
 The following example shows how to create and send a toast notification that includes text and images, including the use of the [CreateToastNotifier](toastnotificationmanager_createtoastnotifier_1346219381.md) method.
