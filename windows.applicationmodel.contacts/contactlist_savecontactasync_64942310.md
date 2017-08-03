@@ -20,6 +20,7 @@ The contact to save.
 An async action indicating that the method has completed.
 
 ## -remarks
+Throws a System.ArgumentException: 'Value does not fall within the expected range.' when the contact passed as parameter has a RemoteID set which is identical to a contacts RemoteID already saved on this device.
 
 ## -examples
 
