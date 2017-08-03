@@ -29,4 +29,4 @@ The [IVector&lt;T&gt;](ivector_1.md) interface represents a collection of object
 ## -examples
 
 ## -see-also
-[Collections ()](XREF:TODO:914da30b-aac5-4cd7-9da3-a5ac08cdd72c), [System.Collections.Generic.IList&lt;T&gt;](XREF:TODO:T:System.Collections.Generic.List`1)
+[Collections (C++/CX)](https://docs.microsoft.com/en-us/cpp/cppcx/collections-c-cx), [System.Collections.Generic.IList&lt;T&gt;](XREF:TODO:T:System.Collections.Generic.List`1)

@@ -29,4 +29,4 @@ The [IMapView&lt;K,V&gt;](imapview_2.md) interface represents a collection of ke
 ## -examples
 
 ## -see-also
-[IReadOnlyDictionary&lt;TKey,TValue&gt;](XREF:TODO:T:System.Collections.Generic.IReadOnlyDictionary`2), [Collections ()](XREF:TODO:914da30b-aac5-4cd7-9da3-a5ac08cdd72c)
+[IReadOnlyDictionary&lt;TKey,TValue&gt;](XREF:TODO:T:System.Collections.Generic.IReadOnlyDictionary`2), [Collections (C++/CX)](https://docs.microsoft.com/en-us/cpp/cppcx/collections-c-cx)

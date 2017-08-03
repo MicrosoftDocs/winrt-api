@@ -26,7 +26,7 @@ The object you will use to send the toast notification to the tile.
 ## -remarks
 The app identified by *applicationId* must belong to the same package as the caller.
 
-Use this form of the method if your app uses a [background voice-over-Internet protocol (VOIP) agent](XREF:TODO:405cff28-3276-49d8-ab73-87c01ce0258d), to specify the app ID required to show a toast in that case.
+Use this form of the method if your app uses a background voice-over-Internet protocol (VOIP) agent, to specify the app ID required to show a toast in that case.
 
 ### Sending toast notifications from desktop apps
 

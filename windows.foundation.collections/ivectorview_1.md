@@ -29,4 +29,4 @@ When programming with .NET, this interface is hidden and developers should use t
 ## -examples
 
 ## -see-also
-[IIterable&lt;T&gt;](iiterable_1.md), [IVector.GetView](ivector_1_getview.md), , [Collections ()](XREF:TODO:914da30b-aac5-4cd7-9da3-a5ac08cdd72c)
+[IIterable&lt;T&gt;](iiterable_1.md), [IVector.GetView](ivector_1_getview.md), , [Collections (C++/CX)](https://docs.microsoft.com/en-us/cpp/cppcx/collections-c-cx)
