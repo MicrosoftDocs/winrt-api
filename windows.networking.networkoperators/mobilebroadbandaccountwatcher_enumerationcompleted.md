@@ -14,11 +14,11 @@ public event Windows.Foundation.TypedEventHandler EnumerationCompleted<Windows.N
 Occurs when the account watcher has finished enumerating accounts for the client.
 
 > [!NOTE]
-> This functionality is only available to mobile operator apps and Windows Store app given privileged access by mobile network operators.
+> This functionality is only available to mobile operator apps and Windows Store apps given privileged access by mobile network operators.
 
-For permission to use this API, please reach out to [Network Operators API Permissions](mailto:netopperm@microsoft.com).
 
-For technical help with this API, please reach out to [Network Operators API Help](mailto:netophelp@microsoft.com)
+
+> If you want to use this API and publish your app to the Store, you will need special approval. For more information, see the **Special and restricted capabilities** section under [App capability declarations](https://docs.microsoft.com/en-us/windows/uwp/packaging/app-capability-declarations). 
 
 ## -remarks
 When the watcher is started, it enumerates all existing accounts (raising an [AccountAdded](mobilebroadbandaccountwatcher_accountadded.md) event for each account). You can use the **EnumerationCompleted** event to determine when the enumeration operation has finished. After that, all proceeding events are new.

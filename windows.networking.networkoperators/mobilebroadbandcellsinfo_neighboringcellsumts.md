@@ -13,7 +13,9 @@ public IVectorView<MobileBroadbandCellUmts> NeighboringCellsUmts { get; }
 Gets a read-only array of neighboring [**MobileBroadbandCellUmts**](mobilebroadbandcellumts.md) containing all UMTS providers.
 
 > [!NOTE]
-> This functionality is only available to mobile operator apps and Windows Store app given privileged access by mobile network operators.
+> This functionality is only available to mobile operator apps and Windows Store apps given privileged access by mobile network operators.
+
+> If you want to use this API and publish your app to the Store, you will need special approval. For more information, see the **Special and restricted capabilities** section under [App capability declarations](https://docs.microsoft.com/en-us/windows/uwp/packaging/app-capability-declarations). 
 
 ## -property-value
 A read-only array of neighboring [**MobileBroadbandCellUmts**](mobilebroadbandcellumts.md) containing all UMTS providers.

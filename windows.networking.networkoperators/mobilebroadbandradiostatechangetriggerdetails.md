@@ -13,7 +13,11 @@ public class MobileBroadbandRadioStateChangeTriggerDetails : Windows.Networking.
 ## -description
 Provides details for a radio state change notification.
 
-This functionality is only available to mobile operator apps and Windows Store app given privileged access by mobile network operators. For more information, see [Mobile Broadband: ](http://msdn.microsoft.com/library/windows/hardware/hh852368.aspx).
+> [!NOTE]
+> This functionality is only available to mobile operator apps and Windows Store apps given privileged access by mobile network operators.
+
+
+> If you want to use this API and publish your app to the Store, you will need special approval. For more information, see the **Special and restricted capabilities** section under [App capability declarations](https://docs.microsoft.com/en-us/windows/uwp/packaging/app-capability-declarations). 
 
 ## -remarks
 When a background task is triggered by a radio state change notification, the [IBackgroundTaskInstance.TriggerDetails](../windows.applicationmodel.background/ibackgroundtaskinstance_triggerdetails.md) property returns an instance of this class with information specific to the triggered notification.
