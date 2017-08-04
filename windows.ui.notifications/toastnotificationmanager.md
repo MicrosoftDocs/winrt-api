@@ -12,7 +12,6 @@ public class ToastNotificationManager
 
 ## -description
 Creates [ToastNotifier](toastnotifier.md) objects that you use to raise toast notifications. This class also provides access to the XML content of the system-provided toast templates so that you can customize that content for use in your notifications.
-<!-- @WRITER erictill 1/13/2012 : TBD Per Nathan: This (and the containing class) should probably have a separate section for desktop callers.  It should detail what the application ID is for a desktop toast, that a shortcut with the application ID needs to have been placed in the start menu, etc. -->
 
 ## -remarks
 ### Sending toast notifications from desktop apps

@@ -14,7 +14,7 @@ public class DevicePickerFilter : Windows.Devices.Enumeration.IDevicePickerFilte
 Represents the filter used to determine which devices to show in the device picker. The filter parameters are OR-ed together to build the resulting filter.
 
 ## -remarks
-<!--TODO: Document how the developer can obtain this class object, and add or update retriever elements as necessary.-->
+
 
 ## -examples
 

@@ -20,7 +20,7 @@ This object is accessed when you implement an event handler for the [WinJS.Appli
 > [!NOTE]
 > : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://go.microsoft.com/fwlink/p/?linkid=258275).
 
-<!--TODO: Document how the developer can obtain this class object, and add or update retriever elements as necessary.-->
+
 
 ## -examples
 

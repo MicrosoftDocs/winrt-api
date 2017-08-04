@@ -160,9 +160,6 @@ For info on how merged dictionary resources are resolved, see the "Merged resour
 
 ### The x:Key property
 
-<!--removed note, this needs pb followup: internally the dictionary is implemented such that only strings are accepted as keys. See "Keys and Resources" section of Resource Dictionaries.
-
--->
 In XAML, the keys for [ResourceDictionary](resourcedictionary.md)items are declared by setting the [x:Key attribute](http://msdn.microsoft.com/library/141fc5af-80ee-4401-8a1b-17cb22c2277a)on elements that represent the XAML resources. Typically, if you try to put a child element that does not have a key value into a [ResourceDictionary](resourcedictionary.md), this throws a XAML parse exception or a Windows Runtimeexception. The exception condition might also be noted as a warning by XAML design surfaces. However, there are three notable cases where a [ResourceDictionary](resourcedictionary.md)child element won't require an [x:Key attribute](http://msdn.microsoft.com/library/141fc5af-80ee-4401-8a1b-17cb22c2277a)value:
 + A [Style](style.md) resource can use its [TargetType](style_targettype.md) value as the implicit resource key. For more info on how implicit keys for styles and control templates work, see [Styling controls](http://msdn.microsoft.com/library/ab469a46-faf5-42d0-9340-948d0edf4150).
 + The [ResourceDictionary](resourcedictionary.md) elements with [Source](resourcedictionary_source.md) values that represent [ResourceDictionary.MergedDictionaries](resourcedictionary_mergeddictionaries.md) values can't have an [x:Key attribute](http://msdn.microsoft.com/library/141fc5af-80ee-4401-8a1b-17cb22c2277a) on [ResourceDictionary](resourcedictionary.md). Within each merged dictionary file, (the one referenced by URI as its [Source](resourcedictionary_source.md)) you do need keys for each resource.
@@ -200,13 +197,7 @@ For the implicit collection usage, the placeholder as appropriate for the proper
 ### Shareable types and UIElement types
 
 A resource dictionary is a technique for defining shareable types and values of these types in XAML. Not all types or values are suitable for usage from a [ResourceDictionary](resourcedictionary.md). Examples of types where sharing is supported include [Style](style.md), any [FrameworkTemplate](frameworktemplate.md) subclass, the [XAML intrinsic data types](http://msdn.microsoft.com/library/d50e6127-395d-4e27-baa2-2fe627f4b711), brushes, colors, and transforms. For more info on which types are considered shareable, see [ResourceDictionary and XAML resource references](http://msdn.microsoft.com/library/e3cbfa3d-6af5-44e1-b9f9-c3d3ea8a25ce). Generally, [UIElement](uielement.md)-derived types are not shareable unless they come from templates and application of a template on a specific control instance. Excluding the template case, a [UIElement](uielement.md) is expected to exist in only one place in an object tree after it is instantiated, and having a [UIElement](uielement.md) be shareable would potentially violate this principle.
-<!--todo: determine what mechanism used... 
 
-Silverlight enforces shareable type usages differently than the equivalent ResourceDictionary implementation in WPF. In Silverlight, attempting to specify a resource that is not shareable does not generate parse exceptions against the ResourceDictionary declaration. Instead, you will get a parse exception against any StaticResource Markup Extension usage that attempts to reference that resource, even as the first time. The specific parse exception will report in the message that the value is out of range. 
-
-In code, if you try to access a nonshareable ResourceDictionary, you can retrieve the item successfully as an object. However, if you attempt to add the returned object to any point in the object tree, you get an exception where the message reads: Element is already the child of another element. 
-
-In contrast, WPF permits you to place a UIElement in a ResourceDictionary, and you can successfully reference it and connect it to the object tree exactly once. However, if you attempt to add a second reference to that object and connect it to the object tree again in WPF (either in XAML or code), you get an exception that indicates you have attempted to reparent an object that is already in the object tree.-->
 
 In practice, the vast majority of the resources defined in a [ResourceDictionary](resourcedictionary.md) will be one of these:
 + Control templates for a control, including its visual states.

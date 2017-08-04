@@ -35,7 +35,6 @@ An [Image](image.md) can display these image file formats:
 > Icon files supported on Windows only. Not supported on Windows Phone 8.1
 
 
-<!--Icon support should be fixed in Threshold. This note should be updated when fixed. See Threshold deliverable 602536. -->
 Starting in Windows 10, version 1607, the [Image](image.md) element supports animated Graphics Interchange Format (GIF) images. When you use a [BitmapImage](../windows.ui.xaml.media.imaging/bitmapimage.md) as the image [Source](image_source.md), you can access [BitmapImage](../windows.ui.xaml.media.imaging/bitmapimage.md)  API to control playback of the animated Graphics Interchange Format (GIF) image. For more info, see the Remarks on the [BitmapImage](../windows.ui.xaml.media.imaging/bitmapimage.md) class page.
 
 > [!NOTE]
@@ -149,7 +148,6 @@ For more info on the [Image](image.md) class and performance, see [Optimize anim
 
 ### Image file encoding and decoding
 
-<!--TODO isolate some of the questions that supporting GIF and TIFF will raise. Such as transparency support, variations of colortable in GIF such as monochrome, animated GIF-->
 The underlying codec support for image files is supplied by Windows Imaging Component (WIC)  API. For more info on specific image formats as documented for the codecs, see [Native WIC Codecs](http://msdn.microsoft.com/library/8d3e4b3a-fa39-475c-b177-61fc81e5ffcc).
 
 The API for [Image](image.md), [BitmapImage](../windows.ui.xaml.media.imaging/bitmapimage.md) and [BitmapSource](../windows.ui.xaml.media.imaging/bitmapsource.md) doesn't include any dedicated methods for encoding and decoding of media formats. All of the decoding operations are built-in as actions that happen when the source is set or reset. This makes the classes easier to use for constructing UI, because they have a default set of supported source file formats and decoding behavior. Classes such as [BitmapImage](../windows.ui.xaml.media.imaging/bitmapimage.md) expose some of the decoding options and logic as part of event data for [ImageOpened](../windows.ui.xaml.media.imaging/bitmapimage_imageopened.md) or [ImageFailed](../windows.ui.xaml.media.imaging/bitmapimage_imagefailed.md) events. If you need advanced image file decoding, or image encoding, you should use the API from the [Windows.Graphics.Imaging](../windows.graphics.imaging/windows_graphics_imaging.md) namespace. You might need these API if your app scenario involves image file format conversions, or manipulation of an image where the user can save the result as a file. The encoding API are also supported by the Windows Imaging Component (WIC) component of Windows.

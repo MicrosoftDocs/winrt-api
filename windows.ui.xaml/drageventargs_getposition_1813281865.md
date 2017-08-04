@@ -25,8 +25,6 @@ For drag-drop operations involving a UI container, you typically call [GetPositi
 If this [DragEventArgs](drageventargs.md) is associated with the [UIElement.Drop](uielement_drop.md) event, then the return value of [GetPosition](drageventargs_getposition.md) is the drop point.
 
 
-<!--TODO something about transitions and animations and possibly about the UIA 'effects' for DragDrop-->
-
 ## -examples
 
 ## -see-also

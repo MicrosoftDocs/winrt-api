@@ -22,9 +22,6 @@ A [Window](window.md) object is just surfacing information from [CoreWindow](../
 Make sure to call [Activate](window_activate.md) on any [Window](window.md) you use on initial activation. If you use the default app templates from Microsoft Visual Studio, calling [Window.Activate](window_activate.md) is part of the initial code in the app.xaml code-behind file.
 
 The LayoutAwarePage class that is part of some application templates in Microsoft Visual Studio has handling for the [SizeChanged](window_sizechanged.md) event, which is used for keeping track of visual states that match values of [ApplicationViewState](../windows.ui.viewmanagement/applicationviewstate.md). LayoutAwarePage also has code that checks [Bounds](window_bounds.md) and uses this value to influence how page-wide input events are handled. 
-<!--For more info on layoutawarepage...-->
-
-<!--TODO something about secondary windows ... this doesn't really involve Window, but Window class is where people might come to from a naive viewpoint-->
 
 ## -examples
 The following code example shows the [OnLaunched](application_onlaunched.md) method override generated for the blank application template in Microsoft Visual Studio. This code demonstrates typical usage patterns for the [Current](window_current.md) and [Content](window_content.md) properties and the [Activate](window_activate.md) method.

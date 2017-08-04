@@ -13,7 +13,7 @@ public class WebUINavigatedEventArgs : Windows.UI.WebUI.IWebUINavigatedEventArgs
 Provides data for an app navigation event.
 
 ## -remarks
-<!--TODO: Document how the developer can obtain this class object, and add or update retriever elements as necessary.-->
+
 
 
 > [!NOTE]

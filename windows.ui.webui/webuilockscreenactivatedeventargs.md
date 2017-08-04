@@ -13,7 +13,7 @@ public class WebUILockScreenActivatedEventArgs : Windows.ApplicationModel.Activa
 Represents arguments used when the lock screen is activated.
 
 ## -remarks
-TODO: Document how the developer can obtain this class object, and add or update retriever elements as necessary.
+
 
 ## -examples
 

@@ -45,7 +45,6 @@ For touch actions and also for interaction-specific or manipulation events that 
 [PointerReleased](uielement_pointerreleased.md) supports the ability to attach event handlers to the route that will be invoked even if the event data for the event is marked [Handled](../windows.ui.xaml.input/pointerroutedeventargs_handled.md). See [AddHandler](uielement_addhandler.md).
 
 Specific Windows Runtime controls may have class-based handling for the [PointerReleased](uielement_pointerreleased.md) input event. If so, the control probably has an override for the method [OnPointerReleased](../windows.ui.xaml.controls/control_onpointerreleased.md). Typically the event is marked handled by the class handler, and the [PointerReleased](uielement_pointerreleased.md) event is not raised for handling by any user code handlers on that control. For more info on how class-based handling for events works, see [Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
-<!--TODO describe secondary events eg Tapped-->
 
 Controls may also have a [PointerUpThemeAnimation](../windows.ui.xaml.media.animation/pointerupthemeanimation.md) personality animation that run independently of the event.
 

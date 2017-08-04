@@ -14,7 +14,7 @@ public class LockScreenInfo : Windows.ApplicationModel.LockScreen.ILockScreenInf
 Provides access to the same data that the default lock screen has access to, such as wallpaper, badges, and so on.
 
 ## -remarks
-<!--TODO: Document how the developer can obtain this class object, and add or update retriever elements as necessary.-->
+
 
 ## -examples
 
