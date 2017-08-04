@@ -14,11 +14,11 @@ public void TriggerAttentionRequired(System.String packageRelativeApplicationId,
 Called by a background task handler to launch the foreground application when there is an authentication attempt to complete.
 
 > [!NOTE]
-> This functionality is only available to mobile operator apps and Windows Store app given privileged access by mobile network operators.
+> This functionality is only available to mobile operator apps and Windows Store apps given privileged access by mobile network operators.
 
-For permission to use this API, please reach out to [Network Operators API Permissions](mailto:netopperm@microsoft.com).
 
-For technical help with this API, please reach out to [Network Operators API Help](mailto:netophelp@microsoft.com)
+
+> If you want to use this API and publish your app to the Store, you will need special approval. For more information, see the **Special and restricted capabilities** section under [App capability declarations](https://docs.microsoft.com/en-us/windows/uwp/packaging/app-capability-declarations). 
 
 Windows will launch the specified application.
 
