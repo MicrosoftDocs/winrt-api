@@ -21,7 +21,7 @@ The data to be represented as a barcode.
 The symbology (encoding) of the barcode. This can be determined based on the [BarcodeSymbologies](barcodesymbologies.md) class static methods.
 
 ### -param height
-The height of the barcode, in pixels.
+The height of the barcode, expressed in the unit of measurement indicated by the [ClaimedPosPrinter.MapMode](claimedposprinter_mapmode.md) property.
 
 ### -param width
 The width of the barcode.
