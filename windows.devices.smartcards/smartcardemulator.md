@@ -13,7 +13,7 @@ public class SmartCardEmulator : Windows.Devices.SmartCards.ISmartCardEmulator, 
 Represents a smart card emulator device.
 
 ## -remarks
-<!-- <rem>TODO: Document how the developer can obtain this class object, and add or update retriever elements as necessary.</rem>-->
+
 
 ## -examples
 

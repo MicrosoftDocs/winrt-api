@@ -21,9 +21,7 @@ The user dismissed the toast notification.
 The app explicitly hid the toast notification by calling the [ToastNotifier.hide](toastnotifier_hide.md) method.
 
 ### -field TimedOut:2
-The toast notification had been shown for the maximum allowed time and was faded out. The maximum time to show a toast notification is 7 seconds except in the case of long-duration toasts
-<!-- @WRITER erictill 12/13/2011 : TBD link to whatever explains the difference or sets the setting. -->
-, in which case it is 25 seconds.
+The toast notification had been shown for the maximum allowed time and was faded out. The maximum time to show a toast notification is 7 seconds except in the case of long-duration toasts, in which case it is 25 seconds.
 
 
 ## -remarks

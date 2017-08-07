@@ -34,8 +34,6 @@ A 3-D projection effect applied to the element.
 
 The value of [Projection](uielement_projection.md) is overridden by [PointerDownThemeAnimation](../windows.ui.xaml.media.animation/pointerdownthemeanimation.md) and [PointerUpThemeAnimation](../windows.ui.xaml.media.animation/pointerupthemeanimation.md).
 
-<!--TODO go or no go on animating a projection?-->
-
 ## -examples
 This example shows how to apply a basic [PlaneProjection](../windows.ui.xaml.media/planeprojection.md) in the initial page XAML.
 

@@ -35,7 +35,6 @@ The [Control](../windows.ui.xaml.controls/control.md) class has pre-wired event 
 
 
 The Windows Runtime implementation of drag-drop concepts permits only certain controls and input actions to initiate a drag-drop action. There is no generalized **DoDragDrop** method that would permit any UI element to initiate a drag-drop action. The main source of a drag-drop action is when you drag the items of a list such as [GridView](../windows.ui.xaml.controls/gridview.md). 
-<!--TODO is there any conceptual on drag drop and design for interaction that is not tainted with CSS and JS concepts?-->
 
 ## -examples
 

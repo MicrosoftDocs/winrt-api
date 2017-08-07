@@ -23,8 +23,6 @@ This property's value is calculated based on the results of other actions. Calli
 
 The collection is not necessarily indexed by [PointerId](../windows.ui.xaml.input/pointer_pointerid.md). To find a specific [PointerId](../windows.ui.xaml.input/pointer_pointerid.md), you must check the items in the collection and reference a specific [Pointer](../windows.ui.xaml.input/pointer.md).
 
-<!--TODO document whether order in the view is significant, and whether getting an indexed item from here and using it for something like Release is a Bad Idea. Is the collection order significant? Input sample doesn't use this property so identifying the scenarios where you care about the collection rather than track things via events is not clear-->
-
 ## -examples
 
 ## -see-also

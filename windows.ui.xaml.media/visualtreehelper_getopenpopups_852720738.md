@@ -25,8 +25,6 @@ Popups don't exist in the conventional XAML visual tree that begins from the roo
 Elements such as [AppBar](../windows.ui.xaml.controls/appbar.md) are not considered a popup, they are owned by the [Page](../windows.ui.xaml.controls/page.md). A [ToolTip](../windows.ui.xaml.controls/tooltip.md) is also not considered a popup, it's considered a child of the element that uses the [ToolTipService](../windows.ui.xaml.controls/tooltipservice.md) attached properties to host it. Both [AppBar](../windows.ui.xaml.controls/appbar.md) and [ToolTip](../windows.ui.xaml.controls/tooltip.md) elements are thus in the conventional XAML visual tree, even if they're not always displayed at the time. You could find these with [GetChild](visualtreehelper_getchild.md) or other [VisualTreeHelper](visualtreehelper.md)API, or by walking the tree with **Child**/**Items**/**Children** and related properties if you know the exact structure by type.
 
 
-<!--TODO can FindElementsInHostCoordinates find a popup?-->
-
 ## -examples
 
 ## -see-also

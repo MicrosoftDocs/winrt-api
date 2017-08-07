@@ -13,7 +13,7 @@ public class WebUIPrint3DWorkflowActivatedEventArgs : Windows.ApplicationModel.A
 Represents the arguments related to activating a 3D print workflow.
 
 ## -remarks
-TODO: Document how the developer can obtain this class object, and add or update retriever elements as necessary.
+
 
 ## -examples
 

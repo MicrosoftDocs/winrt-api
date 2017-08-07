@@ -14,7 +14,7 @@ public class LockScreenBadge : Windows.ApplicationModel.LockScreen.ILockScreenBa
 Represents a lock screen badge for an app.
 
 ## -remarks
-<!--TODO: Document how the developer can obtain this class object, and add or update retriever elements as necessary.-->
+
 
 ## -examples
 

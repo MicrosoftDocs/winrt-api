@@ -18,8 +18,6 @@ The purpose of the [DependencyObjectCollection](dependencyobjectcollection.md) c
 If you're interested in implementing a business object class that supports collection-changed notifications you should use **ObservableCollection** or one of the interface patterns that supports changed events. For more info see [Data binding in depth](http://msdn.microsoft.com/library/41e1b4f1-6caf-4128-a61a-4e400b149011).
 
 
-<!--TODO link a doc on behaviors; TODO make a further statement about how this type isn't really meant to be a catch-all for binding source, should use ObservableCollection instead.-->
-
 <!--Begin NET note for IEnumerable support-->
 ### Enumerating the collection in C# or Microsoft Visual Basic
 

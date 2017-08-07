@@ -13,7 +13,7 @@ public class LockScreenCallUI : Windows.ApplicationModel.Calls.ILockScreenCallUI
 Handles communication to and from the lock screen.
 
 ## -remarks
-<!--TODO: Document how the developer can obtain this class object, and add or update retriever elements as necessary.-->
+
 
 ## -examples
 

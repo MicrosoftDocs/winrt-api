@@ -14,7 +14,7 @@ public class LockScreenUnlockingEventArgs : Windows.ApplicationModel.LockScreen.
 Represents the lock screen unlocking events.
 
 ## -remarks
-<!--TODO: Document how the developer can obtain this class object, and add or update retriever elements as necessary.-->
+
 
 ## -examples
 

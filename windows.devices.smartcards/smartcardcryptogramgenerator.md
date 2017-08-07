@@ -14,7 +14,7 @@ Represents the mechanism for providing hardware supported for secure payment app
 
 ## -remarks
 
-<!--TODO: Document how this object is created.-->
+
 
 ## -examples
 

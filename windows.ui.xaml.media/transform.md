@@ -29,7 +29,6 @@ An affine transformation matrix has its final column equal to (0, 0, 1); therefo
 You cannot extract the matrix-specific information from the nonmatrix transformations. However you can adjust the nonmatrix transformations with their specific properties, or replace a transformation with a matrix transformation at run time.-->
 
 
-<!--TODO migrate this: http://msdn.microsoft.com/en-us/library/cc189037(v=vs.95).aspx-->
 [Transform](transform.md) is the property type for [UIElement.RenderTransform](../windows.ui.xaml/uielement_rendertransform.md). With this property, you can apply any of the practical transforms to a [UIElement](../windows.ui.xaml/uielement.md) when it renders. Other less commonly used properties that take a [Transform](transform.md) are: [Brush.RelativeTransform](brush_relativetransform.md), [Brush.Transform](brush_transform.md), [Geometry.Transform](geometry_transform.md).
 
 ### **Transform** derived classes

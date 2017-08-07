@@ -28,7 +28,6 @@ An administrator has disabled all notifications on this computer through group p
 
 ### -field DisabledByManifest:4
 This app has not declared itself toast capable in its package.appxmanifest file. This setting is found on the manifest's Application UI page, under the Notification section. For an app to send toast, the **Toast Capable** option must be set to "Yes".
-<!-- @WRITER erictill 12/13/2011 : TBD: Revisit before RTM to make sure they haven't changed the UI again. Also, does this apply to tiles? -->
 
 
 ## -remarks

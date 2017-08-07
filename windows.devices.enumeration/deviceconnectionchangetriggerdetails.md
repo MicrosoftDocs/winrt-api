@@ -13,7 +13,7 @@ public class DeviceConnectionChangeTriggerDetails : Windows.Devices.Enumeration.
 Provides information about the device that caused this trigger to fire.
 
 ## -remarks
-<!-- <rem>TODO: Document how the developer can obtain this class object, and add or update retriever elements as necessary.</rem>-->
+
 
 ## -examples
 

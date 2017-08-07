@@ -13,7 +13,7 @@ public class DeviceAccessInformation : Windows.Devices.Enumeration.IDeviceAccess
 Contains the information about access to a device.
 
 ## -remarks
-<!-- <rem>TODO: Document how the developer can obtain this class object, and add or update retriever elements as necessary.</rem>-->
+
 
 ## -examples
 
