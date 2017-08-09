@@ -14,7 +14,7 @@ Returns the status of a [MapLocationFinder](maplocationfinder.md) query. This en
 
 ## -enum-fields
 ### -field Success:0
-The query was successful.
+Query search operation was successful. Check result size before accessing results.
 
 ### -field UnknownError:1
 The query returned an unknown error.
@@ -26,7 +26,7 @@ The query provided credentials that are not valid.
 The specified point cannot be converted to a location. For example, the point is in an ocean or a desert.
 
 ### -field IndexFailure:4
-The query could not find a result.
+The query encountered an internal error.
 
 ### -field NetworkFailure:5
 The query encountered a network failure.
