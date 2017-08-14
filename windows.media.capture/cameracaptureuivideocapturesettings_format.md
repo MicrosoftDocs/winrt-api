@@ -24,4 +24,4 @@ A value indicating the format for storing captured videos.
 
 
 ## -capabilities
-webcam, microphone
+microphone, webcam

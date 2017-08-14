@@ -29,4 +29,4 @@ Call [CaptureFileAsync](cameracaptureui_capturefileasync.md) to launch the UI. T
 
 
 ## -capabilities
-webcam, microphone
+microphone, webcam

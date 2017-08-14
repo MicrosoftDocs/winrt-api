@@ -24,5 +24,4 @@ A value indicating the state of app broadcast microphone capture.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

@@ -20,4 +20,4 @@ Retrieves the result of the asynchronous SMS message delete operation.
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

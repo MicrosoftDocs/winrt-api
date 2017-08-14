@@ -24,4 +24,4 @@ The [MediaCapture](mediacapture.md) object that provides methods for the capture
 
 
 ## -capabilities
-webcam, microphone
+microphone, webcam

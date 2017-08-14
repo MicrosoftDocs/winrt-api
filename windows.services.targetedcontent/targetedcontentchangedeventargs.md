@@ -19,4 +19,3 @@ Represents the arguments for the Content Changed event.
 
 ## -capabilities
 targetedContent
-

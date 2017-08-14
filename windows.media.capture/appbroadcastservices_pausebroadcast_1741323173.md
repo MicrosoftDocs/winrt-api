@@ -23,5 +23,4 @@ Pauses the app broadcasting.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

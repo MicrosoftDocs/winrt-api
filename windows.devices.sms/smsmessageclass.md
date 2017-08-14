@@ -41,4 +41,4 @@ Terminal equipment (TE) specific message. Note that this message type is not cur
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

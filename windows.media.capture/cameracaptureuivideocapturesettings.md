@@ -22,4 +22,4 @@ To get an instance of this object, retrieve the [VideoSettings](cameracaptureui_
 
 
 ## -capabilities
-webcam, microphone
+microphone, webcam

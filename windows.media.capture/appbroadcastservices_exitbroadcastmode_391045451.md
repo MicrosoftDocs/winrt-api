@@ -26,5 +26,4 @@ An object that specifies the reason that broadcast mode is being exited.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

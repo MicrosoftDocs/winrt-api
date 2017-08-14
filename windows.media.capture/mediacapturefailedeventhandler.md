@@ -26,4 +26,4 @@ Arguments that contain information about the event.
 
 
 ## -capabilities
-webcam, microphone
+microphone, webcam

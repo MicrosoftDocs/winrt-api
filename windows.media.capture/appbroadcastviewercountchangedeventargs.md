@@ -21,5 +21,4 @@ Provides data for the [AppBroadcastViewerCountChanged](./appbroadcaststate_viewe
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

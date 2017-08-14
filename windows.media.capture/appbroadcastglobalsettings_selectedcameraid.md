@@ -22,5 +22,4 @@ The device ID of the camera used for broadcast video capture.
 ## -see-also
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

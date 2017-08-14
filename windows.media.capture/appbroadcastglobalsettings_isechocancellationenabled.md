@@ -22,5 +22,4 @@ True if echo cancellation is enabled; otherwise, false.
 ## -see-also
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

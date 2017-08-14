@@ -24,5 +24,4 @@ A value specifying the sign-in state of the app broadcast.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

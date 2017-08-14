@@ -44,5 +44,3 @@ ECDHE_SPEKE key exchange.
 
 ## -capabilities
 allJoyn
-
-

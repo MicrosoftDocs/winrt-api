@@ -23,4 +23,4 @@ A value from the [SmsEncoding](smsencoding.md) enumeration.
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

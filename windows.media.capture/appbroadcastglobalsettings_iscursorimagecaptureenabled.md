@@ -24,5 +24,4 @@ True if the cursor image is captured; otherwise, false.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

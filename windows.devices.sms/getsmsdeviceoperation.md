@@ -26,4 +26,4 @@ Retrieves an [SmsDevice](smsdevice.md) object asynchronously.
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

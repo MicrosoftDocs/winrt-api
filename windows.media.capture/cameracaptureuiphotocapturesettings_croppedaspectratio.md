@@ -27,4 +27,4 @@ If a non-zero value is provided, the user interface will force the user to crop 
 
 
 ## -capabilities
-webcam, microphone
+microphone, webcam

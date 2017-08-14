@@ -27,4 +27,4 @@ A reference to an [SendSmsMessageOperation](sendsmsmessageoperation.md) object t
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

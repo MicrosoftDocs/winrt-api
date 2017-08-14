@@ -24,5 +24,4 @@ A value specifying the reason that the app broadcast was terminated.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

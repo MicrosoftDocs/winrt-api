@@ -22,5 +22,4 @@ The sample rate of the audio stream
 ## -see-also
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

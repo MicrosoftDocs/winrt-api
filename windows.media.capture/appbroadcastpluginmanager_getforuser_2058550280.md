@@ -29,5 +29,4 @@ The app broadcast plugin associated with the specified user.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

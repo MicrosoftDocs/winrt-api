@@ -26,4 +26,4 @@ A reference to the device object that sent the event.
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

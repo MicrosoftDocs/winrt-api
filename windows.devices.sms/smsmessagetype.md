@@ -49,4 +49,4 @@ A send status message. This value is supported on Windows Store app and Windows 
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

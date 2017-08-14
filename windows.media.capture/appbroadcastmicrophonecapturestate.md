@@ -39,5 +39,4 @@ Microphone capture has failed.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

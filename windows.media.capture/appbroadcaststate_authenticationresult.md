@@ -24,5 +24,4 @@ The authentication result of the app broadcast state.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

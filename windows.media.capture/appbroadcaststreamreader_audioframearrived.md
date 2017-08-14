@@ -19,5 +19,4 @@ Raised when a new audio frame from the broadcast stream arrives.
 ## -see-also
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

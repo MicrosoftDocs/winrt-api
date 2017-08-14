@@ -24,5 +24,4 @@ The absolute time stamp for the app broadcast preview stream video frame.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

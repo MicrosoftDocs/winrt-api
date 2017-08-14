@@ -23,5 +23,4 @@ Provides access to global broadcast settings for the current device and broadcas
 ## -see-also
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

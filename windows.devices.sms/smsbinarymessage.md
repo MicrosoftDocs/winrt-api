@@ -26,4 +26,4 @@ Represents an SMS message in raw PDU format. The data format differs depending o
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

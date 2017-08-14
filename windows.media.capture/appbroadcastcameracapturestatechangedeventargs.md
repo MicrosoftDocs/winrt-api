@@ -24,5 +24,4 @@ Provides data for the [AppBroadcast.CameraCaptureStateChanged](./appbroadcaststa
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

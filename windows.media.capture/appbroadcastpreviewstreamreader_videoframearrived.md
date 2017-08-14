@@ -21,5 +21,4 @@ Occurs when a new video frame arrives from the app broadcast preview stream.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

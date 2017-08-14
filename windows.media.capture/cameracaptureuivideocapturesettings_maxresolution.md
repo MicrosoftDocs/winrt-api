@@ -24,4 +24,4 @@ The maximum resolution that the user can select.
 
 
 ## -capabilities
-webcam, microphone
+microphone, webcam

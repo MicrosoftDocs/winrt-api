@@ -22,5 +22,4 @@ The relative time within the video stream at which the video frame was captured.
 ## -see-also
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

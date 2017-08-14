@@ -20,4 +20,4 @@ Sets an event handler to be called when the device receives a new text message.
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

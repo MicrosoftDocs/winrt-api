@@ -24,5 +24,4 @@ The video bitmap alpha mode for the app broadcast preview stream.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

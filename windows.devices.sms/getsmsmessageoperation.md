@@ -26,4 +26,4 @@ Supports the retrieval of a message from the SMS message store.
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

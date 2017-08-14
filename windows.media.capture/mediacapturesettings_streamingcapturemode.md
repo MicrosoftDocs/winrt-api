@@ -24,4 +24,4 @@ This property indicates whether audio capture, video capture, or both are enable
 
 
 ## -capabilities
-webcam, microphone
+microphone, webcam

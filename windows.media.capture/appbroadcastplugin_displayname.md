@@ -24,5 +24,4 @@ The display name of the app broadcast plugin.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

@@ -47,5 +47,4 @@ The app broadcast stream is initializing.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

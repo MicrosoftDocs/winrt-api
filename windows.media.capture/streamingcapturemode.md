@@ -32,4 +32,4 @@ For more information on configuring the [MediaCapture](mediacapture.md) object, 
 
 
 ## -capabilities
-webcam, microphone
+microphone, webcam

@@ -26,4 +26,4 @@ Enables start, track, and end asynchronous SMS message delete operations for mul
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

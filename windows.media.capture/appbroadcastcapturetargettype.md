@@ -35,5 +35,4 @@ The app view is captured.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

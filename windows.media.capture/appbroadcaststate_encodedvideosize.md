@@ -24,5 +24,4 @@ The encoded video size of the app broadcast.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

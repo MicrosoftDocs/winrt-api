@@ -35,4 +35,4 @@ The device type is CDMA cellular class.
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

@@ -39,5 +39,4 @@ The app broadcast preview has failed.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

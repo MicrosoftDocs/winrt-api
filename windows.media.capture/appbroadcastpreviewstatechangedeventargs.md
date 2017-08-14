@@ -22,5 +22,4 @@ Provides data for the [AppBroadcastPreview.PreviewStateChanged](./appbroadcastpr
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

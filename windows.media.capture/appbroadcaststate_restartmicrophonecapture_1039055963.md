@@ -23,5 +23,4 @@ Restarts microphone capture for the app broadcast.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

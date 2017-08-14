@@ -46,4 +46,4 @@ The number of bytes in each segment of the message.
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

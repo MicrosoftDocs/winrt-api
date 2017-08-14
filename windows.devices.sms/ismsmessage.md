@@ -23,4 +23,4 @@ This interface is implemented by all types of SMS messages that are supported.
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

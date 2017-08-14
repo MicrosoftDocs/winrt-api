@@ -24,4 +24,4 @@ This object is not instantiated directly, it is created by the [MediaCapture.Fai
 
 
 ## -capabilities
-webcam, microphone
+microphone, webcam

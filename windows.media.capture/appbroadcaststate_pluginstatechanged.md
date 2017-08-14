@@ -21,5 +21,4 @@ Occurs when the state of the plugin associated with the app broadcast state chan
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

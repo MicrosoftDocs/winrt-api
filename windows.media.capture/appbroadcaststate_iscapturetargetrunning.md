@@ -24,5 +24,4 @@ True if the capture target is currently running; otherwise, false.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

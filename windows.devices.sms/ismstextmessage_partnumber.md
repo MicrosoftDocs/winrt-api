@@ -23,4 +23,4 @@ An unsigned integer. It is one-based. It will not exceed PartCount + 1.
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

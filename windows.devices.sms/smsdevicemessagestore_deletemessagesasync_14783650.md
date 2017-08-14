@@ -27,4 +27,4 @@ A new message operation object that is used to start and track the asynchronous 
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

@@ -24,5 +24,4 @@ The current state of the app broadcast services.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

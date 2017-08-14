@@ -35,4 +35,4 @@ A photo stream.
 
 
 ## -capabilities
-webcam, microphone
+microphone, webcam

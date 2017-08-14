@@ -24,5 +24,4 @@ A value that indicates the new state of the app broadcast camera capture.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

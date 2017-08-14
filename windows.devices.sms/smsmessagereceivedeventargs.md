@@ -27,4 +27,4 @@ An instance of the [SmsMessageReceivedEventArgs](smsmessagereceivedeventargs.md)
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

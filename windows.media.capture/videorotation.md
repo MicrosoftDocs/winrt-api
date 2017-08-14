@@ -34,4 +34,4 @@ The video stream is rotated 270 degrees clockwise.
 
 
 ## -capabilities
-webcam, microphone
+microphone, webcam

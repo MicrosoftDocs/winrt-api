@@ -24,5 +24,4 @@ Manages the state of app captures.
 
 
 ## -capabilities
-appCaptureSettings
-AppCaptureServices
+appCaptureServices, appCaptureSettings

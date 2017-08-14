@@ -29,5 +29,4 @@ An integer that conveys a provider-specific reason that the broadcast is being t
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

@@ -22,5 +22,4 @@ The width of the frames in the video stream
 ## -see-also
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

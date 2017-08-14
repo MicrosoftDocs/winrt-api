@@ -23,4 +23,4 @@ The result value of the asynchronous SMS message delete operations.
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

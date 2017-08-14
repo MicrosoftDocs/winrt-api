@@ -20,4 +20,4 @@ Creates an instance of the [SmsTextMessage](smstextmessage.md) class.
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

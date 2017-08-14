@@ -25,4 +25,4 @@ Represents a file. Provides information about the file and its contents, and way
 [IInputStreamReference](../windows.storage.streams/iinputstreamreference.md), [IRandomAccessStreamReference](../windows.storage.streams/irandomaccessstreamreference.md), [IStorageItem](istorageitem.md), [StorageFile](storagefile.md)
 
 ## -capabilities
-picturesLibrary, videosLibrary, musicLibrary, documentsLibrary
+documentsLibrary, musicLibrary, picturesLibrary, videosLibrary

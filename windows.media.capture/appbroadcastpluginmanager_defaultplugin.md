@@ -24,5 +24,4 @@ The default app broadcast plugin.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

@@ -23,5 +23,4 @@ If you specify a custom video encoding width, you should set the [VideoEncodingR
 ## -see-also
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

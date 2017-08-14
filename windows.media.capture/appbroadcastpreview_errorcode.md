@@ -25,5 +25,4 @@ The error code associated with the app broadcast preview.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

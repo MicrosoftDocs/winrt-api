@@ -24,5 +24,4 @@ The unique ID of the app associated with the app broadcast plugin.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

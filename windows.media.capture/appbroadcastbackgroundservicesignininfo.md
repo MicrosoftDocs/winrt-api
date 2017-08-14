@@ -24,5 +24,4 @@ Represents the sign-in information for the app broadcast background service.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

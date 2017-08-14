@@ -46,20 +46,4 @@ The broadcast background task is ready to broadcast.
 ## -see-also
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+appBroadcast, appBroadcastSettings

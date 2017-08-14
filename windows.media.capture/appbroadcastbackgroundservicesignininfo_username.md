@@ -23,5 +23,4 @@ Gets or sets the username for app broadcast background service authentication.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

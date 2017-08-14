@@ -23,5 +23,4 @@ Get an instance of this class by calling [AppBroadcastManager.GetProviderSetting
 ## -see-also
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

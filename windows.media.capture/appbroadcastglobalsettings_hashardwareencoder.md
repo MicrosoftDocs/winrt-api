@@ -22,5 +22,4 @@ True if the device supports hardware encoding; otherwise, false.
 ## -see-also
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

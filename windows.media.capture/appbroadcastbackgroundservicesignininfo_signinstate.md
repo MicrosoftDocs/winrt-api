@@ -24,5 +24,4 @@ The sign-in state of the app broadcast background service.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

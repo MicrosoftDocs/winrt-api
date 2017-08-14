@@ -24,5 +24,4 @@ The system gain for broadcast audio capture.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

@@ -23,4 +23,4 @@ An integer ID for the message.
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

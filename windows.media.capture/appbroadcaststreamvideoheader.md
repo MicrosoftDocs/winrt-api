@@ -23,5 +23,4 @@ Get an instance of this class by accessing the [VideoHeader](appbroadcaststreamv
 ## -see-also
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

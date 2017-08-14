@@ -23,4 +23,4 @@ Specifies whether the asynchronous message operation has completed or not.
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

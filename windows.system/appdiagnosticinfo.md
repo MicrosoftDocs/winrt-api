@@ -20,4 +20,3 @@ Contains APIs for getting a basic set of diagnostic information for all running 
 
 ## -capabilities
 appDiagnostics
-

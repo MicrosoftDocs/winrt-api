@@ -24,5 +24,4 @@ The new viewer count.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

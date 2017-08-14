@@ -26,4 +26,4 @@ This interface provides access to the raw binary format of an SMS message. The m
 [ISmsMessage](ismsmessage.md)
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

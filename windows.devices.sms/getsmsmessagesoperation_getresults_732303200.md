@@ -23,4 +23,4 @@ A reference to the SMS messages retrieved.
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

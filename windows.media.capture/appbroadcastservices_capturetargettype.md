@@ -24,5 +24,4 @@ A value that specifies the type of capture target to be used for broadcast.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

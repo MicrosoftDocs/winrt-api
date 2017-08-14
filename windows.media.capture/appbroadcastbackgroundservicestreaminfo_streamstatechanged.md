@@ -21,5 +21,4 @@ Occurs when the app broadcast stream state changes.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

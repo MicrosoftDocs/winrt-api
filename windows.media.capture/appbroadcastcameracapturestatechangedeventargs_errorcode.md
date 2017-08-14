@@ -24,5 +24,4 @@ The error code associated with the event.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

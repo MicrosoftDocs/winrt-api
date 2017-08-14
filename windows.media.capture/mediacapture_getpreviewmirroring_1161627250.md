@@ -23,4 +23,4 @@ True if mirroring is enabled; false otherwise.
 
 
 ## -capabilities
-webcam, microphone
+microphone, webcam

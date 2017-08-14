@@ -24,5 +24,4 @@ Provides data for the [AppBroadcastState.PlugInStateChanged](./appbroadcaststate
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

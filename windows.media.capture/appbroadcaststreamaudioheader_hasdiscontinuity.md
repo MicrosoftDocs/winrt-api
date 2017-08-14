@@ -22,5 +22,4 @@ True if the audio frame contains a discontinuity; otherwise, false.
 ## -see-also
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

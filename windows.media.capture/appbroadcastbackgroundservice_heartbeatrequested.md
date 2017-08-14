@@ -20,5 +20,4 @@ Set the [Handled](appbroadcastheartbeatrequestedeventargs_handled.md) property t
 ## -see-also
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

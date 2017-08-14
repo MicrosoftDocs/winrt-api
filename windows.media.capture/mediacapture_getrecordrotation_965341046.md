@@ -23,4 +23,4 @@ The amount by which the recorded video is rotated.
 
 
 ## -capabilities
-webcam, microphone
+microphone, webcam

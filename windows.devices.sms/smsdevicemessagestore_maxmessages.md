@@ -23,4 +23,4 @@ An integer value representing the maximum number of messages for the device stor
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

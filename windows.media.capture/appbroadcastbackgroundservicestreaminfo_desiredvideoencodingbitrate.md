@@ -24,5 +24,4 @@ The desired video encoding bitrate for the app broadcast background service.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

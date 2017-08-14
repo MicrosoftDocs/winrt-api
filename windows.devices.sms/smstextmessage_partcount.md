@@ -23,4 +23,4 @@ An unsigned integer. If the message is standalone, the value is 1.
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

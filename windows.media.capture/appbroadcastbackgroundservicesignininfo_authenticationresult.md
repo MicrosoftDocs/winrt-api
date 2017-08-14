@@ -24,5 +24,4 @@ An object that represents the result of a Web authentication operation.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

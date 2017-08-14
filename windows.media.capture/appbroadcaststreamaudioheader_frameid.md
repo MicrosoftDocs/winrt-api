@@ -22,5 +22,4 @@ A value that identifies the audio frame.
 ## -see-also
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

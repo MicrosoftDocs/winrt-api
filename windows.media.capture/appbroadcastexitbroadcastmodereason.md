@@ -43,5 +43,4 @@ The broadcast was exited because of an authentication failure.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

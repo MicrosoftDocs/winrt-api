@@ -21,5 +21,4 @@ Provides data for the [AppBroadcastState.StreamStateChanged](./appbroadcaststate
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

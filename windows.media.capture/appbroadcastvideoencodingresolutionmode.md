@@ -27,5 +27,4 @@ The resolution is set automatically by the system.
 ## -see-also
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

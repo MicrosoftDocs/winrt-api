@@ -22,5 +22,4 @@ A value specifying the current state of the broadcast background task.
 ## -see-also
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

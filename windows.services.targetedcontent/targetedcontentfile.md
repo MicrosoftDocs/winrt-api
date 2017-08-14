@@ -19,4 +19,3 @@ Represents the TargetedContentValue of the TargetedContentValueKind File.
 
 ## -capabilities
 targetedContent
-

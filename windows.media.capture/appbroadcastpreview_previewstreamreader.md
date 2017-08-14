@@ -24,5 +24,4 @@ A stream reader for the app broadcast preview.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

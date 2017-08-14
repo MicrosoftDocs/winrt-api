@@ -24,5 +24,4 @@ Represents metadata about an app broadcast preview stream video frame.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

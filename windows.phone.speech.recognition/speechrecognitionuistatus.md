@@ -42,4 +42,4 @@ The user declined the privacy policy.
 
 
 ## -capabilities
-ID_CAP_SPEECH_RECOGNITION [Windows Phone], ID_CAP_MICROPHONE [Windows Phone], ID_CAP_NETWORKING [Windows Phone]
+ID_CAP_NETWORKING [Windows Phone], ID_CAP_SPEECH_RECOGNITION [Windows Phone], ID_CAP_MICROPHONE [Windows Phone]

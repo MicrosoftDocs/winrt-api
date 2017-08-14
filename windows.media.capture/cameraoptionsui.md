@@ -29,4 +29,4 @@ The following example shows how to use this class to display the camera options.
 [Audio, video, and camera](http://msdn.microsoft.com/library/0fc12d26-f1cf-4da7-b5a7-735a5074b74a), [Audio, video, and camera](http://msdn.microsoft.com/library/0fc12d26-f1cf-4da7-b5a7-735a5074b74a), [Camera capture UI sample](http://go.microsoft.com/fwlink/p/?linkid=249441), [Camera options UI sample](http://go.microsoft.com/fwlink/p/?linkid=228588 )
 
 ## -capabilities
-webcam, microphone
+microphone, webcam

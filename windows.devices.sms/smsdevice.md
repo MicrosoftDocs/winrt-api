@@ -36,4 +36,4 @@ The first use of the [SmsDevice](ismsdevice.md) object to call [FromIdAsync](sms
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

@@ -28,4 +28,3 @@ After the asynchronous operation completes, returns the [BluetoothAdapter](bluet
 
 ## -capabilities
 bluetooth
-

@@ -22,5 +22,4 @@ An object that exposes broadcast provider settings.
 ## -see-also
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

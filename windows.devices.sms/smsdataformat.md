@@ -41,4 +41,4 @@ The data format is GSM of type deliver.
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

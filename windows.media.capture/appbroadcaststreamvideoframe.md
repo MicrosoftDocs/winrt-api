@@ -23,5 +23,4 @@ Get an instance of this class by calling [AppBroadcastStreamReader.TryGetNextVid
 ## -see-also
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

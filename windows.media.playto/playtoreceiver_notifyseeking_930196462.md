@@ -30,5 +30,3 @@ For an example of creating a software Play To receiver, see [Media casting](http
 
 ## -capabilities
 privateNetworkClientServer
-ities
-privateNetworkClientServer

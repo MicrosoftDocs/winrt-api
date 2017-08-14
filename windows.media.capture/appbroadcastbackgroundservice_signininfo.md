@@ -24,5 +24,4 @@ An object that represents the sign-in information for the app broadcast backgrou
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

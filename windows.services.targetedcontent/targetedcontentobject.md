@@ -19,4 +19,3 @@ Represents a single object within the TargetedContentContainer.
 
 ## -capabilities
 targetedContent
-

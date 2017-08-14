@@ -23,4 +23,4 @@ An [AudioDeviceController](../windows.media.devices/audiodevicecontroller.md) ob
 
 
 ## -capabilities
-webcam, microphone
+microphone, webcam

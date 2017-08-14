@@ -24,5 +24,4 @@ Provides information about and access to the app broadcast preview stream.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

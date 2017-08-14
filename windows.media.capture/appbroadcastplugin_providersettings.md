@@ -24,5 +24,4 @@ The provider settings for the app broadcast plugin.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

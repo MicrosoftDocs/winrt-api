@@ -25,4 +25,4 @@ Video trimming in the **CameraCaptureUI** is not supported for devices in the Mo
 
 
 ## -capabilities
-webcam, microphone
+microphone, webcam

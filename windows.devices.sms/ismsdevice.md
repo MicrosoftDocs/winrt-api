@@ -23,4 +23,4 @@ This interface controls a mobile broadband SMS device. It is the primary entry p
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

@@ -22,5 +22,4 @@ A time stamp indicating the system time at which the audio frame was captured.
 ## -see-also
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

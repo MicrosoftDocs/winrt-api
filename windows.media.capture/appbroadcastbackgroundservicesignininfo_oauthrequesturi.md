@@ -24,5 +24,4 @@ The OAuth request URI.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

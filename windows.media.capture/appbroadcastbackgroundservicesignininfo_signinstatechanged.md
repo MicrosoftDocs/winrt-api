@@ -21,5 +21,4 @@ Occurs when the sign-in state of the app broadcast background service changes.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

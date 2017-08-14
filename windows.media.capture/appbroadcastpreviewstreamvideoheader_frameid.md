@@ -24,5 +24,4 @@ The frame ID for the app broadcast preview stream video frame.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

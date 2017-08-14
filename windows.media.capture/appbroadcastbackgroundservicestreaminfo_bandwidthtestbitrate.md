@@ -24,5 +24,4 @@ The bandwidth test bitrate for the app broadcast background service.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

@@ -28,5 +28,4 @@ This enumeration is used by the [AppBroadcastProviderSettings.VideoEncodingBitra
 ## -see-also
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

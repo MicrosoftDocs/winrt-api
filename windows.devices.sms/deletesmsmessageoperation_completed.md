@@ -23,4 +23,4 @@ A handler for the completed event of an asynchronous action.
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

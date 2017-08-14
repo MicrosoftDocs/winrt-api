@@ -24,5 +24,4 @@ The microphone capture error associated with the app broadcast state.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

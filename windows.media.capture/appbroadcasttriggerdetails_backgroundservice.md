@@ -22,5 +22,4 @@ An object that provides an interface between the broadcasting UWP app and the sy
 ## -see-also
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

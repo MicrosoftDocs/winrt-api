@@ -23,4 +23,4 @@ An enumerated value indicating the device's cellular class.
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

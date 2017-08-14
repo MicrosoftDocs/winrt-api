@@ -24,5 +24,4 @@ The audio codec used by the app broadcast background service.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

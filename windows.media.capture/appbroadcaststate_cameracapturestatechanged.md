@@ -21,5 +21,4 @@ Occurs when the camera capture state changes.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

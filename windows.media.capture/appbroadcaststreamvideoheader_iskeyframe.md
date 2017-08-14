@@ -22,5 +22,4 @@ True is the video frame is a key frame; otherwise, false.
 ## -see-also
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

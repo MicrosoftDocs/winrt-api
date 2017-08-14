@@ -23,5 +23,4 @@ If you specify a custom video encoding height, you should set the [VideoEncoding
 ## -see-also
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

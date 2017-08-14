@@ -24,5 +24,4 @@ A string that specifies the language settings for app broadast.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

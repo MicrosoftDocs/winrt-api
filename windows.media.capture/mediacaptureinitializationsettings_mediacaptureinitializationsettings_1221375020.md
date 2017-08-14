@@ -20,4 +20,4 @@ Creates a new instance of the [MediaCaptureInitializationSettings](mediacapturei
 
 
 ## -capabilities
-webcam, microphone
+microphone, webcam

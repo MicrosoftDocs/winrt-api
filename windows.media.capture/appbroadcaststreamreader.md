@@ -23,5 +23,4 @@ Get an instance of this class by accessing the [AppBroadcastBackgroundServiceStr
 ## -see-also
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

@@ -22,5 +22,4 @@ A string containing a system-defined identifier for the broadcasting app.
 ## -see-also
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

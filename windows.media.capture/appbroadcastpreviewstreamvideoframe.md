@@ -24,5 +24,4 @@ Represents a video frame from the app broadcast preview stream.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

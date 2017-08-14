@@ -61,4 +61,4 @@ Additionally, `fileToken` gets an identifier that you can use to retrieve the fi
 [StorageFolder](storagefolder.md), [IStorageFile](istoragefile.md), [IStorageItem](istorageitem.md), [IRandomAccessStreamReference](../windows.storage.streams/irandomaccessstreamreference.md), [IInputStreamReference](../windows.storage.streams/iinputstreamreference.md), [IStorageItemProperties](istorageitemproperties.md), [IStorageItemProperties2](istorageitemproperties2.md), [IStorageItem2](istorageitem2.md), [IStorageItemPropertiesWithProvider](istorageitempropertieswithprovider.md), [IStorageFilePropertiesWithAvailability](istoragefilepropertieswithavailability.md)
 
 ## -capabilities
-picturesLibrary, videosLibrary, musicLibrary, documentsLibrary
+documentsLibrary, musicLibrary, picturesLibrary, videosLibrary

@@ -23,4 +23,4 @@ An integer index of the new message.
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

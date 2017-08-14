@@ -24,5 +24,4 @@ The OAuth callback URI.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

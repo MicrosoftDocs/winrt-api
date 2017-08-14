@@ -25,4 +25,3 @@ This method must be called from a UI thread the first time it is used by an appl
 
 ## -capabilities
 appDiagnostics
-
