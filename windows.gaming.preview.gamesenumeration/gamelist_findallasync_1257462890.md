@@ -14,10 +14,8 @@ This API is not available to all apps. Unless your developer account is speciall
 
 ## -parameters
 ### -param packageFamilyName
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 
 ## -returns
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 
 ## -remarks
 
@@ -25,3 +23,4 @@ This API is not available to all apps. Unless your developer account is speciall
 
 ## -see-also
 [FindAllAsync](gamelist_findallasync_326280522.md)
+

@@ -10,6 +10,7 @@ public enum GameListEntryLaunchableState : int
 # Windows.Gaming.Preview.GamesEnumeration.GameListEntryLaunchableState
 
 ## -description
+This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 
 ## -enum-fields
 ### -field NotLaunchable:0
