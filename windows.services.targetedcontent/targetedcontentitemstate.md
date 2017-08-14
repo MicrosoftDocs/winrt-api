@@ -19,4 +19,3 @@ Represents a state of a TargetedContentItem object: AppInstallationState, Should
 
 ## -capabilities
 targetedContent
-

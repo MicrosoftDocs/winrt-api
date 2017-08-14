@@ -23,5 +23,4 @@ If you specify a custom video encoding bitrate, you should set the [VideoEncodin
 ## -see-also
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

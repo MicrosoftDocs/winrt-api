@@ -24,5 +24,4 @@ The video height, in pixels, of the app broadcast preview stream.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

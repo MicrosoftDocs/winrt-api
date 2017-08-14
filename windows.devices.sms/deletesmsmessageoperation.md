@@ -26,4 +26,4 @@ Enables start, track, and end an asynchronous message delete operation for a sin
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

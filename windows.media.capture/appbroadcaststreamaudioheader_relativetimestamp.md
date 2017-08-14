@@ -22,5 +22,4 @@ A time stamp indicating the relative time within the audio stream at which the a
 ## -see-also
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

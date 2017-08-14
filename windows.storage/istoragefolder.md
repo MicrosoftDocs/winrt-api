@@ -25,4 +25,4 @@ Manipulates folders and their contents, and provides information about them.
 [IStorageItem](istorageitem.md), [StorageFolder](storagefolder.md)
 
 ## -capabilities
-picturesLibrary, videosLibrary, musicLibrary, documentsLibrary
+documentsLibrary, musicLibrary, picturesLibrary, videosLibrary

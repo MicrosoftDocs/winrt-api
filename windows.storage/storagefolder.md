@@ -23,4 +23,4 @@ Additionally, when you call a file picker to let the user pick a folder, the fil
 [StorageFile](storagefile.md), [Folder enumeration sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=619993)
 
 ## -capabilities
-picturesLibrary, videosLibrary, musicLibrary, documentsLibrary
+documentsLibrary, musicLibrary, picturesLibrary, videosLibrary

@@ -23,5 +23,4 @@ Set this value to true in the handler for the [HeartbeatRequested](appbroadcastb
 ## -see-also
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

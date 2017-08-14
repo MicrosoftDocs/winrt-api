@@ -23,4 +23,4 @@ A value of the DateTime type.
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

@@ -27,4 +27,4 @@ A new [SmsTextMessage](smstextmessage.md) object.
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

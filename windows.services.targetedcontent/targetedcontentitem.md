@@ -19,4 +19,3 @@ Represents an item with the TargetedContentCollection.
 
 ## -capabilities
 targetedContent
-

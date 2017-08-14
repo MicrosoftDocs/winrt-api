@@ -22,5 +22,4 @@ The buffer containing the image data for the broadcast audio frame.
 ## -see-also
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

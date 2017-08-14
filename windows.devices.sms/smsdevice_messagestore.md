@@ -23,4 +23,4 @@ A reference to an [SmsDeviceMessageStore](smsdevicemessagestore.md) object.
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

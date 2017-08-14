@@ -26,4 +26,4 @@ Supports the retrieval of messages.
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

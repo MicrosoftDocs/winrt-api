@@ -19,4 +19,3 @@ Represents a container for all the content in a TargetedContentSubscription obje
 
 ## -capabilities
 targetedContent
-

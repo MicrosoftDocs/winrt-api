@@ -23,4 +23,4 @@ An enumerated value that indicates the readiness of an SMS device to engage in c
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

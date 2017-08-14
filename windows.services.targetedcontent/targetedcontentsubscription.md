@@ -19,4 +19,3 @@ Represents a Subscription object.
 
 ## -capabilities
 targetedContent
-

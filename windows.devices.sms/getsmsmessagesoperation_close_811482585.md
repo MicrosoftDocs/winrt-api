@@ -20,4 +20,4 @@ Closes the asynchronous operations.
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

@@ -22,5 +22,4 @@ True if the video frame contains a discontinuity; otherwise, false.
 ## -see-also
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

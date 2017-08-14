@@ -31,4 +31,4 @@ For how-to guidance on recording to a file, see [Basic photo, video, and audio c
 
 
 ## -capabilities
-webcam, microphone
+microphone, webcam

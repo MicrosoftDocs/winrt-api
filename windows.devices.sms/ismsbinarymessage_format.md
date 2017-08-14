@@ -23,4 +23,4 @@ An enumerated value describing the SMS data format.
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

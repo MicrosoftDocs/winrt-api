@@ -21,5 +21,4 @@ Occurs when the capture target is closed.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

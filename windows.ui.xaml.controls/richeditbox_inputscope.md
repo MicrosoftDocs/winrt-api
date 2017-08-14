@@ -34,7 +34,7 @@ Gets or sets the context for input used by this [RichEditBox](richeditbox.md).
 <dl><dt>inputScopeName</dt><dd>inputScopeNameA string that matches one of the named constants of the InputScopeNameValue enumeration, such as Number.</dd>
 </dl>
 ## -property-value
-The input scope, which provides a hint at the type of text input expected by the control. Values are provided by the [InputScopeNameValue](../windows.ui.xaml.input/inputscopenamevalue.md) enumeration.
+The input scope, which provides a hint at the type of text input expected by the control.
 
 ## -remarks
 The input scope provides a hint at the type of text input expected by the control. Various elements of the system can respond to the hint provided by the input scope and provide a specialized UI for the input type. For example, the soft keyboard might show a number pad for text input when the control has its [InputScope](../windows.ui.xaml.input/inputscope.md) set to **Number**.

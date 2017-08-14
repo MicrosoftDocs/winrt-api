@@ -24,4 +24,4 @@ A reference to an [IAsyncOperation(SmsDevice)](../windows.foundation/iasyncopera
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

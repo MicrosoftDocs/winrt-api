@@ -19,5 +19,4 @@ Raised when a new video frame from the broadcast stream arrives.
 ## -see-also
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

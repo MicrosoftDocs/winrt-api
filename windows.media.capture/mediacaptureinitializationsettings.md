@@ -28,6 +28,4 @@ The following example initializes the **MediaCaptureInitializationSettings**. Ca
 
 
 ## -capabilities
-webcam, microphone
--capabilities
-webcam, microphone
+microphone, webcam

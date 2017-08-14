@@ -25,4 +25,4 @@ For information on the available photo capture settings, see [CameraCaptureUIPho
 [CameraCaptureUIPhotoCaptureSettings](cameracaptureuiphotocapturesettings.md)
 
 ## -capabilities
-webcam, microphone
+microphone, webcam

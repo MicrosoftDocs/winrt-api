@@ -22,5 +22,4 @@ True if microphone capture is enabled by default; otherwise, false.
 ## -see-also
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

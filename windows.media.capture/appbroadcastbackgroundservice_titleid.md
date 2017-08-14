@@ -24,5 +24,4 @@ A unique identifier for the title being broadcast.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

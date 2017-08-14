@@ -67,5 +67,4 @@ The app broadcast was terminated because the app broadcast background task was t
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

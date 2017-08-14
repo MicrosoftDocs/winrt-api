@@ -23,4 +23,4 @@ The message string.
 
 
 ## -capabilities
-webcam, microphone
+microphone, webcam

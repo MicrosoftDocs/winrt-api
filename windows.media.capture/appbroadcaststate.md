@@ -24,5 +24,4 @@ Represents and manages the state of an app broadcast.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

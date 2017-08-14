@@ -24,5 +24,4 @@ The buffer containing the image data for the app broadcast preview stream video 
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

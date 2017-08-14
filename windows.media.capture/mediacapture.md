@@ -72,4 +72,4 @@ The following code sample shows how to create and initialize a **MediaCapture** 
 
 
 ## -capabilities
-webcam, microphone
+microphone, webcam

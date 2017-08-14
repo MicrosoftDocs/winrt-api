@@ -26,4 +26,4 @@ Manages a decoded SMS text message, providing direct access to the plain text bo
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

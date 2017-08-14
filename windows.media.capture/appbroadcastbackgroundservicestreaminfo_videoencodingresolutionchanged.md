@@ -21,5 +21,4 @@ Occurs when the app broadcast video encoding resolution changes.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

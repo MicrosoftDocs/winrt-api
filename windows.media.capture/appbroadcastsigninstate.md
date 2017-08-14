@@ -40,12 +40,4 @@ Get the current sign-in state by handling the [AppBroadcastBackgroundServiceSign
 ## -see-also
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
-
-
-
-
-
-
-
+appBroadcast, appBroadcastSettings

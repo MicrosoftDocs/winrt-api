@@ -23,4 +23,4 @@ A handler for progress update events of an asynchronous operation.
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

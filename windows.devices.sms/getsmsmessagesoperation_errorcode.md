@@ -23,4 +23,4 @@ The result value of the asynchronous operation.
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

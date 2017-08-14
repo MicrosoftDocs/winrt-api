@@ -20,4 +20,4 @@ Closes the asynchronous [SmsDevice](smsdevice.md) object retrieval operation.
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

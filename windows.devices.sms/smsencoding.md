@@ -60,4 +60,4 @@ The encodings are defined in sections 4.5.2 and 23.038 of the 3GPP2 specificatio
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

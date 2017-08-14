@@ -23,5 +23,4 @@ In order to avoid unnecessary copying of frame data, this method returns a refer
 ## -see-also
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

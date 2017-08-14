@@ -23,4 +23,4 @@ An enumerated value representing the status of the asynchronous SMS message dele
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

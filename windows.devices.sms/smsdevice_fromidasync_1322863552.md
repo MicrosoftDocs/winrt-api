@@ -28,4 +28,4 @@ The [SmsReceivedEventDetails](smsreceivedeventdetails.md) interface handles the 
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

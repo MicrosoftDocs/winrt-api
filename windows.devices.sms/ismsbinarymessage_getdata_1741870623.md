@@ -23,4 +23,4 @@ A byte array representing message data. If there is no message data, the returne
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

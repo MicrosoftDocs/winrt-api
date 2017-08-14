@@ -23,5 +23,4 @@ In the handler for the [HeartbeatRequested](appbroadcastbackgroundservice_heartb
 ## -see-also
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

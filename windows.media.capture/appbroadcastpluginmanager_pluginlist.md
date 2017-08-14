@@ -24,5 +24,4 @@ A read-only list of all app broadcast plugins.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

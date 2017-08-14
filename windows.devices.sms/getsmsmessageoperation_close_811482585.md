@@ -20,4 +20,4 @@ Closes the asynchronous SMS message retrieval operation.
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

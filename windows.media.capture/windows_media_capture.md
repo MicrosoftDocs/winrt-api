@@ -17,4 +17,4 @@ To get started quickly adding photo, video, or audio capture to your app, see [B
 [Camera](https://msdn.microsoft.com/en-us/windows/uwp/audio-video-camera/camera), [Basic photo, video, and audio capture with MediaCapture](https://msdn.microsoft.com/en-us/windows/uwp/audio-video-camera/basic-photo-video-and-audio-capture-with-mediacapture), [OCR sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620579), [Real-time communication sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620600)
 
 ## -capabilities
-webcam, microphone
+microphone, webcam

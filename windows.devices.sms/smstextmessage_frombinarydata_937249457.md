@@ -30,4 +30,4 @@ A new [SmsTextMessage](smstextmessage.md) object if the decoding was successful.
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

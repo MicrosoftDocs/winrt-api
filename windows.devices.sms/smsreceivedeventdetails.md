@@ -27,4 +27,4 @@ Windows extends battery life by suspending applications that are not in the fore
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

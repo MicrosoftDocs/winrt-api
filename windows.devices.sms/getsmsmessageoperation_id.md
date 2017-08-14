@@ -23,4 +23,4 @@ An integer uniquely representing the asynchronous SMS message retrieval operatio
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

@@ -23,5 +23,4 @@ Stope the app broadcast preview.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

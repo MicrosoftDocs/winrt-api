@@ -26,4 +26,4 @@ For how-to guidance for using the [MediaCapture](mediacapture.md) object to capt
 
 
 ## -capabilities
-webcam, microphone
+microphone, webcam

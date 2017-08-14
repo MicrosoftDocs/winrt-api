@@ -32,4 +32,4 @@ Some video cameras have a separate photo stream that can capture still images at
 
 
 ## -capabilities
-webcam, microphone
+microphone, webcam

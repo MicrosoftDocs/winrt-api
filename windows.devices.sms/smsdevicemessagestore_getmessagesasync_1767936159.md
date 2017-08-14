@@ -27,4 +27,4 @@ Returns a new message operation object that is used to start and track the async
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

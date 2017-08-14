@@ -22,5 +22,4 @@ The bitrate of the video stream, in bits per second.
 ## -see-also
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

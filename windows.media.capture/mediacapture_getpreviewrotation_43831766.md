@@ -23,4 +23,4 @@ The amount by which the video preview stream is rotated.
 
 
 ## -capabilities
-webcam, microphone
+microphone, webcam

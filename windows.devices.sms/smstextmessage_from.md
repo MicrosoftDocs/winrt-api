@@ -23,4 +23,4 @@ A string representation of the phone number of the sender of this message. It sh
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

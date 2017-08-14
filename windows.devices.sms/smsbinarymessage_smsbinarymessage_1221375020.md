@@ -20,4 +20,4 @@ Creates an instance of the [SmsBinaryMessage](smsbinarymessage.md) class.
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

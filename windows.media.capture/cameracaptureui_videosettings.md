@@ -25,4 +25,4 @@ For information on the available video capture settings, see [CameraCaptureUIVid
 
 
 ## -capabilities
-webcam, microphone
+microphone, webcam

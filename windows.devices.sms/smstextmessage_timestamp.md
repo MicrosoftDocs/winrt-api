@@ -23,4 +23,4 @@ A value of the [DateTime](../windows.foundation/datetime.md) type.
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

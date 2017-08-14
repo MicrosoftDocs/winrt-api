@@ -24,5 +24,4 @@ A value indicating the app broadcast stream state.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

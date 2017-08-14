@@ -20,4 +20,4 @@ Sets an event handler to be called when the status of the SMS device changes.
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

@@ -21,5 +21,4 @@ Provides data for the [AppBroadcastState.MicrophoneCaptureStateChanged](./appbro
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

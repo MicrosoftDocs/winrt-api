@@ -22,5 +22,4 @@ A value that specifies the location of the camera overlay within the broadcast v
 ## -see-also
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

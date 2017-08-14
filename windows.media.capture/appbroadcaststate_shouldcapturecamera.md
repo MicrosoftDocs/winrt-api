@@ -24,5 +24,4 @@ A value specifying whether the camera should be captured for the app broadcast.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

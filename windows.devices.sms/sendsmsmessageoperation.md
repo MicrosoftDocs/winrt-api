@@ -26,4 +26,4 @@ Enables the sending of a message.
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

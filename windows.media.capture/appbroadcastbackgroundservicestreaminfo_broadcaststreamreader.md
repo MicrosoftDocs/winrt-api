@@ -24,5 +24,4 @@ The broadcast stream reader for the app broadcast background service.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

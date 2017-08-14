@@ -22,5 +22,4 @@ A value that specifies the size of the camera overlay within the broadcast video
 ## -see-also
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

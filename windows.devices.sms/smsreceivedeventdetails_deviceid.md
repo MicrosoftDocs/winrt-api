@@ -23,4 +23,4 @@ A string containing the [DeviceInformation](../windows.devices.enumeration/devic
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

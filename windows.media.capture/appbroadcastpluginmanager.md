@@ -24,5 +24,4 @@ Manages app broadcast plugins.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

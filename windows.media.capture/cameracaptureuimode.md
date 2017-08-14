@@ -36,4 +36,4 @@ You must specify the **webcam** or **microphone** capabilities in your app manif
 [CaptureFileAsync](cameracaptureui_capturefileasync.md)
 
 ## -capabilities
-webcam, microphone
+microphone, webcam

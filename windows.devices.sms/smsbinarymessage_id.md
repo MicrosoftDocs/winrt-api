@@ -23,4 +23,4 @@ An integer uniquely representing the asynchronous operation.
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

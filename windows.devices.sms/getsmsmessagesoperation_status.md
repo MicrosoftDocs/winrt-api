@@ -23,4 +23,4 @@ An enumerated value representing the status of an asynchronous operation.
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

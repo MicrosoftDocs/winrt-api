@@ -24,5 +24,4 @@ True if the broadcast service can capture; otherwise, false.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

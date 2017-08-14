@@ -25,4 +25,4 @@ Imaging cropping in the **CameraCaptureUI** is not supported for devices in the 
 
 
 ## -capabilities
-webcam, microphone
+microphone, webcam

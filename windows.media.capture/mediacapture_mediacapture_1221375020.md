@@ -21,4 +21,4 @@ You must call [InitializeAsync](mediacapture_initializeasync_315323248.md) befor
 
 
 ## -capabilities
-webcam, microphone
+microphone, webcam

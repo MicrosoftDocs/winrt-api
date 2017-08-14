@@ -32,4 +32,4 @@ An object that holds the binary and text representations of the message.
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

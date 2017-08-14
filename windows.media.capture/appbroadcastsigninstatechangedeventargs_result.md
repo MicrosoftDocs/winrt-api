@@ -22,5 +22,4 @@ The result of the sign-in operation.
 ## -see-also
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

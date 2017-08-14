@@ -10,9 +10,7 @@ public class AppExtensionCatalog : Windows.ApplicationModel.AppExtensions.IAppEx
 # Windows.ApplicationModel.AppExtensions.AppExtensionCatalog
 
 ## -description
-Provides information about available extensions within a group
-<!--what's a group-->
-.
+Provides information about available extensions within an extension group.
 
 ## -remarks
 

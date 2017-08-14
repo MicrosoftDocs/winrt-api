@@ -1,4 +1,4 @@
--
+---
 -api-id: M:Windows.Graphics.Display.BrightnessOverride.SaveForSystemAsync(Windows.Graphics.Display.BrightnessOverride)
 -api-type: winrt method
 ---

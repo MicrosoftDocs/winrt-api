@@ -31,4 +31,4 @@ For how-to guidance on recording to a file, see [Basic photo, video, and audio c
 [Basic photo, video, and audio capture with MediaCapture](https://msdn.microsoft.com/en-us/windows/uwp/audio-video-camera/basic-photo-video-and-audio-capture-with-mediacapture)
 
 ## -capabilities
-webcam, microphone
+microphone, webcam

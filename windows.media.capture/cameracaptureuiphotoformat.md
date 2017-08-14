@@ -42,4 +42,4 @@ You must specify the **webcam** or **microphone** capabilities in your app manif
 [Capture photos and video with Windows built-in camera UI](https://msdn.microsoft.com/windows/uwp/audio-video-camera/capture-photos-and-video-with-cameracaptureui), [CameraCaptureUI](cameracaptureui.md), [CameraCaptureUIPhotoCaptureSettings.Format](cameracaptureuiphotocapturesettings_format.md)
 
 ## -capabilities
-webcam, microphone
+microphone, webcam

@@ -24,5 +24,4 @@ The new app broadcast plugin state.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

@@ -29,4 +29,4 @@ This interface manipulates a decoded SMS text message. It provides direct access
 [ISmsMessage](ismsmessage.md)
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

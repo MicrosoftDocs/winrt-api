@@ -22,5 +22,4 @@ The duration of the audio frame.
 ## -see-also
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

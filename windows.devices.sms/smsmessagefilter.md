@@ -43,4 +43,4 @@ All unsent and saved messages.
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

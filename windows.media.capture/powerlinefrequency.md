@@ -34,4 +34,4 @@ The power-line frequency is determined automatically by the system.
 
 
 ## -capabilities
-webcam, microphone
+microphone, webcam

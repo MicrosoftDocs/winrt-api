@@ -32,4 +32,4 @@ For how-to guidance on handling orientation and mirroring when using the camera,
 
 
 ## -capabilities
-webcam, microphone
+microphone, webcam

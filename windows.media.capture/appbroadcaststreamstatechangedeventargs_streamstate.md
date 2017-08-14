@@ -23,5 +23,4 @@ Gets the new state of the app broadcast stream.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

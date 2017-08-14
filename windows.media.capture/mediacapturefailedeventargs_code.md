@@ -23,4 +23,4 @@ The error code.
 
 
 ## -capabilities
-webcam, microphone
+microphone, webcam

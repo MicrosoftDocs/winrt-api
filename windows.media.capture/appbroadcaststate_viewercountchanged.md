@@ -21,5 +21,4 @@ Occurs when the viewer count of the app broadcast changes.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

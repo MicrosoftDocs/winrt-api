@@ -24,4 +24,4 @@ A byte array representing message data, formatted according to the protocol desc
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

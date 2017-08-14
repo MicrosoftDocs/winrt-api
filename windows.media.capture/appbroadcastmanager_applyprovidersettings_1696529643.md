@@ -23,5 +23,4 @@ Updates the broadcast provider settings.
 ## -see-also
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

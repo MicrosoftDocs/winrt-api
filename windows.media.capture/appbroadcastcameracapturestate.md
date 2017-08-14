@@ -39,5 +39,4 @@ App broadcast camera capture has failed.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

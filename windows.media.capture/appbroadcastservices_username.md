@@ -24,5 +24,4 @@ The username used for authentication for app broadcast.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

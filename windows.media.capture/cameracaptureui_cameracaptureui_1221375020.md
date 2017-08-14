@@ -22,4 +22,4 @@ After you create a new [CameraCaptureUI](cameracaptureui.md) object, you may wan
 
 
 ## -capabilities
-webcam, microphone
+microphone, webcam

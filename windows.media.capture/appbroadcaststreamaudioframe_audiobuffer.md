@@ -22,5 +22,4 @@ The buffer containing the audio samples for the broadcast audio frame.
 ## -see-also
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

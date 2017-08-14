@@ -23,4 +23,4 @@ An integer that uniquely represents the asynchronous [SmsDevice](smsdevice.md) o
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

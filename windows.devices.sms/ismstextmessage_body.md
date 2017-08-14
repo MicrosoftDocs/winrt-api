@@ -23,4 +23,4 @@ A string representing the body of the text message. If there were decoding probl
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

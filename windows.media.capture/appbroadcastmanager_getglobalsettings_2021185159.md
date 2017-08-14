@@ -22,5 +22,4 @@ An object that exposes the global broadcast settings for the current device.
 ## -see-also
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

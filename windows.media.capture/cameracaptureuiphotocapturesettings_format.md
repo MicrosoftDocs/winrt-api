@@ -24,4 +24,4 @@ A value that indicates the format for captured photos.
 
 
 ## -capabilities
-webcam, microphone
+microphone, webcam

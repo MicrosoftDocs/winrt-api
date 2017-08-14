@@ -24,5 +24,4 @@ A value that indicates the state of the app broadcast preview.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

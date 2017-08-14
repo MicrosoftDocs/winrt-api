@@ -23,4 +23,4 @@ A [MediaCaptureSettings](mediacapturesettings.md) object that contains the setti
 
 
 ## -capabilities
-webcam, microphone
+microphone, webcam

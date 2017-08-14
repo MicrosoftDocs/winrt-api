@@ -22,5 +22,4 @@ An object that contains metadata about the associated broadcast audio frame.
 ## -see-also
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

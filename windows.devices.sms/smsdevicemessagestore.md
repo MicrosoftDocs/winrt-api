@@ -26,4 +26,4 @@ Provides access to the messages stored on an SMS Device and information about th
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

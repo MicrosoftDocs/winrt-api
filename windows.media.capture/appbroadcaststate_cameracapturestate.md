@@ -24,5 +24,4 @@ The camera capture state.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

@@ -19,4 +19,3 @@ Represents the content value object for a subscription.
 
 ## -capabilities
 targetedContent
-

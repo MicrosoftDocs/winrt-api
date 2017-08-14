@@ -30,4 +30,4 @@ Returns the value of the encoding property.
 
 
 ## -capabilities
-webcam, microphone
+microphone, webcam

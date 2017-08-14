@@ -22,5 +22,4 @@ A string containing the user-specified title of the broadcast.
 ## -see-also
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

@@ -24,4 +24,4 @@ The maximum duration of a video. If this property is set to zero, no maximum dur
 
 
 ## -capabilities
-webcam, microphone
+microphone, webcam

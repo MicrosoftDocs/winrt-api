@@ -31,4 +31,4 @@ Setting this property requires that the [MaxResolution](cameracaptureuiphotocapt
 
 
 ## -capabilities
-webcam, microphone
+microphone, webcam

@@ -23,5 +23,4 @@ Get an instance of this class by casting the [TriggerDetails](../windows.applica
 ## -see-also
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

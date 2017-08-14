@@ -22,5 +22,4 @@ The microphone gain for broadcast audio capture.
 ## -see-also
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

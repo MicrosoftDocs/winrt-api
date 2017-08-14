@@ -23,4 +23,4 @@ An interface that accesses the retrieved message.
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

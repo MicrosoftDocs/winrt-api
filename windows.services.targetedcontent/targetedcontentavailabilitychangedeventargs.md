@@ -19,4 +19,3 @@ Represents the arguments for the Availability Changed event.
 
 ## -capabilities
 targetedContent
-

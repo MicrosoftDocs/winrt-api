@@ -23,4 +23,4 @@ A reference to an [SmsBinaryMessage](smsbinarymessage.md) object.
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

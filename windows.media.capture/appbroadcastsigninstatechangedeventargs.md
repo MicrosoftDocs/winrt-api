@@ -23,5 +23,4 @@ Get an instance of this class by handling the [AppBroadcastBackgroundServiceSign
 ## -see-also
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

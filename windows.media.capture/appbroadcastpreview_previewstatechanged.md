@@ -21,5 +21,4 @@ Occurs when the state of the app broadcast preview changes.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

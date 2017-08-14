@@ -23,5 +23,4 @@ Set the title of the current broadcast by setting the [AppBroadcastBackgroundSer
 ## -see-also
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

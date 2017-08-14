@@ -24,4 +24,4 @@ A value that indicates the maximum resolution the user will be able to select.
 
 
 ## -capabilities
-webcam, microphone
+microphone, webcam

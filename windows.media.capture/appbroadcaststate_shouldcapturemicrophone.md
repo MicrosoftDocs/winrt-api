@@ -24,5 +24,4 @@ A value specifying whether the microphone should be captured for the app broadca
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

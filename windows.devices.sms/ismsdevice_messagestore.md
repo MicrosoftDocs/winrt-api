@@ -23,4 +23,4 @@ A reference to an SmsMessageStore object.
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

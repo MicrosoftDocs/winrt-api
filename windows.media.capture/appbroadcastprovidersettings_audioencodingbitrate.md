@@ -22,5 +22,4 @@ The audio encoding bitrate of the broadcast stream, in bits per second.
 ## -see-also
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

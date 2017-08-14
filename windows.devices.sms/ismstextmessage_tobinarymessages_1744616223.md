@@ -27,4 +27,4 @@ The new binary message that holds the result of this method call.
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

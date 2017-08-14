@@ -20,4 +20,4 @@ Retrieves the result of the asynchronous message operations.
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

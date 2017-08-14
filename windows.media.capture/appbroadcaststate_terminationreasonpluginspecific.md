@@ -24,5 +24,4 @@ A value indicating the plug-in-specified reason that app broadcast was terminate
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

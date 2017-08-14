@@ -23,4 +23,4 @@ An unsigned integer determined by the sending network; it cannot be manipulated 
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

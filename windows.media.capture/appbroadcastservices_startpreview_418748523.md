@@ -28,5 +28,4 @@ An object specifying the size, in pixels, of the app broadcast preview.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

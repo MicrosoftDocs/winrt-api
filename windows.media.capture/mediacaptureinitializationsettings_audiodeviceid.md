@@ -24,4 +24,4 @@ This method may return a NULL pointer if the device doesn't support this functio
 
 
 ## -capabilities
-webcam, microphone
+microphone, webcam

@@ -22,5 +22,4 @@ True if broadcasting is disabled on the device by group policy; otherwise, false
 ## -see-also
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

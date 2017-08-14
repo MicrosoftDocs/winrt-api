@@ -42,4 +42,4 @@ This code shows how to use the **CameraCaptureUI** class to take a picture. The 
 
 
 ## -capabilities
-webcam, microphone
+microphone, webcam

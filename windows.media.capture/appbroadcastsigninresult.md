@@ -40,5 +40,4 @@ Get the result of a sign-in operation by handling the [AppBroadcastBackgroundSer
 ## -see-also
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

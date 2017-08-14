@@ -22,5 +22,4 @@ A buffer containing the sequence header for the AAC audio stream.
 ## -see-also
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

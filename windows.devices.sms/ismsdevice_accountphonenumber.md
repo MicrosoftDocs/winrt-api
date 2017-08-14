@@ -23,4 +23,4 @@ A string representation of the account phone number.
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

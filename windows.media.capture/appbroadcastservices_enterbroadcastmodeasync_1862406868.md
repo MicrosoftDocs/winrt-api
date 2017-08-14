@@ -29,5 +29,4 @@ An asynchronous operation that returns a status code on successful completion.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

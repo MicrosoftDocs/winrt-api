@@ -23,5 +23,4 @@ If you set this value to [Custom](appbroadcastvideoencodingbitratemode.md), you 
 ## -see-also
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

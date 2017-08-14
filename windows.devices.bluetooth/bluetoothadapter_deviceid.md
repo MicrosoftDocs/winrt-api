@@ -24,4 +24,3 @@ The ID of the device.
 
 ## -capabilities
 bluetooth
-

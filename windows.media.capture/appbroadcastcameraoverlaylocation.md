@@ -51,5 +51,4 @@ The overlay is positioned at the bottom right of the frame.
 ## -see-also
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

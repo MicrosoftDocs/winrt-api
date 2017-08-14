@@ -23,4 +23,4 @@ An integer that uniquely represents the asynchronous SMS message delete operatio
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

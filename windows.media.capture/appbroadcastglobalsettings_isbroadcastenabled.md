@@ -22,5 +22,4 @@ True if broadcasting is enabled on the device; otherwise, false.
 ## -see-also
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

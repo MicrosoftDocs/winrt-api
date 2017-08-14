@@ -24,5 +24,4 @@ A stream containing the logo image of the app broadcast plugin.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

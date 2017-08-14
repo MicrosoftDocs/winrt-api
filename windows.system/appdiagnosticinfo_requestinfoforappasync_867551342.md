@@ -27,4 +27,3 @@ A collection of **[AppDiagnosticInfo](appdiagnosticinfo.md)** objects for all in
 
 ## -capabilities
 appDiagnostics
-

@@ -23,4 +23,4 @@ The stream that is used for photo capture.
 
 
 ## -capabilities
-webcam, microphone
+microphone, webcam

@@ -24,5 +24,4 @@ The number of viewers of the broadcast.
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings

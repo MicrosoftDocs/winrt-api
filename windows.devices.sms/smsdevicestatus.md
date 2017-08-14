@@ -50,4 +50,4 @@ The device is blocked by a PIN or password that prevents the device from initial
 
 
 ## -capabilities
-sms, cellularMessaging
+cellularMessaging, sms

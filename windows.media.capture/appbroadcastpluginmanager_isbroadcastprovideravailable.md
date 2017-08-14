@@ -24,5 +24,4 @@ True if the broadcast provider is available; otherwise, false;
 
 
 ## -capabilities
-appBroadcast
-appBroadcastSettings
+appBroadcast, appBroadcastSettings
