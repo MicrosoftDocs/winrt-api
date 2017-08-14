@@ -26,6 +26,13 @@ The height of the barcode, in pixels.
 ### -param width
 The width of the barcode.
 
+This value is interpreted in one of two ways:
+
+The width of the entire barcode, expressed in the unit of measurement indicated by the [ClaimedPosPrinter.MapMode](claimedposprinter_mapmode.md) property.
+
+
+or, (though we discourage using this method) if the value is less than or equal to 6, it is interprested as described below:
+
 ESC/POS control language is used for most Windows POS device communication, and ESC/POS only accepts integers from 2 to 6. Each value contains a matched measurement for the thin and thick elements of a barcode. In order for a barcode to be read properly, the width of the lines is crucial, especially when scaling. Additionally, the minimum width capability varies by printer model.
 
 Actual sizes are dependent on the capabilities of the target printer, but approximate sizes for accepted values are:<table>
@@ -50,3 +57,4 @@ The horizontal alignment of the barcode on the page.
 ## -examples
 
 ## -see-also
+[ClaimedPosPrinter.MapMode](claimedposprinter_mapmode.md)
