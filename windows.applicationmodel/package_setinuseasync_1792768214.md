@@ -18,7 +18,7 @@ Sets whether the package is in use or not.
 **True** to specify that the package is in use; **false** otherwise.
 
 ## -returns
-**True** indicates that the operation was successful; **false** otherwise.
+**True** indicates that the operation to set whether the package is in use or not was successful; **false** otherwise.
 
 ## -remarks
 This API specifies whether the app is using an optional package. With this information the system can determine whether servicing the optional package will require shutting down the app. This provides a better user experience because the app can manage when it is shut down for optional package updates or removals.

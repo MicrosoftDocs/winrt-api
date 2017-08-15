@@ -15,6 +15,6 @@ Provides information about the result of adding an optional package to the packa
 ## -remarks
 
 ## -see-also
-[PackageCatalog.AddOoptionalPackageAsync()](packagecatalog_addoptionalpackageasync_922156115.md)
+[PackageCatalog.AddOptionalPackageAsync](packagecatalog_addoptionalpackageasync_922156115.md)
 
 ## -examples

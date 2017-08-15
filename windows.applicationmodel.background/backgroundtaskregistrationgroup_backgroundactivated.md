@@ -19,4 +19,4 @@ Background triggers associated with a group fire this event instead of having a 
 [Launching, resuming, and background tasks](https://msdn.microsoft.com/windows/uwp/launch-resume/index)
 
 ## -examples
-[Background activation sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/BackgroundActivation)
+[Background activation sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/BackgroundActivation) See scenario 6 for a grouped task example.

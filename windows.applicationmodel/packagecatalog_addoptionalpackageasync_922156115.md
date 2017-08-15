@@ -18,7 +18,7 @@ Adds an optional package to the package catalog.
 The package family of the optional package to add to the catalog.
 
 ## -returns
-The result of adding the package.
+The result of starting the asynchronous operation to add the package.
 
 ## -remarks
 This method only works for optional packages in a related set.
