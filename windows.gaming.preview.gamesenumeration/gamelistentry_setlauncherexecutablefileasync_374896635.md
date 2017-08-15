@@ -10,6 +10,7 @@ public IAsyncAction GameListEntry.SetLauncherExecutableFileAsync(IStorageFile ex
 # Windows.Gaming.Preview.GamesEnumeration.GameListEntry.SetLauncherExecutableFileAsync
 
 ## -description
+This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 
 ## -parameters
 ### -param executableFile

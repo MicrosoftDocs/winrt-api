@@ -13,7 +13,6 @@ public Windows.Foundation.IAsyncOperation<Windows.Foundation.Collections.IVector
 This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 
 ## -returns
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 
 ## -remarks
 
@@ -21,3 +20,4 @@ This API is not available to all apps. Unless your developer account is speciall
 
 ## -see-also
 [FindAllAsync(String)](gamelist_findallasync_1257462890.md)
+

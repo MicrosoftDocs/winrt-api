@@ -14,13 +14,12 @@ This API is not available to all apps. Unless your developer account is speciall
 
 ## -parameters
 ### -param value
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 
 ## -returns
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
+
