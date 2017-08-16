@@ -21,5 +21,5 @@ To reduce collisions with other group identifiers, consider including your domai
 ## -see-also
 [Launching, resuming, and background tasks](https://msdn.microsoft.com/windows/uwp/launch-resume/index)
 
-
 ## -examples
+[Background Task code sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/BackgroundTask/cs/BackgroundTask)  See scenario 6 for a grouped task example.

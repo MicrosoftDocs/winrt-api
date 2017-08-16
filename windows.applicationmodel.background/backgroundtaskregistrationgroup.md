@@ -19,7 +19,7 @@ Grouped background task registration provides roughly the equivalent of a namesp
 
 ## -examples
 [Background activation sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/BackgroundActivation)  
-[Background task sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/BackgroundTask)
+[Background task sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/BackgroundTask) See scenario 6 for a grouped task example.
 
 ## -see-also
 [Group background task registration](https://docs.microsoft.com/windows/uwp/launch-resume/group-background-tasks)  

@@ -18,7 +18,7 @@ Try to run a scenario on demand.
 The scenario identifier.
 
 ### -param escalationType
-
+The type of escalation.
 
 ### -param outputDirectory
 The path to the location where the diagnostic data will be stored.
