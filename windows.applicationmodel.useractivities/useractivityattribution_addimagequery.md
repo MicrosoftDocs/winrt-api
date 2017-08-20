@@ -10,7 +10,7 @@ public bool AddImageQuery { get;  set; }
 # Windows.ApplicationModel.UserActivities.UserActivityAttribution.AddImageQuery
 
 ## -description
-Get or set whether allow Windows to append a query string to the image URI supplied from [IconUri](useractivityattribution_iconuri.md).
+Get or set whether to allow Windows to append a query string to the image URI supplied from [IconUri](useractivityattribution_iconuri.md) when retriving the image. The query string includes information that can be used to choose the ideal image for the context it is presented in, for examplle the DPI of the display, if the high contrast setting is on or user language.
 
 ## -property-value
 **True** to allow windows to append a query string to the image URI; **false** otherwise.
