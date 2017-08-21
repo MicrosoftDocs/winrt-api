@@ -1,3 +1,4 @@
+
 ---
 -api-id: P:Windows.Web.Http.HttpClient.DefaultRequestHeaders
 -api-type: winrt property
@@ -36,6 +37,7 @@ The [DefaultRequestHeaders](httpclient_defaultrequestheaders.md) property repres
 + Max-Forwards
 + Proxy-Authorization
 + Referer
+
 If you are writing for versions before Windows 10, do not set these header values to NULL.
 
 ## -examples
