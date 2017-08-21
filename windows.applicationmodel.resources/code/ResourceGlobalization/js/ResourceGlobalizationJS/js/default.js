@@ -36,7 +36,7 @@
     function buttonClickHandler(eventInfo) {
 
         // <SnippetResourceLoaderJS>
-        var loader = new Windows.ApplicationModel.Resources.ResourceLoader.getForCurrentView();
+        var loader = Windows.ApplicationModel.Resources.ResourceLoader.getForCurrentView();
         var text = loader.getString('Farewell');
         // </SnippetResourceLoaderJS>
         document.getElementById("resourceLoaderOutput").innerText = text;

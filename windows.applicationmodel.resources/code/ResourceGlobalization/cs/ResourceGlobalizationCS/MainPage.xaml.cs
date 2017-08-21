@@ -52,7 +52,7 @@ namespace ResourceGlobalizationCS
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             // <SnippetResourceLoaderCS>
-            var loader = new Windows.ApplicationModel.Resources.ResourceLoader.GetForCurrentView();
+            var loader = Windows.ApplicationModel.Resources.ResourceLoader.GetForCurrentView();
             var text = loader.GetString("Farewell");
             // </SnippetResourceLoaderCS>
             resourceLoaderOutput.Text = text;
