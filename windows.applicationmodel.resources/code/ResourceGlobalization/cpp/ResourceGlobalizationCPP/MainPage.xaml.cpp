@@ -56,7 +56,7 @@ void MainPage::SaveState(IMap<String^, Object^>^ pageState)
 void ResourceGlobalizationCPP::MainPage::Button_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
 	// <SnippetResourceLoaderCPP>
-	auto loader = ref new Windows::ApplicationModel::Resources::ResourceLoader::GetForCurrentView();
+	auto loader = Windows::ApplicationModel::Resources::ResourceLoader::GetForCurrentView();
 	String^ text = loader->GetString("Farewell");
 	// </SnippetResourceLoaderCPP>
 	resourceLoaderOutput->Text = text;

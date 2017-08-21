@@ -31,7 +31,7 @@ Public NotInheritable Class MainPage
 
     Private Sub Button_Click(sender As Object, e As RoutedEventArgs)
         ' <SnippetResourceLoaderVB>
-        Dim loader As New Windows.ApplicationModel.Resources.ResourceLoader.GetForCurrentView()
+        Dim loader As Windows.ApplicationModel.Resources.ResourceLoader.GetForCurrentView()
         Dim Text As String = loader.GetString("Farewell")
         ' </SnippetResourceLoaderVB>
         resourceLoaderOutput.Text = Text
