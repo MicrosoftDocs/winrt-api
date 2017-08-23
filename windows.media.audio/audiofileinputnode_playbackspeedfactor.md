@@ -16,6 +16,7 @@ Gets or sets the playback speed factor for the audio file input node.
 A value indicating the playback speed factor.
 
 ## -remarks
+This is a linear scale of the playback speed. So, for example a value of .5 will result in half-speed playback and a value of 2.0 will play the audio file back at double speed.
 
 ## -examples
 

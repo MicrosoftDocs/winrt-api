@@ -10,7 +10,7 @@ public event Windows.Foundation.TypedEventHandler FileCompleted<Windows.Media.Au
 # Windows.Media.Audio.AudioFileInputNode.FileCompleted
 
 ## -description
-Notifies of completion of the file associated with the audio file input node.
+Occurs when the playback position reaches the end of the audio  file associated with the audio file input node.
 
 ## -remarks
 
