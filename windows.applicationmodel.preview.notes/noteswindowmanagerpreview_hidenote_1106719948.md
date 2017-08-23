@@ -13,7 +13,7 @@ public void HideNote(System.Int32 noteViewId)
 Sets a note's view to invisible and moves the focus to the next visible note view (window) or to the Windows Ink Workspace (see Remarks). The views are selected in a cyclic, system-determined order.
 
 > [!NOTE]
-> Even though the note disappears from the screen, its [CoreWindow](../windows.ui.core/corewindow.md) object remains until the [NoteVisibilityChanged](noteswindowmanagerpreview_notevisibilitychanged.md) event is raised and the handling method closes the note's  with the [Close](../windows.ui.core/corewindow_close.md) method.
+> Even though the note disappears from the screen, its [CoreWindow](../windows.ui.core/corewindow.md) object remains until the [NoteVisibilityChanged](noteswindowmanagerpreview_notevisibilitychanged.md) event is raised and the handling method closes the note's window by calling the [Close](../windows.ui.core/corewindow_close.md) method.
 
 ## -parameters
 ### -param noteViewId
