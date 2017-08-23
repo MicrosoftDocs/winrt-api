@@ -14,7 +14,8 @@ Static method that returns a specified known folder for a [User](../windows.syst
 
 ## -parameters
 ### -param user
-The [User](../windows.system/user.md) for which the folder is returned.
+The [User](../windows.system/user.md) for which the folder is returned.   
+Use nullptr for current user.
 
 ### -param folderId
 The ID of the folder to be returned.
