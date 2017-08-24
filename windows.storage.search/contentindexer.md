@@ -13,7 +13,7 @@ public class ContentIndexer : Windows.Storage.Search.IContentIndexer, Windows.St
 Enables Windows Store apps to make private content searchable by using the system index.
 
 ## -remarks
-The ContentIndexer class enables apps to push a property bag into the system index which can later be searched quickily by the app or user. The property bag can contain any properties from in the shell property system and is available to search instantly after the API call returns.
+The ContentIndexer class enables apps to push a property bag into the system index which can later be searched quickily by the app or user. The property bag can contain any properties from the shell property system and is available to search instantly after the API call returns.
 
 The properties are defined as string-object key-value pairs, where the keys are standard Windows property names, like [System.Author](https://msdn.microsoft.com/library/windows/desktop/bb760652.aspx), and the values are [PropertyValue](../windows.foundation/propertyvalue.md) instances. The property must be registered on the system and have isColumn and isInvertedIndex set to true. You can also provide full-text search content by using a stream and content type. This corresponds to running the [IFilter](https://msdn.microsoft.com/library/windows/desktop/bb266451.aspx) implementation for the type and indexing the content.
 
