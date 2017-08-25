@@ -13,6 +13,7 @@ public class BackgroundTaskRegistration : Windows.ApplicationModel.Background.IB
 Represents a background task that has been registered with the system.
 
 ## -remarks
+
 The system returns an instance of this class when the application calls the [BackgroundTaskBuilder.Register](backgroundtaskbuilder_register.md) method.
 
 ## -examples
