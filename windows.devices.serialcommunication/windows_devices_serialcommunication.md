@@ -29,7 +29,7 @@ Serial devices that use the following compatible IDs can be supported by the in-
 Your Windows Store app must include certain device capabilities in its App package manifest. The capabilities identify the device and its purpose. Here are the required elements in hierarchical order:
 
 
-+ [&lt;DeviceCapability&gt;](http://msdn.microsoft.com/library/4353c4fd-f038-4986-81ed-d2ec0c6235ef): The **Name** attribute must be "serialcommunication".
++ [&lt;DeviceCapability&gt;](https://docs.microsoft.com/uwp/schemas/appxpackage/appxmanifestschema/element-devicecapability): The **Name** attribute must be "serialcommunication".
 
    + **&lt;Device&gt;**: The **Id** attribute must specify the device identifier. If you are using a Serial-to-USB adapter, **Id** must specify vendor/product identifiers or can be "any" to allow access to any device that matches the function type.
 
@@ -52,9 +52,9 @@ Your Windows Store app must include certain device capabilities in its App packa
 
 **Serial device capability example**
 
-Here are some examples for defining serial device capabilities:<table>
-   <tr><th>Example</th><th>Description</th></tr>
-   <tr><td>```
+Here is an example for defining serial device capabilities. It allows the app to access the serial port through a Serial-to-USB adapter.
+
+```
 <DeviceCapability Name="serialcommunication">
   <Device Id="vidpid:045E 0610">
     <Function Type="name:serialPort"/>
@@ -62,9 +62,6 @@ Here are some examples for defining serial device capabilities:<table>
 </DeviceCapability>
 
 ```
-
-</td><td>Allows the app to access the serial port through a Serial-to-USB adapter</td></tr>
-</table>
 
 ## -remarks
 
