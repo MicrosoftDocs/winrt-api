@@ -10,10 +10,10 @@ public class StoreSubscriptionInfo : Windows.Services.Store.IStoreSubscriptionIn
 # Windows.Services.Store.StoreSubscriptionInfo
 
 ## -description
-Provides subscription info for a product SKU that represents a subscription with recurring billing. 
+Provides subscription info for a product SKU that represents a subscription with recurring billing.
 
-> [!NOTE]
-> Subscriptions are not currently supported by Windows Dev Center or the Store. This class exists to provide future support for subscriptions, and is not intended to be used by your code in the current release.
+> [!IMPORTANT]
+> Currently, the ability to create subscription add-ons is only available to developers who are participating in an early adoption program. We will make subscription add-ons available to all developer accounts in the future. For more information, see [Enable subscription add-ons for your app](https://docs.microsoft.com/windows/uwp/monetize/enable-subscription-add-ons-for-your-app).
 
 ## -remarks
 The [StoreSku.SubscriptionInfo](storesku_subscriptioninfo.md) property returns an object of this type.
@@ -21,3 +21,4 @@ The [StoreSku.SubscriptionInfo](storesku_subscriptioninfo.md) property returns a
 ## -examples
 
 ## -see-also
+[Enable subscription add-ons for your app](https://docs.microsoft.com/windows/uwp/monetize/enable-subscription-add-ons-for-your-app)
