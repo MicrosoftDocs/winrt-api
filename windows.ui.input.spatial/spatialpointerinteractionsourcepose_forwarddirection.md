@@ -10,7 +10,7 @@ public Vector3 ForwardDirection { get; }
 # Windows.UI.Input.Spatial.SpatialPointerInteractionSourcePose.ForwardDirection
 
 ## -description
-Gets the forward direction of the spatial controller's pointer pose in the specified coordinate system, as a unit vector.
+Gets the forward direction of the motion controller's pointer pose in the specified coordinate system, as a unit vector.
 
 ## -property-value
 The forward direction unit vector.

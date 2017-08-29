@@ -10,7 +10,7 @@ public event TypedEventHandler BroadcastLanguageChanged<AppBroadcastBackgroundSe
 # Windows.Media.Capture.AppBroadcastBackgroundService.BroadcastLanguageChanged
 
 ## -description
-Occurs when the value of the [**BroadcastLanguage**](appbroadcastbackgroundservice_broadcastlanguage.md) property changes.
+Occurs when the value of the [BroadcastLanguage](appbroadcastbackgroundservice_broadcastlanguage.md) property changes.
 
 ## -remarks
 

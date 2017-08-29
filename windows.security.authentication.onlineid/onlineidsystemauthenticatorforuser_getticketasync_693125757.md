@@ -14,7 +14,7 @@ Attempts to retrieve the system ticket for the device.
 
 ## -parameters
 ### -param request
-The [**OnlineIdServiceTicketRequest**](OnlineIdServiceTicketRequest.md) representing the specifications for authenticating this user account.
+The [OnlineIdServiceTicketRequest](OnlineIdServiceTicketRequest.md) representing the specifications for authenticating this user account.
 
 ## -returns
 An asynchronous task containing the system ticket result.

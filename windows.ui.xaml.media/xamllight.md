@@ -24,9 +24,9 @@ Custom XamlLights can be used in conjunction with custom Brushes derived from [X
 
 ### Targeting objects
 
-If you target a [**Brush**](https://docs.microsoft.com/en-us/uwp/api/Windows.UI.Xaml.Media.Brush) with a XamlLight then the portions of any UIElements using that Brush will be lit by the light.
+If you target a [Brush](https://docs.microsoft.com/en-us/uwp/api/Windows.UI.Xaml.Media.Brush) with a XamlLight then the portions of any UIElements using that Brush will be lit by the light.
 
-If you target a [**UIElement**](https://docs.microsoft.com/en-us/uwp/api/Windows.UI.Xaml.UIElement) with a XamlLight then the entire UIElement and its child UIElements will all be lit by the light.
+If you target a [UIElement](https://docs.microsoft.com/en-us/uwp/api/Windows.UI.Xaml.UIElement) with a XamlLight then the entire UIElement and its child UIElements will all be lit by the light.
 
 Targets can be added and removed by calling methods on a XamlLight instance. XamlLights can also define [custom attached properties](https://docs.microsoft.com/en-us/windows/uwp/xaml-platform/custom-attached-properties) to add and remove targets from markup.
 

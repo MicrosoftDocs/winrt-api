@@ -10,7 +10,7 @@ public class DevicePortalConnectionClosedEventArgs
 # Windows.System.Diagnostics.DevicePortal.DevicePortalConnectionClosedEventArgs
 
 ## -description
-Describes a [**DevicePortalConnection.Closed**](DevicePortalConnection_Closed.md) event that was raised.
+Describes a [DevicePortalConnection.Closed](DevicePortalConnection_Closed.md) event that was raised.
 
 ## -remarks
 

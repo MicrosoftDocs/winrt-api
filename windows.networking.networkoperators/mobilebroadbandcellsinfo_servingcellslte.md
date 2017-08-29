@@ -10,13 +10,13 @@ public IVectorView<MobileBroadbandCellLte> ServingCellsLte { get; }
 # Windows.Networking.NetworkOperators.MobileBroadbandCellsInfo.ServingCellsLte
 
 ## -description
-Gets a read-only array of neighboring [**MobileBroadbandCellLte**](mobilebroadbandcelllte.md) containing all LTE providers.
+Gets a read-only array of neighboring [MobileBroadbandCellLte](mobilebroadbandcelllte.md) containing all LTE providers.
 
 > [!NOTE]
 > This functionality is only available to mobile operator apps and Windows Store apps given privileged access by mobile network operators.
 
 ## -property-value
-A read-only array of neighboring [**MobileBroadbandCellLte**](mobilebroadbandcelllte.md) containing all LTE providers.
+A read-only array of neighboring [MobileBroadbandCellLte](mobilebroadbandcelllte.md) containing all LTE providers.
 
 ## -remarks
 If not available or unknown, the size of array is 0.

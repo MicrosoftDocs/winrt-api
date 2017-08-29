@@ -10,14 +10,14 @@ public CoreIncrementalInkStroke.CoreIncrementalInkStroke(InkDrawingAttributes dr
 # Windows.UI.Input.Inking.Core.CoreIncrementalInkStroke.CoreIncrementalInkStroke
 
 ## -description
-Initializes a new instance of the [**CoreIncrementalInkStroke**](coreincrementalinkstroke.md) class.
+Initializes a new instance of the [CoreIncrementalInkStroke](coreincrementalinkstroke.md) class.
 
 ## -parameters
 ### -param drawingAttributes
-The ink stroke attributes associated with the drawing of a [**CoreIncrementalInkStroke**](coreincrementalinkstroke.md).
+The ink stroke attributes associated with the drawing of a [CoreIncrementalInkStroke](coreincrementalinkstroke.md).
 
 ### -param pointTransform
-An affine transformation matrix to apply to the [**CoreIncrementalInkStroke**](coreincrementalinkstroke.md) object.
+An affine transformation matrix to apply to the [CoreIncrementalInkStroke](coreincrementalinkstroke.md) object.
 
 Both position and rotation are based on the top left corner of the stroke relative to the origin of the [InkCanvas](../windows.ui.xaml.controls/inkcanvas.md).
 

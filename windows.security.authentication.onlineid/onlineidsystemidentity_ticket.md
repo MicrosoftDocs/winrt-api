@@ -13,7 +13,7 @@ public Windows.Security.Authentication.OnlineId.OnlineIdServiceTicket Ticket { g
 Provides additional information about the device.
 
 ## -property-value
-The [**OnlineIdServiceTicket**](OnlineIdServiceTicket.md) corresponding to this device.
+The [OnlineIdServiceTicket](OnlineIdServiceTicket.md) corresponding to this device.
 
 ## -remarks
 

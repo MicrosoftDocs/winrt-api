@@ -10,7 +10,7 @@ public class MobileBroadbandTransmissionStateChangedEventArgs
 # Windows.Networking.NetworkOperators.MobileBroadbandTransmissionStateChangedEventArgs
 
 ## -description
-Provides data for the [**TransmissionStateChanged**](mobilebroadbandsarmanager_transmissionstatechanged.md) event.
+Provides data for the [TransmissionStateChanged](mobilebroadbandsarmanager_transmissionstatechanged.md) event.
 
 ## -remarks
 

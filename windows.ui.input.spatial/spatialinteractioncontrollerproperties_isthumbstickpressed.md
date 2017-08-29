@@ -10,7 +10,7 @@ public bool IsThumbstickPressed { get; }
 # Windows.UI.Input.Spatial.SpatialInteractionControllerProperties.IsThumbstickPressed
 
 ## -description
-Gets whether a spatial controller is experiencing a thumbstick press.
+Gets whether a motion controller is experiencing a thumbstick press.
 
 ## -property-value
 Whether the source is experiencing a thumbstick press.

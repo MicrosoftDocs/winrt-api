@@ -10,7 +10,7 @@ public ushort Version { get; }
 # Windows.UI.Input.Spatial.SpatialInteractionController.Version
 
 ## -description
-Gets the version, or revision, number for this spatial controller.
+Gets the version, or revision, number for this motion controller.
 
 ## -property-value
 The version number.

@@ -16,7 +16,7 @@ Occurs when a Manipulation gesture is completed.
 ## -remarks
 For hand interactions, this event fires when the finger is released after ManipulationStarted.
 
-For voice interactions and spatial controllers, this event does not fire.
+For voice interactions and motion controllers, this event does not fire.
 
 ## -examples
 

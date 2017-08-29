@@ -11,7 +11,7 @@ public Windows.UI.Input.Spatial.SpatialInteractionSourceLocation TryGetLocation(
 # Windows.UI.Input.Spatial.SpatialInteractionSourceProperties.TryGetLocation
 
 ## -description
-Get the position, orientation and velocity of the hand or spatial controller, expressed in the specified coordinate system.
+Get the position, orientation and velocity of the hand or motion controller, expressed in the specified coordinate system.
 
 ## -parameters
 ### -param coordinateSystem

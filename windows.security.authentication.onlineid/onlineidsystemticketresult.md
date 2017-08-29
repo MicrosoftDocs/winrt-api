@@ -17,4 +17,4 @@ Represents the result of a call to retrieve a system ticket.
 ## -examples
 
 ## -see-also
-[**OnlineIdSystemAuthenticator**](OnlineIdSystemAuthenticator.md)
+[OnlineIdSystemAuthenticator](OnlineIdSystemAuthenticator.md)

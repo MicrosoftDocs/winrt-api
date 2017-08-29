@@ -18,7 +18,7 @@ For hand interactions, this event fires when the relevant hand that had a Naviga
 
 For voice interactions, this event does not fire.
 
-For spatial controllers, this event fires when the relevant controller that had a NavigationStarted is lost during the gesture.
+For motion controllers, this event fires when the relevant controller that had a NavigationStarted is lost during the gesture.
 
 ## -examples
 

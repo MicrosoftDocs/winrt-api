@@ -16,7 +16,7 @@ Occurs when an interaction becomes a Manipulation gesture.
 ## -remarks
 For hand interactions, this event fires when a finger is pressed and then moves outside of the small Manipulation deadzone.
 
-For voice interactions and spatial controllers, this event does not fire.
+For voice interactions and motion controllers, this event does not fire.
 
 ## -examples
 

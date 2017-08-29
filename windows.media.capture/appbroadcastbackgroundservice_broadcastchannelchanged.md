@@ -10,7 +10,7 @@ public event TypedEventHandler BroadcastChannelChanged<AppBroadcastBackgroundSer
 # Windows.Media.Capture.AppBroadcastBackgroundService.BroadcastChannelChanged
 
 ## -description
-Occurs when the value of the [**BroadcastChannel**](appbroadcastbackgroundservice_broadcastchannel.md) property changes.
+Occurs when the value of the [BroadcastChannel](appbroadcastbackgroundservice_broadcastchannel.md) property changes.
 
 ## -remarks
 

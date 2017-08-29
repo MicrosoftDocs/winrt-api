@@ -11,7 +11,7 @@ public ElementTheme ActualTheme { get; }
 
 ## -description
 
-Gets the UI theme that is currently used by the element, which might be different than the [**RequestedTheme**](frameworkelement_requestedtheme.md).
+Gets the UI theme that is currently used by the element, which might be different than the [RequestedTheme](frameworkelement_requestedtheme.md).
 
 ## -property-value
 

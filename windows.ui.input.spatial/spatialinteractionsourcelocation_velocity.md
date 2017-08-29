@@ -11,7 +11,7 @@ public Windows.Foundation.IReference<Windows.Foundation.Numerics.Vector3> Veloci
 # Windows.UI.Input.Spatial.SpatialInteractionSourceLocation.Velocity
 
 ## -description
-Gets the velocity of a hand or spatial controller.
+Gets the velocity of a hand or motion controller.
 
 ## -property-value
 The velocity.

@@ -18,4 +18,4 @@ Represents the authentication info for a single user entity on a single device (
 ## -examples
 
 ## -see-also
-[**OnlineIdSystemAuthenticator**](OnlineIdSystemAuthenticator.md)
+[OnlineIdSystemAuthenticator](OnlineIdSystemAuthenticator.md)

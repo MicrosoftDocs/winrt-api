@@ -10,7 +10,7 @@ public Matrix3x2 PointTransform { get; }
 # Windows.UI.Input.Inking.Core.CoreIncrementalInkStroke.PointTransform
 
 ## -description
-Gets or sets an affine transformation matrix to apply to the [**CoreIncrementalInkStroke**](coreincrementalinkstroke.md) object.
+Gets or sets an affine transformation matrix to apply to the [CoreIncrementalInkStroke](coreincrementalinkstroke.md) object.
 
 Both position and rotation are based on the top left corner of the stroke relative to the origin of the [InkCanvas](../windows.ui.xaml.controls/inkcanvas.md).
 

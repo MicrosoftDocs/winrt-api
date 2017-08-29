@@ -13,7 +13,7 @@ public DevicePortalConnectionClosedReason Reason { get; }
 Describes the reason that the device portal connection was closed.
 
 ## -property-value
-A [**DevicePortalConnectionClosedReason**](DevicePortalConnectionClosedReason.md) value describing the reason for closing.
+A [DevicePortalConnectionClosedReason](DevicePortalConnectionClosedReason.md) value describing the reason for closing.
 
 ## -remarks
 

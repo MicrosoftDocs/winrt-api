@@ -10,7 +10,7 @@ public enum MobileBroadbandModemStatus : int
 # Windows.Networking.NetworkOperators.MobileBroadbandModemStatus
 
 ## -description
-Specifies the status of a request to set the modem passthrough status by calling [**SetIsPassthroughEnabledAsync**](mobilebroadbandmodem_setispassthroughenabledasync_1308076323.md).
+Specifies the status of a request to set the modem passthrough status by calling [SetIsPassthroughEnabledAsync](mobilebroadbandmodem_setispassthroughenabledasync_1308076323.md).
 
 ## -enum-fields
 ### -field Success:0

@@ -54,9 +54,6 @@ The following snippet includes both the [Click](../windows.ui.xaml.controls.prim
 [!code-csharp[CustomToggleMain](../windows.ui.input.inking/code/Ink_Basic_InkToolbar/csharp/MainPage_AddCustomToggle.xaml.cs#SnippetCustomToggleMain)]
 
 ## -see-also
-[Pen and stylus interactions](http://msdn.microsoft.com/library/3da4f2d2-5405-42a1-9ed9-3a87bcd84c43), [Add an InkToolbar to a Universal Windows Platform (UWP) app](https://docs.microsoft.com/windows/uwp/input-and-devices/ink-toolbar), [Get Started Tutorial: Support ink in your UWP app](https://docs.microsoft.com/windows/uwp/get-started/ink-walkthrough), [Windows.UI.Xaml.Controls classes](windows_ui_xaml_controls_classes.md), [InkToolbarToggleButton](inktoolbartogglebutton.md) , [InkToolbarToggle](inktoolbartoggle.md), [Ink sample (JavaScript)](http://go.microsoft.com/fwlink/p/?LinkID=620308), [Get Started Tutorial: Support ink in your UWP app](https://aka.ms/appsample-ink), [Coloring book sample](https://aka.ms/cpubsample-coloringbook), [Family notes sample](https://aka.ms/cpubsample-familynotessample)
-
-<!--
 [Windows.UI.Xaml.Controls classes](windows_ui_xaml_controls_classes.md)
 
 ## -see-also
@@ -76,4 +73,4 @@ The following snippet includes both the [Click](../windows.ui.xaml.controls.prim
 * [Get Started Tutorial: Support ink in your UWP app](https://aka.ms/appsample-ink)
 * [Coloring book sample](https://aka.ms/cpubsample-coloringbook)
 * [Family notes sample](https://aka.ms/cpubsample-familynotessample)
--->
+

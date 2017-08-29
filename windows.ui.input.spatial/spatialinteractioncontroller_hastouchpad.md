@@ -10,7 +10,7 @@ public bool HasTouchpad { get; }
 # Windows.UI.Input.Spatial.SpatialInteractionController.HasTouchpad
 
 ## -description
-Gets whether the spatial controller has a touchpad.
+Gets whether the motion controller has a touchpad.
 
 ## -property-value
 Whether the controller has a touchpad.

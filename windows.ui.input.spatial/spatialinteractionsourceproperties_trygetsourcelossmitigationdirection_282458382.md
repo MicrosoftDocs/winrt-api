@@ -11,7 +11,7 @@ public Windows.Foundation.IReference<Windows.Foundation.Numerics.Vector3> TryGet
 # Windows.UI.Input.Spatial.SpatialInteractionSourceProperties.TryGetSourceLossMitigationDirection
 
 ## -description
-Gets the direction you should suggest that the user move their hand or spatial controller if it is nearing the edge of the detection area.
+Gets the direction you should suggest that the user move their hand or motion controller if it is nearing the edge of the detection area.
 
 ## -parameters
 ### -param coordinateSystem

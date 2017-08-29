@@ -26,7 +26,7 @@ The system uses classing Bluetooth protocol to monitor the presence of the compa
 The system uses an app that corresponds to the companion device to monitor its presence.
 
 ## -remarks
-A companion device must specify this value when registering for presence monitoring. If the companion device has only registered for secondary authentication and not presence monitoring, its corresponding [**SecondaryAuthenticationFactorInfo**](SecondaryAuthenticationFactorInfo.md) will show a default value of *unsupported*.
+A companion device must specify this value when registering for presence monitoring. If the companion device has only registered for secondary authentication and not presence monitoring, its corresponding [SecondaryAuthenticationFactorInfo](SecondaryAuthenticationFactorInfo.md) will show a default value of *unsupported*.
 
 ## -see-also
 

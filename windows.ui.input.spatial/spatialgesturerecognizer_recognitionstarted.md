@@ -20,7 +20,7 @@ For hand interactions, this event fires on finger press.
 
 For voice interactions, this event fires when a system voice command like "Select" is spoken.
 
-For spatial controllers, this event fires when the Select trigger or button is pressed.
+For motion controllers, this event fires when the Select trigger or button is pressed.
 
 ## -examples
 

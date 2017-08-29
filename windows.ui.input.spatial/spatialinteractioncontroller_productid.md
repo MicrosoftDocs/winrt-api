@@ -10,7 +10,7 @@ public ushort ProductId { get; }
 # Windows.UI.Input.Spatial.SpatialInteractionController.ProductId
 
 ## -description
-Gets the product identifier for this spatial controller.
+Gets the product identifier for this motion controller.
 
 ## -property-value
 The product identifier.

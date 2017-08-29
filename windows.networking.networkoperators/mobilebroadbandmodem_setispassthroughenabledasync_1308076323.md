@@ -17,7 +17,7 @@ Asynchronously enables or disables passthrough mode.
 True if passthrough should be enabled; otherwise, false.
 
 ## -returns
-An asynchronous operation that returns a [**MobileBroadbandModemStatus**](mobilebroadbandmodemstatus.md) value on completion.
+An asynchronous operation that returns a [MobileBroadbandModemStatus](mobilebroadbandmodemstatus.md) value on completion.
 ## -remarks
 
 ## -see-also

@@ -10,7 +10,7 @@ public event TypedEventHandler Invoked<KeyboardAccelerator, KeyboardAcceleratorI
 # Windows.UI.Xaml.Input.KeyboardAccelerator.Invoked
 
 ## -description
-Occurs when the key combination for this [**KeyboardAccelerator**](keyboardaccelerator.md) is pressed.
+Occurs when the key combination for this [KeyboardAccelerator](keyboardaccelerator.md) is pressed.
 
 ## -remarks
 

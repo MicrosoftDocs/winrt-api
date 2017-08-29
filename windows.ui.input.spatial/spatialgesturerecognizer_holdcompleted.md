@@ -18,7 +18,7 @@ For hand interactions, this event fires when the finger is released after HoldSt
 
 For voice interactions, this event does not fire.
 
-For spatial controllers, this event fires when the Select trigger or button is released after HoldStarted.
+For motion controllers, this event fires when the Select trigger or button is released after HoldStarted.
 
 ## -examples
 

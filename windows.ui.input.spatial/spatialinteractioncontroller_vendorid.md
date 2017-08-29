@@ -10,7 +10,7 @@ public ushort VendorId { get; }
 # Windows.UI.Input.Spatial.SpatialInteractionController.VendorId
 
 ## -description
-Gets the vendor identifier for this spatial controller.
+Gets the vendor identifier for this motion controller.
 
 ## -property-value
 The vendor identifier.

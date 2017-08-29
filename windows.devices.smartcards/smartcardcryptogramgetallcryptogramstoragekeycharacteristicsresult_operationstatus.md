@@ -10,9 +10,9 @@ public SmartCardCryptogramGeneratorOperationStatus OperationStatus { get; }
 # Windows.Devices.SmartCards.SmartCardCryptogramGetAllCryptogramStorageKeyCharacteristicsResult.OperationStatus
 
 ## -description
-Gets the operation status of [**GetAllCryptogramStorageKeyCharacteristicsAsync**](../../windows.devices.smartcards/smartcardcryptogramgenerator_getallcryptogramstoragekeycharacteristicsasync_495413597.md).
+Gets the operation status of [GetAllCryptogramStorageKeyCharacteristicsAsync](../../windows.devices.smartcards/smartcardcryptogramgenerator_getallcryptogramstoragekeycharacteristicsasync_495413597.md).
 ## -property-value
-The operation status of [**GetAllCryptogramStorageKeyCharacteristicsAsync**](../../windows.devices.smartcards/smartcardcryptogramgenerator_getallcryptogramstoragekeycharacteristicsasync_495413597.md).
+The operation status of [GetAllCryptogramStorageKeyCharacteristicsAsync](../../windows.devices.smartcards/smartcardcryptogramgenerator_getallcryptogramstoragekeycharacteristicsasync_495413597.md).
 
 ## -remarks
 
