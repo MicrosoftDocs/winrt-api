@@ -10,7 +10,7 @@ public event TypedEventHandler BroadcastTitleChanged<AppBroadcastBackgroundServi
 # Windows.Media.Capture.AppBroadcastBackgroundService.BroadcastTitleChanged
 
 ## -description
-Occurs when the value of the [**BroadcastTitle**](appbroadcastbackgroundservice_broadcasttitle.md) property changes.
+Occurs when the value of the [BroadcastTitle](appbroadcastbackgroundservice_broadcasttitle.md) property changes.
 
 ## -remarks
 

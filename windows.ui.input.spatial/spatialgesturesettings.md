@@ -36,7 +36,7 @@ Handle the Tapped event and check that TapCount is 2 to react to this gesture.
 ### -field Hold:4
 Enable support for the hold gesture.
 
-This represents the user holding down either their finger or the Select trigger or button on a spatial controller for longer than the system's hold threshold.
+This represents the user holding down either their finger or the Select trigger or button on a motion controller for longer than the system's hold threshold.
 
 This gesture can be used to take a secondary action, such as showing a menu.
 
@@ -54,7 +54,7 @@ Handle the ManipulationStarted, ManipulationUpdated, ManipulationCompleted and/o
 ### -field NavigationX:16
 Enable support for the navigation gesture, in the horizontal axis.
 
-This represents the user holding down their finger and moving their hand or a spatial controller within a normalized cube with coordinates from -1.0 to 1.0. These are normalized values and do not represent any physical unit, such as meters.
+This represents the user holding down their finger and moving their hand or a motion controller within a normalized cube with coordinates from -1.0 to 1.0. These are normalized values and do not represent any physical unit, such as meters.
 
 This gesture can be used to navigate UI widgets, such as radial menus. This can also be used to build velocity-based continuous scrolling or zooming gestures, similar to scrolling a 2D UI by clicking the middle mouse button and then moving the mouse up and down.
 
@@ -63,7 +63,7 @@ Handle the NavigationStarted, NavigationUpdated, NavigationCompleted and/or Navi
 ### -field NavigationY:32
 Enable support for the navigation gesture, in the vertical axis.
 
-This represents the user holding down their finger and moving their hand or a spatial controller within a normalized cube with coordinates from -1.0 to 1.0. These are normalized values and do not represent any physical unit, such as meters.
+This represents the user holding down their finger and moving their hand or a motion controller within a normalized cube with coordinates from -1.0 to 1.0. These are normalized values and do not represent any physical unit, such as meters.
 
 This gesture can be used to navigate UI widgets, such as radial menus. This can also be used to build velocity-based continuous scrolling or zooming gestures, similar to scrolling a 2D UI by clicking the middle mouse button and then moving the mouse up and down.
 
@@ -72,7 +72,7 @@ Handle the NavigationStarted, NavigationUpdated, NavigationCompleted and/or Navi
 ### -field NavigationZ:64
 Enable support for the navigation gesture, in the depth axis.
 
-This represents the user holding down their finger and moving their hand or a spatial controller within a normalized cube with coordinates from -1.0 to 1.0. These are normalized values and do not represent any physical unit, such as meters.
+This represents the user holding down their finger and moving their hand or a motion controller within a normalized cube with coordinates from -1.0 to 1.0. These are normalized values and do not represent any physical unit, such as meters.
 
 This gesture can be used to navigate UI widgets, such as radial menus. This can also be used to build velocity-based continuous scrolling or zooming gestures, similar to scrolling a 2D UI by clicking the middle mouse button and then moving the mouse up and down.
 
@@ -81,7 +81,7 @@ Handle the NavigationStarted, NavigationUpdated, NavigationCompleted and/or Navi
 ### -field NavigationRailsX:128
 Enable support for the navigation gesture, in the horizontal axis using rails (guides).
 
-This represents the user holding down their finger and moving their hand or a spatial controller within a normalized cube with coordinates from -1.0 to 1.0. These are normalized values and do not represent any physical unit, such as meters.
+This represents the user holding down their finger and moving their hand or a motion controller within a normalized cube with coordinates from -1.0 to 1.0. These are normalized values and do not represent any physical unit, such as meters.
 
 This gesture can be used to build velocity-based scrolling or zooming that locks to an axis if the user initiates the gesture primarily in that direction.
 
@@ -90,7 +90,7 @@ Handle the NavigationStarted, NavigationUpdated, NavigationCompleted and/or Navi
 ### -field NavigationRailsY:256
 Enable support for the navigation gesture, in the vertical axis using rails (guides).
 
-This represents the user holding down their finger and moving their hand or a spatial controller within a normalized cube with coordinates from -1.0 to 1.0. These are normalized values and do not represent any physical unit, such as meters.
+This represents the user holding down their finger and moving their hand or a motion controller within a normalized cube with coordinates from -1.0 to 1.0. These are normalized values and do not represent any physical unit, such as meters.
 
 This gesture can be used to build velocity-based scrolling or zooming that locks to an axis if the user initiates the gesture primarily in that direction.
 
@@ -99,7 +99,7 @@ Handle the NavigationStarted, NavigationUpdated, NavigationCompleted and/or Navi
 ### -field NavigationRailsZ:512
 Enable support for the navigation gesture, in the depth axis using rails (guides).
 
-This represents the user holding down their finger and moving their hand or a spatial controller within a normalized cube with coordinates from -1.0 to 1.0. These are normalized values and do not represent any physical unit, such as meters.
+This represents the user holding down their finger and moving their hand or a motion controller within a normalized cube with coordinates from -1.0 to 1.0. These are normalized values and do not represent any physical unit, such as meters.
 
 This gesture can be used to build velocity-based scrolling or zooming that locks to an axis if the user initiates the gesture primarily in that direction.
 

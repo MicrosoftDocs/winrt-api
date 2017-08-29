@@ -16,7 +16,7 @@ Gets whether the source supports Menu presses.
 Whether the source supports menu presses.
 
 ## -remarks
-This will be true for most spatial controllers and false for other interaction sources.
+This will be true for most motion controllers and false for other interaction sources.
 
 ## -see-also
 

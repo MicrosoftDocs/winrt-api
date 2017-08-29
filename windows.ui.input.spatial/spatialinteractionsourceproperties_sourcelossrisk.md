@@ -11,7 +11,7 @@ public double SourceLossRisk { get; }
 # Windows.UI.Input.Spatial.SpatialInteractionSourceProperties.SourceLossRisk
 
 ## -description
-Gets the risk that detection of a hand or spatial controller will be lost as a value from 0.0 to 1.0.
+Gets the risk that detection of a hand or motion controller will be lost as a value from 0.0 to 1.0.
 
 ## -property-value
 The source loss risk.

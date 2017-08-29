@@ -10,7 +10,7 @@ public bool IsTouchpadTouched { get; }
 # Windows.UI.Input.Spatial.SpatialInteractionControllerProperties.IsTouchpadTouched
 
 ## -description
-Gets whether a spatial controller is experiencing a touchpad touch.
+Gets whether a motion controller is experiencing a touchpad touch.
 
 ## -property-value
 Whether the source is experiencing a touchpad touch.

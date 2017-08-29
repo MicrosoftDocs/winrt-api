@@ -10,10 +10,10 @@ public Windows.Security.Authentication.OnlineId.OnlineIdSystemAuthenticatorForUs
 # Windows.Security.Authentication.OnlineId.OnlineIdSystemAuthenticator.Default
 
 ## -description
-Gets an instance of [**OnlineIdSystemAuthenticatorForUser**](OnlineIdSystemAuthenticatorForUser.md) that corresponds to the user currently logged in to the device.
+Gets an instance of [OnlineIdSystemAuthenticatorForUser](OnlineIdSystemAuthenticatorForUser.md) that corresponds to the user currently logged in to the device.
 
 ## -property-value
-The [**OnlineIdSystemAuthenticatorForUser**](OnlineIdSystemAuthenticatorForUser.md) corresponding to the local user.
+The [OnlineIdSystemAuthenticatorForUser](OnlineIdSystemAuthenticatorForUser.md) corresponding to the local user.
 
 ## -remarks
 

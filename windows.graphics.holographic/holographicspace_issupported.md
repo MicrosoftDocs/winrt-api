@@ -16,7 +16,7 @@ Gets whether the current system supports Mixed Reality headsets.
 Whether headsets are supported.
 
 ## -remarks
-On Desktop PCs running 64-bit Windows, this is always true.  If [IsAvailable](holographicspace_isavailable.md) is false because the user has not yet set up their holographic headset, calling [CreateForCoreWindow](holographicspace_createforcorewindow_1849825339.md) anyway will guide them through the setup flow.
+On Desktop PCs running 64-bit Windows, this is always true.  If [IsAvailable](holographicspace_isavailable.md) is false because the user has not yet set up their Mixed Reality headset, calling [CreateForCoreWindow](holographicspace_createforcorewindow_1849825339.md) anyway will guide them through the setup flow.
 
 On HoloLens, this is always true.
 

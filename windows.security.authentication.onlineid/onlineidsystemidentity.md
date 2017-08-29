@@ -17,4 +17,4 @@ Identifies the local device (system) on which the user account in question exist
 ## -examples
 
 ## -see-also
-[**OnlineIdSystemAuthenticator**](OnlineIdSystemAuthenticator.md)
+[OnlineIdSystemAuthenticator](OnlineIdSystemAuthenticator.md)

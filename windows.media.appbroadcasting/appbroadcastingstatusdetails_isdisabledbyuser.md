@@ -16,7 +16,7 @@ Gets a value indicating if app broadcasting has been disabled by the user.
 True if app broadcasting has been disabled by the user; otherwise, false.
 
 ## -remarks
-Use the [**AppBroadcastingUI**](appbroadcastingui.md) to show the broadcasting system setup UI.
+Use the [AppBroadcastingUI](appbroadcastingui.md) to show the broadcasting system setup UI.
 
 ## -see-also
 

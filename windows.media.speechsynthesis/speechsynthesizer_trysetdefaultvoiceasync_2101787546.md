@@ -31,7 +31,7 @@ The systemManagement capability must include the iot namespace when you declare 
 <Capabilities><iot:Capability Name="systemManagement"/></Capabilities>
 ```
 
-Use [**Windows.Globalization.ApplicationLanguages.Languages**](https://docs.microsoft.com/uwp/api/windows.globalization.applicationlanguages#Windows_Globalization_ApplicationLanguages_Languages) to get the ranked list of current runtime language values preferred by the user.
+Use [Windows.Globalization.ApplicationLanguages.Languages](https://docs.microsoft.com/uwp/api/windows.globalization.applicationlanguages#Windows_Globalization_ApplicationLanguages_Languages) to get the ranked list of current runtime language values preferred by the user.
 ## -examples
 
 ## -see-also

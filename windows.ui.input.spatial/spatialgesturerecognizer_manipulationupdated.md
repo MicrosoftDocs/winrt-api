@@ -16,7 +16,7 @@ Occurs when a Manipulation gesture is updated due to hand movement.
 ## -remarks
 For hand interactions, this event fires when the relevant hand that had a ManipulationStarted updates its position.
 
-For voice interactions and spatial controllers, this event does not fire.
+For voice interactions and motion controllers, this event does not fire.
 
 ## -examples
 

@@ -10,13 +10,13 @@ public SpatialInteractionController Controller { get; }
 # Windows.UI.Input.Spatial.SpatialInteractionSource.Controller
 
 ## -description
-Represents the specifics of a detected spatial controller.
+Represents the specifics of a detected motion controller.
 
 ## -property-value
-The spatial controller.
+The motion controller.
 
 ## -remarks
-This property will return null if this source is not a spatial controller.
+This property will return null if this source is not a motion controller.
 
 ## -see-also
 

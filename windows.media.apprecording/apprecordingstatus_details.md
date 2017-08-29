@@ -10,7 +10,7 @@ public AppRecordingStatusDetails Details { get; }
 # Windows.Media.AppRecording.AppRecordingStatus.Details
 
 ## -description
-Gets an [**AppRecordingStatusDetails**](apprecordingstatusdetails.md) object that provides detailed information indicating why the current app can't currently begin recording.
+Gets an [AppRecordingStatusDetails](apprecordingstatusdetails.md) object that provides detailed information indicating why the current app can't currently begin recording.
 
 ## -property-value
 An object that provides detailed information indicating why the current app can't currently begin recording.

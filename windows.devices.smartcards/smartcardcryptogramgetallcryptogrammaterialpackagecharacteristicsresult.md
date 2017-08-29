@@ -10,7 +10,7 @@ public class SmartCardCryptogramGetAllCryptogramMaterialPackageCharacteristicsRe
 # Windows.Devices.SmartCards.SmartCardCryptogramGetAllCryptogramMaterialPackageCharacteristicsResult
 
 ## -description
-This class contains information that is returned by [**GetAllCryptogramMaterialPackageCharacteristicsAsync**](../../windows.devices.smartcards/smartcardcryptogramgenerator_getallcryptogrammaterialpackagecharacteristicsasync_812224816.md).
+This class contains information that is returned by [GetAllCryptogramMaterialPackageCharacteristicsAsync](../../windows.devices.smartcards/smartcardcryptogramgenerator_getallcryptogrammaterialpackagecharacteristicsasync_812224816.md).
 ## -remarks
 
 ## -see-also

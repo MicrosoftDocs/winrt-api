@@ -10,7 +10,7 @@ public AppBroadcastingStatusDetails Details { get; }
 # Windows.Media.AppBroadcasting.AppBroadcastingStatus.Details
 
 ## -description
-Gets an [**AppBroadcastingStatusDetails**](appbroadcastingstatusdetails.md) object that provides detailed information indicating why the current app can't currently begin broadcasting.
+Gets an [AppBroadcastingStatusDetails](appbroadcastingstatusdetails.md) object that provides detailed information indicating why the current app can't currently begin broadcasting.
 
 ## -property-value
 An object that provides detailed information indicating why the current app can't currently begin broadcasting.

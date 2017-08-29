@@ -10,10 +10,10 @@ public Rect BoundingRect { get; }
 # Windows.UI.Input.Inking.Core.CoreIncrementalInkStroke.BoundingRect
 
 ## -description
-Gets the bounding rectangle of the [**CoreIncrementalInkStroke**](coreincrementalinkstroke.md).
+Gets the bounding rectangle of the [CoreIncrementalInkStroke](coreincrementalinkstroke.md).
 
 ## -property-value
-The bounding rectangle of the [**CoreIncrementalInkStroke**](coreincrementalinkstroke.md).
+The bounding rectangle of the [CoreIncrementalInkStroke](coreincrementalinkstroke.md).
 
 ## -remarks
 

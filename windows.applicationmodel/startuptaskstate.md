@@ -22,9 +22,8 @@ The task was disabled by the user. It can only be re-enabled by the user.
 ### -field Enabled:2
 The task is enabled.
 
-
 ### -field DisabledByPolicy:3
-
+The task is disabled by the administrator or group policy. Platforms that don't support startup tasks also report **DisabledByPolicy**.
 
 ## -remarks
 

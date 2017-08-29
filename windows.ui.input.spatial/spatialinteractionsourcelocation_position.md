@@ -11,13 +11,13 @@ public Windows.Foundation.IReference<Windows.Foundation.Numerics.Vector3> Positi
 # Windows.UI.Input.Spatial.SpatialInteractionSourceLocation.Position
 
 ## -description
-Gets the position of a hand or the holding position of a spatial controller.
+Gets the grip pose position, representing the position of the user's hand, either directly or where it holds a motion controller.
 
 ## -property-value
 The position.
 
 ## -remarks
-This property represents the position of the user's hand, either directly or where it holds the spatial controller.  This position is distinct from the spatial controller's pointing ray, which has its origin at the tip of the controller.  The pointing ray for a controller is available through the [SpatialPointingPose.TryGetInteractionSourcePose](spatialpointerpose_trygetinteractionsourcepose_1162732260.md) method.
+This position is distinct from the motion controller's pointing ray, which has its origin at the tip of the controller.  The pointing ray for a controller is available through the SourcePointerPose property.
 
 Note that position is only available for an interaction source if it can be correlated with the specified coordinate system.
 

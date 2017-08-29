@@ -24,7 +24,7 @@ The interaction source is one of the user's hands.
 The interaction source is the user's speech, when speaking a system command such as "Select".
 
 ### -field Controller:3
-The interaction source is a spatial controller.
+The interaction source is a motion controller.
 
 
 ## -remarks

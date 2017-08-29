@@ -13,7 +13,7 @@ public void MediaSourceAppServiceConnection.Start()
 Notifies the system that the app service is ready to receive media stream source requests.
 
 ## -remarks
-Register for the [**InitializeMediaStreamSourceRequested**](https://docs.microsoft.com/uwp/api/windows.media.core.mediasourceappserviceconnection#Windows_Media_Core_MediaSourceAppServiceConnection_InitializeMediaStreamSourceRequested) event handler before calling **Start**.
+Register for the [InitializeMediaStreamSourceRequested](https://docs.microsoft.com/uwp/api/windows.media.core.mediasourceappserviceconnection#Windows_Media_Core_MediaSourceAppServiceConnection_InitializeMediaStreamSourceRequested) event handler before calling **Start**.
 
 ## -see-also
 

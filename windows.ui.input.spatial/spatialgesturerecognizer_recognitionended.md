@@ -18,7 +18,7 @@ For hand interactions, this event fires on finger release.
 
 For voice interactions, this event fires after a system voice command like "Select" has been processed.
 
-For spatial controllers, this event fires when the Select trigger or button is released.
+For motion controllers, this event fires when the Select trigger or button is released.
 
 This also fires if the relevant interaction source is lost during recognition.
 

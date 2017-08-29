@@ -10,7 +10,7 @@ public class SpatialInteractionController
 # Windows.UI.Input.Spatial.SpatialInteractionController
 
 ## -description
-Represents the specifics of a spatial controller.
+Represents the specifics of a motion controller.
 
 ## -remarks
 

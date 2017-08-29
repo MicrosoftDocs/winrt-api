@@ -16,7 +16,7 @@ Gets whether the source supports detecting grasps.
 Whether the source supports grasps.
 
 ## -remarks
-This will be true for some spatial controllers and false for other interaction sources.
+This will be true for some motion controllers and false for other interaction sources.
 
 ## -see-also
 

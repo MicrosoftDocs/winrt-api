@@ -18,7 +18,7 @@ For hand interactions, this event fires when a finger is held pressed for longer
 
 For voice interactions, this event does not fire.
 
-For spatial controllers, this event fires when the Select trigger or button is held pressed for longer than the Hold time threshold.
+For motion controllers, this event fires when the Select trigger or button is held pressed for longer than the Hold time threshold.
 
 ## -examples
 

@@ -10,7 +10,7 @@ public Vector3 UpDirection { get; }
 # Windows.UI.Input.Spatial.SpatialPointerInteractionSourcePose.UpDirection
 
 ## -description
-Gets the up direction that orients the spatial controller's pointer pose in the specified coordinate system, as a unit vector.
+Gets the up direction that orients the motion controller's pointer pose in the specified coordinate system, as a unit vector.
 
 ## -property-value
 The up direction unit vector.

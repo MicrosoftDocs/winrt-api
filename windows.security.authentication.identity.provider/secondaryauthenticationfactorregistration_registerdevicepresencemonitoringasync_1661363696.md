@@ -24,7 +24,7 @@ The unique identifier for the companion device.
 The device instance path string.
 
 ### -param monitoringMode
-A [**SecondaryAuthenticationFactorDevicePresenceMonitoringMode**](SecondaryAuthenticationFactorDevicePresenceMonitoringMode.md) value describing the monitoring mode type that will be used.
+A [SecondaryAuthenticationFactorDevicePresenceMonitoringMode](SecondaryAuthenticationFactorDevicePresenceMonitoringMode.md) value describing the monitoring mode type that will be used.
 
 ## -returns
 An asynchronous operation with the status of the registration.

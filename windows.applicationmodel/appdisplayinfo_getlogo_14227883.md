@@ -14,7 +14,7 @@ Get the application's logo.
 
 ## -parameters
 ### -param size
-The size of the rectangle in which the logo must fit.
+The size of the rectangle in which the logo must fit. 
 
 ## -returns
 The largest logo in your Package.appxmanifest file that will fit in the specified *Size*.

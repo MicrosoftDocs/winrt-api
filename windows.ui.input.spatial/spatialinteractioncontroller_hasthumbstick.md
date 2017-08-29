@@ -10,7 +10,7 @@ public bool HasThumbstick { get; }
 # Windows.UI.Input.Spatial.SpatialInteractionController.HasThumbstick
 
 ## -description
-Gets whether the spatial controller has a thumbstick.
+Gets whether the motion controller has a thumbstick.
 
 ## -property-value
 Whether the controller has a thumbstick.

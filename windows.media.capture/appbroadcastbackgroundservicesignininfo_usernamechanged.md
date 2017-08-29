@@ -10,7 +10,7 @@ public event TypedEventHandler UserNameChanged<AppBroadcastBackgroundServiceSign
 # Windows.Media.Capture.AppBroadcastBackgroundServiceSignInInfo.UserNameChanged
 
 ## -description
-Occurs when the [**UserName**](appbroadcastbackgroundservicesignininfo_username.md) property changes.
+Occurs when the [UserName](appbroadcastbackgroundservicesignininfo_username.md) property changes.
 
 ## -remarks
 

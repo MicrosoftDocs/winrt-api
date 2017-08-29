@@ -16,7 +16,7 @@ Gets a value indicating whether broadcasting is blocked for the current app.
 True if broadcasting is blocked for the current app; otherwise, false.
 
 ## -remarks
-Use the [**AppBroadcastingUi**](appbroadcastingui.md) to show the broadcasting system setup UI.
+Use the [AppBroadcastingUi](appbroadcastingui.md) to show the broadcasting system setup UI.
 
 ## -see-also
 

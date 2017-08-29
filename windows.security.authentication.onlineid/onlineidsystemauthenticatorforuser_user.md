@@ -10,10 +10,10 @@ public Windows.System.User User { get; }
 # Windows.Security.Authentication.OnlineId.OnlineIdSystemAuthenticatorForUser.User
 
 ## -description
-Gets the corresponding Windows user for this [**OnlineIdSystemAuthenticatorForUser**](OnlineIdSystemAuthenticatorForUser.md).
+Gets the corresponding Windows user for this [OnlineIdSystemAuthenticatorForUser](OnlineIdSystemAuthenticatorForUser.md).
 
 ## -property-value
-The Windows user for this [**OnlineIdSystemAuthenticatorForUser**](OnlineIdSystemAuthenticatorForUser.md).
+The Windows user for this [OnlineIdSystemAuthenticatorForUser](OnlineIdSystemAuthenticatorForUser.md).
 
 ## -remarks
 

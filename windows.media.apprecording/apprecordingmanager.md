@@ -13,7 +13,7 @@ public class AppRecordingManager
 Enables a UWP app to save recordings and screenshots of its content.
 
 ## -remarks
-Get an instance of this class by calling [**GetDefault**](apprecordingmanager_getdefault_846721868.md).
+Get an instance of this class by calling [GetDefault](apprecordingmanager_getdefault_846721868.md).
 
 ## -see-also
 

@@ -18,7 +18,7 @@ For hand interactions, this event fires when a finger is pressed and then moves 
 
 For voice interactions, this event does not fire.
 
-For spatial controllers, this event fires when the Select trigger or button is pressed and then the controller is moved outside of the small Navigation deadzone.
+For motion controllers, this event fires when the Select trigger or button is pressed and then the controller is moved outside of the small Navigation deadzone.
 
 ## -examples
 

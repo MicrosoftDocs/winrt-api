@@ -17,7 +17,7 @@ Gets whether the navigation gesture the user is performing involves motion on th
 Whether the gesture involves horizontal navigation.
 
 ## -remarks
-If the user has moved their hand or spatial controller so as to snap to vertical rails, for example, this will return false.
+If the user has moved their hand or motion controller so as to snap to vertical rails, for example, this will return false.
 
 ## -examples
 

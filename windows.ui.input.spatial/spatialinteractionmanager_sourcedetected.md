@@ -11,7 +11,7 @@ public event Windows.Foundation.TypedEventHandler SourceDetected<Windows.UI.Inpu
 # Windows.UI.Input.Spatial.SpatialInteractionManager.SourceDetected
 
 ## -description
-Occurs when a new hand, spatial controller, or source of voice commands has been detected.
+Occurs when a new hand, motion controller, or source of voice commands has been detected.
 
 ## -remarks
 

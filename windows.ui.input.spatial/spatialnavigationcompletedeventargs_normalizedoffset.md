@@ -11,7 +11,7 @@ public Windows.Foundation.Numerics.Vector3 NormalizedOffset { get; }
 # Windows.UI.Input.Spatial.SpatialNavigationCompletedEventArgs.NormalizedOffset
 
 ## -description
-Gets the normalized offset of the hand or spatial controller within the unit cube for all axes for this Navigation gesture.
+Gets the normalized offset of the hand or motion controller within the unit cube for all axes for this Navigation gesture.
 
 ## -property-value
 The normalized offset.
