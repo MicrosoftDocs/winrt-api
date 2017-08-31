@@ -23,7 +23,7 @@ Observable collections are mainly useful for XAML data binding scenarios. For mo
 
 ### .NET usage
 
-[IObservableVector&lt;T&gt;](iobservablevector_1.md) isn't hidden for .NET usage. However, it's more common to use the .NET [ObservableCollection&lt;T&gt;](XREF:TODO:T:System.Collections.ObjectModel.ObservableCollection`1) type as a base class, or implement a **List** type or interface (generic or nongeneric) and **INotifyCollectionChanged** separately. If you do use [IObservableVector&lt;T&gt;](iobservablevector_1.md) for .NET code, the base interfaces (and their members) project as [IList&lt;T&gt;](XREF:TODO:T:System.Collections.Generic.List`1) and [IEnumerable&lt;T&gt;](XREF:TODO:T:System.Collections.Generic.IEnumerable`1).
+[IObservableVector&lt;T&gt;](iobservablevector_1.md) isn't hidden for .NET usage. However, it's more common to use the .NET [ObservableCollection<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.objectmodel.observablecollection-1) type as a base class, or implement a **List** type or interface (generic or nongeneric) and **INotifyCollectionChanged** separately. If you do use [IObservableVector&lt;T&gt;](iobservablevector_1.md) for .NET code, the base interfaces (and their members) project as [IList<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ilist-1) and [IEnumerable&lt;T&gt;](XREF:TODO:T:System.Collections.Generic.IEnumerable`1).
 
 ## -examples
 

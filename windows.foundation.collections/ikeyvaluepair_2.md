@@ -15,10 +15,10 @@ Represents a key-value pair. This is typically used as a constraint type when yo
 
 
 > **.NET**
-> This interface appears as [System.Collections.Generic.KeyValuePair&lt;TKey,TValue&gt;](XREF:TODO:T:System.Collections.Generic.KeyValuePair`2) (a structure, not an interface). In any case where a Windows Runtime type has implemented [IKeyValuePair&lt;K,V&gt;](ikeyvaluepair_2.md), .NET code can use the APIs of [KeyValuePair](XREF:TODO:T:System.Collections.Generic.KeyValuePair`2) instead.
+> This interface appears as [System.Collections.Generic.KeyValuePair&lt;TKey,TValue&gt;](XREF:TODO:T:System.Collections.Generic.KeyValuePair`2) (a structure, not an interface). In any case where a Windows Runtime type has implemented [IKeyValuePair&lt;K,V&gt;](ikeyvaluepair_2.md), .NET code can use the APIs of [KeyValuePair](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.keyvaluepair-2) instead.
 
 ## -remarks
-When programming with .NET, this interface is hidden and developers should use the [System.Collections.Generic.KeyValuePair&lt;TKey,TValue&gt;](XREF:TODO:T:System.Collections.Generic.KeyValuePair`2) structure. In any case where a Windows Runtime type has implemented [IKeyValuePair&lt;K,V&gt;](ikeyvaluepair_2.md), including when interfaces have inherited [IKeyValuePair&lt;K,V&gt;](ikeyvaluepair_2.md) or used it as an inner constraint, .NET code can treat it as a .NET [KeyValuePair](XREF:TODO:T:System.Collections.Generic.KeyValuePair`2).
+When programming with .NET, this interface is hidden and developers should use the [System.Collections.Generic.KeyValuePair&lt;TKey,TValue&gt;](XREF:TODO:T:System.Collections.Generic.KeyValuePair`2) structure. In any case where a Windows Runtime type has implemented [IKeyValuePair&lt;K,V&gt;](ikeyvaluepair_2.md), including when interfaces have inherited [IKeyValuePair&lt;K,V&gt;](ikeyvaluepair_2.md) or used it as an inner constraint, .NET code can treat it as a .NET [KeyValuePair](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.keyvaluepair-2).
 
 Key-value pairs are used in the [IMap&lt;K,V&gt;](imap_2.md) interface, when it inherits [IIterable&lt;T&gt;](iiterable_1.md). Practical implementations of [IMap&lt;K,V&gt;](imap_2.md) are iterable, and iterating or calling [First](iiterable_1_first.md)/[Current](iiterator_1_current.md) explicitly will return instances of [IKeyValuePair&lt;K,V&gt;](ikeyvaluepair_2.md) using the same constraints as does the [IMap&lt;K,V&gt;](imap_2.md) implementation.
 

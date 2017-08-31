@@ -22,4 +22,4 @@ Applications should avoid invoking code that puts a high load on the UI thread i
 ## -examples
 
 ## -see-also
-[Suspending](application_suspending.md), [OnActivated](application_onactivated.md), [Launching and resuming apps](XREF:TODO:nodepage.launching_and_resuming_apps__c__c___vb_)
+[Suspending](application_suspending.md), [OnActivated](application_onactivated.md), [Launching and resuming apps](https://docs.microsoft.com/en-us/windows/uwp/launch-resume/)

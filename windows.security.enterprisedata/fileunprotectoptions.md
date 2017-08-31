@@ -13,7 +13,7 @@ public class FileUnprotectOptions : Windows.Security.EnterpriseData.IFileUnprote
 Contains options that apply to removing protection from an enterprise-protected file.
 
 ## -remarks
-You can pass an instance of this class to the [UnprotectAsync](XREF:TODO:w_sec_entdata.fileprotectionmanager_unprotectasync_1695831187.xml) method.
+You can pass an instance of this class to the [UnprotectAsync](https://docs.microsoft.com/en-us/uwp/api/windows.security.enterprisedata.fileprotectionmanager#Windows_Security_EnterpriseData_FileProtectionManager_UnprotectAsync_) method.
 
 ## -examples
 

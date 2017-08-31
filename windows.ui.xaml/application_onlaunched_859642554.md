@@ -29,4 +29,4 @@ For example code of overrides of [OnLaunched](application_onlaunched.md), create
 ## -examples
 
 ## -see-also
-[Launching and resuming apps](XREF:TODO:nodepage.launching_and_resuming_apps__c__c___vb_), [Handle app prelaunch](http://msdn.microsoft.com/library/a4838ac2-22d7-46ba-9eb2-f3c248e22f52)
+[Launching and resuming apps](https://docs.microsoft.com/en-us/windows/uwp/launch-resume/), [Handle app prelaunch](http://msdn.microsoft.com/library/a4838ac2-22d7-46ba-9eb2-f3c248e22f52)

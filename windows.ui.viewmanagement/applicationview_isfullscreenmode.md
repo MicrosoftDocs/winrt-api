@@ -18,7 +18,7 @@ Gets a value that indicates whether the app is running in full-screen mode.
 ## -remarks
 The [IsFullScreenMode](applicationview_isfullscreenmode.md) property is set as a result of calls to the [TryEnterFullScreenMode](applicationview_tryenterfullscreenmode.md) and [ExitFullScreenMode](applicationview_exitfullscreenmode.md) methods. It can also be set to **true** when the app starts if the [PreferredLaunchWindowingMode](applicationview_preferredlaunchwindowingmode.md) property is set to **FullScreen**.
 
-The system raises the [CoreWindow.SizeChanged](../windows.ui.core/corewindow_sizechanged.md) event when the value of this property changes. This is exposed to XAML apps as the [Window.SizeChanged](../windows.ui.xaml/window_sizechanged.md) event and to HTML apps as the [window.resize](XREF:TODO:wwa.onresize_Event) event.
+The system raises the [CoreWindow.SizeChanged](../windows.ui.core/corewindow_sizechanged.md) event when the value of this property changes. This is exposed to XAML apps as the [Window.SizeChanged](../windows.ui.xaml/window_sizechanged.md) event and to HTML apps as the [window.resize](https://msdn.microsoft.com/en-us/library/aa741886(v=vs.85).aspx) event.
 
 ### User experience
 

@@ -13,7 +13,7 @@ public interface IBindableObservableVector : Windows.UI.Xaml.Interop.IBindableIt
 Extends [IBindableVector](ibindablevector.md) by adding a [VectorChanged](ibindableobservablevector_vectorchanged.md) event for change notification.
 
 ## -remarks
-This interface supports the creation of data bindable collections in C++. When programming with .NET, you should use [ObservableCollection(Of T)](XREF:TODO:T:System.Collections.ObjectModel.ObservableCollection`1) or implement [IList](https://msdn.microsoft.com/library/system.collections.ilist.aspx) and [INotifyCollectionChanged](https://msdn.microsoft.com/library/system.collections.specialized.inotifycollectionchanged.aspx). For more info, see [Binding to collections](http://msdn.microsoft.com/library/a9d54dec-cd1b-4043-ade4-32cd4977d1bf).
+This interface supports the creation of data bindable collections in C++. When programming with .NET, you should use [ObservableCollection(Of T)](https://docs.microsoft.com/en-us/dotnet/api/system.collections.objectmodel.observablecollection-1) or implement [IList](https://msdn.microsoft.com/library/system.collections.ilist.aspx) and [INotifyCollectionChanged](https://msdn.microsoft.com/library/system.collections.specialized.inotifycollectionchanged.aspx). For more info, see [Binding to collections](http://msdn.microsoft.com/library/a9d54dec-cd1b-4043-ade4-32cd4977d1bf).
 
 ### Interface inheritance
 

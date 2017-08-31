@@ -50,7 +50,7 @@ Transition animations are preconfigured animations from the Windows Runtime anim
 <!--Begin NET note for IEnumerable support-->
 ### Enumerating the collection in C# or Microsoft Visual Basic
 
-A [TransitionCollection](transitioncollection.md) is enumerable, so you can use language-specific syntax such as **foreach** in C# to enumerate the items in the collection. The compiler does the type-casting for you and you won't need to cast to `IEnumerable<Transition>` explicitly. If you do need to cast explicitly, for example if you want to call [GetEnumerator](XREF:TODO:M:System.Collections.Generic.IEnumerable`1.GetEnumerator), cast to [IEnumerable&lt;T&gt;](XREF:TODO:T:System.Collections.Generic.IEnumerable`1) with a [Transition](transition.md) constraint.
+A [TransitionCollection](transitioncollection.md) is enumerable, so you can use language-specific syntax such as **foreach** in C# to enumerate the items in the collection. The compiler does the type-casting for you and you won't need to cast to `IEnumerable<Transition>` explicitly. If you do need to cast explicitly, for example if you want to call [GetEnumerator](https://docs.microsoft.com/en-us/dotnet/api/system.collections.ienumerable.getenumerator), cast to [IEnumerable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1) with a [Transition](transition.md) constraint.
 
 
 <!--End NET note for IEnumerable support-->
@@ -67,5 +67,5 @@ This example shows the XAML syntax for setting a [TransitionCollection](transiti
 [!code-xml[EntranceThemeTransitionStyle](../windows.ui.xaml/code/EntranceThemeTransitionStyle/csharp/BlankPage.xaml#SnippetEntranceThemeTransitionStyle)]
 
 ## -see-also
-[UIElement.Transitions](../windows.ui.xaml/uielement_transitions.md), [ContentControl.ContentTransitions](../windows.ui.xaml.controls/contentcontrol_contenttransitions.md), [Panel.ChildrenTransitions](../windows.ui.xaml.controls/panel_childrentransitions.md), [IVector&lt;T&gt;](../windows.foundation.collections/ivector_1.md), [IIterable&lt;T&gt;](../windows.foundation.collections/iiterable_1.md), [IList&lt;T&gt;](XREF:TODO:T:System.Collections.Generic.IList`1)
-d), [IIterable&lt;T&gt;](../windows.foundation.collections/iiterable_1.md), [IList&lt;T&gt;](XREF:TODO:T:System.Collections.Generic.IList`1)
+[UIElement.Transitions](../windows.ui.xaml/uielement_transitions.md), [ContentControl.ContentTransitions](../windows.ui.xaml.controls/contentcontrol_contenttransitions.md), [Panel.ChildrenTransitions](../windows.ui.xaml.controls/panel_childrentransitions.md), [IVector&lt;T&gt;](../windows.foundation.collections/ivector_1.md), [IIterable&lt;T&gt;](../windows.foundation.collections/iiterable_1.md), [IList<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ilist-1)
+d), [IIterable&lt;T&gt;](../windows.foundation.collections/iiterable_1.md), [IList<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ilist-1)

@@ -24,7 +24,7 @@ Set the [FitToCurve](inkdrawingattributes_fittocurve.md) property of [DrawingAtt
 > : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://go.microsoft.com/fwlink/p/?linkid=258275) and [Using Windows Runtime objects in a multithreaded environment (.NET)](http://go.microsoft.com/fwlink/p/?linkid=258277).
 
 ## -examples
-The function in the following example demonstrates how a cubic Bezier curve can be derived for each segment of an ink stroke (`stroke`) by using the [bezierCurveTo](XREF:TODO:ie.ICanvasRenderingContext2D_bezierCurveTo) method. Each curve is then rendered through the 2-D context of the canvas (`ctx`).
+The function in the following example demonstrates how a cubic Bezier curve can be derived for each segment of an ink stroke (`stroke`) by using the [bezierCurveTo](https://msdn.microsoft.com/en-us/library/ff976007(v=vs.85).aspx) method. Each curve is then rendered through the 2-D context of the canvas (`ctx`).
 
 ```javascript
 
@@ -79,4 +79,4 @@ function renderAllStrokes()
 For the complete example, see [Ink App sample](http://go.microsoft.com/fwlink/p/?linkid=231622).
 
 ## -see-also
-[Windows.UI.Input.Inking Classes](windows_ui_input_inking_classes.md), [bezierCurveTo](XREF:TODO:wwa.ICanvasRenderingContext2D_bezierCurveTo), [Pen and stylus interactions](http://msdn.microsoft.com/library/3da4f2d2-5405-42a1-9ed9-3a87bcd84c43), [Ink sample](http://go.microsoft.com/fwlink/p/?LinkID=620308), [Simple ink sample](http://go.microsoft.com/fwlink/p/?LinkID=620312), [Complex ink sample](http://go.microsoft.com/fwlink/p/?LinkID=620314)
+[Windows.UI.Input.Inking Classes](windows_ui_input_inking_classes.md), [bezierCurveTo](https://msdn.microsoft.com/en-us/library/ff976007(v=vs.85).aspx), [Pen and stylus interactions](http://msdn.microsoft.com/library/3da4f2d2-5405-42a1-9ed9-3a87bcd84c43), [Ink sample](http://go.microsoft.com/fwlink/p/?LinkID=620308), [Simple ink sample](http://go.microsoft.com/fwlink/p/?LinkID=620312), [Complex ink sample](http://go.microsoft.com/fwlink/p/?LinkID=620314)

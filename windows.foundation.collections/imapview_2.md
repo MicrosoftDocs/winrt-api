@@ -24,7 +24,7 @@ The [IMapView&lt;K,V&gt;](imapview_2.md) interface represents a collection of ke
 
 ### Interface inheritance
 
-[IMapView](imapview_2.md) inherits [IIterable](iiterable_1.md), using an [IKeyValuePair](ikeyvaluepair_2.md) constraint. Types that implement [IMapView](imapview_2.md) also implement the interface members of [IKeyValuePair](ikeyvaluepair_2.md), with an [IKeyValuePair](ikeyvaluepair_2.md) type constraint. Similarly, if you're using .NET, there is support for [IEnumerable&lt;T&gt;](XREF:TODO:T:System.Collections.Generic.IEnumerable`1), with its constraint type as a [KeyValuePair](XREF:TODO:T:System.Collections.Generic.KeyValuePair`2) that uses the same key and value types as does the [IReadOnlyDictionary&lt;TKey,TValue&gt;](XREF:TODO:T:System.Collections.Generic.IReadOnlyDictionary`2) implementation.
+[IMapView](imapview_2.md) inherits [IIterable](iiterable_1.md), using an [IKeyValuePair](ikeyvaluepair_2.md) constraint. Types that implement [IMapView](imapview_2.md) also implement the interface members of [IKeyValuePair](ikeyvaluepair_2.md), with an [IKeyValuePair](ikeyvaluepair_2.md) type constraint. Similarly, if you're using .NET, there is support for [IEnumerable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1), with its constraint type as a [KeyValuePair](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.keyvaluepair-2) that uses the same key and value types as does the [IReadOnlyDictionary&lt;TKey,TValue&gt;](XREF:TODO:T:System.Collections.Generic.IReadOnlyDictionary`2) implementation.
 
 ## -examples
 

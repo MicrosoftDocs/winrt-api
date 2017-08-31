@@ -24,7 +24,7 @@ The [IMap&lt;K,V&gt;](imap_2.md) interface represents a collection of key-value 
 
 ### Interface inheritance
 
-[IMap&lt;K,V&gt;](imap_2.md) inherits [IIterable&lt;T&gt;](iiterable_1.md), using an [IKeyValuePair](ikeyvaluepair_2.md) constraint that uses the same key and value types. Types that implement [IMap&lt;K,V&gt;](imap_2.md) also implement the interface members of [IIterable&lt;T&gt;](iiterable_1.md), with [IKeyValuePair](ikeyvaluepair_2.md) type constraint sharing the same key and value. Similarly, if you're using .NET, there is support for [IEnumerable&lt;T&gt;](XREF:TODO:T:System.Collections.Generic.IEnumerable`1), with its constraint type as a [KeyValuePair](XREF:TODO:T:System.Collections.Generic.KeyValuePair`2) that uses the same key and value types as does the [IDictionary&lt;TKey,TValue&gt;](XREF:TODO:T:System.Collections.Generic.IDictionary`2) implementation.
+[IMap&lt;K,V&gt;](imap_2.md) inherits [IIterable&lt;T&gt;](iiterable_1.md), using an [IKeyValuePair](ikeyvaluepair_2.md) constraint that uses the same key and value types. Types that implement [IMap&lt;K,V&gt;](imap_2.md) also implement the interface members of [IIterable&lt;T&gt;](iiterable_1.md), with [IKeyValuePair](ikeyvaluepair_2.md) type constraint sharing the same key and value. Similarly, if you're using .NET, there is support for [IEnumerable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1), with its constraint type as a [KeyValuePair](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.keyvaluepair-2) that uses the same key and value types as does the [IDictionary&lt;TKey,TValue&gt;](XREF:TODO:T:System.Collections.Generic.IDictionary`2) implementation.
 
 ## -examples
 

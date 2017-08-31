@@ -20,7 +20,7 @@ The zero-based index at which to set the value.
 The item to set.
 
 ## -remarks
-When programming with .NET, this interface is hidden and developers should use the [System.Collections.Generic.IList&lt;T&gt;](XREF:TODO:T:System.Collections.Generic.List`1) interface.
+When programming with .NET, this interface is hidden and developers should use the [System.Collections.Generic.IList<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ilist-1) interface.
 
 ## -examples
 
