@@ -20,8 +20,14 @@ The folder that contains files that that you want to know whether to protect.
 ### -param identity
 The enterprise identity.
 
+>[!IMPORTANT]
+>Due to a bug in the current implementation of this property, please pass the enterprise identity to the *desiredName* parameter.
+
 ### -param desiredName
 The name that you would like to give the file.
+
+>[!IMPORTANT]
+>Due to a bug in the current implementation of this property, please pass this name to the *identity* parameter.
 
 ## -returns
 **true** if files in this folder should be protected, otherwise **false**.
