@@ -16,7 +16,7 @@ Gets a value that indicates whether there is a current item or the iterator is a
 **true** if the iterator refers to a valid item that is in the collection; otherwise, **false**.
 
 ## -remarks
-This interface supports the creation of data bindable collections in C++. When programming with .NET, you should use [ObservableCollection(Of T)](XREF:TODO:T:System.Collections.ObjectModel.ObservableCollection`1) or implement [IList](https://msdn.microsoft.com/library/system.collections.ilist.aspx) and [INotifyCollectionChanged](https://msdn.microsoft.com/library/system.collections.specialized.inotifycollectionchanged.aspx).
+This interface supports the creation of data bindable collections in C++. When programming with .NET, you should use [ObservableCollection(Of T)](https://docs.microsoft.com/en-us/dotnet/api/system.collections.objectmodel.observablecollection-1) or implement [IList](https://msdn.microsoft.com/library/system.collections.ilist.aspx) and [INotifyCollectionChanged](https://msdn.microsoft.com/library/system.collections.specialized.inotifycollectionchanged.aspx).
 
 ## -examples
 

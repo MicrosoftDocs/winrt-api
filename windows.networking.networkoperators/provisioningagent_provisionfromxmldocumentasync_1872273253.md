@@ -22,7 +22,7 @@ Provisions a device for network connectivity asynchronously, based on the suppli
 
 ## -parameters
 ### -param provisioningXmlDocument
-An instance of [CarrierControlSchema](XREF:TODO:CarrierControlSchema.Schema_Root) that contains the network connectivity provisioning information.
+An instance of [CarrierControlSchema](https://docs.microsoft.com/uwp/schemas/mobilebroadbandschema/carriercontrolschema/schema-root) that contains the network connectivity provisioning information.
 
 ## -returns
 An asynchronous handler to start the provisioning attempt and track its completion.

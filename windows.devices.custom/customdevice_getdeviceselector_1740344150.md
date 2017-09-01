@@ -20,9 +20,9 @@ The Device Interface Class GUID of the device interface to create a device selec
 The device selector.
 
 ## -remarks
-For more info about the Device Interface Class GUID, see [Overview of Device Interface Classes](XREF:TODO:devinst.overview_of_device_interface_classes).
+For more info about the Device Interface Class GUID, see [Overview of Device Interface Classes](https://docs.microsoft.com/en-us/windows-hardware/drivers/install/overview-of-device-interface-classes).
 
 ## -examples
 
 ## -see-also
-[Overview of Device Interface Classes](XREF:TODO:devinst.overview_of_device_interface_classes)
+[Overview of Device Interface Classes](https://docs.microsoft.com/en-us/windows-hardware/drivers/install/overview-of-device-interface-classes)

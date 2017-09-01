@@ -213,7 +213,7 @@ void MainPage::DefaultLaunch()
 **Launch with a warning dialog**Call [launchUriAsync(Uri, LauncherOptions)](launcher_launchuriasync_68890748.md) to launch a URI with a warning. Use the [treatAsUntrusted](launcheroptions_treatasuntrusted.md) property to indicate that the system should display a warning.
 
 > [!NOTE]
-> For Windows app using JavaScript, call [preventDefault](XREF:TODO:wwa.IDOMEvent_preventDefault) in your event handler if the [treatAsUntrusted](launcheroptions_treatasuntrusted.md) property is set and you are using an [a](XREF:TODO:wwa.A_Element_A_Object) element to launch the URI.
+> For Windows app using JavaScript, call [preventDefault](https://msdn.microsoft.com/en-us/library/ff975967(v=vs.85).aspx) in your event handler if the [treatAsUntrusted](launcheroptions_treatasuntrusted.md) property is set and you are using an [a](https://msdn.microsoft.com/en-us/library/ms535173(v=vs.85).aspx) element to launch the URI.
 
 ```javascript
 function linkClickHandler(eventInfo) {

@@ -21,4 +21,4 @@ The message is coming from info that's propagated by the original system or runt
 ## -examples
 
 ## -see-also
-[UnhandledException](application_unhandledexception.md), [Exception handling for    in C# or Visual Basic](http://msdn.microsoft.com/library/825c5d4f-5ce0-ee93-fd1e-aca1372b1670), [Exceptions (C++/CX)](XREF:TODO:6cbdc1f1-e4d7-4707-a670-86365146432f)
+[UnhandledException](application_unhandledexception.md), [Exception handling for    in C# or Visual Basic](http://msdn.microsoft.com/library/825c5d4f-5ce0-ee93-fd1e-aca1372b1670), [Exceptions (C++/CX)](https://docs.microsoft.com/en-us/cpp/cppcx/exceptions-c-cx)

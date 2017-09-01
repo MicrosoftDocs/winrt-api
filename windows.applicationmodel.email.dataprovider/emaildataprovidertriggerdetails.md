@@ -15,7 +15,7 @@ Contains details about the event that triggered your email data provider backgro
 This event is triggered when an email data client app has instantiated the background task that runs your email data provider. Your code should respond to this event by using the connection to register event handlers for data provider request events.
 
 ## -remarks
-Your background task code is passed an instance of this class in the [IBackgroundTaskInstance.TriggerDetails](XREF:TODO:windows.applicationmodel.background.ibackgroundtaskinstance.triggerdetails) property.
+Your background task code is passed an instance of this class in the [IBackgroundTaskInstance.TriggerDetails](https://docs.microsoft.com/en-us/uwp/api/Windows.ApplicationModel.Background.IBackgroundTaskInstance#Windows_ApplicationModel_Background_IBackgroundTaskInstance_TriggerDetails_) property.
 
 ## -examples
 

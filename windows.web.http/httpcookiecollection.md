@@ -19,7 +19,7 @@ The [GetCookies](httpcookiemanager_getcookies.md) method on [HttpCookieManager](
 <!--Begin NET note for IEnumerable support-->
 ### Enumerating the collection in C# or Microsoft Visual Basic
 
-[HttpCookieCollection](httpcookiecollection.md) is enumerable, so you can use language-specific syntax such as **foreach** in C# to enumerate the items in the collection. The compiler does the type-casting for you and you won't need to cast to `IEnumerable<HttpCookie>` explicitly. If you do need to cast explicitly, for example if you want to call [GetEnumerator](XREF:TODO:M:System.Collections.Generic.IEnumerable`1.GetEnumerator), cast to [IEnumerable&lt;T&gt;](XREF:TODO:T:System.Collections.Generic.IEnumerable`1) with an [HttpCookie](httpcookie.md) constraint.
+[HttpCookieCollection](httpcookiecollection.md) is enumerable, so you can use language-specific syntax such as **foreach** in C# to enumerate the items in the collection. The compiler does the type-casting for you and you won't need to cast to `IEnumerable<HttpCookie>` explicitly. If you do need to cast explicitly, for example if you want to call [GetEnumerator](https://docs.microsoft.com/en-us/dotnet/api/system.collections.ienumerable.getenumerator), cast to [IEnumerable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1) with an [HttpCookie](httpcookie.md) constraint.
 
 
 <!--End NET note for IEnumerable support-->

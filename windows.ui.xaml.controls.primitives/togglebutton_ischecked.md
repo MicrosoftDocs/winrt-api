@@ -47,4 +47,4 @@ To set the value to **null** in XAML, use the [{x:Null} markup extension](http:/
 ## -examples
 
 ## -see-also
-[Nullable](XREF:TODO:T:System.Nullable`1), [{x:Null} markup extension](http://msdn.microsoft.com/library/e6a4038e-4ada-4e82-9824-582fc16ab037)
+[Nullable](https://docs.microsoft.com/en-us/dotnet/api/system.nullable-1), [{x:Null} markup extension](http://msdn.microsoft.com/library/e6a4038e-4ada-4e82-9824-582fc16ab037)

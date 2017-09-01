@@ -15,7 +15,7 @@ Provides gesture and manipulation recognition, event listeners, and settings.
 ## -remarks
 You can create a gesture object for each appropriate element when your app starts. However, this approach might not scale well depending on the number of gesture objects you need to create (for example, a jigsaw puzzle with hundreds of pieces).
 
-In this case, you can create gesture objects dynamically on a [pointerdown](XREF:TODO:wwa.HTMLElement_onmspointerdown) event and destroy them on an [MSGestureEnd](XREF:TODO:wwa.HTMLElement_onmsgestureend) event. This approach scales well, but does incur some overhead due to creating and releasing these objects.
+In this case, you can create gesture objects dynamically on a [pointerdown](https://msdn.microsoft.com/en-us/library/jj191898(v=vs.85).aspx) event and destroy them on an [MSGestureEnd](https://msdn.microsoft.com/en-us/library/jj191886(v=vs.85).aspx) event. This approach scales well, but does incur some overhead due to creating and releasing these objects.
 
 Alternatively, you can statically allocate and dynamically manage a pool of reusable gesture objects.
 
@@ -38,7 +38,7 @@ Rotation is not supported for single pointer input if the value of [PivotRadius]
 Here we set up a [GestureRecognizer](gesturerecognizer.md) object with a collection of input event handlers for processing various pointer and gestures. For more information on how to listen to and handle Windows Runtime events, see .
 
 > [!NOTE]
-> Use the [target](XREF:TODO:ie.IDOMEvent_target) or [currentTarget](XREF:TODO:ie.IDOMEvent_currentTarget) property of the event object instead of the [GestureRecognizer](gesturerecognizer.md) object in the event handler.
+> Use the [target](https://msdn.microsoft.com/en-us/library/ff975971(v=vs.85).aspx) or [currentTarget](https://msdn.microsoft.com/en-us/library/ff975962(v=vs.85).aspx) property of the event object instead of the [GestureRecognizer](gesturerecognizer.md) object in the event handler.
 
 ```javascript
 

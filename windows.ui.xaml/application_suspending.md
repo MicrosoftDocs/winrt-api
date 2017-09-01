@@ -47,4 +47,4 @@ End Sub
 
 
 ## -see-also
-[OnActivated](application_onactivated.md), [Resuming](application_resuming.md), [Launching and resuming apps](XREF:TODO:nodepage.launching_and_resuming_apps__c__c___vb_)
+[OnActivated](application_onactivated.md), [Resuming](application_resuming.md), [Launching and resuming apps](https://docs.microsoft.com/en-us/windows/uwp/launch-resume/)

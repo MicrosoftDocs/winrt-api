@@ -20,4 +20,4 @@ The **HRESULT** code (for Visual C++ component extensions (C++/CX)), or a mappe
 ## -examples
 
 ## -see-also
-[Exception handling for    in C# or Visual Basic](http://msdn.microsoft.com/library/825c5d4f-5ce0-ee93-fd1e-aca1372b1670), [Exceptions (C++/CX)](XREF:TODO:6cbdc1f1-e4d7-4707-a670-86365146432f)
+[Exception handling for    in C# or Visual Basic](http://msdn.microsoft.com/library/825c5d4f-5ce0-ee93-fd1e-aca1372b1670), [Exceptions (C++/CX)](https://docs.microsoft.com/en-us/cpp/cppcx/exceptions-c-cx)

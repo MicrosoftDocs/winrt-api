@@ -25,7 +25,7 @@ For touch, the primary pointer is the first contact in an interaction. A new pri
 A primary pointer can perform actions that are not available to other pointers. For example, the primary pointer can send a WM_POINTERACTIVATE message.
 
 ## -examples
-For any interaction, [IsPrimary](pointerpointproperties_isprimary.md) returns false after the first [pointerdown](XREF:TODO:wwa.HTMLElement_onmspointerdown) event. Use the [pointerType](XREF:TODO:wwa.shared_pointerType) property as shown in the following example when you need to know whether a pointer is primary, such as a mouse pointer.
+For any interaction, [IsPrimary](pointerpointproperties_isprimary.md) returns false after the first [pointerdown](https://msdn.microsoft.com/en-us/library/jj191898(v=vs.85).aspx) event. Use the [pointerType](XREF:TODO:wwa.shared_pointerType) property as shown in the following example when you need to know whether a pointer is primary, such as a mouse pointer.
 
 ```javascript
 function isreallyprimary (event) {
