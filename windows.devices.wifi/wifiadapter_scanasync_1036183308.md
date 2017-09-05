@@ -17,6 +17,7 @@ Directs this adapter to initiate an asynchronous network scan.
 An asynchronous scan operation. On successful completion, returns a list of networks scanned by this adapter.
 
 ## -remarks
+You should call this API from a foreground app. If it is called from a background task, you will see an "Access Denied" error message or a similar message.
 
 ## -examples
 
