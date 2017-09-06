@@ -49,6 +49,9 @@ Here, we show a typical [InkToolbar](inktoolbar.md) declaration and binding to a
 [!code-xml[UI_CB](../windows.ui.input.inking/code/Ink_Basic_InkToolbar/csharp/MainPage_CodeBehind.xaml#SnippetUI_CB)]
 
 ## -see-also
+[Pen and stylus interactions](http://msdn.microsoft.com/library/3da4f2d2-5405-42a1-9ed9-3a87bcd84c43), [Add an InkToolbar to a Universal Windows Platform (UWP) app](https://docs.microsoft.com/windows/uwp/input-and-devices/ink-toolbar), [Get Started Tutorial: Support ink in your UWP app](https://docs.microsoft.com/windows/uwp/get-started/ink-walkthrough), [Control](control.md), [Windows.UI.Xaml.Controls classes](windows_ui_xaml_controls_classes.md), [InkToolbarBallpointPenButton](inktoolbarballpointpenbutton.md), [InkToolbarCustomPen](inktoolbarcustompen.md), [InkToolbarCustomPenButton](inktoolbarcustompenbutton.md), [InkToolbarCustomToggleButton](inktoolbarcustomtogglebutton.md), [InkToolbarCustomToolButton](inktoolbarcustomtoolbutton.md), [InkToolbarEraserButton](inktoolbareraserbutton.md), [InkToolbarHighlighterButton](inktoolbarhighlighterbutton.md), [InkToolbarPenButton](inktoolbarpenbutton.md), [InkToolbarPencilButton](inktoolbarpencilbutton.md), [InkToolbarPenConfigurationControl](inktoolbarpenconfigurationcontrol.md), [InkToolbarRulerButton](inktoolbarrulerbutton.md), [InkToolbarToggleButton](inktoolbartogglebutton.md), [InkToolbarToolButton](inktoolbartoolbutton.md), [Ink sample (JavaScript)](http://go.microsoft.com/fwlink/p/?LinkID=620308), [Get Started Tutorial: Support ink in your UWP app](https://aka.ms/appsample-ink), [Coloring book sample](https://aka.ms/cpubsample-coloringbook), [Family notes sample](https://aka.ms/cpubsample-familynotessample)
+
+<!--
 [Pen and stylus interactions](http://msdn.microsoft.com/library/3da4f2d2-5405-42a1-9ed9-3a87bcd84c43)
 
 [Add an InkToolbar to a Universal Windows Platform (UWP) app](https://docs.microsoft.com/windows/uwp/input-and-devices/ink-toolbar)
@@ -65,4 +68,4 @@ Here, we show a typical [InkToolbar](inktoolbar.md) declaration and binding to a
 * [Get Started Tutorial: Support ink in your UWP app](https://aka.ms/appsample-ink)
 * [Coloring book sample](https://aka.ms/cpubsample-coloringbook)
 * [Family notes sample](https://aka.ms/cpubsample-familynotessample)
-
+-->

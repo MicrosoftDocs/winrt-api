@@ -17,6 +17,8 @@ Runs the print job on the journal printer station asynchronously.
 The operation to run the print job. This operation returns true if the print job succeeds; otherwise, the operation returns false.
 
 ## -remarks
+The print job is sent to the claimed printer station object that created the print job.
+The claimed printer station object must remain valid when calling this method.
 
 ## -examples
 

@@ -52,9 +52,9 @@ Your Windows Store app must include certain device capabilities in its App packa
 
 **Serial device capability example**
 
-Here are some examples for defining serial device capabilities:<table>
-   <tr><th>Example</th><th>Description</th></tr>
-   <tr><td>```
+Here is an example for defining serial device capabilities. It allows the app to access the serial port through a Serial-to-USB adapter.
+
+```
 <DeviceCapability Name="serialcommunication">
   <Device Id="vidpid:045E 0610">
     <Function Type="name:serialPort"/>
@@ -62,9 +62,6 @@ Here are some examples for defining serial device capabilities:<table>
 </DeviceCapability>
 
 ```
-
-</td><td>Allows the app to access the serial port through a Serial-to-USB adapter</td></tr>
-</table>
 
 ## -remarks
 
