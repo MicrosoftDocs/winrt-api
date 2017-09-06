@@ -17,6 +17,14 @@ Sends programmatically generated mouse input to the system.
 The mouse input specified by [InjectedInputMouseInfo](injectedinputmouseinfo.md).
 
 ## -remarks
+Using input injection requires the following be added to the Package.appxmanifest:
+
+- To `<Package>`
+    - `xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities"`
+    - `IgnorableNamespaces="rescap"`
+- To `<Capabilities>`
+    - `<rescap:Capability Name="inputInjectionBrokered" />`
+
 
 ## -examples
 

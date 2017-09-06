@@ -16,6 +16,14 @@ Gets or sets the the gamepad buttons used for input injection.
 One or more gamepad buttons used for input injection.
 
 ## -remarks
+Using input injection requires the following be added to the Package.appxmanifest:
+
+- To `<Package>`
+    - `xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities"`
+    - `IgnorableNamespaces="rescap"`
+- To `<Capabilities>`
+    - `<rescap:Capability Name="inputInjectionBrokered" />`
+
 
 ## -see-also
 

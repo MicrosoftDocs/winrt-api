@@ -18,6 +18,14 @@ A keyboard generates two scan codes when the user types a key—one when the use
 The device-dependent identifier for the key on the keyboard.
 
 ## -remarks
+Using input injection requires the following be added to the Package.appxmanifest:
+
+- To `<Package>`
+    - `xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities"`
+    - `IgnorableNamespaces="rescap"`
+- To `<Capabilities>`
+    - `<rescap:Capability Name="inputInjectionBrokered" />`
+
 
 ## -examples
 

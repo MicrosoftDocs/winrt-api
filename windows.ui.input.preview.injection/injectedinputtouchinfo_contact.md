@@ -16,6 +16,14 @@ Gets or sets the screen coordinates of the bounding box that represents the touc
 The screen coordinates of the contact area in device-independent pixel (DIP). The default is a 0-by-0 rectangle, centered around the pointer [PixelLocation](injectedinputpointerinfo.md).
 
 ## -remarks
+Using input injection requires the following be added to the Package.appxmanifest:
+
+- To `<Package>`
+    - `xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities"`
+    - `IgnorableNamespaces="rescap"`
+- To `<Capabilities>`
+    - `<rescap:Capability Name="inputInjectionBrokered" />`
+
 
 ## -examples
 
