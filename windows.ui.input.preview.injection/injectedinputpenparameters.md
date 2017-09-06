@@ -30,6 +30,14 @@ The angle of tilt of the pointer along the y-axis in a range of -90 to +90, with
 
 
 ## -remarks
+Using input injection requires the following be added to the Package.appxmanifest:
+
+- To `<Package>`
+    - `xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities"`
+    - `IgnorableNamespaces="rescap"`
+- To `<Capabilities>`
+    - `<rescap:Capability Name="inputInjectionBrokered" />`
+
 
 ## -examples
 

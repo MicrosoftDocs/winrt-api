@@ -16,6 +16,14 @@ Gets or sets the position of the left stick on the Y-axis.
 A value between -1.0 (pressed towards the user) and 1.0 (pressed away from the user).
 
 ## -remarks
+Using input injection requires the following be added to the Package.appxmanifest:
+
+- To `<Package>`
+    - `xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities"`
+    - `IgnorableNamespaces="rescap"`
+- To `<Capabilities>`
+    - `<rescap:Capability Name="inputInjectionBrokered" />`
+
 
 ## -see-also
 
