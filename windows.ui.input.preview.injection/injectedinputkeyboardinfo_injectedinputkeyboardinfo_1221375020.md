@@ -12,6 +12,9 @@ public InjectedInputKeyboardInfo.InjectedInputKeyboardInfo()
 ## -description
 Creates a new [InjectedInputKeyboardInfo](injectedinputkeyboardinfo.md) object that is used to specify the keyboard input to inject.
 
+> [!NOTE]
+> The APIs in this namespace require the inputInjectionBrokered [restricted capability](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities).
+
 ## -parameters
 
 ## -remarks

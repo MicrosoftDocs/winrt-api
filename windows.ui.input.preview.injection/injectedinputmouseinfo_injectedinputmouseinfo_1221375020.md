@@ -12,6 +12,9 @@ public InjectedInputMouseInfo.InjectedInputMouseInfo()
 ## -description
 Creates a new [InjectedInputMouseInfo](injectedinputmouseinfo.md) object that is used to specify the mouse input to inject.
 
+> [!NOTE]
+> The APIs in this namespace require the inputInjectionBrokered [restricted capability](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities).
+
 ## -parameters
 
 ## -remarks

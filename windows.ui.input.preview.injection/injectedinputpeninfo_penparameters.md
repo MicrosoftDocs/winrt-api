@@ -12,6 +12,9 @@ public Windows.UI.Input.Preview.Injection.InjectedInputPenParameters PenParamete
 ## -description
 Gets or sets the pen states used to simulate pen input.
 
+> [!NOTE]
+> The APIs in this namespace require the inputInjectionBrokered [restricted capability](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities).
+
 ## -property-value
 The pen states used to simulate pen input.
 

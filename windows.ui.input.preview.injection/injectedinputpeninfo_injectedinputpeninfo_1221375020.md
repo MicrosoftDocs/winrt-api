@@ -12,6 +12,9 @@ public InjectedInputPenInfo.InjectedInputPenInfo()
 ## -description
 Creates a new [InjectedInputPenInfo](injectedinputpeninfo.md) object that is used to specify the pen input to inject.
 
+> [!NOTE]
+> The APIs in this namespace require the inputInjectionBrokered [restricted capability](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities).
+
 ## -parameters
 
 ## -remarks

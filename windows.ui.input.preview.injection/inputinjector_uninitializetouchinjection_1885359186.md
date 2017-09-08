@@ -12,6 +12,9 @@ public void UninitializeTouchInjection()
 ## -description
 Shuts down the virtual touch device created with [InitializeTouchInjection](inputinjector_initializetouchinjection_1509714255.md).
 
+> [!NOTE]
+> The APIs in this namespace require the inputInjectionBrokered [restricted capability](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities).
+
 ## -remarks
 Using input injection requires the following be added to the Package.appxmanifest:
 

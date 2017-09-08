@@ -12,6 +12,9 @@ public enum Windows.UI.Input.Preview.Injection.InjectedInputButtonChangeKind : i
 ## -description
 Specifies the changes in state of a button associated with a pointer.
 
+> [!NOTE]
+> The APIs in this namespace require the inputInjectionBrokered [restricted capability](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities).
+
 ## -enum-fields
 ### -field None:0
 No change in button state. Default.

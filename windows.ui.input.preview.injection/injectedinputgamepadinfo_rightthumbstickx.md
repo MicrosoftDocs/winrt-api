@@ -12,6 +12,9 @@ public double RightThumbstickX { get;  set; }
 ## -description
 Gets or sets the position of the right stick on the X-axis. 
 
+> [!NOTE]
+> The APIs in this namespace require the inputInjectionBrokered [restricted capability](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities).
+
 ## -property-value
 A value between -1.0 (pressed to the left) and 1.0 (pressed to the right).
 

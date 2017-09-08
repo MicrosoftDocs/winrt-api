@@ -12,6 +12,9 @@ public struct InjectedInputPointerInfo
 ## -description
 Contains basic pointer information common to all pointer types.
 
+> [!NOTE]
+> The APIs in this namespace require the inputInjectionBrokered [restricted capability](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities).
+
 ## -struct-fields
 
 ### -field PointerId

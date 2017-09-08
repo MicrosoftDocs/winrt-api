@@ -12,6 +12,9 @@ public Windows.UI.Input.Preview.Injection.InjectedInputTouchParameters TouchPara
 ## -description
 Gets or sets the touch states used to simulate touch input.
 
+> [!NOTE]
+> The APIs in this namespace require the inputInjectionBrokered [restricted capability](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities).
+
 ## -property-value
 The touch states used to simulate touch input.
 

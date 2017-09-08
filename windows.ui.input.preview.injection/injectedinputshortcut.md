@@ -12,6 +12,9 @@ public enum Windows.UI.Input.Preview.Injection.InjectedInputShortcut : int
 ## -description
 Specifies the system shortcuts for [InjectShortcut](inputinjector_injectshortcut.md).
 
+> [!NOTE]
+> The APIs in this namespace require the inputInjectionBrokered [restricted capability](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities).
+
 ## -enum-fields
 ### -field Back:0
 Indicates traversal through a back stack.

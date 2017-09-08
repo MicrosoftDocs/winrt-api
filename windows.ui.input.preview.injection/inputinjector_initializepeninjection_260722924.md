@@ -12,6 +12,9 @@ public void InitializePenInjection(Windows.UI.Input.Preview.Injection.InjectedIn
 ## -description
 Initializes a virtual pen device that can synthesize input events and provide corresponding input data to your app. 
 
+> [!NOTE]
+> The APIs in this namespace require the inputInjectionBrokered [restricted capability](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities).
+
 ## -parameters
 ### -param visualMode
 The visual feedback mode for pen input injection.

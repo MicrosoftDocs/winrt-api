@@ -12,6 +12,9 @@ public void InjectKeyboardInput(Windows.Foundation.Collections.IIterable<Windows
 ## -description
 Sends programmatically generated keyboard input to the system.
 
+> [!NOTE]
+> The APIs in this namespace require the inputInjectionBrokered [restricted capability](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities).
+
 ## -parameters
 ### -param input
 The keyboard input specified by [InjectedInputKeyboardInfo](injectedinputkeyboardinfo.md).

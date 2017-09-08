@@ -12,6 +12,9 @@ public int TiltX { get;  set; }
 ## -description
 Gets or sets the angle of tilt of the pointer along the x-axis.
 
+> [!NOTE]
+> The APIs in this namespace require the inputInjectionBrokered [restricted capability](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities).
+
 ## -property-value
 The angle of tilt of the pointer along the x-axis in a range of -90 to +90, with a positive value indicating a tilt to the right. The default is 0.
 
