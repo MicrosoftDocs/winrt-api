@@ -12,6 +12,9 @@ public enum Windows.UI.Input.Preview.Injection.InjectedInputVisualizationMode : 
 ## -description
 Specifies the visual feedback modes for input injection.
 
+> [!NOTE]
+> The APIs in this namespace require the inputInjectionBrokered [restricted capability](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities).
+
 ## -enum-fields
 ### -field None:0
 Indicates no visual feedback for input. Default.

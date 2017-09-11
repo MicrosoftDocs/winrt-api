@@ -12,6 +12,9 @@ public uint TimeOffsetInMilliseconds { get;  set; }
 ## -description
 Gets or sets the baseline, or reference value, for timed input events such as a double click/tap.
 
+> [!NOTE]
+> The APIs in this namespace require the inputInjectionBrokered [restricted capability](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities).
+
 ## -property-value
 The reference value for timed input events in milliseconds. If TimeOffsetInMilliseconds is set to 0, the current tick count is used.
 

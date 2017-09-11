@@ -12,6 +12,9 @@ public Windows.UI.Input.Preview.Injection.InjectedInputPointerInfo PointerInfo {
 ## -description
 Gets or sets basic pointer info common to pen input.
 
+> [!NOTE]
+> The APIs in this namespace require the inputInjectionBrokered [restricted capability](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities).
+
 ## -property-value
 The pointer info.
 

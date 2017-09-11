@@ -12,6 +12,9 @@ public struct InjectedInputPoint
 ## -description
 Contains the screen coordinates of the pointer in device-independent pixel (DIP).
 
+> [!NOTE]
+> The APIs in this namespace require the inputInjectionBrokered [restricted capability](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities).
+
 ## -struct-fields
 
 ### -field PositionX

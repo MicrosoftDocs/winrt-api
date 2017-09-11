@@ -12,6 +12,9 @@ public double LeftTrigger { get;  set; }
 ## -description
 Gets or sets the position of the left trigger. 
 
+> [!NOTE]
+> The APIs in this namespace require the inputInjectionBrokered [restricted capability](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities).
+
 ## -property-value
 A value between 0.0 (not depressed) and 1.0 (fully depressed).
 

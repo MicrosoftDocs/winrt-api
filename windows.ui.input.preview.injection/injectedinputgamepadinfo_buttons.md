@@ -12,6 +12,9 @@ public GamepadButtons Buttons { get;  set; }
 ## -description
 Gets or sets the the gamepad buttons used for input injection.
 
+> [!NOTE]
+> The APIs in this namespace require the inputInjectionBrokered [restricted capability](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities).
+
 ## -property-value
 One or more gamepad buttons used for input injection.
 

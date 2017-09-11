@@ -21,8 +21,32 @@ Identifies the requested input report.
 A **HidInputReport** object.
 
 ## -remarks
+When this method completes, the [InputReportReceived](hiddevice_inputreportreceived.md) event is triggered.
+
+To access the content of the input report, you must set up a listener for the [InputReportReceived](hiddevice_inputreportreceived.md) event and get the [Report]([**Report**](https://docs.microsoft.com/uwp/api/windows.devices.humaninterfacedevice.hidinputreportreceivedeventargs#Windows_Devices_HumanInterfaceDevice_HidInputReportReceivedEventArgs_Report)) property of [HidInputReportReceivedEventArgs](https://docs.microsoft.com/uwp/api/windows.devices.humaninterfacedevice.hidinputreportreceivedeventargs) object in the event handler.
 
 ## -examples
+Here, we retrieve an input report (inputReport) and get the content of the report in the handler for the InputReportReceived event,  triggered when the asynchronous call completes.
+
+```csharp
+HidInputReport inputReport = await device.GetInputReportAsync();
+.
+.
+.
+private void InputReportReceived(
+    HidDevice sender, 
+    HidInputReportReceivedEventArgs args)
+    {
+        HidInputReport inputReport = args.Report;
+        IBuffer buffer = inputReport.Data;
+        DataReader dr = DataReader.FromBuffer(buffer);
+        byte[] bytes = new byte[inputReport.Data.Length];
+        dr.ReadBytes(bytes);
+
+        String inputReportContent = 
+           System.Text.Encoding.ASCII.GetString(bytes);
+    }
+```
 
 ## -see-also
 [GetInputReportAsync](hiddevice_getinputreportasync_2092816092.md)

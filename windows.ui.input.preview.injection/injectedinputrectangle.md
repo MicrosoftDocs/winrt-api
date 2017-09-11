@@ -12,6 +12,9 @@ public struct InjectedInputRectangle
 ## -description
 The screen coordinates of the bounding box that represents the touch contact area.
 
+> [!NOTE]
+> The APIs in this namespace require the inputInjectionBrokered [restricted capability](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities).
+
 ## -struct-fields
 
 ### -field Left

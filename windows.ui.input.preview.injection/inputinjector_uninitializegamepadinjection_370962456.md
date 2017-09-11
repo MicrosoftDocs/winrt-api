@@ -12,6 +12,9 @@ public void InputInjector.UninitializeGamepadInjection()
 ## -description
 Shuts down the virtual gamepad device created with [InitializeGamepadInjection](inputinjector_initializegamepadinjection_1113833135.md).
 
+> [!NOTE]
+> The APIs in this namespace require the inputInjectionBrokered [restricted capability](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities).
+
 ## -remarks
 Using input injection requires the following be added to the Package.appxmanifest:
 

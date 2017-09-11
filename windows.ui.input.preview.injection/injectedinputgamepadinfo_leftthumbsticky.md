@@ -12,6 +12,9 @@ public double LeftThumbstickY { get;  set; }
 ## -description
 Gets or sets the position of the left stick on the Y-axis. 
 
+> [!NOTE]
+> The APIs in this namespace require the inputInjectionBrokered [restricted capability](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities).
+
 ## -property-value
 A value between -1.0 (pressed towards the user) and 1.0 (pressed away from the user).
 

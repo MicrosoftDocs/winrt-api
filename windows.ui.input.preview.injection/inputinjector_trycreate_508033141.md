@@ -12,6 +12,9 @@ public InputInjector InputInjector.TryCreate()
 ## -description
 Attempts to create a new instance of the [InputInjector](inputinjector.md) class.
 
+> [!NOTE]
+> The APIs in this namespace require the inputInjectionBrokered [restricted capability](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities).
+
 ## -parameters
 
 ## -returns

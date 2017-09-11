@@ -12,6 +12,9 @@ public void InjectPenInput(Windows.UI.Input.Preview.Injection.InjectedInputPenIn
 ## -description
 Sends programmatically generated pen input to the system.
 
+> [!NOTE]
+> The APIs in this namespace require the inputInjectionBrokered [restricted capability](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities).
+
 ## -parameters
 ### -param input
 The pen input specified by [InjectedInputPenInfo](injectedinputpeninfo.md).

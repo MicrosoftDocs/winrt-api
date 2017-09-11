@@ -12,6 +12,9 @@ public void InjectMouseInput(Windows.Foundation.Collections.IIterable<Windows.UI
 ## -description
 Sends programmatically generated mouse input to the system.
 
+> [!NOTE]
+> The APIs in this namespace require the inputInjectionBrokered [restricted capability](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities).
+
 ## -parameters
 ### -param input
 The mouse input specified by [InjectedInputMouseInfo](injectedinputmouseinfo.md).

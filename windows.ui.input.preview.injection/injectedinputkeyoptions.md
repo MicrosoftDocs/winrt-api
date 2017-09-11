@@ -12,6 +12,9 @@ public enum Windows.UI.Input.Preview.Injection.InjectedInputKeyOptions : uint
 ## -description
 Specifies the various options, or modifiers, used to simulate input from physical or virtual keyboards through [InjectedInputKeyboardInfo](injectedinputkeyboardinfo.md).
 
+> [!NOTE]
+> The APIs in this namespace require the inputInjectionBrokered [restricted capability](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities).
+
 ## -enum-fields
 ### -field None:0
 No keystroke modifier. Default.

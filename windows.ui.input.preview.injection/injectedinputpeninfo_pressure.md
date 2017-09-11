@@ -12,6 +12,9 @@ public double Pressure { get;  set; }
 ## -description
 Gets or sets the force exerted by the pointer device on the surface of the digitizer.
 
+> [!NOTE]
+> The APIs in this namespace require the inputInjectionBrokered [restricted capability](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities).
+
 ## -property-value
 The pen contact force exerted on the digitizer surface, normalized to a range between 0 and 1024. The default is 0.
 

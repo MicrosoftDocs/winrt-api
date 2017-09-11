@@ -12,6 +12,9 @@ public Windows.UI.Input.Preview.Injection.InjectedInputKeyOptions KeyOptions { g
 ## -description
 Gets or sets the various options, or modifiers, used to simulate input from physical or virtual keyboards.
 
+> [!NOTE]
+> The APIs in this namespace require the inputInjectionBrokered [restricted capability](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities).
+
 ## -property-value
 The options, or modifiers, for the keyboard input.
 

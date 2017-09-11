@@ -12,6 +12,9 @@ public void InjectShortcut(Windows.UI.Input.Preview.Injection.InjectedInputShort
 ## -description
 Sends programmatically generated system shortcuts to the system.
 
+> [!NOTE]
+> The APIs in this namespace require the inputInjectionBrokered [restricted capability](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities).
+
 ## -parameters
 ### -param shortcut
 The system shortcuts.
