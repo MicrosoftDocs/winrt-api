@@ -10,7 +10,7 @@ public class CompositionCapabilities
 # Windows.UI.Composition.CompositionCapabilities
 
 ## -description
-Allows ability to check system hardware capabilities in order to gracefully scale effects performantly.
+Provides the ability to check system hardware capabilities so that Visual Layer Effects may be scaled accordingly. This allows you to ensure that your application's use of rendering-intensive operations is tailored to match the device's capabilities, providing optimum performance and pleasant visual results.
 
 ## -remarks
 
