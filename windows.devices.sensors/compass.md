@@ -12,7 +12,7 @@ public class Compass : Windows.Devices.Sensors.ICompass, Windows.Devices.Sensors
 ## -description
 Represents a compass sensor.
 
-This sensor returns a heading with respect to True North and, possibly, Magnetic North. (The latter is dependent on the sensor capabilities.)
+This sensor returns a heading with respect to Magnetic North and, possibly, True North. (The latter is dependent on the system capabilities.)
 
 For an example implementation, see the [compass sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Compass).
 
