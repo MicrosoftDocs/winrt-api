@@ -21,7 +21,7 @@ Gets or sets a value that indicates whether the controls are shown and hidden au
 
 ## -property-value
 
-**true** if the controls are shown and hidden automatically; otherwise, **false**. The default is **false**.
+**true** if the controls are shown and hidden automatically; otherwise, **false**. The default is **true**.
 
 ## -remarks
 

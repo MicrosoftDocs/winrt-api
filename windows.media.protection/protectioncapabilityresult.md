@@ -14,14 +14,15 @@ Specifies the result of a query for hardware DRM capability support using [IsTyp
 
 
 ## -enum-fields
-### -field Probably:2
-The queried capabilities are probably supported.
 
 ### -field NotSupported:0
-The queried capabilities are not supported.
+The queried features are not supported.
 
 ### -field Maybe:1
-The queried capabilities may be supported, but the support status is not known. 
+Only relevant to output protection (HDCP) subsystem queries.  [ProtectionCapabilities.IsTypeSupported](protectioncapabilities_istypesupported_2024884020.md) is a synchronous, blocking call which is constrained to only block for very short periods (goal is < 100 milliseconds).  As underlying HDCP establishment may take significantly longer than the blocking period, this **Maybe** result is returned while establishment is in progress.  Once establishment succeeds or fails, the HDCP subsystem query will stabilize on **Probably** or **NotSupported**, respectively.  As no event or promise mechanism is provided, the query must be repeated until **NotSupported** or **Probably** is returned. 
+
+### -field Probably:2
+The queried features are supported as of the time of the query.  Display configurations can change dynamically, so Display subsystem and HDCP subsystem query results may become invalid after the query.
 
 ## -remarks
 
