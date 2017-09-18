@@ -16,7 +16,7 @@ Gets the ID's of all contacts that are pinned to the taskbar or **Start** menu.
 
 ## -returns
 
-An asynchronous operation that returns a [PinnedContactIdsQueryResult](pinnedcontactmanageridsqueryresult.md) that you can use to get the ID's of all pinned contacts.
+An asynchronous operation that returns a [PinnedContactIdsQueryResult](pinnedcontactidsqueryresult.md) that you can use to get the ID's of all pinned contacts.
 ## -remarks
 
 This method raises an **AccessDeniedException** if you have not enabled the *contactPanel* capability in your app manifest.
