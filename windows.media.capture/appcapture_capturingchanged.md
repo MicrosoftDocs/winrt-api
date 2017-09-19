@@ -14,7 +14,7 @@ Raised when the capturing status changes.
 
 ## -remarks
 > [!WARNING]
-> You must unregister the handler for this event went your app is suspended.
+> You must unregister the handler for this event when your app is suspended.
 
 ## -examples
 
