@@ -20,6 +20,7 @@ The user for which to get the diagnostics invoker.
 Returns the diagnostics invoker for the specified *user*.
 
 ## -remarks
+This method will always throw **E_NOTIMPL**, the not implemented exception, by design. The [GetForUser](diagnosticinvoker_getforuser_2058550280.md) method is part of the **IDiagnosticInvoker** interface definition.
 
 ## -see-also
 
