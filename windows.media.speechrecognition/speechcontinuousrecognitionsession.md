@@ -15,6 +15,8 @@ Manages speech input for free-form dictation, or an arbitrary sequence of words 
 ## -remarks
 An app retrieves this object through the [SpeechRecognizer.ContinuousRecognitionSession](speechrecognizer_continuousrecognitionsession.md) property.
 
+To use web-service constraints, speech input and dictation support must be enabled in **Settings** by turning on the "Get to know me" option in the Settings -> Privacy -> Speech, inking, and typing page. See "Recognize speech input" in [Speech recognition](http://msdn.microsoft.com/library/553c0fb7-35bc-4894-9ef1-906139e17552).
+
 ## -examples
 
 ## -see-also

@@ -9,6 +9,7 @@
 Enables speech recognition for command and control within Windows Runtime app.
 
 ## -remarks
+To use web-service constraints, speech input and dictation support must be enabled in **Settings** by turning on the "Get to know me" option in the Settings -> Privacy -> Speech, inking, and typing page. See "Recognize speech input" in [Speech recognition](http://msdn.microsoft.com/library/553c0fb7-35bc-4894-9ef1-906139e17552).
 
 ## -examples
 

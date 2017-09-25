@@ -12,12 +12,12 @@ public Windows.Foundation.IAsyncOperation<Windows.Media.SpeechRecognition.Speech
 ## -description
 Asynchronously starts a speech recognition session that includes additional UI mechanisms, including prompts, examples, text-to-speech (TTS), and confirmations.
 
-The UI mechanisms supported by [RecognizeWithUIAsync](speechrecognizer_recognizewithuiasync.md) are specified by the [UIOptions](speechrecognizer_uioptions.md) property.
-
 ## -returns
 The result of the speech recognition session as a [SpeechRecognitionResult](speechrecognitionresult.md) object.
 
 ## -remarks
+The UI mechanisms supported by [RecognizeWithUIAsync](speechrecognizer_recognizewithuiasync.md) are specified by the [UIOptions](speechrecognizer_uioptions.md) property.
+
 
 ## -examples
 

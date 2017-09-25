@@ -12,14 +12,14 @@ public void Close()
 ## -description
 Disposes the speech recognizer by freeing, releasing, or resetting allocated resources.
 
-If a [SpeechContinuousRecognitionSession](speechcontinuousrecognitionsession.md) is underway, [Close](speechrecognizer_close.md) is functionally equivalent to calling [CancelAsync](speechcontinuousrecognitionsession_cancelasync.md).
-
 ## -exceptions
 ### System.ObjectDisposedException
 
 Thrown if either [RecognizeAsync](speechrecognizer_recognizeasync.md) or [RecognizeWithUIAsync](speechrecognizer_recognizewithuiasync.md) is in progress.
 
 ## -remarks
+If a [SpeechContinuousRecognitionSession](speechcontinuousrecognitionsession.md) is underway, [Close](speechrecognizer_close.md) is functionally equivalent to calling [CancelAsync](speechcontinuousrecognitionsession_cancelasync.md).
+
 
 ## -examples
 

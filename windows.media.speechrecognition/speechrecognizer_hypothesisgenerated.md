@@ -12,9 +12,9 @@ public event Windows.Foundation.TypedEventHandler HypothesisGenerated<Windows.Me
 ## -description
 Occurs during an ongoing dictation session when a recognition result fragment is returned by the speech recognizer.
 
-The result fragment is useful for demonstrating that speech recognition is processing input during a lengthy dictation session.
 
 ## -remarks
+The result fragment is useful for demonstrating that speech recognition is processing input during a lengthy dictation session.
 
 ## -examples
 

@@ -12,13 +12,13 @@ public SpeechRecognizer(Windows.Globalization.Language language)
 ## -description
 Creates a new instance of the [SpeechRecognizer](speechrecognizer.md) class with a language specifier.
 
-Asynchronously starts a speech recognition session that includes additional UI mechanisms, including prompts, examples, text-to-speech (TTS), and confirmations.
-
 ## -parameters
 ### -param language
 The spoken language to use for recognition.
 
 ## -remarks
+Asynchronously starts a speech recognition session that includes additional UI mechanisms, including prompts, examples, text-to-speech (TTS), and confirmations.
+
 [CurrentLanguage](speechrecognizer_currentlanguage.md) is set to the value of *language*.
 
 #### Error codes
