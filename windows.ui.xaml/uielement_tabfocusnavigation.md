@@ -26,7 +26,7 @@ A value of the enumeration. The default is **Local**.
 
 ## -remarks
 
-This property behaves the same as Control's [TabNavigation](../windows.ui.xaml.controls/control_tabnavigation.md) property. The reason that both properties exist is an accident of history. [TabNavigation](../windows.ui.xaml.controls/control_tabnavigation.md) is an older property. A problem with it was that it was only supported by [Controls]( ../windows.ui.xaml.controls/control.md) which forced developers to wrap non-[Controls]( ../windows.ui.xaml.controls/control.md) with a [Control]( ../windows.ui.xaml.controls/control.md) just so that they could leverage this property. [TabFocusNavigation](uielement_tabfocusnavigation.md) was introduced on [UIElement](uielement.md) to solve this problem.
+Use this property instead of the [Control.TabNavigation](../windows.ui.xaml.controls/control_tabnavigation.md) property for objects that do not use a [ControlTemplate](../windows.ui.xaml.controls/controltemplate.md) to define their appearance.
 
 ## -examples
 
