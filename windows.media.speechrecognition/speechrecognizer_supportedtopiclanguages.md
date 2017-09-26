@@ -12,14 +12,14 @@ public Windows.Foundation.Collections.IVectorView<Windows.Globalization.Language
 ## -description
 Gets the collection of languages supported by the pre-defined, web-service grammars of the [SpeechRecognitionTopicConstraint](speechrecognitiontopicconstraint.md) objects specified in the [Constraints](speechrecognizer_constraints.md) property.
 
-Constraints, or grammars, define the spoken words and phrases that can be matched by the speech recognizer. You can specify one of the pre-defined, web-service grammars or you can create a custom grammar that is installed with your app.
-
-Predefined dictation and web-search grammars provide speech recognition for your app without requiring you to author a grammar. When using these grammars, speech recognition is performed by a remote web service and the results are returned to the device
-
 ## -property-value
 The collection of languages supported by the pre-defined, web-service grammars.
 
 ## -remarks
+Constraints, or grammars, define the spoken words and phrases that can be matched by the speech recognizer. You can specify one of the pre-defined, web-service grammars or you can create a custom grammar that is installed with your app.
+
+Predefined dictation and web-search grammars provide speech recognition for your app without requiring you to author a grammar. When using these grammars, speech recognition is performed by a remote web service and the results are returned to the device
+
 
 ## -examples
 

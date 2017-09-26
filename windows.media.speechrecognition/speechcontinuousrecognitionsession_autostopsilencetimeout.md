@@ -10,7 +10,7 @@ public Windows.Foundation.TimeSpan AutoStopSilenceTimeout { get;  set; }
 # Windows.Media.SpeechRecognition.SpeechContinuousRecognitionSession.AutoStopSilenceTimeout
 
 ## -description
-Gets or sets the time threshold at which the continuous recognition session ends due to lack of audio input.
+Gets or sets the time threshold at which the continuous recognition (dictation) session ends due to lack of audio input.
 
 ## -property-value
 The time threshold.

@@ -12,7 +12,7 @@ public Windows.Foundation.IAsyncAction StartAsync()
 ## -description
 *Overload*
 
-Asynchronously begin a continuous speech recognition session with a [SpeechContinuousRecognitionMode](speechcontinuousrecognitionmode.md) of [Default](speechcontinuousrecognitionmode.md).
+Asynchronously begin a continuous speech recognition (dictation) session with a [SpeechContinuousRecognitionMode](speechcontinuousrecognitionmode.md) of [Default](speechcontinuousrecognitionmode.md).
 
 ## -returns
 An asynchronous handler called when the operation is complete.

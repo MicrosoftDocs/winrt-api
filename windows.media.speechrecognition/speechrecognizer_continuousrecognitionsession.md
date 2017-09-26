@@ -10,12 +10,13 @@ public Windows.Media.SpeechRecognition.SpeechContinuousRecognitionSession Contin
 # Windows.Media.SpeechRecognition.SpeechRecognizer.ContinuousRecognitionSession
 
 ## -description
-Gets the continuous recognition session object ([SpeechContinuousRecognitionSession](speechcontinuousrecognitionsession.md)) associated with this [SpeechRecognizer](speechrecognizer.md).
+Gets the continuous recognition (dictation) session object ([SpeechContinuousRecognitionSession](speechcontinuousrecognitionsession.md)) associated with this [SpeechRecognizer](speechrecognizer.md).
 
 ## -property-value
 The continuous recognition session object associated with this [SpeechRecognizer](speechrecognizer.md).
 
 ## -remarks
+To use web-service constraints, speech input and dictation support must be enabled in **Settings** by turning on the "Get to know me" option in the Settings -> Privacy -> Speech, inking, and typing page. See "Recognize speech input" in [Speech recognition](http://msdn.microsoft.com/library/553c0fb7-35bc-4894-9ef1-906139e17552).
 
 ## -examples
 

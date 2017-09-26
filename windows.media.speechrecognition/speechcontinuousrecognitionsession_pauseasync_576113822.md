@@ -10,7 +10,7 @@ public Windows.Foundation.IAsyncAction PauseAsync()
 # Windows.Media.SpeechRecognition.SpeechContinuousRecognitionSession.PauseAsync
 
 ## -description
-Asynchronously pause a continuous speech recognition session to update a local [grammar file](speechrecognitiongrammarfileconstraint.md) or [list constraint](speechrecognitionlistconstraint.md).
+Asynchronously pause a continuous speech recognition (dictation) session to update a local [grammar file](speechrecognitiongrammarfileconstraint.md) or [list constraint](speechrecognitionlistconstraint.md).
 
 ## -returns
 An asynchronous handler called when the operation is complete.

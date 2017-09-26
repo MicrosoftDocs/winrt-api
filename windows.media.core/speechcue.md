@@ -19,9 +19,9 @@ The [SpeechSynthesizer](./windows.media.speechsynthesis/speechsynthesizer.md) cl
 
 <table>
 <tr><th>Label</th><th>Description</th></tr>
-<tr><td>SpeechBookmark</td><td>The metadata track contains SSML bookmarks</td></tr>
-<tr><td>SpeechSentence</td><td>The metadata track contains word boundaries</td></tr>
-<tr><td>SpeechWord</td><td>The metadata track contains sentence boundaries</td></tr>
+<tr><td>SpeechBookmark</td><td>The metadata track contains SSML bookmarks.</td></tr>
+<tr><td>SpeechSentence</td><td>The metadata track contains sentence boundaries.</td></tr>
+<tr><td>SpeechWord</td><td>The metadata track contains word boundaries.</td></tr>
 </table>
 
 ## -see-also

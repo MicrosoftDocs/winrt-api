@@ -12,9 +12,6 @@ public enum Windows.Media.SpeechRecognition.SpeechRecognitionScenario : int
 ## -description
 Specifies the scenario used to optimize speech recognition for a web-service constraint (created through a [SpeechRecognitionTopicConstraint](speechrecognitiontopicconstraint.md) object).
 
-> [!NOTE]
-> To use web-service constraints, speech input and dictation support must be enabled in **Settings** by turning on the "Get to know me" option in the Settings -&gt; Privacy -&gt; Speech, inking, and typing page. See "Recognize speech input" in [Speech recognition](http://msdn.microsoft.com/library/553c0fb7-35bc-4894-9ef1-906139e17552).
-
 ## -enum-fields
 ### -field WebSearch:0
 A web search scenario.
@@ -25,8 +22,8 @@ A dictation scenario.
 ### -field FormFilling:2
 A form input scenario.
 
-
 ## -remarks
+To use web-service constraints, speech input and dictation support must be enabled in **Settings** by turning on the "Get to know me" option in the Settings -> Privacy -> Speech, inking, and typing page. See "Recognize speech input" in [Speech recognition](http://msdn.microsoft.com/library/553c0fb7-35bc-4894-9ef1-906139e17552).
 
 ## -examples
 

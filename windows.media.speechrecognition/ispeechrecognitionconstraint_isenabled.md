@@ -13,7 +13,7 @@ public bool IsEnabled { get;  set; }
 Gets or sets whether the constraint can be used by the [SpeechRecognizer](speechrecognizer.md) object to perform recognition.
 
 ## -property-value
- if a speech recognizer can perform recognition using the constraint; otherwise .
+True if a speech recognizer can perform recognition using the constraint; otherwise false.
 
 ## -remarks
 

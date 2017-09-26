@@ -10,7 +10,7 @@ public KeyboardNavigationMode TabFocusNavigation { get;  set; }
 # Windows.UI.Xaml.UIElement.TabFocusNavigation
 
 ## -description
-Gets or sets a value that modifies how tabbing and [TabIndex](control_tabindex.md) work for this control.
+Gets or sets a value that modifies how tabbing and [TabIndex](../windows.ui.xaml.controls/control_tabindex.md) work for this control.
 
 ## -xaml-syntax
 ```xaml
@@ -25,6 +25,8 @@ Gets or sets a value that modifies how tabbing and [TabIndex](control_tabindex.m
 A value of the enumeration. The default is **Local**.
 
 ## -remarks
+
+Use this property instead of the [Control.TabNavigation](../windows.ui.xaml.controls/control_tabnavigation.md) property for objects that do not use a [ControlTemplate](../windows.ui.xaml.controls/controltemplate.md) to define their appearance.
 
 ## -examples
 

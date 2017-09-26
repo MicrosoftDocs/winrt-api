@@ -10,7 +10,7 @@ public void Resume()
 # Windows.Media.SpeechRecognition.SpeechContinuousRecognitionSession.Resume
 
 ## -description
-Resumes a continuous speech recognition session, if paused.
+Resumes a continuous speech recognition (dictation) session, if paused.
 
 ## -remarks
 An error is returned if [SpeechRecognizerState](speechrecognizerstate.md) is not [Paused](speechrecognizerstate.md).

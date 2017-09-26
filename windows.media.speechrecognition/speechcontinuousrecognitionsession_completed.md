@@ -10,7 +10,7 @@ public event Windows.Foundation.TypedEventHandler Completed<Windows.Media.Speech
 # Windows.Media.SpeechRecognition.SpeechContinuousRecognitionSession.Completed
 
 ## -description
-Occurs when a continuous recognition session ends.
+Occurs when a continuous recognition (dictation) session ends.
 
 ## -remarks
 

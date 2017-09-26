@@ -12,10 +12,6 @@ public enum Windows.Media.SpeechRecognition.SpeechRecognitionResultStatus : int
 ## -description
 Specifies the possible result states of a speech recognition session or from the compiling of grammar constraints.
 
-[RecognizeAsync](speechrecognizer_recognizeasync.md) and [RecognizeWithUIAsync](speechrecognizer_recognizewithuiasync.md) return a [SpeechRecognitionResult](speechrecognitionresult.md) object.
-
-[CompileConstraintsAsync](speechrecognizer_compileconstraintsasync.md) returns a [SpeechRecognitionCompilationResult](speechrecognitioncompilationresult.md) object.
-
 ## -enum-fields
 ### -field Success:0
 The recognition session or compilation succeeded.
@@ -40,8 +36,6 @@ An unknown problem caused recognition or compilation to fail.
 
 ### -field TimeoutExceeded:7
 A timeout due to extended silence or poor audio caused recognition to fail.
-
-
 
 > Not supported in Windows 8 apps and Windows Phone apps.
 
@@ -68,6 +62,10 @@ Lack of a microphone caused recognition to fail.
 
 
 ## -remarks
+[RecognizeAsync](speechrecognizer_recognizeasync.md) and [RecognizeWithUIAsync](speechrecognizer_recognizewithuiasync.md) return a [SpeechRecognitionResult](speechrecognitionresult.md) object.
+
+[CompileConstraintsAsync](speechrecognizer_compileconstraintsasync.md) returns a [SpeechRecognitionCompilationResult](speechrecognitioncompilationresult.md) object.
+
 
 ## -examples
 

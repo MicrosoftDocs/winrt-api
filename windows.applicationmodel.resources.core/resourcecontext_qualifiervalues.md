@@ -13,20 +13,22 @@ public Windows.Foundation.Collections.IObservableMap<string, string> QualifierVa
 Gets a writable, observable map of all supported qualifiers, indexed by name.
 
 ## -property-value
-The map of qualifiers. Here are the possible string qualifier names that you can map to string qualifier values. 
+The map of qualifiers, which you use to map a qualifier name to a qualifier value. The qualifier value returned represents the current setting. Here is a reference table of all the possible qualifier values that can be returned. See [How to name resources by using qualifiers](/windows/uwp/globalizing/how-to-name-resources-by-using-qualifiers?branch=master) for an explanation of the general concept of qualifiers, how to use them, and the purpose of each of the qualifier names.
 
-| Qualifier name | Qualifier value |
-|----------|------------|
-| "Language" | This qualifier name can be mapped to a string value that represents the language, such as, "en-us" for United States English. |
-| "Contrast" | This qualifier name can be mapped to one of these values:<br> "standard" <br>"high" <br>"black" <br>"white" |
-| "Scale" | This qualifier name can be mapped to one of these values for scale of the display as a percentage: <br>"80" <br>"100" <br>"120" <br>"125" (Windows 10 only) <br>"140" <br>"150" (Windows 10 only) <br>"160" <br>"175" (Windows 10 only) <br>"180" <br>"200" <br>"225" (Windows 10 only) <br>"250" (Windows 10 only) <br>"300" (Windows 10 only) <br>"350" (Windows 10 only) <br>"400" (Windows 10 only) <br>"450" (Windows 10 only) |
-| "DeviceFamily" | This qualifier name can be mapped to a string value that represents the device family of the device that your app is currently running on, such as, "Desktop", "Mobile", and the names of the other device families. You can use the "DeviceFamily" qualifier name in your markup or Resource.resw filenames. For example, when your app is running on the mobile device family device family, the UI element `<TextBlock x:Uid="DeviceFriendlyName"/>` will use the text and foreground resources defined in your Resources.DeviceFamily-Mobile.resw file if it contains: `<data name="DeviceFriendlyName.Foreground" xml:space="preserve"><value>Red</value></data><data name="DeviceFriendlyName.Text" xml:space="preserve"><value>Mobile device</value></data>` |
-| "HomeRegion" | This qualifier name can be mapped to a string value that represents the region, such as, "021" for North America. |
-| "TargetSize" | This qualifier name can be mapped to a string value that represents the size of the target, such as, "256". |
-| "LayoutDirection" | This qualifier name can be mapped to one of these values: <br>"LTR" (layout direction is left to right.) <br>"RTL" (layout direction is right to left.) <br>"TTBLTR" (layout direction is top to bottom and left to right.) <br>"TTBRTL" (layout direction is top to bottom and right to left.) |
-| "Configuration" | This qualifier name can be mapped to a string value that represents the configuration. |
-| "AlternateForm" | This qualifier name can be mapped to a string value that represents the alternate form. |
-| "DXFeatureLevel" | This qualifier name can be mapped to one of these values for the [DirectX feature level](http://msdn.microsoft.com/library/5ad0525c-249f-452d-950b-df8fa2addde2): <br>"DX9" (targets features supported by Direct3D 9.x.) <br>"DX10" (targets features supported by Direct3D 10.x.) <br>"DX11" (targets features supported by Direct3D 11.x.) |
+| Qualifier name | Qualifier values |
+| ---------- | -------------------- |
+| **alternateform**, or **altform** | A string, between 1 and 16 chars in length, representing an alternate form of a resource. |
+| **configuration**, or **config** | A string. Matches the value of the ```MS_CONFIGURATION_ATTRIBUTE_VALUE``` environment variable. It’s unlikely that you’ll need to use this qualifier name (see [How to name resources by using qualifiers](/windows/uwp/globalizing/how-to-name-resources-by-using-qualifiers?branch=master)). |
+| **contrast** | **standard** (the default; matches high contrast off). **high** (matches any high contrast setting). **black**. (matches High Contrast Black, High Contrast #1, and High Contrast #2). **white** (matches High Contrast White). |
+| **custom** | A custom value. |
+| **devicefamily** | It’s unlikely that you’ll need to use this qualifier name (see [How to name resources by using qualifiers](/windows/uwp/globalizing/how-to-name-resources-by-using-qualifiers?branch=master)). If you do need to use it, then execute ```ResourceContext.GetForCurrentView().QualifierValues["devicefamily"]``` on each of the devices that you want to support and name your resources for the values that are returned. |
+| **dxfeaturelevel**, or **dxfl** | **DX9**, **DX10**, **DX11**, **DX12**. It’s unlikely that you’ll need to use this qualifier name (see [How to name resources by using qualifiers](/windows/uwp/globalizing/how-to-name-resources-by-using-qualifiers?branch=master)). |
+| **homeregion** | Any valid [BCP-47 region tag](http://go.microsoft.com/fwlink/p/?linkid=227302) (such as **us**, or **840**). That is, any ISO 3166-1 alpha-2 two-letter region code, plus the set of ISO 3166-1 numeric three-digit geographic codes for composed regions (see [United Nations Statistic Division M49 composition of region codes](http://go.microsoft.com/fwlink/p/?linkid=247929)). Matches the country or region setting. |
+| **language**, or **lang** | Any valid [BCP-47 language tag](http://go.microsoft.com/fwlink/p/?linkid=227302) (such as **en**, or **en-us**). Matches the display language setting. For a list of languages, see the [IANA language subtag registry](http://go.microsoft.com/fwlink/p/?linkid=227303). |
+| **layoutdirection**, or **layoutdir** | **LTR** (left-to-right), **RTL** (right-to-left), **TTBLTR** (top-to-bottom, left-to-right), or **TTBRTL** (top-to-bottom, right-to-left). Matches the layout direction of the display language setting. |
+| **scale** | **80**, **100** (default), **120**, **125**, **140**, **150**, **160**, **175**, **180**, **200**, **225**, **250**, **300**, **350**, **400**, **450**. Matches the display scale setting. The values 125, 150, 175, 225, 250, 300, 350, 400, and 450 were introduced in Windows 10. |
+| **targetsize** | A positive integer that represents the side length of a square image in raw (physical) pixels. Matches the View setting in File Explorer. |
+| **theme** | **dark**, **light**. Matches the default or overridden app mode setting. |
 
 ## -remarks
 
