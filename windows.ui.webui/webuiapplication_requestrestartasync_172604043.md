@@ -10,6 +10,7 @@ public IAsyncOperation<AppRestartFailureReason> WebUIApplication.RequestRestartA
 # Windows.UI.WebUI.WebUIApplication.RequestRestartAsync
 
 ## -description
+Attempts to programatically restart the application. 
 
 ## -parameters
 ### -param launchArguments
