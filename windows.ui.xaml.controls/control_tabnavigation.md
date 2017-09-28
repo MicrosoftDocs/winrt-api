@@ -12,6 +12,9 @@ public Windows.UI.Xaml.Input.KeyboardNavigationMode TabNavigation { get;  set; }
 ## -description
 Gets or sets a value that modifies how tabbing and [TabIndex](control_tabindex.md) work for this control.
 
+> [!NOTE]
+> For Windows 10 Creators Update (build 10.0.15063) and newer, the [TabFocusNavigation](../windows.ui.xaml/uielement_tabfocusnavigation.md) property is available on the [UIElement]() base class to include objects in the tab sequence that do not use a [ControlTemplate](../windows.ui.xaml.controls/controltemplate.md).
+
 ## -xaml-syntax
 ```xaml
 <control TabNavigation="keyboardNavigationModeMemberName"/>
