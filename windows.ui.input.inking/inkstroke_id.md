@@ -10,15 +10,16 @@ public uint Id { get; }
 # Windows.UI.Input.Inking.InkStroke.Id
 
 ## -description
-Gets the Global Unique Identifier (GUID) that identifies the ink stroke.
+Gets the identifier for the ink stroke.
 
-A GUID is assigned to each ink stroke managed by the [InkPresenter](inkpresenter.md).
+An identifier is assigned to each ink stroke managed by the [InkPresenter](inkpresenter.md).
 
 ## -property-value
 The unique identifier for the ink stroke.
 
 ## -remarks
-This GUID persists through serialization/deserialization of the ink stroke. 
+This unique identifier persists through serialization/deserialization of the ink stroke.
+A Clone() of an ink stroke will generate a new unique identifier.
 
 ## -examples
 
