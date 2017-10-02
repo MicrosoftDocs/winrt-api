@@ -9,6 +9,7 @@
 The members of this namespace allow your app to find and control radio adapters, like Wi-Fi and Bluetooth, on the device where your app runs, and to query those radios for certain attributes.
 
 ## -remarks
+To use this namespace, you must specify the **Radio** device capability in the app package manifest. To learn more about device capabilities, see [App Capability Declarations](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations).
 
 ## -examples
 

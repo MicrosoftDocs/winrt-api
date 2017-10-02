@@ -27,27 +27,29 @@ True if the input data includes usage information; otherwise false.
 
 Use [HasUsage](pointerpointproperties_hasusage.md) to query for additional, custom, and device-specific usages or when you need to verify that a device actually supports a property (where [PointerPoint](pointerpoint.md) and [PointerPointProperties](pointerpointproperties.md) return a default value).
 
-The following table lists the Human Interface Device (HID) usages that are exposed directly through [PointerPoint](pointerpoint.md) and [PointerPointProperties](pointerpointproperties.md).<table>
-   <tr><th>Property</th><th>Usage Page</th><th>Usage</th></tr>
-   <tr><td>[Position (X)](pointerpoint_position.md)</td><td>0x01</td><td>0x30</td></tr>
-   <tr><td>[Position (Y)](pointerpoint_position.md)</td><td>0x01</td><td>0x31</td></tr>
-   <tr><td>[RawPosition (X)](pointerpoint_rawposition.md)</td><td>0x01</td><td>0x30</td></tr>
-   <tr><td>[RawPosition (Y)](pointerpoint_rawposition.md)</td><td>0x01</td><td>0x31</td></tr>
-   <tr><td>[IsInContact](pointerpoint_isincontact.md)</td><td>0x0D</td><td>0x42 (tip) or 0x45 (eraser tip)</td></tr>
-   <tr><td>[Pressure](pointerpointproperties_pressure.md)</td><td>0x0D</td><td>0x30</td></tr>
-   <tr><td>[IsInverted](pointerpointproperties_isinverted.md)</td><td>0x0D</td><td>0x3C</td></tr>
-   <tr><td>[IsEraser](pointerpointproperties_iseraser.md)</td><td>0x0D</td><td>0x45</td></tr>
-   <tr><td>[Orientation](pointerpointproperties_orientation.md)</td><td>0x0D</td><td>0x3F</td></tr>
-   <tr><td>[XTilt](pointerpointproperties_xtilt.md)</td><td>0x0D</td><td>0x3D</td></tr>
-   <tr><td>[YTilt](pointerpointproperties_ytilt.md)</td><td>0x0D</td><td>0x3E</td></tr>
-   <tr><td>[Twist](pointerpointproperties_twist.md)</td><td>0x0D</td><td>0x41</td></tr>
-   <tr><td>[ContactRect (Width)](pointerpointproperties_contactrect.md)</td><td>0x0D</td><td>0x48</td></tr>
-   <tr><td>[ContactRect (Height)](pointerpointproperties_contactrect.md)</td><td>0x0D</td><td>0x49</td></tr>
-   <tr><td>[ContactRectRaw (Width)](pointerpointproperties_contactrectraw.md)</td><td>0x0D</td><td>0x48</td></tr>
-   <tr><td>[ContactRectRaw (Height)](pointerpointproperties_contactrectraw.md)</td><td>0x0D</td><td>0x49</td></tr>
-   <tr><td>[TouchConfidence](pointerpointproperties_touchconfidence.md)</td><td>0x0D</td><td>0x47</td></tr>
-   <tr><td>[IsInRange](pointerpointproperties_isinrange.md)</td><td>0x0D</td><td>0x32</td></tr>
-</table>
+The following table lists the Human Interface Device (HID) usages that are exposed directly through [PointerPoint](pointerpoint.md) and [PointerPointProperties](pointerpointproperties.md).
+
+| Property | Usage page | Usage |
+| --- | --- | --- |
+|  [Position (X)](pointerpoint_position.md) | 0x01 | 0x30 |
+|  [Position (Y)](pointerpoint_position.md) | 0x01 | 0x31 |
+|  [RawPosition (X)](pointerpoint_rawposition.md) | 0x01 | 0x30 |
+|  [RawPosition (Y)](pointerpoint_rawposition.md) | 0x01 | 0x31 |
+|  [IsInContact](pointerpoint_isincontact.md) | 0x0D | 0x42 (tip) or 0x45 (eraser tip) |
+|  [Pressure](pointerpointproperties_pressure.md) | 0x0D | 0x30 |
+|  [IsInverted](pointerpointproperties_isinverted.md) | 0x0D | 0x3C |
+|  [IsEraser](pointerpointproperties_iseraser.md) | 0x0D | 0x45 |
+|  [Orientation](pointerpointproperties_orientation.md) | 0x0D | 0x3F |
+|  [XTilt](pointerpointproperties_xtilt.md) | 0x0D | 0x3D |
+|  [YTilt](pointerpointproperties_ytilt.md) | 0x0D | 0x3E |
+|  [Twist](pointerpointproperties_twist.md) | 0x0D | 0x41 |
+|  [ContactRect (Width)](pointerpointproperties_contactrect.md) | 0x0D | 0x48 |
+|  [ContactRect (Height)](pointerpointproperties_contactrect.md) | 0x0D | 0x49 |
+|  [ContactRectRaw (Width)](pointerpointproperties_contactrectraw.md) | 0x0D | 0x48 |
+|  [ContactRectRaw (Height)](pointerpointproperties_contactrectraw.md) | 0x0D | 0x49 |
+|  [TouchConfidence](pointerpointproperties_touchconfidence.md) | 0x0D | 0x47 |
+|  [IsInRange](pointerpointproperties_isinrange.md) | 0x0D | 0x32 |
+
 
 ## -examples
 
