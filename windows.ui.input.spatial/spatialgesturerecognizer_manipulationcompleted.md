@@ -14,7 +14,7 @@ public event Windows.Foundation.TypedEventHandler ManipulationCompleted<Windows.
 Occurs when a Manipulation gesture is completed.
 
 ## -remarks
-For hand interactions, this event fires when the finger is released after ManipulationStarted.
+For hand interactions, the [SpatialManipulationCompletedEventArgs](spatialmanipulationcompletedeventargs.md) event fires when the finger is released after ManipulationStarted.
 
 For voice interactions and motion controllers, this event does not fire.
 

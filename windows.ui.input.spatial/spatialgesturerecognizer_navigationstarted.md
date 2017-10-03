@@ -14,7 +14,7 @@ public event Windows.Foundation.TypedEventHandler NavigationStarted<Windows.UI.I
 Occurs when an interaction becomes a Navigation gesture.
 
 ## -remarks
-For hand interactions, this event fires when a finger is pressed and then moves outside of the small Navigation deadzone.
+For hand interactions, the [SpatialNavigationStartedEventArgs](spatialnavigationstartedeventargs.md) event fires when a finger is pressed and then moves outside of the small Navigation deadzone.
 
 For voice interactions, this event does not fire.
 

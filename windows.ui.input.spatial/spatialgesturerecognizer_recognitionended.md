@@ -14,7 +14,7 @@ public event Windows.Foundation.TypedEventHandler RecognitionEnded<Windows.UI.In
 Occurs when recognition of gestures is done, either due to completion of a gesture or cancellation. This is the last event to fire.
 
 ## -remarks
-For hand interactions, this event fires on finger release.
+For hand interactions, the [SpatialRecognitionEndedEventArgs](spatialrecognitionendedeventargs.md) event fires on finger release.
 
 For voice interactions, this event fires after a system voice command like "Select" has been processed.
 
