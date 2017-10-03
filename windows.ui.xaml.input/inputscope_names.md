@@ -13,7 +13,7 @@ public Windows.Foundation.Collections.IVector<Windows.UI.Xaml.Input.InputScopeNa
 Gets a collection of valid [InputScopeName](inputscopename.md) items that are relevant to this [InputScope](inputscope.md).
 
 ## -property-value
-A collection of valid [InputScopeName](inputscopename.md) items.
+A collection of valid [InputScopeName](inputscopename.md) items. Valid input scope names are specifed by the [InputScopeNameValue](inputscopenamevalue.md) enumeration.
 
 ## -remarks
 
