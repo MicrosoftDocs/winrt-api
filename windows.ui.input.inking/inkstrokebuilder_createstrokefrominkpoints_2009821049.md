@@ -21,7 +21,7 @@ Creates a rich ink stroke from collection of [InkPoint](inkpoint.md) objects.
 The collection of [InkPoint](inkpoint.md) objects.
 
 ### -param transform
-A 2-D transformation matrix.
+A 2-D transformation matrix. Typically, this is just the [identity matrix](https://msdn.microsoft.com/en-us/library/system.numerics.matrix3x2.identity(v=vs.110).aspx).
 
 ### -param strokeStartedTime
 The date and time when the InkStroke was started. 
