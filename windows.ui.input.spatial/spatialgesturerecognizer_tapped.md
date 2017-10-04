@@ -14,7 +14,7 @@ public event Windows.Foundation.TypedEventHandler Tapped<Windows.UI.Input.Spatia
 Occurs when a Tap or DoubleTap gesture is recognized.
 
 ## -remarks
-For hand interactions, this event fires on finger release after a finger press.
+For hand interactions, the [SpatialTappedEventArgs](spatialtappedeventargs.md) event fires on finger release after a finger press.
 
 For voice interactions, this event fires after the system voice command "Select" has been processed.
 

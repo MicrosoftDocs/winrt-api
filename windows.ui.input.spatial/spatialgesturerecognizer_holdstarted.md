@@ -14,7 +14,7 @@ public event Windows.Foundation.TypedEventHandler HoldStarted<Windows.UI.Input.S
 Occurs when an interaction becomes a Hold gesture.
 
 ## -remarks
-For hand interactions, this event fires when a finger is held pressed for longer than the Hold time threshold.
+For hand interactions, the [SpatialHoldStartedEventArgs](spatialholdstartedeventargs.md) event fires when a finger is held pressed for longer than the Hold time threshold.
 
 For voice interactions, this event does not fire.
 

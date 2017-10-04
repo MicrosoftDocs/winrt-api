@@ -14,7 +14,7 @@ public event Windows.Foundation.TypedEventHandler NavigationCompleted<Windows.UI
 Occurs when a Navigation gesture is completed.
 
 ## -remarks
-For hand interactions, this event fires when the finger is released after NavigationStarted.
+For hand interactions, the [SpatialNavigationCompletedEventArgs](spatialnavigationcompletedeventargs.md) event fires when the finger is released after NavigationStarted.
 
 For voice interactions, this event does not fire.
 

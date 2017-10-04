@@ -14,7 +14,7 @@ public event Windows.Foundation.TypedEventHandler RecognitionStarted<Windows.UI.
 Occurs when recognition of gestures begins. This is the first event to fire.
 
 ## -remarks
-This event fires when there is no active gesture and the gesture recognizer is told to capture an interaction. Note that events will only fire if the interaction could possibly trigger at least one of the gestures requested in the SpatialGestureSettings.
+The [SpatialRecognitionStartedEventArgs](spatialrecognitionstartedeventargs.md) event fires when there is no active gesture and the gesture recognizer is told to capture an interaction. Note that events will only fire if the interaction could possibly trigger at least one of the gestures requested in the SpatialGestureSettings.
 
 For hand interactions, this event fires on finger press.
 

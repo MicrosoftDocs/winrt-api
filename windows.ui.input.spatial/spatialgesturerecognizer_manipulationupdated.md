@@ -14,7 +14,7 @@ public event Windows.Foundation.TypedEventHandler ManipulationUpdated<Windows.UI
 Occurs when a Manipulation gesture is updated due to hand movement.
 
 ## -remarks
-For hand interactions, this event fires when the relevant hand that had a ManipulationStarted updates its position.
+For hand interactions, the [SpatialManipulationUpdatedEventArgs](spatialmanipulationupdatedeventargs.md) event fires when the relevant hand that had a ManipulationStarted updates its position.
 
 For voice interactions and motion controllers, this event does not fire.
 
