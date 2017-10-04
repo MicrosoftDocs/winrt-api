@@ -14,7 +14,7 @@ public Windows.Foundation.Numerics.Vector3 VertexPositionScale { get; }
 Gets the scale vector that you must use to scale the elements of [VertexPositions](spatialsurfacemesh_vertexpositions.md).
 
 ## -property-value
-The mesh buffer.
+The scale vector.
 
 ## -remarks
 This gets you mesh coordinates in meters in the mesh's specified coordinate system.
