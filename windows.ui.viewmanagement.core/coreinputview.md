@@ -12,14 +12,17 @@ public class CoreInputView
 ## -description
 Enables an app to receive notifications when a docked, undocked, moveable, or transitory input pane (and associated UI) is moved, displayed, or hidden, and to determine which portion of the app's window is obscured by the pane. 
 
-With this info, your app can adjust and reflow it's UI to account for any occlusion.
+> [!NOTE]
+> Not supported on Xbox or HoloLens.
+
+## -remarks
+Your app can use the info exposed by this object to adjust and reflow it's UI to account for any occlusion.
 
 The CoreInputView APIs support the following types of input panes.  
 - Docked Soft Input Panel (SIP) like the **Touch keyboard and handwriting panel** – typically, your app UI reflows 
 - Floating toolbar or SIP – typically, your app UI does not reflow
 - Overlay panels such as IME candidate windows – typically, your app UI does not reflow for the edit control, but does reflow for the text/search suggestions
 
-## -remarks
 The input pane appears when the user performs an action that requires them to provide information, such as entering a text field. 
 
 By default, Windows handles input pane events and repositions content so that users can see the control with focus. If you set [CoreTextEditContext.InputPaneDisplayPolicy](../windows.ui.text.core/coretexteditcontext_inputpanedisplaypolicy.md) to **Manual** in your app, you are responsible for showing and hiding the input pane using [TryShowPrimaryView](coreinputview_tryshowprimaryview_1925215151.md) and [TryHidePrimaryView](coreinputview_tryhideprimaryview_908065025.md). Use this class to override the default behavior and customize the input pane.

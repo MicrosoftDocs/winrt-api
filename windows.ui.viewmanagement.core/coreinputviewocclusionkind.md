@@ -12,6 +12,9 @@ public enum CoreInputViewOcclusionKind : int
 ## -description
 Specifies the types of input panes supported by the [CoreInputViewOcclusion](coreoccludinginputview.md) object.
 
+> [!NOTE]
+> Not supported on Xbox or HoloLens.
+
 ## -enum-fields
 ### -field Docked:0
 Docked panes such as a Soft Input Panel (SIP) like the **Touch keyboard and handwriting panel**.
