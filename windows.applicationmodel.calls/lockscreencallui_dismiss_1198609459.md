@@ -18,3 +18,6 @@ An app calls [Dismiss](lockscreencallui_dismiss.md) to remove itself when the ca
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

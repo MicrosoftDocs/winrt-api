@@ -25,3 +25,5 @@ The identifier is for a family package.
 ## -examples
 
 ## -see-also
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

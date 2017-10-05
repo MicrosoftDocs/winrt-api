@@ -38,4 +38,4 @@ Scope is a single cell tower.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

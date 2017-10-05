@@ -19,3 +19,6 @@ Gets a double in a TargetedContentValue object.
 
 ## -examples
 
+
+## -capabilities
+secondaryAuthenticationFactor

@@ -18,3 +18,6 @@ This is an event that is triggered when the read request state was changed.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

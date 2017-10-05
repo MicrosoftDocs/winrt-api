@@ -37,3 +37,5 @@ When this method completes, it returns a **String** object that represents the a
 
 ## -see-also
 [ShowReplaceAppointmentAsync(String, Appointment, Rect)](appointmentmanagerforuser_showreplaceappointmentasync_1336777815.md), [ShowReplaceAppointmentAsync(String, Appointment, Rect, Placement)](appointmentmanagerforuser_showreplaceappointmentasync_1519758191.md)
+## -capabilities
+appointmentsSystem

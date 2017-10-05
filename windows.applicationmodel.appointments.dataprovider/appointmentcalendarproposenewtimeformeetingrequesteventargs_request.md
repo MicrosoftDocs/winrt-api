@@ -20,3 +20,6 @@ The [AppointmentCalendarProposeNewTimeForMeetingRequest](appointmentcalendarprop
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

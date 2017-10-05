@@ -21,3 +21,5 @@ An array of Web sites for a contact.
 
 ## -see-also
 [ContactWebsite](contactwebsite.md)
+## -capabilities
+contactsSystem

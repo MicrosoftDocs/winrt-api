@@ -29,3 +29,6 @@ This example shows a function taking the [name](contact_name.md) property and re
 [!code-js[ContactsNameProperty](../windows.applicationmodel.contacts.provider/code/ContactsMain/javascript/js/contacts.js#SnippetContactsNameProperty)]
 
 ## -see-also
+
+## -capabilities
+contactsSystem

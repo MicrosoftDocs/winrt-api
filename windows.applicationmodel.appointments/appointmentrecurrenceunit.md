@@ -38,3 +38,5 @@ Appointment occurs yearly on a particular day of the year.
 
 ## -see-also
 [AppointmentRecurrence](appointmentrecurrence.md), [Recurrence](appointment_recurrence.md), [Unit](appointmentrecurrence_unit.md)
+## -capabilities
+appointmentsSystem

@@ -20,3 +20,6 @@ The show-time-frame action of an appointment
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

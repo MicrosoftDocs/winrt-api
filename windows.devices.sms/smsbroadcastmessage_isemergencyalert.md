@@ -24,4 +24,4 @@ True when the broadcast SMS message is an emergency alert.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

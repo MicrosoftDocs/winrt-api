@@ -33,3 +33,6 @@ Each section of the classOfDevice parameter is optional. However, if the minor c
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

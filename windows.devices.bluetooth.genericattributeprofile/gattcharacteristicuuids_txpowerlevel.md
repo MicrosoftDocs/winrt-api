@@ -21,3 +21,6 @@ The Bluetooth SIG-defined TxPowerLevel characteristic UUID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

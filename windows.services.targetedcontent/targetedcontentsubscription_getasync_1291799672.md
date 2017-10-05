@@ -23,3 +23,6 @@ Returns a TargetedContentContainer object for a subscriptionID.
 
 ## -examples
 
+
+## -capabilities
+secondaryAuthenticationFactor

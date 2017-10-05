@@ -20,3 +20,6 @@ The error code for an app that has encountered an installation failure.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+runFullTrust

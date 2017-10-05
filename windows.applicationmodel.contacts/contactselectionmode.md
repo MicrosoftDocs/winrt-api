@@ -25,3 +25,5 @@ Specifies that you want to select only certain fields.
 ## -examples
 
 ## -see-also
+## -capabilities
+contactsSystem

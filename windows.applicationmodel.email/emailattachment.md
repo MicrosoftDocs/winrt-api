@@ -18,3 +18,6 @@ Represents an email attachment.
 
 ## -see-also
 [Object](https://msdn.microsoft.com/library/system.object.aspx)
+
+## -capabilities
+email, emailSystem

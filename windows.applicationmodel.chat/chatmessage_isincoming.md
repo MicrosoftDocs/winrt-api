@@ -21,3 +21,6 @@ A Boolean value indicating if the message is incoming or outgoing. TRUE indicate
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

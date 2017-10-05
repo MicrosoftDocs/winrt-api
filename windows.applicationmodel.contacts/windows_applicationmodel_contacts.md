@@ -18,3 +18,5 @@ For info about how to manage contacts, see [Managing contact cards ](http://msdn
 
 ## -see-also
 [Contact manager API sample](http://go.microsoft.com/fwlink/p/?LinkID=310079), [Contact Picker app sample](http://go.microsoft.com/fwlink/p/?linkid=231575), [Handling Contact Actions sample](http://go.microsoft.com/fwlink/p/?LinkID=320151), [Windows.ApplicationModel.Contacts.Provider](../windows.applicationmodel.contacts.provider/windows_applicationmodel_contacts_provider.md), [Contact Card integration sample (Windows 10)](http://go.microsoft.com/fwlink/?LinkID=703783), [Contact cards sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=624040)
+## -capabilities
+contactsSystem

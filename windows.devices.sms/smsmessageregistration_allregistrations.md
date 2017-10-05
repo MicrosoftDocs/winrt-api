@@ -24,4 +24,4 @@ A list of current registrations.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

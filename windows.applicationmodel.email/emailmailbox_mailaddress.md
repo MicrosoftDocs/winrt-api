@@ -20,3 +20,6 @@ The email address for the mailbox.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

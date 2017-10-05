@@ -21,3 +21,6 @@ The status of the GATT session.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

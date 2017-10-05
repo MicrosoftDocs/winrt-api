@@ -29,3 +29,6 @@ A PIN unlock key is a code used to reset a PIN that may have been blocked due to
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

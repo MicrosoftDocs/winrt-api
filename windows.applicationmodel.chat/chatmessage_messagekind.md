@@ -21,3 +21,6 @@ The type of message.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

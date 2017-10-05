@@ -22,3 +22,6 @@ The [ContactDataProviderConnection](contactdataproviderconnection.md) object you
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

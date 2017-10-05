@@ -20,3 +20,6 @@ The latest sender in the conversation.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

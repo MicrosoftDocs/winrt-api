@@ -26,3 +26,6 @@ This example demonstrates how to use the [KnownContactField](knowncontactfield.m
 [!code-js[ContactsKnownFields](../windows.applicationmodel.contacts.provider/code/ContactsMain/javascript/js/contacts.js#SnippetContactsKnownFields)]
 
 ## -see-also
+
+## -capabilities
+contactsSystem

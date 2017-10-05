@@ -21,3 +21,6 @@ The last change that you want to system to track as accepted by your app.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

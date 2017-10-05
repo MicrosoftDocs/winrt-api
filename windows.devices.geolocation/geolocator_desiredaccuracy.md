@@ -51,4 +51,5 @@ geolocator.DesiredAccuracy = Windows.Devices.Geolocation.PositionAccuracy.High;
 
 
 ## -capabilities
-location, ID_CAP_LOCATION [Windows Phone]
+location
+ID_CAP_LOCATION [Windows Phone]

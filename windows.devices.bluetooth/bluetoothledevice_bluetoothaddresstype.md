@@ -21,3 +21,6 @@ The address type.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

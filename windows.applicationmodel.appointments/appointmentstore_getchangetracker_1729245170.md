@@ -23,3 +23,6 @@ You can use the [IsTracking](appointmentstorechangetracker_istracking.md) proper
 ## -see-also
 
 ## -examples
+
+## -capabilities
+appointmentsSystem

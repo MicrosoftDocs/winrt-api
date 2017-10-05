@@ -18,3 +18,6 @@ Indicates the appearance subcategory code of the Bluetooth LE device. For more i
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

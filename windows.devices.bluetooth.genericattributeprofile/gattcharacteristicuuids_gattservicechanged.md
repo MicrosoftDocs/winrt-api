@@ -21,3 +21,6 @@ The Bluetooth SIG-defined GattServiceChanged characteristic UUID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

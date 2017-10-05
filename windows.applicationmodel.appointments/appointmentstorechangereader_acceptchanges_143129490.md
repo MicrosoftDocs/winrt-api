@@ -17,3 +17,6 @@ Tells the system that all of the changes to appointments returned by the call to
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

@@ -21,3 +21,6 @@ The state of the write request.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

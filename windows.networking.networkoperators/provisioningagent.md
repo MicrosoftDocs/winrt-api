@@ -28,4 +28,6 @@ Represents an agent that provisions connectivity and subscription information wi
 
 
 ## -capabilities
+cellularDeviceIdentity, cellularDeviceControl
+networkConnectionManagerProvisioning
 networkDataPlanProvisioning

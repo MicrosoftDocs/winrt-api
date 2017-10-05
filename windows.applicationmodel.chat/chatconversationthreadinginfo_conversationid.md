@@ -21,3 +21,6 @@ The ID of the [ChatConversation](chatconversation.md).
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

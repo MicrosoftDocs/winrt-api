@@ -21,3 +21,6 @@ An asynchronous operation that returns a boolean value on completion. The value 
 
 ## -examples
 
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

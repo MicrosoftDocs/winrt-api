@@ -20,3 +20,6 @@ An [EmailMailboxServerSearchReadBatchRequest](emailmailboxserversearchreadbatchr
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

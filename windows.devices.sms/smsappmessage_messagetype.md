@@ -24,4 +24,4 @@ The message type of the message.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

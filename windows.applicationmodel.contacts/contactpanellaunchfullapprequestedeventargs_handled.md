@@ -18,3 +18,6 @@ Gets or sets a value that indicates the [LaunchFullAppRequested](contactpanel_la
 ## -see-also
 
 ## -examples
+
+## -capabilities
+contactsSystem

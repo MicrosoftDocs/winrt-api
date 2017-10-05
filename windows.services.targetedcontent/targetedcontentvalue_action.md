@@ -19,3 +19,6 @@ Gets a TargetedContentAction object in a TargetedContentValue object.
 
 ## -examples
 
+
+## -capabilities
+secondaryAuthenticationFactor

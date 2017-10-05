@@ -21,3 +21,6 @@ The Bluetooth SIG-defined Characteristic User Description Descriptor UUID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

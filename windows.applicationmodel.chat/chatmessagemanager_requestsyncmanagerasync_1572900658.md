@@ -21,3 +21,6 @@ When the asynchronous operation completes, a [ChatSyncManager](chatsyncmanager.m
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

@@ -21,3 +21,6 @@ The delivery info for the recipients of the [ChatMessage](chatmessage.md).
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

@@ -21,4 +21,4 @@ Drops the filtered message, so that it is not passed on to the messaging app.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

@@ -23,3 +23,6 @@ Retrieves the serving and neighboring network cell information including respect
 
 ## -examples
 
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

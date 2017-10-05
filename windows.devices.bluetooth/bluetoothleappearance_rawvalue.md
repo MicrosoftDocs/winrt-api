@@ -21,3 +21,6 @@ The appearance raw value of the Bluetooth LE device.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

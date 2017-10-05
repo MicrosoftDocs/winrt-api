@@ -20,3 +20,6 @@ The current network status of the phone line.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

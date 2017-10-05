@@ -43,3 +43,5 @@ An internal error occurred in the access gateway.
 ## -examples
 
 ## -see-also
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

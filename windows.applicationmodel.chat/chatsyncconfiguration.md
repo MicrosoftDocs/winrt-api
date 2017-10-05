@@ -18,3 +18,6 @@ The chat messages sync configurations.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

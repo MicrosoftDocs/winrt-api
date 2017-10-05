@@ -21,3 +21,6 @@ The local name contained within the advertisement. This property can be either t
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

@@ -24,4 +24,4 @@ The ICCID of the SIM.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

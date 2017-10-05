@@ -20,3 +20,6 @@ A batch of email messages.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

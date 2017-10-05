@@ -20,3 +20,6 @@ The locally unique identifier for this [ContactList](contactlist.md).
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

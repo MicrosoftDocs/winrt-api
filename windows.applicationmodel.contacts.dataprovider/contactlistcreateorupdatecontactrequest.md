@@ -17,3 +17,6 @@ Details of a request to create or update a contact.
 ## -see-also
 
 ## -examples
+
+## -capabilities
+contactsSystem

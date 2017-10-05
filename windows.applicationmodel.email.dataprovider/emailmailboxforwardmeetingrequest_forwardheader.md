@@ -20,3 +20,6 @@ The forwarding header.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

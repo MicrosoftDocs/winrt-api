@@ -17,3 +17,6 @@ Used to provide the details about a new voice mail message on a phone line.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

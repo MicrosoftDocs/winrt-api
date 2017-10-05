@@ -20,3 +20,6 @@ A Boolean value indicating if folders can be created in the mailbox.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

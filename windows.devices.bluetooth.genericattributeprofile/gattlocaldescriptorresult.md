@@ -18,3 +18,6 @@ The result of local characteristic descriptor operations like [CreateDescriptorA
 
 ## -examples
 
+
+## -capabilities
+bluetooth

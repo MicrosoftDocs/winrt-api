@@ -20,3 +20,6 @@ A subject line. Data providers that use email use this value for the Subject of 
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

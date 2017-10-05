@@ -21,3 +21,6 @@ String containing the instance id of the toast to clear.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+accessoryManager

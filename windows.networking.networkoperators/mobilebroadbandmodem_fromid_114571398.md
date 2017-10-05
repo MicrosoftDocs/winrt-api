@@ -25,3 +25,6 @@ The mobile broadband modem.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

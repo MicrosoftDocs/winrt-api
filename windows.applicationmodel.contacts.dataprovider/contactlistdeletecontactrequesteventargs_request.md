@@ -20,3 +20,6 @@ A [ContactListDeleteTaskRequest](contactlistdeletetaskrequest.md) object describ
 ## -see-also
 
 ## -examples
+
+## -capabilities
+contactsSystem

@@ -20,3 +20,6 @@ Gets or sets a Boolean value that indicates whether to synchronize contact descr
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

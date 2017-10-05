@@ -21,3 +21,6 @@ The Bluetooth SIG-defined UUID for the Generic Access Service.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

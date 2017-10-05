@@ -21,3 +21,6 @@ The value read from the device.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

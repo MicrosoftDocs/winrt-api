@@ -22,3 +22,6 @@ The SMS text portion of a message is divided into multiple parts if necessary. T
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

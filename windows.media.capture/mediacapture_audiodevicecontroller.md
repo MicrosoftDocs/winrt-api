@@ -23,4 +23,5 @@ An [AudioDeviceController](../windows.media.devices/audiodevicecontroller.md) ob
 
 
 ## -capabilities
+backgroundMediaRecording
 microphone, webcam

@@ -26,3 +26,6 @@ The [RemoteSystemSessionOptions](RemoteSystemSessionOptions.md) object specifyin
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

@@ -40,3 +40,5 @@ The account must be manually removed.
 ## -examples
 
 ## -see-also
+## -capabilities
+email, emailSystem

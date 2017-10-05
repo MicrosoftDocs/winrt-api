@@ -25,3 +25,6 @@ A Boolean value indicating if the *serviceKind * supports store and forward.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

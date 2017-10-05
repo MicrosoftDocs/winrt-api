@@ -21,3 +21,6 @@ The name of the given remote system's manufacturer.
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

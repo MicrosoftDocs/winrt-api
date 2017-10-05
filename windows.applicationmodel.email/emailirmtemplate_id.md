@@ -20,3 +20,6 @@ The ID for the template.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

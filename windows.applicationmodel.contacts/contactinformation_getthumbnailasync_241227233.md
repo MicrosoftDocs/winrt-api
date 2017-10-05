@@ -23,3 +23,6 @@ An object that provides access to the thumbnail image.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

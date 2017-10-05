@@ -20,3 +20,6 @@ The identifier of the user account data for the [AppointmentCalendar](appointmen
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

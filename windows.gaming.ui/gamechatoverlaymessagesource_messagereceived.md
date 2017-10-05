@@ -11,6 +11,8 @@ public event TypedEventHandler MessageReceived<GameChatOverlayMessageSource, Gam
 
 ## -description
 
+Event raised every time a message is received. This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, your app cannot use this API.
+
 ## -remarks
 
 ## -see-also

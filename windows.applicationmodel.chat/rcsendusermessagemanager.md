@@ -19,3 +19,6 @@ Call the [RcsManager.GetEndUserMessageManager](rcsmanager_getendusermessagemanag
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

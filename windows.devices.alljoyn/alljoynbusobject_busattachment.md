@@ -21,3 +21,6 @@ The bus attachment.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+allJoyn

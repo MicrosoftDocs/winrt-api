@@ -21,3 +21,6 @@ The [GattDeviceService](gattdeviceservice.md) of which this characteristic is a 
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

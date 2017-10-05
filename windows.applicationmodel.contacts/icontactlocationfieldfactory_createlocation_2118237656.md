@@ -28,3 +28,5 @@ A location field that you can add to a [Contact](contact.md) object.
 
 ## -see-also
 [CreateLocation(String, ContactFieldCategory)](icontactlocationfieldfactory_createlocation_966869216.md), [CreateLocation(String, ContactFieldCategory, String, String, String, String, String)](icontactlocationfieldfactory_createlocation_1542951776.md)
+## -capabilities
+contactsSystem

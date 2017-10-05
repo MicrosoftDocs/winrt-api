@@ -20,3 +20,6 @@ Creates a new GattLocalCharacteristicParameters object.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

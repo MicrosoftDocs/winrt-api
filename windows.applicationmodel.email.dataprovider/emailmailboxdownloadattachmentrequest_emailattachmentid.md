@@ -20,3 +20,6 @@ The ID of the attachment. Use the [EmailAttachment.Id](../windows.applicationmod
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

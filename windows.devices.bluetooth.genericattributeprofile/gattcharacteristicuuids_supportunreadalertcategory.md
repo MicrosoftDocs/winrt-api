@@ -21,3 +21,6 @@ The Bluetooth SIG-defined SupportUnreadAlertCategory characteristic UUID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

@@ -21,3 +21,6 @@ List of hostnames.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

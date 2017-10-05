@@ -18,3 +18,5 @@ Contains the functionality to define a geofence (a geographical area of interest
 
 ## -see-also
 [Windows.Devices.Geolocation](windows_devices_geolocation_geofencing.md), [Geofencing, start to finish](http://msdn.microsoft.com/library/eee6b589-2eab-4279-ac61-22bfa5e06d8e)
+## -capabilities
+location

@@ -20,3 +20,6 @@ The URI for the appointment.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

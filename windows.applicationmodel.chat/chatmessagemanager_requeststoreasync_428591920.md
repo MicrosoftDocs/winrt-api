@@ -29,3 +29,6 @@ ChatMessageStore store = await ChatMessageManager.RequestStoreAsync();
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

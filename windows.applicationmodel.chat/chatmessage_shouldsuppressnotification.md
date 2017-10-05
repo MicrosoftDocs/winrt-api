@@ -21,3 +21,6 @@ A Boolean value indicating if notification of receiving the [ChatMessage](chatme
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

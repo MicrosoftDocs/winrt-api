@@ -33,4 +33,5 @@ IReadOnlyList<ChatMessageChange> changeList = await tracker.GetChangeReader.Read
 
 
 ## -capabilities
+chatSystem, smsSend, chat
 blockedChatMessages

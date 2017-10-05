@@ -18,3 +18,6 @@ The status of [GetIncludedServicesForUuidAsync](../../windows.devices.bluetooth.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

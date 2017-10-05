@@ -18,3 +18,6 @@ Used in your [ForwardMeetingRequested](emaildataproviderconnection_forwardmeetin
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

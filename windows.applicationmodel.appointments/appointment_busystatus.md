@@ -20,3 +20,6 @@ A [AppointmentBusyStatus](appointmentbusystatus.md)-typed value that indicates t
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

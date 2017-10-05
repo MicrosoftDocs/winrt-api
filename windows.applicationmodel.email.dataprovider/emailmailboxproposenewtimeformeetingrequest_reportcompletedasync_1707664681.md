@@ -22,3 +22,6 @@ An asynchronous move operation on an [EmailMailboxProposeNewTimeForMeetingReques
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

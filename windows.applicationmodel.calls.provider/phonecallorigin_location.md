@@ -20,3 +20,6 @@ The caller's location.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

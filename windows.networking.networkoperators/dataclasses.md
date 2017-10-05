@@ -71,3 +71,5 @@ The device supports a custom data service.
 ## -examples
 
 ## -see-also
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

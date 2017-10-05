@@ -28,3 +28,6 @@ The data associated with the triggered event. Data format is dependent upon the 
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

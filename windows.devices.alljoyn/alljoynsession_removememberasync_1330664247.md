@@ -25,3 +25,6 @@ An AllJoyn status code.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+allJoyn

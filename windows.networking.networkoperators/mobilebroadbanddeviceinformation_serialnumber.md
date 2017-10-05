@@ -21,3 +21,6 @@ The serial number of the mobile broadband device.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

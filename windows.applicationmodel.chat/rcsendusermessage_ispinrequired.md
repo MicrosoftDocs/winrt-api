@@ -21,3 +21,6 @@ A Boolean value that specifies whether a PIN is required to be sent back with th
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

@@ -19,8 +19,11 @@ The canonical name of the printing parameter
 ### -param xmlNamespace
 The XML namespace of the printing parameter.
 
+### -param integerValue
+The int value to set this parameter to.
+
 ## -returns
-The parameter initializer object.
+The parameter initializer object for the newly set parameter.
 
 ## -returns
 

@@ -28,3 +28,5 @@ For how-to guidance on preview frames, see [Get a preview frame](https://msdn.mi
 
 ## -see-also
 [GetPreviewFrameAsync](mediacapture_getpreviewframeasync_211909276.md), [Get a preview frame](https://msdn.microsoft.com/en-us/windows/uwp/audio-video-camera/get-a-preview-frame)
+## -capabilities
+backgroundMediaRecording

@@ -20,3 +20,6 @@ The mailbox ID of the mailbox that holds the attachment.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

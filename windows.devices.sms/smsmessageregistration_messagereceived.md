@@ -21,4 +21,4 @@ Event signaled when a message has been received that meets the filter criteria s
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

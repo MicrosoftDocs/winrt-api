@@ -31,3 +31,6 @@ The maximum size of the raw payload is 160 bytes.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

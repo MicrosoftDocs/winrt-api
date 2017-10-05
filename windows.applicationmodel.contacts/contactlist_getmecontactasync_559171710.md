@@ -20,3 +20,6 @@ The [Contact](contact.md) object for the current user.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

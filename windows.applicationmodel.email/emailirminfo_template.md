@@ -20,3 +20,6 @@ The [EmailIrmTemplate](emailirmtemplate.md) used to create the information right
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

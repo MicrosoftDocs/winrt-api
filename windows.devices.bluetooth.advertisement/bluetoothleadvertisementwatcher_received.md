@@ -19,3 +19,5 @@ Notification for new Bluetooth LE advertisement events received.
 
 ## -see-also
 [BluetoothLEAdvertisementReceivedEventArgs](bluetoothleadvertisementreceivedeventargs.md)
+## -capabilities
+bluetooth

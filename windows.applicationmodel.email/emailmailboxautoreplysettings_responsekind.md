@@ -20,3 +20,6 @@ The encoding schema for an email message.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

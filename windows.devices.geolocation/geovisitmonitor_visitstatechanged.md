@@ -10,7 +10,7 @@ public event TypedEventHandler VisitStateChanged<GeovisitMonitor, GeovisitStateC
 # Windows.Devices.Geolocation.GeovisitMonitor.VisitStateChanged
 
 ## -description
-Raised when the user's current Visit state has changed, provided this [GeovisitMonitor](GeovisitMonitor.md) is actively monitoring.
+Raised when the user's current Visit state has changed, provided this [GeovisitMonitor](GeovisitMonitor.md) is currently monitoring.
 
 ## -remarks
 
@@ -18,3 +18,6 @@ Raised when the user's current Visit state has changed, provided this [GeovisitM
 
 ## -examples
 
+
+## -capabilities
+location

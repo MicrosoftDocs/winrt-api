@@ -17,3 +17,6 @@ Initializes a new instance of the [AppointmentInvitee](appointmentinvitee.md) cl
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

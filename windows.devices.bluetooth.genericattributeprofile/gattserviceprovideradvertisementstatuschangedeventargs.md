@@ -18,3 +18,6 @@ The event args for the [GattServiceProvider](gattserviceprovider_advertisementst
 
 ## -examples
 
+
+## -capabilities
+bluetooth

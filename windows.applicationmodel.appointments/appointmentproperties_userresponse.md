@@ -20,3 +20,6 @@ The name of the [UserResponse](appointment_userresponse.md) property.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

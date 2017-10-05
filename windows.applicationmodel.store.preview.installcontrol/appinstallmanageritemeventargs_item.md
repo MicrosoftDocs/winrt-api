@@ -20,3 +20,6 @@ An object that describes the app that has finished installing or whose installat
 ## -examples
 
 ## -see-also
+
+## -capabilities
+runFullTrust

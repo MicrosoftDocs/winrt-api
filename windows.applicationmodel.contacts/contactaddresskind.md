@@ -29,3 +29,5 @@ An address of the contact other than home or work.
 
 ## -see-also
 [ContactAddress.Kind](contactaddress_kind.md)
+## -capabilities
+contactsSystem

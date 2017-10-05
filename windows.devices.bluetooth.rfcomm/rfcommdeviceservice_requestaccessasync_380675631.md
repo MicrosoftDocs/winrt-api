@@ -21,3 +21,6 @@ After the async operation completes, returns a [DeviceAccessStatus](../windows.d
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

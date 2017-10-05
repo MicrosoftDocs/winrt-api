@@ -20,3 +20,6 @@ Represents an enumeration of the most well known Service UUID values, and provid
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

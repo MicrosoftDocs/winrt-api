@@ -35,3 +35,5 @@ See the remarks section of this overload: [ShowRemoveAppointmentAsync](appointme
 
 ## -see-also
 [ShowRemoveAppointmentAsync(String, Rect)](appointmentmanager_showremoveappointmentasync_1734575458.md), [ShowRemoveAppointmentAsync(String, Rect, Placement)](appointmentmanager_showremoveappointmentasync_1845468926.md)
+## -capabilities
+appointmentsSystem

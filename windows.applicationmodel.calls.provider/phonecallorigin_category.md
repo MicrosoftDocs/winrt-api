@@ -20,3 +20,6 @@ The caller's category. A couple of examples include "house agent" or "financial 
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

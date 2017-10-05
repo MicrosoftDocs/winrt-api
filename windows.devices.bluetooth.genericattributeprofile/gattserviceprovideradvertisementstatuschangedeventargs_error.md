@@ -21,3 +21,6 @@ The error of the GATT service.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

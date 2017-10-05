@@ -28,3 +28,6 @@ Determines whether all elements specified in the provisioning XML were applied.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

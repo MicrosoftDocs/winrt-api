@@ -10,8 +10,10 @@ public string Documents { get; }
 # Windows.Storage.UserDataPaths.Documents
 
 ## -description
+Gets the path to a user's Documents folder.
 
 ## -property-value
+The full path to the user's Documents folder.
 
 ## -remarks
 

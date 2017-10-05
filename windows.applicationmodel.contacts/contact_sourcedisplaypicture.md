@@ -21,3 +21,6 @@ The [SmallDisplayPicture](contact_smalldisplaypicture.md), [LargeDisplayPicture]
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

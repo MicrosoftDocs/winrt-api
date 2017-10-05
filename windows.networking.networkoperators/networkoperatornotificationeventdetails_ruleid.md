@@ -27,3 +27,6 @@ The provisioned rule identifier.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

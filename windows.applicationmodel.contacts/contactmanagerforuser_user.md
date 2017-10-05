@@ -20,3 +20,6 @@ The [User](../windows.system/user.md) represented by this contact manager.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

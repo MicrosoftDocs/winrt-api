@@ -24,4 +24,5 @@ True if the [PeerFinder](peerfinder.md) class may connect to a [StreamSocket](..
 
 
 ## -capabilities
-proximity, ID_CAP_PROXIMITY [Windows Phone], ID_CAP_NETWORKING [Windows Phone]
+proximity
+ID_CAP_PROXIMITY [Windows Phone], ID_CAP_NETWORKING [Windows Phone]

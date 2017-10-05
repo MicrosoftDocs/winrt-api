@@ -19,3 +19,6 @@ Obtain an instance of this class by calling [GetDeferral](chatmessagechangedeven
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

@@ -18,3 +18,5 @@ Represents an AllJoyn producer to be used with [AllJoynBusObject](alljoynbusobje
 ## -examples
 
 ## -see-also
+## -capabilities
+allJoyn

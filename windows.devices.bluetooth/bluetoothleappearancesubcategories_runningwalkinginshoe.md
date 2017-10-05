@@ -21,3 +21,6 @@ The appearance subcategory code for a running or walking in shoe Bluetooth LE de
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

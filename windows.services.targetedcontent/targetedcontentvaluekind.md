@@ -46,3 +46,6 @@ Defines all the types of values content within a TargetedContentContainer can ha
 
 ## -examples
 
+
+## -capabilities
+secondaryAuthenticationFactor

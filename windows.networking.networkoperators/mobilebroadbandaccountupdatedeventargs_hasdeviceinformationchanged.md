@@ -28,3 +28,6 @@ A value indicating whether the device information has changed for the account.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

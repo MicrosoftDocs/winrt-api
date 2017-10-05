@@ -18,3 +18,6 @@ Use the instance of this class that is passed as an argument to your [DeleteFold
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

@@ -21,3 +21,6 @@ The minimum sampling interval.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

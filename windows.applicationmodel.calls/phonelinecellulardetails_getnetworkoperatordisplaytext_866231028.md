@@ -24,3 +24,6 @@ The text string to display in the given location.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

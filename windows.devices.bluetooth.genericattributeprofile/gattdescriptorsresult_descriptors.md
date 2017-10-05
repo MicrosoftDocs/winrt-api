@@ -21,3 +21,6 @@ A vector of the GATT descriptors.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

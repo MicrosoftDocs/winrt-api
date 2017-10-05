@@ -18,3 +18,6 @@ Provides strings that identify the properties of an appointment.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

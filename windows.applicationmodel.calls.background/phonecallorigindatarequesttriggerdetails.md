@@ -17,3 +17,6 @@ Used to provide the origin details of the phone call.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

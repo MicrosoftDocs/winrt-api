@@ -20,3 +20,6 @@ The [Closed](lockscreencallui_closed.md) event doesn't use the object parameter 
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

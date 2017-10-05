@@ -21,3 +21,6 @@ Gets the error status for the trigger.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

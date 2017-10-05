@@ -21,3 +21,6 @@ The [RemoteSystemSessionParticipant](RemoteSystemSessionParticipant.md) object c
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

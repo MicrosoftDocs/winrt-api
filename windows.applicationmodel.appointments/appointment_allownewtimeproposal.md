@@ -20,3 +20,6 @@ A [Boolean](https://msdn.microsoft.com/library/system.boolean.aspx) value that i
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

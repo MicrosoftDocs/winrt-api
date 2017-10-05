@@ -21,3 +21,6 @@ The Bluetooth LE transmit power level.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

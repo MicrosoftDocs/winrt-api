@@ -20,3 +20,6 @@ The first instance of the recurrence pattern.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

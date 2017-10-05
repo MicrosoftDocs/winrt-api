@@ -20,3 +20,6 @@ The name of the [Reminder](appointment_reminder.md) property.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

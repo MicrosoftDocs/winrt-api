@@ -24,4 +24,4 @@ An instance of [SmsDevice2](smsdevice2.md) initialized for the default SMS devic
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

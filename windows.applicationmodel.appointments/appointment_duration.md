@@ -34,3 +34,6 @@ appointment.duration = (60 * 60 * 1000); // 1 hour in 1-millisecond units
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

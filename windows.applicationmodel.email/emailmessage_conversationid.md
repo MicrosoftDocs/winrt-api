@@ -20,3 +20,6 @@ The identifier for a conversation.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

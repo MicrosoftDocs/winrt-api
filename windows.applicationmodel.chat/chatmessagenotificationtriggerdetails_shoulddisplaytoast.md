@@ -21,3 +21,6 @@ A Boolean value indicating if the background task should issue a toast notificat
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

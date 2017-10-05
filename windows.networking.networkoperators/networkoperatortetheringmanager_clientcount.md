@@ -21,3 +21,6 @@ The current number of clients.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

@@ -26,3 +26,6 @@ Once the send is attempted, the message is assigned an identifier and the [Id](c
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

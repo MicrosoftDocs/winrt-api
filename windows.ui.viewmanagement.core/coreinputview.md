@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.UI.ViewManagement.Core.CoreInputView
 -api-type: winrt class
+-api-device-family-note: xbox
 ---
 
 <!-- Class syntax.
@@ -21,7 +22,7 @@ Your app can use the info exposed by this object to adjust and reflow it's UI to
 The CoreInputView APIs support the following types of input panes.  
 - Docked Soft Input Panel (SIP) like the **Touch keyboard and handwriting panel** – typically, your app UI reflows 
 - Floating toolbar or SIP – typically, your app UI does not reflow
-- Overlay panels such as IME candidate windows – typically, your app UI does not reflow for the edit control, but does reflow for the text/search suggestions
+- Overlay panels such as inline Ink or IME candidate windows – typically, your app UI does not reflow for the edit control, but does reflow for the text/search suggestions
 
 The input pane appears when the user performs an action that requires them to provide information, such as entering a text field. 
 

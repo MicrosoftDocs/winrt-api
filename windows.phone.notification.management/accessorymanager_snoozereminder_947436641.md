@@ -26,3 +26,5 @@ Calling this API requires that the **ID_CAP_SMS** and **ID_CAP_SMS_COMPANION** c
 
 ## -see-also
 [SnoozeReminder(Guid)](accessorymanager_snoozereminder_1390163833.md)
+## -capabilities
+accessoryManager

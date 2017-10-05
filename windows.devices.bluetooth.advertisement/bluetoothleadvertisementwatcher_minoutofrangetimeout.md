@@ -21,3 +21,6 @@ The minimum out of range timeout.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

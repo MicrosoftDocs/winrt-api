@@ -27,3 +27,6 @@ When this method completes, a [LowLagMediaRecording](lowlagmediarecording.md) ob
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

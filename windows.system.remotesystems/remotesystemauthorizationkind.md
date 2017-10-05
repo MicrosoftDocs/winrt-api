@@ -26,3 +26,6 @@ If a [RemoteSystemAuthorizationKindFilter](RemoteSystemAuthorizationKindFilter.m
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

@@ -21,3 +21,6 @@ The number of attempts remaining before the mobile broadband PIN is blocked.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

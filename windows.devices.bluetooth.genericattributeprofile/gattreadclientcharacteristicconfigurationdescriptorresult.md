@@ -22,3 +22,5 @@ The [Status](gattreadclientcharacteristicconfigurationdescriptorresult_status.md
 
 ## -see-also
 [ClientCharacteristicConfigurationDescriptor](gattreadclientcharacteristicconfigurationdescriptorresult_clientcharacteristicconfigurationdescriptor.md), [GattCharacteristic](gattcharacteristic.md), [ReadClientCharacteristicConfigurationDescriptorAsync](gattcharacteristic_readclientcharacteristicconfigurationdescriptorasync.md), [Status](gattreadclientcharacteristicconfigurationdescriptorresult_status.md)
+## -capabilities
+bluetooth

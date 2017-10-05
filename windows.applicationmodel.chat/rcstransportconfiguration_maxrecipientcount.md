@@ -21,3 +21,6 @@ The maximum number of recipients supported for a group chat.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

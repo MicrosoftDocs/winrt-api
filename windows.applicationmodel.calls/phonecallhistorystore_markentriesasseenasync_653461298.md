@@ -27,4 +27,5 @@ The entries to mark as seen. This updates the [PhoneCallHistoryEntry.IsSeen](pho
 
 
 ## -capabilities
+phoneCallHistory, phoneCallHistorySystem
 phoneCallHistoryPublic

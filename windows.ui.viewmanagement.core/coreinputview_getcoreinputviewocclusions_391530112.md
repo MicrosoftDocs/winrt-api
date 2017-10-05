@@ -10,9 +10,9 @@ public IVectorView<CoreInputViewOcclusion> CoreInputView.GetCoreInputViewOcclusi
 # Windows.UI.ViewManagement.Core.CoreInputView.GetCoreInputViewOcclusions
 
 ## -description
-Gets a reference to each input pane currently occluding the app.
+Retrieves a reference to each input pane currently occluding the app.
 
-## -property-value
+## -returns
 A [CoreInputViewOcclusion](coreinputviewocclusion.md) collection.
 
 ## -remarks

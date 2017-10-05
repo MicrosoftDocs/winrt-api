@@ -17,3 +17,6 @@ Details of a request to delete a contact.
 ## -see-also
 
 ## -examples
+
+## -capabilities
+contactsSystem

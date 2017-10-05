@@ -21,3 +21,6 @@ A configuration object that describes the transport settings.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

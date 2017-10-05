@@ -18,3 +18,6 @@ Contains information about the stopped [AllJoynBusObject](alljoynbusobject.md).
 ## -examples
 
 ## -see-also
+
+## -capabilities
+allJoyn

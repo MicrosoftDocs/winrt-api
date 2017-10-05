@@ -21,3 +21,6 @@ An enumeration value specifying what kind of UICC application this is.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

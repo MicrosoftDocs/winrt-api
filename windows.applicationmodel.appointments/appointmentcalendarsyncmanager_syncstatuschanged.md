@@ -17,3 +17,6 @@ Occurs when the status of an [AppointmentCalendar](appointmentcalendar.md) sync 
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

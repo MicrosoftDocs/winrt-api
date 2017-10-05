@@ -38,3 +38,5 @@ Simultaneous Bluetooth LE and BR/EDR to same device capable (host)
 ## -examples
 
 ## -see-also
+## -capabilities
+bluetooth

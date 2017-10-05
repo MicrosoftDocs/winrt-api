@@ -20,3 +20,6 @@ An [EmailMailboxSyncManagerSyncRequest](emailmailboxsyncmanagersyncrequest.md) o
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

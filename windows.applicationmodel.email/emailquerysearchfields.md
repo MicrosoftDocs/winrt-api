@@ -37,3 +37,5 @@ Search by all searchable fields.
 ## -examples
 
 ## -see-also
+## -capabilities
+email, emailSystem

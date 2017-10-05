@@ -17,3 +17,6 @@ Call this method to indicate that you have processed and accepted all changes an
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

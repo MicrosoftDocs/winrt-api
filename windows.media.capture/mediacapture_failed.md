@@ -20,4 +20,5 @@ Raised when an error occurs during media capture.
 
 
 ## -capabilities
+backgroundMediaRecording
 microphone, webcam

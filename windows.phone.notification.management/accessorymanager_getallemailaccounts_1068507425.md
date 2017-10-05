@@ -23,3 +23,6 @@ An accessory may want to allow filtering for email accounts defined on the phone
 ## -examples
 
 ## -see-also
+
+## -capabilities
+accessoryManager

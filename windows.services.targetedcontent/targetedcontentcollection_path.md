@@ -19,3 +19,6 @@ Gets the path of TargetedContentCollection object.
 
 ## -examples
 
+
+## -capabilities
+secondaryAuthenticationFactor

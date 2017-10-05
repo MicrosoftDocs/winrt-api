@@ -17,3 +17,6 @@ Occurs when the sync status with the server has changed.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

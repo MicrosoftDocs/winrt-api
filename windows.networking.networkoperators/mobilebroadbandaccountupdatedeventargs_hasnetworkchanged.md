@@ -28,3 +28,6 @@ A value that indicates if the [CurrentNetwork](mobilebroadbandaccount_currentnet
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

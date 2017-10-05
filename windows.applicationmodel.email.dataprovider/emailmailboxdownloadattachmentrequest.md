@@ -18,3 +18,6 @@ Used in your [DownloadAttachmentRequest](emaildataproviderconnection_downloadatt
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

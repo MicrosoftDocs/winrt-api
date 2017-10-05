@@ -27,3 +27,6 @@ A list of registration state changes.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

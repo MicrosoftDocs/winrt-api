@@ -20,3 +20,6 @@ True if variable photo sequence is supported; otherwise, false.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

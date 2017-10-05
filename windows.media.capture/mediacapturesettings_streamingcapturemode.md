@@ -24,4 +24,5 @@ This property indicates whether audio capture, video capture, or both are enable
 
 
 ## -capabilities
+backgroundMediaRecording
 microphone, webcam

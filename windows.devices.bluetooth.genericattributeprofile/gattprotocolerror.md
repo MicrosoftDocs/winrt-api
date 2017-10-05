@@ -18,3 +18,6 @@ This class contains byte values for GATT protocol errors.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

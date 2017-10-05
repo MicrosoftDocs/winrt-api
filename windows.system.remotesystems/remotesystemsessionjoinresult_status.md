@@ -21,3 +21,6 @@ A [RemoteSystemSessionJoinStatus](RemoteSystemSessionJoinStatus.md) value repres
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

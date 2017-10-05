@@ -34,3 +34,5 @@ An asynchronous operation that, on successful completion, returns true if the ap
 
 ## -see-also
 [GetIsAppAllowedToInstallAsync(String)](appinstallmanager_getisappallowedtoinstallasync_714292356.md)
+## -capabilities
+runFullTrust

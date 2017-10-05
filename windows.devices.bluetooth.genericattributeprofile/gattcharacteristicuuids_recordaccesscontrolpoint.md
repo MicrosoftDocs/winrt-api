@@ -21,3 +21,6 @@ The Bluetooth SIG-defined Record Access Control Point Characteristic UUID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

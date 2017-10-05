@@ -24,4 +24,4 @@ The recipient phone number of this message.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

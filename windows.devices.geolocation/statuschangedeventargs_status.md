@@ -23,4 +23,5 @@ The updated status of the [Geolocator](geolocator.md) object. The status indicat
 
 
 ## -capabilities
-location, ID_CAP_LOCATION [Windows Phone]
+location
+ID_CAP_LOCATION [Windows Phone]

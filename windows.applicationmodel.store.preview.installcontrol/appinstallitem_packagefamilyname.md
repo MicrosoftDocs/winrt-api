@@ -20,3 +20,6 @@ The package family name for the current app.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+runFullTrust

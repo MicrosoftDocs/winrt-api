@@ -27,3 +27,5 @@ The [GetDeviceService](mobilebroadbandmodem_getdeviceservice.md) method on the [
 
 ## -see-also
 [MobileBroadbandDeviceServiceCommandSession](mobilebroadbanddeviceservicecommandsession.md), [MobileBroadbandDeviceServiceDataSession](mobilebroadbanddeviceservicedatasession.md), [MobileBroadbandModem](mobilebroadbandmodem.md), [MobileBroadbandModem.GetDeviceService](mobilebroadbandmodem_getdeviceservice.md)
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

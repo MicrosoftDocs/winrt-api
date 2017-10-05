@@ -26,3 +26,6 @@ An asynchronous operation that returns a [**MobileBroadbandCellsInfo**](mobilebr
 
 ## -examples
 
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

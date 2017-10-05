@@ -25,3 +25,5 @@ The email message is formatted as plain text.
 ## -examples
 
 ## -see-also
+## -capabilities
+email, emailSystem

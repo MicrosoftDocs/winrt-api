@@ -25,3 +25,6 @@ The Bluetooth LE advertisement data payload.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

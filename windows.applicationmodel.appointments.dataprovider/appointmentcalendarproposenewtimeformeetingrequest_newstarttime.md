@@ -20,3 +20,6 @@ The proposed new start time.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

@@ -13,3 +13,5 @@ This API is implemented by an email server to provide email data to an email cli
 ## -examples
 
 ## -see-also
+## -capabilities
+email, emailSystem

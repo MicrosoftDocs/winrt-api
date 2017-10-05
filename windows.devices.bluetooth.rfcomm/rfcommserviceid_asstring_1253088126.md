@@ -21,3 +21,6 @@ Returns the string representation of the 128-bit service id.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

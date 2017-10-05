@@ -25,3 +25,6 @@ This method throws an invalid argument exception if the *contactListId* is malfo
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

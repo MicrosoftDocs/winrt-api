@@ -20,4 +20,5 @@ Supports the [AnswerRequested](voipphonecall_answerrequested.md) event of the [V
 
 
 ## -capabilities
+phoneCallHistory, phoneCallHistorySystem
 voipCall

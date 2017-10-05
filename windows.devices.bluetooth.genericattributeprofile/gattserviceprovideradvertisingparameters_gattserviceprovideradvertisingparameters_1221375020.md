@@ -20,3 +20,6 @@ Creates a new GattServiceProviderAdvertisingParameters object.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

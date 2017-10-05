@@ -27,3 +27,6 @@ An Account Experience URL represents a mobile broadband account and its related 
 
 ## -examples
 
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

@@ -18,3 +18,6 @@ Provides information about a [BluetoothLEAdvertisementPublisher](../windows.devi
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

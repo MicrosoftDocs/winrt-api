@@ -21,3 +21,6 @@ Windows calculates the [YomiDisplayName](contact_yomidisplayname.md) property by
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

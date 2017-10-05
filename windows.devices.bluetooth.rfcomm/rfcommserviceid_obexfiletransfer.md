@@ -21,3 +21,6 @@ The RfcommServiceId object that represents the service id for the Obex File Tran
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

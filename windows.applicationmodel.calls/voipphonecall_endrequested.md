@@ -21,4 +21,5 @@ After this event has been raised, the application is required to call [NotifyCal
 
 
 ## -capabilities
+phoneCallHistory, phoneCallHistorySystem
 voipCall

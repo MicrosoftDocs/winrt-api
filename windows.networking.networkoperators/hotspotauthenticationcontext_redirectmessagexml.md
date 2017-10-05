@@ -28,3 +28,6 @@ The WISPr XML blob from the hotspot redirect message.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

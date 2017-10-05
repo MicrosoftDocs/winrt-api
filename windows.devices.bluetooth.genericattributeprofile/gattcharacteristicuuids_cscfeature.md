@@ -21,3 +21,6 @@ The Bluetooth SIG-defined Csc Feature Characteristic UUID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

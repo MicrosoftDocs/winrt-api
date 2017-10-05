@@ -20,3 +20,6 @@ A Boolean value indicating whether this message is a draft.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

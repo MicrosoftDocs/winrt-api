@@ -20,3 +20,6 @@ The name of the current network that is being used by the phone line.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

@@ -21,3 +21,6 @@ The machine name of the controller device.
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

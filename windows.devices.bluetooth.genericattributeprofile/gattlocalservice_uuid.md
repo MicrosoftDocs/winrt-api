@@ -21,3 +21,6 @@ The local service UUID.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

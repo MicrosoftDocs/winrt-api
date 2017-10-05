@@ -20,3 +20,6 @@ A [AppointmentRecurrence](appointmentrecurrence.md) object that describes when a
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

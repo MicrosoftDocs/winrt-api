@@ -24,3 +24,6 @@ The list of [ContactAnnotation](contactannotation.md) objects containing the spe
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

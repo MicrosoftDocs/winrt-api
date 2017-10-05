@@ -29,3 +29,5 @@ Calling this API requires that the **ID_CAP_SMS** and **ID_CAP_SMS_COMPANION** c
 
 ## -see-also
 [MakePhoneCall(Guid, String)](accessorymanager_makephonecall_608864226.md)
+## -capabilities
+accessoryManager

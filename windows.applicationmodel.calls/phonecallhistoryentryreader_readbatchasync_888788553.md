@@ -20,3 +20,6 @@ An asynchronous operation that returns an [IVectorView](http://msdn.microsoft.co
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

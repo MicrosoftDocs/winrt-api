@@ -20,3 +20,6 @@ An [EmailMailboxUpdateMeetingResponseRequest](emailmailboxupdatemeetingresponser
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

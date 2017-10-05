@@ -18,3 +18,6 @@ Represents an appointment instance that is an exception from the master appointm
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

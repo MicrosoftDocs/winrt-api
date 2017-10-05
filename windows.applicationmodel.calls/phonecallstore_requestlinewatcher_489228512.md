@@ -20,3 +20,6 @@ An instance of the [PhoneLineWatcher](phonelinewatcher.md) class for the device.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

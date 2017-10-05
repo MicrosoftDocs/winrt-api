@@ -17,3 +17,6 @@ Initializes a new instance of the [FullContactCardOptions](fullcontactcardoption
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

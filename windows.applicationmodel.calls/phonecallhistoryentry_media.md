@@ -20,3 +20,6 @@ The media associated with a call.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

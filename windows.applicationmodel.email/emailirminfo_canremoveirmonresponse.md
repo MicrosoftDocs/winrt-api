@@ -20,3 +20,6 @@ A Boolean value that indicates if the recipient is allowed to remove IRM when re
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

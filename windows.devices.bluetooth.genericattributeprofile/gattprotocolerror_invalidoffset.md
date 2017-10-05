@@ -21,3 +21,6 @@ The byte value for an invalid offset error.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

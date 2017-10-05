@@ -24,4 +24,4 @@ The Protocol identifier for the message. (3GPP2 only.)
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

@@ -24,3 +24,6 @@ The selected body stream.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

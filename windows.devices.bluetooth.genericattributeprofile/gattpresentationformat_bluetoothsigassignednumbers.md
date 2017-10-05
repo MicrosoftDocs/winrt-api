@@ -21,3 +21,6 @@ The value of the Bluetooth SIG Assigned Numbers Namespace.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

@@ -23,4 +23,5 @@ The latitude and longitude associated with a geographic location.
 
 
 ## -capabilities
-location, ID_CAP_LOCATION [Windows Phone]
+location
+ID_CAP_LOCATION [Windows Phone]

@@ -24,4 +24,4 @@ A string representation of the phone number, formatted in the phone number forma
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

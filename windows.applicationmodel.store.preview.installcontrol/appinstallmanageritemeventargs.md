@@ -21,3 +21,6 @@ An instance of this class is passed to the event handler that you implement for 
 ## -examples
 
 ## -see-also
+
+## -capabilities
+runFullTrust

@@ -24,4 +24,4 @@ List of text message prefixes.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

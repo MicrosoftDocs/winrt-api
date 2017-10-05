@@ -21,3 +21,6 @@ The presentation formats.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

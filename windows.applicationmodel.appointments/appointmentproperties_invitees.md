@@ -20,3 +20,6 @@ The name of the [Invitees](appointment_invitees.md) property.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

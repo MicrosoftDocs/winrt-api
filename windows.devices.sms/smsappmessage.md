@@ -24,4 +24,4 @@ The interface for manipulating an SMS Application message. Application messages 
 [ISmsMessageBase](ismsmessagebase.md), [ISmsMessage](ismsmessage.md)
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

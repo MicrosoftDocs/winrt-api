@@ -27,3 +27,6 @@ True if successful, otherwise false.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

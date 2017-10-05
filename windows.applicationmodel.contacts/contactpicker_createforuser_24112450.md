@@ -24,3 +24,6 @@ Returns a [ContactPicker](contactpicker.md) for the account specified by the *us
 ## -see-also
 
 ## -examples
+
+## -capabilities
+contactsSystem

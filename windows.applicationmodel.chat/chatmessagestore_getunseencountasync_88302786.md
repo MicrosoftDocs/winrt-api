@@ -22,3 +22,5 @@ The number of unread chat messages.
 
 ## -see-also
 [GetUnseenCountAsync(IIterable(String))](chatmessagestore_getunseencountasync_201138164.md)
+## -capabilities
+chatSystem, smsSend, chat

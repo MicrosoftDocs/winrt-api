@@ -25,3 +25,6 @@ Pass the effect instance returned by [AddVideoEffectAsync](mediacapture_addvideo
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

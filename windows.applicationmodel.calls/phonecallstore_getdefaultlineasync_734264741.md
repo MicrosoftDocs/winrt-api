@@ -20,3 +20,6 @@ An asynchronous operation that returns the line ID upon successful completion.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

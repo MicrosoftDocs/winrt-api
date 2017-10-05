@@ -22,3 +22,5 @@ The Bluetooth LE scanning mode.
 
 ## -see-also
 [BluetoothLEScanningMode](bluetoothlescanningmode.md)
+## -capabilities
+bluetooth

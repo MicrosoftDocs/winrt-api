@@ -21,3 +21,6 @@ The string to search for the in [ChatMessageStore](chatmessagestore.md).
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

@@ -20,3 +20,6 @@ The comment to be added to the meeting invitation.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

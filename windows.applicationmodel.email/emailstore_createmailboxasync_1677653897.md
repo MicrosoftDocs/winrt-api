@@ -31,3 +31,5 @@ An email mailbox.
 
 ## -see-also
 [CreateMailboxAsync(String, String)](emailstore_createmailboxasync_100209417.md)
+## -capabilities
+email, emailSystem

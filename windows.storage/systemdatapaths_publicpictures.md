@@ -10,8 +10,10 @@ public string PublicPictures { get; }
 # Windows.Storage.SystemDataPaths.PublicPictures
 
 ## -description
+Gets the path to the Public Pictures folder on the machine.
 
 ## -property-value
+The full path to the Public Pictures folder.
 
 ## -remarks
 

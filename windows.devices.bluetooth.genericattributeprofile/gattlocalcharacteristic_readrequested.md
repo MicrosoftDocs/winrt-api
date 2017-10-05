@@ -18,3 +18,6 @@ An event that is triggered when a GATT client requests a read operation.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

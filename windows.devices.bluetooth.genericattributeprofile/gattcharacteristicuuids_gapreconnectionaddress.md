@@ -21,3 +21,6 @@ The Bluetooth SIG-defined GapReconnectionAddress characteristic UUID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

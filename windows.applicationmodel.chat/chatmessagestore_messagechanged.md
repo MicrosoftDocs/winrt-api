@@ -37,4 +37,5 @@ void SetStoreProperties(ChatMessageStore store)
 
 
 ## -capabilities
+chatSystem, smsSend, chat
 blockedChatMessages

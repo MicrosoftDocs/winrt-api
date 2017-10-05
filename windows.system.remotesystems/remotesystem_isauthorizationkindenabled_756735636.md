@@ -27,3 +27,6 @@ This authorization is a system-wide setting. The user can view and change it by 
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

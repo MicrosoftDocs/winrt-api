@@ -37,3 +37,6 @@ The GATT device service was successfully opened.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

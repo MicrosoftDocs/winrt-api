@@ -23,3 +23,6 @@ The **DwellTime** value is used for monitoring both the **Entered** and **Exited
 ## -examples
 
 ## -see-also
+
+## -capabilities
+location

@@ -37,3 +37,5 @@ This API is not intended to be used directly from your code.
 
 ## -see-also
 [AddPackageAsync(String, Uri)](installationmanager_addpackageasync_333957891.md)
+## -capabilities
+oemDeployment

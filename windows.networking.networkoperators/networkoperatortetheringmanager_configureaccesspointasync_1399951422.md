@@ -25,3 +25,6 @@ The asynchronous action.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

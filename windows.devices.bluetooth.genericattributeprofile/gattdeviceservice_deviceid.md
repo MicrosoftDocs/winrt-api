@@ -21,3 +21,6 @@ String that represents the GATT service instance path used to instantiate the Ga
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

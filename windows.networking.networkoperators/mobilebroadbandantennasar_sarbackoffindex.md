@@ -21,3 +21,6 @@ The index entry of SAR backoff value.
 
 ## -examples
 
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

@@ -13,3 +13,5 @@ Contains the [AppointmentDataProviderConnection](appointmentdataproviderconnecti
 ## -examples
 
 ## -see-also
+## -capabilities
+appointmentsSystem

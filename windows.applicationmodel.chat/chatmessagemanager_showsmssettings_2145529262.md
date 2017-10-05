@@ -19,3 +19,6 @@ The [ShowSmsSettings](chatmessagemanager_showsmssettings.md) method allows a cha
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

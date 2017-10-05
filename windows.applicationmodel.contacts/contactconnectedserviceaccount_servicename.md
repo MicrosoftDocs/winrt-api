@@ -20,3 +20,6 @@ The service name of a connected service account for a contact.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

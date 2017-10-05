@@ -19,3 +19,5 @@ Closes the command session on a mobile broadband device service.
 
 ## -see-also
 [MobileBroadbandDeviceService](mobilebroadbanddeviceservice.md)
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

@@ -28,3 +28,5 @@ An [AddContactResult](addcontactresult.md)-typed value that indicates whether th
 
 ## -see-also
 [AddContact(String, Contact)](contactpickerui_addcontact_1063676932.md)
+## -capabilities
+contactsSystem

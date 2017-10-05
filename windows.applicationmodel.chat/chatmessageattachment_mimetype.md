@@ -22,3 +22,6 @@ A chat application handles an attachment based on the MIME type set in this prop
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

@@ -19,3 +19,6 @@ Gets a string in a TargetedContentValue object.
 
 ## -examples
 
+
+## -capabilities
+secondaryAuthenticationFactor

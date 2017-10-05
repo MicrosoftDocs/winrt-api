@@ -18,3 +18,6 @@ Closes the Bluetooth device.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

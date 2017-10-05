@@ -20,3 +20,6 @@ The identifier for the email message to which this message is a response.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

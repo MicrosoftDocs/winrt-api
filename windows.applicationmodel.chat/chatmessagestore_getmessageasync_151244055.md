@@ -29,4 +29,5 @@ The message corresponding to the specified identifier is returned. An applicatio
 
 
 ## -capabilities
+chatSystem, smsSend, chat
 blockedChatMessages

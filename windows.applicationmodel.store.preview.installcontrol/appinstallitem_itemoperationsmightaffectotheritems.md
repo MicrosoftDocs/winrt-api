@@ -20,3 +20,6 @@ True if the current app install is part of an app bundle, and therefore pausing 
 ## -see-also
 
 ## -examples
+
+## -capabilities
+runFullTrust

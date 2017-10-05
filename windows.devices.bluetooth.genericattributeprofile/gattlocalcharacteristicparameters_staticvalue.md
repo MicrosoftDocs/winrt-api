@@ -21,3 +21,6 @@ The static value.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

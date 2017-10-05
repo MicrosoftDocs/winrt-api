@@ -20,3 +20,6 @@ The identifier of the network associated with this email mailbox.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

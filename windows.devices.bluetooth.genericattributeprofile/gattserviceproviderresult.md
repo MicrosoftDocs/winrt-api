@@ -17,3 +17,6 @@ This class is the result of the [CreateAsync](gattserviceprovider_createasync_19
 
 ## -examples
 
+
+## -capabilities
+bluetooth

@@ -20,3 +20,6 @@ A Boolean value indicating if invitees should be notified.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

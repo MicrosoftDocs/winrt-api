@@ -18,3 +18,6 @@ Stops monitoring the transition state change on the device.
 
 ## -examples
 
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

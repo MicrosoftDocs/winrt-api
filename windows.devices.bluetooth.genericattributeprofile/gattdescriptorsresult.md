@@ -17,3 +17,6 @@ The result of descriptor operations like [GattCharacteristic.GetDescriptorsAsync
 
 ## -examples
 
+
+## -capabilities
+bluetooth

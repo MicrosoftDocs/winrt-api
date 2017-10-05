@@ -23,3 +23,5 @@ The desired bus object.
 
 ## -see-also
 [AllJoynBusObject.AddProducer](alljoynbusobject_addproducer.md)
+## -capabilities
+allJoyn

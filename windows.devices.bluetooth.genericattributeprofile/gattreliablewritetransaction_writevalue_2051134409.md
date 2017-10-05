@@ -25,3 +25,6 @@ The Characteristic Value to be written to characteristic.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

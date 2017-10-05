@@ -20,3 +20,6 @@ The current change number .
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

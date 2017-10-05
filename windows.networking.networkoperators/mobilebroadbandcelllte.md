@@ -24,3 +24,6 @@ Represents LTE network provider/cell information including identifications as we
 
 ## -examples
 
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

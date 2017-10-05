@@ -27,3 +27,6 @@ The handler retrieving this token must call [TryGetAuthenticationContext](hotspo
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

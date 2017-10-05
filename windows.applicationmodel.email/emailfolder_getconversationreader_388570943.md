@@ -21,3 +21,5 @@ The conversation reader.
 
 ## -see-also
 [GetConversationReader(EmailQueryOptions)](emailfolder_getconversationreader_964157301.md)
+## -capabilities
+email, emailSystem

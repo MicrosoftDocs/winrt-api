@@ -22,3 +22,6 @@ The interface to be produced.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+allJoyn

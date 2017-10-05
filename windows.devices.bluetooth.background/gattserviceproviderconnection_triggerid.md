@@ -21,3 +21,6 @@ Gets GATT service connection trigger ID.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

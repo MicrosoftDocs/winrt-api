@@ -21,3 +21,6 @@ The data. Format is defined by the UICC application.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

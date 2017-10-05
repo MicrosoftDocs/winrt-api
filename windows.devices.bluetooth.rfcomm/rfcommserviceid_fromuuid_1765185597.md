@@ -25,3 +25,6 @@ The RfcommServiceId object.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

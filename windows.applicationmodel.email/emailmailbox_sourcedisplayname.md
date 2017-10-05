@@ -20,3 +20,6 @@ The display name of the source mailbox.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

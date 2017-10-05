@@ -20,3 +20,6 @@ Each [PhoneLine](phoneline.md) instance has properties specific to that line.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

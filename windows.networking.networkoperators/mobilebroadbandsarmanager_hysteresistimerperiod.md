@@ -22,3 +22,6 @@ This value is in the range 1 ~ 5, in seconds.
 
 ## -examples
 
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

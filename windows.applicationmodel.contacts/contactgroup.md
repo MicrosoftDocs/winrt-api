@@ -18,3 +18,6 @@ Microsoft Internal Use Only.
 ## -see-also
 
 ## -examples
+
+## -capabilities
+contactsSystem

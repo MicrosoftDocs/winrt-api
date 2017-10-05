@@ -30,3 +30,5 @@ The PIN is alphanumeric.
 
 ## -see-also
 [MobileBroadbandPin](mobilebroadbandpin.md)
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

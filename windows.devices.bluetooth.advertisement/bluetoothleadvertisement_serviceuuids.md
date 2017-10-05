@@ -21,3 +21,6 @@ The list of service UUIDs in 128-bit GUID format. This property aggregates all t
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

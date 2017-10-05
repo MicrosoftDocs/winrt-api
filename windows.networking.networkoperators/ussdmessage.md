@@ -25,3 +25,5 @@ Represents a USSD message that is used for sending messages to and receiving mes
 ## -examples
 
 ## -see-also
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

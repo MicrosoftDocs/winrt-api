@@ -20,3 +20,6 @@ A [AppointmentSensitivity](appointmentsensitivity.md)-typed value that indicates
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

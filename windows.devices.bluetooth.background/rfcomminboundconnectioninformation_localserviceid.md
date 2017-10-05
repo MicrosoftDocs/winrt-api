@@ -21,3 +21,6 @@ The service UUID that will be advertised in the SDP record.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

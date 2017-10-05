@@ -20,3 +20,6 @@ The name of the [OnlineMeetingLink](appointment_onlinemeetinglink.md) property.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

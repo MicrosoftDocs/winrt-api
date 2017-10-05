@@ -21,4 +21,5 @@ Provides methods for reading messages from the message store.
 
 
 ## -capabilities
+chatSystem, smsSend, chat
 blockedChatMessages

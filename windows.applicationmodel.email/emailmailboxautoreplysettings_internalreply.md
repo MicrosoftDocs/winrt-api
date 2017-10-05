@@ -20,3 +20,6 @@ The automatic reply message intended for an email message from an internal sende
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

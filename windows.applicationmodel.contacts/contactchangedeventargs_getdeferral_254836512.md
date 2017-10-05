@@ -20,3 +20,6 @@ The deferral object to use for asynchronous operations.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

@@ -27,4 +27,4 @@ Your filtering code is required to acknowledge each filtered message by calling 
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

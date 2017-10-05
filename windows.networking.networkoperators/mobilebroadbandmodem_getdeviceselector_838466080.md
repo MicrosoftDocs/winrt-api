@@ -21,3 +21,6 @@ A device selector for the mobile broadband modem.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

@@ -24,4 +24,4 @@ The number of retry attempts to be attempted for a sent message, or that were re
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

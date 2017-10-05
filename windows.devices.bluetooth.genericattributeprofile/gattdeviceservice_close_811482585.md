@@ -18,3 +18,6 @@ Releases the resources associated with the GattDeviceService class. This allows 
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

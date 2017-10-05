@@ -26,3 +26,5 @@ An async action indicating that the operation has finished.
 
 ## -see-also
 [MarkAsSeenAsync](chatmessagestore_markasseenasync_1210042387.md)
+## -capabilities
+chatSystem, smsSend, chat

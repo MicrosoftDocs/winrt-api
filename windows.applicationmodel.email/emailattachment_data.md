@@ -20,3 +20,6 @@ The email attachment data.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

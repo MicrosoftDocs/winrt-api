@@ -20,3 +20,6 @@ The matching text result from a contact search.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

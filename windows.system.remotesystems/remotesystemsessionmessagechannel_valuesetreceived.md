@@ -18,3 +18,6 @@ Raised when a message (in the form of a key-value pair) is received by the chann
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

@@ -21,3 +21,6 @@ The maximum number of client connections
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

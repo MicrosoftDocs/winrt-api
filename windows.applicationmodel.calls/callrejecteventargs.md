@@ -20,4 +20,5 @@ Supports the [RejectRequested](voipphonecall_rejectrequested.md) event of the [V
 
 
 ## -capabilities
+phoneCallHistory, phoneCallHistorySystem
 voipCall

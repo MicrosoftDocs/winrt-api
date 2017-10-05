@@ -18,3 +18,6 @@ Handle the [MediaCapture.FocusChanged](mediacapture_focuschanged.md) event to ob
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

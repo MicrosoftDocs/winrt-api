@@ -18,3 +18,6 @@ Initializes a new instance of the [ChatConversationThreadingInfo](chatconversati
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

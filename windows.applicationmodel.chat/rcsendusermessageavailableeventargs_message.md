@@ -22,3 +22,6 @@ If[IsMessageAvailable](rcsendusermessageavailableeventargs_ismessageavailable.md
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

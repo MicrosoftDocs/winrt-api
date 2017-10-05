@@ -24,4 +24,4 @@ Message details for the received message, when it is a WAP message.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

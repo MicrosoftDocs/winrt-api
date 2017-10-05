@@ -28,3 +28,5 @@ The [IAsyncAction](../windows.foundation/iasyncaction.md) to await.
 
 ## -see-also
 [LaunchFullTrustProcessForAppAsync(String)](fulltrustprocesslauncher_launchfulltrustprocessforappasync_1528646566.md)
+## -capabilities
+previewHfx

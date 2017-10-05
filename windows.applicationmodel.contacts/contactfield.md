@@ -25,3 +25,6 @@ This example demonstrates how to create a **ContactField** object and add it to 
 [!code-js[ContactFieldTest](../windows.applicationmodel.contacts.provider/code/ContactsMain/javascript/js/contacts.js#SnippetContactFieldTest)]
 
 ## -see-also
+
+## -capabilities
+contactsSystem

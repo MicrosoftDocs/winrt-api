@@ -21,3 +21,6 @@ The appearance for the Bluetooth LE device.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

@@ -27,3 +27,6 @@ The range of this value is -110~49; returns null if unknown.
 
 ## -examples
 
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

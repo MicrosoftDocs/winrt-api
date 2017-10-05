@@ -21,3 +21,6 @@ The Bluetooth SIG-defined AlertCategoryId characteristic UUID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

@@ -17,3 +17,6 @@ Event invoked when TargetedContentSubscription Availability has changed.
 
 ## -examples
 
+
+## -capabilities
+secondaryAuthenticationFactor

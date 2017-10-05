@@ -20,3 +20,6 @@ A boolean value indicating whether other apps on the device have read access to 
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

@@ -25,3 +25,5 @@ A [ContactReader](contactreader.md) object associated with this [ContactList](co
 
 ## -see-also
 [GetContactReader](contactlist_getcontactreader_1793921473.md)
+## -capabilities
+contactsSystem

@@ -20,3 +20,6 @@ The last date and time that a sync with the [AppointmentCalendar](appointmentcal
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

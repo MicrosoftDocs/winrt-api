@@ -21,3 +21,6 @@ The maximum size of a file that can be sent using the transport.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

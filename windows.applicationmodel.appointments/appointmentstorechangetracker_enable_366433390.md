@@ -17,3 +17,6 @@ Enables change tracking for the appointment store.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

@@ -20,3 +20,6 @@ The altitude of the lowest corner of the [GeoboundingBox](geoboundingbox.md).
 ## -examples
 
 ## -see-also
+
+## -capabilities
+location

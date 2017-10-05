@@ -25,4 +25,4 @@ An enumeration value that specifies which action type is to be associated with t
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

@@ -22,3 +22,5 @@ This method requests [AllContactsReadOnly](contactstoreaccesstype.md) access to 
 
 ## -see-also
 [RequestStoreAsync(ContactStoreAccessType)](contactmanager_requeststoreasync_112705385.md)
+## -capabilities
+contactsSystem

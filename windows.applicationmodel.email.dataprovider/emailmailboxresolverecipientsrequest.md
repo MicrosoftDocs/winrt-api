@@ -18,3 +18,6 @@ Used in your [ResolveRecipientsRequested](emaildataproviderconnection_resolverec
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

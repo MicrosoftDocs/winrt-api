@@ -21,3 +21,6 @@ The Bluetooth SIG-defined NextDstChange service UUID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

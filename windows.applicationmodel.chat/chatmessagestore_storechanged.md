@@ -21,4 +21,5 @@ Occurs when something in the [ChatMessageStore](chatmessagestore.md) has changed
 
 
 ## -capabilities
+chatSystem, smsSend, chat
 blockedChatMessages

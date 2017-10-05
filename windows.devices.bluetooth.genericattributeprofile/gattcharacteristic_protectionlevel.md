@@ -23,3 +23,6 @@ The desired GATT security options for over the air communication with the device
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

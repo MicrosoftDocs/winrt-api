@@ -17,3 +17,6 @@ A result of [CreateCharacteristicAsync](gattlocalservice_createcharacteristicasy
 
 ## -examples
 
+
+## -capabilities
+bluetooth

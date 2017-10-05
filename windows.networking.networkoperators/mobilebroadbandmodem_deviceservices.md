@@ -22,3 +22,5 @@ A list of the device services available for the mobile broadband modem.
 
 ## -see-also
 [MobileBroadbandDeviceServiceInformation](mobilebroadbanddeviceserviceinformation.md)
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

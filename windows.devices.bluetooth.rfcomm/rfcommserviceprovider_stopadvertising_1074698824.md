@@ -18,3 +18,6 @@ Stops advertising the SDP attributes.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

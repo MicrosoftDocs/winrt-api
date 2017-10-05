@@ -18,3 +18,5 @@ Represents the info about a Web site for a contact.
 
 ## -see-also
 [Websites](contact_websites.md)
+## -capabilities
+contactsSystem

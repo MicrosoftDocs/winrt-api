@@ -20,3 +20,6 @@ A string that represents the ID of the user data account for this [ContactList](
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

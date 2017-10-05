@@ -17,3 +17,6 @@ A collection of properties providing information about a phone line.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

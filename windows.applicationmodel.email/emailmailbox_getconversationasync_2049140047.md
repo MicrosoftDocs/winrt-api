@@ -24,3 +24,6 @@ Returns the email conversation specified by the *id* parameter.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

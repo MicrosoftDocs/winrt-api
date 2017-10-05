@@ -20,3 +20,6 @@ Boolean value indicating if this [Contact](contact.md) represents the user logge
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

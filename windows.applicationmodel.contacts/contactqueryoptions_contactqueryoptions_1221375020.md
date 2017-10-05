@@ -18,3 +18,5 @@ Initializes a new instance of the [ContactQueryOptions](contactqueryoptions.md) 
 
 ## -see-also
 [ContactQueryOptions(String)](contactqueryoptions_contactqueryoptions_290278668.md), [ContactQueryOptions(String, ContactQuerySearchFields)](contactqueryoptions_contactqueryoptions_130232662.md)
+## -capabilities
+contactsSystem

@@ -21,3 +21,6 @@ The Bluetooth SIG-defined AlertLevel characteristic UUID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

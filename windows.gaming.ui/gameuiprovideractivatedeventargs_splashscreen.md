@@ -11,7 +11,11 @@ public SplashScreen SplashScreen { get; }
 
 ## -description
 
+The app's splash screen. This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, your app cannot use this API.
+
 ## -property-value
+
+The app's splash screen.
 
 ## -remarks
 

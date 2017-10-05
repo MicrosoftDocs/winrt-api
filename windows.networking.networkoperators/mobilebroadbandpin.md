@@ -29,3 +29,5 @@ A [MobileBroadbandPin](mobilebroadbandpin.md) object is returned by the [GetPin]
 
 ## -see-also
 [MobileBroadbandPinManager](mobilebroadbandpinmanager.md), [MobileBroadbandPinManager.GetPin](mobilebroadbandpinmanager_getpin.md)
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

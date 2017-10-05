@@ -21,3 +21,6 @@ This method should be called only if the app has successfully pushed a meeting r
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

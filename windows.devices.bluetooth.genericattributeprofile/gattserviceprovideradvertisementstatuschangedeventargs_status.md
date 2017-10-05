@@ -21,3 +21,6 @@ The status of the GATT service.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

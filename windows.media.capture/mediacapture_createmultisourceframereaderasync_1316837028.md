@@ -26,3 +26,6 @@ An asynchronous operation that returns a [MultiSourceMediaFrameReader](../window
 
 ## -examples
 
+
+## -capabilities
+backgroundMediaRecording

@@ -30,3 +30,6 @@ The following example shows how to enumerate through all the current phone lines
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

@@ -21,3 +21,6 @@ A list of [RcsTransport](rcstransport.md) instances.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

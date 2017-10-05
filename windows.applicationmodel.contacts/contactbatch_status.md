@@ -20,3 +20,6 @@ A [ContactBatchStatus](contactbatchstatus.md) value that indicates if a search w
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

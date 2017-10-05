@@ -21,3 +21,6 @@ The Exponent of the GattPresentationFormat object.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

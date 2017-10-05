@@ -31,3 +31,5 @@ The geographic region is a rectangular region.
 ## -examples
 
 ## -see-also
+## -capabilities
+location

@@ -21,3 +21,6 @@ The services.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

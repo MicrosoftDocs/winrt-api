@@ -25,3 +25,6 @@ The Rich Communication Services (RCS) chat capabilities from the service provide
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

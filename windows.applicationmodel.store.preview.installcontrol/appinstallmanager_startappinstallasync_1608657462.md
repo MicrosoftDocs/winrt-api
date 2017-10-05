@@ -44,3 +44,5 @@ The remarks for [StartAppInstallAsync(String, String, Boolean, Boolean)](appinst
 
 ## -see-also
 [StartAppInstallAsync(String, String, Boolean, Boolean)](appinstallmanager_startappinstallasync_1749232586.md)
+## -capabilities
+runFullTrust

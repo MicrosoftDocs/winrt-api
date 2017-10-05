@@ -22,3 +22,5 @@ The device information for the mobile broadband modem.
 
 ## -see-also
 [MobileBroadbandDeviceInformation](mobilebroadbanddeviceinformation.md)
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

@@ -20,3 +20,6 @@ A [PhoneLineChangeKind](phonelinechangekind.md) value that indicates if the phon
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

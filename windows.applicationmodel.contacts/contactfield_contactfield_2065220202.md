@@ -28,3 +28,5 @@ The type of contact data.
 
 ## -see-also
 [ContactField(String, ContactFieldType, ContactFieldCategory)](contactfield_contactfield_187090822.md), [ContactField(String, String, ContactFieldType, ContactFieldCategory)](contactfield_contactfield_1768314280.md)
+## -capabilities
+contactsSystem

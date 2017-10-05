@@ -20,3 +20,6 @@ The subject of the response.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

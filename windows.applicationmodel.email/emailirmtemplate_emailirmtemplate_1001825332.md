@@ -27,3 +27,6 @@ The description of the new template.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

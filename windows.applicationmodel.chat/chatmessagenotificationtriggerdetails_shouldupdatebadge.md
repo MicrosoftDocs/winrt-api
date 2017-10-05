@@ -21,3 +21,6 @@ A Boolean value indicating if the background task should update the app’s lock
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

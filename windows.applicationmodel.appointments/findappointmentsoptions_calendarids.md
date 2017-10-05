@@ -20,3 +20,6 @@ A list of calendar IDs.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

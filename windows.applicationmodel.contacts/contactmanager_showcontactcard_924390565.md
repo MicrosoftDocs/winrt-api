@@ -34,3 +34,5 @@ See the remarks section of this overload: [ShowContactCard](contactmanager_showc
 
 ## -see-also
 [ShowContactCard(Contact, Rect)](contactmanager_showcontactcard_1968125937.md), [ShowContactCard(Contact, Rect, Placement)](contactmanager_showcontactcard_2144545901.md)
+## -capabilities
+contactsSystem

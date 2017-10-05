@@ -25,3 +25,5 @@ The batch of messages.
 
 ## -see-also
 [FindMessagesAsync](emailconversation_findmessagesasync_837137892.md)
+## -capabilities
+email, emailSystem

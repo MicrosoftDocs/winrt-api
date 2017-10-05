@@ -20,3 +20,6 @@ The direction of the sort for the query results.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

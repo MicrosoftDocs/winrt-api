@@ -21,3 +21,6 @@ The current **DeviceAccessInformation** object for the device.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

@@ -20,3 +20,5 @@ Creates fields with information about a contact's instant messaging accounts.
 ## -examples
 
 ## -see-also
+## -capabilities
+contactsSystem

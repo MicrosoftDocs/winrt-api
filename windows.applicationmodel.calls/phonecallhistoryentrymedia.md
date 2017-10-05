@@ -25,3 +25,5 @@ The call contains video media.
 ## -examples
 
 ## -see-also
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

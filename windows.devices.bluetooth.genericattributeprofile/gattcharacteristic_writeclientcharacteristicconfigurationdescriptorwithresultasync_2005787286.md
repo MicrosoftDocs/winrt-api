@@ -26,3 +26,6 @@ Returns an asynchronous operation that completes with a GattWriteResult object.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

@@ -18,3 +18,5 @@ Cancels the installation of the current app.
 
 ## -see-also
 [Cancel(String)](appinstallitem_cancel_802731180.md)
+## -capabilities
+runFullTrust

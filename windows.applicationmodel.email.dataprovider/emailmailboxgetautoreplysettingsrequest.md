@@ -18,3 +18,6 @@ Used in your [GetAutoReplySettingsRequested](emaildataproviderconnection_getauto
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

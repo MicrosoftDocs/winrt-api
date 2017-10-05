@@ -34,3 +34,5 @@ The last operation was aborted.
 ## -examples
 
 ## -see-also
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

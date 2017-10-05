@@ -20,3 +20,6 @@ The [Appointment](appointment.md) associated with the change.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

@@ -21,3 +21,6 @@ The state of the read request.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

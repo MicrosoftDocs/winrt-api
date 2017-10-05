@@ -21,3 +21,6 @@ A Boolean value indicating if the contact picker is supported on the current pla
 
 
 ## -examples
+
+## -capabilities
+contactsSystem

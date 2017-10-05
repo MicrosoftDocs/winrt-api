@@ -20,3 +20,6 @@ A string that uniquely identifies the appointment calendar on the local device.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

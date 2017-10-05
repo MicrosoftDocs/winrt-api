@@ -32,3 +32,6 @@ The USSD session for the mobile device associated with the supplied network acco
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

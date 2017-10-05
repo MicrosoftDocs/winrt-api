@@ -20,3 +20,6 @@ An [EmailMailboxValidateCertificatesRequest](emailmailboxvalidatecertificatesreq
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

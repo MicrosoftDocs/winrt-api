@@ -43,3 +43,6 @@ Results of the Hotspot authentication request.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

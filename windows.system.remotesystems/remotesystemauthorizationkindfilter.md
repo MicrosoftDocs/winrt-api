@@ -20,3 +20,6 @@ In order to discover cross-user devices, the client device must both use the app
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

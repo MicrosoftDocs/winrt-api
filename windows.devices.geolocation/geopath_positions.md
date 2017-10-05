@@ -20,3 +20,6 @@ The collection of geographic points that define the [Geopath](geopath.md).
 ## -examples
 
 ## -see-also
+
+## -capabilities
+location

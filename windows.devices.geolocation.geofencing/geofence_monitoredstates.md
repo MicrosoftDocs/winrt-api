@@ -21,3 +21,6 @@ You must specify the **Entered** or **Exited** states, or both, for a geofence t
 ## -examples
 
 ## -see-also
+
+## -capabilities
+location

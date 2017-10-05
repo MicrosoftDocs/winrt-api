@@ -24,4 +24,4 @@ The retry attempt count for the message. Set the maximum number of retries for o
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

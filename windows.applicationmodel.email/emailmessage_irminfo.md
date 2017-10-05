@@ -20,3 +20,6 @@ The Information Rights Management (IRM) information for this email message.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

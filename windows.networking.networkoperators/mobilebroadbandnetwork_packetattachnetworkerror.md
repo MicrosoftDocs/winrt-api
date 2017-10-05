@@ -28,3 +28,6 @@ The latest packet attach network error.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

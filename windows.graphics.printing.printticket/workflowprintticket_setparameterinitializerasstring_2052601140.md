@@ -10,7 +10,7 @@ public PrintTicketParameterInitializer WorkflowPrintTicket.SetParameterInitializ
 # Windows.Graphics.Printing.PrintTicket.WorkflowPrintTicket.SetParameterInitializerAsString
 
 ## -description
-Sets the given print parameter to the given string value.
+Sets the given print parameter to the given string value. This can only be done if an initializer for the specified parameter doesn't yet exist.
 
 ## -parameters
 ### -param name

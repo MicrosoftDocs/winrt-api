@@ -18,3 +18,5 @@ Represents a rectangle that defines a geographic area.
 
 ## -see-also
 [IGeoshape](igeoshape.md)
+## -capabilities
+location

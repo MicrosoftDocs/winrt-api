@@ -29,3 +29,5 @@ True if the contact has already been selected; otherwise, false.
 
 ## -see-also
 [Contact Picker app sample](http://go.microsoft.com/fwlink/p/?linkid=231575)
+## -capabilities
+contactsSystem

@@ -23,3 +23,6 @@ Returns a TargetedContainerContainer object for specified ContentId.
 
 ## -examples
 
+
+## -capabilities
+secondaryAuthenticationFactor

@@ -20,3 +20,6 @@ Gets or sets whether a call is an incoming call.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

@@ -28,3 +28,6 @@ An object that uniquely identifies the network.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

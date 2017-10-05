@@ -20,3 +20,6 @@ The [User](../windows.system/user.md) represented by this email manager.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

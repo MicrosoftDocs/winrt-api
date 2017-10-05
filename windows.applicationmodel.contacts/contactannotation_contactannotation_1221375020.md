@@ -17,3 +17,6 @@ Initializes a new instance of the [ContactAnnotation](contactannotation.md) clas
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

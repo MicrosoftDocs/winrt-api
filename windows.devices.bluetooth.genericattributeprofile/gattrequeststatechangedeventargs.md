@@ -18,3 +18,6 @@ This class defines arguments of [StateChanged](gattreadrequest_statechanged.md).
 
 ## -examples
 
+
+## -capabilities
+bluetooth

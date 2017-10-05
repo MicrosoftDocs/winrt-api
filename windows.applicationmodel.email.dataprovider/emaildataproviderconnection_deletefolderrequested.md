@@ -17,3 +17,6 @@ Occurs when the email client has requested that a folder be deleted on the serve
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

@@ -25,3 +25,6 @@ This method must be called from the main UI thread.
 ## -see-also
 [ContactManager](contactmanager.md), [Contact cards sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=624040)
 ## -examples
+
+## -capabilities
+contactsSystem

@@ -17,3 +17,6 @@ Occurs when a [Contact](contact.md) in this [ContactList](contactlist.md) has be
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

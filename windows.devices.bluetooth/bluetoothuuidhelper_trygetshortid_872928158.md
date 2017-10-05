@@ -26,3 +26,6 @@ Returns the short ID.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

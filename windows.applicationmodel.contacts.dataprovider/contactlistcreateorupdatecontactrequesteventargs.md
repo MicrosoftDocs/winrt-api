@@ -17,3 +17,6 @@ Encapsulates information about a request to create or update.
 ## -see-also
 
 ## -examples
+
+## -capabilities
+contactsSystem

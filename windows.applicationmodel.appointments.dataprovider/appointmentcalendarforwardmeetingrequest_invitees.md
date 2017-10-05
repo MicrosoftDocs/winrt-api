@@ -20,3 +20,6 @@ A list of new invitees.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

@@ -19,3 +19,5 @@ Creates a new [BluetoothLEAdvertisementDataSection](bluetoothleadvertisementdata
 
 ## -see-also
 [BluetoothLEAdvertisementDataSection(Byte, IBuffer)](bluetoothleadvertisementdatasection_bluetoothleadvertisementdatasection_452095857.md)
+## -capabilities
+bluetooth

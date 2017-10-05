@@ -26,3 +26,5 @@ A conversation
 ## -examples
 
 ## -see-also
+## -capabilities
+chatSystem, smsSend, chat

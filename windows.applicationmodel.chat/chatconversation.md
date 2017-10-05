@@ -19,3 +19,6 @@ Call the [ChatMessageStore.GetConversationAsync](chatmessagestore_getconversatio
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

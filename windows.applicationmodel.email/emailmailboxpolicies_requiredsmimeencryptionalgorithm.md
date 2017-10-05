@@ -20,3 +20,6 @@ The required SMIME encryption algorithm.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

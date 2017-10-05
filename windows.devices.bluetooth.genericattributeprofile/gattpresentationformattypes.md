@@ -18,3 +18,6 @@ Represents the different well-known values that the GattPresentationFormat.Forma
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

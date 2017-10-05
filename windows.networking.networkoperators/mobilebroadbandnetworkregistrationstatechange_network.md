@@ -27,3 +27,6 @@ Details about the network associated with a network registration state change no
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

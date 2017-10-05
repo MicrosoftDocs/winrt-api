@@ -10,8 +10,12 @@ public class WebUICommandLineActivatedEventArgs : IActivatedEventArgs, IActivate
 # Windows.UI.WebUI.WebUICommandLineActivatedEventArgs
 
 ## -description
+Provides information, such as the command-line arguments, when an app is activated from the command line.
 
 ## -remarks
+A UWP app may be activated from **Start|Run** in Windows, from the command line in PowerShell, the DOS command prompt, or from another Win32 process that calls [CreateProcess](https://msdn.microsoft.com/library/windows/desktop/ms682425.aspx).
+
+To be activated from the command line, your app must register for the "AppExecutionAlias" extension category in its manifest.
 
 ## -see-also
 

@@ -22,3 +22,6 @@ Attachment groups contain one or more attachments. All attachments belonging to 
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

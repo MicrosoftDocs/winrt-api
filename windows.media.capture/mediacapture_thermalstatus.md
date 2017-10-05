@@ -21,3 +21,6 @@ Media capture scenarios that are extremely processor-intensive, such as high-res
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

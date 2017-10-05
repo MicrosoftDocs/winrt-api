@@ -21,3 +21,6 @@ Value representing the status of the session.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+allJoyn

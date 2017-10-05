@@ -22,3 +22,6 @@ A value indicating if the app is set as a notification provider.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

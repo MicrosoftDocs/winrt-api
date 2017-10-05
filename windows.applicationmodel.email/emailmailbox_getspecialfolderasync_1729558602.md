@@ -24,3 +24,6 @@ The matching special email folder in this mailbox.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

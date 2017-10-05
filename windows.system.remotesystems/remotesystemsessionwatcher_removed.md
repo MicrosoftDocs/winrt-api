@@ -18,3 +18,6 @@ Raised when a previously discovered remote session has disappeared.
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

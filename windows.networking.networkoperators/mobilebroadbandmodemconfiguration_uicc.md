@@ -21,3 +21,6 @@ Represents the UICC.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

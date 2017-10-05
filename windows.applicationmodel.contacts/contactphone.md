@@ -19,3 +19,6 @@ For information about how to manage contacts, see [Managing contact cards ](http
 
 ## -see-also
 [Contact manager API sample](http://go.microsoft.com/fwlink/p/?LinkID=310079), [Object](https://msdn.microsoft.com/library/system.object.aspx), [Phones](contact_phones.md)
+
+## -capabilities
+contactsSystem

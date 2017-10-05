@@ -25,3 +25,5 @@ The name of the recipient.
 
 ## -see-also
 [EmailRecipient(String)](emailrecipient_emailrecipient_290278668.md)
+## -capabilities
+email, emailSystem

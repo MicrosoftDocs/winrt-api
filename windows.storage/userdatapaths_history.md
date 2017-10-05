@@ -10,8 +10,10 @@ public string History { get; }
 # Windows.Storage.UserDataPaths.History
 
 ## -description
+Gets the path to a user's History folder.
 
 ## -property-value
+The full path to the user's History folder.
 
 ## -remarks
 

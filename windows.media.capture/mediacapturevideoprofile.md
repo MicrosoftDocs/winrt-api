@@ -27,3 +27,5 @@ For how-to guidance for working with video profiles, see [Discover and select ca
 
 ## -see-also
 [FindKnownVideoProfiles](mediacapture_findknownvideoprofiles.md), [FindAllVideoProfiles](mediacapture_findallvideoprofiles.md), [FindConcurrentProfiles](mediacapture_findconcurrentprofiles.md), [MediaCaptureVideoProfileMediaDescription](mediacapturevideoprofilemediadescription.md), [Discover and select camera capabilities with camera profiles](https://msdn.microsoft.com/en-us/windows/uwp/audio-video-camera/camera-profiles)
+## -capabilities
+backgroundMediaRecording

@@ -20,3 +20,6 @@ A Boolean value that indicates if the user is allowed to change any of the email
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

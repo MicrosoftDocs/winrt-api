@@ -20,3 +20,6 @@ An object that identifies the name and address of the person sending the message
 ## -see-also
 
 ## -examples
+
+## -capabilities
+email, emailSystem

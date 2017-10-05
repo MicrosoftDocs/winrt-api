@@ -26,3 +26,6 @@ Use the [ContactSelectionMode](contactselectionmode.md) enumeration to set the v
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

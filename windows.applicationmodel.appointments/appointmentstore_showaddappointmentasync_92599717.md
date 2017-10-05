@@ -28,3 +28,6 @@ When this method completes, it returns a **String** object that represents the [
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

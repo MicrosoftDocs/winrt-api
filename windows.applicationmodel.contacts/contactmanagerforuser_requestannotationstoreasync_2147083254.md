@@ -24,3 +24,6 @@ Returns the [ContactAnnotationStore](contactannotationstore.md).
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

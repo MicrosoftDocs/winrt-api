@@ -20,3 +20,6 @@ The Boolean value indicating whether or not to send the response to the meeting 
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

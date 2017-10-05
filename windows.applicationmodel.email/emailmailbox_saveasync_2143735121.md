@@ -20,3 +20,6 @@ An async action indicating that the operation has completed.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

@@ -21,3 +21,6 @@ The appearance category code for a weight scale Bluetooth LE device.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

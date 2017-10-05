@@ -31,3 +31,6 @@ An asynchronous operation that, on successful completion, returns a [GetEntitlem
 ## -see-also
 
 ## -examples
+
+## -capabilities
+runFullTrust

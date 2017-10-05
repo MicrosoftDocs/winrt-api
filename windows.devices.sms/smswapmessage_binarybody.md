@@ -24,4 +24,4 @@ The binary body of the blob in the message.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

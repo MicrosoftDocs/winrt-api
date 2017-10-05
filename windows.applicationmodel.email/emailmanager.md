@@ -18,3 +18,6 @@ Allows an application to launch the email application with a new message display
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

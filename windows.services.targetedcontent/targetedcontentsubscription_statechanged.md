@@ -17,3 +17,6 @@ Event invoked when TargetedContentSubscription State has changed.
 
 ## -examples
 
+
+## -capabilities
+secondaryAuthenticationFactor

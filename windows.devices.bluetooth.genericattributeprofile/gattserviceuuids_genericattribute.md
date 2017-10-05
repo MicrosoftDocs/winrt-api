@@ -21,3 +21,6 @@ The Bluetooth SIG-defined UUID for the Generic Attribute Service.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

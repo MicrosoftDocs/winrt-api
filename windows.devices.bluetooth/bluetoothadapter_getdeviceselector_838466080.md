@@ -23,3 +23,6 @@ Returns an AQS string.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

@@ -27,4 +27,5 @@ The total number of unseen entries matching all of the identifiers provided by *
 
 
 ## -capabilities
+phoneCallHistory, phoneCallHistorySystem
 phoneCallHistoryPublic

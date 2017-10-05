@@ -19,3 +19,6 @@ Call [ChatCapabilitiesManager.GetCachedCapabilitiesAsync](chatcapabilitiesmanage
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

@@ -26,3 +26,6 @@ An asynchronous operation containing a boolean value: **true** if the removal op
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

@@ -17,3 +17,6 @@ Event invoked when TargetedContentSubscription Content has changed.
 
 ## -examples
 
+
+## -capabilities
+secondaryAuthenticationFactor

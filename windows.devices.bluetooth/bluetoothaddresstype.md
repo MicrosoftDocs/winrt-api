@@ -29,3 +29,6 @@ Random address.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

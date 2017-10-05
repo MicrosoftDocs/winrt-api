@@ -24,4 +24,4 @@ The port number of the message.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

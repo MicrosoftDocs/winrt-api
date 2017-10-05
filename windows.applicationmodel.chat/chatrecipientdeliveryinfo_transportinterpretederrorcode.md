@@ -21,3 +21,6 @@ The interpreted error code for the transport.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

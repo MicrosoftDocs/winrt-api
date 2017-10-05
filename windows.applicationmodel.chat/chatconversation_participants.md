@@ -21,3 +21,6 @@ A list of all the participants in the conversation.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

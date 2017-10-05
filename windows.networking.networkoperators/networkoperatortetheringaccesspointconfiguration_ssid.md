@@ -24,3 +24,6 @@ The network account ID
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

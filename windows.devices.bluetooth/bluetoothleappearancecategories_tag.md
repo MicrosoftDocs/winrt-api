@@ -21,3 +21,6 @@ The appearance category code for a tag Bluetooth LE device.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

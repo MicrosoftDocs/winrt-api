@@ -21,3 +21,6 @@ The RfcommServiceId object that represents the service id for the Serial Port se
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

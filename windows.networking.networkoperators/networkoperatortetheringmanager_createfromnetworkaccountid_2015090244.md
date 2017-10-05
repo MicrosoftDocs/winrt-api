@@ -26,3 +26,6 @@ Always call [GetTetheringCapability](networkoperatortetheringmanager_gettetherin
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

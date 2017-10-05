@@ -13,3 +13,5 @@ Provides class describing trigger details for Bluetooth triggers.
 ## -examples
 
 ## -see-also
+## -capabilities
+bluetooth

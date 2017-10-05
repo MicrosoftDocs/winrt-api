@@ -21,3 +21,6 @@ Gets a boolean indicating if this is a classic device.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

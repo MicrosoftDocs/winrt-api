@@ -34,3 +34,6 @@ For info about how to manage appointments, see [Manage appointments](http://msdn
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

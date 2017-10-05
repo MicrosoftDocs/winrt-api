@@ -28,3 +28,6 @@ Read and write access to all contacts. This value is not available to all apps. 
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

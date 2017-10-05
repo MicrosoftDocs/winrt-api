@@ -20,3 +20,6 @@ A list of names for the default appointment properties.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

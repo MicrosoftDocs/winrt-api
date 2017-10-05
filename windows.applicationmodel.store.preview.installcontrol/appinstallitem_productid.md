@@ -20,3 +20,6 @@ The product ID for the current app.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+runFullTrust

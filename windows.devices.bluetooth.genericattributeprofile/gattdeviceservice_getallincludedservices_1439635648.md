@@ -21,3 +21,6 @@ The collection of all included services belonging to this GattDeviceService inst
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

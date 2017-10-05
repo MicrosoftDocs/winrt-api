@@ -29,3 +29,6 @@ An asynchronous operation
 
 ## -examples
 
+
+## -capabilities
+bluetooth

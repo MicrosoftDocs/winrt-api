@@ -17,3 +17,6 @@ Initializes a new instance of the [AppointmentRecurrence](appointmentrecurrence.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

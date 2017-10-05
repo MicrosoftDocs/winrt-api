@@ -21,3 +21,6 @@ A read-only list of parent services from which this object is derived, if this G
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

@@ -19,3 +19,6 @@ Gets a TargetedContentItem object in the TargetedContentObject object.
 
 ## -examples
 
+
+## -capabilities
+secondaryAuthenticationFactor

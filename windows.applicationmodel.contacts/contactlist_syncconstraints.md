@@ -20,3 +20,6 @@ The [ContactListSyncConstraints](contactlistsyncconstraints.md) for this contact
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

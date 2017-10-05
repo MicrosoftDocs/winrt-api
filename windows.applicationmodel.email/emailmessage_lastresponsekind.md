@@ -20,3 +20,6 @@ The last kind of response sent in reference to this email message.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

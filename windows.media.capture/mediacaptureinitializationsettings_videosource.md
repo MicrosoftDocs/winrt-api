@@ -20,3 +20,6 @@ The video source for the capture operation.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

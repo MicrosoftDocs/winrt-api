@@ -34,3 +34,6 @@ The join attempt failed for an unknown reason.
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

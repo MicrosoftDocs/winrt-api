@@ -20,3 +20,6 @@ Specifies the sort order.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

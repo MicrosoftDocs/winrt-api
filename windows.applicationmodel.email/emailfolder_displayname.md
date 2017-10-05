@@ -20,3 +20,6 @@ The display name for the folder.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

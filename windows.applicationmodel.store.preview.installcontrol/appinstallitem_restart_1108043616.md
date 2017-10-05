@@ -18,3 +18,5 @@ Restarts the installation of the current app.
 
 ## -see-also
 [Restart(String)](appinstallitem_restart_462069312.md)
+## -capabilities
+runFullTrust

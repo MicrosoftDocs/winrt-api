@@ -21,3 +21,6 @@ Checks whether the given remote system is available through spatially proximal c
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

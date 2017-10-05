@@ -17,3 +17,6 @@ Creates a new [PhoneCallHistoryEntryQueryOptions](phonecallhistoryentryqueryopti
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

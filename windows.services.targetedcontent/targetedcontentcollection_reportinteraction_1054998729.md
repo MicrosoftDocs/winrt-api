@@ -21,3 +21,6 @@ Reports interaction for a TargetedContentCollection object.
 
 ## -examples
 
+
+## -capabilities
+secondaryAuthenticationFactor

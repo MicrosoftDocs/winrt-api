@@ -17,3 +17,6 @@ Represents the voice mail data associated with a [PhoneLine](phoneline.md) insta
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

@@ -21,3 +21,5 @@ The send message to a contact action.
 
 ## -see-also
 [Handling Contact Actions sample](http://go.microsoft.com/fwlink/p/?LinkID=320151)
+## -capabilities
+contactsSystem

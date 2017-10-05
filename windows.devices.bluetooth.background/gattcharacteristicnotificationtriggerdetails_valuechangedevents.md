@@ -21,3 +21,6 @@ Gets the value changes events for this trigger.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

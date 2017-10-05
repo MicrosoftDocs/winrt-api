@@ -32,3 +32,5 @@ Custom threading defined by the app
 ## -examples
 
 ## -see-also
+## -capabilities
+chatSystem, smsSend, chat

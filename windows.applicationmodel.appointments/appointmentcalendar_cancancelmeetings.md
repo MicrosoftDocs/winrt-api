@@ -20,3 +20,6 @@ Boolean value that indicates if the calendar supports cancelling meetings.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

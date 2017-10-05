@@ -20,3 +20,6 @@ A value indicating the completed quantum count.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

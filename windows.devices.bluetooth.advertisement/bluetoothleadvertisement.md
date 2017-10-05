@@ -22,3 +22,5 @@ For more information about its usage, refer to [BluetoothLEAdvertisementWatcher]
 
 ## -see-also
 [BluetoothLEAdvertisementBytePattern](bluetoothleadvertisementbytepattern.md), [BluetoothLEAdvertisementDataSection](bluetoothleadvertisementdatasection.md), [BluetoothLEAdvertisementDataTypes](bluetoothleadvertisementdatatypes.md), [BluetoothLEManufacturerData](bluetoothlemanufacturerdata.md), [BluetoothLEAdvertisementPublisher](bluetoothleadvertisementpublisher.md), [BluetoothLEAdvertisementWatcher](bluetoothleadvertisementwatcher.md)
+## -capabilities
+bluetooth

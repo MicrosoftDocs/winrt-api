@@ -21,3 +21,6 @@ The type of the Rich Communication Services (RCS) service.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

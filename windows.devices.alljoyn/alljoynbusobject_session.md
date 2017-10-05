@@ -21,3 +21,6 @@ The AllJoyn session.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+allJoyn

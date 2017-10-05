@@ -25,3 +25,6 @@ In order to use this method, the [PhoneLine](phoneline.md) instance needs to sup
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

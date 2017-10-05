@@ -18,3 +18,6 @@ Represents a Descriptor of a GATT Characteristic. The GattDescriptor object repr
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

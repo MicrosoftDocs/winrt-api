@@ -28,3 +28,6 @@ Note that you do not need to explicitly stop and start the account watcher on Ap
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

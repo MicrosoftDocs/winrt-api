@@ -25,3 +25,6 @@ An instance of the transport specified by the *transportId* parameter.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

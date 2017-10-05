@@ -31,3 +31,5 @@ The email was flagged for follow up and the flag has been cleared.
 ## -examples
 
 ## -see-also
+## -capabilities
+email, emailSystem

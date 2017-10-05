@@ -18,3 +18,6 @@ Stops watching for discoverable remote sessions.
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

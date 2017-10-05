@@ -19,3 +19,6 @@ This class is instantiated whenever the [RemoteSystemSessionWatcher.Added](Remot
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

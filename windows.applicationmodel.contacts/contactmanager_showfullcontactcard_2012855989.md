@@ -27,3 +27,5 @@ Specifies how to display the full contact card.
 
 ## -see-also
 [Contact cards sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=624040)
+## -capabilities
+contactsSystem

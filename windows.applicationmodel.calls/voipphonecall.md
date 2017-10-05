@@ -20,4 +20,5 @@ Represents a VoIP phone call.
 
 
 ## -capabilities
+phoneCallHistory, phoneCallHistorySystem
 voipCall

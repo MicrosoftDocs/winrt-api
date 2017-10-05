@@ -30,3 +30,6 @@ An asynchronous operation that, on successful completion, returns true if the ap
 ## -examples
 
 ## -see-also
+
+## -capabilities
+runFullTrust

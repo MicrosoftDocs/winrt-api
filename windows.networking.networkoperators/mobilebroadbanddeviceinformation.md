@@ -27,3 +27,5 @@ If you're trying to get information about a SIM card that uses CMDA, the device 
 
 ## -see-also
 [MobileBroadbandModem](mobilebroadbandmodem.md), [MobileBroadbandModem.DeviceInformation](mobilebroadbandmodem_deviceinformation.md)
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

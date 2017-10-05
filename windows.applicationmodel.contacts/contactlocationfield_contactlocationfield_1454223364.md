@@ -28,3 +28,5 @@ The category the field belongs to.
 
 ## -see-also
 [ContactLocationField(String)](contactlocationfield_contactlocationfield_290278668.md), [ContactLocationField(String, ContactFieldCategory, String, String, String, String, String)](contactlocationfield_contactlocationfield_888890244.md)
+## -capabilities
+contactsSystem

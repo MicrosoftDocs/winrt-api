@@ -21,3 +21,6 @@ A [ValueSet](https://docs.microsoft.com/uwp/api/Windows.Foundation.Collections.V
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

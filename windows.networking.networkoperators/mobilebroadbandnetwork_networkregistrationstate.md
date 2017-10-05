@@ -28,3 +28,6 @@ The current network registration state.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

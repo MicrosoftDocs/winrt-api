@@ -20,3 +20,6 @@ The spatial reference ID (SRID) used by the [Geopath](geopath.md).
 ## -examples
 
 ## -see-also
+
+## -capabilities
+location

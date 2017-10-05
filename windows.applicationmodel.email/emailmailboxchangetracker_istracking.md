@@ -20,3 +20,6 @@ The Boolean value indicating whether change tracking is active.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

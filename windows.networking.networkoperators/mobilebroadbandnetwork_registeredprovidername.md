@@ -28,3 +28,6 @@ The provider name for the currently registered mobile network.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

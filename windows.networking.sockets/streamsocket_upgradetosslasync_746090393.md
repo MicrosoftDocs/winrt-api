@@ -39,8 +39,6 @@ The [UpgradeToSslAsync](streamsocket_upgradetosslasync.md) method requires that 
 
 The [UpgradeToSslAsync](streamsocket_upgradetosslasync.md) method can only be used for client connections. This method can't be used to upgrade a connection accepted by the [StreamSocketListener](streamsocketlistener.md) to an SSL connection. The [UpgradeToSslAsync](streamsocket_upgradetosslasync.md) method only implements the client parts of the SSL protocol negotiation, not the server parts that would be needed to listen for and accept SSL connections.
 
-The [UpgradeToSslAsync](streamsocket_upgradetosslasync.md) method does not support the use of client certificates.
-
 ## -examples
 
 ## -see-also

@@ -20,3 +20,6 @@ The deferral object for the [CreateOrUpdateAppointmentRequested](appointmentdata
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

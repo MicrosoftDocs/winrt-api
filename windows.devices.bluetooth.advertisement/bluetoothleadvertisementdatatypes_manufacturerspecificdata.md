@@ -21,3 +21,6 @@ Manufacturer-specific data for a Bluetooth LE advertisements.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

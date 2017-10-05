@@ -27,3 +27,5 @@ A [MobileBroadbandPinOperationResult](mobilebroadbandpinoperationresult.md) inst
 
 ## -see-also
 [MobileBroadbandPin](mobilebroadbandpin.md)
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

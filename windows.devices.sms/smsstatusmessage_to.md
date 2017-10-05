@@ -24,4 +24,4 @@ The phone number, as a string.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

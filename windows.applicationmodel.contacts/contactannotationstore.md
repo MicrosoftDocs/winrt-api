@@ -18,3 +18,6 @@ Call [ContactManager.RequestAnnotationStoreAsync](contactmanager_requestannotati
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

@@ -31,3 +31,6 @@ The modem is busy.
 
 ## -examples
 
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

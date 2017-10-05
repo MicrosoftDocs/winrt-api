@@ -21,3 +21,6 @@ The progress of transferring the attachment.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

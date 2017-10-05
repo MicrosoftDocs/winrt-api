@@ -20,3 +20,6 @@ A Boolean value indicating whether an account is allowed to propose a new meetin
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

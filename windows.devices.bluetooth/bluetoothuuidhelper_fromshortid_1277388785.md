@@ -26,3 +26,6 @@ Returns the UUID.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

@@ -20,3 +20,6 @@ The name for the template.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

@@ -22,3 +22,5 @@ The object that manages the asynchronous operation. Upon completion of the async
 
 ## -see-also
 [GattReadClientCharacteristicConfigurationDescriptorResult](gattreadclientcharacteristicconfigurationdescriptorresult.md), [GattReadClientCharacteristicConfigurationDescriptorResult.ClientCharacteristicConfigurationDescriptor](gattreadclientcharacteristicconfigurationdescriptorresult_clientcharacteristicconfigurationdescriptor.md), [GattReadClientCharacteristicConfigurationDescriptorResult.Status](gattreadclientcharacteristicconfigurationdescriptorresult_status.md)
+## -capabilities
+bluetooth

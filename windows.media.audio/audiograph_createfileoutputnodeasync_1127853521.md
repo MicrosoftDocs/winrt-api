@@ -26,3 +26,5 @@ The file output node created by this method defaults to a WAV file format with t
 
 ## -see-also
 [CreateFileOutputNodeAsync(IStorageFile, AudioEncodingProperties)](audiograph_createfileoutputnodeasync_870871467.md)
+## -capabilities
+backgroundMediaRecording

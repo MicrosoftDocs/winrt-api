@@ -27,3 +27,5 @@ A [MobileBroadbandDeviceServiceDataReceivedEventArgs](mobilebroadbanddeviceservi
 
 ## -see-also
 [MobileBroadbandDeviceServiceDataSession](mobilebroadbanddeviceservicedatasession.md), [MobileBroadbandDeviceServiceDataSession.DataReceived](mobilebroadbanddeviceservicedatasession_datareceived.md)
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

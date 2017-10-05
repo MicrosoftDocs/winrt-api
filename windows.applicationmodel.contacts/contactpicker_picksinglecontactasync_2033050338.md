@@ -28,3 +28,5 @@ Use the [SelectionMode](contactpicker_selectionmode.md) property to control whet
 
 ## -see-also
 [PickContactAsync](contactpicker_pickcontactasync.md)
+## -capabilities
+contactsSystem

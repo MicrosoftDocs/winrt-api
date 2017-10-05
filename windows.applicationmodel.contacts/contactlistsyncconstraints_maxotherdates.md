@@ -20,3 +20,6 @@ The maximum number of 'other dates' that can be synchronized.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

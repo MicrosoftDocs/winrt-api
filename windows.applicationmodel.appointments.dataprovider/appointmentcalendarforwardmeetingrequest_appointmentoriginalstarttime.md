@@ -20,3 +20,6 @@ The original starting time for a recurring appointment.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

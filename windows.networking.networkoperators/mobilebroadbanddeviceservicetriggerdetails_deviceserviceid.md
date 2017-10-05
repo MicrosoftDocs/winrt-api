@@ -28,3 +28,6 @@ The unique device service identifier for the triggering event.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

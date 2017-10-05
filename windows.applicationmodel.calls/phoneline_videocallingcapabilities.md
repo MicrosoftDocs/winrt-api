@@ -20,3 +20,6 @@ Gets whether video calling is supported over this phone line.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

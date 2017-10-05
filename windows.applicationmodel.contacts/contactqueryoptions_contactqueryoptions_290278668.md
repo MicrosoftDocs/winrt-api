@@ -22,3 +22,5 @@ The text to match in the search operation.
 
 ## -see-also
 [ContactQueryOptions(String, ContactQuerySearchFields)](contactqueryoptions_contactqueryoptions_130232662.md)
+## -capabilities
+contactsSystem

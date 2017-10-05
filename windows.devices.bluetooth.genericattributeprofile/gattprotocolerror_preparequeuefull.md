@@ -21,3 +21,6 @@ The byte value for a prepare queue full error.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

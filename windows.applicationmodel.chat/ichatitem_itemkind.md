@@ -21,3 +21,6 @@ The type of the chat item.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

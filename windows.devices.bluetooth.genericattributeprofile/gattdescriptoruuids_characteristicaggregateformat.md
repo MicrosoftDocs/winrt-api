@@ -21,3 +21,6 @@ The Bluetooth SIG-defined Characteristic Aggregate Format Descriptor UUID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

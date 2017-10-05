@@ -17,3 +17,6 @@ Occurs when the email client has requested that a new meeting time be proposed.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

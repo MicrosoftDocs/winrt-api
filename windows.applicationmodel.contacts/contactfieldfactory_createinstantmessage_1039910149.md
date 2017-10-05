@@ -40,3 +40,5 @@ Contains an instant messaging field that you can add to a [Contact](contact.md) 
 
 ## -see-also
 [CreateInstantMessage(String)](contactfieldfactory_createinstantmessage_2022649811.md), [CreateInstantMessage(String, ContactFieldCategory)](contactfieldfactory_createinstantmessage_1064293083.md)
+## -capabilities
+contactsSystem

@@ -21,3 +21,6 @@ A geofence is considered used when all [MonitoredStates](geofence_monitoredstate
 ## -examples
 
 ## -see-also
+
+## -capabilities
+location

@@ -21,3 +21,6 @@ The sharing mode for this GATT device service instance.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

@@ -17,3 +17,6 @@ Occurs when an app has finished installing.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+runFullTrust

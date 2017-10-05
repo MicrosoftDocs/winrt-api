@@ -21,3 +21,6 @@ A Boolean value indicating that the background task should update the app's tile
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

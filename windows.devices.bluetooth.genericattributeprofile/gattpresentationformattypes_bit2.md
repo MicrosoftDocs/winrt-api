@@ -21,3 +21,6 @@ The value of the Bit2 Format Type.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

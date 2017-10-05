@@ -20,3 +20,6 @@ A [AppointmentParticipantResponse](appointmentparticipantresponse.md)-typed valu
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

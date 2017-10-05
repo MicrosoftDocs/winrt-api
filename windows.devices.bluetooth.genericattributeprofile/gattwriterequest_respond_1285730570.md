@@ -18,3 +18,6 @@ Responds to the write request.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

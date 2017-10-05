@@ -20,3 +20,6 @@ The name used to sort the contact.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

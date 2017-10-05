@@ -20,3 +20,6 @@ The kind of change that happened to the mailbox.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

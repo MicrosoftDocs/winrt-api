@@ -15,16 +15,13 @@ Sets the value of the XamlAmbientLight.IsTarget XAML attached property for a tar
 
 ## -parameters
 
-### -param element
+### -param object
 
 The object to which the property value is written.
 
 ### -param value
 
 The value to set.
-
-### -param object
-
 
 ## -remarks
 

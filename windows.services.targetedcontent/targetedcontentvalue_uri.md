@@ -19,3 +19,6 @@ Gets a Uri object in a TargetedContentValue object.
 
 ## -examples
 
+
+## -capabilities
+secondaryAuthenticationFactor

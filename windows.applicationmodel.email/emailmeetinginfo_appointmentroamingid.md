@@ -20,3 +20,6 @@ The server identifier for the appointment associated with an email message.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

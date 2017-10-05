@@ -20,3 +20,6 @@ The security policies for attachments in this mailbox.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

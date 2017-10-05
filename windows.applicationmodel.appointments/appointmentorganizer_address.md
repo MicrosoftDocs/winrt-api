@@ -21,3 +21,6 @@ When saving an appointment that has an [AppointmentOrganizer](appointmentorganiz
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

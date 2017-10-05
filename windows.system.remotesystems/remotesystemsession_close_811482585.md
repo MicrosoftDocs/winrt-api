@@ -18,3 +18,6 @@ Closes the session, disconnecting all participants.
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

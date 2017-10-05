@@ -10,8 +10,10 @@ public string SystemX64 { get; }
 # Windows.Storage.SystemDataPaths.SystemX64
 
 ## -description
+Gets the path to the 64-bit Windows system folder.
 
 ## -property-value
+The full path to the 64-bit Windows system folder.
 
 ## -remarks
 

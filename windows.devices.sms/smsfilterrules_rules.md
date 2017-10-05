@@ -24,4 +24,4 @@ A list of SMS filter rules.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

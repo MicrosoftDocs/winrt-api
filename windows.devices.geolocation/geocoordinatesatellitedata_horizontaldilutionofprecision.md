@@ -23,4 +23,5 @@ The horizontal dilution of precision (HDOP).
 
 
 ## -capabilities
+location
 ID_CAP_LOCATION [Windows Phone]

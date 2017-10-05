@@ -17,3 +17,6 @@ Provides functionality for syncing contact information with the server.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

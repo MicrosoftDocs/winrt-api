@@ -32,4 +32,5 @@ IReadOnlyList<ChatMessage> msgList = await messageStore.GetMessageReader.ReadBat
 [ReadBatchAsync(Int32)](chatmessagereader_readbatchasync_1346490639.md)
 
 ## -capabilities
+chatSystem, smsSend, chat
 blockedChatMessages

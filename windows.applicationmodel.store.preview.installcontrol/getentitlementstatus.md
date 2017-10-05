@@ -37,3 +37,6 @@ The [GetEntitlementResult.Status](getentitlementresult_status.md) property retur
 ## -see-also
 
 ## -examples
+
+## -capabilities
+runFullTrust

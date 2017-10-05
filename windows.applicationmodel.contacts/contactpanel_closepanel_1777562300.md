@@ -19,3 +19,6 @@ This method must be called from the main UI thread.
 [Closing](contactpanel_closing.md)
 
 ## -examples
+
+## -capabilities
+contactsSystem

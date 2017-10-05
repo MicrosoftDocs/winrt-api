@@ -18,4 +18,5 @@ Represents a single object within the TargetedContentContainer.
 ## -examples
 
 ## -capabilities
+secondaryAuthenticationFactor
 targetedContent

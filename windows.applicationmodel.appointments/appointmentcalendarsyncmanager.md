@@ -18,3 +18,6 @@ Provides access to sync functionality for an [AppointmentCalendar](appointmentca
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

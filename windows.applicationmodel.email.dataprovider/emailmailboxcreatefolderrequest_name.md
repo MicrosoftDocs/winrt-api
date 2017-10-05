@@ -20,3 +20,6 @@ A folder name.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

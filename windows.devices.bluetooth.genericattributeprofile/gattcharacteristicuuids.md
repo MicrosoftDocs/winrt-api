@@ -18,3 +18,6 @@ Represents an enumeration of the most well known Characteristic UUID values, and
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

@@ -18,3 +18,6 @@ Stops the [AllJoynBusObject](alljoynbusobject.md).
 ## -examples
 
 ## -see-also
+
+## -capabilities
+allJoyn

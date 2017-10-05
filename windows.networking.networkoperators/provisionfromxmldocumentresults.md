@@ -25,3 +25,5 @@ The results object returned to the application when the provisioning operation h
 ## -examples
 
 ## -see-also
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

@@ -23,3 +23,6 @@ The current deadline is 5 seconds after the user initiates the action that trigg
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

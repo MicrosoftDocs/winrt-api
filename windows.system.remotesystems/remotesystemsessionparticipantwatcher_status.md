@@ -21,3 +21,6 @@ A [RemoteSystemSessionParticipantWatcherStatus](RemoteSystemSessionParticipantWa
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

@@ -24,3 +24,6 @@ A correlation vector string that can be used to generate telemetry data.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+runFullTrust

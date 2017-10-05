@@ -62,3 +62,6 @@ public async void StartNewSharedExperience() {
     }
 }
 ```
+
+## -capabilities
+remoteSystem

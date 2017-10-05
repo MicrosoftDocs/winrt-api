@@ -20,3 +20,6 @@ The capabilities associated with the mailbox.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

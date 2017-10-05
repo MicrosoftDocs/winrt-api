@@ -21,3 +21,6 @@ The Bluetooth SIG-defined TimeUpdateControlPoint characteristic UUID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

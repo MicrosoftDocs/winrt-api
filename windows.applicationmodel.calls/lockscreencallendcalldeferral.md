@@ -18,3 +18,6 @@ An app gets a [LockScreenCallEndCallDeferral](lockscreencallendcalldeferral.md) 
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

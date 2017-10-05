@@ -26,3 +26,6 @@ The time elapsed since the location information from base station reached mobile
 
 ## -examples
 
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

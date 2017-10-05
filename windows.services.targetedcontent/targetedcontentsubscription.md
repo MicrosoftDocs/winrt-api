@@ -18,4 +18,5 @@ Represents a Subscription object.
 ## -examples
 
 ## -capabilities
+secondaryAuthenticationFactor
 targetedContent

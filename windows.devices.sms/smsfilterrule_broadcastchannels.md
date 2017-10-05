@@ -24,4 +24,4 @@ List of broadcast channel identifiers that match this rule.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

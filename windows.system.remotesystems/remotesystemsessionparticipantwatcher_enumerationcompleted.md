@@ -19,3 +19,6 @@ An app may delay UI rendering for session participants until this point, so that
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

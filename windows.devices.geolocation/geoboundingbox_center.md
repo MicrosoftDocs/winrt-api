@@ -20,3 +20,6 @@ The center of the [GeoboundingBox](geoboundingbox.md).
 ## -examples
 
 ## -see-also
+
+## -capabilities
+location

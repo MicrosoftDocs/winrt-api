@@ -25,3 +25,6 @@ An AQS string for identifying RFCOMM service instances.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

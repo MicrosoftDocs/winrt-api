@@ -24,3 +24,6 @@ The value for [TransportId](chatmessage_transportid.md) is the string representa
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

@@ -23,3 +23,6 @@ The GATT Service UUID associated with this GattDeviceService.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

@@ -49,3 +49,5 @@ The voice mail account associated with the phone line.
 ## -examples
 
 ## -see-also
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

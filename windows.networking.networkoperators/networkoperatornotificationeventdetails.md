@@ -25,3 +25,5 @@ The operating system extends battery life by suspending applications that are no
 ## -examples
 
 ## -see-also
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

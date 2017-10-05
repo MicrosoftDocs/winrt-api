@@ -39,3 +39,5 @@ To modify the properties of the capture device, use [VideoDeviceController.SetMe
 
 ## -see-also
 [GetAvailableMediaStreamProperties](../windows.media.devices/videodevicecontroller_getavailablemediastreamproperties.md), [SetMediaStreamPropertiesAsync](../windows.media.devices/videodevicecontroller_setmediastreampropertiesasync.md), [Set format, resolution, and frame rate for MediaCapture](https://msdn.microsoft.com/en-us/windows/uwp/audio-video-camera/set-media-encoding-properties), [Handle device orientation with MediaCapture](https://msdn.microsoft.com/en-us/windows/uwp/audio-video-camera/handle-device-orientation-with-mediacapture), [Camera Resolution Sample](http://go.microsoft.com/fwlink/p/?LinkId=624252)
+## -capabilities
+backgroundMediaRecording

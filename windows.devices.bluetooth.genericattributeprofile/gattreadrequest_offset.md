@@ -21,3 +21,6 @@ The read request offset.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

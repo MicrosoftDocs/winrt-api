@@ -19,3 +19,6 @@ Call [RcsManager.GetTransportAsync](rcsmanager_gettransportasync.md) or [RcsMana
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

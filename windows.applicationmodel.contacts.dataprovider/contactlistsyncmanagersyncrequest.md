@@ -18,3 +18,6 @@ Used in your [SyncRequested](contactdataproviderconnection_syncrequested.md) eve
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

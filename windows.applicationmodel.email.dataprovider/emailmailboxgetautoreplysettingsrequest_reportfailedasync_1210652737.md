@@ -20,3 +20,6 @@ An asynchronous get operation on an [EmailMailboxGetAutoReplySettingsRequest](em
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

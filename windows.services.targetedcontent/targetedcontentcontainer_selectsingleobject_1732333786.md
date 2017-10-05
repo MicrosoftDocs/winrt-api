@@ -23,3 +23,6 @@ Gets the TargetedContentObject object in the TargetedContentContainer object.
 
 ## -examples
 
+
+## -capabilities
+secondaryAuthenticationFactor

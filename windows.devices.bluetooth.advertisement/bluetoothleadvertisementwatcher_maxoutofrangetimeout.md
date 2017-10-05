@@ -21,3 +21,6 @@ The maximum out of range timeout.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

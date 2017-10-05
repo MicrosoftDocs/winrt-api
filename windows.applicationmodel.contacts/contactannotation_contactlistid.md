@@ -21,3 +21,6 @@ The ID for the [ContactList](contactlist.md) to which this [ContactAnnotation](c
 [ContactList](contactlist.md)
 
 ## -examples
+
+## -capabilities
+contactsSystem

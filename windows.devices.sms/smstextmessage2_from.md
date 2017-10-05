@@ -24,4 +24,4 @@ The sender's phone number, as a string.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

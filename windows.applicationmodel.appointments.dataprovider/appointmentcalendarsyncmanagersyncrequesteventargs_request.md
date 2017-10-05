@@ -20,3 +20,6 @@ The [AppointmentCalendarSyncManagerSyncRequest](appointmentcalendarsyncmanagersy
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

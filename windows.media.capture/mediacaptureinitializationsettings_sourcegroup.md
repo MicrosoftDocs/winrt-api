@@ -20,3 +20,6 @@ The [MediaFrameSourceGroup](../windows.media.capture.frames/mediaframesourcegrou
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

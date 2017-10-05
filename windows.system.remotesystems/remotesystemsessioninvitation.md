@@ -37,3 +37,5 @@ public void SubscribeAndHandleInvites() {
     };
 }
 ```
+## -capabilities
+remoteSystem

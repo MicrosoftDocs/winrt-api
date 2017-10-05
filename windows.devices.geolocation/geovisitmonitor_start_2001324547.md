@@ -14,7 +14,7 @@ Begins monitoring for Visit-related events.
 
 ## -parameters
 ### -param value
-A [VisitMonitoringScope](VisitMonitoringScope.md) value representing the intended scope of location monitoring.
+A [VisitMonitoringScope](VisitMonitoringScope.md) value representing the desired scope of location changes to monitor.
 
 ## -remarks
 
@@ -22,3 +22,6 @@ A [VisitMonitoringScope](VisitMonitoringScope.md) value representing the intende
 
 ## -examples
 
+
+## -capabilities
+location

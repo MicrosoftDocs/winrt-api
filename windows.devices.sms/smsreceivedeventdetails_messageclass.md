@@ -23,4 +23,4 @@ The message class for the SMS message received by the background task.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

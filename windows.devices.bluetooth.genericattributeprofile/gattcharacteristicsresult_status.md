@@ -21,3 +21,6 @@ The status.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

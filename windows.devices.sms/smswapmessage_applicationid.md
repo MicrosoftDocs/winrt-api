@@ -24,4 +24,4 @@ The value of the X-Wap-Application-Id header.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

@@ -28,3 +28,6 @@ If the data-coding scheme is Unicode, the message is a plaintext string that has
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

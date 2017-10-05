@@ -24,4 +24,4 @@ The service center date and time when the status message was sent.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

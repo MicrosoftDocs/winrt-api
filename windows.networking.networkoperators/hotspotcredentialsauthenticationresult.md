@@ -19,3 +19,6 @@ Represents the results of a Hotspot authentication request.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

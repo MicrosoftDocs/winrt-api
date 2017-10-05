@@ -21,3 +21,6 @@ The session status.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

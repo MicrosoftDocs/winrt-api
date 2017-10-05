@@ -17,3 +17,6 @@ Options for querying the phone call entries.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

@@ -21,3 +21,6 @@ The RfcommServiceId object that represents the service id for the Phone Book Acc
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

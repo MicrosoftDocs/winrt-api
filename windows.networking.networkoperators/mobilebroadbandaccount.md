@@ -25,3 +25,5 @@ Represents a mobile broadband account and related information about the network 
 ## -examples
 
 ## -see-also
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

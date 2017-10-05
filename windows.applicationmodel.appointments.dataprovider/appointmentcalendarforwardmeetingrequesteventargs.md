@@ -18,3 +18,6 @@ The system generates an instance of this class and passes it as an argument to t
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

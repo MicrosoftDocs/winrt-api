@@ -20,3 +20,6 @@ This class is instantiated when a [VisitStateChanged](GeovisitMonitor_VisitState
 
 ## -examples
 
+
+## -capabilities
+location

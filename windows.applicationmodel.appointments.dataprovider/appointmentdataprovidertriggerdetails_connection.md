@@ -20,3 +20,6 @@ The data connection over which appointment data can be transferred.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

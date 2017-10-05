@@ -20,3 +20,6 @@ The contact field type that matched the search, such as name, phone number, emai
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

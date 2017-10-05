@@ -25,3 +25,5 @@ The autoreply message is encoded as plain text.
 ## -examples
 
 ## -see-also
+## -capabilities
+email, emailSystem

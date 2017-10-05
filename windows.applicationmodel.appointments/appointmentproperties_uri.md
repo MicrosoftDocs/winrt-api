@@ -20,3 +20,6 @@ The name of the [Uri](appointment_uri.md) property.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

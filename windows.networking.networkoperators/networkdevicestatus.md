@@ -52,3 +52,5 @@ Mobile operator Windows Store app can have access to different states of the dev
 ## -examples
 
 ## -see-also
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

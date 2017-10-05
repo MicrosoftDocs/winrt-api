@@ -20,3 +20,6 @@ The Boolean value indicating whether a search of specific folders on the server 
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

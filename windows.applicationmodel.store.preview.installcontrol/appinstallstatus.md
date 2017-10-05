@@ -21,3 +21,6 @@ To retrieve an instance of this class, use the [GetCurrentStatus](appinstallitem
 ## -examples
 
 ## -see-also
+
+## -capabilities
+runFullTrust

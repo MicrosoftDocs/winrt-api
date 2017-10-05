@@ -20,3 +20,6 @@ True if the phone line supports being pinned as a live tile; otherwise false.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

@@ -27,3 +27,6 @@ A unique identifier for a mobile broadband account.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

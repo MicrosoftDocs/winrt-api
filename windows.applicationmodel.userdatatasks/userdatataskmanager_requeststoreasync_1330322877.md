@@ -25,3 +25,6 @@ An asynchronous operation that returns a [UserDataTaskStore](userdatataskstore.m
 ## -see-also
 
 ## -examples
+
+## -capabilities
+userDataTasks

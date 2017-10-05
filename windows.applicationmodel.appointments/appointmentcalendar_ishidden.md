@@ -20,3 +20,6 @@ A boolean value indicating whether the [AppointmentCalendar](appointmentcalendar
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

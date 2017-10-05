@@ -20,3 +20,6 @@ A Boolean value that indicates if programmatic access to the message is allowed.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

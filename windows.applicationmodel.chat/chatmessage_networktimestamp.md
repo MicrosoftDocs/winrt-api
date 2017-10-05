@@ -22,3 +22,6 @@ The value for [NetworkTimestamp](chatmessage_networktimestamp.md) is the phone n
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

@@ -44,4 +44,4 @@ Note that the messaging app shows only text and broadcast messages to the user. 
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

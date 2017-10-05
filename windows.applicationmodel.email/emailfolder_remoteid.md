@@ -20,3 +20,6 @@ The remote ID of the corresponding folder on the server.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

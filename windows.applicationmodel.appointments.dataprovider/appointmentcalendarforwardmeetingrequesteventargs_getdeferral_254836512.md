@@ -20,3 +20,6 @@ The deferral object for the [ForwardMeetingRequested](appointmentdataprovidercon
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

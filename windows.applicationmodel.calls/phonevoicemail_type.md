@@ -20,3 +20,6 @@ The type of the voice mail account.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

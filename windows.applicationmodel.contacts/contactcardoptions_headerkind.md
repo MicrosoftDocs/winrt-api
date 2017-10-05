@@ -20,3 +20,6 @@ The type of header to display on the contact card.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

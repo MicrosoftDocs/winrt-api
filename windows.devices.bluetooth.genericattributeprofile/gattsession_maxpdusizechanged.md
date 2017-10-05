@@ -18,3 +18,6 @@ An event that is triggered when the max PDU size changes.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

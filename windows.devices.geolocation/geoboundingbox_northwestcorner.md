@@ -20,3 +20,6 @@ The northwest corner of the [GeoboundingBox](geoboundingbox.md).
 ## -examples
 
 ## -see-also
+
+## -capabilities
+location

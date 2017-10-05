@@ -32,3 +32,6 @@ This field has an effect only if you set the altitude reference system of class 
 ## -examples
 
 ## -see-also
+
+## -capabilities
+location

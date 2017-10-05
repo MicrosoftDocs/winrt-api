@@ -21,3 +21,5 @@ The email message reader.
 
 ## -see-also
 [GetMessageReader(EmailQueryOptions)](emailstore_getmessagereader_1764748530.md)
+## -capabilities
+email, emailSystem

@@ -28,3 +28,6 @@ For how-to guidance on adding effects to the camera capture and preview streams,
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

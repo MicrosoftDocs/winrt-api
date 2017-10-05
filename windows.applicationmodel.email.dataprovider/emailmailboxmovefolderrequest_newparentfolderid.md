@@ -20,3 +20,6 @@ A folder ID. Note that you rename a folder by requesting a move to the current p
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

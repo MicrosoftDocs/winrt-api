@@ -19,3 +19,6 @@ Gets the ID of a Subscription.
 
 ## -examples
 
+
+## -capabilities
+secondaryAuthenticationFactor

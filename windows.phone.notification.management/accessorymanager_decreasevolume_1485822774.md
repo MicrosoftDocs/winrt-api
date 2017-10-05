@@ -21,3 +21,6 @@ The amount to decrease the volume.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+accessoryManager

@@ -20,3 +20,6 @@ The ID of the phone line that triggered the [LineAdded](phonelinewatcher_lineadd
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

@@ -17,3 +17,6 @@ Occurs when the email client has requested that certificates be validated with r
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

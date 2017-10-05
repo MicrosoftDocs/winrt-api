@@ -24,3 +24,6 @@ Returns true if any of the properties indicated by the *lineProperty* parameter 
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

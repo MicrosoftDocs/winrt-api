@@ -21,3 +21,6 @@ The Bluetooth SIG-defined CurrentTime characteristic UUID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

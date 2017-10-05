@@ -18,3 +18,6 @@ A call to [DismissUI](addappointmentoperation_dismissui.md) is similar to when t
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

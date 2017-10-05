@@ -18,3 +18,6 @@ All relevant methods of this class are static methods.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

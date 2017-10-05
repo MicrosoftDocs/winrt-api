@@ -33,3 +33,6 @@ You can call the [Stop](peerwatcher_stop.md) method to stop the [PeerWatcher](pe
 ## -see-also
 [Proximity and Tapping (JavaScript)](http://msdn.microsoft.com/library/84a30dcf-ef14-4a93-9e7c-7a3de867d46b), [Proximity and Tapping (C#/VB/C++)](http://msdn.microsoft.com/library/f25bb1df-1cfd-45cd-8c67-04eec73ebfbd), [Proximity sample](http://go.microsoft.com/fwlink/p/?linkid=245082)
  [Proximity sample](http://go.microsoft.com/fwlink/p/?linkid=245082)
+
+## -capabilities
+proximity

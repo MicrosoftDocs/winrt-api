@@ -18,3 +18,6 @@ Event triggered when a member has been removed from an [AllJoynSession](alljoyns
 ## -examples
 
 ## -see-also
+
+## -capabilities
+allJoyn

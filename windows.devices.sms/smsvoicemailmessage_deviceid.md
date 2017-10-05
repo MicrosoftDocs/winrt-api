@@ -24,4 +24,4 @@ A device identifier.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

@@ -18,3 +18,6 @@ If you are searching local contacts, keep processing until you get a [ContactBat
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

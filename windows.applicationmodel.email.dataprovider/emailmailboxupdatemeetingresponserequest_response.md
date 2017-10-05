@@ -20,3 +20,6 @@ An [EmailMeetingResponseType](../windows.applicationmodel.email/emailmeetingresp
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

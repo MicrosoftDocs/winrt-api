@@ -28,7 +28,7 @@ The **UserActivity** has not yet been published.
 
 ## -remarks
 
-Whenever the app modifies a property of the  [UserActivity](useractivity.md), you must call [UserActivity.SaveAsync()](useractivity_saveasync_2143735121.md) to publish the change and push the updated activity to other devices.
+Whenever the app modifies a property of the [UserActivity](useractivity.md), you must call [UserActivity.SaveAsync()](useractivity_saveasync_2143735121.md) to publish the change and push the updated activity to other devices.
 
 ## -see-also
 [UserActivity.SaveAsync()](useractivity_saveasync_2143735121.md)

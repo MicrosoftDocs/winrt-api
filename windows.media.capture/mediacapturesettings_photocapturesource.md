@@ -23,4 +23,5 @@ The stream that is used for photo capture.
 
 
 ## -capabilities
+backgroundMediaRecording
 microphone, webcam

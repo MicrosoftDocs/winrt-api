@@ -24,3 +24,6 @@ The list of individual (raw) contacts from the specified aggregate contact.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

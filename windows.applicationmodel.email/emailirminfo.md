@@ -17,3 +17,6 @@ Represents email information rights management (IRM) info.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

@@ -29,3 +29,6 @@ An asynchronous operation that completes with a GattClientNotificationResult obj
 
 ## -examples
 
+
+## -capabilities
+bluetooth

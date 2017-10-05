@@ -20,3 +20,6 @@ The list of [PhoneCallHistoryEntry.SourceId](phonecallhistoryentry_sourceid.md) 
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

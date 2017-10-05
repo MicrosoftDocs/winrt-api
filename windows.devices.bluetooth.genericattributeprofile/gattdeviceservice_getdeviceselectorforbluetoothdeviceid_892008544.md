@@ -26,3 +26,6 @@ A suitable AQS Selector String which can be passed as a parameter to the [Create
 
 ## -examples
 
+
+## -capabilities
+bluetooth

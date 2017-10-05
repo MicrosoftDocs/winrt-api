@@ -21,3 +21,6 @@ The unique device identifier associated with this PIN lock state change.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

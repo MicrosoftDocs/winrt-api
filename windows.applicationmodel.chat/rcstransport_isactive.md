@@ -21,3 +21,6 @@ A Boolean value indicating if the transport is active.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

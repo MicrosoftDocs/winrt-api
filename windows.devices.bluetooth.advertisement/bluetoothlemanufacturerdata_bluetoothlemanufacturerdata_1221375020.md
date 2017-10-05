@@ -19,3 +19,5 @@ Creates a new [BluetoothLEManufacturerData](bluetoothlemanufacturerdata.md) obje
 
 ## -see-also
 [BluetoothLEAdvertisement](bluetoothleadvertisement.md), [BluetoothLEManufacturerData(UInt16, IBuffer)](bluetoothlemanufacturerdata_bluetoothlemanufacturerdata_1489238939.md)
+## -capabilities
+bluetooth

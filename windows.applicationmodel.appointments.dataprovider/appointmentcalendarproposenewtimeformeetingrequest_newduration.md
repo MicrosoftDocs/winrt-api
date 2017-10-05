@@ -20,3 +20,6 @@ The proposed new duration of the meeting.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

@@ -35,3 +35,5 @@ The participant is working elsewhere.
 
 ## -see-also
 [BusyStatus](appointment_busystatus.md)
+## -capabilities
+appointmentsSystem

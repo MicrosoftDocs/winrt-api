@@ -20,3 +20,6 @@ A [ContactEmailKind](contactemailkind.md)-typed value that indicates the type of
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

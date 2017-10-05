@@ -20,3 +20,6 @@ A [EmailMailboxDownloadAttachmentRequest](emailmailboxdownloadattachmentrequest.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

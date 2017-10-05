@@ -18,3 +18,6 @@ Starts watching for participants in the remote session. The discovery process ru
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

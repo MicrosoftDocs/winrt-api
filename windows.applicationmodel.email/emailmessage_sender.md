@@ -20,3 +20,6 @@ The mailbox from which the email message was sent.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

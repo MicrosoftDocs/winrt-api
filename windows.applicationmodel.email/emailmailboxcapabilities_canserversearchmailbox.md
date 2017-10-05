@@ -20,3 +20,6 @@ The Boolean value indicating whether a search of the server can be initiated fro
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

@@ -24,3 +24,6 @@ An asynchronous operation that returns an [AppointmentCalendar](appointmentcalen
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

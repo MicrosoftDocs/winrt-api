@@ -20,3 +20,6 @@ A value indicating the write access level to this [ContactList](contactlist.md) 
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

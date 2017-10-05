@@ -17,3 +17,6 @@ Represents the object associated with retrieving the operation of the appointmen
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

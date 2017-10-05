@@ -21,3 +21,5 @@ For info about how to manage contacts, see [Managing contact cards ](http://msdn
 
 ## -see-also
 [Contact manager API sample](http://go.microsoft.com/fwlink/p/?LinkID=310079), [IClosable](../windows.foundation/iclosable.md), [ShowDelayLoadedContactCard](contactmanager_showdelayloadedcontactcard.md), [Contact cards sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=624040)
+## -capabilities
+contactsSystem

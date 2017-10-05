@@ -38,3 +38,6 @@ All string parameters have a maximum allowed length of 128 characters (including
 
 ## -examples
 
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

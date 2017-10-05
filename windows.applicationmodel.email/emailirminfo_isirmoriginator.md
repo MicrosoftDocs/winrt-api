@@ -20,3 +20,6 @@ A Boolean value that indicates if the sender is the information rights managemen
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

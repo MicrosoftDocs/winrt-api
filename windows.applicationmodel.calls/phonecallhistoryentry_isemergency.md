@@ -20,3 +20,6 @@ Indicates whether the call is an emergency phone call.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

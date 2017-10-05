@@ -21,3 +21,6 @@ The model name of the given remote system.
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

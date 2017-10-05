@@ -20,3 +20,6 @@ The deferral object for the [ProposeNewTimeForMeetingRequested](appointmentdatap
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

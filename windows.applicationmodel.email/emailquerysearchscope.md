@@ -25,3 +25,5 @@ Query the entire email message collection contained on the email server.
 ## -examples
 
 ## -see-also
+## -capabilities
+email, emailSystem

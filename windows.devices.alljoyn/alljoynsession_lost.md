@@ -18,3 +18,6 @@ Event triggered when an [AllJoynSession](alljoynsession.md) has been lost. More 
 ## -examples
 
 ## -see-also
+
+## -capabilities
+allJoyn

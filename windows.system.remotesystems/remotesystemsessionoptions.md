@@ -18,3 +18,6 @@ Contains additional options that a [RemoteSystemSessionController](RemoteSystemS
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

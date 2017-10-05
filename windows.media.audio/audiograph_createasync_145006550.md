@@ -25,3 +25,6 @@ When this operation completes, a [CreateAudioGraphResult](createaudiographresult
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

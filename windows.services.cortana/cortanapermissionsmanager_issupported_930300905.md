@@ -27,3 +27,6 @@ The [CortanaPermissionManager](cortanapermissionsmanager.md) class requires the 
 
 ## -examples
 
+
+## -capabilities
+cortanaPermissions

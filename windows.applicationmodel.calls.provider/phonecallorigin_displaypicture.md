@@ -20,3 +20,6 @@ The display picture for the caller's origin. This picture is displayed on the in
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

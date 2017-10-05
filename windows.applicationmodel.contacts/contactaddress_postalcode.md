@@ -20,3 +20,6 @@ The postal code of a contact address.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

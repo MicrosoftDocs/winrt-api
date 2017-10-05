@@ -24,3 +24,6 @@ True if video profiles are supported; otherwise, false.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

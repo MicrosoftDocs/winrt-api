@@ -25,3 +25,5 @@ The message reader that matches the query options.
 
 ## -see-also
 [GetMessageReader](emailfolder_getmessagereader_1198599356.md)
+## -capabilities
+email, emailSystem

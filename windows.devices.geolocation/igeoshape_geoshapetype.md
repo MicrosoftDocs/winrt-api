@@ -20,3 +20,6 @@ The type of geographic shape.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+location

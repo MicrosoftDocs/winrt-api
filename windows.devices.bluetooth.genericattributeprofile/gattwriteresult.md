@@ -18,3 +18,6 @@ Contains the result of GATT write operations like [WriteValueWithResultAsync](..
 
 ## -examples
 
+
+## -capabilities
+bluetooth

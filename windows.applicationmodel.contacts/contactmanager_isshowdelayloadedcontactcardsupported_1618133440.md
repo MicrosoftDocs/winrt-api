@@ -22,3 +22,6 @@ A Boolean value indicating if the [ShowDelayLoadedContactCard](contactmanager_sh
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

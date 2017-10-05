@@ -20,3 +20,6 @@ A Boolean value that indicates if the recipient is allowed to reply to the email
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

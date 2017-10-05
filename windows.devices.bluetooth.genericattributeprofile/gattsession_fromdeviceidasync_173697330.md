@@ -26,3 +26,6 @@ An asynchronous operation that completes with a new GattSession object.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

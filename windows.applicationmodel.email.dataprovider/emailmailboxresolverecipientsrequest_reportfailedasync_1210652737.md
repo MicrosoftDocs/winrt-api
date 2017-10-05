@@ -20,3 +20,6 @@ An asynchronous resolve operation on an [EmailMailboxResolveRecipientsRequest](e
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

@@ -25,3 +25,5 @@ When this method returns, it does not return a result. On completion, the [Async
 
 ## -see-also
 [ShowAppointmentDetailsAsync(String, DateTime)](appointmentmanagerforuser_showappointmentdetailsasync_190736264.md)
+## -capabilities
+appointmentsSystem

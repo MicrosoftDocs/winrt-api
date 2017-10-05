@@ -25,3 +25,5 @@ The phone line uses a voice over IP transport.
 ## -examples
 
 ## -see-also
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

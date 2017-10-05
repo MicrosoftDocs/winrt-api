@@ -20,3 +20,6 @@ The [ContactChangeTracker](contactchangetracker.md) which provides functionality
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

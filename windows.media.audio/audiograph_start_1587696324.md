@@ -18,3 +18,6 @@ Starting and stopping the audio graph does not affect the state of the individua
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

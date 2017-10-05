@@ -38,3 +38,5 @@ The **Terrain**, **Geoid**, and **Surface** are implementation dependent and not
 ## -examples
 
 ## -see-also
+## -capabilities
+location

@@ -28,4 +28,5 @@ Use *queryOptions* to create a reader that will only read the specified entries.
 [GetEntryReader](phonecallhistorystore_getentryreader_641155997.md)
 
 ## -capabilities
+phoneCallHistory, phoneCallHistorySystem
 phoneCallHistoryPublic

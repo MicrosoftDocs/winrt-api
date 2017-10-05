@@ -25,3 +25,6 @@ The corresponding 128-bit GATT Characteristic UUID, that uniquely identifies thi
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

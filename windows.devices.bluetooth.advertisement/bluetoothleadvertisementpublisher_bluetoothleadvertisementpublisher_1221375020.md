@@ -19,3 +19,5 @@ Creates a new [BluetoothLEAdvertisementPublisher](bluetoothleadvertisementpublis
 
 ## -see-also
 [BluetoothLEAdvertisementPublisher(BluetoothLEAdvertisement)](bluetoothleadvertisementpublisher_bluetoothleadvertisementpublisher_1239156254.md)
+## -capabilities
+bluetooth

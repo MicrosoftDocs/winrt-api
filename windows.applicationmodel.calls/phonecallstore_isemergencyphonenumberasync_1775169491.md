@@ -24,3 +24,6 @@ An asynchronous operation that returns a boolean on successful completion . True
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

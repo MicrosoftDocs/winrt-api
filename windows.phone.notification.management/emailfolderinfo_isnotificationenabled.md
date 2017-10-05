@@ -21,3 +21,6 @@ true if the email account can give notifications; otherwise false.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+accessoryManager

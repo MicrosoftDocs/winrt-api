@@ -20,3 +20,6 @@ The change number on the server that identifies the meeting email change number.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

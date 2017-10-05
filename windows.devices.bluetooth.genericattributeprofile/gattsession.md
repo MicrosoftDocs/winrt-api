@@ -18,3 +18,6 @@ This class represents a GATT session.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

@@ -24,3 +24,6 @@ The altitude reference system of the new point.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+location

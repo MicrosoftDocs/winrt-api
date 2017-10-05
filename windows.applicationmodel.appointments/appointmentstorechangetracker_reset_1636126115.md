@@ -17,3 +17,6 @@ Resets change tracking for the appointment store, deleting existing change track
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

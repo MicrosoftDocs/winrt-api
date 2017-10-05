@@ -11,7 +11,11 @@ public GameChatOverlayPosition DesiredPosition { get;  set; }
 
 ## -description
 
+The desired position of the game chat overlay.
+
 ## -property-value
+
+The desired position of the game chat overlay.
 
 ## -remarks
 

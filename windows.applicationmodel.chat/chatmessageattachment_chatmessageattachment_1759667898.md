@@ -25,3 +25,6 @@ A stream containing the attachment data.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

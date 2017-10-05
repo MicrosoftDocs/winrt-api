@@ -20,3 +20,6 @@ The ID of the phone line that was added, removed, or changed.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

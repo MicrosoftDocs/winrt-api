@@ -24,4 +24,4 @@ Enumeration values for broadcast types that match this rule.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

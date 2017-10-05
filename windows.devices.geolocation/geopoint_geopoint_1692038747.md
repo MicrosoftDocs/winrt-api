@@ -27,3 +27,6 @@ The spatial reference Id of the new point.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+location

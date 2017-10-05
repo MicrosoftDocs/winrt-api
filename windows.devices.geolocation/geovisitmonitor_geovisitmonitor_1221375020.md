@@ -18,3 +18,6 @@ Initializes an instance of [GeovisitMonitor](GeovisitMonitor.md).
 
 ## -examples
 
+
+## -capabilities
+location

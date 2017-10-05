@@ -25,3 +25,5 @@ This namespace has two sets of classes used for the following:
 
 ## -see-also
 [BluetoothLEAdvertisement](bluetoothleadvertisement.md), [Bluetooth advertisement sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=619990)
+## -capabilities
+bluetooth

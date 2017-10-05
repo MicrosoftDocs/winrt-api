@@ -21,3 +21,6 @@ The category for the [TransportErrorCode](chatrecipientdeliveryinfo_transporterr
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

@@ -21,3 +21,6 @@ The Bluetooth SIG-defined Measurement Interval Characteristic UUID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

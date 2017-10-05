@@ -20,3 +20,6 @@ Gets or sets whether the [PhoneCallBlocking](phonecallblocking.md) instance shou
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

@@ -21,3 +21,6 @@ A reference to the underlying [StreamSocket](../windows.networking.sockets/strea
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

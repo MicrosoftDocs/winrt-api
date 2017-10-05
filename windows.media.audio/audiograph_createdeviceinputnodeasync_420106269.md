@@ -25,3 +25,5 @@ An asynchronous operation that returns a [CreateAudioDeviceInputNodeResult](crea
 
 ## -see-also
 [CreateDeviceInputNodeAsync(MediaCategory, AudioEncodingProperties)](audiograph_createdeviceinputnodeasync_1285412965.md), [CreateDeviceInputNodeAsync(MediaCategory, AudioEncodingProperties, DeviceInformation)](audiograph_createdeviceinputnodeasync_757181607.md)
+## -capabilities
+backgroundMediaRecording

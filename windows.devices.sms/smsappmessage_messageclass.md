@@ -24,4 +24,4 @@ The message class of the message.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

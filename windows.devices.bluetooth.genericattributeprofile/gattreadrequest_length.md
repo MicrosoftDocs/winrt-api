@@ -21,3 +21,6 @@ The buffer length of the read request.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

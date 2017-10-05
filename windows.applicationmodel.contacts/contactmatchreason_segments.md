@@ -20,3 +20,6 @@ The list of matching [TextSegment](../windows.data.text/textsegment.md) objects.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

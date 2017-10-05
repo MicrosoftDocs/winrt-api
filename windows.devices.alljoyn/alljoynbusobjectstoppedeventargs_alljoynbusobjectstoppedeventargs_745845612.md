@@ -22,3 +22,6 @@ Value indicating the status.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+allJoyn

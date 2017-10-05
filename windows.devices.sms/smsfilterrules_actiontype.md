@@ -24,4 +24,4 @@ Specifies when and how the set of rules in this [SmsFilterRules](smsfilterrules.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

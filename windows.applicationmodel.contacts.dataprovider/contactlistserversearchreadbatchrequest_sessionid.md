@@ -20,3 +20,6 @@ A search session ID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

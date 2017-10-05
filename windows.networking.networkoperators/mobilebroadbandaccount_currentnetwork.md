@@ -28,3 +28,6 @@ The Mobile Broadband network object for this account.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

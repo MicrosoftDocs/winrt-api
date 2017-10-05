@@ -21,3 +21,6 @@ True if the trigger was fired for an incoming connection; otherwise, false.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

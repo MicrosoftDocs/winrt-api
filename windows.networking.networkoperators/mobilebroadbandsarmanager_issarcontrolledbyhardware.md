@@ -21,3 +21,6 @@ True if SAR configuration is controlled by device hardware; otherwise, false.
 
 ## -examples
 
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

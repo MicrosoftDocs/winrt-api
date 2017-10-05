@@ -29,3 +29,5 @@ To create a file input node with an emitter, the audio file must be encoded in m
 
 ## -see-also
 [CreateFileInputNodeAsync(IStorageFile)](audiograph_createfileinputnodeasync_152724062.md)
+## -capabilities
+backgroundMediaRecording

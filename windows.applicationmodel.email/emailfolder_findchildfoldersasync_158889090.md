@@ -20,3 +20,6 @@ The list of child folders.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

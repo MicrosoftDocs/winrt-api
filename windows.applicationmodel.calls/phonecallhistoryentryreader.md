@@ -17,3 +17,6 @@ Enables the calling app to read through the phone call history entries.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

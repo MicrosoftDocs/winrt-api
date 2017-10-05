@@ -48,3 +48,6 @@ An asynchronous operation that, on successful completion, returns the app or set
 ## -examples
 
 ## -see-also
+
+## -capabilities
+runFullTrust

@@ -20,3 +20,6 @@ The maximum number of sibling relationships that can be synchronized.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

@@ -20,3 +20,6 @@ The type of media that is included in the filter.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

@@ -21,3 +21,6 @@ A list of objects that represent UICC applications.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

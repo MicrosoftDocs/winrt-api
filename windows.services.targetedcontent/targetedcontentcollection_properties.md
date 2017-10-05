@@ -19,3 +19,6 @@ Gets a collection containing property name as keys and TargetedContentValues as 
 
 ## -examples
 
+
+## -capabilities
+secondaryAuthenticationFactor

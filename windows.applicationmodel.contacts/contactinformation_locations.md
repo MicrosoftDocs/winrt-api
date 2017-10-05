@@ -24,3 +24,6 @@ Use the [Locations](contactinformation_locations.md) property to access a contac
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

@@ -21,3 +21,6 @@ THe string value of the GID1 obtained from the SIM card.
 
 ## -examples
 
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

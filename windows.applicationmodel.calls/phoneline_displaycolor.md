@@ -20,3 +20,6 @@ The preferred display color of the phone line.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

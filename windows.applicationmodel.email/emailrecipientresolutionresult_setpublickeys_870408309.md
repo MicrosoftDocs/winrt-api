@@ -21,3 +21,6 @@ An iterable collection of certificates.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

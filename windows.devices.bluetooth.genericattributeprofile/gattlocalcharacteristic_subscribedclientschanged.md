@@ -18,3 +18,6 @@ An event that triggers when the clients subscribed to this local characteristic 
 
 ## -examples
 
+
+## -capabilities
+bluetooth

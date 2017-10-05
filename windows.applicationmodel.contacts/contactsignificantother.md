@@ -18,3 +18,5 @@ Represents the info about a significant other for a contact.
 
 ## -see-also
 [SignificantOthers](contact_significantothers.md)
+## -capabilities
+contactsSystem

@@ -19,3 +19,6 @@ Gets the boolean for the ShouldDisplay state for the item.
 
 ## -examples
 
+
+## -capabilities
+secondaryAuthenticationFactor

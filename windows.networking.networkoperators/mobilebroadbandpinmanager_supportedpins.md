@@ -22,3 +22,5 @@ a list of the supported PIN types for the mobile broadband modem and SIM Card.
 
 ## -see-also
 [MobileBroadbandPin](mobilebroadbandpin.md), [MobileBroadbandPinType](mobilebroadbandpintype.md)
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

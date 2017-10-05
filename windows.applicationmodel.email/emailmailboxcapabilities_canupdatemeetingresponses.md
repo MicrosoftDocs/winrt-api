@@ -20,3 +20,6 @@ The Boolean value indicating whether the email mailbox is allowed to update meet
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

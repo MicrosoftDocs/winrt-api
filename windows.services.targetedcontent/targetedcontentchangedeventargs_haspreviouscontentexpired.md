@@ -19,3 +19,6 @@ Gets a boolean value indicating if the previous content for TargetedContentChang
 
 ## -examples
 
+
+## -capabilities
+secondaryAuthenticationFactor

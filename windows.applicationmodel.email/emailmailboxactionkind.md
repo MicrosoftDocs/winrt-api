@@ -52,3 +52,5 @@ Enable sync for this folder.
 ## -examples
 
 ## -see-also
+## -capabilities
+email, emailSystem

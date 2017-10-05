@@ -20,3 +20,6 @@ The altitude reference system of the geographic shape.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+location

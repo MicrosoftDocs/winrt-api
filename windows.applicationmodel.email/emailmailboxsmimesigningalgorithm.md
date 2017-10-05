@@ -28,3 +28,5 @@ Use Message Digest algorithm 5 (128-bit).
 ## -examples
 
 ## -see-also
+## -capabilities
+email, emailSystem

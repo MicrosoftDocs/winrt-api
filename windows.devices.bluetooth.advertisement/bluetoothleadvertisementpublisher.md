@@ -69,3 +69,5 @@ The following advertisement types are system-reserved and are not allowed:
 
 ## -see-also
 [BluetoothLEAdvertisement](bluetoothleadvertisement.md), [BluetoothLEAdvertisement.DataSections](bluetoothleadvertisement_datasections.md), [BluetoothLEAdvertisementReceivedEventArgs](bluetoothleadvertisementreceivedeventargs.md)
+## -capabilities
+bluetooth

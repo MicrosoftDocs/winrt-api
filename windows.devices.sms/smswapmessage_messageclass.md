@@ -24,4 +24,4 @@ The message class of the [SmsWapMessage](smswapmessage.md).
 [SmsMessageClass](smsmessageclass.md)
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

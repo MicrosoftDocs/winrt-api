@@ -21,4 +21,4 @@ Delivers the filtered message to the messaging app.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

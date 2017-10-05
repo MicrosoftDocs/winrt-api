@@ -21,3 +21,6 @@ The Bluetooth SIG-defined LinkLoss service UUID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

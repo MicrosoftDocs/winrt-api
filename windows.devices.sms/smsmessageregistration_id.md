@@ -24,4 +24,4 @@ The identifier specified at registration.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

@@ -21,3 +21,6 @@ Gets the [RfcommDeviceService](rfcommdeviceservice.md) object.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

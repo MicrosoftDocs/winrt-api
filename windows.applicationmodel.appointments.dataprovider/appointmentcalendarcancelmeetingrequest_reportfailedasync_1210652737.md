@@ -21,3 +21,6 @@ This method should be called only if the app has failed to push a meeting cancel
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

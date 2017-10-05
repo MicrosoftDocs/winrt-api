@@ -20,3 +20,6 @@ The slot index of the SIM card associated with a cellular phone line.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

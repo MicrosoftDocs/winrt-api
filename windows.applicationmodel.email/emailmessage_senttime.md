@@ -20,3 +20,6 @@ The time an email was sent.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

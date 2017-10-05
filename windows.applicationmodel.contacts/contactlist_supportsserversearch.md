@@ -20,3 +20,6 @@ A Boolean value indicating if you can search the remote server with this [Contac
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

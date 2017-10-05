@@ -22,3 +22,6 @@ The recipient strings in the list can be either contact names, addresses, or pho
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

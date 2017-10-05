@@ -17,3 +17,6 @@ Provides the ability to configure and create a [NetworkOperatorTetheringAccessPo
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

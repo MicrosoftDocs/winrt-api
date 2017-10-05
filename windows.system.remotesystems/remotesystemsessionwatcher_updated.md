@@ -18,3 +18,6 @@ Raised when a previously discovered remote session has some part of its informat
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

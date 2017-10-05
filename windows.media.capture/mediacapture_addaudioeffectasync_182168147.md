@@ -24,3 +24,6 @@ An asynchronous operation that returns an [IMediaExtension](../windows.media/ime
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

@@ -21,3 +21,6 @@ The ID of the transport where this message originated.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

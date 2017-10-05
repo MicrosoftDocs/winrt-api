@@ -23,4 +23,5 @@ The vertical dilution of precision (VDOP).
 
 
 ## -capabilities
+location
 ID_CAP_LOCATION [Windows Phone]

@@ -24,4 +24,4 @@ The encoding used to send the message.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

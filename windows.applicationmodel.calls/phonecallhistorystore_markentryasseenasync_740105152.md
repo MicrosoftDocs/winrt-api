@@ -27,4 +27,5 @@ The entry to update.
 
 
 ## -capabilities
+phoneCallHistory, phoneCallHistorySystem
 phoneCallHistoryPublic

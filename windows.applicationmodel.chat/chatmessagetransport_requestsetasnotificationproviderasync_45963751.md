@@ -21,3 +21,6 @@ An asynchronous action.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

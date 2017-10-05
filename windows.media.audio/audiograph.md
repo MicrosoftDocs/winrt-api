@@ -28,3 +28,5 @@ The entire audio graph must operate at the same sample rate. Sources can have di
 
 ## -see-also
 [IClosable](../windows.foundation/iclosable.md), [Audio graphs](https://msdn.microsoft.com/windows/uwp/audio-video-camera/audio-graphs)
+## -capabilities
+backgroundMediaRecording

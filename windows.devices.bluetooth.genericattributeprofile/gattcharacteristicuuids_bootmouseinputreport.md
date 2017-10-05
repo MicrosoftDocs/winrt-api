@@ -21,3 +21,6 @@ The Bluetooth SIG-defined BootMouseInputReport characteristic UUID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

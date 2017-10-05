@@ -36,3 +36,6 @@ The newly created response email message.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

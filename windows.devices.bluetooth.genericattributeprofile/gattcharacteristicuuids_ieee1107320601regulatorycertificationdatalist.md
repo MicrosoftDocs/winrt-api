@@ -21,3 +21,6 @@ The Bluetooth SIG-defined Ieee1107320601RegulatoryCertificationDataList characte
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

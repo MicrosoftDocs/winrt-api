@@ -20,3 +20,6 @@ The altitude reference system used by the [Geopath](geopath.md).
 ## -examples
 
 ## -see-also
+
+## -capabilities
+location

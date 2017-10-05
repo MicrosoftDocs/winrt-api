@@ -29,3 +29,6 @@ This example demonstrates using the [ContactPicker](contactpicker.md) to get the
 
 ## -see-also
 [Contact Picker app sample](http://go.microsoft.com/fwlink/p/?linkid=231575), [Contact picker sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=624041)
+
+## -capabilities
+contactsSystem

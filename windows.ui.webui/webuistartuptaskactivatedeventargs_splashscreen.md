@@ -10,8 +10,10 @@ public SplashScreen SplashScreen { get; }
 # Windows.UI.WebUI.WebUIStartupTaskActivatedEventArgs.SplashScreen
 
 ## -description
+Gets a [SplashScreen](../splashscreen.md) object that provides information about the transition from the splash screen to the activated app.
 
 ## -property-value
+The object that provides splash screen information.
 
 ## -remarks
 

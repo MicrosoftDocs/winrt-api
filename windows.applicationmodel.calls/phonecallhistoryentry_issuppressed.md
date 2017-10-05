@@ -20,3 +20,6 @@ Gets or sets whether this entry is suppressed.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

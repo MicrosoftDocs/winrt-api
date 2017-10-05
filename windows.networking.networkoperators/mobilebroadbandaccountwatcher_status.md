@@ -28,3 +28,6 @@ The status of the account watcher.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

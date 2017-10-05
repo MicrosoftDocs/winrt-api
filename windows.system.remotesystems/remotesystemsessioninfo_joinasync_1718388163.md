@@ -21,3 +21,6 @@ An asynchronous operation with the result of this join request. This also return
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

@@ -21,3 +21,6 @@ The complete list of 32-bit Bluetooth LE service UUIDs
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

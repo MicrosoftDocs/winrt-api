@@ -18,3 +18,6 @@ Call [GetDeferral](contactchangedeventargs_getdeferral.md) to get an instance of
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

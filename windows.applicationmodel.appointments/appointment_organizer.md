@@ -20,3 +20,6 @@ A [AppointmentOrganizer](appointmentorganizer.md) object that indicates the orga
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

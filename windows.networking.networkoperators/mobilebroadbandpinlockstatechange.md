@@ -25,3 +25,6 @@ The system creates instances of this class. Your code can retrieve the details f
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

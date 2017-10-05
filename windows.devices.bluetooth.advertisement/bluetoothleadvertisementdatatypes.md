@@ -19,3 +19,5 @@ Some of the Bluetooth LE advertisement types defined in the Generic Access Profi
 
 ## -see-also
 [BluetoothLEAdvertisement](bluetoothleadvertisement.md)
+## -capabilities
+bluetooth

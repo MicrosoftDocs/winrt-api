@@ -22,3 +22,6 @@ A value of **true** if the corresponding session will only be discoverable for s
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

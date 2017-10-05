@@ -18,3 +18,6 @@ Starts the [AllJoynBusObject](alljoynbusobject.md). If the bus attachment is not
 ## -examples
 
 ## -see-also
+
+## -capabilities
+allJoyn

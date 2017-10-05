@@ -21,3 +21,6 @@ The error.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

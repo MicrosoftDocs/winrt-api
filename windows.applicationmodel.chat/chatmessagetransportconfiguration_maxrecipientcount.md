@@ -21,3 +21,6 @@ The maximum number of recipients.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

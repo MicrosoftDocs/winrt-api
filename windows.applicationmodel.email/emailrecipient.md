@@ -17,3 +17,6 @@ Represents an email recipient.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

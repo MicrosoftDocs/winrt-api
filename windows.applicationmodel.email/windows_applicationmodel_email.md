@@ -13,3 +13,5 @@ Supports creating and interacting with email messages, recipients, and attachmen
 ## -examples
 
 ## -see-also
+## -capabilities
+email, emailSystem

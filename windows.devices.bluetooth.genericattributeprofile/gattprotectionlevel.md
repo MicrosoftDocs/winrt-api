@@ -34,3 +34,5 @@ Require the link to be encrypted and authenticated.
 ## -examples
 
 ## -see-also
+## -capabilities
+bluetooth

@@ -21,4 +21,4 @@ Unregisters a previously-registered message filter. The filter will no longer be
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

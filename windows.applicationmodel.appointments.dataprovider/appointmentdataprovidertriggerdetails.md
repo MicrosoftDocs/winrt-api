@@ -18,3 +18,6 @@ Cast this type from a background task's [TriggerDetails](../windows.applicationm
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

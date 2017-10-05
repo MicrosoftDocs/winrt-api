@@ -34,3 +34,5 @@ An asynchronous operation that returns [IVectorView](../windows.foundation.colle
 
 ## -see-also
 [FindAllInstancesAsync(String, DateTime, TimeSpan)](appointmentcalendar_findallinstancesasync_841982484.md)
+## -capabilities
+appointmentsSystem

@@ -22,3 +22,6 @@ A Boolean value indicating if the [ShowContactCard](contactmanager_showcontactca
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

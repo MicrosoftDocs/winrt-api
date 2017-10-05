@@ -26,3 +26,5 @@ The *encodingProperties* parameter specifies the sample rate at which the create
 
 ## -see-also
 [CreateFrameInputNode](audiograph_createframeinputnode_80496994.md)
+## -capabilities
+backgroundMediaRecording

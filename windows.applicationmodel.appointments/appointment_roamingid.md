@@ -20,3 +20,6 @@ A string that uniquely identifies an appointment across devices.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

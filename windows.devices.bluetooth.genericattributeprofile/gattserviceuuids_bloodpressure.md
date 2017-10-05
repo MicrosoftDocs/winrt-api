@@ -21,3 +21,6 @@ The Bluetooth SIG-defined Blood Pressure Service UUID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

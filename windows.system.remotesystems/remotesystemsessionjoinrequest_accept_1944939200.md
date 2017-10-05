@@ -19,3 +19,6 @@ When this method is called, the device in question (described by the [RemoteSyst
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

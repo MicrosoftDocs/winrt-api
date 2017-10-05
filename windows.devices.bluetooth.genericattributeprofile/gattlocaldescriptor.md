@@ -18,3 +18,6 @@ This class defines a descriptor of a local characteristic.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

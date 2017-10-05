@@ -33,3 +33,5 @@ The radio is on.
 ## -examples
 
 ## -see-also
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

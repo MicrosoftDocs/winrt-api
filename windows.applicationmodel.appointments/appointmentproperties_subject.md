@@ -20,3 +20,6 @@ The name of the [Subject](appointment_subject.md) property.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

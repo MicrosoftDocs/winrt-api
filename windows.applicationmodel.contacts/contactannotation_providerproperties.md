@@ -20,3 +20,6 @@ Data to be used by the app when interacting with a service provider.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

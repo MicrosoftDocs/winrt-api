@@ -32,3 +32,6 @@ If the [ResultCode](ussdreply_resultcode.md) property returns **ActionRequired**
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

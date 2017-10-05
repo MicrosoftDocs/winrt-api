@@ -24,3 +24,6 @@ An asynchronous boolean response. True indicates that the number should be diale
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

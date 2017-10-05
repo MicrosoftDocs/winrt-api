@@ -22,3 +22,5 @@ The Uniform Resource Identifier (URI) to load.
 
 ## -see-also
 [Uri](../windows.foundation/uri.md), [WebView control (XAML) sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=722922)
+## -capabilities
+enterpriseCloudSS

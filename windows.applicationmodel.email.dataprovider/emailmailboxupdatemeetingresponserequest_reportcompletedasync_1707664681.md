@@ -20,3 +20,6 @@ An asynchronous update operation on an [EmailMailboxUpdateMeetingResponseRequest
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

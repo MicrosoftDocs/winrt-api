@@ -21,3 +21,6 @@ A [RemoteSystemSessionParticipant](RemoteSystemSessionParticipant.md) object rep
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

@@ -21,3 +21,6 @@ The audio endpoint specified by the application is provided as a hint to the sys
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

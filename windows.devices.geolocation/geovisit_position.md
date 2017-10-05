@@ -21,3 +21,6 @@ The location of the Visit-related state change.
 
 ## -examples
 
+
+## -capabilities
+location

@@ -20,4 +20,5 @@ Raised when the user answers an incoming call.
 
 
 ## -capabilities
+phoneCallHistory, phoneCallHistorySystem
 voipCall

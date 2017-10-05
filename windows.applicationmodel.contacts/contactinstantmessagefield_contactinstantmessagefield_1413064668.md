@@ -37,3 +37,5 @@ The Uniform Resource Identifier (URI) that starts an instant message.
 
 ## -see-also
 [ContactInstantMessageField(String)](contactinstantmessagefield_contactinstantmessagefield_290278668.md), [ContactInstantMessageField(String, ContactFieldCategory)](contactinstantmessagefield_contactinstantmessagefield_1454223364.md)
+## -capabilities
+contactsSystem

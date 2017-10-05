@@ -20,3 +20,6 @@ The list of contacts returned by a search operation.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

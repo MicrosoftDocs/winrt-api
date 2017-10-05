@@ -31,3 +31,5 @@ The profile is in the process of connecting.
 ## -examples
 
 ## -see-also
+## -capabilities
+networkingVpnProvider

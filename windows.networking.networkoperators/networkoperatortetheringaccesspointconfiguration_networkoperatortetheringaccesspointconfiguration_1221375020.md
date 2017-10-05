@@ -17,3 +17,6 @@ Creates an instance of the [NetworkOperatorTetheringAccessPointConfiguration](ne
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

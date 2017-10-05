@@ -21,3 +21,6 @@ A Boolean value indicating whether the error for the message that was sent to th
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

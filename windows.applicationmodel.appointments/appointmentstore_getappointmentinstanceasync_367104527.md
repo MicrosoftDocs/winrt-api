@@ -27,3 +27,6 @@ An asynchronous operation that returns an [Appointment](appointment.md) upon suc
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

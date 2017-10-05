@@ -18,3 +18,6 @@ The system generates an instance of this class and sets it as a property in the 
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

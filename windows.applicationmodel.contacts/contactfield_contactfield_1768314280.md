@@ -34,3 +34,5 @@ The category the field belongs to.
 
 ## -see-also
 [ContactField(String, ContactFieldType)](contactfield_contactfield_2065220202.md), [ContactField(String, ContactFieldType, ContactFieldCategory)](contactfield_contactfield_187090822.md)
+## -capabilities
+contactsSystem

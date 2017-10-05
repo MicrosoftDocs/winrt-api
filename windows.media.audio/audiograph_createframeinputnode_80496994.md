@@ -21,3 +21,5 @@ An audio frame input node.
 
 ## -see-also
 [CreateFrameInputNode(AudioEncodingProperties)](audiograph_createframeinputnode_772246878.md)
+## -capabilities
+backgroundMediaRecording

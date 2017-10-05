@@ -26,3 +26,5 @@ Specify the [MediaCapture](mediacapturememorypreference.md) sharing mode by sett
 ## -examples
 
 ## -see-also
+## -capabilities
+backgroundMediaRecording

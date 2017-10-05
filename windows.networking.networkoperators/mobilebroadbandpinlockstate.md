@@ -37,3 +37,5 @@ An invalid PIN has been entered too often and a PIN Unblock Key (PUK) is needed 
 
 ## -see-also
 [MobileBroadbandPin](mobilebroadbandpin.md), [MobileBroadbandPinType](mobilebroadbandpintype.md)
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

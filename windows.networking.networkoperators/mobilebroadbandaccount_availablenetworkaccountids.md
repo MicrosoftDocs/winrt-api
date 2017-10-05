@@ -28,3 +28,6 @@ A list of all network account IDs for the network service provider.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

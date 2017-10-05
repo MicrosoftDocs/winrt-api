@@ -22,3 +22,5 @@ An async action indicating that the operation has finished.
 
 ## -see-also
 [MarkAsSeenAsync(IIterable(String))](chatmessagestore_markasseenasync_1185002275.md)
+## -capabilities
+chatSystem, smsSend, chat

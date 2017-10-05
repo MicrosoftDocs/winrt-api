@@ -24,3 +24,6 @@ The type of address represented by *rawAddress*.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

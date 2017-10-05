@@ -68,7 +68,7 @@ The app was activated as the result of a voice command.
 > Not supported in Windows 8 and Windows 8.1 apps.
 
 ### -field LockScreen:17
-The app was activated as the lock screen. Introduced in Windows 10 (10.0.10240).
+The app was activated as the lock screen. Introduced in Windows 10, version 1507 (10.0.10240).
 
 ### -field PickerReturned:1000
 Windows Phone only. The app was activated after the completion of a picker.
@@ -89,25 +89,25 @@ Windows Phone only. The app was activated after the app was suspended for a fold
 Windows Phone only. The app was activated after the app was suspended for a web authentication broker operation.
 
 ### -field WebAccountProvider:1006
-The app was activated by a web account provider. Introduced in Windows 10 (10.0.10240).
+The app was activated by a web account provider. Introduced in Windows 10, version 1507 (10.0.10240).
 
 ### -field ComponentUI:1007
-Reserved for system use. Introduced in Windows 10 (10.0.10240).
+Reserved for system use. Introduced in Windows 10, version 1507 (10.0.10240).
 
 ### -field ProtocolForResults:1009
-The app was launched by another app with the expectation that it will return a result back to the caller. Introduced in Windows 10 (10.0.10240).
+The app was launched by another app with the expectation that it will return a result back to the caller. Introduced in Windows 10, version 1507 (10.0.10240).
 
 ### -field ToastNotification:1010
-The app was activated when a user tapped on the body of a toast notification or performed an action inside a toast notification. Introduced in Windows 10 (10.0.10240).
+The app was activated when a user tapped on the body of a toast notification or performed an action inside a toast notification. Introduced in Windows 10, version 1507 (10.0.10240).
 
 ### -field Print3DWorkflow:1011
-This app was launched by another app to provide a customized printing experience for a 3D printer. Introduced in Windows 10 (10.0.10240).
+This app was launched by another app to provide a customized printing experience for a 3D printer. Introduced in Windows 10, version 1507 (10.0.10240).
 
 ### -field DialReceiver:1012
-This app was launched by another app on a different device by using the DIAL protocol. Introduced in Windows 10 (10.0.10240).
+This app was launched by another app on a different device by using the DIAL protocol. Introduced in Windows 10, version 1507 (10.0.10240).
 
 ### -field DevicePairing:1013
-This app was activated as a result of pairing a device.gi
+This app was activated as a result of pairing a device.
 
 ### -field UserDataAccountsProvider:1014
 The app was launched to handle the user interface for account management. In circumstances where the system would have shown the default system user interface, it instead has invoked your app with the UserDataAccountProvider contract. The activation payload contains information about the type of operation being requested and all the information necessary to replicate the system-provided user interface. This activation kind is limited to 1st party apps. To use this field, you must add the **userDataAccountsProvider** capability in your app's package manifest. For more info see [App capability declarations](http://aka.ms/appcap). Introduced in Windows 10, version 1607 (10.0.14393).
@@ -116,22 +116,22 @@ The app was launched to handle the user interface for account management. In cir
 Reserved for system use. Introduced in Windows 10, version 1607 (10.0.14393).
 
 ### -field ContactPanel:1017
-The app was launched by the **My People** UI. Note: introduced in Windows 10, version 1703 (10.0.15063), but not used. Prerelease: now used.
+The app was launched from the **My People** UI. Note: introduced in Windows 10, version 1703 (10.0.15063), but not used. Now used starting with Windows 10, version 1709 (10.0.16299).
 
 ### -field LockScreenComponent:1016
 Reserved for system use. Introduced in Windows 10, version 1703 (10.0.15063).
 
 ### -field PrintWorkflowForegroundTask:1018
-This app was activated because the user is printing to a printer that has a Print Workflow Application associated with it which has requested user input. Prerelease.
+The app was activated because the user is printing to a printer that has a Print Workflow Application associated with it which has requested user input.
 
 ### -field GameUIProvider:1019
-
+The app was activated because it was launched by the OS due to a game's request for Xbox-specific UI. Introduced in Windows 10, version 1703 (10.0.15063).
 
 ### -field StartupTask:1020
-
+The app was activated because the app is specified to launch at system startup or user log-in. Introduced in Windows 10, version 1703 (10.0.15063).
 
 ### -field CommandLineLaunch:1021
-The app was launched from the command line. Prerelease.
+The app was launched from the command line. Introduced in Windows 10, version 1709 (10.0.16299)
 
 ## -remarks
 

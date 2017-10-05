@@ -21,3 +21,6 @@ The slave connection interval range.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

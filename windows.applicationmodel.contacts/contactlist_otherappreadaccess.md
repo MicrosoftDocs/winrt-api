@@ -20,3 +20,6 @@ A value indicating the read access level to this [ContactList](contactlist.md) f
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

@@ -21,3 +21,6 @@ If you remove a base attachment, you cannot use smart-send.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

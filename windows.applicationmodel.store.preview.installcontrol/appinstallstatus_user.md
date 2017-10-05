@@ -20,3 +20,6 @@ An object that identifies the user for which the app is being installed.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+runFullTrust

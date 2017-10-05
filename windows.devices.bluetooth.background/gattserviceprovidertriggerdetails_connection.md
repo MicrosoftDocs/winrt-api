@@ -21,3 +21,6 @@ Gets the connection that triggered the event.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

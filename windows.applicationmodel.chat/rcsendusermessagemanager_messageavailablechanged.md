@@ -18,3 +18,6 @@ Occurs when a new message is available.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

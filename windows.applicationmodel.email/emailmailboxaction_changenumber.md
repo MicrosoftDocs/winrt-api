@@ -20,3 +20,6 @@ The number that identifies the change that occurred to the mailbox.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

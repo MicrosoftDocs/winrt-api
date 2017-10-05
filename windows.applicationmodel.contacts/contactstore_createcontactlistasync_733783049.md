@@ -25,3 +25,5 @@ The newly created [ContactList](contactlist.md).
 
 ## -see-also
 [CreateContactListAsync(String, String)](contactstore_createcontactlistasync_1732290999.md)
+## -capabilities
+contactsSystem

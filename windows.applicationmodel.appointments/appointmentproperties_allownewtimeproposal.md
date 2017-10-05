@@ -20,3 +20,6 @@ The name of [AllowNewTimeProposal](appointment_allownewtimeproposal.md) the prop
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

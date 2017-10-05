@@ -21,3 +21,6 @@ The communication status of the operation.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

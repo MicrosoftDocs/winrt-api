@@ -21,3 +21,6 @@ The byte value for an invalid PDU error.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

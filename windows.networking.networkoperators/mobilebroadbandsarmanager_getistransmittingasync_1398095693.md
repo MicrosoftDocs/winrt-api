@@ -21,3 +21,6 @@ True if the modem is transmitting; otherwise, it is idle.
 
 ## -examples
 
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

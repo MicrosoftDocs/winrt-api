@@ -18,3 +18,6 @@ Used in your [ServerSearchReadBatchRequested](contactdataproviderconnection_serv
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

@@ -28,3 +28,5 @@ The email message is of low importance.
 ## -examples
 
 ## -see-also
+## -capabilities
+email, emailSystem

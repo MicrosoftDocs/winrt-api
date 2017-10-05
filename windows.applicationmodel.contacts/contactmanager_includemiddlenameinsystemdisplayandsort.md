@@ -20,3 +20,6 @@ A Boolean that indicates whether the middle name of a contact is included in the
 ## -see-also
 
 ## -examples
+
+## -capabilities
+contactsSystem

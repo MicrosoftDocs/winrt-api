@@ -26,3 +26,5 @@ The AQS string for identifying instances of all Rfcomm services on a remote Blue
 
 ## -see-also
 [GetDeviceSelectorForBluetoothDevice(BluetoothDevice, BluetoothCacheMode)](rfcommdeviceservice_getdeviceselectorforbluetoothdevice_887551146.md)
+## -capabilities
+bluetooth

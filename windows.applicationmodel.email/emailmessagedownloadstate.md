@@ -31,3 +31,5 @@ The download of the email message has failed.
 ## -examples
 
 ## -see-also
+## -capabilities
+email, emailSystem

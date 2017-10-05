@@ -23,3 +23,6 @@ Returns an asynchronous operation that completes with a GattDeviceServicesResult
 
 ## -examples
 
+
+## -capabilities
+bluetooth

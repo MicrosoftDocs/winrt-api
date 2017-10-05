@@ -24,3 +24,6 @@ The email message specified in the *id* parameter.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

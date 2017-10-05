@@ -24,4 +24,4 @@ The callback number as a string.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

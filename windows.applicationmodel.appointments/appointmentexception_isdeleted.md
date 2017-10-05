@@ -20,3 +20,6 @@ A value indicating whether the exception is that the appointment instance has be
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

@@ -20,3 +20,6 @@ An ID that can be used by a service provider to access the [Contact](contact.md)
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

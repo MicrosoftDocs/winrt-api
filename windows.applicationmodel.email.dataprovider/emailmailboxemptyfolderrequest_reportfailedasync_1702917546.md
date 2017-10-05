@@ -26,3 +26,6 @@ An asynchronous empty operation on an [EmailMailboxEmptyFolderRequest](emailmail
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

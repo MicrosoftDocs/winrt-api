@@ -20,3 +20,6 @@ The [AppointmentCalendarCreateOrUpdateAppointmentRequest](appointmentcalendarcre
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

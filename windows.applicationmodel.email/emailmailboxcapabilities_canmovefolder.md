@@ -20,3 +20,6 @@ A Boolean value indicating if folders in the mailbox can be moved.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

@@ -20,3 +20,6 @@ The ID of the user data account for the mailbox.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

@@ -20,3 +20,6 @@ The ID of the most recent message in the conversation.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

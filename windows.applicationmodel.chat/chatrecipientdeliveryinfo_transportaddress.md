@@ -21,3 +21,6 @@ The transport address of the recipient.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

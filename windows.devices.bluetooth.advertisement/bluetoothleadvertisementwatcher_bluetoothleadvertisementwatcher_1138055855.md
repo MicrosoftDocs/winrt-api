@@ -23,3 +23,5 @@ The advertisement filter to initialize the watcher.
 
 ## -see-also
 [BluetoothLEAdvertisement](bluetoothleadvertisement.md), [BluetoothLEAdvertisementFilter](bluetoothleadvertisementfilter.md)
+## -capabilities
+bluetooth

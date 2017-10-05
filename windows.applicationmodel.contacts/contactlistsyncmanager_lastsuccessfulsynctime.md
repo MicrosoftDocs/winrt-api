@@ -20,3 +20,6 @@ The last time the [ContactList](contactlist.md) was successfully synced with the
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

@@ -20,3 +20,6 @@ A string representing the display name for the [AppointmentCalendar](appointment
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

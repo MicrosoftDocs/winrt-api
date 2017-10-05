@@ -20,3 +20,6 @@ The name of the [OriginalStartTime](appointment_originalstarttime.md) property.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

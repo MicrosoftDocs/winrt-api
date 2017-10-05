@@ -20,3 +20,6 @@ The expiration date for the IRM permissions.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

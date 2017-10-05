@@ -32,3 +32,5 @@ The *encodingProperties* parameter specifies the sample rate at which the create
 
 ## -see-also
 [CreateDeviceInputNodeAsync(MediaCategory)](audiograph_createdeviceinputnodeasync_420106269.md), [CreateDeviceInputNodeAsync(MediaCategory, AudioEncodingProperties)](audiograph_createdeviceinputnodeasync_1285412965.md)
+## -capabilities
+backgroundMediaRecording

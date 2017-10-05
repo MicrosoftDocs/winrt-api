@@ -26,3 +26,6 @@ The [ShowConnectionUI](mobilebroadbandnetwork_showconnectionui.md) method is use
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

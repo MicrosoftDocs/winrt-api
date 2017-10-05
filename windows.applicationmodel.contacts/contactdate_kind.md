@@ -20,3 +20,6 @@ A [ContactDateKind](contactdatekind.md)-typed value that indicates the type of i
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

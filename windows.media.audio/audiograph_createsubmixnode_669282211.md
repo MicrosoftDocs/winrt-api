@@ -28,3 +28,5 @@ An audio submix node.
 
 ## -see-also
 [CreateSubmixNode](audiograph_createsubmixnode_1505743305.md), [CreateSubmixNode(AudioEncodingProperties)](audiograph_createsubmixnode_1936987637.md)
+## -capabilities
+backgroundMediaRecording

@@ -20,3 +20,6 @@ A Boolean value that indicates if the email message is allowed to be forwarded.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

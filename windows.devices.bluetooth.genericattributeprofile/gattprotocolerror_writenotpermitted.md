@@ -21,3 +21,6 @@ The byte value for a write not permitted error.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

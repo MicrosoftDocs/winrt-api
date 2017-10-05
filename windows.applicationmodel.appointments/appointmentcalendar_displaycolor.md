@@ -20,3 +20,6 @@ An unsigned integer representing the color that the built-in calendar app uses f
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

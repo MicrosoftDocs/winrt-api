@@ -25,3 +25,5 @@ The raw address is a custom string.
 ## -examples
 
 ## -see-also
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

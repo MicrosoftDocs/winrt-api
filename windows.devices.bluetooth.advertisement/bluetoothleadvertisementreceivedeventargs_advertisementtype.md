@@ -22,3 +22,5 @@ the type of the received Bluetooth LE advertisement packet.
 
 ## -see-also
 [BluetoothLEAdvertisement](bluetoothleadvertisement.md), [BluetoothLEAdvertisementWatcher](bluetoothleadvertisementwatcher.md)
+## -capabilities
+bluetooth

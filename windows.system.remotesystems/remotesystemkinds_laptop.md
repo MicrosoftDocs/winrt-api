@@ -23,3 +23,6 @@ String representing **laptop**.
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

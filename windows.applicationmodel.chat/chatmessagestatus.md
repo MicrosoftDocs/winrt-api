@@ -62,3 +62,5 @@ Receive retry needed
 ## -examples
 
 ## -see-also
+## -capabilities
+chatSystem, smsSend, chat

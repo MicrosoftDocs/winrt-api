@@ -22,3 +22,6 @@ The altitude reference system of the geographic point.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+location

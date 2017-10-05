@@ -24,3 +24,6 @@ Returns the newly created folder.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

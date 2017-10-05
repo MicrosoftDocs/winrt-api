@@ -34,3 +34,5 @@ The call is outgoing but not yet active.
 ## -examples
 
 ## -see-also
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

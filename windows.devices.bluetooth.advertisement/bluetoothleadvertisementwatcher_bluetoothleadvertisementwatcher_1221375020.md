@@ -19,3 +19,5 @@ Creates a new [BluetoothLEAdvertisementWatcher](bluetoothleadvertisementwatcher.
 
 ## -see-also
 [BluetoothLEAdvertisement](bluetoothleadvertisement.md), [BluetoothLEAdvertisementWatcher(BluetoothLEAdvertisementFilter)](bluetoothleadvertisementwatcher_bluetoothleadvertisementwatcher_1138055855.md)
+## -capabilities
+bluetooth

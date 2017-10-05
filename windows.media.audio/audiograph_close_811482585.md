@@ -17,3 +17,6 @@ Closes the audio graph.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

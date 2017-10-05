@@ -20,3 +20,6 @@ The flag status of an email message.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

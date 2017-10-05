@@ -18,3 +18,6 @@ Represents an AllJoyn session created with a provider to consume the services av
 ## -examples
 
 ## -see-also
+
+## -capabilities
+allJoyn

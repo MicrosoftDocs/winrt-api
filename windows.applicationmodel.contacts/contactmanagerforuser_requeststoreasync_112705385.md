@@ -24,3 +24,6 @@ Returns the [ContactStore](contactstore.md).
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

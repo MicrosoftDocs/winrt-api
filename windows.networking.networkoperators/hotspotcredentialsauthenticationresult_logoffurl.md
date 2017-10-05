@@ -21,3 +21,6 @@ The most recent Logoff URL.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

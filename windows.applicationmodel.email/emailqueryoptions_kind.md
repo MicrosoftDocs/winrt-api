@@ -20,3 +20,6 @@ The kind of emails for which to query.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

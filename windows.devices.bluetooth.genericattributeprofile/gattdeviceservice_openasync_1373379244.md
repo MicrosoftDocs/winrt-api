@@ -26,3 +26,6 @@ An asynchronous operation that completes with a GattOpenStatus object.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

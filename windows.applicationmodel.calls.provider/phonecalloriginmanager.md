@@ -17,3 +17,6 @@ Controls which application is responsible for determining the origin of incoming
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

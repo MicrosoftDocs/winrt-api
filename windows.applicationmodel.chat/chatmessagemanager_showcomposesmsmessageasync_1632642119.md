@@ -41,3 +41,6 @@ async void ComposeMessage()
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

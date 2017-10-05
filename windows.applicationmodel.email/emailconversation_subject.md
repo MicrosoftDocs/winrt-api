@@ -20,3 +20,6 @@ The subject of the latest message in the conversation.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

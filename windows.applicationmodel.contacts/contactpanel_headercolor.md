@@ -18,3 +18,6 @@ A [Color](./windows.ui/color.md)  that represents the desired color.
 ## -see-also
 
 ## -examples
+
+## -capabilities
+contactsSystem

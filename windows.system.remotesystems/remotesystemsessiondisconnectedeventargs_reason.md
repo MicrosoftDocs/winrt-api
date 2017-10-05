@@ -21,3 +21,6 @@ The [RemoteSystemSessionDisconnectedReason](RemoteSystemSessionDisconnectedReaso
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

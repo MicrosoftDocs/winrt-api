@@ -21,3 +21,6 @@ Gets a boolean indicating if the adapter supports the Bluetooth Classic transpor
 
 ## -examples
 
+
+## -capabilities
+bluetooth

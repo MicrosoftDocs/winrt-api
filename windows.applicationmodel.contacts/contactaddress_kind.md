@@ -20,3 +20,6 @@ A [ContactAddressKind](contactaddresskind.md)-typed value that indicates the typ
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

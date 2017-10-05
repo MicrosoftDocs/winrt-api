@@ -20,3 +20,6 @@ The returned change reader.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

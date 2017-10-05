@@ -41,3 +41,5 @@ IP multimedia services application.
 ## -examples
 
 ## -see-also
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

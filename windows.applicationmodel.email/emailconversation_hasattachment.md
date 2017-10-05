@@ -20,3 +20,6 @@ A Boolean value indicating if the conversation has an attachment.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

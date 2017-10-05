@@ -24,4 +24,4 @@ An enumerated value that indicates the readiness of an SMS device to engage in c
 [SmsDevice.DeviceStatus](smsdevice_devicestatus.md)
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

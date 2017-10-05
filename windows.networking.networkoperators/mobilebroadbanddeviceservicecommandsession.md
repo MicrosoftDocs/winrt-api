@@ -27,3 +27,5 @@ A [MobileBroadbandDeviceServiceCommandSession](mobilebroadbanddeviceservicecomma
 
 ## -see-also
 [MobileBroadbandDeviceService](mobilebroadbanddeviceservice.md), [MobileBroadbandModem.MaxDeviceServiceCommandSizeInBytes](mobilebroadbandmodem_maxdeviceservicecommandsizeinbytes.md), [MobileBroadbandDeviceService.OpenCommandSession](mobilebroadbanddeviceservice_opencommandsession.md)
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

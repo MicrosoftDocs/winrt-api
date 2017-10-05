@@ -20,3 +20,6 @@ An object that provides operations that an app can perform on a contact list tha
 ## -see-also
 
 ## -examples
+
+## -capabilities
+contactsSystem

@@ -22,3 +22,5 @@ The status of the asynchronous operation.
 
 ## -see-also
 [ReadValueAsync](gattcharacteristic_readvalueasync.md)
+## -capabilities
+bluetooth

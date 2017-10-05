@@ -25,3 +25,5 @@ Server
 ## -examples
 
 ## -see-also
+## -capabilities
+contactsSystem

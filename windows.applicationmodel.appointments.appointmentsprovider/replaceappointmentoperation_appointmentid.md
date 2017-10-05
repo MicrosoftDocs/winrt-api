@@ -22,3 +22,6 @@ The identifier is typically a value that the appointments provider app previousl
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

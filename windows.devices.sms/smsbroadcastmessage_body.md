@@ -24,4 +24,4 @@ The body of the broadcast SMS message.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

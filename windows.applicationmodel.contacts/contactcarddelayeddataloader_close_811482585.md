@@ -17,3 +17,6 @@ Closes the delayed data loader. This informs the contact card to complete the UI
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

@@ -23,3 +23,6 @@ For more information on using frame sources, see [Process media frames with Medi
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

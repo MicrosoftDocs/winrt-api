@@ -23,3 +23,6 @@ The Uniform Resource Identifier (URI).
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

@@ -21,3 +21,6 @@ A unique appointment ID that the activating app can later use to remove this app
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

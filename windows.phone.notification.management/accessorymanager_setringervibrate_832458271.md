@@ -29,3 +29,6 @@ To set the phone to vibrate with no ringer, call this method passing (false, tru
 ## -examples
 
 ## -see-also
+
+## -capabilities
+accessoryManager

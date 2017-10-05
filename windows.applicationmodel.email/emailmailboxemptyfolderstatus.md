@@ -37,3 +37,5 @@ An error occurred while deleting parts of the folder.
 ## -examples
 
 ## -see-also
+## -capabilities
+email, emailSystem

@@ -24,3 +24,4 @@ Indicates whether the user should be prompted to set a default location manually
 
 ## -capabilities
 locationSystem
+location

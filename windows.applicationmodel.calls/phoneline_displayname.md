@@ -20,3 +20,6 @@ The user assigned friendly name for the phone line.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

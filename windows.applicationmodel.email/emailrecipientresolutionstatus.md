@@ -43,3 +43,5 @@ Resolution failed for unknown reason.
 ## -examples
 
 ## -see-also
+## -capabilities
+email, emailSystem

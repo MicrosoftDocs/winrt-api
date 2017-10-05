@@ -20,3 +20,6 @@ An asynchronous move operation on an [EmailMailboxMoveFolderRequest](emailmailbo
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

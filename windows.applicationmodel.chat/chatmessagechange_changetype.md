@@ -42,3 +42,6 @@ switch (messageChange.ChangeType)
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

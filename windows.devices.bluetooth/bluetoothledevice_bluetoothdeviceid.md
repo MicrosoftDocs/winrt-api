@@ -21,3 +21,6 @@ The bluetooth device ID.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

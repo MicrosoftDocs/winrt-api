@@ -22,3 +22,5 @@ the number of PIN entry attempts remaining until the mobile broadband PIN is blo
 
 ## -see-also
 [MobileBroadbandPin](mobilebroadbandpin.md)
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

@@ -26,3 +26,5 @@ The object required to manage the asynchronous operation, which, upon completion
 
 ## -see-also
 [ReadValueAsync](gattcharacteristic_readvalueasync_873593826.md)
+## -capabilities
+bluetooth

@@ -21,3 +21,6 @@ The Bluetooth SIG-defined LocationAndNavigation service UUID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

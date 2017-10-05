@@ -17,3 +17,6 @@ Occurs when the email client has requested to set auto reply settings.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

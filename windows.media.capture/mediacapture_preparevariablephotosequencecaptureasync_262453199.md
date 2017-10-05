@@ -24,3 +24,6 @@ When this method completes, a [VariablePhotoSequenceCapture](../windows.media.ca
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

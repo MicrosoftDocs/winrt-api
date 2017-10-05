@@ -44,3 +44,6 @@ Enum that defines all the values that TargetedContentInteraction can hold.
 
 ## -examples
 
+
+## -capabilities
+secondaryAuthenticationFactor

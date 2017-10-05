@@ -25,3 +25,6 @@ An asynchronous operation that, on successful completion, returns the collection
 
 ## -see-also
 [SearchForAllUpdatesAsync](appinstallmanager_searchforallupdatesasync_1093998542.md)
+
+## -capabilities
+runFullTrust

@@ -24,4 +24,5 @@ An async action indicating that the operation has completed.
 
 
 ## -capabilities
+chatSystem, smsSend, chat
 blockedChatMessages

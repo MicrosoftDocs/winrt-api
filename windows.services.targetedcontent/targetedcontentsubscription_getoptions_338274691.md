@@ -23,3 +23,6 @@ Gets an object to TargetedContentSubscriptionOptions for a given subscription.
 
 ## -examples
 
+
+## -capabilities
+secondaryAuthenticationFactor

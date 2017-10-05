@@ -24,3 +24,5 @@ Calling this API requires that the **ID_CAP_SMS** and **ID_CAP_SMS_COMPANION** c
 
 ## -see-also
 [Windows.ApplicationModel.Email.EmailMessage](../windows.applicationmodel.email/emailmessage_emailmessage.md)
+## -capabilities
+accessoryManager

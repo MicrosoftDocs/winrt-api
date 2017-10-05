@@ -17,3 +17,6 @@ Informs the activating app that the operation was canceled by the user.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

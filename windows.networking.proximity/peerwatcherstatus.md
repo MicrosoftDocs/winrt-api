@@ -38,3 +38,5 @@ Watching for peers has stopped due to a failure.
 ## -examples
 
 ## -see-also
+## -capabilities
+proximity

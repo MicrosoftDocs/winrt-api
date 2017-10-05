@@ -25,4 +25,4 @@ Use this class as you would use the [SmsDevice](smsdevice.md) class, when you ne
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

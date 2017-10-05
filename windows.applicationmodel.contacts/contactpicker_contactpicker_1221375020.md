@@ -18,3 +18,6 @@ To select contacts, create an instance of this class and then use either the [Pi
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

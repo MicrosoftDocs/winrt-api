@@ -18,3 +18,5 @@ Initializes a new instance of the [EmailAttachment](emailattachment.md) class.
 
 ## -see-also
 [EmailAttachment(String, IRandomAccessStreamReference)](emailattachment_emailattachment_1759667898.md)
+## -capabilities
+email, emailSystem

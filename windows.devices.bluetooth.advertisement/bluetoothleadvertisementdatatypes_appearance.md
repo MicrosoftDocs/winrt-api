@@ -21,3 +21,6 @@ The Bluetooth LE advertising appearance.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

@@ -18,3 +18,6 @@ Contains the SAR configuration properties and the control method to change them 
 
 ## -examples
 
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

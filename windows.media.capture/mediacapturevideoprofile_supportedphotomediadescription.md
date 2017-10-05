@@ -22,3 +22,5 @@ You configure the capture device to use a particular [MediaCaptureVideoProfileMe
 
 ## -see-also
 [MediaCaptureInitializationSettings::PreviewMediaDescription](mediacaptureinitializationsettings_previewmediadescription.md), [MediaCaptureInitializationSettings::PhotoMediaDescription](mediacaptureinitializationsettings_photomediadescription.md)
+## -capabilities
+backgroundMediaRecording

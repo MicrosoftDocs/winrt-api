@@ -24,3 +24,6 @@ An async operation with an [EmailMailboxDeleteFolderStatus](emailmailboxdeletefo
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

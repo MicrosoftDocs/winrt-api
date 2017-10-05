@@ -22,3 +22,5 @@ The Bluetooth LE advertisement data type,
 
 ## -see-also
 [BluetoothLEAdvertisement](bluetoothleadvertisement.md)
+## -capabilities
+bluetooth

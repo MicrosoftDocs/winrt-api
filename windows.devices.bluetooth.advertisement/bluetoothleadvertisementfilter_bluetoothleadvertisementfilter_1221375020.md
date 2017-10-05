@@ -18,3 +18,6 @@ Creates a new [BluetoothLEAdvertisementFilter](bluetoothleadvertisementfilter.md
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

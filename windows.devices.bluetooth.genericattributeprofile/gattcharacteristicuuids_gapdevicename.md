@@ -21,3 +21,6 @@ The Bluetooth SIG-defined GapDeviceName characteristic UUID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

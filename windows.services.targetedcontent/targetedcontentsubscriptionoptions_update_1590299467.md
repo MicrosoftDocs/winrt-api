@@ -19,3 +19,6 @@ Updates the TargetedContentSubscriptionOptions object for a subscription.
 
 ## -examples
 
+
+## -capabilities
+secondaryAuthenticationFactor

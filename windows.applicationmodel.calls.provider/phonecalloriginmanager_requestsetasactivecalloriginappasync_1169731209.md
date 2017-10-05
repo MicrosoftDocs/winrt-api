@@ -21,3 +21,6 @@ In order to use this API, your application needs to be registered as a phone cal
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

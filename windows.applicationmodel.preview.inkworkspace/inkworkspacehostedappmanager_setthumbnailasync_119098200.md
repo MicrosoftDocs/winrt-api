@@ -28,3 +28,4 @@ An asynchronous action that doesn't return anything.
 
 ## -capabilities
 previewInkWorkspace
+previewPenWorkspace

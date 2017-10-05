@@ -18,3 +18,6 @@ An event that is triggered when the state of the write request has changed.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

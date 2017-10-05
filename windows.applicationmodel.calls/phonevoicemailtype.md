@@ -28,3 +28,5 @@ The phone line has visual voice mail.
 ## -examples
 
 ## -see-also
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

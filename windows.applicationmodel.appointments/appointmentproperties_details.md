@@ -20,3 +20,6 @@ The name of the [Details](appointment_details.md) property.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

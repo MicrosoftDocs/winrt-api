@@ -17,3 +17,6 @@ Occurs when the [PhoneLineWatcher](phonelinewatcher.md) instance detects a new p
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

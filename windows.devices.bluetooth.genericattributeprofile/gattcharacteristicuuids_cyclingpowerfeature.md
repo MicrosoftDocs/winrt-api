@@ -21,3 +21,6 @@ The Bluetooth SIG-defined CyclingPowerFeature characterisitc UUID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

@@ -17,3 +17,6 @@ Creates a new instance of the [Contact](contact.md) class.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

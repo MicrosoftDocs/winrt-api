@@ -18,3 +18,6 @@ Your code does not instantiate this class. The only member is a static method, w
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

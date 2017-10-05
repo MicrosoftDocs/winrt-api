@@ -20,3 +20,6 @@ This event is only generated once per [PhoneLineWatcher](phonelinewatcher.md) in
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

@@ -25,3 +25,6 @@ The default value for this property is a [TimeSpan](../windows.foundation/timesp
 ## -examples
 
 ## -see-also
+
+## -capabilities
+location

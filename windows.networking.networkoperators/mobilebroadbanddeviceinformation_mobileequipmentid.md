@@ -22,3 +22,6 @@ For GSM devices, the [MobileEquipmentId](mobilebroadbanddeviceinformation_mobile
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

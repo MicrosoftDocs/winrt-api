@@ -21,3 +21,6 @@ The byte value for an insufficient encryption error.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

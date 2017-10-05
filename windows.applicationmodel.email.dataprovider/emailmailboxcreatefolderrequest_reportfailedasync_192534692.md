@@ -26,3 +26,6 @@ An asynchronous create operation on an [EmailMailboxCreateFolderRequest](emailma
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

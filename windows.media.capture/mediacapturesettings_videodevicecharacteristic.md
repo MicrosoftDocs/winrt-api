@@ -20,3 +20,6 @@ A value of [VideoDeviceCharacteristic](videodevicecharacteristic.md) that indica
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

@@ -10,8 +10,10 @@ public string PublicMusic { get; }
 # Windows.Storage.SystemDataPaths.PublicMusic
 
 ## -description
+Gets the path to the Public Music folder on the machine.
 
 ## -property-value
+The full path to the Public Music folder.
 
 ## -remarks
 

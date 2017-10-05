@@ -20,3 +20,6 @@ The ID of this folder's parent folder.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

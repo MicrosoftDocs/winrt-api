@@ -20,3 +20,6 @@ The maximum number of partner relationships that can be synchronized.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

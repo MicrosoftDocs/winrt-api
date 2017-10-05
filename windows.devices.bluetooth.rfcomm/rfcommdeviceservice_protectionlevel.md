@@ -21,3 +21,6 @@ The current SocketProtectionLevel of the remote RFCOMM service instance.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

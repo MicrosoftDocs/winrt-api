@@ -6,7 +6,7 @@
 # Windows.Gaming.UI
 
 ## -description
-Contains the [GameBar](gamebar.md) class, which provides notifications and information about the visibility and input redirection state of Game bar.
+Provides ways to use Game bar, game monitoring, and game chat.
 
 ## -remarks
 

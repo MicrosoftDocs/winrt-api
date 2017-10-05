@@ -26,3 +26,5 @@ Indicates whether the radio is discoverable (true) or not (false).
 
 ## -see-also
 [StartAdvertising(StreamSocketListener)](rfcommserviceprovider_startadvertising_1818586023.md)
+## -capabilities
+bluetooth

@@ -20,3 +20,6 @@ The media category
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

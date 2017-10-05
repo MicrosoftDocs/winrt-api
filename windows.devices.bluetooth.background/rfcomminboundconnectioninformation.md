@@ -18,3 +18,6 @@ Provides information about incoming RFCOMM connections. If an app wants the syst
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

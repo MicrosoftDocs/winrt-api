@@ -20,3 +20,6 @@ The contact list that contains the contact that is to be deleted.
 ## -see-also
 
 ## -examples
+
+## -capabilities
+contactsSystem

@@ -43,3 +43,5 @@ The postal code for this contact's address.
 
 ## -see-also
 [ContactLocationField(String)](contactlocationfield_contactlocationfield_290278668.md), [ContactLocationField(String, ContactFieldCategory)](contactlocationfield_contactlocationfield_1454223364.md)
+## -capabilities
+contactsSystem

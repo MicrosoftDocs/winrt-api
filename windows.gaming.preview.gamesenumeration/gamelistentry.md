@@ -19,3 +19,6 @@ This API is not available to all apps. Unless your developer account is speciall
 ## -see-also
 [IGameListEntry](igamelistentry.md)
 
+
+## -capabilities
+gameList

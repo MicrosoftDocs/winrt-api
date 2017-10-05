@@ -27,3 +27,5 @@ A list of device service information objects is retrieved by the [DeviceServices
 
 ## -see-also
 [MobileBroadbandDeviceService](mobilebroadbanddeviceservice.md), [MobileBroadbandModem](mobilebroadbandmodem.md), [MobileBroadbandModem.DeviceServices](mobilebroadbandmodem_deviceservices.md)
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

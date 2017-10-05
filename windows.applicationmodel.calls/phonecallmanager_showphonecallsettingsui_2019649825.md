@@ -17,3 +17,6 @@ Launches the call settings UI.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

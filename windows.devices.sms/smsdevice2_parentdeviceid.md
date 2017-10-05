@@ -24,4 +24,4 @@ A string representation of the device ID of the parent to this device.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

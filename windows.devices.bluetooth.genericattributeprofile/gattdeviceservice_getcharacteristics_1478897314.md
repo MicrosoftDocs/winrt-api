@@ -26,3 +26,6 @@ Only a single app can access a single service. If one app has registered a GATT 
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

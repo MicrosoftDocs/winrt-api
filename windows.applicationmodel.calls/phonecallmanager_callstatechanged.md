@@ -17,3 +17,6 @@ Occurs when the basic call state of the device changes.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

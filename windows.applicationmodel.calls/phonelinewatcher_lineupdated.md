@@ -18,3 +18,6 @@ Cases where a phone line is updated include when the metadata for a phone line c
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

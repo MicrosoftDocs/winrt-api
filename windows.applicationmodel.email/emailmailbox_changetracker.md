@@ -20,3 +20,6 @@ The change tracker for this mailbox.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

@@ -24,3 +24,6 @@ Returns the contact manager for the account specified by the *user* parameter.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

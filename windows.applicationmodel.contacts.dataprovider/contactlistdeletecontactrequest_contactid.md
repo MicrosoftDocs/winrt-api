@@ -20,3 +20,6 @@ The contact ID of the contact to be deleted.
 ## -see-also
 
 ## -examples
+
+## -capabilities
+contactsSystem

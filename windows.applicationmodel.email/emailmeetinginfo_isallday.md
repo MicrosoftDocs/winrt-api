@@ -20,3 +20,6 @@ A Boolean value indicating whether the meeting is an all day event.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

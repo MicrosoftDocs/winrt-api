@@ -18,4 +18,5 @@ Represents a state of a TargetedContentItem object: AppInstallationState, Should
 ## -examples
 
 ## -capabilities
+secondaryAuthenticationFactor
 targetedContent

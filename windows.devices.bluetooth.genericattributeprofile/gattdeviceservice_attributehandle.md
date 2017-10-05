@@ -21,3 +21,6 @@ Handle to uniquely identify GATT-based service attributes.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

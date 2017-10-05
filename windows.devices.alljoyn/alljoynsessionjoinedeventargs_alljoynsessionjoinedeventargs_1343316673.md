@@ -22,3 +22,6 @@ The session that has been joined.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+allJoyn

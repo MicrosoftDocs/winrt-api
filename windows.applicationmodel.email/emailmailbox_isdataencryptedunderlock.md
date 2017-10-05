@@ -20,3 +20,6 @@ Boolean value that indicates if email data is encrypted when the device is locke
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

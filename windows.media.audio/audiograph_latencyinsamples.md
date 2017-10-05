@@ -20,3 +20,6 @@ A value indicating the sample latency.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

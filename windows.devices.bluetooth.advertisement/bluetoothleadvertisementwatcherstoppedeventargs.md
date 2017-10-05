@@ -19,3 +19,5 @@ Provides data for a [Stopped](bluetoothleadvertisementwatcher_stopped.md) event 
 
 ## -see-also
 [BluetoothLEAdvertisementWatcher](bluetoothleadvertisementwatcher.md), [BluetoothLEAdvertisementWatcher.Stopped](bluetoothleadvertisementwatcher_stopped.md)
+## -capabilities
+bluetooth

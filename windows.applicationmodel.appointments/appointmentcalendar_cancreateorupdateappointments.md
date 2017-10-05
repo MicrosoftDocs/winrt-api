@@ -20,3 +20,6 @@ Boolean value that indicates if the calendar supports creating or updating appoi
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

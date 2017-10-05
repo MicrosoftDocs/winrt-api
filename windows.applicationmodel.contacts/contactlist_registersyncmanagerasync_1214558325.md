@@ -21,3 +21,6 @@ The [SyncManager](contactlistsyncmanager.md) provides an entry point for other a
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

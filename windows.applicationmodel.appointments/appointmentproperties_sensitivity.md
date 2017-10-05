@@ -20,3 +20,6 @@ The name of the [Sensitivity](appointment_sensitivity.md) property.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

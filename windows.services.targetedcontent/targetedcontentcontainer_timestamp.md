@@ -19,3 +19,6 @@ The time the content was last updated.
 
 ## -examples
 
+
+## -capabilities
+secondaryAuthenticationFactor

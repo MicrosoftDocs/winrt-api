@@ -20,3 +20,6 @@ The unique identifier for the calendar associated with the appointment.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

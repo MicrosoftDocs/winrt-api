@@ -24,3 +24,6 @@ The auto-reply settings.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

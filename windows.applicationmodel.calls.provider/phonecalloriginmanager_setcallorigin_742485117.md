@@ -42,3 +42,6 @@ The following example shows how to set the location of the origin in response to
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

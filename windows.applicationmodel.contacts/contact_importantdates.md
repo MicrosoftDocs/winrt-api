@@ -21,3 +21,5 @@ An array of important dates for a contact.
 
 ## -see-also
 [ContactDate](contactdate.md)
+## -capabilities
+contactsSystem

@@ -20,3 +20,6 @@ Creates an instance of the [ContactFieldFactory](contactfieldfactory.md)class.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

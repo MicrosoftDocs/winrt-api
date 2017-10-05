@@ -18,3 +18,6 @@ Provides information about a [BluetoothLEAdvertisementWatcher](https://docs.micr
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

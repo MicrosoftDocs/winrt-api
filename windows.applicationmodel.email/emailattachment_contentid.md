@@ -20,3 +20,6 @@ A value that identifies the content of the attachment.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

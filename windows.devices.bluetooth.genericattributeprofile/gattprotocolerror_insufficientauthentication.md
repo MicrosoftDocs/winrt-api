@@ -21,3 +21,6 @@ The byte value for an insufficient authentication error.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

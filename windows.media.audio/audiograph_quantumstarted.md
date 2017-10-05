@@ -20,3 +20,6 @@ Because this event is synchronous and fires regularly on the processing cadence 
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

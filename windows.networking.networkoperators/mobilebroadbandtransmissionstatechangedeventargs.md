@@ -18,3 +18,6 @@ Provides data for the [TransmissionStateChanged](mobilebroadbandsarmanager_trans
 
 ## -examples
 
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

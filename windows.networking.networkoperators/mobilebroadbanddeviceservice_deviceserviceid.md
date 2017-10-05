@@ -21,3 +21,6 @@ The unique Device Service identity for the Mobile Broadband device service.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

@@ -24,4 +24,4 @@ The value of the **Content-Type** header in the message.
 [Headers](smswapmessage_headers.md)
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

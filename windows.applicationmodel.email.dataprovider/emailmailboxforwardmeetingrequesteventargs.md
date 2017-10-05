@@ -18,3 +18,6 @@ Use the instance of the class that is passed as an argument to your [ForwardMeet
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

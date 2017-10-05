@@ -20,3 +20,6 @@ The type of appointment details.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

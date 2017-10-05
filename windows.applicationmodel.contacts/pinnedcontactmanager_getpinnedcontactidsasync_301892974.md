@@ -26,3 +26,6 @@ This method can be called from a background thread.
 ## -see-also
 
 ## -examples
+
+## -capabilities
+contactsSystem

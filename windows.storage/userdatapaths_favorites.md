@@ -10,8 +10,10 @@ public string Favorites { get; }
 # Windows.Storage.UserDataPaths.Favorites
 
 ## -description
+Gets the path to a user's Favorites folder.
 
 ## -property-value
+The full path to the user's Favorites folder.
 
 ## -remarks
 

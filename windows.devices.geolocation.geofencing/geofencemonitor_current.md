@@ -21,3 +21,5 @@ Gets the [GeofenceMonitor](geofencemonitor.md) object which contains all of an a
 
 ## -see-also
 [Geofence](geofence.md)
+## -capabilities
+location

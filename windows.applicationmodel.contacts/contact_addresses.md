@@ -21,3 +21,5 @@ An array of contact addresses for a contact.
 
 ## -see-also
 [ContactAddress](contactaddress.md)
+## -capabilities
+contactsSystem

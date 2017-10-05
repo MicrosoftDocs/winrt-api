@@ -17,3 +17,6 @@ Informs the activating app that the operation was completed successfully.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

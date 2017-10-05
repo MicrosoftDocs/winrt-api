@@ -22,3 +22,5 @@ A new command session for the mobile broadband device service.
 
 ## -see-also
 [MobileBroadbandDeviceServiceCommandSession](mobilebroadbanddeviceservicecommandsession.md)
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

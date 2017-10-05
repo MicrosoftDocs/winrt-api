@@ -33,3 +33,5 @@ For how-to guidance for working with camera profiles, see [Discover and select c
 
 ## -see-also
 [KnownVideoProfile](knownvideoprofile.md), [FindAllVideoProfiles](mediacapture_findallvideoprofiles.md), [FindConcurrentProfiles](mediacapture_findconcurrentprofiles.md), [Discover and select camera capabilities with camera profiles](https://msdn.microsoft.com/en-us/windows/uwp/audio-video-camera/camera-profiles)
+## -capabilities
+backgroundMediaRecording

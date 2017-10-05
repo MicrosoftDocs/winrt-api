@@ -23,3 +23,6 @@ An asynchronous operation that completes with the descriptors for this GattChara
 
 ## -examples
 
+
+## -capabilities
+bluetooth

@@ -21,3 +21,6 @@ If you set the **MediaCategory** property, the media capture pipeline will attem
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

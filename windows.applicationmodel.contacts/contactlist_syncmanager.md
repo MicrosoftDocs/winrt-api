@@ -20,3 +20,6 @@ The [ContactListSyncManager](contactlistsyncmanager.md) used to communicate with
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

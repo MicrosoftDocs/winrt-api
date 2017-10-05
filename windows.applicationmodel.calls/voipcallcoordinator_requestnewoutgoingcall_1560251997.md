@@ -36,4 +36,5 @@ The object representing the new incoming call.
 
 
 ## -capabilities
+phoneCallHistory, phoneCallHistorySystem
 voipCall

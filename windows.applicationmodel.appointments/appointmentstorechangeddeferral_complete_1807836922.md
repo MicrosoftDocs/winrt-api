@@ -17,3 +17,6 @@ Informs the system that an asynchronous operation associated with an [Appointmen
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

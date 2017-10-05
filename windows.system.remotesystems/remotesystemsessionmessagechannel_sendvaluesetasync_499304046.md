@@ -29,3 +29,6 @@ An asynchronous operation containing a boolean value: **true** if the send opera
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

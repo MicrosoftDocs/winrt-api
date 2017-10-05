@@ -39,3 +39,5 @@ The publisher is aborted due to an error.
 
 ## -see-also
 [BluetoothLEAdvertisementPublisher](bluetoothleadvertisementpublisher.md), [BluetoothLEAdvertisementPublisher.Start](bluetoothleadvertisementpublisher_start.md), [BluetoothLEAdvertisementPublisher.Stop](bluetoothleadvertisementpublisher_stop.md)
+## -capabilities
+bluetooth

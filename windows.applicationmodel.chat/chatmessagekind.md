@@ -41,3 +41,5 @@ A conversation that another user left
 ## -examples
 
 ## -see-also
+## -capabilities
+chatSystem, smsSend, chat

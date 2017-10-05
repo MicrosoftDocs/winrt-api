@@ -50,3 +50,6 @@ public void Run(IBackgroundTaskInstance taskInstance)
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

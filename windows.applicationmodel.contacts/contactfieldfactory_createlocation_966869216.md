@@ -31,3 +31,5 @@ Contains a location field that you can add to a [Contact](contact.md) object.
 
 ## -see-also
 [CreateLocation(String)](contactfieldfactory_createlocation_2118237656.md), [CreateLocation(String, ContactFieldCategory, String, String, String, String, String)](contactfieldfactory_createlocation_1542951776.md)
+## -capabilities
+contactsSystem

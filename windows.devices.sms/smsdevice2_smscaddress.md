@@ -24,4 +24,4 @@ A string representation of the SMSC address of this device.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

@@ -27,3 +27,5 @@ A [MobileBroadbandDeviceServiceDataSession](mobilebroadbanddeviceservicedatasess
 
 ## -see-also
 [MobileBroadbandDeviceService](mobilebroadbanddeviceservice.md), [MobileBroadbandDeviceService.OpenDataSession](mobilebroadbanddeviceservice_opendatasession.md), [MobileBroadbandModem](mobilebroadbandmodem.md), [MobileBroadbandModem.MaxDeviceServiceDataSizeInBytes](mobilebroadbandmodem_maxdeviceservicedatasizeinbytes.md)
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

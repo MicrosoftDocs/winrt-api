@@ -25,3 +25,6 @@ The corresponding 128-bit GATT Descriptor UUID, that uniquely identifies this de
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

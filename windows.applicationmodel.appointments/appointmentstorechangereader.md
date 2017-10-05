@@ -18,3 +18,6 @@ Enables the calling app to read through the changes to appointments in its appoi
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

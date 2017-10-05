@@ -19,3 +19,6 @@ Messages are sent and received over this channel asynchronously, so the chronolo
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

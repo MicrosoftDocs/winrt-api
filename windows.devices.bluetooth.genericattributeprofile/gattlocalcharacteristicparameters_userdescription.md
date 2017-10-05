@@ -21,3 +21,6 @@ The user-friendly description.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

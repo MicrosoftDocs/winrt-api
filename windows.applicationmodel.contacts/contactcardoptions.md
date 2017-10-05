@@ -17,3 +17,6 @@ Represents data about how to display a mini contact card.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

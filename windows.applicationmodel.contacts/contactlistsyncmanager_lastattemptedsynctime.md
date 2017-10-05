@@ -20,3 +20,6 @@ The last time a sync was attempted with the server.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

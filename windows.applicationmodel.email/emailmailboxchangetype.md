@@ -40,3 +40,5 @@ Change unknown because change tracking was lost.
 ## -examples
 
 ## -see-also
+## -capabilities
+email, emailSystem

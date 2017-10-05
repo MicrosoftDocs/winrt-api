@@ -32,3 +32,6 @@ For how-to guidance on using video profiles, see [Discover and select camera cap
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

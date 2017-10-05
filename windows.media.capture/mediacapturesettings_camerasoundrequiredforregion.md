@@ -21,3 +21,6 @@ App developers can use this information to determine if they should suppress pla
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

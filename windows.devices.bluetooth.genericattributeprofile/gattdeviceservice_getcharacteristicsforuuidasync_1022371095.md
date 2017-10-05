@@ -26,3 +26,6 @@ An asynchronous operation that completes with a GattCharacteristicsResult object
 
 ## -examples
 
+
+## -capabilities
+bluetooth

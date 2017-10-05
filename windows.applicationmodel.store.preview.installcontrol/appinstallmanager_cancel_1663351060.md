@@ -25,3 +25,5 @@ A correlation vector string that can be used to generate telemetry data.
 
 ## -see-also
 [Cancel(String)](appinstallmanager_cancel_802731180.md)
+## -capabilities
+runFullTrust

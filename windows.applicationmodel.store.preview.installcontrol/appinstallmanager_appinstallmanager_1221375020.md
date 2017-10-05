@@ -17,3 +17,6 @@ Creates and initializes a new instance of the [AppInstallManager](appinstallmana
 ## -examples
 
 ## -see-also
+
+## -capabilities
+runFullTrust

@@ -20,3 +20,6 @@ The name of the [Duration](appointment_duration.md) property.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

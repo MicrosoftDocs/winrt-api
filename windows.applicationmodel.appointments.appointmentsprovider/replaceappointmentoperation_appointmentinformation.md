@@ -20,3 +20,6 @@ An instance of the [Appointment](../windows.applicationmodel.appointments/appoin
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

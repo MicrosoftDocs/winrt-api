@@ -21,3 +21,6 @@ true if an error occurred; otherwise, false.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

@@ -21,3 +21,6 @@ The service name or TCP port number of the peer.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+proximity

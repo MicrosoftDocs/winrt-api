@@ -23,3 +23,6 @@ Represents TDSCDMA network provider/cell information including identifications a
 
 ## -examples
 
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

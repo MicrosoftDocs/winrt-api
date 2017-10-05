@@ -20,3 +20,6 @@ The [AppointmentCalendarCancelMeetingRequest](appointmentcalendarcancelmeetingre
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

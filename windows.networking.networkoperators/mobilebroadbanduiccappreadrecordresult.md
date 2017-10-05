@@ -19,3 +19,6 @@ Your code does not instantiate this class directly. Instead, use the instance re
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

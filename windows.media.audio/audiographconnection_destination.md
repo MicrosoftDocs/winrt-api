@@ -20,3 +20,6 @@ The **IAudioNode** interface for the destination node.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

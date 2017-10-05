@@ -24,3 +24,6 @@ When this operation completes, a **CreateAudioFileInputNodeResult** object is re
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

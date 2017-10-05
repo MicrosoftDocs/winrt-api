@@ -61,3 +61,5 @@ The app is ready to download.
 ## -examples
 
 ## -see-also
+## -capabilities
+runFullTrust

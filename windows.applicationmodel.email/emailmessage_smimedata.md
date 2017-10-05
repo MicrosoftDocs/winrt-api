@@ -23,3 +23,6 @@ For more information about S/MIME encryption and certificates, see [Secure/Multi
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

@@ -22,3 +22,6 @@ You can use the [SimIccId](mobilebroadbanddeviceinformation_simiccid.md) value t
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

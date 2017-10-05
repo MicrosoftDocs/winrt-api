@@ -21,3 +21,6 @@ The Bluetooth SIG-defined Glucose Measurement Context Characteristic UUID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

@@ -20,3 +20,6 @@ A Boolean value that indicates if the user can copy the contents of an email mes
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

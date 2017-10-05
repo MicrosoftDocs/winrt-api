@@ -20,3 +20,6 @@ The deferral object for the [UpdateMeetingResponseRequested](appointmentdataprov
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

@@ -24,3 +24,5 @@ Removal event notifications can happen when the app is in the foreground or the 
 
 ## -see-also
 [GeofenceMonitor](geofencemonitor.md), [Geofence](geofence.md)
+## -capabilities
+location

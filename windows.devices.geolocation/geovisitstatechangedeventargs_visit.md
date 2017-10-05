@@ -21,3 +21,6 @@ A [Geovisit](Geovisit.md) instance representing the Visit-related event that den
 
 ## -examples
 
+
+## -capabilities
+location

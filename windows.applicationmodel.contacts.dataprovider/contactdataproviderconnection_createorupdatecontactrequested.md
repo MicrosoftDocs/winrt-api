@@ -17,3 +17,6 @@ Raised when the client app attempts to create or update a contact.
 ## -see-also
 
 ## -examples
+
+## -capabilities
+contactsSystem

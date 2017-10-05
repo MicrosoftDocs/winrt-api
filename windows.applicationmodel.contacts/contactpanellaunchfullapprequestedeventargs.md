@@ -33,3 +33,6 @@ async void OnLaunchFullAppRequested(ContactPanel ContactPanel,
 }
 
 ```
+
+## -capabilities
+contactsSystem

@@ -21,3 +21,6 @@ The address of the remote chat participant.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

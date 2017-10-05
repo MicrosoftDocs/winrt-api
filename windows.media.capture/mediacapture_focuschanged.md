@@ -17,3 +17,6 @@ Occurs when the capture device changes focus.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

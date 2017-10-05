@@ -22,3 +22,6 @@ A [RemoteSystem](RemoteSystem.md) object representing the participant device.
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

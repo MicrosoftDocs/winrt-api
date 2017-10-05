@@ -20,3 +20,6 @@ A Boolean value indicating success.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

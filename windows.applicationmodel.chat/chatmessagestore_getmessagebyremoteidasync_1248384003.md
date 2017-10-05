@@ -31,4 +31,5 @@ The message.
 
 
 ## -capabilities
+chatSystem, smsSend, chat
 blockedChatMessages

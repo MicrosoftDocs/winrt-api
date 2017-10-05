@@ -20,3 +20,6 @@ The phone number of the call that was blocked.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

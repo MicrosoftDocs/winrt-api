@@ -20,3 +20,6 @@ A text comment by the user regarding the meeting cancellation.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

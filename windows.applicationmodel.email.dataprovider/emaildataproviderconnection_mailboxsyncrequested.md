@@ -17,3 +17,6 @@ Occurs when the email client has requested to sync with the mailbox on the serve
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

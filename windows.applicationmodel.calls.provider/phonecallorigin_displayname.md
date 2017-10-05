@@ -20,3 +20,6 @@ The display name for the call origin manager.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

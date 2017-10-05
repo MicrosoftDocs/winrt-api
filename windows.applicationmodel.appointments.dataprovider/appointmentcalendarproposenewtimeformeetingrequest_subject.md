@@ -20,3 +20,6 @@ The subject of the meeting.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

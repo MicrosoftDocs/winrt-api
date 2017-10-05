@@ -20,3 +20,6 @@ The new meeting header for the new invitees.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

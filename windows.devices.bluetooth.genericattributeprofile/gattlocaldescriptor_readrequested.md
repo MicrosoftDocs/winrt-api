@@ -18,3 +18,6 @@ An event that is triggered when a read has been requested.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

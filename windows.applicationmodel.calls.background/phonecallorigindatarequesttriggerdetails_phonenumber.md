@@ -20,3 +20,6 @@ The phone number of the phone call origin.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

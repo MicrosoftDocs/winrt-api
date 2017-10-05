@@ -22,3 +22,5 @@ A correlation vector string that can be used to generate telemetry data.
 
 ## -see-also
 [Pause](appinstallitem_pause_1953642114.md)
+## -capabilities
+runFullTrust

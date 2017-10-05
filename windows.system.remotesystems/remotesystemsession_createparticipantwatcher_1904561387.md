@@ -21,3 +21,6 @@ A [RemoteSystemSessionParticipantWatcher](RemoteSystemSessionParticipantWatcher.
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

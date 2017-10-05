@@ -23,3 +23,6 @@ The protocol error to send. A list of errors with the byte values can be found i
 
 ## -examples
 
+
+## -capabilities
+bluetooth

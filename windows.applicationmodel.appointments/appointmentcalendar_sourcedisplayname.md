@@ -20,3 +20,6 @@ A string that describes the provider for the appointment calendar.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

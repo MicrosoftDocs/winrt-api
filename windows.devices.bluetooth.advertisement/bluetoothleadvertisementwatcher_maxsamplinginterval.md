@@ -21,3 +21,6 @@ The maximum sampling interval.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

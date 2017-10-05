@@ -20,3 +20,6 @@ The number of flagged email messages.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

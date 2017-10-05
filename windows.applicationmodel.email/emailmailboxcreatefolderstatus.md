@@ -40,3 +40,5 @@ The server rejected the request to create a new folder.
 ## -examples
 
 ## -see-also
+## -capabilities
+email, emailSystem

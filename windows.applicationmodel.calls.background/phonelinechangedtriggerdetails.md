@@ -17,3 +17,6 @@ Used to provide the details about a change to the properties of a phone line.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

@@ -20,3 +20,6 @@ The path to the ringtone file for the [Contact](contact.md).
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

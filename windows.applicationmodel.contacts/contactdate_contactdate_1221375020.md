@@ -17,3 +17,6 @@ Initializes a new instance of a [ContactDate](contactdate.md) class.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

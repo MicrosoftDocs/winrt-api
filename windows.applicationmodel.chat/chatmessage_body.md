@@ -24,3 +24,6 @@ If a message has more than one recipient and group text is enabled, the default 
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

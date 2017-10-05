@@ -17,3 +17,6 @@ Indicates to waiting processes that the deferral is complete.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

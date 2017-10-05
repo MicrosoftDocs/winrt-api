@@ -18,3 +18,6 @@ Represents a store that contains appointments.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

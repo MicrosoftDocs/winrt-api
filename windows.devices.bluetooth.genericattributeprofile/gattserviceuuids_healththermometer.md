@@ -21,3 +21,6 @@ The Bluetooth SIG-defined Health Thermometer Service UUID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

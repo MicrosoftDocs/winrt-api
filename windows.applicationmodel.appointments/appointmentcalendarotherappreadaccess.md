@@ -31,3 +31,5 @@ Other apps on the device cannot read any properties of appointments in the calen
 ## -examples
 
 ## -see-also
+## -capabilities
+appointmentsSystem

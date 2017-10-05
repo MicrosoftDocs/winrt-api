@@ -26,3 +26,5 @@ The duration of the geofence has expired.
 
 ## -see-also
 [Geofence](geofence.md)
+## -capabilities
+location

@@ -21,3 +21,6 @@ The value of the Float64 Format Type.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

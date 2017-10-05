@@ -44,3 +44,5 @@ Access is never allowed.
 ## -examples
 
 ## -see-also
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

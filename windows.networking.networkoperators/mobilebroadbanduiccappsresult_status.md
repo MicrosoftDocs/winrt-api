@@ -21,3 +21,6 @@ The enumeration value that describes the status of the operation.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

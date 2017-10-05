@@ -47,3 +47,5 @@ The operation did not complete because of limited network connectivity.
 ## -examples
 
 ## -see-also
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

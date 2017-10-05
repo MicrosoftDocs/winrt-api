@@ -27,3 +27,6 @@ If the network operator notification is triggered by a new mobile network operat
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

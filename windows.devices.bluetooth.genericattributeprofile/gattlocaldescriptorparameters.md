@@ -18,3 +18,6 @@ This class defines the parameters of a descriptor.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

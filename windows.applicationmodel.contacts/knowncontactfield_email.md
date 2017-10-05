@@ -29,3 +29,6 @@ This code demonstrates how to get an email address of a contact.
 [!code-js[ContactsKnownFields_Email](../windows.applicationmodel.contacts.provider/code/ContactsMain/javascript/js/contacts.js#SnippetContactsKnownFields_Email)]
 
 ## -see-also
+
+## -capabilities
+contactsSystem

@@ -22,3 +22,5 @@ The product ID of the app whose installation should be paused.
 
 ## -see-also
 [Pause(String, String)](appinstallmanager_pause_1628422686.md)
+## -capabilities
+runFullTrust

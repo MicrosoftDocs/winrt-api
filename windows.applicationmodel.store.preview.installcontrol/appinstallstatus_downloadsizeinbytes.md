@@ -20,3 +20,6 @@ The download size in bytes for the current app.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+runFullTrust

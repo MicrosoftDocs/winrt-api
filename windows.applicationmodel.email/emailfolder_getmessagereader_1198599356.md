@@ -21,3 +21,5 @@ The message reader.
 
 ## -see-also
 [GetMessageReader(EmailQueryOptions)](emailfolder_getmessagereader_1764748530.md)
+## -capabilities
+email, emailSystem

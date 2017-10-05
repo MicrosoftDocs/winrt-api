@@ -53,3 +53,5 @@ foreach (var i in iteratingAppointments)
 
 ## -see-also
 [FindAppointmentsAsync(DateTime, TimeSpan)](appointmentcalendar_findappointmentsasync_1659613836.md), [Appointment](appointment.md)
+## -capabilities
+appointmentsSystem

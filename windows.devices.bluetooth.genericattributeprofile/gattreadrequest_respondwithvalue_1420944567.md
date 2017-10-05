@@ -23,3 +23,6 @@ The value to respond with.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

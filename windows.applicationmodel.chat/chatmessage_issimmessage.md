@@ -21,3 +21,6 @@ A Boolean value indicating if the message is stored on a SIM card.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

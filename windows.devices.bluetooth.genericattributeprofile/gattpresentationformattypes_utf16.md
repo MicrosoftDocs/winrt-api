@@ -21,3 +21,6 @@ The value of the Utf16 Format Type.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

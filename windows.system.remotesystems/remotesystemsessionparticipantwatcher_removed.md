@@ -18,3 +18,6 @@ Raised when a participant in the session has been removed.
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

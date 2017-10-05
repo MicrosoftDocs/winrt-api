@@ -20,3 +20,6 @@ The current focus state of the capture device.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

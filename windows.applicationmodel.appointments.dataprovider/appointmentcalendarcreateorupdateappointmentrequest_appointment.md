@@ -20,3 +20,6 @@ The appointment to create or update.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

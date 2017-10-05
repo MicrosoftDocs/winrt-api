@@ -21,3 +21,6 @@ The label of the action.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

@@ -19,3 +19,6 @@ Obtain an instance of this object in the handler to the [MessageChanged](chatmes
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

@@ -20,3 +20,6 @@ The displayed file name for the email attachment.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

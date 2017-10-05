@@ -20,3 +20,5 @@ The [GattValueChangedEventArgs](gattvaluechangedeventargs.md) object represents 
 
 ## -see-also
 [GattValueChangedEventArgs](gattvaluechangedeventargs.md)
+## -capabilities
+bluetooth

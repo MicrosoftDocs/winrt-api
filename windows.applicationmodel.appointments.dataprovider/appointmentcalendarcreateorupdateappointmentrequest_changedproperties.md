@@ -20,3 +20,6 @@ A list of appointment properties.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

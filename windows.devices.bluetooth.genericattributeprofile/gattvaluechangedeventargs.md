@@ -19,3 +19,5 @@ Represents the arguments received by a [GattCharacteristic.ValueChanged](gattcha
 
 ## -see-also
 [GattCharacteristic.ValueChanged](gattcharacteristic_valuechanged.md)
+## -capabilities
+bluetooth

@@ -21,3 +21,6 @@ The Description of the GattPresentationFormat object.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

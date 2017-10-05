@@ -20,3 +20,6 @@ A folder ID. Get the parent folder's ID from its [EmailFolder.Id](../windows.app
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

@@ -21,3 +21,6 @@ The Bluetooth SIG-defined ScanParameters service UUID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

@@ -22,3 +22,5 @@ A vector of byte patterns with offsets to match advertisement sections in a rece
 
 ## -see-also
 [BluetoothLEAdvertisement](bluetoothleadvertisement.md)
+## -capabilities
+bluetooth

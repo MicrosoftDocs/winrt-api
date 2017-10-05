@@ -22,4 +22,5 @@ Obtain an instance of this class by calling [GetChangeReader](chatmessagechanget
 
 
 ## -capabilities
+chatSystem, smsSend, chat
 blockedChatMessages

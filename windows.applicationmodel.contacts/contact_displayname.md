@@ -24,3 +24,6 @@ Windows calculates the [DisplayName](contact_displayname.md) property by using t
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

@@ -18,4 +18,5 @@ Represents the TargetedContentValue of the TargetedContentValueKind Image.
 ## -examples
 
 ## -capabilities
+secondaryAuthenticationFactor
 targetedContent

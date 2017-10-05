@@ -20,3 +20,6 @@ The [ForwardMeetingRequest](appointmentcalendarforwardmeetingrequest.md) object 
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

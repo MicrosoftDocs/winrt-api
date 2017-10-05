@@ -21,3 +21,6 @@ The appearance subcategory code for a location navigation pod Bluetooth LE devic
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

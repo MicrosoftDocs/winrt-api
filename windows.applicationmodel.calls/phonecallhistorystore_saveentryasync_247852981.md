@@ -27,4 +27,5 @@ The entry to save.
 
 
 ## -capabilities
+phoneCallHistory, phoneCallHistorySystem
 phoneCallHistoryPublic

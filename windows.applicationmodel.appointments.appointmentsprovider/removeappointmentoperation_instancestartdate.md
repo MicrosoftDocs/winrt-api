@@ -20,3 +20,6 @@ The start date and time of the appointment instance to remove.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

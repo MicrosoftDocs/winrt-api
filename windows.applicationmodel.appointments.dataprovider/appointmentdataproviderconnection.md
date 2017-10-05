@@ -18,3 +18,6 @@ This class is instantiated by getting the [Connection](appointmentdataprovidertr
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

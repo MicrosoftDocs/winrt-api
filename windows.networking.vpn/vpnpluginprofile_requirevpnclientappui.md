@@ -21,3 +21,6 @@ When a profile is not visible in the VPN connection UI, it can still be used by 
 ## -examples
 
 ## -see-also
+
+## -capabilities
+networkingVpnProvider

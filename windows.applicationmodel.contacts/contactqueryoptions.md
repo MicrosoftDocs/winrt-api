@@ -17,3 +17,6 @@ Used to specify the query options when searching for contacts.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

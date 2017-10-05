@@ -18,3 +18,6 @@ Represents a change that has occurred in an appointment store.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

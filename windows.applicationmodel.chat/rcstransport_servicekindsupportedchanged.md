@@ -18,3 +18,6 @@ Occurs when the service capabilities change.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

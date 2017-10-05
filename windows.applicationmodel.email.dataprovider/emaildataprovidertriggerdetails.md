@@ -20,3 +20,6 @@ Your background task code is passed an instance of this class in the [IBackgroun
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

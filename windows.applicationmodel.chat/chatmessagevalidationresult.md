@@ -19,3 +19,6 @@ Obtain an instance of this class by calling [ValidateMessage](chatmessagestore_v
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

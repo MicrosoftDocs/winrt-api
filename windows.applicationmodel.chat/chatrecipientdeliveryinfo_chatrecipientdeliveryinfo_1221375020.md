@@ -18,3 +18,6 @@ Initializes a new instance of the [ChatRecipientDeliveryInfo](chatrecipientdeliv
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

@@ -21,3 +21,6 @@ The size at which the user should be warned that they are attaching a large file
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

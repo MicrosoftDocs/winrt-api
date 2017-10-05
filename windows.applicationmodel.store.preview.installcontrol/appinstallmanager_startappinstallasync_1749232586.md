@@ -35,3 +35,5 @@ When this method successfully returns, the app has been added to the installatio
 
 ## -see-also
 [StartAppInstallAsync(String, String, Boolean, Boolean, String, String, String)](appinstallmanager_startappinstallasync_1608657462.md)
+## -capabilities
+runFullTrust

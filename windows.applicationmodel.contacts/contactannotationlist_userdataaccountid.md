@@ -20,3 +20,6 @@ The ID for the [UserDataAccount](../windows.applicationmodel.userdataaccounts/us
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

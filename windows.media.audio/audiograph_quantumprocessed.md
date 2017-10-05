@@ -18,3 +18,6 @@ The **QuantumProcessed** event is asynchronous, which means that you can update 
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

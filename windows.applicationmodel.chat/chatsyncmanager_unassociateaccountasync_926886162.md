@@ -21,3 +21,6 @@ An asynchronous action that doesn't return anything.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

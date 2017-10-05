@@ -20,3 +20,6 @@ A contact list ID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

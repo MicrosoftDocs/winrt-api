@@ -17,3 +17,6 @@ Occurs when the email client has requested that a meeting response be updated.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

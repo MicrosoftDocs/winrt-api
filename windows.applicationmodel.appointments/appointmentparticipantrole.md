@@ -29,3 +29,5 @@ The item is a resource that is needed at the appointment.
 
 ## -see-also
 [Role](appointmentinvitee_role.md)
+## -capabilities
+appointmentsSystem

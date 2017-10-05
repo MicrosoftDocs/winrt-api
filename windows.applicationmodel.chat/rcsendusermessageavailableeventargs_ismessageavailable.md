@@ -22,3 +22,6 @@ There could be more than one message to be displayed. The service controls how m
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

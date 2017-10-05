@@ -46,3 +46,6 @@ Windows::System::Threading::TimerElapsedHandler(timerDelegate), delay);
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

@@ -24,3 +24,6 @@ We recommend you set [CommitButtonText](contactpicker_commitbuttontext.md) to pr
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

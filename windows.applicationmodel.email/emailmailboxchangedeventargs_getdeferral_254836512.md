@@ -20,3 +20,6 @@ The deferral object.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

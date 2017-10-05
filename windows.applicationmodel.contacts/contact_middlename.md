@@ -21,3 +21,5 @@ The middle name for a contact.
 
 ## -see-also
 [Name](contact_name.md)
+## -capabilities
+contactsSystem

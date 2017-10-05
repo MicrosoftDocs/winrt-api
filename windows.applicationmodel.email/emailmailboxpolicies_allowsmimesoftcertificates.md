@@ -20,3 +20,6 @@ A Boolean value that indicates whether software certificates are allowed.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

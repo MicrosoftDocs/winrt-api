@@ -20,3 +20,6 @@ The estimated size, in bytes, of an email message download.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

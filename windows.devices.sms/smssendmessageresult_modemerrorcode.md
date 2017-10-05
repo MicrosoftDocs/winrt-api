@@ -24,4 +24,4 @@ An enumeration value describing the error that occurred.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

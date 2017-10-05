@@ -20,4 +20,5 @@ Notifies the system that the VoIP call is active.
 
 
 ## -capabilities
+phoneCallHistory, phoneCallHistorySystem
 voipCall

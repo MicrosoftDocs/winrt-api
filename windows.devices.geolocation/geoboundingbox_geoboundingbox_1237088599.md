@@ -25,3 +25,5 @@ The southeast corner to use for the new [GeoboundingBox](geoboundingbox.md). For
 
 ## -see-also
 [GeoboundingBox(BasicGeoposition, BasicGeoposition, AltitudeReferenceSystem)](geoboundingbox_geoboundingbox_267191261.md), [GeoboundingBox(BasicGeoposition, BasicGeoposition, AltitudeReferenceSystem, UInt32)](geoboundingbox_geoboundingbox_271676437.md)
+## -capabilities
+location

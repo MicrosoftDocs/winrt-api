@@ -45,3 +45,5 @@ This corresponds with the SCAN_RSP type defined in the Bluetooth LE specificatio
 ## -examples
 
 ## -see-also
+## -capabilities
+bluetooth

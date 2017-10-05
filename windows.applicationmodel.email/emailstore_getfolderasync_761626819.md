@@ -24,3 +24,6 @@ The folder described by the identifier.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

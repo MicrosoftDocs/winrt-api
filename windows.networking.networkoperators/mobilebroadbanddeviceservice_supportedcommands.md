@@ -22,3 +22,5 @@ A list of supported device service commands for the mobile broadband device serv
 
 ## -see-also
 [MobileBroadbandDeviceServiceCommandSession](mobilebroadbanddeviceservicecommandsession.md)
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

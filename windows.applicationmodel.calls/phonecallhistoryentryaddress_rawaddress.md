@@ -20,3 +20,6 @@ The address information for this contact.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

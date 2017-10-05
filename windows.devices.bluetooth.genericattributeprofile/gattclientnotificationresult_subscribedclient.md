@@ -21,3 +21,6 @@ The subscribed client.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

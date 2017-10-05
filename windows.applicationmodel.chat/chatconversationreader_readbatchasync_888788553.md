@@ -24,4 +24,5 @@ The list of conversations.
 [ReadBatchAsync(Int32)](chatconversationreader_readbatchasync_1346490639.md)
 
 ## -capabilities
+chatSystem, smsSend, chat
 blockedChatMessages

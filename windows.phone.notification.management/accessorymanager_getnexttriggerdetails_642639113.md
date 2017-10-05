@@ -125,3 +125,6 @@ AccessoryManager.ProcessingTriggerDetailsCompleted(notificationTriggerDetails);
 
 
 ## -see-also
+
+## -capabilities
+accessoryManager

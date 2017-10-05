@@ -21,3 +21,6 @@ The Bluetooth SIG-defined Running Speed And Cadence Service UUID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

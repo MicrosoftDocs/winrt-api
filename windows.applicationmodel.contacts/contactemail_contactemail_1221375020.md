@@ -17,3 +17,6 @@ Initializes a new instance of a [ContactEmail](contactemail.md) class.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

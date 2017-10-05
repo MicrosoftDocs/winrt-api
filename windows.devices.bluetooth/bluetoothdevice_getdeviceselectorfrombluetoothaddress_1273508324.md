@@ -25,3 +25,6 @@ An AQS string that can be passed as a parameter to the [CreateWatcher](../window
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

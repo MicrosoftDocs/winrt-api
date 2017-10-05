@@ -20,3 +20,6 @@ The remote ID for the [AppointmentCalendar](appointmentcalendar.md).
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

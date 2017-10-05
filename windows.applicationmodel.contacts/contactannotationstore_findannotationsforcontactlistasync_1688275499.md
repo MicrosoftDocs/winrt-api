@@ -25,3 +25,6 @@ The list of [ContactAnnotation](contactannotation.md) objects.
 
 
 ## -examples
+
+## -capabilities
+contactsSystem

@@ -23,4 +23,5 @@ The current state of the VOIP call.
 
 
 ## -capabilities
+phoneCallHistory, phoneCallHistorySystem
 voipCall

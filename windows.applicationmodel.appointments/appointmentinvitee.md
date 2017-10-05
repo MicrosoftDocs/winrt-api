@@ -18,3 +18,5 @@ Represents a participant of an appointment in a calendar.
 
 ## -see-also
 [IAppointmentParticipant](iappointmentparticipant.md)
+## -capabilities
+appointmentsSystem

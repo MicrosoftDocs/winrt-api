@@ -18,3 +18,6 @@ Represents a Characteristic of a GATT service. The GattCharacteristic object rep
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

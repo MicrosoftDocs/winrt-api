@@ -18,3 +18,5 @@ Represents a chat item.
 ## -examples
 
 ## -see-also
+## -capabilities
+chatSystem, smsSend, chat

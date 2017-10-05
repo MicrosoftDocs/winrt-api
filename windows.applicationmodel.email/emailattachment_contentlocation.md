@@ -20,3 +20,6 @@ The location of an email attachment as a Uniform Resource Identifier (URI).
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

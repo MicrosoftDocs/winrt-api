@@ -20,3 +20,6 @@ The video call contact action.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

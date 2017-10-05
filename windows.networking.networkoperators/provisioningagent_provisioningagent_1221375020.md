@@ -28,4 +28,6 @@ Creates a new instance of a [ProvisioningAgent](provisioningagent.md).
 
 
 ## -capabilities
+cellularDeviceIdentity, cellularDeviceControl
+networkConnectionManagerProvisioning
 networkDataPlanProvisioning, networkDataPlanProvisioning

@@ -21,3 +21,6 @@ In order to use this method, the calling application needs to be in the foregrou
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

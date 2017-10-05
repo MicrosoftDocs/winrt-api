@@ -18,3 +18,6 @@ Used in your [UpdateMeetingResponseRequested](emaildataproviderconnection_update
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

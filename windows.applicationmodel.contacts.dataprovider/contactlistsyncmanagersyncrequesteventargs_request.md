@@ -20,3 +20,6 @@ A [ContactListSyncManagerSyncRequest](contactlistsyncmanagersyncrequest.md) obje
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

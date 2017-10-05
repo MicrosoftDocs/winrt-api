@@ -20,3 +20,6 @@ The ID of the blocked phone call.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

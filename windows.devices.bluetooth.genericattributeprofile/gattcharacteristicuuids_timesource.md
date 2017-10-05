@@ -21,3 +21,6 @@ The Bluetooth SIG-defined TimeSource characteristic UUID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

@@ -24,3 +24,6 @@ An asynchronous batch read request operation on an [EmailMailboxServerSearchRead
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

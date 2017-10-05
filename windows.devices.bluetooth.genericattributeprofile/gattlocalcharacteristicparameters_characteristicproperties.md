@@ -21,3 +21,6 @@ The properties.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

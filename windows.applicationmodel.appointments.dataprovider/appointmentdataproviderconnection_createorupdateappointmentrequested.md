@@ -17,3 +17,6 @@ Raised when the user elects to create or update a meeting.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

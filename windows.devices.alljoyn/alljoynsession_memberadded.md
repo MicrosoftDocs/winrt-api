@@ -18,3 +18,6 @@ Event triggered when a member has been added to an [AllJoynSession](alljoynsessi
 ## -examples
 
 ## -see-also
+
+## -capabilities
+allJoyn

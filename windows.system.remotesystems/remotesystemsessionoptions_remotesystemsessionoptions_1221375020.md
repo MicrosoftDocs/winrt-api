@@ -18,3 +18,6 @@ Initializes an instance of the [RemoteSystemSessionOptions](RemoteSystemSessionO
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

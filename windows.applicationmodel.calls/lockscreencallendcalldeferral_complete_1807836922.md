@@ -17,3 +17,6 @@ Completes the deferral of the removal of the app from the lock screen, which cau
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

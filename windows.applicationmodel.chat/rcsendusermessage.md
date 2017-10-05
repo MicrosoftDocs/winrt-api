@@ -19,3 +19,6 @@ Call [RcsEndUserMessageAvailableEventArgs.Message](rcsendusermessageavailableeve
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

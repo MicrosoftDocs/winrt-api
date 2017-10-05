@@ -31,3 +31,6 @@ No other apps can read any of the contact information.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

@@ -18,3 +18,6 @@ The result of [NotifyValueAsync](gattlocalcharacteristic_notifyvalueasync_483273
 
 ## -examples
 
+
+## -capabilities
+bluetooth

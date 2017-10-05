@@ -48,3 +48,5 @@ The device was denied registration. Emergency voice calls may be made. This appl
 ## -examples
 
 ## -see-also
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

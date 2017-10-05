@@ -29,3 +29,5 @@ The [ChatConversation](chatconversation.md) specified by the *conversationId* pa
 
 ## -see-also
 [GetConversationAsync(String)](chatmessagestore_getconversationasync_2049140047.md)
+## -capabilities
+chatSystem, smsSend, chat

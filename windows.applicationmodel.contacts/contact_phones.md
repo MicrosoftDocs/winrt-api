@@ -21,3 +21,5 @@ An array of items that describe the phones for a contact.
 
 ## -see-also
 [ContactPhone](contactphone.md)
+## -capabilities
+contactsSystem

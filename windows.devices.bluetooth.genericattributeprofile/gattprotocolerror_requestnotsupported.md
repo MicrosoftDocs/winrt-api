@@ -21,3 +21,6 @@ The byte value for a request not supported error.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

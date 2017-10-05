@@ -21,3 +21,6 @@ The max notification size.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

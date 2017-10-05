@@ -20,3 +20,6 @@ The status of the email batch read.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

@@ -27,3 +27,6 @@ An async operation with an [EmailMailboxCreateFolderResult](emailmailboxcreatefo
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

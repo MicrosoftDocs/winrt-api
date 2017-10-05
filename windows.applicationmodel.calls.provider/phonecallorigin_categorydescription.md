@@ -20,3 +20,6 @@ The description of the caller's specific [Category](phonecallorigin_category.md)
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

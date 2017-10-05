@@ -20,3 +20,6 @@ Call **ChangeTracker** to get an instance of this class.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

@@ -22,3 +22,6 @@ An asynchronous download operation on an [EmailMailboxDownloadAttachmentRequest]
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

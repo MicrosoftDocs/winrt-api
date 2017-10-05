@@ -28,3 +28,5 @@ When this method completes, it returns a **Boolean** value that indicates whethe
 
 ## -see-also
 [ShowRemoveAppointmentAsync(String, Rect, Placement, DateTime)](appointmentstore_showremoveappointmentasync_339596666.md)
+## -capabilities
+appointmentsSystem

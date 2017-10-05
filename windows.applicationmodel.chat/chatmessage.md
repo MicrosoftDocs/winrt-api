@@ -18,3 +18,6 @@ Represents a chat message.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

@@ -20,3 +20,6 @@ An asynchronous operation.
 ## -see-also
 
 ## -examples
+
+## -capabilities
+contactsSystem

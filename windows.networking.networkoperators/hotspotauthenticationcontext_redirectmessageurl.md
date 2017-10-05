@@ -28,3 +28,6 @@ A URI that contains the HTTPS or HTTP redirect URL.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

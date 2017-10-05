@@ -23,3 +23,6 @@ An asynchronous operation that completes with the write request.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

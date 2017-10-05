@@ -20,3 +20,6 @@ The current status of the [AppointmentCalendarSyncManager](appointmentcalendarsy
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

@@ -24,3 +24,6 @@ The requested email store.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

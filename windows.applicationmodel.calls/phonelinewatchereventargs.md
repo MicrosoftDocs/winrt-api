@@ -18,3 +18,6 @@ This class is used in the event arguments for the events raised by the [PhoneLin
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

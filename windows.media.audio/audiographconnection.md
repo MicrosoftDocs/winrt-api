@@ -26,3 +26,5 @@ Get an instance of this class with the [OutgoingConnections](iaudioinputnode_out
 
 ## -see-also
 [IAudioInputNode](iaudioinputnode.md), [AudioDeviceInputNode](audiodeviceinputnode.md), [AudioFileInputNode](audiofileinputnode.md), [AudioFrameInputNode](audioframeinputnode.md), [AudioSubmixNode](audiosubmixnode.md)
+## -capabilities
+backgroundMediaRecording

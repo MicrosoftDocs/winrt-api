@@ -28,3 +28,6 @@ The Bluetooth LE appearance object that was created from the appearance category
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

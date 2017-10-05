@@ -18,3 +18,6 @@ Call the [AppointmentManager.GetForUser](appointmentmanager_getforuser.md) metho
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

@@ -21,4 +21,4 @@ Constructs a new, default instance of this class.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

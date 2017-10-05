@@ -18,4 +18,5 @@ Represents the arguments for the Availability Changed event.
 ## -examples
 
 ## -capabilities
+secondaryAuthenticationFactor
 targetedContent

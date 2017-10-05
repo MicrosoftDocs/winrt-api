@@ -22,3 +22,6 @@ This method is thread-safe, and each call of it is guarenteed to return the same
 ## -examples
 
 ## -see-also
+
+## -capabilities
+allJoyn

@@ -18,3 +18,6 @@ This class represents a subscribed client of a GATT session.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

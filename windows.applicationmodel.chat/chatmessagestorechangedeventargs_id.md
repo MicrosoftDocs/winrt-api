@@ -21,3 +21,6 @@ The ID of the object that changed.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

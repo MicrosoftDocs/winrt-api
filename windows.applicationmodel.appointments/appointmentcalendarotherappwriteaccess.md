@@ -28,3 +28,5 @@ Other apps on the device can perform any write-level actions that use a [DataPro
 ## -examples
 
 ## -see-also
+## -capabilities
+appointmentsSystem

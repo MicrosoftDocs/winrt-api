@@ -18,3 +18,6 @@ This class represents the [SessionStatusChanged](gattsession_sessionstatuschange
 
 ## -examples
 
+
+## -capabilities
+bluetooth

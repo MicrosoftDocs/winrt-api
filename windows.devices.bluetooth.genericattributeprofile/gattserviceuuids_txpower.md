@@ -21,3 +21,6 @@ The Bluetooth SIG-defined TxPower service UUID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

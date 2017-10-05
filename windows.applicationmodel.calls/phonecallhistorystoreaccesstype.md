@@ -28,3 +28,5 @@ All the entries should have full read and write permissions.
 ## -examples
 
 ## -see-also
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

@@ -27,4 +27,4 @@ The timestamp of the message.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

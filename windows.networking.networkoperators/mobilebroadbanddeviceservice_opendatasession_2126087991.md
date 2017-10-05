@@ -22,3 +22,5 @@ A new data session for the Mobile Broadband device service.
 
 ## -see-also
 [MobileBroadbandDeviceServiceDataSession](mobilebroadbanddeviceservicedatasession.md)
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

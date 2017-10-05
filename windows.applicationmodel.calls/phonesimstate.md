@@ -43,3 +43,5 @@ The SIM card is disabled.
 ## -examples
 
 ## -see-also
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

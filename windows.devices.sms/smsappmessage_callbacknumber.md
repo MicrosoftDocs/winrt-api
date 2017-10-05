@@ -24,4 +24,4 @@ The number to be dialed in reply to a received SMS message. Available only for 3
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

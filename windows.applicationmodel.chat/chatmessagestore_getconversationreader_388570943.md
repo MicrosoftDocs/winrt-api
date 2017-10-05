@@ -22,3 +22,5 @@ The new or existing [ChatConversationReader](chatconversationreader.md).
 
 ## -see-also
 [GetConversationReader(IIterable(String))](chatmessagestore_getconversationreader_429351951.md)
+## -capabilities
+chatSystem, smsSend, chat

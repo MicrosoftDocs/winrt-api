@@ -24,3 +24,6 @@ The specified email message.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

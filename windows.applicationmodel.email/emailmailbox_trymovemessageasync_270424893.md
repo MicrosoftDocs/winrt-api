@@ -27,3 +27,6 @@ A Boolean value indicating if the move was successful.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

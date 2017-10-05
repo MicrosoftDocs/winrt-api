@@ -24,3 +24,5 @@ The [BluetoothLEAdvertisementPublisher](bluetoothleadvertisementpublisher.md) wi
 
 ## -see-also
 [BluetoothLEAdvertisementPublisher.Stop](bluetoothleadvertisementpublisher_stop.md), [BluetoothLEAdvertisementPublisher.StatusChanged](bluetoothleadvertisementpublisher_statuschanged.md), [BluetoothLEAdvertisementPublisherStatus](bluetoothleadvertisementpublisherstatus.md), [BluetoothLEAdvertisementPublisherStatusChangedEventArgs](bluetoothleadvertisementpublisherstatuschangedeventargs.md)
+## -capabilities
+bluetooth

@@ -21,3 +21,6 @@ An enumeration value describing the type of PIN whose state changed.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

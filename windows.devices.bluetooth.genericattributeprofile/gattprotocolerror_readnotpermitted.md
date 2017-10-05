@@ -21,3 +21,6 @@ The byte value for a read not permitted error.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

@@ -20,3 +20,6 @@ The new folder name. Note that you rename a folder by requesting a move to the c
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

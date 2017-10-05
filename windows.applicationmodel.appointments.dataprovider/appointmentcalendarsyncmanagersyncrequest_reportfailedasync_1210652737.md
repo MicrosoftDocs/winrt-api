@@ -21,3 +21,6 @@ This method should be called only if the app has failed to sync the calendar.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

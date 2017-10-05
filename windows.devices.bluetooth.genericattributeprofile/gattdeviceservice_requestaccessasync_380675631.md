@@ -23,3 +23,6 @@ An asynchronous operation that completes with a DeviceAccessStatus object.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

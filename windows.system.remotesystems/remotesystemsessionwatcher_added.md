@@ -18,3 +18,6 @@ Raised when a new remote session has been discovered by the [RemoteSystemSession
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

@@ -23,4 +23,5 @@ The number of unseen entries.
 
 
 ## -capabilities
+phoneCallHistory, phoneCallHistorySystem
 phoneCallHistoryPublic

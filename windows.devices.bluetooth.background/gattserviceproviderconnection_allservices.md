@@ -21,3 +21,6 @@ Gets all the services.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

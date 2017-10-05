@@ -62,3 +62,5 @@ Data roaming restriction
 ## -examples
 
 ## -see-also
+## -capabilities
+chatSystem, smsSend, chat

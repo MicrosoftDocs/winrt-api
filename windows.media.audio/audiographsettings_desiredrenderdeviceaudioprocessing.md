@@ -21,3 +21,6 @@ Setting this property does not guarantee that the specified value will be used b
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

@@ -18,3 +18,6 @@ Use the instance of this class that's passed as an argument to your [MoveFolderR
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

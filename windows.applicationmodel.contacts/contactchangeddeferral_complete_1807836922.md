@@ -17,3 +17,6 @@ Call this method in order to release the deferral object when all asynchronous p
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

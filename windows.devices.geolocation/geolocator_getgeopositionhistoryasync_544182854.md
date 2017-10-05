@@ -35,3 +35,4 @@ Only positions that were collected during the specified *duration* after *startT
 
 ## -capabilities
 locationHistory
+location

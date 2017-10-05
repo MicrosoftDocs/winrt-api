@@ -25,3 +25,6 @@ The RfcommServiceProvider object that represents the local RFCOMM service instan
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

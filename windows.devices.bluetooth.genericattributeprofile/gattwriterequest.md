@@ -18,3 +18,6 @@ This class represents a GATT write request.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

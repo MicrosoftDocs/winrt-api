@@ -24,3 +24,6 @@ The list of [Contact](contact.md) objects containing the specified *emailAddress
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

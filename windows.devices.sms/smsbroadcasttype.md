@@ -71,4 +71,4 @@ A local LAT alert broadcast message.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

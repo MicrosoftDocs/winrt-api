@@ -22,3 +22,6 @@ If the device supports the GSM cellular class, the telephone numbers are Mobile 
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

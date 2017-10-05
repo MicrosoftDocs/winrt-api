@@ -21,3 +21,6 @@ The local characteristic properties.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

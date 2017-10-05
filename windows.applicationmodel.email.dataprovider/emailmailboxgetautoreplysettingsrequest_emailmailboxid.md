@@ -20,3 +20,6 @@ A mailbox ID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

@@ -49,3 +49,6 @@ public void DiscoverExistingSessions() {
 }
 ```
 
+
+## -capabilities
+remoteSystem

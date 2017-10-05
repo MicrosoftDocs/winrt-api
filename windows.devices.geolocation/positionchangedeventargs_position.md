@@ -23,4 +23,5 @@ A [Geoposition](geoposition.md) object containing geographic location data.
 
 
 ## -capabilities
-location, ID_CAP_LOCATION [Windows Phone]
+location
+ID_CAP_LOCATION [Windows Phone]

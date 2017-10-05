@@ -23,3 +23,6 @@ The spatial reference identification system is defined by the [European Petroleu
 ## -examples
 
 ## -see-also
+
+## -capabilities
+location

@@ -17,3 +17,6 @@ Provides event information for the [Closing](contactpanel_closing.md) event.
 ## -see-also
 
 ## -examples
+
+## -capabilities
+contactsSystem

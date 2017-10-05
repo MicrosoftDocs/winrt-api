@@ -41,4 +41,5 @@ To rotate the preview stream, use the **GUID** defined as [MF_MT_VIDEO_ROTATION]
 
 
 ## -capabilities
+backgroundMediaRecording
 microphone, webcam

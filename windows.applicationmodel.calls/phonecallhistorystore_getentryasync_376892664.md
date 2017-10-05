@@ -27,4 +27,5 @@ The [PhoneCallHistoryEntryt.Id](phonecallhistoryentry_id.md) of the relevant ent
 
 
 ## -capabilities
+phoneCallHistory, phoneCallHistorySystem
 phoneCallHistoryPublic

@@ -21,3 +21,6 @@ True if SAR backoff functionality is enabled; otherwise, false.
 
 ## -examples
 
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

@@ -26,3 +26,5 @@ The *encodingProperties* parameter specifies the sample rate at which the create
 
 ## -see-also
 [CreateSubmixNode](audiograph_createsubmixnode_1505743305.md)
+## -capabilities
+backgroundMediaRecording

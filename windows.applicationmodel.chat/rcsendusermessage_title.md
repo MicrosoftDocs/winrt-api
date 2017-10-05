@@ -21,3 +21,6 @@ The title of the message.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

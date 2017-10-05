@@ -22,3 +22,5 @@ The received signal strength indicator (RSSI) value, in dBm, for this event.
 
 ## -see-also
 [BluetoothLEAdvertisement](bluetoothleadvertisement.md), [BluetoothLEAdvertisementWatcher](bluetoothleadvertisementwatcher.md), [BluetoothSignalStrengthFilter](../windows.devices.bluetooth/bluetoothsignalstrengthfilter.md)
+## -capabilities
+bluetooth

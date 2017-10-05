@@ -20,3 +20,6 @@ A value indicating what type of recurrence applies to the associated appointment
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

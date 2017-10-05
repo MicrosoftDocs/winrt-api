@@ -21,3 +21,6 @@ Multiple apps can simultaneously acquire frames from the same [MediaFrameSource]
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

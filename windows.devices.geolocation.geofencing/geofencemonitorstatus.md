@@ -38,3 +38,5 @@ The geofence monitor is not available.
 
 ## -see-also
 [GeofenceMonitor](geofencemonitor.md)
+## -capabilities
+location

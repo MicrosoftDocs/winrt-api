@@ -29,3 +29,6 @@ This code demonstrates how to get the location of a contact.
 [!code-js[ContactsKnownFields_location](../windows.applicationmodel.contacts.provider/code/ContactsMain/javascript/js/contacts.js#SnippetContactsKnownFields_location)]
 
 ## -see-also
+
+## -capabilities
+contactsSystem

@@ -20,3 +20,6 @@ An async action indicating that the method is complete.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

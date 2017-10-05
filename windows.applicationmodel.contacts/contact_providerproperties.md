@@ -21,3 +21,5 @@ The [IPropertySet](../windows.foundation.collections/ipropertyset.md) interface 
 
 ## -see-also
 [IPropertySet](../windows.foundation.collections/ipropertyset.md)
+## -capabilities
+contactsSystem

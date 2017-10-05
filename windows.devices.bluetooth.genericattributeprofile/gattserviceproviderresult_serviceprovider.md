@@ -21,3 +21,6 @@ The service provider.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

@@ -23,4 +23,5 @@ The reason the incoming call was rejected.
 
 
 ## -capabilities
+phoneCallHistory, phoneCallHistorySystem
 voipCall

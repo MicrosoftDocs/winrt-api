@@ -20,3 +20,6 @@ An [EmailMailboxAutoReplySettings](../windows.applicationmodel.email/emailmailbo
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

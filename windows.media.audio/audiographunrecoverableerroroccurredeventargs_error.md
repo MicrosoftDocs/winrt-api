@@ -20,3 +20,6 @@ An enumeration value indicating the error.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

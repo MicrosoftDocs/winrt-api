@@ -27,3 +27,6 @@ Unique ID of the device whose radio state changed.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

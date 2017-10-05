@@ -19,3 +19,5 @@ For more information about how communication blocking works, and how to implemen
 
 ## -see-also
 [Windows.ApplicationModel.CommunicationBlocking](../windows.applicationmodel.communicationblocking/windows_applicationmodel_communicationblocking.md), [Communication blocking and filtering sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=624164)
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

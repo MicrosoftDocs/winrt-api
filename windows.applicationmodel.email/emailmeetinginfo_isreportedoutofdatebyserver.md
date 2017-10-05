@@ -20,3 +20,6 @@ A Boolean value indicating if the meeting is reported as out of date by the serv
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

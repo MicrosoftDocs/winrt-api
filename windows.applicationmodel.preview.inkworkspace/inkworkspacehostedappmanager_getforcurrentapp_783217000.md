@@ -21,3 +21,6 @@ An Ink Workspace reference.
 
 ## -examples
 
+
+## -capabilities
+previewPenWorkspace

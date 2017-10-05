@@ -22,3 +22,5 @@ A [MobileBroadbandPinManager](mobilebroadbandpinmanager.md) object for the mobil
 
 ## -see-also
 [MobileBroadbandPinManager](mobilebroadbandpinmanager.md)
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

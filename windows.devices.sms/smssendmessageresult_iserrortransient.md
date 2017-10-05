@@ -24,4 +24,4 @@ When true, the send resulted in an transient error.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

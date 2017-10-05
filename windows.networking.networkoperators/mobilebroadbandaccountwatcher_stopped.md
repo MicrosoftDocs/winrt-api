@@ -28,3 +28,6 @@ You can query the status of a watcher using the [Status](mobilebroadbandaccountw
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

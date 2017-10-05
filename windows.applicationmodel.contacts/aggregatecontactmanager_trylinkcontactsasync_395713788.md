@@ -28,3 +28,6 @@ The *primaryContact* and *secondaryContact* objects can be any combination of ra
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

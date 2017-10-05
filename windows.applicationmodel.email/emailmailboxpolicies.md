@@ -18,3 +18,6 @@ The **Policies ** property provides access to an instance of this class.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

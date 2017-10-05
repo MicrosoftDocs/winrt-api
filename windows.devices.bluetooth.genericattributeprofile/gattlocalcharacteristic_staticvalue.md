@@ -21,3 +21,6 @@ The static value for this local GATT characteristic.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

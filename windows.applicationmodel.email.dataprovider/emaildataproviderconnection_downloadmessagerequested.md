@@ -17,3 +17,6 @@ Occurs when the email client has requested to download a message from the server
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

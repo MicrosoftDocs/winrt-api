@@ -33,3 +33,5 @@ For info about how to manage appointments, see [Manage appointments](http://msdn
 
 ## -see-also
 [ShowAddAppointmentAsync(Appointment, Rect, Placement)](appointmentmanager_showaddappointmentasync_253292089.md)
+## -capabilities
+appointmentsSystem

@@ -24,4 +24,4 @@ An enumeration value describing the geographical scope associated with this mess
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

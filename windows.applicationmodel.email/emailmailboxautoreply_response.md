@@ -20,3 +20,6 @@ The auto-reply response text.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

@@ -21,3 +21,6 @@ A Boolean value indicating if reply is disabled on the [ChatMessage](chatmessage
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

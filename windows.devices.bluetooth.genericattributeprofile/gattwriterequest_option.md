@@ -21,3 +21,6 @@ The write request option.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

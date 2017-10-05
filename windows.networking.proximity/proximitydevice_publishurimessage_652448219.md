@@ -66,4 +66,5 @@ You can use the [PublishMessage](proximitydevice_publishmessage.md) method to pu
 
 
 ## -capabilities
-proximity, ID_CAP_PROXIMITY [Windows Phone]
+proximity
+ID_CAP_PROXIMITY [Windows Phone]

@@ -17,3 +17,6 @@ Initializes a new instance of a [ContactConnectedServiceAccount](contactconnecte
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

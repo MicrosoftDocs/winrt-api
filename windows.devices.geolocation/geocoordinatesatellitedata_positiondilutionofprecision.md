@@ -23,4 +23,5 @@ The position dilution of precision (PDOP).
 
 
 ## -capabilities
+location
 ID_CAP_LOCATION [Windows Phone]

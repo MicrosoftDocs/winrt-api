@@ -31,3 +31,5 @@ The calculated rectangle that contains the specified set of geographic positions
 
 ## -see-also
 [TryCompute(IIterable(BasicGeoposition))](geoboundingbox_trycompute_467892569.md), [TryCompute(IIterable(BasicGeoposition), AltitudeReferenceSystem)](geoboundingbox_trycompute_952878109.md)
+## -capabilities
+location

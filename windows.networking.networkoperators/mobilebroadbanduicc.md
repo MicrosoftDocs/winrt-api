@@ -26,3 +26,6 @@ Your code does not instantiate this class directly. Instead, retrieve an instanc
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

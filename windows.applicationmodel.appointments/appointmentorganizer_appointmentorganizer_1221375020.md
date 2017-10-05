@@ -17,3 +17,6 @@ Initializes a new instance of the [AppointmentOrganizer](appointmentorganizer.md
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

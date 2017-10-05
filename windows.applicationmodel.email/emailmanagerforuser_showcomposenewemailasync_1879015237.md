@@ -24,3 +24,6 @@ An asynchronous action used to indicate when the operation has completed.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

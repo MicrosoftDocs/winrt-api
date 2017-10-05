@@ -17,3 +17,6 @@ Occurs when the contact data client has requested a batch of server-side search 
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

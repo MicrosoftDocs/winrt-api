@@ -20,3 +20,6 @@ An [EmailMailboxEmptyFolderRequest](emailmailboxemptyfolderrequest.md) object de
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

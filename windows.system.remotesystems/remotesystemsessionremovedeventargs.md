@@ -20,3 +20,6 @@ This class is instantiated whenever the [RemoteSystemSessionWatcher.Removed](Rem
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

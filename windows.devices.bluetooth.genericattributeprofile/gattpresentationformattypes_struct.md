@@ -21,3 +21,6 @@ The value of the Struct Format Type.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

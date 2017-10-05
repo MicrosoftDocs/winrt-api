@@ -20,3 +20,6 @@ The remote id for the [PhoneCallHistoryEntry](phonecallhistoryentry.md).
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

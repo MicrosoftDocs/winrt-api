@@ -20,3 +20,6 @@ A value that specifies the auto update setting for apps on the current computer 
 ## -examples
 
 ## -see-also
+
+## -capabilities
+runFullTrust

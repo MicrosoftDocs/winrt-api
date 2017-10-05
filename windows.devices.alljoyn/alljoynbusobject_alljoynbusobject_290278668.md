@@ -23,3 +23,5 @@ The object path.
 
 ## -see-also
 [AllJoynBusObject(String, AllJoynBusAttachment)](alljoynbusobject_alljoynbusobject_172872340.md)
+## -capabilities
+allJoyn

@@ -20,3 +20,6 @@ A string that identifies the [ContactList](contactlist.md) to which this contact
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

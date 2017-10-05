@@ -20,3 +20,6 @@ The download status of an email message.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

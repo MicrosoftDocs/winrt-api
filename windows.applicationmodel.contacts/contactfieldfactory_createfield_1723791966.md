@@ -31,3 +31,5 @@ Contains a field that you can add to a [Contact](contact.md) object.
 
 ## -see-also
 [CreateField(String, ContactFieldType, ContactFieldCategory)](contactfieldfactory_createfield_377552818.md), [CreateField(String, String, ContactFieldType, ContactFieldCategory)](contactfieldfactory_createfield_1958768016.md)
+## -capabilities
+contactsSystem
