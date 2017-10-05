@@ -17,7 +17,7 @@ The list of all connected gamepads.
 
 ## -remarks
 
-This list is initally empty and will not list gamepads even if they are already connected. After a short period this will return a complete list of Gamepads.
+This list is initally empty and will not list gamepads even if they are already connected. After a short period this will return a complete list of gamepads.
 
 ## -examples
 
