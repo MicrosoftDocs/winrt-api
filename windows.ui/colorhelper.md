@@ -20,4 +20,4 @@ Provides static helper methods for processing [Color](color.md) values. C# and M
 ## -examples
 
 ## -see-also
-[Color](color.md), [Color.FromArgb](color_fromargb.md), [Colors](colors.md), [SolidColorBrush](../windows.ui.xaml.media/solidcolorbrush.md)
+[Color](color.md), [Colors](colors.md), [SolidColorBrush](../windows.ui.xaml.media/solidcolorbrush.md)
