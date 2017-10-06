@@ -16,6 +16,7 @@ Represents a single [CoreInputView](coreinputview.md) pane currently occluding t
 > Not supported on Xbox or HoloLens.
 
 ## -remarks
+Used by frameworks (such as XAML) or custom text controls only.
 
 ## -see-also
 

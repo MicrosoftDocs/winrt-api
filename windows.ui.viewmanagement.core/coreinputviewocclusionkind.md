@@ -26,6 +26,7 @@ Undocked panes such as a toolbar, or a Soft Input Panel (SIP) like the **Touch k
 Floating panes such as an inline Ink or Input Method Editor (IME) candidate window.
 
 ## -remarks
+Used by frameworks (such as XAML) or custom text controls only.
 
 ## -see-also
 

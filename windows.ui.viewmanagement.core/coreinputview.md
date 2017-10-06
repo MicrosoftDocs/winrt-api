@@ -13,10 +13,13 @@ public class CoreInputView
 ## -description
 Enables an app to receive notifications when a docked, undocked, moveable, or transitory input pane (and associated UI) is moved, displayed, or hidden, and to determine which portion of the app's window is obscured by the pane. 
 
+
 > [!NOTE]
 > Not supported on Xbox or HoloLens.
 
 ## -remarks
+Used by frameworks (such as XAML) or custom text controls only.
+
 Your app can use the info exposed by this object to adjust and reflow it's UI to account for any occlusion.
 
 The CoreInputView APIs support the following types of input panes.  
