@@ -13,3 +13,5 @@ The classes in Windows.ApplicationModel.Calls.Background are used by device back
 ## -examples
 
 ## -see-also
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

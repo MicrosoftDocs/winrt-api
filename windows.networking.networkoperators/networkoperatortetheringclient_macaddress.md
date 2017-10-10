@@ -21,3 +21,6 @@ MAC address.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

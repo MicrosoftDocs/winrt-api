@@ -26,3 +26,6 @@ To enable the [MobileBroadbandAccountWatcher](mobilebroadbandaccountwatcher.md),
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

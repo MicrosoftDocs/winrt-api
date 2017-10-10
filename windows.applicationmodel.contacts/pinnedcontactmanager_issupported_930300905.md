@@ -20,3 +20,6 @@ A Boolean value that indicates whether the Windows UI supports contact pinning.
 ## -see-also
 
 ## -examples
+
+## -capabilities
+contactsSystem

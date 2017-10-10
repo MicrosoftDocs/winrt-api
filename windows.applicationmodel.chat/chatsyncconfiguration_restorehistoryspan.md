@@ -21,3 +21,6 @@ The time span for which messages will be restored.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

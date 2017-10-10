@@ -20,3 +20,6 @@ The write access level to this mailbox for other apps.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

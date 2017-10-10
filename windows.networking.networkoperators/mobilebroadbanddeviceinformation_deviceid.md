@@ -21,3 +21,6 @@ The [DeviceInformation Id](../windows.devices.enumeration/deviceinformation_id.m
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

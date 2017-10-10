@@ -20,3 +20,6 @@ The maximum number of website entries that can be synchronized.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

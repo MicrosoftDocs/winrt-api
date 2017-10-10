@@ -19,3 +19,5 @@ Creates an [AllJoynBusObject](alljoynbusobject.md) with the object path as the r
 
 ## -see-also
 [AllJoynBusObject(String)](alljoynbusobject_alljoynbusobject_290278668.md), [AllJoynBusObject(String, AllJoynBusAttachment)](alljoynbusobject_alljoynbusobject_172872340.md)
+## -capabilities
+allJoyn

@@ -21,3 +21,6 @@ Returns the 32-bit service id if the RfcommServiceId represents a standardized s
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

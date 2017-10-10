@@ -20,3 +20,6 @@ The [User](../windows.system/user.md) represented by this appointment manager.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

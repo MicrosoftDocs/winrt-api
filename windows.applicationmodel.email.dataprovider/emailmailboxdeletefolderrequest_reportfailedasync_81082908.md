@@ -26,3 +26,6 @@ An asynchronous delete operation on an [EmailMailboxDeleteFolderRequest](emailma
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

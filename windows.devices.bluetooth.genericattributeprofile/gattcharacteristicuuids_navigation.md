@@ -21,3 +21,6 @@ The Bluetooth SIG-defined Navigation characteristic UUID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

@@ -31,3 +31,5 @@ Encrypted MIME.
 ## -examples
 
 ## -see-also
+## -capabilities
+email, emailSystem

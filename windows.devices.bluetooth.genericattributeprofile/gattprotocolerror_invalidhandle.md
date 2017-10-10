@@ -21,3 +21,6 @@ The byte value for an invalid handle error.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

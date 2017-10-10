@@ -20,3 +20,6 @@ The identifier of the email mailbox account within its network.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

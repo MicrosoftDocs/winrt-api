@@ -27,3 +27,6 @@ Other apps can only write contacts for this app.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

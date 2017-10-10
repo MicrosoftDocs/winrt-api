@@ -21,3 +21,6 @@ The **ReplyTime** date you provide should be in the local time of the device sin
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

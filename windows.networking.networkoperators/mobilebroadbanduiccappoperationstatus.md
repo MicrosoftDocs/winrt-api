@@ -32,3 +32,5 @@ Operation failed because the UICC was busy.
 ## -examples
 
 ## -see-also
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

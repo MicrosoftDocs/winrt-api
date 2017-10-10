@@ -21,3 +21,6 @@ Describes the current broadband network.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

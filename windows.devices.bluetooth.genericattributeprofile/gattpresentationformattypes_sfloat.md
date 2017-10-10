@@ -21,3 +21,6 @@ The value of the SFloat Format Type.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

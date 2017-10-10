@@ -18,3 +18,6 @@ This object is received as an argument to an [IBackgroundTask.Run](../windows.ap
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

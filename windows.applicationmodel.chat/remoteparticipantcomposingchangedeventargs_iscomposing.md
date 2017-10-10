@@ -21,3 +21,6 @@ A Boolean value indicating if the remote participant is currently composing a me
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

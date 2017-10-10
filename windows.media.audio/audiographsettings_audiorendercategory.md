@@ -20,3 +20,6 @@ A value that indicates the audio render category setting for an audio graph.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

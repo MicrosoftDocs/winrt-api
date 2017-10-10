@@ -28,3 +28,6 @@ The mobile broadband device information associated with this account.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

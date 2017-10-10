@@ -24,4 +24,5 @@ An async action that indicates when the delete has completed.
 
 
 ## -capabilities
+chatSystem, smsSend, chat
 blockedChatMessages

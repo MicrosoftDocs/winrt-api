@@ -20,3 +20,6 @@ An asynchronous proposal operation on an [EmailMailboxProposeNewTimeForMeetingRe
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

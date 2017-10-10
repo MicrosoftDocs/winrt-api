@@ -21,3 +21,6 @@ The service UUID of the remote service to which the system will connect on behal
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

@@ -24,4 +24,4 @@ True indicates that text message delivery notification is enabled. False indicat
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

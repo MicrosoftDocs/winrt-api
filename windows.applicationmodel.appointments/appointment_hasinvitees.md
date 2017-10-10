@@ -20,3 +20,6 @@ A value that indicates whether the appointment has invitees.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

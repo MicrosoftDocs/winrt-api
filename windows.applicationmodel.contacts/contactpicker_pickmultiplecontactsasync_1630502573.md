@@ -32,3 +32,6 @@ This example demonstrates how to use [PickMultipleContactsAsync](contactpicker_p
 
 ## -see-also
 [PickContactsAsync](contactpicker_pickcontactsasync.md)
+
+## -capabilities
+contactsSystem

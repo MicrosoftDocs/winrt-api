@@ -21,3 +21,6 @@ The minimum length, in bytes, of the mobile broadband PIN.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

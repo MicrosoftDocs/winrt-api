@@ -20,3 +20,6 @@ The description of the phone for a contact.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

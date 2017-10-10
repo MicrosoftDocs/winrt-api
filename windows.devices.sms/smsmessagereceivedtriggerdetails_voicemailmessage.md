@@ -24,4 +24,4 @@ Message details for the received message, when it is a voicemail message.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

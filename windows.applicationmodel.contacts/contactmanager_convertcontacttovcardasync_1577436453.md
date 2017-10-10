@@ -28,3 +28,5 @@ A stream containing the vCard data.
 
 ## -see-also
 [ConvertContactToVCardAsync(Contact)](contactmanager_convertcontacttovcardasync_1509087447.md)
+## -capabilities
+contactsSystem

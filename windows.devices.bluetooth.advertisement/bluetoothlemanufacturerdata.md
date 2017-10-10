@@ -19,3 +19,5 @@ A Bluetooth LE manufacturer-specific data section (one particular type of LE adv
 
 ## -see-also
 [BluetoothLEAdvertisement](bluetoothleadvertisement.md)
+## -capabilities
+bluetooth

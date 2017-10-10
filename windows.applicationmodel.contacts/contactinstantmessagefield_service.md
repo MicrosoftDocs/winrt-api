@@ -23,3 +23,6 @@ The service name.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

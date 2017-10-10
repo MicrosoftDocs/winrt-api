@@ -21,3 +21,6 @@ The Bluetooth LE complete local name.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

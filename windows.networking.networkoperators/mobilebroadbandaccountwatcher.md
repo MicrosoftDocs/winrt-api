@@ -25,3 +25,5 @@ Provides information regarding availability of and updates to Mobile Broadband A
 ## -examples
 
 ## -see-also
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

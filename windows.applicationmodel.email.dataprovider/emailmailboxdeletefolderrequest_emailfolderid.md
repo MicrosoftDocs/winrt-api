@@ -20,3 +20,6 @@ The folder ID of the folder to be deleted.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

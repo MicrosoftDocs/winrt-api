@@ -20,3 +20,6 @@ Represents an enumeration of the most well known Descriptor UUID values, and pro
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

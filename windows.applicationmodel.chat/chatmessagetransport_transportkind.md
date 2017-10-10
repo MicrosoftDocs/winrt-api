@@ -21,3 +21,6 @@ The type of the message transport.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

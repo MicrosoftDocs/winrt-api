@@ -18,3 +18,6 @@ This is an event that is triggered when a write was requested.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

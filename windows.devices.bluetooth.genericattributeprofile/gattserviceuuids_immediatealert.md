@@ -21,3 +21,6 @@ The Bluetooth SIG-defined ImmediateAlert service UUID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

@@ -20,3 +20,6 @@ The number of important email messages.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

@@ -24,3 +24,6 @@ An asynchronous operation that returns [Appointment](appointment.md) on successf
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

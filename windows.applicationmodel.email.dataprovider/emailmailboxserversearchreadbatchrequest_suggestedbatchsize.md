@@ -20,3 +20,6 @@ The suggested number of messages in a batch. Clients suggest a batch size based 
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

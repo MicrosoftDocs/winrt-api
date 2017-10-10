@@ -20,3 +20,6 @@ The path to the audio file to play when an SMS/MMS message is received from the 
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

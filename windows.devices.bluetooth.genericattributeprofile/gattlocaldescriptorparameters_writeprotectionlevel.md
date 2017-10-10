@@ -21,3 +21,6 @@ The write protection level.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

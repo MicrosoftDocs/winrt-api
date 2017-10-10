@@ -20,3 +20,6 @@ The user's response to the appointment request.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

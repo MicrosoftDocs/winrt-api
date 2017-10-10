@@ -24,4 +24,5 @@ An asynchronous operation that returns a list of transports on successful comple
 
 
 ## -capabilities
+chatSystem, smsSend, chat
 blockedChatMessages

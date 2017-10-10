@@ -20,3 +20,6 @@ A folder ID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

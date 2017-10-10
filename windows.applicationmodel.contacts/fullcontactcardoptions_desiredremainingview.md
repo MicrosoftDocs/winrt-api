@@ -20,3 +20,6 @@ A value that describes the desired view size for the full contact card.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

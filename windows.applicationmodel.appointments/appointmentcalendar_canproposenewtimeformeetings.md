@@ -20,3 +20,6 @@ Boolean value that indicates if the calendar supports proposing new meeting time
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

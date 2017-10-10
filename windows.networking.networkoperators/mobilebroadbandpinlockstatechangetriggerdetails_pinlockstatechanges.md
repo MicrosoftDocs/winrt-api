@@ -21,3 +21,6 @@ A list of PIN lock state change details.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

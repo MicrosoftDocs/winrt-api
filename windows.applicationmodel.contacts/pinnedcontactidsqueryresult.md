@@ -19,3 +19,6 @@ You can use a [PinnedContactIdsQueryResult](pinnedcontactidsqueryresult.md) to e
 [ContactIds](pinnedcontactidsqueryresult_contactids.md), [GetPinnedContactIdsAsync](pinnedcontactmanager_getpinnedcontactidsasync_301892974.md)
 
 ## -examples
+
+## -capabilities
+contactsSystem

@@ -24,4 +24,4 @@ A list of IMSI prefixes.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

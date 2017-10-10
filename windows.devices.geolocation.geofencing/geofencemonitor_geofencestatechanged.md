@@ -19,3 +19,5 @@ This event is raised when your app is running and the state of a geofence regist
 
 ## -see-also
 [Geofence](geofence.md)
+## -capabilities
+location

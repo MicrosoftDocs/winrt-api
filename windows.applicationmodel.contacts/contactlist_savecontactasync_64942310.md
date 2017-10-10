@@ -25,3 +25,6 @@ Throws a System.ArgumentException: 'Value does not fall within the expected rang
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

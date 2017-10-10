@@ -20,3 +20,6 @@ The unique identifier for the [EmailConversation](emailconversation.md).
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

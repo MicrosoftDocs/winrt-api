@@ -21,3 +21,6 @@ The GATT characteristic that changed.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

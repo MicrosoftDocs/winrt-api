@@ -24,3 +24,6 @@ Enum that defines all vaules for that TargetedContentAppInstallState can hold:  
 
 ## -examples
 
+
+## -capabilities
+secondaryAuthenticationFactor

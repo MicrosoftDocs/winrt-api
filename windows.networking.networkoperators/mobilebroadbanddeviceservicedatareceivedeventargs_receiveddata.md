@@ -22,3 +22,5 @@ The data received on the [MobileBroadbandDeviceServiceDataSession](mobilebroadba
 
 ## -see-also
 [MobileBroadbandDeviceServiceDataSession](mobilebroadbanddeviceservicedatasession.md)
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

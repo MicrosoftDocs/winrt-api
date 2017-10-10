@@ -23,3 +23,5 @@ The AccessoryManager will wake up the BackgroundTask when it encounters a read s
 
 ## -see-also
 [IAccessoryNotificationTriggerDetails](iaccessorynotificationtriggerdetails.md)
+## -capabilities
+accessoryManager

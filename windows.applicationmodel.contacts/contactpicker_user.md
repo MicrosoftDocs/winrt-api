@@ -18,3 +18,6 @@ The [User](./windows.system/user.md) associated with the [ContactPicker](contact
 ## -see-also
 
 ## -examples
+
+## -capabilities
+contactsSystem

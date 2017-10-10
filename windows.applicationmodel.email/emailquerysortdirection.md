@@ -25,3 +25,5 @@ Sort query results in ascending order.
 ## -examples
 
 ## -see-also
+## -capabilities
+email, emailSystem

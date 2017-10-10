@@ -24,3 +24,6 @@ The [ContactAnnotation](contactannotation.md) with the specified ID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

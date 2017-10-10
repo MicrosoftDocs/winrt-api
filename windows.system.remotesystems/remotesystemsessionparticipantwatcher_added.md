@@ -18,3 +18,6 @@ Raised when a new participant has been added to the remote session.
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

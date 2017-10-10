@@ -21,3 +21,6 @@ A byte stream containing the new value of the characteristic.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

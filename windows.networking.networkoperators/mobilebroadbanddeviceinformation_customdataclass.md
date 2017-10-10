@@ -21,3 +21,6 @@ The name of the data class when the [DataClasses](mobilebroadbanddeviceinformati
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

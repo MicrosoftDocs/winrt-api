@@ -21,3 +21,6 @@ The value of the SInt48 Format Type.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

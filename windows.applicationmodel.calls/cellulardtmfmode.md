@@ -25,3 +25,5 @@ Tones are sent in a burst fashion.
 ## -examples
 
 ## -see-also
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

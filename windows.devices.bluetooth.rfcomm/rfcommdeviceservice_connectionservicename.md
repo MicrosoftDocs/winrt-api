@@ -21,3 +21,6 @@ The ServiceName object of the RFCOMM service instance.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

@@ -17,6 +17,7 @@ Indicates the completion of the print workflow session. This method should be ca
 Indicates the status of the completed print workflow procedure. This will determine whether the printing pipeline should continue or abort.
 
 ## -remarks
+This method marks the end of the print workflow session and therefore should only be called once.
 
 ## -see-also
 

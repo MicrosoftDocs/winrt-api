@@ -18,3 +18,6 @@ Creates a new GattReliableWriteTransaction object.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

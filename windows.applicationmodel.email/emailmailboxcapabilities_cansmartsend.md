@@ -20,3 +20,6 @@ The Boolean value indicating whether the email mailbox is allowed to attempt sma
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

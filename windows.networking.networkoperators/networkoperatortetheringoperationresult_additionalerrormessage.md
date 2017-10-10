@@ -21,3 +21,6 @@ The mobile operator defined error context.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

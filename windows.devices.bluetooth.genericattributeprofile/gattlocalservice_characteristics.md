@@ -21,3 +21,6 @@ A vector list of the characteristics available for this local service.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

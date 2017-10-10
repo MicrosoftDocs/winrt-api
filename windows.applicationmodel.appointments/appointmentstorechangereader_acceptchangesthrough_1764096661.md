@@ -21,3 +21,6 @@ The [AppointmentStoreChange](appointmentstorechange.md) object indicating the la
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

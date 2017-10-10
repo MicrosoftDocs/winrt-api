@@ -29,3 +29,6 @@ appointment.startTime = new Date(2015, 9, 10, 9); // October 10th, 2015 at 9:00a
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

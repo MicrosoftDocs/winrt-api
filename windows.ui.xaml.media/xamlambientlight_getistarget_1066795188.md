@@ -15,12 +15,9 @@ Gets the value of the XamlAmbientLight.IsTarget XAML attached property for the t
 
 ## -parameters
 
-### -param element
-
-The object from which the property value is read.
-
 ### -param object
 
+The object from which the property value is read.
 
 ## -returns
 

@@ -29,3 +29,5 @@ The way the system uses the **PhotoMediaDescription** property depends on the va
 
 ## -see-also
 [PreviewMediaDescription](mediacaptureinitializationsettings_previewmediadescription.md), [RecordMediaDescription](mediacaptureinitializationsettings_recordmediadescription.md)
+## -capabilities
+backgroundMediaRecording

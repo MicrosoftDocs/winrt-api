@@ -22,3 +22,5 @@ The timestamp when the [Received](bluetoothleadvertisementwatcher_received.md) e
 
 ## -see-also
 [BluetoothLEAdvertisementWatcher](bluetoothleadvertisementwatcher.md), [BluetoothLEAdvertisementWatcher.Received](bluetoothleadvertisementwatcher_received.md)
+## -capabilities
+bluetooth

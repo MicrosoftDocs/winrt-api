@@ -20,3 +20,6 @@ The required SMIME signing algorithm.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

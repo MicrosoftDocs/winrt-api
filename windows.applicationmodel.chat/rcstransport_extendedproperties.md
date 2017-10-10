@@ -21,3 +21,6 @@ A name-value pair for extensibility of service provider configuration values.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

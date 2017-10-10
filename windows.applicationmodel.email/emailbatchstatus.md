@@ -28,3 +28,5 @@ The batch operation has failed due to an unknown error.
 ## -examples
 
 ## -see-also
+## -capabilities
+email, emailSystem

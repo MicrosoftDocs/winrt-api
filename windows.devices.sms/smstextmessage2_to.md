@@ -24,4 +24,4 @@ The destination phone number.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

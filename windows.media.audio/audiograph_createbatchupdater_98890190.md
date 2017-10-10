@@ -20,3 +20,6 @@ A new batch updater for the audio graph.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

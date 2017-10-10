@@ -20,4 +20,5 @@ A collection of phone call history entries.
 
 
 ## -capabilities
+phoneCallHistory, phoneCallHistorySystem
 phoneCallHistoryPublic

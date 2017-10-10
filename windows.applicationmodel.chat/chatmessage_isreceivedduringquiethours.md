@@ -21,3 +21,6 @@ A Boolean value indicating if the message was received during user specified qui
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

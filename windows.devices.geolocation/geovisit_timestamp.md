@@ -21,3 +21,6 @@ A [DateTime](https://docs.microsoft.com/uwp/api/windows.foundation.datetime) ins
 
 ## -examples
 
+
+## -capabilities
+location

@@ -20,3 +20,6 @@ The start time for the meeting.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

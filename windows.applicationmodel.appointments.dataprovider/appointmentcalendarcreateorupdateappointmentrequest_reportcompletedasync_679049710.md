@@ -25,3 +25,6 @@ This method should be called only if the app has successfully created or updated
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

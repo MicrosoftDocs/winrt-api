@@ -21,3 +21,6 @@ This method should be called only if the app has failed to create or update an a
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

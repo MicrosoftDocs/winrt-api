@@ -19,3 +19,5 @@ Call the [AppointmentStore.CreateAppointmentCalendarAsync](appointmentstore_crea
 
 ## -see-also
 [Appointment](appointment.md)
+## -capabilities
+appointmentsSystem

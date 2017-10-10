@@ -13,7 +13,7 @@ public ProtectionMode ProtectionMode { get;  set; }
 The protection mode of the sync root registration.
 
 ## -property-value
-A [protection mode](protectionmode.md) enum value.
+A [protection mode](StorageProviderProtectionMode.md) enum value.
 
 ## -remarks
 

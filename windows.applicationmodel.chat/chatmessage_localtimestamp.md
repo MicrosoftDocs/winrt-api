@@ -22,3 +22,6 @@ The value for [LocalTimestamp](chatmessage_localtimestamp.md) is the local time 
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

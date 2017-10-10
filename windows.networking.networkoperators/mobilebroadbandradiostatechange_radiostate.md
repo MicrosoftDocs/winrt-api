@@ -27,3 +27,6 @@ The new state of the radio after a radio state change.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

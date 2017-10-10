@@ -21,3 +21,6 @@ The actions to which the user can respond.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

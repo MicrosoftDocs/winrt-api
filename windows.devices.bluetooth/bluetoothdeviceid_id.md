@@ -21,3 +21,6 @@ Gets the bluetooth device ID.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

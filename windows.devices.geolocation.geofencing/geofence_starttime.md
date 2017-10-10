@@ -21,3 +21,6 @@ A geofence is made active when the [StartTime](geofence_starttime.md) is in the 
 ## -examples
 
 ## -see-also
+
+## -capabilities
+location

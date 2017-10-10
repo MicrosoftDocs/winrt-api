@@ -30,3 +30,6 @@ The [IAsyncAction](../windows.foundation/iasyncaction.md) to await.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

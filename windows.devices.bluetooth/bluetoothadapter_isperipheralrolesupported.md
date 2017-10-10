@@ -21,3 +21,6 @@ Gets a boolean indicating if the adapater supports LowEnergy peripheral role.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

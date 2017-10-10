@@ -20,3 +20,6 @@ The public key for an email recipient.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

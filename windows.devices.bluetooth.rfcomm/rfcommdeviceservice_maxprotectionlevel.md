@@ -21,3 +21,6 @@ The maximum SocketProtectionLevel of the RFCOMM service instance. This level can
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

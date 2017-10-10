@@ -29,3 +29,5 @@ An important date of the contact other than birthday or anniversary.
 
 ## -see-also
 [ContactDate.Kind](contactdate_kind.md)
+## -capabilities
+contactsSystem

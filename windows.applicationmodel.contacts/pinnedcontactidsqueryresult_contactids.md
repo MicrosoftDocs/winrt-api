@@ -20,3 +20,6 @@ The list of contact IDs that are pinned to the taskbar or **Start** menu.
 ## -see-also
 
 ## -examples
+
+## -capabilities
+contactsSystem

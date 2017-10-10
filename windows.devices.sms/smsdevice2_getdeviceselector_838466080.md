@@ -24,4 +24,4 @@ A reference to an Advanced Query Syntax (AQS) string that identifies an SMS devi
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

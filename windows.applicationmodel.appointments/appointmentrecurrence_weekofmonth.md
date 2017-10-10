@@ -20,3 +20,6 @@ A [AppointmentWeekOfMonth](appointmentweekofmonth.md)-typed value that indicates
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

@@ -42,3 +42,5 @@ The watcher has aborted its watching operation due to an unexpected error condit
 ## -examples
 
 ## -see-also
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

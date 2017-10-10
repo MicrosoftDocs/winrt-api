@@ -32,3 +32,6 @@ The chat application receives notifications of message changes in its message ch
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

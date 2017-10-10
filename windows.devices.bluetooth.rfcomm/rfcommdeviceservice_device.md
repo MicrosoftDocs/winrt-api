@@ -21,3 +21,6 @@ The [BluetoothDevice](../windows.devices.bluetooth/bluetoothdevice.md) object de
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

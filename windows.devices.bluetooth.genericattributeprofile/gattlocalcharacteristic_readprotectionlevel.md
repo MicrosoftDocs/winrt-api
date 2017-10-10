@@ -21,3 +21,6 @@ The read protection level of this local characteristic.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

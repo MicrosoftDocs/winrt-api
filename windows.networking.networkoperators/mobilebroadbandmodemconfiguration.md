@@ -19,3 +19,6 @@ Your code gets instances of this class by using the [MobileBroadbandModem.GetCur
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

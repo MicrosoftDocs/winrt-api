@@ -21,3 +21,6 @@ The write protection level of this local characteristic.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

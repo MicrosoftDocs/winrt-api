@@ -21,3 +21,6 @@ Audio graphs always operate using 32-bit float encoding, regardless of the [Subt
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

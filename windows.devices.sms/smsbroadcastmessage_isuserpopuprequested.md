@@ -24,4 +24,4 @@ True when a user popup is requested by this broadcast SMS message.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

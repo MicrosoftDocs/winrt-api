@@ -19,3 +19,5 @@ A Bluetooth LE advertisement section. A Bluetooth LE advertisement packet can co
 
 ## -see-also
 [BluetoothLEAdvertisement](bluetoothleadvertisement.md)
+## -capabilities
+bluetooth

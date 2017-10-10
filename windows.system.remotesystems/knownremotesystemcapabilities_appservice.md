@@ -21,3 +21,6 @@ The canonical string name of the app service capability.
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

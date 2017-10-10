@@ -25,3 +25,5 @@ An asynchronous operation that returns a [ContactStore](contactstore.md) object 
 
 ## -see-also
 [RequestStoreAsync](contactmanager_requeststoreasync_428591920.md)
+## -capabilities
+contactsSystem

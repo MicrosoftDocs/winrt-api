@@ -18,3 +18,6 @@ Call **GetMessageReader** or **GetMessageReader(EmailQueryOptions)** to get an i
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

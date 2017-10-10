@@ -19,3 +19,6 @@ The [RemoteSystem.GetCapabilitySupportedAsync](remotesystem_getcapabilitysupport
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

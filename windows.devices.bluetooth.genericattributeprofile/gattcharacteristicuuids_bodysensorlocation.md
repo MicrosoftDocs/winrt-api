@@ -21,3 +21,6 @@ The Bluetooth SIG-defined Body Sensor Location Characteristic UUID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

@@ -17,3 +17,6 @@ Occurs when the email client has requested to forward a meeting request.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

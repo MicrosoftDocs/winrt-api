@@ -21,3 +21,6 @@ The byte value for an invalid attribute value length error.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

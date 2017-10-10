@@ -28,3 +28,5 @@ The category of contact data.
 
 ## -see-also
 [ContactInstantMessageField(String)](contactinstantmessagefield_contactinstantmessagefield_290278668.md), [ContactInstantMessageField(String, ContactFieldCategory, String, String, Uri)](contactinstantmessagefield_contactinstantmessagefield_1413064668.md)
+## -capabilities
+contactsSystem

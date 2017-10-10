@@ -18,3 +18,6 @@ Raised when this device has been disconnected from this remote session.
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

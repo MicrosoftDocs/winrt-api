@@ -21,3 +21,6 @@ The Bluetooth SIG-defined LnControlPoint characteristic UUID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

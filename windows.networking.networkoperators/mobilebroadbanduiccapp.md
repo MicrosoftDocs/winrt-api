@@ -19,3 +19,6 @@ Your code does not instantiate this class directly. To get instances of this cla
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

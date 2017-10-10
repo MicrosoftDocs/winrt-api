@@ -21,3 +21,6 @@ Windows supports the **Ellipsoid** altitude reference system.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+location

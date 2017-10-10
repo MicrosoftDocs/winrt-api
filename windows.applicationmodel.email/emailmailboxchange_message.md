@@ -20,3 +20,6 @@ The message to which the change applies.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

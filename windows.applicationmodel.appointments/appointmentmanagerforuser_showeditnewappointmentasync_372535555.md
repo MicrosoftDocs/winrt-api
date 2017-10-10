@@ -24,3 +24,6 @@ An asynchronous operation that returns a string containing an appointment ID upo
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

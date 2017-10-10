@@ -20,3 +20,6 @@ An [EmailQueryOptions](../windows.applicationmodel.email/emailqueryoptions.md) o
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

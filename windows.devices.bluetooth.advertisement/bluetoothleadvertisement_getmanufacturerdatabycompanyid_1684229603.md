@@ -26,3 +26,5 @@ A vector of [BluetoothLEManufacturerData](bluetoothlemanufacturerdata.md) contai
 
 ## -see-also
 [BluetoothLEManufacturerData](bluetoothlemanufacturerdata.md)
+## -capabilities
+bluetooth

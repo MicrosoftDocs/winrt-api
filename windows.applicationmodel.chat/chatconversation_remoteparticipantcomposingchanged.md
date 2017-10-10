@@ -18,3 +18,6 @@ Occurs when the remote user has started or finished typing.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

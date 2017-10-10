@@ -21,3 +21,6 @@ The ID retrieved with this property is guaranteed to be unique on the local devi
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

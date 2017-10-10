@@ -39,3 +39,4 @@ Location services collects positions only when an app or services queries for th
 
 ## -capabilities
 locationHistory
+location

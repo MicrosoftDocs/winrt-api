@@ -20,3 +20,6 @@ The batch of contacts read from the [ContactStore](contactstore.md).
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

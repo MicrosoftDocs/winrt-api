@@ -38,3 +38,6 @@ An instance of GattPresentationFormat.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

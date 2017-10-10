@@ -21,3 +21,6 @@ The Bluetooth SDP record that the system will advertise on behalf of the app.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

@@ -20,3 +20,6 @@ An [EmailMailboxDownloadMessageRequest](emailmailboxdownloadmessagerequest.md) o
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

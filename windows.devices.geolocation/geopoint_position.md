@@ -20,3 +20,6 @@ The position of a geographic point.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+location

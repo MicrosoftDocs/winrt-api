@@ -18,3 +18,6 @@ Provides data for the [MediaCapture.CaptureDeviceExclusiveControlStatusChanged](
 
 ## -examples
 
+
+## -capabilities
+backgroundMediaRecording

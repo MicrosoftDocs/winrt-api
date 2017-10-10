@@ -21,3 +21,6 @@ A list of [HostName](https://docs.microsoft.com/en-us/uwp/api/windows.networking
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

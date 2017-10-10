@@ -20,3 +20,6 @@ The email address of a contact.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

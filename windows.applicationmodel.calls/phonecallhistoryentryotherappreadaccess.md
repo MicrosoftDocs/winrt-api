@@ -25,3 +25,5 @@ Other applications can only read system-level information.
 ## -examples
 
 ## -see-also
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

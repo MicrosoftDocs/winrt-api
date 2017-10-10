@@ -17,3 +17,6 @@ Raised when the user elects to forward a meeting.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

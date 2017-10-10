@@ -20,3 +20,6 @@ The comment, as text.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

@@ -26,3 +26,5 @@ Scanning mode is active. This indicates that scan request packets will be sent f
 ## -examples
 
 ## -see-also
+## -capabilities
+bluetooth

@@ -22,3 +22,5 @@ The result of the asynchronous read operation.
 
 ## -see-also
 [ReadClientCharacteristicConfigurationDescriptorAsync](gattcharacteristic_readclientcharacteristicconfigurationdescriptorasync.md)
+## -capabilities
+bluetooth

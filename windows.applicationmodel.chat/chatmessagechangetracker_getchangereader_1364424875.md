@@ -38,4 +38,5 @@ async int GetMessageRevisionCount(ChatMesssage messageStore)
 
 
 ## -capabilities
+chatSystem, smsSend, chat
 blockedChatMessages

@@ -18,3 +18,6 @@ Used in your [CreateFolderRequested](emaildataproviderconnection_createfolderreq
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

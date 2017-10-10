@@ -34,3 +34,6 @@ There was a GATT communication protocol error.
 
 ## -see-also
 
+
+## -capabilities
+bluetooth

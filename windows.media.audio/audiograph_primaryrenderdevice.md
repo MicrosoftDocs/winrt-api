@@ -21,3 +21,6 @@ Specify the primary rendering device for an audio graph by setting the [AudioGra
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

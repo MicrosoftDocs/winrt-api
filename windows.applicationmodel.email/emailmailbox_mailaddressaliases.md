@@ -20,3 +20,6 @@ The list of email aliases associated with this mailbox.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

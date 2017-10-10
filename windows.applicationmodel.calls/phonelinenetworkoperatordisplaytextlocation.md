@@ -31,3 +31,5 @@ The UI when the user as actively in a call.
 ## -examples
 
 ## -see-also
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

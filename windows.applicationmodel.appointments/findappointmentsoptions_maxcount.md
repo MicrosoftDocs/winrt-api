@@ -20,3 +20,6 @@ The maximum number of appointments that should be included in the find appointme
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

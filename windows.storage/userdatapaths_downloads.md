@@ -10,8 +10,10 @@ public string Downloads { get; }
 # Windows.Storage.UserDataPaths.Downloads
 
 ## -description
+Gets the path to a user's Downloads folder.
 
 ## -property-value
+The full path to the user's Downloads folder.
 
 ## -remarks
 

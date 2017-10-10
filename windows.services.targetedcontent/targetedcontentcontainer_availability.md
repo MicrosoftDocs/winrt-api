@@ -19,3 +19,6 @@ Gets TargetedContentAvailability for a TargetedContentContainer object.
 
 ## -examples
 
+
+## -capabilities
+secondaryAuthenticationFactor

@@ -23,3 +23,6 @@ The GATT characteristic properties, as defined by the GATT profile.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

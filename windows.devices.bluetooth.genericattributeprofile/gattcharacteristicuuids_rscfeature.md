@@ -21,3 +21,6 @@ The Bluetooth SIG-defined Rsc Feature Characteristic UUID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

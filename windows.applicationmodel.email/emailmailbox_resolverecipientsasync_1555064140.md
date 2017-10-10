@@ -24,3 +24,6 @@ A list of resolution results. The result list will be in the same order as the i
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

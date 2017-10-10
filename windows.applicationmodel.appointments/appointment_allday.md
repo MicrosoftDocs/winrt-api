@@ -21,3 +21,6 @@ When creating an appointment with **AllDay** set to true, you should set the [St
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

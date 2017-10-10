@@ -20,3 +20,6 @@ A [ContactQueryTextSearch](contactquerytextsearch.md) object that can be used fo
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

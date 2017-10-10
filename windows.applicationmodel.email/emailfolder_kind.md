@@ -20,3 +20,6 @@ The type of the folder such as inbox, outbox, drafts, sent, and so on.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

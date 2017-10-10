@@ -20,3 +20,5 @@ A [BluetoothLEAdvertisementPublisherStatusChangedEventArgs](bluetoothleadvertise
 
 ## -see-also
 [BluetoothLEAdvertisementPublisher](bluetoothleadvertisementpublisher.md), [BluetoothLEAdvertisementPublisher.StatusChanged](bluetoothleadvertisementpublisher_statuschanged.md)
+## -capabilities
+bluetooth

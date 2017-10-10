@@ -26,4 +26,5 @@ The longitude in degrees. The valid range of values is from -180.0 to 180.0.
 
 
 ## -capabilities
-location, ID_CAP_LOCATION [Windows Phone]
+location
+ID_CAP_LOCATION [Windows Phone]

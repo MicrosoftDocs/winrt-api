@@ -17,3 +17,6 @@ Accepts all changes.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

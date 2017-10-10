@@ -18,3 +18,6 @@ Provides threading info for a [ChatConversation](chatconversation.md).
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

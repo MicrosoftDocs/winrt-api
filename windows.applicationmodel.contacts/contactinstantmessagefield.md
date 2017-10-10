@@ -23,3 +23,6 @@ This code demonstrates the use of the [ContactInstantMessageField](contactinstan
 [!code-js[ContactsKnownFields_IM](../windows.applicationmodel.contacts.provider/code/ContactsMain/javascript/js/contacts.js#SnippetContactsKnownFields_IM)]
 
 ## -see-also
+
+## -capabilities
+contactsSystem

@@ -21,3 +21,6 @@ Authentication reply message.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

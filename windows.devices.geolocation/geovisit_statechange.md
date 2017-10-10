@@ -21,3 +21,6 @@ A [VisitStateChange](VisitStateChange.md) value representing the type of change.
 
 ## -examples
 
+
+## -capabilities
+location

@@ -24,3 +24,6 @@ A random access stream containing the data for the attachment.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

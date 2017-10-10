@@ -20,3 +20,6 @@ A value that indicates whether the app is being installed, updated, or repaired.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+runFullTrust

@@ -20,3 +20,6 @@ An asynchronous set operation on an [EmailMailboxSetAutoReplySettingsRequest](em
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

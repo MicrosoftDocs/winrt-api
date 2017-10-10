@@ -20,3 +20,6 @@ The width of the media description.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

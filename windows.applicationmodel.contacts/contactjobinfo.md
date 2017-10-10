@@ -18,3 +18,5 @@ Represents job info for a contact.
 
 ## -see-also
 [JobInfo](contact_jobinfo.md)
+## -capabilities
+contactsSystem

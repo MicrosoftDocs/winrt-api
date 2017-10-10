@@ -21,3 +21,6 @@ The advertisement service.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

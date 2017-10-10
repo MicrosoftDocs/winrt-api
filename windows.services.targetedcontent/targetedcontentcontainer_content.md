@@ -19,3 +19,6 @@ Gets TargetedContentCollection object for a TargetedContentContainer object.
 
 ## -examples
 
+
+## -capabilities
+secondaryAuthenticationFactor

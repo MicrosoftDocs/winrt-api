@@ -20,3 +20,6 @@ When the [EndRequested](lockscreencallui_endrequested.md) event handler returns,
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

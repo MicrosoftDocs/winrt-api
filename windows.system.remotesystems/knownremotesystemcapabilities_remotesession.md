@@ -21,3 +21,6 @@ The canonical string name of the remote session capability.
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

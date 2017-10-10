@@ -21,3 +21,6 @@ The status of the completed operation.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

@@ -20,3 +20,6 @@ The Boolean value indicating whether this email message contains partial bodies.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

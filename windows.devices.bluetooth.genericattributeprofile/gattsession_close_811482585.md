@@ -20,3 +20,6 @@ Closes the GattSession.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

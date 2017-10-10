@@ -20,3 +20,6 @@ The name of the [Organizer](appointment_organizer.md) property.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

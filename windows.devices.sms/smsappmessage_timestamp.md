@@ -24,4 +24,4 @@ The timestamp of the message. If the message is constructed locally, then the **
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

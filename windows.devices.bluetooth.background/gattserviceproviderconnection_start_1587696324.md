@@ -20,3 +20,6 @@ Starts a GATT service provider connection.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

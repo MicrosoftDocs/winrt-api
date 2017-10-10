@@ -20,3 +20,6 @@ The voice mail data.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

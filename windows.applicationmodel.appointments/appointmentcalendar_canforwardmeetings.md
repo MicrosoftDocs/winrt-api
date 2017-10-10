@@ -20,3 +20,6 @@ Boolean value that indicates if the calendar supports forwarding meetings.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

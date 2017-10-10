@@ -17,3 +17,6 @@ Represents an email message.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

@@ -20,3 +20,6 @@ The day on which an appointment occurs.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

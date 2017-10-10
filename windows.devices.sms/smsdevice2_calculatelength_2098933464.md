@@ -28,4 +28,4 @@ A reference to an SmsEncodedLength structure that is populated with the length i
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

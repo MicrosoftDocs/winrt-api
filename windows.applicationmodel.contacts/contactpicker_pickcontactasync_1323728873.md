@@ -24,3 +24,5 @@ For info about how to select contacts, see [Selecting contacts](http://msdn.micr
 
 ## -see-also
 [Contact Picker app sample](http://go.microsoft.com/fwlink/p/?linkid=231575)
+## -capabilities
+contactsSystem

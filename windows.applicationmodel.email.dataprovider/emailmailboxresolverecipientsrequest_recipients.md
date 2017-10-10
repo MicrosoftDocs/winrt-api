@@ -20,3 +20,6 @@ A list of recipients.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

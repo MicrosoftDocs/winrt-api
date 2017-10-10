@@ -20,3 +20,6 @@ A value indicating the number of samples per quantum.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

@@ -20,3 +20,6 @@ A list of certificates to be validated.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

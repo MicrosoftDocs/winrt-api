@@ -26,3 +26,6 @@ An asynchronous operation with a value of **true** if the **RemoteSystem** is ca
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

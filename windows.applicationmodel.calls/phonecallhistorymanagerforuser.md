@@ -17,3 +17,6 @@ Provides APIs for the application to get access to the [PhoneCallHistoryStore](p
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

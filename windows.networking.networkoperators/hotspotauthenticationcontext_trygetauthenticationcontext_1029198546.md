@@ -35,3 +35,6 @@ If **true**, the authentication context was retrieved. The authentication contex
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

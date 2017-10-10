@@ -18,3 +18,6 @@ Represents the manager for apps hosted in the Windws Ink Workspace.
 
 ## -examples
 
+
+## -capabilities
+previewPenWorkspace

@@ -24,3 +24,6 @@ The confirmation that the certificate is valid.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

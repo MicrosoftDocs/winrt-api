@@ -21,3 +21,6 @@ The [ChatMessageReader](chatmessagereader.md) for this [ChatConversation](chatco
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

@@ -24,4 +24,4 @@ An enumeration value giving the cellular class used in the send operation.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

@@ -21,3 +21,6 @@ Returns a TargetedContentContainer object for a TargetedContentSubscription.
 
 ## -examples
 
+
+## -capabilities
+secondaryAuthenticationFactor

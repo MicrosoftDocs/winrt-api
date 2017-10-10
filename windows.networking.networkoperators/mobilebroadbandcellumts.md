@@ -23,3 +23,6 @@ Represents UMTS network provider/cell information including identifications as w
 
 ## -examples
 
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

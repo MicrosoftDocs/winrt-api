@@ -20,3 +20,6 @@ A Boolean value that indicates if the auto-reply message is enabled.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

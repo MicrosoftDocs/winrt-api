@@ -24,3 +24,6 @@ Returns the appointment manager for the account specified by the *user* paramete
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

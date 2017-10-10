@@ -32,3 +32,5 @@ The geofence was removed.
 
 ## -see-also
 [Geofence](geofence.md)
+## -capabilities
+location

@@ -26,3 +26,6 @@ The triggering mode is batch.
 ## -see-also
 
 ## -examples
+
+## -capabilities
+bluetooth

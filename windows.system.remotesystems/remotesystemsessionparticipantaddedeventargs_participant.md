@@ -21,3 +21,6 @@ A [RemoteSystemSessionParticipant](RemoteSystemSessionParticipant.md) object cor
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

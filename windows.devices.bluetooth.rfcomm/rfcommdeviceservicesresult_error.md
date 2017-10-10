@@ -21,3 +21,6 @@ Gets the error property.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

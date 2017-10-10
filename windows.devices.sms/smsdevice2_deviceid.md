@@ -24,4 +24,4 @@ String representation of the device ID.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

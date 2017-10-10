@@ -18,3 +18,6 @@ Closes this Bluetooth LE device. This may close the connection to the device if 
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

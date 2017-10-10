@@ -21,3 +21,6 @@ The Bluetooth GapPeripheralPrivacyFlag characteristic UUID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

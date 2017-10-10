@@ -23,3 +23,6 @@ An array of GattPresentationFormat objects that contain the list of presentation
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

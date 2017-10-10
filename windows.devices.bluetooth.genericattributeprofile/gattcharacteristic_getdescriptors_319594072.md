@@ -25,3 +25,6 @@ A vector of descriptors whose UUIDs match descriptorUuid.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

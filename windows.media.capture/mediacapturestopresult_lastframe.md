@@ -21,3 +21,6 @@ You can display the frame semi-transparently over the capture preview to help th
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

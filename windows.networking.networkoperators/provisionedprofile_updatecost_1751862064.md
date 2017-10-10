@@ -29,3 +29,6 @@ Updates the cost for the profile.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

@@ -10,8 +10,10 @@ public string Desktop { get; }
 # Windows.Storage.AppDataPaths.Desktop
 
 ## -description
+Gets the path to the desktop folder.
 
 ## -property-value
+The full path to the desktop folder.
 
 ## -remarks
 

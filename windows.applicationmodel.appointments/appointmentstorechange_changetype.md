@@ -20,3 +20,6 @@ An [AppointmentStoreChangeType](appointmentstorechangetype.md) value indicating 
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

@@ -17,3 +17,6 @@ Provides access to the video call capabilities for a [PhoneLine](phoneline.md) i
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

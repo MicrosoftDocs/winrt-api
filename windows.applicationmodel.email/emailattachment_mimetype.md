@@ -20,3 +20,6 @@ The MIME type of the attachment.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

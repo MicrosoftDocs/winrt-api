@@ -20,3 +20,6 @@ The thumbnail image for the contact.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

@@ -21,3 +21,6 @@ Opens a stream for read-only, random access.
 
 ## -examples
 
+
+## -capabilities
+secondaryAuthenticationFactor

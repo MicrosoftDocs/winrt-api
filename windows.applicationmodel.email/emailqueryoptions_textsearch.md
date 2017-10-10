@@ -20,3 +20,6 @@ The text to search for.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

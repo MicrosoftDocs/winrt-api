@@ -25,3 +25,5 @@ An asynchronous operation that, on successful completion, returns an [AppInstall
 
 ## -see-also
 [UpdateAppByPackageFamilyNameAsync(String, String)](appinstallmanager_updateappbypackagefamilynameasync_844113543.md)
+## -capabilities
+runFullTrust

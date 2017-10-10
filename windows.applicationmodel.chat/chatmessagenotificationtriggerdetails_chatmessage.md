@@ -21,3 +21,6 @@ The chat message associated with the trigger.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

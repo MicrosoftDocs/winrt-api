@@ -25,3 +25,5 @@ An asynchronous operation that returns a search-filtered list of contacts on suc
 
 ## -see-also
 [FindContactsAsync](contactstore_findcontactsasync_173480860.md), [Asynchronous programming](http://msdn.microsoft.com/library/23fe28f1-89c5-4a17-a732-a722648f9c5e)
+## -capabilities
+contactsSystem

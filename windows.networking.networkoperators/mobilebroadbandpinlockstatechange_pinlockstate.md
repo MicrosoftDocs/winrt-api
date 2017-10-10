@@ -21,3 +21,6 @@ An enumeration value indicating the new PIN lock state.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

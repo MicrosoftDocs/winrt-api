@@ -20,3 +20,6 @@ The short preview string that represents the longer email message in the list vi
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

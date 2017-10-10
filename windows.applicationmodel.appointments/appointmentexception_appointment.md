@@ -20,3 +20,6 @@ The appointment that is an exception from the master appointment.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

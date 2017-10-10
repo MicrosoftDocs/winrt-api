@@ -10,12 +10,14 @@ public Windows.Foundation.Collections.IVectorView<Windows.Gaming.Input.Gamepad> 
 # Windows.Gaming.Input.Gamepad.Gamepads
 
 ## -description
-The list of all connected gamepads.
+The list of all connected gamepads. 
 
 ## -property-value
 The list of all connected gamepads.
 
 ## -remarks
+
+This list is initally empty and will not list gamepads even if they are already connected. After a short period this will return a complete list of gamepads.
 
 ## -examples
 

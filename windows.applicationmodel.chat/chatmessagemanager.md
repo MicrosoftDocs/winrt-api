@@ -18,3 +18,6 @@ Provides access to message transports and the message store. Also provides a met
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

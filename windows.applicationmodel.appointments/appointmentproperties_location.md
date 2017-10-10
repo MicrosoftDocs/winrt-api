@@ -20,3 +20,6 @@ The name of the [Location](appointment_location.md) property.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

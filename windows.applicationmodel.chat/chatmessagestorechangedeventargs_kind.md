@@ -21,3 +21,6 @@ The type of change that happened.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

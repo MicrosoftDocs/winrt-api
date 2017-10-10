@@ -20,3 +20,6 @@ String value that identifies the parent aggregate contact.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

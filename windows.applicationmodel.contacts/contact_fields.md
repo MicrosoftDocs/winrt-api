@@ -35,3 +35,6 @@ These functions show how you can add different fields to a [Contact](contact.md)
 [!code-js[ContactPickerBasketAppendAddress](../windows.applicationmodel.contacts.provider/code/ContactsMain/javascript/js/contactpicker.js#SnippetContactPickerBasketAppendAddress)]
 
 ## -see-also
+
+## -capabilities
+contactsSystem

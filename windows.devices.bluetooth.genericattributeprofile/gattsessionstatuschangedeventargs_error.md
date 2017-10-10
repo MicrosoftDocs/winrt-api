@@ -21,3 +21,6 @@ The error of the GATT session.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

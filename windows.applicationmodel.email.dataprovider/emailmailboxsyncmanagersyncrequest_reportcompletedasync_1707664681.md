@@ -20,3 +20,6 @@ An asynchronous sync operation on an [EmailMailboxSyncManagerSyncRequest](emailm
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

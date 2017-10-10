@@ -21,3 +21,6 @@ The current change.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

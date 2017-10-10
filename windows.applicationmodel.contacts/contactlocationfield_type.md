@@ -24,3 +24,6 @@ See the [ContactFieldType](contactfieldtype.md) class for more info on the avail
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

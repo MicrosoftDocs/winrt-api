@@ -17,3 +17,6 @@ Occurs when the contact data client has requested to sync a contact list with th
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

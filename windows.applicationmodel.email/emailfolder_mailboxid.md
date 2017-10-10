@@ -20,3 +20,6 @@ The ID of the mailbox that contains this folder.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

@@ -20,3 +20,6 @@ A list of the names of the appointment properties for which an exception was fou
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

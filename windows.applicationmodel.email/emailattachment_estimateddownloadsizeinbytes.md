@@ -20,3 +20,6 @@ The estimated download size of the attachment.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

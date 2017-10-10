@@ -13,3 +13,5 @@ This namespace allows apps to implement messaging through SMS, MMS, and RCS prot
 ## -examples
 
 ## -see-also
+## -capabilities
+chatSystem, smsSend, chat

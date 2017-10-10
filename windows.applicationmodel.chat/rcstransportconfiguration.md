@@ -19,3 +19,6 @@ The [Configuration](rcstransport_configuration.md) property of the [RcsTransport
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

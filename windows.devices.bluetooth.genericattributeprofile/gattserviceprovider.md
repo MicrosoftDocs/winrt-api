@@ -18,3 +18,6 @@ This class is used to advertise a GATT service.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

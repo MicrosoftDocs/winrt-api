@@ -52,3 +52,5 @@ Validation failed. Unknown failure.
 ## -examples
 
 ## -see-also
+## -capabilities
+email, emailSystem

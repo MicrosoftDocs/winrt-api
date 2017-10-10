@@ -20,3 +20,6 @@ The suggested number of contacts in a batch.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

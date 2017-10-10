@@ -20,3 +20,6 @@ Specifies which contact fields to search for a text match.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

@@ -25,3 +25,5 @@ Scope limited to read all data but only call write APIs that are on the mailbox 
 ## -examples
 
 ## -see-also
+## -capabilities
+email, emailSystem

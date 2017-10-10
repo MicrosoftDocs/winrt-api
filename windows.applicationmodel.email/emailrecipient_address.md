@@ -20,3 +20,6 @@ The address of the email recipient.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

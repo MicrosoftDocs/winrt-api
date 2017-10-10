@@ -20,3 +20,6 @@ The identifier that can be used by a service provider to access the email messag
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

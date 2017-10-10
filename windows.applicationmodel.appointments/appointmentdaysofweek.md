@@ -44,3 +44,5 @@ The appointment occurs on Saturday.
 
 ## -see-also
 [DaysOfWeek](appointmentrecurrence_daysofweek.md)
+## -capabilities
+appointmentsSystem

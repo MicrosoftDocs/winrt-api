@@ -14,10 +14,10 @@ Contains values that describe the intended scope of location monitoring for use 
 
 ## -enum-fields
 ### -field Venue:0
-Monitor the Visist-related events that concern changes in buildings.
+Monitor all Visit-related events that concern changes in building-sized areas.
 
 ### -field City:1
-Monitor only the Visit-related events that concern changes in cities. 
+Monitor only the Visit-related events that concern changes in city-sized areas. 
 
 ## -remarks
 A value must be specified when setting up a [GeovisitTrigger](https://docs.microsoft.com/uwp/api/windows.applicationmodel.background.geovisittrigger) or [GeovisitMonitor](GeovisitMonitor.md), in order to determine which Visit-related events will be processed.
@@ -28,3 +28,6 @@ A value must be specified when setting up a [GeovisitTrigger](https://docs.micro
 
 ## -examples
 
+
+## -capabilities
+location

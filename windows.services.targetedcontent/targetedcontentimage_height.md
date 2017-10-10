@@ -19,3 +19,6 @@ Gets a value indicating the height of the TargetedContentImage object.
 
 ## -examples
 
+
+## -capabilities
+secondaryAuthenticationFactor

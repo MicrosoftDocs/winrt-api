@@ -18,3 +18,6 @@ Provides information about the Bluetooth LE device that caused this trigger to f
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

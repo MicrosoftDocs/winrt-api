@@ -28,3 +28,5 @@ The MIME type of the attachment.
 
 ## -see-also
 [EmailAttachment(String, IRandomAccessStreamReference)](emailattachment_emailattachment_1759667898.md)
+## -capabilities
+email, emailSystem

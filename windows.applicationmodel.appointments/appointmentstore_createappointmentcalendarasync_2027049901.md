@@ -25,3 +25,5 @@ An async operation that provides access to the newly created [AppointmentCalenda
 
 ## -see-also
 [CreateAppointmentCalendarAsync(String, String)](appointmentstore_createappointmentcalendarasync_875453971.md)
+## -capabilities
+appointmentsSystem

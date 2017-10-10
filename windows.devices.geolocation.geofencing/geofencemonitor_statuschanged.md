@@ -19,3 +19,5 @@ When using a geofence, use the [GeofenceMonitor](geofencemonitor.md) 's [StatusC
 
 ## -see-also
 [Geofence](geofence.md)
+## -capabilities
+location

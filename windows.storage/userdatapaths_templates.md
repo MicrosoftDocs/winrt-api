@@ -10,8 +10,10 @@ public string Templates { get; }
 # Windows.Storage.UserDataPaths.Templates
 
 ## -description
+Gets the path to a user's Common Templates folder.
 
 ## -property-value
+The full path to the user's Common Templates folder.
 
 ## -remarks
 

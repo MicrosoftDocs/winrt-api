@@ -26,3 +26,5 @@ Use the OR operator to combine these values together into a single bit field.
 ## -examples
 
 ## -see-also
+## -capabilities
+contactsSystem

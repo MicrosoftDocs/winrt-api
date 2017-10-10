@@ -19,3 +19,6 @@ Gets the string path for the TargetedContentValue object.
 
 ## -examples
 
+
+## -capabilities
+secondaryAuthenticationFactor

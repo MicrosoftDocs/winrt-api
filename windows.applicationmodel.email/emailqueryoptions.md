@@ -17,3 +17,6 @@ Represents the options selected for an email mailbox query.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

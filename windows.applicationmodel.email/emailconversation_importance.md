@@ -20,3 +20,6 @@ The value that specifies the importance of the conversation; normal, high or low
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

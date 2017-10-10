@@ -11,8 +11,12 @@ public void GameUIProviderActivatedEventArgs.ReportCompleted(ValueSet results)
 
 ## -description
 
+Signals the experience as complete, and communicates any resulting data back to the calling app. This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, your app cannot use this API.
+
 ## -parameters
 ### -param results
+
+The resulting data from the **GameUIProvider** app.
 
 ## -remarks
 

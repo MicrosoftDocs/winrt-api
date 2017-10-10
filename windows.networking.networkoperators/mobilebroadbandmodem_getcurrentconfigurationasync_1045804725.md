@@ -21,3 +21,6 @@ An asynchronous retrieval operation. On successful completion, contains a [Mobil
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

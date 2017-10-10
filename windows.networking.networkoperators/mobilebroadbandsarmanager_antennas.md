@@ -22,3 +22,6 @@ The size of this collection is guaranteed to be the same as the number of antenn
 
 ## -examples
 
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

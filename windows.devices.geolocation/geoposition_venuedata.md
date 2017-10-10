@@ -28,3 +28,6 @@ Venue information is not available for all geographic locations. A [VenueData](v
 ## -examples
 
 ## -see-also
+
+## -capabilities
+location

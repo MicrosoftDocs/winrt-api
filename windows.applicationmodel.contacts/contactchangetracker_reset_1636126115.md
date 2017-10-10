@@ -17,3 +17,6 @@ Call this method to reset the change tracker if your app receives [ContactChange
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

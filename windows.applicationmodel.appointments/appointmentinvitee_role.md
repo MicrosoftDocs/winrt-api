@@ -20,3 +20,6 @@ A [AppointmentParticipantRole](appointmentparticipantrole.md)-typed value that i
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

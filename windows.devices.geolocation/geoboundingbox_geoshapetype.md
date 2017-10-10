@@ -20,3 +20,6 @@ The type of geographic shape represented by the [GeoboundingBox](geoboundingbox.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+location

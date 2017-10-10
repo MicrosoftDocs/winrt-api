@@ -29,3 +29,5 @@ A [RecordLimitationExceeded](mediacapture_recordlimitationexceeded.md) event is 
 
 ## -see-also
 [StartRecordToCustomSinkAsync(MediaEncodingProfile, String, IPropertySet)](mediacapture_startrecordtocustomsinkasync_319695531.md), [RecordLimitationExceeded](mediacapture_recordlimitationexceeded.md)
+## -capabilities
+backgroundMediaRecording

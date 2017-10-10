@@ -20,3 +20,6 @@ The [EmailFlagState](emailflagstate.md) for the conversation.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

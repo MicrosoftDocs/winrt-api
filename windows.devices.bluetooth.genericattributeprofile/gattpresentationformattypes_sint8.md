@@ -21,3 +21,6 @@ The value of the SInt8 Format Type.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

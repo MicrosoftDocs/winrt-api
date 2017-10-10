@@ -19,3 +19,6 @@ Call [RcsEndUserMessage.Actions](rcsendusermessage_actions.md) to instantiate th
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

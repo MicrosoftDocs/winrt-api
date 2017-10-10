@@ -17,3 +17,6 @@ Creates a new [PhoneCallOrigin](phonecallorigin.md) object.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

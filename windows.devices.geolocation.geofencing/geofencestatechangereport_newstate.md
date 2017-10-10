@@ -21,3 +21,5 @@ The new state of the [Geofence](geofence.md) object whose state has changed.
 
 ## -see-also
 [GeofenceMonitor](geofencemonitor.md), [Geofence](geofence.md)
+## -capabilities
+location

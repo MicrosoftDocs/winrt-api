@@ -20,3 +20,5 @@ Providers call methods of [AddAppointmentOperation](addappointmentoperation.md) 
 ## -examples
 
 ## -see-also
+## -capabilities
+appointmentsSystem

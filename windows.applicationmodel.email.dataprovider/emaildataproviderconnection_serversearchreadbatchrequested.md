@@ -17,3 +17,6 @@ Occurs when the email client has requested a batch of server-side search results
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

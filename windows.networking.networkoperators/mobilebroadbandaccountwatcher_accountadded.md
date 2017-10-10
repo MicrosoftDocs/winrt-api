@@ -26,3 +26,6 @@ The network account id of the account is available in the event handler from the
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

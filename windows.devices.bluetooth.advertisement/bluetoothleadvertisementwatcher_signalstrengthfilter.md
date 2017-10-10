@@ -32,3 +32,5 @@ The additional restrictions and default values are as follows:
 
 ## -see-also
 [BluetoothLEAdvertisement](bluetoothleadvertisement.md)
+## -capabilities
+bluetooth

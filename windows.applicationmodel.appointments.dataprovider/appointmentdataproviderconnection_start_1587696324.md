@@ -17,3 +17,6 @@ Starts the connection for transfer of data.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

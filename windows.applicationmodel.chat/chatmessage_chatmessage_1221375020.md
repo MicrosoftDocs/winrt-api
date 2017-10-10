@@ -18,3 +18,6 @@ Creates a new instance of the [ChatMessage](chatmessage.md) class.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

@@ -17,3 +17,6 @@ Occurs when the installation status of the current app has changed.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+runFullTrust

@@ -21,3 +21,6 @@ The appearance category code for a clock Bluetooth LE device.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

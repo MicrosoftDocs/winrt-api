@@ -24,3 +24,6 @@ An asynchronous action that returns a [MediaCapturePauseResult](mediacapturepaus
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

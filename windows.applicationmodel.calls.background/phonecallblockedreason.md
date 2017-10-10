@@ -28,3 +28,5 @@ The call was rejected because it was an unknown number and unknown numbers are b
 ## -examples
 
 ## -see-also
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

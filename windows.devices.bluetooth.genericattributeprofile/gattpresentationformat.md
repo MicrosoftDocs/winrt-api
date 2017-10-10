@@ -18,3 +18,6 @@ Represents the value of a single Presentation Format GATT Descriptor.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

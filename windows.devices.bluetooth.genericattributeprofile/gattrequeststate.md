@@ -28,3 +28,6 @@ The request is canceled.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

@@ -21,3 +21,6 @@ The type of message operator.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

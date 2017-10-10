@@ -24,4 +24,4 @@ The timestamp of the message. Timestamp value is specified by the service center
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

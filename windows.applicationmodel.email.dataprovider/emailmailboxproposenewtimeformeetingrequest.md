@@ -18,3 +18,6 @@ Used in your [ProposeNewTimeForMeetingRequested](emaildataproviderconnection_pro
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

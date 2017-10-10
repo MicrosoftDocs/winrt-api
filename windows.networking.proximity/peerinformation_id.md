@@ -21,3 +21,6 @@ The app id for the peer app.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+proximity

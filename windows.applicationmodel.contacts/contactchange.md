@@ -18,3 +18,6 @@ Call [ContactChangeReader.ReadBatchAsync](contactchangereader_readbatchasync.md)
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

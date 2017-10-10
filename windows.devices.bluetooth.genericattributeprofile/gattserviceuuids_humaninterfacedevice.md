@@ -21,3 +21,6 @@ The Bluetooth SIG-defined HumanInterfaceDevice service UUID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

@@ -24,4 +24,5 @@ Use [GetEntryReader](phonecallhistorystore_getentryreader_499466667.md) if you w
 [GetEntryReader(PhoneCallHistoryEntryQueryOptions)](phonecallhistorystore_getentryreader_499466667.md)
 
 ## -capabilities
+phoneCallHistory, phoneCallHistorySystem
 phoneCallHistoryPublic

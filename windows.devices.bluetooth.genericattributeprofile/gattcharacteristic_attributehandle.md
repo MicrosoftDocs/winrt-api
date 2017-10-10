@@ -21,3 +21,6 @@ Handle that uniquely identifies GATT-based characteristic attributes.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

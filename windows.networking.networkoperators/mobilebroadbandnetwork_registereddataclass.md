@@ -28,3 +28,6 @@ The data class of the current mobile network.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

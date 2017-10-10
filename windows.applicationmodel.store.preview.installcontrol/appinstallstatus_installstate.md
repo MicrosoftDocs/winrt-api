@@ -20,3 +20,6 @@ A value that specifies the installation state of the current app.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+runFullTrust

@@ -20,3 +20,6 @@ The unique identifier of the video profile.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

@@ -20,3 +20,6 @@ A collection of [AppInstallItem](appinstallitem.md) objects that represent all a
 ## -examples
 
 ## -see-also
+
+## -capabilities
+runFullTrust

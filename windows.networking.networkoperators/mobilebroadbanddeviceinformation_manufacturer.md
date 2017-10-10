@@ -22,3 +22,6 @@ You can use the [Manufacturer](mobilebroadbanddeviceinformation_manufacturer.md)
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

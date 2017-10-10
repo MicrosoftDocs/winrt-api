@@ -18,3 +18,6 @@ Occurs when there is notification received from device that indicate a change in
 
 ## -examples
 
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

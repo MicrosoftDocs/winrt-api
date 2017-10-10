@@ -19,3 +19,6 @@ Your code does not instantiate this class. The class and all its properties are 
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

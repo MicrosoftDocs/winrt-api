@@ -26,7 +26,7 @@ Knowing that a **UserActivity** is **New** versus **Published** can be used to d
 ## -examples
 
 ```cs
-UserActivity userActivity = await channel.GetOrCreateUserActivityAsync(activityId, new HostName("contoso.com"));
+UserActivity userActivity = await channel.GetOrCreateUserActivityAsync(activityId);
 
 //if it's a new UserActivity associate metadata with it
 if (userActivity.State == UserActivityState.New)
@@ -42,16 +42,14 @@ if (userActivity.State == UserActivityState.New)
     userActivity.ContentUri = article.Link;
 
     userActivity.VisualElements.Description = article.Summary; //optional
-    userActivity.VisualElements.ImageIcon = new Uri("https://unsplash.it/360/202?image=883"); //optional must be a remote source
 
-    userActivity.ContentMetadata = @"
-        {
+    userActivity.ContentInfo = UserActivityContentInfo.FromJson(
+        @"{
         ""@context"": ""http://schema.org"",
         ""@type"": ""Article"",
         ""author"": ""John Doe"",
         ""name"": ""How to Tie a Reef Knot""
-        }";
+        }");
     await userActivity.SaveAsync();
 }
-
 ```

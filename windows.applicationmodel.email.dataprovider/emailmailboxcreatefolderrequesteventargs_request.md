@@ -20,3 +20,6 @@ A [EmailMailboxCreateFolderRequest](emailmailboxcreatefolderrequest.md) object t
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

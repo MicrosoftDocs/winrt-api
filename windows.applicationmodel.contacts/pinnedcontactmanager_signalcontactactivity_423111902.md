@@ -26,3 +26,6 @@ Your app can call this method from a background thread.
 ## -see-also
 
 ## -examples
+
+## -capabilities
+contactsSystem

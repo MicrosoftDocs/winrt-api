@@ -28,3 +28,5 @@ An async action indicating that the operation has completed.
 
 ## -see-also
 [SendMessageAsync(EmailMessage)](emailmailbox_sendmessageasync_654687737.md)
+## -capabilities
+email, emailSystem

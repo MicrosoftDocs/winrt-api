@@ -22,3 +22,5 @@ The collection of positions to use to create the new [Geopath](geopath.md). For 
 
 ## -see-also
 [Geopath(IIterable(BasicGeoposition), AltitudeReferenceSystem)](geopath_geopath_794018629.md), [Geopath(IIterable(BasicGeoposition), AltitudeReferenceSystem, UInt32)](geopath_geopath_549320865.md)
+## -capabilities
+location

@@ -26,3 +26,6 @@ Message validation will check the properties of the message for proper format, v
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

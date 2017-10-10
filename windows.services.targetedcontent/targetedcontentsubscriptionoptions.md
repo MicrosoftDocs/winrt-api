@@ -18,4 +18,5 @@ Represents options for a subscription in form of CloudQuery Parameters, Local Fi
 ## -examples
 
 ## -capabilities
+secondaryAuthenticationFactor
 targetedContent

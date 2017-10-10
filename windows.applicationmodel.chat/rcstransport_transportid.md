@@ -21,3 +21,6 @@ The ID for the transport that is unique on the device.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

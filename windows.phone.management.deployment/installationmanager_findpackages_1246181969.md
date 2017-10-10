@@ -22,3 +22,5 @@ If the method succeeds, an enumerable collection of package objects is returned.
 
 ## -see-also
 [FindPackages(String, String)](installationmanager_findpackages_1597689551.md)
+## -capabilities
+oemDeployment

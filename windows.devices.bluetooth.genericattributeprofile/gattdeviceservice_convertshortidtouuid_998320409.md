@@ -25,3 +25,6 @@ The corresponding 128-bit GATT Service UUID, that uniquely identifies this servi
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

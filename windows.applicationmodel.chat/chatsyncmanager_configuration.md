@@ -21,3 +21,6 @@ Gets the configuration properties of the sync manager.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

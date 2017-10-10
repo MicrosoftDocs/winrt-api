@@ -21,3 +21,6 @@ The value of the Boolean Format Type.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

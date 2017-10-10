@@ -20,3 +20,6 @@ The date of the appointment conflict.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

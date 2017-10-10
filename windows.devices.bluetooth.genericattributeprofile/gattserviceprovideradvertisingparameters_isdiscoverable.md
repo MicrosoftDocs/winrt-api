@@ -21,3 +21,6 @@ A boolean indicating that the GATT service is discoverable.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

@@ -40,3 +40,5 @@ This is the sent items folder.
 ## -examples
 
 ## -see-also
+## -capabilities
+email, emailSystem

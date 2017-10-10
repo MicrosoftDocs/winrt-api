@@ -26,3 +26,5 @@ In order to use this API, you will need to define a new category in your applica
 ## -examples
 
 ## -see-also
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

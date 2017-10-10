@@ -18,3 +18,6 @@ An event that is triggered when the GATT session status has changed.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

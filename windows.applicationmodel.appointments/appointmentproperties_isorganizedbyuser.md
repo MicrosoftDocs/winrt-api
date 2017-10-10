@@ -20,3 +20,6 @@ The name of the [IsOrganizedByUser](appointment_isorganizedbyuser.md) property.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

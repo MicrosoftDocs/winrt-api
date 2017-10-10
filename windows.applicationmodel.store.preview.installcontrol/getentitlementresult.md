@@ -23,3 +23,6 @@ An instance of this class is returned by the following methods:
 ## -see-also
 
 ## -examples
+
+## -capabilities
+runFullTrust

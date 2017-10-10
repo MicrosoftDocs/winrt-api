@@ -17,3 +17,6 @@ Represents a service that source apps can call to pin and unpin contacts to and 
 ## -see-also
 
 ## -examples
+
+## -capabilities
+contactsSystem

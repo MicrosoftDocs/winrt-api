@@ -19,3 +19,5 @@ Provides data for a [Received](bluetoothleadvertisementwatcher_received.md) even
 
 ## -see-also
 [BluetoothLEAdvertisementWatcher](bluetoothleadvertisementwatcher.md), [BluetoothLEAdvertisementWatcher.Received](bluetoothleadvertisementwatcher_received.md)
+## -capabilities
+bluetooth

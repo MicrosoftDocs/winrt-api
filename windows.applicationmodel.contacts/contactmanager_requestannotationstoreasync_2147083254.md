@@ -24,3 +24,6 @@ The requested [ContactAnnotationStore](contactannotationstore.md).
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

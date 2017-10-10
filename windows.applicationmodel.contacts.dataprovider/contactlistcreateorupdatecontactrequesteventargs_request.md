@@ -20,3 +20,6 @@ A [ContactListCreateOrUpdateTaskRequest](contactlistcreateorupdatetaskrequest.md
 ## -see-also
 
 ## -examples
+
+## -capabilities
+contactsSystem

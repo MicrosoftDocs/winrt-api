@@ -29,3 +29,6 @@ The current app can initialize the capture device with exclusive control.
 
 ## -examples
 
+
+## -capabilities
+backgroundMediaRecording

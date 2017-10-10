@@ -20,3 +20,6 @@ A Boolean value that indicates if the user is allowed to print the contents of t
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

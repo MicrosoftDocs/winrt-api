@@ -29,3 +29,6 @@ Updates the usage for a profile.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

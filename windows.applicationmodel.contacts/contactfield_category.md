@@ -24,3 +24,6 @@ To see what types of categories you can assign to a [ContactField](contactfield.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

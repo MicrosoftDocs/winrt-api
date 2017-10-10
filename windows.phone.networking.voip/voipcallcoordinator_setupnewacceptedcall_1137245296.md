@@ -39,3 +39,6 @@ The object that represents the VoIP call.
 
 ## capabilities
 voipCall
+
+## -capabilities
+backgroundVoIP

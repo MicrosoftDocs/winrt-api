@@ -20,3 +20,5 @@ Specifies an object that describes a piece of contact data.
 ## -examples
 
 ## -see-also
+## -capabilities
+contactsSystem

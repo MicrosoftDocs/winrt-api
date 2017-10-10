@@ -33,3 +33,5 @@ The profile is for a wireless wide area network (WWAN).
 ## -examples
 
 ## -see-also
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

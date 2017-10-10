@@ -21,3 +21,6 @@ The text of the new message.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

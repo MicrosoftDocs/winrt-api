@@ -26,3 +26,6 @@ After the asynchronous operation completes, returns the [BluetoothLEDevice](blue
 
 ## -see-also
 [FromBluetoothAddressAsync(UInt64, BluetoothAddressType)](bluetoothledevice_frombluetoothaddressasync_613922801.md)
+
+## -capabilities
+bluetooth

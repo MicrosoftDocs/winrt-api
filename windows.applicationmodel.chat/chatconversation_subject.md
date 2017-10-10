@@ -21,3 +21,6 @@ The subject of a group conversation.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

@@ -17,3 +17,6 @@ A collection of information about the origin of a phone call.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

@@ -19,3 +19,6 @@ Gets a collection of Local Filters for the TargetedContentSubscription object.
 
 ## -examples
 
+
+## -capabilities
+secondaryAuthenticationFactor

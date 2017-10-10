@@ -24,4 +24,4 @@ An enumeration value specifying the cellular class of the message.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

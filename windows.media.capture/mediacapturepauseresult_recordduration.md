@@ -20,3 +20,6 @@ The duration of the media captured before the capture operation was paused.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

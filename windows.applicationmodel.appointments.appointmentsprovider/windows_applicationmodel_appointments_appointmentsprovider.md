@@ -15,3 +15,5 @@ A show timeframe / show appointments UI activation doesn't have an operations cl
 
 ## -see-also
 [Appointment calendar sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620488)
+## -capabilities
+appointmentsSystem

@@ -32,3 +32,5 @@ An MMS server error
 ## -examples
 
 ## -see-also
+## -capabilities
+chatSystem, smsSend, chat

@@ -24,3 +24,6 @@ An asynchronous operation that returns an [IVectorView](../windows.foundation.co
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

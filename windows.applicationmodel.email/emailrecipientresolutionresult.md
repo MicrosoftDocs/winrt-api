@@ -18,3 +18,6 @@ Call [ResolveRecipientsAsync](emailmailbox_resolverecipientsasync.md) to retriev
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

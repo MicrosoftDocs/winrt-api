@@ -21,3 +21,6 @@ The GATT communication status.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

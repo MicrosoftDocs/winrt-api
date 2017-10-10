@@ -25,3 +25,5 @@ The altitude reference system to use to create the new [Geopath](geopath.md). Fo
 
 ## -see-also
 [Geopath(IIterable(BasicGeoposition))](geopath_geopath_209419777.md), [Geopath(IIterable(BasicGeoposition), AltitudeReferenceSystem, UInt32)](geopath_geopath_549320865.md)
+## -capabilities
+location

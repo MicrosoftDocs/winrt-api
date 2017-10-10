@@ -24,4 +24,4 @@ The cellular class of the SMS device that received the message.
 [CellularClass](cellularclass.md)
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

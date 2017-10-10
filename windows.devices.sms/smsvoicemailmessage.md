@@ -24,4 +24,4 @@ Encapsulates an SMS voicemail message.
 [ISmsMessageBase](ismsmessagebase.md), [ISmsMessage](ismsmessage.md)
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

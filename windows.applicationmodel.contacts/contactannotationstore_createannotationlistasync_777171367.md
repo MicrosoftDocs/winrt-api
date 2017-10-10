@@ -93,3 +93,5 @@ public async Task<Boolean> DeleteAllAnnotationLists()
 
 ## -see-also
 [RequestAnnotationStoreAsync](contactmanager_requestannotationstoreasync.md), [ContactAnnotationList](contactannotationlist.md), [CreateAnnotationListAsync(String)](contactannotationstore_createannotationlistasync_2010335367.md), [GetAnnotationListAsync](contactannotationstore_getannotationlistasync.md), [FindAnnotationListsAsync](contactannotationstore_findannotationlistsasync.md), [DeleteAsync](contactannotationlist_deleteasync.md)
+## -capabilities
+contactsSystem

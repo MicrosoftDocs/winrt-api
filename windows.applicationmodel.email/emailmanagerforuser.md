@@ -18,3 +18,6 @@ Call the [EmailManager.GetForUser](emailmanager_getforuser.md) method to get an 
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

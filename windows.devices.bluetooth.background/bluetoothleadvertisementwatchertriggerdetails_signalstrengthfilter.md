@@ -21,3 +21,6 @@ The parameters used to configure received signal strength indicator (RSSI)-based
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

@@ -54,3 +54,5 @@ This is a PIN that allows the device to be restricted to operate on a specific n
 
 ## -see-also
 [MobileBroadbandPin](mobilebroadbandpin.md)
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

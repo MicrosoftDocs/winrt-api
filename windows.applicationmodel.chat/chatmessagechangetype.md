@@ -32,3 +32,5 @@ Change tracking lost.
 ## -examples
 
 ## -see-also
+## -capabilities
+chatSystem, smsSend, chat

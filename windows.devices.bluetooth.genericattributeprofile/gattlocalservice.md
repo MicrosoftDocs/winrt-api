@@ -18,3 +18,6 @@ This class represents a GATT local service.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

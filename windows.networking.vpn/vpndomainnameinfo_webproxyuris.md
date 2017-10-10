@@ -23,3 +23,6 @@ To specify a custom port number, use URI syntax. For example, to use port 56789 
 ## -examples
 
 ## -see-also
+
+## -capabilities
+networkingVpnProvider

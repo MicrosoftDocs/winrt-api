@@ -17,3 +17,6 @@ Call this method to inform the activating app that the operation was canceled by
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

@@ -24,4 +24,4 @@ For a received message, indicates whether an SMS delivery status report was sent
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

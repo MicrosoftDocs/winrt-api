@@ -21,3 +21,6 @@ An app can extend its time on the lock screen by calling [GetDeferral](lockscree
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

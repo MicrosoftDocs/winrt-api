@@ -24,4 +24,5 @@ Before playing back a video, the [RandomAccessStream](../windows.storage.streams
 
 
 ## -capabilities
+backgroundMediaRecording
 microphone, webcam

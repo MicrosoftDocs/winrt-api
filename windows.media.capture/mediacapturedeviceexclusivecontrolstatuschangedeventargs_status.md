@@ -21,3 +21,6 @@ A value indicating whether exclusive control of the device is available or if th
 
 ## -examples
 
+
+## -capabilities
+backgroundMediaRecording

@@ -20,3 +20,6 @@ The string that indicates the class of the message.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

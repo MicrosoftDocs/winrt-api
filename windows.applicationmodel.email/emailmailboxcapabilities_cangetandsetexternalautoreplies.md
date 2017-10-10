@@ -20,3 +20,6 @@ A Boolean value indicating whether an account is allowed to get and set automati
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

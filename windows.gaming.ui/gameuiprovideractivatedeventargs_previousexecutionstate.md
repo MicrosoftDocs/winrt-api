@@ -11,7 +11,11 @@ public ApplicationExecutionState PreviousExecutionState { get; }
 
 ## -description
 
+The previous execution state. This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, your app cannot use this API.
+
 ## -property-value
+
+The previous execution state.
 
 ## -remarks
 

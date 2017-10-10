@@ -25,3 +25,5 @@ A batch of email conversations.
 
 ## -see-also
 [GetConversationReader](emailstore_getconversationreader_388570943.md)
+## -capabilities
+email, emailSystem

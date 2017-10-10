@@ -20,3 +20,6 @@ The type or types of media requested for a dial.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

@@ -21,3 +21,6 @@ The home provider ID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

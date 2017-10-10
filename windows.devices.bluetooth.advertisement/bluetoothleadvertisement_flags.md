@@ -21,3 +21,6 @@ Bluetooth LE advertisement flags.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

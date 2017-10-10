@@ -21,3 +21,6 @@ Indicates the network account id and specifies the pass-phrase used for authenti
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

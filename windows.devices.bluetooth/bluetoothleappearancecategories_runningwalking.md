@@ -21,3 +21,6 @@ The appearance category code for a running or walking Bluetooth LE device.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

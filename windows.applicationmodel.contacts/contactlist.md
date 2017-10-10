@@ -18,3 +18,6 @@ Call [ContactStore.CreateContactListAsync](contactstore_createcontactlistasync_1
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

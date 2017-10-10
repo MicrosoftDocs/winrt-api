@@ -18,3 +18,6 @@ Get an instance of this class by handling the [UnrecoverableErrorOccurred](audio
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

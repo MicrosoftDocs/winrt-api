@@ -21,3 +21,6 @@ Specify the encoding properties for an audio graph by setting the [AudioGraphSet
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

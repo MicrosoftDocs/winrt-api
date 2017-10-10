@@ -25,3 +25,5 @@ An asynchronous action.
 
 ## -see-also
 [ShowAppointmentDetailsAsync(String, DateTime)](appointmentstore_showappointmentdetailsasync_190736264.md)
+## -capabilities
+appointmentsSystem

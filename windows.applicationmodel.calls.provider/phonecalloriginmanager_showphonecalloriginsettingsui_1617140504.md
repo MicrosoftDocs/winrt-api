@@ -43,3 +43,6 @@ The following example shows how to pull up the phone call origins application UI
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

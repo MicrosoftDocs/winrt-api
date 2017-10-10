@@ -32,3 +32,5 @@ The tethering feature is currently in transition between the **On** and **Off** 
 ## -examples
 
 ## -see-also
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

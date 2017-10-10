@@ -21,3 +21,6 @@ The characteristics.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

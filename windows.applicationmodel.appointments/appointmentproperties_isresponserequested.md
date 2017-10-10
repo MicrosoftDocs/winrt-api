@@ -20,3 +20,6 @@ The name of the [IsResponseRequested](appointment_isresponserequested.md) proper
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

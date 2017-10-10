@@ -20,3 +20,6 @@ A collection of fields of contact field type that you want returned. The [Contac
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

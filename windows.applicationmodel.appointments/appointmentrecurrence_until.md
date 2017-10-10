@@ -20,3 +20,6 @@ The date and time until which an appointment is valid.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

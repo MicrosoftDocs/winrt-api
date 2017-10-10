@@ -25,3 +25,5 @@ An asynchronous operation that returns an [AppointmentConflictResult](appointmen
 
 ## -see-also
 [FindConflictAsync(Appointment, DateTime)](appointmentstore_findconflictasync_1246034138.md)
+## -capabilities
+appointmentsSystem

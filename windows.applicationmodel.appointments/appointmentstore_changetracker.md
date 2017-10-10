@@ -20,3 +20,6 @@ The [AppointmentStoreChangeTracker](appointmentstorechangetracker.md) associated
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

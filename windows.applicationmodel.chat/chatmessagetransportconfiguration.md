@@ -18,3 +18,6 @@ Represents data about the chat message transport.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

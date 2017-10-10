@@ -33,3 +33,5 @@ Characteristic indications are enabled.
 ## -examples
 
 ## -see-also
+## -capabilities
+bluetooth

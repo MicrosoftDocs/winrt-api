@@ -21,3 +21,6 @@ The characteristic of the GATT service.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

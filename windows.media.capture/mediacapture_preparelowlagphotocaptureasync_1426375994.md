@@ -30,3 +30,5 @@ For how-to guidance on using [LowLagPhotoCapture](lowlagphotocapture.md) to capt
 
 ## -see-also
 [Basic photo, video, and audio capture with MediaCapture](https://msdn.microsoft.com/en-us/windows/uwp/audio-video-camera/basic-photo-video-and-audio-capture-with-mediacapture), [LowLagPhotoCapture](lowlagphotocapture.md)
+## -capabilities
+backgroundMediaRecording

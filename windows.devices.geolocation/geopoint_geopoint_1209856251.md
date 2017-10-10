@@ -22,3 +22,6 @@ The constructor will throw an exception if the provided [BasicGeoposition](basic
 ## -examples
 
 ## -see-also
+
+## -capabilities
+location

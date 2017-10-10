@@ -20,3 +20,6 @@ A text comment by the user regarding the change in meeting response.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

@@ -29,3 +29,6 @@ Returns an asynchronous operation that completes with the [BluetoothLEDevice](bl
 
 ## -see-also
 [FromBluetoothAddressAsync(UInt64)](bluetoothledevice_frombluetoothaddressasync_117221987.md)
+
+## -capabilities
+bluetooth

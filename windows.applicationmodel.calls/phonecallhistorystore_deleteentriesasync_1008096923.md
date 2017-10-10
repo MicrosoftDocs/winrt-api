@@ -27,4 +27,5 @@ The entries to delete.
 
 
 ## -capabilities
+phoneCallHistory, phoneCallHistorySystem
 phoneCallHistoryPublic

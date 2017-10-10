@@ -24,3 +24,6 @@ An asynchronous operation that returns an [AppointmentStore](appointmentstore.md
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

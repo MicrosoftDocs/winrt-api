@@ -21,3 +21,6 @@ This method should be called only if the app has successfully forwarded a meetin
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

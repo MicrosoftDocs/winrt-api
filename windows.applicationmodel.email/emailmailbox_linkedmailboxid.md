@@ -20,3 +20,6 @@ The identifier for a mailbox linked to this one.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

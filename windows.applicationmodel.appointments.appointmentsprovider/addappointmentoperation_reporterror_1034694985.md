@@ -28,3 +28,6 @@ Event Viewer\Applications and Services Logs\Microsoft\Windows\Apps\Microsoft-Win
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

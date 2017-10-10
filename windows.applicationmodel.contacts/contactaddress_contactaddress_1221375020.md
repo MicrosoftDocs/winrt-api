@@ -17,3 +17,6 @@ Initializes a new instance of a [ContactAddress](contactaddress.md) class.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

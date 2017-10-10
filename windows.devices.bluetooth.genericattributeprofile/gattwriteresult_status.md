@@ -20,3 +20,6 @@ The status of the write result.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

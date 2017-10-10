@@ -24,3 +24,6 @@ The [PhoneCallVideoCapabilities](phonecallvideocapabilities.md) for the [PhoneLi
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

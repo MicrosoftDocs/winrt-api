@@ -21,3 +21,6 @@ The EFPNN path.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

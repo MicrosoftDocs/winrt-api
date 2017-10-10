@@ -23,4 +23,5 @@ The amount by which the recorded video is rotated.
 
 
 ## -capabilities
+backgroundMediaRecording
 microphone, webcam

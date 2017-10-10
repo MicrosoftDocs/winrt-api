@@ -21,3 +21,6 @@ A vector list of all clients that are subscribed to this local characteristic.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

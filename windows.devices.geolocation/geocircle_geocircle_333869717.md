@@ -27,3 +27,6 @@ The altitude reference system of the new circle.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+location

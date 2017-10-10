@@ -20,3 +20,6 @@ Gets or sets a whether a phone call is seen.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

@@ -21,3 +21,6 @@ The thumbnail image for the attachment.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

@@ -20,3 +20,6 @@ The frame rate of the media description.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

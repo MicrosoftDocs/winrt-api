@@ -20,3 +20,6 @@ The subject line of an email message stripped of additional prefixes such as fwd
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

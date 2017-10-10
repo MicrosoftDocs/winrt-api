@@ -21,3 +21,6 @@ The ID of the chat message.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

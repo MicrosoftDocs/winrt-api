@@ -30,3 +30,6 @@ The spatial reference Id of the new circle.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+location

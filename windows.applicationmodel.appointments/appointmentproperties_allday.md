@@ -20,3 +20,6 @@ The name of the [AllDay](appointment_allday.md) property.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

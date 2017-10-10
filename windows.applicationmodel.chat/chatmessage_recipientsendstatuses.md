@@ -21,3 +21,6 @@ The recipient send statuses.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

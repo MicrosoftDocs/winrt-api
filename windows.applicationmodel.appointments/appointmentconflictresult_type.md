@@ -20,3 +20,6 @@ A value indicating the type of appointment conflict.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

@@ -21,3 +21,6 @@ An asynchronous retrieval operation. On successful completion, returns an object
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

@@ -28,3 +28,5 @@ The HTML content to display in the [WebView](webview.md) control.
 
 ## -see-also
 [LoadCompleted](webview_loadcompleted.md), [NavigationCompleted](webview_navigationcompleted.md), [NavigateToLocalStreamUri](webview_navigatetolocalstreamuri.md), [WebView control (XAML) sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=722922)
+## -capabilities
+enterpriseCloudSS

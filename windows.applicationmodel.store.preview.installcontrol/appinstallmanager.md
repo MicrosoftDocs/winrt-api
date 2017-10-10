@@ -20,3 +20,6 @@ Provides members for programmatically installing apps, including the ability to 
 ## -examples
 
 ## -see-also
+
+## -capabilities
+runFullTrust

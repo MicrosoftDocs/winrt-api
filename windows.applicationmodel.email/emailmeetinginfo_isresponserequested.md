@@ -20,3 +20,6 @@ A Boolean value indicating whether a response to the meeting request is required
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

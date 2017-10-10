@@ -39,3 +39,5 @@ The device is remote. For example, a tethered cellular phone modem.
 ## -examples
 
 ## -see-also
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

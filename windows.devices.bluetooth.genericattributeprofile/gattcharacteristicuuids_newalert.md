@@ -21,3 +21,6 @@ The Bluetooth SIG-defined NewAlert characteristic UUID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

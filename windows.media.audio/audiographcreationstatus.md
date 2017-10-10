@@ -31,3 +31,5 @@ An unknown failure occurred during creation of the audio graph.
 ## -examples
 
 ## -see-also
+## -capabilities
+backgroundMediaRecording

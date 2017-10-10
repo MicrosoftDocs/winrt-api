@@ -20,3 +20,6 @@ An asynchronous operation that returns **true** if the [ShowFullContactCard](con
 ## -see-also
 
 ## -examples
+
+## -capabilities
+contactsSystem

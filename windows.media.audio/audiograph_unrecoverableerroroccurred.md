@@ -17,3 +17,6 @@ Notifies of an unrecoverable audio error in audio graph operation.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

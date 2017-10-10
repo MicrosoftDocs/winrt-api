@@ -25,4 +25,4 @@ You access an [SmsSendMessageResult](smssendmessageresult.md) object through the
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

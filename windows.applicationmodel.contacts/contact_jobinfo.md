@@ -21,3 +21,5 @@ An array of job info items for a contact.
 
 ## -see-also
 [ContactJobInfo](contactjobinfo.md)
+## -capabilities
+contactsSystem

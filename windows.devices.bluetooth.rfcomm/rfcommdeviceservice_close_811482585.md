@@ -18,3 +18,6 @@ Closes the RFCOMM device.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

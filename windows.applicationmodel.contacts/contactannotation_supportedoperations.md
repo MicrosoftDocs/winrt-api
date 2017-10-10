@@ -21,3 +21,6 @@ The group of [ContactAnnotationOperations](contactannotationoperations.md) suppo
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

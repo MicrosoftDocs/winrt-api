@@ -22,3 +22,5 @@ The unique device service identifier for the mobile broadband device.
 
 ## -see-also
 [MobileBroadbandDeviceService](mobilebroadbanddeviceservice.md)
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

@@ -20,3 +20,6 @@ True if the app can be launched; otherwise, false.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+runFullTrust

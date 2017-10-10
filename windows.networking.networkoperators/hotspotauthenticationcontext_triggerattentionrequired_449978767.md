@@ -34,3 +34,6 @@ Optional command line parameters that are passed to the application at launch.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

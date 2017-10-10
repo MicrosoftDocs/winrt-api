@@ -21,3 +21,6 @@ A string where you can store your own custom threading info.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

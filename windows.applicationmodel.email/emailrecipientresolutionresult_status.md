@@ -20,3 +20,6 @@ The state of an attempt to resolve an email recipient.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

@@ -20,3 +20,6 @@ A value indicating the gain.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

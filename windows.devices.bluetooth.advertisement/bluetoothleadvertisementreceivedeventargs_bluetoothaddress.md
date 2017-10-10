@@ -22,3 +22,5 @@ the Bluetooth address of the device sending the Bluetooth LE advertisement.
 
 ## -see-also
 [BluetoothLEAdvertisement](bluetoothleadvertisement.md), [BluetoothLEAdvertisementWatcher](bluetoothleadvertisementwatcher.md)
+## -capabilities
+bluetooth

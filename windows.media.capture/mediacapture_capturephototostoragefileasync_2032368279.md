@@ -31,4 +31,5 @@ For how-to guidance on capturing a photo to a storage file, see Basic [Basic pho
 
 
 ## -capabilities
+backgroundMediaRecording
 microphone, webcam

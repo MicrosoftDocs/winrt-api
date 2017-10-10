@@ -20,3 +20,6 @@ The name of the [ReplyTime](appointment_replytime.md) property.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

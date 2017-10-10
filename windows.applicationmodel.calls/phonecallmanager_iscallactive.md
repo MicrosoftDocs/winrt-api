@@ -20,3 +20,6 @@ True if an active call is in progress on the device; otherwise false.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

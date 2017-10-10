@@ -28,3 +28,6 @@ The name of the network provider for the mobile broadband account.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

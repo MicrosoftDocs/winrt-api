@@ -18,3 +18,6 @@ Call [GetConversationReader](emailstore_getconversationreader_388570943.md) or [
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

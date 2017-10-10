@@ -24,3 +24,6 @@ An async operation with an [EmailMailboxEmptyFolderStatus](emailmailboxemptyfold
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

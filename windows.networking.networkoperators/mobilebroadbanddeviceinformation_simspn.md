@@ -21,3 +21,6 @@ The string value of the SPN obtained from the SIM card.
 
 ## -examples
 
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

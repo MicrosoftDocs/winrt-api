@@ -24,4 +24,4 @@ The discharge time.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

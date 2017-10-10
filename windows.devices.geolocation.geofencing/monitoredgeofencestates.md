@@ -33,3 +33,5 @@ You must specify the **Entered** or **Exited** states, or both, for a geofence t
 
 ## -see-also
 [Geofence](geofence.md)
+## -capabilities
+location

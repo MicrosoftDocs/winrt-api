@@ -20,3 +20,6 @@ The center point of a geographic circle.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+location

@@ -20,3 +20,6 @@ A string value that is a URL used to join the online meeting for the appointment
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

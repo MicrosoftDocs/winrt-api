@@ -18,3 +18,6 @@ Returned by the [AppointmentStoreChangedEventArgs.GetDeferral](appointmentstorec
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

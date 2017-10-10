@@ -22,3 +22,5 @@ The state of the camera stream will change when recording is paused or resumed, 
 
 ## -see-also
 [CameraStreamState](../windows.media.devices/camerastreamstate.md), [CameraStreamStateChanged](mediacapture_camerastreamstatechanged.md)
+## -capabilities
+backgroundMediaRecording

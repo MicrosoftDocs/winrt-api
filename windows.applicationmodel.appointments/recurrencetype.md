@@ -28,3 +28,5 @@ The appointment is an exceptional instance of a recurring appointment.
 ## -examples
 
 ## -see-also
+## -capabilities
+appointmentsSystem

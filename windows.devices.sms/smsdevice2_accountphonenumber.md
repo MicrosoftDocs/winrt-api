@@ -24,4 +24,4 @@ A string representation of the account phone number.
 [SmsDevice.AccountPhoneNumber](smsdevice_accountphonenumber.md)
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

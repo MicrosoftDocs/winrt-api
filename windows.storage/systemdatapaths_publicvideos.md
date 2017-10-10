@@ -10,8 +10,10 @@ public string PublicVideos { get; }
 # Windows.Storage.SystemDataPaths.PublicVideos
 
 ## -description
+Gets the path to the Public Videos folder on the machine.
 
 ## -property-value
+The full path to the Public Videos folder.
 
 ## -remarks
 

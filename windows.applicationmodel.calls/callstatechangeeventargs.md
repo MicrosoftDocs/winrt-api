@@ -20,4 +20,5 @@ Supports the [EndRequested](voipphonecall_endrequested.md), [HoldRequested](voip
 
 
 ## -capabilities
+phoneCallHistory, phoneCallHistorySystem
 voipCall

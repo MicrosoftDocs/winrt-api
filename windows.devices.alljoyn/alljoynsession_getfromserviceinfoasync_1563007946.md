@@ -26,3 +26,5 @@ An AllJoyn object for the AllJoyn session based off the service info.
 
 ## -see-also
 [GetFromServiceInfoAsync(AllJoynServiceInfo, AllJoynBusAttachment)](alljoynsession_getfromserviceinfoasync_1177093202.md)
+## -capabilities
+allJoyn

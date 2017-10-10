@@ -21,3 +21,6 @@ The Bluetooth SIG-defined FirmwareRevisionString characteristic UUID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

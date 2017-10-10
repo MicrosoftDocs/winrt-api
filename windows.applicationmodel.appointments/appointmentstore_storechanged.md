@@ -17,3 +17,6 @@ Occurs when the [AppointmentStore](appointmentstore.md) changes.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

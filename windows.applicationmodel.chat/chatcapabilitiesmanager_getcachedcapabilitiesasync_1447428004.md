@@ -25,3 +25,6 @@ The locally cached Rich Communication Services (RCS) chat capabilities.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

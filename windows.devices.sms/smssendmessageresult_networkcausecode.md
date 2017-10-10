@@ -24,4 +24,4 @@ Network-specific error codes.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

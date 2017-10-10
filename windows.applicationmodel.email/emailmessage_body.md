@@ -20,3 +20,6 @@ The body of the email message.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

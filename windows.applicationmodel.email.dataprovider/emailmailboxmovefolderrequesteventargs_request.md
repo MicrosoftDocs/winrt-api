@@ -20,3 +20,6 @@ An [EmailMailboxMoveFolderRequest](emailmailboxmovefolderrequest.md) object desc
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

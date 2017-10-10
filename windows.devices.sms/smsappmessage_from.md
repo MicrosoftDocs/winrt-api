@@ -24,4 +24,4 @@ The telephone number of the sender of the message.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

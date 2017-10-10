@@ -26,3 +26,5 @@ The mobile broadband device service retrieved.
 
 ## -see-also
 [MobileBroadbandDeviceService](mobilebroadbanddeviceservice.md)
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

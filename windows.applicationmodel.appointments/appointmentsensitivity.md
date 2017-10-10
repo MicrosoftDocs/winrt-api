@@ -26,3 +26,5 @@ The appointment is private and can't be viewed publicly.
 
 ## -see-also
 [Sensitivity](appointment_sensitivity.md)
+## -capabilities
+appointmentsSystem

@@ -10,7 +10,7 @@ public UserActivityContentInfo UserActivityContentInfo.FromJson(String value)
 # Windows.ApplicationModel.UserActivities.UserActivityContentInfo.FromJson
 
 ## -description
-Creates the **UserActivityContentInfo** from a JSON string.
+Creates a **UserActivityContentInfo** from a JSON string.
 
 ## -parameters
 ### -param value
@@ -25,11 +25,11 @@ A **UserActivityContentInfo** that contains the JSON data.
 
 ## -examples
 ```csharp
-userActivity.ContentMetadata = UserActivityContentInfo.FromJson(@"
-        {
-        ""@context"": ""http://schema.org"",
-        ""@type"": ""Article"",
-        ""author"": ""John Doe"",
-        ""name"": ""How to Tie a Reef Knot""
-        }";
+userActivity.ContentInfo = UserActivityContentInfo.FromJson(
+    @"{
+    ""@context"": ""~~http~~://schema.org"",
+    ""@type"": ""Article"",
+    ""author"": ""John Doe"",
+    ""name"": ""How to Tie a Reef Knot""
+    }");
 ```

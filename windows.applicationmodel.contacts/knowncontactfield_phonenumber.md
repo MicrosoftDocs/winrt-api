@@ -29,3 +29,6 @@ This code demonstrates how to get a phone number of a contact.
 [!code-js[ContactsKnownFields_phone](../windows.applicationmodel.contacts.provider/code/ContactsMain/javascript/js/contacts.js#SnippetContactsKnownFields_phone)]
 
 ## -see-also
+
+## -capabilities
+contactsSystem

@@ -28,3 +28,6 @@ The network account Id that was added or removed.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

@@ -20,3 +20,6 @@ An [EmailMailboxForwardMeetingRequest](emailmailboxforwardmeetingrequest.md) obj
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

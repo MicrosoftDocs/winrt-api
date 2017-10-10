@@ -20,3 +20,6 @@ A Boolean value indicating if the sync was successful.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

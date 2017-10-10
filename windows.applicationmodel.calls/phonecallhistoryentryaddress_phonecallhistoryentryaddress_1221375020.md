@@ -18,3 +18,5 @@ Creates a new empty [PhoneCallHistoryEntryAddress](phonecallhistoryentryaddress.
 
 ## -see-also
 [PhoneCallHistoryEntryAddress(String, PhoneCallHistoryEntryRawAddressKind)](phonecallhistoryentryaddress_phonecallhistoryentryaddress_1841259974.md)
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

@@ -20,3 +20,6 @@ The Boolean value indicating whether the email message is a temporary server sea
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

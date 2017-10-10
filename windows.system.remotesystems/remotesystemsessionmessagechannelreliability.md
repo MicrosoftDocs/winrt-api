@@ -26,3 +26,6 @@ The ordering of messages is not guaranteed for channels of either reliability ty
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

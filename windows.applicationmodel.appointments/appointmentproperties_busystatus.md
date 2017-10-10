@@ -20,3 +20,6 @@ The name of the [BusyStatus](appointment_busystatus.md) property.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

@@ -24,3 +24,6 @@ Enum that defines all values TargetedContentAvailability can hold: All, Partial 
 
 ## -examples
 
+
+## -capabilities
+secondaryAuthenticationFactor

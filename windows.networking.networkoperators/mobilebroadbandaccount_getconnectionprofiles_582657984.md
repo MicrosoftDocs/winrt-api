@@ -21,3 +21,6 @@ An array of [ConnectionProfile](../windows.networking.connectivity/connectionpro
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

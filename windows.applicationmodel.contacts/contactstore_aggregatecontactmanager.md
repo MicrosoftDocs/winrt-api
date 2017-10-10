@@ -20,3 +20,6 @@ A contact manager that provides functionality for linking individual (raw) conta
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

@@ -28,3 +28,6 @@ The device controlling the remote session removed this device as a participant.
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

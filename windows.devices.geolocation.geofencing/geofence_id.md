@@ -23,3 +23,6 @@ The *Id* value must be unique among all geofences associated with the same appli
 ## -examples
 
 ## -see-also
+
+## -capabilities
+location

@@ -20,3 +20,6 @@ The ID for the [Contact](contact.md) to which this [ContactAnnotation](contactan
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

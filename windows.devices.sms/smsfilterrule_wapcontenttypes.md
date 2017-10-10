@@ -24,4 +24,4 @@ List of WAP content types.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

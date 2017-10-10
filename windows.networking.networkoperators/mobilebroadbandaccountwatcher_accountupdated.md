@@ -54,3 +54,6 @@ The [AccountUpdated](mobilebroadbandaccountwatcher_accountupdated.md) event is t
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

@@ -20,3 +20,6 @@ A list of [EmailRecipient](../windows.applicationmodel.email/emailrecipient.md) 
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

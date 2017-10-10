@@ -18,3 +18,6 @@ An instance of this class is returned to the [TryCreateFolderAsync](emailmailbox
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

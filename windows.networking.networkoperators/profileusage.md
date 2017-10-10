@@ -35,3 +35,5 @@ The last time *UsageInMegabytes* was updated.
 ## -examples
 
 ## -see-also
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

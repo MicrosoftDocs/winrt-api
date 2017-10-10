@@ -21,3 +21,6 @@ The Bluetooth SIG-defined Battery Level Characteristic UUID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

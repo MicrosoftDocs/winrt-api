@@ -21,3 +21,6 @@ The [RemoteSystemSessionInvitation](RemoteSystemSessionInvitation.md) object rep
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

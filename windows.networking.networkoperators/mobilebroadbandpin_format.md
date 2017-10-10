@@ -22,3 +22,5 @@ The format for a mobile broadband PIN.
 
 ## -see-also
 [MobileBroadbandPinFormat](mobilebroadbandpinformat.md)
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

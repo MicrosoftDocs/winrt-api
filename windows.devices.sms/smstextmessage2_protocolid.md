@@ -24,4 +24,4 @@ Gets an integer which identifies the protocol.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

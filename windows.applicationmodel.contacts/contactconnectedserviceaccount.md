@@ -18,3 +18,5 @@ Represents a connected service account for a contact.
 
 ## -see-also
 [ConnectedServiceAccounts](contact_connectedserviceaccounts.md)
+## -capabilities
+contactsSystem

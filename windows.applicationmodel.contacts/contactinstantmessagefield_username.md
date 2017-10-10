@@ -24,3 +24,6 @@ Remember that the user's name for an instant message account is not always the s
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

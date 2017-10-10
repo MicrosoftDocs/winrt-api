@@ -21,3 +21,6 @@ The maximum number of attachments supported by the transport.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

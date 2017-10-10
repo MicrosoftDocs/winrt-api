@@ -24,3 +24,6 @@ true if the email message is read; otherwise false.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+accessoryManager

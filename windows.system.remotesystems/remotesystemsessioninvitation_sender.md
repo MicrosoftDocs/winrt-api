@@ -21,3 +21,6 @@ The [RemoteSystem](RemoteSystem.md) object representing the sending device.
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

@@ -20,3 +20,6 @@ An asynchronous validation operation on an [EmailMailboxValidateCertificatesRequ
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

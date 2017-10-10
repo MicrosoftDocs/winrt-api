@@ -59,4 +59,4 @@ The device is restricted to a fixed dialing number list, and the number used was
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

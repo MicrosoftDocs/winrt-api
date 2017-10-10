@@ -21,3 +21,6 @@ The Bluetooth SIG-defined DeviceInformation UUID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

@@ -21,3 +21,6 @@ The appearance subcategory code for a running or walking on hip Bluetooth LE dev
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

@@ -21,3 +21,6 @@ The 128-bit service id.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

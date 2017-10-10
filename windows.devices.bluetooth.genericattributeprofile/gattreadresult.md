@@ -22,3 +22,5 @@ The [Status](gattreadresult_status.md) property on the [GattReadResult](gattread
 
 ## -see-also
 [ReadValueAsync](gattcharacteristic_readvalueasync.md), [Status](gattreadresult_status.md)
+## -capabilities
+bluetooth

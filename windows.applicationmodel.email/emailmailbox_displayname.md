@@ -20,3 +20,6 @@ The name for this mailbox that is suitable for displaying.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

@@ -47,3 +47,6 @@ public async void JoinExistingSession() {
     }
 }
 ```
+
+## -capabilities
+remoteSystem

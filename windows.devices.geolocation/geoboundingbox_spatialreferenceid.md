@@ -20,3 +20,6 @@ The spatial reference ID (SRID) used by the [GeoboundingBox](geoboundingbox.md).
 ## -examples
 
 ## -see-also
+
+## -capabilities
+location

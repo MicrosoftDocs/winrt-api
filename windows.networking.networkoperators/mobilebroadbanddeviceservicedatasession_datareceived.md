@@ -19,3 +19,5 @@ An event that indicates that data was received on the [MobileBroadbandDeviceServ
 
 ## -see-also
 [WriteDataAsync](mobilebroadbanddeviceservicedatasession_writedataasync.md)
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

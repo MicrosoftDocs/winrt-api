@@ -18,3 +18,6 @@ Provides functionality to determine the Bluetooth Low Energy (LE) Appearance inf
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

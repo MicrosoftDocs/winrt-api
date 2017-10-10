@@ -24,4 +24,4 @@ The code value associated with this message.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

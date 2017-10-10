@@ -45,3 +45,5 @@ The USSD session has been closed because there was no response from the network.
 ## -examples
 
 ## -see-also
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

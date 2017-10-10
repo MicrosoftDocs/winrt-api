@@ -23,3 +23,6 @@ The type of this property, [IGeoshape](../windows.devices.geolocation/igeoshape.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+location

@@ -28,3 +28,6 @@ The *instanceStartTime* parameter must be the original start date of the instanc
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

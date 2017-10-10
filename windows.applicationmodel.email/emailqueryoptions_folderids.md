@@ -20,3 +20,6 @@ The identifiers for the folders in which to search.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

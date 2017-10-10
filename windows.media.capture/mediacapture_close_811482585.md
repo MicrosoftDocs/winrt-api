@@ -17,3 +17,6 @@ Closes the media capture object.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

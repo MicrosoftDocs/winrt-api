@@ -20,3 +20,6 @@ The sync manager for the mailbox.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

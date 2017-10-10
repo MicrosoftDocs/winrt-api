@@ -24,3 +24,6 @@ Normally, an app that uses location services should first call [RequestAccessAsy
 ## -examples
 
 ## -see-also
+
+## -capabilities
+location

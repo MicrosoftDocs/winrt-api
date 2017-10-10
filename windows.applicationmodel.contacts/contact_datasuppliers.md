@@ -20,3 +20,6 @@ An array of data suppliers for a contact.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

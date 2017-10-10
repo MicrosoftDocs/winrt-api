@@ -24,4 +24,4 @@ The type of the received message. Use this value to determine which of the other
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

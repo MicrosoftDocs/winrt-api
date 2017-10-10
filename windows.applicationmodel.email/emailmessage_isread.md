@@ -20,3 +20,6 @@ A Boolean value indicating whether the email message has been read.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

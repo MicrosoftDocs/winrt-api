@@ -21,3 +21,6 @@ A [RemoteSystemSessionInfo](RemoteSystemSessionInfo.md) object corresponding to 
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

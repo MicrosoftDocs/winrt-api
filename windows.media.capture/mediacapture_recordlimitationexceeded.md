@@ -21,3 +21,5 @@ In the current release, the record limit is three hours.
 
 ## -see-also
 [StartRecordToStorageFileAsync](mediacapture_startrecordtostoragefileasync.md)
+## -capabilities
+backgroundMediaRecording

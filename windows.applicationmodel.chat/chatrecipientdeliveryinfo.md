@@ -18,3 +18,6 @@ Represent the delivery info about a chat recipient.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

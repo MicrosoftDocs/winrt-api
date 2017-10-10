@@ -26,4 +26,5 @@ For how-to guidance on initializing and shutting down the **MediaCapture** objec
 [InitializeAsync(MediaCaptureInitializationSettings)](mediacapture_initializeasync_837464435.md), [Basic photo, video, and audio capture with MediaCapture](https://msdn.microsoft.com/en-us/windows/uwp/audio-video-camera/basic-photo-video-and-audio-capture-with-mediacapture)
 
 ## -capabilities
+backgroundMediaRecording
 microphone, webcam

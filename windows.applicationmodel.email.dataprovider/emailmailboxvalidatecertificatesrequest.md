@@ -18,3 +18,6 @@ Used in your [ValidateCertificatesRequested](emaildataproviderconnection_validat
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

@@ -21,3 +21,6 @@ The Bluetooth SIG-defined RingerSetting characteristic UUID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

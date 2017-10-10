@@ -24,4 +24,4 @@ The timestamp. Based on local time for a constructed message, or on the service 
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

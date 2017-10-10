@@ -34,3 +34,5 @@ When this method completes, it returns a **Boolean** value that indicates whethe
 
 ## -see-also
 [ShowRemoveAppointmentAsync(String, Rect)](appointmentstore_showremoveappointmentasync_1734575458.md)
+## -capabilities
+appointmentsSystem

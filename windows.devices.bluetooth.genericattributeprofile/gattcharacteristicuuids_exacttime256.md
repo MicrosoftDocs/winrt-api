@@ -21,3 +21,6 @@ The Bluetooth SIG-defined ExactTime256 characteristic UUID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

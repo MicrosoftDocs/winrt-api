@@ -22,3 +22,5 @@ The response data from the command execution on a mobile broadband device servic
 
 ## -see-also
 [MobileBroadbandDeviceService](mobilebroadbanddeviceservice.md), [MobileBroadbandDeviceServiceCommandSession](mobilebroadbanddeviceservicecommandsession.md)
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

@@ -21,3 +21,6 @@ The protocol error.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

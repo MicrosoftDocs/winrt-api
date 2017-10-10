@@ -24,4 +24,4 @@ An enumerated value indicating the device's cellular class.
 [SmsDevice.CellularClass](smsdevice_cellularclass.md)
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

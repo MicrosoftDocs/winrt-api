@@ -87,3 +87,5 @@ public sealed class StreamUriWinRTResolver : IUriToStreamResolver
 
 ## -see-also
 [IUriToStreamResolver](../windows.web/iuritostreamresolver.md), [BuildLocalStreamUri](webview_buildlocalstreamuri.md), [XAML WebView control sample](http://go.microsoft.com/fwlink/p/?linkid=238582), [WebView control (XAML) sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=722922)
+## -capabilities
+enterpriseCloudSS

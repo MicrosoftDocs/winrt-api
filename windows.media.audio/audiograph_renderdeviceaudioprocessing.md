@@ -21,3 +21,6 @@ Specify the audio processing mode for an audio graph by setting the [AudioGraphS
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

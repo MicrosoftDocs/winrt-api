@@ -20,3 +20,6 @@ A string that contains notes for a contact.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

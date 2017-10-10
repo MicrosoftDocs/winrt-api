@@ -26,4 +26,5 @@ The [AcceptChangesThrough](chatmessagechangereader_acceptchangesthrough.md) meth
 
 
 ## -capabilities
+chatSystem, smsSend, chat
 blockedChatMessages

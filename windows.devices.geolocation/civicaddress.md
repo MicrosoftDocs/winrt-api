@@ -26,4 +26,5 @@ Civic address is no longer available. Even when a Civic Address provider is inst
 
 
 ## -capabilities
-location, ID_CAP_LOCATION [Windows Phone]
+location
+ID_CAP_LOCATION [Windows Phone]

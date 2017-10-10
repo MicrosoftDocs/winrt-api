@@ -27,3 +27,6 @@ The device receiving the invitation will need to use a [RemoteSystemSessionInvit
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

@@ -23,4 +23,5 @@ Update all the entries to indicate they have all been seen by the user.
 
 
 ## -capabilities
+phoneCallHistory, phoneCallHistorySystem
 phoneCallHistoryPublic

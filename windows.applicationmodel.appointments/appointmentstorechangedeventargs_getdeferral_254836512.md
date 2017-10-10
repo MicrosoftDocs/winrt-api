@@ -20,3 +20,6 @@ The deferral object for the [StoreChanged](appointmentstore_storechanged.md) eve
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

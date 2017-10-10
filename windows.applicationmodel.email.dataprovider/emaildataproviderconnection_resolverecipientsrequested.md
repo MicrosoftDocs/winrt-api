@@ -17,3 +17,6 @@ Occurs when the email client has requested that the recipients of a message be r
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

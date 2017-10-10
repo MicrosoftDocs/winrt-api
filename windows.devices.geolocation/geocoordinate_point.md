@@ -20,3 +20,6 @@ The location of the [Geocoordinate](geocoordinate.md).
 ## -examples
 
 ## -see-also
+
+## -capabilities
+location

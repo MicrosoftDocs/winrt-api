@@ -20,3 +20,6 @@ The newly created folder after a [TryCreateFolderAsync](emailmailbox_trycreatefo
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

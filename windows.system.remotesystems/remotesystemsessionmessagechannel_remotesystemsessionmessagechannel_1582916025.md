@@ -29,3 +29,6 @@ A [RemoteSystemSessionMessageChannelReliability](RemoteSystemSessionMessageChann
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

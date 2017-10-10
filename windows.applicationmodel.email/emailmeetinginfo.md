@@ -17,3 +17,6 @@ Represents the information associated with a meeting.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

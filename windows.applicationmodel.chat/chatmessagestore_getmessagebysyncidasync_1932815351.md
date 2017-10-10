@@ -25,3 +25,6 @@ When the asynchronous operation completes, a [ChatMessage](chatmessage.md) objec
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

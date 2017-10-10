@@ -21,3 +21,6 @@ The time the recipient read the message.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

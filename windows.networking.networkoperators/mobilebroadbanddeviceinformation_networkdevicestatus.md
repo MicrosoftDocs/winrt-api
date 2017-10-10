@@ -21,3 +21,6 @@ The readiness status of the mobile broadband network device.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

@@ -21,3 +21,6 @@ This is usually the name of the app or service from which the contacts originate
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

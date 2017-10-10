@@ -19,3 +19,6 @@ Gets TargetedContentAppInstallationState for the item.
 
 ## -examples
 
+
+## -capabilities
+secondaryAuthenticationFactor

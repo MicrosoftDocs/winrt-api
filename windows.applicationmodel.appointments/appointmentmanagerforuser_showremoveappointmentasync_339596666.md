@@ -37,3 +37,5 @@ This method may return false, even when the appointment was successfully removed
 
 ## -see-also
 [ShowRemoveAppointmentAsync(String, Rect)](appointmentmanagerforuser_showremoveappointmentasync_1734575458.md), [ShowRemoveAppointmentAsync(String, Rect, Placement)](appointmentmanagerforuser_showremoveappointmentasync_1845468926.md)
+## -capabilities
+appointmentsSystem

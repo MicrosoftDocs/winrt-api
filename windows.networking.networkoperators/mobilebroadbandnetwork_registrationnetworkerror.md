@@ -28,3 +28,6 @@ The latest network registration error.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

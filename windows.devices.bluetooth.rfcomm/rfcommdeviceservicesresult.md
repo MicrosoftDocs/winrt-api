@@ -19,3 +19,6 @@ This class is returned as a result of calling the [GetRfcommServicesAsync](../wi
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

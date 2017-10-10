@@ -17,3 +17,6 @@ Fires whenever a mailbox's sync status changes.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

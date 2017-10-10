@@ -21,3 +21,6 @@ The offset.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

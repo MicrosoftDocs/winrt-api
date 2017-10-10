@@ -18,3 +18,6 @@ This class is used to define a GATT service advertisement parameters.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

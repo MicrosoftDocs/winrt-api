@@ -20,3 +20,6 @@ The pitch offset in degrees.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

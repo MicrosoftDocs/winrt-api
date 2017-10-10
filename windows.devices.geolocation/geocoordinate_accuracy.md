@@ -26,4 +26,5 @@ A GNSS device can provide data accurate to within a few meters. However, its acc
 
 
 ## -capabilities
-location, ID_CAP_LOCATION [Windows Phone]
+location
+ID_CAP_LOCATION [Windows Phone]

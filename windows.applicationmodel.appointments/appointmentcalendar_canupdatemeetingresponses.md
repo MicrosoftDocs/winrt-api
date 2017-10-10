@@ -20,3 +20,6 @@ Boolean value that indicates if the calendar supports updating meeting responses
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

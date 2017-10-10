@@ -20,3 +20,6 @@ A Boolean value indicating whether the proposal of a new time is allowed.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

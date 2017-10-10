@@ -24,4 +24,4 @@ An enumeration value specifying the encoding scheme used in a received message, 
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

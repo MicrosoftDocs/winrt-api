@@ -22,3 +22,5 @@ The [BluetoothLEDevice](../windows.devices.bluetooth/bluetoothledevice.md) objec
 
 ## -see-also
 [BluetoothLEDevice](../windows.devices.bluetooth/bluetoothledevice.md)
+## -capabilities
+bluetooth

@@ -19,3 +19,6 @@ Represents the results of a [StartTetheringAsync](networkoperatortetheringmanage
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

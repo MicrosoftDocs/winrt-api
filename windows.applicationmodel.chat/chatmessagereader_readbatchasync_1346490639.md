@@ -28,4 +28,5 @@ An asynchronous operation that returns a list of chat messages upon successful c
 [ReadBatchAsync](chatmessagereader_readbatchasync_888788553.md)
 
 ## -capabilities
+chatSystem, smsSend, chat
 blockedChatMessages

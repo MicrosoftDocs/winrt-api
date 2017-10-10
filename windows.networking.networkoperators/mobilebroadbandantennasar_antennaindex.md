@@ -21,3 +21,6 @@ The identifier number of the antenna.
 
 ## -examples
 
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

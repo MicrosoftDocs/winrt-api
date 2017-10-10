@@ -27,4 +27,4 @@ When this method completes, it returns the [SmsDevice](smsdevice.md) for the spe
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

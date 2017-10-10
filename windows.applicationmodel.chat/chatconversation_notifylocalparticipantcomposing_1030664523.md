@@ -28,3 +28,6 @@ TRUE if the local participant is typing, otherwise FALSE.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

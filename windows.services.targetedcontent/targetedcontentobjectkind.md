@@ -24,3 +24,6 @@ Enum that defines all the type of values TargetedContentObject object can have.
 
 ## -examples
 
+
+## -capabilities
+secondaryAuthenticationFactor

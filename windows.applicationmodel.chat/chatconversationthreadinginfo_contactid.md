@@ -21,3 +21,6 @@ The [Contact.Id](../windows.applicationmodel.contacts/contact_id.md) for the rem
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

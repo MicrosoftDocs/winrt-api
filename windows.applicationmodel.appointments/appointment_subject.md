@@ -20,3 +20,6 @@ The subject of the appointment.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

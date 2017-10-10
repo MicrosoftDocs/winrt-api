@@ -36,3 +36,6 @@ A Boolean value indicating if the response was sent successfully.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

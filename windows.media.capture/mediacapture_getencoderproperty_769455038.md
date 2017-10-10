@@ -30,4 +30,5 @@ Returns the value of the encoding property.
 
 
 ## -capabilities
+backgroundMediaRecording
 microphone, webcam

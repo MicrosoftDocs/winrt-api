@@ -18,3 +18,6 @@ Provides access to APIs for handling Rich Communication Services (RCS) messages.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

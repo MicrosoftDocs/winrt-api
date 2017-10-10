@@ -20,3 +20,6 @@ The optional voice mail changed message set by an operator when they send a voic
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

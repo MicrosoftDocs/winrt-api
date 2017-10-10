@@ -33,4 +33,5 @@ void TurnOnChangeTracking(ChatMessageStore messageStore)
 
 
 ## -capabilities
+chatSystem, smsSend, chat
 blockedChatMessages

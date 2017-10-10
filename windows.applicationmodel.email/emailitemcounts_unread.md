@@ -20,3 +20,6 @@ The number of unread email messages.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

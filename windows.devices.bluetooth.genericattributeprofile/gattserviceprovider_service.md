@@ -21,3 +21,6 @@ The GATT service.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

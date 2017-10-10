@@ -21,3 +21,6 @@ The object used to manage the asynchronous operation, which, upon completion, wi
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

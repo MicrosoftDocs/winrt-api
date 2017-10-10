@@ -21,3 +21,6 @@ The EFONS path.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

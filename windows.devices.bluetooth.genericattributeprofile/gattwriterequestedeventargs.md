@@ -18,3 +18,6 @@ This class represents the event args for [WriteRequested](gattlocalcharacteristi
 
 ## -examples
 
+
+## -capabilities
+bluetooth

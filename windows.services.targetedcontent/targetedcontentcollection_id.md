@@ -19,3 +19,6 @@ Gets the ID of the Collection.
 
 ## -examples
 
+
+## -capabilities
+secondaryAuthenticationFactor

@@ -20,3 +20,6 @@ The recipients that are configured to receive a reply to the email message.
 ## -see-also
 
 ## -examples
+
+## -capabilities
+email, emailSystem

@@ -24,3 +24,6 @@ The [PhoneCallHistoryManagerForUser](phonecallhistorymanagerforuser.md) object t
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

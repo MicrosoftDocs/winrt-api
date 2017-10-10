@@ -31,3 +31,5 @@ The attachment has failed.
 ## -examples
 
 ## -see-also
+## -capabilities
+email, emailSystem

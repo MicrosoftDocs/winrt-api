@@ -21,3 +21,6 @@ Pause recording by calling [PauseRecordAsync](mediacapture_pauserecordasync.md).
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

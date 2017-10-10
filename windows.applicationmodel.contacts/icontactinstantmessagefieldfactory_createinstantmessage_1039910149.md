@@ -40,3 +40,5 @@ An instant messaging field that you can add to a [Contact](contact.md) object.
 
 ## -see-also
 [CreateInstantMessage(String)](icontactinstantmessagefieldfactory_createinstantmessage_2022649811.md), [CreateInstantMessage(String, ContactFieldCategory)](icontactinstantmessagefieldfactory_createinstantmessage_1064293083.md)
+## -capabilities
+contactsSystem

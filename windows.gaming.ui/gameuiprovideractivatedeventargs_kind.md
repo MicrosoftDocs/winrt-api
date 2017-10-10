@@ -11,7 +11,11 @@ public ActivationKind Kind { get; }
 
 ## -description
 
+The type of activation. This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, your app cannot use this API.
+
 ## -property-value
+
+The type of activation.
 
 ## -remarks
 

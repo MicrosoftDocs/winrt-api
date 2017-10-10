@@ -24,4 +24,4 @@ The Teleservice identifier for the message.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

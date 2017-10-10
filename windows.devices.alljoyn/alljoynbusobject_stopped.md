@@ -18,3 +18,6 @@ Event triggered when the [AllJoynBusObject](alljoynbusobject.md) is stopped.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+allJoyn

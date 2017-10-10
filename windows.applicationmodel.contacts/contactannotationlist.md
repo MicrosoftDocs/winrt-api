@@ -26,3 +26,5 @@ Call one of the following methods to create or get an existing [ContactAnnotatio
 
 ## -see-also
 [Contact Card integration sample (Windows 10)](http://go.microsoft.com/fwlink/?LinkID=703783)
+## -capabilities
+contactsSystem

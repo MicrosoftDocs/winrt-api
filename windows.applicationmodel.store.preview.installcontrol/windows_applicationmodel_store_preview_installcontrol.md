@@ -16,3 +16,6 @@ Provides APIs for programmatically managing the installation of apps and app upd
 ## -examples
 
 ## -see-also
+
+## -capabilities
+runFullTrust

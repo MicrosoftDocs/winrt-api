@@ -20,3 +20,6 @@ The [Contact](../windows.applicationmodel.contacts/contact.md) of the task to be
 ## -see-also
 
 ## -examples
+
+## -capabilities
+contactsSystem

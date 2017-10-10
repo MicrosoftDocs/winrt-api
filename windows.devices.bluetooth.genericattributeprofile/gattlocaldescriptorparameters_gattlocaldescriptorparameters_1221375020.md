@@ -20,3 +20,6 @@ Creates a new GattLocalDescriptorParameters object.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

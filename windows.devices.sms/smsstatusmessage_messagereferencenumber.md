@@ -24,4 +24,4 @@ The message number.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

@@ -18,3 +18,5 @@ Pauses the installation of the current app.
 
 ## -see-also
 [Pause(String)](appinstallitem_pause_770953122.md)
+## -capabilities
+runFullTrust

@@ -21,3 +21,6 @@ The appearance subcategory code for a cycling speed cadence sensor Bluetooth LE 
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

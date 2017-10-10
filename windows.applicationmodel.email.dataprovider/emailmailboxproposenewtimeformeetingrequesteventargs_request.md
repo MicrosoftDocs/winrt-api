@@ -20,3 +20,6 @@ An [EmailMailboxProposeNewTimeForMeetingRequest](emailmailboxproposenewtimeforme
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

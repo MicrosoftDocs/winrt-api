@@ -22,3 +22,5 @@ A copy of the Bluetooth LE advertisement to publish.
 
 ## -see-also
 [BluetoothLEAdvertisement](bluetoothleadvertisement.md)
+## -capabilities
+bluetooth

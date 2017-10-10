@@ -24,3 +24,6 @@ To see an example of how to use this property, check out our [code sample](http:
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

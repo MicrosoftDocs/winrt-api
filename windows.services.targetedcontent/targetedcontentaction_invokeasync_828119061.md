@@ -21,3 +21,6 @@ Invokes the action.
 
 ## -examples
 
+
+## -capabilities
+secondaryAuthenticationFactor

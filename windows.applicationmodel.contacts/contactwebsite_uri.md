@@ -20,3 +20,6 @@ The Uniform Resource Identifier (URI) of a Web site for a contact.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

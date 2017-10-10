@@ -20,3 +20,6 @@ The name of the [IsCanceledMeeting](appointment_iscanceledmeeting.md) property.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

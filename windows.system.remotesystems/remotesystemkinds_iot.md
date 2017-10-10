@@ -23,3 +23,6 @@ String representing **IoT**.
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

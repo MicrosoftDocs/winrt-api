@@ -17,3 +17,6 @@ Raised when the user elects to change the time of a meeting.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

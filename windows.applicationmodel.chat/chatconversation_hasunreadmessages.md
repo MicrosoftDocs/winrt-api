@@ -21,3 +21,6 @@ A Boolean value indicating if there are unread messages in the [ChatConversation
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

@@ -21,3 +21,6 @@ The value of the Float Format Type.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

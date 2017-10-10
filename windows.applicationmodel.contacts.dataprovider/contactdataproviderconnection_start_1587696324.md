@@ -17,3 +17,6 @@ Call this method to indicate that all event handlers have been set and the data 
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

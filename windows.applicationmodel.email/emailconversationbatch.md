@@ -18,3 +18,6 @@ Obtain an instance of this class by calling [EmailConversationReader.ReadBatchAs
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

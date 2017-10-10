@@ -17,3 +17,6 @@ Occurs when the [PhoneLineWatcher](phonelinewatcher.md) instance stops monitorin
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

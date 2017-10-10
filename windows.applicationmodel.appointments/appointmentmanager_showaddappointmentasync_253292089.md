@@ -32,3 +32,5 @@ See the remarks in the following overload: [ShowAddAppointmentAsync](appointment
 
 ## -see-also
 [ShowAddAppointmentAsync(Appointment, Rect)](appointmentmanager_showaddappointmentasync_92599717.md)
+## -capabilities
+appointmentsSystem

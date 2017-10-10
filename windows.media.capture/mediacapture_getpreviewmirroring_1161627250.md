@@ -23,4 +23,5 @@ True if mirroring is enabled; false otherwise.
 
 
 ## -capabilities
+backgroundMediaRecording
 microphone, webcam

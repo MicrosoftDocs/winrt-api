@@ -24,4 +24,4 @@ The header name-value pairs of the WAP push message.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

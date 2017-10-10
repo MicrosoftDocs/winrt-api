@@ -21,3 +21,6 @@ Gets and sets the sync ID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

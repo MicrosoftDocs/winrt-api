@@ -21,3 +21,6 @@ The current status of the [BluetoothLEAdvertisementPublisher](../windows.devices
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

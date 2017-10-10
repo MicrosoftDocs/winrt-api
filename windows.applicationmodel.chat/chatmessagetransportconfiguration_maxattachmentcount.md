@@ -21,3 +21,6 @@ The maximum attachment limit for a message.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

@@ -25,3 +25,6 @@ A vector of included services whose UUIDs match serviceUuid.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

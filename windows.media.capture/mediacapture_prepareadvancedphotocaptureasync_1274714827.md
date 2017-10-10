@@ -27,3 +27,6 @@ An asynchronous operation that returns an [AdvancedPhotoCapture](advancedphotoca
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

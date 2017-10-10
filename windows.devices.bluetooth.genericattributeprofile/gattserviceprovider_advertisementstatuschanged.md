@@ -18,3 +18,6 @@ An event that is triggered when the advertisement status has changed.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

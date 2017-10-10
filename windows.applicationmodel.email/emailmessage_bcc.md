@@ -20,3 +20,6 @@ The recipients BCC'd to the email message.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

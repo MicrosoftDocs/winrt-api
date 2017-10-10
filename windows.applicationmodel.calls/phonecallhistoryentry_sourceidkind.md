@@ -20,3 +20,6 @@ The type of identifier that the [PhoneCallHistoryEntry.SourceId](phonecallhistor
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

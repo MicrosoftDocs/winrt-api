@@ -21,3 +21,6 @@ A Boolean value indicating if the message has been seen.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

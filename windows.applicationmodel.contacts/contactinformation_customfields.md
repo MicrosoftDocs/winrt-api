@@ -23,3 +23,6 @@ A read-only list of custom fields.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

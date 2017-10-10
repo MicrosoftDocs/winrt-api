@@ -21,3 +21,6 @@ The cellular data services supported by the mobile broadband network device.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

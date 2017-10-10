@@ -20,3 +20,6 @@ True if the user manually set the picture, false if this is an aggregate contact
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

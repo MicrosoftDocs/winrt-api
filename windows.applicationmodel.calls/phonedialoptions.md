@@ -18,3 +18,6 @@ If you are supplying an [IContact](http://go.microsoft.com/fwlink/p/?linkid=6183
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

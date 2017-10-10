@@ -34,4 +34,5 @@ As of Windows 10, this method is deprecated. Use [AddAudioEffectAsync](mediacapt
 
 
 ## -capabilities
+backgroundMediaRecording
 microphone, webcam

@@ -28,4 +28,4 @@ The message operation object.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

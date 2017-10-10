@@ -24,3 +24,6 @@ For devices that support the GSM cellular class, the [SubscriberId](mobilebroadb
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

@@ -35,3 +35,5 @@ For info about how to manage appointments, see [Manage appointments](http://msdn
 
 ## -see-also
 [ShowRemoveAppointmentAsync(String, Rect, Placement)](appointmentmanager_showremoveappointmentasync_1845468926.md), [ShowRemoveAppointmentAsync(String, Rect, Placement, DateTime)](appointmentmanager_showremoveappointmentasync_339596666.md)
+## -capabilities
+appointmentsSystem

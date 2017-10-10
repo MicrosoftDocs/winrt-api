@@ -21,3 +21,6 @@ The ID of the UICC application.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

@@ -21,3 +21,6 @@ The maximum size of an attachment.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

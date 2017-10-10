@@ -18,3 +18,6 @@ Performs GATT reliable writes on the Bluetooth LE device, in the form of a trans
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

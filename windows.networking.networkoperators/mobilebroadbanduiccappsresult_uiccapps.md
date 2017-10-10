@@ -21,3 +21,6 @@ A list of the UICC applications.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

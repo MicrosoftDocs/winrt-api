@@ -28,3 +28,5 @@ No other apps can read from this mailbox.
 ## -examples
 
 ## -see-also
+## -capabilities
+email, emailSystem

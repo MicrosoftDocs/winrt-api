@@ -28,3 +28,5 @@ The altitude reference system to use for the new [GeoboundingBox](geoboundingbox
 
 ## -see-also
 [GeoboundingBox(BasicGeoposition, BasicGeoposition)](geoboundingbox_geoboundingbox_1237088599.md), [GeoboundingBox(BasicGeoposition, BasicGeoposition, AltitudeReferenceSystem, UInt32)](geoboundingbox_geoboundingbox_271676437.md)
+## -capabilities
+location

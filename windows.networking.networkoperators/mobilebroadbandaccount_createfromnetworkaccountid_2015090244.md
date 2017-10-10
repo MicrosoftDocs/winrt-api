@@ -32,3 +32,6 @@ A mobile broadband account for the mobile device associated with the supplied ne
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

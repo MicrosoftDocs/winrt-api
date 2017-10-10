@@ -20,3 +20,6 @@ The unique identifier for this phone call.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

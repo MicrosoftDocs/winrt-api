@@ -20,3 +20,6 @@ A text comment by the user regarding the forwarding of the meeting.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

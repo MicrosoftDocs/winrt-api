@@ -21,3 +21,6 @@ True if WiFi and cellular SAR are integrated in the device; otherwise, false.
 
 ## -examples
 
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

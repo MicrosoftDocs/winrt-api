@@ -10,7 +10,7 @@ public class GeovisitMonitor
 # Windows.Devices.Geolocation.GeovisitMonitor
 
 ## -description
-Handles the monitoring of a user's Visits without the use of background tasks.
+Handles the monitoring of a user's Visits when the app is in use (not in the background).
 
 ## -remarks
 
@@ -19,3 +19,6 @@ Handles the monitoring of a user's Visits without the use of background tasks.
 
 ## -examples
 
+
+## -capabilities
+location

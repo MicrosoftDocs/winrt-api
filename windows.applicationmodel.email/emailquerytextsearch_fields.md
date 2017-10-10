@@ -20,3 +20,6 @@ The fields for an email text search query.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

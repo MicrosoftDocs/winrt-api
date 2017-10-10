@@ -18,3 +18,6 @@ Handles communication to and from the lock screen.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

@@ -20,3 +20,6 @@ The [User](./windows.system/user.md) associated with the [PinnedContactManager](
 ## -see-also
 
 ## -examples
+
+## -capabilities
+contactsSystem

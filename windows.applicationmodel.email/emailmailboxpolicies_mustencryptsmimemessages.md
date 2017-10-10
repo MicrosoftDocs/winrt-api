@@ -20,3 +20,6 @@ The Boolean value that indicates whether the sync provider that represents the e
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

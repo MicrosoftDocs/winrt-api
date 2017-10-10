@@ -17,3 +17,6 @@ Represents a set of options that modifies a query for appointments.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

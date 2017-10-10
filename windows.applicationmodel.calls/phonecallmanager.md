@@ -18,3 +18,6 @@ Most of the methods of this API can be used even if your application is not resp
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

@@ -21,3 +21,6 @@ The collection of all characteristics belonging to this GattDeviceService instan
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

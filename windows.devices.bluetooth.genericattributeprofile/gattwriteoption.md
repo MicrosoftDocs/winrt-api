@@ -26,3 +26,5 @@ The Write Without Response procedure shall be used.
 ## -examples
 
 ## -see-also
+## -capabilities
+bluetooth

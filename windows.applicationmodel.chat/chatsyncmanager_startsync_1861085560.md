@@ -18,3 +18,6 @@ Starts a new sync operation without waiting for the sync to finish.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

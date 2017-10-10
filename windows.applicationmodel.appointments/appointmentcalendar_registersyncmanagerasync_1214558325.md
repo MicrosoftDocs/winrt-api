@@ -20,3 +20,6 @@ An asynchronous action.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

@@ -20,3 +20,6 @@ An [AppointmentSummaryCardView](appointmentsummarycardview.md) value indicating 
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

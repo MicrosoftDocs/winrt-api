@@ -25,4 +25,4 @@ An enumeration value specifying the message type that will match this rule.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

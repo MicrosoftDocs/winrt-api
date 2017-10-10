@@ -19,3 +19,6 @@ The system creates an instance of this class and passes it as an argument to the
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

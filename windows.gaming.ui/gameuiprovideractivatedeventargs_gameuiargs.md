@@ -11,7 +11,11 @@ public ValueSet GameUIArgs { get; }
 
 ## -description
 
+Event arguments associated with a **GameUIProvider** activation. This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, your app cannot use this API.
+
 ## -property-value
+
+Event arguments associated with a **GameUIProvider** activation.
 
 ## -remarks
 

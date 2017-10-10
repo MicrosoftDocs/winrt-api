@@ -21,3 +21,6 @@ The appearance subcategory code for a card reader Bluetooth LE device.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

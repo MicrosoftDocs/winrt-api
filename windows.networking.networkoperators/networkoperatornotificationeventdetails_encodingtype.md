@@ -27,3 +27,6 @@ The data-coding scheme (DCS) of the received message.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

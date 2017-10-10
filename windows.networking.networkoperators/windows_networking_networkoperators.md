@@ -20,3 +20,5 @@ Contains classes that support Mobile Broadband Account management.
 
 ## -see-also
 [Mobile broadband sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620572)
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

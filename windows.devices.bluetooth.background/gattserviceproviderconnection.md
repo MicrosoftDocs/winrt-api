@@ -18,3 +18,6 @@ This class represents a gatt service provider connection.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

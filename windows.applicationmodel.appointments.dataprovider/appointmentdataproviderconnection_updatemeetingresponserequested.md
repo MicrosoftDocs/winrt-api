@@ -17,3 +17,6 @@ Raised when the user elects to change their response to a proposed meeting.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

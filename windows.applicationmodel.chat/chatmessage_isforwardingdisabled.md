@@ -21,3 +21,6 @@ A Boolean value indicating if forwarding is disabled.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

@@ -26,3 +26,6 @@ The **Id** property value and string format is determined by the data provider.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+location

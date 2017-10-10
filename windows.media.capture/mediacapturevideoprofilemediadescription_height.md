@@ -20,3 +20,6 @@ The height of the media description.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

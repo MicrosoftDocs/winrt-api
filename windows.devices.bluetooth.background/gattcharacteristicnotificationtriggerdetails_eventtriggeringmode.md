@@ -21,3 +21,6 @@ Gets the event trigger mode.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

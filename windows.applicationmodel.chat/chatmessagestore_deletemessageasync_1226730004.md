@@ -28,4 +28,5 @@ An asynchronous action.
 
 
 ## -capabilities
+chatSystem, smsSend, chat
 blockedChatMessages

@@ -26,3 +26,6 @@ The message contents including its attachments are downloaded. An application wi
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

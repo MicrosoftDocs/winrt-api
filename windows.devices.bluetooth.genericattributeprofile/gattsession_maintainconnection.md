@@ -21,3 +21,6 @@ A boolean that indicates if the connection should be maintained.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

@@ -28,3 +28,5 @@ A Boolean value indicating if the move was successful.
 
 ## -see-also
 [TryMoveFolderAsync(String, String, String)](emailmailbox_trymovefolderasync_298921347.md)
+## -capabilities
+email, emailSystem

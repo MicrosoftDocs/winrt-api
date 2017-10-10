@@ -25,3 +25,5 @@ The resources were not reserved because they are not available.
 ## -examples
 
 ## -see-also
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

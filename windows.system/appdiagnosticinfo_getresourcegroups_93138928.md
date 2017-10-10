@@ -4,7 +4,7 @@
 ---
 
 <!-- Method syntax.
-public IVector<ResourceGroupInfo> AppDiagnosticInfo.GetResourceGroups()
+public IVector<AppResourceGroupInfo> AppDiagnosticInfo.GetResourceGroups()
 -->
 
 # Windows.System.AppDiagnosticInfo.GetResourceGroups

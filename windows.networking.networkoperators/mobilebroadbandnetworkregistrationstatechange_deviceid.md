@@ -27,3 +27,6 @@ Unique identifier of the device associated with a network registration state cha
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

@@ -27,3 +27,6 @@ A Boolean value indicating if the operation was successful.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

@@ -21,3 +21,6 @@ The byte value for an unsupported group type error.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

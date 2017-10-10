@@ -22,3 +22,6 @@ You can use the [Model](mobilebroadbanddeviceinformation_model.md) property valu
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

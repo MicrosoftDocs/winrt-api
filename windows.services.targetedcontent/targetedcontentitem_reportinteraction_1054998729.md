@@ -21,3 +21,6 @@ Reports TargetedContentInteraction for the item.
 
 ## -examples
 
+
+## -capabilities
+secondaryAuthenticationFactor

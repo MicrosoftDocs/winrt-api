@@ -21,3 +21,6 @@ The Bluetooth SIG-defined Glucose Service UUID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

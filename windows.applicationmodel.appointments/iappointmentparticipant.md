@@ -18,3 +18,5 @@ Provides info about a participant of an appointment in a calendar.
 
 ## -see-also
 [AppointmentInvitee](appointmentinvitee.md), [AppointmentOrganizer](appointmentorganizer.md)
+## -capabilities
+appointmentsSystem

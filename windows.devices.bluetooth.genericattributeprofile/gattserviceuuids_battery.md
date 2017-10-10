@@ -21,3 +21,6 @@ The Bluetooth SIG-defined Battery Service UUID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

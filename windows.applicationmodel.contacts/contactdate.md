@@ -37,3 +37,5 @@ Here is how to use the [ContactDate](contactdate.md) properties to format date s
 
 ## -see-also
 [ImportantDates](contact_importantdates.md)
+## -capabilities
+contactsSystem

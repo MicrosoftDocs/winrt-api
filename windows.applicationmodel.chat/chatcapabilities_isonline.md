@@ -21,3 +21,6 @@ A Boolean value indicating if an Rich Communication Services (RCS) capable phone
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

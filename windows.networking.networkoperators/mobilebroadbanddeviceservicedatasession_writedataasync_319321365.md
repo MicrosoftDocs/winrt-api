@@ -26,3 +26,5 @@ An asynchronous operation that returns the result of the write operation.
 
 ## -see-also
 [DataReceived](mobilebroadbanddeviceservicedatasession_datareceived.md), [MobileBroadbandDeviceService](mobilebroadbanddeviceservice.md), [MobileBroadbandDeviceServiceDataReceivedEventArgs](mobilebroadbanddeviceservicedatareceivedeventargs.md), [MobileBroadbandModem.MaxDeviceServiceDataSizeInBytes](mobilebroadbandmodem_maxdeviceservicedatasizeinbytes.md)
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

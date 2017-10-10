@@ -17,3 +17,6 @@ Represents initialization settings for an audio graph. Set the properties of thi
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

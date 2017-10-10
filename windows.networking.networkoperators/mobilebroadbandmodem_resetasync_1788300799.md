@@ -21,3 +21,6 @@ An asynchronous reset operation.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

@@ -21,3 +21,5 @@ For how-to guidance for pausing and resuming while recording video, see [Basic p
 
 ## -see-also
 [IClosable](../windows.foundation/iclosable.md), [PauseRecordWithResultAsync](mediacapture_pauserecordwithresultasync.md), [Basic photo, video, and audio capture with MediaCapture](https://msdn.microsoft.com/windows/uwp/audio-video-camera/basic-photo-video-and-audio-capture-with-mediacapture)
+## -capabilities
+backgroundMediaRecording

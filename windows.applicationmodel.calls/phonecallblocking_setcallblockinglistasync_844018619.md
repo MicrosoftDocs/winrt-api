@@ -24,3 +24,6 @@ A list of numbers that should be blocked.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

@@ -26,3 +26,5 @@ Specify a memory preference by setting the [MemoryPreference](mediacaptureinitia
 ## -examples
 
 ## -see-also
+## -capabilities
+backgroundMediaRecording

@@ -18,3 +18,6 @@ Used in your [MoveFolderRequested](emaildataproviderconnection_movefolderrequest
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

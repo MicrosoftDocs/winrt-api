@@ -24,4 +24,4 @@ The channel for this message.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

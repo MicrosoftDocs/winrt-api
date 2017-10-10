@@ -21,3 +21,6 @@ The transport error code.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

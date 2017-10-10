@@ -20,3 +20,6 @@ True if a call is incoming on the device; otherwise false.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

@@ -21,3 +21,6 @@ The Bluetooth SIG-defined CyclingPower service UUID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

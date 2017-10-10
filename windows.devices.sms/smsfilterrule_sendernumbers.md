@@ -24,4 +24,4 @@ List of sender numbers.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

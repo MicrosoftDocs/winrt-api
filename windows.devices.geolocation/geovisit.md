@@ -10,7 +10,7 @@ public class Geovisit
 # Windows.Devices.Geolocation.Geovisit
 
 ## -description
-Represents a Visit-related state change. See [Guidelines for using Visits tracking](https://docs.microsoft.com/windows/uwp/maps-and-location/guidelines-for-geofencing) for information on how to use this feature.
+Represents a Visit-related state change. See [Guidelines for using Visits tracking](https://docs.microsoft.com/windows/uwp/maps-and-location/guidelines-for-visits) for information on how to use this feature.
 
 ## -remarks
 This class is instantiated whenever a Visit-related state change has been obtained by the app.
@@ -21,3 +21,6 @@ This class is instantiated whenever a Visit-related state change has been obtain
 
 ## -examples
 
+
+## -capabilities
+location

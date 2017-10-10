@@ -21,3 +21,5 @@ The batch of messages.
 
 ## -see-also
 [FindMessagesAsync(UInt32)](emailconversation_findmessagesasync_1306641635.md)
+## -capabilities
+email, emailSystem

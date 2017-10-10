@@ -20,3 +20,6 @@ The current count of voice mail messages.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

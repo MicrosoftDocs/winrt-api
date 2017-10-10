@@ -24,4 +24,4 @@ Received message timestamps are set by the service center.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

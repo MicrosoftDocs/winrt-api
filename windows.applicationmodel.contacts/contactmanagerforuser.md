@@ -18,3 +18,6 @@ Call the [ContactManager.GetForUser](contactmanager_getforuser.md) method to get
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

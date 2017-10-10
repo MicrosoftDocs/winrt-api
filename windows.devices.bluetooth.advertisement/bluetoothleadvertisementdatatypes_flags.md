@@ -21,3 +21,6 @@ A set of flags for internal use.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

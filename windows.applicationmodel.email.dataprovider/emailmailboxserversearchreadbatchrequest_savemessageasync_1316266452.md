@@ -24,3 +24,6 @@ An asynchronous message save operation on an [EmailMailboxServerSearchReadBatchR
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

@@ -20,3 +20,6 @@ The name of the party being dialed.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

@@ -20,4 +20,5 @@ Notifies the system that the user has unmuted the call using the VoIP app's UI.
 
 
 ## -capabilities
+phoneCallHistory, phoneCallHistorySystem
 voipCall

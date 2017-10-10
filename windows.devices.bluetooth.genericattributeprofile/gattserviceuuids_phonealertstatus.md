@@ -21,3 +21,6 @@ The Bluetooth SIG-defined PhoneAlertStatus service UUID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

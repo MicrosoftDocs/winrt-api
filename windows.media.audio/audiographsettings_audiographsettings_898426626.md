@@ -21,3 +21,6 @@ The [AudioRenderCategory](audiographsettings_audiorendercategory.md) that determ
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

@@ -18,3 +18,6 @@ Closes the data session on a mobile broadband device service.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

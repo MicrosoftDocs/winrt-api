@@ -20,3 +20,6 @@ A Boolean value that indicates if the recipient is allowed to reply all to the e
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

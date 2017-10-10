@@ -25,3 +25,5 @@ Specific applications may write to this mailbox.
 ## -examples
 
 ## -see-also
+## -capabilities
+email, emailSystem

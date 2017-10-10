@@ -20,3 +20,6 @@ The unique identifier for this address book entry.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

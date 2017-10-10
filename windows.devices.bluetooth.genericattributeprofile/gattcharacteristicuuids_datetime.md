@@ -21,3 +21,6 @@ The Bluetooth SIG-defined DateTime characteristic UUID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

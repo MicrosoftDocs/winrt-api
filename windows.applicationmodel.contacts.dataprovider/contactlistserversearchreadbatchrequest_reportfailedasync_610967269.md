@@ -24,3 +24,6 @@ An asynchronous batch read request operation.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

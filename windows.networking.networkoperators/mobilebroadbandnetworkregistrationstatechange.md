@@ -25,3 +25,6 @@ Instances of this class are created by the system. When a network registration s
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

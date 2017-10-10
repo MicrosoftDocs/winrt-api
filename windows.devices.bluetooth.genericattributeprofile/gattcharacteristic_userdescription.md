@@ -21,3 +21,6 @@ The user friendly description for this GattCharacteristic, if the User Descripti
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

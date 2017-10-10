@@ -20,3 +20,6 @@ True if the current app install was initiated by the user; otherwise, false.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+runFullTrust

@@ -21,3 +21,6 @@ The estimated size of a file to be sent or received.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

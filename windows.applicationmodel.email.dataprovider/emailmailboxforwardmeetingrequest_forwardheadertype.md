@@ -20,3 +20,6 @@ An [EmailMessageBodyKind](../windows.applicationmodel.email/emailmessagebodykind
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

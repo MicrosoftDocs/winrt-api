@@ -20,3 +20,6 @@ The item kind.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

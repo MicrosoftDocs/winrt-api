@@ -21,3 +21,6 @@ The BluetoothSIG-defined UUID for this local characteristic.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

@@ -17,3 +17,6 @@ Creates an instance of the [EmailMessage](emailmessage.md) class.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

@@ -17,3 +17,6 @@ Creates a new instance of the  class
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

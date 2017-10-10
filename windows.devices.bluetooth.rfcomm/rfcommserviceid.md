@@ -18,3 +18,6 @@ Represents an RFCOMM service ID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

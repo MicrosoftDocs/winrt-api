@@ -19,3 +19,6 @@ Gets a TargetedContentFile object in a TargetedContentValue object.
 
 ## -examples
 
+
+## -capabilities
+secondaryAuthenticationFactor

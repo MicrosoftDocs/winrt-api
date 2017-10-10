@@ -20,3 +20,6 @@ An asynchronous operation that returns a [CreateAudioDeviceOutputNodeResult](cre
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

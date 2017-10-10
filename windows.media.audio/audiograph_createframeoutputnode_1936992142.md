@@ -21,3 +21,5 @@ An audio frame output node.
 
 ## -see-also
 [CreateFrameOutputNode(AudioEncodingProperties)](audiograph_createframeoutputnode_1505747890.md)
+## -capabilities
+backgroundMediaRecording

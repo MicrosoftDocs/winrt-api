@@ -18,3 +18,6 @@ Call [ContactReader.GetMatchingPropertiesWithMatchReason](contactreader_getmatch
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

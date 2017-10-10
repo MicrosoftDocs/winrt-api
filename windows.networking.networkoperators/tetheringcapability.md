@@ -44,3 +44,5 @@ Tethering has been disabled by the system because the app lacks the necessary **
 ## -examples
 
 ## -see-also
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

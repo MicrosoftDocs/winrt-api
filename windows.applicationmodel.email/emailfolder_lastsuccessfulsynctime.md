@@ -20,3 +20,6 @@ The last time the folder was successfully synced with the server.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

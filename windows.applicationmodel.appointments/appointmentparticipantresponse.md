@@ -35,3 +35,5 @@ The response is unknown.
 
 ## -see-also
 [Response](appointmentinvitee_response.md)
+## -capabilities
+appointmentsSystem

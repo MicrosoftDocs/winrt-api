@@ -21,3 +21,6 @@ A value that indicates the type of threading info.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

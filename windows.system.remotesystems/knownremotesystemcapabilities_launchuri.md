@@ -21,3 +21,6 @@ The canonical string name of the launch URI capability.
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

@@ -57,3 +57,5 @@ The characteristic has writable auxiliaries
 ## -examples
 
 ## -see-also
+## -capabilities
+bluetooth

@@ -21,3 +21,6 @@ The supported video encoding format for the transport.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

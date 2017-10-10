@@ -17,3 +17,6 @@ Provides detailed interaction with the cellular components of a phone line.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

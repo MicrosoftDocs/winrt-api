@@ -20,3 +20,6 @@ The name of the [ContactList](contactlist.md), suitable for display in the user 
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

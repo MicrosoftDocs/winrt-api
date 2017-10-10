@@ -23,4 +23,5 @@ The media types that the user selected when answering the call.
 
 
 ## -capabilities
+phoneCallHistory, phoneCallHistorySystem
 voipCall

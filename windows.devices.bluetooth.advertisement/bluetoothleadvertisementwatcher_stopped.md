@@ -19,3 +19,5 @@ Notification to the app that the Bluetooth LE scanning for advertisements has be
 
 ## -see-also
 [BluetoothLEAdvertisementWatcherStoppedEventArgs](bluetoothleadvertisementwatcherstoppedeventargs.md)
+## -capabilities
+bluetooth

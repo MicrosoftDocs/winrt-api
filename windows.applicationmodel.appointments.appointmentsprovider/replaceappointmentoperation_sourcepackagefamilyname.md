@@ -20,3 +20,6 @@ The package family name.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

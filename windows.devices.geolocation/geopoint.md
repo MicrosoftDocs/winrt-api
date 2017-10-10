@@ -18,3 +18,5 @@ Describes a geographic point.
 
 ## -see-also
 [IGeoshape](igeoshape.md)
+## -capabilities
+location

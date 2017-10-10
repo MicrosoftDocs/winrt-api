@@ -21,3 +21,6 @@ The new Characteristic Value.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

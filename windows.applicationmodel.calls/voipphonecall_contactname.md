@@ -23,4 +23,5 @@ The contact name associated with the VoIP call.
 
 
 ## -capabilities
+phoneCallHistory, phoneCallHistorySystem
 voipCall

@@ -18,3 +18,6 @@ Use the instance of this class provided by the [Connection](contactdataprovidert
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

@@ -21,3 +21,6 @@ The value of the DUInt16 Format Type.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

@@ -18,3 +18,5 @@ Creates a new instance of the [EmailIrmTemplate](emailirmtemplate.md) class.
 
 ## -see-also
 [EmailIrmTemplate(String, String, String)](emailirmtemplate_emailirmtemplate_1001825332.md)
+## -capabilities
+email, emailSystem

@@ -37,3 +37,5 @@ The call was blocked.
 ## -examples
 
 ## -see-also
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

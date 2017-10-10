@@ -26,3 +26,5 @@ Calling this API requires that the **ID_CAP_SMS** and **ID_CAP_SMS_COMPANION** c
 
 ## -see-also
 [MakePhoneCallWithVideo(Guid, String, PhoneCallAudioEndpoint)](accessorymanager_makephonecallwithvideo_1470555977.md)
+## -capabilities
+accessoryManager

@@ -20,3 +20,6 @@ The completion percentage for the installation of the current app.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+runFullTrust

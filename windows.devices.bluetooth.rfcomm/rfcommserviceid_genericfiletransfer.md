@@ -21,3 +21,6 @@ The RfcommServiceId object that represents the service id for the Generic File T
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

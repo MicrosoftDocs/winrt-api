@@ -26,3 +26,6 @@ When the watcher is started, it enumerates all existing accounts (raising an [Ac
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

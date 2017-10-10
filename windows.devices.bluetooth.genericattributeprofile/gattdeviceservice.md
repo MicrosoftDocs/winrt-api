@@ -19,3 +19,5 @@ Represents a GATT Primary Service on a Bluetooth device. The [GattDeviceService]
 
 ## -see-also
 [BluetoothLEDevice](../windows.devices.bluetooth/bluetoothledevice.md), [IClosable](../windows.foundation/iclosable.md)
+## -capabilities
+bluetooth

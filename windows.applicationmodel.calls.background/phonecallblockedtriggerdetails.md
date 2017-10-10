@@ -17,3 +17,6 @@ Used to provide the details about a call that was just blocked.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

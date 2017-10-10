@@ -25,3 +25,6 @@ Closes the USSD session with the network.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

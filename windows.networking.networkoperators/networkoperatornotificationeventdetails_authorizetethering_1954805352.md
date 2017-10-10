@@ -24,3 +24,6 @@ The reason tethering is not permitted.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

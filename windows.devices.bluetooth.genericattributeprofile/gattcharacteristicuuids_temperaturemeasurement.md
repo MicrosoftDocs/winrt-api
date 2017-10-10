@@ -21,3 +21,6 @@ The Bluetooth SIG-defined Temperature Measurement Characteristic UUID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

@@ -29,3 +29,6 @@ The following example shows how to get the default [PhoneLine](phoneline.md).
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

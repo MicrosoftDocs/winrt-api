@@ -21,3 +21,6 @@ A value indicating the type of Mobile Broadband device.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

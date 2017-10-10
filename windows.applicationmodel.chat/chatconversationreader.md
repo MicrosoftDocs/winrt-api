@@ -21,4 +21,5 @@ Provides functionality for reading batches of conversations from the [ChatMessag
 
 
 ## -capabilities
+chatSystem, smsSend, chat
 blockedChatMessages

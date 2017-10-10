@@ -26,3 +26,5 @@ Calling this API requires that the **ID_CAP_SMS** and **ID_CAP_SMS_COMPANION** c
 
 ## -see-also
 [AcceptPhoneCallWithVideo(UInt32)](accessorymanager_acceptphonecallwithvideo_476151420.md)
+## -capabilities
+accessoryManager

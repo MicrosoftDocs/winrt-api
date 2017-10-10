@@ -21,4 +21,4 @@ Constructor. Used to create an [SmsAppMessage](smsappmessage.md) prior to sendin
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

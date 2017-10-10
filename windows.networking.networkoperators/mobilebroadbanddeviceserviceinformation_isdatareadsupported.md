@@ -22,3 +22,5 @@ If the mobile broadband device service is able to read data.
 
 ## -see-also
 [MobileBroadbandDeviceService](mobilebroadbanddeviceservice.md)
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

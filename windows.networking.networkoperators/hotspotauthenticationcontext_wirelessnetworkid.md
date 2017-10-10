@@ -28,3 +28,6 @@ A byte array that contains the SSID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

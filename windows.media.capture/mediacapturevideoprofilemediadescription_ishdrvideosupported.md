@@ -20,3 +20,6 @@ True if HDR video is supported; otherwise, false.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

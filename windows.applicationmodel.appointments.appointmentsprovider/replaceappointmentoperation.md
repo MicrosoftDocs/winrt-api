@@ -20,3 +20,6 @@ Providers call methods of [ReplaceAppointmentOperation](replaceappointmentoperat
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

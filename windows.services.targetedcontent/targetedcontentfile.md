@@ -18,4 +18,5 @@ Represents the TargetedContentValue of the TargetedContentValueKind File.
 ## -examples
 
 ## -capabilities
+secondaryAuthenticationFactor
 targetedContent

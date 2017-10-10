@@ -19,3 +19,6 @@ Gets or Sets the Partial Content Availability for the TargetedContentSubscriptio
 
 ## -examples
 
+
+## -capabilities
+secondaryAuthenticationFactor

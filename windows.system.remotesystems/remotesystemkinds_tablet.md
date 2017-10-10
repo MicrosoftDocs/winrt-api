@@ -23,3 +23,6 @@ String representing **tablet**.
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

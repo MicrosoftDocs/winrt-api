@@ -28,3 +28,5 @@ Minimal encryption is required.
 ## -examples
 
 ## -see-also
+## -capabilities
+email, emailSystem

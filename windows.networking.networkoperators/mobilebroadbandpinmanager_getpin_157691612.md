@@ -26,3 +26,5 @@ The mobile broadband PIN returned. This value is either provided by the end user
 
 ## -see-also
 [MobileBroadbandPin](mobilebroadbandpin.md), [MobileBroadbandPinType](mobilebroadbandpintype.md)
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

@@ -23,4 +23,4 @@ The binary message object for the SMS message received by the background task.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

@@ -17,3 +17,6 @@ Initializes a new instance of an  object.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

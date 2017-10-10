@@ -23,3 +23,5 @@ Calling this API requires that the **ID_CAP_SMS** and **ID_CAP_SMS_COMPANION** c
 
 ## -see-also
 [RejectPhoneCall(UInt32, UInt32)](accessorymanager_rejectphonecall_1947621771.md)
+## -capabilities
+accessoryManager

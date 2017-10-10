@@ -18,3 +18,6 @@ Initializes a new instance of the [ChatQueryOptions](chatqueryoptions.md) class.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

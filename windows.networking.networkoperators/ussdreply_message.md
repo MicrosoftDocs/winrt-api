@@ -29,3 +29,6 @@ A message is present only if the [ResultCode](ussdreply_resultcode.md) property 
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

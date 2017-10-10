@@ -20,3 +20,6 @@ The [AppointmentCalendarSyncManager](appointmentcalendarsyncmanager.md) which ca
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

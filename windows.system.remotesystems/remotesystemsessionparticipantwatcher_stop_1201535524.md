@@ -18,3 +18,6 @@ Stops watching for discoverable session participants.
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

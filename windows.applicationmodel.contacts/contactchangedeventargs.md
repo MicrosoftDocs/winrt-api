@@ -18,3 +18,6 @@ This class is instantiated by the system and passed as an argument to the [Conta
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

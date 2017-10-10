@@ -21,3 +21,6 @@ Handle that uniquely identifies this attribute on the GATT Server Device.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

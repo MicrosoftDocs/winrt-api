@@ -20,3 +20,6 @@ The email message ID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

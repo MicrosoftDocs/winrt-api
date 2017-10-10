@@ -44,3 +44,5 @@ A chat conversation has been deleted of all messages from a transport.
 ## -examples
 
 ## -see-also
+## -capabilities
+chatSystem, smsSend, chat

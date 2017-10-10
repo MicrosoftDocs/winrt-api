@@ -18,3 +18,6 @@ Represents a device that is a participant in a remote session. A session can hav
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

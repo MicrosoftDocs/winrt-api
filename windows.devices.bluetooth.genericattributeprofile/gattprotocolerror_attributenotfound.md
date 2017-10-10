@@ -21,3 +21,6 @@ The byte value for an attribute not found error.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

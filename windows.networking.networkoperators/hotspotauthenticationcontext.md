@@ -25,3 +25,5 @@ Provides the authentication context that contains details of the current authent
 
 ## -see-also
 [HotspotAuthenticationEventDetails](HotspotAuthenticationEventDetails.md)
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

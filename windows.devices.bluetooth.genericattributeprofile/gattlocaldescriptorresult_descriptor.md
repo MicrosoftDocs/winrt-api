@@ -21,3 +21,6 @@ The descriptor.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

@@ -24,3 +24,6 @@ An asynchronous operation that returns a [PhoneCallHistoryStore](phonecallhistor
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

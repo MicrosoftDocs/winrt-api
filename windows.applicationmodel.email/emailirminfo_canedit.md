@@ -20,3 +20,6 @@ A Boolean value that indicates if an email message is allowed to be edited.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

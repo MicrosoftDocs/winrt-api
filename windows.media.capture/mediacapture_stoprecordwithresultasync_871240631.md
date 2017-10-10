@@ -20,3 +20,6 @@ An asynchronous action that returns a [MediaCaptureStopResult](mediacapturestopr
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

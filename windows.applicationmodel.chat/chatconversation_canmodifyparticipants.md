@@ -21,3 +21,6 @@ A boolean that indicates whether participants can be modified or not.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

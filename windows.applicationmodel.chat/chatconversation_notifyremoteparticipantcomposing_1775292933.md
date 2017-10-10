@@ -28,3 +28,6 @@ TRUE if the remote participant is typing, otherwise FALSE.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

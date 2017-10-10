@@ -10,8 +10,10 @@ public string Fonts { get; }
 # Windows.Storage.SystemDataPaths.Fonts
 
 ## -description
+Gets the path to the fonts folder.
 
 ## -property-value
+The full path to the fonts folder.
 
 ## -remarks
 

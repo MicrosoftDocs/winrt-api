@@ -20,3 +20,6 @@ The type of geographic shape represented by the [Geopath](geopath.md).
 ## -examples
 
 ## -see-also
+
+## -capabilities
+location

@@ -18,3 +18,6 @@ The [Folder](emailmailboxchange_folder.md) property returns an instance of this 
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

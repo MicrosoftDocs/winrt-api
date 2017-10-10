@@ -19,3 +19,5 @@ Groups parameters used to configure payload-based filtering of received Bluetoot
 
 ## -see-also
 [BluetoothLEAdvertisement](bluetoothleadvertisement.md)
+## -capabilities
+bluetooth

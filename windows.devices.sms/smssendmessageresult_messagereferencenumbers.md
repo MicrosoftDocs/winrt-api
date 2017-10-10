@@ -24,4 +24,4 @@ A list of message numbers that were sent.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

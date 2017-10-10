@@ -22,3 +22,6 @@ The following example demonstrates how to monitor for and update the network sta
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

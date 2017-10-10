@@ -30,3 +30,6 @@ An asynchronous operation that, on successful completion, returns an [AppInstall
 ## -examples
 
 ## -see-also
+
+## -capabilities
+runFullTrust

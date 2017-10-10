@@ -24,4 +24,4 @@ Binary data part of the Application message.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

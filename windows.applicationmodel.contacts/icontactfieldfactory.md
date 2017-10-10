@@ -21,3 +21,5 @@ Creates fields that contain information about a contact. Available only to apps 
 ## -examples
 
 ## -see-also
+## -capabilities
+contactsSystem

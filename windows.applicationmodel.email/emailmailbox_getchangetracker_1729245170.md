@@ -24,3 +24,6 @@ You can use the [IsTracking](emailmailboxchangetracker_istracking.md) property o
 ## -see-also
 
 ## -examples
+
+## -capabilities
+email, emailSystem

@@ -17,3 +17,6 @@ Initializes a new instance of a [ContactSignificantOther](contactsignificantothe
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

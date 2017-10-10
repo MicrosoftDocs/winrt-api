@@ -21,3 +21,6 @@ Gets a boolean indicating if the adapter supports advertisement offload.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

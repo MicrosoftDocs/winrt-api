@@ -25,4 +25,4 @@ Your code does not instantiate this class directly. A newly-created instance of 
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

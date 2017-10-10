@@ -35,4 +35,6 @@ The provisioning agent for the mobile device associated with the supplied networ
 
 
 ## -capabilities
+cellularDeviceIdentity, cellularDeviceControl
+networkConnectionManagerProvisioning
 networkDataPlanProvisioning

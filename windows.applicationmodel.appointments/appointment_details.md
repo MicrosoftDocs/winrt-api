@@ -21,3 +21,6 @@ The extended details that describe the appointment.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

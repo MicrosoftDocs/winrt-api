@@ -21,4 +21,5 @@ After this event is raised, the application must call [NotifyCallEnded](voipphon
 
 
 ## -capabilities
+phoneCallHistory, phoneCallHistorySystem
 voipCall

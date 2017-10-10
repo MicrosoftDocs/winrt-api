@@ -29,3 +29,6 @@ Returns an asynchronous operation that completes with the descriptors for the de
 
 ## -examples
 
+
+## -capabilities
+bluetooth

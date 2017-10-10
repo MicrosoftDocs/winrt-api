@@ -18,3 +18,6 @@ This class represents a Bluetooth GATT read request.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

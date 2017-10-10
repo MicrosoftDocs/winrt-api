@@ -25,3 +25,6 @@ The device watcher for the bus objects.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+allJoyn

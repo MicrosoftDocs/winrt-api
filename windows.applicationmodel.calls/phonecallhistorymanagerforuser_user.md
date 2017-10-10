@@ -20,3 +20,6 @@ The user object that enables you to retrieve a [PhoneCallHistoryStore](phonecall
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

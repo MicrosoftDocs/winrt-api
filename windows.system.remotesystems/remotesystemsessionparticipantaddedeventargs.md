@@ -19,3 +19,6 @@ This class is instantiated whenever the [RemoteSystemSessionParticipantWatcher.A
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

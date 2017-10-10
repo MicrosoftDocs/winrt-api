@@ -22,3 +22,6 @@ The chat application receives a [ChatMessageChangedDeferral class](chatmessagech
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

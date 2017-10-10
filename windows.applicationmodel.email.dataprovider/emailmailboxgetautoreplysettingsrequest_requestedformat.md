@@ -20,3 +20,6 @@ An [EmailMailboxAutoReplyMessageResponseKind](../windows.applicationmodel.email/
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

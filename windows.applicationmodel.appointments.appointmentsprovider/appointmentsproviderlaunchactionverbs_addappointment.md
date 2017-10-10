@@ -20,3 +20,6 @@ The add-appointment action
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

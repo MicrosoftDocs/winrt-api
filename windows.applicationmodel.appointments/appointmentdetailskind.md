@@ -25,3 +25,5 @@ Content is in HTML markup.
 ## -examples
 
 ## -see-also
+## -capabilities
+appointmentsSystem

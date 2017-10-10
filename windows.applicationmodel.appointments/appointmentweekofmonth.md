@@ -35,3 +35,5 @@ The appointment occurs on the last week of the month.
 
 ## -see-also
 [WeekOfMonth](appointmentrecurrence_weekofmonth.md)
+## -capabilities
+appointmentsSystem

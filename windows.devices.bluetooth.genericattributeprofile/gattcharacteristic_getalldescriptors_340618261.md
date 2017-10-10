@@ -21,3 +21,6 @@ The collection of all descriptors belonging to this GattCharacteristic instance.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

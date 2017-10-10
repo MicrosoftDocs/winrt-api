@@ -42,3 +42,6 @@ This code demonstrates how a [ContactInformation](contactinformation.md) object 
 [!code-js[ContactsSinglePicker](../windows.applicationmodel.contacts.provider/code/ContactsMain/javascript/js/contacts.js#SnippetContactsSinglePicker)]
 
 ## -see-also
+
+## -capabilities
+contactsSystem

@@ -21,3 +21,6 @@ The time at which the system was notified of the Characteristic Value change.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

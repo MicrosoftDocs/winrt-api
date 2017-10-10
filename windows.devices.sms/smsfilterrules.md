@@ -24,4 +24,4 @@ A collection of [SmsFilterRule](smsfilterrule_smsfilterrule.md) instances.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

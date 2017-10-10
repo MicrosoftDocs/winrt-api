@@ -24,4 +24,4 @@ List of port numbers.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

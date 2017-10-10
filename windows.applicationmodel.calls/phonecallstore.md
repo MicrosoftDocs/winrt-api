@@ -17,3 +17,6 @@ Represents a collection of information about the phone lines available on a devi
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

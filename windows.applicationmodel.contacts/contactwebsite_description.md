@@ -20,3 +20,6 @@ The description of a Web site for a contact.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

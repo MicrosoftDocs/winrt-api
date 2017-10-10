@@ -11,11 +11,26 @@ public IAsyncOperation<GameMonitoringPermission> GameMonitor.RequestPermissionAs
 
 ## -description
 
+Gets the game monitoring permission state of the device.
+
 ## -returns
+
+The game monitoring permission state of the device.
 
 ## -remarks
 
+If game monitoring is already enabled, the async result returns **GameMonitoringPermission::Allowed**.
+
+If game monitoring is disabled by group policy, the async result returns **GameMonitoringPermission::DeniedBySystem**.
+
+If game monitoring is not enabled, a dialog is displayed asking for consent to enable game monitoring. If the customer accepts, this method returns **GameMonitoringPermission::Allowed**. If not, it returns **GameMonitoringPermission::DeniedByUser**.
+
+The app must have the **protectedApp** and **gameMonitor** capabilities to call this method.  If not, the API returns **E_UNEXPECTED**.
+
 ## -see-also
+
+* [Windows.Gaming.UI.GameMonitoringPermission](gamemonitoringpermission.md)
+* [App capability declarations](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations)
 
 ## -examples
 

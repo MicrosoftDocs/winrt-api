@@ -19,3 +19,6 @@ This class is retrieved by calling [RequestSyncManagerAsync](chatmessagemanager_
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

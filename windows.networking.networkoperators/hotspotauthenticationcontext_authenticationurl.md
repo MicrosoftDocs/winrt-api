@@ -31,3 +31,6 @@ Applications should not assume they are only invoked for authentication attempts
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

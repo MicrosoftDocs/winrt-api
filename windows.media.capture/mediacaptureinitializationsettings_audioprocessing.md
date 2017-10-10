@@ -20,3 +20,6 @@ The audio processing mode.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

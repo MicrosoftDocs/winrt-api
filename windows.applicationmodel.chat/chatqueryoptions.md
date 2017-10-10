@@ -18,3 +18,6 @@ Represents the criteria for finding chat messages.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

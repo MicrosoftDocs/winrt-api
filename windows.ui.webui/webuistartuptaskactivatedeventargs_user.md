@@ -10,8 +10,10 @@ public User User { get; }
 # Windows.UI.WebUI.WebUIStartupTaskActivatedEventArgs.User
 
 ## -description
+Gets the user who launched the app.
 
 ## -property-value
+The user who launched the app.
 
 ## -remarks
 

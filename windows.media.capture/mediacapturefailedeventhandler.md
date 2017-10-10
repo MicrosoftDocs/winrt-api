@@ -26,4 +26,5 @@ Arguments that contain information about the event.
 
 
 ## -capabilities
+backgroundMediaRecording
 microphone, webcam

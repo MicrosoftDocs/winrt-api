@@ -16,3 +16,6 @@ Occurs when the Contact Panel is closing.
 ## -see-also
 [Close](contactpanel_closepanel_1777562300.md)
 ## -examples
+
+## -capabilities
+contactsSystem

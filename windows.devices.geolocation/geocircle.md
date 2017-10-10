@@ -18,3 +18,5 @@ Describes a geographic circle with a center point and a radius.
 
 ## -see-also
 [IGeoshape](igeoshape.md)
+## -capabilities
+location

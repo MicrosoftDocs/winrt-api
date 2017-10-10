@@ -20,3 +20,6 @@ The display name for this contact.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

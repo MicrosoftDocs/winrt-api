@@ -21,3 +21,6 @@ The value of [Vertical35mmEquivalentFocalLength](mediacapturesettings_vertical35
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

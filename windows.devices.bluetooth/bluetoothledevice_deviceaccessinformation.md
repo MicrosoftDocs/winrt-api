@@ -21,3 +21,6 @@ Gets the DeviceAccessInformation.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

@@ -22,3 +22,5 @@ The text for which to search.
 
 ## -see-also
 [EmailQueryOptions(String, EmailQuerySearchFields)](emailqueryoptions_emailqueryoptions_235139876.md)
+## -capabilities
+email, emailSystem

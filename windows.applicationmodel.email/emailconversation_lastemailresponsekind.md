@@ -20,3 +20,6 @@ The last [EmailMessageResponseKind](emailmessageresponsekind.md) for the convers
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

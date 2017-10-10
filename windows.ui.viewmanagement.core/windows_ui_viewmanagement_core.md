@@ -12,7 +12,11 @@ namespace Windows.UI.ViewManagement.Core
 ## -description
 Provides support for handling and managing [CoreInputView](coreinputview.md) objects associated with the active Universal Windows Platform (UWP) application.
 
+> [!NOTE]
+> Not supported on Xbox or HoloLens.
+
 ## -remarks
+Used by frameworks (such as XAML) or custom text controls only.
 
 ## -see-also
 

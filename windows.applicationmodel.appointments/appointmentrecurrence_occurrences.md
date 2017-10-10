@@ -20,3 +20,6 @@ The number of times an appointment recurs.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

@@ -27,4 +27,5 @@ The result of the reservation action.
 
 
 ## -capabilities
+phoneCallHistory, phoneCallHistorySystem
 voipCall

@@ -18,3 +18,5 @@ Instantiates a new instance of the  class.
 
 ## -see-also
 [EmailQueryOptions(String)](emailqueryoptions_emailqueryoptions_290278668.md), [EmailQueryOptions(String, EmailQuerySearchFields)](emailqueryoptions_emailqueryoptions_235139876.md)
+## -capabilities
+email, emailSystem

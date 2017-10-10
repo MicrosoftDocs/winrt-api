@@ -27,3 +27,6 @@ The type of the network notification.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

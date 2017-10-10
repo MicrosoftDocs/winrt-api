@@ -37,3 +37,5 @@ Use the RC2 40-bit block cipher encryption algorithm.
 ## -examples
 
 ## -see-also
+## -capabilities
+email, emailSystem

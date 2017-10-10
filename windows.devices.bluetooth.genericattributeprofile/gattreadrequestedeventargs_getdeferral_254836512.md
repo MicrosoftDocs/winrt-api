@@ -23,3 +23,6 @@ Returns a deferral object.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

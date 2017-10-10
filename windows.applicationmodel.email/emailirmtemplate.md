@@ -17,3 +17,6 @@ Represents a template that can be used to create new [EmailIrmInfo](emailirminfo
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

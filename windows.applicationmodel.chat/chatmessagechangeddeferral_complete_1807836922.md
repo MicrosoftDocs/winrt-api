@@ -18,3 +18,6 @@ Fires to indicate that the deferred change request has completed.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

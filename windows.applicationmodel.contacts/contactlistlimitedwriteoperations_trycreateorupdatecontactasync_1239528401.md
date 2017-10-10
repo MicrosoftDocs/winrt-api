@@ -24,3 +24,6 @@ A Boolean value indicating if the operation was successful.
 ## -see-also
 
 ## -examples
+
+## -capabilities
+contactsSystem

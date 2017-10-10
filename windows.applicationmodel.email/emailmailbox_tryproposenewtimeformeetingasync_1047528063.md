@@ -36,3 +36,6 @@ A Boolean value indicating if the proposed meeting message was successfully sent
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

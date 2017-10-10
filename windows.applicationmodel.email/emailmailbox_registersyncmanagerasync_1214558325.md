@@ -20,3 +20,6 @@ An asynchronous registration operation.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

@@ -25,3 +25,6 @@ Call this method from the main UI thread.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

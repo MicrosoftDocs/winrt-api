@@ -21,3 +21,6 @@ The read protection level.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

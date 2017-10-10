@@ -18,3 +18,6 @@ Used in your [MailboxSyncRequested](emaildataproviderconnection_mailboxsyncreque
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

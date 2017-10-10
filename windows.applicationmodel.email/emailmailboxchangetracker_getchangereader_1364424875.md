@@ -20,3 +20,6 @@ A reader that will read a batch of changes.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

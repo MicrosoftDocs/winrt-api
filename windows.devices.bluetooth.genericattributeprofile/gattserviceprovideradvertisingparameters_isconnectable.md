@@ -21,3 +21,6 @@ A boolean that indicates if the GATT service is connectable.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

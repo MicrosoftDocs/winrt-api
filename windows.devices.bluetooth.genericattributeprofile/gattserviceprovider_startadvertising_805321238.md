@@ -20,3 +20,6 @@ Start advertising the GATT service.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

@@ -21,3 +21,6 @@ The remote ID for the [ChatMessage](chatmessage.md).
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

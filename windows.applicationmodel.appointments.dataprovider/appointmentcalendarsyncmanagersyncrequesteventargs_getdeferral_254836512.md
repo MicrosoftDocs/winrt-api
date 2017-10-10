@@ -20,3 +20,6 @@ The deferral object for the [SyncRequested](appointmentdataproviderconnection_sy
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

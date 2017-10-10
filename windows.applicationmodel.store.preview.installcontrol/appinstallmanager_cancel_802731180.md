@@ -22,3 +22,5 @@ The product ID of the app whose installation should be canceled.
 
 ## -see-also
 [Cancel(String, String)](appinstallmanager_cancel_1663351060.md)
+## -capabilities
+runFullTrust

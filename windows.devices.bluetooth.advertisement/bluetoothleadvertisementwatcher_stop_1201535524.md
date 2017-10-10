@@ -25,3 +25,5 @@ The [BluetoothLEAdvertisementWatcher](bluetoothleadvertisementwatcher.md) will b
 
 ## -see-also
 [BluetoothLEAdvertisementWatcherStatus](bluetoothleadvertisementwatcherstatus.md)
+## -capabilities
+bluetooth

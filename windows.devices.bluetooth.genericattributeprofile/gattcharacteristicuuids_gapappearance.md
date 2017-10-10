@@ -21,3 +21,6 @@ The Bluetooth SIG-defined GapAppearance characteristic UUID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

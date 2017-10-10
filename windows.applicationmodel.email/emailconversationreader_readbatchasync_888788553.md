@@ -20,3 +20,6 @@ Returns a batch of email conversations.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

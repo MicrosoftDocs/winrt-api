@@ -28,3 +28,6 @@ A Boolean value that specifies whether the specified contact is pinned to the sp
 ## -see-also
 
 ## -examples
+
+## -capabilities
+contactsSystem

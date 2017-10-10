@@ -20,3 +20,6 @@ A list of [EmailConversation](emailconversation.md) objects to use for batch pro
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

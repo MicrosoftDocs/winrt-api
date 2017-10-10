@@ -21,3 +21,6 @@ The valid range of radius values is from .1 to 10018754.3 meters. 10018754.3 met
 ## -examples
 
 ## -see-also
+
+## -capabilities
+location

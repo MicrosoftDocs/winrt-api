@@ -17,3 +17,6 @@ Occurs when a [Contact](contact.md) in the [ContactStore](contactstore.md) has b
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

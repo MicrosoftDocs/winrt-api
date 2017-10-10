@@ -28,3 +28,5 @@ This vector reflects only updates made by the app. To view changes made by the s
 
 ## -see-also
 [Geofence](geofence.md)
+## -capabilities
+location

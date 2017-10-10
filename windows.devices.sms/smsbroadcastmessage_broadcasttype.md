@@ -24,4 +24,4 @@ An enumeration value describing the type of the message.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

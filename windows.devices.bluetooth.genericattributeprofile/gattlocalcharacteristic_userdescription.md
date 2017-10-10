@@ -21,3 +21,6 @@ The user-friendly description for this local characteristic.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

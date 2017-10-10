@@ -20,3 +20,5 @@ Providers call methods of [RemoveAppointmentOperation](removeappointmentoperatio
 ## -examples
 
 ## -see-also
+## -capabilities
+appointmentsSystem

@@ -20,4 +20,5 @@ Notifies the system that the call has ended.
 
 
 ## -capabilities
+phoneCallHistory, phoneCallHistorySystem
 voipCall

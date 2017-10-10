@@ -20,3 +20,6 @@ The app's [ContactChangeTracker](contactchangetracker.md) for this [ContactList]
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

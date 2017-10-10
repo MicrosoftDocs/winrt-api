@@ -21,3 +21,6 @@ The complete list of 16-bit Bluetooth LE service UUIDs
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

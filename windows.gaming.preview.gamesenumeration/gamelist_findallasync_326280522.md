@@ -21,3 +21,6 @@ This API is not available to all apps. Unless your developer account is speciall
 ## -see-also
 [FindAllAsync(String)](gamelist_findallasync_1257462890.md)
 
+
+## -capabilities
+gameList

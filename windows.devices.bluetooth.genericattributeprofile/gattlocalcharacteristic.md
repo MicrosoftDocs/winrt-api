@@ -18,3 +18,6 @@ This class represents a local characteristic.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

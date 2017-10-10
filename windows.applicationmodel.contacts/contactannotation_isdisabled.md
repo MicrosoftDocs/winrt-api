@@ -20,3 +20,6 @@ Boolean value indicating if this [ContactAnnotation](contactannotation.md) has b
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

@@ -21,3 +21,6 @@ The [RemoteSystemSession](RemoteSystemSession.md) object representing the sessio
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

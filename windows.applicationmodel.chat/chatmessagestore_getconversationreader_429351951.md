@@ -26,3 +26,5 @@ The new or existing [ChatConversationReader](chatconversationreader.md).
 
 ## -see-also
 [GetConversationReader](chatmessagestore_getconversationreader_388570943.md)
+## -capabilities
+chatSystem, smsSend, chat

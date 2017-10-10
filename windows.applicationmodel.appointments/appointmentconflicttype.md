@@ -28,3 +28,5 @@ The appointment overlaps another appointment.
 ## -examples
 
 ## -see-also
+## -capabilities
+appointmentsSystem

@@ -20,3 +20,6 @@ A Boolean value indicating whether images may be embedded in the html encoded em
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

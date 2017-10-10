@@ -21,3 +21,6 @@ The device access information associated with the current [GattDeviceService](ga
 
 ## -examples
 
+
+## -capabilities
+bluetooth

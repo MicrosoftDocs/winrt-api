@@ -22,3 +22,6 @@ For more information about the [Windows.ApplicationModel.Email](windows_applicat
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

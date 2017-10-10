@@ -18,3 +18,6 @@ The [CapturedFrame](capturedframe.md) object passed to this event contains raw p
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

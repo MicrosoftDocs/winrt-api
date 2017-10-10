@@ -20,3 +20,6 @@ A [Deferral](../windows.foundation/deferral.md) object that your code uses to si
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

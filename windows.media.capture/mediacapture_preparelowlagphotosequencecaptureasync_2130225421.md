@@ -27,3 +27,6 @@ Use [MediaCapture.PrepareLowLagPhotoSequenceCaptureAsync](mediacapture_preparelo
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

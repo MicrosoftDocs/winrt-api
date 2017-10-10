@@ -21,3 +21,6 @@ The session of the subscribed client.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

@@ -24,3 +24,6 @@ The message for the specified body stream.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

@@ -20,4 +20,5 @@ Raised when the mute status for the phone call changes.
 
 
 ## -capabilities
+phoneCallHistory, phoneCallHistorySystem
 voipCall

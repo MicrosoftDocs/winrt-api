@@ -21,3 +21,6 @@ The appearance category of the Bluetooth LE device. For more info see [Bluetooth
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

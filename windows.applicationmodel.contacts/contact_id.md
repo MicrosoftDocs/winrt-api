@@ -23,3 +23,6 @@ The identifier for a contact.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

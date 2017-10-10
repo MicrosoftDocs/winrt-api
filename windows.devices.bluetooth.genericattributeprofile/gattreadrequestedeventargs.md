@@ -18,3 +18,6 @@ This class contains the arguments for the [StateChanged](gattwriterequest_statec
 
 ## -examples
 
+
+## -capabilities
+bluetooth

@@ -21,3 +21,6 @@ A user can have multiple phone call origin applications installed on a phone. Ho
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

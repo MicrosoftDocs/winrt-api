@@ -18,3 +18,6 @@ Contains information that identifies a session that has been joined.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+allJoyn

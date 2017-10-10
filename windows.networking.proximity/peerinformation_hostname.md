@@ -21,3 +21,6 @@ The hostname or IP address of the peer
 ## -examples
 
 ## -see-also
+
+## -capabilities
+proximity

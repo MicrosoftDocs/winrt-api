@@ -20,3 +20,6 @@ The address of a participant of an appointment.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

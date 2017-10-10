@@ -21,3 +21,6 @@ The device ID for the capture device for which exlusive control status has chang
 
 ## -examples
 
+
+## -capabilities
+backgroundMediaRecording

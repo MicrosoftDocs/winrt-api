@@ -24,4 +24,4 @@ List of protocol identifiers.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

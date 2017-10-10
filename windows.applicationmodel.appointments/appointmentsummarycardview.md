@@ -25,3 +25,5 @@ The appointment summary card is displayed by the app that owns the appointment c
 ## -examples
 
 ## -see-also
+## -capabilities
+appointmentsSystem

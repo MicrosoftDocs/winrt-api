@@ -18,3 +18,6 @@ Contains the result of [GetCharacteristicsForUuidAsync](../../windows.devices.bl
 
 ## -examples
 
+
+## -capabilities
+bluetooth

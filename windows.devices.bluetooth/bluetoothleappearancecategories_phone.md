@@ -21,3 +21,6 @@ The appearance category code for a phone Bluetooth LE device.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

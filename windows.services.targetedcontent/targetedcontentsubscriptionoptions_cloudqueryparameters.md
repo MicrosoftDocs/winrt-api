@@ -19,3 +19,6 @@ Gets a collection of Cloud Query parameters for the TargetedContentSubscription 
 
 ## -examples
 
+
+## -capabilities
+secondaryAuthenticationFactor

@@ -20,3 +20,6 @@ The integer that identifies the original flavor of the character set used
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

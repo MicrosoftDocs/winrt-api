@@ -20,3 +20,6 @@ The functionality described in this topic is not available to all Windows and Wi
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

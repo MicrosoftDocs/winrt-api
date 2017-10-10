@@ -34,3 +34,5 @@ When you call this method, the Appointment provider app displays in a light-dism
 
 ## -see-also
 [ShowAddAppointmentAsync(Appointment, Rect)](appointmentmanagerforuser_showaddappointmentasync_92599717.md)
+## -capabilities
+appointmentsSystem

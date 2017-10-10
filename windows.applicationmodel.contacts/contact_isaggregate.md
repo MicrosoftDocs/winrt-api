@@ -20,3 +20,6 @@ Boolean value indicating of this is an aggregate [Contact](contact.md).
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

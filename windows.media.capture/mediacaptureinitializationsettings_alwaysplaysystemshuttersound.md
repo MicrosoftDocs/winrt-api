@@ -22,3 +22,6 @@ Some regions require that the system play a shutter sound whenever a photo is ca
 
 ## -examples
 
+
+## -capabilities
+backgroundMediaRecording

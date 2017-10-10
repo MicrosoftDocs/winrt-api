@@ -17,3 +17,6 @@ Starts listening for changes to the phone lines on the device.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

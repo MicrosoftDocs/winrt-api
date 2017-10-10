@@ -33,3 +33,6 @@ When a message is encoded in the default coding scheme, you can access the paylo
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

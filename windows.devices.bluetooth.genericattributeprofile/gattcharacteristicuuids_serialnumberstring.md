@@ -21,3 +21,6 @@ The Bluetooth SIG-defined SerialNumberString characteristic UUID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

@@ -29,3 +29,5 @@ An AQS string that can be passed as a parameter to the [CreateWatcher](../window
 
 ## -see-also
 [GetDeviceSelectorFromBluetoothAddress(UInt64)](bluetoothledevice_getdeviceselectorfrombluetoothaddress_1273508324.md)
+## -capabilities
+bluetooth

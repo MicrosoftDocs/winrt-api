@@ -26,3 +26,5 @@ The chat message reader.
 
 ## -see-also
 [GetMessageReader](chatmessagestore_getmessagereader_1198599356.md)
+## -capabilities
+chatSystem, smsSend, chat

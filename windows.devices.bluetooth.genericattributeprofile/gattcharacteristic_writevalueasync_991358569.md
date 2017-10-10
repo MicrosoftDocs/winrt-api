@@ -29,3 +29,5 @@ The object that manages the asynchronous operation, which, upon completion, retu
 
 ## -see-also
 [WriteValueAsync(IBuffer)](gattcharacteristic_writevalueasync_1609109153.md)
+## -capabilities
+bluetooth

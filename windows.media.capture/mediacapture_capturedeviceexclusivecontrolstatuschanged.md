@@ -21,3 +21,6 @@ If the **CaptureDeviceExclusiveControlStatusChanged** event is raised and the va
 
 ## -examples
 
+
+## -capabilities
+backgroundMediaRecording

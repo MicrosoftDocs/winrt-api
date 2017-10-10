@@ -29,3 +29,5 @@ When you call **StartPreviewToCustomSinkAsync**, the system will call the custom
 
 ## -see-also
 [StartPreviewToCustomSinkAsync(MediaEncodingProfile, String, IPropertySet)](mediacapture_startpreviewtocustomsinkasync_319661254.md)
+## -capabilities
+backgroundMediaRecording

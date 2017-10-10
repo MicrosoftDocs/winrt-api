@@ -31,4 +31,4 @@ On successful completion, the [SmsMessageRegistration](smsmessageregistration.md
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

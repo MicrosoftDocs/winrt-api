@@ -23,3 +23,6 @@ The authorization kind to target.
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

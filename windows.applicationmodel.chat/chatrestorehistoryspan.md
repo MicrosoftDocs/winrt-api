@@ -29,3 +29,5 @@ All messages will be restored.
 ## -examples
 
 ## -see-also
+## -capabilities
+chatSystem, smsSend, chat

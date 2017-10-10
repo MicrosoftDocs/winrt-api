@@ -20,3 +20,6 @@ Gets whether this [PhoneLine](phoneline.md) instance supports video calls.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

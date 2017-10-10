@@ -24,3 +24,6 @@ Returns the [EmailStore](emailstore.md).
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

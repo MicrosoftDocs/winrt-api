@@ -21,3 +21,6 @@ Record size, in bytes.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

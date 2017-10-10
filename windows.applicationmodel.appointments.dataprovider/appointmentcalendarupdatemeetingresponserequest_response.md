@@ -20,3 +20,6 @@ The new response the user wishes to give.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

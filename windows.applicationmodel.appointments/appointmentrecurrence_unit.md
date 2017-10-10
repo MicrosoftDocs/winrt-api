@@ -20,3 +20,6 @@ A [AppointmentRecurrenceUnit](appointmentrecurrenceunit.md)-typed value that ind
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

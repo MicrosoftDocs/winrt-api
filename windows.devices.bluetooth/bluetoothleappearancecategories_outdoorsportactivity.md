@@ -21,3 +21,6 @@ The appearance category code for an outdoor sport activity Bluetooth LE device.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

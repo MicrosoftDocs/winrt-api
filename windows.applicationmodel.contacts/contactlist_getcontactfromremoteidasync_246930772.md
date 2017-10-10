@@ -24,3 +24,6 @@ The [Contact](contact.md) identified by the *remoteId* parameter.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

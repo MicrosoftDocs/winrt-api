@@ -28,3 +28,5 @@ The app installation is being repaired.
 ## -examples
 
 ## -see-also
+## -capabilities
+runFullTrust

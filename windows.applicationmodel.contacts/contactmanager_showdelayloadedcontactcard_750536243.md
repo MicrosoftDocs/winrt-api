@@ -33,3 +33,5 @@ Returns the [ContactCardDelayedDataLoader](contactcarddelayeddataloader.md) obje
 
 ## -see-also
 [ShowDelayLoadedContactCard(Contact, Rect, Placement, ContactCardOptions)](contactmanager_showdelayloadedcontactcard_1685487355.md)
+## -capabilities
+contactsSystem

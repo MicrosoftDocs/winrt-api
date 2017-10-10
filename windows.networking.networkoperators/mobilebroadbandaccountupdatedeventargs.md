@@ -27,3 +27,5 @@ Provides information for the [AccountUpdated](mobilebroadbandaccountwatcher_acco
 
 ## -see-also
 [MobileBroadbandAccountWatcher](mobilebroadbandaccountwatcher.md)
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

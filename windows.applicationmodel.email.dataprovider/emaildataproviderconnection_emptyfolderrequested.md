@@ -17,3 +17,6 @@ Occurs when the email client has requested that a folder be emptied the server.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

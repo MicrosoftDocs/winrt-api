@@ -23,3 +23,6 @@ The timestamp returned by this property depends on how the location was obtained
 ## -examples
 
 ## -see-also
+
+## -capabilities
+location

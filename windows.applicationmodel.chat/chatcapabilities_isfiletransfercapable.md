@@ -21,3 +21,6 @@ A Boolean value indicating if a phone number supports Rich Communication Service
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

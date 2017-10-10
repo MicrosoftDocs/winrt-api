@@ -21,3 +21,6 @@ An asynchronous operation with a [Geovisit](Geovisit.md) instance representing t
 
 ## -examples
 
+
+## -capabilities
+location

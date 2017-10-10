@@ -20,3 +20,6 @@ A Boolean value indicating whether change tracking is active.
 ## -see-also
 
 ## -examples
+
+## -capabilities
+appointmentsSystem

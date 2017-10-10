@@ -23,3 +23,6 @@ Selecting **QuantumSizeSelectionMode.LowestLatency** can result in different qua
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

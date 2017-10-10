@@ -16,3 +16,6 @@ The Contact Panel appears when users click a contact that is pinned to the taskb
 ## -see-also
 
 ## -examples
+
+## -capabilities
+contactsSystem

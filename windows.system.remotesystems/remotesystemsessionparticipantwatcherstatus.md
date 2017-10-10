@@ -37,3 +37,6 @@ The watching operation was aborted for an unknown reason.
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

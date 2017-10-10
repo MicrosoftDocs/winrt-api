@@ -29,3 +29,5 @@ The Bluetooth LE advertisement data byte pattern to match.
 
 ## -see-also
 [BluetoothLEAdvertisement](bluetoothleadvertisement.md)
+## -capabilities
+bluetooth

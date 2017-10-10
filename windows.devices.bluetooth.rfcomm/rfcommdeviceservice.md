@@ -18,3 +18,6 @@ Represents an instance of a service on a Bluetooth BR device.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

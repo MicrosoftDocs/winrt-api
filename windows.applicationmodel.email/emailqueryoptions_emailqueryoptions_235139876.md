@@ -25,3 +25,5 @@ The fields against which to search.
 
 ## -see-also
 [EmailQueryOptions(String)](emailqueryoptions_emailqueryoptions_290278668.md)
+## -capabilities
+email, emailSystem

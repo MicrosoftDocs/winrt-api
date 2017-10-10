@@ -20,3 +20,6 @@ The last time the mailbox attempted to sync.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

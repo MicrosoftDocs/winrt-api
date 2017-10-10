@@ -21,3 +21,6 @@ The GATT Descriptor UUID for this GattDescriptor.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

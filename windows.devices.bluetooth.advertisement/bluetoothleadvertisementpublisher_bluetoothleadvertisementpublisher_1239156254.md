@@ -24,3 +24,5 @@ There are additional policy restrictions on certain system-reserved data types t
 
 ## -see-also
 [BluetoothLEAdvertisement](bluetoothleadvertisement.md)
+## -capabilities
+bluetooth

@@ -18,3 +18,6 @@ Used in your [ServerSearchReadBatchRequested](emaildataproviderconnection_server
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

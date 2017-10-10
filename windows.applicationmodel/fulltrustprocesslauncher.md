@@ -46,3 +46,6 @@ The methods in this class may only be called by packages that have the **runFull
 ## -examples
 
 ## -see-also
+
+## -capabilities
+previewHfx

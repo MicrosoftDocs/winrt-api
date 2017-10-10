@@ -18,3 +18,5 @@ Provides a way to tag existing user contacts with additional information, specif
 
 ## -see-also
 [Contact Card integration sample (Windows 10)](http://go.microsoft.com/fwlink/?LinkID=703783)
+## -capabilities
+contactsSystem

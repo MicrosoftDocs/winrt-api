@@ -19,3 +19,6 @@ Manages the details of a trigger for a Visits-related background task.
 
 ## -examples
 
+
+## -capabilities
+location

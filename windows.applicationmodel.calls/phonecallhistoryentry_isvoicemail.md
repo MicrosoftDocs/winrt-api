@@ -20,3 +20,6 @@ Gets or sets whether the phone call entry is a voicemail message.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

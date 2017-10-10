@@ -24,4 +24,4 @@ The phone number the message was sent to.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

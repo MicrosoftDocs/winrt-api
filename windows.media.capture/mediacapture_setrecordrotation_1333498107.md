@@ -25,4 +25,5 @@ For how-to guidance on handling orientation when using the camera, see [Handle d
 
 
 ## -capabilities
+backgroundMediaRecording
 microphone, webcam

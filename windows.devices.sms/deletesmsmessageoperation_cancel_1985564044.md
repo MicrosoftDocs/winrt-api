@@ -20,4 +20,4 @@ Cancels the asynchronous SMS message delete operation.
 
 
 ## -capabilities
-sms
+cellularMessaging, sms

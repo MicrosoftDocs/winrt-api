@@ -29,3 +29,5 @@ An asynchronous operation that returns the result of the command.
 
 ## -see-also
 [MobileBroadbandDeviceService](mobilebroadbanddeviceservice.md), [MobileBroadbandDeviceServiceCommandResult](mobilebroadbanddeviceservicecommandresult.md), [MobileBroadbandModem.MaxDeviceServiceCommandSizeInBytes](mobilebroadbandmodem_maxdeviceservicecommandsizeinbytes.md)
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

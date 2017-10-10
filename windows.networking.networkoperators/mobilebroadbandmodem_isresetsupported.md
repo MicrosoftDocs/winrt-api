@@ -21,3 +21,6 @@ If true, then the modem may be reset by calling [ResetAsync](mobilebroadbandmode
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

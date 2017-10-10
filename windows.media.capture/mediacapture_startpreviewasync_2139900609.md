@@ -23,4 +23,5 @@ Returns a [IAsyncAction](../windows.foundation/iasyncaction.md) object that is u
 
 
 ## -capabilities
+backgroundMediaRecording
 microphone, webcam

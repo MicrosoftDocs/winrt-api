@@ -19,3 +19,5 @@ Get an instance of this class by calling [AudioGraph.CreateBatchUpdater](audiogr
 
 ## -see-also
 [IClosable](../windows.foundation/iclosable.md)
+## -capabilities
+backgroundMediaRecording

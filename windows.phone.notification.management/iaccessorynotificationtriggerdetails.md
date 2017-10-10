@@ -18,3 +18,5 @@ Calling this API requires that the **ID_CAP_SMS** and **ID_CAP_SMS_COMPANION** c
 ## -examples
 
 ## -see-also
+## -capabilities
+accessoryManager

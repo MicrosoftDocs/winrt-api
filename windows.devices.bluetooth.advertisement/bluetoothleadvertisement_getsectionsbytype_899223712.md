@@ -26,3 +26,5 @@ A vector of all the [BluetoothLEAdvertisementDataSection](bluetoothleadvertiseme
 
 ## -see-also
 [BluetoothLEAdvertisementDataSection](bluetoothleadvertisementdatasection.md)
+## -capabilities
+bluetooth

@@ -20,3 +20,6 @@ The display name of the organizer of an appointment.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

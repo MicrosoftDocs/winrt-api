@@ -21,3 +21,6 @@ The enumeration value that describes how write access is determined.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

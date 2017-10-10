@@ -20,3 +20,6 @@ True if the modem is transmitting; otherwise, false.
 
 ## -examples
 
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

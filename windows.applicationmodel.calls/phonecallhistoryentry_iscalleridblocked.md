@@ -20,3 +20,6 @@ Indicates whether the caller ID is blocked.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

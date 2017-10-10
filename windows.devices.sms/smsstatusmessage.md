@@ -26,4 +26,4 @@ To access a received status message, create a background task that is triggered 
 [ISmsMessageBase](ismsmessagebase.md), [ISmsMessage](ismsmessage.md)
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

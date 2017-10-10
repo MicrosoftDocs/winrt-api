@@ -17,3 +17,6 @@ Creates a new instance of the [FindAppointmentsOptions](findappointmentsoptions.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

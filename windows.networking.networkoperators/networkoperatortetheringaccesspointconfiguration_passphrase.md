@@ -23,3 +23,6 @@ The network passphrase.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

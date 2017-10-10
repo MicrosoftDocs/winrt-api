@@ -14,9 +14,9 @@ Enables an app to receive notifications when the docked touch keyboard, or Soft 
 
 > [!NOTE]
 > The InputPane APIs provide accurate occlusion information for a docked panel only. For Windows 10 Creators Fall Update and newer, we reccomend using the following APIs to handle occlusion by docked, undocked, moveable, and transitory input panes such as Soft Input Panels (SIP), Input Method Editor (IME) candidate windows, floating toolbars, and so on. 
-> - [CoreInputView](..\windows.ui.viewmanagement.core\coreinputview.md)
-> - [CoreInputViewOcclusion](..\windows.ui.viewmanagement.core\coreinputviewocclusion.md)
-> - [CoreInputViewOcclusionKind](..\windows.ui.viewmanagement.core\coreinputviewocclusionkind.md)
+> - [CoreInputView](../windows.ui.viewmanagement.core/coreinputview.md)
+> - [CoreInputViewOcclusion](../windows.ui.viewmanagement.core/coreinputviewocclusion.md)
+> - [CoreInputViewOcclusionKind](../windows.ui.viewmanagement.core/coreinputviewocclusionkind.md)
 
 ## -remarks
 

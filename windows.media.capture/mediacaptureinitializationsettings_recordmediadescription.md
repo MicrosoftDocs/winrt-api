@@ -29,3 +29,5 @@ The way the system uses the **RecordMediaDescription** property depends on the v
 
 ## -see-also
 [PhotoMediaDescription](mediacapturevideoprofile_supportedphotomediadescription.md), [PreviewMediaDescription](mediacaptureinitializationsettings_previewmediadescription.md)
+## -capabilities
+backgroundMediaRecording

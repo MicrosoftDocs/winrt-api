@@ -22,4 +22,5 @@ Get an instance of this class by referencing the [ChangeTracker](chatmessagestor
 
 
 ## -capabilities
+chatSystem, smsSend, chat
 blockedChatMessages

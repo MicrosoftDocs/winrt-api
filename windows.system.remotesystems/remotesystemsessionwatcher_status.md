@@ -21,3 +21,6 @@ A [RemoteSystemSessionWatcherStatus](RemoteSystemSessionWatcherStatus.md) value 
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

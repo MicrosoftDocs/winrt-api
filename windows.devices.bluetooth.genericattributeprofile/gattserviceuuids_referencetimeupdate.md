@@ -21,3 +21,6 @@ The Bluetooth SIG-defined ReferenceTimeUpdate service UUID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

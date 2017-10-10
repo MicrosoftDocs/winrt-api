@@ -38,3 +38,5 @@ The instanceStartTime parameter must be the original start date of the instance.
 
 ## -see-also
 [ShowReplaceAppointmentAsync(String, Appointment, Rect)](appointmentstore_showreplaceappointmentasync_1336777815.md)
+## -capabilities
+appointmentsSystem

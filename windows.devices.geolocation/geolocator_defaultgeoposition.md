@@ -24,3 +24,4 @@ The location manually entered by the user.
 
 ## -capabilities
 locationSystem
+location

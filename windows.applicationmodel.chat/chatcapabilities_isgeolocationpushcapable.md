@@ -21,3 +21,6 @@ A Boolean value indicating if a phone number is capable of pushing Rich Communic
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

@@ -20,3 +20,6 @@ The name of the [Recurrence](appointment_recurrence.md) property.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

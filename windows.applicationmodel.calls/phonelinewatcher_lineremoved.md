@@ -18,3 +18,6 @@ In general, cellular lines can never be removed. This event is more likely to oc
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

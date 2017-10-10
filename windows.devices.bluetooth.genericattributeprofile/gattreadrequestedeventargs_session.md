@@ -21,3 +21,6 @@ The session.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

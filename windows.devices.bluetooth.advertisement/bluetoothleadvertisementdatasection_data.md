@@ -22,3 +22,5 @@ The Bluetooth LE advertisement data payload.
 
 ## -see-also
 [BluetoothLEAdvertisement](bluetoothleadvertisement.md)
+## -capabilities
+bluetooth

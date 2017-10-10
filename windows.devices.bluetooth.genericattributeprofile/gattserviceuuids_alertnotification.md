@@ -21,3 +21,6 @@ The Bluetooth SIG-defined AlertNotification Service UUID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

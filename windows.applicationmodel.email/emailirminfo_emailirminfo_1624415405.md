@@ -24,3 +24,6 @@ The IRM template to apply to the message.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

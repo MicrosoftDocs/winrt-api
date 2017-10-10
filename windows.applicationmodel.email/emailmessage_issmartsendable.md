@@ -20,3 +20,6 @@ A Boolean value indicating whether the response email message is allowed to atte
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

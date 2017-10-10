@@ -17,3 +17,6 @@ Address book information for a contact used by [PhoneCallHistoryEntry](phonecall
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

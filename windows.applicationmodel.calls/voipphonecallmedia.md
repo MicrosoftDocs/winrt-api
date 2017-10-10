@@ -31,4 +31,5 @@ The call uses video.
 
 
 ## -capabilities
+phoneCallHistory, phoneCallHistorySystem
 voipCall

@@ -21,3 +21,6 @@ The maximum size of a group chat message supported by the transport.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

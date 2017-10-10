@@ -23,4 +23,5 @@ Gets information about the satellites used to obtain a Geocoordinate.
 
 
 ## -capabilities
+location
 ID_CAP_LOCATION [Windows Phone]

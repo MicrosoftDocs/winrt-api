@@ -21,3 +21,6 @@ A Boolean value indicating of the app supports chat.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

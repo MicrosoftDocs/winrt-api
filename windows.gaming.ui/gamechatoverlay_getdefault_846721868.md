@@ -11,9 +11,15 @@ public GameChatOverlay GameChatOverlay.GetDefault()
 
 ## -description
 
+Gets the default game chat overlay instance.
+
 ## -returns
 
+The default game chat overlay instance.
+
 ## -remarks
+
+If game chat isn't supported on the device, this method will return **null**.
 
 ## -see-also
 

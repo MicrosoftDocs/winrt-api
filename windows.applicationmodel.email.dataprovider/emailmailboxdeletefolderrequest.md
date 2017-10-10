@@ -18,3 +18,6 @@ Used in your [DeleteFolderRequested](emaildataproviderconnection_deletefolderreq
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

@@ -21,3 +21,6 @@ Gets a boolean indicating if this is a LowEnergy device.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

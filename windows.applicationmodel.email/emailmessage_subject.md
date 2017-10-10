@@ -20,3 +20,6 @@ The subject of the email.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

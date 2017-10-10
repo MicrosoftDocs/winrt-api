@@ -19,3 +19,6 @@ This interface exposes the methods and properties used to control and configure 
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

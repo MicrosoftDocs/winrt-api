@@ -21,3 +21,6 @@ The byte value for an insufficient resources error.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

@@ -18,3 +18,6 @@ Use [GetContactReader](contactstore_getcontactreader_1793921473.md) or [GetConta
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

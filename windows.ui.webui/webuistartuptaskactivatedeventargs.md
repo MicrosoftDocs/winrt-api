@@ -10,8 +10,10 @@ public class WebUIStartupTaskActivatedEventArgs : IActivatedEventArgs, IActivate
 # Windows.UI.WebUI.WebUIStartupTaskActivatedEventArgs
 
 ## -description
+Provides information when an app is activated at device startup or user login.
 
 ## -remarks
+This functionality is only supported on Windows Desktop.
 
 ## -see-also
 

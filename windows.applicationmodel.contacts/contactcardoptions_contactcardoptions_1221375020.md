@@ -17,3 +17,6 @@ Initializes a new instance of the [ContactCardOptions](contactcardoptions.md) cl
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

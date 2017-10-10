@@ -46,3 +46,5 @@ For querying purposes, phone numbers support characters 0-9 and a-z/A-Z. If you 
 
 ## -see-also
 [ShowContactCard(Contact, Rect, Placement)](contactmanager_showcontactcard_2144545901.md)
+## -capabilities
+contactsSystem

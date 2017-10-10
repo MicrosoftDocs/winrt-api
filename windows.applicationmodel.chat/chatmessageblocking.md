@@ -18,3 +18,6 @@ Provides functionality for blocking messages.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

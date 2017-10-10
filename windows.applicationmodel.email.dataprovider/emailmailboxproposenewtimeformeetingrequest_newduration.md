@@ -20,3 +20,6 @@ The new duration of the meeting.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

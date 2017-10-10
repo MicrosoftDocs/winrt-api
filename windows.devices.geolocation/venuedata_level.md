@@ -26,3 +26,6 @@ The **Level** property value and string format is determined by the data provide
 ## -examples
 
 ## -see-also
+
+## -capabilities
+location

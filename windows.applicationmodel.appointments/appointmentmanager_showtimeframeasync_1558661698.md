@@ -35,3 +35,5 @@ For info about how to manage appointments, see [Manage appointments](http://msdn
 
 ## -see-also
 [Appointments API sample](http://go.microsoft.com/fwlink/p/?linkid=309836), [Appointment](appointment.md)
+## -capabilities
+appointmentsSystem

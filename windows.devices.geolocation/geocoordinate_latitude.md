@@ -26,4 +26,5 @@ The latitude in degrees. The valid range of values is from -90.0 to 90.0.
 
 
 ## -capabilities
-location, ID_CAP_LOCATION [Windows Phone]
+location
+ID_CAP_LOCATION [Windows Phone]

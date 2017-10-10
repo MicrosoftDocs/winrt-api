@@ -20,3 +20,6 @@ The phone number property of the address book contact associated with the dial r
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

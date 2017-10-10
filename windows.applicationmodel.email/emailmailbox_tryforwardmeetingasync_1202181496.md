@@ -39,3 +39,6 @@ A Boolean value indicating if the meeting was successfully forwarded.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

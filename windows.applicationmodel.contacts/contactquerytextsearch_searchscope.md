@@ -20,3 +20,6 @@ A value that specifies either a local or server search.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

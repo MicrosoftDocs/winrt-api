@@ -21,3 +21,6 @@ The display name for the session.
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

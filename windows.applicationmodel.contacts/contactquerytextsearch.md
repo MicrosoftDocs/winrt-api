@@ -18,3 +18,6 @@ Use [TextSearch](contactqueryoptions_textsearch.md) to get an instance of this c
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

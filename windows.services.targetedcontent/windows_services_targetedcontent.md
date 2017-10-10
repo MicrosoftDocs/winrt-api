@@ -17,3 +17,6 @@ The Targeted Content namespace provides applications with the ability to subscri
 
 ## -examples
 
+
+## -capabilities
+secondaryAuthenticationFactor

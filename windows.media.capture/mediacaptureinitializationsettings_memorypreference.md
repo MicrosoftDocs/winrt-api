@@ -21,3 +21,6 @@ The [MediaCapture](mediacapture.md) object may store the image data of a [VideoM
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

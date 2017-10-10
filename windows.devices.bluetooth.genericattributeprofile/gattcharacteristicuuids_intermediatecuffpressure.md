@@ -21,3 +21,6 @@ The Bluetooth SIG-defined Intermediate Cuff Pressure Characteristic UUID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

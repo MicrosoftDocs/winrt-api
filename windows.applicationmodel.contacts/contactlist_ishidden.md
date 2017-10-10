@@ -20,3 +20,6 @@ A Boolean value indicating of the [ContactList](contactlist.md) is hidden in the
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

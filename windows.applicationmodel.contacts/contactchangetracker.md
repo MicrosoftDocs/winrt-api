@@ -18,3 +18,6 @@ Use [ContactStore.ChangeTracker](contactstore_changetracker.md) or [ContactList.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

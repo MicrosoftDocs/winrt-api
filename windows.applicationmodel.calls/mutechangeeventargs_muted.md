@@ -23,4 +23,5 @@ Whether the call is currently muted.
 
 
 ## -capabilities
+phoneCallHistory, phoneCallHistorySystem
 voipCall

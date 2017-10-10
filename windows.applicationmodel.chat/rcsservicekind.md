@@ -32,3 +32,5 @@ Capability service
 ## -examples
 
 ## -see-also
+## -capabilities
+chatSystem, smsSend, chat

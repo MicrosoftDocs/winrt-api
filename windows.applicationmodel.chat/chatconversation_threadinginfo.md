@@ -21,3 +21,6 @@ The threading info for the [ChatConversation](chatconversation.md).
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

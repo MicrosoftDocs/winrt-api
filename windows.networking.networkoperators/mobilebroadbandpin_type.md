@@ -23,3 +23,5 @@ The usage and content of a Universal Integrated Circuit Card (UICC), normally ca
 
 ## -see-also
 [MobileBroadbandPinType](mobilebroadbandpintype.md)
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

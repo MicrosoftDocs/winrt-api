@@ -22,3 +22,5 @@ The SDP attributes of the RFCOMM service instance.
 
 ## -see-also
 [GetSdpRawAttributesAsync(BluetoothCacheMode)](rfcommdeviceservice_getsdprawattributesasync_173461641.md)
+## -capabilities
+bluetooth

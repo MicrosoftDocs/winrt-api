@@ -21,4 +21,5 @@ Retrieve a [Geoposition](geoposition.md) object by using the [GetGeopositionAsyn
 
 
 ## -capabilities
-location, ID_CAP_LOCATION [Windows Phone]
+location
+ID_CAP_LOCATION [Windows Phone]

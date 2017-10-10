@@ -45,3 +45,5 @@ async ChatMessage SearchMessagesBySubject(ChatMesssage store, string searchItem)
 
 ## -see-also
 [GetMessageReader(TimeSpan)](chatmessagestore_getmessagereader_232560328.md)
+## -capabilities
+chatSystem, smsSend, chat

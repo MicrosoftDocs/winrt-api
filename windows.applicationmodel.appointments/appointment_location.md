@@ -20,3 +20,6 @@ The location of the appointment.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

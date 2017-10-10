@@ -20,3 +20,6 @@ A Boolean value indicating whether automatic replies are enabled.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

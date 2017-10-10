@@ -21,3 +21,6 @@ A list of chat message attachments.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

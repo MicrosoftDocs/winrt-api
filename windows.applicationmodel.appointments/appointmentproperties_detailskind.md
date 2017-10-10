@@ -20,3 +20,6 @@ The format of the appointment details, plain text or HTML.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

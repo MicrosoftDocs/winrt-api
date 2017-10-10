@@ -25,3 +25,5 @@ Represents a session of the USSD network protocol.
 ## -examples
 
 ## -see-also
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

@@ -21,3 +21,5 @@ An array of connected service accounts for a contact.
 
 ## -see-also
 [ContactConnectedServiceAccount](contactconnectedserviceaccount.md)
+## -capabilities
+contactsSystem

@@ -20,3 +20,6 @@ The ID of the contact list that contains the task that is to created or updated.
 ## -see-also
 
 ## -examples
+
+## -capabilities
+contactsSystem

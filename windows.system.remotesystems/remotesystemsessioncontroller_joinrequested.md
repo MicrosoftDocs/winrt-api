@@ -18,3 +18,6 @@ Raised whenever another device has discovered and requested access to the remote
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

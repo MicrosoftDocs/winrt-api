@@ -20,3 +20,6 @@ An enumeration value giving current connection status.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+networkingVpnProvider

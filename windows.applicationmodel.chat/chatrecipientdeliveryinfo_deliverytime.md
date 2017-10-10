@@ -21,3 +21,6 @@ The time the message was sent to the recipient.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

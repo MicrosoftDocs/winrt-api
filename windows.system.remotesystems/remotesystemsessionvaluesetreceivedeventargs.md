@@ -19,3 +19,6 @@ This class is instantiated whenever the [RemoteSystemSessionMessageChannel.Value
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

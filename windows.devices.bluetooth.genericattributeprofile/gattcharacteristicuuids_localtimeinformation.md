@@ -21,3 +21,6 @@ The Bluetooth SIG-defined LocalTimeInformation characteristic UUID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

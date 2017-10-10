@@ -24,3 +24,6 @@ If the contact-providing application includes an address, but doesn't specify el
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

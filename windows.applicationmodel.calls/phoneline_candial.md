@@ -20,3 +20,6 @@ True if the phone line can place outgoing calls; otherwise false.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

@@ -29,3 +29,5 @@ The *fileEncodingProfile* parameter specifies the [MediaEncodingProfile](../wind
 
 ## -see-also
 [CreateFileOutputNodeAsync(IStorageFile)](audiograph_createfileoutputnodeasync_1127853521.md)
+## -capabilities
+backgroundMediaRecording

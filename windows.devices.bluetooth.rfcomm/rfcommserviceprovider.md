@@ -18,3 +18,6 @@ Represents an instance of a local RFCOMM service.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

@@ -25,3 +25,5 @@ The phone call supports audio and video.
 ## -examples
 
 ## -see-also
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

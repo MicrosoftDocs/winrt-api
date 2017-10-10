@@ -43,3 +43,5 @@ The phone line is registered and is roaming domestically on another carrier's ne
 ## -examples
 
 ## -see-also
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

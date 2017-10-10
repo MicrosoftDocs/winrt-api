@@ -18,3 +18,6 @@ The **Close** method is used by Universal Windows app using JavaScript. For apps
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

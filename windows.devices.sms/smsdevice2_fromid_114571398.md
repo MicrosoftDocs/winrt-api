@@ -28,4 +28,4 @@ An instance of [SmsDevice2](smsdevice2.md) initialized for the device with the g
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

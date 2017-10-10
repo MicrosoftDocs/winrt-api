@@ -25,3 +25,5 @@ Specifies which contact fields to search for a match.
 
 ## -see-also
 [ContactQueryOptions(String)](contactqueryoptions_contactqueryoptions_290278668.md)
+## -capabilities
+contactsSystem

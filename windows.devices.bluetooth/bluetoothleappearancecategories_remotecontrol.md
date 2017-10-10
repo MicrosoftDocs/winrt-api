@@ -21,3 +21,6 @@ The appearance category code for a remote control Bluetooth LE device.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

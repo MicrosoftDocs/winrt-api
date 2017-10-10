@@ -20,4 +20,5 @@ Supports the [NotifyMuted](voipcallcoordinator_notifymuted.md) and [NotifyUnmute
 
 
 ## -capabilities
+phoneCallHistory, phoneCallHistorySystem
 voipCall

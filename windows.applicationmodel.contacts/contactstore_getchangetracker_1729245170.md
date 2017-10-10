@@ -25,3 +25,6 @@ You can use the [IsTracking](contactchangetracker_istracking.md) property of the
 ## -see-also
 
 ## -examples
+
+## -capabilities
+contactsSystem

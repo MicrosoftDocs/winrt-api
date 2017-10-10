@@ -21,3 +21,6 @@ The Bluetooth SIG-defined Heart Rate Service UUID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

@@ -25,3 +25,5 @@ The newly created [ContactReader](contactreader.md) for the [ContactStore](conta
 
 ## -see-also
 [GetContactReader](contactstore_getcontactreader_1793921473.md)
+## -capabilities
+contactsSystem

@@ -21,3 +21,6 @@ The Bluetooth SIG-defined Blood Pressure Measurement Characteristic UUID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

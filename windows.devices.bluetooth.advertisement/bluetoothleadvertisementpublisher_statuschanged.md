@@ -19,3 +19,5 @@ Notification that the status of the [BluetoothLEAdvertisementPublisher](bluetoot
 
 ## -see-also
 [BluetoothLEAdvertisementPublisherStatus](bluetoothleadvertisementpublisherstatus.md), [BluetoothLEAdvertisementPublisherStatusChangedEventArgs](bluetoothleadvertisementpublisherstatuschangedeventargs.md)
+## -capabilities
+bluetooth

@@ -25,3 +25,6 @@ TRUE if the [RcsServiceKind](rcsservicekind.md) specified in the *serviceKind* p
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

@@ -20,3 +20,6 @@ An [EmailMailboxDeleteFolderRequest](emailmailboxdeletefolderrequest.md) object 
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

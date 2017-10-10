@@ -24,3 +24,6 @@ Use the [InstantMessages](contactinformation_instantmessages.md) property to acc
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

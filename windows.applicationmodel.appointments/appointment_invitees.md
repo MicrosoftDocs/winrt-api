@@ -20,3 +20,6 @@ The list of participants for the appointment.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

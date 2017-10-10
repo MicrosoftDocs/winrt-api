@@ -19,3 +19,6 @@ Gets a Boolean in a TargetedContentValue object.
 
 ## -examples
 
+
+## -capabilities
+secondaryAuthenticationFactor

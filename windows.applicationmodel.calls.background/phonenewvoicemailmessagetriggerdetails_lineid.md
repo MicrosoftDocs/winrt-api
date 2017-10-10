@@ -20,3 +20,6 @@ The ID of the phone line for the new voice mail.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

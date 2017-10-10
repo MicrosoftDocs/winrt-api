@@ -20,3 +20,6 @@ A Boolean value indicating whether the query results should be sorted.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

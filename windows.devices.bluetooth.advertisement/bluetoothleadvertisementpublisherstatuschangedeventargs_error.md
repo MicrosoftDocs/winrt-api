@@ -22,3 +22,5 @@ The error status for a [StatusChanged](bluetoothleadvertisementpublisher_statusc
 
 ## -see-also
 [BluetoothLEAdvertisementPublisher](bluetoothleadvertisementpublisher.md), [BluetoothLEAdvertisementPublisher.StatusChanged](bluetoothleadvertisementpublisher_statuschanged.md)
+## -capabilities
+bluetooth

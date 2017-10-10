@@ -19,3 +19,5 @@ Use the [GeofenceMonitor.ReadReports](geofencemonitor_readreports.md) method to 
 
 ## -see-also
 [Geofencing, start to finish](http://msdn.microsoft.com/library/eee6b589-2eab-4279-ac61-22bfa5e06d8e), [GeofenceMonitor](geofencemonitor.md), [Geofence](geofence.md)
+## -capabilities
+location

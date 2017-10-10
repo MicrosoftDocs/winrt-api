@@ -21,3 +21,6 @@ A shortened local name.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

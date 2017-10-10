@@ -26,3 +26,5 @@ Resume recording by calling [ResumeRecordAsync](mediacapture_resumerecordasync.m
 
 ## -see-also
 [ResumeRecordAsync](mediacapture_resumerecordasync.md)
+## -capabilities
+backgroundMediaRecording

@@ -21,3 +21,6 @@ The GATT Characteristic UUID for this GattCharacteristic.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

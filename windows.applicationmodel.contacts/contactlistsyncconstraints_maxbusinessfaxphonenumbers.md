@@ -20,3 +20,6 @@ The maximum number of business fax numbers that can be synchronized.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

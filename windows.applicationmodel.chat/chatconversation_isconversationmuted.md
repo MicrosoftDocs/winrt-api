@@ -21,3 +21,6 @@ A Boolean value indicating if the [ChatConversation](chatconversation.md) is mut
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

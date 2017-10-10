@@ -21,3 +21,6 @@ Reports Custom Interaction for the item.
 
 ## -examples
 
+
+## -capabilities
+secondaryAuthenticationFactor

@@ -18,3 +18,6 @@ Get an instance of this class by using the [LimitedWriteOperations](contactlist_
 ## -see-also
 
 ## -examples
+
+## -capabilities
+contactsSystem

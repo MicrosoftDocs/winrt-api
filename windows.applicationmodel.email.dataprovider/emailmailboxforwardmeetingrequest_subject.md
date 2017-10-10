@@ -20,3 +20,6 @@ The subject line of the forwarded invitation.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

@@ -24,4 +24,4 @@ The plain text body of the message, as a string.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

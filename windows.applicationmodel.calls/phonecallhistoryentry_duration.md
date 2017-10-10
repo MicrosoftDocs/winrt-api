@@ -20,3 +20,6 @@ The duration of the phone call.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

@@ -25,3 +25,6 @@ The new or existing search reader.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

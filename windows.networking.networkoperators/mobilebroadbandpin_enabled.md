@@ -21,3 +21,6 @@ A boolean value that indicates if the mobile broadband PIN is enabled.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

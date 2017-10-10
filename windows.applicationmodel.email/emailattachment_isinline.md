@@ -20,3 +20,6 @@ A Boolean property indicating if the attachment is included inline.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

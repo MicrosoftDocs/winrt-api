@@ -26,3 +26,5 @@ Calling this API requires that the **ID_CAP_SMS** and **ID_CAP_SMS_COMPANION** c
 
 ## -see-also
 [AcceptPhoneCall(UInt32)](accessorymanager_acceptphonecall_52831457.md)
+## -capabilities
+accessoryManager

@@ -20,3 +20,6 @@ The unique identifier for the app package that created the [ContactAnnotationLis
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

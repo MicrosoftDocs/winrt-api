@@ -14,3 +14,5 @@ The **Windows.Devices.Bluetooth.GenericAttributeProfile** namespace defines Wind
 
 ## -see-also
 [Apps for Bluetooth Smart Devices devices (Video)]( http://go.microsoft.com/fwlink/p/?LinkID=317799), [Bluetooth Generic Attribute Profile - Heart Rate Service (Windows 8.1) Sample]( http://go.microsoft.com/fwlink/p/?LinkID=317801), [Bluetooth](http://msdn.microsoft.com/library/404783ba-8859-4bfb-86e3-3dd2042e66f5), [How to specify device capabilities for Bluetooth](http://msdn.microsoft.com/library/366676d5-187e-4e3d-bafa-33ee468efa64)
+## -capabilities
+bluetooth

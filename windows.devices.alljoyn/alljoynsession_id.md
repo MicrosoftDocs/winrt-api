@@ -21,3 +21,6 @@ The ID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+allJoyn

@@ -22,3 +22,5 @@ The product ID of the app whose installation should be restarted.
 
 ## -see-also
 [Restart(String, String)](appinstallmanager_restart_1467388928.md)
+## -capabilities
+runFullTrust

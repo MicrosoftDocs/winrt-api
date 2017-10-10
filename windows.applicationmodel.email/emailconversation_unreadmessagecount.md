@@ -20,3 +20,6 @@ The number of unread messages in the conversation.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

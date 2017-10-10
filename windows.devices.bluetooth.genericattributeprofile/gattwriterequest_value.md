@@ -21,3 +21,6 @@ The buffer value of the write request.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

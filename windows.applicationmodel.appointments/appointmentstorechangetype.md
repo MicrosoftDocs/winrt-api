@@ -40,3 +40,5 @@ A calendar was deleted.
 ## -examples
 
 ## -see-also
+## -capabilities
+appointmentsSystem

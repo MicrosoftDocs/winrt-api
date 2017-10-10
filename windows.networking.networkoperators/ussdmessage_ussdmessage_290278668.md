@@ -30,3 +30,6 @@ The default [UssdMessage](ussdmessage_ussdmessage.md) constructor assigns the de
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

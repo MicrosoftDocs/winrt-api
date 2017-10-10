@@ -20,3 +20,6 @@ The deferral object for the [CancelMeetingRequested](appointmentdataproviderconn
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

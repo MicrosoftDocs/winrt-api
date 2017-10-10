@@ -17,3 +17,6 @@ Raised when the user elects to sync all calendar appointments with the server.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

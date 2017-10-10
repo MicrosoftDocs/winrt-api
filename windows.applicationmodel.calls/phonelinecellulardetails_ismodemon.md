@@ -20,3 +20,6 @@ True if the modem is on; otherwise false.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

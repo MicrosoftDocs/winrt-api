@@ -24,4 +24,4 @@ The unique device ID of the device that received the message.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

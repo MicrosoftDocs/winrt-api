@@ -21,3 +21,6 @@ The appearance subcategory code for a heart rate belt Bluetooth LE device.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

@@ -43,4 +43,5 @@ The position was obtained from Wi-Fi network data.
 
 
 ## -capabilities
+location
 ID_CAP_LOCATION [Windows Phone]

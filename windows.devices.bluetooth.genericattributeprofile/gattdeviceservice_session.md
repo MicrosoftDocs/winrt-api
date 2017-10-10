@@ -21,3 +21,6 @@ The session for this GATT device service instance.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

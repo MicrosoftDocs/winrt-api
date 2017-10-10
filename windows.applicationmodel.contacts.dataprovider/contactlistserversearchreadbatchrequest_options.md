@@ -20,3 +20,6 @@ A [ContactQueryOptions](../windows.applicationmodel.contacts/contactqueryoptions
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

@@ -24,4 +24,4 @@ The message type.
 [SmsMessageType](smsmessagetype.md)
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

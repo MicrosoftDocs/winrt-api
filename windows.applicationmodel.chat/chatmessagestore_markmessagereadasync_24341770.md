@@ -29,4 +29,5 @@ The [IsRead](chatmessage_isread.md) property of the [ChatMessage class](chatmess
 
 
 ## -capabilities
+chatSystem, smsSend, chat
 blockedChatMessages

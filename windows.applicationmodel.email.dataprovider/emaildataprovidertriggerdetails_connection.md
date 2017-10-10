@@ -22,3 +22,6 @@ The connection your email data provider uses to communicate with an email client
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

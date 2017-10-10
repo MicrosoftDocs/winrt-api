@@ -18,3 +18,6 @@ An event that is triggered when the max notification size has changed.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

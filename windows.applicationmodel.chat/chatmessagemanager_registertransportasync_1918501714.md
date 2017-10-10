@@ -21,3 +21,6 @@ The transport ID for the newly registered [ChatMessageTransport](chatmessagetran
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

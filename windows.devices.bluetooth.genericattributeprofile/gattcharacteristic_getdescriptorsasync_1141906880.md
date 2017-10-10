@@ -26,3 +26,6 @@ An asynchronous operation that completes with the descriptors.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

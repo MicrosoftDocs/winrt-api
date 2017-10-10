@@ -24,4 +24,5 @@ This method may return null if the device doesn't support this functionality. Fo
 
 
 ## -capabilities
+backgroundMediaRecording
 microphone, webcam

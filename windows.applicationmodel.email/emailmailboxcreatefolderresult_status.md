@@ -20,3 +20,6 @@ The status of a [TryCreateFolderAsync](emailmailbox_trycreatefolderasync.md) ope
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

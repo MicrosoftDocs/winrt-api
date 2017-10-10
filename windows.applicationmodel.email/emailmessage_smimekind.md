@@ -20,3 +20,6 @@ The type of S/MIME encryption/signature for the email message.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

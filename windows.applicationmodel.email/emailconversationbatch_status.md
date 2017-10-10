@@ -20,3 +20,6 @@ The status of the last batch processing operation.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

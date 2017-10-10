@@ -18,3 +18,6 @@ Reserved for future use.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

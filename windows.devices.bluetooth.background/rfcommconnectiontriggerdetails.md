@@ -18,3 +18,6 @@ Provides information about the Bluetooth device that caused this trigger to fire
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

@@ -28,3 +28,6 @@ A copy of the forwarded message.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

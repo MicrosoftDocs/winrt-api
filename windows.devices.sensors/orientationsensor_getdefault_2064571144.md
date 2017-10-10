@@ -10,7 +10,7 @@ public Windows.Devices.Sensors.OrientationSensor GetDefault(Windows.Devices.Sens
 # Windows.Devices.Sensors.OrientationSensor.GetDefault
 
 ## -description
-Gets the default orientation sensor, taking into account accuracy preferences.
+Returns the default orientation sensor, taking into account accuracy preferences.
 
 ## -parameters
 ### -param sensorReadingtype

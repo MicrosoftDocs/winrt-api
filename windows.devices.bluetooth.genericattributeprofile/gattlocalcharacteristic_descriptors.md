@@ -21,3 +21,6 @@ A vector list of all the descriptors for this local characteristic.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

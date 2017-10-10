@@ -24,3 +24,6 @@ The device ID.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

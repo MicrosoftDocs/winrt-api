@@ -21,3 +21,6 @@ The appearance subcategory code for a digitizer tablet Bluetooth LE device.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

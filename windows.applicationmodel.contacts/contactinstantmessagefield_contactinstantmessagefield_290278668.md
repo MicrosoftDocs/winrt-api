@@ -25,3 +25,5 @@ The user's name.
 
 ## -see-also
 [ContactInstantMessageField(String, ContactFieldCategory)](contactinstantmessagefield_contactinstantmessagefield_1454223364.md), [ContactInstantMessageField(String, ContactFieldCategory, String, String, Uri)](contactinstantmessagefield_contactinstantmessagefield_1413064668.md)
+## -capabilities
+contactsSystem

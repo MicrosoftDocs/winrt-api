@@ -28,3 +28,5 @@ The spatial reference ID (SRID) to use to create the new [Geopath](geopath.md). 
 
 ## -see-also
 [Geopath(IIterable(BasicGeoposition))](geopath_geopath_209419777.md), [Geopath(IIterable(BasicGeoposition), AltitudeReferenceSystem)](geopath_geopath_794018629.md)
+## -capabilities
+location

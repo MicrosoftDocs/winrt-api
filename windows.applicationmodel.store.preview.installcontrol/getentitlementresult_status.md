@@ -20,3 +20,6 @@ A [GetEntitlementStatus](getentitlementstatus.md) value that indicates the resul
 ## -see-also
 
 ## -examples
+
+## -capabilities
+runFullTrust

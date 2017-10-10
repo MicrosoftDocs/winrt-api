@@ -29,3 +29,6 @@ An asynchronous operation that completes with a GattDeviceServicesResult object.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

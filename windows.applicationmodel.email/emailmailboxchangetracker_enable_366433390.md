@@ -17,3 +17,6 @@ Enables change tracking on a mailbox.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

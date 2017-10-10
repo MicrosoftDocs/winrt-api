@@ -21,3 +21,6 @@ The collection of SDP attributes for advertising.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

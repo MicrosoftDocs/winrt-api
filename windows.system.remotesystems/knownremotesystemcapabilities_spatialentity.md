@@ -21,3 +21,6 @@ The canonical string name of the spatial entity capability.
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

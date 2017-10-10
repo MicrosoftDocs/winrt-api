@@ -56,3 +56,5 @@ Only the **PhoneNumber**, **Email**, and **Address** values are supported on Win
 ## -examples
 
 ## -see-also
+## -capabilities
+contactsSystem

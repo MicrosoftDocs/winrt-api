@@ -21,3 +21,6 @@ A Boolean value indicating if the Windows Action Center should be updated.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

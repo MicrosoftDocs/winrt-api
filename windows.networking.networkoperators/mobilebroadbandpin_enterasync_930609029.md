@@ -25,3 +25,6 @@ An asynchronous operation that returns the result.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

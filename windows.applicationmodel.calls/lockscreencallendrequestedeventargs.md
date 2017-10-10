@@ -19,3 +19,6 @@ If the app doesn't call [GetDeferral](lockscreencallendrequestedeventargs_getdef
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

@@ -29,3 +29,5 @@ A file that consists of a sequence of records.
 ## -examples
 
 ## -see-also
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

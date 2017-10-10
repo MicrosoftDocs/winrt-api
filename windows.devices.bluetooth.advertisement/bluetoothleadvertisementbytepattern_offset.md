@@ -22,3 +22,5 @@ The offset of byte pattern from beginning of advertisement data section.
 
 ## -see-also
 [BluetoothLEAdvertisement](bluetoothleadvertisement.md)
+## -capabilities
+bluetooth

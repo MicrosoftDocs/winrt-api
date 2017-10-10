@@ -21,3 +21,6 @@ Gets the local GATT service.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

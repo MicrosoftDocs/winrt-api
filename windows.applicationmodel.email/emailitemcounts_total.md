@@ -20,3 +20,6 @@ The total number of email messages.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

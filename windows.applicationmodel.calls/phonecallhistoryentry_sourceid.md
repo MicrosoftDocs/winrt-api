@@ -20,3 +20,6 @@ The identifier for the source of the phone call.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

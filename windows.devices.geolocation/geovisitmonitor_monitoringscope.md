@@ -13,7 +13,7 @@ public VisitMonitoringScope MonitoringScope { get; }
 Gets and the scope of Visits to monitor.
 
 ## -property-value
-A [VisitMonitoringScope](VisitMonitoringScope.md) value representing the scope of location monitoring.
+A [VisitMonitoringScope](VisitMonitoringScope.md) value representing the desired scope of location changes to monitor.
 
 ## -remarks
 
@@ -21,3 +21,6 @@ A [VisitMonitoringScope](VisitMonitoringScope.md) value representing the scope o
 
 ## -examples
 
+
+## -capabilities
+location

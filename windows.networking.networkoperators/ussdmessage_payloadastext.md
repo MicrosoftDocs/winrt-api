@@ -29,3 +29,6 @@ The [PayloadAsText](ussdmessage_payloadastext.md) property can be used with the 
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

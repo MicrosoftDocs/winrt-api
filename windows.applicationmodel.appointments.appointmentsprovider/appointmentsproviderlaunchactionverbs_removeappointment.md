@@ -20,3 +20,6 @@ The remove-appointment action
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

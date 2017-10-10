@@ -28,3 +28,5 @@ A phone line has updated properties.
 ## -examples
 
 ## -see-also
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

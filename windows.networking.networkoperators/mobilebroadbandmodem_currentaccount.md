@@ -22,3 +22,5 @@ The account associated currently with the mobile broadband modem.
 
 ## -see-also
 [MobileBroadbandAccount](mobilebroadbandaccount.md)
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

@@ -17,3 +17,6 @@ Creates a new [PhoneCallHistoryEntry](phonecallhistoryentry.md) object.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

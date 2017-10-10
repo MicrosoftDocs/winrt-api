@@ -20,3 +20,6 @@ The number of bytes that have been downloaded for the current app.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+runFullTrust

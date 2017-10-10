@@ -21,3 +21,5 @@ The new or existing email message reader.
 
 ## -see-also
 [GetMessageReader(EmailQueryOptions)](emailmailbox_getmessagereader_1764748530.md)
+## -capabilities
+email, emailSystem

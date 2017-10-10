@@ -17,3 +17,5 @@ Interface to define a geographic shape.
 ## -examples
 
 ## -see-also
+## -capabilities
+location

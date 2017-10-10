@@ -21,3 +21,6 @@ After the asynchronous operation completes, returns a [DeviceAccessStatus](../wi
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

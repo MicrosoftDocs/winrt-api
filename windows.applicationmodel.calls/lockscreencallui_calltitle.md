@@ -28,3 +28,6 @@ An app can use the [CallTitle](lockscreencallui_calltitle.md) property to briefl
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

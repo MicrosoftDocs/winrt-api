@@ -21,3 +21,6 @@ The status of the bus object.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+allJoyn

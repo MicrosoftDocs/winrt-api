@@ -20,3 +20,6 @@ An [EmailMailboxSetAutoReplySettingsRequest](emailmailboxsetautoreplysettingsreq
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

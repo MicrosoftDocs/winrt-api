@@ -42,4 +42,5 @@ switch (messageChange.ChangeType)
 
 
 ## -capabilities
+chatSystem, smsSend, chat
 blockedChatMessages

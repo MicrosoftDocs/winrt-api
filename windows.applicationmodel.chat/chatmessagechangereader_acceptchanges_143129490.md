@@ -22,4 +22,5 @@ The [AcceptChanges](chatmessagechangereader_acceptchanges.md) method accepts all
 
 
 ## -capabilities
+chatSystem, smsSend, chat
 blockedChatMessages

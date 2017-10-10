@@ -24,4 +24,4 @@ The enumeration value for the cellular class that matches this rule.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

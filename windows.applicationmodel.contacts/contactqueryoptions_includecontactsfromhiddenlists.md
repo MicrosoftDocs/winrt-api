@@ -20,3 +20,6 @@ A Boolean value indicating if the query results should include contacts from lis
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

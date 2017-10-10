@@ -21,3 +21,6 @@ A suffix follows the contact's name and provides additional info about the conta
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

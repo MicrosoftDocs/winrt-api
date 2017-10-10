@@ -10,12 +10,13 @@ public Windows.Devices.Sensors.OrientationSensor GetDefaultForRelativeReadings()
 # Windows.Devices.Sensors.OrientationSensor.GetDefaultForRelativeReadings
 
 ## -description
-Gets the default orientation sensor.
+Returns the default orientation sensor for [relative readings](https://docs.microsoft.com/en-us/uwp/api/windows.devices.sensors.sensorreadingtype).
 
 ## -returns
 The default orientation sensor or null if no orientation sensors are found.
 
 ## -remarks
+This method returns the same result as GetDefault(SensorReadingType.Relative)
 
 ## -examples
 

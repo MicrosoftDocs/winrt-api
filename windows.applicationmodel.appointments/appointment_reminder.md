@@ -21,3 +21,6 @@ This property uses a time span value, which is represented differently depending
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

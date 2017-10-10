@@ -17,3 +17,6 @@ Specifies the options for displaying the full contact card.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

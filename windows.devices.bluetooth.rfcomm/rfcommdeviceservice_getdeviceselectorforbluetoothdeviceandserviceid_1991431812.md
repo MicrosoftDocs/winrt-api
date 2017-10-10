@@ -32,3 +32,5 @@ The AQS string for identifying instances of Rfcomm services.
 
 ## -see-also
 [GetDeviceSelectorForBluetoothDeviceAndServiceId(BluetoothDevice, RfcommServiceId)](rfcommdeviceservice_getdeviceselectorforbluetoothdeviceandserviceid_1512427800.md)
+## -capabilities
+bluetooth

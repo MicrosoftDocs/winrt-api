@@ -25,3 +25,5 @@ An asynchronous operation that returns [IVectorView](../windows.foundation.colle
 
 ## -see-also
 [FindUnexpandedAppointmentsAsync](appointmentcalendar_findunexpandedappointmentsasync_419115871.md)
+## -capabilities
+appointmentsSystem

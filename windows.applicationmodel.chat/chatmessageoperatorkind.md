@@ -32,3 +32,5 @@ Rich Communication Services (RCS) message
 ## -examples
 
 ## -see-also
+## -capabilities
+chatSystem, smsSend, chat

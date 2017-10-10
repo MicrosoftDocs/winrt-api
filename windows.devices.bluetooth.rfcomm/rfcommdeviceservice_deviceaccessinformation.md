@@ -21,3 +21,6 @@ Gets the current [DeviceAccessInformation](../windows.devices.enumeration/device
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

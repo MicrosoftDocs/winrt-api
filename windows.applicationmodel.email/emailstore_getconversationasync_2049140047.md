@@ -24,3 +24,6 @@ An email conversation.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

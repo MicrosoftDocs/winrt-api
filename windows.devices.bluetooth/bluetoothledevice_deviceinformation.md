@@ -21,3 +21,6 @@ The device information.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

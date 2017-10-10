@@ -20,3 +20,6 @@ A combination of [AppointmentDaysOfWeek](appointmentdaysofweek.md)-typed values 
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

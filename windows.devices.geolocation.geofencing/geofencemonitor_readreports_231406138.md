@@ -24,3 +24,5 @@ The collection returned from this method may be empty and contain no [GeofenceSt
 
 ## -see-also
 [Geofence](geofence.md)
+## -capabilities
+location

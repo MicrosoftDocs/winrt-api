@@ -17,3 +17,6 @@ Raised when the user elects to cancel a meeting.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

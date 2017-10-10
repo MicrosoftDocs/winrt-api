@@ -20,3 +20,6 @@ Gets a value that indicates if the capture device supports recording video and t
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

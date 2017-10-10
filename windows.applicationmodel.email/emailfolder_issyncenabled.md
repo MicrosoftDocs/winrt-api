@@ -20,3 +20,6 @@ A Boolean value indicating if the folder is sync enabled.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

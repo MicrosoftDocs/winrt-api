@@ -26,3 +26,6 @@ The user-defined name of the messaging channel. It should be simple and descript
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

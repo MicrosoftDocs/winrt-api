@@ -20,3 +20,6 @@ The recurrence parameters.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

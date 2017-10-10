@@ -25,3 +25,5 @@ The new or existing conversation reader.
 
 ## -see-also
 [GetConversationReader](emailmailbox_getconversationreader_388570943.md)
+## -capabilities
+email, emailSystem

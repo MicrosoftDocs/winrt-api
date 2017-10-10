@@ -13,3 +13,5 @@ This API is implemented by a server to provide contact information to client app
 ## -examples
 
 ## -see-also
+## -capabilities
+contactsSystem

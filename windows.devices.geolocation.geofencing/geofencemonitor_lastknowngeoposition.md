@@ -22,3 +22,5 @@ Before using the value from this property, the application must first check that
 
 ## -see-also
 [Geofence](geofence.md)
+## -capabilities
+location

@@ -18,3 +18,5 @@ Represents an ordered series of geographic points.
 
 ## -see-also
 [IGeoshape](igeoshape.md)
+## -capabilities
+location

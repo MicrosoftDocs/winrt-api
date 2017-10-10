@@ -20,3 +20,6 @@ The identifier of a folder in the inbox.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

@@ -17,3 +17,6 @@ Occurs when the mailbox has changed.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

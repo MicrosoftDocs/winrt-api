@@ -21,3 +21,6 @@ The presentation formats for this local characteristic.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

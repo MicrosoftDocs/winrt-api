@@ -28,3 +28,5 @@ A speaker phone.
 ## -examples
 
 ## -see-also
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

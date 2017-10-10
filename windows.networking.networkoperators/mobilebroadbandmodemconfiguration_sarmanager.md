@@ -20,3 +20,6 @@ The [MobileBroadbandSarManager](mobilebroadbandsarmanager.md) object that manage
 
 ## -examples
 
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

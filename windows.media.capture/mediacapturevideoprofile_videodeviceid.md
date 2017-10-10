@@ -20,3 +20,6 @@ The device ID of the video device associated with the video profile.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

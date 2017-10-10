@@ -21,3 +21,6 @@ The boolean that indicates whether sync is enabled.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

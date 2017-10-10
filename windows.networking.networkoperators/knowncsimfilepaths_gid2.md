@@ -21,3 +21,6 @@ The GID2 path.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

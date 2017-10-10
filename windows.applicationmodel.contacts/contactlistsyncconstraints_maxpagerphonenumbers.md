@@ -20,3 +20,6 @@ The maximum number of page phone numbers that can be synchronized.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

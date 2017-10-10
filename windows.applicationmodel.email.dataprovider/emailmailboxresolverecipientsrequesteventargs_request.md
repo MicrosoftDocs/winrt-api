@@ -20,3 +20,6 @@ An [EmailMailboxResolveRecipientsRequest](emailmailboxresolverecipientsrequest.m
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

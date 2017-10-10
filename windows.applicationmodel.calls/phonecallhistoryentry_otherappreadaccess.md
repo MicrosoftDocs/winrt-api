@@ -20,3 +20,6 @@ The level of access that other applications have with respect to this [PhoneCall
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

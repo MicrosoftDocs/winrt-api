@@ -18,3 +18,5 @@ Creates fields that contain information about a contact. You can then add these 
 ## -examples
 
 ## -see-also
+## -capabilities
+contactsSystem

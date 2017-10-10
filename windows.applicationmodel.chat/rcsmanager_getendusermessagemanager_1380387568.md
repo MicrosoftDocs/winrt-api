@@ -21,3 +21,6 @@ The end user message manager.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

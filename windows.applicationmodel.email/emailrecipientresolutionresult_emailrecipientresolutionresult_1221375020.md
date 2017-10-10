@@ -17,3 +17,6 @@ Instantiates a new instance of the [EmailRecipientResolutionResult](emailrecipie
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

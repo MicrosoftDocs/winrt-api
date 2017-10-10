@@ -20,3 +20,6 @@ The show-appointment-details action
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

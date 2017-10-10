@@ -20,3 +20,6 @@ The meeting location.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

@@ -21,3 +21,6 @@ The time zone for the recurrence.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

@@ -22,3 +22,5 @@ A [BluetoothLEAdvertisement](bluetoothleadvertisement.md) object that can be app
 
 ## -see-also
 [BluetoothLEAdvertisement](bluetoothleadvertisement.md)
+## -capabilities
+bluetooth

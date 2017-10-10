@@ -22,3 +22,5 @@ The status code of the command execution on a mobile broadband device service.
 
 ## -see-also
 [MobileBroadbandDeviceService](mobilebroadbanddeviceservice.md), [MobileBroadbandDeviceServiceCommandSession](mobilebroadbanddeviceservicecommandsession.md)
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

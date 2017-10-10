@@ -18,3 +18,6 @@ The **Capabilities** property provides access to this class.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

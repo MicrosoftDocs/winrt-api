@@ -23,3 +23,5 @@ The current status of the [BluetoothLEAdvertisementPublisher](bluetoothleadverti
 
 ## -see-also
 [BluetoothLEAdvertisementPublisher](bluetoothleadvertisementpublisher.md), [BluetoothLEAdvertisementPublisher.StatusChanged](bluetoothleadvertisementpublisher_statuschanged.md), [BluetoothLEAdvertisementPublisherStatus](bluetoothleadvertisementpublisherstatus.md)
+## -capabilities
+bluetooth

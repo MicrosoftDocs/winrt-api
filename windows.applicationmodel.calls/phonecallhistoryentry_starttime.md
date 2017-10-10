@@ -20,3 +20,6 @@ The time that this entry started.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

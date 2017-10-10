@@ -21,3 +21,6 @@ The appearance subcategory code for a location navigation display Bluetooth LE d
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

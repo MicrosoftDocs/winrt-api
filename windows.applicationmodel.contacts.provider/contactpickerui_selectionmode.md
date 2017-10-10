@@ -20,3 +20,6 @@ Specifies the selection mode that you want to use.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

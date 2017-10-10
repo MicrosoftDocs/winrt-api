@@ -26,3 +26,6 @@ The following example shows one way to use the [Id](contactremovedeventargs_id.m
 [!code-js[ContactPickerBasketContactRemoved](../windows.applicationmodel.contacts.provider/code/ContactsMain/javascript/js/contactpicker.js#SnippetContactPickerBasketContactRemoved)]
 
 ## -see-also
+
+## -capabilities
+contactsSystem

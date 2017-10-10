@@ -21,3 +21,6 @@ The byte value for an attribute not long error.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

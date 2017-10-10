@@ -18,3 +18,5 @@ Your app gets a **ContactRemovedEventArgs** object when the [ContactRemoved](con
 ## -examples
 
 ## -see-also
+## -capabilities
+contactsSystem

@@ -20,3 +20,6 @@ The [AppointmentCalendar](appointmentcalendar.md) in which the change occurred.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

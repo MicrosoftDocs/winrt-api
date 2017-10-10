@@ -18,3 +18,6 @@ Creates a new [BluetoothLEAdvertisement](bluetoothleadvertisement.md) object.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

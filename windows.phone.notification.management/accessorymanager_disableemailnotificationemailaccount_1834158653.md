@@ -21,3 +21,6 @@ The string containing the name of the email account.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+accessoryManager

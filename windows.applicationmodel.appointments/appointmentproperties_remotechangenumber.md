@@ -20,3 +20,6 @@ The current change number of the server version of the [Appointment](appointment
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

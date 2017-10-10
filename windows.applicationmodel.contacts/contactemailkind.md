@@ -29,3 +29,5 @@ An email address of the contact other than personal or work.
 
 ## -see-also
 [ContactEmail.Kind](contactemail_kind.md)
+## -capabilities
+contactsSystem

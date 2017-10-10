@@ -25,3 +25,5 @@ The address of the contact in an unstructured format.
 
 ## -see-also
 [ContactLocationField(String, ContactFieldCategory)](contactlocationfield_contactlocationfield_1454223364.md), [ContactLocationField(String, ContactFieldCategory, String, String, String, String, String)](contactlocationfield_contactlocationfield_888890244.md)
+## -capabilities
+contactsSystem

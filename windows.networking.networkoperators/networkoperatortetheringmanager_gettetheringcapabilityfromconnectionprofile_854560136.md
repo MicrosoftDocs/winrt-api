@@ -25,3 +25,6 @@ Tethering capabilities of the connection profile.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

@@ -24,4 +24,4 @@ List of WAP application identifiers.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

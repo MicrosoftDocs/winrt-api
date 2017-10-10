@@ -20,3 +20,6 @@ A Boolean value indicating if the save was successful.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

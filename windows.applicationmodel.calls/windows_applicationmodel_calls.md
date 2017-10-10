@@ -29,3 +29,5 @@ An example that demonstrates how to use much of the functionality of the [Window
 
 ## -see-also
 [Phone call sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620586), [Communication blocking and filtering sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=624164)
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

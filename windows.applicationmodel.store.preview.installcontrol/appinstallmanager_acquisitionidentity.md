@@ -20,3 +20,6 @@ The user identity associated with the app installs.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+runFullTrust

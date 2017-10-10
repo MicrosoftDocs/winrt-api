@@ -20,3 +20,6 @@ A list to which you can add [ContactAnnotationList.Id](contactannotationlist_id.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

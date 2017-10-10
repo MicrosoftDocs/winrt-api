@@ -25,3 +25,6 @@ The conversation identified by the *threadingInfo* parameter.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

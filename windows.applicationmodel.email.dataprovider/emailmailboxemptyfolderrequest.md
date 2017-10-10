@@ -18,3 +18,6 @@ Used in your [EmptyFolderRequested](emaildataproviderconnection_emptyfolderreque
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

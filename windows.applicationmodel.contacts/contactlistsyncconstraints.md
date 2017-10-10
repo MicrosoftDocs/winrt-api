@@ -17,3 +17,6 @@ Specifies limits on how much contact list data can be synchronized.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

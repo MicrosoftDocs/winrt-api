@@ -21,3 +21,6 @@ Gets a boolean indicating if the adapater supports LowEnergy Bluetooth Transport
 
 ## -examples
 
+
+## -capabilities
+bluetooth

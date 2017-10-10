@@ -28,4 +28,4 @@ To access a received text message, create a background task that is triggered by
 [ISmsMessageBase](ismsmessagebase.md)
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

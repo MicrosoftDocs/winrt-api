@@ -21,3 +21,5 @@ An array of significant others for a contact.
 
 ## -see-also
 [ContactSignificantOther](contactsignificantother.md)
+## -capabilities
+contactsSystem

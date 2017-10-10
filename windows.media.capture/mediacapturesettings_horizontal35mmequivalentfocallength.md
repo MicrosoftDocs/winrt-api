@@ -21,3 +21,6 @@ The value of [Horizontal35mmEquivalentFocalLength](mediacapturesettings_horizont
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

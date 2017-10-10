@@ -29,3 +29,6 @@ This method must be called from the main UI thread.
 ## -see-also
 
 ## -examples
+
+## -capabilities
+contactsSystem

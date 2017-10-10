@@ -25,3 +25,6 @@ True if the [WebAccount](../windows.security.credentials/webaccount.md) is the a
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

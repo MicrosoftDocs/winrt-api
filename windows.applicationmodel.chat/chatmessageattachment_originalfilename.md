@@ -21,3 +21,6 @@ The original file name of the attachment.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

@@ -21,3 +21,6 @@ The GATT protocol error.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

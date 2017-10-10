@@ -21,3 +21,5 @@ Indicates the current state of a [GeofenceMonitor](geofencemonitor.md).
 
 ## -see-also
 [Geofence](geofence.md)
+## -capabilities
+location

@@ -21,3 +21,6 @@ The static value for this local characteristic descriptor.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

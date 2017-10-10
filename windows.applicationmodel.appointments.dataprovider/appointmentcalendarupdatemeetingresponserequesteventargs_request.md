@@ -20,3 +20,6 @@ The [AppointmentCalendarUpdateMeetingResponseRequest](appointmentcalendarupdatem
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

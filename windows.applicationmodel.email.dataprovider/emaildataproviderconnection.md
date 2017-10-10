@@ -18,3 +18,6 @@ Use the instance of this class provided by the [Connection](emaildataprovidertri
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

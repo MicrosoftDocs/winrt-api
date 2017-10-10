@@ -31,3 +31,5 @@ The spatial reference ID (SRID) to use for the new [GeoboundingBox](geoboundingb
 
 ## -see-also
 [GeoboundingBox(BasicGeoposition, BasicGeoposition)](geoboundingbox_geoboundingbox_1237088599.md), [GeoboundingBox(BasicGeoposition, BasicGeoposition, AltitudeReferenceSystem)](geoboundingbox_geoboundingbox_267191261.md)
+## -capabilities
+location

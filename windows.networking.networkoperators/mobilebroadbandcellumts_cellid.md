@@ -27,3 +27,6 @@ Returns null if unknown.
 
 ## -examples
 
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

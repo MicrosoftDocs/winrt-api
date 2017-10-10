@@ -24,4 +24,4 @@ This interface specifies base functionality for all SMS message types.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

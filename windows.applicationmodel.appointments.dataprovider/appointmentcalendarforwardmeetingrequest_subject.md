@@ -20,3 +20,6 @@ The subject of the forwarded meeting invitation.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

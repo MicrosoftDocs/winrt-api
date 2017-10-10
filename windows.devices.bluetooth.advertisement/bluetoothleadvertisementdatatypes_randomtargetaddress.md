@@ -21,3 +21,6 @@ A list of random Bluetooth LE target addresses.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

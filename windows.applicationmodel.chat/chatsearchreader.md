@@ -19,3 +19,6 @@ Call the [ChatMessageStore.GetSearchReader](chatmessagestore_getsearchreader.md)
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

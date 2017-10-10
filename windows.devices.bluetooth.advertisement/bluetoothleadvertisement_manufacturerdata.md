@@ -21,3 +21,6 @@ The list of manufacturer-specific data sections.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

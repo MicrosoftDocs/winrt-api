@@ -28,3 +28,6 @@ The name of the currently connected access point.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

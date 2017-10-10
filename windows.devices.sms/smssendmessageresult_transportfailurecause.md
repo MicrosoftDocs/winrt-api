@@ -24,4 +24,4 @@ Transport-specific error code.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

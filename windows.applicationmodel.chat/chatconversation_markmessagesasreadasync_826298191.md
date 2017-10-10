@@ -22,3 +22,5 @@ An async action indicating that the operation has completed.
 
 ## -see-also
 [MarkMessagesAsReadAsync(DateTime)](chatconversation_markmessagesasreadasync_2121795134.md)
+## -capabilities
+chatSystem, smsSend, chat

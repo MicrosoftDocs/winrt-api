@@ -26,3 +26,6 @@ This property can be useful if your app handles the [Window.SizeChanged](./windo
 ## -see-also
 
 ## -examples
+
+## -capabilities
+contactsSystem

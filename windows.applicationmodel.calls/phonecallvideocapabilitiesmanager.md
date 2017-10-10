@@ -17,3 +17,6 @@ Enables an application to get the [PhoneCallVideoCapabilities](phonecallvideocap
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

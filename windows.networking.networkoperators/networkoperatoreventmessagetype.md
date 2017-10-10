@@ -66,3 +66,5 @@ Number of clients currently using the tethering network has changed.
 ## -examples
 
 ## -see-also
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

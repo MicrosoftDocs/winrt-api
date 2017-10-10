@@ -50,4 +50,6 @@ You can retrieve the results of the provisioning attempt using the [ProvisionRes
 
 
 ## -capabilities
+cellularDeviceIdentity, cellularDeviceControl
+networkConnectionManagerProvisioning
 networkDataPlanProvisioning

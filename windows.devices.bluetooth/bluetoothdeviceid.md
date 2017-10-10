@@ -18,3 +18,6 @@ Represents a bluetooth device ID.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

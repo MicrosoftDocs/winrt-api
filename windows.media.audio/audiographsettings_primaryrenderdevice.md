@@ -21,3 +21,6 @@ If **PrimaryRenderDevice** is null, the default playback device will be used.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

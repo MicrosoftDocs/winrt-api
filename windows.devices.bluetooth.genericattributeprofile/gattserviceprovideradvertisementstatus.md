@@ -31,3 +31,6 @@ The GATT service was aborted.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

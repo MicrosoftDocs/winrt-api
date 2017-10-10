@@ -21,3 +21,6 @@ The Bluetooth SIG-defined Csc Measurement Characteristic UUID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

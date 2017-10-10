@@ -10,8 +10,10 @@ public string Videos { get; }
 # Windows.Storage.UserDataPaths.Videos
 
 ## -description
+Gets the path to a user's Videos folder.
 
 ## -property-value
+The full path to the user's Videos folder.
 
 ## -remarks
 

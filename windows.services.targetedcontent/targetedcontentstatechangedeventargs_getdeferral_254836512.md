@@ -21,3 +21,6 @@ Gets the deferral. Required for async handlers. The caller is responsible for ca
 
 ## -examples
 
+
+## -capabilities
+secondaryAuthenticationFactor

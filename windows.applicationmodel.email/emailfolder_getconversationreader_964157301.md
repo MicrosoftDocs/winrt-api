@@ -25,3 +25,5 @@ The conversation reader that matches the query options.
 
 ## -see-also
 [GetConversationReader](emailfolder_getconversationreader_388570943.md)
+## -capabilities
+email, emailSystem

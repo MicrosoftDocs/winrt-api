@@ -18,3 +18,5 @@ Initializes a new instance of the [EmailIrmInfo](emailirminfo.md) class.
 
 ## -see-also
 [EmailIrmInfo(DateTime, EmailIrmTemplate)](emailirminfo_emailirminfo_1624415405.md)
+## -capabilities
+email, emailSystem

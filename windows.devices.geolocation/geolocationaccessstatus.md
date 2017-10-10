@@ -28,3 +28,5 @@ Permission to access location was denied.
 ## -examples
 
 ## -see-also
+## -capabilities
+location

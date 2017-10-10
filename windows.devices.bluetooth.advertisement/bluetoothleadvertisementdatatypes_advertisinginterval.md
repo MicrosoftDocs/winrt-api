@@ -21,3 +21,6 @@ The Bluetooth LE advertising interval.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

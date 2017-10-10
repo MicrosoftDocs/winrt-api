@@ -21,3 +21,6 @@ An id string unique to this session.
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

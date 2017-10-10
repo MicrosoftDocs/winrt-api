@@ -28,3 +28,5 @@ The appointment store has read and write access to all calendars created by the 
 ## -examples
 
 ## -see-also
+## -capabilities
+appointmentsSystem

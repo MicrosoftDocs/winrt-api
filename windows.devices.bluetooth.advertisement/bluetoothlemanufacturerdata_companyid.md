@@ -22,3 +22,5 @@ The Bluetooth LE company identifier code.
 
 ## -see-also
 [BluetoothLEAdvertisement](bluetoothleadvertisement.md)
+## -capabilities
+bluetooth

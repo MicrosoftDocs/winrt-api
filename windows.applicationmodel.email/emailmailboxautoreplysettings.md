@@ -17,3 +17,6 @@ Represents the settings for the automatic reply functionality of an email accoun
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

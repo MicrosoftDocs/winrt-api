@@ -20,3 +20,6 @@ The Boolean value that indicates whether the email mailbox is capable of resolvi
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

@@ -22,3 +22,6 @@ The data source for an attachment is accessed through a [IRandomAccessStreamRefe
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

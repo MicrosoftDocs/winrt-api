@@ -37,3 +37,5 @@ The query is for all email messages that have not yet been seen.
 ## -examples
 
 ## -see-also
+## -capabilities
+email, emailSystem

@@ -29,3 +29,5 @@ A [MobileBroadbandPinManager](mobilebroadbandpinmanager.md) object is returned b
 
 ## -see-also
 [MobileBroadbandDeviceInformation](mobilebroadbanddeviceinformation.md), [MobileBroadbandDeviceInformation.PinManager](mobilebroadbanddeviceinformation_pinmanager.md), [MobileBroadbandPin](mobilebroadbandpin.md)
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

@@ -21,3 +21,6 @@ A list of public Bluetooth LE target addresses.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

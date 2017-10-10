@@ -21,3 +21,6 @@ A [RemoteSystemSessionCreationStatus](RemoteSystemSessionCreationStatus.md) valu
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

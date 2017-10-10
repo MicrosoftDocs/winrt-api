@@ -23,3 +23,6 @@ The public-facing name for this remote session. It should be simple and descript
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

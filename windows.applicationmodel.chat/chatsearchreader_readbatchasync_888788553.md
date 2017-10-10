@@ -22,3 +22,5 @@ A list of items matching the search criteria.
 
 ## -see-also
 [ReadBatchAsync(Int32)](chatsearchreader_readbatchasync_1346490639.md)
+## -capabilities
+chatSystem, smsSend, chat

@@ -18,3 +18,5 @@ Initializes an instance of the [EmailRecipient](emailrecipient.md) class.
 
 ## -see-also
 [EmailRecipient(String)](emailrecipient_emailrecipient_290278668.md), [EmailRecipient(String, String)](emailrecipient_emailrecipient_1571897524.md)
+## -capabilities
+email, emailSystem

@@ -21,3 +21,6 @@ The Bluetooth SIG-defined GapPeripheralPreferredConnectionParameters characteris
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

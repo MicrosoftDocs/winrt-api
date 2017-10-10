@@ -20,3 +20,6 @@ Specifies the display name order.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

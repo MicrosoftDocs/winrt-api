@@ -18,3 +18,6 @@ Stops monitoring for Visit-related events.
 
 ## -examples
 
+
+## -capabilities
+location

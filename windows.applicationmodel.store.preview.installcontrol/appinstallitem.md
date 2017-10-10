@@ -21,3 +21,6 @@ Use the [AppInstallManager.AppInstallItems](appinstallmanager_appinstallitems.md
 ## -examples
 
 ## -see-also
+
+## -capabilities
+runFullTrust

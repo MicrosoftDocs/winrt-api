@@ -25,4 +25,4 @@ Pass the [DeviceId](smswapmessage_deviceid.md) property to [SmsDevice.FromIdAsyn
 [ISmsMessageBase](ismsmessagebase.md), [ISmsMessage](ismsmessage.md)
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

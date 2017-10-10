@@ -22,3 +22,5 @@ You can get a list of video profiles that support concurrency by calling [MediaC
 
 ## -see-also
 [MediaCapture::FindConcurrentProfiles](mediacapture_findconcurrentprofiles.md)
+## -capabilities
+backgroundMediaRecording

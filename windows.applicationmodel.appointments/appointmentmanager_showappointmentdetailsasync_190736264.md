@@ -28,3 +28,5 @@ When this method returns, it does not return a result. On completion, the [Async
 
 ## -see-also
 [ShowAppointmentDetailsAsync(String)](appointmentmanager_showappointmentdetailsasync_1792084630.md)
+## -capabilities
+appointmentsSystem

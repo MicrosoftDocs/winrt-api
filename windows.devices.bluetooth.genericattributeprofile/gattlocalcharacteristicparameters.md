@@ -18,3 +18,6 @@ This class contains the local characteristic descriptor parameters.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

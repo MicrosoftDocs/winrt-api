@@ -21,3 +21,6 @@ The bytes that were sent.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

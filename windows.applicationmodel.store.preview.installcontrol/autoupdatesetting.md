@@ -31,3 +31,5 @@ Automatic app updates are enabled by policy.
 ## -examples
 
 ## -see-also
+## -capabilities
+runFullTrust

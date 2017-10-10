@@ -23,3 +23,5 @@ The StreamSocketListener that is listening for incoming connections.
 
 ## -see-also
 [StartAdvertising(StreamSocketListener, Boolean)](rfcommserviceprovider_startadvertising_1912316833.md)
+## -capabilities
+bluetooth

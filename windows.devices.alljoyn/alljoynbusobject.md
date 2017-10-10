@@ -18,3 +18,6 @@ Represents a bus object available over the transport agnostic communication pipe
 ## -examples
 
 ## -see-also
+
+## -capabilities
+allJoyn

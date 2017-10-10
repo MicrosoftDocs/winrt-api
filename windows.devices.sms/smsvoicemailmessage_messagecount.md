@@ -24,4 +24,4 @@ The number of available voicemail messages.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

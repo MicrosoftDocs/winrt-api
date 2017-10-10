@@ -60,3 +60,5 @@ var statusMessage = document.getElementById("statusMessage");
 
 ## -see-also
 [AddContact(Contact)](contactpickerui_addcontact_79336216.md)
+## -capabilities
+contactsSystem

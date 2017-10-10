@@ -21,3 +21,6 @@ The ID of the transport.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

@@ -21,3 +21,6 @@ The Bluetooth SIG-defined Glucose Feature Characteristic UUID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

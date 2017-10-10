@@ -18,3 +18,6 @@ Provides APIs for managing change tracking for appointments.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

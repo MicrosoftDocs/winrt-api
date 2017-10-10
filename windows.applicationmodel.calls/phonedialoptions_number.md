@@ -21,3 +21,6 @@ If no number is specified in this property, the system will attempt to get the n
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

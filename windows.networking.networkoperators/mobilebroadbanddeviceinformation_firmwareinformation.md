@@ -21,3 +21,6 @@ The device-specific firmware information for the mobile broadband network device
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

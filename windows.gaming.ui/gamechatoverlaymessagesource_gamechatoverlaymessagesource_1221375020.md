@@ -11,6 +11,8 @@ public GameChatOverlayMessageSource.GameChatOverlayMessageSource()
 
 ## -description
 
+Constructor for the **GameChatOverlayMessageSource** class. This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, your app cannot use this API.
+
 ## -remarks
 
 ## -see-also

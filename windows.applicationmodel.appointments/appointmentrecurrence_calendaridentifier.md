@@ -20,3 +20,6 @@ A string that identifies the type of the calendar.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

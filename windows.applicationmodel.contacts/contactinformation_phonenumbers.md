@@ -23,3 +23,6 @@ A read-only list of phone numbers.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

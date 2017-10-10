@@ -17,3 +17,6 @@ Raised when the client app attempts to delete a contact.
 ## -see-also
 
 ## -examples
+
+## -capabilities
+contactsSystem

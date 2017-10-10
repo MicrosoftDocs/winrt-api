@@ -27,3 +27,6 @@ A list of radio stat change details.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

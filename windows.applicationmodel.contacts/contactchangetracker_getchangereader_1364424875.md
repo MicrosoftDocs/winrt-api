@@ -20,3 +20,6 @@ A [ContactChangeReader](contactchangereader.md) that can be used to process chan
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

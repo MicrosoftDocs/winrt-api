@@ -21,3 +21,6 @@ The value of the UInt24 Format Type.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

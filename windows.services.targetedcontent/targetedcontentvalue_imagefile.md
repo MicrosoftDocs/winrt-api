@@ -19,3 +19,6 @@ Gets a TargetedContentImage object in a TargetedContentValue object.
 
 ## -examples
 
+
+## -capabilities
+secondaryAuthenticationFactor

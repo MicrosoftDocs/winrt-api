@@ -18,3 +18,6 @@ A helper class that provides methods to convert between bluetooth device UUID an
 
 ## -examples
 
+
+## -capabilities
+bluetooth

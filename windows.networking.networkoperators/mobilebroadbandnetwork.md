@@ -25,3 +25,5 @@ Represents a mobile broadband network and the current network state.
 ## -examples
 
 ## -see-also
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

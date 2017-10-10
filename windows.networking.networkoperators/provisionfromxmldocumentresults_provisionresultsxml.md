@@ -29,3 +29,6 @@ Calling [ProvisionResultsXml](provisionfromxmldocumentresults_provisionresultsxm
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

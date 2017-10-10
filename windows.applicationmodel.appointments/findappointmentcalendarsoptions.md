@@ -25,3 +25,5 @@ Include appointment calendars that are hidden.
 ## -examples
 
 ## -see-also
+## -capabilities
+appointmentsSystem

@@ -19,3 +19,6 @@ Gets the TargetedContentObjectKind object for the TargetedContentObject object.
 
 ## -examples
 
+
+## -capabilities
+secondaryAuthenticationFactor

@@ -21,3 +21,6 @@ The value of the Nibble Format Type.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

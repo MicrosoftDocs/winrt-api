@@ -20,3 +20,6 @@ A value indicating whether appointments belonging to hidden calendars will be in
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

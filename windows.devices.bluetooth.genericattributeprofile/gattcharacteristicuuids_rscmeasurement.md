@@ -21,3 +21,6 @@ The Bluetooth SIG-defined Rsc Measurement Characteristic UUID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

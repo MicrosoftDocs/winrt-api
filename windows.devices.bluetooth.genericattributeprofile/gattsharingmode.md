@@ -31,3 +31,6 @@ The sharing mode is exclusive.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

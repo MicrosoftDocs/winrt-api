@@ -21,3 +21,6 @@ The EFOPL path.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

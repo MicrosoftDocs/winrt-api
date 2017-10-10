@@ -32,3 +32,5 @@ The list of valid properties is documented in the [AppointmentProperties](appoin
 
 ## -see-also
 [AppointmentProperties](appointmentproperties.md)
+## -capabilities
+appointmentsSystem

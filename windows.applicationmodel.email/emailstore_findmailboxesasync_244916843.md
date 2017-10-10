@@ -20,3 +20,6 @@ A collection of mailboxes.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

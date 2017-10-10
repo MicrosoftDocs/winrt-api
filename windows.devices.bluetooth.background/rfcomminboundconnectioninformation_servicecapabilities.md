@@ -21,3 +21,6 @@ One of the [BluetoothServiceCapabilities](../windows.devices.bluetooth/bluetooth
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

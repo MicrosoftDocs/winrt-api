@@ -17,3 +17,6 @@ Initializes a new instance of the [Appointment](appointment.md) class.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

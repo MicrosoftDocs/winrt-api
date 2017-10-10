@@ -21,3 +21,6 @@ The result of the tethering network operation.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

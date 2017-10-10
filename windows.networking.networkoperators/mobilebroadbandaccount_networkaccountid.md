@@ -31,3 +31,6 @@ The network account identifier for a mobile broadband account matches the value 
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

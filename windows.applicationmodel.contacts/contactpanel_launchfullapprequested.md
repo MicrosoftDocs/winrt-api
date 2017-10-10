@@ -18,3 +18,6 @@ If you don’t handle this event, or if you handle this event, but you don’t s
 ## -see-also
 
 ## -examples
+
+## -capabilities
+contactsSystem

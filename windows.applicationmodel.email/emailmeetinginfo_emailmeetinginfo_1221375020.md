@@ -17,3 +17,6 @@ Initializes a new instance of the  class.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

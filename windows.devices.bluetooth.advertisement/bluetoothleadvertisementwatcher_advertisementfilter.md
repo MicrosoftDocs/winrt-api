@@ -22,3 +22,5 @@ Configuration of Bluetooth LE advertisement filtering that uses payload section-
 
 ## -see-also
 [BluetoothLEAdvertisement](bluetoothleadvertisement.md)
+## -capabilities
+bluetooth

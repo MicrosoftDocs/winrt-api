@@ -20,3 +20,6 @@ The display name order for contacts.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

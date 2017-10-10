@@ -21,3 +21,6 @@ The appearance category code for a blood pressure Bluetooth LE device.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

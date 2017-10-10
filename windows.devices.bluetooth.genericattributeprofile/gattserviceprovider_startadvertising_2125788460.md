@@ -23,3 +23,6 @@ The advertising parameters.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

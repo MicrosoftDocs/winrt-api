@@ -20,3 +20,6 @@ The flags that indicate what actions have been affected on the mailbox.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

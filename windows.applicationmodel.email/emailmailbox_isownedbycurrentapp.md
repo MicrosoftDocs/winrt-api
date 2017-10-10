@@ -20,3 +20,6 @@ Boolean value that indicates if this mailbox is owned by the current app.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

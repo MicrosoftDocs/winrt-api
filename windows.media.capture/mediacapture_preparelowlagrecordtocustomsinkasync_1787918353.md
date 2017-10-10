@@ -28,3 +28,5 @@ When this method completes, a [LowLagMediaRecording](lowlagmediarecording.md) ob
 
 ## -see-also
 [PrepareLowLagRecordToCustomSinkAsync(MediaEncodingProfile, String, IPropertySet)](mediacapture_preparelowlagrecordtocustomsinkasync_823836881.md)
+## -capabilities
+backgroundMediaRecording

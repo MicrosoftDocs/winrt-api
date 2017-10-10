@@ -20,3 +20,6 @@ A map of key-value pairs containing the extended properties of the phone line.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

@@ -17,3 +17,6 @@ Resets all nodes in the audio graph.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+backgroundMediaRecording

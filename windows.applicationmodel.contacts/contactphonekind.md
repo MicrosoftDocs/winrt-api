@@ -50,3 +50,5 @@ The radio address of the contact.
 
 ## -see-also
 [ContactPhone.Kind](contactphone_kind.md)
+## -capabilities
+contactsSystem

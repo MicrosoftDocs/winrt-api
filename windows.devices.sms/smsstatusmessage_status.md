@@ -24,4 +24,4 @@ The status in this status message.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

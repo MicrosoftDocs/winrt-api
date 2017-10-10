@@ -24,3 +24,6 @@ The [Contact](contact.md) identified by the *contactId* parameter.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

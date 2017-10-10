@@ -18,3 +18,6 @@ Starts watching for discoverable remote sessions. The discovery process runs unt
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

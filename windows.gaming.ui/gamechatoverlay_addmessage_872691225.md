@@ -11,12 +11,20 @@ public void GameChatOverlay.AddMessage(String sender, String message, GameChatMe
 
 ## -description
 
+Render a message in the game chat overlay.
+
 ## -parameters
 ### -param sender
 
+The name of the account that sent the message. In most cases, this should be the gamertag.
+
 ### -param message
 
+The contents of the message.
+
 ### -param origin
+
+The origin of the message (voice or text).
 
 ## -remarks
 

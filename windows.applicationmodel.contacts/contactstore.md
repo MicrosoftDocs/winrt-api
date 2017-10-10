@@ -19,3 +19,5 @@ To get a [ContactStore](contactstore.md) object, call the static utility method 
 
 ## -see-also
 [Contact class](contact.md), [ContactManager.RequestStoreAsync](contactmanager_requeststoreasync.md), [ContactManager.ShowDelayLoadedContactCard](contactmanager_showdelayloadedcontactcard.md), [ContactPicker](contactpicker.md)
+## -capabilities
+contactsSystem

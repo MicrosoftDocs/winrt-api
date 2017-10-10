@@ -10,7 +10,7 @@ public PrintTicketValue Value { get;  set; }
 # Windows.Graphics.Printing.PrintTicket.PrintTicketParameterInitializer.Value
 
 ## -description
-Gets the value of the print parameter.
+Gets or sets the value of the print parameter.
 
 ## -property-value
 The value.

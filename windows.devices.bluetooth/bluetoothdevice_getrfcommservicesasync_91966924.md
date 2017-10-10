@@ -22,3 +22,5 @@ After the asynchronous operation completes, returns a [RfcommDeviceServicesResul
 
 ## -see-also
 [GetRfcommServicesAsync(BluetoothCacheMode)](bluetoothdevice_getrfcommservicesasync_1314819113.md)
+## -capabilities
+bluetooth

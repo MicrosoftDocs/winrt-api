@@ -20,3 +20,6 @@ An asynchronous forward operation on an [EmailMailboxForwardMeetingRequest](emai
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

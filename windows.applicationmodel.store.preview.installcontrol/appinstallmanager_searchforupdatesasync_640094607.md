@@ -34,3 +34,5 @@ An asynchronous operation that, on successful completion, returns an [AppInstall
 
 ## -see-also
 [SearchForUpdatesAsync(String, String)](appinstallmanager_searchforupdatesasync_1943061489.md)
+## -capabilities
+runFullTrust

@@ -20,3 +20,6 @@ The locally unique ID for the email attachment.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

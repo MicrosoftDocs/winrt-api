@@ -20,3 +20,6 @@ An [EmailItemCounts](emailitemcounts.md) object containing the counts of email i
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

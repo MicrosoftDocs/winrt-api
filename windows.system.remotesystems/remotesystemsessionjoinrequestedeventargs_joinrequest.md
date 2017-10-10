@@ -21,3 +21,6 @@ The [RemoteSystemSessionJoinRequest](RemoteSystemSessionJoinRequest.md) that rep
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

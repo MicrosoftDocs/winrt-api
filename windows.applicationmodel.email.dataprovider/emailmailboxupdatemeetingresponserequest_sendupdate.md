@@ -20,3 +20,6 @@ When true, notify the owner that the meeting response has been updated.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

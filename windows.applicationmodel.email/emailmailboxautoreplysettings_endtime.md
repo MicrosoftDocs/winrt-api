@@ -20,3 +20,6 @@ The end time for the automated reply period.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

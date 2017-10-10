@@ -20,3 +20,6 @@ The download state of the email attachment.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+email, emailSystem

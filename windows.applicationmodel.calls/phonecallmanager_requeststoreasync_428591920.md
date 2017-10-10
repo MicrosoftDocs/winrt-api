@@ -30,3 +30,6 @@ In order to use this method, you need to have the **phoneCall** capability in yo
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

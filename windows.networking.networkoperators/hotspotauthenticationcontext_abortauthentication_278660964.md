@@ -30,3 +30,6 @@ If **true**, Windows disables the auto-connect property for the corresponding WL
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

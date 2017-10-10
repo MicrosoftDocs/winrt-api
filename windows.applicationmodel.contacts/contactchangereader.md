@@ -18,3 +18,6 @@ Call the [GetChangeReader](contactchangetracker_getchangereader.md) method to ge
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

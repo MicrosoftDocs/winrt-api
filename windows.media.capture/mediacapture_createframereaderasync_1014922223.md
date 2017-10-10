@@ -31,3 +31,5 @@ An asynchronous operation that returns a [MediaFrameReader](../windows.media.cap
 
 ## -see-also
 [CreateFrameReaderAsync(MediaFrameSource)](mediacapture_createframereaderasync_823585061.md), [CreateFrameReaderAsync(MediaFrameSource, String)](mediacapture_createframereaderasync_2112545947.md)
+## -capabilities
+backgroundMediaRecording

@@ -19,3 +19,5 @@ An object to receive Bluetooth Low Energy (LE) advertisements.
 
 ## -see-also
 [BluetoothLEAdvertisement](bluetoothleadvertisement.md)
+## -capabilities
+bluetooth

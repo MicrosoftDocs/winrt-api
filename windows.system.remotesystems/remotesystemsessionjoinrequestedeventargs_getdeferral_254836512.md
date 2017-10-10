@@ -21,3 +21,6 @@ A [Deferral](https://docs.microsoft.com/en-us/uwp/api/windows.foundation.deferra
 
 ## -examples
 
+
+## -capabilities
+remoteSystem

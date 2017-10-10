@@ -25,3 +25,6 @@ The object that manages the asynchronous operation, which, upon completion, retu
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

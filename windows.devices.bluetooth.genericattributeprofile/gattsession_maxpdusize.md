@@ -21,3 +21,6 @@ The max PDU size.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

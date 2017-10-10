@@ -27,3 +27,6 @@ An asynchronous operation that, on successful completion, returns the collection
 ## -examples
 
 ## -see-also
+
+## -capabilities
+runFullTrust

@@ -20,3 +20,6 @@ The current status of the [PhoneLineWatcher](phonelinewatcher.md).
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

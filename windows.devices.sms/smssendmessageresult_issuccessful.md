@@ -24,4 +24,4 @@ When true, the send operation has completed successfully.
 
 
 ## -capabilities
-cellularMessaging
+cellularMessaging, sms

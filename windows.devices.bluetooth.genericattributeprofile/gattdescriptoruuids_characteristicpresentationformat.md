@@ -21,3 +21,6 @@ The Bluetooth SIG-defined Characteristic Presentation Format Descriptor UUID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

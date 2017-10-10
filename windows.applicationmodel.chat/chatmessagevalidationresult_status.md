@@ -22,3 +22,6 @@ When [Status](chatmessagevalidationresult_status.md) is not [ChatMessageValidati
 ## -examples
 
 ## -see-also
+
+## -capabilities
+chatSystem, smsSend, chat

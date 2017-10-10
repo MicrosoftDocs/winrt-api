@@ -26,3 +26,5 @@ The bus attachment instance.
 
 ## -see-also
 [AllJoynBusObject(String)](alljoynbusobject_alljoynbusobject_290278668.md)
+## -capabilities
+allJoyn

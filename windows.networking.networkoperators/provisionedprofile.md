@@ -25,3 +25,5 @@ Updates cost and usage information for a mobile broadband profile.
 ## -examples
 
 ## -see-also
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

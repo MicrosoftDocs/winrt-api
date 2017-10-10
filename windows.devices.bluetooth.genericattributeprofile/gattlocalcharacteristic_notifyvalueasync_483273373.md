@@ -25,3 +25,6 @@ An asynchronous operation that completes with a vector list of all the GattClien
 
 ## -examples
 
+
+## -capabilities
+bluetooth

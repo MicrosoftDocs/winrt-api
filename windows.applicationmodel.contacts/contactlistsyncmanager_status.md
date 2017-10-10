@@ -20,3 +20,6 @@ The [ContactListSyncStatus](contactlistsyncstatus.md).
 ## -examples
 
 ## -see-also
+
+## -capabilities
+contactsSystem

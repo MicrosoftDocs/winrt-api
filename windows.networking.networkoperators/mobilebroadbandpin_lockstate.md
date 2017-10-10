@@ -22,3 +22,5 @@ The lock state for a mobile broadband PIN.
 
 ## -see-also
 [MobileBroadbandPinLockState](mobilebroadbandpinlockstate.md)
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

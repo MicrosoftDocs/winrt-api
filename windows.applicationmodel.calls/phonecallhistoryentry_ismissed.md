@@ -20,3 +20,6 @@ Gets or sets whether a phone call was missed.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+phoneCallHistory, phoneCallHistorySystem

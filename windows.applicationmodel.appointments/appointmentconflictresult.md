@@ -17,3 +17,6 @@ Represents a conflict between appointments.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+appointmentsSystem

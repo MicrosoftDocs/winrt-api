@@ -21,3 +21,6 @@ The joined session.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+allJoyn

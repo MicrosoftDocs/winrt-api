@@ -24,4 +24,5 @@ Some drivers may require that the camera device preview to be in a running state
 
 
 ## -capabilities
+backgroundMediaRecording
 microphone, webcam

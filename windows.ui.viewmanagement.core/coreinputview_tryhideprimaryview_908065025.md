@@ -10,7 +10,7 @@ public bool CoreInputView.TryHidePrimaryView()
 # Windows.UI.ViewManagement.Core.CoreInputView.TryHidePrimaryView
 
 ## -description
-Tries to hide the [InputPane](inputpane.md), if it is visible.
+Tries to hide the [CoreInputView](coreinputview.md) pane, if it is visible.
 
 ## -returns
 **true** if the request to show the [CoreInputView](coreinputview.md) pane was accepted; otherwise **false**.

@@ -28,3 +28,6 @@ The latest network activation error.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

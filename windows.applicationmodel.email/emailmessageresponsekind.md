@@ -31,3 +31,5 @@ The email message is a forwarded copy of another email message.
 ## -examples
 
 ## -see-also
+## -capabilities
+email, emailSystem

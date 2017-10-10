@@ -28,3 +28,6 @@ Once [IssueCredentials](hotspotauthenticationcontext_issuecredentials.md) is cal
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

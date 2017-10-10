@@ -21,3 +21,6 @@ The Bluetooth SIG-defined ModelNumberString UUID.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+bluetooth

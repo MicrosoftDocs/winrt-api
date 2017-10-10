@@ -27,4 +27,5 @@ The list of source identifiers to mark as seen. Only entries that match [PhoneCa
 
 
 ## -capabilities
+phoneCallHistory, phoneCallHistorySystem
 phoneCallHistoryPublic

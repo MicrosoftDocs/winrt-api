@@ -25,3 +25,6 @@ The GATT session is active.
 
 ## -examples
 
+
+## -capabilities
+bluetooth

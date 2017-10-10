@@ -28,3 +28,6 @@ The network account Id of the updated account.
 ## -examples
 
 ## -see-also
+
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

@@ -18,3 +18,6 @@ Provides support for specifying inking apps in the Ink Workspace.
 
 ## -examples
 
+
+## -capabilities
+previewPenWorkspace

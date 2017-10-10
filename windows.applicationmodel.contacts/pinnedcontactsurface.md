@@ -29,3 +29,6 @@ The Windows **Start** menu as a pinning location.
 [PinnedContactManager](pinnedcontactmanager.md)
 
 ## -examples
+
+## -capabilities
+contactsSystem
