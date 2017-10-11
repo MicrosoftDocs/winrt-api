@@ -5,25 +5,25 @@ End Class
 '<SnippetDOMain>
 Public Class AquariumServices
     Inherits DependencyObject
-    Public Enum Bouyancy
+    Public Enum Buoyancy
         Floats
         Sinks
         Drifts
     End Enum
 
-    Public Shared ReadOnly BouyancyProperty As DependencyProperty = _
+    Public Shared ReadOnly BuoyancyProperty As DependencyProperty = _
           DependencyProperty.RegisterAttached(
-          "Bouyancy", _
-          GetType(Bouyancy), _
+          "Buoyancy", _
+          GetType(Buoyancy), _
           GetType(AquariumServices), _
-          New PropertyMetadata(Bouyancy.Floats))
+          New PropertyMetadata(Buoyancy.Floats))
 
 
-    Public Sub SetBouyancy(element As DependencyObject, value As Bouyancy)
-        element.SetValue(BouyancyProperty, value)
+    Public Sub SetBuoyancy(element As DependencyObject, value As Buoyancy)
+        element.SetValue(BuoyancyProperty, value)
     End Sub
-    Public Function GetBouyancy(element As DependencyObject) As Bouyancy
-        GetBouyancy = CType(element.GetValue(BouyancyProperty), Bouyancy)
+    Public Function GetBuoyancy(element As DependencyObject) As Buoyancy
+        GetBuoyancy = CType(element.GetValue(BuoyancyProperty), Buoyancy)
     End Function
 End Class
 '</SnippetDOMain>
