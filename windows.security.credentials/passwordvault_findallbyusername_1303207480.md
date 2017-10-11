@@ -14,7 +14,7 @@ Searches the Credential Locker for credentials that match the user name specifie
 
 ## -parameters
 ### -param userName
-The user name to be searched for.
+The user name to be searched for. If a match does not exist, an exception will throw. 
 
 ## -returns
 When this method returns, contains an [IVectorView](http://msdn.microsoft.com/library/644aa3d0-6f4d-406e-9adc-7f02fe575e90) of credential objects that match the search criteria.
