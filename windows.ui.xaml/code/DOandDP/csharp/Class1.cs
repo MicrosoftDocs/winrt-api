@@ -12,21 +12,21 @@ namespace DOandDP
 //<SnippetDOMain>
     public abstract class AquariumServices : DependencyObject
     {
-        public enum Bouyancy {Floats,Sinks,Drifts}
+        public enum Buoyancy {Floats,Sinks,Drifts}
 
-        public static readonly DependencyProperty BouyancyProperty = DependencyProperty.RegisterAttached(
-          "Bouyancy",
-          typeof(Bouyancy),
+        public static readonly DependencyProperty BuoyancyProperty = DependencyProperty.RegisterAttached(
+          "Buoyancy",
+          typeof(Buoyancy),
           typeof(AquariumServices),
-          new PropertyMetadata(Bouyancy.Floats)
+          new PropertyMetadata(Buoyancy.Floats)
         );
-        public static void SetBouyancy(DependencyObject element, Bouyancy value)
+        public static void SetBuoyancy(DependencyObject element, Buoyancy value)
         {
-            element.SetValue(BouyancyProperty, value);
+            element.SetValue(BuoyancyProperty, value);
         }
-        public static Bouyancy GetBouyancy(DependencyObject element)
+        public static Buoyancy GetBuoyancy(DependencyObject element)
         {
-            return (Bouyancy)element.GetValue(BouyancyProperty);
+            return (Buoyancy)element.GetValue(BuoyancyProperty);
         }
     }
     //</SnippetDOMain>

@@ -23,6 +23,7 @@ The user name that must be present in the credential.
 The returned credential that contains all the data.
 
 ## -remarks
+If a match does not exist, an exception will throw. 
 
 ## -examples
 
