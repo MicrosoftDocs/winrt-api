@@ -27,7 +27,7 @@ Use the [AreQueryOptionsSupported](storagefolder_arequeryoptionssupported.md) me
 The specific options available to you depend on where the files or folders that you want to enumerate are located. For folders and files that are located inside a library or homegroup, you can use any combination of [QueryOptions](../windows.storage.search/queryoptions.md).
 
 
-<!--{annotation author="miriamw" time="3/5/2012 4:02:04 PM"}TODO: Change for RC (from katiebl) orderByName/orderBySearchRank will not be supported at the root node for MediaServerDevices RC+-->
+
 Folders and files outside of a library or homegroup support a only subset of options.
 
 + For queries that enumerate only the top-level files or folders (also known as a shallow query), create a [QueryOptions](../windows.storage.search/queryoptions.md) object in one of the following three ways:

@@ -11,7 +11,7 @@ public FileInformationFactory(Windows.Storage.Search.IStorageQueryResultBase que
 
 ## -description
 Creates a new [FileInformationFactory](fileinformationfactory.md) object that retrieves information about the [StorageFile](../windows.storage/storagefile.md) and [StorageFolder](../windows.storage/storagefolder.md) objects in the specified query result, specifies the requested size and options for thumbnails that are retrieved for the objects, and indicates whether to delay loading information.
-<!--{annotation author="grerol" time="6/27/2011 2:23:27 PM"}TODO: What's the delay option for?-->
+
 
 ## -parameters
 ### -param queryResult

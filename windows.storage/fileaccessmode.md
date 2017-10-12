@@ -18,7 +18,7 @@ Access the file stream in read-only mode.
 
 Keep read-only file streams open only while your app is actively reading from the file. You can use multiple independent read-only streams to read a file. If the file is changed while you're reading it, subsequent read operations fail.
 
-<!--{annotation author="miriamw" time="2/23/2012 7:18:47 PM"}TODO: Figure how to deal with this: "A stream can be closed with ICloseable::Close (projected as IDisposable in managed code)."-->
+
 
 ### -field ReadWrite:1
 Access the file stream in read/write mode.

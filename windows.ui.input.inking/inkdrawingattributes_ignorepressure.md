@@ -18,7 +18,7 @@ Gets or sets a value that indicates whether the pressure of the contact on the d
 
 ## -remarks
 If [IgnorePressure](inkdrawingattributes_ignorepressure.md) is set to false, the user can modify the thickness of a stroke by adjusting the amount of pressure applied to the digitizer surface while writing. 
-<!--{annotation author="kbridge" time="12/6/2011 6:08:11 PM"}Is this for free? Does the dev have to use the PointerPoint info to process the values reported by the digitizer.-->
+
 
 The following actions may be affected by the [IgnorePressure](inkdrawingattributes_ignorepressure.md) setting.<table>
    <tr><th>IgnorePressure</th><th>True</th><th>False</th></tr>
@@ -41,7 +41,7 @@ inkManager.setDefaultDrawingAttributes(drawingAttributes);
 ```
 
 
-<!--{annotation author="kbridge" time="1/3/2012 4:26:35 PM"}Snippet is hard coded. Need snippet host.-->
+
 For the complete example, see [Ink App sample](http://go.microsoft.com/fwlink/p/?linkid=231622).
 
 ## -see-also

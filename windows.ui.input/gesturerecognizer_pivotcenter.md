@@ -13,7 +13,7 @@ public Windows.Foundation.Point PivotCenter { get;  set; }
 Gets or sets the center point for a rotation interaction when single pointer input is detected.
 
 
-<!--{annotation author="kbridge" time="10/20/2011 10:02:03 AM"}Following from tech review.-->
+
 
 <!--•	GestureRecognizer.PivotRadius/Center properties: “rotation manipulation”  single finger rotation manipulation (especially in “Setting the value of PivotRadius to 0 disables support for the rotation manipulation”)-->
 

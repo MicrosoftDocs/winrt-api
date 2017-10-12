@@ -23,7 +23,7 @@ A [FileSavePickerActivatedEventArgs](filesavepickeractivatedeventargs.md) object
 Apps written in JavaScript must listen for and handle [Windows.UI.WebUI.webUIApplication.activated](../windows.ui.webui/webuiapplication_activated.md) events.
 
 
-<!--{annotation author="wolfs" time="10/23/2012 2:39:33 PM"}This isn't correct. The jupiter app model wires this up for you when they instantiate the Application object on the main STA. You handle activation scenarios by overriding the On* methods of Application. You don't ever have to use anything from the CoreApplication / Core namespace for all but the most fringe/advanced scenarios.-->
+
 Windows Store app using C++, C#, or Visual Basic typically implement activation points by overriding methods of the [Application](../windows.ui.xaml/application.md) object. The default template app.xaml code-behind files always include an override for [OnLaunched](../windows.ui.xaml/application_onlaunched.md), but defining overrides for other activation points such as [OnFileSavePickerActivated](../windows.ui.xaml/application_onfilesavepickeractivated.md) is up to your app code.
 
 All [Application](../windows.ui.xaml/application.md) overrides involved in an activation scenario should call [Window.Activate](../windows.ui.xaml/window_activate.md) in their implementations.

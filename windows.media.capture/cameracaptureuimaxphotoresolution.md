@@ -30,9 +30,7 @@ The user can select resolutions up to 1024 X 768, or a similar 16:9 resolution.
 The user can select resolutions up to 1920 X 1080, or a similar 4:3 resolution.
 
 ### -field VeryLarge5M:5
-The user can select resolutions up to 5
-<!--{annotation author="johnosb" time="1/31/2012 4:02:10 PM"}spell out MP - megapixels?-->
-MP.
+The user can select resolutions up to 5 MP.
 
 
 ## -remarks

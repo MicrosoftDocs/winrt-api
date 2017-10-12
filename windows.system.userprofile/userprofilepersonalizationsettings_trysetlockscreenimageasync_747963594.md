@@ -25,7 +25,7 @@ The result of the async operation.
 > For the mobile device family, you can only set a lock screen image that is smaller than 2 megabyte (MB). Attempting to set a lock screen image that is larger fails, even though the async operation returns **true**.
 
 
-<!--{annotation author="jimwalk" time="10/29/2015 3:12:04 PM"}This is the result of a bug, which might be fixed after TH2.-->
+
 
 
 > [!NOTE]

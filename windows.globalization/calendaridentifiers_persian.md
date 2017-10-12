@@ -16,7 +16,7 @@ Gets the identifier for the Persian calendar.
 The string "PersianCalendar", which is the identifier for the Persian calendar.
 
 ## -remarks
-<!--{annotation author="RaymonSh" time="2/3/2015 11:12:51 AM"}The following remarks are adapted from https://msdn.microsoft.com/en-us/library/system.globalization.persiancalendar(v=vs.110).aspx-->
+
 The Persian calendar is used in most countries where Persian is spoken, although some regions use different month names. The Persian calendar is the official calendar of Iran and Afghanistan, and it is one of the alternative calendars in regions such as Kazakhstan and Tajikistan.
 
 Dates in the Persian calendar start from the year of the Hijra, which corresponds to 622 C.E. and is the year when Muhammad (PBUH) migrated from Mecca to Medina. For example, the date March 21, 2002 C.E. corresponds to the first day of the month of Farvardeen in the year 1381 Anno Persico.

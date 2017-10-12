@@ -13,7 +13,7 @@ public float Orientation { get; }
 Gets the counter-clockwise angle of rotation around the major axis of the pointer device (the z-axis, perpendicular to the surface of the digitizer). A value of 0.0 degrees indicates the device is oriented towards the top of the digitizer.
 
 
-<!--{annotation author="kbridge" time="11/8/2011 5:19:05 PM"}Illustration would be helpful-->
+
 
 ## -property-value
 A value between 0.0 and 359.0 in degrees of rotation. The default value is 0.0.

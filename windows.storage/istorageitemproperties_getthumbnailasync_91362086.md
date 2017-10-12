@@ -25,7 +25,7 @@ If Windows can't find a thumbnail image that it can scale to meet the requested 
 The enum value that describes the desired behavior to use to retrieve the thumbnail image. The specified behavior might affect the size and/or quality of the image and how quickly the thumbnail image is retrieved.
 
 
-<!--{annotation author="miriamw" time="1/12/2012 2:59:42 PM"}TODO: Too vague and awkard to add ... : There are very few reasons developers would want to stray away from using the scaleForPPI default thumbnail option, although a gallery app may choose to alter this in order to display more items in the view-->
+
 
 ## -returns
 When this method completes successfully, it returns a [StorageItemThumbnail](../windows.storage.fileproperties/storageitemthumbnail.md) that represents the thumbnail image or **null** if there is no thumbnail image associated with the item.

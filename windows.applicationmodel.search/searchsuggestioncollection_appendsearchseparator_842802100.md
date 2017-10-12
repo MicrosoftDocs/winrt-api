@@ -20,7 +20,7 @@ The text to use as a separator. This text should be descriptive of any suggestio
 The search pane can display 5 suggestions, at most. Additionally, each separator you use takes the place of a suggestion and decreases the number of suggestions that you can display. Learn more about displaying suggestions in [Guidelines and checklist for search](http://msdn.microsoft.com/library/c328faa3-f6ae-4970-8372-b413f1290c39).
 
 
-<!--{annotation author="stevehug" time="8/3/2011 8:32:59 AM"}TODO: I think this remark would be helped a lot by an example. Would you typically use a semicolon or a comma as the search separator? Or a word, or an acronym? I get no idea from the current remark just what sort of text label I should use.-->
+
 
 ## -examples
 

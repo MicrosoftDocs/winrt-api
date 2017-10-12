@@ -16,7 +16,7 @@ Gets the identifier for the Hijri calendar.
 The string "HijriCalendar", which is the identifier for the Hijri calendar.
 
 ## -remarks
-<!--{annotation author="raymonsh" time="9/6/2012 3:01:23 PM"}The following remarks are adapted from http://msdn.microsoft.com/en-us/library/system.globalization.hijricalendar-->
+
 The Hijri calendar system recognizes one era: A.H. (Latin "Anno Hegirae", which means "the year of the migration", in reference to the migration of Muhammad from Mecca).
 
 In every 30-year cycle that ends with a year that is evenly divisible by 30, the 2nd, 5th, 7th, 10th, 13th, 16th, 18th, 21st, 24th, 26th, and 29th years are leap years. A common year has 354 days and a leap year has 355 days.

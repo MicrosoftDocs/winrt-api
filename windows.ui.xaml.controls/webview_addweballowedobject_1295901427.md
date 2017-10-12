@@ -26,7 +26,7 @@ Use this method to expose a native Windows Runtime object as a global parameter 
 > Runtime classes created using Microsoft Visual Basic, C# or Visual C++ component extensions (C++/CX) are agile by default. For more info, see [Threading and Marshaling](https://msdn.microsoft.com/library/windows/apps/hh771042.aspx) and [Using Windows Runtime objects in a multithreaded environment](https://msdn.microsoft.com/library/windows/apps/jj157115.aspx).
 
 
-<!--{annotation author="jimwalk" time="12/17/2015 4:35:33 PM"}Links shouldn't use hlink?-->
+
 
 The object passed into [AddWebAllowedObject](webview_addweballowedobject.md) must be imported from a [Windows Runtime component](http://msdn.microsoft.com/library/55887622-828b-4318-87f2-25592268f7c1) that is separate from the app assembly. This is necessary for the **AllowForWeb** attribute to be property identified by the [WebView](webview.md) security subsystem. If you use a class from your app project, [AddWebAllowedObject](webview_addweballowedobject.md) does not work.
 

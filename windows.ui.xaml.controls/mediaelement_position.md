@@ -38,7 +38,7 @@ If [Position](mediaelement_position.md) is settable, then these value constraint
 
 
 
-<!--{annotation author="jimwalk" time="7/29/2015 2:30:03 PM"}Sample is obsolete.-->
+
 
 <!--<rem>The <xref targtype="property_winrt" rid="w_ui_xaml_ctrl.mediaelement_position">Position</xref> value when media is being played is often presented to the user as a <xref targtype="class_winrt" rid="w_ui_xaml_ctrl.slider">Slider</xref> control. This is shown briefly in the example in this topic, and you can see more code for associating the  <xref targtype="property_winrt" rid="w_ui_xaml_ctrl.mediaelement_position">Position</xref> value with a <xref targtype="class_winrt" rid="w_ui_xaml_ctrl.slider">Slider</xref> in <xref rid="m_media_mca.create_media_player" targtype="ovw" local="slider_progress_bar">Quickstart: Creating a media player app</xref>.</rem>-->
 ### Notes on XAML syntax

@@ -10,7 +10,7 @@ public string ContentType { get; }
 # Windows.Storage.IStorageFile.ContentType
 
 ## -description
-<!--{annotation author="miriamw" time="1/14/2012 12:53:14 AM"}TOEdit: couldn't find that pesky MIME type TLA ...-->
+
 Gets the MIME type of the contents of the file.
 
 ## -property-value

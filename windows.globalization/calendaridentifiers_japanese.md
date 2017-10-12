@@ -16,7 +16,7 @@ Gets the identifier for the Japanese calendar.
 The string "JapaneseCalendar", which is the identifier for the Japanese calendar.
 
 ## -remarks
-<!--{annotation author="raymonsh" time="9/6/2012 3:01:23 PM"}The following remarks are adapted from http://msdn.microsoft.com/en-us/library/system.globalization.japanesecalendar-->
+
 The Japanese calendar, also known as the Wareki calendar, works exactly like the [Gregorian](calendaridentifiers_gregorian.md) calendar, except that the year and era are different.
 
 The Japanese calendar recognizes one era for every emperor's reign. The current era is the Heisei era, which began in the Gregorian calendar year 1989. The era name is typically displayed before the year. For example, the Gregorian calendar year 2012 is the Japanese calendar year Heisei 24.

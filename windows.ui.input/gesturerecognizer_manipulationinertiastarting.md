@@ -22,7 +22,7 @@ Inertia behavior for this manipulation can be customized in the handler for this
 > [!NOTE]
 > These settings cannot be customized after the event.
 
-<!--{annotation author="kbridge" time="7/5/2011 10:25:35 AM"}TODO: sample, how-to, snippet would be useful.-->
+
 
 ## -examples
 

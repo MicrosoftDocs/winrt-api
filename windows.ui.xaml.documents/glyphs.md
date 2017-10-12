@@ -30,7 +30,7 @@ Starting in Windows 10, the [Glyphs](glyphs.md) control supports the display of
 To use the [Glyphs](glyphs.md) control, you must include the font file in your project as a resource with its **Build Action** set to **Content**.
 
 
-<!--{annotation author="jimwalk" time="12/2/2015 2:07:16 PM"}Need a topic to link to for adding fonts to an app.-->
+
 (The examples here use the Segoe UI Emoji Regular font and assume that it's been added to the Assets folder of the project. This font is included by default with Windows 10 systems in the location C:\Windows\Fonts\seguiemj.ttf. To try this code yourself, you can copy the file from there into your project.)
 
 With the font file added to your project, you can add a [Glyphs](glyphs.md) element to display text. You must set 4 properties to make the [Glyphs](glyphs.md) element show in your app.

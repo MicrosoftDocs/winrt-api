@@ -13,7 +13,7 @@ public uint QueryTextCompositionLength { get; }
 The length of the portion of the query text that the user is composing with an Input Method Editor (IME).
 
 ## -property-value
-<!--{annotation author="grerol" time="7/19/2011 10:16:13 AM"}TODO: In characters? Bytes?-->
+
 The length of the portion of the query text that the user is composing with an Input Method Editor (IME).
 
 ## -remarks

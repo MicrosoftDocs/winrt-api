@@ -10,7 +10,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Storage.StorageFolder> CreateF
 # Windows.Storage.IStorageFolder.CreateFolderAsync
 
 ## -description
-<!--{annotation author="miriamw" time="1/14/2012 6:17:31 PM"}TODO: Does creating a new folder in a file group work?-->
+
 Creates a new folder in the current folder.
 
 ## -parameters

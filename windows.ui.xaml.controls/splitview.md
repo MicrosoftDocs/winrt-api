@@ -30,7 +30,7 @@ Represents a container with two views; one view for the main content and another
 [SplitView](splitview.md)The [SplitView](splitview.md) control presents two areas of content: a [Pane](splitview_pane.md) and the main [Content](splitview_content.md). You typically use a [SplitView](splitview.md) to create a top-level navigation experience that adapts to different screen widths following the [nav pane pattern](http://msdn.microsoft.com/library/8fb52f5e-8e72-4604-9222-0b0ec6a97541), but it's not strictly limited to use for navigation.
 
 
-<!--{annotation author="jimwalk" time="5/21/2015 1:43:08 PM"}We might want a How to or sample that shows how to do this. (Make this the root, and put your Frame in the Content panel.)-->
+
 The XAML for this [SplitView](splitview.md) is shown in the Examples section.
 
 <img alt="Split view control" src="images/controls/SplitViewBasic.png" />
@@ -50,7 +50,7 @@ For design guidance, see [Guidelines for the split view control](http://msdn.mic
 For more info and examples on building a top-level navigation experience, see [Guidelines for navigation panes](http://msdn.microsoft.com/library/8fb52f5e-8e72-4604-9222-0b0ec6a97541) and the [XAML Navigation Menu sample](http://go.microsoft.com/fwlink/p/?LinkId=619902&amp;amp;clcid=0x409).
 
 
-<!--{annotation author="jimwalk" time="5/21/2015 4:00:11 PM"}Putting this sample link here for doc review. Should update to FW link before release.-->
+
 
 ## -examples
 Here's a [SplitView](splitview.md) control with an open [Pane](splitview_pane.md) appearing inline next to the [Content](splitview_content.md).

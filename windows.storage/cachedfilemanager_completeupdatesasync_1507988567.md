@@ -13,7 +13,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Storage.Provider.FileUpdateSta
 Initiates updates for the specified file. This method contacts the app that provided the file to perform the updates.
 
 
-<!--{annotation author="miriamw" time="1/13/2012 7:19:22 PM"}TODO: Could the client call thsi regardless of wheher they called deferupdates?-->
+
 
 ## -parameters
 ### -param file

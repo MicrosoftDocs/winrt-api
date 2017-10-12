@@ -36,9 +36,9 @@ The item is locally incomplete. Windows only.
 The [FileAttributes](fileattributes.md) enumeration is used with the [StorageFile.Attributes](storagefile_attributes.md) and [StorageFolder.Attributes](storagefolder_attributes.md) properties.
 
 
-<!--{annotation author="miriamw" time="2/23/2012 7:37:53 PM"}TOEdit: Should I say Win32 or Desktop? Or both?-->
 
-<!--{annotation author="miriamw" time="2/23/2012 7:37:23 PM"}TODO: Add link to Win32 file type attributes-->
+
+
 The enumeration values match the Win32 file type attributes. Therefore the enumeration values correspond to the Win32 values, which are flags in base 2.
 
 ## -examples

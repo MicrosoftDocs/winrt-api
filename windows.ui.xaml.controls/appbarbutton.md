@@ -28,7 +28,7 @@ App bar buttons differ from standard buttons in several ways:
 [AppBarButton](appbarbutton.md) has two sizes; normal and compact. By default, it's shown with a text label and full padding. When the [IsCompact](appbarbutton_iscompact.md) property is set to **true**, the text label is hidden and the height of the button is reduced.
 
 
-<!--{annotation author="jimwalk" time="7/20/2015 10:38:49 AM"}Update images. Include Secondary Commands state.-->
+
 
 <!--<p>Here are the same commands shown in their normal state,  and then in their compact state.</p>
         <p>

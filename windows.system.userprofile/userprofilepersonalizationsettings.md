@@ -15,7 +15,7 @@ Provides properties and methods to manage the user's desktop wallpaper and lock 
 ## -remarks
 To get an instance of this class, call the [Current](userprofilepersonalizationsettings_current.md) method.
 
-<!--{annotation author="jimwalk" time="10/29/2015 3:12:04 PM"}This is the result of a bug, which might be fixed after TH2.-->
+
 
 > [!NOTE]
 > When you set an image more than once, the new image file must have a different name than the previously set image. If you set a new image using a file with the same name as the previous image, it will fail.

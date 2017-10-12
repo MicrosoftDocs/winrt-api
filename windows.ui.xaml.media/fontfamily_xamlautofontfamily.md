@@ -24,7 +24,7 @@ The default font family based on an app's language settings. See Remarks.
    <tr><td>All others</td><td>Segoe UI</td></tr>
 </table>
 
-<!--{annotation author="jimwalk" time="9/25/2015 3:42:42 PM"}Test this, then uncomment it.-->
+
 
 <!--<p>	FontFamily.XamlAutoFontFamily.Source returns the actual font family for the app, for example, "Segoe UI" or "Yu Gothic UI", rather than "XamlAutoFontFamily".</p>-->
 

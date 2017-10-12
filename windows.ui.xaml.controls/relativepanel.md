@@ -28,7 +28,7 @@ Defines an area within which you can position and align child objects in relatio
 If your UI consists of multiple nested panels, [RelativePanel](relativepanel.md) is a good option to consider.
 
 
-<!--{annotation author="jimwalk" time="6/18/2015 2:48:23 PM"}Add link to Layout overview.-->
+
 Here's an example of a UI using a [RelativePanel](relativepanel.md) for its layout:
 
 <img alt="Relative panel control" src="images/controls/RelativePanelBasic.png" />
@@ -53,9 +53,9 @@ Here's an example of a UI using a [RelativePanel](relativepanel.md) for its layo
 [RelativePanel](relativepanel.md), used in conjunction with [AdaptiveTrigger](../windows.ui.xaml/adaptivetrigger.md) s, can be a powerful tool to create responsive UI that scales well across different screen sizes. For more examples, see the [XAML Responsive Techniques sample](http://go.microsoft.com/fwlink/p/?LinkId=620024&amp;amp;clcid=0x409).
 
 
-<!--{annotation author="jimwalk" time="6/18/2015 2:47:39 PM"}Add link to Responsive UI doc when ready.-->
 
-<!--{annotation author="jimwalk" time="5/21/2015 5:51:34 PM"}Should update link to FW link before release.-->
+
+
 
 ### Default position
 

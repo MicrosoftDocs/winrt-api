@@ -10,7 +10,7 @@ public void Unregister(System.Boolean cancelTask)
 # Windows.ApplicationModel.Background.IBackgroundTaskRegistration.Unregister
 
 ## -description
-<!--{annotation author="carolbuc" time="8/4/2011 4:11:46 PM"}What happens if you call Unregister more than once?-->
+
 Unregisters a registered background task.
 
 ## -parameters

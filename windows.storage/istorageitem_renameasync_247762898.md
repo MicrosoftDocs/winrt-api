@@ -17,7 +17,7 @@ Renames the current item.
 The desired, new name of the item.
 
 
-<!--{annotation author="miriamw" time="3/5/2012 3:22:37 PM"}TODO: Add note about default collision option after RC: According to dev katiebl, Win8Beta default NameCollision is GenerateUniqueName, but this is probably changing to FailIfExists for RC.-->
+
 
 ## -returns
 No object or value is returned by this method when it completes.

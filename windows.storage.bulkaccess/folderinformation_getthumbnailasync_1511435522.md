@@ -11,7 +11,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Storage.FileProperties.Storage
 
 ## -description
 Retrieves the thumbnail that is associated with the [StorageFolder](../windows.storage/storagefolder.md), scaling it to the specified size.
-<!--{annotation author="grerol" time="6/27/2011 11:21:32 AM"}This is a guess.-->
+
 
 ## -parameters
 ### -param mode

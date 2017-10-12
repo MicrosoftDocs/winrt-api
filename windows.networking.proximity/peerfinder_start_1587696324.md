@@ -14,7 +14,7 @@ public void Start()
 Makes an app discoverable to remote peers.
 
 ## -remarks
-<!--{annotation author="v-shawja" time="1/25/2012 3:41:21 PM"}This paragraph uses "AppId" (which has no space) and "Browse Id" (which has a space). This seems to be an inconsistency. Also, I'm not sure what those are, so I'm not sure whether they need special formatting. If they're meant to be generic, they should be "app ID" and "browse ID".-->
+
 You can call the **Start** method to begin the process of finding a peer app and to make your app discoverable to remote peers that call the [FindAllPeersAsync](peerfinder_findallpeersasync.md) method. A peer is a device that has an app running in the foreground with a matching AppId. A peer can also have a matching Browse Id that's specified as an alternate identity. For more information, see [AlternateIdentities](peerfinder_alternateidentities.md).
 
 You can connect to only one peer at a time if your app is in the peer or client role. If your app is in the host role, you can connect up to 5 clients at a time.

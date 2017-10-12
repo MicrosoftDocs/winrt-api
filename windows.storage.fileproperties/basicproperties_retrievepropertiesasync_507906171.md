@@ -20,7 +20,7 @@ A collection that contains the names of the properties to retrieve.
 When this method completes successfully, it returns a collection (type [IMap](../windows.foundation.collections/imap_2.md)) that contains the specified properties and values as key-value pairs.
 
 ## -remarks
-<!--{annotation author="miriamw" time="1/9/2012 7:06:04 PM"}TODO: Can you retrieve any properties for this method or only the properties of the class (like the basic properties or document properties or whatever)?-->
+
 In JavaScript, use [then](http://msdn.microsoft.com/library/c63904fc-465b-4fd5-a1d6-e4fb200248e7) or [done](http://msdn.microsoft.com/library/9a5e6877-a2cf-421f-a91e-37d84ccb40da) to specify handler functions that will capture and process the collection when it is returned.
 
 ## -examples

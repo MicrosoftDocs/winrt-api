@@ -16,7 +16,7 @@ Gets the identifier for the Taiwan calendar.
 The string "TaiwanCalendar", which is the identifier for the Taiwan calendar.
 
 ## -remarks
-<!--{annotation author="raymonsh" time="9/6/2012 3:01:23 PM"}The following remarks are adapted from http://msdn.microsoft.com/en-us/library/system.globalization.taiwancalendar-->
+
 The Taiwan calendar works exactly like the [Gregorian](calendaridentifiers_gregorian.md) calendar, except that the year and era are different. The Taiwan calendar system recognizes only the current era.
 
 Leap years in the Taiwan calendar correspond to the same leap years in the Gregorian calendar. A leap year in the Gregorian calendar is defined as a Gregorian year that is evenly divisible by four, except if it is divisible by 100. However, Gregorian years that are divisible by 400 are leap years. A common year has 365 days and a leap year has 366 days.
