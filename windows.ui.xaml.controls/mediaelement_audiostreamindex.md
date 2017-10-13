@@ -28,7 +28,7 @@ If you're programming using C#or Microsoft Visual Basic, the type of this proper
 Setting [AudioStreamIndex](mediaelement_audiostreamindex.md) to **null** selects the default audio track, which is defined by the content.
 
 
-<!--{annotation author="jimwalk" time="7/28/2015 3:49:04 PM"}Topics are obsolete. Replace with new topics if they become available.-->
+
 
 <!--<rem>See the <xref targtype="ovw" rid="m_media_mca.create_media_player">Quickstart: create a media player application</xref> and <xref targtype="howto-singlepage" rid="m_media_mca.select_audio_tracks">How to select audio tracks in different languages</xref> for examples of supporting multiple audio tracks.</rem>-->
 

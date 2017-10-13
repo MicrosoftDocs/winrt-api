@@ -13,7 +13,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Storage.StorageFile> CreateStr
 Creates a [StorageFile](storagefile.md) to represent the specified stream of data. This method lets the app produce the data on-demand by specifying a function to be invoked when the [StorageFile](storagefile.md) that represents the stream is first accessed.
 
 
-<!--{annotation author="miriamw" time="3/5/2012 5:21:12 PM"}TODO: To be invoked by whom? Or should it be "that is invoked"?-->
+
 
 ## -parameters
 ### -param displayNameWithExtension

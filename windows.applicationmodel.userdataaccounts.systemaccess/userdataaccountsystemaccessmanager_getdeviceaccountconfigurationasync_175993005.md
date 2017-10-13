@@ -10,6 +10,9 @@ public Windows.Foundation.IAsyncOperation<Windows.ApplicationModel.UserDataAccou
 # Windows.ApplicationModel.UserDataAccounts.SystemAccess.UserDataAccountSystemAccessManager.GetDeviceAccountConfigurationAsync
 
 ## -description
+> [!NOTE]
+> This API is no longer supported and should not be called from your code. 
+
 Asynchronously gets the [DeviceAccountConfiguration](deviceaccountconfiguration.md) for the specified device account.
 
 ## -parameters

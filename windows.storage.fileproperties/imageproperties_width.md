@@ -14,7 +14,7 @@ Gets the width of the image.
 
 ## -property-value
 The width of the image
-<!--{annotation author="grerol" time="6/30/2011 9:29:26 AM"}Verify units.-->
+
 , in pixels.
 
 ## -remarks

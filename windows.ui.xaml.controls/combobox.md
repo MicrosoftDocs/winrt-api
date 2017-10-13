@@ -77,7 +77,7 @@ The following example demonstrates binding a [ComboBox](combobox.md) to a collec
 ```
 
 
-<!--{annotation author="jimwalk" time="7/15/2015 3:38:54 PM"}Auto snippets need to be updated for Windows 10.-->
+
 
 <!--<auto_snippet sample_id="ComboBoxBoundEx" snippet_id="1"/>-->
 ```csharp

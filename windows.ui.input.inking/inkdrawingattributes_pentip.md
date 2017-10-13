@@ -15,7 +15,7 @@ Gets or sets a value that indicates the shape of the pen tip when you draw an [I
 
 ## -property-value
 The shape of the pen/stylus tip. The default is [Circle](pentipshape.md).
-<!--{annotation author="kbridge" time="12/6/2011 6:14:40 PM"}default?-->
+
 
 ## -remarks
 Support various calligraphic effects using the [PenTipShape](pentipshape.md) property with [PenTip](inkdrawingattributes_pentip.md).
@@ -33,7 +33,7 @@ inkManager.setDefaultDrawingAttributes(drawingAttributes);
 ```
 
 
-<!--{annotation author="kbridge" time="1/3/2012 4:26:35 PM"}Snippet is hard coded. Need snippet host.-->
+
 For the complete example, see [Ink App sample](http://go.microsoft.com/fwlink/p/?linkid=231622).
 
 ## -see-also

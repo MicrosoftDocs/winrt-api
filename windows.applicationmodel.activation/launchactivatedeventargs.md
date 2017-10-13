@@ -37,12 +37,12 @@ When testing your app, be aware that immediately reactivating an app that has ju
 ### JavaScript launch completion
 
 If programming with JavaScript, launch is complete when your activated event handler returns successfully after executing your launch tasks. 
-<!--{annotation author="miriamw" time="7/27/2011 6:29:53 PM"}TODO: This seems like the most appropriate place for this info, but I'm not sure. May also need more context about the handler. Verify with feature team.-->
+
 
 ### .NET launch completion
 
 If programming with C#, VB, or C++, launch is complete when you activate an app window. 
-<!--{annotation author="miriamw" time="7/27/2011 6:20:32 PM"}TODO: Links to associated C++/C# topics - needs tech review by the feature team-->
+
 
 ## -examples
 

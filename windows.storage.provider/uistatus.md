@@ -32,7 +32,7 @@ The file picker is currently showing UI and all
 
 This indicates that UI is presently being shown, and that the app has finished responding to all [FileUpdateRequested](cachedfileupdaterui_fileupdaterequested.md) events.
 
-<!--{annotation author="miriamw" time="4/23/2012 8:07:13 PM"}TODO: Not sure where this info fits "davefields: In this state, the Picker’s OK button is enabled, and its Cancel button is disabled; in all other states, the OK button is disabled and the Cancel button is enabled."-->
+
 
 
 ## -remarks

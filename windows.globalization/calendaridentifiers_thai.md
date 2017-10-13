@@ -16,7 +16,7 @@ Gets the identifier for the Thai calendar.
 The string "ThaiCalendar", which is the identifier for the Thai calendar.
 
 ## -remarks
-<!--{annotation author="raymonsh" time="9/6/2012 3:01:23 PM"}The following remarks are adapted from http://msdn.microsoft.com/en-us/library/system.globalization.thaibuddhistcalendar-->
+
 The Thai calendar works exactly like the [Gregorian](calendaridentifiers_gregorian.md) calendar, except that the year and era are different.
 
 The Thai calendar system recognizes only the current era.

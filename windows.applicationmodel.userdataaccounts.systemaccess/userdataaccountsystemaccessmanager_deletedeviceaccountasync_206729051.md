@@ -10,6 +10,9 @@ public Windows.Foundation.IAsyncAction DeleteDeviceAccountAsync(System.String ac
 # Windows.ApplicationModel.UserDataAccounts.SystemAccess.UserDataAccountSystemAccessManager.DeleteDeviceAccountAsync
 
 ## -description
+> [!NOTE]
+> This API is no longer supported and should not be called from your code. 
+
 Asynchronously deletes the specified device account.
 
 ## -parameters

@@ -12,7 +12,7 @@ public string AdvertisingId { get; }
 ## -description
 <!-- @WRITER erictill 8/16/2013 : Note to John - This description wording comes from the privacy statement. We're stuck with it. -->
 
-<!--{annotation author="jimwalk" time="11/8/2016 3:26:40 PM"}Couldn't find the wording  in current privacy statement, so I moved it to the Remarks and broke up run on sentence.-->
+
 Retrieves a unique ID used to provide more relevant advertising. If the advertising ID feature is turned off, no ID is retrieved.
 
 ## -property-value

@@ -23,7 +23,7 @@ The new settings for local content suggestions.
 When local content suggestions are enabled, Windows will provide search suggestions from the user's local files as the user enters query text. For example, a picture application can configure local content suggestions so that search suggestions come only from a particular kind of image file that is stored in the user's picture library.
 
 
-<!--{annotation author="miriamw" time="12/7/2011 2:06:49 PM"}TODO: are these suggestions enabled in the search pane by default?-->
+
 
 ## -examples
 The [Search contract sample](http://go.microsoft.com/fwlink/p/?linkid=234892) demonstrates how to customize local suggestions by restricting the locations and kinds of files that the suggestions are based on.

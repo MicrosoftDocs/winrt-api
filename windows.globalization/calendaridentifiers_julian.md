@@ -16,7 +16,7 @@ Gets the identifier for the Julian calendar.
 The string "JulianCalendar", which is the identifier for the Julian calendar.
 
 ## -remarks
-<!--{annotation author="raymonsh" time="9/6/2012 3:01:23 PM"}The following remarks are adapted from http://msdn.microsoft.com/en-us/library/system.globalization.juliancalendar-->
+
 In 45 B.C., Julius Caesar ordered a calendar reform, which resulted in the calendar called the Julian calendar. The Julian calendar is the predecessor of the [Gregorian](calendaridentifiers_gregorian.md) calendar.
 
 The Julian calendar system recognizes only the current era.

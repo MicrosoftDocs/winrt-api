@@ -58,9 +58,9 @@ If **SpeedBumpStart** and **RearrangeStart** are both enabled then **SpeedBumpEn
 If **RearrangeStart** is enabled then **Rearranging** is returned when the [swipe](http://msdn.microsoft.com/library/897555e2-c567-4bbe-b600-553daeb223d5) or [slide](http://msdn.microsoft.com/library/897555e2-c567-4bbe-b600-553daeb223d5) gesture is detected outside the selection/speed bumping region.
 
 
-<!--{annotation author="kbridge" time="10/12/2011 1:13:19 PM"} Implementation detail: the swipe or slide gesture has additional force (or rails) applied to guide the gesture within the selection/speed bumping regions.-->
 
-<!--{annotation author="kbridge" time="10/12/2011 1:05:40 PM"}Need to build a basic sample that demonstrates this behavior.-->
+
+
 
 ## -examples
 

@@ -36,7 +36,7 @@ The [Hub](hub.md) uses virtualization to load sections as the user pans. You can
 You can set the [HubSectionHeader.IsHeaderInteractive](hubsection_isheaderinteractive.md) property is **true** to let a user navigate to the corresponding app section page. When its [IsHeaderInteractive](hubsection_isheaderinteractive.md) property is **true**, the default header includes the text, **See more**. When a user taps the **See more** text, the [SectionHeaderClick](hub_sectionheaderclick.md) event is raised. If you use a custom [HeaderTemplate](hubsection_headertemplate.md), you should provide similar visual cues to indicate that the header is interactive.
 
 
-<!--{annotation author="jimwalk" time="12/9/2015 3:32:58 PM"}Might want to  have a note that the See More text uses the hyperlink colors. By default, this is the user selected system accent color, which might be difficult to see  against the section background. If this is a concern, override the default hyperlink color.-->
+
 You can handle the [SectionHeaderClick](hub_sectionheaderclick.md) event to respond to a tapped header. You get the section that was clicked from the [SectionHeaderClickEventArgs.Section](hubsectionheaderclickeventargs_section.md) property of the event data.
 
 ### Hub and SemanticZoom

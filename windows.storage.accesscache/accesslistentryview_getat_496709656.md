@@ -15,7 +15,7 @@ Retrieves the storage item at the specified index in the access list or most rec
 ## -parameters
 ### -param index
 The 
-<!--{annotation author="grerol" time="6/23/2011 9:09:12 AM"}TODO: Verify that it's zero based.-->
+
 zero-based index of the storage item to retrieve.
 
 ## -returns

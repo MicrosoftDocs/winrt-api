@@ -23,7 +23,7 @@ Adding properties to this list limits local suggestions to the values of the spe
 Adding properties to this list limits local suggestions to local, indexed files that have the listed properties.
 
 
-<!--{annotation author="grerol" time="7/18/2011 3:39:00 PM"}TODO: Need to insert or link to a list of file props. Apparently, they're listed in the Type Ahead Spec.-->
+
 
 ## -examples
 

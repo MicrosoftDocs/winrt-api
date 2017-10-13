@@ -53,11 +53,11 @@ Enable support for the [slide](http://msdn.microsoft.com/library/897555e2-c567-4
 > Mouse and pen/stylus input does not raise manipulation events ([ManipulationStarted](gesturerecognizer_manipulationstarted.md), [ManipulationUpdated](gesturerecognizer_manipulationupdated.md), and [ManipulationCompleted](gesturerecognizer_manipulationcompleted.md)) during the course of this interaction.
 
 Specifying support for **Drag** and one or more of the manipulation settings enables a single device to perform multiple actions. For example, the [slide](http://msdn.microsoft.com/library/897555e2-c567-4bbe-b600-553daeb223d5) or [swipe](http://msdn.microsoft.com/library/897555e2-c567-4bbe-b600-553daeb223d5) gesture can be performed with the left mouse button to select text while the wheel button can be rolled to scroll content.
-<!--{annotation author="kbridge" time="10/31/2011 11:11:10 AM"}Is there a contradiction here? No manipulation events but you can still set manipulations.-->
 
-<!--{annotation author="kbridge" time="10/14/2011 10:27:16 AM"}Remember that panning is being used for touch while scrolling is still associated with mouse.-->
 
-<!--{annotation author="kbridge" time="10/14/2011 4:37:25 PM"}Need sample or snippet.-->
+
+
+
 
 ### -field ManipulationTranslateX:64
 Enable support for the [slide](http://msdn.microsoft.com/library/897555e2-c567-4bbe-b600-553daeb223d5) gesture through pointer input, on the horizontal axis. The [ManipulationStarted](gesturerecognizer_manipulationstarted.md), [ManipulationUpdated](gesturerecognizer_manipulationupdated.md), and [ManipulationCompleted](gesturerecognizer_manipulationcompleted.md) events are all raised during the course of this interaction.This gesture can be used for rearranging objects.

@@ -25,7 +25,7 @@ The [PointerDevice](pointerdevice.md) object that represents the associated poin
 The input pointer specified by *pointerId* must identify an active input.
 
 
-<!--{annotation author="kbridge" time="11/4/2011 5:31:08 PM"}exception?-->
+
 
 ## -examples
 

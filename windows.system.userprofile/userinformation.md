@@ -19,7 +19,7 @@ Represents information about the user, such as name and account picture.
 > [!IMPORTANT]
 > The [UserInformation](userinformation.md) class is not supported on Windows 10 or later. Use the [User](../windows.system/user.md) class instead.
 
-<!--{annotation author="jimwalk" time="9/4/2015 4:04:08 PM"}See Threshold bug 4474122 for info about this Win10 note.-->
+
 
 > **Windows 10**
 > Apps compiled for Windows 8 that use the [UserInformation](userinformation.md) class no longer return user information when running on Windows 10. This is because in Windows 10, apps do not have access to user information without explicit user consent, unlike in Windows 8 where this permission is granted by default.

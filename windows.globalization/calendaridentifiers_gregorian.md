@@ -19,7 +19,7 @@ The string "GregorianCalendar", which is the identifier for the Gregorian calend
 The returned identifier is suitable for use anywhere a calendar identifier is required.
 
 
-<!--{annotation author="raymonsh" time="9/6/2012 3:01:23 PM"}The following remarks are adapted from http://msdn.microsoft.com/en-us/library/system.globalization.gregoriancalendar-->
+
 The Gregorian calendar recognizes two eras: B.C. or B.C.E., and A.D. or C.E. This implementation of the Gregorian calendar system recognizes only the current era (A.D.).
 
 A leap year in the Gregorian calendar is defined as a year that is evenly divisible by four, except if it is divisible by 100. However, years that are divisible by 400 are leap years. For example, the year 1900 was not a leap year, but the year 2000 was. A common year has 365 days and a leap year has 366 days.

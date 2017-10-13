@@ -10,7 +10,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Foundation.Collections.IVector
 # Windows.Storage.StorageFolder.GetFilesAsync
 
 ## -description
-<!--{annotation author="miriamw" time="2/22/2012 4:21:25 PM"}TODO: confirm that the files are assigned indexes based on teh sorting dictated by CommonfileQuery-->
+
 Gets an index-based range of files from the list of all files in the current folder. Also gets the files from the subfolders of the current folder when the value of the *query* argument is something other than [CommonFileQuery.DefaultQuery](../windows.storage.search/commonfilequery.md). Files are sorted based on the specified value from the [CommonFileQuery](../windows.storage.search/commonfilequery.md) enumeration.
 
 ## -parameters
