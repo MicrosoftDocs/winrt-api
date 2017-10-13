@@ -18,17 +18,19 @@ This functionality is only supported on Windows Desktop.
 Startup support for Desktop Bridge apps was introduced in the Windows 10 Anniversary Update (version 1607).
 Startup support for regular UWP apps was introduced in the Windows 10 Fall Creators Update (version 1709).
 
-An app must add the **windows.startup** extension category to its manifest in order to be activated at startup or when the user logs in. Adding this extension will not, by itself, automatically cause the app start.
+An app must add the `windows.startup` extension category to its manifest in order to be activated at startup or when the user logs in. Adding this extension will not, by itself, automatically cause the app start.
 
-Regular UWP apps must first be launched by the user, and the app must call [RequestEnableAsync](https://docs.microsoft.com/uwp/api/Windows.ApplicationModel.StartupTask#Windows_ApplicationModel_StartupTask_RequestEnableAsync) from a UI thread to trigger a user-consent prompt. If the user consents, the UWP app will then start on startup or user log in.
+Regular UWP apps must first be launched by the user, and they must call [RequestEnableAsync](https://docs.microsoft.com/uwp/api/Windows.ApplicationModel.StartupTask#Windows_ApplicationModel_StartupTask_RequestEnableAsync) from a UI thread to trigger a user-consent dialog. If the user consents, the UWP app will then start on startup or user log in. If **RequestEnableAsync** is called from a Desktop Bridge app, no user-consent dialog is shown.
 
 Desktop Bridge apps can set their startup tasks to **Enabled** in the manifest, in which case they do not need to call [RequestEnableAsync](https://docs.microsoft.com/uwp/api/Windows.ApplicationModel.StartupTask#Windows_ApplicationModel_StartupTask_RequestEnableAsync). However, the user must launch the Desktop Bridge app at least once before it will launch at startup or user login in.
 
 For both Desktop Bridge apps and regular UWP apps, the user is in control, and can change the enabled state of your app at any time via the **Startup** tab in Task Manager.
 
+UWP startup apps start minimized.
+
 The extension declaration is different depending on whether it is for a Desktop Bridge app or a regular UWP app.
 
-### Desktop Bridge App extension
+### Desktop Bridge App startup task extension
 
 ```xml
 <Package xmlns:uap5="http://schemas.microsoft.com/appx/manifest/uap/windows10/5"...>
@@ -61,7 +63,7 @@ The extension declaration is different depending on whether it is for a Desktop 
 
 For Desktop Bridge apps, multiple **startupTask** extensions are permitted, and each one can specify a different executable.
 
-### UWP App extension
+### UWP App startup task extension
 
 ```xml
 <Package xmlns:uap5="http://schemas.microsoft.com/appx/manifest/uap/windows10/5" ...>
@@ -71,8 +73,8 @@ For Desktop Bridge apps, multiple **startupTask** extensions are permitted, and 
         ...
         <uap5:Extension
           Category="windows.startupTask"
-          Executable="TestStartup.exe"
-          EntryPoint="TestStartup.App">
+          Executable=""
+          EntryPoint="">
           <uap5:StartupTask
             TaskId="MyStartupId"
             Enabled="false"
@@ -86,14 +88,42 @@ For Desktop Bridge apps, multiple **startupTask** extensions are permitted, and 
 |---------|-----------|
 |**xmlns:uap5** | UWP apps use the general UAP contract version 5 namespace. |
 |**Category** | Must have the value `"windows.startupTask"` |
-|**Executable** | The relative path to the .exe to start |
-|**EntryPoint** | The fully-qualified namespace name of your App class. |
+|**Executable** | Ignored but cannot be empty or null. The app this Package.appxmanifest file belongs to is the implied executable.  |
+|**EntryPoint** | Ignored but cannot be empty or null. The entry point is implied.|
 |**TaskId** | The unique identifier for your task. Using this identifier, your app can call the APIs in this class to programmatically enable or disable a startup task. |
 | **Enabled** | For regular UWP apps, this attribute is ignored and the feature is implicitly disabled until the user first launches the app and the user confirms the app's request to enable activation at startup. |
 | **DisplayName** | The name of the UWP app that appears in Task Manager. |
 
 Regular UWP apps should only have one **Executable** entry and **windows.startupTask** extension.  
 The **windows.startupTask** extension is only available for UWP apps that run on Windows Desktop.
+
+### Windows Web App (WWA) startup task extension
+
+```xml
+<Package xmlns:uap5="http://schemas.microsoft.com/appx/manifest/uap/windows10/5" ...>
+...
+<Applications>
+    <Application ...>
+        ...
+        <uap5:Extension Category="windows.startupTask">
+          <uap5:StartupTask
+            TaskId="MyStartupId"
+            DisplayName="Test startup"
+            StartupPage="EntryPage" />            
+        </uap5:Extension>
+    </Application>
+</Applications>
+```
+
+|Attribute|Description|
+|---------|-----------|
+|**xmlns:uap5** | UWP apps use the general UAP contract version 5 namespace. |
+|**Category** | Must have the value `"windows.startupTask"` |
+|**TaskId** | The unique identifier for your task. Using this identifier, your app can call the APIs in this class to programmatically enable or disable a startup task. |
+| **DisplayName** | The name of the UWP app that appears in Task Manager. |
+| **StartupPage** | The name of the page to display when the WWA starts. |
+
+For WWA apps, **Executable**, **EntryPoint**, and **Enables** are ignored and may be either missing or null.
 
 ## Example
 
