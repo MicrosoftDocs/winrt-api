@@ -20,7 +20,7 @@ The user security identifier (SID). If this parameter is **null**, the packages 
 If the method succeeds, an enumerable collection of package objects is returned. Each Package object in this collection contains information about the package, including but not limited to its name, publisher, version, and install location.
 
 ## -remarks
-This method and its overloads require administrative privileges if the user security ID specified is different from the user security ID of the calling user. Otherwise, an AccessDeniedException is thrown. Similar to the [FindPackages](packagemanager_findpackages_1246181969.md) method, this method and its overloads can be used to enumerate the installed packages for a particular user.
+This method and its overloads require administrative privileges if the user security ID specified is different from the user security ID of the calling user. Otherwise, an **AccessDeniedException** is thrown. Similar to the [FindPackages](packagemanager_findpackages_1246181969.md) method, this method and its overloads can be used to enumerate the installed packages for a particular user.
 
 ## -examples
 
