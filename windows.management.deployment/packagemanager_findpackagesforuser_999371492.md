@@ -14,7 +14,7 @@ Finds all packages installed for the specified user.
 
 ## -parameters
 ### -param userSecurityId
-The user security identifier (SID). If this parameter is **null**, the packages are retrieved for the current user.
+The user security identifier (SID). If this parameter is **string.Empty**, the packages are retrieved for the current user.
 
 ## -returns
 If the method succeeds, an enumerable collection of package objects is returned. Each Package object in this collection contains information about the package, including but not limited to its name, publisher, version, and install location.
