@@ -29,6 +29,8 @@ Apps may wait for the [Stopped](devicewatcher_stopped.md) event if they need to 
 > An app must subscribe to all of the [added](devicewatcher_added.md), [removed](devicewatcher_removed.md), and [updated](devicewatcher_updated.md) events to be notified when there are device additions, removals or updates. If an app handles only the [added](devicewatcher_added.md) event, it will not receive an update if a device is added to the system after the initial device enumeration completes.
 
 ## -examples
+For complete implementations in C#, C++, and JavaScript, see the [Device enumeration and pairing sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/DeviceEnumerationAndPairing).
+
 This example incrementally enumerates devices, adding them to a list each time a device is found, and also handling removals and updates. The onAdded function that handles the [added](devicewatcher_added.md) event takes a [DeviceInformation](deviceinformation.md) object. Once enumeration is complete, the app prints a list of devices. The app also prints a message if devices are added, updated, or removed after the initial enumeration completes.
 
 ```javascript
@@ -156,3 +158,4 @@ This example incrementally enumerates devices, adding them to a list each time a
 
 ## -see-also
 [Custom USB device sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620530)
+[Device enumeration and pairing sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/DeviceEnumerationAndPairing)
