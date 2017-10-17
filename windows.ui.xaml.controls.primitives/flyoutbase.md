@@ -20,4 +20,9 @@ Represents the base class for flyout controls, such as [Flyout](../windows.ui.xa
 ## -examples
 
 ## -see-also
-[DependencyObject](../windows.ui.xaml/dependencyobject.md), [Flyout](../windows.ui.xaml.controls/flyout.md), [MenuFlyout](../windows.ui.xaml.controls/menuflyout.md), [Button.Flyout](../windows.ui.xaml.controls/button_flyout.md), [XAML Flyout and MenuFlyout sample](http://go.microsoft.com/fwlink/p/?LinkID=310074)
+- [DependencyObject](../windows.ui.xaml/dependencyobject.md)
+- [Flyout](../windows.ui.xaml.controls/flyout.md)
+- [MenuFlyout](../windows.ui.xaml.controls/menuflyout.md)
+- [Button.Flyout](../windows.ui.xaml.controls/button_flyout.md)
+- [XAML UI basics sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics) - see [FlyoutPage.xaml](https://github.com/Microsoft/Windows-universal-samples/blob/master/Samples/XamlUIBasics/cs/AppUIBasics/ControlPages/FlyoutPage.xaml)
+- [XAML Flyout and MenuFlyout sample (Windows 8)](http://go.microsoft.com/fwlink/p/?LinkID=310074)

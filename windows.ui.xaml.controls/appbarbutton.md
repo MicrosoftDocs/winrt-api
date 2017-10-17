@@ -27,25 +27,25 @@ App bar buttons differ from standard buttons in several ways:
 + The button has the [IsCompact](appbarbutton_iscompact.md) property to control its size.
 [AppBarButton](appbarbutton.md) has two sizes; normal and compact. By default, it's shown with a text label and full padding. When the [IsCompact](appbarbutton_iscompact.md) property is set to **true**, the text label is hidden and the height of the button is reduced.
 
+<p>Here are the same commands shown in their normal state,  and then in their compact state.</p>
+<p>
+    <img src="images/CommandBar_2Groups.png" alt="App bar buttons"></img>
+</p>
+<p>
+    <img src="images/CommandBar_Compact.png" alt="Compact app bar buttons"></img>
+</p>
 
-
-
-<!--<p>Here are the same commands shown in their normal state,  and then in their compact state.</p>
-        <p>
-          <img src="images/CommandBar_2Groups.png" alt="App bar buttons"></img>
-        </p>
-        <p>
-          <img src="images/CommandBar_Compact.png" alt="Compact app bar buttons"></img>
-        </p>-->
 When used in the [CommandBar](commandbar.md) control as part of the [PrimaryCommands](commandbar_primarycommands.md) collection, the [CommandBar](commandbar.md) sets the [IsCompact](appbarbutton_iscompact.md) property automatically as the control opens and closes. If you use an app bar button elsewhere, like in the [Content](contentcontrol_content.md) of a [CommandBar](commandbar.md), in an [AppBar](appbar.md), or the app canvas, you need to set the [IsCompact](appbarbutton_iscompact.md) property appropriately in your code. When used outside of an app bar, Windows guidelines indicate that the button should always be in its compact state. You should also include a [ToolTip](tooltip.md) to display the text label.
 
-You use the [Label](appbarbutton_label.md) and [Icon](appbarbutton_icon.md) properties to define the content of the app bar buttons. Set the [Label](appbarbutton_label.md) property to a string to specify the text label. It’s shown by default, and is hidden when the button is in its compact state, so you also need to define a meaningful icon. To define the app bar button icon, set the [Icon](appbarbutton_icon.md) property to an element derived from the [IconElement](iconelement.md) class. There are 4 kinds of icon elements provided:
+You use the [Label](appbarbutton_label.md) and [Icon](appbarbutton_icon.md) properties to define the content of the app bar buttons. Set the [Label](appbarbutton_label.md) property to a string to specify the text label. It’s shown by default, and is hidden when the button is in its compact state, so you also need to define a meaningful icon. To define the app bar button icon, set the [Icon](appbarbutton_icon.md) property to an element derived from the [IconElement](iconelement.md) class. There are four kinds of icon elements provided:
 
 
 + [FontIcon](fonticon.md) - the icon is based on a glyph from the specified font family.
 + [BitmapIcon](bitmapicon.md) - the icon is based on a bitmap image file with the specified **Uri**.
 + [PathIcon](pathicon.md) - the icon is based on [Path](../windows.ui.xaml.shapes/path.md) data.
 + [SymbolIcon](symbolicon.md) - the icon is based on a glyph from the Segoe MDL2 Assets font as listed in the [Symbol](symbol.md) enumeration.
+
+AppBarButton icons have a default font size of 20px. 
 
 
 ### Control style and template
@@ -213,4 +213,9 @@ private void PlayPauseButton_Click(object sender, RoutedEventArgs e)
 
 
 ## -see-also
-[Control](control.md), [AppBarButton styles and templates](http://msdn.microsoft.com/library/ca990fce-3698-441d-ac8d-ba85197e67df), [XAML AppBar control sample](http://go.microsoft.com/fwlink/p/?LinkID=242388), [XAML Navigation sample](http://go.microsoft.com/fwlink/p/?LinkID=389440), [AppBar](appbar.md), [AppBarSeparator](appbarseparator.md), [AppBarToggleButton](appbartogglebutton.md), [Button](button.md), [CommandBar](commandbar.md), [Controls list](http://msdn.microsoft.com/library/11172840-a63d-4f48-9db4-7baca06308ee), [Controls by function](http://msdn.microsoft.com/library/8db4347b-91d6-4659-91f2-80ecf7bbb596), [Commanding sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620019)
+- [AppBar](appbar.md)
+- [CommandBar](commandbar.md)
+- [Guidelines for command and app bars](https://docs.microsoft.com/en-us/windows/uwp/controls-and-patterns/app-bars)
+- [Commanding sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620019)
+- [AppBarButton styles and templates](http://msdn.microsoft.com/library/ca990fce-3698-441d-ac8d-ba85197e67df)
+- [XAML AppBar control sample (Windows 8)](http://go.microsoft.com/fwlink/p/?LinkID=242388)
