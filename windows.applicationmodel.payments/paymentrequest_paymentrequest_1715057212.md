@@ -1,4 +1,4 @@
----
+t---
 -api-id: M:Windows.ApplicationModel.Payments.PaymentRequest.#ctor(Windows.ApplicationModel.Payments.PaymentDetails,Windows.Foundation.Collections.IIterable{Windows.ApplicationModel.Payments.PaymentMethodData},Windows.ApplicationModel.Payments.PaymentMerchantInfo,Windows.ApplicationModel.Payments.PaymentOptions,System.String)
 -api-type: winrt method
 ---
