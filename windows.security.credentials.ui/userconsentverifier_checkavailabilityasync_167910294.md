@@ -28,7 +28,7 @@ public async Task<string> CheckConsentAvailability()
     try
     {
         // Check the availability of Hello authentication.
-        var ucvAvailability = Windows.Security.Credentials.UI.UserConsentVerifier.CheckAvailabilityAsync();
+        var ucvAvailability = await Windows.Security.Credentials.UI.UserConsentVerifier.CheckAvailabilityAsync();
 
         switch (ucvAvailability)
         {
