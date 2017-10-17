@@ -38,5 +38,10 @@ In addition to the members listed above, there are other members of the base cla
 ## -examples
 
 ## -see-also
-
-[FlyoutBase](../windows.ui.xaml.controls.primitives/flyoutbase.md), [MenuFlyoutPresenter](menuflyoutpresenter.md), [Button.Flyout](button_flyout.md), [FlyoutBase.AttachedFlyout](../windows.ui.xaml.controls.primitives/flyoutbase_attachedflyout.md), [Attached properties overview](http://msdn.microsoft.com/library/098c1de0-d640-48b1-9961-d0adf33266e2), [XAML Flyout and MenuFlyout sample](http://go.microsoft.com/fwlink/p/?LinkID=310074), [Flyout](flyout.md), [Controls list](http://msdn.microsoft.com/library/11172840-a63d-4f48-9db4-7baca06308ee), [Controls by function](http://msdn.microsoft.com/library/8db4347b-91d6-4659-91f2-80ecf7bbb596), [Commanding sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620019)
+- [Menus and context menus overview](https://docs.microsoft.com/en-us/windows/uwp/controls-and-patterns/menus)
+- [MenuFlyoutPresenter](menuflyoutpresenter.md)
+- [FlyoutBase](../windows.ui.xaml.controls.primitives/flyoutbase.md)
+- [Flyout](flyout.md)
+- [Button.Flyout](button_flyout.md)
+- [Attached properties overview](https://docs.microsoft.com/en-us/windows/uwp/xaml-platform/attached-properties-overview)
+- [Context menu sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlContextMenu)

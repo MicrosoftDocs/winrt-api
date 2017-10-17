@@ -25,4 +25,6 @@ Represents the base class for an icon UI element.
 ## -examples
 
 ## -see-also
-[FrameworkElement](../windows.ui.xaml/frameworkelement.md), [BitmapIcon](bitmapicon.md), [FontIcon](fonticon.md), [PathIcon](pathicon.md), [SymbolIcon](symbolicon.md)
+- [FrameworkElement](../windows.ui.xaml/frameworkelement.md)
+- [AppBarButton](appbarbutton.md)
+- [Icons for UWP apps](https://docs.microsoft.com/en-us/windows/uwp/style/icons)

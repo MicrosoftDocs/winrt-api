@@ -37,4 +37,8 @@ This example shows an [AppBarButton](appbarbutton.md) with a [PathIcon](pathicon
 
 
 ## -see-also
-[IconElement](iconelement.md), [Path](../windows.ui.xaml.shapes/path.md), [Quickstart: Adding app bar buttons](http://msdn.microsoft.com/library/743b852c-f4fe-4b4f-814e-77155ccfdefe), [Move and draw commands syntax](http://msdn.microsoft.com/library/7772bc3e-a631-46ff-9940-3dd5b9d0e0d9), [AppBarButton](appbarbutton.md), [AppBarToggleButton](appbartogglebutton.md), [BitmapIcon](bitmapicon.md), [FontIcon](fonticon.md), [SymbolIcon](symbolicon.md), [Controls list](http://msdn.microsoft.com/library/11172840-a63d-4f48-9db4-7baca06308ee), [Controls by function](http://msdn.microsoft.com/library/8db4347b-91d6-4659-91f2-80ecf7bbb596)
+- [IconElement](iconelement.md)
+- [AppBarButton](appbarbutton.md)
+- [Path](../windows.ui.xaml.shapes/path.md)
+- [Move and draw commands syntax](https://docs.microsoft.com/en-us/windows/uwp/xaml-platform/move-draw-commands-syntax)
+- [Icons for UWP apps](https://docs.microsoft.com/en-us/windows/uwp/style/icons) 

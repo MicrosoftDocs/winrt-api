@@ -10,7 +10,13 @@ public class SettingsFlyout : Windows.UI.Xaml.Controls.ContentControl, Windows.U
 # Windows.UI.Xaml.Controls.SettingsFlyout
 
 ## -description
-Represents a control that provides in-context access to settings that affect the current app. (Not recommended for Universal Windows Platform (UWP) app. See [Flyout](flyout.md).)
+> [!NOTE]
+> [SettingsFlyout](settingsflyout.md) is not supported for use in Universal Windows Platform (UWP) app for Windows 10. Instead, use a [Flyout](flyout.md).
+
+> [!NOTE]
+> [SettingsFlyout](settingsflyout.md) is supported only for use with the [SettingsPane](../windows.ui.applicationsettings/settingspane.md) in Windows 8. While the [SettingsFlyout](settingsflyout.md) type is visible in Windows Phone projects, [SettingsPane](../windows.ui.applicationsettings/settingspane.md) is not present on Windows Phone, so use of [SettingsFlyout](settingsflyout.md) is not supported.
+
+Represents a control that provides in-context access to settings that affect the current app. (Not recommended for Universal Windows Platform (UWP) app.)
 
 ## -xaml-syntax
 ```xaml
@@ -22,14 +28,6 @@ Represents a control that provides in-context access to settings that affect the
 
 
 ## -remarks
-> [!NOTE]
-> [SettingsFlyout](settingsflyout.md) is not supported for use in Universal Windows Platform (UWP) app for Windows 10.
-
-
-
-> [!NOTE]
-> [SettingsFlyout](settingsflyout.md) is supported only for use with the [SettingsPane](../windows.ui.applicationsettings/settingspane.md) in Windows 8. While the [SettingsFlyout](settingsflyout.md) type is visible in Windows Phone projects, [SettingsPane](../windows.ui.applicationsettings/settingspane.md) is not present on Windows Phone, so use of [SettingsFlyout](settingsflyout.md) is not supported.
-
 A [SettingsFlyout](settingsflyout.md) control isn't intended to be a composite part of a page or general app UI. Instead, a [SettingsFlyout](settingsflyout.md) control is typically defined as a separate XAML file, where the class you're defining is a [SettingsFlyout](settingsflyout.md) subclass that's unique to your project, using a [SettingsFlyout](settingsflyout.md) object element as a XAML file root. In Microsoft Visual Studio, you can use the **Add New Item** menu options for a project to add the files to your project using a basic starting template. This starting template sets styles for items contained by the [SettingsFlyout](settingsflyout.md) control that reference existing pre-defined styles. For example, there's a style for a section header that references the `TitleTextBlockStyle` style that's defined by the Windows Runtime as a XAML resource. The generated XAML also provides some initial attribute values that are intended to be replaced. For example it sets the initial [Title](settingsflyout_title.md) value to use the class name. You'll also want to add controls or other UI to the content section to replace the templated UI it starts with.
 
 ### Showing and dismissing a Settings flyout

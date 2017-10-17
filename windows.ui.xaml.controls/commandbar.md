@@ -113,7 +113,7 @@ This table shows the resources used by the [CommandBar](commandbar.md) control.
 </table>
 
 ## -examples
-This example creates the command bar shown previously.
+This example creates the command bar shown in Remarks.
 
 ```xaml
 <CommandBar>
@@ -139,4 +139,6 @@ This example creates the command bar shown previously.
 
 
 ## -see-also
-[AppBar](appbar.md), [CommandBar styles and templates](http://msdn.microsoft.com/library/9320d248-1388-4b46-8065-10d4f76976aa), [AppBarButton](appbarbutton.md), [AppBarSeparator](appbarseparator.md), [AppBarToggleButton](appbartogglebutton.md), [Controls list](http://msdn.microsoft.com/library/11172840-a63d-4f48-9db4-7baca06308ee), [Controls by function](http://msdn.microsoft.com/library/8db4347b-91d6-4659-91f2-80ecf7bbb596), [Guidelines for app bars](http://msdn.microsoft.com/library/e39f876e-347c-40c9-a89c-c8c1bc623b2a), [Commanding sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620019)
+- [Guidelines for command bars](https://docs.microsoft.com/en-us/windows/uwp/controls-and-patterns/app-bars)
+- [CommandBar styles and templates](http://msdn.microsoft.com/library/9320d248-1388-4b46-8065-10d4f76976aa)
+- [Commanding sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620019)

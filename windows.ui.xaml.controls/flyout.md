@@ -68,8 +68,14 @@ This example shows how to let the [FlyoutPresenter](flyoutpresenter.md) receive 
 ```
 
 
-
 ## -examples
 
 ## -see-also
-[FlyoutBase](../windows.ui.xaml.controls.primitives/flyoutbase.md), [FlyoutPresenter](flyoutpresenter.md), [Attached properties overview](http://msdn.microsoft.com/library/098c1de0-d640-48b1-9961-d0adf33266e2), [XAML Flyout and MenuFlyout sample](http://go.microsoft.com/fwlink/p/?LinkID=310074), [Button.Flyout](button_flyout.md), [FlyoutBase.AttachedFlyout](../windows.ui.xaml.controls.primitives/flyoutbase_attachedflyout.md), [MenuFlyout](menuflyout.md), [Controls list](http://msdn.microsoft.com/library/11172840-a63d-4f48-9db4-7baca06308ee), [Controls by function](http://msdn.microsoft.com/library/8db4347b-91d6-4659-91f2-80ecf7bbb596), [Commanding sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620019)
+- [FlyoutBase](../windows.ui.xaml.controls.primitives/flyoutbase.md)
+- [FlyoutPresenter](flyoutpresenter.md)
+- [Button.Flyout](button_flyout.md)
+- [MenuFlyout](menuflyout.md)
+- [Dialogs v. flyouts](https://docs.microsoft.com/en-us/windows/uwp/controls-and-patterns/dialogs)
+- [Attached properties overview](https://docs.microsoft.com/en-us/windows/uwp/xaml-platform/attached-properties-overview)
+- [Commanding sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620019)
+- [XAML Flyout and MenuFlyout sample (Windows 8)](http://go.microsoft.com/fwlink/p/?LinkID=310074)
