@@ -10,10 +10,10 @@ public string MapStyleSheetEntry { get;  set; }
 # Windows.UI.Xaml.Controls.Maps.MapElement.MapStyleSheetEntry
 
 ## -description
-Gets or sets the name of the entry of this [MapElement](mapelement.md) in the style sheet. If the style sheet defines a style for that entry, that style is applied to this element.
+Gets or sets the name of an entry in the map's style sheet that you'd like to apply to this [MapElement](mapelement.md).
 
 ## -property-value
-The name of the entry of this [MapElement](mapelement.md) in the style sheet. 
+The name of the entry in the map's style sheet that you'd like to apply to this [MapElement](mapelement.md).
 
 ## -remarks
 Set this property to a string or to any of the property values available in the [MapStyleSheetEntries](mapstylesheetentries.md) class.
