@@ -79,6 +79,36 @@ The Media Foundation feature can be enabled on Windows Server 2012 or Windows S
 
 `dism /online /enable-feature /featurename:ServerMediaFoundation `After the Media Foundation feature is enabled, the user is prompted to restart. Once the computer is restarted, classes for sockets and WebSockets in the [Windows.Networking.Sockets](windows_networking_sockets.md) namespace will work as expected.
 
+### Resolving DNS service records using StreamSocket
+
+An app can communicate with the target DNS address that belongs to a SRV record.
+For example, an extensible Messaging and Presence Protocol (XMPP) service in the Contoso domain corresponds to `_xmpp-client._tcp.contoso.com`.
+That service name corresponds to a server DNS name, for example, `xmpp-client01.contoso.com`.
+
+To connect to the DNS address for the server for that service, use the following method call on a [StreamSocket](streamsocket.md) instance:
+
+```csharp
+using Windows.Networking.Sockets;
+
+StreamSocket socket = new StreamSocket();
+socket.ConnectAsync(new HostName("contoso.com"), "xmpp-client");
+```
+
+The protocol is inferred to be TCP for [StreamSocket](streamsocket.md) instances. 
+The method deals with the underscore characters.
+
+A DNS can be configured to have an SRV hierarchy. 
+A DNS SRV resource records could have the following form: `_xmpp-client._service01._tcp.contoso.com`. 
+For this example, use the following method call on a [StreamSocket](streamsocket.md) instance:
+
+```csharp
+socket.ConnectAsync(new HostName("contoso.com"), "xmpp-client._service01");
+```
+
+These code snippets use [ConnectAsync](streamsocket_connectasync_1841953676.md).
+The [GetEndpointPairsAsync](streamsocket_getendpointpairsasync_1796487528.md) method supports similar usage to connect to services.
+
+
 ## -examples
 
 ## -see-also
