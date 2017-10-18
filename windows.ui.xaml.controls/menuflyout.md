@@ -38,10 +38,4 @@ In addition to the members listed above, there are other members of the base cla
 ## -examples
 
 ## -see-also
-- [Menus and context menus overview](https://docs.microsoft.com/en-us/windows/uwp/controls-and-patterns/menus)
-- [MenuFlyoutPresenter](menuflyoutpresenter.md)
-- [FlyoutBase](../windows.ui.xaml.controls.primitives/flyoutbase.md)
-- [Flyout](flyout.md)
-- [Button.Flyout](button_flyout.md)
-- [Attached properties overview](https://docs.microsoft.com/en-us/windows/uwp/xaml-platform/attached-properties-overview)
-- [Context menu sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlContextMenu)
+[Menus and context menus overview](https://docs.microsoft.com/en-us/windows/uwp/controls-and-patterns/menus), [MenuFlyoutPresenter](menuflyoutpresenter.md), [FlyoutBase](../windows.ui.xaml.controls.primitives/flyoutbase.md), [Flyout](flyout.md), [Button.Flyout](button_flyout.md), [Attached properties overview](https://docs.microsoft.com/en-us/windows/uwp/xaml-platform/attached-properties-overview), [Context menu sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlContextMenu)

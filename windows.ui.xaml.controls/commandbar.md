@@ -139,6 +139,4 @@ This example creates the command bar shown in Remarks.
 
 
 ## -see-also
-- [Guidelines for command bars](https://docs.microsoft.com/en-us/windows/uwp/controls-and-patterns/app-bars)
-- [CommandBar styles and templates](http://msdn.microsoft.com/library/9320d248-1388-4b46-8065-10d4f76976aa)
-- [Commanding sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620019)
+[Guidelines for command bars](https://docs.microsoft.com/en-us/windows/uwp/controls-and-patterns/app-bars), [CommandBar styles and templates](http://msdn.microsoft.com/library/9320d248-1388-4b46-8065-10d4f76976aa), [Commanding sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620019)

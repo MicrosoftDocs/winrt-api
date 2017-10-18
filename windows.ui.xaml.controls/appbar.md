@@ -94,6 +94,4 @@ This example shows a top app bar with a group of navigation buttons and a search
 <!--<auto_snippet sample_id="BasicControlSnippets" snippet_id="BasicAppBarXAML"/>-->
 
 ## -see-also
-- [Guidelines for command and app bars](https://docs.microsoft.com/en-us/windows/uwp/controls-and-patterns/app-bars)
-- [AppBar styles and templates](http://msdn.microsoft.com/library/2e029026-a6c0-4833-a274-cc033802c1b5), - [AppBarButton](appbarbutton.md)
-- [CommandBar](commandbar.md)
+[Guidelines for command and app bars](https://docs.microsoft.com/en-us/windows/uwp/controls-and-patterns/app-bars), [AppBar styles and templates](http://msdn.microsoft.com/library/2e029026-a6c0-4833-a274-cc033802c1b5), [AppBarButton](appbarbutton.md), [CommandBar](commandbar.md)
