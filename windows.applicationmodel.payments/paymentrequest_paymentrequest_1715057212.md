@@ -17,7 +17,7 @@ Creates a new PaymentRequest object.
 The details.
 
 ### -param methodData
-The method daya.
+The method data.
 
 ### -param merchantInfo
 The merchantInfo.
