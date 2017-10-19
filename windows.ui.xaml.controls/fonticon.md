@@ -39,6 +39,4 @@ This example shows an [AppBarToggleButton](appbartogglebutton.md) with a [FontIc
 
 
 ## -see-also
-- [IconElement](iconelement.md)
-- [AppBarButton](appbarbutton.md)
-- [Icons for UWP apps](https://docs.microsoft.com/en-us/windows/uwp/style/icons)
+[IconElement](iconelement.md), [AppBarButton](appbarbutton.md), [Icons for UWP apps](https://docs.microsoft.com/en-us/windows/uwp/style/icons)
