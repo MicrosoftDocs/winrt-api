@@ -18,8 +18,9 @@ An identifier is assigned to each ink stroke managed by the [InkPresenter](inkpr
 The unique identifier for the ink stroke.
 
 ## -remarks
-This unique identifier persists through serialization/deserialization of the ink stroke.
-A Clone() of an ink stroke will generate a new unique identifier.
+This unique identifier does not persist unchanged through serialization/deserialization of the ink stroke.
+After deserialization a new identifer will be assigned.
+A Clone() of an ink stroke will also generate a new unique identifier.
 
 ## -examples
 
