@@ -10,10 +10,10 @@ public event Windows.Foundation.TypedEventHandler PackageInstalling<Windows.Appl
 # Windows.ApplicationModel.PackageCatalog.PackageInstalling
 
 ## -description
-Indicates that an optional app package is installing.
+Indicates that an app package is installing.
 
 ## -remarks
-Apps only receive package events for their optional packages.
+Apps only receive package events for itself or its related packages such as optional packages.
 
 ## -examples
 
