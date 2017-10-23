@@ -10,7 +10,7 @@ public class PackageUninstallingEventArgs : Windows.ApplicationModel.IPackageUni
 # Windows.ApplicationModel.PackageUninstallingEventArgs
 
 ## -description
-Provides information about the optional package that is being uninstalled.
+Provides information about the app package that is being uninstalled.
 
 ## -remarks
 This object is passed to the app's package uninstalling event handler.

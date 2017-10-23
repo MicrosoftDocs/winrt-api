@@ -10,10 +10,10 @@ public event Windows.Foundation.TypedEventHandler PackageStatusChanged<Windows.A
 # Windows.ApplicationModel.PackageCatalog.PackageStatusChanged
 
 ## -description
-Indicates that an optional package has been removed or updated
+Indicates that an app package has been removed or updated
 
 ## -remarks
-Apps only receive package events for their optional packages.
+Apps only receive package events for itself or its related packages such as optional packages.
 
 ## -examples
 

@@ -10,10 +10,10 @@ public event Windows.Foundation.TypedEventHandler PackageUpdating<Windows.Applic
 # Windows.ApplicationModel.PackageCatalog.PackageUpdating
 
 ## -description
-Indicates that an optional app package is being updated.
+Indicates that an app package is being updated.
 
 ## -remarks
-Apps only receive package events for their optional packages.
+Apps only receive package events for itself or its related packages such as optional packages.
 
 ## -examples
 
