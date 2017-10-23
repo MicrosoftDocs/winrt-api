@@ -600,16 +600,16 @@ E294 <img alt="Scan icon" src="images/symbol/scan.PNG" />
 E295 <img alt="Preview icon" src="images/symbol/preview.PNG" />
 
 ### -field GlobalNavigationButton:59136
-E700 <img alt="GlobalNav icon" src="images/segoe-mdl/e700.PNG" />
+E700 <img alt="GlobalNav icon" src="images/segoe-mdl/e700.png" />
 
 ### -field Print:59209
-E749 <img alt="Print icon" src="images/segoe-mdl/e749.PNG" />
+E749 <img alt="Print icon" src="images/segoe-mdl/e749.png" />
 
 ### -field Share:59181
-E72D <img alt="Share icon" src="images/segoe-mdl/e72d.PNG" />
+E72D <img alt="Share icon" src="images/segoe-mdl/e72d.png" />
 
 ### -field XboxOneConsole:59792
-E990 <img alt="Xbox icon" src="images/segoe-mdl/e990.PNG" />
+E990 <img alt="Xbox icon" src="images/segoe-mdl/e990.png" />
 
 ## -remarks
 The [Symbol](symbol.md) enumeration is typically used to set the value of the [AppBarButton.Icon](appbarbutton_icon.md) property or the [SymbolIcon.Symbol](symbolicon_symbol.md) property. For more info and examples, see the documentation for [AppBarButton](appbarbutton.md) and [SymbolIcon](symbolicon.md).
