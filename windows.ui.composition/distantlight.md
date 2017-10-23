@@ -37,7 +37,7 @@ An infinitely large distant light source that emits light in a single direction.
 
 _distantLight = _compositor.CreateDistantLight(); 
 _distantLight.Color = Colors.Yellow; 
-_distantLight.Direction = new Vector3(0,-1, 0) 
+_distantLight.Direction = new Vector3(0,-1, 0); 
 _distantLight.CoordinateSpace = root; 
 _distantLight.Targets.Add(root); 
          

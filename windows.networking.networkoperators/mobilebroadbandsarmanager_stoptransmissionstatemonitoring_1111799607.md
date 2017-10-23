@@ -10,7 +10,7 @@ public void MobileBroadbandSarManager.StopTransmissionStateMonitoring()
 # Windows.Networking.NetworkOperators.MobileBroadbandSarManager.StopTransmissionStateMonitoring
 
 ## -description
-Stops monitoring the transition state change on the device.
+Stops monitoring the transmission state change on the device.
 
 ## -remarks
 
