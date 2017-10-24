@@ -28,9 +28,14 @@ The customer can't give consent for reasons outside their control, such as a gro
 
 ## -remarks
 
+These APIs work with **TruePlay**, a system on Windows 10 that helps to combat cheating in PC games. A game enrolled in TruePlay will run in a protected process, which mitigates a class of common attacks. The TruePlay APIs for UWP allow limited interaction between games and the game monitoring system on Windows 10 PCs.
+
+You can use these WinRT APIs, in tandem with the native APIs in **&lt;gamemonitor.h&gt;**, to work with the game monitoring system. See [TruePlay](https://msdn.microsoft.com/library/windows/desktop/mt808781) for more information.
+
 ## -see-also
 
-* [Windows.Gaming.UI.GameMonitor.RequestPermissionAsync](gamemonitor_requestpermissionasync_211338549.md)
+[Windows.Gaming.UI.GameMonitor.RequestPermissionAsync](gamemonitor_requestpermissionasync_211338549.md),
+[TruePlay](https://msdn.microsoft.com/library/windows/desktop/mt808781)
 
 ## -examples
 

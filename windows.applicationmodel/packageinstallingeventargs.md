@@ -10,7 +10,7 @@ public class PackageInstallingEventArgs : Windows.ApplicationModel.IPackageInsta
 # Windows.ApplicationModel.PackageInstallingEventArgs
 
 ## -description
-Provides information about the optional package that is being installed.
+Provides information about the app package that is being installed.
 
 ## -remarks
 This object is passed to [PackageCatalog.PackageInstalling event](packagecatalog_packageinstalling.md)
