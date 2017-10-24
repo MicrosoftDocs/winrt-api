@@ -19,8 +19,7 @@ Visual objects are thread-agile and not bound to the UI thread.
 
 ### Animatable properties
 
-The following properties of Visual are animatable by associating them with a [KeyFrameAnimation](keyframeanimation.md) or [ExpressionAnimation](expressionanimation.md) using [CompositionObject::StartAnimation](compositionobject_startanimation.md):
-
+The following properties can be animated. Call [CompositionObject.StartAnimation](compositionobject_startanimation_709050842.md) to associate the property with a [CompositionAnimation](https://docs.microsoft.com/windows/uwp/composition/composition-animation).
 
 + [Size](visual_size.md)
 + [Offset](visual_offset.md)
