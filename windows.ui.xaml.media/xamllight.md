@@ -109,8 +109,10 @@ public sealed class OrangeSpotLight : XamlLight
         // OnDisconnected is called when there are no more target UIElements on the screen. The CompositionLight should be disposed when no longer required.
         if (CompositionLight != null)
         {
-            CompositionLight.Dispose();
+            var temp = CompositionLight;
             CompositionLight = null;
+            temp.Dispose();
+            
         }
     }
 
