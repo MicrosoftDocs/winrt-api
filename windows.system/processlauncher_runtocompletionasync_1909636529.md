@@ -37,8 +37,6 @@ For example:
     reg ADD "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\EmbeddedMode\ProcessLauncher" /f /v AllowedExecutableFilesList /t REG_MULTI_SZ /d "c:\windows\system32\cmd.exe\0"
 ```
 
-Alternatively, click or tap the button below to enter your Administrator account's password and attempt to enable the command line processor.
-
 ## -examples
 
 ## -see-also
