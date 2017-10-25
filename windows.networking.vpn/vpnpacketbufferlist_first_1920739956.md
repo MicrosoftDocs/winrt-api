@@ -10,7 +10,7 @@ public Windows.Foundation.Collections.IIterator<Windows.Networking.Vpn.VpnPacket
 # Windows.Networking.Vpn.VpnPacketBufferList.First
 
 ## -description
-Not supported. Provides access to the First parameter. This SDK programming element is introduced in Windows PowerShell 3.0.
+Provides access to the First parameter. This SDK programming element is introduced in Windows PowerShell 3.0.
 
 ## -returns
 Returns **IVpnPacketBuffer**.
