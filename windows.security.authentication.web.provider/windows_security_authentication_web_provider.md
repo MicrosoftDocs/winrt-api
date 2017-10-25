@@ -13,3 +13,4 @@ Contains classes for managing web accounts and authentication requests as an onl
 ## -examples
 
 ## -see-also
+[Windows.Security.Credentials namespace](https://docs.microsoft.com/uwp/api/windows.security.credentials)

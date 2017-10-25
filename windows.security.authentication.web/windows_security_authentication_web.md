@@ -12,7 +12,7 @@ The single sign-on (SSO) mode of the web authentication broker APIs is provided 
 
 The [Web authentication broker sample](http://code.msdn.microsoft.com/windowsapps/Web-Authentication-d0485122) in the Samples gallery is an example of how to use single sign on (SSO) for connections.
 
-If your app or its companion website accesses user data in Outlook.com or Microsoft OneDrive, the Live Connect API hide some of the complexities of authentication tokens and make it a bit easier to write code to work with these cloud services. For more info about the Live Connect API, see [Using Live Connect to personalize apps (HTML)](http://msdn.microsoft.com/library/d60424a9-4dab-4d3d-8819-3abc40706acb) or [Using Live Connect to personalize apps (XAML)](http://msdn.microsoft.com/library/44239449-a12b-4e93-8fab-519e5c63f283).
+If your app or its companion website accesses user data in Outlook.com or Microsoft OneDrive, the Live Connect API hides some of the complexities of authentication tokens and make it a bit easier to write code to work with these cloud services. For more information about the Live Connect API, see [Using Live Connect to personalize apps (HTML)](http://msdn.microsoft.com/library/d60424a9-4dab-4d3d-8819-3abc40706acb) or [Using Live Connect to personalize apps (XAML)](http://msdn.microsoft.com/library/44239449-a12b-4e93-8fab-519e5c63f283).
 
 ## -remarks
 

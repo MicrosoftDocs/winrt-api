@@ -17,4 +17,4 @@ Represents the results of a web token request to an identity provider.
 ## -examples
 
 ## -see-also
-[Web account management code sample](http://go.microsoft.com/fwlink/p/?LinkId=620621)
+[Connect to identity providers with Web Account Manager](https://docs.microsoft.com/windows/uwp/security/web-account-manager), [Web account management sample](http://go.microsoft.com/fwlink/p/?LinkId=620621)
