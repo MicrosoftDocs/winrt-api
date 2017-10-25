@@ -15,6 +15,7 @@ The accuracy of the location information depends on the source. The latitude and
 + **Wi-Fi :** between approximately 30 meters and 500 meters
 + **Cell towers :** between approximately 300 meters and 3,000 meters
 + **IP address :** between approximately 1,000 meters and 5,000 meters
+
 In addition to latitude and longitude, GPS also provides information about heading, speed, and altitude. This additional information is optional when the location information comes from other sources.
 
 The user sets the privacy of their location data with the **location privacy settings** in the **Settings** app. Your app can access the user's location only when:
