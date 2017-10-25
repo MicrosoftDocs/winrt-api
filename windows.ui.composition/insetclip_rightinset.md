@@ -10,13 +10,14 @@ public float RightInset { get;  set; }
 # Windows.UI.Composition.InsetClip.RightInset
 
 ## -description
-The offset from the right of the visual. Animatable. The portion of the visual to the right of the RightInset will be clipped.
+The offset from the right of the visual. The portion of the visual to the right of the RightInset will be clipped. Animatable.
 
 ## -property-value
 The offset from the right of the visual.
 
 ## -remarks
-This property is animatable and can be associated with a [KeyFrameAnimation](keyframeanimation.md) or [ExpressionAnimation](expressionanimation.md) using [CompositionObject::StartAnimation](compositionobject_startanimation.md).
+
+This property can be animated. Call [CompositionObject.StartAnimation](compositionobject_startanimation_709050842.md) to associate it with a [CompositionAnimation](https://docs.microsoft.com/windows/uwp/composition/composition-animation).
 
 ## -examples
 

@@ -16,7 +16,8 @@ The offset of the visual relative to its parent or for a root visual the offset 
 Offset of the visual relative to its parent.
 
 ## -remarks
-This property is animatable and can be associated with a [KeyFrameAnimation](keyframeanimation.md) or [ExpressionAnimation](expressionanimation.md) using [CompositionObject::StartAnimation](compositionobject_startanimation.md).
+
+This property can be animated. Call [CompositionObject.StartAnimation](compositionobject_startanimation_709050842.md) to associate it with a [CompositionAnimation](https://docs.microsoft.com/windows/uwp/composition/composition-animation).
 
 ## -examples
 
