@@ -1,4 +1,4 @@
-s--
+---
 -api-id: P:Windows.Media.MediaProperties.MediaEncodingSubtypes.Mp3
 -api-type: winrt property
 ---
