@@ -10,7 +10,7 @@ public Windows.Networking.Vpn.VpnPacketBuffer RemoveAtBegin()
 # Windows.Networking.Vpn.VpnPacketBufferList.RemoveAtBegin
 
 ## -description
-Not supported. Remove the **IVpnPacketBuffer** object at the start of the **IVpnPacketBufferList**.
+Remove the **IVpnPacketBuffer** object at the start of the **IVpnPacketBufferList**.
 
 ## -returns
 The **IVpnPacketBuffer** object which was at the start of the **IVpnPacketBufferList**.

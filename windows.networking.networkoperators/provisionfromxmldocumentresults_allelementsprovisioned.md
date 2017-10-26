@@ -14,7 +14,7 @@ public bool AllElementsProvisioned { get; }
 Determines whether all elements specified in the provisioning XML were applied.
 
 > [!NOTE]
-> This functionality is only available to mobile operator apps and Windows Store apps given privileged access by mobile network operators.
+> This functionality is only available to mobile operator apps and UWP apps given privileged access by mobile network operators.
 
 
 

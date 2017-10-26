@@ -13,7 +13,7 @@ public class RoutedEventArgs : Windows.UI.Xaml.IRoutedEventArgs
 Contains state information and event data associated with a routed event.
 
 ## -remarks
-[RoutedEventArgs](routedeventargs.md) is a common event data type used for base element events in Windows Store app using C++, C#, or Visual Basic. Generally [RoutedEventArgs](routedeventargs.md) as the event data type indicates that the event with this event data is a *routed event*, although there are some exceptions. For more info on routed events and how to handle them, see [Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
+[RoutedEventArgs](routedeventargs.md) is a common event data type used for base element events in UWP app using C++, C#, or Visual Basic. Generally [RoutedEventArgs](routedeventargs.md) as the event data type indicates that the event with this event data is a *routed event*, although there are some exceptions. For more info on routed events and how to handle them, see [Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
 
 The API that [RoutedEventArgs](routedeventargs.md) adds to a generalized event data set is [OriginalSource](routedeventargs_originalsource.md). [OriginalSource](routedeventargs_originalsource.md) can be useful for determining the element that first raised the event for hit testing and event routing scenarios, but there are also times where the *sender* from the delegate signature is the more useful source object reference for a handler. For more info, see [Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
 

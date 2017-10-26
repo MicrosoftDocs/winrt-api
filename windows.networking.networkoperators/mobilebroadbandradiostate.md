@@ -14,7 +14,7 @@ public enum Windows.Networking.NetworkOperators.MobileBroadbandRadioState : int
 Describes radio states for a Mobile Broadband device.
 
 > [!NOTE]
-> This functionality is only available to mobile operator apps and Windows Store apps given privileged access by mobile network operators.
+> This functionality is only available to mobile operator apps and UWP apps given privileged access by mobile network operators.
 
 
 

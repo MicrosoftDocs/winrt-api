@@ -14,7 +14,7 @@ public class MobileBroadbandAccountWatcher : Windows.Networking.NetworkOperators
 Provides information regarding availability of and updates to Mobile Broadband Accounts.
 
 > [!NOTE]
-> This functionality is only available to mobile operator apps and Windows Store apps given privileged access by mobile network operators.
+> This functionality is only available to mobile operator apps and UWP apps given privileged access by mobile network operators.
 
 
 

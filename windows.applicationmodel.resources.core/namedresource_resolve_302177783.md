@@ -20,7 +20,7 @@ The context against which the [NamedResource](namedresource.md) should be resolv
 The most appropriate candidate for the specified context.
 
 ## -remarks
-The resource management system for Windows Store app supports the tailoring of resources for scale. Starting in Windows 8.1, different views owned by an app are able to display simultaneously on different display devices that may use different scales. In this way, scale is a per-view characteristic.
+The resource management system for UWP apps supports the tailoring of resources for scale. Starting in Windows 8.1, different views owned by an app are able to display simultaneously on different display devices that may use different scales. In this way, scale is a per-view characteristic.
 
 Since the [Resolve](namedresource_resolve_302177783.md) method selects the best candidate for a [NamedResource](namedresource.md) in relation to a runtime context, and since the scale qualifier of a [ResourceContext](resourcecontext.md) depends on the associated view, the [Resolve](namedresource_resolve_302177783.md) should always be called passing a [ResourceContext](resourcecontext.md) object obtained from the view in which the resource will be used.
 

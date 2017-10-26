@@ -16,7 +16,7 @@ Gets the splash screen object that provides information about the transition fro
 The object that provides splash screen information.
 
 ## -remarks
-Do not declare device capabilities for webcam or location. Those capabilities will cause a prompt for permissions to appear, which will obstruct the UI in your Windows Store app.
+Do not declare device capabilities for webcam or location. Those capabilities will cause a prompt for permissions to appear, which will obstruct the UI in your UWP app.
 
 ## -examples
 

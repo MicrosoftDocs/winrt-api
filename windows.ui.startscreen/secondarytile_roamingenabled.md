@@ -18,7 +18,7 @@ Gets or sets a value that determines whether the secondary tile will be reacquir
 ## -property-value
 Set to **true** if roaming is enabled; otherwise, **false**. The default is **true**. 
 
-> Setting this value in a Windows Phone Store app has no effect, and this property always returns **false**.
+> Setting this value in a Windows Phone 8.x app has no effect, and this property always returns **false**.
 
 ## -remarks
 

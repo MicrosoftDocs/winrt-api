@@ -21,7 +21,7 @@ Allows access to the thread pool. See [Threading and async programming](http://m
 + [How to respond to named events and semaphores](http://msdn.microsoft.com/library/f59b59ee-d21d-4c93-9c40-b0097a8ca351)
 + [How to use functions as work item delegates](http://msdn.microsoft.com/library/0a813157-f1d0-4f23-b354-ff41d27bc0ca)
 > [!NOTE]
-> The ThreadPool API is supported for desktop as well as Windows Store apps.
+> The ThreadPool API is supported for desktop as well as UWP apps.
 
 ## -remarks
 The [ThreadPool](threadpool.md) class has only static methods, so its methods can be called without creating an instance of the class.

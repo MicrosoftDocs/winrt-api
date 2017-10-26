@@ -10,7 +10,7 @@ public event Windows.Foundation.TypedEventHandler PointerPressed<object,  Window
 # Windows.UI.Core.CoreIndependentInputSource.PointerPressed
 
 ## -description
-Occurs when a mouse button is clicked, or a touch or pen contact is detected, within the bounding rectangle of the Windows Store app.
+Occurs when a mouse button is clicked, or a touch or pen contact is detected, within the bounding rectangle of the UWP app.
 
 ## -remarks
 

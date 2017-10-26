@@ -10,7 +10,7 @@ public class StoreRequestHelper
 # Windows.Services.Store.StoreRequestHelper
 
 ## -description
-Provides a helper method that can be used to send requests to the Windows Store for operations that do not yet have a corresponding API available in the Windows SDK.
+Provides a helper method that can be used to send requests to the Microsoft Store for operations that do not yet have a corresponding API available in the Windows SDK.
 
 ## -remarks
 

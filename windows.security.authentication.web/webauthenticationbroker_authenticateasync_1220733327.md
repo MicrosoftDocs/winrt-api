@@ -26,7 +26,7 @@ The callback URI that indicates the completion of the web authentication. The br
 The way to query the status and get the results of the authentication operation. If you are getting an invalid parameter error, the most common cause is that you are not using HTTPS for the *requestUri* parameter.
 
 ## -remarks
-When this method is used, no session state or persisted cookies are retained across multiple calls from the same or different Windows Store app. This method must be called on the UI thread.
+When this method is used, no session state or persisted cookies are retained across multiple calls from the same or different UWP app. This method must be called on the UI thread.
 
 ## -examples
 

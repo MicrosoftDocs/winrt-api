@@ -14,7 +14,7 @@ public Windows.Networking.Connectivity.NetworkAdapter NetworkAdapter { get; }
 Gets the network interface that is connected to the WLAN access point of the hotspot.
 
 > [!NOTE]
-> This functionality is only available to mobile operator apps and Windows Store apps given privileged access by mobile network operators.
+> This functionality is only available to mobile operator apps and UWP apps given privileged access by mobile network operators.
 
 
 

@@ -16,7 +16,7 @@ Values that describe the action to be taken on a message filter.
 Messaging apps use SMS filters when they use SMS to communicate app-specific data that is not necessarily intended to be displayed to the user. Note that filters are processed in a fixed order, by filter action type. All **AcceptImmediately** filters are processed first, then all **Drop** filters, and so on.
 
 > [!NOTE]
-> This functionality is only available to mobile operator apps and Windows Store app given privileged access by mobile network operators, mobile broadband adapter IHV, or OEM. For more information, see [Mobile Broadband:  device apps](http://msdn.microsoft.com/library/windows/hardware/hh852368.aspx).
+> This functionality is only available to mobile operator apps and UWP apps given privileged access by mobile network operators, mobile broadband adapter IHV, or OEM. For more information, see [Mobile Broadband:  device apps](http://msdn.microsoft.com/library/windows/hardware/hh852368.aspx).
 
 ## -enum-fields
 ### -field AcceptImmediately:0

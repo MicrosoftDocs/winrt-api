@@ -16,7 +16,7 @@ Gets the execution state of the app before it was activated.
 One of the enumeration values.
 
 ## -remarks
-Do not declare device capabilities for webcam or location. Those capabilities will cause a prompt for permissions to appear, which will obstruct the UI in your Windows Store app.
+Do not declare device capabilities for webcam or location. Those capabilities will cause a prompt for permissions to appear, which will obstruct the UI in your UWP app.
 
 ## -examples
 

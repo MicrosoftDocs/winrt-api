@@ -34,13 +34,13 @@ The [InitializeAsync](mediacapture_initializeasync.md) method, which initializes
 
 > On Windows, music and media capture apps should monitor the [SystemMediaTransportControls.SoundLevel](../windows.media/systemmediatransportcontrols_soundlevel.md) to determine whether the audio streams on the app have been [Muted](../windows.media/soundlevel.md). For apps using the [MediaCapture](mediacapture.md) object, capture will be automatically stopped when the capture streams of the app are muted. Capture is not re-started automatically when the audio streams are unmuted, so the [SoundLevel](../windows.media/systemmediatransportcontrols_soundlevel.md) changed notification can be used to restart capture. Use the [SystemMediaTransportControls.PropertyChanged](../windows.media/systemmediatransportcontrols_propertychanged.md) event to determine when the [SoundLevel](../windows.media/systemmediatransportcontrols_soundlevel.md) property changes.
 
-> For Windows Phone Store app, music and media apps should clean up the [MediaCapture](mediacapture.md) object and associated resources in the [Suspending](../windows.applicationmodel.core/coreapplication_suspending.md) event handler and recreate them in the [Resuming](../windows.applicationmodel.core/coreapplication_resuming.md) event handler.
+> For Windows Phone 8.x apps, music and media apps should clean up the [MediaCapture](mediacapture.md) object and associated resources in the [Suspending](../windows.applicationmodel.core/coreapplication_suspending.md) event handler and recreate them in the [Resuming](../windows.applicationmodel.core/coreapplication_resuming.md) event handler.
 
 In Windows 8.1 audio only apps, if the [MediaCategory](mediacapturesettings_mediacategory.md) setting is [Other](mediacategory.md), then high latency mode is used. For low latency, set the [MediaCategory](mediacapturesettings_mediacategory.md) setting to [Communications](mediacategory.md).
 
 Adding an in-place editing Media Foundation Transform effect into the capture preview will have no effect on the stream.
 
-Windows 8Windows Store app that have declared both the webcam and microphone capabilities will not function in Windows 8.1 if the user has not enabled both the webcam and microphone privacy settings.
+Windows 8 UWP apps that have declared both the webcam and microphone capabilities will not function in Windows 8.1 if the user has not enabled both the webcam and microphone privacy settings.
 
 [MediaCapture](mediacapture.md) only supports one pass CBR encoding.
 

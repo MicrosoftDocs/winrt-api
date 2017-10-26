@@ -35,10 +35,10 @@ When you set this option, only the required content group will be staged. An app
 You can use the **DevelopmentMode** option to install apps without requiring an app package. Instead, the deployment engine processes the AppxManifest.xml file directly, which allows for a more rapid development cycle. The BlockMap.xml, [Content_Types].xml, and digital signature files are not required for app installation in **DevelopmentMode**.
 
 
-To successfully install an app in **DevelopmentMode**, it must meet these additional conditions beyond what is typically required for Windows Store app:
+To successfully install an app in **DevelopmentMode**, it must meet these additional conditions beyond what is typically required for UWP apps:
 
 + The app must be unique to the current user account. No other user can have an app with the same package family name installed on the computer.
-+ If a previous version of the app was installed, the previous version must also be installed in **DevelopmentMode**. Windows Store app can't be updated with a **DevelopmentMode** app and vice versa.
++ If a previous version of the app was installed, the previous version must also be installed in **DevelopmentMode**. UWP apps can't be updated with a **DevelopmentMode** app and vice versa.
 + The app must be on an Microsoft Windows NT File System (NTFS) partition. Partitions with other formats are unsupported.
 + The app must be on a local drive. Installation from network locations is unsupported.
 + The app must be in an unencrypted location. Installation from encrypted directories is unsupported.

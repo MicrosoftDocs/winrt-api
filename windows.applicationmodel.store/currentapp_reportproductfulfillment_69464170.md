@@ -10,7 +10,7 @@ public void ReportProductFulfillment(System.String productId)
 # Windows.ApplicationModel.Store.CurrentApp.ReportProductFulfillment
 
 ## -description
-Notifies the Windows Store that the application has fulfilled the in-app product. This product cannot be re-purchased until the app has confirmed fulfillment using this method.
+Notifies the Microsoft Store that the application has fulfilled the in-app product. This product cannot be re-purchased until the app has confirmed fulfillment using this method.
 
 ## -parameters
 ### -param productId

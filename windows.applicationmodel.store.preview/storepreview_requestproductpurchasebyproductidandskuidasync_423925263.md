@@ -10,7 +10,7 @@ public Windows.Foundation.IAsyncOperation<Windows.ApplicationModel.Store.Preview
 # Windows.ApplicationModel.Store.Preview.StorePreview.RequestProductPurchaseByProductIdAndSkuIdAsync
 
 ## -description
-Requests the purchase of a SKU for an in-app product that is associated with the current app. Calling this method displays the UI that is used to complete the transaction via the Windows Store.
+Requests the purchase of a SKU for an in-app product that is associated with the current app. Calling this method displays the UI that is used to complete the transaction via the Microsoft Store.
 
 ## -parameters
 ### -param productId

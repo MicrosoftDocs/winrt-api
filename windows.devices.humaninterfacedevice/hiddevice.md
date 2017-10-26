@@ -14,7 +14,7 @@ public class HidDevice : Windows.Devices.HumanInterfaceDevice.IHidDevice, Window
 Represents a top-level collection and the corresponding device.
 
 ## -remarks
-The following example demonstrates how a Windows Store app built with XAML and C# uses the **GetDeviceSelector** method to create a selector for a specific HID device and then uses** FromIdAsync** method to open a connection to that device.
+The following example demonstrates how a UWP app built with XAML and C# uses the **GetDeviceSelector** method to create a selector for a specific HID device and then uses** FromIdAsync** method to open a connection to that device.
 
 
 

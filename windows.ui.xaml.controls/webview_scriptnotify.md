@@ -20,7 +20,7 @@ Occurs when the content contained in the [WebView](webview.md) control passes a 
 
 
 ## -remarks
-A hosted HTML page can fire the [ScriptNotify](webview_scriptnotify.md) event in your Windows Store app when the page calls **window.external.notify** and passes a string parameter.
+A hosted HTML page can fire the [ScriptNotify](webview_scriptnotify.md) event in your UWP app when the page calls **window.external.notify** and passes a string parameter.
 
 > [!NOTE]
 > Because this event is initiated by external code, you should be careful about what you put in the event handler. To prevent malicious scripts from exploiting this event, be sure to enable it only for trusted URIs, as described below.

@@ -6,7 +6,7 @@
 # Windows.UI.Xaml.Markup
 
 ## -description
-Provides XAML language support API for Windows Store app and the Windows Runtime.
+Provides XAML language support API for UWP app and the Windows Runtime.
 
 ## -remarks
 Many of the types in this namespace are infrastructure or types that support uncommon scenarios. But there are two types in this namespace that apps might use in more typical app scenarios.

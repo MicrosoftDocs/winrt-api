@@ -14,7 +14,7 @@ public enum Windows.Networking.NetworkOperators.NetworkOperatorEventMessageType 
 Describes the type of a network operator notification message.
 
 > [!NOTE]
-> This functionality is only available to mobile operator apps and Windows Store apps given privileged access by mobile network operators.
+> This functionality is only available to mobile operator apps and UWP apps given privileged access by mobile network operators.
 
 
 

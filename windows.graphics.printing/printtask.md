@@ -14,7 +14,7 @@ public class PrintTask : Windows.Graphics.Printing.IPrintTask, Windows.Graphics.
 Represents a printing operation including the content to be printed, as well as providing access to information describing how the content is to be printed.
 
 ## -remarks
-The **PrintTask** object represents a printing operation for Windows Store app. The app is responsible for creating a **PrintTask** that is requested via the [PrintTaskRequested](printmanager_printtaskrequested.md) event on the [PrintManager](printmanager.md) object. To create **PrintTask** you must provide the name for the task and a [PrintTaskSourceRequestedHandler](printtasksourcerequestedhandler.md) delegate which is called when the user is ready to begin printing.
+The **PrintTask** object represents a printing operation for UWP apps. The app is responsible for creating a **PrintTask** that is requested via the [PrintTaskRequested](printmanager_printtaskrequested.md) event on the [PrintManager](printmanager.md) object. To create **PrintTask** you must provide the name for the task and a [PrintTaskSourceRequestedHandler](printtasksourcerequestedhandler.md) delegate which is called when the user is ready to begin printing.
 
 If the user decides not to print the task, the task may be completed without ever requesting the document source.
 

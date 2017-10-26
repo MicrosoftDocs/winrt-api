@@ -10,7 +10,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Foundation.Collections.IVector
 # Windows.ApplicationModel.Store.CurrentApp.GetUnfulfilledConsumablesAsync
 
 ## -description
-Returns a list of purchased consumable in-app products that have not been reported to the Windows Store as fulfilled.
+Returns a list of purchased consumable in-app products that have not been reported to the Microsoft Store as fulfilled.
 
 ## -returns
 When the operation completes, a list of consumable in-app products not yet reported as fulfilled is returned ([UnfulfilledConsumable](unfulfilledconsumable.md) objects). Each item of this list provides the product ID, offer ID, and transaction ID associated with a product.

@@ -21,9 +21,9 @@ If [Kind](camerasettingsactivatedeventargs_kind.md) is **CameraSettings**, the a
 
 
 > [!NOTE]
-> Do not declare device capabilities for webcam or location. Those capabilities will cause a prompt for permissions to appear, which will obstruct the UI in your Windows Store app.
+> Do not declare device capabilities for webcam or location. Those capabilities will cause a prompt for permissions to appear, which will obstruct the UI in your UWP app.
 
 ## -examples
 
 ## -see-also
-[Windows Store device app for camera sample](http://go.microsoft.com/fwlink/p/?LinkID=249442), [Developing  device apps for cameras](http://go.microsoft.com/fwlink/p/?LinkId=226802)
+[Microsoft Store device app for camera sample](http://go.microsoft.com/fwlink/p/?LinkID=249442), [Developing  device apps for cameras](http://go.microsoft.com/fwlink/p/?LinkId=226802)

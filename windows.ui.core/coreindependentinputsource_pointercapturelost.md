@@ -10,7 +10,7 @@ public event Windows.Foundation.TypedEventHandler PointerCaptureLost<object,  Wi
 # Windows.UI.Core.CoreIndependentInputSource.PointerCaptureLost
 
 ## -description
-Occurs when a pointer moves to another Windows Store app. This event is raised after [PointerExited](coreindependentinputsource_pointerexited.md) and is the final event received by the app for this pointer.
+Occurs when a pointer moves to another UWP app. This event is raised after [PointerExited](coreindependentinputsource_pointerexited.md) and is the final event received by the app for this pointer.
 
 ## -remarks
 

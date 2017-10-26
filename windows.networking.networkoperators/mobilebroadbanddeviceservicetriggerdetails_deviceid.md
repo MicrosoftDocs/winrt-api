@@ -14,7 +14,7 @@ public string DeviceId { get; }
 Gets the device ID of the device that triggered a broadband device service event.
 
 > [!NOTE]
-> This functionality is only available to mobile operator apps and Windows Store apps given privileged access by mobile network operators.
+> This functionality is only available to mobile operator apps and UWP apps given privileged access by mobile network operators.
 
 
 

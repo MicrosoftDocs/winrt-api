@@ -20,7 +20,7 @@ A string that contains a valid XAML fragment.
 The root object of the created object tree.
 
 ## -remarks
-[XamlReader](xamlreader.md) provides object construction behavior that parallels how XAML is parsed by the Windows Runtime XAML parser and the use of XAML for defining the UI of a Windows Store app. Parsing the XAML input with [XamlReader.Load](xamlreader_load.md) generates run-time object trees of Windows Runtime objects. The object tree provides a way to program against those objects at run time, by walking through parts of the complete tree.
+[XamlReader](xamlreader.md) provides object construction behavior that parallels how XAML is parsed by the Windows Runtime XAML parser and the use of XAML for defining the UI of a UWP app. Parsing the XAML input with [XamlReader.Load](xamlreader_load.md) generates run-time object trees of Windows Runtime objects. The object tree provides a way to program against those objects at run time, by walking through parts of the complete tree.
 
 There are several concepts that are important to understand, when you create objects from XAML with the [XamlReader.Load](xamlreader_load.md) method:
 
@@ -38,7 +38,7 @@ There are several concepts that are important to understand, when you create obj
 
 
 ## -examples
-This example creates a single [Ellipse](../windows.ui.xaml.shapes/ellipse.md) from a XAML string, calling [Load](xamlreader_load.md). Then it connects the created but disconnected [Ellipse](../windows.ui.xaml.shapes/ellipse.md) to the [Children](../windows.ui.xaml.controls/panel_children.md) collection of an element that already existed in the running Windows Store app. Finally the example accesses the [Ellipse](../windows.ui.xaml.shapes/ellipse.md) again in the location where it was added by using a query, and changes one of its properties.
+This example creates a single [Ellipse](../windows.ui.xaml.shapes/ellipse.md) from a XAML string, calling [Load](xamlreader_load.md). Then it connects the created but disconnected [Ellipse](../windows.ui.xaml.shapes/ellipse.md) to the [Children](../windows.ui.xaml.controls/panel_children.md) collection of an element that already existed in the running UWP app. Finally the example accesses the [Ellipse](../windows.ui.xaml.shapes/ellipse.md) again in the location where it was added by using a query, and changes one of its properties.
 
 ```csharp
 string xaml =

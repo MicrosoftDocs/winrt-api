@@ -17,7 +17,7 @@ Occurs after a scan operation is complete and all peer apps within wireless rang
 [EnumerationCompleted](peerwatcher_enumerationcompleted.md) event is raised when an enumeration looking for peer apps within range is complete. 
 
 > > [!IMPORTANT]
-> For Windows Phone Store app, calling [PeerFinder.ConnectAsync](peerfinder_connectasync.md) from within an [EnumerationCompleted](peerwatcher_enumerationcompleted.md) event handler will fail. Instead, call it outside of this event handler, for example, when the user has explicitly chosen to connect to a peer.
+> For Windows Phone 8.x apps, calling [PeerFinder.ConnectAsync](peerfinder_connectasync.md) from within an [EnumerationCompleted](peerwatcher_enumerationcompleted.md) event handler will fail. Instead, call it outside of this event handler, for example, when the user has explicitly chosen to connect to a peer.
 
 
 

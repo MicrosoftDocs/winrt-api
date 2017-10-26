@@ -13,7 +13,7 @@ public class CurrentAppSimulator
 Defines methods and properties used to instantiate an object that you can use to get simulated license info during testing.
 
 ## -remarks
-Until the app has been listed in the Windows Store, the [CurrentApp](currentapp.md) object won't work in the app. Use the [CurrentAppSimulator](currentappsimulator.md) to test your app's licensing and in-app products while you develop your app. After you test your app, and before you submit it to the Windows Store, you must replace the instances of [CurrentAppSimulator](currentappsimulator.md) with [CurrentApp](currentapp.md). Your app will fail certification if it uses [CurrentAppSimulator](currentappsimulator.md).
+Until the app has been listed in the Microsoft Store, the [CurrentApp](currentapp.md) object won't work in the app. Use the [CurrentAppSimulator](currentappsimulator.md) to test your app's licensing and in-app products while you develop your app. After you test your app, and before you submit it to the Microsoft Store, you must replace the instances of [CurrentAppSimulator](currentappsimulator.md) with [CurrentApp](currentapp.md). Your app will fail certification if it uses [CurrentAppSimulator](currentappsimulator.md).
 
 When the [CurrentAppSimulator](currentappsimulator.md) is used, the initial licensing state of the app is described in a file named WindowsStoreProxy.xml. [CurrentAppSimulator](currentappsimulator.md) methods that alter the license state, for example by buying a license or handling an in-app purchase, only update the license state of the object in memory. The contents of WindowsStoreProxy.xml are not changed. When the app starts again, the license state reverts to what is described in WindowsStoreProxy.xml.
 

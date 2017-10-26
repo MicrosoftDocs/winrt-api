@@ -15,10 +15,10 @@ Provides access to the current app's license metadata.
 ## -remarks
 For app trial versions of an app, [IsActive](licenseinformation_isactive.md) will return true so long as the trial hasn’t expired. During the trial period the [IsTrial](licenseinformation_istrial.md) returns true; returning false when the customer upgrades to the full version of the app.
 
-You access this object through the [LicenseInformation](currentappsimulator_licenseinformation.md) property of the [CurrentAppSimulator](currentappsimulator.md) object during testing, or the [LicenseInformation](currentapp_licenseinformation.md) property of the [CurrentApp](currentapp.md) object when the app is distributed through the Windows Store.
+You access this object through the [LicenseInformation](currentappsimulator_licenseinformation.md) property of the [CurrentAppSimulator](currentappsimulator.md) object during testing, or the [LicenseInformation](currentapp_licenseinformation.md) property of the [CurrentApp](currentapp.md) object when the app is distributed through the Microsoft Store.
 
 > [!NOTE]
-> The [CurrentApp](currentapp.md) object obtains its data from the Windows Store, which requires that you have a Windows Store developer account and that the app has been published in the Windows Store. If you don't have a Windows Store developer account, you can test the functions of this class by using the [CurrentAppSimulator](currentappsimulator.md).
+> The [CurrentApp](currentapp.md) object obtains its data from the Microsoft Store, which requires that you have a Microsoft Store developer account and that the app has been published in the Microsoft Store. If you don't have a Microsoft Store developer account, you can test the functions of this class by using the [CurrentAppSimulator](currentappsimulator.md).
 
 ## -examples
 

@@ -10,7 +10,7 @@ public bool IsStoreWebAccountIdForUser(Windows.System.User user, System.String w
 # Windows.ApplicationModel.Store.Preview.StoreConfiguration.IsStoreWebAccountIdForUser
 
 ## -description
-Determines whether the specified user and user ID is also being used to sign in to the Windows Store on the device.
+Determines whether the specified user and user ID is also being used to sign in to the Microsoft Store on the device.
 
 ## -parameters
 ### -param user
@@ -20,7 +20,7 @@ An object that identifies the user for which to query.
 The user ID (typically obtained from the [WebAccount.Id](../windows.security.credentials/webaccount_id.md) property) to check.
 
 ## -returns
-True if the user account specified by *webAccountId* is the same account that is signed in to the Windows Store; otherwise false.
+True if the user account specified by *webAccountId* is the same account that is signed in to the Microsoft Store; otherwise false.
 
 ## -remarks
 

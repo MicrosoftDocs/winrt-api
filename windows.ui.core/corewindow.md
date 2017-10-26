@@ -10,7 +10,7 @@ public class CoreWindow : Windows.UI.Core.ICorePointerRedirector, Windows.UI.Cor
 # Windows.UI.Core.CoreWindow
 
 ## -description
-Represents the Windows Store app with input events and basic user interface behaviors.
+Represents the UWP app with input events and basic user interface behaviors.
 
 ## -remarks
 New instances of this class are obtained by calling [CoreApplication.CreateNewView](../windows.applicationmodel.core/coreapplication_createnewview.md) and then inspecting the [CoreWindow](../windows.applicationmodel.core/coreapplicationview_corewindow.md) property on the returned [CoreApplicationView](../windows.applicationmodel.core/coreapplicationview.md) instance. Or you can obtain existing [CoreWindow](corewindow.md) instances for a running app from the [CoreApplication.Views](../windows.applicationmodel.core/coreapplication_views.md) property, or by calling [CoreWindow.GetForCurrentThread](corewindow_getforcurrentthread.md), as seen in the following example.

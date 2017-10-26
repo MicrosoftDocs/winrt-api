@@ -14,7 +14,7 @@ public event Windows.Foundation.TypedEventHandler EnumerationCompleted<Windows.N
 Occurs when the account watcher has finished enumerating accounts for the client.
 
 > [!NOTE]
-> This functionality is only available to mobile operator apps and Windows Store apps given privileged access by mobile network operators.
+> This functionality is only available to mobile operator apps and UWP apps given privileged access by mobile network operators.
 
 
 

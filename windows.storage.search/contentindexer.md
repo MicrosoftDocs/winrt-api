@@ -10,7 +10,7 @@ public class ContentIndexer : Windows.Storage.Search.IContentIndexer, Windows.St
 # Windows.Storage.Search.ContentIndexer
 
 ## -description
-Enables Windows Store apps to make private content searchable by using the system index.
+Enables UWP apps to make private content searchable by using the system index.
 
 ## -remarks
 The ContentIndexer class enables apps to push a property bag into the system index which can later be searched quickily by the app or user. The property bag can contain any properties from the shell property system and is available to search instantly after the API call returns.

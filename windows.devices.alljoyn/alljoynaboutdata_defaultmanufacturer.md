@@ -17,7 +17,7 @@ The name of the manufacturer of the app. This property is a shortcut to the entr
 The manufacturer name.
 
 ## -remarks
-By default the value returned is pulled from the "Publisher display name" field in the app manifest of a Windows Store app, from the "CompanyName" property of the EXE for a Desktop app, or from the device as defined by the manufacturer.
+By default the value returned is pulled from the "Publisher display name" field in the app manifest of a UWP app, from the "CompanyName" property of the EXE for a Desktop app, or from the device as defined by the manufacturer.
 
 ## -examples
 

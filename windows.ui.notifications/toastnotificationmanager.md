@@ -16,7 +16,7 @@ Creates [ToastNotifier](toastnotifier.md) objects that you use to raise toast no
 ## -remarks
 ### Sending toast notifications from desktop apps
 
-Generally, sending a toast notification from a desktop app is the same as sending it from a Windows Store app. However, you should be aware of these differences and requirements: 
+Generally, sending a toast notification from a desktop app is the same as sending it from a UWP app. However, you should be aware of these differences and requirements: 
 + For a desktop app to display a toast, the app must have a shortcut on the Start screen.
 + The shortcut must have an [AppUserModelID](http://msdn.microsoft.com/library/ebce2d99-6f20-4545-9f12-d79cd8d0828f).
 + Desktop apps cannot schedule a toast.

@@ -10,7 +10,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Services.Store.StorePurchaseRe
 # Windows.Services.Store.StoreSku.RequestPurchaseAsync
 
 ## -description
-Requests the purchase of the product SKU and displays the UI that is used to complete the transaction via the Windows Store. This method provides the option to specify additional details for a specific offer within a large catalog of products that are represented by a single listing in the Windows Store, including the product name to display to the user during the purchase.
+Requests the purchase of the product SKU and displays the UI that is used to complete the transaction via the Microsoft Store. This method provides the option to specify additional details for a specific offer within a large catalog of products that are represented by a single listing in the Microsoft Store, including the product name to display to the user during the purchase.
 
 > [!IMPORTANT]
 > This method must be called on the UI thread.

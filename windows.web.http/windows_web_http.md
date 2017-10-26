@@ -6,10 +6,10 @@
 # Windows.Web.Http
 
 ## -description
-Provides a modern HTTP client API for Windows Store app.
+Provides a modern HTTP client API for UWP app.
 
 ## -remarks
-The [Windows.Web.Http](windows_web_http.md) namespace and the related [Windows.Web.Http.Headers](../windows.web.http.headers/windows_web_http_headers.md) and [Windows.Web.Http.Filters](../windows.web.http.filters/windows_web_http_filters.md) namespaces provide a programming interface for Windows Store app that target HTTP and REST services. This features of this new HTTP API are designed to be in compliance with HTTP as defined in [RFC 2616](http://go.microsoft.com/fwlink/p/?LinkID=241642) by the IETF. The new HTTP API provides consistent support in JavaScript, C#, VB.NET, and C++ for developers.
+The [Windows.Web.Http](windows_web_http.md) namespace and the related [Windows.Web.Http.Headers](../windows.web.http.headers/windows_web_http_headers.md) and [Windows.Web.Http.Filters](../windows.web.http.filters/windows_web_http_filters.md) namespaces provide a programming interface for UWP app that target HTTP and REST services. This features of this new HTTP API are designed to be in compliance with HTTP as defined in [RFC 2616](http://go.microsoft.com/fwlink/p/?LinkID=241642) by the IETF. The new HTTP API provides consistent support in JavaScript, C#, VB.NET, and C++ for developers.
 
 This new API replaces the use of three different APIs with differing features that previously were needed for each language projection in Windows 8.
 

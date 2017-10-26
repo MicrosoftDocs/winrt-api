@@ -20,9 +20,9 @@ This argument is ignored and has no effect.
 When the call to this method completes successfully, it returns a [StorageFile](../windows.storage/storagefile.md) object that represents the file that the user picked.
 
 ## -remarks
-> Windows Store app only. This signature isn't supported. Use [PickSingleFileAsync](fileopenpicker_picksinglefileasync_1320627792.md) instead.
+> UWP app only. This signature isn't supported. Use [PickSingleFileAsync](fileopenpicker_picksinglefileasync_1320627792.md) instead.
 
-> Windows Phone Store app only. This signature isn't supported. Use [PickSingleFileAndContinue](fileopenpicker_picksinglefileandcontinue.md) instead.
+> Windows Phone 8.x app only. This signature isn't supported. Use [PickSingleFileAndContinue](fileopenpicker_picksinglefileandcontinue.md) instead.
 
 ## -examples
 

@@ -14,7 +14,7 @@ public class ProvisionedProfile : Windows.Networking.NetworkOperators.IProvision
 Updates cost and usage information for a mobile broadband profile.
 
 > [!NOTE]
-> This functionality is only available to mobile operator apps and Windows Store apps given privileged access by mobile network operators.
+> This functionality is only available to mobile operator apps and UWP apps given privileged access by mobile network operators.
 
 
 

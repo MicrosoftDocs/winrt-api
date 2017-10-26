@@ -132,7 +132,7 @@ public:
         CreateWindowSizeDependentResources();
 
 
-        // Enter the render loop.  Note that Windows Store apps should never exit.
+        // Enter the render loop.  Note that UWP apps should never exit.
         while (true)
         {
             // Process events incoming to the window.

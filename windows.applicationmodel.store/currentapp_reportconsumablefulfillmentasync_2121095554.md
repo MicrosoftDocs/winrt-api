@@ -10,7 +10,7 @@ public Windows.Foundation.IAsyncOperation<Windows.ApplicationModel.Store.Fulfill
 # Windows.ApplicationModel.Store.CurrentApp.ReportConsumableFulfillmentAsync
 
 ## -description
-Notifies the Windows Store that the purchase of a consumable add-on (also called an in-app product or IAP) is fulfilled and that the user has the right to access the content.
+Notifies the Microsoft Store that the purchase of a consumable add-on (also called an in-app product or IAP) is fulfilled and that the user has the right to access the content.
 
 ## -parameters
 ### -param productId

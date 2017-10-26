@@ -14,7 +14,7 @@ public class MobileBroadbandAccount : Windows.Networking.NetworkOperators.IMobil
 Represents a mobile broadband account and related information about the network provider for the account.
 
 > [!NOTE]
-> This functionality is only available to mobile operator apps and Windows Store apps given privileged access by mobile network operators.
+> This functionality is only available to mobile operator apps and UWP apps given privileged access by mobile network operators.
 
 
 

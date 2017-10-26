@@ -13,7 +13,7 @@ public byte EncodingType { get; }
 Gets the data-coding scheme (DCS) of the received message.
 
 > [!NOTE]
-> This functionality is only available to mobile operator apps and Windows Store apps given privileged access by mobile network operators.
+> This functionality is only available to mobile operator apps and UWP apps given privileged access by mobile network operators.
 
 
 

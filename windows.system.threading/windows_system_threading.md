@@ -21,7 +21,7 @@ If you want a work item to wait until an event or semaphore is signaled, or if y
 For example code that demonstrates how to use the thread pool, see the [Thread Pool Sample](http://code.msdn.microsoft.com/windowsapps/Pool-Sample-5aa60454).
 
 > [!NOTE]
-> The ThreadPool API is supported for desktop as well as Windows Store apps.
+> The ThreadPool API is supported for desktop as well as UWP apps.
 
 ## -remarks
 

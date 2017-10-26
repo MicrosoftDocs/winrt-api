@@ -18,4 +18,4 @@ The [Credential locker sample](http://code.msdn.microsoft.com/windowsapps/Passwo
 ## -examples
 
 ## -see-also
-[Credential locker sample](http://code.msdn.microsoft.com/windowsapps/PasswordVault-f01be74a), [Managing user info (C#/C++/VB)](XREF:TODO:nodepage.managing_user_information_xaml_), [Managing user info (JavaScript)](XREF:TODO:nodepage.managing_user_information), [KeyCredentialManager sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620557), [Credential locker sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620583)
+[Connect to identity providers with Web Account Manager](https://docs.microsoft.com/windows/uwp/security/web-account-manager),  [KeyCredentialManager sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620557), [Credential locker sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620583), [Credential locker sample (Windows 8.x)](http://code.msdn.microsoft.com/windowsapps/PasswordVault-f01be74a)

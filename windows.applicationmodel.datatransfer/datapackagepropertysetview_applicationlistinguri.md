@@ -10,10 +10,10 @@ public Windows.Foundation.Uri ApplicationListingUri { get; }
 # Windows.ApplicationModel.DataTransfer.DataPackagePropertySetView.ApplicationListingUri
 
 ## -description
-Gets the Uniform Resource Identifier (URI) of the app's location in the Windows Store.
+Gets the Uniform Resource Identifier (URI) of the app's location in the Microsoft Store.
 
 ## -property-value
-The Uniform Resource Identifier (URI) of the app in the Windows Store.
+The Uniform Resource Identifier (URI) of the app in the Microsoft Store.
 
 ## -remarks
 

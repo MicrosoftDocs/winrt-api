@@ -16,7 +16,7 @@ Represents an input report.
 Devices issue input reports to describe state changes, user-input, and other device-specific data. For example, a HID keyboard device would use an input report to signal a key press. A HID presence-sensor would use an input report to signal a presence detection event.
 
 ## -remarks
-The following example demonstrates how a Windows Store app built with XAML and C# uses the **GetInputReportAsync** method to obtain an input report.
+The following example demonstrates how a UWP app built with XAML and C# uses the **GetInputReportAsync** method to obtain an input report.
 
 
 

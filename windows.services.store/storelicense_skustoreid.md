@@ -10,10 +10,10 @@ public string SkuStoreId { get; }
 # Windows.Services.Store.StoreLicense.SkuStoreId
 
 ## -description
-Gets the Store ID of the licensed add-on SKU from the Windows Store catalog.
+Gets the Store ID of the licensed add-on SKU from the Microsoft Store catalog.
 
 ## -property-value
-The Store ID of the licensed add-on SKU from the Windows Store catalog.
+The Store ID of the licensed add-on SKU from the Microsoft Store catalog.
 
 ## -remarks
 

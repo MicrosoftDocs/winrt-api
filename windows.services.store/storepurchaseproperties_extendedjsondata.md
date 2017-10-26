@@ -10,10 +10,10 @@ public string ExtendedJsonData { get;  set; }
 # Windows.Services.Store.StorePurchaseProperties.ExtendedJsonData
 
 ## -description
-Gets or sets a JSON-formatted string that contains extended data to pass with the purchase request to the Windows Store.
+Gets or sets a JSON-formatted string that contains extended data to pass with the purchase request to the Microsoft Store.
 
 ## -property-value
-A JSON-formatted string that contains extended data to pass with the purchase request to the Windows Store.
+A JSON-formatted string that contains extended data to pass with the purchase request to the Microsoft Store.
 
 ## -remarks
 Use the **ExtendedJsonData** property to access the complete data for the [StorePurchaseProperties](storepurchaseproperties.md) object as a JSON-formatted string in your code. For more information about the structure of the data, see [Data schemas for Store products](https://docs.microsoft.com/windows/uwp/monetize/data-schemas-for-store-products).

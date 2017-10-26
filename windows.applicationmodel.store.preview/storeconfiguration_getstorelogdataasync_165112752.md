@@ -10,7 +10,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Storage.Streams.IRandomAccessS
 # Windows.ApplicationModel.Store.Preview.StoreConfiguration.GetStoreLogDataAsync
 
 ## -description
-Gets Windows Store log data for the current device.
+Gets Microsoft Store log data for the current device.
 
 ## -parameters
 ### -param options

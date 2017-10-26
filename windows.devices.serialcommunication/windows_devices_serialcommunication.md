@@ -6,7 +6,7 @@
 # Windows.Devices.SerialCommunication
 
 ## -description
-The [Windows.Devices.SerialCommunication](windows_devices_serialcommunication.md) namespace defines Windows Runtime classes that a Windows store app can use to communicate with a device that exposes a serial port or some abstraction of a serial port. The classes provide functionality to discover such serial device, read and write data, and control serial-specific properties for flow control, such as setting baud rate, signal states.
+The [Windows.Devices.SerialCommunication](windows_devices_serialcommunication.md) namespace defines Windows Runtime classes that a UWP app can use to communicate with a device that exposes a serial port or some abstraction of a serial port. The classes provide functionality to discover such serial device, read and write data, and control serial-specific properties for flow control, such as setting baud rate, signal states.
 
 In this release, the namespace supports devices that belong to the USB CDC device class. This includes ports exposed by Serial-to-USB adapters and internal USB to serial bridge chips like those used in Arduino Uno R3s.
 
@@ -26,7 +26,7 @@ Serial devices that use the following compatible IDs can be supported by the in-
 
 **Serial device capability usage**
 
-Your Windows Store app must include certain device capabilities in its App package manifest. The capabilities identify the device and its purpose. Here are the required elements in hierarchical order:
+Your UWP app must include certain device capabilities in its App package manifest. The capabilities identify the device and its purpose. Here are the required elements in hierarchical order:
 
 
 + [&lt;DeviceCapability&gt;](http://msdn.microsoft.com/library/4353c4fd-f038-4986-81ed-d2ec0c6235ef): The **Name** attribute must be "serialcommunication".

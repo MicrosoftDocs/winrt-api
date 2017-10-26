@@ -10,7 +10,7 @@ public class StoreConfiguration
 # Windows.ApplicationModel.Store.Preview.StoreConfiguration
 
 ## -description
-Defines static methods and properties for accessing information about the device hardware and configuring information about the system, the mobile operator, and the active user account. These members are used in various Windows Store scenarios.
+Defines static methods and properties for accessing information about the device hardware and configuring information about the system, the mobile operator, and the active user account. These members are used in various Microsoft Store scenarios.
 
 ## -remarks
 

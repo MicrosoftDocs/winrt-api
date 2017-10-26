@@ -10,7 +10,7 @@ public event Windows.Foundation.TypedEventHandler PointerMoved<object,  Windows.
 # Windows.UI.Core.CoreIndependentInputSource.PointerMoved
 
 ## -description
-Occurs when a pointer moves within the bounding box of the Windows Store app.
+Occurs when a pointer moves within the bounding box of the UWP app.
 
 ## -remarks
 

@@ -14,7 +14,7 @@ public Windows.Data.Xml.Dom.XmlDocument RedirectMessageXml { get; }
 Gets the XML blob of the Wireless Internet Service Provider roaming (WISPr) redirect message of the hotspot.
 
 > [!NOTE]
-> This functionality is only available to mobile operator apps and Windows Store apps given privileged access by mobile network operators.
+> This functionality is only available to mobile operator apps and UWP apps given privileged access by mobile network operators.
 
 
 

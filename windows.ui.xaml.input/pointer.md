@@ -15,7 +15,7 @@ Provides basic properties for the input pointer associated with a single mouse, 
 
 ## -remarks
 
-In most cases, we recommend that you get pointer info through the event argument of the pointer event handlers in your chosen Windows 8 language framework (Windows app using JavaScript, Windows Store app using C++, C#, or Visual Basic, or Windows Store app using DirectX with C++).
+In most cases, we recommend that you get pointer info through the event argument of the pointer event handlers in your chosen Windows 8 language framework (Windows app using JavaScript, UWP app using C++, C#, or Visual Basic, or UWP app using DirectX with C++).
 
 If the event argument doesn't intrinsically expose the pointer details required by your app, you can get access to extended pointer data through the [GetCurrentPoint](pointerroutedeventargs_getcurrentpoint.md) and [GetIntermediatePoints](pointerroutedeventargs_getintermediatepoints.md) methods of [PointerRoutedEventArgs](pointerroutedeventargs.md). We recommend using these methods as you can specify the context of the pointer data.
 

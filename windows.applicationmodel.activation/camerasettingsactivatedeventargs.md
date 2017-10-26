@@ -22,4 +22,4 @@ Enables a camera settings app to handle the activation parameters for the app.
 ## -examples
 
 ## -see-also
-[Windows.UI.Core.CoreApplicationView.Activated](../windows.applicationmodel.core/coreapplicationview_activated.md), [CameraCaptureUI](../windows.media.capture/cameracaptureui.md), [Windows Store device app for camera sample](http://go.microsoft.com/fwlink/p/?LinkID=249442), [Developing  device apps for cameras](http://go.microsoft.com/fwlink/p/?LinkId=226802)
+[Windows.UI.Core.CoreApplicationView.Activated](../windows.applicationmodel.core/coreapplicationview_activated.md), [CameraCaptureUI](../windows.media.capture/cameracaptureui.md), [Microsoft Store device app for camera sample](http://go.microsoft.com/fwlink/p/?LinkID=249442), [Developing  device apps for cameras](http://go.microsoft.com/fwlink/p/?LinkId=226802)

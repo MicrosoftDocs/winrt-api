@@ -19,7 +19,7 @@ Occurs when a pointer moves while the pointer remains within the hit test area o
 
 
 ## -remarks
-Touch, mouse, and pen/stylus interactions are received, processed, and managed as pointer input in Windows Store app. Any of these interactions can produce a [PointerMoved](uielement_pointermoved.md) event. For more info, see [Handle pointer input](http://msdn.microsoft.com/library/bdbc9e33-4037-4671-9596-471dcf855c82) and the "PointerMoved for mouse and stylus input" section of this topic.
+Touch, mouse, and pen/stylus interactions are received, processed, and managed as pointer input in UWP app. Any of these interactions can produce a [PointerMoved](uielement_pointermoved.md) event. For more info, see [Handle pointer input](http://msdn.microsoft.com/library/bdbc9e33-4037-4671-9596-471dcf855c82) and the "PointerMoved for mouse and stylus input" section of this topic.
 
 In some UI scenarios, particularly if the user is using a mouse, this event will fire a lot. Be aware of the performance profile for code you put into this handler, and consider ways to use your own flags or tolerances that can throttle how many times the logic actually needs to run.
 

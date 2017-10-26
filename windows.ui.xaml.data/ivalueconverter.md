@@ -21,7 +21,7 @@ You should always implement [Convert](ivalueconverter_convert.md) with a functio
 > To data-bind to a custom value converter that is written in Visual C++ component extensions (C++/CX), the header file in which the [IValueConverter](ivalueconverter.md) implementation class is defined must be included, directly or indirectly, in one of the code-behind files. For more info, see [Create your first  using C++](http://msdn.microsoft.com/library/952ed96c-556f-4792-8abb-068621d9ea20).
 
 > [!TIP]
-> Some of the default project templates for a Windows Store app include a helper class, BooleanToVisibilityConverter. This class is an [IValueConverter](ivalueconverter.md) implementation that handles a common custom-control scenario where you use Boolean values from your control logic class to set the [Visibility](../windows.ui.xaml/uielement_visibility.md) value in XAML control templates.
+> Some of the default project templates for a UWP app include a helper class, BooleanToVisibilityConverter. This class is an [IValueConverter](ivalueconverter.md) implementation that handles a common custom-control scenario where you use Boolean values from your control logic class to set the [Visibility](../windows.ui.xaml/uielement_visibility.md) value in XAML control templates.
 
 ### Migration notes
 

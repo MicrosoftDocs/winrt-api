@@ -14,7 +14,7 @@ public class MobileBroadbandPinManager : Windows.Networking.NetworkOperators.IMo
 Defines the PIN manager for a given mobile broadband modem and SIM Card.
 
 > [!NOTE]
-> This functionality is only available to mobile operator apps and Windows Store apps given privileged access by mobile network operators.
+> This functionality is only available to mobile operator apps and UWP apps given privileged access by mobile network operators.
 
 
 

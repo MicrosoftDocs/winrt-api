@@ -10,7 +10,7 @@ public class WorkplaceSettings
 # Windows.Management.Workplace.WorkplaceSettings
 
 ## -description
-Enables Windows Store app to access select enterprise settings that are managed through group policy or other management services.
+Enables UWP apps to access select enterprise settings that are managed through group policy or other management services.
 
 ## -remarks
 

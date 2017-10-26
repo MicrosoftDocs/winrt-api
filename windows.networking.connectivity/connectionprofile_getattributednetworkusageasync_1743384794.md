@@ -10,7 +10,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Foundation.Collections.IVector
 # Windows.Networking.Connectivity.ConnectionProfile.GetAttributedNetworkUsageAsync
 
 ## -description
-Gets network usage data for each individual application. This method is only supported in a Windows Phone Store app.
+Gets network usage data for each individual application. This method is only supported in a Windows Phone 8.x app.
 
 ## -parameters
 ### -param startTime
@@ -27,7 +27,7 @@ When the method completes, it returns a list of [AttributedNetworkUsage](attribu
 
 ## -remarks
 > [!NOTE]
-> Data usage tracking is not supported when an app is run on the emulator under Microsoft Visual Studio 2013 Update 2 instead of an actual device. As a result, the [GetAttributedNetworkUsageAsync](connectionprofile_getattributednetworkusageasync.md) method in a Windows Phone Store app will fail when run on the emulator.
+> Data usage tracking is not supported when an app is run on the emulator under Microsoft Visual Studio 2013 Update 2 instead of an actual device. As a result, the [GetAttributedNetworkUsageAsync](connectionprofile_getattributednetworkusageasync.md) method in a Windows Phone 8.x app will fail when run on the emulator.
 
 ## -examples
 

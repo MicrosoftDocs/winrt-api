@@ -10,7 +10,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Services.Store.StoreConsumable
 # Windows.Services.Store.StoreContext.ReportConsumableFulfillmentAsync
 
 ## -description
-Reports a consumable add-on for the current app as fulfilled in the Windows Store.
+Reports a consumable add-on for the current app as fulfilled in the Microsoft Store.
 
 ## -parameters
 ### -param productStoreId
@@ -26,9 +26,9 @@ A developer-supplied GUID that identifies the specific transaction that the fulf
 An asynchronous operation that, on successful completion, returns a [StoreConsumableResult](storeconsumableresult.md) object that contains info about the fulfillment operation, such as the remaining balance of add-on units.
 
 ## -remarks
-After the user has used a consumable add-on in your app, use this method to report the add-on as fulfilled in the Windows Store. The Store ID for the add-on is available in the Windows Dev Center dashboard, and it is returned by the [StoreId](storeproduct_storeid.md) property of the [StoreProduct](storeproduct.md) that represents the add-on. For more information about using this method, including a code example, see [Enable consumable add-on purchases](https://msdn.microsoft.com/windows/uwp/monetize/enable-consumable-add-on-purchases).
+After the user has used a consumable add-on in your app, use this method to report the add-on as fulfilled in the Microsoft Store. The Store ID for the add-on is available in the Windows Dev Center dashboard, and it is returned by the [StoreId](storeproduct_storeid.md) property of the [StoreProduct](storeproduct.md) that represents the add-on. For more information about using this method, including a code example, see [Enable consumable add-on purchases](https://msdn.microsoft.com/windows/uwp/monetize/enable-consumable-add-on-purchases).
 
-The *trackingId* parameter is used to help ensure that each fulfillment operation is handled exactly once by the Windows Store. For example, consider a scenario where you call [ReportConsumableFulfillmentAsync](storecontext_reportconsumablefulfillmentasync.md) with a given pair of *productStoreId* and *trackingId* values, the Windows Store successfully marks the consumable as fulfilled, but there is a network connectivity issue that prevents your app from receiving and handling the response. The next time your app retries the same [ReportConsumableFulfillmentAsync](storecontext_reportconsumablefulfillmentasync.md) call with the same pair of *productStoreId* and *trackingId* values after it regains connectivity, the Windows Store will report the transaction as successful without charging the user again. The *trackingId* parameter can be retrieved via the [TrackingId](storeconsumableresult_trackingid.md) property of the [StoreConsumableResult](storeconsumableresult.md) return value.
+The *trackingId* parameter is used to help ensure that each fulfillment operation is handled exactly once by the Microsoft Store. For example, consider a scenario where you call [ReportConsumableFulfillmentAsync](storecontext_reportconsumablefulfillmentasync.md) with a given pair of *productStoreId* and *trackingId* values, the Microsoft Store successfully marks the consumable as fulfilled, but there is a network connectivity issue that prevents your app from receiving and handling the response. The next time your app retries the same [ReportConsumableFulfillmentAsync](storecontext_reportconsumablefulfillmentasync.md) call with the same pair of *productStoreId* and *trackingId* values after it regains connectivity, the Microsoft Store will report the transaction as successful without charging the user again. The *trackingId* parameter can be retrieved via the [TrackingId](storeconsumableresult_trackingid.md) property of the [StoreConsumableResult](storeconsumableresult.md) return value.
 
 ## -examples
 

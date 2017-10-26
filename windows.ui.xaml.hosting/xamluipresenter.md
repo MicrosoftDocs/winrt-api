@@ -13,7 +13,7 @@ public class XamlUIPresenter : Windows.UI.Xaml.Hosting.IXamlUIPresenter
 Enables presenting a visual tree on a Microsoft Direct3D surface. This type is used for design tool hosting scenarios and is not intended for general use.
 
 ## -remarks
- [XamlUIPresenter](xamluipresenter.md) is not intended for general Microsoft DirectX and Windows Runtime interoperation scenarios. You cannot use this API in a Windows Store app that you submit to the Windows Store, it will not pass certification.
+ [XamlUIPresenter](xamluipresenter.md) is not intended for general Microsoft DirectX and Windows Runtime interoperation scenarios. You cannot use this API in a UWP app that you submit to the Microsoft Store, it will not pass certification.
 
 For techniques for XAML-Microsoft DirectX interoperation functionality, instead see [DirectX and XAML interop](http://msdn.microsoft.com/library/17987eea-6771-423c-9b68-6b9aeadc7b7f).
 

@@ -6,7 +6,7 @@
 # Windows.Devices.PointOfService
 
 ## -description
-Enables application developers to access Point of Service (POS) peripheral devices. The namespace provides a vendor-neutral interface for accessing POS devices from various manufacturers from the Windows Store app.
+Enables application developers to access Point of Service (POS) peripheral devices. The namespace provides a vendor-neutral interface for accessing POS devices from various manufacturers from the UWP app.
 
 <hr>
 

@@ -22,7 +22,7 @@ The Media Foundation feature can be enabled on Windows Server 2012 using Server
 
 ### Using network isolation
 
-The network isolation feature in Windows 8 enables a developer to fully control the network access of a Windows Store app. Not all apps may require access to the network. However for those apps that do, the Windows 8 provides different levels of access to the network that can be enabled by selecting appropriate capabilities.
+The network isolation feature in Windows 8 enables a developer to fully control the network access of a UWP app. Not all apps may require access to the network. However for those apps that do, the Windows 8 provides different levels of access to the network that can be enabled by selecting appropriate capabilities.
 
 Network isolation allows a developer to define for each app the scope of required network access. An app without the appropriate scope defined is prevented from accessing the specified type of network, and specific type of network request (outbound client-initiated requests or both inbound unsolicited requests and outbound client-initiated requests). The ability to set and enforce network isolation ensures that if an app does get compromised, it can only access networks where the app has explicitly been granted access. This significantly reduces the scope of the impact on other apps and on Windows.
 

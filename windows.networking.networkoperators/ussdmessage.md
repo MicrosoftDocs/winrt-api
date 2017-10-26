@@ -14,7 +14,7 @@ public class UssdMessage : Windows.Networking.NetworkOperators.IUssdMessage
 Represents a USSD message that is used for sending messages to and receiving messages from the network.
 
 > [!NOTE]
-> This functionality is only available to mobile operator apps and Windows Store apps given privileged access by mobile network operators.
+> This functionality is only available to mobile operator apps and UWP apps given privileged access by mobile network operators.
 
 
 

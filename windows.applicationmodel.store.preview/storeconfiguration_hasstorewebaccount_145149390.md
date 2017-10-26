@@ -10,10 +10,10 @@ public bool HasStoreWebAccount()
 # Windows.ApplicationModel.Store.Preview.StoreConfiguration.HasStoreWebAccount
 
 ## -description
-Determines whether the current user has a Windows Store account.
+Determines whether the current user has a Microsoft Store account.
 
 ## -returns
-True if the current user has a Windows Store account; otherwise false.
+True if the current user has a Microsoft Store account; otherwise false.
 
 ## -remarks
 

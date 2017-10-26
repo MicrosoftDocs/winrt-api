@@ -280,7 +280,7 @@ To display an individual image, use the [StorageFile](../windows.storage/storage
 This example shows how to use a [FileOpenPicker](../windows.storage.pickers/fileopenpicker.md) to access an image file from the Pictures library and set it as the [Source](image_source.md) of an [Image](image.md) control. The code is already awaitable because it's waiting for the user to choose a file and it only runs after that happens. The stream to use comes from [StorageFile.OpenAsync](../windows.storage/storagefile_openasync.md) after a [StorageFile](../windows.storage/storagefile.md) instance is returned from the async picker actions. For more info on using file pickers, see [Open files and folders with a picker](http://msdn.microsoft.com/library/f87dbe2f-77db-4573-8172-29e11abefd34).
 
 > > [!IMPORTANT]
-> Using a file picker in Windows Phone Store app requires additional steps that are beyond the scope of this example. For more info, see [How to continue your Windows Phone app after calling a file picker](http://msdn.microsoft.com/library/465bbb7a-9ed1-4b57-b60f-e5c6e7cd1470).
+> Using a file picker in Windows Phone 8.x app requires additional steps that are beyond the scope of this example. For more info, see [How to continue your Windows Phone app after calling a file picker](http://msdn.microsoft.com/library/465bbb7a-9ed1-4b57-b60f-e5c6e7cd1470).
 
 ```xaml
 

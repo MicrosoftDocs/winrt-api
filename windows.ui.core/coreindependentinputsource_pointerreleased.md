@@ -10,7 +10,7 @@ public event Windows.Foundation.TypedEventHandler PointerReleased<object,  Windo
 # Windows.UI.Core.CoreIndependentInputSource.PointerReleased
 
 ## -description
-Occurs when a mouse button is released, or a touch or pen contact is lifted, within the bounding rectangle of the Windows Store app.
+Occurs when a mouse button is released, or a touch or pen contact is lifted, within the bounding rectangle of the UWP app.
 
 ## -remarks
 

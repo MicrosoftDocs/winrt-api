@@ -6,7 +6,7 @@
 # Windows.ApplicationModel.AppExtensions
 
 ## -description
-Enable your Windows Store app to host content provided by other Windows Store apps. Discover, enumerate, and access read-only content from those apps.
+Enable your UWP app to host content provided by other UWP apps. Discover, enumerate, and access read-only content from those apps.
 
 ## -remarks
 

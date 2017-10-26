@@ -14,7 +14,7 @@ public Windows.Networking.NetworkOperators.MobileBroadbandDeviceInformation Curr
 Gets the mobile broadband device information associated with this account.
 
 > [!NOTE]
-> This functionality is only available to mobile operator apps and Windows Store apps given privileged access by mobile network operators.
+> This functionality is only available to mobile operator apps and UWP apps given privileged access by mobile network operators.
 
 
 

@@ -31,7 +31,7 @@ The value of [AllowDrop](uielement_allowdrop.md) determines whether various even
 
 The Windows Runtime implementation of drag-drop concepts permits only certain controls and input actions to initiate a drag-drop action. There is no generalized **DoDragDrop** method that would permit any UI element to initiate a drag-drop action. The main source of a drag-drop action in an app is when you drag the items of a list such as [GridView](../windows.ui.xaml.controls/gridview.md). However once the action is initiated, any [UIElement](uielement.md) in the app can potentially be a drop target so long as [AllowDrop](uielement_allowdrop.md) is **true** on that element. Any elements that the drag-drop action passes over can handle [DragEnter](uielement_dragenter.md), [DragLeave](uielement_dragleave.md) or [DragOver](uielement_dragover.md). The initiating list view does not require [AllowDrop](uielement_allowdrop.md). Instead, the value of [CanDragItems](../windows.ui.xaml.controls/listviewbase_candragitems.md) is used to determine whether the items in the list can be used to start a drag-drop action.
 
-A UI element can't be a drop target for any drag-drop action that begins from outside the current Windows Store app. This includes actions that come from another Windows Store app, which is possible for a snapped view.
+A UI element can't be a drop target for any drag-drop action that begins from outside the current UWP app. This includes actions that come from another UWP app, which is possible for a snapped view.
 
 ## -examples
 

@@ -15,7 +15,7 @@ Provides data for the [MediaStreamSource.Starting](mediastreamsource_starting.md
 ## -remarks
 This object is not instantiated directly, it is created by the [MediaStreamSource.Starting](mediastreamsource_starting.md) event.
 
-See the [MediaStreamSource Sample](http://go.microsoft.com/fwlink/p/?LinkID=309021) for an example of using Media Stream Source in a Windows Store app.
+See the [MediaStreamSource Sample](http://go.microsoft.com/fwlink/p/?LinkID=309021) for an example of using Media Stream Source in a UWP app.
 
 ## -examples
 
