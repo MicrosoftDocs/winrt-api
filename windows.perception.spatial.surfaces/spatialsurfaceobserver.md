@@ -23,3 +23,6 @@ You access these surfaces by expressing interest in a volume of space, either a 
 ## -examples
 
 ## -see-also
+
+## -capabilities
+spatialPerception

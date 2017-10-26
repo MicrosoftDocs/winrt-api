@@ -23,3 +23,6 @@ When the set of surface metadata within these bounding volumes changes, the [Obs
 ## -examples
 
 ## -see-also
+
+## -capabilities
+spatialPerception

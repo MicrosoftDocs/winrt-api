@@ -30,3 +30,6 @@ This method can yield null if the device has reached its limit of spatial anchor
 ## -examples
 
 ## -see-also
+
+## -capabilities
+spatialPerception

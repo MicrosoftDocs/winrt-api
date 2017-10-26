@@ -22,3 +22,6 @@ This returns true on HoloLens and false elsewhere.
 
 ## -examples
 
+
+## -capabilities
+spatialPerception

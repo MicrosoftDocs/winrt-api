@@ -27,3 +27,6 @@ Correlating the [Id](spatialsurfaceinfo_id.md) and [UpdateTime](spatialsurfacein
 ## -examples
 
 ## -see-also
+
+## -capabilities
+spatialPerception
