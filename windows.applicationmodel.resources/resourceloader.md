@@ -33,15 +33,23 @@ See [Guidelines for window sizes and scaling to screens](http://msdn.microsoft.c
 ## -examples
 Use the [ResourceLoader.GetString | getString](resourceloader_getstring.md) method to get the string resource identified by "Farewell".
 
+**C#**
+```csharp
+var resourceLoader = Windows.ApplicationModel.Resources.ResourceLoader.GetForCurrentView();
+var text = resourceLoader.GetString("Farewell");
+```
 
+**C++**
+```cpp
+auto resourceLoader = Windows::ApplicationModel::Resources::ResourceLoader::GetForCurrentView();
+String^ text = resourceLoader->GetString("Farewell");
+```
 
-[!code-js[ResourceLoaderJS](../windows.applicationmodel.resources/code/ResourceGlobalization/js/ResourceGlobalizationJS/js/default.js#SnippetResourceLoaderJS)]
-
-[!code-csharp[ResourceLoaderCS](../windows.applicationmodel.resources/code/ResourceGlobalization/cs/ResourceGlobalizationCS/MainPage.xaml.cs#SnippetResourceLoaderCS)]
-
-[!code-vb[ResourceLoaderVB](../windows.applicationmodel.resources/code/ResourceGlobalization/vb/ResourceGlobalizationVB/MainPage.xaml.vb#SnippetResourceLoaderVB)]
-
-[!code-cpp[ResourceLoaderCPP](../windows.applicationmodel.resources/code/ResourceGlobalization/cpp/ResourceGlobalizationCPP/MainPage.xaml.cpp#SnippetResourceLoaderCPP)]
+**JavaScript**
+```javascript
+var resourceLoader = Windows.ApplicationModel.Resources.ResourceLoader.getForCurrentView();
+var text = resourceLoader.getString('Farewell');
+```
 
 ## -see-also
 [GetForCurrentView](resourceloader_getforcurrentview_1363600702.md), [GetForCurrentView(String)](resourceloader_getforcurrentview_147266590.md), [GetForViewIndependentUse](resourceloader_getforviewindependentuse_386169056.md), [GetForViewIndependentUse(String)](resourceloader_getforviewindependentuse_1317372352.md), [ResourceMap](../windows.applicationmodel.resources.core/resourcemap.md), [ResourceContext](../windows.applicationmodel.resources.core/resourcecontext.md), [Creating and retrieving resources in ](http://go.microsoft.com/fwlink/p/?linkid=251463), [Guidelines for window sizes and scaling to screens](http://msdn.microsoft.com/library/19732e24-add8-479e-809a-274f7c47ef68), [UX guidelines for layout and scaling](http://msdn.microsoft.com/library/c388f639-6f35-4d52-bffe-53ff3f537d4b), [Application resources and localization sample](http://go.microsoft.com/fwlink/p/?linkid=227301), [Application resources and localization sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620487)

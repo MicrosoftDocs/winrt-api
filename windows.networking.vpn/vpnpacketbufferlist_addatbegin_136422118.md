@@ -10,7 +10,7 @@ public void AddAtBegin(Windows.Networking.Vpn.VpnPacketBuffer nextVpnPacketBuffe
 # Windows.Networking.Vpn.VpnPacketBufferList.AddAtBegin
 
 ## -description
-Not supported. Add a new **IVpnPacketBuffer** object to the start of the **IVpnPacketBufferList**.
+Add a new **IVpnPacketBuffer** object to the start of the **IVpnPacketBufferList**.
 
 ## -parameters
 ### -param nextVpnPacketBuffer

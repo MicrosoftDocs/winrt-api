@@ -21,10 +21,10 @@ To be notified of changes in connectivity, register a handler with the [NetworkS
 
 The following example demonstrates how to retrieve a [ConnectionProfile](connectionprofile.md). The function calls [getInternetConnectionProfile](networkinformation_getinternetconnectionprofile.md) to retrieve the [ConnectionProfile](connectionprofile.md) representing the connection currently used for Internet connectivity. Alternatively, your app can call [getConnectionProfiles](networkinformation_getconnectionprofiles.md) to retrieve all available connections on a device.
 
+**Note** For the implementation of the GetConnectionProfileInfo method in the code below, and for additional examples of how [NetworkInformation](networkinformation.md) class methods are implemented to retrieve connection profiles, see [Quickstart: Retrieving network connection information](http://msdn.microsoft.com/library/ef383500-f2a9-4b93-8f6b-1f87560305d8).
 
-
+**JavaScript**
 ```javascript
-
 var networkInfo = Windows.Networking.Connectivity.NetworkInformation;
 
 //Retrieve the ConnectionProfile
@@ -32,11 +32,10 @@ var internetConnectionProfile = networkInfo.getInternetConnectionProfile();
 
 //Pass the returned object to a function that accesses the connection data  
 var connectionProfileInfo = getConnectionProfileInfo(internetConnectionProfile);
-
 ```
 
+**C++**
 ```cpp
-
 using namespace Windows::Networking::Connectivity;
 
 //Retrieve the ConnectionProfile
@@ -44,11 +43,10 @@ ConnectionProfile^ InternetConnectionProfile = NetworkInformation::GetInternetCo
 
 //Pass the returned object to a function that accesses the connection data        
 String^ strConnectionProfileInfo = GetConnectionProfileInfo(InternetConnectionProfile);
-
 ```
 
+**C#**
 ```csharp
-
 using Windows.Networking.Connectivity;
 
 //Retrieve the ConnectionProfile
@@ -57,12 +55,9 @@ ConnectionProfile InternetConnectionProfile = NetworkInformation.GetInternetConn
 
 //Pass the returned object to a function that accesses the connection data  
 connectionProfileInfo = GetConnectionProfileInfo(InternetConnectionProfile);
-
 ```
 
 If more than one connection profile is currently connecting the machine to the internet, the preferred profile is returned by this method. The preferred profile represents the connection that is the most likely to be used when sending and receiving traffic to and from the internet.
-
-For additional examples of how [NetworkInformation](networkinformation.md) class methods are implemented to retrieve connection profiles, see [Quickstart: Retrieving network connection information](http://msdn.microsoft.com/library/ef383500-f2a9-4b93-8f6b-1f87560305d8).
 
 ## -examples
 

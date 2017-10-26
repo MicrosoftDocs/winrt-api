@@ -10,7 +10,7 @@ public void Clear()
 # Windows.Networking.Vpn.VpnPacketBufferList.Clear
 
 ## -description
-Not supported. Removes all the **IVpnPacketBuffer** objects from a **IVpnPacketBufferList**.
+Removes all the **IVpnPacketBuffer** objects from a **IVpnPacketBufferList**.
 
 ## -remarks
 
