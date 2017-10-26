@@ -10,10 +10,10 @@ public string StoreId { get; }
 # Windows.Services.Store.StoreAvailability.StoreId
 
 ## -description
-Gets the Store ID of the current SKU availability from the Windows Store catalog.
+Gets the Store ID of the current SKU availability from the Microsoft Store catalog.
 
 ## -property-value
-The Store ID of the current SKU availability from the Windows Store catalog.
+The Store ID of the current SKU availability from the Microsoft Store catalog.
 
 ## -remarks
 The Store ID returned by this property has the format *&lt;product Store ID&gt;*/*&lt;SKU Store ID&gt;*/*&lt;availability Store ID&gt;*, where: 

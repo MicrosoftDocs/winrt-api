@@ -10,7 +10,7 @@ public Windows.UI.Core.CoreCursor PointerCursor { get;  set; }
 # Windows.UI.Core.CoreIndependentInputSource.PointerCursor
 
 ## -description
-Gets or sets the cursor used by the Windows Store app.
+Gets or sets the cursor used by the UWP app.
 
 ## -property-value
 The app's cursor.

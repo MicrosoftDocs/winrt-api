@@ -14,7 +14,7 @@ public enum Windows.Devices.Sms.SmsDeviceStatus : int
 Contains values that indicate the readiness of an SMS device to engage in cellular network traffic operations.
 
 > [!NOTE]
-> This functionality is only available to mobile operator apps and Windows Store app given privileged access by mobile network operators, mobile broadband adapter IHV, or OEM. For more information, see [Mobile Broadband:  device apps](http://msdn.microsoft.com/library/windows/hardware/hh852368.aspx).
+> This functionality is only available to mobile operator apps and UWP apps given privileged access by mobile network operators, mobile broadband adapter IHV, or OEM. For more information, see [Mobile Broadband:  device apps](http://msdn.microsoft.com/library/windows/hardware/hh852368.aspx).
 
 ## -enum-fields
 ### -field Off:0

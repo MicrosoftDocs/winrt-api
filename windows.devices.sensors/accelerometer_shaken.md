@@ -15,7 +15,7 @@ Occurs when the accelerometer detects that the PC has been shaken.
 ## -remarks
 Use this event to receive notification that the device containing the accelerometer has been shaken. The app is not required to set a report interval prior to registering for [Shaken](accelerometer_shaken.md) events.
 
-The following example demonstrates how a Windows Store app built with C# and XAML registers its **Shaken** event handler.
+The following example demonstrates how a UWP app built with C# and XAML registers its **Shaken** event handler.
 
 
 
@@ -27,7 +27,7 @@ The following example shows the [Shaken](accelerometer_shaken.md) event handler.
 
 [!code-csharp[ShakenCS](../windows.devices.sensors/code/Accelerometer/cs/Scenario2.xaml.cs#SnippetShakenCS)]
 
-The following example demonstrates how a Windows Store app built with JavaScript registers its **Shaken** event handler.
+The following example demonstrates how a UWP app built with JavaScript registers its **Shaken** event handler.
 
 
 

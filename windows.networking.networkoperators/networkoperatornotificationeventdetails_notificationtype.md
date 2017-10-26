@@ -13,7 +13,7 @@ public Windows.Networking.NetworkOperators.NetworkOperatorEventMessageType Notif
 Gets the type of the network notification.
 
 > [!NOTE]
-> This functionality is only available to mobile operator apps and Windows Store apps given privileged access by mobile network operators.
+> This functionality is only available to mobile operator apps and UWP apps given privileged access by mobile network operators.
 
 
 

@@ -10,10 +10,10 @@ public bool StoreConfiguration.ShouldRestrictToEnterpriseStoreOnly()
 # Windows.ApplicationModel.Store.Preview.StoreConfiguration.ShouldRestrictToEnterpriseStoreOnly
 
 ## -description
-Determines whether the Windows Store for Business is enabled for the current user.
+Determines whether the Microsoft Store for Business is enabled for the current user.
 
 ## -returns
-True if the Windows Store for Business is enabled for the current user; otherwise false.
+True if the Microsoft Store for Business is enabled for the current user; otherwise false.
 
 ## -remarks
 

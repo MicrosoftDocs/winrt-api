@@ -14,7 +14,7 @@ public class MobileBroadbandAccountEventArgs : Windows.Networking.NetworkOperato
 Provides information for the [AccountAdded](mobilebroadbandaccountwatcher_accountadded.md) and [AccountRemoved](mobilebroadbandaccountwatcher_accountremoved.md) events.
 
 > [!NOTE]
-> This functionality is only available to mobile operator apps and Windows Store apps given privileged access by mobile network operators.
+> This functionality is only available to mobile operator apps and UWP apps given privileged access by mobile network operators.
 
 
 

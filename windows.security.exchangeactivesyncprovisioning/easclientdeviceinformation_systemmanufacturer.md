@@ -16,7 +16,7 @@ Returns the system manufacturer of the local device. Use this only if the [Syste
 The system manufacturer of the local device. The value must be less than 1024 characters.
 
 ## -remarks
-> Windows Store app only. [SystemManufacturer](easclientdeviceinformation_systemmanufacturer.md) is retrieved from the registry. If the registry can't be read for any reason, [SystemManufacturer](easclientdeviceinformation_systemmanufacturer.md) is returned as an empty string.
+> UWP apps only. [SystemManufacturer](easclientdeviceinformation_systemmanufacturer.md) is retrieved from the registry. If the registry can't be read for any reason, [SystemManufacturer](easclientdeviceinformation_systemmanufacturer.md) is returned as an empty string.
 
 ## -examples
 

@@ -25,9 +25,9 @@ An asynchronous connect operation on a [StreamSocket](streamsocket.md) object.
 ## -remarks
 The *remoteHostName* and *remoteServiceName* parameters must be provided. If the *remoteHostName* is null or the *remoteServiceName* is null or an empty string, an error will occur.
 
-In a Windows Store app, the [StreamSocket](streamsocket.md) class supports connecting to a remote endpoint when proxies are required to complete the connection. This support for proxies is automatic and transparent to the app. For more detailed information, see the remarks on *Support for proxies* in the [StreamSocket](streamsocket.md) class reference.
+In a UWP app, the [StreamSocket](streamsocket.md) class supports connecting to a remote endpoint when proxies are required to complete the connection. This support for proxies is automatic and transparent to the app. For more detailed information, see the remarks on *Support for proxies* in the [StreamSocket](streamsocket.md) class reference.
 
-In a Windows Phone Store app, the [StreamSocket](streamsocket.md) class does not provide automatic support for proxies.
+In a Windows Phone 8.x app, the [StreamSocket](streamsocket.md) class does not provide automatic support for proxies.
 
 ## -examples
 

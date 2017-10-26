@@ -24,7 +24,7 @@ The Windows Runtime  [ItemsControl](../windows.ui.xaml.controls/itemscontrol.md)
 + [GetChildren](automationpeer_getchildren.md) has an extensive implementation that returns the item peers and is used by all the derived peers.
 The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](http://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4).
 
-> For Windows Phone Store app, [ItemsControlAutomationPeer](itemscontrolautomationpeer.md) has methods that support creating item-specific automation peers for data items. See [CreateItemAutomationPeer](itemscontrolautomationpeer_createitemautomationpeer.md) and [OnCreateItemAutomationPeer](itemscontrolautomationpeer_oncreateitemautomationpeer.md).
+> For Windows Phone 8.x apps, [ItemsControlAutomationPeer](itemscontrolautomationpeer.md) has methods that support creating item-specific automation peers for data items. See [CreateItemAutomationPeer](itemscontrolautomationpeer_createitemautomationpeer.md) and [OnCreateItemAutomationPeer](itemscontrolautomationpeer_oncreateitemautomationpeer.md).
 
 ### **ItemsControlAutomationPeer** derived classes
 

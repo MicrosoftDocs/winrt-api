@@ -14,7 +14,7 @@ public Windows.Networking.NetworkOperators.NetworkRegistrationState NetworkRegis
 Gets the current network registration state.
 
 > [!NOTE]
-> This functionality is only available to mobile operator apps and Windows Store apps given privileged access by mobile network operators.
+> This functionality is only available to mobile operator apps and UWP apps given privileged access by mobile network operators.
 
 
 

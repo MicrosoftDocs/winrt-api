@@ -22,7 +22,7 @@ Examples of device services are the Media Transfer Protocol (MTP) device service
 The [Portable Device Services Sample]( http://go.microsoft.com/fwlink/p/?linkid=242031) demonstrates how to access the device service once you have discovered it.
 
 > [!NOTE]
-> Access to a device service using this API is only available to Windows Store device app given privileged access to a device by the device manufacturer. For more information about Windows Store device app, see [Windows 8 Device Experience: .](http://go.microsoft.com/fwlink/p/?linkid=241442)
+> Access to a device service using this API is only available to Microsoft Store device apps given privileged access to a device by the device manufacturer. For more information about Microsoft Store device apps, see [Windows 8 Device Experience: .](http://go.microsoft.com/fwlink/p/?linkid=241442)
 
 ## -examples
 

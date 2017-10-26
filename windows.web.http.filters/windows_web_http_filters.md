@@ -6,10 +6,10 @@
 # Windows.Web.Http.Filters
 
 ## -description
-Provides classes to send HTTP requests and an interface to create filters to target HTTP and REST services in Windows Store app.
+Provides classes to send HTTP requests and an interface to create filters to target HTTP and REST services in UWP app.
 
 ## -remarks
-The [Windows.Web.Http](../windows.web.http/windows_web_http.md) namespace and the related [Windows.Web.Http.Headers](../windows.web.http.headers/windows_web_http_headers.md) and [Windows.Web.Http.Filters](windows_web_http_filters.md) namespaces provides an HTTP programming interface for Windows Store app that want to connect to HTTP services. The HTTP API provides consistent support in JavaScript, C#, VB.NET, and C++ for developers. The API also supports adding custom filters on requests and responses. Filters can simplify handling more complex network issues. The API also lets an app control read and write caching behavior.
+The [Windows.Web.Http](../windows.web.http/windows_web_http.md) namespace and the related [Windows.Web.Http.Headers](../windows.web.http.headers/windows_web_http_headers.md) and [Windows.Web.Http.Filters](windows_web_http_filters.md) namespaces provides an HTTP programming interface for UWP app that want to connect to HTTP services. The HTTP API provides consistent support in JavaScript, C#, VB.NET, and C++ for developers. The API also supports adding custom filters on requests and responses. Filters can simplify handling more complex network issues. The API also lets an app control read and write caching behavior.
 
 Classes in the [Windows.Web.Http](../windows.web.http/windows_web_http.md) namespace support the use of filters based on the classes in the [Windows.Web.Http.Filters](windows_web_http_filters.md) namespace. Classes in the [Windows.Web.Http.Filters](windows_web_http_filters.md) namespace also let an app control read and write caching behavior on the client. The [HttpCacheDirectiveHeaderValueCollection](../windows.web.http.headers/httpcachedirectiveheadervaluecollection.md) in the [Windows.Web.Http.Headers](../windows.web.http.headers/windows_web_http_headers.md) provides a collection container for instances of the cache directives in **Cache-Control** HTTP header on HTTP content associated with an HTTP request or response. The **Cache-Control** header lets an app have more control over caching behavior.
 
@@ -41,7 +41,7 @@ It’s not hard to handle any of these network issues by themselves. This become
 <!--The following image is the identical same file being used in the m_dev_guide project  that is handling the artwork and localization of this file. -->
 <img src="../images/HTTP_Filters.png" alt="Drawing of an HTTP filter chain" />
 
-To write a custom filter, an app implements a custom version of the [IHttpFilter](ihttpfilter.md) interface. The code to implement the filter behavior is in the [IHttpFilter.SendRequestAsync](ihttpfilter_sendrequestasync.md) method. Filters can be written in C#/VB.NET or C++. Filters can be called and used from any language supported for Windows Store app including JavaScript.
+To write a custom filter, an app implements a custom version of the [IHttpFilter](ihttpfilter.md) interface. The code to implement the filter behavior is in the [IHttpFilter.SendRequestAsync](ihttpfilter_sendrequestasync.md) method. Filters can be written in C#/VB.NET or C++. Filters can be called and used from any language supported for UWP app including JavaScript.
 
 
 

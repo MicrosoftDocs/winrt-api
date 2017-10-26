@@ -10,7 +10,7 @@ public Windows.Foundation.IAsyncOperation<Windows.ApplicationModel.Store.Purchas
 # Windows.ApplicationModel.Store.CurrentApp.RequestProductPurchaseAsync
 
 ## -description
-Requests the purchase of an add-on (also called an in-app product or IAP). Additionally, calling this method displays the UI that is used to complete the transaction via the Windows Store.
+Requests the purchase of an add-on (also called an in-app product or IAP). Additionally, calling this method displays the UI that is used to complete the transaction via the Microsoft Store.
 
 ## -parameters
 ### -param productId

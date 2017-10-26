@@ -6,10 +6,10 @@
 # Windows.Web.Http.Headers
 
 ## -description
-Provides support for HTTP headers used by the [Windows.Web.Http](../windows.web.http/windows_web_http.md) namespace for Windows Store app that target HTTP services.
+Provides support for HTTP headers used by the [Windows.Web.Http](../windows.web.http/windows_web_http.md) namespace for UWP app that target HTTP services.
 
 ## -remarks
-The [Windows.Web.Http](../windows.web.http/windows_web_http.md) namespace and the related [Windows.Web.Http.Headers](windows_web_http_headers.md) and [Windows.Web.Http.Filters](../windows.web.http.filters/windows_web_http_filters.md) namespaces provide a programming interface for Windows Store app that connect to HTTP and REST services. These namespaces provides consistent support in JavaScript, C#, VB.NET, and C++ for HTTP app developers.
+The [Windows.Web.Http](../windows.web.http/windows_web_http.md) namespace and the related [Windows.Web.Http.Headers](windows_web_http_headers.md) and [Windows.Web.Http.Filters](../windows.web.http.filters/windows_web_http_filters.md) namespaces provide a programming interface for UWP app that connect to HTTP and REST services. These namespaces provides consistent support in JavaScript, C#, VB.NET, and C++ for HTTP app developers.
 
 Classes in the [Windows.Web.Http.Headers](windows_web_http_headers.md) namespace represent HTTP headers defined in [RFC 2616](http://go.microsoft.com/fwlink/p/?LinkID=241642) by the IETF. HTTP headers are associated with the [HttpRequestMessage](../windows.web.http/httprequestmessage.md), [HttpResponseMessage](../windows.web.http/httpresponsemessage.md), and HTTP content sent with an HTTP request message or received with an HTTP response message.
 

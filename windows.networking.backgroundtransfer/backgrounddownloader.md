@@ -16,7 +16,7 @@ Used to configure downloads prior to the actual creation of the download operati
 > Background Transfer is primarily designed for long-term transfer operations for resources like video, music, and large images. For short-term operations involving transfers of smaller resources (i.e. a couple KB), use the [Windows.Web.Http](../windows.web.http/windows_web_http.md) namespace.
 
 ## -remarks
-After app termination, an app should enumerate all existing [DownloadOperation](downloadoperation.md) instances at next start-up using [GetCurrentDownloadsAsync](backgrounddownloader_getcurrentdownloadsasync.md). When a Windows Store app using Background Transfer is terminated, incomplete downloads will persist in the background. If the app is restarted after termination and operations from the previous session are not enumerated and re-attached to the current session, they will remain incomplete and continue to occupy resources.
+After app termination, an app should enumerate all existing [DownloadOperation](downloadoperation.md) instances at next start-up using [GetCurrentDownloadsAsync](backgrounddownloader_getcurrentdownloadsasync.md). When a UWP app using Background Transfer is terminated, incomplete downloads will persist in the background. If the app is restarted after termination and operations from the previous session are not enumerated and re-attached to the current session, they will remain incomplete and continue to occupy resources.
 
 > [!NOTE]
 > When an app is uninstalled any current or persisted Background Transfer operations associated with it are cleaned up.
@@ -63,7 +63,7 @@ Stopping a debugging session in Microsoft Visual Studio is comparable to closing
 
 If there are Microsoft Visual Studio project updates, like changes to the app manifest, and the app is uninstalled and re-deployed, [GetCurrentUploadsAsync](backgrounduploader_getcurrentuploadsasync.md) cannot enumerate operations created using the previous app deployment.
 
-See [Debugging and testing Windows Store apps](http://go.microsoft.com/fwlink/p/?LinkID=258252) for more information.
+See [Debugging and testing UWP apps](http://go.microsoft.com/fwlink/p/?LinkID=258252) for more information.
 
 When using Background Transfer during development, you may get into a situation where the internal caches of active and completed transfer operations can get out of sync. This may result in the inability to start new transfer operations or interact with existing operations and [BackgroundTransferGroup](backgroundtransfergroup.md) objects. In some cases, attempting to interact with existing operations may trigger a crash. This result can occur if the [TransferBehavior](backgroundtransfergroup_transferbehavior.md) property is set to **Parallel**. This issue occurs only in certain scenarios during development and is not applicable to end users of your app.
 

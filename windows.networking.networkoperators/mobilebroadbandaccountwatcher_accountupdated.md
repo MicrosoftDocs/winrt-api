@@ -14,7 +14,7 @@ public event Windows.Foundation.TypedEventHandler AccountUpdated<Windows.Network
 Occurs when a Mobile Broadband Account is updated on the client.
 
 > [!NOTE]
-> This functionality is only available to mobile operator apps and Windows Store apps given privileged access by mobile network operators.
+> This functionality is only available to mobile operator apps and UWP apps given privileged access by mobile network operators.
 
 
 

@@ -18,7 +18,7 @@ Provides event information when an app is launched.
 ## -remarks
 This object is accessed when you respond to [Activated](../windows.applicationmodel.core/coreapplicationview_activated.md) events when [ActivationKind](activationkind.md) is **Launch**.
 
-Windows Store app using C++, C#, or Visual Basic typically implement activation points by overriding methods of the [Application](../windows.ui.xaml/application.md) object. The default template app.xaml code-behind files always include an override for [OnLaunched](../windows.ui.xaml/application_onlaunched.md). The default implementation includes initial navigation support and state management through the SuspensionManager helper class.
+UWP app using C++, C#, or Visual Basic typically implement activation points by overriding methods of the [Application](../windows.ui.xaml/application.md) object. The default template app.xaml code-behind files always include an override for [OnLaunched](../windows.ui.xaml/application_onlaunched.md). The default implementation includes initial navigation support and state management through the SuspensionManager helper class.
 <!--Maybe need some polite way of saying do not mess w the default implementation of OnLaunched unless you actually know what you are doing-->
 
 All [Application](../windows.ui.xaml/application.md) overrides involved in an activation scenario should call [Window.Activate](../windows.ui.xaml/window_activate.md) in their implementations.

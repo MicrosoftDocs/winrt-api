@@ -10,10 +10,10 @@ public string Description { get; }
 # Windows.Services.Store.StoreSku.Description
 
 ## -description
-Gets the product SKU description from the Windows Store listing.
+Gets the product SKU description from the Microsoft Store listing.
 
 ## -property-value
-The product SKU description from the Windows Store listing.
+The product SKU description from the Microsoft Store listing.
 
 ## -remarks
 

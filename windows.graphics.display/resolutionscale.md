@@ -71,9 +71,9 @@ For more info on scaling to pixel density, see [UX guidelines for layout and sca
 The [Scaling according to DPI sample](http://go.microsoft.com/fwlink/p/?linkid=231577) shows how to use the [ResolutionScale](resolutionscale.md) enumeration.
 
 
-For Windows Store app and Windows Phone apps, we recommend these scale factors:
+For UWP apps and Windows Phone apps, we recommend these scale factors:
 
-+ Windows Store app (100/140/180)
++ UWP app (100/140/180)
 + Windows Phone apps for Windows Phone 8.1 and later (100/140/240)
 + Windows Phone apps for Windows Phone 8 (100/150/160)
 

@@ -11,7 +11,7 @@ public Windows.Foundation.Deferral GetDeferral()
 # Windows.Devices.AllJoyn.AllJoynCredentialsRequestedEventArgs.GetDeferral
 
 ## -description
-Allows JavaScript Windows Store app to handle the verification of provided of credentials asynchronously.
+Allows JavaScript UWP app to handle the verification of provided of credentials asynchronously.
 
 ## -returns
 The credential request deferral.

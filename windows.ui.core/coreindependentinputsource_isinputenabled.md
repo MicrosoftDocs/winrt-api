@@ -10,7 +10,7 @@ public bool IsInputEnabled { get;  set; }
 # Windows.UI.Core.CoreIndependentInputSource.IsInputEnabled
 
 ## -description
-Gets or sets a value that indicates whether input is enabled for the Windows Store app.
+Gets or sets a value that indicates whether input is enabled for the UWP app.
 
 ## -property-value
 **true** if input is enabled for the app; **false** if it is disabled.

@@ -81,13 +81,13 @@ Gets or sets the **sRGB** blue channel value of the color.
 [Color](color.md) values are used in these features and scenarios:
 + Colors for start screens and general UI (for example [SecondaryTile.BackgroundColor](../windows.ui.startscreen/secondarytile_backgroundcolor.md) and [UISettings.UIElementColor](../windows.ui.viewmanagement/uisettings_uielementcolor.md)). These can be used in JavaScript.
 + Color values for the Windows 8 ink system. Specifically, [InkDrawingAttributes.Color](../windows.ui.input.inking/inkdrawingattributes_color.md). This can be used in JavaScript.
-+ Color values for XAML UI and Windows Store app using C++, C#, or Visual Basic, particularly for brushes. These API can't be used in JavaScript.
++ Color values for XAML UI and UWP app using C++, C#, or Visual Basic, particularly for brushes. These API can't be used in JavaScript.
 + Defining color values that are used for interfaces representing text, in the [Windows.UI.Text](../windows.ui.text/windows_ui_text.md) namespace. These API can't be used in JavaScript.
 
 
 ### Color values and XAML definitions
 
-The most frequent application of [Color](color.md) is to define color-related properties in a UI element as part of a Windows Store app using C++, C#, or Visual Basic and its XAML UI definition.
+The most frequent application of [Color](color.md) is to define color-related properties in a UI element as part of a UWP app using C++, C#, or Visual Basic and its XAML UI definition.
 
 Various predefined [Color](color.md) values are available as static properties on the [Colors](colors.md) class. These properties are useful for setting [Color](color.md) values in code that match the attribute string form used in XAML to set a named [Color](color.md). For example, the [Colors.AliceBlue](colors_aliceblue.md) property returns a [Color](color.md) that is equal to [Color](color.md) from the XAML usage `<SolidColorBrush Color="AliceBlue" />`. You can also use the [Colors](colors.md) values for equality comparisons against a Color.
 

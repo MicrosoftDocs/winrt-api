@@ -13,7 +13,7 @@ public class ResourceIndexer : Windows.ApplicationModel.Resources.Management.IRe
 Indexes source resource files or containers, and generates named resource candidates using particular file and folder naming conventions.
 
 > [!IMPORTANT]
-> You can't use this class in a Windows Store app.
+> You can't use this class in a UWP app.
 
 ## -remarks
 [ResourceIndexer](resourceindexer.md) does not guarantee parity of discovered resource candidates with MakePRI.exe because MakePRI may have arbitrary configurations.

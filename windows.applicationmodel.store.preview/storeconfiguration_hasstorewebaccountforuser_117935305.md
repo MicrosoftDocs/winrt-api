@@ -10,7 +10,7 @@ public bool HasStoreWebAccountForUser(Windows.System.User user)
 # Windows.ApplicationModel.Store.Preview.StoreConfiguration.HasStoreWebAccountForUser
 
 ## -description
-Determines whether the specified user has a Windows Store account.
+Determines whether the specified user has a Microsoft Store account.
 
 
 
@@ -19,7 +19,7 @@ Determines whether the specified user has a Windows Store account.
 An object that identifies the user for which to query.
 
 ## -returns
-True if the specified userhas a Windows Store account; otherwise false.
+True if the specified userhas a Microsoft Store account; otherwise false.
 
 ## -remarks
 

@@ -10,7 +10,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Services.Store.StoreProductPag
 # Windows.Services.Store.StoreContext.GetUserCollectionWithPagingAsync
 
 ## -description
-Gets Windows Store info for the add-ons of the current app for which the user has entitlements to use. This method supports paging to return the results.
+Gets Microsoft Store info for the add-ons of the current app for which the user has entitlements to use. This method supports paging to return the results.
 
 ## -parameters
 ### -param productKinds
@@ -20,7 +20,7 @@ An array of strings that specify the types of add-ons for which you want to retr
 The maximum number of add-ons to return in each page of results.
 
 ## -returns
-An asynchronous operation that, on successful completion, returns a [StoreProductPagedQueryResult](storeproductpagedqueryresult.md) object that provides access to the Windows Store listing info for the add-ons of the current app for which the user has entitlements to use, as well as the next page of results.
+An asynchronous operation that, on successful completion, returns a [StoreProductPagedQueryResult](storeproductpagedqueryresult.md) object that provides access to the Microsoft Store listing info for the add-ons of the current app for which the user has entitlements to use, as well as the next page of results.
 
 ## -remarks
 This method is similar to [GetUserCollectionAsync](storecontext_getusercollectionasync.md), with the difference that it enables you to use paging to retrieve the add-ons. For more information about using [GetUserCollectionAsync](storecontext_getusercollectionasync.md), including a code example, see [Get product info for apps and add-ons](https://msdn.microsoft.com/windows/uwp/monetize/get-product-info-for-apps-and-add-ons).

@@ -13,7 +13,7 @@ public class VideoStreamDescriptor : Windows.Media.Core.IMediaStreamDescriptor, 
 Defines an video media stream.
 
 ## -remarks
-See the [MediaStreamSource Sample](http://go.microsoft.com/fwlink/p/?LinkID=309021) for an example of using Media Stream Source in a Windows Store app.
+See the [MediaStreamSource Sample](http://go.microsoft.com/fwlink/p/?LinkID=309021) for an example of using Media Stream Source in a UWP app.
 
 ## -examples
 

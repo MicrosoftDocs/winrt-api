@@ -10,10 +10,10 @@ public string Title { get; }
 # Windows.Services.Store.StoreProduct.Title
 
 ## -description
-Gets the product title from the Windows Store listing.
+Gets the product title from the Microsoft Store listing.
 
 ## -property-value
-The product title from the Windows Store listing.
+The product title from the Microsoft Store listing.
 
 ## -remarks
 

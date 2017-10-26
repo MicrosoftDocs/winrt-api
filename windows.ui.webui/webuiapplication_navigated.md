@@ -13,7 +13,7 @@ static public event Windows.UI.WebUI.NavigatedEventHandler Navigated
 Occurs when the app is navigating.
 
 ## -remarks
-In most cases an HTML based Windows Store app should never have to navigate or reload its top level document. To maintain global state and create a smooth user experience it is preferable that apps dynamically load and tear down their HTML as they need to within the same top level page.
+In most cases an HTML based UWP app should never have to navigate or reload its top level document. To maintain global state and create a smooth user experience it is preferable that apps dynamically load and tear down their HTML as they need to within the same top level page.
 
 However on some rare occasions your app may need to navigate or reload its top level document. When that happens the navigated event will be raised after the top level document is navigated or reloaded. It is raised after the **DOMContentLoaded** event and before the **onLoad** event. This event informs the new page that it is being loaded because of an in app navigation, not a new activation. You can use this event to restore any saved state for the page and re-initialize your app’s UI.
 

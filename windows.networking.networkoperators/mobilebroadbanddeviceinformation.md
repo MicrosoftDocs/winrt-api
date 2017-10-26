@@ -14,7 +14,7 @@ public class MobileBroadbandDeviceInformation : Windows.Networking.NetworkOperat
 Represents the current state of the mobile broadband network device for the account.
 
 > [!NOTE]
-> This functionality is only available to mobile operator apps and Windows Store apps given privileged access by mobile network operators.
+> This functionality is only available to mobile operator apps and UWP apps given privileged access by mobile network operators.
 
 
 

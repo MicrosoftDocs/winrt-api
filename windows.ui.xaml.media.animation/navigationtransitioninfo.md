@@ -13,7 +13,7 @@ public class NavigationTransitionInfo : Windows.UI.Xaml.DependencyObject, Window
 Provides parameter info for the [Frame.Navigate](../windows.ui.xaml.controls/frame_navigate.md) method. Controls how the transition animation runs during the navigation action.
 
 ## -remarks
-> For Windows Phone Store app, several derived types ([CommonNavigationTransitionInfo](commonnavigationtransitioninfo.md), [ContinuumNavigationTransitionInfo](continuumnavigationtransitioninfo.md), [SlideNavigationTransitionInfo](slidenavigationtransitioninfo.md)) can be used in XAML to fill the [NavigationThemeTransition.DefaultNavigationTransitionInfo](navigationthemetransition_defaultnavigationtransitioninfo.md) property.
+> For Windows Phone 8.x app, several derived types ([CommonNavigationTransitionInfo](commonnavigationtransitioninfo.md), [ContinuumNavigationTransitionInfo](continuumnavigationtransitioninfo.md), [SlideNavigationTransitionInfo](slidenavigationtransitioninfo.md)) can be used in XAML to fill the [NavigationThemeTransition.DefaultNavigationTransitionInfo](navigationthemetransition_defaultnavigationtransitioninfo.md) property.
 
 ## -examples
 

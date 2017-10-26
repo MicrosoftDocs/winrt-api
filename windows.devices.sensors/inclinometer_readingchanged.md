@@ -15,7 +15,7 @@ Occurs each time the inclinometer reports a new sensor reading.
 ## -remarks
 Applications can set the frequency of this event by setting the **ReportInterval** property.
 
-The following example demonstrates how a Windows Store app built with C# and XAML registered its **ReadingChanged** event handler.
+The following example demonstrates how a UWP app built with C# and XAML registered its **ReadingChanged** event handler.
 
 
 
@@ -27,7 +27,7 @@ The following example shows the [ReadingChanged](inclinometer_readingchanged.md)
 
 [!code-csharp[ReadingChangedCS](../windows.devices.sensors/code/inclinometer/csharp/Scenario1.xaml.cs#SnippetReadingChangedCS)]
 
-The following example demonstrates how a Windows Store app built with JavaScript registers its [ReadingChanged](inclinometer_readingchanged.md) event handler.
+The following example demonstrates how a UWP app built with JavaScript registers its [ReadingChanged](inclinometer_readingchanged.md) event handler.
 
 
 

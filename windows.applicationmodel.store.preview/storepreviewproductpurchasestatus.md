@@ -20,7 +20,7 @@ The transaction succeeded and the user has been notified.
 The transaction did not complete because this in-app product SKU has already been purchased by the user, and it cannot be purchased again. This value only applies to durable in-app products.
 
 ### -field NotFulfilled:2
-The transaction did not complete because the last purchase of this consumable in-app product SKU has not been reported as fulfilled to the Windows Store. This value only applies to consumable in-app products.
+The transaction did not complete because the last purchase of this consumable in-app product SKU has not been reported as fulfilled to the Microsoft Store. This value only applies to consumable in-app products.
 
 ### -field NotPurchased:3
 The purchase did not occur because the user decided not to complete the transaction (or the transaction failed for other reasons).

@@ -13,7 +13,7 @@ public class IndexedResourceQualifier : Windows.ApplicationModel.Resources.Manag
 Represents an object that declares under what context a resource is appropriate.
 
 > [!IMPORTANT]
-> You can't use this class in a Windows Store app.
+> You can't use this class in a UWP app.
 
 ## -remarks
 

@@ -20,7 +20,7 @@ A [ProxyConfiguration](proxyconfiguration.md) object is returned by calling the 
 
 The proxy configuration returned is for the *uri* parameter passed to the [GetProxyConfigurationAsync](networkinformation_getproxyconfigurationasync.md) method. The *uri* parameter contains a hostname or IP address for the target endpoint and a service name, port number, or protocol scheme.
 
-In a Windows Store app, the [StreamSocket](../windows.networking.sockets/streamsocket.md) class supports connecting to a remote endpoint when proxies are required to plumb the connection. This support for proxies is automatic and transparent to the app. For more detailed information, see the remarks on *Support for proxies* in the [StreamSocket](../windows.networking.sockets/streamsocket.md) class reference.
+In a UWP app, the [StreamSocket](../windows.networking.sockets/streamsocket.md) class supports connecting to a remote endpoint when proxies are required to plumb the connection. This support for proxies is automatic and transparent to the app. For more detailed information, see the remarks on *Support for proxies* in the [StreamSocket](../windows.networking.sockets/streamsocket.md) class reference.
 
 ## -examples
 

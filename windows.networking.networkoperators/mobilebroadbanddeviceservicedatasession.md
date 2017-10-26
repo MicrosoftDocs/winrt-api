@@ -14,7 +14,7 @@ public class MobileBroadbandDeviceServiceDataSession : Windows.Networking.Networ
 Represents a device service data session which allows the caller to write data to the modem on a mobile broadband device service.
 
 > [!NOTE]
-> This functionality is only available to mobile operator apps and Windows Store apps given privileged access by mobile network operators.
+> This functionality is only available to mobile operator apps and UWP apps given privileged access by mobile network operators.
 
 
 

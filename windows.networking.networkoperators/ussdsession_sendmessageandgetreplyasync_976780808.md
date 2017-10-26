@@ -14,7 +14,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Networking.NetworkOperators.Us
 Sends a message to a USSD session and returns a handler to retrieve the reply asynchronously.
 
 > [!NOTE]
-> This functionality is only available to mobile operator apps and Windows Store apps given privileged access by mobile network operators.
+> This functionality is only available to mobile operator apps and UWP apps given privileged access by mobile network operators.
 
 
 

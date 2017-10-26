@@ -10,7 +10,7 @@ public Windows.Foundation.Collections.IVector<string> Ratings { get;  set; }
 # Windows.Media.ContentRestrictions.RatedContentDescription.Ratings
 
 ## -description
-Provides all existing third-party and Windows Store age ratings for a piece of content.
+Provides all existing third-party and Microsoft Store age ratings for a piece of content.
 
 
 

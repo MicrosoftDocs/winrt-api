@@ -14,7 +14,7 @@ Requests the receipt for the specified product ID. For examples of how receipt i
 
 ## -parameters
 ### -param productId
-The unique identifier for the product that you specified this identifier when you submitted the app to the Windows Store
+The unique identifier for the product that you specified this identifier when you submitted the app to the Microsoft Store
 
 ## -returns
 An XML-formatted string that contains the receipt for the specified *productId.*

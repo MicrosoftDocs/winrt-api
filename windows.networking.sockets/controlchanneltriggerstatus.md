@@ -46,7 +46,7 @@ The mitigation in both these cases is to listen for System Event broker events a
 
 
 ## -remarks
-The system maintains a policy on the number of [ControlChannelTrigger](controlchanneltrigger.md) instances that can be configured for a Windows Store app, to limit resource usage and extend battery life. Once configuration by the system is complete, each [ControlChannelTrigger](controlchanneltrigger.md) instance represents either a hardware or software slot for an established TCP connection that is to be maintained even when the app is suspended (moved from the foreground to the background).
+The system maintains a policy on the number of [ControlChannelTrigger](controlchanneltrigger.md) instances that can be configured for a UWP app, to limit resource usage and extend battery life. Once configuration by the system is complete, each [ControlChannelTrigger](controlchanneltrigger.md) instance represents either a hardware or software slot for an established TCP connection that is to be maintained even when the app is suspended (moved from the foreground to the background).
 
 A local computer system can be in several power states:
 

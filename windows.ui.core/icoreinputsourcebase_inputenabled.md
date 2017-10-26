@@ -10,7 +10,7 @@ abstract public event Windows.Foundation.TypedEventHandler InputEnabled<object, 
 # Windows.UI.Core.ICoreInputSourceBase.InputEnabled
 
 ## -description
-Occurs when input is enabled or disabled for the Windows Store app.
+Occurs when input is enabled or disabled for the UWP app.
 
 ## -remarks
 

@@ -14,7 +14,7 @@ public System.Guid ServiceProviderGuid { get; }
 A unique identifier for the network provider for the mobile broadband account.
 
 > [!NOTE]
-> This functionality is only available to mobile operator apps and Windows Store apps given privileged access by mobile network operators.
+> This functionality is only available to mobile operator apps and UWP apps given privileged access by mobile network operators.
 
 
 

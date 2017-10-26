@@ -18,7 +18,7 @@ Fired when a call is made to [RequestCreateAsync](secondarytile_requestcreateasy
 > This event is not raised on Windows Phone 8.1.
 
 ## -remarks
-> This event is not raised for Windows Phone Store app.
+> This event is not raised for Windows Phone 8.x app.
 
 ## -examples
 

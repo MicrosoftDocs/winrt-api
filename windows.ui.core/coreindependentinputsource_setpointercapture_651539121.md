@@ -10,7 +10,7 @@ public void SetPointerCapture()
 # Windows.UI.Core.CoreIndependentInputSource.SetPointerCapture
 
 ## -description
-Enables pointer capture for the Windows Store app.
+Enables pointer capture for the UWP app.
 
 ## -remarks
 The app must be in the foreground for this method to succeed.

@@ -14,7 +14,7 @@ public Windows.Foundation.Collections.IVectorView<string> AvailableNetworkAccoun
 A list of all network account IDs for the network service provider.
 
 > [!NOTE]
-> This functionality is only available to mobile operator apps and Windows Store apps given privileged access by mobile network operators.
+> This functionality is only available to mobile operator apps and UWP apps given privileged access by mobile network operators.
 
 
 

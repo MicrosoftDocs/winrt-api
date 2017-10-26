@@ -17,7 +17,7 @@ Gets the device data included during device discovery.
 User or device data to include during device discovery. Must be less than 32 bytes.
 
 ## -remarks
-> Windows Phone Store app: This property is not supported and returns no data.
+> Windows Phone 8.x app: This property is not supported and returns no data.
 
 ## -examples
 

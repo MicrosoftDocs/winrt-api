@@ -6,7 +6,7 @@
 # Windows.Devices.Bluetooth.GenericAttributeProfile
 
 ## -description
-The **Windows.Devices.Bluetooth.GenericAttributeProfile** namespace defines Windows Runtime classes that a Windows Store app and desktop applications can use to communicate with Bluetooth LE devices. For more information, see [Bluetooth](http://msdn.microsoft.com/library/404783ba-8859-4bfb-86e3-3dd2042e66f5).To learn more about how to use **Windows.Devices.Bluetooth.GenericAttributeProfile**, see the [Bluetooth Generic Attribute Profile - Heart Rate Service](http://go.microsoft.com/fwlink/p/?LinkID=309278) sample.
+The **Windows.Devices.Bluetooth.GenericAttributeProfile** namespace defines Windows Runtime classes that a UWP app and desktop applications can use to communicate with Bluetooth LE devices. For more information, see [Bluetooth](http://msdn.microsoft.com/library/404783ba-8859-4bfb-86e3-3dd2042e66f5).To learn more about how to use **Windows.Devices.Bluetooth.GenericAttributeProfile**, see the [Bluetooth Generic Attribute Profile - Heart Rate Service](http://go.microsoft.com/fwlink/p/?LinkID=309278) sample.
 
 ## -remarks
 

@@ -10,10 +10,10 @@ public string StoreContentModifierId { get; }
 # Windows.ApplicationModel.Store.Preview.StoreHardwareManufacturerInfo.StoreContentModifierId
 
 ## -description
-Gets the ID of the Windows Store content modifier.
+Gets the ID of the Microsoft Store content modifier.
 
 ## -property-value
-The ID of the Windows Store content modifier.
+The ID of the Microsoft Store content modifier.
 
 ## -remarks
 

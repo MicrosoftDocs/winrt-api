@@ -21,7 +21,7 @@ This property works together with [Is3DManufacturingTargetEnabled](printtask_is3
 
 By default, [IsPrinterTargetEnabled](printtask_isprintertargetenabled.md) is **true** and [Is3DManufacturingTargetEnabled](printtask_is3dmanufacturingtargetenabled.md) is **false**.
 
-Windows Store app that support 2D printing in Windows 8 are not required to make a change in Windows 8.1 to add this property.
+UWP apps that support 2D printing in Windows 8 are not required to make a change in Windows 8.1 to add this property.
 
 ## -examples
 

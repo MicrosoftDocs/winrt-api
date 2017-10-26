@@ -42,7 +42,7 @@ For more info on how to use [MergedDictionaries](resourcedictionary_mergeddictio
 Changing the contents of the collection of [ResourceDictionary](resourcedictionary.md) items for [MergedDictionaries](resourcedictionary_mergeddictionaries.md) is not a common scenario. Generally you establish the collection contents in XAML and don't change it at runtime. There aren't many scenarios where you would access the collection itself in run-time code. Usually you rely on the built-in resource lookup that happens at XAML load time, or you query the relevant [Application.Resources](application_resources.md) or [FrameworkElement.Resources](frameworkelement_resources.md) collections that can reference resources by key, including the merged resources.
 
 ## -examples
-The starting Microsoft Visual Studio templates for a Windows Store app using C++, C#, or Visual Basic include a [MergedDictionaries](resourcedictionary_mergeddictionaries.md) node in the app.xaml file. This references a separate XAML [ResourceDictionary](resourcedictionary.md) in the project that contains some basic control template definitions. You can modify the XAML within the [ResourceDictionary](resourcedictionary.md) in order to customize the appearance of your controls.
+The starting Microsoft Visual Studio templates for a UWP app using C++, C#, or Visual Basic include a [MergedDictionaries](resourcedictionary_mergeddictionaries.md) node in the app.xaml file. This references a separate XAML [ResourceDictionary](resourcedictionary.md) in the project that contains some basic control template definitions. You can modify the XAML within the [ResourceDictionary](resourcedictionary.md) in order to customize the appearance of your controls.
 
 ```xaml
 <Application

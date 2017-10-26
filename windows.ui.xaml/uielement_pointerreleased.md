@@ -19,7 +19,7 @@ Occurs when the pointer device that previously initiated a **Press** action is r
 
 
 ## -remarks
-Touch, mouse, and pen/stylus interactions are received, processed, and managed as pointer input in Windows Store app. Any of these interactions can produce a [PointerReleased](uielement_pointerreleased.md) event. For more info, see [Handle pointer input](http://msdn.microsoft.com/library/bdbc9e33-4037-4671-9596-471dcf855c82).
+Touch, mouse, and pen/stylus interactions are received, processed, and managed as pointer input in UWP app. Any of these interactions can produce a [PointerReleased](uielement_pointerreleased.md) event. For more info, see [Handle pointer input](http://msdn.microsoft.com/library/bdbc9e33-4037-4671-9596-471dcf855c82).
 
 Other events instead of [PointerReleased](uielement_pointerreleased.md) may fire at the end of the action— for example, [PointerCanceled](uielement_pointercanceled.md) or [PointerCaptureLost](uielement_pointercapturelost.md). Don't rely on [PointerPressed](uielement_pointerpressed.md) and [PointerReleased](uielement_pointerreleased.md) events always occurring in pairs. To function properly, your app must listen for and handle all events that represent likely conclusions to the **Press** action. Some of the reasons why you might not get a [PointerReleased](uielement_pointerreleased.md) occurrence are:
 + Differences in how specific hardware handles touch actions and **Press** actions

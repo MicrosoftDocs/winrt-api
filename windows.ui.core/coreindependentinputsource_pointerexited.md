@@ -10,7 +10,7 @@ public event Windows.Foundation.TypedEventHandler PointerExited<object,  Windows
 # Windows.UI.Core.CoreIndependentInputSource.PointerExited
 
 ## -description
-Occurs when the pointer moves outside the bounding box of the Windows Store app.
+Occurs when the pointer moves outside the bounding box of the UWP app.
 
 ## -remarks
 For touch input, the app receives this event before a [PointerReleased](coreindependentinputsource_pointerreleased.md) event.

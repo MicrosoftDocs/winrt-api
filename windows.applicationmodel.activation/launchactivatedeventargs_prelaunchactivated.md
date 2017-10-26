@@ -16,7 +16,7 @@ Indicates whether the app was pre-launched.
 Indicates whether the app was pre-launched. **TRUE** indicates it was; otherwise, **FALSE**.
 
 ## -remarks
-When available system resources allow, the startup performance of Windows Store app is improved by proactively launching the user’s most frequently used apps in the background. See [Handle app prelaunch](http://msdn.microsoft.com/library/a4838ac2-22d7-46ba-9eb2-f3c248e22f52) for details.
+When available system resources allow, the startup performance of UWP app is improved by proactively launching the user’s most frequently used apps in the background. See [Handle app prelaunch](http://msdn.microsoft.com/library/a4838ac2-22d7-46ba-9eb2-f3c248e22f52) for details.
 
 ## -examples
 

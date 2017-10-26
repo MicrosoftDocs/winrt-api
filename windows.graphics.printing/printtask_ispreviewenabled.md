@@ -19,7 +19,7 @@ True, if print preview is enabled.
 ## -remarks
 In some situations, displaying the print preview will take too much time and disrupt the user experience of a Universal Windows app. For this reason, the developer may wish to disable the print preview feature in favor of a smoother control flow.
 
-By default, **isPreviewEnabled** is **true**. Windows Store app that are meant to print in the background must set **isPreviewEnabled** to **false**.
+By default, **isPreviewEnabled** is **true**. UWP apps that are meant to print in the background must set **isPreviewEnabled** to **false**.
 
 ## -examples
 

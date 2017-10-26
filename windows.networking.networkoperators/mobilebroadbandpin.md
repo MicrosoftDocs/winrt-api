@@ -14,7 +14,7 @@ public class MobileBroadbandPin : Windows.Networking.NetworkOperators.IMobileBro
 Contains the properties and methods associated with a mobile broadband PIN.
 
 > [!NOTE]
-> This functionality is only available to mobile operator apps and Windows Store apps given privileged access by mobile network operators.
+> This functionality is only available to mobile operator apps and UWP apps given privileged access by mobile network operators.
 
 
 
