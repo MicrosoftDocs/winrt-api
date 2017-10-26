@@ -24,7 +24,7 @@ When this method completes successfully, it returns a [StorageItemThumbnail](../
 ## -remarks
 For guidance about choosing the best thumbnail mode, see [Guidelines and checklist for thumbnails](http://msdn.microsoft.com/library/46868748-8847-49ed-a07f-324e77b27da4).
 
-> In Windows Phone Store app, the [StorageFile.GetThumbnailAsync](storagefile_getthumbnailasync.md) method returns the default icon for a music file instead of the expected icon. This happens when you call the [StorageFile.GetThumbnailAsync](storagefile_getthumbnailasync.md) method with a [ThumbnailMode](../windows.storage.fileproperties/thumbnailmode.md) value of **MusicView**.
+> In Windows Phone 8.x app, the [StorageFile.GetThumbnailAsync](storagefile_getthumbnailasync.md) method returns the default icon for a music file instead of the expected icon. This happens when you call the [StorageFile.GetThumbnailAsync](storagefile_getthumbnailasync.md) method with a [ThumbnailMode](../windows.storage.fileproperties/thumbnailmode.md) value of **MusicView**.
 
 ## -examples
 

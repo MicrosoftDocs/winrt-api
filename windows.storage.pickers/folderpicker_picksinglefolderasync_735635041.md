@@ -11,7 +11,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Storage.StorageFolder> PickSin
 # Windows.Storage.Pickers.FolderPicker.PickSingleFolderAsync
 
 ## -description
-Shows the [folderPicker](folderpicker.md) object so that the user can pick a folder. (Windows Store app)
+Shows the [folderPicker](folderpicker.md) object so that the user can pick a folder. (UWP app)
 
 > [!NOTE]
 > You must specify the [FileTypeFilter](folderpicker_filetypefilter.md) before calling this method, or it will throw an exception. To list all folders, use "*" as the filter.

@@ -10,7 +10,7 @@ public void ReleasePointerCapture()
 # Windows.UI.Core.CoreIndependentInputSource.ReleasePointerCapture
 
 ## -description
-Disables pointer capture for the Windows Store app.
+Disables pointer capture for the UWP app.
 
 ## -remarks
 

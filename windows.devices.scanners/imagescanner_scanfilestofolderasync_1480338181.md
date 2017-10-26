@@ -28,7 +28,7 @@ The files are named using temporary names, with a standard file extension that d
 
 
 > [!NOTE]
-> In Windows Store app, when this method is invoked, the app must be visible and running in the foreground.
+> In UWP app, when this method is invoked, the app must be visible and running in the foreground.
 
 When the app cancels the async call, it initiates a cancellation request of the current scan job. There is no guarantee that if the app cancels the async call that the scan job will be canceled. If the cancellation goes through, the scanner may stop for these reasons:
 

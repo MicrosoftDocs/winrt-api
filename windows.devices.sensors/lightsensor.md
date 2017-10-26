@@ -17,13 +17,13 @@ This sensor returns the ambient-light reading as a LUX value.
 For an example implementation, see the [light sensor sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/LightSensor).
 
 ## -remarks
-The following example demonstrates how a Windows Store app built with XAML and C# uses the [GetDefault](lightsensor_getdefault.md) method to establish a connection to a light sensor. If no integrated light sensor is found, the method will return a null value.
+The following example demonstrates how a UWP app built with XAML and C# uses the [GetDefault](lightsensor_getdefault.md) method to establish a connection to a light sensor. If no integrated light sensor is found, the method will return a null value.
 
 
 
 [!code-csharp[GetDefaultCS](../windows.devices.sensors/code/lightsensor/csharp/Scenario1.xaml.cs#SnippetGetDefaultCS)]
 
-The following example demonstrates how a Windows Store app built with XAML registers a [ReadingChanged](lightsensor_readingchanged.md) event handler.
+The following example demonstrates how a UWP app built with XAML registers a [ReadingChanged](lightsensor_readingchanged.md) event handler.
 
 
 

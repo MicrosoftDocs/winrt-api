@@ -13,7 +13,7 @@ public string Message { get; }
 Gets the message for the network operator notification.
 
 > [!NOTE]
-> This functionality is only available to mobile operator apps and Windows Store apps given privileged access by mobile network operators.
+> This functionality is only available to mobile operator apps and UWP apps given privileged access by mobile network operators.
 
 
 

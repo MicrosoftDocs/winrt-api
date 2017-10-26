@@ -22,13 +22,13 @@ If the sensor is configured to support batch delivery, this method flushes the c
 
 Before using the return value from this method, the application must first check that the value is not null. (If the value is null and you attempt to retrieve it, Windows will generate an exception.)
 
-The following example demonstrates how a Windows Store app built with XAML and C# retrieves the current reading for the three axes of the default accelerometer.
+The following example demonstrates how a UWP app built with XAML and C# retrieves the current reading for the three axes of the default accelerometer.
 
 
 
 [!code-csharp[GetCurrentReadingCS](../windows.devices.sensors/code/Accelerometer/cs/Scenario3.xaml.cs#SnippetGetCurrentReadingCS)]
 
-The following example demonstrates how a Windows Store app built for Windows using JavaScript retrieves the current reading for the three axes of the default accelerometer.
+The following example demonstrates how a UWP app built for Windows using JavaScript retrieves the current reading for the three axes of the default accelerometer.
 
 
 

@@ -16,7 +16,7 @@ Gets or sets a value that represents the package family name of the app in the S
 The package family name of the app.
 
 ## -remarks
-In some cases the user may not have an app installed to handle the file that you are launching. By default, Windows will handle these cases by providing the user with a link to search for an appropriate app on the store. Use **LauncherOptions.PreferredApplicationDisplayName** in conjunction with **LauncherOptions.preferredApplicationPackageFamilyName** to provide the user with an app in the Windows Store that they can acquire to handle the file. The display name that you use should correspond to the display name of the app in the Windows Store.
+In some cases the user may not have an app installed to handle the file that you are launching. By default, Windows will handle these cases by providing the user with a link to search for an appropriate app on the store. Use **LauncherOptions.PreferredApplicationDisplayName** in conjunction with **LauncherOptions.preferredApplicationPackageFamilyName** to provide the user with an app in the Microsoft Store that they can acquire to handle the file. The display name that you use should correspond to the display name of the app in the Microsoft Store.
 
 You must set both of these preferred application properties to recommend an app. Setting one without the other will result in a failure.
 
@@ -31,7 +31,7 @@ You must set both of these preferred application properties to recommend an app.
 > This property is only implemented on Desktop devices.
 
 ## -examples
-Call the [Launcher.LaunchFileAsync(IStorageFile, LauncherOptions) | launchFileAsync(IStorageFile, LauncherOptions)](launcher_launchfileasync_1480137410.md) method with **preferredApplicationDisplayName** set to the display name of an app in the Windows Store and the **preferredApplicationPackageFamilyName ** set to the package family name of an app in the Windows Store.
+Call the [Launcher.LaunchFileAsync(IStorageFile, LauncherOptions) | launchFileAsync(IStorageFile, LauncherOptions)](launcher_launchfileasync_1480137410.md) method with **preferredApplicationDisplayName** set to the display name of an app in the Microsoft Store and the **preferredApplicationPackageFamilyName ** set to the package family name of an app in the Microsoft Store.
 
 ```javascript
 // Path to the file in the app package to launch

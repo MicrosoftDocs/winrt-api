@@ -20,13 +20,13 @@ This method only returns values for an accelerometer that has been integrated in
 
 When a system is in Connected Standby, a call to the [GetDefault](accelerometer_getdefault.md) method will return immediately with a null result.
 
-The following example demonstrates how a Windows Store app built with XAML and C# used this method to establish a connection to the default accelerometer.
+The following example demonstrates how a UWP app built with XAML and C# used this method to establish a connection to the default accelerometer.
 
 
 
 [!code-csharp[GetDefaultCS](../windows.devices.sensors/code/Accelerometer/cs/Scenario1.xaml.cs#SnippetGetDefaultCS)]
 
-The following example demonstrates how a Windows Store app built for Windows using JavaScript used this method to establish a connection to the default accelerometer.
+The following example demonstrates how a UWP app built for Windows using JavaScript used this method to establish a connection to the default accelerometer.
 
 
 

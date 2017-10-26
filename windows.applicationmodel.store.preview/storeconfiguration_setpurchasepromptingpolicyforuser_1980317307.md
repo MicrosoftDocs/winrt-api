@@ -10,7 +10,7 @@ public void SetPurchasePromptingPolicyForUser(Windows.System.User user, Windows.
 # Windows.ApplicationModel.Store.Preview.StoreConfiguration.SetPurchasePromptingPolicyForUser
 
 ## -description
-Sets a value that indicates whether the Windows Store prompts the user before making a purchase.
+Sets a value that indicates whether the Microsoft Store prompts the user before making a purchase.
 
 ## -parameters
 ### -param user

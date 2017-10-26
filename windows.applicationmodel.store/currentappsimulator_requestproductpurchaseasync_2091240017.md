@@ -10,7 +10,7 @@ public Windows.Foundation.IAsyncOperation<Windows.ApplicationModel.Store.Purchas
 # Windows.ApplicationModel.Store.CurrentAppSimulator.RequestProductPurchaseAsync
 
 ## -description
-Creates the async operation that displays the UI that is used to simulate the purchase of an add-on (also called an in-app product or IAP) from the Windows Store.
+Creates the async operation that displays the UI that is used to simulate the purchase of an add-on (also called an in-app product or IAP) from the Microsoft Store.
 
 ## -parameters
 ### -param productId

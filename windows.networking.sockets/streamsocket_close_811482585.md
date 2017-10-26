@@ -15,7 +15,7 @@ Closes the [StreamSocket](streamsocket.md) object.
 ## -remarks
 The [Close](streamsocket_close.md) method aborts any pending operations and releases all unmanaged resources associated with the [StreamSocket](streamsocket.md) object. Aborting pending read operations on an [InputStream](streamsocket_inputstream.md) or aborting pending write operations on an [OutputStream](streamsocket_outputstream.md) will also result in the [StreamSocket](streamsocket.md) object being closed.
 
-The [Close](streamsocket_close.md) is used by Windows Store app s written in JavaScript. For apps written using the .NET Framework 4.5 in C# and VB.NET, the [Close](streamsocket_close.md) method is exposed as the [Dispose()](https://docs.microsoft.com/en-us/uwp/api/Windows.Networking.Sockets.StreamSocket#Windows_Networking_Sockets_StreamSocket_Dispose) method on the [StreamSocket](streamsocket.md). For apps written in C++, the [Close](streamsocket_close.md) method will be called when using the delete keyword on the object.
+The [Close](streamsocket_close.md) is used by UWP apps written in JavaScript. For apps written using the .NET Framework 4.5 in C# and VB.NET, the [Close](streamsocket_close.md) method is exposed as the [Dispose()](https://docs.microsoft.com/en-us/uwp/api/Windows.Networking.Sockets.StreamSocket#Windows_Networking_Sockets_StreamSocket_Dispose) method on the [StreamSocket](streamsocket.md). For apps written in C++, the [Close](streamsocket_close.md) method will be called when using the delete keyword on the object.
 
 ## -examples
 

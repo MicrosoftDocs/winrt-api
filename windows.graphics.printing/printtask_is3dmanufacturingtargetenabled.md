@@ -24,7 +24,7 @@ By default, [IsPrinterTargetEnabled](printtask_isprintertargetenabled.md) is **t
 
 
 > [!NOTE]
-> Windows Store app that support 3D printing in Windows 8.1 must set [IsPrinterTargetEnabled](printtask_isprintertargetenabled.md) to **false** and [Is3DManufacturingTargetEnabled](printtask_is3dmanufacturingtargetenabled.md) to **true** in order to enumerate only 3D printers in the print charm.
+> UWP apps that support 3D printing in Windows 8.1 must set [IsPrinterTargetEnabled](printtask_isprintertargetenabled.md) to **false** and [Is3DManufacturingTargetEnabled](printtask_is3dmanufacturingtargetenabled.md) to **true** in order to enumerate only 3D printers in the print charm.
 
 ## -examples
 

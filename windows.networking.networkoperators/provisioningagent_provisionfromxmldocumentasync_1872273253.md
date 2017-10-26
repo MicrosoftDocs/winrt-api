@@ -14,7 +14,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Networking.NetworkOperators.Pr
 Provisions a device for network connectivity asynchronously, based on the supplied XML document.
 
 > [!NOTE]
-> This functionality is only available to mobile operator apps and Windows Store apps given privileged access by mobile network operators.
+> This functionality is only available to mobile operator apps and UWP apps given privileged access by mobile network operators.
 
 
 

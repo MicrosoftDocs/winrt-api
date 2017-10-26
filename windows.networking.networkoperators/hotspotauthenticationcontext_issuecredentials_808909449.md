@@ -14,7 +14,7 @@ public void IssueCredentials(System.String userName, System.String password, Sys
 Provides credentials to Windows for hotspot authentication
 
 > [!NOTE]
-> This functionality is only available to mobile operator apps and Windows Store apps given privileged access by mobile network operators.
+> This functionality is only available to mobile operator apps and UWP apps given privileged access by mobile network operators.
 
 
 

@@ -10,7 +10,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Foundation.Collections.IVector
 # Windows.Storage.Pickers.FileOpenPicker.PickMultipleFilesAsync
 
 ## -description
-Shows the file picker so that the user can pick multiple files. (Windows Store app)
+Shows the file picker so that the user can pick multiple files. (UWP app)
 
 ## -returns
 When the call to this method completes successfully, it returns a [filePickerSelectedFilesArray](filepickerselectedfilesarray.md) object that contains all the files that were picked by the user. Picked files in this array are represented by [storageFile](../windows.storage/storagefile.md) objects.

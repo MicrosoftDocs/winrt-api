@@ -18,7 +18,7 @@ A resource loader for the [Resources subtree](../windows.applicationmodel.resour
 ## -remarks
 This method allows access relative to a resource file named "resources" (resources.resjson or resources.resw). The [ResourceLoader](resourceloader.md) that is returned uses a default context associated with the current view.
 
-The resource management system for Windows Store app supports the tailoring of resources for scale. Starting in Windows 8.1, different views owned by an app are able to display simultaneously on different display devices that may use different scales. In this way, scale is a per-view characteristic.
+The resource management system for UWP apps supports the tailoring of resources for scale. Starting in Windows 8.1, different views owned by an app are able to display simultaneously on different display devices that may use different scales. In this way, scale is a per-view characteristic.
 
 A [ResourceLoader](resourceloader.md) has an implicit context that is used when [ResourceLoader](resourceloader.md) methods are used to retrieve a resource. Since a [ResourceLoader](resourceloader.md) has an implicit context, and since the scale qualifier of contexts is dependent on an associated view, a [ResourceLoader](resourceloader.md) must be associated with a particular view.
 

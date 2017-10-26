@@ -10,10 +10,10 @@ public string Title { get; }
 # Windows.Services.Store.StoreSku.Title
 
 ## -description
-Gets the product SKU title from the Windows Store listing.
+Gets the product SKU title from the Microsoft Store listing.
 
 ## -property-value
-The product SKU title from the Windows Store listing.
+The product SKU title from the Microsoft Store listing.
 
 ## -remarks
 

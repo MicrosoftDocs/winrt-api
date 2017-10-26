@@ -14,7 +14,7 @@ public Windows.Networking.NetworkOperators.MobileBroadbandAccount CreateFromNetw
 Creates a mobile broadband account for the mobile device associated with the supplied network account ID.
 
 > [!NOTE]
-> This functionality is only available to mobile operator apps and Windows Store apps given privileged access by mobile network operators.
+> This functionality is only available to mobile operator apps and UWP apps given privileged access by mobile network operators.
 
 
 

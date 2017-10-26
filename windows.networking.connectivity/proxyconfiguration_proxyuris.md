@@ -23,7 +23,7 @@ The Web Proxy Auto-Discovery Protocol (WPAD) is used by web browsers and other a
 
 The [ProxyUris](proxyconfiguration_proxyuris.md) property contains a list of URIs that an app should connect directly to and bypass the proxy.
 
-In a Windows Store app, the [StreamSocket](../windows.networking.sockets/streamsocket.md) class supports connecting to a remote endpoint when proxies are required to complete the connection. This support for proxies is automatic and transparent to the app. For more detailed information, see the remarks on *Support for proxies* in the [StreamSocket](../windows.networking.sockets/streamsocket.md) class reference.
+In a UWP app, the [StreamSocket](../windows.networking.sockets/streamsocket.md) class supports connecting to a remote endpoint when proxies are required to complete the connection. This support for proxies is automatic and transparent to the app. For more detailed information, see the remarks on *Support for proxies* in the [StreamSocket](../windows.networking.sockets/streamsocket.md) class reference.
 
 ## -examples
 

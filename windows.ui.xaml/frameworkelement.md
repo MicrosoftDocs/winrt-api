@@ -63,7 +63,7 @@ The [FrameworkElement](frameworkelement.md) class defines the [Style](style.md) 
 
 ### **FrameworkElement** dependency properties
 
-Many of the read-write properties of the [FrameworkElement](frameworkelement.md) base element class are dependency properties. Dependency properties support some of the basic programming model features for a Windows Store app using C++, C#, or Visual Basic, such as styles and templates, data binding, XAML resource references, and property-changed logic. For more info on dependency properties and the features they support, see [Dependency properties overview](http://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e).
+Many of the read-write properties of the [FrameworkElement](frameworkelement.md) base element class are dependency properties. Dependency properties support some of the basic programming model features for a UWP app using C++, C#, or Visual Basic, such as styles and templates, data binding, XAML resource references, and property-changed logic. For more info on dependency properties and the features they support, see [Dependency properties overview](http://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e).
 
 ### **FrameworkElement** derived classes
 

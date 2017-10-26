@@ -10,7 +10,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Services.Store.StorePurchaseRe
 # Windows.Services.Store.StoreAvailability.RequestPurchaseAsync
 
 ## -description
-Requests the purchase of the current SKU availability and displays the UI that is used to complete the transaction via the Windows Store.
+Requests the purchase of the current SKU availability and displays the UI that is used to complete the transaction via the Microsoft Store.
 
 > [!IMPORTANT]
 > This method must be called on the UI thread.

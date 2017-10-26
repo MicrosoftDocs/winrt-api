@@ -10,14 +10,14 @@ public Windows.Foundation.IAsyncOperation<Windows.ApplicationModel.UserDataAccou
 # Windows.ApplicationModel.UserDataAccounts.UserDataAccountStore.CreateAccountAsync
 
 ## -description
-Asynchronously creates a user data account, specifying a displayable user name and a GUID that identifies the app in the Windows Store.
+Asynchronously creates a user data account, specifying a displayable user name and a GUID that identifies the app in the Microsoft Store.
 
 ## -parameters
 ### -param userDisplayName
 A string containing the user name that is suitable for display.
 
 ### -param packageRelativeAppId
-The GUID that identifies the app in the Windows Store.
+The GUID that identifies the app in the Microsoft Store.
 
 ## -returns
 Returns the newly created [UserDataAccount](userdataaccount.md).

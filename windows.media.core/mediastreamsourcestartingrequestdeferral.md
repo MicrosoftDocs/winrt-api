@@ -17,7 +17,7 @@ You can use a deferral when you want to make an asynchronous call in response to
 
 To create a deferral, call the [GetDeferral](mediastreamsourcestartingrequest_getdeferral.md) method on the [MediaStreamSourceStartingRequest](mediastreamsourcestartingrequest.md) object to instruct the [MediaStreamSource](mediastreamsource.md) to wait for your asynchronous call to complete. When you are ready to start receiving [SampleRequested](mediastreamsource_samplerequested.md) events, call the [Complete](mediastreamsourcestartingrequestdeferral_complete.md) method to end the deferral.
 
-See the [MediaStreamSource Sample](http://go.microsoft.com/fwlink/p/?LinkID=309021) for an example of using Media Stream Source in a Windows Store app.
+See the [MediaStreamSource Sample](http://go.microsoft.com/fwlink/p/?LinkID=309021) for an example of using Media Stream Source in a UWP app.
 
 ## -examples
 

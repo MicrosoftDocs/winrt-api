@@ -10,7 +10,7 @@ public event Windows.Foundation.TypedEventHandler PointerEntered<object,  Window
 # Windows.UI.Core.CoreIndependentInputSource.PointerEntered
 
 ## -description
-Occurs when a pointer moves into the bounding box of the Windows Store app.
+Occurs when a pointer moves into the bounding box of the UWP app.
 
 ## -remarks
 For touch input, the app receives this event before a [PointerPressed](coreindependentinputsource_pointerpressed.md) event.

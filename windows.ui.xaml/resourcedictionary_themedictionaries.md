@@ -92,7 +92,7 @@ This example shows a [ThemeDictionaries](resourcedictionary_themedictionaries.md
 
 ```
 
-The starting Microsoft Visual Studio templates for a Windows Store app using C++, C#, or Visual Basic include a [ThemeDictionaries](resourcedictionary_themedictionaries.md) node in the XAML file that is the starting [MergedDictionaries](resourcedictionary_mergeddictionaries.md) value for an app.xaml file. All the built-in Windows Runtime controls already have high-contrast themes defined elsewhere (the native equivalent of generic.xaml) or use system theme resources so they can respond to themes, so the starting content of an app-specific [ThemeDictionaries](resourcedictionary_themedictionaries.md) resource set is minimal. It's only once you start defining custom controls or app-specific theme styles that you'll see more resource definitions here.
+The starting Microsoft Visual Studio templates for a UWP app using C++, C#, or Visual Basic include a [ThemeDictionaries](resourcedictionary_themedictionaries.md) node in the XAML file that is the starting [MergedDictionaries](resourcedictionary_mergeddictionaries.md) value for an app.xaml file. All the built-in Windows Runtime controls already have high-contrast themes defined elsewhere (the native equivalent of generic.xaml) or use system theme resources so they can respond to themes, so the starting content of an app-specific [ThemeDictionaries](resourcedictionary_themedictionaries.md) resource set is minimal. It's only once you start defining custom controls or app-specific theme styles that you'll see more resource definitions here.
 
 ```xaml
 <ResourceDictionary

@@ -14,7 +14,7 @@ public bool HasDeviceInformationChanged { get; }
 Gets a value indicating whether the device information has changed for the account.
 
 > [!NOTE]
-> This functionality is only available to mobile operator apps and Windows Store apps given privileged access by mobile network operators.
+> This functionality is only available to mobile operator apps and UWP apps given privileged access by mobile network operators.
 
 
 

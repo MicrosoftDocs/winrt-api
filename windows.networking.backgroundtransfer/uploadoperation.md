@@ -13,7 +13,7 @@ public class UploadOperation : Windows.Networking.BackgroundTransfer.IBackground
 Performs an asynchronous upload operation. For an overview of Background Transfer capabilities, see [Transferring data in the background](http://msdn.microsoft.com/library/9e2ed5b4-af57-456a-884f-1e1d2136a8e8). Download the [Background Transfer sample](http://go.microsoft.com/fwlink/p/?linkid=245064) for examples in JavaScript, C#, and C++.
 
 ## -remarks
-After app termination, an app should enumerate all existing [UploadOperation](uploadoperation.md) instances at next start-up using [GetCurrentUploadsAsync](backgrounduploader_getcurrentuploadsasync.md). When a Windows Store app using Background Transfer is terminated, incomplete uploads will persist in the background. If the app is restarted after termination and these incomplete operations are not enumerated and re-introduced to the current session, they will go stale and continue to occupy device resources.**Timeout considerations**
+After app termination, an app should enumerate all existing [UploadOperation](uploadoperation.md) instances at next start-up using [GetCurrentUploadsAsync](backgrounduploader_getcurrentuploadsasync.md). When a UWP app using Background Transfer is terminated, incomplete uploads will persist in the background. If the app is restarted after termination and these incomplete operations are not enumerated and re-introduced to the current session, they will go stale and continue to occupy device resources.**Timeout considerations**
 
 
 + 1.) When establishing a new connection for an upload over TCP/SSL, the connection attempt is aborted if not established within five minutes.

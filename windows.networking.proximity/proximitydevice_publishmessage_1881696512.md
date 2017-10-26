@@ -36,7 +36,7 @@ You can use the [PublishUriMessage](proximitydevice_publishurimessage.md) method
 
 Messages are converted to UTF-8 characters before they're transmitted.
 
-For Windows Store app, publications and subscriptions are active only if the calling app is in the foreground.
+For UWP apps, publications and subscriptions are active only if the calling app is in the foreground.
 
 
 

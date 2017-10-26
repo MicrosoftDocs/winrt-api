@@ -10,15 +10,15 @@ public class ListingInformation : Windows.ApplicationModel.Store.IListingInforma
 # Windows.ApplicationModel.Store.ListingInformation
 
 ## -description
-Provides the listing info that describes the app in the Windows Store.
+Provides the listing info that describes the app in the Microsoft Store.
 
 ## -remarks
-The info that this object returns comes from the listing info you enter when you submit the app to the Windows Store.
+The info that this object returns comes from the listing info you enter when you submit the app to the Microsoft Store.
 
-You access this object through the [LoadListingInformationAsync](currentappsimulator_loadlistinginformationasync.md) method of the [CurrentAppSimulator](currentappsimulator.md) object during testing, or the [LoadListingInformationAsync](currentapp_loadlistinginformationasync.md) method of the [CurrentApp](currentapp.md) object when the app is distributed through the Windows Store.
+You access this object through the [LoadListingInformationAsync](currentappsimulator_loadlistinginformationasync.md) method of the [CurrentAppSimulator](currentappsimulator.md) object during testing, or the [LoadListingInformationAsync](currentapp_loadlistinginformationasync.md) method of the [CurrentApp](currentapp.md) object when the app is distributed through the Microsoft Store.
 
 > [!NOTE]
-> The [CurrentApp](currentapp.md) object obtains its data from the Windows Store, so you must have a Windows Store developer account and the app must be published in the Windows Store. If you don't have a Windows Store developer account, you can test the functions of this class by using the [CurrentAppSimulator](currentappsimulator.md).
+> The [CurrentApp](currentapp.md) object obtains its data from the Microsoft Store, so you must have a Microsoft Store developer account and the app must be published in the Microsoft Store. If you don't have a Microsoft Store developer account, you can test the functions of this class by using the [CurrentAppSimulator](currentappsimulator.md).
 
 ## -examples
 This code example shows how to get the [ListingInformation](listinginformation.md) from simulated app data and then get the [ProductListing](productlisting.md) object for one of the features offered by the app.

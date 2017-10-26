@@ -15,7 +15,7 @@ Represents a UI element that lets the user choose and open files.
 ## -remarks
 To get started accessing files and folders file picker, see [Quickstart: Accessing files with ](http://msdn.microsoft.com/library/df082239-381c-462f-9f97-d2b390a2052e).
 
-To learn about using file pickers in Windows Phone Store app, see [How to continue your Windows Phone app after calling a file picker](http://msdn.microsoft.com/library/465bbb7a-9ed1-4b57-b60f-e5c6e7cd1470).
+To learn about using file pickers in Windows Phone 8.x app, see [How to continue your Windows Phone app after calling a file picker](http://msdn.microsoft.com/library/465bbb7a-9ed1-4b57-b60f-e5c6e7cd1470).
 
 
 

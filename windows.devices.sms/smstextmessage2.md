@@ -14,7 +14,7 @@ public class SmsTextMessage2 : Windows.Devices.Sms.ISmsMessageBase, Windows.Devi
 Encapsulates a decoded SMS text message. Prefer this class to the older [SmsTextMessage](smstextmessage_smstextmessage.md) class.
 
 > [!NOTE]
-> This functionality is only available to mobile operator apps and Windows Store app given privileged access by mobile network operators, mobile broadband adapter IHV, or OEM. For more information, see [Mobile Broadband:  device apps](http://msdn.microsoft.com/library/windows/hardware/hh852368.aspx).
+> This functionality is only available to mobile operator apps and UWP apps given privileged access by mobile network operators, mobile broadband adapter IHV, or OEM. For more information, see [Mobile Broadband:  device apps](http://msdn.microsoft.com/library/windows/hardware/hh852368.aspx).
 
 To send a text message, construct an instance of this class, set all appropriate fields, and send using [SmsDevice2.SendMessageAndGetResultAsync](smsdevice2_sendmessageandgetresultasync.md).
 

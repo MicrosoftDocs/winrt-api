@@ -13,7 +13,7 @@ public string RuleId { get; }
 Gets the identifier of the provisioned rule that matched and triggered the notification.
 
 > [!NOTE]
-> This functionality is only available to mobile operator apps and Windows Store apps given privileged access by mobile network operators.
+> This functionality is only available to mobile operator apps and UWP apps given privileged access by mobile network operators.
 
 
 

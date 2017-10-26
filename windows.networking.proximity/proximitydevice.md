@@ -18,7 +18,7 @@ The [ProximityDevice](proximitydevice.md) class enables applications to communic
 
 You can create an instance of [ProximityDevice](proximitydevice.md) by using the [GetDefault](proximitydevice_getdefault.md) or [FromId](proximitydevice_fromid.md) static method.
 
-The [ProximityDevice](proximitydevice.md) class uses publish/subscribe semantics and is useful for advertising and receiving small blocks of data. For larger amounts of data, or for persistent communications, use the [PeerFinder](peerfinder.md) and [StreamSocket](../windows.networking.sockets/streamsocket_streamsocket.md) classes. For Windows Store app, publications and subscriptions are active only if the calling app is in the foreground.
+The [ProximityDevice](proximitydevice.md) class uses publish/subscribe semantics and is useful for advertising and receiving small blocks of data. For larger amounts of data, or for persistent communications, use the [PeerFinder](peerfinder.md) and [StreamSocket](../windows.networking.sockets/streamsocket_streamsocket.md) classes. For UWP apps, publications and subscriptions are active only if the calling app is in the foreground.
 
 
 

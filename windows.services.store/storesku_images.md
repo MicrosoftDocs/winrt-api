@@ -10,10 +10,10 @@ public Windows.Foundation.Collections.IVectorView<Windows.Services.Store.StoreIm
 # Windows.Services.Store.StoreSku.Images
 
 ## -description
-Gets the images from the Windows Store listing for the product SKU.
+Gets the images from the Microsoft Store listing for the product SKU.
 
 ## -property-value
-A collection of [StoreImage](storeimage.md) objects that represent the images from the Windows Store listing for the product SKU.
+A collection of [StoreImage](storeimage.md) objects that represent the images from the Microsoft Store listing for the product SKU.
 
 ## -remarks
 

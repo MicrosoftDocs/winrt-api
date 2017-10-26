@@ -254,7 +254,7 @@ Prior to Windows 8.1, the [AreTransportControlsEnabled](mediaelement_aretranspo
 
 ### Windows Phone 8
 
-Windows Phone Store app must use [PickSingleFileAndContinue](../windows.storage.pickers/fileopenpicker_picksinglefileandcontinue.md) to open local media files.
+Windows Phone 8.x app must use [PickSingleFileAndContinue](../windows.storage.pickers/fileopenpicker_picksinglefileandcontinue.md) to open local media files.
 
 ## -examples
 This code creates a [MediaElement](mediaelement.md) with the [AutoPlay](mediaelement_autoplay.md) property explicitly set to **true** and the [Source](mediaelement_source.md) set to the path of a video file that is included in the app.

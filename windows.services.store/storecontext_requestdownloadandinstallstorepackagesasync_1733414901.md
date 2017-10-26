@@ -10,7 +10,7 @@ public Windows.Foundation.IAsyncOperationWithProgress<Windows.Services.Store.Sto
 # Windows.Services.Store.StoreContext.RequestDownloadAndInstallStorePackagesAsync
 
 ## -description
-Downloads and installs the specified downloadable content (DLC) packages for the current app from the Windows Store.
+Downloads and installs the specified downloadable content (DLC) packages for the current app from the Microsoft Store.
 
 > [!IMPORTANT]
 > This method must be called on the UI thread.

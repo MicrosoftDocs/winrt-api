@@ -19,7 +19,7 @@ Returns the ID of the application as a GUID.
 The ID of the application.
 
 ## -remarks
-This ID is not necessary for Windows Store app.
+This ID is not necessary for UWP app.
 
 ## -examples
 

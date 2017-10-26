@@ -17,7 +17,7 @@ The display name.
 
 ## -remarks
 > [!IMPORTANT]
-> This property is only supported for Windows Store app. If you call this property on an instance of a package that was created by any mechanism other than [Package.Current](package_current.md), this property returns an empty string ("").
+> This property is only supported for UWP app. If you call this property on an instance of a package that was created by any mechanism other than [Package.Current](package_current.md), this property returns an empty string ("").
 
 ## -examples
 

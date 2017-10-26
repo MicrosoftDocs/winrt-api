@@ -50,7 +50,7 @@ Prominent API of [UIElement](uielement.md) that support input and user interacti
 
 ### Gestures and manipulations
 
-Gestures and manipulations are also a way to handle input and user interaction. The API are listed out separately here because these events represent how the system interacts with device-level input actions and interprets them as a user interaction. Manipulations are a way to handle dynamic multi-touch interactions such as pinching and stretching. Together, the gestures and manipulations provide the touch patterns for touch interaction with Windows Store app. For more info, see [Custom user interactions](http://msdn.microsoft.com/library/9403c46c-60da-4c13-a381-6fbd069dd9ce) and [Touch interaction design](http://msdn.microsoft.com/library/9ba7f613-e5d1-40d4-920b-143094209e3a).
+Gestures and manipulations are also a way to handle input and user interaction. The API are listed out separately here because these events represent how the system interacts with device-level input actions and interprets them as a user interaction. Manipulations are a way to handle dynamic multi-touch interactions such as pinching and stretching. Together, the gestures and manipulations provide the touch patterns for touch interaction with UWP app. For more info, see [Custom user interactions](http://msdn.microsoft.com/library/9403c46c-60da-4c13-a381-6fbd069dd9ce) and [Touch interaction design](http://msdn.microsoft.com/library/9ba7f613-e5d1-40d4-920b-143094209e3a).
 
 Prominent API of [UIElement](uielement.md) that support gestures and manipulations: 
 + **Gesture events: **[DoubleTapped](uielement_doubletapped.md), [Holding](uielement_holding.md), [RightTapped](uielement_righttapped.md), [Tapped](uielement_tapped.md)
@@ -81,7 +81,7 @@ Prominent API of [UIElement](uielement.md) that support routed events: [AddHandl
 
 ### UIElement dependency properties
 
-Many of the read-write properties of the [UIElement](uielement.md) base element class are dependency properties. Dependency properties support some of the basic programming model features for a Windows Store app using C++, C#, or Visual Basic, such as styles and templates, data binding, XAML resource references, and property-changed logic. For more info on dependency properties and the features they support, see [Dependency properties overview](http://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e).
+Many of the read-write properties of the [UIElement](uielement.md) base element class are dependency properties. Dependency properties support some of the basic programming model features for a UWP app using C++, C#, or Visual Basic, such as styles and templates, data binding, XAML resource references, and property-changed logic. For more info on dependency properties and the features they support, see [Dependency properties overview](http://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e).
 
 ### UIElement derived classes
 

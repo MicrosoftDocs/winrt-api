@@ -14,7 +14,7 @@ public class MobileBroadbandDeviceServiceCommandSession : Windows.Networking.Net
 Represents a device service command session which allows the caller to submit predefined commands to the modem on a mobile broadband device service.
 
 > [!NOTE]
-> This functionality is only available to mobile operator apps and Windows Store apps given privileged access by mobile network operators.
+> This functionality is only available to mobile operator apps and UWP apps given privileged access by mobile network operators.
 
 
 

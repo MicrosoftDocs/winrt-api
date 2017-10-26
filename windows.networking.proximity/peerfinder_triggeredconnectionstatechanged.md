@@ -24,7 +24,7 @@ If the [State](triggeredconnectionstatechangedeventargs_state.md) property retur
 
 When the [State](triggeredconnectionstatechangedeventargs_state.md) property returns **Completed**, you can access the [Socket](triggeredconnectionstatechangedeventargs_socket.md) property to obtain a reference to a [StreamSocket](../windows.networking.sockets/streamsocket_streamsocket.md) object. You can use this reference to communicate with the peer app. The transport over which this communication takes place on this socket connection will either be Bluetooth, Infrastructure or Wi-Fi Direct.
 
-> Wi-Fi Direct is not supported for Windows Phone Store app.
+> Wi-Fi Direct is not supported for Windows Phone 8.x apps.
 
 ## -examples
 

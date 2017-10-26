@@ -14,7 +14,7 @@ public class UssdReply : Windows.Networking.NetworkOperators.IUssdReply
 Represents the network response after sending a USSD message.
 
 > [!NOTE]
-> This functionality is only available to mobile operator apps and Windows Store apps given privileged access by mobile network operators.
+> This functionality is only available to mobile operator apps and UWP apps given privileged access by mobile network operators.
 
 
 

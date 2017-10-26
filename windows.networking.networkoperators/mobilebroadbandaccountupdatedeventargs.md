@@ -14,7 +14,7 @@ public class MobileBroadbandAccountUpdatedEventArgs : Windows.Networking.Network
 Provides information for the [AccountUpdated](mobilebroadbandaccountwatcher_accountupdated.md) event.
 
 > [!NOTE]
-> This functionality is only available to mobile operator apps and Windows Store apps given privileged access by mobile network operators.
+> This functionality is only available to mobile operator apps and UWP apps given privileged access by mobile network operators.
 
 
 

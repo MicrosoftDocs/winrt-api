@@ -41,9 +41,9 @@ When the *protectionLevel* parameter is set to a value that requires SSL or TLS,
 
 An app can retrieve a valid [NetworkAdapter](../windows.networking.connectivity/networkadapter.md) by inspecting a [HostName](../windows.networking/hostname.md) instance (using the [NetworkInformation.GetHostNames](../windows.networking.connectivity/networkinformation_gethostnames.md) method, for example) and retrieving the [IPInformation](../windows.networking.connectivity/ipinformation.md) object from the [Hostname.IPInformation](../windows.networking/hostname_ipinformation.md) property. The [IPInformation.NetworkAdapter](../windows.networking.connectivity/ipinformation_networkadapter.md) property can be used to retrieve the associated [NetworkAdapter](../windows.networking.connectivity/networkadapter.md).
 
-In a Windows Store app, the [StreamSocket](streamsocket.md) class supports connecting to a remote endpoint when proxies are required to complete the connection. This support for proxies is automatic and transparent to the app. However, connecting through proxies is not supported when a specific network adapter is selected. So proxy support is disabled when the [ConnectAsync(HostName, String, SocketProtectionLevel, NetworkAdapter)](streamsocket_connectasync_238604852.md) method is used. For more detailed information, see the remarks on *Support for proxies* in the [StreamSocket](streamsocket.md) class reference.
+In a UWP app, the [StreamSocket](streamsocket.md) class supports connecting to a remote endpoint when proxies are required to complete the connection. This support for proxies is automatic and transparent to the app. However, connecting through proxies is not supported when a specific network adapter is selected. So proxy support is disabled when the [ConnectAsync(HostName, String, SocketProtectionLevel, NetworkAdapter)](streamsocket_connectasync_238604852.md) method is used. For more detailed information, see the remarks on *Support for proxies* in the [StreamSocket](streamsocket.md) class reference.
 
-In a Windows Phone Store app, the [StreamSocket](streamsocket.md) class does not provide automatic support for proxies.
+In a Windows Phone 8.x app, the [StreamSocket](streamsocket.md) class does not provide automatic support for proxies.
 
 ## -examples
 

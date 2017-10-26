@@ -14,7 +14,7 @@ public uint ActivationNetworkError { get; }
 Attempts to get the latest network activation error.
 
 > [!NOTE]
-> This functionality is only available to mobile operator apps and Windows Store apps given privileged access by mobile network operators.
+> This functionality is only available to mobile operator apps and UWP apps given privileged access by mobile network operators.
 
 
 

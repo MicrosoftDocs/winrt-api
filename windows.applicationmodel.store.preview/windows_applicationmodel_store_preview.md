@@ -6,7 +6,7 @@
 # Windows.ApplicationModel.Store.Preview
 
 ## -description
-Provides preview APIs for various Windows Store-related scenarios.
+Provides preview APIs for various Microsoft Store-related scenarios.
 
 ## -remarks
 

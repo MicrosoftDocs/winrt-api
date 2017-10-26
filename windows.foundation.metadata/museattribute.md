@@ -10,7 +10,7 @@ public class MuseAttribute : System.Attribute
 # Windows.Foundation.Metadata.MuseAttribute
 
 ## -description
-Indicates that a runtime class is compatible with Windows Store app that are web browsers.
+Indicates that a runtime class is compatible with UWP apps that are web browsers.
 
 ## -remarks
 

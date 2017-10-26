@@ -10,7 +10,7 @@ public enum Windows.ApplicationModel.Store.Preview.StoreLogOptions : uint
 # StoreLogOptions
 
 ## -description
-Defines options that can be specified while using [GetStoreLogDataAsync](storeconfiguration_getstorelogdataasync.md) to get Windows Store log data for the current device.
+Defines options that can be specified while using [GetStoreLogDataAsync](storeconfiguration_getstorelogdataasync.md) to get Microsoft Store log data for the current device.
 
 ## -enum-fields
 ### -field None:0

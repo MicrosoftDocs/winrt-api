@@ -16,7 +16,7 @@ Gets or sets the secondary tile's background color.
 ## -property-value
 The background color. Specify in #ffffff format. 
 
-> For Windows Phone Store app, set this value to "transparent" to use the system's accent color, which is chosen by the user in **Settings**.
+> For Windows Phone 8.x app, set this value to "transparent" to use the system's accent color, which is chosen by the user in **Settings**.
 
 ## -remarks
 If this property is not set, its value is inherited from the background color of the parent app's tile.

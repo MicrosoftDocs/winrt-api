@@ -30,9 +30,9 @@ The *remoteHostName* and *remoteServiceName* parameters must be provided. If the
 
 When the *protectionLevel* parameter is set to a value that requires SSL or TLS, the socket connect operation may not timeout if the remote network destination does not support SSL or TLS. This can occur if initial connect operation succeeds but the remote host does not terminate the connection during the SSL handshake. To protect against this situation, an app should set a timeout on the connect operation when requesting SSL/TLS and abort the operation if the timeout expires. For more information on setting a timeout using JavaScript on socket operations, see [How to set timeouts on socket operations ](http://msdn.microsoft.com/library/bbf10530-c271-41b8-bde2-9521d6682842). For more information on setting a timeout using VB, C#, or C++ on socket operations, see [How to set timeouts on socket operations ](http://msdn.microsoft.com/library/af38eba0-4d64-44fb-a851-fdb52bcb8dff).
 
-In a Windows Store app, the [StreamSocket](streamsocket.md) class supports connecting to a remote endpoint when proxies are required to complete the connection. This support for proxies is automatic and transparent to the app. For more detailed information, see the remarks on *Support for proxies* in the [StreamSocket](streamsocket.md) class reference.
+In a UWP app, the [StreamSocket](streamsocket.md) class supports connecting to a remote endpoint when proxies are required to complete the connection. This support for proxies is automatic and transparent to the app. For more detailed information, see the remarks on *Support for proxies* in the [StreamSocket](streamsocket.md) class reference.
 
-In a Windows Phone Store app, the [StreamSocket](streamsocket.md) class does not provide automatic support for proxies.
+In a Windows Phone 8.x app, the [StreamSocket](streamsocket.md) class does not provide automatic support for proxies.
 
 ## -examples
 

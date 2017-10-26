@@ -6,7 +6,7 @@
 # Windows.Devices.Scanners
 
 ## -description
-Contains the classes, interfaces, structures and other components that are built on top of the [Windows Image Acquisition (WIA)](https://msdn.microsoft.com/en-us/library/windows/desktop/ms630368(v=vs.85).aspx) COM APIs to provide scan functionality for Windows Store app and desktop apps.
+Contains the classes, interfaces, structures and other components that are built on top of the [Windows Image Acquisition (WIA)](https://msdn.microsoft.com/en-us/library/windows/desktop/ms630368(v=vs.85).aspx) COM APIs to provide scan functionality for UWP app and desktop apps.
 
 ## -remarks
 

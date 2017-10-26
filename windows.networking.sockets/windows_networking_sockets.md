@@ -6,7 +6,7 @@
 # Windows.Networking.Sockets
 
 ## -description
-Provides sockets and WebSockets classes to use for network communications and classes for real-time network notifications received in the background for Windows Store app.
+Provides sockets and WebSockets classes to use for network communications and classes for real-time network notifications received in the background for UWP apps.
 
 ## -remarks
 The [Windows.Networking.Sockets](windows_networking_sockets.md) namespace provides classes and interfaces for networking that use sockets and WebSockets. The primary classes include:
@@ -77,7 +77,7 @@ The Media Foundation feature can be enabled on Windows Server 2012 or Windows S
 
 ### Using sockets and WebSockets with network isolation
 
-Network isolation in Windows 8 lets you fully control the security profile of a Windows Store app.
+Network isolation in Windows 8 lets you fully control the security profile of a UWP app.
 
 Network isolation lets you define the network access needed for each app by choosing the appropriate capabilities. An app without the appropriate capabilities set is prevented from using specific network types (Internet or Home/Work Network) and specific network requests (outbound client-initiated requests, or both inbound unsolicited requests and outbound client-initiated requests). The ability to enforce network isolation ensures that even if an app becomes compromised, the app can only use features (network types and network requests, for example) that the app was granted as capabilities. This significantly reduces the possible impact on other apps and on the operating system.
 

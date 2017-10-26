@@ -26,7 +26,7 @@ The purchase request did not succeed.
 The purchase request did not succeed because of a network connectivity error.
 
 ### -field ServerError:4
-The purchase request did not succeed because of a server error returned by the Windows Store.
+The purchase request did not succeed because of a server error returned by the Microsoft Store.
 
 
 ## -remarks

@@ -19,7 +19,7 @@ Occurs when a pointer enters the hit test area of this element.
 
 
 ## -remarks
-The [PointerEntered](uielement_pointerentered.md) event fires in response to a pointer moving into the element's bounding area. Touch, mouse, and pen/stylus interactions are received, processed, and managed as pointer input in Windows Store app. Any of these devices and their interactions can produce a [PointerEntered](uielement_pointerentered.md) event. For more info, see [Handle pointer input](http://msdn.microsoft.com/library/bdbc9e33-4037-4671-9596-471dcf855c82) and also the other remarks in this topic.
+The [PointerEntered](uielement_pointerentered.md) event fires in response to a pointer moving into the element's bounding area. Touch, mouse, and pen/stylus interactions are received, processed, and managed as pointer input in UWP app. Any of these devices and their interactions can produce a [PointerEntered](uielement_pointerentered.md) event. For more info, see [Handle pointer input](http://msdn.microsoft.com/library/bdbc9e33-4037-4671-9596-471dcf855c82) and also the other remarks in this topic.
 
 Use a handler based on [PointerEventHandler](../windows.ui.xaml.input/pointereventhandler.md) to handle this event.
 

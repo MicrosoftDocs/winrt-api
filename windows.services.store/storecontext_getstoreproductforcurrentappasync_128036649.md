@@ -10,10 +10,10 @@ public Windows.Foundation.IAsyncOperation<Windows.Services.Store.StoreProductRes
 # Windows.Services.Store.StoreContext.GetStoreProductForCurrentAppAsync
 
 ## -description
-Gets Windows Store listing info for the current app and provides access to a method that you can use to purchase the app for the current user.
+Gets Microsoft Store listing info for the current app and provides access to a method that you can use to purchase the app for the current user.
 
 ## -returns
-An asynchronous operation that, on successful completion, returns a [StoreProductResult](storeproductresult.md) object that contains Windows Store listing info for the current app and any relevant error info.
+An asynchronous operation that, on successful completion, returns a [StoreProductResult](storeproductresult.md) object that contains Microsoft Store listing info for the current app and any relevant error info.
 
 ## -remarks
 For more information about using this method, including a code example, see [Get product info for apps and add-ons](https://msdn.microsoft.com/windows/uwp/monetize/get-product-info-for-apps-and-add-ons).

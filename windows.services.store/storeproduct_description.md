@@ -10,7 +10,7 @@ public string Description { get; }
 # Windows.Services.Store.StoreProduct.Description
 
 ## -description
-Gets the product description from the Windows Store listing.
+Gets the product description from the Microsoft Store listing.
 
 ## -property-value
 The product description.

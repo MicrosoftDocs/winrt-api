@@ -13,7 +13,7 @@ public class PrintTaskConfiguration : Windows.Devices.Printers.Extensions.IPrint
 Allows a client to retrieve the print task extension context, and also to add an event handler to the print task.
 
 ## -remarks
-When a Windows Store app is invoked from **More settings** in the print window, the activation event provides an event argument of type [Windows.UI.WebUI.WebUIPrintTaskSettingsActivatedEventArgs](../windows.ui.webui/webuiprinttasksettingsactivatedeventargs.md) that exposes a property, [Configuration](../windows.ui.webui/webuiprinttasksettingsactivatedeventargs_configuration.md), for controlling the printer. This property provides an object of type **PrintTaskConfiguration** that provides access to the print task extension context, and also allows you to add an event handler to update the print ticket.
+When a UWP app is invoked from **More settings** in the print window, the activation event provides an event argument of type [Windows.UI.WebUI.WebUIPrintTaskSettingsActivatedEventArgs](../windows.ui.webui/webuiprinttasksettingsactivatedeventargs.md) that exposes a property, [Configuration](../windows.ui.webui/webuiprinttasksettingsactivatedeventargs_configuration.md), for controlling the printer. This property provides an object of type **PrintTaskConfiguration** that provides access to the print task extension context, and also allows you to add an event handler to update the print ticket.
 
 The following JavaScript code snippet demonstrates how to access the **PrintTaskConfiguration** object, and then use that to access the [PrinterExtensionContext](printtaskconfiguration_printerextensioncontext.md) property.
 

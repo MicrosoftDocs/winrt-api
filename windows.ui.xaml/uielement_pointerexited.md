@@ -19,7 +19,7 @@ Occurs when a pointer leaves the hit test area of this element.
 
 
 ## -remarks
-The [PointerExited](uielement_pointerexited.md) event fires in response to a pointer that was initially in the element's bounding area leaving that bounding area. Touch, mouse, and pen/stylus interactions are received, processed, and managed as pointer input in Windows Store app. Any of these devices and their interactions can produce a [PointerExited](uielement_pointerexited.md) event. For more info, see [Handle pointer input](http://msdn.microsoft.com/library/bdbc9e33-4037-4671-9596-471dcf855c82) and the other remarks in this topic.
+The [PointerExited](uielement_pointerexited.md) event fires in response to a pointer that was initially in the element's bounding area leaving that bounding area. Touch, mouse, and pen/stylus interactions are received, processed, and managed as pointer input in UWP app. Any of these devices and their interactions can produce a [PointerExited](uielement_pointerexited.md) event. For more info, see [Handle pointer input](http://msdn.microsoft.com/library/bdbc9e33-4037-4671-9596-471dcf855c82) and the other remarks in this topic.
 
 Use a handler based on [PointerEventHandler](../windows.ui.xaml.input/pointereventhandler.md) to handle this event.
 

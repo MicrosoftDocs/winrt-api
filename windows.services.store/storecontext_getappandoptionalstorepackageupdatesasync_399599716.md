@@ -10,7 +10,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Foundation.Collections.IVector
 # Windows.Services.Store.StoreContext.GetAppAndOptionalStorePackageUpdatesAsync
 
 ## -description
-Gets the collection of packages for the current app that have updates available for download from the Windows Store, including optional packages for the app (also called downloadable content or DLC).
+Gets the collection of packages for the current app that have updates available for download from the Microsoft Store, including optional packages for the app (also called downloadable content or DLC).
 
 ## -returns
 An asynchronous operation that, on successful completion, returns a collection of [StorePackageUpdate](storepackageupdate.md) objects that represent the packages that have updates available.

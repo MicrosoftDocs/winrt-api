@@ -10,7 +10,7 @@ public class StoreSku : Windows.Services.Store.IStoreSku
 # Windows.Services.Store.StoreSku
 
 ## -description
-Provides info for a SKU of a product in the Windows Store.
+Provides info for a SKU of a product in the Microsoft Store.
 
 ## -remarks
 Products in the Store are organized in a hierarcy of *product*, *SKU*, and *availability* objects. Products are represented by [StoreProduct](storeproduct.md) objects. The SKUs for each product are represented by **StoreSku** objects, and the availabilities for each SKU are represented by [StoreAvailability](storeavailability.md) objects. For more information, see [In-app purchases and trials](https://msdn.microsoft.com/windows/uwp/monetize/in-app-purchases-and-trials#products-skus).

@@ -13,7 +13,7 @@ public class IndexedResourceCandidate : Windows.ApplicationModel.Resources.Manag
 Represents a single possible value for a given resource, and the qualifiers associated with that resource.
 
 > [!IMPORTANT]
-> You can't use this class in a Windows Store app.
+> You can't use this class in a UWP app.
 
 ## -remarks
 

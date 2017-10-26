@@ -13,10 +13,10 @@ public Windows.Foundation.IAsyncOperation<Windows.Networking.Connectivity.Connec
 Establishes a connection to a specific access point on a network. The request is defined using a [CellularApnContext](cellularapncontext.md) object.
 
 > [!NOTE]
-> This functionality is only available to mobile operator apps and Windows Store apps given privileged access by mobile network operators. Mobile operators must enable the **cellularDeviceControl** restricted capability to use this API. 
+> This functionality is only available to mobile operator apps and UWP apps given privileged access by mobile network operators. Mobile operators must enable the **cellularDeviceControl** restricted capability to use this API. 
 <!--Commenting out this next bit. The link is to orphan content on MSDN, and I can't locate any equivalent current content.-->
 
-<!--For more information, see <xref hlink="https://msdn.redmond.corp.microsoft.com/library/windows/hardware/Dn247051.aspx" >Mobile Broadband: Windows Store device apps</xref>.-->
+<!--For more information, see <xref hlink="https://msdn.redmond.corp.microsoft.com/library/windows/hardware/Dn247051.aspx" >Mobile Broadband: UWP device apps</xref>.-->
 
 ## -parameters
 ### -param cellularApnContext
