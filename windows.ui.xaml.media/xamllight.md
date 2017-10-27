@@ -36,6 +36,10 @@ When creating a XamlLight, it's usually a good practice to delay creating a [Com
 
 It's also a good practice to dispose of composition resources when they're no longer in use. The [OnDisconnected](xamllight_ondisconnected.md) method is called when a XamlLight instance is no longer in use anywhere on the screen, so you can override [OnDisconnected](xamllight_disonconnected.md) to safely dispose of resources. If the XamlLight is later used again after being disconnected then [OnConnected](xamllight_onconnected.md) will be called again.
 
+> [!WARNING]
+> On Windows 10 Creators Update (SDK 15063), CompositionLight can't be accessed after Dispose is called, so setting it to **null** after calling Dispose causes an error. To work around this issue, you can save the CompositionLight to a temporary variable and call Dispose on that after you set CompositionLight to null. `var temp = CompostionLight; CompositionLight = null; temp.Dispose();`
+> This issue is fixed in later versions of the SDK. See [Version adaptive apps](https://docs.microsoft.com/windows/uwp/debug-test-perf/version-adaptive-apps) for info about how to target different SDK versions.
+
 ## -examples
 
 This example shows the definition for a custom XamlLight that applies a multicolored spotlight to targeted UIElements and Brushes:
@@ -43,7 +47,8 @@ This example shows the definition for a custom XamlLight that applies a multicol
 ```csharp
 public sealed class OrangeSpotLight : XamlLight
 {
-    // Register an attached property that enables apps to set a UIElement or Brush as a target for this light type in markup.
+    // Register an attached property that enables apps to set a UIElement
+    // or Brush as a target for this light type in markup.
     public static readonly DependencyProperty IsTargetProperty =
         DependencyProperty.RegisterAttached(
         "IsTarget",
@@ -93,7 +98,8 @@ public sealed class OrangeSpotLight : XamlLight
     {
         if (CompositionLight == null)
         {
-            // OnConnected is called when the first target UIElement is shown on the screen. This enables delaying composition object creation until it's actually necessary.
+            // OnConnected is called when the first target UIElement is shown on the screen.
+            // This enables delaying composition object creation until it's actually necessary.
             var spotLight = Window.Current.Compositor.CreateSpotLight();
             spotLight.InnerConeColor = Colors.Orange;
             spotLight.OuterConeColor = Colors.Yellow;
@@ -106,7 +112,9 @@ public sealed class OrangeSpotLight : XamlLight
 
     protected override void OnDisconnected(UIElement oldElement)
     {
-        // OnDisconnected is called when there are no more target UIElements on the screen. The CompositionLight should be disposed when no longer required.
+        // OnDisconnected is called when there are no more target UIElements on the screen.
+        // The CompositionLight should be disposed when no longer required.
+        // For SDK 15063, see Remarks.
         if (CompositionLight != null)
         {
             CompositionLight.Dispose();
@@ -121,7 +129,8 @@ public sealed class OrangeSpotLight : XamlLight
 
     private static string GetIdStatic()
     {
-        // This specifies the unique name of the light. In most cases you should use the type's FullName.
+        // This specifies the unique name of the light.
+        // In most cases you should use the type's FullName.
         return typeof(OrangeSpotLight).FullName;
     }
 }
@@ -131,7 +140,8 @@ public sealed class OrangeSpotLight : XamlLight
 Public NotInheritable Class OrangeSpotLight
     Inherits XamlLight
 
-    ' Register an attached property that enables apps to set a UIElement Or Brush as a target for this light type in markup.
+    ' Register an attached property that enables apps to set a UIElement
+    ' or Brush as a target for this light type in markup.
     Public Shared ReadOnly IsTargetProperty As DependencyProperty = DependencyProperty.RegisterAttached(
             "IsTarget",
             GetType(Boolean),
@@ -169,7 +179,8 @@ Public NotInheritable Class OrangeSpotLight
 
     Protected Overrides Sub OnConnected(newElement As UIElement)
         If CompositionLight Is Nothing Then
-            ' OnConnected Is called when the first target UIElement Is shown on the screen. This enables delaying composition object creation until it's actually necessary.
+            ' OnConnected Is called when the first target UIElement Is shown on the screen.
+            ' This enables delaying composition object creation until it's actually necessary.
             Dim spotLight = Window.Current.Compositor.CreateSpotLight()
             spotLight.InnerConeColor = Colors.Orange
             spotLight.OuterConeColor = Colors.Yellow
@@ -181,7 +192,8 @@ Public NotInheritable Class OrangeSpotLight
     End Sub
 
     Protected Overrides Sub OnDisconnected(oldElement As UIElement)
-        ' OnDisconnected Is called when there are no more target UIElements on the screen. The CompositionLight should be disposed when no longer required.
+        ' OnDisconnected Is called when there are no more target UIElements on the screen.
+        ' The CompositionLight should be disposed when no longer required.
         If CompositionLight IsNot Nothing Then
             CompositionLight.Dispose()
             CompositionLight = Nothing
@@ -193,7 +205,8 @@ Public NotInheritable Class OrangeSpotLight
     End Function
 
     Private Shared Function GetIdStatic() As String
-        ' This specifies the unique name of the light. In most cases you should use the type's FullName.
+        ' This specifies the unique name of the light.
+        ' In most cases you should use the type's FullName.
         Return GetType(OrangeSpotLight).FullName
     End Function
 End Class
