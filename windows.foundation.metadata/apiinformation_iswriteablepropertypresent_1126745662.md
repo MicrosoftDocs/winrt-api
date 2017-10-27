@@ -25,5 +25,14 @@ The name of the property.
 ## -remarks
 
 ## -examples
-
+```cs
+if (Windows.Foundation.Metadata.ApiInformation.IsWriteablePropertyPresent("Windows.Devices.Sensors.Accelerometer", "ReportInterval"))
+{
+    Debug.WriteLine("Windows.Devices.Sensors.Accelerometer.ReportInterval writeable property was found");
+}
+else
+{
+    Debug.WriteLine("Windows.Devices.Sensors.Accelerometer.ReportInterval writeable property was NOT found");
+}
+```
 ## -see-also

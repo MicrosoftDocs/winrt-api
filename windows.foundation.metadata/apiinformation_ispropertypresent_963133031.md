@@ -25,5 +25,14 @@ The name of the property.
 ## -remarks
 
 ## -examples
-
+```cs
+if (Windows.Foundation.Metadata.ApiInformation.IsPropertyPresent("Windows.Devices.Sensors.Accelerometer", "ReadingTransform"))
+{
+    Debug.WriteLine("Windows.Devices.Sensors.Accelerometer.ReadingTransform property was found");
+}
+else
+{
+    Debug.WriteLine("Windows.Devices.Sensors.Accelerometer.ReadingTransform property was NOT found");
+}
+```
 ## -see-also
