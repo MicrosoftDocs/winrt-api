@@ -33,24 +33,15 @@ The [BitmapDecoder](bitmapdecoder.md) class implements [IBitmapFrame](ibitmapfra
 Here's a partial example of creating a decoder object. This example assumes you selected a file with [Windows.Storage.Pickers.FileOpenPicker](../windows.storage.pickers/fileopenpicker.md). For full instructions on selecting a file, creating an decoder, and decoding an image see [Imaging](http://msdn.microsoft.com/library/3fd2aa71-ef67-47b2-9332-3ffa5d3703ea)
 
 ```javascript
-file.openAsync(Windows.Storage.FileAccessMode.readWrite).then(function (_stream) {
-        stream = _stream;
+file.openAsync(Windows.Storage.FileAccessMode.readWrite).then(function(_stream) {
+    stream = _stream;
 
-        var encoderId;
-        switch (fileType) {
-            case ".jpg":
-                encoderId = Windows.Graphics.Imaging.BitmapEncoder.jpegEncoderId;
-                break;
-        }
-        return Windows.Graphics.Imaging.BitmapEncoder.createAsync(encoderId, stream);
-        }).then(function (encoder) {
+    return Windows.Graphics.Imaging.BitmapDecoder.createAsync(stream);
+}).then(function(decoder) {
 
-              // Your code here.
-        }
-
+    // Your code here.
+});
 ```
-
-
 
 ## -see-also
 [Animated GIF playback (XAML) sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=624046), [OCR sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620579), [Camera resolution sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=624252), [Basic camera app sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=619479), [Video stabilization sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620519), [Camera face detection sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=619486), [Manual camera controls sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=627611), [High dynamic range sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620517)
