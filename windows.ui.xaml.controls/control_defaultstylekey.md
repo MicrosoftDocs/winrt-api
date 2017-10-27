@@ -10,45 +10,51 @@ protected object DefaultStyleKey { get;  set; }
 # Windows.UI.Xaml.Controls.Control.DefaultStyleKey
 
 ## -description
+
 Gets or sets the key that references the default style for the control. Authors of custom controls use this property to change the default for the style that their control uses.
 
 ## -property-value
-The key that references the default style for the control. To work correctly as part of theme style lookup, this value is expected to be a [System.Type](https://msdn.microsoft.com/library/system.type.aspx) value. 
+
+The key that references the default style for the control. To work correctly as part of theme style lookup, this value is expected to be a [System.Type](https://msdn.microsoft.com/library/system.type.aspx) value.
 
 > [!NOTE]
 > Visual C++ component extensions (C++/CX) uses a string that is the qualified name of the type. But this relies on generated code that produces a [TypeName](../windows.ui.xaml.interop/typename.md) once accessed by a XAML compiler; see Remarks.
+
 ## -remarks
+
  [DefaultStyleKey](control_defaultstylekey.md) is one of the very few protected properties in the Windows Runtime  API. It's intended only for use by control authors, who will be subclassing some existing control class and therefore have the necessary access to set this property. For many custom control scenarios where you'll be setting [DefaultStyleKey](control_defaultstylekey.md), you'll also be overriding [OnApplyTemplate](../windows.ui.xaml/frameworkelement_onapplytemplate.md).
 
 The return type of [DefaultStyleKey](control_defaultstylekey.md) is loosely typed as **Object** in the syntax, but the XAML style system will expect the value to provide a type reference:
-+ For a control that has its logic written in C#, the value of [DefaultStyleKey](control_defaultstylekey.md) should be an instance of [System.Type](https://msdn.microsoft.com/library/system.type.aspx). Typically you set this value in the default constructor:
-```csharp
-public CustomControl1()
-{
-    this.DefaultStyleKey = typeof(CustomControl1);
-}
-```
 
++ For a control that has its logic written in C#, the value of [DefaultStyleKey](control_defaultstylekey.md) should be an instance of [System.Type](https://msdn.microsoft.com/library/system.type.aspx). Typically you set this value in the default constructor:
+
+    ```csharp
+    public CustomControl1()
+    {
+        this.DefaultStyleKey = typeof(CustomControl1);
+    }
+    ```
 
 + For a control that has its logic written in Microsoft Visual Basic, the value of [DefaultStyleKey](control_defaultstylekey.md) should be an instance of [System.Type](https://msdn.microsoft.com/library/system.type.aspx). Typically you set this value in the default constructor:
-```vbnet
-Public Sub New()
-    Me.DefaultStyleKey = GetType(CustomControl1)
-End Sub
-```
+
+    ```vbnet
+    Public Sub New()
+        Me.DefaultStyleKey = GetType(CustomControl1)
+    End Sub
+    ```
 
 
 + For a control that has its logic written in Visual C++ component extensions (C++/CX), the value of [DefaultStyleKey](control_defaultstylekey.md) should be a namespace-qualified string that is the name of the custom control class. Typically you set this value in the default constructor:
-```vbnet
-CustomControl1::CustomControl1() //public: in the header
-{
-    DefaultStyleKey = "App1.CustomControl1";
-}
-```
+
+    ```cpp
+    CustomControl1::CustomControl1() //public: in the header
+    {
+        DefaultStyleKey = "App1.CustomControl1";
+    }
+    ```
 
 > [!NOTE]
 > Ultimately the string alone isn't enough to support a Visual C++ component extensions (C++/CX) type reference. If you use the **Add / New Item / Templated Control** options in Solution Explorer, the templates and support for Visual C++ component extensions (C++/CX) and XAML generates classes that give [IXamlMetadataProvider](../windows.ui.xaml.markup/ixamlmetadataprovider.md) info. The XAML compiler can access this code when the XAML is loaded, and uses it to validate and create types and members and join the partial classes. As far as what you define in your own app code, the string is all you need. But if you're curious you can have a look at the XamlTypeInfo.g.h and XamlTypeInfo.g.cpp files that are generated.
-
 
 Control authors could choose to not provide a value for [DefaultStyleKey](control_defaultstylekey.md), but that's uncommon. The result would be that the default style is the one as defined by the base class. In some cases (like for [ContentControl](contentcontrol.md)) the value is **null**. Even if you choose to not redefine the value, make sure that the original default style is useful for rendering your control.
 
