@@ -18,5 +18,5 @@ Attempts to launch the app UI for handling a VoIP phone call.
 
 ## -examples
 
-## capabilities
+## -capabilities
 voipCall

@@ -21,3 +21,6 @@ Operation that triggers once the user has completed any consent dialog, providin
 ## -examples
 
 ## -see-also
+
+## -capabilities
+spatialPerception

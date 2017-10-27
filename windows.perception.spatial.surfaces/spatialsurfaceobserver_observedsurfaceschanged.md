@@ -19,3 +19,6 @@ When this event fires, call [GetObservedSurfaces](spatialsurfaceobserver_getobse
 ## -examples
 
 ## -see-also
+
+## -capabilities
+spatialPerception

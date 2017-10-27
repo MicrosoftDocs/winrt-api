@@ -69,3 +69,6 @@ waitForPositionalTracking(function () {
 ## -examples
 
 ## -see-also
+
+## -capabilities
+spatialPerception

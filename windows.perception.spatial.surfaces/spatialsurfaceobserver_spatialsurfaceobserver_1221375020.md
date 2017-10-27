@@ -18,3 +18,6 @@ Initializes a new instance of the [SpatialSurfaceObserver](spatialsurfaceobserve
 ## -examples
 
 ## -see-also
+
+## -capabilities
+spatialPerception

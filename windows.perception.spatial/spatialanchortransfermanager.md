@@ -20,3 +20,6 @@ Static methods for transferring spatial anchors between devices, so that both de
 ## -examples
 
 ## -see-also
+
+## -capabilities
+spatialPerception
