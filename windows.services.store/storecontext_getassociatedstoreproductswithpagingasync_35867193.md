@@ -10,7 +10,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Services.Store.StoreProductPag
 # Windows.Services.Store.StoreContext.GetAssociatedStoreProductsWithPagingAsync
 
 ## -description
-Gets the list of products that can be purchased from within the current app. This method supports paging to return the results.
+Gets Windows Store listing info for the products that can be purchased from within the current app. This method supports paging to return the results.
 
 ## -parameters
 ### -param productKinds
