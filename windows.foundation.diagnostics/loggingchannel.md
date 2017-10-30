@@ -17,7 +17,7 @@ The default [LoggingLevel](logginglevel.md) is **Verbose**.
 
 Add [LoggingChannel](loggingchannel_loggingchannel.md) instances to a [LoggingSession](loggingsession.md) or a [FileLoggingSession](fileloggingsession.md) to enable logging in your app.
 
-
+The [LogMessage](loggingchannel_logmessage_1040390993.md) methods provide ways to log simple string messages, while the [LogEvent](loggingchannel_logevent_812606037.md) methods provide ways to log more complex tracing data.
 
 > **Windows 10**
 > Two modes of operation are now supported: Windows 8.1 compatibility mode and the new behavior supported by Windows 10 and later which allows you to log self-describing Event Tracing for Windows (ETW) events without a manifest. + For Windows 8.1 compatibility mode, create the object using the [LoggingChannel(String)](loggingchannel_loggingchannel.md) constructor.
