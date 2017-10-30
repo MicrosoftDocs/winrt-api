@@ -25,6 +25,15 @@ The name of the method.
 ## -remarks
 
 ## -examples
-
+```cs
+if (Windows.Foundation.Metadata.ApiInformation.IsMethodPresent("Windows.Networking.Sockets.StreamSocket", "CancelIOAsync"))
+{
+    Debug.WriteLine("Windows.Networking.Sockets.StreamSocket.CancelIOAsync method found");
+}
+else
+{
+    Debug.WriteLine("Windows.Networking.Sockets.StreamSocket.CancelIOAsync method NOT found");
+}
+```
 ## -see-also
 [IsMethodPresent(String, String, UInt32)](apiinformation_ismethodpresent_817228807.md)

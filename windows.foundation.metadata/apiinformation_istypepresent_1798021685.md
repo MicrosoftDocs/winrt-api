@@ -22,5 +22,14 @@ The namespace-qualified name of the type.
 ## -remarks
 
 ## -examples
-
+```cs
+if (Windows.Foundation.Metadata.ApiInformation.IsTypePresent("Windows.System.AppDiagnosticInfo"))
+{
+    Debug.WriteLine("Windows.System.AppDiagnosticInfo type was found");
+}
+else
+{
+    Debug.WriteLine("Windows.System.AppDiagnosticInfo type was NOT found");
+}
+```
 ## -see-also
