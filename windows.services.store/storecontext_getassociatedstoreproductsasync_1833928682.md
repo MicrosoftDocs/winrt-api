@@ -10,7 +10,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Services.Store.StoreProductQue
 # Windows.Services.Store.StoreContext.GetAssociatedStoreProductsAsync
 
 ## -description
-Gets Windows Store listing info for the products that can be purchased from within the current app.
+Gets Microsoft Store listing info for the products that can be purchased from within the current app.
 
 ## -parameters
 ### -param productKinds
