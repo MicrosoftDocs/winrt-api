@@ -22,5 +22,10 @@ Provides an inline-level content element that causes content to render with an u
 
 ## -examples
 
+```xaml
+<TextBlock>Text can be <Bold>bold</Bold>, <Underline>underlined</Underline>,
+    <Italic>italic</Italic>, or a <Bold><Italic>combination</Italic></Bold>.</TextBlock>
+```
+
 ## -see-also
 [Span](span.md)

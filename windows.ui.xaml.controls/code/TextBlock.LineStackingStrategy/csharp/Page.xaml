@@ -17,16 +17,18 @@
     created for each line. A value of <Run FontSize="20">MaxHeight</Run> specifies that the stack
     height is the smallest value that contains all the inline elements on that line when those
     elements are properly aligned. A value of <Run FontSize="20">BlockLineHeight</Run> specifies
-    that the stack height is determined by the block element LineHeight property value.
+    that the stack height is determined by the block element LineHeight property value. A value of 
+    <Run FontSize="20">BaselineToBaseline</Run> specifies that the stack height is determined by adding 
+    LineHeight to the baseline of the previous line.
 </TextBlock>
 
-    <!-- With a margin pushing down 20 pixels, draw a line just above the second textblock. -->
-    <!-- The fonts will reach above the LineHeight size and over the line. -->
+<!-- With a margin pushing down 20 pixels, draw a line just above the second textblock. -->
+<!-- The fonts will reach above the LineHeight size and over the line. -->
 <StackPanel Margin="0,20,0,0" HorizontalAlignment="Center">
     <Line Stroke="Green"  X2="500" />
 </StackPanel>
 
-            <!-- Here is the same TextBlock but the LineStackingStrategy is set to "BlockLineHeight". -->
+<!-- Here is the same TextBlock but the LineStackingStrategy is set to "BlockLineHeight". -->
 <TextBlock FontFamily="Verdana"
            LineStackingStrategy="BlockLineHeight" 
            LineHeight="10" 
@@ -36,7 +38,29 @@
     created for each line. A value of <Run FontSize="20">MaxHeight</Run> specifies that the stack
     height is the smallest value that contains all the inline elements on that line when those
     elements are properly aligned. A value of <Run FontSize="20">BlockLineHeight</Run> specifies
-    that the stack height is determined by the block element LineHeight property value.
+    that the stack height is determined by the block element LineHeight property value. A value of 
+    <Run FontSize="20">BaselineToBaseline</Run> specifies that the stack height is determined by adding 
+    LineHeight to the baseline of the previous line.
+</TextBlock>
+
+<!-- With a margin pushing down 20 pixels, draw a line just above the third textblock. -->
+<StackPanel Margin="0,20,0,0" HorizontalAlignment="Center">
+    <Line Stroke="Green"  X2="500" />
+</StackPanel>
+
+<!-- Here is the same TextBlock but the LineStackingStrategy is set to "BaselineToBaseline". -->
+<TextBlock FontFamily="Verdana"
+           LineStackingStrategy="BaselineToBaseline" 
+           LineHeight="10" 
+           Width="500" 
+           TextWrapping="Wrap">
+    Use the <Run FontSize="30">LineStackingStrategy</Run> property to determine how a line box is
+    created for each line. A value of <Run FontSize="20">MaxHeight</Run> specifies that the stack
+    height is the smallest value that contains all the inline elements on that line when those
+    elements are properly aligned. A value of <Run FontSize="20">BlockLineHeight</Run> specifies
+    that the stack height is determined by the block element LineHeight property value. A value of 
+    <Run FontSize="20">BaselineToBaseline</Run> specifies that the stack height is determined by adding 
+    LineHeight to the baseline of the previous line.
 </TextBlock>
 
 </StackPanel>

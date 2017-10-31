@@ -143,6 +143,8 @@ This table shows the resources used by the [CalendarView](calendarview.md) contr
 ## -examples
 This example shows phased rendering of a [CalendarView](calendarview.md) for scheduling appointments. In phase 0, the default day item is rendered. In phase 1, you blackout dates that can't be booked. This includes past dates, Sundays, and dates that are already fully booked. In phase 2, you check each appointment that's booked for the day. You show a green density bar for each confirmed appointment and a blue density bar for each tentative appointment. The `Bookings` class in this example is from a fictitious appointment booking app, and is not shown.
 
+(To see this code running in a complete app sample, see the [Lunch scheduler sample](https://github.com/Microsoft/Windows-appsample-lunch-scheduler).)
+
 ```xaml
 <CalendarView CalendarViewDayItemChanging="CalendarView_CalendarViewDayItemChanging"/>
 ```

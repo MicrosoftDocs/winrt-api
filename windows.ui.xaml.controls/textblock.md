@@ -200,9 +200,11 @@ textBlock.Inlines.Add(hyperlink);
 rootPanel.Children.Add(textBlock);
 ```
 
-The following example shows how to use the [LineStackingStrategy](textblock_linestackingstrategy.md) property to determine how the line boxes are created for text lines of a [TextBlock](textblock.md). The first [TextBlock](textblock.md) has a [LineStackingStrategy](textblock_linestackingstrategy.md) value of **MaxHeight** and the second [TextBlock](textblock.md) has a value of **BlockLineHeight**.
+The following example shows how to use the [LineStackingStrategy](textblock_linestackingstrategy.md) property to determine how the line boxes are created for text lines of a [TextBlock](textblock.md). The first [TextBlock](textblock.md) has a [LineStackingStrategy](textblock_linestackingstrategy.md) value of **MaxHeight**,the second [TextBlock](textblock.md) has a value of **BlockLineHeight**, and the third [TextBlock](textblock.md) has a value of **BaselineToBaseline**.
 
+The rendered text looks like this.
 
+![Text block line stacking strategies](images/text-block-line-stacking-strategies.png)
 
 [!code-xml[LineStackingStrategyExampleWholePage](../windows.ui.xaml.controls/code/TextBlock.LineStackingStrategy/csharp/Page.xaml#SnippetLineStackingStrategyExampleWholePage)]
 
