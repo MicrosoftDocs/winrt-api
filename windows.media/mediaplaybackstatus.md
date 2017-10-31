@@ -14,7 +14,7 @@ Defines values for the status of the media playback.
 
 ## -enum-fields
 ### -field Closed:0
-The media is closd.
+The media is closed.
 
 ### -field Changing:1
 The media is changing.
