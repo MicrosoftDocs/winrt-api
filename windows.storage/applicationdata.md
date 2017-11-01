@@ -206,5 +206,7 @@ void MainPage::ReadTimestamp()
 }
 ```
 
+For more samples and information about reading and writing to a file, see [Create, write, and read a file](https://docs.microsoft.com/windows/uwp/files/quickstart-reading-and-writing-files).
+
 ## -see-also
 [Quickstart: Local application data (JavaScript)](http://msdn.microsoft.com/library/87dfe8e5-2d01-45cf-bcb1-25f54219a439), [Quickstart: Roaming application data (JavaScript)](http://msdn.microsoft.com/library/60f40214-c201-4afe-a2f5-0ef3a7de0076), [Quickstart: Temporary application data (JavaScript)](http://msdn.microsoft.com/library/2e875049-85ef-4581-b6df-f9f0663d93c9), [Store and retrieve settings and other app data](http://msdn.microsoft.com/library/41676a02-325a-455e-8565-c9ec0bc3a8fe), [Guidelines for roaming application data](https://msdn.microsoft.com/library/windows/apps/hh465094.aspx), [Guidelines for app settings](https://docs.microsoft.com/windows/uwp/app-settings/guidelines-for-app-settings), [ApplicationDataCompositeValue](applicationdatacompositevalue.md), [ApplicationDataContainer](applicationdatacontainer.md), [ApplicationDataContainerSettings](applicationdatacontainersettings.md), [Application settings sample (Windows 8.1, Windows Phone 8.1)](http://go.microsoft.com/fwlink/p/?linkid=226738), [Application data sample (Windows 8.1, Windows Phone 8.1)](http://go.microsoft.com/fwlink/p/?linkid=231478), [Application data sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620486)
