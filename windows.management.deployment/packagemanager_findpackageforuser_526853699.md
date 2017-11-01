@@ -14,7 +14,7 @@ Retrieves information about a specific package installed for a specific user or 
 
 ## -parameters
 ### -param userSecurityId
-This user security ID of the user for whom the specified package is being retrieved. If this parameter is **null**, the specified package is retrieved for the current user.
+The user security identifier (SID). If this parameter is string.Empty, the packages are retrieved for the current user.
 
 ### -param packageFullName
 The full name of the package.
