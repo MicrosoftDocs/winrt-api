@@ -31,9 +31,9 @@ See [Flight stick](https://docs.microsoft.com/windows/uwp/gaming/flight-stick) f
 
 ## -see-also
 
-* [Flight stick](https://docs.microsoft.com/windows/uwp/gaming/flight-stick)
-* [Windows.Gaming.Input.IGameController interface](igamecontroller.md)
-* [Windows.Gaming.Input.IGameControllerBatteryInfo interface](igamecontrollerbatteryinfo.md)
+[Flight stick](https://docs.microsoft.com/windows/uwp/gaming/flight-stick),
+[Input practices for games](https://docs.microsoft.com/windows/uwp/gaming/input-practices-for-games),
+[Windows.Gaming.Input.IGameController interface](igamecontroller.md),
+[Windows.Gaming.Input.IGameControllerBatteryInfo interface](igamecontrollerbatteryinfo.md)
 
 ## -examples
-
