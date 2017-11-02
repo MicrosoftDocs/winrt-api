@@ -131,4 +131,4 @@ private void NextButton_Click(object sender, RoutedEventArgs e)
 
 
 ## -see-also
-[ItemsControl](itemscontrol.md), [IItemContainerMapping](iitemcontainermapping.md), [Pivot styles and templates](http://msdn.microsoft.com/library/72669a58-4c18-4b39-ad43-36bf614f96b1), [Pivot sample](http://go.microsoft.com/fwlink/p/?LinkId=619903), [Tailored multiple views sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620636)
+[Tabs and pivot overview](https://docs.microsoft.com/windows/uwp/controls-and-patterns/tabs-pivot), [Pivot styles and templates](http://msdn.microsoft.com/library/72669a58-4c18-4b39-ad43-36bf614f96b1), [Pivot sample](http://go.microsoft.com/fwlink/p/?LinkId=619903), [Tailored multiple views sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620636)

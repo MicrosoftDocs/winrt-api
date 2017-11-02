@@ -68,4 +68,4 @@ private void RepeatButton_Click(object sender, RoutedEventArgs e)
 <!--<auto_snippet sample_id="System.Windows.Controls.ProgressBarEx" snippet_id="3"/>-->
 
 ## -see-also
-[RangeBase](../windows.ui.xaml.controls.primitives/rangebase.md), [ProgressBar styles and templates](http://msdn.microsoft.com/library/43967846-0b5c-47a8-a727-fbeeec96a25b), [ProgressRing](progressring.md), [Controls list](http://msdn.microsoft.com/library/11172840-a63d-4f48-9db4-7baca06308ee), [Controls by function](http://msdn.microsoft.com/library/8db4347b-91d6-4659-91f2-80ecf7bbb596)
+[Progress controls overview](https://docs.microsoft.com/windows/uwp/controls-and-patterns/progress-controls), [RangeBase](../windows.ui.xaml.controls.primitives/rangebase.md), [ProgressBar styles and templates](http://msdn.microsoft.com/library/43967846-0b5c-47a8-a727-fbeeec96a25b), [ProgressRing](progressring.md), [Controls list](http://msdn.microsoft.com/library/11172840-a63d-4f48-9db4-7baca06308ee), [Controls by function](http://msdn.microsoft.com/library/8db4347b-91d6-4659-91f2-80ecf7bbb596)

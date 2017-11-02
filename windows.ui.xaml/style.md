@@ -83,19 +83,64 @@ Each style has multiple [Setter](setter.md) parts. In this XAML, no `Style.Sette
 
 Notice that in the style for the [TextBox](../windows.ui.xaml.controls/textbox.md), the [Margin](frameworkelement_margin.md) property is set to 4, which means that the [TextBox](../windows.ui.xaml.controls/textbox.md) has a margin of 4 on all sides. To compensate for the length of the second [TextBlock](../windows.ui.xaml.controls/textblock.md), which is shorter than the first [TextBlock](../windows.ui.xaml.controls/textblock.md) because **Last Name** takes less room than **First Name**, a value of "6,4,4,4" is assigned to the [Margin](frameworkelement_margin.md) property on the second [TextBox](../windows.ui.xaml.controls/textbox.md). This causes the second [TextBox](../windows.ui.xaml.controls/textbox.md) to have a different margin than what the style specifies, so that it aligns horizontally with the first [TextBox](../windows.ui.xaml.controls/textbox.md).
 
+```xaml
+<StackPanel>
+  <StackPanel.Resources>
+    <!--Create a Style for a TextBlock to specify that the
+              Foreground equals Navy, FontSize equals 14, and
+              VerticalAlignment equals Botton.-->
+    <Style TargetType="TextBlock" x:Key="TextBlockStyle">
+      <Setter Property="Foreground" Value="Navy"/>
+      <Setter Property="FontSize" Value="14"/>
+      <Setter Property="VerticalAlignment" Value="Bottom"/>
+    </Style>
 
+    <!--Create a Style for a TextBlock that specifies that
+              the Width is 200, Height is 20, Margin is 4,
+              Background is LightBlue, and FontSize is 14.-->
+    <Style TargetType="TextBox" x:Key="TextBoxStyle">
+      <Setter Property="Width" Value="200"/>
+      <Setter Property="Height" Value="30"/>
+      <Setter Property="Margin" Value="4"/>
+      <Setter Property="FontSize" Value="14"/>
+      <Setter Property="Background">
+        <Setter.Value>
+          <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+            <GradientStop Color="White" Offset="0.0"/>
+            <GradientStop Color="LightBlue" Offset="0.5"/>
+            <GradientStop Color="Navy" Offset="1"/>
+          </LinearGradientBrush>
+        </Setter.Value>
+      </Setter>
+    </Style>
+  </StackPanel.Resources>
 
-[!code-xml[11](../windows.ui.xaml.data/code/StylingTemplatingOverview/csharp/ButtonStages.xaml#Snippet11)]
+  <!--Apply the TextBlockStyle and TextBoxStyle to each 
+          TextBlock and TextBox, respectively.-->
+  <StackPanel Orientation="Horizontal">
+    <TextBlock Style="{StaticResource TextBlockStyle}">
+              First Name:
+          </TextBlock>
+    <TextBox Style="{StaticResource TextBoxStyle}"/>
+  </StackPanel>
+  <StackPanel Orientation="Horizontal">
+    <TextBlock Style="{StaticResource TextBlockStyle}">
+              Last Name:
+          </TextBlock>
+    <TextBox Style="{StaticResource TextBoxStyle}"
+                   Margin="6,4,4,4"/>
+  </StackPanel>
+</StackPanel>
+```
 
-
+This example creates two style elements. The TargetType for the first style element is set to TextBox and the TargetType for the second style element is set to Button. These are then applied as the implicit style for a TextBox control and a Button control.
 
 [!code-xml[ImplicitStyle](../windows.ui.xaml/code/ImplicitStyleSnippet/csharp/MainPage.xaml#SnippetImplicitStyle)]
 
-
+This example creates a Style named InheritedStyle that is based on a Style named BaseStyle. InheritedStyle inherits the Background value of Yellow from BaseStyle and adds a Foreground value of Red.
 
 [!code-xml[BasedOn](../windows.ui.xaml/code/BasedOnSnippet/csharp/MainPage.xaml#SnippetBasedOn)]
 
-
-
 ## -see-also
+
 [DependencyObject](dependencyobject.md), [ControlTemplate](../windows.ui.xaml.controls/controltemplate.md), [Setter](setter.md), [Dependency properties overview](http://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e), [ResourceDictionary and XAML resource references](http://msdn.microsoft.com/library/e3cbfa3d-6af5-44e1-b9f9-c3d3ea8a25ce), [Styling controls](http://msdn.microsoft.com/library/ab469a46-faf5-42d0-9340-948d0edf4150), [Quickstart: Control templates](http://msdn.microsoft.com/library/67c424ae-afb1-4560-a6a8-4a3506775d77)
