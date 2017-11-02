@@ -10,16 +10,17 @@ public uint Id { get; }
 # Windows.UI.Input.Inking.InkStroke.Id
 
 ## -description
-Gets the identifier for the ink stroke.
+Gets the the ink stroke identifier.
 
-An identifier is assigned to each ink stroke managed by the [InkPresenter](inkpresenter.md).
+A unique identifier is assigned to each ink stroke managed by the [InkPresenter](inkpresenter.md).
 
 ## -property-value
-The unique identifier for the ink stroke.
+The identifier for the ink stroke.
 
 ## -remarks
-This unique identifier persists through serialization/deserialization of the ink stroke.
-A Clone() of an ink stroke will generate a new unique identifier.
+This identifier does not persist through serialization/deserialization of the ink stroke. After deserialization, a new identifer is assigned.
+
+Calling the **[Clone](https://docs.microsoft.com/uwp/api/Windows.UI.Input.Inking.InkStroke#Windows_UI_Input_Inking_InkStroke_Clone)** method also generates a new identifier for the cloned stroke.
 
 ## -examples
 
