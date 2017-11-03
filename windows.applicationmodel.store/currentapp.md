@@ -12,13 +12,11 @@ public class CurrentApp
 ## -description
 Defines methods and properties you can use to get license and listing info about the current app and perform in-app product purchases.
 
+> [!NOTE]
+> The **CurrentApp** class and the other types in the [Windows.ApplicationModel.Store](windows_applicationmodel_store.md) namespace are no longer being updated with new features. If your project targets **Windows 10 Anniversary Edition (10.0; Build 14393)** or a later release in Visual Studio (that is, you are targeting Windows 10, version 1607, or later), we recommend that you use the [Windows.Services.Store](../windows.services.store/windows_services_store.md) namespace instead. For more information, see [In-app purchases and trials](https://msdn.microsoft.com/windows/uwp/monetize/in-app-purchases-and-trials). The **CurrentApp** class is not supported in Windows desktop applications that use the [Desktop Bridge](https://developer.microsoft.com/windows/bridges/desktop) or in apps or games that use a development sandbox in Dev Center (for example, this is the case for any game that integrates with Xbox Live). These products must use the [Windows.Services.Store](../windows.services.store/windows_services_store.md) namespace to implement in-app purchases and trials. 
+
 ## -remarks
 This object obtains its data from the Microsoft Store, so you must have a developer account and the app must be published in the Microsoft Store. Before submitting to the Microsoft Store, you can test your code with a simulated version of this class (whose state is initialized from an XML file). See [CurrentAppSimulator](currentappsimulator.md).
-
-> [!NOTE]
-> [CurrentApp](currentapp.md) and the other types in the [Windows.ApplicationModel.Store](windows_applicationmodel_store.md) namespace are no longer being updated with new features, and we recommend that you use the [Windows.Services.Store](../windows.services.store/windows_services_store.md) namespace instead. The [Windows.Services.Store](../windows.services.store/windows_services_store.md) namespace supports the latest add-on types, such as Store-managed consumable add-ons and subscriptions, and is designed to be compatible with future types of products and features supported by Windows Dev Center and the Store. The [Windows.Services.Store](../windows.services.store/windows_services_store.md) namespace was introduced in Windows 10, version 1607, and it can only be used in projects that target **Windows 10 Anniversary Edition (10.0; Build 14393)** or a later release in Visual Studio. For more information, see [In-app purchases and trials](https://msdn.microsoft.com/windows/uwp/monetize/in-app-purchases-and-trials).
->
-> The [CurrentApp](currentapp.md) class is not supported in Windows desktop applications that use the [Desktop Bridge](https://developer.microsoft.com/windows/bridges/desktop). These applications must use the [Windows.Services.Store](../windows.services.store/windows_services_store.md) namespace to implement in-app purchases and trials. 
 
 ## -examples
 
