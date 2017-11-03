@@ -25,7 +25,9 @@ See [Raw game controller](https://docs.microsoft.com/en-us/windows/uwp/gaming/ra
 
 ## -see-also
 
-* [Windows.Gaming.Input.IGameController interface](igamecontroller.md)
-* [Windows.Gaming.Input.IGameControllerBatteryInfo interface](igamecontrollerbatteryinfo.md)
+[Windows.Gaming.Input.IGameController interface](igamecontroller.md),
+[Windows.Gaming.Input.IGameControllerBatteryInfo interface](igamecontrollerbatteryinfo.md),
+[Raw game controller](https://docs.microsoft.com/windows/uwp/gaming/raw-game-controller),
+[Input practices for games](https://docs.microsoft.com/windows/uwp/gaming/input-practices-for-games)
 
 ## -examples
