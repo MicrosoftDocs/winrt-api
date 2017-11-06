@@ -20,7 +20,7 @@ See Remarks
 
 ## -remarks
 
-For more info about data templates, see the [DataTemplate](../windows.ui.xaml/datatemplate.md) class and [Item containers and templates](https://docs.microsoft.com/windows/uwp/controls-and-patterns/listview-item-templates).
+For more info about data templates, see the [DataTemplate](../windows.ui.xaml/datatemplate.md) class and [Item containers and templates](https://docs.microsoft.com/windows/uwp/controls-and-patterns/item-containers-templates).
 
 The base [DataTemplateSelector](datatemplateselector.md) class is not used as an object element in XAML. However, it is a common scenario to derive a custom [DataTemplateSelector](datatemplateselector.md), map a xmlns prefix for the custom class and its namespace/assembly, and then refer to an instance of the custom class as defined in a [Resources](../windows.ui.xaml/frameworkelement_resources.md) block in XAML. This makes it possible to refer to the custom template selector class by **x:Key**, and use that reference to set the value of properties such as [ItemTemplateSelector](itemscontrol_itemtemplateselector.md) in XAML templates and visual states.
 
