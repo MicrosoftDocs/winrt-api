@@ -10,10 +10,12 @@ public Windows.UI.Text.FontWeight Thin { get; }
 # Windows.UI.Text.FontWeights.Thin
 
 ## -description
-Specifies a "Thin" font weight.
+
+Specifies a font weight value of 100.
 
 ## -property-value
-A [FontWeight](fontweight.md) value that represents a "Thin" font weight.
+
+A [FontWeight](fontweight.md) with a Weight value of 100.
 
 ## -remarks
 

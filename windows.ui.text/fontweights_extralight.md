@@ -10,10 +10,12 @@ public Windows.UI.Text.FontWeight ExtraLight { get; }
 # Windows.UI.Text.FontWeights.ExtraLight
 
 ## -description
-Specifies an "ExtraLight" font weight.
+
+Specifies a font weight value of 200.
 
 ## -property-value
-A [FontWeight](fontweight.md) value that represents an "ExtraLight" font weight.
+
+A [FontWeight](fontweight.md) with a Weight value of 200.
 
 ## -remarks
 

@@ -10,10 +10,12 @@ public Windows.UI.Text.FontWeight Bold { get; }
 # Windows.UI.Text.FontWeights.Bold
 
 ## -description
-Specifies a "Bold" font weight.
+
+Specifies a font weight value of 700.
 
 ## -property-value
-A [FontWeight](fontweight.md) value that represents a "Bold" font weight.
+
+A [FontWeight](fontweight.md) with a Weight value of 700.
 
 ## -remarks
 

@@ -10,10 +10,12 @@ public Windows.UI.Text.FontWeight Light { get; }
 # Windows.UI.Text.FontWeights.Light
 
 ## -description
-Specifies a "Light" font weight.
+
+Specifies a font weight value of 300.
 
 ## -property-value
-A [FontWeight](fontweight.md) value that represents a "Light" font weight.
+
+A [FontWeight](fontweight.md) with a Weight value of 300.
 
 ## -remarks
 
