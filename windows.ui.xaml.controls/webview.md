@@ -13,10 +13,9 @@ public class WebView : Windows.UI.Xaml.FrameworkElement, Windows.UI.Xaml.Control
 Provides a control that hosts HTML content in an app.
 
 ## -xaml-syntax
-```xaml
 
+```xaml
           <WebView .../>
-        
 ```
 
 
@@ -57,7 +56,7 @@ The [Source](webview_source.md) property can be set in code, but rather than doi
 To load web content, use the [Navigate](webview_navigate.md) method with a [Uri](../windows.foundation/uri.md) that uses the **http** or **https** scheme.
 
 ```csharp
-webView1.Navigate("http://www.contoso.com");
+webView1.Navigate(new Uri("http://www.contoso.com"));
 ```
 
 To navigate to a Uniform Resource Identifier (URI) with a POST request and HTTP headers, use the [NavigateWithHttpRequestMessage](webview_NavigateWithHttpRequestMessage.md) method. This method supports only [HttpMethod.Post](../windows.web.http/httpmethod_post.md) and [HttpMethod.Get](../windows.web.http/httpmethod_get.md) for the [HttpRequestMessage.Method](../windows.web.http/httprequestmessage_method.md) property value.
@@ -67,13 +66,13 @@ To load uncompressed and unencrypted content from your app’s [LocalFolder](../
 Each of these first-level subfolders is isolated from the content in other first-level subfolders. For example, you can navigate to ms-appdata:///temp/folder1/file.html, but you can’t have a link in this file to ms-appdata:///temp/folder2/file.html. However, you can still link to HTML content in the app package using the **ms-appx-web** scheme, and to web content using the **http** and **https**  Uniform Resource Identifier (URI) schemes.
 
 ```csharp
-webView1.Navigate("ms-appdata:///local/intro/welcome.html");
+webView1.Navigate(new Uri("ms-appdata:///local/intro/welcome.html"));
 ```
 
 To load content from the your app package, use the [Navigate](webview_navigate.md) method with a [Uri](../windows.foundation/uri.md) that uses the [ms-appx-web scheme](http://msdn.microsoft.com/library/f3b3ae74-aaea-4f00-8f0a-4c231b8745af).
 
 ```csharp
-webView1.Navigate("ms-appx-web:///help/about.html");
+webView1.Navigate(new Uri("ms-appx-web:///help/about.html"));
 ```
 
 You can load local content through a custom resolver using the [NavigateToLocalStreamUri](webview_navigatetolocalstreamuri.md) method. This enables advanced scenarios such as downloading and caching web-based content for offline use, or extracting content from a compressed file.

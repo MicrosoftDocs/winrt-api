@@ -25,5 +25,14 @@ The name of the constant.
 ## -remarks
 
 ## -examples
-
+```cs
+if (Windows.Foundation.Metadata.ApiInformation.IsEnumNamedValuePresent("Windows.UI.Xaml.Automation.Peers.AutomationControlType", "ComboBox"))
+{
+    Debug.WriteLine("Windows.UI.Xaml.Automation.Peers.AutomationControlType.ComboBox enum value found");
+}
+else
+{
+    Debug.WriteLine("Windows.UI.Xaml.Automation.Peers.AutomationControlType.ComboBox enum value NOT found");
+}
+```
 ## -see-also

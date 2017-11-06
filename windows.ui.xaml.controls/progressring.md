@@ -64,4 +64,4 @@ This example shows how to set the [IsActive](progressring_isactive.md) property 
 
 
 ## -see-also
-[Control](control.md), [ProgressRing styles and templates](http://msdn.microsoft.com/library/ea3c6fe2-af06-4ada-8f77-cb78bd1388da), [ProgressBar](progressbar.md), [Controls list](http://msdn.microsoft.com/library/11172840-a63d-4f48-9db4-7baca06308ee), [Controls by function](http://msdn.microsoft.com/library/8db4347b-91d6-4659-91f2-80ecf7bbb596)
+[Progress controls overview](https://docs.microsoft.com/windows/uwp/controls-and-patterns/progress-controls), [ProgressRing styles and templates](http://msdn.microsoft.com/library/ea3c6fe2-af06-4ada-8f77-cb78bd1388da), [ProgressBar](progressbar.md), [Controls list](http://msdn.microsoft.com/library/11172840-a63d-4f48-9db4-7baca06308ee), [Controls by function](http://msdn.microsoft.com/library/8db4347b-91d6-4659-91f2-80ecf7bbb596)

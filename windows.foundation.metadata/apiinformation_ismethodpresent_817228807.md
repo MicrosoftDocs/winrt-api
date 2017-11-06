@@ -28,6 +28,15 @@ The number of input parameters for the overload.
 ## -remarks
 
 ## -examples
-
+```cs
+if (Windows.Foundation.Metadata.ApiInformation.IsMethodPresent("Windows.Globalization.PhoneNumberFormatting.PhoneNumberFormatter", "Format", 2))
+{
+    Debug.WriteLine("Windows.Globalization.PhoneNumberFormatting.PhoneNumberFormatter.Format overload that takes 2 parameters was found");
+}
+else
+{
+    Debug.WriteLine("Windows.Globalization.PhoneNumberFormatting.PhoneNumberFormatter.Format overload that takes 2 parameters was NOT found");
+}
+```
 ## -see-also
 [IsMethodPresent(String, String)](apiinformation_ismethodpresent_1062983651.md)

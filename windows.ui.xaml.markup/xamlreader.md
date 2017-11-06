@@ -38,7 +38,7 @@ This example creates a single [Ellipse](../windows.ui.xaml.shapes/ellipse.md) fr
 ```csharp
 string xaml =
 "<Ellipse Name=\"EllipseAdded\" Width=\"300.5\" Height=\"200\" 
-Fill=\"Red\" \"http://schemas.microsoft.com/winfx/2006/xaml/presentation\"/>";
+Fill=\"Red\" xmlns=\"http://schemas.microsoft.com/winfx/2006/xaml/presentation\"/>";
 object ellipse = XamlReader.Load(xaml);
 //stackPanelRoot is the visual root of a Page in existing XAML markup already loaded by the appmodel
 stackPanelRoot.Children.Add(ellipse as UIElement);

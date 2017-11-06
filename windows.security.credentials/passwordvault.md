@@ -17,4 +17,4 @@ Represents a Credential Locker of credentials. The contents of the locker are sp
 ## -examples
 
 ## -see-also
-[Storing user credentials ](XREF:TODO:m_id_security.accessing_user_account_info_in_vaults), [Credential locker](http://msdn.microsoft.com/library/7bcc443d-9e8a-417c-b275-3105f5ded863)
+[Credential locker](https://docs.microsoft.com/windows/uwp/security/credential-locker)

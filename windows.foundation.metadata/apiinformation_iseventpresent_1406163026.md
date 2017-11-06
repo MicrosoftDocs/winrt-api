@@ -25,5 +25,14 @@ The name of the event.
 ## -remarks
 
 ## -examples
-
+```cs
+if (Windows.Foundation.Metadata.ApiInformation.IsEventPresent("Windows.Media.Core.AudioTrack", "OpenFailed"))
+{
+    Debug.WriteLine("Windows.Media.Core.AudioTrack.OpenFailed event found");
+}
+else
+{
+    Debug.WriteLine("Windows.Media.Core.AudioTrack.OpenFailed event NOT found");
+}
+```
 ## -see-also

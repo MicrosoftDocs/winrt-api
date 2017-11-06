@@ -28,6 +28,16 @@ The minor version number of the API contract.
 ## -remarks
 
 ## -examples
+```cs
+if (Windows.Foundation.Metadata.ApiInformation.IsApiContractPresent("Windows.ApplicationModel.Calls.CallsVoipContract", 1, 1))
+{
+    Debug.WriteLine("Windows.ApplicationModel.Calls.CallsVoipContract v1.1 found");
+}
+else
+{
+    Debug.WriteLine("Windows.ApplicationModel.Calls.CallsVoipContract v1.1 NOT found");
+}
+```
 
 ## -see-also
 [IsApiContractPresent(String, UInt16)](apiinformation_isapicontractpresent_1836214132.md)

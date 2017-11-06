@@ -22,8 +22,8 @@ The name of the property. E.g., "System.Photo.DateTaken" or "System.Music.Artist
 ## -remarks
 
 ## -see-also
-[Windows Properties](https://msdn.microsoft.com/library/7532e58f-bbf2-4e36-9d81-c8e04b92cb7c)
-[SystemProperties class](https://docs.microsoft.com/uwp/api/windows.storage.systemproperties)
+[Windows Properties](https://msdn.microsoft.com/library/7532e58f-bbf2-4e36-9d81-c8e04b92cb7c)  
+[SystemProperties class](https://docs.microsoft.com/uwp/api/windows.storage.systemproperties)  
 
 ## -examples
 

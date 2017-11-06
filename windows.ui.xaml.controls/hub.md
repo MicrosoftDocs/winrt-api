@@ -114,4 +114,4 @@ private void Hub_SectionHeaderClick(object sender, HubSectionHeaderClickEventArg
 
 
 ## -see-also
-[Control](control.md), [HubSection](hubsection.md), [HubSectionCollection](hubsectioncollection.md), [HubSectionHeaderClickEventArgs](hubsectionheaderclickeventargs.md), [ISemanticZoomInformation](isemanticzoominformation.md), [Hub styles and templates](http://msdn.microsoft.com/library/534813df-ce43-497e-b7e2-9348df034c8a), [XAML Hub control sample](http://go.microsoft.com/fwlink/p/?LinkID=310072)
+[Hub overview](https://docs.microsoft.com/windows/uwp/controls-and-patterns/hub), [Hub styles and templates](http://msdn.microsoft.com/library/534813df-ce43-497e-b7e2-9348df034c8a), [XAML Hub control sample (Windows 8)](http://go.microsoft.com/fwlink/p/?LinkID=310072), [ISemanticZoomInformation](isemanticzoominformation.md)

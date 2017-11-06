@@ -10,7 +10,7 @@ public class BindingBase : Windows.UI.Xaml.DependencyObject, Windows.UI.Xaml.Dat
 # Windows.UI.Xaml.Data.BindingBase
 
 ## -description
-Provides an abstract base class for the [Binding](binding.md) class.
+Provides a base class for the [Binding](binding.md) class.
 
 ## -remarks
 

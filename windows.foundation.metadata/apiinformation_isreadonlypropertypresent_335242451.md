@@ -25,5 +25,14 @@ The name of the property.
 ## -remarks
 
 ## -examples
-
+```cs
+if (Windows.Foundation.Metadata.ApiInformation.IsReadOnlyPropertyPresent("Windows.Devices.Sensors.Accelerometer", "ReadingType"))
+{
+    Debug.WriteLine("Windows.Devices.Sensors.Accelerometer.ReadingType read-only property was found");
+}
+else
+{
+    Debug.WriteLine("Windows.Devices.Sensors.Accelerometer.ReadingType read-only property was NOT found");
+}
+```
 ## -see-also

@@ -10,7 +10,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Services.Store.StoreProductQue
 # Windows.Services.Store.StoreContext.GetStoreProductsAsync
 
 ## -description
-Gets Windows Store listing info for the specified products that can be purchased from within the current app.
+Gets Microsoft Store listing info for the specified products that are associated with the current app.
 
 ## -parameters
 ### -param productKinds
@@ -20,12 +20,14 @@ An array of strings that specify the types of products for which you want to ret
 An array of the Store ID strings for the products for which you want to retrieve listing info.
 
 ## -returns
-An asynchronous operation that, on successful completion, returns a [StoreProductQueryResult](storeproductqueryresult.md) object that contains Windows Store listing info for the specified products and any relevant error info.
+An asynchronous operation that, on successful completion, returns a [StoreProductQueryResult](storeproductqueryresult.md) object that contains listing info for the specified products and any relevant error info.
 
 ## -remarks
-For more information about using this method, including a code example, see [Get product info for apps and add-ons](https://msdn.microsoft.com/windows/uwp/monetize/get-product-info-for-apps-and-add-ons).
+This method returns listing info for the specified products that are associated with the current app, regardless of whether the products are currently available for purchase within the current app. To retrieve info for all the products that can currently be purchased from within the current app, use the [GetAssociatedStoreProductsAsync](storecontext_getassociatedstoreproductsasync_1833928682.md) method instead.
 
 The Store ID for a product is available in the Windows Dev Center dashboard, and it also is returned by the [StoreId](storeproduct_storeid.md) property of the [StoreProduct](storeproduct.md) that represents the product. For more information, see [Store IDs](https://msdn.microsoft.com/windows/uwp/monetize/get-product-info-for-apps-and-add-ons).
+
+For more information about using this method, including a code example, see [Get product info for apps and add-ons](https://msdn.microsoft.com/windows/uwp/monetize/get-product-info-for-apps-and-add-ons).
 
 ## -examples
 
