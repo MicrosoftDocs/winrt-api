@@ -22,7 +22,7 @@ Represents a rich text editing control that supports formatted text, hyperlinks,
 ## -remarks
 [RichEditBox](richeditbox.md) is a control that lets a user enter formatted text such as bold, italic, and underlined. [RichEditBox](richeditbox.md) can also display Rich Text Format (.rtf) documents including hyperlinks and images (.jpg, .png, etc). This control is designed for advanced text editing scenarios. For simple plain text input, like on a form, consider using [TextBox](textbox.md).
 
-You use the [Document](richeditbox_document.md) property of the [RichEditBox](richeditbox.md) to get its content. The content of a [RichEditBox](richeditbox.md) is a [Windows.UI.Text.ITextDocument](../windows.ui.text/itextdocument.md) object, which gives you access to the underlying [Text Object Model](XREF:TODO:controls.Text_Object_Model) APIs.
+You use the [Document](richeditbox_document.md) property of the [RichEditBox](richeditbox.md) to get its content. The content of a [RichEditBox](richeditbox.md) is a [Windows.UI.Text.ITextDocument](../windows.ui.text/itextdocument.md) object, which gives you access to the underlying [Text Object Model](https://msdn.microsoft.com/library/windows/desktop/bb787607.aspx) APIs. See the [Windows.UI.Text](../windows.ui.text/windows_ui_text.md) namespace for APIs that you can use to work with the text document.
 
 For more info and examples, see the [RichEditBox control guide](http://msdn.microsoft.com/library/4afc0dfa-3b89-434d-9f86-4309ccff7839).
 
