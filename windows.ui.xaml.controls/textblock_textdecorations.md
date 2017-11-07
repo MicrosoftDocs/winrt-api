@@ -41,17 +41,22 @@ For earlier versions of Windows, you can underline text with the [Underline](../
 This example shows how to apply decorations to text.
 
 ```xaml
+<!-- Apply underline. -->
 <TextBlock Text="Sample text" TextDecorations="Underline"/>
 
-<TextBlock x:Name="TextBlock2" Text="Sample Text"
+<!-- Apply underline and strikethrough. -->
+<TextBlock Text="Sample text" TextDecorations="Underline, Strikethrough"/>
+
+<!-- Apply decorations in code. -->
+<TextBlock x:Name="TextBlock3" Text="Sample Text"
            Loaded="TextBlock_Loaded" />
 ```
 
 ```csharp
 private void TextBlock_Loaded(object sender, RoutedEventArgs e)
 {
-    // Apply both strikethough and underline to TextBlock2.
-    TextBlock2.TextDecorations =
+    // Apply both strikethough and underline to TextBlock3.
+    TextBlock3.TextDecorations =
         TextDecorations.Strikethrough | TextDecorations.Underline;
 }
 ```

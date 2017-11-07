@@ -49,15 +49,16 @@ This example shows how to apply text decorations to text in a RichTextBlock, bot
     <Paragraph TextDecorations="Strikethrough">
         This text has a strikethrough, but no underline.
     </Paragraph>
-    <Paragraph x:Name="Paragraph3">This text has it all!</Paragraph>
+    <Paragraph TextDecorations="Strikethrough, Underline">This text has it all!</Paragraph>
+    <Paragraph x:Name="Paragraph4">This text is decorated in code.</Paragraph>
 </RichTextBlock>
 ```
 
 ```csharp
 private void RichTextBlock_Loaded(object sender, RoutedEventArgs e)
 {
-    // Apply both strikethough and underline to the third paragraph.
-    Paragraph3.TextDecorations =
+    // Apply both strikethough and underline to the last paragraph.
+    Paragraph4.TextDecorations =
         TextDecorations.Strikethrough | TextDecorations.Underline;
 }
 ```
