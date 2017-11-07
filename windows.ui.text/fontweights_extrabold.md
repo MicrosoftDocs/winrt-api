@@ -10,10 +10,12 @@ public Windows.UI.Text.FontWeight ExtraBold { get; }
 # Windows.UI.Text.FontWeights.ExtraBold
 
 ## -description
-Specifies an "ExtraBold" font weight.
+
+Specifies a font weight value of 800.
 
 ## -property-value
-A [FontWeight](fontweight.md) value that represents an "ExtraBold" font weight.
+
+A [FontWeight](fontweight.md) with a Weight value of 800.
 
 ## -remarks
 

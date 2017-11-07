@@ -10,10 +10,12 @@ public Windows.UI.Text.FontWeight SemiBold { get; }
 # Windows.UI.Text.FontWeights.SemiBold
 
 ## -description
-Specifies a "SemiBold" font weight.
+
+Specifies a font weight value of 600.
 
 ## -property-value
-A [FontWeight](fontweight.md) value that represents a "SemiBold" font weight.
+
+A [FontWeight](fontweight.md) with a Weight value of 600.
 
 ## -remarks
 

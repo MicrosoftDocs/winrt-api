@@ -10,10 +10,12 @@ public Windows.UI.Text.FontWeight Black { get; }
 # Windows.UI.Text.FontWeights.Black
 
 ## -description
-Specifies a "Black" font weight.
+
+Specifies a font weight value of 900.
 
 ## -property-value
-A [FontWeight](fontweight.md) value that represents a "Black" font weight.
+
+A [FontWeight](fontweight.md) with a Weight value of 900.
 
 ## -remarks
 

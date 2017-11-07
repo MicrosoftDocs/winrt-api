@@ -10,10 +10,12 @@ public Windows.UI.Text.FontWeight ExtraBlack { get; }
 # Windows.UI.Text.FontWeights.ExtraBlack
 
 ## -description
-Specifies an "ExtraBlack" font weight.
+
+Specifies a font weight value of 950.
 
 ## -property-value
-A [FontWeight](fontweight.md) value that represents an "ExtraBlack" font weight.
+
+A [FontWeight](fontweight.md) with a Weight value of 950.
 
 ## -remarks
 
