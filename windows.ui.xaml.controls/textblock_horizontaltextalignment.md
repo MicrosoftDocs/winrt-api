@@ -30,7 +30,9 @@ One of the [TextAlignment](../windows.ui.xaml/textalignment.md) enumeration valu
 
 ## -remarks
 
-This property supports [XAML Standard](http://aka.ms/xamlstandard). It provides the same functionality as the **TextAlignement** property. If both properties are set to conflicting values, the last one set is used.
+This property provides the same functionality as the **TextAlignment** property. If both properties are set to conflicting values, the last one set is used.
+
+Apps that target the Fall Creators Update (SDK 16299) or later should use this property instead of **TextAlignment**. If your app also supports previous versions, see [Version adaptive apps: Use new APIs while maintaining compatibility with previous versions](https://docs.microsoft.com/windows/uwp/debug-test-perf/version-adaptive-apps) for more info.
 
 ## -see-also
 

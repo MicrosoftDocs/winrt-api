@@ -11,7 +11,7 @@ public double Spacing { get;  set; }
 
 ## -description
 
-Gets or sets the distance (in pixels) between stacked items.
+Gets or sets a uniform distance (in pixels) between stacked items. It is applied in the direction of the StackPanel's Orientation.
 
 ## -xaml-syntax
 
@@ -21,7 +21,7 @@ Gets or sets the distance (in pixels) between stacked items.
 
 ## -property-value
 
-The distance (in pixels) between stacked items.
+The uniform distance (in pixels) between stacked items.
 
 ## -remarks
 

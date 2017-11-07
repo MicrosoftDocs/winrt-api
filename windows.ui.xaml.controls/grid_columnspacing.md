@@ -11,7 +11,7 @@ public double ColumnSpacing { get;  set; }
 
 ## -description
 
-Gets or sets the distance (in pixels) between grid columns.
+Gets or sets the uniform distance (in pixels) between grid columns.
 
 ## -xaml-syntax
 
@@ -21,7 +21,7 @@ Gets or sets the distance (in pixels) between grid columns.
 
 ## -property-value
 
-The distance (in pixels) between grid columns.
+The uniform distance (in pixels) between grid columns.
 
 ## -remarks
 
