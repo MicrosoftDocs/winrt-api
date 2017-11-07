@@ -20,7 +20,7 @@ The web account provider for the web account.
 The Id of the web account.
 
 ## -returns
-When this method completes successfully, it returns the found web account.
+When this method completes successfully, it returns the found **[WebAccount](https://docs.microsoft.com/uwp/api/windows.security.credentials.webaccount)** object.
 
 ## -remarks
 

@@ -26,7 +26,7 @@ The user associated with the web account provider to find.
 > When using `"https://login.windows.local"` as the *webAccountProviderId* value, you should not specify an *authority* value. Use the [single-parameter overload](webauthenticationcoremanager_findaccountproviderasync_1831443503.md) of this method instead.
 
 ## -returns
-When this method completes successfully, it returns the found web account provider.
+When this method completes successfully, it returns the found **[WebAccountProvider](https://docs.microsoft.com/uwp/api/windows.security.credentials.webaccountprovider)** object.
 
 ## -remarks
 
