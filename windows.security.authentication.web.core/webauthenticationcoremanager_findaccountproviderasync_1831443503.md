@@ -17,7 +17,7 @@ Finds a web account provider asynchronously with one input.
 The Id of the web account provider to find.
 
 ## -returns
-When this method completes successfully, it returns the found web account provider.
+When this method completes successfully, it returns the found **[WebAccountProvider](https://docs.microsoft.com/uwp/api/windows.security.credentials.webaccountprovider)** object.
 
 ## -remarks
 

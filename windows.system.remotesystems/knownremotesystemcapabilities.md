@@ -13,7 +13,7 @@ public class KnownRemoteSystemCapabilities
 Contains the string names of different features of the Remote Systems platform. A remote system is either compatible or incompatible with each of the capabilities corresponding to the properties of this class.
 
 ## -remarks
-The [RemoteSystem.GetCapabilitySupportedAsync](remotesystem_getcapabilitysupportedasync_1130940389.md) method uses this class's property values to query for feature support on specific remote systems. 
+The [RemoteSystem.GetCapabilitySupportedAsync](remotesystem_getcapabilitysupportedasync_1130940389.md) method uses this class's property values to query for feature support on specified remote systems. 
 ## -see-also
 [RemoteSystem](remotesystem.md)
 

@@ -11,7 +11,7 @@ public double RowSpacing { get;  set; }
 
 ## -description
 
-Gets or sets the distance (in pixels) between grid rows.
+Gets or sets the uniform distance (in pixels) between grid rows.
 
 ## -xaml-syntax
 
@@ -21,7 +21,7 @@ Gets or sets the distance (in pixels) between grid rows.
 
 ## -property-value
 
-The distance (in pixels) between grid rows.
+The uniform distance (in pixels) between grid rows.
 
 ## -remarks
 
