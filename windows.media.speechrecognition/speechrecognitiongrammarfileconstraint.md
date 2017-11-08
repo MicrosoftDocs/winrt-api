@@ -10,7 +10,10 @@ public class SpeechRecognitionGrammarFileConstraint : Windows.Media.SpeechRecogn
 # Windows.Media.SpeechRecognition.SpeechRecognitionGrammarFileConstraint
 
 ## -description
-A constraint for a [SpeechRecognizer](speechrecognizer.md) object based on a Speech Recognition Grammar Specification (SRGS) file.
+A custom grammar constraint based on a list of words or phrases (defined in a Speech Recognition Grammar Specification (SRGS) file) that can be recognized by the [SpeechRecognizer](speechrecognizer.md) object.
+
+> [!NOTE]
+> Speech recognition using a custom constraint is performed on the device.
 
 ## -remarks
 Constraints, or grammars, define the spoken words and phrases that can be matched by the speech recognizer. You can specify one of the pre-defined, web-service grammars ([SpeechRecognitionTopicConstraint](speechrecognitiontopicconstraint.md)) or you can create a custom grammar, described here, that is installed with your app (speech recognition using a custom constraint is performed on the device).

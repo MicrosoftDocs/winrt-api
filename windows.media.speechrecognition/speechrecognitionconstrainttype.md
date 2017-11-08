@@ -14,7 +14,7 @@ Specifies the grammar definition constraint used for speech recognition.
 
 ## -enum-fields
 ### -field Topic:0
-A constraint based on a dictation topic. See [SpeechRecognitionTopicConstraint](speechrecognitiontopicconstraint.md).
+A pre-defined, web-service grammar constraint based on a dictation topic. See [SpeechRecognitionTopicConstraint](speechrecognitiontopicconstraint.md).
 
 ### -field List:1
 A constraint based on a list of words or phrases. See [SpeechRecognitionListConstraint](speechrecognitionlistconstraint.md).
