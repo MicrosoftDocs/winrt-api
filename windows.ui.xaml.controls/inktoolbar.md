@@ -10,7 +10,6 @@ public class InkToolbar : Windows.UI.Xaml.Controls.Control, Windows.UI.Xaml.Cont
 # Windows.UI.Xaml.Controls.InkToolbar
 
 ## -description
-
 Represents a Universal Windows app control containing a customizable and extensible collection of buttons that activate ink-related features in an associated [InkCanvas](inkcanvas.md).
 
 ## -remarks
