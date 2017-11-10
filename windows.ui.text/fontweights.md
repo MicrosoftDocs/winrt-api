@@ -25,7 +25,7 @@ In standard typography API, the weight of a font is expressed by using constant 
 
 This image shows the various font weight values applied to text.
 
-![Various font weight values applied to text](images/font-weights.png)
+<img alt="Various font weight values applied to text" src="images/font-weights.png" />
 
 ## -examples
 
