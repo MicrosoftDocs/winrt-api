@@ -20,7 +20,44 @@ The element for which to get the preceding reading order elements.
 A list of automation elements that suggests the reading order before the automation element specified by the *element* parameter.
 
 ## -remarks
+Get the list, then call the [Add](https://msdn.microsoft.com/library/windows/apps/63ywd54z) method to add a new element.
 
 ## -examples
+```xaml
+<StackPanel>
+    <Button x:Name="first">First</Button>
+    <Button x:Name="third">Third</Button>
+    <Button x:Name="second">Second</Button>
+    <Button x:Name="fourth">Fourth</Button>
+</StackPanel>
+```
+
+```csharp
+public sealed partial class MainPage : Page
+{
+    public MainPage()
+    {
+        this.InitializeComponent();
+
+        // Override the default flow for next/previous items in 
+        // UI Automation to differ from the sequence of items 
+        // declared in markup
+        FlowBetween(first, second);
+        FlowBetween(second, third);
+        FlowBetween(third, fourth);
+    }
+
+    public void FlowBetween(UIElement fromElement, UIElement toElement)
+    {
+        // Set up the flow as bi-directional so that moving next/previous is
+        // consistent.
+        var flowsToList = AutomationProperties.GetFlowsTo(fromElement);
+        var flowsFromList = AutomationProperties.GetFlowsFrom(toElement);
+
+        flowsToList.Add(toElement);
+        flowsFromList.Add(fromElement);
+    }
+}
+```
 
 ## -see-also
