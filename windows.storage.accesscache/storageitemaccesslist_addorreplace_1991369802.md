@@ -4,7 +4,7 @@
 ---
 
 <!-- Method syntax
-public void AddOrReplace(System.String token, Windows.Storage.IStorageItem file)
+public void AddOrReplace(System.String token, Windows.Storage.IStorageItem item)
 -->
 
 # Windows.Storage.AccessCache.StorageItemAccessList.AddOrReplace
@@ -16,7 +16,7 @@ Adds a new storage item to the access list, or replaces the specified item if it
 ### -param token
 The token associated with the new storage item. If the access list already contains a storage item that has this token, the new item replaces the existing one.
 
-### -param file
+### -param item
 The storage item to add or replace.
 
 ## -remarks
