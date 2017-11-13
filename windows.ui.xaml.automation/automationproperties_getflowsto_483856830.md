@@ -22,6 +22,9 @@ A list of automation elements that suggests the reading order after the automati
 ## -remarks
 Get the list, then call the [Add](https://msdn.microsoft.com/library/windows/apps/63ywd54z) method to add a new element.
 
+> [!Important] > When modifying the flow, be careful not to create a situation where the user gets stuck in a navigation loop that they can't escape if they are only using a keyboard.
+
+
 ## -examples
 ```xaml
 <StackPanel>
