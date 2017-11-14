@@ -1,4 +1,3 @@
-
 ---
 -api-id: P:Windows.Web.Http.HttpClient.DefaultRequestHeaders
 -api-type: winrt property
