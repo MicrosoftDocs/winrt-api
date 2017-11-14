@@ -17,4 +17,4 @@ Represents the base class for state triggers.
 ## -examples
 
 ## -see-also
-[DependencyObject](dependencyobject.md), [StateTrigger](statetrigger.md)
+[StateTrigger](statetrigger.md), [AdaptiveTrigger](adaptivetrigger.md), [DependencyObject](dependencyobject.md)
