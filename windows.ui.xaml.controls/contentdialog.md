@@ -374,4 +374,4 @@ private async void ShowSignInDialogButton_Click(object sender, RoutedEventArgs e
 
 
 ## -see-also
-[ContentControl](contentcontrol.md), [ContentDialog styles and templates](http://msdn.microsoft.com/library/bbaa462d-07bb-4492-b05b-fa056002b298)
+[ContentControl](contentcontrol.md), [ContentDialog styles and templates](http://msdn.microsoft.com/library/bbaa462d-07bb-4492-b05b-fa056002b298), [Dialogs and flyouts](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/dialogs)

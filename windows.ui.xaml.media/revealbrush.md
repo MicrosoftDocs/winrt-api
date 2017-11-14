@@ -16,6 +16,7 @@ Base class for brushes that use composition effects and lighting to implement th
 ## -remarks
 
 ## -see-also
+[Reveal highlight overview](https://docs.microsoft.com/windows/uwp/design/style/reveal)
 
 ## -examples
 

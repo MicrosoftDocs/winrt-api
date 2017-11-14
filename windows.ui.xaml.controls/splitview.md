@@ -27,13 +27,12 @@ Represents a container with two views; one view for the main content and another
 
 
 ## -remarks
-[SplitView](splitview.md)The [SplitView](splitview.md) control presents two areas of content: a [Pane](splitview_pane.md) and the main [Content](splitview_content.md). You typically use a [SplitView](splitview.md) to create a top-level navigation experience that adapts to different screen widths following the [nav pane pattern](http://msdn.microsoft.com/library/8fb52f5e-8e72-4604-9222-0b0ec6a97541), but it's not strictly limited to use for navigation.
-
-
+[SplitView](splitview.md)The [SplitView](splitview.md) control presents two areas of content: a [Pane](splitview_pane.md) and the main [Content](splitview_content.md). You typically use a [SplitView](splitview.md) to create a top-level navigation experience that adapts to different screen widths following the [nav pane pattern](http://msdn.microsoft.com/library/8fb52f5e-8e72-4604-9222-0b0ec6a97541) or the [master/details pattern](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/master-details), but it's not strictly limited to use for navigation.
 
 The XAML for this [SplitView](splitview.md) is shown in the Examples section.
 
 <img alt="Split view control" src="images/controls/SplitViewBasic.png" />
+
 The [Content](splitview_content.md) area is always present and can contain a single child element, which is typically a [Panel](panel.md) derived container that contains additional child elements. Although the [Content](splitview_content.md) is always present, it can be completely covered by the [Pane](splitview_pane.md).
 
 There are several properties you can set to control the appearance and behavior of the [Pane](splitview_pane.md). Set the [IsPaneOpen](splitview_ispaneopen.md) property to open or close the [Pane](splitview_pane.md). The [SplitView](splitview.md) does not include a built-in affordance for users to toggle the state of the [Pane](splitview_pane.md), like a menu (or “hamburger”) button. You must provide this affordance and the code to toggle the [IsPaneOpen](splitview_ispaneopen.md) property.
@@ -78,4 +77,4 @@ Here's a [SplitView](splitview.md) control with an open [Pane](splitview_pane.md
 
 
 ## -see-also
-[Control](control.md), [Guidelines for the split view control](http://msdn.microsoft.com/library/e9e4537f-1160-4183-9a83-26602fcfdc9a), [Guidelines for navigation panes](http://msdn.microsoft.com/library/8fb52f5e-8e72-4604-9222-0b0ec6a97541), [Navigation menu (XAML) sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=619902), [Tailored multiple views sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620636)
+[Control](control.md), [Guidelines for the split view control](http://msdn.microsoft.com/library/e9e4537f-1160-4183-9a83-26602fcfdc9a), [Guidelines for navigation panes](http://msdn.microsoft.com/library/8fb52f5e-8e72-4604-9222-0b0ec6a97541), [Guidelines for master/details pattern](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/master-details), [Navigation menu (XAML) sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=619902), [Tailored multiple views sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620636)

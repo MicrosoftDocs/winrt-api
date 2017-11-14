@@ -41,4 +41,4 @@ The following example shows how to use the [AddDeleteThemeTransition](adddeletet
 [!code-csharp[AddDeleteThemeTransition_code](../windows.ui.xaml.media.animation/code/AddDeleteThemeTransition/csharp/BlankPage.xaml.cs#SnippetAddDeleteThemeTransition_code)]
 
 ## -see-also
-[Transition](transition.md), [Animating list additions and deletions](http://msdn.microsoft.com/library/3317d9c5-9936-42ec-bdeb-4df538374232), [Guidelines and checklist for add and delete animations](http://msdn.microsoft.com/library/a85006ae-4992-457a-b514-500b8bef5dc8)
+[Transition](transition.md), [Guidelines for add and delete animations](https://docs.microsoft.com/windows/uwp/design/motion/motion-list)
