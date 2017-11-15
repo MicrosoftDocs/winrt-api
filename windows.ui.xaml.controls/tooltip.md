@@ -104,5 +104,4 @@ This example demonstrates basic tooltips and the properties for placement.
 [!code-xml[1](../windows.ui.xaml.controls.primitives/code/System.Windows.Controls.ToolTip/csharp/Page.xaml#Snippet1)]
 
 ## -see-also
-[ContentControl](contentcontrol.md), [ToolTipService](tooltipservice.md), [ToolTip styles and templates](http://msdn.microsoft.com/library/96bcc21c-9ebb-4624-96f5-08f83fe748b8), [XAML essential controls sample](http://go.microsoft.com/fwlink/p/?linkid=226951)
-l controls sample](http://go.microsoft.com/fwlink/p/?linkid=226951)
+[ContentControl](contentcontrol.md), [ToolTipService](tooltipservice.md), [Tooltips overview](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/tooltips), [ToolTip styles and templates](http://msdn.microsoft.com/library/96bcc21c-9ebb-4624-96f5-08f83fe748b8), [XAML essential controls sample](http://go.microsoft.com/fwlink/p/?linkid=226951)

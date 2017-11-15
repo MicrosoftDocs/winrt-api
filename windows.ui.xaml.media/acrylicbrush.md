@@ -16,6 +16,7 @@ Paints an area with a semi-transparent material that uses multiple effects inclu
 ## -remarks
 
 ## -see-also
+[Acrylic material overview](https://docs.microsoft.com/windows/uwp/design/style/acrylic)
 
 ## -examples
 

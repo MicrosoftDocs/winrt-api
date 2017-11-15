@@ -22,3 +22,4 @@ If the device doesn't provide any back-navigation button, gesture, or command, t
 ## -examples
 
 ## -see-also
+[Navigation history and backwards navigation overview](https://docs.microsoft.com/windows/uwp/design/basics/navigation-history-and-backwards-navigation)

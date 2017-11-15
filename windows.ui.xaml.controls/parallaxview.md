@@ -22,6 +22,7 @@ Represents a container that ties the scroll position of a foreground element, su
 ## -remarks
 
 ## -see-also
+[Parallax overview](https://docs.microsoft.com/windows/uwp/design/motion/parallax)
 
 ## -examples
 

@@ -37,3 +37,4 @@ After you register to receive input pane notifications, the system calls your ev
 ## -examples
 
 ## -see-also
+[Respond to the presence of the touch keyboard](https://docs.microsoft.com/windows/uwp/design/input/respond-to-the-presence-of-the-touch-keyboard)

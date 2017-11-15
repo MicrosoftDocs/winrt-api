@@ -72,4 +72,4 @@ Here's a [HyperlinkButton](hyperlinkbutton.md) as declared in XAML. It declares 
 [!code-xml[BasicHyperlinkButtonXAML](../windows.ui.xaml.controls/code/BasicControlSnippets/CS/MainPage.xaml#SnippetBasicHyperlinkButtonXAML)]
 
 ## -see-also
-[ButtonBase](../windows.ui.xaml.controls.primitives/buttonbase.md), [HyperlinkButton styles and templates](http://msdn.microsoft.com/library/7a121bf4-0a2f-4d49-b3e7-3c44fd4905c6)
+[ButtonBase](../windows.ui.xaml.controls.primitives/buttonbase.md), [HyperlinkButton styles and templates](http://msdn.microsoft.com/library/7a121bf4-0a2f-4d49-b3e7-3c44fd4905c6), [Hyperlinks overview](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/hyperlinks)

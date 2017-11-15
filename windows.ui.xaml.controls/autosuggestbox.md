@@ -166,4 +166,4 @@ private void AutoSuggestBox_QuerySubmitted(AutoSuggestBox sender, AutoSuggestBox
 
 
 ## -see-also
-[ItemsControl](itemscontrol.md), [IItemContainerMapping](iitemcontainermapping.md), [AutoSuggestBox styles and templates](http://msdn.microsoft.com/library/d2a7a0df-da52-4077-adae-90383a568f0d), [AutoSuggestBox migration sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=619996)
+[ItemsControl](itemscontrol.md), [IItemContainerMapping](iitemcontainermapping.md), [AutoSuggestBox styles and templates](http://msdn.microsoft.com/library/d2a7a0df-da52-4077-adae-90383a568f0d), [AutoSuggestBox migration sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=619996), [Guidelines for auto-suggest boxes](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/auto-suggest-box), [Search and find-in-page](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/search)

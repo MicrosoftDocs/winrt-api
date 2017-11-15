@@ -391,4 +391,4 @@ webView2.NavigateToString(
 
 
 ## -see-also
-[FrameworkElement](../windows.ui.xaml/frameworkelement.md), [XAML WebView control sample](http://go.microsoft.com/fwlink/p/?linkid=238582), [WebView control (HTML) sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620624), [WebView control (XAML) sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=722922)
+[FrameworkElement](../windows.ui.xaml/frameworkelement.md), [WebView guidelines](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/web-view), [XAML WebView control sample](http://go.microsoft.com/fwlink/p/?linkid=238582), [WebView control (HTML) sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620624), [WebView control (XAML) sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=722922)
