@@ -76,4 +76,4 @@ void MyPage::ContentHost_PointerPressed(Object^ sender, PointerRoutedEventArgs^ 
 
 
 ## -see-also
-[Transition](transition.md), [Animating content transitions](http://msdn.microsoft.com/library/57659b10-39c2-4ff4-95ff-51a349d01911), [Guidelines and checklist for content transition animations](http://msdn.microsoft.com/library/0188fdb4-e183-466f-8a03-ee3ff5c474b1)
+[Transition](transition.md), [Guidelines for content transition animations](https://docs.microsoft.com/windows/uwp/design/motion/content-transition-animations)

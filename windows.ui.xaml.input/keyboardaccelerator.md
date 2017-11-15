@@ -24,3 +24,4 @@ By default, an accelerator has global scope. However, you can constrain scope us
 ## -examples
 
 ## -see-also
+[Keyboard accelerators overview](https://docs.microsoft.com/windows/uwp/design/input/keyboard-accelerators)

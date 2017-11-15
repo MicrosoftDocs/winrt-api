@@ -18,3 +18,4 @@ Represents the title bar of an app.
 ## -examples
 
 ## -see-also
+[Title bar customization](https://docs.microsoft.com/windows/uwp/design/shell/title-bar)

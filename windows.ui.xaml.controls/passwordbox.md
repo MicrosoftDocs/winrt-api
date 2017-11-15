@@ -132,4 +132,4 @@ End Sub
     <auto_snippet sample_id="PasswordBoxSnippet" snippet_id="PasswordBoxCode"/>-->
 
 ## -see-also
-[Control](control.md), [PasswordBox styles and templates](http://msdn.microsoft.com/library/2e6e0ed5-c763-4713-8749-0621a123568b), [PasswordBox control guide](http://msdn.microsoft.com/library/4bfdecc6-9bc5-4ff5-8c63-bb36f6ddf2ef), [TextBox](textbox.md), [Controls list](http://msdn.microsoft.com/library/11172840-a63d-4f48-9db4-7baca06308ee), [Controls by function](http://msdn.microsoft.com/library/8db4347b-91d6-4659-91f2-80ecf7bbb596)
+[Control](control.md), [PasswordBox styles and templates](http://msdn.microsoft.com/library/2e6e0ed5-c763-4713-8749-0621a123568b), [PasswordBox guidelines](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/password-box), [TextBox](textbox.md), [Controls list](http://msdn.microsoft.com/library/11172840-a63d-4f48-9db4-7baca06308ee), [Controls by function](http://msdn.microsoft.com/library/8db4347b-91d6-4659-91f2-80ecf7bbb596)

@@ -170,4 +170,4 @@ The following XAML creates a large [TextBlock](textblock.md) inside a [ScrollVie
 [!code-xml[1](../windows.ui.xaml.data/code/System.Windows.Controls.ScrollViewer/csharp/Page.xaml#Snippet1)]
 
 ## -see-also
-[ContentControl](contentcontrol.md), [ScrollViewer styles and templates](http://msdn.microsoft.com/library/238f91fc-ed6e-4311-883c-2e2ee0186d0b)
+[ContentControl](contentcontrol.md), [ScrollViewer styles and templates](http://msdn.microsoft.com/library/238f91fc-ed6e-4311-883c-2e2ee0186d0b), [Scroll viewer controls overview](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/scroll-controls)

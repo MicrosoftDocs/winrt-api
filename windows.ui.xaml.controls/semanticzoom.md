@@ -53,4 +53,4 @@ When you use a [GridView](gridview.md) in a [SemanticZoom](semanticzoom.md) cont
 For more examples, download the [XAML GridView grouping and SemanticZoom sample](http://go.microsoft.com/fwlink/p/?linkid=226564).
 
 ## -see-also
-[Control](control.md), [SemanticZoom styles and templates](http://msdn.microsoft.com/library/7d34cb53-d6d0-4856-b495-166b67d896c4), [GridView](gridview.md), [Hub](hub.md), [ListView](listview.md), [Controls list](http://msdn.microsoft.com/library/11172840-a63d-4f48-9db4-7baca06308ee), [Controls by function](http://msdn.microsoft.com/library/8db4347b-91d6-4659-91f2-80ecf7bbb596)
+[Control](control.md), [SemanticZoom styles and templates](http://msdn.microsoft.com/library/7d34cb53-d6d0-4856-b495-166b67d896c4), [Semantic zoom overview](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/semantic-zoom), [GridView](gridview.md), [Hub](hub.md), [ListView](listview.md),

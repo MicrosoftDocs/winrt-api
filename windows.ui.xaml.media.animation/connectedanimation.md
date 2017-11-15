@@ -24,4 +24,4 @@ See the [Connected animation sample](https://github.com/Microsoft/WindowsUIDevLa
 ## -examples
 
 ## -see-also
-[ConnectedAnimationService](connectedanimationservice.md)
+[ConnectedAnimationService](connectedanimationservice.md), [Connected animation overview](https://docs.microsoft.com/windows/uwp/design/motion/connected-animation)

@@ -115,4 +115,4 @@ For example code that adds an [AppBar](appbar.md) to a page, see [Quickstart: ad
 
 
 ## -see-also
-[Frame](frame.md), [UserControl](usercontrol.md), [Quickstart: adding app bars](http://msdn.microsoft.com/library/9915aea1-e738-4c4b-a838-85625055fa06), [Navigation](http://msdn.microsoft.com/library/742c1c18-c7b1-47b7-866c-726eeb8235ec), [XAML Navigation sample](http://go.microsoft.com/fwlink/p/?LinkID=330214)
+[Frame](frame.md), [UserControl](usercontrol.md), [Quickstart: adding app bars](http://msdn.microsoft.com/library/9915aea1-e738-4c4b-a838-85625055fa06), [Navigation design basics overview](https://docs.microsoft.com/windows/uwp/design/basics/navigation-basics), [XAML Navigation sample](http://go.microsoft.com/fwlink/p/?LinkID=330214)

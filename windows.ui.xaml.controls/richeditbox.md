@@ -219,4 +219,4 @@ private void UnderlineButton_Click(object sender, RoutedEventArgs e)
 
 
 ## -see-also
-[Control](control.md), [RichEditBox styles and templates](http://msdn.microsoft.com/library/12fc81ba-c638-4b41-8aa4-7c0fb5a43f97), [Touch keyboard text input sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=690716)
+[Control](control.md), [RichEditBox styles and templates](http://msdn.microsoft.com/library/12fc81ba-c638-4b41-8aa4-7c0fb5a43f97), [RichEditBox overview](https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/rich-edit-box), [Touch keyboard text input sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=690716)

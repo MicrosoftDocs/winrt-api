@@ -167,4 +167,4 @@ void App::OnNavigationFailed(Platform::Object ^sender, Windows::UI::Xaml::Naviga
 For a complete sample that uses many of the [Page](page.md) and [Frame](frame.md) features together, see [XAML Navigation sample](http://go.microsoft.com/fwlink/p/?LinkID=330214).
 
 ## -see-also
-[Page](page.md), [ContentControl](contentcontrol.md), [INavigate](inavigate.md), [Navigation](http://msdn.microsoft.com/library/742c1c18-c7b1-47b7-866c-726eeb8235ec), [XAML Navigation sample](http://go.microsoft.com/fwlink/p/?LinkID=330214)
+[Page](page.md), [ContentControl](contentcontrol.md), [INavigate](inavigate.md), [Navigation design basics overview](https://docs.microsoft.com/windows/uwp/design/basics/navigation-basics), [XAML Navigation sample](http://go.microsoft.com/fwlink/p/?LinkID=330214)
