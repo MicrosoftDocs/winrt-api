@@ -35,7 +35,7 @@ The line-spacing value specifies the exact spacing from one line to the next, ev
 The line-spacing value specifies the line spacing, in lines.
 
 ### -field Percent:7
-The line-spacing value specifies the line spacing by percent of line height.
+The line-spacing value specifies the line spacing by percent of line height. This option is not supported by Windows.UI.Xaml.Controls.RichEditBox. Setting it will always return an InvalidArgumentException. 
 
 
 ## -remarks
