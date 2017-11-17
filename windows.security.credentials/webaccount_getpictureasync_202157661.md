@@ -21,6 +21,7 @@ The desired size of the web account picture.
 When this method completes, it returns the web account's picture.
 
 ## -remarks
+The word "desired" is misspelled in this parameter name.
 
 ## -examples
 
