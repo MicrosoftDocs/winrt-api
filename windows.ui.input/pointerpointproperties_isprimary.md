@@ -20,27 +20,53 @@ The primary pointer is a single pointer (touch, mouse, and pen/stylus) in the cu
 
 For mouse, the primary pointer is the only pointer for which mouse events can be generated.
 
-For touch, the primary pointer is the first contact in an interaction. A new primary pointer is only registered when all contacts in that interaction are removed and a new contact is subsequently detected.
+For touch (where there can be multiple concurrent pointers), the primary pointer is the first contact in an interaction. For any interaction after the first **[PointerPressed](..\windows.ui.xaml\uielement_pointerpressed.md)** event, [IsPrimary](pointerpointproperties_isprimary.md) returns false.
 
-A primary pointer can perform actions that are not available to other pointers. For example, the primary pointer can send a WM_POINTERACTIVATE message.
+A new primary pointer is only registered when all contacts in that interaction are removed and a new contact is subsequently detected.
+
+A primary pointer can perform actions that are not available to other pointers. For example, when a primary pointer generates a [WM_POINTERDOWN](https://msdn.microsoft.com/library/windows/desktop/hh454923(v=vs.85).aspx) message on an inactive window, a [WM_POINTERACTIVATE](https://msdn.microsoft.com/library/windows/desktop/hh454921.aspx)] message is also sent to that window.
 
 ## -examples
-For any interaction, [IsPrimary](pointerpointproperties_isprimary.md) returns false after the first [pointerdown](https://msdn.microsoft.com/en-us/library/jj191898(v=vs.85).aspx) event. Use the [pointerType](XREF:TODO:wwa.shared_pointerType) property as shown in the following example when you need to know whether a pointer is primary, such as a mouse pointer.
+This example uses different colored ellipses to show whether the pointer associated with the [PointerRoutedEventArgs](https://docs.microsoft.com/uwp/api/windows.ui.xaml.input.pointerroutedeventargs) is the primary pointer.
 
-```javascript
-function isreallyprimary (event) {
-  if (event.isPrimary) {
-    return (true);
-  } else {
-    if (event.pointerType == event.MSPOINTER_TYPE_MOUSE) {
-      return (true);
-    } else {
-      return (false);
+```csharp
+private void MainPage_PointerPressed(object sender, PointerRoutedEventArgs e)
+{
+    PointerPoint pt = e.GetCurrentPoint(pointerCanvas);
+    contacts[pt.PointerId] = pt;
+    PointerCounter.Text = contacts.Count.ToString();
+
+    Ellipse ellipse = new Ellipse();
+    ellipse.StrokeThickness = 2;
+    ellipse.Width = ellipseDiameter;
+    ellipse.Height = ellipseDiameter;
+    ellipse.Tag = pt.PointerId;
+    TranslateTransform translate = new TranslateTransform();
+    translate.X = pt.Position.X - ellipseDiameter / 2;
+    translate.Y = pt.Position.Y - ellipseDiameter / 2;
+    ellipse.RenderTransform = translate;
+    pointerCanvas.Children.Add(ellipse);
+
+    if (pt.Properties.IsPrimary == true)
+    {
+        primaryPointer = pt;
+        primaryEllipse = ellipse;
+        primaryEllipse.Scale(scaleX: 2, scaleY: 2, centerX: 0, centerY: 0).Start();
+        ellipse.Stroke = new SolidColorBrush(Windows.UI.ColorHelper.FromArgb(255, 255, 0, 0));
+
+        // Create the transform
+        ScaleTransform scaleTransform = new ScaleTransform();
+        scaleTransform.ScaleX = primaryEllipse.Width * 1.25;
+        scaleTransform.ScaleY = primaryEllipse.Height * 1.25;
+        primaryEllipse.RenderTransform = scaleTransform;
+
+        PointerPrimary.Text = pt.PointerId.ToString();
     }
-  }
+    else
+        ellipse.Stroke = new SolidColorBrush(Windows.UI.ColorHelper.FromArgb(255, 0, 0, 255));
+
+    e.Handled = true;
 }
 ```
-
-
 
 ## -see-also
