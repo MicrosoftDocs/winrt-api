@@ -614,6 +614,7 @@ E990 <img alt="Xbox icon" src="images/segoe-mdl/e990.png" />
 ## -remarks
 The [Symbol](symbol.md) enumeration is typically used to set the value of the [AppBarButton.Icon](appbarbutton_icon.md) property or the [SymbolIcon.Symbol](symbolicon_symbol.md) property. For more info and examples, see the documentation for [AppBarButton](appbarbutton.md) and [SymbolIcon](symbolicon.md).
 
+If you would like to use a glyph from the **Segoe MDL2 Assets** font that is not included in the Symbol enum, then use a [FontIcon](fonticon.md).
 
 ### Notes for previous versions
 

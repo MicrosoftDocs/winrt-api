@@ -20,3 +20,4 @@ True if the barrel button is pressed; otherwise false.
 ## -examples
 
 ## -see-also
+[IsLeftButtonPressed](pointerpointproperties_isleftbuttonpressed.md)
