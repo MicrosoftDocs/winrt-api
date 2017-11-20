@@ -17,9 +17,7 @@ Programmatically initiates the user interface for sharing content with another a
 The options.
 
 ## -remarks
-We recommend that you use this method only when absolutely necessary. Users expect to launch the Share user interface through the Share charm. Launching the user interface programmatically can create a confusing user experience.
-
-As a general rule, use this method only when it isn't obvious to a user that some content is shareable. For example, if a user gets a high score in a game, it may not be obvious that they can share that high score with their friends. In this situation, it makes sense to use the **showShareUI** method.
+We recommend that you provide the user a Share affordance only when there is something shareable in your app. The prominence of the affordance can vary based on the nature of the content. For example, if the user gets a high score in a game, you may wish to put a Share button next to the congratulatory message. A news app, on the other hand, may put a Share button in an AppBar.
 
 A [DataPackage](datapackage.md) must have its [Title](datapackagepropertyset_title.md) set in order to be shared. Ensure [Title](datapackagepropertyset_title.md) is set before calling this method.
 
