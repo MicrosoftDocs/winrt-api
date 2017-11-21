@@ -17,6 +17,7 @@ Disables all effects in the [EffectDefinitions](audiodeviceinputnode_effectdefin
 The effect definition of the effects to disable.
 
 ## -remarks
+Add effects to a node by appending them to the [EffectDefinitions](audiodeviceinputnode_effectdefinitions.md) collection.
 
 ## -examples
 
