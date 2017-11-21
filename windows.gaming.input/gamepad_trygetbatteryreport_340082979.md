@@ -15,7 +15,7 @@ Gets information about the gamepad's current battery state.
 
 ## -returns
 
-Information about the arcade stick's current battery state.
+Information about the gamepad's current battery state.
 
 ## -remarks
 
