@@ -10,13 +10,14 @@ public bool IsEraser { get; }
 # Windows.UI.Input.PointerPointProperties.IsEraser
 
 ## -description
-Gets a value that indicates whether the input is from a digitizer eraser.
+Gets a value that indicates whether the input is from a pen eraser.
 
 ## -property-value
-True if the input is from a digitizer eraser; otherwise false.
+True if the input is from a pen eraser; otherwise false.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
+[IsLeftButtonPressed](pointerpointproperties_isleftbuttonpressed.md)
