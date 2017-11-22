@@ -8,10 +8,11 @@ public delegate void MenuClosedEventHandler()
 # Windows.UI.WebUI.Core.MenuClosedEventHandler
 
 ## -description
-Represents the method that will handle the [MenuClosed](webuicommandbar_menuclosed.md) event.
-
+**Deprecated.** Represents the method that will handle the [MenuClosed](webuicommandbar_menuclosed.md) event.
 
 ## -remarks
+Use of the *Command Bar* (also known as "App Bar") UX element is deprecated for UWP apps using JavaScript and no longer supported.
+If your app still requires it, this functionality is available from the [WinJS 4](http://try.buildwinjs.com/download/GetWinJS/) library.
 
 ## -examples
 
