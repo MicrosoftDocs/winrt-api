@@ -22,5 +22,4 @@ Call this method in the [OnProcessKeyboardAccelerators](uielement_onprocesskeybo
 ## -examples
 
 ## -see-also
-
-- [ProcessKeyboardAccelerators](uielement_processkeyboardaccelerators.md)
+[ProcessKeyboardAccelerators](uielement_processkeyboardaccelerators.md), 

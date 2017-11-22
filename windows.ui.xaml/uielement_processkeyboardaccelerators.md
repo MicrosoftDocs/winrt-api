@@ -10,7 +10,11 @@ public event TypedEventHandler ProcessKeyboardAccelerators<UIElement, ProcessKey
 # Windows.UI.Xaml.UIElement.ProcessKeyboardAccelerators
 
 ## -description
-Occurs when a [UIElement](uielement.md) keyboard shortcut (accelerator) is pressed.
+Occurs when a keyboard shortcut (accelerator) is pressed.
+
+## -parameters
+### -param args
+The [ProcessKeyboardAcceleratorEventArgs](..\windows.ui.xaml.input\processkeyboardacceleratoreventargs.md).
 
 ## -xaml-syntax
 

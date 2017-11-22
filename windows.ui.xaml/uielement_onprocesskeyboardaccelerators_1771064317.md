@@ -19,7 +19,8 @@ The [ProcessKeyboardAcceleratorEventArgs](..\windows.ui.xaml.input\processkeyboa
 ## -remarks
 
 ## -see-also
-- [TryInvokeKeyboardAccelerator](uielement_tryinvokekeyboardaccelerator_2058427461.md)
+[TryInvokeKeyboardAccelerator](uielement_tryinvokekeyboardaccelerator_2058427461.md), [OnKeyboardAcceleratorInvoked](uielement_onkeyboardacceleratorinvoked_959135848.md), [ProcessKeyboardAccelerators](uielement_processkeyboardaccelerators.md)
+
 
 ## -examples
 
