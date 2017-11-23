@@ -21,10 +21,6 @@ Any changes to the [StreamWebSocketControl](streamwebsocketcontrol.md) property 
 
 The following example creates a [StreamWebSocket](streamwebsocket.md), and then demonstrates how to set the [StreamWebSocketControl.NoDelay](streamwebsocketcontrol_nodelay.md) property to **false**. (Other properties may be set in a similar manner.) After this is done, the app can connect the [StreamWebSocket](streamwebsocket.md).
 
-
-
-
-
 ```javascript
 var clientWebSocket = new Windows.Networking.Sockets.StreamWebSocket();
 
@@ -36,11 +32,9 @@ var currentSetting = clientWebSocket.control.noDelay;
 clientWebSocket.control.noDelay = false;
    
 // Now you can call the ConnectAsync method to connect the StreamWebSocket.
-
 ```
 
 ```cpp
-
 using namespace Windows::Networking::Sockets;
 
 StreamWebSocket^ clientWebSocket = ref new StreamWebSocket();
@@ -53,7 +47,6 @@ bool currentSetting = clientWebSocket->Control->NoDelay;
 clientWebSocket->Control->NoDelay = false;
 
 // Now you can call the ConnectAsync method to connect the StreamWebSocket.
-
 ```
 
 ```csharp
@@ -69,7 +62,6 @@ bool currentSetting = clientWebSocket.Control.NoDelay;
 clientWebSocket.Control.NoDelay = false;
 
 // Now you can call the ConnectAsync method to connect the StreamWebSocket.
-
 ```
 
 For more information about using [StreamWebSocketControl](streamwebsocketcontrol.md), see [How to use advanced WebSocket controls ](http://msdn.microsoft.com/library/0a47f7c3-66f9-4315-886e-bd1afe77bf39) and [How to use advanced WebSocket controls ](http://msdn.microsoft.com/library/4ab9621e-90e5-420e-88d0-09f1c7239d7a).
@@ -77,7 +69,14 @@ For more information about using [StreamWebSocketControl](streamwebsocketcontrol
 ## -examples
 
 ## -see-also
-[Connecting with WebSockets ](http://msdn.microsoft.com/library/a472f6c2-3d26-4bc8-8bc9-2e180afe61e5), [Connecting with WebSockets ](http://msdn.microsoft.com/library/af4905fe-5998-4d39-a81f-300a4a811824), [How to use advanced WebSocket controls ](http://msdn.microsoft.com/library/0a47f7c3-66f9-4315-886e-bd1afe77bf39), [How to use advanced WebSocket controls ](http://msdn.microsoft.com/library/4ab9621e-90e5-420e-88d0-09f1c7239d7a), [StreamWebSocketControl](streamwebsocketcontrol.md), [StreamWebSocketInformation](streamwebsocketinformation.md), [Connecting with WebSockets sample](http://go.microsoft.com/fwlink/p/?linkid=239964), [ControlChannelTrigger StreamWebSocket sample](http://go.microsoft.com/fwlink/p/?linkid=251232), [StreamWebSocket](streamwebsocket.md), [How to use advanced WebSocket controls](http://msdn.microsoft.com/library/0a47f7c3-66f9-4315-886e-bd1afe77bf39)
+[How to use advanced WebSocket controls ](http://msdn.microsoft.com/library/0a47f7c3-66f9-4315-886e-bd1afe77bf39),
+[How to use advanced WebSocket controls ](http://msdn.microsoft.com/library/4ab9621e-90e5-420e-88d0-09f1c7239d7a),
+[StreamWebSocket](streamwebsocket.md),
+[StreamWebSocketControl](streamwebsocketcontrol.md),
+[StreamWebSocketInformation](streamwebsocketinformation.md),
+[WebSockets](/windows/uwp/networking/websockets?branch=live),
+[WebSocket sample](http://go.microsoft.com/fwlink/p/?LinkId=620623),
+[ControlChannelTrigger StreamWebSocket sample](http://go.microsoft.com/fwlink/p/?linkid=251232)
 
 ## -capabilities
 internetClient, privateNetworkClientServer

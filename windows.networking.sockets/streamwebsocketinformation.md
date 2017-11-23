@@ -22,7 +22,13 @@ A [StreamWebSocketInformation](streamwebsocketinformation.md) object is automati
 ## -examples
 
 ## -see-also
-[Connecting with WebSockets ](http://msdn.microsoft.com/library/a472f6c2-3d26-4bc8-8bc9-2e180afe61e5), [Connecting with WebSockets ](http://msdn.microsoft.com/library/af4905fe-5998-4d39-a81f-300a4a811824), [How to use advanced WebSocket controls ](http://msdn.microsoft.com/library/0a47f7c3-66f9-4315-886e-bd1afe77bf39), [How to use advanced WebSocket controls ](http://msdn.microsoft.com/library/4ab9621e-90e5-420e-88d0-09f1c7239d7a), [StreamWebSocket.Information](streamwebsocket_information.md), [StreamWebSocket](streamwebsocket.md), [StreamWebSocketControl](streamwebsocketcontrol.md), [Connecting with WebSockets sample](http://go.microsoft.com/fwlink/p/?linkid=239964), [ControlChannelTrigger StreamWebSocket sample](http://go.microsoft.com/fwlink/p/?linkid=251232)
+[How to use advanced WebSocket controls](http://msdn.microsoft.com/library/0a47f7c3-66f9-4315-886e-bd1afe77bf39),
+[How to use advanced WebSocket controls](http://msdn.microsoft.com/library/4ab9621e-90e5-420e-88d0-09f1c7239d7a),
+[StreamWebSocket](streamwebsocket.md),
+[StreamWebSocket.Information](streamwebsocket_information.md),
+[StreamWebSocketControl](streamwebsocketcontrol.md),
+[ControlChannelTrigger StreamWebSocket sample](http://go.microsoft.com/fwlink/p/?linkid=251232),
+[WebSockets](/windows/uwp/networking/websockets?branch=live)
 
 ## -capabilities
 internetClient, privateNetworkClientServer

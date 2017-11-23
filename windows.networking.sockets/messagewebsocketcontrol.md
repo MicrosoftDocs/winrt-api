@@ -27,10 +27,6 @@ Any changes to the other property values on the [MessageWebSocketControl](messag
 
 The following example creates a [MessageWebSocket](messagewebsocket.md), and then demonstrates how to set the [MessageWebSocketControl.MessageType](messagewebsocketcontrol_messagetype.md) property to **binary**. (Other properties may be set in a similar manner.) After this is done, the app can connect the [MessageWebSocket](messagewebsocket.md).
 
-
-
-
-
 ```javascript
 var clientWebSocket = new Windows.Networking.Sockets.MessageWebSocket();
 
@@ -42,11 +38,9 @@ var currentSetting = clientWebSocket.control.messageType;
 clientWebSocket.control.messageType = Windows.Networking.Sockets.SocketMessageType.binary;
    
 // Now you can call the ConnectAsync method to connect the MessageWebSocket.
-
 ```
 
 ```cpp
-
 using namespace Windows::Networking::Sockets;
 
 MessageWebSocket^ clientWebSocket = ref new MessageWebSocket();
@@ -74,14 +68,17 @@ SocketMessageType currentSetting = clientWebSocket.Control.MessageType;
 clientWebSocket.Control.MessageType = SocketMessageType.Binary;
 
 // Now you can call the ConnectAsync method to connect the MessageWebSocket.
-
 ```
-
-
 
 For more information on using [MessageWebSocketControl](messagewebsocketcontrol.md), see [How to use advanced WebSocket controls ](http://msdn.microsoft.com/library/0a47f7c3-66f9-4315-886e-bd1afe77bf39) and [How to use advanced WebSocket controls ](http://msdn.microsoft.com/library/4ab9621e-90e5-420e-88d0-09f1c7239d7a).
 
 ## -examples
 
 ## -see-also
-[How to use advanced WebSocket controls ](http://msdn.microsoft.com/library/0a47f7c3-66f9-4315-886e-bd1afe77bf39), [How to use advanced WebSocket controls ](http://msdn.microsoft.com/library/4ab9621e-90e5-420e-88d0-09f1c7239d7a), [MessageWebSocket](messagewebsocket.md), [MessageWebSocket.Control](messagewebsocket_control.md), [MessageWebSocketInformation](messagewebsocketinformation.md), [Connecting with WebSockets sample](http://go.microsoft.com/fwlink/p/?linkid=239964)
+[How to use advanced WebSocket controls ](http://msdn.microsoft.com/library/0a47f7c3-66f9-4315-886e-bd1afe77bf39),
+[How to use advanced WebSocket controls ](http://msdn.microsoft.com/library/4ab9621e-90e5-420e-88d0-09f1c7239d7a),
+[MessageWebSocket](messagewebsocket.md),
+[MessageWebSocket.Control](messagewebsocket_control.md),
+[MessageWebSocketInformation](messagewebsocketinformation.md),
+[WebSockets](/windows/uwp/networking/websockets?branch=live),
+[WebSocket sample](http://go.microsoft.com/fwlink/p/?LinkId=620623)
