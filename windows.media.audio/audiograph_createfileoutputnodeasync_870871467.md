@@ -10,20 +10,20 @@ public Windows.Foundation.IAsyncOperation<Windows.Media.Audio.CreateAudioFileOut
 # Windows.Media.Audio.AudioGraph.CreateFileOutputNodeAsync
 
 ## -description
-Creates a file output node for the indicated file and media encoding profile.
+Creates a new [AudioFileOutuputNode](audiofileoutputnode.md) that outputs audio data from the audio graph to the specified storage file.
 
 ## -parameters
 ### -param file
-A [StorageFile](../windows.storage/storagefile.md) object representing the file.
+A [StorageFile](../windows.storage/storagefile.md) to which audio data is written.
 
 ### -param fileEncodingProfile
-An objecting representing the media encoding profile.
+A [MediaEncodingProfile](../windows.media.mediaproperties/mediaencodingprofile.md) that determines the format of the output file. 
 
 ## -returns
-When this operation completes, a **CreateAudioFileOutputNodeResult** object is returned.
+An asynchronous operation that returns a [CreateAudioFileOutputNodeResult](createaudiofileoutputnoderesult.md) on completion. This object exposes a [Status](createaudiofileoutputnoderesult_status.md) property, that indicates either that the operation was successful or the reason why the operation failed. The [FileOutputNode](createaudiofileoutputnoderesult_fileoutputnode.md) property provides a reference to the created output node on success.
 
 ## -remarks
-The *fileEncodingProfile* parameter specifies the [MediaEncodingProfile](../windows.media.mediaproperties/mediaencodingprofile.md) with which the output file will be created. If this parameter is null, the encoding profile defaults to a WAV file format with the same [AudioEncodingProperties](../windows.media.mediaproperties/audioencodingproperties.md) as the [AudioGraph](audiograph.md) to which it belongs.
+If the *file* parameter is null, the encoding profile defaults to a WAV file format with the same [AudioEncodingProperties](../windows.media.mediaproperties/audioencodingproperties.md) as the [AudioGraph](audiograph.md) to which it belongs.
 
 ## -examples
 

@@ -10,17 +10,17 @@ public Windows.Media.Audio.AudioFrameOutputNode CreateFrameOutputNode(Windows.Me
 # Windows.Media.Audio.AudioGraph.CreateFrameOutputNode
 
 ## -description
-Creates a frame output node from encoding properties.
+Creates a new [AudioDeviceOutputNode](audiodeviceoutputnode.md), with the specified encoding properties, that outputs audio data from the audio graph to app-implemented code.
 
 ## -parameters
 ### -param encodingProperties
-An object representing audio encoding properties.
+An object representing the audio encoding properties for the frame output node which specifies the sample rate at which the created node will operate. Only uncompressed PCM and float formats are allowed.
 
 ## -returns
 An audio frame output node.
 
 ## -remarks
-The *encodingProperties* parameter specifies the sample rate at which the created node will operate. Only uncompressed PCM and float formats are allowed.
+
 
 ## -examples
 
