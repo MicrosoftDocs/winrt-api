@@ -36,7 +36,7 @@ The Media Foundation feature can be enabled on Windows Server 2012 or Windows S
 ## -examples
 
 ## -see-also
-[Connecting with WebSockets ](http://msdn.microsoft.com/library/a472f6c2-3d26-4bc8-8bc9-2e180afe61e5), [Connecting with WebSockets ](http://msdn.microsoft.com/library/af4905fe-5998-4d39-a81f-300a4a811824), [Handling exceptions in network apps](http://msdn.microsoft.com/library/76fafcc9-c674-4cf8-baa0-2400638fae35), [How to connect with a MessageWebSocket ](http://msdn.microsoft.com/library/dbc12fd9-3761-4872-9a97-2e2e6c1779d4), [How to connect with a MessageWebSocket ](http://msdn.microsoft.com/library/2ffbffd4-e260-4098-92f3-e8398bdf8f9b), [How to use advanced WebSocket controls ](http://msdn.microsoft.com/library/0a47f7c3-66f9-4315-886e-bd1afe77bf39), [How to use advanced WebSocket controls ](http://msdn.microsoft.com/library/4ab9621e-90e5-420e-88d0-09f1c7239d7a), [MessageWebSocketControl](messagewebsocketcontrol.md), [MessageWebSocketInformation](messagewebsocketinformation.md), [StreamWebSocket](streamwebsocket.md), [Connecting with WebSockets sample](http://go.microsoft.com/fwlink/p/?linkid=239964), [WebSocket sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620623)
+[WebSockets](/windows/uwp/networking/websockets?branch=live), [Handling exceptions in network apps](http://msdn.microsoft.com/library/76fafcc9-c674-4cf8-baa0-2400638fae35), [MessageWebSocketControl](messagewebsocketcontrol.md), [MessageWebSocketInformation](messagewebsocketinformation.md), [StreamWebSocket](streamwebsocket.md), [WebSocket sample](http://go.microsoft.com/fwlink/p/?LinkId=620623)
 
 ## -capabilities
 internetClient, privateNetworkClientServer

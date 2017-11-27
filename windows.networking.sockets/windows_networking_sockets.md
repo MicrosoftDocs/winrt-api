@@ -9,14 +9,14 @@
 Provides sockets and WebSockets classes to use for network communications and classes for real-time network notifications received in the background for UWP apps.
 
 ## -remarks
-The [Windows.Networking.Sockets](windows_networking_sockets.md) namespace provides classes and interfaces for networking that use sockets and WebSockets. The primary classes include:
+The [Windows.Networking.Sockets](windows_networking_sockets.md) namespace provides classes and interfaces for networking that use sockets and WebSockets. Here are the primary classes.
 
++ [DatagramSocket](datagramsocket.md). A UDP datagram socket to use for network communication.
++ [StreamSocket](streamsocket.md). A stream socket to use for incoming or outgoing network communication over TCP or over Bluetooth connections that use RFCOMM.
++ [StreamSocketListener](streamsocketlistener.md). A stream socket listener to listen for incoming TCP network connections or incoming Bluetooth connections that use RFCOMM.
++ [MessageWebSocket](messagewebsocket.md). A message-based WebSocket to read and write whole messages for network communication. See [WebSockets](/windows/uwp/networking/websockets?branch=live).
++ [StreamWebSocket](streamwebsocket.md). A stream-based WebSocket to read and write streams for network communications. See [WebSockets](/windows/uwp/networking/websockets?branch=live).
 
-+ [DatagramSocket](datagramsocket.md) - A UDP datagram socket to use for network communication.
-+ [StreamSocket](streamsocket.md) - A stream socket to use for incoming or outgoing network communication over TCP or over Bluetooth connections that use RFCOMM.
-+ [StreamSocketListener](streamsocketlistener.md) - A stream socket listener to listen for incoming TCP network connections or incoming Bluetooth connections that use RFCOMM.
-+ [MessageWebSocket](messagewebsocket.md) - A message-based WebSocket to read and write whole messages for network communication.
-+ [StreamWebSocket](streamwebsocket.md) - A stream-based WebSocket to read and write streams for network communications.
 These primary classes also have a number of related information and control classes in the [Windows.Networking.Sockets](windows_networking_sockets.md) namespace.
 
 ### Handling exceptions
@@ -90,7 +90,33 @@ For more detailed information on network isolation, see [How to configure networ
 ## -examples
 
 ## -see-also
-[Adding support for networking](http://msdn.microsoft.com/library/1c5819d6-bed7-4d65-b9d7-af5a2239b43f), [Connecting to network services](http://msdn.microsoft.com/library/67cfa78f-570f-4dd4-a0f2-cd6c891f5446), [Connecting to a WebSocket service](http://msdn.microsoft.com/library/a472f6c2-3d26-4bc8-8bc9-2e180afe61e5), [Handling exceptions in network apps](http://msdn.microsoft.com/library/76fafcc9-c674-4cf8-baa0-2400638fae35), [How to configure network isolation capabilities](http://msdn.microsoft.com/library/0a97956e-fda9-4791-b87b-9e03ae135382), [How to set background connectivity options](http://msdn.microsoft.com/library/b6042b5f-5cee-4dee-8cb4-8f376f878e97), [How to specify device capabilities for Bluetooth](https://docs.microsoft.com/uwp/schemas/appxpackage/how-to-specify-device-capabilities-for-bluetooth), [Supporting proximity and tapping](http://msdn.microsoft.com/library/84a30dcf-ef14-4a93-9e7c-7a3de867d46b), [Troubleshooting and debugging network connections](http://msdn.microsoft.com/library/ae3fce58-43ab-4258-9146-755a150e6b50), [PeerFinder](../windows.networking.proximity/peerfinder.md), [SetSocketMediaStreamingMode](http://msdn.microsoft.com/library/5d1c18fc-2f25-44c0-ad3c-f1e7744c4963), [WiFiDirectDevice](../windows.devices.wifidirect/wifidirectdevice.md), [Windows.Devices.Bluetooth.Rfcomm](../windows.devices.bluetooth.rfcomm/windows_devices_bluetooth_rfcomm.md), [Windows.Devices.WiFiDirect](../windows.devices.wifidirect/windows_devices_wifidirect.md), [Windows.Networking Namespace](../windows.networking/windows_networking.md), [Windows.Networking.Connectivity Namespace](../windows.networking.connectivity/windows_networking_connectivity.md), [Windows.Networking.Proximity](../windows.networking.proximity/windows_networking_proximity.md), [Bluetooth Rfcomm Chat sample](http://go.microsoft.com/fwlink/p/?LinkID=306047), [DatagramSocket sample](http://go.microsoft.com/fwlink/p/?LinkID=243037), [Connecting with WebSockets sample](http://go.microsoft.com/fwlink/p/?linkid=239964), [ControlChannelTrigger StreamWebSocket sample](http://go.microsoft.com/fwlink/p/?LinkID=251353), [ControlChannelTrigger TCP socket sample](http://go.microsoft.com/fwlink/p/?linkid=243039), [Proximity sample](http://go.microsoft.com/fwlink/p/?linkid=245082), [StreamSocket sample](http://go.microsoft.com/fwlink/p/?linkid=243037), [DatagramSocket sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620534), [WebSocket sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620623), [StreamSocket sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620609), [Wi-Fi Direct sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620626), [Wi-Fi Direct services sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620627)
+[Adding support for networking](http://msdn.microsoft.com/library/1c5819d6-bed7-4d65-b9d7-af5a2239b43f),
+[Connecting to network services](http://msdn.microsoft.com/library/67cfa78f-570f-4dd4-a0f2-cd6c891f5446),
+[WebSockets](/windows/uwp/networking/websockets?branch=live),
+[Handling exceptions in network apps](http://msdn.microsoft.com/library/76fafcc9-c674-4cf8-baa0-2400638fae35),
+[How to configure network isolation capabilities](http://msdn.microsoft.com/library/0a97956e-fda9-4791-b87b-9e03ae135382),
+[How to set background connectivity options](http://msdn.microsoft.com/library/b6042b5f-5cee-4dee-8cb4-8f376f878e97),
+[How to specify device capabilities for Bluetooth](https://docs.microsoft.com/uwp/schemas/appxpackage/how-to-specify-device-capabilities-for-bluetooth), [Supporting proximity and tapping](http://msdn.microsoft.com/library/84a30dcf-ef14-4a93-9e7c-7a3de867d46b),
+[Troubleshooting and debugging network connections](http://msdn.microsoft.com/library/ae3fce58-43ab-4258-9146-755a150e6b50),
+[PeerFinder](../windows.networking.proximity/peerfinder.md),
+[SetSocketMediaStreamingMode](http://msdn.microsoft.com/library/5d1c18fc-2f25-44c0-ad3c-f1e7744c4963),
+[WiFiDirectDevice](../windows.devices.wifidirect/wifidirectdevice.md),
+[Windows.Devices.Bluetooth.Rfcomm](../windows.devices.bluetooth.rfcomm/windows_devices_bluetooth_rfcomm.md),
+[Windows.Devices.WiFiDirect](../windows.devices.wifidirect/windows_devices_wifidirect.md),
+[Windows.Networking Namespace](../windows.networking/windows_networking.md),
+[Windows.Networking.Connectivity Namespace](../windows.networking.connectivity/windows_networking_connectivity.md),
+[Windows.Networking.Proximity](../windows.networking.proximity/windows_networking_proximity.md),
+[Bluetooth Rfcomm Chat sample](http://go.microsoft.com/fwlink/p/?LinkID=306047),
+[DatagramSocket sample](http://go.microsoft.com/fwlink/p/?LinkID=243037),
+[ControlChannelTrigger StreamWebSocket sample](http://go.microsoft.com/fwlink/p/?LinkID=251353),
+[ControlChannelTrigger TCP socket sample](http://go.microsoft.com/fwlink/p/?linkid=243039),
+[Proximity sample](http://go.microsoft.com/fwlink/p/?linkid=245082),
+[StreamSocket sample](http://go.microsoft.com/fwlink/p/?linkid=243037),
+[DatagramSocket sample](http://go.microsoft.com/fwlink/p/?LinkId=620534),
+[WebSocket sample](http://go.microsoft.com/fwlink/p/?LinkId=620623),
+[StreamSocket sample](http://go.microsoft.com/fwlink/p/?LinkId=620609),
+[Wi-Fi Direct sample](http://go.microsoft.com/fwlink/p/?LinkId=620626),
+[Wi-Fi Direct services sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620627)
 
 ## -capabilities
 ID_CAP_NETWORKING [Windows Phone]

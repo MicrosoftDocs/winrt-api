@@ -10,10 +10,12 @@ public class WebUICommandBar : Windows.UI.WebUI.Core.IWebUICommandBar
 # Windows.UI.WebUI.Core.WebUICommandBar
 
 ## -description
-Represents a command bar.
+**Deprecated.** Represents a command bar.
 
 ## -remarks
 <!-- <rem>TODO: Document how the developer can obtain this class object, and add or update retriever elements as necessary.</rem>-->
+Use of the *Command Bar* (also known as "App Bar") UX element is deprecated for UWP apps using JavaScript and no longer supported.
+If your app still requires it, this functionality is available from the [WinJS 4](http://try.buildwinjs.com/download/GetWinJS/) library.
 
 ## -examples
 
