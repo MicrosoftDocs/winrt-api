@@ -10,9 +10,11 @@ public class WebUICommandBarConfirmationButton : Windows.UI.WebUI.Core.IWebUICom
 # Windows.UI.WebUI.Core.WebUICommandBarConfirmationButton
 
 ## -description
-Represents a Web UI command bar confirmation button.
+**Deprecated.** Represents a Web UI command bar confirmation button.
 
 ## -remarks
+Use of the *Command Bar* (also known as "App Bar") UX element is deprecated for UWP apps using JavaScript and no longer supported.
+If your app still requires it, this functionality is available from the [WinJS 4](http://try.buildwinjs.com/download/GetWinJS/) library.
 
 ## -examples
 
