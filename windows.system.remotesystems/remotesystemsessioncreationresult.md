@@ -42,9 +42,9 @@ public async void StartNewSharedExperience() {
     RemoteSystemSessionCreationResult createResult = await manager.CreateSessionAsync();
     
     // handle the creation result
-    if (createResult.Status == RemoteSystemSessionCreateStatus.Success) {
+    if (createResult.Status == RemoteSystemSessionCreationStatus.Success) {
         // creation was successful
-        RemoteSystemSession currentSession = createResult.RemoteSystemSession;
+        RemoteSystemSession currentSession = createResult.Session;
         
         // optionally subscribe to the disconnection event
         currentSession.Disconnected += async (sender, args) => {
@@ -54,7 +54,7 @@ public async void StartNewSharedExperience() {
     
         // Use session ...
     
-    } else if (createResult.Status == RemoteSystemSessionCreateStatus.SessionLimitsExceeded) {
+    } else if (createResult.Status == RemoteSystemSessionCreationStatus.SessionLimitsExceeded) {
         // creation failed. Optionally update UI to indicate that there are too many sessions in progress
     } else {
         // creation failed for an unknown reason. Optionally update UI

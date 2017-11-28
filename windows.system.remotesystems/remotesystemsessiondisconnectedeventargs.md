@@ -31,7 +31,7 @@ public async void JoinExistingSession() {
     if (joinResult.Status == RemoteSystemSessionJoinStatus.Success) {
         
         // if the join was successful, acquire a reference to the session
-        currentSession = joinResult.RemoteSystemSession;
+        currentSession = joinResult.Session;
         
         // optionally handle the disconnected event
         currentSession.Disconnected += async (sender, args) => {
