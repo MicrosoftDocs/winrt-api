@@ -12,6 +12,9 @@ public void SendMessageToBackground(Windows.Foundation.Collections.ValueSet valu
 ## -description
 Sends a message to the background media player.
 
+> [!NOTE]
+> *BackgroundMediaPlayer* is deprecated and may not be available in future versions of Windows. Use the [MediaPlayer](mediaplayer.md) class instead.
+
 ## -parameters
 ### -param value
 Set of values representing the message.

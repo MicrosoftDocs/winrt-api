@@ -12,6 +12,9 @@ public bool IsMediaPlaying()
 ## -description
 Returns a Boolean value indicating if other media is currently playing on the device.
 
+> [!NOTE]
+> *BackgroundMediaPlayer* is deprecated and may not be available in future versions of Windows. Use the [MediaPlayer](mediaplayer.md) class instead.
+
 ## -returns
 Boolean value indicating if other media is currently playing on the device.
 

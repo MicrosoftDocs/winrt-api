@@ -12,6 +12,9 @@ public void Shutdown()
 ## -description
 Shuts down the current background media player.
 
+> [!NOTE]
+> *BackgroundMediaPlayer* is deprecated and may not be available in future versions of Windows. Use the [MediaPlayer](mediaplayer.md) class instead.
+
 ## -remarks
 
 ## -examples
