@@ -12,6 +12,9 @@ static public event Windows.Foundation.EventHandler MessageReceivedFromBackgroun
 ## -description
 Occurs when a message is received from the background task.
 
+> [!NOTE]
+> *BackgroundMediaPlayer* is deprecated and may not be available in future versions of Windows. Use the [MediaPlayer](mediaplayer.md) class instead.
+
 ## -remarks
 
 ## -examples
