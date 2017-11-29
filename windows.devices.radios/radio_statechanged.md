@@ -1,4 +1,4 @@
-  ---
+---
 -api-id: E:Windows.Devices.Radios.Radio.StateChanged
 -api-type: winrt event
 -api-device-family-note: xbox
