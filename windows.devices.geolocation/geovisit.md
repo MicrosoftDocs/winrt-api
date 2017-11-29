@@ -18,6 +18,7 @@ This class is instantiated whenever a Visit-related state change has been obtain
 ## -see-also
 [GeovisitMonitor](GeovisitMonitor.md)
 [GeovisitTrigger](https://docs.microsoft.com/uwp/api/windows.applicationmodel.background.geovisittrigger)
+[Guidelines for using Visits tracking](https://docs.microsoft.com/windows/uwp/maps-and-location/guidelines-for-visits)
 
 ## -examples
 
