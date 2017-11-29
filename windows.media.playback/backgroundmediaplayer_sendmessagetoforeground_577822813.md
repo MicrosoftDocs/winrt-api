@@ -12,6 +12,9 @@ public void SendMessageToForeground(Windows.Foundation.Collections.ValueSet valu
 ## -description
 Sends a message to the foreground task.
 
+> [!NOTE]
+> *BackgroundMediaPlayer* is deprecated and may not be available in future versions of Windows. Use the [MediaPlayer](mediaplayer.md) class instead.
+
 ## -parameters
 ### -param value
 Set of values representing the message.

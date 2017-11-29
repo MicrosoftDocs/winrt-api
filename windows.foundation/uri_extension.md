@@ -13,7 +13,7 @@ public string Extension { get; }
 Gets the file name extension of the resource that is referenced in the [Uri](uri.md).
 
 ## -property-value
-The file name extension. The dot (.) is not part of the extension.
+The file name extension including the dot (.), if applicable.
 
 ## -remarks
 

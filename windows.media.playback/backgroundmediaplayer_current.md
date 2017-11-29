@@ -12,6 +12,9 @@ public Windows.Media.Playback.MediaPlayer Current { get; }
 ## -description
 Gets the current instance of the background media player.
 
+> [!NOTE]
+> *BackgroundMediaPlayer* is deprecated and may not be available in future versions of Windows. Use the [MediaPlayer](mediaplayer.md) class instead.
+
 ## -property-value
 The current instance of the background media player.
 
