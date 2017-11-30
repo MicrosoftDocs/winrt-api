@@ -22,6 +22,14 @@ The SSID is initially set to a Wi-Fi Direct compatible random string beginning w
 
 The pass phrase is initialized to a random alphanumeric string. Your code can change this value to a different pass phrase if you choose to do so.
 
+Windows 10, version 1607, supports Mobile Hotspot, an enhanced version of the mobile broadband tethering feature. 
+If an application uses functionality of the **WiFiDirectLegacySettings** class to start the Wi-Fi Direct group owner role, if the Mobile Hotspot is subsequently started, the functionality of this class is not supported. 
+It is likely to stop working. 
+
+The Mobile Hotspot and Wi-Fi Direct technology cannot run at the same time. 
+Mobile Hotspot takes precedence over all Wi-Fi Direct scenarios.
+
+
 ## -examples
 
 ## -see-also

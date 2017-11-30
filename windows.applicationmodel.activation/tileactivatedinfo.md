@@ -18,3 +18,4 @@ This object is passed as an argument to [ILaunchActivatedEventArgs2](ilaunchacti
 ## -examples
 
 ## -see-also
+[ShownTileNotification class](https://docs.microsoft.com/uwp/api/windows.ui.notifications.showntilenotification)

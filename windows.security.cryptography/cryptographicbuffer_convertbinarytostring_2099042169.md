@@ -24,9 +24,4 @@ A string that contains the encoded data.
 
 ## -remarks
 
-## -examples
-
-
-[!code-csharp[ShowBinaryConversion](../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowBinaryConversion)]
-
 ## -see-also

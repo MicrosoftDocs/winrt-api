@@ -27,7 +27,7 @@ Indicates that focus moves to the first element encountered when projecting the 
 > [!NOTE]
 > Other factors, such as the previously focused element and proximity to the axis of the navigation direction, can influence the result.
 
-![projection](images/projection.png)
+<img alt="Focus navigation - projection" src="images/projection.png" />
 
 *Focus moves from A to D on down navigation based on projection of the bottom edge of A*
 
@@ -36,7 +36,7 @@ Indicates that focus moves to the element closest to the axis of the navigation 
 
 The edge of the bounding rect corresponding to the navigation direction is extended and projected to identify candidate targets. The first element encountered is identified as the target. In the case of multiple candidates, the closest element is identified as the target. If there are still multiple candidates, the topmost/leftmost element is identified as the candidate.
 
-![navigation direction distance](images/navigation-direction-distance.png)
+<img alt="Focus navigation - distance" src="images/navigation-direction-distance.png" />
 
 *Focus moves from A to C and then from C to B on down navigation*
 
@@ -53,7 +53,7 @@ Here we show how focus moves from A to B based on rectilinear distance.
 -   Distance (A, C, Down) = 0 + 30 = 30
 -   Distance (A, D, Down) 30 + 0 = 30
 
-![Rectilinear Distance](images/rectilinear-distance.png)
+<img alt="Focus navigation - rectilinear distance" src="images/rectilinear-distance.png" />
 
 *Focus moves from A to B based on rectilinear distance*
 

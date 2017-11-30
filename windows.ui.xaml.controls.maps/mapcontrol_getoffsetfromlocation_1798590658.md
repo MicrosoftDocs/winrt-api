@@ -20,6 +20,8 @@ A geographic location to convert to a point on the map.
 When this method returns, contains the corresponding point on the map.
 
 ## -remarks
+This method returns a valid point only when the geographic location appears within the map control view.
+ 
 Compare the [GetLocationFromOffset](mapcontrol_getlocationfromoffset.md) method.
 
 ## -examples
