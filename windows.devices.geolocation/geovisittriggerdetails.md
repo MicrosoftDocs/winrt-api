@@ -16,6 +16,7 @@ Manages the details of a trigger for a Visits-related background task.
 
 ## -see-also
 [Geovisit](Geovisit.md)
+[Guidelines for using Visits tracking](https://docs.microsoft.com/windows/uwp/maps-and-location/guidelines-for-visits)
 
 ## -examples
 

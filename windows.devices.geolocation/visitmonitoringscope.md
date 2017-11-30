@@ -25,6 +25,7 @@ A value must be specified when setting up a [GeovisitTrigger](https://docs.micro
 ## -see-also
 [GeovisitMonitor](GeovisitMonitor.md)
 [GeovisitTrigger](https://docs.microsoft.com/uwp/api/windows.applicationmodel.background.geovisittrigger)
+[Guidelines for using Visits tracking](https://docs.microsoft.com/windows/uwp/maps-and-location/guidelines-for-visits)
 
 ## -examples
 
