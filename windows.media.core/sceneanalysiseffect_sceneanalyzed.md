@@ -1,4 +1,4 @@
----
+ ---
 -api-id: E:Windows.Media.Core.SceneAnalysisEffect.SceneAnalyzed
 -api-type: winrt event
 ---
@@ -10,7 +10,7 @@ public event Windows.Foundation.TypedEventHandler SceneAnalyzed<Windows.Media.Co
 # Windows.Media.Core.SceneAnalysisEffect.SceneAnalyzed
 
 ## -description
-Raised when the scene analysis is complete.
+Raised when the scene analysis is complete. See [SceneAnalyzedEventArgs](sceneanalyzedeventargs.md)
 
 ## -remarks
 
