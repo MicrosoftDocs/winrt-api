@@ -10,10 +10,10 @@ public bool IsActive { get; }
 # Windows.Services.Store.StoreAppLicense.IsActive
 
 ## -description
-Gets a value that indicates whether the license is active.
+Gets a value that indicates whether the license is valid and provides the current user an entitlement to use the app.
 
 ## -property-value
-True if the license is active; otherwise, false.
+True if the license is valid and provides the current user an entitlement to use the app; otherwise, false.
 
 ## -remarks
 
