@@ -1,4 +1,4 @@
- ---
+---
 -api-id: E:Windows.Media.Core.SceneAnalysisEffect.SceneAnalyzed
 -api-type: winrt event
 ---
