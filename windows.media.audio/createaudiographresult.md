@@ -10,10 +10,10 @@ public class CreateAudioGraphResult : Windows.Media.Audio.ICreateAudioGraphResul
 # Windows.Media.Audio.CreateAudioGraphResult
 
 ## -description
-Represents the result of creating an audio graph.
+Represents the result of attempting to create an audio graph.
 
 ## -remarks
-Get an instance of this class by calling [AudioGraph.CreateAsync](audiograph_createasync.md).
+Get an instance of this class by calling [AudioGraph.CreateAsync](audiograph_createasync.md). Check the [Status](createaudiographresult_status.md) property to determine if the node was successfully created, and if so, get the instance of the audio graph with the [Graph](createaudiographresult_graph.md) property.
 
 ## -examples
 
