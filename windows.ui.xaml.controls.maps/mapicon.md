@@ -20,6 +20,7 @@ Display pushpins, images, and shapes on the [MapControl](mapcontrol.md) by addin
 + Define and display a [MapPolygon](mappolygon.md) or a [MapPolyline](mappolyline.md).
 Alternately, to display XAML elements on the [MapControl](mapcontrol.md), add them to its [Children](mapcontrol_children.md) collection.
 
+If you do not explicitly set an [Altitude](basicgeoposition.md) and [AltitudeReferenceSystem](geopoint_altitudereferencesystem.md) for the position, the MapIcon will be placed on the Surface.
 For more info, see [Display maps with 2D, 3D, and Streetside views](http://msdn.microsoft.com/library/3839e00b-2c1e-4627-a45f-6dda98d7077f).
 
 > > [!TIP]
