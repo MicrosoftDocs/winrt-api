@@ -15,10 +15,10 @@ Gets a [BluetoothAdapter](bluetoothadapter.md) object identified by the given [D
 ## -parameters
 
 ### -param deviceId
-The DeviceId value that identifies the BluetoothAdapter instance.
+The DeviceId value that identifies the BluetoothAdapter instance. On a Windows10 workstation this is a composite string combining registry information that includes the MatchingDeviceId, the MAC address, and a GUID representing a device class . This is different than a DeviceInformation.Device.Id, except that both contain the MAC address of the Bluetooth radio device embedded within the identifier string.
 
 ## -returns
-After the asynchronous operation completes, returns the [BluetoothAdapter](bluetoothadapter.md) object identified by the given [DeviceId](bluetoothadapter_deviceid.md).
+After the asynchronous operation completes, returns the [BluetoothAdapter](bluetoothadapter.md) object identified by the given [DeviceId](bluetoothadapter_deviceid.md). 
 
 ## -remarks
 
