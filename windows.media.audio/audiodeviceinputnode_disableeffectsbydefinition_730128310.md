@@ -17,7 +17,7 @@ Disables all effects in the [EffectDefinitions](audiodeviceinputnode_effectdefin
 The effect definition of the effects to disable.
 
 ## -remarks
-Add effects to a node by appending them to the [EffectDefinitions](audiodeviceinputnode_effectdefinitions.md) collection.
+Apply an audio effect to a node by adding an object that implements [IAudioEffectDefinition](../windows.media.effects/iaudioeffectdefinition.md) to the [EffectDefinitions](audiodeviceinputnode_effectdefinitions.md) collection. Reenable disabled effects by calling [EnableEffectsByDefinition](audiodeviceinputnode_enableeffectsbydefinition_1376948293.md).
 
 ## -examples
 
