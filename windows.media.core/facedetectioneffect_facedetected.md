@@ -1,4 +1,4 @@
-. ---
+---
 -api-id: E:Windows.Media.Core.FaceDetectionEffect.FaceDetected
 -api-type: winrt event
 ---
