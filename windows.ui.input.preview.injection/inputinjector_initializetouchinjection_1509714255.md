@@ -10,7 +10,7 @@ public void InitializeTouchInjection(Windows.UI.Input.Preview.Injection.Injected
 # Windows.UI.Input.Preview.Injection.InputInjector.InitializeTouchInjection
 
 ## -description
-Initializes a virtual touch device that can synthesize input events and provide corresponding input data to your app. 
+Initializes a virtual touch device that can synthesize input events and provide corresponding input data to the system. 
 
 > [!NOTE]
 > The APIs in this namespace require the inputInjectionBrokered [restricted capability](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities).

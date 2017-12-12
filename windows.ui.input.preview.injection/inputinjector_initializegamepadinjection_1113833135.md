@@ -10,7 +10,7 @@ public void InputInjector.InitializeGamepadInjection()
 # Windows.UI.Input.Preview.Injection.InputInjector.InitializeGamepadInjection
 
 ## -description
-Initializes a virtual gamepad device that can synthesize input events and provide corresponding input data to your app. 
+Initializes a virtual gamepad device that can synthesize input events and provide corresponding input data to the system. 
 
 > [!NOTE]
 > The APIs in this namespace require the inputInjectionBrokered [restricted capability](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities).
