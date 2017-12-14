@@ -10,7 +10,7 @@ public class AudioFrameOutputNode : Windows.Foundation.IClosable, Windows.Media.
 # Windows.Media.Audio.AudioFrameOutputNode
 
 ## -description
-Represents an audio frame output node.
+Represents a node in an audio graph node that outputs audio data from the graph into app-implemented code.
 
 ## -remarks
 Get an instance of this class by calling [CreateFrameOutputNode](audiograph_createframeoutputnode.md).

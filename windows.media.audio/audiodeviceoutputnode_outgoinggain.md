@@ -16,6 +16,7 @@ Gets or sets the outgoing gain for the audio device output node.
 The outgoing gain value.
 
 ## -remarks
+This value is a linear multiplier of the audio data leaving the node. By default, the outgoing gain is 1.0.
 
 ## -examples
 

@@ -10,10 +10,10 @@ public Windows.Media.Audio.AudioDeviceNodeCreationStatus Status { get; }
 # Windows.Media.Audio.CreateAudioDeviceOutputNodeResult.Status
 
 ## -description
-Gets the status of audio device output node creation.
+Gets the result status of an operation to create an [AudioDeviceOutputNode](audiodeviceoutputnode.md) with a call to [CreateDeviceOutputNodeAsync](audiograph_createdeviceoutputnodeasync_954542725.md).
 
 ## -property-value
-An enumeration value indicating node creation status.
+An enumeration value indicating node creation status. If the result status is **Success**, get the instance of the node with the [Node](createaudiodeviceoutputnoderesult_node.md) property.
 
 ## -remarks
 

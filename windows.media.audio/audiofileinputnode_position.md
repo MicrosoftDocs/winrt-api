@@ -10,7 +10,7 @@ public Windows.Foundation.TimeSpan Position { get; }
 # Windows.Media.Audio.AudioFileInputNode.Position
 
 ## -description
-Gets the position of the audio file input node.
+Gets the playback position of the audio file input node.
 
 ## -property-value
 The current playback position within the audio file, in seconds.
