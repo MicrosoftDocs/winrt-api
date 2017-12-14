@@ -10,7 +10,7 @@ public class AudioFileOutputNode : Windows.Foundation.IClosable, Windows.Media.A
 # Windows.Media.Audio.AudioFileOutputNode
 
 ## -description
-Represents an audio file output node.
+Represents a node in an audio graph node that outputs audio data from the graph to an audio file.
 
 ## -remarks
 Get an instance of this class by calling [AudioGraph::CreateFileOutputNodeAsync](audiograph_createfileoutputnodeasync.md) and then accessing the [CreateFileOutputNodeResult::FileOutputNode](createaudiofileoutputnoderesult_fileoutputnode.md) property.
