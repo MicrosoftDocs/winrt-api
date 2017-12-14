@@ -10,14 +10,14 @@ public Windows.Devices.Geolocation.AltitudeReferenceSystem AltitudeReferenceSyst
 # Windows.Devices.Geolocation.Geopoint.AltitudeReferenceSystem
 
 ## -description
-The altitude reference system of the geographic point.
+The altitude reference system of the geographic point. GeoPoint will default to a value of unspecified when constructed without an altitude reference system. The behavior of an unspecified altitude reference system will depend on the API. A [MapIcon](https://msdn.microsoft.com/library/windows/apps/dn637077) will treat an unspecified reference system as Surface with an altitude value of 0 and the supplied value for altitude will be ignored.
 
 ## -property-value
 The altitude reference system of the geographic point.
 
 ## -remarks
 > [!NOTE]
-> The default [altitude reference system](altitudereferencesystem.md) that’s used to provide location data depends on the GPS/GNSS radio hardware. Hardware typically found on older desktop PCs will continue using an **Ellipsoid** reference system. Everything else will default to using the **Geoid** reference system. To find out which one is being used by a [Geopoint](geopoint.md) object, see the [AltitudeReferenceSystem](geopoint_altitudereferencesystem.md) property.
+> The default [altitude reference system](altitudereferencesystem.md) that’s used to provide location data depends on the GPS/GNSS radio hardware. Most hardware will return coordinates using the **Geoid** reference system. To find out which one is being used by a [Geopoint](geopoint.md) object, see the [AltitudeReferenceSystem](geopoint_altitudereferencesystem.md) property. The **Geoid** reference system may not be what you want depending on your application. For example if passing the coordinates to a map control, you may instead want to snap the coordinate to the terrain.
 
 ## -examples
 

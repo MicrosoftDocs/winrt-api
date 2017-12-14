@@ -19,6 +19,8 @@ The [StreamSocketListener.BindServiceNameAsync](streamsocketlistener_bindservice
 
 A [StreamSocketListener.ConnectionReceived](streamsocketlistener_connectionreceived.md) event occurs if a [StreamSocketListener](streamsocketlistener.md) object has been bound to a local service name or TCP port and a connection is received. A [StreamSocketListenerConnectionReceivedEventArgs](streamsocketlistenerconnectionreceivedeventargs.md) instance is a parameter specified in the callback.
 
+**Note** From the perspective of a **StreamSocket**, a Parallel Patterns Library (PPL) completion handler is done executing (and the socket is eligible for disposal) before the continuation body runs. So, to keep your socket from being disposed if you want to use it inside a continuation, you'll need to use one of the techniques described in [References to StreamSockets in C++ PPL continuations](/windows/uwp/networking/sockets?branch=live#references-to-streamsockets-in-c-ppl-continuations).
+
 ## -examples
 
 ## -see-also

@@ -21,6 +21,6 @@ Occurs when a user attempts to move focus (via tab or directional arrows), but f
 ## -remarks
 
 ## -see-also
-
+[NoFocusCandidateFoundEventArgs](../windows.ui.xaml.input/nofocuscandidatefoundeventargs.md)
 ## -examples
 

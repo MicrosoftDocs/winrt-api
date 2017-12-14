@@ -18,7 +18,6 @@ Resource groups allow you to group components for the purposes of resource manag
 Resource groups are specified in the manifest with the **ResourceGroup** tag.
 
 ## -see-also
-[uap:Extension](https://docs.microsoft.com/uwp/schemas/appxpackage/uapmanifestschema/element-uap-extension)
 
 ## -examples
 

@@ -10,7 +10,7 @@ public class ThreadPool
 # Windows.System.Threading.ThreadPool
 
 ## -description
-Allows access to the thread pool. See [Threading and async programming](http://msdn.microsoft.com/library/beac6333-655a-4bcf-9caf-bba15f715ea5) for detailed guidance on using the thread pool:
+Provides access to the thread pool. See [Threading and async programming](http://msdn.microsoft.com/library/beac6333-655a-4bcf-9caf-bba15f715ea5) for detailed guidance on using the thread pool:
 
 
 + [Submit a work item to the thread pool](http://msdn.microsoft.com/library/e2a1200c-9583-40fa-ae4d-c9e6f6c32bcf)

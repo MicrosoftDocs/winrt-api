@@ -11,7 +11,7 @@ public NavigationViewDisplayMode DisplayMode { get; }
 
 ## -description
 
-Gets of sets a value that specifies how the pane and content areas of a NavigationView are shown.
+Gets a value that specifies how the pane and content areas of a NavigationView are being shown.
 
 
 ## -xaml-syntax
@@ -22,7 +22,7 @@ Gets of sets a value that specifies how the pane and content areas of a Navigati
 
 ## -property-value
 
-A value of the enumeration that specifies how the pane and content areas of a NavigationView are shown.
+A value of the enumeration that specifies how the pane and content areas of a NavigationView are being shown.
 
 ## -remarks
 

@@ -38,15 +38,17 @@ The extension declaration is different depending on whether it is for a Desktop 
 <Applications>
     <Application ...>
         ...
-        <uap5:Extension
-          Category="windows.startupTask"
-          Executable="MyDesktopBridgeApp.exe"
-          EntryPoint="Windows.FullTrustApplication">
-          <uap5:StartupTask
-            TaskId="MyStartupId"
-            Enabled="false"
-            DisplayName="My Desktop Bridge App" />
-        </uap5:Extension>
+        <Extensions>
+          <uap5:Extension
+            Category="windows.startupTask"
+            Executable="MyDesktopBridgeApp.exe"
+            EntryPoint="Windows.FullTrustApplication">
+            <uap5:StartupTask
+              TaskId="MyStartupId"
+              Enabled="false"
+              DisplayName="My Desktop Bridge App" />
+          </uap5:Extension>
+        </Extensions>
     </Application>
 </Applications>
 ```
@@ -71,15 +73,14 @@ For Desktop Bridge apps, multiple **startupTask** extensions are permitted, and 
 <Applications>
     <Application ...>
         ...
-        <uap5:Extension
-          Category="windows.startupTask"
-          Executable=""
-          EntryPoint="">
-          <uap5:StartupTask
-            TaskId="MyStartupId"
-            Enabled="false"
-            DisplayName="Test startup" />
-        </uap5:Extension>
+        <Extensions>
+          <uap5:Extension Category="windows.startupTask">
+            <uap5:StartupTask
+              TaskId="MyStartupId"
+              Enabled="false"
+              DisplayName="Test startup" />
+          </uap5:Extension>
+      </Extensions>
     </Application>
 </Applications>
 ```
@@ -88,11 +89,11 @@ For Desktop Bridge apps, multiple **startupTask** extensions are permitted, and 
 |---------|-----------|
 |**xmlns:uap5** | UWP apps use the general UAP contract version 5 namespace. |
 |**Category** | Must have the value `"windows.startupTask"` |
-|**Executable** | Ignored but cannot be empty or null. The app this Package.appxmanifest file belongs to is the implied executable.  |
-|**EntryPoint** | Ignored but cannot be empty or null. The entry point is implied.|
 |**TaskId** | The unique identifier for your task. Using this identifier, your app can call the APIs in this class to programmatically enable or disable a startup task. |
-| **Enabled** | For regular UWP apps, this attribute is ignored and the feature is implicitly disabled until the user first launches the app and the user confirms the app's request to enable activation at startup. |
-| **DisplayName** | The name of the UWP app that appears in Task Manager. |
+|**Enabled** | For regular UWP apps, this attribute is ignored and the feature is implicitly disabled until the user first launches the app and the user confirms the app's request to enable activation at startup. |
+|**DisplayName** | The name of the UWP app that appears in Task Manager. |
+|**Executable** | Ignored. If provided, it cannot be empty or null. The app this Package.appxmanifest file belongs to is the implied executable.  |
+|**EntryPoint** | Ignored. If provided, it cannot be empty or null. The entry point is implied. |
 
 Regular UWP apps should only have one **Executable** entry and **windows.startupTask** extension.  
 The **windows.startupTask** extension is only available for UWP apps that run on Windows Desktop.
@@ -100,17 +101,18 @@ The **windows.startupTask** extension is only available for UWP apps that run on
 ### Windows Web App (WWA) startup task extension
 
 ```xml
-<Package xmlns:uap5="http://schemas.microsoft.com/appx/manifest/uap/windows10/5" ...>
+<Package xmlns:uap5="http://schemas.microsoft.com/appx/manifest/uap/windows10/5" .m..>
 ...
 <Applications>
     <Application ...>
         ...
-        <uap5:Extension Category="windows.startupTask">
-          <uap5:StartupTask
-            TaskId="MyStartupId"
-            DisplayName="Test startup"
-            StartupPage="EntryPage" />            
-        </uap5:Extension>
+        <Extensions>
+          <uap5:Extension Category="windows.startupTask" StartPage="EntryPage">
+            <uap5:StartupTask
+              TaskId="MyStartupId"
+              DisplayName="Test startup"/>
+          </uap5:Extension>
+      </Extensions>
     </Application>
 </Applications>
 ```
@@ -118,10 +120,10 @@ The **windows.startupTask** extension is only available for UWP apps that run on
 |Attribute|Description|
 |---------|-----------|
 |**xmlns:uap5** | UWP apps use the general UAP contract version 5 namespace. |
+|**StartPage** | The name of the page to display when the WWA starts. |
 |**Category** | Must have the value `"windows.startupTask"` |
 |**TaskId** | The unique identifier for your task. Using this identifier, your app can call the APIs in this class to programmatically enable or disable a startup task. |
-| **DisplayName** | The name of the UWP app that appears in Task Manager. |
-| **StartupPage** | The name of the page to display when the WWA starts. |
+|**DisplayName** | The name of the UWP app that appears in Task Manager. |
 
 For WWA apps, **Executable**, **EntryPoint**, and **Enables** are ignored and may be either missing or null.
 
