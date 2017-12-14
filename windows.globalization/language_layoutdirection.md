@@ -10,8 +10,10 @@ public LanguageLayoutDirection LayoutDirection { get; }
 # Windows.Globalization.Language.LayoutDirection
 
 ## -description
+Gets the content layout direction (for text and UI elements) most appropriate for a language.
 
 ## -property-value
+A layout direction.
 
 ## -remarks
 
