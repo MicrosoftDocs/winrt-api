@@ -10,9 +10,11 @@ public GlobalizationPreferencesForUser GlobalizationPreferences.GetForUser(User 
 # Windows.System.UserProfile.GlobalizationPreferences.GetForUser
 
 ## -description
+Retrieves an object representing the globalization preferences of the specified user. This API is part of support for multi-user apps (MUA).
 
 ## -parameters
 ### -param user
+The user to retrieve preferences for.
 
 ## -returns
 
