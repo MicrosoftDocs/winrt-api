@@ -13,8 +13,8 @@ public IVectorView<string> ApplicationLanguages.GetLanguagesForUser(User user)
 Retrieves the language preferences of the specified user. This API is part of support for multi-user apps (MUA).
 
 ## -parameters
-
 ### -param user
+The user to retrieve preferences for.
 
 ## -returns
 A list of normalized [BCP-47](http://go.microsoft.com/fwlink/p/?linkid=227302) language tags representing the language preferences of the specified user.

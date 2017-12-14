@@ -10,8 +10,10 @@ public DayOfWeek WeekStartsOn { get; }
 # Windows.System.UserProfile.GlobalizationPreferencesForUser.WeekStartsOn
 
 ## -description
+Gets the day of the week that is considered by the represented user to be the first day of the week.
 
 ## -property-value
+The day of the week that the week starts on.
 
 ## -remarks
 
