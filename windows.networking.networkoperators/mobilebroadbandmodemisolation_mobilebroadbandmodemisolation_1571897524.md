@@ -10,11 +10,14 @@ public MobileBroadbandModemIsolation.MobileBroadbandModemIsolation(String modemD
 # Windows.Networking.NetworkOperators.MobileBroadbandModemIsolation.MobileBroadbandModemIsolation
 
 ## -description
+Creates a new instance of a [MobileBroadbandModemIsolation](mobilebroadbandmodemisolation.md).
 
 ## -parameters
 ### -param modemDeviceId
+The [DeviceInformation Id](../windows.devices.enumeration/deviceinformation_id.md) of the mobile broadband device.
 
 ### -param ruleGroupId
+The rule group id of the mobile broadband device.
 
 ## -remarks
 
@@ -22,3 +25,5 @@ public MobileBroadbandModemIsolation.MobileBroadbandModemIsolation(String modemD
 
 ## -examples
 
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

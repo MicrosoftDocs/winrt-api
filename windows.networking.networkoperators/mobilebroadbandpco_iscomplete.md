@@ -10,8 +10,10 @@ public bool IsComplete { get; }
 # Windows.Networking.NetworkOperators.MobileBroadbandPco.IsComplete
 
 ## -description
+Gets a value indicating whether the data received from the modem is complete, or is a subset of the Protocol Configuration Options (PCO) data structure.
 
 ## -property-value
+`true` if the data is complete; `false` if it's a subset of the Protocol Configuration Options (PCO) data structure.
 
 ## -remarks
 
@@ -19,3 +21,5 @@ public bool IsComplete { get; }
 
 ## -examples
 
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

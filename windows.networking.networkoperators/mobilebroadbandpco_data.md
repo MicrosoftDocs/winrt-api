@@ -10,8 +10,10 @@ public IBuffer Data { get; }
 # Windows.Networking.NetworkOperators.MobileBroadbandPco.Data
 
 ## -description
+From the modem, gets the details of the protocol configuration options (PCO) as set by you as the mobile network operator (MNO). Your MNO app can understand this payload. It can decode the data and control the modem accordingly (for example, turn off the radio, or isolate the modem).
 
 ## -property-value
+A buffer containing the details of the protocol configuration options (PCO).
 
 ## -remarks
 
@@ -19,3 +21,5 @@ public IBuffer Data { get; }
 
 ## -examples
 
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

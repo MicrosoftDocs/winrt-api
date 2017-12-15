@@ -10,6 +10,7 @@ public class MobileBroadbandPco
 # Windows.Networking.NetworkOperators.MobileBroadbandPco
 
 ## -description
+A class representing a Protocol Configuration Options information element (PCO). The purpose of a PCO is, during a packet data protocol (PDP) context activation, to transfer the external network protocol options associated with the activation.
 
 ## -remarks
 
@@ -17,3 +18,5 @@ public class MobileBroadbandPco
 
 ## -examples
 
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

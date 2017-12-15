@@ -10,8 +10,10 @@ public MobileBroadbandPco UpdatedData { get; }
 # Windows.Networking.NetworkOperators.MobileBroadbandPcoDataChangeTriggerDetails.UpdatedData
 
 ## -description
+Gets details about a Protocol Configuration Options (PCO) data change notification.
 
 ## -property-value
+Details about the Protocol Configuration Options (PCO) data change notification.
 
 ## -remarks
 
@@ -19,3 +21,5 @@ public MobileBroadbandPco UpdatedData { get; }
 
 ## -examples
 
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl

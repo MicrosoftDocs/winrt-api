@@ -10,6 +10,7 @@ public class MobileBroadbandModemIsolation
 # Windows.Networking.NetworkOperators.MobileBroadbandModemIsolation
 
 ## -description
+A class with methods for disallowing and allowing certain types of data traffic through the mobile broadband modem; essentially isolating the user equipment (UE), or device.
 
 ## -remarks
 
@@ -17,3 +18,5 @@ public class MobileBroadbandModemIsolation
 
 ## -examples
 
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl
