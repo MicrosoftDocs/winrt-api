@@ -10,12 +10,13 @@ public UserActivity UserActivity { get; }
 # Windows.ApplicationModel.UserActivities.UserActivitySessionHistoryItem.UserActivity
 
 ## -description
+Gets the **UserActivity** associated with this **UserActivitySessionHistoryItem**.
 
 ## -property-value
+The **UserActivity**.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

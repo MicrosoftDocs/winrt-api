@@ -10,12 +10,13 @@ public IReference<DateTime> EndTime { get; }
 # Windows.ApplicationModel.UserActivities.UserActivitySessionHistoryItem.EndTime
 
 ## -description
+Get the time when the user stopped engaging in the **UserActivity** associated with this **UserActivitySessionHistoryItem**.
 
 ## -property-value
+The stop time for the **UserActivity**.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
