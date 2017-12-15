@@ -77,9 +77,44 @@ Ready to sign in with **device name**.
 Use another sign-in option first, then you can use **device name** to sign in.
 
 
+### -field CanceledByUser:22
+
+
+### -field CenterHand:23
+
+
+### -field ConnectionRequired:20
+
+
+### -field DeviceUnavailable:28
+
+
+### -field MoveHandCloser:24
+
+
+### -field MoveHandFarther:25
+
+
+### -field PlaceHandAbove:26
+
+
+### -field RecognitionFailed:27
+
+
+### -field TimeLimitExceeded:21
+
+
 ## -remarks
 
 ## -examples
 
 ## -see-also
 [Windows Unlock with companion (IoT) devices](https://msdn.microsoft.com/windows/uwp/security/companion-device-unlock)
+
+
+
+
+
+
+
+
