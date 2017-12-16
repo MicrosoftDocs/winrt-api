@@ -17,7 +17,7 @@ Creates a new instance of a [MobileBroadbandModemIsolation](mobilebroadbandmodem
 The [DeviceInformation Id](../windows.devices.enumeration/deviceinformation_id.md) of the mobile broadband device.
 
 ### -param ruleGroupId
-The rule group id of the mobile broadband device.
+An Id used to track the configuration set by the [MobileBroadbandModemIsolation](mobilebroadbandmodemisolation.md) instance being constructed.
 
 ## -remarks
 

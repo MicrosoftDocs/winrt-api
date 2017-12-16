@@ -22,5 +22,6 @@ the maximum device service data size, in bytes, for the mobile broadband modem.
 
 ## -see-also
 [MobileBroadbandDeviceServiceDataSession](mobilebroadbanddeviceservicedatasession.md)
+
 ## -capabilities
 cellularDeviceIdentity, cellularDeviceControl

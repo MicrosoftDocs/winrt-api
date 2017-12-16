@@ -10,7 +10,7 @@ public IAsyncAction MobileBroadbandModemIsolation.ClearConfigurationAsync()
 # Windows.Networking.NetworkOperators.MobileBroadbandModemIsolation.ClearConfigurationAsync
 
 ## -description
-Allows all traffic through the modem.
+Asynchronously allows all traffic through the modem.
 
 ## -returns
 An asynchronous action.

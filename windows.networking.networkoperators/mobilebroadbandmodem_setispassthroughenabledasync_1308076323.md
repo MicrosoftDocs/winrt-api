@@ -24,6 +24,5 @@ An asynchronous operation that returns a [MobileBroadbandModemStatus](mobilebroa
 
 ## -examples
 
-
 ## -capabilities
 cellularDeviceIdentity, cellularDeviceControl
