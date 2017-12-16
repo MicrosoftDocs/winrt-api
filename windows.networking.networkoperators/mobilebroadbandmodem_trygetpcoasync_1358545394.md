@@ -10,8 +10,10 @@ public IAsyncOperation<MobileBroadbandPco> MobileBroadbandModem.TryGetPcoAsync()
 # Windows.Networking.NetworkOperators.MobileBroadbandModem.TryGetPcoAsync
 
 ## -description
+Asynchronously retrieves the Protocol Configuration Options (PCO) data for the modem.
 
 ## -returns
+An asynchronous retrieval operation. On successful completion, contains a [MobileBroadbandPco](mobilebroadbandpco.md) object representing Protocol Configuration Options (PCO) data.
 
 ## -remarks
 
@@ -19,3 +21,5 @@ public IAsyncOperation<MobileBroadbandPco> MobileBroadbandModem.TryGetPcoAsync()
 
 ## -examples
 
+## -capabilities
+cellularDeviceIdentity, cellularDeviceControl
