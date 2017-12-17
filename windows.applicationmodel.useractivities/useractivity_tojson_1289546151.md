@@ -16,7 +16,7 @@ Serializes the [UserActivity](useractivity.md) into a JSON string. Among other t
 The JSON text representation of the **UserActivity**.
 
 ## -remarks
-The **UserActivity** APIs allow an application to provide rich information for Cortana Pick-up Where I Left Off and the Timeline. A better re-engagement UI can be built within a consuming  application if the source application can provide more details about the re-engagement. By serializing the **UserActivity** into a JSON string, you can then store it in a  [DataPackage](https://docs.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackage) and reconstitute it in the consuming application to provide more insight about the source application and the specific activity within the application that sourced the **DataPackage**.
+A better re-engagement UI can be built within a consuming application if the source application can provide more details about the re-engagement. By serializing the **UserActivity** into a JSON string, you can then store it in a  [DataPackage](https://docs.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackage) and reconstitute it in the consuming application to provide more insight about the source application and the specific activity within the application that sourced the **DataPackage**.
 
 ## -see-also
 [UserActivity.ToJsonArray](useractivity_tojsonarray_543935915.md)
