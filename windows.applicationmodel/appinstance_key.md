@@ -10,8 +10,10 @@ public string Key { get; }
 # Windows.ApplicationModel.AppInstance.Key
 
 ## -description
+The key for the current instance.
 
 ## -property-value
+The app-defined key for the current instance. 
 
 ## -remarks
 

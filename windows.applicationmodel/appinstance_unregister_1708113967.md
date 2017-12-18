@@ -10,10 +10,21 @@ public void AppInstance.Unregister()
 # Windows.ApplicationModel.AppInstance.Unregister
 
 ## -description
+Updates the system cache so that the current instance is no longer available for activation redirection. 
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
+Once registered, an instance remians registered until either the instance process terminates or the instance unregisters itself.
+This example unregisters the current this app. It no longer takes part in instance redirection.
+
+```csharp
+private void OnAllFilesClosed(object sender, EventArgs args)
+{
+    AppInstance.Unregister();
+}
+
+```
 

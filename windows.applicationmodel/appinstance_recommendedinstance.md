@@ -10,12 +10,33 @@ public AppInstance RecommendedInstance { get; }
 # Windows.ApplicationModel.AppInstance.RecommendedInstance
 
 ## -description
+A shell can provide a preferred app instance to which an application activation is redirected.
 
 ## -property-value
+The app instance that the shell prefers to use for an app, or NULL if there is no preference.
 
 ## -remarks
+If the shell provides a preference, the app can redirect activation to that instance. 
+The app can ignore the preference. 
 
 ## -see-also
 
 ## -examples
+This example checks whether the shell recommends an instance.
+If so, it checks whether the instance is suitable, and redirects to a suitable instance.
+If the shell does not have preference, the app can look for an existing app instance to redirect to or attempt to register itself as the target.
+
+```csharp
+AppInstance RecommendedInstance = AppInstance.RecommendedInstance;
+if ((RecommendedInstance != null) && SelectedKeyIncludesMyKey(RecommendedInstance.Key))
+{
+    RecommendedInstance.RedirectActivationTo();
+}
+else
+{
+    // Look for existing instance or attempt to register itself as target.
+}
+
+
+```
 

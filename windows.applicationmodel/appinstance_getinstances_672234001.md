@@ -10,12 +10,19 @@ public IVector<AppInstance> AppInstance.GetInstances()
 # Windows.ApplicationModel.AppInstance.GetInstances
 
 ## -description
+Gets the registered instances of the current app.
 
 ## -returns
+A list of the registered intstances of the current app.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
+This example gets a list of all the instances of the current app. 
+
+```csharp
+    List<AppInstance> instances = AppInstance.GetInstances();
+```
 
