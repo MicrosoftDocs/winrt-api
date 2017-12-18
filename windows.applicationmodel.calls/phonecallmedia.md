@@ -19,6 +19,8 @@ The phone call supports audio only.
 ### -field AudioAndVideo:1
 The phone call supports audio and video.
 
+### -field AudioAndRealTimeText:2
+The phone call supports audio and realtime text.
 
 ## -remarks
 
@@ -27,3 +29,4 @@ The phone call supports audio and video.
 ## -see-also
 ## -capabilities
 phoneCallHistory, phoneCallHistorySystem
+
