@@ -18,6 +18,5 @@ Represents the antenna on a broadband modem.
 
 ## -examples
 
-
 ## -capabilities
 cellularDeviceIdentity, cellularDeviceControl
