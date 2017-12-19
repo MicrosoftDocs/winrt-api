@@ -26,4 +26,8 @@ Subsequent calls return NULL.
 ## -see-also
 
 ## -examples
+This example gets the event arguments for the specified app instance. 
 
+```csharp
+IActivatedEventArgs activatedArgs = AppInstance.GetActivatedEventArgs();
+```

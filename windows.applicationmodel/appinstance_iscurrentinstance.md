@@ -20,8 +20,8 @@ A Boolean that indicates whether the current app is the registered instance of t
 ## -see-also
 
 ## -examples
-If the instance found is the current instance, the example activates the instance.
-If it is not the current instance, the example redirects to that app instance. 
+In the following example, if the instance found is the current instance, that instance is activated.
+If it is not the current instance, the example redirects to the app instance that is found. 
 
 ```csharp
     if (theInstance.IsCurrentInstance)

@@ -10,7 +10,7 @@ public AppInstance AppInstance.FindOrRegisterInstanceForKey(String key)
 # Windows.ApplicationModel.AppInstance.FindOrRegisterInstanceForKey
 
 ## -description
-Registers an app with the platform. 
+Registers an app instance with the platform. 
 
 ## -parameters
 ### -param key
@@ -29,6 +29,8 @@ The system cache maintains one row per instance, therefore, the key is overwritt
 ## -see-also
 
 ## -examples
+This example returns the instance registered for the specified key.
+If there was no existing app instance for that key, the method registers the current instance, and returns that instance.
 
 ```csharp
 theInstance = AppInstance.FindOrRegisterInstanceForKey(key);

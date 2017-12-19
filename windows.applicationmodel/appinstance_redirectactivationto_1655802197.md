@@ -14,10 +14,10 @@ Redirects activation of the current app instance to the specified instance.
 
 ## -remarks
 Redirection is a terminal operation.
-After redirecting, the app can call CoreApplication.Exit. 
+After redirecting, the app can call only [CoreApplication.Exit](coreapplication_exit_1158854104.md). 
 After the redirection, the app is closed. 
 
-A app makes the decision whether to host. 
+An app makes the decision whether to host. 
 An app indicates whether it supports multiple instances in its manifest.
 The splash screen is not shown until the app decides whether to redirect during main. 
 If the app fails to decide within a time-out period, it is closed.
@@ -26,6 +26,7 @@ There is a potential race condition if an app identifies an instance for redirec
 In this case, this activation fails. 
 
 ## -see-also
+[CoreApplication.Exit](coreapplication_exit_1158854104.md)
 
 ## -examples
 This example redirects activation to the instance recommended by the shell.
@@ -42,6 +43,4 @@ else
 {
     // Look for existing instance or attempt to register itself as target.
 }
-
-
 ```

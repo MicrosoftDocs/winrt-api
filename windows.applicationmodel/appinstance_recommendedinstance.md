@@ -10,7 +10,7 @@ public AppInstance RecommendedInstance { get; }
 # Windows.ApplicationModel.AppInstance.RecommendedInstance
 
 ## -description
-A shell can provide a preferred app instance to which an application activation is redirected.
+A shell can recommend an instance of an app to which an application activation is redirected.
 
 ## -property-value
 The app instance that the shell prefers to use for an app, or NULL if there is no preference.
