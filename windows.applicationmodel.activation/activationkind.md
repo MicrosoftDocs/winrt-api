@@ -133,9 +133,13 @@ The app was activated because the app is specified to launch at system startup o
 ### -field CommandLineLaunch:1021
 The app was launched from the command line. Introduced in Windows 10, version 1709 (10.0.16299)
 
+### -field BarcodeScannerProvider:1022
+
+
 ## -remarks
 
 ## -examples
 
 ## -see-also
 [CachedFileUpdaterActivatedEventArgs.Kind](cachedfileupdateractivatedeventargs_kind.md), [CameraSettingsActivatedEventArgs.Kind](camerasettingsactivatedeventargs_kind.md), [ContactPickerActivatedEventArgs.Kind](contactpickeractivatedeventargs_kind.md), [DeviceActivatedEventArgs.Kind](deviceactivatedeventargs_kind.md), [FileActivatedEventArgs.Kind](fileactivatedeventargs_kind.md), [FileOpenPickerActivatedEventArgs.Kind](fileopenpickeractivatedeventargs_kind.md), [FileSavePickerActivatedEventArgs.Kind](filesavepickeractivatedeventargs_kind.md), [LaunchActivatedEventArgs.Kind](launchactivatedeventargs_kind.md), [LockScreenActivatedEventsArg.Kind](lockscreenactivatedeventargs_kind.md), [PrintTaskSettingsActivatedEventArgs.Kind](printtasksettingsactivatedeventargs_kind.md), [ProtocolActivatedEventArgs.Kind](protocolactivatedeventargs_kind.md), [SearchActivatedEventArgs.Kind](searchactivatedeventargs_kind.md), [ShareTargetActivatedEventArgs.Kind](sharetargetactivatedeventargs_kind.md), [WebUICachedFileUpdaterActivatedEventArgs.kind](../windows.ui.webui/webuicachedfileupdateractivatedeventargs_kind.md), [WebUICameraSettingsActivatedEventArgs.kind](../windows.ui.webui/webuicamerasettingsactivatedeventargs_kind.md), [WebUIContactPickerActivatedEventArgs.kind](../windows.ui.webui/webuicontactpickeractivatedeventargs_kind.md), [WebUIDeviceActivatedEventArgs.kind](../windows.ui.webui/webuideviceactivatedeventargs_kind.md), [WebUIFileActivatedEventArgs.kind](../windows.ui.webui/webuifileactivatedeventargs_kind.md), [WebUIFileOpenPickerActivatedEventArgs.kind](../windows.ui.webui/webuifileopenpickeractivatedeventargs_kind.md), [WebUIFileSavePickerActivatedEventArgs.kind](../windows.ui.webui/webuifilesavepickeractivatedeventargs_kind.md), [WebUILaunchActivatedEventArgs.kind](../windows.ui.webui/webuilaunchactivatedeventargs_kind.md), [WebUIPrintTaskSettingsActivatedEventArgs.kind](../windows.ui.webui/webuiprinttasksettingsactivatedeventargs_kind.md), [WebUIProtocolActivatedEventArgs.kind](../windows.ui.webui/webuiprotocolactivatedeventargs_kind.md), [WebUISearchActivatedEventArgs.kind](../windows.ui.webui/webuisearchactivatedeventargs_kind.md), [WebUIShareTargetActivatedEventArgs.kind](../windows.ui.webui/webuisharetargetactivatedeventargs_kind.md)
+
