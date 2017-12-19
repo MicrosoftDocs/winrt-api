@@ -10,12 +10,29 @@ public string ConnectionId { get; }
 # Windows.ApplicationModel.Activation.BarcodeScannerPreviewActivatedEventArgs.ConnectionId
 
 ## -description
+A connection ID.
 
 ## -property-value
+The ID of the connection. 
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
+This example gets a connction ID from an activated argument, and then uses it to start the video preview page.
 
+```csharp
+var eventArgs = args as BarcodeScannerPreviewActivatedEventArgs;
+string connectionId = eventArgs.ConnectionId;
+
+BarcodeScannerProviderConnection connection = _taskList.GetConnection(connectionId);
+if (connection != null)
+{
+    var page = rootFrame.Content as MainPage;
+    if (page != null)
+    {
+         await page.StartVideoPreview(connection);
+    }
+}
+```

@@ -10,8 +10,10 @@ public SplashScreen SplashScreen { get; }
 # Windows.ApplicationModel.Activation.BarcodeScannerPreviewActivatedEventArgs.SplashScreen
 
 ## -description
+Specifies the splash screen for the barcode scanner preview.
 
 ## -property-value
+The splash screen.
 
 ## -remarks
 

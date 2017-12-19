@@ -134,7 +134,7 @@ The app was activated because the app is specified to launch at system startup o
 The app was launched from the command line. Introduced in Windows 10, version 1709 (10.0.16299)
 
 ### -field BarcodeScannerProvider:1022
-
+The app was activated as a barcode scanner provider. 
 
 ## -remarks
 

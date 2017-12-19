@@ -10,8 +10,10 @@ public ApplicationExecutionState PreviousExecutionState { get; }
 # Windows.ApplicationModel.Activation.BarcodeScannerPreviewActivatedEventArgs.PreviousExecutionState
 
 ## -description
+Specifies the previous activation state. 
 
 ## -property-value
+The previous state.
 
 ## -remarks
 

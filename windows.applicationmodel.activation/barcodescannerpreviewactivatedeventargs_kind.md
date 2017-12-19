@@ -10,12 +10,27 @@ public ActivationKind Kind { get; }
 # Windows.ApplicationModel.Activation.BarcodeScannerPreviewActivatedEventArgs.Kind
 
 ## -description
+Specifies the kind of activation.
 
 ## -property-value
+Activation kind.
 
 ## -remarks
 
 ## -see-also
+[ActivationKind.AppointmentsProvider](activationkind.md)
 
 ## -examples
+This example checks whether the activation is a **BarcodeScannerProvider** value. 
 
+```csharp
+protected override async void OnActivated(IActivatedEventArgs args)
+{
+    base.OnActivated(args);
+
+    if (args.Kind == ActivationKind.BarcodeScannerProvider)
+    {
+        // Implement activation for provider.
+    }
+}
+```
