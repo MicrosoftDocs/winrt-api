@@ -20,7 +20,7 @@ You can alternatively include a way for the user to set the time zone at a later
 
 ### -field Failed:2
 The time zone could not be detected due to lack of hardware support, or catastrophic failure.
-Avoid calling the AutoUpdateTimeZoneAsync method again.
+Avoid calling the [AutoUpdateTimeZoneAsync](timezonesettings_autoupdatetimezoneasync_2027519787.md) method again.
 Prompt the user to select a time zone.
 You can alternatively include a way for the user to set the time zone at a later time.
 
@@ -34,6 +34,7 @@ You can alternatively include a way for the user to set the time zone at a later
 ## -remarks
 
 ## -see-also
+[TimeZoneSettings](timezonesettings)
 
 ## -examples
 

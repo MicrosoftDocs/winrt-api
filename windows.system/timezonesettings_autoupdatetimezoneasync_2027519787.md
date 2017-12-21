@@ -30,6 +30,7 @@ This method can use information from any of the following sources to determine t
 If your device does not have access to any method of determining location, you should not run this method. 
 
 ## -see-also
+[AutoUpdateTimeZoneStatus](autoupdatetimezonestatus.md)
 
 ## -examples
 

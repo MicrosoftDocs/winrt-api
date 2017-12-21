@@ -18,7 +18,7 @@ Activation kind.
 ## -remarks
 
 ## -see-also
-[ActivationKind.AppointmentsProvider](activationkind.md)
+[ActivationKind.BarcodeScannerProvider](activationkind.md)
 
 ## -examples
 This example checks whether the activation is a **BarcodeScannerProvider** value. 

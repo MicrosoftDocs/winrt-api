@@ -10,7 +10,7 @@ public IActivatedEventArgs AppInstance.GetActivatedEventArgs()
 # Windows.ApplicationModel.AppInstance.GetActivatedEventArgs
 
 ## -description
-Gets the current **IActivatedEventArgs**, the same as would normally be passed in to the app’s OnActivated method. 
+Gets the current **IActivatedEventArgs**, the same as would normally be passed in to the *OnActivated* method of the app. 
 
 ## -returns
 The current **IActivatedEventArgs**, or NULL.
@@ -18,7 +18,7 @@ The current **IActivatedEventArgs**, or NULL.
 ## -remarks
 This method gets the same argurments that would be passed in to the *OnActivated* method of the app.
 
-This method allows the app to its arguments much earlier, in main.
+This method allows the app to access its arguments much earlier, in main.
 
 This method only returns arguments on its first call.
 Subsequent calls return NULL.
