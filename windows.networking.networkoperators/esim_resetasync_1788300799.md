@@ -19,3 +19,5 @@ public IAsyncOperation<ESimOperationResult> ESim.ResetAsync()
 
 ## -examples
 
+## -capabilities
+Microsoft.eSIMManagement_8wekyb3d8bbwe

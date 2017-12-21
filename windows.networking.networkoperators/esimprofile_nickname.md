@@ -10,8 +10,10 @@ public string Nickname { get; }
 # Windows.Networking.NetworkOperators.ESimProfile.Nickname
 
 ## -description
+Gets the nickname of the eSIM profile.
 
 ## -property-value
+The nickname of the eSIM profile.
 
 ## -remarks
 
@@ -19,3 +21,5 @@ public string Nickname { get; }
 
 ## -examples
 
+## -capabilities
+Microsoft.eSIMManagement_8wekyb3d8bbwe

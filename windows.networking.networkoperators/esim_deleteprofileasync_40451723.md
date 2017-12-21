@@ -22,3 +22,5 @@ public IAsyncOperation<ESimOperationResult> ESim.DeleteProfileAsync(String profi
 
 ## -examples
 
+## -capabilities
+Microsoft.eSIMManagement_8wekyb3d8bbwe

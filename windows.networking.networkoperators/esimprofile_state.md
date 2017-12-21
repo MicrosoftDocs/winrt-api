@@ -19,3 +19,5 @@ public ESimProfileState State { get; }
 
 ## -examples
 
+## -capabilities
+Microsoft.eSIMManagement_8wekyb3d8bbwe

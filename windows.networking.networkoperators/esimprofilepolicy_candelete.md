@@ -10,8 +10,10 @@ public bool CanDelete { get; }
 # Windows.Networking.NetworkOperators.ESimProfilePolicy.CanDelete
 
 ## -description
+Gets a value indicating whether the eSIM profile policy represented by this object instance allows the profile to be deleted.
 
 ## -property-value
+`true` if the policy allows the profile to be deleted, otherwise `false`.
 
 ## -remarks
 
@@ -19,3 +21,5 @@ public bool CanDelete { get; }
 
 ## -examples
 
+## -capabilities
+Microsoft.eSIMManagement_8wekyb3d8bbwe

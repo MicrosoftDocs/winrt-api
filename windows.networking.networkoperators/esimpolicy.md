@@ -10,6 +10,7 @@ public class ESimPolicy
 # Windows.Networking.NetworkOperators.ESimPolicy
 
 ## -description
+A class that represents the policy for an eSIM, regarding whether the Local User Interface (LUI) for eSIM management should be enabled or disabled.
 
 ## -remarks
 
@@ -17,3 +18,5 @@ public class ESimPolicy
 
 ## -examples
 
+## -capabilities
+Microsoft.eSIMManagement_8wekyb3d8bbwe

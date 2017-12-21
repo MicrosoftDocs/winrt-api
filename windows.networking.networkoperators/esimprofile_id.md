@@ -10,8 +10,10 @@ public string Id { get; }
 # Windows.Networking.NetworkOperators.ESimProfile.Id
 
 ## -description
+Gets the identification number (an ICCID) of the eSIM profile.
 
 ## -property-value
+The identification number (an ICCID) of the eSIM profile.
 
 ## -remarks
 
@@ -19,3 +21,5 @@ public string Id { get; }
 
 ## -examples
 
+## -capabilities
+Microsoft.eSIMManagement_8wekyb3d8bbwe

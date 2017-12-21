@@ -10,8 +10,10 @@ public IReference<int> AvailableMemoryInBytes { get; }
 # Windows.Networking.NetworkOperators.ESim.AvailableMemoryInBytes
 
 ## -description
+Gets the available memory on the SIM card in whole bytes.
 
 ## -property-value
+The available memory on the SIM card in whole bytes.
 
 ## -remarks
 
@@ -19,3 +21,5 @@ public IReference<int> AvailableMemoryInBytes { get; }
 
 ## -examples
 
+## -capabilities
+Microsoft.eSIMManagement_8wekyb3d8bbwe

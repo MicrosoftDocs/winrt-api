@@ -10,8 +10,10 @@ public ESimProfileClass Class { get; }
 # Windows.Networking.NetworkOperators.ESimProfile.Class
 
 ## -description
+Gets the class of the eSIM profile (either Operational, Test, or Provisioning).
 
 ## -property-value
+The class of the eSIM profile.
 
 ## -remarks
 
@@ -19,3 +21,5 @@ public ESimProfileClass Class { get; }
 
 ## -examples
 
+## -capabilities
+Microsoft.eSIMManagement_8wekyb3d8bbwe

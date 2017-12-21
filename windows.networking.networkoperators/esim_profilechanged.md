@@ -17,3 +17,5 @@ public event TypedEventHandler ProfileChanged<ESim,  object>
 
 ## -examples
 
+## -capabilities
+Microsoft.eSIMManagement_8wekyb3d8bbwe

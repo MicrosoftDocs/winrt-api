@@ -10,13 +10,17 @@ public enum ESimProfileClass : int
 # Windows.Networking.NetworkOperators.ESimProfileClass
 
 ## -description
+Defines constants that specify an eSIM profile class.
 
 ## -enum-fields
+### -field Operational:0
+Indicates the class of an operational eSIM profile.
+
 ### -field Test:1
+Indicates the class of a test eSIM profile.
 
 ### -field Provisioning:2
-
-### -field Operational:0
+Indicates the class of a provisioning eSIM profile.
 
 ## -remarks
 
@@ -24,3 +28,5 @@ public enum ESimProfileClass : int
 
 ## -examples
 
+## -capabilities
+Microsoft.eSIMManagement_8wekyb3d8bbwe

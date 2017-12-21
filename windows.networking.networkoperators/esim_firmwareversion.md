@@ -10,8 +10,10 @@ public string FirmwareVersion { get; }
 # Windows.Networking.NetworkOperators.ESim.FirmwareVersion
 
 ## -description
+Gets the eSIM firmware version.
 
 ## -property-value
+The eSIM firmware version.
 
 ## -remarks
 
@@ -19,3 +21,5 @@ public string FirmwareVersion { get; }
 
 ## -examples
 
+## -capabilities
+Microsoft.eSIMManagement_8wekyb3d8bbwe

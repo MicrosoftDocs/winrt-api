@@ -22,3 +22,5 @@ public IAsyncOperation<ESimDownloadProfileMetadataResult> ESim.DownloadProfileMe
 
 ## -examples
 
+## -capabilities
+Microsoft.eSIMManagement_8wekyb3d8bbwe

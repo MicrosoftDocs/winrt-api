@@ -19,3 +19,5 @@ public IVectorView<ESimProfile> ESim.GetProfiles()
 
 ## -examples
 
+## -capabilities
+Microsoft.eSIMManagement_8wekyb3d8bbwe

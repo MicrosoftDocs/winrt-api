@@ -19,3 +19,5 @@ public IAsyncOperation<ESimOperationResult> ESimProfile.DisableAsync()
 
 ## -examples
 
+## -capabilities
+Microsoft.eSIMManagement_8wekyb3d8bbwe

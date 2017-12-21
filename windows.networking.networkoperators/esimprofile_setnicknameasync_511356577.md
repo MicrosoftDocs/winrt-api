@@ -22,3 +22,5 @@ public IAsyncOperation<ESimOperationResult> ESimProfile.SetNicknameAsync(String 
 
 ## -examples
 
+## -capabilities
+Microsoft.eSIMManagement_8wekyb3d8bbwe

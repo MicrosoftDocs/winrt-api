@@ -10,8 +10,10 @@ public ESimProfilePolicy Policy { get; }
 # Windows.Networking.NetworkOperators.ESimProfile.Policy
 
 ## -description
+Gets the policy for the eSIM profile, regarding whether the profile can be disabled and/or deleted, and whether the policy is enterprise-managed.
 
 ## -property-value
+The policy for the eSIM profile.
 
 ## -remarks
 
@@ -19,3 +21,5 @@ public ESimProfilePolicy Policy { get; }
 
 ## -examples
 
+## -capabilities
+Microsoft.eSIMManagement_8wekyb3d8bbwe
