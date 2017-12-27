@@ -10,6 +10,7 @@ public event TypedEventHandler ProfileChanged<ESim,  object>
 # Windows.Networking.NetworkOperators.ESim.ProfileChanged
 
 ## -description
+Occurs when the collection of eSIM profiles changes, or when a property of one of the profiles in the collection changes.
 
 ## -remarks
 

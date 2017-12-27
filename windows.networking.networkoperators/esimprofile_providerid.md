@@ -10,10 +10,10 @@ public string ProviderId { get; }
 # Windows.Networking.NetworkOperators.ESimProfile.ProviderId
 
 ## -description
-Gets the id of the mobile network operator (MNO) provider for the eSIM profile.
+Gets the identifier (an MCC/MNC tuple) of the mobile network operator (MNO) provider for the eSIM profile.
 
 ## -property-value
-The id of the mobile network operator (MNO) provider for the eSIM profile.
+The identifier (an MCC/MNC tuple) of the mobile network operator (MNO) provider for the eSIM profile.
 
 ## -remarks
 

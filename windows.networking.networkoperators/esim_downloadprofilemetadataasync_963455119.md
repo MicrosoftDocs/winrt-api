@@ -10,11 +10,14 @@ public IAsyncOperation<ESimDownloadProfileMetadataResult> ESim.DownloadProfileMe
 # Windows.Networking.NetworkOperators.ESim.DownloadProfileMetadataAsync
 
 ## -description
+Asynchronously downloads installation metadata for the eSIM profile that corresponds to the specified activation code.
 
 ## -parameters
 ### -param activationCode
+The activation code for the eSIM profile installation metadata to download.
 
 ## -returns
+An asynchronous download operation. On successful completion, contains an [ESimDownloadProfileMetadataResult](esimdownloadprofilemetadataresult.md) object representing the result of the download operation.
 
 ## -remarks
 

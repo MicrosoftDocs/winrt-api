@@ -10,10 +10,10 @@ public IRandomAccessStreamReference ProviderIcon { get; }
 # Windows.Networking.NetworkOperators.ESimProfile.ProviderIcon
 
 ## -description
-Gets the icon of the mobile network operator (MNO) provider for the eSIM profile.
+Gets a memory buffer containing the icon of the mobile network operator (MNO) provider for the eSIM profile.
 
 ## -property-value
-The icon of the mobile network operator (MNO) provider for the eSIM profile.
+A memory buffer containing the icon of the mobile network operator (MNO) provider for the eSIM profile.
 
 ## -remarks
 

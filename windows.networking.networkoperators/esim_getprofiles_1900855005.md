@@ -10,8 +10,10 @@ public IVectorView<ESimProfile> ESim.GetProfiles()
 # Windows.Networking.NetworkOperators.ESim.GetProfiles
 
 ## -description
+Gets the set of profiles stored on the eSIM.
 
 ## -returns
+Zero, one, or more profiles stored on the eSIM.
 
 ## -remarks
 
