@@ -10,8 +10,10 @@ public ESimProfileState State { get; }
 # Windows.Networking.NetworkOperators.ESimProfile.State
 
 ## -description
+Gets the state of the eSIM profile, which indicates the presence and enabled status of the profile.
 
 ## -property-value
+The state (presence and enabled status) of the eSIM profile.
 
 ## -remarks
 

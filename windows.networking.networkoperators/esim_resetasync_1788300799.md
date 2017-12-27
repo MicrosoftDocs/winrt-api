@@ -10,8 +10,10 @@ public IAsyncOperation<ESimOperationResult> ESim.ResetAsync()
 # Windows.Networking.NetworkOperators.ESim.ResetAsync
 
 ## -description
+Asynchronously resets the eSIM.
 
 ## -returns
+An asynchronous reset operation. On successful completion, contains an [ESimOperationResult](esimoperationresult.md) object representing the result of the reset operation.
 
 ## -remarks
 

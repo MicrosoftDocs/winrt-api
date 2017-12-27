@@ -10,11 +10,14 @@ public IAsyncOperation<ESimOperationResult> ESimProfile.SetNicknameAsync(String 
 # Windows.Networking.NetworkOperators.ESimProfile.SetNicknameAsync
 
 ## -description
+Asynchronously sets the nickname of the eSIM profile.
 
 ## -parameters
 ### -param newNickname
+The nickname to set.
 
 ## -returns
+An asynchronous nickname set operation. On successful completion, contains an [ESimOperationResult](esimoperationresult.md) object representing the result of the nickname set operation.
 
 ## -remarks
 

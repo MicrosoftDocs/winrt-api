@@ -10,10 +10,10 @@ public bool ShouldEnableManagingUi { get; }
 # Windows.Networking.NetworkOperators.ESimPolicy.ShouldEnableManagingUi
 
 ## -description
-Gets a value indicating whether the eSIM policy represented by this object instance calls for the Local User Interface (LUI) for eSIM management to be enabled.
+Gets a value indicating whether the policy for the eSIM calls for the eSIM to be shown on the Local User Interface (LUI) for eSIM management.
 
 ## -property-value
-`true` if the policy calls for the LUI to be enabled, otherwise `false`.
+`true` if the policy calls for the eSIM to be shown on the LUI, otherwise `false`.
 
 ## -remarks
 
