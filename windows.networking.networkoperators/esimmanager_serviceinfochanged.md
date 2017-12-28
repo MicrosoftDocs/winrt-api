@@ -10,6 +10,7 @@ static public event EventHandler ServiceInfoChanged<object>
 # Windows.Networking.NetworkOperators.ESimManager.ServiceInfoChanged
 
 ## -description
+Occurs when a property of the service information object changes.
 
 ## -remarks
 

@@ -10,9 +10,10 @@ public IAsyncOperation<ESimOperationResult> ESimProfileMetadata.DenyInstallAsync
 # Windows.Networking.NetworkOperators.ESimProfileMetadata.DenyInstallAsync
 
 ## -description
-Deny the profile installation (profile is revoked at profile server)
+Asynchronously denies installation of the profile. The profile is revoked at the profile server.
 
 ## -returns
+An asynchronous deny-installation operation. On successful completion, contains an [ESimOperationResult](esimoperationresult.md) object representing the result of the deny-installation operation.
 
 ## -remarks
 

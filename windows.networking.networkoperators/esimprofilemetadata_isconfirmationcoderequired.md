@@ -13,6 +13,7 @@ public bool IsConfirmationCodeRequired { get; }
 Gets a value that indicates whether the profile requires a confirmation to download.
 
 ## -property-value
+`true` if the profile requires a confirmation to download, otherwise `false`.
 
 ## -remarks
 

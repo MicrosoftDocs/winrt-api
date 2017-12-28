@@ -10,6 +10,7 @@ public event TypedEventHandler Stopped<ESimWatcher,  object>
 # Windows.Networking.NetworkOperators.ESimWatcher.Stopped
 
 ## -description
+Occurs when the eSIM watcher is stopped.
 
 ## -remarks
 

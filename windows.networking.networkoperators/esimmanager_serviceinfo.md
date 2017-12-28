@@ -10,9 +10,10 @@ public ESimServiceInfo ServiceInfo { get; }
 # Windows.Networking.NetworkOperators.ESimManager.ServiceInfo
 
 ## -description
-Gets service information.
+Gets service information for the eSIM manager object.
 
 ## -property-value
+Service information for the eSIM manager object.
 
 ## -remarks
 

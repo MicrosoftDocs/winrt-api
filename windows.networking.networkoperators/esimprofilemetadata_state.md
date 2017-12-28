@@ -10,9 +10,10 @@ public ESimProfileMetadataState State { get; }
 # Windows.Networking.NetworkOperators.ESimProfileMetadata.State
 
 ## -description
-Profile metadata state
+Gets the state of the eSIM profile metadata.
 
 ## -property-value
+The state of the eSIM profile metadata.
 
 ## -remarks
 

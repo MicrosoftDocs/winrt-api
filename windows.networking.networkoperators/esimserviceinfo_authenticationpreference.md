@@ -10,9 +10,10 @@ public ESimAuthenticationPreference AuthenticationPreference { get; }
 # Windows.Networking.NetworkOperators.ESimServiceInfo.AuthenticationPreference
 
 ## -description
-The authentication preference
+Gets a value indicating the condition under which the user should be challenged for eSIM authentication credentials.
 
 ## -property-value
+A value indicating the condition under which the user should be challenged for eSIM authentication credentials.
 
 ## -remarks
 

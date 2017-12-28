@@ -10,6 +10,7 @@ public class ESimServiceInfo
 # Windows.Networking.NetworkOperators.ESimServiceInfo
 
 ## -description
+A class that represents service information for an eSIM.
 
 ## -remarks
 

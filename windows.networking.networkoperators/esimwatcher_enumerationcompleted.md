@@ -10,6 +10,7 @@ public event TypedEventHandler EnumerationCompleted<ESimWatcher,  object>
 # Windows.Networking.NetworkOperators.ESimWatcher.EnumerationCompleted
 
 ## -description
+Occurs when the watcher has finished enumerating the collection of [ESim](esim.md) objects carried by the device.
 
 ## -remarks
 
