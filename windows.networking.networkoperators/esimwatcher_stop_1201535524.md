@@ -10,7 +10,7 @@ public void ESimWatcher.Stop()
 # Windows.Networking.NetworkOperators.ESimWatcher.Stop
 
 ## -description
-Stop eSIM watcher
+Stops the eSIM watcher watching for eSIMs being added to the device, removed from it, or updated.
 
 ## -remarks
 

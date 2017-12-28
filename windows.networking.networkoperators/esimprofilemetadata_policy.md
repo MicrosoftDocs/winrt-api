@@ -10,9 +10,10 @@ public ESimProfilePolicy Policy { get; }
 # Windows.Networking.NetworkOperators.ESimProfileMetadata.Policy
 
 ## -description
-Profile-specific policy.
+Gets the policy for an eSIM profile.
 
 ## -property-value
+The policy for an eSIM profile.
 
 ## -remarks
 

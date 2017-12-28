@@ -10,9 +10,10 @@ public bool IsESimUiEnabled { get; }
 # Windows.Networking.NetworkOperators.ESimServiceInfo.IsESimUiEnabled
 
 ## -description
-Whether enterprise has pushed down the policy to ban LUI
+Gets a value indicating whether the policy for the eSIM calls for the eSIM to be shown on the Local User Interface (LUI) for eSIM management.
 
 ## -property-value
+`true` if the policy calls for the eSIM to be shown on the LUI, otherwise `false`.
 
 ## -remarks
 

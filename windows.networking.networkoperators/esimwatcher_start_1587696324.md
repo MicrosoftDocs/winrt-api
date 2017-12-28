@@ -10,7 +10,7 @@ public void ESimWatcher.Start()
 # Windows.Networking.NetworkOperators.ESimWatcher.Start
 
 ## -description
-Start eSIM watcher
+Starts the eSIM watcher watching for eSIMs being added to the device, removed from it, or updated.
 
 ## -remarks
 

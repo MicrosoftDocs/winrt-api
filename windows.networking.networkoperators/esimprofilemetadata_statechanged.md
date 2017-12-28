@@ -10,6 +10,7 @@ public event TypedEventHandler StateChanged<ESimProfileMetadata,  object>
 # Windows.Networking.NetworkOperators.ESimProfileMetadata.StateChanged
 
 ## -description
+Occurs when the state of the eSIM profile metadata changes.
 
 ## -remarks
 

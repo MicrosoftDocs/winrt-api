@@ -10,9 +10,10 @@ public ESimWatcherStatus Status { get; }
 # Windows.Networking.NetworkOperators.ESimWatcher.Status
 
 ## -description
-Status of eSim watcher
+Gets the status of the eSIM watcher.
 
 ## -property-value
+The status of the eSIM watcher.
 
 ## -remarks
 
