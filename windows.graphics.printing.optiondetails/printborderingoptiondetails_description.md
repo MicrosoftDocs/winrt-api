@@ -13,7 +13,11 @@ public string Description { get;  set; }
 
 ## -property-value
 
+Gets or sets a description of the print bordering option.
+
 ## -remarks
+
+String containing the description.
 
 ## -see-also
 

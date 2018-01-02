@@ -11,7 +11,11 @@ public object Value { get; }
 
 ## -description
 
+Gets or sets the enumerated value of the print custom toggle option. 
+
 ## -property-value
+
+The custom toggle value.
 
 ## -remarks
 

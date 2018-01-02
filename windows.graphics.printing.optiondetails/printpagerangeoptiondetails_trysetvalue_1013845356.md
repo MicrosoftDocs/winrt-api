@@ -11,10 +11,16 @@ public bool PrintPageRangeOptionDetails.TrySetValue(Object value)
 
 ## -description
 
+Sets the value for the print page range option.
+
 ## -parameters
 ### -param value
 
+Value for the print page range option
+
 ## -returns
+
+Boolean value that indicates TRUE for a successful Get or Set, and FALSE for a failed Get or Set.
 
 ## -remarks
 

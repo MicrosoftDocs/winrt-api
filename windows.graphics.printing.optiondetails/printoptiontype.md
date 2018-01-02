@@ -28,6 +28,7 @@ A type of option that is a list of items.
 
 
 ### -field Toggle:4
+A type of option that is a toggle.
 
 
 ## -remarks

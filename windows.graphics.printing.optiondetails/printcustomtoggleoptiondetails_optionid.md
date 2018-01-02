@@ -11,7 +11,11 @@ public string OptionId { get; }
 
 ## -description
 
+Gets the ID of the print custom toggle option.
+
 ## -property-value
+
+The ID of the print custom toggle option.
 
 ## -remarks
 

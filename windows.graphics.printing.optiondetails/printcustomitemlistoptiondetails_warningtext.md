@@ -11,7 +11,11 @@ public string WarningText { get;  set; }
 
 ## -description
 
+Gets or sets a string for a warning condition.
+
 ## -property-value
+
+String that describes a warning condition.
 
 ## -remarks
 

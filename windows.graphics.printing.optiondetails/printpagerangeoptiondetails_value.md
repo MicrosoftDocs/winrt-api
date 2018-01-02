@@ -11,7 +11,11 @@ public object Value { get; }
 
 ## -description
 
+Gets the enumerated value of the print page range option.
+
 ## -property-value
+
+The enumerated value of the print page range option.
 
 ## -remarks
 

@@ -11,7 +11,11 @@ public string Description { get;  set; }
 
 ## -description
 
+Gets or sets the description of the print media type option.
+
 ## -property-value
+
+String that describes the print media type option.
 
 ## -remarks
 

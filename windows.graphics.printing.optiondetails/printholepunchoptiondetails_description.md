@@ -11,7 +11,11 @@ public string Description { get;  set; }
 
 ## -description
 
+Gets or sets the description of the hole punch option.
+
 ## -property-value
+
+String containing the description.
 
 ## -remarks
 

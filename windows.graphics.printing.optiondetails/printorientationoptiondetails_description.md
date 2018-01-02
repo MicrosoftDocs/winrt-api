@@ -11,7 +11,11 @@ public string Description { get;  set; }
 
 ## -description
 
+Gets or sets a description of the print orientation options.
+
 ## -property-value
+
+String describing the print orientation options.
 
 ## -remarks
 

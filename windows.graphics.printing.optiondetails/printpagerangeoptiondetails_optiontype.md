@@ -11,7 +11,11 @@ public PrintOptionType OptionType { get; }
 
 ## -description
 
+Gets the option type for teh print page range option.
+
 ## -property-value
+
+The option type.
 
 ## -remarks
 

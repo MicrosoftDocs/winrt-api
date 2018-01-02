@@ -11,6 +11,8 @@ public class PrintPageRangeOptionDetails : IPrintOptionDetails
 
 ## -description
 
+Represents the list of print page range options.
+
 ## -remarks
 
 ## -see-also

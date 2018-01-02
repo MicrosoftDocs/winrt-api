@@ -11,7 +11,11 @@ public string DisplayName { get;  set; }
 
 ## -description
 
+Gets or sets the display name for the print custom toggle option.
+
 ## -property-value
+
+A string containing the print custom toggle option display name.
 
 ## -remarks
 

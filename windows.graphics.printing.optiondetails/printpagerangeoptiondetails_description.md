@@ -11,7 +11,11 @@ public string Description { get;  set; }
 
 ## -description
 
+Gets or sets a description of the print page range option.
+
 ## -property-value
+
+String that describes the print page range option.
 
 ## -remarks
 

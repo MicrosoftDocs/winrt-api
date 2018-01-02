@@ -11,7 +11,11 @@ public string Description { get;  set; }
 
 ## -description
 
+Gets or sets a description of the print custom text option.
+
 ## -property-value
+
+String containing the description.
 
 ## -remarks
 

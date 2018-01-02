@@ -11,6 +11,8 @@ public class PrintCustomToggleOptionDetails : IPrintCustomOptionDetails, IPrintO
 
 ## -description
 
+Represents the list of print custom toggle options.
+
 ## -remarks
 
 ## -see-also

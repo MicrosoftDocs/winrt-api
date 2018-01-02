@@ -11,7 +11,11 @@ public PrintOptionStates State { get;  set; }
 
 ## -description
 
+Gets or sets the state for the print page range option.
+
 ## -property-value
+
+The state of the print page range option.
 
 ## -remarks
 

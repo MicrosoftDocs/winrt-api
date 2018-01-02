@@ -11,7 +11,11 @@ public string OptionId { get; }
 
 ## -description
 
+Gets the ID of the print page range option.
+
 ## -property-value
+
+The ID for the print page range option.
 
 ## -remarks
 

@@ -11,7 +11,11 @@ public string ErrorText { get;  set; }
 
 ## -description
 
+Gets or sets the string for an error condition.
+
 ## -property-value
+
+String that describes an error condition.
 
 ## -remarks
 

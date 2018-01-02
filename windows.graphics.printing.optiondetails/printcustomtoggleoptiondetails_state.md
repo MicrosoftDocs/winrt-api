@@ -11,7 +11,11 @@ public PrintOptionStates State { get;  set; }
 
 ## -description
 
+Gets or sets the state of the print custom toggle option.
+
 ## -property-value
+
+The print option state.
 
 ## -remarks
 

@@ -11,10 +11,16 @@ public PrintCustomToggleOptionDetails PrintTaskOptionDetails.CreateToggleOption(
 
 ## -description
 
+Creates a [PrintCustomToggleOptionDetails](printcustomtoggleoptiondetails.md) object to handle the display name and other parameters of the advanced print task option item.
+
 ## -parameters
 ### -param optionId
 
+The ID of the print task option.
+
 ### -param displayName
+
+The display name of the print task option.
 
 ## -returns
 

@@ -11,7 +11,11 @@ public PrintOptionType OptionType { get; }
 
 ## -description
 
+Gets the option type for the print custom toggle option.
+
 ## -property-value
+
+The print option type.
 
 ## -remarks
 
