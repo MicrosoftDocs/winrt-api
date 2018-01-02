@@ -9,15 +9,19 @@ public string Description { get;  set; }
 
 # Windows.Graphics.Printing.OptionDetails.PrintBorderingOptionDetails.Description
 
-## -description
 
-## -property-value
+
+## -description
 
 Gets or sets a description of the print bordering option.
 
-## -remarks
+## -property-value
 
 String containing the description.
+
+## -remarks
+
+
 
 ## -see-also
 
