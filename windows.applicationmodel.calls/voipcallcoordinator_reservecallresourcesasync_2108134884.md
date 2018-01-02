@@ -22,7 +22,7 @@ The result of the reservation action.
 ## -remarks
 Use this method when your VoIP application receives an incoming call notification, or before creating an outgoing VoIP call.
 
-Each call requires seperate resources. To handle multiple VoIP calls simultaeneously, you must invoke this method once for each call.
+Each call requires separate resources. To handle multiple VoIP calls simultaneously, you must invoke this method once for each call.
 
 Resources are freed automatically when a call is completed.
 
