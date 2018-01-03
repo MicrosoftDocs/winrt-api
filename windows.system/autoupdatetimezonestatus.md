@@ -34,7 +34,7 @@ You can alternatively include a way for the user to set the time zone at a later
 ## -remarks
 
 ## -see-also
-[TimeZoneSettings](timezonesettings)
+[TimeZoneSettings](timezonesettings.md)
 
 ## -examples
 
