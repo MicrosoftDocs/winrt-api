@@ -10,8 +10,10 @@ public AudioStreamDescriptor AudioStreamDescriptor.Copy()
 # Windows.Media.Core.AudioStreamDescriptor.Copy
 
 ## -description
+Creates a copy of the [AudioStreamDescriptor](audiostreamdescriptor.md).
 
 ## -returns
+A copy of the [AudioStreamDescriptor](audiostreamdescriptor.md).
 
 ## -remarks
 

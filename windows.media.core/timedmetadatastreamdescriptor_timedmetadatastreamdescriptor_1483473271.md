@@ -10,9 +10,11 @@ public TimedMetadataStreamDescriptor.TimedMetadataStreamDescriptor(TimedMetadata
 # Windows.Media.Core.TimedMetadataStreamDescriptor.TimedMetadataStreamDescriptor
 
 ## -description
+Creates an instance of the [TimedMetadataStreamDescriptor](timedmetadatastreamdescriptor.md) class using the specified [TimedMetadataEncodingProperties](../windows.media.mediaproperties/timedmetadataencodingproperties.md).
 
 ## -parameters
 ### -param encodingProperties
+The encoding properties for the timed metadata stream. 
 
 ## -remarks
 

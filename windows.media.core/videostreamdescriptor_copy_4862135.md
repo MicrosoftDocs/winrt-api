@@ -10,8 +10,11 @@ public VideoStreamDescriptor VideoStreamDescriptor.Copy()
 # Windows.Media.Core.VideoStreamDescriptor.Copy
 
 ## -description
+## -description
+Creates a copy of the [Windows.Media.Core.VideoStreamDescriptor](videostreamdescriptor.md).
 
 ## -returns
+A copy of the [Windows.Media.Core.VideoStreamDescriptor](videostreamdescriptor.md).
 
 ## -remarks
 

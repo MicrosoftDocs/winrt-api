@@ -10,11 +10,11 @@ public VideoStreamDescriptor(Windows.Media.MediaProperties.VideoEncodingProperti
 # Windows.Media.Core.VideoStreamDescriptor.VideoStreamDescriptor
 
 ## -description
-Creates an instance of the [VideoEncodingProperties](../windows.media.mediaproperties/videoencodingproperties.md) class using the specified video encoding.
+Creates an instance of the [VideoStreamDescriptor](videostreamdescriptor.md) class using the specified [VideoEncodingProperties](../windows.media.mediaproperties/videoencodingproperties.md).
 
 ## -parameters
 ### -param encodingProperties
-The encoding properties for the video stream.
+The encoding properties for the video stream. This includes information such as the resolution and frame rate of the content.
 
 ## -remarks
 
