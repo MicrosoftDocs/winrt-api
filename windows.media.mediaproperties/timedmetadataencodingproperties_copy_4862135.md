@@ -10,8 +10,10 @@ public TimedMetadataEncodingProperties TimedMetadataEncodingProperties.Copy()
 # Windows.Media.MediaProperties.TimedMetadataEncodingProperties.Copy
 
 ## -description
+Creates a copy of the **TimedMetadataEncodingProperties** object.
 
 ## -returns
+A copy of the **TimedMetadataEncodingProperties** object.
 
 ## -remarks
 

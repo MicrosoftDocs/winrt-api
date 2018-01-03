@@ -10,8 +10,10 @@ public IVector<TimedMetadataStreamDescriptor> MediaEncodingProfile.GetTimedMetad
 # Windows.Media.MediaProperties.MediaEncodingProfile.GetTimedMetadataTracks
 
 ## -description
+Retrieves the list of [TimedMetadataStreamDescriptor](../windows.media.core/timedmetadatastreamdescriptor.md) objects describing the timed metadata streams included in the **MediaEncodingProfile**.
 
 ## -returns
+A list of [TimedMetadataStreamDescriptor](../windows.media.core/timedmetadatastreamdescriptor.md) objects.
 
 ## -remarks
 

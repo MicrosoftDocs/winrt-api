@@ -10,9 +10,10 @@ public VideoEncodingProperties VideoEncodingProperties.Copy()
 # Windows.Media.MediaProperties.VideoEncodingProperties.Copy
 
 ## -description
+Creates a copy of the **VideoEncodingProperties** object.
 
 ## -returns
-
+A copy of the **VideoEncodingProperties** object.
 ## -remarks
 
 ## -see-also

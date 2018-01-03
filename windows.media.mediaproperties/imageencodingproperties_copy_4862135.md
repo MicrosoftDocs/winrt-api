@@ -10,8 +10,10 @@ public ImageEncodingProperties ImageEncodingProperties.Copy()
 # Windows.Media.MediaProperties.ImageEncodingProperties.Copy
 
 ## -description
+Creates a copy of the **ImageEncodingProperties** object.
 
 ## -returns
+A copy of the **ImageEncodingProperties** object.
 
 ## -remarks
 
