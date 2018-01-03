@@ -21,7 +21,7 @@ The recommended time-out value is 60 seconds.
 ## -returns
 
 ## -remarks
-You can run this method at start up to set the set the time zone without prompting users for information.
+You can run this method at start up to set the time zone without prompting users for information.
 
 This method does not necessarily change the time zone or find the correct time zone. 
 For the results of the attempt, see the [AutoUpdateTimeZoneStatus](autoupdatetimezonestatus.md) enumeration.
