@@ -10,10 +10,10 @@ public string ConnectionId { get; }
 # Windows.ApplicationModel.Activation.IBarcodeScannerPreviewActivatedEventArgs.ConnectionId
 
 ## -description
-A connection ID.
+Gets a connection ID used to match the service connection.
 
 ## -property-value
-The ID of the connection. 
+A connection ID. 
 
 ## -remarks
 

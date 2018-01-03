@@ -10,7 +10,7 @@ public User User { get; }
 # Windows.ApplicationModel.Activation.BarcodeScannerPreviewActivatedEventArgs.User
 
 ## -description
-Specifies the user for the barcode scanner preview.
+Gets the user for the barcode scanner preview.
 
 ## -property-value
 The user. 

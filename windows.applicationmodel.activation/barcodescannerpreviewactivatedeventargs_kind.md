@@ -10,7 +10,7 @@ public ActivationKind Kind { get; }
 # Windows.ApplicationModel.Activation.BarcodeScannerPreviewActivatedEventArgs.Kind
 
 ## -description
-Specifies the kind of activation.
+Gets the activation type.
 
 ## -property-value
 Activation kind.
