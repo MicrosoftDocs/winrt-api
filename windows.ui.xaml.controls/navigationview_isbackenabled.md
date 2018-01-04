@@ -21,7 +21,7 @@ Gets or sets a value that indicates whether the back button is enabled or disabl
 
 ## -property-value
 
-true if the back button is enabled; otherwise, false. false by default.
+**true** if the back button is enabled; otherwise, **false**. The default is **false**.
 
 ## -remarks
 
