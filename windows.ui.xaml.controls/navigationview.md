@@ -22,7 +22,7 @@ Represents a container that enables navigation of app content. It has a header, 
 ## -remarks
 
 ## -see-also
-[Guidelines for navigation view](https://docs.microsoft.com/en-us/windows/uwp/controls-and-patterns/navigationview)
+[Guidelines for navigation view](https://docs.microsoft.com/en-us/windows/uwp/controls-and-patterns/navigationview), [Back button in NavigationView](https://docs.microsoft.com/windows/uwp/design/basics/navigation-history-and-backwards-navigation)
 
 ## -examples
 
