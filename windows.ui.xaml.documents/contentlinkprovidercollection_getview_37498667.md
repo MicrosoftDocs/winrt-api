@@ -11,7 +11,11 @@ public IVectorView<ContentLinkProvider> ContentLinkProviderCollection.GetView()
 
 ## -description
 
+Gets an immutable view into the collection.
+
 ## -returns
+
+An object representing the immutable collection view.
 
 ## -remarks
 

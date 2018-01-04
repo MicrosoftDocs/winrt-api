@@ -11,6 +11,8 @@ public ContentLinkProviderCollection.ContentLinkProviderCollection()
 
 ## -description
 
+Initializes a new instance of the ContentLinkProviderCollection class.
+
 ## -remarks
 
 ## -see-also

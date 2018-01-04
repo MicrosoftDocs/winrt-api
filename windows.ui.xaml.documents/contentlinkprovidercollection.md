@@ -9,6 +9,8 @@ public class ContentLinkProviderCollection : IIterable<ContentLinkProvider>, IVe
 
 # Windows.UI.Xaml.Documents.ContentLinkProviderCollection
 
+Represents an ordered collection of [ContentLinkProvider](contentlinkprovider.md) values.
+
 ## -description
 
 ## -remarks

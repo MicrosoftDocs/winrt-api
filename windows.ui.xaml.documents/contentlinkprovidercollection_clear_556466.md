@@ -11,6 +11,8 @@ public void ContentLinkProviderCollection.Clear()
 
 ## -description
 
+Removes all items from the collection.
+
 ## -remarks
 
 ## -see-also
