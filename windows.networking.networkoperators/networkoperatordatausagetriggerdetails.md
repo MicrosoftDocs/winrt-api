@@ -1,16 +1,16 @@
 ---
--api-id: M:Windows.ApplicationModel.Background.NetworkOperatorDataUsageTrigger.#ctor
--api-type: winrt method
+-api-id: T:Windows.Networking.NetworkOperators.NetworkOperatorDataUsageTriggerDetails
+-api-type: winrt class
 ---
 
-<!-- Method syntax.
-public NetworkOperatorDataUsageTrigger.NetworkOperatorDataUsageTrigger()
+<!-- Class syntax.
+public class NetworkOperatorDataUsageTriggerDetails 
 -->
 
-# Windows.ApplicationModel.Background.NetworkOperatorDataUsageTrigger.NetworkOperatorDataUsageTrigger
+# Windows.Networking.NetworkOperators.NetworkOperatorDataUsageTriggerDetails
 
 ## -description
-Initializes a new instance of a mobile network operator data usage trigger.
+Provides details about the data usage change that activated a [NetworkOperatorDataUsageTrigger](../windows.applicationmodel.background/networkoperatordatausagetrigger.md).
 
 > [!NOTE]
 > This functionality is only available to mobile operator apps and UWP apps given privileged access by mobile network operators.
