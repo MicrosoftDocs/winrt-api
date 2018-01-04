@@ -10,8 +10,10 @@ public IAsyncOperation<string> DialReceiverApp.GetUniqueDeviceNameAsync()
 # Windows.Media.DialProtocol.DialReceiverApp.GetUniqueDeviceNameAsync
 
 ## -description
+Asynchronously gets the unique device name of the DIAL server device.
 
 ## -returns
+An asynchronous operation that returns a string on completion.
 
 ## -remarks
 
