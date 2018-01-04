@@ -10,6 +10,7 @@ public event TypedEventHandler Closed<ServerStreamWebSocket, WebSocketClosedEven
 # Windows.Networking.Sockets.ServerStreamWebSocket.Closed
 
 ## -description
+Occurs when a close frame is received on the [ServerStreamWebSocket](serverstreamwebsocket.md) object as part of the close handshake.
 
 ## -remarks
 
@@ -17,3 +18,5 @@ public event TypedEventHandler Closed<ServerStreamWebSocket, WebSocketClosedEven
 
 ## -examples
 
+## -capabilities
+internetClientServer, privateNetworkClientServer

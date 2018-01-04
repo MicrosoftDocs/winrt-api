@@ -10,6 +10,7 @@ public void ServerMessageWebSocket.Close()
 # Windows.Networking.Sockets.ServerMessageWebSocket.Close
 
 ## -description
+Closes the [ServerMessageWebSocket](servermessagewebsocket.md) object and sends an empty close frame to the server.
 
 ## -remarks
 
@@ -17,3 +18,5 @@ public void ServerMessageWebSocket.Close()
 
 ## -examples
 
+## -capabilities
+internetClientServer, privateNetworkClientServer

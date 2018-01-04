@@ -10,8 +10,10 @@ public ServerMessageWebSocketControl Control { get; }
 # Windows.Networking.Sockets.ServerMessageWebSocket.Control
 
 ## -description
+Gets socket control data on a [ServerMessageWebSocket](servermessagewebsocket.md) object.
 
 ## -property-value
+Socket control data on a [ServerMessageWebSocket](servermessagewebsocket.md) object.
 
 ## -remarks
 
@@ -19,3 +21,5 @@ public ServerMessageWebSocketControl Control { get; }
 
 ## -examples
 
+## -capabilities
+internetClientServer, privateNetworkClientServer

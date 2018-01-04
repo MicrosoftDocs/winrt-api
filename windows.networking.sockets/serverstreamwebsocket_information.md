@@ -10,8 +10,10 @@ public ServerStreamWebSocketInformation Information { get; }
 # Windows.Networking.Sockets.ServerStreamWebSocket.Information
 
 ## -description
+Gets socket information on a [ServerStreamWebSocket](serverstreamwebsocket.md) object.
 
 ## -property-value
+Socket information on a [ServerStreamWebSocket](serverstreamwebsocket.md) object.
 
 ## -remarks
 
@@ -19,3 +21,5 @@ public ServerStreamWebSocketInformation Information { get; }
 
 ## -examples
 
+## -capabilities
+internetClientServer, privateNetworkClientServer

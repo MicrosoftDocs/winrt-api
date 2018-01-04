@@ -10,8 +10,10 @@ public IOutputStream OutputStream { get; }
 # Windows.Networking.Sockets.ServerStreamWebSocket.OutputStream
 
 ## -description
+Gets the output stream to write to the remote network destination on a [ServerStreamWebSocket](serverstreamwebsocket.md) object.
 
 ## -property-value
+A sequential stream of bytes to be written to the remote destination.
 
 ## -remarks
 
@@ -19,3 +21,5 @@ public IOutputStream OutputStream { get; }
 
 ## -examples
 
+## -capabilities
+internetClientServer, privateNetworkClientServer

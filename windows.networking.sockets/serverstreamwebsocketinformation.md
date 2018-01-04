@@ -10,10 +10,14 @@ public class ServerStreamWebSocketInformation
 # Windows.Networking.Sockets.ServerStreamWebSocketInformation
 
 ## -description
+Provides socket information on a [ServerStreamWebSocket](serverstreamwebsocket.md) object.
 
 ## -remarks
 
 ## -see-also
+[WebSockets](/windows/uwp/networking/websockets?branch=live), [StreamWebSocketInformationClass](streamwebsocketinformation.md)
 
 ## -examples
 
+## -capabilities
+internetClientServer, privateNetworkClientServer

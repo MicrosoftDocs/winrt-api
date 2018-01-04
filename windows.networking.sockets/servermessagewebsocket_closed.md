@@ -10,6 +10,7 @@ public event TypedEventHandler Closed<ServerMessageWebSocket, WebSocketClosedEve
 # Windows.Networking.Sockets.ServerMessageWebSocket.Closed
 
 ## -description
+Occurs when a close frame is received on the [ServerMessageWebSocket](servermessagewebsocket.md) object as part of the close handshake.
 
 ## -remarks
 
@@ -17,3 +18,5 @@ public event TypedEventHandler Closed<ServerMessageWebSocket, WebSocketClosedEve
 
 ## -examples
 
+## -capabilities
+internetClientServer, privateNetworkClientServer

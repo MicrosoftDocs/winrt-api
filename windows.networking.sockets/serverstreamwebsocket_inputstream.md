@@ -10,8 +10,10 @@ public IInputStream InputStream { get; }
 # Windows.Networking.Sockets.ServerStreamWebSocket.InputStream
 
 ## -description
+Gets the input stream to read from the remote destination on a [ServerStreamWebSocket](serverstreamwebsocket.md) object.
 
 ## -property-value
+A sequential stream of bytes to be read from the remote destination.
 
 ## -remarks
 
@@ -19,3 +21,5 @@ public IInputStream InputStream { get; }
 
 ## -examples
 
+## -capabilities
+internetClientServer, privateNetworkClientServer

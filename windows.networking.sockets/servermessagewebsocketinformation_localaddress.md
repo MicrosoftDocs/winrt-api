@@ -10,8 +10,10 @@ public HostName LocalAddress { get; }
 # Windows.Networking.Sockets.ServerMessageWebSocketInformation.LocalAddress
 
 ## -description
+Gets the IP address associated with a [ServerMessageWebSocket](servermessagewebsocket.md) object.
 
 ## -property-value
+The IP address associated with a [ServerMessageWebSocket](servermessagewebsocket.md) object.
 
 ## -remarks
 
@@ -19,3 +21,5 @@ public HostName LocalAddress { get; }
 
 ## -examples
 
+## -capabilities
+internetClientServer, privateNetworkClientServer

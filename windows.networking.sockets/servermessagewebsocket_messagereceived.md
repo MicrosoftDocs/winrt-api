@@ -10,6 +10,7 @@ public event TypedEventHandler MessageReceived<ServerMessageWebSocket, MessageWe
 # Windows.Networking.Sockets.ServerMessageWebSocket.MessageReceived
 
 ## -description
+An event that indicates that a message was received on the [ServerMessageWebSocket](servermessagewebsocket.md) object.
 
 ## -remarks
 
@@ -17,3 +18,5 @@ public event TypedEventHandler MessageReceived<ServerMessageWebSocket, MessageWe
 
 ## -examples
 
+## -capabilities
+internetClientServer, privateNetworkClientServer
