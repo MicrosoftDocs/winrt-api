@@ -13,7 +13,7 @@ public Windows.UI.ViewManagement.FullScreenSystemOverlayMode FullScreenSystemOve
 Gets or sets a value that indicates how an app in full-screen mode responds to edge swipe actions.
 
 ## -property-value
-An enumeration value that indicates how an app in full-screen mode responds to edge swipe actions.
+A value from the [FullScreenSystemOverlayMode](fullscreensystemoverlaymode.md) enumeration that indicates how an app in full-screen mode responds to edge swipe actions.
 
 ## -remarks
 

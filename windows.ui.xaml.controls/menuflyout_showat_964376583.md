@@ -34,7 +34,7 @@ Some properties might not flow as expected, such as [FlowDirection](../windows.u
 To position the menu relative to a UI element, specify the element and offset.
 
 ```csharp
-MenuFlyout.ShowAt(element, new Point(0,0);
+MenuFlyout.ShowAt(element, new Point(0,0));
 ```
 
 To position the menu relative to the application window, set the *targetElement* parameter to **null**.
