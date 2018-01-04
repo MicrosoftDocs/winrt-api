@@ -11,7 +11,7 @@ public string PaneTitle { get;  set; }
 
 ## -description
 
-Gets or sets the label adjacent to the hamburger icon when the NavigationView pane is open.
+Gets or sets the label adjacent to the menu icon when the NavigationView pane is open.
 
 ## -xaml-syntax
 
@@ -21,7 +21,7 @@ Gets or sets the label adjacent to the hamburger icon when the NavigationView pa
 
 ## -property-value
 
-The label adjacent to hamburger when the pane is open. The default is an empty string.
+The label adjacent to the menu icon when the pane is open. The default is an empty string.
 
 ## -remarks
 
