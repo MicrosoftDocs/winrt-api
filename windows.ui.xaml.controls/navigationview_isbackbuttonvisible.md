@@ -21,7 +21,7 @@ Gets or sets a value that indicates whether the back button is enabled or disabl
 
 ## -property-value
 
-A value of the enumeration that specifies the visibility of the NavigationView back button. "Auto" by default, to tailor visibility depending on device.
+A value of the enumeration that specifies the visibility of the NavigationView back button. The default is "Auto".
 
 ## -remarks
 
