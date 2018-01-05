@@ -23,4 +23,4 @@ If you do the work to ensure that the focused element isn't covered, be sure to 
 ## -examples
 
 ## -see-also
-[Responding to the appearance of the on-screen keyboard sample](http://go.microsoft.com/fwlink/p/?linkid=231633)
+[Touch keyboard sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/TouchKeyboard)
