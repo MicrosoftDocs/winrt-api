@@ -14,7 +14,7 @@ Creates an instance of [AudioStreamDescriptor](audiostreamdescriptor.md) class u
 
 ## -parameters
 ### -param encodingProperties
-The encoding properties for the audio stream.
+The encoding properties for the audio stream. This includes information such as the sample rate and channel count of the stream.
 
 ## -remarks
 
