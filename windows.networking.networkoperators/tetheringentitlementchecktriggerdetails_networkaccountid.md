@@ -10,8 +10,10 @@ public string NetworkAccountId { get; }
 # Windows.Networking.NetworkOperators.TetheringEntitlementCheckTriggerDetails.NetworkAccountId
 
 ## -description
+Gets a value specifying the network account ID (SSID), which is a unique identifier for the mobile broadband account that received the notification.
 
 ## -property-value
+A value specifying the network account ID (SSID).
 
 ## -remarks
 
@@ -19,3 +21,5 @@ public string NetworkAccountId { get; }
 
 ## -examples
 
+## -capabilities
+networkConnectionManagerProvisioning

@@ -10,6 +10,7 @@ public class TetheringEntitlementCheckTriggerDetails
 # Windows.Networking.NetworkOperators.TetheringEntitlementCheckTriggerDetails
 
 ## -description
+Provides details about the tethering event that activated a [TetheringEntitlementCheckTrigger](../windows.applicationmodel.background/tetheringentitlementchecktrigger.md).
 
 ## -remarks
 
@@ -17,3 +18,5 @@ public class TetheringEntitlementCheckTriggerDetails
 
 ## -examples
 
+## -capabilities
+networkConnectionManagerProvisioning
