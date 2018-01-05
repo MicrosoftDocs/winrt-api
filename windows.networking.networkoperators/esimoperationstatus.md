@@ -46,8 +46,8 @@ Indicates that the wrong confirmation code was supplied during the operation.
 ### -field ConfirmationCodeMaxRetriesExceeded:9
 Indicates that the wrong confirmation code was supplied during the operation, and that no more retries are permitted.
 
-### -field CardNotExist:10
-Indicates that the SIM card doesn't exist.
+### -field CardRemoved:10
+Indicates that the SIM card has been removed.
 
 ### -field CardBusy:11
 Indicates that the SIM card is busy.

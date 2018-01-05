@@ -10,12 +10,14 @@ public string ProfileName { get;  set; }
 # Windows.Networking.Connectivity.CellularApnContext.ProfileName
 
 ## -description
+Gets the name of a cellular profile.
 
 ## -property-value
+The name of a cellular profile.
 
 ## -remarks
 
 ## -see-also
+[NetworkInformation.FindConnectionProfilesAsync](https://docs.microsoft.com/uwp/api/windows.networking.connectivity.networkinformation#Windows_Networking_Connectivity_NetworkInformation_FindConnectionProfilesAsync_Windows_Networking_Connectivity_ConnectionProfileFilter_)
 
 ## -examples
-

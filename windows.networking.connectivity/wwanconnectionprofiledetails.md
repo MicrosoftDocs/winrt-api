@@ -14,7 +14,7 @@ Used to access information specific to a WWAN connection.
 
 ## -remarks
 
-
 ## -examples
 
 ## -see-also
+[ConnectionProfile.WwanConnectionProfileDetails](https://docs.microsoft.com/en-us/uwp/api/windows.networking.connectivity.connectionprofile#Windows_Networking_Connectivity_ConnectionProfile_WwanConnectionProfileDetails)

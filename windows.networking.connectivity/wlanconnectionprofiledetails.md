@@ -14,7 +14,6 @@ Used to access information specific to a WLAN connection.
 
 ## -remarks
 
-
 ## -examples
 
 ## -see-also

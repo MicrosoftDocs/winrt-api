@@ -10,8 +10,10 @@ public WwanNetworkIPKind IPKind { get; }
 # Windows.Networking.Connectivity.WwanConnectionProfileDetails.IPKind
 
 ## -description
+Gets a value that describes a level of supported IP.
 
 ## -property-value
+A value that describes a level of supported IP.
 
 ## -remarks
 
