@@ -23,9 +23,9 @@ An array of the Store ID strings for the products for which you want to retrieve
 An asynchronous operation that, on successful completion, returns a [StoreProductQueryResult](storeproductqueryresult.md) object that contains listing info for the specified products and any relevant error info.
 
 ## -remarks
-This method returns listing info for the specified products that are associated with the current app, regardless of whether the products are currently available for purchase within the current app. To retrieve info for all the products that can currently be purchased from within the current app, use the [GetAssociatedStoreProductsAsync](storecontext_getassociatedstoreproductsasync_1833928682.md) method instead.
+This method returns listing info for the specified products that are associated with the current app, regardless of whether the products are currently available for purchase within the current app. To retrieve info for all the products that can currently be purchased from within the current app, use the [GetStoreProductsAsync](storecontext_getstoreproductsasync_915504661.md) overload or the [GetAssociatedStoreProductsAsync](storecontext_getassociatedstoreproductsasync_1833928682.md) method instead.
 
-The Store ID for a product is available in the Windows Dev Center dashboard, and it also is returned by the [StoreId](storeproduct_storeid.md) property of the [StoreProduct](storeproduct.md) that represents the product. For more information, see [Store IDs](https://msdn.microsoft.com/windows/uwp/monetize/get-product-info-for-apps-and-add-ons).
+The Store ID for a product is available in the Windows Dev Center dashboard, and it also is returned by the [StoreId](storeproduct_storeid.md) property of the [StoreProduct](storeproduct.md) that represents the product. For more information, see [Store IDs](https://docs.microsoft.com/windows/uwp/monetize/in-app-purchases-and-trials#store-ids).
 
 For more information about using this method, including a code example, see [Get product info for apps and add-ons](https://msdn.microsoft.com/windows/uwp/monetize/get-product-info-for-apps-and-add-ons).
 
