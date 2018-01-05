@@ -14,7 +14,7 @@ Retrieves information about all packages with the specified package name and pub
 
 ## -parameters
 ### -param userSecurityId
-The user security identifier (SID). If this parameter is **null**, the packages are retrieved for the current user.
+The user security identifier (SID). If this parameter is an empty string (""), the packages are retrieved for the current user.
 
 ### -param packageName
 The package name. This parameter cannot be **null**.
