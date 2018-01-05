@@ -12,6 +12,9 @@ public enum ESimOperationStatus : int
 ## -description
 Defines constants that specify the status of an [ESimOperationResult](esimoperationresult.md) object.
 
+> [!NOTE]
+> To use this API you will need to contact Microsoft to request the restricted capability **Microsoft.eSIMManagement_8wekyb3d8bbwe**. For more info, see the **Special and restricted capabilities** section under [App capability declarations](/windows/uwp/packaging/app-capability-declarations?branch=live).
+
 ## -enum-fields
 ### -field Success:0
 Indicates that the operation was successful.
