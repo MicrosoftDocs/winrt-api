@@ -12,6 +12,9 @@ public IAsyncOperationWithProgress<ESimProfileInstallProgress> ESimProfileMetada
 ## -description
 Asynchronously (with progress) downloads and installs an eSIM profile.
 
+> [!NOTE]
+> To use this API you will need to contact Microsoft to request the restricted capability **Microsoft.eSIMManagement_8wekyb3d8bbwe**. For more info, see the **Special and restricted capabilities** section under [App capability declarations](/windows/uwp/packaging/app-capability-declarations?branch=live).
+
 ## -returns
 
 ## -remarks

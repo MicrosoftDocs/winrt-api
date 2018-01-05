@@ -15,6 +15,9 @@ public struct ESimProfileInstallProgress  {
 ## -description
 Represents the result of an asynchronous (with progress) operation to download and install an eSIM profile.
 
+> [!NOTE]
+> To use this API you will need to contact Microsoft to request the restricted capability **Microsoft.eSIMManagement_8wekyb3d8bbwe**. For more info, see the **Special and restricted capabilities** section under [App capability declarations](/windows/uwp/packaging/app-capability-declarations?branch=live).
+
 ## -struct-fields
 ### -field InstalledSizeInBytes
 The installed size of the eSIM profile in whole bytes.
