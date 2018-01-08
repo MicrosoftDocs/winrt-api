@@ -26,8 +26,9 @@ The specific template. At this time, the only valid value is **TileFlyoutTemplat
 The template's content represented as an [XmlDocument](../windows.data.xml.dom/xmldocument.md) object.
 
 ## -remarks
-Because there is currently only one template, this method always fetches the following XML: ```xml
+Because there is currently only one template, this method always fetches the following XML: 
 
+``` xml
 <tileflyout>
     <visual version="3">
         <binding template="TileFlyoutTemplate01">
