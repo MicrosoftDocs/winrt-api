@@ -77,9 +77,22 @@ The default template for [GridView](gridview.md) includes existing transition an
 List controls that derive from [Selector](../windows.ui.xaml.controls.primitives/selector.md) have a default selection behavior that depends on what the items source is (the type that's used for [ItemsSource](itemscontrol_itemssource.md)). If the items source is a [CollectionViewSource](../windows.ui.xaml.data/collectionviewsource.md) instance, then the behavior in the selection control is that the selection will default to the current item. When the list is first displayed, the selection defaults to the first item as current item. If you don't want the first item to be selected in this case, set [IsSynchronizedWithCurrentItem](../windows.ui.xaml.controls.primitives/selector_issynchronizedwithcurrentitem.md) to **false** in the [GridView](gridview.md).
 
 ## -examples
+
+<table>
+<th align="left">XAML Controls Gallery<th>
+<tr>
+<td><img src="images/xaml-controls-gallery-sm.png" alt="XAML controls gallery"></img></td>
+<td>
+    <p>If you have the <strong style="font-weight: semi-bold">XAML Controls Gallery</strong> app installed, click here to open the app and see the <a href="xamlcontrolsgallery:/item/GridView">GridView</a> in action.</p>
+    <ul>
+    <li><a href="https://www.microsoft.com/store/productId/9MSVH128X2ZT">Get the XAML Controls Gallery app (Microsoft Store)</a></li>
+    <li><a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics">Get the source code (GitHub)</a></li>
+    </ul>
+</td>
+</tr>
+</table>
+
 Here, a [GridView](gridview.md) is bound to a grouped [CollectionViewSource](../windows.ui.xaml.data/collectionviewsource.md) named `cvsProjects`. The appearance of individual items in each group is defined by the [ItemTemplate](itemscontrol_itemtemplate.md). The [ItemsPanel](itemscontrol_itemspanel.md) specifies how the groups are arranged in the [GridView](gridview.md). The [GroupStyle.Panel](groupstyle_panel.md) specifies how individual items are arranged within each group. The [GroupStyle.ContainerStyle](groupstyle_containerstyle.md) is used to add a border around each group, and set its minimum size and margins. The [HidesIfEmpty](groupstyle_hidesifempty.md) property is set to **true** to hide any empty groups.
-
-
 
 [!code-xml[GroupedGridViewXAML](../windows.ui.xaml.controls/code/ItemsControlGroupingSnippets/csharp/MainPage.xaml#SnippetGroupedGridViewXAML)]
 
