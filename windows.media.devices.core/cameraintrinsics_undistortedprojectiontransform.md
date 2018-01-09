@@ -10,10 +10,10 @@ public Windows.Foundation.Numerics.Matrix4x4 UndistortedProjectionTransform { ge
 # Windows.Media.Devices.Core.CameraIntrinsics.UndistortedProjectionTransform
 
 ## -description
-Gets a matrix that transforms a point to compensate for the distortion model of the camera, resulting in an undistorted point.
+Gets a matrix that transforms a 3D point to the video frame pixel coordinates without compensating for the distortion model of the camera. The result 2D point need further distortion compensation to actually map to the pixel in video frame.   This is useful when app choses to use GPU to do distortion compentation instead using "CameraIntrinsics.UndistortPoints" which applies distortion compensation on CPU.
 
 ## -property-value
-A matrix that transforms a point to compensate for the distortion model of the camera.
+Gets a matrix that transforms a 3D point to the video frame pixel coordinates without compensating for the distortion model of the camera.
 
 ## -remarks
 
