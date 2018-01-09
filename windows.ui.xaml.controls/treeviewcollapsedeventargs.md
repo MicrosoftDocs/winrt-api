@@ -11,6 +11,8 @@ public class TreeViewCollapsedEventArgs
 
 ## -description
 
+Provides event data for the [TreeView.Collapsed](treeview_collapsed.md) event.
+
 ## -remarks
 
 ## -see-also

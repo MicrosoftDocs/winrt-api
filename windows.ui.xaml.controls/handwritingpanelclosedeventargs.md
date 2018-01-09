@@ -11,6 +11,8 @@ public class HandwritingPanelClosedEventArgs
 
 ## -description
 
+Provides event data for the [HandwritingView.Closed](handwritingview_closed.md) event.
+
 ## -remarks
 
 ## -see-also

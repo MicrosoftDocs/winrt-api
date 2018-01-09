@@ -11,6 +11,8 @@ public class NavigationViewBackRequestedEventArgs
 
 ## -description
 
+Provides event data for the [NavigationView.BackRequested](navigationview_backrequested.md) event.
+
 ## -remarks
 
 ## -see-also

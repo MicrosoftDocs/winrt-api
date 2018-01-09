@@ -11,6 +11,8 @@ public class RefreshStateChangedEventArgs
 
 ## -description
 
+Provides event data for refresh state change events.
+
 ## -remarks
 
 ## -see-also

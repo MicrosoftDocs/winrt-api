@@ -11,6 +11,8 @@ public class HandwritingPanelOpenedEventArgs
 
 ## -description
 
+Provides event data for the [HandwritingView.Opened](handwritingview_opened.md) event.
+
 ## -remarks
 
 ## -see-also

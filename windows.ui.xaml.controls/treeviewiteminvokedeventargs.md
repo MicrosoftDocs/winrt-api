@@ -11,6 +11,8 @@ public class TreeViewItemInvokedEventArgs
 
 ## -description
 
+Provides event data for the [TreeView.ItemInvoked](treeview_iteminvoked.md) event.
+
 ## -remarks
 
 ## -see-also

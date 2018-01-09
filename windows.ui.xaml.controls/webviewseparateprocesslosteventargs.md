@@ -11,6 +11,8 @@ public class WebViewSeparateProcessLostEventArgs
 
 ## -description
 
+Provides event data for the [WebView.SeparateProcessLost](webview_separateprocesslost.md) event.
+
 ## -remarks
 
 ## -see-also

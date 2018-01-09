@@ -11,9 +11,14 @@ public class RefreshRequestedEventArgs
 
 ## -description
 
+Provides event data for RefreshRequested events.
+
 ## -remarks
 
 ## -see-also
+
+[RefreshContainer.RefreshRequested](refreshcontainer_refreshrequested.md)
+[RefreshVisualizer.RefreshRequested](refreshvisualizer_refreshrequested.md)
 
 ## -examples
 
