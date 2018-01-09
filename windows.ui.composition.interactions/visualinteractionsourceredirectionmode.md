@@ -20,8 +20,15 @@ Redirection is off, all input goes to the UI thread.
 Pointer input goes to the UI thread, Precision Touchpad input goes to the compositor.
 
 
+### -field CapableTouchpadAndPointerWheel:3
+
+
+### -field PointerWheelOnly:2
+
+
 ## -remarks
 
 ## -examples
 
 ## -see-also
+
