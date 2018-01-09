@@ -36,6 +36,21 @@ The [IsIndeterminate](progressbar_isindeterminate.md) property determines the ap
 > In an app compiled for Windows 8, when the [ProgressBar](progressbar.md) is indeterminate, the progress animation continues even if it's not visible on the screen, such as when the [ProgressBar](progressbar.md)  [Visibility](../windows.ui.xaml/uielement_visibility.md) is [Collapsed](../windows.ui.xaml/visibility.md). This can keep the UI thread awake, use resources, and impair app performance. When the [ProgressBar](progressbar.md) is not visible, you should disable the animation by setting [IsIndeterminate](progressbar_isindeterminate.md) to **false**.
 
 ## -examples
+
+<table>
+<th align="left">XAML Controls Gallery<th>
+<tr>
+<td><img src="images/xaml-controls-gallery-sm.png" alt="XAML controls gallery"></img></td>
+<td>
+    <p>If you have the <strong style="font-weight: semi-bold">XAML Controls Gallery</strong> app installed, click here to open the app and see the <a href="xamlcontrolsgallery:/item/ProgressBar">ProgressBar</a> in action.</p>
+    <ul>
+    <li><a href="https://www.microsoft.com/store/productId/9MSVH128X2ZT">Get the XAML Controls Gallery app (Microsoft Store)</a></li>
+    <li><a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics">Get the source code (GitHub)</a></li>
+    </ul>
+</td>
+</tr>
+</table>
+
 The following example demonstrates a value-based [ProgressBar](progressbar.md) and an indeterminate [ProgressBar](progressbar.md).
 
 ```xaml
