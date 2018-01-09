@@ -11,7 +11,11 @@ public bool Cancel { get;  set; }
 
 ## -description
 
+Gets or sets a value that indicates whether the event should be canceled.
+
 ## -property-value
+
+**true** to cancel the event; otherwise, **false**. The default is **false**.
 
 ## -remarks
 

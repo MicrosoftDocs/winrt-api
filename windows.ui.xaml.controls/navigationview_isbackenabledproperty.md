@@ -11,7 +11,11 @@ public DependencyProperty IsBackEnabledProperty { get; }
 
 ## -description
 
+Identifies the IsBackEnabled dependency property.
+
 ## -property-value
+
+The identifier for the IsBackEnabled dependency property.
 
 ## -remarks
 

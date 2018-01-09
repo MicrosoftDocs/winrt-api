@@ -11,7 +11,11 @@ public DependencyProperty DragItemsCountProperty { get; }
 
 ## -description
 
+Identifies the DragItemsCount dependency property.
+
 ## -property-value
+
+The identifier for the DragItemsCount dependency property.
 
 ## -remarks
 

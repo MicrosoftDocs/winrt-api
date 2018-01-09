@@ -11,7 +11,11 @@ public DependencyProperty StateProperty { get; }
 
 ## -description
 
+Identifies the State dependency property.
+
 ## -property-value
+
+The identifier for the State dependency property.
 
 ## -remarks
 

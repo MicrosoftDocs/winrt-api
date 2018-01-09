@@ -11,6 +11,8 @@ public class NavigationViewPaneClosingEventArgs
 
 ## -description
 
+Provides data for the [NavigationView.PaneClosing](navigationview_paneclosing.md) event.
+
 ## -remarks
 
 ## -see-also

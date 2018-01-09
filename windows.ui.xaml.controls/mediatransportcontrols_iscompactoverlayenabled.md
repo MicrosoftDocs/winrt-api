@@ -11,7 +11,11 @@ public bool IsCompactOverlayEnabled { get;  set; }
 
 ## -description
 
+Gets or sets a value that indicates whether a user can enter compact overlay mode.
+
 ## -property-value
+
+**true** to allow the user to enter compact overlay mode; otherwise, **false**.
 
 ## -remarks
 

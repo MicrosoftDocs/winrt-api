@@ -11,7 +11,11 @@ public string PaneTitle { get;  set; }
 
 ## -description
 
+Gets or sets the title text for the NavigationView pane.
+
 ## -property-value
+
+The title text for the NavigationView pane.
 
 ## -remarks
 

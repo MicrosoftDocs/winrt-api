@@ -11,7 +11,11 @@ public DependencyProperty ContentProperty { get; }
 
 ## -description
 
+Identifies the Content dependency property.
+
 ## -property-value
+
+The identifier for the Content dependency property.
 
 ## -remarks
 

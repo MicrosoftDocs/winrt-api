@@ -11,7 +11,11 @@ public DependencyProperty GlyphBrushProperty { get; }
 
 ## -description
 
+Identifies the GlyphBrush dependency property.
+
 ## -property-value
+
+The identifier for the GlyphBrush dependency property.
 
 ## -remarks
 

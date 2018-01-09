@@ -11,7 +11,11 @@ public DependencyProperty HandwritingViewProperty { get; }
 
 ## -description
 
+Identifies the HandwritingView dependency property.
+
 ## -property-value
+
+The identifier for the HandwritingView dependency property.
 
 ## -remarks
 

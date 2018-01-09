@@ -11,7 +11,11 @@ public DependencyProperty PlacementAlignmentProperty { get; }
 
 ## -description
 
+Identifies the PlacementAlignment dependency property.
+
 ## -property-value
+
+The identifier for the PlacementAlignment dependency property.
 
 ## -remarks
 

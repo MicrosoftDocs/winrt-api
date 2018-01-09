@@ -11,7 +11,11 @@ public DependencyProperty IsOpenProperty { get; }
 
 ## -description
 
+Identifies the IsOpen dependency property.
+
 ## -property-value
+
+The identifier for the IsOpen dependency property.
 
 ## -remarks
 

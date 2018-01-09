@@ -11,7 +11,11 @@ public DependencyProperty InfoProviderProperty { get; }
 
 ## -description
 
+Identifies the InfoProvider dependency property.
+
 ## -property-value
+
+The identifier for the InfoProvider dependency property.
 
 ## -remarks
 

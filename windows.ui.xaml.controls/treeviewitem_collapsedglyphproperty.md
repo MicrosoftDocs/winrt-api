@@ -11,7 +11,11 @@ public DependencyProperty CollapsedGlyphProperty { get; }
 
 ## -description
 
+Identifies the CollapsedGlyph dependency property.
+
 ## -property-value
+
+The identifier for the CollapsedGlyph dependency property.
 
 ## -remarks
 

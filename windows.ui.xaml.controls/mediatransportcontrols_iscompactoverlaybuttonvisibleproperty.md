@@ -11,7 +11,11 @@ public DependencyProperty IsCompactOverlayButtonVisibleProperty { get; }
 
 ## -description
 
+Identifies the IsCompactOverlayButtonVisible dependency property.
+
 ## -property-value
+
+The identifier for the IsCompactOverlayButtonVisible dependency property.
 
 ## -remarks
 

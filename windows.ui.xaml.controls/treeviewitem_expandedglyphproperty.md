@@ -11,7 +11,11 @@ public DependencyProperty ExpandedGlyphProperty { get; }
 
 ## -description
 
+Identifies the ExpandedGlyph dependency property.
+
 ## -property-value
+
+The identifier for the ExpandedGlyph dependency property.
 
 ## -remarks
 

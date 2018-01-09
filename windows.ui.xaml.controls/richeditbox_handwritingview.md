@@ -11,7 +11,11 @@ public HandwritingView HandwritingView { get;  set; }
 
 ## -description
 
+Gets or sets the [HandwritingView](handwritingview.md) associated with this text control.
+
 ## -property-value
+
+The [HandwritingView](handwritingview.md) associated with this text control.
 
 ## -remarks
 

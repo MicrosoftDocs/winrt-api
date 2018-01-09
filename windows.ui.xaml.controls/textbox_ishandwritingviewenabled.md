@@ -11,7 +11,11 @@ public bool IsHandwritingViewEnabled { get;  set; }
 
 ## -description
 
+Gets or sets a value that indicates whether a user can enter text in the handwriting view.
+
 ## -property-value
+
+**true** to allow the user to enter text in the handwriting view; otherwise, **false**.
 
 ## -remarks
 

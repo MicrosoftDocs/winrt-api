@@ -11,7 +11,11 @@ public DependencyProperty GlyphSizeProperty { get; }
 
 ## -description
 
+Identifies the GlyphSize dependency property.
+
 ## -property-value
+
+The identifier for the GlyphSize dependency property.
 
 ## -remarks
 

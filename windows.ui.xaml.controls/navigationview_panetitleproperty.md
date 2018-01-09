@@ -11,7 +11,11 @@ public DependencyProperty PaneTitleProperty { get; }
 
 ## -description
 
+Identifies the PaneTitle dependency property.
+
 ## -property-value
+
+The identifier for the PaneTitle dependency property.
 
 ## -remarks
 

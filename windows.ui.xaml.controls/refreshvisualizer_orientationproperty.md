@@ -11,7 +11,11 @@ public DependencyProperty OrientationProperty { get; }
 
 ## -description
 
+Identifies the Orientation dependency property.
+
 ## -property-value
+
+The identifier for the Orientation dependency property.
 
 ## -remarks
 

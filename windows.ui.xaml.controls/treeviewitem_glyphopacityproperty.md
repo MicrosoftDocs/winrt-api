@@ -11,7 +11,11 @@ public DependencyProperty GlyphOpacityProperty { get; }
 
 ## -description
 
+Identifies the GlyphOpacity dependency property.
+
 ## -property-value
+
+The identifier for the GlyphOpacity dependency property.
 
 ## -remarks
 

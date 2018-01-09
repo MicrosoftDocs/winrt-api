@@ -11,7 +11,11 @@ public DependencyProperty IndentationProperty { get; }
 
 ## -description
 
+Identifies the Indentation dependency property.
+
 ## -property-value
+
+The identifier for the Indentation dependency property.
 
 ## -remarks
 

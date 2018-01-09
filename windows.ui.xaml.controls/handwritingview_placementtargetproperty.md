@@ -11,7 +11,11 @@ public DependencyProperty PlacementTargetProperty { get; }
 
 ## -description
 
+Identifies the PlacementTarget dependency property.
+
 ## -property-value
+
+The identifier for the PlacementTarget dependency property.
 
 ## -remarks
 

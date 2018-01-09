@@ -11,6 +11,8 @@ public HandwritingView.HandwritingView()
 
 ## -description
 
+Initializes a new instance of the HandwritingView class.
+
 ## -remarks
 
 ## -see-also

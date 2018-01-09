@@ -11,7 +11,11 @@ public DependencyProperty VisualizerProperty { get; }
 
 ## -description
 
+Identifies the Visualizer dependency property.
+
 ## -property-value
+
+The identifier for the Visualizer dependency property.
 
 ## -remarks
 

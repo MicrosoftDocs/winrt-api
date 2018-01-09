@@ -11,7 +11,11 @@ public DependencyProperty ExpandedGlyphVisibilityProperty { get; }
 
 ## -description
 
+Identifies the ExpandedGlyphVisibility dependency property.
+
 ## -property-value
+
+The identifier for the ExpandedGlyphVisibility dependency property.
 
 ## -remarks
 

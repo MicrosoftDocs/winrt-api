@@ -11,7 +11,11 @@ public DependencyProperty IsExpandedProperty { get; }
 
 ## -description
 
+Identifies the IsExpanded dependency property.
+
 ## -property-value
+
+The identifier for the IsExpanded dependency property.
 
 ## -remarks
 

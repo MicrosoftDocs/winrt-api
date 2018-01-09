@@ -11,7 +11,11 @@ public DependencyProperty AreCandidatesEnabledProperty { get; }
 
 ## -description
 
+Identifies the AreCandidatesEnabled dependency property.
+
 ## -property-value
+
+The identifier for the AreCandidatesEnabled dependency property.
 
 ## -remarks
 

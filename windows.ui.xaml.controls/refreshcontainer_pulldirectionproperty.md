@@ -11,7 +11,11 @@ public DependencyProperty PullDirectionProperty { get; }
 
 ## -description
 
+Identifies the PullDirection dependency property.
+
 ## -property-value
+
+The identifier for the PullDirection dependency property.
 
 ## -remarks
 

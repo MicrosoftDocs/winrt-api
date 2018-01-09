@@ -11,7 +11,11 @@ public DependencyProperty TreeViewItemTemplateSettingsProperty { get; }
 
 ## -description
 
+Identifies the TreeViewItemTemplateSettings dependency property.
+
 ## -property-value
+
+The identifier for the TreeViewItemTemplateSettings dependency property.
 
 ## -remarks
 

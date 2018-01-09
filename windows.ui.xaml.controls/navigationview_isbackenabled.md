@@ -11,7 +11,11 @@ public bool IsBackEnabled { get;  set; }
 
 ## -description
 
+Gets or sets a value that indicates whether a user can use the back button for back navigation.
+
 ## -property-value
+
+**true** to allow the user to use the back button for back navigation; otherwise, **false**.
 
 ## -remarks
 

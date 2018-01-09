@@ -11,7 +11,11 @@ public DependencyProperty IsCompactOverlayEnabledProperty { get; }
 
 ## -description
 
+Identifies the IsCompactOverlayEnabled dependency property.
+
 ## -property-value
+
+The identifier for the IsCompactOverlayEnabled dependency property.
 
 ## -remarks
 

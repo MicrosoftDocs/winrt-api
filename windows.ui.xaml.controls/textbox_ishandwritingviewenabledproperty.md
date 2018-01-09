@@ -11,7 +11,11 @@ public DependencyProperty IsHandwritingViewEnabledProperty { get; }
 
 ## -description
 
+Identifies the IsHandwritingViewEnabled dependency property.
+
 ## -property-value
+
+The identifier for the IsHandwritingViewEnabled dependency property.
 
 ## -remarks
 
