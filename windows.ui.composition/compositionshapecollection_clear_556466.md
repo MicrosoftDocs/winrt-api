@@ -11,6 +11,8 @@ public void CompositionShapeCollection.Clear()
 
 ## -description
 
+Removes all items from the collection.
+
 ## -remarks
 
 ## -see-also

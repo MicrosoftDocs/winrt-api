@@ -11,6 +11,8 @@ public class CompositionShapeCollection : CompositionObject, CompositionObject, 
 
 ## -description
 
+Represents a collection of [CompositionShape](compositionshape.md) objects that can be individually accessed by index.
+
 ## -remarks
 
 ## -see-also
