@@ -32,3 +32,4 @@ The enum value that describes the desired behavior to use to retrieve the thumbn
 
 ## -see-also
 [Folder enumeration sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=619993)
+[Fast access to file properties in UWP](https://docs.microsoft.com/windows/uwp/files/fast-file-properties)
