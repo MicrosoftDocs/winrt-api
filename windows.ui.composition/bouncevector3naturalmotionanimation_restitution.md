@@ -11,7 +11,11 @@ public float Restitution { get;  set; }
 
 ## -description
 
+Gets or sets the amount that an object rebounds after collision.
+
 ## -property-value
+
+The amount that an object rebounds after collision.
 
 ## -remarks
 

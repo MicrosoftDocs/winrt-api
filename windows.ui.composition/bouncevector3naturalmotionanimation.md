@@ -11,6 +11,8 @@ public class BounceVector3NaturalMotionAnimation : Vector3NaturalMotionAnimation
 
 ## -description
 
+A bounce physics-based animation that targets any Vector3-based property.
+
 ## -remarks
 
 ## -see-also
