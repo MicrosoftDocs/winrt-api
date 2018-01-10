@@ -25,4 +25,3 @@ The unique ID string that was assigned to the tile when it was created.
 ## -examples
 
 ## -see-also
-[Secondary tiles sample](http://go.microsoft.com/fwlink/p/?linkid=231487)

@@ -27,4 +27,3 @@ An object that provides information concerning the asynchronous create operation
 ## -examples
 
 ## -see-also
-[RequestCreateAsync](secondarytile_requestcreateasync_1444672734.md), [Secondary tiles sample](http://go.microsoft.com/fwlink/p/?linkid=231487), [Tile Update On Suspend  sample](http://go.microsoft.com/fwlink/p/?LinkId=394144)

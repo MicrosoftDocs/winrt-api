@@ -24,4 +24,3 @@ This method returns a collection of tile IDs through an instance of the [IAsyncO
 ## -examples
 
 ## -see-also
-[Secondary tiles sample](http://go.microsoft.com/fwlink/p/?linkid=231487)
