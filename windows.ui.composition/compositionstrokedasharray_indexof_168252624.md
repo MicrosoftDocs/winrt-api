@@ -11,12 +11,20 @@ public bool CompositionStrokeDashArray.IndexOf(Single value, UInt32 index)
 
 ## -description
 
+Retrieves the index of the specified item.
+
 ## -parameters
 ### -param value
 
+The value to find in the collection.
+
 ### -param index
 
+The index of the item to find, if found.
+
 ## -returns
+
+**true** if an item with the specified value was found; otherwise, **false**.
 
 ## -remarks
 

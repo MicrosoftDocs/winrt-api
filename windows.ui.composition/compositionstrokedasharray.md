@@ -11,6 +11,8 @@ public class CompositionStrokeDashArray : CompositionObject, CompositionObject, 
 
 ## -description
 
+Represents a collection of values that indicates the pattern of dashes and gaps that is used to outline shapes.
+
 ## -remarks
 
 ## -see-also
