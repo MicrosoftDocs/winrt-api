@@ -17,7 +17,7 @@ Gets a [AudioBuffer](audiobuffer.md) object that allows you to operate directly 
 A value indicating the access mode of the returned audio buffer.
 
 ## -returns
-The buffer containing pixel data.
+The buffer containing audio sample data.
 
 ## -remarks
 
