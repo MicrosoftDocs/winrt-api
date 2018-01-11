@@ -25,7 +25,6 @@ The request did not succeed because of a network connectivity error.
 ### -field ServerError:3
 The request did not succeed because of a server error returned by the Microsoft Store.
 
-
 ## -remarks
 The [StoreConsumableResult.Status](storeconsumableresult_status.md) property returns [StoreConsumableStatus](storeconsumablestatus.md) values.
 

@@ -10,13 +10,13 @@ public Windows.Media.MediaProperties.VideoEncodingProperties EncodingProperties 
 # Windows.Media.Core.VideoStreamDescriptor.EncodingProperties
 
 ## -description
-Gets the encoding properties on the video stream.
+Gets an object describing the encoding properties for the video stream. These properties include the resolution and frame rate of the video.
 
 ## -property-value
 The encoding properties on the video stream.
 
 ## -remarks
-If the media pipeline cannot handle the new encoding properties, the [MediaStreamSource](mediastreamsource.md) will raise the [Closed](mediastreamsource_closed.md) event which provides information regarding the error.
+If the media pipeline cannot handle the encoding properties, a [MediaStreamSource](mediastreamsource.md) will raise the [Closed](mediastreamsource_closed.md) event which provides information regarding the error.
 
 ## -examples
 

@@ -28,4 +28,3 @@ An object that provides information concerning the asynchronous delete operation
 ## -examples
 
 ## -see-also
-[RequestDeleteForSelectionAsync(Rect)](secondarytile_requestdeleteforselectionasync_1671105798.md), [Secondary tiles sample](http://go.microsoft.com/fwlink/p/?linkid=231487)

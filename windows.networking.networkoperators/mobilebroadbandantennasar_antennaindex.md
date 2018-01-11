@@ -10,17 +10,16 @@ public int AntennaIndex { get; }
 # Windows.Networking.NetworkOperators.MobileBroadbandAntennaSar.AntennaIndex
 
 ## -description
-Gets the identifier number of the antenna.
+Gets the identifier number of the antenna, in the form of a unique, zero-based index.
 
 ## -property-value
-The identifier number of the antenna.
+The identifier number of the antenna, as a zero-based index.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
 
 ## -capabilities
 cellularDeviceIdentity, cellularDeviceControl

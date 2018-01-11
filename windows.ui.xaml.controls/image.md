@@ -195,5 +195,19 @@ Apps that were compiled for Windows 8 but running on Windows 8.1 continue to u
 
 ## -examples
 
+<table>
+<th align="left">XAML Controls Gallery<th>
+<tr>
+<td><img src="images/xaml-controls-gallery-sm.png" alt="XAML controls gallery"></img></td>
+<td>
+    <p>If you have the <strong style="font-weight: semi-bold">XAML Controls Gallery</strong> app installed, click here to <a href="xamlcontrolsgallery:/item/Image">open the app and see the Image in action</a>.</p>
+    <ul>
+    <li><a href="https://www.microsoft.com/store/productId/9MSVH128X2ZT">Get the XAML Controls Gallery app (Microsoft Store)</a></li>
+    <li><a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics">Get the source code (GitHub)</a></li>
+    </ul>
+</td>
+</tr>
+</table>
+
 ## -see-also
 [FrameworkElement](../windows.ui.xaml/frameworkelement.md), [Image and ImageBrush](http://msdn.microsoft.com/library/cea8780c-71a3-4168-a6e8-6361cdfb2faf), [XAML images sample](http://go.microsoft.com/fwlink/p/?linkid=238575), [Optimize animations and media](http://msdn.microsoft.com/library/de5b084c-dac1-430b-a15b-5b3d5fb698f7), [BitmapSource](../windows.ui.xaml.media.imaging/bitmapsource.md), [FlowDirection](../windows.ui.xaml/frameworkelement_flowdirection.md), [Windows.Graphics.Imaging](../windows.graphics.imaging/windows_graphics_imaging.md), [Source](image_source.md), [Animated GIF playback (XAML) sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=624046)

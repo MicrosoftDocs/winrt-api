@@ -70,5 +70,19 @@ This example shows how to let the [FlyoutPresenter](flyoutpresenter.md) receive 
 
 ## -examples
 
+<table>
+<th align="left">XAML Controls Gallery<th>
+<tr>
+<td><img src="images/xaml-controls-gallery-sm.png" alt="XAML controls gallery"></img></td>
+<td>
+    <p>If you have the <strong style="font-weight: semi-bold">XAML Controls Gallery</strong> app installed, click here to <a href="xamlcontrolsgallery:/item/Flyout">open the app and see the Flyout in action</a>.</p>
+    <ul>
+    <li><a href="https://www.microsoft.com/store/productId/9MSVH128X2ZT">Get the XAML Controls Gallery app (Microsoft Store)</a></li>
+    <li><a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics">Get the source code (GitHub)</a></li>
+    </ul>
+</td>
+</tr>
+</table>
+
 ## -see-also
 [FlyoutBase](../windows.ui.xaml.controls.primitives/flyoutbase.md), [FlyoutPresenter](flyoutpresenter.md), [Button.Flyout](button_flyout.md), [MenuFlyout](menuflyout.md), [Dialogs v. flyouts](https://docs.microsoft.com/en-us/windows/uwp/controls-and-patterns/dialogs), [Attached properties overview](https://docs.microsoft.com/en-us/windows/uwp/xaml-platform/attached-properties-overview), [Commanding sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620019), [XAML Flyout and MenuFlyout sample (Windows 8)](http://go.microsoft.com/fwlink/p/?LinkID=310074)

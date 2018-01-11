@@ -34,4 +34,4 @@ In an app that’s compiled for Windows 8, but run in Windows 8.1, the Windows
 ## -examples
 
 ## -see-also
-[Control.FocusState](control_focusstate.md), [UIElement.GotFocus](../windows.ui.xaml/uielement_gotfocus.md), [UIElement.LostFocus](../windows.ui.xaml/uielement_lostfocus.md), [Control.OnGotFocus](control_ongotfocus.md), [Keyboard interactions](http://msdn.microsoft.com/library/ff819bac-67c0-4ec9-8921-f087be188138), [Keyboard accessibility](http://msdn.microsoft.com/library/ddae8c4b-7907-49fe-9645-f105f8dfad8b), [Responding to the appearance of the on-screen keyboard sample](http://go.microsoft.com/fwlink/p/?linkid=231633)
+[Control.FocusState](control_focusstate.md), [UIElement.GotFocus](../windows.ui.xaml/uielement_gotfocus.md), [UIElement.LostFocus](../windows.ui.xaml/uielement_lostfocus.md), [Control.OnGotFocus](control_ongotfocus.md), [Keyboard interactions](http://msdn.microsoft.com/library/ff819bac-67c0-4ec9-8921-f087be188138), [Keyboard accessibility](http://msdn.microsoft.com/library/ddae8c4b-7907-49fe-9645-f105f8dfad8b), [Touch keyboard sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/TouchKeyboard)
