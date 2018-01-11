@@ -11,7 +11,11 @@ public CompositionContainerShape Compositor.CreateContainerShape()
 
 ## -description
 
+Creates an instance of [CompositionContainerShape](compositioncontainershape.md).
+
 ## -returns
+
+Returns the created [CompositionContainerShape](compositioncontainershape.md) object.
 
 ## -remarks
 

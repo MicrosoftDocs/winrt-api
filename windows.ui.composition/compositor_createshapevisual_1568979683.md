@@ -11,7 +11,11 @@ public ShapeVisual Compositor.CreateShapeVisual()
 
 ## -description
 
+Creates an instance of [ShapeVisual](shapevisual.md).
+
 ## -returns
+
+Returns the created [ShapeVisual](shapevisual.md) object.
 
 ## -remarks
 

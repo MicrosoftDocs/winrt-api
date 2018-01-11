@@ -11,7 +11,11 @@ public PathKeyFrameAnimation Compositor.CreatePathKeyFrameAnimation()
 
 ## -description
 
+Creates an instance of [PathKeyFrameAnimation](pathkeyframeanimation.md).
+
 ## -returns
+
+Returns the created [PathKeyFrameAnimation](pathkeyframeanimation.md) object.
 
 ## -remarks
 

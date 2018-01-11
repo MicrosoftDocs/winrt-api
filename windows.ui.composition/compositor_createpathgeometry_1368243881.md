@@ -11,7 +11,11 @@ public CompositionPathGeometry Compositor.CreatePathGeometry()
 
 ## -description
 
+Creates an instance of [CompositionPathGeometry](compositionpathgeometry.md).
+
 ## -returns
+
+Returns the created [CompositionPathGeometry](compositionpathgeometry.md) object.
 
 ## -remarks
 
