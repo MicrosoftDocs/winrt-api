@@ -25,7 +25,6 @@ The choice of whether to redirect remains with the app.
 The [AppInstance](AppInstance.md) class is intended to be used in the `Main` method of the app.
 If this class is used later, the property values may be `Null`, and the methods may fail.
 
-
 ## -see-also
 
 ## -examples
