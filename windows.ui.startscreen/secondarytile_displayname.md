@@ -24,4 +24,3 @@ This display name is visible to searches.
 ## -examples
 
 ## -see-also
-[Secondary tiles sample](http://go.microsoft.com/fwlink/p/?linkid=231487)

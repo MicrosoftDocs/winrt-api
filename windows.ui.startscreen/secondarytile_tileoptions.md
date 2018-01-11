@@ -25,4 +25,3 @@ The default value for this property is **None**.
 ## -examples
 
 ## -see-also
-[Secondary tiles sample](http://go.microsoft.com/fwlink/p/?linkid=231487)

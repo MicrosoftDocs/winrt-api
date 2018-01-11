@@ -33,4 +33,3 @@ After a secondary tile is created, you must provide the following properties bef
 ## -examples
 
 ## -see-also
-[RequestCreateForSelectionAsync(Rect, Placement)](secondarytile_requestcreateforselectionasync_257122549.md), [Secondary tiles sample](http://go.microsoft.com/fwlink/p/?linkid=231487)

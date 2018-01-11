@@ -25,4 +25,3 @@ A logo image that is saved locally (ms-appdata://localfolder/) by the app to use
 ## -examples
 
 ## -see-also
-[Logo](secondarytile_logo.md), [SmallLogo](secondarytile_smalllogo.md), [Secondary tiles sample](http://go.microsoft.com/fwlink/p/?linkid=231487)

@@ -45,4 +45,3 @@ A reference to a square logo image stored at a Uniform Resource Identifier (URI)
 ## -examples
 
 ## -see-also
-[SecondaryTile()](secondarytile_secondarytile_1221375020.md), [SecondaryTile(String)](secondarytile_secondarytile_290278668.md), [SecondaryTile(String, String, String, String, TileOptions, Uri, Uri)](secondarytile_secondarytile_1985961532.md), [SecondaryTile(String, String, String, Uri, TileSize)](secondarytile_secondarytile_1137028492.md), [Secondary tiles sample](http://go.microsoft.com/fwlink/p/?linkid=231487)

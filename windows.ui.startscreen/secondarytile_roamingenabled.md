@@ -25,4 +25,3 @@ Set to **true** if roaming is enabled; otherwise, **false**. The default is **tr
 ## -examples
 
 ## -see-also
-[Secondary tiles sample](http://go.microsoft.com/fwlink/p/?linkid=231487)
