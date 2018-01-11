@@ -53,4 +53,3 @@ If the [TileId](secondarytile_tileid.md) property is not set before you call thi
 ## -examples
 
 ## -see-also
-[Secondary tiles sample](http://go.microsoft.com/fwlink/p/?linkid=231487)

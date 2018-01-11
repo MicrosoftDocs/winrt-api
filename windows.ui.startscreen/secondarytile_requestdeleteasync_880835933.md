@@ -39,4 +39,3 @@ tileToBeDeleted.requestDeleteAsync().then(function (isDeleted) {
 
 
 ## -see-also
-[RequestDeleteAsync(Point)](secondarytile_requestdeleteasync_1886194660.md), [Secondary tiles sample](http://go.microsoft.com/fwlink/p/?linkid=231487)

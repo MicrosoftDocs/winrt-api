@@ -29,4 +29,3 @@ Only two text colors are available— default dark and default light— and are 
 ## -examples
 
 ## -see-also
-[BackgroundColor](secondarytile_backgroundcolor.md), [Secondary tiles sample](http://go.microsoft.com/fwlink/p/?linkid=231487)

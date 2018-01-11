@@ -45,4 +45,3 @@ secondaryTile->BackgroundColor = Windows::UI::ColorHelper::FromArgb(0, 255, 255,
 
 
 ## -see-also
-[Secondary tiles sample](http://go.microsoft.com/fwlink/p/?linkid=231487)
