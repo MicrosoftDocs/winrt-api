@@ -15,9 +15,16 @@ Represents an instance of an app.
 ## -remarks
 The system maintains a cache of app instances.
 Apps can use this cache for redirection of an app when it attempts to activate. 
-An app can activate a separate instance or redirect the activation to an existing instance. 
 
-The shell can provide a preferred instance for redirection, but the app itself determines the actual activation.
+When an app process is created in the `Main` method of the app, it can choose to continue to activate the current instance, or to redirect the activation to an existing instance.
+
+The shell can provide a preferred instance for redirection.
+The app is encouraged to redirect to that instance. 
+The choice of whether to redirect remains with the app.
+
+The [AppInstance](AppInstance.md) class is intended to be used in the `Main` method of the app.
+If this class is used later, the property values may be `Null`, and the methods may fail.
+
 
 ## -see-also
 

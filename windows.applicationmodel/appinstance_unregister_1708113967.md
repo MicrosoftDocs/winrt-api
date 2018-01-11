@@ -18,7 +18,9 @@ Updates the system cache so that the current instance is no longer available for
 
 ## -examples
 Once registered, an instance remains registered until either the instance process terminates or the instance unregisters itself.
-This example unregisters the current this app. It no longer takes part in instance redirection.
+This example unregisters the current this app. 
+It no longer takes part in instance redirection.
+The instance continues to run. 
 
 ```csharp
 private void OnAllFilesClosed(object sender, EventArgs args)

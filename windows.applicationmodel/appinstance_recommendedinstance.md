@@ -22,7 +22,7 @@ The app can ignore the preference.
 ## -see-also
 
 ## -examples
-This example checks whether the shell recommends an instance.
+This example checks whether the shell recommends an instance, by using the app-defined _SelectedKeyIncludesMyKey_ method. 
 If so, it checks whether the instance is suitable, and redirects to a suitable instance.
 If the shell does not have preference, the app can look for an existing app instance to redirect to or attempt to register itself as the target.
 

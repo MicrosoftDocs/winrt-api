@@ -10,7 +10,7 @@ public AppInstance AppInstance.FindOrRegisterInstanceForKey(String key)
 # Windows.ApplicationModel.AppInstance.FindOrRegisterInstanceForKey
 
 ## -description
-Registers an app instance with the platform. 
+Registers an app instance with the platform, or finds an existing instance if another instance has already registered this key.
 
 ## -parameters
 ### -param key

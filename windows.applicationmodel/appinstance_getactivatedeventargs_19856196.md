@@ -18,7 +18,7 @@ The current **IActivatedEventArgs**, or NULL.
 ## -remarks
 This method gets the same argurments that would be passed in to the *OnActivated* method of the app.
 
-This method allows the app to access its arguments much earlier, in main.
+This method allows the app to access its arguments much earlier, in its `Main` method, which is the first app method to be called.
 
 This method only returns arguments on its first call.
 Subsequent calls return NULL.

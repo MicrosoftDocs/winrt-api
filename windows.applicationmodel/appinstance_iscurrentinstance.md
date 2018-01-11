@@ -10,7 +10,7 @@ public bool IsCurrentInstance { get; }
 # Windows.ApplicationModel.AppInstance.IsCurrentInstance
 
 ## -description
-Whether the current instance of the app is the registered instance of the app.
+Whether the current instance of the app is the registered instance of the app for the specific key that this instance has defined.
 
 ## -property-value
 A Boolean that indicates whether the current app is the registered instance of the app.
