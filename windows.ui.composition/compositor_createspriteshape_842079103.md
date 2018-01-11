@@ -11,10 +11,16 @@ public CompositionSpriteShape Compositor.CreateSpriteShape(CompositionGeometry g
 
 ## -description
 
+Creates an instance of [CompositionSpriteShape](compositionspriteshape.md) using the specified geometry.
+
 ## -parameters
 ### -param geometry
 
+The geometry of the shape to create.
+
 ## -returns
+
+Returns the created [CompositionSpriteShape](compositionspriteshape.md) object.
 
 ## -remarks
 

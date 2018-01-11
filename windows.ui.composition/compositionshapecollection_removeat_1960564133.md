@@ -11,8 +11,12 @@ public void CompositionShapeCollection.RemoveAt(UInt32 index)
 
 ## -description
 
+Removes the item at the specified index.
+
 ## -parameters
 ### -param index
+
+The zero-based index of the item to remove.
 
 ## -remarks
 

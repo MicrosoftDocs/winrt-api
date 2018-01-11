@@ -11,12 +11,22 @@ public void CompositionShapeCollection.SetAt(UInt32 index, CompositionShape valu
 
 ## -description
 
+Sets the value at the specified index to the CompositionShape value specified.
+
 ## -parameters
 ### -param index
 
+The index at which to set the value.
+
 ### -param value
 
+The value to set.
+
 ## -remarks
+
+InsertAt expands the collection and moves all subsequent index items by one.
+
+In contrast, SetAt replaces the item at the index, and the collection count remains the same.
 
 ## -see-also
 

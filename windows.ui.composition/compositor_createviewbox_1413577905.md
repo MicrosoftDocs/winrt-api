@@ -11,7 +11,11 @@ public CompositionViewBox Compositor.CreateViewBox()
 
 ## -description
 
+Creates an instance of [CompositionViewBox](compositionviewbox.md).
+
 ## -returns
+
+Returns the created [CompositionViewBox](compositionviewbox.md) object.
 
 ## -remarks
 

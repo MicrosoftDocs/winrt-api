@@ -11,7 +11,11 @@ public CompositionEllipseGeometry Compositor.CreateEllipseGeometry()
 
 ## -description
 
+Creates an instance of [CompositionEllipseGeometry](compositionellipsegeometry.md).
+
 ## -returns
+
+Returns the created [CompositionEllipseGeometry](compositionellipsegeometry.md) object.
 
 ## -remarks
 
