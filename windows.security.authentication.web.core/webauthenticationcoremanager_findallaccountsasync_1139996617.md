@@ -10,13 +10,17 @@ public IAsyncOperation<FindAllAccountsResult> WebAuthenticationCoreManager.FindA
 # Windows.Security.Authentication.Web.Core.WebAuthenticationCoreManager.FindAllAccountsAsync
 
 ## -description
+Enumerates all of the accounts that have been added by a user for a particular ID provider.
 
 ## -parameters
 ### -param provider
+The ID provider that owns the accounts to be retrieved.
 
 ### -param clientId
+The ID of the client application.
 
 ## -returns
+An asynchronous operation with the result of the account retrieval. 
 
 ## -remarks
 

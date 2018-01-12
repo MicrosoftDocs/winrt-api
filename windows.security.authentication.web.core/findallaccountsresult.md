@@ -10,6 +10,7 @@ public class FindAllAccountsResult
 # Windows.Security.Authentication.Web.Core.FindAllAccountsResult
 
 ## -description
+This class represents the result of an account retrieval operation.
 
 ## -remarks
 

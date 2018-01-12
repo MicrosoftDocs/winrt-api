@@ -10,7 +10,7 @@ public WebTokenRequest(Windows.Security.Credentials.WebAccountProvider provider)
 # Windows.Security.Authentication.Web.Core.WebTokenRequest.WebTokenRequest
 
 ## -description
-Initializes a new instance of the [WebTokenRequest](webtokenrequest.md) class with one inputs.
+Initializes a new instance of the [WebTokenRequest](webtokenrequest.md) class with one input.
 
 ## -parameters
 ### -param provider

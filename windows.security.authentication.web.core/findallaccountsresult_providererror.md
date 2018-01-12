@@ -10,8 +10,10 @@ public WebProviderError ProviderError { get; }
 # Windows.Security.Authentication.Web.Core.FindAllAccountsResult.ProviderError
 
 ## -description
+Gets the error, if one occurred during the web account retrieval operation.
 
 ## -property-value
+The provider error.
 
 ## -remarks
 
