@@ -22,6 +22,8 @@ To examine the grip pose of a motion controller, examine the Position and Orient
 
 This property will return null if the specified spatial interaction source does not support pointing ([IsPointingSupported](spatialinteractionsource_ispointingsupported.md) is false).
 
+This property can return null, for example, when the spatial interaction source lost position or orientation tracking, in which case SpatialInteractionSourceLocation.Position or Orientation can also be null at the same time.
+
 ## -see-also
 [SpatialPointerPose.TryGetInteractionSourcePose](spatialpointerpose_trygetinteractionsourcepose_1162732260.md)
 
