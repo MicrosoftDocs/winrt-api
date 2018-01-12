@@ -10,7 +10,7 @@ public double KeyTipVerticalOffset { get;  set; }
 # Windows.UI.Xaml.UIElement.KeyTipVerticalOffset
 
 ## -description
-Gets or sets a value that indicates how far up or down the keytip is placed in relation to the UIElement.
+Gets or sets a value that indicates how far up or down the Key Tip is placed in relation to the UI element.
 
 ## -xaml-syntax
 ```xaml
@@ -18,7 +18,7 @@ Gets or sets a value that indicates how far up or down the keytip is placed in r
 ```
 
 ## -property-value
-The number of pixels to move the KeyTip. Positive values move it down. Negative values move it up.
+The number of pixels to move the Key Tip. Positive values move it down. Negative values move it up.
 
 ## -remarks
 

@@ -1,13 +1,13 @@
 ---
--api-id: P:Windows.UI.Xaml.UIElement.KeyboardAcceleratorToolTipTarget
+-api-id: P:Windows.UI.Xaml.UIElement.KeyboardAcceleratorPlacementTarget
 -api-type: winrt property
 ---
 
 <!-- Property syntax.
-public DependencyObject KeyboardAcceleratorToolTipTarget { get;  set; }
+public DependencyObject KeyboardAcceleratorPlacementTarget { get;  set; }
 -->
 
-# Windows.UI.Xaml.UIElement.KeyboardAcceleratorToolTipTarget
+# Windows.UI.Xaml.UIElement.KeyboardAcceleratorPlacementTarget
 
 ## -description
 Gets or sets a value that indicates the control tooltip that displays the accelerator key combination.
@@ -28,7 +28,7 @@ Here, we demonstrate how to display the keyboard accelerator key combination wit
     <Button Content="Click" 
         ToolTipService.ToolTip="Tooltip"
         ToolTipService.PlacementTarget="{x:Bind Container}" 
-        KeyboardAcceleratorToolTipTarget="{x:Bind Container}">
+        KeyboardAcceleratorPlacementTarget="{x:Bind Container}">
         <Button.KeyboardAccelerators>
             <KeyboardAccelerator Key="S" Modifiers="Control"/>
         </Button.KeyboardAccelerators>

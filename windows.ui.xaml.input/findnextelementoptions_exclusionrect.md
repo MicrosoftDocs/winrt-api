@@ -11,6 +11,7 @@ public Rect ExclusionRect { get;  set; }
 
 ## -description
 Gets or sets a bounding rectangle for which all overlapping objects are excluded as the next element to receive focus.   
+
 ## -property-value
 The bounding rectangle.
 
