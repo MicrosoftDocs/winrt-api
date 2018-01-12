@@ -10,6 +10,7 @@ public interface ILearningModelBindingPreview : IIterable<Object>>, IMapView<Obj
 # Windows.AI.MachineLearning.Preview.ILearningModelBindingPreview
 
 ## -description
+Represents the assocations between model inputs and variable instances.
 
 ## -remarks
 

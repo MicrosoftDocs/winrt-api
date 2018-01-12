@@ -10,8 +10,10 @@ public LearningModelDeviceKindPreview PreferredDeviceKind { get;  set; }
 # Windows.AI.MachineLearning.Preview.IInferencingOptionsPreview.PreferredDeviceKind
 
 ## -description
+Gets or sets the preferred device.
 
 ## -property-value
+The preferred device. The default value is LearningDeviceAny.
 
 ## -remarks
 

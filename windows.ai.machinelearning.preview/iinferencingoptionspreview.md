@@ -10,6 +10,7 @@ public interface IInferencingOptionsPreview
 # Windows.AI.MachineLearning.Preview.IInferencingOptionsPreview
 
 ## -description
+Represents the options for controlling the evaluation of a model.
 
 ## -remarks
 

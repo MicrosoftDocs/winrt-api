@@ -10,6 +10,7 @@ public interface ILearningModelDescriptionPreview
 # Windows.AI.MachineLearning.Preview.ILearningModelDescriptionPreview
 
 ## -description
+Represents the property descriptions for a given model.
 
 ## -remarks
 

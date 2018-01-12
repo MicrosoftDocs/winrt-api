@@ -10,6 +10,7 @@ public void ILearningModelBindingPreview.Clear()
 # Windows.AI.MachineLearning.Preview.ILearningModelBindingPreview.Clear
 
 ## -description
+Removes all bound variables.
 
 ## -remarks
 

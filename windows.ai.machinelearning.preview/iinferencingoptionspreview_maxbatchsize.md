@@ -10,8 +10,10 @@ public int MaxBatchSize { get;  set; }
 # Windows.AI.MachineLearning.Preview.IInferencingOptionsPreview.MaxBatchSize
 
 ## -description
+Gets or sets the maximum batch size.
 
 ## -property-value
+The maximum batch size. 
 
 ## -remarks
 
