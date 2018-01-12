@@ -10,6 +10,7 @@ public class ImageVariableDescriptorPreview : IImageVariableDescriptorPreview, I
 # Windows.AI.MachineLearning.Preview.ImageVariableDescriptorPreview
 
 ## -description
+Represents the image variable descriptor information.
 
 ## -remarks
 

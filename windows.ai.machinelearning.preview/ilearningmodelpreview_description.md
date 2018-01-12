@@ -10,8 +10,10 @@ public ILearningModelDescriptionPreview Description { get; }
 # Windows.AI.MachineLearning.Preview.ILearningModelPreview.Description
 
 ## -description
+Gets the descriptive metadata for the trained machine learning model.
 
 ## -property-value
+The descriptive metadata.
 
 ## -remarks
 

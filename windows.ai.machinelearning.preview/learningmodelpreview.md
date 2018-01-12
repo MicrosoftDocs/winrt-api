@@ -10,6 +10,7 @@ public class LearningModelPreview : ILearningModelPreview
 # Windows.AI.MachineLearning.Preview.LearningModelPreview
 
 ## -description
+Represents a machine learning model.
 
 ## -remarks
 

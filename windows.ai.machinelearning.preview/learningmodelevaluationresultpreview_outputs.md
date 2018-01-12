@@ -10,8 +10,10 @@ public IMapView<string, object> Outputs { get; }
 # Windows.AI.MachineLearning.Preview.LearningModelEvaluationResultPreview.Outputs
 
 ## -description
+Gets the outputs of the evaluation.
 
 ## -property-value
+The set of features representing the output prediction and probabilities.
 
 ## -remarks
 

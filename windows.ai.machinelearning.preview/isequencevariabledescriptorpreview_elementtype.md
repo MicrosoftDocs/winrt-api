@@ -10,8 +10,10 @@ public ILearningModelVariableDescriptorPreview ElementType { get; }
 # Windows.AI.MachineLearning.Preview.ISequenceVariableDescriptorPreview.ElementType
 
 ## -description
+Gets the type of the sequence data.
 
 ## -property-value
+The type of the sequence data.
 
 ## -remarks
 

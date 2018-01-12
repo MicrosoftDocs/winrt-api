@@ -10,6 +10,7 @@ public class LearningModelDescriptionPreview : ILearningModelDescriptionPreview
 # Windows.AI.MachineLearning.Preview.LearningModelDescriptionPreview
 
 ## -description
+Represents the property descriptions for the model.
 
 ## -remarks
 

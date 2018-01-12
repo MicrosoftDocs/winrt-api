@@ -10,8 +10,10 @@ public long Version { get; }
 # Windows.AI.MachineLearning.Preview.ILearningModelDescriptionPreview.Version
 
 ## -description
+Gets the version information for the model.
 
 ## -property-value
+The version information for the model. 
 
 ## -remarks
 

@@ -10,13 +10,16 @@ public IAsyncOperation<ILearningModelEvaluationResultPreview> ILearningModelPrev
 # Windows.AI.MachineLearning.Preview.ILearningModelPreview.EvaluateAsync
 
 ## -description
+Asynchronously evaluates the model against the currently bound inputs and enables chained evaluations for the same bound input/output features.
 
 ## -parameters
 ### -param binding
+The binding containing the associations between model inputs and variable instances. 
 
 ### -param correlationId
 
 ## -returns
+The evaluation result.
 
 ## -remarks
 

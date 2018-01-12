@@ -10,6 +10,7 @@ public void LearningModelBindingPreview.Clear()
 # Windows.AI.MachineLearning.Preview.LearningModelBindingPreview.Clear
 
 ## -description
+Clears all bound variables. 
 
 ## -remarks
 

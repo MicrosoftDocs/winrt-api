@@ -10,6 +10,7 @@ public interface ILearningModelVariableDescriptorPreview
 # Windows.AI.MachineLearning.Preview.ILearningModelVariableDescriptorPreview
 
 ## -description
+Represents the variable descriptor information.
 
 ## -remarks
 

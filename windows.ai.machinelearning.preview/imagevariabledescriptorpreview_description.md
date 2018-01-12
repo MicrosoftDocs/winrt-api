@@ -10,8 +10,10 @@ public string Description { get; }
 # Windows.AI.MachineLearning.Preview.ImageVariableDescriptorPreview.Description
 
 ## -description
+Gets the desription of the image data.
 
 ## -property-value
+The description of the image data.
 
 ## -remarks
 

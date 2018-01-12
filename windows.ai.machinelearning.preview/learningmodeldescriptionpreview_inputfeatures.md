@@ -10,8 +10,10 @@ public IIterable<ILearningModelVariableDescriptorPreview> InputFeatures { get; }
 # Windows.AI.MachineLearning.Preview.LearningModelDescriptionPreview.InputFeatures
 
 ## -description
+Gets the input descriptions for the model.
 
 ## -property-value
+The input descriptions for the model, keyed by name of input. 
 
 ## -remarks
 

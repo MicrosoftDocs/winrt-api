@@ -10,9 +10,11 @@ public IAsyncOperation<ILearningModelPreview> LearningModelPreview.LoadModelFrom
 # Windows.AI.MachineLearning.Preview.LearningModelPreview.LoadModelFromStorageFileAsync
 
 ## -description
+Asynchronously loads a model from file storage.
 
 ## -parameters
 ### -param modelFile
+The location of the model file.  
 
 ## -returns
 

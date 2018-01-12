@@ -10,8 +10,10 @@ public string Name { get; }
 # Windows.AI.MachineLearning.Preview.LearningModelDescriptionPreview.Name
 
 ## -description
+Gets the name of the model.
 
 ## -property-value
+The name of the model.
 
 ## -remarks
 

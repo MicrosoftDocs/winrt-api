@@ -10,8 +10,10 @@ public string Author { get; }
 # Windows.AI.MachineLearning.Preview.LearningModelDescriptionPreview.Author
 
 ## -description
+Gets the author information for the model.
 
 ## -property-value
+The author information for the model.
 
 ## -remarks
 

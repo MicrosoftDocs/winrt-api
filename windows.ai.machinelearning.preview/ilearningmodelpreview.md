@@ -10,6 +10,7 @@ public interface ILearningModelPreview
 # Windows.AI.MachineLearning.Preview.ILearningModelPreview
 
 ## -description
+Represents a machine learning model.
 
 ## -remarks
 

@@ -10,8 +10,10 @@ public IInferencingOptionsPreview InferencingOptions { get;  set; }
 # Windows.AI.MachineLearning.Preview.LearningModelPreview.InferencingOptions
 
 ## -description
+Gets or sets the options for controlling evaluation of a model.
 
 ## -property-value
+The options for controlling evaluation of a model.
 
 ## -remarks
 

@@ -10,6 +10,7 @@ public class InferencingOptionsPreview : IInferencingOptionsPreview
 # Windows.AI.MachineLearning.Preview.InferencingOptionsPreview
 
 ## -description
+Represents the options for controlling evaluation of a model.
 
 ## -remarks
 

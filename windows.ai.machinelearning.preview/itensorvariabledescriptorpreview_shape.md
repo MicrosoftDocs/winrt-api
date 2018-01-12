@@ -10,8 +10,10 @@ public IIterable<uint> Shape { get; }
 # Windows.AI.MachineLearning.Preview.ITensorVariableDescriptorPreview.Shape
 
 ## -description
+Gets the n-dimensional shape of the variable.
 
 ## -property-value
+The n-dimensional shape of the variable.
 
 ## -remarks
 

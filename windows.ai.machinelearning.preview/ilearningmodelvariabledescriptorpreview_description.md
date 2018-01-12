@@ -10,8 +10,10 @@ public string Description { get; }
 # Windows.AI.MachineLearning.Preview.ILearningModelVariableDescriptorPreview.Description
 
 ## -description
+Gets the description of the variable usage.
 
 ## -property-value
+The description of the variable usage.
 
 ## -remarks
 
