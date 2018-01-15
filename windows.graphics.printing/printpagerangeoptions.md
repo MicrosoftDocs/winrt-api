@@ -10,6 +10,7 @@ public class PrintPageRangeOptions
 # Windows.Graphics.Printing.PrintPageRangeOptions
 
 ## -description
+Describes the print page range options.
 
 ## -remarks
 

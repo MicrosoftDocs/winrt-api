@@ -11,8 +11,11 @@ public PrintPageRange.PrintPageRange(Int32 page)
 
 ## -description
 
+Initializes an instance of the [PrintPageRange](printpagerange.md) class, using the specified page number.
+
 ## -parameters
 ### -param page
+The page number of the print range.
 
 ## -remarks
 

@@ -11,7 +11,11 @@ public int LastPageNumber { get; }
 
 ## -description
 
+Gets the last page number of the print range.
+
 ## -property-value
+
+The last page number of the print range.
 
 ## -remarks
 
