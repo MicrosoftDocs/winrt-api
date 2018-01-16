@@ -26,4 +26,3 @@ The only property that must be set on the tile before calling this method is [ti
 ## -examples
 
 ## -see-also
-[RequestDeleteForSelectionAsync(Rect, Placement)](secondarytile_requestdeleteforselectionasync_1725235400.md), [Secondary tiles sample](http://go.microsoft.com/fwlink/p/?linkid=231487)

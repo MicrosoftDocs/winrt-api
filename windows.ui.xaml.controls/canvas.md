@@ -61,6 +61,22 @@ These XAML attached properties are supported by [Canvas](canvas.md):
 + [Canvas.ZIndex](canvas_zindex.md)
 In order to support XAML processor access to the attached properties, and also to expose equivalent get and set operations to code, each XAML attached property has a pair of **Get** and **Set** accessor methods. For example, the [GetLeft](canvas_getleft.md) and [SetLeft](canvas_setleft.md) methods support and provide the equivalent code-only support for [Canvas.Left](canvas_left.md). Alternatively, you can use the dependency property system to get or set the value of the attached property. Call [GetValue](../windows.ui.xaml/dependencyobject_getvalue.md) or [SetValue](../windows.ui.xaml/dependencyobject_setvalue.md), passing the arguments of the dependency property identifier to set, and a reference to the target object on which to get or set the value.
 
+For example, to change the position of the child element using C#, first define the object inside a [Canvas](canvas.md), making sure to include the [Canvas.Left](canvas_left.md) and [Canvas.Top](canvas_top.md) properties.
+
+```xaml
+<Canvas >
+  <Grid x:Name="mySquare" Width="64" Height="64" Background="Red" Canvas.Left="0" Canvas.Top = "0"></Grid>
+</Canvas>
+```
+
+In the code-behind page, you can then access the position of the element, like this:
+
+```C#
+mySquare.SetValue(Canvas.LeftProperty,100);
+mySquare.SetValue(Canvas.TopProperty, 100);
+```
+
+
 ## -examples
 
 <table>

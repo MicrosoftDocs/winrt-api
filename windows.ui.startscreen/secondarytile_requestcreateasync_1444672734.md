@@ -61,4 +61,3 @@ tile.requestCreateAsync().then(function (isCreated) {
 
 
 ## -see-also
-[RequestCreateAsync(Point)](secondarytile_requestcreateasync_318145127.md), [Secondary tiles sample](http://go.microsoft.com/fwlink/p/?linkid=231487), [Tile Update On Suspend  sample](http://go.microsoft.com/fwlink/p/?LinkId=394144)
