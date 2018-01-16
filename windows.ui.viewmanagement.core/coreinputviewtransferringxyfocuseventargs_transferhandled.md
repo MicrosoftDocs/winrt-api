@@ -20,6 +20,7 @@ If false, the input pane retains focus.
 ## -remarks
 
 ## -see-also
+[XYFocusTransferringFromPrimaryView](coreinputview_xyfocustransferringfromprimaryview.md)
 
 ## -examples
 

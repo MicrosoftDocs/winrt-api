@@ -18,6 +18,7 @@ True, if the input pane remains visible; otherwise, false. The default is true.
 ## -remarks
 
 ## -see-also
+[XYFocusTransferringFromPrimaryView](coreinputview_xyfocustransferringfromprimaryview.md)
 
 ## -examples
 

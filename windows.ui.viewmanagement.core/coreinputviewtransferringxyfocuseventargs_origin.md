@@ -18,6 +18,7 @@ The bounding rect of the focused input pane element for the [TryTransferXYFocusT
 ## -remarks
 
 ## -see-also
+[XYFocusTransferringFromPrimaryView](coreinputview_xyfocustransferringfromprimaryview.md)
 
 ## -examples
 
