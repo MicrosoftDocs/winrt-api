@@ -24,14 +24,14 @@ In the following example, if the instance found is the current instance, that in
 If it is not the current instance, the example redirects to the app instance that is found. 
 
 ```csharp
-    if (theInstance.IsCurrentInstance)
-    {
-        global::Windows.UI.Xaml.Application.Start((p) => new App(activatedArgs));
-    }
-    else
-    {
-        theInstance.RedirectActivationTo();
-    }
+if (theInstance.IsCurrentInstance)
+{
+    global::Windows.UI.Xaml.Application.Start((p) => new App(activatedArgs));
+}
+else
+{
+    theInstance.RedirectActivationTo();
+}
 
 ```
 

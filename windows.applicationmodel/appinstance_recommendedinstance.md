@@ -13,7 +13,7 @@ public AppInstance RecommendedInstance { get; }
 A shell can recommend an instance of an app to which an application activation is redirected.
 
 ## -property-value
-The app instance that the shell prefers to use for an app, or `NULL` if there is no preference.
+The app instance that the shell prefers to use for an app, or `null` if there is no preference.
 
 ## -remarks
 If the shell provides a preference, the app can redirect activation to that instance. 
