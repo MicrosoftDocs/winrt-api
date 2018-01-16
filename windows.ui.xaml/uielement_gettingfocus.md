@@ -21,6 +21,7 @@ Occurs before a [UIElement](uielement.md) receives focus.
 ## -remarks
 
 ## -see-also
+[GettingFocusEventArgs](..\windows.ui.xaml.input\gettingfocuseventargs.md), [GotFocus](uielement_gotfocus.md)
 
 ## -examples
 

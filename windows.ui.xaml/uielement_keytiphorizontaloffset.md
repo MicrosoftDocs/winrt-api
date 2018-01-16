@@ -10,7 +10,7 @@ public double KeyTipHorizontalOffset { get;  set; }
 # Windows.UI.Xaml.UIElement.KeyTipHorizontalOffset
 
 ## -description
-Gets or sets a value that indicates how far left or right the keytip is placed in relation to the UIElement.
+Gets or sets a value that indicates how far left or right the Key Tip is placed in relation to the UIElement.
 
 ## -xaml-syntax
 ```xaml
@@ -18,7 +18,7 @@ Gets or sets a value that indicates how far left or right the keytip is placed i
 ```
 
 ## -property-value
-The number of pixels to move the KeyTip. Positive values move it right. Negative values move it left.
+The number of pixels to move the Key Tip. Positive values move it right. Negative values move it left.
 
 ## -remarks
 

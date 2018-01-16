@@ -10,17 +10,32 @@ public DependencyObject KeyboardAcceleratorToolTipTarget { get;  set; }
 # Windows.UI.Xaml.UIElement.KeyboardAcceleratorToolTipTarget
 
 ## -description
-Gets or sets a value that indicates the element targeted by the accelerator tooltip specified by this element.
+Gets or sets a value that indicates the control tooltip that displays the accelerator key combination.
 
 ## -property-value
-The object targeted by the key tip.
+The control tooltip that displays the accelerator key combination.
 
 ## -remarks
-The [KeyboardAcceleratorPlacementMode](uielement_keyboardacceleratorplacementmode.md) property is used to specify the location of the keyboard accelerator tooltip relative to the boundary of the targeted element.
+Use the [KeyboardAcceleratorToolTipTarget](uielement_keyboardacceleratortooltiptarget.md) property to specify the control tooltip that displays the accelerator key combination. For example, a Pivot control can display the tooltip for a PivotItem with the Pivot header. 
+
+Use the [KeyboardAcceleratorPlacementMode](uielement_keyboardacceleratorplacementmode.md) property to specify whether the control tooltip displays the key combination for it's associated keyboard accelerator.
 
 ## -examples
+Here, we demonstrate how to display the keyboard accelerator key combination with the tooltip associated with a Grid container instead of a Button. 
+
+```xaml
+<Grid x:Name="Container">
+    <Button Content="Click" 
+        ToolTipService.ToolTip="Tooltip"
+        ToolTipService.PlacementTarget="{x:Bind Container}" 
+        KeyboardAcceleratorToolTipTarget="{x:Bind Container}">
+        <Button.KeyboardAccelerators>
+            <KeyboardAccelerator Key="S" Modifiers="Control"/>
+        </Button.KeyboardAccelerators>
+    </Button>
+</Grid>
+```
 
 ## -see-also
-[KeyboardAcceleratorPlacementMode](uielement_keyboardacceleratorplacementmode.md)
 
 
