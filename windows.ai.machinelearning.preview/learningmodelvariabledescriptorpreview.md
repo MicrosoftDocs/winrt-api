@@ -10,8 +10,7 @@ public class LearningModelVariableDescriptorPreview : ILearningModelVariableDesc
 # Windows.AI.MachineLearning.Preview.LearningModelVariableDescriptorPreview
 
 ## -description
-
-## -remarks
+Represents the variable descriptor information.
 
 ## -see-also
 

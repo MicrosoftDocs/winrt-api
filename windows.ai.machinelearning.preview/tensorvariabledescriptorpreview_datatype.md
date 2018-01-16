@@ -10,8 +10,10 @@ public FeatureElementKindPreview DataType { get; }
 # Windows.AI.MachineLearning.Preview.TensorVariableDescriptorPreview.DataType
 
 ## -description
+Gets the type of the tensor data.
 
 ## -property-value
+The type of the tensor data.
 
 ## -remarks
 

@@ -10,9 +10,11 @@ public IAsyncOperation<ILearningModelPreview> LearningModelPreview.LoadModelFrom
 # Windows.AI.MachineLearning.Preview.LearningModelPreview.LoadModelFromStreamAsync
 
 ## -description
+Asynchronously loads a model from a provided stream.
 
 ## -parameters
 ### -param modelStream
+The file stream for the model.
 
 ## -returns
 

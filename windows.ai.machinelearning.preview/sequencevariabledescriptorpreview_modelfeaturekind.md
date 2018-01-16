@@ -10,8 +10,10 @@ public LearningModelFeatureKindPreview ModelFeatureKind { get; }
 # Windows.AI.MachineLearning.Preview.SequenceVariableDescriptorPreview.ModelFeatureKind
 
 ## -description
+Gets the data type of the sequence variable.
 
 ## -property-value
+The data type of the sequence variable.
 
 ## -remarks
 

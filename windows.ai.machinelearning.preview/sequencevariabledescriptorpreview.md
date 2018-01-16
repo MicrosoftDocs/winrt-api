@@ -10,6 +10,7 @@ public class SequenceVariableDescriptorPreview : ILearningModelVariableDescripto
 # Windows.AI.MachineLearning.Preview.SequenceVariableDescriptorPreview
 
 ## -description
+Represents a sequence variable's descriptor information.
 
 ## -remarks
 

@@ -10,8 +10,10 @@ public FeatureElementKindPreview KeyKind { get; }
 # Windows.AI.MachineLearning.Preview.MapVariableDescriptorPreview.KeyKind
 
 ## -description
+Gets the data type of the key for the map variable.
 
 ## -property-value
+The data type of the key.
 
 ## -remarks
 

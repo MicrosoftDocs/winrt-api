@@ -10,8 +10,10 @@ public string Description { get; }
 # Windows.AI.MachineLearning.Preview.SequenceVariableDescriptorPreview.Description
 
 ## -description
+Gets the description of the sequence variable's use.
 
 ## -property-value
+The description of the sequence variable's use.
 
 ## -remarks
 

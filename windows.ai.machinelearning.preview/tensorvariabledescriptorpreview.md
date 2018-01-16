@@ -10,8 +10,10 @@ public class TensorVariableDescriptorPreview : ILearningModelVariableDescriptorP
 # Windows.AI.MachineLearning.Preview.TensorVariableDescriptorPreview
 
 ## -description
+Represents a Tensor variable's descriptor information.
 
 ## -remarks
+This type maps to a multi-dimensional array or the .NET Tensor<T>
 
 ## -see-also
 

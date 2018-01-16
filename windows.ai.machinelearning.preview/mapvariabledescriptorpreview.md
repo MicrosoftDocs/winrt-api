@@ -10,6 +10,7 @@ public class MapVariableDescriptorPreview : ILearningModelVariableDescriptorPrev
 # Windows.AI.MachineLearning.Preview.MapVariableDescriptorPreview
 
 ## -description
+Represents the map variable descriptor information.
 
 ## -remarks
 

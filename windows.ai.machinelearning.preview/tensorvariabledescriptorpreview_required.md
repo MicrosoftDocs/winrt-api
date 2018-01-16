@@ -10,8 +10,10 @@ public bool Required { get; }
 # Windows.AI.MachineLearning.Preview.TensorVariableDescriptorPreview.Required
 
 ## -description
+Gets whether an initializer for the tensor is already provided.
 
 ## -property-value
+True if an initializer for the tensor is already provided; otherwise false.
 
 ## -remarks
 
