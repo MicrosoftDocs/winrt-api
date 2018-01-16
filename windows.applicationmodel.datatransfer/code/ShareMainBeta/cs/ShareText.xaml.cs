@@ -40,7 +40,7 @@ namespace ShareMainBetaCS
 
         //<SnippetHowToShareTextBasic_CS>
         //<SnippetHowToShareTextBasic>
-        //To see this code in action, add a call to ShareSouceLoad to your constructor or other
+        //To see this code in action, add a call to ShareSourceLoad to your constructor or other
         //initializing function.
         private void ShareSourceLoad()
         {
