@@ -17,5 +17,7 @@ Provides playback controls for a KeyFrameAnimation.
 
 ## -see-also
 
+[KeyFrameAnimation](keyframeanimation.md)
+
 ## -examples
 
