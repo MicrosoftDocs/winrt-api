@@ -41,7 +41,7 @@ The app install is canceled.
 The app install was paused.
 
 ### -field Error:9
-The ap install encountered an error.
+The app install encountered an error.
 
 ### -field PausedLowBattery:10
 The app install was paused because the battery is low.

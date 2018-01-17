@@ -10,11 +10,11 @@ public Windows.Media.Audio.AudioSubmixNode CreateSubmixNode(Windows.Media.MediaP
 # Windows.Media.Audio.AudioGraph.CreateSubmixNode
 
 ## -description
-Creates an audio graph submix node that mixes the output of one or more nodes into single output that can be connected to output nodes or other submix nodes and that supports spatial audio.
+Creates a spatial audio-enabled [AudioSubmixNode](audiosubmixnode.md) that mixes the output of one or more audio graph nodes into a single output that can be connected to output nodes or other submix nodes.
 
 ## -parameters
 ### -param encodingProperties
-An object representing audio encoding properties.
+An object representing the audio encoding properties for the submix node which specifies the sample rate at which the created node will operate. Only uncompressed PCM and float formats are allowed.
 
 ### -param emitter
 An object that describes the position and other physical characteristics of the emitter from which the node's audio is emitted when spatial audio processing is used.

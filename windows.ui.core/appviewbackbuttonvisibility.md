@@ -20,6 +20,9 @@ The back button is shown.
 The back button is not shown and space is not reserved for it in the layout.
 
 
+### -field Disabled:2
+
+
 ## -remarks
 This enumeration provides values for the [SystemNavigationManager.AppViewBackButtonVisibility](systemnavigationmanager_appviewbackbuttonvisibility.md) property.
 

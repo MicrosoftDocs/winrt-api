@@ -48,6 +48,21 @@ You can use a [RichTextBlock](richtextblock.md) with [RichTextBlockOverflow](ric
 The default [FontFamily](richtextblock_fontfamily.md) for [RichTextBlock](richtextblock.md) is Segoe UI and the default [FontSize](richtextblock_fontsize.md) is 15 device-independent pixel (DIP). By default, [RichTextBlock](richtextblock.md) utilizes a font fallback mechanism to show glyphs that are not included in the specified font. If the glyph that is needed in a [RichTextBlock](richtextblock.md) is not available in the specified font, the font fallback mechanism goes through a list of fonts on the system to try and display the required characters in a different font.
 
 ## -examples
+
+<table>
+<th align="left">XAML Controls Gallery<th>
+<tr>
+<td><img src="images/xaml-controls-gallery-sm.png" alt="XAML controls gallery"></img></td>
+<td>
+    <p>If you have the <strong style="font-weight: semi-bold">XAML Controls Gallery</strong> app installed, click here to <a href="xamlcontrolsgallery:/item/RichTextBlock">open the app and see the RichTextBlock in action</a>.</p>
+    <ul>
+    <li><a href="https://www.microsoft.com/store/productId/9MSVH128X2ZT">Get the XAML Controls Gallery app (Microsoft Store)</a></li>
+    <li><a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics">Get the source code (GitHub)</a></li>
+    </ul>
+</td>
+</tr>
+</table>
+
 This example shows a [RichTextBlock](richtextblock.md) with text selection and text wrapping enabled.
 
 In XAML, the creation of content elements is implicit, so you can add the text directly to the [Paragraph](../windows.ui.xaml.documents/paragraph.md) element, and the [Paragraph](../windows.ui.xaml.documents/paragraph.md) directly to the [RichTextBlock](richtextblock.md) element.

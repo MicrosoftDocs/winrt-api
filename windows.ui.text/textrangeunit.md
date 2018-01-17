@@ -115,6 +115,8 @@ Text is in a font-bound font. That is, characters that can't be displayed with t
 ### -field LinkProtected:31
 Characters in one or more contiguous, friendly-name hyperlinks. To work with single links that might be adjacent, use the **Link** unit.
 
+### -field ContentLink:32
+ContentLink text.
 
 ## -remarks
 

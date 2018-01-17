@@ -25,4 +25,3 @@ Other mandatory tile properties, such as the display name, must be set through c
 ## -examples
 
 ## -see-also
-[SecondaryTile(String, String, String, String, TileOptions, Uri)](secondarytile_secondarytile_735070396.md), [SecondaryTile(String, String, String, String, TileOptions, Uri, Uri)](secondarytile_secondarytile_1985961532.md), [SecondaryTile(String, String, String, Uri, TileSize)](secondarytile_secondarytile_1137028492.md), [Secondary tiles sample](http://go.microsoft.com/fwlink/p/?linkid=231487)

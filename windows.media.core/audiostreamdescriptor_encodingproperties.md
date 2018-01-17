@@ -10,15 +10,15 @@ public Windows.Media.MediaProperties.AudioEncodingProperties EncodingProperties 
 # Windows.Media.Core.AudioStreamDescriptor.EncodingProperties
 
 ## -description
-The encoding properties of the stream.
+Gets an object describing the encoding properties for the audio stream. These properties include the sample rate and channel count of the audio.
 
 ## -property-value
-Describes the format of the audio stream.
+The encoding properties on the audio stream.
 
 ## -remarks
 The application can change the encoding properties of the audio stream descriptor at any time.
 
-If the media pipeline cannot handle the new encoding properties, the [MediaStreamSource](mediastreamsource.md) will raise the [Closed](mediastreamsource_closed.md) event which provides information regarding the error.
+If the media pipeline cannot handle the new encoding properties, a [MediaStreamSource](mediastreamsource.md) will raise the [Closed](mediastreamsource_closed.md) event which provides information regarding the error.
 
 ## -examples
 

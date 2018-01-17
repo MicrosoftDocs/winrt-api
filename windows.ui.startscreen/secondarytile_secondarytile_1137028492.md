@@ -57,4 +57,3 @@ var tile = new Windows.UI.StartScreen.SecondaryTile("SecondaryTile.01",
 
 
 ## -see-also
-[SecondaryTile(String, String, String, String, TileOptions, Uri)](secondarytile_secondarytile_735070396.md), [SecondaryTile(String, String, String, String, TileOptions, Uri, Uri)](secondarytile_secondarytile_1985961532.md), [SecondaryTile(String)](secondarytile_secondarytile_290278668.md), [SecondaryTile()](secondarytile_secondarytile_1221375020.md), [Secondary tiles sample](http://go.microsoft.com/fwlink/p/?linkid=231487)

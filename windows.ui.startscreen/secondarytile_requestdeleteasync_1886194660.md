@@ -42,4 +42,3 @@ void async showTileCreateRequest( SecondaryTile tile, Point pt)
 ## -examples
 
 ## -see-also
-[RequestDeleteAsync](secondarytile_requestdeleteasync_880835933.md), [Secondary tiles sample](http://go.microsoft.com/fwlink/p/?linkid=231487)

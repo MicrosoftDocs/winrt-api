@@ -27,6 +27,10 @@ A type of option that is a string or some text.
 A type of option that is a list of items.
 
 
+### -field Toggle:4
+A type of option that is a toggle.
+
+
 ## -remarks
 
 ## -examples

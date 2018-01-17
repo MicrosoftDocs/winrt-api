@@ -25,4 +25,3 @@ An enumeration object that allows you to examine the set of tiles.
 ## -examples
 
 ## -see-also
-[FindAllAsync](secondarytile_findallasync_326280522.md), [Secondary tiles sample](http://go.microsoft.com/fwlink/p/?linkid=231487)

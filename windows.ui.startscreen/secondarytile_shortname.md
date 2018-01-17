@@ -32,4 +32,3 @@ The user has the option to change this value to a string of their own choosing a
 ## -examples
 
 ## -see-also
-[Secondary tiles sample](http://go.microsoft.com/fwlink/p/?linkid=231487)

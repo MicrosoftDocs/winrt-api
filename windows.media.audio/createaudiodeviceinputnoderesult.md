@@ -10,10 +10,10 @@ public class CreateAudioDeviceInputNodeResult : Windows.Media.Audio.ICreateAudio
 # Windows.Media.Audio.CreateAudioDeviceInputNodeResult
 
 ## -description
-Represents the result of creating an audio device input node.
+Represents the result of attempting to create an audio device input node.
 
 ## -remarks
-Get an instance of this class by calling [AudioGraph.CreateDeviceInputNodeAsync](audiograph_createdeviceinputnodeasync.md)
+Get an instance of this class by calling [AudioGraph.CreateDeviceInputNodeAsync](audiograph_createdeviceinputnodeasync.md). Check the [Status](createaudiodeviceinputnoderesult_status.md) property to determine if the node was successfully created, and if so, get the instance of the node with the [Node](createaudiodeviceinputnoderesult_node.md) property.
 
 ## -examples
 

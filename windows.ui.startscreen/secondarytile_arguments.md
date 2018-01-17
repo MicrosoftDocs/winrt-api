@@ -22,4 +22,3 @@ When an app is activated through this secondary tile (by click, touch, or keyboa
 ## -examples
 
 ## -see-also
-[Secondary tiles sample](http://go.microsoft.com/fwlink/p/?linkid=231487)

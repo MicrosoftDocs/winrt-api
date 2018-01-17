@@ -115,6 +115,8 @@ The device has 6 GB of video memory.
 ### -field VideoMemory1GB:33
 The device has 1 GB of video memory.
 
+### -field ArchitectureArm64:34
+The device chipset uses the ARM64 CPU architecture.
 
 ## -remarks
 

@@ -33,5 +33,3 @@ Package installedPackage = await packageCatalog.AddOptionalPackageAsync(familyNa
 ```
 
 ## -see-also
-
-## -examples
