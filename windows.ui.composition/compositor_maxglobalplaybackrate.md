@@ -11,7 +11,11 @@ public float MaxGlobalPlaybackRate { get; }
 
 ## -description
 
+Gets the maximum allowed playback rate for all KeyFrame animations created by this compositor..
+
 ## -property-value
+
+The maximum allowed playback rate.
 
 ## -remarks
 
