@@ -14,10 +14,19 @@ Gets the the collection of key combinations that invoke an action using the keyb
 
 Accelerators are typically assigned to buttons or menu items.
 
+![Example of a menu showing keyboard accelerators for various menu items](images/keyboard-accelerators.png)  
+*Example of a menu showing keyboard accelerators for various menu items*
+
 ## -property-value
 The collection of [**KeyboardAccelerator**](https://docs.microsoft.com/uwp/api/windows.ui.xaml.input.keyboardaccelerator) objects. 
 
 ## -remarks
+Windows 10, version 1703, introduced [keyboard accelerator](uielement_keyboardaccelerators.md) shortcuts. However, these shortcuts were not displayed with the UI of their corresponding controls.
+
+Starting with Windows 10, version 1803, when [KeyboardAccelerators](uielement_keyboardaccelerators.md) are declared, controls display the corresponding key combinations by default.
+
+You can override the the default key combination string associated with a [keyboard accelerator](uielement_keyboardaccelerators.md) using the text override properties [MenuFlyoutItem.KeyboardAcceleratorTextOverride](../windows.ui.xaml.controls/menuflyoutitem_keyboardacceleratortextoverride.md), [AppBarButton.KeyboardAcceleratorTextOverride](../windows.ui.xaml.controls/appbarbutton_keyboardacceleratortextoverride.md), and [AppBarToggleButton.KeyboardAcceleratorTextOverride](../windows.ui.xaml.controls/appbartogglebutton_keyboardacceleratortextoverride.md).
+
 An accelerator key can be a single key, such as F1 - F12 and Esc, or a combination of keys (Ctrl + Shift + B, or Ctrl C) that invoke a command. They differ from access keys (mnemonics), which are typically modified with the Alt key and simply activate a command or control.
 
 An accelerator can be executed even if the element associated with the accelerator is not visible. For example, an item in the [**SecondaryCommands**](https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.commandbar#Windows_UI_Xaml_Controls_CommandBar_SecondaryCommands) collection of the [**CommandBar**](https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.commandbar) can be invoked using an accelerator without expanding the overflow menu and displaying the element.
