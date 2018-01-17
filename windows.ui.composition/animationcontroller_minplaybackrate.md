@@ -11,7 +11,11 @@ public float MinPlaybackRate { get; }
 
 ## -description
 
+Gets the minimum allowed playback rate (-16).
+
 ## -property-value
+
+The minimum allowed playback rate, which is -16.
 
 ## -remarks
 

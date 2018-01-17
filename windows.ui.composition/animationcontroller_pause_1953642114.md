@@ -11,6 +11,8 @@ public void AnimationController.Pause()
 
 ## -description
 
+Pauses playback of the animation.
+
 ## -remarks
 
 ## -see-also
