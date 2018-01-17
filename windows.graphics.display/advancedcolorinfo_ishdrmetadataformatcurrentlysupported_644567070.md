@@ -9,12 +9,17 @@ public bool AdvancedColorInfo.IsHdrMetadataFormatCurrentlySupported(HdrMetadataF
 
 # Windows.Graphics.Display.AdvancedColorInfo.IsHdrMetadataFormatCurrentlySupported
 
+Returns a boolean value that describes whether the specified HDR metadata format is supported by the display in its current state. 
+
 ## -description
 
 ## -parameters
 ### -param format
 
+The HDR metadata format to check.
+
 ## -returns
+**True** if the format is supported; otherwise, **false**.
 
 ## -remarks
 

@@ -11,7 +11,11 @@ public IVectorView<NitRange> DisplayEnhancementOverrideCapabilities.GetSupported
 
 ## -description
 
+Retrieves the supported nit ranges.
+
 ## -returns
+
+The supported nit ranges. Returns an empty vector if [IsBrightnessNitsControlSupported](displayenhancementoverridecapabilities_isbrightnessnitscontrolsupported.md) is **false**.
 
 ## -remarks
 

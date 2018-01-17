@@ -11,10 +11,17 @@ public BrightnessOverrideSettings BrightnessOverrideSettings.CreateFromDisplayBr
 
 ## -description
 
+
+Creates a [BrightnessOverrideSettings](brightnessoverridesettings.md) object with a brightness level corresponding to the given brightness scenario.
+
 ## -parameters
 ### -param overrideScenario
 
+The override scenario on which to base the settings.
+
 ## -returns
+
+The override settings.
 
 ## -remarks
 

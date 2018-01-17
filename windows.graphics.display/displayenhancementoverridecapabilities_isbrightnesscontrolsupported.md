@@ -11,7 +11,11 @@ public bool IsBrightnessControlSupported { get; }
 
 ## -description
 
+Gets a value that describes whether brightness control is currently supported.
+
 ## -property-value
+
+**True** if brightness control is currently supported; otherwise, **false**.
 
 ## -remarks
 

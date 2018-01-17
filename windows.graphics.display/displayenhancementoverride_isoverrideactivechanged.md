@@ -11,6 +11,8 @@ public event TypedEventHandler IsOverrideActiveChanged<DisplayEnhancementOverrid
 
 ## -description
 
+Raised when the [IsOverrideActive](isoverrideactive.md) property is changed.
+
 ## -remarks
 
 ## -see-also

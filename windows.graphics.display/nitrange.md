@@ -13,15 +13,25 @@ public struct NitRange  {
 
 # Windows.Graphics.Display.NitRange
 
+
+
 ## -description
+
+Describes the minimum, maximum, and step size you can use when using nits to describe brightness on a device.
 
 ## -struct-fields
 
 ### -field MaxNits
 
+The inclusive start point.
+
 ### -field MinNits
 
+The inclusive end point.
+
 ### -field StepSizeNits
+
+The step size, in Nits, for the brightness of the display. Guaranteed to be a factor of (MinNits - MaxNits).
 
 ## -remarks
 

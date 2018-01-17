@@ -9,9 +9,15 @@ public class DisplayEnhancementOverride
 
 # Windows.Graphics.Display.DisplayEnhancementOverride
 
+
+
 ## -description
 
+Contains the base features that describe how to override setting displays.
+
 ## -remarks
+
+This class acts as a base class for [ColorOverride](coloroverride.md) and [BrightnessOverride](brightnessoverride.md).
 
 ## -see-also
 

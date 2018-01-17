@@ -11,7 +11,11 @@ public DisplayEnhancementOverrideCapabilities DisplayEnhancementOverride.GetCurr
 
 ## -description
 
+Retrieves the current display enhancement overide capabilities.
+
 ## -returns
+
+The current display enhancement override capabilities.
 
 ## -remarks
 

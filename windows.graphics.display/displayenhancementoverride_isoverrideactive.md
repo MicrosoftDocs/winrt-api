@@ -11,7 +11,11 @@ public bool IsOverrideActive { get; }
 
 ## -description
 
+Gets a value that describes whether the display enhancement overrides are active.
+
 ## -property-value
+
+**True** if the display enhancement override object is currently overriding the system's brightness and/or color settings. Otherwise, **false**.
 
 ## -remarks
 

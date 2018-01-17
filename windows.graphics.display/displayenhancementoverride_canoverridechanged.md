@@ -9,7 +9,11 @@ public event TypedEventHandler CanOverrideChanged<DisplayEnhancementOverride,  o
 
 # Windows.Graphics.Display.DisplayEnhancementOverride.CanOverrideChanged
 
+
+
 ## -description
+
+Raised when the ability to override the display settings have been changed.
 
 ## -remarks
 

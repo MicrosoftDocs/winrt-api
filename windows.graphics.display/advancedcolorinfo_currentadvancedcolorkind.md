@@ -11,7 +11,11 @@ public AdvancedColorKind CurrentAdvancedColorKind { get; }
 
 ## -description
 
+Gets the AdvancedColorKind which is currently being set on the display.
+
 ## -property-value
+
+The AdvancedColorKind which is currently being set on the display.
 
 ## -remarks
 

@@ -11,6 +11,8 @@ public event TypedEventHandler DisplayEnhancementOverrideCapabilitiesChanged<Dis
 
 ## -description
 
+Raised when the the display enhancement override capabilities have been changed.
+
 ## -remarks
 
 ## -see-also

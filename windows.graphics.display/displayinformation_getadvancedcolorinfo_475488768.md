@@ -11,7 +11,11 @@ public AdvancedColorInfo DisplayInformation.GetAdvancedColorInfo()
 
 ## -description
 
+Retrieves the advanced color information.
+
 ## -returns
+
+The advanced color information.
 
 ## -remarks
 

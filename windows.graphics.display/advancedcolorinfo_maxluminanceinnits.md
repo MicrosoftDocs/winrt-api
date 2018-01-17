@@ -9,9 +9,16 @@ public float MaxLuminanceInNits { get; }
 
 # Windows.Graphics.Display.AdvancedColorInfo.MaxLuminanceInNits
 
+
+
 ## -description
 
+
+Gets the maximum peak luminance of the display in nits, which is usually valid for a small part of the display.
+
 ## -property-value
+
+The maximum peak luminance of the display in nits.
 
 ## -remarks
 

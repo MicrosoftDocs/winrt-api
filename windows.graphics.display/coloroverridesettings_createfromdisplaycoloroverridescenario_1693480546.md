@@ -9,12 +9,20 @@ public ColorOverrideSettings ColorOverrideSettings.CreateFromDisplayColorOverrid
 
 # Windows.Graphics.Display.ColorOverrideSettings.CreateFromDisplayColorOverrideScenario
 
+
+
 ## -description
+
+Creates a set of color override settings, based on the specified override scenario.
 
 ## -parameters
 ### -param overrideScenario
 
+The override scenario to use.
+
 ## -returns
+
+The color override settings.
 
 ## -remarks
 

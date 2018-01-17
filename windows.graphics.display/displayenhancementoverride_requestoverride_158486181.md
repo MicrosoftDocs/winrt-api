@@ -11,7 +11,11 @@ public void DisplayEnhancementOverride.RequestOverride()
 
 ## -description
 
+Requests that the current display be overridden with the current diplay override settings.
+
 ## -remarks
+
+[RequestOverride](displayenhancementoverride_requestoverride_158486181.md) notifies the system that the current [DisplayEnhancementOverride](displayenhancementoverride.md) object wants to apply its brightness and color settings to the system. It is up to the system to decide if these settings will be applied. Applying settings is atomic: either all settings are applied, or none at all.
 
 ## -see-also
 

@@ -11,7 +11,11 @@ public Point GreenPrimary { get; }
 
 ## -description
 
+Gets the native Green color primary for the display.
+
 ## -property-value
+
+The native Green color primary for the display.
 
 ## -remarks
 

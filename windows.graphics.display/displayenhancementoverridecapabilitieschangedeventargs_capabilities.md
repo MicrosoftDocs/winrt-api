@@ -11,7 +11,11 @@ public DisplayEnhancementOverrideCapabilities Capabilities { get; }
 
 ## -description
 
+Gets the display enhancement override capabilities that have changed.
+
 ## -property-value
+
+The display enhancement override capabilities that have changed.
 
 ## -remarks
 

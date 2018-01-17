@@ -9,9 +9,15 @@ public Point RedPrimary { get; }
 
 # Windows.Graphics.Display.AdvancedColorInfo.RedPrimary
 
+
+
 ## -description
 
+Gets the native Red color primary for the display.
+
 ## -property-value
+
+The native Red color primary for the display.
 
 ## -remarks
 

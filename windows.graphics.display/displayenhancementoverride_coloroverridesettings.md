@@ -11,7 +11,11 @@ public ColorOverrideSettings ColorOverrideSettings { get;  set; }
 
 ## -description
 
+Gets and sets the color override settings.
+
 ## -property-value
+
+The color override settings. A null [ColorOverrideSettings](coloroverridesettings.md) property means that the [DisplayEnhancementOverride](displayenhancementoverride.md) object does not want to override color settings. This property is null by default.
 
 ## -remarks
 

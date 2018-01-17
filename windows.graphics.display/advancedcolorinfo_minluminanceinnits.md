@@ -9,9 +9,15 @@ public float MinLuminanceInNits { get; }
 
 # Windows.Graphics.Display.AdvancedColorInfo.MinLuminanceInNits
 
+
+
 ## -description
 
+Get the minimum luminance of the display in nits.
+
 ## -property-value
+
+The minimum luminance of the display in nits.
 
 ## -remarks
 

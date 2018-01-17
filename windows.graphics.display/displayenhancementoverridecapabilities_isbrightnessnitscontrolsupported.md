@@ -11,7 +11,11 @@ public bool IsBrightnessNitsControlSupported { get; }
 
 ## -description
 
+Gets a value that describes whether brightness control in nits is supported.
+
 ## -property-value
+
+**True** if the brightness controls in nits is supported; otherwise, **false**.
 
 ## -remarks
 

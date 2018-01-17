@@ -11,6 +11,10 @@ public class BrightnessOverrideSettings
 
 ## -description
 
+
+Contains the settings to use when overriding the screen brightness level setting on a device.
+
+
 ## -remarks
 
 ## -see-also

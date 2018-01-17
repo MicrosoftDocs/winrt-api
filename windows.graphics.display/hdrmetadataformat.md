@@ -11,10 +11,16 @@ public enum HdrMetadataFormat : int
 
 ## -description
 
+Describes the HDR metadata format.
+
 ## -enum-fields
 ### -field Hdr10Plus:1
 
+The specified display supports the HDR10Plus style of metadata, as per the HDR10Plus specification.
+
 ### -field Hdr10:0
+
+The specified display supports the HDR10 style metadata, as per the HDR10 specification.
 
 ## -remarks
 
