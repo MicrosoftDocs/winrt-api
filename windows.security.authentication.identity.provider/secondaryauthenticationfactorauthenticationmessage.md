@@ -76,18 +76,13 @@ Ready to sign in with **device name**.
 ### -field UseAnotherSignInOption:19
 Use another sign-in option first, then you can use **device name** to sign in.
 
+### -field ConnectionRequired:20
+
+### -field TimeLimitExceeded:21
 
 ### -field CanceledByUser:22
 
-
 ### -field CenterHand:23
-
-
-### -field ConnectionRequired:20
-
-
-### -field DeviceUnavailable:28
-
 
 ### -field MoveHandCloser:24
 
@@ -100,8 +95,8 @@ Use another sign-in option first, then you can use **device name** to sign in.
 
 ### -field RecognitionFailed:27
 
+### -field DeviceUnavailable:28
 
-### -field TimeLimitExceeded:21
 
 
 ## -remarks
