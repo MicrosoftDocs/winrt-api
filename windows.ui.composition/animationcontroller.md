@@ -11,9 +11,13 @@ public class AnimationController : CompositionObject, CompositionObject
 
 ## -description
 
+Provides playback controls for a KeyFrameAnimation.
+
 ## -remarks
 
 ## -see-also
+
+[KeyFrameAnimation](keyframeanimation.md)
 
 ## -examples
 

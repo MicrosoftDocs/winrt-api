@@ -11,9 +11,15 @@ public float Progress { get;  set; }
 
 ## -description
 
+Gets or sets a value that indicates the current playback position of the animation.
+
 ## -property-value
 
+The current playback position of the animation.
+
 ## -remarks
+
+Valid values range from 0 to the duration of the animation being controlled.
 
 ## -see-also
 
