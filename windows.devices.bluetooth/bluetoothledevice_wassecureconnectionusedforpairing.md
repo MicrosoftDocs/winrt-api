@@ -10,8 +10,10 @@ public bool WasSecureConnectionUsedForPairing { get; }
 # Windows.Devices.Bluetooth.BluetoothLEDevice.WasSecureConnectionUsedForPairing
 
 ## -description
+Gets a boolean indicating whether the BluetoothLEDevice was paired using a Secure Connection.
 
 ## -property-value
+A boolean indicating whether the BluetoothLEDevice was paired using a Secure Connection.
 
 ## -remarks
 

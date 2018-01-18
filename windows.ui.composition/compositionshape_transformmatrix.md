@@ -11,7 +11,11 @@ public Matrix3x2 TransformMatrix { get;  set; }
 
 ## -description
 
+Gets or sets the transform matrix to apply to the shape.
+
 ## -property-value
+
+The transform matrix to apply to the shape.
 
 ## -remarks
 

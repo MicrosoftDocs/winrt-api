@@ -11,7 +11,11 @@ public string Comment { get;  set; }
 
 ## -description
 
+Gets or sets a string to associate with the Compositor.
+
 ## -property-value
+
+A string to associate with the Compositor.
 
 ## -remarks
 

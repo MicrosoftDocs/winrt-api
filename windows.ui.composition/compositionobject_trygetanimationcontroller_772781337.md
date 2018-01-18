@@ -11,10 +11,16 @@ public AnimationController CompositionObject.TryGetAnimationController(String pr
 
 ## -description
 
+Returns an AnimationController for the animation running on the specified property.
+
 ## -parameters
 ### -param propertyName
 
+The property being animated.
+
 ## -returns
+
+An instance of [AnimationController](animationcontroller.md) for the specified animation, or **null** if the animation is not found.
 
 ## -remarks
 

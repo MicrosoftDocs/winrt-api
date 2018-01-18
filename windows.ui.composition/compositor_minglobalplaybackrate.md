@@ -11,7 +11,11 @@ public float MinGlobalPlaybackRate { get; }
 
 ## -description
 
+Gets the minimum allowed playback rate for all KeyFrame animations created by this compositor.
+
 ## -property-value
+
+The minimum allowed playback rate.
 
 ## -remarks
 

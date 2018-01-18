@@ -11,7 +11,11 @@ public float MaxPlaybackRate { get; }
 
 ## -description
 
+Gets the maximum allowed playback rate.
+
 ## -property-value
+
+The maximum allowed playback rate.
 
 ## -remarks
 

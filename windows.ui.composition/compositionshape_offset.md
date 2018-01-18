@@ -11,7 +11,11 @@ public Vector2 Offset { get;  set; }
 
 ## -description
 
+Gets or sets the offset of the shape relative to its [ShapeVisual](shapevisual.md).
+
 ## -property-value
+
+The offset of the shape relative to its [ShapeVisual](shapevisual.md).
 
 ## -remarks
 

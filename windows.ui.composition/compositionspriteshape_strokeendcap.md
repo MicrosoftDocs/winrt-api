@@ -11,7 +11,11 @@ public CompositionStrokeCap StrokeEndCap { get;  set; }
 
 ## -description
 
+Gets or sets a [CompositionStrokeCap](compositionstrokecap.md) enumeration value that specifies how the end of a line is drawn.
+
 ## -property-value
+
+An enumeration value that specifies how the end of a line is drawn. The default is **Flat**.
 
 ## -remarks
 

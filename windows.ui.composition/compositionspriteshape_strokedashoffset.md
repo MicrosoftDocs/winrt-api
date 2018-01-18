@@ -11,7 +11,11 @@ public float StrokeDashOffset { get;  set; }
 
 ## -description
 
+Gets or sets a value that specifies the distance within the dash pattern where a dash begins.
+
 ## -property-value
+
+A value that represents the distance within the dash pattern where a dash begins. The default is 0.
 
 ## -remarks
 
