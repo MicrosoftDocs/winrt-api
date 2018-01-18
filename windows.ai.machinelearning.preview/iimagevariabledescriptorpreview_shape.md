@@ -13,7 +13,7 @@ public IIterable<uint> Shape { get; }
 Gets the expected image shape.
 
 ## -property-value
-The image shape. An image will always be defined as C X H X W.
+The image shape, defined as (C, H, W) where C is the number of channels, H is the height of the image, and W is the width of the image.
 
 ## -remarks
 
