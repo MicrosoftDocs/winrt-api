@@ -11,6 +11,8 @@ public class ShapeVisual : ContainerVisual, ContainerVisual
 
 ## -description
 
+Represents a visual tree node that is the root of a CompositionShape.
+
 ## -remarks
 
 ## -see-also

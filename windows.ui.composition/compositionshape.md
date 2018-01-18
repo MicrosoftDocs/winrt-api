@@ -11,7 +11,11 @@ public class CompositionShape : CompositionObject, CompositionObject
 
 ## -description
 
+Represents the base shape class.
+
 ## -remarks
+
+This is the base class for [CompositionContainerShape](compositioncontainershape.md) and [CompositionSpriteShape](compositionspriteshape.md).
 
 ## -see-also
 

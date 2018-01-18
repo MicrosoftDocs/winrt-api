@@ -11,6 +11,8 @@ public class CompositionSpriteShape : CompositionShape, CompositionShape
 
 ## -description
 
+Represents the base class for shape elements.
+
 ## -remarks
 
 ## -see-also

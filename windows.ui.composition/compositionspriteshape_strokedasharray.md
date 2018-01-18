@@ -11,7 +11,11 @@ public CompositionStrokeDashArray StrokeDashArray { get; }
 
 ## -description
 
+Gets the collection of values that indicates the pattern of dashes and gaps used to outline shapes.
+
 ## -property-value
+
+The collection of values that indicates the pattern of dashes and gaps used to outline shapes.
 
 ## -remarks
 
