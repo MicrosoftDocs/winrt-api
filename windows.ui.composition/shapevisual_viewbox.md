@@ -11,7 +11,11 @@ public CompositionViewBox ViewBox { get;  set; }
 
 ## -description
 
+Gets or sets the CompositionViewBox that maps shape visual tree coordinates onto the visual.
+
 ## -property-value
+
+The CompositionViewBox that maps shape visual tree coordinates onto the visual.
 
 ## -remarks
 
