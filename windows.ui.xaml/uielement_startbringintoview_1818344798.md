@@ -20,7 +20,7 @@ If you use the signature that does not specify any options, then the entire elem
 The StartBringIntoView method does not transmit any information about success or failure.  Reasons for failure can include the element settings, such as [Visibility](uielement_visibility.md) being some value other than **Visible**.
 
 ## -see-also
-
+* [BringIntoViewRequested](uielement_bringintoviewrequested.md)
 
 ## -examples
 
