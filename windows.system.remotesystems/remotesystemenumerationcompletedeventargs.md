@@ -10,6 +10,7 @@ public class RemoteSystemEnumerationCompletedEventArgs
 # Windows.System.RemoteSystems.RemoteSystemEnumerationCompletedEventArgs
 
 ## -description
+This is the argument class for the **[RemoteSystemWatcher.EnumerationCompleted](remotesystemwatcher_enumerationcompleted.md)** event.
 
 ## -remarks
 
