@@ -11,7 +11,11 @@ public Vector2 Size { get;  set; }
 
 ## -description
 
+Gets or sets the height and width of the view box.
+
 ## -property-value
+
+The height and width of the view box.
 
 ## -remarks
 

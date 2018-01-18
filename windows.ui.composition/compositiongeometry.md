@@ -11,6 +11,8 @@ public class CompositionGeometry : CompositionObject, CompositionObject
 
 ## -description
 
+Represents the base class for composition geometries.
+
 ## -remarks
 
 ## -see-also

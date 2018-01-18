@@ -11,7 +11,11 @@ public float VerticalAlignmentRatio { get;  set; }
 
 ## -description
 
+Gets or sets the vertical alignment ratio of the view box.
+
 ## -property-value
+
+The vertical alignment ratio of the view box.
 
 ## -remarks
 

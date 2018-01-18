@@ -11,7 +11,12 @@ public Vector2 Offset { get;  set; }
 
 ## -description
 
+Gets or sets the offset of the rectangle.
+
 ## -property-value
+
+The offset of the rectangle.
+
 
 ## -remarks
 

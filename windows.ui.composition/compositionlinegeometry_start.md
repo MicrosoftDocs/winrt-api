@@ -11,7 +11,11 @@ public Vector2 Start { get;  set; }
 
 ## -description
 
+Gets or sets the starting point of the line.
+
 ## -property-value
+
+The starting point of the line.
 
 ## -remarks
 
