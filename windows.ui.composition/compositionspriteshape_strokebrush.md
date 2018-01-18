@@ -11,7 +11,11 @@ public CompositionBrush StrokeBrush { get;  set; }
 
 ## -description
 
+Gets or sets the brush that paints the outline of the shape.
+
 ## -property-value
+
+A brush that paints the shape outline.
 
 ## -remarks
 

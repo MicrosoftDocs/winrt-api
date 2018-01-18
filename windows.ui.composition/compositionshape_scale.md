@@ -11,7 +11,11 @@ public Vector2 Scale { get;  set; }
 
 ## -description
 
+Gets or sets the scale to apply to the shape.
+
 ## -property-value
+
+The scale to apply to the shape.
 
 ## -remarks
 

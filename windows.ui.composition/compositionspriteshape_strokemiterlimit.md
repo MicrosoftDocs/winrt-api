@@ -11,7 +11,11 @@ public float StrokeMiterLimit { get;  set; }
 
 ## -description
 
+Gets or sets a limit on the ratio of the miter length to half the [StrokeThickness](compositionspriteshape_strokethickness.md) of a shape element.
+
 ## -property-value
+
+The limit on the ratio of the miter length to the [StrokeThickness](compositionspriteshape_strokethickness.md) of a shape element. This value is always a positive number that is greater than or equal to 1.
 
 ## -remarks
 

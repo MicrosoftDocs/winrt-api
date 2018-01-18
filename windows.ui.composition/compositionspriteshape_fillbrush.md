@@ -11,7 +11,11 @@ public CompositionBrush FillBrush { get;  set; }
 
 ## -description
 
+Gets or sets the brush that paints the interior area of the shape.
+
 ## -property-value
+
+A brush that paints/fills the shape interior.
 
 ## -remarks
 

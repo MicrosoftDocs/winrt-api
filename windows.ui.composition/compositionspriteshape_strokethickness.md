@@ -11,7 +11,11 @@ public float StrokeThickness { get;  set; }
 
 ## -description
 
+Gets or sets the width of the shape outline.
+
 ## -property-value
+
+The width of the shape outline, in pixels. The default value is 0.
 
 ## -remarks
 

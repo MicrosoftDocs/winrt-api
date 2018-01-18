@@ -11,7 +11,11 @@ public Vector2 CenterPoint { get;  set; }
 
 ## -description
 
+The point about which the shape is rotated and scaled.
+
 ## -property-value
+
+The point about which the shape is rotated and scaled.
 
 ## -remarks
 
