@@ -11,7 +11,11 @@ public Vector2 End { get;  set; }
 
 ## -description
 
+Gets or sets the end point of the line.
+
 ## -property-value
+
+The end point of the line.
 
 ## -remarks
 

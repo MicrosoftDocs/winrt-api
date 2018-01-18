@@ -11,6 +11,8 @@ public class CompositionLineGeometry : CompositionGeometry, CompositionGeometry
 
 ## -description
 
+Represents a straight line between two points.
+
 ## -remarks
 
 ## -see-also

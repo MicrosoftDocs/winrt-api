@@ -11,7 +11,11 @@ public Vector2 Center { get;  set; }
 
 ## -description
 
+Gets or sets the center point of the ellipse.
+
 ## -property-value
+
+The center point of the ellipse.
 
 ## -remarks
 

@@ -11,7 +11,11 @@ public Vector2 CornerRadius { get;  set; }
 
 ## -description
 
+Gets or sets the degree to which the corners are rounded.
+
 ## -property-value
+
+The degree to which the corners are rounded.
 
 ## -remarks
 
