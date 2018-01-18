@@ -20,7 +20,7 @@ The URI of the package to add. The URI must follow the file URI scheme (file://)
 The URIs of the dependency packages to add. If there are no dependency packages or if the dependency packages are already registered, this parameter can be null.
 
 ### -param deploymentOptions
-A valid enumeration values from the [DeploymentOptions](deploymentoptions.md) enumeration.
+A valid enumeration value from the [DeploymentOptions](deploymentoptions.md) enumeration.
 
 ### -param targetVolume
 The volume that the package is installed to.

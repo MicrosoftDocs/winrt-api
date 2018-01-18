@@ -11,7 +11,11 @@ public Vector2 Offset { get;  set; }
 
 ## -description
 
+Gets or sets the offset of the view box.
+
 ## -property-value
+
+The offset of the view box.
 
 ## -remarks
 

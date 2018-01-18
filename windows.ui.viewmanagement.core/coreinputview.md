@@ -1,7 +1,6 @@
 ---
 -api-id: T:Windows.UI.ViewManagement.Core.CoreInputView
 -api-type: winrt class
--api-device-family-note: xbox
 ---
 
 <!-- Class syntax.
@@ -15,7 +14,7 @@ Enables an app to receive notifications when a docked, undocked, moveable, or tr
 
 
 > [!NOTE]
-> Not supported on Xbox or HoloLens.
+> Not supported on HoloLens.
 
 ## -remarks
 Used by frameworks (such as XAML) or custom text controls only.

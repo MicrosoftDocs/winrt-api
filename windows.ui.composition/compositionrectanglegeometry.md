@@ -11,6 +11,8 @@ public class CompositionRectangleGeometry : CompositionGeometry, CompositionGeom
 
 ## -description
 
+Represents a rectangle shape of the specified size.
+
 ## -remarks
 
 ## -see-also

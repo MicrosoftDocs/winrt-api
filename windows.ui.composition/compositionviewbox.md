@@ -11,6 +11,8 @@ public class CompositionViewBox : CompositionObject, CompositionObject
 
 ## -description
 
+Represents a container that maps shape visual tree coordinates onto the visual.
+
 ## -remarks
 
 ## -see-also

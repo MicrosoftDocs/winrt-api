@@ -11,6 +11,8 @@ public class CompositionPathGeometry : CompositionGeometry, CompositionGeometry
 
 ## -description
 
+Represents a series of connected lines and curves.
+
 ## -remarks
 
 ## -see-also

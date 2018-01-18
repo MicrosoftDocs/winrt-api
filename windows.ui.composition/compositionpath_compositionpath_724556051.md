@@ -11,6 +11,8 @@ public CompositionPath.CompositionPath(IGeometrySource2D source)
 
 ## -description
 
+Initializes a new instance of the CompositionPath class.
+
 ## -parameters
 ### -param source
 
