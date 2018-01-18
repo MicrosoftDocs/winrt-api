@@ -9,10 +9,11 @@ public class BrightnessOverrideSettings
 
 # Windows.Graphics.Display.BrightnessOverrideSettings
 
+
+
 ## -description
 
-
-Contains the settings to use when overriding the screen brightness level setting on a device.
+Contains the settings to use when overriding the screen brightness levels on a device.
 
 
 ## -remarks

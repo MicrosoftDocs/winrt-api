@@ -9,6 +9,8 @@ public event TypedEventHandler AdvancedColorInfoChanged<DisplayInformation,  obj
 
 # Windows.Graphics.Display.DisplayInformation.AdvancedColorInfoChanged
 
+
+
 ## -description
 
 Raised when the advanced color information is changed.

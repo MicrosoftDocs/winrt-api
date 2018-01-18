@@ -9,6 +9,8 @@ public IVectorView<NitRange> DisplayEnhancementOverrideCapabilities.GetSupported
 
 # Windows.Graphics.Display.DisplayEnhancementOverrideCapabilities.GetSupportedNitRanges
 
+
+
 ## -description
 
 Retrieves the supported nit ranges.

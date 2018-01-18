@@ -9,6 +9,8 @@ public void DisplayEnhancementOverride.StopOverride()
 
 # Windows.Graphics.Display.DisplayEnhancementOverride.StopOverride
 
+
+
 ## -description
 
 Notifies the system that this display enhancement object no longer wants to apply its settings.

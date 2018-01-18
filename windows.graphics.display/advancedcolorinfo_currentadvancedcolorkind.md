@@ -9,13 +9,19 @@ public AdvancedColorKind CurrentAdvancedColorKind { get; }
 
 # Windows.Graphics.Display.AdvancedColorInfo.CurrentAdvancedColorKind
 
+
+
 ## -description
 
-Gets the AdvancedColorKind which is currently being set on the display.
+
+Gets the [AdvancedColorKind](advancedcolorkind.md) which is currently being set on the display.
+
 
 ## -property-value
 
-The AdvancedColorKind which is currently being set on the display.
+
+The [AdvancedColorKind](advancedcolorkind.md) which is currently being set on the display.
+
 
 ## -remarks
 

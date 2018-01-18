@@ -9,13 +9,15 @@ public AdvancedColorInfo DisplayInformation.GetAdvancedColorInfo()
 
 # Windows.Graphics.Display.DisplayInformation.GetAdvancedColorInfo
 
+
+
 ## -description
 
-Retrieves the advanced color information.
+Retrieves the Advanced Color information.
 
 ## -returns
 
-The advanced color information.
+The Advanced Color information.
 
 ## -remarks
 

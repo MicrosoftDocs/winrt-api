@@ -9,6 +9,8 @@ public DisplayEnhancementOverrideCapabilities Capabilities { get; }
 
 # Windows.Graphics.Display.DisplayEnhancementOverrideCapabilitiesChangedEventArgs.Capabilities
 
+
+
 ## -description
 
 Gets the display enhancement override capabilities that have changed.

@@ -13,11 +13,11 @@ public DisplayColorOverrideScenario DesiredDisplayColorOverrideScenario { get; }
 
 ## -description
 
-Retrieves the desired display color override scenario.
+Retrieves the current display color override scenario of the class instance.
 
 ## -property-value
 
-The desired display color override scenario.
+The display color override scenario.
 
 ## -remarks
 

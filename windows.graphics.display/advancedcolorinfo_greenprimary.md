@@ -9,13 +9,17 @@ public Point GreenPrimary { get; }
 
 # Windows.Graphics.Display.AdvancedColorInfo.GreenPrimary
 
+
+
 ## -description
 
 Gets the native Green color primary for the display.
 
+
 ## -property-value
 
 The native Green color primary for the display.
+
 
 ## -remarks
 

@@ -13,13 +13,15 @@ public float MaxAverageFullFrameLuminanceInNits { get; }
 
 ## -description
 
-Gets the maximum frame average luminance of the display which it can achieve on the whole display.
+Gets the maximum frame average luminance of the display which can be achieved on the whole display.
 
 ## -property-value
 
-The the maximum frame average luminance of the display which it can achieve on the whole display.
+The maximum frame average luminance of the display which can be achieved on the whole display.
 
 ## -remarks
+
+Contrast with [MaxLuminanceInNits](advancedcolorinfo_maxluminanceinnits.md), which generally refers to a small portion of the display.
 
 ## -see-also
 

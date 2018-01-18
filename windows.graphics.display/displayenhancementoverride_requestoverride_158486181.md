@@ -9,6 +9,8 @@ public void DisplayEnhancementOverride.RequestOverride()
 
 # Windows.Graphics.Display.DisplayEnhancementOverride.RequestOverride
 
+
+
 ## -description
 
 Requests that the current display be overridden with the current diplay override settings.

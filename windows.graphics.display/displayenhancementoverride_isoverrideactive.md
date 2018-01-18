@@ -9,6 +9,8 @@ public bool IsOverrideActive { get; }
 
 # Windows.Graphics.Display.DisplayEnhancementOverride.IsOverrideActive
 
+
+
 ## -description
 
 Gets a value that describes whether the display enhancement overrides are active.

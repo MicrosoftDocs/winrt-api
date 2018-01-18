@@ -9,6 +9,8 @@ public DisplayEnhancementOverride DisplayEnhancementOverride.GetForCurrentView()
 
 # Windows.Graphics.Display.DisplayEnhancementOverride.GetForCurrentView
 
+
+
 ## -description
 
 Retrieves the display enhancement overrides for the current view.

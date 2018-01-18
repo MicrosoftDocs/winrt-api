@@ -9,7 +9,11 @@ public Point BluePrimary { get; }
 
 # Windows.Graphics.Display.AdvancedColorInfo.BluePrimary
 
+
+
 ## -description
+
+
 
 Gets the native Blue color primary for the display.
 

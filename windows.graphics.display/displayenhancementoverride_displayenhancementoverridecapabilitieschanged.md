@@ -9,6 +9,8 @@ public event TypedEventHandler DisplayEnhancementOverrideCapabilitiesChanged<Dis
 
 # Windows.Graphics.Display.DisplayEnhancementOverride.DisplayEnhancementOverrideCapabilitiesChanged
 
+
+
 ## -description
 
 Raised when the the display enhancement override capabilities have been changed.

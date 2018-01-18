@@ -9,6 +9,8 @@ public bool IsBrightnessNitsControlSupported { get; }
 
 # Windows.Graphics.Display.DisplayEnhancementOverrideCapabilities.IsBrightnessNitsControlSupported
 
+
+
 ## -description
 
 Gets a value that describes whether brightness control in nits is supported.

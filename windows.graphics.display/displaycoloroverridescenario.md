@@ -9,6 +9,8 @@ public enum DisplayColorOverrideScenario : int
 
 # Windows.Graphics.Display.DisplayColorOverrideScenario
 
+
+
 ## -description
 
 Represents the color scenarios that a [ColorOverrideSettings](coloroverridesettings.md) object can request.

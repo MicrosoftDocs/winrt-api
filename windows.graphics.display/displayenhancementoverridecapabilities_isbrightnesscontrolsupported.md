@@ -9,6 +9,8 @@ public bool IsBrightnessControlSupported { get; }
 
 # Windows.Graphics.Display.DisplayEnhancementOverrideCapabilities.IsBrightnessControlSupported
 
+
+
 ## -description
 
 Gets a value that describes whether brightness control is currently supported.

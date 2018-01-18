@@ -22,6 +22,8 @@ The maximum peak luminance of the display in nits.
 
 ## -remarks
 
+Contrast with [MaxAverageFullFrameLuminanceInNits](advancedcolorinfo_maxaveragefullframeluminanceinnits.md), which describes the luminance for the entire display.
+
 ## -see-also
 
 ## -examples

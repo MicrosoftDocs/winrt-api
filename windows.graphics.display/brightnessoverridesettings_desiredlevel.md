@@ -9,6 +9,8 @@ public double DesiredLevel { get; }
 
 # Windows.Graphics.Display.BrightnessOverrideSettings.DesiredLevel
 
+
+
 ## -description
 
 Gets the desired brightness level.

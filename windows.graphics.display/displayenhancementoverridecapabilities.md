@@ -9,6 +9,8 @@ public class DisplayEnhancementOverrideCapabilities
 
 # Windows.Graphics.Display.DisplayEnhancementOverrideCapabilities
 
+
+
 ## -description
 
 Describes the capabilities of a display enhancement override.

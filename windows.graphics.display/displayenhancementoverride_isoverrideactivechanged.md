@@ -9,6 +9,8 @@ public event TypedEventHandler IsOverrideActiveChanged<DisplayEnhancementOverrid
 
 # Windows.Graphics.Display.DisplayEnhancementOverride.IsOverrideActiveChanged
 
+
+
 ## -description
 
 Raised when the [IsOverrideActive](isoverrideactive.md) property is changed.

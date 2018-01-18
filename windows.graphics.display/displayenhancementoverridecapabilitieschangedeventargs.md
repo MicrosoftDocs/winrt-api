@@ -9,6 +9,8 @@ public class DisplayEnhancementOverrideCapabilitiesChangedEventArgs
 
 # Windows.Graphics.Display.DisplayEnhancementOverrideCapabilitiesChangedEventArgs
 
+
+
 ## -description
 
 Provides the arguments returned by the event raised when the display enhancement override override change.

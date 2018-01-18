@@ -9,6 +9,8 @@ public DisplayEnhancementOverrideCapabilities DisplayEnhancementOverride.GetCurr
 
 # Windows.Graphics.Display.DisplayEnhancementOverride.GetCurrentDisplayEnhancementOverrideCapabilities
 
+
+
 ## -description
 
 Retrieves the current display enhancement overide capabilities.

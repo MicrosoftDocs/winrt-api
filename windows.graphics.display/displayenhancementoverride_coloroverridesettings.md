@@ -9,6 +9,8 @@ public ColorOverrideSettings ColorOverrideSettings { get;  set; }
 
 # Windows.Graphics.Display.DisplayEnhancementOverride.ColorOverrideSettings
 
+
+
 ## -description
 
 Gets and sets the color override settings.
