@@ -10,8 +10,10 @@ public DisplayMonitorConnectionKind ConnectionKind { get; }
 # Windows.Devices.Display.DisplayMonitor.ConnectionKind
 
 ## -description
+Gets a value representing the abstract method in which the display is connected (not specific to a physical protocol).
 
 ## -property-value
+A value representing the abstract method in which the display is connected.
 
 ## -remarks
 

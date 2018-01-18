@@ -10,8 +10,10 @@ public string DeviceId { get; }
 # Windows.Devices.Display.DisplayMonitor.DeviceId
 
 ## -description
+Gets the device identifier.
 
 ## -property-value
+The device identifier.
 
 ## -remarks
 

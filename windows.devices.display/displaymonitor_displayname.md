@@ -10,8 +10,10 @@ public string DisplayName { get; }
 # Windows.Devices.Display.DisplayMonitor.DisplayName
 
 ## -description
+Gets a friendly name for the device suitable for display to a user.
 
 ## -property-value
+A friendly name for the device suitable for display to a user.
 
 ## -remarks
 
