@@ -31,11 +31,9 @@ A plugin may choose between the following combinations of sockets:
 + Two TCP sockets, or
 + Two sockets, one TCP and one UDP.
 
-
 ## -examples
 
 ## -see-also
-
 
 ## -capabilities
 networkingVpnProvider
