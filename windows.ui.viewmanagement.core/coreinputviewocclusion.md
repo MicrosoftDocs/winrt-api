@@ -13,7 +13,7 @@ public class CoreInputViewOcclusion
 Represents a single [CoreInputView](coreinputview.md) pane currently occluding the app.
 
 > [!NOTE]
-> Not supported on Xbox or HoloLens.
+> Not supported on HoloLens.
 
 ## -remarks
 Used by frameworks (such as XAML) or custom text controls only.
