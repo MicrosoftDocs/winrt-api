@@ -10,6 +10,7 @@ public bool IsSystemProvider { get; }
 # Windows.Security.Credentials.WebAccountProvider.IsSystemProvider
 
 ## -description
+Gets the value describing whether the given ID provider supports system-wide authentication tokens.
 
 ## -property-value
 **True** if the WebAccountProvider allows system-wide authentication tokens. Otherwise **False**.
