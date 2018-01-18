@@ -10,11 +10,14 @@ public ControlChannelTriggerStatus VpnChannel.GetSlotTypeForTransportContext(Obj
 # Windows.Networking.Vpn.VpnChannel.GetSlotTypeForTransportContext
 
 ## -description
+Retrieves the slot type (hardware or software) for the specified transport context object.
 
 ## -parameters
 ### -param context
+A transport context object, for example the name of a host or server.
 
 ## -returns
+A value that indicates a slot type (hardware or software).
 
 ## -remarks
 
@@ -22,3 +25,5 @@ public ControlChannelTriggerStatus VpnChannel.GetSlotTypeForTransportContext(Obj
 
 ## -examples
 
+## -capabilities
+networkingVpnProvider

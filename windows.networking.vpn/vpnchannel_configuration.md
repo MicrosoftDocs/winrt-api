@@ -23,6 +23,5 @@ A **VpnChannelConfiguration** object containing the configuration pertaining the
 
 ## -see-also
 
-
 ## -capabilities
 networkingVpnProvider
