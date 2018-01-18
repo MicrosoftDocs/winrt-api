@@ -13,7 +13,7 @@ public string DeviceId { get; }
 Gets the device identifier.
 
 ## -property-value
-The device identifier.
+The device identifier if known, otherwise `null`.
 
 ## -remarks
 

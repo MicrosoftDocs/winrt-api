@@ -10,11 +10,14 @@ public IAsyncOperation<DisplayMonitor> DisplayMonitor.FromIdAsync(String deviceI
 # Windows.Devices.Display.DisplayMonitor.FromIdAsync
 
 ## -description
+Asynchronously creates a **DisplayMonitor** object for the specified device identifier.
 
 ## -parameters
 ### -param deviceId
+The identity of the device (see [DeviceInformation.Id](../windows.devices.enumeration/deviceinformation_id.md)).
 
 ## -returns
+An asynchronous create operation.
 
 ## -remarks
 

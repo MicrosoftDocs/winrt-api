@@ -13,7 +13,7 @@ public string DisplayName { get; }
 Gets a friendly name for the device suitable for display to a user.
 
 ## -property-value
-A friendly name for the device suitable for display to a user.
+A friendly name for the device suitable for display to a user if known, otherwise `null`.
 
 ## -remarks
 

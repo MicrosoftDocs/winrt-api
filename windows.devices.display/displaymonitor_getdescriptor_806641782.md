@@ -10,11 +10,14 @@ public byte[] DisplayMonitor.GetDescriptor(DisplayMonitorDescriptorKind descript
 # Windows.Devices.Display.DisplayMonitor.GetDescriptor
 
 ## -description
+Retrieves a hardware descriptor of the kind specified.
 
 ## -parameters
 ### -param descriptorKind
+The kind of descriptor to retrieve.
 
 ## -returns
+A byte array containing a hardware descriptor of the kind specified.
 
 ## -remarks
 
