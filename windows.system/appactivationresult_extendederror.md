@@ -10,6 +10,7 @@ public HResult ExtendedError { get; }
 # Windows.System.AppActivationResult.ExtendedError
 
 ## -description
+Gets the error information, if any, that may have resulted from trying to activate the app.
 
 ## -property-value
 
@@ -18,4 +19,3 @@ public HResult ExtendedError { get; }
 ## -see-also
 
 ## -examples
-
