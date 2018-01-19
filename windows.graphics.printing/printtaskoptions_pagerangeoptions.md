@@ -11,7 +11,11 @@ public PrintPageRangeOptions PageRangeOptions { get; }
 
 ## -description
 
+Gets the page range options for the print task.
+
 ## -property-value
+
+The page range options.
 
 ## -remarks
 
