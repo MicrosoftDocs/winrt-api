@@ -11,6 +11,8 @@ public event TypedEventHandler RefreshRequested<RefreshVisualizer, RefreshReques
 
 ## -description
 
+Occurs when an update of the content has been initiated.
+
 ## -remarks
 
 ## -see-also

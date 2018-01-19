@@ -11,6 +11,8 @@ public event TypedEventHandler RefreshStateChanged<RefreshVisualizer, RefreshSta
 
 ## -description
 
+Occurs when the state of the visualizer changes.
+
 ## -remarks
 
 ## -see-also

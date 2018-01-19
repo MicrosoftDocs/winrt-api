@@ -11,6 +11,8 @@ public void RefreshContainer.RequestRefresh()
 
 ## -description
 
+Initiates an update of the content.
+
 ## -remarks
 
 ## -see-also

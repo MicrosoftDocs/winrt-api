@@ -11,6 +11,8 @@ public RefreshVisualizer.RefreshVisualizer()
 
 ## -description
 
+Initializes a new instance of the RefreshVisualizer class.
+
 ## -remarks
 
 ## -see-also

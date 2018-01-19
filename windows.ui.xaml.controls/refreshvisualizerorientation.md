@@ -11,6 +11,8 @@ public enum RefreshVisualizerOrientation : int
 
 ## -description
 
+Defines constants that specify the orientation of a [RefreshVisualizer](refreshvisualizer.md).
+
 ## -enum-fields
 ### -field Rotate90DegreesCounterclockwise:2
 

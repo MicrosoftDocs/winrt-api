@@ -11,7 +11,11 @@ public RefreshVisualizerState State { get; }
 
 ## -description
 
+Gets a value that indicates the state of the visualizer.
+
 ## -property-value
+
+A value of the enumeration that indicates the state of the visualizer.
 
 ## -remarks
 

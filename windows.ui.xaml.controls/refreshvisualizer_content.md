@@ -11,7 +11,11 @@ public UIElement Content { get;  set; }
 
 ## -description
 
+Gets or sets the content of the visualizer.
+
 ## -property-value
+
+The content of the visualizer.
 
 ## -remarks
 

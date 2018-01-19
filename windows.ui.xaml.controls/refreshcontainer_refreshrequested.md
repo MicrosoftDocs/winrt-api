@@ -11,6 +11,8 @@ public event TypedEventHandler RefreshRequested<RefreshContainer, RefreshRequest
 
 ## -description
 
+Occurs when an update of the content has been initiated.
+
 ## -remarks
 
 ## -see-also
