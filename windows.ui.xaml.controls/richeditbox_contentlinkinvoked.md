@@ -11,6 +11,8 @@ public event TypedEventHandler ContentLinkInvoked<RichEditBox, ContentLinkInvoke
 
 ## -description
 
+Occurs when the link is activated by user interaction.
+
 ## -remarks
 
 ## -see-also

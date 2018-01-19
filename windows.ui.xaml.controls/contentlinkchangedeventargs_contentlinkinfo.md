@@ -11,7 +11,11 @@ public ContentLinkInfo ContentLinkInfo { get; }
 
 ## -description
 
+Gets an object that contains information about the content link.
+
 ## -property-value
+
+An object that contains information about the content link.
 
 ## -remarks
 

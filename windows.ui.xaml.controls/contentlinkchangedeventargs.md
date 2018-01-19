@@ -11,9 +11,13 @@ public class ContentLinkChangedEventArgs
 
 ## -description
 
+Provides data for the [RichEditBox.ContentLinkChanged](richeditbox_contentlinkchanged.md) event.
+
 ## -remarks
 
 ## -see-also
+
+[RichEditBox.ContentLinkChanged](richeditbox_contentlinkchanged.md)
 
 ## -examples
 

@@ -11,7 +11,11 @@ public TextRange TextRange { get; }
 
 ## -description
 
+Gets the text range that contains the content link.
+
 ## -property-value
+
+The text range that contains the content link.
 
 ## -remarks
 
