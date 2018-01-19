@@ -11,6 +11,8 @@ public class RefreshContainer : ContentControl, ContentControl
 
 ## -description
 
+Represents a container control that provides a [RefreshVisualizer](refreshvisualizer.md) and pull-to-refresh functionality for scrollable content.
+
 ## -remarks
 
 ## -see-also

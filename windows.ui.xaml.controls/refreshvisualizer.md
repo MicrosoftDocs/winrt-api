@@ -11,6 +11,8 @@ public class RefreshVisualizer : Control, Control
 
 ## -description
 
+Represents a control that provides animated state indicators for content refresh.
+
 ## -remarks
 
 ## -see-also

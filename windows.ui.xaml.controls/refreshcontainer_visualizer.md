@@ -11,7 +11,11 @@ public RefreshVisualizer Visualizer { get;  set; }
 
 ## -description
 
+Gets or sets the [RefreshVisualizer](refreshvisualizer.md) for this container.
+
 ## -property-value
+
+The [RefreshVisualizer](refreshvisualizer.md) for this container.
 
 ## -remarks
 

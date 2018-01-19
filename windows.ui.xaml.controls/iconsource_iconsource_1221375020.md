@@ -11,6 +11,8 @@ protected IconSource.IconSource()
 
 ## -description
 
+Initializes a new instance of the IconSource class.
+
 ## -remarks
 
 ## -see-also
