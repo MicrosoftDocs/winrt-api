@@ -4,31 +4,31 @@
 ---
 
 <!-- Enumeration syntax.
-public enum NavigationViewBackButtonVisible : int 
+public enum NavigationViewBackButtonVisible : int
 -->
 
 # Windows.UI.Xaml.Controls.NavigationViewBackButtonVisible
 
 ## -description
 
-Defines constants that specify the visibility of the [NavigationView](navigationview.md) back button.
+Defines constants that specify whether the back button is visible in NavigationView.
 
 ## -enum-fields
-### -field Visible:1
-
-The back button is shown.
 
 ### -field Collapsed:0
 
-The back button is not shown.
+Do not display the back button in NavigationView, and do not reserve space for it in layout.
 
 ### -field Auto:2
 
-The back button is shown if space is available; otherwise, it's not shown.
+The system chooses whether or not to display the back button, depending on the device/form factor. On phones, tablets, desktops, and hubs, the back button is visible. On Xbox/TV, the back button is collapsed. 
+
+### -field Visible:1
+
+Display the back button in NavigationView.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

@@ -10,9 +10,10 @@ public class TileMixedRealityModel
 # Windows.UI.StartScreen.TileMixedRealityModel
 
 ## -description
-A 3-D representation of a tile.  
+Represents a 3D model asset for use as an app launcher in the Windows Mixed Reality home environment.
 
 ## -remarks
+For more information, see [Creating 3D app launchers](https://developer.microsoft.com/windows/mixed-reality/creating_3d_app_launchers).
 
 ## -see-also
 

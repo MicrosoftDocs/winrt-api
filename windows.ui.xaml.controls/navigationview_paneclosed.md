@@ -4,25 +4,23 @@
 ---
 
 <!-- Event syntax.
-public event TypedEventHandler PaneClosed<NavigationView,  object>
+public event TypedEventHandler PaneClosed<NavigationView>
 -->
 
 # Windows.UI.Xaml.Controls.NavigationView.PaneClosed
 
 ## -description
 
-Occurs when the [NavigationView](navigationview.md) pane is closed.
+Occurs when the NavigationView pane is closed.
 
 ## -xaml-syntax
 
 ```xaml
-<NavigationView PaneClosed="eventhandler"/>
+<NavigationView PaneClosed="eventhandler" />
 ```
 
 ## -remarks
 
 ## -see-also
-
-[PaneClosing](navigationview_paneclosing.md)
 
 ## -examples

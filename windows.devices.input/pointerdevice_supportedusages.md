@@ -29,4 +29,4 @@ Although the core of the Windows input architecture is based on the Universal Se
 ## -examples
 
 ## -see-also
-[PointerDeviceUsage](pointerdeviceusage.md), [Quickstart: Identifying input devices](http://msdn.microsoft.com/library/7001b56d-081b-4683-84bb-24c361397c08)
+[PointerDeviceUsage](pointerdeviceusage.md), [Quickstart: Identifying input devices](https://docs.microsoft.com/en-us/windows/uwp/design/input/identify-input-devices)
