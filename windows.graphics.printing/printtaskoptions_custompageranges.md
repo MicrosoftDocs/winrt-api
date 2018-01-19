@@ -11,7 +11,11 @@ public IVector<PrintPageRange> CustomPageRanges { get; }
 
 ## -description
 
+Gets the custom page range options for the print task.
+
 ## -property-value
+
+The custom page range options.
 
 ## -remarks
 

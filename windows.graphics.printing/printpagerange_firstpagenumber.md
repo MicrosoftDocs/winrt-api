@@ -11,7 +11,12 @@ public int FirstPageNumber { get; }
 
 ## -description
 
+Gets the first page number of the print range.
+
 ## -property-value
+
+The first page number of the print range.
+
 
 ## -remarks
 

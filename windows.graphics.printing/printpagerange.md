@@ -11,6 +11,8 @@ public class PrintPageRange
 
 ## -description
 
+Describes the range of pages in a print task.
+
 ## -remarks
 
 ## -see-also

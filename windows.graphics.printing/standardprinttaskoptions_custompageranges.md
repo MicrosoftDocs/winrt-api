@@ -11,7 +11,11 @@ public string CustomPageRanges { get; }
 
 ## -description
 
+Gets the canonical name for the custom page ranges option for the print task.
+
 ## -property-value
+
+The canonical name for the custom page ranges option for the print task.
 
 ## -remarks
 
