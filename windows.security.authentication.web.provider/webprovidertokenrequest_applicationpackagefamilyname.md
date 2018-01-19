@@ -10,8 +10,10 @@ public string ApplicationPackageFamilyName { get; }
 # Windows.Security.Authentication.Web.Provider.WebProviderTokenRequest.ApplicationPackageFamilyName
 
 ## -description
+Gets the package family name of the calling application.
 
 ## -property-value
+A string representing the package family name.
 
 ## -remarks
 
