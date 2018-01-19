@@ -10,11 +10,18 @@ public class LearningModelBindingPreview : ILearningModelBindingPreview, IIterab
 # Windows.AI.MachineLearning.Preview.LearningModelBindingPreview
 
 ## -description
-Represents the assocations between model inputs and variable instances.
+Represents the associations between model inputs and variable instances.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
+public void PrepareBinding(LearningModelPreview model, SoftwareBitmap picture)
+{
+    // Bind the image
+    var binding = new LearningModelBindingPreview(model);
+    binding.Bind(_inputImageFeatureName, picture);
+}
+
 

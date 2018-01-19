@@ -10,7 +10,7 @@ public void LearningModelBindingPreview.Bind(String name, Object value)
 # Windows.AI.MachineLearning.Preview.LearningModelBindingPreview.Bind
 
 ## -description
-Binds a single input or output feature to a defined variable
+Binds a single input or output feature to a defined variable.
 
 ## -parameters
 ### -param name
@@ -24,4 +24,10 @@ The value of the input/output feature.
 ## -see-also
 
 ## -examples
+public void PrepareBinding(LearningModelPreview model, SoftwareBitmap picture)
+{
+    // Bind the image
+    var binding = new LearningModelBindingPreview(model);
+    binding.Bind(_inputImageFeatureName, picture);
+}
 

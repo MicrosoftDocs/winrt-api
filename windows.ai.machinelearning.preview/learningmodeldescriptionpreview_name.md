@@ -20,4 +20,12 @@ The name of the model.
 ## -see-also
 
 ## -examples
+void Evaluator(LearningModelPreview model)
+{
+    if (model.Description.Name != "Image_Recognition")
+    {
+        throw new Exception("Invalid model name");
+    }
+}
+
 

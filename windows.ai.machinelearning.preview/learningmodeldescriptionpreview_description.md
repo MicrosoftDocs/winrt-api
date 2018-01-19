@@ -20,4 +20,12 @@ The custom description of the model.
 ## -see-also
 
 ## -examples
+void Evaluator(LearningModelPreview model)
+{
+    if (model.Description.Description != "This is a custom description")
+    {
+        throw new Exception("Invalid model description");
+    }
+}
+
 

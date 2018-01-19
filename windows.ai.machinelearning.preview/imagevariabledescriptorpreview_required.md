@@ -10,10 +10,10 @@ public bool Required { get; }
 # Windows.AI.MachineLearning.Preview.ImageVariableDescriptorPreview.Required
 
 ## -description
-Gets whether an initializer for the image variable is already provided.
+Gets whether the variable is required or optional.
 
 ## -property-value
-True if an initializer for the image variable is already provided; otherwise false.
+True if the variable is required.
 
 ## -remarks
 

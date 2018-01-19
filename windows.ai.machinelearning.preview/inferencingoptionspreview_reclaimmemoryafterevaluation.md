@@ -10,7 +10,7 @@ public bool ReclaimMemoryAfterEvaluation { get;  set; }
 # Windows.AI.MachineLearning.Preview.InferencingOptionsPreview.ReclaimMemoryAfterEvaluation
 
 ## -description
-Gets or sets whether to reclaim allocated memory after evaluation of a model.
+Gets or sets whether to reclaim allocated memory after the model evaluation.
 
 ## -property-value
 True if reclaiming allocated memory after evaluation; otherwise false. The default value is false.
@@ -20,4 +20,12 @@ True if reclaiming allocated memory after evaluation; otherwise false. The defau
 ## -see-also
 
 ## -examples
+public void SetEvaluationOptionsForModel(LearningModelPreview model)
+{
+    InferencingOptionsPreview options = model.InferencingOptions;
+    options.ReclaimMemoryAfterEvaluation = true;
+ 
+    model.InferencingOptions = options;
+}
+
 

@@ -10,11 +10,24 @@ public class LearningModelDescriptionPreview : ILearningModelDescriptionPreview
 # Windows.AI.MachineLearning.Preview.LearningModelDescriptionPreview
 
 ## -description
-Represents the property descriptions for the model.
+Represents the metadata and property descriptions for the provided model.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
+public void Evaluator()
+{
+    var modelFile = await Windows.ApplicationModel.Package.Current.InstalledLocation.GetFileAsync("model.pb");
+    LearningModelPreview model = await LearningModelPreview.LoadModelFromStorageFileAsync(modelFile);
+ 
+    // Our evaluator only handles version 1 of the model
+    if (model.Description.Version != 1)
+    {
+        throw new Exception("Invalid model version");
+    }
+}
+
+
 

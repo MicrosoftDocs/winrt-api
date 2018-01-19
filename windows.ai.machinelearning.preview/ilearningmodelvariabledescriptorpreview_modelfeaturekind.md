@@ -20,4 +20,17 @@ The data type of the variable.
 ## -see-also
 
 ## -examples
+public void Evaluator(LearningModelPreview model)
+{
+	// Retrieve the first input feature which is an image
+    ILearningModelVariableDescriptorPreview inputImageFeatureDescription = model.Description.InputFeatures.FirstOrDefault(feature=>feature.ModelFeatureKind == LearningModelFeatureKindPreview.Image);
+ 
+    ImageVariableDescriptorPreview imageDescriptor = (ImageVariableDescriptorPreview)inputImageFeatureDescription;
 
+	// Ensure the input feature is of type image
+    if (imageDescriptor.ModelFeatureKind != LearningModelFeatureKindPreview.Image)
+    {
+        throw new Exception("Invalid feature type");
+    }
+
+ }

@@ -10,11 +10,20 @@ public class InferencingOptionsPreview : IInferencingOptionsPreview
 # Windows.AI.MachineLearning.Preview.InferencingOptionsPreview
 
 ## -description
-Represents the options for controlling evaluation of a model.
+Represents the inference options for controlling the evaluation of a model.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
+void SetEvaluationOptionsForModel(LearningModelPreview model)
+{
+    // Set our preference to use the GPU
+    InferencingOptionsPreview options = model.InferencingOptions;
+    options.PreferredDeviceKind = LearningModelDeviceKindPreview.LearningDeviceGpu;
+ 
+    model.InferencingOptions = options;
+}
+
 

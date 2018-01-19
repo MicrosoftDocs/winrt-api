@@ -10,14 +10,21 @@ public string Author { get; }
 # Windows.AI.MachineLearning.Preview.LearningModelDescriptionPreview.Author
 
 ## -description
-Gets the author information for the model.
+Gets the author information from model.
 
 ## -property-value
-The author information for the model.
+The author information from the model.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
+void Evaluator(LearningModelPreview model)
+{
+    if (model.Description.Author != "Nick")
+    {
+        throw new Exception("Invalid model author");
+    }
+}
 

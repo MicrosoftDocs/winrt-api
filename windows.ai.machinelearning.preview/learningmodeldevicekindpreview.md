@@ -36,4 +36,11 @@ The defualt value. Any device.
 ## -see-also
 
 ## -examples
-
+void SetEvaluationOptionsForModel(LearningModelPreview model)
+{
+    // Set our preference to use the GPU
+    InferencingOptionsPreview options = model.InferencingOptions;
+    options.PreferredDeviceKind = LearningModelDeviceKindPreview.LearningDeviceGpu;
+ 
+    model.InferencingOptions = options;
+}

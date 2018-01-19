@@ -10,7 +10,7 @@ public bool IsTracingEnabled { get;  set; }
 # Windows.AI.MachineLearning.Preview.InferencingOptionsPreview.IsTracingEnabled
 
 ## -description
-Gets or sets whether tracing is enabled.
+Gets or sets whether tracing is enabled during model evaluation.
 
 ## -property-value
 True if tracing is enabled; otherwise false. The default value is false.
@@ -20,4 +20,11 @@ True if tracing is enabled; otherwise false. The default value is false.
 ## -see-also
 
 ## -examples
+public void SetEvaluationOptionsForModel(LearningModelPreview model)
+{
+    InferencingOptionsPreview options = model.InferencingOptions;
+    options.IsTracingEnabled = true;
+ 
+    model.InferencingOptions = options;
+}
 

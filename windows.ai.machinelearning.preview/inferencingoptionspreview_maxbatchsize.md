@@ -10,7 +10,7 @@ public int MaxBatchSize { get;  set; }
 # Windows.AI.MachineLearning.Preview.InferencingOptionsPreview.MaxBatchSize
 
 ## -description
-Gets or sets the maximum batch size.
+Gets or sets the maximum batch size for model evaluation.
 
 ## -property-value
 The maximum batch size. The default value is 1. 
@@ -20,4 +20,11 @@ The maximum batch size. The default value is 1.
 ## -see-also
 
 ## -examples
+public void SetEvaluationOptionsForModel(LearningModelPreview model)
+{
+    InferencingOptionsPreview options = model.InferencingOptions;
+    options.MaxBatchSize = 2;
+ 
+    model.InferencingOptions = options;
+}
 

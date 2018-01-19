@@ -17,4 +17,21 @@ Clears all bound variables.
 ## -see-also
 
 ## -examples
+public void PrepareBinding(LearningModelPreview model, SoftwareBitmap picture)
+{
+	List<ILearningModelVariableDescriptorPreview> inputFeatures = _model.Description.InputFeatures.ToList();
 
+    ImageVariableDescriptorPreview _inputImageDescription =
+                    inputFeatures.FirstOrDefault(feature => feature.ModelFeatureKind == LearningModelFeatureKindPreview.Image)
+                    as ImageVariableDescriptorPreview;
+
+    // Bind the image
+    LearningModelBindingPreview binding = new LearningModelBindingPreview(model);
+    binding.Bind(_inputImageDescription.Name, picture);
+	
+	
+	...
+	
+	
+	binding.Clear();
+}
