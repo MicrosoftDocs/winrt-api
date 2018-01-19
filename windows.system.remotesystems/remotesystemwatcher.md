@@ -13,7 +13,7 @@ public class RemoteSystemWatcher : Windows.System.RemoteSystems.IRemoteSystemWat
 Watches for activity related to the discovery of remote systems and raises the appropriate events.
 
 ## -remarks
-This class is instantiated when the static method [CreateWatcher](remotesystem_createwatcher.md) is called. Objects of this class begin watching activity when the [Start](remotesystemwatcher_start.md) method is called and stop when [Stop](remotesystemwatcher_stop.md) is called, when the operation times out, or when the app exits or is suspended by the system.
+This class is instantiated when the static method [CreateWatcher](remotesystem_createwatcher.md) is called. Objects of this class begin watching activity when the [Start](remotesystemwatcher_start.md) method is called and stop when [Stop](remotesystemwatcher_stop.md) is called, when the app exits or is suspended by the system, or if an error occurs.
 
 ## -examples
 
