@@ -10,8 +10,10 @@ public Deferral DevicePortalConnectionRequestReceivedEventArgs.GetDeferral()
 # Windows.System.Diagnostics.DevicePortal.DevicePortalConnectionRequestReceivedEventArgs.GetDeferral
 
 ## -description
+Retrieves a deferral object to allow the background task to continue executing while a Device Portal connection is open.
 
 ## -returns
+The deferral object.
 
 ## -remarks
 

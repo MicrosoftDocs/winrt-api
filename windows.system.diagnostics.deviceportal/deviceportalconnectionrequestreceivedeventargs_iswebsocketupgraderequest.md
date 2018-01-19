@@ -10,8 +10,10 @@ public bool IsWebSocketUpgradeRequest { get; }
 # Windows.System.Diagnostics.DevicePortal.DevicePortalConnectionRequestReceivedEventArgs.IsWebSocketUpgradeRequest
 
 ## -description
+Gets a value describing whether the request is for WebSocket communication.
 
 ## -property-value
+**True** if a WebSocket is being requested, otherwise **False**.
 
 ## -remarks
 
