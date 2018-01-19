@@ -10,10 +10,10 @@ public string Description { get; }
 # Windows.AI.MachineLearning.Preview.MapVariableDescriptorPreview.Description
 
 ## -description
-Gets the description map variable's use.
+Gets the description map variable.
 
 ## -property-value
-The description of the map variable's use.
+The description of the map variable.
 
 ## -remarks
 

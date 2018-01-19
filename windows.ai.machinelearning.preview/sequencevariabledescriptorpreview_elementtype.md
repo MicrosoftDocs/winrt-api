@@ -13,7 +13,7 @@ public ILearningModelVariableDescriptorPreview ElementType { get; }
 Gets the type of the sequence variable.
 
 ## -property-value
-The type of the dequence variable.
+The type of the sequence variable.
 
 ## -remarks
 

@@ -23,4 +23,10 @@ The location of the model file.
 ## -see-also
 
 ## -examples
+public async Task LoadModel()
+{
+    var modelFile = await Windows.ApplicationModel.Package.Current.InstalledLocation.GetFileAsync("/Models/image_recognition.pb");
+    LearningModelPreview model = await LearningModelPreview.LoadModelFromStorageFileAsync(modelFile);
+}
+
 

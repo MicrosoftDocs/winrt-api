@@ -17,4 +17,18 @@ Represents the map variable descriptor information.
 ## -see-also
 
 ## -examples
+public void Evaluator(LearningModelPreview model)
+{
+	// Retrieve the first input feature which is a map
+    ILearningModelVariableDescriptorPreview inputMapFeatureDescription = model.Description.InputFeatures.First(feature=>feature.ModelFeatureKind == LearningModelFeatureKindPreview.Map);
+ 
+    MapVariableDescriptorPreview MapDescriptor = (MapVariableDescriptorPreview)inputMapFeatureDescription;
+
+	// Ensure the input feature is of type map
+    if (MapDescriptor.ModelFeatureKind != LearningModelFeatureKindPreview.Map)
+    {
+        throw new Exception("Invalid feature type");
+    }
+
+ }
 

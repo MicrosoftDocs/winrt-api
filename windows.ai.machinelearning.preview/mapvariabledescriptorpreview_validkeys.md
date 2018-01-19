@@ -13,7 +13,7 @@ public IIterable<string> ValidKeys { get; }
 Gets the list of valid keys for the feature.
 
 ## -property-value
-The list of the valid keys.
+The list of valid keys.
 
 ## -remarks
 

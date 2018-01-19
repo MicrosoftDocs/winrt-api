@@ -17,6 +17,7 @@ Asynchronously loads a model from a provided stream.
 The file stream for the model.
 
 ## -returns
+Returns a LearningModelPreview.
 
 ## -remarks
 
