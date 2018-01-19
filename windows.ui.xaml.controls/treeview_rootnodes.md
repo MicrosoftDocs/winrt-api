@@ -11,7 +11,11 @@ public IVector<TreeViewNode> RootNodes { get; }
 
 ## -description
 
+Gets or sets the collection of root nodes of the tree.
+
 ## -property-value
+
+The collection of root nodes of the tree.
 
 ## -remarks
 

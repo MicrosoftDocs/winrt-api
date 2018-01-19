@@ -11,7 +11,11 @@ public IVector<TreeViewNode> SelectedNodes { get; }
 
 ## -description
 
+Gets or sets the collection of nodes that are selected in the tree.
+
 ## -property-value
+
+The collection of nodes that are selected in the tree. The default is an empty collection.
 
 ## -remarks
 

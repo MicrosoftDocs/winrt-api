@@ -11,7 +11,11 @@ public Visibility CollapsedGlyphVisibility { get; }
 
 ## -description
 
+Gets the visibilty of a collapsed glyph.
+
 ## -property-value
+
+The visibilty of a collapsed glyph.
 
 ## -remarks
 

@@ -11,7 +11,11 @@ public Thickness Indentation { get; }
 
 ## -description
 
+Gets the amount that the item is indented.
+
 ## -property-value
+
+The amount that the item is indented.
 
 ## -remarks
 

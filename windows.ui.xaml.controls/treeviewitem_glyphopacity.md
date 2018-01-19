@@ -11,7 +11,11 @@ public double GlyphOpacity { get;  set; }
 
 ## -description
 
+Gets or sets the opacity of node glyphs on a TreeView.
+
 ## -property-value
+
+The opacity of node glyphs on a TreeView.
 
 ## -remarks
 

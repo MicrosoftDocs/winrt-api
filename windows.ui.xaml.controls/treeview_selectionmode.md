@@ -11,7 +11,11 @@ public TreeViewSelectionMode SelectionMode { get;  set; }
 
 ## -description
 
+Gets or sets the selection behavior for a [TreeView](treeview.md) instance.
+
 ## -property-value
+
+An enumeration value that specifies the selection behavior for a [TreeView](treeview.md). The default is **Single** selection.
 
 ## -remarks
 

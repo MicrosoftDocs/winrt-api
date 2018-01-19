@@ -11,6 +11,8 @@ public event TypedEventHandler Collapsed<TreeView, TreeViewCollapsedEventArgs>
 
 ## -description
 
+Occurs when a node in the tree is collapsed.
+
 ## -remarks
 
 ## -see-also

@@ -11,7 +11,11 @@ public string ExpandedGlyph { get;  set; }
 
 ## -description
 
+Gets or sets the glyph to show for an expanded tree node.
+
 ## -property-value
+
+The glyph to show for an expanded tree node.
 
 ## -remarks
 

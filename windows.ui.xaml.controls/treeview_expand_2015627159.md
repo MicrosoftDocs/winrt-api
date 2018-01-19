@@ -11,8 +11,12 @@ public void TreeView.Expand(TreeViewNode value)
 
 ## -description
 
+Expands the specified node in the tree.
+
 ## -parameters
 ### -param value
+
+The tree node to expand.
 
 ## -remarks
 

@@ -11,7 +11,11 @@ public object InvokedItem { get; }
 
 ## -description
 
+Gets the TreeView item that is invoked.
+
 ## -property-value
+
+The TreeView item that is invoked.
 
 ## -remarks
 

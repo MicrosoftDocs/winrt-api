@@ -11,7 +11,11 @@ public bool HasChildren { get; }
 
 ## -description
 
+Gets a value that indicates whether the current node has child items.
+
 ## -property-value
+
+**true** if the current node has child items; otherwise, **false**.
 
 ## -remarks
 

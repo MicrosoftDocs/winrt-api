@@ -11,7 +11,11 @@ public Visibility ExpandedGlyphVisibility { get; }
 
 ## -description
 
+Gets the visibilty of an expanded glyph.
+
 ## -property-value
+
+The visibilty of an expanded glyph.
 
 ## -remarks
 
