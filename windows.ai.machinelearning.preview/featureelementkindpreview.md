@@ -10,7 +10,7 @@ public enum FeatureElementKindPreview : int
 # Windows.AI.MachineLearning.Preview.FeatureElementKindPreview
 
 ## -description
-List of supported feature data types
+Defines the list of supported feature data types.
 
 ## -enum-fields
 ### -field Undefined:0
