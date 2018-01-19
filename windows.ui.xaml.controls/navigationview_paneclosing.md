@@ -11,9 +11,16 @@ public event TypedEventHandler PaneClosing<NavigationView, NavigationViewPaneClo
 
 ## -description
 
+Occurs when the NavigationView pane is closing.
+
+## -xaml-syntax
+
+```xaml
+<NavigationView PaneClosing="eventhandler" />
+```
+
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

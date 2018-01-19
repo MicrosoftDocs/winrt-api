@@ -11,15 +11,20 @@ public bool IsBackEnabled { get;  set; }
 
 ## -description
 
-Gets or sets a value that indicates whether a user can use the back button for back navigation.
+Gets or sets a value that indicates whether the back button is enabled or disabled.
+
+## -xaml-syntax
+
+```xaml
+<NavigationView IsBackEnabled="bool" .../>
+```
 
 ## -property-value
 
-**true** to allow the user to use the back button for back navigation; otherwise, **false**.
+**true** if the back button is enabled; otherwise, **false**. The default is **false**.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

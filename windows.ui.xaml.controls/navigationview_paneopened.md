@@ -4,16 +4,23 @@
 ---
 
 <!-- Event syntax.
-public event TypedEventHandler PaneOpened<NavigationView,  object>
+public event TypedEventHandler PaneOpened<NavigationView>
 -->
 
 # Windows.UI.Xaml.Controls.NavigationView.PaneOpened
 
 ## -description
 
+Occurs when the NavigationView pane is opened.
+
+## -xaml-syntax
+
+```xaml
+<NavigationView PaneOpened="eventhandler" />
+```
+
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
