@@ -8,9 +8,9 @@ public enum DisplayMonitorUsageKind : int
 -->
 
 # Windows.Devices.Display.DisplayMonitorUsageKind
-Defines constants that specify the use to which the display is being put.
 
 ## -description
+Defines constants that specify the use to which the display is being put.
 
 ## -enum-fields
 ### -field Standard:0
