@@ -10,7 +10,7 @@ public TetheringEntitlementCheckTrigger.TetheringEntitlementCheckTrigger()
 # Windows.ApplicationModel.Background.TetheringEntitlementCheckTrigger.TetheringEntitlementCheckTrigger
 
 ## -description
-Creates and initializes a new instance of a time event trigger.
+Creates and initializes a new instance of a tethering event trigger.
 
 ## -remarks
 

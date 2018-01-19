@@ -10,10 +10,12 @@ public class CellularApnContext : Windows.Networking.Connectivity.ICellularApnCo
 # Windows.Networking.Connectivity.CellularApnContext
 
 ## -description
-This class contains properties used to specify an Access Point Name (APN) for a 3GPP based cellular Data Connection (PDP context). A [CellularApnContext](cellularapncontext.md) object is passed with a [AcquireConnectionAsync](connectivitymanager_acquireconnectionasync.md) call to establish a connection to a specific access point.
+This class contains properties used to specify an Access Point Name (APN) for a 3GPP based cellular Data Connection (PDP context). 
 
 ## -remarks
+A **CellularApnContext** object is passed with a [ConnectivityManager.AcquireConnectionAsync](connectivitymanager_acquireconnectionasync.md) call to establish a connection to a specific access point.
 
 ## -examples
 
 ## -see-also
+[ConnectivityManager.AcquireConnectionAsync](connectivitymanager_acquireconnectionasync.md)

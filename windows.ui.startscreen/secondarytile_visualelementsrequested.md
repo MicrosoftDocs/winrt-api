@@ -23,4 +23,3 @@ Fired when a call is made to [RequestCreateAsync](secondarytile_requestcreateasy
 ## -examples
 
 ## -see-also
-[Secondary tiles sample](http://go.microsoft.com/fwlink/p/?linkid=231487)

@@ -20,4 +20,4 @@ The [Device Capabilities Sample](http://go.microsoft.com/fwlink/p/?linkid=231530
 ## -examples
 
 ## -see-also
-[Windows.Devices.Input](windows_devices_input.md), [Quickstart: Identifying input devices](http://msdn.microsoft.com/library/7001b56d-081b-4683-84bb-24c361397c08), [Basic input sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620514)
+[Windows.Devices.Input](windows_devices_input.md), [Quickstart: Identifying input devices](https://docs.microsoft.com/en-us/windows/uwp/design/input/identify-input-devices), [Basic input sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620514)

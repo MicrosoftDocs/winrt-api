@@ -22,4 +22,3 @@ If two secondary tiles have the same ID, the last one to be pinned will overwrit
 ## -examples
 
 ## -see-also
-[Secondary tiles sample](http://go.microsoft.com/fwlink/p/?linkid=231487)

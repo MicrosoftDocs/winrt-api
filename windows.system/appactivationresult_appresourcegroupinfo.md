@@ -10,7 +10,7 @@ public AppResourceGroupInfo AppResourceGroupInfo { get; }
 # Windows.System.AppActivationResult.AppResourceGroupInfo
 
 ## -description
-Gets diagnostic information such as memory and energy use, for the activated app.
+Gets diagnostic information, such as memory and energy use, for the activated app.
 
 ## -property-value
 

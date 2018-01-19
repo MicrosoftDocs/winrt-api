@@ -22,6 +22,8 @@ The update parameters.
 ## -remarks
 To display quad layers, an app creates the necessary [HolographicQuadLayer](holographicquadlayer.md) instances and adds them to a HolographicCamera's mutable [QuadLayers](holographiccamera_quadlayers.md) list.  To synchronize a retained quad layer update with a given immediate-mode holographic frame, an app requests an [HolographicQuadLayerUpdateParameters](holographicquadlayerupdateparameters.md) instance from that frame by calling [HolographicFrame.GetQuadLayerUpdateParameters](holographicframe_getquadlayerupdateparameters_1786338093.md).  Any updates requested on that HolographicQuadLayerUpdateParameters instance will apply starting in that frame.
 
+**Note:** The AcquireBufferToUpdateContent method must be called when updating a HolographicQuadLayer object for the first time.
+
 ## -see-also
 
 ## -examples

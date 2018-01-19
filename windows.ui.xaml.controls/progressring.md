@@ -31,6 +31,21 @@ Use a [ProgressRing](progressring.md) to visually indicate that an operation is 
 > In an app compiled for Windows 8, when the [ProgressRing](progressring.md) is active, the progress animation continues even if its not visible on the screen, such as when it's [Visibility](../windows.ui.xaml/uielement_visibility.md) is [Collapsed](../windows.ui.xaml/visibility.md). This can keep the UI thread awake, use resources, and impair app performance. When the [ProgressRing](progressring.md) is not visible, you should disable the animation by setting [IsActive](progressring_isactive.md) to **false**.
 
 ## -examples
+
+<table>
+<th align="left">XAML Controls Gallery<th>
+<tr>
+<td><img src="images/xaml-controls-gallery-sm.png" alt="XAML controls gallery"></img></td>
+<td>
+    <p>If you have the <strong style="font-weight: semi-bold">XAML Controls Gallery</strong> app installed, click here to open the app and see the <a href="xamlcontrolsgallery:/item/ProgressRing">ProgressRing</a> in action.</p>
+    <ul>
+    <li><a href="https://www.microsoft.com/store/productId/9MSVH128X2ZT">Get the XAML Controls Gallery app (Microsoft Store)</a></li>
+    <li><a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics">Get the source code (GitHub)</a></li>
+    </ul>
+</td>
+</tr>
+</table>
+
 This example shows how to set the [IsActive](progressring_isactive.md) property of a [ProgressRing](progressring.md) in code. A [ToggleSwitch](toggleswitch.md) is used to turn the[ProgressRing](progressring.md) control on or off.
 
 ```xaml

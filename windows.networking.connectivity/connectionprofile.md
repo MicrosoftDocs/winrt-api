@@ -13,11 +13,7 @@ public class ConnectionProfile : Windows.Networking.Connectivity.IConnectionProf
 Represents a network connection, which includes either the currently connected network or prior network connections. Provides information about the connection status and connectivity statistics.
 
 ## -remarks
-The following example function demonstrates how retrieve data from a [ConnectionProfile](connectionprofile.md).
-
-
-
-
+The following example function demonstrates how to retrieve data from a [ConnectionProfile](connectionprofile.md).
 
 ```javascript
 function getConnectionProfileInfo(connectionProfile) {
@@ -38,3 +34,4 @@ For more examples of how these class methods are implemented to access connectio
 ## -examples
 
 ## -see-also
+[NetworkInformation.FindConnectionProfilesAsync](https://docs.microsoft.com/uwp/api/windows.networking.connectivity.networkinformation#Windows_Networking_Connectivity_NetworkInformation_FindConnectionProfilesAsync_Windows_Networking_Connectivity_ConnectionProfileFilter_)

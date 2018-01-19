@@ -10,9 +10,11 @@ public void UserActivityRequestManager.GetForCurrentView(UserActivityRequestMana
 # Windows.ApplicationModel.UserActivities.UserActivityRequestManager.GetForCurrentView
 
 ## -description
+Gets the **UserActivityRequestManager** associated with the current view.
 
 ## -parameters
 ### -param value
+On return, set to the **UserActivityRequestManager** for the current view.
 
 ## -remarks
 
@@ -20,3 +22,10 @@ public void UserActivityRequestManager.GetForCurrentView(UserActivityRequestMana
 
 ## -examples
 
+```csharp
+protected override void OnNavigatedTo(NavigationEventArgs e)
+{
+    Windows.ApplicationModel.UserActivities.UserActivityRequestManager requestMgr;
+    Windows.ApplicationModel.UserActivities.UserActivityRequestManager.GetForCurrentView(out requestMgr); // on return, requestMgr will be set.
+}
+```

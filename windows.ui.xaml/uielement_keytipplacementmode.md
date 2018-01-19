@@ -10,7 +10,7 @@ public KeyTipPlacementMode KeyTipPlacementMode { get;  set; }
 # Windows.UI.Xaml.UIElement.KeyTipPlacementMode
 
 ## -description
-Gets or sets a value that indicates where the access key tooltip is placed in relation to the boundary of the UIElement.
+Gets or sets a value that indicates where the access key Key Tip is placed in relation to the boundary of the UIElement.
 
 ## -xaml-syntax
 ```xaml

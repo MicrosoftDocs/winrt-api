@@ -12,6 +12,9 @@ public ESimAuthenticationPreference AuthenticationPreference { get; }
 ## -description
 Gets a value indicating the condition under which the user should be challenged for eSIM authentication credentials.
 
+> [!NOTE]
+> To use this API you will need to contact Microsoft to request the restricted capability **Microsoft.eSIMManagement_8wekyb3d8bbwe**. For more info, see the **Special and restricted capabilities** section under [App capability declarations](/windows/uwp/packaging/app-capability-declarations?branch=live).
+
 ## -property-value
 A value indicating the condition under which the user should be challenged for eSIM authentication credentials.
 

@@ -37,6 +37,8 @@ The pixel format is NV12.
 ### -field Yuy2:107
 The pixel format is YUY2.
 
+### -field P010:104
+The pixel format is P010.
 
 ## -remarks
 [BitmapPixelFormat](bitmappixelformat.md) is used in conjunction with [BitmapAlphaMode](bitmapalphamode.md) to fully describe the pixel data.

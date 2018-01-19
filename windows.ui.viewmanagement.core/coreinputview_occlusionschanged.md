@@ -15,7 +15,7 @@ Occurs when one or more [CoreInputViewOcclusion](coreinputviewocclusion.md) obje
 ## -remarks
 
 ## -see-also
-- [CoreInputViewOcclusionsChangedEventArgs](coreinputviewocclusionschangedeventargs.md)
+[CoreInputViewOcclusionsChangedEventArgs](coreinputviewocclusionschangedeventargs.md)
 
 ## -examples
 

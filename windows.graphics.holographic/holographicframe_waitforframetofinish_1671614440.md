@@ -16,6 +16,8 @@ Blocks the current thread until this frame has finished and is showing on the di
 ## -remarks
 Note that the default wait behavior of PresentUsingCurrentPrediction already waits for the frame to finish.
 
+Except for very simple apps, you should generally use [HolographicSpace.WaitForNextFrameReady](holographicspace_waitfornextframeready_2104087308.md) or [HolographicSpace.WaitForNextFrameReadyWithHeadStart](holographicspace_waitfornextframereadywithheadstart_1475386923.md) instead, which allows your app's CPU and GPU work to overlap across consecutive frames.
+
 ## -examples
 
 ## -see-also
