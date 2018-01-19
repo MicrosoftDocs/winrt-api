@@ -17,6 +17,7 @@ Asynchronously loads a model from file storage.
 The location of the model file.  
 
 ## -returns
+Returns a LearningModelPreview.
 
 ## -remarks
 
