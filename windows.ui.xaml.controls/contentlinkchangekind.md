@@ -11,6 +11,8 @@ public enum ContentLinkChangeKind : int
 
 ## -description
 
+Defines constants that specify what kind of change is being made to a ContentLink.
+
 ## -enum-fields
 ### -field Removed:1
 
@@ -25,6 +27,8 @@ The content link is being added.
 The content link is being changed.
 
 ## -remarks
+
+This enumeration provides values for the [ContentLinkChangedEventArgs.ChangeKind](contentlinkchangedeventargs_changekind.md) property.
 
 ## -see-also
 

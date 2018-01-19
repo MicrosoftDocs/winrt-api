@@ -11,11 +11,11 @@ public NavigationViewBackButtonVisible IsBackButtonVisible { get;  set; }
 
 ## -description
 
-Gets or sets a value that indicates whether the back button is shown.
+Gets or sets a value that indicates how the back button is shown.
 
 ## -property-value
 
-**true** to show the back button. **false** to hide the back button. The default is **false**.
+An enumeration value that indicates how the back button is shown. The default is **Auto**.
 
 ## -remarks
 

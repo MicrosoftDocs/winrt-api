@@ -11,6 +11,8 @@ public event TypedEventHandler BackRequested<NavigationView, NavigationViewBackR
 
 ## -description
 
+Occurs when the user initiates back navigation.
+
 ## -remarks
 
 ## -see-also
