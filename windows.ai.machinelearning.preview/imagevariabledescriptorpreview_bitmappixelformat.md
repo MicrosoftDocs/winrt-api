@@ -10,14 +10,29 @@ public BitmapPixelFormat BitmapPixelFormat { get; }
 # Windows.AI.MachineLearning.Preview.ImageVariableDescriptorPreview.BitmapPixelFormat
 
 ## -description
-Gets the expected format of the image data.
+Gets the pixel format of the image.
 
 ## -property-value
-The expected format.
+Pixel format of the image.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
+
+public void Evaluator(LearningModelPreview model)
+{
+	// Retrieve the first input feature which is an image
+    ILearningModelVariableDescriptorPreview inputImageFeatureDescription = model.Description.InputFeatures.FirstOrDefault(feature=>feature.ModelFeatureKind == LearningModelFeatureKindPreview.Image);
+ 
+    ImageVariableDescriptorPreview imageDescriptor = (ImageVariableDescriptorPreview)inputImageFeatureDescription;
+
+	// Ensure the input feature is of the format RGBA8
+    if (imageDescriptor.BitmapPixelFormat != BitmapPixelFormat.Rgba8)
+    {
+        throw new Exception("Invalid image format");
+    }
+
+ }
 
