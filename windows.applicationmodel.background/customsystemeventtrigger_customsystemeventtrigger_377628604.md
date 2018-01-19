@@ -10,15 +10,17 @@ public CustomSystemEventTrigger.CustomSystemEventTrigger(String triggerId, Custo
 # Windows.ApplicationModel.Background.CustomSystemEventTrigger.CustomSystemEventTrigger
 
 ## -description
+Creates an instance of a **CustomSystemEventTrigger**, with the specified identifier and recurrence.
 
 ## -parameters
 ### -param triggerId
+The identifier for the created **CustomSystemEventTrigger**.
 
 ### -param recurrence
+When the trigger may be activated.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
