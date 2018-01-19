@@ -14,6 +14,8 @@ Gets the identifier for the BringIntoViewRequested routed event.
 
 ## -property-value
 
+The identifier for the BringIntoViewRequested routed event.
+
 ## -remarks
 
 ## -see-also

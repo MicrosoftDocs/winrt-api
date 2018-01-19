@@ -14,6 +14,8 @@ Gets the horizontal distance that should be added to the viewport-relative posit
 
 ## -property-value
 
+The horizontal distance that should be added to the viewport-relative position of the TargetRect after satisfying the requested [HorizontalAlignmentRatio](bringintoviewrequestedeventargs_horizontalalignmentratio.md).
+
 ## -remarks
 
 ## -see-also

@@ -14,6 +14,8 @@ Gets the vertical distance that should be added to the viewport-relative positio
 
 ## -property-value
 
+The vertical distance that should be added to the viewport-relative position of the TargetRect after satisfying the requested [VerticalAlignmentRatio](bringintoviewrequestedeventargs_verticalalignmentratio.md).
+
 ## -remarks
 
 ## -see-also
