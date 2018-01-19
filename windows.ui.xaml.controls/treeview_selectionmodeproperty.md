@@ -11,7 +11,11 @@ public DependencyProperty SelectionModeProperty { get; }
 
 ## -description
 
+Identifies the SelectionMode dependency property.
+
 ## -property-value
+
+The identifier for the SelectionMode dependency property.
 
 ## -remarks
 

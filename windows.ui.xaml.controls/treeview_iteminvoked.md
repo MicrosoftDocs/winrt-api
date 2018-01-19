@@ -11,6 +11,8 @@ public event TypedEventHandler ItemInvoked<TreeView, TreeViewItemInvokedEventArg
 
 ## -description
 
+Occurs when an item in the tree is invoked.
+
 ## -remarks
 
 ## -see-also

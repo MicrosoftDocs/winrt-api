@@ -11,7 +11,11 @@ public object Content { get;  set; }
 
 ## -description
 
+Gets or sets the data content for the current node.
+
 ## -property-value
+
+The data content for the current node.
 
 ## -remarks
 

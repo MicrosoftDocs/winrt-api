@@ -11,7 +11,11 @@ public string CollapsedGlyph { get;  set; }
 
 ## -description
 
+Gets or sets the glyph to show for a collapsed tree node.
+
 ## -property-value
+
+The glyph to show for a collapsed tree node.
 
 ## -remarks
 

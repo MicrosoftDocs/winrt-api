@@ -11,6 +11,8 @@ public TreeViewItemTemplateSettings.TreeViewItemTemplateSettings()
 
 ## -description
 
+Initializes a new instance of the TreeViewItemTemplateSettings class.
+
 ## -remarks
 
 ## -see-also

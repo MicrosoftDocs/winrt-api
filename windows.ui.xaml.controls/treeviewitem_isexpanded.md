@@ -11,7 +11,11 @@ public bool IsExpanded { get;  set; }
 
 ## -description
 
+Gets or sets a value that indicates whether a tree node is expanded.
+
 ## -property-value
+
+**true** if the tree node is expanded; otherwise, **false**.
 
 ## -remarks
 

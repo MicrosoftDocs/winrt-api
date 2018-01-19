@@ -11,8 +11,12 @@ public void TreeView.Collapse(TreeViewNode value)
 
 ## -description
 
+Collapses the specified node in the tree.
+
 ## -parameters
 ### -param value
+
+The tree node to collapse.
 
 ## -remarks
 

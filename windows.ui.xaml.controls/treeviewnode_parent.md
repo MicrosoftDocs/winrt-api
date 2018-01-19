@@ -11,7 +11,11 @@ public TreeViewNode Parent { get; }
 
 ## -description
 
+Gets or sets the node that is the parent of the current node.
+
 ## -property-value
+
+The node that is the parent of the current node.
 
 ## -remarks
 

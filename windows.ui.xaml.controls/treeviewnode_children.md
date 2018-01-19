@@ -11,7 +11,11 @@ public IVector<TreeViewNode> Children { get; }
 
 ## -description
 
+Gets the collection of nodes that are children of the current node.
+
 ## -property-value
+
+The collection of nodes that are children of the current node. The default is an empty collection.
 
 ## -remarks
 

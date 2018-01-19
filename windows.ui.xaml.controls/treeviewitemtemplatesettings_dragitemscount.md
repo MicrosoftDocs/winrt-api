@@ -11,7 +11,11 @@ public int DragItemsCount { get; }
 
 ## -description
 
+Gets the number of items being dragged.
+
 ## -property-value
+
+The number of items being dragged.
 
 ## -remarks
 

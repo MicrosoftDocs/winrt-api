@@ -11,7 +11,11 @@ public TreeViewNode Node { get; }
 
 ## -description
 
+Gets the TreeView node that is collapsed.
+
 ## -property-value
+
+The TreeView node that is collapsed.
 
 ## -remarks
 

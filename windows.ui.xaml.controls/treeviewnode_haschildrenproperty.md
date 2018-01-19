@@ -11,7 +11,11 @@ public DependencyProperty HasChildrenProperty { get; }
 
 ## -description
 
+Identifies the HasChildren dependency property.
+
 ## -property-value
+
+The identifier for the HasChildren dependency property.
 
 ## -remarks
 

@@ -11,6 +11,8 @@ public void TreeView.SelectAll()
 
 ## -description
 
+Selects all nodes in the tree.
+
 ## -remarks
 
 ## -see-also

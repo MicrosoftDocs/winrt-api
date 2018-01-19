@@ -11,7 +11,11 @@ public double GlyphSize { get;  set; }
 
 ## -description
 
+Gets or sets the size of node glyphs on a TreeView.
+
 ## -property-value
+
+The opacity of size glyphs on a TreeView.
 
 ## -remarks
 

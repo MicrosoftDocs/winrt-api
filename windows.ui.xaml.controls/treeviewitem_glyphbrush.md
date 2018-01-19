@@ -11,7 +11,11 @@ public Brush GlyphBrush { get;  set; }
 
 ## -description
 
+Gets or sets the Brush used to paint node glyphs on a TreeView.
+
 ## -property-value
+
+The Brush used to paint node glyphs on a TreeView.
 
 ## -remarks
 
