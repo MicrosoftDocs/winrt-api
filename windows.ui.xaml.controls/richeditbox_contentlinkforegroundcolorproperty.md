@@ -11,7 +11,11 @@ public DependencyProperty ContentLinkForegroundColorProperty { get; }
 
 ## -description
 
+Identifies the ContentLinkForegroundColor dependency property.
+
 ## -property-value
+
+The identifier for the ContentLinkForegroundColor dependency property.
 
 ## -remarks
 

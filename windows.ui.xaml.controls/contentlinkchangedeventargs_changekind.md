@@ -11,7 +11,11 @@ public ContentLinkChangeKind ChangeKind { get; }
 
 ## -description
 
+Gets a value that indicates how the content link is changed.
+
 ## -property-value
+
+An enumeration value that indicates how the content link is changed.
 
 ## -remarks
 

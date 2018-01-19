@@ -14,9 +14,15 @@ public enum ContentLinkChangeKind : int
 ## -enum-fields
 ### -field Removed:1
 
+The content link is being removed.
+
 ### -field Inserted:0
 
+The content link is being added.
+
 ### -field Edited:2
+
+The content link is being changed.
 
 ## -remarks
 

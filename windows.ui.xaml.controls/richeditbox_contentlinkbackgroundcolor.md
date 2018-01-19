@@ -11,7 +11,11 @@ public SolidColorBrush ContentLinkBackgroundColor { get;  set; }
 
 ## -description
 
+Get or sets the brush used to color the link background.
+
 ## -property-value
+
+The brush used to color the link background.
 
 ## -remarks
 

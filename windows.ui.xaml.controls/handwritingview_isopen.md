@@ -11,9 +11,15 @@ public bool IsOpen { get; }
 
 ## -description
 
+Gets a value that indicates whether the handwriting view panel is open.
+
 ## -property-value
 
+**true** if the handwriting view panel is open; otherwise, **false**.
+
 ## -remarks
+
+The value of this property is set after the **Opened** or **Closed** event occurs.
 
 ## -see-also
 

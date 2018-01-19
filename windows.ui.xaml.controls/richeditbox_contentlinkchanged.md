@@ -11,7 +11,11 @@ public event TypedEventHandler ContentLinkChanged<RichEditBox, ContentLinkChange
 
 ## -description
 
+Occurs when a content link is added, removed, or edited.
+
 ## -remarks
+
+This event occurs after the **TextChanging** event and before the **TextChanged** event.
 
 ## -see-also
 

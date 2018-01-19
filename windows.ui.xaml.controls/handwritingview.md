@@ -11,6 +11,8 @@ public class HandwritingView : Control, Control
 
 ## -description
 
+Represents a Windows Ink input surface for text input controls.
+
 ## -remarks
 
 ## -see-also

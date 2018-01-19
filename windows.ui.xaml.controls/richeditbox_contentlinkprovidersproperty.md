@@ -11,7 +11,11 @@ public DependencyProperty ContentLinkProvidersProperty { get; }
 
 ## -description
 
+Identifies the ContentLinkProviders dependency property.
+
 ## -property-value
+
+The identifier for the ContentLinkProviders dependency property.
 
 ## -remarks
 
