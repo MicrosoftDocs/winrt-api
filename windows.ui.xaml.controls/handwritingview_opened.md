@@ -11,6 +11,8 @@ public event TypedEventHandler Opened<HandwritingView, HandwritingPanelOpenedEve
 
 ## -description
 
+Occurs when the handwriting view panel is opened.
+
 ## -remarks
 
 ## -see-also

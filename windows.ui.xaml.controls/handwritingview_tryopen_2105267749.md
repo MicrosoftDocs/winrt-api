@@ -11,9 +11,17 @@ public bool HandwritingView.TryOpen()
 
 ## -description
 
+Attempts to open the handwriting view panel.
+
 ## -returns
 
+**true** if the handwriting view panel opened; otherwise, **false**.
+
 ## -remarks
+
+There are cases where the handwriting view does not open, such as when the current language is not supported.
+
+The **Opened** event is raised if the handwriting view opens successfully.
 
 ## -see-also
 

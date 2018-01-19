@@ -11,6 +11,8 @@ public event TypedEventHandler Closed<HandwritingView, HandwritingPanelClosedEve
 
 ## -description
 
+Occurs when the handwriting view panel is closed.
+
 ## -remarks
 
 ## -see-also
