@@ -11,7 +11,11 @@ public UIElement TargetElement { get;  set; }
 
 ## -description
 
+Gets or sets the element that should be made visible in response to the event.
+
 ## -property-value
+
+The element that should be made visible in response to the event.
 
 ## -remarks
 

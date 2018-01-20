@@ -11,7 +11,11 @@ public RoutedEvent ContextRequestedEvent { get; }
 
 ## -description
 
+Gets the identifier for the ContextRequested routed event.
+
 ## -property-value
+
+The identifier for the ContextRequested routed event.
 
 ## -remarks
 
