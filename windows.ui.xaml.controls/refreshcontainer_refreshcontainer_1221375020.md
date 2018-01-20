@@ -9,9 +9,9 @@ public RefreshContainer.RefreshContainer()
 
 # Windows.UI.Xaml.Controls.RefreshContainer.RefreshContainer
 
-Initializes a new instance of the RefreshContainer control.
-
 ## -description
+
+Initializes a new instance of the RefreshContainer control.
 
 ## -remarks
 
