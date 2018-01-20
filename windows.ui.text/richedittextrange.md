@@ -11,6 +11,8 @@ public class RichEditTextRange : ITextRange
 
 ## -description
 
+Represents a span of continuous text in a [RichEditTextDocument](richedittextdocument.md), and provides editing and data-binding properties and methods that allow an app to select, examine, and change document content.
+
 ## -remarks
 
 ## -see-also

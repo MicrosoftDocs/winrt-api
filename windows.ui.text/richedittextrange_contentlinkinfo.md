@@ -11,7 +11,11 @@ public ContentLinkInfo ContentLinkInfo { get;  set; }
 
 ## -description
 
+Gets or sets the content link information for this text range.
+
 ## -property-value
+
+The content link information for this text range.
 
 ## -remarks
 

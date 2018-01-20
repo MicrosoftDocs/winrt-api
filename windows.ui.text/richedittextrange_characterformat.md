@@ -11,7 +11,11 @@ public ITextCharacterFormat CharacterFormat { get;  set; }
 
 ## -description
 
+Gets or sets the character formatting attributes of the text range.
+
 ## -property-value
+
+The character formatting attributes.
 
 ## -remarks
 

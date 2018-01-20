@@ -11,7 +11,11 @@ public int StartPosition { get;  set; }
 
 ## -description
 
+Gets or sets the start position of the text range.
+
 ## -property-value
+
+The character position to set as the start position of the text range.
 
 ## -remarks
 

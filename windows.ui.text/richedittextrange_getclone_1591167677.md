@@ -11,7 +11,11 @@ public ITextRange RichEditTextRange.GetClone()
 
 ## -description
 
+Creates a new object that is identical to this text range object.
+
 ## -returns
+
+The duplicate text range object.
 
 ## -remarks
 
