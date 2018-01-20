@@ -10,7 +10,7 @@ public void UserActivityRequestManager.GetForCurrentView(UserActivityRequestMana
 # Windows.ApplicationModel.UserActivities.UserActivityRequestManager.GetForCurrentView
 
 ## -description
-Gets the **UserActivityRequestManager** associated with the current view.
+Gets the [UserActivityRequestManager](useractivityrequestmanager.md) associated with the current view.
 
 ## -parameters
 ### -param value

@@ -10,18 +10,18 @@ public IAsyncOperation<bool> BackgroundExecutionManager.RequestAccessKindAsync(B
 # Windows.ApplicationModel.Background.BackgroundExecutionManager.RequestAccessKindAsync
 
 ## -description
-Prompts the user whether they consent to allow the app to perform background activity in the background.
+Prompts the user whether they consent to allow the app to perform the specified level of background activity in the background. On the Desktop OS Edition this may present a prompt to the user for their consent.
 
 ## -parameters
 ### -param requestedAccess
 The type of background activity the app wishes to perform.
 
 ### -param reason
-The string to display in the prompt that the system will raise to the user to describe why it is requesting to run in the background. For example, the string that appears after "The app says:"
+The string to display in the prompt that the system will raise to the user to describe why the app is requesting to run in the background. For example, the string that appears after "The app says:"
     <img src="../images/BackgroundPrompt.png" alt="Example background activity user prompt" />
 
 ## -returns
-**True** indicates that the user approved the requested background activity; **false**, otherwise.
+**True** indicates that the user or the system approved the requested background activity; **false**, otherwise.
 
 ## -remarks
 
