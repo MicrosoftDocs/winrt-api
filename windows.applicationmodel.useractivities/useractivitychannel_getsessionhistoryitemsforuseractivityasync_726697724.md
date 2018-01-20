@@ -29,7 +29,7 @@ A list of user activity session objects that were active during the specified ti
 ## -examples
 
 ```csharp
-private async void GetMostRecentRecentActivity()
+private async void GetMostRecentActivity()
 {
     UserActivityChannel channel = UserActivityChannel.GetDefault();
 
