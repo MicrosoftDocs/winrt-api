@@ -19,7 +19,7 @@ Many applications provide most-recently-used (MRU) lists. This class provides st
 
 ## -examples
 ```csharp
-private async void GetMostRecentRecentActivity()
+private async void GetMostRecentActivity()
 {
     UserActivityChannel channel = UserActivityChannel.GetDefault();
 
