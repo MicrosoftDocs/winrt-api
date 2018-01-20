@@ -11,6 +11,8 @@ public class BringIntoViewRequestedEventArgs : RoutedEventArgs, RoutedEventArgs
 
 ## -description
 
+Provides data for the [UIElement.BringIntoViewRequested](uielement_bringintoviewrequested) event.
+
 ## -remarks
 
 ## -see-also

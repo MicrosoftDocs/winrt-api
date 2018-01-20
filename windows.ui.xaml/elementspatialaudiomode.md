@@ -11,12 +11,20 @@ public enum ElementSpatialAudioMode : int
 
 ## -description
 
+Defines constants that indicate whether spatial sound is on, off, or handled automatically.
+
 ## -enum-fields
 ### -field On:2
 
+Spatial sound is on.
+
 ### -field Off:1
 
+Spatial sound is off.
+
 ### -field Auto:0
+
+Spatial sound is turned on or off by the system.
 
 ## -remarks
 
