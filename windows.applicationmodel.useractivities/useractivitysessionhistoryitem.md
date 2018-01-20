@@ -10,7 +10,7 @@ public class UserActivitySessionHistoryItem
 # Windows.ApplicationModel.UserActivities.UserActivitySessionHistoryItem
 
 ## -description
-Provides the start and end time for when a user was engaged in a particular activity.
+Provides the start and end time that a user was engaged in a particular activity.
 
 ## -remarks
 Many applications provide most-recently-used (MRU) lists. This class provides start and end time information about a [UserActivity](useractivity.md) so that you can provide a similar experience for user activities.

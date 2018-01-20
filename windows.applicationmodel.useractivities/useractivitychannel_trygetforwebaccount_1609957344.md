@@ -10,7 +10,7 @@ public UserActivityChannel UserActivityChannel.TryGetForWebAccount(WebAccount ac
 # Windows.ApplicationModel.UserActivities.UserActivityChannel.TryGetForWebAccount
 
 ## -description
-Get a channel, specific to a specified web account, that can be used to record user activity.
+Get a channel, specific to a specified web account, to use to record user activity.
 
 ## -parameters
 ### -param account

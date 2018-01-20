@@ -10,7 +10,7 @@ public class UserActivityRequestManager
 # Windows.ApplicationModel.UserActivities.UserActivityRequestManager
 
 ## -description
-Handle external requests to create a [UserActivity](useractivity.md)
+Handle external requests to create a [UserActivity](useractivity.md).
 
 ## -remarks
 
