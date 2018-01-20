@@ -11,10 +11,16 @@ public void RichEditTextRange.SetText(TextSetOptions options, String value)
 
 ## -description
 
+Replaces the text in the text range.
+
 ## -parameters
 ### -param options
 
+The conversion flags that control how the text is inserted in the text range.
+
 ### -param value
+
+The new text.
 
 ## -remarks
 

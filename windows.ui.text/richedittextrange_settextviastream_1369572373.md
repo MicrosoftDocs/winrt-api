@@ -11,10 +11,16 @@ public void RichEditTextRange.SetTextViaStream(TextSetOptions options, IRandomAc
 
 ## -description
 
+Sets the text in the text range based on the contents of a random access stream.
+
 ## -parameters
 ### -param options
 
+The text options.
+
 ### -param value
+
+The random access stream.
 
 ## -remarks
 

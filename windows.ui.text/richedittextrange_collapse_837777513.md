@@ -11,8 +11,12 @@ public void RichEditTextRange.Collapse(Boolean value)
 
 ## -description
 
+Collapses the text range into a degenerate point at either the beginning or end of the range.
+
 ## -parameters
 ### -param value
+
+**true** to collapse at the start of the text range. **false** to collapse at the end of the range. The default is **true**.
 
 ## -remarks
 

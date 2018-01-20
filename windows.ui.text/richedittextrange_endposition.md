@@ -11,7 +11,11 @@ public int EndPosition { get;  set; }
 
 ## -description
 
+Gets or sets the end character position of the text range.
+
 ## -property-value
+
+The end character position.
 
 ## -remarks
 

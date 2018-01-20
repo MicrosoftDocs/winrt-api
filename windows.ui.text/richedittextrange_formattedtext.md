@@ -11,7 +11,11 @@ public ITextRange FormattedText { get;  set; }
 
 ## -description
 
+Gets or sets an ITextRange object with the formatted text of the specified range.
+
 ## -property-value
+
+The formatted text.
 
 ## -remarks
 

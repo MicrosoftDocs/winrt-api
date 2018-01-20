@@ -11,6 +11,8 @@ public void RichEditTextRange.Cut()
 
 ## -description
 
+Moves the text of the text range to the Clipboard.
+
 ## -remarks
 
 ## -see-also

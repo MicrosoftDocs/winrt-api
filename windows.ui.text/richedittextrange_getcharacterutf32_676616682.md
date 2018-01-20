@@ -11,10 +11,16 @@ public void RichEditTextRange.GetCharacterUtf32(UInt32 value, Int32 offset)
 
 ## -description
 
+Retrieves the Unicode Transformation Format (UTF)-32 character code of the character at the specified offset from the end of the text range.
+
 ## -parameters
 ### -param value
 
+The character value.
+
 ### -param offset
+
+The offset from the end of the text range.
 
 ## -remarks
 
