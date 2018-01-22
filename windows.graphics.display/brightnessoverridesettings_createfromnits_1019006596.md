@@ -12,7 +12,7 @@ public BrightnessOverrideSettings BrightnessOverrideSettings.CreateFromNits(Sing
 
 
 ## -description
-Creates a [BrightnessOverrideSettings](brightnessoverridesettings.md) object the specified brightness in nits.
+Creates a [BrightnessOverrideSettings](brightnessoverridesettings.md) object with the specified brightness in nits.
 
 ## -parameters
 ### -param nits
