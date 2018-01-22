@@ -13,11 +13,11 @@ public DisplayEnhancementOverride DisplayEnhancementOverride.GetForCurrentView()
 
 ## -description
 
-Retrieves the display enhancement overrides for the current view.
+Retrieves a display enhancement override for the current view.
 
 ## -returns
 
-The display enhancement overrides for the current view.
+The display enhancement override for the current view.
 
 ## -remarks
 
