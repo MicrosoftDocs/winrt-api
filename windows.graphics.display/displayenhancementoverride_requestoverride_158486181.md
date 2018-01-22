@@ -13,7 +13,7 @@ public void DisplayEnhancementOverride.RequestOverride()
 
 ## -description
 
-Requests that the current display be overridden with the current diplay override settings.
+Requests that the current display be overridden with the current display override settings.
 
 ## -remarks
 
