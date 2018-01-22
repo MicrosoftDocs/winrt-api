@@ -10,7 +10,7 @@ public UserNotificationChangedTrigger(Windows.UI.Notifications.NotificationKinds
 # Windows.ApplicationModel.Background.UserNotificationChangedTrigger.UserNotificationChangedTrigger
 
 ## -description
-Initializes a new instance of the [UserNotificationChangedTrigger](usernotificationchangedtrigger.md) class.
+Initializes a new instance of the **UserNotificationChangedTrigger** class.
 
 ## -parameters
 ### -param notificationKinds
