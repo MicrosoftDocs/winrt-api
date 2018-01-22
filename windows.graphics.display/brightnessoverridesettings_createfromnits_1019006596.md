@@ -4,7 +4,7 @@
 ---
 
 <!-- Method syntax.
-public BrightnessOverrideSettings BrightnessOverrideSettings.CreateFromNits(System.Single nits)
+public BrightnessOverrideSettings BrightnessOverrideSettings.CreateFromNits(Single nits)
 -->
 
 # Windows.Graphics.Display.BrightnessOverrideSettings.CreateFromNits
