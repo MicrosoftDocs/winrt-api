@@ -1,10 +1,10 @@
 ---
--api-id: M:Windows.Graphics.Display.BrightnessOverrideSettings.CreateFromNits(System.Single)
+-api-id: M:Windows.Graphics.Display.BrightnessOverrideSettings.CreateFromNits(float)
 -api-type: winrt method
 ---
 
 <!-- Method syntax.
-public BrightnessOverrideSettings BrightnessOverrideSettings.CreateFromNits(Single nits)
+public BrightnessOverrideSettings BrightnessOverrideSettings.CreateFromNits(float nits)
 -->
 
 # Windows.Graphics.Display.BrightnessOverrideSettings.CreateFromNits
