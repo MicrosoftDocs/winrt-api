@@ -13,7 +13,7 @@ public Windows.UI.Core.CoreDispatcher Dispatcher { get; }
 Gets the input event dispatcher for the hosted XAML framework element.
 
 ## -property-value
-The dispatcher object for the hosted XAML framework element.
+The [CoreDispatcher](coredispatcher.md) for the hosted XAML framework element.
 
 ## -remarks
 
