@@ -13,7 +13,7 @@ public class DisplayEnhancementOverrideCapabilities
 
 ## -description
 
-Describes the capabilities of a display enhancement override.
+Describes the capabilities of a display enhancement override object.
 
 ## -remarks
 

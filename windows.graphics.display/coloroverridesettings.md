@@ -11,7 +11,7 @@ public class ColorOverrideSettings
 
 ## -description
 
-Contains the settings to use when overriding the screen color setting on a device.
+Contains the settings to use when overriding the screen color settings with [DisplayEnhancementOverride](displayenhancementoverride.md) on a device.
 
 
 ## -remarks
