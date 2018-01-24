@@ -19,7 +19,7 @@ In addition to the typical peer implementation API, [ItemAutomationPeer](itemaut
 
 [ItemAutomationPeer](itemautomationpeer.md) implements the [Realize](itemautomationpeer_realize.md) method in order to support the [IVirtualizedItemProvider](../windows.ui.xaml.automation.provider/ivirtualizeditemprovider.md) control pattern. Clients can call their framework's equivalent pattern access to [Realize](itemautomationpeer_realize.md) to get a non-virtualized result. This generates more information about the item in an automation tree view.
 
-### Default peer implementation and overrides in **ItemDatAutomationPeer**
+### Default peer implementation and overrides in **ItemAutomationPeer**
 
 [ItemAutomationPeer](itemautomationpeer.md) has overrides of **Core** methods such that the associated [AutomationPeer](automationpeer.md) methods provide peer-specific information to a Microsoft UI Automation client.
 
