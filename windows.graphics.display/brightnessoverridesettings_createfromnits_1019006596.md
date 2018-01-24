@@ -12,12 +12,12 @@ public BrightnessOverrideSettings BrightnessOverrideSettings.CreateFromNits(Sing
 
 
 ## -description
-Creates a set of brightness override settings from the specified Nits level.
+Creates a [BrightnessOverrideSettings](brightnessoverridesettings.md) object with the specified brightness in nits.
 
 ## -parameters
 ### -param nits
 
-The Nits level to use to create the override settings.
+The brightness in nits to use to create the override settings.
 
 ## -returns
 

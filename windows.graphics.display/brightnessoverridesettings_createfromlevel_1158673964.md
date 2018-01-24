@@ -13,7 +13,7 @@ public BrightnessOverrideSettings BrightnessOverrideSettings.CreateFromLevel(Dou
 
 ## -description
 
-Creates a set of brightness override settings based on the specified level.
+Creates a [BrightnessOverrideSettings](brightnessoverridesettings.md) object with the specified brightness level.
 
 ## -parameters
 ### -param level

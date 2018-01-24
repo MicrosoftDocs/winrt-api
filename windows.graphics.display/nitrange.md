@@ -31,7 +31,7 @@ The inclusive end point.
 
 ### -field StepSizeNits
 
-The step size, in Nits, for the brightness of the display. Guaranteed to be a factor of (MinNits - MaxNits).
+The step size, in nits, of the display brightness. Guaranteed to be a factor of (MinNits - MaxNits).
 
 ## -remarks
 
