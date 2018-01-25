@@ -11,7 +11,10 @@ public TimeSpan FrameDuration { get; }
 
 ## -description
 
+Gets the duration of the time it took to render the most recent frame.
+
 ## -property-value
+The duration of the time it took to render the most recent frame.
 
 ## -remarks
 
