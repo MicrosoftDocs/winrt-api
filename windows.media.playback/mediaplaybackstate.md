@@ -12,8 +12,6 @@ public enum Windows.Media.Playback.MediaPlaybackState : int
 ## -description
 Specifies the playback state of a [MediaPlaybackSession](mediaplaybacksession.md). 
 
-> [!NOTE]
-> **MediaPlaybackState** may be altered or unavailable after Windows 10, version 1607. Use [MediaPlayerState](mediaplayerstate.md) instead.
 
 ## -enum-fields
 ### -field None:0
