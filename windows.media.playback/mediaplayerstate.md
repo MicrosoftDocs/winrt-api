@@ -12,6 +12,9 @@ public enum Windows.Media.Playback.MediaPlayerState : int
 ## -description
 Indicates the possible states that the player can be in.
 
+> [!NOTE]
+> **MediaPlayerState** may be altered or unavailable after Windows 10, version 1607. Use [MediaPlaybackState](mediaplaybackstate.md) instead.
+
 ## -enum-fields
 ### -field Closed:0
 The media player is closed.
