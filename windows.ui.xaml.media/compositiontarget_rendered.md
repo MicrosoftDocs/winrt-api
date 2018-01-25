@@ -13,11 +13,9 @@ static public event EventHandler Rendered<RenderedEventArgs>
 Occurs immediately after the core rendering process renders a frame. This event enables you to determine how long each frame takes to render.
 
 ## -remarks
-The [Rendered](compositiontarget_rendered.md) event can be used to help measure application responsiveness.
-
 The Visual Studio [Application Timeline](https://docs.microsoft.com/en-us/visualstudio/profiling/application-timeline) profiler should be used when developing and testing your application since it gives more detailed information on your application's resource consumption including time spent preparing UI frames.
 
-The [Rendered](compositiontarget_rendered.md) event enables you to also get frame duration information at runtime without Visual Studio or a debugger attached. For example, this could be used to generate telemetry for apps after they are deployed.
+The [Rendered](compositiontarget_rendered.md) event can be used to also help measure frame duration and application responsiveness at runtime without Visual Studio or a debugger attached. For example, this could be used to generate telemetry for apps after they are deployed.
 
 A longer frame duration means your app had to perform more work before a frame could be rendered. Frame durations longer than approximately 16 milliseconds mean that your application was not able to update at the recommended frequency of 60 frames per second, and so the user may have experienced a noticeable delay in UI responsiveness. 
 
