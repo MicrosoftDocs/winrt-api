@@ -43,7 +43,7 @@ The string content of each day of the week header is created by a [DateTimeForma
 > [!CAUTION]
 > When you use a _format pattern_ in XAML, you need to include a set of empty braces before the format string, like this: `DayOfWeekFormat="{}{dayofweek.abbreviated}"` Also see Examples.
 
-For more info about format templates and format patterns, including when to use the _solo_ options, see the Remarks section of the [DateTimeFormatter](../windows.globalization.datetimeformatting/datetimeformatter.md) class documentation.
+For more info about format patterns, including when to use the _solo_ options, see the Remarks section of the [DateTimeFormatter](../windows.globalization.datetimeformatting/datetimeformatter.md) class documentation.
 
 > [!NOTE]
 > You can set this property to any valid date/time format, but formats other than those listed previously don't make sense for the day of week header.
