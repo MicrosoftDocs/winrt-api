@@ -15,7 +15,7 @@ Occurs immediately after the core rendering process renders a frame. This event 
 ## -remarks
 The Visual Studio [Application Timeline](https://docs.microsoft.com/en-us/visualstudio/profiling/application-timeline) profiler should be used when developing and testing your application since it gives more detailed information on your application's resource consumption including time spent preparing UI frames.
 
-The [Rendered](compositiontarget_rendered.md) event can be used to also help measure frame duration and application responsiveness at runtime without Visual Studio or a debugger attached. For example, this could be used to generate telemetry for apps after they are deployed.
+The [Rendered](compositiontarget_rendered.md) event can be used to also help measure frame duration and application responsiveness at runtime without Visual Studio or a debugger attached. For example, this could be used to generate telemetry for apps after they are deployed, or to adjust the amount of custom DirectX rendering work an application is doing each frame.
 
 A longer frame duration means your app had to perform more work before a frame could be rendered. Frame durations longer than approximately 16 milliseconds mean that your application was not able to update at the recommended frequency of 60 frames per second, and so the user may have experienced a noticeable delay in UI responsiveness. 
 
