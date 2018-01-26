@@ -10,7 +10,7 @@ public IAsyncOperation<bool> AppListEntry.LaunchForUserAsync(User user)
 # Windows.ApplicationModel.Core.AppListEntry.LaunchForUserAsync
 
 ## -description
-Launch the app associated with this [AppListEntry](applistentry.md) with the context of a specified user.
+Launch the app associated with this [AppListEntry](applistentry.md) within the context of a specified user.
 
 ## -parameters
 ### -param user
@@ -20,9 +20,10 @@ The user context that the app should be launched under.
 Returns **true** if the launch succeeds; otherwise, **false**.
 
 ## -remarks
-The user is passed to the launched app via the activated event args.
-The app is launched without passing additional parameters. It is launched in the same way as if the specified user clicked on the entry in the app list.
-Passing `null` for `user` will result in an exception.
+This is a Multi-User-Aware (MUA) API and can only be used by apps that declare themselves to be MUA, and only on devices that support MUA apps (like Xbox).
+The app is launched in the same way as if the specified user clicked on the entry in the app list. The user is passed to the launched app via the event args. Passing `null` for `user` will result in an exception.
+
+MUA apps launch with the a default user context. The `user` value, which is passed to the activated application via the event arguments, indicates who the app is activating on behalf of. A Single-User-Aware app will launch in the context of the `user` value that is passed into this API.
 
 ## -see-also
 
