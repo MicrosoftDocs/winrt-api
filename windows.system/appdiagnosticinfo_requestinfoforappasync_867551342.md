@@ -20,6 +20,7 @@ The identifier of the running app for which to get the **[AppDiagnosticInfo](app
 A collection of **[AppDiagnosticInfo](appdiagnosticinfo.md)** objects for all instances of the app specified by *appUserModelId*. 
 
 ## -remarks
+Calling this method will result in a capability check and a user prompt to authorize this action.
 
 ## -see-also
 
