@@ -16,10 +16,8 @@ Gets a collection of **[AppDiagnosticInfo](appdiagnosticinfo.md)** objects for a
 A collection of **[AppDiagnosticInfo](appdiagnosticinfo.md)** objects for all running instances of this app. 
 
 ## -remarks
+When an app calls this method, it is calling about itself and there is no capability check, and no user prompt.
 
 ## -see-also
 
 ## -examples
-
-## -capabilities
-appDiagnostics
