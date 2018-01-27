@@ -17,7 +17,6 @@ Gets or sets a value that indicates whether the item drag action should be cance
 
 ## -remarks
 Set this property to **true** in a handler in order to cancel an items drag action. 
-<!--TODO doc the visual and behavior effects of doing so-->
 
 ## -examples
 

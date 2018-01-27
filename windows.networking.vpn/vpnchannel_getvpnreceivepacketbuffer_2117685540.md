@@ -14,7 +14,6 @@ Requests a [VpnPacketBuffer](vpnpacketbuffer.md) object from the receive packet 
 
 ## -returns
 The requested packet buffer object. 
-<!--BUGBUG: Can this return some equivalent of "NULL" or an empty buffer, if there's no data? "Requests" in the abstract implies as much...-->
 
 ## -remarks
 

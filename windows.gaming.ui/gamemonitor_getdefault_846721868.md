@@ -23,7 +23,5 @@ If this returns **null**, then game monitoring is not supported on the platform.
 
 ## -see-also
 
-<!--TODO: Link to TruePlay docs on MSDN-->
-
 ## -examples
 
