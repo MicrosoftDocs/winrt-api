@@ -23,6 +23,7 @@ The web account for the request.
 When this method completes successfully, it returns the results of the web token request.
 
 ## -remarks
+This method cannot be called from background threads.
 
 ## -examples
 
