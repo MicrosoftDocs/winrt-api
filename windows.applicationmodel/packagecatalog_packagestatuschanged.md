@@ -13,7 +13,9 @@ public event Windows.Foundation.TypedEventHandler PackageStatusChanged<Windows.A
 Indicates that an app package has been removed or updated
 
 ## -remarks
-Apps only receive package events for itself or its related packages such as optional packages.
+If the PackageCatalog is obtained using **[OpenForCurrentPackage](https://docs.microsoft.com/uwp/api/windows.applicationmodel.packagecatalog#Windows_ApplicationModel_PackageCatalog_OpenForCurrentPackage)**, the app only receives package events for itself or its related packages such as optional packages.
+
+To get package events for all of a user's packages, obtain the PackageCatalog using **[OpenForCurrentUser](https://docs.microsoft.com/uwp/api/windows.applicationmodel.packagecatalog#Windows_ApplicationModel_PackageCatalog_OpenForCurrentUser)** instead.
 
 ## -examples
 

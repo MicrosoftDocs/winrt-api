@@ -141,6 +141,21 @@ This table shows the resources used by the [CalendarView](calendarview.md) contr
 </table>
 
 ## -examples
+
+<table>
+<th align="left">XAML Controls Gallery<th>
+<tr>
+<td><img src="images/xaml-controls-gallery-sm.png" alt="XAML controls gallery"></img></td>
+<td>
+    <p>If you have the <strong style="font-weight: semi-bold">XAML Controls Gallery</strong> app installed, click here to <a href="xamlcontrolsgallery:/item/CalendarView">open the app and see the CalendarView in action</a>.</p>
+    <ul>
+    <li><a href="https://www.microsoft.com/store/productId/9MSVH128X2ZT">Get the XAML Controls Gallery app (Microsoft Store)</a></li>
+    <li><a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics">Get the source code (GitHub)</a></li>
+    </ul>
+</td>
+</tr>
+</table>
+
 This example shows phased rendering of a [CalendarView](calendarview.md) for scheduling appointments. In phase 0, the default day item is rendered. In phase 1, you blackout dates that can't be booked. This includes past dates, Sundays, and dates that are already fully booked. In phase 2, you check each appointment that's booked for the day. You show a green density bar for each confirmed appointment and a blue density bar for each tentative appointment. The `Bookings` class in this example is from a fictitious appointment booking app, and is not shown.
 
 (To see this code running in a complete app sample, see the [Lunch scheduler sample](https://github.com/Microsoft/Windows-appsample-lunch-scheduler).)

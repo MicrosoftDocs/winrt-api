@@ -10,9 +10,10 @@ public CoreInputViewOcclusionKind OcclusionKind { get; }
 # Windows.UI.ViewManagement.Core.CoreInputViewOcclusion.OcclusionKind
 
 ## -description
-The [CoreInputViewOcclusionKind](coreinputviewocclusionkind.md) of the occluding input pane (and associated UI).
+The type of occluding input pane (and associated UI).
 
 ## -property-value
+A value from the [CoreInputViewOcclusionKind](coreinputviewocclusionkind.md) enumeration that indicates the type of input pane supported by the [CoreInputViewOcclusion](coreoccludinginputview.md) object.
 
 ## -remarks
 

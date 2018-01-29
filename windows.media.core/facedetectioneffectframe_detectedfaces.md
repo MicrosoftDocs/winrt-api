@@ -13,7 +13,7 @@ public Windows.Foundation.Collections.IVectorView<Windows.Media.FaceAnalysis.Det
 Gets the list of objects representing the faces detected in the frame.
 
 ## -property-value
-The list of objects representing the faces detected in the frame.
+The list of objects representing the faces detected in the frame. For more information, see [DetectedFace](../windows.media.faceanalysis/detectedface.md).
 
 ## -remarks
 

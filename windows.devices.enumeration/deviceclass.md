@@ -29,10 +29,10 @@ Indicates that the user wants to enumerate all portable storage devices.
 Indicates that the user wants to enumerate all video capture devices.
 
 ### -field ImageScanner:5
-**Introduced in .** Indicates that the user wants to enumerate all scanning devices.
+Indicates that the user wants to enumerate all scanning devices.
 
 ### -field Location:6
-**Introduced in .** Indicates that the user wants to enumerate all location aware devices.
+Indicates that the user wants to enumerate all location aware devices.
 
 
 ## -remarks

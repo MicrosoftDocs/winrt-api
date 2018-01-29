@@ -30,4 +30,3 @@ An object that provides information concerning the asynchronous create operation
 ## -examples
 
 ## -see-also
-[RequestCreateForSelectionAsync(Rect)](secondarytile_requestcreateforselectionasync_169700667.md), [Secondary tiles sample](http://go.microsoft.com/fwlink/p/?linkid=231487)
