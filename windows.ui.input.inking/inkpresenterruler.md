@@ -27,4 +27,4 @@ The opacity of the stencil is set at 75% when static, and 50% during manipulatio
 ## -examples
 
 ## -see-also
-[Windows.UI.Input.Inking Classes](windows_ui_input_inking_classes.md), [IInkPresenterStencil](iinkpresenterstencil.md), [InkToolbar](../windows.ui.xaml.controls/inktoolbar.md), [InkToolbarRulerButton](../windows.ui.xaml.controls/inktoolbarrulerbutton.md)
+[IInkPresenterStencil](iinkpresenterstencil.md), [InkToolbar](../windows.ui.xaml.controls/inktoolbar.md), [InkToolbarRulerButton](../windows.ui.xaml.controls/inktoolbarrulerbutton.md)

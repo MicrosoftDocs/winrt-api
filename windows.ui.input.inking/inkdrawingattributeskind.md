@@ -25,4 +25,3 @@ Supports attributes associated with a pencil.
 ## -examples
 
 ## -see-also
-[Windows.UI.Input.Inking Enumerations](windows_ui_input_inking_enumerations.md)

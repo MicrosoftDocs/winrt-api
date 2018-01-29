@@ -11,9 +11,9 @@ public Windows.UI.Input.Inking.InkInputRightDragAction RightDragAction { get;  s
 # Windows.UI.Input.Inking.InkInputProcessingConfiguration.RightDragAction
 
 ## -description
-Gets or sets the input behavior of the [InkPresenter](inkpresenter.md) object, when the input is modified with a secondary affordance, such as a pen barrel button, right mouse button, or similar.
+Gets or sets how the [InkPresenter](inkpresenter.md) object handles secondary input from a pen barrel button, pen eraser tip, right mouse button, or similar.
 
-By default, modified input is processed as standard input and rendered as an [InkStroke](inkstroke.md) (see remarks).
+By default, this secondary input is processed as primary input and rendered as an [InkStroke](inkstroke.md) (see remarks).
 
 ## -property-value
 The input behavior when modified with a secondary affordance.
