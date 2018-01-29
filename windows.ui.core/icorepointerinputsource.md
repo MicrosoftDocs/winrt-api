@@ -17,3 +17,4 @@ Defines the behavior of pointer input (for processing on a worker thread).
 ## -examples
 
 ## -see-also
+[ICorePointerInputSource2](icorepointerinputsource2.md)

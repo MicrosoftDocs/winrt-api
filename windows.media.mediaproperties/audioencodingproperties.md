@@ -10,7 +10,7 @@ public class AudioEncodingProperties : Windows.Media.MediaProperties.IAudioEncod
 # Windows.Media.MediaProperties.AudioEncodingProperties
 
 ## -description
-Describes the format of an audio stream.
+Describes the encoding properties of an audio stream.
 
 ## -remarks
 The encoding quality **Auto** is a special preset that fills in the proper settings based on the current camera settings. Settings that are manually modified are ignored. For example, if you create a preset profile using one the static create methods, such as [CreateWav](mediaencodingprofile_createwav.md), and specify **Auto** as the encoding quality, any changes you make to the properties will be overwritten with values based on the current camera settings.

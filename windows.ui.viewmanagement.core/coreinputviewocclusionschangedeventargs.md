@@ -13,7 +13,7 @@ public class CoreInputViewOcclusionsChangedEventArgs
 Contains event data for the [OcclusionsChanged](coreinputview_occlusionschanged.md) event.
 
 > [!NOTE]
-> Not supported on Xbox or HoloLens.
+> Not supported on HoloLens.
 
 ## -remarks
 Used by frameworks (such as XAML) or custom text controls only.

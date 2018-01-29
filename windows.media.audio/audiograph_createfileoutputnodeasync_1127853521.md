@@ -10,14 +10,14 @@ public Windows.Foundation.IAsyncOperation<Windows.Media.Audio.CreateAudioFileOut
 # Windows.Media.Audio.AudioGraph.CreateFileOutputNodeAsync
 
 ## -description
-Creates a file output node for the indicated file.
+Creates a new [AudioFileOutuputNode](audiofileoutputnode.md) that outputs audio data from the audio graph to the specified storage file.
 
 ## -parameters
 ### -param file
-A [StorageFile](../windows.storage/storagefile.md) object representing the file.
+A [StorageFile](../windows.storage/storagefile.md) to which audio data is written.
 
 ## -returns
-When this operation completes, a **CreateAudioFileOutputNodeResult** object is returned.
+An asynchronous operation that returns a [CreateAudioFileOutputNodeResult](createaudiofileoutputnoderesult.md) on completion. This object exposes a [Status](createaudiofileoutputnoderesult_status.md) property, that indicates either that the operation was successful or the reason why the operation failed. The [FileOutputNode](createaudiofileoutputnoderesult_fileoutputnode.md) property provides a reference to the created output node on success.
 
 ## -remarks
 The file output node created by this method defaults to a WAV file format with the same [AudioEncodingProperties](../windows.media.mediaproperties/audioencodingproperties.md) properties as the [AudioGraph](audiograph.md) to which it belongs. To create a file output node with custom encoding properties use the [CreateFileOutputNodeAsync(IStorageFile, MediaEncodingProfile)](audiograph_createfileoutputnodeasync_870871467.md) overload.

@@ -20,7 +20,7 @@ The product ID of the app to install.
 The catalog ID of the app to install.
 
 ### -param flightId
-The bundle to install.
+The flight ID of the app to install.
 
 ### -param clientId
 The ID of the caller.

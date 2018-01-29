@@ -17,7 +17,7 @@ The event handler receives an [IVectorChangedEventArgs](ivectorchangedeventargs.
 
 ### .NET usage
 
-[IObservableVector&lt;T&gt;](iobservablevector_1.md) isn't hidden for .NET usage. However, it's more common to use the .NET [ObservableCollection<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.objectmodel.observablecollection-1) type as a base class, or implement a **List** type or interface (generic or nongeneric) and **INotifyCollectionChanged** separately. If you do use [IObservableVector&lt;T&gt;](iobservablevector_1.md) for .NET code, the base interfaces (and their members) project as [IList<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ilist-1) and [IEnumerable&lt;T&gt;](XREF:TODO:T:System.Collections.Generic.IEnumerable`1). [VectorChanged](iobservablevector_1_vectorchanged.md) is the only API that's shared between the projections.
+[IObservableVector&lt;T&gt;](iobservablevector_1.md) isn't hidden for .NET usage. However, it's more common to use the .NET [ObservableCollection<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.objectmodel.observablecollection-1) type as a base class, or implement a **List** type or interface (generic or nongeneric) and **INotifyCollectionChanged** separately. If you do use [IObservableVector&lt;T&gt;](iobservablevector_1.md) for .NET code, the base interfaces (and their members) project as [IList<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ilist-1) and [IEnumerable&lt;T&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1). [VectorChanged](iobservablevector_1_vectorchanged.md) is the only API that's shared between the projections.
 
 ## -examples
 

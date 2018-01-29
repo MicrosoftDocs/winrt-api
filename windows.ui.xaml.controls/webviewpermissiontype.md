@@ -29,6 +29,12 @@ Permission is for pointer lock.
 Permission is for web notifications.
 
 
+### -field Screen:5
+
+
+### -field WebVR:6
+
+
 ## -remarks
 This enumeration provides values for the [WebViewPermissionRequest.PermissionType](webviewpermissionrequest_permissiontype.md) and [WebViewDeferredPermissionRequest.PermissionType](webviewdeferredpermissionrequest_permissiontype.md) properties.
 
@@ -40,3 +46,4 @@ Permission type **WebNotifications** is available starting in Windows 10, versi
 
 ## -see-also
 [WebViewPermissionRequest.PermissionType](webviewpermissionrequest_permissiontype.md), [WebViewDeferredPermissionRequest.PermissionType](webviewdeferredpermissionrequest_permissiontype.md)
+

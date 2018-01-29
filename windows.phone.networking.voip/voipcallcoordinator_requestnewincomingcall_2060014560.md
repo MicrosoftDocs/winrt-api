@@ -32,13 +32,13 @@ The name of the VoIP service or application. The maximum length is 128 character
 The Uri of an image file that is a logo or icon of the VoIP service or application to be displayed on the incoming call UI. The file type must be PNG or JPG. The maximum file size is 128KB.
 
 ### -param callDetails
-A string indicating who the call is on behalf of. The maximum length is 128 characters.
+A string indicating whom the call is on behalf of. The maximum length is 128 characters.
 
 ### -param ringtone
 The Uri of an audio file containing the ringtone for this call. The file type must be WMA or MP3. The maximum file size is 1MB.
 
 ### -param media
-The media types of the new incoming call.
+The media types used by the call (whether the call is audio/video rather than audio only).
 
 ### -param ringTimeout
 The time, in seconds, the system should wait for the user to answer or ignore the call before rejecting the call. The allowed range is 5 to 120 seconds. The default value is 30 seconds.
@@ -51,7 +51,6 @@ The object representing the new incoming call.
 ## -examples
 
 ## -see-also
-
 
 ## -capabilities
 ID_CAP_VOIP [Windows Phone]

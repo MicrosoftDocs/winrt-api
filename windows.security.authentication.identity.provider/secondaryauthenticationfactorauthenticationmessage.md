@@ -76,6 +76,34 @@ Ready to sign in with **device name**.
 ### -field UseAnotherSignInOption:19
 Use another sign-in option first, then you can use **device name** to sign in.
 
+### -field ConnectionRequired:20
+Could not connect to companion device. Try again.
+
+### -field TimeLimitExceeded:21
+The authentication process exceeded the time limit. Try again.
+
+### -field CanceledByUser:22
+The authentication process was cancelled. Try again.
+
+### -field CenterHand:23
+Instruct the user to center their hand over the companion device.
+
+### -field MoveHandCloser:24
+Instruct the user to move their hand closer to the companion device.
+
+### -field MoveHandFarther:25
+Instruct the user to move their hand farther from the companion device.
+
+### -field PlaceHandAbove:26
+Instruct the user to move their hand above the companion device.
+
+### -field RecognitionFailed:27
+The companion device failed to recognize the user.
+
+### -field DeviceUnavailable:28
+The companion device is unavailable. Use another sign-in option.
+
+
 
 ## -remarks
 
@@ -83,3 +111,11 @@ Use another sign-in option first, then you can use **device name** to sign in.
 
 ## -see-also
 [Windows Unlock with companion (IoT) devices](https://msdn.microsoft.com/windows/uwp/security/companion-device-unlock)
+
+
+
+
+
+
+
+

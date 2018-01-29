@@ -16,6 +16,7 @@ Gets the list of outgoing connections from the audio frame input node to other n
 A collection of [AudioGraphConnection](audiographconnection.md) objects representing the supported connections.
 
 ## -remarks
+This list of outgoing connections is read-only. Call [AddOutgoingConnection](audioframeinputnode_addoutgoingconnection_702981438.md) to connect this node to another node.
 
 ## -examples
 

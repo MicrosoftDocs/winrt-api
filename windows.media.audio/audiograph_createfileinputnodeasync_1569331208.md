@@ -10,11 +10,11 @@ public Windows.Foundation.IAsyncOperation<Windows.Media.Audio.CreateAudioFileInp
 # Windows.Media.Audio.AudioGraph.CreateFileInputNodeAsync
 
 ## -description
-Creates a file input node that supports spatial audio.
+Creates a spatial audio-enabled [AudioFileInputNode](audiofileinputnode.md) that inputs audio data into the audio graph from a storage file.
 
 ## -parameters
 ### -param file
-A [IStorageFile](../windows.storage/istoragefile.md) object representing the file associated with the file input node.
+A [IStorageFile](../windows.storage/istoragefile.md) object representing the audio file associated with the input node.
 
 ### -param emitter
 An object that describes the position and other physical characteristics of the emitter from which the node's audio is emitted when spatial audio processing is used.

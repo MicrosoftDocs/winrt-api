@@ -20,4 +20,4 @@ The [Windows.Devices.Usb](windows_devices_usb.md) defines Windows Runtime classe
 ## -examples
 
 ## -see-also
-[Talking to USB devices, start to finish (UWP app)](XREF:TODO:buses.talking_to_usb_devices_start_to_finish), [Custom USB device sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620530)
+[Talking to USB devices, start to finish (UWP app)](https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/talking-to-usb-devices-start-to-finish), [Custom USB device sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620530)

@@ -13,7 +13,7 @@ public Windows.UI.Core.CoreDispatcher Dispatcher { get; }
 Gets the event dispatcher for the window.
 
 ## -property-value
-The event dispatcher for the window.
+The [CoreDispatcher](coredispatcher.md) for the window.
 
 ## -remarks
 

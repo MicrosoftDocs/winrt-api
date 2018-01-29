@@ -16,7 +16,7 @@ Gets the key of the key-value pair.
 The key.
 
 ## -remarks
-When programming with .NET, this interface is hidden and developers should use the [System.Collections.Generic.KeyValuePair&lt;TKey,TValue&gt;](XREF:TODO:T:System.Collections.Generic.KeyValuePair`2) structure.
+When programming with .NET, this interface is hidden and developers should use the [System.Collections.Generic.KeyValuePair&lt;TKey,TValue&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.keyvaluepair-2) structure.
 
 ## -examples
 

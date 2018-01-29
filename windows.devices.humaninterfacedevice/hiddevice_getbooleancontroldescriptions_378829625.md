@@ -24,7 +24,7 @@ Identifies the usage page associated with the controls.
 Identifies the usage associated with the controls.
 
 ## -returns
-A vector of **HidBooleanControlDescription** objects.
+A vector of [HidBooleanControlDescription](hidbooleancontroldescription.md) objects.
 
 ## -remarks
 Boolean controls are simple controls that return On/Off values. (They are sometimes referred to as button controls.)

@@ -12,7 +12,7 @@ public PrintWorkflowObjectModelTargetPackage TargetAsXpsObjectModelPackage { get
 ## -description
 Gets the output document in the form of the COM-based XPS object model.
 
-## -returns
+## -property-value
 The output document object model content.
 
 ## -remarks

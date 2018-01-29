@@ -10,10 +10,11 @@ public class StorageLibraryContentChangedTriggerDetails : Windows.Storage.Search
 # Windows.Storage.Search.StorageLibraryContentChangedTriggerDetails
 
 ## -description
-Details about a change to storage library content.
+Contains the details of a storage library content change tracker.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
+[StorageLibraryContentChangedTrigger Class](https://docs.microsoft.com/uwp/api/windows.applicationmodel.background.storagelibrarycontentchangedtrigger)

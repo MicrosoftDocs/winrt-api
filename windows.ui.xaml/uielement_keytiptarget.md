@@ -10,13 +10,13 @@ public DependencyObject KeyTipTarget { get;  set; }
 # Windows.UI.Xaml.UIElement.KeyTipTarget
 
 ## -description
-Gets or sets a value that indicates the element targeted by the access key specified by this element.
+Gets or sets a value that indicates the element targeted by the access key Key Tip.
 
 ## -property-value
-The object targeted by the key tip.
+The element targeted by the Key Tip.
 
 ## -remarks
-The [KeyTipPlacementMode](uielement_keytipplacementmode.md) property is used to specify the location of the access key tooltip relative to the boundary of the targeted element.
+The [KeyTipPlacementMode](uielement_keytipplacementmode.md) property is used to specify the location of the access key Key Tip relative to the boundary of the targeted element.
 
 ## -examples
 In this example, we specify the access key for a Grid element, but we target the text heading of the Grid.

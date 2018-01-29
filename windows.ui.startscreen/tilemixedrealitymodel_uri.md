@@ -10,10 +10,10 @@ public Uri Uri { get;  set; }
 # Windows.UI.StartScreen.TileMixedRealityModel.Uri
 
 ## -description
-Gets or sets the Uri to the file that defines the tile's 3-D model. 
+Gets or sets the path to the mixed reality model.
 
 ## -property-value
-The Uri to the file that defines the tile's 3-D model. This value can't be null, and the Uri must start with `ms-appx` or `ms-appdata` or the app will throw a [UriFormatException](https://msdn.microsoft.com/en-us/library/system.uriformatexception(v=vs.110).aspx). You can specify any file extension. 
+The location of the mixed reality model. This can be expressed as one of these schemes: <termdeflist><termdef><name>ms-appx:///</name>A path within the deployed app package. This path is resolved for languages and DPI plateau supported by the app.</termdef><termdef><name>ms-appdata:///local/</name>A file found in the per-user app storage.</termdef></termdeflist>
 
 ## -remarks
 

@@ -29,8 +29,6 @@ A value that indicates how a line box is determined for each line of text in the
 **BlockLineHeight** and **MaxHeight** are the only two constant names that exist in the [LineStackingStrategy](../windows.ui.xaml/linestackingstrategy.md) enumeration, so the XAML syntax shows those two choices.
 
 
-<!--TODO link conceptual about flow document model, text etc-->
-
 ## -examples
 
 ## -see-also

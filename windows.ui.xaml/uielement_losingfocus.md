@@ -21,6 +21,7 @@ Occurs before a [UIElement](uielement.md) loses focus.
 ## -remarks
 
 ## -see-also
+[LosingFocusEventArgs](..\windows.ui.xaml.input\losingfocuseventargs.md), [LostFocus](uielement_lostfocus.md)
 
 ## -examples
 
