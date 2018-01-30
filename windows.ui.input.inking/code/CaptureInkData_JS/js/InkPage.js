@@ -7,7 +7,7 @@
 //// Copyright (c) Microsoft Corporation. All rights reserved
 
 // <SnippetJS> 
-// Windows Store app that demonstrates the use of the Windows.UI.Input.Inking APIs.
+// JavaScript UWP app that demonstrates the use of the Windows.UI.Input.Inking APIs.
 
 // Ink functionality is documented at http://go.microsoft.com/fwlink/?LinkID=260649.
 // User interaction functionality is documented at http://go.microsoft.com/fwlink/?LinkID=260650.

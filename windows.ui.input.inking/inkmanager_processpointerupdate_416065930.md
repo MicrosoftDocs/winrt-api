@@ -29,37 +29,53 @@ When the current [InkManipulationMode](inkmanipulationmode.md) is **Inking** or 
 ## -remarks
 
 ## -examples
-The following example demonstrates a handler for an [onmspointermove](XREF:TODO:wwa.HTMLElement_onmspointermove) event.
+The following example demonstrates a handler for a [PointerMoved](..\windows.ui.xaml\uielement_pointermoved.md) event on an InkCanvas.
 
-Here, the unprocessed intermediate points (`pts`) since the last update are processed by the [InkManager](inkmanager.md) (`inkManager`) in the call to [ProcessPointerUpdate](inkmanager_processpointerupdate.md).
+Here, the intermediate points (`intermediatePoints`) unprocessed since the last update are processed by the [InkManager](inkmanager.md) (`inkManager`) in the [ProcessPointerUpdate](inkmanager_processpointerupdate.md) call.
 
-```
-function handlePointerMove(evt)
+```csharp
+void InkingArea_PointerMoved(object sender, Windows.UI.Xaml.Input.PointerRoutedEventArgs e)
 {
-    try
+    var pointerPoint = e.GetCurrentPoint(InkingArea);
+
+    if (pointerId == (int)pointerPoint.PointerId)
     {
-        evt.preventManipulation();
-        if (evt.pointerId === penID)
+        switch (inkManager.Mode)
         {
-            var pt = evt.currentPoint;
-            context.lineTo(pt.rawPosition.x, pt.rawPosition.y);
-            context.stroke();
-            var pts = evt.intermediatePoints;
-            var i;
-            for (i = pts.length - 1; i >= 0 ; i--)
-            {
-                inkManager.processPointerUpdate(pts[i]);
-            }
+            case Windows.UI.Input.Inking.InkManipulationMode.Erasing:
+                // Check if something has been erased.
+                // In erase mode, ProcessPointerUpdate returns an 
+                // `invalidateRect` (if it is not degenerate something 
+                // has been erased). In erase mode we don't bother processing 
+                // intermediate points.
+                var invalidateRect = 
+                    (Windows.Foundation.Rect)inkManager.ProcessPointerUpdate(
+                        e.GetCurrentPoint(InkingArea));
+                if (invalidateRect.Height != 0 && invalidateRect.Width != 0)
+                {
+                    // We don't know what has been erased so we clear the render
+                    // and add back all the ink saved in the ink manager.
+                    renderer.Clear();
+                    renderer.AddInk(inkManager.GetStrokes());
+                }
+                break;
+
+            case Windows.UI.Input.Inking.InkManipulationMode.Inking:
+            case Windows.UI.Input.Inking.InkManipulationMode.Selecting:
+                // Process intermediate points.
+                var intermediatePoints = e.GetIntermediatePoints(InkingArea);
+                for (int i = intermediatePoints.Count - 1; i >= 0; i--)
+                {
+                    inkManager.ProcessPointerUpdate(intermediatePoints[i]);
+                }
+
+                // Live rendering.
+                renderer.UpdateLiveRender(pointerPoint);
+                break;
         }
-    }
-    catch (e)
-    {
-        displayError("handlePointerMove " + e.toString());
     }
 }
 ```
-
-For the complete example, see [Ink App sample](http://go.microsoft.com/fwlink/p/?linkid=231622).
 
 ## -see-also
 [Pen and stylus interactions](http://msdn.microsoft.com/library/3da4f2d2-5405-42a1-9ed9-3a87bcd84c43), [Ink sample](http://go.microsoft.com/fwlink/p/?LinkID=620308), [Simple ink sample](http://go.microsoft.com/fwlink/p/?LinkID=620312), [Complex ink sample](http://go.microsoft.com/fwlink/p/?LinkID=620314)
