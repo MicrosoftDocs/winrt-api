@@ -10,9 +10,11 @@ public class DropShadow : Windows.UI.Composition.CompositionShadow, Windows.UI.C
 # Windows.UI.Composition.DropShadow
 
 ## -description
-A drop shadow cast by a [SpriteVisual](spritevisual.md).
+A drop shadow cast by a [SpriteVisual](spritevisual.md) or [LayerVisual](layervisual.md).
 
 ## -remarks
+DropShadows are a common way to provide an indication of depth in application UI. To add a DropShadow, create an instance of DropShadow and attach it using the .Shadow property on a [SpriteVisual](spritevisual.md) or [LayerVisual](layervisual.md).
+
 Shadows are not clipped by the implicit clip set on the visual (based on size of the visual). However, shadows respect the explicit clip set on the visual using SpriteVisual.Clip Property.
 
 ## -examples
@@ -110,7 +112,37 @@ private Vector3KeyFrameAnimation CreateOffsetAnimation()
 }         
          
 ```
+DropShadow using CompositionDropShadowSourcePolicy to inherit alpha from the Visual's brush
 
+```csharp
+
+private async void InitComposition()
+{
+  _compositor = ElementCompositionPreview.GetElementVisual(MyGrid).Compositor;
+
+  //Create surface brush and load image
+  CompositionSurfaceBrush surfaceBrush = _compositor.CreateSurfaceBrush();
+  surfaceBrush.Surface = LoadedImageSurface.StartLoadFromUri(new Uri("ms-appx:///Assets/circle.png"));
+
+  //Create sprite visual
+  SpriteVisual visual = _compositor.CreateSpriteVisual();
+  visual.Brush = surfaceBrush;
+  visual.Size = new Vector2(270, 200);
+
+  //Create drop shadow
+  DropShadow shadow = _compositor.CreateDropShadow();
+  shadow.BlurRadius = 5;
+  shadow.Offset = new Vector3(15, 15, -10);
+  shadow.Color = Colors.DarkGray;
+
+  //Specify mask policy for shadow
+  shadow.SourcePolicy = CompositionDropShadowSourcePolicy.InheritFromVisualContent;
+
+  //Associate shadow with visual
+  visual.Shadow = shadow;
+}         
+         
+```
 
 
 ## -see-also
