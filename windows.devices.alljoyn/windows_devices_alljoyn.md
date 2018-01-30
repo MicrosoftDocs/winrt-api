@@ -16,7 +16,7 @@ To get started, check out the following:
 + For information on the introspection data format and the D-Bus specification, go to the [Introspection Data Format]( http://go.microsoft.com/fwlink/p/?LinkId=616545) section of the [D-Bus Specification](http://go.microsoft.com/fwlink/p/?LinkId=616546).
 + For AllJoyn samples, check out our [consumer](http://go.microsoft.com/fwlink/p/?LinkID=534021) and [producer]( http://go.microsoft.com/fwlink/p/?LinkId=534025).
 + For information on our AllJoyn code generation tool, go to the [AllJoyn CodeGen Tool](http://ms-iot.github.io/content/en-US/win10/AllJoynCodeGen.htm) page.
-+ For information on the Windows specific Win32 C APIs, see this [AllJoyn API](XREF:TODO:alljoyn.alljoyn_api_portal) page
++ For information on the Windows specific Win32 C APIs, see this [AllJoyn API](https://msdn.microsoft.com/en-us/library/windows/desktop/mt270094(v=vs.85).aspx) page
 + For all other information on AllJoyn, go to the [AllSeen Alliance]( http://go.microsoft.com/fwlink/p/?LinkId=526503) website.
 
 

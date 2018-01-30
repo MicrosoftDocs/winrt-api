@@ -20,7 +20,7 @@ One half of the original map.
 The second half of the original map.
 
 ## -remarks
-When programming with .NET, this interface is hidden and developers should use the [System.Collections.Generic.IReadOnlyDictionary&lt;TKey,TValue&gt;](XREF:TODO:T:System.Collections.Generic.IReadOnlyDictionary`2) interface.
+When programming with .NET, this interface is hidden and developers should use the [System.Collections.Generic.IReadOnlyDictionary&lt;TKey,TValue&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ireadonlydictionary-2) interface.
 
 The two views that result from the split operation may not contain the same number of items. The two views do not overlap.
 
