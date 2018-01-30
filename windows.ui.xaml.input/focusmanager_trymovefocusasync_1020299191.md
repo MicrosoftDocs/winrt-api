@@ -10,7 +10,7 @@ public IAsyncOperation<FocusMovementResult> FocusManager.TryMoveFocusAsync(Focus
 # Windows.UI.Xaml.Input.FocusManager.TryMoveFocusAsync
 
 ## -description
-Asynchronously Attempts to change focus from the current element with focus to the next focusable element in the specified direction.
+Asynchronously attempts to change focus from the current element with focus to the next focusable element in the specified direction.
 
 ## -parameters
 ### -param focusNavigationDirection
