@@ -11,14 +11,13 @@ public Windows.UI.Input.Inking.InkInputProcessingConfiguration InputProcessingCo
 # Windows.UI.Input.Inking.InkPresenter.InputProcessingConfiguration
 
 ## -description
-Gets the input behavior (standard or modified) of the [InkPresenter](inkpresenter.md) object.
-
-Standard ink input is not modified with a secondary affordance, such as a pen barrel button, right mouse button, or similar.
+Gets how input is processed by the [InkPresenter](inkpresenter.md) object.
 
 ## -property-value
 The input behavior.
 
 ## -remarks
+Primary input is not from (or modified by) a secondary affordance, such as a pen barrel button, pen eraser tip, right mouse button, or similar.
 
 ## -examples
 

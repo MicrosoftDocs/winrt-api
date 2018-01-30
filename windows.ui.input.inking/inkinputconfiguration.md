@@ -15,9 +15,6 @@ Manages which types of secondary input can be processed by the the [InkPresenter
 ## -remarks
 To manage how secondary input is processed by your app, see [InkInputProcessingConfiguration](inkinputprocessingconfiguration.md).
 
-## -see-also
-[Pen and stylus interactions](http://msdn.microsoft.com/library/3da4f2d2-5405-42a1-9ed9-3a87bcd84c43), [Ink sample](http://go.microsoft.com/fwlink/p/?LinkID=620308), [Simple ink sample](http://go.microsoft.com/fwlink/p/?LinkID=620312), [Complex ink sample](http://go.microsoft.com/fwlink/p/?LinkID=620314)
-
 ## -examples
 Here, we show how to accept input as ink from pen, touch, and mouse devices, but ignore all input from pen barrel buttons and eraser tips. 
 
@@ -37,4 +34,7 @@ public ScenarioBarrelEraserIgnore()
     inkInputConfiguration.IsPrimaryBarrelButtonInputEnabled = false; 
 } 
 ```
+
+## -see-also
+[InkPresenter.InputConfiguration](inkpresenter_inputconfiguration.md), [Pen and stylus interactions](http://msdn.microsoft.com/library/3da4f2d2-5405-42a1-9ed9-3a87bcd84c43), [Ink sample](http://go.microsoft.com/fwlink/p/?LinkID=620308), [Simple ink sample](http://go.microsoft.com/fwlink/p/?LinkID=620312), [Complex ink sample](http://go.microsoft.com/fwlink/p/?LinkID=620314)
 
