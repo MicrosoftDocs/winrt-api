@@ -9,6 +9,7 @@ public DispatcherQueue DispatcherQueue { get; }
 
 # Windows.UI.Core.ICorePointerInputSource2.DispatcherQueue
 
+## -description
 Gets the [DispatcherQueue](../windows.system/dispatcherqueue.md) associated with a platform object.
 
 ## -property-value
