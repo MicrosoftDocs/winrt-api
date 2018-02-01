@@ -21,52 +21,54 @@ Provides the animated transition behavior on controls when they first appear. Yo
 ## -remarks
 
 ## -examples
-The following example shows a how to apply an [EntranceThemeTransition](entrancethemetransition.md) to a [Button](../windows.ui.xaml.controls/button.md).
-
-
-<!--  
-      <p xml:space="preserve">
-            <TRANSLATE_MANUALLY>
-              <externalLink xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">
-                <linkText>Run this sample</linkText>
-                <linkUri>http://go.microsoft.com/fwlink/p/?linkid=139798&amp;sref=BackEase_scale</linkUri>
-              </externalLink>
-            </TRANSLATE_MANUALLY>
-          </p>-->
-
-
+This example shows a how to apply an [EntranceThemeTransition](entrancethemetransition.md) to a [Button](../windows.ui.xaml.controls/button.md).
 
 [!code-xml[EntranceThemeTransitionSimple](../windows.ui.xaml.media.animation/code/EntranceThemeTransition/csharp/BlankPage.xaml#SnippetEntranceThemeTransitionSimple)]
 
-
-<!--  
-      <p xml:space="preserve">
-            <TRANSLATE_MANUALLY>
-              <externalLink xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">
-                <linkText>Run this sample</linkText>
-                <linkUri>http://go.microsoft.com/fwlink/p/?linkid=139798&amp;sref=BackEase_scale</linkUri>
-              </externalLink>
-            </TRANSLATE_MANUALLY>
-          </p>-->
-
-
+Here, the EntranceThemeTransition is applied using a Style resource.
 
 [!code-xml[EntranceThemeTransitionStyle](../windows.ui.xaml/code/EntranceThemeTransitionStyle/csharp/BlankPage.xaml#SnippetEntranceThemeTransitionStyle)]
 
+If you set an EntranceThemeTransition animation on a panel, the children of the panel will automatically offset when they animate into view to create a visually appealing entrance.
 
-<!--  
-      <p xml:space="preserve">
-            <TRANSLATE_MANUALLY>
-              <externalLink xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">
-                <linkText>Run this sample</linkText>
-                <linkUri>http://go.microsoft.com/fwlink/p/?linkid=139798&amp;sref=BackEase_scale</linkUri>
-              </externalLink>
-            </TRANSLATE_MANUALLY>
-          </p>-->
+Here, as rectangles are added to the StackPanel, they fly in from the upper right, rather than just appearing in place.
 
+```xaml
+<Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Button Content="Add rectangle" Click="Button_Click"/>
 
+    <StackPanel x:Name="panel1" HorizontalAlignment="Left" Margin="200">
+        <StackPanel.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition 
+                FromHorizontalOffset="200" 
+                FromVerticalOffset="-200"/>
+            </TransitionCollection>
+        </StackPanel.ChildrenTransitions>
+    </StackPanel>
+</Grid>
+```
 
-[!code-xml[EntranceThemeTransitionGrid](../windows.ui.xaml.media.animation/code/EntranceThemeTransition/csharp/BlankPage.xaml#SnippetEntranceThemeTransitionGrid)]
+```csharp
+private void Button_Click(object sender, RoutedEventArgs e)
+{
+    // Add a rectangle to the StackPanel.
+    Rectangle r = new Rectangle();
+    r.Width = 100;
+    r.Height = 100;
+
+    // Alternate colors as rectangles are added.
+    if (panel1.Children.Count % 2 == 0)
+    {
+        r.Fill = new SolidColorBrush(Colors.Green);
+    }
+    else
+    {
+        r.Fill = new SolidColorBrush(Colors.Yellow);
+    }
+    panel1.Children.Add(r);
+}
+```
 
 
 
