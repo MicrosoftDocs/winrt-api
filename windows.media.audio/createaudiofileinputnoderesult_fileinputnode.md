@@ -16,6 +16,7 @@ Gets the audio file input node.
 An object representing the audio file input node.
 
 ## -remarks
+This value will be null if the [Status](createaudiofileinputnoderesult_status.md) property has a value other than **Success**.
 
 ## -examples
 

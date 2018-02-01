@@ -10,16 +10,18 @@ public Windows.Foundation.IAsyncOperation<Windows.Media.Audio.CreateAudioDeviceI
 # Windows.Media.Audio.AudioGraph.CreateDeviceInputNodeAsync
 
 ## -description
-Creates a device input node for the indicated media.
+Creates an [AudioDeviceInputNode](audiodeviceinputnode.md) that inputs audio data into the audio graph from the default audio input device, such as a microphone or audio card.
+
 
 ## -parameters
 ### -param category
-An enumeration value indicating the category of the media processed by this node.
+A value from the [MediaCategory](../windows.media.capture/mediacategory.md) enumeration value indicating the category of the media processed by this node, allowing the system to perform content-appropriate processing and prioritization of the media.
 
 ## -returns
 An asynchronous operation that returns a [CreateAudioDeviceInputNodeResult](createaudiodeviceinputnoderesult.md) on completion. This object exposes a [Status](createaudiodeviceinputnoderesult_status.md) property, that indicates either that the operation was successful or the reason why the operation failed. The [DeviceInputNode](createaudiodeviceinputnoderesult_deviceinputnode.md) property provides a reference to the created input node on success.
 
 ## -remarks
+Other overloads of this method allow you to specify the ID of a specific audio device instead of using the system's default device.
 
 ## -examples
 

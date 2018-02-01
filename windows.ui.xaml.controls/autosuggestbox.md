@@ -68,13 +68,13 @@ The [QuerySubmitted](autosuggestbox_querysubmitted.md) event occurs when a user 
 
 ### Accessibility
 
-If you are using an assistive technology, such as [Narrator](https://support.microsoft.com/en-us/help/17173/windows-10-hear-text-read-aloud), to interact with the [AutoSuggestBox](autosuggestbox.md) the accessibility experience has already been hooked up for you. A user will:
+If you are using an assistive technology, such as [Narrator](https://support.microsoft.com/help/17173/windows-10-hear-text-read-aloud), to interact with the [AutoSuggestBox](autosuggestbox.md) the accessibility experience has already been hooked up for you. A user will:
 
 + Know the list is present and when the list closes
 + Know how many suggestions are available
 + Be able to move Narrator focus to the list
 + Be able to Navigate through a suggestion with all other reading modes
-See [Auto-suggest accessibility](http://windowsstyleguide/accessibility/accessible-text-requirements/#auto-suggest_accessibility) for more information.
+See [Auto-suggest accessibility](https://docs.microsoft.com/windows/uwp/design/accessibility/accessible-text-requirements#auto-suggest-accessibility) for more information.
 
 ### Control style and template
 

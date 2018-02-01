@@ -14,7 +14,7 @@ public class InkManager : Windows.UI.Input.Inking.IInkManager, Windows.UI.Input.
 > [!NOTE]
 > For Universal Windows app using Extensible Application Markup Language (XAML), we recommend using [InkPresenter](inkpresenter.md) and the [InkCanvas](../windows.ui.xaml.controls/inkcanvas.md) control instead of [InkManager](inkmanager.md).
 
-Provides properties and methods to manage the input, manipulation, and processing (including handwriting recognition) of one or more [InkStroke](inkstroke.md) objects.
+Manages the input, manipulation, and processing (including handwriting recognition) of one or more [InkStroke](inkstroke.md) objects.
 
 ## -remarks
 If recognition is not required, use an [InkStrokeContainer](inkstrokecontainer.md) object instead of an [InkManager](inkmanager.md). Previous recognition results are still available through [GetRecognitionResults](inkstrokecontainer_getrecognitionresults.md).
@@ -52,4 +52,4 @@ function selectAll()
 For the complete example, see [Ink App sample](http://go.microsoft.com/fwlink/p/?linkid=231622).
 
 ## -see-also
-[Windows.UI.Input.Inking Classes](windows_ui_input_inking_classes.md), [Pen and stylus interactions](http://msdn.microsoft.com/library/3da4f2d2-5405-42a1-9ed9-3a87bcd84c43), [Ink sample](http://go.microsoft.com/fwlink/p/?LinkID=620308), [Simple ink sample](http://go.microsoft.com/fwlink/p/?LinkID=620312), [Complex ink sample](http://go.microsoft.com/fwlink/p/?LinkID=620314)
+[Pen and stylus interactions](http://msdn.microsoft.com/library/3da4f2d2-5405-42a1-9ed9-3a87bcd84c43), [Ink sample](http://go.microsoft.com/fwlink/p/?LinkID=620308), [Simple ink sample](http://go.microsoft.com/fwlink/p/?LinkID=620312), [Complex ink sample](http://go.microsoft.com/fwlink/p/?LinkID=620314)

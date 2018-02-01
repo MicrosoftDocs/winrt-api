@@ -25,6 +25,9 @@ The task is enabled.
 ### -field DisabledByPolicy:3
 The task is disabled by the administrator or group policy. Platforms that don't support startup tasks also report **DisabledByPolicy**.
 
+### -field EnabledByPolicy:4
+The task is enabled by the administrator or group policy.
+
 ## -remarks
 
 ## -examples

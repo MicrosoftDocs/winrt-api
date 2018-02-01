@@ -16,6 +16,7 @@ Gets the audio graph object.
 An object indicating the audio graph.
 
 ## -remarks
+This value will be null if the [Status](createaudiographresult_status.md) property has a value other than **Success**.
 
 ## -examples
 

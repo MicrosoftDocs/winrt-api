@@ -10,7 +10,7 @@ public DevicePortalConnection DevicePortalConnection.GetForAppServiceConnection(
 # Windows.System.Diagnostics.DevicePortal.DevicePortalConnection.GetForAppServiceConnection
 
 ## -description
-Initialized an instance of [DevicePortalConnection](DevicePortalConnection.md) by using the app service connection passed in.
+Initializes an instance of [DevicePortalConnection](DevicePortalConnection.md) by using the app service connection passed in.
 
 ## -parameters
 
@@ -18,6 +18,7 @@ Initialized an instance of [DevicePortalConnection](DevicePortalConnection.md) b
 The [AppServiceConnection](https://docs.microsoft.com/en-us/uwp/api/Windows.ApplicationModel.AppService.AppServiceConnection) that was used to launch the background task calling this method.
 
 ## -returns
+The [DevicePortalConnection](DevicePortalConnection.md) object.
 
 ## -remarks
 

@@ -16,6 +16,7 @@ Gets one or more [AppDiagnosticInfo](..\windows.system\appdiagnosticinfo.md) obj
 Returns one or more [AppDiagnosticInfo](..\windows.system\appdiagnosticinfo.md) objects.
 
 ## -remarks
+On first use within an app, this API will indirectly trigger a user consent prompt. If UI is not supported, consent defaults to denied, and the API fails. 
 
 ## -see-also
 

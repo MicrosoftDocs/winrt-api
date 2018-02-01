@@ -17,7 +17,7 @@ Adds an outgoing connection with gain to the audio frame input node.
 The destination node for the connection.
 
 ### -param gain
-A value indicating the gain associated with the connection.
+A value indicating the gain associated with the connection. This is a scalar multiplier of the audio signal. The default value is 1.0.
 
 ## -remarks
 

@@ -10,23 +10,23 @@ public void StartWithTrafficFilter(Windows.Foundation.Collections.IVectorView<Wi
 # Windows.Networking.Vpn.VpnChannel.StartWithTrafficFilter
 
 ## -description
-Creates the VPN channel to be used by the VPN plug-in. It also creates an L3 network interface for applications in the client machine to be able to see the corporate network. It allows the specification of traffic filters to use in per app VPN scenarios.
+Creates the VPN channel to be used by the VPN plug-in. It also creates an L3 network interface for applications in the client machine to be able to see the corporate network. It allows the specification of traffic filters to use in per-app VPN scenarios.
 
 ## -parameters
 ### -param assignedClientIpv4List
-A pointer to a **Windows.Networking.HostName ** structure specifying the IPv4 address assigned by the VPN server to the VPN client. The address should be set on the VPN L3 interface. If null, DHCPv4 is used.
+A list of **Windows.Networking.HostName** objects specifying the IPv4 address(es) assigned by the VPN server to the VPN client, and which should be set on the VPN L3 interface. If null, DHCPv4 is used.
 
 ### -param assignedClientIpv6List
-A pointer to a **Windows.Networking.HostName** structure specifying the IPv6 address assigned by the VPN server to the VPN client, and which should be set on the VPN L3 interface. If null, DHCPv6 or RD is used.
+A list of **Windows.Networking.HostName** objects specifying the IPv6 address(es) assigned by the VPN server to the VPN client, and which should be set on the VPN L3 interface. If null, DHCPv6 or RD is used.
 
 ### -param vpnInterfaceId
-A pointer to a **VpnInterfaceId** object.
+A **VpnInterfaceId** object.
 
 ### -param assignedRoutes
-A pointer to a **Windows.Networking.VpnRouteAssignment ** class that represents the routes which should be associated / not associated with the VPN interface.
+A **Windows.Networking.VpnRouteAssignment** object that represents the routes that should be associated / not associated with the VPN interface.
 
 ### -param assignedNamespace
-A pointer to a **Windows.Networking.DomainNameAssignment** class that represents the list of name prefixes that are associated to the VPN channel, including its DNS and proxy servers.
+A **Windows.Networking.DomainNameAssignment** object that represents the list of name prefixes that are associated with the VPN channel, including its DNS and proxy servers.
 
 ### -param mtuSize
 A UINT16 value specifying the MTU size of the VPN L3 network interface. This is also the size of the **IVpnPacketBuffers** in the Receive pool.
@@ -44,14 +44,13 @@ An **IInspectable** object for socket transport. This object can be a **Windows.
 An optional **IInspectable** object for socket transport. This object can be a **Windows.Networking.StreamSocket**, a **Windows.Networking.WebStreamSocket**, or a **Windows.NetworkingDatagramSocket**. This socket will control the connection to the VPN server and will be used to send encapsulated IP packets and receive encapsulated data.
 
 ### -param assignedTrafficFilters
-A pointer to a **VpnTrafficFilterAssignment** object, that allows the specification of traffic filters to a VPN channel.
+A **VpnTrafficFilterAssignment** object, which allows the specification of traffic filters to a VPN channel.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
-
 
 ## -capabilities
 networkingVpnProvider

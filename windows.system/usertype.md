@@ -25,7 +25,6 @@ The user is a local guest.
 ### -field RemoteGuest:3
 The user is a remote guest.
 
-
 ## -remarks
 
 ## -examples

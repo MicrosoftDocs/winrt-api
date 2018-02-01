@@ -20,4 +20,4 @@ The screen coordinates, in device-independent pixel (DIP).
 ## -examples
 
 ## -see-also
-[Quickstart: Identifying input devices](http://msdn.microsoft.com/library/7001b56d-081b-4683-84bb-24c361397c08)
+[Quickstart: Identifying input devices](https://docs.microsoft.com/en-us/windows/uwp/design/input/identify-input-devices)

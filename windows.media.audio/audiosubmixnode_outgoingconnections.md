@@ -16,6 +16,7 @@ Gets outgoing connections from the audio submix node to other nodes in the audio
 A collection of objects representing audio graph connections.
 
 ## -remarks
+This list of outgoing connections is read-only. Call [AddOutgoingConnection](audiosubmixnode_addoutgoingconnection_702981438.md) to connect this node to another node.
 
 ## -examples
 

@@ -10,14 +10,14 @@ public Windows.Foundation.IAsyncOperation<Windows.Media.Audio.CreateAudioFileInp
 # Windows.Media.Audio.AudioGraph.CreateFileInputNodeAsync
 
 ## -description
-Creates a file input node for the audio graph.
+Creates an [AudioFileInputNode](audiofileinputnode.md) that inputs audio data into the audio graph from a storage file.
 
 ## -parameters
 ### -param file
-A [StorageFile](../windows.storage/storagefile.md) object representing the file associated with the file input node.
+A [StorageFile](../windows.storage/storagefile.md) object representing the audio file associated with the input node.
 
 ## -returns
-When this operation completes, a **CreateAudioFileInputNodeResult** object is returned.
+An asynchronous operation that returns a [CreateAudioFileInputNodeResult](createaudiofileinputnoderesult.md) on completion. This object exposes a [Status](createaudiofileinputnoderesult_status.md) property, that indicates either that the operation was successful or the reason why the operation failed. The [FileInputNode](createaudiofileinputnoderesult_fileinputnode.md) property provides a reference to the created output node on success.
 
 ## -remarks
 

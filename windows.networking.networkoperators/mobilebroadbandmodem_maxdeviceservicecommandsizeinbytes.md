@@ -22,5 +22,6 @@ The maximum device service command size, in bytes, for the mobile broadband mode
 
 ## -see-also
 [MobileBroadbandDeviceServiceCommandSession](mobilebroadbanddeviceservicecommandsession.md)
+
 ## -capabilities
 cellularDeviceIdentity, cellularDeviceControl

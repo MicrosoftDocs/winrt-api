@@ -18,30 +18,30 @@ public enum KeyTipPlacementMode : int {
 # Windows.UI.Xaml.Input.KeyTipPlacementMode
 
 ## -description
-Defines constants that specify where a KeyTip is placed in relation to a UIElement.
+Defines constants that specify where a Key Tip is placed in relation to a UIElement.
 
 ## -enum-fields
 
 ### -field Auto:0
-The placement of the KeyTip is determined by the system.
+The placement of the Key Tip is determined by the system.
 
 ### -field Bottom:1
-The KeyTip is placed below the element.
+The Key Tip is placed below the element.
 
 ### -field Top:2
-The KeyTip is placed above the element.
+The Key Tip is placed above the element.
 
 ### -field Left:3
-The KeyTip is placed left of the element.
+The Key Tip is placed left of the element.
 
 ### -field Right:4
-The KeyTip is placed right of the element.
+The Key Tip is placed right of the element.
 
 ### -field Center:5
-The KeyTip is centered on the element.
+The Key Tip is centered on the element.
 
 ### -field Hidden:6
-The KeyTip is not shown.
+The Key Tip is not shown.
 
 
 ## -remarks
