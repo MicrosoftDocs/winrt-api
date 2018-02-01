@@ -1,4 +1,3 @@
-
 ---
 -api-id: T:Windows.UI.Xaml.Controls.Maps.HttpMapTileDataSource
 -api-type: winrt class

@@ -24,7 +24,7 @@ Identifies the usage page associated with the controls.
 Identifies the usage associated with the controls.
 
 ## -returns
-A vector of **HidNumericControlDescription** objects.
+A vector of [HidNumericControlDescription](hidnumericcontroldescription.md) objects.
 
 ## -remarks
 

@@ -10,14 +10,15 @@ public void RemoveOutgoingConnection(Windows.Media.Audio.IAudioNode destination)
 # Windows.Media.Audio.IAudioInputNode.RemoveOutgoingConnection
 
 ## -description
-Removes an outgoing connection from the audio input node.
+Removes the outgoing connection from the audio input node to the specified node.
 
 ## -parameters
+
 ### -param destination
-The destination node for the connection.
+The audio node for which the outgoing connection is removed.
 
 ## -remarks
-
+Add an outgoing connection by calling [AddOutgoingConnection](iaudioinputnode_addoutgoingconnection_702981438.md).
 ## -examples
 
 ## -see-also

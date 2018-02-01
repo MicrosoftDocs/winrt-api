@@ -29,4 +29,4 @@ A stencil in the form of a protractor for drawing arcs and curves.
 ## -examples
 
 ## -see-also
-[Windows.UI.Input.Inking Enumerations](windows_ui_input_inking_enumerations.md)
+

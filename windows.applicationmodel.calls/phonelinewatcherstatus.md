@@ -25,10 +25,6 @@ The phone line watcher class just completed an enumeration of the phone lines on
 ### -field Stopped:3
 The phone line watcher class is stopped.
 
-### -field Aborted:4
-The last operation was aborted.
-
-
 ## -remarks
 
 ## -examples

@@ -10,13 +10,15 @@ public void RemoveOutgoingConnection(Windows.Media.Audio.IAudioNode destination)
 # Windows.Media.Audio.AudioSubmixNode.RemoveOutgoingConnection
 
 ## -description
-Removes an outgoing connection from the audio submix node.
+Removes the outgoing connection from the audio submix node to the specified node.
 
 ## -parameters
+
 ### -param destination
-The destination for the outgoing connection.
+The audio node for which the outgoing connection is removed.
 
 ## -remarks
+Add an outgoing connection by calling [AddOutgoingConnection](audiosubmixnode_addoutgoingconnection_702981438.md).
 
 ## -examples
 

@@ -17,6 +17,7 @@ Asynchronously runs the diagnostics invoker with the specified diagnostics conte
 A Json object containing the context for the diagnostics action.
 
 ## -returns
+Returns an async operation object that indicates when the action has completed. A [DiagnosticActionState](diagnosticactionstate.md) enum value is in the result.
 
 ## -remarks
 

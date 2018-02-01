@@ -16,6 +16,7 @@ Gets the list of outgoing connections from the audio device input node to other 
 A collection of [AudioGraphConnection](audiographconnection.md) objects representing the supported connections.
 
 ## -remarks
+This list of outgoing connections is read-only. Call [AddOutgoingConnection](audiodeviceinputnode_addoutgoingconnection_702981438.md) to connect this node to another node.
 
 ## -examples
 

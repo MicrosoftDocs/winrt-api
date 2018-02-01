@@ -10,7 +10,7 @@ public class VideoMediaFrame : Windows.Media.Capture.Frames.IVideoMediaFrame
 # Windows.Media.Capture.Frames.VideoMediaFrame
 
 ## -description
-Represents a frame from a [MediaFrameSource](mediaframesource.md) that provides data in an video frame represented by a [IDirect3DSurface](../windows.graphics.directx.direct3d11/idirect3dsurface.md) or [SoftwareBitmap](videomediaframe_softwarebitmap.md).
+Represents a frame from a [MediaFrameSource](mediaframesource.md) that provides data in a video frame represented by a [IDirect3DSurface](../windows.graphics.directx.direct3d11/idirect3dsurface.md) or [SoftwareBitmap](videomediaframe_softwarebitmap.md).
 
 ## -remarks
 Get an instance of this class by accessing the [VideoMediaFrame](mediaframereference_videomediaframe.md) property of a [MediaFrameReference](mediaframereference.md) object that was obtained from a media frame source.

@@ -20,7 +20,7 @@ The web account provider the request is for.
 The scope of the request.
 
 ### -param clientId
-The client Id.
+The client ID.
 
 ## -remarks
 

@@ -24,11 +24,11 @@ The location of the focus point in the specified coordinate system.
 The normal of the focus point in the specified coordinate system, if known. If there is no obvious normal, have it face the user.
 
 ## -remarks
-This is used to improve image quality at the focus point and along its focus plane.
+Your app will generally achieve optimal visual quality by calling [CommitDirect3D11DepthBuffer](holographiccamerarenderingparameters_commitdirect3d11depthbuffer_1424767526.md) to commit an accurate depth buffer whose pixels can be mapped back to meters using your specified near and far planes and then not calling SetFocusPoint.
 
-You must set the focus point each frame, or it will reset to its default.  If you call [CommitDirect3D11DepthBuffer](holographiccamerarenderingparameters_commitdirect3d11depthbuffer_1424767526.md), the default focus point and normal will be inferred from your rendered depth data.  Otherwise, the default focus point will be 2 meters away from the headset, with a normal facing the headset.
+If you set a manual focus point, you must set it again each frame, or it will reset to its default.  Otherwise, the default focus point will be 2 meters away from the headset, with a normal facing the headset.
 
 ## -examples
 
 ## -see-also
-[SetFocusPoint(SpatialCoordinateSystem, Vector3)](holographiccamerarenderingparameters_setfocuspoint_184506220.md), [SetFocusPoint(SpatialCoordinateSystem, Vector3, Vector3, Vector3)](holographiccamerarenderingparameters_setfocuspoint_1040378076.md)
+* [CommitDirect3D11DepthBuffer](holographiccamerarenderingparameters_commitdirect3d11depthbuffer_1424767526.md)

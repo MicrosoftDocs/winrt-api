@@ -11,17 +11,15 @@ public Windows.UI.Input.Inking.InkInputProcessingMode Mode { get;  set; }
 # Windows.UI.Input.Inking.InkInputProcessingConfiguration.Mode
 
 ## -description
-Gets or sets how the [InkPresenter](inkpresenter.md) object handles input (standard and modified) on its associated [InkCanvas](../windows.ui.xaml.controls/inkcanvas.md) control.
+Gets or sets how the [InkPresenter](inkpresenter.md) object renders secondrary input from a pen barrel button, pen eraser tip, right mouse button, or similar on its associated [InkCanvas](../windows.ui.xaml.controls/inkcanvas.md) control.
 
-> [!NOTE]
-> Standard input is not modified with a secondary affordance, such as a pen barrel button, right mouse button, or similar.
-
-Input can be handled as standard ink or erase strokes, or it can be passed as [UnprocessedInput](inkpresenter_unprocessedinput.md) through to your app for custom processing.
+By default, this secondary input is processed as primary input and rendered as an [InkStroke](inkstroke.md) (see remarks).
 
 ## -property-value
 The input behavior.
 
 ## -remarks
+To pass input as [UnprocessedInput](inkpresenter_unprocessedinput.md) through to your app for custom processing, set [RightDragAction](inkinputprocessingconfiguration_rightdragaction.md) to [LeaveUnprocessed](inkinputrightdragaction.md).
 
 ## -examples
 

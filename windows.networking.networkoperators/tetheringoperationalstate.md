@@ -11,7 +11,7 @@ public enum Windows.Networking.NetworkOperators.TetheringOperationalState : int
 # TetheringOperationalState
 
 ## -description
-Defines values used by the [TetheringOperationalState](networkoperatortetheringmanager_tetheringoperationalstate.md) property to indicate the operational state of a device's tethering capabilities.
+Defines values used by the [NetworkOperatorTetheringManager.TetheringOperationalState](networkoperatortetheringmanager_tetheringoperationalstate.md) property to indicate the operational state of a device's tethering capabilities.
 
 ## -enum-fields
 ### -field Unknown:0
@@ -26,11 +26,11 @@ Tethering is off.
 ### -field InTransition:3
 The tethering feature is currently in transition between the **On** and **Off** states.
 
-
 ## -remarks
 
 ## -examples
 
 ## -see-also
+
 ## -capabilities
 cellularDeviceIdentity, cellularDeviceControl

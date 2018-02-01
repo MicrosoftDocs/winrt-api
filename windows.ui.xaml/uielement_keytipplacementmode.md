@@ -10,7 +10,7 @@ public KeyTipPlacementMode KeyTipPlacementMode { get;  set; }
 # Windows.UI.Xaml.UIElement.KeyTipPlacementMode
 
 ## -description
-Gets or sets a value that indicates where the KeyTip is placed in relation to the UIElement.
+Gets or sets a value that indicates where the access key Key Tip is placed in relation to the boundary of the UIElement.
 
 ## -xaml-syntax
 ```xaml
@@ -25,8 +25,10 @@ Gets or sets a value that indicates where the KeyTip is placed in relation to th
 A value of the enumeration. The default is **Auto**.
 
 ## -remarks
-
-## -see-also
+Use the [KeyTipTarget](uielement_keytiptarget.md) property to specify a target element other than this element.
 
 ## -examples
+
+## -see-also
+[KeyTipTarget](uielement_keytiptarget.md)
 

@@ -16,6 +16,7 @@ Gets the audio device input node.
 An object representing the audio device input node.
 
 ## -remarks
+This value will be null if the [Status](createaudiodeviceinputnoderesult_status.md) property has a value other than **Success**.
 
 ## -examples
 

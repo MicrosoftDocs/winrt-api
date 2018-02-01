@@ -12,7 +12,7 @@ public class ConnectionProfileFilter : Windows.Networking.Connectivity.IConnecti
 ## -description
 The [ConnectionProfileFilter](connectionprofilefilter.md) class defines a set of properties that are used to improve the relevance of [FindConnectionProfilesAsync](networkinformation_findconnectionprofilesasync.md) results.
 
-If at least one property is not specified, it is considered a "no-op" and will not be used as for filtering.
+At least one property must be specified, otherwise the object is not used as for filtering.
 
 ## -remarks
 

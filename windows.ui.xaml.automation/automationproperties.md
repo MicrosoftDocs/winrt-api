@@ -17,29 +17,6 @@ Provides support for getting or setting instance-level values of automation prop
 
 [AutomationProperties](automationproperties.md) is the host service class for several XAML attached properties. The purpose of these attached properties is to enable setting various per-instance values that are pertinent to how a UI element is reported to the Microsoft UI Automation accessibility framework. This is useful in cases where the class design of the UI element doesn't already forward other UI-related property values as part of its Microsoft UI Automation integration or peer implementation behavior, or where the value being forwarded is not the value you want to report to Microsoft UI Automation.
 
-These are the XAML attached properties that are supported by [AutomationProperties](automationproperties.md):
-
-+ [AcceleratorKey](automationproperties_acceleratorkeyproperty.md)
-+ [AccessibilityView](automationproperties_accessibilityviewproperty.md)
-+ [AccessKey](automationproperties_accesskeyproperty.md)
-+ [AutomationId](automationproperties_automationidproperty.md)
-+ [FullDescription](automationproperties_fulldescriptionproperty.md)
-+ [HelpText](automationproperties_helptextproperty.md)
-+ [IsDataValidForForm](automationproperties_isdatavalidforformproperty.md)
-+ [IsPeripheral](automationproperties_isperipheralproperty.md)
-+ [IsRequiredForForm](automationproperties_isrequiredforformproperty.md)
-+ [ItemStatus](automationproperties_itemstatusproperty.md)
-+ [ItemType](automationproperties_itemtypeproperty.md)
-+ [LabeledBy](automationproperties_labeledbyproperty.md)
-+ [LandmarkType](automationproperties_landmarktypeproperty.md)
-+ [Level](automationproperties_levelproperty.md)
-+ [LiveSetting](automationproperties_livesettingproperty.md)
-+ [LocalizedControlType](automationproperties_localizedcontroltypeproperty.md)
-+ [LocalizedLandmarkType](automationproperties_localizedlandmarktypeproperty.md)
-+ [Name](automationproperties_nameproperty.md)
-+ [PositionInSet](automationproperties_positioninsetproperty.md)
-+ [SizeOfSet](automationproperties_sizeofsetproperty.md)
-
 In order to support XAML processor access to the attached properties, and also to expose equivalent get and set operations to code, each XAML attached property has a pair of **Get** and **Set** accessor methods, which are also members of [AutomationProperties](automationproperties.md). For example, the [GetName](automationproperties_getname.md) and [SetName](automationproperties_setname.md) methods support and provide the equivalent code-only support for reporting automation **Name** values to Microsoft UI Automation, instead of using [Name](automationproperties_nameproperty.md) to set it in XAML. Alternatively, you can use the dependency property system to get or set the value of the attached property, and this also reports the underlying value to Microsoft UI Automation. Call [GetValue](../windows.ui.xaml/dependencyobject_getvalue.md) or [SetValue](../windows.ui.xaml/dependencyobject_setvalue.md), passing the arguments of the dependency property identifier to set, and a reference to the target object on which to get or set the value.
 
 ### Name property
