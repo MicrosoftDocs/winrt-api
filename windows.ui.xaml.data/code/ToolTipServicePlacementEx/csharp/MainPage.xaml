@@ -6,11 +6,9 @@
     <Grid>
     <!--<snippet1>-->
 <StackPanel Margin="120" >
-    <TextBlock Text="ToolTip Control" Margin="5" 
-               Style="{StaticResource HeaderTextStyle}" />
-    <TextBlock Text="Hover over an item to see its ToolTip: " 
-               Style="{StaticResource ItemTextStyle}" Margin="10" />
-    <ListBox Width="100">
+    <TextBlock Text="ToolTip Control"/>
+    <TextBlock Text="Hover over an item to see its ToolTip: " Margin="0,10"/>
+    <ListBox Width="100" HorizontalAlignment="Left">
         <ListBoxItem Content="Left" 
             ToolTipService.ToolTip="ToolTip to the left." 
             ToolTipService.Placement="Left" />
