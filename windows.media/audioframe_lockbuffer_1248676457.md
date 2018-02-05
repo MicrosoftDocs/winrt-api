@@ -10,7 +10,7 @@ public Windows.Media.AudioBuffer LockBuffer(Windows.Media.AudioBufferAccessMode 
 # Windows.Media.AudioFrame.LockBuffer
 
 ## -description
-Gets a [AudioBuffer](audiobuffer.md) object that allows you to operate directly on the software bitmap's pixel data.
+Gets a [AudioBuffer](audiobuffer.md) object that allows you to operate directly on the frame's audio data.
 
 ## -parameters
 ### -param mode
