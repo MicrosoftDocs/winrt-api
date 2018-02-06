@@ -15,7 +15,9 @@ Manages folders and their contents and provides information about them.
 ## -remarks
 Typically you get [StorageFolder](storagefolder.md) objects as the return value of asynchronous method calls. For example, the static method [GetFolderFromPathAsync](storagefolder_getfolderfrompathasync.md) returns a [StorageFolder](storagefolder.md) that represents the specified folder.
 
-Additionally, when you call a file picker to let the user pick a folder, the file picker returns the folder as a [StorageFolder](storagefolder.md).
+Note that when you call a file picker to let the user pick a folder, the file picker returns the folder as a [StorageFolder](storagefolder.md).
+
+There is not currently a "MoveAsync" or similar method. One simple implementation of moving a folder might be to get the desired folder, copy it to the desired location, and then delete the original folder.
 
 ## -examples
 
