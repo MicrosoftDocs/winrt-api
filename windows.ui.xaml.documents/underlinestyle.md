@@ -19,8 +19,9 @@ The element is not underlined.
 ### -field Single:1
 The element is underlined with a single, solid line.
 
-
 ## -remarks
+
+This enumeration provides values for the [Hyperlink.UnderlineStyle](hyperlink_underlinestyle.md) property. For more info, see the Examples and Remarks sections of the [Hyperlink](hyperlink.md) class.
 
 ## -examples
 
