@@ -36,5 +36,17 @@ The most common reason for creating a [Color](color.md) value is to use it as an
 
 ## -examples
 
+This example shows how to create a Color.
+
+```cpp
+auto orangeColor = Windows::UI::ColorHelper::FromArgb(255, 255, 128, 0);
+```
+
+This example shows how to create a SolidColorBrush with the specified Color.
+
+```cpp
+auto greenBrush = ref new SolidColorBrush(Windows::UI::ColorHelper::FromArgb(255, 90, 200, 90));
+```
+
 ## -see-also
 [SolidColorBrush](../windows.ui.xaml.media/solidcolorbrush.md)
