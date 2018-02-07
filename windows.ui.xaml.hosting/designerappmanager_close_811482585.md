@@ -11,7 +11,7 @@ public void DesignerAppManager.Close()
 
 ## -description
 
-Closes the app manager.
+Closes the app manager. This will close the process activated by the DesignerAppManager and wait for the process to terminate. It's possible that this method could block for an indefinite amount of time if the process is hung. The DesignerAppExited event **won't** be fired when manually closed.
 
 ## -remarks
 
