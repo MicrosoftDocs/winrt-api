@@ -31,4 +31,4 @@ The collection that is used to generate the content of the menu, if it exists; o
 ## -examples
 
 ## -see-also
-[MenuFlyoutItem](menuflyoutitem.md), [Quickstart: Adding a MenuFlyout](http://msdn.microsoft.com/library/0261a056-9b91-41f7-88ff-a104cbb9ac26)
+[MenuFlyoutItem](menuflyoutitem.md)

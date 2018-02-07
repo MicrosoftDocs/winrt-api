@@ -43,4 +43,4 @@ You can't style a [MenuFlyout](menuflyout.md) directly. Instead, you apply a sty
 ## -examples
 
 ## -see-also
-[MenuFlyoutPresenter](menuflyoutpresenter.md), [Quickstart: Adding a MenuFlyout](http://msdn.microsoft.com/library/0261a056-9b91-41f7-88ff-a104cbb9ac26)
+[MenuFlyoutPresenter](menuflyoutpresenter.md)
