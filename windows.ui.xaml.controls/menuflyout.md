@@ -64,9 +64,7 @@ In addition to the members listed above, there are other members of the base cla
 This example creates a [MenuFlyout class](https://msdn.microsoft.com/library/windows/apps/dn299030) and uses the [ContextFlyout](https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.uielement.contextflyout.aspx) property, a property available to most controls, to show the [MenuFlyout class](https://msdn.microsoft.com/library/windows/apps/dn299030) as a context menu.
 
 ````xaml
-<Rectangle
-  Height="100" Width="100"
-  Tapped="Rectangle_Tapped">
+<Rectangle Height="100" Width="100">
   <Rectangle.ContextFlyout>
     <MenuFlyout>
       <MenuFlyoutItem Text="Change color" Click="ChangeColorItem_Click" />
