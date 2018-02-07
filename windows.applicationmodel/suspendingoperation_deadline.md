@@ -10,10 +10,10 @@ public Windows.Foundation.DateTime Deadline { get; }
 # Windows.ApplicationModel.SuspendingOperation.Deadline
 
 ## -description
-Gets the time remaining before a delayed app suspending operation continues.
+Gets the time when the delayed app suspending operation continues.
 
 ## -property-value
-The time remaining.
+The time.
 
 ## -remarks
 
