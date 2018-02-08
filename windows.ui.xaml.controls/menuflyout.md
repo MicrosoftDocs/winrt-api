@@ -128,5 +128,85 @@ private void ChangeColorItem_Click(object sender, RoutedEventArgs e)
 }
 ````
 
+This example shows how you can add and remove menu items at runtime based on changing conditions in your app.
+
+```xaml
+<StackPanel Margin="40" Width="220">
+    <Rectangle x:Name="Rect1" Height="100" Width="200" 
+               Stroke="Black" StrokeThickness="1" Fill="White">
+        <Rectangle.ContextFlyout>
+            <MenuFlyout x:Name="RectangleColorMenu"/>
+        </Rectangle.ContextFlyout>
+    </Rectangle>
+
+    <StackPanel>
+        <TextBlock TextWrapping="WrapWholeWords"
+                   Text="Check colors to include in the menu, then choose a color from the context menu on the rectangle."/>
+        <CheckBox Content="Blue" Click="CheckBox_Click" Tag="blue"/>
+        <CheckBox Content="Green" Click="CheckBox_Click" Tag="green"/>
+        <CheckBox Content="Red" Click="CheckBox_Click" Tag="red"/>
+        <CheckBox Content="Yellow" Click="CheckBox_Click" Tag="yellow"/>
+    </StackPanel>
+</StackPanel>
+```
+
+```csharp
+private void CheckBox_Click(object sender, RoutedEventArgs e)
+{
+    // Using the Tag property lets you localize the display name
+    // without affecting functionality.
+    var cb = (CheckBox)sender;
+    if (cb.IsChecked == true)
+    {
+        AddMenuItem(cb.Tag.ToString(), cb.Content.ToString());
+    }
+    else
+    {
+        RemoveMenuItem(cb.Content.ToString());
+    }
+}
+
+private void AddMenuItem(string colorString, string locColorName)
+{
+    // Set the color.
+    Color newColor = Colors.Blue;
+    if (colorString == "green")
+        newColor = Colors.Green;
+    else if (colorString == "red")
+        newColor = Colors.Red;
+    else if (colorString == "yellow")
+        newColor = Colors.Yellow;
+
+    // Create the menu item.
+    var newMenuItem = new MenuFlyoutItem();
+    newMenuItem.Text = locColorName;
+    newMenuItem.Click += (s, e1) =>
+    {
+        Rect1.Fill = new SolidColorBrush(newColor);
+    };
+
+    // Add the item to the menu.
+    RectangleColorMenu.Items.Add(newMenuItem);
+
+    // Sort the menu so it's always consistent.
+    var orderedItems =  RectangleColorMenu.Items.OrderBy(i => ((MenuFlyoutItem)i).Text).ToList();
+    RectangleColorMenu.Items.Clear();
+    foreach (var item in orderedItems)
+    {
+        RectangleColorMenu.Items.Add(item);
+    }
+}
+
+private void RemoveMenuItem(string locColorName)
+{
+    // Get any menu items to remove and remove them.
+    var items = RectangleColorMenu.Items.Where(i => ((MenuFlyoutItem)i).Text == locColorName);
+    foreach (MenuFlyoutItem item in items)
+    {
+        RectangleColorMenu.Items.Remove(item);
+    }
+}
+```
+
 ## -see-also
 [Menus and context menus overview](https://docs.microsoft.com/en-us/windows/uwp/controls-and-patterns/menus), [MenuFlyoutPresenter](menuflyoutpresenter.md), [FlyoutBase](../windows.ui.xaml.controls.primitives/flyoutbase.md), [Flyout](flyout.md), [Button.Flyout](button_flyout.md), [Attached properties overview](https://docs.microsoft.com/en-us/windows/uwp/xaml-platform/attached-properties-overview), [Context menu sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlContextMenu)
