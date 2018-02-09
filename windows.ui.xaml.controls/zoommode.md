@@ -28,6 +28,8 @@ Zoom of content is enabled.
 
 ## -remarks
 
+This enumeration provides values for the [ScrollViewer.ZoomMode](scrollviewer_zoommode.md) property. See [ScrollViewer.ZoomMode](scrollviewer_zoommode.md) for more info.
+
 ## -examples
 
 ## -see-also
