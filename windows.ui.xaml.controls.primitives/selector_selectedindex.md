@@ -19,7 +19,7 @@ Gets or sets the index of the selected item.
 
 
 ## -property-value
-The index of the selected item. The default is -1.
+The index of the selected item. The default is -1, which indicates that no item is selected.
 
 ## -remarks
 Some controls that are derived from [Selector](selector.md), like [ListBox](../windows.ui.xaml.controls/listbox.md), [ListView](../windows.ui.xaml.controls/listview.md), and [GridView](../windows.ui.xaml.controls/gridview.md), also support multi-selection. When multi-selection is enabled in those controls, use their [SelectedItems](../windows.ui.xaml.controls/listviewbase_selecteditems.md) property to get the selected item collection.

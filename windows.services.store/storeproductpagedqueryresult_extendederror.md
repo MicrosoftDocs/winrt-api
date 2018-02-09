@@ -16,6 +16,7 @@ Gets the error code for the request, if the operation encountered an error.
 The error code for the request.
 
 ## -remarks
+If the current user is not signed in to the Store, this property returns the error code 0x80070525 (**ERROR_NO_SUCH_USER**).
 
 ## -examples
 
