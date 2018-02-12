@@ -36,7 +36,7 @@ By default, the media that is defined by the [Source](mediaplayerelement_source.
 Here’s how to create a [MediaPlayerElement](mediaplayerelement.md) in XAML with the [Source](mediaplayerelement_source.md) set to the path of a video file that is included in the app and the [AutoPlay](mediaelement_autoplay.md) property explicitly set to **true**.
 
 ```xaml
-<MediaPlayerElement Source="Media/video1.mp4" AutoPlay="True"/>
+<MediaPlayerElement Source="ms-appx:///Media/video1.mp4" AutoPlay="True"/>
 ```
 
 Here’s how to create the [MediaPlayerElement](mediaplayerelement.md) in code.
@@ -83,7 +83,7 @@ Here are some situations when you should release the display request:
 Here, you use the [PlaybackStateChanged](../windows.media.playback/mediaplaybacksession_playbackstatechanged.md) event to detect these situations. Then, use the [NaturalVideoHeight](../windows.media.playback/mediaplaybacksession_naturalvideoheight.md) property of the [MediaPlayer.PlaybackSession](../windows.media.playback/mediaplayer_playbacksession.md) to determine whether an audio or video file is playing, and keep the screen active only if video is playing.
 
 ```xaml
-<MediaPlayerElement x:Name="mpe" Source="Media/video1.mp4"/>
+<MediaPlayerElement x:Name="mpe" Source="ms-appx:///Media/video1.mp4"/>
 ```
 
 ```csharp
@@ -152,20 +152,30 @@ You can use the [PosterSource](mediaplayerelement_postersource.md) property to p
 </tr>
 </table>
 
-This code creates a [MediaElement](mediaelement.md) with the [AutoPlay](mediaelement_autoplay.md) property explicitly set to **true** and the [Source](mediaelement_source.md) set to the path of a video file that is included in the app.
+This code creates a MediaPlayerElement with the [AutoPlay](mediaplayerelement_autoplay.md) property explicitly set to **true** and the [Source](mediaplayerelement_source.md) set to the path of a video file that is included in the app.
 
-[!code-xml[MediaPlayer_SimpleXamlMediaElement](../windows.ui.xaml/code/MediaPlayerQuickStart/csharp/BasicSnippets.xaml#SnippetMediaPlayer_SimpleXamlMediaElement)]
+```xaml
+<MediaPlayerElement Source="ms-appx:///Media/video1.mp4" AutoPlay="True" />
+```
 
-[!code-xml[BasicMediaElementControls](../windows.ui.xaml.controls/code/MediaPlayback2/csharp/MainPage.xaml#SnippetBasicMediaElementControls)]
+This example creates a MediaPlayerElement with the transport controls enabled.
+
+```xaml
+<MediaElement x:Name="mediaPlayer"
+              Source="ms-appx:///Media/video1.mp4"
+              AreTransportControlsEnabled="True" />
+```
+
+This example shows how to use a MediaPlayerElement in a Popup.
 
 ```xaml
 <Grid>
     <Button Content="Show Popup" Click="ShowPopupClicked"/>
     <Popup x:Name="mediaPlayerPopup">
         <StackPanel Height="1400" Width="1400" Background="Blue">
-            <MediaPlayerElement x:Name="mediaPlayer" 
-                  AreTransportControlsEnabled="True" 
-                  Source="Media/Intro.wmv"/>
+            <MediaPlayerElement x:Name="mediaPlayer"
+                  AreTransportControlsEnabled="True"
+                  Source="ms-appx:///Media/Intro.wmv"/>
             <TextBlock Text="Simple Popup"/>
             <Button Content="Close" Click="ClosePopupClicked"/>
         </StackPanel>
