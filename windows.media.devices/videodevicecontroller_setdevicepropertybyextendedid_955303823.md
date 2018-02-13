@@ -24,6 +24,7 @@ A byte array containing the data to be assigned to the specified property.
 A [VideoDeviceControllerSetDevicePropertyStatus](videodevicecontrollersetdevicepropertystatus.md) object describing the status of the operation.
 
 ## -remarks
+The property ID and expected data are determined by the hardware device manufacturer.
 
 ## -see-also
 
