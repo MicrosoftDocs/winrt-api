@@ -13,6 +13,15 @@ public class Selector : Windows.UI.Xaml.Controls.ItemsControl, Windows.UI.Xaml.C
 Represents a control that enables a user to select an item from a collection of items.
 
 ## -remarks
+
+Selector has properties that enable selection of a single item in a collection.
+
+- [SelectedIndex](selector_selectedindex.md): The 0-based index of the selected item. The default is -1, which indicates no item is selected.
+- [SelectedItem](selector_selecteditem.md): The selected data item. The default is **null**, which indicates no item is selected.
+- [SelectedValue](selector_selectedindex.md): The value of the selected data item, obtained by using the [SelectedValuePath](selector_selectedvaluepath.md).
+
+Some controls that are derived from [Selector](selector.md), like [ListBox](../windows.ui.xaml.controls/listbox.md), [ListView](../windows.ui.xaml.controls/listview.md), and [GridView](../windows.ui.xaml.controls/gridview.md), also support multi-selection. When multi-selection is enabled in those controls, use their [SelectedItems](../windows.ui.xaml.controls/listviewbase_selecteditems.md) property to get the selected item collection.
+
 ### Selection behavior and CollectionViewSource
 
 List controls that derive from [Selector](selector.md) have a default selection behavior that depends on what the items source is (the type that's used for [ItemsSource](../windows.ui.xaml.controls/itemscontrol_itemssource.md)). If the items source is a [CollectionViewSource](../windows.ui.xaml.data/collectionviewsource.md) instance, then the behavior in the selection control is that the selection will default to the current item. When the list is first displayed, the selection defaults to the first item as current item. If you don't want the first item to be selected in this case, set [IsSynchronizedWithCurrentItem](selector_issynchronizedwithcurrentitem.md) to **false** in the [GridView](../windows.ui.xaml.controls/gridview.md), the [ListView](../windows.ui.xaml.controls/listview.md), or other [Selector](selector.md)-based control that is showing the selection.

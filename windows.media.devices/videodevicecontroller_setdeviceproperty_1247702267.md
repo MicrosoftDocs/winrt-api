@@ -20,6 +20,7 @@ The identifier of the property for which the value is set.
 The new value of the property.
 
 ## -remarks
+The property ID and expected data are determined by the hardware device manufacturer.
 
 ## -examples
 

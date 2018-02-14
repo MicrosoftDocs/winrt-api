@@ -54,11 +54,31 @@ The radius of rounding, in pixels, of the lower-left corner of the object where 
 ## -remarks
 ### Notes on XAML syntax
 
-Although you can specify a [CornerRadius](cornerradius.md) as an object element, you cannot specify the individual values such as **BottomLeft** as attributes of that object element. The XAML parser does not support setting XAML attribute values for this structure. Instead, you must specify the values as initialization text within the [CornerRadius](cornerradius.md). Using the object element syntax for a [CornerRadius](cornerradius.md) is useful if you want to declare a keyed resource that can be used by multiple [Border](../windows.ui.xaml.controls/border.md) instances for their [Border.CornerRadius](../windows.ui.xaml.controls/border_cornerradius.md). For more info on XAML initialization text, see [XAML syntax guide](http://msdn.microsoft.com/library/a57fe7b4-9947-4aa0-bc99-5fe4686b611d).
+Although you can specify a [CornerRadius](cornerradius.md) as an object element, you cannot specify the individual values such as **BottomLeft** as attributes of that object element. The XAML parser does not support setting XAML attribute values for this structure. For example, this XAML does not work:
+
+```xaml
+<!-- THIS DOES NOT WORK -->
+<CornerRadius x:Key="CornerRadiusError" BottomLeft="20"/>
+```
+
+Instead, you must specify the values as initialization text within the [CornerRadius](cornerradius.md). Using the object element syntax for a [CornerRadius](cornerradius.md) is useful if you want to declare a keyed resource that can be used by multiple [Border](../windows.ui.xaml.controls/border.md) instances for their [Border.CornerRadius](../windows.ui.xaml.controls/border_cornerradius.md). For more info on XAML initialization text, see [XAML syntax guide](http://msdn.microsoft.com/library/a57fe7b4-9947-4aa0-bc99-5fe4686b611d).
 
 If you specify an attribute string or initialization text with two or three values, only the first value is respected and is treated as the *uniformRadius* (the other values are ignored). You must specify all four values to use a different behavior than *uniformRadius*.
 
 You can use a space rather than a comma as the delimiter between values.
+
+This example shows how to use initialization text to set the values of a CornerRadius resource, and then apply the resource to a Border.
+
+```xaml
+<Page.Resources>
+    <CornerRadius x:Key="CornerRadius4010">40,10,40,10</CornerRadius>
+</Page.Resources>
+
+<Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Border BorderBrush="Blue" BorderThickness="2"
+            CornerRadius="{StaticResource CornerRadius4010}"/>
+</Grid>
+```
 
 ### Projection and members of CornerRadius
 

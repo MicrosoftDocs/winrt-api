@@ -19,8 +19,6 @@ This API allows an IoT device to receive Windows Insider Preview Builds. It's ex
 
 
 ## -examples
-When a user is on the Windows Insider Program settings page created by the device OEM, the device's activation status and information should be displayed on the page. 
-
 This example demonstrates how a user can determine if their device is receiving preview builds or if there are problems preventing the device from getting preview builds.
 
 ```csharp
