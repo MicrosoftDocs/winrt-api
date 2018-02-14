@@ -10,7 +10,9 @@ public class ControlChannelTrigger : Windows.Foundation.IClosable, Windows.Netwo
 # Windows.Networking.Sockets.ControlChannelTrigger
 
 ## -description
-Enables real time notifications to be received in the background for objects that establish a TCP connection and wish to be notified of incoming traffic. 
+Enables real time notifications to be received in the background for objects that establish a TCP connection and wish to be notified of incoming traffic.
+
+Call [**BackgroundExecutionManager.RequestAccessAsync**](../windows.applicationmodel.background.backgroundexecutionmanager.md#Windows_ApplicationModel_Background_BackgroundExecutionManager_RequestAccessAsync) before using **ControlChannelTrigger**.
 
 > [!NOTE]
 > This class is not supported on Windows Phone.
@@ -22,11 +24,9 @@ While the [ControlChannelTrigger](controlchanneltrigger.md) class can be used wi
 
 The [ControlChannelTrigger](controlchanneltrigger.md) class is recommended to be used by instances of the following that establish a TCP connection:
 
-
 + The [HttpClient](../windows.web.http/httpclient.md) class in the [Windows.Web.Http](../windows.web.http/windows_web_http.md) namespace.
 + The [HttpClient](http://go.microsoft.com/fwlink/p/?linkid=241637) and [HttpClientHandler](http://go.microsoft.com/fwlink/p/?linkid=241638) classes in the [System.Net.Http](http://go.microsoft.com/fwlink/p/?linkid=227894) namespace in the .NET Framework 4.5. Custom classes that derive from these classes are also supported.
 + The [IXMLHTTPRequest2](https://msdn.microsoft.com/en-us/library/windows/desktop/hh831151(v=vs.85).aspx) interface. The [IXMLHTTPRequest2](https://msdn.microsoft.com/en-us/library/windows/desktop/hh831151(v=vs.85).aspx) interface is an extension to XMLHttpRequest object defined in several working drafts published by the World Wide Web Consortium (W3C)
-
 
 There are several types of keep-alive intervals that may relate to network apps. At the lowest level, an app can set a TCP keep-alive option to send TCP keep-alive packets between a client app and a server to maintain an established TCP connection that is not being used. The [HttpClient](http://go.microsoft.com/fwlink/p/?linkid=241637) class and the XMLHttpRequest JavaScript object do not have an option to enable TCP keep-alive and this option is disabled by default. The TCP keep-alive must be disabled in order to use the [ControlChannelTrigger](controlchanneltrigger.md) class to support background network notifications.
 
