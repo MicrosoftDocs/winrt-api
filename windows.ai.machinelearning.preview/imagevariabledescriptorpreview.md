@@ -10,7 +10,7 @@ public class ImageVariableDescriptorPreview : IImageVariableDescriptorPreview, I
 # Windows.AI.MachineLearning.Preview.ImageVariableDescriptorPreview
 
 ## -description
-Gets the description of the image.
+Represents the image descriptor information.
 
 ## -remarks
 
@@ -24,10 +24,10 @@ public void Evaluator(LearningModelPreview model)
  
     ImageVariableDescriptorPreview imageDescriptor = (ImageVariableDescriptorPreview)inputImageFeatureDescription;
 
-	// Ensure the input feature is of the format RGBA8
+	// Ensure the input feature handles the format RGBA8
     if (imageDescriptor.BitmapPixelFormat != BitmapPixelFormat.Rgba8)
     {
-        throw new Exception("Invalid image format");
+        Console.WriteLine($"Input Feature Name: {imageDescriptor.Name}. Format not supported.);
     }
 
  }

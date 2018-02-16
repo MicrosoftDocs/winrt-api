@@ -20,4 +20,16 @@ The description of the sequence variable.
 ## -see-also
 
 ## -examples
+public void Evaluator(LearningModelPreview model)
+{
+	// Retrieve the first input feature which is a Sequence
+    ILearningModelVariableDescriptorPreview inputSequenceFeatureDescription = model.Description.InputFeatures.FirstOrDefault(feature=>feature.ModelFeatureKind == LearningModelFeatureKindPreview.Image);
+ 
+    SequenceVariableDescriptorPreview SequenceDescriptor = (SequenceVariableDescriptorPreview)inputSequenceFeatureDescription;
+
+	// Output the description of the Sequence variable
+    Console.WriteLine($"Input Feature Name: {SequenceDescriptor.Name}. Description: {SequenceDescriptor.Description}.);
+
+ }
+
 

@@ -10,14 +10,25 @@ public string Name { get; }
 # Windows.AI.MachineLearning.Preview.ImageVariableDescriptorPreview.Name
 
 ## -description
-Gets the name of the image variable
+Gets the name of the image variable.
 
 ## -property-value
-The name of the image variable. This must be unique across all variables in the model.
+The name of the image variable.
 
 ## -remarks
+This must be unique across all variables in the model.
 
 ## -see-also
 
 ## -examples
+public void Evaluator(LearningModelPreview model)
+{
+	// Retrieve the first input feature which is an image
+    ILearningModelVariableDescriptorPreview inputImageFeatureDescription = model.Description.InputFeatures.FirstOrDefault(feature=>feature.ModelFeatureKind == LearningModelFeatureKindPreview.Image);
+ 
+    ImageVariableDescriptorPreview imageDescriptor = (ImageVariableDescriptorPreview)inputImageFeatureDescription;
 
+	// Output the description of the image variable
+    Console.WriteLine($"Input Feature Name: {imageDescriptor.Name}. Description: {imageDescriptor.Description}.);
+
+ }

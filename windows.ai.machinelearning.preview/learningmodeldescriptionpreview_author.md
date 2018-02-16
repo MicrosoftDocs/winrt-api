@@ -10,7 +10,7 @@ public string Author { get; }
 # Windows.AI.MachineLearning.Preview.LearningModelDescriptionPreview.Author
 
 ## -description
-Gets the author information from model.
+Gets the author information from the model.
 
 ## -property-value
 The author information from the model.
@@ -20,11 +20,11 @@ The author information from the model.
 ## -see-also
 
 ## -examples
-void Evaluator(LearningModelPreview model)
+public void Evaluator()
 {
-    if (model.Description.Author != "Nick")
-    {
-        throw new Exception("Invalid model author");
-    }
+    var modelFile = await Windows.ApplicationModel.Package.Current.InstalledLocation.GetFileAsync("model.onnx");
+    LearningModelPreview model = await LearningModelPreview.LoadModelFromStorageFileAsync(modelFile);
+	
+	Console.WriteLine($"Model Author: {model.Description.Author}.);
 }
 

@@ -20,4 +20,16 @@ The description of the tensor.
 ## -see-also
 
 ## -examples
+public void Evaluator(LearningModelPreview model)
+{
+	// Retrieve the first input feature which is a Tensor
+    ILearningModelVariableDescriptorPreview inputTensorFeatureDescription = model.Description.InputFeatures.FirstOrDefault(feature=>feature.ModelFeatureKind == LearningModelFeatureKindPreview.Image);
+ 
+    TensorVariableDescriptorPreview TensorDescriptor = (TensorVariableDescriptorPreview)inputTensorFeatureDescription;
+
+	// Output the description of the Tensor variable
+    Console.WriteLine($"Input Feature Name: {TensorDescriptor.Name}. Description: {TensorDescriptor.Description}.);
+
+ }
+
 

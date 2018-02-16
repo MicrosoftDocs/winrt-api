@@ -20,4 +20,13 @@ The description of the variable.
 ## -see-also
 
 ## -examples
+public void Evaluator(LearningModelPreview model)
+{
+	// Retrieve the first input feature which is an image
+    ILearningModelVariableDescriptorPreview inputImageFeatureDescription = model.Description.InputFeatures.FirstOrDefault(feature=>feature.ModelFeatureKind == LearningModelFeatureKindPreview.Image);
+ 
+    ImageVariableDescriptorPreview imageDescriptor = (ImageVariableDescriptorPreview)inputImageFeatureDescription;
 
+	//Output input feature description
+    Console.WriteLine($"Input Feature Name: {imageDescriptor.Name}. Feature Descption: {imageDescriptor.Description}");
+ }

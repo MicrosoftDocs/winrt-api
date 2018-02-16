@@ -27,4 +27,28 @@ The evaluation result.
 ## -see-also
 
 ## -examples
+public async Task Evaluate(LearningModelPreview model, SoftwareBitmap picture, List<Int64> outputLabelList)
+{
+	ImageVariableDescriptorPreview inputImageDescription;
+	TensorVariableDescriptorPreview outputTensorDescription;
 
+	List<ILearningModelVariableDescriptorPreview> inputFeatures = model.Description.InputFeatures.ToList();
+	List<ILearningModelVariableDescriptorPreview> outputFeatures = model.Description.OutputFeatures.ToList();
+
+    inputImageDescription =
+         inputFeatures.FirstOrDefault(feature => feature.ModelFeatureKind == LearningModelFeatureKindPreview.Image)
+         as ImageVariableDescriptorPreview;
+	outputTensorDescription =
+         outputFeatures.FirstOrDefault(feature => feature.ModelFeatureKind == LearningModelFeatureKindPreview.Tensor)
+         as TensorVariableDescriptorPreview;
+
+
+    // Bind the inputs and outputs
+    var binding = new LearningModelBindingPreview(model);
+    binding.Bind(inputImageDescription, picture);
+	binding.Bind(outputTensorDescription.Name, _outputLabelList);
+
+
+	//Evaluate the model
+	var results = await _model.EvaluateAsync(binding, "test");
+}

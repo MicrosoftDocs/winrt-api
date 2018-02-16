@@ -20,4 +20,15 @@ The inferencing options for the evaluation of a model.
 ## -see-also
 
 ## -examples
+public async Task LoadModelAsync()
+{
+	// Load Model
+    var modelFile = await Windows.ApplicationModel.Package.Current.InstalledLocation.GetFileAsync("model.onnx");
+    LearningModelPreview model = await LearningModelPreview.LoadModelFromStorageFileAsync(modelFile);
 
+
+	//Set inferencing options to use GPU
+	InferencingOptionsPreview options = model.InferencingOptions;
+	options.PreferredDeviceKind = LearningModelDeviceKindPreview.LearningDeviceCpu;
+	model.InferencingOptions = options;
+}

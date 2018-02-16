@@ -20,12 +20,10 @@ The name of the model.
 ## -see-also
 
 ## -examples
-void Evaluator(LearningModelPreview model)
+public void Evaluator()
 {
-    if (model.Description.Name != "Image_Recognition")
-    {
-        throw new Exception("Invalid model name");
-    }
+    var modelFile = await Windows.ApplicationModel.Package.Current.InstalledLocation.GetFileAsync("model.onnx");
+    LearningModelPreview model = await LearningModelPreview.LoadModelFromStorageFileAsync(modelFile);
+	
+	Console.WriteLine($"Model Name: {model.Description.Name}.);
 }
-
-

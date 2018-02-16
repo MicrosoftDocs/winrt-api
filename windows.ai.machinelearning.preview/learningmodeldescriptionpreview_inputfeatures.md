@@ -20,13 +20,14 @@ The input descriptions for the model, keyed by name of input.
 ## -see-also
 
 ## -examples
-public void Evaluator(LearningModelPreview model)
+public void Evaluator()
 {
+    var modelFile = await Windows.ApplicationModel.Package.Current.InstalledLocation.GetFileAsync("model.onnx");
+    LearningModelPreview model = await LearningModelPreview.LoadModelFromStorageFileAsync(modelFile);
+	
 	// Retrieve the first input feature which is an image
     ILearningModelVariableDescriptorPreview inputImageFeatureDescription = model.Description.InputFeatures.First(feature=>feature.ModelFeatureKind == LearningModelFeatureKindPreview.Image);
  
-	...
-
  }
 
 

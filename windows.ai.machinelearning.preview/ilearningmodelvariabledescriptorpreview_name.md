@@ -28,10 +28,9 @@ public void Evaluator(LearningModelPreview model)
  
     ImageVariableDescriptorPreview imageDescriptor = (ImageVariableDescriptorPreview)inputImageFeatureDescription;
 
-	// Ensure the input feature has the correct name
-    if (imageDescriptor.Name != "data")
+	// Ensure the input feature has the specified name "data"
+    if (imageDescriptor.Name == "data")
     {
-        throw new Exception("Invalid feature name");
+        Console.WriteLine($"Verified. Input variable name is: {imageDescriptor.Name}");
     }
-
  }

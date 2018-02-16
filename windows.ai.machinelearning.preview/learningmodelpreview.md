@@ -19,7 +19,7 @@ Represents a machine learning model.
 ## -examples
 public async Task LoadModel()
 {
-    var modelFile = await Windows.ApplicationModel.Package.Current.InstalledLocation.GetFileAsync("/Models/image_recognition.pb");
+    var modelFile = await Windows.ApplicationModel.Package.Current.InstalledLocation.GetFileAsync("model.onnx");
     LearningModelPreview model = await LearningModelPreview.LoadModelFromStorageFileAsync(modelFile);
 	
 	...

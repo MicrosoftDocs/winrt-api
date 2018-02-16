@@ -20,4 +20,17 @@ True if the variable is required; otherwise false.
 ## -see-also
 
 ## -examples
+public void Evaluator(LearningModelPreview model)
+{
+	// Retrieve the first input feature which is an image
+    ILearningModelVariableDescriptorPreview inputImageFeatureDescription = model.Description.InputFeatures.FirstOrDefault(feature=>feature.ModelFeatureKind == LearningModelFeatureKindPreview.Image);
+ 
+    ImageVariableDescriptorPreview imageDescriptor = (ImageVariableDescriptorPreview)inputImageFeatureDescription;
+
+	//Verify if the input feature is required or optional.
+    if (imageDescriptor.IsRequired == true)
+    {
+        Console.WriteLine($"Input Feature Name: {imageDescriptor.Name} is required.);
+    }
+ }
 

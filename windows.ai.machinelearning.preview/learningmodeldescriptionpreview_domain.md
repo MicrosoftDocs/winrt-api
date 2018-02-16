@@ -20,12 +20,10 @@ The domain information for the model.
 ## -see-also
 
 ## -examples
-void Evaluator(LearningModelPreview model)
+public void Evaluator()
 {
-    if (model.Description.Domain != "test_domain")
-    {
-        throw new Exception("Invalid model domain");
-    }
+    var modelFile = await Windows.ApplicationModel.Package.Current.InstalledLocation.GetFileAsync("model.onnx");
+    LearningModelPreview model = await LearningModelPreview.LoadModelFromStorageFileAsync(modelFile);
+	
+	Console.WriteLine($"Model Domain: {model.Description.Domain}.);
 }
-
-

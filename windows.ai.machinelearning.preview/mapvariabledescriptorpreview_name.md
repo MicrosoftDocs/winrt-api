@@ -27,12 +27,8 @@ public void Evaluator(LearningModelPreview model)
  
     MapVariableDescriptorPreview MapDescriptor = (MapVariableDescriptorPreview)inputMapFeatureDescription;
 
-	// Ensure the input feature name is expected
-    if (MapDescriptor.Name != "Expected_Map_Variable_Name)
-    {
-        throw new Exception("Invalid feature name");
-    }
-
+	// Output the description of the map variable
+    Console.WriteLine($"Input Feature Name: {MapDescriptor.Name}. Description: {MapDescriptor.Description}.);
  }
 
 

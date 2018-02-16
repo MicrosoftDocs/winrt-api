@@ -20,4 +20,15 @@ The description of the map variable.
 ## -see-also
 
 ## -examples
+public void Evaluator(LearningModelPreview model)
+{
+	// Retrieve the first input feature which is a map
+    ILearningModelVariableDescriptorPreview inputMapFeatureDescription = model.Description.InputFeatures.FirstOrDefault(feature=>feature.ModelFeatureKind == LearningModelFeatureKindPreview.Image);
+ 
+    MapVariableDescriptorPreview mapDescriptor = (MapVariableDescriptorPreview)inputMapFeatureDescription;
+
+	// Output the description of the map variable
+    Console.WriteLine($"Input Feature Name: {mapDescriptor.Name}. Description: {mapDescriptor.Description}.);
+
+ }
 

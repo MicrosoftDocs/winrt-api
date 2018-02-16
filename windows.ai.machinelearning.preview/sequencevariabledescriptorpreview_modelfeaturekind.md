@@ -20,4 +20,19 @@ The data type of the variable.
 ## -see-also
 
 ## -examples
+public void Evaluator(LearningModelPreview model)
+{
+	// Retrieve the first input feature which is a sequence variable
+    ILearningModelVariableDescriptorPreview inputSequenceFeatureDescription = model.Description.InputFeatures.First(feature=>feature.ModelFeatureKind == LearningModelFeatureKindPreview.Sequence);
+ 
+    SequenceVariableDescriptorPreview SequenceDescriptor = (SequenceVariableDescriptorPreview)inputSequenceFeatureDescription;
+
+	// Ensure the input feature is of type Sequence
+    if (SequenceDescriptor.ModelFeatureKind != LearningModelFeatureKindPreview.Sequence)
+    {
+        Console.WriteLine($"Input Feature Name: {SequenceDescriptor.Name}. Feature type is not a Sequence.");
+    }
+
+ }
+
 

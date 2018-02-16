@@ -20,15 +20,11 @@ The version information of the model.
 ## -see-also
 
 ## -examples
-void Evaluator()
+public void Evaluator()
 {
-    var modelFile = await Windows.ApplicationModel.Package.Current.InstalledLocation.GetFileAsync("model.pb");
+    var modelFile = await Windows.ApplicationModel.Package.Current.InstalledLocation.GetFileAsync("model.onnx");
     LearningModelPreview model = await LearningModelPreview.LoadModelFromStorageFileAsync(modelFile);
- 
-    // Confirm the version of the model is 1
-    if (model.Description.Version != 1)
-    {
-        throw new Exception("Invalid model version");
-    }
+	
+	Console.WriteLine($"Model Version: {model.Description.Version}.);
 }
 

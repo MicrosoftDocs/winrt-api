@@ -19,7 +19,7 @@ Represents the metadata and property descriptions for the provided model.
 ## -examples
 public void Evaluator()
 {
-    var modelFile = await Windows.ApplicationModel.Package.Current.InstalledLocation.GetFileAsync("model.pb");
+    var modelFile = await Windows.ApplicationModel.Package.Current.InstalledLocation.GetFileAsync("model.");
     LearningModelPreview model = await LearningModelPreview.LoadModelFromStorageFileAsync(modelFile);
  
     // Our evaluator only handles version 1 of the model

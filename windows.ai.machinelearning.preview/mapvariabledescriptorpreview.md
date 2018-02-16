@@ -27,7 +27,7 @@ public void Evaluator(LearningModelPreview model)
 	// Ensure the input feature is of type map
     if (MapDescriptor.ModelFeatureKind != LearningModelFeatureKindPreview.Map)
     {
-        throw new Exception("Invalid feature type");
+        Console.WriteLine($"Input Feature Name: {imageDescriptor.Name}. Not a map feature type.);
     }
 
  }

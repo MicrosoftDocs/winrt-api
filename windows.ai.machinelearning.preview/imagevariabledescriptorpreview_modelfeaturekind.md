@@ -30,7 +30,7 @@ public void Evaluator(LearningModelPreview model)
 	// Ensure the input feature is of type image
     if (imageDescriptor.ModelFeatureKind != LearningModelFeatureKindPreview.Image)
     {
-        throw new Exception("Invalid feature type");
+        Console.WriteLine($"Input Feature Name: {imageDescriptor.Name}. Feature type is not an image.");
     }
 
  }

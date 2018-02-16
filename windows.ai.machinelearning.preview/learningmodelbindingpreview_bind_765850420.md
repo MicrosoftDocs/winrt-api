@@ -26,8 +26,15 @@ The value of the input/output feature.
 ## -examples
 public void PrepareBinding(LearningModelPreview model, SoftwareBitmap picture)
 {
+	ImageVariableDescriptorPreview inputImageDescription;
+	List<ILearningModelVariableDescriptorPreview> inputFeatures = model.Description.InputFeatures.ToList();
+
+    inputImageDescription =
+         inputFeatures.FirstOrDefault(feature => feature.ModelFeatureKind == LearningModelFeatureKindPreview.Image)
+         as ImageVariableDescriptorPreview;
+
     // Bind the image
     var binding = new LearningModelBindingPreview(model);
-    binding.Bind(_inputImageFeatureName, picture);
+    binding.Bind(inputImageDescription, picture);
 }
 

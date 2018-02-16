@@ -20,13 +20,12 @@ The output descriptions for the model, keyed by the name of the output.
 ## -see-also
 
 ## -examples
-
-public void Evaluator(LearningModelPreview model)
+public void Evaluator()
 {
+    var modelFile = await Windows.ApplicationModel.Package.Current.InstalledLocation.GetFileAsync("model.onnx");
+    LearningModelPreview model = await LearningModelPreview.LoadModelFromStorageFileAsync(modelFile);
+
 	// Retrieve the model output variable description (as a tensor)
-    ILearningModelVariableDescriptorPreview outputTensorFeatureDescription = model.Description.OutputFeatures.FirstOrDefault(feature => feature.ModelFeatureKind == LearningModelFeatureKindPreview.Tensor)
-                    as TensorVariableDescriptorPreview;
- 
-	...
+    ILearningModelVariableDescriptorPreview outputTensorDescription = outputFeatures.FirstOrDefault(feature => feature.ModelFeatureKind == LearningModelFeatureKindPreview.Tensor) as TensorVariableDescriptorPreview;
 
  }
