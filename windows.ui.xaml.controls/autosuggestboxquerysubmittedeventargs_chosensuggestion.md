@@ -10,10 +10,10 @@ public object ChosenSuggestion { get; }
 # Windows.UI.Xaml.Controls.AutoSuggestBoxQuerySubmittedEventArgs.ChosenSuggestion
 
 ## -description
-Gets the suggested result that the use chose.
+Gets the suggested result that the user chose.
 
 ## -property-value
-The suggested result that the use chose.
+The suggested result that the user chose.
 
 ## -remarks
 
