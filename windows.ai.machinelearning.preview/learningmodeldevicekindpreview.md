@@ -36,6 +36,7 @@ The defualt value. Any device.
 ## -see-also
 
 ## -examples
+ ```csharp
 void SetEvaluationOptionsForModel(LearningModelPreview model)
 {
     // Set our preference to use the GPU
@@ -44,3 +45,4 @@ void SetEvaluationOptionsForModel(LearningModelPreview model)
  
     model.InferencingOptions = options;
 }
+ ```

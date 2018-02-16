@@ -20,6 +20,7 @@ True if tracing is enabled; otherwise false. The default value is false.
 ## -see-also
 
 ## -examples
+ ```csharp
 public void SetEvaluationOptionsForModel(LearningModelPreview model)
 {
     InferencingOptionsPreview options = model.InferencingOptions;
@@ -27,4 +28,4 @@ public void SetEvaluationOptionsForModel(LearningModelPreview model)
  
     model.InferencingOptions = options;
 }
-
+```

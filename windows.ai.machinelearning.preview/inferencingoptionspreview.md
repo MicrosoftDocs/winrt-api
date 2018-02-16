@@ -17,6 +17,7 @@ Represents the inference options for controlling the evaluation of a model.
 ## -see-also
 
 ## -examples
+ ```csharp
 void SetEvaluationOptionsForModel(LearningModelPreview model)
 {
     // Set our preference to use the GPU
@@ -26,4 +27,4 @@ void SetEvaluationOptionsForModel(LearningModelPreview model)
     model.InferencingOptions = options;
 }
 
-
+```

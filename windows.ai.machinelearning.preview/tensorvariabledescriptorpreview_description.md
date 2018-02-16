@@ -20,6 +20,7 @@ The description of the tensor.
 ## -see-also
 
 ## -examples
+ ```csharp
 public void Evaluator(LearningModelPreview model)
 {
 	// Retrieve the first input feature which is a Tensor
@@ -32,4 +33,4 @@ public void Evaluator(LearningModelPreview model)
 
  }
 
-
+ ```

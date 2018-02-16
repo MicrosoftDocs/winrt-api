@@ -17,6 +17,7 @@ Represents the metadata and property descriptions for the provided model.
 ## -see-also
 
 ## -examples
+ ```csharp
 public void Evaluator()
 {
     var modelFile = await Windows.ApplicationModel.Package.Current.InstalledLocation.GetFileAsync("model.");
@@ -28,6 +29,5 @@ public void Evaluator()
         throw new Exception("Invalid model version");
     }
 }
-
-
+```
 

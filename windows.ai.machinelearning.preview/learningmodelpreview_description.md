@@ -20,6 +20,7 @@ The descriptive metadata for the machine learning model.
 ## -see-also
 
 ## -examples
+ ```csharp
 public async Task LoadModel()
 {
     var modelFile = await Windows.ApplicationModel.Package.Current.InstalledLocation.GetFileAsync("model.onnx");
@@ -31,4 +32,4 @@ public async Task LoadModel()
 		...
     }
 }
-
+ ```

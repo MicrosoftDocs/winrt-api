@@ -20,6 +20,7 @@ The description of the variable.
 ## -see-also
 
 ## -examples
+```csharp
 public void Evaluator(LearningModelPreview model)
 {
 	// Retrieve the first input feature which is an image
@@ -30,3 +31,4 @@ public void Evaluator(LearningModelPreview model)
 	//Output input feature description
     Console.WriteLine($"Input Feature Name: {imageDescriptor.Name}. Feature Descption: {imageDescriptor.Description}");
  }
+```

@@ -20,6 +20,7 @@ The version information of the model.
 ## -see-also
 
 ## -examples
+ ```csharp
 public void Evaluator()
 {
     var modelFile = await Windows.ApplicationModel.Package.Current.InstalledLocation.GetFileAsync("model.onnx");
@@ -27,4 +28,4 @@ public void Evaluator()
 	
 	Console.WriteLine($"Model Version: {model.Description.Version}.);
 }
-
+```

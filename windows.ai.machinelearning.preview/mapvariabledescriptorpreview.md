@@ -17,6 +17,7 @@ Represents the map variable descriptor information.
 ## -see-also
 
 ## -examples
+ ```csharp
 public void Evaluator(LearningModelPreview model)
 {
 	// Retrieve the first input feature which is a map
@@ -31,4 +32,4 @@ public void Evaluator(LearningModelPreview model)
     }
 
  }
-
+ ```

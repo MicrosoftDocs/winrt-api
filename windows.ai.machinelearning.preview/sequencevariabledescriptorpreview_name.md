@@ -20,6 +20,7 @@ The name of the sequence variable. This must be unique across all variables in t
 ## -see-also
 
 ## -examples
+ ```csharp
 public void Evaluator(LearningModelPreview model)
 {
 	// Retrieve the first input feature which is a sequence variable
@@ -30,3 +31,4 @@ public void Evaluator(LearningModelPreview model)
 	// Output the description of the Sequence variable
     Console.WriteLine($"Input Feature Name: {SequenceDescriptor.Name}. Description: {SequenceDescriptor.Description}.);
  }
+ ```

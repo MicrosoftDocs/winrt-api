@@ -20,6 +20,7 @@ The name of the tensor. This must be unique across all variables in the model.
 ## -see-also
 
 ## -examples
+ ```csharp
 public void Evaluator(LearningModelPreview model)
 {
 	// Retrieve the first input feature which is a Tensor
@@ -30,3 +31,4 @@ public void Evaluator(LearningModelPreview model)
 	// Output the description of the Tensor variable
     Console.WriteLine($"Input Feature Name: {TensorDescriptor.Name}. Description: {TensorDescriptor.Description}.);
  }
+ ```

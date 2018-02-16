@@ -20,6 +20,7 @@ The inferencing options for the evaluation of a model.
 ## -see-also
 
 ## -examples
+ ```csharp
 public async Task LoadModelAsync()
 {
 	// Load Model
@@ -32,3 +33,4 @@ public async Task LoadModelAsync()
 	options.PreferredDeviceKind = LearningModelDeviceKindPreview.LearningDeviceCpu;
 	model.InferencingOptions = options;
 }
+ ```

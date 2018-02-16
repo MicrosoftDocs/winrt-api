@@ -17,6 +17,7 @@ Clears all bound variables.
 ## -see-also
 
 ## -examples
+ ```csharp
 public void PrepareBinding(LearningModelPreview model, SoftwareBitmap picture)
 {
 	ImageVariableDescriptorPreview inputImageDescription;
@@ -37,3 +38,4 @@ public void PrepareBinding(LearningModelPreview model, SoftwareBitmap picture)
 	
 	binding.Clear();
 }
+```

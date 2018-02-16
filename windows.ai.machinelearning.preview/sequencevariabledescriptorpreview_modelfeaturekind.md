@@ -20,6 +20,7 @@ The data type of the variable.
 ## -see-also
 
 ## -examples
+ ```csharp
 public void Evaluator(LearningModelPreview model)
 {
 	// Retrieve the first input feature which is a sequence variable
@@ -34,5 +35,5 @@ public void Evaluator(LearningModelPreview model)
     }
 
  }
-
+ ```
 

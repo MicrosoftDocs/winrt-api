@@ -20,6 +20,7 @@ The maximum batch size. The default value is 1.
 ## -see-also
 
 ## -examples
+ ```csharp
 public void SetEvaluationOptionsForModel(LearningModelPreview model)
 {
     InferencingOptionsPreview options = model.InferencingOptions;
@@ -28,3 +29,4 @@ public void SetEvaluationOptionsForModel(LearningModelPreview model)
     model.InferencingOptions = options;
 }
 
+```

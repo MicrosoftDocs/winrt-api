@@ -20,6 +20,7 @@ The name of the map variable. This must be unique across all variables in the mo
 ## -see-also
 
 ## -examples
+ ```csharp
 public void Evaluator(LearningModelPreview model)
 {
 	// Retrieve the first input feature which is a map
@@ -30,5 +31,4 @@ public void Evaluator(LearningModelPreview model)
 	// Output the description of the map variable
     Console.WriteLine($"Input Feature Name: {MapDescriptor.Name}. Description: {MapDescriptor.Description}.);
  }
-
-
+ ```

@@ -21,6 +21,7 @@ This must be unique across all variables in the model.
 ## -see-also
 
 ## -examples
+ ```csharp
 public void Evaluator(LearningModelPreview model)
 {
 	// Retrieve the first input feature which is an image
@@ -32,3 +33,4 @@ public void Evaluator(LearningModelPreview model)
     Console.WriteLine($"Input Feature Name: {imageDescriptor.Name}. Description: {imageDescriptor.Description}.);
 
  }
+```

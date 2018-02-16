@@ -24,6 +24,7 @@ The value of the input/output feature.
 ## -see-also
 
 ## -examples
+ ```csharp
 public void PrepareBinding(LearningModelPreview model, SoftwareBitmap picture)
 {
 	ImageVariableDescriptorPreview inputImageDescription;
@@ -37,4 +38,4 @@ public void PrepareBinding(LearningModelPreview model, SoftwareBitmap picture)
     var binding = new LearningModelBindingPreview(model);
     binding.Bind(inputImageDescription, picture);
 }
-
+```

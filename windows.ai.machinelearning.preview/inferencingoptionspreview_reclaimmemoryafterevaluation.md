@@ -20,6 +20,7 @@ True if reclaiming allocated memory after evaluation; otherwise false. The defau
 ## -see-also
 
 ## -examples
+ ```csharp
 public void SetEvaluationOptionsForModel(LearningModelPreview model)
 {
     InferencingOptionsPreview options = model.InferencingOptions;
@@ -27,5 +28,5 @@ public void SetEvaluationOptionsForModel(LearningModelPreview model)
  
     model.InferencingOptions = options;
 }
-
+```
 

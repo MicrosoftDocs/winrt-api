@@ -27,6 +27,7 @@ The evaluation result.
 ## -see-also
 
 ## -examples
+ ```csharp
 public async Task Evaluate(LearningModelPreview model, SoftwareBitmap picture, List<Int64> outputLabelList)
 {
 	ImageVariableDescriptorPreview inputImageDescription;
@@ -52,3 +53,4 @@ public async Task Evaluate(LearningModelPreview model, SoftwareBitmap picture, L
 	//Evaluate the model
 	var results = await _model.EvaluateAsync(binding, "test");
 }
+ ```

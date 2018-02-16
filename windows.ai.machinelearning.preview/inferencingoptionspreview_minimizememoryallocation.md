@@ -20,6 +20,7 @@ True if minimizing memory allocation during evaluation; otherwise false. The def
 ## -see-also
 
 ## -examples
+ ```csharp
 public void SetEvaluationOptionsForModel(LearningModelPreview model)
 {
     InferencingOptionsPreview options = model.InferencingOptions;
@@ -27,4 +28,4 @@ public void SetEvaluationOptionsForModel(LearningModelPreview model)
  
     model.InferencingOptions = options;
 }
-
+```

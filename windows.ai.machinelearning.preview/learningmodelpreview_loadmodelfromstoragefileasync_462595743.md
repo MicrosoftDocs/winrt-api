@@ -24,10 +24,11 @@ Returns a LearningModelPreview.
 ## -see-also
 
 ## -examples
+ ```csharp
 public async Task LoadModel()
 {
     var modelFile = await Windows.ApplicationModel.Package.Current.InstalledLocation.GetFileAsync("model.onnx");
     LearningModelPreview model = await LearningModelPreview.LoadModelFromStorageFileAsync(modelFile);
 }
-
+ ```
 

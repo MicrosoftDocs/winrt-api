@@ -17,6 +17,7 @@ Represents the image descriptor information.
 ## -see-also
 
 ## -examples
+```csharp
 public void Evaluator(LearningModelPreview model)
 {
 	// Retrieve the first input feature which is an image
@@ -31,5 +32,5 @@ public void Evaluator(LearningModelPreview model)
     }
 
  }
-
+```
 

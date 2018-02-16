@@ -20,6 +20,7 @@ The description of the sequence variable.
 ## -see-also
 
 ## -examples
+ ```csharp
 public void Evaluator(LearningModelPreview model)
 {
 	// Retrieve the first input feature which is a Sequence
@@ -31,5 +32,5 @@ public void Evaluator(LearningModelPreview model)
     Console.WriteLine($"Input Feature Name: {SequenceDescriptor.Name}. Description: {SequenceDescriptor.Description}.);
 
  }
-
+ ```
 

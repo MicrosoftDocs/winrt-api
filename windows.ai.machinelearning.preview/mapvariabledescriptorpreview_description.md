@@ -20,6 +20,7 @@ The description of the map variable.
 ## -see-also
 
 ## -examples
+ ```csharp
 public void Evaluator(LearningModelPreview model)
 {
 	// Retrieve the first input feature which is a map
@@ -31,4 +32,4 @@ public void Evaluator(LearningModelPreview model)
     Console.WriteLine($"Input Feature Name: {mapDescriptor.Name}. Description: {mapDescriptor.Description}.);
 
  }
-
+ ```

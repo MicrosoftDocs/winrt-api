@@ -21,6 +21,7 @@ Name must be unique across all other variables in the model.
 ## -see-also
 
 ## -examples
+```csharp
 public void Evaluator(LearningModelPreview model)
 {
 	// Retrieve the first input feature which is an image
@@ -34,3 +35,4 @@ public void Evaluator(LearningModelPreview model)
         Console.WriteLine($"Verified. Input variable name is: {imageDescriptor.Name}");
     }
  }
+```

@@ -17,6 +17,7 @@ Represents the associations between model inputs and variable instances.
 ## -see-also
 
 ## -examples
+ ```csharp
 public void PrepareBinding(LearningModelPreview model, SoftwareBitmap picture)
 {
 	ImageVariableDescriptorPreview inputImageDescription;
@@ -30,5 +31,5 @@ public void PrepareBinding(LearningModelPreview model, SoftwareBitmap picture)
     var binding = new LearningModelBindingPreview(model);
     binding.Bind(inputImageDescription, picture);
 }
-
+```
 

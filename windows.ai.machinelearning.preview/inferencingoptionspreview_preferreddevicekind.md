@@ -20,6 +20,7 @@ The preferred device. The default value is LearningDeviceAny.
 ## -see-also
 
 ## -examples
+ ```csharp
 public void SetEvaluationOptionsForModel(LearningModelPreview model)
 {
     // Set our preference to use the GPU
@@ -28,3 +29,4 @@ public void SetEvaluationOptionsForModel(LearningModelPreview model)
  
     model.InferencingOptions = options;
 }
+```

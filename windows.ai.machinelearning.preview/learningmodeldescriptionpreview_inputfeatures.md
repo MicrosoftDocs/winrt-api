@@ -20,6 +20,7 @@ The input descriptions for the model, keyed by name of input.
 ## -see-also
 
 ## -examples
+ ```csharp
 public void Evaluator()
 {
     var modelFile = await Windows.ApplicationModel.Package.Current.InstalledLocation.GetFileAsync("model.onnx");
@@ -29,5 +30,5 @@ public void Evaluator()
     ILearningModelVariableDescriptorPreview inputImageFeatureDescription = model.Description.InputFeatures.First(feature=>feature.ModelFeatureKind == LearningModelFeatureKindPreview.Image);
  
  }
-
+```
 
