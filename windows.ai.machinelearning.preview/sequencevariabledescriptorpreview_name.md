@@ -29,6 +29,6 @@ public void Evaluator(LearningModelPreview model)
     SequenceVariableDescriptorPreview SequenceDescriptor = (SequenceVariableDescriptorPreview)inputSequenceFeatureDescription;
 
 	// Output the description of the Sequence variable
-    Console.WriteLine($"Input Feature Name: {SequenceDescriptor.Name}. Description: {SequenceDescriptor.Description}.);
+    Console.WriteLine($"Input Feature Name: {SequenceDescriptor.Name}. Description: {SequenceDescriptor.Description}.");
  }
  ```

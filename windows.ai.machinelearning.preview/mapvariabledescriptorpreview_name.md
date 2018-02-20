@@ -29,6 +29,6 @@ public void Evaluator(LearningModelPreview model)
     MapVariableDescriptorPreview MapDescriptor = (MapVariableDescriptorPreview)inputMapFeatureDescription;
 
 	// Output the description of the map variable
-    Console.WriteLine($"Input Feature Name: {MapDescriptor.Name}. Description: {MapDescriptor.Description}.);
+    Console.WriteLine($"Input Feature Name: {MapDescriptor.Name}. Description: {MapDescriptor.Description}.");
  }
  ```

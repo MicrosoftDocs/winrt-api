@@ -26,6 +26,6 @@ public void Evaluator()
     var modelFile = await Windows.ApplicationModel.Package.Current.InstalledLocation.GetFileAsync("model.onnx");
     LearningModelPreview model = await LearningModelPreview.LoadModelFromStorageFileAsync(modelFile);
 	
-	Console.WriteLine($"Model Name: {model.Description.Name}.);
+	Console.WriteLine($"Model Name: {model.Description.Name}.");
 }
 ```

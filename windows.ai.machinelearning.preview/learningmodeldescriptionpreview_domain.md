@@ -26,6 +26,6 @@ public void Evaluator()
     var modelFile = await Windows.ApplicationModel.Package.Current.InstalledLocation.GetFileAsync("model.onnx");
     LearningModelPreview model = await LearningModelPreview.LoadModelFromStorageFileAsync(modelFile);
 	
-	Console.WriteLine($"Model Domain: {model.Description.Domain}.);
+	Console.WriteLine($"Model Domain: {model.Description.Domain}.");
 }
 ```

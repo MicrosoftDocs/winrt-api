@@ -20,8 +20,7 @@ A neural processor.
 A graphics processor.
 
 ### -field LearningDeviceFpga:5
-A field-programmable gate array
-
+A field-programmable gate array.
 ### -field LearningDeviceDsp:4
 A digital signal proccesor.
 

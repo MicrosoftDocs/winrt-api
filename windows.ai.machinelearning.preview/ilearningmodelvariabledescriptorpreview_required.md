@@ -31,7 +31,7 @@ public void Evaluator(LearningModelPreview model)
 	//Verify if the input feature is required or optional.
     if (imageDescriptor.IsRequired == true)
     {
-        Console.WriteLine($"Input Feature Name: {imageDescriptor.Name} is required.);
+        Console.WriteLine($"Input Feature Name: {imageDescriptor.Name} is required.");
     }
  }
  ```

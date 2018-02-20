@@ -31,7 +31,7 @@ public void Evaluator(LearningModelPreview model)
 	// Ensure the input feature handles the format RGBA8
     if (imageDescriptor.BitmapPixelFormat != BitmapPixelFormat.Rgba8)
     {
-        Console.WriteLine($"Input Feature Name: {imageDescriptor.Name}. Format not supported.);
+        Console.WriteLine($"Input Feature Name: {imageDescriptor.Name}. Format not supported.");
     }
 
  }

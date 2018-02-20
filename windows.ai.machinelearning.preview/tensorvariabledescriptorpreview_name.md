@@ -29,6 +29,6 @@ public void Evaluator(LearningModelPreview model)
     TensorVariableDescriptorPreview TensorDescriptor = (TensorVariableDescriptorPreview)inputTensorFeatureDescription;
 
 	// Output the description of the Tensor variable
-    Console.WriteLine($"Input Feature Name: {TensorDescriptor.Name}. Description: {TensorDescriptor.Description}.);
+    Console.WriteLine($"Input Feature Name: {TensorDescriptor.Name}. Description: {TensorDescriptor.Description}.");
  }
  ```
