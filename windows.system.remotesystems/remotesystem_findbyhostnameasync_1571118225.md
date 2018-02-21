@@ -20,6 +20,8 @@ A wrapper object for the address of a remote system to be discovered. For inform
 An asynchronous operation that returns the [RemoteSystem](remotesystem.md) that was found. Returns *null* if no  was found.
 
 ## -remarks
+> [!IMPORTANT]
+> You must confirm access to the remote system platform with a call to **[RemoteSystem.RequestAccessAsync](remotesystem_requestaccessasync_380675631.md)** before you call this method.
 
 ## -examples
 

@@ -15,6 +15,9 @@ Watches for activity related to the discovery of remote sessions and raises the 
 ## -remarks
 This class is instantiated when the [RemoteSystemSession.CreateWatcher](RemoteSystemSession_CreateWatcher_1506431823.md) method is called.
 
+> [!IMPORTANT]
+> You must confirm access to the remote system platform with a call to **[RemoteSystem.RequestAccessAsync](remotesystem_requestaccessasync_380675631.md)** before you instantiate this class.
+
 ## -see-also
 
 ## -examples
