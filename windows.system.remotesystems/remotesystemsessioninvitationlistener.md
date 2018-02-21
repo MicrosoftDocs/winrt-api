@@ -13,6 +13,8 @@ public class RemoteSystemSessionInvitationListener
 Contains the functionality for receiving and handling invitations to join remote sessions. This class begins listening for invitations when it is instantiated.
 
 ## -remarks
+> [!IMPORTANT]
+> You must confirm access to the remote system platform with a call to **[RemoteSystem.RequestAccessAsync](remotesystem_requestaccessasync_380675631.md)** before you set up handler(s) for this class' event(s).
 
 ## -see-also
 

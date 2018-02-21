@@ -10,7 +10,7 @@ public Windows.Foundation.IAsyncOperation<Windows.System.RemoteSystems.RemoteSys
 # Windows.System.RemoteSystems.RemoteSystem.RequestAccessAsync
 
 ## -description
-Gets the status of the calling app's access to the Remote Systems feature. This method should always be called before an app attempts to discover remote systems.
+Gets the status of the calling app's access to the Remote Systems feature. This method should always be called before an app attempts to discover or otherwise interact with remote systems.
 
 ## -returns
 An asynchronous operation that returns the status of access.

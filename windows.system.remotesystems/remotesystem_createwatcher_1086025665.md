@@ -20,6 +20,8 @@ A list of objects implementing the [IRemoteSystemFilter](iremotesystemfilter.md)
 A watcher that can raise events related to the status of any discoverable devices that pass the given filter(s).
 
 ## -remarks
+> [!IMPORTANT]
+> You must confirm access to the remote system platform with a call to **[RemoteSystem.RequestAccessAsync](remotesystem_requestaccessasync_380675631.md)** before you call this method.
 
 ## -examples
 
