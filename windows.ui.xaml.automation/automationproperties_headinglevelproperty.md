@@ -16,13 +16,14 @@ Gets the identifier for the **HeadingLevel** attached property, which indicates 
 The identifier for the **HeadingLevel** attached property.
 
 ## -remarks
+Heading elements organize the user interface and make it easier to navigate. Some assistive technology (AT) allows users to quickly jump between headings. Headings have a level from 1 to 9.  
+
 The heading level property value is returned by the [GetHeadingLevel](automationproperties_getheadinglevel_655629781.md) method.
 
-A heading is an element that has special importance in the context of an app. Assistive Technology (AT) users should be able to quickly jump between headings. Headings have a level from 1 to 9.
-
 ## -see-also
-[GetHeadingLevel](automationproperties_getheadinglevel_655629781.md)
-[SetHeadingLevel](automationproperties_setheadinglevel_870496555.md)
+[GetHeadingLevel](automationproperties_getheadinglevel_655629781.md)  
+[SetHeadingLevel](automationproperties_setheadinglevel_870496555.md)  
+[Landmarks and Headings](https://docs.microsoft.com/windows/uwp/design/accessibility/landmarks-and-headings)
 
 ## -examples
 ```xaml
@@ -31,8 +32,8 @@ A heading is an element that has special importance in the context of an app. As
     AutomationProperties.HeadingLevel="1"/>
 </TextBlock>
 
-<StackPanel AutomationProperties.HeadingLevel="1">
-    <<!-- content here -->
+<StackPanel AutomationProperties.AutomationName="Description of Content"  AutomationProperties.HeadingLevel="1">
+    <!-- content here -->
 </StackPanel>
 ```
 

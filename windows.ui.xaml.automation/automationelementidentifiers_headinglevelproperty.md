@@ -16,9 +16,10 @@ Identifies the heading level automation property. The heading level property val
 The automation property identifier.
 
 ## -remarks
-A heading is an element that has special importance in the context of an app. Assistive Technology (AT) users should be able to quickly jump between headings. Headings have a level from 1 to 9.
+Heading elements help organize the user interface and make it easier to navigate. Some assistive technology (AT) allows users to quickly jump between headings. Headings have a level from 1 to 9.
 
 ## -see-also
+[Landmarks and Headings](https://docs.microsoft.com/windows/uwp/design/accessibility/landmarks-and-headings)
 
 ## -examples
 

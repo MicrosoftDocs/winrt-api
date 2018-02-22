@@ -10,20 +10,21 @@ public AutomationHeadingLevel AutomationPeer.GetHeadingLevel()
 # Windows.UI.Xaml.Automation.Peers.AutomationPeer.GetHeadingLevel
 
 ## -description
-Gets the text heading level of the element that is associated with this automation peer.
+Gets the heading level of the UI Automation element that is associated with this automation peer.
 
 ## -returns
 The text heading level.
 
 ## -remarks
-A heading is an element that has special importance in the context of an app. Assistive Technology (AT) users should be able to quickly jump between headings. Headings have a level from 1 to 9.
+Heading elements organize the user interface and make it easier to navigate. Some assistive technology (AT) allows users to quickly jump between headings. Headings have a level from 1 to 9.  
 
 ![Mouse settings page in Windows Ease of Access settings](images/MouseSettings.png)
 
 Examples of headings would be section titles within the Windows Settings app. For instance, under the **Ease of Access** -> **Mouse** page, **Pointer size**, **Pointer color**, and **Mouse keys** would be a heading of level 1.
 
 ## -see-also
-[AutomationHeadingLevel](automationheadinglevel.md)
+[AutomationHeadingLevel](automationheadinglevel.md)  
+[GetHeadingLevelCore](automationpeer_getheadinglevelcore_1105552106.md)
 
 ## -examples
 
