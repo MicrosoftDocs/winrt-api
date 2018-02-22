@@ -49,3 +49,18 @@ if (gamepad != nullptr)
     // Assign a standard button mapping to this controller.
 }
 ```
+
+```cs
+Gamepad gamepad = null;
+
+if (RawGameController.RawGameControllers.Count > 0)
+{
+    RawGameController rawGameController = RawGameController.RawGameControllers[0];
+    gamepad = Gamepad.FromGameController(rawGameController);
+}
+
+if (gamepad != null)
+{
+    // Assign a standard button mapping to this controller.
+}
+```
