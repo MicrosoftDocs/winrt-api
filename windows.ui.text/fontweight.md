@@ -45,4 +45,10 @@ This example shows how to set the FontWeight property on a XAML [TextBlock](../w
 <TextBlock Text="FontWeight ExtraBlack" FontWeight="ExtraBlack"/>
 ```
 
+```csharp
+TextBlock textBlock1 = new TextBlock();
+textBlock1.Text = "FontWeight ExtraBlack";
+textBlock1.FontWeight = Windows.UI.Text.FontWeights.ExtraBlack;
+```
+
 ## -see-also
