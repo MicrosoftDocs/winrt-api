@@ -28,7 +28,7 @@ DottedLine visual is difficult to see in 10-foot experience.
 ### -field Reveal:2
 A solid line rectangle, surrounded by a glowing light effect to simulate depth. 
 
-The default on Xbox with Windows 10 version 1803, codenamed "Redstone 4".
+Opt-in feature for Xbox with Windows 10 version 1803 (codenamed "Redstone 4") and later.
 
 ## -remarks
 
