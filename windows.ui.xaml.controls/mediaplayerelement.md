@@ -161,7 +161,7 @@ This code creates a MediaPlayerElement with the [AutoPlay](mediaplayerelement_au
 This example creates a MediaPlayerElement with the transport controls enabled.
 
 ```xaml
-<MediaElement x:Name="mediaPlayer"
+<MediaPlayerElement x:Name="mediaPlayer"
               Source="ms-appx:///Media/video1.mp4"
               AreTransportControlsEnabled="True" />
 ```
