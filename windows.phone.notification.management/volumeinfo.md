@@ -10,10 +10,10 @@ public class VolumeInfo
 # Windows.Phone.Notification.Management.VolumeInfo
 
 ## -description
+Represents the state of the phone volume.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

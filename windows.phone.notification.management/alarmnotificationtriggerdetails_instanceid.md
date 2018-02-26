@@ -10,12 +10,13 @@ public string InstanceId { get; }
 # Windows.Phone.Notification.Management.AlarmNotificationTriggerDetails.InstanceId
 
 ## -description
+Gets an identifier that disambiguates between multiple instances of alarms.
 
 ## -property-value
+A string identifier that disambiguates between multiple instances of alarms.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
