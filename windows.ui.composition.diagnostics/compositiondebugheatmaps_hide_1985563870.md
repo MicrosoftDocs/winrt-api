@@ -11,6 +11,8 @@ public void CompositionDebugHeatMaps.Hide()
 
 ## -description
 
+Hides the current heatmap.
+
 ## -remarks
 
 ## -see-also
