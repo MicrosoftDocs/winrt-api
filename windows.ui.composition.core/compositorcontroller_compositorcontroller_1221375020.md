@@ -11,6 +11,8 @@ public CompositorController.CompositorController()
 
 ## -description
 
+Initializes a new instance of the CompositorController class.
+
 ## -remarks
 
 ## -see-also

@@ -11,7 +11,11 @@ public bool IsTopmost { get; }
 
 ## -description
 
+Gets a value that indicates whether the window is rendered on top of all other windows.
+
 ## -property-value
+
+**true** if the window is rendered on top of all other windows; otherwise, **false**.
 
 ## -remarks
 

@@ -11,6 +11,8 @@ public event TypedEventHandler CommitNeeded<CompositorController,  object>
 
 ## -description
 
+Occurs when the framework needs to call Commit in order for changes to Composition objects to be reflected onscreen.
+
 ## -remarks
 
 ## -see-also

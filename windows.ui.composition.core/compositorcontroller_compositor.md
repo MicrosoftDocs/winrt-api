@@ -11,7 +11,11 @@ public Compositor Compositor { get; }
 
 ## -description
 
+Gets the compositor associated with this composition controller.
+
 ## -property-value
+
+The compositor associated with this composition controller.
 
 ## -remarks
 
