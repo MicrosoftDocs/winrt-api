@@ -11,7 +11,11 @@ public bool IsEnabled { get;  set; }
 
 ## -description
 
+Gets or sets a value that determines whether the composition light is on.
+
 ## -property-value
+
+**true** if the light is on; otherwise, **false**. The default is **true**.
 
 ## -remarks
 
