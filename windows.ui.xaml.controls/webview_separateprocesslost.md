@@ -11,9 +11,11 @@ public event TypedEventHandler SeparateProcessLost<WebView, WebViewSeparateProce
 
 ## -description
 
-Occurs when a WebView runs with an [ExecutionMode](webview_executionmode.md) of **SeparateThread**, and the separate thread is lost.
+Occurs when a WebView runs with an [ExecutionMode](webview_executionmode.md) of **SeparateProcess**, and the separate process is lost.
 
 ## -remarks
+
+For more info, see the _Execution mode_ section of the WebView class Remarks.
 
 ## -see-also
 
