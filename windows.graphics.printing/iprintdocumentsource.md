@@ -11,10 +11,10 @@ public interface IPrintDocumentSource :
 # Windows.Graphics.Printing.IPrintDocumentSource
 
 ## -description
-Initialized when a print task is initialized for the print system.
+The **IPrintDocumentSource** describes the source of the print document.
 
 ## -remarks
-The **IPrintDocumentSource** describes the source of the print document. When you set the source for the print document using the [SetSource](printtasksourcerequestedargs_setsource.md) method in [PrintTaskSourceRequestedArgs](printtasksourcerequestedargs.md), you must provide a pointer to an implementation of the **IPrintDocumentSource** interface.
+This interface is implemented by the **[Windows.UI.Xaml.Printing.PrintDocument](https://docs.microsoft.com/uwp/api/windows.ui.xaml.printing.printdocument)** class. Its implementation must be carried through to the print system by the [SetSource](printtasksourcerequestedargs_setsource.md) method in [PrintTaskSourceRequestedArgs](printtasksourcerequestedargs.md).
 
 ## -examples
 

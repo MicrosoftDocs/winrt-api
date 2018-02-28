@@ -34,7 +34,7 @@ If the [EndpointPair](../windows.networking/endpointpair.md) object passed in th
 
 There are two ways of using a [DatagramSocket](datagramsocket.md) to send UDP datagrams to a remote network destination:
 + Using one of the [GetOutputStreamAsync](datagramsocket_getoutputstreamasync.md) methods.
-+ After a successful call to the [ConnectAsync](datagramsocket_connectasync_13692504.md) method using the [OutputStream](datagramsocket_outputstream.md) property.
++ After a successful call to the **ConnectAsync** method using the [OutputStream](datagramsocket_outputstream.md) property.
 
 
 The [GetOutputStreamAsync](datagramsocket_getoutputstreamasync.md) methods allow an app to send UDP datagrams using a [DatagramSocket](datagramsocket.md) object to multiple network destinations. Each time the [GetOutputStreamAsync](datagramsocket_getoutputstreamasync_1619245957.md) method is called, the app can set different values for the *remoteHostName* and *remoteServiceName* parameters.
@@ -54,7 +54,9 @@ The [GetOutputStreamAsync](datagramsocket_getoutputstreamasync.md) methods also 
 
 The [BindServiceNameAsync(String, NetworkAdapter)](datagramsocket_bindservicenameasync_440542334.md) method can be used to specify a network adapter before calling the [ConnectAsync(EndPointPair)](datagramsocket_connectasync_13692504.md) method. The specified adapter is used for the bind operation. If after calling [BindServiceNameAsync(String, NetworkAdapter)](datagramsocket_bindservicenameasync_440542334.md) method and the *endpointPair* parameter passed to [ConnectAsync(EndPointPair)](datagramsocket_connectasync_13692504.md) specifies a [LocalHostName](../windows.networking/endpointpair_localhostname.md), the [ConnectAsync(EndPointPair)](datagramsocket_connectasync_13692504.md) method will fail.
 
-The [ConnectAsync](datagramsocket_connectasync_13692504.md) method only works for unicast IP addresses. When trying to call the [ConnectAsync](datagramsocket_connectasync_13692504.md) method with a multicast IP address in the remote IP address set in the *endpointPair* parameter, the asynchronous operation will complete with an error. When passing the error to the [SocketError.GetStatus](socketerror_getstatus.md) method, the value returned will be [SocketErrorStatus.HostNotFound](socketerrorstatus.md).
+The **ConnectAsync** method only works for unicast IP addresses. When trying to call the **ConnectAsync** method with a multicast IP address in the remote IP address set in the *endpointPair* parameter, the asynchronous operation will complete with an error. When passing the error to the [SocketError.GetStatus](socketerror_getstatus.md) method, the value returned will be [SocketErrorStatus.HostNotFound](socketerrorstatus.md).
+
+Using **ConnectAsync** with a broadcast IP address such as 255.255.255.255 will connect, but will broadcast only through the first network adapter found. To broadcast on all available adapters, use [GetOutputStreamAsync](datagramsocket_getoutputstreamasync.md).
 
 ## -examples
 
