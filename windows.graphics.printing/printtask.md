@@ -18,7 +18,7 @@ The **PrintTask** object represents a printing operation for UWP apps. The app i
 
 If the user decides not to print the task, the task may be completed without ever requesting the document source.
 
-**PrintTask** contains a reference, in the form of a property, to the Print Document Source provided by the app. The **PrintTask** object must support the [IPrintDocumentSource](iprintdocumentsource.md) interface and must provide a pointer to this interface via the [Source](printtask_source.md) property.
+**PrintTask** contains a reference, in the form of the [Source](printtask_source.md) property, to the Print Document Source provided by the app. This object must support the [IPrintDocumentSource](iprintdocumentsource.md) interface.
 
 In addition **PrintTask** contains an [Options](printtask_options.md) property which holds a reference to the [PrintTaskOptions](printtaskoptions.md) object. The **PrintTaskOptions** object provides access to details about the desired format of the printed content. **PrintTaskOptions** also provides methods which allow aspects of the print user experience to be modified. For example, **PrintTaskOptions** allows the app to define which of the supported options appear on the initial page of the print experience.
 
