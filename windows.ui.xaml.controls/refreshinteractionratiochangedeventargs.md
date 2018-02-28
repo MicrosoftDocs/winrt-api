@@ -11,7 +11,7 @@ public class RefreshInteractionRatioChangedEventArgs
 
 ## -description
 
-Provides event data for the InteractionRatioChanged event.
+Provides event data.
 
 ## -remarks
 
