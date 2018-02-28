@@ -11,6 +11,8 @@ public event TypedEventHandler DesignerAppExited<DesignerAppManager, DesignerApp
 
 ## -description
 
+Occurs when the app in the designer has exited.
+
 ## -remarks
 
 ## -see-also

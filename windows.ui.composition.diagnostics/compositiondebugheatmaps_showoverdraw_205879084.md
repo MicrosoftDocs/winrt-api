@@ -11,10 +11,16 @@ public void CompositionDebugHeatMaps.ShowOverdraw(Visual subtreeVisual, Composit
 
 ## -description
 
+Highlights pixels affected by multiple visuals at the same time.
+
 ## -parameters
 ### -param subtreeVisual
 
+The part of the visual tree for which to show overdraw regions.
+
 ### -param contentKinds
+
+An enumeration value that specifies what type of content is shown on the overdraw heatmap.
 
 ## -remarks
 
