@@ -18,6 +18,7 @@ The identifier for the [IsEnabled](keyboardaccelerator_isenabled.md) dependency 
 ## -remarks
 
 ## -see-also
+[Keyboard Accelerators](https://docs.microsoft.com/windows/uwp/design/input/keyboard-accelerators)
 
 ## -examples
 

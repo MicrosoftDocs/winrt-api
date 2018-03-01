@@ -15,6 +15,7 @@ Initializes a new instance of the [KeyboardAccelerator](keyboardaccelerator.md) 
 ## -remarks
 
 ## -see-also
+[Keyboard Accelerators](https://docs.microsoft.com/windows/uwp/design/input/keyboard-accelerators)
 
 ## -examples
 

@@ -22,4 +22,4 @@ Call this method in your [OnProcessKeyboardAccelerators](uielement_onprocesskeyb
 ## -examples
 
 ## -see-also
-[ProcessKeyboardAccelerators](uielement_processkeyboardaccelerators.md), 
+[ProcessKeyboardAccelerators](uielement_processkeyboardaccelerators.md), [Keyboard Accelerators](https://docs.microsoft.com/windows/uwp/design/input/keyboard-accelerators)

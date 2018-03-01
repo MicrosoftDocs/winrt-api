@@ -37,5 +37,6 @@ Here, we demonstrate how to display the keyboard accelerator key combination wit
 ```
 
 ## -see-also
+[Keyboard Accelerators](https://docs.microsoft.com/windows/uwp/design/input/keyboard-accelerators)
 
 

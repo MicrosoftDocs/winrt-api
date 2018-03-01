@@ -18,6 +18,7 @@ The identifier for the [ScopeOwner](keyboardaccelerator_scopeowner.md) dependenc
 ## -remarks
 
 ## -see-also
+[Keyboard Accelerators](https://docs.microsoft.com/windows/uwp/design/input/keyboard-accelerators)
 
 ## -examples
 

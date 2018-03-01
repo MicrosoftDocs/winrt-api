@@ -20,8 +20,7 @@ Use the [KeyboardAcceleratorToolTipTarget](uielement_keyboardacceleratortooltipt
 
 Use the [KeyboardAcceleratorPlacementMode](uielement_keyboardacceleratorplacementmode.md) property to specify whether the control tooltip displays the key combination for it's associated keyboard accelerator.
 
-## -examples
-Here, we demonstrate how to display the keyboard accelerator key combination with the tooltip associated with a Grid container instead of a Button. 
+## -examples 
 
 ```xaml
 <Grid x:Name="Container">
@@ -37,5 +36,5 @@ Here, we demonstrate how to display the keyboard accelerator key combination wit
 ```
 
 ## -see-also
-
+[Keyboard Accelerators](https://docs.microsoft.com/windows/uwp/design/input/keyboard-accelerators)
 
