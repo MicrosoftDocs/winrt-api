@@ -24,3 +24,4 @@ This event is not raised if the element is under an element with its [Visibility
 ## -examples
 
 ## -see-also
+[Access keys](https://docs.microsoft.com/windows/uwp/design/input/access-keys)

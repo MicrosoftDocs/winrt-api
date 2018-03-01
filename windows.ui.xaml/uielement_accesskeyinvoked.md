@@ -28,3 +28,4 @@ This event occurs when the key is pressed, not when it's released.
 ## -examples
 
 ## -see-also
+[Access keys](https://docs.microsoft.com/windows/uwp/design/input/access-keys)
