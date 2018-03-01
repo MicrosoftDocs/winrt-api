@@ -20,7 +20,7 @@ Represents the metadata and property descriptions for the provided model.
  ```csharp
 public void Evaluator()
 {
-    var modelFile = await Windows.ApplicationModel.Package.Current.InstalledLocation.GetFileAsync("model.");
+    var modelFile = await Windows.ApplicationModel.Package.Current.InstalledLocation.GetFileAsync("model.onnx");
     LearningModelPreview model = await LearningModelPreview.LoadModelFromStorageFileAsync(modelFile);
  
     // Our evaluator only handles version 1 of the model
