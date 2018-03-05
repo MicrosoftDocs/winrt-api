@@ -17,7 +17,7 @@ Adds a credential to the Credential Locker.
 The credential to be added.
 
 ## -remarks
-You can only store up to ten credentials per app in the Credential Locker. If you try to store more than ten credentials, you will encounter an [Exception](https://msdn.microsoft.com/library/system.exception.aspx).
+You can only store up to twenty credentials per app in the Credential Locker. If you try to store more than twenty credentials, you will encounter an [Exception](https://msdn.microsoft.com/library/system.exception.aspx).
 
 ## -examples
 
