@@ -11,7 +11,7 @@ public class CompositionSpriteShape : CompositionShape, CompositionShape
 
 ## -description
 
-A CompositionShape that draws Stroked and Filled [CompositionGeometry](https://docs.microsoft.com/en-us/uwp/api/windows.ui.composition.compositiongeometry "Windows.UI.Composition.CompositionGeometry").
+A CompositionShape that draws Stroked and Filled [CompositionGeometry](compositiongeometry.md).
 
 ## -remarks
 
