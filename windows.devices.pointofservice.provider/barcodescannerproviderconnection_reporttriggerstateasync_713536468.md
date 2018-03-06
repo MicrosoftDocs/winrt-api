@@ -1,4 +1,4 @@
- ---
+---
 -api-id: M:Windows.Devices.PointOfService.Provider.BarcodeScannerProviderConnection.ReportTriggerStateAsync(Windows.Devices.PointOfService.Provider.BarcodeScannerTriggerState)
 -api-type: winrt method
 ---
