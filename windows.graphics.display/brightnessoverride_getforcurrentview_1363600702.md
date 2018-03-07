@@ -18,6 +18,8 @@ The brightness override object.
 ## -remarks
 This method throws an access is denied exception if there is no [CoreWindow](../windows.ui.core/corewindow.md) on the calling thread.
 
+If you call the [StartOverride()](brightnessoverride_startoverride_1290413150.md) method on multiple instances in succession, the override with highest `brightenss` value will be take precedence over subsequent calls on instances with lower values. To avoid problems, cache the instance retrieved from [GetForCurrentView()](brightnessoverride_getforcurrentview_1363600702.md) and reuse this instance or always call [StopOverride()](brightnessoverride_stopoverride_1207260318.md) on previously applied [BrightnessOverride](brightnessoverride.md).
+
 ## -see-also
 
 ## -examples
