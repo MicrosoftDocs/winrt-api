@@ -10,7 +10,7 @@ public IAsyncAction BarcodeScannerProviderConnection.ReportTriggerStateAsync(Bar
 # Windows.Devices.PointOfService.Provider.BarcodeScannerProviderConnection.ReportTriggerStateAsync
 
 ## -description
-Sends a barcode scanner trigger state updateto the client app during a scanning operation .
+Sends a barcode scanner trigger state update to the client app during a scanning operation.
 
 ## -parameters
 ### -param state
