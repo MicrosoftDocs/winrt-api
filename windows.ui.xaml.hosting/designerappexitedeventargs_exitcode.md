@@ -11,7 +11,11 @@ public uint ExitCode { get; }
 
 ## -description
 
+Gets the exit code with which the app exited.
+
 ## -property-value
+
+The exit code with which the app exited.
 
 ## -remarks
 

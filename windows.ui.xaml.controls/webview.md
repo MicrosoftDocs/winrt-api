@@ -311,14 +311,97 @@ To enable sharing [WebView](webview.md) content with other apps, use the [Captur
 
 To get a preview image of the [WebView](webview.md) 's current content, use the [CapturePreviewToStreamAsync](webview_capturepreviewtostreamasync.md) method. This method creates an image of the current content and writes it to the specified stream.
 
-### Threading behavior
+### Execution modes
 
 By default, [WebView](webview.md) content is hosted on the UI thread on devices in the desktop device family, and off the UI thread on all other devices. You can use the [WebView.DefaultExecutionMode](webview_defaultexecutionmode.md) static property to query the default threading behavior for the current client. If necessary, you can use the [WebView(WebViewExecutionMode)](webview_webview_499271973.md) constructor to override this behavior. 
+
+The supported [WebViewExecutionMode](wevbviewexecutionmode.md) values are:
+
+- **SameThread** - The WebView content is hosted on the UI Thread.
+- **SeparateThread** - The WebView content is hosted on a separate thread off the UI thread.
+- **SeparateProcess** - (Windows 10, version 1803 or later) The WebView content is hosted on a separate process off the app process. All of an app's WebView instances share the same separate process, there is not a separate process per WebView instance.
+
+When running in a separate process, WebView exibits two behavior differences:
+
+- The WebView process could terminate. You can be notified of this by listening to the [SeparateProcessLost](webview_seperateprocesslost.md) event.
+- The WebView process could asynchronously reject keyboard focus. In this case, the WebView.Focus method returns **true**, and then immediately (but asynchronously), focus moves away from the WebView. (Other ways of moving focus behave similarly, such as FocusManager.TryMoveFocus.) You can track this more explicitly by using the [FocusManager.TryFocusAsync](../windows.ui.xaml.input/focusmanager_tryfocusasync_1779533284.md) or [FocusManager.TryMoveFocusAsync](../windows.ui.xaml.input/focusmanager_trymovefocus_582274934.md) APIs.
+
+This example demonstrates how to create a WebView control that runs in a separate process from the host app, and will be re-created if the separate process is lost.
+
+```xaml
+<Grid>
+    <Border x:Name="WebViewBorder" Loaded="WebViewBorder_Loaded" />
+</Grid>
+```
+
+```csharp
+    ...
+
+public sealed partial class MainPage : Page
+{
+    public MainPage()
+    {
+        this.InitializeComponent();
+
+        var webView = new WebView(WebViewExecutionMode.SeparateProcess);
+        WebViewBorder.Child = webView;;
+
+        InitializeWebView(webView);
+    }
+
+    void InitializeWebView(WebView webView)
+    {
+        webView.Source = this.WebViewSourceUri;
+
+        webView.SeparateProcessLost += (sender, e) =>
+        {
+            var newWebView = new WebView(WebViewExecutionMode.SeparateProcess);
+            InitializeWebView(newWebView);
+            WebViewBorder.Child = newWebView;
+        };
+    }
+}
+```
 
 > [!NOTE]
 > There might be performance issues when hosting content on the UI thread on mobile devices, so be sure to test on all target devices when you change [DefaultExecutionMode](webview_defaultexecutionmode.md).
 
 A [WebView](webview.md) that hosts content off the UI thread is not compatible with parent controls that require gestures to propagate up from the [WebView](webview.md) control to the parent, such as [FlipView](flipview.md), [ScrollViewer](scrollviewer.md), and other related controls. These controls will not be able to receive gestures initiated in the off-thread [WebView](webview.md). In addition, printing off-thread web content is not directly supported – you should print an element with [WebViewBrush](webviewbrush.md) fill instead.
+
+#### Focus behavior for WebView in a separate process
+
+Whether running in the app process or a separate process, you can set focus on a WebView by calling the WebView.Focus method. This is equivalent to the Control.Focus and Hyperlink.Focus methods (note that WebView does not derive from Control).
+
+Similarly, several methods on the [FocusManager](../windows.ui.xaml.input/focusmanager.md) class can affect a WebView (or Control or Hyperlink): **TryMoveFocus**, **FindNextFocusableElement**, **FindLastFocusableElement**, and **GetFocusedElement**. For example, TryMoveFocus moves focus to a WebView, and GetFocusedElement returns a WebView that has focus.
+
+Finally, moving focus to or from a WebView raises focus events, both on the WebView itself and on the element that loses or receives focus. The events are **LosingFocus**, **LostFocus**, **GettingFocus**, and **GotFocus**. For example, when focus moves from a Control to a WebView, the Control will raise LosingFocus and LostFocus events, and the WebView will raise GettingFocus and GotFocus events.
+
+When a WebView is running in a separate process, the behavior of these APIs changes slightly. Assuming the WebView is focusable, the WebView.Focus method will return true (success), but focus has not actually moved yet. The same is true if rather than the WebView.Focus method, FocusManager.TryMoveFocus is called and it identifies a WebView as the next focusable element.  
+
+The differences in behavior are:
+
+- FocusManager.GetFocusedElement does not return the WebView unless/until the asynchronous operation completes.
+- The control that is losing focus will receive its LosingFocus event synchronously; however, it will not receive LostFocus unless/until the asynchronous operation completes.
+- Similarly, the GettingFocus event will occur on the WebView synchronously; however, the GotFocus event won’t be raised unless/until the asynchronous operation completes.
+
+None of this changes if you call FocusManager.TryFocusAsync instead. However, the async method gives you an opportunity to determine if the focus change succeeded.
+
+Calling FocusManager.TryMoveFocusAsync on an element other than a WebView in a separate process will complete synchronously.
+
+This example demonstrates how to move focus to the next logical element, but if that fails, restore focus to its initial location.
+
+```csharp
+async void MoveFocus(WebView webView))
+{
+    FocusMovementResult result;
+    result = await FocusManager.TryFocusAsync(webView, FocusState.Programmatic);
+    if (!result.Succeeded)
+    {
+        // Reset focus to the starting position
+        this.Focus(FocusState.Programmatic);
+    }
+}
+```
 
 ### Use of Alert
 

@@ -11,7 +11,7 @@ public class CompositionSpriteShape : CompositionShape, CompositionShape
 
 ## -description
 
-Represents the base class for shape elements.
+A CompositionShape that draws Stroked and Filled [CompositionGeometry](compositiongeometry.md).
 
 ## -remarks
 

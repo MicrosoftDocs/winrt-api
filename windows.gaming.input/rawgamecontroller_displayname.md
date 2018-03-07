@@ -11,7 +11,11 @@ public string DisplayName { get; }
 
 ## -description
 
+The name of the controller, provided by the hardware.
+
 ## -property-value
+
+The name of the controller, provided by the hardware.
 
 ## -remarks
 

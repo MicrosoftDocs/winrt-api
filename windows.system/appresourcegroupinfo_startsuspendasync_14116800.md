@@ -22,6 +22,10 @@ This method initiates the standard workflow to move the app to the Suspended sta
 
 You can call this method from any **AppResourceGroupInfo**, but only the one for the foreground app has a high probability of succeeding. Suspending the foreground app may result in suspending other resource groups for that app.
 
+This method won’t work on [ResourceGroups](https://docs.microsoft.com/windows/uwp/launch-resume/declare-background-tasks-in-the-application-manifest) that relate to background tasks because they don’t have the concept of suspend/resume.
+
+This method won’t work on [Desktop Bridge](https://docs.microsoft.com/windows/uwp/porting/desktop-to-uwp-root) apps because they don’t have the concept of suspend/resume.
+
 ## -see-also
 [Handle app suspend](https://docs.microsoft.com/windows/uwp/launch-resume/suspend-an-app)
 

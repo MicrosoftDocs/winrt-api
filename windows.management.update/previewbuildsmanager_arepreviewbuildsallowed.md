@@ -16,6 +16,7 @@ A boolean value describing whether preview builds are allowed on the device.
 True if preview builds are allowed; False if preview builds are not allowed.
 
 ## -remarks
+The caller can set this property to True. Note that this is updated when the user opts in on the Windows Insider Program Device Portal page.
 
 ## -see-also
 

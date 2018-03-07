@@ -11,6 +11,8 @@ namespace Windows.UI.Composition.Desktop
 
 ## -description
 
+Provides APIs for user interface composition.
+
 ## -remarks
 
 ## -see-also

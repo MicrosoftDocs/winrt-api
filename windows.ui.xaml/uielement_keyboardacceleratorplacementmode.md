@@ -28,4 +28,5 @@ Use the [KeyboardAcceleratorToolTipTarget](uielement_keyboardacceleratortooltipt
 ## -examples
 
 ## -see-also
+[Keyboard Accelerators](https://docs.microsoft.com/windows/uwp/design/input/keyboard-accelerators)
 

@@ -16,11 +16,16 @@ Gets or sets a string that overrides the default key combination string associat
 *Example of a menu showing keyboard accelerators for various menu items*
 
 ## -property-value
+The string to replace the default key combination string. The default is null.
+
+Use a single space for no text.
 
 ## -remarks
 Windows 10, version 1703, introduced [keyboard accelerator](../windows.ui.xaml/uielement_keyboardaccelerators.md) shortcuts. However, these shortcuts were not displayed with the UI of their corresponding controls.
 
 Starting with Windows 10, version 1803, when [KeyboardAccelerators](../windows.ui.xaml/uielement_keyboardaccelerators.md) are declared, controls display the corresponding key combinations by default.
+
+The override text is not be presented if the system cannot detect an attached keyboard (you can check this yourself through the [KeyboardPresent](../windows.devices.input/keyboardcapabilities_keyboardpresent.md) property).
 
 ### Version compatibility
 
@@ -46,6 +51,7 @@ private void CommandBar_Loaded(object sender, RoutedEventArgs e)
 ```
 
 ## -see-also
+[Keyboard Accelerators](https://docs.microsoft.com/windows/uwp/design/input/keyboard-accelerators)
 
 ## -examples
 

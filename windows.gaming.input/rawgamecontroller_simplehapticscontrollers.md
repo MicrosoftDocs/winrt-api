@@ -11,7 +11,11 @@ public IVectorView<SimpleHapticsController> SimpleHapticsControllers { get; }
 
 ## -description
 
+A collection of [SimpleHapticsController](../windows.devices.haptics/simplehapticscontroller.md) objects representing all available haptic feedback motors available on the device.
+
 ## -property-value
+
+A collection of [SimpleHapticsController](../windows.devices.haptics/simplehapticscontroller.md) objects representing all available haptic feedback motors available on the device.
 
 ## -remarks
 

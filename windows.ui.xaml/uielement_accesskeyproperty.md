@@ -20,3 +20,4 @@ The identifier for the [AccessKey](uielement_accesskey.md) dependency property.
 ## -examples
 
 ## -see-also
+[Access keys](https://docs.microsoft.com/windows/uwp/design/input/access-keys)

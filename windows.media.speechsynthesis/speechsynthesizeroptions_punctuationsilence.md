@@ -16,9 +16,10 @@ Gets or sets the amount of silence added after punctuation in the speech synthes
 The [SpeechPunctuationSilence](speechpunctuationsilence.md) duration.
 
 ## -remarks
+By default, approximately 750ms of silence is appended after each punctuation mark to ensure the utterance sounds as natural as possible. In some cases, such as accelerated playback or screen-reader descriptions of app content, this behavior is not required or needs to be configurable by the user.
 
 ## -see-also
-[AppendedSilence](speechsynthesizeroptions_appendedsilence.md)
+[AppendedSilence](speechsynthesizeroptions_appendedsilence.md), [SpeakingRate](speechsynthesizeroptions_speakingrate.md)
 
 ## -examples
 

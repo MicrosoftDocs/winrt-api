@@ -20,3 +20,4 @@ The identifier for the [IsAccessKeyScope](uielement_isaccesskeyscope.md) depende
 ## -examples
 
 ## -see-also
+[Access keys](https://docs.microsoft.com/windows/uwp/design/input/access-keys)

@@ -18,6 +18,7 @@ The identifier for the [Key](keyboardaccelerator_key.md) dependency property.
 ## -remarks
 
 ## -see-also
+[Keyboard Accelerators](https://docs.microsoft.com/windows/uwp/design/input/keyboard-accelerators)
 
 ## -examples
 

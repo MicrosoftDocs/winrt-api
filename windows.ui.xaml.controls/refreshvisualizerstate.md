@@ -24,7 +24,7 @@ The visualizer is pending.
 
 ### -field Peeking:1
 
-The visualizer is being refreshed.
+The visualizer was pulled in the refresh direction from a position where a refresh is not allowed. Typically, the ScrollViewer was not at position 0 at the start of the pull.
 
 ### -field Interacting:2
 
