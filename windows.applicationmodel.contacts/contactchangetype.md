@@ -23,7 +23,8 @@ A contact was modified.
 A contact was deleted.
 
 ### -field ChangeTrackingLost:3
-The system can't report the complete set of changes that have happened since the last time that your app accepted changes. Call the [Reset](contactchangetracker_reset.md) method. This clears any pending changes, and indicates that your app is up-to-date so that the  [ContactChangeType.ChangeTrackingLost](contactchangetype.md) event won't continue to be raised for previous changes. If your app maintains a list of contacts, that list will become stale. Re-read contacts into your list. That way, they are up-to-date.
+Change tracking was lost. Call [Reset](contactchangetracker_reset.md) to reestablish continuity with the [ContactStore](contactstore.md).
+
 
 ## -remarks
 

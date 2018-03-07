@@ -10,10 +10,10 @@ public bool PreviewBuildsManager.IsSupported()
 # Windows.Management.Update.PreviewBuildsManager.IsSupported
 
 ## -description
-Specifies whether preview builds are supported on the device.
+Determines if this API is supported on the device.
 
 ## -returns
-True if preview builds are supported; False otherwise.
+True if the API is supported; False otherwise.
 
 ## -remarks
 

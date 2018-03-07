@@ -11,6 +11,8 @@ public class DesignerAppExitedEventArgs
 
 ## -description
 
+Provides event data for the DesignerAppManager.DesignerAppExited event.
+
 ## -remarks
 
 ## -see-also

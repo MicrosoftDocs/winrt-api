@@ -21,3 +21,4 @@ The source element must have it's [IsAccessKeyScope](uielement_isaccesskeyscope.
 ## -examples
 
 ## -see-also
+[Access keys](https://docs.microsoft.com/windows/uwp/design/input/access-keys)

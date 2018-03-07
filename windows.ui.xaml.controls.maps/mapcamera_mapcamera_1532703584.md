@@ -27,6 +27,8 @@ The roll of the camera in degrees, where -90 is tilting to the left and +90 is t
 
 ### -param fieldOfViewInDegrees
 The horizontal angle of view that appears in the camera, in degrees. The default *fieldOfViewInDegrees* value is 45.0.
+> [!NOTE]
+> In Windows 10, version 1803, you can override the default value by passing NAN as the input. This will recalculate the field of view based on aspect ratio of the view. However, if you pass NAN as the input on Windows 10, version 1709 and earlier, the operating system will likely throw an exception.
 
 ## -remarks
 > [!NOTE]

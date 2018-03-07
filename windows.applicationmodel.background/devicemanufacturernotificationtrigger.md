@@ -13,6 +13,7 @@ public class DeviceManufacturerNotificationTrigger : Windows.ApplicationModel.Ba
 Represents a trigger that launches a background task to enable device manufacturer operations.
 
 ## -remarks
+Starting with Windows 10, version 1803, [CustomSystemEventTrigger](customsystemeventtrigger.md) should be used instead of this trigger.
 
 ## -examples
 

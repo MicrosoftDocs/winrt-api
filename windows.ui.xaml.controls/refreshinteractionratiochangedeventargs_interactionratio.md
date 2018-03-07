@@ -11,7 +11,11 @@ public double InteractionRatio { get; }
 
 ## -description
 
+Gets the interaction ratio value.
+
 ## -property-value
+
+The interaction ratio value.
 
 ## -remarks
 

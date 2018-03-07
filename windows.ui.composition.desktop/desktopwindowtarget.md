@@ -11,6 +11,8 @@ public class DesktopWindowTarget : CompositionTarget, CompositionTarget
 
 ## -description
 
+Represents a window that is the target of a composition.
+
 ## -remarks
 
 ## -see-also

@@ -20,3 +20,4 @@ The keys that were pressed to start the access key sequence.
 ## -examples
 
 ## -see-also
+[Access keys](https://docs.microsoft.com/windows/uwp/design/input/access-keys)

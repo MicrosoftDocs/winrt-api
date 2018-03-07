@@ -14,16 +14,17 @@ Gets the the collection of key combinations that invoke an action using the keyb
 
 Accelerators are typically assigned to buttons or menu items.
 
-![Example of a menu showing keyboard accelerators for various menu items](images/keyboard-accelerators.png)  
+<img src="images/keyboard-accelerators.png" alt="Example of a menu showing keyboard accelerators for various menu items">
+
 *Example of a menu showing keyboard accelerators for various menu items*
 
 ## -property-value
 The collection of [**KeyboardAccelerator**](https://docs.microsoft.com/uwp/api/windows.ui.xaml.input.keyboardaccelerator) objects. 
 
 ## -remarks
-Windows 10, version 1703, introduced [keyboard accelerator](uielement_keyboardaccelerators.md) shortcuts. However, these shortcuts were not displayed with the UI of their corresponding controls.
+Windows 10, version 1703, introduced keyboard accelerator shortcuts. However, these shortcuts were not displayed with the UI of their corresponding controls.
 
-Starting with Windows 10, version 1803, when [KeyboardAccelerators](uielement_keyboardaccelerators.md) are declared, controls display the corresponding key combinations by default.
+Starting with Windows 10, version 1803, when KeyboardAccelerators are declared, controls present the corresponding key combinations by default (unless they are associated with [MenuFlyoutItem](https://docs.microsoft.com/uwp/api/Windows.UI.Xaml.Controls.MenuFlyoutItem) and [ToggleMenuFlyoutItem](https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.togglemenuflyoutitem) objects).
 
 You can override the the default key combination string associated with a [keyboard accelerator](uielement_keyboardaccelerators.md) using the text override properties [MenuFlyoutItem.KeyboardAcceleratorTextOverride](../windows.ui.xaml.controls/menuflyoutitem_keyboardacceleratortextoverride.md), [AppBarButton.KeyboardAcceleratorTextOverride](../windows.ui.xaml.controls/appbarbutton_keyboardacceleratortextoverride.md), and [AppBarToggleButton.KeyboardAcceleratorTextOverride](../windows.ui.xaml.controls/appbartogglebutton_keyboardacceleratortextoverride.md).
 
@@ -36,5 +37,6 @@ By default, an accelerator has global scope. However, you can constrain scope us
 ## -examples
 
 ## -see-also
+[Keyboard Accelerators](https://docs.microsoft.com/windows/uwp/design/input/keyboard-accelerators)
 
 

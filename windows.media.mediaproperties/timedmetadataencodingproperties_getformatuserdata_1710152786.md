@@ -9,6 +9,7 @@ public void TimedMetadataEncodingProperties.GetFormatUserData(Byte[] value)
 
 # Windows.Media.MediaProperties.TimedMetadataEncodingProperties.GetFormatUserData
 
+## -description 
 Gets information about the metadata encoding that is specific to the format type.
 
 ## -parameters

@@ -11,6 +11,8 @@ namespace Windows.UI.Composition.Diagnostics
 
 ## -description
 
+Provides APIs for user interface composition diagnostics and debugging.
+
 ## -remarks
 
 ## -see-also

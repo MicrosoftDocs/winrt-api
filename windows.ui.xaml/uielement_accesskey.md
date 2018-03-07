@@ -23,3 +23,4 @@ If the [AutomationProperties.AccessKey](../windows.ui.xaml.automation/automation
 ## -examples
 
 ## -see-also
+[Access keys](https://docs.microsoft.com/windows/uwp/design/input/access-keys)

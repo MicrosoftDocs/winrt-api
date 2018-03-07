@@ -11,9 +11,15 @@ public float MinAttenuationCutoff { get;  set; }
 
 ## -description
 
+Gets or sets the minimum range at which this light is effective.
+
 ## -property-value
 
+The minimum range at which this light is effective. The default is 0.0.
+
 ## -remarks
+
+If the difference between MinAttenuationCutoff and MaxAttenuationCutoff is 0 or negative, the range is ignored.
 
 ## -see-also
 

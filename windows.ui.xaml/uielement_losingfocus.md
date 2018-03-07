@@ -19,6 +19,7 @@ Occurs before a [UIElement](uielement.md) loses focus.
 ```
 
 ## -remarks
+[FocusNavigationDirection.Previous](focusnavigationdirection.md) and [FocusNavigationDirection.Next](focusnavigationdirection.md) cannot be used with [FindNextElementOptions](findnextelementoptions.md). Only [FocusNavigationDirection.Up](focusnavigationdirection.md), [FocusNavigationDirection.Down](focusnavigationdirection.md), [FocusNavigationDirection.Left](focusnavigationdirection.md), or [FocusNavigationDirection.Right](focusnavigationdirection.md) are valid.
 
 ## -see-also
 [LosingFocusEventArgs](..\windows.ui.xaml.input\losingfocuseventargs.md), [LostFocus](uielement_lostfocus.md)

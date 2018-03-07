@@ -23,6 +23,7 @@ Scoped accelerators are invoked only if focus is inside a specific scope. For ex
 If two accelerators are defined with the same key combination, the first accelerator found in the table is invoked.
 
 ## -see-also
+[Keyboard Accelerators](https://docs.microsoft.com/windows/uwp/design/input/keyboard-accelerators)
 
 ## -examples
 

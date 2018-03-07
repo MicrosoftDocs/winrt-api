@@ -17,6 +17,7 @@ Gets the [keyboard shortcut (or accelerator)](keyboardaccelerator.md) object ass
 ## -remarks
 
 ## -see-also
+[Keyboard Accelerators](https://docs.microsoft.com/windows/uwp/design/input/keyboard-accelerators)
 
 ## -examples
 

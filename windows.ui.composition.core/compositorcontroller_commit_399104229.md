@@ -11,6 +11,8 @@ public void CompositorController.Commit()
 
 ## -description
 
+Calls commit on the compositor associated with this CompositorController.
+
 ## -remarks
 
 ## -see-also
