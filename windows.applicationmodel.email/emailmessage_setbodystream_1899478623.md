@@ -19,6 +19,9 @@ Indicates which body stream, plain text or HTML.
 ### -param stream
 The message for the specified body stream.
 
+>[!Note]
+The [EmailManager.ShowComposeNewEmailAsync](emailmanager_showcomposenewemailasync_1879015237), and [EmailManagerForUser.ShowComposeNewEmailAsync](emailmanagerforuser_showcomposenewemailasync_1879015237) methods won't recognize an HTML formatted body. You can only use those methods to send email in plain text.
+
 ## -remarks
 
 ## -examples
