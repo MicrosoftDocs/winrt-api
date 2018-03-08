@@ -22,6 +22,9 @@ An asynchronous action used to indicate when the operation has completed.
 ## -remarks
 Call this method from the main UI thread.
 
+>[!NOTE]
+This method only sends plain text messages. You can't set the body of the message to the HTML format.
+
 ## -examples
 
 ## -see-also

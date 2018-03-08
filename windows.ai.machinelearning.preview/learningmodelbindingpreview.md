@@ -18,7 +18,7 @@ Represents the associations between model inputs and variable instances.
 
 ## -examples
  ```csharp
-public void PrepareBinding(LearningModelPreview model, SoftwareBitmap picture)
+public void PrepareBinding(LearningModelPreview model, VideoFrame picture)
 {
 	ImageVariableDescriptorPreview inputImageDescription;
 	List<ILearningModelVariableDescriptorPreview> inputFeatures = model.Description.InputFeatures.ToList();
