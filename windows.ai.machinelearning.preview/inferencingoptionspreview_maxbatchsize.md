@@ -13,7 +13,7 @@ public int MaxBatchSize { get;  set; }
 Gets or sets the maximum batch size for model evaluation.
 
 ## -property-value
-The maximum batch size. The default value is 1. 
+The maximum batch size. Preview API only supports batching size of 1. 
 
 ## -remarks
 
