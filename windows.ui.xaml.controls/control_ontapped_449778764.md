@@ -17,7 +17,7 @@ Called before the [Tapped](../windows.ui.xaml/uielement_tapped.md) event occurs.
 Event data for the event.
 
 ## -remarks
-
+This event is not implemented in a [MapControl](../windows.ui.xaml.controls.maps/mapcontrol.md).
 ## -examples
 
 ## -see-also
