@@ -10,17 +10,28 @@ public Windows.Gaming.XboxLive.Storage.GameSaveBlobInfoQuery CreateBlobInfoQuery
 # Windows.Gaming.XboxLive.Storage.GameSaveContainer.CreateBlobInfoQuery
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Creates a [GameSaveBlobInfoQuery](gamesaveblobinfoquery.md) instance that retrieves the game save blobs within this container with names that begin with the specified prefix.
 
 ## -parameters
 ### -param blobNamePrefix
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Type: **String** \[JavaScript\] | [System.String](https://msdn.microsoft.com/library/system.string.aspx) \[.NET\] | [Platform::String](https://msdn.microsoft.com/library/windows/apps/hh755812.aspx) \[C++\]
+
+String name prefix of the blobs to retrieve.
 
 ## -returns
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Type: [GameSaveBlobInfoQuery](gamesaveblobinfoquery.md)
+
+[GameSaveBlobInfoQuery](gamesaveblobinfoquery.md) instance that retrieves blobs within this container with names that begin with *blobNamePrefix*.
 
 ## -remarks
+
+If *blobNamePrefix* is null or empty the query matches all blobs in the container. Otherwise, it matches the blobs with names that begin with *blobNamePrefix*.
 
 ## -examples
 
 ## -see-also
+
+[GameSaveContainer](gamesavecontainer.md)

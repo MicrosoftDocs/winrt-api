@@ -10,10 +10,19 @@ public class GameSaveOperationResult : Windows.Gaming.XboxLive.Storage.IGameSave
 # Windows.Gaming.XboxLive.Storage.GameSaveOperationResult
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Result of an asynchronous game save operation.
 
 ## -remarks
+
+**GameSaveOperationResult** is returned when an asynchronous game save operation completes, and contains the status result of the operation.
+
+> [!IMPORTANT]
+> This API is targeted towards UWP games and apps with Xbox Live Enabled. Calls to these APIs made from sources that are not Xbox Live enabled will not be able to sync data to the cloud.
+
 
 ## -examples
 
 ## -see-also
+
+[Object](https://msdn.microsoft.com/library/system.object.aspx)

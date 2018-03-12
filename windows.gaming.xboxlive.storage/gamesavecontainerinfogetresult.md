@@ -10,10 +10,18 @@ public class GameSaveContainerInfoGetResult : Windows.Gaming.XboxLive.Storage.IG
 # Windows.Gaming.XboxLive.Storage.GameSaveContainerInfoGetResult
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Result of a [GameSaveContainerInfoQuery](gamesavecontainerinfoquery.md) operation.
 
 ## -remarks
+
+**GameSaveContainerInfoGetResult** is returned when [GameSaveContainerInfoQuery.GetContainerInfoAsync](gamesavecontainerinfoquery_getcontainerinfoasync_1018947810.md) completes, and contains the result of the asynchronous operation. If the operation completed with no errors, [GameSaveContainerInfoGetResult.Value](gamesavecontainerinfogetresult_value.md) has the container info.
+
+> [!IMPORTANT]
+> This API is targeted towards UWP games and apps with Xbox Live Enabled. Calls to these APIs made from sources that are not Xbox Live enabled will not be able to sync data to the cloud.
 
 ## -examples
 
 ## -see-also
+
+[Object](https://msdn.microsoft.com/library/system.object.aspx)

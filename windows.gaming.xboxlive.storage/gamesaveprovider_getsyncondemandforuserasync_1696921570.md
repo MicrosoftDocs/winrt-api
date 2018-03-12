@@ -10,20 +10,42 @@ public Windows.Foundation.IAsyncOperation<Windows.Gaming.XboxLive.Storage.GameSa
 # Windows.Gaming.XboxLive.Storage.GameSaveProvider.GetSyncOnDemandForUserAsync
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Gets a partially-synced game save provider that syncs containers on demand.
 
 ## -parameters
 ### -param user
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Type: [User](w_sys.user)
+
+User who the game saves are for.
 
 ### -param serviceConfigId
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Type: **String** \[JavaScript\] | [System.String](https://msdn.microsoft.com/library/system.string.aspx) \[.NET\] | [Platform::String](https://msdn.microsoft.com/library/windows/apps/hh755812.aspx) \[C++\]
+
+The service configuration ID (SCID) used by your game.
 
 ## -returns
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Type: **IAsyncOperation\<;GameSaveProviderGetResult>;**
+
+**IAsyncOperation\<;GameSaveProviderGetResult>;** that represents the state of the asynchronous operation.
 
 ## -remarks
+
+A sync-on-demand provider is not guaranteed to have all containers synced locally. A sync is required when there is a conflict the user must resolve, or, more commonly, when the container has newer data in the cloud that must be downloaded. This condition is indicated by [GameSaveContainerInfo.NeedsSync](gamesavecontainerinfo_needssync.md).
+
+Calls to read, delete, or query blobs from a container will sync the container if it needs to sync.
+
+Attempts to submit updates to a container will fail (with [GameSaveErrorStatus.ContainerNotInSync](gamesaveerrorstatus.md)) while the container still needs to sync.
+
+**GetSyncOnDemandForUserAsync** obtains a [GameSaveProvider](gamesaveprovider.md) instance for the specified user. After the asynchronous operation completes, check the [Status](gamesaveprovidergetresult_status.md) property of the result to determine whether the operation succeeded with [GameSaveErrorStatus.Ok](gamesaveerrorstatus.md).
+
+Your title ID and service configuration ID (SCID) must be properly configured or this method will fail.
 
 ## -examples
 
 ## -see-also
+
+[GameSaveProvider](gamesaveprovider.md)

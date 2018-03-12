@@ -17,6 +17,7 @@ Called before the [RightTapped](../windows.ui.xaml/uielement_righttapped.md) eve
 Event data for the event.
 
 ## -remarks
+This event is not implemented in a [MapControl](../windows.ui.xaml.controls.maps/mapcontrol.md).
 <!--The following remark is relevant for Windows 8 > 8.1 migration. See WBB 458128-->
 ### Windows 8 behavior
 

@@ -10,10 +10,18 @@ public class GameSaveProvider : Windows.Gaming.XboxLive.Storage.IGameSaveProvide
 # Windows.Gaming.XboxLive.Storage.GameSaveProvider
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+**GameSaveProvider** is used to create, save, enumerate, and load Xbox Live game saves.
 
 ## -remarks
+
+Call [GetForUserAsync](gamesaveprovider_getforuserasync_1027182495.md) or [GetSyncOnDemandForUserAsync](gamesaveprovider_getsyncondemandforuserasync_1696921570.md) to obtain a **GameSaveProvider** instance.
+
+> [!IMPORTANT]
+> This API is targeted towards UWP games and apps with Xbox Live Enabled. Calls to these APIs made from sources that are not Xbox Live enabled will not be able to sync data to the cloud.
 
 ## -examples
 
 ## -see-also
+
+[Object](https://msdn.microsoft.com/library/system.object.aspx)

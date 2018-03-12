@@ -10,13 +10,21 @@ public string Name { get; }
 # Windows.Gaming.XboxLive.Storage.GameSaveContainer.Name
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+The name of this [GameSaveContainer](gamesavecontainer.md).
 
 ## -property-value
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Type: **String** \[JavaScript\] | [System.String](https://msdn.microsoft.com/library/system.string.aspx) \[.NET\] | [Platform::String](https://msdn.microsoft.com/library/windows/apps/hh755812.aspx) \[C++\]
+
+Name of this [GameSaveContainer](gamesavecontainer.md).
 
 ## -remarks
+
+The game save container name is used to identify containers created, updated, or returned by methods such as [CreateContainer](gamesaveprovider_createcontainer_1539970701.md), [DeleteContainerAsync](gamesaveprovider_deletecontainerasync_1360317562.md), [ContainersChangedSinceLastSync](gamesaveprovider_containerschangedsincelastsync.md), [CreateContainerInfoQuery](gamesaveprovider_createcontainerinfoquery_424994130.md), and [GetContainerInfoAsync](gamesavecontainerinfoquery_getcontainerinfoasync_1018947810.md).
 
 ## -examples
 
 ## -see-also
+
+[GameSaveContainer](gamesavecontainer.md)

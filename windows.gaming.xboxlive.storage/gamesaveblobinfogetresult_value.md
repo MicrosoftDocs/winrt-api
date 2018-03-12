@@ -10,13 +10,16 @@ public Windows.Foundation.Collections.IVectorView<Windows.Gaming.XboxLive.Storag
 # Windows.Gaming.XboxLive.Storage.GameSaveBlobInfoGetResult.Value
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+Information about a blob returned by [GameSaveBlobInfoQuery](gamesaveblobinfoquery.md).
 
 ## -property-value
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 
 ## -remarks
+
+**Value** is valid only if [GameSaveBlobInfoGetResult.Status](gamesaveblobinfogetresult_status.md) is [GameSaveErrorStatus.Ok](gamesaveerrorstatus.md).
 
 ## -examples
 
 ## -see-also
+
+[GameSaveBlobInfoGetResult](gamesaveblobinfogetresult.md)

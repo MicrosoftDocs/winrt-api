@@ -10,10 +10,18 @@ public class GameSaveContainer : Windows.Gaming.XboxLive.Storage.IGameSaveContai
 # Windows.Gaming.XboxLive.Storage.GameSaveContainer
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Contains a collection of data blobs that represent a single saved game.
 
 ## -remarks
+
+A GameSaveContainer represents a single saved game, and consists of a collection of data blobs that contain the save game data and are independently writable.
+
+> [!IMPORTANT]
+> This API is targeted towards UWP games and apps with Xbox Live Enabled. Calls to these APIs made from sources that are not Xbox Live enabled will not be able to sync data to the cloud.
 
 ## -examples
 
 ## -see-also
+
+[Object](https://msdn.microsoft.com/library/system.object.aspx)
