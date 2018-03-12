@@ -10,10 +10,18 @@ public class GameSaveBlobInfoGetResult : Windows.Gaming.XboxLive.Storage.IGameSa
 # Windows.Gaming.XboxLive.Storage.GameSaveBlobInfoGetResult
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Result of a [GameSaveBlobInfoQuery.GetBlobInfoAsync](gamesaveblobinfoquery_getblobinfoasync_517889704.md) operation.
 
 ## -remarks
+
+GameSaveBlobInfoGetResult is returned when [GameSaveBlobInfoQuery.GetBlobInfoAsync](gamesaveblobinfoquery_getblobinfoasync_517889704.md) completes, and contains the result of the asynchronous operation. If the operation completed with no errors, [GameSaveBlobInfoGetResult.Value](gamesaveblobinfogetresult_value.md) contains the blob info.
+
+> [!IMPORTANT]
+> This API is targeted towards UWP games and apps with Xbox Live Enabled. Calls to these APIs made from sources that are not Xbox Live enabled will not be able to sync data to the cloud.
 
 ## -examples
 
 ## -see-also
+
+[Object](https://msdn.microsoft.com/library/system.object.aspx)

@@ -24,12 +24,12 @@ The [CreatePeriodicTimer](threadpooltimer_createperiodictimer.md) or [CreateTime
 > A [TimeSpan](../windows.foundation/timespan.md) value of zero (or any value less than 1 millisecond) will cause the periodic timer to behave as a single-shot timer.
 
 ## -examples
-The following code shows the creation of a periodic timer by passing in a [TimerElapsedHandler](timerelapsedhandler.md) delegate method. The delegate method should periodically check the **Canceled** property of the *operation* parameter, and exit gracefully if the work item has been cancelled.
+The following code shows the creation of a periodic timer by passing in a [TimerElapsedHandler](timerelapsedhandler.md) delegate method.
 
 ```csharp
 int period = 1000;
 
-ThreadPoolTimer PeriodicTimer = 
+ThreadPoolTimer PeriodicTimer =
     ThreadPoolTimer.CreatePeriodicTimer(ExampleTimerElapsedHandler,
                                         TimeSpan.FromMilliseconds(period));
 ```

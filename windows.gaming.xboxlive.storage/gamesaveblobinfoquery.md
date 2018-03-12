@@ -10,10 +10,18 @@ public class GameSaveBlobInfoQuery : Windows.Gaming.XboxLive.Storage.IGameSaveBl
 # Windows.Gaming.XboxLive.Storage.GameSaveBlobInfoQuery
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Enumerates the blobs in a GameSaveContainer.
 
 ## -remarks
+
+Use [GameSaveContainer.CreateBlobInfoQuery](gamesavecontainer_createblobinfoquery_1392439372.md) to create a **GameSaveBlobInfoQuery** instance.
+
+> [!IMPORTANT]
+> This API is targeted towards UWP games and apps with Xbox Live Enabled. Calls to these APIs made from sources that are not Xbox Live enabled will not be able to sync data to the cloud.
 
 ## -examples
 
 ## -see-also
+
+[Object](https://msdn.microsoft.com/library/system.object.aspx)

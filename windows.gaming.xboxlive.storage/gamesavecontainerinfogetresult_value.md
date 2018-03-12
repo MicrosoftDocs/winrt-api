@@ -10,13 +10,21 @@ public Windows.Foundation.Collections.IVectorView<Windows.Gaming.XboxLive.Storag
 # Windows.Gaming.XboxLive.Storage.GameSaveContainerInfoGetResult.Value
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+A collection of container information returned by [GameSaveContainerInfoQuery](gamesavecontainerinfoquery.md).
 
 ## -property-value
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Type: **IVectorView\<;GameSaveContainerInfo>;** \[JavaScript/C++\] | [System.Collections.Generic.IReadOnlyList\<;GameSaveContainerInfo>;](https://msdn.microsoft.com/library/hh192385.aspx) \[.NET\]
+
+Collection of container information returned by [GameSaveContainerInfoQuery](gamesavecontainerinfoquery.md).
 
 ## -remarks
+
+**Value** is valid only if [GameSaveContainerInfoGetResult.Status](gamesavecontainerinfogetresult_status.md) is [GameSaveErrorStatus.Ok](gamesaveerrorstatus.md).
 
 ## -examples
 
 ## -see-also
+
+[GameSaveContainerInfoGetResult](gamesavecontainerinfogetresult.md)

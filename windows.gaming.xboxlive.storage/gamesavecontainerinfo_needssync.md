@@ -10,13 +10,21 @@ public bool NeedsSync { get; }
 # Windows.Gaming.XboxLive.Storage.GameSaveContainerInfo.NeedsSync
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Indicates whether the container needs to sync before updates can be submitted with [SubmitUpdatesAsync](gamesavecontainer_submitupdatesasync_1002100950.md) or [SubmitPropertySetUpdatesAsync](gamesavecontainer_submitpropertysetupdatesasync_435712146.md).
 
 ## -property-value
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Type: **Boolean** \[JavaScript\] | [System.Boolean](https://msdn.microsoft.com/library/system.boolean.aspx) \[.NET\] | [Platform::Boolean](https://msdn.microsoft.com/library/windows/apps/hh755815.aspx) \[C++\]
+
+True if the container needs to sync before updates can be submitted; false otherwise.
 
 ## -remarks
+
+See [GetSyncOnDemandForUserAsync](gamesaveprovider_getsyncondemandforuserasync_1696921570.md) for more information about sync-on-demand game save providers.
 
 ## -examples
 
 ## -see-also
+
+[GameSaveContainerInfo](gamesavecontainerinfo.md)

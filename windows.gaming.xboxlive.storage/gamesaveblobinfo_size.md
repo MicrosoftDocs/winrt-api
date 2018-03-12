@@ -10,13 +10,17 @@ public uint Size { get; }
 # Windows.Gaming.XboxLive.Storage.GameSaveBlobInfo.Size
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Size, in bytes, of the blob.
 
 ## -property-value
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Type: **Number** \[JavaScript\] | [System.UInt32](https://msdn.microsoft.com/library/system.uint32.aspx) \[.NET\] | **uint32** \[C++\]
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
+
+[GameSaveBlobInfo](gamesaveblobinfo.md)

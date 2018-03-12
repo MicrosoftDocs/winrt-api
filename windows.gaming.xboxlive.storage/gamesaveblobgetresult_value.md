@@ -10,13 +10,15 @@ public Windows.Foundation.Collections.IMapView<string, Windows.Storage.Streams.I
 # Windows.Gaming.XboxLive.Storage.GameSaveBlobGetResult.Value
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+Collection of named game save blobs.
 
 ## -property-value
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+Type: **IMapView\<;String, IBuffer>;** \[JavaScript/C++\] | [System.Collections.Generic.IReadOnlyDictionary\<;String, IBuffer>;](https://msdn.microsoft.com/library/hh136548.aspx) \[.NET\]
 
 ## -remarks
+**Value** is valid only if [GameSaveBlobGetResult.Status](gamesaveblobgetresult_status.md) is [GameSaveErrorStatus.Ok](gamesaveerrorstatus.md).
 
 ## -examples
 
 ## -see-also
+[GameSaveBlobGetResult](gamesaveblobgetresult.md)

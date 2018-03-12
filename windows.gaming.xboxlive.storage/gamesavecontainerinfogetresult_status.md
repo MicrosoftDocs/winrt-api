@@ -10,13 +10,21 @@ public Windows.Gaming.XboxLive.Storage.GameSaveErrorStatus Status { get; }
 # Windows.Gaming.XboxLive.Storage.GameSaveContainerInfoGetResult.Status
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Status result of the asynchronous game save container info request.
 
 ## -property-value
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Type: [GameSaveErrorStatus](gamesaveerrorstatus.md)
+
+[GameSaveErrorStatus](gamesaveerrorstatus.md) containing the status result of the asynchronous game save container info request.
 
 ## -remarks
+
+If **Status** is [GameSaveErrorStatus.Ok](gamesaveerrorstatus.md), the operation completed successfully and [GameSaveContainerInfoGetResult.Value](gamesavecontainerinfogetresult_value.md) is valid.
 
 ## -examples
 
 ## -see-also
+
+[GameSaveContainerInfoGetResult](gamesavecontainerinfogetresult.md)

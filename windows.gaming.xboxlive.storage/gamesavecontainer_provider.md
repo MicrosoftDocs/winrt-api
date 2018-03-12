@@ -10,13 +10,19 @@ public Windows.Gaming.XboxLive.Storage.GameSaveProvider Provider { get; }
 # Windows.Gaming.XboxLive.Storage.GameSaveContainer.Provider
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+The provider that this container is stored in.
 
 ## -property-value
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Type: [GameSaveProvider](gamesaveprovider.md)
+
+[GameSaveProvider](gamesaveprovider.md) that this container is stored in.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
+
+[GameSaveContainer](gamesavecontainer.md)

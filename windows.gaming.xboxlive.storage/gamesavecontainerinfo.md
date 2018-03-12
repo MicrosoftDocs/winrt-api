@@ -10,10 +10,19 @@ public class GameSaveContainerInfo : Windows.Gaming.XboxLive.Storage.IGameSaveCo
 # Windows.Gaming.XboxLive.Storage.GameSaveContainerInfo
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Information about a game save container.
 
 ## -remarks
+
+**GameSaveContainerInfo** provides information about a game save container including its name, display name, modified time, and size.
+
+> [!IMPORTANT]
+> This API is targeted towards UWP games and apps with Xbox Live Enabled. Calls to these APIs made from sources that are not Xbox Live enabled will not be able to sync data to the cloud.
 
 ## -examples
 
 ## -see-also
+
+[Object](https://msdn.microsoft.com/library/system.object.aspx)
+[GameSaveProvider.CreateContainerInfoQuery](gamesaveprovider_createcontainerinfoquery_424994130.md)
