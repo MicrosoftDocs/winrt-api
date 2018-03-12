@@ -10,17 +10,30 @@ public Windows.Foundation.IAsyncOperation<Windows.Gaming.XboxLive.Storage.GameSa
 # Windows.Gaming.XboxLive.Storage.GameSaveContainer.GetAsync
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Asynchronously retrieves blobs from the container.
 
 ## -parameters
 ### -param blobsToRead
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Type: **IIterable\<;String>;** \[JavaScript/C++\] | [System.Collections.Generic.IEnumerable\<;String>;](https://msdn.microsoft.com/library/9eekhta0.aspx) \[.NET\]
+
+String names of the blobs to read
 
 ## -returns
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Type: **IAsyncOperation\<;GameSaveBlobGetResult>;**
+
+**IAsyncOperation\<;GameSaveBlobGetResult>;** that represents the state of the asynchronous operation.
 
 ## -remarks
+
+GetAsync allocates new buffers to store the returned data.
+
+After the asynchronous operation completes, check the [Status](gamesaveblobgetresult_status.md) property of the result to determine whether the operation succeeded with [GameSaveErrorStatus.Ok](gamesaveerrorstatus.md).
 
 ## -examples
 
 ## -see-also
+
+[GameSaveContainer](gamesavecontainer.md)

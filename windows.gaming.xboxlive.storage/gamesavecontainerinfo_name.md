@@ -10,13 +10,21 @@ public string Name { get; }
 # Windows.Gaming.XboxLive.Storage.GameSaveContainerInfo.Name
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+The name of this game save container.
 
 ## -property-value
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Type: **String** \[JavaScript\] | [System.String](https://msdn.microsoft.com/library/system.string.aspx) \[.NET\] | [Platform::String](https://msdn.microsoft.com/library/windows/apps/hh755812.aspx) \[C++\]
+
+Name of this container.
 
 ## -remarks
+
+The container name is used to identify the container, and is not the display name. See [DisplayName](gamesavecontainerinfo_displayname.md).
 
 ## -examples
 
 ## -see-also
+
+[GameSaveContainerInfo](gamesavecontainerinfo.md)

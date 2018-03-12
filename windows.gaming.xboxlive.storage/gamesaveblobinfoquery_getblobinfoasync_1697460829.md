@@ -10,21 +10,35 @@ public Windows.Foundation.IAsyncOperation<Windows.Gaming.XboxLive.Storage.GameSa
 # Windows.Gaming.XboxLive.Storage.GameSaveBlobInfoQuery.GetBlobInfoAsync
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Asynchronously retrieves information for the specified subset of blobs that match this query.
 
 ## -parameters
 ### -param startIndex
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Type: **Number** \[JavaScript\] | [System.UInt32](https://msdn.microsoft.com/library/system.uint32.aspx) \[.NET\] | **uint32** \[C++\]
+
+Index of the first item to return.
 
 ### -param maxNumberOfItems
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Type: **Number** \[JavaScript\] | [System.UInt32](https://msdn.microsoft.com/library/system.uint32.aspx) \[.NET\] | **uint32** \[C++\]
+
+Maximum number of items to return.
 
 ## -returns
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Type: **IAsyncOperation\<;GameSaveBlobInfoGetResult>;**
+
+**IAsyncOperation\<;GameSaveBlobInfoGetResult>;** that represents the state of the asynchronous operation.
 
 ## -remarks
+
+After the asynchronous operation completes, check the [Status](gamesaveblobinfogetresult_status.md) property of the result to determine whether the operation succeeded with [GameSaveErrorStatus.Ok](gamesaveerrorstatus.md).
 
 ## -examples
 
 ## -see-also
+
+[GameSaveBlobInfoQuery](gamesaveblobinfoquery.md)
 [GetBlobInfoAsync](gamesaveblobinfoquery_getblobinfoasync_517889704.md)

@@ -10,13 +10,18 @@ public string Name { get; }
 # Windows.Gaming.XboxLive.Storage.GameSaveBlobInfo.Name
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Name of the blob.
 
 ## -property-value
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Type: **String** \[JavaScript\] | [System.String](https://msdn.microsoft.com/library/system.string.aspx) \[.NET\] | [Platform::String](https://msdn.microsoft.com/library/windows/apps/hh755812.aspx) \[C++\]
 
 ## -remarks
+
+Blob names are used when writing blobs with [SubmitUpdatesAsync](gamesavecontainer_submitupdatesasync_1002100950.md) or [SubmitPropertySetUpdatesAsync](gamesavecontainer_submitpropertysetupdatesasync_435712146.md), to request blobs when calling [GameSaveContainer.GetAsync](gamesavecontainer_getasync_465620582.md) and [GameSaveContainer.ReadAsync](gamesavecontainer_readasync_130997576.md), to request blob info when calling [GameSaveContainer.CreateBlobInfoQuery](gamesavecontainer_createblobinfoquery_1392439372.md), and to identify blobs returned in [GameSaveBlobGetResult.Value](gamesaveblobgetresult_value.md).
 
 ## -examples
 
 ## -see-also
+[GameSaveBlobInfo](gamesaveblobinfo.md)

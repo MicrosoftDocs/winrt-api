@@ -10,13 +10,21 @@ public Windows.Foundation.IAsyncOperation<uint> GetItemCountAsync()
 # Windows.Gaming.XboxLive.Storage.GameSaveContainerInfoQuery.GetItemCountAsync
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Retrieves the number of containers that match the query that created this [GameSaveContainerInfoQuery](gamesavecontainerinfoquery.md) object.
 
 ## -returns
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Type: **IAsyncOperation\<;UInt32>;**
+
+Number of containers that match the query that created this [GameSaveContainerInfoQuery](gamesavecontainerinfoquery.md) object.
 
 ## -remarks
+
+After the asynchronous operation completes, the operation result of the returned **IAsyncOperation** object contains the number of blobs that match this query.
 
 ## -examples
 
 ## -see-also
+
+[GameSaveContainerInfoQuery](gamesavecontainerinfoquery.md)

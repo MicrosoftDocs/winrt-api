@@ -10,13 +10,19 @@ public Windows.System.User User { get; }
 # Windows.Gaming.XboxLive.Storage.GameSaveProvider.User
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+User associated with this game save provider and its game save containers.
 
 ## -property-value
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Type: **User**
+
+User associated with this game save provider and its game save containers.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
+
+[GameSaveProvider](gamesaveprovider.md)

@@ -10,13 +10,21 @@ public Windows.Foundation.IAsyncOperation<long> GetRemainingBytesInQuotaAsync()
 # Windows.Gaming.XboxLive.Storage.GameSaveProvider.GetRemainingBytesInQuotaAsync
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Get the bytes remaining in the user's quota for this game save provider.
 
 ## -returns
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Type: **IAsyncOperation\<;Int64>;**
+
+Remaining size, in bytes, of the user's quota for this game save provider.
 
 ## -remarks
+
+Each user has a per-game quota of data that can be stored in connected storage
 
 ## -examples
 
 ## -see-also
+
+[GameSaveProvider](gamesaveprovider.md)

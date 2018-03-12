@@ -10,17 +10,28 @@ public Windows.Foundation.IAsyncOperation<Windows.Gaming.XboxLive.Storage.GameSa
 # Windows.Gaming.XboxLive.Storage.GameSaveProvider.DeleteContainerAsync
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Asynchronously deletes the specified game save container.
 
 ## -parameters
 ### -param name
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Type: **String** \[JavaScript\] | [System.String](https://msdn.microsoft.com/library/system.string.aspx) \[.NET\] | [Platform::String](https://msdn.microsoft.com/library/windows/apps/hh755812.aspx) \[C++\]
+
+String name of the container to delete.
 
 ## -returns
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Type: **IAsyncOperation\<;GameSaveOperationResult>;**
+
+**IAsyncOperation\<;GameSaveOperationResult>;** that represents the state of the asynchronous operation.
 
 ## -remarks
+
+After the asynchronous operation completes, check the [Status](gamesaveoperationresult_status.md) property of the result to determine whether the operation succeeded with [GameSaveErrorStatus.Ok](gamesaveerrorstatus.md).
 
 ## -examples
 
 ## -see-also
+
+[GameSaveProvider](gamesaveprovider.md)

@@ -10,13 +10,17 @@ public Windows.Gaming.XboxLive.Storage.GameSaveProvider Value { get; }
 # Windows.Gaming.XboxLive.Storage.GameSaveProviderGetResult.Value
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+[GameSaveProvider](gamesaveprovider.md) instance returned by a successful game save provider request.
 
 ## -property-value
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 
 ## -remarks
+
+**Value** is valid only if [GameSaveProviderGetResult.Status](gamesaveprovidergetresult_status.md) is [GameSaveErrorStatus.Ok](gamesaveerrorstatus.md).
 
 ## -examples
 
 ## -see-also
+
+[GameSaveProviderGetResult](gamesaveprovidergetresult.md)
