@@ -28,6 +28,29 @@ Info about the animated transition.
 ## -remarks
 
 ## -examples
+```xaml
+<Frame x:Name="myFrame">
+    <Frame.ContentTransitions>
+        <TransitionCollection>
+            <NavigationThemeTransition />
+        </TransitionCollection>
+    </Frame.ContentTransitions>
+</Frame>
+```
+
+```csharp
+// Play the default animation
+myFrame.Navigate(typeof(Page2), null);
+
+// Explicitly play the page refresh animation
+myFrame.Navigate(typeof(Page2), null, new EntranceNavigationTransitionInfo());
+
+// Play the drill in animation
+myFrame.Navigate(typeof(Page2), null, new DrillInNavigationTransitionInfo());
+
+// Suppress the default animation
+myFrame.Navigate(typeof(Page2), null, new SuppressNavigationTransitionInfo());
+```
 
 ## -see-also
 [Navigate(Type, Object)](frame_navigate_1603787821.md), [Navigate(Type)](frame_navigate_442648331.md), [Navigation](http://msdn.microsoft.com/library/742c1c18-c7b1-47b7-866c-726eeb8235ec), [XAML Navigation sample](http://go.microsoft.com/fwlink/p/?LinkID=330214)
