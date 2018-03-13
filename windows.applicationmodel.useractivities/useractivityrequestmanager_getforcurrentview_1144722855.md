@@ -1,10 +1,10 @@
 ---
--api-id: M:Windows.ApplicationModel.UserActivities.UserActivityRequestManager.GetForCurrentView(Windows.ApplicationModel.UserActivities.UserActivityRequestManager@)
+-api-id: M:Windows.ApplicationModel.UserActivities.UserActivityRequestManager.GetForCurrentView()
 -api-type: winrt method
 ---
 
 <!-- Method syntax.
-public void UserActivityRequestManager.GetForCurrentView(UserActivityRequestManager value)
+public void UserActivityRequestManager.GetForCurrentView()
 -->
 
 # Windows.ApplicationModel.UserActivities.UserActivityRequestManager.GetForCurrentView
@@ -25,7 +25,6 @@ On return, set to the **UserActivityRequestManager** for the current view.
 ```csharp
 protected override void OnNavigatedTo(NavigationEventArgs e)
 {
-    Windows.ApplicationModel.UserActivities.UserActivityRequestManager requestMgr;
-    Windows.ApplicationModel.UserActivities.UserActivityRequestManager.GetForCurrentView(out requestMgr); // on return, requestMgr will be set.
+    Windows.ApplicationModel.UserActivities.UserActivityRequestManager requestMgr = Windows.ApplicationModel.UserActivities.UserActivityRequestManager.GetForCurrentView();
 }
 ```
