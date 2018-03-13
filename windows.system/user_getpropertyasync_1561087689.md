@@ -21,6 +21,7 @@ When this method completes, it returns the requested property. If the property i
 
 ## -remarks
 
+See the [GetPropertiesAsync](user_getpropertiesasync_1952817514.md) method for details on supported properties.
 ## -examples
 
 ## -see-also

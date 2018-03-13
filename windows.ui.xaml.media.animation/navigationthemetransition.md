@@ -17,11 +17,10 @@ Provides page navigation animations.
 <NavigationThemeTransition .../>
 ```
 
-
 ## -remarks
+With Windows 10, version 1803, a Frame uses **NavigationThemeTransition** to animate navigation between Pages by default. 
+
 You can use [NavigationThemeTransition](navigationthemetransition.md) to add animated transitions when your app navigates between different pieces of content in a [Frame](../windows.ui.xaml.controls/frame.md). You can add [NavigationThemeTransition](navigationthemetransition.md) to the [Transitions](../windows.ui.xaml/uielement_transitions.md) collection of the [Page](../windows.ui.xaml.controls/page.md) that is being navigated to, or the [ContentTransitions](../windows.ui.xaml.controls/contentcontrol_contenttransitions.md) collection for the navigation [Frame](../windows.ui.xaml.controls/frame.md). In general, we recommend that you use the frame's [ContentTransitions](../windows.ui.xaml.controls/contentcontrol_contenttransitions.md) property to ensure that transitions occur for all navigation pages.
-
-
 
 This example shows [NavigationThemeTransition](navigationthemetransition.md) added to the [ContentTransitions](../windows.ui.xaml.controls/contentcontrol_contenttransitions.md) collection of a [Frame](../windows.ui.xaml.controls/frame.md).
 
@@ -45,7 +44,6 @@ frame.ContentTransitions.Add(new NavigationThemeTransition());
 ```
 
 
-
 In Windows 10, two different animations are provided for navigation between pages in an app. The navigation animations are represented by subclasses of [NavigationTransitionInfo](navigationtransitioninfo.md).
 + *Page Refresh*: Page refresh is the default animation for page navigation. It is a combination of a *slide up* animation and a *fade in* animation for the incoming content. You should use page refresh when you use top level navigation like a navigation menu.
 
@@ -53,7 +51,6 @@ The page refresh animation is represented by the [EntranceNavigationTransitionIn
 + *Drill In*: You should use the drill in animation when a user interacts with UI on a page that represents a link to another page. For example, in a page that represents a list of albums, when a user clicks on an album item, there should be a drill in transition to the album page.
 
 The drill in animation is represented by the [DrillInNavigationTransitionInfo](drillinnavigationtransitioninfo.md) class.
-
 
 By default, [NavigationThemeTransition](navigationthemetransition.md) plays a page refresh animation. However, you can override this behavior by setting the [DefaultNavigationTransitionInfo](navigationthemetransition_defaultnavigationtransitioninfo.md) property of [NavigationThemeTransition](navigationthemetransition.md). The [NavigationTransitionInfo](navigationtransitioninfo.md) value of this property is used for all navigation by default.
 
@@ -83,8 +80,6 @@ You can use [SuppressNavigationTransitionInfo](suppressnavigationtransitioninfo.
 Frame.Navigate(typeof(MainPage), null, new SuppressNavigationTransitionInfo()); 
 
 ```
-
-
 
 ## -examples
 
