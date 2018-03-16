@@ -10,7 +10,7 @@ public Windows.Security.Authentication.OnlineId.OnlineIdSystemAuthenticatorForUs
 # Windows.Security.Authentication.OnlineId.OnlineIdSystemAuthenticator.GetForUser
 
 ## -description
-This method is not currently implemented. If called, it will throw a [NotImplementedException](https://msdn.microsoft.com/en-us/library/windows/apps/system.notimplementedexception(v=vs.105).aspx).
+Gets an instance of [OnlineIdSystemAuthenticatorForUser](OnlineIdSystemAuthenticatorForUser.md) that corresponds to the specified user.
 
 ## -parameters
 ### -param user
