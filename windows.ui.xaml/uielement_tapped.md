@@ -19,7 +19,7 @@ Occurs when an otherwise unhandled **Tap** interaction occurs over the hit test 
 
 
 ## -remarks
-Touch, mouse devices and pen devices can all produce a **Tap** action. For more info, see [Quickstart: Touch input](http://msdn.microsoft.com/library/f10bafee-8792-4a57-ae84-aa11ab95355a).
+Touch, mouse devices and pen devices can all produce a **Tap** action. For more info, see [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input).
 
 See [Touch interaction design](http://msdn.microsoft.com/library/9ba7f613-e5d1-40d4-920b-143094209e3a) for more info on how to use a **Tap** interaction in your app design. The general idea is that a **Tap** interaction on an element invokes the element's primary action in your app.
 
@@ -58,4 +58,4 @@ These controls do not raise the **Tapped** event:
 ## -examples
 
 ## -see-also
-[IsTapEnabled](uielement_istapenabled.md), [PointerPressed](uielement_pointerpressed.md), [DoubleTapped](uielement_doubletapped.md), [Quickstart: Touch input](http://msdn.microsoft.com/library/f10bafee-8792-4a57-ae84-aa11ab95355a), [XAML user input events sample](http://go.microsoft.com/fwlink/p/?linkid=231524)
+[IsTapEnabled](uielement_istapenabled.md), [PointerPressed](uielement_pointerpressed.md), [DoubleTapped](uielement_doubletapped.md), [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input), [XAML user input events sample](http://go.microsoft.com/fwlink/p/?linkid=231524)

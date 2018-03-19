@@ -40,4 +40,4 @@ When handling a [PointerCanceled](uielement_pointercanceled.md) event, anticipat
 ## -examples
 
 ## -see-also
-[PointerReleased](uielement_pointerreleased.md), [PointerPressed](uielement_pointerpressed.md), [CapturePointer](uielement_capturepointer.md), [Quickstart: Touch input](http://msdn.microsoft.com/library/f10bafee-8792-4a57-ae84-aa11ab95355a), [Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832), [XAML user input events sample](http://go.microsoft.com/fwlink/p/?linkid=231524)
+[PointerReleased](uielement_pointerreleased.md), [PointerPressed](uielement_pointerpressed.md), [CapturePointer](uielement_capturepointer.md), [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input), [Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832), [XAML user input events sample](http://go.microsoft.com/fwlink/p/?linkid=231524)
