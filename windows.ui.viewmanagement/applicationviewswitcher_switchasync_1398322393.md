@@ -20,6 +20,7 @@ The ID of the window under preparation for display.
 The asynchronous results of the operation. Use this to determine when the async call is complete.
 
 ## -remarks
+This method can only be called from the ASTA (core UI) thread of the calling, currently displayed window.
 
 ## -examples
 
