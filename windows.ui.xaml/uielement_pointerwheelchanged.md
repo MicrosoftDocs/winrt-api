@@ -48,4 +48,4 @@ Apps that were compiled for Windows 8 but running on Windows 8.1 continue to u
 ## -examples
 
 ## -see-also
-[Quickstart: touch input](http://msdn.microsoft.com/library/f10bafee-8792-4a57-ae84-aa11ab95355a)
+[Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input)

@@ -49,7 +49,7 @@ Controls may also have a [PointerDownThemeAnimation](../windows.ui.xaml.media.an
 
 ### PointerPressed and gesture events, or manipulation events
 
-The user action that fires a [PointerPressed](uielement_pointerpressed.md) event initially can eventually result in the [Holding](uielement_holding.md) event representing a **Hold** gesture, unless the input device is a mouse. If the element where [PointerPressed](uielement_pointerpressed.md) occurs has a non-default [ManipulationMode](uielement_manipulationmode.md) value, then the action might also result in various manipulation events like [ManipulationStarted](uielement_manipulationstarted.md). For more info, see "Using manipulation events" section in [Quickstart: Touch input](http://msdn.microsoft.com/library/f10bafee-8792-4a57-ae84-aa11ab95355a).
+The user action that fires a [PointerPressed](uielement_pointerpressed.md) event initially can eventually result in the [Holding](uielement_holding.md) event representing a **Hold** gesture, unless the input device is a mouse. If the element where [PointerPressed](uielement_pointerpressed.md) occurs has a non-default [ManipulationMode](uielement_manipulationmode.md) value, then the action might also result in various manipulation events like [ManipulationStarted](uielement_manipulationstarted.md). For more info, see "Using manipulation events" section in [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input).
 
 When [PointerPressed](uielement_pointerpressed.md) fires, gesture events such as [Tapped](uielement_tapped.md) won't fire yet because the gesture events other than [Holding](uielement_holding.md) are waiting for the pointer to be released before firing an event.
 
@@ -69,5 +69,5 @@ Other events instead of [PointerReleased](uielement_pointerreleased.md) may fire
 ## -examples
 
 ## -see-also
-[Tapped](uielement_tapped.md), [PointerReleased](uielement_pointerreleased.md), [Quickstart: Touch input](http://msdn.microsoft.com/library/f10bafee-8792-4a57-ae84-aa11ab95355a), [XAML user input events sample](http://go.microsoft.com/fwlink/p/?linkid=231524)
+[Tapped](uielement_tapped.md), [PointerReleased](uielement_pointerreleased.md), [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input), [XAML user input events sample](http://go.microsoft.com/fwlink/p/?linkid=231524)
 soft.com/fwlink/p/?linkid=231524)

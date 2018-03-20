@@ -31,4 +31,4 @@ There is no event that fires when a pointer is successfully captured. To capture
 ## -examples
 
 ## -see-also
-[CapturePointer](uielement_capturepointer.md), [PointerCaptures](uielement_pointercaptures.md), [ReleasePointerCapture](uielement_releasepointercapture.md), [ReleasePointerCaptures](uielement_releasepointercaptures.md), [Quickstart: Touch input](http://msdn.microsoft.com/library/f10bafee-8792-4a57-ae84-aa11ab95355a), [Mouse interactions](http://msdn.microsoft.com/library/c8a158ef-70a9-4ba2-a270-7d08125700ac), [XAML user input events sample](http://go.microsoft.com/fwlink/p/?linkid=231524)
+[CapturePointer](uielement_capturepointer.md), [PointerCaptures](uielement_pointercaptures.md), [ReleasePointerCapture](uielement_releasepointercapture.md), [ReleasePointerCaptures](uielement_releasepointercaptures.md), [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input), [Mouse interactions](http://msdn.microsoft.com/library/c8a158ef-70a9-4ba2-a270-7d08125700ac), [XAML user input events sample](http://go.microsoft.com/fwlink/p/?linkid=231524)

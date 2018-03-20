@@ -39,7 +39,7 @@ A mouse input device has an onscreen cursor that is visible whenever the mouse m
 
 A touch point is only detectable if a finger is touching the surface. Whenever a touch action results in a [PointerReleased](uielement_pointerreleased.md) event, that event is immediately followed by a [PointerExited](uielement_pointerexited.md) event, with all the event data being the same information for the two events (same pointer ID, same position, and so on.) In other words the pointer is considered to enter the element at the moment and position that the element is touched by a touch point.
 
-Alternatively, a touch point will generate [PointerExited](uielement_pointerexited.md) if that pointer remains in constant contact with the surface as it moves, was over the element initially, and then exits the hit testing bounds of an element. For these kinds of touch actions it's also possible that the action could be processed as a manipulation, or as a gesture, rather than a pointer event. For more info, see [Quickstart: Touch input](http://msdn.microsoft.com/library/f10bafee-8792-4a57-ae84-aa11ab95355a).
+Alternatively, a touch point will generate [PointerExited](uielement_pointerexited.md) if that pointer remains in constant contact with the surface as it moves, was over the element initially, and then exits the hit testing bounds of an element. For these kinds of touch actions it's also possible that the action could be processed as a manipulation, or as a gesture, rather than a pointer event. For more info, see [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input).
 
 ### Routed event behavior for PointerExited
 
@@ -66,4 +66,4 @@ Apps that were compiled for Windows 8 but running on Windows 8.1 continue to u
 ## -examples
 
 ## -see-also
-[PointerEntered](uielement_pointerentered.md), [PointerReleased](uielement_pointerreleased.md), [Quickstart: touch input](http://msdn.microsoft.com/library/f10bafee-8792-4a57-ae84-aa11ab95355a), [Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832), [XAML user input events sample](http://go.microsoft.com/fwlink/p/?linkid=231524)
+[PointerEntered](uielement_pointerentered.md), [PointerReleased](uielement_pointerreleased.md), [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input), [Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832), [XAML user input events sample](http://go.microsoft.com/fwlink/p/?linkid=231524)

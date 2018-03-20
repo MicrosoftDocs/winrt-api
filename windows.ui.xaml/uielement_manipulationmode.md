@@ -33,7 +33,7 @@ Gets or sets the [ManipulationModes](../windows.ui.xaml.input/manipulationmodes.
 A value or values of the enumeration. The default is typically **System**, but this can vary on specific controls and elements. See Remarks.
 
 ## -remarks
-You must set the [ManipulationMode](uielement_manipulationmode.md) to a value other than **System** or **None** if you want to handle manipulation events such as [ManipulationStarted](uielement_manipulationstarted.md) from UI elements in your app code. For more info on manipulations, see [Quickstart: Touch input](http://msdn.microsoft.com/library/f10bafee-8792-4a57-ae84-aa11ab95355a).
+You must set the [ManipulationMode](uielement_manipulationmode.md) to a value other than **System** or **None** if you want to handle manipulation events such as [ManipulationStarted](uielement_manipulationstarted.md) from UI elements in your app code. For more info on manipulations, see [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input).
 
 The typical default value of [ManipulationMode](uielement_manipulationmode.md) is **System** rather than **None**. When the value is **System**, manipulations that originate from the element can be handled by the Windows Runtime infrastructure, which is based on the [Direct Manipulation](http://msdn.microsoft.com/library/26358bc5-71e9-40f0-9243-9bddd961a0e5)  API. For example, [ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md) handles user manipulations in its control logic and processes them as scrolling actions for the control. The **System** value also enables personality animations that respond to manipulation events.
 
@@ -58,4 +58,4 @@ Apps that were compiled for Windows 8 but running on Windows 8.1 use the new b
 ## -examples
 
 ## -see-also
-[ManipulationStarted](uielement_manipulationstarted.md), [ManipulationDelta](uielement_manipulationdelta.md), [ManipulationCompleted](uielement_manipulationcompleted.md), [ManipulationModes](../windows.ui.xaml.input/manipulationmodes.md), [Quickstart: Touch input](http://msdn.microsoft.com/library/f10bafee-8792-4a57-ae84-aa11ab95355a), [Direct Manipulation Reference](http://msdn.microsoft.com/library/d9aeda9d-d6eb-4567-8c12-362da0f17667), [Basic input sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620514)
+[ManipulationStarted](uielement_manipulationstarted.md), [ManipulationDelta](uielement_manipulationdelta.md), [ManipulationCompleted](uielement_manipulationcompleted.md), [ManipulationModes](../windows.ui.xaml.input/manipulationmodes.md), [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input), [Direct Manipulation Reference](http://msdn.microsoft.com/library/d9aeda9d-d6eb-4567-8c12-362da0f17667), [Basic input sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620514)
