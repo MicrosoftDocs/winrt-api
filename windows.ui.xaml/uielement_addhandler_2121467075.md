@@ -82,5 +82,5 @@ This example shows the basic syntax for wiring an event handler with [AddHandler
 [!code-vb[AddHandler](../windows.ui.xaml/code/BaseElementEvents/vbnet/MainPage.xaml.vb#SnippetAddHandler)]
 
 ## -see-also
-[RemoveHandler](uielement_removehandler.md), [Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832), [Quickstart: Touch input](http://msdn.microsoft.com/library/f10bafee-8792-4a57-ae84-aa11ab95355a)
+[RemoveHandler](uielement_removehandler.md), [Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832), [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input)
 afee-8792-4a57-ae84-aa11ab95355a)

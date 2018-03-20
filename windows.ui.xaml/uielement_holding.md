@@ -19,7 +19,7 @@ Occurs when an otherwise unhandled **Hold** interaction occurs over the hit test
 
 
 ## -remarks
-Touch can produce a **Holding** action, but mouse devices generally can't. For more info, see [Quickstart: Touch input](http://msdn.microsoft.com/library/f10bafee-8792-4a57-ae84-aa11ab95355a).
+Touch can produce a **Holding** action, but mouse devices generally can't. For more info, see [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input).
 
 The [Tapped](uielement_tapped.md), [DoubleTapped](uielement_doubletapped.md), and [RightTapped](uielement_righttapped.md) events occur only after the touch point is removed. But the initial [Holding](uielement_holding.md) event occurs while the touch point is still in contact. The event occurs if the touch point remains in approximately the same [PointerPoint](../windows.ui.input/pointerpoint.md) position for a period of time. The exact timing of what the system interprets as a holding action is adjustable by users through system settings.
 
@@ -56,4 +56,4 @@ Mouse input doesn't produce [Holding](uielement_holding.md) events by default, n
 ## -examples
 
 ## -see-also
-[RightTapped](uielement_righttapped.md), [OnHolding](../windows.ui.xaml.controls/control_onholding.md), [IsHoldingEnabled](uielement_isholdingenabled.md), [Quickstart: Touch input](http://msdn.microsoft.com/library/f10bafee-8792-4a57-ae84-aa11ab95355a), [Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832)
+[RightTapped](uielement_righttapped.md), [OnHolding](../windows.ui.xaml.controls/control_onholding.md), [IsHoldingEnabled](uielement_isholdingenabled.md), [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input), [Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832)

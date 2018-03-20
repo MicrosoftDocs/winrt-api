@@ -8,7 +8,7 @@
 ## -description
 The [Windows.Devices.SerialCommunication](windows_devices_serialcommunication.md) namespace defines Windows Runtime classes that a UWP app can use to communicate with a device that exposes a serial port or some abstraction of a serial port. The classes provide functionality to discover such serial device, read and write data, and control serial-specific properties for flow control, such as setting baud rate, signal states.
 
-In this release, the namespace supports devices that belong to the USB CDC device class. This includes ports exposed by Serial-to-USB adapters and internal USB to serial bridge chips like those used in Arduino Uno R3s.
+The namespace also supports devices that belong to the USB CDC device class. This includes ports exposed by Serial-to-USB adapters and internal USB to serial bridge chips like those used in Arduino Uno R3s. See note below on compatible IDs.
 
 System-internal or on-chassis serial ports may be enumerated by [DeviceInformation.FindAllAsync()](../windows.devices.enumeration/deviceinformation_findallasync.md), but cannot be opened by [SerialDevice.FromIdAsync()](serialdevice_fromidasync.md) because they currently are not supported. However, serial ports connected over USB, such as on USB-to-Serial cables are supported.
 

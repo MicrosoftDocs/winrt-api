@@ -56,11 +56,11 @@ Enable system-driven touch interactions supported through [Direct Manipulation](
 > [!NOTE]
 > [Direct Manipulation](http://msdn.microsoft.com/library/26358bc5-71e9-40f0-9243-9bddd961a0e5) defines a manipulation as the scrolling or zooming of some part of the application UI.
 
-This enumeration provides the value for the [UIElement.ManipulationMode](../windows.ui.xaml/uielement_manipulationmode.md) property. By setting this property you can enable app code handling for manipulation events such as [ManipulationStarted](../windows.ui.xaml/uielement_manipulationstarted.md). You must set the [ManipulationMode](../windows.ui.xaml/uielement_manipulationmode.md) to a value other than **System** or **None** to enable handling the events from that element. For more info on manipulations, see [Quickstart: Touch input](http://msdn.microsoft.com/library/f10bafee-8792-4a57-ae84-aa11ab95355a).
+This enumeration provides the value for the [UIElement.ManipulationMode](../windows.ui.xaml/uielement_manipulationmode.md) property. By setting this property you can enable app code handling for manipulation events such as [ManipulationStarted](../windows.ui.xaml/uielement_manipulationstarted.md). You must set the [ManipulationMode](../windows.ui.xaml/uielement_manipulationmode.md) to a value other than **System** or **None** to enable handling the events from that element. For more info on manipulations, see [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input).
 
 Value enforcement for possible combinations is documented in the Remarks for the [UIElement.ManipulationMode](../windows.ui.xaml/uielement_manipulationmode.md) property.
 
 ## -examples
 
 ## -see-also
-[ManipulationMode](../windows.ui.xaml/uielement_manipulationmode.md), [Quickstart: Touch input](http://msdn.microsoft.com/library/f10bafee-8792-4a57-ae84-aa11ab95355a)
+[ManipulationMode](../windows.ui.xaml/uielement_manipulationmode.md), [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input)

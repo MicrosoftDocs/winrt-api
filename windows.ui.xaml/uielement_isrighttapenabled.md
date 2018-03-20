@@ -26,9 +26,9 @@ The default is **true** (event enabled). If you set to **false**, the [UIElement
 
 Another reason to suppress gesture events is if you are handling pointer-level events and don't want gesture recognition logic to impact how the pointer events are fired. For example, if the gesture recognition engine has to test for [Tapped](uielement_tapped.md), then it must delay firing a [PointerMoved](uielement_pointermoved.md) event for small movements, because the user might lift the touch point soon and the input event would normally be gesture-recognized as a tap.
 
-You do not need a mouse device to produce a [RightTapped](uielement_righttapped.md) event. A [RightTapped](uielement_righttapped.md) event is generated if a touch event becomes a [Holding](uielement_holding.md) event when the touch position remained in one place. Even though [Holding](uielement_holding.md) and [RightTapped](uielement_righttapped.md) might result from the same user touch action, the design guidance for what that event means to an app is different, as is the timing. For more info, see [Quickstart: Touch input](http://msdn.microsoft.com/library/f10bafee-8792-4a57-ae84-aa11ab95355a).
+You do not need a mouse device to produce a [RightTapped](uielement_righttapped.md) event. A [RightTapped](uielement_righttapped.md) event is generated if a touch event becomes a [Holding](uielement_holding.md) event when the touch position remained in one place. Even though [Holding](uielement_holding.md) and [RightTapped](uielement_righttapped.md) might result from the same user touch action, the design guidance for what that event means to an app is different, as is the timing. For more info, see [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input).
 
 ## -examples
 
 ## -see-also
-[RightTapped](uielement_righttapped.md), [OnRightTapped](../windows.ui.xaml.controls/control_onrighttapped.md), [Quickstart: Touch input](http://msdn.microsoft.com/library/f10bafee-8792-4a57-ae84-aa11ab95355a)
+[RightTapped](uielement_righttapped.md), [OnRightTapped](../windows.ui.xaml.controls/control_onrighttapped.md), [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input)
