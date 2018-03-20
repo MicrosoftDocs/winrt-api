@@ -33,6 +33,7 @@ Gets or sets the content for the pane footer.
 The content of the pane footer. The default is **null**.
 
 ## -remarks
+Note that you cannot place **NavigationViewItems** in **NavigationView.PaneFooter**.
 
 ## -see-also
 
