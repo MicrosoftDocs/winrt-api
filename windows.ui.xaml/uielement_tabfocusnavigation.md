@@ -21,7 +21,7 @@ Gets or sets a value that modifies how tabbing and [TabIndex](../windows.ui.xaml
 ```
 
 ## -xaml-values
-<dl><dt>keyboardNavigationModeMemberName</dt><dd>keyboardNavigationModeMemberNameA named constant of the [KeyboardNavigationMode](../windows.ui.xaml.input/keyboardnavigationmode.md) enumeration, for example, **Cycle**.</dd>
+<dl><dt>keyboardNavigationModeMemberName</dt><dd>keyboardNavigationModeMemberName A named constant of the [KeyboardNavigationMode](../windows.ui.xaml.input/keyboardnavigationmode.md) enumeration, for example, **Cycle**.</dd>
 </dl>
 
 ## -property-value

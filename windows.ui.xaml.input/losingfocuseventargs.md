@@ -15,6 +15,7 @@ Provides data for the [LosingFocus](../windows.ui.xaml/uielement_losingfocus.md)
 ## -remarks
 
 ## -see-also
+[Focus navigation for keyboard, gamepad, remote control, and accessibility tools](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation), [Programmatic focus navigation](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation-programmatic)
 
 ## -examples
 
