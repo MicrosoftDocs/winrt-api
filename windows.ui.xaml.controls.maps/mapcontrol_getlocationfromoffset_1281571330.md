@@ -26,7 +26,7 @@ The altitude reference system of the geographic point. A value of **Unspecified*
 When this method returns, contains the corresponding geographic location.
 
 ## -remarks
-This method provides an instance of a [Geopoint](../windows.devices.geolocation/geopoint.md). That [Geopoint](../windows.devices.geolocation/geopoint.md) contains a [BasicGeoPosition](../windows.devices.geolocation/geoposition.md). object.  The *desiredReferenceSystem* parameter sets the [Altitude](https://docs.microsoft.com/uwp/api/windows.devices.geolocation.basicgeoposition#Windows_Devices_Geolocation_BasicGeoposition_Altitude) field of that object.  
+This method provides an instance of a [Geopoint](../windows.devices.geolocation/geopoint.md). That [Geopoint](../windows.devices.geolocation/geopoint.md) contains a [BasicGeoPosition](../windows.devices.geolocation/geoposition.md). object.  The *desiredReferenceSystem* parameter sets the [Altitude](https://docs.microsoft.com/uwp/api/windows.devices.geolocation.basicgeoposition.Altitude) field of that object.  
 
 This method will throw an exception if the point is invalid.
 > [!NOTE]

@@ -17,7 +17,7 @@ Sets the list of [TimedMetadataStreamDescriptor](../windows.media.core/timedmeta
 A collection of TimedMetadataStreamDescriptor objects.
 
 ## -remarks
-The  [Label](https://docs.microsoft.com/uwp/api/windows.media.core.videostreamdescriptor#Windows_Media_Core_VideoStreamDescriptor_Label) field for each [VideoStreamDescriptor](https://docs.microsoft.com/en-us/uwp/api/windows.media.core.videostreamdescriptor) in the collection must be unique. If you attempt to add more than one stream descriptor with the same label, an invalid argument error will occur.
+The  [Label](https://docs.microsoft.com/uwp/api/windows.media.core.videostreamdescriptor.Label) field for each [VideoStreamDescriptor](https://docs.microsoft.com/en-us/uwp/api/windows.media.core.videostreamdescriptor) in the collection must be unique. If you attempt to add more than one stream descriptor with the same label, an invalid argument error will occur.
 
 ## -see-also
 

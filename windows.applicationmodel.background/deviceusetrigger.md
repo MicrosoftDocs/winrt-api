@@ -24,7 +24,7 @@ For a sample that shows how to use **DeviceUseTrigger** on a PC, see the [Custom
 ## -remarks
 For more about policy requirements, see [Accessing sensors and devices from a background task](http://msdn.microsoft.com/library/ccde8565-8dae-44fc-aded-3a0fee759930)
 
-> Before your app triggers a background task on a phone, it must first call [BackgroundExecutionManager.RequestAccessAsync](https://docs.microsoft.com/uwp/api/windows.applicationmodel.background.backgroundexecutionmanager#Windows_ApplicationModel_Background_BackgroundExecutionManager_RequestAccessAsync) to check if the app is able to request a background task. This check is not required when your app is running on a PC.
+> Before your app triggers a background task on a phone, it must first call [BackgroundExecutionManager.RequestAccessAsync](https://docs.microsoft.com/uwp/api/windows.applicationmodel.background.backgroundexecutionmanager.RequestAccessAsync) to check if the app is able to request a background task. This check is not required when your app is running on a PC.
 
 ## -examples
 

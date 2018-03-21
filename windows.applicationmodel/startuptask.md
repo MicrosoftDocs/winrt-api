@@ -20,9 +20,9 @@ Startup support for regular UWP apps was introduced in the Windows 10 Fall Creat
 
 An app must add the `windows.startup` extension category to its manifest in order to be activated at startup or when the user logs in. Adding this extension will not, by itself, automatically cause the app start.
 
-Regular UWP apps must first be launched by the user, and they must call [RequestEnableAsync](https://docs.microsoft.com/uwp/api/Windows.ApplicationModel.StartupTask#Windows_ApplicationModel_StartupTask_RequestEnableAsync) from a UI thread to trigger a user-consent dialog. If the user consents, the UWP app will then start on startup or user log in. If **RequestEnableAsync** is called from a Desktop Bridge app, no user-consent dialog is shown.
+Regular UWP apps must first be launched by the user, and they must call [RequestEnableAsync](https://docs.microsoft.com/uwp/api/Windows.ApplicationModel.StartupTask.RequestEnableAsync) from a UI thread to trigger a user-consent dialog. If the user consents, the UWP app will then start on startup or user log in. If **RequestEnableAsync** is called from a Desktop Bridge app, no user-consent dialog is shown.
 
-Desktop Bridge apps can set their startup tasks to **Enabled** in the manifest, in which case they do not need to call [RequestEnableAsync](https://docs.microsoft.com/uwp/api/Windows.ApplicationModel.StartupTask#Windows_ApplicationModel_StartupTask_RequestEnableAsync). However, the user must launch the Desktop Bridge app at least once before it will launch at startup or user login in.
+Desktop Bridge apps can set their startup tasks to **Enabled** in the manifest, in which case they do not need to call [RequestEnableAsync](https://docs.microsoft.com/uwp/api/Windows.ApplicationModel.StartupTask.RequestEnableAsync). However, the user must launch the Desktop Bridge app at least once before it will launch at startup or user login in.
 
 For both Desktop Bridge apps and regular UWP apps, the user is in control, and can change the enabled state of your app at any time via the **Startup** tab in Task Manager.
 
@@ -60,7 +60,7 @@ The extension declaration is different depending on whether it is for a Desktop 
 |**Executable** | The relative path to the .exe to start.|
 |**EntryPoint** | Must have the value `"Windows.FullTrustApplication"`.|
 |**TaskId** | A unique identifier for your task. Using this identifier, your app can call the APIs in this class to programmatically enable or disable a startup task.
-|**Enabled** | May be set to `true` for Desktop Bridge apps to indicate that the app is enabled for startup without first needing to call [RequestEnableAsync](https://docs.microsoft.com/uwp/api/Windows.ApplicationModel.StartupTask#Windows_ApplicationModel_StartupTask_RequestEnableAsync).|
+|**Enabled** | May be set to `true` for Desktop Bridge apps to indicate that the app is enabled for startup without first needing to call [RequestEnableAsync](https://docs.microsoft.com/uwp/api/Windows.ApplicationModel.StartupTask.RequestEnableAsync).|
 |**DisplayName** | The name of the task that appears in Task Manager.|
 
 For Desktop Bridge apps, multiple **startupTask** extensions are permitted, and each one can specify a different executable.

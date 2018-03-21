@@ -23,7 +23,7 @@ Low-light processing is recommended.
 High Dynamic Range (HDR) processing is recommended.
 
 ## -remarks
-Get a value from this enumeration by implementing the **SceneAnalysisEffect**, registering a handler for the [SceneAnalyzed](https://docs.microsoft.com/uwp/api/windows.media.core.sceneanalysiseffect#Windows_Media_Core_SceneAnalysisEffect_SceneAnalyzed) event, and then checking the [AnalysisRecommendation](https://docs.microsoft.com/uwp/api/windows.media.core.sceneanalysiseffectframe#Windows_Media_Core_SceneAnalysisEffectFrame_AnalysisRecommendation) property of the [SceneAnalysisEffectFrame](https://docs.microsoft.com/uwp/api/windows.media.core.sceneanalysiseffectframe) passed in the event args. For more information on using the **SceneAnalysisEffect**, see [Scene anlysis for MediaCapture](https://msdn.microsoft.com/en-us/windows/uwp/audio-video-camera/scene-analysis-for-media-capture).
+Get a value from this enumeration by implementing the **SceneAnalysisEffect**, registering a handler for the [SceneAnalyzed](https://docs.microsoft.com/uwp/api/windows.media.core.sceneanalysiseffect.SceneAnalyzed) event, and then checking the [AnalysisRecommendation](https://docs.microsoft.com/uwp/api/windows.media.core.sceneanalysiseffectframe.AnalysisRecommendation) property of the [SceneAnalysisEffectFrame](https://docs.microsoft.com/uwp/api/windows.media.core.sceneanalysiseffectframe) passed in the event args. For more information on using the **SceneAnalysisEffect**, see [Scene anlysis for MediaCapture](https://msdn.microsoft.com/en-us/windows/uwp/audio-video-camera/scene-analysis-for-media-capture).
 
 If the effect recommends using HDR, you can do this in the following ways:
 

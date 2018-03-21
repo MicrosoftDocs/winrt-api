@@ -20,7 +20,7 @@ Creates a new [InjectedInputGamepadInfo](injectedinputgamepadinfo.md) object tha
 The current state of the gamepad.
 
 > [!NOTE]
-> The [Timestamp](https://docs.microsoft.com/uwp/api/windows.gaming.input.gamepadreading?branch=rs3#Windows_Gaming_Input_GamepadReading_Timestamp) value is replaced with the current time of input injection.
+> The [Timestamp](https://docs.microsoft.com/uwp/api/windows.gaming.input.gamepadreading?branch=rs3.Timestamp) value is replaced with the current time of input injection.
 
 ## -remarks
 Using input injection requires the following be added to the Package.appxmanifest:
