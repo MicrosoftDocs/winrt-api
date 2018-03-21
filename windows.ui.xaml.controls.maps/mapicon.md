@@ -20,7 +20,7 @@ Display pushpins, images, and shapes on the [MapControl](mapcontrol.md) by addin
 + Define and display a [MapPolygon](mappolygon.md) or a [MapPolyline](mappolyline.md).
 Alternately, to display XAML elements on the [MapControl](mapcontrol.md), add them to its [Children](mapcontrol_children.md) collection.
 
-If you don't explicitly set an [Altitude](https://docs.microsoft.com/uwp/api/windows.devices.geolocation.basicgeoposition) and [AltitudeReferenceSystem](https://docs.microsoft.com/uwp/api/windows.devices.geolocation.geopoint#Windows_Devices_Geolocation_Geopoint_AltitudeReferenceSystem), the [**MapIcon**](https://msdn.microsoft.com/library/windows/apps/dn637077) will be placed on the surface.
+If you don't explicitly set an [Altitude](https://docs.microsoft.com/uwp/api/windows.devices.geolocation.basicgeoposition) and [AltitudeReferenceSystem](https://docs.microsoft.com/uwp/api/windows.devices.geolocation.geopoint.AltitudeReferenceSystem), the [**MapIcon**](https://msdn.microsoft.com/library/windows/apps/dn637077) will be placed on the surface.
 
 > > [!TIP]
 > When you display a [MapIcon](mapicon.md) image that points to a specific location on the map - for example, a pushpin or an arrow - consider setting the value of the [NormalizedAnchorPoint](mapicon_normalizedanchorpoint.md) property to the approximate location of the pointer on the image. If you leave the value of [NormalizedAnchorPoint](mapicon_normalizedanchorpoint.md) at its default value of (0, 0), which represents the upper left corner of the image, changes in the [ZoomLevel](mapcontrol_zoomlevel.md) of the map may leave the image pointing to a different location.

@@ -1,4 +1,4 @@
-﻿---
+---
 -api-id: T:Windows.ApplicationModel.Background.TimeTrigger
 -api-type: winrt class
 ---
@@ -13,7 +13,7 @@ public class TimeTrigger : Windows.ApplicationModel.Background.IBackgroundTrigge
 Represents a time event that triggers a background task to run.
 
 ## -remarks
-The background task must be declared in the manifest before the registration can be successful. You do not need to add the app to the lock screen in order to use background tasks in Windows 10, but you still need to call  [BackgroundExecutionManager.RequestAccessAsync](https://docs.microsoft.com/uwp/api/windows.applicationmodel.background.backgroundexecutionmanager#Windows_ApplicationModel_Background_BackgroundExecutionManager_RequestAccessAsync) to request background access.
+The background task must be declared in the manifest before the registration can be successful. You do not need to add the app to the lock screen in order to use background tasks in Windows 10, but you still need to call  [BackgroundExecutionManager.RequestAccessAsync](https://docs.microsoft.com/uwp/api/windows.applicationmodel.background.backgroundexecutionmanager.RequestAccessAsync) to request background access.
 
 TimeTriggers, and other background triggers, do not work when the device is in battery saver mode. If the user wants the app to be able to perform background activity when the device is in battery saver mode, they can make an exception for that app in the **Let apps run in the background** settings panel.
 

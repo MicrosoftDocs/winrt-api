@@ -21,7 +21,7 @@ If [AppController](radialcontrollerconfiguration_appcontroller.md) is set, that 
 The [RadialController](radialcontroller.md) object to bind to the active application.
 
 ## -remarks
-We recommend creating an app controller in the [Loaded](https://docs.microsoft.com/uwp/api/windows.ui.xaml.frameworkelement#Windows_UI_Xaml_FrameworkElement_Loaded) handler of your app's main page (or equivalent).
+We recommend creating an app controller in the [Loaded](https://docs.microsoft.com/uwp/api/windows.ui.xaml.frameworkelement.Loaded) handler of your app's main page (or equivalent).
 
 ## -examples
 

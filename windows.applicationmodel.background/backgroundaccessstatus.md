@@ -1,4 +1,4 @@
-﻿---
+---
 -api-id: T:Windows.ApplicationModel.Background.BackgroundAccessStatus
 -api-type: winrt enum
 ---
@@ -12,7 +12,7 @@ public enum Windows.ApplicationModel.Background.BackgroundAccessStatus : int
 ## -description
 This enumeration specifies an app's ability to perform background activity.
 
-> Apps must successfully call [BackgroundExecutionManager.RequestAccessAsync](https://docs.microsoft.com/uwp/api/windows.applicationmodel.background.backgroundexecutionmanager#Windows_ApplicationModel_Background_BackgroundExecutionManager_RequestAccessAsync) before registering background tasks.
+> Apps must successfully call [BackgroundExecutionManager.RequestAccessAsync](https://docs.microsoft.com/uwp/api/windows.applicationmodel.background.backgroundexecutionmanager.RequestAccessAsync) before registering background tasks.
 
 ## -enum-fields
 ### -field Unspecified:0
@@ -61,4 +61,4 @@ If all hardware RTC slots are full at the time that the app is added to the lock
 ## -examples
 
 ## -see-also
-[How to set background connectivity options](http://msdn.microsoft.com/library/b6042b5f-5cee-4dee-8cb4-8f376f878e97), [BackgroundExecutionManager.GetAccessStatus](backgroundexecutionmanager_getaccessstatus.md), [BackgroundExecutionManager.RequestAccessAsync](https://docs.microsoft.com/uwp/api/windows.applicationmodel.background.backgroundexecutionmanager#Windows_ApplicationModel_Background_BackgroundExecutionManager_RequestAccessAsync), [Lock screen apps sample](http://go.microsoft.com/fwlink/p/?linkid=239970)
+[How to set background connectivity options](http://msdn.microsoft.com/library/b6042b5f-5cee-4dee-8cb4-8f376f878e97), [BackgroundExecutionManager.GetAccessStatus](backgroundexecutionmanager_getaccessstatus.md), [BackgroundExecutionManager.RequestAccessAsync](https://docs.microsoft.com/uwp/api/windows.applicationmodel.background.backgroundexecutionmanager.RequestAccessAsync), [Lock screen apps sample](http://go.microsoft.com/fwlink/p/?linkid=239970)
