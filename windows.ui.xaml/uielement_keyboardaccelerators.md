@@ -30,7 +30,7 @@ You can override the the default key combination string associated with a [keybo
 
 An accelerator key can be a single key, such as F1 - F12 and Esc, or a combination of keys (Ctrl + Shift + B, or Ctrl C) that invoke a command. They differ from access keys (mnemonics), which are typically modified with the Alt key and simply activate a command or control.
 
-An accelerator can be executed even if the element associated with the accelerator is not visible. For example, an item in the [**SecondaryCommands**](https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.commandbar#Windows_UI_Xaml_Controls_CommandBar_SecondaryCommands) collection of the [**CommandBar**](https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.commandbar) can be invoked using an accelerator without expanding the overflow menu and displaying the element.
+An accelerator can be executed even if the element associated with the accelerator is not visible. For example, an item in the [**SecondaryCommands**](https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.commandbar.SecondaryCommands) collection of the [**CommandBar**](https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.commandbar) can be invoked using an accelerator without expanding the overflow menu and displaying the element.
 
 By default, an accelerator has global scope. However, you can constrain scope using [ScopeOwner](keyboardaccelerator_scopeowner.md) or disable an accelerator completely using [IsEnabled](keyboardaccelerator_isenabled.md).
 

@@ -16,7 +16,7 @@ Gets a [Deferral](https://docs.microsoft.com/en-us/uwp/api/windows.foundation.de
 A **Deferral** object.
 
 ## -remarks
-You must request a deferral if your stream source initialization perfoms any asynchronous actions. Call [Complete](https://docs.microsoft.com/uwp/api/windows.foundation.deferral#Windows_Foundation_Deferral_Complete) when intitialization is complete to notify the system to continue processing the request.
+You must request a deferral if your stream source initialization perfoms any asynchronous actions. Call [Complete](https://docs.microsoft.com/uwp/api/windows.foundation.deferral.Complete) when intitialization is complete to notify the system to continue processing the request.
 
 ## -see-also
 

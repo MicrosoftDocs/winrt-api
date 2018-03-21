@@ -16,7 +16,7 @@ Initiate moving the associated app to the active state.
 The result of trying to resume the app.
 
 ## -remarks
-Call this method to initiate the standard workflow to bring an app that is in the suspended state back to the active state. This workflow includes calling the app’s [Resuming](https://docs.microsoft.com/uwp/api/windows.ui.xaml.application#Windows_UI_Xaml_Application_Resuming) callback.
+Call this method to initiate the standard workflow to bring an app that is in the suspended state back to the active state. This workflow includes calling the app’s [Resuming](https://docs.microsoft.com/uwp/api/windows.ui.xaml.application.Resuming) callback.
 
 This method will return as soon as it has initiated the workflow, before the app’s Resuming callback, and before any state changes.
 
