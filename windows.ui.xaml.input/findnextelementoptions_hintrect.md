@@ -10,7 +10,7 @@ public Rect HintRect { get;  set; }
 # Windows.UI.Xaml.Input.FindNextElementOptions.HintRect
 
 ## -description
-Gets or sets a bounding rectangle used to influence which element is most likely to be considered the next to receive focus.
+Gets or sets a bounding rectangle used to identify the focus candidates most likely to receive navigation focus.
 
 ## -property-value
 The bounding rectangle.
@@ -18,9 +18,11 @@ The bounding rectangle.
 ## -remarks
 Potential candidates are calculated using the bounding rectangle as reference. This rectangle lets you specify another reference instead of the focused element. 
 
-This rectangle is used only for calculations. It is never added to the visual tree.
+This rectangle is used only for calculations and is never added to the visual tree.
 
 ## -see-also
+[Focus navigation for keyboard, gamepad, remote control, and accessibility tools](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation), [Programmatic focus navigation](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation-programmatic)
+
 
 ## -examples
 

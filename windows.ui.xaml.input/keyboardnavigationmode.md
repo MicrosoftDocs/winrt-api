@@ -30,6 +30,7 @@ The container and all of its child elements as a whole receive focus only once.
 
 
 ## -remarks
+This enumeration is used by the [UIElement.TabFocusNavigation](../windows.ui.xaml/uielement_tabfocusnavigation.md) property.
 
 ## -examples
 
