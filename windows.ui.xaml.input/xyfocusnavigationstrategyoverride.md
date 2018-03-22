@@ -66,7 +66,7 @@ XY navigation is used to navigate a user interface (UI) with a gamepad, remote c
 - [XYFocusNavigationStrategy](xyfocusnavigationstrategy.md)
 
 ### Conceptual
-- [Managing focus navigation](https://docs.microsoft.com/windows/uwp/input-and-devices/managing-focus-navigation)
+- [Programmatic focus navigation](https://docs.microsoft.com/windows/uwp/input-and-devices/focus-navigation-programmatic)
 - [Desiging for Xbox - XY focus navigation and interaction](https://msdn.microsoft.com/windows/uwp/input-and-devices/designing-for-tv#xy-focus-navigation-and-interaction)
 
 ## -examples

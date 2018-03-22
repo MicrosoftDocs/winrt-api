@@ -14,7 +14,7 @@ public enum XYFocusKeyboardNavigationMode : int {
 # Windows.UI.Xaml.Input.XYFocusKeyboardNavigationMode
 
 ## -description
-Defines constants that specify whether a user can perform XY navigation using the keyboard directional arrows.
+Specifies the 2D directional navigation behavior when using the keyboard arrow keys.
 
 ## -enum-fields
 
@@ -22,15 +22,15 @@ Defines constants that specify whether a user can perform XY navigation using th
 Behavior is inherited from the elements ancestors. If all ancestors have a value of **Auto**, the fallback behavior is **Disabled**.
 
 ### -field Enabled:1
-Keyboard directional arrows can be used for XY navigation.
+Arrow keys can be used for 2D directional navigation.
 
 ### -field Disabled:2
-Keyboard directional arrows cannot be used for XY navigation.
+Arrow keys cannot be used for 2D directional navigation.
 
 ## -remarks
 This enumeration is used by the [UIElement.XYFocusKeyboardNavigation](../windows.ui.xaml/uielement_xyfocuskeyboardnavigation.md) property.
 
-XY navigation is used to navigate a user interface (UI) with a gamepad, remote control, or keyboard directional arrows. For more info, see [Gamepad and remote control interactions](https://msdn.microsoft.com/windows/uwp/input-and-devices/gamepad-and-remote-interactions) and [UIElement.XYFocusKeyboardNavigation](../windows.ui.xaml/uielement_xyfocuskeyboardnavigation.md).
+2D directional navigation is used to navigate a user interface (UI) with a gamepad, remote control, or keyboard directional arrows. For more info, see [Gamepad and remote control interactions](https://msdn.microsoft.com/windows/uwp/input-and-devices/gamepad-and-remote-interactions) and [UIElement.XYFocusKeyboardNavigation](../windows.ui.xaml/uielement_xyfocuskeyboardnavigation.md).
 
 ## -see-also
 [Desiging for Xbox - XY focus navigation and interaction](https://msdn.microsoft.com/windows/uwp/input-and-devices/designing-for-tv#xy-focus-navigation-and-interaction)
