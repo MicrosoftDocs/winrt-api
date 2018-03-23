@@ -27,53 +27,70 @@ For sample code in JavaScript and HTML that shows how to use [HttpClient](httpcl
 The following sample code shows how to GET content from a Web server as a string.
 
 ```javascript
-var uri = new Uri("http://example.com/datalist.aspx");
-var httpClient = new HttpClient();
+var uri = new Windows.Foundation.Uri("http://www.bing.com");
+var httpClient = new Windows.Web.Http.HttpClient();
 
 // Always catch network exceptions for async methods
-httpClient.GetStringAsync(uri).done(function () {
-    // get completed
-    }, onError);
-
+httpClient.getStringAsync(uri).done(function (response) {
+    // do something with the string in the response variable.
+}, onError);
 
 function onError(reason) {
-    // Details in reason.Message and ex.HResult.       
+    // Details in reason.message and ex.hresult.       
 }
 
-// Once your app is done using the HttpClient object call close to 
+// Once your app is done using the HttpClient object, call close to 
 // free up system resources (the underlying socket and memory used for the object)
-// httpClient.close();
-
+httpClient.close();
 ```
 
 ```csharp
-
 using System;
-using Windows.Foundation;
-using Windows.Web.Http;
 
-var uri = new Uri("http://example.com/datalist.aspx");
-var httpClient = new HttpClient();
-
-// Always catch network exceptions for async methods
-try 
+var uri = new System.Uri("http://www.bing.com");
+using (var httpClient = new Windows.Web.Http.HttpClient())
 {
-    var result = await httpClient.GetStringAsync(uri);
+    // Always catch network exceptions for async methods
+    try
+    {
+        string result = await httpClient.GetStringAsync(uri);
+    }
+    catch (Exception ex)
+    {
+        // Details in ex.Message and ex.HResult.
+    }
 }
-catch 
+// Having exited the scope of the using statement, httpClient.Dispose() will be called
+// automatically, thus freeing up system resources (the underlying socket, and memory
+// used for the object).
+```
+
+```cppwinrt
+#include "winrt/Windows.Foundation.h"
+#include "winrt/Windows.Web.Http.h"
+using namespace winrt;
+
+Windows::Foundation::IAsyncAction HttpClientExample()
 {
-    // Details in ex.Message and ex.HResult.       
+	Windows::Foundation::Uri uri{ L"http://www.bing.com" };
+	Windows::Web::Http::HttpClient httpClient{};
+
+	// Always catch network exceptions for async methods
+	try
+	{
+		auto response = co_await httpClient.GetStringAsync(uri);
+	}
+	catch (winrt::hresult_error ex)
+	{
+		// Details in ex.message and ex.code.
+	}
+
+	// The destructor of HttpClient frees system resources
+	// (the underlying socket, and memory used for the object).
 }
-
-// Once your app is done using the HttpClient object call dispose to 
-// free up system resources (the underlying socket and memory used for the object)
-httpClient.Dispose();
-
-
 ```
 
 ```cpp
-
 using namespace Windows::Foundation;
 using namespace Windows::Web::Http;
 
@@ -87,12 +104,11 @@ try
 }
 catch 
 {
-    // Details in ex.Message and ex.HResult.       
+    // Details in ex.Message and ex.HResult.   
 }
 
-// In C++ and CX, the system resources used by httpClient object are released 
-// when the object falls out of scope or by the destructor (delete operator)
-
+// In C++/CX, the system resources used by httpClient object are released 
+// when the object falls out of scope or by the destructor (delete operator).
 ```
 
 The [HttpClient](httpclient.md) class is often used by an app to download and then parse text. It is possible that the character encoding specified in the **Content-Type** header by an HTTP server does not match the character encoding of the HTTP response body (the XML encoding in an XML document, for example). One way to use [HttpClient](httpclient.md) with text is to call the [GetStringAsync](httpclient_getstringasync.md) method and pass the returned string to the text parser. However, this can result in errors if the **Content-Type** is not a type expressible as a string. A reliable way to use [HttpClient](httpclient.md) with an XML parser is to call the [GetBufferAsync](httpclient_getbufferasync.md) method and parse the buffer for the "&lt;?xml&gt;" element. Then use the character encoding specified ("&lt;xmlversion="1.0" encoding="UTF-8"?&gt;", for example) to parse the HTTP response body. For other text formats, similar methods can be used where the app scans the initial part of the HTTP response body to determine the character encoding used.
