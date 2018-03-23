@@ -67,12 +67,58 @@ If you are using Visual C++ component extensions (C++/CX), then [RepeatBehavior
 If you are programming with C++ using the Windows Runtime Template Library (WRL), then only the data member fields **Count**, **Duration**, and **Type** exist as members of [RepeatBehavior](repeatbehavior.md), and you cannot use the utility methods or properties listed in the members table. WRL code can access similar utility methods that exist on the [RepeatBehaviorHelper](repeatbehaviorhelper.md) class.
 
 ## -examples
-This example shows several different ways to set the [RepeatBehavior](repeatbehavior.md) of an animation and how these settings can affect your animation.
+This example shows several different ways to set the [RepeatBehavior](timeline_repeatbehavior.md) of an animation and how these settings can affect your animation.
 
 
 
 [!code-xml[RepeatBehavior](../windows.ui.xaml.media.animation/code/RepeatBehavior/csharp/MainPage.xaml#SnippetRepeatBehavior)]
 
 [!code-csharp[RepeatBehavior_code](../windows.ui.xaml.media.animation/code/RepeatBehavior/csharp/MainPage.xaml.cs#SnippetRepeatBehavior_code)]
+
+This example shows how you can set the [RepeatBehavior](timeline_repeatbehavior.md) in code. The animations are the same as in the previous example, but have the **x:Name** attribute set, and the RepeatBehavior is set in the `Start_Animation` method rather than in XAML.
+
+```xaml
+<Storyboard x:Name="myStoryboard">
+
+    <!-- Create an animation that repeats indefinitely. -->
+    <DoubleAnimation x:Name="ForeverRepeatingAnimation"
+                     Storyboard.TargetName="ForeverRepeatingTransform" 
+                     Storyboard.TargetProperty="ScaleX" 
+                     From="1" To="5" Duration="0:0:2"  />
+
+    <!-- Create an animation that repeats for four seconds. Because 
+        the animation is 2 seconds each, you get two repeats. -->
+    <DoubleAnimation x:Name="FourSecondsRepeatingAnimation"
+                     Storyboard.TargetName="FourSecondsRepeatingTransform" 
+                     Storyboard.TargetProperty="ScaleX"
+                     From="1" To="5" Duration="0:0:2"  
+                     EnableDependentAnimation="True"/>
+
+    <!-- Create an animation that repeats twice. -->
+    <DoubleAnimation x:Name="TwiceRepeatingAnimation"
+                     Storyboard.TargetName="TwiceRepeatingTransform" 
+                     Storyboard.TargetProperty="ScaleX" 
+                     From="1" To="5" Duration="0:0:2"  
+                     EnableDependentAnimation="True"/>
+</Storyboard>
+```
+
+```csharp
+private void Start_Animation(object sender, RoutedEventArgs e)
+{
+    // Set RepeatBehavior of Forever.
+    var repeatBehavior = new RepeatBehavior();
+    repeatBehavior.Type = RepeatBehaviorType.Forever;
+    ForeverRepeatingAnimation.RepeatBehavior = repeatBehavior;
+
+    // Set RepeatBehavior with Duration of 4 seconds.
+    FourSecondsRepeatingAnimation.RepeatBehavior = new RepeatBehavior(new TimeSpan(0, 0, 4));
+
+    // Set RepeatBehavior with Count of 2.
+    TwiceRepeatingAnimation.RepeatBehavior = new RepeatBehavior(2);
+
+    myStoryboard.Begin();
+}
+```
 
 ## -see-also
