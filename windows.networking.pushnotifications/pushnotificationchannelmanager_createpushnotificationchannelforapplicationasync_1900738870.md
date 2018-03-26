@@ -22,7 +22,7 @@ The object, bound to the app specified in *applicationId*, that is used to reque
 ## -remarks
 Tile update, toast, and badge notifications that arrive on this channel are delivered to the app's main or default tile.
 
-An exception is thrown if you attempt to register a WNS push notification channel when there is no data connection. For a list of error codes that can be received, see [CreatePushNotificationChannelForApplicationAsync](pushnotificationchannelmanager_createpushnotificationchannelforapplicationasync.md).
+An exception is thrown if you attempt to register a WNS push notification channel when there is no data connection.
 
 ## -examples
 

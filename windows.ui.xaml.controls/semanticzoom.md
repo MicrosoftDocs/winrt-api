@@ -65,7 +65,5 @@ When you use a [GridView](gridview.md) in a [SemanticZoom](semanticzoom.md) cont
 </tr>
 </table>
 
-For more examples, download the [XAML GridView grouping and SemanticZoom sample](http://go.microsoft.com/fwlink/p/?linkid=226564).
-
 ## -see-also
 [Control](control.md), [SemanticZoom styles and templates](http://msdn.microsoft.com/library/7d34cb53-d6d0-4856-b495-166b67d896c4), [Semantic zoom overview](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/semantic-zoom), [GridView](gridview.md), [Hub](hub.md), [ListView](listview.md),
