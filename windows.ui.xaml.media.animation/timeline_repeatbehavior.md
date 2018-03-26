@@ -27,6 +27,8 @@ An iteration **Count** that specifies the number of times the timeline should pl
 
 ## -remarks
 
+For more info and examples, see the [RepeatBehavior](repeatbehavior.md) Struct.
+
 ## -examples
 
 ## -see-also
