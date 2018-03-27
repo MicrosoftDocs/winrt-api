@@ -13,6 +13,7 @@ public class InkToolbarStencilButton : InkToolbarMenuButton, InkToolbarMenuButto
 Represents an [InkToolbar](inktoolbar.md) button that sets the state of stencil tool to on or off.
 
 ## -remarks
+Apps that target Windows Creators Update (SDK 15063) or later should use this object instead of [InkToolbarRulerButton](inktoolbarrulerbutton.md). If your app also supports previous versions, see [Version adaptive apps: Use new APIs while maintaining compatibility with previous versions](https://docs.microsoft.com/windows/uwp/debug-test-perf/version-adaptive-apps) for more info.
 
 ## -examples
 
