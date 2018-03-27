@@ -10,20 +10,101 @@ public interface ICommand :
 # Windows.UI.Xaml.Input.ICommand
 
 ## -description
-Defines the contract for commanding.
-
-
-
-> **.NET**
-> This interface appears as [System.Windows.Input.ICommand](https://msdn.microsoft.com/library/system.windows.input.icommand.aspx).
+Defines the command behavior of an interactive UI element that performs an action when invoked, such as sending an email, deleting an item, or submitting a form.
 
 ## -remarks
-When programming with .NET, this interface is hidden and developers should use the [System.Windows.Input.ICommand](https://msdn.microsoft.com/library/system.windows.input.icommand.aspx) interface.
-
-> [!NOTE]
-> Older versions of .NET reference documentation (3.0) indicate that the [System.Windows.Input.ICommand](https://msdn.microsoft.com/library/system.windows.input.icommand.aspx) interface is defined in PresentationCore, which is a Windows Presentation Foundation (WPF) assembly. That is no longer the case, [System.Windows.Input.ICommand](https://msdn.microsoft.com/library/system.windows.input.icommand.aspx) is defined in the System.ObjectModel assembly, so you don't need to take Windows Presentation Foundation (WPF) dependencies in order to implement [ICommand](https://msdn.microsoft.com/library/system.windows.input.icommand.aspx).
+A basic example is a Button control, which is designed to make something happen when a user clicks it. There are two ways you can make something happen:
+- Handle the Click event
+- Bind the Command property to an ICommand implementation that describes the command logic
 
 ## -examples
+Here, we define a command that simply relays its functionality to other objects.
+
+See the [UI basics (XAML) sample](https://github.com/Microsoft/Windows-universal-samples/tree/6370138b150ca8a34ff86de376ab6408c5587f5d/Samples/XamlUIBasics) for the complete application.
+
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Input;
+namespace AppUIBasics.Common
+{
+    /// <summary>
+    /// A command whose sole purpose is to relay its functionality 
+    /// to other objects by invoking delegates. 
+    /// The default return value for the CanExecute method is 'true'.
+    /// RaiseCanExecuteChanged needs to be called whenever
+    /// CanExecute is expected to return a different value.
+    /// </summary>
+    public class RelayCommand : ICommand
+    {
+        private readonly Action _execute;
+        private readonly Func<bool> _canExecute;
+        /// <summary>
+        /// Raised when RaiseCanExecuteChanged is called.
+        /// </summary>
+        public event EventHandler CanExecuteChanged;
+        /// <summary>
+        /// Creates a new command that can always execute.
+        /// </summary>
+        /// <param name="execute">The execution logic.</param>
+        public RelayCommand(Action execute)
+            : this(execute, null)
+        {
+        }
+        /// <summary>
+        /// Creates a new command.
+        /// </summary>
+        /// <param name="execute">The execution logic.</param>
+        /// <param name="canExecute">The execution status logic.</param>
+        public RelayCommand(Action execute, Func<bool> canExecute)
+        {
+            if (execute == null)
+                throw new ArgumentNullException("execute");
+            _execute = execute;
+            _canExecute = canExecute;
+        }
+        /// <summary>
+        /// Determines whether this RelayCommand can execute in its current state.
+        /// </summary>
+        /// <param name="parameter">
+        /// Data used by the command. If the command does not require data to be passed, 
+        /// this object can be set to null.
+        /// </param>
+        /// <returns>true if this command can be executed; otherwise, false.</returns>
+        public bool CanExecute(object parameter)
+        {
+            return _canExecute == null ? true : _canExecute();
+        }
+        /// <summary>
+        /// Executes the RelayCommand on the current command target.
+        /// </summary>
+        /// <param name="parameter">
+        /// Data used by the command. If the command does not require data to be passed, 
+        /// this object can be set to null.
+        /// </param>
+        public void Execute(object parameter)
+        {
+            _execute();
+        }
+        /// <summary>
+        /// Method used to raise the CanExecuteChanged event
+        /// to indicate that the return value of the CanExecute
+        /// method has changed.
+        /// </summary>
+        public void RaiseCanExecuteChanged()
+        {
+            var handler = CanExecuteChanged;
+            if (handler != null)
+            {
+                handler(this, EventArgs.Empty);
+            }
+        }
+    }
+}
+```
 
 ## -see-also
 
