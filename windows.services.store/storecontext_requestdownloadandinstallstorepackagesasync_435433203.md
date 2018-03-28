@@ -17,7 +17,7 @@ Attempts to download and install the specified downloadable content (DLC) packag
 
 ## -parameters
 ### -param storeIds
-The Store IDs of the DLC packages to install.
+The Store IDs of the DLC add-on packages to install.
 
 ### -param storePackageInstallOptions
 An object that specifies the install options for the operation.
@@ -45,6 +45,6 @@ The method that you assign to handle [Progress](../windows.foundation/iasyncoper
 > DLC packages are not available to all developer accounts.
 
 ## -see-also
-[DownloadAndInstallStorePackagesAsync](storecontext_downloadandinstallstorepackagesasync_1940804668.md)
+[DownloadAndInstallStorePackagesAsync](storecontext_downloadandinstallstorepackagesasync_1940804668.md),[Optional packages and related set authoring](https://docs.microsoft.com/windows/uwp/packaging/optional-packages)
 
 ## -examples

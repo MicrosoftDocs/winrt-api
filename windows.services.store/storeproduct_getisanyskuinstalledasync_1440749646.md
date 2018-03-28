@@ -19,8 +19,9 @@ An asynchronous operation that, on successful completion, returns true if a SKU 
 To determine whether the product has downloadable content, use the [HasDigitalDownload](storeproduct_hasdigitaldownload.md) property.
 
 > [!NOTE]
-> Downloadable content (DLC) is a feature that is not available to all developer accounts.
+> Downloadable content (DLC) packages are not available to all developer accounts.
 
 ## -examples
 
 ## -see-also
+[Optional packages and related set authoring](https://docs.microsoft.com/windows/uwp/packaging/optional-packages)

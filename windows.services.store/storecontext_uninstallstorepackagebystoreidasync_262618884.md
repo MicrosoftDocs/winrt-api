@@ -33,7 +33,7 @@ When you call this method, the OS silently uninstalls the package without displa
 The Store ID for an add-on is available in the Windows Dev Center dashboard, and it also is returned by the [StoreId](storeproduct_storeid.md) property of the [StoreProduct](storeproduct.md) that represents the add-on. For more information, see [Store IDs](https://docs.microsoft.com/windows/uwp/monetize/in-app-purchases-and-trials#store-ids).
 
 ## -see-also
-[UninstallStorePackageAsync](storecontext_uninstallstorepackageasync_597217492.md),[RequestUninstallStorePackageAsync](storecontext_requestuninstallstorepackageasync_1329597038.md),[RequestUninstallStorePackageByStoreIdAsync](storecontext_requestuninstallstorepackagebystoreidasync_1267943069.md)
+[UninstallStorePackageAsync](storecontext_uninstallstorepackageasync_597217492.md),[RequestUninstallStorePackageAsync](storecontext_requestuninstallstorepackageasync_1329597038.md),[RequestUninstallStorePackageByStoreIdAsync](storecontext_requestuninstallstorepackagebystoreidasync_1267943069.md), [Optional packages and related set authoring](https://docs.microsoft.com/windows/uwp/packaging/optional-packages)
 
 ## -examples
 

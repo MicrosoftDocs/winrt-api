@@ -18,6 +18,6 @@ Represents options that can be specified when using the [RequestDownloadAndInsta
 > DLC packages are not available to all developer accounts.
 
 ## -see-also
-[RequestDownloadAndInstallStorePackagesAsync](storecontext_requestdownloadandinstallstorepackagesasync_435433203.md)
+[RequestDownloadAndInstallStorePackagesAsync](storecontext_requestdownloadandinstallstorepackagesasync_435433203.md), [Optional packages and related set authoring](https://docs.microsoft.com/windows/uwp/packaging/optional-packages)
 
 ## -examples

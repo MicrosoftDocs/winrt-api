@@ -10,11 +10,11 @@ public Windows.Foundation.IAsyncOperation<Windows.Services.Store.StoreAcquireLic
 # Windows.Services.Store.StoreContext.AcquireStoreLicenseForOptionalPackageAsync
 
 ## -description
-Acquires a license for the specified downloadable content (DLC) package for the current app.
+Acquires a license for the specified downloadable content (DLC) add-on package for the current app.
 
 ## -parameters
 ### -param optionalPackage
-The DLC package for which to acquire a license.
+The DLC add-on package for which to acquire a license.
 
 ## -returns
 An asynchronous operation that, on successful completion, returns a [StoreAcquireLicenseResult](storeacquirelicenseresult.md) object that contains the license.
@@ -26,3 +26,4 @@ An asynchronous operation that, on successful completion, returns a [StoreAcquir
 ## -examples
 
 ## -see-also
+[Optional packages and related set authoring](https://docs.microsoft.com/windows/uwp/packaging/optional-packages)
