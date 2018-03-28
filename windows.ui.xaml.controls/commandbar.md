@@ -30,9 +30,11 @@ Use a [CommandBar](commandbar.md) to provide users with quick access to your app
 By default, the [CommandBar](commandbar.md) shows a row of icon buttons and a "More" button, which is represented by an ellipsis [•••]. Here's the [CommandBar](commandbar.md) created by the example code shown later. It's shown in its default closed state.
 
 <img src="images/controls/CommandBar_Compact.png" alt="A compact command bar" />
+
 Here's the same [CommandBar](commandbar.md) shown in its open state. The labels show the main parts of the control.
 
 <img src="images/controls/CommandBar_Parts.png" alt="Parts of a command bar" />
+
 The [CommandBar](commandbar.md) is divided into 4 main areas:
 
 + The content area is shown on the left.
