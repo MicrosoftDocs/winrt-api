@@ -20,6 +20,7 @@ Data used by the command. If the command does not require data to be passed, thi
 **true** if this command can be executed; otherwise, **false**.
 
 ## -remarks
+Typically, a command source calls this method when the [CanExecuteChanged](icommand_canexecutechanged.md) event is raised.
 
 ## -examples
 
