@@ -10,7 +10,7 @@ public enum StoreCanLicenseStatus : int
 # Windows.Services.Store.StoreCanLicenseStatus
 
 ## -description
-Defines values that represent the license status for a downloadable content (DLC) add-on.
+Defines values that represent the license status for a downloadable content (DLC) add-on package.
 
 ## -enum-fields
 ### -field ServerError:4
@@ -31,6 +31,6 @@ The product can be licensed to the current user.
 ## -remarks
 
 ## -see-also
-[StoreCanAcquireLicenseResult.Status](storecanacquirelicenseresult_status.md),[CanAcquireStoreLicenseAsync(String)](storecontext_canacquirestorelicenseasync_871232308.md),[CanAcquireStoreLicenseAsync(Package)](storecontext_canacquirestorelicenseforoptionalpackageasync_846442686.mdd)
+[StoreCanAcquireLicenseResult.Status](storecanacquirelicenseresult_status.md),[CanAcquireStoreLicenseAsync(String)](storecontext_canacquirestorelicenseasync_871232308.md),[CanAcquireStoreLicenseAsync(Package)](storecontext_canacquirestorelicenseforoptionalpackageasync_846442686.mdd),[Optional packages and related set authoring](https://docs.microsoft.com/windows/uwp/packaging/optional-packages)
 
 ## -examples

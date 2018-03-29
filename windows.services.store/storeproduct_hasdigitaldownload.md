@@ -17,8 +17,9 @@ True if the product has optional downloadable content; otherwise, false.
 
 ## -remarks
 > [!NOTE]
-> Downloadable content (DLC) is a feature that is not available to all developer accounts.
+> Downloadable content (DLC) packages are not available to all developer accounts.
 
 ## -examples
 
 ## -see-also
+[Optional packages and related set authoring](https://docs.microsoft.com/windows/uwp/packaging/optional-packages)

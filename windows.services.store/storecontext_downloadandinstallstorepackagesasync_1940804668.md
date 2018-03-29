@@ -35,7 +35,7 @@ This operation will not block. The [IAsyncOperationWithProgress](../windows.foun
 The method that you assign to handle [Progress](../windows.foundation/iasyncoperationwithprogress_2_progress.md) notifications is called one time for each step in the download and installation process for each package in this request. The [Progress](../windows.foundation/iasyncoperationwithprogress_2_progress.md) handler receives a [StorePackageUpdateStatus](storepackageupdatestatus.md) argument that provides info about the package that raised the progress notification.
 
 ## -see-also
-[RequestDownloadAndInstallStorePackagesAsync](storecontext_requestdownloadandinstallstorepackagesasync_1733414901.md)
+[RequestDownloadAndInstallStorePackagesAsync](storecontext_requestdownloadandinstallstorepackagesasync_1733414901.md),[Optional packages and related set authoring](https://docs.microsoft.com/windows/uwp/packaging/optional-packages)
 
 ## -examples
 

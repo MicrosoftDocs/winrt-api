@@ -10,7 +10,7 @@ public class StoreAcquireLicenseResult : Windows.Services.Store.IStoreAcquireLic
 # Windows.Services.Store.StoreAcquireLicenseResult
 
 ## -description
-Provides response data for a request to acquire a downloadable content (DLC) package license.
+Provides response data for a request to acquire the license for a downloadable content (DLC) add-on package for the current app.
 
 ## -remarks
 The [StoreContext.AcquireStoreLicenseForOptionalPackageAsync](storecontext_acquirestorelicenseforoptionalpackageasync.md) method returns an object of this type.
@@ -21,3 +21,4 @@ The [StoreContext.AcquireStoreLicenseForOptionalPackageAsync](storecontext_acqui
 ## -examples
 
 ## -see-also
+[Optional packages and related set authoring](https://docs.microsoft.com/windows/uwp/packaging/optional-packages)

@@ -30,6 +30,6 @@ The Store ID for a an add-on is available in the Windows Dev Center dashboard, a
 > DLC packages are not available to all developer accounts.
 
 ## -see-also
-[RequestUninstallStorePackageAsync](storecontext_requestuninstallstorepackageasync_1329597038.md),[UninstallStorePackageAsync](storecontext_uninstallstorepackageasync_597217492.md),[UninstallStorePackageByStoreIdAsync](storecontext_uninstallstorepackagebystoreidasync_262618884.md)
+[RequestUninstallStorePackageAsync](storecontext_requestuninstallstorepackageasync_1329597038.md),[UninstallStorePackageAsync](storecontext_uninstallstorepackageasync_597217492.md),[UninstallStorePackageByStoreIdAsync](storecontext_uninstallstorepackagebystoreidasync_262618884.md), [Optional packages and related set authoring](https://docs.microsoft.com/windows/uwp/packaging/optional-packages)
 
 ## -examples
