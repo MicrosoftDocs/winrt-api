@@ -28,7 +28,7 @@ The description of the option item.
 
 ### -param icon
 
-The icon used by the option item.
+The icon used by the option item. The icon needs to be in the SVG file format.
 
 ## -remarks
 

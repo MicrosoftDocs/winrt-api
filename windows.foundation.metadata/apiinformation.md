@@ -17,3 +17,4 @@ Enables you to detect whether a specified member, type, or API contract is prese
 ## -examples
 
 ## -see-also
+[Version adaptive code](https://docs.microsoft.com/windows/uwp/debug-test-perf/version-adaptive-code)
