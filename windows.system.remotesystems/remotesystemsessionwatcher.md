@@ -24,7 +24,7 @@ This class is instantiated when the [RemoteSystemSession.CreateWatcher](RemoteSy
 > 2. In the Settings app on the host device, the "Share across devices" setting in the "Shared experiences" page under "System" must be “Everyone nearby”.
 > 3. Client and host apps must have the same PackageFamilyName.
 > 
-> RemoteSystemSession discovery may work via LAN discovery, but it isn’t guaranteed (depends on the network configuration).
+> Note: RemoteSystemSession discovery may work via LAN discovery, but it isn’t guaranteed (depends on the network configuration).
 
 ## -see-also
 
