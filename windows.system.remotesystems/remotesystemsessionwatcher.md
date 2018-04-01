@@ -21,7 +21,7 @@ This class is instantiated when the [RemoteSystemSession.CreateWatcher](RemoteSy
 > [!IMPORTANT]
 > RemoteSystemSession discovery requirements:
 > 1. Bluetooth must be be on, on both client and host devices.
-> 2. On the host device, the "Share Across Devices" setting in the "Shared Experiences" page (under System) in the Settings app must be “Everyone nearby”.
+> 2. In the Settings app on the host device, the "Share across devices" setting in the "Shared experiences" page under "System" must be “Everyone nearby”.
 > 3. Client and host apps must have the same PackageFamilyName.
 > 
 > RemoteSystemSession discovery may work via LAN discovery, but it isn’t guaranteed (depends on the network configuration).
