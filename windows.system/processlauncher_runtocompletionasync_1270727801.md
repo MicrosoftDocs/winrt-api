@@ -10,7 +10,7 @@ public Windows.Foundation.IAsyncOperation<Windows.System.ProcessLauncherResult> 
 # Windows.System.ProcessLauncher.RunToCompletionAsync
 
 ## -description
-Launches a new process.
+Launches a new process. This asynchronous function completes when the launched process terminates.
 
 ## -parameters
 ### -param fileName
@@ -20,7 +20,7 @@ The name of the process to launch.
 Arguments for running the process.
 
 ## -returns
-When this method completes, it returns the results of the process.
+When the asynchronous operation completes, it contains the exit code from the launched process.
 
 ## -remarks
 This API requires the use of the IoT **systemManagement** capability, and the inclusion of **iot** in the **IgnorableNamespaces** list. Users can add the following to their **Package.appmanifest**:`
