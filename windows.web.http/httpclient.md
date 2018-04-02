@@ -80,7 +80,7 @@ Windows::Foundation::IAsyncAction HttpClientExample()
 	{
 		auto response = co_await httpClient.GetStringAsync(uri);
 	}
-	catch (winrt::hresult_error ex)
+	catch (winrt::hresult_error const& ex)
 	{
 		// Details in ex.message and ex.code.
 	}
