@@ -28,12 +28,11 @@ Permission is for pointer lock.
 ### -field WebNotifications:4
 Permission is for web notifications.
 
-
 ### -field Screen:5
+Permission is for screen capture.
 
-
-### -field WebVR:6
-
+### -field ImmersiveView:6
+Permission is for immersive view (WebVR).
 
 ## -remarks
 This enumeration provides values for the [WebViewPermissionRequest.PermissionType](webviewpermissionrequest_permissiontype.md) and [WebViewDeferredPermissionRequest.PermissionType](webviewdeferredpermissionrequest_permissiontype.md) properties.
@@ -41,6 +40,8 @@ This enumeration provides values for the [WebViewPermissionRequest.PermissionTyp
 Permission type **PointerLock** is available starting in Windows 10, version 1511.
 
 Permission type **WebNotifications** is available starting in Windows 10, version 1607.
+
+Permission types **Screen** and **ImmersiveView** are available starting in Windows 10, version 1803.
 
 ## -examples
 
