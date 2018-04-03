@@ -4,7 +4,7 @@
 ---
 
 <!-- Method syntax.
-public void CompositionDebugHeatMaps.ShowMemoryUsage(Visual subtreeVisual)
+public void CompositionDebugHeatMaps.ShowMemoryUsage(Visual subtree)
 -->
 
 # Windows.UI.Composition.Diagnostics.CompositionDebugHeatMaps.ShowMemoryUsage
@@ -14,7 +14,7 @@ public void CompositionDebugHeatMaps.ShowMemoryUsage(Visual subtreeVisual)
 Shows a graphical representation of the GPU memory used by the app.
 
 ## -parameters
-### -param subtreeVisual
+### -param subtree
 
 The part of the visual tree for which to show texture memory usage.
 
