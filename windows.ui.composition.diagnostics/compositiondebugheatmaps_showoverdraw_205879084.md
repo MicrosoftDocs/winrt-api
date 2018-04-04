@@ -4,7 +4,7 @@
 ---
 
 <!-- Method syntax.
-public void CompositionDebugHeatMaps.ShowOverdraw(Visual subtree, CompositionDebugOverdrawContentKinds contentKinds)
+public void CompositionDebugHeatMaps.ShowOverdraw(Visual subtreeVisual, CompositionDebugOverdrawContentKinds contentKinds)
 -->
 
 # Windows.UI.Composition.Diagnostics.CompositionDebugHeatMaps.ShowOverdraw
@@ -14,7 +14,7 @@ public void CompositionDebugHeatMaps.ShowOverdraw(Visual subtree, CompositionDeb
 Highlights pixels affected by multiple visuals at the same time.
 
 ## -parameters
-### -param subtree
+### -param subtreeVisual
 
 The part of the visual tree for which to show overdraw regions.
 
