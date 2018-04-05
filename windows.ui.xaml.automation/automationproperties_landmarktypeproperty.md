@@ -16,7 +16,7 @@ Gets the identifier for the landmark type attached property, which is a [Landmar
 The identifier for the landmark type attached property.
 
 ## -remarks
-The **LandmarkType** property describes an element that represents a group of elements. For example, a search landmark could represent a set of related controls for searching.
+The **LandmarkType** property describes a *landmark*, an element that represents a meaningful group of elements. For example, a search landmark could represent a set of controls related to searching. Landmarks have many similiarities with headings; for more information about how to use landmarks and headings, see [Landmarks and Headings](https://docs.microsoft.com/en-us/windows/uwp/design/accessibility/landmarks-and-headings).
 
 If **CustomLandmarkType** is used then [LocalizedLandmarkType](automationproperties_getlocalizedlandmarktype.md) is required to describe the custom landmark.
 
