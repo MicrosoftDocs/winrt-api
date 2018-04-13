@@ -11,7 +11,7 @@ public Windows.Perception.Spatial.SpatialLocation TryLocateAtTimestamp(Windows.P
 # Windows.Perception.Spatial.SpatialLocator.TryLocateAtTimestamp
 
 ## -description
-Creates a SpatialLocation representing the device's location at the specified timestamp. The coordinates within are expressed relative to the supplied coordinate system.
+Returns a SpatialLocation representing the device's location at the specified timestamp. The coordinates within are expressed relative to the supplied coordinate system. If the device cannot be located in that coordinate system at the specified timestamp, the return value will be null. This can happen when the device has lost tracking, for example.
 
 ## -parameters
 ### -param timestamp
