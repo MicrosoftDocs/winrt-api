@@ -25,7 +25,9 @@ Represents a visual behavior that occurs for predefined actions or state changes
 + [PopupThemeTransition](popupthemetransition.md)
 + [ReorderThemeTransition](reorderthemetransition.md)
 + [RepositionThemeTransition](repositionthemetransition.md)
-For each of these classes, you typically define object elements. Most theme transitions don't have additional attributes, so you typically use a basic self-closing object element for example `<PopupThemeTransition />`. These are used to populate a [TransitionCollection](transitioncollection.md) property. Those properties include: 
+
+For each of these classes, you typically define object elements. Most theme transitions don't have additional attributes, so you typically use a basic self-closing object element, for example `<PopupThemeTransition />`. These are used to populate a [TransitionCollection](transitioncollection.md) property. Those properties include: 
+
 + [Border.ChildTransitions](../windows.ui.xaml.controls/border_childtransitions.md)
 + [ContentControl.ContentTransitions](../windows.ui.xaml.controls/contentcontrol_contenttransitions.md)
 + [ContentPresenter.ContentTransitions](../windows.ui.xaml.controls/contentpresenter_contenttransitionsproperty.md)
