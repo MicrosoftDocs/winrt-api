@@ -11,6 +11,7 @@ public class HidBooleanControl : Windows.Devices.HumanInterfaceDevice.IHidBoolea
 # Windows.Devices.HumanInterfaceDevice.HidBooleanControl
 
 ## -description
+
 Represents a simple Boolean control on a HID device that returns on/off values. An example would be the LED light on a keyboard.
 
 ## -remarks

@@ -30,4 +30,20 @@ This namespace supports most HID devices. However, it blocks the top-level appli
 ## -examples
 
 ## -see-also
-[Apps for HID devices]( http://go.microsoft.com/fwlink/p/?LinkID=317592), [How to specify device capabilities for HID](http://msdn.microsoft.com/library/4c5c4ab6-e1d1-4631-ab8e-f0c33af8b464), [Sample Windows Runtime app for HID](http://go.microsoft.com/fwlink/p/?LinkID=391699), [Supporting human interface devices (HID)](http://msdn.microsoft.com/library/469bc2b7-ac21-40ed-a515-bace31e22634), [Custom HID device sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620527)
+
+### Conceptual
+
+[How to specify device capabilities for HID](http://msdn.microsoft.com/library/4c5c4ab6-e1d1-4631-ab8e-f0c33af8b464)
+
+[Supporting human interface devices (HID)](http://msdn.microsoft.com/library/469bc2b7-ac21-40ed-a515-bace31e22634)
+
+### Samples
+
+[Sample Windows Runtime app for HID](http://go.microsoft.com/fwlink/p/?LinkID=391699)
+
+[Custom HID device sample](https://github.com/Microsoft/Windows-universal-samples/tree/6370138b150ca8a34ff86de376ab6408c5587f5d/Samples/CustomHidDeviceAccess)
+
+### Video
+
+[Apps for HID devices]( http://go.microsoft.com/fwlink/p/?LinkID=317592)
+
