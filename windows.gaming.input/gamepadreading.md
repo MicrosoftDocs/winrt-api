@@ -19,7 +19,7 @@ Time when the state was retrieved from the gamepad.
     
 
 ### -field Buttons
-The state of the gamepad's buttons.
+The state of the gamepad's buttons. This will be a combination of values in the [GamepadButtons](gamepadbuttons.md) enumeration.
     
 
 ### -field LeftTrigger

@@ -14,7 +14,7 @@ Gets the the collection of key combinations that invoke an action using the keyb
 
 Accelerators are typically assigned to buttons or menu items.
 
-<img src="images/keyboard-accelerators.png" alt="Example of a menu showing keyboard accelerators for various menu items">
+![Example of a menu showing keyboard accelerators for various menu items](images/keyboard-accelerators.png)
 
 *Example of a menu showing keyboard accelerators for various menu items*
 

@@ -18,10 +18,6 @@ Devices issue input reports to describe state changes, user-input, and other dev
 ## -remarks
 The following example demonstrates how a UWP app built with XAML and C# uses the **GetInputReportAsync** method to obtain an input report.
 
-
-
-
-
 ```css
 using System;
 using System.Collections.Generic;
@@ -90,3 +86,7 @@ namespace HidSampleCS
 ## -examples
 
 ## -see-also
+
+### Samples
+
+[Custom HID device sample](https://github.com/Microsoft/Windows-universal-samples/tree/6370138b150ca8a34ff86de376ab6408c5587f5d/Samples/CustomHidDeviceAccess)

@@ -24,8 +24,7 @@ protected override void OnNavigatedTo(NavigationEventArgs e)
 {
     base.OnNavigatedTo(e);
 
-    Windows.ApplicationModel.UserActivities.UserActivityRequestManager requestMgr;
-    Windows.ApplicationModel.UserActivities.UserActivityRequestManager.GetForCurrentView(out requestMgr);
+    Windows.ApplicationModel.UserActivities.UserActivityRequestManager requestMgr = Windows.ApplicationModel.UserActivities.UserActivityRequestManager.GetForCurrentView();
     requestManager.UserActivityRequested += UserActivityRequested;
 }
 

@@ -21,9 +21,7 @@ Heading elements organize the user interface and make it easier to navigate. Som
 The heading level property value is returned by the [GetHeadingLevel](automationproperties_getheadinglevel_655629781.md) method.
 
 ## -see-also
-[GetHeadingLevel](automationproperties_getheadinglevel_655629781.md)  
-[SetHeadingLevel](automationproperties_setheadinglevel_870496555.md)  
-[Landmarks and Headings](https://docs.microsoft.com/windows/uwp/design/accessibility/landmarks-and-headings)
+[GetHeadingLevel](automationproperties_getheadinglevel_655629781.md), [SetHeadingLevel](automationproperties_setheadinglevel_870496555.md), [Landmarks and Headings](https://docs.microsoft.com/windows/uwp/design/accessibility/landmarks-and-headings)
 
 ## -examples
 ```xaml

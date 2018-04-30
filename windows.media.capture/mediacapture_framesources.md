@@ -18,7 +18,7 @@ A read-only dictionary of [MediaFrameSource](../windows.media.capture.frames/med
 ## -remarks
 Initialize a [MediaCapture](mediacapturememorypreference.md) object to use media frame sources by setting the [SourceGroup](mediacaptureinitializationsettings_sourcegroup.md) property of the [MediaCaptureInitializationSettings](mediacaptureinitializationsettings.md) object to a [MediaFrameSourceGroup](../windows.media.capture.frames/mediaframesourcegroup.md) returned by [FindAllAsync](../windows.media.capture.frames/mediaframesourcegroup_findallasync.md) and then calling [MediaCapture.InitializeAsync](mediacapture_initializeasync.md). The key for each entry in the dictionary is the [Id](../windows.media.capture.frames/mediaframesourceinfo_id.md) property of the [MediaFrameSourceInfo](../windows.media.capture.frames/mediaframesourceinfo.md) associated with each frame source in the group.
 
-For more information on using frame sources, see [Process media frames with MediaFrameReader](https://msdn.microsoft.com/en-us/windows/uwp/audio-video-camera/process-media-frames-with-mediaframereader).
+For more information on using frame sources, see [Process media frames with MediaFrameReader](https://msdn.microsoft.com/windows/uwp/audio-video-camera/process-media-frames-with-mediaframereader).
 
 ## -examples
 
