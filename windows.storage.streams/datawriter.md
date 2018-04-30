@@ -13,7 +13,7 @@ public class DataWriter : Windows.Foundation.IClosable, Windows.Storage.Streams.
 Writes data to an output stream.
 
 ## -remarks
-Instances of DataWriter objects do not support concurrent writes. An attempt to write concurrently or detach a stream from a DataWriter instance that is being written to will result in methods failing with the error ERROR_INVALID_OPERATION. 
+Instances of DataWriter objects do not support concurrent writes. If an application concurrently writes or detaches a stream from a DataWriter instance that is being written to the call to the object will fail with the error HRESULT_FROM_WIN32(ERROR_INVALID_OPERATION).
 
 ## -examples
 The following example shows how to write and read strings to an in-memory stream. For the full code sample, see [Reading and writing data sample](http://go.microsoft.com/fwlink/p/?linkid=231581).
