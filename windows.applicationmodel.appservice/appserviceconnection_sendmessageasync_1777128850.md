@@ -21,7 +21,12 @@ An asynchronous operation to send the message that optionally returns a response
 
 ## -remarks
 
+Message delivery is not  guaranteed. The [AppServiceResponseStatus](appserviceresponsestatus.md) tells you whether delivery succeeded or not.
+
+When multiple messages are sent, [RequestReceived](appserviceconnection_requestreceived.md) is not guaranteed to fire in the same order that the messages were sent. This method is asynchronous, meaning that it will return whenever the work that needs to be done is complete. No ordering is enforced.
+
 ## -examples
 
 ## -see-also
+
 [ValueSet](../windows.foundation.collections/valueset.md), [IAsyncOperation](../windows.foundation/iasyncoperation_1.md), [AppServiceResponse](appserviceresponse.md)
