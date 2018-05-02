@@ -30,7 +30,10 @@ The status of the restart request.
 ## -see-also
 [Windows.ApplicationModel.Core.CoreApplication.RequestRestartAsyncForUser](coreapplication_requestrestartforuserasync_1889038893.md)
 
+[How to restart your app programmatically](https://blogs.windows.com/buildingapps/2017/07/28/restart-app-programmatically/#oPS3xDHQYpflJRkA.97)
+
 ## -examples
+
 ```csharp
 private async void DoMajorAppReconfiguration()
 {
