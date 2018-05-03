@@ -24,4 +24,4 @@ Array containing the data to write to the device.
 
 
 ## -capabilities
-lowLevelDevices
+&lt;DeviceCapability name="lowLevel" /&gt;

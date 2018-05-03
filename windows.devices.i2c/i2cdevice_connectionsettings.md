@@ -24,4 +24,4 @@ If you try to change the values of the [I2cConnectionSettings](i2cconnectionsett
 [I2cConnectionSettings](i2cconnectionsettings.md), [I2cConnectionSettings(Int32)](i2cconnectionsettings_i2cconnectionsettings.md), [I2cDevice.FromIdAsync](i2cdevice_fromidasync.md)
 
 ## -capabilities
-lowLevelDevices
+&lt;DeviceCapability name="lowLevel" /&gt;

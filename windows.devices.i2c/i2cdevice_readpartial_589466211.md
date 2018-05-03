@@ -27,4 +27,4 @@ A structure that contains information about the success of the read operation an
 [Read](i2cdevice_read.md), [I2cTransferResult](i2ctransferresult.md), [I2cTransferStatus](i2ctransferstatus.md), [WritePartial](i2cdevice_writepartial.md), [WriteReadPartial](i2cdevice_writereadpartial.md)
 
 ## -capabilities
-lowLevelDevices
+&lt;DeviceCapability name="lowLevel" /&gt;
