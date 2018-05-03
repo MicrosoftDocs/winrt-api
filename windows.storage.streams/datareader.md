@@ -13,6 +13,7 @@ public class DataReader : Windows.Foundation.IClosable, Windows.Storage.Streams.
 Reads data from an input stream.
 
 ## -remarks
+Instances of DataReader objects do not support concurrent read operations. If an application concurrently reads or detaches a stream from a DataReader instance that is being read from, the call to the object will fail with the error HRESULT_FROM_WIN32(ERROR_INVALID_OPERATION).
 
 ## -examples
 The following example shows how to write and read strings to an in-memory stream. For the full code sample, see [Serializing and deserializing data sample](http://go.microsoft.com/fwlink/p/?LinkId=620535).
