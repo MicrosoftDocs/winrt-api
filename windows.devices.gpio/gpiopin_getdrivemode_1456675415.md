@@ -23,4 +23,4 @@ An enumeration value that indicates the current drive mode for the GPIO pin. The
 [GpioPinDriveMode](gpiopindrivemode.md), [GpioPin.SetDriveMode](gpiopin_setdrivemode.md)
 
 ## -capabilities
-lowLevelDevices
+&lt;DeviceCapability name="lowLevel" /&gt;
