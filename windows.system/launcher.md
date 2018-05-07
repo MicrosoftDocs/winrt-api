@@ -18,7 +18,9 @@ Starts the default app associated with the specified file or URI.
 > : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://go.microsoft.com/fwlink/p/?linkid=258275) and [Using Windows Runtime objects in a multithreaded environment (.NET)](http://go.microsoft.com/fwlink/p/?linkid=258277).
 
 ## -examples
-**Launch a file contained in the app package**This example uses [LaunchFileAsync(IStorageFile) | launchFileAsync(IStorageFile)](launcher_launchfileasync_1594978114.md) to launch a file contained in the app package.
+**Launch a file contained in the app package**
+
+This example uses [LaunchFileAsync(IStorageFile) | launchFileAsync(IStorageFile)](launcher_launchfileasync_1594978114.md) to launch a file contained in the app package.
 
 ```javascript
 
@@ -41,17 +43,18 @@ Windows.ApplicationModel.Package.current.installedLocation.getFileAsync(imageFil
 ```
 
 ```csharp
-async void DefaultLaunch()
+async Task<bool> DefaultLaunch()
 {
    // Path to the file in the app package to launch
    string imageFile = @"images\test.png";
+   bool success = false;
 
    var file = await Windows.ApplicationModel.Package.Current.InstalledLocation.GetFileAsync(imageFile);
 
    if (file != null)
    {
       // Launch the retrieved file
-      var success = await Windows.System.Launcher.LaunchFileAsync(file);
+      success = await Windows.System.Launcher.LaunchFileAsync(file);
 
       if (success)
       {
@@ -66,6 +69,7 @@ async void DefaultLaunch()
    {
       // Could not find file
    }
+   return success;
 }
 ```
 

@@ -22,8 +22,15 @@ To support location tracking.
 ### -field SavingData:2
 To save data.
 
-
 ## -remarks
+
+Lifetime data for the various reasons:
+
+| Reason | Extended execution session lifetime |
+|----------|--------------------------------------------|
+| LocationTracking | No limit. Only one app at a time may request this reason. |
+| SavingData | 10 minutes maximum. |
+| Unspecified |  10 minutes maximum on battery power. No limit when the device is connected to power. |
 
 ## -examples
 
