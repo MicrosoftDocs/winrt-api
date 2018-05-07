@@ -27,4 +27,4 @@ The bus info requested.
 
 
 ## -capabilities
-lowLevelDevices
+&lt;DeviceCapability name="lowLevel" /&gt;

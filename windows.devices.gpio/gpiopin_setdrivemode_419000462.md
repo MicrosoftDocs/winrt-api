@@ -33,4 +33,4 @@ The pin is open in shared read-only mode. Close the pin and reopen it in exclusi
 [GpioPinDriveMode](gpiopindrivemode.md), [GpioPin.GetDriveMode](gpiopin_getdrivemode.md)
 
 ## -capabilities
-lowLevelDevices
+&lt;DeviceCapability name="lowLevel" /&gt;

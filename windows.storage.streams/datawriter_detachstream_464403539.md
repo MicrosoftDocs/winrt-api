@@ -16,6 +16,7 @@ Detaches the stream that is associated with the data writer.
 The detached stream.
 
 ## -remarks
+If a write operation is in progress when an application attempts to detach the stream, the call will fail with the error HRESULT_FROM_WIN32(ERROR_INVALID_OPERATION).
 
 ## -examples
 

@@ -20,4 +20,4 @@ Occurs when the value of the general-purpose I/O (GPIO) pin changes, either beca
 [GpioPinValueChangedEventArgs](gpiopinvaluechangedeventargs.md)
 
 ## -capabilities
-lowLevelDevices
+&lt;DeviceCapability name="lowLevel" /&gt;

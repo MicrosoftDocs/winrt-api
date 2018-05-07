@@ -30,4 +30,4 @@ A structure that contains information about whether both the read and write part
 [WriteRead](i2cdevice_writeread.md), [ReadPartial](i2cdevice_readpartial.md), [WritePartial](i2cdevice_writepartial.md), [I2cTransferResult](i2ctransferresult.md), [I2CTransferStatus](i2ctransferstatus.md)
 
 ## -capabilities
-lowLevelDevices
+&lt;DeviceCapability name="lowLevel" /&gt;

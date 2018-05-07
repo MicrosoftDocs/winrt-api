@@ -23,4 +23,4 @@ The pin number of the GPIO pin.
 [GpioController.PinCount](gpiocontroller_pincount.md)
 
 ## -capabilities
-lowLevelDevices
+&lt;DeviceCapability name="lowLevel" /&gt;
