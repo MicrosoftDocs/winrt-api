@@ -23,4 +23,4 @@ The data bit length.
 
 
 ## -capabilities
-lowLevelDevices
+&lt;DeviceCapability name="lowLevel" /&gt;

@@ -34,3 +34,4 @@ Returns a custom device.
 
 ## -capabilities
 optical
+iot:lowLevelDevices

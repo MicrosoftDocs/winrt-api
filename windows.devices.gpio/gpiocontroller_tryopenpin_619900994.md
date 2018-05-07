@@ -38,4 +38,4 @@ If the method returns true, the *pin* parameter receives an instance of a [GpioP
 [OpenPin](gpiocontroller_openpin.md), [GpioOpenStatus](gpioopenstatus.md)
 
 ## -capabilities
-lowLevelDevices
+&lt;DeviceCapability name="lowLevel" /&gt;

@@ -27,4 +27,4 @@ Array containing data read from the device.
 
 
 ## -capabilities
-lowLevelDevices
+&lt;DeviceCapability name="lowLevel" /&gt;

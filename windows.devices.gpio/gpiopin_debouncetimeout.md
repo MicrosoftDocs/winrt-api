@@ -23,4 +23,4 @@ The debounce timeout for the GPIO pin, which is an interval during which changes
 [ValueChanged](gpiopin_valuechanged.md)
 
 ## -capabilities
-lowLevelDevices
+&lt;DeviceCapability name="lowLevel" /&gt;

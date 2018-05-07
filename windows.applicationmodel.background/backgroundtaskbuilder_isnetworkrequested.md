@@ -10,14 +10,13 @@ public bool IsNetworkRequested { get;  set; }
 # Windows.ApplicationModel.Background.BackgroundTaskBuilder.IsNetworkRequested
 
 ## -description
-Indicates whether the background task needs network connectivity in order to run.
-
-Set [IsNetworkRequested](backgroundtaskbuilder_isnetworkrequested.md) to **true** to ensure that the network stays up while the background task runs. This tells the background task infrastructure to keep the network up while the task is executing, even if the device has entered Connected Standby mode (for example, when a phone's screen is turned off).
+Indicates whether to keep the network up while running the background task.
 
 ## -property-value
-A value indicating whether the background task requests network connectivity.
+`True`: ensure that the network is up while running the background task. `False`, otherwise.
 
 ## -remarks
+This property is applicable to desktops computers on which disconnected standby is implemented. Setting this property to `true` keeps the network up while the background task is executing, even if the device has entered Connected Standby mode.
 
 ## -examples
 

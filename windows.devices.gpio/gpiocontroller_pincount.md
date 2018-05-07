@@ -23,4 +23,4 @@ The number of pins on the GPIO controller. Some pins may not be available in use
 [OpenPin](gpiocontroller_openpin.md)
 
 ## -capabilities
-lowLevelDevices
+&lt;DeviceCapability name="lowLevel" /&gt;
