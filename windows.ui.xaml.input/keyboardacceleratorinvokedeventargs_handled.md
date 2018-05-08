@@ -13,7 +13,7 @@ public bool Handled { get;  set; }
 Gets or sets a value that marks the event as handled. 
 
 ## -property-value
-**true** to mark the event handled. **false** to leave the event unhandled. The default is **false**.
+**true** to mark the event handled; **false** to leave the event unhandled, which permits the event to potentially route further. The default is **false**.
 
 ## -remarks
 The keyboard accelerator event bubbles from the element that has the focus to the root Window element. If the event isn't handled, the framework looks for other accelerators outside of the bubbling path using a table of global accelerators. All accelerators are registered as global unless scoped using [ScopeOwner](keyboardaccelerator_scopeowner.md).

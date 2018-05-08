@@ -10,11 +10,13 @@ public event TypedEventHandler GazeEntered<GazeInputSourcePreview, GazeEnteredPr
 # Windows.Devices.Input.Preview.GazeInputSourcePreview.GazeEntered
 
 ## -description
-Occurs when the [gaze pointer](gazepointpreview.md) enters the hit test area of the element.
+
+Occurs when the eye-tracking device detects that the [gaze point](gazepointpreview.md) has entered the bounding area of the element.
 
 ## -remarks
 
 ## -see-also
+
 [GazeExited](gazeinputsourcepreview_gazeexited.md), [GazeMoved](gazeinputsourcepreview_gazemoved.md)
 
 ## -examples

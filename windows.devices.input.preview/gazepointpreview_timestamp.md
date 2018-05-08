@@ -10,9 +10,11 @@ public ulong Timestamp { get; }
 # Windows.Devices.Input.Preview.GazePointPreview.Timestamp
 
 ## -description
-Gets the time when the eye-tracking input occurred.
+
+Gets the time of the gaze point input event.
 
 ## -property-value
+
 The time, relative to the system boot time, in microseconds.
 
 ## -remarks
@@ -20,4 +22,3 @@ The time, relative to the system boot time, in microseconds.
 ## -see-also
 
 ## -examples
-

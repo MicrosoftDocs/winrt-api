@@ -10,10 +10,12 @@ public uint Id { get; }
 # Windows.Devices.Input.Preview.GazeDevicePreview.Id
 
 ## -description
-Gets a unique identifier for an eye-tracker device.
+
+Gets a unique identifier for the eye-tracking device.
 
 ## -property-value
-A unique identifier.
+
+The unique identifier.
 
 ## -remarks
 

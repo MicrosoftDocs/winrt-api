@@ -10,14 +10,17 @@ public IReference<Point> EyeGazePosition { get; }
 # Windows.Devices.Input.Preview.GazePointPreview.EyeGazePosition
 
 ## -description
-Gets the screen coordinates corresponding to where the user's eyes are pointing (within the hit test area of the element).
+
+Gets the location, derived from the position and orientation of the user's eyes, of the gaze point.
 
 ## -property-value
-The screen coordinates in device-independent pixel (DIP).
+
+The screen coordinates in device-independent pixel (DIP), relative to the bounding rectangle of the element.
 
 ## -remarks
 
 ## -see-also
+
 [HeadGazePosition](gazepointpreview_headgazeposition.md)
 
 ## -examples

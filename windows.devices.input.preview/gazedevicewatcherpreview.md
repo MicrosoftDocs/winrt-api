@@ -10,7 +10,8 @@ public class GazeDeviceWatcherPreview
 # Windows.Devices.Input.Preview.GazeDeviceWatcherPreview
 
 ## -description
-Supports monitoring the state of an eye-tracker device.
+
+Dynamically detects and enumerates eye-tracking devices, and receives event notifications when a device is added, removed, or updated after the initial enumeration.
 
 ## -remarks
 

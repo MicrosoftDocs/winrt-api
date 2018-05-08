@@ -10,6 +10,7 @@ public class GazeMovedPreviewEventArgs
 # Windows.Devices.Input.Preview.GazeMovedPreviewEventArgs
 
 ## -description
+
 Provides event data for the [GazeMoved](gazeinputsourcepreview_gazemoved.md) event.
 
 ## -remarks

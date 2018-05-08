@@ -10,9 +10,11 @@ public IAsyncOperation<bool> GazeDevicePreview.RequestCalibrationAsync()
 # Windows.Devices.Input.Preview.GazeDevicePreview.RequestCalibrationAsync
 
 ## -description
-Asynchronously requests that the eye-tracker device initiate calibration.
+
+Asynchronously requests the eye-tracking device start its calibration process.
 
 ## -returns
+
 True, if calibration completes successfully; otherwise, false.
 
 ## -remarks

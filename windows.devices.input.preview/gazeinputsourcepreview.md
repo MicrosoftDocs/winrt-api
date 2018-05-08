@@ -10,9 +10,12 @@ public class GazeInputSourcePreview
 # Windows.Devices.Input.Preview.GazeInputSourcePreview
 
 ## -description
-Supports the ability to track the eyes and head of the user identified by an eye-tracker device.
+
+Represents the eyes and head of the user identified by an eye-tracking device.
 
 ## -remarks
+
+This object is associated with an application's UI thread.
 
 ## -see-also
 
