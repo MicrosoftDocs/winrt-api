@@ -21,5 +21,9 @@ Gets or sets a value that indicates whether the [GazeMoved](gazeinputsourceprevi
 
 ## -see-also
 
+### Conceptual
+
+[Gaze interactions and eye tracking in UWP apps](https://docs.microsoft.com/windows/uwp/design/input/gaze-interactions)
+
 ## -examples
 

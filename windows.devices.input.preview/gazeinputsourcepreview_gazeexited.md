@@ -19,7 +19,14 @@ This event fires only in response to a [gaze point](gazepointpreview.md) leaving
 
 ## -see-also
 
-[GazeEntered](gazeinputsourcepreview_gazeentered.md), [GazeMoved](gazeinputsourcepreview_gazemoved.md)
+### Conceptual
+
+[Gaze interactions and eye tracking in UWP apps](https://docs.microsoft.com/windows/uwp/design/input/gaze-interactions)
+
+### Reference
+
+- [GazeEntered](gazeinputsourcepreview_gazeentered.md)
+- [GazeMoved](gazeinputsourcepreview_gazemoved.md)
 
 ## -examples
 

@@ -17,4 +17,9 @@ Provides basic properties for the gaze input point associated with a single eye-
 
 ## -see-also
 
+### Conceptual
+
+[Gaze interactions and eye tracking in UWP apps](https://docs.microsoft.com/windows/uwp/design/input/gaze-interactions)
+
 ## -examples
+

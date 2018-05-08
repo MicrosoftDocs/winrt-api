@@ -21,4 +21,9 @@ The time, relative to the system boot time, in microseconds.
 
 ## -see-also
 
+### Conceptual
+
+[Gaze interactions and eye tracking in UWP apps](https://docs.microsoft.com/windows/uwp/design/input/gaze-interactions)
+
 ## -examples
+

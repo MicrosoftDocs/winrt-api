@@ -19,7 +19,15 @@ This event can fire a lot. Be aware of the performance profile for code you put 
 
 ## -see-also
 
-[GazeMovedPreviewEventArgs](gazemovedprevieweventargs.md), [GazeExited](gazeinputsourcepreview_gazeexited.md), [GazeEntered](gazeinputsourcepreview_gazeentered.md)
+### Conceptual
+
+[Gaze interactions and eye tracking in UWP apps](https://docs.microsoft.com/windows/uwp/design/input/gaze-interactions)
+
+### Reference
+
+- [GazeMovedPreviewEventArgs](gazemovedprevieweventargs.md)
+- [GazeExited](gazeinputsourcepreview_gazeexited.md)
+- [GazeEntered](gazeinputsourcepreview_gazeentered.md)
 
 ## -examples
 

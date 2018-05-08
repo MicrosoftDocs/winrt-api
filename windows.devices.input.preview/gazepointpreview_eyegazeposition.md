@@ -21,6 +21,12 @@ The screen coordinates in device-independent pixel (DIP), relative to the boundi
 
 ## -see-also
 
+### Conceptual
+
+[Gaze interactions and eye tracking in UWP apps](https://docs.microsoft.com/windows/uwp/design/input/gaze-interactions)
+
+### Reference
+
 [HeadGazePosition](gazepointpreview_headgazeposition.md)
 
 ## -examples

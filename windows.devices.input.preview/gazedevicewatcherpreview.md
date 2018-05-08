@@ -17,5 +17,9 @@ Dynamically detects and enumerates eye-tracking devices, and receives event noti
 
 ## -see-also
 
+### Conceptual
+
+[Gaze interactions and eye tracking in UWP apps](https://docs.microsoft.com/windows/uwp/design/input/gaze-interactions)
+
 ## -examples
 

@@ -23,7 +23,9 @@ The most recent [gaze point](gazepointpreview.md) object retrieved by this metho
 
 ## -see-also
 
-[CurrentPoint](gazemovedprevieweventargs_currentpoint.md)
+### Conceptual
+
+[Gaze interactions and eye tracking in UWP apps](https://docs.microsoft.com/windows/uwp/design/input/gaze-interactions)
 
 ## -examples
 

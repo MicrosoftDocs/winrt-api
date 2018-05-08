@@ -19,6 +19,12 @@ Creates an object for monitoring the state of the eye-tracker device associated 
 
 ## -see-also
 
+### Conceptual
+
+[Gaze interactions and eye tracking in UWP apps](https://docs.microsoft.com/windows/uwp/design/input/gaze-interactions)
+
+### Reference
+
 [GetForCurrentView](gazeinputsourcepreview_getforcurrentview_1363600702.md)
 
 ## -examples

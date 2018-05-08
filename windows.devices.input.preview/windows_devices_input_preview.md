@@ -33,7 +33,10 @@ To use the gaze input APIs and access both internal and peripheral devices such 
 
 ## -see-also
 
-- [Gaze interactions](https://docs.microsoft.com/windows/uwp/design/input/gaze-interactions)
-- [Enable device capabilities](https://docs.microsoft.com/en-us/windows/uwp/devices-sensors/enable-device-capabilities)
+### Conceptual
+
+[Gaze interactions and eye tracking in UWP apps](https://docs.microsoft.com/windows/uwp/design/input/gaze-interactions)
+
+## -examples
 
 ## -examples

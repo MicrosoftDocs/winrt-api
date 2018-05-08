@@ -21,7 +21,9 @@ A [gaze pointer](gazepointpreview.md) object.
 
 ## -see-also
 
-[GetIntermediatePoints](gazemovedprevieweventargs_getintermediatepoints_1956108759.md)
+### Conceptual
+
+[Gaze interactions and eye tracking in UWP apps](https://docs.microsoft.com/windows/uwp/design/input/gaze-interactions)
 
 ## -examples
 

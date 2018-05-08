@@ -21,6 +21,10 @@ A [HidInputReport](..\windows.devices.input.preview\gazepointpreview_hidinputrep
 
 Devices issue input reports to describe state changes, user-input, and other device-specific data. For example, A HID eye-tracking sensor would use an input report to signal a gaze event.
 
-## -see-also
+### Conceptual
+
+[Gaze interactions and eye tracking in UWP apps](https://docs.microsoft.com/windows/uwp/design/input/gaze-interactions)
+
+## -examples
 
 ## -examples

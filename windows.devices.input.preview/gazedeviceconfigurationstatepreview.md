@@ -41,6 +41,12 @@ Use these values to confirm that the eye-tracking device is calibrated and ready
 
 ## -see-also
 
+### Conceptual
+
+[Gaze interactions and eye tracking in UWP apps](https://docs.microsoft.com/windows/uwp/design/input/gaze-interactions)
+
+### Reference
+
 [ConfigurationState](gazedevicepreview_configurationstate.md)
 
 ## -examples

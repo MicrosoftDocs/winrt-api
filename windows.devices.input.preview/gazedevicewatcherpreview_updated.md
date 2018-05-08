@@ -15,6 +15,13 @@ Occurs when an update is made to an existing eye-tracker device, such as calibra
 ## -remarks
 
 ## -see-also
+
+### Conceptual
+
+[Gaze interactions and eye tracking in UWP apps](https://docs.microsoft.com/windows/uwp/design/input/gaze-interactions)
+
+### Reference
+
 [GazeDeviceWatcherUpdatedPreviewEventArgs](gazedevicewatcherupdatedprevieweventargs.md)
 
 ## -examples

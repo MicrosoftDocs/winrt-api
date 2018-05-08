@@ -17,7 +17,14 @@ Occurs when the eye-tracking device detects that the [gaze point](gazepointprevi
 
 ## -see-also
 
-[GazeExited](gazeinputsourcepreview_gazeexited.md), [GazeMoved](gazeinputsourcepreview_gazemoved.md)
+### Conceptual
+
+[Gaze interactions and eye tracking in UWP apps](https://docs.microsoft.com/windows/uwp/design/input/gaze-interactions)
+
+### Reference
+
+- [GazeExited](gazeinputsourcepreview_gazeexited.md)
+- [GazeMoved](gazeinputsourcepreview_gazemoved.md)
 
 ## -examples
 
