@@ -19,5 +19,9 @@ Occurs when an existing eye-tracker device is no longer detected.
 
 ## -see-also
 
+### Conceptual
+
+[Gaze interactions and eye tracking in UWP apps](https://docs.microsoft.com/windows/uwp/design/input/gaze-interactions)
+
 ## -examples
 

@@ -17,6 +17,13 @@ Gets a reference to the eye-tracker device being monitored through the [GazeDevi
 ## -remarks
 
 ## -see-also
+
+### Conceptual
+
+[Gaze interactions and eye tracking in UWP apps](https://docs.microsoft.com/windows/uwp/design/input/gaze-interactions)
+
+### Reference
+
 [GazeDeviceWatcherPreview.Added](gazedevicewatcherpreview_added.md)
 
 ## -examples

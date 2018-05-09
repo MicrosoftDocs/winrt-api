@@ -10,21 +10,30 @@ public IVectorView<HidBooleanControlDescription> GazeDevicePreview.GetBooleanCon
 # Windows.Devices.Input.Preview.GazeDevicePreview.GetBooleanControlDescriptions
 
 ## -description
-Retrieves the boolean control descriptions for an eye-tracking device.
+
+Retrieves the boolean control descriptions for the eye-tracking device.
 
 ## -parameters
+
 ### -param usagePage
-The usage page associated with the device.
+
+The usage page for the eye-tracking device.
 
 ### -param usageId
-The usage associated with the device.
+
+The usage identifier for the eye-tracking device.
 
 ## -returns
+
 A vector of [HidNumericControlDescription](hidnumericcontroldescription.md) objects.
 
 ## -remarks
 
 ## -see-also
+
+### Conceptual
+
+[Gaze interactions and eye tracking in UWP apps](https://docs.microsoft.com/windows/uwp/design/input/gaze-interactions)
 
 ## -examples
 

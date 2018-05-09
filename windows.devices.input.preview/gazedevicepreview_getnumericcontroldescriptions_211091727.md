@@ -10,21 +10,30 @@ public IVectorView<HidNumericControlDescription> GazeDevicePreview.GetNumericCon
 # Windows.Devices.Input.Preview.GazeDevicePreview.GetNumericControlDescriptions
 
 ## -description
-Retrieves the numeric control descriptions for an eye-tracking device.
+
+Retrieves the numeric control description for the eye-tracking device.
 
 ## -parameters
+
 ### -param usagePage
-The usage page associated with the device.
+
+The usage page for the eye-tracking device.
 
 ### -param usageId
-The usage associated with the device.
+
+The usage identifier for the eye-tracking device.
 
 ## -returns
+
 A vector of [HidNumericControlDescription](hidnumericcontroldescription.md) objects.
 
 ## -remarks
 
 ## -see-also
+
+### Conceptual
+
+[Gaze interactions and eye tracking in UWP apps](https://docs.microsoft.com/windows/uwp/design/input/gaze-interactions)
 
 ## -examples
 
