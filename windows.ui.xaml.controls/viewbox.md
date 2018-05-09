@@ -54,4 +54,3 @@ The following example shows what happens when you change the [StretchDirection](
 
 ## -see-also
 [FrameworkElement](../windows.ui.xaml/frameworkelement.md)
-dows.ui.xaml/frameworkelement.md)
