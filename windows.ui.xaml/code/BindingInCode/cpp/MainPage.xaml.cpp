@@ -35,6 +35,7 @@ MainPage::MainPage()
 	b->Source = s;
 
 	// Attach the binding to the target.
+	TextBlock^ MyText = ref new TextBlock();
 	MyText->SetBinding(MyText->TextProperty, b);
 	//</SnippetBindingObject>
 }
