@@ -29,6 +29,7 @@ namespace BindingInCode
             b.Source = s;
             
             // Attach the binding to the target.
+            TextBlock MyText = new TextBlock();
             MyText.SetBinding(TextBlock.TextProperty, b);
             //</SnippetBindingObject>
         }
