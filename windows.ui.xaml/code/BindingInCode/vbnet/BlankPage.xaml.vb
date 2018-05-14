@@ -12,6 +12,7 @@
         b.Source = s
 
         'Attach the binding to the target 
+        Dim MyText As New TextBlock()
         MyText.SetBinding(TextBlock.TextProperty, b)
         '</SnippetBindingObject> 
     End Sub

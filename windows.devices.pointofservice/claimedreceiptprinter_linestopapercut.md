@@ -17,6 +17,10 @@ Gets the number of lines that must be advanced before cutting the receipt paper.
 The number of lines that must be advanced before cutting the receipt paper.
 
 ## -remarks
+Some printers position the cutting blade above the print head.
+This value specifies the number of blank lines required
+after the last line of a receipt
+in order to advance the last printed line past the cutting blade.
 
 ## -examples
 
