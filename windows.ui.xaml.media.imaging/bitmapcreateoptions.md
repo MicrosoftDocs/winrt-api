@@ -22,6 +22,8 @@ Loads images without using an existing image cache. This option should be select
 
 ## -remarks
 
+This enumeration is used by the [BitmapImage.CreateOptions](bitmapimage_createoptions.md) property. For more info, see [CreateOptions](bitmapimage_createoptions.md).
+
 ## -examples
 
 ## -see-also
