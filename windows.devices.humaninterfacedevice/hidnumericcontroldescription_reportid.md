@@ -12,7 +12,7 @@ public ushort ReportId { get; }
 
 ## -description
 
-Gets the identifier for the report associated with the given numeric control.
+Gets the report ID of the HID report that contains the usage or usage range for the given numeric control.
 
 ## -property-value
 

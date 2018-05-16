@@ -12,11 +12,11 @@ public int PhysicalMinimum { get; }
 
 ## -description
 
-Gets the physical minimum-value for the given control.
+Gets the lowest possible value for the given control after scaling is applied to the [LogicalMinimum](hidnumericcontroldescription_logicalminimum.md) value.
 
 ## -property-value
 
-The physical minimum value.
+The signed lower bound.
 
 ## -remarks
 

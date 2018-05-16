@@ -12,13 +12,15 @@ public uint ReportSize { get; }
 
 ## -description
 
-Gets the size, in bytes, of the given numeric control.
+Gets the size of the data field for the usage in a report.
 
 ## -property-value
 
-The report size (in bytes).
+The data field size (in bits).
 
 ## -remarks
+
+If [ReportCount](hidnumericcontroldescription_reportcount.md) is greater than one, each usage has a separate data field of this size.
 
 ## -examples
 

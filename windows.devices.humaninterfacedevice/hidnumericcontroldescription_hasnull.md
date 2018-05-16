@@ -18,6 +18,8 @@ Gets a Boolean value which indicates whether the control supports a null, or out
 
 True, if the control supports a null value; otherwise, false.
 
+True indicates that the data is not valid and should be ignored.
+
 ## -remarks
 
 ## -examples

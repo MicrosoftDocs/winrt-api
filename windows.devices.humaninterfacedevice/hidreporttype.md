@@ -12,22 +12,21 @@ public enum Windows.Devices.HumanInterfaceDevice.HidReportType : int
 
 ## -description
 
-Specifies a HID report type.
+Specifies a [HID report type](https://docs.microsoft.com/en-us/windows-hardware/drivers/hid/introduction-to-hid-concepts#reports).
 
 ## -enum-fields
 
 ### -field Input:0
 
-The report is an input report.
+The report is an Input Report.
 
 ### -field Output:1
 
-The report is an output report.
+The report is an Output Report.
 
 ### -field Feature:2
 
-The report is a feature report.
-
+The report is a Feature Report.
 
 ## -remarks
 

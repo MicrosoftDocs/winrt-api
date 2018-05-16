@@ -12,11 +12,11 @@ public Windows.Devices.HumanInterfaceDevice.HidReportType ReportType { get; }
 
 ## -description
 
-Gets the report type for the report associated with the given Boolean control.
+Gets the type of [HID report](https://docs.microsoft.com/en-us/windows-hardware/drivers/hid/introduction-to-hid-concepts#reports) associated with the given Boolean control.
 
 ## -property-value
 
-The report type.
+One of the report types: [HidFeatureReport](hidfeaturereport.md), [HidInputReport](hidinputreport.md), or [HidOutputReport](hidoutputreport.md).
 
 ## -remarks
 

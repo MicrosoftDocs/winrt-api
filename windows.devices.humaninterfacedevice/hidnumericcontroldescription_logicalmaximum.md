@@ -12,14 +12,16 @@ public int LogicalMaximum { get; }
 
 ## -description
 
-Gets the logical maximum value for the given control.
+Gets the highest possible value for the given control.
 
 ## -property-value
 
-The logical maximum value.
+The signed upper bound.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
+
+[PhysicalMaximum](hidnumericcontroldescription_physicalmaximum.md)

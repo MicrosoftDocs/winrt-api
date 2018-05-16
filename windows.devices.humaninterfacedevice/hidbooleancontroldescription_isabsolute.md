@@ -12,7 +12,7 @@ public bool IsAbsolute { get; }
 
 ## -description
 
-Gets a value indicating whether the given boolean control values are absolute or relative.
+Gets a value indicating whether the given boolean control values are absolute or relative (change in value from that previously reported).
 
 ## -property-value
 

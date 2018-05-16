@@ -12,11 +12,11 @@ public uint Unit { get; }
 
 ## -description
 
-Gets the unit associated with the given numeric control.
+Specifies the units of the usage, as described by the USB HID Standard.
 
 ## -property-value
 
-The report unit.
+The usage unit.
 
 ## -remarks
 
