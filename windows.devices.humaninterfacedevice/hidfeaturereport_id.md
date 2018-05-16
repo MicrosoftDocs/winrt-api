@@ -11,9 +11,11 @@ public ushort Id { get; }
 # Windows.Devices.HumanInterfaceDevice.HidFeatureReport.Id
 
 ## -description
-Retrieves the identifier associated with a given feature report.
+
+Gets the identifier associated with a given feature report.
 
 ## -property-value
+
 The feature report identifier.
 
 ## -remarks

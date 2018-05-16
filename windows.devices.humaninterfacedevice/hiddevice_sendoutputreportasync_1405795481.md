@@ -11,13 +11,17 @@ public Windows.Foundation.IAsyncOperation<uint> SendOutputReportAsync(Windows.De
 # Windows.Devices.HumanInterfaceDevice.HidDevice.SendOutputReportAsync
 
 ## -description
+
 Sends an output report asynchronously from the host to the device.
 
 ## -parameters
+
 ### -param outputReport
+
 The output report which the host sends to the device.
 
 ## -returns
+
 Specifies the count of bytes written to the device.
 
 ## -remarks

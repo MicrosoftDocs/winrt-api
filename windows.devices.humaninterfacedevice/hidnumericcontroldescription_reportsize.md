@@ -11,9 +11,11 @@ public uint ReportSize { get; }
 # Windows.Devices.HumanInterfaceDevice.HidNumericControlDescription.ReportSize
 
 ## -description
-Retrieves the size, in bytes, of the given numeric control.
+
+Gets the size, in bytes, of the given numeric control.
 
 ## -property-value
+
 The report size (in bytes).
 
 ## -remarks

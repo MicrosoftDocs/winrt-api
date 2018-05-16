@@ -11,9 +11,11 @@ public Windows.Devices.HumanInterfaceDevice.HidCollectionType Type { get; }
 # Windows.Devices.HumanInterfaceDevice.HidCollection.Type
 
 ## -description
-Retrieves the collection type.
+
+Gets the collection type.
 
 ## -property-value
+
 A **HidCollectionType** object.
 
 ## -remarks

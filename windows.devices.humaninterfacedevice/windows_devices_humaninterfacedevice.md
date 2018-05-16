@@ -6,6 +6,7 @@
 # Windows.Devices.HumanInterfaceDevice
 
 ## -description
+
 This namespace gives your UWP app access to devices that support the Human Interface Device (HID) protocol.
 
 For an introduction to the HID API, see [Supporting human interface devices (HID)](http://msdn.microsoft.com/library/469bc2b7-ac21-40ed-a515-bace31e22634).

@@ -11,9 +11,11 @@ public ushort UsageId { get; }
 # Windows.Devices.HumanInterfaceDevice.HidBooleanControl.UsageId
 
 ## -description
-Retrieves the usage identifier associated with the given Boolean control.
+
+Gets the usage identifier associated with the given Boolean control.
 
 ## -property-value
+
 The usage identifier.
 
 ## -remarks

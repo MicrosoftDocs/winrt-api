@@ -11,9 +11,11 @@ public Windows.Devices.HumanInterfaceDevice.HidReportType ReportType { get; }
 # Windows.Devices.HumanInterfaceDevice.HidBooleanControlDescription.ReportType
 
 ## -description
-Retrieves the report type for the report associated with the given Boolean control.
+
+Gets the report type for the report associated with the given Boolean control.
 
 ## -property-value
+
 The report type.
 
 ## -remarks

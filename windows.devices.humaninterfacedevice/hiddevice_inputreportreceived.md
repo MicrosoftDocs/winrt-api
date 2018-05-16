@@ -11,14 +11,17 @@ public event Windows.Foundation.TypedEventHandler InputReportReceived<Windows.De
 # Windows.Devices.HumanInterfaceDevice.HidDevice.InputReportReceived
 
 ## -description
+
 Establishes an event listener to handle input reports issued by the device when either [GetInputReportAsync()](hiddevice_getinputreportasync_2092816092.md) or [GetInputReportAsync(System.UInt16 reportId)](hiddevice_getinputreportasync_294410273.md) is called.
 
 ## -remarks
+
 This method waits for the device to interrupt the host when it has data to send. Internally, the HID WinRT API sends a IOCTL read request to a lower driver in the stack.
 
 The IOCTL is translated by the HID minidriver into a protocol-specific request. For a USB device, the minidriver translates this into an INTERRUPT IN request. And, for an I2C device that is running over the Microsoft HID-I2C miniport driver, the minidriver will wait for the device to assert an interrupt.
 
 ## -examples
+
 Here, we retrieve an input report (inputReport) and get the content of the report in the handler for the InputReportReceived event,  triggered when the asynchronous call completes.
 
 ```csharp

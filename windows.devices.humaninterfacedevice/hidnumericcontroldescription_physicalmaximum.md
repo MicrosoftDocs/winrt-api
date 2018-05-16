@@ -11,9 +11,11 @@ public int PhysicalMaximum { get; }
 # Windows.Devices.HumanInterfaceDevice.HidNumericControlDescription.PhysicalMaximum
 
 ## -description
-Retrieves the physical maximum-value for the given control.
+
+Gets the physical maximum-value for the given control.
 
 ## -property-value
+
 The physical maximum value.
 
 ## -remarks

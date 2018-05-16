@@ -11,16 +11,14 @@ public class HidOutputReport : Windows.Devices.HumanInterfaceDevice.IHidOutputRe
 # Windows.Devices.HumanInterfaceDevice.HidOutputReport
 
 ## -description
+
 Represents an output report.
 
 Hosts issue output reports to request changes on the device. For example, a host could issue a request to a keyboard to turn an LED on or off.
 
 ## -remarks
+
 The following example demonstrates how a UWP app built with XAML and C# uses the **CreateOutputReport** method to create an output report. This example then uses the **SendOutputReportAsync** method to send the report to the device.
-
-
-
-
 
 ```css
 using System;

@@ -11,9 +11,11 @@ public ushort ReportId { get; }
 # Windows.Devices.HumanInterfaceDevice.HidBooleanControlDescription.ReportId
 
 ## -description
-Retrieves the identifier for the report associated with the given Boolean control.
+
+Gets the identifier for the report associated with the given Boolean control.
 
 ## -property-value
+
 The report identifier.
 
 ## -remarks

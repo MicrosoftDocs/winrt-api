@@ -11,10 +11,12 @@ public bool HasNull { get; }
 # Windows.Devices.HumanInterfaceDevice.HidNumericControlDescription.HasNull
 
 ## -description
-Retrieves a Boolean value which indicates whether the control supports a null, or out-of-range, value.
+
+Gets a Boolean value which indicates whether the control supports a null, or out-of-range, value.
 
 ## -property-value
-True if the control supports a null value; false otherwise.
+
+True, if the control supports a null value; otherwise, false.
 
 ## -remarks
 

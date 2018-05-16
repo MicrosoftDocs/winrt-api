@@ -11,9 +11,11 @@ public int PhysicalMinimum { get; }
 # Windows.Devices.HumanInterfaceDevice.HidNumericControlDescription.PhysicalMinimum
 
 ## -description
-Retrieves the physical minimum-value for the given control.
+
+Gets the physical minimum-value for the given control.
 
 ## -property-value
+
 The physical minimum value.
 
 ## -remarks
