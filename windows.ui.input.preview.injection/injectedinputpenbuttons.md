@@ -12,9 +12,6 @@ public enum Windows.UI.Input.Preview.Injection.InjectedInputPenButtons : uint
 ## -description
 Specifies the pen options used to simulate pen input through [InjectedInputPenInfo](injectedinputpeninfo.md).
 
-> [!NOTE]
-> The APIs in this namespace require the inputInjectionBrokered [restricted capability](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities).
-
 ## -enum-fields
 ### -field None:0
 No pen buttons are pressed. Default.
@@ -28,8 +25,11 @@ The pen is inverted.
 ### -field Eraser:4
 The eraser button is pressed.
 
-
 ## -remarks
+
+> [!Important]
+> The APIs in this namespace require the inputInjectionBrokered [restricted capability](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities).
+
 Using input injection requires the following be added to the Package.appxmanifest:
 
 - To `<Package>`
@@ -42,4 +42,14 @@ Using input injection requires the following be added to the Package.appxmanifes
 ## -examples
 
 ## -see-also
-[Windows.UI.Input.Preview.Injection enumerations](windows_ui_input_preview_injection_enumerations.md)
+
+### Conceptual
+
+[Gaze interactions and eye tracking in UWP apps](https://docs.microsoft.com/windows/uwp/design/input/gaze-interactions)
+
+### Samples
+
+- [Simulate user input through input injection](https://review.docs.microsoft.com/windows/uwp/design/input/input-injection?branch=kbridge-inputinjection)
+- [Input injection sample (mouse to touch)](https://github.com/MicrosoftDocs/windows-topic-specific-samples/archive/uwp-input-injection-mouse-to-touch.zip)
+- [Touch injection sample](http://go.microsoft.com/fwlink/p/?LinkID=267906)
+- [Input: XAML user input events sample](http://go.microsoft.com/fwlink/p/?linkid=226855)

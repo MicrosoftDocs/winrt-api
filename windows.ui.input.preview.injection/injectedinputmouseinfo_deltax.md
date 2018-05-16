@@ -12,13 +12,14 @@ public int DeltaX { get;  set; }
 ## -description
 Gets or sets the change in value of an x-coordinate since the last mouse wheel event.
 
-> [!NOTE]
-> The APIs in this namespace require the inputInjectionBrokered [restricted capability](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities).
-
 ## -property-value
 The number of notches or distance thresholds crossed since the last pointer event. The default value is 0.
 
 ## -remarks
+
+> [!Important]
+> The APIs in this namespace require the inputInjectionBrokered [restricted capability](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities).
+
 Using input injection requires the following be added to the Package.appxmanifest:
 
 - To `<Package>`
@@ -43,3 +44,14 @@ A positive value indicates that the wheel was rotated forward (away from the use
 ## -examples
 
 ## -see-also
+
+### Conceptual
+
+[Gaze interactions and eye tracking in UWP apps](https://docs.microsoft.com/windows/uwp/design/input/gaze-interactions)
+
+### Samples
+
+- [Simulate user input through input injection](https://review.docs.microsoft.com/windows/uwp/design/input/input-injection?branch=kbridge-inputinjection)
+- [Input injection sample (mouse to touch)](https://github.com/MicrosoftDocs/windows-topic-specific-samples/archive/uwp-input-injection-mouse-to-touch.zip)
+- [Touch injection sample](http://go.microsoft.com/fwlink/p/?LinkID=267906)
+- [Input: XAML user input events sample](http://go.microsoft.com/fwlink/p/?linkid=226855)

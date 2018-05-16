@@ -12,9 +12,6 @@ public enum Windows.UI.Input.Preview.Injection.InjectedInputKeyOptions : uint
 ## -description
 Specifies the various options, or modifiers, used to simulate input from physical or virtual keyboards through [InjectedInputKeyboardInfo](injectedinputkeyboardinfo.md).
 
-> [!NOTE]
-> The APIs in this namespace require the inputInjectionBrokered [restricted capability](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities).
-
 ## -enum-fields
 ### -field None:0
 No keystroke modifier. Default.
@@ -31,8 +28,11 @@ The key is a Unicode value.
 ### -field ScanCode:8
 The OEM, device-dependent identifier for the key on the keyboard.A keyboard generates two scan codes when the user types a key—one when the user presses the key and another when the user releases the key.
 
-
 ## -remarks
+
+> [!Important]
+> The APIs in this namespace require the inputInjectionBrokered [restricted capability](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities).
+
 Using input injection requires the following be added to the Package.appxmanifest:
 
 - To `<Package>`
@@ -45,4 +45,14 @@ Using input injection requires the following be added to the Package.appxmanifes
 ## -examples
 
 ## -see-also
-[Windows.UI.Input.Preview.Injection enumerations](windows_ui_input_preview_injection_enumerations.md)
+
+### Conceptual
+
+[Gaze interactions and eye tracking in UWP apps](https://docs.microsoft.com/windows/uwp/design/input/gaze-interactions)
+
+### Samples
+
+- [Simulate user input through input injection](https://review.docs.microsoft.com/windows/uwp/design/input/input-injection?branch=kbridge-inputinjection)
+- [Input injection sample (mouse to touch)](https://github.com/MicrosoftDocs/windows-topic-specific-samples/archive/uwp-input-injection-mouse-to-touch.zip)
+- [Touch injection sample](http://go.microsoft.com/fwlink/p/?LinkID=267906)
+- [Input: XAML user input events sample](http://go.microsoft.com/fwlink/p/?linkid=226855)

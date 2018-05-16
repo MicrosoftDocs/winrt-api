@@ -12,9 +12,6 @@ public enum Windows.UI.Input.Preview.Injection.InjectedInputTouchParameters : ui
 ## -description
 Specifies the touch states used to simulate touch input through [InjectedInputTouchInfo](injectedinputtouchinfo.md).
 
-> [!NOTE]
-> The APIs in this namespace require the inputInjectionBrokered [restricted capability](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities).
-
 ## -enum-fields
 ### -field None:0
 No touch state reported. Default.
@@ -30,6 +27,10 @@ The force exerted by the pointer device on the surface of the digitizer.
 
 
 ## -remarks
+
+> [!Important]
+> The APIs in this namespace require the inputInjectionBrokered [restricted capability](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities).
+
 Using input injection requires the following be added to the Package.appxmanifest:
 
 - To `<Package>`
@@ -42,4 +43,14 @@ Using input injection requires the following be added to the Package.appxmanifes
 ## -examples
 
 ## -see-also
-[Windows.UI.Input.Preview.Injection enumerations](windows_ui_input_preview_injection_enumerations.md)
+
+### Conceptual
+
+[Gaze interactions and eye tracking in UWP apps](https://docs.microsoft.com/windows/uwp/design/input/gaze-interactions)
+
+### Samples
+
+- [Simulate user input through input injection](https://review.docs.microsoft.com/windows/uwp/design/input/input-injection?branch=kbridge-inputinjection)
+- [Input injection sample (mouse to touch)](https://github.com/MicrosoftDocs/windows-topic-specific-samples/archive/uwp-input-injection-mouse-to-touch.zip)
+- [Touch injection sample](http://go.microsoft.com/fwlink/p/?LinkID=267906)
+- [Input: XAML user input events sample](http://go.microsoft.com/fwlink/p/?linkid=226855)
