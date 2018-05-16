@@ -20,7 +20,7 @@ An [IIterable](../windows.foundation.collections/iiterable_1.md) list of strings
 Returns an [IAsyncOperation](../windows.foundation/iasyncoperation_1.md) object indicating that the task has completed and containing an [IMapView](../windows.foundation.collections/imapview_2.md) object with the requested attributes as Key/Value pairs.
 
 ## -remarks
-Supported values for the *attrbituesNames* parameter are potentially endless. There are many providers that hook in and can expose arbitrary values. There a handful of known attributes that are likely to be supported. In most cases, these are case sensitive:  
+Supported values for the *attributeNames* parameter are potentially endless. There are many providers that hook in and can expose arbitrary values. There a handful of known attributes that are likely to be supported. In most cases, these are case sensitive:  
 
 * App  
 * AppVer  
