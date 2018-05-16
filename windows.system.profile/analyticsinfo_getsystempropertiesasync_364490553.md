@@ -33,4 +33,17 @@ The intention of this method is to use this information only for analytics and n
 ## -see-also
 
 ## -examples
+``` Csharp
+using Windows.System.Profile;
 
+// ...
+ 
+var attrNames = new List<string>({"DeviceFamily", "OSVersionFull", "FlightRing"});
+var attrData = AnalyticsInfo.GetSystemPropertiesAsync(attrNames).AsTask().GetAwaiter().GetResult();
+
+// The map can be serialized and sent to a backend service for analytics or targeting 
+foreach (KeyValuePair<string, string> attr in attrData) 
+{ 
+    Console.WriteLine($"{attr.Key}={attr.Value}");
+}
+```
