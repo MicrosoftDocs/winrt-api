@@ -11,10 +11,12 @@ public int PhysicalMaximum { get; }
 # Windows.Devices.HumanInterfaceDevice.HidNumericControlDescription.PhysicalMaximum
 
 ## -description
-Retrieves the physical maximum-value for the given control.
+
+Gets the highest possible value for the given control after scaling is applied to the [LogicalMaximum](hidnumericcontroldescription_logicalmaximum.md)  value.
 
 ## -property-value
-The physical maximum value.
+
+The signed upper bound.
 
 ## -remarks
 

@@ -11,6 +11,7 @@ public class HidBooleanControlDescription : Windows.Devices.HumanInterfaceDevice
 # Windows.Devices.HumanInterfaceDevice.HidBooleanControlDescription
 
 ## -description
+
 Describes a Boolean control for a given HID device.
 
 ## -remarks

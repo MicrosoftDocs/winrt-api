@@ -11,10 +11,12 @@ public bool IsAbsolute { get; }
 # Windows.Devices.HumanInterfaceDevice.HidNumericControlDescription.IsAbsolute
 
 ## -description
-Retrieves a Boolean value indicating whether the given control values are absolute or relative.
+
+Gets a value indicating whether the given numeric control values are absolute or relative (change in value from that previously reported).
 
 ## -property-value
-True if the values are absolute; false if the values are relative.
+
+True, if the values are absolute; false if the values are relative.
 
 ## -remarks
 

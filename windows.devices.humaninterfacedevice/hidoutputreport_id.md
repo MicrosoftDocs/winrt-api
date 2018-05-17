@@ -11,9 +11,11 @@ public ushort Id { get; }
 # Windows.Devices.HumanInterfaceDevice.HidOutputReport.Id
 
 ## -description
-Retrieves the identifier associated with a given output report.
+
+Gets the identifier associated with a given output report.
 
 ## -property-value
+
 The output report identifier.
 
 ## -remarks

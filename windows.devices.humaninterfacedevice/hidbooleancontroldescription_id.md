@@ -11,9 +11,11 @@ public uint Id { get; }
 # Windows.Devices.HumanInterfaceDevice.HidBooleanControlDescription.Id
 
 ## -description
-Retrieves the identifier for a given Boolean control.
+
+Gets the identifier for a given Boolean control.
 
 ## -property-value
+
 The control identifier.
 
 ## -remarks

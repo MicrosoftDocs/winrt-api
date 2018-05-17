@@ -11,9 +11,11 @@ public Windows.Foundation.Collections.IVectorView<Windows.Devices.HumanInterface
 # Windows.Devices.HumanInterfaceDevice.HidInputReport.ActivatedBooleanControls
 
 ## -description
-Retrieves the currently activated Boolean controls for the given HID device.
+
+Gets the currently activated Boolean controls for the given HID device.
 
 ## -property-value
+
 A collection of Boolean controls.
 
 ## -remarks

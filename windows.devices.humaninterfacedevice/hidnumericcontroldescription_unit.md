@@ -11,10 +11,12 @@ public uint Unit { get; }
 # Windows.Devices.HumanInterfaceDevice.HidNumericControlDescription.Unit
 
 ## -description
-Retrieves the unit associated with the given numeric control.
+
+Specifies the units of the usage, as described by the USB HID Standard.
 
 ## -property-value
-The report unit.
+
+The usage unit.
 
 ## -remarks
 

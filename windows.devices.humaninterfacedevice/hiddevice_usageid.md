@@ -11,9 +11,11 @@ public ushort UsageId { get; }
 # Windows.Devices.HumanInterfaceDevice.HidDevice.UsageId
 
 ## -description
+
 Gets the usage identifier for the given HID device.
 
 ## -property-value
+
 The usage identifier.
 
 ## -remarks

@@ -11,6 +11,7 @@ public class HidCollection : Windows.Devices.HumanInterfaceDevice.IHidCollection
 # Windows.Devices.HumanInterfaceDevice.HidCollection
 
 ## -description
+
 Retrieves the collection information for a group of related controls.
 
 The HID protocol uses collections to group a set of controls that are similar to one another, or, are related by physical or operational proximity.

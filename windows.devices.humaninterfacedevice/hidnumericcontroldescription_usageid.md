@@ -11,9 +11,11 @@ public ushort UsageId { get; }
 # Windows.Devices.HumanInterfaceDevice.HidNumericControlDescription.UsageId
 
 ## -description
-Retrieves the usage identifier associated with the given numeric control.
+
+Gets the usage identifier associated with the given numeric control.
 
 ## -property-value
+
 The usage identifierl.
 
 ## -remarks

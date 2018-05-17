@@ -11,13 +11,17 @@ public Windows.Devices.HumanInterfaceDevice.HidBooleanControl GetBooleanControlB
 # Windows.Devices.HumanInterfaceDevice.HidInputReport.GetBooleanControlByDescription
 
 ## -description
+
 Retrieves the Boolean control described by the *controlDescription* parameter and found in the given input report.
 
 ## -parameters
+
 ### -param controlDescription
+
 A **HidBooleanControlDescription** object.
 
 ## -returns
+
 A **HidBooleanControl** object.
 
 ## -remarks

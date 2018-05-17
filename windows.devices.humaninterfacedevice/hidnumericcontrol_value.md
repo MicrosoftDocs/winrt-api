@@ -11,9 +11,11 @@ public long Value { get;  set; }
 # Windows.Devices.HumanInterfaceDevice.HidNumericControl.Value
 
 ## -description
-Retrieves, or sets, the numeric value for a given control.
+
+Gets or sets the numeric value for a given control.
 
 ## -property-value
+
 The control value.
 
 ## -remarks

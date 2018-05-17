@@ -11,9 +11,11 @@ public Windows.Storage.Streams.IBuffer Data { get;  set; }
 # Windows.Devices.HumanInterfaceDevice.HidFeatureReport.Data
 
 ## -description
-Retrieves, or sets, the data associated with a given feature report.
+
+Gets or sets the data associated with a given feature report.
 
 ## -property-value
+
 The feature-report data.
 
 ## -remarks
