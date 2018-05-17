@@ -11,16 +11,21 @@ public Windows.Devices.HumanInterfaceDevice.HidNumericControl GetNumericControl(
 # Windows.Devices.HumanInterfaceDevice.HidOutputReport.GetNumericControl
 
 ## -description
+
 Retrieves the numeric control associated with the given *usagePage* and *usageId*.
 
 ## -parameters
+
 ### -param usagePage
+
 The usage page associated with the given control.
 
 ### -param usageId
+
 The usage identifier associated with the given control.
 
 ## -returns
+
 A **HidNumericControl** l object.
 
 ## -remarks

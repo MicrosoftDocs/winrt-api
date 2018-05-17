@@ -12,9 +12,6 @@ public enum Windows.UI.Input.Preview.Injection.InjectedInputMouseOptions : uint
 ## -description
 Specifies the various options, or modifiers, used to simulate mouse input through [InjectedInputMouseInfo](injectedinputmouseinfo.md).
 
-> [!NOTE]
-> The APIs in this namespace require the inputInjectionBrokered [restricted capability](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities).
-
 ## -enum-fields
 ### -field None:0
 No mouse modifier. Default.
@@ -63,8 +60,11 @@ Normalized absolute coordinates between 0 and 65,535. If the flag is not set, re
 
 Coordinate (0,0) maps onto the upper-left corner of the display surface; coordinate (65535,65535) maps onto the lower-right corner. In a multi-monitor system, the coordinates map to the primary monitor.
 
-
 ## -remarks
+
+> [!Important]
+> The APIs in this namespace require the inputInjectionBrokered [restricted capability](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities).
+
 Using input injection requires the following be added to the Package.appxmanifest:
 
 - To `<Package>`
@@ -77,4 +77,14 @@ Using input injection requires the following be added to the Package.appxmanifes
 ## -examples
 
 ## -see-also
-[Windows.UI.Input.Preview.Injection enumerations](windows_ui_input_preview_injection_enumerations.md)
+
+### Conceptual
+
+[Gaze interactions and eye tracking in UWP apps](https://docs.microsoft.com/windows/uwp/design/input/gaze-interactions)
+
+### Samples
+
+- [Simulate user input through input injection](https://review.docs.microsoft.com/windows/uwp/design/input/input-injection?branch=kbridge-inputinjection)
+- [Input injection sample (mouse to touch)](https://github.com/MicrosoftDocs/windows-topic-specific-samples/archive/uwp-input-injection-mouse-to-touch.zip)
+- [Touch injection sample](http://go.microsoft.com/fwlink/p/?LinkID=267906)
+- [Input: XAML user input events sample](http://go.microsoft.com/fwlink/p/?linkid=226855)

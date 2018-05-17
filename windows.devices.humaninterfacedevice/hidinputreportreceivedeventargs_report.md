@@ -11,9 +11,11 @@ public Windows.Devices.HumanInterfaceDevice.HidInputReport Report { get; }
 # Windows.Devices.HumanInterfaceDevice.HidInputReportReceivedEventArgs.Report
 
 ## -description
-Retrieves the input report.
+
+Gets the input report.
 
 ## -property-value
+
 A **HidInputReport** object.
 
 ## -remarks

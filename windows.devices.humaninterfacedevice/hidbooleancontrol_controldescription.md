@@ -11,9 +11,11 @@ public Windows.Devices.HumanInterfaceDevice.HidBooleanControlDescription Control
 # Windows.Devices.HumanInterfaceDevice.HidBooleanControl.ControlDescription
 
 ## -description
-Retrieves a description of the given Boolean control.
+
+Gets a description of the given Boolean control.
 
 ## -property-value
+
 A **HidBooleanControlDescription** object.
 
 ## -remarks

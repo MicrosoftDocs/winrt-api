@@ -11,9 +11,11 @@ public ushort UsagePage { get; }
 # Windows.Devices.HumanInterfaceDevice.HidNumericControl.UsagePage
 
 ## -description
-Retrieves the usage page for the given numeric control.
+
+Gets the usage page for the given numeric control.
 
 ## -property-value
+
 The usage page.
 
 ## -remarks

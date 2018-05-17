@@ -11,6 +11,7 @@ public class HidNumericControlDescription : Windows.Devices.HumanInterfaceDevice
 # Windows.Devices.HumanInterfaceDevice.HidNumericControlDescription
 
 ## -description
+
 Describes a numeric control for a given HID device.
 
 ## -remarks

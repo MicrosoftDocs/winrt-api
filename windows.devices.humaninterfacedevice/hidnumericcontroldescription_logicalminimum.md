@@ -11,13 +11,17 @@ public int LogicalMinimum { get; }
 # Windows.Devices.HumanInterfaceDevice.HidNumericControlDescription.LogicalMinimum
 
 ## -description
-Retrieves the logical minimum value for the control.
+
+Gets the lowest possible value for the given control.
 
 ## -property-value
-The logical minimum value.
+
+The signed lower bound.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
+
+[PhysicalMinimum](hidnumericcontroldescription_physicalminimum.md)

@@ -11,9 +11,11 @@ public Windows.Foundation.Collections.IVectorView<Windows.Devices.HumanInterface
 # Windows.Devices.HumanInterfaceDevice.HidInputReport.TransitionedBooleanControls
 
 ## -description
-Retrieves the recently transitioned Boolean controls for the given HID device.
+
+Gets the recently transitioned Boolean controls for the given HID device.
 
 ## -property-value
+
 A collection of Boolean controls.
 
 ## -remarks

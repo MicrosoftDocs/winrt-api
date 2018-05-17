@@ -11,9 +11,11 @@ public Windows.Foundation.Collections.IVectorView<Windows.Devices.HumanInterface
 # Windows.Devices.HumanInterfaceDevice.HidNumericControlDescription.ParentCollections
 
 ## -description
-Retrieves the parent collections for a given numeric control.
+
+Gets the parent collections for a given numeric control.
 
 ## -property-value
+
 A vector of **HidCollection** objects.
 
 ## -remarks

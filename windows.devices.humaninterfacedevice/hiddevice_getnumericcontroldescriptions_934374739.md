@@ -11,19 +11,29 @@ public Windows.Foundation.Collections.IVectorView<Windows.Devices.HumanInterface
 # Windows.Devices.HumanInterfaceDevice.HidDevice.GetNumericControlDescriptions
 
 ## -description
+
 Retrieves the descriptions of the numeric controls for the given HID device.
 
 ## -parameters
+
 ### -param reportType
+
 Specifies the type of report for which the control descriptions are requested.
 
 ### -param usagePage
+
 Identifies the usage page associated with the controls.
 
+A value of 0 is treated as a wild card for all usage pages.
+
 ### -param usageId
+
 Identifies the usage associated with the controls.
 
+A value of 0 is treated as a wild card for all usage IDs.
+
 ## -returns
+
 A vector of [HidNumericControlDescription](hidnumericcontroldescription.md) objects.
 
 ## -remarks
