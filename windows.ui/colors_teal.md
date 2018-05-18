@@ -10,10 +10,12 @@ public Windows.UI.Color Teal { get; }
 # Windows.UI.Colors.Teal
 
 ## -description
-Gets the color value that represents the Teal named color.
+
+Gets the system-defined color that has an ARGB value of #FF008080.
 
 ## -property-value
-The color value that represents the Teal named color.
+
+The system-defined color that has an ARGB value of #FF008080.
 
 ## -remarks
 

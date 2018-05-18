@@ -10,10 +10,12 @@ public Windows.UI.Color DarkOrange { get; }
 # Windows.UI.Colors.DarkOrange
 
 ## -description
-Gets the color value that represents the DarkOrange named color.
+
+Gets the system-defined color that has an ARGB value of #FFFF8C00.
 
 ## -property-value
-The color value that represents the DarkOrange named color.
+
+The system-defined color that has an ARGB value of #FFFF8C00.
 
 ## -remarks
 

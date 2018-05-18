@@ -10,10 +10,12 @@ public Windows.UI.Color PeachPuff { get; }
 # Windows.UI.Colors.PeachPuff
 
 ## -description
-Gets the color value that represents the PeachPuff named color.
+
+Gets the system-defined color that has an ARGB value of #FFFFDAB9.
 
 ## -property-value
-The color value that represents the PeachPuff named color.
+
+The system-defined color that has an ARGB value of #FFFFDAB9.
 
 ## -remarks
 

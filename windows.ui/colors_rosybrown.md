@@ -10,10 +10,12 @@ public Windows.UI.Color RosyBrown { get; }
 # Windows.UI.Colors.RosyBrown
 
 ## -description
-Gets the color value that represents the RosyBrown named color.
+
+Gets the system-defined color that has an ARGB value of #FFBC8F8F.
 
 ## -property-value
-The color value that represents the RosyBrown named color.
+
+The system-defined color that has an ARGB value of #FFBC8F8F.
 
 ## -remarks
 

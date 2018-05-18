@@ -10,10 +10,12 @@ public Windows.UI.Color Plum { get; }
 # Windows.UI.Colors.Plum
 
 ## -description
-Gets the color value that represents the Plum named color.
+
+Gets the system-defined color that has an ARGB value of #FFDDA0DD.
 
 ## -property-value
-The color value that represents the Plum named color.
+
+The system-defined color that has an ARGB value of #FFDDA0DD.
 
 ## -remarks
 

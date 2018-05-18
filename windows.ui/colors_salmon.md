@@ -10,10 +10,12 @@ public Windows.UI.Color Salmon { get; }
 # Windows.UI.Colors.Salmon
 
 ## -description
-Gets the color value that represents the Salmon named color.
+
+Gets the system-defined color that has an ARGB value of #FFFA8072.
 
 ## -property-value
-The color value that represents the Salmon named color.
+
+The system-defined color that has an ARGB value of #FFFA8072.
 
 ## -remarks
 

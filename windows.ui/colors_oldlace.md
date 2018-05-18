@@ -10,10 +10,12 @@ public Windows.UI.Color OldLace { get; }
 # Windows.UI.Colors.OldLace
 
 ## -description
-Gets the color value that represents the OldLace named color.
+
+Gets the system-defined color that has an ARGB value of #FFFDF5E6.
 
 ## -property-value
-The color value that represents the OldLace named color.
+
+The system-defined color that has an ARGB value of #FFFDF5E6.
 
 ## -remarks
 

@@ -10,10 +10,12 @@ public Windows.UI.Color SpringGreen { get; }
 # Windows.UI.Colors.SpringGreen
 
 ## -description
-Gets the color value that represents the SpringGreen named color.
+
+Gets the system-defined color that has an ARGB value of #FF00FF7F.
 
 ## -property-value
-The color value that represents the SpringGreen named color.
+
+The system-defined color that has an ARGB value of #FF00FF7F.
 
 ## -remarks
 

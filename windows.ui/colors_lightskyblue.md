@@ -10,10 +10,12 @@ public Windows.UI.Color LightSkyBlue { get; }
 # Windows.UI.Colors.LightSkyBlue
 
 ## -description
-Gets the color value that represents the LightSkyBlue named color.
+
+Gets the system-defined color that has an ARGB value of #FF87CEFA.
 
 ## -property-value
-The color value that represents the LightSkyBlue named color.
+
+The system-defined color that has an ARGB value of #FF87CEFA.
 
 ## -remarks
 

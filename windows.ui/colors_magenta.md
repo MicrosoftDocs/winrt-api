@@ -10,10 +10,12 @@ public Windows.UI.Color Magenta { get; }
 # Windows.UI.Colors.Magenta
 
 ## -description
-Gets the system-defined color that has the ARGB value of #FFFF00FF..
+
+Gets the system-defined color that has the ARGB value of #FFFF00FF.
 
 ## -property-value
-The system-defined color that has the ARGB value of #FFFF00FF..
+
+The system-defined color that has the ARGB value of #FFFF00FF.
 
 ## -remarks
 

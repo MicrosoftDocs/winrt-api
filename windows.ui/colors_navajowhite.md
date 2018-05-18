@@ -10,10 +10,12 @@ public Windows.UI.Color NavajoWhite { get; }
 # Windows.UI.Colors.NavajoWhite
 
 ## -description
-Gets the color value that represents the NavajoWhite named color.
+
+Gets the system-defined color that has an ARGB value of #FFFFDEAD.
 
 ## -property-value
-The color value that represents the NavajoWhite named color.
+
+The system-defined color that has an ARGB value of #FFFFDEAD.
 
 ## -remarks
 

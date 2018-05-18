@@ -10,10 +10,12 @@ public Windows.UI.Color LawnGreen { get; }
 # Windows.UI.Colors.LawnGreen
 
 ## -description
-Gets the color value that represents the LawnGreen named color.
+
+Gets the system-defined color that has an ARGB value of #FF7CFC00.
 
 ## -property-value
-The color value that represents the LawnGreen named color.
+
+The system-defined color that has an ARGB value of #FF7CFC00.
 
 ## -remarks
 

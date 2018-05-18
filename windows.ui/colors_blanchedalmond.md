@@ -10,10 +10,12 @@ public Windows.UI.Color BlanchedAlmond { get; }
 # Windows.UI.Colors.BlanchedAlmond
 
 ## -description
-Gets the color value that represents the BlanchedAlmond named color.
+
+Gets the system-defined color that has an ARGB value of #FFFFEBCD.
 
 ## -property-value
-The color value that represents the BlanchedAlmond named color.
+
+The system-defined color that has an ARGB value of #FFFFEBCD.
 
 ## -remarks
 

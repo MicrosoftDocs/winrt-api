@@ -10,10 +10,12 @@ public Windows.UI.Color OrangeRed { get; }
 # Windows.UI.Colors.OrangeRed
 
 ## -description
-Gets the color value that represents the OrangeRed named color.
+
+Gets the system-defined color that has an ARGB value of #FFFF4500.
 
 ## -property-value
-The color value that represents the OrangeRed named color.
+
+The system-defined color that has an ARGB value of #FFFF4500.
 
 ## -remarks
 

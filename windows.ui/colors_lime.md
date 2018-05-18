@@ -10,10 +10,12 @@ public Windows.UI.Color Lime { get; }
 # Windows.UI.Colors.Lime
 
 ## -description
-Gets the color value that represents the Lime named color.
+
+Gets the system-defined color that has an ARGB value of #FF00FF00.
 
 ## -property-value
-The color value that represents the Lime named color.
+
+The system-defined color that has an ARGB value of #FF00FF00.
 
 ## -remarks
 

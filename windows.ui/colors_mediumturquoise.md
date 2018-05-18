@@ -10,10 +10,12 @@ public Windows.UI.Color MediumTurquoise { get; }
 # Windows.UI.Colors.MediumTurquoise
 
 ## -description
-Gets the color value that represents the MediumTurquoise named color.
+
+Gets the system-defined color that has an ARGB value of #FF48D1CC.
 
 ## -property-value
-The color value that represents the MediumTurquoise named color.
+
+The system-defined color that has an ARGB value of #FF48D1CC.
 
 ## -remarks
 

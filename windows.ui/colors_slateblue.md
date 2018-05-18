@@ -10,10 +10,12 @@ public Windows.UI.Color SlateBlue { get; }
 # Windows.UI.Colors.SlateBlue
 
 ## -description
-Gets the color value that represents the SlateBlue named color.
+
+Gets the system-defined color that has an ARGB value of #FF6A5ACD.
 
 ## -property-value
-The color value that represents the SlateBlue named color.
+
+The system-defined color that has an ARGB value of #FF6A5ACD.
 
 ## -remarks
 

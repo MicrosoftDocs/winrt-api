@@ -10,10 +10,12 @@ public Windows.UI.Color Gold { get; }
 # Windows.UI.Colors.Gold
 
 ## -description
-Gets the color value that represents the Gold named color.
+
+Gets the system-defined color that has an ARGB value of #FFFFD700.
 
 ## -property-value
-The color value that represents the Gold named color.
+
+The system-defined color that has an ARGB value of #FFFFD700.
 
 ## -remarks
 

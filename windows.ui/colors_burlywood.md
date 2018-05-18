@@ -10,10 +10,12 @@ public Windows.UI.Color BurlyWood { get; }
 # Windows.UI.Colors.BurlyWood
 
 ## -description
-Gets the color value that represents the BurlyWood named color.
+
+Gets the system-defined color that has an ARGB value of #FFDEB887.
 
 ## -property-value
-The color value that represents the BurlyWood named color.
+
+The system-defined color that has an ARGB value of #FFDEB887.
 
 ## -remarks
 

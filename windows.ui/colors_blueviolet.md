@@ -10,10 +10,12 @@ public Windows.UI.Color BlueViolet { get; }
 # Windows.UI.Colors.BlueViolet
 
 ## -description
-Gets the color value that represents the BlueViolet named color.
+
+Gets the system-defined color that has an ARGB value of #FF8A2BE2.
 
 ## -property-value
-The color value that represents the BlueViolet named color.
+
+The system-defined color that has an ARGB value of #FF8A2BE2.
 
 ## -remarks
 

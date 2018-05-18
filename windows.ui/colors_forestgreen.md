@@ -10,10 +10,12 @@ public Windows.UI.Color ForestGreen { get; }
 # Windows.UI.Colors.ForestGreen
 
 ## -description
-Gets the color value that represents the ForestGreen named color.
+
+Gets the system-defined color that has an ARGB value of #FF228B22.
 
 ## -property-value
-The color value that represents the ForestGreen named color.
+
+The system-defined color that has an ARGB value of #FF228B22.
 
 ## -remarks
 

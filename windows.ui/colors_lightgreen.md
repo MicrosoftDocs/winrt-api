@@ -10,10 +10,12 @@ public Windows.UI.Color LightGreen { get; }
 # Windows.UI.Colors.LightGreen
 
 ## -description
-Gets the color value that represents the LightGreen named color.
+
+Gets the system-defined color that has an ARGB value of #FF90EE90.
 
 ## -property-value
-The color value that represents the LightGreen named color.
+
+The system-defined color that has an ARGB value of #FF90EE90.
 
 ## -remarks
 

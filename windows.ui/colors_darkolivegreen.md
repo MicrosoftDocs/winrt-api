@@ -10,10 +10,12 @@ public Windows.UI.Color DarkOliveGreen { get; }
 # Windows.UI.Colors.DarkOliveGreen
 
 ## -description
-Gets the color value that represents the DarkOliveGreen named color.
+
+Gets the system-defined color that has an ARGB value of #FF556B2F.
 
 ## -property-value
-The color value that represents the DarkOliveGreen named color.
+
+The system-defined color that has an ARGB value of #FF556B2F.
 
 ## -remarks
 

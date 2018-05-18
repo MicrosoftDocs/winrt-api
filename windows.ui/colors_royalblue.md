@@ -10,10 +10,12 @@ public Windows.UI.Color RoyalBlue { get; }
 # Windows.UI.Colors.RoyalBlue
 
 ## -description
-Gets the color value that represents the RoyalBlue named color.
+
+Gets the system-defined color that has an ARGB value of #FF4169E1.
 
 ## -property-value
-The color value that represents the RoyalBlue named color.
+
+The system-defined color that has an ARGB value of #FF4169E1.
 
 ## -remarks
 

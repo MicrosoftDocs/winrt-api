@@ -10,10 +10,12 @@ public Windows.UI.Color Linen { get; }
 # Windows.UI.Colors.Linen
 
 ## -description
-Gets the color value that represents the Linen named color.
+
+Gets the system-defined color that has an ARGB value of #FFFAF0E6.
 
 ## -property-value
-The color value that represents the Linen named color.
+
+The system-defined color that has an ARGB value of #FFFAF0E6.
 
 ## -remarks
 

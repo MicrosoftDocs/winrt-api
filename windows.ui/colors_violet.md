@@ -10,10 +10,12 @@ public Windows.UI.Color Violet { get; }
 # Windows.UI.Colors.Violet
 
 ## -description
-Gets the color value that represents the Violet named color.
+
+Gets the system-defined color that has an ARGB value of #FFEE82EE.
 
 ## -property-value
-The color value that represents the Violet named color.
+
+The system-defined color that has an ARGB value of #FFEE82EE.
 
 ## -remarks
 
