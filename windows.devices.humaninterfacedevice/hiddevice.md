@@ -30,7 +30,11 @@ The following example demonstrates how a UWP app built with XAML and C# uses the
 > 6. On the Details tab, select **Hardware Ids** from the **Property** drop down
 > 7. The HID details are displayed in the **Value** box:
 
+<<<<<<< HEAD
+![HID details from Device Manager](images/devicemanager-hid-details-small.png)
+=======
 <img src="images/devicemanager-hid-details-small.png" alt="HID details from Device Manager" />
+>>>>>>> master
 
 ```csharp
 using System;
