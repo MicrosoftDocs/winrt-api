@@ -17,7 +17,7 @@ Implements a set of predefined colors. See [Color](color.md) for usage informati
 
 The following image shows each predefined color, its name, and its hexadecimal value.
 
-<img alt="A closed app bar control" src="images/color-table.png" />
+<img alt="Named colors table" src="images/color-table.png" />
 
 ## -examples
 
