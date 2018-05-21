@@ -10,10 +10,12 @@ public Windows.UI.Color YellowGreen { get; }
 # Windows.UI.Colors.YellowGreen
 
 ## -description
-Gets the color value that represents the YellowGreen named color.
+
+Gets the system-defined color that has an ARGB value of #FF9ACD32.
 
 ## -property-value
-The color value that represents the YellowGreen named color.
+
+The system-defined color that has an ARGB value of #FF9ACD32.
 
 ## -remarks
 

@@ -10,10 +10,12 @@ public Windows.UI.Color PaleVioletRed { get; }
 # Windows.UI.Colors.PaleVioletRed
 
 ## -description
-Gets the color value that represents the PaleVioletRed named color.
+
+Gets the system-defined color that has an ARGB value of #FFDB7093.
 
 ## -property-value
-The color value that represents the PaleVioletRed named color.
+
+The system-defined color that has an ARGB value of #FFDB7093.
 
 ## -remarks
 

@@ -10,10 +10,12 @@ public Windows.UI.Color MediumBlue { get; }
 # Windows.UI.Colors.MediumBlue
 
 ## -description
-Gets the color value that represents the MediumBlue named color.
+
+Gets the system-defined color that has an ARGB value of #FF0000CD.
 
 ## -property-value
-The color value that represents the MediumBlue named color.
+
+The system-defined color that has an ARGB value of #FF0000CD.
 
 ## -remarks
 

@@ -10,10 +10,12 @@ public Windows.UI.Color Azure { get; }
 # Windows.UI.Colors.Azure
 
 ## -description
-Gets the color value that represents the Azure named color.
+
+Gets the system-defined color that has an ARGB value of #FFF0FFFF.
 
 ## -property-value
-The color value that represents the Azure named color.
+
+The system-defined color that has an ARGB value of #FFF0FFFF.
 
 ## -remarks
 

@@ -10,10 +10,12 @@ public Windows.UI.Color MidnightBlue { get; }
 # Windows.UI.Colors.MidnightBlue
 
 ## -description
-Gets the color value that represents the MidnightBlue named color.
+
+Gets the system-defined color that has an ARGB value of #FF191970.
 
 ## -property-value
-The color value that represents the MidnightBlue named color.
+
+The system-defined color that has an ARGB value of #FF191970.
 
 ## -remarks
 

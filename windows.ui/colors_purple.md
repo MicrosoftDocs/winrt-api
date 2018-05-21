@@ -10,10 +10,12 @@ public Windows.UI.Color Purple { get; }
 # Windows.UI.Colors.Purple
 
 ## -description
-Gets the system-defined color that has the ARGB value of #FF800080..
+
+Gets the system-defined color that has the ARGB value of #FF800080.
 
 ## -property-value
-The system-defined color that has the ARGB value of #FF800080..
+
+The system-defined color that has the ARGB value of #FF800080.
 
 ## -remarks
 

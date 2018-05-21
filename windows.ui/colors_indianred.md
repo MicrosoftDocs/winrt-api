@@ -10,10 +10,12 @@ public Windows.UI.Color IndianRed { get; }
 # Windows.UI.Colors.IndianRed
 
 ## -description
-Gets the color value that represents the IndianRed named color.
+
+Gets the system-defined color that has an ARGB value of #FFCD5C5C.
 
 ## -property-value
-The color value that represents the IndianRed named color.
+
+The system-defined color that has an ARGB value of #FFCD5C5C.
 
 ## -remarks
 

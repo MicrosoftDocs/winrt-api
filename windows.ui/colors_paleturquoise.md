@@ -10,10 +10,12 @@ public Windows.UI.Color PaleTurquoise { get; }
 # Windows.UI.Colors.PaleTurquoise
 
 ## -description
-Gets the color value that represents the PaleTurquoise named color.
+
+Gets the system-defined color that has an ARGB value of #FFAFEEEE.
 
 ## -property-value
-The color value that represents the PaleTurquoise named color.
+
+The system-defined color that has an ARGB value of #FFAFEEEE.
 
 ## -remarks
 

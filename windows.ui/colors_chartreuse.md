@@ -10,10 +10,12 @@ public Windows.UI.Color Chartreuse { get; }
 # Windows.UI.Colors.Chartreuse
 
 ## -description
-Gets the color value that represents the Chartreuse named color.
+
+Gets the system-defined color that has an ARGB value of #FF7FFF00.
 
 ## -property-value
-The color value that represents the Chartreuse named color.
+
+The system-defined color that has an ARGB value of #FF7FFF00.
 
 ## -remarks
 

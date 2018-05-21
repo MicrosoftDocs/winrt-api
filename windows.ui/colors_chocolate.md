@@ -10,10 +10,12 @@ public Windows.UI.Color Chocolate { get; }
 # Windows.UI.Colors.Chocolate
 
 ## -description
-Gets the color value that represents the Chocolate named color.
+
+Gets the system-defined color that has an ARGB value of #FFD2691E.
 
 ## -property-value
-The color value that represents the Chocolate named color.
+
+The system-defined color that has an ARGB value of #FFD2691E.
 
 ## -remarks
 

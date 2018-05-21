@@ -10,10 +10,12 @@ public Windows.UI.Color MediumPurple { get; }
 # Windows.UI.Colors.MediumPurple
 
 ## -description
-Gets the color value that represents the MediumPurple named color.
+
+Gets the system-defined color that has an ARGB value of #FF9370DB.
 
 ## -property-value
-The color value that represents the MediumPurple named color.
+
+The system-defined color that has an ARGB value of #FF9370DB.
 
 ## -remarks
 

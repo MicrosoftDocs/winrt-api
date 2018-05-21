@@ -10,10 +10,12 @@ public Windows.UI.Color LimeGreen { get; }
 # Windows.UI.Colors.LimeGreen
 
 ## -description
-Gets the color value that represents the LimeGreen named color.
+
+Gets the system-defined color that has an ARGB value of #FF32CD32.
 
 ## -property-value
-The color value that represents the LimeGreen named color.
+
+The system-defined color that has an ARGB value of #FF32CD32.
 
 ## -remarks
 

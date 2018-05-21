@@ -10,10 +10,12 @@ public Windows.UI.Color SkyBlue { get; }
 # Windows.UI.Colors.SkyBlue
 
 ## -description
-Gets the color value that represents the SkyBlue named color.
+
+Gets the system-defined color that has an ARGB value of #FF87CEEB.
 
 ## -property-value
-The color value that represents the SkyBlue named color.
+
+The system-defined color that has an ARGB value of #FF87CEEB.
 
 ## -remarks
 

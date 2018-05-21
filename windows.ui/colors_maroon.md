@@ -10,10 +10,12 @@ public Windows.UI.Color Maroon { get; }
 # Windows.UI.Colors.Maroon
 
 ## -description
-Gets the color value that represents the Maroon named color.
+
+Gets the system-defined color that has an ARGB value of #FF800000.
 
 ## -property-value
-The color value that represents the Maroon named color.
+
+The system-defined color that has an ARGB value of #FF800000.
 
 ## -remarks
 

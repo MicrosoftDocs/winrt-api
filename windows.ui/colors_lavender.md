@@ -10,10 +10,12 @@ public Windows.UI.Color Lavender { get; }
 # Windows.UI.Colors.Lavender
 
 ## -description
-Gets the color value that represents the Lavender named color.
+
+Gets the system-defined color that has an ARGB value of #FFE6E6FA.
 
 ## -property-value
-The color value that represents the Lavender named color.
+
+The system-defined color that has an ARGB value of #FFE6E6FA.
 
 ## -remarks
 

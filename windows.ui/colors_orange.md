@@ -10,10 +10,12 @@ public Windows.UI.Color Orange { get; }
 # Windows.UI.Colors.Orange
 
 ## -description
-Gets the system-defined color that has the ARGB value of #FFFFA500..
+
+Gets the system-defined color that has the ARGB value of #FFFFA500.
 
 ## -property-value
-The system-defined color that has the ARGB value of #FFFFA500..
+
+The system-defined color that has the ARGB value of #FFFFA500.
 
 ## -remarks
 

@@ -10,10 +10,12 @@ public Windows.UI.Color AntiqueWhite { get; }
 # Windows.UI.Colors.AntiqueWhite
 
 ## -description
-Gets the color value that represents the AntiqueWhite named color.
+
+Gets the system-defined color that has an ARGB value of #FFFAEBD7.
 
 ## -property-value
-The color value that represents the AntiqueWhite named color.
+
+The system-defined color that has an ARGB value of #FFFAEBD7.
 
 ## -remarks
 

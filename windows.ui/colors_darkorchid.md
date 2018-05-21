@@ -10,10 +10,12 @@ public Windows.UI.Color DarkOrchid { get; }
 # Windows.UI.Colors.DarkOrchid
 
 ## -description
-Gets the color value that represents the DarkOrchid named color.
+
+Gets the system-defined color that has an ARGB value of #FF9932CC.
 
 ## -property-value
-The color value that represents the DarkOrchid named color.
+
+The system-defined color that has an ARGB value of #FF9932CC.
 
 ## -remarks
 

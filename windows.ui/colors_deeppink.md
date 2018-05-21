@@ -10,10 +10,12 @@ public Windows.UI.Color DeepPink { get; }
 # Windows.UI.Colors.DeepPink
 
 ## -description
-Gets the color value that represents the DeepPink named color.
+
+Gets the system-defined color that has an ARGB value of #FFFF1493.
 
 ## -property-value
-The color value that represents the DeepPink named color.
+
+The system-defined color that has an ARGB value of #FFFF1493.
 
 ## -remarks
 

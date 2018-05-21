@@ -10,10 +10,12 @@ public Windows.UI.Color SlateGray { get; }
 # Windows.UI.Colors.SlateGray
 
 ## -description
-Gets the color value that represents the SlateGray named color.
+
+Gets the system-defined color that has an ARGB value of #FF708090.
 
 ## -property-value
-The color value that represents the SlateGray named color.
+
+The system-defined color that has an ARGB value of #FF708090.
 
 ## -remarks
 

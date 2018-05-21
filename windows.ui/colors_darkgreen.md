@@ -10,10 +10,12 @@ public Windows.UI.Color DarkGreen { get; }
 # Windows.UI.Colors.DarkGreen
 
 ## -description
-Gets the color value that represents the DarkGreen named color.
+
+Gets the system-defined color that has an ARGB value of #FF006400.
 
 ## -property-value
-The color value that represents the DarkGreen named color.
+
+The system-defined color that has an ARGB value of #FF006400.
 
 ## -remarks
 

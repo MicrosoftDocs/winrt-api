@@ -10,10 +10,12 @@ public Windows.UI.Color Thistle { get; }
 # Windows.UI.Colors.Thistle
 
 ## -description
-Gets the color value that represents the Thistle named color.
+
+Gets the system-defined color that has an ARGB value of #FFD8BFD8.
 
 ## -property-value
-The color value that represents the Thistle named color.
+
+The system-defined color that has an ARGB value of #FFD8BFD8.
 
 ## -remarks
 

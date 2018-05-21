@@ -10,10 +10,12 @@ public Windows.UI.Color GreenYellow { get; }
 # Windows.UI.Colors.GreenYellow
 
 ## -description
-Gets the color value that represents the GreenYellow named color.
+
+Gets the system-defined color that has an ARGB value of #FFADFF2F.
 
 ## -property-value
-The color value that represents the GreenYellow named color.
+
+The system-defined color that has an ARGB value of #FFADFF2F.
 
 ## -remarks
 

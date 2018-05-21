@@ -10,10 +10,12 @@ public Windows.UI.Color PaleGreen { get; }
 # Windows.UI.Colors.PaleGreen
 
 ## -description
-Gets the color value that represents the PaleGreen named color.
+
+Gets the system-defined color that has an ARGB value of #FF98FB98.
 
 ## -property-value
-The color value that represents the PaleGreen named color.
+
+The system-defined color that has an ARGB value of #FF98FB98.
 
 ## -remarks
 

@@ -10,10 +10,12 @@ public Windows.UI.Color Orchid { get; }
 # Windows.UI.Colors.Orchid
 
 ## -description
-Gets the color value that represents the Orchid named color.
+
+Gets the system-defined color that has an ARGB value of #FFDA70D6.
 
 ## -property-value
-The color value that represents the Orchid named color.
+
+The system-defined color that has an ARGB value of #FFDA70D6.
 
 ## -remarks
 

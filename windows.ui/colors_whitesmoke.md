@@ -10,10 +10,12 @@ public Windows.UI.Color WhiteSmoke { get; }
 # Windows.UI.Colors.WhiteSmoke
 
 ## -description
-Gets the color value that represents the WhiteSmoke named color.
+
+Gets the system-defined color that has an ARGB value of #FFF5F5F5.
 
 ## -property-value
-The color value that represents the WhiteSmoke named color.
+
+The system-defined color that has an ARGB value of #FFF5F5F5.
 
 ## -remarks
 

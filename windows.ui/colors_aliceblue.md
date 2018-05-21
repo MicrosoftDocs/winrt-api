@@ -10,10 +10,12 @@ public Windows.UI.Color AliceBlue { get; }
 # Windows.UI.Colors.AliceBlue
 
 ## -description
-Gets the color value that represents the AliceBlue named color.
+
+Gets the system-defined color that has an ARGB value of #FFF0F8FF.
 
 ## -property-value
-The color value that represents the AliceBlue named color.
+
+The system-defined color that has an ARGB value of #FFF0F8FF.
 
 ## -remarks
 

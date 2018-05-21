@@ -10,10 +10,12 @@ public Windows.UI.Color SandyBrown { get; }
 # Windows.UI.Colors.SandyBrown
 
 ## -description
-Gets the color value that represents the SandyBrown named color.
+
+Gets the system-defined color that has an ARGB value of #FFF4A460.
 
 ## -property-value
-The color value that represents the SandyBrown named color.
+
+The system-defined color that has an ARGB value of #FFF4A460.
 
 ## -remarks
 
