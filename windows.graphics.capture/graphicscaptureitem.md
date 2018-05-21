@@ -17,6 +17,6 @@ The target of the capture, chosen with the picker control.
 
 ## -see-also
 
-* [Screen capture](https://docs.microsoft.com/windows/uwp/audio-video-camera/screen-capture)
+[Screen capture](https://docs.microsoft.com/windows/uwp/audio-video-camera/screen-capture)
 
 ## -examples

@@ -19,6 +19,6 @@ This namespace currently requires you to be running Windows 10 Pro or Enterprise
 
 ## -see-also
 
-* [Screen capture](https://docs.microsoft.com/windows/uwp/audio-video-camera/screen-capture)
+[Screen capture](https://docs.microsoft.com/windows/uwp/audio-video-camera/screen-capture)
 
 ## -examples
