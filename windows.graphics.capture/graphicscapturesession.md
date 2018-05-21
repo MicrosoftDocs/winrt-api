@@ -17,5 +17,6 @@ Allows the application to take screen captures.
 
 ## -see-also
 
-## -examples
+* [Screen capture](https://docs.microsoft.com/windows/uwp/audio-video-camera/screen-capture)
 
+## -examples
