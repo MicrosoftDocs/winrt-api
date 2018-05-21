@@ -10,10 +10,12 @@ public Windows.UI.Color DarkSlateGray { get; }
 # Windows.UI.Colors.DarkSlateGray
 
 ## -description
-Gets the color value that represents the DarkSlateGray named color.
+
+Gets the system-defined color that has an ARGB value of #FF2F4F4F.
 
 ## -property-value
-The color value that represents the DarkSlateGray named color.
+
+The system-defined color that has an ARGB value of #FF2F4F4F.
 
 ## -remarks
 

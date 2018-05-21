@@ -10,10 +10,12 @@ public Windows.UI.Color GhostWhite { get; }
 # Windows.UI.Colors.GhostWhite
 
 ## -description
-Gets the color value that represents the GhostWhite named color.
+
+Gets the system-defined color that has an ARGB value of #FFF8F8FF.
 
 ## -property-value
-The color value that represents the GhostWhite named color.
+
+The system-defined color that has an ARGB value of #FFF8F8FF.
 
 ## -remarks
 

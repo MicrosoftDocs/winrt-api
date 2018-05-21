@@ -10,10 +10,12 @@ public Windows.UI.Color PowderBlue { get; }
 # Windows.UI.Colors.PowderBlue
 
 ## -description
-Gets the color value that represents the PowderBlue named color.
+
+Gets the system-defined color that has an ARGB value of #FFB0E0E6.
 
 ## -property-value
-The color value that represents the PowderBlue named color.
+
+The system-defined color that has an ARGB value of #FFB0E0E6.
 
 ## -remarks
 

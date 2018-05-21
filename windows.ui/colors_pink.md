@@ -10,10 +10,12 @@ public Windows.UI.Color Pink { get; }
 # Windows.UI.Colors.Pink
 
 ## -description
-Gets the color value that represents the Pink named color.
+
+Gets the system-defined color that has an ARGB value of #FFFFC0CB.
 
 ## -property-value
-The color value that represents the Pink named color.
+
+The system-defined color that has an ARGB value of #FFFFC0CB.
 
 ## -remarks
 

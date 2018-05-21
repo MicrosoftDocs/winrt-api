@@ -10,10 +10,12 @@ public Windows.UI.Color Coral { get; }
 # Windows.UI.Colors.Coral
 
 ## -description
-Gets the color value that represents the Coral named color.
+
+Gets the system-defined color that has an ARGB value of #FFFF7F50.
 
 ## -property-value
-The color value that represents the Coral named color.
+
+The system-defined color that has an ARGB value of #FFFF7F50.
 
 ## -remarks
 

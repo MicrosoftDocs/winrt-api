@@ -10,10 +10,12 @@ public Windows.UI.Color Ivory { get; }
 # Windows.UI.Colors.Ivory
 
 ## -description
-Gets the color value that represents the Ivory named color.
+
+Gets the system-defined color that has an ARGB value of #FFFFFFF0.
 
 ## -property-value
-The color value that represents the Ivory named color.
+
+The system-defined color that has an ARGB value of #FFFFFFF0.
 
 ## -remarks
 

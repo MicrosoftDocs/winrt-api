@@ -10,10 +10,12 @@ public Windows.UI.Color DarkKhaki { get; }
 # Windows.UI.Colors.DarkKhaki
 
 ## -description
-Gets the color value that represents the DarkKhaki named color.
+
+Gets the system-defined color that has an ARGB value of #FFBDB76B.
 
 ## -property-value
-The color value that represents the DarkKhaki named color.
+
+The system-defined color that has an ARGB value of #FFBDB76B.
 
 ## -remarks
 

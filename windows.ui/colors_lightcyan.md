@@ -10,10 +10,12 @@ public Windows.UI.Color LightCyan { get; }
 # Windows.UI.Colors.LightCyan
 
 ## -description
-Gets the color value that represents the LightCyan named color.
+
+Gets the system-defined color that has an ARGB value of #FFE0FFFF.
 
 ## -property-value
-The color value that represents the LightCyan named color.
+
+The system-defined color that has an ARGB value of #FFE0FFFF.
 
 ## -remarks
 

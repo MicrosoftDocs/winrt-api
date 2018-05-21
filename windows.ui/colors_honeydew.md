@@ -10,10 +10,12 @@ public Windows.UI.Color Honeydew { get; }
 # Windows.UI.Colors.Honeydew
 
 ## -description
-Gets the color value that represents the Honeydew named color.
+
+Gets the system-defined color that has an ARGB value of #FFF0FFF0.
 
 ## -property-value
-The color value that represents the Honeydew named color.
+
+The system-defined color that has an ARGB value of #FFF0FFF0.
 
 ## -remarks
 

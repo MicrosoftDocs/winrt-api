@@ -10,10 +10,12 @@ public Windows.UI.Color LightSlateGray { get; }
 # Windows.UI.Colors.LightSlateGray
 
 ## -description
-Gets the color value that represents the LightSlateGray named color.
+
+Gets the system-defined color that has an ARGB value of #FF778899.
 
 ## -property-value
-The color value that represents the LightSlateGray named color.
+
+The system-defined color that has an ARGB value of #FF778899.
 
 ## -remarks
 

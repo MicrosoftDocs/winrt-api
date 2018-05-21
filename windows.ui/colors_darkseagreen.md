@@ -10,10 +10,12 @@ public Windows.UI.Color DarkSeaGreen { get; }
 # Windows.UI.Colors.DarkSeaGreen
 
 ## -description
-Gets the color value that represents the DarkSeaGreen named color.
+
+Gets the system-defined color that has an ARGB value of #FF8FBC8F.
 
 ## -property-value
-The color value that represents the DarkSeaGreen named color.
+
+The system-defined color that has an ARGB value of #FF8FBC8F.
 
 ## -remarks
 

@@ -10,10 +10,12 @@ public Windows.UI.Color CadetBlue { get; }
 # Windows.UI.Colors.CadetBlue
 
 ## -description
-Gets the color value that represents the CadetBlue named color.
+
+Gets the system-defined color that has an ARGB value of #FF5F9EA0.
 
 ## -property-value
-The color value that represents the CadetBlue named color.
+
+The system-defined color that has an ARGB value of #FF5F9EA0.
 
 ## -remarks
 

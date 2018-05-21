@@ -10,10 +10,12 @@ public Windows.UI.Color LightSteelBlue { get; }
 # Windows.UI.Colors.LightSteelBlue
 
 ## -description
-Gets the color value that represents the LightSteelBlue named color.
+
+Gets the system-defined color that has an ARGB value of #FFB0C4DE.
 
 ## -property-value
-The color value that represents the LightSteelBlue named color.
+
+The system-defined color that has an ARGB value of #FFB0C4DE.
 
 ## -remarks
 

@@ -10,10 +10,12 @@ public Windows.UI.Color DarkMagenta { get; }
 # Windows.UI.Colors.DarkMagenta
 
 ## -description
-Gets the color value that represents the DarkMagenta named color.
+
+Gets the system-defined color that has an ARGB value of #FF8B008B.
 
 ## -property-value
-The color value that represents the DarkMagenta named color.
+
+The system-defined color that has an ARGB value of #FF8B008B.
 
 ## -remarks
 

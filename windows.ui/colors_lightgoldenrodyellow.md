@@ -10,10 +10,12 @@ public Windows.UI.Color LightGoldenrodYellow { get; }
 # Windows.UI.Colors.LightGoldenrodYellow
 
 ## -description
-Gets the color value that represents the LightGoldenrodYellow named color.
+
+Gets the system-defined color that has an ARGB value of #FFFAFAD2.
 
 ## -property-value
-The color value that represents the LightGoldenrodYellow named color.
+
+The system-defined color that has an ARGB value of #FFFAFAD2.
 
 ## -remarks
 

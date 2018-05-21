@@ -10,10 +10,12 @@ public Windows.UI.Color MediumAquamarine { get; }
 # Windows.UI.Colors.MediumAquamarine
 
 ## -description
-Gets the color value that represents the MediumAquamarine named color.
+
+Gets the system-defined color that has an ARGB value of #FF66CDAA.
 
 ## -property-value
-The color value that represents the MediumAquamarine named color.
+
+The system-defined color that has an ARGB value of #FF66CDAA.
 
 ## -remarks
 

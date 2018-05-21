@@ -10,10 +10,12 @@ public Windows.UI.Color Tomato { get; }
 # Windows.UI.Colors.Tomato
 
 ## -description
-Gets the color value that represents the Tomato named color.
+
+Gets the system-defined color that has an ARGB value of #FFFF6347.
 
 ## -property-value
-The color value that represents the Tomato named color.
+
+The system-defined color that has an ARGB value of #FFFF6347.
 
 ## -remarks
 

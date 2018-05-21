@@ -10,10 +10,12 @@ public Windows.UI.Color Tan { get; }
 # Windows.UI.Colors.Tan
 
 ## -description
-Gets the color value that represents the Tan named color.
+
+Gets the system-defined color that has an ARGB value of #FFD2B48C.
 
 ## -property-value
-The color value that represents the Tan named color.
+
+The system-defined color that has an ARGB value of #FFD2B48C.
 
 ## -remarks
 

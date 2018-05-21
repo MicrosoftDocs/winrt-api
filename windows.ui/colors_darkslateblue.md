@@ -10,10 +10,12 @@ public Windows.UI.Color DarkSlateBlue { get; }
 # Windows.UI.Colors.DarkSlateBlue
 
 ## -description
-Gets the color value that represents the DarkSlateBlue named color.
+
+Gets the system-defined color that has an ARGB value of #FF483D8B.
 
 ## -property-value
-The color value that represents the DarkSlateBlue named color.
+
+The system-defined color that has an ARGB value of #FF483D8B.
 
 ## -remarks
 

@@ -10,10 +10,12 @@ public Windows.UI.Color Firebrick { get; }
 # Windows.UI.Colors.Firebrick
 
 ## -description
-Gets the color value that represents the Firebrick named color.
+
+Gets the system-defined color that has an ARGB value of #FFB22222.
 
 ## -property-value
-The color value that represents the Firebrick named color.
+
+The system-defined color that has an ARGB value of #FFB22222.
 
 ## -remarks
 

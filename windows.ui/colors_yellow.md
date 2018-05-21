@@ -10,9 +10,11 @@ public Windows.UI.Color Yellow { get; }
 # Windows.UI.Colors.Yellow
 
 ## -description
+
 Gets the system-defined color that has the ARGB value of #FFFFFF00.
 
 ## -property-value
+
 The system-defined color that has the ARGB value of #FFFFFF00.
 
 ## -remarks

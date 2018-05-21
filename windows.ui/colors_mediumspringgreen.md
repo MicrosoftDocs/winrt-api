@@ -10,10 +10,12 @@ public Windows.UI.Color MediumSpringGreen { get; }
 # Windows.UI.Colors.MediumSpringGreen
 
 ## -description
-Gets the color value that represents the MediumSpringGreen named color.
+
+Gets the system-defined color that has an ARGB value of #FF00FA9A.
 
 ## -property-value
-The color value that represents the MediumSpringGreen named color.
+
+The system-defined color that has an ARGB value of #FF00FA9A.
 
 ## -remarks
 

@@ -10,10 +10,12 @@ public Windows.UI.Color DarkCyan { get; }
 # Windows.UI.Colors.DarkCyan
 
 ## -description
-Gets the color value that represents the DarkCyan named color.
+
+Gets the system-defined color that has an ARGB value of #FF008B8B.
 
 ## -property-value
-The color value that represents the DarkCyan named color.
+
+The system-defined color that has an ARGB value of #FF008B8B.
 
 ## -remarks
 

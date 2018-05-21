@@ -10,10 +10,12 @@ public Windows.UI.Color Cornsilk { get; }
 # Windows.UI.Colors.Cornsilk
 
 ## -description
-Gets the color value that represents the Cornsilk named color.
+
+Gets the system-defined color that has an ARGB value of #FFFFF8DC.
 
 ## -property-value
-The color value that represents the Cornsilk named color.
+
+The system-defined color that has an ARGB value of #FFFFF8DC.
 
 ## -remarks
 

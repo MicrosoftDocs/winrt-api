@@ -10,10 +10,12 @@ public Windows.UI.Color LightBlue { get; }
 # Windows.UI.Colors.LightBlue
 
 ## -description
-Gets the color value that represents the LightBlue named color.
+
+Gets the system-defined color that has an ARGB value of #FFADD8E6.
 
 ## -property-value
-The color value that represents the LightBlue named color.
+
+The system-defined color that has an ARGB value of #FFADD8E6.
 
 ## -remarks
 

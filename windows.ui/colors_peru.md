@@ -10,10 +10,12 @@ public Windows.UI.Color Peru { get; }
 # Windows.UI.Colors.Peru
 
 ## -description
-Gets the color value that represents the Peru named color.
+
+Gets the system-defined color that has an ARGB value of #FFCD853F.
 
 ## -property-value
-The color value that represents the Peru named color.
+
+The system-defined color that has an ARGB value of #FFCD853F.
 
 ## -remarks
 
