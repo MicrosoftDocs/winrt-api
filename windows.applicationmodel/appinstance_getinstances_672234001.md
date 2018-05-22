@@ -16,6 +16,7 @@ Gets the registered instances of the current app.
 A list of the registered instances of the current app.
 
 ## -remarks
+To register an instance, see [FindOrRegisterInstanceForKey](appinstance_findorregisterinstanceforkey_1124409949.md).
 
 ## -see-also
 
