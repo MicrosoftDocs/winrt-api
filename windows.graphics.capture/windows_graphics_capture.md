@@ -15,7 +15,10 @@ Enables apps to capture environments, application windows, and displays in a sec
 
 ## -remarks
 
+This namespace currently requires you to be running Windows 10 Pro or Enterprise.
+
 ## -see-also
 
-## -examples
+[Screen capture](https://docs.microsoft.com/windows/uwp/audio-video-camera/screen-capture)
 
+## -examples
