@@ -10,11 +10,11 @@ public Windows.Foundation.IAsyncOperation<Windows.Devices.Enumeration.DeviceInfo
 # Windows.Devices.Enumeration.DeviceInformation.FindAllAsync
 
 ## -description
-Enumerates [DeviceInformation](deviceinformation.md) objects matching the specified Advanced Query Syntax (AQS) string and including the specified collection of properties.
+Enumerates [DeviceInformation](deviceinformation.md) objects matching the specified Advanced Query Syntax (AQS) device interface selector string and including the specified collection of properties.
 
 ## -parameters
 ### -param aqsFilter
-An AQS string that filters the [DeviceInformation](deviceinformation.md) objects to enumerate. Typically this string is retrieved from the **GetDeviceSelector** method of a class that interacts with devices. For example, [GetDeviceSelector](../windows.devices.portable/storagedevice_getdeviceselector.md) retrieves the string for the [StorageDevice](../windows.devices.portable/storagedevice.md) class.
+An AQS device interface selector string that filters the [DeviceInformation](deviceinformation.md) objects to enumerate. Typically this string is retrieved from the **GetDeviceSelector** method of a class that interacts with devices. For example, [GetDeviceSelector](../windows.devices.portable/storagedevice_getdeviceselector.md) retrieves the string for the [StorageDevice](../windows.devices.portable/storagedevice.md) class.
 
 ### -param additionalProperties
 An iterable list of additional properties to include in the [Properties](deviceinformation_properties.md) property of the [DeviceInformation](deviceinformation.md) objects in the enumeration results. For more info on what the properties represent, see [Device information properties](http://msdn.microsoft.com/library/4a4c2802-e674-4c04-8a6d-d7c1bbf1bd20).

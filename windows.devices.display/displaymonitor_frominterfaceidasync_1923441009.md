@@ -12,9 +12,8 @@ public IAsyncOperation<DisplayMonitor> DisplayMonitor.FromInterfaceIdAsync(Strin
 ## -description
 Asynchronously creates a [DisplayMonitor](displaymonitor.md) object for the specified monitor interface identifier.
 
-
 > [!NOTE]
-> If you call [DeviceInformation.FindAllAsync](../windows.devices.enumeration/deviceinformation_findallasync_1257462890.md), passing the Advanced Query Syntax (AQS) string returned by [DisplayMonitor.GetDeviceSelector](displaymonitor_getdeviceselector_838466080.md), then you will retrieve a collection of  [DeviceInformation](../windows.devices.enumeration/deviceinformation.md) objects that describe monitor interfaces (rather than monitor devices). Accessing the [DeviceInformation.Id](../windows.devices.enumeration/deviceinformation_id.md) property on one of those objects retrieves a monitor interface identifier, which you can pass to **DisplayMonitor.FromInterfaceIdAsync**. See the code example below.
+> If you call [DeviceInformation.FindAllAsync](../windows.devices.enumeration/deviceinformation_findallasync_1257462890.md), passing the Advanced Query Syntax (AQS) device interface selector string returned by [DisplayMonitor.GetDeviceSelector](displaymonitor_getdeviceselector_838466080.md), then you will retrieve a collection of [DeviceInformation](../windows.devices.enumeration/deviceinformation.md) objects that describe monitor interfaces (rather than monitor devices). Accessing the [DeviceInformation.Id](../windows.devices.enumeration/deviceinformation_id.md) property on one of those objects retrieves a monitor interface identifier, which you can pass to **DisplayMonitor.FromInterfaceIdAsync**. See the code example below.
 >
 > Most Win32 APIs that provide a monitor identifier actually provide the monitor interface identifier (and not the device identifier).
 
