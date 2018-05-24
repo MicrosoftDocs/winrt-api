@@ -1,4 +1,3 @@
- Keey
 ---
 -api-id: P:Windows.UI.Xaml.Controls.NavigationViewItem.Icon
 -api-type: winrt property
@@ -40,7 +39,11 @@ The icon to show next to the menu item text. The default in **null**.
 
 ## -remarks
 
-You can assign a value from the [Symbol](symbol.md) enumeration or a unicode string referencing a glyph in the font Segoe MDL 2 Assets. You can use the Character Map application that comes in windows to browse the font's glyphs and use the format **"&#x(UNICODE);"** in XAML code where UNICODE is the value of the glyph that indicates the location in the font file or the format **"\u(UNICODE)"** in code-behind. Keep in mind that the Segoe MDL2 Font comes with Windows 10, and more glyphs are added in every release, verify that the unicode value you choose is availale in the min SDK build version your project is targetting.
+You can assign a value from the [Symbol](symbol.md) enumeration, or a Unicode string that references a glyph in the Segoe MDL2 Assets font.
+
+You can use the Character Map application that comes with Windows to browse the font's glyphs and find their Unicode values. Then, use the format **"&#x/_(UNICODE)_;"** in XAML, or the format **"\u/_(UNICODE)_"** in code, where **_(UNICODE)_** is the value of the glyph that indicates the location in the font file. 
+
+The Segoe MDL2 Assets font ships with Windows 10, and new glyphs might be added in every release. You should verify that the Unicode value you choose is available in the minimum SDK build version your project targets.
 
 ## -see-also
 
