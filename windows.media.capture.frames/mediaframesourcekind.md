@@ -25,6 +25,11 @@ The media frame source produces infrared data.
 ### -field Depth:3
 The media frame source produces depth data.
 
+### -field Audio:4
+The media frame source produces audio data.
+
+### -field Image:5
+The media frame source produces image data.
 
 ## -remarks
 
