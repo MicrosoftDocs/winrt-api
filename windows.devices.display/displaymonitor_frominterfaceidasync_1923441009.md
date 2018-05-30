@@ -10,7 +10,7 @@ public IAsyncOperation<DisplayMonitor> DisplayMonitor.FromInterfaceIdAsync(Strin
 # Windows.Devices.Display.DisplayMonitor.FromInterfaceIdAsync
 
 ## -description
-Asynchronously creates a [DisplayMonitor](displaymonitor.md) object for the specified monitor interface identifier.
+Asynchronously creates a [DisplayMonitor](displaymonitor.md) object for the specified monitor interface identifier (a string containing a PnP device interface path). See the code example below.
 
 > [!NOTE]
 > If you call [DeviceInformation.FindAllAsync](../windows.devices.enumeration/deviceinformation_findallasync_1257462890.md), passing the Advanced Query Syntax (AQS) device interface selector string returned by [DisplayMonitor.GetDeviceSelector](displaymonitor_getdeviceselector_838466080.md), then you will retrieve a collection of [DeviceInformation](../windows.devices.enumeration/deviceinformation.md) objects that describe monitor interfaces (rather than monitor devices). Accessing the [DeviceInformation.Id](../windows.devices.enumeration/deviceinformation_id.md) property on one of those objects retrieves a monitor interface identifier, which you can pass to **DisplayMonitor.FromInterfaceIdAsync**. See the code example below.
