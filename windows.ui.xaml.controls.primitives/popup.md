@@ -10,17 +10,18 @@ public class Popup : Windows.UI.Xaml.FrameworkElement, Windows.UI.Xaml.Controls.
 # Windows.UI.Xaml.Controls.Primitives.Popup
 
 ## -description
+
 Displays content on top of existing content, within the bounds of the application window.
 
 ## -xaml-syntax
+
 ```xaml
 <Popup .../>
 ```
 
-
 ## -remarks
-Do not use a [Popup](popup.md) if a [Flyout](../windows.ui.xaml.controls/flyout.md), [MenuFlyout](../windows.ui.xaml.controls/menuflyout.md), [ToolTip](../windows.ui.xaml.controls/tooltip.md) or [ContentDialog](../windows.ui.popups/contentdialog.md) ([MessageDialog](../windows.ui.popups/messagedialog.md) for a Windows 8 app) is more appropriate.
 
+Do not use a [Popup](popup.md) if a [Flyout](../windows.ui.xaml.controls/flyout.md), [MenuFlyout](../windows.ui.xaml.controls/menuflyout.md), [ToolTip](../windows.ui.xaml.controls/tooltip.md) or [ContentDialog](../windows.ui.popups/contentdialog.md) ([MessageDialog](../windows.ui.popups/messagedialog.md) for a Windows 8 app) is more appropriate.
 
 <!--For more info, see Displaying popups. (Add this when the topic is created.)-->
 
@@ -35,6 +36,7 @@ The [Popup](popup.md) can host input controls. When hosting input controls like 
 The [Popup](popup.md) doesn't fire [RoutedEvents](../windows.ui.xaml/routedevent.md), for example KeyDown and PointerPressed. You can wire an event handler for these [RoutedEvents](../windows.ui.xaml/routedevent.md) on the child of the [Popup](popup.md).
 
 ## -examples
+
 This example shows a simple [Popup](popup.md) with content defined inline.
 
 ```xaml
@@ -128,7 +130,6 @@ namespace XAMLPopup
 }
 ```
 
-
-
 ## -see-also
-[FrameworkElement](../windows.ui.xaml/frameworkelement.md)
+
+[FrameworkElement](../windows.ui.xaml/frameworkelement.md), [Notifications sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Notifications)

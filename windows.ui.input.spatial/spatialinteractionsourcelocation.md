@@ -11,9 +11,11 @@ public class SpatialInteractionSourceLocation : Windows.UI.Input.Spatial.ISpatia
 # Windows.UI.Input.Spatial.SpatialInteractionSourceLocation
 
 ## -description
+
 Represents the grip pose and pointer pose of a hand or motion controller.
 
 ## -remarks
+
 Windows Mixed Reality supports motion controllers in a variety of form factors, with each controller's design differing in its relationship between the user's hand position and the natural "forward" direction that apps should use for pointing when rendering the controller.
 
 To better represent these controllers, there are two kinds of poses you can investigate for each interaction source.
@@ -25,3 +27,5 @@ The pointer pose represents the tip of a motion controller pointing forward.  Th
 ## -examples
 
 ## -see-also
+
+[Spatial interaction source sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SpatialInteractionSource)

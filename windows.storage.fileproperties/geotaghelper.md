@@ -10,6 +10,7 @@ public class GeotagHelper
 # Windows.Storage.FileProperties.GeotagHelper
 
 ## -description
+
 Provides methods for setting and retrieving geographic metadata for a file.
 
 ## -remarks
@@ -17,4 +18,5 @@ Provides methods for setting and retrieving geographic metadata for a file.
 ## -examples
 
 ## -see-also
+
 [Geotag sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620547)

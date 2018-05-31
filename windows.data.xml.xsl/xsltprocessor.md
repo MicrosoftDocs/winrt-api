@@ -10,6 +10,7 @@ public class XsltProcessor : Windows.Data.Xml.Xsl.IXsltProcessor, Windows.Data.X
 # Windows.Data.Xml.Xsl.XsltProcessor
 
 ## -description
+
 Provides the methods needed by the Xslt processor.
 
 ## -remarks
@@ -17,4 +18,5 @@ Provides the methods needed by the Xslt processor.
 ## -examples
 
 ## -see-also
+
 [XML DOM sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620639)

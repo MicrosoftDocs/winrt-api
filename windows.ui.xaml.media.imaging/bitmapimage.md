@@ -10,16 +10,19 @@ public class BitmapImage : Windows.UI.Xaml.Media.Imaging.BitmapSource, Windows.U
 # Windows.UI.Xaml.Media.Imaging.BitmapImage
 
 ## -description
+
 Provides the practical object source type for the [Image.Source](../windows.ui.xaml.controls/image_source.md) and [ImageBrush.ImageSource](../windows.ui.xaml.media/imagebrush_imagesource.md) properties. You can define a [BitmapImage](bitmapimage.md) by using a Uniform Resource Identifier (URI) that references an image source file, or by calling [SetSourceAsync](bitmapsource_setsourceasync.md) and supplying a stream.
 
 ## -xaml-syntax
+
 ```xaml
 <BitmapImage .../>
 ```
 
-
 ## -remarks
+
 A [BitmapImage](bitmapimage.md) can be sourced from these image file formats:
+
 + Joint Photographic Experts Group (JPEG)
 + Portable Network Graphics (PNG)
 + bitmap (BMP)
@@ -28,10 +31,10 @@ A [BitmapImage](bitmapimage.md) can be sourced from these image file formats:
 + JPEG XR
 + icons (ICO)
 
-
 If the image source is a stream, that stream is expected to contain an image file in one of these formats.
 
 The [BitmapImage](bitmapimage.md) class represents an abstraction so that an image source can be set asynchronously but still be referenced in XAML markup as a property value, or in code as an object that doesn't use awaitable syntax. When you create a [BitmapImage](bitmapimage.md) object in code, it initially has no valid source. You should then set its source using one of these techniques:
+
 + Use the [BitmapImage(Uri)](bitmapimage_bitmapimage_843413386.md) constructor rather than the default constructor. Although it's a constructor you can think of this as having an implicit asynchronous behavior: the [BitmapImage](bitmapimage.md) won't be ready for use until it raises an [ImageOpened](bitmapimage_imageopened.md) event that indicates a successful async source set operation.
 + Set the [UriSource](bitmapimage_urisource.md) property. As with using the **Uri** constructor, this action is implicitly asynchronous, and the [BitmapImage](bitmapimage.md) won't be ready for use until it raises an [ImageOpened](bitmapimage_imageopened.md) event.
 + Use [SetSourceAsync](bitmapsource_setsourceasync.md). This method is explicitly asynchronous.
@@ -47,11 +50,11 @@ The API for [Image](../windows.ui.xaml.controls/image.md), [BitmapImage](bitmapi
 
 ### Animated images
 
-Starting in Windows 10, version 1607, the XAML [Image](../windows.ui.xaml.controls/image.md) element supports animated GIF images. When you use a [BitmapImage](bitmapimage.md) as the image [Source](../windows.ui.xaml.controls/image_source.md), you can access [BitmapImage](bitmapimage.md)  API to control playback of the animated GIF image. 
+Starting in Windows 10, version 1607, the XAML [Image](../windows.ui.xaml.controls/image.md) element supports animated GIF images. When you use a [BitmapImage](bitmapimage.md) as the image [Source](../windows.ui.xaml.controls/image_source.md), you can access [BitmapImage](bitmapimage.md)  API to control playback of the animated GIF image.
+
 + Use the [AutoPlay](bitmapimage_autoplay.md) property, which defaults to **true**, to specify whether or not an animated bitmap plays as soon as it loads.
 + Use the [IsAnimatedBitmap](bitmapimage_isanimatedbitmap.md) property to check whether a bitmap is animated.
 + Use the [IsPlaying](bitmapimage_isplaying.md) property along with the [Play](bitmapimage_play.md) and [Stop](bitmapimage_stop.md) methods to control the playback of an animated bitmap.
- 
 
 > [!NOTE]
 > For most apps, we recommend that you set [AutoPlay](bitmapimage_autoplay.md) to **false** if [UISettings.AnimationsEnabled](../windows.ui.viewmanagement/uisettings_animationsenabled.md) is **false**, to support the accessibility needs of users. Do not do this if the content of the animated GIF is important for the usability of your app.
@@ -124,6 +127,7 @@ void playButton_Click(object sender, RoutedEventArgs e)
 For more examples, see the [Animated GIF playback sample](http://go.microsoft.com/fwlink/p/?LinkId=624046).
 
 ## -examples
+
 Here's an example of using a [BitmapImage](bitmapimage.md) object to set [Image.Source](../windows.ui.xaml.controls/image_source.md) in C#. In this example, the [Image](../windows.ui.xaml.controls/image.md) object was created in XAML but doesn't have a source or any other property values; instead these values are provided at run-time when the [Image](../windows.ui.xaml.controls/image.md) is loaded from XAML.
 
 ```xaml
@@ -143,7 +147,6 @@ void Image_Loaded(object sender, RoutedEventArgs e)
 }
 ```
 
-
-
 ## -see-also
-[Image](../windows.ui.xaml.controls/image.md), [BitmapSource](bitmapsource.md), [Image.Source](../windows.ui.xaml.controls/image_source.md), [ImageBrush.ImageSource](../windows.ui.xaml.media/imagebrush_imagesource.md), [Image and ImageBrush](http://msdn.microsoft.com/library/cea8780c-71a3-4168-a6e8-6361cdfb2faf)
+
+[Image](../windows.ui.xaml.controls/image.md), [BitmapSource](bitmapsource.md), [Image.Source](../windows.ui.xaml.controls/image_source.md), [ImageBrush.ImageSource](../windows.ui.xaml.media/imagebrush_imagesource.md), [Image and ImageBrush](http://msdn.microsoft.com/library/cea8780c-71a3-4168-a6e8-6361cdfb2faf), [Animated GIF playback (XAML) sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlAnimatedGif)

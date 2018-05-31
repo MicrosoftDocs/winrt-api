@@ -10,11 +10,13 @@ public class InMemoryRandomAccessStream : Windows.Foundation.IClosable, Windows.
 # Windows.Storage.Streams.InMemoryRandomAccessStream
 
 ## -description
+
 Provides random access of data in input and output streams that are stored in memory instead of on disk.
 
 ## -remarks
 
 ## -examples
+
 The following example shows how to write and read strings to an in-memory stream. For the full code sample, see [Reading and writing data sample](http://go.microsoft.com/fwlink/p/?linkid=231581).
 
 ```cpp
@@ -304,7 +306,6 @@ function transferData() {
 
 ```
 
-
-
 ## -see-also
+
 [FileRandomAccessStream](filerandomaccessstream.md), [RandomAccessStream](randomaccessstream.md), , [Serializing and deserializing data sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620535)

@@ -10,9 +10,11 @@ public class Clipboard
 # Windows.ApplicationModel.DataTransfer.Clipboard
 
 ## -description
+
 Gets and sets information from the clipboard object.
 
 ## -remarks
+
 Because the [Clipboard](clipboard.md) class is a static class, you don't need to create an instance of it to access its methods.
 
 > [!NOTE]
@@ -21,11 +23,11 @@ Because the [Clipboard](clipboard.md) class is a static class, you don't need to
 You can only access the clipboard when the calling application is in focus on the UI thread (e.g., when it's [CoreWindow](../windows.ui.core/corewindow.md) is active). Use the [CoreWindow.Activated](../windows.ui.core/corewindow_activated.md) event to track the state of the calling app.
 
 ## -examples
+
 The following sample shows how to track changes to the [Clipboard](clipboard.md). If the [Clipboard](clipboard.md) has text, the code adds the text to an HTML page.
-
-
 
 [!code-js[TrackClipboardChanges](../windows.applicationmodel.datatransfer/code/ClipBoardBeta/js/default.js#SnippetTrackClipboardChanges)]
 
 ## -see-also
+
 [Clipboard sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620520)

@@ -10,9 +10,11 @@ public class SplashScreen : Windows.ApplicationModel.Activation.ISplashScreen
 # Windows.ApplicationModel.Activation.SplashScreen
 
 ## -description
+
 Provides a dismissal event and image location information for the app's splash screen.
 
 ## -remarks
+
 Access this object from your app's activated event handler by using the [SplashScreen](iactivatedeventargs_splashscreen.md) property on the event object that is passed into your handler.
 
 ### For JavaScript
@@ -34,6 +36,7 @@ The [SplashScreen](iactivatedeventargs_splashscreen.md) property is available on
 <!--<p  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">If you notice a flicker during the transition to your extended splash screen,  add <inline_code devlang="html">onload=""</inline_code> on your <xref targtype="element">&lt;img&gt;</xref> tag like this: <inline_code devlang="html">&lt;img id="extendedSplashImage" src="/images/splash-sdk.png" alt="Splash screen image" onload="" /&gt;</inline_code>. This helps prevent flickering by making the system wait until your image has been rendered before it switches to your extended splash screen.</p>-->
 
 ## -examples
+
 The [Splash screen sample](http://go.microsoft.com/fwlink/p/?linkid=234889) demonstrates how to retrieve a [SplashScreen](splashscreen.md) object in its activated event handler, when the app launches.
 
 ```csharp
@@ -87,4 +90,5 @@ WinJS.Application.addEventListener("activated", activated, false);
 You can use the object passed to your activated event handler to get information about the activated event. In the example, the object contains information about a [launch](activationkind.md) activation and is either a [webUILaunchActivatedEventArgs](../windows.ui.webui/webuilaunchactivatedeventargs.md) (JavaScript) or a [LaunchActivatedEventArgs](launchactivatedeventargs.md) (C#/C++/VB) object, depending on the programming language. The **Kind** property on this object lets you distinguish between different types of activation (like [ActivationKind.launch](activationkind.md) or [ActivationKind.search](activationkind.md)).
 
 ## -see-also
+
 [Windows.ApplicationModel.Activation classes](windows_applicationmodel_activation_classes.md), [Splash screen sample](http://go.microsoft.com/fwlink/p/?linkid=234889), [App activate and suspend using WinJS sample](http://go.microsoft.com/fwlink/p/?linkid=231617), [App activated, resume, and suspend using the WRL sample](http://go.microsoft.com/fwlink/p/?linkid=231474), [Quickstart: Adding a splash screen](http://msdn.microsoft.com/library/c70d1dd7-9e0e-4349-a496-88a5c3fd8e97), [App lifecycle](http://msdn.microsoft.com/library/6c469e77-f1e3-4859-a27b-c326f9616d10), [How to extend the splash screen](http://msdn.microsoft.com/library/fd10a9ff-4e09-471f-886e-8b8246dc12de), [Add a splash screen](http://msdn.microsoft.com/library/41f53046-8ab7-4782-9e90-964d744b7d66), [App lifecycle](http://msdn.microsoft.com/library/6c469e77-f1e3-4859-a27b-c326f9616d10), [Display a splash screen for more time](http://msdn.microsoft.com/library/cd3053eb-7f86-4d74-9c5a-950303791ae3), [Splash screen sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620608)

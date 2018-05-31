@@ -10,9 +10,11 @@ public class DatagramSocketControl : Windows.Networking.Sockets.IDatagramSocketC
 # Windows.Networking.Sockets.DatagramSocketControl
 
 ## -description
+
 Provides socket control data on a [DatagramSocket](datagramsocket.md) object.
 
 ## -remarks
+
 The [DatagramSocketControl](datagramsocketcontrol.md) class provides access to advanced socket control data on a [DatagramSocket](datagramsocket.md) object.
 
 A [DatagramSocketControl](datagramsocketcontrol.md) object is automatically created with the parent [DatagramSocket](datagramsocket.md) object. The [DatagramSocket.Control](datagramsocket_control.md) property provides access to the associated [DatagramSocketControl](datagramsocketcontrol.md) object.
@@ -22,10 +24,6 @@ The [OutboundUnicastHopLimit](datagramsocketcontrol_outboundunicasthoplimit.md) 
 Any changes to the other property values on the [DatagramSocketControl](datagramsocketcontrol.md) must be set before the [DatagramSocket](datagramsocket.md) is bound or connected. As a result if you need to make changes to the [DontFragment](datagramsocketcontrol_dontfragment.md), [InboundBufferSizeInBytes](datagramsocketcontrol_inboundbuffersizeinbytes.md), or [QualityOfService](datagramsocketcontrol_qualityofservice.md) properties, then these changes must occur before a successful call to the [BindEndpointAsync](datagramsocket_bindendpointasync.md), [BindServiceNameAsync](datagramsocket_bindservicenameasync.md), or one of the [ConnectAsync](datagramsocket_connectasync.md) methods on the [DatagramSocket](datagramsocket.md).
 
 The following example creates a [DatagramSocket](datagramsocket.md), and then demonstrates how to set the [QualityOfService](datagramsocketcontrol_qualityofservice.md) property to **LowLatency**. Other properties may be set in a similar manner. After this is done, the app can connect the [DatagramSocket](datagramsocket.md) or send data on the socket.
-
-
-
-
 
 ```javascript
 var clientSocket = new Windows.Networking.Sockets.DatagramSocket();
@@ -79,7 +77,9 @@ For more information on using [DatagramSocketControl](datagramsocketcontrol.md),
 ## -examples
 
 ## -see-also
-[How to use advanced socket controls  ](http://msdn.microsoft.com/library/2e1071d8-a1c7-44c0-b93a-31a701d431c4), [How to use advanced socket controls  ](http://msdn.microsoft.com/library/f2c5be73-3461-452e-a38f-d2ddef9b5682), [DatagramSocket](datagramsocket.md), [DatagramSocket.Control](datagramsocket_control.md), [DatagramSocketInformation](datagramsocketinformation.md), [DatagramSocket sample](http://go.microsoft.com/fwlink/p/?LinkID=243037)
+
+[How to use advanced socket controls  ](http://msdn.microsoft.com/library/2e1071d8-a1c7-44c0-b93a-31a701d431c4), [How to use advanced socket controls  ](http://msdn.microsoft.com/library/f2c5be73-3461-452e-a38f-d2ddef9b5682), [DatagramSocket](datagramsocket.md), [DatagramSocket.Control](datagramsocket_control.md), [DatagramSocketInformation](datagramsocketinformation.md), [DatagramSocket sample](http://go.microsoft.com/fwlink/p/?LinkID=243037), [DatagramSocket sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/DatagramSocket)
 
 ## -capabilities
+
 ID_CAP_NETWORKING [Windows Phone]

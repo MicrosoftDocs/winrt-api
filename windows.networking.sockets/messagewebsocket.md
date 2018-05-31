@@ -10,9 +10,11 @@ public class MessageWebSocket : Windows.Foundation.IClosable, Windows.Networking
 # Windows.Networking.Sockets.MessageWebSocket
 
 ## -description
+
 Supports network communication that allows reading and writing whole messages using a WebSocket.
 
 ## -remarks
+
 The [MessageWebSocket](messagewebsocket.md) class provides a message-based abstraction of the [WebSocket protocol](http://go.microsoft.com/fwlink/p/?linkid=240293). When using [MessageWebSocket](messagewebsocket.md), the entire WebSocket message is read or written in a single operation. In contrast, the [StreamWebSocket](streamwebsocket.md) allows sections of a message to be read with each read operation, rather than requiring the entire message to be read in a single operation.
 
 For UTF-8 messages, [MessageWebSocket](messagewebsocket.md) must be used. [StreamWebSocket](streamwebsocket.md) only supports binary messages.
@@ -36,7 +38,9 @@ The Media Foundation feature can be enabled on Windows Server 2012 or Windows S
 ## -examples
 
 ## -see-also
+
 [WebSockets](/windows/uwp/networking/websockets?branch=live), [Handling exceptions in network apps](http://msdn.microsoft.com/library/76fafcc9-c674-4cf8-baa0-2400638fae35), [MessageWebSocketControl](messagewebsocketcontrol.md), [MessageWebSocketInformation](messagewebsocketinformation.md), [StreamWebSocket](streamwebsocket.md), [WebSocket sample](http://go.microsoft.com/fwlink/p/?LinkId=620623)
 
 ## -capabilities
+
 internetClient, privateNetworkClientServer

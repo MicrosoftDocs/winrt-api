@@ -10,6 +10,7 @@ public class IncrementNumberRounder : Windows.Globalization.NumberFormatting.IIn
 # Windows.Globalization.NumberFormatting.IncrementNumberRounder
 
 ## -description
+
 Rounds numbers to a specified increment.
 
 For example, this class can be used to round a number to the nearest 0.01.
@@ -19,4 +20,5 @@ For example, this class can be used to round a number to the nearest 0.01.
 ## -examples
 
 ## -see-also
+
 [INumberRounder](inumberrounder.md), [Number formatting and parsing sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620578)

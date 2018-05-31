@@ -11,12 +11,15 @@ public class CachedFileUpdater
 # Windows.Storage.Provider.CachedFileUpdater
 
 ## -description
+
 Manages files so that they can be updated in real-time by an app that participates in the Cached File Updater contract.
 
 ## -remarks
+
 Access methods in this class statically.
 
 ## -examples
+
 The [File picker contracts sample](http://go.microsoft.com/fwlink/p/?linkid=231536) demonstrates how to set update information for a file in its [TargetFileRequested](../windows.storage.pickers.provider/filesavepickerui_targetfilerequested.md) event handler.
 
 ```csharp
@@ -67,7 +70,6 @@ function onTargetFileRequested(e) {
 };
 ```
 
-
-
 ## -see-also
+
 [File picker provider sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620543)

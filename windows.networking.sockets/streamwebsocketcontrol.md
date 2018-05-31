@@ -10,9 +10,11 @@ public class StreamWebSocketControl : Windows.Networking.Sockets.IStreamWebSocke
 # Windows.Networking.Sockets.StreamWebSocketControl
 
 ## -description
+
 Provides socket control data on a [StreamWebSocket](streamwebsocket.md) object.
 
 ## -remarks
+
 The [StreamWebSocketControl](streamwebsocketcontrol.md) class provides access to advanced socket control data on a [StreamWebSocket](streamwebsocket.md) object.
 
 A [StreamWebSocketControl](streamwebsocketcontrol.md) object is automatically created with the parent [StreamWebSocket](streamwebsocket.md) object. The [StreamWebSocket.Control](streamwebsocket_control.md) property provides access to the associated [StreamWebSocketControl](streamwebsocketcontrol.md) object.
@@ -69,6 +71,7 @@ For more information about using [StreamWebSocketControl](streamwebsocketcontrol
 ## -examples
 
 ## -see-also
+
 [How to use advanced WebSocket controls ](http://msdn.microsoft.com/library/0a47f7c3-66f9-4315-886e-bd1afe77bf39),
 [How to use advanced WebSocket controls ](http://msdn.microsoft.com/library/4ab9621e-90e5-420e-88d0-09f1c7239d7a),
 [StreamWebSocket](streamwebsocket.md),
@@ -79,4 +82,5 @@ For more information about using [StreamWebSocketControl](streamwebsocketcontrol
 [ControlChannelTrigger StreamWebSocket sample](http://go.microsoft.com/fwlink/p/?linkid=251232)
 
 ## -capabilities
+
 internetClient, privateNetworkClientServer

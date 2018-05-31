@@ -6,9 +6,11 @@
 # Windows.Devices.Sensors
 
 ## -description
+
 Provides access to the supported types of sensors and related motion data.
 
 ## -remarks
+
 This namespace provides access to the sensor types listed in the table below. The driver for a sensor must indicate that the hardware is integrated with the PC chassis for it to be accessible via this namespace. Sensors not marked as PC-integrated, even if they are of a supported type, will not be accessible. Driver developers can refer to [SensorConnectionType](http://msdn.microsoft.com/library/63df4f99-ddc2-4a0b-b19b-63390771d529) enumeration for more details.
 
 <table>
@@ -37,4 +39,5 @@ For some samples that demonstrate using various sensors, see [Windows Sensor Sam
 ## -examples
 
 ## -see-also
-[Sensor data and display orientation](http://msdn.microsoft.com/library/f90937f1-edaf-469c-b360-2ed67cb4fad0), [Windows Sensor Samples](http://go.microsoft.com/fwlink/?LinkID=616041), [Background sensors sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620509), [Compass sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620521), [Inclinometer sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620552), [Gyrometer sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620548), [Light sensor sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620561), [Orientation sensor sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620580), [Accelerometer sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620477)
+
+[Sensor data and display orientation](http://msdn.microsoft.com/library/f90937f1-edaf-469c-b360-2ed67cb4fad0), [Windows Sensor Samples](http://go.microsoft.com/fwlink/?LinkID=616041), [Background sensors sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620509), [Compass sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620521), [Inclinometer sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620552), [Gyrometer sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620548), [Light sensor sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620561), [Orientation sensor sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620580), [Accelerometer sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620477), [Video stabilization sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/CameraVideoStabilization), [Activity detection sensor sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/ActivitySensor), [Altimeter sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Altimeter), [Barometer sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Barometer), [Magnetometer sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Magnetometer), [Pedometer sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Pedometer), [Proximity sensor sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/ProximitySensor), [Relative inclinometer sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/RelativeInclinometer), [Simple orientation sensor sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SimpleOrientationSensor), [Version adaptive code sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/VersionAdaptiveCode)

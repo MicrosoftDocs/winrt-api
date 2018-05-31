@@ -11,6 +11,7 @@ public class TextReverseConversionGenerator : Windows.Data.Text.ITextReverseConv
 # Windows.Data.Text.TextReverseConversionGenerator
 
 ## -description
+
 Reverse-converts a Japanese string which is mix of phonetic and ideographic characters, to a string of phonetic characters.
 
 ## -remarks
@@ -18,3 +19,5 @@ Reverse-converts a Japanese string which is mix of phonetic and ideographic char
 ## -examples
 
 ## -see-also
+
+[Text suggestions sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/TextSuggestion)

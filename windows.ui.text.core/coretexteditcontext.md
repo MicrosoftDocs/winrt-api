@@ -10,12 +10,15 @@ public class CoreTextEditContext : Windows.UI.Text.Core.ICoreTextEditContext, Wi
 # Windows.UI.Text.Core.CoreTextEditContext
 
 ## -description
+
 The primary object used by text input controls to communicate with the text input server.
 
 ## -remarks
+
 To obtain an object of this type, call [CoreTextServicesManager.CreateEditContext](coretextservicesmanager_createeditcontext.md).
 
 ## -examples
 
 ## -see-also
+
 [Custom Edit Control sample](https://go.microsoft.com/fwlink/?linkid=831024)

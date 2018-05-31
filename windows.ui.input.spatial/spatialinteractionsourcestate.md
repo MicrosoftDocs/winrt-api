@@ -11,6 +11,7 @@ public class SpatialInteractionSourceState : Windows.UI.Input.Spatial.ISpatialIn
 # Windows.UI.Input.Spatial.SpatialInteractionSourceState
 
 ## -description
+
 Represents a snapshot of the state of a spatial interaction source (hand, motion controller or voice) at a given time.
 
 ## -remarks
@@ -18,3 +19,5 @@ Represents a snapshot of the state of a spatial interaction source (hand, motion
 ## -examples
 
 ## -see-also
+
+[Spatial interaction source sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SpatialInteractionSource)

@@ -10,9 +10,11 @@ public class FileIO
 # Windows.Storage.FileIO
 
 ## -description
+
 Provides helper methods for reading and writing files that are represented by objects of type [IStorageFile](istoragefile.md).
 
 ## -remarks
+
 This class is static and cannot be instantiated. Call the methods directly instead.
 
 To learn more about what locations your app can access, see [File access permissions](https://docs.microsoft.com/windows/uwp/files/file-access-permissions).
@@ -20,6 +22,7 @@ To learn more about what locations your app can access, see [File access permiss
 To learn how to read and write to files, see [Create, write, and read a file](https://docs.microsoft.com/windows/uwp/files/quickstart-reading-and-writing-files).
 
 ## -examples
+
 The [File Access sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FileAccess) shows you how to use [writeTextAsync(file, contents)](fileio_writetextasync_1850452055.md) to write text to a file.
 
 ```javascript
@@ -85,3 +88,5 @@ In the example, `file` is a local variable that contains a [storageFile](storage
 After [readTextAsync](fileio_readtextasync.md) completes, the `fileContent` variable gets the contents of the file as a text string. You can then process the contents as appropriate.
 
 ## -see-also
+
+[RSS reader end-to-end (JavaScript) sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FeedReader)

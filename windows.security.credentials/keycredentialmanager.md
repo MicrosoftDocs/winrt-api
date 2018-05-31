@@ -11,6 +11,7 @@ public class KeyCredentialManager
 # Windows.Security.Credentials.KeyCredentialManager
 
 ## -description
+
 Contains methods for basic management of key credentials.
 
 ## -remarks
@@ -18,3 +19,5 @@ Contains methods for basic management of key credentials.
 ## -examples
 
 ## -see-also
+
+[KeyCredentialManager sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/KeyCredentialManager)

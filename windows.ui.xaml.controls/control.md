@@ -10,9 +10,11 @@ public class Control : Windows.UI.Xaml.FrameworkElement, Windows.UI.Xaml.Control
 # Windows.UI.Xaml.Controls.Control
 
 ## -description
+
 Represents the base class for UI elements that use a [ControlTemplate](controltemplate.md) to define their appearance. Parent class for [ContentControl](contentcontrol.md), [UserControl](usercontrol.md), [ItemsControl](itemscontrol.md) and several practical controls.
 
 ## -remarks
+
 The [Control](control.md) class is the base class for many of the controls you add to an app and its UI. The [Control](control.md) class defines very little behavior; you can add an actual [Control](control.md) element to XAML for UI but you typically add something that inherits from [Control](control.md) directly or indirectly, such as a [Button](button.md) or [ListBox](listbox.md). For a list of controls you can use, see [Controls by function](http://msdn.microsoft.com/library/8db4347b-91d6-4659-91f2-80ecf7bbb596).
 
 The [Template](control_template.md) property, which uses the type [ControlTemplate](controltemplate.md), specifies the visual appearance of a control. If you want to change the appearance of a control but retain its functionality, you should consider creating a new [ControlTemplate](controltemplate.md) instead of defining a new [Control](control.md)-based class. For more info, see [Quickstart: Control templates](http://msdn.microsoft.com/library/67c424ae-afb1-4560-a6a8-4a3506775d77).
@@ -42,6 +44,7 @@ Default visual states for controls sometimes use the library animations. You sho
 The [Control](control.md) class defines several API that influence the keyboard focus behavior for a UI: the [Focus](control_focus.md) method, the [FocusState](control_focusstate.md) property, and the [IsEnabled](control_isenabled.md) and [IsTabStop](control_istabstop.md) properties. Enabling keyboard focus is an important part of assuring that a UI is accessible, because each focusable element becomes part of the tab order for the UI. Only UI elements that are interactive are typically enabled to receive keyboard focus. For example, a [TextBox](textbox.md) is interactive because the user can type text, whereas a [TextBlock](textblock.md) is not interactive because the text is read-only. Most of the classes that derive from [Control](control.md) are legitimately interactive and so it makes sense that they can be focused and should be in the tab order.
 
 In order to be focusable, each of these must be true:
+
 + [Visibility](../windows.ui.xaml/uielement_visibility.md) is **Visible**
 + [IsEnabled](control_isenabled.md) is **true**
 + [IsTabStop](control_istabstop.md) is **true**
@@ -68,11 +71,10 @@ The existing **On*** definitions in a particular control class can affect you as
 > [!NOTE]
 > There's actually a way to get around native handling of **On*** methods for input, for some of the input events. To do this you need to wire your handlers using the [AddHandler](../windows.ui.xaml/uielement_addhandler.md) method with *handledEventsToo*. For more info see [AddHandler](../windows.ui.xaml/uielement_addhandler.md) or [Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
 
-
-
 ### Text properties that inherit to text element parts
 
 [Control](control.md) defines several properties that are relevant to presentation of text. These are:
+
 + [Foreground](control_foreground.md)
 + [FontFamily](control_fontfamily.md)
 + [FontSize](control_fontsize.md)
@@ -80,11 +82,9 @@ The existing **On*** definitions in a particular control class can affect you as
 + [FontStyle](control_fontstyle.md)
 + [FontWeight](control_fontweight.md)
 
-
 Obviously, not every control is intended to display text within it. For example, setting [FontFamily](control_fontfamily.md) on an [AppBarSeparator](appbarseparator.md) is legal but has absolutely no effect. The reason that [Control](control.md) defines these properties at the base class level is to make it easy for control templates to use [{TemplateBinding} markup extension](http://msdn.microsoft.com/library/fde71086-9d42-4287-89ed-8fbfcdf169dc) to apply top-level text properties to one or more text element parts that exist within the template. For example, if you look at the control template for a [DatePicker](datepicker.md), you'll see that the root is a container and more deeply within that container are several [ComboBox](combobox.md) parts that actually take the text input. Each of these uses statements like `FontWeight="{TemplateBinding FontWeight}"` to have the top-level [FontWeight](control_fontweight.md) as set on a [DatePicker](datepicker.md) be used by various parts within.
 
 Text properties on [Control](control.md) also inherit implicitly for a control that has a [ContentPresenter](contentpresenter.md) within it that displays text. For example, if you set [FontSize](control_fontsize.md) on a [Button](button.md), there's no explicit [{TemplateBinding} markup extension](http://msdn.microsoft.com/library/fde71086-9d42-4287-89ed-8fbfcdf169dc) in its template or [ContentPresenter](contentpresenter.md) part that controls what the template does with a top-level [FontSize](control_fontsize.md) value. But the [Control.FontSize](control_fontsize.md) value is implicitly inherited by [ContentPresenter.FontSize](contentpresenter_fontsize.md) based on the context within the template's definition, so the text within the [Button](button.md) will be presented using the [Control.FontSize](control_fontsize.md) you set.
-
 
 <!--IsEnabled, hit testing-->
 
@@ -93,9 +93,11 @@ Text properties on [Control](control.md) also inherit implicitly for a control t
 <!--Margin and Padding interactions-->
 
 <!--Content alignment and content presenters-->
+
 ### **Control** derived classes
 
 **Control** is the parent class for these immediately derived control classes. Some of these are practical controls. Others are intermediate base classes for various controls that share characteristics.
+
 + [AppBarSeparator](appbarseparator.md)
 + [ContentControl](contentcontrol.md)
 + [DatePicker](datepicker.md)
@@ -115,8 +117,8 @@ Text properties on [Control](control.md) also inherit implicitly for a control t
 + [ToggleSwitch](toggleswitch.md)
 + [UserControl](usercontrol.md)
 
-
 ## -examples
 
 ## -see-also
-[FrameworkElement](../windows.ui.xaml/frameworkelement.md), [Controls by function](http://msdn.microsoft.com/library/8db4347b-91d6-4659-91f2-80ecf7bbb596), [Quickstart: Control templates](http://msdn.microsoft.com/library/67c424ae-afb1-4560-a6a8-4a3506775d77), [Styling controls](http://msdn.microsoft.com/library/ab469a46-faf5-42d0-9340-948d0edf4150), [Storyboarded animations for visual states](http://msdn.microsoft.com/library/5e715281-d247-4e7f-9f88-2af0d88ed5e4), [Focus visuals sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=619895)
+
+[FrameworkElement](../windows.ui.xaml/frameworkelement.md), [Controls by function](http://msdn.microsoft.com/library/8db4347b-91d6-4659-91f2-80ecf7bbb596), [Quickstart: Control templates](http://msdn.microsoft.com/library/67c424ae-afb1-4560-a6a8-4a3506775d77), [Styling controls](http://msdn.microsoft.com/library/ab469a46-faf5-42d0-9340-948d0edf4150), [Storyboarded animations for visual states](http://msdn.microsoft.com/library/5e715281-d247-4e7f-9f88-2af0d88ed5e4), [Focus visuals sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=619895), [Gamepad-style navigation (XAML) sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlGamepadNavigation)

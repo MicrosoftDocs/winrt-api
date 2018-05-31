@@ -10,12 +10,13 @@ public class MediaPlayer : Windows.Foundation.IClosable, Windows.Media.Playback.
 # Windows.Media.Playback.MediaPlayer
 
 ## -description
+
 Provides access to media playback functionality such as play, pause, fast-forward, rewind, and volume.
 
 ## -remarks
 
 The [Media playback](https://docs.microsoft.com/en-us/windows/uwp/audio-video-camera/media-playback) section of the documentation contains how-to articles that provide detailed guidance for adding media playback features to your app. The following table lists some of the available articles.
- 
+
 | Topic                                                                                             | Description                                                                                                                                                                                                                                                                                    |
 |---------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Play audio and video with MediaPlayer](https://docs.microsoft.com/windows/uwp/audio-video-camera/play-audio-and-video-with-mediaplayer) | Shows you how to take advantage of the new features and improvements to the media playback system for UWP apps.                                                                                                          |
@@ -28,7 +29,6 @@ The [Media playback](https://docs.microsoft.com/en-us/windows/uwp/audio-video-ca
 | [Media casting](https://docs.microsoft.com/windows/uwp/audio-video-camera/media-casting)                                                                 | Shows you how to cast media to remote devices from a Universal Windows app.                                                                                                                                                                                                       |
 | [PlayReady DRM](https://docs.microsoft.com/windows/uwp/audio-video-camera/playready-client-sdk)                                                          | Describes how to add PlayReady protected media content to your Universal Windows Platform (UWP) app.                                                                                                                                                                                |
 
-
 ## Media playback SDK samples
 
 The following SDK samples demonstrate the media playback features available to UWP apps on Windows 10. Use these samples to see the media playback APIs used in context or as a starting point for your own app.
@@ -36,6 +36,9 @@ The following SDK samples demonstrate the media playback features available to U
 * [Adaptive streaming sample](https://github.com/Microsoft/Windows-universal-samples/tree/dev/Samples/AdaptiveStreaming)
 * [Background Audio sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/BackgroundMediaPlayback)
 * [System Media Transport sample](https://github.com/Microsoft/Windows-universal-samples/tree/dev/Samples/SystemMediaTransportControls)
+* [360-degree Video Playback sample](https://github.com/Microsoft/Windows-universal-samples/tree/dev/Samples/360VideoPlayback)
+* [Background media playback sample](https://github.com/Microsoft/Windows-universal-samples/tree/dev/Samples/BackgroundMediaPlayback)
+* [Video playback synchronization sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/VideoPlaybackSynchronization)
 
 ## -examples
 

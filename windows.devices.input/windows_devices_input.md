@@ -6,6 +6,7 @@
 # Windows.Devices.Input
 
 ## -description
+
 Provides support for identifying the input devices available (pointer, touch, mouse, and keyboard) and retrieving information about those devices.
 
 ## -remarks
@@ -13,3 +14,5 @@ Provides support for identifying the input devices available (pointer, touch, mo
 ## -examples
 
 ## -see-also
+
+[Basic input sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/BasicInput)

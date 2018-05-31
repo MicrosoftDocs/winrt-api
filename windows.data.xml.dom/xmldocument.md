@@ -10,6 +10,7 @@ public class XmlDocument : Windows.Data.Xml.Dom.IXmlDocument, Windows.Data.Xml.D
 # Windows.Data.Xml.Dom.XmlDocument
 
 ## -description
+
 Represents the top level of the XML source. This class includes members for retrieving and creating all other XML objects.
 
 ## -remarks
@@ -17,4 +18,5 @@ Represents the top level of the XML source. This class includes members for retr
 ## -examples
 
 ## -see-also
+
 [XML DOM sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620639)

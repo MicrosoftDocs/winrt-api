@@ -19,6 +19,6 @@ A **UserActivity** encapsulates a user's task that can be continued at a later t
 
 ## -see-also
 
-[User activities](https://docs.microsoft.com/windows/uwp/launch-resume/useractivities)
+[User activities](https://docs.microsoft.com/windows/uwp/launch-resume/useractivities), [UserActivity sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/UserActivity)
 
 ## -examples

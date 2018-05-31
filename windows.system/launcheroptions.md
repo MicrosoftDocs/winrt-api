@@ -10,11 +10,13 @@ public class LauncherOptions : Windows.System.ILauncherOptions, Windows.System.I
 # Windows.System.LauncherOptions
 
 ## -description
+
 Specifies the options used to launch the default app for a file or URI.
 
 ## -remarks
 
 ## -examples
+
 Call the [Launcher.LaunchFileAsync(IStorageFile, LauncherOptions) | launchFileAsync(IStorageFile, LauncherOptions)](launcher_launchfileasync_1480137410.md) method with [LauncherOptions.DisplayApplicationPicker | displayApplicationPicker](launcheroptions_displayapplicationpicker.md) set to **true** to launch the app that the user selects for the file from the **Open With** dialog box.
 
 ```javascript

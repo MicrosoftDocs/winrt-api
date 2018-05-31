@@ -10,9 +10,11 @@ public class GestureRecognizer : Windows.UI.Input.IGestureRecognizer
 # Windows.UI.Input.GestureRecognizer
 
 ## -description
+
 Provides gesture and manipulation recognition, event listeners, and settings.
 
 ## -remarks
+
 You can create a gesture object for each appropriate element when your app starts. However, this approach might not scale well depending on the number of gesture objects you need to create (for example, a jigsaw puzzle with hundreds of pieces).
 
 In this case, you can create gesture objects dynamically on a [pointerdown](https://msdn.microsoft.com/en-us/library/jj191898(v=vs.85).aspx) event and destroy them on an [MSGestureEnd](https://msdn.microsoft.com/en-us/library/jj191886(v=vs.85).aspx) event. This approach scales well, but does incur some overhead due to creating and releasing these objects.
@@ -221,7 +223,7 @@ class ManipulationInputProcessor
 - [Windows.UI.Input](windows_ui_input.md)
 - [Windows.UI.Input.Inking](../windows.ui.input.inking/windows_ui_input_inking.md)
 - [Windows.UI.Xaml.Input](../windows.ui.xaml.input/windows_ui_xaml_input.md)
- 
+
 ### Conceptual
 
 - [Custom user interactions](http://msdn.microsoft.com/library/9403c46c-60da-4c13-a381-6fbd069dd9ce)

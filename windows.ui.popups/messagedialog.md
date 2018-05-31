@@ -10,9 +10,11 @@ public class MessageDialog : Windows.UI.Popups.IMessageDialog
 # Windows.UI.Popups.MessageDialog
 
 ## -description
+
 Represents a dialog for showing messages to the user. 
 
 ## -remarks
+
 > [!IMPORTANT]
 > You should use MessageDialog only when you are upgrading a Universal Windows 8 app that uses MessageDialog, and need to minimize changes. For new apps in Windows 10, we recommend using the [ContentDialog](./../windows.ui.xaml.controls/contentdialog.md) control instead.
 
@@ -30,6 +32,7 @@ Here's an example of a dialog created by the code in the Examples section.
 <img src="images/MessageDialogWithTwoCommands.png" alt="Message dialog with two commands" />
 
 ## -examples
+
 The following example shows how to add commands to a message dialog and display it. For the full code example, see [Message dialog sample](http://go.microsoft.com/fwlink/p/?linkid=231551).
 
 ```cpp
@@ -214,7 +217,6 @@ End Class
 })();
 ```
 
-
-
 ## -see-also
+
 [Message dialog sample](http://go.microsoft.com/fwlink/p/?linkid=231551), [Message dialog sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620570)
