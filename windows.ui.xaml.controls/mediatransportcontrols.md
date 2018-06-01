@@ -19,7 +19,6 @@ Represents the playback controls for a media player element.
 <MediaTransportControls .../>
 ```
 
-
 ## -remarks
 
 The media transport controls let users interact with their media by providing a default playback experience comprised of various buttons including play, pause, closed captions, and others. It has many properties to allow for easy customization of the UI and configuration of which buttons are visible or enabled.
@@ -57,8 +56,6 @@ public MainPage()
     rootGrid.Children.Add(mediaElement1);
 }
 ```
-
-
 
 ### Enabling compact mode
 
@@ -98,8 +95,6 @@ public MainPage()
     rootGrid.Children.Add(mediaElement1);
 }
 ```
-
-
 
 ### Hiding, Showing, Enabling, and Disabling Buttons
 
@@ -162,8 +157,6 @@ public MainPage()
 }
 ```
 
-
-
 ### Anatomy
 
 [MediaTransportControls](mediatransportcontrols.md) is a composite control made up of several other XAML controls, which are all contained within a root [Grid](grid.md) element.
@@ -178,4 +171,5 @@ In the compact mode, the [Slider](slider.md) and [CommandBar](commandbar.md) are
 ## -examples
 
 ## -see-also
+
 [Control](control.md), [Create custom transport controls](http://msdn.microsoft.com/library/6643a108-a6eb-42bc-b800-22eabd7b731b), [Media transport controls sample](http://go.microsoft.com/fwlink/p/?LinkId=620023&amp;amp;clcid=0x409), [Video playback sample](http://go.microsoft.com/fwlink/p/?LinkId=620020&amp;amp;clcid=0x409), [Media transport controls sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620023)

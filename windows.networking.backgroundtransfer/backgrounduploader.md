@@ -10,12 +10,14 @@ public class BackgroundUploader : Windows.Networking.BackgroundTransfer.IBackgro
 # Windows.Networking.BackgroundTransfer.BackgroundUploader
 
 ## -description
+
 Used to configure upload prior to the actual creation of the upload operation using [CreateUpload](backgrounduploader_createupload.md). For an overview of Background Transfer capabilities, see [Transferring data in the background](http://msdn.microsoft.com/library/9e2ed5b4-af57-456a-884f-1e1d2136a8e8). Download the [Background Transfer sample](http://go.microsoft.com/fwlink/p/?linkid=245064) for examples in JavaScript, C#, and C++.
 
 > [!NOTE]
 > Background Transfer is primarily designed for long-term transfer operations for resources like video, music, and large images. For short-term operations involving transfers of smaller resources (i.e. a couple KB), use the [Windows.Web.Http](../windows.web.http/windows_web_http.md) namespace.
 
 ## -remarks
+
 After app termination, an app should enumerate all existing [UploadOperation](uploadoperation.md) instances at next start-up using [GetCurrentUploadsAsync](backgrounduploader_getcurrentuploadsasync.md). When a UWP app using Background Transfer is terminated, incomplete uploads will persist in the background. If the app is restarted after termination and operations from the previous session are not enumerated and re-attached to the current session, they will remain incomplete and continue to occupy resources. Once enumerated, PUT upload operations are automatically restarted, and POST upload operations are terminated.
 
 > [!NOTE]
@@ -67,7 +69,8 @@ See [Debugging and testing UWP apps](http://go.microsoft.com/fwlink/p/?LinkID=25
 
 When using Background Transfer during development, you may get into a situation where the internal caches of active and completed transfer operations can get out of sync. This may result in the inability to start new transfer operations or interact with existing operations and [BackgroundTransferGroup](backgroundtransfergroup.md) objects. In some cases, attempting to interact with existing operations may trigger a crash. This result can occur if the [TransferBehavior](backgroundtransfergroup_transferbehavior.md) property is set to **Parallel**. This issue occurs only in certain scenarios during development and is not applicable to end users of your app.
 
-Four scenarios using Microsoft Visual Studio can cause this issue. 
+Four scenarios using Microsoft Visual Studio can cause this issue.
+
 + You create a new project with the same app name as an existing project, but a different language (from C++ to C#, for example).
 + You change the target architecture (from x86 to x64, for example) in an existing project.
 + You change the culture (from neutral to en-US, for example) in an existing project.
@@ -77,6 +80,7 @@ Four scenarios using Microsoft Visual Studio can cause this issue.
 To work around this issue, completely uninstall all versions of the app and re-deploy with the new language, architecture, culture, or capability. This can be done via the **Start** screen or using PowerShell and the <cmd_line>Remove-AppxPackage</cmd_line> cmdlet.
 
 ## -examples
+
 The following example demonstrates how to configure and begin a basic upload operation, and is based on the [Background Transfer sample](http://go.microsoft.com/fwlink/p/?linkid=245064) offered in the Windows Sample Gallery.
 
 ```javascript
@@ -134,10 +138,10 @@ The following example demonstrates how to configure and begin a basic upload ope
         }
 ```
 
-
-
 ## -see-also
+
 [UploadOperation](uploadoperation.md), [Handling exceptions in network apps](http://msdn.microsoft.com/library/76fafcc9-c674-4cf8-baa0-2400638fae35), [How to opt in for toast notifications](http://msdn.microsoft.com/library/2d7db7c4-6f5e-47bf-89b6-8ac7a43e2011), [Quickstart: Upload a file](http://msdn.microsoft.com/library/9c0d21a9-d253-4671-a0ef-437412a28cd8), [Background Transfer sample](http://go.microsoft.com/fwlink/p/?linkid=245064), [Background transfer sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620510)
 
 ## -capabilities
+
 internetClient, internetClientServer, privateNetworkClientServer

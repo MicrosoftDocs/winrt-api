@@ -10,6 +10,7 @@ public class WebView : Windows.UI.Xaml.FrameworkElement, Windows.UI.Xaml.Control
 # Windows.UI.Xaml.Controls.WebView
 
 ## -description
+
 Provides a control that hosts HTML content in an app.
 
 ## -xaml-syntax
@@ -18,8 +19,8 @@ Provides a control that hosts HTML content in an app.
           <WebView .../>
 ```
 
-
 ## -remarks
+
 Use the [WebView](webview.md) control to host web content in your app.
 
 [WebView](webview.md) is not a [Control](control.md) subclass and thus does not have a control template. You can set various properties to control some visual aspects of the [WebView](webview.md). The display area is constrained by the [Width](../windows.ui.xaml/frameworkelement_width.md) and [Height](../windows.ui.xaml/frameworkelement_height.md) properties. To translate, scale, skew, and rotate a [WebView](webview.md), use the [RenderTransform](../windows.ui.xaml/uielement_rendertransform.md) property. To control the opacity of the [WebView](webview.md), set the [Opacity](../windows.ui.xaml/uielement_opacity.md) property. To specify a color to use as the web page background when the HTML content does not specify a color, set the [DefaultBackgroundColor](webview_defaultbackgroundcolor.md) property.
@@ -96,7 +97,6 @@ private void webView1_NavigationStarting(object sender, WebViewNavigationStartin
 
 ```
 
-
 + [ContentLoading](webview_contentloading.md) - Occurs when the [WebView](webview.md) has started loading new content.
 
 ```csharp
@@ -113,7 +113,6 @@ private void webView1_ContentLoading(WebView sender, WebViewContentLoadingEventA
 
 ```
 
-
 + [DOMContentLoaded](webview_domcontentloaded.md) - Occurs when the [WebView](webview.md) has finished parsing the current HTML content.
 
 ```csharp
@@ -129,7 +128,6 @@ private void webView1_DOMContentLoaded(WebView sender, WebViewDOMContentLoadedEv
 }
 
 ```
-
 
 + [NavigationCompleted](webview_navigationcompleted.md) - Occurs when the [WebView](webview.md) has finished loading the current content or if navigation has failed. To determine whether navigation has failed, check the [IsSuccess](webviewnavigationcompletedeventargs_issuccess.md) and [WebErrorStatus](webviewnavigationcompletedeventargs_weberrorstatus.md) properties of the [WebViewNavigationCompletedEventArgs](webviewnavigationcompletedeventargs.md) class.
 
@@ -151,12 +149,12 @@ private void webView1_NavigationCompleted(WebView sender, WebViewNavigationCompl
 
 ```
 
-Similar events occur in the same order for each **iframe** in the [WebView](webview.md) content: 
+Similar events occur in the same order for each **iframe** in the [WebView](webview.md) content:
+
 + [FrameNavigationStarting](webview_framenavigationstarting.md) - Occurs before a frame in the [WebView](webview.md) navigates to new content.
 + [FrameContentLoading](webview_framecontentloading.md) - Occurs when a frame in the [WebView](webview.md) has started loading new content.
 + [FrameDOMContentLoaded](webview_framedomcontentloaded.md) - Occurs when a frame in the [WebView](webview.md) has finished parsing its current HTML content.
 + [FrameNavigationCompleted](webview_framenavigationcompleted.md) - Occurs when a frame in the [WebView](webview.md) has finished loading its content.
-
 
 ### Responding to potential problems
 
@@ -299,8 +297,6 @@ This example shows a section of the app manifest. Here, a local Uniform Resource
 
 ```
 
-
-
 ### Options for web content hosting
 
 Starting in Windows 10, you can use the [WebView.Settings](webview_settings.md) property (of type [WebViewSettings](webviewsettings.md)) to control whether JavaScript and IndexedDB are enabled. For example, if you use [WebView](webview.md) to display strictly static content, you might want to disable JavaScript for best performance.
@@ -411,27 +407,25 @@ You might be able to intercept the information displayed by an **Alert** and do 
 
 [How to intercept JavaScript alert in WebView in universal Windows apps sample](https://code.msdn.microsoft.com/windowsapps/How-to-intercept-854d33da)
 
-
 ### Notes for previous versions
 
 ### Windows 8.1
+
 The following [WebView](webview.md) APIs are deprecated in Windows 8.1:
+
 + [LoadCompleted](webview_loadcompleted.md) and [NavigationFailed](webview_navigationfailed.md). Use [NavigationCompleted](webview_navigationcompleted.md) instead.
 + [InvokeScript](webview_invokescript.md). Use [InvokeScriptAsync](webview_invokescriptasync.md) instead.
 + [DataTransferPackage](webview_datatransferpackage.md) and [DataTransferPackageProperty](webview_datatransferpackageproperty.md). Use [CaptureSelectedContentToDataPackageAsync](webview_captureselectedcontenttodatapackageasync.md) instead.
 + [AllowedScriptNotifyUris](webview_allowedscriptnotifyuris.md), [AnyScriptNotifyUri](webview_anyscriptnotifyuri.md), and [AllowedScriptNotifyUrisProperty](webview_allowedscriptnotifyurisproperty.md). Include the page's URI in the **ApplicationContentUriRules** section of the app manifest instead.
 
-
 On Windows only, you can handle the [UnsafeContentWarningDisplaying](webview_unsafecontentwarningdisplaying.md) event. This event occurs when the [WebView](webview.md) shows a warning page for content that was reported as unsafe by the SmartScreen Filter. If the user chooses to continue the navigation, subsequent navigation to the page will not display the warning nor fire the event. This event is not implemented for Windows Phone.
 
 When you invoke JavaScript inside the [WebView](webview.md) by calling the [InvokeScriptAsync](webview_invokescriptasync.md) method, functions that require a secondary window, like **Alert**, are not supported.
 
-### Windows Phone 8.
-1
+### Windows Phone 8
 
 + [WebView](webview.md) on Windows Phone 8.1 is not compatible with parent controls that require gestures to propagate up from the [WebView](webview.md) control to the parent, such as [FlipView](flipview.md), [ScrollViewer class](scrollviewer.md), and other related controls.
 + [WebView](webview.md) on Windows Phone 8.1 includes the [ContainsFullScreenElement](webview_containsfullscreenelement.md) property and [ContainsFullScreenElementChanged](webview_containsfullscreenelementchanged.md) event. These members are not available on Windows.
-
 
 The [UnsafeContentWarningDisplaying](webview_unsafecontentwarningdisplaying.md) event is not implemented for Windows Phone prior to Windows 10.
 
@@ -449,6 +443,7 @@ If you want to display an interactive [WebView](webview.md) that only occasional
 [WebView](webview.md) always uses Internet Explorer 10 in document mode.
 
 ## -examples
+
 The following code example demonstrates how to navigate a [WebView](webview.md) to a URI contained in a [TextBox](textbox.md) named `Address`.
 
 ```csharp
@@ -471,7 +466,6 @@ webView2.NavigateToString(
     "<html><body><h2>This is an HTML fragment</h2></body></html>");
 ```
 
-
-
 ## -see-also
+
 [FrameworkElement](../windows.ui.xaml/frameworkelement.md), [WebView guidelines](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/web-view), [XAML WebView control sample](http://go.microsoft.com/fwlink/p/?linkid=238582), [WebView control (HTML) sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620624), [WebView control (XAML) sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=722922)

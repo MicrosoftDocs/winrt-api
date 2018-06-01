@@ -6,6 +6,7 @@
 # Windows.System.UserProfile
 
 ## -description
+
 Enables apps get information about users, set globalization preferences, and control the lock screen image.
 
 ## -remarks
@@ -13,4 +14,5 @@ Enables apps get information about users, set globalization preferences, and con
 ## -examples
 
 ## -see-also
-[Lock screen personalization sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620585), [Globalization preferences sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=624045), [User information sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620617)
+
+[Lock screen personalization sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620585), [Globalization preferences sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=624045), [User information sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620617), [OCR sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/OCR)

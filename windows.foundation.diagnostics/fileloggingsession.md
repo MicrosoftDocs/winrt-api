@@ -10,9 +10,11 @@ public class FileLoggingSession : Windows.Foundation.Diagnostics.IFileLoggingSes
 # Windows.Foundation.Diagnostics.FileLoggingSession
 
 ## -description
+
 Represents the destination of logged messages from [LoggingChannel](loggingchannel.md) instances.
 
 ## -remarks
+
 Use the [FileLoggingSession](fileloggingsession.md) class to log messages and data to a file continuously as your app runs. You can view the log files by using the Windows Performance Toolkit (WPT) and other utilities like tracerpt.exe.
 
 Add [LoggingChannel](loggingchannel.md) instances to a [FileLoggingSession](fileloggingsession.md), and call [FileLoggingSession](fileloggingsession.md) instance methods to remove channels, dispose, and perform other operations. The number of channels is not currently limited.
@@ -43,4 +45,5 @@ Before a log file is provided to an app via the [LogFileGenerated](fileloggingse
 ## -examples
 
 ## -see-also
+
 [LoggingChannel](loggingchannel.md), [IFileLoggingSession](ifileloggingsession.md), [IClosable](../windows.foundation/iclosable.md), [Logging sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620565)

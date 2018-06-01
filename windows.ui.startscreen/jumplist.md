@@ -10,12 +10,15 @@ public class JumpList : Windows.UI.StartScreen.IJumpList
 # Windows.UI.StartScreen.JumpList
 
 ## -description
+
 Provides functionality for an app's jump list. A jump list is a system-provided menu that appears when the user right-clicks a program in the taskbar or on the Start menu. It is used to provide quick access to recently or frequently-used documents and offer direct links to app functionality. Not all device families support jump lists.
 
 ## -remarks
+
 An app's [JumpList](jumplist.md) is retrieved using the [LoadCurrentAsync](jumplist_loadcurrentasync.md) method. If an application does not customize its jump list, the system provides a default jump list. Currently, the default jump list shows Recent items.
 
 ## -examples
+
 The following example demonstrates how to remove the jump list for an app, including any custom items that might have been previously added.
 
 ```csharp
@@ -54,7 +57,6 @@ private async void SetSystemGroupAsync()
 
 ```
 
-
-
 ## -see-also
+
 [Jump list customization sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/JumpList)

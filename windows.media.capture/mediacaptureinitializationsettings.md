@@ -10,15 +10,16 @@ public class MediaCaptureInitializationSettings : Windows.Media.Capture.IMediaCa
 # Windows.Media.Capture.MediaCaptureInitializationSettings
 
 ## -description
+
 Contains initialization settings for the [MediaCapture](mediacapture.md) object which are passed to the [MediaCapture.InitializeAsync](mediacapture_initializeasync.md) method.
 
 ## -remarks
+
 For how-to guidance on initializing and shutting down the **MediaCapture** object, see [Basic photo, video, and audio capture with MediaCapture](https://msdn.microsoft.com/en-us/windows/uwp/audio-video-camera/basic-photo-video-and-audio-capture-with-mediacapture).
 
 ## -examples
+
 The following example initializes the **MediaCaptureInitializationSettings**. Call [InitializeAsync](mediacapture_initializeasync_837464435.md) with these settings to initialize a [MediaCapture](mediacapture.md) object.
-
-
 
 [!code-csharp[MediaCaptureVideo_InitSettings](../windows.media.capture/code/MediaCaptureVideo/csharp/MainPage.xaml.cs#SnippetMediaCaptureVideo_InitSettingsCS)]
 
@@ -26,7 +27,9 @@ The following example initializes the **MediaCaptureInitializationSettings**. Ca
 
 ## -see-also
 
+[Camera profiles sample](https://github.com/Microsoft/Windows-universal-samples/tree/dev/Samples/CameraProfile), [Video stabilization sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/CameraVideoStabilization)
 
 ## -capabilities
+
 backgroundMediaRecording
 microphone, webcam

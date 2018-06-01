@@ -10,9 +10,11 @@ public class LanguageFontGroup : Windows.Globalization.Fonts.ILanguageFontGroup
 # Windows.Globalization.Fonts.LanguageFontGroup
 
 ## -description
+
 Supplies a set of font recommendations for a given language or script for various usage cases.
 
 ## -remarks
+
 A [LanguageFontGroup](languagefontgroup.md) provides a set of font recommendations for a particular language or script. The different fonts recommended by a given [LanguageFontGroup](languagefontgroup.md), exposed as separate [LanguageFontGroup](languagefontgroup.md) properties, correspond to different usage cases.
 
 Each [LanguageFontGroup](languagefontgroup.md) property returns a [LanguageFont](languagefont.md) object, which provides the details for that particular font recommendation. Those details include a font family as well as font weight, style and stretch attributes.
@@ -27,7 +29,6 @@ For some languages and scripts, the [LanguageFontGroup](languagefontgroup.md) ma
 **Beginning in :** The [LanguageFontGroup](languagefontgroup.md) class returns font group data to match the target operating system for which an app was developed. Therefore, if you update your Windows 8 app to Windows 8.1, the fonts used in your app may change, and you may need to make adjustments to your UI layout.
 
 ## -examples
-
 
 ```javascript
 // Get the recommended Japanese fonts for traditional documents and modern documents.
@@ -59,7 +60,6 @@ var modernDocumentFontFontFamily = modernDocumentFont.FontFamily;             //
 var modernDocumentFontScaleFactor = modernDocumentFont.ScaleFactor;           // 90
 ```
 
-
-
 ## -see-also
+
 [Language font mapping sample](http://go.microsoft.com/fwlink/p/?linkid=231603), [Language font mapping sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620559)

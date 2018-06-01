@@ -25,7 +25,6 @@ This namespace supports most HID devices. However, it blocks the top-level appli
 + HID_USAGE_PAGE_SENSOR
 + HID_USAGE_PAGE_TELEPHONY
 
-
 ## -remarks
 
 ## -examples
@@ -47,4 +46,3 @@ This namespace supports most HID devices. However, it blocks the top-level appli
 ### Video
 
 [Apps for HID devices]( http://go.microsoft.com/fwlink/p/?LinkID=317592)
-

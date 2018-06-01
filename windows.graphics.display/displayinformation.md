@@ -10,9 +10,11 @@ public class DisplayInformation : Windows.Graphics.Display.IDisplayInformation, 
 # Windows.Graphics.Display.DisplayInformation
 
 ## -description
+
 Monitors and controls display-related information for an application view. The class provides events to allow clients to monitor for changes in the application view affecting which display(s) the view resides on, as well as changes in displays that can affect the application view.
 
 ## -remarks
+
 A [DisplayInformation](displayinformation.md) instance does not map to a specific display, but instead tracks display-related information for wherever the application view is placed. Calling [GetForCurrentView](displayinformation_getforcurrentview_1363600702.md) will always return the single instance for the current thread's [CoreApplicationView](../windows.applicationmodel.core/coreapplicationview.md). An instance of [DisplayInformation](displayinformation.md) can only be used from the thread on which it was created.
 
 To handle [DisplayInformation](displayinformation.md) events, use an event handler for the specific event. For example, for [DisplayInformation.DpiChanged](displayinformation_dpichanged.md), use "TypedEventHandler&lt;DisplayInformation, Object&gt; DpiChanged."
@@ -22,4 +24,5 @@ Any property change event of [DisplayInformation](displayinformation.md) might t
 ## -examples
 
 ## -see-also
-[Display orientation sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=624042), [Scaling according to DPI sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620537), [Camera preview frame sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620516), [Basic camera app sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=619479), [Video stabilization sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620519), [Camera face detection sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=619486), [Manual camera controls sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=627611), [High dynamic range sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620517)
+
+[Display orientation sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=624042), [Scaling according to DPI sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620537), [Camera preview frame sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620516), [Basic camera app sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=619479), [Video stabilization sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620519), [Camera face detection sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=619486), [Manual camera controls sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=627611), [High dynamic range sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620517), [Camera Advanced Capture sample](https://github.com/Microsoft/Windows-universal-samples/tree/dev/Samples/CameraAdvancedCapture)

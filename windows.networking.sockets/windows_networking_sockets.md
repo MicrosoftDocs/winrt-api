@@ -6,9 +6,11 @@
 # Windows.Networking.Sockets
 
 ## -description
+
 Provides sockets and WebSockets classes to use for network communications and classes for real-time network notifications received in the background for UWP apps.
 
 ## -remarks
+
 The [Windows.Networking.Sockets](windows_networking_sockets.md) namespace provides classes and interfaces for networking that use sockets and WebSockets. Here are the primary classes.
 
 + [DatagramSocket](datagramsocket.md). A UDP datagram socket to use for network communication.
@@ -66,7 +68,6 @@ There are some scenarios where either kind of trigger would be suitable. When yo
 + If you want to minimize the memory footprint of your app when it is not actively servicing network requests, prefer [SocketActivityTrigger](../windows.applicationmodel.background/socketactivitytrigger.md).
 + If you want your app to be able to receive data while the system is in Connected Standby mode, use [SocketActivityTrigger](../windows.applicationmodel.background/socketactivitytrigger.md).
 
-
 ### Using sockets and WebSockets on Windows Server 2012
 
 On Windows Server 2012 and Windows Server 2012 R2, the *Windows.Networking.dll* that implements most of the classes in the [Windows.Networking.Sockets](windows_networking_sockets.md) namespace will fail to load unless the Media Foundation feature is enabled. As a result, apps that uses sockets or WebSockets classes in the [Windows.Networking.Sockets](windows_networking_sockets.md) namespace will fail if the Media Foundation feature is disabled. Windows Server 2012 or Windows Server 2012 R2 installs with the Media Foundation feature disabled.
@@ -90,6 +91,7 @@ For more detailed information on network isolation, see [How to configure networ
 ## -examples
 
 ## -see-also
+
 [Adding support for networking](http://msdn.microsoft.com/library/1c5819d6-bed7-4d65-b9d7-af5a2239b43f),
 [Connecting to network services](http://msdn.microsoft.com/library/67cfa78f-570f-4dd4-a0f2-cd6c891f5446),
 [WebSockets](/windows/uwp/networking/websockets?branch=live),
@@ -116,7 +118,9 @@ For more detailed information on network isolation, see [How to configure networ
 [WebSocket sample](http://go.microsoft.com/fwlink/p/?LinkId=620623),
 [StreamSocket sample](http://go.microsoft.com/fwlink/p/?LinkId=620609),
 [Wi-Fi Direct sample](http://go.microsoft.com/fwlink/p/?LinkId=620626),
-[Wi-Fi Direct services sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620627)
+[Wi-Fi Direct services sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620627),
+[Socket activity trigger stream socket sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SocketActivityStreamSocket)
 
 ## -capabilities
+
 ID_CAP_NETWORKING [Windows Phone]

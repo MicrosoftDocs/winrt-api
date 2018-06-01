@@ -22,4 +22,5 @@ Provides APIs for user interface composition.
 ## -examples
 
 ## -see-also
-[ElementCompositionPreview](../windows.ui.xaml.hosting/elementcompositionpreview.md), [Composition visual without framework sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620483)
+
+[ElementCompositionPreview](../windows.ui.xaml.hosting/elementcompositionpreview.md), [Composition visual without framework sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620483), [Version adaptive code sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/VersionAdaptiveCode)

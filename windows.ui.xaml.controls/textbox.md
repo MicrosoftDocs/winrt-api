@@ -236,7 +236,6 @@ private void Button_Click(object sender, RoutedEventArgs e)
 }
 ```
 
-
-
 ## -see-also
+
 [Control](control.md), [Guidelines for text input](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/text-box), [TextBox styles and templates](http://msdn.microsoft.com/library/fb929d6f-b605-41e0-8a1d-98eb55fbedc0), [How to use input scope to change the touch keyboard](http://msdn.microsoft.com/library/6e5f55d7-24d6-47cc-b457-b6231ede2a71), [XAML text editing sample](http://go.microsoft.com/fwlink/p/?linkid=251417), [Guidelines for spell checking](http://msdn.microsoft.com/library/b867c956-5ab2-4207-a8de-179ce7871180), [PasswordBox](passwordbox.md), [RichEditBox](richeditbox.md), [RichTextBlock](richtextblock.md), [SearchBox](searchbox.md), [Controls list](http://msdn.microsoft.com/library/11172840-a63d-4f48-9db4-7baca06308ee), [Controls by function](http://msdn.microsoft.com/library/8db4347b-91d6-4659-91f2-80ecf7bbb596), [Touch keyboard text input sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=690716)

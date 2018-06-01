@@ -10,18 +10,21 @@ public class Image : Windows.UI.Xaml.FrameworkElement, Windows.UI.Xaml.Controls.
 # Windows.UI.Xaml.Controls.Image
 
 ## -description
+
 Represents a control that displays an image. The image source is specified by referring to an image file, using several supported formats. The image source can also be set with a stream. See Remarks for the list of supported image source formats.
 
 ## -xaml-syntax
+
 ```xaml
 <Image .../>
 ```
 
-
 ## -remarks
+
 ### Image file formats
 
 An [Image](image.md) can display these image file formats:
+
 + Joint Photographic Experts Group (JPEG)
 + Portable Network Graphics (PNG)
 + bitmap (BMP)
@@ -33,7 +36,6 @@ An [Image](image.md) can display these image file formats:
 
 > [!NOTE]
 > Icon files supported on Windows only. Not supported on Windows Phone 8.1
-
 
 Starting in Windows 10, version 1607, the [Image](image.md) element supports animated Graphics Interchange Format (GIF) images. When you use a [BitmapImage](../windows.ui.xaml.media.imaging/bitmapimage.md) as the image [Source](image_source.md), you can access [BitmapImage](../windows.ui.xaml.media.imaging/bitmapimage.md)  API to control playback of the animated Graphics Interchange Format (GIF) image. For more info, see the Remarks on the [BitmapImage](../windows.ui.xaml.media.imaging/bitmapimage.md) class page.
 
@@ -84,8 +86,6 @@ void Image_Loaded(object sender, RoutedEventArgs e)
     bitmapImage.UriSource = new Uri(img.BaseUri,"Images/myimage.png");
 }
 ```
-
-
 
 ### Using a stream source for an Image source
 
@@ -141,7 +141,6 @@ To prevent images from being decoded more than once, assign image source propert
 
 You can remove image files from the image cache by setting all associated [Image.Source](image_source.md) values to **null**.
 
-
 <!--<p  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">If you're specifically trying to show a thumbnail for a file reference / <xref targtype="class_winrt" rid="w_storage.storagefile">StorageFile</xref> instance, you can call <xref targtype="method_overload_winrt" rid="w_storage.storagefile_getthumbnailasync">GetThumbnailAsync</xref>.</p>-->
 
 For more info on the [Image](image.md) class and performance, see [Optimize animations and media](http://msdn.microsoft.com/library/de5b084c-dac1-430b-a15b-5b3d5fb698f7).
@@ -167,6 +166,7 @@ Using the [NineGrid](image_ninegrid.md) technique is another option for sizing i
 ### Resource qualification and localization for **Image**
 
 ### **Image** source files and scaling
+
 You should create your image sources at several recommended sizes, to ensure that your app looks great when Windows 8 scales it. When specifying a [Source](image_source.md) for an [Image](image.md), you can use a naming convention for resources that will use the correct resource for device-specific scaling factors. This is determined by the app automatically at run-time. For specifics of the naming conventions to use and more info, see [Quickstart: Using file or image resources](http://msdn.microsoft.com/library/a3e91a0e-9a74-4e92-a6e4-ddd633660a3a).
 
 For more info on how to design images properly for scaling, see [UX guidelines for layout and scaling](http://msdn.microsoft.com/library/c388f639-6f35-4d52-bffe-53ff3f537d4b).
@@ -183,8 +183,8 @@ If you set [FlowDirection](../windows.ui.xaml/frameworkelement_flowdirection.md)
 
 The [Image](image.md) class is not a true control class in that it is not a descendant class of [Control](control.md). You can't call focus to an [Image](image.md) element, or place an [Image](image.md) element in a tab sequence. For more info on the accessibility aspects of using images and the [Image](image.md) element in your UI, see [Basic accessibility information](http://msdn.microsoft.com/library/9641c926-68c9-4842-8b55-c38c39a9e5c5).
 
-
 <!--The following remark is relevant for Windows 8 > 8.1 migration. See WBB 459121-->
+
 ### Windows 8 behavior
 
 For Windows 8, resources can use a resource qualifier pattern to load different resources depending on device-specific scaling. However, resources aren't automatically reloaded if the scaling factor changes while the app is running. In this case apps would have to take care of reloading resources, by handling the [DpiChanged](../windows.graphics.display/displayinformation_dpichanged.md) event (or the deprecated [LogicalDpiChanged](../windows.graphics.display/displayproperties_logicaldpichanged.md) event) and using [ResourceManager](../windows.applicationmodel.resources.core/resourcemanager.md)  API to manually reload the resource that's appropriate for the new scaling factor. Starting with Windows 8.1, any resource that was originally retrieved for your app is automatically re-evaluated if the scaling factor changes while the app is running. In addition, when that resource is the image source for an [Image](image.md) object, then one of the source-load events ([ImageOpened](image_imageopened.md) or [ImageFailed](image_imagefailed.md)) is fired as a result of the system's action of requesting the new resource and then applying it to the [Image](image.md). The scenario where a run-time scale change might happen is if the user moves your app to a different monitor when more than one is available.
@@ -210,4 +210,5 @@ Apps that were compiled for Windows 8 but running on Windows 8.1 continue to u
 </table>
 
 ## -see-also
+
 [FrameworkElement](../windows.ui.xaml/frameworkelement.md), [Image and ImageBrush](http://msdn.microsoft.com/library/cea8780c-71a3-4168-a6e8-6361cdfb2faf), [XAML images sample](http://go.microsoft.com/fwlink/p/?linkid=238575), [Optimize animations and media](http://msdn.microsoft.com/library/de5b084c-dac1-430b-a15b-5b3d5fb698f7), [BitmapSource](../windows.ui.xaml.media.imaging/bitmapsource.md), [FlowDirection](../windows.ui.xaml/frameworkelement_flowdirection.md), [Windows.Graphics.Imaging](../windows.graphics.imaging/windows_graphics_imaging.md), [Source](image_source.md), [Animated GIF playback (XAML) sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=624046)

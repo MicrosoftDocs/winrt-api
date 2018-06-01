@@ -6,9 +6,11 @@
 # Windows.Devices.WiFiDirect
 
 ## -description
+
 Contains classes that support connecting to associated Wi-Fi Direct devices and associated endpoints for PCs, tablets, and phones.
 
 ## -remarks
+
 You can use the [WiFiDirectDevice](wifidirectdevice.md) class to establish a socket connection with other devices that have a Wi-Fi Direct (WFD) capable device. You can call the [GetDeviceSelector](wifidirectdevice_getdeviceselector.md) method to get the device identifier for a Wi-Fi Direct device. Once you have a reference to a [WiFiDirectDevice](wifidirectdevice.md) on your computer, you can call the [GetConnectionEndpointPairs](wifidirectdevice_getconnectionendpointpairs.md) method to get an [EndpointPair](../windows.networking/endpointpair.md) object and establish a socket connection using classes in the [Windows.Networking.Sockets](../windows.networking.sockets/windows_networking_sockets.md) namespace.
 
 You can add a handler for the [ConnectionStatusChanged](wifidirectdevice_connectionstatuschanged.md) event to be notified when the connection has been established or disconnected.
@@ -18,7 +20,6 @@ Only one app can be connected to a Wi-Fi Direct device at a time.
 You must enable the **Proximity** capability to communicate with Wi-Fi Direct devices.
 
 ## -examples
-
 
 ```csharp
 Windows.Devices.WiFiDirect.WiFiDirectDevice wfdDevice;
@@ -155,7 +156,6 @@ function disconnect() {
 
 ```
 
-
-
 ## -see-also
+
 [WiFiDirectDevice sample](http://go.microsoft.com/fwlink/p/?LinkID=301419), [Wi-Fi Direct sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620626)

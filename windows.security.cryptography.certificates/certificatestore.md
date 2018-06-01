@@ -10,11 +10,15 @@ public class CertificateStore : Windows.Security.Cryptography.Certificates.ICert
 # Windows.Security.Cryptography.Certificates.CertificateStore
 
 ## -description
+
 Represents a certificate store for an app.
 
 ## -remarks
+
 You can retrieve certificates from the certificate store using the [FindAllAsync](certificatestores_findallasync.md) method.
 
 ## -examples
 
 ## -see-also
+
+[UserCertificateStore sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/UserCertificateStore)

@@ -1,4 +1,4 @@
-a ---
+---
 -api-id: T:Windows.UI.Xaml.Controls.Maps.MapControl
 -api-type: winrt class
 ---
@@ -10,9 +10,11 @@ public class MapControl : Windows.UI.Xaml.Controls.Control, Windows.UI.Xaml.Cont
 # Windows.UI.Xaml.Controls.Maps.MapControl
 
 ## -description
+
 Represents a symbolic or photorealistic map of the Earth.
 
 ## -xaml-syntax
+
 ```xaml
 <!-- xmlns:Maps="using:Windows.UI.Xaml.Controls.Maps" -->
 
@@ -22,10 +24,10 @@ Represents a symbolic or photorealistic map of the Earth.
 
 ```
 
-
 ## -remarks
 
 ## -examples
 
 ## -see-also
-[Display maps with 2D, 3D, and Streetside views](http://msdn.microsoft.com/library/3839e00b-2c1e-4627-a45f-6dda98d7077f), [Control](../windows.ui.xaml.controls/control.md)
+
+[Display maps with 2D, 3D, and Streetside views](http://msdn.microsoft.com/library/3839e00b-2c1e-4627-a45f-6dda98d7077f), [Control](../windows.ui.xaml.controls/control.md), [MapControl sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/MapControl)

@@ -10,12 +10,12 @@ public class SyndicationItem : Windows.Web.Syndication.ISyndicationItem, Windows
 # Windows.Web.Syndication.SyndicationItem
 
 ## -description
+
 Represents an item in the feed. This class encapsulates information in the **/rss/channel/item** element in *RSS 2.0* or the **atom:entry** element in *Atom 1.0*.
 
 ## -remarks
+
 The following code demonstrates how to access the property values of a [SyndicationItem](syndicationitem.md) object.
-
-
 
 ```javascript
 
@@ -111,4 +111,5 @@ The following table maps [SyndicationItem](syndicationitem.md) properties to RSS
 ## -examples
 
 ## -see-also
+
 [Quickstart: Accessing a web feed](http://msdn.microsoft.com/library/bde79bfb-f566-4dbe-b861-f849ab8bc574), [Syndication sample](http://go.microsoft.com/fwlink/p/?linkid=245062), [AtomPub sample](http://go.microsoft.com/fwlink/p/?linkid=245061), [Syndication sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620610)

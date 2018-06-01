@@ -10,9 +10,11 @@ public class SplitView : Windows.UI.Xaml.Controls.Control, Windows.UI.Xaml.Contr
 # Windows.UI.Xaml.Controls.SplitView
 
 ## -description
+
 Represents a container with two views; one view for the main content and another view that is typically used for navigation commands.
 
 ## -xaml-syntax
+
 ```xaml
 <SplitView>
   <SplitView.Content>
@@ -25,8 +27,8 @@ Represents a container with two views; one view for the main content and another
 
 ```
 
-
 ## -remarks
+
 [SplitView](splitview.md)The [SplitView](splitview.md) control presents two areas of content: a [Pane](splitview_pane.md) and the main [Content](splitview_content.md). You typically use a [SplitView](splitview.md) to create a top-level navigation experience that adapts to different screen widths following the [nav pane pattern](http://msdn.microsoft.com/library/8fb52f5e-8e72-4604-9222-0b0ec6a97541) or the [master/details pattern](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/master-details), but it's not strictly limited to use for navigation.
 
 The XAML for this [SplitView](splitview.md) is shown in the Examples section.
@@ -47,9 +49,6 @@ Set the [DisplayMode](splitview_displaymode.md) property to configure the intera
 For design guidance, see [Guidelines for the split view control](http://msdn.microsoft.com/library/e9e4537f-1160-4183-9a83-26602fcfdc9a).
 
 For more info and examples on building a top-level navigation experience, see [Guidelines for navigation panes](http://msdn.microsoft.com/library/8fb52f5e-8e72-4604-9222-0b0ec6a97541) and the [XAML Navigation Menu sample](http://go.microsoft.com/fwlink/p/?LinkId=619902&amp;amp;clcid=0x409).
-
-
-
 
 ## -examples
 
@@ -89,7 +88,6 @@ Here's a [SplitView](splitview.md) control with an open [Pane](splitview_pane.md
 </SplitView>
 ```
 
-
-
 ## -see-also
+
 [Control](control.md), [Guidelines for the split view control](http://msdn.microsoft.com/library/e9e4537f-1160-4183-9a83-26602fcfdc9a), [Guidelines for navigation panes](http://msdn.microsoft.com/library/8fb52f5e-8e72-4604-9222-0b0ec6a97541), [Guidelines for master/details pattern](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/master-details), [Navigation menu (XAML) sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=619902), [Tailored multiple views sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620636)

@@ -10,6 +10,7 @@ public class RadialController : Windows.UI.Input.IRadialController, Windows.UI.I
 # Windows.UI.Input.RadialController
 
 ## -description
+
 Represents a wheel input device or accessory such as the Surface Dial.
 
 > [!NOTE]
@@ -34,7 +35,6 @@ In this example, we add a custom tool to the Surface Dial menu and declare the [
 1. Next, we append that item to the collection of menu items.
 1. We declare the input event handlers ([ButtonClicked](radialcontroller_buttonclicked.md) and [RotationChanged](radialcontroller_rotationchanged.md)) for the [RadialController](radialcontroller.md) object.
 1. Finally, we define the event handlers.
-
 
 ```csharp
 public sealed partial class MainPage : Page
@@ -98,11 +98,10 @@ In the [ButtonClicked](radialcontroller_buttonclicked.md) handler, the interacti
 
 [!code-csharp[SnippetButtonClickedHandler](../windows.ui.input/code/RadialController/csharp/MainPage.xaml.cs#SnippetButtonClickedHandler)]
 
-
 In the [RotationChanged](radialcontroller_rotationchanged.md) handler, the interaction modifies the value of a slider.
 
 [!code-csharp[SnippetRotationChangedHandler](../windows.ui.input/code/RadialController/csharp/MainPage.xaml.cs#SnippetRotationChangedHandler)]
 
-
 ## -see-also
-[Windows.UI.Input Classes](windows_ui_input_classes.md), [RadialController class](radialcontroller.md), [RadialControllerButtonClickedEventArgs class](radialcontrollerbuttonclickedeventargs.md), [RadialControllerConfiguration class](radialcontrollerconfiguration.md), [RadialControllerControlAcquiredEventArgs class](radialcontrollercontrolacquiredeventargs.md), [RadialControllerMenu class](radialcontrollermenu.md), [RadialControllerMenuItem class](radialcontrollermenuitem.md), [RadialControllerRotationChangedEventArgs class](radialcontrollerrotationchangedeventargs.md), [RadialControllerScreenContact class](radialcontrollerscreencontact.md), [RadialControllerScreenContactContinuedEventArgs class](radialcontrollerscreencontactcontinuedeventargs.md), [RadialControllerScreenContactStartedEventArgs class](radialcontrollerscreencontactstartedeventargs.md), [RadialControllerMenuKnownIcon enum](radialcontrollermenuknownicon.md), [RadialControllerSystemMenuItemKind enum](radialcontrollersystemmenuitemkind.md), [Surface Dial interactions](https://msdn.microsoft.com/en-us/windows/uwp/input-and-devices/windows-wheel-interactions), [Universal Windows Platform samples (C# and C++)](https://go.microsoft.com/fwlink/?linkid=832713), [Windows classic desktop sample](https://aka.ms/radialcontrollerclassicsample)
+
+[Windows.UI.Input Classes](windows_ui_input_classes.md), [RadialController class](radialcontroller.md), [RadialControllerButtonClickedEventArgs class](radialcontrollerbuttonclickedeventargs.md), [RadialControllerConfiguration class](radialcontrollerconfiguration.md), [RadialControllerControlAcquiredEventArgs class](radialcontrollercontrolacquiredeventargs.md), [RadialControllerMenu class](radialcontrollermenu.md), [RadialControllerMenuItem class](radialcontrollermenuitem.md), [RadialControllerRotationChangedEventArgs class](radialcontrollerrotationchangedeventargs.md), [RadialControllerScreenContact class](radialcontrollerscreencontact.md), [RadialControllerScreenContactContinuedEventArgs class](radialcontrollerscreencontactcontinuedeventargs.md), [RadialControllerScreenContactStartedEventArgs class](radialcontrollerscreencontactstartedeventargs.md), [RadialControllerMenuKnownIcon enum](radialcontrollermenuknownicon.md), [RadialControllerSystemMenuItemKind enum](radialcontrollersystemmenuitemkind.md), [Surface Dial interactions](https://msdn.microsoft.com/en-us/windows/uwp/input-and-devices/windows-wheel-interactions), [Universal Windows Platform samples (C# and C++)](https://go.microsoft.com/fwlink/?linkid=832713), [Windows classic desktop sample](https://aka.ms/radialcontrollerclassicsample), [Radial controller sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/RadialController)

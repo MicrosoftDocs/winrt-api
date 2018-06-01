@@ -10,6 +10,7 @@ public class SignificantDigitsNumberRounder : Windows.Globalization.NumberFormat
 # Windows.Globalization.NumberFormatting.SignificantDigitsNumberRounder
 
 ## -description
+
 Rounds numbers to a specified number of significant digits.
 
 ## -remarks
@@ -17,4 +18,5 @@ Rounds numbers to a specified number of significant digits.
 ## -examples
 
 ## -see-also
+
 [INumberRounder](inumberrounder.md), [Number formatting and parsing sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620578)

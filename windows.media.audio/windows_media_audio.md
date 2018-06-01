@@ -6,6 +6,7 @@
 # Windows.Media.Audio
 
 ## -description
+
 Provides APIs for routing, mixing, and processing audio.
 
 ## -remarks
@@ -13,3 +14,5 @@ Provides APIs for routing, mixing, and processing audio.
 ## -examples
 
 ## -see-also
+
+[AudioGraph sample](https://github.com/Microsoft/Windows-universal-samples/tree/dev/Samples/AudioCreation)

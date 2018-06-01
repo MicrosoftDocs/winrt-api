@@ -10,6 +10,7 @@ public interface IUriToStreamResolver :
 # Windows.Web.IUriToStreamResolver
 
 ## -description
+
 Provides a method to translate a URI to a content stream for use by the [WebView.NavigateToLocalStreamUri](../windows.ui.xaml.controls/webview_navigatetolocalstreamuri.md) method.
 
 ## -remarks

@@ -6,6 +6,7 @@
 # Windows.UI.Xaml
 
 ## -description
+
 Provides general framework APIs and application model APIs, and a variety of support classes that are commonly used by many different feature areas.
 
 ## -remarks
@@ -13,4 +14,5 @@ Provides general framework APIs and application model APIs, and a variety of sup
 ## -examples
 
 ## -see-also
-[DirectX and XAML game sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620599)
+
+[DirectX and XAML game sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620599), [Drag and drop sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlDragAndDrop), [State triggers sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlStateTriggers), [Basic input sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/BasicInput), [Transform3D animations sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlTransform3DAnimations), [Master/detail sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlMasterDetail)

@@ -10,6 +10,7 @@ public class ApplicationViewSwitcher
 # Windows.UI.ViewManagement.ApplicationViewSwitcher
 
 ## -description
+
 Represents the app view switching behaviors for an app.
 
 ## -remarks
@@ -17,4 +18,5 @@ Represents the app view switching behaviors for an app.
 ## -examples
 
 ## -see-also
+
 [Multiple views sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620574), [Projection sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620587)

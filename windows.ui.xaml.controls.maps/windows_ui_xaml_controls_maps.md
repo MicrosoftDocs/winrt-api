@@ -6,6 +6,7 @@
 # Windows.UI.Xaml.Controls.Maps
 
 ## -description
+
 Defines classes for the Map control. Also defines tile sources and elements that can be placed on a map.
 
 ## -remarks
@@ -13,4 +14,5 @@ Defines classes for the Map control. Also defines tile sources and elements that
 ## -examples
 
 ## -see-also
-[Maps and location overview](http://msdn.microsoft.com/library/f4c1f094-cf46-4b15-9d80-c1a26a314521)
+
+[Maps and location overview](http://msdn.microsoft.com/library/f4c1f094-cf46-4b15-9d80-c1a26a314521), [MapControl sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/MapControl)

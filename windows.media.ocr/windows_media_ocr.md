@@ -6,6 +6,7 @@
 # Windows.Media.Ocr
 
 ## -description
+
 Provides optical character recognition (OCR) API for reading text from images.
 
 ## -remarks
@@ -13,4 +14,5 @@ Provides optical character recognition (OCR) API for reading text from images.
 ## -examples
 
 ## -see-also
+
 [OCR sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620579)

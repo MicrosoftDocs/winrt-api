@@ -10,15 +10,17 @@ public class AppBarToggleButton : Windows.UI.Xaml.Controls.Primitives.ToggleButt
 # Windows.UI.Xaml.Controls.AppBarToggleButton
 
 ## -description
+
 Represents a button control that can switch states and be displayed in an [AppBar](appbar.md).
 
 ## -xaml-syntax
+
 ```xaml
 <AppBarToggleButton .../>
 ```
 
-
 ## -remarks
+
 An [AppBarToggleButton](appbartogglebutton.md) is similar to an [AppBarButton](appbarbutton.md) with an additional toggle state. When used inside a [CommandBar](commandbar.md). the visual appearance changes based on whether the control appears in the primary commands or the overflow menu. Here is an example of a toggled button as both a primary command and secondary command.
 
 <img src="images/AppBarToggleButton_TwoModes.png" alt="App bar button icon examples." />
@@ -79,4 +81,5 @@ This table shows the resources used by the [AppBarToggleButton](appbartogglebutt
 ## -examples
 
 ## -see-also
+
 [Control](control.md), [AppBarToggleButton styles and templates](http://msdn.microsoft.com/library/1b30cadd-a693-45b9-ace1-29adc75f087a), [AppBar](appbar.md), [AppBarButton](appbarbutton.md), [AppBarSeparator](appbarseparator.md), [CommandBar](commandbar.md), [ToggleButton](../windows.ui.xaml.controls.primitives/togglebutton.md), [Controls list](http://msdn.microsoft.com/library/11172840-a63d-4f48-9db4-7baca06308ee), [Controls by function](http://msdn.microsoft.com/library/8db4347b-91d6-4659-91f2-80ecf7bbb596), [Commanding sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620019)
