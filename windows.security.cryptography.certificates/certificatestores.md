@@ -10,6 +10,7 @@ public class CertificateStores
 # Windows.Security.Cryptography.Certificates.CertificateStores
 
 ## -description
+
 Represents a collection of certificate stores.
 
 ## -remarks
@@ -17,3 +18,5 @@ Represents a collection of certificate stores.
 ## -examples
 
 ## -see-also
+
+[UserCertificateStore sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/UserCertificateStore)

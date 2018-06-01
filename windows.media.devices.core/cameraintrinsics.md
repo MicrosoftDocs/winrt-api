@@ -10,6 +10,7 @@ public class CameraIntrinsics : Windows.Media.Devices.Core.ICameraIntrinsics, Wi
 # Windows.Media.Devices.Core.CameraIntrinsics
 
 ## -description
+
 Represents the intrinsics that describe the camera distortion model.
 
 ## -remarks
@@ -17,3 +18,5 @@ Represents the intrinsics that describe the camera distortion model.
 ## -examples
 
 ## -see-also
+
+[Camera stream coordinate mapper sample](https://github.com/Microsoft/Windows-universal-samples/tree/dev/Samples/CameraStreamCoordinateMapper), [Camera stream correlation sample](https://github.com/Microsoft/Windows-universal-samples/tree/dev/Samples/CameraStreamCorrelation)

@@ -10,14 +10,17 @@ public class CachedFileManager
 # Windows.Storage.CachedFileManager
 
 ## -description
+
 Lets apps manage real-time updates to files.
 
 ## -remarks
+
 This class is static and cannot be instantiated. Call the methods directly instead.
 
 Typically, Windows implicitly initiates updates for files that are provided by other apps when those files change.  However, you can control when updates are initiated by calling [DeferUpdates](cachedfilemanager_deferupdates.md). If you use this method are deferred until you call [CompleteUpdatesAsync](cachedfilemanager_completeupdatesasync.md) to initiate them.
 
 ## -examples
+
 The [File picker sample](http://go.microsoft.com/fwlink/p/?linkid=234890) shows you how to use a [CachedFileManager](cachedfilemanager.md) to defer updates to a file until the app finishes modifying the file.
 
 ```javascript
@@ -88,4 +91,5 @@ if (file != null)
 In the example, `file` is a local variable that contains a [StorageFile](storagefile.md) that represents the file to defer updates for.
 
 ## -see-also
+
 [File picker sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=619994)

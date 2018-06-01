@@ -6,6 +6,7 @@
 # Windows.UI.ApplicationSettings
 
 ## -description
+
 Provides classes that allow developers to define the app settings that appear in the settings pane of the Windows shell. The settings pane provides a consistent place for users to access app settings.
 
 ## -remarks
@@ -13,4 +14,5 @@ Provides classes that allow developers to define the app settings that appear in
 ## -examples
 
 ## -see-also
-[Application settings sample](http://go.microsoft.com/fwlink/p/?linkid=226738)
+
+[Application settings sample](http://go.microsoft.com/fwlink/p/?linkid=226738), [WebAuthenticationBroker sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/WebAuthenticationBroker)

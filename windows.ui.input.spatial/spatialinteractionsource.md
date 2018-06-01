@@ -11,9 +11,11 @@ public class SpatialInteractionSource : Windows.UI.Input.Spatial.ISpatialInterac
 # Windows.UI.Input.Spatial.SpatialInteractionSource
 
 ## -description
+
 Represents one detected instance of a hand, motion controller, or user's voice that can cause interactions and gestures.
 
 ## -remarks
+
 For hands and controllers, each detected hand or motion controller will get its own ID. For as long as the system can track that a hand is the same hand that was previously detected, it will share an ID.
 
 For the user's voice, a single ID will be used for all voice input.
@@ -21,3 +23,5 @@ For the user's voice, a single ID will be used for all voice input.
 ## -examples
 
 ## -see-also
+
+[Spatial interaction source sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SpatialInteractionSource)

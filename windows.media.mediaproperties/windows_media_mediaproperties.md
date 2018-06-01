@@ -6,6 +6,7 @@
 # Windows.Media.MediaProperties
 
 ## -description
+
 Provides classes and other programming elements needed to create properties for media formats.
 
 ## -remarks
@@ -13,4 +14,5 @@ Provides classes and other programming elements needed to create properties for 
 ## -examples
 
 ## -see-also
-[Real-time communication sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620600)
+
+[Real-time communication sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620600), [Transcoding media sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/MediaTranscoding)

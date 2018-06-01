@@ -11,11 +11,13 @@ public class SpatialSurfaceMeshBuffer : Windows.Perception.Spatial.Surfaces.ISpa
 # Windows.Perception.Spatial.Surfaces.SpatialSurfaceMeshBuffer
 
 ## -description
+
 Represents a vertex, index, or normal buffer that holds mesh data for surfaces in the user's surroundings.
 
 ## -remarks
 
-
 ## -examples
 
 ## -see-also
+
+[Holographic spatial mapping sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/HolographicSpatialMapping)

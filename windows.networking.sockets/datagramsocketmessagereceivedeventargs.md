@@ -10,9 +10,11 @@ public class DatagramSocketMessageReceivedEventArgs : Windows.Networking.Sockets
 # Windows.Networking.Sockets.DatagramSocketMessageReceivedEventArgs
 
 ## -description
+
 Provides data for a [MessageReceived](datagramsocket_messagereceived.md) event on a [DatagramSocket](datagramsocket.md).
 
 ## -remarks
+
 The [DatagramSocketMessageReceivedEventArgs](datagramsocketmessagereceivedeventargs.md) is used to receive data on a [DatagramSocket](datagramsocket.md) object.
 
 The [DatagramSocket.BindServiceNameAsync](datagramsocket_bindservicenameasync.md) or [DatagramSocket.BindEndpointAsync](datagramsocket_bindendpointasync.md) method is used to bind a [DatagramSocket](datagramsocket.md) to a local service name or UDP port if a [DatagramSocket](datagramsocket.md) instance wants to listen and receive data. These methods are not needed if the [DatagramSocket](datagramsocket.md) is to be used only for sending data.
@@ -21,15 +23,15 @@ A [DatagramSocket.MessageReceived](datagramsocket_messagereceived.md) event occu
 
 There are two primary methods to read data when a message has been received:
 
-
 + The [GetDataStream](datagramsocketmessagereceivedeventargs_getdatastream.md) method returns a [Streams.IInputStream](../windows.storage.streams/iinputstream.md) object that represents a sequential stream of bytes in the received message. The app must then parse the received stream of bytes.
 + The [GetDataReader](datagramsocketmessagereceivedeventargs_getdatareader.md) method returns a [Streams.DataReader](../windows.storage.streams/datareader.md) object to read incoming data. The [Streams.DataReader](../windows.storage.streams/datareader.md) object has separate methods to read the data in a variety of formats including bytes, signed and unsigned integers, boolean values, single and double floating point numbers, strings, date time and time span values, GUIDs, and buffers. These methods can be used directly to parse the received message.
-
 
 ## -examples
 
 ## -see-also
-[DatagramSocket](datagramsocket.md), [DatagramSocket.BindServiceNameAsync](datagramsocket_bindservicenameasync.md), [DatagramSocket.BindEndpointAsync](datagramsocket_bindendpointasync.md), [DatagramSocket.MessageReceived](datagramsocket_messagereceived.md), [Streams.DataReader](../windows.storage.streams/datareader.md), [Streams.IInputStream](../windows.storage.streams/iinputstream.md), [DatagramSocket sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620534)
+
+[DatagramSocket](datagramsocket.md), [DatagramSocket.BindServiceNameAsync](datagramsocket_bindservicenameasync.md), [DatagramSocket.BindEndpointAsync](datagramsocket_bindendpointasync.md), [DatagramSocket.MessageReceived](datagramsocket_messagereceived.md), [Streams.DataReader](../windows.storage.streams/datareader.md), [Streams.IInputStream](../windows.storage.streams/iinputstream.md), [DatagramSocket sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620534), [DatagramSocket sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/DatagramSocket)
 
 ## -capabilities
+
 ID_CAP_NETWORKING [Windows Phone]

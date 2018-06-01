@@ -6,6 +6,7 @@
 # Windows.Devices.Gpio
 
 ## -description
+
 Contains types for using general-purpose I/O (GPIO) pins in user mode.
 
 ## -remarks
@@ -13,4 +14,5 @@ Contains types for using general-purpose I/O (GPIO) pins in user mode.
 ## -examples
 
 ## -see-also
+
 [General Purpose Input/Output (GPIO) sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=624149)

@@ -10,15 +10,17 @@ public class MediaPlayerElement : Windows.UI.Xaml.Controls.Control, Windows.UI.X
 # Windows.UI.Xaml.Controls.MediaPlayerElement
 
 ## -description
+
 Represents an object that uses a [MediaPlayer](../windows.media.playback/mediaplayer.md) to render audio and video to the display.
 
 ## -xaml-syntax
+
 ```xaml
 <MediaPlayerElement .../>
 ```
 
-
 ## -remarks
+
 For info about the media formats that [MediaPlayerElement](mediaplayerelement.md) supports, see [Supported codecs](http://msdn.microsoft.com/library/9347ad7c-3a90-4073-bff4-9e8237398343).
 
 ### Architectural overview
@@ -46,8 +48,6 @@ MediaPlayerElement mediaPlayerElement1 = new MediaPlayerElement();
 mediaPlayerElement1.Source = MediaSource.CreateFromUri(new Uri("ms-appx:///Media/video1.mp4"));
 mediaPlayerElement1.AutoPlay = true;
 ```
-
-
 
 ### Handle media events
 
@@ -80,6 +80,7 @@ Here are some situations when you should release the display request:
 + Video playback is paused, for example by user action, buffering, or adjustment due to limited bandwidth.
 + Playback stops. For example, the video is done playing or the presentation is over.
 + A playback error has occurred. For example, network connectivity issues or a corrupted file.
+
 Here, you use the [PlaybackStateChanged](../windows.media.playback/mediaplaybacksession_playbackstatechanged.md) event to detect these situations. Then, use the [NaturalVideoHeight](../windows.media.playback/mediaplaybacksession_naturalvideoheight.md) property of the [MediaPlayer.PlaybackSession](../windows.media.playback/mediaplayer_playbacksession.md) to determine whether an audio or video file is playing, and keep the screen active only if video is playing.
 
 ```xaml
@@ -125,16 +126,14 @@ private void MediaPlayerElement_CurrentStateChanged(MediaPlaybackSession sender,
 
 ```
 
-
-
 ### Poster source
 
 You can use the [PosterSource](mediaplayerelement_postersource.md) property to provide your [MediaPlayerElement](mediaplayerelement.md) with a visual representation before the media is loaded or while audio-only media is playing. . A [PosterSource](mediaplayerelement_postersource.md) is an image, such as a screen shot, movie poster, or album cover, that is displayed in place of the media. The [PosterSource](mediaplayerelement_postersource.md) is displayed in the following situations:
+
 + When a valid source is not set. For example, [Source](mediaplayerelement_source.md) is not set, [Source](mediaplayerelement_source.md) was set to **Null**, or the source is invalid (as is the case when a [MediaFailed](../windows.media.playback/mediaplayer_mediafailed.md) event fires).
 + While media is loading. For example, a valid source is set, but the [MediaOpened](../windows.media.playback/mediaplayer_mediaopened.md) event has not fired yet.
 + When media is streaming to another device.
 + When the media is audio only.
-
 
 ## -examples
 
@@ -229,7 +228,6 @@ private void ShowPopupClicked(object sender, RoutedEventArgs e)
 }
 ```
 
-
-
 ## -see-also
-[Control](control.md), [Media playback overview](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/media-playback)
+
+[Control](control.md), [Media playback overview](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/media-playback), [Audio categories sample](https://github.com/Microsoft/Windows-universal-samples/tree/dev/Samples/AudioCategory), [Media transport controls sample](https://github.com/Microsoft/Windows-universal-samples/tree/dev/Samples/XamlCustomMediaTransportControls), [Version adaptive code sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/VersionAdaptiveCode)

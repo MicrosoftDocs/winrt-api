@@ -6,6 +6,7 @@
 # Windows.Storage.Provider
 
 ## -description
+
 Allows apps to provide real-time updates to files through the Cached File Updater contract.
 
 ## -remarks
@@ -13,4 +14,5 @@ Allows apps to provide real-time updates to files through the Cached File Update
 ## -examples
 
 ## -see-also
+
 [File picker provider sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620543)

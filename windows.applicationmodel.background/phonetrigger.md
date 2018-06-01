@@ -10,6 +10,7 @@ public class PhoneTrigger : Windows.ApplicationModel.Background.IBackgroundTrigg
 # Windows.ApplicationModel.Background.PhoneTrigger
 
 ## -description
+
 Represents a phone event that triggers a background task.
 
 ## -remarks
@@ -17,4 +18,5 @@ Represents a phone event that triggers a background task.
 ## -examples
 
 ## -see-also
+
 [IBackgroundTrigger](ibackgroundtrigger.md), [Communication blocking and filtering sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=624164)

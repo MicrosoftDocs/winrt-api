@@ -6,8 +6,8 @@
 # Windows.ApplicationModel.Resources.Core
 
 ## -description
-Provides classes that enable advanced resource loading.
 
+Provides classes that enable advanced resource loading.
 
 These classes provide functionality that includes:
 
@@ -17,10 +17,10 @@ These classes provide functionality that includes:
 + Retrieving all possible resource candidates for a context, not just the best match.
 + Loading and unloading additional resource files.
 
-
 ## -remarks
 
 ## -examples
 
 ## -see-also
+
 [Creating and retrieving resources in UWP apps](http://go.microsoft.com/fwlink/p/?linkid=251463), [Application resources and localization sample](http://go.microsoft.com/fwlink/p/?linkid=227301), [Resource Management System](http://msdn.microsoft.com/library/a090a59f-a8fa-489f-a600-9e7bfb67e5ad), [Application resources and localization sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620487)

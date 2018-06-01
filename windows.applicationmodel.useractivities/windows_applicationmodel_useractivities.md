@@ -21,3 +21,7 @@ The APIs in this namespace allow developers to:
 - Start and stop Activities
 
 See [Continue user activity, even across devices](https://docs.microsoft.com/windows/uwp/launch-resume/useractivities) for more information about how to use User Activities with Windows Timeline to help users resume what they were doing on their PC, and across devices.
+
+## -see-also
+
+[UserActivity sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/UserActivity)

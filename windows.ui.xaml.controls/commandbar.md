@@ -10,9 +10,11 @@ public class CommandBar : Windows.UI.Xaml.Controls.AppBar, Windows.UI.Xaml.Contr
 # Windows.UI.Xaml.Controls.CommandBar
 
 ## -description
+
 Represents a specialized app bar that provides layout for [AppBarButton](appbarbutton.md) and related command elements.
 
 ## -xaml-syntax
+
 ```xaml
 <CommandBar .../>
 -or-
@@ -21,8 +23,8 @@ Represents a specialized app bar that provides layout for [AppBarButton](appbarb
 </CommandBar>
 ```
 
-
 ## -remarks
+
 Use a [CommandBar](commandbar.md) to provide users with quick access to your app’s most common tasks. It's a general-purpose, flexible, light-weight control that can display both complex content, such as images, progress bars, or text blocks, as well as simple commands such as [AppBarButton](appbarbutton.md), [AppBarToggleButton](appbartogglebutton.md), and [AppBarSeparator](appbarseparator.md) controls.
 
 ### Anatomy
@@ -41,7 +43,6 @@ The [CommandBar](commandbar.md) is divided into 4 main areas:
 + The "More" button is shown on the right. Pressing the "More" button has 2 effects: it reveals the labels on the primary command buttons, and it opens the overflow menu if any secondary commands are present.
 + The primary commands are shown to the left of the "More" button.
 + The overflow menu is shown only when the [CommandBar](commandbar.md) is open and contains secondary commands.
-
 
 The layout is reversed when the [FlowDirection](../windows.ui.xaml/frameworkelement_flowdirection.md) is [RightToLeft](../windows.ui.xaml/flowdirection.md).
 
@@ -76,6 +77,7 @@ When open, the primary command buttons are shown with text labels and the overfl
 You can control how the [CommandBar](commandbar.md) is shown in its closed state by setting the [ClosedDisplayMode](appbar_closeddisplaymode.md) property. By default, it’s shown in the **Compact** mode, with content, icons without labels, and the "More" button. You can set the mode to **Minimal** to show only a thin bar that acts as the "More" button. In **Minimal** mode, the user can press anywhere on the bar to open it. Here's how the [CommandBar](commandbar.md) looks in **Minimal** mode.
 
 <img src="images/controls/CommandBar_Minimal.png" alt="A minimal command bar" />
+
 Changing the [ClosedDisplayMode](appbar_closeddisplaymode.md) to provide more or less of a hint to the user affects the layout of surrounding elements. When the [CommandBar](commandbar.md) transitions between closed and open, it does not affect the layout of other elements.
 
 ### IsSticky
@@ -153,7 +155,6 @@ This example creates the command bar shown in Remarks.
 </CommandBar>
 ```
 
-
-
 ## -see-also
+
 [Guidelines for command bars](https://docs.microsoft.com/en-us/windows/uwp/controls-and-patterns/app-bars), [CommandBar styles and templates](http://msdn.microsoft.com/library/9320d248-1388-4b46-8065-10d4f76976aa), [Commanding sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620019)

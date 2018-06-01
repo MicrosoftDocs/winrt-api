@@ -10,14 +10,12 @@ public class SyndicationClient : Windows.Web.Syndication.ISyndicationClient
 # Windows.Web.Syndication.SyndicationClient
 
 ## -description
+
 Implements the [ISyndicationClient](isyndicationclient.md) interface which retrieves feeds from a URI asynchronously.
 
 ## -remarks
+
 The following code demonstrates how to retrieve a feed using [RetrieveFeedAsync](syndicationclient_retrievefeedasync.md).
-
-
-
-
 
 ```javascript
 function GetFeed(feedUri) {
@@ -49,4 +47,5 @@ For additional examples that demonstrate how this class is used to retrieve synd
 ## -examples
 
 ## -see-also
+
 [Quickstart: Accessing a web feed](http://msdn.microsoft.com/library/bde79bfb-f566-4dbe-b861-f849ab8bc574), [Syndication sample](http://go.microsoft.com/fwlink/p/?linkid=245062), [Syndication sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620610), [RSS reader end-to-end (JavaScript) sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620542)

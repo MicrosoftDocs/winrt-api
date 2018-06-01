@@ -10,12 +10,12 @@ public class ContainerVisual : Windows.UI.Composition.Visual, Windows.UI.Composi
 # Windows.UI.Composition.ContainerVisual
 
 ## -description
+
 A node in the visual tree that can have children.
 
 ## -remarks
 
 ## -examples
-
 
 ```csharp
 
@@ -64,7 +64,6 @@ _root->Children->InsertAtTop(child);
           
 ```
 
-
-
 ## -see-also
+
 [Visual](visual.md), [IClosable](../windows.foundation/iclosable.md), [Composition visual without framework sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620483)

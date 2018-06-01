@@ -10,9 +10,11 @@ public class LoggingSession : Windows.Foundation.Diagnostics.ILoggingSession, Wi
 # Windows.Foundation.Diagnostics.LoggingSession
 
 ## -description
+
 Represents the destination of logged messages from [LoggingChannel](loggingchannel.md) instances.
 
 ## -remarks
+
 Use the [LoggingSession](loggingsession.md) class to log messages and data to an in-memory circular buffer as your app runs. Use the [SaveToFileAsync](loggingsession_savetofileasync.md) method to save the buffer to a file. You can view the log files by using the Windows Performance Toolkit (WPT) and other utilities like tracerpt.exe.
 
 [LoggingSession](loggingsession.md) instances keep logged messages in memory until the [SaveToFileAsync](loggingsession_savetofileasync.md) method is called. This enables on-demand saving of events until the app saves the in-memory messages.
@@ -26,4 +28,5 @@ You cannot have more than one session with the same name. In addition, each app 
 ## -examples
 
 ## -see-also
+
 [LoggingChannel](loggingchannel.md), [ILoggingSession](iloggingsession.md), [IClosable](../windows.foundation/iclosable.md), [Logging sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620565)

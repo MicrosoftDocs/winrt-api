@@ -11,6 +11,7 @@ public class TextConversionGenerator : Windows.Data.Text.ITextConversionGenerato
 # Windows.Data.Text.TextConversionGenerator
 
 ## -description
+
 Converts input phonetic characters into a collection of corresponding ideographic characters (Chinese characters).
 
 Input of Japanese and Chinese Pinyin is supported.
@@ -20,3 +21,5 @@ Input of Japanese and Chinese Pinyin is supported.
 ## -examples
 
 ## -see-also
+
+[Text suggestions sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/TextSuggestion)

@@ -10,9 +10,11 @@ public class AdaptiveMediaSource : Windows.Foundation.IClosable, Windows.Media.C
 # Windows.Media.Streaming.Adaptive.AdaptiveMediaSource
 
 ## -description
+
 Represents the source of adaptive streaming content.
 
 ## -remarks
+
 Call one of the [CreateFromStreamAsync](adaptivemediasource_createfromstreamasync_337009516.md) or [CreateFromUriAsync](adaptivemediasource_createfromuriasync_832683104.md) methods to create a [AdaptiveMediaSource](adaptivemediasource.md) object with a specific adaptive streaming manifest source.
 
 For how-to guidance for using adaptive streaming in your app, see [Adaptive streaming](https://msdn.microsoft.com/en-us/windows/uwp/audio-video-camera/adaptive-streaming).
@@ -20,4 +22,5 @@ For how-to guidance for using adaptive streaming in your app, see [Adaptive stre
 ## -examples
 
 ## -see-also
-[IMediaSource](../windows.media.core/imediasource.md), [Adaptive streaming](https://msdn.microsoft.com/en-us/windows/uwp/audio-video-camera/adaptive-streaming)
+
+[IMediaSource](../windows.media.core/imediasource.md), [Adaptive streaming](https://msdn.microsoft.com/en-us/windows/uwp/audio-video-camera/adaptive-streaming), [Adaptive streaming sample](https://github.com/Microsoft/Windows-universal-samples/tree/dev/Samples/AdaptiveStreaming)

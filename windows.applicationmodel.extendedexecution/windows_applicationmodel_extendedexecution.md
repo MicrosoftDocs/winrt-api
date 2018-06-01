@@ -6,6 +6,7 @@
 # Windows.ApplicationModel.ExtendedExecution
 
 ## -description
+
 Provides a mechanism for applications to execute when they are not in the foreground.
 
 ## -remarks
@@ -13,4 +14,5 @@ Provides a mechanism for applications to execute when they are not in the foregr
 ## -examples
 
 ## -see-also
+
 [Extended execution sample (Windows 10)](http://go.microsoft.com/fwlink/?LinkId=723509)

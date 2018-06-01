@@ -6,6 +6,7 @@
 # Windows.Media.FaceAnalysis
 
 ## -description
+
 Provides APIs for face detection in bitmaps or video frames.
 
 ## -remarks
@@ -13,4 +14,5 @@ Provides APIs for face detection in bitmaps or video frames.
 ## -examples
 
 ## -see-also
+
 [Basic face tracking sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620513), [Basic face detection sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620512)

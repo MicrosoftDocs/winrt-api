@@ -6,6 +6,7 @@
 # Windows.Media.Protection
 
 ## -description
+
 Provides types that provide content protection management for media content.
 
 ## -remarks
@@ -13,3 +14,5 @@ Provides types that provide content protection management for media content.
 ## -examples
 
 ## -see-also
+
+[PlayReady sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/PlayReady)

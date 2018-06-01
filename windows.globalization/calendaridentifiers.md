@@ -10,6 +10,7 @@ public class CalendarIdentifiers
 # Windows.Globalization.CalendarIdentifiers
 
 ## -description
+
 Contains the calendar identifiers for the supported calendars, as static properties.
 
 ## -remarks
@@ -17,4 +18,5 @@ Contains the calendar identifiers for the supported calendars, as static propert
 ## -examples
 
 ## -see-also
+
 [Date and time formatting sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=624044), [Calendar sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=624043)

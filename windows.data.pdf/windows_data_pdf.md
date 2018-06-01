@@ -6,9 +6,11 @@
 # Windows.Data.Pdf
 
 ## -description
+
 Contains classes for converting a page in a Portable Document Format (PDF) document to an image file.
 
 ## -remarks
+
 We recommend using the following API for these types of apps:
 
 + Use the [RenderToStreamAsync](pdfpage_rendertostreamasync.md) method if your UWP app:
@@ -21,9 +23,8 @@ We recommend using the following API for these types of apps:
   + Uses C# and XAML, and you are comfortable writing an interop layer over these corresponding Component Object Model (COM) API by using C++.
   + Needs to support a zoom factor of greater than 400%.
 
-
-
 ## -examples
 
 ## -see-also
+
 [PDF document sample (Windows 10)](http://go.microsoft.com/fwlink/?LinkID=703785)

@@ -10,9 +10,11 @@ public class ListView : Windows.UI.Xaml.Controls.ListViewBase, Windows.UI.Xaml.C
 # Windows.UI.Xaml.Controls.ListView
 
 ## -description
+
 Represents a control that displays data items in a vertical stack.
 
 ## -xaml-syntax
+
 ```xaml
 <ListView .../>
 -or-
@@ -21,8 +23,8 @@ Represents a control that displays data items in a vertical stack.
 </ListView>
 ```
 
-
 ## -remarks
+
 Use a [ListView](listview.md) to display a collection of items stacked vertically or horizontally. To display a collection in rows and columns, use a [GridView](gridview.md).
 
 <img alt="List view control" src="images/controls/ListViewBasic.png" />
@@ -57,6 +59,7 @@ This table shows the ways a user can interact with a [ListView](listview.md), an
 > The [PointerWheelChanged](../windows.ui.xaml/uielement_pointerwheelchanged.md) event does not bubble up from a [ListView](listview.md). This means that a control that has a [ListView](listview.md) inside of it does not receive mouse wheel change messages if the pointer is over the [ListView](listview.md). For example, if you put a [ListView](listview.md) inside of a [ScrollViewer](scrollviewer.md), you can't scroll the [ScrollViewer](scrollviewer.md) with the mouse wheel when the pointer is over the [ListView](listview.md).
 
 [ListView](listview.md) supports data virtualization to improve performance with large data sets. Random access virtualization is supported when the data source implements the appropriate interfaces, which vary depending on the programming language:
+
 + Visual C++ component extensions (C++/CX) apps should implement [IObservableVector](../windows.foundation.collections/iobservablevector_1.md).
 + C# or Visual Basic apps should implement [INotifyCollectionChanged](https://msdn.microsoft.com/library/system.collections.specialized.inotifycollectionchanged.aspx) and [System.Collections.IList](https://msdn.microsoft.com/library/system.collections.ilist.aspx) (not [IList<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ilist-1)). Virtualization requires both of these interfaces.
  Incremental loading virtualization is supported when the data source implements the [ISupportIncrementalLoading](../windows.ui.xaml.data/isupportincrementalloading.md) interface. When incremental loading is supported, you can use these members to control data loading: [DataFetchSize](listviewbase_datafetchsize.md), [IncrementalLoadingThreshold](listviewbase_incrementalloadingthreshold.md), [IncrementalLoadingTrigger](listviewbase_incrementalloadingtrigger.md), [LoadMoreItemsAsync](listviewbase_loadmoreitemsasync.md).
@@ -109,7 +112,6 @@ In this example, the [ItemTemplate](itemscontrol_itemtemplate.md) of a [ListView
 </ListView>
 ```
 
-
-
 ## -see-also
+
 [Lists overview](https://docs.microsoft.com/windows/uwp/controls-and-patterns/lists), [ListViewBase](listviewbase.md), [ListView styles and templates](http://msdn.microsoft.com/library/f5fba473-bc71-40ec-8df1-ea977c6938ed), [Item templates for ListView](https://docs.microsoft.com/windows/uwp/controls-and-patterns/item-templates-listview), [Data binding overview](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-quickstart), [RSS reader end-to-end (JavaScript) sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620542), [ListView and GridView sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=619900), [Navigation menu (XAML) sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=619902)

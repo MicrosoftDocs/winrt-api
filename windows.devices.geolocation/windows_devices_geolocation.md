@@ -6,8 +6,8 @@
 # Windows.Devices.Geolocation
 
 ## -description
-Provides APIs for [getting the current location](http://msdn.microsoft.com/library/24dc9a41-8cc1-48b0-bc6d-24bf571afcc8) or tracking the device's location over time. Location information may come from estimating a position from beacons like Wi-Fi access points and cell towers, from the device's IP address, or it may come from other sources such as a GNSS or GPS device. The [Windows.Devices.Geolocation](windows_devices_geolocation.md) API provides the most appropriate geolocation data from all available sources.
 
+Provides APIs for [getting the current location](http://msdn.microsoft.com/library/24dc9a41-8cc1-48b0-bc6d-24bf571afcc8) or tracking the device's location over time. Location information may come from estimating a position from beacons like Wi-Fi access points and cell towers, from the device's IP address, or it may come from other sources such as a GNSS or GPS device. The [Windows.Devices.Geolocation](windows_devices_geolocation.md) API provides the most appropriate geolocation data from all available sources.
 
 The accuracy of the location information depends on the source. The latitude and longitude may vary within the following ranges:
 
@@ -19,10 +19,10 @@ The accuracy of the location information depends on the source. The latitude and
 In addition to latitude and longitude, GPS also provides information about heading, speed, and altitude. This additional information is optional when the location information comes from other sources.
 
 The user sets the privacy of their location data with the **location privacy settings** in the **Settings** app. Your app can access the user's location only when:
+
 + **Location for this device...** is turned **on** (not applicable to Windows 10 Mobile)
 + The location services setting, **Location**, is turned **on**
 + Under **Choose apps that can use your location**, your app is set to **on**
-
 
 For more information about location privacy, see the [Windows Privacy Statement](http://go.microsoft.com/fwlink/p/?LinkId=521839).
 
@@ -38,8 +38,10 @@ The first layer of the location services architecture consists of hardware in th
 ## -examples
 
 ## -see-also
-[Get current location](http://msdn.microsoft.com/library/24dc9a41-8cc1-48b0-bc6d-24bf571afcc8), [Set up a geofence](http://msdn.microsoft.com/library/a3a46e03-0751-4dbd-a2a1-2323db09bdba), [geolocation sample](http://go.microsoft.com/fwlink/p/?linkid=533278)
+
+[Get current location](http://msdn.microsoft.com/library/24dc9a41-8cc1-48b0-bc6d-24bf571afcc8), [Set up a geofence](http://msdn.microsoft.com/library/a3a46e03-0751-4dbd-a2a1-2323db09bdba), [geolocation sample](http://go.microsoft.com/fwlink/p/?linkid=533278), [Geotag sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Geotag)
 
 ## -capabilities
+
 location
 ID_CAP_LOCATION [Windows Phone]

@@ -10,9 +10,11 @@ public class StorageFolder : Windows.Storage.IStorageFolder, Windows.Storage.ISt
 # Windows.Storage.StorageFolder
 
 ## -description
+
 Manages folders and their contents and provides information about them.
 
 ## -remarks
+
 Typically you get [StorageFolder](storagefolder.md) objects as the return value of asynchronous method calls. For example, the static method [GetFolderFromPathAsync](storagefolder_getfolderfrompathasync.md) returns a [StorageFolder](storagefolder.md) that represents the specified folder.
 
 Note that when you call a file picker to let the user pick a folder, the file picker returns the folder as a [StorageFolder](storagefolder.md).
@@ -22,7 +24,9 @@ There is not currently a "MoveAsync" or similar method. One simple implementatio
 ## -examples
 
 ## -see-also
-[StorageFile](storagefile.md), [Folder enumeration sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=619993)
+
+[StorageFile](storagefile.md), [Folder enumeration sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=619993), [Content indexer sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/ContentIndexer), [File access sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FileAccess), [File search sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FileSearch)
 
 ## -capabilities
+
 documentsLibrary, musicLibrary, picturesLibrary, videosLibrary

@@ -10,6 +10,7 @@ public class SpeechSynthesizer : Windows.Foundation.IClosable, Windows.Media.Spe
 # Windows.Media.SpeechSynthesis.SpeechSynthesizer
 
 ## -description
+
 Provides access to the functionality of an installed speech synthesis engine (voice).
 
 Windows includes Microsoft-signed voices that can be used for a variety of languages. Each voice generates synthesized speech in a single language, as spoken in a specific country/region.
@@ -19,6 +20,7 @@ Only Microsoft-signed voices installed on the system can be used to generate spe
 ## -remarks
 
 ## -examples
+
 Your UWP app can use a [SpeechSynthesizer](../windows.devices.humaninterfacedevice/hiddevice_getdeviceselector.md) object to create an audio stream and output speech based on a plain text string.
 
 ```javascript
@@ -55,8 +57,6 @@ SpeechSynthesisStream stream = await synth.SynthesizeTextToStreamAsync("Hello Wo
 mediaElement.SetSource(stream, stream.ContentType);
 mediaElement.Play();
 ```
-
-
 
 [!code-cpp[SpeechSynthesizerText](../windows.media.speechsynthesis/code/SpeechSynthesis/cpp/MainPage.xaml.cpp#SnippetSpeechSynthesizerText)]
 
@@ -112,10 +112,8 @@ mediaElement.SetSource(stream, stream.ContentType);
 mediaElement.Play();
 ```
 
-
-
 [!code-cpp[SpeechSynthesizerSSML](../windows.media.speechsynthesis/code/SpeechSynthesis/cpp/MainPage.xaml.cpp#SnippetSpeechSynthesizerSSML)]
 
 ## -see-also
-[Windows.Media.SpeechSynthesis](windows_media_speechsynthesis.md), [IClosable](../windows.foundation/iclosable.md), [VoiceInformation](voiceinformation.md), [Speech interactions](http://msdn.microsoft.com/library/646db3ce-fa81-4727-8c21-936c81079439), [Speech design guidelines](http://msdn.microsoft.com/library/4a63a8c4-4182-4e36-ba12-4c343a56fca9), [Speech recognition and speech synthesis sample](http://go.microsoft.com/fwlink/p/?LinkID=619897)
-k/p/?LinkID=619897)
+
+[Windows.Media.SpeechSynthesis](windows_media_speechsynthesis.md), [IClosable](../windows.foundation/iclosable.md), [VoiceInformation](voiceinformation.md), [Speech interactions](http://msdn.microsoft.com/library/646db3ce-fa81-4727-8c21-936c81079439), [Speech design guidelines](http://msdn.microsoft.com/library/4a63a8c4-4182-4e36-ba12-4c343a56fca9), [Speech recognition and speech synthesis sample](http://go.microsoft.com/fwlink/p/?LinkID=619897), [Holographic voice input sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/HolographicVoiceInput)

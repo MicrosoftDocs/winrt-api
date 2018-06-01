@@ -10,9 +10,11 @@ public class GridView : Windows.UI.Xaml.Controls.ListViewBase, Windows.UI.Xaml.C
 # Windows.UI.Xaml.Controls.GridView
 
 ## -description
+
 Represents a control that displays data items in rows and columns.
 
 ## -xaml-syntax
+
 ```xaml
 <GridView .../>
 -or-
@@ -20,7 +22,6 @@ Represents a control that displays data items in rows and columns.
   oneOrMoreItems
 </GridView>
 ```
-
 
 ## -remarks
 
@@ -61,6 +62,7 @@ This table shows the ways a user can interact with a [GridView](gridview.md), an
 > When you set the [Padding](control_padding.md) property on a [GridView](gridview.md) control, the value for **right** padding is ignored; only the values for left, top, and bottom padding are applied.
 
 [GridView](gridview.md) supports data virtualization to improve performance with large data sets. Random access virtualization is supported when the data source implements the appropriate interfaces, which vary depending on the programming language:
+
 + Visual C++ component extensions (C++/CX) apps should implement [IObservableVector](../windows.foundation.collections/iobservablevector_1.md).
 + C# or Visual Basic apps should implement [INotifyCollectionChanged](https://msdn.microsoft.com/library/system.collections.specialized.inotifycollectionchanged.aspx) and [System.Collections.IList](https://msdn.microsoft.com/library/system.collections.ilist.aspx) (not [IList<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ilist-1). Virtualization requires both of these interfaces.
  Incremental loading virtualization is supported when the data source implements the [ISupportIncrementalLoading](../windows.ui.xaml.data/isupportincrementalloading.md) interface. When incremental loading is supported, you can use these members to control data loading: [DataFetchSize](listviewbase_datafetchsize.md), [IncrementalLoadingThreshold](listviewbase_incrementalloadingthreshold.md), [IncrementalLoadingTrigger](listviewbase_incrementalloadingtrigger.md), [LoadMoreItemsAsync](listviewbase_loadmoreitemsasync.md).
@@ -114,8 +116,6 @@ Here, a [GridView](gridview.md) is bound to a grouped [CollectionViewSource](../
     </GridView.Items>
 </GridView>
 ```
-
-
 
 ## -see-also
 [List view and grid view](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/listview-and-gridview), [ListViewBase](listviewbase.md), [ISemanticZoomInformation](isemanticzoominformation.md), [GridView styles and templates](http://msdn.microsoft.com/library/3ea83c39-3300-4c3c-89b3-24d4777c7067), [Item templates for GridView](https://docs.microsoft.com/windows/uwp/controls-and-patterns/item-templates-gridview), [Data binding overview](http://msdn.microsoft.com/library/a9d54dec-cd1b-4043-ade4-32cd4977d1bf), [ListView](listview.md), [SemanticZoom](semanticzoom.md), [ListView and GridView sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlListView)

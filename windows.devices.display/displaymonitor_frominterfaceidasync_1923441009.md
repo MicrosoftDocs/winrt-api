@@ -41,7 +41,7 @@ IAsyncAction EnumerateDisplayMonitorsAsync()
 
     for (auto const& deviceInformation : dis)
     {
-		WINRT_ASSERT(deviceInformation.Kind() == DeviceInformationKind::DeviceInterface);
+        WINRT_ASSERT(deviceInformation.Kind() == DeviceInformationKind::DeviceInterface);
         DisplayMonitor displayMonitor = co_await DisplayMonitor::FromInterfaceIdAsync(deviceInformation.Id());
     }
 }

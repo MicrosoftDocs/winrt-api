@@ -10,21 +10,23 @@ public class AppBarButton : Windows.UI.Xaml.Controls.Button, Windows.UI.Xaml.Con
 # Windows.UI.Xaml.Controls.AppBarButton
 
 ## -description
+
 Represents a templated button control to be displayed in an [AppBar](appbar.md).
 
 ## -xaml-syntax
+
 ```xaml
 <AppBarButton .../>
 ```
 
-
 ## -remarks
-App bar buttons differ from standard buttons in several ways:
 
+App bar buttons differ from standard buttons in several ways:
 
 + The default appearance is a semi-transparent rectangle without a border.
 + You use the [Label](appbarbutton_label.md) and [Icon](appbarbutton_icon.md) properties to set the content instead of the [Content](contentcontrol_content.md) property. The [Content](contentcontrol_content.md) property is ignored if the [Icon](appbarbutton_icon.md) is set.
 + The button has the [IsCompact](appbarbutton_iscompact.md) property to control its size.
+
 [AppBarButton](appbarbutton.md) has two sizes; normal and compact. By default, it's shown with a text label and full padding. When the [IsCompact](appbarbutton_iscompact.md) property is set to **true**, the text label is hidden and the height of the button is reduced.
 
 <p>Here are the same commands shown in their normal state,  and then in their compact state.</p>
@@ -39,14 +41,12 @@ When used in the [CommandBar](commandbar.md) control as part of the [PrimaryComm
 
 You use the [Label](appbarbutton_label.md) and [Icon](appbarbutton_icon.md) properties to define the content of the app bar buttons. Set the [Label](appbarbutton_label.md) property to a string to specify the text label. It’s shown by default, and is hidden when the button is in its compact state, so you also need to define a meaningful icon. To define the app bar button icon, set the [Icon](appbarbutton_icon.md) property to an element derived from the [IconElement](iconelement.md) class. There are four kinds of icon elements provided:
 
-
 + [FontIcon](fonticon.md) - the icon is based on a glyph from the specified font family.
 + [BitmapIcon](bitmapicon.md) - the icon is based on a bitmap image file with the specified **Uri**.
 + [PathIcon](pathicon.md) - the icon is based on [Path](../windows.ui.xaml.shapes/path.md) data.
 + [SymbolIcon](symbolicon.md) - the icon is based on a glyph from the Segoe MDL2 Assets font as listed in the [Symbol](symbol.md) enumeration.
 
 AppBarButton icons have a default font size of 20px. 
-
 
 ### Control style and template
 
@@ -73,6 +73,7 @@ This table shows the resources used by the [AppBarButton](appbarbutton.md) contr
 </table>
 
 ## -examples
+
 This example shows [AppBarButton](appbarbutton.md) controls with each type of icon:
 
 <img src="images/AppBarButtons.png" alt="App bar button icon examples." />
@@ -210,7 +211,6 @@ private void PlayPauseButton_Click(object sender, RoutedEventArgs e)
 }
 ```
 
-
-
 ## -see-also
+
 [AppBar](appbar.md), [CommandBar](commandbar.md), [Guidelines for command and app bars](https://docs.microsoft.com/en-us/windows/uwp/controls-and-patterns/app-bars), [Commanding sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620019), [AppBarButton styles and templates](http://msdn.microsoft.com/library/ca990fce-3698-441d-ac8d-ba85197e67df), [XAML AppBar control sample (Windows 8)](http://go.microsoft.com/fwlink/p/?LinkID=242388)

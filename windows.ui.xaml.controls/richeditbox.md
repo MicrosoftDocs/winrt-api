@@ -10,16 +10,18 @@ public class RichEditBox : Windows.UI.Xaml.Controls.Control, Windows.UI.Xaml.Con
 # Windows.UI.Xaml.Controls.RichEditBox
 
 ## -description
+
 Represents a rich text editing control that supports formatted text, hyperlinks, and other rich content.
 
 ## -xaml-syntax
+
 ```xaml
 <RichEditBox .../>
 
 ```
 
-
 ## -remarks
+
 [RichEditBox](richeditbox.md) is a control that lets a user enter formatted text such as bold, italic, and underlined. [RichEditBox](richeditbox.md) can also display Rich Text Format (.rtf) documents including hyperlinks and images (.jpg, .png, etc). This control is designed for advanced text editing scenarios. For simple plain text input, like on a form, consider using [TextBox](textbox.md).
 
 You use the [Document](richeditbox_document.md) property of the [RichEditBox](richeditbox.md) to get its content. The content of a [RichEditBox](richeditbox.md) is a [Windows.UI.Text.ITextDocument](../windows.ui.text/itextdocument.md) object, which gives you access to the underlying [Text Object Model](https://msdn.microsoft.com/library/windows/desktop/bb787607.aspx) APIs. See the [Windows.UI.Text](../windows.ui.text/windows_ui_text.md) namespace for APIs that you can use to work with the text document.
@@ -231,7 +233,6 @@ private void UnderlineButton_Click(object sender, RoutedEventArgs e)
 }
 ```
 
-
-
 ## -see-also
+
 [Control](control.md), [RichEditBox styles and templates](http://msdn.microsoft.com/library/12fc81ba-c638-4b41-8aa4-7c0fb5a43f97), [RichEditBox overview](https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/rich-edit-box), [Touch keyboard text input sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=690716)

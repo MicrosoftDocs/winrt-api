@@ -10,6 +10,7 @@ public interface IStorageItemProperties :
 # Windows.Storage.IStorageItemProperties
 
 ## -description
+
 Provides access to common and content properties on items (like files and folders).
 
 ## -remarks
@@ -17,3 +18,5 @@ Provides access to common and content properties on items (like files and folder
 ## -examples
 
 ## -see-also
+
+[File and folder thumbnail sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FileThumbnails)

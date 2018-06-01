@@ -11,9 +11,11 @@ public class SpatialSurfaceObserver : Windows.Perception.Spatial.Surfaces.ISpati
 # Windows.Perception.Spatial.Surfaces.SpatialSurfaceObserver
 
 ## -description
+
 Provides methods for observing surfaces in the user's surroundings.
 
 ## -remarks
+
 Spatial mapping lets your app understand the shape and location of the surfaces in the user's surroundings.
 
 Through the sensors on a device like HoloLens, Windows generates 3D triangle meshes of surfaces in large cube-shaped volumes. Over time, as Windows improves its understanding of your surroundings, new surface volumes are generated and existing volumes are updated with new mesh. Sometimes, surface volumes can be destroyed as well, when the system is running low on storage.
@@ -24,5 +26,8 @@ You access these surfaces by expressing interest in a volume of space, either a 
 
 ## -see-also
 
+[Holographic spatial mapping sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/HolographicSpatialMapping)
+
 ## -capabilities
+
 spatialPerception

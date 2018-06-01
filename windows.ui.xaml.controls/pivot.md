@@ -10,9 +10,11 @@ public class Pivot : Windows.UI.Xaml.Controls.ItemsControl, Windows.UI.Xaml.Cont
 # Windows.UI.Xaml.Controls.Pivot
 
 ## -description
+
 Represents a control that provides quick navigation of views within an app.
 
 ## -xaml-syntax
+
 ```xaml
 
 <Pivot .../>
@@ -23,14 +25,13 @@ Represents a control that provides quick navigation of views within an app.
 
 ```
 
-
 ## -remarks
+
 For more info, see [Pivots and tabs](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/tabs-pivot).
 
 Use a [Pivot](pivot.md) to present groups of content that a user can swipe through. You typically use a [Pivot](pivot.md) as the top level control on a page.
 
 [Pivot](pivot.md) is an [ItemsControl](itemscontrol.md), so it can contain a collection of items of any type. Any item you add to the [Pivot](pivot.md) that is not explicitly a [PivotItem](pivotitem.md) is implicitly wrapped in a [PivotItem](pivotitem.md). Because a [Pivot](pivot.md) is often used to navigate between pages of content, it's common to populate the [Items](itemscontrol_items.md) collection directly with XAML UI elements. Or, you can set the [ItemsSource](itemscontrol_itemssource.md) property to a data source. Items bound in the [ItemsSource](itemscontrol_itemssource.md) can be of any type, but if they aren't explicitly [PivotItem](pivotitem.md) s, you must define an [ItemTemplate](itemscontrol_itemtemplate.md) and [HeaderTemplate](pivot_headertemplate.md) to specify how the items are displayed.
-
 
 <!--<note>You can define an <xref targtype="property_winrt" rid="w_ui_xaml_ctrl.itemscontrol_itemtemplate">ItemTemplate</xref> whether <xref targtype="class_winrt" rid="w_ui_xaml_ctrl.pivot">Pivot</xref> is populated through the <xref targtype="property_winrt" rid="w_ui_xaml_ctrl.itemscontrol_items">Items</xref> or <xref targtype="property_winrt" rid="w_ui_xaml_ctrl.itemscontrol_itemssource">ItemsSource</xref> property. If you populate the <xref targtype="class_winrt" rid="w_ui_xaml_ctrl.pivot">Pivot</xref> by setting the <xref targtype="property_winrt" rid="w_ui_xaml_ctrl.itemscontrol_itemssource">ItemsSource</xref> property, the <xref targtype="property_winrt" rid="w_ui_xaml_ctrl.itemscontrol_itemtemplate">ItemTemplate</xref> is applied to every item. If you populate the <xref targtype="property_winrt" rid="w_ui_xaml_ctrl.itemscontrol_items">Items</xref> collection directly, the <xref targtype="property_winrt" rid="w_ui_xaml_ctrl.itemscontrol_itemtemplate">ItemTemplate</xref> is applied only if the item is not a <xref targtype="class_winrt" rid="w_ui_xaml_ctrl.pivotitem">PivotItem</xref>.</note>-->
 
@@ -143,7 +144,6 @@ private void NextButton_Click(object sender, RoutedEventArgs e)
 }
 ```
 
-
-
 ## -see-also
+
 [Tabs and pivot overview](https://docs.microsoft.com/windows/uwp/controls-and-patterns/tabs-pivot), [Pivot styles and templates](http://msdn.microsoft.com/library/72669a58-4c18-4b39-ad43-36bf614f96b1), [Pivot sample](http://go.microsoft.com/fwlink/p/?LinkId=619903), [Tailored multiple views sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620636)

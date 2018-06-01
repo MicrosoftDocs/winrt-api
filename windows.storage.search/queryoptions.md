@@ -10,14 +10,17 @@ public class QueryOptions : Windows.Storage.Search.IQueryOptions, Windows.Storag
 # Windows.Storage.Search.QueryOptions
 
 ## -description
+
 Specifies the parameters of a search query for enumerating the contents of storage folders.
 
 ## -remarks
+
 You can create a file query for any folder you have access to and that you can get as a [StorageFolder](../windows.storage/storagefolder.md).
 
 You can use [QueryOptions](queryoptions.md) and [CreateFileQueryWithOptions](../windows.storage/storagefolder_createfilequerywithoptions.md) to create an indexed backed file query that lets you get properties that rely on another app's property handler.
 
 ## -examples
+
 This example demonstrates how to use [QueryOptions](queryoptions.md) to query files in a location.
 
 ```csharp
@@ -121,7 +124,6 @@ function (error) {
 });
 ```
 
-
-
 ## -see-also
-[File search sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620544)
+
+[File search sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620544), [Folder enumeration sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FolderEnumeration)

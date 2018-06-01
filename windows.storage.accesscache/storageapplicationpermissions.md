@@ -10,9 +10,11 @@ public class StorageApplicationPermissions
 # Windows.Storage.AccessCache.StorageApplicationPermissions
 
 ## -description
+
 Provides static properties for you to get your app's most recently used list (MRU) (use [StorageApplicationPermissions.MostRecentlyUsedList](storageapplicationpermissions_mostrecentlyusedlist.md)) and future-access list (use [StorageApplicationPermissions.FutureAccessList](storageapplicationpermissions_futureaccesslist.md).
 
 ## -remarks
+
 Access the methods and properties of this class statically.
 
 To see more code examples, see the [File picker sample](http://go.microsoft.com/fwlink/p/?linkid=234890) and the [File access sample]( http://go.microsoft.com/fwlink/p/?linkid=231445).
@@ -22,6 +24,7 @@ To learn about using the [FutureAccessList](storageapplicationpermissions_future
 To learn about what files and locations your app has permission to access, see [File access permissions](http://msdn.microsoft.com/library/3a404cc0-a997-45c8-b2e8-44745539759d).
 
 ## -examples
+
 This example demonstrates how to add an item to the app's [FutureAccessList](storageapplicationpermissions_futureaccesslist.md) and [MostRecentlyUsedList](storageapplicationpermissions_mostrecentlyusedlist.md).
 
 ```csharp

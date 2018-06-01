@@ -10,12 +10,15 @@ public class StatusChangedEventArgs : Windows.Devices.Geolocation.IStatusChanged
 # Windows.Devices.Geolocation.StatusChangedEventArgs
 
 ## -description
+
 Provides information for the [StatusChanged](geolocator_statuschanged.md) event.
 
 ## -remarks
+
 This object is the argument passed to the handler for the [StatusChanged](geolocator_statuschanged.md) event.
 
 ## -examples
+
 This code example demonstrates how the [StatusChanged](geolocator_statuschanged.md) event is handled. The [Geolocator](geolocator.md) object triggers the [StatusChanged](geolocator_statuschanged.md) event to indicate that the user's location settings changed. That event passes the corresponding status via the argument's **Status** property (of type [PositionStatus](positionstatus.md)). Note that this method is not called from the UI thread and the [Dispatcher](../windows.ui.core/coredispatcher.md) object invokes the UI changes. For more info, see [Get current location](http://msdn.microsoft.com/library/24dc9a41-8cc1-48b0-bc6d-24bf571afcc8).
 
 ```csharp
@@ -83,11 +86,11 @@ async private void OnStatusChanged(Geolocator sender, StatusChangedEventArgs e)
 }
 ```
 
-
-
 ## -see-also
+
 [Geolocation sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=533278)
 
 ## -capabilities
+
 location
 ID_CAP_LOCATION [Windows Phone]

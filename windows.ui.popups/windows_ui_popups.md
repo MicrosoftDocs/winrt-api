@@ -6,6 +6,7 @@
 # Windows.UI.Popups
 
 ## -description
+
 Provides support for context menu and message dialogs.
 
 ## -remarks
@@ -13,4 +14,5 @@ Provides support for context menu and message dialogs.
 ## -examples
 
 ## -see-also
+
 [Context menu sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620525), [Message dialog sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620570)

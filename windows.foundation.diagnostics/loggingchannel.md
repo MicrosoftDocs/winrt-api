@@ -10,9 +10,11 @@ public class LoggingChannel : Windows.Foundation.Diagnostics.ILoggingChannel, Wi
 # Windows.Foundation.Diagnostics.LoggingChannel
 
 ## -description
+
 Represents a source of log messages.
 
 ## -remarks
+
 The default [LoggingLevel](logginglevel.md) is **Verbose**.
 
 Add [LoggingChannel](loggingchannel_loggingchannel.md) instances to a [LoggingSession](loggingsession.md) or a [FileLoggingSession](fileloggingsession.md) to enable logging in your app.
@@ -35,4 +37,5 @@ The differences between these two modes are:
 ## -examples
 
 ## -see-also
+
 [LoggingSession](loggingsession.md), [FileLoggingSession](fileloggingsession.md), [ILoggingChannel](iloggingchannel.md), [IClosable](../windows.foundation/iclosable.md), [Logging sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620565)
