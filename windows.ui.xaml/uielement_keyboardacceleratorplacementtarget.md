@@ -10,17 +10,22 @@ public DependencyObject KeyboardAcceleratorPlacementTarget { get;  set; }
 # Windows.UI.Xaml.UIElement.KeyboardAcceleratorPlacementTarget
 
 ## -description
+
 Gets or sets a value that indicates the control tooltip that displays the accelerator key combination.
 
 ## -property-value
+
 The control tooltip that displays the accelerator key combination.
 
 ## -remarks
-Use the [KeyboardAcceleratorToolTipTarget](uielement_keyboardacceleratortooltiptarget.md) property to specify the control tooltip that displays the accelerator key combination. For example, a Pivot control can display the tooltip for a PivotItem with the Pivot header. 
+
+<!-- 
+Use the [KeyboardAcceleratorToolTipTarget](uielement_keyboardacceleratortooltiptarget.md) property to specify the control tooltip that displays the accelerator key combination. For example, a Pivot control can display the tooltip for a PivotItem with the Pivot header.  
+-->
 
 Use the [KeyboardAcceleratorPlacementMode](uielement_keyboardacceleratorplacementmode.md) property to specify whether the control tooltip displays the key combination for it's associated keyboard accelerator.
 
-## -examples 
+## -examples
 
 ```xaml
 <Grid x:Name="Container">
@@ -36,5 +41,6 @@ Use the [KeyboardAcceleratorPlacementMode](uielement_keyboardacceleratorplacemen
 ```
 
 ## -see-also
+
 [Keyboard Accelerators](https://docs.microsoft.com/windows/uwp/design/input/keyboard-accelerators)
 
