@@ -10,10 +10,10 @@ public double Delay { get;  set; }
 # Windows.Media.Audio.EchoEffectDefinition.Delay
 
 ## -description
-Gets or sets the delay supported by the echo effect definition.
+Gets or sets the delay time, in milliseconds, of the echo effect definition.
 
 ## -property-value
-A value indicating the delay.
+A value indicating the delay, in milliseconds.
 
 ## -remarks
 
