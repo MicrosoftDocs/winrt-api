@@ -35,6 +35,9 @@ Retrieve cookies.
 Sign out a web account.
 
 
+### -field InvalidateCache:7
+
+
 ## -remarks
 
 ## -examples
