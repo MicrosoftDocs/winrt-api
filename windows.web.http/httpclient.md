@@ -85,7 +85,7 @@ Windows::Foundation::IAsyncAction HttpClientExample()
 	}
 	catch (winrt::hresult_error const& ex)
 	{
-		// Details in ex.message and ex.code.
+		// Details in ex.message() and ex.to_abi().
 	}
 
 	// The destructor of HttpClient frees system resources
