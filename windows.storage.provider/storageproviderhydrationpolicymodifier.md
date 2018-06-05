@@ -22,9 +22,13 @@ Once the data is hydrated into the file, it will be validated.
 ### -field StreamingAllowed:2
 This modifier does not allow the platform to store any data on disk returned by a sync provider.
 
+### -field AutoDehydrationAllowed:4
+
+
 ## -remarks
 ValidationRequired and StreamingAllowed are mutually exclusive fields.
 
 ## -see-also
 
 ## -examples
+
