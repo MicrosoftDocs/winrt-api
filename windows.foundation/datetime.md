@@ -10,7 +10,6 @@ public struct DateTime
 # DateTime
 
 ## -description
-
 Represents an instant in time, typically expressed as a date and time of day.
 
 > **JavaScript**
@@ -23,26 +22,26 @@ Represents an instant in time, typically expressed as a date and time of day.
 > Similar to [FILETIME](https://msdn.microsoft.com/library/windows/desktop/ms724284) but with important differences. See Remarks.
 
 > **C++/WinRT**
-> This type is a specialization of [std::chrono::time_point](https://docs.microsoft.com/cpp/standard-library/time-point-class). See Remarks.
+> This type is a specialization of [std::chrono::time_point](/cpp/standard-library/time-point-class). See Remarks.
 
 ## -struct-fields
 
 ### -field UniversalTime
+A 64-bit signed integer that represents a point in time as the number of 100-nanosecond intervals prior to or after midnight on January 1, 1601 (according to the Gregorian Calendar).
 
-A 64-bit signed integer that represents a point in time as the number of 100-nanosecond intervals prior to or after midnight on January 1, 1601 (according to the Gregorian Calendar). In C++/WinRT, this field does not exist, because **DateTime** is a specialization of [std::chrono::time_point](https://docs.microsoft.com/cpp/standard-library/time-point-class). If you need the raw integer value, use time_point's [time_since_epoch()](https://docs.microsoft.com/cpp/standard-library/time-point-class#time_since_epoch) method to obtain a [std::chrono::duration](https://docs.microsoft.com/cpp/standard-library/duration-class), and use its [count()](https://docs.microsoft.com/cpp/standard-library/duration-class#count) method to obtain the raw count.
+> [!NOTE]
+> In C++/WinRT, this field does not exist, because in that language projection **DateTime** is a specialization of [std::chrono::time_point](/cpp/standard-library/time-point-class). If you need the raw integer value, use [time_point::time_since_epoch](/cpp/standard-library/time-point-class#time_since_epoch) to obtain a [std::chrono::duration](/cpp/standard-library/duration-class), and use its [count](/cpp/standard-library/duration-class#count) method to obtain the raw count.
 
 ## -remarks
-
 JavaScript and Microsoft .NET languages do not use this type directly. In JavaScript a [DateTime](datetime.md) is projected as a [Date](https://msdn.microsoft.com/library/cd9w2te4) object, and in Microsoft .NET it is projected as a [System.DateTimeOffset](https://msdn.microsoft.com/library/system.datetimeoffset.aspx). Each language transparently handles the conversion to the granularity and date ranges for the respective language.
 
 In Visual C++ component extensions (C++/CX), a **DateTime.UniversalTime** value has the same granularity as a [FILETIME](https://msdn.microsoft.com/library/windows/desktop/ms724284) (100-nanosecond intervals). For positive values, a **DateTime.UniversalTime** value is identical to a [FILETIME](https://msdn.microsoft.com/library/windows/desktop/ms724284) value although it can only represent dates up to about 29000 C.E. A negative value represents the number of intervals prior to January 1, 1601 and can represent dates back to about 27,400 B.C.E. For the Gregorian Calendar, you can use a [DateTimeFormatter](../windows.globalization.datetimeformatting/datetimeformatter.md) to create string representations of a [DateTime](datetime.md) for dates after midnight on Year 1 C.E.
 
 To convert the **UniversalTime** to [SYSTEMTIME](https://msdn.microsoft.com/library/windows/desktop/ms724950), use [ULARGE_INTEGER](http://msdn.microsoft.com/library/83a10c12-2cd1-449a-af3f-b2138fc50ee0) to convert the **int64** value to [FILETIME](https://msdn.microsoft.com/library/windows/desktop/ms724284), then use [FileTimeToSystemTime](https://msdn.microsoft.com/library/windows/desktop/ms724280) to get [SYSTEMTIME](https://msdn.microsoft.com/library/windows/desktop/ms724950).
 
-In C++/WinRT, **DateTime** is similar to C++/CX in that it has the same granularity as a [FILETIME](https://msdn.microsoft.com/library/windows/desktop/ms724284). Unlike C++/CX, it is a specialization of [std::chrono::time_point](https://docs.microsoft.com/cpp/standard-library/time-point-class) rather than a distinct struct. C++/WinRT provides helpers to convert **DateTime** to/from both [FILETIME](https://msdn.microsoft.com/library/windows/desktop/ms724284) (winrt::clock::to_file_time/from_file_time) and [time_t](https://docs.microsoft.com/cpp/c-runtime-library/reference/time-time32-time64) (winrt::clock::to_time_t/from_time_t).
+In C++/WinRT, **DateTime** is similar to C++/CX in that it has the same granularity as a [FILETIME](https://msdn.microsoft.com/library/windows/desktop/ms724284). Unlike C++/CX, it is a specialization of [std::chrono::time_point](/cpp/standard-library/time-point-class) rather than a distinct struct. C++/WinRT provides helper functions to convert **DateTime** to and from [FILETIME](https://msdn.microsoft.com/library/windows/desktop/ms724284) and to and from [time_t](/cpp/c-runtime-library/reference/time-time32-time64). For more info about these functions, see [winrt::clock struct](/uwp/cpp-ref-for-winrt/clock).
 
 ## -examples
 
 ## -see-also
-
 [System.DateTimeOffset](https://msdn.microsoft.com/library/system.datetimeoffset.aspx), [Date object](https://msdn.microsoft.com/library/cd9w2te4), [FILETIME](https://msdn.microsoft.com/library/windows/desktop/ms724284), [Calendar sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=624043)
