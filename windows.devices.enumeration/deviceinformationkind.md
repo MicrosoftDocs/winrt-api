@@ -55,10 +55,6 @@ The [DeviceInformation](deviceinformation.md) object represents an association e
 
 The [Id](deviceinformation_id.md) for this object as a string.
 
-
-### -field DevicePanel:8
-
-
 ## -remarks
 A [DeviceInformationKind](deviceinformationkind.md) value can be passed to the various enumeration APIs to indicate the specific kind of device you want to enumerate. In most scenarios, you will receive the [DeviceInformation](deviceinformation.md) from the device selector. To see how to enumerate over a specific kind of devices using [DeviceInformationKind](deviceinformationkind.md), see [Enumerate devices](http://msdn.microsoft.com/library/4311d293-94f0-4bbd-a22d-f007382b4db8).
 
