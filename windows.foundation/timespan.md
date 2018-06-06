@@ -20,7 +20,7 @@ Represents a time interval as a signed 64-bit integer value.
 ## -struct-fields
 
 ### -field Duration
-A time period expressed in 100-nanosecond units.
+A time period expressed in 100-nanosecond units. In C++/WinRT, this field does not exist, because **TimeSpan** is a specialization of [std::chrono::duration](https://docs.microsoft.com/cpp/standard-library/duration-class). If you need the raw integer value, use duration's [count()](https://docs.microsoft.com/cpp/standard-library/duration-class#count) method to obtain the raw value.
     
 
 ## -remarks
