@@ -11,7 +11,11 @@ public DependencyProperty CanDragItemsProperty { get; }
 
 ## -description
 
+Identifies the CanDragItems dependency property.
+
 ## -property-value
+
+The identifier for the CanDragItems dependency property.
 
 ## -remarks
 

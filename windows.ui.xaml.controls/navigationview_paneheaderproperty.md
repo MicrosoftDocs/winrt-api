@@ -11,7 +11,11 @@ public DependencyProperty PaneHeaderProperty { get; }
 
 ## -description
 
+Identifies the PaneHeader dependency property.
+
 ## -property-value
+
+The identifier for the PaneHeader dependency property.
 
 ## -remarks
 

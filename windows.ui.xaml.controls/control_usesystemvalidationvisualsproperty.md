@@ -11,7 +11,11 @@ public DependencyProperty UseSystemValidationVisualsProperty { get; }
 
 ## -description
 
+Identifies the UseSystemValidationVisuals dependency property.
+
 ## -property-value
+
+The identifier for the UseSystemValidationVisuals dependency property.
 
 ## -remarks
 

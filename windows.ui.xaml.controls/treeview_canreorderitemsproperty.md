@@ -11,7 +11,11 @@ public DependencyProperty CanReorderItemsProperty { get; }
 
 ## -description
 
+Identifies the CanReorderItems dependency property.
+
 ## -property-value
+
+The identifier for the CanReorderItems dependency property.
 
 ## -remarks
 

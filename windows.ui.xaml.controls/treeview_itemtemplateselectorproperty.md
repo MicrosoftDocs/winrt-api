@@ -11,7 +11,11 @@ public DependencyProperty ItemTemplateSelectorProperty { get; }
 
 ## -description
 
+Identifies the ItemTemplateSelector dependency property.
+
 ## -property-value
+
+The identifier for the ItemTemplateSelector dependency property.
 
 ## -remarks
 

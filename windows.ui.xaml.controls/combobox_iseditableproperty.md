@@ -11,7 +11,11 @@ public DependencyProperty IsEditableProperty { get; }
 
 ## -description
 
+Identifies the IsEditable dependency property.
+
 ## -property-value
+
+The identifier for the IsEditable dependency property.
 
 ## -remarks
 

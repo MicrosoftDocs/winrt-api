@@ -11,7 +11,11 @@ public DependencyProperty SuppressSelectionProperty { get; }
 
 ## -description
 
+Identifies the SuppressSelection dependency property.
+
 ## -property-value
+
+The identifier for the SuppressSelection dependency property.
 
 ## -remarks
 

@@ -11,7 +11,11 @@ public DependencyProperty TemplateSettingsProperty { get; }
 
 ## -description
 
+Identifies the TemplateSettings dependency property.
+
 ## -property-value
+
+The identifier for the TemplateSettings dependency property.
 
 ## -remarks
 

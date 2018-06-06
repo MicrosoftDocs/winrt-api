@@ -11,7 +11,11 @@ public DependencyProperty SelectionFlyoutProperty { get; }
 
 ## -description
 
+Identifies the SelectionFlyout dependency property.
+
 ## -property-value
+
+The identifier for the SelectionFlyout dependency property.
 
 ## -remarks
 

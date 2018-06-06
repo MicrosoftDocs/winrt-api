@@ -11,7 +11,11 @@ public DependencyProperty BackgroundSizingProperty { get; }
 
 ## -description
 
+Identifies the BackgroundSizing dependency property.
+
 ## -property-value
+
+The identifier for the BackgroundSizing dependency property.
 
 ## -remarks
 

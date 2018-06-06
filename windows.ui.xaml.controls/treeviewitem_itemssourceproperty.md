@@ -11,7 +11,11 @@ public DependencyProperty ItemsSourceProperty { get; }
 
 ## -description
 
+Identifies the ItemsSource dependency property.
+
 ## -property-value
+
+The identifier for the ItemsSource dependency property.
 
 ## -remarks
 

@@ -11,7 +11,11 @@ public DependencyProperty TextProperty { get; }
 
 ## -description
 
+Identifies the Text dependency property.
+
 ## -property-value
+
+The identifier for the Text dependency property.
 
 ## -remarks
 

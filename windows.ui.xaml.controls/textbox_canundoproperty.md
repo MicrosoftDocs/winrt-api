@@ -11,7 +11,11 @@ public DependencyProperty CanUndoProperty { get; }
 
 ## -description
 
+Identifies the CanUndo dependency property.
+
 ## -property-value
+
+The identifier for the CanUndo dependency property.
 
 ## -remarks
 

@@ -11,7 +11,11 @@ public DependencyProperty PaneMiddleContentProperty { get; }
 
 ## -description
 
+Identifies the PaneMiddleContent dependency property.
+
 ## -property-value
+
+The identifier for the PaneMiddleContent dependency property.
 
 ## -remarks
 

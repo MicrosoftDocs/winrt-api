@@ -11,7 +11,11 @@ public DependencyProperty CanPasteClipboardContentProperty { get; }
 
 ## -description
 
+Identifies the CanPasteClipboardContent dependency property.
+
 ## -property-value
+
+The identifier for the CanPasteClipboardContent dependency property.
 
 ## -remarks
 
