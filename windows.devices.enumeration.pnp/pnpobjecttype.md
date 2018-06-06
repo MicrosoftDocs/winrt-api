@@ -38,6 +38,9 @@ The [PnpObject](pnpobject.md) represents an association endpoint container.
 The [PnpObject](pnpobject.md) represents an association endpoint service.
 
 
+### -field DevicePanel:8
+
+
 ## -remarks
 
 ## -examples
