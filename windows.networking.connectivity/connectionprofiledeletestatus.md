@@ -20,7 +20,7 @@ The deletion failed due to an unknown error.
 The deletion succeeded.
 
 ### -field DeniedByUser:1
-The deletion failed because it was denied by the user.
+The deletion failed because it was denied by the user, through the user interface (UI).
 
 ### -field DeniedBySystem:2
 The deletion failed because it was denied by the system.
