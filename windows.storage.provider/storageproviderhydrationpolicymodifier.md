@@ -23,7 +23,7 @@ Once the data is hydrated into the file, it will be validated.
 This modifier does not allow the platform to store any data on disk returned by a sync provider.
 
 ### -field AutoDehydrationAllowed:4
-
+Automatic file dehydration is allowed.
 
 ## -remarks
 ValidationRequired and StreamingAllowed are mutually exclusive fields.
