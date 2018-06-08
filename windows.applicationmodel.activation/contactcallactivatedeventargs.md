@@ -12,8 +12,6 @@ public class ContactCallActivatedEventArgs : Windows.ApplicationModel.Activation
 ## -description
 Provides data when an app is activated to call a contact.
 
-
-
 > **JavaScript**
 > This type appears as [WebUIContactCallActivatedEventArgs](../windows.ui.webui/webuicontactcallactivatedeventargs.md).
 
@@ -24,17 +22,12 @@ To receive call activations, your app must register for the "windows.contact" ex
 
 If multiple apps have registered for this contract, the user can choose one of them as their default for handling calls.
 
-
-
 > [!NOTE]
 > To enable a user to set your app as their default calling app for PSTN numbers, your app must also support the “tel” URI scheme.
-
-
 
 Here is an example for manifest registration:
 
 ```xml
-
 <m2:Extension Category="windows.contact" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest">
   <m2:Contact>
     <m2:ContactLaunchActions>
@@ -45,10 +38,7 @@ Here is an example for manifest registration:
     </m2:ContactLaunchActions>
   </m2:Contact>
 </m2:Extension>
-
 ```
-
-
 
 After you register in your manifest, your app can be activated for the contact call contract. When your app is activated, you can use the event information to identify the call activation and extract the parameters that help you complete the call for the user.
 
@@ -85,7 +75,6 @@ protected override void OnActivated(IActivatedEventArgs args)
                 
     }
 }
-
 ```
 
 ```cpp
@@ -116,10 +105,7 @@ auto contactName = callArgs->Contact->DisplayName;
   }
  }
 }
-
 ```
-
-
 
 ## -see-also
 [IContactCallActivatedEventArgs](icontactcallactivatedeventargs.md), [IContactActivatedEventArgs](icontactactivatedeventargs.md), [IActivatedEventArgs](iactivatedeventargs.md), [Handling Contact Actions sample](http://go.microsoft.com/fwlink/p/?LinkID=320151)
