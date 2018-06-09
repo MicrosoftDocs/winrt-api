@@ -55,6 +55,19 @@ Private Sub OnFileActivated(ByVal args As Windows.ApplicationModel.Activation.IA
 End Sub
 ```
 
+```cppwinrt
+void App::OnActivated(Windows::ApplicationModel::Activation::IActivatedEventArgs const& args)
+{
+    if (args.Kind() == Windows::ApplicationModel::Activation::ActivationKind::Protocol)
+    {
+        auto eventArgs{ args.as<Windows::ApplicationModel::Activation::ProtocolActivatedEventArgs>() };
+
+        // TODO: Handle URI activation.
+        // The received URI is eventArgs.Uri().RawUri().
+    }
+}
+```
+
 ```cpp
 void App::OnActivated(Windows::ApplicationModel::Activation::IActivatedEventArgs^ args)
 {

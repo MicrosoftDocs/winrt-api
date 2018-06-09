@@ -16,12 +16,26 @@ Represents an app window and its thread.
 > [!NOTE]
 > This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://go.microsoft.com/fwlink/p/?linkid=258275).
 
-
-
 The following code snippet demonstrates the activation of the CoreApplicationView and the associated CoreWindow in a view provider implementation.
 
-```cpp
+```cppwinrt
+struct App : implements<App, IFrameworkViewSource, IFrameworkView>
+{
+...
+    void Initialize(CoreApplicationView const& applicationView)
+    {
+        applicationView.Activated({this, &App::OnActivated });
+    }
 
+    void OnActivated(CoreApplicationView const& /* applicationView */, IActivatedEventArgs const& /* args */)
+    {
+        // Activate the application window, making it visible and enabling it to receive events.
+        CoreWindow::GetForCurrentThread().Activate();
+    }
+}
+```
+
+```cpp
 ref class MyFrameworkView : public IFrameworkView
 {
 // ...
@@ -47,8 +61,6 @@ void OnActivated(
 // ...
 }
 ```
-
-
 
 ## -examples
 
