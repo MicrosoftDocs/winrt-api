@@ -11,7 +11,11 @@ public DependencyProperty LeftPaneVisibilityProperty { get; }
 
 ## -description
 
+Identifies the LeftPaneVisibility dependency property.
+
 ## -property-value
+
+The identifier for the LeftPaneVisibility dependency property.
 
 ## -remarks
 

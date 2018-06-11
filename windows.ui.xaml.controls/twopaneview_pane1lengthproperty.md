@@ -11,7 +11,11 @@ public DependencyProperty Pane1LengthProperty { get; }
 
 ## -description
 
+Identifies the Pane1Length dependency property.
+
 ## -property-value
+
+The identifier for the Pane1Length dependency property.
 
 ## -remarks
 

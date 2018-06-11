@@ -11,7 +11,11 @@ public DependencyProperty ErrorTemplateProperty { get; }
 
 ## -description
 
+Identifies the ErrorTemplate dependency property.
+
 ## -property-value
+
+The identifier for the ErrorTemplate dependency property.
 
 ## -remarks
 

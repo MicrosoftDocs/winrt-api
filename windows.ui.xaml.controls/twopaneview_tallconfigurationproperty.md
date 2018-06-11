@@ -11,7 +11,11 @@ public DependencyProperty TallConfigurationProperty { get; }
 
 ## -description
 
+Identifies the TallConfiguration dependency property.
+
 ## -property-value
+
+The identifier for the TallConfiguration dependency property.
 
 ## -remarks
 

@@ -11,7 +11,11 @@ public DependencyProperty MoreButtonVisilityProperty { get; }
 
 ## -description
 
+Identifies the MoreButtonVisility dependency property.
+
 ## -property-value
+
+The identifier for the MoreButtonVisility dependency property.
 
 ## -remarks
 

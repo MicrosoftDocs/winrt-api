@@ -11,7 +11,11 @@ public DependencyProperty ItemContainerTransitionsProperty { get; }
 
 ## -description
 
+Identifies the ItemContainerTransitions dependency property.
+
 ## -property-value
+
+The identifier for the ItemContainerTransitions dependency property.
 
 ## -remarks
 

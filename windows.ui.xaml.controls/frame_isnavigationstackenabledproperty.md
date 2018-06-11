@@ -11,7 +11,11 @@ public DependencyProperty IsNavigationStackEnabledProperty { get; }
 
 ## -description
 
+Identifies the IsNavigationStackEnabled dependency property.
+
 ## -property-value
+
+The identifier for the IsNavigationStackEnabled dependency property.
 
 ## -remarks
 

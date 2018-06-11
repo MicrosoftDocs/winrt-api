@@ -11,7 +11,11 @@ public DependencyProperty SelectionFollowsFocusProperty { get; }
 
 ## -description
 
+Identifies the SelectionFollowsFocus dependency property.
+
 ## -property-value
+
+The identifier for the SelectionFollowsFocus dependency property.
 
 ## -remarks
 

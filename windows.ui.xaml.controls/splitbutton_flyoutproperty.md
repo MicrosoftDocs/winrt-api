@@ -11,7 +11,11 @@ public DependencyProperty FlyoutProperty { get; }
 
 ## -description
 
+Identifies the Flyout dependency property.
+
 ## -property-value
+
+The identifier for the Flyout dependency property.
 
 ## -remarks
 

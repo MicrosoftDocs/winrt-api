@@ -11,7 +11,11 @@ public DependencyProperty CurrentConfigurationProperty { get; }
 
 ## -description
 
+Identifies the CurrentConfiguration dependency property.
+
 ## -property-value
+
+The identifier for the CurrentConfiguration dependency property.
 
 ## -remarks
 

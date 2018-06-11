@@ -11,7 +11,11 @@ public DependencyProperty IconSourceProperty { get; }
 
 ## -description
 
+Identifies the IconSource dependency property.
+
 ## -property-value
+
+The identifier for the IconSource dependency property.
 
 ## -remarks
 

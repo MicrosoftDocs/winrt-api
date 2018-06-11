@@ -11,6 +11,8 @@ public AppBarElementContainer.AppBarElementContainer()
 
 ## -description
 
+Initializes a new instance of the [AppBarElementContainer](appbarelementcontainer.md) class.
+
 ## -remarks
 
 ## -see-also

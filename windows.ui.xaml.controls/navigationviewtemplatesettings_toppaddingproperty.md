@@ -11,7 +11,11 @@ public DependencyProperty TopPaddingProperty { get; }
 
 ## -description
 
+Identifies the TopPadding dependency property.
+
 ## -property-value
+
+The identifier for the TopPadding dependency property.
 
 ## -remarks
 

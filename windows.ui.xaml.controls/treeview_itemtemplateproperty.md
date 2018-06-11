@@ -11,7 +11,11 @@ public DependencyProperty ItemTemplateProperty { get; }
 
 ## -description
 
+Identifies the ItemTemplate dependency property.
+
 ## -property-value
+
+The identifier for the ItemTemplate dependency property.
 
 ## -remarks
 

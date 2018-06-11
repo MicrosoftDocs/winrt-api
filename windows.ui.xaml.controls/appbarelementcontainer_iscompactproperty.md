@@ -11,7 +11,11 @@ public DependencyProperty IsCompactProperty { get; }
 
 ## -description
 
+Identifies the IsCompact dependency property.
+
 ## -property-value
+
+The identifier for the IsCompact dependency property.
 
 ## -remarks
 

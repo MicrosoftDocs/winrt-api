@@ -11,7 +11,11 @@ public DependencyProperty CommandParameterProperty { get; }
 
 ## -description
 
+Identifies the CommandParameter dependency property.
+
 ## -property-value
+
+The identifier for the CommandParameter dependency property.
 
 ## -remarks
 

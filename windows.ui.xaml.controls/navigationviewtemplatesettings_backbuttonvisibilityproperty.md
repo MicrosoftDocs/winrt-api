@@ -11,7 +11,11 @@ public DependencyProperty BackButtonVisibilityProperty { get; }
 
 ## -description
 
+Identifies the BackButtonVisibility dependency property.
+
 ## -property-value
+
+The identifier for the BackButtonVisibility dependency property.
 
 ## -remarks
 

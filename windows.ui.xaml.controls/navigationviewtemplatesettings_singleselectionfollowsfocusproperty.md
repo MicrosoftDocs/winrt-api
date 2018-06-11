@@ -11,7 +11,11 @@ public DependencyProperty SingleSelectionFollowsFocusProperty { get; }
 
 ## -description
 
+Identifies the SingleSelectionFollowsFocus dependency property.
+
 ## -property-value
+
+The identifier for the SingleSelectionFollowsFocus dependency property.
 
 ## -remarks
 

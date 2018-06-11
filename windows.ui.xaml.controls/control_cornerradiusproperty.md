@@ -11,7 +11,11 @@ public DependencyProperty CornerRadiusProperty { get; }
 
 ## -description
 
+Identifies the CornerRadius dependency property.
+
 ## -property-value
+
+The identifier for the CornerRadius dependency property.
 
 ## -remarks
 

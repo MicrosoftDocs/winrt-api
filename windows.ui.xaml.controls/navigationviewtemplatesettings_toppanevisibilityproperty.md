@@ -11,7 +11,11 @@ public DependencyProperty TopPaneVisibilityProperty { get; }
 
 ## -description
 
+Identifies the TopPaneVisibility dependency property.
+
 ## -property-value
+
+The identifier for the TopPaneVisibility dependency property.
 
 ## -remarks
 

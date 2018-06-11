@@ -11,7 +11,11 @@ public DependencyProperty PaneDisplayModeProperty { get; }
 
 ## -description
 
+Identifies the PaneDisplayMode dependency property.
+
 ## -property-value
+
+The identifier for the PaneDisplayMode dependency property.
 
 ## -remarks
 

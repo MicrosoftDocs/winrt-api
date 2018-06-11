@@ -11,7 +11,11 @@ public DependencyProperty WideConfigurationProperty { get; }
 
 ## -description
 
+Identifies the WideConfiguration dependency property.
+
 ## -property-value
+
+The identifier for the WideConfiguration dependency property.
 
 ## -remarks
 

@@ -11,7 +11,11 @@ public DependencyProperty SelectsOnInvokedProperty { get; }
 
 ## -description
 
+Identifies the SelectsOnInvoked dependency property.
+
 ## -property-value
+
+The identifier for the SelectsOnInvoked dependency property.
 
 ## -remarks
 

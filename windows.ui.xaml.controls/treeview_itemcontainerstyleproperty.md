@@ -11,7 +11,11 @@ public DependencyProperty ItemContainerStyleProperty { get; }
 
 ## -description
 
+Identifies the ItemContainerStyle dependency property.
+
 ## -property-value
+
+The identifier for the ItemContainerStyle dependency property.
 
 ## -remarks
 

@@ -11,7 +11,11 @@ public DependencyProperty IsPaneVisibleProperty { get; }
 
 ## -description
 
+Identifies the IsPaneVisible dependency property.
+
 ## -property-value
+
+The identifier for the IsPaneVisible dependency property.
 
 ## -remarks
 

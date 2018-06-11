@@ -11,7 +11,11 @@ public DependencyProperty HasErrorsProperty { get; }
 
 ## -description
 
+Identifies the HasErrors dependency property.
+
 ## -property-value
+
+The identifier for the HasErrors dependency property.
 
 ## -remarks
 

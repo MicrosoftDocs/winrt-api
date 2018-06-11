@@ -11,7 +11,11 @@ public DependencyProperty IsInOverflowProperty { get; }
 
 ## -description
 
+Identifies the IsInOverflow dependency property.
+
 ## -property-value
+
+The identifier for the IsInOverflow dependency property.
 
 ## -remarks
 

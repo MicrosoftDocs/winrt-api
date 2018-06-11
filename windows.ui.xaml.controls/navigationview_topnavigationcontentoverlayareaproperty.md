@@ -11,7 +11,11 @@ public DependencyProperty TopNavigationContentOverlayAreaProperty { get; }
 
 ## -description
 
+Identifies the TopNavigationContentOverlayArea dependency property.
+
 ## -property-value
+
+The identifier for the TopNavigationContentOverlayArea dependency property.
 
 ## -remarks
 

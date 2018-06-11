@@ -11,7 +11,11 @@ public DependencyProperty HasUnrealizedChildrenProperty { get; }
 
 ## -description
 
+Identifies the HasUnrealizedChildren dependency property.
+
 ## -property-value
+
+The identifier for the HasUnrealizedChildren dependency property.
 
 ## -remarks
 

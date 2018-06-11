@@ -11,7 +11,11 @@ public DependencyProperty IsValueRequiredProperty { get; }
 
 ## -description
 
+Identifies the IsValueRequired dependency property.
+
 ## -property-value
+
+The identifier for the IsValueRequired dependency property.
 
 ## -remarks
 

@@ -11,7 +11,11 @@ public DependencyProperty ThresholdHeightProperty { get; }
 
 ## -description
 
+Identifies the ThresholdHeight dependency property.
+
 ## -property-value
+
+The identifier for the ThresholdHeight dependency property.
 
 ## -remarks
 

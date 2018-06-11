@@ -11,7 +11,11 @@ public DependencyProperty CanRedoProperty { get; }
 
 ## -description
 
+Identifies the CanRedo dependency property.
+
 ## -property-value
+
+The identifier for the CanRedo dependency property.
 
 ## -remarks
 
