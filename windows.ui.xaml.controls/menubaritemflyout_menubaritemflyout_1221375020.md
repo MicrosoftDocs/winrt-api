@@ -11,6 +11,8 @@ public MenuBarItemFlyout.MenuBarItemFlyout()
 
 ## -description
 
+Initializes a new instance of the [MenuBarItemFlyout](menubaritemflyout.md) class.
+
 ## -remarks
 
 ## -see-also

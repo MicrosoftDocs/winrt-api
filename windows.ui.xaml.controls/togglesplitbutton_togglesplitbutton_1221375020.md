@@ -11,6 +11,8 @@ public ToggleSplitButton.ToggleSplitButton()
 
 ## -description
 
+Initializes a new instance of the [ToggleSplitButton](togglesplitbutton.md) class.
+
 ## -remarks
 
 ## -see-also

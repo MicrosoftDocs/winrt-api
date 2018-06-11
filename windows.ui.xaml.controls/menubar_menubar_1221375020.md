@@ -11,6 +11,8 @@ public MenuBar.MenuBar()
 
 ## -description
 
+Initializes a new instance of the [MenuBar](menubar.md) class.
+
 ## -remarks
 
 ## -see-also

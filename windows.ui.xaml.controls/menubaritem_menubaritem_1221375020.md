@@ -11,6 +11,8 @@ public MenuBarItem.MenuBarItem()
 
 ## -description
 
+Initializes a new instance of the [MenuBarItem](menubaritem.md) class.
+
 ## -remarks
 
 ## -see-also
