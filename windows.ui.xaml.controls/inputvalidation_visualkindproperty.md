@@ -11,7 +11,11 @@ public DependencyProperty VisualKindProperty { get; }
 
 ## -description
 
+Identifies the VisualKind dependency property.
+
 ## -property-value
+
+The identifier for the VisualKind dependency property.
 
 ## -remarks
 

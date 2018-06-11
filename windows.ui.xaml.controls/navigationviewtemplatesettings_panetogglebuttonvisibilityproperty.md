@@ -11,7 +11,11 @@ public DependencyProperty PaneToggleButtonVisibilityProperty { get; }
 
 ## -description
 
+Identifies the PaneToggleButtonVisibility dependency property.
+
 ## -property-value
+
+The identifier for the PaneToggleButtonVisibility dependency property.
 
 ## -remarks
 

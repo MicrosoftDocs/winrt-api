@@ -11,7 +11,11 @@ public DependencyProperty PanePriorityProperty { get; }
 
 ## -description
 
+Identifies the PanePriority dependency property.
+
 ## -property-value
+
+The identifier for the PanePriority dependency property.
 
 ## -remarks
 

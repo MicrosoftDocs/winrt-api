@@ -11,7 +11,11 @@ public DependencyProperty OverflowLabelModeProperty { get; }
 
 ## -description
 
+Identifies the OverflowLabelMode dependency property.
+
 ## -property-value
+
+The identifier for the OverflowLabelMode dependency property.
 
 ## -remarks
 

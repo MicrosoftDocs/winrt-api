@@ -11,7 +11,11 @@ public DependencyProperty OverflowButtonVisibilityProperty { get; }
 
 ## -description
 
+Identifies the OverflowButtonVisibility dependency property.
+
 ## -property-value
+
+The identifier for the OverflowButtonVisibility dependency property.
 
 ## -remarks
 

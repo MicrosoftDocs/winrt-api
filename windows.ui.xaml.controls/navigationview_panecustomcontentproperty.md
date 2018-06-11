@@ -11,7 +11,11 @@ public DependencyProperty PaneCustomContentProperty { get; }
 
 ## -description
 
+Identifies the PaneCustomContent dependency property.
+
 ## -property-value
+
+The identifier for the PaneCustomContent dependency property.
 
 ## -remarks
 

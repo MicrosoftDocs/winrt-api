@@ -11,7 +11,11 @@ public DependencyProperty Pane2LengthProperty { get; }
 
 ## -description
 
+Identifies the Pane2Length dependency property.
+
 ## -property-value
+
+The identifier for the Pane2Length dependency property.
 
 ## -remarks
 

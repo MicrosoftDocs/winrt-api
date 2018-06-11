@@ -11,7 +11,11 @@ public DependencyProperty NullableTimeProperty { get; }
 
 ## -description
 
+Identifies the NullableTime dependency property.
+
 ## -property-value
+
+The identifier for the NullableTime dependency property.
 
 ## -remarks
 

@@ -11,7 +11,11 @@ public DependencyProperty IsAnchoredAtVerticalExtentProperty { get; }
 
 ## -description
 
+Identifies the IsAnchoredAtVertical dependency property.
+
 ## -property-value
+
+The identifier for the IsAnchoredAtVertical dependency property.
 
 ## -remarks
 

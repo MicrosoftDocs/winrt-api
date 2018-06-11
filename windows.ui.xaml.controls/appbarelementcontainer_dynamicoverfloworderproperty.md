@@ -11,7 +11,11 @@ public DependencyProperty DynamicOverflowOrderProperty { get; }
 
 ## -description
 
+Identifies the DynamicOverflowOrder dependency property.
+
 ## -property-value
+
+The identifier for the DynamicOverflowOrder dependency property.
 
 ## -remarks
 

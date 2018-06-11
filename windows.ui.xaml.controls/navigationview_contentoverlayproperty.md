@@ -11,7 +11,11 @@ public DependencyProperty ContentOverlayProperty { get; }
 
 ## -description
 
+Identifies the ContentOverlay dependency property.
+
 ## -property-value
+
+The identifier for the ContentOverlay dependency property.
 
 ## -remarks
 

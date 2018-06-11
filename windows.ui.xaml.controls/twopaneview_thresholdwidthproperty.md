@@ -11,7 +11,11 @@ public DependencyProperty ThresholdWidthProperty { get; }
 
 ## -description
 
+Identifies the ThresholdWidth dependency property.
+
 ## -property-value
+
+The identifier for the ThresholdWidth dependency property.
 
 ## -remarks
 

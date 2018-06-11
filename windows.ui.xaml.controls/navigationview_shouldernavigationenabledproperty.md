@@ -11,7 +11,11 @@ public DependencyProperty ShoulderNavigationEnabledProperty { get; }
 
 ## -description
 
+Identifies the ShoulderNavigationEnabled dependency property.
+
 ## -property-value
+
+The identifier for the ShoulderNavigationEnabled dependency property.
 
 ## -remarks
 

@@ -11,7 +11,11 @@ public DependencyProperty NullableDateProperty { get; }
 
 ## -description
 
+Identifies the NullableDate dependency property.
+
 ## -property-value
+
+The identifier for the NullableDate dependency property.
 
 ## -remarks
 
