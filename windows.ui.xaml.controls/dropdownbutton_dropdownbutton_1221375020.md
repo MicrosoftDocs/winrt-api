@@ -11,6 +11,8 @@ public DropDownButton.DropDownButton()
 
 ## -description
 
+Initializes a new instance of the [DropDownButton](dropdownbutton.md) class.
+
 ## -remarks
 
 ## -see-also

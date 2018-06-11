@@ -11,6 +11,8 @@ public SplitButton.SplitButton()
 
 ## -description
 
+Initializes a new instance of the [SplitButton](splitbutton.md) class.
+
 ## -remarks
 
 ## -see-also

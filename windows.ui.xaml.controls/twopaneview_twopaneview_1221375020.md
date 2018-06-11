@@ -11,6 +11,8 @@ public TwoPaneView.TwoPaneView()
 
 ## -description
 
+Initializes a new instance of the [TwoPaneView](twopaneview.md) class.
+
 ## -remarks
 
 ## -see-also

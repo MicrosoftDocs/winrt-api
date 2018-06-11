@@ -11,6 +11,8 @@ public IconSourceElement.IconSourceElement()
 
 ## -description
 
+Initializes a new instance of the [IconSourceElement](iconsourceelement.md) class.
+
 ## -remarks
 
 ## -see-also
