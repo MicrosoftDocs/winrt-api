@@ -17,6 +17,24 @@ Enables apps to handle state changes, manage windows, and integrate with a varie
 
 The system creates this object as a singleton when it runs the app. It is run as an Application Single-Threaded Apartment (ASTA). Threads created from the app singleton, such as the view provider (seen in the sample below), should be attributed as Multi-Threaded Apartment (MTAThread).
 
+```cppwinrt
+struct App : implements<App, IFrameworkViewSource, IFrameworkView>
+{
+public:
+    IFrameworkView CreateView()
+    {
+        return *this;
+    }
+};
+
+...
+
+int __stdcall wWinMain(HINSTANCE, HINSTANCE, PWSTR, int)
+{
+    Windows::ApplicationModel::Core::CoreApplication::Run(App());
+}
+```
+
 ```cpp
 ref class MyFrameworkViewSource : IFrameworkViewSource
 {

@@ -14,6 +14,8 @@ The event that is raised when a previously discovered remote system (device) is 
 
 ## -remarks
 
+This event is raised only after a remote system has stopped being discoverable over _all_ of the categories specified by the associated **RemoteSystemDiscoveryTypeFilter**.
+
 ## -examples
 
 ## -see-also

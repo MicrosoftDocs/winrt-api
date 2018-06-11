@@ -10,7 +10,7 @@ public event Windows.Foundation.TypedEventHandler RemoteSystemUpdated<Windows.Sy
 # Windows.System.RemoteSystems.RemoteSystemWatcher.RemoteSystemUpdated
 
 ## -description
-Raised when a previously discovered remote system (device) changes from proximally connected to cloud connected, or vice versa. It is also raised when a remote system changes one of its monitored properties (see the properties of the [RemoteSystem](remotesystem.md) class).
+Raised when a remote system (device) that was previously discovered in this discovery session changes from proximally connected to cloud connected, or the reverse. It is also raised when a remote system changes one of its monitored properties (see the properties of the [RemoteSystem](remotesystem.md) class).
 
 ## -remarks
 
