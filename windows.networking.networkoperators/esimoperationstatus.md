@@ -57,6 +57,39 @@ Indicates that the SIM card is busy.
 ### -field Other:12
 Indicates a status that's not accounted for by a more specific status.
 
+### -field CardGeneralFailure:13
+TBD
+
+### -field ConfirmationCodeMissing:14
+TBD
+
+### -field InvalidMatchingId:15
+TBD
+
+### -field NoEligibleProfileForThisDevice:16
+TBD
+
+### -field OperationAborted:17
+TBD
+
+### -field EidMismatch:18
+TBD
+
+### -field ProfileNotAvailableForNewBinding:19
+TBD
+
+### -field ProfileNotReleasedByOperator:20
+TBD
+
+### -field OperationProhibitedByProfileClass:21
+TBD
+
+### -field ProfileNotPresent:22
+TBD
+
+### -field NoCorrespondingRequest:23
+TBD
+
 ## -remarks
 
 ## -see-also
