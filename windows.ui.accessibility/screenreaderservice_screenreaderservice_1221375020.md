@@ -1,0 +1,19 @@
+---
+-api-id: M:Windows.UI.Accessibility.ScreenReaderService.#ctor
+-api-type: winrt method
+---
+
+<!-- Method syntax.
+public ScreenReaderService.ScreenReaderService()
+-->
+
+# Windows.UI.Accessibility.ScreenReaderService.ScreenReaderService
+
+## -description
+
+## -remarks
+
+## -see-also
+
+## -examples
+
