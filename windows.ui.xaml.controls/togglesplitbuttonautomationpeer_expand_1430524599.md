@@ -1,0 +1,19 @@
+---
+-api-id: M:Windows.UI.Xaml.Controls.ToggleSplitButtonAutomationPeer.Expand
+-api-type: winrt method
+---
+
+<!-- Method syntax.
+public void ToggleSplitButtonAutomationPeer.Expand()
+-->
+
+# Windows.UI.Xaml.Controls.ToggleSplitButtonAutomationPeer.Expand
+
+## -description
+
+## -remarks
+
+## -see-also
+
+## -examples
+
