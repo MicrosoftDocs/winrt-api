@@ -12,8 +12,6 @@ public class ContactVideoCallActivatedEventArgs : Windows.ApplicationModel.Activ
 ## -description
 Provides data when an app is activated to video call a contact.
 
-
-
 > **JavaScript**
 > This type appears as [WebUIContactVideoCallActivatedEventArgs](../windows.ui.webui/webuicontactvideocallactivatedeventargs.md).
 
@@ -24,12 +22,9 @@ To receive video call activations, your app must register for the "windows.conta
 
 If multiple apps have registered for this contract, the user can choose one of them as their default for handling video calls.
 
-
-
-Here is an example for manifest registration:
+Here is an example for manifest registration.
 
 ```xml
-
 <m2:Extension Category="windows.contact" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest">
   <m2:Contact>
     <m2:ContactLaunchActions>
@@ -39,15 +34,12 @@ Here is an example for manifest registration:
     </m2:ContactLaunchActions>
   </m2:Contact>
 </m2:Extension>
-
 ```
-
-
 
 After you register in your manifest, your app can be activated for the contact video call contract. When your app is activated, you can use the event information to identify the video call activation and extract the parameters that help you complete the video call for the user.
 
 ## -examples
-Here is an example of the code you need to handle contact video call activations for Skype Ids:
+Here is an example of the code you need to handle contact video call activations for Skype Ids.
 
 ```csharp
 protected override void OnActivated(IActivatedEventArgs args)
@@ -56,11 +48,11 @@ protected override void OnActivated(IActivatedEventArgs args)
     {
         var contactArgs = args as IContactActivatedEventArgs;
         if (contactArgs.Verb == Windows.ApplicationModel.Contacts.ContactLaunchActionVerbs.VideoCall)
-        { 
+        {
             IContactVideoCallActivatedEventArgs videoCallArgs = contactArgs as IContactVideoCallActivatedEventArgs;
 
-     //get contact display info
-     var contactName = videoCallArgs.Contact.DisplayName;
+            //get contact display info
+            var contactName = videoCallArgs.Contact.DisplayName;
             var contactThumbnail = videoCallArgs.Contact.Thumbnail;
 
             if (videoCallArgs.ServiceId == "skype.com")
@@ -69,38 +61,57 @@ protected override void OnActivated(IActivatedEventArgs args)
                 //add video calling logic for Skype Ids
             }
         }
-                
     }
 }
+```
 
+```cppwinrt
+void App::OnActivated(Windows::ApplicationModel::Activation::IActivatedEventArgs const& args)
+{
+    if (args.Kind() == Windows::ApplicationModel::Activation::ActivationKind::Contact)
+    {
+        auto contactArgs{ args.as<Windows::ApplicationModel::Activation::IContactActivatedEventArgs>() };
+        if (contactArgs.Verb() == Windows::ApplicationModel::Contacts::ContactLaunchActionVerbs::VideoCall())
+        {
+            auto videoCallArgs{ contactArgs.as<Windows::ApplicationModel::Activation::ContactVideoCallActivatedEventArgs>() };
+
+            // Get contact display info.
+            auto contactName{ videoCallArgs.Contact().DisplayName() };
+            auto contactThumbnail{ videoCallArgs.Contact().Thumbnail() };
+
+            if (videoCallArgs.ServiceId() == L"skype.com")
+            {
+                auto userId = videoCallArgs.ServiceUserId();
+                //add messaging logic for Skype Ids
+            }
+        }
+    }
+}
 ```
 
 ```cpp
 void App::OnActivated(IActivatedEventArgs^ args)
 {
- if (args->Kind == ActivationKind::Contact)
- {
-  auto contactArgs = dynamic_cast<IContactActivatedEventArgs^>(args);
-  if (contactArgs->Verb == Windows::ApplicationModel::Contacts::ContactLaunchActionVerbs::VideoCall)
-  {
-   auto videoCallArgs = dynamic_cast<ContactVideoCallActivatedEventArgs^>(contactArgs);
+    if (args->Kind == ActivationKind::Contact)
+    {
+        auto contactArgs = dynamic_cast<IContactActivatedEventArgs^>(args);
+        if (contactArgs->Verb == Windows::ApplicationModel::Contacts::ContactLaunchActionVerbs::VideoCall)
+        {
+            auto videoCallArgs = dynamic_cast<ContactVideoCallActivatedEventArgs^>(contactArgs);
 
-       //get contact display info
-auto contactName = videoCallArgs->Contact->DisplayName;
-   auto contactThumbnail = videoCallArgs->Contact->Thumbnail;
+            //get contact display info
+            auto contactName = videoCallArgs->Contact->DisplayName;
+            auto contactThumbnail = videoCallArgs->Contact->Thumbnail;
 
-   if (videoCallArgs->ServiceId == "skype.com")
-   {
-    auto userId = videoCallArgs->ServiceUserId;
-    //add video calling logic for Skype Ids
-   }
-  }
- }
+            if (videoCallArgs->ServiceId == "skype.com")
+            {
+                auto userId = videoCallArgs->ServiceUserId;
+                //add video calling logic for Skype Ids
+            }
+        }
+    }
 }
-
 ```
-
-
 
 ## -see-also
 [IContactVideoCallActivatedEventArgs](icontactvideocallactivatedeventargs.md), [IContactActivatedEventArgs](icontactactivatedeventargs.md), [IActivatedEventArgs](iactivatedeventargs.md), [Handling Contact Actions sample](http://go.microsoft.com/fwlink/p/?LinkID=320151)

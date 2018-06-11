@@ -49,6 +49,16 @@ Private Sub OnFileActivated(ByVal args As Windows.ApplicationModel.Activation.Fi
 End Sub
 ```
 
+```cppwinrt
+void App::OnFileActivated(Windows::ApplicationModel::Activation::FileActivatedEventArgs const& /* args */)
+{
+    // TODO: Handle file activation.
+
+    // The number of files received is args.Files().Size().
+    // The first file is args.Files().GetAt(0).Name().
+}
+```
+
 ```cpp
 void App::OnFileActivated(Windows::ApplicationModel::Activation::FileActivatedEventArgs^ args)
 {

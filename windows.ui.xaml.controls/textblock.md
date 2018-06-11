@@ -190,7 +190,7 @@ This example shows how to use an inline hyperlink. For more info, see [Hyperlink
 ```
 
 ```csharp
-//Create a TextBlock this is needed to put the hyperlink inside
+// Create a TextBlock this is needed to put the hyperlink inside
 TextBlock textBlock = new TextBlock();
 
 // Create a Hyperlink and a Run. 
@@ -217,9 +217,9 @@ rootPanel.Children.Add(textBlock);
 
 The following example shows how to use the [LineStackingStrategy](textblock_linestackingstrategy.md) property to determine how the line boxes are created for text lines of a [TextBlock](textblock.md). The first [TextBlock](textblock.md) has a [LineStackingStrategy](textblock_linestackingstrategy.md) value of **MaxHeight**,the second [TextBlock](textblock.md) has a value of **BlockLineHeight**, and the third [TextBlock](textblock.md) has a value of **BaselineToBaseline**.
 
-The rendered text looks like this.
+The rendered text looks like this:
 
-![Text block line stacking strategies](images/text-block-line-stacking-strategies.png)
+<img alt="Text block line stacking strategies" src="images/text-block-line-stacking-strategies.png" />
 
 [!code-xml[LineStackingStrategyExampleWholePage](../windows.ui.xaml.controls/code/TextBlock.LineStackingStrategy/csharp/Page.xaml#SnippetLineStackingStrategyExampleWholePage)]
 
