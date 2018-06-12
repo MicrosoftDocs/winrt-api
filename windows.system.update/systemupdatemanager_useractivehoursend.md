@@ -1,0 +1,21 @@
+---
+-api-id: P:Windows.System.Update.SystemUpdateManager.UserActiveHoursEnd
+-api-type: winrt property
+---
+
+<!-- Property syntax.
+public TimeSpan UserActiveHoursEnd { get; }
+-->
+
+# Windows.System.Update.SystemUpdateManager.UserActiveHoursEnd
+
+## -description
+
+## -property-value
+
+## -remarks
+
+## -see-also
+
+## -examples
+
