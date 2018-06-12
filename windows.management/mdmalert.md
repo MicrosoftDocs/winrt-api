@@ -23,6 +23,35 @@ Note: The generic alert (1226) is most common.
 ## -see-also
 
 ## -examples
+```cppwinrt
+void MultipleMdmAlerts()
+{
+    Log::Comment(WEX::Common::String().Format(L"Attempt to start syncing with two Alerts..."));
+    Log::Comment(WEX::Common::String().Format(L"Fill in all members of first alert."));
+
+    Windows::Management::MdmAlert myAlert;
+
+    // This format is mandated by the OMA-DM standards for alerts.
+    myAlert.Type(L"Reversed-Domain-Name:org.domain.samplealert");
+    myAlert.Format(Windows::Management::MdmAlertDataType::String);
+    myAlert.Data(L"alert-specific content.");
+    myAlert.Mark(Windows::Management::MdmAlertMark::Critical);
+
+    // Source and Target URIs are relative to the device, and typically in the MDM namespace.
+    // Here, they indicate that an app was installed at "InstallSample", and the resulting
+    // inventory location of the app is at "Results".
+    myAlert.Source(L"./Vendor/MSFT/AppManagement/InstallSample");
+    myAlert.Target(L"./Vendor/MSFT/AppManagement/Results");
+
+    Windows::Management::MdmAlert myAlertNext;
+    myAlertNext.Type(L"Reversed-Domain-Name:org.domain.nextalert");
+
+    std::vector<Windows::Management::MdmAlert> alertList;
+
+    alertList.push_back(myAlert);
+    alertList.push_back(myAlertNext);
+}
+```
 
 ```cpp
 void MultipleMdmAlerts() 

@@ -10,11 +10,9 @@ public class ResourceLoader : Windows.ApplicationModel.Resources.IResourceLoader
 # Windows.ApplicationModel.Resources.ResourceLoader
 
 ## -description
-
 Provides simplified access to app resources such as app UI strings.
 
 ## -remarks
-
 A [ResourceLoader](resourceloader.md) object encapsulates a particular [ResourceMap](../windows.applicationmodel.resources.core/resourcemap.md) and a [ResourceContext](../windows.applicationmodel.resources.core/resourcecontext.md), combined in a simple API.
 
 A specific resource map can be specified when the [ResourceLoader](resourceloader.md) is obtained; if no resource map is specified, the [ResourceLoader](resourceloader.md) will provide access to the "Resources" subtree of the app's main resource map.
@@ -30,24 +28,22 @@ In general, resources can be sensitive to scale or other display characteristics
 See [Guidelines for window sizes and scaling to screens](http://msdn.microsoft.com/library/19732e24-add8-479e-809a-274f7c47ef68) and [UX guidelines for layout and scaling](http://msdn.microsoft.com/library/c388f639-6f35-4d52-bffe-53ff3f537d4b).
 
 ## -examples
-
 Use the [ResourceLoader.GetString | getString](resourceloader_getstring.md) method to get the string resource identified by "Farewell".
-
-**C#**
 
 ```csharp
 var resourceLoader = Windows.ApplicationModel.Resources.ResourceLoader.GetForCurrentView();
 var text = resourceLoader.GetString("Farewell");
 ```
 
-**C++**
+```cppwinrt
+auto resourceLoader{ Windows::ApplicationModel::Resources::ResourceLoader::GetForCurrentView() };
+winrt::hstring text{ resourceLoader.GetString(L"Farewell") };
+```
 
 ```cpp
 auto resourceLoader = Windows::ApplicationModel::Resources::ResourceLoader::GetForCurrentView();
 String^ text = resourceLoader->GetString("Farewell");
 ```
-
-**JavaScript**
 
 ```javascript
 var resourceLoader = Windows.ApplicationModel.Resources.ResourceLoader.getForCurrentView();

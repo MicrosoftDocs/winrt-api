@@ -13,22 +13,39 @@ public interface IFrameworkViewSource :
 Defines a factory for view provider objects.
 
 ## -remarks
-Instances of objects that implement this class are provided to the app object's [CoreApplication.Run](coreapplication_run.md) method when the app starts, which uses it to create the views used by the app. View providers must be attributed as **MTAThread.**
+Instances of objects that implement this class are provided to the app object's [CoreApplication.Run](coreapplication_run.md) method when the app starts, which uses it to create the views used by the app.
 
+```cppwinrt
+struct App : implements<App, IFrameworkViewSource, IFrameworkView>
+{
+public:
+    IFrameworkView CreateView()
+    {
+        return *this;
+    }
+};
 
+...
 
+int __stdcall wWinMain(HINSTANCE, HINSTANCE, PWSTR, int)
+{
+    Windows::ApplicationModel::Core::CoreApplication::Run(App());
+}
+```
 
+If you're using C++/CX, then a view provider must be attributed as **MTAThread.**
 
 ```cpp
-
 ref class MyFrameworkViewSource : IFrameworkViewSource
 {
 public:
     virtual IFrameworkView^ CreateView()
     {
-        return ref new MyFrameworkView(); // see IFrameworkView for implementation specifics
+        return ref new MyFrameworkView(); // See IFrameworkView for implementation specifics.
     }
 };
+
+// ...
 
 [Platform::MTAThread]
 int main(Platform::Array<Platform::String^>^)
@@ -38,8 +55,6 @@ int main(Platform::Array<Platform::String^>^)
     return 0;
 }
 ```
-
-
 
 ## -examples
 
