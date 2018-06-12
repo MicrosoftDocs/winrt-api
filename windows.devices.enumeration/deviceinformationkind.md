@@ -55,11 +55,9 @@ The [DeviceInformation](deviceinformation.md) object represents an association e
 
 The [Id](deviceinformation_id.md) for this object as a string.
 
-### -field DevicePanel:8
-
-
 ## -remarks
-A [DeviceInformationKind](deviceinformationkind.md) value can be passed to the various enumeration APIs to indicate the specific kind of device you want to enumerate. In most scenarios, you will receive the [DeviceInformation](deviceinformation.md) from the device selector. To see how to enumerate over a specific kind of devices using [DeviceInformationKind](deviceinformationkind.md), see [Enumerate devices](http://msdn.microsoft.com/library/4311d293-94f0-4bbd-a22d-f007382b4db8).
+
+A [DeviceInformationKind](deviceinformationkind.md) value can be passed to the various enumeration APIs to indicate the specific kind of device you want to enumerate. In most scenarios, you will receive the [DeviceInformation](deviceinformation.md) from the device selector. To see how to enumerate over specific kinds of devices using [DeviceInformationKind](deviceinformationkind.md), see [Enumerate devices](http://msdn.microsoft.com/library/4311d293-94f0-4bbd-a22d-f007382b4db8).
 
 The following diagram show how the different device types interact with each other. It also indicates the properties that tie the relationships together. For performance reasons, many of the relationship connections only go in one direction. The exception to this is **AepContainer**. It contains a list of its child objects thanks to **AepContainer.Children**.
 
@@ -69,3 +67,4 @@ The following diagram show how the different device types interact with each oth
 
 ## -see-also
 
+[[DeviceInformation.Kind](deviceinformation_kind.md), [DeviceInformationUpdate.Kind](deviceinformationupdate_kind.md), [CreateFromIdAsync(System.String deviceId, Windows.Foundation.Collections.IIterable<System.String> additionalProperties, Windows.Devices.Enumeration.DeviceInformationKind kind)](deviceinformation_createfromidasync_270724983.md), [deviceinformation_createwatcher_990788373.md](CreateWatcher(System.String,Windows.Foundation.Collections.IIterable{System.String},Windows.Devices.Enumeration.DeviceInformationKind)), [FindAllAsync(System.String,Windows.Foundation.Collections.IIterable{System.String},Windows.Devices.Enumeration.DeviceInformationKind)](deviceinformation_findallasync_1907805458.md), [devicepairingresultstatus.md](devicepairingresultstatus.md)
