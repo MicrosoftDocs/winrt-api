@@ -16,7 +16,6 @@ Provides methods for accessing the storage functionality of a portable device th
 + Media Transfer Protocol (MTP) music players, phones, and cameras
 + Picture Transfer Protocol (PTP) cameras
 
-
 ## -remarks
 To access the device services, you must declare the device service in the capabilities section of the app manifest file. For a list of the GUIDs representing the device services, see [Windows.Devices.Portable](windows_devices_portable.md).
 
@@ -68,11 +67,13 @@ The following examples show the syntax of a call to [FromId](storagedevice_fromi
 var folder = StorageDevice.FromId(deviceInformationId);
 ```
 
+```cppwinrt
+StorageFolder folder{ StorageDevice::FromId(deviceInformationId) };
+```
+
 ```cpp
 StorageFolder^ folder = StorageDevice::FromId(deviceInformationId);
 ```
-
-
 
 ## -see-also
 [Removable Storage Sample](http://go.microsoft.com/fwlink/p/?linkid=242035)
