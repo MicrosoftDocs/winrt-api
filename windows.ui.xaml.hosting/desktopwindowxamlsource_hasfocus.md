@@ -10,6 +10,7 @@ public bool HasFocus { get; }
 # Windows.UI.Xaml.Hosting.DesktopWindowXamlSource.HasFocus
 
 ## -description
+Gets or sets a value that indicates whether the **DesktopWindowXamlSource** currently has focus in the desktop application. 
 
 ## -property-value
 
@@ -18,4 +19,3 @@ public bool HasFocus { get; }
 ## -see-also
 
 ## -examples
-

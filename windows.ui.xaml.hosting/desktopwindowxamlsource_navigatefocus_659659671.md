@@ -10,15 +10,18 @@ public XamlSourceFocusNavigationResult DesktopWindowXamlSource.NavigateFocus(Xam
 # Windows.UI.Xaml.Hosting.DesktopWindowXamlSource.NavigateFocus
 
 ## -description
+Attempts to programmatically give focus to the **DesktopWindowXamlSource** in the desktop application.
 
 ## -parameters
 ### -param request
+A [XamlSourceFocusNavigationRequest](xamlsourcefocusnavigationrequest.md) object that specifies the reason and other info for the focus navigation.
 
 ## -returns
+A [XamlSourceFocusNavigationResult](xamlsourcefocusnavigationresult.md) object that provides data for the focus navigation request.
 
 ## -remarks
+When you add a **DesktopWindowXamlSource** to your desktop application, by default the **DesktopWindowXamlSource** does not automatically handle focus navigation via keyboard events such as the Tab or arrow keys. Use this method in conjunction with the [GotFocus](desktopwindowxamlsource_navigatefocus) event to programmatically give focus when the user navigates to the **DesktopWindowXamlSource**.
 
 ## -see-also
 
 ## -examples
-
