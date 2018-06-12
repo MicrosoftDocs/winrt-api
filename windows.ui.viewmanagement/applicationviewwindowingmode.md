@@ -23,8 +23,15 @@ The window is sized as specified by the [ApplicationView.PreferredLaunchViewSize
 The window is full-screen.
 
 
+### -field CompactOverlay:3
+
+
+### -field Maximized:4
+
+
 ## -remarks
 
 ## -examples
 
 ## -see-also
+
