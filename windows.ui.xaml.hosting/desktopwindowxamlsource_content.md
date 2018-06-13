@@ -13,7 +13,7 @@ public UIElement Content { get;  set; }
 Gets or sets the [Windows.UI.Xaml.UIElement](../windows.ui.xaml/uielement.md) object that you want to host in the desktop application.
 
 ## -property-value
-The [Windows.UI.Xaml.UIElement](../windows.ui.xaml/uielement.md) object that you want to host in the desktop application.
+The object that you want to host in the desktop application.
 
 ## -remarks
 

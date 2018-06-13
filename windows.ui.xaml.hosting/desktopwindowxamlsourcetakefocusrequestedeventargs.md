@@ -10,7 +10,7 @@ public class DesktopWindowXamlSourceTakeFocusRequestedEventArgs
 # Windows.UI.Xaml.Hosting.DesktopWindowXamlSourceTakeFocusRequestedEventArgs
 
 ## -description
-Provides event data for the [FocusRequested](desktopwindowxamlsource_focusrequested.md) event. 
+Provides event data for the [TakeFocusRequested](desktopwindowxamlsource_takefocusrequested.md) event. 
 
 ## -remarks
 

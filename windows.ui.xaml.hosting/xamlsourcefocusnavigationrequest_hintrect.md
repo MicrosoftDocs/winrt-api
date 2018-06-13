@@ -10,12 +10,13 @@ public Rect HintRect { get; }
 # Windows.UI.Xaml.Hosting.XamlSourceFocusNavigationRequest.HintRect
 
 ## -description
-Gets the bounding rectangle that will receive navigation focus.
+Gets the bounding rectangle of the element in the desktop application that is losing focus (that is, the element that had focus before the **DesktopWindowXamlSource** received focus).
 
 ## -property-value
-The bounding rectangle that will receive navigation focus.
+The bounding rectangle that is losing focus.
 
 ## -remarks
+For more information about this property, see the [XamlSourceFocusNavigationRequest](xamlsourcefocusnavigationrequest_xamlsourcefocusnavigationrequest_617944682.md) constructor.  
 
 ## -see-also
 

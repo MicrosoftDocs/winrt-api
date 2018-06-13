@@ -14,7 +14,7 @@ Attempts to programmatically give focus to the **DesktopWindowXamlSource** in th
 
 ## -parameters
 ### -param request
-A [XamlSourceFocusNavigationRequest](xamlsourcefocusnavigationrequest.md) object that specifies the reason and other info for the focus navigation.
+An object that specifies the reason and other optional info for the focus navigation.
 
 ## -returns
 A [XamlSourceFocusNavigationResult](xamlsourcefocusnavigationresult.md) object that provides data for the focus navigation request.
