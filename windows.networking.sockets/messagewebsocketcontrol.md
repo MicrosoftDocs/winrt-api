@@ -27,6 +27,52 @@ Any changes to the other property values on the [MessageWebSocketControl](messag
 
 The following example creates a [MessageWebSocket](messagewebsocket.md), and then demonstrates how to set the [MessageWebSocketControl.MessageType](messagewebsocketcontrol_messagetype.md) property to **binary**. (Other properties may be set in a similar manner.) After this is done, the app can connect the [MessageWebSocket](messagewebsocket.md).
 
+```csharp
+using Windows.Networking.Sockets;
+
+MessageWebSocket clientWebSocket = new MessageWebSocket();
+
+// Get the current setting for this option.
+// This isn't required, but it shows how to get the current setting.
+SocketMessageType currentSetting = clientWebSocket.Control.MessageType;
+
+// Set messageType to Binary.
+clientWebSocket.Control.MessageType = SocketMessageType.Binary;
+
+// Now you can call the ConnectAsync method to connect the MessageWebSocket.
+```
+
+```cppwinrt
+#include <winrt/Windows.Networking.Sockets.h>
+using namespace winrt;
+...
+Windows::Networking::Sockets::MessageWebSocket clientSocket;
+
+// Get the current setting for this option.
+// This isn't required, but it shows how to get the current setting.
+auto currentSetting{ clientSocket.Control().MessageType() };
+
+// Set QualityOfService to Binary.
+clientSocket.Control().MessageType(Windows::Networking::Sockets::SocketMessageType::Binary);
+
+// Now you can call the ConnectAsync function to connect the MessageWebSocket.
+```
+
+```cpp
+using namespace Windows::Networking::Sockets;
+
+MessageWebSocket^ clientWebSocket = ref new MessageWebSocket();
+
+// Get the current setting for this option.
+// This isn't required, but it shows how to get the current setting.
+SocketMessageType currentSetting = clientWebSocket->Control->MessageType;
+
+// Set messageType to Binary.
+clientWebSocket->Control->MessageType = SocketMessageType::Binary;
+
+// Now you can call the ConnectAsync method to connect the MessageWebSocket.
+```
+
 ```javascript
 var clientWebSocket = new Windows.Networking.Sockets.MessageWebSocket();
 
@@ -37,36 +83,6 @@ var currentSetting = clientWebSocket.control.messageType;
 // Set messageType to binary 
 clientWebSocket.control.messageType = Windows.Networking.Sockets.SocketMessageType.binary;
    
-// Now you can call the ConnectAsync method to connect the MessageWebSocket.
-```
-
-```cpp
-using namespace Windows::Networking::Sockets;
-
-MessageWebSocket^ clientWebSocket = ref new MessageWebSocket();
-
-// Get the current setting for this option
-// This isn't required, but it shows how to get the current setting
-SocketMessageType currentSetting = clientWebSocket->Control->MessageType;
-
-// Set messageType to binary 
-clientWebSocket->Control->MessageType = SocketMessageType::Binary;
-
-// Now you can call the ConnectAsync method to connect the MessageWebSocket.
-```
-
-```csharp
-using Windows.Networking.Sockets;
-
-MessageWebSocket clientWebSocket = new MessageWebSocket();
-
-// Get the current setting for this option
-// This isn't required, but it shows how to get the current setting
-SocketMessageType currentSetting = clientWebSocket.Control.MessageType;
-
-// Set messageType to binary 
-clientWebSocket.Control.MessageType = SocketMessageType.Binary;
-
 // Now you can call the ConnectAsync method to connect the MessageWebSocket.
 ```
 

@@ -84,8 +84,10 @@ public static int Main(string[] args)
 }
 ```
 
+Also see [Visual Studio support for C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt#visual-studio-support-for-cwinrt-and-the-vsix).
+
 ```cppwinrt
-// main.cpp : Defines the entry point for the console application.
+// main.cpp : In Visual Studio, create a new Windows Console Application (C++/WinRT).
 #include "pch.h"
 
 #include <winrt/Windows.Foundation.h>
@@ -96,9 +98,9 @@ using namespace winrt;
 using namespace Windows::Foundation;
 using namespace Windows::Management::Deployment;
 
-int wmain(int argc, wchar_t *argv[], wchar_t *envp[])
+int wmain(int /* argc */, wchar_t *argv[], wchar_t * /* envp[] */)
 {
-    init_apartment();
+    winrt::init_apartment();
 
     int returnValue{ 0 };
 
