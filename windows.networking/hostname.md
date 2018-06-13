@@ -17,27 +17,9 @@ The [HostName](hostname.md) class is used to initialize and provide data for a h
 
 The [HostName](hostname.md) object is used by many classes in other related namespaces for network apps. These include the following:
 
-
 + Many classes in the [Windows.Networking.Sockets](../windows.networking.sockets/windows_networking_sockets.md) namespace using sockets. Methods on the [DatagramSocket](../windows.networking.sockets/datagramsocket.md) and [StreamSocket](../windows.networking.sockets/streamsocket.md) classes can be used to establish network connections and transfer data to a remote [HostName](hostname.md) object.
 + The [NetworkInformation](../windows.networking.connectivity/networkinformation.md) class in the [Windows.Networking.Connectivity](../windows.networking.connectivity/windows_networking_connectivity.md) namespace.
 The following example creates a [HostName](hostname.md) and then tries to connect to the [HostName](hostname.md) using a [StreamSocket](../windows.networking.sockets/streamsocket.md).
-
-
-
-
-
-```javascript
-
-using Windows.Networking;
-using Windows.Networking.Sockets;
-
-var serverHost = new HostName("www.contoso.com");
-var clientSocket = new Windows.Networking.Sockets.StreamSocket();
-
-// Try to connect to the remote host
-await clientSocket.ConnectAsync(serverHost, "http");
-
-```
 
 ```csharp
 using Windows.Networking;
@@ -48,12 +30,24 @@ StreamSocket clientSocket = new Windows.Networking.Sockets.StreamSocket();
 
 // Try to connect to the remote host
 await clientSocket.ConnectAsync(serverHost, "http");
+```
 
+```cppwinrt
+#include <winrt/Windows.Networking.Sockets.h>
+using namespace winrt;
 
+int main()
+{
+    winrt::init_apartment();
+
+    Windows::Networking::HostName hostName{ L"www.contoso.com" };
+    Windows::Networking::Sockets::StreamSocket streamSocket;
+    // Try to connect.
+    streamSocket.ConnectAsync(hostName, L"http").get();
+}
 ```
 
 ```cpp
-
 using namespace Windows::Networking;
 using namespace Windows::Networking::Sockets;
 
@@ -62,10 +56,18 @@ StreamSocket^ clientSocket = ref new StreamSocket();
 
 // Try to connect to the remote host
 clientSocket->ConnectAsync(serverHost, "http");
-
 ```
 
+```javascript
+using Windows.Networking;
+using Windows.Networking.Sockets;
 
+var serverHost = new HostName("www.contoso.com");
+var clientSocket = new Windows.Networking.Sockets.StreamSocket();
+
+// Try to connect to the remote host
+await clientSocket.ConnectAsync(serverHost, "http");
+```
 
 ## -examples
 
