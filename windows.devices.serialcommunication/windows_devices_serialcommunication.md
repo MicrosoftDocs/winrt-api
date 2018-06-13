@@ -60,5 +60,4 @@ Here is an example for defining serial device capabilities. It allows the app to
 ## -examples
 
 ## -see-also
-
-[Serial Device Access sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/CustomSerialDeviceAccess), [Custom serial device sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/CustomSerialDeviceAccess), [Serial arduino sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SerialArduino)
+[Custom serial device sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/CustomSerialDeviceAccess), [Serial arduino sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SerialArduino)
