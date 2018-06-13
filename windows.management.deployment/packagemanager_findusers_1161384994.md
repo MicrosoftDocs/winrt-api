@@ -26,7 +26,6 @@ This method requires administrative privileges.
 Call the [PackageManager.FindUsers](packagemanager_findusers.md) method to enumerate the users who have installed a package. This example displays the information in the [PackageUserInformation.UserSecurityId](packageuserinformation_usersecurityid.md) property.
 
 ```csharp
-
 using System.Security.Principal;
 using Windows.Deployment.PackageManager;
 
@@ -59,6 +58,91 @@ private static string SidToAccountName(string sidString)
     {
         return sidString;
     }
+}
+```
+
+Also see [Visual Studio support for C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt#visual-studio-support-for-cwinrt-and-the-vsix).
+
+```cppwinrt
+// main.cpp : In Visual Studio, create a new Windows Console Application (C++/WinRT), and run it (or run Visual Studio) as administrator.
+#include "pch.h"
+
+#include <winrt/Windows.ApplicationModel.h>
+#include <winrt/Windows.Management.Deployment.h>
+#include <winrt/Windows.Storage.h>
+#include <iostream>
+#include <Sddl.h>
+
+using namespace winrt;
+using namespace Windows::ApplicationModel;
+using namespace Windows::Management::Deployment;
+using namespace Windows::Storage;
+
+std::wstring SidToAccountName(std::wstring const& sidString)
+{
+    PSID sid{ nullptr };
+
+    std::wstring accountName{ sidString };
+
+    if (::ConvertStringSidToSid(sidString.c_str(), &sid))
+    {
+        DWORD nameCharCount{ 0 };
+        DWORD domainNameCharCount{ 0 };
+        SID_NAME_USE sidType;
+
+        // determine how much space is required to store the name and domainName.
+        ::LookupAccountSid(nullptr, sid, nullptr, &nameCharCount, nullptr, &domainNameCharCount, &sidType);
+
+        std::wstring name; name.resize(nameCharCount + 1);
+        std::wstring domainName; domainName.resize(domainNameCharCount + 1);
+
+        try
+        {
+            if (::LookupAccountSid(nullptr, sid, name.data(), &nameCharCount, domainName.data(), &domainNameCharCount, &sidType))
+            {
+                accountName = domainName + L"\\" + name;
+            }
+        }
+        catch (...)
+        {
+            // do nothing, original SID will be used.
+        }
+    }
+
+    if (sid != nullptr)
+        ::LocalFree(sid);
+
+    return accountName;
+}
+
+void DisplayPackageUsers(PackageManager const& packageManager, Windows::ApplicationModel::Package const& package)
+{
+    std::wcout << L"Users: ";
+
+    for (auto const& packageUser : packageManager.FindUsers(package.Id().FullName()))
+    {
+        std::wstring stringSid = SidToAccountName(packageUser.UserSecurityId().c_str());
+
+        std::wcout << stringSid << L" ";
+    }
+    std::wcout << std::endl;
+}
+
+int wmain()
+{
+    winrt::init_apartment();
+
+    PackageManager packageManager;
+
+    int count{ 10 };
+    for (auto const& package : packageManager.FindPackages())
+    {
+        DisplayPackageUsers(packageManager, package);
+        count--;
+        if (count == 0) break;
+    }
+
+    return 0;
 }
 ```
 
@@ -129,8 +213,6 @@ void SidToAccountName(wstring sidString, wstring& stringSid)
         LocalFree(sid);
 }
 ```
-
-
 
 ## -see-also
 [Enumerate app packages sample](http://code.msdn.microsoft.com/windowsdesktop/Package-Manager-Inventory-ee821079), [Enumerate app packages by name and publisher sample](http://code.msdn.microsoft.com/windowsdesktop/Package-Manager-Inventory-fe747b8a)

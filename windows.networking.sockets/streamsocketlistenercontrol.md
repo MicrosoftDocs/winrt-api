@@ -21,55 +21,63 @@ Any changes to the [StreamSocketListenerControl](streamsocketlistenercontrol.md)
 
 The following example creates a [StreamSocketListener](streamsocketlistener.md), and then demonstrates how to set the [QualityOfService](datagramsocketcontrol_qualityofservice.md) property to **LowLatency**. After this is done, the app can bind and listen on the [StreamSocketListener](streamsocketlistener.md).
 
-
-
-
-
-```javascript
-var listenerSocket = new Windows.Networking.Sockets.StreamSocketListener();
-
-// Get the current setting for this option
-// This isn't required, but it shows how to get the current setting
-var currentSetting = listenerSocket.Control.QualityOfService; 
-
-// Set QualityOfService to lowLatency
-listenerSocket.Control.QualityOfService = SocketQualityOfService.lowLatency;
-   
-// Now you can call the BindServiceNameAsync or BindEndpointAsync method to listen for connections.
-
-```
-
 ```csharp
 using Windows.Networking.Sockets;
 
 StreamSocketListener listenerSocket = new StreamSocketListener();
 
-// Get the current setting for this option
-// This isn't required, but it shows how to get the current setting
-bool currentSetting = listenerSocket.Control.QualityOfService;
+// Get the current setting for this option.
+// This isn't required, but it shows how to get the current setting.
+var currentSetting = listenerSocket.Control.QualityOfService;
 
-// Set QualityOfService to lowLatency
-listenerSocket.Control.QualityOfService = SocketQualityOfService.lowLatency;
+// Set QualityOfService to LowLatency.
+listenerSocket.Control.QualityOfService = SocketQualityOfService.LowLatency;
 
 // Now you can call the BindServiceNameAsync or BindEndpointAsync method to listen for connections.
+```
 
+```cppwinrt
+#include <winrt/Windows.Networking.Sockets.h>
+using namespace winrt;
+...
+Windows::Networking::Sockets::StreamSocketListener listenerSocket;
+
+// Get the current setting for this option.
+// This isn't required, but it shows how to get the current setting.
+auto currentSetting{ listenerSocket.Control().QualityOfService() };
+
+// Set QualityOfService to LowLatency.
+listenerSocket.Control().QualityOfService(Windows::Networking::Sockets::SocketQualityOfService::LowLatency);
+
+// Now you can call the BindServiceNameAsync or BindEndpointAsync method to listen for connections.
 ```
 
 ```cpp
-
 using namespace Windows::Networking::Sockets;
 
 StreamSocketListener^ listenerSocket = ref new StreamSocketListener();
 
-// Get the current setting for this option
-// This isn't required, but it shows how to get the current setting 
-bool currentSetting = listenerSocket->Control->QualityOfService;
+// Get the current setting for this option.
+// This isn't required, but it shows how to get the current setting.
+auto currentSetting = listenerSocket->Control->QualityOfService;
 
-// Set QualityOfService to lowLatency
-listenerSocket->Control->QualityOfService = SocketQualityOfService.lowLatency;
+// Set QualityOfService to LowLatency.
+listenerSocket->Control->QualityOfService = SocketQualityOfService::LowLatency;
 
 // Now you can call the BindServiceNameAsync or BindEndpointAsync method to listen for connections.
+```
 
+```javascript
+var listenerSocket = new Windows.Networking.Sockets.StreamSocketListener();
+
+// Get the current setting for this option.
+// This isn't required, but it shows how to get the current setting.
+var currentSetting = listenerSocket.Control.QualityOfService; 
+
+// Set QualityOfService to lowLatency.
+listenerSocket.Control.QualityOfService = SocketQualityOfService.lowLatency;
+   
+// Now you can call the BindServiceNameAsync or BindEndpointAsync method to listen for connections.
 ```
 
 For more information on using [StreamSocketListenerControl](streamsocketlistenercontrol.md), see [How to use advanced socket controls ](http://msdn.microsoft.com/library/2e1071d8-a1c7-44c0-b93a-31a701d431c4) and [How to use advanced socket controls ](http://msdn.microsoft.com/library/f2c5be73-3461-452e-a38f-d2ddef9b5682).

@@ -25,6 +25,52 @@ Any changes to the other property values on the [DatagramSocketControl](datagram
 
 The following example creates a [DatagramSocket](datagramsocket.md), and then demonstrates how to set the [QualityOfService](datagramsocketcontrol_qualityofservice.md) property to **LowLatency**. Other properties may be set in a similar manner. After this is done, the app can connect the [DatagramSocket](datagramsocket.md) or send data on the socket.
 
+```csharp
+using Windows.Networking.Sockets;
+
+DatagramSocket clientSocket = new DatagramSocket();
+
+// Get the current setting for this option.
+// This isn't required, but it shows how to get the current setting.
+var currentSetting = clientSocket.Control.QualityOfService;
+
+// Set QualityOfService to LowLatency.
+clientSocket.Control.QualityOfService = SocketQualityOfService.LowLatency;
+
+// Now you can call the ConnectAsync method to connect the DatagramSocket.
+```
+
+```cppwinrt
+#include <winrt/Windows.Networking.Sockets.h>
+using namespace winrt;
+...
+Windows::Networking::Sockets::DatagramSocket clientSocket;
+
+// Get the current setting for this option.
+// This isn't required, but it shows how to get the current setting.
+auto currentSetting{ clientSocket.Control().QualityOfService() };
+
+// Set QualityOfService to LowLatency.
+clientSocket.Control().QualityOfService(Windows::Networking::Sockets::SocketQualityOfService::LowLatency);
+
+// Now you can call the ConnectAsync function to connect the DatagramSocket.
+```
+
+```cpp
+using namespace Windows::Networking::Sockets;
+
+DatagramSocket^ clientSocket = ref new DatagramSocket();
+
+// Get the current setting for this option.
+// This isn't required, but it shows how to get the current setting.
+auto currentSetting = clientSocket->Control->QualityOfService;
+
+// Set QualityOfService to LowLatency.
+clientSocket->Control->QualityOfService = SocketQualityOfService::LowLatency;
+
+// Now you can call the ConnectAsync method to connect the DatagramSocket.
+```
+
 ```javascript
 var clientSocket = new Windows.Networking.Sockets.DatagramSocket();
 
@@ -36,40 +82,6 @@ var currentSetting = clientSocket.Control.QualityOfService;
 clientSocket.control.QualityOfService = SocketQualityOfService.lowLatency;
    
 // Now you can call the ConnectAsync method to connect the DatagramSocket.
-
-```
-
-```csharp
-using Windows.Networking.Sockets;
-
-DatagramSocket clientSocket = new DatagramSocket();
-
-// Get the current setting for this option
-// This isn't required, but it shows how to get the current setting
-bool currentSetting = clientSocket.Control.QualityOfService;
-
-// Set QualityOfService to lowLatency
-clientSocket.control.QualityOfService = SocketQualityOfService.lowLatency;
-
-// Now you can call the ConnectAsync method to connect the DatagramSocket.
-
-```
-
-```cpp
-
-using namespace Windows::Networking::Sockets;
-
-DatagramSocket^ clientSocket = ref new DatagramSocket();
-
-// Get the current setting for this option
-// This isn't required, but it shows how to get the current setting 
-bool currentSetting = clientSocket->Control->QualityOfService;
-
-// Set QualityOfService to lowLatency
-clientSocket->Control->QualityOfService = SocketQualityOfService.lowLatency;
-
-// Now you can call the ConnectAsync method to connect the DatagramSocket.
-
 ```
 
 For more information on using [DatagramSocketControl](datagramsocketcontrol.md), see [How to use advanced socket controls ](http://msdn.microsoft.com/library/2e1071d8-a1c7-44c0-b93a-31a701d431c4) and [How to use advanced socket controls ](http://msdn.microsoft.com/library/f2c5be73-3461-452e-a38f-d2ddef9b5682).

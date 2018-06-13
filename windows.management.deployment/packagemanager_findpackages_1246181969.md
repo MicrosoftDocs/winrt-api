@@ -64,6 +64,60 @@ private static void DisplayPackageInfo(Windows.ApplicationModel.Package package)
 }
 ```
 
+Also see [Visual Studio support for C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt#visual-studio-support-for-cwinrt-and-the-vsix).
+
+```cppwinrt
+// main.cpp : In Visual Studio, create a new Windows Console Application (C++/WinRT), and run it (or run Visual Studio) as administrator.
+#include "pch.h"
+
+#include <winrt/Windows.ApplicationModel.h>
+#include <winrt/Windows.Management.Deployment.h>
+#include <winrt/Windows.Storage.h>
+#include <iostream>
+
+using namespace winrt;
+using namespace Windows::ApplicationModel;
+using namespace Windows::Management::Deployment;
+using namespace Windows::Storage;
+
+void DisplayPackageInfo(Windows::ApplicationModel::Package const& package)
+{
+    try
+    {
+        std::wcout << L"Name: " << package.Id().Name().c_str() << std::endl;
+        std::wcout << L"FullName: " << package.Id().FullName().c_str() << std::endl;
+        std::wcout << L"Version: " << package.Id().Version().Major << "." << package.Id().Version().Minor << "." << package.Id().Version().Build << "." << package.Id().Version().Revision << std::endl;
+        std::wcout << L"Publisher: " << package.Id().Publisher().c_str() << std::endl;
+        std::wcout << L"PublisherId: " << package.Id().PublisherId().c_str() << std::endl;
+        std::wcout << L"Installed Location: " << package.InstalledLocation().Path().c_str() << std::endl;
+        std::wcout << L"IsFramework: " << (package.IsFramework() ? L"True" : L"False") << std::endl;
+    }
+    catch (winrt::hresult_error const& ex)
+    {
+        std::wcout << ex.message().c_str() << std::endl;
+    }
+}
+
+int wmain()
+{
+    winrt::init_apartment();
+
+    bool noPackagesFound{ true };
+    for (auto const& package : PackageManager{}.FindPackages())
+    {
+        DisplayPackageInfo(package);
+        noPackagesFound = false;
+    }
+
+    if (noPackagesFound)
+    {
+        std::wcout << L"No packages were found." << std::endl;
+    }
+
+    return 0;
+}
+```
+
 ```cpp
 using namespace Windows::Management::Deployment;
 
