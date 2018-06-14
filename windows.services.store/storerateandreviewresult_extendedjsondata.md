@@ -13,10 +13,9 @@ public string ExtendedJsonData { get; }
 Gets the complete result data for a rate and review request in JSON format. This includes information to determine if a user aborted the dialog and error details if the call was not successful.
 
 ## -property-value
-A JSON-formatted string that contains result from a rate and review request.
+A JSON-formatted string that contains the result from a rate and review request.
 
 ## -remarks
-
 Use the **ExtendedJsonData** property to access the complete data for the [StoreRateAndReviewResult](storerateandreviewresult.md) object as a JSON-formatted string in your code.
 
 JSON Schema:
