@@ -23,4 +23,6 @@ Occurs when the back button receives an interaction such as a click or tap.
 
 ## -see-also
 
+[NavigationViewBackRequestedEventArgs](navigationviewbackrequestedeventargs.md)
+
 ## -examples

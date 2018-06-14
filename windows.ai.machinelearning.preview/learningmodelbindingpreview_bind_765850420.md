@@ -20,6 +20,7 @@ The name of the input/output feature.
 The value of the input/output feature.
 
 ## -remarks
+**Note**: Currently, outputs of type `double` are not supported. If possible, consider using type `float` instead.
 
 ## -see-also
 
