@@ -20,6 +20,9 @@ You only need to call this method if you create [Windows.UI.Xaml.UIElement](../w
 
 If you create a **DesktopWindowXamlSource** object before you create the [Windows.UI.Xaml.UIElement](../windows.ui.xaml/uielement.md) objects that will be hosted in it, you don’t need to call this method. In this scenario, the UWP XAML framework makes sure all the objects are initialized to the same thread.
 
+## -see-also
+
+## -examples
 It is safe to create as many [WindowsXamlManager](windowsxamlmanager.md) objects as you want on a given thread. However, each object holds a reference to the UWP XAML framework, and therefore it is critical to **Close** (**Dispose** in .NET) them to ensure that XAML resources are eventually released. The following example demonstrates the common usage pattern in a C# WPF application.
 
 ```csharp
@@ -38,7 +41,3 @@ void UIThreadProc()
     // The WindowsXamlManager will be disposed here.
 }
 ```
-
-## -see-also
-
-## -examples
