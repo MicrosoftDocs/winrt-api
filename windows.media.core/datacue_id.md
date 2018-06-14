@@ -10,10 +10,10 @@ public string Id { get;  set; }
 # Windows.Media.Core.DataCue.Id
 
 ## -description
-Gets the identifier for the timed metadata track.
+Gets the identifier for the data cue.
 
 ## -property-value
-The identifier for the timed metadata track.
+The identifier for the data cue.
 
 ## -remarks
 
