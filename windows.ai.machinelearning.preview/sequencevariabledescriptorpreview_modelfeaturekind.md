@@ -19,6 +19,9 @@ The data type of the variable.
 
 ## -see-also
 
+> [!NOTE]
+> Windows.AI.MachineLearning.Preview is a preview API and may be substantially modified before it’s officially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+
 ## -examples
  ```csharp
 public void Evaluator(LearningModelPreview model)

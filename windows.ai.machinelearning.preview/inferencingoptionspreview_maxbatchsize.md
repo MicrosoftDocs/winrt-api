@@ -17,6 +17,9 @@ The maximum batch size. Preview API only supports batching size of 1.
 
 ## -remarks
 
+> [!NOTE]
+> Windows.AI.MachineLearning.Preview is a preview API and may be substantially modified before it’s officially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+
 ## -see-also
 
 ## -examples
