@@ -37,12 +37,12 @@ using namespace Windows::Foundation;
 
 IAsyncAction EnumerateDisplayMonitorsAsync()
 {
-    auto const dis = co_await DeviceInformation::FindAllAsync(DisplayMonitor::GetDeviceSelector());
+    auto const dis{ co_await DeviceInformation::FindAllAsync(DisplayMonitor::GetDeviceSelector()) };
 
     for (auto const& deviceInformation : dis)
     {
         WINRT_ASSERT(deviceInformation.Kind() == DeviceInformationKind::DeviceInterface);
-        DisplayMonitor displayMonitor = co_await DisplayMonitor::FromInterfaceIdAsync(deviceInformation.Id());
+        DisplayMonitor displayMonitor{ co_await DisplayMonitor::FromInterfaceIdAsync(deviceInformation.Id()) };
     }
 }
 ```

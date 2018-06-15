@@ -81,7 +81,7 @@ Windows::Foundation::IAsyncAction HttpClientExample()
 	// Always catch network exceptions for async methods
 	try
 	{
-		auto response = co_await httpClient.GetStringAsync(uri);
+		auto response{ co_await httpClient.GetStringAsync(uri) };
 	}
 	catch (winrt::hresult_error const& ex)
 	{

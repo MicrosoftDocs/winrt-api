@@ -114,7 +114,7 @@ StorageFolder m_localFolder{ Windows::Storage::ApplicationData::Current().LocalF
 // Write data to a file.
 IAsyncAction MainPage::WriteTimestampAsync()
 {
-    StorageFile sampleFile = co_await m_localFolder.CreateFileAsync(L"dataFile.txt", CreationCollisionOption::ReplaceExisting);
+    StorageFile sampleFile{ co_await m_localFolder.CreateFileAsync(L"dataFile.txt", CreationCollisionOption::ReplaceExisting) };
     Windows::Globalization::Calendar calendar;
     auto now = calendar.GetDateTime();
     Windows::Globalization::DateTimeFormatting::DateTimeFormatter formatter{ L"longtime" };
@@ -132,11 +132,11 @@ IAsyncAction MainPage::WriteTimestampAsync()
 // Read data from a file.
 IAsyncAction MainPage::ReadTimestampAsync()
 {
-    StorageFile file = co_await m_localFolder.GetFileAsync(L"dataFile.txt");
+    StorageFile file{ co_await m_localFolder.GetFileAsync(L"dataFile.txt") };
 
     try
     {
-        winrt::hstring timestamp = co_await Windows::Storage::FileIO::ReadTextAsync(file);
+        winrt::hstring timestamp{ co_await Windows::Storage::FileIO::ReadTextAsync(file) };
     }
     catch (winrt::hresult_error const& /* ex */)
     {

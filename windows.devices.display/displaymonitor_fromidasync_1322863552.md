@@ -36,12 +36,12 @@ using namespace Windows::Foundation;
 IAsyncAction EnumerateDisplayMonitorsUsingAdditionalPropertiesAsync()
 {
     winrt::hstring propertyName = L"System.Devices.DeviceInstanceId";
-    auto const dis = co_await DeviceInformation::FindAllAsync(DisplayMonitor::GetDeviceSelector(), { propertyName });
+    auto const dis{ co_await DeviceInformation::FindAllAsync(DisplayMonitor::GetDeviceSelector(), { propertyName }) };
 
     for (auto const& deviceInformation : dis)
     {
         WINRT_ASSERT(deviceInformation.Kind() == DeviceInformationKind::DeviceInterface);
-        DisplayMonitor displayMonitor = co_await DisplayMonitor::FromIdAsync(winrt::unbox_value<winrt::hstring>(deviceInformation.Properties().Lookup(propertyName)));
+        DisplayMonitor displayMonitor{ co_await DisplayMonitor::FromIdAsync(winrt::unbox_value<winrt::hstring>(deviceInformation.Properties().Lookup(propertyName))) };
     }
 }
 ```

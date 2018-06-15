@@ -27,6 +27,68 @@ Call the [ApplicationDataContainerSettings.Remove | remove](applicationdataconta
 
 Note that to access the [RoamingSettings](applicationdata_roamingsettings.md), use the same process outlined in the example, except change the occurrences of `localSettings` to `roamingSettings`
 
+```csharp
+var localSettings = Windows.Storage.ApplicationData.Current.LocalSettings;
+
+// Create a simple setting.
+localSettings.Values["exampleSetting"] = "Hello Windows";
+
+// Read data from a simple setting.
+Object value = localSettings.Values["exampleSetting"];
+
+if (value == null)
+{
+    // No data.
+}
+else
+{
+    // Access data in value.
+}
+
+// Delete a simple setting.
+localSettings.Values.Remove("exampleSetting");
+```
+
+```cppwinrt
+Windows::Storage::ApplicationDataContainer localSettings{
+    Windows::Storage::ApplicationData::Current().LocalSettings() };
+
+// Create a simple setting.
+auto values{ localSettings.Values() };
+values.Insert(L"exampleSetting", Windows::Foundation::PropertyValue::CreateString(L"Hello Windows"));
+
+// Read data from a simple setting.
+winrt::hstring value{ winrt::unbox_value<winrt::hstring>(values.Lookup(L"exampleSetting")) };
+
+// Access data in value.
+
+// Delete a simple setting.
+values.Remove(L"exampleSetting");
+```
+
+```cpp
+ApplicationDataContainer^ localSettings = ApplicationData::Current->LocalSettings;
+
+// Create a simple setting.
+auto values = localSettings->Values;
+values->Insert("exampleSetting", dynamic_cast<PropertyValue^>(PropertyValue::CreateString("Hello Windows")));
+
+// Read data from a simple setting.
+String^ value = safe_cast<String^>(values->Lookup("exampleSetting"));
+
+if (!value)
+{
+    // No data.
+}
+else
+{
+    // Access data in value.
+}
+
+// Delete a simple setting.
+values->Remove("exampleSetting");
+```
+
 ```javascript
 var applicationData = Windows.Storage.ApplicationData.current;
 
@@ -54,31 +116,6 @@ else
 localSettings.values.remove("exampleSetting");
 ```
 
-```csharp
-var localSettings = Windows.Storage.ApplicationData.Current.LocalSettings;
-
-// Create a simple setting
-
-localSettings.Values["exampleSetting"] = "Hello Windows";
-
-// Read data from a simple setting
-
-Object value = localSettings.Values["exampleSetting"];
-
-if (value == null)
-{
-    // No data
-}
-else
-{
-    // Access data in value
-}
-
-// Delete a simple setting
-
-localSettings.Values.Remove("exampleSetting");
-```
-
 ```vb
 Dim localSettings As Windows.Storage.ApplicationDataContainer = Windows.Storage.ApplicationData.Current.LocalSettings
 
@@ -99,33 +136,6 @@ End If
 ' Delete a simple setting
 
 localSettings.Values.Remove("exampleSetting")
-```
-
-```cpp
-ApplicationDataContainer^ localSettings = ApplicationData::Current->LocalSettings;
-
-// Create a simple setting
-
-auto values = localSettings->Values;
-values->Insert("exampleSetting", dynamic_cast<PropertyValue^>(PropertyValue::CreateString("Hello Windows")));
-
-// Read data from a simple setting
-
-auto values = localSettings->Values;
-String^ value = safe_cast<String^>(localSettings->Values->Lookup("exampleSetting"));
-
-if (!value)
-{
-    // No data
-}
-else
-{
-    // Access data in value
-}
-
-// Delete a simple setting
-
-values->Remove("exampleSetting");
 ```
 
 ## -see-also
