@@ -60,6 +60,47 @@ foreach (StorageFolder folder in await groupedItems.GetFoldersAsync())
 }
 ```
 
+```cppwinrt
+IAsyncAction MainPage::ExampleCoroutineAsync()
+{
+    // Get the users's Pictures folder.
+    // Enable the Pictures Library capability in the app manifest file.
+    Windows::Storage::StorageFolder picturesFolder{ Windows::Storage::KnownFolders::PicturesLibrary() };
+
+    // Get the files in the user's Pictures folder, and group them by month.
+    Windows::Storage::Search::StorageFolderQueryResult results{ picturesFolder.CreateFolderQuery(Windows::Storage::Search::CommonFolderQuery::GroupByMonth) };
+
+    Windows::Foundation::Collections::IVectorView<Windows::Storage::StorageFolder> itemsInFolder{
+        co_await results.GetFoldersAsync() };
+
+    // Iterate over the results, and print the list of file groups to the Visual Studio output window.
+    for (StorageFolder const& itemInFolder : itemsInFolder)
+    {
+        std::wstring output{ itemInFolder.Name() };
+        ::OutputDebugString(output.c_str());
+    }
+}
+```
+
+```cpp
+ // Get user's pictures folder
+ StorageFolder^ picturesFolder = KnownFolders::PicturesLibrary;
+
+ // Get the files in the user's Pictures folder and group them by month
+ StorageFolderQueryResult^ itemsInFolder = picturesFolder->CreateFolderQuery(CommonFolderQuery::GroupByMonth);
+
+ create_task(itemsInFolder->GetFoldersAsync()).then([=](IVectorView<StorageFolder^>^ itemsInFolder) {
+  //Iterate over the results and print the list of file groups
+  // to the visual studio output window
+  for (auto it = itemsInFolder->First(); it->HasCurrent; it->MoveNext())
+  {
+   StorageFolder^ file = it->Current;
+   String^ output = file->Name + "\n";
+   OutputDebugString(output->Begin());
+  }
+ });
+```
+
 ```javascript
 // Get the user's Pictures folder.
 // Enable the corresponding capability in the app manifest file.
@@ -89,27 +130,6 @@ subfoldersPromise.done(function getFoldersSuccess(subfolders) {
     });
 });
 ```
-
-```cpp
- // Get user's pictures folder
- StorageFolder^ picturesFolder = KnownFolders::PicturesLibrary;
-
- // Get the files in the user's Pictures folder and group them by month
- StorageFolderQueryResult^ itemsInFolder = picturesFolder->CreateFolderQuery(CommonFolderQuery::GroupByMonth);
-
- create_task(itemsInFolder->GetFoldersAsync()).then([=](IVectorView<StorageFolder^>^ itemsInFolder) {
-  //Iterate over the results and print the list of file groups
-  // to the visual studio output window
-  for (auto it = itemsInFolder->First(); it->HasCurrent; it->MoveNext())
-  {
-   StorageFolder^ file = it->Current;
-   String^ output = file->Name + "\n";
-   OutputDebugString(output->Begin());
-  }
- });
-```
-
-
 
 ## -see-also
 [CreateFolderQuery(CommonFolderQuery)](storagefolder_createfolderquery_330767063.md)

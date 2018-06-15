@@ -59,6 +59,42 @@ string level2FolderName = @"Subfolder1\Subfolder2";
 StorageFolder level2Folder = await localFolder.GetFolderAsync(level2FolderName);
 ```
 
+```cppwinrt
+IAsyncAction MainPage::ExampleCoroutineAsync()
+{
+    // Get the app's local folder.
+    Windows::Storage::StorageFolder localFolder{ Windows::Storage::ApplicationData::Current().LocalFolder() };
+
+    // Create two levels of subfolders in the app's local folder.
+    std::wstring name1{ L"Subfolder1" };
+    std::wstring name2{ L"Subfolder2" };
+    std::wstring level2FolderName{ L"Subfolder1\\Subfolder2" };
+
+    Windows::Storage::StorageFolder subFolder1{ co_await localFolder.CreateFolderAsync(name1) };
+    Windows::Storage::StorageFolder subFolder2{ co_await subFolder1.CreateFolderAsync(name2) };
+    // Get the subfolder of the subfolder by providing a relative path.
+    Windows::Storage::StorageFolder level2FolderFromRelativePath{ co_await localFolder.GetFolderAsync(level2FolderName) };
+}
+```
+
+```cpp
+// Get the app's local folder
+StorageFolder^ localFolder = ApplicationData::Current->LocalFolder;
+
+// Create 2 levels of subfolders in the app's local folder.
+String^ name1 = "Subfolder1";
+String^ name2 = "Subfolder2";
+String^ level2FolderName = "Subfolder1\\Subfolder2";
+
+create_task(localFolder->CreateFolderAsync(name1)).then([=](StorageFolder^ subFolder1) -> task <StorageFolder^> {
+ return create_task(subFolder1->CreateFolderAsync(name2));
+}).then([=](StorageFolder^ subFolder2) -> task<StorageFolder^> {
+ // Get the subfolder of the subfolder
+ // by providing a relative path.
+ return create_task(localFolder->GetFolderAsync(level2FolderName));
+});
+```
+
 ```javascript
 // Get the app's local folder.
 var localFolder = Windows.Storage.ApplicationData.current.localFolder;
@@ -86,26 +122,6 @@ var level2FolderPromise = subFolder2Promise.then(function createFolder2Success(s
 level2FolderPromise.done(function getFolderSuccess(level2Folder) {
 });
 ```
-
-```cpp
-// Get the app's local folder
-StorageFolder^ localFolder = ApplicationData::Current->LocalFolder;
-
-// Create 2 levels of subfolders in the app's local folder.
-String^ name1 = "Subfolder1";
-String^ name2 = "Subfolder2";
-String^ level2FolderName = "Subfolder1\\Subfolder2";
-
-create_task(localFolder->CreateFolderAsync(name1)).then([=](StorageFolder^ subFolder1) -> task <StorageFolder^> {
- return create_task(subFolder1->CreateFolderAsync(name2));
-}).then([=](StorageFolder^ subFolder2) -> task<StorageFolder^> {
- // Get the subfolder of the subfolder
- // by providing a relative path.
- return create_task(localFolder->GetFolderAsync(level2FolderName));
-});
-```
-
-
 
 ## -see-also
 [GetItemAsync](storagefolder_getitemasync.md)

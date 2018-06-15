@@ -43,8 +43,6 @@ To get deep query results from a folder that's not a library folder, call the [C
 
 To get only files, call the [GetFilesAsync](storagefolder_getfilesasync.md) method. To get only folders, call the [GetFoldersAsync](storagefolder_getfoldersasync.md) method.
 
-
-
 ## -examples
 The following example shows how to get the files and subfolders in the current folder by calling the [GetItemsAsync()](storagefolder_getitemsasync.md) method.
 
@@ -70,25 +68,34 @@ foreach (IStorageItem item in itemsInFolder)
 }
 ```
 
-```javascript
-// Get the app's installation folder.
-var appFolder = Windows.ApplicationModel.Package.current.installedLocation;
+```cppwinrt
+IAsyncAction MainPage::ExampleCoroutineAsync()
+{
+    // Get the app's installation folder.
+    Windows::Storage::StorageFolder appFolder{ Windows::ApplicationModel::Package::Current().InstalledLocation() };
 
-// Get the files and folders in the current folder.
-var itemsInFolderPromise = appFolder.getItemsAsync();
+    // Get the items in the current folder.
+    Windows::Foundation::Collections::IVectorView<Windows::Storage::IStorageItem> itemsInFolder{
+        co_await appFolder.GetItemsAsync() };
 
-// Iterate over the results and print the list of items
-// to the Visual Studio Output window.
-itemsInFolderPromise.done(function getItemsSuccess(itemsInFolder) {
-    itemsInFolder.forEach(function forEachItem(item) {
-        var StorageItemTypes = Windows.Storage.StorageItemTypes;
-        if (item.isOfType(StorageItemTypes.folder)) {
-            console.log("Folder:", item.name);
-        } else {
-            console.log("File:", item.name, item.dateCreated);
+    // Iterate over the results, and print the list of items to the Visual Studio output window.
+    for (IStorageItem const& itemInFolder : itemsInFolder)
+    {
+        std::wstringstream stringstream;
+
+        if (itemInFolder.IsOfType(Windows::Storage::StorageItemTypes::File))
+        {
+            stringstream << L"File: ";
         }
-    })
-});
+        else
+        {
+            stringstream << L"Folder: ";
+        }
+
+        stringstream << itemInFolder.Name().c_str() << std::endl;
+        ::OutputDebugString(stringstream.str().c_str());
+    }
+}
 ```
 
 ```cpp
@@ -117,7 +124,26 @@ create_task(appFolder->GetItemsAsync()).then([=](IVectorView<IStorageItem^>^ ite
 });
 ```
 
+```javascript
+// Get the app's installation folder.
+var appFolder = Windows.ApplicationModel.Package.current.installedLocation;
 
+// Get the files and folders in the current folder.
+var itemsInFolderPromise = appFolder.getItemsAsync();
+
+// Iterate over the results and print the list of items
+// to the Visual Studio Output window.
+itemsInFolderPromise.done(function getItemsSuccess(itemsInFolder) {
+    itemsInFolder.forEach(function forEachItem(item) {
+        var StorageItemTypes = Windows.Storage.StorageItemTypes;
+        if (item.isOfType(StorageItemTypes.folder)) {
+            console.log("Folder:", item.name);
+        } else {
+            console.log("File:", item.name, item.dateCreated);
+        }
+    })
+});
+```
 
 ## -see-also
 [GetItemsAsync(UInt32, UInt32)](storagefolder_getitemsasync_561011846.md), [GetFilesAsync](storagefolder_getfilesasync.md), [GetFoldersAsync](storagefolder_getfoldersasync.md)

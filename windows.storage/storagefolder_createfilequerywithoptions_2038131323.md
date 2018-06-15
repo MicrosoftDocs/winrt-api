@@ -27,7 +27,6 @@ You specified a value other than **DefaultQuery** from the [CommonFileQuery](../
 ## -remarks
 In the following cases, this query is a shallow query that returns only files in the current folder.
 
-
 + Default behavior of this method if none of the following options are specified.
 
 - or -
@@ -36,7 +35,6 @@ In the following cases, this query is a shallow query that returns only files in
 - or -
 + Specify **Shallow** as the value of the [FolderDepth](../windows.storage.search/queryoptions_folderdepth.md) property of the [QueryOptions](../windows.storage.search/queryoptions.md) object.
 In the following cases, this query is a deep query that returns files from the current folder and from its subfolders.
-
 
 + For a library folder, specify a value other than **DefaultQuery** as the value of [CommonFileQuery](../windows.storage.search/commonfilequery.md) when you instantiate the [QueryOptions](../windows.storage.search/queryoptions.md) object.
 
@@ -57,8 +55,6 @@ To get items that are files or folders, call the [CreateItemQueryWithOptions](st
 
 > **For Windows Server 2012**
 > You must install indexer components to use some [QueryOptions](../windows.storage.search/queryoptions.md) because indexer components are not installed by default.
-
-
 
 ## -examples
 The following example shows how to get the JPG files in the user's Pictures folder and its subfolders, sorted by date, by calling the [CreateFileQueryWithOptions(QueryOptions)](storagefolder_createfilequerywithoptions.md) method. This query is a deep query because the folder is a library folder and a value other than **DefaultQuery** from the [CommonFileQuery](../windows.storage.search/commonfilequery.md) enumeration is specified.
@@ -93,34 +89,34 @@ foreach (StorageFile item in sortedFiles)
 }
 ```
 
-```javascript
-// Get the user's Pictures folder.
-// Enable the corresponding capability in the app manifest file.
-var KnownFolders = Windows.Storage.KnownFolders;
-var picturesFolder = KnownFolders.picturesLibrary;
+```cppwinrt
+IAsyncAction MainPage::ExampleCoroutineAsync()
+{
+    // Get the users's Pictures folder.
+    // Enable the Pictures Library capability in the app manifest file.
+    Windows::Storage::StorageFolder picturesFolder{ Windows::Storage::KnownFolders::PicturesLibrary() };
 
-// Set options for file type and sort order.
-var fileTypeFilter = [".jpg"];
-var CommonFileQuery = Windows.Storage.Search.CommonFileQuery;
-var queryOptions = new Windows.Storage.Search.QueryOptions(CommonFileQuery.orderByDate, fileTypeFilter);
+    // Set options for file type and sort order.
+    Windows::Storage::Search::QueryOptions queryOptions{ Windows::Storage::Search::CommonFileQuery::OrderByDate, { L".png" } };
 
-// Get the JPG files in the user's Pictures folder
-// and its subfolders and sort them by date.
-var results = picturesFolder.createFileQueryWithOptions(queryOptions);
+    // Get the png files in the user's Pictures folder and its subfolders, sorted by date.
+    Windows::Storage::Search::StorageFileQueryResult results{ picturesFolder.CreateFileQueryWithOptions(queryOptions) };
 
-// Iterate over the results and print the list of files
-// to the Visual Studio Output window.
-var sortedFilesPromise = results.getFilesAsync();
-sortedFilesPromise.done(function (sortedFiles) {
-    sortedFiles.forEach(function forEachFile(item) {
-        console.log(item.name, item.dateCreated);
-    });
-});
+    Windows::Foundation::Collections::IVectorView<Windows::Storage::StorageFile> filesInFolder{
+        co_await results.GetFilesAsync() };
+
+    // Iterate over the results, and print the list of files to the Visual Studio output window.
+    for (StorageFile const& fileInFolder : filesInFolder)
+    {
+        std::wstring output{ fileInFolder.Name() };
+        ::OutputDebugString(output.c_str());
+    }
+}
 ```
 
 ```cpp
 //Get the users's pictures folder
-//Enable the corresponding cpability in the app manifest file
+//Enable the corresponding capability in the app manifest file
 StorageFolder^ picturesFolder = KnownFolders::PicturesLibrary;
 
 //Set options for file type and sort order
@@ -145,7 +141,30 @@ create_task(results->GetFilesAsync()).then([=](IVectorView<StorageFile^>^ filesI
 	);
 ```
 
+```javascript
+// Get the user's Pictures folder.
+// Enable the corresponding capability in the app manifest file.
+var KnownFolders = Windows.Storage.KnownFolders;
+var picturesFolder = KnownFolders.picturesLibrary;
 
+// Set options for file type and sort order.
+var fileTypeFilter = [".jpg"];
+var CommonFileQuery = Windows.Storage.Search.CommonFileQuery;
+var queryOptions = new Windows.Storage.Search.QueryOptions(CommonFileQuery.orderByDate, fileTypeFilter);
+
+// Get the JPG files in the user's Pictures folder
+// and its subfolders and sort them by date.
+var results = picturesFolder.createFileQueryWithOptions(queryOptions);
+
+// Iterate over the results and print the list of files
+// to the Visual Studio Output window.
+var sortedFilesPromise = results.getFilesAsync();
+sortedFilesPromise.done(function (sortedFiles) {
+    sortedFiles.forEach(function forEachFile(item) {
+        console.log(item.name, item.dateCreated);
+    });
+});
+```
 
 ## -see-also
 [CreateFileQuery](storagefolder_createfilequery.md), [Content indexer sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620524)

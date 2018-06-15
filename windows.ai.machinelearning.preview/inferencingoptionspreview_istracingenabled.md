@@ -17,6 +17,9 @@ True if tracing is enabled; otherwise false. The default value is false.
 
 ## -remarks
 
+> [!NOTE]
+> Windows.AI.MachineLearning.Preview is a preview API and may be substantially modified before it’s officially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+
 ## -see-also
 
 ## -examples

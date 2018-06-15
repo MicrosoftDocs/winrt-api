@@ -49,6 +49,30 @@ string path = root + @"\Assets";
 StorageFolder folder = await StorageFolder.GetFolderFromPathAsync(path);
 ```
 
+```cppwinrt
+IAsyncAction MainPage::ExampleCoroutineAsync()
+{
+    // Get the path to the app's Assets folder.
+	std::wstring path{ Windows::ApplicationModel::Package::Current().InstalledLocation().Path() + L"\\Assets" };
+
+    // Get the folder object that corresponds to this absolute path in the file system.
+    Windows::Storage::StorageFolder folder{ co_await Windows::Storage::StorageFolder::GetFolderFromPathAsync(path) };
+    ::OutputDebugString(folder.Name().c_str());
+}
+```
+
+```cpp
+// Get the path to the app's installation folder.
+String^ root = Windows::ApplicationModel::Package::Current->InstalledLocation->Path;
+
+// Get the folder object that corresponds to
+// this absolute path in the file system.
+create_task(StorageFolder::GetFolderFromPathAsync(root)).then([=](StorageFolder^ folder){
+ String^ output = folder->Name;
+ OutputDebugString(output->Begin());
+});
+```
+
 ```javascript
 // Get the path to the app's Assets folder.
 var root = Windows.ApplicationModel.Package.current.installedLocation.path;
@@ -61,19 +85,5 @@ var folderPromise = StorageFolder.getFolderFromPathAsync(path);
 folderPromise.done(function getFolderSuccess(folder) {
 });
 ```
-
-```cpp
-// Get the path to the app's Assets folder.
-String^ root = Windows::ApplicationModel::Package::Current->InstalledLocation->Path;
-
-// Get the folder object that corresponds to
-// this absolute path in the file system.
-create_task(StorageFolder::GetFolderFromPathAsync(root)).then([=](StorageFolder^ folder){
- String^ output = folder->Name;
- OutputDebugString(output->Begin());
-});
-```
-
-
 
 ## -see-also
