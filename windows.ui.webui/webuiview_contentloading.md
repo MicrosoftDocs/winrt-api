@@ -10,6 +10,7 @@ public event TypedEventHandler ContentLoading<IWebViewControl, WebViewControlCon
 # Windows.UI.WebUI.WebUIView.ContentLoading
 
 ## -description
+Occurs when the view starts loading new content.
 
 ## -remarks
 

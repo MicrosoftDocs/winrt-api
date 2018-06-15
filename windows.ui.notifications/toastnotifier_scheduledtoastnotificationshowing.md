@@ -10,6 +10,7 @@ public event TypedEventHandler ScheduledToastNotificationShowing<ToastNotifier, 
 # Windows.UI.Notifications.ToastNotifier.ScheduledToastNotificationShowing
 
 ## -description
+Occurs when the system shows the scheduled toast notification. 
 
 ## -remarks
 

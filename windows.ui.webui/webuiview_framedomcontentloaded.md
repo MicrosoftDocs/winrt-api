@@ -10,6 +10,7 @@ public event TypedEventHandler FrameDOMContentLoaded<IWebViewControl, WebViewCon
 # Windows.UI.WebUI.WebUIView.FrameDOMContentLoaded
 
 ## -description
+Occurs when a frame in the view has finished parsing its current HTML content.
 
 ## -remarks
 

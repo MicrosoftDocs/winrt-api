@@ -10,8 +10,10 @@ public IAdaptiveCard AdaptiveCard { get;  set; }
 # Windows.UI.Notifications.ScheduledToastNotification.AdaptiveCard
 
 ## -description
+Gets or sets the adaptive card associated with this notification.
 
 ## -property-value
+The adaptive card associated with this notification.
 
 ## -remarks
 

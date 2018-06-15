@@ -10,6 +10,7 @@ public class WebUIView : IWebViewControl
 # Windows.UI.WebUI.WebUIView
 
 ## -description
+Represents the active application view and associated states and behaviors.
 
 ## -remarks
 

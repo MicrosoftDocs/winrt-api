@@ -10,6 +10,7 @@ public event TypedEventHandler DOMContentLoaded<IWebViewControl, WebViewControlD
 # Windows.UI.WebUI.WebUIView.DOMContentLoaded
 
 ## -description
+An event that is triggered when the view has finished parsing the current HTML content.
 
 ## -remarks
 

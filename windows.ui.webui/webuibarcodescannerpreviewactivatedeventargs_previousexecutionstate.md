@@ -10,8 +10,10 @@ public ApplicationExecutionState PreviousExecutionState { get; }
 # Windows.UI.WebUI.WebUIBarcodeScannerPreviewActivatedEventArgs.PreviousExecutionState
 
 ## -description
+Gets the execution state of the app before it was activated. 
 
 ## -property-value
+The app's previous execution state.
 
 ## -remarks
 

@@ -10,6 +10,7 @@ public class ScheduledToastNotificationShowingEventArgs
 # Windows.UI.Notifications.ScheduledToastNotificationShowingEventArgs
 
 ## -description
+Provides info when the system is in the process of showing a scheduled toast notification.
 
 ## -remarks
 

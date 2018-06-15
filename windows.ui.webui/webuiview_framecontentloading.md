@@ -10,6 +10,7 @@ public event TypedEventHandler FrameContentLoading<IWebViewControl, WebViewContr
 # Windows.UI.WebUI.WebUIView.FrameContentLoading
 
 ## -description
+Occurs when a frame in the view begins loading new content.
 
 ## -remarks
 

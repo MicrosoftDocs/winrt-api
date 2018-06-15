@@ -10,8 +10,10 @@ public ActivatedOperation ActivatedOperation { get; }
 # Windows.UI.WebUI.WebUIBarcodeScannerPreviewActivatedEventArgs.ActivatedOperation
 
 ## -description
+Gets the object that manages the app's activation.
 
 ## -property-value
+An object that manages the app's activation.
 
 ## -remarks
 

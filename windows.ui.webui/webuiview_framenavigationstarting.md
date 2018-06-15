@@ -10,6 +10,7 @@ public event TypedEventHandler FrameNavigationStarting<IWebViewControl, WebViewC
 # Windows.UI.WebUI.WebUIView.FrameNavigationStarting
 
 ## -description
+Occurs just before the view navigates to new content.
 
 ## -remarks
 

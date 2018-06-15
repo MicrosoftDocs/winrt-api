@@ -10,6 +10,7 @@ public event TypedEventHandler ContainsFullScreenElementChanged<IWebViewControl,
 # Windows.UI.WebUI.WebUIView.ContainsFullScreenElementChanged
 
 ## -description
+Occurs when the status of whether the view currently contains a full screen element or not changes.
 
 ## -remarks
 

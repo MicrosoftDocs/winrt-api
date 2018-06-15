@@ -10,8 +10,10 @@ public IBackgroundTaskInstance TaskInstance { get; }
 # Windows.UI.WebUI.BackgroundActivatedEventArgs.TaskInstance
 
 ## -description
+Gets the background task that activated the app.
 
 ## -property-value
+The background task that activated the app.
 
 ## -remarks
 

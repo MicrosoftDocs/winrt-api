@@ -10,6 +10,7 @@ public event TypedEventHandler FrameNavigationCompleted<IWebViewControl, WebView
 # Windows.UI.WebUI.WebUIView.FrameNavigationCompleted
 
 ## -description
+Occurs when the control has finished loading the current content or if the navigation has failed.
 
 ## -remarks
 

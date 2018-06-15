@@ -10,6 +10,7 @@ public class NewWebUIViewCreatedEventArgs
 # Windows.UI.WebUI.NewWebUIViewCreatedEventArgs
 
 ## -description
+Provides info when a new [WebUIView](webuiview.md) is created. 
 
 ## -remarks
 

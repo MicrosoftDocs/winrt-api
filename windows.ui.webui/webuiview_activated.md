@@ -10,6 +10,7 @@ public event TypedEventHandler Activated<WebUIView, IActivatedEventArgs>
 # Windows.UI.WebUI.WebUIView.Activated
 
 ## -description
+Occurs when the view is activated.
 
 ## -remarks
 

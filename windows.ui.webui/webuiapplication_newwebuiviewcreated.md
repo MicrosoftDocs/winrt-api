@@ -10,6 +10,7 @@ static public event EventHandler NewWebUIViewCreated<NewWebUIViewCreatedEventArg
 # Windows.UI.WebUI.WebUIApplication.NewWebUIViewCreated
 
 ## -description
+Occurs when the system creates a new view for the app.
 
 ## -remarks
 
