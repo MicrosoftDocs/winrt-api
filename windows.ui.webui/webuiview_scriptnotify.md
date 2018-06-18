@@ -10,6 +10,7 @@ public event TypedEventHandler ScriptNotify<IWebViewControl, WebViewControlScrip
 # Windows.UI.WebUI.WebUIView.ScriptNotify
 
 ## -description
+Occurs when the content contained in the control passes a string to the app using JavaScript.
 
 ## -remarks
 

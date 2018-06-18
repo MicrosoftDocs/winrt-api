@@ -10,9 +10,11 @@ public void WebUIView.NavigateWithHttpRequestMessage(HttpRequestMessage requestM
 # Windows.UI.WebUI.WebUIView.NavigateWithHttpRequestMessage
 
 ## -description
+Navigates the control to a URI with a POST request and HTTP headers.
 
 ## -parameters
 ### -param requestMessage
+The request.
 
 ## -remarks
 

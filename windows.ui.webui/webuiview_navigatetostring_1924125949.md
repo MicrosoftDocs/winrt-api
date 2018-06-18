@@ -10,9 +10,11 @@ public void WebUIView.NavigateToString(String text)
 # Windows.UI.WebUI.WebUIView.NavigateToString
 
 ## -description
+Loads the specified HTML content as a new document.
 
 ## -parameters
 ### -param text
+The HTML content to display in the control.
 
 ## -remarks
 

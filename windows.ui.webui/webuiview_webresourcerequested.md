@@ -10,6 +10,7 @@ public event TypedEventHandler WebResourceRequested<IWebViewControl, WebViewCont
 # Windows.UI.WebUI.WebUIView.WebResourceRequested
 
 ## -description
+An event that is fired when an HTTP request is made.
 
 ## -remarks
 

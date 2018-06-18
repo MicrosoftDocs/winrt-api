@@ -10,6 +10,7 @@ public event TypedEventHandler UnviewableContentIdentified<IWebViewControl, WebV
 # Windows.UI.WebUI.WebUIView.UnviewableContentIdentified
 
 ## -description
+An event that is triggered when the control attempts to download an unsupported file.
 
 ## -remarks
 

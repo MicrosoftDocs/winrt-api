@@ -10,6 +10,7 @@ public event TypedEventHandler NavigationStarting<IWebViewControl, WebViewContro
 # Windows.UI.WebUI.WebUIView.NavigationStarting
 
 ## -description
+Occurs before the control navigates to new content.
 
 ## -remarks
 

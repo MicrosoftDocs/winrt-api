@@ -10,6 +10,7 @@ public event TypedEventHandler PermissionRequested<IWebViewControl, WebViewContr
 # Windows.UI.WebUI.WebUIView.PermissionRequested
 
 ## -description
+Occurs when an action in the control requires that permission to be granted.
 
 ## -remarks
 

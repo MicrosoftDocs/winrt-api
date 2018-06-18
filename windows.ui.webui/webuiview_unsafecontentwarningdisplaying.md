@@ -10,6 +10,7 @@ public event TypedEventHandler UnsafeContentWarningDisplaying<IWebViewControl,  
 # Windows.UI.WebUI.WebUIView.UnsafeContentWarningDisplaying
 
 ## -description
+Occurs when the control shows a warning page for content that was reported as unsafe by SmartScreen Filter.
 
 ## -remarks
 

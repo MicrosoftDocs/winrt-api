@@ -10,8 +10,10 @@ public int ViewId { get; }
 # Windows.UI.WebUI.WebUIView.ViewId
 
 ## -description
+Gets the identifier for this view.
 
 ## -property-value
+The identifier for this view. 
 
 ## -remarks
 

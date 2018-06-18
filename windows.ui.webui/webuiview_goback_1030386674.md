@@ -10,6 +10,7 @@ public void WebUIView.GoBack()
 # Windows.UI.WebUI.WebUIView.GoBack
 
 ## -description
+Navigates to the previous page in the navigation history.
 
 ## -remarks
 

@@ -10,8 +10,10 @@ public bool ShouldApplyApplicationContentUriRulesNavigationRestrictions { get;  
 # Windows.UI.WebUI.WebUIView.ShouldApplyApplicationContentUriRulesNavigationRestrictions
 
 ## -description
+Gets or sets a value that specifies whether to apply content URI rules and navigation restrictions.
 
 ## -property-value
+**true** to apply content URI rules; **false** to ignore them. 
 
 ## -remarks
 

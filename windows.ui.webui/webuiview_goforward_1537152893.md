@@ -10,6 +10,7 @@ public void WebUIView.GoForward()
 # Windows.UI.WebUI.WebUIView.GoForward
 
 ## -description
+Navigates to the next page in the navigation history.
 
 ## -remarks
 
