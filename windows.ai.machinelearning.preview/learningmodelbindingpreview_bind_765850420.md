@@ -22,6 +22,9 @@ The value of the input/output feature.
 ## -remarks
 **Note**: Currently, outputs of type `double` are not supported. If possible, consider using type `float` instead.
 
+> [!NOTE]
+> Windows.AI.MachineLearning.Preview is a preview API and may be substantially modified before it’s officially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+
 ## -see-also
 
 ## -examples

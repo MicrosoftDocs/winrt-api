@@ -49,6 +49,33 @@ string desiredName = "test.txt";
 StorageFile newFile = await localFolder.CreateFileAsync(desiredName, CreationCollisionOption.FailIfExists);
 ```
 
+```cppwinrt
+IAsyncAction MainPage::ExampleCoroutineAsync()
+{
+    // Gets the app's local folder.
+    Windows::Storage::StorageFolder localFolder{ Windows::Storage::ApplicationData::Current().LocalFolder() };
+
+    // Create a new file in the current folder, and throw an exception if the file already exists.
+    std::wstring desiredName{ L"test.txt" };
+    StorageFile newFile{ co_await localFolder.CreateFileAsync(desiredName, Windows::Storage::CreationCollisionOption::FailIfExists) };
+    // Do something with the new file.
+}
+```
+
+```cpp
+//Gets the app's local folder
+StorageFolder^ localFolder = ApplicationData::Current->LocalFolder;
+
+//Create a new file in the current folder
+// Raise an exception if the file already exists
+String^ desiredName = "test.txt";
+auto createFileTask = create_task(localFolder->CreateFileAsync(desiredName, Windows::Storage::CreationCollisionOption::FailIfExists));
+createFileTask.then([](StorageFile^ newFile)
+{
+  //Do something with the new file.
+ });
+```
+
 ```javascript
 // Get the app's local folder.
 var localFolder = Windows.Storage.ApplicationData.current.localFolder;
@@ -66,22 +93,6 @@ newFilePromise.done(function createFileSuccess(newFile)
     // CreateFile can fail if the file already exists.
 });
 ```
-
-```cpp
-//Gets the app's local folder
-StorageFolder^ localFolder = ApplicationData::Current->LocalFolder;
-
-//Create a new file in the current folder
-// Raise an exception if the file already exists
-String^ desiredName = "test.txt";
-auto createFileTask = create_task(localFolder->CreateFileAsync(desiredName, Windows::Storage::CreationCollisionOption::FailIfExists));
-createFileTask.then([](StorageFile^ newFile)
-{
-  //Do something with the new file.
- });
-```
-
-
 
 ## -see-also
 [CreateFileAsync(String, CreationCollisionOption)](storagefolder_createfileasync_1058061470.md)

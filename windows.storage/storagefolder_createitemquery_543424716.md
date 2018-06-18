@@ -55,30 +55,40 @@ foreach (IStorageItem item in await itemsInFolder.GetItemsAsync())
 }
 ```
 
-```javascript
-// Get the app's installation folder.
-var appFolder = Windows.ApplicationModel.Package.current.installedLocation;
+```cppwinrt
+IAsyncAction MainPage::ExampleCoroutineAsync()
+{
+    // Get the app's installation folder.
+    Windows::Storage::StorageFolder appFolder{ Windows::ApplicationModel::Package::Current().InstalledLocation() };
 
-// Get the items in the current folder.
-var itemsInFolder = appFolder.createItemQuery();
+    Windows::Storage::Search::StorageItemQueryResult results{ appFolder.CreateItemQuery() };
 
-// Iterate over the results and print the list of items
-// to the Visual Studio Output window.
-var itemsPromise = itemsInFolder.getItemsAsync();
-itemsPromise.done(function getItemsSuccess(items) {
-    items.forEach(function forEachItem(item) {
-        var StorageItemTypes = Windows.Storage.StorageItemTypes;
-        if (item.isOfType(StorageItemTypes.folder)) {
-            console.log("Folder:", item.name);
-        } else {
-            console.log("File:", item.name, item.dateCreated);
+    // Get the items in the current folder.
+    Windows::Foundation::Collections::IVectorView<Windows::Storage::IStorageItem> itemsInFolder{
+        co_await results.GetItemsAsync() };
+
+    // Iterate over the results, and print the list of items to the Visual Studio output window.
+    for (IStorageItem const& itemInFolder : itemsInFolder)
+    {
+        std::wstringstream stringstream;
+
+        if (itemInFolder.IsOfType(Windows::Storage::StorageItemTypes::File))
+        {
+            stringstream << L"File: ";
         }
-    });
-});
+        else
+        {
+            stringstream << L"Folder: ";
+        }
+
+        stringstream << itemInFolder.Name().c_str() << std::endl;
+        ::OutputDebugString(stringstream.str().c_str());
+    }
+}
 ```
 
 ```cpp
-// Get the apps installation folder
+// Get the app's installation folder
 StorageFolder^ appFolder = Windows::ApplicationModel::Package::Current->InstalledLocation;
 
 StorageItemQueryResult^ results = appFolder->CreateItemQuery();
@@ -105,6 +115,26 @@ create_task(results->GetItemsAsync()).then([=](IVectorView<IStorageItem^>^ items
 });
 ```
 
+```javascript
+// Get the app's installation folder.
+var appFolder = Windows.ApplicationModel.Package.current.installedLocation;
 
+// Get the items in the current folder.
+var itemsInFolder = appFolder.createItemQuery();
+
+// Iterate over the results and print the list of items
+// to the Visual Studio Output window.
+var itemsPromise = itemsInFolder.getItemsAsync();
+itemsPromise.done(function getItemsSuccess(items) {
+    items.forEach(function forEachItem(item) {
+        var StorageItemTypes = Windows.Storage.StorageItemTypes;
+        if (item.isOfType(StorageItemTypes.folder)) {
+            console.log("Folder:", item.name);
+        } else {
+            console.log("File:", item.name, item.dateCreated);
+        }
+    });
+});
+```
 
 ## -see-also

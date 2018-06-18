@@ -72,23 +72,25 @@ foreach (StorageFile file in sortedItems)
     Debug.WriteLine(file.Name + ", " + file.DateCreated);
 ```
 
-```javascript
-// Get the user's Pictures folder.
-// Enable the corresponding capability in the app manifest file.
-var KnownFolders = Windows.Storage.KnownFolders;
-var picturesFolder = KnownFolders.picturesLibrary;
+```cppwinrt
+IAsyncAction MainPage::ExampleCoroutineAsync()
+{
+    // Get the users's Pictures library.
+    // Enable the Pictures Library capability in the app manifest file.
+    Windows::Storage::StorageFolder picturesLibrary{ Windows::Storage::KnownFolders::PicturesLibrary() };
 
-// Get the first 20 files in the current folder, sorted by date.
-var CommonFileQuery = Windows.Storage.Search.CommonFileQuery;
-var sortedItemsPromise = picturesFolder.getFilesAsync(CommonFileQuery.orderByDate, 0, 20);
-sortedItemsPromise.done(function getFilesSuccess(sortedItems) {
+    // Get the first 20 sorted images in the library.
+        // Get the items in the current folder.
+    Windows::Foundation::Collections::IVectorView<Windows::Storage::StorageFile> filesInFolder{
+        co_await picturesLibrary.GetFilesAsync(Windows::Storage::Search::CommonFileQuery::OrderByDate, 0, 20) };
 
-    // Iterate over the results and print the list of files
-    // to the Visual Studio Output window.
-    sortedItems.forEach(function forEachFile(file) {
-        console.log(file.name, file.dateCreated);
-    });
-});
+    // Iterate over the results, and print the list of files to the Visual Studio output window.
+    for (StorageFile const& fileInFolder : filesInFolder)
+    {
+        std::wstring output{ fileInFolder.Name() };
+        ::OutputDebugString(output.c_str());
+    }
+}
 ```
 
 ```cpp
@@ -108,7 +110,24 @@ create_task(picturesLibrary->GetFilesAsync(CommonFileQuery::OrderByDate,0,20)).t
 });
 ```
 
+```javascript
+// Get the user's Pictures folder.
+// Enable the corresponding capability in the app manifest file.
+var KnownFolders = Windows.Storage.KnownFolders;
+var picturesFolder = KnownFolders.picturesLibrary;
 
+// Get the first 20 files in the current folder, sorted by date.
+var CommonFileQuery = Windows.Storage.Search.CommonFileQuery;
+var sortedItemsPromise = picturesFolder.getFilesAsync(CommonFileQuery.orderByDate, 0, 20);
+sortedItemsPromise.done(function getFilesSuccess(sortedItems) {
+
+    // Iterate over the results and print the list of files
+    // to the Visual Studio Output window.
+    sortedItems.forEach(function forEachFile(file) {
+        console.log(file.name, file.dateCreated);
+    });
+});
+```
 
 ## -see-also
 [GetFilesAsync(CommonFileQuery, UInt32, UInt32)](storagefolder_getfilesasync_1563132095.md), [GetFilesAsync(CommonFileQuery)](storagefolder_getfilesasync_1429382825.md), [GetItemsAsync](storagefolder_getitemsasync.md)

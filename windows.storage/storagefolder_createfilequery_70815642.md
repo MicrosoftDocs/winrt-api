@@ -48,21 +48,24 @@ foreach (StorageFile item in filesInFolder)
 }
 ```
 
-```javascript
-// Get the app's installation folder.
-var appFolder = Windows.ApplicationModel.Package.current.installedLocation;
+```cppwinrt
+IAsyncAction MainPage::ExampleCoroutineAsync()
+{
+    // Get the app's installation folder.
+    Windows::Storage::StorageFolder appFolder{ Windows::ApplicationModel::Package::Current().InstalledLocation() };
+    // Get the files in the current folder.
+    Windows::Storage::Search::StorageFileQueryResult results{ appFolder.CreateFileQuery() };
 
-// Get the files in the current folder.
-var results = appFolder.createFileQuery();
+    Windows::Foundation::Collections::IVectorView<Windows::Storage::StorageFile> filesInFolder{
+        co_await results.GetFilesAsync() };
 
-// Iterate over the results and print the list of files
-// to the Visual Studio Output window.
-var filesInFolderPromise = results.getFilesAsync();
-filesInFolderPromise.done(function getFilesSuccess(filesInFolder) {
-    filesInFolder.forEach(function forEachFile(item) {
-        console.log(item.name);
-    });
-});
+    // Iterate over the results, and print the list of files to the Visual Studio output window.
+    for (StorageFile const& fileInFolder : filesInFolder)
+    {
+        std::wstring output{ fileInFolder.Name() };
+        ::OutputDebugString(output.c_str());
+    }
+}
 ```
 
 ```cpp
@@ -81,10 +84,24 @@ filesInFolderPromise.done(function getFilesSuccess(filesInFolder) {
    OutputDebugString(output->Begin());
   }
  });
-
 ```
 
+```javascript
+// Get the app's installation folder.
+var appFolder = Windows.ApplicationModel.Package.current.installedLocation;
 
+// Get the files in the current folder.
+var results = appFolder.createFileQuery();
+
+// Iterate over the results and print the list of files
+// to the Visual Studio Output window.
+var filesInFolderPromise = results.getFilesAsync();
+filesInFolderPromise.done(function getFilesSuccess(filesInFolder) {
+    filesInFolder.forEach(function forEachFile(item) {
+        console.log(item.name);
+    });
+});
+```
 
 ## -see-also
 [CreateFileQuery(CommonFileQuery)](storagefolder_createfilequery_1641434999.md), [CreateFileQueryWithOptions](storagefolder_createfilequerywithoptions.md)

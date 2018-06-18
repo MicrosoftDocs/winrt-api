@@ -55,6 +55,30 @@ string image = @"Assets\Logo.scale-100.png";
 StorageFile logoImage = await appFolder.GetFileAsync(image);
 ```
 
+```cppwinrt
+IAsyncAction MainPage::ExampleCoroutineAsync()
+{
+    // Get the app's installation folder.
+    Windows::Storage::StorageFolder appFolder{ Windows::ApplicationModel::Package::Current().InstalledLocation() };
+
+    // Get the app's manifest file from the current folder.
+    std::wstring name{ L"AppxManifest.xml" };
+    Windows::Storage::StorageFile manifest{ co_await appFolder.GetFileAsync(name) };
+    // Do something with the manifest file.
+}
+```
+
+```cpp
+// Get the app's installation folder
+StorageFolder^ appFolder = Windows::ApplicationModel::Package::Current->InstalledLocation;
+
+// Get the app's manifest file from the current folder
+String^ name = "AppxManifest.xml";
+create_task(appFolder->GetFileAsync(name)).then([=](StorageFile^ manifest){
+ //Do something with the manifest file  
+});
+```
+
 ```javascript
 // Get the app's installation folder.
 var appFolder = Windows.ApplicationModel.Package.current.installedLocation;
@@ -72,19 +96,6 @@ logoImagePromise.done(function (logoImage) {
     console.log(logoImage.name);
 });
 ```
-
-```cpp
-// Get the app's installation folder
-StorageFolder^ appFolder = Windows::ApplicationModel::Package::Current->InstalledLocation;
-
-// Get the app's manifest file from the current folder
-String^ name = "AppxManifest.xml";
-create_task(appFolder->GetFileAsync(name)).then([=](StorageFile^ manifest){
- //Do something with the manifest file  
-});
-```
-
-
 
 ## -see-also
 [GetItemAsync](storagefolder_getitemasync.md)

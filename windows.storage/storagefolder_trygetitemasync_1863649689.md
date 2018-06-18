@@ -49,6 +49,53 @@ else  // Return value of TryGetItemAsync is null.
     Debug.WriteLine(imageName + " does not exist.");
 ```
 
+```cppwinrt
+IAsyncAction MainPage::ExampleCoroutineAsync()
+{
+    std::wstring imageName{ L"Wide310x150Logo.scale-200.png" };
+
+    // Get the path to the app's Assets folder.
+    std::wstring path{ Windows::ApplicationModel::Package::Current().InstalledLocation().Path() + L"\\Assets" };
+
+    // Get the folder object that corresponds to this absolute path in the file system.
+    Windows::Storage::StorageFolder assets{ co_await Windows::Storage::StorageFolder::GetFolderFromPathAsync(path) };
+    IStorageItem image{ co_await assets.TryGetItemAsync(imageName) };
+
+    std::wstring output;
+    if (image)
+    {
+        output = L"File: " + image.Name() + L" found \n";
+    }
+    else
+    {
+        output = L"File not found\n";
+    }
+    ::OutputDebugString(output.c_str());
+}
+```
+
+```cpp
+String^ imageName = "Logo.scale-140.png";
+// Get the app'ss Assets folder
+String^ path = Windows::ApplicationModel::Package::Current->InstalledLocation->Path + "\\Assets";
+
+create_task(StorageFolder::GetFolderFromPathAsync(path)).then([=](StorageFolder^ assets) -> task < IStorageItem^ > 
+{
+ return create_task(assets->TryGetItemAsync(imageName));
+}).then([=](IStorageItem^ image) {
+ String^ output = "";
+ if (image == nullptr)
+ {
+  output = "File not found\n";
+ }
+ else
+ {
+  //output = "File: " + image->Name + " found \n";
+ }
+ OutputDebugString(output->Begin());
+});
+```
+
 This example shows how to check for the existence of a file.
 
 ```javascript
@@ -85,30 +132,6 @@ getImagePromise.done(function getItemSuccess(image) {
     }
 });
 ```
-
-```cpp
-String^ imageName = "Logo.scale-140.png";
-// Get the app'ss Assets folder
-String^ path = Windows::ApplicationModel::Package::Current->InstalledLocation->Path + "\\Assets";
-
-create_task(StorageFolder::GetFolderFromPathAsync(path)).then([=](StorageFolder^ assets) -> task < IStorageItem^ > 
-{
- return create_task(assets->TryGetItemAsync(imageName));
-}).then([=](IStorageItem^ image) {
- String^ output = "";
- if (image == nullptr)
- {
-  output = "File not found\n";
- }
- else
- {
-  //output = "File: " + image->Name + " found \n";
- }
- OutputDebugString(output->Begin());
-});
-```
-
-
 
 ## -see-also
 [GetItemAsync](storagefolder_getitemasync.md)
