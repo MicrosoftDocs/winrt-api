@@ -38,11 +38,20 @@ The most common reason for creating a [Color](color.md) value is to use it as an
 
 This example shows how to create a Color.
 
+```cppwinrt
+Windows::UI::Color orangeColor{ Windows::UI::ColorHelper::FromArgb(255, 255, 128, 0) };
+```
+
 ```cpp
 auto orangeColor = Windows::UI::ColorHelper::FromArgb(255, 255, 128, 0);
 ```
 
 This example shows how to create a SolidColorBrush with the specified Color.
+
+```cppwinrt
+Windows::UI::Xaml::Media::SolidColorBrush greenBrush{
+    Windows::UI::ColorHelper::FromArgb(255, 90, 200, 90) };
+```
 
 ```cpp
 auto greenBrush = ref new SolidColorBrush(Windows::UI::ColorHelper::FromArgb(255, 90, 200, 90));
