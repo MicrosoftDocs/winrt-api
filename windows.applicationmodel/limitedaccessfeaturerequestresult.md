@@ -11,6 +11,8 @@ public class LimitedAccessFeatureRequestResult
 
 ## -description
 
+An object returned from a [LimitedAccessFeatures.TryUnlockFeature](limitedaccessfeatures_tryunlockfeature_180193416.md) request, which contains information on the feature and its availability.
+
 ## -remarks
 
 ## -see-also

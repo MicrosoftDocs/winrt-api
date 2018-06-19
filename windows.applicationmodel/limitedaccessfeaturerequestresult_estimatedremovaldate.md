@@ -11,7 +11,11 @@ public IReference<DateTime> EstimatedRemovalDate { get; }
 
 ## -description
 
+Provides the estimate date that the current version of the requested feature will become unavailable.
+
 ## -property-value
+
+The estimated date at which the token used to gain access to the feature will expire, if known.
 
 ## -remarks
 

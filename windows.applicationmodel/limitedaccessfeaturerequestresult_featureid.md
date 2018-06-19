@@ -11,7 +11,11 @@ public string FeatureId { get; }
 
 ## -description
 
+Provides the feature ID associated with the request made.
+
 ## -property-value
+
+The feature's ID, as provided by Microsoft.
 
 ## -remarks
 

@@ -11,7 +11,11 @@ public LimitedAccessFeatureStatus Status { get; }
 
 ## -description
 
+Provides the result of the feature request, which indicates the availability of the feature in question.
+
 ## -property-value
+
+A [LimitedAccessFeatureStatus](limitedaccessfeaturestatus.md) value corresponding to the result of the feature request.
 
 ## -remarks
 
