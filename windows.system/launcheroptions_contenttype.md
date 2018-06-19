@@ -27,35 +27,11 @@ Because **ContentType** allows you to directly launch a file handler the same se
 > [!NOTE]
 > This functionality only works if the default file handler supports being passed a URI to a file on the network. The default file handler must also be able to authenticate with the file’s server. Because of these limitations you should only use the **ContentType** property if you have thoroughly tested the end to end scenario between your app and the app’s that you expect to handle the files being launched
 
-
-
 > [!IMPORTANT]
 > This property is only implemented on Desktop devices.
 
 ## -examples
 Call the [Launcher.LaunchUriAsync(Uri, LauncherOptions)](launcher_launchuriasync_68890748.md) method with **ContentType** set to the content type associated with the URI being launched.
-
-```javascript
-// The URI to launch
-var uriToLaunch = "http://www.contoso.com/SomeFile.docx";
-
-// Create a Uri object from a URI string 
-var uri = new Windows.Foundation.Uri(uriToLaunch);
-
-// Set the URI’s content type
-var options = new Windows.System.LauncherOptions();
-options.contentType = "application/vnd.ms-word.document.12";
-
-Windows.System.Launcher.launchUriAsync(uri, options).then(
-   function (success) {
-      if (success) {
-         // URI launched
-      } else {
-         // URI launch failed
-      }
-   });
-
-```
 
 ```csharp
 // The URI to launch
@@ -80,11 +56,32 @@ async void DefaultLaunch()
       // URI launch failed
    }
 }
+```
 
+```cppwinrt
+// The URI to launch.
+Windows::Foundation::Uri m_uri{ L"http://www.contoso.com/SomeFile.docx" };
+
+Windows::Foundation::IAsyncAction MainPage::DefaultLaunch()
+{
+    // Set the URI's content type.
+    Windows::System::LauncherOptions launcherOptions;
+    launcherOptions.ContentType(L"application/vnd.ms-word.document.12");
+
+    // Launch the URI.
+    if (co_await Windows::System::Launcher::LaunchUriAsync(m_uri, launcherOptions))
+    {
+        // URI launched.
+    }
+    else
+    {
+        // URI launch failed.
+    }
+}
 ```
 
 ```cpp
-// The URI to launch
+// The URI to launch.
 auto uri = ref new Windows::Foundation::Uri("http://www.contoso.com/SomeFile.docx");
 
 void MainPage::DefaultLaunch()
@@ -107,7 +104,27 @@ void MainPage::DefaultLaunch()
       }
    });
 }
+```
 
+```javascript
+// The URI to launch
+var uriToLaunch = "http://www.contoso.com/SomeFile.docx";
+
+// Create a Uri object from a URI string 
+var uri = new Windows.Foundation.Uri(uriToLaunch);
+
+// Set the URI’s content type
+var options = new Windows.System.LauncherOptions();
+options.contentType = "application/vnd.ms-word.document.12";
+
+Windows.System.Launcher.launchUriAsync(uri, options).then(
+   function (success) {
+      if (success) {
+         // URI launched
+      } else {
+         // URI launch failed
+      }
+   });
 ```
 
 ```vb
@@ -130,10 +147,7 @@ async Sub DefaultLaunch()
    End If
 
 End Sub
-
 ```
-
-
 
 ## -see-also
 [Association launching sample](http://go.microsoft.com/fwlink/p/?linkid=231484), [How to launch the default app for a file (JavaScript)](http://msdn.microsoft.com/library/876edae5-f1a8-45f9-a1a6-50efb1025f96), [Launch the default app for a file](http://msdn.microsoft.com/library/bb45fcaf-df93-4c99-a8b5-59b799c7bd98), [How to launch the default app for a URI (JavaScript)](http://msdn.microsoft.com/library/0f9fa8db-3e51-4cf8-879d-2b79a8ddbb7d), [Launch the default app for a URI](http://msdn.microsoft.com/library/7b0d0af5-d89e-4db0-9b79-90201d79974f), [Guidelines for file types and URIs](http://msdn.microsoft.com/library/a6653b8f-763f-4d67-9d12-6af73a673bc5), [Launcher.LaunchFileAsync(IStorageFile, LauncherOptions)](launcher_launchfileasync_1480137410.md), [Launcher.LaunchUriAsync(Uri, LauncherOptions)](launcher_launchuriasync_68890748.md)
