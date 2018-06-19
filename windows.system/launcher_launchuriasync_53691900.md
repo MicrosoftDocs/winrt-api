@@ -39,31 +39,10 @@ To enable the user to choose an app instead of launching the default app, set th
 
 To display a warning that the URI is potentially unsafe, set the [LauncherOptions.TreatAsUntrusted | treatAsUntrusted](launcheroptions_treatasuntrusted.md) property.
 
-
-
 The URI is passed to the associated app. If the associated app is a desktop app, the URI is passed using shell execution mechanisms.
 
 ## -examples
-This example uses [LaunchUriAsync(Uri) | launchUriAsync(Uri)](launcher_launchuriasync_53691900.md) to launch a URI.
-
-```javascript
-
-// The URI to launch
-var uriToLaunch = "http://www.bing.com";
-
-// Create a Uri object from a URI string 
-var uri = new Windows.Foundation.Uri(uriToLaunch);
-
-// Launch the URI
-Windows.System.Launcher.launchUriAsync(uri).then(   
-   function (success) {
-      if (success) {
-        // URI launched
-      } else {
-        // URI launch failed
-      }
-   });
-```
+This example uses **LaunchUriAsync(Uri)** to launch a URI.
 
 ```csharp
 // The URI to launch
@@ -87,25 +66,24 @@ async void DefaultLaunch()
       // URI launch failed
    }
 }
-
 ```
 
-```vbnet
-' The URI to launch
-Dim uri As New Uri("http://www.bing.com")
-
-async Sub DefaultLaunch()
-
-   ' Launch the URI
-   Dim success = await Windows.System.Launcher.LaunchUriAsync(uri)
-
-   If success Then
-      ' URI launched
-   Else
-      ' URI launch failed
-   End If
-
-End Sub
+```cppwinrt
+// The URI to launch.
+Windows::Foundation::Uri m_uri{ L"http://www.bing.com" };
+...
+Windows::Foundation::IAsyncAction MainPage::DefaultLaunch()
+{
+    // Launch the URI.
+    if (co_await Windows::System::Launcher::LaunchUriAsync(m_uri))
+    {
+        // URI launched.
+    }
+    else
+    {
+        // URI launch failed.
+    }
+}
 ```
 
 ```cpp
@@ -130,7 +108,41 @@ void MainPage::DefaultLaunch()
 }
 ```
 
+```javascript
+// The URI to launch
+var uriToLaunch = "http://www.bing.com";
 
+// Create a Uri object from a URI string 
+var uri = new Windows.Foundation.Uri(uriToLaunch);
+
+// Launch the URI
+Windows.System.Launcher.launchUriAsync(uri).then(   
+   function (success) {
+      if (success) {
+        // URI launched
+      } else {
+        // URI launch failed
+      }
+   });
+```
+
+```vbnet
+' The URI to launch
+Dim uri As New Uri("http://www.bing.com")
+
+async Sub DefaultLaunch()
+
+   ' Launch the URI
+   Dim success = await Windows.System.Launcher.LaunchUriAsync(uri)
+
+   If success Then
+      ' URI launched
+   Else
+      ' URI launch failed
+   End If
+
+End Sub
+```
 
 ## -see-also
 [LaunchUriAsync(Uri, LauncherOptions)](launcher_launchuriasync_68890748.md), [LaunchUriAsync(Uri, LauncherOptions, ValueSet)](launcher_launchuriasync_569877360.md), [Association launching sample](http://go.microsoft.com/fwlink/p/?linkid=231484), [Guidelines for file types and URIs](http://msdn.microsoft.com/library/a6653b8f-763f-4d67-9d12-6af73a673bc5), [How to launch the default app for a URI (JavaScript)](http://msdn.microsoft.com/library/0f9fa8db-3e51-4cf8-879d-2b79a8ddbb7d), [Launch the default app for a URI](http://msdn.microsoft.com/library/7b0d0af5-d89e-4db0-9b79-90201d79974f)
