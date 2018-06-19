@@ -1,0 +1,19 @@
+---
+-api-id: T:Windows.UI.Input.Inking.Preview.PalmRejectionDelayZonePreview
+-api-type: winrt class
+---
+
+<!-- Class syntax.
+public class PalmRejectionDelayZonePreview : IClosable
+-->
+
+# Windows.UI.Input.Inking.Preview.PalmRejectionDelayZonePreview
+
+## -description
+
+## -remarks
+
+## -see-also
+
+## -examples
+
