@@ -11,9 +11,7 @@ public event Windows.Foundation.TypedEventHandler Failed<Windows.UI.Notification
 # Windows.UI.Notifications.ToastNotification.Failed
 
 ## -description
-Occurs when an error is caused when Windows attempts to raise a toast notification. Apps that are running subscribe to this event
-<!-- @WRITER erictill 10/26/2011 : and call <xref rid="w_ui_notif.toastfailedeventhandler" targtype="delegate">ToastFailedEventHandler</xref> in response -->
-.
+Occurs when an error is caused when Windows attempts to raise a toast notification. Apps that are running subscribe to this event.
 
 ## -remarks
 The reason for the toast's failure can be found in the [ErrorCode](toastfailedeventargs_errorcode.md) property of the [ToastFailedEventArgs](toastfailedeventargs.md) parameter.

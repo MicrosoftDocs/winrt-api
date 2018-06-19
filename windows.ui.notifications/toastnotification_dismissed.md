@@ -12,7 +12,6 @@ public event Windows.Foundation.TypedEventHandler Dismissed<Windows.UI.Notificat
 
 ## -description
 Occurs when a toast notification leaves the screen, either by expiring or being explicitly dismissed by the user. Apps that are running subscribe to this event.
-<!-- @WRITER erictill 10/26/2011 : and call <xref rid="w_ui_notif.toastdismissedeventhandler" targtype="delegate">ToastDismissedEventHandler</xref> in response -->
 
 ## -remarks
 The [ToastDismissalReason](toastdismissalreason.md) is included in the [ToastDismissedEventArgs](toastdismissedeventargs.md) parameter.

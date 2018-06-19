@@ -11,6 +11,9 @@ public class SettingsCommand : Windows.UI.Popups.IUICommand
 # Windows.UI.ApplicationSettings.SettingsCommand
 
 ## -description
+> [!NOTE]
+> [SettingsPane](settingspane.md) is deprecated, and might not work on all versions of Windows 10. Instead of using a [SettingsPane](settingspane.md), integrate settings options into the app experience. For more info, see [Guidelines for app settings](http://msdn.microsoft.com/library/2d765e90-3fa0-42f5-a5cb-bedc14c3f60a).
+
 Creates a settings command object that represents a settings entry. This settings command can be appended to the [ApplicationCommands](settingspanecommandsrequest_applicationcommands.md) vector.
 
 ## -remarks

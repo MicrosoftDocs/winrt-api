@@ -106,9 +106,6 @@ An object has been deselected through the swipe interaction.
 
 ### -field SwipeReveal:30
 Triggered by a press and hold on an item that can be cross-slide selected.
-<!-- @WRITER erictill 8/2/2011 : (it moves slightly in the cross-slide direction) to indicate to the user that the object can be selected. However, I believe we are trying to remove cross-slide reveal as a concept altogether. Nancy - do you have more on this now? We need to know if we should exclude cross-slide reveal from the documentation. -->
-
-<!--This description should be phrased like the others (starting with a noun, describing what happens to that item).-->
 
 ### -field EnterPage:31
 A page of content is brought in to the display.
@@ -125,10 +122,8 @@ Contents of a tile move up or down to show a part of the tile that is normally h
 ### -field UpdateBadge:35
 Update a tile's badge overlay.
 
-
 ## -remarks
 The [AnimationDescription](animationdescription.md) constructor uses the values of this enumeration to specify the animation.
-<!-- @WRITER erictill 7/21/2011 : Guidance on when to use each specific type of animation is provided separately in the "Building Your App" library, which will be surfaced in MSDN as part of the Windows User Experience Guidelines. -->
 
 ## -examples
 
