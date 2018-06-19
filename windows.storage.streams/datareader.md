@@ -19,7 +19,184 @@ Instances of DataReader objects do not support concurrent read operations. If an
 
 ## -examples
 
-The following example shows how to write and read strings to an in-memory stream. For the full code sample, see [Serializing and deserializing data sample](http://go.microsoft.com/fwlink/p/?LinkId=620535).
+The following code example shows how to write and read strings to an in-memory stream. For the full sample application in C# and in C++/CX, see [Serializing and deserializing data sample](http://go.microsoft.com/fwlink/p/?LinkId=620535).
+
+```csharp
+using System;
+using System.Diagnostics;
+using Windows.Foundation;
+using Windows.UI.Xaml;
+using Windows.UI.Xaml.Controls;
+using Windows.UI.Xaml.Navigation;
+
+// This is the click handler for the 'Copy Strings' button.  Here we will parse the
+// strings contained in the ElementsToWrite text block, write them to a stream using
+// DataWriter, retrieve them using DataReader, and output the results in the
+// ElementsRead text block.
+private async void TransferData(object sender, RoutedEventArgs e)
+{
+    // Initialize the in-memory stream where data will be stored.
+    using (var stream = new Windows.Storage.Streams.InMemoryRandomAccessStream())
+    {
+        // Create the data writer object backed by the in-memory stream.
+        using (var dataWriter = new Windows.Storage.Streams.DataWriter(stream))
+        {
+            dataWriter.UnicodeEncoding = Windows.Storage.Streams.UnicodeEncoding.Utf8;
+            dataWriter.ByteOrder = Windows.Storage.Streams.ByteOrder.LittleEndian;
+
+            // Parse the input stream and write each element separately.
+            string[] inputElements = ElementsToWrite.Text.Split(';');
+            foreach (string inputElement in inputElements)
+            {
+                uint inputElementSize = dataWriter.MeasureString(inputElement);
+                dataWriter.WriteUInt32(inputElementSize);
+                dataWriter.WriteString(inputElement);
+            }
+
+            // Send the contents of the writer to the backing stream.
+            await dataWriter.StoreAsync();
+
+            // For the in-memory stream implementation we are using, the flushAsync call 
+            // is superfluous,but other types of streams may require it.
+            await dataWriter.FlushAsync();
+
+            // In order to prolong the lifetime of the stream, detach it from the 
+            // DataWriter so that it will not be closed when Dispose() is called on 
+            // dataWriter. Were we to fail to detach the stream, the call to 
+            // dataWriter.Dispose() would close the underlying stream, preventing 
+            // its subsequent use by the DataReader below.
+            dataWriter.DetachStream();
+        }
+
+        // Create the input stream at position 0 so that the stream can be read 
+        // from the beginning.
+        using (var inputStream = stream.GetInputStreamAt(0))
+        {
+            using (var dataReader = new Windows.Storage.Streams.DataReader(inputStream))
+            {
+                // The encoding and byte order need to match the settings of the writer 
+                // we previously used.
+                dataReader.UnicodeEncoding = Windows.Storage.Streams.UnicodeEncoding.Utf8;
+                dataReader.ByteOrder = Windows.Storage.Streams.ByteOrder.LittleEndian;
+
+                // Once we have written the contents successfully we load the stream.
+                await dataReader.LoadAsync((uint)stream.Size);
+
+                var receivedStrings = "";
+
+                // Keep reading until we consume the complete stream.
+                while (dataReader.UnconsumedBufferLength > 0)
+                {
+                    // Note that the call to readString requires a length of "code units" 
+                    // to read. This is the reason each string is preceded by its length 
+                    // when "on the wire".
+                    uint bytesToRead = dataReader.ReadUInt32();
+                    receivedStrings += dataReader.ReadString(bytesToRead) + "\n";
+                }
+
+                // Populate the ElementsRead text block with the items we read 
+                // from the stream.
+                ElementsRead.Text = receivedStrings;
+            }
+        }
+    }
+}
+```
+
+```cppwinrt
+#include "pch.h"
+#include "WriteReadStream.h" // header file for WriteReadStream.xaml.
+#include <sstream>
+
+#include <winrt/Windows.Foundation.h>
+#include <winrt/Windows.Storage.Streams.h>
+
+using namespace winrt;
+...
+std::array<winrt::hstring, 5> m_inputElements{ L"Hello", L"World", L"1 2 3 4 5", L"Très bien!", L"Goodbye" };
+...
+WriteReadStream::WriteReadStream()
+{
+    InitializeComponent();
+
+    // Populate the text block with the input elements.
+    std::wstringstream stringstream;
+    for (winrt::hstring const& element : m_inputElements)
+    {
+        stringstream << element.c_str() << L";";
+    }
+    ElementsToWrite().Text(stringstream.str().c_str());
+}
+
+// This is the click handler for the 'Copy Strings' button. Here we will parse the
+// strings contained in the ElementsToWrite text block, write them to a stream using
+// DataWriter, retrieve them using DataReader, and output the results in the
+// ElementsRead text block.
+winrt::Windows::Foundation::IAsyncAction WriteReadStream::TransferData(
+    Windows::Foundation::IInspectable const& /* sender */,
+    Windows::UI::Xaml::RoutedEventArgs const& /* args */)
+{
+    // Initialize the in-memory stream where data will be stored.
+    Windows::Storage::Streams::InMemoryRandomAccessStream stream;
+
+    // Create the DataWriter object backed by the in-memory stream. When
+    // dataWriter goes out of scope, it closes the underlying stream.
+    Windows::Storage::Streams::DataWriter dataWriter{ stream };
+    dataWriter.UnicodeEncoding(Windows::Storage::Streams::UnicodeEncoding::Utf16LE);
+    dataWriter.ByteOrder(Windows::Storage::Streams::ByteOrder::LittleEndian);
+
+    // Create the data reader by using the input stream set at position 0 so that 
+    // the stream will be read from the beginning regardless of the position that
+    // the original stream ends up in after the store.
+    Windows::Storage::Streams::IInputStream inputStream{ stream.GetInputStreamAt(0) };
+    Windows::Storage::Streams::DataReader dataReader{ inputStream };
+    // The encoding and byte order need to match the settings of the writer that
+    // we previously used.
+    dataReader.UnicodeEncoding(Windows::Storage::Streams::UnicodeEncoding::Utf16LE);
+    dataReader.ByteOrder(Windows::Storage::Streams::ByteOrder::LittleEndian);
+
+    // Write the input data to the output stream. Serialize the elements by writing
+    // each string separately, preceded by its length in bytes.
+    for (winrt::hstring const& element : m_inputElements)
+    {
+        dataWriter.WriteUInt32(element.size());
+        dataWriter.WriteString(element);
+    }
+
+    // Send the contents of the writer to the backing stream.
+    unsigned int bytesStored{ co_await dataWriter.StoreAsync() };
+
+    // For the in-memory stream implementation we are using, the FlushAsync() call 
+    // is superfluous, but other types of streams may require it.
+    if (co_await dataWriter.FlushAsync())
+    {
+        try
+        {
+            // Once we've written the contents successfully, we load the stream.
+            unsigned int bytesLoaded{ co_await dataReader.LoadAsync((unsigned int)stream.Size()) };
+
+            std::wstringstream readFromStream;
+
+            // Keep reading until we consume the complete stream.
+            while (dataReader.UnconsumedBufferLength() > 0)
+            {
+                // Note that the call to ReadString requires a length of 
+                // "code units" to read. This is the reason each string is 
+                // preceded by its length when "on the wire".
+                unsigned int bytesToRead{ dataReader.ReadUInt32() };
+                readFromStream << dataReader.ReadString(bytesToRead).c_str() << std::endl;
+            }
+
+            // Populate the ElementsRead text block with the items we read from the stream
+            ElementsRead().Text(readFromStream.str().c_str());
+        }
+        catch (winrt::hresult_error const& ex)
+        {
+            ElementsRead().Text(L"Error: " + ex.message());
+        }
+    }
+}
+```
 
 ```cpp
 #include "pch.h"
@@ -131,94 +308,9 @@ Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
         }
     });
 }
-
-```
-
-```csharp
-
-using System;
-using System.Diagnostics;
-using Windows.Foundation;
-using Windows.UI.Xaml;
-using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Navigation;
-
-// This is the click handler for the 'Copy Strings' button.  Here we will parse the
-// strings contained in the ElementsToWrite text block, write them to a stream using
-// DataWriter, retrieve them using DataReader, and output the results in the
-// ElementsRead text block.
-private async void TransferData(object sender, RoutedEventArgs e)
-{
-    // Initialize the in-memory stream where data will be stored.
-    using (var stream = new Windows.Storage.Streams.InMemoryRandomAccessStream())
-    {
-        // Create the data writer object backed by the in-memory stream.
-        using (var dataWriter = new Windows.Storage.Streams.DataWriter(stream))
-        {
-            dataWriter.UnicodeEncoding = Windows.Storage.Streams.UnicodeEncoding.Utf8;
-            dataWriter.ByteOrder = Windows.Storage.Streams.ByteOrder.LittleEndian;
-
-            // Parse the input stream and write each element separately.
-            string[] inputElements = ElementsToWrite.Text.Split(';');
-            foreach (string inputElement in inputElements)
-            {
-                uint inputElementSize = dataWriter.MeasureString(inputElement);
-                dataWriter.WriteUInt32(inputElementSize);
-                dataWriter.WriteString(inputElement);
-            }
-
-            // Send the contents of the writer to the backing stream.
-            await dataWriter.StoreAsync();
-
-            // For the in-memory stream implementation we are using, the flushAsync call 
-            // is superfluous,but other types of streams may require it.
-            await dataWriter.FlushAsync();
-
-            // In order to prolong the lifetime of the stream, detach it from the 
-            // DataWriter so that it will not be closed when Dispose() is called on 
-            // dataWriter. Were we to fail to detach the stream, the call to 
-            // dataWriter.Dispose() would close the underlying stream, preventing 
-            // its subsequent use by the DataReader below.
-            dataWriter.DetachStream();
-        }
-
-        // Create the input stream at position 0 so that the stream can be read 
-        // from the beginning.
-        using (var inputStream = stream.GetInputStreamAt(0))
-        {
-            using (var dataReader = new Windows.Storage.Streams.DataReader(inputStream))
-            {
-                // The encoding and byte order need to match the settings of the writer 
-                // we previously used.
-                dataReader.UnicodeEncoding = Windows.Storage.Streams.UnicodeEncoding.Utf8;
-                dataReader.ByteOrder = Windows.Storage.Streams.ByteOrder.LittleEndian;
-
-                // Once we have written the contents successfully we load the stream.
-                await dataReader.LoadAsync((uint)stream.Size);
-
-                var receivedStrings = "";
-
-                // Keep reading until we consume the complete stream.
-                while (dataReader.UnconsumedBufferLength > 0)
-                {
-                    // Note that the call to readString requires a length of "code units" 
-                    // to read. This is the reason each string is preceded by its length 
-                    // when "on the wire".
-                    uint bytesToRead = dataReader.ReadUInt32();
-                    receivedStrings += dataReader.ReadString(bytesToRead) + "\n";
-                }
-
-                // Populate the ElementsRead text block with the items we read 
-                // from the stream.
-                ElementsRead.Text = receivedStrings;
-            }
-        }
-    }
-}
 ```
 
 ```javascript
-
 (function () {
     "use strict";
     var page = WinJS.UI.Pages.define("/html/write-read-stream.html", {
@@ -305,7 +397,6 @@ function transferData() {
         });
     };
 })();
-
 ```
 
 ## -see-also
