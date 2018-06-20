@@ -18,9 +18,13 @@ public enum ViewGrouping : int
 
 ### -field Default:0
 
+### -field WithSourceInBackground:3
+
+
 ## -remarks
 
 ## -see-also
 
 ## -examples
+
 

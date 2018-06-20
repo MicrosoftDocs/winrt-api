@@ -1,0 +1,21 @@
+---
+-api-id: P:Windows.UI.Xaml.UIElement.RotationTransition
+-api-type: winrt property
+---
+
+<!-- Property syntax.
+public ScalarTransition RotationTransition { get;  set; }
+-->
+
+# Windows.UI.Xaml.UIElement.RotationTransition
+
+## -description
+
+## -property-value
+
+## -remarks
+
+## -see-also
+
+## -examples
+

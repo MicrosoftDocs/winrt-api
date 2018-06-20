@@ -53,12 +53,16 @@ The preferred location of the flyout is centered on the screen.
 ### -field TopEdgeAlignedRight:6
 
 
+### -field Auto:13
+
+
 ## -remarks
 
 ## -examples
 
 ## -see-also
 [FlyoutBase.Placement](flyoutbase_placement.md), [Flyout](../windows.ui.xaml.controls/flyout.md), [MenuFlyout](../windows.ui.xaml.controls/menuflyout.md)
+
 
 
 

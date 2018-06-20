@@ -18,9 +18,25 @@ public enum FlyoutShowMode : int
 
 ### -field Standard:0
 
+### -field Auto:0
+
+
+### -field Standard:1
+
+
+### -field Transient:2
+
+
+### -field TransientWithDismissOnPointerMoveAway:3
+
+
 ## -remarks
 
 ## -see-also
 
 ## -examples
+
+
+
+
 
