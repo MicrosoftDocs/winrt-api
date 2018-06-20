@@ -11,11 +11,16 @@ public PackageUpdateAvailability PackageUpdateAvailability { get; }
 
 ## -description
 
+Describes the type of package update that's available.
+
 ## -property-value
+
+A [PackageUpdateAvailability](packageupdateavailability.md) value that indicates the type of update available.
 
 ## -remarks
 
 ## -see-also
 
-## -examples
+[Windows.ApplicationModel.PackageUpdateAvailability](packageupdateavailability.md), [Windows.ApplicationModel.Package.CheckUpdateAvailabilityAsync](package_checkupdateavailabilityasync_726867427.md)
 
+## -examples
