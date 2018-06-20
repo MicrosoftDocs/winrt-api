@@ -17,40 +17,7 @@ Exposes a collection of individual animation effects that are performed on a spe
 ## -examples
 This example shows the creation of an [AnimationDescription](animationdescription.md) object and its use. The *effect* and *target* parameters are assumed to have been previously assigned.
 
-
-<!-- @WRITER erictill 5/21/2012 : Need to show where those effect and target variables come from. You need them. This part confuses me. These are animationEffect and animationEffectTarget values. Those are the Major Animations, and they're made up of an assortment of scale, opacity, and translation animations. -->
-```javascript
-
-var animationDescription = new Windows.UI.Core.AnimationMetrics.AnimationDescription(effect, target);
-
-var StaggerDelay = animationDescription.staggerDelay;
-var StaggerDelayFactor = animationDescription.staggerDelayFactor;
-var DelayLimit = animationDescription.delayLimit;
-var ZOrder = animationDescription.zorder;
-
-var animations = animationDescription.animations;
-for (var i = 0; i < animations.size; i++) {
-    var animation = animations[i];
-
-    switch (animation.type) {
-        case animationMetrics.PropertyAnimationType.scale:
-            // Retrieve scale animation metrics
-            break;
-        case animationMetrics.PropertyAnimationType.translation:
-            // Retrieve translation animation metrics
-            break;
-        case animationMetrics.PropertyAnimationType.opacity:
-            
-            // Retrieve scale animation metrics
-            break;
-    }
-}
-```
-
-The following example shows the C# version of the same code.
-
 ```csharp
-
 using Windows.UI.Core.AnimationMetrics;
 
 AnimationDescription animationDescription = new AnimationDescription(effect, target);
@@ -91,18 +58,32 @@ foreach (var animation in animationDescription.Animations)
 }
 ```
 
-The following example shows the C++ version of the same code.
+```javascript
+var animationDescription = new Windows.UI.Core.AnimationMetrics.AnimationDescription(effect, target);
 
-```cpp
+var StaggerDelay = animationDescription.staggerDelay;
+var StaggerDelayFactor = animationDescription.staggerDelayFactor;
+var DelayLimit = animationDescription.delayLimit;
+var ZOrder = animationDescription.zorder;
 
-using namespace Windows::UI::Core::AnimationMetrics;
+var animations = animationDescription.animations;
+for (var i = 0; i < animations.size; i++) {
+    var animation = animations[i];
 
-
-
-                    
+    switch (animation.type) {
+        case animationMetrics.PropertyAnimationType.scale:
+            // Retrieve scale animation metrics
+            break;
+        case animationMetrics.PropertyAnimationType.translation:
+            // Retrieve translation animation metrics
+            break;
+        case animationMetrics.PropertyAnimationType.opacity:
+            
+            // Retrieve scale animation metrics
+            break;
+    }
+}
 ```
-
-
 
 ## -see-also
 [Animation metrics sample](http://go.microsoft.com/fwlink/p/?linkid=242462), [OpacityAnimation](opacityanimation.md), [ScaleAnimation](scaleanimation.md), [TranslationAnimation](translationanimation.md)

@@ -38,35 +38,8 @@ On the resulting Bézier curve, the x-coordinate represents time and the y-coord
 
 ## -examples
 To obtain an instance of the [ScaleAnimation](scaleanimation.md) class, you first obtain the collection of [animations](animationdescription_animations.md) in the [animation description](animationdescription.md), and then walk that array of animations to find any that are of type [scale](propertyanimationtype.md). The following examples shows this process. The *effect* and *target* parameters are assumed to have been previously assigned.
-<!-- @WRITER erictill 1/12/2012 : To obtain a pointer to this interface, get the <xref rid="w_ui_core_animmet.ipropertyanimation" targtype="interface_winrt">IPropertyAnimation</xref> object by using the <xref rid="w_ui_core_animmet.animationdescription_animations" targtype="property_winrt">AnimationDescription.Animations</xref> property and cast it as an <xref rid="w_ui_core_animmet.iscaleanimation" targtype="class_winrt">IScaleAnimation</xref>. -->
-
-```javascript
-
-var animationDescription = new Windows.UI.Core.AnimationMetrics.AnimationDescription(effect, target);
-
-var animations = animationDescription.animations;
-for (var i = 0; i < animations.size; i++) {
-    var animation = animations[i];
-
-    switch (animation.type) {
-        case animationMetrics.PropertyAnimationType.scale:
-            // Retrieve scale animation metrics
-            break;
-        case animationMetrics.PropertyAnimationType.translation:
-            // Retrieve translation animation metrics
-            break;
-        case animationMetrics.PropertyAnimationType.opacity:
-            
-            // Retrieve scale animation metrics
-            break;
-    }
-}
-```
-
-The following example shows the C# version of the same code.
 
 ```csharp
-
 using Windows.UI.Core.AnimationMetrics;
 
 AnimationDescription animationDescription = new AnimationDescription(effect, target);
@@ -96,7 +69,27 @@ foreach (var animation in animationDescription.Animations)
 }
 ```
 
+```javascript
+var animationDescription = new Windows.UI.Core.AnimationMetrics.AnimationDescription(effect, target);
 
+var animations = animationDescription.animations;
+for (var i = 0; i < animations.size; i++) {
+    var animation = animations[i];
+
+    switch (animation.type) {
+        case animationMetrics.PropertyAnimationType.scale:
+            // Retrieve scale animation metrics
+            break;
+        case animationMetrics.PropertyAnimationType.translation:
+            // Retrieve translation animation metrics
+            break;
+        case animationMetrics.PropertyAnimationType.opacity:
+            
+            // Retrieve scale animation metrics
+            break;
+    }
+}
+```
 
 ## -see-also
 [Animation metrics sample](http://go.microsoft.com/fwlink/p/?linkid=242462), [AnimationDescription](animationdescription.md)

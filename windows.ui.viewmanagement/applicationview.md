@@ -11,9 +11,6 @@ public class ApplicationView : Windows.UI.ViewManagement.IApplicationView, Windo
 
 ## -description
 
-<!-- @WRITER erictill 10/26/2011 : I think all of these ApplicationView* docs are just renames of the older ApplicationLayout docs. See your backup of deleted files for content. That one also has the comment that tells you who owns what in this namespace. -->
-
-<!--[DougE] That's correct. See Breaking Change: http://windows/windows8/RI/Lists/Breaking%20Changes/DispForm.aspx?ID=777&Source=http%3A%2F%2Fwindows%2Fwindows8%2FRI%2FLists%2FBreaking%2520Changes%2FTitles%2Easpx. The spec has also been updated.-->
 Represents the active application view and associated states and behaviors.
 
 ## -remarks

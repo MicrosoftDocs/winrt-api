@@ -20,45 +20,14 @@ In some cases the user may not have an app installed to handle the file that you
 
 You must set both of these preferred application properties to recommend an app. Setting one without the other will result in a failure.
 
-
-
 > [!NOTE]
 > You cannot set the preferred application properties and the fallback URI at the same time, since only one fallback may be used. The Launcher API will fail if both fallbacks are set.
-
-
 
 > [!IMPORTANT]
 > This property is only implemented on Desktop devices.
 
 ## -examples
-Call the [Launcher.LaunchFileAsync(IStorageFile, LauncherOptions) | launchFileAsync(IStorageFile, LauncherOptions)](launcher_launchfileasync_1480137410.md) method with **preferredApplicationDisplayName** set to the display name of an app in the Windows Store and the **preferredApplicationPackageFamilyName ** set to the package family name of an app in the Windows Store.
-
-```javascript
-// Path to the file in the app package to launch
-var imageFile = "images\\test.png";
-
-// Get the image file from the package's image directory
-Windows.ApplicationModel.Package.current.installedLocation.getFileAsync(imageFile).then(
-  function (file) {
-    // Set the recommended app
-    var options = new Windows.System.LauncherOptions();
-    options.preferredApplicationPackageFamilyName = “Contoso.FileApp_8wknc82po1e”;
-    options.preferredApplicationDisplayName = “Contoso File App”;
-
-
-    // Launch the retrieved file pass in the recommended app 
-    // in case the user has no apps installed to handle the file
-    Windows.System.Launcher.launchFileAsync(file, options).then(
-      function (success) {
-        if (success) {
-            // File launched
-        } else {
-            // File launch failed
-        }
-      });
-  });
-
-```
+Call the [Launcher.LaunchFileAsync(IStorageFile, LauncherOptions) | launchFileAsync(IStorageFile, LauncherOptions)](launcher_launchfileasync_1480137410.md) method with **preferredApplicationDisplayName** set to the display name of an app in the Windows Store and the **preferredApplicationPackageFamilyName** set to the package family name of an app in the Windows Store.
 
 ```csharp
 async void DefaultLaunch()
@@ -73,8 +42,8 @@ async void DefaultLaunch()
    {
       // Set the recommended app
       var options = new Windows.System.LauncherOptions();
-      options.PreferredApplicationPackageFamilyName = “Contoso.FileApp_8wknc82po1e”;
-      options.PreferredApplicationDisplayName = “Contoso File App”;
+      options.PreferredApplicationPackageFamilyName = "Contoso.FileApp_8wknc82po1e";
+      options.PreferredApplicationDisplayName = "Contoso File App";
 
 
       // Launch the retrieved file pass in the recommended app 
@@ -94,7 +63,39 @@ async void DefaultLaunch()
       // Could not find file
    }
 }
+```
 
+```cppwinrt
+Windows::Foundation::IAsyncAction MainPage::DefaultLaunch()
+{
+    // Get the app's installation folder.
+    Windows::Storage::StorageFolder installFolder{ Windows::ApplicationModel::Package::Current().InstalledLocation() };
+
+    Windows::Storage::StorageFile file{ co_await installFolder.GetFileAsync(L"Assets\\LockScreenLogo.scale-200.png") };
+
+    if (file)
+    {
+        // Set the recommended app.
+        Windows::System::LauncherOptions launcherOptions;
+        launcherOptions.PreferredApplicationPackageFamilyName(L"Contoso.FileApp_8wknc82po1e");
+        launcherOptions.PreferredApplicationDisplayName(L"Contoso File App");
+
+        // Launch the retrieved file.
+        bool success{ co_await Windows::System::Launcher::LaunchFileAsync(file, launcherOptions) };
+        if (success)
+        {
+            // File launched.
+        }
+        else
+        {
+            // File launch failed.
+        }
+    }
+    else
+    {
+        // Couldn't find file.
+    }
+}
 ```
 
 ```cpp
@@ -109,8 +110,8 @@ void MainPage::DefaultLaunch()
       {
          // Set the recommended app
          auto launchOptions = ref new Windows::System::LauncherOptions();
-         launchOptions-> preferredApplicationPackageFamilyName = “Contoso.FileApp_8wknc82po1e”;
-         launchOptions-> preferredApplicationDisplayName = “Contoso File App”;
+         launchOptions->PreferredApplicationPackageFamilyName = "Contoso.FileApp_8wknc82po1e";
+         launchOptions->PreferredApplicationDisplayName = "Contoso File App";
          
          // Launch the retrieved file pass in the recommended app 
          // in case the user has no apps installed to handle the file
@@ -133,7 +134,32 @@ void MainPage::DefaultLaunch()
       }
    });
 }
+```
 
+```javascript
+// Path to the file in the app package to launch
+var imageFile = "images\\test.png";
+
+// Get the image file from the package's image directory
+Windows.ApplicationModel.Package.current.installedLocation.getFileAsync(imageFile).then(
+  function (file) {
+    // Set the recommended app
+    var options = new Windows.System.LauncherOptions();
+    options.preferredApplicationPackageFamilyName = "Contoso.FileApp_8wknc82po1e";
+    options.preferredApplicationDisplayName = "Contoso File App";
+
+
+    // Launch the retrieved file pass in the recommended app 
+    // in case the user has no apps installed to handle the file
+    Windows.System.Launcher.launchFileAsync(file, options).then(
+      function (success) {
+        if (success) {
+            // File launched
+        } else {
+            // File launch failed
+        }
+      });
+  });
 ```
 
 ```vb
@@ -148,8 +174,8 @@ async Sub DefaultLaunch()
    If file IsNot Nothing Then
       ' Set the recommended app
       Dim options = Windows.System.LauncherOptions()
-      options.PreferredApplicationPackageFamilyName = “Contoso.FileApp_8wknc82po1e”;
-      options.PreferredApplicationDisplayName = “Contoso File App”;
+      options.PreferredApplicationPackageFamilyName = "Contoso.FileApp_8wknc82po1e";
+      options.PreferredApplicationDisplayName = "Contoso File App";
 
       ' Launch the retrieved file pass in the recommended app 
       ' in case the user has no apps installed to handle the file
@@ -164,11 +190,7 @@ async Sub DefaultLaunch()
       ' Could not find file
    End If
 End Sub
-
-
 ```
-
-
 
 ## -see-also
 [Association launching sample](http://go.microsoft.com/fwlink/p/?linkid=231484), [How to launch the default app for a file (JavaScript)](http://msdn.microsoft.com/library/876edae5-f1a8-45f9-a1a6-50efb1025f96), [Launch the default app for a file](http://msdn.microsoft.com/library/bb45fcaf-df93-4c99-a8b5-59b799c7bd98), [How to launch the default app for a URI (JavaScript)](http://msdn.microsoft.com/library/0f9fa8db-3e51-4cf8-879d-2b79a8ddbb7d), [Launch the default app for a URI](http://msdn.microsoft.com/library/7b0d0af5-d89e-4db0-9b79-90201d79974f), [Guidelines for file types and URIs](http://msdn.microsoft.com/library/a6653b8f-763f-4d67-9d12-6af73a673bc5), [Launcher.LaunchFileAsync(IStorageFile, LauncherOptions)](launcher_launchfileasync_1480137410.md), [Launcher.LaunchUriAsync(Uri, LauncherOptions)](launcher_launchuriasync_68890748.md)

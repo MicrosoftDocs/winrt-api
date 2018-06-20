@@ -12,7 +12,6 @@ public void StartPeriodicUpdate(Windows.Foundation.Uri badgeContent, Windows.Fou
 
 ## -description
 Begins a series of timed updates for the badge from a web resource that the updater is bound to. Updates begin at a specified time. Note that only web resources (http/https) are allowed in a periodic update.
-<!-- @WRITER erictill 1/13/2012 : Nathan wants the following added, but I have no idea what he's talking about. Wrote him. : Only one periodic update can occur for each tile (per type). -->
 
 ## -parameters
 ### -param badgeContent

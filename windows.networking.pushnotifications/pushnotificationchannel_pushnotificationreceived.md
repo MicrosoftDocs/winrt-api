@@ -11,7 +11,6 @@ public event Windows.Foundation.TypedEventHandler PushNotificationReceived<Windo
 
 ## -description
 Fires when a push notification has arrived on this channel.
-<!-- @WRITER erictill 10/21/2011 : Running apps subscribe to this event and call <xref rid="w_net_pushnotif.pushnotificationreceivedeventhandler" targtype="delegate">PushNotificationReceivedEventHandler</xref>in response. -->
 
 ## -remarks
 Windows Push Notification Services (WNS) sends this event only when the notification's target app is in the foreground. If the app is suspended, it does not receive the event.

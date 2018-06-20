@@ -21,8 +21,6 @@ Use tags to replace notifications in the stack. If a new notification arrives wi
 
 A new notification with a matching tag replaces any existing notification with the same tag, but the new notification does not necessarily inherit the older notification's place in the queue.
 
-
-<!-- @WRITER erictill 10/27/2011 : Duplicates content in How to Tag Tiles for AutoCycle. -->
 The tag should relate to the content of the notification. For example, a notification in a stock quote app could use the stock symbol (such as "msft") while a weather app notification could be tagged with the zip code (such as "98052") of the forecast. Do not simply number your notifications as "notification1", "notification2" and so on.
 
 ## -examples

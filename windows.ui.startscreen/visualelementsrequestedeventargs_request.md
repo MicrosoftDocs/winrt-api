@@ -14,7 +14,6 @@ Gets the [VisualElementsRequest](visualelementsrequest.md) object for the event.
 
 ## -property-value
 The object associated with the event.
-<!-- @WRITER erictill 5/28/2013 : Terrible. -->
 
 ## -remarks
 

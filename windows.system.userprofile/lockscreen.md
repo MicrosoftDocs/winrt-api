@@ -19,31 +19,39 @@ Provides properties and methods to manage the full-screen image used as the lock
 
 This example uses the [SetImageFileAsync](lockscreen_setimagefileasync.md) method of this class to set the lock screen image. The variable *file* is assumed to be a previously assigned image.
 
-```javascript
-
-Windows.System.UserProfile.LockScreen.setImageFileAsync(file);
-```
-
 ```csharp
-
 Windows.System.UserProfile.LockScreen.SetImageFileAsync(file);
 ```
 
-```cpp
+```cppwinrt
+Windows::Foundation::IAsyncAction MainPage::ExampleCoroutineAsync(Windows::Storage::StorageFile const& file)
+{
+    co_await Windows::System::UserProfile::LockScreen::SetImageFileAsync(file);
+}
+```
 
+```cpp
 using namespace Windows::System::UserProfile;
 LockScreen::SetImageFileAsync(file)
+```
+
+```javascript
+Windows.System.UserProfile.LockScreen.setImageFileAsync(file);
 ```
 
 This example uses the [GetImageStream](lockscreen_getimagestream.md) method of this class to retrieve the lock screen image.
 
 ```csharp
-
 IRandomAccessStream imageStream = LockScreen.GetImageStream();
 ```
 
-```cpp
+```cppwinrt
+Windows::Storage::Streams::IRandomAccessStream imageStream{
+    Windows::System::UserProfile::LockScreen::GetImageStream()
+};
+```
 
+```cpp
 auto imageStream = Windows::System::UserProfile::LockScreen::GetImageStream();
 ```
 
