@@ -10,8 +10,10 @@ public IAsyncAction NamedPolicy.ClearAllPoliciesAsync()
 # Windows.Management.Policies.NamedPolicy.ClearAllPoliciesAsync
 
 ## -description
+Clears all policies.
 
 ## -returns
+An object for managing the asynchronous action.
 
 ## -remarks
 

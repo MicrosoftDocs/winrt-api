@@ -10,7 +10,7 @@ public class NamedPolicy
 # Windows.Management.Policies.NamedPolicy
 
 ## -description
-Provides functionality to get Mobile Device Management (MDM) policy information.
+Provides functionality to get and set Mobile Device Management (MDM) policy information.
 
 ## -remarks
 

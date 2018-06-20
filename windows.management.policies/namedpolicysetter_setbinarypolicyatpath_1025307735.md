@@ -10,13 +10,17 @@ public void NamedPolicySetter.SetBinaryPolicyAtPath(String area, String name, IB
 # Windows.Management.Policies.NamedPolicySetter.SetBinaryPolicyAtPath
 
 ## -description
+Sets the binary MDM policy.
 
 ## -parameters
 ### -param area
+A string representing the area name for a policy.
 
 ### -param name
+A string representing the name of the policy.
 
 ### -param policyValue
+Binary value of the MDM policy.
 
 ## -remarks
 

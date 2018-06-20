@@ -10,8 +10,10 @@ public User User { get; }
 # Windows.Management.Policies.NamedPolicySetter.User
 
 ## -description
+Gets the user object of the policy setter.
 
 ## -property-value
+The policy setter user.
 
 ## -remarks
 
