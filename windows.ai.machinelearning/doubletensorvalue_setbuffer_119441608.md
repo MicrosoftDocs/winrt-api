@@ -8,7 +8,7 @@ public void DoubleTensorValue.SetBuffer(Double[] data)
 -->
 
 # Windows.AI.MachineLearning.DoubleTensorValue.SetBuffer
-d
+
 ## -description
 
 ## -parameters
