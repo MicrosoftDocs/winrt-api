@@ -1,0 +1,30 @@
+---
+-api-id: M:Windows.Devices.Display.Core.DisplayDevice.CreateSimpleScanout(Windows.Devices.Display.Core.DisplaySource,Windows.Devices.Display.Core.DisplaySurface,System.UInt32,System.UInt32)
+-api-type: winrt method
+---
+
+<!-- Method syntax.
+public DisplayScanout DisplayDevice.CreateSimpleScanout(DisplaySource pSource, DisplaySurface pSurface, UInt32 SubResourceIndex, UInt32 SyncInterval)
+-->
+
+# Windows.Devices.Display.Core.DisplayDevice.CreateSimpleScanout
+
+## -description
+
+## -parameters
+### -param pSource
+
+### -param pSurface
+
+### -param SubResourceIndex
+
+### -param SyncInterval
+
+## -returns
+
+## -remarks
+
+## -see-also
+
+## -examples
+
