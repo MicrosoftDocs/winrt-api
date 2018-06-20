@@ -10,9 +10,6 @@ public string AdvertisingId { get; }
 # Windows.System.UserProfile.AdvertisingManager.AdvertisingId
 
 ## -description
-<!-- @WRITER erictill 8/16/2013 : Note to John - This description wording comes from the privacy statement. We're stuck with it. -->
-
-
 Retrieves a unique ID used to provide more relevant advertising. If the advertising ID feature is turned off, no ID is retrieved.
 
 ## -property-value
@@ -22,8 +19,6 @@ The advertising ID is represented as an alphanumeric string. When the advertisin
 This property retrieves a unique ID used to provide more relevant advertising by understanding which apps are used by the user and how they are used. It is also used to improve quality of service by determining the frequency and effectiveness of ads, and to detect fraud and security issues. This ID is per-user, per-device; all apps for a single user on a device have the same advertising ID.
 
 If the advertising ID feature is turned off, no ID is retrieved. The advertising ID feature is turned on if the user chooses express settings when installing Windows. The feature can be turned off by the user, either during the custom setup process when installing Windows or at any time later through the **Privacy** page of **PC Settings**. It can also be turned off through group policy.
-<!-- @WRITER erictill 8/16/2013 : Seems worth mention. People always seem to be asking about this. -->
-
 
 > [!NOTE]
 > If the advertising ID feature is turned off by the user during the new device customization process, the feature will be turned off by default for any user account added to the device later. If they want to use the advertising ID, those users will have to explicitly turn the feature on through **PC Settings**.
@@ -32,22 +27,21 @@ When the feature is turned off and then on again, Windows creates a new advertis
 
 This property is retrieved as shown here: 
 
-```javascript
-
-var advertisingId = Windows.System.UserProfile.AdvertisingManager.advertisingId;
-```
-
 ```csharp
-
 var advertisingId = Windows.System.UserProfile.AdvertisingManager.AdvertisingId;
 ```
 
-```cpp
+```cppwinrt
+winrt::hstring advertisingId{ Windows::System::UserProfile::AdvertisingManager::AdvertisingId() };
+```
 
+```cpp
 auto advertisingId = Windows::System::UserProfile::AdvertisingManager::AdvertisingId;
 ```
 
-
+```javascript
+var advertisingId = Windows.System.UserProfile.AdvertisingManager.advertisingId;
+```
 
 ## -examples
 

@@ -24,6 +24,6 @@ An asynchronous operation that, on successful completion, returns a [StoreCanAcq
 > Downloadable content (DLC) packages are not available to all developer accounts.
 
 ## -see-also
-[AcquireStoreLicenseForOptionalPackageAsync](acquirestorelicenseforoptionalpackageasync.md)
+[AcquireStoreLicenseForOptionalPackageAsync](storecontext_acquirestorelicenseforoptionalpackageasync_1044105908.md)
 
 ## -examples

@@ -11,9 +11,7 @@ public event Windows.Foundation.TypedEventHandler Activated<Windows.UI.Notificat
 # Windows.UI.Notifications.ToastNotification.Activated
 
 ## -description
-Occurs when user activates a toast notification through a click or touch. Apps that are running subscribe to this event
-<!-- @WRITER erictill 10/26/2011 : and call <xref rid="w_ui_notif.toastactivatedeventhandler" targtype="delegate">ToastActivatedEventHandler</xref> in response -->
-.
+Occurs when user activates a toast notification through a click or touch. Apps that are running subscribe to this event.
 
 ## -remarks
 In the case of toast raised by a desktop app, that app must subscribe to at least the [Activated](toastnotification_activated.md) event so that it can handle the expected activation of the app from the toast when the user selects it.

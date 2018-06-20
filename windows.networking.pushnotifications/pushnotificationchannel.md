@@ -11,7 +11,7 @@ public class PushNotificationChannel : Windows.Networking.PushNotifications.IPus
 
 ## -description
 Represents a delivery vehicle and addressing mechanism for push notifications.
-<!-- @WRITER erictill 1/3/2012 : WHAT??? -->
+
 The channel Uniform Resource Identifier (URI)represented by this interface is used by a third-party application server to communicate with the Windows Push Notification Services (WNS). The push notification channel is used by the client to intercept notifications.
 
 ## -remarks

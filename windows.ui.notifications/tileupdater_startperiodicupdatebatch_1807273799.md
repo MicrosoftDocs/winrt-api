@@ -31,13 +31,9 @@ The frequency with which the Uniform Resource Identifier (URI) is polled for new
 
 To use the notification queue, you must first enable it for your tile with this line of code:
 
-
-
 ```javascript
 Windows.UI.Notifications.TileUpdateManager.createTileUpdaterForApplication().enableNotificationQueue(true);
 ```
-
-
 
 This API only needs to be called once in your app's lifetime, but there is no harm in calling it each time the app launches.
 
@@ -57,12 +53,9 @@ An example is shown here:
 X-WNS-Tag: stockMSFT
 ```
 
-
-
 ### Setting an expiration time for periodic updates
 
 Tiles expire by default after three days. If your notification content has a significantly different useful lifespan— shorter or longer— you should explicitly set an expiration time for each notification. This prevents stale or irrelevant content from remaining in the queue. This is especially important if the user's machine loses Internet connectivity for a long period of time.
-<!-- @WRITER erictill 4/19/2012 : why? -->
 
 For example, during active trading, it would be advisable for a stock app to set the expiration on a stock price notification to twice that of your polling interval, such as a notification that expires one hour after it is sent if you poll for an update every half-hour. In the case of a news app, an expiration of one day for a tile that shows the top daily news would be appropriate.
 

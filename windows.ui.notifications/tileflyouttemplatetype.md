@@ -21,8 +21,6 @@ Eight sub-tiles that surround a central medium (150x150) tile. Each sub-tile sup
 + Sub-tiles 1-4 support an image optionally overlaid with a single text string normally used as a label. If the user hovers over one of these sub-tiles, the text scrolls.
 + Sub-tiles 5-8 support an image optionally overlaid with one or more strings from a set of 11 possible strings, each of which provides its own placement and font size on the sub-tile.
 
-
-
 ## -remarks
 ### Sub-tile configurations
 
@@ -91,106 +89,6 @@ Valid text elements: 1
 Valid text elements: 
 <ul><li>1 ("Label" - bottom)</li><li>2 ("Headline" - upper)</li><li>3 ("Headline" - lower)</li><li>6 ("Label" - upper)</li><li>7 ("Label" - lower)</li></ul></td><td><img src="images/TileFlyoutConfig09.png" alt="Tile flyout configuration 9 example" /></td></tr>
 </table>
-
-
-<!-- @WRITER erictill 5/6/2014 :<rem>-->
-
-<!-- @WRITER erictill 5/6/2014 : Safe to assume that left and right switches on RTL languages? -->
-
-<!-- @WRITER erictill 5/6/2014 : On element 2, it wraps? Do the others? And if they do, do they push the others down or overlay them? -->
-
-<!-- @WRITER erictill 5/6/2014 : On items 2-5, what if item 2 is omitted? Does it take the upper place or remain in place as though an invisible element 2 is there? -->
-
-<!-- @WRITER erictill 5/6/2014 :
-                <p>The following table explains the use of the different strings.
-                    
-                    <table class="clsStd">
-                        <tr>
-                            <th>Text element ID</th>
-                            <th>Details</th>
-                        </tr>
-                        <tr>
-                            <td>1</td>
-                            <td>
-                                <list>
-                                    <item>Placement: lower left</item>
-                                    <item>Font size: small</item>
-                                    <item>Similar to an app's display name</item>
-                                </list>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>
-                                <list>
-                                    <item>Placement: upper left</item>
-                                    <item>Font size: large</item>
-                                    <item>Elements 2-5 form a list. This is the first entry in the list.</item>
-                                </list>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>
-                                <list>
-                                    <item>Placement: below text element 2</item>
-                                    <item>Font size: large</item>
-                                    <item>Elements 2-5 form a list. This is the 2nd entry in the list.</item>
-                                </list>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>4</td>
-                            <td>
-                                <list>
-                                    <item>Placement: below text element 3</item>
-                                    <item>Font size: large</item>
-                                    <item>Elements 2-5 form a list. This is the 3rd entry in the list.</item>
-                                </list>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>5</td>
-                            <td>
-                                <list>
-                                    <item>Placement: below text element 4</item>
-                                    <item>Font size: large</item>
-                                    <item>Elements 2-5 form a list. This is the 4th entry in the list.</item>
-                                </list>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>6</td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>7</td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>8</td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>9</td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>10</td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>11</td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                    </table>
-                </p></rem> -->
 
 ## -examples
 

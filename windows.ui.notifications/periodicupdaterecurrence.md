@@ -12,7 +12,6 @@ public enum Windows.UI.Notifications.PeriodicUpdateRecurrence : int
 
 ## -description
 Specifies the time period for subsequent polls of the tile or badge data source for new content.
-<!-- @WRITER erictill 12/13/2011 : Question: Starting when? -->
 Used by [BadgeUpdater.StartPeriodicUpdate](badgeupdater_startperiodicupdate.md), [TileUpdater.StartPeriodicUpdate](tileupdater_startperiodicupdate.md), and [TileUpdater.StartPeriodicUpdateBatch](tileupdater_startperiodicupdatebatch.md).
 
 ## -enum-fields
