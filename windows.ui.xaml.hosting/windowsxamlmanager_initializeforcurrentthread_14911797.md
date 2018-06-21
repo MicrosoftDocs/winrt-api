@@ -10,17 +10,17 @@ public WindowsXamlManager WindowsXamlManager.InitializeForCurrentThread()
 # Windows.UI.Xaml.Hosting.WindowsXamlManager.InitializeForCurrentThread
 
 ## -description
-Initializes the UWP XAML framework early in your desktop application's lifecycle so you can then create [Windows.UI.Xaml.UIElement](../windows.ui.xaml/uielement.md) objects before you instantiate a [DesktopWindowXamlSource](desktopwindowxamlsource.md) object. These [Windows.UI.Xaml.UIElement](../windows.ui.xaml/uielement.md) objects can then be set as the [Content](desktopwindowxamlsource_content.md) of a [DesktopWindowXamlSource](desktopwindowxamlsource.md) to host UWP XAML elements.
+Initializes the framework for hosting [Windows.UI.Xaml.UIElement](../windows.ui.xaml/uielement.md) content in a non-UWP desktop application (for example, a WPF or Windows Forms application) on the current thread.
 
 ## -returns
-An object that initializes the [Windows.UI.Xaml.UIElement](../windows.ui.xaml/uielement.md) objects that you instantiate after calling this method.
+The object that represents the initialized framework for hosting [Windows.UI.Xaml.UIElement](../windows.ui.xaml/uielement.md) content on the current thread.
 
 ## -remarks
-You only need to call this method if you create [Windows.UI.Xaml.UIElement](../windows.ui.xaml/uielement.md) objects before you create the **DesktopWindowXamlSource** object in which they will be hosted. In this case, you must call **InitializeForCurrentThread** before you instantiate the [Windows.UI.Xaml.UIElement](../windows.ui.xaml/uielement.md) objects.
+Call this method early in your desktop application's lifecycle if you want to create [Windows.UI.Xaml.UIElement](../windows.ui.xaml/uielement.md) objects before you instantiate the [DesktopWindowXamlSource](desktopwindowxamlsource.md) object that will host them. In this case, you must call **InitializeForCurrentThread** before you instantiate the [Windows.UI.Xaml.UIElement](../windows.ui.xaml/uielement.md) objects.
 
-If you create a **DesktopWindowXamlSource** object before you create the [Windows.UI.Xaml.UIElement](../windows.ui.xaml/uielement.md) objects that will be hosted in it, you don’t need to call this method. In this scenario, the UWP XAML framework makes sure all the objects are initialized to the same thread.
+If you create a **DesktopWindowXamlSource** object before you create the [Windows.UI.Xaml.UIElement](../windows.ui.xaml/uielement.md) objects that will be hosted in it, you don’t need to call this method. In this scenario, the framework for hosting [Windows.UI.Xaml.UIElement](../windows.ui.xaml/uielement.md) content makes sure all the objects are initialized to the same thread.
 
-You can create as many [WindowsXamlManager](windowsxamlmanager.md) objects as you want on a given thread. However, each object holds a reference to the UWP XAML framework, and therefore it is critical to **Close** (**Dispose** in .NET) the objects to ensure that XAML resources are eventually released. 
+You can create as many [WindowsXamlManager](windowsxamlmanager.md) objects as you want on a given thread. However, each object holds a reference to the UWP XAML framework, and therefore you must **Close** (**Dispose** in .NET) the objects to ensure that XAML resources are eventually released.
 
 ## -see-also
 
@@ -44,4 +44,3 @@ void UIThreadProc()
     // The WindowsXamlManager will be disposed here.
 }
 ```
-
