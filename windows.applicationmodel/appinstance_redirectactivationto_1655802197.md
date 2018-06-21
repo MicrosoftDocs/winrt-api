@@ -14,7 +14,7 @@ Redirects activation of the current app instance to the specified instance.
 
 ## -remarks
 Redirection is a terminal operation.
-After redirecting, the app can call only [CoreApplication.Exit](coreapplication_exit_1158854104.md). 
+After redirecting, the app can call only [CoreApplication.Exit](../windows.applicationmodel.core/coreapplication_exit_1158854104.md). 
 After the redirection, the app is closed. 
 
 An app indicates whether it supports multiple instances in its manifest.
@@ -25,7 +25,7 @@ There is a potential race condition if an app identifies an instance for redirec
 In this case, this activation fails. 
 
 ## -see-also
-[CoreApplication.Exit](coreapplication_exit_1158854104.md)
+[CoreApplication.Exit](../windows.applicationmodel.core/coreapplication_exit_1158854104.md)
 
 ## -examples
 This example redirects activation to the instance recommended by the shell.
