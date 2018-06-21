@@ -10,8 +10,10 @@ public DependencyProperty AnimationStateProperty { get; }
 # Windows.UI.Xaml.Controls.Maps.MapTileSource.AnimationStateProperty
 
 ## -description
+Identifies the [AnimationState](maptilesource_animationstate.md) dependency property.
 
 ## -property-value
+The identifier for the [AnimationState](maptilesource_animationstate.md) dependency property.
 
 ## -remarks
 

@@ -10,8 +10,10 @@ public DependencyProperty FrameCountProperty { get; }
 # Windows.UI.Xaml.Controls.Maps.MapTileSource.FrameCountProperty
 
 ## -description
+Identifies the [FrameCount](maptilesource_framecount.md) dependency property.
 
 ## -property-value
+The identifier for the [FrameCount](maptilesource_framecount.md) dependency property.
 
 ## -remarks
 
