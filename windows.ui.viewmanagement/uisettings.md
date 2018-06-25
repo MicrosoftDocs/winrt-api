@@ -14,9 +14,6 @@ Contains a set of common app user interface settings and operations.
 
 ## -remarks
 
-
-
-
 ```cpp
 void SDKSample::HighContrast::UI::UIGetSettings_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 { 
@@ -73,8 +70,6 @@ void SDKSample::HighContrast::UI::UIGetSettings_Click(Platform::Object^ sender, 
   }
 }
 ```
-
-
 
 ## -examples
 

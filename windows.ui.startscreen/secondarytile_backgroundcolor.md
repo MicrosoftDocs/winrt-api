@@ -25,23 +25,18 @@ If this property is not set, its value is inherited from the background color of
 ## -examples
 The following lines show different ways to express the color through this property.
 
-```javascript
-
-secondaryTile.backgroundColor = Windows.UI.Colors.magenta;
-```
-
 ```csharp
-
 secondaryTile.BackgroundColor = Windows.UI.Color.Magenta;
 secondaryTile.BackgroundColor = Windows.UI.Color.FromArgb(255, 255, 255, 255);
 ```
 
 ```cpp
-
 secondaryTile->BackgroundColor = Windows::UI::Colors::Magenta;
 secondaryTile->BackgroundColor = Windows::UI::ColorHelper::FromArgb(0, 255, 255, 120);
 ```
 
-
+```javascript
+secondaryTile.backgroundColor = Windows.UI.Colors.magenta;
+```
 
 ## -see-also

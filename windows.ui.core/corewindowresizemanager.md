@@ -15,10 +15,18 @@ Defines a type used to manage [CoreWindow.SizeChanged](corewindow_sizechanged.md
 ## -remarks
 When [CoreWindow-&gt;SizeChanged](corewindow_sizechanged.md) is fired, call the static [CoreWindowResizeManager::GetForCurrentView](corewindowresizemanager_getforcurrentview.md) method to obtain an instance of this type for the current [CoreWindow](corewindow.md).
 
-
+```cppwinrt
+if (m_windowSizeChangeInProgress)
+{
+    // A window size change has been initiated and the app has just completed presenting
+    // the first frame with the new size. Notify the resize manager so that we can abbreviate
+    // any resize animation and prevent unnecessary delays.
+    Windows::UI::Core::CoreWindowResizeManager::GetForCurrentView().NotifyLayoutCompleted();
+    m_windowSizeChangeInProgress = false;
+}
+```
 
 ```cpp
-
 if (m_windowSizeChangeInProgress)
 {
  // A window size change has been initiated and the app has just completed presenting
@@ -28,8 +36,6 @@ if (m_windowSizeChangeInProgress)
  m_windowSizeChangeInProgress = false;
 }
 ```
-
-
 
 ## -examples
 
