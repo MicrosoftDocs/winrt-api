@@ -17,30 +17,33 @@ This object is returned by a delegate registered for the [CoreWindow.SizeChanged
 
 
 
-```cpp
-
-// returning window size change events data through WindowSizeChangedEventArgs
-
-void MyCoreWindowEvents::SetWindow( // implementation called by CoreApplication::Run(), provided for context
-    _In_ CoreWindow^ window
-    )
-{
-   
-    // ...
-    window->SizeChanged +=
-        ref new TypedEventHandler<CoreWindow^, WindowSizeChangedEventArgs^>(this, &CoreWindowEvents::OnWindowSizeChanged)
-
-    // ...
-   
-}
-
-```
-
-
-
 > [!NOTE]
 > : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://go.microsoft.com/fwlink/p/?linkid=258275).
 
 ## -examples
+
+```cppwinrt
+void SetWindow(CoreWindow const & window)
+{
+    ...
+    window.SizeChanged({ this, &App::OnWindowSizeChanged });
+}
+
+// Size changed data in WindowSizeChangedEventArgs.
+void OnWindowSizeChanged(Windows::UI::Core::CoreWindow const& /* sender */, Windows::UI::Core::WindowSizeChangedEventArgs const& /* args */) {}
+```
+
+```cpp
+// returning window size change events data through WindowSizeChangedEventArgs
+void MyCoreWindowEvents::SetWindow( // implementation called by CoreApplication::Run(), provided for context
+    _In_ CoreWindow^ window
+    )
+{
+    // ...
+    window->SizeChanged +=
+        ref new TypedEventHandler<CoreWindow^, WindowSizeChangedEventArgs^>(this, &CoreWindowEvents::OnWindowSizeChanged)
+    // ...
+}
+```
 
 ## -see-also

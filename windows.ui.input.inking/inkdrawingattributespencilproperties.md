@@ -32,9 +32,11 @@ In the code-behind, we define a `SetPencilInkStyle()` function to specify the pe
 + If [InkDrawingAttributesKind](inkdrawingattributeskind.md) is [Pencil](inkdrawingattributeskind.md), set the [Opacity](inkdrawingattributespencilproperties_opacity.md) attribute.
 + Call [UpdateDefaultDrawingAttributes](inkpresenter_updatedefaultdrawingattributes.md) to set the [InkDrawingAttributes](inkdrawingattributes.md) used by the [InkPresenter](inkpresenter.md) when rendering a new [InkStroke](inkstroke.md) on an [InkCanvas](../windows.ui.xaml.controls/inkcanvas.md) control.
 
-```csharp
+```xaml
 <InkCanvas x:Name="inkCanvas"/>
+```
 
+```csharp
 public sealed partial class Sample : Page
 {
   public SetPencilInkStyle()
@@ -51,9 +53,24 @@ public sealed partial class Sample : Page
 }
 ```
 
-```cpp
-<InkCanvas x:Name = "inkCanvas" / >
+```cppwinrt
+struct MainPage : MainPageT<MainPage>
+{
+    void SetPencilInkStyle()
+    {
+        // Initialize the pencil stroke attributes.
+        auto pencilAttributes{ Windows::UI::Input::Inking::InkDrawingAttributes::CreateForPencil() };
+        pencilAttributes.Color(Windows::UI::Colors::Red());
+        pencilAttributes.Size({ 3, 3 });
+        WINRT_ASSERT(pencilAttributes.Kind() == Windows::UI::Input::Inking::InkDrawingAttributesKind::Pencil);
+        pencilAttributes.PencilProperties().Opacity(.5f);
+        // Update the InkPresenter with the pencil attributes.
+        m_inkCanvas.InkPresenter().UpdateDefaultDrawingAttributes(pencilAttributes);
+    }
+}
+```
 
+```cpp
 public sealed partial class Sample : Page
 {
   public SetPencilInkStyle()
@@ -68,8 +85,7 @@ public sealed partial class Sample : Page
     inkCanvas->InkPresenter->UpdateDefaultDrawingAttributes(pencilAttributes);
   }
 }
-``
-
+```
 
 ## -see-also
 
