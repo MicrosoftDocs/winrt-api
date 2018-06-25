@@ -22,9 +22,21 @@ public enum LampPurposes : uint
 
 ### -field Accent:2
 
+### -field Illumination:16
+
+
+### -field Presentation:32
+
+
+### -field Undefined:0
+
+
 ## -remarks
 
 ## -see-also
 
 ## -examples
+
+
+
 
