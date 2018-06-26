@@ -19,8 +19,6 @@ One scenario for [DispatcherTimer](dispatchertimer.md) is to check properties on
 
 Other scenarios for [DispatcherTimer](dispatchertimer.md) include checking for state changes that don't have related events, or for periodic UI updates that can't use a storyboarded animation or a two-way binding.
 
-
-
 > [!TIP]
 > If you're migrating Microsoft Silverlight or Windows Presentation Foundation (WPF) code, the [DispatcherTimer](dispatchertimer.md) and the related **Dispatcher** was in a separate **System.Windows.Threading** namespace. There is no **Windows.UI.Xaml.Threading** namespace in the Windows Runtime, so this class is in [Windows.UI.Xaml](windows_ui_xaml.md).
 
@@ -29,12 +27,29 @@ If you aren't doing anything with the UI thread in your **Tick** handlers and ju
 ## -examples
 This example code implements a simple console-style timer that writes data to a [TextBlock](../windows.ui.xaml.controls/textblock.md) named `TimerLog` (XAML that defines `TimerLog` is not shown). The [Interval](dispatchertimer_interval.md) value is set to 1, and the log displays the actual elapsed time for each [Tick](dispatchertimer_tick.md).
 
-
-
 [!code-csharp[1](../windows.ui.xaml/code/DispatcherTimer/csharp/MainPage.xaml.cs#Snippet1)]
 
-```cpp
+```cppwinrt
+// MainPage.cpp
+...
+#include <chrono>
+...
+void MainPage::StartTimerAndRegisterHandler()
+{
+    Windows::UI::Xaml::DispatcherTimer timer;
+    timer.Interval(std::chrono::milliseconds{ 500 });
+    auto registrationtoken = timer.Tick({this, &MainPage::OnTick });
+    timer.Start();
+}
 
+void MainPage::OnTick(Windows::Foundation::IInspectable const& /* sender */,
+    Windows::Foundation::IInspectable const& /* e */)
+{
+    // do something on each tick here ...
+}
+```
+
+```cpp
 // .cpp definition, .h not shown
 void MainPage::StartTimerAndRegisterHandler() {
     auto timer = ref new Windows::UI::Xaml::DispatcherTimer();
@@ -48,8 +63,6 @@ void MainPage::OnTick(Object^ sender, Object^ e) {
     // do something on each tick here ...
 }
 ```
-
-
 
 ## -see-also
 [CoreDispatcher](../windows.ui.core/coredispatcher.md), [ThreadPoolTimer](../windows.system.threading/threadpooltimer.md)

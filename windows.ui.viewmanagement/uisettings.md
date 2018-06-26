@@ -14,6 +14,61 @@ Contains a set of common app user interface settings and operations.
 
 ## -remarks
 
+## -examples
+
+```cppwinrt
+void MainPage::ClickHandler(IInspectable const&, RoutedEventArgs const&)
+{
+    Windows::UI::ViewManagement::UISettings uiSettings;
+
+    std::wstringstream buffer;
+    Windows::UI::Color color{ uiSettings.UIElementColor(UIElementType::ActiveCaption) };
+
+    buffer << L"Hand Preference " << (uiSettings.HandPreference() == HandPreference::RightHanded ? L"right" : L"left") << std::endl;
+    buffer << L"Cursor Size " << uiSettings.CursorSize().Width << L" x " << uiSettings.CursorSize().Height << std::endl;
+    buffer << L"Scrollbar Size " << uiSettings.ScrollBarSize().Width << L" x " << uiSettings.ScrollBarSize().Height << std::endl;
+    buffer << L"Scrollbar Arrow Size " << uiSettings.ScrollBarArrowSize().Width << L" x " << uiSettings.ScrollBarArrowSize().Height << std::endl;
+    buffer << L"Scrollbar Thumb Box Size " << uiSettings.ScrollBarThumbBoxSize().Width << L" x " << uiSettings.ScrollBarThumbBoxSize().Height << std::endl;
+    buffer << L"Message Duration " << uiSettings.MessageDuration() << std::endl;
+    buffer << L"Animations Enabled " << (uiSettings.AnimationsEnabled() ? L"true" : L"false") << std::endl;
+    buffer << L"Caret Browsing Enabled " << (uiSettings.CaretBrowsingEnabled() ? L"true" : L"false") << std::endl;
+    buffer << L"Caret Blink Rate " << uiSettings.CaretBlinkRate() << std::endl;
+    buffer << L"Caret Width " << uiSettings.CaretWidth() << std::endl;
+    buffer << L"Double Click Time " << uiSettings.DoubleClickTime() << std::endl;
+    buffer << L"Mouse Hover Time " << uiSettings.MouseHoverTime() << std::endl;
+
+    buffer << L"System Colors: " << std::endl;
+
+    buffer << L"Active Caption: " << color.R << L", " << color.G << L", " << color.B << std::endl;
+    color = uiSettings.UIElementColor(UIElementType::Background);
+    buffer << L"Background: " << color.R << L", " << color.G << L", " << color.B << std::endl;
+    color = uiSettings.UIElementColor(UIElementType::ButtonFace);
+    buffer << L"Button Face: " << color.R << L", " << color.G << L", " << color.B << std::endl;
+    color = uiSettings.UIElementColor(UIElementType::ButtonText);
+    buffer << L"Button Text: " << color.R << L", " << color.G << L", " << color.B << std::endl;
+    color = uiSettings.UIElementColor(UIElementType::CaptionText);
+    buffer << L"Caption Text: " << color.R << L", " << color.G << L", " << color.B << std::endl;
+    color = uiSettings.UIElementColor(UIElementType::GrayText);
+    buffer << L"Gray Text: " << color.R << L", " << color.G << L", " << color.B << std::endl;
+    color = uiSettings.UIElementColor(UIElementType::Highlight);
+    buffer << L"Highlight: " << color.R << L", " << color.G << L", " << color.B << std::endl;
+    color = uiSettings.UIElementColor(UIElementType::HighlightText);
+    buffer << L"Highlight Text: " << color.R << L", " << color.G << L", " << color.B << std::endl;
+    color = uiSettings.UIElementColor(UIElementType::Hotlight);
+    buffer << L"Hotlight: " << color.R << L", " << color.G << L", " << color.B << std::endl;
+    color = uiSettings.UIElementColor(UIElementType::InactiveCaption);
+    buffer << L"Inactive Caption: " << color.R << L", " << color.G << L", " << color.B << std::endl;
+    color = uiSettings.UIElementColor(UIElementType::InactiveCaptionText);
+    buffer << L"Inactive Caption Text: " << color.R << L", " << color.G << L", " << color.B << std::endl;
+    color = uiSettings.UIElementColor(UIElementType::Window);
+    buffer << L"Window: " << color.R << L", " << color.G << L", " << color.B << std::endl;
+    color = uiSettings.UIElementColor(UIElementType::WindowText);
+    buffer << L"Window Text: " << color.R << L", " << color.G << L", " << color.B << std::endl;
+
+    UIOutputTextBlock().Text(buffer.str().c_str());
+}
+```
+
 ```cpp
 void SDKSample::HighContrast::UI::UIGetSettings_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 { 
@@ -70,8 +125,6 @@ void SDKSample::HighContrast::UI::UIGetSettings_Click(Platform::Object^ sender, 
   }
 }
 ```
-
-## -examples
 
 ## -see-also
 [UI contrast and settings sample](http://go.microsoft.com/fwlink/p/?linkid=258421)
