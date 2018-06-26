@@ -22,7 +22,6 @@ In addition to the **Core** overrides, [FrameworkElementAutomationPeer](framewor
 + [CreatePeerForElement](frameworkelementautomationpeer_createpeerforelement.md)
 + [FromElement](frameworkelementautomationpeer_fromelement.md)
 
-
 If you have a need to define a custom automation peer and can't identify a more derived peer class that pairs up with the control or base class you are deriving the owner class from, you should base your peer on [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md). Even if the owner class isn't necessarily a [FrameworkElement](../windows.ui.xaml/frameworkelement.md), you can't practically derive peers from [AutomationPeer](automationpeer.md) directly because [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) has many overrides that provide the expected behavior for layout, automation and UI interactions. You do need to derive your owner class from [UIElement](../windows.ui.xaml/uielement.md) at least, otherwise there is no way to create the peer on automation tree load with [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md).
 
 ### **FrameworkElementAutomationPeer** derived classes
@@ -63,7 +62,6 @@ If you have a need to define a custom automation peer and can't identify a more 
 + [ToggleMenuFlyoutItemAutomationPeer](togglemenuflyoutitemautomationpeer.md)
 + [ToggleSwitchAutomationPeer](toggleswitchautomationpeer.md)
 
-
 ## -examples
 This example shows the basic subclass requirements for deriving a peer from [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) and supporting at least one control pattern. This code is an excerpt from the [XAML accessibility sample](http://go.microsoft.com/fwlink/p/?linkid=238570).
 
@@ -103,39 +101,75 @@ This example shows the basic subclass requirements for deriving a peer from [Fra
             }
 // pattern implementation omitted ...
         }
-
 ```
 
-```vbnet
-    Public Class MediaContainerAP
-        Inherits FrameworkElementAutomationPeer
-        Implements IRangeValueProvider
-        Implements IToggleProvider
-' nondefault ctors omitted ...
+MIDL 3.0 files for the [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt) code example that follows.
 
-        Protected Overrides Function GetPatternCore(patternInterface__1 As PatternInterface) As Object
-            If patternInterface__1 = PatternInterface.RangeValue Then
-                Return Me
-            ElseIf patternInterface__1 = PatternInterface.Toggle Then
-                Return Me
-            End If
-            Return Nothing
-        End Function
+```idl
+// MediaElementContainer.idl
+namespace MyNamespace
+{
+    runtimeclass MediaElementContainer : Windows.UI.Xaml.Controls.ContentControl
+    {
+        MediaElementContainer(Windows.UI.Xaml.Controls.Panel parent);
+        ...
+    };
+}
+```
 
+```idl
+// MediaContainerAP.idl
+import "MediaElementContainer.idl";
 
-        Protected Overrides Function GetAutomationControlTypeCore() As AutomationControlType
-            Return AutomationControlType.Group
-        End Function
-        
-        Protected Overrides Function GetLocalizedControlTypeCore() as String
-            Return "Video"
-        End Function
-        
-        Protected Overrides Function GetClassNameCore() As String
-            Return "MediaElementContainer"
-        End Function
-' pattern implementation omitted ...
-End Class
+namespace MyNamespace
+{
+    runtimeclass MediaContainerAP : Windows.UI.Xaml.Automation.Peers.FrameworkElementAutomationPeer,
+        Windows.UI.Xaml.Automation.Provider.IRangeValueProvider,
+        Windows.UI.Xaml.Automation.Provider.IToggleProvider
+    {
+        MediaContainerAP(MediaElementContainer owner, Windows.UI.Xaml.Controls.MediaElement mediaElement);
+        ...
+    };
+}
+```
+
+```cppwinrt
+// MediaContainerAP.h
+struct MediaContainerAP : MediaContainerAPT<MediaContainerAP>
+{
+    MediaContainerAP() = delete;
+	// Non-default ctors omitted.
+
+    Windows::Foundation::IInspectable GetPatternCore(Windows::UI::Xaml::Automation::Peers::PatternInterface const& patternInterface)
+    {
+        if (patternInterface == Windows::UI::Xaml::Automation::Peers::PatternInterface::RangeValue)
+        {
+            return *this;
+        }
+        else if (patternInterface == Windows::UI::Xaml::Automation::Peers::PatternInterface::Toggle)
+        {
+            return *this;
+        }
+        return nullptr;
+    }
+
+    Windows::UI::Xaml::Automation::Peers::AutomationControlType GetAutomationControlTypeCore()
+    {
+        return Windows::UI::Xaml::Automation::Peers::AutomationControlType::Group;
+    }
+
+    winrt::hstring GetLocalizedControlTypeCore()
+    {
+        return L"Video";
+    }
+
+    winrt::hstring GetClassNameCore()
+    {
+        return L"MediaElementContainer";
+    }
+
+	// Pattern implementation omitted.
+};
 ```
 
 ```cpp
@@ -179,7 +213,37 @@ End Class
 // pattern implementation omitted
 ```
 
+```vbnet
+    Public Class MediaContainerAP
+        Inherits FrameworkElementAutomationPeer
+        Implements IRangeValueProvider
+        Implements IToggleProvider
+' nondefault ctors omitted ...
 
+        Protected Overrides Function GetPatternCore(patternInterface__1 As PatternInterface) As Object
+            If patternInterface__1 = PatternInterface.RangeValue Then
+                Return Me
+            ElseIf patternInterface__1 = PatternInterface.Toggle Then
+                Return Me
+            End If
+            Return Nothing
+        End Function
+
+
+        Protected Overrides Function GetAutomationControlTypeCore() As AutomationControlType
+            Return AutomationControlType.Group
+        End Function
+        
+        Protected Overrides Function GetLocalizedControlTypeCore() as String
+            Return "Video"
+        End Function
+        
+        Protected Overrides Function GetClassNameCore() As String
+            Return "MediaElementContainer"
+        End Function
+' pattern implementation omitted ...
+End Class
+```
 
 ## -see-also
 [FrameworkElement](../windows.ui.xaml/frameworkelement.md), [Custom automation peers](http://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4), [AutomationPeer](automationpeer.md), [XAML accessibility sample](http://go.microsoft.com/fwlink/p/?linkid=238570)

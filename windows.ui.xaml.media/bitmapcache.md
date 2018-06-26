@@ -28,11 +28,16 @@ Use any of these syntax forms to set [UIElement.CacheMode](../windows.ui.xaml/ui
 canvas1.CacheMode = new BitmapCache(); //canvas1 is an existing named element in UI
 ```
 
+```cppwinrt
+// <Canvas x:Name="canvas1"/>
+#include <winrt/Windows.UI.Xaml.Media.h>
+...
+canvas1().CacheMode(Windows::UI::Xaml::Media::BitmapCache{});
+```
+
 ```cpp
 canvas1->CacheMode = ref new BitmapCache(); //canvas1 is an existing named element in UI
 ```
-
-
 
 ## -see-also
 [UIElement.CacheMode](../windows.ui.xaml/uielement_cachemode.md), [IsOverdrawHeatMapEnabled](../windows.ui.xaml/debugsettings_isoverdrawheatmapenabled.md), [Optimize your XAML markup](http://msdn.microsoft.com/library/569e8c27-fa01-41d8-80b9-1e3e637d5b99)

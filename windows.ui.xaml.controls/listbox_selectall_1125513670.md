@@ -17,17 +17,24 @@ Selects all the items in the [ListBox](listbox.md) control.
 > The [SelectAll](listbox_selectall.md) method should only be called when the [SelectionMode](listbox_selectionmode.md) property is set to [Multiple](selectionmode.md) or [Extended](selectionmode.md). If [SelectAll](listbox_selectall.md) is called when the [SelectionMode](listbox_selectionmode.md) is **Single**, an exception is thrown.
 
 ## -examples
-```cpp
-if (listBox->SelectionMode != SelectionMode::Single)
-{
-    listBox->SelectAll();
-}
-```
-
 ```csharp
 if (listBox.SelectionMode != SelectionMode.Single)
 {
     listBox.SelectAll();
+}
+```
+
+```cppwinrt
+if (listBox().SelectionMode() != Windows::UI::Xaml::Controls::SelectionMode::Single)
+{
+    listBox().SelectAll();
+}
+```
+
+```cpp
+if (listBox->SelectionMode != SelectionMode::Single)
+{
+    listBox->SelectAll();
 }
 ```
 

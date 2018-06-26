@@ -21,7 +21,6 @@ Represents content that a [Frame](frame.md) control can navigate to.
 </Page>
 ```
 
-
 ## -remarks
 The [Page](page.md) class encapsulates content that the [Frame](frame.md) control can navigate to. You will generally create your own page types that derive from the [Page](page.md) class, and use [Page](page.md) (or a custom type) as the root element for the XAML-declared content.
 
@@ -40,7 +39,7 @@ By default, each navigation creates a new instance of the specific [Page](page.m
 You can override the page [OnNavigatedTo](page_onnavigatedto.md), [OnNavigatingFrom](page_onnavigatingfrom.md), and [OnNavigatedFrom](page_onnavigatedfrom.md) methods to perform tasks such as initializing and saving the page state. [OnNavigatingFrom](page_onnavigatingfrom.md) can be used to cancel a navigation by setting a [Cancel](../windows.ui.xaml.navigation/navigatingcanceleventargs_cancel.md) property in the event data from your handler.
 
 ## -examples
-The following code example shows an abridged version of the [OnLaunched](../windows.ui.xaml/application_onlaunched.md) method override generated for the blank application template in Visual Studio. This code shows how the content of the app window is set to a new [Frame](frame.md), which is then navigated to the default initial [Page](page.md).
+The following code example shows an abridged version (except for the [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt) version, which lists the full function) of the [OnLaunched](../windows.ui.xaml/application_onlaunched.md) method override generated for the Blank App template in Visual Studio. This code shows how the content of the app window is set to a new [Frame](frame.md), which is then navigated to the default initial [Page](page.md).
 
 ```csharp
         protected override void OnLaunched(LaunchActivatedEventArgs e)
@@ -63,7 +62,6 @@ The following code example shows an abridged version of the [OnLaunched](../wind
             // Ensure the current window is active
             Window.Current.Activate();
         }
-
 ```
 
 ```vbnet
@@ -84,7 +82,65 @@ The following code example shows an abridged version of the [OnLaunched](../wind
         ' Ensure the current window is active
         Window.Current.Activate()
     End Sub
+```
 
+```cppwinrt
+void App::OnLaunched(LaunchActivatedEventArgs const& e)
+{
+    Frame rootFrame{ nullptr };
+    auto content = Window::Current().Content();
+    if (content)
+    {
+        rootFrame = content.try_as<Frame>();
+    }
+
+    // Do not repeat app initialization when the Window already has content,
+    // just ensure that the window is active
+    if (rootFrame == nullptr)
+    {
+        // Create a Frame to act as the navigation context and associate it with
+        // a SuspensionManager key
+        rootFrame = Frame();
+
+        rootFrame.NavigationFailed({ this, &App::OnNavigationFailed });
+
+        if (e.PreviousExecutionState() == ApplicationExecutionState::Terminated)
+        {
+            // Restore the saved session state only when appropriate, scheduling the
+            // final launch steps after the restore is complete
+        }
+
+        if (e.PrelaunchActivated() == false)
+        {
+            if (rootFrame.Content() == nullptr)
+            {
+                // When the navigation stack isn't restored navigate to the first page,
+                // configuring the new page by passing required information as a navigation
+                // parameter
+                rootFrame.Navigate(xaml_typename<BlankApp1::MainPage>(), box_value(e.Arguments()));
+            }
+            // Place the frame in the current Window
+            Window::Current().Content(rootFrame);
+            // Ensure the current window is active
+            Window::Current().Activate();
+        }
+    }
+    else
+    {
+        if (e.PrelaunchActivated() == false)
+        {
+            if (rootFrame.Content() == nullptr)
+            {
+                // When the navigation stack isn't restored navigate to the first page,
+                // configuring the new page by passing required information as a navigation
+                // parameter
+                rootFrame.Navigate(xaml_typename<BlankApp1::MainPage>(), box_value(e.Arguments()));
+            }
+            // Ensure the current window is active
+            Window::Current().Activate();
+        }
+    }
+}
 ```
 
 ```cpp
@@ -111,8 +167,6 @@ void App::OnLaunched(Windows::ApplicationModel::Activation::LaunchActivatedEvent
 ```
 
 For example code that adds an [AppBar](appbar.md) to a page, see [Quickstart: adding app bars](http://msdn.microsoft.com/library/9915aea1-e738-4c4b-a838-85625055fa06) or [How to share an app bar across pages](http://msdn.microsoft.com/library/89d3e780-2c8d-4e4d-a0a9-ebf0be87a730). For example code that uses [NavigationCacheMode](page_navigationcachemode.md), see [Navigation](http://msdn.microsoft.com/library/742c1c18-c7b1-47b7-866c-726eeb8235ec) or [XAML Navigation sample](http://go.microsoft.com/fwlink/p/?LinkID=330214).
-
-
 
 ## -see-also
 [Frame](frame.md), [UserControl](usercontrol.md), [Quickstart: adding app bars](http://msdn.microsoft.com/library/9915aea1-e738-4c4b-a838-85625055fa06), [Navigation design basics overview](https://docs.microsoft.com/windows/uwp/design/basics/navigation-basics), [XAML Navigation sample](http://go.microsoft.com/fwlink/p/?LinkID=330214)
