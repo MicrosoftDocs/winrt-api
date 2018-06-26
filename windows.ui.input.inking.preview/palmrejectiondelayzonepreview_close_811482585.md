@@ -11,9 +11,12 @@ public void PalmRejectionDelayZonePreview.Close()
 
 ## -description
 
+Releases all system resources associated with the [PalmRejectionDelayZonePreview](palmrejectiondelayzonepreview.md) object.
+
 ## -remarks
 
 ## -see-also
 
-## -examples
+[IClosable.Close](..\windows.foundation\iclosable_close_811482585.md)
 
+## -examples
