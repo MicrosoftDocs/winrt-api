@@ -17,13 +17,11 @@ Represents the preconfigured animation that applies to item elements being dragg
 <DragItemThemeAnimation .../>
 ```
 
-
 ## -remarks
 Note that setting the [Duration](timeline_duration.md) property has no effect on this object since the duration is preconfigured.
 
 ## -examples
 The following is an example of a drag-enabled custom control.
-
 
 <!--<p xml:space="preserve">
             <TRANSLATE_MANUALLY>
@@ -35,30 +33,38 @@ The following is an example of a drag-enabled custom control.
           </p>-->
 
 ```xaml
-
-<!-- Example template of a drag-enabled custom control.  The 
+// Themes/Generic.xaml
+<!-- Example template of a drag-enabled custom control. The
      DragItemThemeAnimation will be run when the control
-     is in the Dragging state.                     
+     is in the Dragging state, and reverted when it isn't.
 -->
-<ControlTemplate TargetType="local:DraggableControl">
-    <Grid>
-        <VisualStateManager.VisualStateGroups>
-            <VisualStateGroup x:Name="DragStates">
-                <VisualState x:Name="NotDragging"/>
-                <VisualState x:Name="Dragging">
-                    <Storyboard>
-                        <DragItemThemeAnimation TargetName="contentRectangle"/>
-                    </Storyboard>
-                </VisualState>
-            </VisualStateGroup>
-        </VisualStateManager.VisualStateGroups>
-        <Rectangle x:Name="contentRectangle" 
-            Width="100" 
-            Height="100" 
-            Fill="{TemplateBinding Background}" 
- />
-    </Grid>
-</ControlTemplate>
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BlankApp1">
+
+    <Style TargetType="local:DraggableControl" >
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="local:DraggableControl">
+                    <Grid>
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup x:Name="DragStates">
+                                <VisualState x:Name="NotDragging"/>
+                                <VisualState x:Name="Dragging">
+                                    <Storyboard>
+                                        <DragItemThemeAnimation TargetName="contentRectangle"/>
+                                    </Storyboard>
+                                </VisualState>
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+                        <Rectangle x:Name="contentRectangle" Width="100" Height="100" Fill="{TemplateBinding Background}"/>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>
 ```
 
 ```csharp
@@ -71,7 +77,7 @@ public sealed class DraggableControl : Control
 
     protected override void OnPointerPressed(PointerRoutedEventArgs e)
     {
-        // Go to the Dragging state, which will start the DragItemThemeAnimation
+        // Go to the Dragging state, which will start the DragItemThemeAnimation.
         VisualStateManager.GoToState(this, "Dragging", true);
     }
 
@@ -82,8 +88,37 @@ public sealed class DraggableControl : Control
 
     protected override void OnPointerMoved(PointerRoutedEventArgs e)
     {
-        // dragging implementation here
+        // dragging implementation here.
     }
+}
+```
+
+```cppwinrt
+// DraggableControl.h
+struct DraggableControl : DraggableControlT<DraggableControl>
+{
+    DraggableControl(){ DefaultStyleKey(winrt::box_value(L"MyApp.DraggableControl")); }
+
+    void OnPointerPressed(Windows::UI::Xaml::Input::PointerRoutedEventArgs const& e);
+    void OnPointerReleased(Windows::UI::Xaml::Input::PointerRoutedEventArgs const& e);
+    void OnPointerMoved(Windows::UI::Xaml::Input::PointerRoutedEventArgs const& e);
+};
+
+// DraggableControl.cpp
+void DraggableControl::OnPointerPressed(Windows::UI::Xaml::Input::PointerRoutedEventArgs const& e)
+{
+    // Go to the Dragging state, which will start the DragItemThemeAnimation.
+    Windows::UI::Xaml::VisualStateManager::GoToState(*this, L"Dragging", true);
+}
+
+void DraggableControl::OnPointerReleased(Windows::UI::Xaml::Input::PointerRoutedEventArgs const& e)
+{
+    Windows::UI::Xaml::VisualStateManager::GoToState(*this, L"NotDragging", true);
+}
+
+void DraggableControl::OnPointerMoved(Windows::UI::Xaml::Input::PointerRoutedEventArgs const& e)
+{
+    // dragging implementation here.
 }
 ```
 
@@ -121,8 +156,6 @@ void DraggableControl::OnPointerMoved(PointerRoutedEventArgs^ e)
     // dragging implementation here
 }
 ```
-
-
 
 ## -see-also
 [Timeline](timeline.md), [Animating drag-and-drop sequences](http://msdn.microsoft.com/library/2bac27bf-83ea-40aa-a679-6e55cdd6fc0b), [Guidelines and checklist for drag-and-drop animations](http://msdn.microsoft.com/library/6064755f-6e24-4901-a4ff-263f05f0dfd6)

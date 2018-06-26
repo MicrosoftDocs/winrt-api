@@ -17,7 +17,6 @@ Provides the animated transition behavior for when the content of a control is c
 <ContentThemeTransition ... />
 ```
 
-
 ## -remarks
 Note that setting the [Duration](timeline_duration.md) property has no effect on this object since the duration is preconfigured.
 
@@ -25,7 +24,6 @@ Note that setting the [Duration](timeline_duration.md) property has no effect on
 The following example applies a [ContentThemeAnimation](contentthemetransition.md) to a rectangle.
 
 ```xaml
-
 <!-- The ContentThemeTransition will execute when the ContentControl’s content changes. -->        
 <ContentControl x:Name="ContentHost" PointerPressed="ContentHost_PointerPressed">
     <ContentControl.ContentTransitions>
@@ -53,6 +51,27 @@ private void ContentHost_PointerPressed(object sender, PointerRoutedEventArgs e)
 }
 ```
 
+```cppwinrt
+void ContentHost_PointerPressed(Windows::Foundation::IInspectable const& /* sender */,
+    Windows::UI::Xaml::Input::PointerRoutedEventArgs const& /* e */)
+{
+    // Replace the ContentControl's content with a new Rectangle of a random color.
+    Windows::UI::Xaml::Shapes::Rectangle newItem;
+
+    newItem.Height(200);
+    newItem.Width(200);
+
+    Windows::UI::Color color;
+    color.R = std::rand() % 256;
+    color.G = std::rand() % 256;
+    color.B = std::rand() % 256;
+
+    newItem.Fill(Windows::UI::Xaml::Media::SolidColorBrush{ color });
+
+    ContentHost().Content(newItem);
+}
+```
+
 ```cpp
 void MyPage::ContentHost_PointerPressed(Object^ sender, PointerRoutedEventArgs^ e)
 {
@@ -72,8 +91,6 @@ void MyPage::ContentHost_PointerPressed(Object^ sender, PointerRoutedEventArgs^ 
     ContentHost->Content = newItem; 
 }
 ```
-
-
 
 ## -see-also
 [Transition](transition.md), [Guidelines for content transition animations](https://docs.microsoft.com/windows/uwp/design/motion/content-transition-animations)
