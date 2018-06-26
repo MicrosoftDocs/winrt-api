@@ -18,15 +18,11 @@ The bitmap data.
 ## -remarks
 [CustomMapTileDataSource](custommaptiledatasource_custommaptiledatasource.md) supports drawing tiles in memory and returning them as a stream of pixels. The following code sample demonstrates one approach for drawing tiles in memory.
 
-
-
 ```csharp
         // Create new custom tile source
         CustomMapTileDataSource customDataSource = new CustomMapTileDataSource();
         customDataSource.BitmapRequested += customDataSource_BitmapRequestedAsync;
         customTileSource = new MapTileSource(customDataSource);
-
-
 
         /// <summary>
         /// BitmapRequested event handler for CustomMapTileDataSource.BitmapRequested event
@@ -76,11 +72,47 @@ The bitmap data.
             await writer.FlushAsync();
             return RandomAccessStreamReference.CreateFromStream(randomAccessStream);
         }
+```
 
+```cppwinrt
+Windows::Foundation::IAsyncOperation<Windows::Storage::Streams::InMemoryRandomAccessStream> TileSources::CustomRandomAccessStreamAsync()
+{
+    const int pixelHeight{ 256 };
+    const int pixelWidth{ 256 };
+    const int bpp{ 4 };
+
+    std::array<byte, pixelHeight * pixelWidth * bpp> bytes;
+
+    for (int y = 0; y < pixelHeight; ++y)
+    {
+        for (int x = 0; x < pixelWidth; ++x)
+        {
+            int pixelIndex = y * pixelWidth + x;
+            int byteIndex = pixelIndex * bpp;
+
+            // Set current pixel bytes
+            bytes[byteIndex] = (byte)(std::rand() % 256);        // Red
+            bytes[byteIndex + 1] = (byte)(std::rand() % 256);    // Green
+            bytes[byteIndex + 2] = (byte)(std::rand() % 256);    // Blue
+            bytes[byteIndex + 3] = (byte)((std::rand() % 56) + 200);    // Alpha (0xff = fully opaque)
+        }
+    }
+
+    // Create RandomAccessStream from byte array
+    Windows::Storage::Streams::InMemoryRandomAccessStream randomAccessStream;
+    Windows::Storage::Streams::IOutputStream outputStream{ randomAccessStream.GetOutputStreamAt(0) };
+    Windows::Storage::Streams::DataWriter writer{ outputStream };
+    writer.WriteBytes(bytes);
+
+    co_await writer.StoreAsync();
+    co_await writer.FlushAsync();
+
+    co_return randomAccessStream;
+}
 ```
 
 ```cpp
-InMemoryRandomAccessStream^ TileSources::CustomRandomAccessSteram::get()
+InMemoryRandomAccessStream^ TileSources::CustomRandomAccessStream::get()
 {
        int pixelHeight = 256;
        int pixelWidth = 256;
@@ -116,10 +148,7 @@ InMemoryRandomAccessStream^ TileSources::CustomRandomAccessSteram::get()
  
        return randomAccessStream;
 }
-
 ```
-
-
 
 ## -examples
 

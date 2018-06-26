@@ -19,5 +19,12 @@ The alternative URI for the content.
 ## -remarks
 
 ## -examples
+```cppwinrt
+#include <winrt/Windows.Media.Casting.h>
+...
+Windows::UI::Xaml::Controls::MediaElement video;
+video.Source(Windows::Foundation::Uri{ L"http://www.contoso.com/videos/video.mp4" });
+video.GetAsCastingSource().PreferredSourceUri(Windows::Foundation::Uri{ L"http://www.contoso.com/catalogid=1234" });
+```
 
 ## -see-also
