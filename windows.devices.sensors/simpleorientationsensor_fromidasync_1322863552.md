@@ -11,14 +11,20 @@ public IAsyncOperation<SimpleOrientationSensor> SimpleOrientationSensor.FromIdAs
 
 ## -description
 
+Asynchronously retrieves a [SimpleOrientationSensor](simpleorientationsensor.md) object based on the specified device identifier.
+
 ## -parameters
+
 ### -param deviceId
 
+The [SimpleOrientationSensor](simpleorientationsensor.md) device identifier.
+
 ## -returns
+
+After the operation completes, returns the [SimpleOrientationSensor](simpleorientationsensor.md) instance based on the value of deviceId.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
