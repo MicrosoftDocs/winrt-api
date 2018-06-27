@@ -17,7 +17,6 @@ Represents a preconfigured animation that runs when a pointer down is detected o
 <PointerDownThemeAnimation .../>
 ```
 
-
 ## -remarks
 Setting the [Duration](timeline_duration.md) property has no effect on this object as the duration is preconfigured.
 
@@ -30,33 +29,42 @@ Setting the [Duration](timeline_duration.md) property has no effect on this obje
 The following is an example of a template of a custom control that uses PointerDown/Up theme animations.
 
 ```xaml
-
+// Themes/Generic.xaml
 <!-- Example template of a custom control that uses PointerDown/Up theme 
      animations. The PointerDownThemeAnimation will be run when the control
      is in the PointerDown state.-->
-<ControlTemplate TargetType="local:TapControl">
-    <Grid>
-        <VisualStateManager.VisualStateGroups>
-            <VisualStateGroup x:Name="TapStates">
-                <VisualState x:Name="Normal"/>
-                <VisualState x:Name="PointerDown">
-                    <Storyboard>
-                        <PointerDownThemeAnimation TargetName="contentRectangle"/>
-                    </Storyboard>
-                </VisualState>    
-                <VisualState x:Name="PointerUp">
-                    <Storyboard>
-                        <PointerUpThemeAnimation TargetName="contentRectangle"/>
-                    </Storyboard>
-                </VisualState>
-            </VisualStateGroup>
-        </VisualStateManager.VisualStateGroups>
-        <Rectangle x:Name="contentRectangle" 
-                    Width="100" 
-                    Height="100" 
-                    Fill="{TemplateBinding Background}"/>
-    </Grid>
-</ControlTemplate>
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BlankApp1">
+
+    <Style TargetType="local:TapControl" >
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="local:TapControl">
+                    <Grid>
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup x:Name="TapStates">
+                                <VisualState x:Name="Normal"/>
+                                <VisualState x:Name="PointerDown">
+                                    <Storyboard>
+                                        <PointerDownThemeAnimation TargetName="contentRectangle"/>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="PointerUp">
+                                    <Storyboard>
+                                        <PointerUpThemeAnimation TargetName="contentRectangle"/>
+                                    </Storyboard>
+                                </VisualState>
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+                        <Rectangle x:Name="contentRectangle" Width="100" Height="100" Fill="{TemplateBinding Background}"/>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>
 ```
 
 ```csharp
@@ -78,6 +86,31 @@ public sealed class TapControl : Control
         VisualStateManager.GoToState(this, "PointerUp", true);
         this.ReleasePointerCapture(e.Pointer);
     }
+}
+```
+
+```cppwinrt
+// TapControl.h
+struct TapControl : TapControlT<TapControl>
+{
+    TapControl(){ DefaultStyleKey(winrt::box_value(L"MyApp.TapControl")); }
+
+    void OnPointerPressed(Windows::UI::Xaml::Input::PointerRoutedEventArgs const& e);
+    void OnPointerReleased(Windows::UI::Xaml::Input::PointerRoutedEventArgs const& e);
+};
+
+// TapControl.cpp
+void TapControl::OnPointerPressed(Windows::UI::Xaml::Input::PointerRoutedEventArgs const& e)
+{
+    CapturePointer(e.Pointer());
+    // Go to the PointerDown state, which will start the PointerDownThemeAnimation.
+    Windows::UI::Xaml::VisualStateManager::GoToState(*this, L"PointerDown", true);
+}
+
+void TapControl::OnPointerReleased(Windows::UI::Xaml::Input::PointerRoutedEventArgs const& e)
+{
+    Windows::UI::Xaml::VisualStateManager::GoToState(*this, L"PointerUp", true);
+    ReleasePointerCapture(e.Pointer());
 }
 ```
 
@@ -110,8 +143,6 @@ void SplitOpenControl::OnPointerReleased(PointerRoutedEventArgs^ e)
     ReleasePointerCapture(e->Pointer);
 }
 ```
-
-
 
 ## -see-also
 [Timeline](timeline.md), [Animating pointer clicks](http://msdn.microsoft.com/library/b100b9c1-dfd7-43ac-99ed-a742a029c39b), [Guidelines and checklist for pointer click animations](http://msdn.microsoft.com/library/eeb10a2c-629a-4705-8468-4d019d74ddff)
