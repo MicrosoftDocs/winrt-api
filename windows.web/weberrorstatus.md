@@ -204,6 +204,24 @@ else
 }
 ```
 
+```cppwinrt
+// Pointer back to the main page. Needed to call methods in MainPage such as NotifyUser().
+m_rootPage = MainPage::Current();
+
+Windows::Web::WebErrorStatus status{ Windows::Networking::Sockets::WebSocketError::GetStatus(exception.to_abi()) };
+
+if (status == Windows::Web::WebErrorStatus::CannotConnect ||
+    status == Windows::Web::WebErrorStatus::NotFound ||
+    status == Windows::Web::WebErrorStatus::RequestTimeout)
+{
+    m_rootPage.NotifyUser(L"Cannot connect to the server", NotifyType::ErrorMessage);
+}
+else
+{
+    m_rootPage.NotifyUser(std::wstring(L"Error: ") + exception.message().c_str(), NotifyType::ErrorMessage);
+}
+```
+
 ```cpp
 using namespace Windows::Web;
 using namespace Windows::Networking::Sockets;

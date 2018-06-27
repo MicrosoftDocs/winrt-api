@@ -17,7 +17,6 @@ Gets or sets a value that determines whether the transition staggers rendering o
 <RepositionThemeTransition IsStaggeringEnabled="bool"/>
 ```
 
-
 ## -property-value
 **true** if the animation staggers rendering of multiple items. **false** if the animation renders all items at once. The default is **true**.
 
@@ -48,13 +47,18 @@ transition.IsStaggeringEnabled = false;
 lv.ItemContainerTransitions.Add(transition);
 ```
 
+```cppwinrt
+Windows::UI::Xaml::Controls::ListView lv;
+Windows::UI::Xaml::Media::Animation::RepositionThemeTransition transition;
+transition.IsStaggeringEnabled(false);
+lv.ItemContainerTransitions().Append(transition);
+```
+
 ```cpp
 auto lv = ref new ListView();
 auto transition = ref new RepositionThemeTransition();
 transition->IsStaggeringEnabled = false;
 lv->ItemContainerTransitions->Append(transition);
 ```
-
-
 
 ## -see-also
