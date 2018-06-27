@@ -10,7 +10,7 @@ public enum Windows.Security.Authentication.Web.Provider.WebAccountProviderOpera
 # WebAccountProviderOperationKind
 
 ## -description
-Represents different operations a web account provider can perform. Use this to determine what operation to perform when the provider is activated.
+Represents different operations a web account provider can perform. Use this to determine what operation to perform when the provider is activated. Providers must ignore unknown operations.
 
 ## -enum-fields
 ### -field RequestToken:0
