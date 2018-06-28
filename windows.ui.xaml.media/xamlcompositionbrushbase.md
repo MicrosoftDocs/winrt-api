@@ -146,6 +146,105 @@ Public NotInheritable Class BackdropBlurBrush
 End Class
 ```
 
+For the [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt) code example below, you'll need to add a **Midl File (.idl)** file to your project.
+
+```idl
+// BackdropBlurBrush.idl
+namespace MyApp
+{
+    [default_interface]
+    runtimeclass BackdropBlurBrush : Windows.UI.Xaml.Media.XamlCompositionBrushBase
+    {
+        BackdropBlurBrush();
+        static Windows.UI.Xaml.DependencyProperty BlurAmountProperty{ get; };
+        Double BlurAmount;
+    }
+}
+```
+
+```cppwinrt
+// pch.h
+// You'll need to install the Microsoft Win2D NuGet package for this code example.
+#include <winrt/Microsoft.Graphics.Canvas.Effects.h>
+#include <winrt/Windows.Graphics.Effects.h>
+
+// BackdropBlurBrush.h.
+struct BackdropBlurBrush : BackdropBlurBrushT<BackdropBlurBrush>
+{
+    BackdropBlurBrush() = default;
+
+    static Windows::UI::Xaml::DependencyProperty BlurAmountProperty() { return m_blurAmountProperty; }
+
+    double BlurAmount()
+    {
+        return winrt::unbox_value<double>(GetValue(m_blurAmountProperty));
+    }
+
+    void BlurAmount(double value)
+    {
+        SetValue(m_blurAmountProperty, winrt::box_value(value));
+    }
+
+    void OnConnected();
+    void OnDisconnected();
+
+    static void OnBlurAmountChanged(Windows::UI::Xaml::DependencyObject const& d, Windows::UI::Xaml::DependencyPropertyChangedEventArgs const& e);
+
+private:
+    static Windows::UI::Xaml::DependencyProperty m_blurAmountProperty;
+};
+
+// WindowBlurBrush.cpp.
+Windows::UI::Xaml::DependencyProperty BackdropBlurBrush::m_blurAmountProperty =
+    Windows::UI::Xaml::DependencyProperty::Register(
+        L"BlurAmount",
+        winrt::xaml_typename<double>(),
+        winrt::xaml_typename<MyApp::BackdropBlurBrush>(),
+        Windows::UI::Xaml::PropertyMetadata{ winrt::box_value(0.), Windows::UI::Xaml::PropertyChangedCallback{ &BackdropBlurBrush::OnBlurAmountChanged } }
+);
+
+void BackdropBlurBrush::OnBlurAmountChanged(Windows::UI::Xaml::DependencyObject const& d, Windows::UI::Xaml::DependencyPropertyChangedEventArgs const& e)
+{
+    auto brush{ d.as<MyApp::BackdropBlurBrush>() };
+    // Unbox and set a new blur amount if the CompositionBrush exists.
+    if (brush.CompositionBrush() != nullptr)
+    {
+        brush.CompositionBrush().Properties().InsertScalar(L"Blur.BlurAmount", (float)winrt::unbox_value<double>(e.NewValue()));
+    }
+}
+
+void BackdropBlurBrush::OnConnected()
+{
+    // Delay creating composition resources until they're required.
+    if (!CompositionBrush())
+    {
+        auto backdrop{ Windows::UI::Xaml::Window::Current().Compositor().CreateBackdropBrush() };
+
+        // Use a Win2D blur affect applied to a CompositionBackdropBrush.
+        Microsoft::Graphics::Canvas::Effects::GaussianBlurEffect graphicsEffect{};
+        graphicsEffect.Name(L"Blur");
+        graphicsEffect.BlurAmount(this->BlurAmount());
+        graphicsEffect.Source(Windows::UI::Composition::CompositionEffectSourceParameter(L"backdrop"));
+
+        auto effectFactory{ Windows::UI::Xaml::Window::Current().Compositor().CreateEffectFactory(graphicsEffect, { L"Blur.BlurAmount" }) };
+        auto effectBrush{ effectFactory.CreateBrush() };
+
+        effectBrush.SetSourceParameter(L"backdrop", backdrop);
+
+        CompositionBrush(effectBrush);
+    }
+}
+
+void BackdropBlurBrush::OnDisconnected()
+{
+    // Dispose of composition resources when no longer in use.
+    if (CompositionBrush())
+    {
+        CompositionBrush(nullptr);
+    }
+}
+```
+
 ```cpp
 // WindowBlurBrush.h:
 public ref class BackdropBlurBrush sealed :
@@ -238,6 +337,8 @@ void BackdropBlurBrush::OnDisconnected()
 ```
 
 The above brush can then be used like any other XAML brush type to paint UIElements, for example:
+
+For [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt), also add `#include "BackdropBlurBrush.h"` to `MainPage.h`.
 
 ```xaml
 <Ellipse Width="100" Height="100">

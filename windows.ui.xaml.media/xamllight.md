@@ -47,7 +47,7 @@ This example shows the definition for a custom XamlLight that applies a multicol
 ```csharp
 public sealed class OrangeSpotLight : XamlLight
 {
-    // Register an attached property that enables apps to set a UIElement
+    // Register an attached property that lets you set a UIElement
     // or Brush as a target for this light type in markup.
     public static readonly DependencyProperty IsTargetProperty =
         DependencyProperty.RegisterAttached(
@@ -56,10 +56,12 @@ public sealed class OrangeSpotLight : XamlLight
         typeof(OrangeSpotLight),
         new PropertyMetadata(null, OnIsTargetChanged)
     );
+
     public static void SetIsTarget(DependencyObject target, bool value)
     {
         target.SetValue(IsTargetProperty, value);
     }
+
     public static Boolean GetIsTarget(DependencyObject target)
     {
         return (bool)target.GetValue(IsTargetProperty);
@@ -99,7 +101,7 @@ public sealed class OrangeSpotLight : XamlLight
         if (CompositionLight == null)
         {
             // OnConnected is called when the first target UIElement is shown on the screen.
-            // This enables delaying composition object creation until it's actually necessary.
+            // This lets you delay creation of the composition object until it's actually needed.
             var spotLight = Window.Current.Compositor.CreateSpotLight();
             spotLight.InnerConeColor = Colors.Orange;
             spotLight.OuterConeColor = Colors.Yellow;
@@ -114,7 +116,7 @@ public sealed class OrangeSpotLight : XamlLight
     {
         // OnDisconnected is called when there are no more target UIElements on the screen.
         // The CompositionLight should be disposed when no longer required.
-        // For SDK 15063, see Remarks.
+        // For SDK 15063, see Remarks in the XamlLight class documentation.
         if (CompositionLight != null)
         {
             CompositionLight.Dispose();
@@ -134,13 +136,14 @@ public sealed class OrangeSpotLight : XamlLight
         return typeof(OrangeSpotLight).FullName;
     }
 }
+}
 ```
 
 ```vb
 Public NotInheritable Class OrangeSpotLight
     Inherits XamlLight
 
-    ' Register an attached property that enables apps to set a UIElement
+    ' Register an attached property that lets you set a UIElement
     ' or Brush as a target for this light type in markup.
     Public Shared ReadOnly IsTargetProperty As DependencyProperty = DependencyProperty.RegisterAttached(
             "IsTarget",
@@ -180,7 +183,7 @@ Public NotInheritable Class OrangeSpotLight
     Protected Overrides Sub OnConnected(newElement As UIElement)
         If CompositionLight Is Nothing Then
             ' OnConnected Is called when the first target UIElement Is shown on the screen.
-            ' This enables delaying composition object creation until it's actually necessary.
+            ' This lets you delay creation of the composition object until it's actually needed.
             Dim spotLight = Window.Current.Compositor.CreateSpotLight()
             spotLight.InnerConeColor = Colors.Orange
             spotLight.OuterConeColor = Colors.Yellow
@@ -245,7 +248,8 @@ private:
 
 //OrangeSpotLight.cpp:
 
-// Register an attached property that enables apps to set a UIElement or Brush as a target for this light type in markup.
+// Register an attached property that lets you set a UIElement
+// or Brush as a target for this light type in markup.
 DependencyProperty^ OrangeSpotLight::m_isTargetProperty = DependencyProperty::RegisterAttached(
     "IsTarget",
     bool::typeid,
@@ -267,6 +271,7 @@ bool OrangeSpotLight::GetIsTarget(DependencyObject^ target)
     return static_cast<bool>(target->GetValue(IsTargetProperty));
 }
 
+// Handle attached property changed to automatically target and untarget UIElements and Brushes.
 void OrangeSpotLight::OnIsTargetChanged(DependencyObject^ obj, DependencyPropertyChangedEventArgs^ e)
 {
     auto isAdding = static_cast<bool>(e->NewValue);
@@ -298,7 +303,8 @@ void OrangeSpotLight::OnConnected(UIElement^ newElement)
 {
     if (CompositionLight == nullptr)
     {
-        // OnConnected is called when the first target UIElement is shown on the screen. This enables delaying composition object creation until it's actually necessary.
+        // OnConnected is called when the first target UIElement is shown on the screen.
+        // This lets you delay creation of the composition object until it's actually needed.
         auto spotLight = Window::Current->Compositor->CreateSpotLight();
         spotLight->InnerConeColor = Colors::Orange;
         spotLight->OuterConeColor = Colors::Yellow;
@@ -312,7 +318,9 @@ void OrangeSpotLight::OnConnected(UIElement^ newElement)
 
 void OrangeSpotLight::OnDisconnected(UIElement^ oldElement)
 {
-    // OnDisconnected is called when there are no more target UIElements on the screen. The CompositionLight should be disposed when no longer required.
+    // OnDisconnected is called when there are no more target UIElements on the screen.
+    // The CompositionLight should be disposed when no longer required.
+    // For SDK 15063, see Remarks in the XamlLight class documentation.
     if (CompositionLight != nullptr)
     {
         delete CompositionLight;
@@ -327,40 +335,38 @@ Platform::String^ OrangeSpotLight::GetId()
 
 ```
 
-The above light can then be applied to any XAML UIElement or Brush to light them. This example shows different potential usages:
-
+You can then apply this light to any XAML UIElement or Brush to light them. This example shows different potential usages:
 
 ```xaml
-<Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-    <Grid.Lights>
-        <!-- Attach a light, similar to setting a CompositionLight's CoordinateSpace property -->
-        <local:OrangeSpotLight />
-    </Grid.Lights>
+<StackPanel Width="100">
+    <StackPanel.Lights>
+        <local:OrangeSpotLight/>
+    </StackPanel.Lights>
 
-    <StackPanel>
-        <!-- this border will be lit by a OrangeSpotLight, but not its children -->
-        <Border BorderThickness="5">
-            <Border.BorderBrush>
-                <SolidColorBrush Color="White" local:OrangeSpotLight.IsTarget="true" />
-            </Border.BorderBrush>
-            <TextBlock Text="hello world" />
-        </Border>
+    <!-- This border is lit by the OrangeSpotLight, but its content is not. -->
+    <Border BorderThickness="4" Margin="2">
+        <Border.BorderBrush>
+            <SolidColorBrush Color="White" local:OrangeSpotLight.IsTarget="True"/>
+        </Border.BorderBrush>
+        <Rectangle Fill="LightGray" Height="20"/>
+    </Border>
 
-        <!-- this border and its content will be lit by OrangeSpotLight -->
-        <Border BorderThickness="5" BorderBrush="White" Background="White" local:OrangeSpotLight.IsTarget="true">
-            <TextBlock Text="hello world" Foreground="Gray" />
-        </Border>
+    <!-- This border and its content are lit by the OrangeSpotLight. -->
+    <Border BorderThickness="4" BorderBrush="PaleGreen" Margin="2"
+            local:OrangeSpotLight.IsTarget="True">
+        <Rectangle Fill="LightGray" Height="20"/>
+    </Border>
 
-        <!-- this border will not be lit -->
-        <Border BorderThickness="5">
-            <Border.BorderBrush>
-                <SolidColorBrush Color="Green" />
-            </Border.BorderBrush>
-            <TextBlock Text="hello world" />
-        </Border>
-    </StackPanel>
-</Grid>
+    <!-- This border and its content are not lit by the OrangeSpotLight. -->
+    <Border BorderThickness="4" BorderBrush="PaleGreen" Margin="2">
+        <Rectangle Fill="LightGray" Height="20"/>
+    </Border>
+</StackPanel>
 ```
+
+The results of this XAML look like this.
+
+![Examples of elements lit by a xaml light](Images/orange-spot-light.png)
 
 > [!Important]
 > Setting UIElement.Lights in markup as shown in the above example is only supported for apps with a Minimum Version equal to the Windows 10 Creators Update or later. For apps that target earlier minimum versions, lights must be created in code-behind.
