@@ -11,18 +11,26 @@ public CameraIntrinsics.CameraIntrinsics(Vector2 focalLength, Vector2 principalP
 
 ## -description
 
+Constructs an instance of a CameraIntrinsics.
+
 ## -parameters
 ### -param focalLength
+The focal length of the camera.
 
 ### -param principalPoint
+The principal point of the camera.
 
 ### -param radialDistortion
+The radial distortion coefficient of the camera.
 
 ### -param tangentialDistortion
+The tangential distortion coefficient of the camera.
 
 ### -param imageWidth
+The image width of the camera, in pixels.
 
 ### -param imageHeight
+The image height of the camera, in pixels.
 
 ## -remarks
 
