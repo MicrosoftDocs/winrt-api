@@ -19,6 +19,8 @@ Default priority setting for an operation. By default when a new operation is cr
 ### -field High:1
 High priority setting for an operation. Ensures that the operation doesn't get placed at the very end of the queue, and is instead placed near the front.
 
+### -field Low:2
+Low priority setting for an operation. Ensures that the operation doesn't get placed at the very front of the queue, and is instead placed near the end.
 
 ## -remarks
 
