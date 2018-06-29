@@ -19,7 +19,7 @@ Gets or sets a value that indicates whether the user can edit text in the text b
 
 ## -remarks
 
-The behavior f this propery is changed in the next major release of Windows 10. In earlier versions of Windows, this proeprty is read-only and always returns **false**. 
+The behavior of this property is changed in the next major release of Windows 10. In earlier versions of Windows, this property is read-only and always returns **false**. 
 
 ## -examples
 
