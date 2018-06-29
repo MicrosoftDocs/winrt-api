@@ -44,6 +44,8 @@ Very High Throughput (VHT) PHY for 802.11ac PHY.
 ### -field Dmg:9
 Directional multi-gigabit (DMG) PHY for 802.11ad.
 
+### -field HE:10
+High-Efficiency Wireless (HEW) PHY for 802.11ax.
 
 ## -remarks
 

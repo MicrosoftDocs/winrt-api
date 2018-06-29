@@ -10,8 +10,10 @@ public string SSP { get; }
 # Windows.Globalization.CurrencyIdentifiers.SSP
 
 ## -description
+Gets the currency identifier for the South Sudanese pound.
 
 ## -property-value
+The string "SSP", which identifies the South Sudanese pound.
 
 ## -remarks
 
