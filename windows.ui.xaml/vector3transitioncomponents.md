@@ -10,17 +10,20 @@ public enum Vector3TransitionComponents : uint
 # Windows.UI.Xaml.Vector3TransitionComponents
 
 ## -description
+Defines constants that specify which axes to animate during the Vector3Transition animation. 
 
 ## -enum-fields
-### -field Z:4
+### -field X:1
+Animate the X axis.
 
 ### -field Y:2
+Animate the Y axis.
 
-### -field X:1
+### -field Z:4
+Animate the Z axis.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

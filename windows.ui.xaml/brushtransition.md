@@ -10,6 +10,7 @@ public class BrushTransition
 # Windows.UI.Xaml.BrushTransition
 
 ## -description
+Provides the animated transition behavior when an element's brush changes. Currently limited to changes between SolidColorBrush objects.
 
 ## -remarks
 

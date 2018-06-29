@@ -10,6 +10,7 @@ public Vector3Transition TranslationTransition { get;  set; }
 # Windows.UI.Xaml.UIElement.TranslationTransition
 
 ## -description
+Gets or sets the Vector3Transition that animates changes to the Translation property.
 
 ## -property-value
 

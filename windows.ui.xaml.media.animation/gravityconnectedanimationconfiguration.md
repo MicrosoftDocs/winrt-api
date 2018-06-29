@@ -10,6 +10,7 @@ public class GravityConnectedAnimationConfiguration : ConnectedAnimationConfigur
 # Windows.UI.Xaml.Media.Animation.GravityConnectedAnimationConfiguration
 
 ## -description
+An object that configures the connected animation to play using the gravity configuration. 
 
 ## -remarks
 
