@@ -10,12 +10,14 @@ public class CoreInputViewOcclusion
 # Windows.UI.ViewManagement.Core.CoreInputViewOcclusion
 
 ## -description
-Represents a single [CoreInputView](coreinputview.md) pane currently occluding the app.
+
+Represents a single input pane currently occluding the app.
 
 > [!NOTE]
 > Not supported on HoloLens.
 
 ## -remarks
+
 Used by frameworks (such as XAML) or custom text controls only.
 
 ## -see-also

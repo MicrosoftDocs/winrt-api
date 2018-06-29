@@ -35,7 +35,6 @@ Paints an area with a solid color. The solid color is defined by a [Color](../wi
 <SolidColorBrush Color="sc#scA,scR,scG,scB"/>
 ```
 
-
 ## -remarks
 A [SolidColorBrush](solidcolorbrush.md) is the most common type of [Brush](brush.md) that is used for many possible UI properties that use a [Brush](brush.md) to fill some or all of an object's visual area in app UI. Examples of some of the most commonly-used properties that use a [Brush](brush.md) value include: [Control.Background](../windows.ui.xaml.controls/control_background.md), [Control.Foreground](../windows.ui.xaml.controls/control_foreground.md), [Shape.Fill](../windows.ui.xaml.shapes/shape_fill.md), [Control.BorderBrush](../windows.ui.xaml.controls/control_borderbrush.md), [Panel.Background](../windows.ui.xaml.controls/panel_background.md), [TextBlock.Foreground](../windows.ui.xaml.controls/textblock_foreground.md).
 
@@ -71,24 +70,16 @@ The most common way to use [SolidColorBrush](solidcolorbrush.md) is to define a 
 ```xaml
 <Border Background="{StaticResource BlockBackgroundBrush}" 
     Width="80" Height="80"/>
-
 ```
 
 There are several different ways to define a [SolidColorBrush](solidcolorbrush.md) as an inline UI value rather than as a resource:
 
-
 + Select a predefined color by name, and rely on the XAML "shortcut" that this color will create a [SolidColorBrush](solidcolorbrush.md) when it's parsed. For example, you can set the [Fill](../windows.ui.xaml.shapes/shape_fill.md) of a [Rectangle](../windows.ui.xaml.shapes/rectangle.md) to "Red" like this:
-
-
-
 
 [!code-xml[SolidColorBrushIntroExampleWholePage](../windows.ui.xaml.media/code/brushes_snip/csharp/solidcolorbrush_intro.xaml#SnippetSolidColorBrushIntroExampleWholePage)]
 
 [!code-xml[SolidColorBrushIntroExampleWholePage](../windows.ui.xaml.media/code/brushes_snip/csharp/solidcolorbrush_intro.xaml#SnippetSolidColorBrushIntroExampleWholePage)]
 + Create a color within a 32-bit color palette by specifying the amounts of red, green, and blue to combine into a single solid color.
-
-
-
 
 [!code-xml[SolidColorBrushIntroExampleWholePage](../windows.ui.xaml.media/code/brushes_snip/csharp/solidcolorbrush_intro.xaml#SnippetSolidColorBrushIntroExampleWholePage)]
 
@@ -96,6 +87,10 @@ There are several different ways to define a [SolidColorBrush](solidcolorbrush.m
 
 ```csharp
 SolidColorBrush greenBrush = new SolidColorBrush(Colors.Green);
+```
+
+```cppwinrt
+Windows::UI::Xaml::Media::SolidColorBrush greenBrush{ Windows::UI::Colors::Green() };
 ```
 
 ```cpp
@@ -106,15 +101,15 @@ Another way to define a new [SolidColorBrush](solidcolorbrush.md) object is to u
 
 ```csharp
 SolidColorBrush myBrush = new SolidColorBrush(Color.FromArgb(255, 20, 20, 90));
+```
 
+```cpp
+Windows::UI::Xaml::Media::SolidColorBrush myBrush{ Windows::UI::ColorHelper::FromArgb(255, 90, 200, 90) };
 ```
 
 ```cpp
 auto myBrush = ref new SolidColorBrush(ColorHelper::FromArgb(255, 90, 200, 90));
-
 ```
-
-
 
 ## -see-also
 [Color](../windows.ui/color.md), [Colors](../windows.ui/colors.md), [Brush](brush.md), [Color.FromArgb](../windows.ui/color_fromargb.md), [Use brushes](http://msdn.microsoft.com/library/02141f86-355e-4046-86ea-2a89d615b7db), [ResourceDictionary and XAML resource references](http://msdn.microsoft.com/library/e3cbfa3d-6af5-44e1-b9f9-c3d3ea8a25ce)

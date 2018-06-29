@@ -24,24 +24,24 @@ If this property is not set, its value is inherited from the background color of
 ## -examples
 The following lines show different ways to express the color through this property.
 
-```javascript
-
-secondaryTileVisualElements.backgroundColor = Windows.UI.Colors.magenta;
-```
-
 ```csharp
-
 secondaryTileVisualElements.BackgroundColor = Windows.UI.Color.Magenta;
 secondaryTileVisualElements.BackgroundColor = Windows.UI.Color.FromArgb(255, 255, 255, 255);
 ```
 
-```cpp
+```cppwinrt
+secondaryTileVisualElements.BackgroundColor(Windows::UI::Colors::Magenta());
+secondaryTileVisualElements.BackgroundColor(Windows::UI::ColorHelper::FromArgb(0, 255, 255, 120));
+```
 
+```cpp
 secondaryTileVisualElements->BackgroundColor = Windows::UI::Colors::Magenta;
 secondaryTileVisualElements->BackgroundColor = Windows::UI::ColorHelper::FromArgb(0, 255, 255, 120);
 ```
 
-
+```javascript
+secondaryTileVisualElements.backgroundColor = Windows.UI.Colors.magenta;
+```
 
 ## -see-also
 [Secondary tiles sample](http://go.microsoft.com/fwlink/p/?linkid=231487)

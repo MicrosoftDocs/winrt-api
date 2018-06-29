@@ -10,13 +10,15 @@ public Windows.Foundation.Uri PlayToPreferredSourceUri { get;  set; }
 # Windows.UI.Xaml.Controls.MediaElement.PlayToPreferredSourceUri
 
 ## -description
+> [!NOTE]
+> **PlayToPreferredSourceUri** is deprecated. Instead, call [**MediaElement.GetAsCastingSource**](/uwp/api/windows.ui.xaml.controls.mediaelement.getascastingsource) and, on the returned value, call [**CastingSource.PreferredSourceUri**](/uwp/api/windows.media.casting.castingsource.preferredsourceuri).
+
 Gets or sets the path to the preferred media source which enables the Play To target device to stream the media content, which can be DRM protected, from a different location, such as a cloud media server.
 
 ## -xaml-syntax
 ```xaml
 <MediaElement PlayToPreferredSourceUri="uri" />
 ```
-
 
 ## -property-value
 The path to the preferred media source.
@@ -29,13 +31,13 @@ A forward slash ("/") is appended to the Uniform Resource Identifier (URI) strin
 ## -examples
 Here is some code that shows how to set up Play To by reference.
 
-
 <!--<snippet type="code" devlang="html"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><![CDATA[<video src="http://www.contoso.com/videos/video.mp4"  
        msPlayToPreferredSourceUri="http://www.contoso.com/catalogid=1234" /> ]]></snippet><snippet type="code" devlang="jscript"><![CDATA[var video = document.createElement('video');
 document.body.appendChild(video);
 
 video.src = "http://www.contoso.com/videos/video.mp4";
 video.msPlayToPreferredSourceUri = "http://www.contoso.com/catalogid=1234";]]></snippet> -->
+
 ```xaml
 <MediaElement Source="http://www.contoso.com/videos/video.mp4" 
    PlayToPreferredSourceUri="http://www.contoso.com/catalogid=1234">
@@ -61,7 +63,5 @@ video->Source =
 video->PlayToPreferredSourceUri = 
    ref new Windows::Foundation::Uri("http://www.contoso.com/catalogid=1234");
 ```
-
-
 
 ## -see-also

@@ -28,9 +28,49 @@ public enum LampArrayKind : int
 
 ### -field GameController:6
 
+### -field Art:10
+
+
+### -field Chassis:7
+
+
+### -field Furniture:9
+
+
+### -field GameController:3
+
+
+### -field Mouse:2
+
+
+### -field Notification:6
+
+
+### -field Peripheral:4
+
+
+### -field Scene:5
+
+
+### -field Undefined:0
+
+
+### -field Wearable:8
+
+
 ## -remarks
 
 ## -see-also
 
 ## -examples
+
+
+
+
+
+
+
+
+
+
 

@@ -11,9 +11,10 @@ namespace Windows.UI.Input.Inking.Preview
 
 ## -description
 
+Provides preview APIs for Windows Ink apps.
+
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

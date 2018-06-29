@@ -11,9 +11,10 @@ public class PalmRejectionDelayZonePreview : IClosable
 
 ## -description
 
+Provides functionality to support palm rejection around an inking region.
+
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

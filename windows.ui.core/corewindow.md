@@ -17,6 +17,26 @@ Represents the UWP app with input events and basic user interface behaviors.
 
 New instances of this class are obtained by calling [CoreApplication.CreateNewView](../windows.applicationmodel.core/coreapplication_createnewview.md) and then inspecting the [CoreWindow](../windows.applicationmodel.core/coreapplicationview_corewindow.md) property on the returned [CoreApplicationView](../windows.applicationmodel.core/coreapplicationview.md) instance. Or you can obtain existing [CoreWindow](corewindow.md) instances for a running app from the [CoreApplication.Views](../windows.applicationmodel.core/coreapplication_views.md) property, or by calling [CoreWindow.GetForCurrentThread](corewindow_getforcurrentthread.md), as seen in the following example.
 
+```cppwinrt
+// App.cpp
+...
+// An implementation of IFrameworkView::Run.
+void Run()
+{
+    CoreWindow window{ CoreWindow::GetForCurrentThread() };
+    window.Activate();
+
+    CoreDispatcher dispatcher{ window.Dispatcher() };
+    dispatcher.ProcessEvents(CoreProcessEventsOption::ProcessUntilQuit);
+}
+
+// The CoreApplication::Run call indirectly calls the App::Run function above.
+int __stdcall wWinMain(HINSTANCE, HINSTANCE, PWSTR, int)
+{
+    CoreApplication::Run(App());
+}
+```
+
 ```cpp
 void MyCoreWindowEvents::Run() // this is an implementation of IFrameworkView::Run() used to show context
 {

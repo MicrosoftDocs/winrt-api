@@ -10,7 +10,7 @@ public enum FindAllWebAccountsStatus : int
 # Windows.Security.Authentication.Web.Core.FindAllWebAccountsStatus
 
 ## -description
-Contains values that describe the result of a web account enumeration operation (see the **[FindAllAccountsAsync](webauthenticationcoremanager_findallaccountsasync_1139996617)** method).
+Contains values that describe the result of a web account enumeration operation (see the **[FindAllAccountsAsync](webauthenticationcoremanager_findallaccountsasync_1139996617.md)** method).
 
 ## -enum-fields
 ### -field Success:0

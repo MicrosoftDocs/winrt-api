@@ -14,15 +14,23 @@ public struct DisplayAdapterId  {
 
 ## -description
 
+Corresponds to the LUID (Locally Unique Identifier) associated with a graphics adapter.
+
 ## -struct-fields
 
 ### -field HighPart
 
+The high part of the LUID.
+
 ### -field LowPart
+
+The low part of the LUID.
 
 ## -remarks
 
 ## -see-also
 
-## -examples
+[Windows.Graphics namespace](windows_graphics.md),
+[LUID](https://msdn.microsoft.com/library/windows/desktop/ff549708)
 
+## -examples

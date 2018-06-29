@@ -22,13 +22,32 @@ This object is returned by a delegate registered for one of the following events
 + [CoreWindow.PointerReleased](corewindow_pointerreleased.md)
 + [CoreWindow.PointerWheelChanged](corewindow_pointerwheelchanged.md)
 
+> [!NOTE]
+> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://go.microsoft.com/fwlink/p/?linkid=258275).
 
+## -examples
+```cppwinrt
+void SetWindow(CoreWindow const & window)
+{
+    window.PointerCursor(Windows::UI::Core::CoreCursor{ CoreCursorType::Arrow, 0 });
 
+    window.PointerPressed({ this, &App::OnPointerPressed });
+    window.PointerReleased({ this, &App::OnPointerReleased });
+    window.PointerMoved({ this, &App::OnPointerMoved });
+}
 
+// Pointer event data in PointerEventArgs.
+void OnPointerPressed(Windows::UI::Core::CoreWindow const& /* sender */,
+    Windows::UI::Core::PointerEventArgs const& /* args */) {}
 
+void OnPointerReleased(Windows::UI::Core::CoreWindow const& /* sender */,
+    Windows::UI::Core::PointerEventArgs const& /* args */) {}
+
+void OnPointerMoved(Windows::UI::Core::CoreWindow const& /* sender */,
+    Windows::UI::Core::PointerEventArgs const& /* args */) {}
+```
 
 ```cpp
-
 // returning pointer events data through PointerEventArgs
 
 void MyCoreWindowEvents::SetWindow( // implementation called by CoreApplication::Run(), provided for context
@@ -46,17 +65,8 @@ void MyCoreWindowEvents::SetWindow( // implementation called by CoreApplication:
         ref new TypedEventHandler<CoreWindow^, PointerEventArgs^>(this, &CoreWindowEvents::OnPointerMoved);
 
     // ...
-   
 }
-
 ```
-
-
-
-> [!NOTE]
-> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://go.microsoft.com/fwlink/p/?linkid=258275).
-
-## -examples
 
 ## -see-also
 [Input: Manipulations and gestures (C++) sample](http://go.microsoft.com/fwlink/p/?linkid=231605), [Input: Simplified ink  sample](http://go.microsoft.com/fwlink/p/?linkid=246570), [Input: Touch hit testing sample](http://go.microsoft.com/fwlink/p/?linkid=231590)

@@ -55,29 +55,6 @@ If you are porting from .NET code and using **Dispatcher.BeginInvoke** and **Dis
 ## -examples
 The following examples demonstrate the use of [CoreDispatcher::RunAsync](coredispatcher_runasync.md) to schedule work on the main UI thread using the [CoreWindow](corewindow.md) 's event dispatcher.
 
-```cpp
-
-// 
-_dispatcher->RunAsync(Windows::UI::Core::CoreDispatcherPriority::Normal, 
-                     ref new Windows::UI::Core::DispatchedHandler([this]()
-{
-  _count++;
-  TimerTextBlock->Text = "Total Running Time: " + _count.ToString() + " Seconds";
-}));
-
-
-// using CallbackContext::Any
-void Playback::DisplayStatus(Platform::String^ text)
-{
-  _dispatcher->RunAsync(Windows::UI::Core::CoreDispatcherPriority::Normal, 
-                        ref new Windows::UI::Core::DispatchedHandler([=]()
-  {
-    _OutputStatus->Text += text + "\n";
-  }, CallbackContext::Any)); 
-}
-
-```
-
 ```csharp
 await dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
 {
@@ -88,11 +65,37 @@ var ignored = dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
 {
    Scenario3OutputText.Text += outputText;
 });
-
-
 ```
 
+```cppwinrt
+TimerTextBlock().Dispatcher().RunAsync(Windows::UI::Core::CoreDispatcherPriority::Normal, [=]()
+{
+    ++m_count;
+    std::wstringstream wstringstream;
+    wstringstream << L"Total count: " << m_count;
+    TimerTextBlock().Text(wstringstream.str().c_str());
+});
+```
 
+```cpp
+// 
+_dispatcher->RunAsync(Windows::UI::Core::CoreDispatcherPriority::Normal, 
+                     ref new Windows::UI::Core::DispatchedHandler([this]()
+{
+  _count++;
+  TimerTextBlock->Text = "Total Running Time: " + _count.ToString() + " Seconds";
+}));
+
+// using CallbackContext::Any
+void Playback::DisplayStatus(Platform::String^ text)
+{
+  _dispatcher->RunAsync(Windows::UI::Core::CoreDispatcherPriority::Normal, 
+                        ref new Windows::UI::Core::DispatchedHandler([=]()
+  {
+    _OutputStatus->Text += text + "\n";
+  }, CallbackContext::Any)); 
+}
+```
 
 ## -see-also
 [Asynchronous programming](http://msdn.microsoft.com/library/23fe28f1-89c5-4a17-a732-a722648f9c5e)

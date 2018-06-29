@@ -17,10 +17,10 @@ Gets or sets the source for the image.
 <Image Source="uri"/>
 ```
 
-
 ## -xaml-values
 <dl><dt>uri</dt><dd>uriThe location of the image source file. In XAML syntax, you can specify what appears to be a relative that is relative to a base . The base is interpreted based on the location of the XAML file that loads it, and uses the ms-appx: scheme implicitly. For more info see Remarks.</dd>
 </dl>
+
 ## -property-value
 An object that represents the image source file for the drawn image. Typically you set this with a [BitmapImage](../windows.ui.xaml.media.imaging/bitmapimage.md) object, constructed with the Uniform Resource Identifier (URI) that describes the path to a valid image source file. Or, you can initialize a [BitmapSource](../windows.ui.xaml.media.imaging/bitmapsource.md) with a stream, perhaps a stream from a storage file.
 
@@ -54,7 +54,6 @@ When you reference local content, you must include the **ms-appx:** scheme in th
 Here's how to set the source to an image from the app package.
 
 ```csharp
-
 Image img = new Image();
 BitmapImage bitmapImage = new BitmapImage();
 Uri uri = new Uri("ms-appx:///Assets/Logo.png");
@@ -65,7 +64,19 @@ img.Source = bitmapImage;
 
 Image img = new Image();
 img.Source = new BitmapImage(new Uri("ms-appx:///Assets/Logo.png"));
+```
 
+```cppwinrt
+Windows::UI::Xaml::Controls::Image img;
+Windows::UI::Xaml::Media::Imaging::BitmapImage bitmapImage;
+Windows::Foundation::Uri uri{ L"ms-appx:///Assets/LockScreenLogo.png" };
+bitmapImage.UriSource(uri);
+img.Source(bitmapImage);
+
+// OR
+
+Windows::UI::Xaml::Controls::Image img;
+img.Source(Windows::UI::Xaml::Media::Imaging::BitmapImage{ Windows::Foundation::Uri{ L"ms-appx:///Assets/LockScreenLogo.png" } });
 ```
 
 ```cpp
@@ -84,7 +95,7 @@ img->Source = ref new BitmapImage(ref new Windows::Foundation::Uri("ms-appx:///A
 If you need to ensure that the [Image](image.md) control is ready before trying to use it in code, handle the [Loaded](../windows.ui.xaml/frameworkelement_loaded.md) event, and set the [Source](image_source.md) property in the event handler.
 
 > [!NOTE]
-> The [Loaded](../windows.ui.xaml/frameworkelement_loaded.md) event occurs when the [Image](image.md) control is loaded into the XAML page. The [ImageOpened](image_imageopened.md) event occurs when the image file is opened in the [Image](image.md) control.
+> The [FrameworkElement.Loaded](../windows.ui.xaml/frameworkelement_loaded.md) event occurs when the [Image](image.md) control is loaded into the XAML page. The [ImageOpened](image_imageopened.md) event occurs when the image file is opened in the [Image](image.md) control.
 
 Here's an example of setting [Image.Source](image_source.md) in the handler for the [Loaded](../windows.ui.xaml/frameworkelement_loaded.md) event. In this example, the [Image](image.md) object was created in XAML but doesn't have a source or any other property values; instead these values are provided at run-time when the [Image](image.md) is loaded from XAML.
 
@@ -103,6 +114,18 @@ void Image_Loaded(object sender, RoutedEventArgs e)
         bitmapImage.UriSource = new Uri("ms-appx:///Assets/Logo.png");
         img.Source = bitmapImage;
     }
+}
+```
+
+```cppwinrt
+void MainPage::Image_Loaded(winrt::Windows::Foundation::IInspectable const& sender, winrt::Windows::UI::Xaml::RoutedEventArgs const& /* e */)
+{
+    auto img{ sender.as<Windows::UI::Xaml::Controls::Image>() }; // throws if QI fails, so no need for null-check afterwards.
+    Windows::UI::Xaml::Media::Imaging::BitmapImage bitmapImage;
+    img.Width(280);
+    bitmapImage.DecodePixelWidth(280);
+    bitmapImage.UriSource(Windows::Foundation::Uri{ L"ms-appx:///Assets/LockScreenLogo.png" });
+    img.Source(bitmapImage);
 }
 ```
 
@@ -133,7 +156,6 @@ In C# or Microsoft Visual Basic, the **Uri** type is projected as [System.Uri](h
 ```
 
 ```csharp
-
 BitmapImage bitmapImage = new BitmapImage();
 // Call BaseUri on the root Page element and combine it with a relative path
 // to consruct an absolute URI.
@@ -142,7 +164,6 @@ capturedPhoto.Source = bitmapImage;
 ```
 
 ```cpp
-
 auto bitmapImage = ref new Windows::UI::Xaml::Media::Imaging::BitmapImage();
 // Call BaseUri on the root Page element and combine it with a relative path
 // to consruct an absolute URI.
@@ -156,7 +177,6 @@ capturedPhoto->Source = bitmapImage;
 This example throws an exception because it calls [BaseUri](../windows.ui.xaml/frameworkelement_baseuri.md) on the [Image](image.md) before the [Image](image.md) is added to the page. It's assumed that 'stackPanel1' is a [StackPanel](stackpanel.md) element declared in XAML.
 
 ```csharp
-
 Image img = new Image();
 BitmapImage bitmapImage = new BitmapImage();
 
@@ -195,7 +215,6 @@ BitmapImage bitmapImage = new BitmapImage();
 Uri uri = new Uri(img.BaseUri, "Assets/Logo.png");
 bitmapImage.UriSource = uri;
 img.Source = bitmapImage;
-
 ```
 
 ```cpp
@@ -208,10 +227,7 @@ auto bitmapImage = ref new Windows::UI::Xaml::Media::Imaging::BitmapImage();
 auto uri = ref new Windows::Foundation::Uri(img->BaseUri->AbsoluteUri, "Assets/Logo.png");
 bitmapImage->UriSource = uri;
 img->Source = bitmapImage;
-
 ```
-
-
 
 ### Using files from a network
 
@@ -222,26 +238,20 @@ To use a file from a network location as an image source, use the **http:** or *
 ```
 
 ```csharp
-
 Image img = new Image();
 img.Source = new BitmapImage(new Uri("http://www.contoso.com/images/logo.png"));
-
 ```
 
 ```cpp
-
 auto img = ref new Image();
 img->Source = ref new BitmapImage(ref new Windows::Foundation::Uri("http://www.contoso.com/images/logo.png"));
 ```
-
-
 
 ### Using files from local storage
 
 To use files that are placed in your app's local storage as an image source , use the **ms-appdata:** scheme, as shown here. Specify the absolute Uniform Resource Identifier (URI). For more info, see [How to load file resources](http://msdn.microsoft.com/library/a1bfa080-757c-49f7-8b7e-dcf64234edac).
 
 ```xaml
-
 <!-- Access an image file stored in the local folder -->
 <Image Source="ms-appdata:///local/images/logo.png"/>
 
@@ -253,14 +263,12 @@ To use files that are placed in your app's local storage as an image source , us
 ```
 
 ```csharp
-
 var uri = new System.Uri("ms-appdata:///local/images/logo.png");
 var file = await Windows.Storage.StorageFile.GetFileFromApplicationUriAsync(uri);
 
 Image img = new Image();
 img.Source = file;
 ```
-
 
 <!--Need to do C++ snippet. Can't find one anywhere on the dev center for GetFileFromApplicationUriAsync.-->
 
@@ -283,7 +291,6 @@ This example shows how to use a [FileOpenPicker](../windows.storage.pickers/file
 > Using a file picker in Windows Phone 8.x app requires additional steps that are beyond the scope of this example. For more info, see [How to continue your Windows Phone app after calling a file picker](http://msdn.microsoft.com/library/465bbb7a-9ed1-4b57-b60f-e5c6e7cd1470).
 
 ```xaml
-
 <Button Content="Get photo" Click="GetPhotoButton_Click"/>
 
 <Image x:Name="image1" Width="300"/>
@@ -376,8 +383,6 @@ protected async override void OnNavigatedTo(NavigationEventArgs e)
     }
 }
 ```
-
-
 
 ### Image sources and scaling
 

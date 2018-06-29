@@ -15,33 +15,33 @@ Contains the windows activation state information returned by the [CoreWindow.Ac
 ## -remarks
 This object is returned by a delegate registered for the [CoreWindow.Activated](corewindow_activated.md) event.
 
-
-
-```cpp
-
-// returning window activation events data through WindowActivatedEventArgs
-
-void MyCoreWindowEvents::SetWindow( // implementation called by CoreApplication::Run(), provided for context
-    _In_ CoreWindow^ window
-    )
-{
-   
-    // ...
-    window->Activated +=
-        ref new TypedEventHandler<CoreWindow^, WindowActivatedEventArgs^>(this, &CoreWindowEvents::OnWindowActivated);
-
-    // ...
-   
-}
-
-```
-
-
-
 > [!NOTE]
 > : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://go.microsoft.com/fwlink/p/?linkid=258275).
 
 ## -examples
+```cppwinrt
+void SetWindow(CoreWindow const & window)
+{
+    ...
+    window.Activated({ this, &App::OnActivated });
+}
+
+// Activation event data in WindowActivatedEventArgs.
+void OnActivated(Windows::UI::Core::CoreWindow const& /* sender */, Windows::UI::Core::WindowActivatedEventArgs const& /* args */) {}
+```
+
+```cpp
+// returning window activation events data through WindowActivatedEventArgs
+void MyCoreWindowEvents::SetWindow( // implementation called by CoreApplication::Run(), provided for context
+    _In_ CoreWindow^ window
+    )
+{
+    // ...
+    window->Activated +=
+        ref new TypedEventHandler<CoreWindow^, WindowActivatedEventArgs^>(this, &CoreWindowEvents::OnWindowActivated);
+    // ...
+}
+```
 
 ## -see-also
 [CoreWindow.Activated](corewindow_activated.md)

@@ -10,8 +10,10 @@ public int FrameCount { get;  set; }
 # Windows.UI.Xaml.Controls.Maps.MapTileSource.FrameCount
 
 ## -description
+Gets or sets the number of frames in the animation of this [MapTileSource](maptilesource.md).
 
 ## -property-value
+The number of frames in the animation of this [MapTileSource](maptilesource.md).
 
 ## -remarks
 

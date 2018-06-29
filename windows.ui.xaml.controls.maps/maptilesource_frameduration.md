@@ -10,8 +10,10 @@ public TimeSpan FrameDuration { get;  set; }
 # Windows.UI.Xaml.Controls.Maps.MapTileSource.FrameDuration
 
 ## -description
+Gets or sets the time duration of each frame in the animation of this [MapTileSource](maptilesource.md).
 
 ## -property-value
+The time duration of each frame in the animation of this [MapTileSource](maptilesource.md).
 
 ## -remarks
 

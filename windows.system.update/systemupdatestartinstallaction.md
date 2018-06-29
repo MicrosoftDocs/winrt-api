@@ -20,9 +20,17 @@ public enum SystemUpdateStartInstallAction : int
 
 ### -field AllowReboot:3
 
+### -field AllowReboot:1
+
+
+### -field UpToReboot:0
+
+
 ## -remarks
 
 ## -see-also
 
 ## -examples
+
+
 
