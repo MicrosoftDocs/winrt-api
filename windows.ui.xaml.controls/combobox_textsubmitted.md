@@ -10,6 +10,7 @@ public event TypedEventHandler TextSubmitted<ComboBox, ComboBoxTextSubmittedEven
 # Windows.UI.Xaml.Controls.ComboBox.TextSubmitted
 
 ## -description
+Occurs when the user submits some text that does not correspond to an item in the ComboBox dropdown list.
 
 ## -remarks
 
