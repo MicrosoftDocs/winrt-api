@@ -10,6 +10,7 @@ public TimeSpan Duration { get;  set; }
 # Windows.UI.Xaml.ScalarTransition.Duration
 
 ## -description
+Gets or sets the duration of the transition.
 
 ## -property-value
 

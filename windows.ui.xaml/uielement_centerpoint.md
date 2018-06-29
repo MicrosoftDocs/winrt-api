@@ -10,6 +10,7 @@ public Vector3 CenterPoint { get;  set; }
 # Windows.UI.Xaml.UIElement.CenterPoint
 
 ## -description
+Gets or sets the center point of the element, which is the point about which rotation or scaling occurs. Affects the rendering position of the element.
 
 ## -property-value
 

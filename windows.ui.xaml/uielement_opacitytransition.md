@@ -10,6 +10,7 @@ public ScalarTransition OpacityTransition { get;  set; }
 # Windows.UI.Xaml.UIElement.OpacityTransition
 
 ## -description
+Gets or sets the ScalarTransition that animates changes to the Opacity property.
 
 ## -property-value
 

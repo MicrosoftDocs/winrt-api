@@ -10,6 +10,7 @@ public SlideNavigationTransitionEffect Effect { get;  set; }
 # Windows.UI.Xaml.Media.Animation.SlideNavigationTransitionInfo.Effect
 
 ## -description
+Gets or sets the type of animation effect to play during the slide transition.
 
 ## -property-value
 
