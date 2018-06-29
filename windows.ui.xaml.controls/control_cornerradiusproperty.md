@@ -11,15 +11,15 @@ public DependencyProperty CornerRadiusProperty { get; }
 
 ## -description
 
-Identifies the CornerRadius dependency property.
+Identifies the [CornerRadius](control_cornerradius.md) dependency property.
 
 ## -property-value
 
-The identifier for the CornerRadius dependency property.
+The identifier for the [CornerRadius](control_cornerradius.md) dependency property.
 
-## -remarks
 
 ## -see-also
+- [CornerRadius](control_cornerradius.md)
+- [Dependency properties overview](http://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e)
 
-## -examples
 
