@@ -10,6 +10,7 @@ public BasicConnectedAnimationConfiguration.BasicConnectedAnimationConfiguration
 # Windows.UI.Xaml.Media.Animation.BasicConnectedAnimationConfiguration.BasicConnectedAnimationConfiguration
 
 ## -description
+Initializes a new instance of the BasicConnectedAnimationConfiguration class.
 
 ## -remarks
 
