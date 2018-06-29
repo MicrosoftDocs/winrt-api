@@ -10,6 +10,7 @@ public string Text { get; }
 # Windows.UI.Xaml.Controls.ComboBoxTextSubmittedEventArgs.Text
 
 ## -description
+Gets the custom text value entered by the user.
 
 ## -property-value
 

@@ -10,6 +10,7 @@ public class ComboBoxTextSubmittedEventArgs
 # Windows.UI.Xaml.Controls.ComboBoxTextSubmittedEventArgs
 
 ## -description
+Provides data when the user enters custom text into the ComboBox.
 
 ## -remarks
 

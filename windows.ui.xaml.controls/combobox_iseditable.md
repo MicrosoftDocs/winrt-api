@@ -10,10 +10,12 @@ public bool IsEditable { get; }
 # Windows.UI.Xaml.Controls.ComboBox.IsEditable
 
 ## -description
-Gets a value that indicates whether the user can edit text in the text box portion of the [ComboBox](combobox.md). This property always returns **false**.
+Gets a value that indicates whether the user can edit text in the text box portion of the [ComboBox](combobox.md). 
+
+Prior to fall 2018, this property always returns **false**.
 
 ## -property-value
-**False** in all cases.
+Prior to fall 2018, this property always returns **false**.
 
 ## -remarks
 

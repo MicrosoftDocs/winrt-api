@@ -10,6 +10,7 @@ public string Text { get;  set; }
 # Windows.UI.Xaml.Controls.ComboBox.Text
 
 ## -description
+Gets or sets the text in the ComboBox. 
 
 ## -property-value
 

@@ -11,7 +11,11 @@ public DependencyProperty TextBoxStyleProperty { get; }
 
 ## -description
 
+Identifies the TextBoxStyleProperty dependency property.
+
 ## -property-value
+
+The identifier for the TextBoxStyleProperty dependency property.
 
 ## -remarks
 
