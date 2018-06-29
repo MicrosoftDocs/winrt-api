@@ -10,6 +10,7 @@ public DirectConnectedAnimationConfiguration.DirectConnectedAnimationConfigurati
 # Windows.UI.Xaml.Media.Animation.DirectConnectedAnimationConfiguration.DirectConnectedAnimationConfiguration
 
 ## -description
+Initializes a new instance of the DirectConnectedAnimationConfiguration class.
 
 ## -remarks
 

@@ -10,8 +10,10 @@ public DependencyProperty EffectProperty { get; }
 # Windows.UI.Xaml.Media.Animation.SlideNavigationTransitionInfo.EffectProperty
 
 ## -description
+Identifies the Effect dependency property.
 
 ## -property-value
+The identifier for the Effect dependency property.
 
 ## -remarks
 

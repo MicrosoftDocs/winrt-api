@@ -10,6 +10,7 @@ public BrushTransition.BrushTransition()
 # Windows.UI.Xaml.BrushTransition.BrushTransition
 
 ## -description
+Initializes a new instance of the BrushTransition class.
 
 ## -remarks
 
