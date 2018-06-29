@@ -10,6 +10,7 @@ public void UIElement.StartAnimation(ICompositionAnimationBase animation)
 # Windows.UI.Xaml.UIElement.StartAnimation
 
 ## -description
+Begins the specified animation on the element.
 
 ## -parameters
 ### -param animation

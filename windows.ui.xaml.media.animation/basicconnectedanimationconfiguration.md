@@ -10,6 +10,7 @@ public class BasicConnectedAnimationConfiguration : ConnectedAnimationConfigurat
 # Windows.UI.Xaml.Media.Animation.BasicConnectedAnimationConfiguration
 
 ## -description
+An object that configures the connected animation as a linear transition from the source to the destination.
 
 ## -remarks
 
