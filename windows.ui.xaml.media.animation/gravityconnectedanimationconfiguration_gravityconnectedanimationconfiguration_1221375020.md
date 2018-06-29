@@ -10,6 +10,7 @@ public GravityConnectedAnimationConfiguration.GravityConnectedAnimationConfigura
 # Windows.UI.Xaml.Media.Animation.GravityConnectedAnimationConfiguration.GravityConnectedAnimationConfiguration
 
 ## -description
+Initializes a new instance of the GravityConnectedAnimationConfiguration class.
 
 ## -remarks
 

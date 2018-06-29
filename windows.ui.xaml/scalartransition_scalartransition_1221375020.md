@@ -10,6 +10,7 @@ public ScalarTransition.ScalarTransition()
 # Windows.UI.Xaml.ScalarTransition.ScalarTransition
 
 ## -description
+Initializes a new instance of the ScalarTransition class.
 
 ## -remarks
 
