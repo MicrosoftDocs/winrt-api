@@ -10,6 +10,7 @@ public class AnchorRequestedEventArgs
 # Windows.UI.Xaml.Controls.AnchorRequestedEventArgs
 
 ## -description
+Provides data for the [ScrollViewer.AnchorRequested](scrollviewer_anchorrequested) event.
 
 ## -remarks
 
