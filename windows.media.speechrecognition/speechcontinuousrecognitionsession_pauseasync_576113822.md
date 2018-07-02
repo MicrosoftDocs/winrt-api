@@ -10,7 +10,7 @@ public Windows.Foundation.IAsyncAction PauseAsync()
 # Windows.Media.SpeechRecognition.SpeechContinuousRecognitionSession.PauseAsync
 
 ## -description
-Asynchronously pause a continuous speech recognition to update a local [grammar file](speechrecognitiongrammarfileconstraint.md) or [list constraint](speechrecognitionlistconstraint.md).
+Asynchronously pause a continuous speech recognition to update a local [grammar file](speechrecognitiongrammarfileconstraint.md) or [list constraint](speechrecognitionlistconstraint.md). 
 
 ## -returns
 An asynchronous handler called when the operation is complete.
@@ -18,7 +18,7 @@ An asynchronous handler called when the operation is complete.
 ## -remarks
 An error is returned if [SpeechRecognizerState](speechrecognizerstate.md) is [Idle](speechrecognizerstate.md) or [Paused](speechrecognizerstate.md).
 
-If a [SpeechRecognitionTopicConstraint](speechrecognitiontopicconstraint.md) is present in the list of constraints or the list is empty deaulting to a topic constraint base recognition, than [PauseAsync](speechcontinuousrecognitionsession_pauseasync.md) fails with error code COR_E_INVALIDOPERATION.
+If a [SpeechRecognitionTopicConstraint](speechrecognitiontopicconstraint.md) is present in the list of constraints or the list is empty defaulting to a topic constraint base recognition, than [PauseAsync](speechcontinuousrecognitionsession_pauseasync.md) fails with error code COR_E_INVALIDOPERATION.
 
 ## -examples
 
