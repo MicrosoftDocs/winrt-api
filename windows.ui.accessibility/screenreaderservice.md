@@ -11,6 +11,8 @@ public class ScreenReaderService
 
 ## -description
 
+Provides properties and events associated with a screen reader device.
+
 ## -remarks
 
 ## -see-also

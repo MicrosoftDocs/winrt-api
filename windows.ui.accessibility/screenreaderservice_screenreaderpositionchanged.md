@@ -11,6 +11,8 @@ public event TypedEventHandler ScreenReaderPositionChanged<ScreenReaderService, 
 
 ## -description
 
+Occurs when the location of the screen reader focus indicator (such as the Narrator focus highlight box) changes.
+
 ## -remarks
 
 ## -see-also

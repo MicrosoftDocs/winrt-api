@@ -11,6 +11,8 @@ namespace Windows.UI.Accessibility
 
 ## -description
 
+Provides support for working with accessibility devices such as screen readers and magnifiers.
+
 ## -remarks
 
 ## -see-also

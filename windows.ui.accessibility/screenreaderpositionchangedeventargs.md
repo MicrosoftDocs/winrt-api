@@ -11,6 +11,8 @@ public class ScreenReaderPositionChangedEventArgs
 
 ## -description
 
+Contains event data for the [ScreenReaderPositionChanged](screenreaderservice_screenreaderpositionchanged.md) event of a [ScreenReaderService](screenreaderservice.md).
+
 ## -remarks
 
 ## -see-also

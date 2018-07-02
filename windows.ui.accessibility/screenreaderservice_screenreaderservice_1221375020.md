@@ -11,6 +11,8 @@ public ScreenReaderService.ScreenReaderService()
 
 ## -description
 
+Initializes a new instance of the [ScreenReaderService](screenreaderservice.md) class.
+
 ## -remarks
 
 ## -see-also
