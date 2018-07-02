@@ -10,6 +10,7 @@ public void SystemUpdateManager.StartCancelUpdates()
 # Windows.System.Update.SystemUpdateManager.StartCancelUpdates
 
 ## -description
+Start cancelling updates if any updates are in progress.
 
 ## -remarks
 

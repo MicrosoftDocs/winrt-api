@@ -10,10 +10,12 @@ public HResult ExtendedError { get; }
 # Windows.System.Update.SystemUpdateManager.ExtendedError
 
 ## -description
+Extended error information if available.
 
 ## -property-value
 
 ## -remarks
+If an error occurs, then the extended error can be retrieved through this property even if an exception is not thrown.
 
 ## -see-also
 

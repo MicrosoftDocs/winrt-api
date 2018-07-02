@@ -12,13 +12,11 @@ public enum SystemUpdateStartInstallAction : int
 ## -description
 
 ## -enum-fields
-### -field UpToReboot:2
+### -field UpToReboot:0
+Download, and install.  Wait for interactive reboot to install or automatic reboot window if reboots are required.
 
-### -field ScanAndDownload:1
-
-### -field Scan:0
-
-### -field AllowReboot:3
+### -field AllowReboot:1
+Download, and install.  If reboots are required reboot automatically as sson as they are required
 
 ### -field AllowReboot:1
 

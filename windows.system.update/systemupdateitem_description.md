@@ -10,6 +10,7 @@ public string Description { get; }
 # Windows.System.Update.SystemUpdateItem.Description
 
 ## -description
+Describes the contents of the SystemUpdateItem.
 
 ## -property-value
 

@@ -10,6 +10,7 @@ public double InstallProgress { get; }
 # Windows.System.Update.SystemUpdateManager.InstallProgress
 
 ## -description
+Install progress percentage.
 
 ## -property-value
 

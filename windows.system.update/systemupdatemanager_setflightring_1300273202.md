@@ -10,6 +10,7 @@ public bool SystemUpdateManager.SetFlightRing(String flightRing)
 # Windows.System.Update.SystemUpdateManager.SetFlightRing
 
 ## -description
+Sets the flight ring.
 
 ## -parameters
 ### -param flightRing

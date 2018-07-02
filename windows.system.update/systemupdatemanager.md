@@ -10,8 +10,10 @@ public class SystemUpdateManager
 # Windows.System.Update.SystemUpdateManager
 
 ## -description
+Allows interactive control of system updates.
 
 ## -remarks
+Application must declare the systemManagement capability. Only supported on Windows 10 IoT Core.
 
 ## -see-also
 

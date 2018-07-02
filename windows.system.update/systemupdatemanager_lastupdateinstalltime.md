@@ -10,6 +10,7 @@ public DateTime LastUpdateInstallTime { get; }
 # Windows.System.Update.SystemUpdateManager.LastUpdateInstallTime
 
 ## -description
+Time of last update install.
 
 ## -property-value
 

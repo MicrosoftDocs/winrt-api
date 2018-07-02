@@ -10,6 +10,7 @@ public uint Revision { get; }
 # Windows.System.Update.SystemUpdateItem.Revision
 
 ## -description
+The revision number of the update bundle starts at 1 and increases if revisions are made to the original update bundle.
 
 ## -property-value
 

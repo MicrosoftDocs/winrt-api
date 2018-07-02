@@ -10,6 +10,7 @@ public string Id { get; }
 # Windows.System.Update.SystemUpdateItem.Id
 
 ## -description
+A unique identifer which identifies this update item.
 
 ## -property-value
 

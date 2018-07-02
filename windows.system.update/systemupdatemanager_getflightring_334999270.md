@@ -10,6 +10,7 @@ public string SystemUpdateManager.GetFlightRing()
 # Windows.System.Update.SystemUpdateManager.GetFlightRing
 
 ## -description
+Get the flight ring.
 
 ## -returns
 

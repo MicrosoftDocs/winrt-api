@@ -10,9 +10,11 @@ public void SystemUpdateManager.StartInstall(SystemUpdateStartInstallAction acti
 # Windows.System.Update.SystemUpdateManager.StartInstall
 
 ## -description
+Start the detection, downloading, and installation of pending updates.
 
 ## -parameters
 ### -param action
+See [SystemUpdateStartInstallAction](systemupdatestartinstallaction.md)
 
 ## -remarks
 

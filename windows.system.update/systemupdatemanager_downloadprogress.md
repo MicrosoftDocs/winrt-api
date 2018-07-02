@@ -10,6 +10,7 @@ public double DownloadProgress { get; }
 # Windows.System.Update.SystemUpdateManager.DownloadProgress
 
 ## -description
+Download progress percentage.
 
 ## -property-value
 

@@ -10,6 +10,7 @@ public string Title { get; }
 # Windows.System.Update.SystemUpdateItem.Title
 
 ## -description
+Title of update item.
 
 ## -property-value
 

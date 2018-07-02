@@ -10,6 +10,7 @@ public TimeSpan UserActiveHoursStart { get; }
 # Windows.System.Update.SystemUpdateManager.UserActiveHoursStart
 
 ## -description
+Gets the user active hours start time value.
 
 ## -property-value
 

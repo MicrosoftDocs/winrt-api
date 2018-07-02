@@ -10,6 +10,7 @@ public class SystemUpdateItem
 # Windows.System.Update.SystemUpdateItem
 
 ## -description
+Describes the update bundle's properties and status.
 
 ## -remarks
 

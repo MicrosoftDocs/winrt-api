@@ -11,11 +11,14 @@ public SystemUpdateItemState State { get; }
 
 ## -description
 
+State of the current update item.
+
 ## -property-value
+
+[SystemUpdateItemState](systemupdateitemstate.md)
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

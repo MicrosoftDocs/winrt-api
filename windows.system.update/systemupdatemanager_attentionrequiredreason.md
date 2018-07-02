@@ -11,11 +11,14 @@ public SystemUpdateAttentionRequiredReason AttentionRequiredReason { get; }
 
 ## -description
 
+Reason why user attention is required.
+
 ## -property-value
+
+[SystemUpdateAttentionRequiredReason](systemupdateattentionrequiredreason.md)
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

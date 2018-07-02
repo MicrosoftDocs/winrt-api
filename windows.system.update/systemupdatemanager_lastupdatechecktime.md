@@ -10,6 +10,7 @@ public DateTime LastUpdateCheckTime { get; }
 # Windows.System.Update.SystemUpdateManager.LastUpdateCheckTime
 
 ## -description
+Time of last check for updates.
 
 ## -property-value
 
