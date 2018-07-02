@@ -11,10 +11,17 @@ public bool AutomationProperties.GetIsDialog(DependencyObject element)
 
 ## -description
 
+Gets the value of the [AutomationProperties.IsDialog](automationproperties_isdialog.md) attached property for the specified [DependencyObject](../windows.ui.xaml/dependencyobject.md).
+
 ## -parameters
+
 ### -param element
 
+The object to check.
+
 ## -returns
+
+**true** if the specified element is identified as a dialog window; otherwise, **false**.
 
 ## -remarks
 
