@@ -4,16 +4,17 @@
 ---
 
 <!-- Class syntax.
-public class LearningModelDevice 
+public class LearningModelDevice
 -->
 
 # Windows.AI.MachineLearning.LearningModelDevice
 
 ## -description
 
+Specify the device used to evaluate the machine learning model.
+
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

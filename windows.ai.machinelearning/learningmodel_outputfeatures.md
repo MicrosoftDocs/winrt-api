@@ -10,6 +10,7 @@ public IVectorView<ILearningModelFeatureDescriptor> OutputFeatures { get; }
 # Windows.AI.MachineLearning.LearningModel.OutputFeatures
 
 ## -description
+A list of the model's output features.
 
 ## -property-value
 
@@ -18,4 +19,3 @@ public IVectorView<ILearningModelFeatureDescriptor> OutputFeatures { get; }
 ## -see-also
 
 ## -examples
-

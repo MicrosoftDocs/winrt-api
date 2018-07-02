@@ -10,7 +10,7 @@ public ulong AdapterId { get; }
 # Windows.AI.MachineLearning.LearningModelDevice.AdapterId
 
 ## -description
-
+Returns the unique identifier for the device.
 ## -property-value
 
 ## -remarks
@@ -18,4 +18,3 @@ public ulong AdapterId { get; }
 ## -see-also
 
 ## -examples
-

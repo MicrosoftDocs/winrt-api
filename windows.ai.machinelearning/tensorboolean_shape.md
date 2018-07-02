@@ -10,7 +10,7 @@ public IVectorView<long> Shape { get; }
 # Windows.AI.MachineLearning.TensorBoolean.Shape
 
 ## -description
-
+Returns the count and size of each dimension.
 ## -property-value
 
 ## -remarks
@@ -18,4 +18,3 @@ public IVectorView<long> Shape { get; }
 ## -see-also
 
 ## -examples
-

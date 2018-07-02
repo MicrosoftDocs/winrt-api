@@ -10,6 +10,7 @@ public IVectorView<ILearningModelFeatureDescriptor> InputFeatures { get; }
 # Windows.AI.MachineLearning.LearningModel.InputFeatures
 
 ## -description
+A list of the model's input features.
 
 ## -property-value
 
@@ -18,4 +19,3 @@ public IVectorView<ILearningModelFeatureDescriptor> InputFeatures { get; }
 ## -see-also
 
 ## -examples
-

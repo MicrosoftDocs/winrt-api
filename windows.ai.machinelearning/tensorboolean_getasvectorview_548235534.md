@@ -10,7 +10,7 @@ public IVectorView<bool> TensorBoolean.GetAsVectorView()
 # Windows.AI.MachineLearning.TensorBoolean.GetAsVectorView
 
 ## -description
-
+Returns a read only view of the data.
 ## -returns
 
 ## -remarks
@@ -18,4 +18,3 @@ public IVectorView<bool> TensorBoolean.GetAsVectorView()
 ## -see-also
 
 ## -examples
-

@@ -4,16 +4,17 @@
 ---
 
 <!-- Class syntax.
-public class LearningModelEvaluationResult 
+public class LearningModelEvaluationResult
 -->
 
 # Windows.AI.MachineLearning.LearningModelEvaluationResult
 
 ## -description
 
+Get the results of the evaluation.
+
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

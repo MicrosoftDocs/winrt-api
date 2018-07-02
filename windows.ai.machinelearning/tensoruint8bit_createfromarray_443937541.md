@@ -10,7 +10,7 @@ public TensorUInt8Bit TensorUInt8Bit.CreateFromArray(IIterable<Int64> shape, Byt
 # Windows.AI.MachineLearning.TensorUInt8Bit.CreateFromArray
 
 ## -description
-
+Creates a 8bit unsigned int tensor object, allocates a buffer of size 'shape', and copies all of 'data' into it.
 ## -parameters
 ### -param shape
 
@@ -23,4 +23,3 @@ public TensorUInt8Bit TensorUInt8Bit.CreateFromArray(IIterable<Int64> shape, Byt
 ## -see-also
 
 ## -examples
-

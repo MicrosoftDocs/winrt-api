@@ -10,7 +10,7 @@ public TensorFloat TensorFloat.CreateFromArray(IIterable<Int64> shape, Single[] 
 # Windows.AI.MachineLearning.TensorFloat.CreateFromArray
 
 ## -description
-
+Creates a 32bit float tensor object, allocates a buffer of size 'shape', and copies all of 'data' into it.
 ## -parameters
 ### -param shape
 
@@ -23,4 +23,3 @@ public TensorFloat TensorFloat.CreateFromArray(IIterable<Int64> shape, Single[] 
 ## -see-also
 
 ## -examples
-

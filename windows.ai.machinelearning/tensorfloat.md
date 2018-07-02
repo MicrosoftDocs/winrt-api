@@ -10,10 +10,9 @@ public class TensorFloat : ILearningModelFeatureValue, ITensor
 # Windows.AI.MachineLearning.TensorFloat
 
 ## -description
-
+A 32bit float tensor object.
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

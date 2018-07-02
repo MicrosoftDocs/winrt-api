@@ -10,7 +10,7 @@ public TensorKind TensorKind { get; }
 # Windows.AI.MachineLearning.TensorFloat.TensorKind
 
 ## -description
-
+Returns the data type of the tensor.
 ## -property-value
 
 ## -remarks
@@ -18,4 +18,3 @@ public TensorKind TensorKind { get; }
 ## -see-also
 
 ## -examples
-

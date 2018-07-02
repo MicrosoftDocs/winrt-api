@@ -10,7 +10,7 @@ public TensorUInt16Bit TensorUInt16Bit.Create(IIterable<Int64> shape)
 # Windows.AI.MachineLearning.TensorUInt16Bit.Create
 
 ## -description
-
+Creates a 16bit unsigned int tensor object and allocates a buffer of size 'shape'.
 ## -parameters
 ### -param shape
 
@@ -21,4 +21,3 @@ public TensorUInt16Bit TensorUInt16Bit.Create(IIterable<Int64> shape)
 ## -see-also
 
 ## -examples
-

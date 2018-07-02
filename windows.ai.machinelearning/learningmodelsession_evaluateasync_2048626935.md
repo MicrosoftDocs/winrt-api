@@ -10,12 +10,12 @@ public IAsyncOperation<LearningModelEvaluationResult> LearningModelSession.Evalu
 # Windows.AI.MachineLearning.LearningModelSession.EvaluateAsync
 
 ## -description
-
+Asynchronously evaluate the machine learning model using the feature values already bound in 'bindings'.
 ## -parameters
 ### -param bindings
-
+Holder for associations between model inputs and variable instances.
 ### -param correlationId
-
+Optional user supplied string that was attached to the Evaluate() call to connect the output results.
 ## -returns
 
 ## -remarks
@@ -23,4 +23,3 @@ public IAsyncOperation<LearningModelEvaluationResult> LearningModelSession.Evalu
 ## -see-also
 
 ## -examples
-

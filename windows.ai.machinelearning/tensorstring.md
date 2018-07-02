@@ -10,10 +10,9 @@ public class TensorString : ILearningModelFeatureValue, ITensor
 # Windows.AI.MachineLearning.TensorString
 
 ## -description
-
+A string tensor object.
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

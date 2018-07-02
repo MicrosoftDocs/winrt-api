@@ -10,7 +10,7 @@ public TensorFloat TensorFloat.Create()
 # Windows.AI.MachineLearning.TensorFloat.Create
 
 ## -description
-
+Creates a 32bit float tensor object without allocating a buffer.
 ## -returns
 
 ## -remarks
@@ -18,4 +18,3 @@ public TensorFloat TensorFloat.Create()
 ## -see-also
 
 ## -examples
-

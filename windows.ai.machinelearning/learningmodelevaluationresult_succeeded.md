@@ -11,11 +11,14 @@ public bool Succeeded { get; }
 
 ## -description
 
+True if the evaluation completed successfully; otherwise, false.
+
 ## -property-value
 
 ## -remarks
 
+If False, use [ErrorStatus](learningmodelevaluationresult_errorstatus.md) to find out what caused the failure.
+
 ## -see-also
 
 ## -examples
-

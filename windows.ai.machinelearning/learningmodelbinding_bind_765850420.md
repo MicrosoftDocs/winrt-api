@@ -10,7 +10,7 @@ public void LearningModelBinding.Bind(String name, Object value)
 # Windows.AI.MachineLearning.LearningModelBinding.Bind
 
 ## -description
-
+Bind a value to the named feature.
 ## -parameters
 ### -param name
 
@@ -21,4 +21,3 @@ public void LearningModelBinding.Bind(String name, Object value)
 ## -see-also
 
 ## -examples
-

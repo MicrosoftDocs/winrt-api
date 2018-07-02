@@ -10,10 +10,9 @@ public interface ITensor : ILearningModelFeatureValue
 # Windows.AI.MachineLearning.ITensor
 
 ## -description
-
+Tensors are multi dimensional values.
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

@@ -10,7 +10,7 @@ public uint Height { get; }
 # Windows.AI.MachineLearning.ImageFeatureDescriptor.Height
 
 ## -description
-
+The expected image height.
 ## -property-value
 
 ## -remarks
@@ -18,4 +18,3 @@ public uint Height { get; }
 ## -see-also
 
 ## -examples
-

@@ -10,7 +10,7 @@ public bool IsRequired { get; }
 # Windows.AI.MachineLearning.SequenceFeatureDescriptor.IsRequired
 
 ## -description
-
+If true, you must bind a value to this feature before calling Evaluate().
 ## -property-value
 
 ## -remarks
@@ -18,4 +18,3 @@ public bool IsRequired { get; }
 ## -see-also
 
 ## -examples
-

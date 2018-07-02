@@ -10,7 +10,7 @@ public string Description { get; }
 # Windows.AI.MachineLearning.LearningModel.Description
 
 ## -description
-
+A description of the model.
 ## -property-value
 
 ## -remarks
@@ -18,4 +18,3 @@ public string Description { get; }
 ## -see-also
 
 ## -examples
-

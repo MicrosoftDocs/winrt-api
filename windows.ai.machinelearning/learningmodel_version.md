@@ -10,7 +10,7 @@ public long Version { get; }
 # Windows.AI.MachineLearning.LearningModel.Version
 
 ## -description
-
+The version of the model.
 ## -property-value
 
 ## -remarks
@@ -18,4 +18,3 @@ public long Version { get; }
 ## -see-also
 
 ## -examples
-

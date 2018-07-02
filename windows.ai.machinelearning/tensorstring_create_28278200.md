@@ -10,7 +10,7 @@ public TensorString TensorString.Create()
 # Windows.AI.MachineLearning.TensorString.Create
 
 ## -description
-
+Creates a string tensor object without allocating a buffer.
 ## -returns
 
 ## -remarks
@@ -18,4 +18,3 @@ public TensorString TensorString.Create()
 ## -see-also
 
 ## -examples
-

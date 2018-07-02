@@ -10,7 +10,7 @@ public ImageFeatureValue ImageFeatureValue.CreateFromVideoFrame(VideoFrame image
 # Windows.AI.MachineLearning.ImageFeatureValue.CreateFromVideoFrame
 
 ## -description
-
+Creates a ImageFeatureValue using the video frame..
 ## -parameters
 ### -param image
 
@@ -21,4 +21,3 @@ public ImageFeatureValue ImageFeatureValue.CreateFromVideoFrame(VideoFrame image
 ## -see-also
 
 ## -examples
-

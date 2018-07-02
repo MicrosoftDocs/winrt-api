@@ -10,10 +10,9 @@ public class TensorBoolean : ILearningModelFeatureValue, ITensor
 # Windows.AI.MachineLearning.TensorBoolean
 
 ## -description
-
+A boolean tensor object.
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

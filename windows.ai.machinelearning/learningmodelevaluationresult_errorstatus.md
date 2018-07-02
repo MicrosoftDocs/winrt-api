@@ -10,7 +10,7 @@ public int ErrorStatus { get; }
 # Windows.AI.MachineLearning.LearningModelEvaluationResult.ErrorStatus
 
 ## -description
-
+If the evaluation failed, returns an error code for what caused the failure.
 ## -property-value
 
 ## -remarks
@@ -18,4 +18,3 @@ public int ErrorStatus { get; }
 ## -see-also
 
 ## -examples
-

@@ -10,7 +10,7 @@ public IAsyncOperation<LearningModel> LearningModel.LoadFromStorageFileAsync(ISt
 # Windows.AI.MachineLearning.LearningModel.LoadFromStorageFileAsync
 
 ## -description
-
+Loads an ONNX model from a StorageFile asynchronously.
 ## -parameters
 ### -param modelFile
 
@@ -21,4 +21,3 @@ public IAsyncOperation<LearningModel> LearningModel.LoadFromStorageFileAsync(ISt
 ## -see-also
 
 ## -examples
-

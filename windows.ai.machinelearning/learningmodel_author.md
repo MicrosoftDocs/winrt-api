@@ -10,7 +10,7 @@ public string Author { get; }
 # Windows.AI.MachineLearning.LearningModel.Author
 
 ## -description
-
+The name of the model author.
 ## -property-value
 
 ## -remarks
@@ -18,4 +18,3 @@ public string Author { get; }
 ## -see-also
 
 ## -examples
-

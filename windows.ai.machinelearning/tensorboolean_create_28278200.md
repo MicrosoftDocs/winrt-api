@@ -10,7 +10,7 @@ public TensorBoolean TensorBoolean.Create()
 # Windows.AI.MachineLearning.TensorBoolean.Create
 
 ## -description
-
+Creates a boolean tensor object without allocating a buffer.
 ## -returns
 
 ## -remarks
@@ -18,4 +18,3 @@ public TensorBoolean TensorBoolean.Create()
 ## -see-also
 
 ## -examples
-

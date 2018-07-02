@@ -10,7 +10,7 @@ public TensorString TensorString.CreateFromArray(IIterable<Int64> shape, String[
 # Windows.AI.MachineLearning.TensorString.CreateFromArray
 
 ## -description
-
+Creates a string tensor object, allocates a buffer of size 'shape', and copies all of 'data' into it.
 ## -parameters
 ### -param shape
 
@@ -23,4 +23,3 @@ public TensorString TensorString.CreateFromArray(IIterable<Int64> shape, String[
 ## -see-also
 
 ## -examples
-

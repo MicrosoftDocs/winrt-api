@@ -10,7 +10,7 @@ public IVectorView<uint> TensorUInt32Bit.GetAsVectorView()
 # Windows.AI.MachineLearning.TensorUInt32Bit.GetAsVectorView
 
 ## -description
-
+Returns a read only view of the data.
 ## -returns
 
 ## -remarks
@@ -18,4 +18,3 @@ public IVectorView<uint> TensorUInt32Bit.GetAsVectorView()
 ## -see-also
 
 ## -examples
-

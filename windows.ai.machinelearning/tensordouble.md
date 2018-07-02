@@ -10,10 +10,9 @@ public class TensorDouble : ILearningModelFeatureValue, ITensor
 # Windows.AI.MachineLearning.TensorDouble
 
 ## -description
-
+A 64bit float tensor object.
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

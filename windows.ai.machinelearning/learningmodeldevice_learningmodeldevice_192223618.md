@@ -10,7 +10,7 @@ public LearningModelDevice.LearningModelDevice(LearningModelDeviceKind deviceKin
 # Windows.AI.MachineLearning.LearningModelDevice.LearningModelDevice
 
 ## -description
-
+Create a LearningModelDevice from the specified LearningModelDeviceKind.
 ## -parameters
 ### -param deviceKind
 
@@ -19,4 +19,3 @@ public LearningModelDevice.LearningModelDevice(LearningModelDeviceKind deviceKin
 ## -see-also
 
 ## -examples
-

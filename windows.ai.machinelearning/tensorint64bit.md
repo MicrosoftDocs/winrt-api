@@ -10,10 +10,9 @@ public class TensorInt64Bit : ILearningModelFeatureValue, ITensor
 # Windows.AI.MachineLearning.TensorInt64Bit
 
 ## -description
-
+A 64bit signed int tensor object.
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

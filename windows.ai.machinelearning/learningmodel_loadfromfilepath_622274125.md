@@ -10,7 +10,7 @@ public LearningModel LearningModel.LoadFromFilePath(String filePath)
 # Windows.AI.MachineLearning.LearningModel.LoadFromFilePath
 
 ## -description
-
+Loads an ONNX model from a file on disk.
 ## -parameters
 ### -param filePath
 
@@ -21,4 +21,3 @@ public LearningModel LearningModel.LoadFromFilePath(String filePath)
 ## -see-also
 
 ## -examples
-

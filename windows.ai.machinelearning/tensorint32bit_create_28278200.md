@@ -10,7 +10,7 @@ public TensorInt32Bit TensorInt32Bit.Create()
 # Windows.AI.MachineLearning.TensorInt32Bit.Create
 
 ## -description
-
+Creates a 32bit signed int tensor object without allocating a buffer.
 ## -returns
 
 ## -remarks
@@ -18,4 +18,3 @@ public TensorInt32Bit TensorInt32Bit.Create()
 ## -see-also
 
 ## -examples
-

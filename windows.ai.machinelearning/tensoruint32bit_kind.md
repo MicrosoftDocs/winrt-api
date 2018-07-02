@@ -10,7 +10,7 @@ public LearningModelFeatureKind Kind { get; }
 # Windows.AI.MachineLearning.TensorUInt32Bit.Kind
 
 ## -description
-
+The kind of the feature.
 ## -property-value
 
 ## -remarks
@@ -18,4 +18,3 @@ public LearningModelFeatureKind Kind { get; }
 ## -see-also
 
 ## -examples
-

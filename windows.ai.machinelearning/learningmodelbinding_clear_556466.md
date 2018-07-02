@@ -10,10 +10,9 @@ public void LearningModelBinding.Clear()
 # Windows.AI.MachineLearning.LearningModelBinding.Clear
 
 ## -description
-
+Remove all bindings.
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

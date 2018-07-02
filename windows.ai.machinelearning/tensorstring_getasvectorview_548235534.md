@@ -10,7 +10,7 @@ public IVectorView<string> TensorString.GetAsVectorView()
 # Windows.AI.MachineLearning.TensorString.GetAsVectorView
 
 ## -description
-
+Returns a read only view of the data.
 ## -returns
 
 ## -remarks
@@ -18,4 +18,3 @@ public IVectorView<string> TensorString.GetAsVectorView()
 ## -see-also
 
 ## -examples
-

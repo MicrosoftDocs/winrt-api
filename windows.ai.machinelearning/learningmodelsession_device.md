@@ -10,6 +10,7 @@ public LearningModelDevice Device { get; }
 # Windows.AI.MachineLearning.LearningModelSession.Device
 
 ## -description
+Returns the session's evaluation device.
 
 ## -property-value
 
@@ -18,4 +19,3 @@ public LearningModelDevice Device { get; }
 ## -see-also
 
 ## -examples
-

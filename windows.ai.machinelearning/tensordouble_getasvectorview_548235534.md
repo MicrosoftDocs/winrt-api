@@ -10,7 +10,7 @@ public IVectorView<double> TensorDouble.GetAsVectorView()
 # Windows.AI.MachineLearning.TensorDouble.GetAsVectorView
 
 ## -description
-
+Returns a read only view of the data.
 ## -returns
 
 ## -remarks
@@ -18,4 +18,3 @@ public IVectorView<double> TensorDouble.GetAsVectorView()
 ## -see-also
 
 ## -examples
-

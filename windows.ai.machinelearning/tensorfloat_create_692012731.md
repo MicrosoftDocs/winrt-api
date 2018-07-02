@@ -10,7 +10,7 @@ public TensorFloat TensorFloat.Create(IIterable<Int64> shape)
 # Windows.AI.MachineLearning.TensorFloat.Create
 
 ## -description
-
+Creates a 32bit float tensor object and allocates a buffer of size 'shape'.
 ## -parameters
 ### -param shape
 
@@ -21,4 +21,3 @@ public TensorFloat TensorFloat.Create(IIterable<Int64> shape)
 ## -see-also
 
 ## -examples
-

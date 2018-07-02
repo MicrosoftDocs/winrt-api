@@ -10,7 +10,7 @@ public ILearningModelFeatureDescriptor ValueDescriptor { get; }
 # Windows.AI.MachineLearning.MapFeatureDescriptor.ValueDescriptor
 
 ## -description
-
+Map values can be feature kinds.
 ## -property-value
 
 ## -remarks
@@ -18,4 +18,3 @@ public ILearningModelFeatureDescriptor ValueDescriptor { get; }
 ## -see-also
 
 ## -examples
-

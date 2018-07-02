@@ -10,7 +10,7 @@ public string CorrelationId { get; }
 # Windows.AI.MachineLearning.LearningModelEvaluationResult.CorrelationId
 
 ## -description
-
+The optional string that was passed to Evaluate().
 ## -property-value
 
 ## -remarks
@@ -18,4 +18,3 @@ public string CorrelationId { get; }
 ## -see-also
 
 ## -examples
-

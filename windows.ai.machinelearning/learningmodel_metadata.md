@@ -11,6 +11,8 @@ public IMapView<string, string> Metadata { get; }
 
 ## -description
 
+The raw <string,string> metadata from the ONNX model.
+
 ## -property-value
 
 ## -remarks
@@ -18,4 +20,3 @@ public IMapView<string, string> Metadata { get; }
 ## -see-also
 
 ## -examples
-

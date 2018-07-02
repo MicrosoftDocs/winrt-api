@@ -10,7 +10,7 @@ public TensorFloat16Bit TensorFloat16Bit.Create()
 # Windows.AI.MachineLearning.TensorFloat16Bit.Create
 
 ## -description
-
+Creates a 16bit float tensor object without allocating a buffer.
 ## -returns
 
 ## -remarks
@@ -18,4 +18,3 @@ public TensorFloat16Bit TensorFloat16Bit.Create()
 ## -see-also
 
 ## -examples
-

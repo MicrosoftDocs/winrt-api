@@ -10,7 +10,7 @@ public string Description { get; }
 # Windows.AI.MachineLearning.SequenceFeatureDescriptor.Description
 
 ## -description
-
+A description of what this feature is used for in the model.
 ## -property-value
 
 ## -remarks
@@ -18,4 +18,3 @@ public string Description { get; }
 ## -see-also
 
 ## -examples
-

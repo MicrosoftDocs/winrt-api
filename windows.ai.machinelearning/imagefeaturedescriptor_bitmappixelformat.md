@@ -10,7 +10,7 @@ public BitmapPixelFormat BitmapPixelFormat { get; }
 # Windows.AI.MachineLearning.ImageFeatureDescriptor.BitmapPixelFormat
 
 ## -description
-
+Specifies the expected pixel format (channel ordering, bit depth, and data type).
 ## -property-value
 
 ## -remarks
@@ -18,4 +18,3 @@ public BitmapPixelFormat BitmapPixelFormat { get; }
 ## -see-also
 
 ## -examples
-

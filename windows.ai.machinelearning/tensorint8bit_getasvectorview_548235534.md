@@ -10,7 +10,7 @@ public IVectorView<byte> TensorInt8Bit.GetAsVectorView()
 # Windows.AI.MachineLearning.TensorInt8Bit.GetAsVectorView
 
 ## -description
-
+Returns a read only view of the data.
 ## -returns
 
 ## -remarks
@@ -18,4 +18,3 @@ public IVectorView<byte> TensorInt8Bit.GetAsVectorView()
 ## -see-also
 
 ## -examples
-

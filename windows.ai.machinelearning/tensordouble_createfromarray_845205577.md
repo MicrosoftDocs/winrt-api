@@ -10,7 +10,7 @@ public TensorDouble TensorDouble.CreateFromArray(IIterable<Int64> shape, Double[
 # Windows.AI.MachineLearning.TensorDouble.CreateFromArray
 
 ## -description
-
+Creates a 64bit float tensor object, allocates a buffer of size 'shape', and copies all of 'data' into it.
 ## -parameters
 ### -param shape
 
@@ -23,4 +23,3 @@ public TensorDouble TensorDouble.CreateFromArray(IIterable<Int64> shape, Double[
 ## -see-also
 
 ## -examples
-

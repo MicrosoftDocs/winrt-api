@@ -10,10 +10,9 @@ public class TensorInt16Bit : ILearningModelFeatureValue, ITensor
 # Windows.AI.MachineLearning.TensorInt16Bit
 
 ## -description
-
+A 16bit signed int tensor object.
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

@@ -10,7 +10,7 @@ public TensorKind KeyKind { get; }
 # Windows.AI.MachineLearning.MapFeatureDescriptor.KeyKind
 
 ## -description
-
+Map keys can be tensor kinds.
 ## -property-value
 
 ## -remarks
@@ -18,4 +18,3 @@ public TensorKind KeyKind { get; }
 ## -see-also
 
 ## -examples
-

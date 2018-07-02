@@ -10,7 +10,7 @@ public ILearningModelFeatureDescriptor ElementDescriptor { get; }
 # Windows.AI.MachineLearning.SequenceFeatureDescriptor.ElementDescriptor
 
 ## -description
-
+Sequence elements can be feature kinds.
 ## -property-value
 
 ## -remarks
@@ -18,4 +18,3 @@ public ILearningModelFeatureDescriptor ElementDescriptor { get; }
 ## -see-also
 
 ## -examples
-

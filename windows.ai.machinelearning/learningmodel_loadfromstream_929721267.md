@@ -10,7 +10,7 @@ public LearningModel LearningModel.LoadFromStream(IRandomAccessStreamReference m
 # Windows.AI.MachineLearning.LearningModel.LoadFromStream
 
 ## -description
-
+Loads an ONNX model from a stream.
 ## -parameters
 ### -param modelStream
 
@@ -21,4 +21,3 @@ public LearningModel LearningModel.LoadFromStream(IRandomAccessStreamReference m
 ## -see-also
 
 ## -examples
-

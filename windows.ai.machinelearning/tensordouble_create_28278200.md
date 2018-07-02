@@ -10,7 +10,7 @@ public TensorDouble TensorDouble.Create()
 # Windows.AI.MachineLearning.TensorDouble.Create
 
 ## -description
-
+Creates a 64bit float tensor object without allocating a buffer.
 ## -returns
 
 ## -remarks
@@ -18,4 +18,3 @@ public TensorDouble TensorDouble.Create()
 ## -see-also
 
 ## -examples
-

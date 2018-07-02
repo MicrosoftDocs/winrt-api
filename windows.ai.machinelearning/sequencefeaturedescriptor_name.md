@@ -10,7 +10,7 @@ public string Name { get; }
 # Windows.AI.MachineLearning.SequenceFeatureDescriptor.Name
 
 ## -description
-
+The name you use to bind values to this feature.
 ## -property-value
 
 ## -remarks
@@ -18,4 +18,3 @@ public string Name { get; }
 ## -see-also
 
 ## -examples
-

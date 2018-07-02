@@ -10,7 +10,7 @@ public bool IsRequired { get; }
 # Windows.AI.MachineLearning.ImageFeatureDescriptor.IsRequired
 
 ## -description
-
+If true, you must bind a value to this feature before calling Evalaute().
 ## -property-value
 
 ## -remarks
@@ -18,4 +18,3 @@ public bool IsRequired { get; }
 ## -see-also
 
 ## -examples
-

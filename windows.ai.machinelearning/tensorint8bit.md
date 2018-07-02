@@ -10,10 +10,9 @@ public class TensorInt8Bit : ILearningModelFeatureValue, ITensor
 # Windows.AI.MachineLearning.TensorInt8Bit
 
 ## -description
-
+A 8bit signed int tensor object.
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

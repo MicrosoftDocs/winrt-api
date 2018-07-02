@@ -10,7 +10,7 @@ public LearningModelSession.LearningModelSession(LearningModel model, LearningMo
 # Windows.AI.MachineLearning.LearningModelSession.LearningModelSession
 
 ## -description
-
+Creates a session using the specified device.
 ## -parameters
 ### -param model
 
@@ -21,4 +21,3 @@ public LearningModelSession.LearningModelSession(LearningModel model, LearningMo
 ## -see-also
 
 ## -examples
-

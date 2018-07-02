@@ -10,7 +10,7 @@ public string Domain { get; }
 # Windows.AI.MachineLearning.LearningModel.Domain
 
 ## -description
-
+The domain of the model.
 ## -property-value
 
 ## -remarks
@@ -18,4 +18,3 @@ public string Domain { get; }
 ## -see-also
 
 ## -examples
-

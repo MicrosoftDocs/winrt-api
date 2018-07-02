@@ -10,7 +10,7 @@ public uint Width { get; }
 # Windows.AI.MachineLearning.ImageFeatureDescriptor.Width
 
 ## -description
-
+The width of the image.
 ## -property-value
 
 ## -remarks
@@ -18,4 +18,3 @@ public uint Width { get; }
 ## -see-also
 
 ## -examples
-

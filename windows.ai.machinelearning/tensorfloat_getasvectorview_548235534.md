@@ -10,7 +10,7 @@ public IVectorView<float> TensorFloat.GetAsVectorView()
 # Windows.AI.MachineLearning.TensorFloat.GetAsVectorView
 
 ## -description
-
+Returns a read only view of the data.
 ## -returns
 
 ## -remarks
@@ -18,4 +18,3 @@ public IVectorView<float> TensorFloat.GetAsVectorView()
 ## -see-also
 
 ## -examples
-

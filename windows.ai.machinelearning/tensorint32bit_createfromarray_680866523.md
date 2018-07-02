@@ -10,7 +10,7 @@ public TensorInt32Bit TensorInt32Bit.CreateFromArray(IIterable<Int64> shape, Int
 # Windows.AI.MachineLearning.TensorInt32Bit.CreateFromArray
 
 ## -description
-
+Creates a 32bit signed int tensor object, allocates a buffer of size 'shape', and copies all of 'data' into it.
 ## -parameters
 ### -param shape
 
@@ -23,4 +23,3 @@ public TensorInt32Bit TensorInt32Bit.CreateFromArray(IIterable<Int64> shape, Int
 ## -see-also
 
 ## -examples
-

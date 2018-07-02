@@ -11,6 +11,8 @@ public IMapView<string, object> Outputs { get; }
 
 ## -description
 
+Gets the output features of the model.
+
 ## -property-value
 
 ## -remarks
@@ -18,4 +20,3 @@ public IMapView<string, object> Outputs { get; }
 ## -see-also
 
 ## -examples
-

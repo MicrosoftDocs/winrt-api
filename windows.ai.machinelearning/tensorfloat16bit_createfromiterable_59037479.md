@@ -10,7 +10,7 @@ public TensorFloat16Bit TensorFloat16Bit.CreateFromIterable(IIterable<Int64> sha
 # Windows.AI.MachineLearning.TensorFloat16Bit.CreateFromIterable
 
 ## -description
-
+Creates a 16bit float tensor object, allocates a buffer of size 'shape', and copies all of 'data' into it.
 ## -parameters
 ### -param shape
 
@@ -23,4 +23,3 @@ public TensorFloat16Bit TensorFloat16Bit.CreateFromIterable(IIterable<Int64> sha
 ## -see-also
 
 ## -examples
-
