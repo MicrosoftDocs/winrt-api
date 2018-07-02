@@ -18,6 +18,10 @@ An asynchronous operation that returns the status of access.
 ## -remarks
 This method must be called from the UI thread.
 
+Some of the conditions that are tested by calls to this method are: 
+* The application has added the `remoteSystem` capability.
+* Remote Systems scenarios are allowed by the [Group Policy](https://www.microsoft.com/download/details.aspx?id=25250) setting **HKLM\Software\Policies\Microsoft\Windows\System!EnableCdp**. 
+
 ## -examples
 
 ## -see-also
