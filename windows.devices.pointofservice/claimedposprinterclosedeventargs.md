@@ -10,6 +10,7 @@ public class ClaimedPosPrinterClosedEventArgs
 # Windows.Devices.PointOfService.ClaimedPosPrinterClosedEventArgs
 
 ## -description
+This object is passed as a parameter to the event handlers for the [ClaimedPosPrinter.Closed](claimedposprinter_closed.md) event.
 
 ## -remarks
 

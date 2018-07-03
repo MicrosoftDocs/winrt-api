@@ -10,8 +10,10 @@ public uint Height { get; }
 # Windows.Devices.PointOfService.Provider.BarcodeScannerVideoFrame.Height
 
 ## -description
+Gets the height of the video frame.
 
 ## -property-value
+The height of the video frame in pixels.
 
 ## -remarks
 

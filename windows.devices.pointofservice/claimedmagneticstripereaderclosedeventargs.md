@@ -10,6 +10,7 @@ public class ClaimedMagneticStripeReaderClosedEventArgs
 # Windows.Devices.PointOfService.ClaimedMagneticStripeReaderClosedEventArgs
 
 ## -description
+This object is passed as a parameter to the event handlers for the [ClaimedMagneticStripeReader.Closed](claimedmagneticstripereader_closed.md) event.
 
 ## -remarks
 

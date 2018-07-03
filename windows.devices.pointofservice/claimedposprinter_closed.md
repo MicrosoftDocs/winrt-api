@@ -10,10 +10,12 @@ public event TypedEventHandler Closed<ClaimedPosPrinter, ClaimedPosPrinterClosed
 # Windows.Devices.PointOfService.ClaimedPosPrinter.Closed
 
 ## -description
+Event that is raised when the **ClaimedPosPrinter** is closed.
 
 ## -remarks
+When an app is suspended, all **ClaimedPosPrinter** objects are closed. This event can be useful to determine when printer connections need to be re-established.
 
 ## -see-also
+[IClosable](../windows.foundation/iclosable.md)
 
 ## -examples
-

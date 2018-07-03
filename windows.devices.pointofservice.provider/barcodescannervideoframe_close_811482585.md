@@ -10,10 +10,12 @@ public void BarcodeScannerVideoFrame.Close()
 # Windows.Devices.PointOfService.Provider.BarcodeScannerVideoFrame.Close
 
 ## -description
+Disposes of the video frame and associated resources.
 
 ## -remarks
 
 ## -see-also
+[IClosable](../windows.foundation/iclosable.md)
 
 ## -examples
 

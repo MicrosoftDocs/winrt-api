@@ -16,7 +16,7 @@ Notifies the client that the request was not processed successfully.
 An asynchronous operation.
 
 ## -remarks
-This method should be called if the app is unable to complete the operation.
+This method should be called if the provider app is unable to complete the operation.
 
 ## -see-also
 

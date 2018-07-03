@@ -10,8 +10,10 @@ public uint Width { get; }
 # Windows.Devices.PointOfService.Provider.BarcodeScannerVideoFrame.Width
 
 ## -description
+Gets the width of the video frame.
 
 ## -property-value
+The width of the video frame in pixels.
 
 ## -remarks
 

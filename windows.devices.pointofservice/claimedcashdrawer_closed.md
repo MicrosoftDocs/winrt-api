@@ -10,10 +10,13 @@ public event TypedEventHandler Closed<ClaimedCashDrawer, ClaimedCashDrawerClosed
 # Windows.Devices.PointOfService.ClaimedCashDrawer.Closed
 
 ## -description
+Event that is raised when the **ClaimedCashDrawer** is closed.
 
 ## -remarks
+When an app is suspended, all **ClaimedCashDrawer** objects are closed. This event can be useful to determine when cash drawer connections need to be re-established.
 
 ## -see-also
+[IClosable](../windows.foundation/iclosable.md)
 
 ## -examples
 

@@ -10,6 +10,7 @@ public void BarcodeScannerFrameReader.Close()
 # Windows.Devices.PointOfService.Provider.BarcodeScannerFrameReader.Close
 
 ## -description
+Disposes of the frame reader and associated resources, and stops requesting video frames.
 
 ## -remarks
 
