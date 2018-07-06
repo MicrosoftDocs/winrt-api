@@ -17,7 +17,7 @@ Specifies the scenario used to optimize speech recognition for a web-service con
 A grammar constraint optimized for web search recognition scenarios.
 
 ### -field Dictation:1
-A gramar constraint optimized for continuous dictation recognition scenarios.
+A gramar constraint optimized for continuous recognition scenarios.
 
 ### -field FormFilling:2
 A grammar constraint optimized for form input recognition scenarios.

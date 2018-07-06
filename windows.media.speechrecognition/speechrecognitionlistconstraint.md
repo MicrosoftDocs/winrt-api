@@ -26,7 +26,7 @@ Constraints, or grammars, define the spoken words and phrases that can be matche
 [CompileConstraintsAsync](speechrecognizer_compileconstraintsasync.md) must always be called before [RecognizeAsync](speechrecognizer_recognizeasync.md) or [RecognizeWithUIAsync](speechrecognizer_recognizewithuiasync.md), even if no constraints are specified in the [Constraints](speechrecognizer_constraints.md) property.
 
 > [!NOTE]
-> You can use a SpeechRecognitionListConstraint in conjunction with a web service [SpeechRecognitionTopicConstraint](speechrecognitiontopicconstraint.md) to increase dictation accuracy by providing a set of domain-specific keywords that you think are likely to be used during dictation.
+> You can use a SpeechRecognitionListConstraint in conjunction with a web service [SpeechRecognitionTopicConstraint](speechrecognitiontopicconstraint.md) to increase accuracy during a dictation session by providing a set of domain-specific keywords that you think are likely to be used.
 
 ## -examples
 

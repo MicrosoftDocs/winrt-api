@@ -10,7 +10,7 @@ public Windows.Foundation.IAsyncAction StopAsync()
 # Windows.Media.SpeechRecognition.SpeechContinuousRecognitionSession.StopAsync
 
 ## -description
-Asynchronously end a continuous speech recognition (dictation) session and pass all pending recognition results to the [ResultGenerated](speechcontinuousrecognitionsession_resultgenerated.md) event.
+Asynchronously end a continuous speech recognition session and pass all pending recognition results to the [ResultGenerated](speechcontinuousrecognitionsession_resultgenerated.md) event.
 
 ## -returns
 An asynchronous handler called when the operation is complete.
