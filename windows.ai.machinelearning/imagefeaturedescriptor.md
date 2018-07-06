@@ -10,7 +10,9 @@ public class ImageFeatureDescriptor : ILearningModelFeatureDescriptor
 # Windows.AI.MachineLearning.ImageFeatureDescriptor
 
 ## -description
-A specialization of a tensor that has an image in it.
+
+Describes the properties of the image the model is expecting.
+
 ## -remarks
 
 ## -see-also

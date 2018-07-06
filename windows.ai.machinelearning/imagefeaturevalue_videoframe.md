@@ -10,7 +10,7 @@ public VideoFrame VideoFrame { get; }
 # Windows.AI.MachineLearning.ImageFeatureValue.VideoFrame
 
 ## -description
-
+Gets the video frame.
 ## -property-value
 
 ## -remarks
@@ -18,4 +18,3 @@ public VideoFrame VideoFrame { get; }
 ## -see-also
 
 ## -examples
-
