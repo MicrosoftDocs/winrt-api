@@ -71,4 +71,4 @@ If you call the [GpioPin.Write](gpiopin_write.md) method for this pin with a val
 ## -examples
 
 ## -see-also
-[GpioPin.GetDriveMode](gpiopin_getdrivemode.md), [GpioPin.SetDriveMode](gpiopin_setdrivemode.md), [GpioPin.Read](gpiopin_read.md), [GpioPin.Write](gpiopin_write.md)
+[GpioPin.GetDriveMode](gpiopin.getdrivemode), [GpioPin.SetDriveMode](gpiopin.setdrivemode.md), [GpioPin.Read](gpiopin.read.md), [GpioPin.Write](gpiopin.write.md)
