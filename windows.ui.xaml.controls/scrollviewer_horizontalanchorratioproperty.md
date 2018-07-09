@@ -11,11 +11,11 @@ public DependencyProperty HorizontalAnchorRatioProperty { get; }
 
 ## -description
 
-Identifies the HorizontalAnchorRatio dependency property.
+Identifies the [HorizontalAnchorRatio](scrollviewer_horizontalanchorratio) dependency property.
 
 ## -property-value
 
-The identifier for the HorizontalAnchorRatio dependency property.
+The identifier for the [HorizontalAnchorRatio](scrollviewer_horizontalanchorratio) dependency property.
 
 ## -remarks
 

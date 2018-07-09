@@ -10,6 +10,7 @@ public class EffectiveViewportChangedEventArgs
 # Windows.UI.Xaml.EffectiveViewportChangedEventArgs
 
 ## -description
+Provides data for the [FrameworkElement.EffectiveViewportChanged](frameworkelement_effectiveviewportchanged) event.
 
 ## -remarks
 
