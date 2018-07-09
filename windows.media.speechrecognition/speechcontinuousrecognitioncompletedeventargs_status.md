@@ -10,10 +10,10 @@ public Windows.Media.SpeechRecognition.SpeechRecognitionResultStatus Status { ge
 # Windows.Media.SpeechRecognition.SpeechContinuousRecognitionCompletedEventArgs.Status
 
 ## -description
-Gets the status of a continuous speech recognition (dictation) session (or the result of a grammar constraint compilation).
+Gets the status of a continuous speech recognition session (or the result of a grammar constraint compilation).
 
 ## -property-value
-The status of a continuous speech recognition (dictation) session (or the result of a grammar constraint compilation).
+The status of a continuous speech recognition session (or the result of a grammar constraint compilation).
 
 ## -remarks
 

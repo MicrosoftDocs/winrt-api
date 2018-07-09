@@ -10,7 +10,7 @@ public Windows.Media.SpeechRecognition.SpeechContinuousRecognitionSession Contin
 # Windows.Media.SpeechRecognition.SpeechRecognizer.ContinuousRecognitionSession
 
 ## -description
-Gets the continuous recognition (dictation) session object ([SpeechContinuousRecognitionSession](speechcontinuousrecognitionsession.md)) associated with this [SpeechRecognizer](speechrecognizer.md).
+Gets the continuous recognition session object ([SpeechContinuousRecognitionSession](speechcontinuousrecognitionsession.md)) associated with this [SpeechRecognizer](speechrecognizer.md).
 
 ## -property-value
 The continuous recognition session object associated with this [SpeechRecognizer](speechrecognizer.md).

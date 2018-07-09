@@ -10,7 +10,7 @@ public enum Windows.Media.SpeechRecognition.SpeechContinuousRecognitionMode : in
 # SpeechContinuousRecognitionMode
 
 ## -description
-Specifies the behavior of the speech recognizer during a continuous recognition (dictation) session.
+Specifies the behavior of the speech recognizer during a continuous recognition session.
 
 ## -enum-fields
 ### -field Default:0
