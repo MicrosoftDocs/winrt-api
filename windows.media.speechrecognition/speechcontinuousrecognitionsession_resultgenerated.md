@@ -10,7 +10,7 @@ public event Windows.Foundation.TypedEventHandler ResultGenerated<Windows.Media.
 # Windows.Media.SpeechRecognition.SpeechContinuousRecognitionSession.ResultGenerated
 
 ## -description
-Occurs when the speech recognizer returns the result from a continuous recognition (dictation) session.
+Occurs when the speech recognizer returns the result from a continuous recognition session.
 
 ## -remarks
 

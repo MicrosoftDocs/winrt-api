@@ -10,7 +10,7 @@ public Windows.Media.SpeechRecognition.SpeechRecognitionResult Result { get; }
 # Windows.Media.SpeechRecognition.SpeechContinuousRecognitionResultGeneratedEventArgs.Result
 
 ## -description
-Gets the complete recognition result returned by the speech recognizer at the end of a continuous recognition (dictation) session where [SpeechRecognitionResultStatus](speechrecognitionresultstatus.md) is set to [Success](speechrecognitionresultstatus.md).
+Gets the complete recognition result returned by the speech recognizer at the end of a continuous recognition session where [SpeechRecognitionResultStatus](speechrecognitionresultstatus.md) is set to [Success](speechrecognitionresultstatus.md).
 
 ## -property-value
 The complete recognition result returned by the speech recognizer at the end of a dictation session.
