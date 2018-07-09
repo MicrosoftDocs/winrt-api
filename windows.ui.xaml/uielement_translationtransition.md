@@ -14,6 +14,8 @@ Gets or sets the Vector3Transition that animates changes to the Translation prop
 
 ## -property-value
 
+The Vector3Transition that animates changes to the Translation property.
+
 ## -remarks
 
 ## -see-also

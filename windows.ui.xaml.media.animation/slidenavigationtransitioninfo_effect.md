@@ -14,6 +14,8 @@ Gets or sets the type of animation effect to play during the slide transition.
 
 ## -property-value
 
+The type of animation effect to play during the slide transition.
+
 ## -remarks
 
 ## -see-also

@@ -14,6 +14,8 @@ Gets or sets the center point of the element, which is the point about which rot
 
 ## -property-value
 
+The center point of the element, which is the point about which rotation or scaling occurs.
+
 ## -remarks
 
 ## -see-also

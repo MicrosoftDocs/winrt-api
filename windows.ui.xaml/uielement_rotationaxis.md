@@ -10,9 +10,11 @@ public Vector3 RotationAxis { get;  set; }
 # Windows.UI.Xaml.UIElement.RotationAxis
 
 ## -description
-The axis to rotate the element around.
+Gets or sets the axis to rotate the element around.
 
 ## -property-value
+
+The axis to rotate the element around.
 
 ## -remarks
 

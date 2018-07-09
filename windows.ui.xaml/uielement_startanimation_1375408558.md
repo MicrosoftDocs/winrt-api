@@ -15,6 +15,8 @@ Begins the specified animation on the element.
 ## -parameters
 ### -param animation
 
+The animation to start.
+
 ## -remarks
 
 ## -see-also
