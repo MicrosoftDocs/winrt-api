@@ -11,14 +11,14 @@ public enum Windows.Storage.Provider.ReadActivationMode : int
 # ReadActivationMode
 
 ## -description
-Indicates when Windows will request a file update if another app reads the locally cached version of the file.
+Indicates when Windows will request a file update if another app retrieves the file from its [MostRecentlyUsedList](storageapplicationpermissions_mostrecentlyusedlist.md) or [FutureAccessList](storageapplicationpermissions_futureaccesslist.md).
 
 ## -enum-fields
 ### -field NotNeeded:0
-Windows will not trigger a file update request when another app accesses the local file.
+Windows will not trigger a file update request when another app retrieves the local file.
 
 ### -field BeforeAccess:1
-Windows will trigger a file update request before allowing another app to access the local file.
+Windows will trigger a file update request just before it has been retrieved from the app's [MostRecentlyUsedList](storageapplicationpermissions_mostrecentlyusedlist.md) or [FutureAccessList](storageapplicationpermissions_futureaccesslist.md).
 
 
 ## -remarks

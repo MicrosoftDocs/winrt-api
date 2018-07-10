@@ -27,12 +27,13 @@ Additionally, whenever you call a file picker to let the user pick a file (or fi
 This example shows you how to call a file picker, using [FileOpenPicker.PickSingleFileAsync](../windows.storage.pickers/fileopenpicker_picksinglefileasync.md) to capture and process a file that the users picks.
 
 ```csharp
+var openPicker = new FileOpenPicker();
 StorageFile file = await openPicker.PickSingleFileAsync();
 // Process picked file
 if (file != null)
 {
     // Store file for future access
-    fileToken = Windows.Storage.AccessCache.StorageApplicationPermissions.FutureAccessList.Add(file);
+    Windows.Storage.AccessCache.StorageApplicationPermissions.FutureAccessList.Add(file);
 }
 else
 {
