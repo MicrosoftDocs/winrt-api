@@ -17,11 +17,11 @@ Use this future-access list to preserve access to files and locations that may n
 
 This list can store up to 1000 items and must be maintained by the app.
 
-To see more code examples, see the [File picker sample](http://go.microsoft.com/fwlink/p/?linkid=234890) and the [File access sample]( http://go.microsoft.com/fwlink/p/?linkid=231445).
+To see more code examples, see the [File picker sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FilePicker) and the [File access sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FileAccess).
 
-To learn about using the [FutureAccessList](storageapplicationpermissions_futureaccesslist.md) and [MostRecentlyUsedList](storageapplicationpermissions_mostrecentlyusedlist.md), see [How to track recently used files and folders](http://msdn.microsoft.com/library/7062d754-877e-4e59-a1ff-be0603020e6c).
+To learn about using the [FutureAccessList](storageapplicationpermissions_futureaccesslist.md) and [MostRecentlyUsedList](storageapplicationpermissions_mostrecentlyusedlist.md), see [How to track recently used files and folders](https://docs.microsoft.com/windows/uwp/files/how-to-track-recently-used-files-and-folders).
 
-To learn more about what files and locations your app has permission to access, see [File access permissions](http://msdn.microsoft.com/library/3a404cc0-a997-45c8-b2e8-44745539759d).
+To learn more about what files and locations your app has permission to access, see [File access permissions](https://docs.microsoft.com/windows/uwp/files/file-access-permissions).
 
 ## -examples
 This example demonstrates how to add an item to the app's [FutureAccessList](storageapplicationpermissions_futureaccesslist.md) and [MostRecentlyUsedList](storageapplicationpermissions_mostrecentlyusedlist.md).
@@ -58,7 +58,7 @@ savePicker.pickSaveFileAsync().then(function (file) {
 
 We recommend that you store the tokens that are returned by [StorageApplicationPermissions.MostRecentlyUsedList.Add](storageitemmostrecentlyusedlist_add.md) and [StorageApplicationPermissions.FutureAccessList.Add](storageitemaccesslist_add.md) so that you can use them to retrieve the respective list entry for the item that you added. In the example, we store the tokens in `mruToken` and `faToken` respectively but we don't do anything else with them.
 
-Additionally, the `savePicker` variable in the example contains a [FileSavePicker](../windows.storage.pickers/filesavepicker.md) object that was created by the sample. To learn more about saving files with file picker, see [How to save files through ](http://msdn.microsoft.com/library/d29085cb-71d1-4537-a375-4a07fc75efc2). To learn about accessing files, see [Quickstart: Accessing files with ](http://msdn.microsoft.com/library/df082239-381c-462f-9f97-d2b390a2052e).
+Additionally, the `savePicker` variable in the example contains a [FileSavePicker](../windows.storage.pickers/filesavepicker.md) object that was created by the sample. To learn more about using the file picker, see [Open files and folders with a picker](https://docs.microsoft.com/windows/uwp/files/quickstart-using-file-and-folder-pickers) and [Save a file with a picker](https://docs.microsoft.com/windows/uwp/files/quickstart-save-a-file-with-a-picker).
 
 ## -see-also
 [StorageApplicationPermissions.futureAccessList](storageapplicationpermissions_futureaccesslist.md)
