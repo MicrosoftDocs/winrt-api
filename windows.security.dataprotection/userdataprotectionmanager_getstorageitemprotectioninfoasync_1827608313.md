@@ -10,9 +10,11 @@ public IAsyncOperation<UserDataStorageItemProtectionInfo> UserDataProtectionMana
 # Windows.Security.DataProtection.UserDataProtectionManager.GetStorageItemProtectionInfoAsync
 
 ## -description
+Gets the current protection information for a storage item.
 
 ## -parameters
 ### -param storageItem
+Storage item to query protection from.
 
 ## -returns
 

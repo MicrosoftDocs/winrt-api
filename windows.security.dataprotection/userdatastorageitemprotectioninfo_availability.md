@@ -10,6 +10,7 @@ public UserDataAvailability Availability { get; }
 # Windows.Security.DataProtection.UserDataStorageItemProtectionInfo.Availability
 
 ## -description
+Current availability of the storage item.
 
 ## -property-value
 

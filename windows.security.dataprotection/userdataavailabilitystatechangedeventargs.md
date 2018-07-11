@@ -4,7 +4,7 @@
 ---
 
 <!-- Class syntax.
-public class UserDataAvailabilityStateChangedEventArgs 
+public class UserDataAvailabilityStateChangedEventArgs
 -->
 
 # Windows.Security.DataProtection.UserDataAvailabilityStateChangedEventArgs
@@ -16,4 +16,3 @@ public class UserDataAvailabilityStateChangedEventArgs
 ## -see-also
 
 ## -examples
-
