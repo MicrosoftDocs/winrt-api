@@ -10,16 +10,20 @@ public Rect MaxViewport { get; }
 # Windows.UI.Xaml.EffectiveViewportChangedEventArgs.MaxViewport
 
 ## -description
-Gets the [Rect](../windows.foundation/rect) representing the maximum effective viewport with the current viewport sizes.
+
+Gets the [Rect](../windows.foundation/rect.md) representing the maximum effective viewport with the current viewport sizes.
 
 ## -property-value
-The [Rect](../windows.foundation/rect) representing the maximum effective viewport with the current viewport sizes.
+
+The [Rect](../windows.foundation/rect.md) representing the maximum effective viewport with the current viewport sizes.
 
 ## -remarks
-For more info, see the [EffectiveViewportChanged](frameworkelement_effectiveviewportchanged) event.
+
+For more info, see the [EffectiveViewportChanged](frameworkelement_effectiveviewportchanged.md) event.
 
 ## -see-also
-* [EffectiveViewportChanged](frameworkelement_effectiveviewportchanged)
+
+* [EffectiveViewportChanged](frameworkelement_effectiveviewportchanged.md)
 
 ## -examples
 
