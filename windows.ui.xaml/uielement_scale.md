@@ -14,6 +14,8 @@ Gets or sets the scale of the element. Scales relative to the element's CenterPo
 
 ## -property-value
 
+The scale of the element, relative to the element's CenterPoint.
+
 ## -remarks
 
 ## -see-also

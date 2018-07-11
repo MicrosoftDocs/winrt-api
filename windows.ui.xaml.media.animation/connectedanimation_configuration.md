@@ -14,6 +14,8 @@ Gets or sets the configuration that describes the type of connected animation to
 
 ## -property-value
 
+A configuration that describes the type of connected animation to play.
+
 ## -remarks
 
 ## -see-also

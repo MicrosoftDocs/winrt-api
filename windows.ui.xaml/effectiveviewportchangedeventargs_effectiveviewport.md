@@ -11,11 +11,18 @@ public Rect EffectiveViewport { get; }
 
 ## -description
 
+Gets the [Rect](../windows.foundation/rect.md) representing the effective viewport.
+
 ## -property-value
+
+The [Rect](../windows.foundation/rect.md) representing the effective viewport.
 
 ## -remarks
 
+For more info, see the [EffectiveViewportChanged](frameworkelement_effectiveviewportchanged.md) event.
+
 ## -see-also
 
-## -examples
+* [EffectiveViewportChanged](frameworkelement_effectiveviewportchanged.md)
 
+## -examples

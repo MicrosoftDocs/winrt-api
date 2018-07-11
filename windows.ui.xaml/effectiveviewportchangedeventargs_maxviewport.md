@@ -11,11 +11,19 @@ public Rect MaxViewport { get; }
 
 ## -description
 
+Gets the [Rect](../windows.foundation/rect.md) representing the maximum effective viewport with the current viewport sizes.
+
 ## -property-value
+
+The [Rect](../windows.foundation/rect.md) representing the maximum effective viewport with the current viewport sizes.
 
 ## -remarks
 
+For more info, see the [EffectiveViewportChanged](frameworkelement_effectiveviewportchanged.md) event.
+
 ## -see-also
+
+* [EffectiveViewportChanged](frameworkelement_effectiveviewportchanged.md)
 
 ## -examples
 

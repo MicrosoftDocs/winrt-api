@@ -11,11 +11,11 @@ public DependencyProperty VerticalAnchorRatioProperty { get; }
 
 ## -description
 
-Identifies the VerticalAnchorRatio dependency property.
+Identifies the [VerticalAnchorRatio](scrollviewer_verticalanchorratio.md) dependency property.
 
 ## -property-value
 
-The identifier for the VerticalAnchorRatio dependency property.
+The identifier for the [VerticalAnchorRatio](scrollviewer_verticalanchorratio.md) dependency property.
 
 ## -remarks
 

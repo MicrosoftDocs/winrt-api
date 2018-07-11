@@ -14,6 +14,8 @@ Gets or sets the Vector3Transition that animates changes to the Scale property.
 
 ## -property-value
 
+The Vector3Transition that animates changes to the Scale property.
+
 ## -remarks
 
 ## -see-also

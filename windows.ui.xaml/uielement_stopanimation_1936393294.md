@@ -15,6 +15,8 @@ Stops the specified animation on the element.
 ## -parameters
 ### -param animation
 
+The animation to stop.
+
 ## -remarks
 
 ## -see-also

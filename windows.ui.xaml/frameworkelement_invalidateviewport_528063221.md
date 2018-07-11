@@ -11,9 +11,16 @@ public void FrameworkElement.InvalidateViewport()
 
 ## -description
 
+Invalidates the viewport state for a [UIElement](uielement.md) that is used to calculate the *effective viewport*.
+
 ## -remarks
 
+The [UIElement](uielement.md) must have previously been registered with the framework using the [RegisterAsScrollPort](uielement_registerasscrollport_591917999.md) method.
+
 ## -see-also
+
+* [FrameworkElement.EffectiveViewportChanged](frameworkelement_effectiveviewportchanged.md)
+* [UIElement.RegisterAsScrollPort](uielement_registerasscrollport_591917999.md)
 
 ## -examples
 

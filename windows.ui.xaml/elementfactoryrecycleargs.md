@@ -11,7 +11,11 @@ public class ElementFactoryRecycleArgs
 
 ## -description
 
+Represents the optional arguments to use when calling an implementation of the [IElementFactory](ielementfactory.md)'s [RecycleElement](ielementfactory_recycleelement_1023702976.md) method.
+
 ## -remarks
+
+For more info, see the [RecycleElement](ielementfactory_recycleelement_1023702976.md) method.
 
 ## -see-also
 
