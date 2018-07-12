@@ -10,6 +10,7 @@ public UserDataBufferUnprotectStatus Status { get; }
 # Windows.Security.DataProtection.UserDataBufferUnprotectResult.Status
 
 ## -description
+Result status of unprotecting a buffer.
 
 ## -property-value
 

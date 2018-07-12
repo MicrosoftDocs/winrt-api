@@ -10,6 +10,7 @@ public class UserDataBufferUnprotectResult
 # Windows.Security.DataProtection.UserDataBufferUnprotectResult
 
 ## -description
+Contains result status of unprotecting a buffer and if succeeded, the unprotected buffer.
 
 ## -remarks
 
