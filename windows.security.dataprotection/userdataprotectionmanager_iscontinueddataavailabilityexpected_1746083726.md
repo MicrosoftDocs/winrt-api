@@ -10,8 +10,10 @@ public bool UserDataProtectionManager.IsContinuedDataAvailabilityExpected(UserDa
 # Windows.Security.DataProtection.UserDataProtectionManager.IsContinuedDataAvailabilityExpected
 
 ## -description
+Allows querying whether data protected to a specified availability will continue to stay available for a reasonable duration from now.
 
 ## -parameters
+
 ### -param availability
 
 ## -returns

@@ -10,6 +10,7 @@ public class UserDataAvailabilityStateChangedEventArgs
 # Windows.Security.DataProtection.UserDataAvailabilityStateChangedEventArgs
 
 ## -description
+Contains information about UserDataAvailabilityStateChangedEvent.
 
 ## -remarks
 

@@ -10,6 +10,7 @@ public event TypedEventHandler DataAvailabilityStateChanged<UserDataProtectionMa
 # Windows.Security.DataProtection.UserDataProtectionManager.DataAvailabilityStateChanged
 
 ## -description
+This event invokes listeners when the state of data availability has changed. For example, when the device locks, data protected to the 'WhileUnlocked' UserDataAvailability becomes unavailable. This state change can be listened to by subscribing to this event.
 
 ## -remarks
 
