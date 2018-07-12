@@ -23,7 +23,7 @@ The current session has completed.
 The current session has been closed.
 
 ### -field Aborted:2
-Teh current session has been aborted.
+The current session has been aborted.
 
 ## -remarks
 
