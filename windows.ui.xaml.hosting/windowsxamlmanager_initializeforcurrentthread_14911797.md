@@ -16,11 +16,11 @@ Initializes the UWP XAML framework in a non-UWP desktop application (for example
 An object that contains a reference to the UWP XAML framework.
 
 ## -remarks
-Call this method to initialize the UWP XAML framework in a desktop application in which you want to host [**Windows.UI.Xaml.UIElement**](../windows.ui.xaml/uielement.md) objects in a [**DesktopWindowXamlSource**](desktopwindowxamlsource.md). You only need to explicitly call this method if your application creates the **Windows.UI.Xaml.UIElement** objects before it creates the **DesktopWindowXamlSource** object that will host them. Your application should typically should call this method when the parent UI object that hosts the **DesktopWindowXamlSource** is instantiated.
+Call this method to initialize the internal UWP XAML framework for the current thread in a desktop application in which you want to host [Windows.UI.Xaml.UIElement](../windows.ui.xaml/uielement.md) objects in a [DesktopWindowXamlSource](desktopwindowxamlsource.md). You only need to explicitly call this method if your application creates the **Windows.UI.Xaml.UIElement** objects before it creates the **DesktopWindowXamlSource** object that will host them. Your application should typically should call this method when the parent UI object that hosts the **DesktopWindowXamlSource** is instantiated.
 
-If you create a **DesktopWindowXamlSource** object before you create the [**Windows.UI.Xaml.UIElement**](../windows.ui.xaml/uielement.md) objects that will be hosted in it, you don’t need to call this method. In this scenario, the framework for hosting [**Windows.UI.Xaml.UIElement**](../windows.ui.xaml/uielement.md) content makes sure all the objects are initialized to the same thread.
+If you create a **DesktopWindowXamlSource** object before you create the **Windows.UI.Xaml.UIElement** objects that will be hosted in it, you don’t need to call this method. In this scenario, the UWP XAML framework will be initialized for you when you instantiate the **DesktopWindowXamlSource** object.
 
-This method returns a [**WindowsXamlManager**](windowsxamlmanager.md) object that contains a reference to the UWP XAML framework. You can create as many **WindowsXamlManager** objects as you want on a given thread. However, because each object holds a reference to the UWP XAML framework, you should **Close** (**Dispose** in .NET) the objects to ensure that XAML resources are eventually released.
+This method returns a [WindowsXamlManager](windowsxamlmanager.md) object that contains a reference to the UWP XAML framework. You can create as many **WindowsXamlManager** objects as you want on a given thread. However, because each object holds a reference to the UWP XAML framework, you should **Close** (**Dispose** in .NET) the objects to ensure that XAML resources are eventually released.
 
 ## -see-also
 
