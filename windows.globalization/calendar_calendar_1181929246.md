@@ -14,7 +14,7 @@ Creates a [Calendar](calendar.md) object that is initialized with a language lis
 
 ## -parameters
 ### -param languages
-The list of language identifiers, in priority order, that represents the choice of languages. These are used for resolving patterns to strings. See Remarks for [Calendar](calendar.md).
+The list of language identifiers, in priority order, that represents the choice of languages. These are used for resolving patterns to strings. See [Remarks](calendar.md#remarks).
 
 ## -remarks
 
