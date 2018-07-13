@@ -22,6 +22,12 @@ Refers to the [IXamlDirectObject](ixamldirectobject.md) value to add to the coll
 ## -remarks
 [IXamlDirectObject](ixamldirectobject.md) is the minimal handle to Xaml's internal object instances. Hence, the base object, the collection and the value to add to the collection are all of type [IXamlDirectObject](ixamldirectobject.md)
 
+## -see-also
+* [XamlDirect.RemoveFromCollection](xamldirect_removefromcollection_1992847812.md)
+* [XamlDirect.InsertIntoCollectionAt](xamldirect_insertintocollectionat_679802579.md)
+* [XamlDirect.RemoveFromCollectionAt](xamldirect_removefromcollectionat_1250477505.md)
+* [XamlDirect.ClearCollection](xamldirect_clearcollection_1428253299.md)
+
 ## -examples
 The following example shows how to add a value to a collection using [XamlDirect](xamldirect.md) APIs.
 
