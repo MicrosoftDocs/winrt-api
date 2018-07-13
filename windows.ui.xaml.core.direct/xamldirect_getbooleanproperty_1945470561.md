@@ -25,5 +25,3 @@ Boolean value of the specified property
 ## -see-also
 [XamlDirect.SetBooleanProperty](xamldirect_setbooleanproperty_717076083.md)
 
-## -examples
-
