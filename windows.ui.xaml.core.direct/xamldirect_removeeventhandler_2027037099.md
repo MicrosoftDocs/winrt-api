@@ -10,14 +10,14 @@ public void XamlDirect.RemoveEventHandler(IXamlDirectObject xamlDirectObject, Xa
 # Windows.UI.Xaml.Core.Direct.XamlDirect.RemoveEventHandler
 
 ## -description
-Removes the specified routed event handler from this [IXamlDirectObject](ixamldirectobject.md). Typically, the handler in question was added by [XamlDirect.AddEventHandler](xamldirect_addeventhandler_1323041406.md).
+Removes the specified event handler from this [IXamlDirectObject](ixamldirectobject.md). Typically, the handler in question was added by [XamlDirect.AddEventHandler](xamldirect_addeventhandler_1323041406.md).
 
 ## -parameters
 ### -param xamlDirectObject
 A reference to the current [IXamlDirectObject](ixamldirectobject.md)
 
 ### -param eventIndex
-An identifier for the routed event to remove the handle for specified through [XamlEventIndex](xamleventindex.md) enum.
+An identifier for the event to remove the handle for specified through [XamlEventIndex](xamleventindex.md) enum.
 
 ### -param handler
 A reference to the specified handler implementation.
