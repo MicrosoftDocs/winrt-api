@@ -10,17 +10,17 @@ public void XamlDirect.SetBooleanProperty(IXamlDirectObject xamlDirectObject, Xa
 # Windows.UI.Xaml.Core.Direct.XamlDirect.SetBooleanProperty
 
 ## -description
+Sets the value of the _Boolean_ property for a specific [IXamlDirectObject](ixamldirectobject).md
 
 ## -parameters
 ### -param xamlDirectObject
+A reference to the specific [IXamlDirectObject](ixamldirectobject.md)
 
 ### -param propertyIndex
+A reference to the boolean property to set the value of from the list of supported properties in [XamlPropertyIndex](xamlpropertyindex.md) enum
 
 ### -param value
-
-## -remarks
+Boolean value to set for the specified property
 
 ## -see-also
-
-## -examples
-
+[XamlDirect.GetBooleanProperty](xamldirect_getbooleanproperty_1945470561.md)
