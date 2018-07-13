@@ -10,17 +10,18 @@ public double XamlDirect.GetDoubleProperty(IXamlDirectObject xamlDirectObject, X
 # Windows.UI.Xaml.Core.Direct.XamlDirect.GetDoubleProperty
 
 ## -description
+Gets the value of the _Double_ property for a specific [IXamlDirectObject](ixamldirectobject).md
 
 ## -parameters
 ### -param xamlDirectObject
+A reference to the specific [IXamlDirectObject](ixamldirectobject.md)
 
 ### -param propertyIndex
+A reference to the _Double_ property to get the value of from the list of supported properties in [XamlPropertyIndex](xamlpropertyindex.md) enum
 
 ## -returns
-
-## -remarks
+_Double_ value of the specified property
 
 ## -see-also
-
-## -examples
+[XamlDirect.SetDoubleProperty](xamldirect_setdoubleproperty_1765927355.md)
 
