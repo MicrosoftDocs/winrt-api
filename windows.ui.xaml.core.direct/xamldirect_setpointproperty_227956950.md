@@ -10,17 +10,17 @@ public void XamlDirect.SetPointProperty(IXamlDirectObject xamlDirectObject, Xaml
 # Windows.UI.Xaml.Core.Direct.XamlDirect.SetPointProperty
 
 ## -description
+Sets the value of the [Point](../windows.foundation/point.md) property for a specific [IXamlDirectObject](ixamldirectobject).md
 
 ## -parameters
 ### -param xamlDirectObject
+A reference to the specific [IXamlDirectObject](ixamldirectobject.md)
 
 ### -param propertyIndex
+A reference to the [Point](../windows.foundation/point.md) property to set the value of from the list of supported properties in [XamlPropertyIndex](xamlpropertyindex.md) enum
 
 ### -param value
-
-## -remarks
+[Point](../windows.foundation/point.md) value to set to the specified property
 
 ## -see-also
-
-## -examples
-
+[XamlDirect.GetPointProperty](xamldirect_getpointproperty_505828862.md)
