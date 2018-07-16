@@ -10,7 +10,7 @@ public int GainLevelCount { get; }
 # Windows.Devices.Lights.LampInfo.GainLevelCount
 
 ## -description
-
+The number of color independent intensities settable for this lamp.
 ## -property-value
 
 ## -remarks

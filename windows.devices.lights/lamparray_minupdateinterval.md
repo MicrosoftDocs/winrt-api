@@ -10,7 +10,7 @@ public TimeSpan MinUpdateInterval { get; }
 # Windows.Devices.Lights.LampArray.MinUpdateInterval
 
 ## -description
-
+Minimal interval (required by the device) between the system sending two updates for any one lamp.  This is comparable to the effective device refresh rate.
 ## -property-value
 
 ## -remarks

@@ -10,12 +10,13 @@ public enum LampArrayEffectStartMode : int
 # Windows.Devices.Lights.Effects.LampArrayEffectStartMode
 
 ## -description
-
+Starting behavior of effects in a playlist.
 ## -enum-fields
-### -field Simultaneous:1
 
 ### -field Sequential:0
-
+Starts effects one at a time, in the order they were added.
+### -field Simultaneous:1
+Starts all effects at the same time.
 ## -remarks
 
 ## -see-also

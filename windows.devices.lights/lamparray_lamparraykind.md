@@ -10,7 +10,7 @@ public LampArrayKind LampArrayKind { get; }
 # Windows.Devices.Lights.LampArray.LampArrayKind
 
 ## -description
-
+The [LampArrayKind](lamparraykind.md) describing this device.
 ## -property-value
 
 ## -remarks

@@ -10,11 +10,10 @@ public IReference<Color> FixedColor { get; }
 # Windows.Devices.Lights.LampInfo.FixedColor
 
 ## -description
-
+If this lamp index has a fixed color, the color is returned; otherwise null.
 ## -property-value
-
 ## -remarks
-
+Inspect [GainLevelCount](lampinfo_gainlevelcount.md) for possible scaling of this lamp color.
 ## -see-also
 
 ## -examples
