@@ -11,10 +11,13 @@ public LampArrayRepetitionMode RepetitionMode { get;  set; }
 
 ## -description
 Gets or sets the repetition behavior for playlist.
+
 ## -property-value
-Default is [Occurrences](lamparrayrepetitionmode.md)
+The LampArrayRepetitionMode value. Default is [Occurrences](lamparrayrepetitionmode.md).
+
 ## -remarks
 After playlist has started, the value is locked and is not possible to set the value.
+
 ## -see-also
 
 ## -examples

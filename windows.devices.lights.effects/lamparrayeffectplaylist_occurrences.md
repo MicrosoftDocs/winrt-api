@@ -11,12 +11,15 @@ public int Occurrences { get;  set; }
 
 ## -description
 Number of occurrences this playlist will play.
+
 ## -property-value
-Default is 0.
+Number of occurrences. Default is 0.
+
 ## -remarks
 If [RepetitionMode](lamparrayeffectplaylist_repetitionmode.md) is Forever, this is ignored.
 
 After playlist has started, the value is locked and is not possible to set the value.
+
 ## -see-also
 
 ## -examples

@@ -11,7 +11,9 @@ public LampPurposes Purposes { get; }
 
 ## -description
 Purpose/s of the lamp.
+
 ## -property-value
+The lamp purposes.
 
 ## -remarks
 

@@ -11,12 +11,14 @@ public enum LampArrayEffectStartMode : int
 
 ## -description
 Starting behavior of effects in a playlist.
-## -enum-fields
 
+## -enum-fields
 ### -field Sequential:0
 Starts effects one at a time, in the order they were added.
+
 ### -field Simultaneous:1
 Starts all effects at the same time.
+
 ## -remarks
 
 ## -see-also

@@ -11,10 +11,13 @@ public TimeSpan SinceStarted { get; }
 
 ## -description
 Gets the time since the effect was started.
+
 ## -property-value
+Time value since the effect was started.
 
 ## -remarks
 Will always be 0 at the start of a playlist iteration.
+
 ## -see-also
 
 ## -examples

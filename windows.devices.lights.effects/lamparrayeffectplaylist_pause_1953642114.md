@@ -11,8 +11,10 @@ public void LampArrayEffectPlaylist.Pause()
 
 ## -description
 Pauses the playlist and persists the last state set by the internally playing effect.
+
 ## -remarks
 Can be 'unpaused' by called [Start](lamparrayeffectplaylist_start_1587696324.md).
+
 ## -see-also
 
 ## -examples

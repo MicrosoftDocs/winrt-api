@@ -11,11 +11,14 @@ public void LampArrayEffectPlaylist.StopAll(IIterable<LampArrayEffectPlaylist> v
 
 ## -description
 Guarantees that all playlists will stop at the same time.
+
 ## -parameters
 ### -param value
 Playlists to stop simultaneously.
+
 ## -remarks
 This removes the small lag time that occurs if called on each [LampArrayEffectPlaylist](lamparrayeffectplaylist.md) from within a for-loop.
+
 ## -see-also
 
 ## -examples

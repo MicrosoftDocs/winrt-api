@@ -11,8 +11,10 @@ public string DeviceId { get; }
 
 ## -description
 Gets the plug and play (PnP) device identifier of the underlying LampArray device.
+
 ## -property-value
 The plug and play (PnP) device identifier of the underlying LampArray device.
+
 ## -remarks
 
 ## -see-also

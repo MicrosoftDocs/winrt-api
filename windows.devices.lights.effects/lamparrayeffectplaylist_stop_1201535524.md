@@ -11,8 +11,10 @@ public void LampArrayEffectPlaylist.Stop()
 
 ## -description
 Stops playing this playlist.
+
 ## -remarks
 No state is persisted on the device.
+
 ## -see-also
 
 ## -examples

@@ -11,7 +11,9 @@ public TimeSpan UpdateLatency { get; }
 
 ## -description
 Time between the device receiving an update for a lamp and it emanating from the device.
+
 ## -property-value
+The time value between receiving an update and emanating from the device.
 
 ## -remarks
 

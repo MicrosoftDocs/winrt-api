@@ -11,10 +11,13 @@ public int BlueLevelCount { get; }
 
 ## -description
 The number of blue intensities settable for this lamp.
+
 ## -property-value
 The count of blue levels.
+
 ## -remarks
 If the lamp index has a fixed color, this will 0.
+
 ## -see-also
 
 ## -examples

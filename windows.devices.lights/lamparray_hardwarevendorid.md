@@ -10,8 +10,10 @@ public ushort HardwareVendorId { get; }
 # Windows.Devices.Lights.LampArray.HardwareVendorId
 
 ## -description
-The hardware vendor id of the underlying device.
+The hardware vendor Id of the underlying device.
+
 ## -property-value
+The hardware vendor Id.
 
 ## -remarks
 

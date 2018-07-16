@@ -11,10 +11,13 @@ public Color Color { get;  set; }
 
 ## -description
 Gets or sets the solid color of the effect.
+
 ## -property-value
-Default is [Black](../windows.ui/colors_black.md)
+The Color value. Default is [Black](../windows.ui/colors_black.md)
+
 ## -remarks
 Once the effect has been [Appended](lamparrayeffectplaylist_append_292269384.md) to a [LampArrayEffectPlaylist](lamparrayeffectplaylist.md), the value is locked and is not possible to set the value.
+
 ## -see-also
 
 ## -examples

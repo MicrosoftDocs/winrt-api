@@ -11,10 +11,13 @@ public int GreenLevelCount { get; }
 
 ## -description
 The number of green intensities settable for this lamp.
+
 ## -property-value
 The count of green levels.
+
 ## -remarks
-If the lamp index has a fixed color, this will 0
+If the lamp index has a fixed color, this will be 0.
+
 ## -see-also
 
 ## -examples

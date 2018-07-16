@@ -11,7 +11,9 @@ public TimeSpan MinUpdateInterval { get; }
 
 ## -description
 Minimal interval (required by the device) between the system sending two updates for any one lamp.  This is comparable to the effective device refresh rate.
+
 ## -property-value
+The time interval between updates for a lamp.
 
 ## -remarks
 

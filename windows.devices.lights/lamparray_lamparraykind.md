@@ -11,7 +11,9 @@ public LampArrayKind LampArrayKind { get; }
 
 ## -description
 The [LampArrayKind](lamparraykind.md) describing this device.
+
 ## -property-value
+The [LampArrayKind](lamparraykind.md) for the device.
 
 ## -remarks
 

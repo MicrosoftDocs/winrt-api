@@ -11,7 +11,9 @@ public Vector3 Position { get; }
 
 ## -description
 3D position of the lamp relative to the origin of the bounding-box.
+
 ## -property-value
+The position of the lamp.
 
 ## -remarks
 

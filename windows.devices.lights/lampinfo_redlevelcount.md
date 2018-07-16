@@ -11,10 +11,13 @@ public int RedLevelCount { get; }
 
 ## -description
 The number of red intensities settable for this lamp.
+
 ## -property-value
 The count of red levels.
+
 ## -remarks
-If the lamp index has a fixed color, this will 0
+If the lamp index has a fixed color, this will be 0.
+
 ## -see-also
 
 ## -examples

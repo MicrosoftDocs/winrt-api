@@ -11,13 +11,16 @@ public void LampArrayEffectPlaylist.OverrideZIndex(Int32 zIndex)
 
 ## -description
 Overrides the zIndex for all contained effects.
+
 ## -parameters
 ### -param zIndex
 The overriding zIndex.
+
 ## -remarks
 Effects added after OverrideZIndex is called will still be overridden.
 
-After playlist has started, all zIndexes are locked and is not possible to override further.
+After the playlist has started, all zIndexes are locked and is not possible to override further.
+
 ## -see-also
 
 ## -examples

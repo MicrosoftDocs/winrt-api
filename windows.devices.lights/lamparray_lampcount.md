@@ -11,7 +11,9 @@ public int LampCount { get; }
 
 ## -description
 The number of lamps part of this LampArray.
+
 ## -property-value
+The number of lamps in the LampArray.
 
 ## -remarks
 

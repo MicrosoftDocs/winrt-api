@@ -11,7 +11,9 @@ public int GainLevelCount { get; }
 
 ## -description
 The number of color independent intensities settable for this lamp.
+
 ## -property-value
+The intensity value settable for the lamp.
 
 ## -remarks
 

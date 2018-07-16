@@ -11,8 +11,10 @@ public class LampArrayCustomEffect : ILampArrayEffect
 
 ## -description
 This effect provides and entry-point for developer-defined custom effects into the effect framework; allowing it to be included and scheduled within playlists.
+
 ## -remarks
-Similar to [BitmapEffect](lamparraybitmapeffect.md), a developer specifies the subset of lamp indexes to affect and then subcribes to the [UpdateRequested](lamparraycustomeffect_updaterequested.md) event to modify lamp state at a recurring interval.
+Similar to [BitmapEffect](lamparraybitmapeffect.md), a developer specifies the subset of lamp indexes to affect and then subscribes to the [UpdateRequested](lamparraycustomeffect_updaterequested.md) event to modify lamp state at a recurring interval.
+
 ## -see-also
 
 ## -examples
