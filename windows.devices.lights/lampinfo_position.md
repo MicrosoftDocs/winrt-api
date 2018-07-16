@@ -10,8 +10,10 @@ public Vector3 Position { get; }
 # Windows.Devices.Lights.LampInfo.Position
 
 ## -description
+3D position of the lamp relative to the origin of the bounding-box.
 
 ## -property-value
+The position of the lamp.
 
 ## -remarks
 
