@@ -18,4 +18,4 @@ You cannot call [Close](../windows.foundation/iclosable_close.md) methods throug
 ## -examples
 
 ## -see-also
-[GpioController.OpenPin](gpiocontroller_openpin.md)
+[GpioController.OpenPin](gpiocontroller_openpin_1000658948.md)
