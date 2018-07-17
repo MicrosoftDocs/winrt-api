@@ -512,9 +512,13 @@ public enum XamlTypeIndex : int
 
 ### -field AdaptiveTrigger:757
 
+### -field ThemeShadow:964
+
+
 ## -remarks
 
 ## -see-also
 
 ## -examples
+
 
