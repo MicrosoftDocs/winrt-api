@@ -15,6 +15,9 @@ Handles the creation and management of a new remote session for other devices to
 ## -remarks
 Every remote session has one participant that is the session's controller. Only the controller can specify options for the session, accept join requests from would-be participants, and remove participants from the session.
 
+> [!IMPORTANT]
+> You must confirm access to the remote system platform with a call to **[RemoteSystem.RequestAccessAsync](remotesystem_requestaccessasync_380675631.md)** before you instantiate this class.
+
 ## -see-also
 
 ## -examples

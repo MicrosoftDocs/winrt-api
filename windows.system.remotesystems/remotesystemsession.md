@@ -17,9 +17,6 @@ Remote System Sessions is a part of the broader Remote Systems feature set. It a
 
 A session that has been joined is represented by a [RemoteSystemSession](RemoteSystemSession.md) object. A session that is known about but has not been joined is represented by a [RemoteSystemSessionInfo](RemoteSystemSessionInfo.md) object.
 
-> [!IMPORTANT]
-> You must confirm access to the remote system platform with a call to **[RemoteSystem.RequestAccessAsync](remotesystem_requestaccessasync_380675631.md)** before you instantiate this class.
-
 ## -see-also
 
 ## -examples
