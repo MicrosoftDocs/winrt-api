@@ -14,7 +14,6 @@ The global precedence for two effects that modify the same lamp.
 
 ## -property-value
 Default value is 0.
-
 ## -remarks
 Higher zIndex implies higher precedence.
 

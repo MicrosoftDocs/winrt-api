@@ -16,7 +16,7 @@ Gets or sets the color of peak intensity for the effect. Duration color is visib
 Default is [Black](../windows.ui/colors_black.md)
 
 ## -remarks
-Once the effect has been [Appended](lamparrayeffectplaylist_append_292269384.md) to a [LampArrayEffectPlaylist](lamparrayeffectplaylist.md), the value is locked and is not possible to set the value.
+Once the effect has been [Appended](lamparrayeffectplaylist_append_292269384.md) to a [LampArrayEffectPlaylist](lamparrayeffectplaylist.md), the value is locked and is no longer possible to set the value.
 
 ## -see-also
 

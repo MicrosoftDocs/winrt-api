@@ -15,7 +15,7 @@ Provides event data for the [BitmapRequested](lamparraybitmapeffect_bitmapreques
 ## -remarks
 Cannot call any methods on the object given by the event handler, outside of the event handler.
 
-No effect progress cannot continue until the event handler has returned, so ensure the minimal is spent within it.
+No effect progress can continue until the event handler has returned, so ensure the minimal time is spent within it.  (e.g. do not load images from disk during the event handler).
 
 ## -see-also
 

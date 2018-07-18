@@ -16,7 +16,7 @@ Gets or sets the starting behavior for the effects.
 The LampArrayEffectStartMode. Default is [Sequential](lamparrayeffectstartmode.md).
 
 ## -remarks
-After playlist has started, the value is locked and is not possible to set the value.
+After playlist has started, the value is locked and is no longer possible to set the value.
 
 ## -see-also
 

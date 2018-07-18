@@ -10,8 +10,7 @@ public void LampArray.SetColorsForPurposes(Color desiredColor, LampPurposes purp
 # Windows.Devices.Lights.LampArray.SetColorsForPurposes
 
 ## -description
-Sets the color of multiple lamps, corresponding to [LampPurposes](lamppurposes.md). Position within each array maps purpose to desired color.
-
+Sets the color of multiple lamps, corresponding to [LampPurposes](lamppurposes.md).
 ## -parameters
 ### -param desiredColor
 Array of desired colors.
