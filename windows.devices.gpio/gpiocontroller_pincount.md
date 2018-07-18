@@ -20,7 +20,7 @@ The number of pins on the GPIO controller. Some pins may not be available in use
 ## -examples
 
 ## -see-also
-[OpenPin](gpiocontroller_openpin.md)
+[OpenPin](gpiocontroller_openpin_1000658948.md)
 
 ## -capabilities
 &lt;DeviceCapability name="lowLevel" /&gt;
