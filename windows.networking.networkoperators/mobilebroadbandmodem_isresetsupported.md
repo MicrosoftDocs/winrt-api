@@ -14,7 +14,7 @@ public bool IsResetSupported { get; }
 Gets a value indicating whether the mobile broadband modem allows a reset operation.
 
 ## -property-value
-If true, then the modem may be reset by calling [ResetAsync](mobilebroadbandmodem_resetasync.md). When this value is false, calling [ResetAsync](mobilebroadbandmodem_resetasync.md) will surely fail.
+When this value is true, the modem can be reset by calling [ResetAsync](mobilebroadbandmodem_resetasync_1788300799.md). When this value is false, calling **ResetAsync** fails.
 
 ## -remarks
 
