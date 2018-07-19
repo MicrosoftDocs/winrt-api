@@ -11,10 +11,10 @@ public class ChatMessageStoreChangedEventArgs : Windows.ApplicationModel.Chat.IC
 # Windows.ApplicationModel.Chat.ChatMessageStoreChangedEventArgs
 
 ## -description
-Provides the data for the [ChatMessageStoreChanged](chatmessagestorechangedeventargs.md) event.
+Provides the data for the [ChatMessageStoreChanged](chatmessagestore_storechanged.md) event.
 
 ## -remarks
-An instance of this class is created by the system and passed as an argument to the [ChatMessageStoreChanged](chatmessagestorechangedeventargs.md) event.
+An instance of this class is created by the system and passed as an argument to the [ChatMessageStoreChanged](chatmessagestore_storechanged.md) event.
 
 ## -examples
 

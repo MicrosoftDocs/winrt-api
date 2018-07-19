@@ -10,6 +10,7 @@ public RemoteSystemWatcherError Error { get; }
 # Windows.System.RemoteSystems.RemoteSystemWatcherErrorOccurredEventArgs.Error
 
 ## -description
+The **[RemoteSystemWatcherError](remotesystemwatchererror.md)** value representing the error that occurred during discovery, causing the containing **[ErrorOccurred](remotesystemwatcher_erroroccurred.md)** event to be raised.
 
 ## -property-value
 
