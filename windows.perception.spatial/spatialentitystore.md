@@ -13,6 +13,8 @@ public class SpatialEntityStore
 Represents a shared pool of spatial entities, synchronized automatically among the participants in a remote session.
 
 ## -remarks
+> [!IMPORTANT]
+> The SpatialEntityStore approach of synchronizing spatial anchors between devices is not currently supported.
 
 ## -see-also
 

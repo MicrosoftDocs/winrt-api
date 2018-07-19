@@ -15,7 +15,7 @@ The number of presentation opportunities which were missed before the app's fram
 ## -property-value
 
 ## -remarks
-Normally zero; may be negative if the app requested a head start and finished a full frame early.
+If this value is greater than zero, the compositor had to reproject and present your previous frame for the head position of later presentation opportunities.
 
 ## -see-also
 

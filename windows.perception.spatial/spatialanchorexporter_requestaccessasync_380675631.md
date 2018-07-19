@@ -10,8 +10,10 @@ public IAsyncOperation<SpatialPerceptionAccessStatus> SpatialAnchorExporter.Requ
 # Windows.Perception.Spatial.SpatialAnchorExporter.RequestAccessAsync
 
 ## -description
+Requests access for an app to export spatial anchors. This requires the **spatialPerception** capability.
 
 ## -returns
+Operation that triggers once the user has completed any consent dialog, providing the access status.
 
 ## -remarks
 
@@ -19,3 +21,5 @@ public IAsyncOperation<SpatialPerceptionAccessStatus> SpatialAnchorExporter.Requ
 
 ## -examples
 
+## -capabilities
+spatialPerception

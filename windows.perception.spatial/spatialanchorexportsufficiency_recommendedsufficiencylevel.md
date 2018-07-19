@@ -10,8 +10,10 @@ public double RecommendedSufficiencyLevel { get; }
 # Windows.Perception.Spatial.SpatialAnchorExportSufficiency.RecommendedSufficiencyLevel
 
 ## -description
+Gets the [SufficiencyLevel](spatialanchorexportsufficiency_sufficiencylevel.md) value that is ideal for an export for the specified purpose.
 
 ## -property-value
+The ideal sufficiency level.
 
 ## -remarks
 
@@ -19,3 +21,5 @@ public double RecommendedSufficiencyLevel { get; }
 
 ## -examples
 
+## -capabilities
+spatialPerception

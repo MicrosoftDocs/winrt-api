@@ -16,7 +16,7 @@ Represents whether the user is present within the headset to view and interact w
 ### -field Absent:0
 This HolographicSpace is not visible in the headset or the user is not wearing the headset.
 
-The app may wish to pause and stop rendering to conserve system resources.
+The app may wish to pause and stop rendering to release system resources for use by other apps.
 
 ### -field PresentPassive:1
 This HolographicSpace is visible in the headset and the user is wearing the headset, but a modal dialog is taking all input from the app.

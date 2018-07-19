@@ -10,11 +10,14 @@ public SpatialCoordinateSystem SpatialGraphInteropPreview.CreateCoordinateSystem
 # Windows.Perception.Spatial.Preview.SpatialGraphInteropPreview.CreateCoordinateSystemForNode
 
 ## -description
+Creates a spatial coordinate system that tracks adjustments to a static spatial node.
 
 ## -parameters
 ### -param nodeId
+The static spatial node's ID.
 
 ## -returns
+The spatial coordinate system.
 
 ## -remarks
 
