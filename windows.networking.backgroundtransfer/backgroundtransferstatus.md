@@ -38,7 +38,7 @@ The transfer operation has been cancelled.
 An error was encountered during the transfer operation.
 
 ### -field PausedSystemPolicy:32
-Windows Phone only. The transfer is paused by the system due to resource constraints. Transfers will have this status if Battery Saver is activated, if the background task can't get enough memory, CPU, power resources to run, or if the network condition is 2G and the app is not in the foreground
+The transfer is paused by the system due to resource constraints. Examples of constraints include the system being on Battery Saver when the application is not in the foreground. In Windows Phone, transfers will have this status if Battery Saver is activated, if the background task can't get enough memory, CPU, power resources to run, or if the network condition is 2G and the app is not in the foreground
 
 ### -field PausedRecoverableWebErrorStatus:8
 One of the app-configured recoverable web error statuses ([RecoverableWebErrorStatuses](downloadoperation_recoverableweberrorstatuses.md)). 
