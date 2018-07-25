@@ -19,7 +19,7 @@ Gets or sets a value that indicates whether the month name is shown with the fir
 
 
 ## -property-value
-**true** if the month name is shown with the first day of the month; otherwise, **false**. The default is **true**.
+**true** if the month name is shown with the first day of the month; otherwise, **false**. The default is **false**.
 
 ## -remarks
 
