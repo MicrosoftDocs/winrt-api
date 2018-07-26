@@ -23,6 +23,9 @@ It's not common to use [IAsyncAction](iasyncaction.md) directly even if you don'
 
 Instead of using [IAsyncAction](iasyncaction.md), some Windows Runtime asynchronous methods use custom action types (which might have "Operation" rather than "Action" in their name). For example, [SignOutUserOperation](../windows.security.authentication.onlineid/signoutuseroperation.md) is a Windows Runtime type that implements [IAsyncAction](iasyncaction.md). The [SignOutUserOperation](../windows.security.authentication.onlineid/signoutuseroperation.md) type is then used as the custom action return type for the [SignOutUserAsync](../windows.security.authentication.onlineid/onlineidauthenticator_signoutuserasync.md) method.
 
+> [!NOTE]
+> The **get** function exists on the C++/WinRT projection type **winrt::Windows::Foundation::IAsyncAction**, so you can call the function from within any C++/WinRT project. You will not find the function listed as a member of the **IAsyncAction** interface, because **get** is not part of the application binary interface (ABI) surface of the actual Windows Runtime type **IAsyncAction**. For more info, and code examples showing how to call **get**, see [Write a coroutine](/windows/uwp/cpp-and-winrt-apis/concurrency#write-a-coroutine).
+
 ### Interface inheritance
 
 [IAsyncAction](iasyncaction.md) inherits [IAsyncInfo](iasyncinfo.md). Types that implement [IAsyncAction](iasyncaction.md) also implement the interface members of [IAsyncInfo](iasyncinfo.md):
