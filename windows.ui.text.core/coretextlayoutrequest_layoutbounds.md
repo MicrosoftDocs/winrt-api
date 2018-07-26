@@ -10,12 +10,18 @@ public Windows.UI.Text.Core.CoreTextLayoutBounds LayoutBounds { get; }
 # Windows.UI.Text.Core.CoreTextLayoutRequest.LayoutBounds
 
 ## -description
-Gets an object that represents the layout bounds information requested by the text input server. The application should populate the properties of this object to the layout bounds being requested before returning from the event handler.
+
+Gets the screen coordinates of the bounding box for a range of text, or a text input control.
 
 ## -property-value
-An object that represents the layout bounds information requested by the server.
+
+An object that represents the layout bounds information requested by the text input server.
 
 ## -remarks
+
+Your application should populate the requested layout properties of this object before returning from the event handler.
+
+Use the [LayoutBoundsVisualPixels](coretextlayoutrequest_layoutboundsvisualpixels.md) method to get the layout properties relative to the viewport of your application.
 
 ## -examples
 
