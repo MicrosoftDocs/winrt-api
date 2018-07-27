@@ -25,6 +25,7 @@ Gets or sets the font weight used to display the first-of-year banner in the cal
 The font weight used to display the first-of-year banner in the calendar.
 
 ## -remarks
+To make the first month of year label visible or not, use the [IsGroupLabelVisible](calendarview_isgrouplabelvisible.md) property.
 
 ## -examples
 
