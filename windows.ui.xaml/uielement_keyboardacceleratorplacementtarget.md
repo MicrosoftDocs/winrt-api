@@ -29,6 +29,7 @@ Use the [KeyboardAcceleratorPlacementMode](uielement_keyboardacceleratorplacemen
 
 ```xaml
 <Grid x:Name="Container">
+
     <Button Content="Click" 
         ToolTipService.ToolTip="Tooltip"
         ToolTipService.PlacementTarget="{x:Bind Container}" 
@@ -37,10 +38,27 @@ Use the [KeyboardAcceleratorPlacementMode](uielement_keyboardacceleratorplacemen
             <KeyboardAccelerator Key="S" Modifiers="Control"/>
         </Button.KeyboardAccelerators>
     </Button>
+
+</Grid>
+```
+
+In some cases, you might need to present a tooltip relative to another element (typically a container object). For example, a Pivot control that displays the tooltip for a PivotItem with the Pivot header. 
+
+Here, we show how to use the KeyboardAcceleratorPlacementTarget property to display the keyboard accelerator key combination for a Save button with the Grid container instead of the button.
+
+```xaml
+<Grid x:Name="Container">
+
+  <Button Content="Save" Click="OnSave">
+    <Button.KeyboardAccelerators>
+      <KeyboardAccelerator  Key="S" Modifiers="Control" 
+        KeyboardAcceleratorPlacementTarget="{x:Bind Container}"/>
+    </Button.KeyboardAccelerators>
+  </Button>
+
 </Grid>
 ```
 
 ## -see-also
 
 [Keyboard Accelerators](https://docs.microsoft.com/windows/uwp/design/input/keyboard-accelerators)
-
