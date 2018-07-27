@@ -22,7 +22,7 @@ Gets or sets the font size used to display the first-of-month banner in the cale
 The font size used to display the first-of-month banner in the calendar.
 
 ## -remarks
-
+To make the first of month label visible or not, use the [IsGroupLabelVisible](calendarview_isgrouplabelvisible.md) property.
 ## -examples
 
 ## -see-also
