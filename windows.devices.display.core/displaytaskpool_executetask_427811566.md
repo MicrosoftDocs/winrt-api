@@ -10,6 +10,7 @@ public void DisplayTaskPool.ExecuteTask(DisplayTask task)
 # Windows.Devices.Display.Core.DisplayTaskPool.ExecuteTask
 
 ## -description
+Queues a [DisplayTask](displaytask.md) for execution on the device. Tasks are executed asynchronously, so this method returns immediately.
 
 ## -parameters
 ### -param task
@@ -19,4 +20,3 @@ public void DisplayTaskPool.ExecuteTask(DisplayTask task)
 ## -see-also
 
 ## -examples
-

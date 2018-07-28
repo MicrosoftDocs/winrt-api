@@ -21,4 +21,3 @@ public DisplayView DisplayState.GetViewForTarget(DisplayTarget target)
 ## -see-also
 
 ## -examples
-

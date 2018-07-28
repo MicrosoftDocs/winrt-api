@@ -10,6 +10,7 @@ public IMapView<Guid, object> Properties { get; }
 # Windows.Devices.Display.Core.DisplayTarget.Properties
 
 ## -description
+Reserved for future use.
 
 ## -property-value
 
@@ -18,4 +19,3 @@ public IMapView<Guid, object> Properties { get; }
 ## -see-also
 
 ## -examples
-

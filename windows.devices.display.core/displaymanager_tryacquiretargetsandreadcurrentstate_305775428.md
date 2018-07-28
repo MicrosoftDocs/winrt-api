@@ -10,15 +10,17 @@ public DisplayManagerResultWithState DisplayManager.TryAcquireTargetsAndReadCurr
 # Windows.Devices.Display.Core.DisplayManager.TryAcquireTargetsAndReadCurrentState
 
 ## -description
+Attempts to acquire exclusive ownership of a collection of [DisplayTarget](displaytarget.md) objects, and creates a modifiable [DisplayState](displaystate.md) populated with the current state of the supplied targets.
 
 ## -parameters
 ### -param targets
+A collection of [DisplayTarget](displaytarget.md) objects whose ownership will be attempted to be acquired.
 
 ## -returns
+A [DisplayManagerResultWithState](displaymanagerresultwithstate.md) value.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

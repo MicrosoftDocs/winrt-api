@@ -18,4 +18,3 @@ public IMapView<Guid, object> Properties { get; }
 ## -see-also
 
 ## -examples
-

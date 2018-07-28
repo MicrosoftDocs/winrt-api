@@ -10,12 +10,13 @@ public string DeviceInterfacePath { get; }
 # Windows.Devices.Display.Core.DisplayAdapter.DeviceInterfacePath
 
 ## -description
+Gets the PnP device interface path for this adapter.
 
 ## -property-value
+A string containing a PnP device interface path.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

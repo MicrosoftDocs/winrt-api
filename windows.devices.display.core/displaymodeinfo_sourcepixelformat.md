@@ -18,4 +18,3 @@ public DirectXPixelFormat SourcePixelFormat { get; }
 ## -see-also
 
 ## -examples
-

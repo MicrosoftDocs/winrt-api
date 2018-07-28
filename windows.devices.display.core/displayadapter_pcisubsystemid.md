@@ -10,12 +10,13 @@ public uint PciSubSystemId { get; }
 # Windows.Devices.Display.Core.DisplayAdapter.PciSubSystemId
 
 ## -description
+Gets the PCI subsystem ID of the adapter.
 
 ## -property-value
+A value containing the PCI subsystem ID of the adapter.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

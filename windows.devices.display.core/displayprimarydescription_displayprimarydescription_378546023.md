@@ -10,6 +10,7 @@ public DisplayPrimaryDescription.DisplayPrimaryDescription(UInt32 width, UInt32 
 # Windows.Devices.Display.Core.DisplayPrimaryDescription.DisplayPrimaryDescription
 
 ## -description
+Creates a primary description with the specified standard properties.
 
 ## -parameters
 ### -param width
@@ -29,4 +30,3 @@ public DisplayPrimaryDescription.DisplayPrimaryDescription(UInt32 width, UInt32 
 ## -see-also
 
 ## -examples
-

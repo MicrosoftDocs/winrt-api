@@ -10,12 +10,13 @@ public bool IsVirtualTopologyEnabled { get; }
 # Windows.Devices.Display.Core.DisplayTarget.IsVirtualTopologyEnabled
 
 ## -description
+Returns a Boolean value indicating whether this target supports virtual/software clone.
 
 ## -property-value
+`true` if this target supports virtual/software clone, otherwise `false`.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

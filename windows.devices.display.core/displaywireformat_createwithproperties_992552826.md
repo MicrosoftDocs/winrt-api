@@ -10,9 +10,11 @@ public DisplayWireFormat DisplayWireFormat.CreateWithProperties(IIterable<Object
 # Windows.Devices.Display.Core.DisplayWireFormat.CreateWithProperties
 
 ## -description
+Creates an instance of [DisplayWireFormat](displaywireformat.md) with the extra properties provided.
 
 ## -parameters
 ### -param extraProperties
+Reserved for future use.
 
 ### -param pixelEncoding
 
@@ -31,4 +33,3 @@ public DisplayWireFormat DisplayWireFormat.CreateWithProperties(IIterable<Object
 ## -see-also
 
 ## -examples
-

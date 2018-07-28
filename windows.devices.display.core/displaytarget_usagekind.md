@@ -18,4 +18,3 @@ public DisplayMonitorUsageKind UsageKind { get; }
 ## -see-also
 
 ## -examples
-

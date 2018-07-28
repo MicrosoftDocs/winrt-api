@@ -18,4 +18,3 @@ public DisplayWireFormatColorSpace ColorSpace { get; }
 ## -see-also
 
 ## -examples
-

@@ -10,6 +10,7 @@ public IReference<SizeInt32> ContentResolution { get;  set; }
 # Windows.Devices.Display.Core.DisplayView.ContentResolution
 
 ## -description
+The logical content resolution of this group of cloned [DisplayPath](displaypath.md) objects. For a [DisplayView](displayview.md) in hardware clone, this will be the same value as each path's [SourceResolution](displaypath_sourceresolution.md) property.
 
 ## -property-value
 
@@ -18,4 +19,3 @@ public IReference<SizeInt32> ContentResolution { get;  set; }
 ## -see-also
 
 ## -examples
-

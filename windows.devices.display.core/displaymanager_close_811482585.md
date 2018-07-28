@@ -10,10 +10,10 @@ public void DisplayManager.Close()
 # Windows.Devices.Display.Core.DisplayManager.Close
 
 ## -description
+Revokes ownership of all [DisplayTarget](displaytarget.md) objects owned by this [DisplayManager](displaymanager.md) instance.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

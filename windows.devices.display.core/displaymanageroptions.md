@@ -12,13 +12,14 @@ public enum DisplayManagerOptions : uint
 ## -description
 
 ## -enum-fields
+
 ### -field None:0
 
 ### -field EnforceSourceOwnership:1
+Restricts scan out to devices created by this [DisplayManager](displaymanager.md) object, or to [DisplaySource](displaysource.md) objects created using a shared handle provided by a path owned by this **DisplayManager**.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

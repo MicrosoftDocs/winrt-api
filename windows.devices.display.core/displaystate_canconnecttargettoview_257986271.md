@@ -23,4 +23,3 @@ public bool DisplayState.CanConnectTargetToView(DisplayTarget target, DisplayVie
 ## -see-also
 
 ## -examples
-

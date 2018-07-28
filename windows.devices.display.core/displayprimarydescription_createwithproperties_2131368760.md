@@ -10,9 +10,11 @@ public DisplayPrimaryDescription DisplayPrimaryDescription.CreateWithProperties(
 # Windows.Devices.Display.Core.DisplayPrimaryDescription.CreateWithProperties
 
 ## -description
+Creates a primary description with the specified standard properties, as well as extra properties.
 
 ## -parameters
 ### -param extraProperties
+Reserved for future use.
 
 ### -param width
 
@@ -33,4 +35,3 @@ public DisplayPrimaryDescription DisplayPrimaryDescription.CreateWithProperties(
 ## -see-also
 
 ## -examples
-

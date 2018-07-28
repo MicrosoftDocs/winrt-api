@@ -10,13 +10,14 @@ public void DisplayManager.ReleaseTarget(DisplayTarget target)
 # Windows.Devices.Display.Core.DisplayManager.ReleaseTarget
 
 ## -description
+Releases ownership of the specified display target, allowing other components on the system to acquire ownership.
 
 ## -parameters
 ### -param target
+The [DisplayTarget](displaytarget.md) to release ownership of.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

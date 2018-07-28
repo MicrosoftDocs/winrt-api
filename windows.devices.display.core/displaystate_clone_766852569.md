@@ -10,6 +10,7 @@ public DisplayState DisplayState.Clone()
 # Windows.Devices.Display.Core.DisplayState.Clone
 
 ## -description
+Creates a copy of this **DisplayState** object, including copies of all views and paths.
 
 ## -returns
 
@@ -18,4 +19,3 @@ public DisplayState DisplayState.Clone()
 ## -see-also
 
 ## -examples
-

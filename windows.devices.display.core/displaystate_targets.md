@@ -10,6 +10,7 @@ public IVectorView<DisplayTarget> Targets { get; }
 # Windows.Devices.Display.Core.DisplayState.Targets
 
 ## -description
+Returns the set of [DisplayTarget](displaytarget.md) objects used to create this [DisplayState](displaystate.md) object.
 
 ## -property-value
 
@@ -18,4 +19,3 @@ public IVectorView<DisplayTarget> Targets { get; }
 ## -see-also
 
 ## -examples
-

@@ -10,6 +10,7 @@ public DisplayPath DisplayState.ConnectTarget(DisplayTarget target, DisplayView 
 # Windows.Devices.Display.Core.DisplayState.ConnectTarget
 
 ## -description
+Connects the specified target to an existing logical clone group and returns the resulting path.
 
 ## -parameters
 ### -param target
@@ -23,4 +24,3 @@ public DisplayPath DisplayState.ConnectTarget(DisplayTarget target, DisplayView 
 ## -see-also
 
 ## -examples
-

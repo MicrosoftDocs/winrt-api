@@ -10,8 +10,10 @@ public enum DisplayRotation : int
 # Windows.Devices.Display.Core.DisplayRotation
 
 ## -description
+Defines constants that specify how to rotate content from a frame buffer to a target.
 
 ## -enum-fields
+
 ### -field None:0
 
 ### -field Clockwise90Degrees:1
@@ -25,4 +27,3 @@ public enum DisplayRotation : int
 ## -see-also
 
 ## -examples
-

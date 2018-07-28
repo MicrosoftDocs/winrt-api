@@ -10,6 +10,7 @@ public DisplayWireFormatPixelEncoding PixelEncoding { get; }
 # Windows.Devices.Display.Core.DisplayWireFormat.PixelEncoding
 
 ## -description
+Describes how pixels are encoded by the display pipeline, including chroma subsampling.
 
 ## -property-value
 
@@ -18,4 +19,3 @@ public DisplayWireFormatPixelEncoding PixelEncoding { get; }
 ## -see-also
 
 ## -examples
-

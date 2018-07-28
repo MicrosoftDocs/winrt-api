@@ -27,4 +27,3 @@ public DisplayWireFormat.DisplayWireFormat(DisplayWireFormatPixelEncoding pixelE
 ## -see-also
 
 ## -examples
-

@@ -21,4 +21,3 @@ public DisplayPath DisplayState.GetPathForTarget(DisplayTarget target)
 ## -see-also
 
 ## -examples
-

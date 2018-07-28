@@ -10,10 +10,10 @@ public class DisplayAdapter
 # Windows.Devices.Display.Core.DisplayAdapter
 
 ## -description
+Represents a hardware display controller. This is typically a GPU (graphics processing unit).
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

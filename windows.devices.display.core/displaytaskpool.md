@@ -10,6 +10,7 @@ public class DisplayTaskPool
 # Windows.Devices.Display.Core.DisplayTaskPool
 
 ## -description
+Provides methods to allocate and execute tasks on a [DisplayDevice](displaydevice.md).
 
 ## -remarks
 

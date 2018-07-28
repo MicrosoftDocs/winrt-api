@@ -18,4 +18,3 @@ public Deferral DisplayManagerChangedEventArgs.GetDeferral()
 ## -see-also
 
 ## -examples
-

@@ -10,6 +10,7 @@ public DisplayWireFormatHdrMetadata HdrMetadata { get; }
 # Windows.Devices.Display.Core.DisplayWireFormat.HdrMetadata
 
 ## -description
+Specifies the format for static or dynamic HDR mastering metadata.
 
 ## -property-value
 
@@ -18,4 +19,3 @@ public DisplayWireFormatHdrMetadata HdrMetadata { get; }
 ## -see-also
 
 ## -examples
-

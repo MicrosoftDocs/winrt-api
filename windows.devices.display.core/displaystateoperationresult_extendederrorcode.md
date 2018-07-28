@@ -18,4 +18,3 @@ public HResult ExtendedErrorCode { get; }
 ## -see-also
 
 ## -examples
-

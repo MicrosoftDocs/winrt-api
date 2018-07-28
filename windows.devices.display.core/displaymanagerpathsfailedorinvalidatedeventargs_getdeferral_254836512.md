@@ -18,4 +18,3 @@ public Deferral DisplayManagerPathsFailedOrInvalidatedEventArgs.GetDeferral()
 ## -see-also
 
 ## -examples
-

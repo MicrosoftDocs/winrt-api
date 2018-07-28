@@ -18,4 +18,3 @@ public SizeInt32 SourceResolution { get; }
 ## -see-also
 
 ## -examples
-

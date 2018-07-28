@@ -10,12 +10,13 @@ public DisplayTask DisplayTaskPool.CreateTask()
 # Windows.Devices.Display.Core.DisplayTaskPool.CreateTask
 
 ## -description
+Creates a [DisplayTask](displaytask.md) object.
 
 ## -returns
+A [DisplayTask](displaytask.md) value.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

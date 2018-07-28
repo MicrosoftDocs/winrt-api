@@ -19,4 +19,3 @@ public enum DisplayTaskSignalKind : int
 ## -see-also
 
 ## -examples
-

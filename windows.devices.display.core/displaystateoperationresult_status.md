@@ -18,4 +18,3 @@ public DisplayStateOperationStatus Status { get; }
 ## -see-also
 
 ## -examples
-

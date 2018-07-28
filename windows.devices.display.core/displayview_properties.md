@@ -10,6 +10,7 @@ public IMap<Guid, object> Properties { get; }
 # Windows.Devices.Display.Core.DisplayView.Properties
 
 ## -description
+Reserved for future use.
 
 ## -property-value
 
@@ -18,4 +19,3 @@ public IMap<Guid, object> Properties { get; }
 ## -see-also
 
 ## -examples
-

@@ -10,6 +10,7 @@ public void DisplayTask.SetScanout(DisplayScanout scanout)
 # Windows.Devices.Display.Core.DisplayTask.SetScanout
 
 ## -description
+Sets this [DisplayTask](displaytask.md) to present content to a source using the parameters specified by a [DisplayScanout](displayscanout.md) when executed.
 
 ## -parameters
 ### -param scanout
@@ -19,4 +20,3 @@ public void DisplayTask.SetScanout(DisplayScanout scanout)
 ## -see-also
 
 ## -examples
-

@@ -21,4 +21,3 @@ public bool DisplayModeInfo.IsWireFormatSupported(DisplayWireFormat wireFormat)
 ## -see-also
 
 ## -examples
-

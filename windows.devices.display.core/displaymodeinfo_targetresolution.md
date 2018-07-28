@@ -18,4 +18,3 @@ public SizeInt32 TargetResolution { get; }
 ## -see-also
 
 ## -examples
-

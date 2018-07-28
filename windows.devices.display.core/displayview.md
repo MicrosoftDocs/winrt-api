@@ -10,10 +10,10 @@ public class DisplayView
 # Windows.Devices.Display.Core.DisplayView
 
 ## -description
+Represents a group of [DisplayPath](displaypath.md) objects that are logically cloned together.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

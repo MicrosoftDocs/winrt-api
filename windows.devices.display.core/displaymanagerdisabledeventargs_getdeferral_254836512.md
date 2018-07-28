@@ -18,4 +18,3 @@ public Deferral DisplayManagerDisabledEventArgs.GetDeferral()
 ## -see-also
 
 ## -examples
-

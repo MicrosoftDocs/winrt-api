@@ -18,4 +18,3 @@ public string StableMonitorId { get; }
 ## -see-also
 
 ## -examples
-

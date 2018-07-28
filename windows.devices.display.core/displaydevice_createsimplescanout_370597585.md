@@ -10,21 +10,24 @@ public DisplayScanout DisplayDevice.CreateSimpleScanout(DisplaySource pSource, D
 # Windows.Devices.Display.Core.DisplayDevice.CreateSimpleScanout
 
 ## -description
+Creates a [DisplayScanout](displayscanout.md) object, which can be used to present a full-screen surface directly to the screen.
 
 ## -parameters
 ### -param pSource
+A [DisplaySource](displaysource.md) to present full-screen content to.
 
 ### -param pSurface
+A full-screen primary surface.
 
 ### -param SubResourceIndex
 
 ### -param SyncInterval
 
 ## -returns
+A [DisplayScanout](displayscanout.md) value.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

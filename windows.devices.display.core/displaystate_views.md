@@ -18,4 +18,3 @@ public IVectorView<DisplayView> Views { get; }
 ## -see-also
 
 ## -examples
-
