@@ -25,7 +25,7 @@ Gets or sets the font used to display the first-of-year banner in the calendar.
 The font used to display the first-of-year banner in the calendar.
 
 ## -remarks
-
+To make the first month of year label visible or not, use the [IsGroupLabelVisible](calendarview_isgrouplabelvisible.md) property.
 ## -examples
 
 ## -see-also
