@@ -11,7 +11,8 @@ public class HidFeatureReport : Windows.Devices.HumanInterfaceDevice.IHidFeature
 # Windows.Devices.HumanInterfaceDevice.HidFeatureReport
 
 ## -description
-Represents a feature report.
+
+Represents a [HID Feature Report](https://docs.microsoft.com/en-us/windows-hardware/drivers/hid/introduction-to-hid-concepts#reports).
 
 Feature reports are issued by both the device and the host. Devices issue feature reports to describe their capabilities and default settings to a host. Hosts issue feature reports to make requests of the device.
 
@@ -20,3 +21,7 @@ Feature reports are issued by both the device and the host. Devices issue featur
 ## -examples
 
 ## -see-also
+
+### Samples
+
+[Custom HID device sample](https://github.com/Microsoft/Windows-universal-samples/tree/6370138b150ca8a34ff86de376ab6408c5587f5d/Samples/CustomHidDeviceAccess)

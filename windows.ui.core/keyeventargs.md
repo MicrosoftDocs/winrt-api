@@ -14,11 +14,8 @@ Contains the arguments returned by a virtual key event.
 
 ## -remarks
 
-
 > **Windows 10**
 > Apps do not receive this event when an [Input Method Editor (IME)](http://msdn.microsoft.com/library/5fcc73e6-f499-47e6-8e81-0014ca4d241c) is enabled. The Input Method Editor (IME) handles all keyboard input and sets [Handled](keyeventargs_handled.md) to **true**.
-
-
 
 > **Windows Phone**
 > This API is supported in native apps only.
@@ -27,13 +24,24 @@ This object is returned by a delegate registered for one of the following events
 + [CoreWindow.KeyDown](corewindow_keydown.md)
 + [CoreWindow.KeyUp](corewindow_keyup.md)
 
+```cppwinrt
+void SetWindow(CoreWindow const & window)
+{
+    ...
+    window.KeyDown({ this, &App::OnKeyDown });
+    window.KeyUp({ this, &App::OnKeyUp });
+}
 
+// Keypress data is in KeyEventArgs.
+void OnKeyDown(Windows::UI::Core::CoreWindow const& /* sender */,
+    Windows::UI::Core::KeyEventArgs const& /* args */) {}
 
+void OnKeyUp(Windows::UI::Core::CoreWindow const& /* sender */,
+    Windows::UI::Core::KeyEventArgs const& /* args */) {}
+```
 
 ```cpp
-
 // returning keypress events data through KeyEventArgs
-
 void MyCoreWindowEvents::SetWindow( // implementation called by CoreApplication::Run(), provided for context
     _In_ CoreWindow^ window
     )
@@ -45,12 +53,8 @@ void MyCoreWindowEvents::SetWindow( // implementation called by CoreApplication:
         ref new TypedEventHandler<CoreWindow^, KeyEventArgs^>(this, &CoreWindowEvents::OnKeyUp);
 
     // ...
-   
 }
-
 ```
-
-
 
 > [!NOTE]
 > : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://go.microsoft.com/fwlink/p/?linkid=258275).

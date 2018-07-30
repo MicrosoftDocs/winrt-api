@@ -6,6 +6,7 @@
 # Windows.Foundation.Diagnostics
 
 ## -description
+
 Provides classes for logging messages and tracing events.
 
 ## -remarks
@@ -13,3 +14,5 @@ Provides classes for logging messages and tracing events.
 ## -examples
 
 ## -see-also
+
+[Logging sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Logging)

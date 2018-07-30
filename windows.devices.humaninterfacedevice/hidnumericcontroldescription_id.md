@@ -11,9 +11,11 @@ public uint Id { get; }
 # Windows.Devices.HumanInterfaceDevice.HidNumericControlDescription.Id
 
 ## -description
-Retrieves the identifier for a given numeric control.
+
+Gets the identifier for a given numeric control.
 
 ## -property-value
+
 Identifies the control.
 
 ## -remarks

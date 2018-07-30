@@ -6,6 +6,7 @@
 # Windows.UI.Xaml.Data
 
 ## -description
+
 Defines the data binding infrastructure for apps.
 
 ## -remarks
@@ -13,3 +14,5 @@ Defines the data binding infrastructure for apps.
 ## -examples
 
 ## -see-also
+
+[Data virtualization sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlDataVirtualization)

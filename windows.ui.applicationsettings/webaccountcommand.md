@@ -11,12 +11,15 @@ public class WebAccountCommand : Windows.UI.ApplicationSettings.IWebAccountComma
 # Windows.UI.ApplicationSettings.WebAccountCommand
 
 ## -description
+
 Associates a command with a [WebAccount](../windows.security.credentials/webaccount.md) in the account settings pane..
 
 ## -remarks
+
 Add instances of the [WebAccountCommand](webaccountcommand.md) class to the [WebAccountCommands](accountssettingspanecommandsrequestedeventargs_webaccountcommands.md) collection.
 
 ## -examples
 
 ## -see-also
+
 [WebAccount](../windows.security.credentials/webaccount.md), [WebAccountCommands](accountssettingspanecommandsrequestedeventargs_webaccountcommands.md), [WebAuthenticationBroker sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620622)

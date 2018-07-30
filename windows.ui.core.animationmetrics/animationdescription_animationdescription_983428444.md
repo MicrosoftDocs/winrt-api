@@ -26,13 +26,6 @@ The properties of an [AnimationDescription](animationdescription.md) object are 
 
 Because all properties of the [AnimationDescription](animationdescription.md) object are captured at the time of construction, the object itself is immutable and can be marshaled freely.
 
-
-<!-- @WRITER erictill 7/22/2011 :The properties are captured rather than recalculated so that applications always see a consistent set of AnimastionDescription properties. -->
-
-<!-- @WRITER erictill 7/22/2011 : The application can use this object to obtain the parameters that describe the corresponding animations. Note that not all targets are valid with all effects. -->
-
-<!-- @WRITER erictill 7/22/2011 : Return values:              S_OK - created successfully              E_INVALIDARG - the effect is not valid or the effect does not support the specified target.              E_OUTOFMEMORY - Insufficient memory to complete the operation.              E_FAIL - Catastrophic failure.                            HRESULTS are used to report errors. No exceptions are thrown directly, but languages can choose to convert HRESULTS to exceptions in their projections. -->
-
 ## -examples
 
 ## -see-also

@@ -10,10 +10,12 @@ public Windows.UI.Color Sienna { get; }
 # Windows.UI.Colors.Sienna
 
 ## -description
-Gets the color value that represents the Sienna named color.
+
+Gets the system-defined color that has an ARGB value of #FFA0522D.
 
 ## -property-value
-The color value that represents the Sienna named color.
+
+The system-defined color that has an ARGB value of #FFA0522D.
 
 ## -remarks
 

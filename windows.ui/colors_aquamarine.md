@@ -10,10 +10,12 @@ public Windows.UI.Color Aquamarine { get; }
 # Windows.UI.Colors.Aquamarine
 
 ## -description
-Gets the color value that represents the Aquamarine named color.
+
+Gets the system-defined color that has an ARGB value of #FF7FFFD4.
 
 ## -property-value
-The color value that represents the Aquamarine named color.
+
+The system-defined color that has an ARGB value of #FF7FFFD4.
 
 ## -remarks
 

@@ -10,10 +10,12 @@ public Windows.UI.Color PaleGoldenrod { get; }
 # Windows.UI.Colors.PaleGoldenrod
 
 ## -description
-Gets the color value that represents the PaleGoldenrod named color.
+
+Gets the system-defined color that has an ARGB value of #FFEEE8AA.
 
 ## -property-value
-The color value that represents the PaleGoldenrod named color.
+
+The system-defined color that has an ARGB value of #FFEEE8AA.
 
 ## -remarks
 

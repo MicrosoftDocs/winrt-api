@@ -10,10 +10,12 @@ public Windows.UI.Color Aqua { get; }
 # Windows.UI.Colors.Aqua
 
 ## -description
-Gets the color value that represents the Aqua named color.
+
+Gets the system-defined color that has an ARGB value of #FF00FFFF.
 
 ## -property-value
-The color value that represents the Aqua named color.
+
+The system-defined color that has an ARGB value of #FF00FFFF.
 
 ## -remarks
 

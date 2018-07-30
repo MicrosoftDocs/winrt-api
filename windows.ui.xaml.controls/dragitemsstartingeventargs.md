@@ -10,6 +10,7 @@ public class DragItemsStartingEventArgs : Windows.UI.Xaml.Controls.IDragItemsSta
 # Windows.UI.Xaml.Controls.DragItemsStartingEventArgs
 
 ## -description
+
 Provides event data for the [DragItemsStarting](listviewbase_dragitemsstarting.md) event.
 
 ## -remarks
@@ -17,4 +18,5 @@ Provides event data for the [DragItemsStarting](listviewbase_dragitemsstarting.m
 ## -examples
 
 ## -see-also
+
 [ListViewBase.DragItemsStarting](listviewbase_dragitemsstarting.md), [Drag and drop sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620634)

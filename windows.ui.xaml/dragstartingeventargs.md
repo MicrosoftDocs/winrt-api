@@ -10,12 +10,13 @@ public class DragStartingEventArgs : Windows.UI.Xaml.RoutedEventArgs, Windows.UI
 # Windows.UI.Xaml.DragStartingEventArgs
 
 ## -description
+
 Provides event data for the [DragStarting](uielement_dragstarting.md) event.
 
 ## -remarks
 
-
 ## -examples
 
 ## -see-also
+
 [RoutedEventArgs](routedeventargs.md), [Drag and drop sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620634)

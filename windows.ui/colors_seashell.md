@@ -10,10 +10,12 @@ public Windows.UI.Color SeaShell { get; }
 # Windows.UI.Colors.SeaShell
 
 ## -description
-Gets the color value that represents the SeaShell named color.
+
+Gets the system-defined color that has an ARGB value of #FFFFF5EE.
 
 ## -property-value
-The color value that represents the SeaShell named color.
+
+The system-defined color that has an ARGB value of #FFFFF5EE.
 
 ## -remarks
 

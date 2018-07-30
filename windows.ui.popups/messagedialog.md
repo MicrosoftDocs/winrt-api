@@ -10,9 +10,11 @@ public class MessageDialog : Windows.UI.Popups.IMessageDialog
 # Windows.UI.Popups.MessageDialog
 
 ## -description
+
 Represents a dialog for showing messages to the user. 
 
 ## -remarks
+
 > [!IMPORTANT]
 > You should use MessageDialog only when you are upgrading a Universal Windows 8 app that uses MessageDialog, and need to minimize changes. For new apps in Windows 10, we recommend using the [ContentDialog](./../windows.ui.xaml.controls/contentdialog.md) control instead.
 
@@ -30,7 +32,101 @@ Here's an example of a dialog created by the code in the Examples section.
 <img src="images/MessageDialogWithTwoCommands.png" alt="Message dialog with two commands" />
 
 ## -examples
+
 The following example shows how to add commands to a message dialog and display it. For the full code example, see [Message dialog sample](http://go.microsoft.com/fwlink/p/?linkid=231551).
+
+```csharp
+using Windows.UI.Popups;
+using Windows.UI.Xaml;
+using Windows.UI.Xaml.Controls;
+using Windows.UI.Xaml.Navigation;
+using SDKTemplate;
+using System;
+
+private async void CancelCommandButton_Click(object sender, RoutedEventArgs e)
+{
+    // Create the message dialog and set its content
+    var messageDialog = new MessageDialog("No internet connection has been found.");
+
+    // Add commands and set their callbacks; both buttons use the same callback function instead of inline event handlers
+    messageDialog.Commands.Add(new UICommand(
+        "Try again", 
+        new UICommandInvokedHandler(this.CommandInvokedHandler)));
+    messageDialog.Commands.Add(new UICommand(
+        "Close", 
+        new UICommandInvokedHandler(this.CommandInvokedHandler)));
+
+    // Set the command that will be invoked by default
+    messageDialog.DefaultCommandIndex = 0;
+
+    // Set the command to be invoked when escape is pressed
+    messageDialog.CancelCommandIndex = 1;
+
+    // Show the message dialog
+    await messageDialog.ShowAsync();
+}
+
+private void CommandInvokedHandler(IUICommand command)
+{
+    // Display message showing the label of the command that was invoked
+    rootPage.NotifyUser("The '" + command.Label + "' command has been selected.", 
+        NotifyType.StatusMessage);
+}
+```
+
+```cppwinrt
+// MainPage.cpp
+#include "pch.h"
+#include "MainPage.h"
+
+#include <winrt/Windows.UI.Popups.h>
+
+#include "winrt/Windows.System.h"
+#include "winrt/Windows.UI.Xaml.Controls.h"
+#include "winrt/Windows.UI.Xaml.Input.h"
+#include "winrt/Windows.UI.Xaml.Navigation.h"
+#include <sstream>
+
+using namespace winrt;
+using namespace Windows::Foundation;
+using namespace Windows::UI::Xaml;
+...
+void MainPage::CancelCommandButton_Click(IInspectable const&, RoutedEventArgs const&)
+{
+    // Create the message dialog and set its content
+    Windows::UI::Popups::MessageDialog msg{ L"No internet connection has been found." };
+
+    // Add commands and set their callbacks.
+    // Both commands use the same callback function instead of inline event handlers.
+    Windows::UI::Popups::UICommand continueCommand{
+        L"Try again",
+        { this, &MainPage::CommandInvokedHandler} };
+    Windows::UI::Popups::UICommand upgradeCommand{
+        L"Close",
+        { this, &MainPage::CommandInvokedHandler } };
+
+    // Add the commands to the dialog.
+    msg.Commands().Append(continueCommand);
+    msg.Commands().Append(upgradeCommand);
+
+    // Set the command that will be invoked by default.
+    msg.DefaultCommandIndex(0);
+
+    // Set the command to be invoked when escape is pressed.
+    msg.CancelCommandIndex(1);
+
+    // Show the message dialog.
+    msg.ShowAsync();
+}
+
+void MainPage::CommandInvokedHandler(Windows::UI::Popups::IUICommand const& command)
+{
+    // Display message.
+    std::wstringstream stringstream;
+    stringstream << L"The '" << command.Label().c_str() << L"' command has been selected.";
+    rootPage.NotifyUser(stringstream.str().c_str(), NotifyType::StatusMessage);
+}
+```
 
 ```cpp
 #include "pch.h"
@@ -80,46 +176,6 @@ void CancelCommand::CommandInvokedHandler(Windows::UI::Popups::IUICommand^ comma
 }
 ```
 
-```csharp
-
-using Windows.UI.Popups;
-using Windows.UI.Xaml;
-using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Navigation;
-using SDKTemplate;
-using System;
-
-private async void CancelCommandButton_Click(object sender, RoutedEventArgs e)
-{
-    // Create the message dialog and set its content
-    var messageDialog = new MessageDialog("No internet connection has been found.");
-
-    // Add commands and set their callbacks; both buttons use the same callback function instead of inline event handlers
-    messageDialog.Commands.Add(new UICommand(
-        "Try again", 
-        new UICommandInvokedHandler(this.CommandInvokedHandler)));
-    messageDialog.Commands.Add(new UICommand(
-        "Close", 
-        new UICommandInvokedHandler(this.CommandInvokedHandler)));
-
-    // Set the command that will be invoked by default
-    messageDialog.DefaultCommandIndex = 0;
-
-    // Set the command to be invoked when escape is pressed
-    messageDialog.CancelCommandIndex = 1;
-
-    // Show the message dialog
-    await messageDialog.ShowAsync();
-}
-
-private void CommandInvokedHandler(IUICommand command)
-{
-    // Display message showing the label of the command that was invoked
-    rootPage.NotifyUser("The '" + command.Label + "' command has been selected.", 
-        NotifyType.StatusMessage);
-}
-```
-
 ```vbnet
 Imports Windows.UI.Popups
 Imports Windows.UI.Xaml
@@ -163,7 +219,6 @@ Partial Public NotInheritable Class CloseCommand
         Await messageDialog.ShowAsync
     End Sub
 End Class
-
 ```
 
 ```javascript
@@ -214,7 +269,6 @@ End Class
 })();
 ```
 
-
-
 ## -see-also
+
 [Message dialog sample](http://go.microsoft.com/fwlink/p/?linkid=231551), [Message dialog sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620570)

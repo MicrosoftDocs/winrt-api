@@ -16,6 +16,7 @@ Detaches the stream that is associated with the data reader.
 The detached stream.
 
 ## -remarks
+If a read operation is in progress when an application attempts to detach the stream, the call will fail with the error HRESULT_FROM_WIN32(ERROR_INVALID_OPERATION).
 
 ## -examples
 

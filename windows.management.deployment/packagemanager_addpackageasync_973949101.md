@@ -84,8 +84,59 @@ public static int Main(string[] args)
 }
 ```
 
-```cpp
+Also see [Visual Studio support for C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt#visual-studio-support-for-cwinrt-and-the-vsix).
 
+```cppwinrt
+// main.cpp : In Visual Studio, create a new Windows Console Application (C++/WinRT).
+#include "pch.h"
+
+#include <winrt/Windows.Foundation.h>
+#include <winrt/Windows.Management.Deployment.h>
+#include <iostream>
+
+using namespace winrt;
+using namespace Windows::Foundation;
+using namespace Windows::Management::Deployment;
+
+int wmain(int /* argc */, wchar_t *argv[], wchar_t * /* envp[] */)
+{
+    winrt::init_apartment();
+
+    int returnValue{ 0 };
+
+    std::wstring packageUriString{ argv[1] };
+    Uri packageUri{ packageUriString };
+    PackageManager packageManager;
+
+    auto deploymentOperation{ packageManager.AddPackageAsync(packageUri, nullptr, DeploymentOptions::None) };
+    deploymentOperation.get();
+
+    // Check the status of the operation
+    if (deploymentOperation.Status() == AsyncStatus::Error)
+    {
+        auto deploymentResult{ deploymentOperation.GetResults() };
+        std::wcout << L"Error code: " << deploymentOperation.ErrorCode() << std::endl;
+        std::wcout << L"Error text: " << deploymentResult.ErrorText().c_str() << std::endl;
+        returnValue = 1;
+    }
+    else if (deploymentOperation.Status() == AsyncStatus::Canceled)
+    {
+        std::wcout << L"Installation canceled" << std::endl;
+    }
+    else if (deploymentOperation.Status() == AsyncStatus::Completed)
+    {
+        std::wcout << L"Installation succeeded" << std::endl;
+    }
+    else
+    {
+        std::wcout << L"Installation status unknown" << std::endl;
+        returnValue = 1;
+    }
+    return returnValue;
+}
+```
+
+```cpp
 using namespace Windows::Foundation;
 using namespace Windows::Management::Deployment;
 
@@ -144,8 +195,6 @@ int __cdecl main(Platform::Array<String^>^ args)
     return returnValue;
 }
 ```
-
-
 
 ## -see-also
 [Add app package sample](http://go.microsoft.com/fwlink/p/?linkid=236968), [AddPackageAsync(Uri, IIterable(Uri), DeploymentOptions, PackageVolume)](packagemanager_addpackageasync_2048203939.md)

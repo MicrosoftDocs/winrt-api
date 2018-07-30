@@ -10,10 +10,12 @@ public Windows.UI.Color LightSalmon { get; }
 # Windows.UI.Colors.LightSalmon
 
 ## -description
-Gets the color value that represents the LightSalmon named color.
+
+Gets the system-defined color that has an ARGB value of #FFFFA07A.
 
 ## -property-value
-The color value that represents the LightSalmon named color.
+
+The system-defined color that has an ARGB value of #FFFFA07A.
 
 ## -remarks
 

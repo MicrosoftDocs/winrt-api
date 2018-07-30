@@ -10,6 +10,7 @@ public class FaceDetector : Windows.Media.FaceAnalysis.IFaceDetector
 # Windows.Media.FaceAnalysis.FaceDetector
 
 ## -description
+
 Detects faces in a [SoftwareBitmap](../windows.graphics.imaging/softwarebitmap.md).
 
 ## -remarks
@@ -17,4 +18,5 @@ Detects faces in a [SoftwareBitmap](../windows.graphics.imaging/softwarebitmap.m
 ## -examples
 
 ## -see-also
+
 [Basic face detection sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620512)

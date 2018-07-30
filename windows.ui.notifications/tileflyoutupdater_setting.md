@@ -11,7 +11,6 @@ public Windows.UI.Notifications.NotificationSetting Setting { get; }
 # Windows.UI.Notifications.TileFlyoutUpdater.Setting
 
 ## -description
-<!-- @WRITER erictill 5/7/2014 : And where is this setting? Who can set it? Currently nobody. -->
 Gets a value that specifies whether a tile's flyout can be updated through notifications.
 
 ## -property-value

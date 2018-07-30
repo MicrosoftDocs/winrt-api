@@ -21,9 +21,6 @@ This information is set when the [ScheduledTileNotification](scheduledtilenotifi
 
 The retrieved elements and their attributes are manipulated through Document Object Model (DOM) manipulation functions. See [Tile schema](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/schema-root) for an explanation of tile elements and attributes found in the XML document.
 
-
-<!-- @WRITER erictill 12/13/2011 : I still don't have a good explanation why anyone would want this. -->
-
 ## -examples
 
 ## -see-also

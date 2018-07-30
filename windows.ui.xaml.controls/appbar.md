@@ -10,9 +10,11 @@ public class AppBar : Windows.UI.Xaml.Controls.ContentControl, Windows.UI.Xaml.C
 # Windows.UI.Xaml.Controls.AppBar
 
 ## -description
+
 Represents the container control that holds app UI components for commanding and experiences. For Windows 10, see Remarks.
 
 ## -xaml-syntax
+
 ```xaml
 <AppBar .../>
 -or-
@@ -22,6 +24,7 @@ Represents the container control that holds app UI components for commanding and
 ```
 
 ## -remarks
+
 > [!IMPORTANT]
 > You should use the [AppBar](appbar.md) only when you are upgrading a Universal Windows 8 app that uses the [AppBar](appbar.md), and need to minimize changes. For new apps in Windows 10, we recommend using the [CommandBar](commandbar.md) control instead.
 
@@ -39,7 +42,7 @@ You can open and close the app bar programmatically by setting the [IsOpen](appb
 
 By default, the app bar is dismissed (closed) when the user interacts with the app anywhere outside of the app bar. Closing the app bar this way is called *light dismiss*. You can control how the app bar is dismissed by setting the [IsSticky](appbar_issticky.md) property. When the app bar is *sticky*, it's not closed by a *light dismiss* gesture. The app bar remains visible until the user right clicks or presses the ellipsis [•••].
 
-To add an app bar in Extensible Application Markup Language (XAML), you assign an [AppBar](appbar.md) control to a [Page](page.md) 's [ TopAppBar](page_topappbar.md) or [BottomAppBar](page_bottomappbar.md) property. A single app bar can be shared across multiple pages. You can add and remove commands programmatically based on the page context.
+To add an app bar in Extensible Application Markup Language (XAML), you assign an [AppBar](appbar.md) control to a [Page](page.md) 's [TopAppBar](page_topappbar.md) or [BottomAppBar](page_bottomappbar.md) property. A single app bar can be shared across multiple pages. You can add and remove commands programmatically based on the page context.
 
 ### Control style and template
 
@@ -69,6 +72,7 @@ This table shows the resources used by the [AppBar](appbar.md) control.
 </table>
 
 ## -examples
+
 This example shows a top app bar with a group of navigation buttons and a search box.
 
 ```xaml
@@ -90,8 +94,8 @@ This example shows a top app bar with a group of navigation buttons and a search
 </Page.TopAppBar>
 ```
 
-
 <!--<auto_snippet sample_id="BasicControlSnippets" snippet_id="BasicAppBarXAML"/>-->
 
 ## -see-also
-[Guidelines for command and app bars](https://docs.microsoft.com/en-us/windows/uwp/controls-and-patterns/app-bars), [AppBar styles and templates](http://msdn.microsoft.com/library/2e029026-a6c0-4833-a274-cc033802c1b5), [AppBarButton](appbarbutton.md), [CommandBar](commandbar.md)
+
+[Guidelines for command and app bars](https://docs.microsoft.com/en-us/windows/uwp/controls-and-patterns/app-bars), [AppBar styles and templates](http://msdn.microsoft.com/library/2e029026-a6c0-4833-a274-cc033802c1b5), [AppBarButton](appbarbutton.md), [CommandBar](commandbar.md), [Commanding sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlCommanding)

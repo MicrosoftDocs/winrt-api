@@ -30,7 +30,6 @@ These are the main types of app data:
 + Roaming: exists on all devices where the user has installed the app
 + Temporary: can be deleted by the system at any time
 
-
 ### Using application folders
 
 [LocalFolder](applicationdata_localfolder.md) persists across updates and gets backed up to the cloud as part of the device backup. Typically, this folder should be used for user data that would be lost if it were not backed up. Some examples of data stored in [LocalFolder](applicationdata_localfolder.md) are:
@@ -51,40 +50,6 @@ For more details on using these APIs, see [Store and retrieve settings and other
 
 ## -examples
 The following code example demonstrates how to read or write to an [ApplicationData](applicationdata.md) folder of your choice. This example uses the [LocalFolder](applicationdata_localfolder.md), but the code can be slightly modified to access the [LocalCacheFolder](applicationdata_localcachefolder.md), [RoamingFolder](applicationdata_roamingfolder.md), [SharedLocalFolder](applicationdata_sharedlocalfolder.md), or [TemporaryFolder](applicationdata_temporaryfolder.md) based on how your data should be stored. [SharedLocalFolder](applicationdata_sharedlocalfolder.md) has some restrictions and needs special permissions to access, for more information, see [SharedLocalFolder](applicationdata_sharedlocalfolder.md).
-
-```javascript
-// This example code can be used to read or write to an ApplicationData folder of your choice.
-
-var applicationData = Windows.Storage.ApplicationData.current;
-
-// Change this to var roamingFolder = applicationData.roamingFolder;
-// to use the RoamingFolder instead, for example.
-var localFolder = applicationData.localFolder;  
-
-// Write data to a file
-function writeTimestamp() {
-   localFolder.createFileAsync("dataFile.txt", Windows.Storage.CreationCollisionOption.replaceExisting)
-      .then(function (sampleFile) {
-         var formatter = new Windows.Globalization.DateTimeFormatting.DateTimeFormatter("longtime");
-         var timestamp = formatter.format(new Date());
-
-         return Windows.Storage.FileIO.writeTextAsync(sampleFile, timestamp);
-      }).done(function () {      
-      });
-}
-
-// Read data from a file
-function readTimestamp() {
-   localFolder.getFileAsync("dataFile.txt")
-      .then(function (sampleFile) {
-         return Windows.Storage.FileIO.readTextAsync(sampleFile);
-      }).done(function (timestamp) {
-         // Data is contained in timestamp
-      }, function () {
-         // Timestamp not found
-      });
-}
-```
 
 ```csharp
 // This example code can be used to read or write to an ApplicationData folder of your choice.
@@ -130,32 +95,62 @@ async Task ReadTimestamp()
 }
 ```
 
-```vb
-' This example code can be used to read or write to an ApplicationData folder of your choice.
+```cppwinrt
+#include <winrt/Windows.Globalization.h>
+#include <winrt/Windows.Globalization.DateTimeFormatting.h>
+#include <winrt/Windows.Storage.h>
 
-' Change this to Dim roamingFolder As Windows.Storage.StorageFolder = Windows.Storage.ApplicationData.Current.RoamingFolder
-' to use the RoamingFolder instead, for example.
-Dim localFolder As Windows.Storage.StorageFolder = Windows.Storage.ApplicationData.Current.LocalFolder
+using namespace winrt;
+using namespace Windows::Foundation;
+using namespace Windows::Storage;
+using namespace Windows::UI::Xaml;
 
-' Write data to a file
-Private Async Sub WriteTimestamp()
-   Dim formatter As DateTimeFormatter = New DateTimeFormatter("longtime")
+// This example code can be used to read or write to an ApplicationData folder of your choice.
 
-   Dim sampleFile As StorageFile = Await localFolder.CreateFileAsync("dataFile.txt", 
-       CreationCollisionOption.ReplaceExisting)
-   Await FileIO.WriteTextAsync(sampleFile, formatter.Format(DateTime.Now));
-End Sub
+// Change this to StorageFolder m_localFolder{ Windows::Storage::ApplicationData::Current().RoamingFolder() }; to 
+// use the RoamingFolder instead, for example.
+StorageFolder m_localFolder{ Windows::Storage::ApplicationData::Current().LocalFolder() };
 
-' Read data from a file
-Private Async Function ReadTimestamp() As Task
-   Try
-      Dim sampleFile As StorageFile = Await localFolder.GetFileAsync("dataFile.txt")
-      Dim timestamp As string = Await FileIO.ReadTextAsync(sampleFile)
-      ' Data is contained in timestamp
-   Catch e1 As Exception
-      ' Timestamp not found
-   End Try
-End Function
+// Write data to a file.
+IAsyncAction MainPage::WriteTimestampAsync()
+{
+    StorageFile sampleFile{ co_await m_localFolder.CreateFileAsync(L"dataFile.txt", CreationCollisionOption::ReplaceExisting) };
+    Windows::Globalization::Calendar calendar;
+    auto now = calendar.GetDateTime();
+    Windows::Globalization::DateTimeFormatting::DateTimeFormatter formatter{ L"longtime" };
+
+    try
+    {
+        co_await FileIO::WriteTextAsync(sampleFile, formatter.Format(now));
+    }
+    catch (winrt::hresult_error const& /* ex */)
+    {
+        // Timestamp not written.
+    }
+}
+
+// Read data from a file.
+IAsyncAction MainPage::ReadTimestampAsync()
+{
+    StorageFile file{ co_await m_localFolder.GetFileAsync(L"dataFile.txt") };
+
+    try
+    {
+        winrt::hstring timestamp{ co_await Windows::Storage::FileIO::ReadTextAsync(file) };
+    }
+    catch (winrt::hresult_error const& /* ex */)
+    {
+        // Timestamp not read.
+    }
+}
+
+IAsyncAction MainPage::ClickHandler(IInspectable const&, RoutedEventArgs const&)
+{
+    myButton().Content(box_value(L"Clicked"));
+
+    co_await WriteTimestampAsync();
+    co_await ReadTimestampAsync();
+}
 ```
 
 ```cpp
@@ -204,6 +199,68 @@ void MainPage::ReadTimestamp()
       }
    });
 }
+```
+
+```javascript
+// This example code can be used to read or write to an ApplicationData folder of your choice.
+
+var applicationData = Windows.Storage.ApplicationData.current;
+
+// Change this to var roamingFolder = applicationData.roamingFolder;
+// to use the RoamingFolder instead, for example.
+var localFolder = applicationData.localFolder;  
+
+// Write data to a file
+function writeTimestamp() {
+   localFolder.createFileAsync("dataFile.txt", Windows.Storage.CreationCollisionOption.replaceExisting)
+      .then(function (sampleFile) {
+         var formatter = new Windows.Globalization.DateTimeFormatting.DateTimeFormatter("longtime");
+         var timestamp = formatter.format(new Date());
+
+         return Windows.Storage.FileIO.writeTextAsync(sampleFile, timestamp);
+      }).done(function () {      
+      });
+}
+
+// Read data from a file
+function readTimestamp() {
+   localFolder.getFileAsync("dataFile.txt")
+      .then(function (sampleFile) {
+         return Windows.Storage.FileIO.readTextAsync(sampleFile);
+      }).done(function (timestamp) {
+         // Data is contained in timestamp
+      }, function () {
+         // Timestamp not found
+      });
+}
+```
+
+```vb
+' This example code can be used to read or write to an ApplicationData folder of your choice.
+
+' Change this to Dim roamingFolder As Windows.Storage.StorageFolder = Windows.Storage.ApplicationData.Current.RoamingFolder
+' to use the RoamingFolder instead, for example.
+Dim localFolder As Windows.Storage.StorageFolder = Windows.Storage.ApplicationData.Current.LocalFolder
+
+' Write data to a file
+Private Async Sub WriteTimestamp()
+   Dim formatter As DateTimeFormatter = New DateTimeFormatter("longtime")
+
+   Dim sampleFile As StorageFile = Await localFolder.CreateFileAsync("dataFile.txt", 
+       CreationCollisionOption.ReplaceExisting)
+   Await FileIO.WriteTextAsync(sampleFile, formatter.Format(DateTime.Now));
+End Sub
+
+' Read data from a file
+Private Async Function ReadTimestamp() As Task
+   Try
+      Dim sampleFile As StorageFile = Await localFolder.GetFileAsync("dataFile.txt")
+      Dim timestamp As string = Await FileIO.ReadTextAsync(sampleFile)
+      ' Data is contained in timestamp
+   Catch e1 As Exception
+      ' Timestamp not found
+   End Try
+End Function
 ```
 
 For more samples and information about reading and writing to a file, see [Create, write, and read a file](https://docs.microsoft.com/windows/uwp/files/quickstart-reading-and-writing-files).

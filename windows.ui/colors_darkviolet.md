@@ -10,10 +10,12 @@ public Windows.UI.Color DarkViolet { get; }
 # Windows.UI.Colors.DarkViolet
 
 ## -description
-Gets the color value that represents the DarkViolet named color.
+
+Gets the system-defined color that has an ARGB value of #FF9400D3.
 
 ## -property-value
-The color value that represents the DarkViolet named color.
+
+The system-defined color that has an ARGB value of #FF9400D3.
 
 ## -remarks
 

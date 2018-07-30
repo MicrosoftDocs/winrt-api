@@ -10,10 +10,12 @@ public Windows.UI.Color DodgerBlue { get; }
 # Windows.UI.Colors.DodgerBlue
 
 ## -description
-Gets the color value that represents the DodgerBlue named color.
+
+Gets the system-defined color that has an ARGB value of #FF1E90FF.
 
 ## -property-value
-The color value that represents the DodgerBlue named color.
+
+The system-defined color that has an ARGB value of #FF1E90FF.
 
 ## -remarks
 

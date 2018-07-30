@@ -10,10 +10,12 @@ public Windows.UI.Color DarkSalmon { get; }
 # Windows.UI.Colors.DarkSalmon
 
 ## -description
-Gets the color value that represents the DarkSalmon named color.
+
+Gets the system-defined color that has an ARGB value of #FFE9967A.
 
 ## -property-value
-The color value that represents the DarkSalmon named color.
+
+The system-defined color that has an ARGB value of #FFE9967A.
 
 ## -remarks
 

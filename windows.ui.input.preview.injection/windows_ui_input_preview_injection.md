@@ -8,7 +8,7 @@
 ## -description
 Provides support for programmatically generating and automating input from a variety of devices such as keyboard, mouse, touch, pen, and gamepad.
 
-> [!NOTE]
+> [!Important]
 > The APIs in this namespace require the inputInjectionBrokered [restricted capability](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities).
 
 ## -remarks
@@ -23,91 +23,125 @@ Using input injection requires the following be added to the Package.appxmanifes
 
 
 ## -examples
-Here, we show how to inject a single touch contact and corresponding pointer up input events.
+Here's an example of a touch input injection function.
+
+First, we call [TryCreate](https://docs.microsoft.com/uwp/api/windows.ui.input.preview.injection.inputinjector.trycreate) to instantiate the [InputInjector](https://docs.microsoft.com/uwp/api/windows.ui.input.preview.injection.inputinjector) object.
+
+Then, we call [InitializeTouchInjection](https://docs.microsoft.com/uwp/api/windows.ui.input.preview.injection.inputinjector.initializetouchinjection) with an [InjectedInputVisualizationMode](https://docs.microsoft.com/uwp/api/windows.ui.input.preview.injection.injectedinputvisualizationmode) of `Default`.
+
+After calculating the point of injection, we call [InjectedInputTouchInfo](https://docs.microsoft.com/uwp/api/windows.ui.input.preview.injection.injectedinputtouchinfo) to initialize the list of touch points to inject (for this example, we create one touch point corresponding to the mouse input pointer).
+
+Finally, we call [InjectTouchInput](https://docs.microsoft.com/uwp/api/windows.ui.input.preview.injection.inputinjector.injecttouchinput) twice, the first for a pointer down and the second for a pointer up.
 
 ```csharp
-private void InjectTouch_Button_Click(object sender, RoutedEventArgs e)
+/// <summary>
+/// Inject touch input on injection target corresponding 
+/// to mouse click on input target.
+/// </summary>
+/// <param name="pointerPoint">The mouse click pointer.</param>
+private void InjectTouchForMouse(PointerPoint pointerPoint)
 {
-    InputInjector inputInjector = InputInjector.TryCreate();
+    // Create the touch injection object.
+    _inputInjector = InputInjector.TryCreate();
 
-    if (inputInjector != null)
+    if (_inputInjector != null)
     {
-        try
-        {
-            inputInjector.InitializeTouchInjection(
-                InjectedInputVisualizationMode.Indirect);
+        _inputInjector.InitializeTouchInjection(
+            InjectedInputVisualizationMode.Default);
 
-            // Each element in the list represents a single contact.
-            // Multiple elements represent multiple contacts. 
-            inputInjector.InjectTouchInput(
-                new List<InjectedInputTouchInfo>
+        // Create a unique pointer ID for the injected touch pointer.
+        // Multiple input pointers would require more robust handling.
+        uint pointerId = pointerPoint.PointerId + 1;
+
+        // Get the bounding rectangle of the app window.
+        Rect appBounds =
+            Windows.UI.ViewManagement.ApplicationView.GetForCurrentView().VisibleBounds;
+
+        // Get the top left screen coordinates of the app window rect.
+        Point appBoundsTopLeft = new Point(appBounds.Left, appBounds.Top);
+
+        // Get a reference to the input injection area.
+        GeneralTransform injectArea =
+            ContainerInject.TransformToVisual(Window.Current.Content);
+
+        // Get the top left screen coordinates of the input injection area.
+        Point injectAreaTopLeft = injectArea.TransformPoint(new Point(0, 0));
+
+        // Get the screen coordinates (relative to the input area) 
+        // of the input pointer.
+        int pointerPointX = (int)pointerPoint.Position.X;
+        int pointerPointY = (int)pointerPoint.Position.Y;
+
+        // Create the point for input injection and calculate its screen location.
+        Point injectionPoint =
+            new Point(
+                appBoundsTopLeft.X + injectAreaTopLeft.X + pointerPointX,
+                appBoundsTopLeft.Y + injectAreaTopLeft.Y + pointerPointY);
+
+        // Create a touch data point for pointer down.
+        // Each element in the touch data list represents a single touch contact. 
+        // For this example, we're mirroring a single mouse pointer.
+        List<InjectedInputTouchInfo> touchData =
+            new List<InjectedInputTouchInfo>
             {
                 new InjectedInputTouchInfo
                 {
-                    Contact = new InjectedInputRectangle {
-                        Top = 50, Bottom = 50, Left = 40, Right = 40 },
-                    PointerInfo = new InjectedInputPointerInfo
-                    {
-                        // PerformanceCount default is 0.
-                        // This uses the current tick (or TimeOffsetInMS) in milliseconds. 
-                        // The first value passed in becomes a baseline or reference value 
-                        // and is treated as a zero time offset. Each subsequent value must 
-                        // be larger than the preceeding value. The difference is used
-                        // to calculate timed events such as double click events.
-                        //
-                        // Alternatively, the caller can pass in the value of
-                        // QueryPerformanceCounter into the PerformanceCount field.
-                        PixelLocation = new InjectedInputPoint
-                        {
-                            PositionX = 40, PositionY = 50
-                        },
-                        // PointerID is assigned to a pointer during it’s lifetime in contact with
-                        // a touch device. 
-                        // The scope of this ID is the InputInjector instance (between a
-                        // call to Initialize and the corresponding call to Uninitialize).
-                        PointerOptions = InjectedInputPointerOptions.InContact,
-                        PointerId = 1
-                    },
-                    Pressure = 1.0,
-                    TouchParameters = 
-                    InjectedInputTouchParameters.Pressure | 
-                    InjectedInputTouchParameters.Contact
-                }
-            });
-            // Copied from some test tool code...
-            System.Threading.Tasks.Task.Delay(100).Wait();
-
-            inputInjector.InjectTouchInput(
-                new List<InjectedInputTouchInfo> {
-                new InjectedInputTouchInfo {
                     Contact = new InjectedInputRectangle
                     {
-                        Top = 50,
-                        Bottom = 50,
-                        Left = 40,
-                        Right = 40
+                        Left = 30, Top = 30, Bottom = 30, Right = 30
                     },
-                    PointerInfo = new InjectedInputPointerInfo {
-                        PixelLocation = new InjectedInputPoint {
-                            PositionX = 40, PositionY = 50
-                        },
-                        PointerOptions = InjectedInputPointerOptions.PointerUp,
-                        PointerId = 1,
-                    },
-                    Pressure = 0.0,
-                    TouchParameters = 
-                    InjectedInputTouchParameters.Pressure | 
+                    PointerInfo = new InjectedInputPointerInfo
+                    {
+                        PointerId = pointerId,
+                        PointerOptions =
+                        InjectedInputPointerOptions.PointerDown |
+                        InjectedInputPointerOptions.InContact |
+                        InjectedInputPointerOptions.New,
+                        TimeOffsetInMilliseconds = 0,
+                        PixelLocation = new InjectedInputPoint
+                        {
+                            PositionX = (int)injectionPoint.X ,
+                            PositionY = (int)injectionPoint.Y
+                        }
+                },
+                Pressure = 1.0,
+                TouchParameters =
+                    InjectedInputTouchParameters.Pressure |
                     InjectedInputTouchParameters.Contact
-                }
-            });
-        }
-        catch (ArgumentException args)
+            }
+        };
+
+        // Inject the touch input. 
+        _inputInjector.InjectTouchInput(touchData);
+
+        // Create a touch data point for pointer up.
+        touchData = new List<InjectedInputTouchInfo>
         {
-            // Handle exception.
-        }
+            new InjectedInputTouchInfo
+            {
+                PointerInfo = new InjectedInputPointerInfo
+                {
+                    PointerId = pointerId,
+                    PointerOptions = InjectedInputPointerOptions.PointerUp
+                }
+            }
+        };
+
+        // Inject the touch input. 
+        _inputInjector.InjectTouchInput(touchData);
     }
 }
 ```
 
 ## -see-also
-[Windows.Devices.Input](../windows.devices.input/windows_devices_input.md), [Windows.UI.Core](../windows.ui.core/windows_ui_core.md), [Windows.UI.Input.Inking](../windows.ui.input.inking/windows_ui_input_inking.md), [Windows.UI.Xaml.Input](../windows.ui.xaml.input/windows_ui_xaml_input.md), [Input &amp; devices](https://developer.microsoft.com/windows/design/inputs-devices), [Interaction primer](https://msdn.microsoft.com/windows/uwp/input-and-devices/input-primer), [User interaction mode sample](http://go.microsoft.com/fwlink/p/?LinkID=619894), [Focus visuals sample](http://go.microsoft.com/fwlink/p/?LinkID=619895), [Input: Device capabilities sample](http://go.microsoft.com/fwlink/p/?linkid=231530), [Input: Ink sample](http://go.microsoft.com/fwlink/p/?linkid=231622), [Input: Manipulations and gestures (JavaScript) sample](http://go.microsoft.com/fwlink/p/?linkid=231638), [Input: Simplified ink  sample](http://go.microsoft.com/fwlink/p/?linkid=246570), [Input: Windows 8 gestures sample](http://go.microsoft.com/fwlink/p/?LinkId=264995), [Input: XAML user input events sample](http://go.microsoft.com/fwlink/p/?linkid=226855), [XAML scrolling, panning, and zooming sample](http://go.microsoft.com/fwlink/p/?linkid=251717), [DirectX touch input sample](http://go.microsoft.com/fwlink/p/?LinkID=231627), [Input: Manipulations and gestures (C++) sample](http://go.microsoft.com/fwlink/p/?linkid=231605), [Input: Touch hit testing sample](http://go.microsoft.com/fwlink/p/?linkid=231590), [Input source identification sample](http://go.microsoft.com/fwlink/p/?LinkID=267908), [Touch injection sample](http://go.microsoft.com/fwlink/p/?LinkID=267906), [Win32 touch hit-testing sample](http://go.microsoft.com/fwlink/p/?LinkID=267915)
+
+### Conceptual
+
+[Gaze interactions and eye tracking in UWP apps](https://docs.microsoft.com/windows/uwp/design/input/gaze-interactions)
+
+### Samples
+
+- [Simulate user input through input injection](https://review.docs.microsoft.com/windows/uwp/design/input/input-injection?branch=kbridge-inputinjection)
+- [Input injection sample (mouse to touch)](https://github.com/MicrosoftDocs/windows-topic-specific-samples/archive/uwp-input-injection-mouse-to-touch.zip)
+- [Touch injection sample](http://go.microsoft.com/fwlink/p/?LinkID=267906)
+- [Input: XAML user input events sample](http://go.microsoft.com/fwlink/p/?linkid=226855)

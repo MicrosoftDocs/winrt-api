@@ -10,10 +10,12 @@ public Windows.UI.Color Bisque { get; }
 # Windows.UI.Colors.Bisque
 
 ## -description
-Gets the color value that represents the Bisque named color.
+
+Gets the system-defined color that has an ARGB value of #FFFFE4C4.
 
 ## -property-value
-The color value that represents the Bisque named color.
+
+The system-defined color that has an ARGB value of #FFFFE4C4.
 
 ## -remarks
 

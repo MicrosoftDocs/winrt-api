@@ -10,10 +10,12 @@ public Windows.UI.Color LightCoral { get; }
 # Windows.UI.Colors.LightCoral
 
 ## -description
-Gets the color value that represents the LightCoral named color.
+
+Gets the system-defined color that has an ARGB value of #FFF08080.
 
 ## -property-value
-The color value that represents the LightCoral named color.
+
+The system-defined color that has an ARGB value of #FFF08080.
 
 ## -remarks
 

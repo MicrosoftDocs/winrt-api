@@ -10,9 +10,11 @@ public class StreamWebSocket : Windows.Foundation.IClosable, Windows.Networking.
 # Windows.Networking.Sockets.StreamWebSocket
 
 ## -description
+
 Supports network communication that allows reading and writing streams using a WebSocket.
 
 ## -remarks
+
 The [StreamWebSocket](streamwebsocket.md) class provides a stream-based abstraction of the message-based [WebSocket protocol](http://go.microsoft.com/fwlink/p/?linkid=240293). This is useful for scenarios in which large files (such as photos or movies) need to be transferred. Using [StreamWebSocket](streamwebsocket.md) allows sections of a message to be read with each read operation, rather than requiring the entire message to be read in a single operation (as with [MessageWebSocket](messagewebsocket.md)).
 
 [StreamWebSocket](streamwebsocket.md) only supports binary messages. For UTF-8 messages, [MessageWebSocket](messagewebsocket.md) must be used.
@@ -36,7 +38,9 @@ The Media Foundation feature can be enabled on Windows Server 2012 or Windows S
 ## -examples
 
 ## -see-also
+
 [WebSockets](/windows/uwp/networking/websockets?branch=live), [Handling exceptions in network apps](http://msdn.microsoft.com/library/76fafcc9-c674-4cf8-baa0-2400638fae35), [MessageWebSocket](messagewebsocket.md), [StreamWebSocketControl](streamwebsocketcontrol.md), [StreamWebSocketInformation](streamwebsocketinformation.md), [WebSocket sample](http://go.microsoft.com/fwlink/p/?LinkId=620623), [ControlChannelTrigger StreamWebSocket sample](http://go.microsoft.com/fwlink/p/?linkid=251232)
 
 ## -capabilities
+
 internetClient, privateNetworkClientServer

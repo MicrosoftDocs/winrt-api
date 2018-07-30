@@ -95,8 +95,8 @@ Notice that in the style for the [TextBox](../windows.ui.xaml.controls/textbox.m
       <Setter Property="VerticalAlignment" Value="Bottom"/>
     </Style>
 
-    <!--Create a Style for a TextBlock that specifies that
-              the Width is 200, Height is 20, Margin is 4,
+    <!--Create a Style for a TextBox that specifies that
+              the Width is 200, Height is 30, Margin is 4,
               Background is LightBlue, and FontSize is 14.-->
     <Style TargetType="TextBox" x:Key="TextBoxStyle">
       <Setter Property="Width" Value="200"/>

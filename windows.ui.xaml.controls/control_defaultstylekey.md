@@ -28,30 +28,36 @@ The return type of [DefaultStyleKey](control_defaultstylekey.md) is loosely type
 
 + For a control that has its logic written in C#, the value of [DefaultStyleKey](control_defaultstylekey.md) should be an instance of [System.Type](https://msdn.microsoft.com/library/system.type.aspx). Typically you set this value in the default constructor:
 
-    ```csharp
-    public CustomControl1()
-    {
-        this.DefaultStyleKey = typeof(CustomControl1);
-    }
-    ```
+```csharp
+public CustomControl1()
+{
+    this.DefaultStyleKey = typeof(CustomControl1);
+}
+```
 
 + For a control that has its logic written in Microsoft Visual Basic, the value of [DefaultStyleKey](control_defaultstylekey.md) should be an instance of [System.Type](https://msdn.microsoft.com/library/system.type.aspx). Typically you set this value in the default constructor:
 
-    ```vbnet
-    Public Sub New()
-        Me.DefaultStyleKey = GetType(CustomControl1)
-    End Sub
-    ```
+```vbnet
+Public Sub New()
+    Me.DefaultStyleKey = GetType(CustomControl1)
+End Sub
+```
 
+```cppwinrt
+CustomControl1::CustomControl1() // public: in the header.
+{
+	DefaultStyleKey(winrt::box_value(L"App1.CustomControl1"));
+}
+```
 
 + For a control that has its logic written in Visual C++ component extensions (C++/CX), the value of [DefaultStyleKey](control_defaultstylekey.md) should be a namespace-qualified string that is the name of the custom control class. Typically you set this value in the default constructor:
 
-    ```cpp
-    CustomControl1::CustomControl1() //public: in the header
-    {
-        DefaultStyleKey = "App1.CustomControl1";
-    }
-    ```
+```cpp
+CustomControl1::CustomControl1() //public: in the header
+{
+    DefaultStyleKey = "App1.CustomControl1";
+}
+```
 
 > [!NOTE]
 > Ultimately the string alone isn't enough to support a Visual C++ component extensions (C++/CX) type reference. If you use the **Add / New Item / Templated Control** options in Solution Explorer, the templates and support for Visual C++ component extensions (C++/CX) and XAML generates classes that give [IXamlMetadataProvider](../windows.ui.xaml.markup/ixamlmetadataprovider.md) info. The XAML compiler can access this code when the XAML is loaded, and uses it to validate and create types and members and join the partial classes. As far as what you define in your own app code, the string is all you need. But if you're curious you can have a look at the XamlTypeInfo.g.h and XamlTypeInfo.g.cpp files that are generated.

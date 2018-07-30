@@ -19,5 +19,9 @@ The [gaze pointer](gazepointpreview.md) data from the most recent [GazeExited](g
 
 ## -see-also
 
+### Conceptual
+
+[Gaze interactions and eye tracking in UWP apps](https://docs.microsoft.com/windows/uwp/design/input/gaze-interactions)
+
 ## -examples
 

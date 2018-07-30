@@ -23,5 +23,7 @@ Occurs when the currently selected item changes.
 
 ## -see-also
 
+[NavigationViewSelectionChangedEventArgs](navigationviewselectionchangedeventargs.md)
+
 ## -examples
 

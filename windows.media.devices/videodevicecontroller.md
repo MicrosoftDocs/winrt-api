@@ -10,10 +10,12 @@ public class VideoDeviceController : Windows.Media.Devices.IAdvancedVideoCapture
 # Windows.Media.Devices.VideoDeviceController
 
 ## -description
+
 Controls device settings on the camera.
 <!--Note: In the method descriptions, I took the units from the documentation for PROPSETID_VIDCAP_VIDEOPROCAMP and PROPSETID_VIDCAP_CAMERACONTROL. As far as I can tell, the WinRT layer does no conversion of the values.-->
 
 ## -remarks
+
 To get an instance of this object, retrieve the [MediaCapture.VideoDeviceController](../windows.media.capture/mediacapture_videodevicecontroller.md) property.
 
 Some drivers may require that the camera device preview to be in a running state before it can determine which controls are supported by the [VideoDeviceController](../windows.media.capture/mediacapture_videodevicecontroller.md). If you check whether a certain control is supported by the [VideoDeviceController](../windows.media.capture/mediacapture_videodevicecontroller.md) before the preview stream is running, the control may be described as unsupported even though it is supported by the video device.
@@ -24,3 +26,5 @@ Some drivers may require that the camera device preview to be in a running state
 ## -examples
 
 ## -see-also
+
+[Lamp device sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/LampDevice)

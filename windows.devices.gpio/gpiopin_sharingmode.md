@@ -20,7 +20,7 @@ The sharing mode in which the GPIO pin is open.
 ## -examples
 
 ## -see-also
-[GpioSharingMode](gpiosharingmode.md), [GpioController.OpenPin](gpiocontroller_openpin.md)
+[GpioSharingMode](gpiosharingmode.md), [GpioController.OpenPin](gpiocontroller_openpin_1000658948.md)
 
 ## -capabilities
-lowLevelDevices
+&lt;DeviceCapability name="lowLevel" /&gt;

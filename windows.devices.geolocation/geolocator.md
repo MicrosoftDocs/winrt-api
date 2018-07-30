@@ -10,11 +10,13 @@ public class Geolocator : Windows.Devices.Geolocation.IGeolocator, Windows.Devic
 # Windows.Devices.Geolocation.Geolocator
 
 ## -description
+
 Provides access to the current geographic location.
 
 ## -remarks
 
 ## -examples
+
 This example shows how to use the [Geolocator](geolocator.md) class to retrieve the device's location. For more info, see [Get current location](http://msdn.microsoft.com/library/24dc9a41-8cc1-48b0-bc6d-24bf571afcc8).
 
 ```csharp
@@ -52,11 +54,11 @@ switch (accessStatus)
 }
 ```
 
-
-
 ## -see-also
+
 [Get current location](http://msdn.microsoft.com/library/24dc9a41-8cc1-48b0-bc6d-24bf571afcc8), [geolocation sample](http://go.microsoft.com/fwlink/p/?linkid=533278), [Geotag sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620547)
 
 ## -capabilities
+
 location
 ID_CAP_LOCATION [Windows Phone]

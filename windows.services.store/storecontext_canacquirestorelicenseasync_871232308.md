@@ -26,6 +26,6 @@ The Store ID for an add-on is available in the Windows Dev Center dashboard, and
 > Downloadable content (DLC) add-on are not available to all developer accounts.
 
 ## -see-also
-[AcquireStoreLicenseForOptionalPackageAsync](acquirestorelicenseforoptionalpackageasync.md)
+[AcquireStoreLicenseForOptionalPackageAsync](storecontext_acquirestorelicenseforoptionalpackageasync_1044105908.md)
 
 ## -examples

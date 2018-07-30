@@ -10,10 +10,12 @@ public Windows.UI.Color Olive { get; }
 # Windows.UI.Colors.Olive
 
 ## -description
-Gets the color value that represents the Olive named color.
+
+Gets the system-defined color that has an ARGB value of #FF808000.
 
 ## -property-value
-The color value that represents the Olive named color.
+
+The system-defined color that has an ARGB value of #FF808000.
 
 ## -remarks
 

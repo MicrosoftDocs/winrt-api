@@ -10,7 +10,7 @@ public Windows.Foundation.IAsyncAction CancelAsync()
 # Windows.Media.SpeechRecognition.SpeechContinuousRecognitionSession.CancelAsync
 
 ## -description
-Asynchronously cancel the continuous speech recognition (dictation) session and discard all pending recognition results.
+Asynchronously cancel the continuous speech recognition session and discard all pending recognition results.
 
 ## -returns
 An asynchronous handler called when the operation is complete.

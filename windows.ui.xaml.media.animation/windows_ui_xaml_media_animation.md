@@ -6,6 +6,7 @@
 # Windows.UI.Xaml.Media.Animation
 
 ## -description
+
 Provides animation and storyboard API for transition animations, visual states, or animated UI components.
 
 ## -remarks
@@ -13,3 +14,5 @@ Provides animation and storyboard API for transition animations, visual states, 
 ## -examples
 
 ## -see-also
+
+[Master/detail sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlMasterDetail)

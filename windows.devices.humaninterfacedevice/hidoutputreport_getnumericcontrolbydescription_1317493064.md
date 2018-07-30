@@ -11,13 +11,17 @@ public Windows.Devices.HumanInterfaceDevice.HidNumericControl GetNumericControlB
 # Windows.Devices.HumanInterfaceDevice.HidOutputReport.GetNumericControlByDescription
 
 ## -description
+
 Retrieves the numeric control associated with the given *controlDescription*.
 
 ## -parameters
+
 ### -param controlDescription
+
 Describes the numeric control.
 
 ## -returns
+
 A **HidNumericControl** object.
 
 ## -remarks

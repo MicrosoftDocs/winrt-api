@@ -21,19 +21,15 @@ A list of [ChainValidationResult](../windows.security.cryptography.certificates/
 The following example demonstrates how to ignore the [ChainValidationResult.Untrusted](../windows.security.cryptography.certificates/chainvalidationresult.md) error when you are connecting to a server that uses a self-signed certificate. The code adds the appropriate value to the [IgnorableServerCertificateErrors](iwebsocketcontrol2_ignorableservercertificateerrors.md) list before calling [ConnectAsync](iwebsocket_connectasync.md) on the web socket. The server's self-signed certificate will not cause validation to fail, but other errors in validating the server certificate would still result in [ConnectAsync](iwebsocket_connectasync.md) failing.
 
 ```csharp
-            private async void CreateAndConnectWebSocket()
-            {
-                var myWebSocket = new MessageWebSocket();
-                myWebSocket.Information.IgnorableServerCertificateErrors.Add(ChainValidationResult.Untrusted);
-                
-                ...
-                
-                await myWebSocket.ConnectAsync(new Uri("wss://contoso.com/wsendpoint1"));
+private async void CreateAndConnectWebSocket()
+{
+    var myWebSocket = new MessageWebSocket();
+    myWebSocket.Control.IgnorableServerCertificateErrors.Add(ChainValidationResult.Untrusted);
 
-            }
+    // ...
 
+    await myWebSocket.ConnectAsync(new Uri("wss://contoso.com/wsendpoint1"));
+}
 ```
-
-
 
 ## -see-also

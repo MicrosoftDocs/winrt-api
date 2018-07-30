@@ -40,12 +40,15 @@ The value that is used in the binding target when the value of the source is **n
 
 There are two recommended patterns for using [TargetNullValue](binding_targetnullvalue.md) behavior in a [Binding](binding.md):
 + The binding source provides a separate value that is accessed by a different path, which acts as the singleton value that can substitute for any **null** value coming from a specific data item in the source. For example:
+
 ```xaml
 <Button Content="{Binding Path=NextItem, Mode=OneWay, TargetNullValue={Binding Path=NullValue}}"/>
 ```
 
  Here, `NullValue` is the path to the substitute value, and is referenced by another [Binding](binding.md).
-+ Use resources to provide a value that's specific to your app in cases where the data source provided **null** and has no suitable property in another path to use as the substitution value. For example, ```xaml
++ Use resources to provide a value that's specific to your app in cases where the data source provided **null** and has no suitable property in another path to use as the substitution value. For example:
+
+```xaml
 <Button Content="{Binding Path=NextItem, Mode=OneWay, TargetNullValue={StaticResource AppStringForNullInAStringABinding}}"/>
 ```
 

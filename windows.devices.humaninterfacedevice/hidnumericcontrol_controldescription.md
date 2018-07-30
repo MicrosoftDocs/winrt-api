@@ -11,9 +11,11 @@ public Windows.Devices.HumanInterfaceDevice.HidNumericControlDescription Control
 # Windows.Devices.HumanInterfaceDevice.HidNumericControl.ControlDescription
 
 ## -description
-Retrieves a control description for the given numeric control.
+
+Gets a control description for the given numeric control.
 
 ## -property-value
+
 A **HidNumericControlDescription** object.
 
 ## -remarks

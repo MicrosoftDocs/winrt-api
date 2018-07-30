@@ -10,10 +10,12 @@ public Windows.UI.Color Beige { get; }
 # Windows.UI.Colors.Beige
 
 ## -description
-Gets the color value that represents the Beige named color.
+
+Gets the system-defined color that has an ARGB value of #FFF5F5DC.
 
 ## -property-value
-The color value that represents the Beige named color.
+
+The system-defined color that has an ARGB value of #FFF5F5DC.
 
 ## -remarks
 

@@ -28,7 +28,6 @@ Call the [RemovePackageAsync(String)](packagemanager_removepackageasync_11242364
 [RemovePackageAsync(String)](packagemanager_removepackageasync_1124236459.md) returns an object that can be used to manage the asynchronous operation. Use the [Completed](../windows.foundation/iasyncoperationwithprogress_2_completed.md) property to set the [delegate](../windows.foundation/asyncoperationwithprogresscompletedhandler_2.md). Check the [Status](../windows.foundation/iasyncinfo_status.md) property to determine the status of the deployment operation. If the status is **Error**, the example calls the [GetResults](../windows.foundation/iasyncoperationwithprogress_2_getresults.md) method to get additional error information.
 
 ```csharp
-
 using Windows.Foundation;
 using Windows.Management.Deployment;
 
@@ -73,6 +72,57 @@ public static int Main(string[] args)
         Console.WriteLine("Removal status unknown");
     }
 
+    return returnValue;
+}
+```
+
+Also see [Visual Studio support for C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt#visual-studio-support-for-cwinrt-and-the-vsix).
+
+```cppwinrt
+// main.cpp : In Visual Studio, create a new Windows Console Application (C++/WinRT).
+#include "pch.h"
+
+#include <winrt/Windows.Foundation.h>
+#include <winrt/Windows.Management.Deployment.h>
+#include <iostream>
+
+using namespace winrt;
+using namespace Windows::Foundation;
+using namespace Windows::Management::Deployment;
+
+int wmain(int /* argc */, wchar_t *argv[], wchar_t * /* envp[] */)
+{
+    winrt::init_apartment();
+
+    int returnValue{ 0 };
+
+    std::wstring inputPackageFullName{ argv[1] };
+    PackageManager packageManager;
+
+    auto deploymentOperation{ packageManager.RemovePackageAsync(inputPackageFullName) };
+    deploymentOperation.get();
+
+    // Check the status of the operation
+    if (deploymentOperation.Status() == AsyncStatus::Error)
+    {
+        auto deploymentResult{ deploymentOperation.GetResults() };
+        std::wcout << L"Error code: " << deploymentOperation.ErrorCode() << std::endl;
+        std::wcout << L"Error text: " << deploymentResult.ErrorText().c_str() << std::endl;
+        returnValue = 1;
+    }
+    else if (deploymentOperation.Status() == AsyncStatus::Canceled)
+    {
+        std::wcout << L"Removal canceled" << std::endl;
+    }
+    else if (deploymentOperation.Status() == AsyncStatus::Completed)
+    {
+        std::wcout << L"Removal succeeded" << std::endl;
+    }
+    else
+    {
+        std::wcout << L"Removal status unknown" << std::endl;
+        returnValue = 1;
+    }
     return returnValue;
 }
 ```
@@ -132,8 +182,6 @@ int __cdecl main(Platform::Array<String^>^ args)
     return returnValue;
 }
 ```
-
-
 
 ## -see-also
 [RemovePackageAsync(String, RemovalOptions)](packagemanager_removepackageasync_1331217245.md)

@@ -15,6 +15,8 @@ Handles a dedicated data transfer channel within a remote session. This class ow
 ## -remarks
 Messages are sent and received over this channel asynchronously, so the chronological ordering of messages is not guaranteed.
 
+Messages are delivered through a hub and spoke model: any message that a client sends to a participant or a set of participants is internally sent to the host device first, which then sends it to the target participant or participants.
+
 ## -see-also
 
 ## -examples

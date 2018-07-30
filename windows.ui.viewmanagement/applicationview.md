@@ -10,12 +10,11 @@ public class ApplicationView : Windows.UI.ViewManagement.IApplicationView, Windo
 # Windows.UI.ViewManagement.ApplicationView
 
 ## -description
-<!-- @WRITER erictill 10/26/2011 : I think all of these ApplicationView* docs are just renames of the older ApplicationLayout docs. See your backup of deleted files for content. That one also has the comment that tells you who owns what in this namespace. -->
 
-<!--[DougE] That's correct. See Breaking Change: http://windows/windows8/RI/Lists/Breaking%20Changes/DispForm.aspx?ID=777&Source=http%3A%2F%2Fwindows%2Fwindows8%2FRI%2FLists%2FBreaking%2520Changes%2FTitles%2Easpx. The spec has also been updated.-->
 Represents the active application view and associated states and behaviors.
 
 ## -remarks
+
 A window (also called an **app view**) is the displayed portion of a Windows Runtime app. On Windows, a user's screen can have up to 4 windows of variable width displayed simultaneously. They do not overlap, and their top and bottom edges touch the top and bottom edges of the screen. There may be non-window areas between adjacent windows.
 
 The window is not the same thing as the current page of the application. It is better thought of as the container of the pages; you can use the window reference in your program for all the pages of the application.
@@ -32,4 +31,5 @@ To obtain an object of this type, call [ApplicationView.GetForCurrentView](appli
 ## -examples
 
 ## -see-also
+
 [Disabling screen capture sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=624047), [User interaction mode sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=619894), [Multiple views sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620574), [Full screen mode sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620546), [Window resizing sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620026), [Title bar sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620613)

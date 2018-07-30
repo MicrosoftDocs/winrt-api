@@ -10,10 +10,12 @@ public Windows.UI.Color DarkTurquoise { get; }
 # Windows.UI.Colors.DarkTurquoise
 
 ## -description
-Gets the color value that represents the DarkTurquoise named color.
+
+Gets the system-defined color that has an ARGB value of #FF00CED1.
 
 ## -property-value
-The color value that represents the DarkTurquoise named color.
+
+The system-defined color that has an ARGB value of #FF00CED1.
 
 ## -remarks
 

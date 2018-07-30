@@ -10,10 +10,12 @@ public Windows.UI.Color DarkGoldenrod { get; }
 # Windows.UI.Colors.DarkGoldenrod
 
 ## -description
-Gets the color value that represents the DarkGoldenrod named color.
+
+Gets the system-defined color that has an ARGB value of #FFB8860B.
 
 ## -property-value
-The color value that represents the DarkGoldenrod named color.
+
+The system-defined color that has an ARGB value of #FFB8860B.
 
 ## -remarks
 

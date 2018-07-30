@@ -23,8 +23,7 @@ Heading elements organize the user interface and make it easier to navigate. Som
 Examples of headings would be section titles within the Windows Settings app. For instance, under the **Ease of Access** -> **Mouse** page, **Pointer size**, **Pointer color**, and **Mouse keys** would be a heading of level 1.
 
 ## -see-also
-[AutomationHeadingLevel](automationheadinglevel.md)  
-[GetHeadingLevelCore](automationpeer_getheadinglevelcore_1105552106.md)
+[AutomationHeadingLevel](automationheadinglevel.md), [GetHeadingLevelCore](automationpeer_getheadinglevelcore_1105552106.md)
 
 ## -examples
 

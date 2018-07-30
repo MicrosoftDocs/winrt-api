@@ -10,10 +10,12 @@ public Windows.UI.Color DimGray { get; }
 # Windows.UI.Colors.DimGray
 
 ## -description
-Gets the color value that represents the DimGray named color.
+
+Gets the system-defined color that has an ARGB value of #FF696969.
 
 ## -property-value
-The color value that represents the DimGray named color.
+
+The system-defined color that has an ARGB value of #FF696969.
 
 ## -remarks
 

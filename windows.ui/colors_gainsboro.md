@@ -10,10 +10,12 @@ public Windows.UI.Color Gainsboro { get; }
 # Windows.UI.Colors.Gainsboro
 
 ## -description
-Gets the color value that represents the Gainsboro named color.
+
+Gets the system-defined color that has an ARGB value of #FFDCDCDC.
 
 ## -property-value
-The color value that represents the Gainsboro named color.
+
+The system-defined color that has an ARGB value of #FFDCDCDC.
 
 ## -remarks
 

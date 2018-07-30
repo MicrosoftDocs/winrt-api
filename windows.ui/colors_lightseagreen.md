@@ -10,10 +10,12 @@ public Windows.UI.Color LightSeaGreen { get; }
 # Windows.UI.Colors.LightSeaGreen
 
 ## -description
-Gets the color value that represents the LightSeaGreen named color.
+
+Gets the system-defined color that has an ARGB value of #FF20B2AA.
 
 ## -property-value
-The color value that represents the LightSeaGreen named color.
+
+The system-defined color that has an ARGB value of #FF20B2AA.
 
 ## -remarks
 

@@ -17,7 +17,6 @@ Gets or sets a value that indicates that rendered content should be cached as a 
 <uiElement CacheMode="BitmapCache" />
 ```
 
-
 ## -property-value
 A value that indicates that rendered content should be cached as a composited bitmap when possible. If you specify a value of [CacheMode](../windows.ui.xaml.media/cachemode.md), rendering operations from [RenderTransform](uielement_rendertransform.md) and [Opacity](uielement_opacity.md) execute on the graphics processing unit (GPU), if available. The default is **null**, which does not enable a cached composition mode.
 
@@ -31,15 +30,23 @@ For XAML, the string literal "BitmapCache" is the only enabled value you can use
 
 If setting [CacheMode](uielement_cachemode.md) in code, set it to a new value of [BitmapCache](../windows.ui.xaml.media/bitmapcache.md), like this:
 
+```xaml
+<Canvas x:Name="canvas1"/>
+```
+
 ```csharp
-canvas1.CacheMode = new BitmapCache(); //canvas1 is an existing named element in UI
+canvas1.CacheMode = new BitmapCache();
+```
+
+```cppwinrt
+#include <winrt/Windows.UI.Xaml.Media.h>
+...
+canvas1().CacheMode(Windows::UI::Xaml::Media::BitmapCache{});
 ```
 
 ```cpp
-canvas1->CacheMode = ref new BitmapCache(); //canvas1 is an existing named element in UI
+canvas1->CacheMode = ref new BitmapCache();
 ```
-
-
 
 Do not generally apply [CacheMode](uielement_cachemode.md) values to elements without testing and profiling first. Caching to the graphics processing unit (GPU) is intended only for a minority of possible rendering situations for an app, and it's expected that you will profile various combinations of when and where in your UI to apply a [CacheMode](uielement_cachemode.md) setting. Overuse of [CacheMode](uielement_cachemode.md) can hurt performance rather than help it. It’s best to profile the app surface area to determine which targeted areas are most expensive to render, and to experiment with caching only certain elements based on those results. For more info on how to profile for rendering, see [IsOverdrawHeatMapEnabled](debugsettings_isoverdrawheatmapenabled.md) and "Cache static content" section of the [Optimize your XAML markup](http://msdn.microsoft.com/library/569e8c27-fa01-41d8-80b9-1e3e637d5b99) topic.
 

@@ -11,9 +11,11 @@ public uint UsagePage { get; }
 # Windows.Devices.HumanInterfaceDevice.HidCollection.UsagePage
 
 ## -description
-Retrieves the usage page for the given control collection.
+
+Gets the usage page for the given control collection.
 
 ## -property-value
+
 The usage page.
 
 ## -remarks

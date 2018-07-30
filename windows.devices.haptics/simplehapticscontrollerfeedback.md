@@ -10,11 +10,13 @@ public class SimpleHapticsControllerFeedback
 # Windows.Devices.Haptics.SimpleHapticsControllerFeedback
 
 ## -description
+
 Provides access to the feedback behaviors supported by the haptic input device.
 
 ## -remarks
 
 ## -see-also
 
-## -examples
+[Spatial interaction source sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SpatialInteractionSource)
 
+## -examples

@@ -10,10 +10,12 @@ public Windows.UI.Color Navy { get; }
 # Windows.UI.Colors.Navy
 
 ## -description
-Gets the color value that represents the Navy named color.
+
+Gets the system-defined color that has an ARGB value of #FF000080.
 
 ## -property-value
-The color value that represents the Navy named color.
+
+The system-defined color that has an ARGB value of #FF000080.
 
 ## -remarks
 

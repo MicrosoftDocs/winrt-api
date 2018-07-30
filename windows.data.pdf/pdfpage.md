@@ -10,6 +10,7 @@ public class PdfPage : Windows.Data.Pdf.IPdfPage, Windows.Foundation.IClosable
 # Windows.Data.Pdf.PdfPage
 
 ## -description
+
 Represents a single page in a Portable Document Format (PDF) document.
 
 ## -remarks
@@ -17,4 +18,5 @@ Represents a single page in a Portable Document Format (PDF) document.
 ## -examples
 
 ## -see-also
+
 [IClosable](../windows.foundation/iclosable.md), [PDF document sample (Windows 10)](http://go.microsoft.com/fwlink/?LinkID=703785)

@@ -10,10 +10,12 @@ public Windows.UI.Color LemonChiffon { get; }
 # Windows.UI.Colors.LemonChiffon
 
 ## -description
-Gets the color value that represents the LemonChiffon named color.
+
+Gets the system-defined color that has an ARGB value of #FFFFFACD.
 
 ## -property-value
-The color value that represents the LemonChiffon named color.
+
+The system-defined color that has an ARGB value of #FFFFFACD.
 
 ## -remarks
 

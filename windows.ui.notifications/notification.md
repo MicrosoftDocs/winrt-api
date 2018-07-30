@@ -10,6 +10,7 @@ public class Notification : Windows.UI.Notifications.INotification
 # Windows.UI.Notifications.Notification
 
 ## -description
+
 Represents a notification.
 
 ## -remarks
@@ -17,3 +18,5 @@ Represents a notification.
 ## -examples
 
 ## -see-also
+
+[Notifications sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Notifications)

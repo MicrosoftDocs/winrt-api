@@ -10,10 +10,12 @@ public Windows.UI.Color PapayaWhip { get; }
 # Windows.UI.Colors.PapayaWhip
 
 ## -description
-Gets the color value that represents the PapayaWhip named color.
+
+Gets the system-defined color that has an ARGB value of #FFFFEFD5.
 
 ## -property-value
-The color value that represents the PapayaWhip named color.
+
+The system-defined color that has an ARGB value of #FFFFEFD5.
 
 ## -remarks
 

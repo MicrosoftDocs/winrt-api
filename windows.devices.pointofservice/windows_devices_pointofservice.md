@@ -6,6 +6,7 @@
 # Windows.Devices.PointOfService
 
 ## -description
+
 Enables application developers to access Point of Service (POS) peripheral devices. The namespace provides a vendor-neutral interface for accessing POS devices from various manufacturers from the UWP app.
 
 <hr>
@@ -32,9 +33,11 @@ Enables application developers to access Point of Service (POS) peripheral devic
 </table>
 
 ## -remarks
+
 Applications which require this namespace require the addition of the “pointOfService” [DeviceCapability](https://msdn.microsoft.com/en-us/library/windows/apps/4353c4fd-f038-4986-81ed-d2ec0c6235ef) to the app package manifest.
 
 ## -examples
 
 ## -see-also
+
 [Cash drawer sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620015), [Magnetic stripe reader sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620017), [POS printer sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620018), [Barcode scanner sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620014)

@@ -10,10 +10,10 @@ public class LoggingActivity : Windows.Foundation.Diagnostics.ILoggingActivity, 
 # Windows.Foundation.Diagnostics.LoggingActivity
 
 ## -description
+
 Creates Event Tracing for Windows (ETW) events that mark the start and end of a group of related events.
 
 ## -remarks
-
 
 > **Windows 10**
 > The **LoggingActivity** class has been extended in the following ways:+ Now implements [ILoggingTarget](iloggingtarget.md) which provides activity start and stop methods that provide control over the format and contents of the Start and Stop events.
@@ -24,4 +24,5 @@ Every **LoggingActivity** object is attached to a [LoggingChannel](loggingchanne
 ## -examples
 
 ## -see-also
+
 [IClosable](../windows.foundation/iclosable.md), [LoggingChannel](loggingchannel.md), [ILoggingTarget](iloggingtarget.md), [Logging sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620565)

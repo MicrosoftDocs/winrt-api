@@ -10,9 +10,11 @@ public class VisualState : Windows.UI.Xaml.DependencyObject, Windows.UI.Xaml.IVi
 # Windows.UI.Xaml.VisualState
 
 ## -description
+
 Represents the visual appearance of a UI element when it is in a specific state. Visual states use [Setters](visualstate_setters.md) or a [Storyboard](visualstate_storyboard.md) to set UI properties within pages or control templates where the [VisualState](visualstate.md) is defined.
 
 ## -xaml-syntax
+
 ```xaml
 <VisualState x:Name="stateName" />
 -or-
@@ -38,11 +40,9 @@ Represents the visual appearance of a UI element when it is in a specific state.
 </VisualState>
 ```
 
-
 ## -remarks
+
 A [VisualState](visualstate.md) element must always be contained within a [VisualStateGroup](visualstategroup.md) parent in the XAML markup. The [VisualStateGroup](visualstategroup.md) has an implicit collection property [States](visualstategroup_states.md), so you can put each [VisualState](visualstate.md) as an immediate child element of the [VisualStateGroup](visualstategroup.md) parent. For example:
-
-
 
 ```xaml
 
@@ -85,9 +85,8 @@ When you use an IDE such as Microsoft Visual Studio, the actions that you use to
 If you are defining a custom control that has visual states in its control template XAML, it's a best practice to attribute the control class to indicate to control consumers which visual states are available. To do this, apply one or more [TemplateVisualState](templatevisualstateattribute.md) attributes at the class level of your control definition code. Each attribute should specify the state's [x:Name attribute](http://msdn.microsoft.com/library/4ff1f3ed-903a-4305-b2bd-dcd29e0c9e6d), which is the *stateName* value a control consumer would pass in a [GoToState](visualstatemanager_gotostate.md) call to use that visual state. If the [VisualState](visualstate.md) is part of a [VisualStateGroup](visualstategroup.md), that should also be indicated in your attribute values.
 
 ## -examples
+
 This example creates a [VisualStateGroup](visualstategroup.md) in the [ControlTemplate](../windows.ui.xaml.controls/controltemplate.md) of a [Button](../windows.ui.xaml.controls/button.md) called "CommonStates" and adds [VisualState](visualstate.md) objects for the states, "Normal", "Pressed", and "PointerOver". The [Button](../windows.ui.xaml.controls/button.md) also defines a state called "Disabled" that is in the "CommonStates" named [VisualStateGroup](visualstategroup.md), but the example omits it for brevity.
-
-
 
 [!code-xml[VisualStates](../windows.ui.xaml.data/code/StylingTemplatingOverview/csharp/ButtonStages.xaml#SnippetVisualStates)]
 
@@ -115,8 +114,6 @@ This example creates a [VisualStateGroup](visualstategroup.md) in the [ControlTe
 
 ```
 
-
-
-
 ## -see-also
+
 [DependencyObject](dependencyobject.md), [VisualStateGroup](visualstategroup.md), [Storyboarded animations for visual states](http://msdn.microsoft.com/library/5e715281-d247-4e7f-9f88-2af0d88ed5e4), [Storyboarded animations](http://msdn.microsoft.com/library/0cbceea0-2b0e-44a1-a09a-f7a939632f3a), [x:Name attribute](http://msdn.microsoft.com/library/4ff1f3ed-903a-4305-b2bd-dcd29e0c9e6d), [Quickstart: Control templates](http://msdn.microsoft.com/library/67c424ae-afb1-4560-a6a8-4a3506775d77), [XAML control and app styling sample](http://go.microsoft.com/fwlink/p/?LinkID=258670), [Master/detail sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=619901)

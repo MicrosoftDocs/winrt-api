@@ -19,7 +19,6 @@ The time at which the channel expires. Notifications sent to this channel after 
 To prevent a channel from expiring, apps should request a new push notification channel every time that the app is run.
 
 An expired channel behaves as though it was closed. Because channels cannot be renewed, after a channel expires, a secondary tile or application must request a new push notification channel.
-<!-- @WRITER erictill 6/24/2011 :createPushNotificationChannelForApplicationAsync -->
 
 ## -examples
 

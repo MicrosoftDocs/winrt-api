@@ -51,6 +51,34 @@ StorageFolder newFolder =
     await localFolder.CreateFolderAsync(desiredName, CreationCollisionOption.FailIfExists);
 ```
 
+```cppwinrt
+IAsyncAction MainPage::ExampleCoroutineAsync()
+{
+    // Get the app's local folder.
+    Windows::Storage::StorageFolder localFolder{ Windows::Storage::ApplicationData::Current().LocalFolder() };
+
+    // Create a new subfolder in the current folder.
+    // Throw an exception if it already exists.
+    std::wstring desiredName{ L"Subfolder" };
+    Windows::Storage::StorageFolder folder{ co_await localFolder.CreateFolderAsync(desiredName, Windows::Storage::CreationCollisionOption::FailIfExists) };
+
+    // Do something with folder.
+}
+```
+
+```cpp
+ //Get app's local folder
+ StorageFolder^ localFolder = Windows::Storage::ApplicationData::Current->LocalFolder;
+ 
+ // Create a new subfolder in the current folder
+ // Raise an exception if it already exists
+ String^ desiredName = "Subfolder";
+ create_task(localFolder->CreateFolderAsync(desiredName,Windows::Storage::CreationCollisionOption::FailIfExists)).then([](StorageFolder^ folder)
+ {
+    //Do something with folder
+ });
+```
+
 ```javascript
 // Get the app's local folder.
 var localFolder = Windows.Storage.ApplicationData.current.localFolder;
@@ -67,21 +95,6 @@ newFolderPromise.done(function createFolderSuccess(newFolder) {
     // Subfolder creation fails if the folder already exists. 
 });
 ```
-
-```cpp
- //Get apps local folder
- StorageFolder^ localFolder = Windows::Storage::ApplicationData::Current->LocalFolder;
- 
- // Create a new subfolder in the current folder
- // Raise an exception if it already exists
- String^ desiredName = "Subfolder";
- create_task(localFolder->CreateFolderAsync(desiredName,Windows::Storage::CreationCollisionOption::FailIfExists)).then([](StorageFolder^ folder)
- {
-    //Do something with folder
- });
-```
-
-
 
 ## -see-also
 [CreateFolderAsync(String, CreationCollisionOption)](storagefolder_createfolderasync_1043039832.md)

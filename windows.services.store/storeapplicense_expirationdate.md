@@ -16,6 +16,7 @@ Gets the expiration date and time for the app license.
 The expiration date and time for the app license, relative to the system clock.
 
 ## -remarks
+For usage-limited trials, the expiration date is December 31, 9999. Usage-limited trials are currently available only to some developer accounts in Xbox managed partner programs.
 
 ## -examples
 

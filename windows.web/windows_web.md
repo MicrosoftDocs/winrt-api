@@ -6,6 +6,7 @@
 # Windows.Web
 
 ## -description
+
 Provides information on errors resulting from web service operations.
 
 ## -remarks
@@ -13,3 +14,5 @@ Provides information on errors resulting from web service operations.
 ## -examples
 
 ## -see-also
+
+[WebView control (XAML) sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlWebView)

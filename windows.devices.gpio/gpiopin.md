@@ -13,7 +13,7 @@ public class GpioPin : Windows.Devices.Gpio.IGpioPin, Windows.Foundation.IClosab
 Represents a general-purpose I/O (GPIO) pin.
 
 ## -remarks
-To get a [GpioPin](gpiopin.md) object, use the [GpioController.OpenPin](gpiocontroller_openpin.md) or [GpioController.TryOpenPin](gpiocontroller_tryopenpin.md) method.
+To get a [GpioPin](gpiopin.md) object, use the [GpioController.OpenPin](gpiocontroller_openpin_1000658948.md) or [GpioController.TryOpenPin](gpiocontroller_tryopenpin_619900994.md) method.
 
 ## -examples
 

@@ -10,10 +10,12 @@ public Windows.UI.Color Goldenrod { get; }
 # Windows.UI.Colors.Goldenrod
 
 ## -description
-Gets the color value that represents the Goldenrod named color.
+
+Gets the system-defined color that has an ARGB value of #FFDAA520.
 
 ## -property-value
-The color value that represents the Goldenrod named color.
+
+The system-defined color that has an ARGB value of #FFDAA520.
 
 ## -remarks
 

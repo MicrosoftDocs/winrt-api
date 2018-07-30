@@ -11,9 +11,11 @@ public uint UsageId { get; }
 # Windows.Devices.HumanInterfaceDevice.HidCollection.UsageId
 
 ## -description
-Retrieves the usage identifier for the given control collection.
+
+Gets the usage identifier for the given control collection.
 
 ## -property-value
+
 The usage identifier.
 
 ## -remarks

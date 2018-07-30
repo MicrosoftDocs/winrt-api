@@ -22,8 +22,8 @@ Opens the GPIO pin as shared, so that other connections in **SharedReadOnly** mo
 You can only perform operations that do not change the state of the GPIO pin in shared mode. Operations that you can perform on the GPIO pin in shared mode include:
 
 
-+ Calling the [GpioPin.Read](gpiopin_read.md) method.
-+ Calling the [GpioPin.GetDriveMode](gpiopin_getdrivemode.md) method.
++ Calling the [GpioPin.Read](gpiopin_read_431746835.md) method.
++ Calling the [GpioPin.GetDriveMode](gpiopin_getdrivemode_1456675415.md) method.
 + Getting the values of properties, such as [GpioPin.PinNumber](gpiopin_pinnumber.md) and [GpioPin.DebounceTimeout](gpiopin_debouncetimeout.md).
 + Registering an event handler for the [GpioPin.ValueChanged](gpiopin_valuechanged.md) event.
 
@@ -34,4 +34,4 @@ You can only perform operations that do not change the state of the GPIO pin in 
 ## -examples
 
 ## -see-also
-[GpioController.OpenPin(Int32, GpioSharingMode)](gpiocontroller_openpin_1242230438.md), [GpioController.TryOpenPin](gpiocontroller_tryopenpin.md)
+[GpioController.OpenPin(Int32, GpioSharingMode)](gpiocontroller_openpin_1242230438.md), [GpioController.TryOpenPin](gpiocontroller_tryopenpin_619900994.md)

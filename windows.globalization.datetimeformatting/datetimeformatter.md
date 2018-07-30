@@ -10,9 +10,11 @@ public class DateTimeFormatter : Windows.Globalization.DateTimeFormatting.IDateT
 # Windows.Globalization.DateTimeFormatting.DateTimeFormatter
 
 ## -description
+
 Formats dates and times.
 
 ## -remarks
+
 > [!NOTE]
 > If your app passes language tags used in this class to any [National Language Support](http://msdn.microsoft.com/library/7a548074-0782-45e1-8051-80c3b9d81885) functions, it must first convert the tags by calling [ResolveLocaleName](http://msdn.microsoft.com/library/99264b22-3fb5-47e2-b0b9-42a6768e67c1).
 
@@ -105,7 +107,6 @@ The following table shows sample output from formatters created with various val
 + **integer(2)** for the fifth day of the month (for example) is "05", while **integer(1)** produces "5". **integer** produces the best **n** for a given language/calendar combination.
 + For years, **full** produces all digits ("2013"). **abbreviated** is synonymous with **abbreviated(2)**, which is the 2-digit year for the gregorian calendar ("13"). (Other calendars may eventually use something else as the default; we have kept **abbreviated** to have the semantics of the best for a given language/calendar combination.) **abbreviated(n)** is truncated to the least significant **n** digits (for example, 2013 with **n** =1 is "3").
 
-
 The following table shows sample output from formatters created with various values of pattern, language, and clock.
 
 <table>
@@ -120,6 +121,7 @@ The following table shows sample output from formatters created with various val
 </table>
 
 ## -examples
+
 Use the [DateTimeFormatter](datetimeformatter.md) class to format a date.
 
 ```javascript
@@ -329,7 +331,6 @@ var mydate = formatter.Format(dateToFormat);
 
 ```
 
-
-
 ## -see-also
+
 [Date and time formatting sample](http://go.microsoft.com/fwlink/p/?LinkId=231618), [Date and time formatting sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=624044)

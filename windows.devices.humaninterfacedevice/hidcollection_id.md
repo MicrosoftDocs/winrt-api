@@ -11,9 +11,11 @@ public uint Id { get; }
 # Windows.Devices.HumanInterfaceDevice.HidCollection.Id
 
 ## -description
-Retrieves the identifier for a collection of HID controls.
+
+Gets the identifier for a collection of HID controls.
 
 ## -property-value
+
 The collection identifier.
 
 ## -remarks

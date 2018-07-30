@@ -43,4 +43,3 @@ Here's the rectangle after it's been pressed twice.
 
 ## -see-also
 [Transform](transform.md), [XAML two-dimensional transforms sample](http://go.microsoft.com/fwlink/p/?linkid=238580)
- transforms sample](http://go.microsoft.com/fwlink/p/?linkid=238580)

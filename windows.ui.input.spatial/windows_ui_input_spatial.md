@@ -6,6 +6,7 @@
 # Windows.UI.Input.Spatial
 
 ## -description
+
 Contains classes that let apps react naturally to your gaze, hand gestures, motion controllers and voice in the world around you.
 
 ## -remarks
@@ -13,3 +14,5 @@ Contains classes that let apps react naturally to your gaze, hand gestures, moti
 ## -examples
 
 ## -see-also
+
+[Spatial interaction source sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SpatialInteractionSource)

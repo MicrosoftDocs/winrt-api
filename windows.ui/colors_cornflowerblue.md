@@ -10,10 +10,12 @@ public Windows.UI.Color CornflowerBlue { get; }
 # Windows.UI.Colors.CornflowerBlue
 
 ## -description
-Gets the color value that represents the CornflowerBlue named color.
+
+Gets the system-defined color that has an ARGB value of #FF6495ED.
 
 ## -property-value
-The color value that represents the CornflowerBlue named color.
+
+The system-defined color that has an ARGB value of #FF6495ED.
 
 ## -remarks
 

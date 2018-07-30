@@ -48,45 +48,16 @@ launcherOptions.ContentType = "application/vnd.ms-word.document.12";
 Launcher.LaunchUriAsync("http://www.cloud.com/file.docx", options);
 ```
 
-
-
 When the launch fails for any of the above reasons, the API will succeed and return FALSE from its asynchronous operation.
 
 To enable the user to choose an app instead of launching the default app, set the [LauncherOptions.DisplayApplicationPicker | displayApplicationPicker](launcheroptions_displayapplicationpicker.md) property.
 
 To display a warning that the URI is potentially unsafe, set the [LauncherOptions.TreatAsUntrusted | treatAsUntrusted](launcheroptions_treatasuntrusted.md) property.
 
-
-
 The URI is passed to the associated app. If the associated app is a desktop app, the URI is passed using shell execution mechanisms.
 
 ## -examples
 This sample uses [LaunchUriAsync(Uri, LauncherOptions) | launchUriAsync(Uri, LauncherOptions)](launcher_launchuriasync_68890748.md) to launch a URI with a warning. The [TreatAsUntrusted | treatAsUntrusted](launcheroptions_treatasuntrusted.md) property indicates that the system should display a warning.
-
-> [!NOTE]
-> For Windows app using JavaScript, call [preventDefault](https://msdn.microsoft.com/en-us/library/ff975967(v=vs.85).aspx) in your event handler if the [treatAsUntrusted](launcheroptions_treatasuntrusted.md) property is set and you are using an [a](https://msdn.microsoft.com/en-us/library/ms535173(v=vs.85).aspx) element to launch the URI.
-
-```javascript
-
-// The URI to launch
-var uriToLaunch = "http://www.bing.com";
-
-// Create a Uri object from a URI string 
-var uri = new Windows.Foundation.Uri(uriToLaunch);
-
-// Launch the URI with a warning prompt
-var options = new Windows.System.LauncherOptions();
-options.treatAsUntrusted = true;
-
-Windows.System.Launcher.launchUriAsync(uri, options).then(
-   function (success) {
-      if (success) {
-         // URI launched
-      } else {
-         // URI launch failed
-      }
-   });
-```
 
 ```csharp
 // The URI to launch
@@ -113,26 +84,26 @@ async void DefaultLaunch()
 }
 ```
 
-```vbnet
-' The URI to launch
-Dim uri As New Uri("http://www.bing.com")
+```cppwinrt
+// The URI to launch.
+Windows::Foundation::Uri m_uri{ L"http://www.bing.com" };
 
-async Sub DefaultLaunch()
+Windows::Foundation::IAsyncAction MainPage::DefaultLaunch()
+{
+    // Set the option to show a warning
+    Windows::System::LauncherOptions launcherOptions;
+    launcherOptions.TreatAsUntrusted(true);
 
-   ' Set the option to show a warning
-   Dim options = Windows.System.LauncherOptions()
-   options.TreatAsUntrusted = True
-
-   ' Launch the URI with a warning prompt
-   Dim success = await Windows.System.Launcher.LaunchUriAsync(uri, options)
-
-   If success Then
-      ' URI launched
-   Else
-      ' URI launch failed
-   End If
-
-End Sub
+    // Launch the URI.
+    if (co_await Windows::System::Launcher::LaunchUriAsync(m_uri, launcherOptions))
+    {
+        // URI launched.
+    }
+    else
+    {
+        // URI launch failed.
+    }
+}
 ```
 
 ```cpp
@@ -161,7 +132,51 @@ void MainPage::DefaultLaunch()
 }
 ```
 
+> [!NOTE]
+> For Windows app using JavaScript, call [preventDefault](https://msdn.microsoft.com/en-us/library/ff975967(v=vs.85).aspx) in your event handler if the [treatAsUntrusted](launcheroptions_treatasuntrusted.md) property is set and you are using an [a](https://msdn.microsoft.com/en-us/library/ms535173(v=vs.85).aspx) element to launch the URI.
 
+```javascript
+// The URI to launch
+var uriToLaunch = "http://www.bing.com";
+
+// Create a Uri object from a URI string 
+var uri = new Windows.Foundation.Uri(uriToLaunch);
+
+// Launch the URI with a warning prompt
+var options = new Windows.System.LauncherOptions();
+options.treatAsUntrusted = true;
+
+Windows.System.Launcher.launchUriAsync(uri, options).then(
+   function (success) {
+      if (success) {
+         // URI launched
+      } else {
+         // URI launch failed
+      }
+   });
+```
+
+```vbnet
+' The URI to launch
+Dim uri As New Uri("http://www.bing.com")
+
+async Sub DefaultLaunch()
+
+   ' Set the option to show a warning
+   Dim options = Windows.System.LauncherOptions()
+   options.TreatAsUntrusted = True
+
+   ' Launch the URI with a warning prompt
+   Dim success = await Windows.System.Launcher.LaunchUriAsync(uri, options)
+
+   If success Then
+      ' URI launched
+   Else
+      ' URI launch failed
+   End If
+
+End Sub
+```
 
 ## -see-also
 [LaunchUriAsync(Uri)](launcher_launchuriasync_53691900.md), [LaunchUriAsync(Uri, LauncherOptions, ValueSet)](launcher_launchuriasync_569877360.md), [Association launching sample](http://go.microsoft.com/fwlink/p/?linkid=231484), [Guidelines for file types and URIs](http://msdn.microsoft.com/library/a6653b8f-763f-4d67-9d12-6af73a673bc5), [How to launch the default app for a URI (JavaScript)](http://msdn.microsoft.com/library/0f9fa8db-3e51-4cf8-879d-2b79a8ddbb7d), [Launch the default app for a URI](http://msdn.microsoft.com/library/7b0d0af5-d89e-4db0-9b79-90201d79974f)

@@ -12,7 +12,6 @@ public event Windows.Foundation.TypedEventHandler Starting<Windows.UI.Input.Edge
 
 ## -description
 Fires when a user begins an action to summon or dismiss edge-based UI.
-<!-- @WRITER erictill 7/24/2011 : Swipe begins. This must be followed by completed or canceled. Touch only. -->
 
 ## -remarks
 This event occurs only with a touch interaction. A keyboard invocation of edge-based UI does not include this event. The [Starting](edgegesture_starting.md) event is always followed by either a [Completed](edgegesture_completed.md) or a [Canceled](edgegesture_canceled.md) event.

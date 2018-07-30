@@ -10,10 +10,12 @@ public Windows.UI.Color LightYellow { get; }
 # Windows.UI.Colors.LightYellow
 
 ## -description
-Gets the color value that represents the LightYellow named color.
+
+Gets the system-defined color that has an ARGB value of #FFFFFFE0.
 
 ## -property-value
-The color value that represents the LightYellow named color.
+
+The system-defined color that has an ARGB value of #FFFFFFE0.
 
 ## -remarks
 

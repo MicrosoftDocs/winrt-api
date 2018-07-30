@@ -10,6 +10,7 @@ public class CommunicationBlockingAppSetAsActiveTrigger : Windows.ApplicationMod
 # Windows.ApplicationModel.Background.CommunicationBlockingAppSetAsActiveTrigger
 
 ## -description
+
 Represents a trigger to activate a communication blocking application when it is selected as the preferred blocking app.
 
 A user can have multiple communication blocking applications installed at one time. This trigger is used to let an application know that it has been selected as the active communication blocking application. For more information about the communication blocking API, see [Windows.ApplicationModel.CommunicationBlocking](../windows.applicationmodel.communicationblocking/windows_applicationmodel_communicationblocking.md).
@@ -19,4 +20,5 @@ A user can have multiple communication blocking applications installed at one ti
 ## -examples
 
 ## -see-also
+
 [IBackgroundTrigger](ibackgroundtrigger.md), [Communication blocking and filtering sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=624164)

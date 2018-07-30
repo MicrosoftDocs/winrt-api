@@ -11,6 +11,7 @@ public class TextPredictionGenerator : Windows.Data.Text.ITextPredictionGenerato
 # Windows.Data.Text.TextPredictionGenerator
 
 ## -description
+
 Predicts Japanese words based on a phonetic characters prefix.
 
 ## -remarks
@@ -18,3 +19,5 @@ Predicts Japanese words based on a phonetic characters prefix.
 ## -examples
 
 ## -see-also
+
+[Text suggestions sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/TextSuggestion)

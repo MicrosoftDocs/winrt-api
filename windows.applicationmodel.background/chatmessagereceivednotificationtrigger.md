@@ -10,6 +10,7 @@ public class ChatMessageReceivedNotificationTrigger : Windows.ApplicationModel.B
 # Windows.ApplicationModel.Background.ChatMessageReceivedNotificationTrigger
 
 ## -description
+
 Represents a trigger that launches a background task that handles any incoming message that might need to be filtered according to its content. For more information about filtering messages, see [Windows.ApplicationModel.CommunicationBlocking](../windows.applicationmodel.communicationblocking/windows_applicationmodel_communicationblocking.md).
 
 ## -remarks
@@ -17,4 +18,5 @@ Represents a trigger that launches a background task that handles any incoming m
 ## -examples
 
 ## -see-also
+
 [IBackgroundTrigger](ibackgroundtrigger.md), [Communication blocking and filtering sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=624164)

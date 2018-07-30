@@ -11,9 +11,11 @@ public ushort UsagePage { get; }
 # Windows.Devices.HumanInterfaceDevice.HidBooleanControlDescription.UsagePage
 
 ## -description
-Retrieves the usage page associated with the given Boolean control.
+
+Gets the usage page associated with the given Boolean control.
 
 ## -property-value
+
 The usage page.
 
 ## -remarks

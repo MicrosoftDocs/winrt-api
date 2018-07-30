@@ -6,6 +6,7 @@
 # Windows.Media.Streaming.Adaptive
 
 ## -description
+
 Provides the ability to playback multimedia content that is delivered using various adaptive streaming protocols. You can playback Http Live Streaming (HLS) or Dynamic Adaptive Streaming over HTTP (DASH) content.
 
 ## -remarks
@@ -19,6 +20,7 @@ In addition to basic playback, this namespace provides for the control of these 
 + Ability to get events when the bit rate has changed.
 + Ability to determine if playback is live.
 + Ability to set the starting offset for live playback.
+
 All other functionality typically required by multimedia apps, such as playback controls, stream selection, and so on, are performed on the media element after you bind the [AdaptiveMediaSource](adaptivemediasource.md) object to that media element.
 
 For how-to guidance for using adaptive streaming in your app, see [Adaptive streaming](https://msdn.microsoft.com/en-us/windows/uwp/audio-video-camera/adaptive-streaming).
@@ -26,4 +28,5 @@ For how-to guidance for using adaptive streaming in your app, see [Adaptive stre
 ## -examples
 
 ## -see-also
-[Adaptive streaming sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620479), [Adaptive streaming](https://msdn.microsoft.com/en-us/windows/uwp/audio-video-camera/adaptive-streaming)
+
+[Adaptive streaming sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620479), [Adaptive streaming](https://msdn.microsoft.com/en-us/windows/uwp/audio-video-camera/adaptive-streaming), [PlayReady sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/PlayReady)

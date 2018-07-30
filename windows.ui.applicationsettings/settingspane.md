@@ -11,7 +11,7 @@ public class SettingsPane : Windows.UI.ApplicationSettings.ISettingsPane
 
 ## -description
 > [!NOTE]
-> [SettingsPane](settingspane.md) may be altered or unavailable for releases after Windows 10. Instead of using a [SettingsPane](settingspane.md), integrate settings options into the app experience. For more info, see [Guidelines for app settings](http://msdn.microsoft.com/library/2d765e90-3fa0-42f5-a5cb-bedc14c3f60a).
+> [SettingsPane](settingspane.md) is deprecated, and might not work on all versions of Windows 10. Instead of using a [SettingsPane](settingspane.md), integrate settings options into the app experience. For more info, see [Guidelines for app settings](http://msdn.microsoft.com/library/2d765e90-3fa0-42f5-a5cb-bedc14c3f60a).
 
 A static class that enables the app to control the Settings Charm pane. The app can add or remove commands, receive a notification when the user opens the pane, or open the pane programmatically.
 

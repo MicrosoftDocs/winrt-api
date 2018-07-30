@@ -6,6 +6,7 @@
 # Windows.Security.Cryptography.Certificates
 
 ## -description
+
 Contains types that you can use to create certificate requests and install certificate responses.
 
 ## -remarks
@@ -13,3 +14,5 @@ Contains types that you can use to create certificate requests and install certi
 ## -examples
 
 ## -see-also
+
+[UserCertificateStore sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/UserCertificateStore)

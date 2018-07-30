@@ -10,10 +10,12 @@ public Windows.UI.Color LavenderBlush { get; }
 # Windows.UI.Colors.LavenderBlush
 
 ## -description
-Gets the color value that represents the LavenderBlush named color.
+
+Gets the system-defined color that has an ARGB value of #FFFFF0F5.
 
 ## -property-value
-The color value that represents the LavenderBlush named color.
+
+The system-defined color that has an ARGB value of #FFFFF0F5.
 
 ## -remarks
 

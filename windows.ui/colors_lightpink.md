@@ -10,10 +10,12 @@ public Windows.UI.Color LightPink { get; }
 # Windows.UI.Colors.LightPink
 
 ## -description
-Gets the color value that represents the LightPink named color.
+
+Gets the system-defined color that has an ARGB value of #FFFFB6C1.
 
 ## -property-value
-The color value that represents the LightPink named color.
+
+The system-defined color that has an ARGB value of #FFFFB6C1.
 
 ## -remarks
 

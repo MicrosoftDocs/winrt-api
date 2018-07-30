@@ -11,9 +11,11 @@ public ushort Id { get; }
 # Windows.Devices.HumanInterfaceDevice.HidInputReport.Id
 
 ## -description
-Retrieves the identifier associated with a given input report.
+
+Gets the identifier associated with a given input report.
 
 ## -property-value
+
 The input report identifier.
 
 ## -remarks
@@ -21,3 +23,7 @@ The input report identifier.
 ## -examples
 
 ## -see-also
+
+### Samples
+
+[Custom HID device sample](https://github.com/Microsoft/Windows-universal-samples/tree/6370138b150ca8a34ff86de376ab6408c5587f5d/Samples/CustomHidDeviceAccess)

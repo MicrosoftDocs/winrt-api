@@ -6,6 +6,7 @@
 # Windows.ApplicationModel.UserDataAccounts
 
 ## -description
+
 Contains user data account information needed to access email, appointments, calendars, and so on.
 
 ## -remarks
@@ -13,3 +14,5 @@ Contains user data account information needed to access email, appointments, cal
 ## -examples
 
 ## -see-also
+
+[UserDataAccountManager sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/UserDataAccountManager)

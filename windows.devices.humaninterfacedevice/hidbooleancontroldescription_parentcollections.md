@@ -11,9 +11,11 @@ public Windows.Foundation.Collections.IVectorView<Windows.Devices.HumanInterface
 # Windows.Devices.HumanInterfaceDevice.HidBooleanControlDescription.ParentCollections
 
 ## -description
-Retrieves the parent collection for a given Boolean control.
+
+Gets the parent collection for a given Boolean control.
 
 ## -property-value
+
 The control's parent collection.
 
 ## -remarks

@@ -10,7 +10,7 @@ public enum Windows.Devices.Gpio.GpioOpenStatus : int
 # GpioOpenStatus
 
 ## -description
-Describes the possible results of opening a pin with the [GpioPin.TryOpenPin](gpiocontroller_tryopenpin.md) method.
+Describes the possible results of opening a pin with the [GpioController.TryOpenPin](gpiocontroller_tryopenpin_619900994.md) method.
 
 ## -enum-fields
 ### -field PinOpened:0
@@ -39,5 +39,5 @@ The pin could not be opened.
 ## -examples
 
 ## -see-also
-[GpioController.TryOpenPin](gpiocontroller_tryopenpin.md), [GpioSharingMode](gpiosharingmode.md)
+[GpioController.TryOpenPin](gpiocontroller_tryopenpin_619900994.md), [GpioSharingMode](gpiosharingmode.md)
 

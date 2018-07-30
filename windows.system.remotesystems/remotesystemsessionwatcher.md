@@ -18,6 +18,12 @@ This class is instantiated when the [RemoteSystemSession.CreateWatcher](RemoteSy
 > [!IMPORTANT]
 > You must confirm access to the remote system platform with a call to **[RemoteSystem.RequestAccessAsync](remotesystem_requestaccessasync_380675631.md)** before you instantiate this class.
 
+> [!IMPORTANT]
+> The following conditions must be met in order for remote session discovery to work as intended:
+> 1. Bluetooth must be turned on for both the client and host devices. Session discovery may work via LAN discovery, but it isn’t guaranteed (it depends on the network configuration).
+> 2. In the Settings app on the host device, the **Share across devices** setting under **System -> Shared Experiences** must be set to "Everyone nearby".
+> 3. Client and host apps must have the same PackageFamilyName.
+
 ## -see-also
 
 ## -examples

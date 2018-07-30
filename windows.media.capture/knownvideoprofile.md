@@ -28,6 +28,20 @@ The profile provides hints to the driver to optimize for VoIP scenarios, priorit
 ### -field PhotoSequence:4
 The profile provides hints to the driver to optimize for capturing photo sequences.
 
+### -field HdrWithWcgPhoto:8
+The profile provides hints to the driver to optimize for High Dynamic Range (HDR) with Wide Color Gamut (WCG) photo.
+
+### -field HdrWithWcgVideo:7
+The profile provides hints to the driver to optimize for High Dynamic Range (HDR) with Wide Color Gamut (WCG) video.
+
+### -field HighFrameRate:5
+The profile provides hints to the driver to optimize for high frame rate video capture.
+
+### -field VariablePhotoSequence:6
+The profile provides hints to the driver to optimize for capturing variable photo sequences.
+
+### -field VideoHdr8:9
+The profile provides hints to the driver to optimize for High Dynamic Range (HDR) video.
 
 ## -remarks
 Use [FindKnownVideoProfiles](mediacapture_findknownvideoprofiles.md) to retrieve the list of known profiles that are supported for a specified video device.

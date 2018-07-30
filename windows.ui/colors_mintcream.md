@@ -10,10 +10,12 @@ public Windows.UI.Color MintCream { get; }
 # Windows.UI.Colors.MintCream
 
 ## -description
-Gets the color value that represents the MintCream named color.
+
+Gets the system-defined color that has an ARGB value of #FFF5FFFA.
 
 ## -property-value
-The color value that represents the MintCream named color.
+
+The system-defined color that has an ARGB value of #FFF5FFFA.
 
 ## -remarks
 

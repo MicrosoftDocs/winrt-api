@@ -10,17 +10,19 @@ public class MenuFlyoutSubItem : Windows.UI.Xaml.Controls.MenuFlyoutItemBase, Wi
 # Windows.UI.Xaml.Controls.MenuFlyoutSubItem
 
 ## -description
+
 Represents a menu item that displays a sub-menu in a [MenuFlyout](menuflyout.md) control.
 
 ## -xaml-syntax
+
 ```xaml
 <MenuFlyoutSubItem>
   oneOrMoreItems
 </MenuFlyoutSubItem>
 ```
 
-
 ## -remarks
+
 ### Control style and template
 
 You can modify the default [Style](../windows.ui.xaml/style.md) and [ControlTemplate](controltemplate.md) to give the control a unique appearance. For information about modifying a control's style and template, see [Styling controls](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/styling-controls). The default style, template, and resources that define the look of the control are included in the generic.xaml file. For design purposes, generic.xaml is available in the \(Program Files)\Windows Kits\10\DesignTime\CommonConfiguration\Neutral\UAP\&lt;SDK version&gt;\Generic folder from a Windows Software Development Kit (SDK) installation. Styles and resources from different versions of the SDK might have different values.
@@ -49,4 +51,5 @@ This table shows the resources used by the [MenuFlyoutSubItem](menuflyoutsubitem
 ## -examples
 
 ## -see-also
-[MenuFlyoutItemBase](menuflyoutitembase.md), [MenuFlyoutSubItem styles and templates](http://msdn.microsoft.com/library/781816dd-3ece-4e4e-8f7a-114053bbf5d9)
+
+[MenuFlyoutItemBase](menuflyoutitembase.md), [MenuFlyoutSubItem styles and templates](http://msdn.microsoft.com/library/781816dd-3ece-4e4e-8f7a-114053bbf5d9), [Context menu (XAML) sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlContextMenu)

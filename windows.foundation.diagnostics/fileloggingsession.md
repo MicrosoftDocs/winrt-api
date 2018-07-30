@@ -10,9 +10,11 @@ public class FileLoggingSession : Windows.Foundation.Diagnostics.IFileLoggingSes
 # Windows.Foundation.Diagnostics.FileLoggingSession
 
 ## -description
+
 Represents the destination of logged messages from [LoggingChannel](loggingchannel.md) instances.
 
 ## -remarks
+
 Use the [FileLoggingSession](fileloggingsession.md) class to log messages and data to a file continuously as your app runs. You can view the log files by using the Windows Performance Toolkit (WPT) and other utilities like tracerpt.exe.
 
 Add [LoggingChannel](loggingchannel.md) instances to a [FileLoggingSession](fileloggingsession.md), and call [FileLoggingSession](fileloggingsession.md) instance methods to remove channels, dispose, and perform other operations. The number of channels is not currently limited.
@@ -22,7 +24,7 @@ Add [LoggingChannel](loggingchannel.md) instances to a [FileLoggingSession](file
 
 The [FileLoggingSession](fileloggingsession.md) class sends logged messages to disk files as they are logged. The [FileLoggingSession](fileloggingsession.md) class uses sequential logging, which means that all messages are sent to a disk file, and a sequential history of messages is retained. This is distinct from the [LoggingSession](loggingsession.md) class, which sends logged messages to disk on-demand, i.e. when the app detects a problem and saves the in-memory messages for analysis.
 
-Use the [FileLoggingSession](fileloggingsession.md) class when you know that all messages need to be saved, usually over a long period of time, and when the app can't be burdened with on-demand saving steps. Like the[LoggingSession](loggingsession.md) class, [LoggingChannel](loggingchannel.md) instances are added to a [FileLoggingSession](fileloggingsession.md) instance, and the [FileLoggingSession](fileloggingsession.md) instance has methods to remove channels and dispose. [FileLoggingSession](fileloggingsession.md) instances are initialized with a delegate to a new file callback, which notifies the app when a log file rollover has occurred. The feature invokes the delegate when the current internal log file has reached capacity and a new file is being created for continued sequential logging. The delegate callback can also be called at suspend boundaries, or when the [FileLoggingSession](fileloggingsession.md) is disposed.
+Use the [FileLoggingSession](fileloggingsession.md) class when you know that all messages need to be saved, usually over a long period of time, and when the app can't be burdened with on-demand saving steps. Like the [LoggingSession](loggingsession.md) class, [LoggingChannel](loggingchannel.md) instances are added to a [FileLoggingSession](fileloggingsession.md) instance, and the [FileLoggingSession](fileloggingsession.md) instance has methods to remove channels and dispose. [FileLoggingSession](fileloggingsession.md) instances are initialized with a delegate to a new file callback, which notifies the app when a log file rollover has occurred. The feature invokes the delegate when the current internal log file has reached capacity and a new file is being created for continued sequential logging. The delegate callback can also be called at suspend boundaries, or when the [FileLoggingSession](fileloggingsession.md) is disposed.
 
 When the [LogFileGenerated](fileloggingsession_logfilegenerated.md) event is invoked, the app receives an [StorageFile](../windows.storage/storagefile.md) that represents the now-closed log file. The app can forward the log file for processing in an application-defined way. After this, the session continues logging to a newly created and now-open current log file. When this log file reaches capacity, the callback delegate is invoked again for the new file, and the process repeats.
 
@@ -43,4 +45,5 @@ Before a log file is provided to an app via the [LogFileGenerated](fileloggingse
 ## -examples
 
 ## -see-also
+
 [LoggingChannel](loggingchannel.md), [IFileLoggingSession](ifileloggingsession.md), [IClosable](../windows.foundation/iclosable.md), [Logging sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620565)

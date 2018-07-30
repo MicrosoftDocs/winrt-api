@@ -12,14 +12,11 @@ public bool Cancel { get;  set; }
 ## -description
 Gets or sets whether focus navigation should be canceled.
 
-For Windows 10 Spring Creators Update (introduced v10.0.16299.0)
-Windows 10 Spring Creators Update,or Windows 10 version 1803
-
 ## -property-value
 **true** if focus navigation should be canceled. Otherwise, **false**.
 
 ## -remarks
-Apps that target the Windows 10 Spring Creators Update (version 1803) or later should use [TryCancel](gettingfocuseventargs_trycancel_50138317.md) instead of this property. If your app also supports previous versions, see [Version adaptive apps: Use new APIs while maintaining compatibility with previous versions](https://docs.microsoft.com/windows/uwp/debug-test-perf/version-adaptive-apps) for more info.
+Apps that target Windows 10, version 1803 or later should use [TryCancel](gettingfocuseventargs_trycancel_50138317.md) instead of this property. If your app also supports previous versions, see [Version adaptive apps: Use new APIs while maintaining compatibility with previous versions](https://docs.microsoft.com/windows/uwp/debug-test-perf/version-adaptive-apps) for more info.
 
 ## -see-also
 [Focus navigation for keyboard, gamepad, remote control, and accessibility tools](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation), [Programmatic focus navigation](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation-programmatic)

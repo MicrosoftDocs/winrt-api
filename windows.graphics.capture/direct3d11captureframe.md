@@ -17,5 +17,6 @@ A frame captured by the application.
 
 ## -see-also
 
-## -examples
+[Screen capture](https://docs.microsoft.com/windows/uwp/audio-video-camera/screen-capture)
 
+## -examples

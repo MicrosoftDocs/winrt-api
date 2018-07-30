@@ -10,13 +10,14 @@ public class MediaElement : Windows.UI.Xaml.FrameworkElement, Windows.UI.Xaml.Co
 # Windows.UI.Xaml.Controls.MediaElement
 
 ## -description
+
 Represents an object that renders audio and video to the display. See Remarks.
 
 ## -xaml-syntax
+
 ```xaml
 <MediaElement .../>
 ```
-
 
 ## -remarks
 
@@ -54,8 +55,6 @@ mediaElement1.AutoPlay = false;
 // Add the MediaElement to the page.
 rootGrid.Children.Add(mediaElement1);
 ```
-
-
 
 ### Handle media events
 
@@ -126,8 +125,6 @@ async private System.Threading.Tasks.Task SetLocalMedia()
 
 ```
 
-
-
 ### Select audio tracks in different languages
 
 Use the [AudioStreamIndex](mediaelement_audiostreamindex.md) property and the [GetAudioStreamLanguage](mediaelement_getaudiostreamlanguage.md) method to change the audio to a different language track on a video. Videos can also contain multiple audio tracks in the same language, such as director commentaries on films. This example specifically shows how to switch between different languages, but you can modify this code to switch between any audio tracks.
@@ -168,8 +165,6 @@ private bool SetAudioLanguage(string lcid, MediaElement media)
 }
 
 ```
-
-
 
 ### Full window playback
 
@@ -226,8 +221,6 @@ private void MediaElement_CurrentStateChanged(object sender, RoutedEventArgs e)
 }
 ```
 
-
-
 ### Poster source
 
 You can use the [PosterSource](mediaelement_postersource.md) property to provide your [MediaElement](mediaelement.md) with a visual representation before the media is loaded. A [PosterSource](mediaelement_postersource.md) is an image, such as a screen shot or movie poster, that is displayed in place of the media. The [PosterSource](mediaelement_postersource.md) is displayed in the following situations:
@@ -236,10 +229,10 @@ You can use the [PosterSource](mediaelement_postersource.md) property to provide
 + When media is streaming to another device.
 + When the media is audio only.
 
-
 ### Notes for previous versions
 
 ### Windows 8.1
+
 On Windows Phone, you can only have one [MediaElement](mediaelement.md) at a time.
 
 To let audio continue to play when your app is in the background, set the [AudioCategory](mediaelement_audiocategory.md) property to **BackgroundCapableMedia**. This also requires declaring the "Audio" background task capability in the app manifest. These values are deprecated in Windows 10.
@@ -257,13 +250,10 @@ Prior to Windows 8.1, the [AreTransportControlsEnabled](mediaelement_aretranspo
 Windows Phone 8.x app must use [PickSingleFileAndContinue](../windows.storage.pickers/fileopenpicker_picksinglefileandcontinue.md) to open local media files.
 
 ## -examples
+
 This code creates a [MediaElement](mediaelement.md) with the [AutoPlay](mediaelement_autoplay.md) property explicitly set to **true** and the [Source](mediaelement_source.md) set to the path of a video file that is included in the app.
 
-
-
 [!code-xml[MediaPlayer_SimpleXamlMediaElement](../windows.ui.xaml/code/MediaPlayerQuickStart/csharp/BasicSnippets.xaml#SnippetMediaPlayer_SimpleXamlMediaElement)]
-
-
 
 [!code-xml[BasicMediaElementControls](../windows.ui.xaml.controls/code/MediaPlayback2/csharp/MainPage.xaml#SnippetBasicMediaElementControls)]
 
@@ -328,8 +318,7 @@ private void ShowPopupClicked(object sender, RoutedEventArgs e)
 }
 ```
 
-
-
 ## -see-also
+
 [Control](control.md), [MediaElement control guide](http://msdn.microsoft.com/library/af2f2008-9b53-430c-bbc3-8888f631b0b0), [Create custom transport controls](http://msdn.microsoft.com/library/6643a108-a6eb-42bc-b800-22eabd7b731b), [Media transport controls sample](http://go.microsoft.com/fwlink/p/?LinkId=620023&amp;amp;clcid=0x409), [Video playback sample](http://go.microsoft.com/fwlink/p/?LinkId=620020&amp;amp;clcid=0x409), [Real-time communication sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620600)
-e](http://go.microsoft.com/fwlink/p/?LinkId=620023&amp;amp;clcid=0x409), [Video playback sample](http://go.microsoft.com/fwlink/p/?LinkId=620020&amp;amp;clcid=0x409), [Real-time communication sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620600)
+e](http://go.microsoft.com/fwlink/p/?LinkId=620023&amp;amp;clcid=0x409), [Video playback sample](http://go.microsoft.com/fwlink/p/?LinkId=620020&amp;amp;clcid=0x409), [Real-time communication sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620600), [Version adaptive code sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/VersionAdaptiveCode)

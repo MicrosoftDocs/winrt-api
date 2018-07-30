@@ -17,18 +17,14 @@ Represents the package version info.
 ### -field Major
 The major version number of the package.
     
-
 ### -field Minor
 The minor version number of the package.
-    
 
 ### -field Build
 The build version number of the package.
-    
 
 ### -field Revision
 The revision version number of the package.
-    
 
 ## -remarks
 
@@ -42,7 +38,6 @@ var version = packageId.version;
 ```
 
 ```csharp
-
 using Windows.ApplicationModel;
 
 Package package = Package.Current;
@@ -56,13 +51,17 @@ Dim packageId As Windows.ApplicationModel.PackageId = package.Id
 Dim version As Windows.ApplicationModel.PackageVersion = packageId.Version
 ```
 
+```cppwinrt
+Windows::ApplicationModel::Package package{ Windows::ApplicationModel::Package::Current() };
+Windows::ApplicationModel::PackageId packageId{ package.Id() };
+Windows::ApplicationModel::PackageVersion version{ packageId.Version() };
+```
+
 ```cpp
 Windows::ApplicationModel::Package^ package = Windows::ApplicationModel::Package::Current;
 Windows::ApplicationModel::PackageId^ packageId = package->Id;
 Windows::ApplicationModel::PackageVersion version = packageId->Version;
 ```
-
-
 
 ## -see-also
 [PackageId.Version](packageid_version.md)

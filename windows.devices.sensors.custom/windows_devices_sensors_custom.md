@@ -6,9 +6,12 @@
 # Windows.Devices.Sensors.Custom
 
 ## -description
+
 Provides access to a custom sensor and its related data.
 
+
 ## -remarks
+
 This namespace enables hardware manufactures to expose sensors that don’t have first class representations like [Accelerometer](../windows.devices.sensors/accelerometer.md). This namespace provides access to the [CustomSensor](customsensor.md) class to represent sensors without a first class representation. Additionally, this namespace will extend the first class representation with a value collection to expose custom values.
 
 ### Custom sensors
@@ -22,3 +25,6 @@ This namespace adds a list property of key/value pairs to each one of the native
 ## -examples
 
 ## -see-also
+
+[Custom sensors sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/CustomSensors)
+

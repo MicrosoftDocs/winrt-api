@@ -6,9 +6,11 @@
 # Windows.Web.Http.Filters
 
 ## -description
+
 Provides classes to send HTTP requests and an interface to create filters to target HTTP and REST services in UWP app.
 
 ## -remarks
+
 The [Windows.Web.Http](../windows.web.http/windows_web_http.md) namespace and the related [Windows.Web.Http.Headers](../windows.web.http.headers/windows_web_http_headers.md) and [Windows.Web.Http.Filters](windows_web_http_filters.md) namespaces provides an HTTP programming interface for UWP app that want to connect to HTTP services. The HTTP API provides consistent support in JavaScript, C#, VB.NET, and C++ for developers. The API also supports adding custom filters on requests and responses. Filters can simplify handling more complex network issues. The API also lets an app control read and write caching behavior.
 
 Classes in the [Windows.Web.Http](../windows.web.http/windows_web_http.md) namespace support the use of filters based on the classes in the [Windows.Web.Http.Filters](windows_web_http_filters.md) namespace. Classes in the [Windows.Web.Http.Filters](windows_web_http_filters.md) namespace also let an app control read and write caching behavior on the client. The [HttpCacheDirectiveHeaderValueCollection](../windows.web.http.headers/httpcachedirectiveheadervaluecollection.md) in the [Windows.Web.Http.Headers](../windows.web.http.headers/windows_web_http_headers.md) provides a collection container for instances of the cache directives in **Cache-Control** HTTP header on HTTP content associated with an HTTP request or response. The **Cache-Control** header lets an app have more control over caching behavior.
@@ -23,27 +25,22 @@ This approach allows a filter to be only responsible for a specific aspect of an
 
 Many apps that use HTTP for network access often need to respond to a variety of conditions. Some common examples include:
 
-
 + Network retry (with back-off).
 + Adapting to metered networks (when a network connection is roaming, for example).
 + Authentication to social network sites.
 + Logging and telemetry.
 
-
 It’s not hard to handle any of these network issues by themselves. This becomes a complex problem when several of these issues are combined. Support for custom filters in the [Windows.Web.Http.Filters](windows_web_http_filters.md) namespace enables developers to create modular code for simple filters. A series of simple filters can be linked into a chain of filters to handle complex combinations of issues. The developer chooses everything about the filter chain:
+
 + The filters to add.
 + The order to place them in the filter chain.
 
-
 [HttpClient](../windows.web.http/httpclient.md) is the main class used to send and receive requests over HTTP. [HttpBaseProtocolFilter](httpbaseprotocolfilter.md) is what [HttpClient](../windows.web.http/httpclient.md) uses to send and receive data. So [HttpBaseProtocolFilter](httpbaseprotocolfilter.md) is typically the bottom of any custom filter chain. [HttpBaseProtocolFilter](httpbaseprotocolfilter.md) can also be used to control caching and other behavior of the HTTP connection. Each [HttpClient](../windows.web.http/httpclient.md) instance can have a different filter chain or pipeline.
-
 
 <!--The following image is the identical same file being used in the m_dev_guide project  that is handling the artwork and localization of this file. -->
 <img src="../images/HTTP_Filters.png" alt="Drawing of an HTTP filter chain" />
 
 To write a custom filter, an app implements a custom version of the [IHttpFilter](ihttpfilter.md) interface. The code to implement the filter behavior is in the [IHttpFilter.SendRequestAsync](ihttpfilter_sendrequestasync.md) method. Filters can be written in C#/VB.NET or C++. Filters can be called and used from any language supported for UWP app including JavaScript.
-
-
 
 The sample code shows a filter to add a custom header to HTTP requests and responses.
 
@@ -81,8 +78,6 @@ public class PlugInFilter : IHttpFilter {
 
 To use a filter, an app uses the [HttpClient(IHttpFilter)](../windows.web.http/httpclient_httpclient_782807480.md) constructor passing the interface of the filter to use for the [HttpClient](../windows.web.http/httpclient.md) instance. To set up the filter chain, the new filter is linked to a previous filter and to [HttpBaseProtocolFilter](httpbaseprotocolfilter.md) at the bottom.
 
-
-
 The sample code shows creating an [HttpClient](../windows.web.http/httpclient.md) to use a custom filter.
 
 ```csharp
@@ -106,9 +101,8 @@ internal static void CreateHttpClient(ref HttpClient httpClient)
 
 ```
 
-
-
 ## -examples
 
 ## -see-also
+
 [HttpClient](../windows.web.http/httpclient.md), [Windows.Web.Http](../windows.web.http/windows_web_http.md), [Windows.Web.Http.Headers](../windows.web.http.headers/windows_web_http_headers.md), [HttpClient sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620551)

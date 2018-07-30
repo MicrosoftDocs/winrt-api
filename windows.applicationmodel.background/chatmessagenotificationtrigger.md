@@ -10,6 +10,7 @@ public class ChatMessageNotificationTrigger : Windows.ApplicationModel.Backgroun
 # Windows.ApplicationModel.Background.ChatMessageNotificationTrigger
 
 ## -description
+
 Represents a trigger that is activated when there is a notification for a text message.
 
 ## -remarks
@@ -17,4 +18,5 @@ Represents a trigger that is activated when there is a notification for a text m
 ## -examples
 
 ## -see-also
+
 [IBackgroundTrigger](ibackgroundtrigger.md), [Communication blocking and filtering sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=624164)

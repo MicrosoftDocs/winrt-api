@@ -16,7 +16,7 @@ Requests permission to access location data.
 A [GeolocationAccessStatus](geolocationaccessstatus.md) that indicates if permission to location data has been granted.
 
 ## -remarks
-The [RequestAccessAsync](geolocator_requestaccessasync.md) method prompts the user for permission to access their location. The user is only prompted once (per app). After the first time they grant or deny permission, this method no longer prompts for permission. To help the user change location permissions after they've been prompted, we recommend providing a link to the location settings on their device.
+The [RequestAccessAsync](geolocator_requestaccessasync.md) method prompts the user for permission to access their location. The user is only prompted once (per app). After the first time they grant or deny permission, this method no longer prompts for permission. To help the user change location permissions after they've been prompted, we recommend providing a link to the location settings on their device. When the user has given the app some kind of location permissions, your app can work as intended; to determine which type of location tracking is being used, query the **[PositionSource](geocoordinate_positionsource.md)** property of a retrieved **[Geocoordinate](Geocoordinate.md)** object. 
 
 > [!TIP]
 > To link to location settings from your app, call the [LaunchUriAsync](../windows.system/launcher_launchuriasync.md) method with the URI `ms-settings:privacy-location`. For more info, see [Launch the Windows Settings app](http://msdn.microsoft.com/library/c84d4bee-1fee-4648-ad7d-8321eac70290).

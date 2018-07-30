@@ -11,6 +11,7 @@ public class SpatialSurfaceMeshOptions : Windows.Perception.Spatial.Surfaces.ISp
 # Windows.Perception.Spatial.Surfaces.SpatialSurfaceMeshOptions
 
 ## -description
+
 Provides options to customize the [SpatialSurfaceMesh](spatialsurfacemesh.md) objects you get back from [SpatialSurfaceInfo.TryComputeLatestMeshAsync](spatialsurfaceinfo_trycomputelatestmeshasync_1431485667.md).
 
 ## -remarks
@@ -18,3 +19,5 @@ Provides options to customize the [SpatialSurfaceMesh](spatialsurfacemesh.md) ob
 ## -examples
 
 ## -see-also
+
+[Holographic spatial mapping sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/HolographicSpatialMapping)

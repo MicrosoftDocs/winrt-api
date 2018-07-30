@@ -10,10 +10,12 @@ public Windows.UI.Color Khaki { get; }
 # Windows.UI.Colors.Khaki
 
 ## -description
-Gets the color value that represents the Khaki named color.
+
+Gets the system-defined color that has an ARGB value of #FFF0E68C.
 
 ## -property-value
-The color value that represents the Khaki named color.
+
+The system-defined color that has an ARGB value of #FFF0E68C.
 
 ## -remarks
 
