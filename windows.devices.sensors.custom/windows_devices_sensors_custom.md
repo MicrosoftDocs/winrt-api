@@ -7,7 +7,8 @@
 
 ## -description
 
-Provides access to a custom sensor and its related motion data.
+Provides access to a custom sensor and its related data.
+
 
 ## -remarks
 
@@ -26,3 +27,4 @@ This namespace adds a list property of key/value pairs to each one of the native
 ## -see-also
 
 [Custom sensors sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/CustomSensors)
+
