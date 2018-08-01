@@ -11,14 +11,36 @@ public IAsyncAction CortanaActionableInsights.ShowInsightsForTextAsync(String te
 
 ## -description
 
+Asynchronously retrieves and displays insights based on the specified text content.
+
 ## -parameters
+
 ### -param text
+
+The text that defines the scope of the insights returned.
 
 ## -returns
 
+Returns an [IAsyncAction](../windows.foundation/iasyncaction.md) object that is used to control asynchronous execution. If the system does not support showing insights, the method has no effect. An app can check for this case using the [IsAvailableAsync](cortanaactionableinsights_issupported.md) method.
+
+## -capabilities
+
+cortanaSurface
+
 ## -remarks
+
+The [CortanaActionableInsights](cortanaactionableinsights.md) class requires the following be added to the Package.appxmanifest:
+
+- To \<Package\>
+  - `xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities"`
+  - `IgnorableNamespaces="rescap"`
+- Under \<Capabilities\>
+  - `<rescap:capability name="cortanaSurface"/>`
+
+The [CortanaActionableInsights](cortanaactionableinsights.md) API is a limited access feature. Developers must request access and be granted an unlock token by Microsoft before they can use the API.
 
 ## -see-also
 
-## -examples
+[ShowInsightsForTextAsync(String text, CortanaActionableInsightsOptions options)](cortanaactionableinsights_showinsightsfortextasync_41641920.md)
 
+## -examples

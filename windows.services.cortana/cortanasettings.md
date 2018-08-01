@@ -10,15 +10,18 @@ public class CortanaSettings
 # Windows.Services.Cortana.CortanaSettings
 
 ## -description
+
 Provides access to Cortana settings.
 
 ## -remarks
+
 The [CortanaSettings](cortanasettings.md) class requires the following be added to the Package.appmanifest:
 
-- `<iot:Capability Name="systemManagement"/>`
-- "iot" to the list of **IgnorableNamespaces**
+- To \<Package\>
+  - `IgnorableNamespaces="iot"`
+- Under \<Capabilities\>
+  - `<iot:Capability Name="systemManagement"/>`
 
 ## -see-also
 
 ## -examples
-
