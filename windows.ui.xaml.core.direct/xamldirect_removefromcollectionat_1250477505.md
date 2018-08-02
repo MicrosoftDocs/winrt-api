@@ -10,14 +10,14 @@ public void XamlDirect.RemoveFromCollectionAt(IXamlDirectObject xamlDirectObject
 # Windows.UI.Xaml.Core.Direct.XamlDirect.RemoveFromCollectionAt
 
 ## -description
-Tries to remove a value from the collection for the specified [IXamlDirectObject](ixamldirectobject.md) at the specified index.
+Tries to remove a value from the [IXamlDirectObject](ixamldirectobject.md) collection at the specified index.
 
 ## -parameters
 ### -param xamlDirectObject
-Refers to the specific [IXamlDirectObject](ixamldirectobject.md)
+Refers to the specific [IXamlDirectObject](ixamldirectobject.md) collection.
 
 ### -param index
-Refers to the index in the collection where the specified value must be removed from 
+Refers to the index in the collection where the value must be removed.
 
 ## -see-also
 * [XamlDirect.InsertIntoCollectionAt](xamldirect_insertintocollectionat_679802579.md)

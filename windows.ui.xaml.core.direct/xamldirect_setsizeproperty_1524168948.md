@@ -10,17 +10,17 @@ public void XamlDirect.SetSizeProperty(IXamlDirectObject xamlDirectObject, XamlP
 # Windows.UI.Xaml.Core.Direct.XamlDirect.SetSizeProperty
 
 ## -description
-Sets the value of the [Size](../windows.foundation/size.md) property for a specific [IXamlDirectObject](ixamldirectobject).md
+Sets the value of a [Size](../windows.foundation/size.md) property for a specific [IXamlDirectObject](ixamldirectobject.md).
 
 ## -parameters
 ### -param xamlDirectObject
-A reference to the specific [IXamlDirectObject](ixamldirectobject.md)
+A reference to the specific [IXamlDirectObject](ixamldirectobject.md).
 
 ### -param propertyIndex
-A reference to the [Size](../windows.foundation/size.md) property to set the value of from the list of supported properties in [XamlPropertyIndex](xamlpropertyindex.md) enum
+A reference to the [Size](../windows.foundation/size.md) property to set the value of from the list of supported properties in [XamlPropertyIndex](xamlpropertyindex.md) enum.
 
 ### -param value
-[Size](../windows.foundation/size.md) value to set to the specified property
+[Size](../windows.foundation/size.md) value to set to the specified property.
 
 ## -see-also
 [XamlDirect.GetSizeProperty](xamldirect_getsizeproperty_321326432.md)

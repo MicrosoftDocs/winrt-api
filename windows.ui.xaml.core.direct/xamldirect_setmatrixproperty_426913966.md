@@ -10,17 +10,17 @@ public void XamlDirect.SetMatrixProperty(IXamlDirectObject xamlDirectObject, Xam
 # Windows.UI.Xaml.Core.Direct.XamlDirect.SetMatrixProperty
 
 ## -description
-Sets the value of the [Matrix](../windows.ui.xaml.media/matrix.md) property for a specific [IXamlDirectObject](ixamldirectobject).md
+Sets the value of a [Matrix](../windows.ui.xaml.media/matrix.md) property for a specific [IXamlDirectObject](ixamldirectobject.md).
 
 ## -parameters
 ### -param xamlDirectObject
-A reference to the specific [IXamlDirectObject](ixamldirectobject.md)
+A reference to the specific [IXamlDirectObject](ixamldirectobject.md).
 
 ### -param propertyIndex
-A reference to the [Matrix](../windows.ui.xaml.media/matrix.md) property to set the value of from the list of supported properties in [XamlPropertyIndex](xamlpropertyindex.md) enum
+A reference to the [Matrix](../windows.ui.xaml.media/matrix.md) property to set the value of from the list of supported properties in [XamlPropertyIndex](xamlpropertyindex.md) enum.
 
 ### -param value
-[Matrix](../windows.ui.xaml.media/matrix.md) value to set to the specified property
+[Matrix](../windows.ui.xaml.media/matrix.md) value to set to the specified property.
 
 ## -see-also
 [XamlDirect.GetMatrixProperty](xamldirect_getmatrixproperty_513787782.md)

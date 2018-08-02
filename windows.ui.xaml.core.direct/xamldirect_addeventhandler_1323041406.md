@@ -14,7 +14,7 @@ Adds the specified event handler for a specified event using [XamlEventIndex](xa
 
 ## -parameters
 ### -param xamlDirectObject
-A reference to the current [IXamlDirectObject](ixamldirectobject.md)
+A reference to the current [IXamlDirectObject](ixamldirectobject.md).
 
 ### -param eventIndex
 An identifier for the event to be handled specified through [XamlEventIndex](xamleventindex.md) enum.
@@ -26,7 +26,7 @@ A reference to the specified handler implementation.
 **true** to register the handler such that it is invoked even when the routed event is marked handled in its event data.
 **false** to register the handler with the default condition that it will not be invoked if the routed event is already marked handled. 
 
-The default is false and the paramter is optional.
+The default is false and the parameter is optional.
 
 ## -remarks
 

@@ -10,18 +10,18 @@ public bool XamlDirect.RemoveFromCollection(IXamlDirectObject xamlDirectObject, 
 # Windows.UI.Xaml.Core.Direct.XamlDirect.RemoveFromCollection
 
 ## -description
-Tries to remove a value from the collection for the specified [IXamlDirectObject](ixamldirectobject.md)
+Tries to remove a value from the specified [IXamlDirectObject](ixamldirectobject.md) collection.
 
 ## -parameters
 ### -param xamlDirectObject
-Refers to the specific [IXamlDirectObject](ixamldirectobject.md)
+Refers to the specific [IXamlDirectObject](ixamldirectobject.md) collection.
 
 ### -param value
-Refers to the [IXamlDirectObject](ixamldirectobject.md) value to add to the collection
+Refers to the [IXamlDirectObject](ixamldirectobject.md) value to remove from the collection.
 
 ## -returns
-**true** if value was present
-**false** if value was not present
+**true** if value was present.
+**false** if value was not present.
 
 ## -see-also
 * [XamlDirect.AddToCollection](xamldirect_addtocollection_1437837191.md)

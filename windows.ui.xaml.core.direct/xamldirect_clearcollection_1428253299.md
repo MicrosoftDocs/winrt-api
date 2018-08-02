@@ -10,11 +10,11 @@ public void XamlDirect.ClearCollection(IXamlDirectObject xamlDirectObject)
 # Windows.UI.Xaml.Core.Direct.XamlDirect.ClearCollection
 
 ## -description
-Removes all items from the collection of the specified [IXamlDirectObject](ixamldirectobject.md)
+Removes all items from the specified [IXamlDirectObject](ixamldirectobject.md) collection.
 
 ## -parameters
 ### -param xamlDirectObject
-Refers to the specific [IXamlDirectObject](ixamldirectobject.md)
+Refers to the specific [IXamlDirectObject](ixamldirectobject.md) collection.
 
 ## -see-also
 * [XamlDirect.AddToCollection](xamldirect_addtocollection_1437837191.md)
@@ -32,7 +32,6 @@ IXamlDirectObject childrenCollection = xd.GetXamlDirectObjectProperty(relativePa
 
 IXamlDirectObject button = xd.CreateInstance(XamlTypeIndex.Button);
 xd.AddToCollection(childrenCollection, button);
-//Add more UIElements as XamlDirect objects
 
 xd.ClearCollection(childrenCollection);
 ```

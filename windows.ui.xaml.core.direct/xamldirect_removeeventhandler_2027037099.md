@@ -14,7 +14,7 @@ Removes the specified event handler from this [IXamlDirectObject](ixamldirectobj
 
 ## -parameters
 ### -param xamlDirectObject
-A reference to the current [IXamlDirectObject](ixamldirectobject.md)
+A reference to the current [IXamlDirectObject](ixamldirectobject.md).
 
 ### -param eventIndex
 An identifier for the event to remove the handle for specified through [XamlEventIndex](xamleventindex.md) enum.

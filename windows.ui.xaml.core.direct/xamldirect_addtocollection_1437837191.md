@@ -10,17 +10,17 @@ public void XamlDirect.AddToCollection(IXamlDirectObject xamlDirectObject, IXaml
 # Windows.UI.Xaml.Core.Direct.XamlDirect.AddToCollection
 
 ## -description
-Adds a value to the collection for the specified [IXamlDirectObject](ixamldirectobject.md)
+Adds a value to the specified [IXamlDirectObject](ixamldirectobject.md) collection.
 
 ## -parameters
 ### -param xamlDirectObject
-Refers to the specific [IXamlDirectObject](ixamldirectobject.md)
+Refers to the specific [IXamlDirectObject](ixamldirectobject.md) collection.
 
 ### -param value
-Refers to the [IXamlDirectObject](ixamldirectobject.md) value to add to the collection
+Refers to the [IXamlDirectObject](ixamldirectobject.md) value to add to the collection.
 
 ## -remarks
-[IXamlDirectObject](ixamldirectobject.md) is the minimal handle to Xaml's internal object instances. Hence, the base object, the collection and the value to add to the collection are all of type [IXamlDirectObject](ixamldirectobject.md)
+[IXamlDirectObject](ixamldirectobject.md) is the minimal handle to Xaml's internal object instances. Hence the collection and the value to add to the collection are both of type [IXamlDirectObject](ixamldirectobject.md).
 
 ## -see-also
 * [XamlDirect.RemoveFromCollection](xamldirect_removefromcollection_1992847812.md)

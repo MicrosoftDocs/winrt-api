@@ -10,17 +10,17 @@ public void XamlDirect.InsertIntoCollectionAt(IXamlDirectObject xamlDirectObject
 # Windows.UI.Xaml.Core.Direct.XamlDirect.InsertIntoCollectionAt
 
 ## -description
-Inserts a value into the collection for the specified [IXamlDirectObject](ixamldirectobject.md) at the specified index.
+Inserts a value into the specified [IXamlDirectObject](ixamldirectobject.md) collection at the specified index.
 
 ## -parameters
 ### -param xamlDirectObject
-Refers to the specific [IXamlDirectObject](ixamldirectobject.md)
+Refers to the specific [IXamlDirectObject](ixamldirectobject.md) collection.
 
 ### -param index
-Refers to the index in the collection where the specified value must be inserted 
+Refers to the index in the collection where the specified value must be inserted.
 
 ### -param value
-Refers to the [IXamlDirectObject](ixamldirectobject.md) value to add to the collection
+Refers to the [IXamlDirectObject](ixamldirectobject.md) value to add to the collection.
 
 ## -see-also
 * [XamlDirect.RemoveFromCollectionAt](xamldirect_removefromcollectionat_1250477505.md)
