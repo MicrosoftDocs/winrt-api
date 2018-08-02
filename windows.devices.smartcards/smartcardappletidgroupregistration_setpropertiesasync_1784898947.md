@@ -10,11 +10,14 @@ public IAsyncAction SmartCardAppletIdGroupRegistration.SetPropertiesAsync(ValueS
 # Windows.Devices.SmartCards.SmartCardAppletIdGroupRegistration.SetPropertiesAsync
 
 ## -description
+Asynchronously sets the value of [SmartCardAppletIdGroup.Properties](smartcardappletidgroup_properties.md).
 
 ## -parameters
 ### -param props
+A [ValueSet](/uwp/api/windows.foundation.collections.valueset) containing a (generic) property bag for a smartcard.
 
 ## -returns
+An asynchronous property-setting action, which completes when the properties have been set.
 
 ## -remarks
 

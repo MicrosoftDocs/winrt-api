@@ -10,8 +10,10 @@ public IBuffer ProximityPaymentSystemEnvironment { get; }
 # Windows.Devices.SmartCards.KnownSmartCardAppletIds.ProximityPaymentSystemEnvironment
 
 ## -description
+Gets the applet ID of the proximity payment system environment (PPSE) application.
 
 ## -property-value
+An [IBuffer](/uwp/api/windows.storage.streams.ibuffer) containing the PPSE applet ID.
 
 ## -remarks
 
