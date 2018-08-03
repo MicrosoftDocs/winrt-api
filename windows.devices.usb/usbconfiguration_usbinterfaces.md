@@ -13,7 +13,7 @@ public Windows.Foundation.Collections.IVectorView<Windows.Devices.Usb.UsbInterfa
 Gets an array of USB interfaces available in the USB configuration.
 
 ## -property-value
-An array of [UsbInterface](usbconfiguration_usbinterfaces.md) objects.
+An array of [UsbInterface](usbinterface.md) objects.
 
 ## -remarks
 
