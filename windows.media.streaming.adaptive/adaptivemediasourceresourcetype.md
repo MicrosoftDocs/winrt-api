@@ -29,6 +29,9 @@ The resource is an encryption key.
 The resource is a cryptographic initialization vector.
 
 
+### -field MediaSegmentIndex:5
+
+
 ## -remarks
 
 ## -examples
