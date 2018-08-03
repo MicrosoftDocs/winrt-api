@@ -14,9 +14,10 @@ Creates a [Language](language.md) object.
 
 ## -parameters
 ### -param languageTag
-A [BCP-47](http://go.microsoft.com/fwlink/p/?linkid=227302) language tag. See [Remarks](language.md#remarks).
+A [BCP-47](http://go.microsoft.com/fwlink/p/?linkid=227302) language tag. See Remarks for [Language](language.md).
 
 ## -remarks
+
 
 ## -examples
 
