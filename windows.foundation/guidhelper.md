@@ -10,6 +10,7 @@ public class GuidHelper
 # Windows.Foundation.GuidHelper
 
 ## -description
+A class containing static helper methods for working with the **Guid** type.
 
 ## -remarks
 

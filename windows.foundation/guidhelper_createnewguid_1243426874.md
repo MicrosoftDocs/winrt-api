@@ -10,8 +10,10 @@ public Guid GuidHelper.CreateNewGuid()
 # Windows.Foundation.GuidHelper.CreateNewGuid
 
 ## -description
+Creates a new, unique **Guid**.
 
 ## -returns
+A new, unique **Guid**.
 
 ## -remarks
 

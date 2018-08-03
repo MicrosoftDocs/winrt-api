@@ -10,13 +10,18 @@ public bool GuidHelper.Equals(Guid target, Guid value)
 # Windows.Foundation.GuidHelper.Equals
 
 ## -description
+Compares two **Guid** values for equality.
 
 ## -parameters
+
 ### -param target
+A **Guid** value to compare with the other argument.
 
 ### -param value
+A **Guid** value to compare with the other argument.
 
 ## -returns
+`true` if the two **Guid** values are equal, otherwise `false`.
 
 ## -remarks
 
