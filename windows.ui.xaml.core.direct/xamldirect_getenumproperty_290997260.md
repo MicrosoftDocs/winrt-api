@@ -20,7 +20,7 @@ A reference to the specific [IXamlDirectObject](ixamldirectobject.md).
 A reference to the _Enum_ property to get the value of from the list of supported properties in [XamlPropertyIndex](xamlpropertyindex.md) enum.
 
 ## -returns
-Uint value of the specified property which can be cast to the desired _Enum_ type
+_UInt32_ value of the specified property which can be cast to the desired _Enum_ type.
 
 ## -see-also
 [XamlDirect.SetEnumProperty](xamldirect_setenumproperty_513247420.md)

@@ -17,10 +17,10 @@ Sets the value of a _Boolean_ property for a specific [IXamlDirectObject](ixamld
 A reference to the specific [IXamlDirectObject](ixamldirectobject.md).
 
 ### -param propertyIndex
-A reference to the _boolean_ property to set the value of from the list of supported properties in [XamlPropertyIndex](xamlpropertyindex.md) enum.
+A reference to the _Boolean_ property to set the value of from the list of supported properties in [XamlPropertyIndex](xamlpropertyindex.md) enum.
 
 ### -param value
-_Boolean_ value to set for the specified property
+_Boolean_ value to set for the specified property.
 
 ## -see-also
 [XamlDirect.GetBooleanProperty](xamldirect_getbooleanproperty_1945470561.md)

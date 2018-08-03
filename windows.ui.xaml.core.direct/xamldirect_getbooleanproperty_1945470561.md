@@ -17,7 +17,7 @@ Gets the value of a _Boolean_ property for a specific [IXamlDirectObject](ixamld
 A reference to the specific [IXamlDirectObject](ixamldirectobject.md).
 
 ### -param propertyIndex
-A reference to the _boolean_ property to get the value of from the list of supported properties in [XamlPropertyIndex](xamlpropertyindex.md) enum.
+A reference to the _Boolean_ property to get the value of from the list of supported properties in [XamlPropertyIndex](xamlpropertyindex.md) enum.
 
 ## -returns
 _Boolean_ value of the specified property.
