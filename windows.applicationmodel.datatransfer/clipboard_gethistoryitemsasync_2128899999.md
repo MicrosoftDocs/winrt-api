@@ -10,12 +10,13 @@ public IAsyncOperation<ClipboardHistoryItemsResult> Clipboard.GetHistoryItemsAsy
 # Windows.ApplicationModel.DataTransfer.Clipboard.GetHistoryItemsAsync
 
 ## -description
+Gets the list of items currently in the clipboard history.
 
 ## -returns
+An asynchronous operation that, on successful completion, returns a [ClipboardHistoryItemsResult](clipboardhistoryitemsresult.md) object that contains the items currently in the clipboard history.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

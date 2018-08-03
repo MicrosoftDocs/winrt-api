@@ -10,12 +10,13 @@ public string Id { get; }
 # Windows.ApplicationModel.DataTransfer.ClipboardHistoryItem.Id
 
 ## -description
+Gets the ID of the current item in the clipboard history.
 
 ## -property-value
+The ID of the current item in the clipboard history.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

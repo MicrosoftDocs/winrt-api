@@ -4,16 +4,16 @@
 ---
 
 <!-- Class syntax.
-public class ClipboardHistoryChangedEventArgs 
+public class ClipboardHistoryChangedEventArgs
 -->
 
 # Windows.ApplicationModel.DataTransfer.ClipboardHistoryChangedEventArgs
 
 ## -description
+Provides data for the [HistoryEnabledChanged](clipboard_historyenabledchanged.md) event.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

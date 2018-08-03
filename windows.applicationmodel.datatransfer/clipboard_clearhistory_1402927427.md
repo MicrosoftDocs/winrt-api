@@ -10,12 +10,13 @@ public bool Clipboard.ClearHistory()
 # Windows.ApplicationModel.DataTransfer.Clipboard.ClearHistory
 
 ## -description
+Clears the clipboard history.
 
 ## -returns
+True if the clear history operation was successful; otherwise, false.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
