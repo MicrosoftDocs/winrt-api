@@ -10,14 +10,14 @@ public uint XamlDirect.GetCollectionCount(IXamlDirectObject xamlDirectObject)
 # Windows.UI.Xaml.Core.Direct.XamlDirect.GetCollectionCount
 
 ## -description
-Returns the count of items in a collection for the specified [IXamlDirectObject](ixamldirectobject.md)
+Returns the count of items in the specified [IXamlDirectObject](ixamldirectobject.md) collection.
 
 ## -parameters
 ### -param xamlDirectObject
-Refers to the specific [IXamlDirectObject](ixamldirectobject.md)
+Refers to the specific [IXamlDirectObject](ixamldirectobject.md) collection.
 
 ## -returns
-Count of items
+Count of items.
 
 ## -examples
 The following example shows how to get the count of [Panel.Children](../windows.ui.xaml.controls/panel_children.md) through the [IXamlDirectObject](ixamldirectobject.md)'s instance.

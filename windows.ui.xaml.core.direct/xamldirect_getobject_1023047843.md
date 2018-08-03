@@ -14,7 +14,7 @@ Gets (and creates if necessary) the instance as its full APIINDEX XAML type of t
 
 ## -parameters
 ### -param xamlDirectObject
-Refers to the specific [IXamlDirectObject](ixamldirectobject.md)
+Refers to the specific [IXamlDirectObject](ixamldirectobject.md).
 
 ## -returns
 Returns the instance of the full XAML type (typically, but not always, a [DependencyObject](../windows.ui.xaml/dependencyobject.md))

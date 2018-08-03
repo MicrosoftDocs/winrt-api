@@ -10,17 +10,17 @@ public void XamlDirect.SetXamlDirectObjectProperty(IXamlDirectObject xamlDirectO
 # Windows.UI.Xaml.Core.Direct.XamlDirect.SetXamlDirectObjectProperty
 
 ## -description
-Sets the value of the [IXamlDirectObject](ixamldirectobject.md) property for a specific [IXamlDirectObject](ixamldirectobject).md
+Sets the value of an [IXamlDirectObject](ixamldirectobject.md) property for a specific [IXamlDirectObject](ixamldirectobject.md).
 
 ## -parameters
 ### -param xamlDirectObject
-A reference to the specific [IXamlDirectObject](ixamldirectobject.md)
+A reference to the specific [IXamlDirectObject](ixamldirectobject.md).
 
 ### -param propertyIndex
-A reference to the [IXamlDirectObject](ixamldirectobject.md) property to set the value of from the list of supported properties in [XamlPropertyIndex](xamlpropertyindex.md) enum
+A reference to the [IXamlDirectObject](ixamldirectobject.md) property to set the value of from the list of supported properties in [XamlPropertyIndex](xamlpropertyindex.md) enum.
 
 ### -param value
-[IXamlDirectObject](ixamldirectobject.md) value to set to the specified property
+[IXamlDirectObject](ixamldirectobject.md) value to set to the specified property.
 
 ## -see-also
 [XamlDirect.GetXamlDirectObjectProperty](xamldirect_getxamldirectobjectproperty_338906031.md)

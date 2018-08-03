@@ -10,17 +10,17 @@ public IXamlDirectObject XamlDirect.GetXamlDirectObjectFromCollectionAt(IXamlDir
 # Windows.UI.Xaml.Core.Direct.XamlDirect.GetXamlDirectObjectFromCollectionAt
 
 ## -description
-Returns the [IXamlDirectObject](ixamldirectobject.md) item at the specified index from the collection for the specified [IXamlDirectObject](ixamldirectobject.md).
+Returns the [IXamlDirectObject](ixamldirectobject.md) item at the specified index from the specified [IXamlDirectObject](ixamldirectobject.md) collection.
 
 ## -parameters
 ### -param xamlDirectObject
-Refers to the specific [IXamlDirectObject](ixamldirectobject.md)
+Refers to the specific [IXamlDirectObject](ixamldirectobject.md) collection.
 
 ### -param index
-Refers to the index in the collection where the specified item must be accessed
+Refers to the index in the collection of the item to get.
 
 ## -returns
-Returns the [IXamlDirectObject](ixamldirectobject.md) item at the specified index of the collection
+Returns the [IXamlDirectObject](ixamldirectobject.md) item at the specified index of the collection.
 
 ## -examples
 The following example shows how to access an [IXamlDirectObject](ixamldirectobject.md) item at the specified index of a collection.
