@@ -29,10 +29,10 @@ Map responds to mouse, pen, touch and keyboard.
 Map responds to the UI control only; the corresponding touch input is disabled.
 
 ### -field GestureAndControl:4
-Map UI control and touch input are enabled. Use PointerKeyboardAndControl, if you want all forms of pointer input; the corresponding UI control is not visible.
+Map UI control and touch input are enabled. Pointer and keyboard are not.
 
 ### -field PointerKeyboardAndControl:4
-Mouse, pen, touch, keyboard, and Map UI control are enabled; the corresponding UI control is not visible.
+All forms of input are enabled including mouse, pen, touch, keyboard, and Map UI control.
 
 ### -field PointerOnly:5
 Map responds to mouse, pen, or touch only.
