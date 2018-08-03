@@ -10,17 +10,24 @@ public IAsyncOperation<IVectorView<string>> TextPredictionGenerator.GetCandidate
 # Windows.Data.Text.TextPredictionGenerator.GetCandidatesAsync
 
 ## -description
+Asynchronously retrieves a list of candidate words, up to a maximum count, based on the provided phonetic characters prefix and options.
 
 ## -parameters
+
 ### -param input
+The beginning phonetic characters of the words to be returned.
 
 ### -param maxCandidates
+The maximum number of predicted words to return.
 
 ### -param predictionOptions
+A [TextPredictionOptions](textpredictionoptions.md) value containing prediction options.
 
 ### -param previousStrings
+A collection of previously input words (to assist text prediction).
 
 ## -returns
+An asynchronous operation object which, when it completes, contains an [IVectorView](http://msdn.microsoft.com/library/644aa3d0-6f4d-406e-9adc-7f02fe575e90) of strings, which are the predicted words.
 
 ## -remarks
 

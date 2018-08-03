@@ -11,7 +11,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Foundation.Collections.IVector
 # Windows.Data.Text.TextPredictionGenerator.GetCandidatesAsync
 
 ## -description
-Asynchronously gets a list of candidate words, up to a maximum count, based on the provided phonetic characters prefix.
+Asynchronously retrieves a list of candidate words, up to a maximum count, based on the provided phonetic characters prefix.
 
 ## -parameters
 ### -param input
@@ -21,7 +21,7 @@ The beginning phonetic characters of the words to be returned.
 The maximum number of predicted words to return.
 
 ## -returns
-An asynchronous operation to return an [IVectorView](http://msdn.microsoft.com/library/644aa3d0-6f4d-406e-9adc-7f02fe575e90) of the list of predicted words.
+An asynchronous operation object which, when it completes, contains an [IVectorView](http://msdn.microsoft.com/library/644aa3d0-6f4d-406e-9adc-7f02fe575e90) of strings, which are the predicted words.
 
 ## -remarks
 
