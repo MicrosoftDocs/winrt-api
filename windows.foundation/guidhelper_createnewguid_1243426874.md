@@ -16,8 +16,12 @@ Creates a new, unique **Guid**.
 A new, unique **Guid**.
 
 ## -remarks
+In JavaScript, **Guid** is projected as a string.
 
 ## -see-also
 
 ## -examples
+```javascript
+var newGuid = Windows.Foundation.GuidHelper.createNewGuid();
+```
 

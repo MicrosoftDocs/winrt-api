@@ -16,8 +16,11 @@ Gets an empty, zeroed **Guid**.
 A **Guid** value that is empty, and zeroed.
 
 ## -remarks
+In JavaScript, **Guid** is projected as a string.
 
 ## -see-also
 
 ## -examples
-
+```javascript
+var emptyGuid = Windows.Foundation.GuidHelper.empty;
+```

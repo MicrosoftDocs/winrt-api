@@ -24,8 +24,15 @@ A **Guid** value to compare with the other argument.
 `true` if the two **Guid** values are equal, otherwise `false`.
 
 ## -remarks
+In JavaScript, **Guid** is projected as a string.
 
 ## -see-also
 
 ## -examples
-
+```javascript
+function isMyProvider(mobileAccount) { /* type MobileBroadbandAccount */
+    return Windows.Foundation.GuidHelper.equals(
+        mobileAccount.serviceProviderGuid,
+        "9e8e2757-5fa6-4e19-b2bf-8b1054c2d751");
+}
+```
