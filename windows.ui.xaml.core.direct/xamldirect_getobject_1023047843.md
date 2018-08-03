@@ -17,7 +17,7 @@ Gets (and creates if necessary) the instance as its full APIINDEX XAML type of t
 Refers to the specific [IXamlDirectObject](ixamldirectobject.md).
 
 ## -returns
-Returns the instance of the full XAML type (typically, but not always, a [DependencyObject](../windows.ui.xaml/dependencyobject.md))
+Returns the instance of the full XAML type (typically, but not always, a [DependencyObject](../windows.ui.xaml/dependencyobject.md)).
 
 ## -remarks
 Use this method to convert from a [XamlDirect](xamldirect.md) instance to its full XAML type. This results in the creation of a full object and hence the performance benefits of staying within the [XamlDirect](xamldirect.md) APIs will be lost for that specific [IXamlDirectObject](ixamldirectobject.md) instance.
