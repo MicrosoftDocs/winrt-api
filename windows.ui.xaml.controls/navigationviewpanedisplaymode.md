@@ -24,9 +24,13 @@ public enum NavigationViewPaneDisplayMode : int
 
 ### -field Auto:0
 
+### -field LeftCompact:3
+
+
 ## -remarks
 
 ## -see-also
 
 ## -examples
+
 
