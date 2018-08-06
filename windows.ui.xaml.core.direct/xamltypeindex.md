@@ -764,7 +764,7 @@ The [AddDeleteThemeTransition](../windows.ui.xaml.media.animation/AddDeleteTheme
 The [AdaptiveTrigger](../windows.ui.xaml/AdaptiveTrigger.md) type.
 
 ### -field ThemeShadow:964
-The [ThemeShadow](../windows.ui.xaml.media/AdaptiveTrigger.md) type.
+The [ThemeShadow](../windows.ui.xaml.media/ThemeShadow.md) type.
 
 ## -see-also
 * [XamlDirect](xamldirect.md)
