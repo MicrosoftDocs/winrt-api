@@ -10,17 +10,17 @@ public void XamlDirect.SetGridLengthProperty(IXamlDirectObject xamlDirectObject,
 # Windows.UI.Xaml.Core.Direct.XamlDirect.SetGridLengthProperty
 
 ## -description
+Sets the value of a [GridLength](../windows.ui.xaml/gridlength.md) property for a specific [IXamlDirectObject](ixamldirectobject.md).
 
 ## -parameters
 ### -param xamlDirectObject
+A reference to the specific [IXamlDirectObject](ixamldirectobject.md).
 
 ### -param propertyIndex
+A reference to the [GridLength](../windows.ui.xaml/gridlength.md) property to set the value of from the list of supported properties in [XamlPropertyIndex](xamlpropertyindex.md) enum.
 
 ### -param value
-
-## -remarks
+[GridLength](../windows.ui.xaml/gridlength.md) value to set to the specified property.
 
 ## -see-also
-
-## -examples
-
+[XamlDirect.GetGridLengthProperty](xamldirect_getgridlengthproperty_1279858045.md)

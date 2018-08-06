@@ -10,17 +10,18 @@ public Size XamlDirect.GetSizeProperty(IXamlDirectObject xamlDirectObject, XamlP
 # Windows.UI.Xaml.Core.Direct.XamlDirect.GetSizeProperty
 
 ## -description
+Gets the value of a [Size](../windows.foundation/size.md) property for a specific [IXamlDirectObject](ixamldirectobject.md).
 
 ## -parameters
 ### -param xamlDirectObject
+A reference to the specific [IXamlDirectObject](ixamldirectobject.md).
 
 ### -param propertyIndex
+A reference to the [Size](../windows.foundation/size.md) property to get the value of from the list of supported properties in [XamlPropertyIndex](xamlpropertyindex.md) enum.
 
 ## -returns
-
-## -remarks
+[Size](../windows.foundation/size.md) value of the specified property.
 
 ## -see-also
-
-## -examples
+[XamlDirect.SetSizeProperty](xamldirect_setsizeproperty_1524168948.md)
 

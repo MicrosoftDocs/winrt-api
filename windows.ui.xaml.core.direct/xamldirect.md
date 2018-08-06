@@ -10,10 +10,9 @@ public class XamlDirect
 # Windows.UI.Xaml.Core.Direct.XamlDirect
 
 ## -description
-
-## -remarks
+Represents the base class for all XamlDirect APIs. All of the XamlDirect APIs are instance methods off of this class.
 
 ## -see-also
 
-## -examples
-
+* [XamlDirect.GetDefault](xamldirect_getdefault_846721868.md)
+* [XamlDirect.CreateInstance](xamldirect_createinstance_2026807211.md)
