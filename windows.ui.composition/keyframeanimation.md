@@ -13,7 +13,9 @@ public class KeyFrameAnimation : Windows.UI.Composition.CompositionAnimation, Wi
 A time-based animation with one or more key frames. These frames are markers, allowing developers to specify values at specific times for the animating property. KeyFrame animations can be further customized by specifying how the animation interpolates between keyframes.
 
 ## -remarks
-An animation is associated with an object's property by calling [CompositionObject::StartAnimation](compositionobject_startanimation.md) and specifying the property name and the animation. See the remarks section of [CompositionObject::StartAnimation](compositionobject_startanimation.md) for a list of animatable properties. See [Composition Animations Overview](http://go.microsoft.com/fwlink/p/?LinkID=692060) for additional information on [ExpressionAnimation](expressionanimation.md) s.
+An animation is associated with an object's property by calling [CompositionObject::StartAnimation](compositionobject_startanimation.md) and specifying the property name and the animation. See the remarks section of [CompositionObject::StartAnimation](compositionobject_startanimation.md) for a list of animatable properties. See [Composition Animations Overview](http://go.microsoft.com/fwlink/p/?LinkID=692060) for additional information on [ExpressionAnimation](expressionanimation.md)s.
+
+KeyFrameAnimations are not automatically stopped when an app's process is suspended. App authors must subscribe to app state events and stop or pause their animations before suspension.
 
 ## -examples
 
