@@ -10,6 +10,7 @@ public IAsyncOperation<UserDataBufferUnprotectResult> UserDataProtectionManager.
 # Windows.Security.DataProtection.UserDataProtectionManager.UnprotectBufferAsync
 
 ## -description
+Unprotect a buffer that has been protected using 'ProtectBufferAsync'.
 
 ## -parameters
 ### -param protectedBuffer

@@ -10,6 +10,7 @@ public IAsyncOperation<IBuffer> UserDataProtectionManager.ProtectBufferAsync(IBu
 # Windows.Security.DataProtection.UserDataProtectionManager.ProtectBufferAsync
 
 ## -description
+Protects a buffer to a specified availability.
 
 ## -parameters
 ### -param unprotectedBuffer
@@ -17,6 +18,7 @@ public IAsyncOperation<IBuffer> UserDataProtectionManager.ProtectBufferAsync(IBu
 ### -param availability
 
 ## -returns
+A copy of the resultant protected buffer.
 
 ## -remarks
 

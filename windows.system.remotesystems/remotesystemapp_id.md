@@ -1,5 +1,5 @@
 ---
--api-id: P:Windows.Security.Authentication.Web.Provider.WebProviderTokenRequest.Id
+-api-id: P:Windows.System.RemoteSystems.RemoteSystemApp.Id
 -api-type: winrt property
 ---
 
@@ -7,7 +7,7 @@
 public string Id { get; }
 -->
 
-# Windows.Security.Authentication.Web.Provider.WebProviderTokenRequest.Id
+# Windows.System.RemoteSystems.RemoteSystemApp.Id
 
 ## -description
 

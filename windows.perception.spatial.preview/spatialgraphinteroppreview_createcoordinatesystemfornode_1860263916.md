@@ -10,13 +10,17 @@ public SpatialCoordinateSystem SpatialGraphInteropPreview.CreateCoordinateSystem
 # Windows.Perception.Spatial.Preview.SpatialGraphInteropPreview.CreateCoordinateSystemForNode
 
 ## -description
+Creates a spatial coordinate system that tracks adjustments to a static spatial node with its origin offset by the specified relative position.
 
 ## -parameters
 ### -param nodeId
+The static spatial node's ID.
 
 ### -param relativePosition
+The rigid positional offset from the spatial node origin to this coordinate system's origin, expressed within the coordinate system of the node origin.
 
 ## -returns
+The spatial coordinate system.
 
 ## -remarks
 

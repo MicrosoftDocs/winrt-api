@@ -17,6 +17,7 @@ Gets the specific time that is the subject of this timestamp.
 The time.
 
 ## -remarks
+If you will be relating this timestamp to other high-precision events on the system, you should instead use the [SystemRelativeTargetTime](perceptiontimestamp_systemrelativetargettime.md) property, which operates in the QueryPerformanceCounter (QPC) time domain.
 
 ## -examples
 

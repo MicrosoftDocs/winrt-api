@@ -10,6 +10,7 @@ public IAsyncOperation<UserDataStorageItemProtectionStatus> UserDataProtectionMa
 # Windows.Security.DataProtection.UserDataProtectionManager.ProtectStorageItemAsync
 
 ## -description
+Protects a storage item to the specified availability.
 
 ## -parameters
 ### -param storageItem

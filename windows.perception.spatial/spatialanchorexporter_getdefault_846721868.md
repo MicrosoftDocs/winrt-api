@@ -10,8 +10,10 @@ public SpatialAnchorExporter SpatialAnchorExporter.GetDefault()
 # Windows.Perception.Spatial.SpatialAnchorExporter.GetDefault
 
 ## -description
+Gets the default **SpatialAnchorExporter** instance for the current device.
 
 ## -returns
+The exporter.
 
 ## -remarks
 
@@ -19,3 +21,5 @@ public SpatialAnchorExporter SpatialAnchorExporter.GetDefault()
 
 ## -examples
 
+## -capabilities
+spatialPerception

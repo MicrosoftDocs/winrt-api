@@ -17,6 +17,8 @@ Enables apps to capture environments, application windows, and displays in a sec
 
 This namespace currently requires you to be running Windows 10 Pro or Enterprise.
 
+You must also add the **Graphics Capture** capability to your UWP application. See [Screen capture](https://docs.microsoft.com/windows/uwp/audio-video-camera/screen-capture#add-the-screen-capture-capability) for more information.
+
 ## -see-also
 
 [Screen capture](https://docs.microsoft.com/windows/uwp/audio-video-camera/screen-capture)

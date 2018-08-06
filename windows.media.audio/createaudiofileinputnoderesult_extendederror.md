@@ -10,8 +10,10 @@ public HResult ExtendedError { get; }
 # Windows.Media.Audio.CreateAudioFileInputNodeResult.ExtendedError
 
 ## -description
+Gets the extended error code associated with the creation of a [AudioFileInputNode](audiofileinputnode.md) object.
 
 ## -property-value
+The extended error code associated with the creation of a [AudioFileInputNode](audiofileinputnode.md) object.
 
 ## -remarks
 

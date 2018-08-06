@@ -10,8 +10,10 @@ public LampPurposes Purposes { get; }
 # Windows.Devices.Lights.LampInfo.Purposes
 
 ## -description
+Purpose/s of the lamp.
 
 ## -property-value
+The lamp purposes.
 
 ## -remarks
 

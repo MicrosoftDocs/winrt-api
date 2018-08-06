@@ -20,7 +20,7 @@ An enumeration value that indicates the current drive mode for the GPIO pin. The
 ## -examples
 
 ## -see-also
-[GpioPinDriveMode](gpiopindrivemode.md), [GpioPin.SetDriveMode](gpiopin_setdrivemode.md)
+[GpioPinDriveMode](gpiopindrivemode.md), [GpioPin.SetDriveMode](gpiopin_setdrivemode_419000462.md)
 
 ## -capabilities
 &lt;DeviceCapability name="lowLevel" /&gt;

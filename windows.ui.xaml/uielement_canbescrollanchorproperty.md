@@ -10,15 +10,15 @@ public DependencyProperty CanBeScrollAnchorProperty { get; }
 # Windows.UI.Xaml.UIElement.CanBeScrollAnchorProperty
 
 ## -description
-Identifies the [CanBeScrollAnchor](uielement_canbescrollanchor) dependency property.
+
+Identifies the [CanBeScrollAnchor](uielement_canbescrollanchor.md) dependency property.
 
 ## -property-value
-The identifier for the [CanBeScrollAnchor](uielement_canbescrollanchor) dependency property.
+
+The identifier for the [CanBeScrollAnchor](uielement_canbescrollanchor.md) dependency property.
 
 ## -remarks
 
 ## -see-also
-* [CanBeScrollAnchor](uielement_canbescrollanchor)
 
 ## -examples
-

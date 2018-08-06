@@ -13,7 +13,7 @@ public void HolographicSpace.WaitForNextFrameReady()
 Blocks the current thread until the right time to begin rendering the next frame.
 
 ## -remarks
-This will be one frame duration before the next frame is expected to be received by the compositor to reproject and scan out.
+This method will return one frame duration before the next frame is expected to be received by the compositor to reproject and scan out.
 
 ## -see-also
 

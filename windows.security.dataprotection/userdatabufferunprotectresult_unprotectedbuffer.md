@@ -10,6 +10,7 @@ public IBuffer UnprotectedBuffer { get; }
 # Windows.Security.DataProtection.UserDataBufferUnprotectResult.UnprotectedBuffer
 
 ## -description
+Copy of the unprotected buffer, if the unprotect call succeeded.
 
 ## -property-value
 

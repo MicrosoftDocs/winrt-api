@@ -10,67 +10,46 @@ public enum LampArrayKind : int
 # Windows.Devices.Lights.LampArrayKind
 
 ## -description
+The type of physical device the LampArray is part of.
 
 ## -enum-fields
-### -field Notification:7
-
-### -field Unknown:0
-
-### -field Mousepad:4
-
-### -field Mouse:3
-
-### -field Keypad:2
+### -field Undefined:0
+No Kind specified for this device.
 
 ### -field Keyboard:1
-
-### -field Headset:5
-
-### -field GameController:6
-
-### -field Art:10
-
-
-### -field Chassis:7
-
-
-### -field Furniture:9
-
-
-### -field GameController:3
-
+Is part of a keyboard or keypad.
 
 ### -field Mouse:2
+Is part of a mouse.
 
-
-### -field Notification:6
-
+### -field GameController:3
+Is part of a game controller (e.g. gamepad, flightstick, sailing simulation device).
 
 ### -field Peripheral:4
-
+Is part of a more general peripheral/accessory (e.g. speakers, mousepad, microphone, webcam).
 
 ### -field Scene:5
+Illuminates a room/performance-stage/area (e.g. room light-bulbs, spotlights, washlights, strobelights, booth-strips, billboard/sign, camera-flash).
 
+### -field Notification:6
+Is part of a notification device.
 
-### -field Undefined:0
-
+### -field Chassis:7
+Is part of an internal PC case component (e.g. RAM-stick, motherboard, fan).
 
 ### -field Wearable:8
+Is embedded in a wearable accessory (e.g. audio-headset, wristband, watch, shoes).
 
+### -field Furniture:9
+Is embedded in a piece of furniture (e.g. chair, desk, bookcase).
+
+### -field Art:10
+Is embedded in an artwork (e.g. painting, sculpture).
 
 ## -remarks
+It is likely this list will expand in the future, so avoid placing error checks that validate a Kind is within the current bounds. Preferred approach is to compare against the subset of Kinds the application supports.
 
 ## -see-also
 
 ## -examples
-
-
-
-
-
-
-
-
-
-
 

@@ -10,6 +10,7 @@ namespace Windows.Devices.Lights.Effects
 # Windows.Devices.Lights.Effects
 
 ## -description
+Provides simple effects for common LampArray scenarios.
 
 ## -remarks
 

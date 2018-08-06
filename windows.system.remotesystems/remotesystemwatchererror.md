@@ -10,17 +10,17 @@ public enum RemoteSystemWatcherError : int
 # Windows.System.RemoteSystems.RemoteSystemWatcherError
 
 ## -description
-Contains values that describe a watcher error: an error that caused the remote system discovery process to stop.
+Contains values that describe a watcher error, which may stop discovery.
 
 ## -enum-fields
 ### -field Unknown:0
-The process stopped for an unknown reason.
+Discovery stopped for an unknown reason.
 
 ### -field InternetNotAvailable:1
-The process stopped because the Internet connection was lost or unavailable.
+Discovery of cloud remote systems failed because Internet connection was lost or is unavailable.
 
 ### -field AuthenticationError:2
-The process stopped because the user's cross-device settings don't allow discovery. You can send users directly to their settings by launching the following text as a URI: `"ms-settings:crossdevice"`.
+Discovery of cloud remote systems for a web account failed because authentication of that web account failed.
 
 ## -remarks
 

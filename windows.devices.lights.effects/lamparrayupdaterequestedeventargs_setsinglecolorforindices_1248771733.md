@@ -10,13 +10,21 @@ public void LampArrayUpdateRequestedEventArgs.SetSingleColorForIndices(Color des
 # Windows.Devices.Lights.Effects.LampArrayUpdateRequestedEventArgs.SetSingleColorForIndices
 
 ## -description
+Sets all lamps specified to the same color.
 
 ## -parameters
 ### -param desiredColor
+The desired color.
 
 ### -param lampIndexes
+Array of lamp indexes to set.
 
 ## -remarks
+If the lamp doesn't support the desired color, it is set to the [NearestSupportedColor](lampinfo_getnearestsupportedcolor_1689565521.md)
+
+If an index does not exist on the device or was not specified in the effect, it is ignored and the remaining are still applied.
+
+[Black](../windows.ui/colors_black.md) is equivalent to a lamp being 'off'.
 
 ## -see-also
 

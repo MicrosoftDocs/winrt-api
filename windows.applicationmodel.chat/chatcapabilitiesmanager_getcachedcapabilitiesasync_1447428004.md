@@ -15,7 +15,7 @@ Asynchronously gets the locally cached Rich Communication Services (RCS) chat ca
 
 ## -parameters
 ### -param address
-The phone number for which to get the Rich Communication Services (RCS) chat capabilites
+The phone number for which to get the Rich Communication Services (RCS) chat capabilities
 
 ## -returns
 The locally cached Rich Communication Services (RCS) chat capabilities.

@@ -10,8 +10,10 @@ public ushort HardwareProductId { get; }
 # Windows.Devices.Lights.LampArray.HardwareProductId
 
 ## -description
+The hardware product Id of the underlying device.
 
 ## -property-value
+The hardware product Id.
 
 ## -remarks
 
