@@ -24,7 +24,7 @@ continue to render unless you explicitly dispose of those as well.
 In this example, the [CompositionSurfaceBrush](../windows.ui.composition/compositionsurfacebrush.md) will continue to exist even after the 
 [LoadedImageSurface](loadedimagesurface.md) has been closed.
 
-``` c#
+```csharp
 Compositor compositor = new Compositor();
 CompositionSurfaceBrush imageBrush = compositor.CreateSurfaceBrush();
 

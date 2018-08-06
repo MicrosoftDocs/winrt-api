@@ -26,7 +26,7 @@ The template's content represented as an [XmlDocument](../windows.data.xml.dom/x
 ## -remarks
 Because there is currently only one template, this method always fetches the following XML: 
 
-``` xml
+```xml
 <tileflyout>
     <visual version="3">
         <binding template="TileFlyoutTemplate01">

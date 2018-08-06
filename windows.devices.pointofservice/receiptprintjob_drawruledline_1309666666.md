@@ -36,13 +36,13 @@ For horizontal ruled lines, *positionList* consists of comma delimited numbers (
 
 ```csharp
 positionList = "0,500"
-``` 
+```
 
 This *positionList* would result in a ruled line starting at MapMode unit position "0" continuing for 500 MapMode units of length. Here is another example demonstrating multiple horizontal lines:
 
 ```csharp
 positionList = "0,200;300,100"
-``` 
+```
 
 This *positionList* would result in a ruled line starting at unit position "0" and continuing for 200 units in length. Then, another line would begin at position 300 and continue for 100 units in length.
 

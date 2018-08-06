@@ -33,7 +33,7 @@ The intention of this method is to use this information only for analytics and n
 ## -see-also
 
 ## -examples
-``` Csharp
+```csharp
 using Windows.System.Profile;
 
 // ...

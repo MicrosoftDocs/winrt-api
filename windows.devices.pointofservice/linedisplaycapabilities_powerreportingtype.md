@@ -15,7 +15,7 @@ Gets the type of power reporting supported by the line display.
 ## -property-value
 This property can have one of the following values:
 
-```CSharp
+```csharp
 typedef enum UnifiedPosPowerReportingType
 {
   UnknownPowerReportingType = 0,
