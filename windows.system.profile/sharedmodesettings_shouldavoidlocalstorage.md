@@ -26,14 +26,14 @@ A **true** value means the PC is running in a scenario where apps should hide al
 ## -see-also
 
 ## -examples
-``` xml
+```xaml
 <StackPanel>
   <ListView x:Name="ThisPC" Header="This PC" .../>
   <ListView x:Name="OneDrive" Header="OneDrive" .../>
 </StackPanel>
 ```
-    
-``` cs
+
+```csharp
 protected override void OnNavigatedTo(NavigationEventArgs e)
 {
     if (Windows.System.Profile.SharedModeSettings.ShouldAvoidLocalStorage)

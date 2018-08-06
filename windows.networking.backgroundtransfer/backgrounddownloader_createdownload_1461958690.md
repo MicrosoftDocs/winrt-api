@@ -35,10 +35,10 @@ Background transfer doesn't support concurrent downloads of the same [Uri](../wi
 
 ```csharp
 operation = await Task.Run(() => { return myDownloader.CreateDownload(uri, file); });
-
 ```
 
-
+> [!NOTE]
+> Some file systems have file size limits. Background transfer has special logic to fast-fail transfers that exceed the destination drive's file size limits (for example, files that exceed 4GB in size for FAT32 file systems). If the server responds with a `Content-Length` header value greater than the file system's maximum file size, then the download operation immediately fails with HRESULT_FROM_WIN32(ERROR_FILE_SYSTEM_LIMITATION).
 
 ## -examples
 

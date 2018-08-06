@@ -26,7 +26,7 @@ Examples of changes you might make in an education environment:
 A **true** value means the PC is running in scenarios where multiple consecutive users use the PC. These user accounts may be deleted, which means that users may have a new account created each time they use the same device.
 
 ## -examples
-``` cs
+```csharp
 if (!Windows.System.Profile.SharedModeSettings.IsEnabled)
 {
     LaunchWelcomeExperience();
