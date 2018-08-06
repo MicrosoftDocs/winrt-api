@@ -10,11 +10,14 @@ public void LampArrayEffectPlaylist.StartAll(IIterable<LampArrayEffectPlaylist> 
 # Windows.Devices.Lights.Effects.LampArrayEffectPlaylist.StartAll
 
 ## -description
+Guarantees that all playlists will start at the same time.
 
 ## -parameters
 ### -param value
+Playlists to start simultaneously.
 
 ## -remarks
+This removes the small lag time that occurs if called on each [LampArrayEffectPlaylist](lamparrayeffectplaylist.md) from within a for-loop.
 
 ## -see-also
 

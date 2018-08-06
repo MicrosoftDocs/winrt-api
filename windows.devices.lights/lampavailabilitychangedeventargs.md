@@ -14,7 +14,6 @@ Provides data for the [AvailabilityChanged](lamp_availabilitychanged.md) event.
 
 ## -remarks
 
-
 ## -examples
 
 ## -see-also

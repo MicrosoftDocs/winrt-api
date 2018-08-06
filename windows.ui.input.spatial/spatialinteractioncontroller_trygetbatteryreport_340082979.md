@@ -13,7 +13,7 @@ public BatteryReport SpatialInteractionController.TryGetBatteryReport()
 Gets information about the motion controller's current battery state.
 
 ## -returns
-Information about the motion controller's current battery state.
+Information about the motion controller's current battery state, if available; otherwise, null.
 
 ## -remarks
 

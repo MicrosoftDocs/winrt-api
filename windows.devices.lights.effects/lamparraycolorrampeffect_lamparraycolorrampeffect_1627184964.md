@@ -10,14 +10,16 @@ public LampArrayColorRampEffect.LampArrayColorRampEffect(LampArray lampArray, In
 # Windows.Devices.Lights.Effects.LampArrayColorRampEffect.LampArrayColorRampEffect
 
 ## -description
-
+Creates and initializes a new instance of the effect.
 ## -parameters
 ### -param lampArray
+The [LampArray](../windows.devices.lights/lamparray.md) the effect is played on.
 
 ### -param lampIndexes
+Subset of lamp indexes that effect will apply to.
 
 ## -remarks
-
+Effect creation does not start the effect.
 ## -see-also
 
 ## -examples

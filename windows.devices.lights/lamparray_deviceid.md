@@ -10,8 +10,10 @@ public string DeviceId { get; }
 # Windows.Devices.Lights.LampArray.DeviceId
 
 ## -description
+Gets the plug and play (PnP) device identifier of the underlying LampArray device.
 
 ## -property-value
+The plug and play (PnP) device identifier of the underlying LampArray device.
 
 ## -remarks
 

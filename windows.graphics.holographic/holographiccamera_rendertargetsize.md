@@ -11,7 +11,7 @@ public Windows.Foundation.Size RenderTargetSize { get; }
 # Windows.Graphics.Holographic.HolographicCamera.RenderTargetSize
 
 ## -description
-Gets the dimensions of the back buffers allocated for this camera.
+Gets the dimensions in pixels of the back buffers allocated for this camera.
 
 ## -property-value
 The size.

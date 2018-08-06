@@ -11,7 +11,7 @@ public Windows.Foundation.Numerics.Vector3 AbsoluteLinearVelocity { get; }
 # Windows.Perception.Spatial.SpatialLocation.AbsoluteLinearVelocity
 
 ## -description
-Gets the absolute velocity vector of the device. This velocity is expressed in the supplied coordinate system, although the motion is measured relative to the user's surroundings.
+Gets the absolute velocity vector of the device in units of meters per second. This velocity is expressed in the supplied coordinate system, although the motion is measured relative to the user's surroundings.
 
 ## -property-value
 The velocity.

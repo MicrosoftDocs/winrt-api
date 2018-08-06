@@ -10,19 +10,24 @@ public void ScrollViewer.UnregisterAnchorCandidate(UIElement element)
 # Windows.UI.Xaml.Controls.ScrollViewer.UnregisterAnchorCandidate
 
 ## -description
-Unregisters an [UIElement](../windows.ui.xaml/uielement) as a potential scroll anchor candidate.
+
+Unregisters a [UIElement](../windows.ui.xaml/uielement.md) as a potential scroll anchor.
 
 ## -parameters
+
 ### -param element
-A [UIElement](../windows.ui.xaml/uielement) within the subtree of the [ScrollViewer](scrollviewer).
+
+A [UIElement](../windows.ui.xaml/uielement.md) within the subtree of the [ScrollViewer](scrollviewer.md).
 
 ## -remarks
-When an element's [CanBeScrollAnchor](../windows.ui.xaml/uielement_canbescrollanchor) property changes to false (or the element is removed from the visual tree) the framework locates the first [IScrollAnchorProvider](iscrollanchorprovider) in that element's chain of ancestors and automatically calls its UnregisterAnchorCandidate method.
+
+When an element's [CanBeScrollAnchor](../windows.ui.xaml/uielement_canbescrollanchor.md) property changes to **false** (or the element is removed from the visual tree), the framework locates the first [IScrollAnchorProvider](iscrollanchorprovider.md) in that element's chain of ancestors and automatically calls its UnregisterAnchorCandidate method.
 
 ## -see-also
-* [IScrollAnchorProvider](iscrollanchorprovider)
-* [RegisterAnchorCandidate](iscrollanchorprovider_registeranchorcandidate_178281111) 
-* [CanBeScrollAnchor](../windows.ui.xaml/uielement_canbescrollanchor) 
+
+* [IScrollAnchorProvider](iscrollanchorprovider.md)
+* [RegisterAnchorCandidate](iscrollanchorprovider_registeranchorcandidate_178281111.md)
+* [CanBeScrollAnchor](../windows.ui.xaml/uielement_canbescrollanchor.md)
 
 ## -examples
 

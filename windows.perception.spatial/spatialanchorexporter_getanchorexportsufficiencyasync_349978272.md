@@ -10,13 +10,17 @@ public IAsyncOperation<SpatialAnchorExportSufficiency> SpatialAnchorExporter.Get
 # Windows.Perception.Spatial.SpatialAnchorExporter.GetAnchorExportSufficiencyAsync
 
 ## -description
+Returns information about whether a spatial anchor's data is sufficient for sharing or relocalization.
 
 ## -parameters
 ### -param anchor
+The spatial anchor that will be exported.
 
 ### -param purpose
+The purpose of the export, sharing or relocalization.
 
 ## -returns
+The anchor's export sufficiency.
 
 ## -remarks
 
@@ -24,3 +28,5 @@ public IAsyncOperation<SpatialAnchorExportSufficiency> SpatialAnchorExporter.Get
 
 ## -examples
 
+## -capabilities
+spatialPerception

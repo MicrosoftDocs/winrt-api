@@ -10,11 +10,14 @@ public SpatialLocator SpatialGraphInteropPreview.CreateLocatorForNode(Guid nodeI
 # Windows.Perception.Spatial.Preview.SpatialGraphInteropPreview.CreateLocatorForNode
 
 ## -description
+Creates a spatial locator that tracks the motion of a dynamic spatial node.
 
 ## -parameters
 ### -param nodeId
+The dynamic spatial node's ID.
 
 ## -returns
+The spatial locator.
 
 ## -remarks
 

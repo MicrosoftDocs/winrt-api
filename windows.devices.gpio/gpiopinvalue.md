@@ -25,4 +25,4 @@ The value of the GPIO pin is high.
 ## -examples
 
 ## -see-also
-[GpioPin.Read](gpiopin_read.md), [GpioPin.Write](gpiopin_write.md)
+[GpioPin.Read](gpiopin_read_431746835.md), [GpioPin.Write](gpiopin_write_1817827092.md)

@@ -10,18 +10,21 @@ public double VerticalAnchorRatio { get;  set; }
 # Windows.UI.Xaml.Controls.ScrollViewer.VerticalAnchorRatio
 
 ## -description
-Determines the vertical position of the ScrollViewer's *anchor point* with respect to the viewport.  By default, the ScrollViewer selects an element as its [CurrentAnchor](iscrollanchorprovider_currentanchor) by identifying the element in its viewport nearest to the anchor point.
+
+Determines the vertical position of the ScrollViewer's *anchor point* with respect to the viewport. By default, the ScrollViewer selects an element as its [CurrentAnchor](iscrollanchorprovider_currentanchor) by identifying the element in its viewport nearest to the anchor point.
 
 ## -property-value
-A normalized value (0.0f to 1.0f).  The default is 0.0f.
+
+A normalized value (0.0f to 1.0f). The default is 0.0f.
 
 ## -remarks
-A value of 0.0 represents the top-most point within the viewport.  A value of 1.0f represents the bottom-most point within the viewport.  A value of 0.5f represents the center-most point within the viewport.
 
-When the value is 0.0 or 1.0 the ScrollViewer applies special behavior when the scroll position is at the start or end of the scrollable area.
+A value of 0.0 represents the top-most point within the viewport. A value of 1.0f represents the bottom-most point within the viewport. A value of 0.5f represents the center-most point within the viewport.
+
+When the value is 0.0 or 1.0, the ScrollViewer applies special behavior when the scroll position is at the start or end of the scrollable area.
 
 ## -see-also
+
 * [IScrollAnchorProvider](iscrollanchorprovider)
 
 ## -examples
-

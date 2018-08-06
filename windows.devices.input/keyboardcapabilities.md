@@ -22,7 +22,7 @@ The following code shows how to create an instance of this class, and use it to 
 ```javascript
 function getKeyboardCapabilities() {
   var keyboardCapabilities = new Windows.Devices.Input.KeyboardCapabilities();
-  id("keyboardPresent").innerHTML = keyboardCapabilities.KeyboardPresent;
+  id("keyboardPresent").innerHTML = keyboardCapabilities.keyboardPresent;
 }
 
 ```
@@ -31,4 +31,4 @@ function getKeyboardCapabilities() {
 
 ## -see-also
 
-[Quickstart: Identifying input devices](https://docs.microsoft.com/en-us/windows/uwp/design/input/identify-input-devices), [Windows.Devices.Input](windows_devices_input.md), [Basic input sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620514)
+[Identify input devices](https://docs.microsoft.com/en-us/windows/uwp/design/input/identify-input-devices), [Basic input sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620514)

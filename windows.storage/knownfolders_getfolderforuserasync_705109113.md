@@ -14,7 +14,7 @@ Static method that returns a specified known folder for a [User](../windows.syst
 
 ## -parameters
 ### -param user
-The [User](../windows.system/user.md) for which the folder is returned. Use `null` for the current user.
+The [User](../windows.system/user.md) for which the folder is returned. Use `null` for the current user. In context of this API, current user refers to the user context of the process from where the API call is made.
 
 ### -param folderId
 The ID of the folder to be returned.

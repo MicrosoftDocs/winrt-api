@@ -13,8 +13,10 @@ public enum UserDataBufferUnprotectStatus : int
 
 ## -enum-fields
 ### -field Unavailable:1
+Unprotecting the provided buffer is not possible as the protected data is currently unavailable.
 
 ### -field Succeeded:0
+Unprotecting the provided buffer succeeded and the result buffer is available in 'UnprotectedBuffer' member.
 
 ## -remarks
 

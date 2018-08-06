@@ -16,7 +16,7 @@ Gets the result status of an operation to create an [AudioGraph](audiograph.md) 
 An enumeration value indicating audio graph creation status.
 
 ## -remarks
-If the result status is **Success**, get the instance of the audio graph with the [Graph](createmediasourceaudioinputnoderesult_graph.md) property.
+If the result status is **Success**, get the instance of the audio graph with the [Graph](createaudiographresult_graph.md) property.
 
 ## -examples
 

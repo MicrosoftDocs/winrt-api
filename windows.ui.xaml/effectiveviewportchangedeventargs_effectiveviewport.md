@@ -10,16 +10,19 @@ public Rect EffectiveViewport { get; }
 # Windows.UI.Xaml.EffectiveViewportChangedEventArgs.EffectiveViewport
 
 ## -description
-Gets the [Rect](../windows.foundation/rect) representing the effective viewport.
+
+Gets the [Rect](../windows.foundation/rect.md) representing the effective viewport.
 
 ## -property-value
-The [Rect](../windows.foundation/rect) representing the effective viewport.
+
+The [Rect](../windows.foundation/rect.md) representing the effective viewport.
 
 ## -remarks
-For more info, see the [EffectiveViewportChanged](frameworkelement_effectiveviewportchanged) event.
+
+For more info, see the [EffectiveViewportChanged](frameworkelement_effectiveviewportchanged.md) event.
 
 ## -see-also
-* [EffectiveViewportChanged](frameworkelement_effectiveviewportchanged)
+
+* [EffectiveViewportChanged](frameworkelement_effectiveviewportchanged.md)
 
 ## -examples
-
