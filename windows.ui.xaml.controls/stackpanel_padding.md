@@ -13,7 +13,7 @@ public Windows.UI.Xaml.Thickness Padding { get;  set; }
 Gets or sets the distance between the border and its child object.
 
 ## -xaml-syntax
-```xml
+```xaml
 <StackPanel Padding="uniform"/>
 - or -
 <StackPanel Padding="left&right,top&bottom"/>
