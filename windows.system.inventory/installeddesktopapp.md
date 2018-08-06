@@ -28,7 +28,7 @@ foreach(var app in installedApps)
     Console.WriteLine("Publisher: " + app.Publisher);
     Console.WriteLine("Display Version: " + app.DisplayVersion);
 }
-```  
+```
 
 ## -capabilities
 packageQuery

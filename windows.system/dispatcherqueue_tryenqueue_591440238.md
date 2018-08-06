@@ -27,7 +27,7 @@ Once [ShutdownQueueAsync()](dispatcherqueuecontroller_shutdownqueueasync_5425476
 ## -see-also
 
 ## -examples
-``` csharp
+```csharp
 // Create a new thread and initialize a DispatcherQueueController
 // and run a DispatcherQueue event loop on it.
 

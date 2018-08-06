@@ -27,7 +27,7 @@ A **true** value means the PC is running in an education environment (set either
 ## -see-also
 
 ## -examples
-``` cs
+```csharp
 if (Windows.System.Profile.EducationSettings.IsEducationEnvironment)
 {
     SetHomePage("about:EDU");
@@ -36,4 +36,4 @@ else
 {
     SetHomePage("about:start");
 }
-```  
+```

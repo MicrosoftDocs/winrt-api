@@ -29,7 +29,7 @@ If the app changes the SVG source again via [SetSourceAsync(IRandomAccessStream)
 
 This example shown here uses a file stream (obtained using a file picker, not shown) to load an image source by calling [SetSourceAsync(IRandomAccessStream)](svgimagesource_setsourceasync_1118221574.md). The file picker, stream and call to [SetSourceAsync(IRandomAccessStream)](svgimagesource_setsourceasync_1118221574.md) are all asynchronous.
 
-``` c#
+```csharp
 // Ensure the stream is disposed once the SVG is loaded
 using (IRandomAccessStream fileStream = await file.OpenAsync(Windows.Storage.FileAccessMode.Read))
 {

@@ -71,7 +71,7 @@ For example, to change the position of the child element using C#, first define 
 
 In the code-behind page, you can then access the position of the element, like this:
 
-```C#
+```csharp
 mySquare.SetValue(Canvas.LeftProperty,100);
 mySquare.SetValue(Canvas.TopProperty, 100);
 ```
