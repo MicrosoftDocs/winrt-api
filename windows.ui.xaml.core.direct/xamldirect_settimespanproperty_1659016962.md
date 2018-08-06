@@ -10,17 +10,17 @@ public void XamlDirect.SetTimeSpanProperty(IXamlDirectObject xamlDirectObject, X
 # Windows.UI.Xaml.Core.Direct.XamlDirect.SetTimeSpanProperty
 
 ## -description
+Sets the value of a _TimeSpan_ property for a specific [IXamlDirectObject](ixamldirectobject.md).
 
 ## -parameters
 ### -param xamlDirectObject
+A reference to the specific [IXamlDirectObject](ixamldirectobject.md).
 
 ### -param propertyIndex
+A reference to the _TimeSpan_ property to set the value of from the list of supported properties in [XamlPropertyIndex](xamlpropertyindex.md) enum.
 
 ### -param value
-
-## -remarks
+_TimeSpan_ value to set to the specified property.
 
 ## -see-also
-
-## -examples
-
+[XamlDirect.GetTimeSpanProperty](xamldirect_gettimespanproperty_1205664458.md)
