@@ -11,7 +11,11 @@ public DependencyProperty IconProperty { get; }
 
 ## -description
 
+Identifies the [Icon](navigationviewitempresenter_icon.md) dependency property.
+
 ## -property-value
+
+The identifier for the [Icon](navigationviewitempresenter_icon.md) dependency property.
 
 ## -remarks
 

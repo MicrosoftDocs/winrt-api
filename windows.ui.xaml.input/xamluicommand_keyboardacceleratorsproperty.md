@@ -11,7 +11,11 @@ public DependencyProperty KeyboardAcceleratorsProperty { get; }
 
 ## -description
 
+Identifies the [KeyboardAccelerators](xamluicommand_keyboardaccelerators.md) dependency property.
+
 ## -property-value
+
+The identifier for the [KeyboardAccelerators](xamluicommand_keyboardaccelerators.md) dependency property.
 
 ## -remarks
 

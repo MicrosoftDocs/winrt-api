@@ -11,6 +11,8 @@ public FlyoutShowOptions.FlyoutShowOptions()
 
 ## -description
 
+Initializes a new instance of the [FlyoutShowOptions](flyoutshowoptions.md) class.
+
 ## -remarks
 
 ## -see-also

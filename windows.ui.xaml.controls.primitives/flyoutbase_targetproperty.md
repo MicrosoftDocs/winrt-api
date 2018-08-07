@@ -11,7 +11,11 @@ public DependencyProperty TargetProperty { get; }
 
 ## -description
 
+Identifies the [Target](flyoutbase_target.md) dependency property.
+
 ## -property-value
+
+The identifier for the [Target](flyoutbase_target.md) dependency property.
 
 ## -remarks
 

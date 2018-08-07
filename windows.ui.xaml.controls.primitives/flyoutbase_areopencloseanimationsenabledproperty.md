@@ -11,7 +11,11 @@ public DependencyProperty AreOpenCloseAnimationsEnabledProperty { get; }
 
 ## -description
 
+Identifies the [AreOpenCloseAnimationsEnabled](flyoutbase_areopencloseanimationsenabled.md) dependency property.
+
 ## -property-value
+
+The identifier for the [AreOpenCloseAnimationsEnabled](flyoutbase_areopencloseanimationsenabled.md) dependency property.
 
 ## -remarks
 

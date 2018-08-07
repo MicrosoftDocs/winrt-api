@@ -11,7 +11,11 @@ public DependencyProperty IsOpenProperty { get; }
 
 ## -description
 
+Identifies the [IsOpen](flyoutbase_isopen.md) dependency property.
+
 ## -property-value
+
+The identifier for the [IsOpen](flyoutbase_isopen.md) dependency property.
 
 ## -remarks
 

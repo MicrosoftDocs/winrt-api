@@ -11,7 +11,11 @@ public DependencyProperty WideModeConfigurationProperty { get; }
 
 ## -description
 
+Identifies the [WideModeConfiguration](twopaneview_widemodeconfiguration.md) dependency property.
+
 ## -property-value
+
+The identifier for the [WideModeConfiguration](twopaneview_widemodeconfiguration.md) dependency property.
 
 ## -remarks
 

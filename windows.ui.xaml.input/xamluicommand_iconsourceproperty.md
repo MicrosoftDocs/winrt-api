@@ -11,7 +11,11 @@ public DependencyProperty IconSourceProperty { get; }
 
 ## -description
 
+Identifies the [IconSource](xamluicommand_iconsource.md) dependency property.
+
 ## -property-value
+
+The identifier for the [IconSource](xamluicommand_iconsource.md) dependency property.
 
 ## -remarks
 

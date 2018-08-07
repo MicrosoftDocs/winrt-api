@@ -11,6 +11,8 @@ public StandardUICommand.StandardUICommand()
 
 ## -description
 
+Initializes a new instance of the [StandardUICommand](standarduicommand.md) class.
+
 ## -remarks
 
 ## -see-also
