@@ -10,13 +10,13 @@ public string SystemSku { get; }
 # Windows.Security.ExchangeActiveSyncProvisioning.EasClientDeviceInformation.SystemSku
 
 ## -description
-Returns the system SKU of the local device.
+Gets the system SKU of the local device.
 
 ## -property-value
-The system SKU of the local device.
+A string containing the system SKU of the local device.
 
 ## -remarks
-> UWP apps only. The [SystemSku](easclientdeviceinformation_systemsku.md) property is retrieved from the registry. If the registry can't be read for any reason, [SystemSku](easclientdeviceinformation_systemsku.md) is returned as an empty string. If [SystemSku](easclientdeviceinformation_systemsku.md) is not empty, [SystemSku](easclientdeviceinformation_systemsku.md) is recommended to be used as the Model string. Otherwise, you can use [SystemManufacturer](easclientdeviceinformation_systemmanufacturer.md) and [SystemProductName](easclientdeviceinformation_systemproductname.md) to compose [SystemSku](easclientdeviceinformation_systemsku.md).
+The **SystemSku** property is retrieved from the registry. If the registry can't be read for any reason, **SystemSku** is returned as an empty string. If **SystemSku** is not empty, **SystemSku** is recommended to be used as the Model string. Otherwise, you can use [SystemManufacturer](easclientdeviceinformation_systemmanufacturer.md) and [SystemProductName](easclientdeviceinformation_systemproductname.md) to compose **SystemSku**.
 
 ## -examples
 

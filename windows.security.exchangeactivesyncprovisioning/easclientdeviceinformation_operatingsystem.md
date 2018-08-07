@@ -10,10 +10,10 @@ public string OperatingSystem { get; }
 # Windows.Security.ExchangeActiveSyncProvisioning.EasClientDeviceInformation.OperatingSystem
 
 ## -description
-Returns the operating system of the local device.
+Gets the name of the operating system of the local device.
 
 ## -property-value
-The operating system of the local device.
+A string containing the operating system of the local device.
 
 ## -remarks
 

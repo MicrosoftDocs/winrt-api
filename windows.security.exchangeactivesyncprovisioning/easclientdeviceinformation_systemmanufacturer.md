@@ -10,13 +10,13 @@ public string SystemManufacturer { get; }
 # Windows.Security.ExchangeActiveSyncProvisioning.EasClientDeviceInformation.SystemManufacturer
 
 ## -description
-Returns the system manufacturer of the local device. Use this only if the [SystemSku](easclientdeviceinformation_systemsku.md) is empty.
+Gets the system manufacturer of the local device. Use **SystemManufacturer** only if the value of [SystemSku](easclientdeviceinformation_systemsku.md) is empty.
 
 ## -property-value
-The system manufacturer of the local device. The value must be less than 1024 characters.
+A string containing the system manufacturer of the local device. The value is fewer than 1024 characters long.
 
 ## -remarks
-> UWP apps only. [SystemManufacturer](easclientdeviceinformation_systemmanufacturer.md) is retrieved from the registry. If the registry can't be read for any reason, [SystemManufacturer](easclientdeviceinformation_systemmanufacturer.md) is returned as an empty string.
+**SystemManufacturer** is retrieved from the Windows Registry. If the Registry can't be read for any reason, then **SystemManufacturer** is returned as an empty string.
 
 ## -examples
 
