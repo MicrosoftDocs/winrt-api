@@ -13,7 +13,7 @@ public Windows.UI.Xaml.Thickness Padding { get;  set; }
 Gets or sets the distance between the [ItemsPresenter](itemspresenter.md) and its child objects.
 
 ## -xaml-syntax
-```xml
+```xaml
 <ItemsPresenter Padding="uniform"/>
 - or -
 <ItemsPresenter Padding="left&right,top&bottom"/>

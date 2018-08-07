@@ -37,7 +37,7 @@ size of the **LoadedImageSurface**.
 ## -examples
 In this example, we set the size of a [SpriteVisual](../windows.ui.composition/spritevisual.md) to exactly match the decoded size of a successfully loaded [LoadedImageSurface](loadedimagesurface.md).
 
-```c#
+```csharp
 private Load_Completed(LoadedImageSurface sender, LoadedImageSourceLoadCompletedEventArgs e)
 {
     if(e.Status == LoadedImageSourceLoadStatus.Success){
@@ -49,7 +49,5 @@ private Load_Completed(LoadedImageSurface sender, LoadedImageSourceLoadCompleted
         // Handle a load failure
     }
 }
-
-
 ```
 
