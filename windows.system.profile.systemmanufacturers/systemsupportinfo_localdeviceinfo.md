@@ -10,8 +10,10 @@ public SystemSupportDeviceInfo LocalDeviceInfo { get; }
 # Windows.System.Profile.SystemManufacturers.SystemSupportInfo.LocalDeviceInfo
 
 ## -description
+Gets the local device.
 
 ## -property-value
+A [SystemSupportDeviceInfo](systemsupportdeviceinfo.md) value representing the local device.
 
 ## -remarks
 
