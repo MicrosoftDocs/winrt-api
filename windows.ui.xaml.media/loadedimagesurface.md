@@ -55,7 +55,7 @@ when the surface has been populated. During the loading process, the surface wil
 ## -examples
 This example shows how to load an image from a local URI onto a surface and use it in a [CompositionSurfaceBrush](../windows.ui.composition/compositionsurfacebrush.md).
 
-```c#
+```csharp
 Compositor compositor = new Compositor();
 CompositionSurfaceBrush imageBrush = compositor.CreateSurfaceBrush();
 
@@ -63,5 +63,4 @@ LoadedImageSurface loadedSurface = LoadedImageSurface.StartLoadFromUri(new Uri("
 
 // The loadedSurface currently has a size of 0x0 since it has not been downloaded, decoded and loaded to the surface yet
 imageBrush.Surface = loadedSurface;
-
 ```

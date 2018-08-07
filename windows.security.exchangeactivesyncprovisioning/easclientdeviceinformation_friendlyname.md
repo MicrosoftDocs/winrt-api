@@ -10,10 +10,10 @@ public string FriendlyName { get; }
 # Windows.Security.ExchangeActiveSyncProvisioning.EasClientDeviceInformation.FriendlyName
 
 ## -description
-Returns the friendly name of the local device.
+Gets the friendly name of the local device. This value might come from a NetBIOS computer name.
 
 ## -property-value
-The friendly name of the local device. This value might come from a NetBIOS computer name. The value must be less than 1024 characters.
+A string containing the friendly name of the local device. The value is fewer than 1024 characters long.
 
 ## -remarks
 

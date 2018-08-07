@@ -63,7 +63,7 @@ In addition to the members listed above, there are other members of the base cla
 
 This example creates a [MenuFlyout class](https://msdn.microsoft.com/library/windows/apps/dn299030) and uses the [ContextFlyout](https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.uielement.contextflyout.aspx) property, a property available to most controls, to show the [MenuFlyout class](https://msdn.microsoft.com/library/windows/apps/dn299030) as a context menu.
 
-````xaml
+```xaml
 <Rectangle Height="100" Width="100">
   <Rectangle.ContextFlyout>
     <MenuFlyout>
@@ -74,9 +74,9 @@ This example creates a [MenuFlyout class](https://msdn.microsoft.com/library/win
     <SolidColorBrush x:Name="rectangleFill" Color="Red" />
   </Rectangle.Fill>
 </Rectangle>
-````
+```
 
-````csharp
+```csharp
 private void ChangeColorItem_Click(object sender, RoutedEventArgs e)
 {
     // Change the color from red to blue or blue to red.
@@ -89,11 +89,11 @@ private void ChangeColorItem_Click(object sender, RoutedEventArgs e)
         rectangleFill.Color = Windows.UI.Colors.Red;
     }
 }
-````
+```
 
 The next example is nearly identical, but instead of using the [ContextFlyout](https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.uielement.contextflyout.aspx) property to show the [MenuFlyout class](https://msdn.microsoft.com/library/windows/apps/dn299030) as a context menu, the example uses the [FlyoutBase.ShowAttachedFlyout](https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.primitives.flyoutbase.showattachedflyout) property to show it as a menu.
 
-````xaml
+```xaml
 <Rectangle
   Height="100" Width="100"
   Tapped="Rectangle_Tapped">
@@ -106,9 +106,9 @@ The next example is nearly identical, but instead of using the [ContextFlyout](h
     <SolidColorBrush x:Name="rectangleFill" Color="Red" />
   </Rectangle.Fill>
 </Rectangle>
-````
+```
 
-````csharp
+```csharp
 private void Rectangle_Tapped(object sender, TappedRoutedEventArgs e)
 {
     FlyoutBase.ShowAttachedFlyout((FrameworkElement)sender);
@@ -126,7 +126,7 @@ private void ChangeColorItem_Click(object sender, RoutedEventArgs e)
         rectangleFill.Color = Windows.UI.Colors.Red;
     }
 }
-````
+```
 
 This example shows how you can add and remove menu items at runtime based on changing conditions in your app.
 
