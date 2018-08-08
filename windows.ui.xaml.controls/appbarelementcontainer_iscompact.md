@@ -11,7 +11,17 @@ public bool IsCompact { get;  set; }
 
 ## -description
 
+Gets or sets a value that indicates whether the element is shown in its compact state.
+
+## -xaml-syntax
+
+```xaml
+<AppBarElementContainer IsCompact="bool" .../>
+```
+
 ## -property-value
+
+**true** if the element is shown in its compact state; otherwise, **false**. The default is **false**.
 
 ## -remarks
 

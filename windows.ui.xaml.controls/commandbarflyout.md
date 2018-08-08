@@ -11,6 +11,18 @@ public class CommandBarFlyout : FlyoutBase, FlyoutBase
 
 ## -description
 
+Represents a specialized flyout that provides layout for [AppBarButton](appbarbutton.md) and related command elements.
+
+## -xaml-syntax
+
+```xaml
+<CommandBarFlyout .../>
+-or-
+<CommandBarFlyout>
+  commandBarElements
+</CommandBarFlyout>
+```
+
 ## -remarks
 
 ## -see-also

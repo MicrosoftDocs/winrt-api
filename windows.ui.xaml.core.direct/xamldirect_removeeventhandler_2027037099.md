@@ -30,7 +30,7 @@ Calling this method has no effect if there were no handlers registered with crit
 This method ignores whether _handledEventsToo_ parameter was true in the [XamlDirect.AddEventHandler](xamldirect_addeventhandler_1323041406.md) call that originally attached the handler.
 
 ## -see-also
-
+* [XamlDirect.AddEventHandler](xamldirect_addeventhandler_950477410.md)
 * [XamlDirect.AddEventHandler](xamldirect_addeventhandler_1323041406.md) 
 * [UIElement.AddHandler](../windows.ui.xaml/uielement_addhandler_2121467075.md)
 * [UIElement.RemoveHandler](../windows.ui.xaml/uielement_removehandler_661998757.md)
