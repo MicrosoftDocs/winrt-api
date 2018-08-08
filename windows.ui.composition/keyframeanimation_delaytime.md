@@ -10,10 +10,10 @@ public Windows.Foundation.TimeSpan DelayTime { get;  set; }
 # Windows.UI.Composition.KeyFrameAnimation.DelayTime
 
 ## -description
-Delay before the animation starts after [CompositionObject::StartAnimation](compositionobject_startanimation.md) is called.
+Delay before the animation starts after [CompositionObject.StartAnimation](compositionobject_startanimation_709050842.md) is called.
 
 ## -property-value
-Delay before the animation starts after [CompositionObject::StartAnimation](compositionobject_startanimation.md) is called.
+Delay before the animation starts after [CompositionObject.StartAnimation](compositionobject_startanimation_709050842.md) is called.
 
 ## -remarks
 
