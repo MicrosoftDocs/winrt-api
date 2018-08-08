@@ -10,7 +10,7 @@ public void SetReferenceParameter(System.String key, Windows.UI.Composition.Comp
 # Windows.UI.Composition.CompositionAnimation.SetReferenceParameter
 
 ## -description
-Sets a reference to a Composition object for use with an [ExpressionAnimation](expressionanimation.md) or an [expression keyframe](keyframeanimation_insertexpressionkeyframe.md).
+Sets a reference to a Composition object for use with an [ExpressionAnimation](expressionanimation.md) or an [expression keyframe](keyframeanimation_insertexpressionkeyframe_1955314135.md).
 
 ## -parameters
 ### -param key
@@ -20,7 +20,7 @@ The name of the parameter to set. The name can be used to reference the paramete
 The [CompositionObject](compositionobject.md) value.
 
 ## -remarks
-By setting a reference to a [CompositionObject](compositionobject.md), an [ExpressionAnimation](expressionanimation.md) can refer to any animatable property on that [CompositionObject](compositionobject.md). The [CompositionObject](compositionobject.md) 's current property value in the [Compositor](compositor.md) will be used when calculating the value of the expression. See the remarks section of [ExpressionAnimation](expressionanimation.md) for additional information.
+By setting a reference to a [CompositionObject](compositionobject.md), an [ExpressionAnimation](expressionanimation.md) can refer to any animatable property on that [CompositionObject](compositionobject.md). The [CompositionObject](compositionobject.md)'s current property value in the [Compositor](compositor.md) will be used when calculating the value of the expression. See the remarks section of [ExpressionAnimation](expressionanimation.md) for additional information.
 
 ## -examples
 The sample below outlines how to use an [ExpressionAnimation](expressionanimation.md) to create a parallax effect between a background and foreground visual. This type of animation can be seen on the Windows Start Screen and Windows Phone Hub UIs.
