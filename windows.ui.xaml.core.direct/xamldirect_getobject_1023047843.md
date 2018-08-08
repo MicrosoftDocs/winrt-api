@@ -10,7 +10,7 @@ public object XamlDirect.GetObject(IXamlDirectObject xamlDirectObject)
 # Windows.UI.Xaml.Core.Direct.XamlDirect.GetObject
 
 ## -description
-Gets (and creates if necessary) the instance as its full APIINDEX XAML type of the specified [IXamlDirectObject](ixamldirectobject.md). 
+Gets (and creates if necessary) the instance as its full XAML type of the specified [IXamlDirectObject](ixamldirectobject.md). 
 
 ## -parameters
 ### -param xamlDirectObject
