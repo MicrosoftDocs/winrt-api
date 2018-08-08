@@ -10,15 +10,15 @@ public IIterable<ILearningModelVariableDescriptorPreview> InputFeatures { get; }
 # Windows.AI.MachineLearning.Preview.LearningModelDescriptionPreview.InputFeatures
 
 ## -description
-Gets the input descriptions for the model.
+**Deprecated.** Gets the input descriptions for the model.
 
 ## -property-value
 The input descriptions for the model, keyed by name of input. 
 
 ## -remarks
 
-> [!NOTE]
-> Windows.AI.MachineLearning.Preview is a preview API and may be substantially modified before it’s officially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+> [!Warning]
+> This is a deprecated API. Please use the [Windows.AI.MachineLearning](../windows.ai.machinelearning/windows_ai_machinelearning.md) namespace instead.
 
 ## -see-also
 

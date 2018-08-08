@@ -10,15 +10,15 @@ public int MaxBatchSize { get;  set; }
 # Windows.AI.MachineLearning.Preview.InferencingOptionsPreview.MaxBatchSize
 
 ## -description
-Gets or sets the maximum batch size for model evaluation.
+**Deprecated.** Gets or sets the maximum batch size for model evaluation.
 
 ## -property-value
 The maximum batch size. Preview API only supports batching size of 1. 
 
 ## -remarks
 
-> [!NOTE]
-> Windows.AI.MachineLearning.Preview is a preview API and may be substantially modified before it’s officially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+> [!Warning]
+> This is a deprecated API. Please use the [Windows.AI.MachineLearning](../windows.ai.machinelearning/windows_ai_machinelearning.md) namespace instead.
 
 ## -see-also
 

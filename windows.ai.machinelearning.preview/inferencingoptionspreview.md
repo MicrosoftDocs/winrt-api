@@ -10,12 +10,12 @@ public class InferencingOptionsPreview : IInferencingOptionsPreview
 # Windows.AI.MachineLearning.Preview.InferencingOptionsPreview
 
 ## -description
-Represents the inference options for controlling the evaluation of a model.
+**Deprecated.** Represents the inference options for controlling the evaluation of a model.
 
 ## -remarks
 
-> [!NOTE]
-> Windows.AI.MachineLearning.Preview is a preview API and may be substantially modified before it’s officially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+> [!Warning]
+> This is a deprecated API. Please use the [Windows.AI.MachineLearning](../windows.ai.machinelearning/windows_ai_machinelearning.md) namespace instead.
 
 ## -see-also
 

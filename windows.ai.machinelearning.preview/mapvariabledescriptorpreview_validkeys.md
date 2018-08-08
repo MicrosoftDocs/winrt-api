@@ -10,15 +10,15 @@ public IIterable<string> ValidKeys { get; }
 # Windows.AI.MachineLearning.Preview.MapVariableDescriptorPreview.ValidKeys
 
 ## -description
-Gets the list of valid keys for the feature.
+**Deprecated.** Gets the list of valid keys for the feature.
 
 ## -property-value
 The list of valid keys.
 
 ## -remarks
 
-> [!NOTE]
-> Windows.AI.MachineLearning.Preview is a preview API and may be substantially modified before it’s officially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+> [!Warning]
+> This is a deprecated API. Please use the [Windows.AI.MachineLearning](../windows.ai.machinelearning/windows_ai_machinelearning.md) namespace instead.
 
 ## -see-also
 

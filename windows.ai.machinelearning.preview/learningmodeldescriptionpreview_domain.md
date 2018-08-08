@@ -10,15 +10,15 @@ public string Domain { get; }
 # Windows.AI.MachineLearning.Preview.LearningModelDescriptionPreview.Domain
 
 ## -description
-Gets the domain information for the model.
+**Deprecated.** Gets the domain information for the model.
 
 ## -property-value
 The domain information for the model.
 
 ## -remarks
 
-> [!NOTE]
-> Windows.AI.MachineLearning.Preview is a preview API and may be substantially modified before it’s officially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+> [!Warning]
+> This is a deprecated API. Please use the [Windows.AI.MachineLearning](../windows.ai.machinelearning/windows_ai_machinelearning.md) namespace instead.
 
 ## -see-also
 

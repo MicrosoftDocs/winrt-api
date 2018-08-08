@@ -10,15 +10,15 @@ public LearningModelDeviceKindPreview PreferredDeviceKind { get;  set; }
 # Windows.AI.MachineLearning.Preview.InferencingOptionsPreview.PreferredDeviceKind
 
 ## -description
-Gets or sets the preferred device that the evaluation will be performed on.
+**Deprecated.** Gets or sets the preferred device that the evaluation will be performed on.
 
 ## -property-value
 The preferred device. The default value is LearningDeviceAny.
 
 ## -remarks
 
-> [!NOTE]
-> Windows.AI.MachineLearning.Preview is a preview API and may be substantially modified before it’s officially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+> [!Warning]
+> This is a deprecated API. Please use the [Windows.AI.MachineLearning](../windows.ai.machinelearning/windows_ai_machinelearning.md) namespace instead.
 
 ## -see-also
 

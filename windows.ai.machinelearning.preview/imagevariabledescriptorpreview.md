@@ -10,12 +10,12 @@ public class ImageVariableDescriptorPreview : IImageVariableDescriptorPreview, I
 # Windows.AI.MachineLearning.Preview.ImageVariableDescriptorPreview
 
 ## -description
-Represents the image descriptor information.
+**Deprecated.** Represents the image descriptor information.
 
 ## -remarks
 
-> [!NOTE]
-> Windows.AI.MachineLearning.Preview is a preview API and may be substantially modified before it’s officially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+> [!Warning]
+> This is a deprecated API. Please use the [Windows.AI.MachineLearning](../windows.ai.machinelearning/windows_ai_machinelearning.md) namespace instead.
 
 ## -see-also
 

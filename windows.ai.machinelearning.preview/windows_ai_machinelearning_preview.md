@@ -11,15 +11,15 @@ namespace Windows.AI.MachineLearning.Preview
 
 ## -description
 
-Contains classes that enable apps to load machine learning models, bind data as inputs, and evaluate the results. (In preview)
+**Deprecated.** Please use [Windows.AI.MachineLearning](../windows.ai.machinelearning/windows.ai.machinelearning.md) instead.
 
 ## -remarks
 
-> [!NOTE]
-> Windows.AI.MachineLearning.Preview is a preview API and may be substantially modified before it’s officially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+> [!Warning]
+> This namespace contains deprecated APIs. Please use [Windows.AI.MachineLearning](../windows.ai.machinelearning/windows_ai_machinelearning.md) instead.
 
 ## -see-also
-[Windows ML (Preview) documentation](/windows/uwp/machine-learning/)
+
+[Windows.AI.MachineLearning](../windows.ai.machinelearning/windows.ai.machinelearning.md)
 
 ## -examples
-
