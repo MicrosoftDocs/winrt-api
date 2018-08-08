@@ -11,6 +11,8 @@ public TextCommandBarFlyout.TextCommandBarFlyout()
 
 ## -description
 
+Initializes a new instance of the [TextCommandBarFlyout](textcommandbarflyout.md) class.
+
 ## -remarks
 
 ## -see-also

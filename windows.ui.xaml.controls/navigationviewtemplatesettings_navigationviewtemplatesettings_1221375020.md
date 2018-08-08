@@ -11,6 +11,8 @@ public NavigationViewTemplateSettings.NavigationViewTemplateSettings()
 
 ## -description
 
+Initializes a new instance of the [NavigationViewTemplateSettings](navigationviewtemplatesettings.md) class.
+
 ## -remarks
 
 ## -see-also

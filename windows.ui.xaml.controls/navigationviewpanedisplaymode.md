@@ -12,13 +12,10 @@ public enum NavigationViewPaneDisplayMode : int
 ## -description
 
 ## -enum-fields
-### -field TopIcons:5
 
 ### -field Top:2
 
 ### -field LeftMinimal:4
-
-### -field LeftIconOnly:3
 
 ### -field Left:1
 

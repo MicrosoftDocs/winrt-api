@@ -11,7 +11,11 @@ public DependencyProperty DescriptionProperty { get; }
 
 ## -description
 
+Identifies the [Description](autosuggestbox_description.md) dependency property.
+
 ## -property-value
+
+The identifier for the [Description](autosuggestbox_description.md) dependency property.
 
 ## -remarks
 

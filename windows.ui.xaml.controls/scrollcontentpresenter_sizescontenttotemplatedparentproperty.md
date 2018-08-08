@@ -11,7 +11,11 @@ public DependencyProperty SizesContentToTemplatedParentProperty { get; }
 
 ## -description
 
+Identifies the [SizesContentToTemplatedParent](scrollcontentpresenter_sizescontenttotemplatedparent.md) dependency property.
+
 ## -property-value
+
+The identifier for the [SizesContentToTemplatedParent](scrollcontentpresenter_sizescontenttotemplatedparent.md) dependency property.
 
 ## -remarks
 

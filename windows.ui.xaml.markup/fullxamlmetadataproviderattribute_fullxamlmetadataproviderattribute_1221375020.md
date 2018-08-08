@@ -11,6 +11,8 @@ public FullXamlMetadataProviderAttribute.FullXamlMetadataProviderAttribute()
 
 ## -description
 
+Initializes a new instance of the [FullXamlMetadataProviderAttribute](fullxamlmetadataproviderattribute.md) class.
+
 ## -remarks
 
 ## -see-also

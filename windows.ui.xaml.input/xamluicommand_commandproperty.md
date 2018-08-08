@@ -11,7 +11,11 @@ public DependencyProperty CommandProperty { get; }
 
 ## -description
 
+Identifies the [Command](xamluicommand_command.md) dependency property.
+
 ## -property-value
+
+The identifier for the [Command](xamluicommand_command.md) dependency property.
 
 ## -remarks
 

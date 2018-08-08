@@ -11,7 +11,11 @@ public DependencyProperty InputDevicePrefersPrimaryCommandsProperty { get; }
 
 ## -description
 
+Identifies the [InputDevicePrefersPrimaryCommands](flyoutbase_inputdeviceprefersprimarycommands.md) dependency property.
+
 ## -property-value
+
+The identifier for the [InputDevicePrefersPrimaryCommands](flyoutbase_inputdeviceprefersprimarycommands.md) dependency property.
 
 ## -remarks
 

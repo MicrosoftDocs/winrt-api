@@ -11,7 +11,11 @@ public DependencyProperty CanContentRenderOutsideBoundsProperty { get; }
 
 ## -description
 
+Identifies the [CanContentRenderOutsideBounds](scrollcontentpresenter_cancontentrenderoutsidebounds.md) dependency property.
+
 ## -property-value
+
+The identifier for the [CanContentRenderOutsideBounds](scrollcontentpresenter_cancontentrenderoutsidebounds.md) dependency property.
 
 ## -remarks
 

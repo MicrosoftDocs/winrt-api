@@ -11,6 +11,8 @@ public CommandBarFlyout.CommandBarFlyout()
 
 ## -description
 
+Initializes a new instance of the [CommandBarFlyout](commandbarflyout.md) class.
+
 ## -remarks
 
 ## -see-also

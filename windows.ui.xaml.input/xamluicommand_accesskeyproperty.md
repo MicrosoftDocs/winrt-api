@@ -11,7 +11,11 @@ public DependencyProperty AccessKeyProperty { get; }
 
 ## -description
 
+Identifies the [AccessKey](xamluicommand_accesskey.md) dependency property.
+
 ## -property-value
+
+The identifier for the [AccessKey](xamluicommand_accesskey.md) dependency property.
 
 ## -remarks
 

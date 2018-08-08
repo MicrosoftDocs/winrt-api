@@ -11,7 +11,11 @@ public DependencyProperty KindProperty { get; }
 
 ## -description
 
+Identifies the [Kind](standarduicommand_kind.md) dependency property.
+
 ## -property-value
+
+The identifier for the [Kind](standarduicommand_kind.md) dependency property.
 
 ## -remarks
 

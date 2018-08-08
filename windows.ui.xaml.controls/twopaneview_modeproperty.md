@@ -11,7 +11,11 @@ public DependencyProperty ModeProperty { get; }
 
 ## -description
 
+Identifies the [Mode](twopaneview_mode.md) dependency property.
+
 ## -property-value
+
+The identifier for the [Mode](twopaneview_mode.md) dependency property.
 
 ## -remarks
 

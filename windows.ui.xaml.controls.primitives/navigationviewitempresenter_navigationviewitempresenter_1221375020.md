@@ -11,6 +11,8 @@ public NavigationViewItemPresenter.NavigationViewItemPresenter()
 
 ## -description
 
+Initializes a new instance of the [NavigationViewItemPresenter](navigationviewitempresenter.md) class.
+
 ## -remarks
 
 ## -see-also

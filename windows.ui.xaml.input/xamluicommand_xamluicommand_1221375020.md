@@ -11,6 +11,8 @@ public XamlUICommand.XamlUICommand()
 
 ## -description
 
+Initializes a new instance of the [XamlUICommand](xamluicommand.md) class.
+
 ## -remarks
 
 ## -see-also
