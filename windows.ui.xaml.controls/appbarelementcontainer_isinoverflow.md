@@ -11,7 +11,11 @@ public bool IsInOverflow { get; }
 
 ## -description
 
+Gets a value that indicates whether this item is in the overflow menu.
+
 ## -property-value
+
+**true** if this item is in the overflow menu; otherwise, **false**.
 
 ## -remarks
 
