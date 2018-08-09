@@ -10,15 +10,15 @@ public string Name { get; }
 # Windows.AI.MachineLearning.Preview.LearningModelDescriptionPreview.Name
 
 ## -description
-Gets the name of the model.
+**Deprecated.** Gets the name of the model.
 
 ## -property-value
 The name of the model.
 
 ## -remarks
 
-> [!NOTE]
-> Windows.AI.MachineLearning.Preview is a preview API and may be substantially modified before it’s officially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+> [!Warning]
+> This is a deprecated API. Please use the [Windows.AI.MachineLearning](../windows.ai.machinelearning/windows_ai_machinelearning.md) namespace instead.
 
 ## -see-also
 

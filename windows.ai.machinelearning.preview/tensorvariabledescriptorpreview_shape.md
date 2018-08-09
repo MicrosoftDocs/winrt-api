@@ -11,15 +11,15 @@ public IIterable<uint> Shape { get; }
 
 ## -description
 
-Gets the n-dimensional shape of the tensor.
+**Deprecated.** Gets the n-dimensional shape of the tensor.
 
 ## -property-value
 The n-dimensional shape of the tensor.
 
 ## -remarks
 
-> [!NOTE]
-> Windows.AI.MachineLearning.Preview is a preview API and may be substantially modified before it’s officially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+> [!Warning]
+> This is a deprecated API. Please use the [Windows.AI.MachineLearning](../windows.ai.machinelearning/windows_ai_machinelearning.md) namespace instead.
 
 ## -see-also
 

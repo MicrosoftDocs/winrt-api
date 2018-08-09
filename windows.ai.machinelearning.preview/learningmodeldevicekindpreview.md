@@ -10,7 +10,7 @@ public enum LearningModelDeviceKindPreview : int
 # Windows.AI.MachineLearning.Preview.LearningModelDeviceKindPreview
 
 ## -description
-Defines the list of constants representing Windows Machine Learning supported device kinds.
+**Deprecated.** Defines the list of constants representing Windows Machine Learning supported device kinds.
 
 ## -enum-fields
 ### -field LearningDeviceNpu:3
@@ -32,8 +32,8 @@ The defualt value. Any device.
 
 ## -remarks
 
-> [!NOTE]
-> Windows.AI.MachineLearning.Preview is a preview API and may be substantially modified before it’s officially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+> [!Warning]
+> This is a deprecated API. Please use the [Windows.AI.MachineLearning](../windows.ai.machinelearning/windows_ai_machinelearning.md) namespace instead.
 
 ## -see-also
 

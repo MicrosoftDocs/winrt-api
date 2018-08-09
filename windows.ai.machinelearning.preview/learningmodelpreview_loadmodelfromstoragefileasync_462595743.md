@@ -10,7 +10,7 @@ public IAsyncOperation<ILearningModelPreview> LearningModelPreview.LoadModelFrom
 # Windows.AI.MachineLearning.Preview.LearningModelPreview.LoadModelFromStorageFileAsync
 
 ## -description
-Asynchronously loads a model from file storage.
+**Deprecated.** Asynchronously loads a model from file storage.
 
 ## -parameters
 ### -param modelFile
@@ -21,8 +21,8 @@ Returns a LearningModelPreview.
 
 ## -remarks
 
-> [!NOTE]
-> Windows.AI.MachineLearning.Preview is a preview API and may be substantially modified before it’s officially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+> [!Warning]
+> This is a deprecated API. Please use the [Windows.AI.MachineLearning](../windows.ai.machinelearning/windows_ai_machinelearning.md) namespace instead.
 
 ## -see-also
 

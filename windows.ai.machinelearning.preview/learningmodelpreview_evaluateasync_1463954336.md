@@ -10,7 +10,7 @@ public IAsyncOperation<ILearningModelEvaluationResultPreview> LearningModelPrevi
 # Windows.AI.MachineLearning.Preview.LearningModelPreview.EvaluateAsync
 
 ## -description
-Asynchronously evaluates the model against the provided bound inputs and outputs.
+**Deprecated.** Asynchronously evaluates the model against the provided bound inputs and outputs.
 
 ## -parameters
 ### -param binding
@@ -24,8 +24,8 @@ The evaluation result.
 
 ## -remarks
 
-> [!NOTE]
-> Windows.AI.MachineLearning.Preview is a preview API and may be substantially modified before it’s officially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+> [!Warning]
+> This is a deprecated API. Please use the [Windows.AI.MachineLearning](../windows.ai.machinelearning/windows_ai_machinelearning.md) namespace instead.
 
 ## -see-also
 
