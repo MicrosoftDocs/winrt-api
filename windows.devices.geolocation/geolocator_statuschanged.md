@@ -35,50 +35,41 @@ async private void OnStatusChanged(Geolocator sender, StatusChangedEventArgs e)
         {
             case PositionStatus.Ready:
                 // Location platform is providing valid data.
-                ScenarioOutput_Status.Text = "Ready";
-                _rootPage.NotifyUser("Location platform is ready.", NotifyType.StatusMessage);
+                // notify user: Location platform is ready
                 break;
 
             case PositionStatus.Initializing:
                 // Location platform is attempting to acquire a fix. 
-                ScenarioOutput_Status.Text = "Initializing";
-                _rootPage.NotifyUser("Location platform is attempting to obtain a position.", NotifyType.StatusMessage);
+                // notify user: Location platform is attempting to obtain a position
                 break;
 
             case PositionStatus.NoData:
                 // Location platform could not obtain location data.
-                ScenarioOutput_Status.Text = "No data";
-                _rootPage.NotifyUser("Not able to determine the location.", NotifyType.ErrorMessage);
+                // notify user: Not able to determine the location
                 break;
 
             case PositionStatus.Disabled:
                 // The permission to access location data is denied by the user or other policies.
-                ScenarioOutput_Status.Text = "Disabled";
-                _rootPage.NotifyUser("Access to location is denied.", NotifyType.ErrorMessage);
-
-                // Show message to the user to go to location settings
-                LocationDisabledMessage.Visibility = Visibility.Visible;
+                // notify user: Access to location is denied
 
                 // Clear cached location data if any
-                UpdateLocationData(null);
                 break;
 
             case PositionStatus.NotInitialized:
                 // The location platform is not initialized. This indicates that the application 
                 // has not made a request for location data.
-                ScenarioOutput_Status.Text = "Not initialized";
-                _rootPage.NotifyUser("No request for location is made yet.", NotifyType.StatusMessage);
+
+                // notify user: No request for location is made yet
                 break;
 
             case PositionStatus.NotAvailable:
                 // The location platform is not available on this version of the OS.
-                ScenarioOutput_Status.Text = "Not available";
-                _rootPage.NotifyUser("Location is not available on this version of the OS.", NotifyType.ErrorMessage);
+
+                // notify user: Location is not available on this version of the OS
                 break;
 
             default:
-                ScenarioOutput_Status.Text = "Unknown";
-                _rootPage.NotifyUser(string.Empty, NotifyType.StatusMessage);
+                // unknown result
                 break;
         }
     });

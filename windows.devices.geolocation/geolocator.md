@@ -26,7 +26,7 @@ var accessStatus = await Geolocator.RequestAccessAsync();
 switch (accessStatus)
 {
     case GeolocationAccessStatus.Allowed:
-        _rootPage.NotifyUser("Waiting for update...", NotifyType.StatusMessage);
+        // notify user: Waiting for update
 
         // If DesiredAccuracy or DesiredAccuracyInMeters are not set (or value is 0), DesiredAccuracy.Default is used.
         Geolocator geolocator = new Geolocator { DesiredAccuracyInMeters = _desireAccuracyInMetersValue };
@@ -38,18 +38,16 @@ switch (accessStatus)
         Geoposition pos = await geolocator.GetGeopositionAsync();
 
         UpdateLocationData(pos);
-        _rootPage.NotifyUser("Location updated.", NotifyType.StatusMessage);
+        // notify user: Location updated
         break;
 
     case GeolocationAccessStatus.Denied:
-        _rootPage.NotifyUser("Access to location is denied.", NotifyType.ErrorMessage);
-        LocationDisabledMessage.Visibility = Visibility.Visible;
-        UpdateLocationData(null);
+        // notify user: Access to location is denied
+
         break;
 
     case GeolocationAccessStatus.Unspecified:
-        _rootPage.NotifyUser("Unspecified error.", NotifyType.ErrorMessage);
-        UpdateLocationData(null);
+        // notify user: Unspecified error
         break;
 }
 ```
