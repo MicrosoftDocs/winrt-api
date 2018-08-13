@@ -31,3 +31,26 @@ See [Raw game controller](https://docs.microsoft.com/en-us/windows/uwp/gaming/ra
 [Input practices for games](https://docs.microsoft.com/windows/uwp/gaming/input-practices-for-games)
 
 ## -examples
+
+The following code snippet shows how to loop through the **RawGameController.RawGameControllers** list and add each **RawGameController** to a vector. You'll need to put a lock on the vector, because things can change at any time (a controller might be disconnected or reconnected, for example).
+
+```cpp
+void GetRawGameControllers()
+{
+    auto myControllers{ std::vector<RawGameController>() };
+    critical_section myLock{};
+
+    for (auto controller : RawGameController::RawGameControllers())
+    {
+        // Check if the controller is already in myControllers; if it isn't, add it.
+        critical_section::scoped_lock lock{ myLock };
+        auto it = std::find(begin(myControllers), end(myControllers), controller);
+
+        if (it == end(myControllers))
+        {
+            // This code assumes that you're interested in all controllers.
+            myControllers.emplace_back(controller);
+        }
+    }
+}
+```
