@@ -28,7 +28,7 @@ Conditions in which this event can occur include:
 + Qualified resource reload by the system
 You might be able to use the [ErrorMessage](../windows.ui.xaml/exceptionroutedeventargs_errormessage.md) in event data to determine the nature of the failure.
 
-[ImageFailed](image_imagefailed.md) and [ImageOpened](image_imageopened.md) are mutually exclusive. One event or the other will always file whenever an [Image](image.md) has a [Source](image_source.md) value set or reset.
+[ImageFailed](image_imagefailed.md) and [ImageOpened](image_imageopened.md) are mutually exclusive. One event or the other will always fire whenever an [Image](image.md) has a [Source](image_source.md) value set or reset.
 
 One scenario for handling [ImageFailed](image_imagefailed.md) is to set the [UriSource](../windows.ui.xaml.media.imaging/bitmapimage_urisource.md) of the underlying [BitmapImage](../windows.ui.xaml.media.imaging/bitmapimage.md) source to a different local image file. This can serve as a fallback value to display instead of empty space. For example, if you are trying to display an external image where it's possible that the source is no longer there, or for when the user has no Internet connection, you could set the [UriSource](../windows.ui.xaml.media.imaging/bitmapimage_urisource.md) to reference a local fallback or placeholder image that's part of your app package and is always guaranteed to be available.
 
