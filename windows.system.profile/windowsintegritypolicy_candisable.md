@@ -10,10 +10,10 @@ public bool CanDisable { get; }
 # Windows.System.Profile.WindowsIntegrityPolicy.CanDisable
 
 ## -description
-Gets a value that indicates whether or not Windows 10 secure mode (10 S mode) can be disabled.
+Gets a value that indicates whether or not Windows 10 secure mode (10 S mode) can be disabled by any means&mdash;at run time and/or offline; by the original equipment manufacturere (OEM), or by a third party.
 
 ## -property-value
-`true` if Windows 10 secure mode (10 S mode) can be disabled, otherwise `false`.
+`true` if Windows 10 secure mode (10 S mode) can be disabled by any means, otherwise `false`.
 
 ## -remarks
 
