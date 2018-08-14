@@ -11,7 +11,11 @@ public bool IsPaneVisible { get;  set; }
 
 ## -description
 
+Gets or sets a value that determines whether the pane is shown.
+
 ## -property-value
+
+**true** is the pane is shown; otherwise, **false**. The default is **true**.
 
 ## -remarks
 

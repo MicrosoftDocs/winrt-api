@@ -11,6 +11,14 @@ public event TypedEventHandler SelectionChanging<RichEditBox, RichEditBoxSelecti
 
 ## -description
 
+Occurs when the text selection starts to change.
+
+## -xaml-syntax
+
+```xaml
+<RichEditBox SelectionChanging="eventhandler"/>
+```
+
 ## -remarks
 
 ## -see-also

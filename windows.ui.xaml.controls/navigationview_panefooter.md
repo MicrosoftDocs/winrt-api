@@ -33,9 +33,9 @@ Gets or sets the content for the pane footer.
 The content of the pane footer. The default is **null**.
 
 ## -remarks
-Note that you cannot place **NavigationViewItems** in **NavigationView.PaneFooter**.
+
+The PaneFooter property takes a single UIElement, which can be a layout panel that contains additional elements.
 
 ## -see-also
 
 ## -examples
-

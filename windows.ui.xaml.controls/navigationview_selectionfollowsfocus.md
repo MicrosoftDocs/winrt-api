@@ -11,7 +11,11 @@ public NavigationViewSelectionFollowsFocus SelectionFollowsFocus { get;  set; }
 
 ## -description
 
+Gets or sets a value that indicates whether item selection changes when keyboard focus changes.
+
 ## -property-value
+
+A value of the enumeration that indicates whether selection changes when keyboard focus changes. The default is **Disabled**.
 
 ## -remarks
 

@@ -11,6 +11,8 @@ public class DatePickerSelectedValueChangedEventArgs
 
 ## -description
 
+Provides event data for the [DatePicker.SelectedDateChanged](datepicker_selecteddatechanged.md) event.
+
 ## -remarks
 
 ## -see-also

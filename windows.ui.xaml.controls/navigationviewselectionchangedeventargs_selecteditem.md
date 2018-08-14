@@ -19,6 +19,8 @@ The newly selected menu item.
 
 ## -remarks
 
+This property gets the data item that was selected. To get the NavigationViewItem that is the container for the selected item, use the [SelectedItemContainer](navigationviewselectionchangedeventargs_selecteditemcontainer.md) property.
+
 ## -see-also
 
 ## -examples

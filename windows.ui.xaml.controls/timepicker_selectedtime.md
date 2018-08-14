@@ -11,7 +11,12 @@ public IReference<TimeSpan> SelectedTime { get;  set; }
 
 ## -description
 
+Gets or sets the time currently selected in the time picker.
+
+
 ## -property-value
+
+The time currently selected in the time picker.
 
 ## -remarks
 

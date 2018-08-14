@@ -11,7 +11,11 @@ public bool CanUndo { get; }
 
 ## -description
 
+Gets a value that indicates whether the undo buffer contains an action that can be undone.
+
 ## -property-value
+
+**true** if the undo buffer contains an action that can be undone; otherwise, **false**.
 
 ## -remarks
 

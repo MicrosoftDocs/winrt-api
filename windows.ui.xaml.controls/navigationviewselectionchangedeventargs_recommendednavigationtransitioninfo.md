@@ -11,7 +11,11 @@ public NavigationTransitionInfo RecommendedNavigationTransitionInfo { get; }
 
 ## -description
 
+Gets the navigation transition recommended for the direction of the navigation.
+
 ## -property-value
+
+The navigation transition recommended for the direction of the navigation.
 
 ## -remarks
 

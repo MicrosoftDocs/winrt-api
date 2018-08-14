@@ -11,6 +11,8 @@ public void TextBox.Redo()
 
 ## -description
 
+Reapplies the first action in the redo buffer.
+
 ## -remarks
 
 ## -see-also

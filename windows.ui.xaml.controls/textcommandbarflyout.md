@@ -11,6 +11,8 @@ public class TextCommandBarFlyout : CommandBarFlyout, CommandBarFlyout
 
 ## -description
 
+Represents a specialized command bar flyout that contains commands for editing text.
+
 ## -remarks
 
 ## -see-also

@@ -11,6 +11,8 @@ public class MenuBarItem : Control, Control
 
 ## -description
 
+Represents a top-level menu in a MenuBar control.
+
 ## -remarks
 
 ## -see-also

@@ -11,6 +11,8 @@ public class TimePickerSelectedValueChangedEventArgs
 
 ## -description
 
+Provides event data for the [TimePicker.SelectedTimeChanged](timepicker_selectedtimechanged.md) event.
+
 ## -remarks
 
 ## -see-also

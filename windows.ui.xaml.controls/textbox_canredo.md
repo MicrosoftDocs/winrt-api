@@ -11,7 +11,11 @@ public bool CanRedo { get; }
 
 ## -description
 
+Gets a value that indicates whether the redo buffer contains an action that can be redone.
+
 ## -property-value
+
+**true** if the redo buffer contains an action that can be redone; otherwise, **false**.
 
 ## -remarks
 

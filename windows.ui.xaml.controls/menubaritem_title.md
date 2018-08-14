@@ -11,7 +11,11 @@ public string Title { get;  set; }
 
 ## -description
 
+Gets or sets the text label for a MenuBar menu.
+
 ## -property-value
+
+The text label for this menu. The default is an empty string.
 
 ## -remarks
 

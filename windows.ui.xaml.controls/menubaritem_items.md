@@ -11,7 +11,11 @@ public IVector<MenuFlyoutItemBase> Items { get; }
 
 ## -description
 
+Gets the collection of commands in a MenuBar menu.
+
 ## -property-value
+
+The collection of commands in a MenuBar menu.
 
 ## -remarks
 
