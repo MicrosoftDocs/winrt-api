@@ -11,7 +11,11 @@ public IVector<MenuBarItem> Items { get; }
 
 ## -description
 
+Gets the collection of top-level menu items.
+
 ## -property-value
+
+The collection of top-level menu items.
 
 ## -remarks
 

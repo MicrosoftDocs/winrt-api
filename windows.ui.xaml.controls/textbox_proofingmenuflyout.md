@@ -11,7 +11,11 @@ public FlyoutBase ProofingMenuFlyout { get; }
 
 ## -description
 
+Gets the flyout that shows proofing commands.
+
 ## -property-value
+
+The flyout that shows proofing commands.
 
 ## -remarks
 

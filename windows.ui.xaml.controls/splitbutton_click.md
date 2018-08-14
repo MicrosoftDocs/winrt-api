@@ -11,6 +11,8 @@ public event TypedEventHandler Click<SplitButton, SplitButtonClickEventArgs>
 
 ## -description
 
+Occurs when a button control is clicked.
+
 ## -remarks
 
 ## -see-also

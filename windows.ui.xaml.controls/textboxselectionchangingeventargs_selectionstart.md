@@ -11,7 +11,11 @@ public int SelectionStart { get; }
 
 ## -description
 
+Gets the starting index of the text selection.
+
 ## -property-value
+
+The starting index of the text selection.
 
 ## -remarks
 

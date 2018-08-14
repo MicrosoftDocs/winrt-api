@@ -11,6 +11,8 @@ public void TextBox.ClearUndoRedoHistory()
 
 ## -description
 
+Empties the undo and redo buffers.
+
 ## -remarks
 
 ## -see-also

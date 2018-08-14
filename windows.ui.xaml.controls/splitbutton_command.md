@@ -11,7 +11,11 @@ public ICommand Command { get;  set; }
 
 ## -description
 
+Gets or sets the command to invoke when this button is pressed.
+
 ## -property-value
+
+The command to invoke when this button is pressed. The default is **null**.
 
 ## -remarks
 

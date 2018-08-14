@@ -11,7 +11,11 @@ public FlyoutBase Flyout { get;  set; }
 
 ## -description
 
+Gets or sets the flyout associated with this button.
+
 ## -property-value
+
+The flyout associated with this button. The default is **null**.
 
 ## -remarks
 

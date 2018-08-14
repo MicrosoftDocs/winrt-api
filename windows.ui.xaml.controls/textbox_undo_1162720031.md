@@ -11,6 +11,8 @@ public void TextBox.Undo()
 
 ## -description
 
+Undoes the first action in the undo buffer.
+
 ## -remarks
 
 ## -see-also
