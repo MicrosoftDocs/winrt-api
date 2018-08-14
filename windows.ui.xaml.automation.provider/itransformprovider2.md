@@ -17,7 +17,7 @@ This pattern has guidelines and conventions that aren't fully documented here. F
 
 
 <!--<rem  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><xref targtype="interface_winrt" rid="w_ui_xaml_auto_prov.itransformprovider2">ITransformProvider2</xref> isn't implemented by any existing <tla rid="winrt"/> automation peers. The interface exists so that custom control authors can support the automation pattern in a custom control, and implement their automation support using the same <tla rid="winrt"/> managed or C++ <tla plural="1" rid="tla_api"/> as they use to define control logic or other automation support.</rem>-->
-Use the [TransformPattern2Identifiers](../windows.ui.xaml.automation/transformpattern2identifiers.md) class if you want to reference the [ITransformProvider2](itransformprovider2.md) pattern properties from control code when you call [RaisePropertyChangedEvent](../windows.ui.xaml.automation.peers/automationpeer_raisepropertychangedevent.md).
+Use the [TransformPattern2Identifiers](../windows.ui.xaml.automation/transformpattern2identifiers.md) class if you want to reference the [ITransformProvider2](itransformprovider2.md) pattern properties from control code when you call [RaisePropertyChangedEvent](../windows.ui.xaml.automation.peers/automationpeer_raisepropertychangedevent_715050195.md).
 
 ## -examples
 

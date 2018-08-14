@@ -22,7 +22,7 @@ The key that references the default style for the control. To work correctly as 
 
 ## -remarks
 
- [DefaultStyleKey](control_defaultstylekey.md) is one of the very few protected properties in the Windows Runtime  API. It's intended only for use by control authors, who will be subclassing some existing control class and therefore have the necessary access to set this property. For many custom control scenarios where you'll be setting [DefaultStyleKey](control_defaultstylekey.md), you'll also be overriding [OnApplyTemplate](../windows.ui.xaml/frameworkelement_onapplytemplate.md).
+ [DefaultStyleKey](control_defaultstylekey.md) is one of the very few protected properties in the Windows Runtime  API. It's intended only for use by control authors, who will be subclassing some existing control class and therefore have the necessary access to set this property. For many custom control scenarios where you'll be setting [DefaultStyleKey](control_defaultstylekey.md), you'll also be overriding [OnApplyTemplate](../windows.ui.xaml/frameworkelement_onapplytemplate_1955470198.md).
 
 The return type of [DefaultStyleKey](control_defaultstylekey.md) is loosely typed as **Object** in the syntax, but the XAML style system will expect the value to provide a type reference:
 
@@ -76,4 +76,4 @@ The "local:" prefix (or some other namespace that maps to your app's code and na
 ## -examples
 
 ## -see-also
-[OnApplyTemplate](../windows.ui.xaml/frameworkelement_onapplytemplate.md), [Style](../windows.ui.xaml/style.md), [Style.TargetType](../windows.ui.xaml/style_targettype.md), [XAML namespaces and namespace mapping](http://msdn.microsoft.com/library/a19dff78-e692-47ae-8221-ab5ea9470e8b), [ResourceDictionary and XAML resource references](http://msdn.microsoft.com/library/e3cbfa3d-6af5-44e1-b9f9-c3d3ea8a25ce), [Quickstart: Control templates](http://msdn.microsoft.com/library/67c424ae-afb1-4560-a6a8-4a3506775d77)
+[OnApplyTemplate](../windows.ui.xaml/frameworkelement_onapplytemplate_1955470198.md), [Style](../windows.ui.xaml/style.md), [Style.TargetType](../windows.ui.xaml/style_targettype.md), [XAML namespaces and namespace mapping](http://msdn.microsoft.com/library/a19dff78-e692-47ae-8221-ab5ea9470e8b), [ResourceDictionary and XAML resource references](http://msdn.microsoft.com/library/e3cbfa3d-6af5-44e1-b9f9-c3d3ea8a25ce), [Quickstart: Control templates](http://msdn.microsoft.com/library/67c424ae-afb1-4560-a6a8-4a3506775d77)

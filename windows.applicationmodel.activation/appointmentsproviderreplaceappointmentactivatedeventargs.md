@@ -18,7 +18,7 @@ Provides data when an app is activated to replace an appointment in the user’s
 > This type appears as [WebUIAppointmentsProviderReplaceAppointmentActivatedEventArgs](../windows.ui.webui/webuiappointmentsproviderreplaceappointmentactivatedeventargs.md).
 
 ## -remarks
-This object is accessed when you override the [OnActivated](../windows.ui.xaml/application_onactivated.md) method, [IActivatedEventArgs.Kind](iactivatedeventargs_kind.md) is **AppointmentsProvider**, and [IAppointmentsProviderActivatedEventArgs.Verb](iappointmentsprovideractivatedeventargs_verb.md) is equal to the value of the [AppointmentsProviderLaunchActionVerbs.ReplaceAppointment](../windows.applicationmodel.appointments.appointmentsprovider/appointmentsproviderlaunchactionverbs_replaceappointment.md) property.
+This object is accessed when you override the [OnActivated](../windows.ui.xaml/application_onactivated_603737819.md) method, [IActivatedEventArgs.Kind](iactivatedeventargs_kind.md) is **AppointmentsProvider**, and [IAppointmentsProviderActivatedEventArgs.Verb](iappointmentsprovideractivatedeventargs_verb.md) is equal to the value of the [AppointmentsProviderLaunchActionVerbs.ReplaceAppointment](../windows.applicationmodel.appointments.appointmentsprovider/appointmentsproviderlaunchactionverbs_replaceappointment.md) property.
 
 ## -examples
 

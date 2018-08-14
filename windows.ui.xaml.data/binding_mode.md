@@ -29,7 +29,7 @@ For **OneWay** and **TwoWay** bindings, dynamic changes to the source don't auto
 
 For **TwoWay** bindings, changes to the target automatically propagate to the source, except if the binding target is the [TextBox.Text](../windows.ui.xaml.controls/textbox_text.md) property. In that case, the update happens only when the [TextBox](../windows.ui.xaml.controls/textbox.md) loses focus. Also, it's possible to set [UpdateSourceTrigger](binding_updatesourcetrigger.md) on **TwoWay** bindings to **Explicit**, in which case you control the updates to the source explicitly by calling [UpdateSource](bindingexpression_updatesource_190615267.md).
 
-For **OneTime** and **OneWay** bindings, calls to [DependencyObject.SetValue](../windows.ui.xaml/dependencyobject_setvalue.md) automatically change the target value and delete the binding.
+For **OneTime** and **OneWay** bindings, calls to [DependencyObject.SetValue](../windows.ui.xaml/dependencyobject_setvalue_52578133.md) automatically change the target value and delete the binding.
 
 
 <!--For two way, what? Updates source, or deletes binding and therefore source no longer connected?-->

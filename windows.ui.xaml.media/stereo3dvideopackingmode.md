@@ -32,7 +32,7 @@ Stereo 3-D content packing with components top and bottom.
 ## -remarks
 The default is to allow the system to determine the packing mode from the metadata of the video content.
 
-In order to reset this value once it has been set, use the [ClearValue](../windows.ui.xaml/dependencyobject_clearvalue.md) API.
+In order to reset this value once it has been set, use the [ClearValue](../windows.ui.xaml/dependencyobject_clearvalue_1095854009.md) API.
 
 This API is used in conjunction with [Stereo3DVideoRenderMode](stereo3dvideorendermode.md) to display 3-D content.
 

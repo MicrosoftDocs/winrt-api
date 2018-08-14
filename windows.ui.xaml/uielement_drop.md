@@ -33,7 +33,7 @@ For touch actions, drag-drop actions, and also for interaction-specific or manip
 
 [Drop](uielement_drop.md) supports the ability to attach event handlers to the route that will be invoked even if the event data for the event is marked [Handled](drageventargs_handled.md). See [AddHandler](uielement_addhandler_2121467075.md).
 
-Specific Windows Runtime controls may have class-based handling for the [Drop](uielement_drop.md) event. If so, the control's logic probably has an override for the method [OnDrop](../windows.ui.xaml.controls/control_ondrop.md). Typically the event is marked handled by the class handler, and the [Drop](uielement_drop.md) event is not raised for handling by any user code handlers on that control. For more info, see [Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
+Specific Windows Runtime controls may have class-based handling for the [Drop](uielement_drop.md) event. If so, the control's logic probably has an override for the method [OnDrop](../windows.ui.xaml.controls/control_ondrop_1015747496.md). Typically the event is marked handled by the class handler, and the [Drop](uielement_drop.md) event is not raised for handling by any user code handlers on that control. For more info, see [Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
 
 Independent of the event occurrence, some controls may use theme animations such as [DragItemThemeAnimation](../windows.ui.xaml.media.animation/dragitemthemeanimation.md) to visually indicate a drag behavior to the user.
 

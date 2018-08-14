@@ -83,10 +83,10 @@ The [FileOpenPicker](../windows.storage.pickers/fileopenpicker.md) does not requ
 
 1. 1. Call [FileOpenPicker](../windows.storage.pickers/fileopenpicker.md) to let the user pick a media file.
 
-Use the [FileOpenPicker](../windows.storage.pickers/fileopenpicker.md) class to select a media file. Set the [FileTypeFilter](../windows.storage.pickers/fileopenpicker_filetypefilter.md) to specify which file types the [FileOpenPicker](../windows.storage.pickers/fileopenpicker.md) will display. Call [PickSingleFileAsync](../windows.storage.pickers/fileopenpicker_picksinglefileasync.md) to launch the file picker and get the file.
+Use the [FileOpenPicker](../windows.storage.pickers/fileopenpicker.md) class to select a media file. Set the [FileTypeFilter](../windows.storage.pickers/fileopenpicker_filetypefilter.md) to specify which file types the [FileOpenPicker](../windows.storage.pickers/fileopenpicker.md) will display. Call [PickSingleFileAsync](../windows.storage.pickers/fileopenpicker_picksinglefileasync_1320627792.md) to launch the file picker and get the file.
 1. Call [SetSource](mediaelement_setsource_1817094346.md) to set the chosen media file as the [MediaElement.Source](mediaelement_source.md).
 
-To set the [Source](mediaelement_source.md) of the [MediaElement](mediaelement.md) to the [StorageFile](../windows.storage/storagefile.md) returned from the [FileOpenPicker](../windows.storage.pickers/fileopenpicker.md), you need to open a stream. Call the [OpenAsync](../windows.storage/storagefile_openasync.md) method on the [StorageFile](../windows.storage/storagefile.md) returns a stream that you can pass into the [MediaElement.SetSource](mediaelement_setsource_1817094346.md) method. Then call [Play](mediaelement_play_848564459.md) on the [MediaElement](mediaelement.md) to start the media.
+To set the [Source](mediaelement_source.md) of the [MediaElement](mediaelement.md) to the [StorageFile](../windows.storage/storagefile.md) returned from the [FileOpenPicker](../windows.storage.pickers/fileopenpicker.md), you need to open a stream. Call the [OpenAsync](../windows.storage/storagefile_openasync_1542217918.md) method on the [StorageFile](../windows.storage/storagefile.md) returns a stream that you can pass into the [MediaElement.SetSource](mediaelement_setsource_1817094346.md) method. Then call [Play](mediaelement_play_848564459.md) on the [MediaElement](mediaelement.md) to start the media.
 This example shows how to use the [FileOpenPicker](../windows.storage.pickers/fileopenpicker.md) to choose a file and set the file as the [Source](mediaelement_source.md) of a [MediaElement](mediaelement.md).
 
 ```xaml
@@ -171,11 +171,11 @@ private bool SetAudioLanguage(string lcid, MediaElement media)
 Use the [IsFullWindow](mediaelement_isfullwindow.md) property to enable and disable full window rendering. When in full-window mode, input events received on the [MediaElement](mediaelement.md) will still route through to the visual tree in the background. For example, if the [MediaElement](mediaelement.md) is in a [ListBox](listbox.md), turning the scroll wheel could cause the [ListBox](listbox.md) to scroll in the background. This can cause unexpected behavior. If input events should not be routed when in full-window mode, the [MediaElement](mediaelement.md) should handle the events.
 
 > [!NOTE]
-> We recommend that you not use [MediaElement](mediaelement.md) in a [Popup](../windows.ui.xaml.controls.primitives/popup.md) control. If a [MediaElement](mediaelement.md) hosted in a [Popup](../windows.ui.xaml.controls.primitives/popup.md) is switched to full-window mode, the [Popup](../windows.ui.xaml.controls.primitives/popup.md) is rendered on top of the [MediaElement](mediaelement.md). If you must use a [MediaElement](mediaelement.md) in a [Popup](../windows.ui.xaml.controls.primitives/popup.md), you should collapse the [Popup](../windows.ui.xaml.controls.primitives/popup.md) when the [MediaElement](mediaelement.md) enters full-window mode, and restore the [Popup](../windows.ui.xaml.controls.primitives/popup.md) when the [MediaElement](mediaelement.md) exits full-window mode. Use [DependencyProperty.RegisterPropertyChangedCallback](../windows.ui.xaml/dependencyobject_registerpropertychangedcallback.md) to be notified when the [MediaElement.IsFullWindow](mediaelement_isfullwindow.md) property changes. For an example, see the Examples section.
+> We recommend that you not use [MediaElement](mediaelement.md) in a [Popup](../windows.ui.xaml.controls.primitives/popup.md) control. If a [MediaElement](mediaelement.md) hosted in a [Popup](../windows.ui.xaml.controls.primitives/popup.md) is switched to full-window mode, the [Popup](../windows.ui.xaml.controls.primitives/popup.md) is rendered on top of the [MediaElement](mediaelement.md). If you must use a [MediaElement](mediaelement.md) in a [Popup](../windows.ui.xaml.controls.primitives/popup.md), you should collapse the [Popup](../windows.ui.xaml.controls.primitives/popup.md) when the [MediaElement](mediaelement.md) enters full-window mode, and restore the [Popup](../windows.ui.xaml.controls.primitives/popup.md) when the [MediaElement](mediaelement.md) exits full-window mode. Use [DependencyProperty.RegisterPropertyChangedCallback](../windows.ui.xaml/dependencyobject_registerpropertychangedcallback_1557279748.md) to be notified when the [MediaElement.IsFullWindow](mediaelement_isfullwindow.md) property changes. For an example, see the Examples section.
 
 ### Keep media playing
 
-To prevent the display from being deactivated when user action is no longer detected, such as when an app is playing video, you can call [DisplayRequest.RequestActive](../windows.system.display/displayrequest_requestactive.md). To conserve power and battery life, you should call [DisplayRequest.RequestRelease](../windows.system.display/displayrequest_requestrelease.md) to release the display request as soon as it is no longer required.
+To prevent the display from being deactivated when user action is no longer detected, such as when an app is playing video, you can call [DisplayRequest.RequestActive](../windows.system.display/displayrequest_requestactive_1312599685.md). To conserve power and battery life, you should call [DisplayRequest.RequestRelease](../windows.system.display/displayrequest_requestrelease_966711579.md) to release the display request as soon as it is no longer required.
 
 Here are some situations when you should release the display request:
 
@@ -247,7 +247,7 @@ Prior to Windows 8.1, the [AreTransportControlsEnabled](mediaelement_aretranspo
 
 ### Windows Phone 8
 
-Windows Phone 8.x app must use [PickSingleFileAndContinue](../windows.storage.pickers/fileopenpicker_picksinglefileandcontinue.md) to open local media files.
+Windows Phone 8.x app must use [PickSingleFileAndContinue](../windows.storage.pickers/fileopenpicker_picksinglefileandcontinue_1567473542.md) to open local media files.
 
 ## -examples
 

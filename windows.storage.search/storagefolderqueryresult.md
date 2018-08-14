@@ -21,10 +21,10 @@ Provides access to the results of a query that lists the folder (or file groups)
 
 You can get a [storageFolderQueryResult](storagefolderqueryresult.md) object by calling the following methods from a [storageFolder](../windows.storage/storagefolder.md) or a [folderInformation](../windows.storage.bulkaccess/folderinformation.md) object:
 
-+ [storageFolder.createFolderQuery methods](../windows.storage/storagefolder_createfolderquery.md)
-+ [storageFolder.createFolderQueryWithOptions method](../windows.storage/storagefolder_createfolderquerywithoptions.md)
-+ [folderInformation.createFolderQuery methods](../windows.storage.bulkaccess/folderinformation_createfolderquery.md)
-+ [folderInformation.createFolderQueryWithOptions method](../windows.storage.bulkaccess/folderinformation_createfolderquerywithoptions.md)
++ [storageFolder.createFolderQuery methods](../windows.storage/storagefolder_createfolderquery_325438332.md)
++ [storageFolder.createFolderQueryWithOptions method](../windows.storage/storagefolder_createfolderquerywithoptions_573382953.md)
++ [folderInformation.createFolderQuery methods](../windows.storage.bulkaccess/folderinformation_createfolderquery_325438332.md)
++ [folderInformation.createFolderQueryWithOptions method](../windows.storage.bulkaccess/folderinformation_createfolderquerywithoptions_573382953.md)
 
 For more code examples that show you how to use [storageFolderQueryResult](storagefolderqueryresult.md) objects, see the [Folder enumeration sample](http://go.microsoft.com/fwlink/p/?linkid=231512).
 
@@ -102,4 +102,4 @@ The `queryResult` variable gets the [storageFolderQueryResult](storagefolderquer
 
 ## -see-also
 
-[Windows.Storage.storageFolder.createFolderQuery methods](../windows.storage/storagefolder_createfolderquery.md), [Windows.Storage.storageFolder.createFolderQueryWithOptions method](../windows.storage/storagefolder_createfolderquerywithoptions.md), [Windows.Storage.BulkAccess.folderInformation.createFolderQuery methods](../windows.storage.bulkaccess/folderinformation_createfolderquery.md), [Windows.Storage.BulkAccess.folderInformation.createFolderQueryWithOptions method](../windows.storage.bulkaccess/folderinformation_createfolderquerywithoptions.md), [Folder enumeration sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=619993)
+[Windows.Storage.storageFolder.createFolderQuery methods](../windows.storage/storagefolder_createfolderquery_325438332.md), [Windows.Storage.storageFolder.createFolderQueryWithOptions method](../windows.storage/storagefolder_createfolderquerywithoptions_573382953.md), [Windows.Storage.BulkAccess.folderInformation.createFolderQuery methods](../windows.storage.bulkaccess/folderinformation_createfolderquery_325438332.md), [Windows.Storage.BulkAccess.folderInformation.createFolderQueryWithOptions method](../windows.storage.bulkaccess/folderinformation_createfolderquerywithoptions_573382953.md), [Folder enumeration sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=619993)

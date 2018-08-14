@@ -13,7 +13,7 @@ public void Reset()
 Resets the audio frame input node.
 
 ## -remarks
-Calling this method will discard all queued frames and will cause [DiscardQueuedFrames](../windows.media.effects/ibasicaudioeffect_discardqueuedframes.md) to be called on any audio effects applied to the [AudioFrameInputNode](audioframeinputnode.md).
+Calling this method will discard all queued frames and will cause [DiscardQueuedFrames](../windows.media.effects/ibasicaudioeffect_discardqueuedframes_1358903059.md) to be called on any audio effects applied to the [AudioFrameInputNode](audioframeinputnode.md).
 
 ## -examples
 

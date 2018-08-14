@@ -10,7 +10,7 @@ public string GetDeviceClassSelector(Windows.Devices.Usb.UsbDeviceClass usbClass
 # Windows.Devices.Usb.UsbDevice.GetDeviceClassSelector
 
 ## -description
-Gets an Advanced Query Syntax (AQS) string that the app can pass to [DeviceInformation.FindAllAsync](../windows.devices.enumeration/deviceinformation_findallasync.md) in order to find a specific type of USB device.
+Gets an Advanced Query Syntax (AQS) string that the app can pass to [DeviceInformation.FindAllAsync](../windows.devices.enumeration/deviceinformation_findallasync_1257462890.md) in order to find a specific type of USB device.
 
 ## -parameters
 ### -param usbClass
@@ -23,7 +23,7 @@ String formatted as an AQS query.
 You can search for a [UsbDevice](usbdevice.md) in the enumerated collection of devices by specifying class code, sub class code, or protocol code. To do this,
 1. Create a [UsbDeviceClass](usbdeviceclass.md) object by specifying [ClassCode](usbdeviceclass_classcode.md), [SubclassCode](usbdeviceclass_subclasscode.md), and [ProtocolCode](usbdeviceclass_protocolcode.md) property values. Alternatively, you can call the constructor by specifying a particular [UsbDeviceClasses](usbdeviceclasses.md) property.
 1. Call [GetDeviceClassSelector](usbdevice_getdeviceclassselector_1975723348.md) and pass that new class. The call retrieves an AQS string.
-1. Call [FindAllAsync](../windows.devices.enumeration/deviceinformation_findallasync.md) and pass the string to get the [UsbDevice](usbdevice.md) object.
+1. Call [FindAllAsync](../windows.devices.enumeration/deviceinformation_findallasync_1257462890.md) and pass the string to get the [UsbDevice](usbdevice.md) object.
 
 
 ## -examples

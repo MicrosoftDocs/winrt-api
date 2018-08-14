@@ -24,7 +24,7 @@ This side of the socket connection will be the host and is waiting for a connect
 This side of the socket connection will be the client and is attempting to connect to the peer.
 
 ### -field Completed:3
-The connection is complete, and the [StreamSocket](../windows.networking.sockets/streamsocket_streamsocket.md) class can now be used to communicate with the peer.
+The connection is complete, and the [StreamSocket](../windows.networking.sockets/streamsocket_streamsocket_1221375020.md) class can now be used to communicate with the peer.
 
 ### -field Canceled:4
 The connection was stopped before it was completed.

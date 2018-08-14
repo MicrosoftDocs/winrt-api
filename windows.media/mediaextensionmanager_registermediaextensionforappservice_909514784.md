@@ -21,7 +21,7 @@ An object that implements [IMediaExtension](../windows.media/imediaextension.md)
 An [AppServiceConnection](../windows.applicationmodel.appservice/appserviceconnection.md)  object that represents an endpoint connection for an app service. 
 
 ## -remarks
-Call this method from within the [Run](../windows.applicationmodel.background/ibackgroundtask_run.md) method of a Windows Runtime Component that exposes your media extension.
+Call this method from within the [Run](../windows.applicationmodel.background/ibackgroundtask_run_2017283929.md) method of a Windows Runtime Component that exposes your media extension.
 
 Get an instance of [AppServiceConnection](../windows.applicationmodel.appservice/appserviceconnection.md) by casting the [TriggerDetails](../windows.applicationmodel.background/ibackgroundtaskinstance_triggerdetails.md)  property of the [IBackgroundTaskInstance](../windows.applicationmodel.background/ibackgroundtaskinstance.md) passed into the **Run** method to an [AppServiceTriggerDetails](../windows.applicationmodel.appservice/appservicetriggerdetails.md)  object and then accessing the [AppServiceConnection](../windows.applicationmodel.appservice/appservicetriggerdetails_appserviceconnection.md) property. 
 

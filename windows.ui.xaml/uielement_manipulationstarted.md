@@ -32,4 +32,4 @@ For touch actions and also for interaction-specific or manipulation events that 
 ## -examples
 
 ## -see-also
-[OnManipulationStarted](../windows.ui.xaml.controls/control_onmanipulationstarted.md), [ManipulationStarting](uielement_manipulationstarting.md), [Using manipulation events](http://msdn.microsoft.com/library/f10bafee-8792-4a57-ae84-aa11ab95355a), [XAML user input events sample](http://go.microsoft.com/fwlink/p/?linkid=231524)
+[OnManipulationStarted](../windows.ui.xaml.controls/control_onmanipulationstarted_1992945826.md), [ManipulationStarting](uielement_manipulationstarting.md), [Using manipulation events](http://msdn.microsoft.com/library/f10bafee-8792-4a57-ae84-aa11ab95355a), [XAML user input events sample](http://go.microsoft.com/fwlink/p/?linkid=231524)

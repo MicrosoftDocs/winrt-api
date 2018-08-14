@@ -16,7 +16,7 @@ Provides an interface between the broadcasting UWP app and the system-hosted bro
 > This API requires the **appBroadcast** and **appBroadcastSettings** capability which is not available to all Windows apps. Unless your developer account is specially provisioned by Microsoft, calls to this API will fail at runtime.
 
 ## -remarks
-Get an instance of this class by casting the [TriggerDetails](../windows.applicationmodel.background/ibackgroundtaskinstance_triggerdetails.md) property of the [IBackgroundTaskInstance](../windows.applicationmodel.background/ibackgroundtaskinstance.md) passed into your background task's [Run](../windows.applicationmodel.background/ibackgroundtask_run.md) method to a [AppBroadcastTriggerDetails](appbroadcasttriggerdetails.md) and then accessing the [BackgroundService](appbroadcasttriggerdetails_backgroundservice.md) property.
+Get an instance of this class by casting the [TriggerDetails](../windows.applicationmodel.background/ibackgroundtaskinstance_triggerdetails.md) property of the [IBackgroundTaskInstance](../windows.applicationmodel.background/ibackgroundtaskinstance.md) passed into your background task's [Run](../windows.applicationmodel.background/ibackgroundtask_run_2017283929.md) method to a [AppBroadcastTriggerDetails](appbroadcasttriggerdetails.md) and then accessing the [BackgroundService](appbroadcasttriggerdetails_backgroundservice.md) property.
 
 ## -examples
 

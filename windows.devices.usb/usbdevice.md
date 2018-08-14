@@ -21,7 +21,7 @@ Before getting a reference to the [UsbDevice](usbdevice.md) object, you must hav
 
 To get the [UsbDevice](usbdevice.md) object:
 1. Get the Advanced Query Syntax (AQS) string that contains search criteria for finding the device in the enumerated device collection. If you want to search by the vendor ID/product ID or the device interface GUID, call [GetDeviceSelector](usbdevice_getdeviceselector_1242207979.md). If you want to search by the device class, call [GetDeviceClassSelector](usbdevice_getdeviceclassselector_1975723348.md). Both calls retrieve formatted AQS strings.
-1. Pass the retrieved string to [FindAllAsync](../windows.devices.enumeration/deviceinformation_findallasync.md). The call retrieves a [DeviceInformationCollection](../windows.devices.enumeration/deviceinformationcollection.md) object.
+1. Pass the retrieved string to [FindAllAsync](../windows.devices.enumeration/deviceinformation_findallasync_1257462890.md). The call retrieves a [DeviceInformationCollection](../windows.devices.enumeration/deviceinformationcollection.md) object.
 1. Loop through the collection. Each iteration gets a [DeviceInformation](../windows.devices.enumeration/deviceinformation.md) object.
 1. Get the [DeviceInformation.Id](../windows.devices.enumeration/deviceinformation_id.md) property value. The string value is the device instance path. For example, "\\\\?\\USB#VID_045E&amp;PID_078F#6&amp;1b8ff026&amp;0&amp;5#{dee824ef-729b-4a0e-9c14-b7117d33a817}".
 1. Call [FromIdAsync](usbdevice_fromidasync_1322863552.md) by passing the device instance string and get the [UsbDevice](usbdevice.md) object.

@@ -28,7 +28,7 @@ If you are on a worker thread and want to schedule work on the UI thread, use [C
 > [!NOTE]
 > Callbacks scheduled with [CoreDispatcherPriority::Low](coredispatcherpriority.md) priority are called when there are no pending input events. Use the [CoreDispatcherPriority::Low](coredispatcherpriority.md) priority to make your app UI more responsive. To schedule background tasks, use [CoreDispatcher::RunIdleAsync](coredispatcher_runidleasync_1309054974.md).
 
-To spin off a worker thread from the UI thread, do not use this method ([CoreDispatcher::RunAsync](coredispatcher_runasync_447339746.md)). Instead, use one of the [Windows::System::Threading::ThreadPool::RunAsync](../windows.system.threading/threadpool_runasync.md) method overloads.
+To spin off a worker thread from the UI thread, do not use this method ([CoreDispatcher::RunAsync](coredispatcher_runasync_447339746.md)). Instead, use one of the [Windows::System::Threading::ThreadPool::RunAsync](../windows.system.threading/threadpool_runasync_514988780.md) method overloads.
 
 ### Await a UI task sent from a background thread
 

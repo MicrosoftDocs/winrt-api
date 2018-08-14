@@ -24,7 +24,7 @@ Additionally, whenever you call a file picker to let the user pick a file (or fi
 
 ## -examples
 
-This example shows you how to call a file picker, using [FileOpenPicker.PickSingleFileAsync](../windows.storage.pickers/fileopenpicker_picksinglefileasync.md) to capture and process a file that the users picks.
+This example shows you how to call a file picker, using [FileOpenPicker.PickSingleFileAsync](../windows.storage.pickers/fileopenpicker_picksinglefileasync_1320627792.md) to capture and process a file that the users picks.
 
 ```csharp
 var openPicker = new FileOpenPicker();
@@ -55,7 +55,7 @@ openPicker.pickSingleFileAsync().then(function (file) {
 });
 ```
 
-After [PickSingleFileAsync](../windows.storage.pickers/fileopenpicker_picksinglefileasync.md) completes, `file` gets the picked file as a [StorageFile](storagefile.md).
+After [PickSingleFileAsync](../windows.storage.pickers/fileopenpicker_picksinglefileasync_1320627792.md) completes, `file` gets the picked file as a [StorageFile](storagefile.md).
 
 In the example, `openPicker` contains a [FileOpenPicker](../windows.storage.pickers/fileopenpicker.md) object. To learn more about using file picker see [Open files and folders with a picker](http://msdn.microsoft.com/library/f87dbe2f-77db-4573-8172-29e11abefd34).
 

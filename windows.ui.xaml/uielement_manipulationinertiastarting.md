@@ -38,4 +38,4 @@ Apps that were compiled for Windows 8 but running on Windows 8.1 continue to u
 ## -examples
 
 ## -see-also
-[OnManipulationInertiaStarting](../windows.ui.xaml.controls/control_onmanipulationinertiastarting.md), [ManipulationStarted](uielement_manipulationstarted.md), [Using manipulation events](http://msdn.microsoft.com/library/f10bafee-8792-4a57-ae84-aa11ab95355a), [XAML user input events sample](http://go.microsoft.com/fwlink/p/?linkid=231524)
+[OnManipulationInertiaStarting](../windows.ui.xaml.controls/control_onmanipulationinertiastarting_1708609674.md), [ManipulationStarted](uielement_manipulationstarted.md), [Using manipulation events](http://msdn.microsoft.com/library/f10bafee-8792-4a57-ae84-aa11ab95355a), [XAML user input events sample](http://go.microsoft.com/fwlink/p/?linkid=231524)

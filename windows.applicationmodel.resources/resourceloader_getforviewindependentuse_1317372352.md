@@ -20,7 +20,7 @@ The resource identifier of the [ResourceMap](../windows.applicationmodel.resourc
 > The resource identifier is treated as a Uniform Resource Identifier (URI) fragment, subject to Uniform Resource Identifier (URI) semantics. For example, "Caption%20" is treated as "Caption ". Do not use "?" or "#" in resource identifiers, as they terminate the named resource path. For example, "Foo?3" is treated as "Foo".
 
 ## -returns
-A resource loader for the [Resources subtree](../windows.applicationmodel.resources.core/resourcemap_getsubtree.md) of the currently running app's main [ResourceMap](../windows.applicationmodel.resources.core/resourcemap.md). This [ResourceLoader](resourceloader.md) uses a default context that's not associated with any view. You can't use this [ResourceLoader](resourceloader.md) to retrieve any resource that has resource candidates qualified for scale.
+A resource loader for the [Resources subtree](../windows.applicationmodel.resources.core/resourcemap_getsubtree_1701937926.md) of the currently running app's main [ResourceMap](../windows.applicationmodel.resources.core/resourcemap.md). This [ResourceLoader](resourceloader.md) uses a default context that's not associated with any view. You can't use this [ResourceLoader](resourceloader.md) to retrieve any resource that has resource candidates qualified for scale.
 
 ## -remarks
 

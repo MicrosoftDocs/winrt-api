@@ -151,7 +151,7 @@ Windows.UI.StartScreen.SecondaryTile.findAllForPackageAsync().done(function (til
 });
 ```
 
-The following example demonstrates how to use the [TileUpdateManager.createTileUpdaterForSecondaryTile](../windows.ui.notifications/tileupdatemanager_createtileupdaterforsecondarytile.md) method to send a notification to a secondary tile with an ID of "SecondaryTile.Dynamic". Note that the example provides both a wide and square version of the notification because the user has control over which form of the tile is showing.
+The following example demonstrates how to use the [TileUpdateManager.createTileUpdaterForSecondaryTile](../windows.ui.notifications/tileupdatemanager_createtileupdaterforsecondarytile_445640521.md) method to send a notification to a secondary tile with an ID of "SecondaryTile.Dynamic". Note that the example provides both a wide and square version of the notification because the user has control over which form of the tile is showing.
 
 ```csharp
 using NotificationsExtensions.TileContent;
@@ -198,7 +198,7 @@ var tileUpdater = notifications.TileUpdateManager.createTileUpdaterForSecondaryT
 tileUpdater.update(tileNotification);
 ```
 
-The following example demonstrates how to use the [BadgeUpdateManager.createBadgeUpdaterForSecondaryTile](../windows.ui.notifications/badgeupdatemanager_createbadgeupdaterforsecondarytile.md) method to send a numeric badge notification to a secondary tile with an ID of "SecondaryTile.Dynamic".
+The following example demonstrates how to use the [BadgeUpdateManager.createBadgeUpdaterForSecondaryTile](../windows.ui.notifications/badgeupdatemanager_createbadgeupdaterforsecondarytile_131286133.md) method to send a numeric badge notification to a secondary tile with an ID of "SecondaryTile.Dynamic".
 
 ```csharp
 using NotificationsExtensions.BadgeContent;

@@ -99,13 +99,13 @@ Use a value from the [CommonFolderQuery](commonfolderquery.md) enumeration when 
 
 + [CreateFolderQuery(CommonFolderQuery)](../windows.storage/storagefolder_createfolderquery_330767063.md)
 + [CreateFolderQueryWithOptions](istoragefolderqueryoperations_createfolderquerywithoptions_573382953.md). Instantiate the [QueryOptions](queryoptions_queryoptions_1209951623.md) with the [QueryOptions(CommonFolderQuery)](queryoptions_queryoptions_1209951623.md) constructor.
-+ [CreateItemQueryWithOptions](../windows.storage/storagefolder_createitemquerywithoptions.md). Instantiate the [QueryOptions](queryoptions_queryoptions_1209951623.md) with the [QueryOptions(CommonFolderQuery)](queryoptions_queryoptions_1209951623.md) constructor.
++ [CreateItemQueryWithOptions](../windows.storage/storagefolder_createitemquerywithoptions_1519361285.md). Instantiate the [QueryOptions](queryoptions_queryoptions_1209951623.md) with the [QueryOptions(CommonFolderQuery)](queryoptions_queryoptions_1209951623.md) constructor.
 + [GetFoldersAsync(CommonFolderQuery)](../windows.storage/storagefolder_getfoldersasync_595997124.md)
 + [GetFoldersAsync(CommonFolderQuery, UInt32, UInt32)](../windows.storage/storagefolder_getfoldersasync_731846614.md)
 
 These methods use the value from the [CommonFolderQuery](commonfolderquery.md) enumeration to initialize the [DateStackOption](queryoptions_datestackoption.md), [FolderDepth](queryoptions_folderdepth.md), [IndexerOption](queryoptions_indexeroption.md), and [SortOrder](queryoptions_sortorder.md) options of the query.
 
-Call the [StorageFolder.IsCommonFolderQuerySupported](../windows.storage/storagefolder_iscommonfolderquerysupported.md) method to determine whether the [CommonFolderQuery](commonfolderquery.md) value that you want to use is available for the current folder.
+Call the [StorageFolder.IsCommonFolderQuerySupported](../windows.storage/storagefolder_iscommonfolderquerysupported_1797734947.md) method to determine whether the [CommonFolderQuery](commonfolderquery.md) value that you want to use is available for the current folder.
 
 > > [!TIP]
 > When a query groups files into virtual folders based on a property that can have multiple values (for example, [System.Author](https://msdn.microsoft.com/library/windows/desktop/bb760652.aspx)), a particular file may appear in more than one virtual folder because each folder represents one of the multiple values.

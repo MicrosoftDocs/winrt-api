@@ -29,4 +29,4 @@ Another reason to suppress gesture events is if you are handling pointer-level e
 ## -examples
 
 ## -see-also
-[DoubleTapped](uielement_doubletapped.md), [OnDoubleTapped](../windows.ui.xaml.controls/control_ondoubletapped.md), [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input)
+[DoubleTapped](uielement_doubletapped.md), [OnDoubleTapped](../windows.ui.xaml.controls/control_ondoubletapped_1132552853.md), [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input)

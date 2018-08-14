@@ -39,7 +39,7 @@ By default, each navigation creates a new instance of the specific [Page](page.m
 You can override the page [OnNavigatedTo](page_onnavigatedto_1083052518.md), [OnNavigatingFrom](page_onnavigatingfrom_425696585.md), and [OnNavigatedFrom](page_onnavigatedfrom_1389759661.md) methods to perform tasks such as initializing and saving the page state. [OnNavigatingFrom](page_onnavigatingfrom_425696585.md) can be used to cancel a navigation by setting a [Cancel](../windows.ui.xaml.navigation/navigatingcanceleventargs_cancel.md) property in the event data from your handler.
 
 ## -examples
-The following code example shows an abridged version (except for the [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt) version, which lists the full function) of the [OnLaunched](../windows.ui.xaml/application_onlaunched.md) method override generated for the Blank App template in Visual Studio. This code shows how the content of the app window is set to a new [Frame](frame.md), which is then navigated to the default initial [Page](page.md).
+The following code example shows an abridged version (except for the [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt) version, which lists the full function) of the [OnLaunched](../windows.ui.xaml/application_onlaunched_859642554.md) method override generated for the Blank App template in Visual Studio. This code shows how the content of the app window is set to a new [Frame](frame.md), which is then navigated to the default initial [Page](page.md).
 
 ```csharp
         protected override void OnLaunched(LaunchActivatedEventArgs e)

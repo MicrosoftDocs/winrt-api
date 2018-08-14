@@ -17,7 +17,7 @@ Gets a query result object that contains the files in the current folder and, op
 The criteria that are applied to the query.
 
 ## -returns
-A query result object that contains the files in the current folder and, optionally, in the subfolders of the current folder, filtered and sorted based on the specified [QueryOptions](../windows.storage.search/queryoptions.md). Call the [GetFilesAsync](../windows.storage.search/storagefilequeryresult_getfilesasync.md) method of the query result to get the flat list of files, sorted as specified by *queryOptions*. This method returns a list of type **IReadOnlyList**&lt;[StorageFile](storagefile.md)&gt;. Each file is represented by an item of type [StorageFile](storagefile.md).
+A query result object that contains the files in the current folder and, optionally, in the subfolders of the current folder, filtered and sorted based on the specified [QueryOptions](../windows.storage.search/queryoptions.md). Call the [GetFilesAsync](../windows.storage.search/storagefilequeryresult_getfilesasync_1261374131.md) method of the query result to get the flat list of files, sorted as specified by *queryOptions*. This method returns a list of type **IReadOnlyList**&lt;[StorageFile](storagefile.md)&gt;. Each file is represented by an item of type [StorageFile](storagefile.md).
 
 ## -exceptions
 ### System.ArgumentException

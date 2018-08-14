@@ -10,7 +10,7 @@ public class DeviceWatcherTrigger : Windows.ApplicationModel.Background.IBackgro
 # Windows.ApplicationModel.Background.DeviceWatcherTrigger
 
 ## -description
-Represents an event that causes a background task to run when changes occur to the list of devices. Returned by [GetBackgroundTrigger](../windows.devices.enumeration/devicewatcher_getbackgroundtrigger.md).
+Represents an event that causes a background task to run when changes occur to the list of devices. Returned by [GetBackgroundTrigger](../windows.devices.enumeration/devicewatcher_getbackgroundtrigger_287578946.md).
 
 ## -remarks
 

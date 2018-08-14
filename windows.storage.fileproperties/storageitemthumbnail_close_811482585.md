@@ -15,7 +15,7 @@ Releases system resources that are exposed by a Windows Runtime object.
 ## -remarks
 Use this method to release the exclusive system resources that are in use, such as file handles, streams, and network sockets. The method should also release other resources that are in use, including object references and memory, to prepare them for reuse.
 
-This method must call the [Close](../windows.foundation/iclosable_close.md) method of any object it holds that implements [IClosable](../windows.foundation/iclosable.md).
+This method must call the [Close](../windows.foundation/iclosable_close_811482585.md) method of any object it holds that implements [IClosable](../windows.foundation/iclosable.md).
 
 The [Close](../windows.foundation/iclosable_close.md) method should release system resources as quickly as possible, without blocking for asynchronous operations to complete. To ensure that all resources are completely released, the caller must wait for all outstanding asynchronous operations to complete before calling [Close](../windows.foundation/iclosable_close.md).
 

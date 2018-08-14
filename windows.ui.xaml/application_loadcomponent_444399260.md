@@ -24,7 +24,7 @@ An object describing the Uniform Resource Identifier (URI) path to the resource 
 
 [LoadComponent](application_loadcomponent_444399260.md) sometimes is cited in a call stack for an exception that is ultimately because your app is trying to parse bad XAML. In this case there's nothing that app code can do to change how [LoadComponent](application_loadcomponent_91636756.md) is used, and the way to fix the problem is to check your XAML source in an XML editor and fix it. What might be helpful from the stack trace message is confirming which XAML file is not loading. In scenarios where you have merged resources or other multiple XAML sources being combined, it's not always the obvious page-level XAML that is failing to parse.
 
-Most app scenarios that involve loading XAML content and producing an object tree should use [XamlReader.Load](../windows.ui.xaml.markup/xamlreader_load.md) instead.
+Most app scenarios that involve loading XAML content and producing an object tree should use [XamlReader.Load](../windows.ui.xaml.markup/xamlreader_load_1077941801.md) instead.
 
 ### Resource loading optimization in Windows 8.1
 

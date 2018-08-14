@@ -45,7 +45,7 @@ If you provide result suggestions, you must also register a [ResultSuggestionCho
 
 After you obtain suggestions, you display them by adding them to the [SearchSuggestionsRequest](../windows.applicationmodel.search/searchsuggestionsrequest.md).[SearchSuggestionCollection](../windows.applicationmodel.search/searchsuggestioncollection.md).
 
-If you choose to display both query suggestions and result suggestions, you should group the suggestions by suggestion type (query or result) and separate the groups using [AppendSearchSeparator](../windows.applicationmodel.search/searchsuggestioncollection_appendsearchseparator.md). Each separator takes the place of a suggestion and must be followed by at least one suggestion, decreasing the number of suggestions that you can display.
+If you choose to display both query suggestions and result suggestions, you should group the suggestions by suggestion type (query or result) and separate the groups using [AppendSearchSeparator](../windows.applicationmodel.search/searchsuggestioncollection_appendsearchseparator_842802100.md). Each separator takes the place of a suggestion and must be followed by at least one suggestion, decreasing the number of suggestions that you can display.
 
 The maximum length of all of the textual fields in a suggestion (such as text, detail text, and image alt text) is 512 characters.
 

@@ -31,7 +31,7 @@ For touch actions, drag-drop actions, and also for interaction-specific or manip
 
 [DragEnter](uielement_dragenter.md) supports the ability to attach event handlers to the route that will be invoked even if the event data for the event is marked [Handled](drageventargs_handled.md). See [AddHandler](uielement_addhandler_2121467075.md).
 
-Specific Windows Runtime controls may have class-based handling for the [DragEnter](uielement_dragenter.md) event. If so, the control probably has an override for the method [OnDragEnter](../windows.ui.xaml.controls/control_ondragenter.md). Typically the event is marked handled by the class handler, and the [DragEnter](uielement_dragenter.md) event is not raised for handling by any user code handlers on that control. For more info, see [Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
+Specific Windows Runtime controls may have class-based handling for the [DragEnter](uielement_dragenter.md) event. If so, the control probably has an override for the method [OnDragEnter](../windows.ui.xaml.controls/control_ondragenter_196818472.md). Typically the event is marked handled by the class handler, and the [DragEnter](uielement_dragenter.md) event is not raised for handling by any user code handlers on that control. For more info, see [Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
 
 Independent of the event occurrence, some controls may use theme animations such as [DragItemThemeAnimation](../windows.ui.xaml.media.animation/dragitemthemeanimation.md) to visually indicate a drag behavior to the user.
 

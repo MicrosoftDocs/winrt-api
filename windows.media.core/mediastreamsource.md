@@ -47,7 +47,7 @@ The app indicates it has reached the end of the stream by responding to a [Media
    <tr><td>[MediaStreamSourceClosedRequest](mediastreamsourceclosedrequest.md)</td><td>Represents a request from the [MediaStreamSource](mediastreamsource.md) that it has closed.
 
 The close request is accessed through the [MediaStreamSourceClosedEventArgs](mediastreamsourceclosedeventargs.md) that are passed to the [MediaStreamSource.Closed](mediastreamsource_closed.md) event handler.</td></tr>
-   <tr><td>[MediaElement.SetMediaStreamSource](../windows.ui.xaml.controls/mediaelement_setmediastreamsource.md)</td><td>Sets the source of the [MediaElement](../windows.ui.xaml.controls/mediaelement.md) to a [MediaStreamSource](mediastreamsource.md).</td></tr>
+   <tr><td>[MediaElement.SetMediaStreamSource](../windows.ui.xaml.controls/mediaelement_setmediastreamsource_1064978867.md)</td><td>Sets the source of the [MediaElement](../windows.ui.xaml.controls/mediaelement.md) to a [MediaStreamSource](mediastreamsource.md).</td></tr>
 </table>
 
 ## -examples

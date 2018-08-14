@@ -14,7 +14,7 @@ Retrieves the list of video profiles supported by the specified video capture de
 
 ## -parameters
 ### -param videoDeviceId
-The identifier of the video device for which supported video profiles are queried. For information on getting the video device ID, see [DeviceInformation::FindAllAsync](../windows.devices.enumeration/deviceinformation_findallasync.md).
+The identifier of the video device for which supported video profiles are queried. For information on getting the video device ID, see [DeviceInformation::FindAllAsync](../windows.devices.enumeration/deviceinformation_findallasync_1257462890.md).
 
 ## -returns
 The list of video profiles supported by the specified video capture device that support concurrency.

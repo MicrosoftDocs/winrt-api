@@ -13,7 +13,7 @@ public Windows.Storage.Search.StorageFolderQueryResult CreateFolderQuery()
 Gets a query result object that contains the subfolders in the current folder.
 
 ## -returns
-A query result object. Call the [GetFoldersAsync](../windows.storage.search/storagefolderqueryresult_getfoldersasync.md) method of the query result to get the subfolders in the current folder. This method returns a list of type **IReadOnlyList**&lt;[StorageFolder](storagefolder.md)&gt;. Each file or folder is represented by an item of type [StorageFolder](storagefolder.md).
+A query result object. Call the [GetFoldersAsync](../windows.storage.search/storagefolderqueryresult_getfoldersasync_1487375516.md) method of the query result to get the subfolders in the current folder. This method returns a list of type **IReadOnlyList**&lt;[StorageFolder](storagefolder.md)&gt;. Each file or folder is represented by an item of type [StorageFolder](storagefolder.md).
 
 ## -exceptions
 ### System.UnauthorizedAccessException

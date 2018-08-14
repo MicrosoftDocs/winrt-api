@@ -34,7 +34,7 @@ Embedding the metadata into a Graphics Interchange Format (GIF) file enables ink
 ## -examples
 The `loadStrokes` function in this example demonstrates how to:
 + Display a file open screen where the file type is constrained to Graphics Interchange Format (GIF) format using the [FileOpenPicker](../windows.storage.pickers/fileopenpicker.md) object.
-+ Set up an input stream through the [OpenAsync](../windows.storage/storagefile_openasync.md) method.
++ Set up an input stream through the [OpenAsync](../windows.storage/storagefile_openasync_1542217918.md) method.
 + Use the [LoadAsync](inkmanager_loadasync_213597437.md) method of an [InkManager](inkmanager.md) object (`inkManager`) to de-serialize the ink data from a Graphics Interchange Format (GIF) file (`storageFile`).
 
 

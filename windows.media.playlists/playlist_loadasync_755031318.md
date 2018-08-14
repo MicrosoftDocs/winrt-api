@@ -17,7 +17,7 @@ Asynchronously loads files into a playlist.
 Represents the files to load.
 
 ## -returns
-Represents the asynchronous operation for loading the playlist. The [GetResults](../windows.foundation/iasyncoperation_1_getresults.md) method of this [IAsyncOperation](../windows.foundation/iasyncoperation_1.md) object returns the playlist.
+Represents the asynchronous operation for loading the playlist. The [GetResults](../windows.foundation/iasyncoperation_1_getresults_732303200.md) method of this [IAsyncOperation](../windows.foundation/iasyncoperation_1.md) object returns the playlist.
 
 ## -remarks
 

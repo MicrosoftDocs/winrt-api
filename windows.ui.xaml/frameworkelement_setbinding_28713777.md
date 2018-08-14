@@ -22,7 +22,7 @@ The dependency property identifier of the property that is data bound.
 The binding to use for the property.
 
 ## -remarks
-This method is a convenience method that calls [BindingOperations.SetBinding](../windows.ui.xaml.data/bindingoperations_setbinding.md), passing the current instance as the *target* parameter.
+This method is a convenience method that calls [BindingOperations.SetBinding](../windows.ui.xaml.data/bindingoperations_setbinding_746099660.md), passing the current instance as the *target* parameter.
 
 The type of the *binding* parameter is [BindingBase](../windows.ui.xaml.data/bindingbase.md) for compatibility reasons, but in the Windows Runtime you always pass a [Binding](../windows.ui.xaml.data/binding.md) instance. [Binding](../windows.ui.xaml.data/binding.md) is derived from [BindingBase](../windows.ui.xaml.data/bindingbase.md).
 

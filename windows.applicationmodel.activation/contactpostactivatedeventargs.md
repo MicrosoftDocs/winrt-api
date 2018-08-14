@@ -16,7 +16,7 @@ Provides data when an app is activated to post a contact.
 > This type appears as [WebUIContactPostActivatedEventArgs](../windows.ui.webui/webuicontactpostactivatedeventargs.md).
 
 ## -remarks
-Windows 8.1 allows users to post to their contacts from the [Contact Card](../windows.applicationmodel.contacts/contactmanager_showcontactcard.md) or Windows Search experience. By implementing the contact post activation contract, Windows can launch your app to post for the user.
+Windows 8.1 allows users to post to their contacts from the [Contact Card](../windows.applicationmodel.contacts/contactmanager_showcontactcard_1968125937.md) or Windows Search experience. By implementing the contact post activation contract, Windows can launch your app to post for the user.
 
 To receive post activations, your app must register for the "windows.contact" extension category in its manifest. Under this extension, you must include a "LaunchAction" element with the "Verb" attribute equal to "post." You can then specify the "ServiceId" element to specify the domain name of the service that your app can post to, for example "facebook.com."
 

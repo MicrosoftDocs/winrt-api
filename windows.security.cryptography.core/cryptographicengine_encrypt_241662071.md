@@ -20,7 +20,7 @@ Cryptographic key to use for encryption. This can be an asymmetric or a symmetri
 Data to encrypt.
 
 ### -param iv
-Buffer that contains the initialization vector. This can be **null** for a symmetric algorithm and should always be **null** for an asymmetric algorithm. If an initialization vector (IV) was used to encrypt the data, you must use the same IV to decrypt the data. You can use the [GenerateRandom](../windows.security.cryptography/cryptographicbuffer_generaterandom.md) method to create an IV that contains random data. Other IVs, such as nonce-generated vectors, require custom implementation. For more information, see [Cryptographic keys](http://msdn.microsoft.com/library/f35bebdf-28c5-4f91-a94e-f7d862b6ed59).
+Buffer that contains the initialization vector. This can be **null** for a symmetric algorithm and should always be **null** for an asymmetric algorithm. If an initialization vector (IV) was used to encrypt the data, you must use the same IV to decrypt the data. You can use the [GenerateRandom](../windows.security.cryptography/cryptographicbuffer_generaterandom_1645545930.md) method to create an IV that contains random data. Other IVs, such as nonce-generated vectors, require custom implementation. For more information, see [Cryptographic keys](http://msdn.microsoft.com/library/f35bebdf-28c5-4f91-a94e-f7d862b6ed59).
 
 Cipher block chaining (CBC) block cipher mode algorithms require an initialization vector. For more information, see Remarks.
 

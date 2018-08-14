@@ -13,7 +13,7 @@ public Windows.Storage.Search.StorageFileQueryResult CreateFileQuery()
 Gets a query result object that contains the files in the current folder.
 
 ## -returns
-A query result object. Call the [GetFilesAsync](../windows.storage.search/storagefilequeryresult_getfilesasync.md) method of the query result to get the flat list of files. This method returns a list of type **IReadOnlyList**&lt;[StorageFile](storagefile.md)&gt;. Each file is represented by an item of type [StorageFile](storagefile.md).
+A query result object. Call the [GetFilesAsync](../windows.storage.search/storagefilequeryresult_getfilesasync_1261374131.md) method of the query result to get the flat list of files. This method returns a list of type **IReadOnlyList**&lt;[StorageFile](storagefile.md)&gt;. Each file is represented by an item of type [StorageFile](storagefile.md).
 
 ## -remarks
 This query is a shallow query that returns only files in the current folder. For a list of methods that identifies shallow queries and deep queries, see the Remarks in the topic [GetFilesAsync](storagefolder_getfilesasync_1429382825.md).

@@ -17,7 +17,7 @@ Writes data asynchronously in a sequential stream.
 The buffer into which the asynchronous writer operation places the bytes to write.
 
 ## -returns
-An asynchronous operation that includes progress updates. For more information, see [WriteAsync](../windows.storage.streams/ioutputstream_writeasync.md) method.
+An asynchronous operation that includes progress updates. For more information, see [WriteAsync](../windows.storage.streams/ioutputstream_writeasync_897036872.md) method.
 
 ## -remarks
 

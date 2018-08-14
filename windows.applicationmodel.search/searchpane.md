@@ -21,7 +21,7 @@ This object is available to apps that participate in the Search contract; you ca
 You can see code examples that demonstrate how to respond to search events and manage the search pane in the [Search contract sample](http://go.microsoft.com/fwlink/p/?linkid=234892).
 
 ## -examples
-**For C#/C++/VB:** This example demonstrates how to ensure that your app can respond to user queries at any time by overriding [OnWindowCreated](../windows.ui.xaml/application_onwindowcreated.md) in App.xaml.cs/App.xaml.cpp/App.xaml.vb to access the [SearchPane](searchpane.md) object and register handlers for [SearchPane](searchpane.md) events (like [QuerySubmitted](searchpane_querysubmitted.md)).
+**For C#/C++/VB:** This example demonstrates how to ensure that your app can respond to user queries at any time by overriding [OnWindowCreated](../windows.ui.xaml/application_onwindowcreated_1983609380.md) in App.xaml.cs/App.xaml.cpp/App.xaml.vb to access the [SearchPane](searchpane.md) object and register handlers for [SearchPane](searchpane.md) events (like [QuerySubmitted](searchpane_querysubmitted.md)).
 
 ```csharp
 protected override void OnWindowCreated(WindowCreatedEventArgs args)

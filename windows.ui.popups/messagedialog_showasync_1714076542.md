@@ -16,7 +16,7 @@ Begins an asynchronous operation showing a dialog.
 An object that represents the asynchronous operation. For more on the async pattern, see [Asynchronous programming](http://msdn.microsoft.com/library/23fe28f1-89c5-4a17-a732-a722648f9c5e).
 
 ## -remarks
-In some cases, the system may close the dialog, like when people invoke an app contract when the dialog is showing. [IAsyncOperation(IUICommand).GetResults](../windows.foundation/iasyncoperation_1_getresults.md) returns either the command selected which destroyed the dialog, or an empty command.
+In some cases, the system may close the dialog, like when people invoke an app contract when the dialog is showing. [IAsyncOperation(IUICommand).GetResults](../windows.foundation/iasyncoperation_1_getresults_732303200.md) returns either the command selected which destroyed the dialog, or an empty command.
 
 To launch subsequent dialogs or other modal UI such as file pickers after a dialog has been closed, use the [then](http://msdn.microsoft.com/library/c63904fc-465b-4fd5-a1d6-e4fb200248e7) or [done](http://msdn.microsoft.com/library/9a5e6877-a2cf-421f-a91e-37d84ccb40da) functions of the [Promise](http://msdn.microsoft.com/library/df6a1939-0c42-4079-a9d5-ab49488d0375) object. You cannot launch modal UI from within a [UICommand](uicommand.md) callback.
 

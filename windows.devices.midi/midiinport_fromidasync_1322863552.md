@@ -14,10 +14,10 @@ Creates a [MidiInPort](midiinport.md) object for the specified device.
 
 ## -parameters
 ### -param deviceId
-The device ID, which can be obtained by enumerating the devices on the system [Windows.Devices.Enumeration.DeviceInformation.FindAllAsync](../windows.devices.enumeration/deviceinformation_findallasync.md).
+The device ID, which can be obtained by enumerating the devices on the system [Windows.Devices.Enumeration.DeviceInformation.FindAllAsync](../windows.devices.enumeration/deviceinformation_findallasync_1257462890.md).
 
 ## -returns
-The asynchronous operation. Upon completion, [IAsyncOperation.GetResults](../windows.foundation/iasyncoperation_1_getresults.md) returns a [MidiInPort](midiinport.md) object.
+The asynchronous operation. Upon completion, [IAsyncOperation.GetResults](../windows.foundation/iasyncoperation_1_getresults_732303200.md) returns a [MidiInPort](midiinport.md) object.
 
 ## -remarks
 To enumerate the [MidiInPort](midiinport.md) objects on the system, pass the query string provided by [GetDeviceSelector](midiinport_getdeviceselector_838466080.md) to [Windows.Devices.Enumeration.DeviceInformation.FindAllAsync](../windows.devices.enumeration/deviceinformation_findallasync.md).

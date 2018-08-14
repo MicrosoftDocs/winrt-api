@@ -10,7 +10,7 @@ public class BackgroundTransferCompletionGroupTriggerDetails : Windows.Networkin
 # Windows.Networking.BackgroundTransfer.BackgroundTransferCompletionGroupTriggerDetails
 
 ## -description
-Contains information about a [BackgroundTransferCompletionGroup](backgroundtransfercompletiongroup.md) that can be only accessed from the [Run](../windows.applicationmodel.background/ibackgroundtask_run.md) method on the [IBackgroundTask](../windows.applicationmodel.background/ibackgroundtask.md).
+Contains information about a [BackgroundTransferCompletionGroup](backgroundtransfercompletiongroup.md) that can be only accessed from the [Run](../windows.applicationmodel.background/ibackgroundtask_run_2017283929.md) method on the [IBackgroundTask](../windows.applicationmodel.background/ibackgroundtask.md).
 
 ## -remarks
 The [BackgroundTransferCompletionGroup](backgroundtransfercompletiongroup.md) class allows an app to register to receive immediate notification after background transfer operations are complete even if the app is not in the foreground. The app registers a background task to receive notification that occurs if the background transfers completed successfully or if an error occurred. This allows the app to be immediately notified at the time of completion, instead of requiring that the app wait until the next time the app is restarted or moved to the foreground to query for completions.
@@ -22,4 +22,4 @@ A [BackgroundTransferCompletionGroupTriggerDetails](backgroundtransfercompletion
 ## -examples
 
 ## -see-also
-[IBackgroundTask](../windows.applicationmodel.background/ibackgroundtask.md), [IBackgroundTask.Run](../windows.applicationmodel.background/ibackgroundtask_run.md), [BackgroundTaskBuilder](../windows.applicationmodel.background/backgroundtaskbuilder.md), [BackgroundTransferCompletionGroup](backgroundtransfercompletiongroup.md)
+[IBackgroundTask](../windows.applicationmodel.background/ibackgroundtask.md), [IBackgroundTask.Run](../windows.applicationmodel.background/ibackgroundtask_run_2017283929.md), [BackgroundTaskBuilder](../windows.applicationmodel.background/backgroundtaskbuilder.md), [BackgroundTransferCompletionGroup](backgroundtransfercompletiongroup.md)

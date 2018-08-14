@@ -11,10 +11,10 @@ public bool AllowBluetooth { get;  set; }
 # Windows.Networking.Proximity.PeerFinder.AllowBluetooth
 
 ## -description
-Specifies whether the [PeerFinder](peerfinder.md) class may connect a [StreamSocket](../windows.networking.sockets/streamsocket_streamsocket.md) object by using Bluetooth.
+Specifies whether the [PeerFinder](peerfinder.md) class may connect a [StreamSocket](../windows.networking.sockets/streamsocket_streamsocket_1221375020.md) object by using Bluetooth.
 
 ## -property-value
-True if the [PeerFinder](peerfinder.md) class may connect a [StreamSocket](../windows.networking.sockets/streamsocket_streamsocket.md) object by using Bluetooth; otherwise false. The default is true.
+True if the [PeerFinder](peerfinder.md) class may connect a [StreamSocket](../windows.networking.sockets/streamsocket_streamsocket_1221375020.md) object by using Bluetooth; otherwise false. The default is true.
 
 ## -remarks
 

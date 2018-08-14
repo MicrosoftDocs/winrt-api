@@ -13,7 +13,7 @@ public class VoiceCommandActivatedEventArgs : Windows.ApplicationModel.Activatio
 Contains info for the app's activated event when the app is launched through a voice command.
 
 ## -remarks
-Access this object by overriding either the Windows Library for JavaScript (WinJS) [onactivated](http://msdn.microsoft.com/library/8b1cf913-a914-47d1-a690-bc3f0931e9d4) event or the Extensible Application Markup Language (XAML) [OnActivated](../windows.ui.xaml/application_onactivated.md) method, when the value of [IActivatedEventArgs.Kind](iactivatedeventargs_kind.md) is **VoiceCommand**.
+Access this object by overriding either the Windows Library for JavaScript (WinJS) [onactivated](http://msdn.microsoft.com/library/8b1cf913-a914-47d1-a690-bc3f0931e9d4) event or the Extensible Application Markup Language (XAML) [OnActivated](../windows.ui.xaml/application_onactivated_603737819.md) method, when the value of [IActivatedEventArgs.Kind](iactivatedeventargs_kind.md) is **VoiceCommand**.
 
 ## -examples
 

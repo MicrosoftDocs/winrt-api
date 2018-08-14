@@ -21,7 +21,7 @@ The [DeviceInformation Id](../windows.devices.enumeration/deviceinformation_id.m
 A new [ProximityDevice](proximitydevice.md) that uses the specified proximity device interface. Throws a **System.IO.FileNotFoundException** exception if the specified proximity device interface isunavailable.
 
 ## -remarks
-You can enumerate proximity devices by passing the class selection string returned by the [GetDeviceSelector](proximitydevice_getdeviceselector_838466080.md) method to the [FindAllAsync](../windows.devices.enumeration/deviceinformation_findallasync.md) or [CreateWatcher](../windows.devices.enumeration/deviceinformation_createwatcher.md) method. You can then use the resulting [DeviceInformation Id](../windows.devices.enumeration/deviceinformation_id.md) value(s) to create an instance of a [ProximityDevice](proximitydevice.md) using the [FromId](proximitydevice_fromid_114571398.md) method.
+You can enumerate proximity devices by passing the class selection string returned by the [GetDeviceSelector](proximitydevice_getdeviceselector_838466080.md) method to the [FindAllAsync](../windows.devices.enumeration/deviceinformation_findallasync_1257462890.md) or [CreateWatcher](../windows.devices.enumeration/deviceinformation_createwatcher_1506431823.md) method. You can then use the resulting [DeviceInformation Id](../windows.devices.enumeration/deviceinformation_id.md) value(s) to create an instance of a [ProximityDevice](proximitydevice.md) using the [FromId](proximitydevice_fromid_114571398.md) method.
 
 ## -examples
 

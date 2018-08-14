@@ -16,7 +16,7 @@ Retrieves the previously rendered [RenderTargetBitmap](rendertargetbitmap.md) im
 When this method returns, an [IBuffer](../windows.storage.streams/ibuffer.md) stream that contains bytes. This is the binary data for the image and can be converted to a byte array in **BGRA8** format
 
 ## -remarks
-The [IBuffer](../windows.storage.streams/ibuffer.md) return value enables passing the result to a [WriteableBitmap](writeablebitmap.md) and its [PixelBuffer](writeablebitmap_pixelbuffer.md). Another alternative is passing the buffer to a [BitmapEncoder](../windows.graphics.imaging/bitmapencoder.md). If you want an array of bytes, use a [DataReader](../windows.storage.streams/datareader.md) and the [FromBuffer](../windows.storage.streams/datareader_frombuffer.md) method to help with the conversion.
+The [IBuffer](../windows.storage.streams/ibuffer.md) return value enables passing the result to a [WriteableBitmap](writeablebitmap.md) and its [PixelBuffer](writeablebitmap_pixelbuffer.md). Another alternative is passing the buffer to a [BitmapEncoder](../windows.graphics.imaging/bitmapencoder.md). If you want an array of bytes, use a [DataReader](../windows.storage.streams/datareader.md) and the [FromBuffer](../windows.storage.streams/datareader_frombuffer_328414308.md) method to help with the conversion.
 
 Through the [IAsyncOperation](../windows.foundation/iasyncoperation_1.md) intermediate value, this method returns the pixels of the image source that was produced by the most recent call to [RenderAsync](rendertargetbitmap_renderasync_1804035726.md).
 

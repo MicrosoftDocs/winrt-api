@@ -25,7 +25,7 @@ The new center point.
 Returns the request ID. On state transitions, the request which caused the change in state will be included in the args. These IDs will start at 1 and increase with each try call during the lifetime of the application.
 
 ## -remarks
-When creating the animation you want to update [InteractionTracker](interactiontracker.md) ’s position with, you do not need to call [StartAnimation](../windows.ui.composition/compositionobject_startanimation.md). The system will take care of this behind the scenes once the animation is passed in via [TryUpdateScaleWithAnimation](interactiontracker_tryupdatescalewithanimation_1514063803.md).
+When creating the animation you want to update [InteractionTracker](interactiontracker.md) ’s position with, you do not need to call [StartAnimation](../windows.ui.composition/compositionobject_startanimation_709050842.md). The system will take care of this behind the scenes once the animation is passed in via [TryUpdateScaleWithAnimation](interactiontracker_tryupdatescalewithanimation_1514063803.md).
 
 When defining the animation that will animate [InteractionTracker](interactiontracker.md) ’s scale position, be sure to either use a [ScalarKeyFrameAnimation](../windows.ui.composition/scalarkeyframeanimation.md) or an [ExpressionAnimation](../windows.ui.composition/expressionanimation.md) that resolves to a Scalar.
 

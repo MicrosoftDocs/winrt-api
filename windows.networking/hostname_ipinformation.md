@@ -16,7 +16,7 @@ Gets the [IPInformation](../windows.networking.connectivity/ipinformation.md) ob
 The [IPInformation](../windows.networking.connectivity/ipinformation.md) object for the IP address.
 
 ## -remarks
-The [IPInformation](../windows.networking.connectivity/ipinformation.md) property is only set when the [HostName](hostname.md) object is a local IPv4 or IPv6 address returned by the [GetHostNames](../windows.networking.connectivity/networkinformation_gethostnames.md) method. This property represents the [IPInformation](../windows.networking.connectivity/ipinformation.md) object for the local IP address. If the [HostName](hostname.md) object is not a local IPv4 or IPv6 address, this property will be null.
+The [IPInformation](../windows.networking.connectivity/ipinformation.md) property is only set when the [HostName](hostname.md) object is a local IPv4 or IPv6 address returned by the [GetHostNames](../windows.networking.connectivity/networkinformation_gethostnames_136280557.md) method. This property represents the [IPInformation](../windows.networking.connectivity/ipinformation.md) object for the local IP address. If the [HostName](hostname.md) object is not a local IPv4 or IPv6 address, this property will be null.
 
 ## -examples
 

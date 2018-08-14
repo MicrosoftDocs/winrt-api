@@ -25,7 +25,7 @@ When this method completes successfully, it returns a list (type [IVectorView](.
 In this list, files are represented by [storageFile](../windows.storage/storagefile.md) objects, and folders or file groups are represented by [storageFolder](../windows.storage/storagefolder.md) objects.
 
 ## -remarks
-You can use the [isOfType](../windows.storage/istorageitem_isoftype.md) method on both types of storage objects to find out whether an item is a [storageFile](../windows.storage/storagefile.md) or [storageFolder](../windows.storage/storagefolder.md) object.
+You can use the [isOfType](../windows.storage/istorageitem_isoftype_1417811226.md) method on both types of storage objects to find out whether an item is a [storageFile](../windows.storage/storagefile.md) or [storageFolder](../windows.storage/storagefolder.md) object.
 
 For C#/C++/VB: After you know whether the item is a [StorageFile](../windows.storage/storagefile.md) or [StorageFolder](../windows.storage/storagefolder.md), you can then cast the item to the appropriate type in order to access properties and methods specific to that object.
 
@@ -34,4 +34,4 @@ Use this overload to improve system performance by presenting a virtualized view
 ## -examples
 
 ## -see-also
-[storageItemQueryResult class](storageitemqueryresult.md), [storageItemQueryResult.getItemsAsync() method](storageitemqueryresult_getitemsasync_1518547059.md), [Windows.Foundation.Collections.IVectorView interface](../windows.foundation.collections/ivectorview_1.md), [Windows.Storage.IStorageItem interface](../windows.storage/istorageitem.md), [Windows.Storage.IStorageItem.isOfType method](../windows.storage/istorageitem_isoftype.md), [Windows.Storage.storageFile class](../windows.storage/storagefile.md), [Windows.Storage.storageFolder class](../windows.storage/storagefolder.md)
+[storageItemQueryResult class](storageitemqueryresult.md), [storageItemQueryResult.getItemsAsync() method](storageitemqueryresult_getitemsasync_1518547059.md), [Windows.Foundation.Collections.IVectorView interface](../windows.foundation.collections/ivectorview_1.md), [Windows.Storage.IStorageItem interface](../windows.storage/istorageitem.md), [Windows.Storage.IStorageItem.isOfType method](../windows.storage/istorageitem_isoftype_1417811226.md), [Windows.Storage.storageFile class](../windows.storage/storagefile.md), [Windows.Storage.storageFolder class](../windows.storage/storagefolder.md)

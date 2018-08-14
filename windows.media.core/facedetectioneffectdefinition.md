@@ -13,7 +13,7 @@ public class FaceDetectionEffectDefinition : Windows.Media.Core.IFaceDetectionEf
 Represents the definition of a face detection video effect.
 
 ## -remarks
-Get an instance of the [FaceDetectionEffect](facedetectioneffect.md) class by passing a [FaceDetectionEffectDefinition](facedetectioneffectdefinition.md) object into [AddVideoEffectAsync](../windows.media.capture/mediacapture_addvideoeffectasync.md).
+Get an instance of the [FaceDetectionEffect](facedetectioneffect.md) class by passing a [FaceDetectionEffectDefinition](facedetectioneffectdefinition.md) object into [AddVideoEffectAsync](../windows.media.capture/mediacapture_addvideoeffectasync_1410216019.md).
 
 ## -examples
 

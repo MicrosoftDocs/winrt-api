@@ -24,7 +24,7 @@ The smallest allowed minimum size is 192 x 48 effective pixels. The largest allo
 
 Setting the preferred minimum size affects only the view it was requested on; setting it on one view does not impact the preferred minimum size of the other views.
 
-The preferred minimum size is not persisted after the app is closed. You should always set your preferred minimum size on your view before [Window.Activate](../windows.ui.xaml/window_activate.md) is called to present it.
+The preferred minimum size is not persisted after the app is closed. You should always set your preferred minimum size on your view before [Window.Activate](../windows.ui.xaml/window_activate_1797342875.md) is called to present it.
 
 If you set a preferred minimum size that is larger than the current size, the app is resized so that the preferred minimum size is honored.
 

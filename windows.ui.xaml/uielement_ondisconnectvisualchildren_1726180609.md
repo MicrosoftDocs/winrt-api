@@ -17,7 +17,7 @@ Override this method to implement how layout and logic should behave when items 
 
 [FrameworkElement](frameworkelement.md) uses an [OnDisconnectVisualChildren](uielement_ondisconnectvisualchildren_1726180609.md) override to clear values from [DataContext](frameworkelement_datacontext.md) and [Tag](frameworkelement_tag.md). In general, if you override this method you should always call the base implementation so that the framework-intentional behavior that acts on [OnDisconnectVisualChildren](uielement_ondisconnectvisualchildren_1726180609.md) can be preserved.
 
-[VisualTreeHelper.DisconnectChildrenRecursive](../windows.ui.xaml.media/visualtreehelper_disconnectchildrenrecursive.md) is a similar static helper API that can be called by app code.
+[VisualTreeHelper.DisconnectChildrenRecursive](../windows.ui.xaml.media/visualtreehelper_disconnectchildrenrecursive_1375370588.md) is a similar static helper API that can be called by app code.
 
 ## -examples
 

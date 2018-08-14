@@ -19,10 +19,10 @@ Provides access to the results of a query that lists all items including files a
 
 You can get a [storageItemQueryResult](storageitemqueryresult.md) object by calling the following methods from a [storageFolder](../windows.storage/storagefolder.md) or a [folderInformation](../windows.storage.bulkaccess/folderinformation.md) object:
 
-+ [storageFolder.createItemQuery](../windows.storage/storagefolder_createitemquery.md) methods
-+ [storageFolder.createItemQueryWithOptions](../windows.storage/storagefolder_createitemquerywithoptions.md) method
-+ [folderInformation.createItemQuery](../windows.storage.bulkaccess/folderinformation_createitemquery.md) methods
-+ [folderInformation.createItemQueryWithOptions](../windows.storage.bulkaccess/folderinformation_createitemquerywithoptions.md) method
++ [storageFolder.createItemQuery](../windows.storage/storagefolder_createitemquery_543424716.md) methods
++ [storageFolder.createItemQueryWithOptions](../windows.storage/storagefolder_createitemquerywithoptions_1519361285.md) method
++ [folderInformation.createItemQuery](../windows.storage.bulkaccess/folderinformation_createitemquery_543424716.md) methods
++ [folderInformation.createItemQueryWithOptions](../windows.storage.bulkaccess/folderinformation_createitemquerywithoptions_1519361285.md) method
 For related code examples, see [storageFileQueryResult](storagefilequeryresult.md), [storageFolderQueryResult](storagefolderqueryresult.md), the [Folder enumeration sample](http://go.microsoft.com/fwlink/p/?linkid=231512), and the [File system search sample](http://go.microsoft.com/fwlink/p/?linkid=231532).
 
 ## -examples

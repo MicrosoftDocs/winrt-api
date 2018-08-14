@@ -140,4 +140,4 @@ For more info, see [Text Attribute Identifiers](http://msdn.microsoft.com/librar
 ## -examples
 
 ## -see-also
-[ITextRangeProvider.GetAttributeValue](../windows.ui.xaml.automation.provider/itextrangeprovider_getattributevalue.md), [Text Attribute Identifiers](http://msdn.microsoft.com/library/67d86817-6a3f-4047-88d9-34f33f52a563)
+[ITextRangeProvider.GetAttributeValue](../windows.ui.xaml.automation.provider/itextrangeprovider_getattributevalue_221990744.md), [Text Attribute Identifiers](http://msdn.microsoft.com/library/67d86817-6a3f-4047-88d9-34f33f52a563)

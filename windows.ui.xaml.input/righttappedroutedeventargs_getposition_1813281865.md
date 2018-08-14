@@ -30,4 +30,4 @@ Apps that were compiled for Windows 8 but running on Windows 8.1 continue to u
 ## -examples
 
 ## -see-also
-[Point](../windows.foundation/point.md), [RightTapped](../windows.ui.xaml/uielement_righttapped.md), [OnRightTapped](../windows.ui.xaml.controls/control_onrighttapped.md), [HoldingRoutedEventArgs](holdingroutedeventargs.md)
+[Point](../windows.foundation/point.md), [RightTapped](../windows.ui.xaml/uielement_righttapped.md), [OnRightTapped](../windows.ui.xaml.controls/control_onrighttapped_206844945.md), [HoldingRoutedEventArgs](holdingroutedeventargs.md)

@@ -10,7 +10,7 @@ public class NavigationTransitionInfo : Windows.UI.Xaml.DependencyObject, Window
 # Windows.UI.Xaml.Media.Animation.NavigationTransitionInfo
 
 ## -description
-Provides parameter info for the [Frame.Navigate](../windows.ui.xaml.controls/frame_navigate.md) method. Controls how the transition animation runs during the navigation action.
+Provides parameter info for the [Frame.Navigate](../windows.ui.xaml.controls/frame_navigate_1426351961.md) method. Controls how the transition animation runs during the navigation action.
 
 ## -remarks
 Navigation transition animations can be any of the *TransitionInfo types. For UWP apps, we recommend using the following page transitions:

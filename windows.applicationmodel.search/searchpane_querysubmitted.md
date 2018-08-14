@@ -19,7 +19,7 @@ Fires when the user submits the text in the search box and the app needs to disp
 If your app participates in the Search contract, register an event handler to respond when this event fires. In your [QuerySubmitted](searchpane_querysubmitted.md) event handler, respond by taking the user to your search results page and populating it with results based on the [SearchPaneQuerySubmittedEventArgs](searchpanequerysubmittedeventargs.md).[QueryText](searchpanequerysubmittedeventargs_querytext.md).
 
 ## -examples
-**For C#/C++/VB:** This example demonstrates how to ensure that your app can respond to user queries at any time by overriding [OnWindowCreated](../windows.ui.xaml/application_onwindowcreated.md) in App.xaml.cs/App.xaml.cpp/App.xaml.vb to access the [SearchPane](searchpane.md) object and register handlers for [SearchPane](searchpane.md) events (like [QuerySubmitted](searchpane_querysubmitted.md)).
+**For C#/C++/VB:** This example demonstrates how to ensure that your app can respond to user queries at any time by overriding [OnWindowCreated](../windows.ui.xaml/application_onwindowcreated_1983609380.md) in App.xaml.cs/App.xaml.cpp/App.xaml.vb to access the [SearchPane](searchpane.md) object and register handlers for [SearchPane](searchpane.md) events (like [QuerySubmitted](searchpane_querysubmitted.md)).
 
 ```csharp
 protected override void OnWindowCreated(WindowCreatedEventArgs args)

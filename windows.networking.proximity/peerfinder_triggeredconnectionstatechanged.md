@@ -22,7 +22,7 @@ The first [State](triggeredconnectionstatechangedeventargs_state.md) value in a 
 
 If the [State](triggeredconnectionstatechangedeventargs_state.md) property returns **Connecting**, you know that your device initiated the tap gesture. If the [State](triggeredconnectionstatechangedeventargs_state.md) property returns **Listening**, you know that the other device initiated the tap gesture. This information is useful in determining which peer should initiate communications when the connection is complete.
 
-When the [State](triggeredconnectionstatechangedeventargs_state.md) property returns **Completed**, you can access the [Socket](triggeredconnectionstatechangedeventargs_socket.md) property to obtain a reference to a [StreamSocket](../windows.networking.sockets/streamsocket_streamsocket.md) object. You can use this reference to communicate with the peer app. The transport over which this communication takes place on this socket connection will either be Bluetooth, Infrastructure or Wi-Fi Direct.
+When the [State](triggeredconnectionstatechangedeventargs_state.md) property returns **Completed**, you can access the [Socket](triggeredconnectionstatechangedeventargs_socket.md) property to obtain a reference to a [StreamSocket](../windows.networking.sockets/streamsocket_streamsocket_1221375020.md) object. You can use this reference to communicate with the peer app. The transport over which this communication takes place on this socket connection will either be Bluetooth, Infrastructure or Wi-Fi Direct.
 
 > Wi-Fi Direct is not supported for Windows Phone 8.x apps.
 

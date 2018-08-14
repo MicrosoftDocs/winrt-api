@@ -16,7 +16,7 @@ Gets the bounding box that contains the route leg.
 The bounding box that contains the route leg.
 
 ## -remarks
-If you want to display this bounding box in the [MapControl](../windows.ui.xaml.controls.maps/mapcontrol.md), use one of the overloads of the [TrySetViewAsync](../windows.ui.xaml.controls.maps/mapcontrol_trysetviewasync.md) method that accepts a [GeoboundingBox](../windows.devices.geolocation/geoboundingbox.md) as input.
+If you want to display this bounding box in the [MapControl](../windows.ui.xaml.controls.maps/mapcontrol.md), use one of the overloads of the [TrySetViewAsync](../windows.ui.xaml.controls.maps/mapcontrol_trysetviewasync_117228238.md) method that accepts a [GeoboundingBox](../windows.devices.geolocation/geoboundingbox.md) as input.
 
 ## -examples
 

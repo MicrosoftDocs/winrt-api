@@ -24,9 +24,9 @@ A [FileSavePickerActivatedEventArgs](filesavepickeractivatedeventargs.md) object
 
 Apps written in JavaScript must listen for and handle [Windows.UI.WebUI.webUIApplication.activated](../windows.ui.webui/webuiapplication_activated.md) events.
 
-UWP app using C++, C#, or Visual Basic typically implement activation points by overriding methods of the [Application](../windows.ui.xaml/application.md) object. The default template app.xaml code-behind files always include an override for [OnLaunched](../windows.ui.xaml/application_onlaunched.md), but defining overrides for other activation points such as [OnFileSavePickerActivated](../windows.ui.xaml/application_onfilesavepickeractivated.md) is up to your app code.
+UWP app using C++, C#, or Visual Basic typically implement activation points by overriding methods of the [Application](../windows.ui.xaml/application.md) object. The default template app.xaml code-behind files always include an override for [OnLaunched](../windows.ui.xaml/application_onlaunched_859642554.md), but defining overrides for other activation points such as [OnFileSavePickerActivated](../windows.ui.xaml/application_onfilesavepickeractivated_425940653.md) is up to your app code.
 
-All [Application](../windows.ui.xaml/application.md) overrides involved in an activation scenario should call [Window.Activate](../windows.ui.xaml/window_activate.md) in their implementations.
+All [Application](../windows.ui.xaml/application.md) overrides involved in an activation scenario should call [Window.Activate](../windows.ui.xaml/window_activate_1797342875.md) in their implementations.
 
 ## -examples
 
@@ -55,8 +55,8 @@ internal void Activate(FileSavePickerActivatedEventArgs args)
 }
 ```
 
-For C#, `args` for an [OnFileSavePickerActivated](../windows.ui.xaml/application_onfilesavepickeractivated.md) override on the [Application](../windows.ui.xaml/application.md) object references a [FileSavePickerActivatedEventArgs](filesavepickeractivatedeventargs.md) object. The [OnFileSavePickerActivated](../windows.ui.xaml/application_onfilesavepickeractivated.md) override is in the App.xaml.cs file and the `Activate` method is in the FileSavePickerPage.xaml.cs file of the [File picker contracts sample](http://go.microsoft.com/fwlink/p/?linkid=231536).
+For C#, `args` for an [OnFileSavePickerActivated](../windows.ui.xaml/application_onfilesavepickeractivated_425940653.md) override on the [Application](../windows.ui.xaml/application.md) object references a [FileSavePickerActivatedEventArgs](filesavepickeractivatedeventargs.md) object. The [OnFileSavePickerActivated](../windows.ui.xaml/application_onfilesavepickeractivated_425940653.md) override is in the App.xaml.cs file and the `Activate` method is in the FileSavePickerPage.xaml.cs file of the [File picker contracts sample](http://go.microsoft.com/fwlink/p/?linkid=231536).
 
 ## -see-also
 
-[Windows.Storage.Pickers.Provider namespace](../windows.storage.pickers.provider/windows_storage_pickers_provider.md), [Windows.UI.WebUI.WebUIApplication.Activated event](../windows.ui.webui/webuiapplication_activated.md), [Windows.UI.Core.CoreApplicationView.Activated event](../windows.applicationmodel.core/coreapplicationview_activated.md), [OnFileSavePickerActivated](../windows.ui.xaml/application_onfilesavepickeractivated.md), [Application](../windows.ui.xaml/application.md), [File picker contracts sample](http://go.microsoft.com/fwlink/p/?linkid=231536), [File picker provider sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620543)
+[Windows.Storage.Pickers.Provider namespace](../windows.storage.pickers.provider/windows_storage_pickers_provider.md), [Windows.UI.WebUI.WebUIApplication.Activated event](../windows.ui.webui/webuiapplication_activated.md), [Windows.UI.Core.CoreApplicationView.Activated event](../windows.applicationmodel.core/coreapplicationview_activated.md), [OnFileSavePickerActivated](../windows.ui.xaml/application_onfilesavepickeractivated_425940653.md), [Application](../windows.ui.xaml/application.md), [File picker contracts sample](http://go.microsoft.com/fwlink/p/?linkid=231536), [File picker provider sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620543)

@@ -22,13 +22,13 @@ The geofencing APIs enable your app to do the following:
 + Specify a dwell time for each geofence - the amount of time that the device should be in or out of the geofence before the notification is triggered.
 + Dynamically add and remove a geofences from your app's collection of monitored geofences.
 + Receive geofence events while the app is active.
-+ Register with the system to have a background task launch when the state of one of your app's geofences changes. Apps must call [RequestAccessAsync](../windows.applicationmodel.background/backgroundexecutionmanager_requestaccessasync.md) before any background tasks will run.
++ Register with the system to have a background task launch when the state of one of your app's geofences changes. Apps must call [RequestAccessAsync](../windows.applicationmodel.background/backgroundexecutionmanager_requestaccessasync_1328635663.md) before any background tasks will run.
 + Use simulator to simulate device movement and test your app's geofencing features.
 
 If you want your app to be launched in the background when the trigger condition for one of its geofences is met, you need to use a background task and set up a [LocationTrigger](../windows.applicationmodel.background/locationtrigger.md) to launch it.
 
 > [!IMPORTANT]
-> Starting in Windows 10, call the [Geolocator](../windows.devices.geolocation/geolocator.md) object's [RequestAccessAsync](../windows.devices.geolocation/geolocator_requestaccessasync.md) method before accessing the user’s location. At that time, your app must be in the foreground and [RequestAccessAsync](../windows.devices.geolocation/geolocator_requestaccessasync.md) must be called from the UI thread. Until the user grants your app permission to access their location, your app can't access location data.
+> Starting in Windows 10, call the [Geolocator](../windows.devices.geolocation/geolocator.md) object's [RequestAccessAsync](../windows.devices.geolocation/geolocator_requestaccessasync_380675631.md) method before accessing the user’s location. At that time, your app must be in the foreground and [RequestAccessAsync](../windows.devices.geolocation/geolocator_requestaccessasync_380675631.md) must be called from the UI thread. Until the user grants your app permission to access their location, your app can't access location data.
 
 ## -remarks
 

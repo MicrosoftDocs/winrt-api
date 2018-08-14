@@ -34,7 +34,7 @@ Default. Increase requested size based on the Pixels Per Inch (PPI) of the displ
 
 
 ## -remarks
-This enumeration is used when you get a thumbnail image by calling one of the [getThumbnailAsync](../windows.storage/istorageitemproperties_getthumbnailasync.md) method overloads like [storageFile.getThumbnailAsync(mode, requestedSize, options)](../windows.storage/storagefile_getthumbnailasync_91362086.md). The thumbnail image that is returned is represented by a [storageItemThumbnail](storageitemthumbnail.md) object.
+This enumeration is used when you get a thumbnail image by calling one of the [getThumbnailAsync](../windows.storage/istorageitemproperties_getthumbnailasync_1511435522.md) method overloads like [storageFile.getThumbnailAsync(mode, requestedSize, options)](../windows.storage/storagefile_getthumbnailasync_91362086.md). The thumbnail image that is returned is represented by a [storageItemThumbnail](storageitemthumbnail.md) object.
 
 ## -examples
 

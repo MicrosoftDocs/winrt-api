@@ -169,4 +169,4 @@ This example shows a more complete control template defined as a [Style](../wind
 
 
 ## -see-also
-[Quickstart: Control templates](http://msdn.microsoft.com/library/67c424ae-afb1-4560-a6a8-4a3506775d77), [OnApplyTemplate](../windows.ui.xaml/frameworkelement_onapplytemplate.md), [GetTemplateChild](control_gettemplatechild_501346084.md), [ControlTemplate](controltemplate.md), [Style](../windows.ui.xaml/style.md)
+[Quickstart: Control templates](http://msdn.microsoft.com/library/67c424ae-afb1-4560-a6a8-4a3506775d77), [OnApplyTemplate](../windows.ui.xaml/frameworkelement_onapplytemplate_1955470198.md), [GetTemplateChild](control_gettemplatechild_501346084.md), [ControlTemplate](controltemplate.md), [Style](../windows.ui.xaml/style.md)

@@ -17,7 +17,7 @@ Gets a query result object that contains the files in the current folder. Also g
 One of the enumeration values that specifies how to sort the files and determines whether the query is shallow or deep.
 
 ## -returns
-A query result object. Call the [GetFilesAsync](../windows.storage.search/storagefilequeryresult_getfilesasync.md) method of the query result to get the flat list of files, sorted as specified by *query*. This method returns a list of type **IReadOnlyList**&lt;[StorageFile](storagefile.md)&gt;. Each file is represented by an item of type [StorageFile](storagefile.md).
+A query result object. Call the [GetFilesAsync](../windows.storage.search/storagefilequeryresult_getfilesasync_1261374131.md) method of the query result to get the flat list of files, sorted as specified by *query*. This method returns a list of type **IReadOnlyList**&lt;[StorageFile](storagefile.md)&gt;. Each file is represented by an item of type [StorageFile](storagefile.md).
 
 ## -exceptions
 ### System.ArgumentException

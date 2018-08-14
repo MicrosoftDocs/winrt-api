@@ -23,7 +23,7 @@ The number of bytes to read that is less than or equal to the Capacity value.
 Specifies the type of the asynchronous read operation.
 
 ## -returns
-An asynchronous operation that includes progress updates. For more information, see [ReadAsync](../windows.storage.streams/iinputstream_readasync.md) method.
+An asynchronous operation that includes progress updates. For more information, see [ReadAsync](../windows.storage.streams/iinputstream_readasync_1012630619.md) method.
 
 ## -remarks
 

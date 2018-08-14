@@ -20,7 +20,7 @@ Occurs when the delta value of a pointer wheel changes.
 
 ## -remarks
 When you handle [PointerWheelChanged](uielement_pointerwheelchanged.md), you are usually interested in the [MouseWheelDelta](../windows.ui.input/pointerpointproperties_mousewheeldelta.md) property value: 
-1. Call [GetCurrentPoint](../windows.ui.xaml.input/pointerroutedeventargs_getcurrentpoint.md) from the [PointerRoutedEventArgs](../windows.ui.xaml.input/pointerroutedeventargs.md) available to your handler. This returns a [PointerPoint](../windows.ui.input/pointerpoint.md).
+1. Call [GetCurrentPoint](../windows.ui.xaml.input/pointerroutedeventargs_getcurrentpoint_1761708789.md) from the [PointerRoutedEventArgs](../windows.ui.xaml.input/pointerroutedeventargs.md) available to your handler. This returns a [PointerPoint](../windows.ui.input/pointerpoint.md).
 1. Get the [Properties](../windows.ui.input/pointerpoint_properties.md) of the [PointerPoint](../windows.ui.input/pointerpoint.md). It contains a [PointerPointProperties](../windows.ui.input/pointerpointproperties.md) object.
 1. Get the [MouseWheelDelta](../windows.ui.input/pointerpointproperties_mousewheeldelta.md) property value from the [PointerPointProperties](../windows.ui.input/pointerpointproperties.md) object. A positive value indicates that the wheel was rotated forward (away from the user) or tilted to the right; a negative value indicates that the wheel was rotated backward (toward the user) or tilted to the left.
 
@@ -33,7 +33,7 @@ For touch actions and also for interaction-specific or manipulation events that 
 
 [PointerWheelChanged](uielement_pointerwheelchanged.md) supports the ability to attach event handlers to the route that will be invoked even if the event data for the event is marked [Handled](../windows.ui.xaml.input/pointerroutedeventargs_handled.md). See [AddHandler](uielement_addhandler_2121467075.md).
 
-Specific Windows Runtime controls may have class-based handling for the [PointerWheelChanged](uielement_pointerwheelchanged.md) input event. If so, the control probably has an override for the method [OnPointerWheelChanged](../windows.ui.xaml.controls/control_onpointerwheelchanged.md). Typically the event is marked handled by the class handler, and the [PointerWheelChanged](uielement_pointerwheelchanged.md) event is not raised for handling by any user code handlers on that control. A control might do this in order to support traversal of its child elements by using a pointer wheel action. For more info on how class-based handling for events works, see [Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
+Specific Windows Runtime controls may have class-based handling for the [PointerWheelChanged](uielement_pointerwheelchanged.md) input event. If so, the control probably has an override for the method [OnPointerWheelChanged](../windows.ui.xaml.controls/control_onpointerwheelchanged_1180757497.md). Typically the event is marked handled by the class handler, and the [PointerWheelChanged](uielement_pointerwheelchanged.md) event is not raised for handling by any user code handlers on that control. A control might do this in order to support traversal of its child elements by using a pointer wheel action. For more info on how class-based handling for events works, see [Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
 
 
 <!--The following remark is relevant for Windows 8 > 8.1 migration. See WBB 462116-->

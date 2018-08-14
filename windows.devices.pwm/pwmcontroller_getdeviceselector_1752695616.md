@@ -10,7 +10,7 @@ public string PwmController.GetDeviceSelector(String friendlyName)
 # Windows.Devices.Pwm.PwmController.GetDeviceSelector
 
 ## -description
-Retrieves an Advanced Query Syntax (AQS) string for the PWM controller that has the specified friendly name. You can use this string with the [DeviceInformation.FindAllAsync](../windows.devices.enumeration/deviceinformation_findallasync.md) method to get [DeviceInformation](../windows.devices.enumeration/deviceinformation.md) objects for those controllers.
+Retrieves an Advanced Query Syntax (AQS) string for the PWM controller that has the specified friendly name. You can use this string with the [DeviceInformation.FindAllAsync](../windows.devices.enumeration/deviceinformation_findallasync_1257462890.md) method to get [DeviceInformation](../windows.devices.enumeration/deviceinformation.md) objects for those controllers.
 
 
 ## -parameters
