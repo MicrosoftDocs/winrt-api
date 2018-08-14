@@ -1,13 +1,13 @@
 ---
--api-id: P:Windows.System.RemoteSystems.RemoteSystemWatcherErrorOccurredEventArgs.Error
+-api-id: P:Windows.System.RemoteSystems.RemoteSystemWatcherErrorOccurredEventArgs.ErrorOccurred
 -api-type: winrt property
 ---
 
 <!-- Property syntax.
-public RemoteSystemWatcherError Error { get; }
+public RemoteSystemWatcherError ErrorOccurred { get; }
 -->
 
-# Windows.System.RemoteSystems.RemoteSystemWatcherErrorOccurredEventArgs.Error
+# Windows.System.RemoteSystems.RemoteSystemWatcherErrorOccurredEventArgs.ErrorOccurred
 
 ## -description
 Gets the type of watcher error that ocurred.

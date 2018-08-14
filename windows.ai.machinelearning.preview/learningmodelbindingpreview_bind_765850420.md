@@ -10,7 +10,7 @@ public void LearningModelBindingPreview.Bind(String name, Object value)
 # Windows.AI.MachineLearning.Preview.LearningModelBindingPreview.Bind
 
 ## -description
-Binds a single input or output feature to a defined variable.
+**Deprecated.** Binds a single input or output feature to a defined variable.
 
 ## -parameters
 ### -param name
@@ -22,8 +22,8 @@ The value of the input/output feature.
 ## -remarks
 **Note**: Currently, outputs of type `double` are not supported. If possible, consider using type `float` instead.
 
-> [!NOTE]
-> Windows.AI.MachineLearning.Preview is a preview API and may be substantially modified before it’s officially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+> [!Warning]
+> This is a deprecated API. Please use the [Windows.AI.MachineLearning](../windows.ai.machinelearning/windows_ai_machinelearning.md) namespace instead.
 
 ## -see-also
 

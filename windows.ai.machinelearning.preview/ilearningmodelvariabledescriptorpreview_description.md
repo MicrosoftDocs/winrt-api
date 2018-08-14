@@ -10,15 +10,15 @@ public string Description { get; }
 # Windows.AI.MachineLearning.Preview.ILearningModelVariableDescriptorPreview.Description
 
 ## -description
-Gets the description of the variable.
+**Deprecated.** Gets the description of the variable.
 
 ## -property-value
 The description of the variable.
 
 ## -remarks
 
-> [!NOTE]
-> Windows.AI.MachineLearning.Preview is a preview API and may be substantially modified before it’s officially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+> [!Warning]
+> This is a deprecated API. Please use the [Windows.AI.MachineLearning](../windows.ai.machinelearning/windows_ai_machinelearning.md) namespace instead.
 
 ## -see-also
 
