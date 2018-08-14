@@ -11,7 +11,7 @@ public enum NavigationViewShoulderNavigationEnabled : int
 
 ## -description
 
-Defines constants that specify when gamepad bumpers navigate the top-level navigation items in a NavigationView.
+Defines constants that specify when gamepad bumpers can be used to navigate the top-level navigation items in a NavigationView.
 
 ## -enum-fields
 

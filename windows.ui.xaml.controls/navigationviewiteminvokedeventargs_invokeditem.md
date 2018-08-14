@@ -19,6 +19,8 @@ The invoked item.
 
 ## -remarks
 
+This property gets the data item that was invoked. To get the NavigationViewItem that is the container for the invoked item, use the [InvokedItemContainer](navigationviewiteminvokedeventargs_invokeditemcontainer.md) property.
+
 ## -see-also
 
 ## -examples

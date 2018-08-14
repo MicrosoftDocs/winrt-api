@@ -11,11 +11,11 @@ public NavigationViewOverflowLabelMode OverflowLabelMode { get;  set; }
 
 ## -description
 
-Gets or sets a value that determines what text label is shown for the overflow menu.
+Gets or sets a value that indicates what text label is shown for the overflow menu.
 
 ## -property-value
 
-A value of the enumeration that determines what text label is shown for the overflow menu. The default is **MoreLabel**, which shows the text "More".
+A value of the enumeration that indicates what text label is shown for the overflow menu. The default is **MoreLabel**, which shows the text "More".
 
 ## -remarks
 

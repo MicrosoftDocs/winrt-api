@@ -10,14 +10,13 @@ public event Windows.Foundation.EventHandler DateChanged<Windows.UI.Xaml.Control
 # Windows.UI.Xaml.Controls.DatePicker.DateChanged
 
 ## -description
-<!--Move in TOC.-->
+
 Occurs when the date value is changed.
 
 ## -xaml-syntax
 ```xaml
 <DatePicker DateChanged="eventhandler" />
 ```
-
 
 ## -remarks
 When you handle this event, use the [OldDate](datepickervaluechangedeventargs_olddate.md) and [NewDate](datepickervaluechangedeventargs_newdate.md) properties of the [DatePickerValueChangedEventArgs](datepickervaluechangedeventargs.md) event data for your logic. These properties use different data types depending on your programming language (C# and Visual Basic use [System.DateTimeOffset](https://msdn.microsoft.com/library/system.datetimeoffset.aspx); Visual C++ component extensions (C++/CX) uses [Windows::Foundation::DateTime](http://msdn.microsoft.com/library/b5533002-8a72-438d-a3d3-0902ffc21830)).

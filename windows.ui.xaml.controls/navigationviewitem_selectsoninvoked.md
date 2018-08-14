@@ -11,7 +11,11 @@ public bool SelectsOnInvoked { get;  set; }
 
 ## -description
 
+Gets or sets a value that indicates whether invoking a navigation menu item also selects it.
+
 ## -property-value
+
+**true** if invoking a navigation menu item also selects it; otherwise, **false**. The default is **true**.
 
 ## -remarks
 

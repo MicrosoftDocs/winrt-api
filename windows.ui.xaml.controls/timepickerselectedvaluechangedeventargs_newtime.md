@@ -11,7 +11,11 @@ public IReference<TimeSpan> NewTime { get; }
 
 ## -description
 
+Gets the new time selected in the picker.
+
 ## -property-value
+
+The new time selected in the picker.
 
 ## -remarks
 

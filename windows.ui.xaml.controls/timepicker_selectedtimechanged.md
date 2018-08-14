@@ -11,6 +11,14 @@ public event TypedEventHandler SelectedTimeChanged<TimePicker, TimePickerSelecte
 
 ## -description
 
+Occurs when the selected time value is changed.
+
+## -xaml-syntax
+
+```xaml
+<TimePicker SelectedTimeChanged="eventhandler" />
+```
+
 ## -remarks
 
 ## -see-also

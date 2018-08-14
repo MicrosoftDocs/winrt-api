@@ -11,11 +11,11 @@ public NavigationViewPaneDisplayMode PaneDisplayMode { get;  set; }
 
 ## -description
 
-Gets or sets a value that determines how and where the NavigationView pane is shown.
+Gets or sets a value that indicates how and where the NavigationView pane is shown.
 
 ## -property-value
 
-A value of the enumeration that determines how and where the NavigationView pane is shown. The default is **Auto**.
+A value of the enumeration that indicates how and where the NavigationView pane is shown. The default is **Auto**.
 
 ## -remarks
 
