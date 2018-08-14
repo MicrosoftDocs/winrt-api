@@ -11,9 +11,13 @@ public class SplitButtonClickEventArgs
 
 ## -description
 
+Provides event data for the SplitButton.Click event.
+
 ## -remarks
 
 ## -see-also
+
+[SplitButton.Click](splitbutton_click.md)
 
 ## -examples
 

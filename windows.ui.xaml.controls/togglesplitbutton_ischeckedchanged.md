@@ -11,9 +11,13 @@ public event TypedEventHandler IsCheckedChanged<ToggleSplitButton, ToggleSplitBu
 
 ## -description
 
+Occurs when the value of the IsChecked property is changed.
+
 ## -remarks
 
 ## -see-also
+
+[ToggleSplitButton.IsChecked](togglesplitbutton.ischecked.md)
 
 ## -examples
 

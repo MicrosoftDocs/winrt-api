@@ -11,7 +11,17 @@ public bool IsChecked { get;  set; }
 
 ## -description
 
+Gets or sets whether the ToggleSplitButton is checked.
+
+## -xaml-syntax
+
+```xaml
+<ToggleSplitButton IsChecked="bool" />
+```
+
 ## -property-value
+
+**true** if the ToggleSplitButton is checked; **false** if the ToggleSplitButton is unchecked. The default is **false**.
 
 ## -remarks
 
