@@ -35,7 +35,7 @@ Embedding the metadata into a Graphics Interchange Format (GIF) file enables ink
 The `saveStrokes` function in this example demonstrates how to:
 + Display a file save screen where the file type is constrained to Graphics Interchange Format (GIF) format using the [FileSavePicker](../windows.storage.pickers/filesavepicker.md) object.
 + Set up an output stream through the [OpenAsync](../windows.storage/storagefile_openasync.md) method.
-+ Use the [SaveAsync](inkmanager_saveasync.md) method of an [InkManager](inkmanager.md) object (`inkManager`) to serialize the ink data to an output stream and embed it into a Graphics Interchange Format (GIF) file (`storageFile`).
++ Use the [SaveAsync](inkmanager_saveasync_1696379726.md) method of an [InkManager](inkmanager.md) object (`inkManager`) to serialize the ink data to an output stream and embed it into a Graphics Interchange Format (GIF) file (`storageFile`).
 
 
 

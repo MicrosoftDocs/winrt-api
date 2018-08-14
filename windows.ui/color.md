@@ -109,7 +109,7 @@ The XAML object element usage (with initialization text) is useful for declaring
 
 If you are using a Microsoft .NET language (C# or Microsoft Visual Basic) then [Color](color.md) has a static method **FromArgb** that acts as a [Color](color.md) value generator. Also, the data members of [Color](color.md) are exposed as read-write properties.
 
-If you are programming with C++, either Visual C++ component extensions (C++/CX) or WRL, then only the data member fields exist as members of [Color](color.md), and you cannot use the utility methods or properties listed in the members table. C++ code can use an equivalent [FromArgb](colorhelper_fromargb.md) method on the [ColorHelper](colorhelper.md) class, and the [Platform::Object](https://docs.microsoft.com/en-us/cpp/cppcx/platform-object-class) methods.
+If you are programming with C++, either Visual C++ component extensions (C++/CX) or WRL, then only the data member fields exist as members of [Color](color.md), and you cannot use the utility methods or properties listed in the members table. C++ code can use an equivalent [FromArgb](colorhelper_fromargb_1449236110.md) method on the [ColorHelper](colorhelper.md) class, and the [Platform::Object](https://docs.microsoft.com/en-us/cpp/cppcx/platform-object-class) methods.
 
 ### ToString behavior for Color
 

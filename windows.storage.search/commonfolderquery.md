@@ -98,8 +98,8 @@ You can use this option only for folders in a library or the HomeGroup folder.
 Use a value from the [CommonFolderQuery](commonfolderquery.md) enumeration when you call one of the following methods of the [StorageFolder](../windows.storage/storagefolder.md) class. For examples that use values from the [CommonFolderQuery](commonfolderquery.md) enumeration, see the topics for these methods.
 
 + [CreateFolderQuery(CommonFolderQuery)](../windows.storage/storagefolder_createfolderquery_330767063.md)
-+ [CreateFolderQueryWithOptions](istoragefolderqueryoperations_createfolderquerywithoptions.md). Instantiate the [QueryOptions](queryoptions_queryoptions.md) with the [QueryOptions(CommonFolderQuery)](queryoptions_queryoptions_1209951623.md) constructor.
-+ [CreateItemQueryWithOptions](../windows.storage/storagefolder_createitemquerywithoptions.md). Instantiate the [QueryOptions](queryoptions_queryoptions.md) with the [QueryOptions(CommonFolderQuery)](queryoptions_queryoptions_1209951623.md) constructor.
++ [CreateFolderQueryWithOptions](istoragefolderqueryoperations_createfolderquerywithoptions_573382953.md). Instantiate the [QueryOptions](queryoptions_queryoptions_1209951623.md) with the [QueryOptions(CommonFolderQuery)](queryoptions_queryoptions_1209951623.md) constructor.
++ [CreateItemQueryWithOptions](../windows.storage/storagefolder_createitemquerywithoptions.md). Instantiate the [QueryOptions](queryoptions_queryoptions_1209951623.md) with the [QueryOptions(CommonFolderQuery)](queryoptions_queryoptions_1209951623.md) constructor.
 + [GetFoldersAsync(CommonFolderQuery)](../windows.storage/storagefolder_getfoldersasync_595997124.md)
 + [GetFoldersAsync(CommonFolderQuery, UInt32, UInt32)](../windows.storage/storagefolder_getfoldersasync_731846614.md)
 
@@ -116,4 +116,4 @@ Files that don't have a value for the property that the query uses to group file
 
 ## -see-also
 
-[queryOptions class](queryoptions_queryoptions.md), [Windows.Storage.storageFolder class](../windows.storage/storagefolder.md), [Folder enumeration sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=619993)
+[queryOptions class](queryoptions_queryoptions_1209951623.md), [Windows.Storage.storageFolder class](../windows.storage/storagefolder.md), [Folder enumeration sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=619993)

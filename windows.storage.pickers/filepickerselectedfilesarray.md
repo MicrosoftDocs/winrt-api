@@ -13,7 +13,7 @@ public class FilePickerSelectedFilesArray : Windows.Foundation.Collections.IIter
 Represents a collection of storage files that the user has selected by using a file picker.
 
 ## -remarks
-When a call to the [fileOpenPicker.pickMultipleFilesAsync](fileopenpicker_pickmultiplefilesasync.md) method completes successfully, it returns a [filePickerSelectedFilesArray](filepickerselectedfilesarray.md) object that contains all the files that were picked by the user. Picked files in this array are represented by [storageFile](../windows.storage/storagefile.md) objects.
+When a call to the [fileOpenPicker.pickMultipleFilesAsync](fileopenpicker_pickmultiplefilesasync_1324933367.md) method completes successfully, it returns a [filePickerSelectedFilesArray](filepickerselectedfilesarray.md) object that contains all the files that were picked by the user. Picked files in this array are represented by [storageFile](../windows.storage/storagefile.md) objects.
 
 ### Collection member lists
 
@@ -29,7 +29,7 @@ For JavaScript, [FilePickerSelectedFilesArray](filepickerselectedfilesarray.md) 
 <!--End NET note for IEnumerable support-->
 
 ## -examples
-The [File picker sample](http://go.microsoft.com/fwlink/p/?linkid=234890) demonstrates how capture the [filePickerSelectedFilesArray](filepickerselectedfilesarray.md) (`files` in the example) of picked files after calling [fileOpenPicker.pickMultipleFilesAsync](fileopenpicker_pickmultiplefilesasync.md).
+The [File picker sample](http://go.microsoft.com/fwlink/p/?linkid=234890) demonstrates how capture the [filePickerSelectedFilesArray](filepickerselectedfilesarray.md) (`files` in the example) of picked files after calling [fileOpenPicker.pickMultipleFilesAsync](fileopenpicker_pickmultiplefilesasync_1324933367.md).
 
 > [!NOTE]
 > You should always make sure that your app is not snapped (or that it can be unsnapped) and set file picker properties regardless of whether the user is picking a single file or multiple files.

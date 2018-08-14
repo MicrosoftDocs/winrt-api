@@ -19,7 +19,7 @@ The constraint used for the recognition result. Null for remote recognition usin
 
 ## -remarks
 
-[CompileConstraintsAsync](speechrecognizer_compileconstraintsasync.md) must be called before [RecognizeAsync](speechrecognizer_recognizeasync.md) or [RecognizeWithUIAsync](speechrecognizer_recognizewithuiasync.md), even if no constraints are specified in the [Constraints](speechrecognizer_constraints.md) property.
+[CompileConstraintsAsync](speechrecognizer_compileconstraintsasync_1901700993.md) must be called before [RecognizeAsync](speechrecognizer_recognizeasync_748427924.md) or [RecognizeWithUIAsync](speechrecognizer_recognizewithuiasync_1152231907.md), even if no constraints are specified in the [Constraints](speechrecognizer_constraints.md) property.
 
 ## -examples
 

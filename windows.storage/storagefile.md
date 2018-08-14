@@ -15,7 +15,7 @@ Represents a file. Provides information about the file and its content, and ways
 
 ## -remarks
 
-Typically, you access [StorageFile](storagefile.md) objects as the result of asynchronous method and/or function calls. For example, both of the static methods [GetFileFromPathAsync](storagefile_getfilefrompathasync.md) and [GetFileFromApplicationUriAsync](storagefile_getfilefromapplicationuriasync.md) return a [StorageFile](storagefile.md) that represents the specified file.
+Typically, you access [StorageFile](storagefile.md) objects as the result of asynchronous method and/or function calls. For example, both of the static methods [GetFileFromPathAsync](storagefile_getfilefrompathasync_1252266672.md) and [GetFileFromApplicationUriAsync](storagefile_getfilefromapplicationuriasync_1702427701.md) return a [StorageFile](storagefile.md) that represents the specified file.
 
 Additionally, whenever you call a file picker to let the user pick a file (or files) the file picker will return the file as a [StorageFile](storagefile.md).
 

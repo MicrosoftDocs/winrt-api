@@ -17,7 +17,7 @@ Provides a base class that exposes the automation peer for an associated owner c
 
 ### Firing automation events
 
-The [AutomationPeer](automationpeer.md) class is relevant to Windows Runtime control authors because you will have a peer instance available at run time, after the runtime invokes the [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) method. Using this peer, you can fire automation events by calling [RaiseAutomationEvent](automationpeer_raiseautomationevent.md) and [RaisePropertyChangedEvent](automationpeer_raisepropertychangedevent.md). You would do this whenever a related property in the peer's owner (your class) changes, or when firing an event is needed for correct automation support.
+The [AutomationPeer](automationpeer.md) class is relevant to Windows Runtime control authors because you will have a peer instance available at run time, after the runtime invokes the [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) method. Using this peer, you can fire automation events by calling [RaiseAutomationEvent](automationpeer_raiseautomationevent_2027563412.md) and [RaisePropertyChangedEvent](automationpeer_raisepropertychangedevent_715050195.md). You would do this whenever a related property in the peer's owner (your class) changes, or when firing an event is needed for correct automation support.
 
 The automation support design doesn't retain a handle to your own peer as part of how you implement [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md), because there aren't any guarantees of when the peer is actually created. Instead, you can check for run-time automation event listeners inside your control class definitions just-in-time, using code like this:
 ```csharp
@@ -60,7 +60,7 @@ Classes that directly derive from [AutomationPeer](automationpeer.md) are:
 
 ### **Core** methods
 
-The "Core" methods are the standard implementations that perform the default action of an associated Microsoft UI Automation client-callable method. You can override any of the "Core" methods to return alternative values in a custom automation peer. For example, [GetAcceleratorKeyCore](automationpeer_getacceleratorkeycore.md) is invoked any time that [GetAcceleratorKey](automationpeer_getacceleratorkey.md) is called, [GetAccessKeyCore](automationpeer_getaccesskeycore.md) is invoked any time that [GetAccessKey](automationpeer_getaccesskey.md) is called, and so on.
+The "Core" methods are the standard implementations that perform the default action of an associated Microsoft UI Automation client-callable method. You can override any of the "Core" methods to return alternative values in a custom automation peer. For example, [GetAcceleratorKeyCore](automationpeer_getacceleratorkeycore_1091687272.md) is invoked any time that [GetAcceleratorKey](automationpeer_getacceleratorkey_970307487.md) is called, [GetAccessKeyCore](automationpeer_getaccesskeycore_536668621.md) is invoked any time that [GetAccessKey](automationpeer_getaccesskey_372284052.md) is called, and so on.
 
 The base implementation for [AutomationPeer](automationpeer.md) returns null. Peers that represent items may defer the result to their container.
 

@@ -14,7 +14,7 @@ public class ReceiptPrintJob : Windows.Devices.PointOfService.IPosPrinterJob, Wi
 Represents a set of printing instructions that you want to run on the receipt printer.
 
 ## -remarks
-To create a new print job for the receipt printer, call [ClaimedReceiptPrinter.CreateJob](claimedreceiptprinter_createjob.md).
+To create a new print job for the receipt printer, call [ClaimedReceiptPrinter.CreateJob](claimedreceiptprinter_createjob_1417454808.md).
 The created print job object is valid as long as the ClaimedReceiptPrinter object that created it is valid.
 
 ## -examples

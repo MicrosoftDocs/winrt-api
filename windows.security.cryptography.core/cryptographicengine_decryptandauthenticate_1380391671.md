@@ -20,7 +20,7 @@ Symmetric key to use.
 Data to be decrypted and authenticated.
 
 ### -param nonce
-Nonce to be used. This must be the same nonce used by the [EncryptAndAuthenticate](cryptographicengine_encryptandauthenticate.md) method.
+Nonce to be used. This must be the same nonce used by the [EncryptAndAuthenticate](cryptographicengine_encryptandauthenticate_1818879716.md) method.
 
 ### -param authenticationTag
 Authentication tag.
@@ -34,7 +34,7 @@ A buffer that contains the decrypted data.If the method fails, authentication fa
 ## -remarks
 Authenticated encryption encrypts and authenticates content in one operation. An authenticator, also called a tag, is used during encryption and the output of the process contains a tag-ciphertext pair. For more information, see the [AuthenticationTag](encryptedandauthenticateddata_authenticationtag.md) and [EncryptedData](encryptedandauthenticateddata_encrypteddata.md) properties. The decryption process verifies the ciphertext against the tag.
 
-You can use an authenticated encryption algorithm after calling the [OpenAlgorithm](symmetrickeyalgorithmprovider_openalgorithm.md) method on the [SymmetricKeyAlgorithmProvider](symmetrickeyalgorithmprovider.md) class and specifying the name of the algorithm to open. The following algorithm names are supported for authenticated encryption and decryption:
+You can use an authenticated encryption algorithm after calling the [OpenAlgorithm](symmetrickeyalgorithmprovider_openalgorithm_637226074.md) method on the [SymmetricKeyAlgorithmProvider](symmetrickeyalgorithmprovider.md) class and specifying the name of the algorithm to open. The following algorithm names are supported for authenticated encryption and decryption:
 
 
 + [SymmetricAlgorithmNames.AesGcm](symmetricalgorithmnames_aesgcm.md)

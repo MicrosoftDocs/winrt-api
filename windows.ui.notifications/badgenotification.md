@@ -16,7 +16,7 @@ Defines the content, associated metadata, and expiration time of an update to a 
 ## -remarks
 
 ## -examples
-The following example code uses the [BadgeNotification](badgenotification_badgenotification.md) method to create a numeric badge notification. If you used this method to set the value to "0", it would clear the badge.
+The following example code uses the [BadgeNotification](badgenotification_badgenotification_93177318.md) method to create a numeric badge notification. If you used this method to set the value to "0", it would clear the badge.
 
 ```javascript
 
@@ -30,7 +30,7 @@ badgeAttributes[0].setAttribute("value", "26");
 var badgeNotification = new Notifications.badgeNotification(badgeXml);
 ```
 
-The following example code uses the [BadgeNotification](badgenotification_badgenotification.md) method to create a glyph badge notification. If you used this method to set the value to "none", it would clear the badge.
+The following example code uses the [BadgeNotification](badgenotification_badgenotification_93177318.md) method to create a glyph badge notification. If you used this method to set the value to "none", it would clear the badge.
 
 ```javascript
 

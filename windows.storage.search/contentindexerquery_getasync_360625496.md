@@ -20,4 +20,4 @@ When this method completes, it returns the query results, represented as a colle
 ## -examples
 
 ## -see-also
-[CreateQuery](contentindexer_createquery.md), [GetAsync(UInt32, UInt32)](contentindexerquery_getasync_1854790051.md), [IndexableContent](indexablecontent.md)
+[CreateQuery](contentindexer_createquery_1278239124.md), [GetAsync(UInt32, UInt32)](contentindexerquery_getasync_1854790051.md), [IndexableContent](indexablecontent.md)

@@ -13,7 +13,7 @@ public void MouseWheelDown()
 Scrolls content by one mousewheel click towards the bottom.
 
 ## -remarks
-This implementation calls [SetVerticalOffset](carouselpanel_setverticaloffset.md) using a default value for "mousewheel click" of 48 pixels (3 lines) that comes from a default [ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md).
+This implementation calls [SetVerticalOffset](carouselpanel_setverticaloffset_1333703417.md) using a default value for "mousewheel click" of 48 pixels (3 lines) that comes from a default [ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md).
 
 ## -examples
 

@@ -18,7 +18,7 @@ Provides access to the events that notify an app of triggers to its edge-based U
 > : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://go.microsoft.com/fwlink/p/?linkid=258275) and [Using Windows Runtime objects in a multithreaded environment (.NET)](http://go.microsoft.com/fwlink/p/?linkid=258277).
 
 ## -examples
-The following example demonstrates the use of [GetForCurrentView](edgegesture_getforcurrentview.md) to retrieve an instance [EdgeGesture](edgegesture.md) through which it then registers for each of the edge gesture events.
+The following example demonstrates the use of [GetForCurrentView](edgegesture_getforcurrentview_1363600702.md) to retrieve an instance [EdgeGesture](edgegesture.md) through which it then registers for each of the edge gesture events.
 
 ```javascript
 

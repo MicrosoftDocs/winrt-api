@@ -25,7 +25,7 @@ A set of point sets. These represent the vertices of sub elements that are inter
 ## -remarks
 Points in the list are in descending z-order: topmost in the rendering stack appears first in the list.
 
-[FindElementsInHostCoordinates](../windows.ui.xaml.media/visualtreehelper_findelementsinhostcoordinates.md) is a similar static-class helper method that is also used for hit testing and general object tree examination. However, [FindSubElementsForTouchTargeting](uielement_findsubelementsfortouchtargeting.md) adds the refinement of a [Rect](../windows.foundation/rect.md) input to use for touch tolerance.
+[FindElementsInHostCoordinates](../windows.ui.xaml.media/visualtreehelper_findelementsinhostcoordinates.md) is a similar static-class helper method that is also used for hit testing and general object tree examination. However, [FindSubElementsForTouchTargeting](uielement_findsubelementsfortouchtargeting_2073429826.md) adds the refinement of a [Rect](../windows.foundation/rect.md) input to use for touch tolerance.
 
 If you are programming using C# or Microsoft Visual Basic, the return value type of this method is projected as an [IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1) generic collection that contains [UIElement](uielement.md) items. If you are programming using Visual C++ component extensions (C++/CX), the return type of this method is [IIterable&lt;UIElement&gt;](../windows.foundation.collections/iiterable_1.md).
 

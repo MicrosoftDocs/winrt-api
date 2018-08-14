@@ -16,7 +16,7 @@ The command given to **Cortana**, using either speech or text, and routed to a b
 The command must be declared in a Voice Command Definition (VCD) file registered by the app referred to in the command. See [Launch a background app with voice commands in Cortana ](http://msdn.microsoft.com/library/df5b530c-57dd-4ca5-b3be-1a0b3695c9c6) for more info on creating and registering a Voice Command Definition (VCD) file for your app.
 
 ## -remarks
-Access [VoiceCommand](voicecommand.md) objects by calling [GetVoiceCommandAsync](voicecommandserviceconnection_getvoicecommandasync.md) on a [VoiceCommandServiceConnection](voicecommandserviceconnection.md) that references the appropriate [Windows.ApplicationModel.AppService](../windows.applicationmodel.appservice/windows_applicationmodel_appservice.md) object.
+Access [VoiceCommand](voicecommand.md) objects by calling [GetVoiceCommandAsync](voicecommandserviceconnection_getvoicecommandasync_1073619361.md) on a [VoiceCommandServiceConnection](voicecommandserviceconnection.md) that references the appropriate [Windows.ApplicationModel.AppService](../windows.applicationmodel.appservice/windows_applicationmodel_appservice.md) object.
 
 ## -examples
 

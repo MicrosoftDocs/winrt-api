@@ -10,7 +10,7 @@ public enum Windows.Devices.SmartCards.SmartCardCryptogramMaterialPackageConfirm
 # SmartCardCryptogramMaterialPackageConfirmationResponseFormat
 
 ## -description
-Defines the format of the proof of possession returned when calling the [TryProvePossessionOfCryptogramMaterialPackageAsync](smartcardcryptogramgenerator_tryprovepossessionofcryptogrammaterialpackageasync.md) method.
+Defines the format of the proof of possession returned when calling the [TryProvePossessionOfCryptogramMaterialPackageAsync](smartcardcryptogramgenerator_tryprovepossessionofcryptogrammaterialpackageasync_2141877963.md) method.
 
 ## -enum-fields
 ### -field None:0

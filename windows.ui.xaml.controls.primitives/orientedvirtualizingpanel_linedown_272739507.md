@@ -13,7 +13,7 @@ public void LineDown()
 Scrolls content by one line toward the bottom.
 
 ## -remarks
-This implementation calls [SetVerticalOffset](orientedvirtualizingpanel_setverticaloffset.md) using a value for "line" of 16 pixels, which comes from a default [ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md). 
+This implementation calls [SetVerticalOffset](orientedvirtualizingpanel_setverticaloffset_1333703417.md) using a value for "line" of 16 pixels, which comes from a default [ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md). 
 <!--Override the method and call <xref targtype="method_winrt" rid="w_ui_xaml_ctrl_prim.orientedvirtualizingpanel_setverticaloffset"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">SetVerticalOffset</xref> using a different measurement to change the interpretation of "line" for a derivation of 
       <xref rid="w_ui_xaml_ctrl_prim.orientedvirtualizingpanel" targtype="class_winrt">OrientedVirtualizingPanel</xref>.-->
 

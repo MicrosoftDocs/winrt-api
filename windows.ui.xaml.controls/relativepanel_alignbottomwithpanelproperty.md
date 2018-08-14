@@ -18,7 +18,7 @@ The identifier for the [RelativePanel.AlignBottomWithPanel](relativepanel_alignb
 ## -remarks
 This property is only an identifier for the property system, and isn't used in most app scenarios. In most cases you set the [RelativePanel.AlignBottomWithPanel](relativepanel_alignbottomwithpanel.md)  XAML attached property in XAML and won't need this identifier.
 
-To access the [RelativePanel.AlignBottomWithPanel](relativepanel_alignbottomwithpanel.md) attached property in code, you can use the dependency property system, calling either [GetValue](../windows.ui.xaml/dependencyobject_getvalue.md) or [SetValue](../windows.ui.xaml/dependencyobject_setvalue.md) and passing [RelativePanel.AlignBottomWithPanelProperty](relativepanel_alignbottomwithpanelproperty.md) as the dependency property identifier. Another way to get or set the value in code is to use [GetAlignBottomWithPanel](relativepanel_getalignbottomwithpanel.md) and [SetAlignBottomWithPanel](relativepanel_setalignbottomwithpanel.md).
+To access the [RelativePanel.AlignBottomWithPanel](relativepanel_alignbottomwithpanel.md) attached property in code, you can use the dependency property system, calling either [GetValue](../windows.ui.xaml/dependencyobject_getvalue.md) or [SetValue](../windows.ui.xaml/dependencyobject_setvalue.md) and passing [RelativePanel.AlignBottomWithPanelProperty](relativepanel_alignbottomwithpanelproperty.md) as the dependency property identifier. Another way to get or set the value in code is to use [GetAlignBottomWithPanel](relativepanel_getalignbottomwithpanel_1516633148.md) and [SetAlignBottomWithPanel](relativepanel_setalignbottomwithpanel_1908110608.md).
 
 ## -examples
 

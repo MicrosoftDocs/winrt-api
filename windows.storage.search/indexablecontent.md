@@ -17,4 +17,4 @@ Represents app content and properties that can be added to the [ContentIndexer](
 ## -examples
 
 ## -see-also
-[AddAsync](contentindexer_addasync.md), [ContentIndexer](contentindexer.md), [IIndexableContent](iindexablecontent.md)
+[AddAsync](contentindexer_addasync_916871935.md), [ContentIndexer](contentindexer.md), [IIndexableContent](iindexablecontent.md)

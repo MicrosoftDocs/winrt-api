@@ -23,7 +23,7 @@ Buffer that specifies information related to the derived keying material. For ex
 Refers to the parameters used during key derivation.
 
 ## -remarks
-You can use the following algorithm names with the [OpenAlgorithm](keyderivationalgorithmprovider_openalgorithm.md) function to open a SP800108 KDF algorithm provider:
+You can use the following algorithm names with the [OpenAlgorithm](keyderivationalgorithmprovider_openalgorithm_637226074.md) function to open a SP800108 KDF algorithm provider:
 
 
 + [KeyDerivationAlgorithmNames.Sp800108CtrHmacMd5](keyderivationalgorithmnames_sp800108ctrhmacmd5.md)

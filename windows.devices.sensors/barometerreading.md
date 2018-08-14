@@ -13,7 +13,7 @@ public class BarometerReading : Windows.Devices.Sensors.IBarometerReading
 Represents a barometer reading.
 
 ## -remarks
-This object is accessed when you invoke the [GetCurrentReading](barometer_getcurrentreading.md) method; and, it is accessed when you retrieve the [Reading](barometerreadingchangedeventargs_reading.md) property of the [BarometerReadingChangedEventArgs](barometerreadingchangedeventargs.md) object in the event callback method.
+This object is accessed when you invoke the [GetCurrentReading](barometer_getcurrentreading_1416488181.md) method; and, it is accessed when you retrieve the [Reading](barometerreadingchangedeventargs_reading.md) property of the [BarometerReadingChangedEventArgs](barometerreadingchangedeventargs.md) object in the event callback method.
 
 ## -examples
 

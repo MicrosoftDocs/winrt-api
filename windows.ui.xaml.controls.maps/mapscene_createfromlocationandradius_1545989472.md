@@ -30,7 +30,7 @@ Represents a view of a map in the [MapControl](mapcontrol.md).
 
 ## -remarks
 > [!TIP]
-> Use the [CreateFromCamera](mapscene_createfromcamera.md) method to create a scene by specifying the position of the map's camera. The location specified in this method by the *location* parameter is the location that will appear in the scene, it's not the location of the map's camera.
+> Use the [CreateFromCamera](mapscene_createfromcamera_432380015.md) method to create a scene by specifying the position of the map's camera. The location specified in this method by the *location* parameter is the location that will appear in the scene, it's not the location of the map's camera.
 
 The following image demonstrates the location of the scene relative to the map's camera. The location specified in this method by the *location* parameter corresponds to the **MapScene location**.
 

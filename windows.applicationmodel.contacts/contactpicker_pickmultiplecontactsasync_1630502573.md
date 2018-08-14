@@ -19,7 +19,7 @@ Launches the Contact Picker for selecting multiple contacts.
 The operation that launches the contact picker.
 
 ## -remarks
-To pick only a single contact, use [PickSingleContactAsync](contactpicker_picksinglecontactasync.md).
+To pick only a single contact, use [PickSingleContactAsync](contactpicker_picksinglecontactasync_2033050338.md).
 
 Use the [SelectionMode](contactpicker_selectionmode.md) property to control whether your app receives all of a contact's information, or just specific fields.
 

@@ -20,7 +20,7 @@ Protect the data in a buffer to an enterprise identity.
 The buffer to be protected.
 
 ### -param identity
-The enterprise identity. This is an email address or domain that is managed. Your app should use [IsIdentityManaged](protectionpolicymanager_isidentitymanaged.md) to confirm that an email address or domain is managed.
+The enterprise identity. This is an email address or domain that is managed. Your app should use [IsIdentityManaged](protectionpolicymanager_isidentitymanaged_906801364.md) to confirm that an email address or domain is managed.
 
 ## -returns
 When the call to this method completes successfully, it returns a [BufferProtectUnprotectResult](bufferprotectunprotectresult.md) object that contains the status of the newly protected buffer.

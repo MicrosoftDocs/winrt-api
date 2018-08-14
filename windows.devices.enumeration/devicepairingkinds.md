@@ -17,10 +17,10 @@ Indicates the kinds of pairing supported by your application or requested by the
 No pairing is supported.
 
 ### -field ConfirmOnly:1
-The application must confirm they wish to perform the pairing action. You can present an optional confirmation dialog to the user. With a value of **ConfirmOnly**, [Accept](devicepairingrequestedeventargs_accept.md) the pairing if you want it to complete.
+The application must confirm they wish to perform the pairing action. You can present an optional confirmation dialog to the user. With a value of **ConfirmOnly**, [Accept](devicepairingrequestedeventargs_accept_1944939200.md) the pairing if you want it to complete.
 
 ### -field DisplayPin:2
-The application must display the given PIN to the user. The user will then need to enter or confirm that PIN on the device that is being paired. With a value of **DisplayPin**, [Accept](devicepairingrequestedeventargs_accept.md) the pairing if you want it to complete. If your application cancels the pairing at this point, the device might still be paired. This is because the system and the target device don't need any confirmation for this [DevicePairingKinds](devicepairingkinds.md) value.
+The application must display the given PIN to the user. The user will then need to enter or confirm that PIN on the device that is being paired. With a value of **DisplayPin**, [Accept](devicepairingrequestedeventargs_accept_1944939200.md) the pairing if you want it to complete. If your application cancels the pairing at this point, the device might still be paired. This is because the system and the target device don't need any confirmation for this [DevicePairingKinds](devicepairingkinds.md) value.
 
 ### -field ProvidePin:4
 The application must request a PIN from the user. The PIN will typically be displayed on the target device. With a value of **ProvidePin**, [Accept](devicepairingrequestedeventargs_accept.md) the pairing and pass in the PIN as a parameter.

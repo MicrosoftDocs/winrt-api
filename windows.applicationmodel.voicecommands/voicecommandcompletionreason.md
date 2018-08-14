@@ -29,10 +29,10 @@ The user cancelled the interaction with **Cortana**.
 The background app service took too long to provide a response to **Cortana**.
 
 ### -field AppLaunched:5
-The background app service requested that the app launch in the foreground with a call to [RequestAppLaunchAsync](voicecommandserviceconnection_requestapplaunchasync.md).
+The background app service requested that the app launch in the foreground with a call to [RequestAppLaunchAsync](voicecommandserviceconnection_requestapplaunchasync_1419235493.md).
 
 ### -field Completed:6
-The background app service completed the interaction by calling [ReportSuccessAsync](voicecommandserviceconnection_reportsuccessasync.md) or [ReportFailureAsync](voicecommandserviceconnection_reportfailureasync.md).
+The background app service completed the interaction by calling [ReportSuccessAsync](voicecommandserviceconnection_reportsuccessasync_2126991650.md) or [ReportFailureAsync](voicecommandserviceconnection_reportfailureasync_1581497711.md).
 
 
 ## -remarks

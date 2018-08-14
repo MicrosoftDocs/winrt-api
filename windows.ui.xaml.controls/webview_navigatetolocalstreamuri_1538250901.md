@@ -20,11 +20,11 @@ A URI identifying the local HTML content to load.
 A resolver that converts the URI into a stream to load.
 
 ## -remarks
-Use this method to load local content that the [NavigateToString](webview_navigatetostring.md) method won't handle. [NavigateToString](webview_navigatetostring.md) provides an easy way to navigate to static HTML content, including content with references to resources such as CSS, scripts, images, and fonts. However, [NavigateToString](webview_navigatetostring.md) does not provide a way to generate these resources programmatically.
+Use this method to load local content that the [NavigateToString](webview_navigatetostring_1924125949.md) method won't handle. [NavigateToString](webview_navigatetostring_1924125949.md) provides an easy way to navigate to static HTML content, including content with references to resources such as CSS, scripts, images, and fonts. However, [NavigateToString](webview_navigatetostring_1924125949.md) does not provide a way to generate these resources programmatically.
 
-To use the [NavigateToLocalStreamUri](webview_navigatetolocalstreamuri.md) method, you must pass in an [IUriToStreamResolver](../windows.web/iuritostreamresolver.md) implementation that translates a URI pattern into a content stream. You can do this to supply the content for all the resources used by a web page, or series of pages. For example, you can use this method to display content saved on the local file system as encrypted files or in cab packages. When the content is requested, you can use an [IUriToStreamResolver](../windows.web/iuritostreamresolver.md) implementation to decrypt it on the fly.
+To use the [NavigateToLocalStreamUri](webview_navigatetolocalstreamuri_1538250901.md) method, you must pass in an [IUriToStreamResolver](../windows.web/iuritostreamresolver.md) implementation that translates a URI pattern into a content stream. You can do this to supply the content for all the resources used by a web page, or series of pages. For example, you can use this method to display content saved on the local file system as encrypted files or in cab packages. When the content is requested, you can use an [IUriToStreamResolver](../windows.web/iuritostreamresolver.md) implementation to decrypt it on the fly.
 
-The [IUriToStreamResolver](../windows.web/iuritostreamresolver.md) interface has one method, [UriToStreamAsync](../windows.web/iuritostreamresolver_uritostreamasync.md) which takes the URI and returns the stream. The URI is in the form of “ms-local-stream://appname_KEY/folder/file” where KEY identifies the resolver. Use [BuildLocalStreamUri](webview_buildlocalstreamuri.md) to create a URI in the correct format that references the local content to load.
+The [IUriToStreamResolver](../windows.web/iuritostreamresolver.md) interface has one method, [UriToStreamAsync](../windows.web/iuritostreamresolver_uritostreamasync.md) which takes the URI and returns the stream. The URI is in the form of “ms-local-stream://appname_KEY/folder/file” where KEY identifies the resolver. Use [BuildLocalStreamUri](webview_buildlocalstreamuri_803594427.md) to create a URI in the correct format that references the local content to load.
 
 > [!NOTE]
 > Your [IUriToStreamResolver](../windows.web/iuritostreamresolver.md) implementation must be agile to prevent deadlock that can occur when the UI thread waits for the [IUriToStreamResolver](../windows.web/iuritostreamresolver.md) to finish its work before continuing. For more info, see [Threading and Marshaling](https://docs.microsoft.com/en-us/cpp/cppcx/threading-and-marshaling-c-cx)
@@ -86,6 +86,6 @@ public sealed class StreamUriWinRTResolver : IUriToStreamResolver
 
 
 ## -see-also
-[IUriToStreamResolver](../windows.web/iuritostreamresolver.md), [BuildLocalStreamUri](webview_buildlocalstreamuri.md), [XAML WebView control sample](http://go.microsoft.com/fwlink/p/?linkid=238582), [WebView control (XAML) sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=722922)
+[IUriToStreamResolver](../windows.web/iuritostreamresolver.md), [BuildLocalStreamUri](webview_buildlocalstreamuri_803594427.md), [XAML WebView control sample](http://go.microsoft.com/fwlink/p/?linkid=238582), [WebView control (XAML) sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=722922)
 ## -capabilities
 enterpriseCloudSS

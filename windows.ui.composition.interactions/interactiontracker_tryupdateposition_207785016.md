@@ -12,7 +12,7 @@ public int TryUpdatePosition(Windows.Foundation.Numerics.Vector3 value)
 ## -description
 Tries to update the [InteractionTracker](interactiontracker.md) 's position.
 
-The [TryUpdatePosition](interactiontracker_tryupdateposition.md) method updates the location of [InteractionTracker](interactiontracker.md) to the Vector3 position specified as a parameter. [TryUpdatePosition](interactiontracker_tryupdateposition.md) is used to declaratively define the position of [InteractionTracker](interactiontracker.md) at any point in time (either at start, from some state-entered event, etc.). [TryUpdatePosition](interactiontracker_tryupdateposition.md) can be called from either the Idle, CustomAnimation or Inertia state – doing so will move the position of [InteractionTracker](interactiontracker.md) to the defined position and enter the idle state.
+The [TryUpdatePosition](interactiontracker_tryupdateposition_207785016.md) method updates the location of [InteractionTracker](interactiontracker.md) to the Vector3 position specified as a parameter. [TryUpdatePosition](interactiontracker_tryupdateposition_207785016.md) is used to declaratively define the position of [InteractionTracker](interactiontracker.md) at any point in time (either at start, from some state-entered event, etc.). [TryUpdatePosition](interactiontracker_tryupdateposition_207785016.md) can be called from either the Idle, CustomAnimation or Inertia state – doing so will move the position of [InteractionTracker](interactiontracker.md) to the defined position and enter the idle state.
 
 ## -parameters
 ### -param value

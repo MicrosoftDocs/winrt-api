@@ -33,7 +33,7 @@ For info about performance related to [MediaElement](mediaelement.md), see [Opti
 
 ### Set the media source
 
-Set the [Source](mediaelement_source.md) property of the [MediaElement](mediaelement.md) object to point to an audio or video file. The property can be set to the Uniform Resource Identifier (URI) of a file that is included with the app or the Uniform Resource Identifier (URI) of a file on the network. You can use the [SetSource](mediaelement_setsource.md) method to set the source to a file retrieved from the local system by using a [FileOpenPicker](../windows.storage.pickers/fileopenpicker.md) object.
+Set the [Source](mediaelement_source.md) property of the [MediaElement](mediaelement.md) object to point to an audio or video file. The property can be set to the Uniform Resource Identifier (URI) of a file that is included with the app or the Uniform Resource Identifier (URI) of a file on the network. You can use the [SetSource](mediaelement_setsource_1817094346.md) method to set the source to a file retrieved from the local system by using a [FileOpenPicker](../windows.storage.pickers/fileopenpicker.md) object.
 
 By default, the media that is defined by the [Source](mediaelement_source.md) property plays immediately after the [MediaElement](mediaelement.md) object has loaded. To suppress the media from starting automatically, set the [AutoPlay](mediaelement_autoplay.md) property to **false**.
 
@@ -64,7 +64,7 @@ You can respond to common media events such as the [MediaOpened](mediaelement_me
 
 Set the [AreTransportControlsEnabled](mediaelement_aretransportcontrolsenabled.md) property to programmatically enable and disable the built in transport controls for the [MediaElement](mediaelement.md). The built in transport controls provide UI for playing, stopping, pausing, and seeking the media, as well as UI for volume, mute, full window, track selection, and remaining time.
 
-You can create your own media transport controls by setting [AreTransportControlsEnabled](mediaelement_aretransportcontrolsenabled.md) to **false**, and using the [Play](mediaelement_play.md), [Pause](mediaelement_pause.md), and [Stop](mediaelement_stop.md) methods. [MediaElement](mediaelement.md) also exposes a rich set of properties you can control like [Position](mediaelement_position.md), [Volume](mediaelement_volume.md), [IsMuted](mediaelement_ismuted.md), [IsLooping](mediaelement_islooping.md), [PlaybackRate](mediaelement_playbackrate.md), and [Balance](mediaelement_balance.md).
+You can create your own media transport controls by setting [AreTransportControlsEnabled](mediaelement_aretransportcontrolsenabled.md) to **false**, and using the [Play](mediaelement_play_848564459.md), [Pause](mediaelement_pause_1953642114.md), and [Stop](mediaelement_stop_1201535524.md) methods. [MediaElement](mediaelement.md) also exposes a rich set of properties you can control like [Position](mediaelement_position.md), [Volume](mediaelement_volume.md), [IsMuted](mediaelement_ismuted.md), [IsLooping](mediaelement_islooping.md), [PlaybackRate](mediaelement_playbackrate.md), and [Balance](mediaelement_balance.md).
 
 > [!TIP]
 > For better performance, avoid data binding to the [Position](mediaelement_position.md) property to reflect frequent position updates (for example with a progress bar). Instead, use the [DispatcherTimer](../windows.ui.xaml/dispatchertimer.md) to query the [Position](mediaelement_position.md) property.
@@ -73,7 +73,7 @@ For more info and examples, see [Create custom transport controls](http://msdn.m
 
 ### Open local media files
 
-To open files on the local system or from Microsoft OneDrive, you can use the [FileOpenPicker](../windows.storage.pickers/fileopenpicker.md) to get the file and [SetSource](mediaelement_setsource.md) to set the media source, or you can programmatically access the user media folders.
+To open files on the local system or from Microsoft OneDrive, you can use the [FileOpenPicker](../windows.storage.pickers/fileopenpicker.md) to get the file and [SetSource](mediaelement_setsource_1817094346.md) to set the media source, or you can programmatically access the user media folders.
 
 If your app needs access without user interaction to the **Music** or **Video** folders, for example if you are enumerating all the music or video files in the user's collection and displaying them in your app, then you need to declare the **Music Library** and **Video Library** capabilities. For more info, see [Files and folders in the Music, Pictures, and Videos libraries](https://msdn.microsoft.com/windows/uwp/files/quickstart-managing-folders-in-the-music-pictures-and-videos-libraries).
 
@@ -84,9 +84,9 @@ The [FileOpenPicker](../windows.storage.pickers/fileopenpicker.md) does not requ
 1. 1. Call [FileOpenPicker](../windows.storage.pickers/fileopenpicker.md) to let the user pick a media file.
 
 Use the [FileOpenPicker](../windows.storage.pickers/fileopenpicker.md) class to select a media file. Set the [FileTypeFilter](../windows.storage.pickers/fileopenpicker_filetypefilter.md) to specify which file types the [FileOpenPicker](../windows.storage.pickers/fileopenpicker.md) will display. Call [PickSingleFileAsync](../windows.storage.pickers/fileopenpicker_picksinglefileasync.md) to launch the file picker and get the file.
-1. Call [SetSource](mediaelement_setsource.md) to set the chosen media file as the [MediaElement.Source](mediaelement_source.md).
+1. Call [SetSource](mediaelement_setsource_1817094346.md) to set the chosen media file as the [MediaElement.Source](mediaelement_source.md).
 
-To set the [Source](mediaelement_source.md) of the [MediaElement](mediaelement.md) to the [StorageFile](../windows.storage/storagefile.md) returned from the [FileOpenPicker](../windows.storage.pickers/fileopenpicker.md), you need to open a stream. Call the [OpenAsync](../windows.storage/storagefile_openasync.md) method on the [StorageFile](../windows.storage/storagefile.md) returns a stream that you can pass into the [MediaElement.SetSource](mediaelement_setsource.md) method. Then call [Play](mediaelement_play.md) on the [MediaElement](mediaelement.md) to start the media.
+To set the [Source](mediaelement_source.md) of the [MediaElement](mediaelement.md) to the [StorageFile](../windows.storage/storagefile.md) returned from the [FileOpenPicker](../windows.storage.pickers/fileopenpicker.md), you need to open a stream. Call the [OpenAsync](../windows.storage/storagefile_openasync.md) method on the [StorageFile](../windows.storage/storagefile.md) returns a stream that you can pass into the [MediaElement.SetSource](mediaelement_setsource_1817094346.md) method. Then call [Play](mediaelement_play_848564459.md) on the [MediaElement](mediaelement.md) to start the media.
 This example shows how to use the [FileOpenPicker](../windows.storage.pickers/fileopenpicker.md) to choose a file and set the file as the [Source](mediaelement_source.md) of a [MediaElement](mediaelement.md).
 
 ```xaml
@@ -127,7 +127,7 @@ async private System.Threading.Tasks.Task SetLocalMedia()
 
 ### Select audio tracks in different languages
 
-Use the [AudioStreamIndex](mediaelement_audiostreamindex.md) property and the [GetAudioStreamLanguage](mediaelement_getaudiostreamlanguage.md) method to change the audio to a different language track on a video. Videos can also contain multiple audio tracks in the same language, such as director commentaries on films. This example specifically shows how to switch between different languages, but you can modify this code to switch between any audio tracks.
+Use the [AudioStreamIndex](mediaelement_audiostreamindex.md) property and the [GetAudioStreamLanguage](mediaelement_getaudiostreamlanguage_366720426.md) method to change the audio to a different language track on a video. Videos can also contain multiple audio tracks in the same language, such as director commentaries on films. This example specifically shows how to switch between different languages, but you can modify this code to switch between any audio tracks.
 
 ### To select audio tracks in different languages
 
@@ -136,11 +136,11 @@ Use the [AudioStreamIndex](mediaelement_audiostreamindex.md) property and the [G
 To search for a track in a specific language, start by iterating through each audio track on the video. Use [AudioStreamCount](mediaelement_audiostreamcount.md) as the max value for a **for** loop.
 1. Get the language of the audio track.
 
-Use the [GetAudioStreamLanguage](mediaelement_getaudiostreamlanguage.md) method to get the language of the track. The language of the track is identified by a [language code](http://msdn.microsoft.com/library/ms533052(vs.85).aspx), such as **"en"** for English or **"ja"** for Japanese.
+Use the [GetAudioStreamLanguage](mediaelement_getaudiostreamlanguage_366720426.md) method to get the language of the track. The language of the track is identified by a [language code](http://msdn.microsoft.com/library/ms533052(vs.85).aspx), such as **"en"** for English or **"ja"** for Japanese.
 1. Set the active audio track.
 
 When you find the track with the desired language, set the [AudioStreamIndex](mediaelement_audiostreamindex.md) to the index of the track. Setting [AudioStreamIndex](mediaelement_audiostreamindex.md) to **null** selects the default audio track which is defined by the content.
-Here's some code that attempts to set the audio track to the specified language. It iterates through the audio tracks on a [MediaElement](mediaelement.md) object and uses [GetAudioStreamLanguage](mediaelement_getaudiostreamlanguage.md) to get the language of each track. If the desired language track exists, the [AudioStreamIndex](mediaelement_audiostreamindex.md) is set to the index of that track.
+Here's some code that attempts to set the audio track to the specified language. It iterates through the audio tracks on a [MediaElement](mediaelement.md) object and uses [GetAudioStreamLanguage](mediaelement_getaudiostreamlanguage_366720426.md) to get the language of each track. If the desired language track exists, the [AudioStreamIndex](mediaelement_audiostreamindex.md) is set to the index of that track.
 
 ```csharp
 /// <summary>

@@ -19,7 +19,7 @@ An example of a control that meets the guidelines of [IInvokeProvider](iinvokepr
 
 If you implement [IInvokeProvider](iinvokeprovider.md) for a list/list items scenario and a control that uses [ListViewBase](../windows.ui.xaml.controls/listviewbase.md), implement [IInvokeProvider](iinvokeprovider.md) for the list and not for individual items.
 
-The [IInvokeProvider](iinvokeprovider.md) pattern doesn't have a pattern property identifier class, the only API to implement is [Invoke](iinvokeprovider_invoke.md), a method.
+The [IInvokeProvider](iinvokeprovider.md) pattern doesn't have a pattern property identifier class, the only API to implement is [Invoke](iinvokeprovider_invoke_1893356988.md), a method.
 
 ## -examples
 

@@ -21,11 +21,11 @@ Here are some notable services and characteristics that [DependencyObject](depen
 
 
 + Dependency property hosting support for the existing Windows Runtime dependency properties.
-+ Custom dependency property hosting support. You register a dependency property by calling the [Register](dependencyproperty_register.md) method and storing the method's return value as a public static property in your [DependencyObject](dependencyobject.md) class.
++ Custom dependency property hosting support. You register a dependency property by calling the [Register](dependencyproperty_register_1826645607.md) method and storing the method's return value as a public static property in your [DependencyObject](dependencyobject.md) class.
 + Attached property hosting support for the existing Windows Runtime attached properties.
-+ Custom attached property hosting support. You register a dependency property for the attached property usage by calling the [RegisterAttached](dependencyproperty_registerattached.md) method and storing the method's return value as a public static property in your class.
++ Custom attached property hosting support. You register a dependency property for the attached property usage by calling the [RegisterAttached](dependencyproperty_registerattached_1163670284.md) method and storing the method's return value as a public static property in your class.
 + **Get** and **Set** utility methods for values of any dependency properties that exist on a [DependencyObject](dependencyobject.md). You use these when defining custom dependency property "wrappers" and can also use them from app code as an alternative to using existing "wrapper" properties.
-+ Advanced-scenario utility for examining metadata or property values (for example [GetAnimationBaseValue](dependencyobject_getanimationbasevalue.md)).
++ Advanced-scenario utility for examining metadata or property values (for example [GetAnimationBaseValue](dependencyobject_getanimationbasevalue_1072186849.md)).
 + Enforcement of thread affinity to the main UI thread of the Windows Runtime for all [DependencyObject](dependencyobject.md) instances.
 + The [Dispatcher](dependencyobject_dispatcher.md) property for advanced threading scenarios. Getting the [Dispatcher](dependencyobject_dispatcher.md) value provides a reference to a [CoreDispatcher](../windows.ui.core/coredispatcher.md) object. With the [CoreDispatcher](../windows.ui.core/coredispatcher.md), a worker thread can run code that use a [DependencyObject](dependencyobject.md) but is not on the UI thread, because the [CoreDispatcher](../windows.ui.core/coredispatcher.md) can defer the execution to an asynchronous operation that won't block or otherwise interfere with the UI thread. See "**DependencyObject** and threading" section below.
 + Basic data binding and styling support, by enabling properties to be set as expressions to be evaluated at some later point in an object's lifetime. These concepts are explained in more detail in [Dependency properties overview](http://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e). See also [Data binding in depth](http://msdn.microsoft.com/library/41e1b4f1-6caf-4128-a61a-4e400b149011).
@@ -76,7 +76,7 @@ This example defines a class that derives from [DependencyObject](dependencyobje
 
 [!code-vb[DOCheckClear](../windows.ui.xaml/code/DOandDP/vbnet/Class1.vb#SnippetDOCheckClear)]
 
-This example shows a simple dependency property declaration. A call to [GetValue](dependencyobject_getvalue.md) constitutes the entirety of the **get** accessor implementation for the property wrapper of the new dependency property. A call to [SetValue](dependencyobject_setvalue.md) constitutes the entirety of the **set** accessor implementation. For more examples, see [Custom dependency properties](http://msdn.microsoft.com/library/5adf7935-f2cf-4bb6-b1a5-f535c2ed8ef8).
+This example shows a simple dependency property declaration. A call to [GetValue](dependencyobject_getvalue_1188551207.md) constitutes the entirety of the **get** accessor implementation for the property wrapper of the new dependency property. A call to [SetValue](dependencyobject_setvalue_52578133.md) constitutes the entirety of the **set** accessor implementation. For more examples, see [Custom dependency properties](http://msdn.microsoft.com/library/5adf7935-f2cf-4bb6-b1a5-f535c2ed8ef8).
 
 
 

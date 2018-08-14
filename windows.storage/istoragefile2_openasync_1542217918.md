@@ -23,7 +23,7 @@ A bitwise combination of the enumeration values that specify options for opening
 When this method completes, it returns an [IRandomAccessStream](../windows.storage.streams/irandomaccessstream.md) that contains the requested random-access stream.
 
 ## -remarks
-If you simply want to open a file in your app, see the [OpenAsync](storagefile_openasync.md) method of the [StorageFile](storagefile.md) class.
+If you simply want to open a file in your app, see the [OpenAsync](storagefile_openasync_1542217918.md) method of the [StorageFile](storagefile.md) class.
 
 Using this method, a file can be accessed by both file readers and writers simultaneously. The following is a table describing the situations for various parameter settings of [FileAccessMode](fileaccessmode.md) and [StorageOpenOptions](storageopenoptions.md):
 

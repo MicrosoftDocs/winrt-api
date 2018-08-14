@@ -13,7 +13,7 @@ public void LineUp()
 Scrolls content by one line towards the top.
 
 ## -remarks
-This implementation calls [SetVerticalOffset](carouselpanel_setverticaloffset.md) using a value for "line" of 16 pixels that comes from a default [ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md).
+This implementation calls [SetVerticalOffset](carouselpanel_setverticaloffset_1333703417.md) using a value for "line" of 16 pixels that comes from a default [ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md).
 
 ## -examples
 

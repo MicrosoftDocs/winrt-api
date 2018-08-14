@@ -16,7 +16,7 @@ Gets a type reference for the content that is currently displayed.
 A type reference for the content that is currently displayed.
 
 ## -remarks
-[CurrentSourcePageType](frame_currentsourcepagetype.md) and [SourcePageType](frame_sourcepagetype.md) are normally the same value. However, if the frame calls [Navigate](frame_navigate.md) and the navigation is still in progress, the [CurrentSourcePageType](frame_currentsourcepagetype.md) is the value before the navigation and the [SourcePageType](frame_sourcepagetype.md) is the value being navigated to.
+[CurrentSourcePageType](frame_currentsourcepagetype.md) and [SourcePageType](frame_sourcepagetype.md) are normally the same value. However, if the frame calls [Navigate](frame_navigate_1426351961.md) and the navigation is still in progress, the [CurrentSourcePageType](frame_currentsourcepagetype.md) is the value before the navigation and the [SourcePageType](frame_sourcepagetype.md) is the value being navigated to.
 
 
 
@@ -26,4 +26,4 @@ A type reference for the content that is currently displayed.
 ## -examples
 
 ## -see-also
-[Navigating](frame_navigating.md), [Page.OnNavigatingFrom](page_onnavigatingfrom.md), [XAML Navigation sample](http://go.microsoft.com/fwlink/p/?LinkID=330214)
+[Navigating](frame_navigating.md), [Page.OnNavigatingFrom](page_onnavigatingfrom_425696585.md), [XAML Navigation sample](http://go.microsoft.com/fwlink/p/?LinkID=330214)

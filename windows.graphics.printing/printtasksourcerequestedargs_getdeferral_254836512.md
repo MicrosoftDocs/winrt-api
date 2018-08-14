@@ -11,7 +11,7 @@ public Windows.Graphics.Printing.PrintTaskSourceRequestedDeferral GetDeferral()
 # Windows.Graphics.Printing.PrintTaskSourceRequestedArgs.GetDeferral
 
 ## -description
-Gets a [PrintTaskSourceRequestedDeferral](printtasksourcerequesteddeferral.md) object that provides access to a [Complete](printtasksourcerequesteddeferral_complete.md) method. This method indicates then the deferral is over.
+Gets a [PrintTaskSourceRequestedDeferral](printtasksourcerequesteddeferral.md) object that provides access to a [Complete](printtasksourcerequesteddeferral_complete_1807836922.md) method. This method indicates then the deferral is over.
 
 ## -returns
 Provides access to a **Complete** method.
@@ -21,4 +21,4 @@ Provides access to a **Complete** method.
 ## -examples
 
 ## -see-also
-[Complete](printtasksourcerequesteddeferral_complete.md), [PrintTaskSourceRequestedDeferral](printtasksourcerequesteddeferral.md)
+[Complete](printtasksourcerequesteddeferral_complete_1807836922.md), [PrintTaskSourceRequestedDeferral](printtasksourcerequesteddeferral.md)

@@ -10,7 +10,7 @@ virtual protected Windows.UI.Xaml.Automation.Peers.AutomationPeer GetPeerFromPoi
 # Windows.UI.Xaml.Automation.Peers.AutomationPeer.GetPeerFromPointCore
 
 ## -description
-Provides the peer's behavior when a Microsoft UI Automation client calls [GetPeerFromPoint](automationpeer_getpeerfrompoint.md) or an equivalent Microsoft UI Automation client API.
+Provides the peer's behavior when a Microsoft UI Automation client calls [GetPeerFromPoint](automationpeer_getpeerfrompoint_1490374452.md) or an equivalent Microsoft UI Automation client API.
 
 ## -parameters
 ### -param point

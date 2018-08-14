@@ -15,7 +15,7 @@ Initiates a custom "dry" of ink input to the Direct2D device context of your app
 
 By default, ink input is processed on a low-latency background thread and rendered "wet" as it is drawn. When the stroke is completed (pen or finger lifted, or mouse button released), the stroke is processed on the UI thread and rendered "dry" to the [InkCanvas](../windows.ui.xaml.controls/inkcanvas.md) layer (above the application content and replacing the wet ink).
 
-By calling [ActivateCustomDrying](inkpresenter_activatecustomdrying.md) (before the [InkCanvas](../windows.ui.xaml.controls/inkcanvas.md) is loaded), an app creates an [InkSynchronizer](inksynchronizer.md) object to customize how an ink stroke is rendered dry to a [SurfaceImageSource](../windows.ui.xaml.media.imaging/surfaceimagesource.md) or [VirtualSurfaceImageSource](../windows.ui.xaml.media.imaging/virtualsurfaceimagesource.md). For example, an ink stroke could be rasterized and integrated into application content instead of as a separate [InkCanvas](../windows.ui.xaml.controls/inkcanvas.md) layer.
+By calling [ActivateCustomDrying](inkpresenter_activatecustomdrying_1826048524.md) (before the [InkCanvas](../windows.ui.xaml.controls/inkcanvas.md) is loaded), an app creates an [InkSynchronizer](inksynchronizer.md) object to customize how an ink stroke is rendered dry to a [SurfaceImageSource](../windows.ui.xaml.media.imaging/surfaceimagesource.md) or [VirtualSurfaceImageSource](../windows.ui.xaml.media.imaging/virtualsurfaceimagesource.md). For example, an ink stroke could be rasterized and integrated into application content instead of as a separate [InkCanvas](../windows.ui.xaml.controls/inkcanvas.md) layer.
 
 ## -returns
 The collection of "wet" ink strokes to pass to the [IInkD2DRenderer](http://msdn.microsoft.com/library/d1bd910d-ce64-4424-a0e1-4f55110b0265) object .
@@ -23,7 +23,7 @@ The collection of "wet" ink strokes to pass to the [IInkD2DRenderer](http://msdn
 ## -remarks
 #### Error codes
 ##### E_ILLEGAL_METHOD_CALL  (0x8000000E)
-Thrown if [BeginDry](inksynchronizer_begindry.md) is called again, before [EndDry](inksynchronizer_enddry.md) is called.
+Thrown if [BeginDry](inksynchronizer_begindry_793652329.md) is called again, before [EndDry](inksynchronizer_enddry_671680857.md) is called.
 
 ## -examples
 

@@ -71,7 +71,7 @@ Although you can specify a [GridLength](gridlength.md) as an object element, you
 
 If you are using a Microsoft .NET language (C# or Microsoft Visual Basic), or in Visual C++ component extensions (C++/CX), then [GridLength](gridlength.md) has non-data members available, and its data members are exposed as read-only properties, not fields.
 
-If you are programming with C++ using the Windows Runtime Template Library (WRL), then only the data member fields exist as members of [GridLength](gridlength.md), and you cannot use the utility methods or properties listed in the members table. WRL code can access similar utility methods that exist on the [GridLengthHelper](gridlengthhelper.md) class, for example [FromValueAndType](gridlengthhelper_fromvalueandtype.md).
+If you are programming with C++ using the Windows Runtime Template Library (WRL), then only the data member fields exist as members of [GridLength](gridlength.md), and you cannot use the utility methods or properties listed in the members table. WRL code can access similar utility methods that exist on the [GridLengthHelper](gridlengthhelper.md) class, for example [FromValueAndType](gridlengthhelper_fromvalueandtype_1327023031.md).
 
 ## -examples
 

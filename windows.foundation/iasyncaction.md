@@ -29,8 +29,8 @@ Instead of using [IAsyncAction](iasyncaction.md), some Windows Runtime asynchron
 ### Interface inheritance
 
 [IAsyncAction](iasyncaction.md) inherits [IAsyncInfo](iasyncinfo.md). Types that implement [IAsyncAction](iasyncaction.md) also implement the interface members of [IAsyncInfo](iasyncinfo.md):
-+ [Cancel](iasyncinfo_cancel.md) method
-+ [Close](iasyncinfo_close.md) method
++ [Cancel](iasyncinfo_cancel_1985564044.md) method
++ [Close](iasyncinfo_close_811482585.md) method
 + [ErrorCode](iasyncinfo_errorcode.md) property
 + [Id](iasyncinfo_id.md) property
 + [Status](iasyncinfo_status.md) property

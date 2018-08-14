@@ -17,7 +17,7 @@ Raises a toast notification to the specific app to which the ToastNotifier is bo
 When it is created, [ToastNotifier](toastnotifier.md) is bound to a specific app, so the methods of this class affect only that app.
 
 ## -examples
-The following example shows how to create and send a toast notification that includes text and images, including use of the [Show](toastnotifier_show.md) method.
+The following example shows how to create and send a toast notification that includes text and images, including use of the [Show](toastnotifier_show_184420709.md) method.
 
 ```javascript
 
@@ -54,7 +54,7 @@ var toast = new notifications.ToastNotification(toastXml);
 notificationManager.createToastNotifier().show(toast);
 ```
 
-The following example shows the use of the [GetScheduledToastNotifications](toastnotifier_getscheduledtoastnotifications.md) and [RemoveFromSchedule](toastnotifier_removefromschedule.md) methods.
+The following example shows the use of the [GetScheduledToastNotifications](toastnotifier_getscheduledtoastnotifications_1959697028.md) and [RemoveFromSchedule](toastnotifier_removefromschedule_833207209.md) methods.
 
 ```javascript
 

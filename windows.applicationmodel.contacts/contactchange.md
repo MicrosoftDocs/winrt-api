@@ -13,7 +13,7 @@ public class ContactChange : Windows.ApplicationModel.Contacts.IContactChange
 Represents a change to a [Contact](contact.md).
 
 ## -remarks
-Call [ContactChangeReader.ReadBatchAsync](contactchangereader_readbatchasync.md) to get a list of [ContactChange](contactchange.md) objects.
+Call [ContactChangeReader.ReadBatchAsync](contactchangereader_readbatchasync_888788553.md) to get a list of [ContactChange](contactchange.md) objects.
 
 ## -examples
 

@@ -29,13 +29,13 @@ A unique publication ID for the published message.
 ## -remarks
 You can publish multiple messages of the same message type and each publication will have a unique ID associated with it.
 
-You can stop publishing a message by passing the publication ID returned by the [PublishBinaryMessage](proximitydevice_publishbinarymessage.md) method to the [StopPublishingMessage](proximitydevice_stoppublishingmessage.md) method.
+You can stop publishing a message by passing the publication ID returned by the [PublishBinaryMessage](proximitydevice_publishbinarymessage_285088637.md) method to the [StopPublishingMessage](proximitydevice_stoppublishingmessage_1046474884.md) method.
 
-Messages continue to be published until the [StopPublishingMessage](proximitydevice_stoppublishingmessage.md) method is called or the [ProximityDevice](proximitydevice.md) is released.
+Messages continue to be published until the [StopPublishingMessage](proximitydevice_stoppublishingmessage_1046474884.md) method is called or the [ProximityDevice](proximitydevice.md) is released.
 
-You can subscribe to published messages using the [SubscribeForMessage](proximitydevice_subscribeformessage.md) method.
+You can subscribe to published messages using the [SubscribeForMessage](proximitydevice_subscribeformessage_2022774312.md) method.
 
-You can use the [PublishMessage](proximitydevice_publishmessage.md) method to publish a text message to a proximate computer. You can use the [PublishUriMessage](proximitydevice_publishurimessage.md) method to publish a Uniform Resource Identifier (URI) to a proximate computer.
+You can use the [PublishMessage](proximitydevice_publishmessage_1881696512.md) method to publish a text message to a proximate computer. You can use the [PublishUriMessage](proximitydevice_publishurimessage_632953271.md) method to publish a Uniform Resource Identifier (URI) to a proximate computer.
 
 
 

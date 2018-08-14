@@ -24,11 +24,11 @@ The handler that the proximity provider will call when it delivers a message.
 A unique ID for the subscription.
 
 ## -remarks
-After your app calls the [SubscribeForMessage](proximitydevice_subscribeformessage.md) method, it will receive messages that are published with the same message type (as indicated by the *messageType* parameter) from any proximate devices. For details on the different message types, see the remarks in the [PublishBinaryMessage(String, IBuffer)](proximitydevice_publishbinarymessage_285088637.md) reference topic.
+After your app calls the [SubscribeForMessage](proximitydevice_subscribeformessage_2022774312.md) method, it will receive messages that are published with the same message type (as indicated by the *messageType* parameter) from any proximate devices. For details on the different message types, see the remarks in the [PublishBinaryMessage(String, IBuffer)](proximitydevice_publishbinarymessage_285088637.md) reference topic.
 
-You can cancel a subscription by passing the subscription ID that's returned by the [SubscribeForMessage](proximitydevice_subscribeformessage.md) method to the [StopSubscribingForMessage](proximitydevice_stopsubscribingformessage.md) method.
+You can cancel a subscription by passing the subscription ID that's returned by the [SubscribeForMessage](proximitydevice_subscribeformessage_2022774312.md) method to the [StopSubscribingForMessage](proximitydevice_stopsubscribingformessage_728466472.md) method.
 
-You can publish a message to a subscriber by using the [PublishMessage](proximitydevice_publishmessage.md), [PublishBinaryMessage](proximitydevice_publishbinarymessage.md), or [PublishUriMessage](proximitydevice_publishurimessage.md) method.
+You can publish a message to a subscriber by using the [PublishMessage](proximitydevice_publishmessage_1881696512.md), [PublishBinaryMessage](proximitydevice_publishbinarymessage_285088637.md), or [PublishUriMessage](proximitydevice_publishurimessage_632953271.md) method.
 
 
 

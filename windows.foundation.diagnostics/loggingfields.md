@@ -13,11 +13,11 @@ public class LoggingFields : Windows.Foundation.Diagnostics.ILoggingFields
 Represents a sequence of event fields and provides methods for adding fields to the sequence.
 
 ## -remarks
-You can pass this object to a **LoggingChannel**.[LogEvent](loggingactivity_logevent.md) method to provide the payload (data) for an event.
+You can pass this object to a **LoggingChannel**.[LogEvent](loggingactivity_logevent_1783961521.md) method to provide the payload (data) for an event.
 
 This class is not thread-safe. Ensure that an instance of this class is not modified simultaneously by multiple threads.
 
-This class can create nested structures. To create a structure, call [BeginStruct](loggingfields_beginstruct.md) to mark the start of the structure. Then add the fields that are part of the structure. Finally, call [EndStruct ](loggingfields_endstruct.md) to mark the end of the structure. Structures can be nested up to eight levels deep.
+This class can create nested structures. To create a structure, call [BeginStruct](loggingfields_beginstruct_359748894.md) to mark the start of the structure. Then add the fields that are part of the structure. Finally, call [EndStruct ](loggingfields_endstruct_494341079.md) to mark the end of the structure. Structures can be nested up to eight levels deep.
 
 
 

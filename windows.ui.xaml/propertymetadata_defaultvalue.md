@@ -23,4 +23,4 @@ The default value for a dependency property is often not the apparent value at r
 ## -examples
 
 ## -see-also
-[CreateDefaultValueCallback](createdefaultvaluecallback.md), [DependencyProperty.Register](dependencyproperty_register.md), [Custom dependency properties](http://msdn.microsoft.com/library/5adf7935-f2cf-4bb6-b1a5-f535c2ed8ef8), [Dependency properties overview](http://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e)
+[CreateDefaultValueCallback](createdefaultvaluecallback.md), [DependencyProperty.Register](dependencyproperty_register_1826645607.md), [Custom dependency properties](http://msdn.microsoft.com/library/5adf7935-f2cf-4bb6-b1a5-f535c2ed8ef8), [Dependency properties overview](http://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e)

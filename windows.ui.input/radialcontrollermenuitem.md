@@ -19,8 +19,8 @@ Represents a single custom tool from the [RadialController](radialcontroller.md)
 
 In this example, we add a custom tool (`Sample`) with a standard icon to the Surface Dial menu.
 
-1. First, we get a reference to the [RadialController](radialcontroller.md) object for the Surface Dial (`myController`) by calling [CreateForCurrentView](radialcontroller_createforcurrentview.md).
-1. We then create an instance of a [RadialControllerMenuItem](radialcontrollermenuitem.md) (`myItem`) by calling [RadialControllerMenuItem.CreateFromIcon](radialcontrollermenuitem_createfromicon.md).
+1. First, we get a reference to the [RadialController](radialcontroller.md) object for the Surface Dial (`myController`) by calling [CreateForCurrentView](radialcontroller_createforcurrentview_1186319000.md).
+1. We then create an instance of a [RadialControllerMenuItem](radialcontrollermenuitem.md) (`myItem`) by calling [RadialControllerMenuItem.CreateFromIcon](radialcontrollermenuitem_createfromicon_2066467533.md).
 1. Finally, we append that item to the collection of menu items.
 
 ```csharp

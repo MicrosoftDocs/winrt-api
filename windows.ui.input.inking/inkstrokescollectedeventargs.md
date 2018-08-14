@@ -15,7 +15,7 @@ Contains event data for the [StrokesCollected](inkpresenter_strokescollected.md)
 
 By default, an ink stroke is processed on a low-latency background thread and rendered wet as it is drawn. When the stroke is completed (pen or finger lifted, or mouse button released), the stroke is processed on the UI thread and rendered dry to the [InkCanvas](../windows.ui.xaml.controls/inkcanvas.md) layer (above the application content). If the UI thread is busy, more than one ink stroke might be processed (collected) when the thread becomes available.
 
-This behavior can be overridden by calling the [ActivateCustomDrying](inkpresenter_activatecustomdrying.md) method prior to loading the [InkCanvas](../windows.ui.xaml.controls/inkcanvas.md).
+This behavior can be overridden by calling the [ActivateCustomDrying](inkpresenter_activatecustomdrying_1826048524.md) method prior to loading the [InkCanvas](../windows.ui.xaml.controls/inkcanvas.md).
 
 ## -remarks
 

@@ -10,7 +10,7 @@ public DataProtectionProvider(System.String protectionDescriptor)
 # Windows.Security.Cryptography.DataProtection.DataProtectionProvider.DataProtectionProvider
 
 ## -description
-Constructor used for encryption operations. Use this constructor before calling the [ProtectAsync](dataprotectionprovider_protectasync.md) or [ProtectStreamAsync](dataprotectionprovider_protectstreamasync.md) methods.
+Constructor used for encryption operations. Use this constructor before calling the [ProtectAsync](dataprotectionprovider_protectasync_124965623.md) or [ProtectStreamAsync](dataprotectionprovider_protectstreamasync_2066668264.md) methods.
 
 ## -parameters
 ### -param protectionDescriptor

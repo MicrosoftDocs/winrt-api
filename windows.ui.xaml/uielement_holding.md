@@ -38,7 +38,7 @@ A [Holding](uielement_holding.md) event is potentially the result of more than o
 
 For touch actions and also for interaction-specific or manipulation events that are consequences of a touch action, an element must be hit-test visible in order to be the event source and fire the event that is associated with the action. [UIElement.Visibility](uielement_visibility.md) must be [Visible](visibility.md). Other properties of derived types also affect hit-test visibility. For more info, see [Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
 
-[Holding](uielement_holding.md) supports the ability to attach event handlers to the route that will be invoked even if the event data for the event is marked [Handled](../windows.ui.xaml.input/holdingroutedeventargs_handled.md). See [AddHandler](uielement_addhandler.md).
+[Holding](uielement_holding.md) supports the ability to attach event handlers to the route that will be invoked even if the event data for the event is marked [Handled](../windows.ui.xaml.input/holdingroutedeventargs_handled.md). See [AddHandler](uielement_addhandler_2121467075.md).
 
 Specific Windows Runtime controls may have class-based handling for the [Holding](uielement_holding.md) event. If so, the control probably has an override for the method [OnHolding](../windows.ui.xaml.controls/control_onholding.md). For more info on how class-based handling for events works, see [Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
 

@@ -18,9 +18,9 @@ The current report interval.
 ## -remarks
 The report interval is specified in milliseconds.
 
-The report interval will be set to a default value that will vary based on the sensor driver’s implementation. If your app does not want to use this default value, you should set the report interval to a non-zero value prior to registering an event handler or calling [GetCurrentReading](accelerometer_getcurrentreading.md). The sensor will then attempt to allocate resources to satisfy the application’s requirements but the sensor also has to balance the needs of other apps using the sensor.
+The report interval will be set to a default value that will vary based on the sensor driver’s implementation. If your app does not want to use this default value, you should set the report interval to a non-zero value prior to registering an event handler or calling [GetCurrentReading](accelerometer_getcurrentreading_1416488181.md). The sensor will then attempt to allocate resources to satisfy the application’s requirements but the sensor also has to balance the needs of other apps using the sensor.
 
-Changes to the report interval after an event handler has been registered or [GetCurrentReading](accelerometer_getcurrentreading.md) has been called may apply to the delivery of subsequent sensor readings.
+Changes to the report interval after an event handler has been registered or [GetCurrentReading](accelerometer_getcurrentreading_1416488181.md) has been called may apply to the delivery of subsequent sensor readings.
 
 Conversely, when an application is finished with the sensor, it should explicitly return the sensor to its default report interval by setting it to zero. This is important for power conservation, especially when using a language that may keep the sensor object active for an indefinite period prior to garbage collection.
 

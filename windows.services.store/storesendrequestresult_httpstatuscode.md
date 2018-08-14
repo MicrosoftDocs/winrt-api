@@ -20,4 +20,4 @@ The HTTP status code for the request.
 ## -examples
 
 ## -see-also
-[SendRequestAsync](storerequesthelper_sendrequestasync.md), [StoreSendRequestResult](storesendrequestresult.md)
+[SendRequestAsync](storerequesthelper_sendrequestasync_58590558.md), [StoreSendRequestResult](storesendrequestresult.md)

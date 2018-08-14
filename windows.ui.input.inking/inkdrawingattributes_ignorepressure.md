@@ -29,7 +29,7 @@ The following actions may be affected by the [IgnorePressure](inkdrawingattribut
 </table>
 
 ## -examples
-The following example demonstrates how to set the [IgnorePressure](inkdrawingattributes_ignorepressure.md) attribute for all strokes managed by this [InkManager](inkmanager.md) object (`inkManager`) that are created after the [SetDefaultDrawingAttributes](inkmanager_setdefaultdrawingattributes.md) method call.
+The following example demonstrates how to set the [IgnorePressure](inkdrawingattributes_ignorepressure.md) attribute for all strokes managed by this [InkManager](inkmanager.md) object (`inkManager`) that are created after the [SetDefaultDrawingAttributes](inkmanager_setdefaultdrawingattributes_1436218448.md) method call.
 
 ```
 

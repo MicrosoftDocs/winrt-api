@@ -16,7 +16,7 @@ Retrieves a string that contains "HMAC_SHA256".
 String that contains "HMAC_SHA256".
 
 ## -remarks
-Use the string retrieved by this property to set the message authentication code (MAC) algorithm name when you call the [OpenAlgorithm](macalgorithmprovider_openalgorithm.md) method. The string represents a hash-based message authentication code (HMAC) algorithm that uses the SHA256 (Secure Hash Algorithm) message digest algorithm to perform the hashing.
+Use the string retrieved by this property to set the message authentication code (MAC) algorithm name when you call the [OpenAlgorithm](macalgorithmprovider_openalgorithm_637226074.md) method. The string represents a hash-based message authentication code (HMAC) algorithm that uses the SHA256 (Secure Hash Algorithm) message digest algorithm to perform the hashing.
 
 ## -examples
 

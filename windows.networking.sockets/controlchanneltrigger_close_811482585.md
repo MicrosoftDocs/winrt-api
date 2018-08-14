@@ -16,7 +16,7 @@ Closes the [ControlChannelTrigger](controlchanneltrigger.md) object.
 > This method is not supported on Windows Phone.
 
 ## -remarks
-The [Close](controlchanneltrigger_close.md) method aborts any pending operations and releases all unmanaged resources associated with the [ControlChannelTrigger](controlchanneltrigger.md) object. Calling this method frees any hardware resources allocated for the [ControlChannelTrigger](controlchanneltrigger.md).
+The [Close](controlchanneltrigger_close_811482585.md) method aborts any pending operations and releases all unmanaged resources associated with the [ControlChannelTrigger](controlchanneltrigger.md) object. Calling this method frees any hardware resources allocated for the [ControlChannelTrigger](controlchanneltrigger.md).
 
 In .NET Framework 4.5, this method is projected as the  method. In C++, this method is projected as part of the destructor (delete operator).
 

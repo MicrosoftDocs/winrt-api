@@ -10,7 +10,7 @@ public void SetVector2Parameter(System.String key, Windows.Foundation.Numerics.V
 # Windows.UI.Composition.CompositionAnimation.SetVector2Parameter
 
 ## -description
-Sets a [Vector2](../windows.foundation.numerics/vector2.md) value parameter for use with an [ExpressionAnimation](expressionanimation.md) or an [expression keyframe](keyframeanimation_insertexpressionkeyframe.md).
+Sets a [Vector2](../windows.foundation.numerics/vector2.md) value parameter for use with an [ExpressionAnimation](expressionanimation.md) or an [expression keyframe](keyframeanimation_insertexpressionkeyframe_1955314135.md).
 
 ## -parameters
 ### -param key

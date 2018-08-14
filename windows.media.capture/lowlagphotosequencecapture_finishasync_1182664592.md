@@ -16,7 +16,7 @@ Asynchronously releases the [LowLagPhotoSequenceCapture](lowlagphotosequencecapt
 Object that is used to control the asynchronous operation.
 
 ## -remarks
-[FinishAsync](lowlagphotosequencecapture_finishasync.md) stops the photo sequence capture operation and releases the [LowLagPhotoSequenceCapture](lowlagphotosequencecapture.md) object and resources used by the photo sequence operation. If you want to restart the photo sequence operation after calling [FinishAsync](lowlagphotosequencecapture_finishasync.md), you must call [MediaCapture.PrepareLowLagPhotoSequenceCaptureAsync](mediacapture_preparelowlagphotosequencecaptureasync.md) to initialize a new [LowLagPhotoSequenceCapture](lowlagphotosequencecapture.md) object.
+[FinishAsync](lowlagphotosequencecapture_finishasync_1182664592.md) stops the photo sequence capture operation and releases the [LowLagPhotoSequenceCapture](lowlagphotosequencecapture.md) object and resources used by the photo sequence operation. If you want to restart the photo sequence operation after calling [FinishAsync](lowlagphotosequencecapture_finishasync_1182664592.md), you must call [MediaCapture.PrepareLowLagPhotoSequenceCaptureAsync](mediacapture_preparelowlagphotosequencecaptureasync_2130225421.md) to initialize a new [LowLagPhotoSequenceCapture](lowlagphotosequencecapture.md) object.
 
 [StopAsync](lowlagphotosequencecapture_stopasync.md) stops the operation, which can be restarted with [StartAsync](lowlagphotosequencecapture_startasync.md).
 

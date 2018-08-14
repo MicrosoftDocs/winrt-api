@@ -13,7 +13,7 @@ public class MapTileBitmapRequestDeferral : Windows.UI.Xaml.Controls.Maps.IMapTi
 Represents a deferral that can be used by an app to respond asynchronously to a bitmap request for a tile.
 
 ## -remarks
-For more info about using the [CustomMapTileDataSource](custommaptiledatasource_custommaptiledatasource.md), see the [PixelData](maptilebitmaprequest_pixeldata.md) property of the [MapTileBitmapRequest](maptilebitmaprequest.md).
+For more info about using the [CustomMapTileDataSource](custommaptiledatasource_custommaptiledatasource_1221375020.md), see the [PixelData](maptilebitmaprequest_pixeldata.md) property of the [MapTileBitmapRequest](maptilebitmaprequest.md).
 
 ## -examples
 

@@ -19,9 +19,9 @@ The Windows Runtime  [SemanticZoom](../windows.ui.xaml.controls/semanticzoom.md)
 
 [SemanticZoomAutomationPeer](semanticzoomautomationpeer.md) has overrides of **Core** methods such that the associated [AutomationPeer](automationpeer.md) methods provide peer-specific information to a Microsoft UI Automation client.
 
-+ [GetPattern](automationpeer_getpattern.md) reports that the peer provides pattern support for [PatternInterface.Toggle](patterninterface.md) ([IToggleProvider](../windows.ui.xaml.automation.provider/itoggleprovider.md)).
-+ [GetClassName](automationpeer_getclassname.md) returns "SemanticZoom".
-+ [GetAutomationControlType](automationpeer_getautomationcontroltype.md) returns [AutomationControlType.SemanticZoom](automationcontroltype.md).
++ [GetPattern](automationpeer_getpattern_2046576749.md) reports that the peer provides pattern support for [PatternInterface.Toggle](patterninterface.md) ([IToggleProvider](../windows.ui.xaml.automation.provider/itoggleprovider.md)).
++ [GetClassName](automationpeer_getclassname_614238974.md) returns "SemanticZoom".
++ [GetAutomationControlType](automationpeer_getautomationcontroltype_1156384152.md) returns [AutomationControlType.SemanticZoom](automationcontroltype.md).
 
 > [!NOTE]
 > "SemanticZoom" is a relatively recent addition to the Microsoft UI Automation set of automation control types, so not all clients are implemented to look for it.

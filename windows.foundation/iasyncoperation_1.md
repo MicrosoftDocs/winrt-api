@@ -26,8 +26,8 @@ Instead of using [IAsyncOperation&lt;TResult&gt;](iasyncoperation_1.md), some Wi
 ### Interface inheritance
 
 [IAsyncOperation&lt;TResult&gt;](iasyncoperation_1.md) inherits [IAsyncInfo](iasyncinfo.md). Types that implement [IAsyncOperation&lt;TResult&gt;](iasyncoperation_1.md) also implement the interface members of [IAsyncInfo](iasyncinfo.md): 
-+ [Cancel](iasyncinfo_cancel.md) method
-+ [Close](iasyncinfo_close.md) method
++ [Cancel](iasyncinfo_cancel_1985564044.md) method
++ [Close](iasyncinfo_close_811482585.md) method
 + [ErrorCode](iasyncinfo_errorcode.md) property
 + [Id](iasyncinfo_id.md) property
 + [Status](iasyncinfo_status.md) property

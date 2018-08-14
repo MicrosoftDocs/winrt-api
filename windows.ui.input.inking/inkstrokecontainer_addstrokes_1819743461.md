@@ -13,11 +13,11 @@ public void AddStrokes(Windows.Foundation.Collections.IIterable<Windows.UI.Input
 ## -description
 Adds one or more ink strokes to the collection managed by the [InkStrokeContainer](inkstrokecontainer.md).
 
-> An [InkStroke](inkstroke.md) cannot exist in more than one [InkStrokeContainer](inkstrokecontainer.md). Call the [Clone](inkstroke_clone.md) method to duplicate a stroke in another container.
+> An [InkStroke](inkstroke.md) cannot exist in more than one [InkStrokeContainer](inkstrokecontainer.md). Call the [Clone](inkstroke_clone_766852569.md) method to duplicate a stroke in another container.
 
 ## -parameters
 ### -param strokes
-The ink strokes to be added as a collection of [InkStroke](inkstroke.md) objects.Each *stroke* must be created using the [Clone](inkstroke_clone.md) method, or through a call to [EndStroke](inkstrokebuilder_endstroke.md) or [ProcessPointerUp](inkmanager_processpointerup.md). Empty or existing strokes are not valid.
+The ink strokes to be added as a collection of [InkStroke](inkstroke.md) objects.Each *stroke* must be created using the [Clone](inkstroke_clone_766852569.md) method, or through a call to [EndStroke](inkstrokebuilder_endstroke_245944492.md) or [ProcessPointerUp](inkmanager_processpointerup_1637073524.md). Empty or existing strokes are not valid.
 
 ## -remarks
 

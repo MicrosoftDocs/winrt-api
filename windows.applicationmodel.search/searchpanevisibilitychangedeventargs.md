@@ -18,4 +18,4 @@ This object is passed to an app's [visibilitychanged](searchpane_visibilitychang
 ## -examples
 
 ## -see-also
-[SearchPane class](searchpane.md), [SearchPane.Show methods](searchpane_show.md), [SearchPane.VisibilityChanged event](searchpane_visibilitychanged.md), [SearchPane.Visible property](searchpane_visible.md)
+[SearchPane class](searchpane.md), [SearchPane.Show methods](searchpane_show_1323631364.md), [SearchPane.VisibilityChanged event](searchpane_visibilitychanged.md), [SearchPane.Visible property](searchpane_visible.md)

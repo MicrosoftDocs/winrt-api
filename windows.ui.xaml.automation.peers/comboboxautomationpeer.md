@@ -19,20 +19,20 @@ The Windows Runtime  [ComboBox](../windows.ui.xaml.controls/combobox.md) class c
 
 [ComboBoxAutomationPeer](comboboxautomationpeer.md) has overrides of **Core** methods such that the associated [AutomationPeer](automationpeer.md) methods provide peer-specific information to a Microsoft UI Automation client.
 
-+ [GetPattern](automationpeer_getpattern.md) reports that the peer provides pattern support for these patterns:
++ [GetPattern](automationpeer_getpattern_2046576749.md) reports that the peer provides pattern support for these patterns:
 + [PatternInterface.Value](patterninterface.md) ([IValueProvider](../windows.ui.xaml.automation.provider/ivalueprovider.md))
 + [PatternInterface.Selection](patterninterface.md) ([ISelectionProvider](../windows.ui.xaml.automation.provider/iselectionprovider.md))
 + [PatternInterface.ItemContainer](patterninterface.md) ([IItemContainerProvider](../windows.ui.xaml.automation.provider/iitemcontainerprovider.md))
 + [PatternInterface.ExpandCollapse](patterninterface.md) ([IExpandCollapseProvider](../windows.ui.xaml.automation.provider/iexpandcollapseprovider.md))
  This is the accumulated pattern support from each of the peer base classes and [ComboBoxAutomationPeer](comboboxautomationpeer.md) itself.
-+ [GetClassName](automationpeer_getclassname.md) returns "ComboBox".
-+ [GetAutomationControlType](automationpeer_getautomationcontroltype.md) returns [AutomationControlType.ComboBox](automationcontroltype.md).
-+ [GetChildren](automationpeer_getchildren.md) provides peers for contained elements. See [ComboBoxItemAutomationPeer](comboboxitemautomationpeer.md).
++ [GetClassName](automationpeer_getclassname_614238974.md) returns "ComboBox".
++ [GetAutomationControlType](automationpeer_getautomationcontroltype_1156384152.md) returns [AutomationControlType.ComboBox](automationcontroltype.md).
++ [GetChildren](automationpeer_getchildren_555647254.md) provides peers for contained elements. See [ComboBoxItemAutomationPeer](comboboxitemautomationpeer.md).
 This peer has the base classes [ItemsControlAutomationPeer](itemscontrolautomationpeer.md) and [SelectorAutomationPeer](selectorautomationpeer.md) and these peers also have behavior that isn't overridden by the notes above. For more info, see [ItemsControlAutomationPeer](itemscontrolautomationpeer.md) and [SelectorAutomationPeer](selectorautomationpeer.md).
 
 The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](http://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4).
 
-[IsReadOnly](comboboxautomationpeer_isreadonly.md) and [IsEnabled](automationpeer_isenabled.md) return a calculated value based on UI properties such as [IsEnabled](../windows.ui.xaml.controls/control_isenabled.md) on the owner.
+[IsReadOnly](comboboxautomationpeer_isreadonly.md) and [IsEnabled](automationpeer_isenabled_180154405.md) return a calculated value based on UI properties such as [IsEnabled](../windows.ui.xaml.controls/control_isenabled.md) on the owner.
 
 The peer can fire the automation events when [ExpandCollapseState](comboboxautomationpeer_expandcollapsestate.md) of the peer and owner control changes.
 

@@ -27,15 +27,15 @@ Use the [WebView](webview.md) control to host web content in your app.
 
 You can get the title of the HTML document currently displayed in the [WebView](webview.md) by using the [DocumentTitle](webview_documenttitle.md) property.
 
-Although [WebView](webview.md) is not a [Control](control.md) subclass, it will receive keyboard input focus and participate in the tab sequence. It provides a [Focus](webview_focus.md) method, and [GotFocus](../windows.ui.xaml/uielement_gotfocus.md) and [LostFocus](../windows.ui.xaml/uielement_lostfocus.md) events, but it has no tab-related properties. Its position in the tab sequence is the same as its position in the XAML document order. The tab sequence includes all elements in the [WebView](webview.md) content that can receive input focus.
+Although [WebView](webview.md) is not a [Control](control.md) subclass, it will receive keyboard input focus and participate in the tab sequence. It provides a [Focus](webview_focus_195503898.md) method, and [GotFocus](../windows.ui.xaml/uielement_gotfocus.md) and [LostFocus](../windows.ui.xaml/uielement_lostfocus.md) events, but it has no tab-related properties. Its position in the tab sequence is the same as its position in the XAML document order. The tab sequence includes all elements in the [WebView](webview.md) content that can receive input focus.
 
-As indicated in the Events table, [WebView](webview.md) doesn’t support most of the user input events inherited from [UIElement](../windows.ui.xaml/uielement.md), such as [KeyDown](../windows.ui.xaml/uielement_keydown.md), [KeyUp](../windows.ui.xaml/uielement_keyup.md), and [PointerPressed](../windows.ui.xaml/uielement_pointerpressed.md). A common workaround is to use [InvokeScriptAsync](webview_invokescriptasync.md) with the JavaScript  **eval** function to use the HTML event handlers, and to use **window.external.notify** from the HTML event handler to notify the application using [WebView.ScriptNotify](webview_scriptnotify.md).
+As indicated in the Events table, [WebView](webview.md) doesn’t support most of the user input events inherited from [UIElement](../windows.ui.xaml/uielement.md), such as [KeyDown](../windows.ui.xaml/uielement_keydown.md), [KeyUp](../windows.ui.xaml/uielement_keyup.md), and [PointerPressed](../windows.ui.xaml/uielement_pointerpressed.md). A common workaround is to use [InvokeScriptAsync](webview_invokescriptasync_1912773610.md) with the JavaScript  **eval** function to use the HTML event handlers, and to use **window.external.notify** from the HTML event handler to notify the application using [WebView.ScriptNotify](webview_scriptnotify.md).
 
 In apps compiled for Windows 10, [WebView](webview.md) uses the Microsoft Edge rendering engine to display HTML content. In apps compiled for Windows 8 or Windows 8.1, [WebView](webview.md) uses Internet Explorer 11 in document mode. It does not support any Microsoft ActiveX controls or plugins like Microsoft Silverlight or Portable Document Format (PDF) files.
 
 ### Navigating to content
 
-[WebView](webview.md) provides several API for basic navigation: [GoBack](webview_goback.md), [GoForward](webview_goforward.md), [Stop](webview_stop.md), [Refresh](webview_refresh.md), [CanGoBack](webview_cangoback.md), and [CanGoForward](webview_cangoforward.md). You can use these to add typical web browsing capabilities to your app.
+[WebView](webview.md) provides several API for basic navigation: [GoBack](webview_goback_1030386674.md), [GoForward](webview_goforward_1537152893.md), [Stop](webview_stop_1201535524.md), [Refresh](webview_refresh_839939657.md), [CanGoBack](webview_cangoback.md), and [CanGoForward](webview_cangoforward.md). You can use these to add typical web browsing capabilities to your app.
 
 To set the initial content of the [WebView](webview.md), set the [Source](webview_source.md) property in XAML. The XAML parser automatically converts the string to a [Uri](../windows.foundation/uri.md).
 
@@ -54,7 +54,7 @@ To set the initial content of the [WebView](webview.md), set the [Source](webvie
 
 The [Source](webview_source.md) property can be set in code, but rather than doing so, you typically use one of the **Navigate** methods to load content in code.
 
-To load web content, use the [Navigate](webview_navigate.md) method with a [Uri](../windows.foundation/uri.md) that uses the **http** or **https** scheme.
+To load web content, use the [Navigate](webview_navigate_1098085581.md) method with a [Uri](../windows.foundation/uri.md) that uses the **http** or **https** scheme.
 
 ```csharp
 webView1.Navigate(new Uri("http://www.contoso.com"));
@@ -62,7 +62,7 @@ webView1.Navigate(new Uri("http://www.contoso.com"));
 
 To navigate to a Uniform Resource Identifier (URI) with a POST request and HTTP headers, use the [NavigateWithHttpRequestMessage](webview_NavigateWithHttpRequestMessage.md) method. This method supports only [HttpMethod.Post](../windows.web.http/httpmethod_post.md) and [HttpMethod.Get](../windows.web.http/httpmethod_get.md) for the [HttpRequestMessage.Method](../windows.web.http/httprequestmessage_method.md) property value.
 
-To load uncompressed and unencrypted content from your app’s [LocalFolder](../windows.storage/applicationdata_localfolder.md) or [TemporaryFolder](../windows.storage/applicationdata_temporaryfolder.md) data stores, use the [Navigate](webview_navigate.md) method with a [Uri](../windows.foundation/uri.md) that uses the [ms-appdata scheme](http://msdn.microsoft.com/library/f3b3ae74-aaea-4f00-8f0a-4c231b8745af). The [WebView](webview.md) support for this scheme requires you to place your content in a subfolder under the local or temporary folder. This enables navigation to Uniform Resource Identifier (URI) such as ms-appdata:///local/*folder*/*file*.html and ms-appdata:///temp/*folder*/*file*.html. (To load compressed or encrypted files, see [NavigateToLocalStreamUri](webview_navigatetolocalstreamuri.md).)
+To load uncompressed and unencrypted content from your app’s [LocalFolder](../windows.storage/applicationdata_localfolder.md) or [TemporaryFolder](../windows.storage/applicationdata_temporaryfolder.md) data stores, use the [Navigate](webview_navigate_1098085581.md) method with a [Uri](../windows.foundation/uri.md) that uses the [ms-appdata scheme](http://msdn.microsoft.com/library/f3b3ae74-aaea-4f00-8f0a-4c231b8745af). The [WebView](webview.md) support for this scheme requires you to place your content in a subfolder under the local or temporary folder. This enables navigation to Uniform Resource Identifier (URI) such as ms-appdata:///local/*folder*/*file*.html and ms-appdata:///temp/*folder*/*file*.html. (To load compressed or encrypted files, see [NavigateToLocalStreamUri](webview_navigatetolocalstreamuri_1538250901.md).)
 
 Each of these first-level subfolders is isolated from the content in other first-level subfolders. For example, you can navigate to ms-appdata:///temp/folder1/file.html, but you can’t have a link in this file to ms-appdata:///temp/folder2/file.html. However, you can still link to HTML content in the app package using the **ms-appx-web** scheme, and to web content using the **http** and **https**  Uniform Resource Identifier (URI) schemes.
 
@@ -70,13 +70,13 @@ Each of these first-level subfolders is isolated from the content in other first
 webView1.Navigate(new Uri("ms-appdata:///local/intro/welcome.html"));
 ```
 
-To load content from the your app package, use the [Navigate](webview_navigate.md) method with a [Uri](../windows.foundation/uri.md) that uses the [ms-appx-web scheme](http://msdn.microsoft.com/library/f3b3ae74-aaea-4f00-8f0a-4c231b8745af).
+To load content from the your app package, use the [Navigate](webview_navigate_1098085581.md) method with a [Uri](../windows.foundation/uri.md) that uses the [ms-appx-web scheme](http://msdn.microsoft.com/library/f3b3ae74-aaea-4f00-8f0a-4c231b8745af).
 
 ```csharp
 webView1.Navigate(new Uri("ms-appx-web:///help/about.html"));
 ```
 
-You can load local content through a custom resolver using the [NavigateToLocalStreamUri](webview_navigatetolocalstreamuri.md) method. This enables advanced scenarios such as downloading and caching web-based content for offline use, or extracting content from a compressed file.
+You can load local content through a custom resolver using the [NavigateToLocalStreamUri](webview_navigatetolocalstreamuri_1538250901.md) method. This enables advanced scenarios such as downloading and caching web-based content for offline use, or extracting content from a compressed file.
 
 ### Responding to navigation events
 
@@ -225,15 +225,15 @@ private void webView_PermissionRequested(WebView sender, WebViewPermissionReques
 
 ```
 
-If your app requires user input or other asynchronous operations to respond to a permission request, use the [Defer](webviewpermissionrequest_defer.md) method of [WebViewPermissionRequest](webviewpermissionrequest.md) to create a [WebViewDeferredPermissionRequest](webviewdeferredpermissionrequest.md) that can be acted upon at a later time. See [WebViewPermissionRequest.Defer](webviewpermissionrequest_defer.md).
+If your app requires user input or other asynchronous operations to respond to a permission request, use the [Defer](webviewpermissionrequest_defer_1945301616.md) method of [WebViewPermissionRequest](webviewpermissionrequest.md) to create a [WebViewDeferredPermissionRequest](webviewdeferredpermissionrequest.md) that can be acted upon at a later time. See [WebViewPermissionRequest.Defer](webviewpermissionrequest_defer_1945301616.md).
 
-If users must securely log out of a website hosted in [WebView](webview.md), or in other cases when security is important, call the static method [ClearTemporaryWebDataAsync](webview_cleartemporarywebdataasync.md) to clear out all locally cached content from a [WebView](webview.md) session. This prevents malicious users from accessing sensitive data.
+If users must securely log out of a website hosted in [WebView](webview.md), or in other cases when security is important, call the static method [ClearTemporaryWebDataAsync](webview_cleartemporarywebdataasync_1779958528.md) to clear out all locally cached content from a [WebView](webview.md) session. This prevents malicious users from accessing sensitive data.
 
 ### Interacting with WebView content
 
-You can interact with the content of the [WebView](webview.md) by using the [InvokeScriptAsync](webview_invokescriptasync.md) method to invoke or inject script into the [WebView](webview.md) content, and the [ScriptNotify](webview_scriptnotify.md) event to get information back from the [WebView](webview.md) content.
+You can interact with the content of the [WebView](webview.md) by using the [InvokeScriptAsync](webview_invokescriptasync_1912773610.md) method to invoke or inject script into the [WebView](webview.md) content, and the [ScriptNotify](webview_scriptnotify.md) event to get information back from the [WebView](webview.md) content.
 
-To invoke JavaScript inside the [WebView](webview.md) content, use the [InvokeScriptAsync](webview_invokescriptasync.md) method. The invoked script can return only string values.
+To invoke JavaScript inside the [WebView](webview.md) content, use the [InvokeScriptAsync](webview_invokescriptasync_1912773610.md) method. The invoked script can return only string values.
 
 For example, if the content of a [WebView](webview.md) named `webView1` contains a function named `setDate` that takes 3 parameters, you can invoke it like this.
 
@@ -243,7 +243,7 @@ string[] args = {"January", "1", "2000"};
 string returnValue = await webView1.InvokeScriptAsync("setDate", args);
 ```
 
-You can use [InvokeScriptAsync](webview_invokescriptasync.md) with the JavaScript  **eval** function to inject content into the web page.
+You can use [InvokeScriptAsync](webview_invokescriptasync_1912773610.md) with the JavaScript  **eval** function to inject content into the web page.
 
 Here, the text of a XAML [TextBox](textbox.md) (`nameTextBox.Text`) is written to a div in an HTML page hosted in `webView1`.
 
@@ -258,11 +258,11 @@ private async void Button_Click(object sender, RoutedEventArgs e)
 
 Scripts in the [WebView](webview.md) content can use **window.external.notify** with a string parameter to send information back to your app. To receive these messages, handle the [ScriptNotify](webview_scriptnotify.md) event.
 
-To enable an external web page to fire the [ScriptNotify](webview_scriptnotify.md) event when calling **window.external.notify**, you must include the page's Uniform Resource Identifier (URI) in the **ApplicationContentUriRules** section of the app manifest. (You can do this in Microsoft Visual Studio on the Content URIs tab of the Package.appxmanifest designer.) The URIs in this list must use HTTPS, and may contain subdomain wildcards (for example, https://*.microsoft.com) but they cannot contain domain wildcards (for example, https://*.com and https://*.*). The manifest requirement does not apply to content that originates from the app package, uses an ms-local-stream:// URI, or is loaded using [NavigateToString](webview_navigatetostring.md).
+To enable an external web page to fire the [ScriptNotify](webview_scriptnotify.md) event when calling **window.external.notify**, you must include the page's Uniform Resource Identifier (URI) in the **ApplicationContentUriRules** section of the app manifest. (You can do this in Microsoft Visual Studio on the Content URIs tab of the Package.appxmanifest designer.) The URIs in this list must use HTTPS, and may contain subdomain wildcards (for example, https://*.microsoft.com) but they cannot contain domain wildcards (for example, https://*.com and https://*.*). The manifest requirement does not apply to content that originates from the app package, uses an ms-local-stream:// URI, or is loaded using [NavigateToString](webview_navigatetostring_1924125949.md).
 
 ### Accessing the Windows Runtime in WebView
 
-Starting in Windows 10, you can use the [AddWebAllowedObject](webview_addweballowedobject.md) method to inject an instance of a native class from a Windows Runtime component into the JavaScript context of the [WebView](webview.md). This allows full access to the native methods, properties, and events of that object in the JavaScript content of that [WebView](webview.md). The class must be decorated with the [AllowForWeb](../windows.foundation.metadata/allowforwebattribute.md) attribute.
+Starting in Windows 10, you can use the [AddWebAllowedObject](webview_addweballowedobject_1295901427.md) method to inject an instance of a native class from a Windows Runtime component into the JavaScript context of the [WebView](webview.md). This allows full access to the native methods, properties, and events of that object in the JavaScript content of that [WebView](webview.md). The class must be decorated with the [AllowForWeb](../windows.foundation.metadata/allowforwebattribute.md) attribute.
 
 For example, this code injects an instance of `MyClass` imported from a Windows Runtime component into [WebView](webview.md).
 
@@ -278,7 +278,7 @@ private void webView_NavigationStarting(WebView sender, WebViewNavigationStartin
 
 ```
 
-For more info, see [WebView.AddWebAllowedObject](webview_addweballowedobject.md).
+For more info, see [WebView.AddWebAllowedObject](webview_addweballowedobject_1295901427.md).
 
 In addition, trusted JavaScript content in [WebView](webview.md) can be allowed to directly access Windows RuntimeAPI. This provides powerful native capabilities for web apps hosted in [WebView](webview.md). To enable this feature, the Uniform Resource Identifier (URI) for trusted content must be whitelisted in the ApplicationContentUriRules of the app in Package.appxmanifest, with WindowsRuntimeAccess specifically set to "all".
 
@@ -303,9 +303,9 @@ Starting in Windows 10, you can use the [WebView.Settings](webview_settings.md)
 
 ### Capturing WebView content
 
-To enable sharing [WebView](webview.md) content with other apps, use the [CaptureSelectedContentToDataPackageAsync](webview_captureselectedcontenttodatapackageasync.md) method, which returns the selected content as a [DataPackage](../windows.applicationmodel.datatransfer/datapackage.md). This method is asynchronous, so you must use a deferral to prevent your [DataRequested](../windows.applicationmodel.datatransfer/datatransfermanager_datarequested.md) event handler from returning before the asynchronous call is complete.
+To enable sharing [WebView](webview.md) content with other apps, use the [CaptureSelectedContentToDataPackageAsync](webview_captureselectedcontenttodatapackageasync_1187796026.md) method, which returns the selected content as a [DataPackage](../windows.applicationmodel.datatransfer/datapackage.md). This method is asynchronous, so you must use a deferral to prevent your [DataRequested](../windows.applicationmodel.datatransfer/datatransfermanager_datarequested.md) event handler from returning before the asynchronous call is complete.
 
-To get a preview image of the [WebView](webview.md) 's current content, use the [CapturePreviewToStreamAsync](webview_capturepreviewtostreamasync.md) method. This method creates an image of the current content and writes it to the specified stream.
+To get a preview image of the [WebView](webview.md) 's current content, use the [CapturePreviewToStreamAsync](webview_capturepreviewtostreamasync_1169189879.md) method. This method creates an image of the current content and writes it to the specified stream.
 
 ### Execution modes
 
@@ -414,13 +414,13 @@ You might be able to intercept the information displayed by an **Alert** and do 
 The following [WebView](webview.md) APIs are deprecated in Windows 8.1:
 
 + [LoadCompleted](webview_loadcompleted.md) and [NavigationFailed](webview_navigationfailed.md). Use [NavigationCompleted](webview_navigationcompleted.md) instead.
-+ [InvokeScript](webview_invokescript.md). Use [InvokeScriptAsync](webview_invokescriptasync.md) instead.
-+ [DataTransferPackage](webview_datatransferpackage.md) and [DataTransferPackageProperty](webview_datatransferpackageproperty.md). Use [CaptureSelectedContentToDataPackageAsync](webview_captureselectedcontenttodatapackageasync.md) instead.
++ [InvokeScript](webview_invokescript_1786819783.md). Use [InvokeScriptAsync](webview_invokescriptasync_1912773610.md) instead.
++ [DataTransferPackage](webview_datatransferpackage.md) and [DataTransferPackageProperty](webview_datatransferpackageproperty.md). Use [CaptureSelectedContentToDataPackageAsync](webview_captureselectedcontenttodatapackageasync_1187796026.md) instead.
 + [AllowedScriptNotifyUris](webview_allowedscriptnotifyuris.md), [AnyScriptNotifyUri](webview_anyscriptnotifyuri.md), and [AllowedScriptNotifyUrisProperty](webview_allowedscriptnotifyurisproperty.md). Include the page's URI in the **ApplicationContentUriRules** section of the app manifest instead.
 
 On Windows only, you can handle the [UnsafeContentWarningDisplaying](webview_unsafecontentwarningdisplaying.md) event. This event occurs when the [WebView](webview.md) shows a warning page for content that was reported as unsafe by the SmartScreen Filter. If the user chooses to continue the navigation, subsequent navigation to the page will not display the warning nor fire the event. This event is not implemented for Windows Phone.
 
-When you invoke JavaScript inside the [WebView](webview.md) by calling the [InvokeScriptAsync](webview_invokescriptasync.md) method, functions that require a secondary window, like **Alert**, are not supported.
+When you invoke JavaScript inside the [WebView](webview.md) by calling the [InvokeScriptAsync](webview_invokescriptasync_1912773610.md) method, functions that require a secondary window, like **Alert**, are not supported.
 
 ### Windows Phone 8
 

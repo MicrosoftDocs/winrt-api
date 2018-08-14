@@ -26,7 +26,7 @@ If the [HttpCookie](httpcookie.md) does not exist, then the [HttpCookie](httpcoo
 
 The added or changed [HttpCookie](httpcookie.md) will be sent on subsequent HTTP requests.
 
-Setting an [HttpCookie](httpcookie.md) doesn't update the [HttpCookieCollection](httpcookiecollection.md) previously returned by the [GetCookies](httpcookiemanager_getcookies.md) method.
+Setting an [HttpCookie](httpcookie.md) doesn't update the [HttpCookieCollection](httpcookiecollection.md) previously returned by the [GetCookies](httpcookiemanager_getcookies_1465382103.md) method.
 
 ## -examples
 

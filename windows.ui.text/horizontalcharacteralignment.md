@@ -28,4 +28,4 @@ The character is at the center of the bounding rectangle.
 ## -examples
 
 ## -see-also
-[ITextRange.GetPoint](itextrange_getpoint.md), [VerticalCharacterAlignment](verticalcharacteralignment.md)
+[ITextRange.GetPoint](itextrange_getpoint_1487502073.md), [VerticalCharacterAlignment](verticalcharacteralignment.md)

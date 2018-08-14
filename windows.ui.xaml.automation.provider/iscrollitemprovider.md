@@ -22,7 +22,7 @@ This control pattern acts as a communication channel between a child control and
 + internal base class of [ListViewItemDataAutomationPeer](../windows.ui.xaml.automation.peers/listviewitemdataautomationpeer.md) and [GridViewItemDataAutomationPeer](../windows.ui.xaml.automation.peers/gridviewitemdataautomationpeer.md)
 
 
-The [IScrollItemProvider](iscrollitemprovider.md) pattern doesn't have a pattern property identifier class, the only API to implement is [ScrollIntoView](iscrollitemprovider_scrollintoview.md), a method.
+The [IScrollItemProvider](iscrollitemprovider.md) pattern doesn't have a pattern property identifier class, the only API to implement is [ScrollIntoView](iscrollitemprovider_scrollintoview_1265805467.md), a method.
 
 ## -examples
 

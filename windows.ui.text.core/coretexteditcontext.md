@@ -15,7 +15,7 @@ The primary object used by text input controls to communicate with the text inpu
 
 ## -remarks
 
-To obtain an object of this type, call [CoreTextServicesManager.CreateEditContext](coretextservicesmanager_createeditcontext.md).
+To obtain an object of this type, call [CoreTextServicesManager.CreateEditContext](coretextservicesmanager_createeditcontext_759770.md).
 
 ## -examples
 

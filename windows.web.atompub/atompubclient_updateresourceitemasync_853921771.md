@@ -10,7 +10,7 @@ public Windows.Foundation.IAsyncActionWithProgress<Windows.Web.Syndication.Trans
 # Windows.Web.AtomPub.AtomPubClient.UpdateResourceItemAsync
 
 ## -description
-Updates an existing Entry or Media Link resource. This differs from the [UpdateResourceAsync](atompubclient_updateresourceasync.md) method in that the [EditUri](../windows.web.syndication/syndicationitem_edituri.md) property of the specified [SyndicationItem](../windows.web.syndication/syndicationitem.md) object is used as the Uri of the resource to be updated.
+Updates an existing Entry or Media Link resource. This differs from the [UpdateResourceAsync](atompubclient_updateresourceasync_241802746.md) method in that the [EditUri](../windows.web.syndication/syndicationitem_edituri.md) property of the specified [SyndicationItem](../windows.web.syndication/syndicationitem.md) object is used as the Uri of the resource to be updated.
 
 ## -parameters
 ### -param item

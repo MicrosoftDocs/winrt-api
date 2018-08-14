@@ -26,7 +26,7 @@ Configuration parameters for the effect.
 Returns an [IAsyncAction](../windows.foundation/iasyncaction.md) object that is used to control the asynchronous operation.
 
 ## -remarks
-As of Windows 10, this method is deprecated. Use [AddAudioEffectAsync](mediacapture_addaudioeffectasync.md) or [AddVideoEffectAsync](mediacapture_addvideoeffectasync.md) instead. For how-to guidance on adding effects to the camera capture and preview streams, see [Effects for video capture](http://msdn.microsoft.com/library/e0189423-1df3-4052-ab2e-846ea18254c4).
+As of Windows 10, this method is deprecated. Use [AddAudioEffectAsync](mediacapture_addaudioeffectasync_182168147.md) or [AddVideoEffectAsync](mediacapture_addvideoeffectasync_1410216019.md) instead. For how-to guidance on adding effects to the camera capture and preview streams, see [Effects for video capture](http://msdn.microsoft.com/library/e0189423-1df3-4052-ab2e-846ea18254c4).
 
 ## -examples
 

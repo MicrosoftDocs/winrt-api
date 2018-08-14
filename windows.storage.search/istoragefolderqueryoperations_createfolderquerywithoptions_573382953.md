@@ -20,7 +20,7 @@ The options for filtering the query results.
 An object for enumerating folders and subscribing to events.
 
 ## -remarks
-You can use [QueryOptions](queryoptions.md) and [CreateFileQueryWithOptions](istoragefolderqueryoperations_createfilequerywithoptions.md) to create an indexed backed file query that lets you get properties that rely on another app's property handler. For more information see [QueryOptions](queryoptions.md).
+You can use [QueryOptions](queryoptions.md) and [CreateFileQueryWithOptions](istoragefolderqueryoperations_createfilequerywithoptions_2038131323.md) to create an indexed backed file query that lets you get properties that rely on another app's property handler. For more information see [QueryOptions](queryoptions.md).
 
 ## -examples
 

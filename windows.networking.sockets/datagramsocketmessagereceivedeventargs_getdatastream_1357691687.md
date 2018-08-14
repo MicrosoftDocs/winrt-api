@@ -20,7 +20,7 @@ An [IInputStream](../windows.storage.streams/iinputstream.md) object that repres
 ## -examples
 
 ## -see-also
-[DatagramSocket](datagramsocket.md), [GetDataReader](datagramsocketmessagereceivedeventargs_getdatareader.md), [IInputStream](../windows.storage.streams/iinputstream.md)
+[DatagramSocket](datagramsocket.md), [GetDataReader](datagramsocketmessagereceivedeventargs_getdatareader_509392724.md), [IInputStream](../windows.storage.streams/iinputstream.md)
 
 ## -capabilities
 ID_CAP_NETWORKING [Windows Phone]

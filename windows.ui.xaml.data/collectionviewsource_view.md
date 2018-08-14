@@ -16,7 +16,7 @@ Gets the view object that is currently associated with this instance of [Collect
 The view object that is currently associated with this instance of [CollectionViewSource](collectionviewsource.md).
 
 ## -remarks
-This property is initialized when you set the [Source](collectionviewsource_source.md) property. At that time, a view is generated automatically unless the source collection implements [ICollectionViewFactory](icollectionviewfactory.md). Otherwise, the view is retrieved through the [CreateView](icollectionviewfactory_createview.md) method.
+This property is initialized when you set the [Source](collectionviewsource_source.md) property. At that time, a view is generated automatically unless the source collection implements [ICollectionViewFactory](icollectionviewfactory.md). Otherwise, the view is retrieved through the [CreateView](icollectionviewfactory_createview_164792513.md) method.
 
 ## -examples
 

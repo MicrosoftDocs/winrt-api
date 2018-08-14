@@ -51,7 +51,7 @@ Uses a custom bar code symbology.
 
 
 ## -remarks
-Each value other than **Invalid** and **Custom** enables creation of the barcode image by the system, when you call [GetImageAsync](walletbarcode_getimageasync.md). For symbologies that aren't in this enumeration, use the [WalletBarcode(IRandomAccessStreamReference)](walletbarcode_walletbarcode_199548425.md) constructor and provide your own image.
+Each value other than **Invalid** and **Custom** enables creation of the barcode image by the system, when you call [GetImageAsync](walletbarcode_getimageasync_1312294964.md). For symbologies that aren't in this enumeration, use the [WalletBarcode(IRandomAccessStreamReference)](walletbarcode_walletbarcode_199548425.md) constructor and provide your own image.
 
 ## -examples
 

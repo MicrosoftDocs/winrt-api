@@ -18,7 +18,7 @@ The full path of the current folder in the file system, if the path is available
 ## -remarks
 Don't rely on this property to access a folder, because a file system path is not available for some folders. For example, in the following cases, the folder may not have a file system path, or the file system path may not be available.
 
-+ The folder represents a container for a group of files (for example, the return value from some overloads of the [GetFoldersAsync](storagefolder_getfoldersasync.md) method) instead of an actual folder in the file system.
++ The folder represents a container for a group of files (for example, the return value from some overloads of the [GetFoldersAsync](storagefolder_getfoldersasync_592765033.md) method) instead of an actual folder in the file system.
 + The folder is backed by a URI.
 + The folder was picked by using a file picker.
 

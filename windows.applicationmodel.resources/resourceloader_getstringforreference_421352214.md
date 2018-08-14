@@ -11,7 +11,7 @@ public string GetStringForReference(Windows.Foundation.Uri uri)
 
 ## -description
 > [!NOTE]
-> GetStringForReference may be altered or unavailable for releases after Windows 8.1. Instead, use [GetStringForUri](resourceloader_getstringforuri.md).
+> GetStringForReference may be altered or unavailable for releases after Windows 8.1. Instead, use [GetStringForUri](resourceloader_getstringforuri_449569482.md).
 
 Returns the most appropriate string value of a resource, specified as a [Uri](../windows.foundation/uri.md) for a resource identifier, for the default [ResourceContext](../windows.applicationmodel.resources.core/resourcecontext.md) of the currently running app.
 

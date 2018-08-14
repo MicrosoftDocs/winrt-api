@@ -17,7 +17,7 @@ Gets or sets the medium secondary tile image.
 The location of the image. This can be expressed as one of these schemes: <termdeflist><termdef><name>ms-appx:///</name>A path within the deployed app package. This path is resolved for languages and DPI plateau supported by the app.</termdef><termdef><name>ms-appdata:///local/</name>A file found in the per-user app storage.</termdef></termdeflist>
 
 ## -remarks
-This image must be set before you call [SecondaryTile.RequestCreateAsync](secondarytile_requestcreateasync.md).
+This image must be set before you call [SecondaryTile.RequestCreateAsync](secondarytile_requestcreateasync_1444672734.md).
 
 ## -examples
 

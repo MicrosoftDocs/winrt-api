@@ -10,10 +10,10 @@ public class CustomMapTileDataSource : Windows.UI.Xaml.Controls.Maps.MapTileData
 # Windows.UI.Xaml.Controls.Maps.CustomMapTileDataSource
 
 ## -description
-Provides a source of custom tiles for a [MapTileSource](maptilesource.md). Use this class when you can't use [HttpMapTileDataSource](httpmaptiledatasource.md) or [LocalMapTileDataSource](localmaptiledatasource.md). For example, [CustomMapTileDataSource](custommaptiledatasource_custommaptiledatasource.md) supports drawing tiles in memory and returning them as a stream of pixels.
+Provides a source of custom tiles for a [MapTileSource](maptilesource.md). Use this class when you can't use [HttpMapTileDataSource](httpmaptiledatasource.md) or [LocalMapTileDataSource](localmaptiledatasource.md). For example, [CustomMapTileDataSource](custommaptiledatasource_custommaptiledatasource_1221375020.md) supports drawing tiles in memory and returning them as a stream of pixels.
 
 ## -remarks
-For more info about using the [CustomMapTileDataSource](custommaptiledatasource_custommaptiledatasource.md), see the [PixelData](maptilebitmaprequest_pixeldata.md) property of the [MapTileBitmapRequest](maptilebitmaprequest.md).
+For more info about using the [CustomMapTileDataSource](custommaptiledatasource_custommaptiledatasource_1221375020.md), see the [PixelData](maptilebitmaprequest_pixeldata.md) property of the [MapTileBitmapRequest](maptilebitmaprequest.md).
 
 ## -examples
 

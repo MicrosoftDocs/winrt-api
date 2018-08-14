@@ -11,7 +11,7 @@ public enum Windows.UI.Notifications.BadgeTemplateType : int
 # BadgeTemplateType
 
 ## -description
-Specifies the template to use for a tile's badge overlay. Used by [BadgeUpdateManager.getTemplateContent](badgeupdatemanager_gettemplatecontent.md).
+Specifies the template to use for a tile's badge overlay. Used by [BadgeUpdateManager.getTemplateContent](badgeupdatemanager_gettemplatecontent_2049200015.md).
 
 ## -enum-fields
 ### -field BadgeGlyph:0

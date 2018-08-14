@@ -16,7 +16,7 @@ Gets a value that indicates whether the app is running in full-screen mode.
 **true** if the app is running in full-screen mode; otherwise, **false**. The default is **false**.
 
 ## -remarks
-The [IsFullScreenMode](applicationview_isfullscreenmode.md) property is set as a result of calls to the [TryEnterFullScreenMode](applicationview_tryenterfullscreenmode.md) and [ExitFullScreenMode](applicationview_exitfullscreenmode.md) methods. It can also be set to **true** when the app starts if the [PreferredLaunchWindowingMode](applicationview_preferredlaunchwindowingmode.md) property is set to **FullScreen**.
+The [IsFullScreenMode](applicationview_isfullscreenmode.md) property is set as a result of calls to the [TryEnterFullScreenMode](applicationview_tryenterfullscreenmode_1643702755.md) and [ExitFullScreenMode](applicationview_exitfullscreenmode_1516691675.md) methods. It can also be set to **true** when the app starts if the [PreferredLaunchWindowingMode](applicationview_preferredlaunchwindowingmode.md) property is set to **FullScreen**.
 
 The system raises the [CoreWindow.SizeChanged](../windows.ui.core/corewindow_sizechanged.md) event when the value of this property changes. This is exposed to XAML apps as the [Window.SizeChanged](../windows.ui.xaml/window_sizechanged.md) event and to HTML apps as the [window.resize](https://msdn.microsoft.com/en-us/library/aa741886(v=vs.85).aspx) event.
 
@@ -40,4 +40,4 @@ To play media full-screen, don't use full-screen mode. Set the [MediaPlayer.IsFu
 ## -examples
 
 ## -see-also
-[TryEnterFullScreenMode](applicationview_tryenterfullscreenmode.md), [ExitFullScreenMode](applicationview_exitfullscreenmode.md), [PreferredLaunchWindowingMode](applicationview_preferredlaunchwindowingmode.md), [Full screen mode sample](http://go.microsoft.com/fwlink/p/?LinkId=620546), [Window resizing sample](http://go.microsoft.com/fwlink/p/?LinkId=620026)
+[TryEnterFullScreenMode](applicationview_tryenterfullscreenmode_1643702755.md), [ExitFullScreenMode](applicationview_exitfullscreenmode_1516691675.md), [PreferredLaunchWindowingMode](applicationview_preferredlaunchwindowingmode.md), [Full screen mode sample](http://go.microsoft.com/fwlink/p/?LinkId=620546), [Window resizing sample](http://go.microsoft.com/fwlink/p/?LinkId=620026)

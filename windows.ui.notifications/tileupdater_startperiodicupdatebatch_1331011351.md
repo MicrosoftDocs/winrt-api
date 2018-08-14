@@ -14,7 +14,7 @@ public void StartPeriodicUpdateBatch(Windows.Foundation.Collections.IIterable<Wi
 Begins a series of timed updates that cycle on the tile that the updater is bound to. Update content is retrieved from an array of specified Uniform Resource Identifier (URI), the first update happening immediately and subsequent updates occurring at the periodic interval thereafter.
 
 > [!NOTE]
-> To use this feature, you must first enable the tile's notification queue by calling [EnableNotificationQueue](tileupdater_enablenotificationqueue.md).
+> To use this feature, you must first enable the tile's notification queue by calling [EnableNotificationQueue](tileupdater_enablenotificationqueue_1798421599.md).
 
 ## -parameters
 ### -param tileContents
@@ -69,4 +69,4 @@ For an example of a full implementation of periodic notifications used in conjun
 ## -examples
 
 ## -see-also
-[StartPeriodicUpdateBatch(IIterable(Uri), DateTime, PeriodicUpdateRecurrence)](tileupdater_startperiodicupdatebatch_1807273799.md), [StartPeriodicUpdate](tileupdater_startperiodicupdate.md), [How to set up periodic notifications for tiles](http://msdn.microsoft.com/library/96c67773-2e5b-4278-b16d-2f813b16580c), [Guidelines and checklist for periodic notifications](http://msdn.microsoft.com/library/4be95d67-2adf-4d0e-83e1-4ad25e0f4c0b), [Tile and tile notification overview](http://msdn.microsoft.com/library/10a05b52-42c4-4f85-9310-57663e378b9e)
+[StartPeriodicUpdateBatch(IIterable(Uri), DateTime, PeriodicUpdateRecurrence)](tileupdater_startperiodicupdatebatch_1807273799.md), [StartPeriodicUpdate](tileupdater_startperiodicupdate_1369986471.md), [How to set up periodic notifications for tiles](http://msdn.microsoft.com/library/96c67773-2e5b-4278-b16d-2f813b16580c), [Guidelines and checklist for periodic notifications](http://msdn.microsoft.com/library/4be95d67-2adf-4d0e-83e1-4ad25e0f4c0b), [Tile and tile notification overview](http://msdn.microsoft.com/library/10a05b52-42c4-4f85-9310-57663e378b9e)

@@ -16,7 +16,7 @@ Gets the deadline by which the app must complete the deferral.
 The deadline by which the app must complete the deferral.
 
 ## -remarks
-If the deadline passes and the app hasn't called [Complete](lockscreencallendcalldeferral_complete.md), the operating system acts as if the deferral completed.
+If the deadline passes and the app hasn't called [Complete](lockscreencallendcalldeferral_complete_1807836922.md), the operating system acts as if the deferral completed.
 
 The current deadline is 5 seconds after the user initiates the action that triggers the [LockScreenCallUI.EndRequested](lockscreencallui_endrequested.md) event.
 

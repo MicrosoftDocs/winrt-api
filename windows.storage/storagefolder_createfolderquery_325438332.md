@@ -23,9 +23,9 @@ You don't have permission to access the contents of the current folder.
 ## -remarks
 This query is a shallow query that returns only subfolders in the current folder. For a list of methods that identifies shallow queries and deep queries, see the Remarks in the [GetFoldersAsync](storagefolder_getfoldersasync_592765033.md) method.
 
-To specify additional query options, call the [CreateFolderQueryWithOptions](storagefolder_createfolderquerywithoptions.md) method.
+To specify additional query options, call the [CreateFolderQueryWithOptions](storagefolder_createfolderquerywithoptions_573382953.md) method.
 
-To get items that are files or folders, call the [CreateItemQuery](storagefolder_createitemquery.md) method.
+To get items that are files or folders, call the [CreateItemQuery](storagefolder_createitemquery_543424716.md) method.
 
 ## -examples
 The following example shows how to get the contents of the subfolders in the user's Pictures folder, grouped into folders by month, by calling the [GetFoldersAsync(CommonFolderQuery)](storagefolder_getfoldersasync_595997124.md) overloaded method. (Files from the root of the current folder are not included.)

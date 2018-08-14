@@ -16,7 +16,7 @@ Gets the name of the open symmetric algorithm.
 Algorithm name.
 
 ## -remarks
-You must call [OpenAlgorithm](symmetrickeyalgorithmprovider_openalgorithm.md) before calling this property. The following algorithm names are supported for symmetric cryptographic operations.
+You must call [OpenAlgorithm](symmetrickeyalgorithmprovider_openalgorithm_637226074.md) before calling this property. The following algorithm names are supported for symmetric cryptographic operations.
 
 
 + No padding:   + [SymmetricAlgorithmNames.AesCbc](symmetricalgorithmnames_aescbc.md)

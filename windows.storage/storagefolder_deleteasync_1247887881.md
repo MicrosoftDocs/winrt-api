@@ -24,7 +24,7 @@ You don't have permission to delete the specified folder.
 This method implicitly uses [StorageDeleteOption.Default](storagedeleteoption.md) to determine whether the item is deleted permanently.
 
 ## -examples
-The following example shows how to delete the current folder by calling the [DeleteAsync(StorageDeleteOption)](storagefile_deleteasync.md) overloaded method. This example explicitly specifies a value for *option* that deletes the file permanently.
+The following example shows how to delete the current folder by calling the [DeleteAsync(StorageDeleteOption)](storagefile_deleteasync_1247887881.md) overloaded method. This example explicitly specifies a value for *option* that deletes the file permanently.
 
 ```csharp
 using Windows.Storage;

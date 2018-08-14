@@ -18,7 +18,7 @@ Indicates which discovery options are available to use with the [PeerFinder](pee
  No supported discovery types are available. You can't use the [PeerFinder](peerfinder.md) class.
 
 ### -field Browse:1
-You can use Wifi-Direct to find peers by using the [FindAllPeersAsync](peerfinder_findallpeersasync.md) and [ConnectAsync](peerfinder_connectasync.md) methods of the [PeerFinder](peerfinder.md) class.
+You can use Wifi-Direct to find peers by using the [FindAllPeersAsync](peerfinder_findallpeersasync_830195586.md) and [ConnectAsync](peerfinder_connectasync_380619906.md) methods of the [PeerFinder](peerfinder.md) class.
 
 ### -field Triggered:2
 You can tap to connect to peers by using the [PeerFinder](peerfinder.md) class.

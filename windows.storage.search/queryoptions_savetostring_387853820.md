@@ -10,7 +10,7 @@ public string SaveToString()
 # Windows.Storage.Search.QueryOptions.SaveToString
 
 ## -description
-Converts the values of a [QueryOptions](queryoptions.md) object to a string that can be used to initialize the values of a [QueryOptions](queryoptions.md) object by calling [LoadFromString](queryoptions_loadfromstring.md).
+Converts the values of a [QueryOptions](queryoptions.md) object to a string that can be used to initialize the values of a [QueryOptions](queryoptions.md) object by calling [LoadFromString](queryoptions_loadfromstring_1308493691.md).
 
 ## -returns
 A string representing the serialized settings of a [QueryOptions](queryoptions.md) instance.

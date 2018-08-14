@@ -20,7 +20,7 @@ The string to associate with *value2*.
 The value to associate with *value1*.
 
 ## -remarks
-Call the [LogValuePair](loggingchannel_logvaluepair.md) method to log data as a key-value pair to the current [LoggingChannel](loggingchannel.md).
+Call the [LogValuePair](loggingchannel_logvaluepair_1788406125.md) method to log data as a key-value pair to the current [LoggingChannel](loggingchannel.md).
 
 ## -examples
 

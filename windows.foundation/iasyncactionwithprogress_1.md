@@ -26,8 +26,8 @@ To monitor the progress of the action (if not using the language-specific techni
 ### Interface inheritance
 
 [IAsyncActionWithProgress&lt;TProgress&gt;](iasyncactionwithprogress_1.md) inherits [IAsyncInfo](iasyncinfo.md).Types that implement [IAsyncActionWithProgress&lt;TProgress&gt;](iasyncactionwithprogress_1.md) also implement the interface members of [IAsyncInfo](iasyncinfo.md):
-+ [Cancel](iasyncinfo_cancel.md) method
-+ [Close](iasyncinfo_close.md) method
++ [Cancel](iasyncinfo_cancel_1985564044.md) method
++ [Close](iasyncinfo_close_811482585.md) method
 + [ErrorCode](iasyncinfo_errorcode.md) property
 + [Id](iasyncinfo_id.md) property
 + [Status](iasyncinfo_status.md) property

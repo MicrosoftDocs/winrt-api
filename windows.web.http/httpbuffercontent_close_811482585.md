@@ -13,7 +13,7 @@ public void Close()
 Closes the [HttpBufferContent](httpbuffercontent.md) instance and releases allocated resources.
 
 ## -remarks
-The [Close](httpbuffercontent_close.md) method releases allocated resources used by the [HttpBufferContent](httpbuffercontent.md) instance. The [Close](httpbuffercontent_close.md) method can manage the lifetime of system resources (memory for the [HttpBufferContent](httpbuffercontent.md), for example) used by a Windows Runtime object.
+The [Close](httpbuffercontent_close_811482585.md) method releases allocated resources used by the [HttpBufferContent](httpbuffercontent.md) instance. The [Close](httpbuffercontent_close_811482585.md) method can manage the lifetime of system resources (memory for the [HttpBufferContent](httpbuffercontent.md), for example) used by a Windows Runtime object.
 
 In the .NET Framework 4.5, this method projects as the [Dispose](httpbuffercontent_dispose.md) method. In C++ and CX, this method projects as the destructor (delete operator).
 

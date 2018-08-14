@@ -20,7 +20,7 @@ The zero-based index at which *value* should be inserted.
 The object to insert into the collection.
 
 ## -remarks
-To add an item to the end position in the collection, you can use the [Append](httpchallengeheadervaluecollection_append.md) method. Calling [InsertAt](httpchallengeheadervaluecollection_insertat.md) with an *index* value that is the same as the [Size](httpchallengeheadervaluecollection_size.md) value is equivalent to calling [Append](httpchallengeheadervaluecollection_append.md).
+To add an item to the end position in the collection, you can use the [Append](httpchallengeheadervaluecollection_append_1860232408.md) method. Calling [InsertAt](httpchallengeheadervaluecollection_insertat_1228553710.md) with an *index* value that is the same as the [Size](httpchallengeheadervaluecollection_size.md) value is equivalent to calling [Append](httpchallengeheadervaluecollection_append_1860232408.md).
 
 If you are programming using C# or Microsoft Visual Basic, the equivalent method is [Insert](httpchallengeheadervaluecollection_insert.md).
 

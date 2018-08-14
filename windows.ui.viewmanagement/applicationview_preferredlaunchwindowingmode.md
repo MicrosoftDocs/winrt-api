@@ -25,7 +25,7 @@ You can set [PreferredLaunchWindowingMode](applicationview_preferredlaunchwindow
 For the very first launch of an app the [PreferredLaunchWindowingMode](applicationview_preferredlaunchwindowingmode.md) will always be **Auto** and the [ApplicationView.PreferredLaunchViewSize](applicationview_preferredlaunchviewsize.md) will be determined by system policies. The API applies to the next launch of the app.
 
 
-You typically set this property when the user sets their preference via an in-app option, or when you call [TryEnterFullScreenMode](applicationview_tryenterfullscreenmode.md) and [ExitFullScreenMode](applicationview_exitfullscreenmode.md). You can set this property during app startup (before the call to [CoreWindow.Activate](../windows.ui.core/corewindow_activate.md)) to specify a first launch behavior. However, you shouldn't set it during every launch as this can cause your app to do extra sizing and positioning work during startup.
+You typically set this property when the user sets their preference via an in-app option, or when you call [TryEnterFullScreenMode](applicationview_tryenterfullscreenmode_1643702755.md) and [ExitFullScreenMode](applicationview_exitfullscreenmode_1516691675.md). You can set this property during app startup (before the call to [CoreWindow.Activate](../windows.ui.core/corewindow_activate.md)) to specify a first launch behavior. However, you shouldn't set it during every launch as this can cause your app to do extra sizing and positioning work during startup.
 
 ## -examples
 This example shows how to toggle full-screen mode and set the [PreferredLaunchWindowingMode](applicationview_preferredlaunchwindowingmode.md) property.
@@ -59,4 +59,4 @@ private void ToggleFullScreenModeButton_Click(object sender, RoutedEventArgs e)
 
 
 ## -see-also
-[IsFullScreenMode](applicationview_isfullscreenmode.md), [TryEnterFullScreenMode](applicationview_tryenterfullscreenmode.md), [ExitFullScreenMode](applicationview_exitfullscreenmode.md), [Full screen mode sample](http://go.microsoft.com/fwlink/p/?LinkId=620546), [Window resizing sample](http://go.microsoft.com/fwlink/p/?LinkId=620026)
+[IsFullScreenMode](applicationview_isfullscreenmode.md), [TryEnterFullScreenMode](applicationview_tryenterfullscreenmode_1643702755.md), [ExitFullScreenMode](applicationview_exitfullscreenmode_1516691675.md), [Full screen mode sample](http://go.microsoft.com/fwlink/p/?LinkId=620546), [Window resizing sample](http://go.microsoft.com/fwlink/p/?LinkId=620026)

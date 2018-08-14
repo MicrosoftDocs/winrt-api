@@ -28,7 +28,7 @@ For more information, see these topics:
 
 
 ## -examples
-The following example shows how to create and send a toast notification that includes text and images, including the use of the [GetTemplateContent](toastnotificationmanager_gettemplatecontent.md) and [CreateToastNotifier](toastnotificationmanager_createtoastnotifier_1346219381.md) methods.
+The following example shows how to create and send a toast notification that includes text and images, including the use of the [GetTemplateContent](toastnotificationmanager_gettemplatecontent_687642458.md) and [CreateToastNotifier](toastnotificationmanager_createtoastnotifier_1346219381.md) methods.
 
 ```javascript
 

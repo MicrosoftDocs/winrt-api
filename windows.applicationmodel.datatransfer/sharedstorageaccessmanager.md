@@ -16,9 +16,9 @@ Enables an app to share a file with another app by passing a token via Uri activ
 Here is the sequence of steps that enables an app to share a file with another app by passing a token as part of a Uri activation, for example.
 
 
-+ The source app calls the [AddFile](sharedstorageaccessmanager_addfile.md) method to get the sharing token that it passes to the target app, which it launches with a Uri.
-+ The target app calls the [RedeemTokenForFileAsync](sharedstorageaccessmanager_redeemtokenforfileasync.md) method to get the shared file.
-+ Optionally, the source app can call the [RemoveFile](sharedstorageaccessmanager_removefile.md) method to revoke a token that it obtained previously by calling the [AddFile](sharedstorageaccessmanager_addfile.md) method.
++ The source app calls the [AddFile](sharedstorageaccessmanager_addfile_731286892.md) method to get the sharing token that it passes to the target app, which it launches with a Uri.
++ The target app calls the [RedeemTokenForFileAsync](sharedstorageaccessmanager_redeemtokenforfileasync_2095026872.md) method to get the shared file.
++ Optionally, the source app can call the [RemoveFile](sharedstorageaccessmanager_removefile_245169084.md) method to revoke a token that it obtained previously by calling the [AddFile](sharedstorageaccessmanager_addfile_731286892.md) method.
 For more info about Uri activation, see [Launch the default app for a URI](http://msdn.microsoft.com/library/7b0d0af5-d89e-4db0-9b79-90201d79974f).
 
 The use of the [SharedStorageAccessManager](sharedstorageaccessmanager.md) class and of sharing tokens is subject to the following requirements and restrictions.

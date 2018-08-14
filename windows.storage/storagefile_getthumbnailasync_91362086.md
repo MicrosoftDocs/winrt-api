@@ -48,7 +48,7 @@ storageFile.getThumbnailAsync(
     );
 ```
 
-You must have a [StorageFile](storagefile.md) object (`storageFile` in the example) that represents your file in order to use one of the [StorageFile.GetThumbnailAsync](storagefile_getthumbnailasync.md) methods.
+You must have a [StorageFile](storagefile.md) object (`storageFile` in the example) that represents your file in order to use one of the [StorageFile.GetThumbnailAsync](storagefile_getthumbnailasync_1511435522.md) methods.
 
 ## -see-also
 [GetThumbnailAsync(ThumbnailMode)](storagefile_getthumbnailasync_1575071988.md), [GetThumbnailAsync(ThumbnailMode, UInt32)](storagefile_getthumbnailasync_1511435522.md), [ThumbnailOptions](../windows.storage.fileproperties/thumbnailoptions.md)

@@ -19,7 +19,7 @@ The [AudioStreamDescriptor](audiostreamdescriptor.md) or [VideoStreamDescriptor]
 ## -remarks
 This constructor creates a [MediaStreamSource](mediastreamsource.md) using a single [AudioStreamDescriptor](audiostreamdescriptor.md) or [VideoStreamDescriptor](videostreamdescriptor.md) object. If the [MediaStreamSource](mediastreamsource.md) needs descriptors, the [MediaStreamSource](mediastreamsource_mediastreamsource_998833464.md) constructor overload which takes two descriptor can be used.
 
-It is possible to add additional descriptors to a [MediaStreamSource](mediastreamsource.md) after it has been created, by invoking the [AddStreamDescriptor](mediastreamsource_addstreamdescriptor.md) method.
+It is possible to add additional descriptors to a [MediaStreamSource](mediastreamsource.md) after it has been created, by invoking the [AddStreamDescriptor](mediastreamsource_addstreamdescriptor_503977765.md) method.
 
 ## -examples
 

@@ -25,7 +25,7 @@ The format of the proximity app Id is **&lt;package family name&gt;!&lt;app Id&g
 
 ### Browsing within wireless range (FindAllPeersAsync)
 
-When you connect peer apps by browsing for devices within wireless range using the [FindAllPeersAsync](peerfinder_findallpeersasync.md) method, you can only match one app Id at a time. By default peer matching when browsing uses the Windows 8 proximity app Id . You can browse to connect peer apps running on different platforms by adding a unique "browse" app Id to the [AlternateIdentities](peerfinder_alternateidentities.md) property. You can then add that same "browse" app Id to your peer app on the other platforms. If the "browse" alternate identity strings match, then the [PeerFinder](peerfinder.md) class can find the peer apps when you call the [FindAllPeersAsync](peerfinder_findallpeersasync.md) method.
+When you connect peer apps by browsing for devices within wireless range using the [FindAllPeersAsync](peerfinder_findallpeersasync_830195586.md) method, you can only match one app Id at a time. By default peer matching when browsing uses the Windows 8 proximity app Id . You can browse to connect peer apps running on different platforms by adding a unique "browse" app Id to the [AlternateIdentities](peerfinder_alternateidentities.md) property. You can then add that same "browse" app Id to your peer app on the other platforms. If the "browse" alternate identity strings match, then the [PeerFinder](peerfinder.md) class can find the peer apps when you call the [FindAllPeersAsync](peerfinder_findallpeersasync_830195586.md) method.
 
 ## -examples
 

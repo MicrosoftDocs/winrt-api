@@ -14,7 +14,7 @@ Contains the information about a contact.
 
 ## -remarks
 > [!NOTE]
-> Because you don't use [PickSingleContactAsync](contactpicker_picksinglecontactasync.md) and [PickMultipleContactsAsync](contactpicker_pickmultiplecontactsasync.md) in your Windows 8.1 and later apps, you don't instantiate [ContactInformation](contactinformation.md) objects in your Windows 8.1 and later apps.This table shows existing Windows 8[ContactInformation](contactinformation.md) properties and their equivalent Windows 8.1[Contact](contact.md) properties.
+> Because you don't use [PickSingleContactAsync](contactpicker_picksinglecontactasync_2033050338.md) and [PickMultipleContactsAsync](contactpicker_pickmultiplecontactsasync_1630502573.md) in your Windows 8.1 and later apps, you don't instantiate [ContactInformation](contactinformation.md) objects in your Windows 8.1 and later apps.This table shows existing Windows 8[ContactInformation](contactinformation.md) properties and their equivalent Windows 8.1[Contact](contact.md) properties.
 
 <table>
    <tr><th>Windows 8[ContactInformation](contactinformation.md) property</th><th>Windows 8.1[Contact](contact.md) property</th></tr>
@@ -30,7 +30,7 @@ Contains the information about a contact.
    <tr><td>Contact.Fields where ContactField.Value = CompanyAddress and ContactField.Category = ContactFieldCategory.Work</td><td>ContactJobInfo.CompanyAddress</td></tr>
 </table>
 
-Typically, you access [ContactInformation](contactinformation.md) objects as the result of asynchronous method and/or function calls. For example, both of the static methods [PickSingleContactAsync](contactpicker_picksinglecontactasync.md) and [PickMultipleContactsAsync](contactpicker_pickmultiplecontactsasync.md) return [ContactInformation](contactinformation.md) objects that represent the selected contact.
+Typically, you access [ContactInformation](contactinformation.md) objects as the result of asynchronous method and/or function calls. For example, both of the static methods [PickSingleContactAsync](contactpicker_picksinglecontactasync_2033050338.md) and [PickMultipleContactsAsync](contactpicker_pickmultiplecontactsasync_1630502573.md) return [ContactInformation](contactinformation.md) objects that represent the selected contact.
 
 When your app receives contact information from a contact provider, the data for each contact is returned in a [ContactInformation](contactinformation.md) object.
 

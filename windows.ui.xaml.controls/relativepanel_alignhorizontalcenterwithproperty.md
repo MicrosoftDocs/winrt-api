@@ -18,7 +18,7 @@ The identifier for the [RelativePanel.AlignHorizontalCenterWith](relativepanel_a
 ## -remarks
 This property is only an identifier for the property system, and isn't used in most app scenarios. In most cases you set the [RelativePanel.AlignHorizontalCenterWith](relativepanel_alignhorizontalcenterwith.md)  XAML attached property in XAML and won't need this identifier.
 
-To access the [RelativePanel.AlignHorizontalCenterWith](relativepanel_alignhorizontalcenterwith.md) attached property in code, you can use the dependency property system, calling either [GetValue](../windows.ui.xaml/dependencyobject_getvalue.md) or [SetValue](../windows.ui.xaml/dependencyobject_setvalue.md) and passing [RelativePanel.AlignHorizontalCenterWithProperty](relativepanel_alignhorizontalcenterwithproperty.md) as the dependency property identifier. Another way to get or set the value in code is to use [GetAlignHorizontalCenterWith](relativepanel_getalignhorizontalcenterwith.md) and [SetAlignHorizontalCenterWith](relativepanel_setalignhorizontalcenterwith.md).
+To access the [RelativePanel.AlignHorizontalCenterWith](relativepanel_alignhorizontalcenterwith.md) attached property in code, you can use the dependency property system, calling either [GetValue](../windows.ui.xaml/dependencyobject_getvalue.md) or [SetValue](../windows.ui.xaml/dependencyobject_setvalue.md) and passing [RelativePanel.AlignHorizontalCenterWithProperty](relativepanel_alignhorizontalcenterwithproperty.md) as the dependency property identifier. Another way to get or set the value in code is to use [GetAlignHorizontalCenterWith](relativepanel_getalignhorizontalcenterwith_273101317.md) and [SetAlignHorizontalCenterWith](relativepanel_setalignhorizontalcenterwith_1128810433.md).
 
 ## -examples
 

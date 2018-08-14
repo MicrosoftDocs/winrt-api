@@ -23,15 +23,15 @@ A value specifying one of the profile names known by the system.
 The list of video profiles supported by the specified video capture device that match the specified known profile name.
 
 ## -remarks
-Before calling this method, call [IsVideoProfileSupported](mediacapture_isvideoprofilesupported.md) to make sure that the capture device supports video profiles.
+Before calling this method, call [IsVideoProfileSupported](mediacapture_isvideoprofilesupported_190014579.md) to make sure that the capture device supports video profiles.
 
-This method allows you to request profiles with specific functionality by using one of the [KnownVideoProfile](knownvideoprofile.md) values. Some hardware may support additional profiles that do not correspond to any of the known profile names. Use [FindAllVideoProfiles](mediacapture_findallvideoprofiles.md) to retrieve all video profiles supported by the video capture device.
+This method allows you to request profiles with specific functionality by using one of the [KnownVideoProfile](knownvideoprofile.md) values. Some hardware may support additional profiles that do not correspond to any of the known profile names. Use [FindAllVideoProfiles](mediacapture_findallvideoprofiles_690787568.md) to retrieve all video profiles supported by the video capture device.
 
 For how-to guidance for working with camera profiles, see [Discover and select camera capabilities with camera profiles](https://msdn.microsoft.com/en-us/windows/uwp/audio-video-camera/camera-profiles).
 
 ## -examples
 
 ## -see-also
-[KnownVideoProfile](knownvideoprofile.md), [FindAllVideoProfiles](mediacapture_findallvideoprofiles.md), [FindConcurrentProfiles](mediacapture_findconcurrentprofiles.md), [Discover and select camera capabilities with camera profiles](https://msdn.microsoft.com/en-us/windows/uwp/audio-video-camera/camera-profiles)
+[KnownVideoProfile](knownvideoprofile.md), [FindAllVideoProfiles](mediacapture_findallvideoprofiles_690787568.md), [FindConcurrentProfiles](mediacapture_findconcurrentprofiles_834250833.md), [Discover and select camera capabilities with camera profiles](https://msdn.microsoft.com/en-us/windows/uwp/audio-video-camera/camera-profiles)
 ## -capabilities
 backgroundMediaRecording

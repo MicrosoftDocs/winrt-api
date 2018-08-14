@@ -13,7 +13,7 @@ public class DeviceInformationCollection : Windows.Foundation.Collections.IItera
 Represents a collection of [DeviceInformation](deviceinformation.md) objects.
 
 ## -remarks
-Successful completion of [FindAllAsync](deviceinformation_findallasync.md) results in a [DeviceInformationCollection](deviceinformationcollection.md) containing [DeviceInformation](deviceinformation.md) objects.
+Successful completion of [FindAllAsync](deviceinformation_findallasync_1257462890.md) results in a [DeviceInformationCollection](deviceinformationcollection.md) containing [DeviceInformation](deviceinformation.md) objects.
 
 ### Collection member lists
 

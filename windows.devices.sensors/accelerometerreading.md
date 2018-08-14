@@ -13,7 +13,7 @@ public class AccelerometerReading : Windows.Devices.Sensors.IAccelerometerReadin
 Represents an accelerometer reading.
 
 ## -remarks
-This object is accessed when you invoke the [GetCurrentReading](accelerometer_getcurrentreading.md) method; and, it is accessed when you retrieve the [Reading](accelerometerreadingchangedeventargs_reading.md) property of the [AccelerometerReadingChangedEventArgs](accelerometerreadingchangedeventargs.md) object in the event callback method.
+This object is accessed when you invoke the [GetCurrentReading](accelerometer_getcurrentreading_1416488181.md) method; and, it is accessed when you retrieve the [Reading](accelerometerreadingchangedeventargs_reading.md) property of the [AccelerometerReadingChangedEventArgs](accelerometerreadingchangedeventargs.md) object in the event callback method.
 
 ## -examples
 

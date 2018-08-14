@@ -13,7 +13,7 @@ public void Close()
 Closes the [HttpStringContent](httpstringcontent.md) instance and releases allocated resources.
 
 ## -remarks
-The [Close](httpstringcontent_close.md) method releases allocated resources used by the [HttpStringContent](httpstringcontent.md) instance. The [Close](httpstringcontent_close.md) method can manage the lifetime of system resources (memory for the [HttpStringContent](httpstringcontent.md), for example) used by a Windows Runtime object.
+The [Close](httpstringcontent_close_811482585.md) method releases allocated resources used by the [HttpStringContent](httpstringcontent.md) instance. The [Close](httpstringcontent_close_811482585.md) method can manage the lifetime of system resources (memory for the [HttpStringContent](httpstringcontent.md), for example) used by a Windows Runtime object.
 
 In the .NET Framework 4.5, this method projects as the [Dispose](httpstringcontent_dispose.md) method. In Visual C++ component extensions (C++/CX), this method projects as the destructor (delete operator).
 

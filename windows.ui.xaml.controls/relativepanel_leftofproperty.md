@@ -18,7 +18,7 @@ The identifier for the [RelativePanel.LeftOf](relativepanel_leftof.md)  XAML at
 ## -remarks
 This property is only an identifier for the property system, and isn't used in most app scenarios. In most cases you set the [RelativePanel.LeftOf](relativepanel_leftof.md)  XAML attached property in XAML and won't need this identifier.
 
-To access the [RelativePanel.LeftOf](relativepanel_leftof.md) attached property in code, you can use the dependency property system, calling either [GetValue](../windows.ui.xaml/dependencyobject_getvalue.md) or [SetValue](../windows.ui.xaml/dependencyobject_setvalue.md) and passing [RelativePanel.LeftOfProperty](relativepanel_leftofproperty.md) as the dependency property identifier. Another way to get or set the value in code is to use [GetLeftOf](relativepanel_getleftof.md) and [SetLeftOf](relativepanel_setleftof.md).
+To access the [RelativePanel.LeftOf](relativepanel_leftof.md) attached property in code, you can use the dependency property system, calling either [GetValue](../windows.ui.xaml/dependencyobject_getvalue.md) or [SetValue](../windows.ui.xaml/dependencyobject_setvalue.md) and passing [RelativePanel.LeftOfProperty](relativepanel_leftofproperty.md) as the dependency property identifier. Another way to get or set the value in code is to use [GetLeftOf](relativepanel_getleftof_695637359.md) and [SetLeftOf](relativepanel_setleftof_1820572917.md).
 
 ## -examples
 

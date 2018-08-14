@@ -29,9 +29,9 @@ The language of the conversion.
 The value to be passed to the source object.
 
 ## -remarks
-If you don't use a converter for **TwoWay** bindings it's acceptable to leave [ConvertBack](ivalueconverter_convertback.md) unimplemented (uses the template default from Visual Studio where it returns a **NotImplementedException**).
+If you don't use a converter for **TwoWay** bindings it's acceptable to leave [ConvertBack](ivalueconverter_convertback_2106225504.md) unimplemented (uses the template default from Visual Studio where it returns a **NotImplementedException**).
 
 ## -examples
 
 ## -see-also
-[Convert](ivalueconverter_convert.md), [XAML data binding sample](http://go.microsoft.com/fwlink/p/?linkid=226854), [Data binding in depth](http://msdn.microsoft.com/library/41e1b4f1-6caf-4128-a61a-4e400b149011)
+[Convert](ivalueconverter_convert_101701969.md), [XAML data binding sample](http://go.microsoft.com/fwlink/p/?linkid=226854), [Data binding in depth](http://msdn.microsoft.com/library/41e1b4f1-6caf-4128-a61a-4e400b149011)

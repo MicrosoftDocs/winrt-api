@@ -21,7 +21,7 @@ The [DatagramSocketMessageReceivedEventArgs.LocalAddress](datagramsocketmessager
 ## -examples
 
 ## -see-also
-[BindServiceNameAsync](datagramsocket_bindservicenameasync.md), [ConnectAsync](datagramsocket_connectasync.md), [DatagramSocket](datagramsocket.md), [DatagramSocketInformation.LocalAddress](datagramsocketinformation_localaddress.md), [DatagramSocketInformation.LocalPort](datagramsocketinformation_localport.md), [DatagramSocketInformation.RemoteAddress](datagramsocketinformation_remoteaddress.md), [DatagramSocketInformation.RemotePort](datagramsocketinformation_remoteport.md), [DatagramSocketMessageReceivedEventArgs.RemoteAddress](datagramsocketmessagereceivedeventargs_remoteaddress.md), [DatagramSocketMessageReceivedEventArgs.RemotePort](datagramsocketmessagereceivedeventargs_remoteport.md), [HostName](../windows.networking/hostname.md)
+[BindServiceNameAsync](datagramsocket_bindservicenameasync_440542334.md), [ConnectAsync](datagramsocket_connectasync_13692504.md), [DatagramSocket](datagramsocket.md), [DatagramSocketInformation.LocalAddress](datagramsocketinformation_localaddress.md), [DatagramSocketInformation.LocalPort](datagramsocketinformation_localport.md), [DatagramSocketInformation.RemoteAddress](datagramsocketinformation_remoteaddress.md), [DatagramSocketInformation.RemotePort](datagramsocketinformation_remoteport.md), [DatagramSocketMessageReceivedEventArgs.RemoteAddress](datagramsocketmessagereceivedeventargs_remoteaddress.md), [DatagramSocketMessageReceivedEventArgs.RemotePort](datagramsocketmessagereceivedeventargs_remoteport.md), [HostName](../windows.networking/hostname.md)
 
 ## -capabilities
 ID_CAP_NETWORKING [Windows Phone]

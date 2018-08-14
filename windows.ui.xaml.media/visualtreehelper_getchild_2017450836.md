@@ -25,7 +25,7 @@ The child object as referenced by *childIndex*.
 ## -remarks
 
 ## -examples
-Here's an example of a utility function that can copy a list of child elements of a particular type from within a visual tree. It uses the basic traversal methods [GetChildrenCount](visualtreehelper_getchildrencount.md) and [GetChild](visualtreehelper_getchild.md). It uses recursion so that elements can be found no matter what level of nesting within intermediate containers exists. It also uses an **IsSubclassOf** extension method from [System.Reflection](https://msdn.microsoft.com/library/system.reflection.aspx) that extends the type comparison to consider subtypes as a match for a [Type](https://msdn.microsoft.com/library/system.type.aspx).
+Here's an example of a utility function that can copy a list of child elements of a particular type from within a visual tree. It uses the basic traversal methods [GetChildrenCount](visualtreehelper_getchildrencount_1601318699.md) and [GetChild](visualtreehelper_getchild_2017450836.md). It uses recursion so that elements can be found no matter what level of nesting within intermediate containers exists. It also uses an **IsSubclassOf** extension method from [System.Reflection](https://msdn.microsoft.com/library/system.reflection.aspx) that extends the type comparison to consider subtypes as a match for a [Type](https://msdn.microsoft.com/library/system.type.aspx).
 
 ```csharp
 internal static void FindChildren<T>(List<T> results, DependencyObject startNode)

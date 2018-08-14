@@ -27,7 +27,7 @@ You can use the [Text](itextrange_text.md) property to copy plain text from one 
 
 These ranges can be in different stories or even in different apps. However, they do imply copying the text first into a string and then from that string to the target location.
 
-For large amounts of text, the [ITextRange.Copy](itextrange_copy.md) and [ITextRange.Paste](itextrange_paste.md) methods can be faster, because they can perform the copy directly from source to target and with any format supported by the source and target.
+For large amounts of text, the [ITextRange.Copy](itextrange_copy_4862135.md) and [ITextRange.Paste](itextrange_paste_955889140.md) methods can be faster, because they can perform the copy directly from source to target and with any format supported by the source and target.
 
 The text returned by the [Text](itextrange_text.md) property is given in Unicode. The end-of-paragraph mark may be given by one of the following depending on the original file:
 + 0x2029 (the Unicode paragraph separator)

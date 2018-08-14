@@ -17,7 +17,7 @@ The Play To manager for the current view.
 
 ## -remarks
 
-You can use the [PlayToManager](playtomanager.md) instance for the current view to establish the Play To contract for the app and customize which media Play To streams to a target device. You supply the media to be streamed during the [SourceRequested](playtomanager_sourcerequested.md) event by using the [SetSource](playtosourcerequest_setsource.md) method.
+You can use the [PlayToManager](playtomanager.md) instance for the current view to establish the Play To contract for the app and customize which media Play To streams to a target device. You supply the media to be streamed during the [SourceRequested](playtomanager_sourcerequested.md) event by using the [SetSource](playtosourcerequest_setsource_1024738425.md) method.
 
 ## -examples
 

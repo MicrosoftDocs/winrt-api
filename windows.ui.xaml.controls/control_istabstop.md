@@ -24,7 +24,7 @@ Gets or sets a value that indicates whether a control is included in tab navigat
 ## -remarks
 Controlling the tab sequence with a combination of [IsTabStop](control_istabstop.md) and [TabIndex](control_tabindex.md) rather than using the default tab sequence is sometimes necessary in order to tune the keyboard accessibility of your UI. For more info, see [Keyboard accessibility](http://msdn.microsoft.com/library/ddae8c4b-7907-49fe-9645-f105f8dfad8b).
 
-If [IsTabStop](control_istabstop.md) is **false**, the control is excluded from tab navigation. In addition, if [IsTabStop](control_istabstop.md) is **false**, the control cannot receive input focus. (If you try to set focus programmatically, by calling the [Focus](control_focus.md) method, [Focus](control_focus.md) returns **false**).
+If [IsTabStop](control_istabstop.md) is **false**, the control is excluded from tab navigation. In addition, if [IsTabStop](control_istabstop.md) is **false**, the control cannot receive input focus. (If you try to set focus programmatically, by calling the [Focus](control_focus_195503898.md) method, [Focus](control_focus_195503898.md) returns **false**).
 
 If the reason you don't want the control to be a tab stop is because it's not interactive in your UI, you might want to set [IsEnabled](control_isenabled.md) to **false** to make the lack of interaction more obvious. Many controls have predefined visual states that are invoked for [IsEnabled](control_isenabled.md) =**false**, such as "graying out" text in labels.
 

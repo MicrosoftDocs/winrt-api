@@ -12,16 +12,16 @@ Represents the method that will stream data into a [StorageFile](storagefile.md)
 
 ## -parameters
 ### -param stream
-The request for the streamed data in the [StorageFile](storagefile.md) that was created by the [CreateStreamedFileAsync](storagefile_createstreamedfileasync.md) or [ReplaceWithStreamedFileAsync](storagefile_replacewithstreamedfileasync.md) method.
+The request for the streamed data in the [StorageFile](storagefile.md) that was created by the [CreateStreamedFileAsync](storagefile_createstreamedfileasync_1143300277.md) or [ReplaceWithStreamedFileAsync](storagefile_replacewithstreamedfileasync_1583738949.md) method.
 
 
 ## -remarks
-The instance of the delegate that you create will produce the data stream for the [StorageFile](storagefile.md) that was returned by the [CreateStreamedFileAsync](storagefile_createstreamedfileasync.md) or [ReplaceWithStreamedFileAsync](storagefile_replacewithstreamedfileasync.md) method.
+The instance of the delegate that you create will produce the data stream for the [StorageFile](storagefile.md) that was returned by the [CreateStreamedFileAsync](storagefile_createstreamedfileasync_1143300277.md) or [ReplaceWithStreamedFileAsync](storagefile_replacewithstreamedfileasync_1583738949.md) method.
 
-When you use the [CreateStreamedFileAsync](storagefile_createstreamedfileasync.md) or [ReplaceWithStreamedFileAsync](storagefile_replacewithstreamedfileasync.md) method together with an instance of [StreamedFileDataRequestedHandler](streamedfiledatarequestedhandler.md), you can provide the data for a file on demand instead of writing the contents of a file when you create it. That is, you can defer expensive operations to produce the data for the file until the file is first accessed.
+When you use the [CreateStreamedFileAsync](storagefile_createstreamedfileasync_1143300277.md) or [ReplaceWithStreamedFileAsync](storagefile_replacewithstreamedfileasync_1583738949.md) method together with an instance of [StreamedFileDataRequestedHandler](streamedfiledatarequestedhandler.md), you can provide the data for a file on demand instead of writing the contents of a file when you create it. That is, you can defer expensive operations to produce the data for the file until the file is first accessed.
 
 ## -examples
-The following simple example demonstrates how to create an instance of the [StreamedFileDataRequestedHandler](streamedfiledatarequestedhandler.md) delegate. The example also shows how this instance produces the data stream for the [StorageFile](storagefile.md) that was returned by the [CreateStreamedFileAsync](storagefile_createstreamedfileasync.md) when the file is first accessed.
+The following simple example demonstrates how to create an instance of the [StreamedFileDataRequestedHandler](streamedfiledatarequestedhandler.md) delegate. The example also shows how this instance produces the data stream for the [StorageFile](storagefile.md) that was returned by the [CreateStreamedFileAsync](storagefile_createstreamedfileasync_1143300277.md) when the file is first accessed.
 
 This simple example is intended only to demonstrate the programming pattern for using the [StreamedFileDataRequestedHandler](streamedfiledatarequestedhandler.md) delegate. For a small file with data that's easy to produce, the streaming pattern is not useful.
 

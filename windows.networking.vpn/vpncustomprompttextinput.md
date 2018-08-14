@@ -10,7 +10,7 @@ public class VpnCustomPromptTextInput : Windows.Networking.Vpn.IVpnCustomPromptE
 # Windows.Networking.Vpn.VpnCustomPromptTextInput
 
 ## -description
-Represents a text input UI element used in the [RequestCustomPromptAsync](vpnchannel_requestcustompromptasync.md) method.
+Represents a text input UI element used in the [RequestCustomPromptAsync](vpnchannel_requestcustompromptasync_598226399.md) method.
 
 ## -remarks
 

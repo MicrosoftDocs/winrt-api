@@ -21,7 +21,7 @@ You can find out if the device supports photo sequence mode by checking [LowLagP
 
 To initiate photo sequence mode, call [MediaCapture.PrepareLowLagPhotoSequenceCaptureAsync](../windows.media.capture/mediacapture_preparelowlagphotosequencecaptureasync.md). To start capturing photos, call [StartAsync](../windows.media.capture/lowlagphotosequencecapture_startasync.md). To stop capturing photos, call [StopAsync](../windows.media.capture/lowlagphotosequencecapture_stopasync.md). The app will continue to receive photos from the device until the operation is stopped.
 
-[GetCurrentFrameRate](lowlagphotosequencecontrol_getcurrentframerate.md) specifies the frame rate at which the photos are taken.
+[GetCurrentFrameRate](lowlagphotosequencecontrol_getcurrentframerate_279282429.md) specifies the frame rate at which the photos are taken.
 
 [PhotoCapturedEventArgs.CaptureTimeOffset](../windows.media.capture/photocapturedeventargs_capturetimeoffset.md) can be used to tell whether a frame was in the future, greater than 0, or in the past, less than 0.
 

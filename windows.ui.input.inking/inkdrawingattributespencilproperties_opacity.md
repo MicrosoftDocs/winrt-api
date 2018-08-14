@@ -15,7 +15,7 @@ Gets or sets the level of transparency used for rendering a pencil stroke on an 
 
 [Opacity](inkdrawingattributespencilproperties_opacity.md) is a static property of [InkDrawingAttributes](inkdrawingattributes.md).
 
-Get an instance of this class by calling [InkDrawingAttributes.CreateForPencil](inkdrawingattributes_createforpencil.md) and accessing [InkDrawingAttributes.PencilProperties](inkdrawingattributes_pencilproperties.md).
+Get an instance of this class by calling [InkDrawingAttributes.CreateForPencil](inkdrawingattributes_createforpencil_181700669.md) and accessing [InkDrawingAttributes.PencilProperties](inkdrawingattributes_pencilproperties.md).
 
 ## -property-value
 

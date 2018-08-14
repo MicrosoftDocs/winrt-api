@@ -24,4 +24,4 @@ The text in the text range.
 ## -examples
 
 ## -see-also
-[ITextRange.SetText](itextrange_settext.md), [ITextRange.Text](itextrange_text.md)
+[ITextRange.SetText](itextrange_settext_522499431.md), [ITextRange.Text](itextrange_text.md)

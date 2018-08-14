@@ -14,11 +14,11 @@ public void Start()
 Begin dynamically searching for peer apps within wireless range.
 
 ## -remarks
-You must register an event handler for [Added](peerwatcher_added.md) event before calling the [Start](peerwatcher_start.md) method.
+You must register an event handler for [Added](peerwatcher_added.md) event before calling the [Start](peerwatcher_start_1587696324.md) method.
 
-You can call the [Stop](peerwatcher_stop.md) method to stop dynamically searching for peer apps within wireless range.
+You can call the [Stop](peerwatcher_stop_1201535524.md) method to stop dynamically searching for peer apps within wireless range.
 
-You can use the [Status](peerwatcher_status.md) property to determine the status of the [PeerWatcher](peerwatcher.md) object. You cannot call the [Start](peerwatcher_start.md) method if the [Status](peerwatcher_status.md) value is **Started**, **EnumerationCompleted**, or **Stopping.**
+You can use the [Status](peerwatcher_status.md) property to determine the status of the [PeerWatcher](peerwatcher.md) object. You cannot call the [Start](peerwatcher_start_1587696324.md) method if the [Status](peerwatcher_status.md) value is **Started**, **EnumerationCompleted**, or **Stopping.**
 
 
 

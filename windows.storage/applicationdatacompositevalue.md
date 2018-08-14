@@ -22,7 +22,7 @@ For JavaScript, [ApplicationDataCompositeValue](applicationdatacompositevalue.md
 ## -examples
 This example creates and reads a composite setting named `exampleCompositeSetting`.
 
-Call the [Remove | remove](applicationdatacompositevalue_remove.md) method to delete the `exampleCompositeSetting` setting when you have finished with it.
+Call the [Remove | remove](applicationdatacompositevalue_remove_1498489487.md) method to delete the `exampleCompositeSetting` setting when you have finished with it.
 
 ```csharp
 Windows.Storage.ApplicationDataContainer localSettings = Windows.Storage.ApplicationData.Current.LocalSettings;

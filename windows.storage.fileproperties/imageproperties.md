@@ -13,10 +13,10 @@ public class ImageProperties : Windows.Storage.FileProperties.IImageProperties, 
 Provides access to the image-related properties of an item (like a file or folder).
 
 ## -remarks
-You can access a [ImageProperties](imageproperties.md) object asynchronously using the [getImagePropertiesAsync](storageitemcontentproperties_getimagepropertiesasync.md) method from the [Properties](../windows.storage/istorageitemproperties_properties.md) property of an item (like a file of folder), or synchronously using the [ImageProperties](../windows.storage.bulkaccess/istorageiteminformation_imageproperties.md) property if it is available.
+You can access a [ImageProperties](imageproperties.md) object asynchronously using the [getImagePropertiesAsync](storageitemcontentproperties_getimagepropertiesasync_292219360.md) method from the [Properties](../windows.storage/istorageitemproperties_properties.md) property of an item (like a file of folder), or synchronously using the [ImageProperties](../windows.storage.bulkaccess/istorageiteminformation_imageproperties.md) property if it is available.
 You can get a [ImageProperties](imageproperties.md) object using any of the following methods and properties:
 
-+ [StorageItemContentProperties.getImagePropertiesAsync](storageitemcontentproperties_getimagepropertiesasync.md) method, which can be accessed using the [Properties](../windows.storage/istorageitemproperties_properties.md) property, if it is available.
++ [StorageItemContentProperties.getImagePropertiesAsync](storageitemcontentproperties_getimagepropertiesasync_292219360.md) method, which can be accessed using the [Properties](../windows.storage/istorageitemproperties_properties.md) property, if it is available.
 + [FileInformation.imageProperties](../windows.storage.bulkaccess/fileinformation_imageproperties.md) property
 + [FolderInformation.imageProperties](../windows.storage.bulkaccess/folderinformation_imageproperties.md) property
 
@@ -69,9 +69,9 @@ if (file !== null) {
 }
 ```
 
-After [GetImagePropertiesAsync](storageitemcontentproperties_getimagepropertiesasync.md) completes, `imageProperties` gets a [ImageProperties](imageproperties.md) object.
+After [GetImagePropertiesAsync](storageitemcontentproperties_getimagepropertiesasync_292219360.md) completes, `imageProperties` gets a [ImageProperties](imageproperties.md) object.
 
 In the example, `file` contains a [StorageFile](../windows.storage/storagefile.md) that represents the file to retrieve properties for.
 
 ## -see-also
-[StorageItemContentProperties.getImagePropertiesAsync method](storageitemcontentproperties_getimagepropertiesasync.md), [Windows.Storage.BulkAccess.FileInformation.imageProperties  property](../windows.storage.bulkaccess/fileinformation_imageproperties.md), [Windows.Storage.BulkAccess.FolderInformation.imageProperties property](../windows.storage.bulkaccess/folderinformation_imageproperties.md), [Windows.Storage.BulkAccess.IStorageItemInformation.ImageProperties property](../windows.storage.bulkaccess/istorageiteminformation_imageproperties.md)
+[StorageItemContentProperties.getImagePropertiesAsync method](storageitemcontentproperties_getimagepropertiesasync_292219360.md), [Windows.Storage.BulkAccess.FileInformation.imageProperties  property](../windows.storage.bulkaccess/fileinformation_imageproperties.md), [Windows.Storage.BulkAccess.FolderInformation.imageProperties property](../windows.storage.bulkaccess/folderinformation_imageproperties.md), [Windows.Storage.BulkAccess.IStorageItemInformation.ImageProperties property](../windows.storage.bulkaccess/istorageiteminformation_imageproperties.md)

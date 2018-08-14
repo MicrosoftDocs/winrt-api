@@ -29,10 +29,10 @@ The language of the conversion.
 The value to be passed to the target dependency property.
 
 ## -remarks
-The *targetType* parameter of the [Convert](ivalueconverter_convert.md) method uses different techniques of reporting the type system info, depending on whether you're programming with Microsoft .NET or Visual C++ component extensions (C++/CX).
+The *targetType* parameter of the [Convert](ivalueconverter_convert_101701969.md) method uses different techniques of reporting the type system info, depending on whether you're programming with Microsoft .NET or Visual C++ component extensions (C++/CX).
 + For Microsoft .NET, this parameter passes an instance of the [System.Type](https://msdn.microsoft.com/library/system.type.aspx) type.
 + For Visual C++ component extensions (C++/CX), this parameter passes a [TypeName](../windows.ui.xaml.interop/typename.md) structure value. `TypeName::Kind` contains the simple string name of the type, similar to Microsoft .NET 's `Type.Name`.
-When the converter is invoked by the binding engine, the *targetType* value is passed by looking up the property type of the target dependency property. You might use this value in your [Convert](ivalueconverter_convert.md) implementation for one of two reasons:
+When the converter is invoked by the binding engine, the *targetType* value is passed by looking up the property type of the target dependency property. You might use this value in your [Convert](ivalueconverter_convert_101701969.md) implementation for one of two reasons:
 + Your converter has the expectation that it's always going to return objects of a specific type, and you want to verify that the binding that the converter is called for is using the converter correctly. If not, you might return a fallback value, or throw an exception (but see "Exceptions from converters" below).
 + Your converter can return more than one type, and you want the usage to inform your converter which type it should return. For example, you could implement an object-to-object conversion and an object-to-string conversion within the same converter code.
 
@@ -43,16 +43,16 @@ When the converter is invoked by the binding engine, the *targetType* value is p
 
 ### Exceptions from converters
 
-The data binding engine does not catch exceptions that are thrown by a user-supplied converter. Any exception that is thrown by the [Convert](ivalueconverter_convert.md) method, or any uncaught exceptions that are thrown by methods that the [Convert](ivalueconverter_convert.md) method calls, are treated as run-time errors. If you are using the converter in situations where the binding can use fallbacks or otherwise show reasonable results even if a conversion failure occurs, consider having your converter return [DependencyProperty.UnsetValue](../windows.ui.xaml/dependencyproperty_unsetvalue.md) and not throw exceptions. [DependencyProperty.UnsetValue](../windows.ui.xaml/dependencyproperty_unsetvalue.md) is a sentinel value that has special meaning in the dependency property system, and bindings that are passed this value will use [FallbackValue](binding_fallbackvalue.md).
+The data binding engine does not catch exceptions that are thrown by a user-supplied converter. Any exception that is thrown by the [Convert](ivalueconverter_convert_101701969.md) method, or any uncaught exceptions that are thrown by methods that the [Convert](ivalueconverter_convert_101701969.md) method calls, are treated as run-time errors. If you are using the converter in situations where the binding can use fallbacks or otherwise show reasonable results even if a conversion failure occurs, consider having your converter return [DependencyProperty.UnsetValue](../windows.ui.xaml/dependencyproperty_unsetvalue.md) and not throw exceptions. [DependencyProperty.UnsetValue](../windows.ui.xaml/dependencyproperty_unsetvalue.md) is a sentinel value that has special meaning in the dependency property system, and bindings that are passed this value will use [FallbackValue](binding_fallbackvalue.md).
 
 Another alternative to throwing exceptions is to return the original *value* unchanged, and let the binding instance handle what it might do with that value. In most cases UI bindings that fail won't be error cases. They just won't use the source value and will instead use [DependencyProperty.UnsetValue](../windows.ui.xaml/dependencyproperty_unsetvalue.md) to show nothing, or use fallbacks.
 
-**try/catch** based on doing something to *value* is a common implementation pattern for the [Convert](ivalueconverter_convert.md) method, but you shouldn't rethrow, for the reasons mentioned above.
+**try/catch** based on doing something to *value* is a common implementation pattern for the [Convert](ivalueconverter_convert_101701969.md) method, but you shouldn't rethrow, for the reasons mentioned above.
 
-For an example that shows how to implement the [Convert](ivalueconverter_convert.md) method using the *parameter* and *language* parameters, see the [IValueConverter](ivalueconverter.md) interface.
+For an example that shows how to implement the [Convert](ivalueconverter_convert_101701969.md) method using the *parameter* and *language* parameters, see the [IValueConverter](ivalueconverter.md) interface.
 
 ## -examples
-The following example shows how to implement the [Convert](ivalueconverter_convert.md) method using the *parameter* and *language* parameters.
+The following example shows how to implement the [Convert](ivalueconverter_convert_101701969.md) method using the *parameter* and *language* parameters.
 
 
 
@@ -63,5 +63,5 @@ The following example shows how to implement the [Convert](ivalueconverter_conve
 [!code-vb[2](../windows.ui.xaml.controls.primitives/code/DataBindingConverterParameterEx/vbnet/Page.xaml.vb#Snippet2)]
 
 ## -see-also
-[ConvertBack](ivalueconverter_convertback.md), [XAML data binding sample](http://go.microsoft.com/fwlink/p/?linkid=226854), [Data binding in depth](http://msdn.microsoft.com/library/41e1b4f1-6caf-4128-a61a-4e400b149011)
+[ConvertBack](ivalueconverter_convertback_2106225504.md), [XAML data binding sample](http://go.microsoft.com/fwlink/p/?linkid=226854), [Data binding in depth](http://msdn.microsoft.com/library/41e1b4f1-6caf-4128-a61a-4e400b149011)
 

@@ -24,4 +24,4 @@ An AQS string for the I<sup>2</sup> C bus that *friendlyName* specifies, which y
 ## -examples
 
 ## -see-also
-[GetDeviceSelector](ii2cdevicestatics_getdeviceselector_838466080.md), [DeviceInformation.FindAllAsync](../windows.devices.enumeration/deviceinformation_findallasync.md), [II2cDeviceStatics.FromIdAsync](ii2cdevicestatics_fromidasync.md), [I2cDevice.GetDeviceSelector(String)](i2cdevice_getdeviceselector_1752695616.md)
+[GetDeviceSelector](ii2cdevicestatics_getdeviceselector_838466080.md), [DeviceInformation.FindAllAsync](../windows.devices.enumeration/deviceinformation_findallasync.md), [II2cDeviceStatics.FromIdAsync](ii2cdevicestatics_fromidasync_1693757112.md), [I2cDevice.GetDeviceSelector(String)](i2cdevice_getdeviceselector_1752695616.md)

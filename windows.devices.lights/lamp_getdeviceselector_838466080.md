@@ -16,7 +16,7 @@ Returns the class selection string that you can use to enumerate lamp devices.
 The class selection string for lamp devices.
 
 ## -remarks
-You can enumerate lamp devices by passing the class selection string returned by the [GetDeviceSelector](lamp_getdeviceselector.md) method to the [FindAllAsync](../windows.devices.enumeration/deviceinformation_findallasync.md) or [CreateWatcher](../windows.devices.enumeration/deviceinformation_createwatcher.md) method.
+You can enumerate lamp devices by passing the class selection string returned by the [GetDeviceSelector](lamp_getdeviceselector_838466080.md) method to the [FindAllAsync](../windows.devices.enumeration/deviceinformation_findallasync.md) or [CreateWatcher](../windows.devices.enumeration/deviceinformation_createwatcher.md) method.
 
 ## -examples
 

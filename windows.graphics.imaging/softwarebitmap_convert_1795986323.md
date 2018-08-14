@@ -10,7 +10,7 @@ public Windows.Graphics.Imaging.SoftwareBitmap Convert(Windows.Graphics.Imaging.
 # Windows.Graphics.Imaging.SoftwareBitmap.Convert
 
 ## -description
-Converts an existing [SoftwareBitmap](bitmapdecoder_getsoftwarebitmapasync.md) to a [SoftwareBitmap](bitmapdecoder_getsoftwarebitmapasync.md) with a different pixel format.
+Converts an existing [SoftwareBitmap](bitmapdecoder_getsoftwarebitmapasync_1163471917.md) to a [SoftwareBitmap](bitmapdecoder_getsoftwarebitmapasync_1163471917.md) with a different pixel format.
 
 ## -parameters
 ### -param source

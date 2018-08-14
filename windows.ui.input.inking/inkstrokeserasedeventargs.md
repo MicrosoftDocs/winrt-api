@@ -13,10 +13,10 @@ public class InkStrokesErasedEventArgs : Windows.UI.Input.Inking.IInkStrokesEras
 ## -description
 Contains event data for the [StrokesErased](inkpresenter_strokeserased.md) event of the [InkPresenter](inkpresenter.md) associated with an [InkCanvas](../windows.ui.xaml.controls/inkcanvas.md) control.
 
-By default, ink stroke data and rendering is managed entirely by the [InkCanvas](../windows.ui.xaml.controls/inkcanvas.md) control. However, this behavior can be overridden by calling the [ActivateCustomDrying](inkpresenter_activatecustomdrying.md) method prior to loading the [InkCanvas](../windows.ui.xaml.controls/inkcanvas.md).
+By default, ink stroke data and rendering is managed entirely by the [InkCanvas](../windows.ui.xaml.controls/inkcanvas.md) control. However, this behavior can be overridden by calling the [ActivateCustomDrying](inkpresenter_activatecustomdrying_1826048524.md) method prior to loading the [InkCanvas](../windows.ui.xaml.controls/inkcanvas.md).
 
 ## -remarks
-The [StrokesErased](inkpresenter_strokeserased.md) event is not raised in custom dry mode ([ActivateCustomDrying](inkpresenter_activatecustomdrying.md)).
+The [StrokesErased](inkpresenter_strokeserased.md) event is not raised in custom dry mode ([ActivateCustomDrying](inkpresenter_activatecustomdrying_1826048524.md)).
 
 ## -examples
 

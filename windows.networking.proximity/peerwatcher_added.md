@@ -15,9 +15,9 @@ Occurs when a peer app is found within wireless range.
 
 ## -remarks
 > > [!IMPORTANT]
-> For Windows Phone 8.x apps, calling [PeerFinder.ConnectAsync](peerfinder_connectasync.md) from within an [Added](peerwatcher_added.md) event handler will fail. Instead, call it outside of this event handler, for example, when the user has explicitly chosen to connect to a peer.
+> For Windows Phone 8.x apps, calling [PeerFinder.ConnectAsync](peerfinder_connectasync_380619906.md) from within an [Added](peerwatcher_added.md) event handler will fail. Instead, call it outside of this event handler, for example, when the user has explicitly chosen to connect to a peer.
 
-After you start the [PeerWatcher](peerwatcher.md)by calling the [Start](peerfinder_start.md)method, the [Added](peerwatcher_added.md)event is raised for each peer app found within wireless range. The [PeerWatcher](peerwatcher.md)continues scanning for peer apps within range until you call the [Stop](peerwatcher_stop.md)method. Using the [Added](peerwatcher_added.md)event, you can display peer apps to the user as they are found.
+After you start the [PeerWatcher](peerwatcher.md)by calling the [Start](peerfinder_start_119778276.md)method, the [Added](peerwatcher_added.md)event is raised for each peer app found within wireless range. The [PeerWatcher](peerwatcher.md)continues scanning for peer apps within range until you call the [Stop](peerwatcher_stop_1201535524.md)method. Using the [Added](peerwatcher_added.md)event, you can display peer apps to the user as they are found.
 
 
 

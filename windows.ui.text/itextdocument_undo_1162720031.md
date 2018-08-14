@@ -17,4 +17,4 @@ Undoes the most recent undo group.
 ## -examples
 
 ## -see-also
-[ITextDocument.CanUndo](itextdocument_canundo.md), [ITextDocument.Redo](itextdocument_redo.md), [ITextDocument.UndoLimit](itextdocument_undolimit.md)
+[ITextDocument.CanUndo](itextdocument_canundo_730574244.md), [ITextDocument.Redo](itextdocument_redo_1163178780.md), [ITextDocument.UndoLimit](itextdocument_undolimit.md)

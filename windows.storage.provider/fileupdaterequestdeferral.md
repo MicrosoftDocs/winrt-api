@@ -14,7 +14,7 @@ public class FileUpdateRequestDeferral : Windows.Storage.Provider.IFileUpdateReq
 Use to complete an update asynchronously.
 
 ## -remarks
-If your app participates in the Cached File Updater contract, and you can't finish responding to the update before returning from your [FileUpdateRequested](cachedfileupdaterui_fileupdaterequested.md) event handler, call the [FileUpdaterRequestDeferral.Complete](fileupdaterequestdeferral_complete.md) method to complete the update asynchronously.
+If your app participates in the Cached File Updater contract, and you can't finish responding to the update before returning from your [FileUpdateRequested](cachedfileupdaterui_fileupdaterequested.md) event handler, call the [FileUpdaterRequestDeferral.Complete](fileupdaterequestdeferral_complete_1807836922.md) method to complete the update asynchronously.
 
 > [!NOTE]
 > The file picker UI is disabled until the app has finished responding to all [FileUpdateRequested](cachedfileupdaterui_fileupdaterequested.md) events that were fired.

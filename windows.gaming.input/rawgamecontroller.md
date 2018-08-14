@@ -19,7 +19,7 @@ Instances of the **RawGameController** class cannot be created directly; instead
 
 All inputs available on a **RawGameController** are exposed as simple arrays of unnamed buttons, switches, and axes. Using this class, you can allow customers to create custom input mappings no matter what type of controller they're using.
 
-You'll need to create these arrays yourself, and then populate them using [RawGameController.GetCurrentReading](rawgamecontroller_getcurrentreading.md) to determine the states of the buttons, switches, and axes. See that function's documentation for more information.
+You'll need to create these arrays yourself, and then populate them using [RawGameController.GetCurrentReading](rawgamecontroller_getcurrentreading_123740519.md) to determine the states of the buttons, switches, and axes. See that function's documentation for more information.
 
 See [Raw game controller](https://docs.microsoft.com/en-us/windows/uwp/gaming/raw-game-controller) for information about how to use the **RawGameController** class.
 

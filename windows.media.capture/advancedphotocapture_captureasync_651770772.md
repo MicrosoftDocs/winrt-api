@@ -20,11 +20,11 @@ An app-defined context object that passes context information to the result of t
 An asynchronous operation that returns an [AdvancedCapturedPhoto](advancedcapturedphoto.md) upon successful completion.
 
 ## -remarks
-[MediaCapture.PrepareAdvancedPhotoCaptureAsync](mediacapture_prepareadvancedphotocaptureasync.md) must be called before calling **CaptureAsync**.
+[MediaCapture.PrepareAdvancedPhotoCaptureAsync](mediacapture_prepareadvancedphotocaptureasync_1274714827.md) must be called before calling **CaptureAsync**.
 
 Concurrently recording video and photo capture using [AdvancedPhotoCapture](advancedphotocapture.md) is not supported.
 
 ## -examples
 
 ## -see-also
-[MediaCapture.PrepareAdvancedPhotoCaptureAsync](mediacapture_prepareadvancedphotocaptureasync.md), [CaptureAsync](advancedphotocapture_captureasync_2078018041.md)
+[MediaCapture.PrepareAdvancedPhotoCaptureAsync](mediacapture_prepareadvancedphotocaptureasync_1274714827.md), [CaptureAsync](advancedphotocapture_captureasync_2078018041.md)

@@ -19,7 +19,7 @@ The scenario that [IGetActivationFactory](igetactivationfactory.md) supports is 
 
 ### Notes to implementers
 
-The implementation of a type that supports this interface must have a method called [GetActivationFactory](igetactivationfactory_getactivationfactory.md) that takes an Activation ID (ACID) as a parameter and returns a type that implements [IActivationFactory](http://msdn.microsoft.com/library/c6a2ed6e-9c45-4cf3-a301-72a5daeb4dfc).
+The implementation of a type that supports this interface must have a method called [GetActivationFactory](igetactivationfactory_getactivationfactory_505965722.md) that takes an Activation ID (ACID) as a parameter and returns a type that implements [IActivationFactory](http://msdn.microsoft.com/library/c6a2ed6e-9c45-4cf3-a301-72a5daeb4dfc).
 
 ## -examples
 

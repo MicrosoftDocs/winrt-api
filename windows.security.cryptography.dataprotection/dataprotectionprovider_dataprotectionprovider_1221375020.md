@@ -10,7 +10,7 @@ public DataProtectionProvider()
 # Windows.Security.Cryptography.DataProtection.DataProtectionProvider.DataProtectionProvider
 
 ## -description
-Constructor used for decryption operations. Use this constructor before calling the [UnprotectAsync](dataprotectionprovider_unprotectasync.md) or [UnprotectStreamAsync](dataprotectionprovider_unprotectstreamasync.md) methods.
+Constructor used for decryption operations. Use this constructor before calling the [UnprotectAsync](dataprotectionprovider_unprotectasync_996207260.md) or [UnprotectStreamAsync](dataprotectionprovider_unprotectstreamasync_908153904.md) methods.
 
 ## -remarks
 Use this constructor before starting a decryption operation. Do not use this constructor before starting an encryption operation. Use the [DataProtectionProvider(String)](dataprotectionprovider_dataprotectionprovider_290278668.md) method instead.

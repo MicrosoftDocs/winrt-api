@@ -17,4 +17,4 @@ Represents the connection settings you want to use for an inter-integrated circu
 ## -examples
 
 ## -see-also
-[I2cDevice.FromIdAsync](i2cdevice_fromidasync.md), [I2cDevice.ConnectionSettings](i2cdevice_connectionsettings.md)
+[I2cDevice.FromIdAsync](i2cdevice_fromidasync_1693757112.md), [I2cDevice.ConnectionSettings](i2cdevice_connectionsettings.md)

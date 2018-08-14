@@ -16,9 +16,9 @@ Copies the text of the text range to the Clipboard.
 > [!NOTE]
 > On Windows Phone, this method throws an exception. Programmatic access to the clipboard is not supported on Windows Phone.
 
-The [ITextRange.Cut](itextrange_cut.md), [Copy](itextrange_copy.md), and [Paste](itextrange_paste.md) methods let you perform the usual cut, copy, and paste operations on a text range. The clipboard formats that are typically supported include CF_TEXT and CF_RTF. You can also use private clipboard formats to access text in custom formats.
+The [ITextRange.Cut](itextrange_cut_1740700893.md), [Copy](itextrange_copy_4862135.md), and [Paste](itextrange_paste_955889140.md) methods let you perform the usual cut, copy, and paste operations on a text range. The clipboard formats that are typically supported include CF_TEXT and CF_RTF. You can also use private clipboard formats to access text in custom formats.
 
-To copy and replace plain text, you can use the [ITextRange.GetText](itextrange_gettext.md) and [SetText](itextrange_settext.md) methods. To copy formatted text from one range to another without using the Clipboard, you can use the [Copy](itextrange_copy.md) and [Paste](itextrange_paste.md) methods along with the [FormattedText](itextrange_formattedtext.md) property. For example:
+To copy and replace plain text, you can use the [ITextRange.GetText](itextrange_gettext_518428927.md) and [SetText](itextrange_settext_522499431.md) methods. To copy formatted text from one range to another without using the Clipboard, you can use the [Copy](itextrange_copy_4862135.md) and [Paste](itextrange_paste_955889140.md) methods along with the [FormattedText](itextrange_formattedtext.md) property. For example:
 
 
 

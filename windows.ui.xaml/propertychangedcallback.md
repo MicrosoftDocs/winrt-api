@@ -24,4 +24,4 @@ You implement callbacks based on this delegate to provide the property-changed b
 ## -examples
 
 ## -see-also
-[Register](dependencyproperty_register.md), [RegisterAttached](dependencyproperty_registerattached.md), [Custom dependency properties](http://msdn.microsoft.com/library/5adf7935-f2cf-4bb6-b1a5-f535c2ed8ef8), [Dependency properties overview](http://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e)
+[Register](dependencyproperty_register_1826645607.md), [RegisterAttached](dependencyproperty_registerattached_1163670284.md), [Custom dependency properties](http://msdn.microsoft.com/library/5adf7935-f2cf-4bb6-b1a5-f535c2ed8ef8), [Dependency properties overview](http://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e)

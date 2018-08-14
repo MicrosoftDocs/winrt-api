@@ -20,7 +20,7 @@ The file to share with the target app.
 The sharing token to provide to the target app .
 
 ## -remarks
-When a source app shares a file with a target app, the source app calls the [AddFile](sharedstorageaccessmanager_addfile.md) method to get the sharing token that it passes to the target app.
+When a source app shares a file with a target app, the source app calls the [AddFile](sharedstorageaccessmanager_addfile_731286892.md) method to get the sharing token that it passes to the target app.
 
 For a code sample, see [SharedStorageAccessManager](sharedstorageaccessmanager.md).
 

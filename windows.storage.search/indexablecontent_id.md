@@ -20,4 +20,4 @@ The identifier of the content item.
 ## -examples
 
 ## -see-also
-[AddAsync](contentindexer_addasync.md), [ContentIndexer](contentindexer.md)
+[AddAsync](contentindexer_addasync_916871935.md), [ContentIndexer](contentindexer.md)

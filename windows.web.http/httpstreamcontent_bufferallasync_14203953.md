@@ -18,7 +18,7 @@ The object that represents the asynchronous operation.
 ## -remarks
 This operation will not block. The returned [IAsyncOperationWithProgress(UInt64, UInt64)](../windows.foundation/iasyncoperationwithprogress_2.md) object will complete after all of the content has been written into memory.
 
-The [HttpStreamContent](httpstreamcontent.md) class can be used to stream content that might be of arbitrary length. The [BufferAllAsync](httpstreamcontent_bufferallasync.md) method will fail if all of the [HttpStreamContent](httpstreamcontent.md) can't fit in memory.
+The [HttpStreamContent](httpstreamcontent.md) class can be used to stream content that might be of arbitrary length. The [BufferAllAsync](httpstreamcontent_bufferallasync_14203953.md) method will fail if all of the [HttpStreamContent](httpstreamcontent.md) can't fit in memory.
 
 ## -examples
 

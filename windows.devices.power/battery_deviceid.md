@@ -16,7 +16,7 @@ Gets the identifier (ID) for an individual battery controller.
 The battery controller identifier (ID).
 
 ## -remarks
-When the [Battery](battery.md) object represents an individual battery controller, this property value can be used with the [FromIdAsync](battery_fromidasync.md) method to re-create an object that represents the same battery controller (if it's still connected to the device). When the Battery object is an aggregate of battery controllers, this property is equal to "`AggregateBattery` ".
+When the [Battery](battery.md) object represents an individual battery controller, this property value can be used with the [FromIdAsync](battery_fromidasync_1322863552.md) method to re-create an object that represents the same battery controller (if it's still connected to the device). When the Battery object is an aggregate of battery controllers, this property is equal to "`AggregateBattery` ".
 
 ## -examples
 

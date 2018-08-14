@@ -10,7 +10,7 @@ public void TraceSynchronousWorkCompletion(Windows.Foundation.Diagnostics.Causal
 # Windows.Foundation.Diagnostics.AsyncCausalityTracer.TraceSynchronousWorkCompletion
 
 ## -description
-Indicates that the most recently created synchronous work item running on the thread that the [TraceSynchronousWorkCompletion](asynccausalitytracer_tracesynchronousworkcompletion.md) method is called on has completed.
+Indicates that the most recently created synchronous work item running on the thread that the [TraceSynchronousWorkCompletion](asynccausalitytracer_tracesynchronousworkcompletion_1223030300.md) method is called on has completed.
 
 ## -parameters
 ### -param traceLevel

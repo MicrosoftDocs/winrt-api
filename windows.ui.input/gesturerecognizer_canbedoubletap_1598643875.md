@@ -22,7 +22,7 @@ True if a UI element supports the double tap gesture and the time threshold to c
 ## -remarks
 This method supports [GestureRecognizer](gesturerecognizer.md) object pool management, where [GestureRecognizer](gesturerecognizer.md) objects are dynamically assigned to a set of UI elements.
 
-Specifically, [GestureRecognizer](gesturerecognizer.md) objects can be recycled for UI elements that do not support or can no longer process a double tap gesture. For example, if [CanBeDoubleTap](gesturerecognizer_canbedoubletap.md) returns true for the most recent [PointerPoint](pointerpoint.md), it’s not safe to recycle the [GestureRecognizer](gesturerecognizer.md) because a double tap is still a viable interaction based on subsequent input. If [CanBeDoubleTap](gesturerecognizer_canbedoubletap.md) returns false, the [GestureRecognizer](gesturerecognizer.md) can be safely recycled.
+Specifically, [GestureRecognizer](gesturerecognizer.md) objects can be recycled for UI elements that do not support or can no longer process a double tap gesture. For example, if [CanBeDoubleTap](gesturerecognizer_canbedoubletap_1598643875.md) returns true for the most recent [PointerPoint](pointerpoint.md), it’s not safe to recycle the [GestureRecognizer](gesturerecognizer.md) because a double tap is still a viable interaction based on subsequent input. If [CanBeDoubleTap](gesturerecognizer_canbedoubletap_1598643875.md) returns false, the [GestureRecognizer](gesturerecognizer.md) can be safely recycled.
 
 This method is not required if [GestureRecognizer](gesturerecognizer.md) object pool management is not implemented.
 

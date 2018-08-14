@@ -10,10 +10,10 @@ public Windows.Media.VideoFrame GetVideoFrame()
 # Windows.Media.Capture.Frames.VideoMediaFrame.GetVideoFrame
 
 ## -description
-Creates a copy of the [VideoMediaFrame](videomediaframe.md) as a [VideoFrame](videomediaframe_getvideoframe.md) object.
+Creates a copy of the [VideoMediaFrame](videomediaframe.md) as a [VideoFrame](videomediaframe_getvideoframe_824740069.md) object.
 
 ## -returns
-The [VideoFrame](videomediaframe_getvideoframe.md) containing a copy of the [VideoMediaFrame](videomediaframe.md) image data.
+The [VideoFrame](videomediaframe_getvideoframe_824740069.md) containing a copy of the [VideoMediaFrame](videomediaframe.md) image data.
 
 ## -remarks
 

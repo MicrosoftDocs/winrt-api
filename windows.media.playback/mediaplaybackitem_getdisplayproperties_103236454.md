@@ -16,7 +16,7 @@ Gets the display properties for a [MediaPlaybackItem](mediaplaybackitem.md).
 The display properties for a [MediaPlaybackItem](mediaplaybackitem.md).
 
 ## -remarks
-To modify the display properties for a [MediaPlaybackItem](mediaplaybackitem.md), retrieve the properties by calling **GetDisplayProperties**, update the data in the [MediaItemDisplayProperties](mediaitemdisplayproperties.md), then call [ApplyDisplayProperties](mediaplaybackitem_applydisplayproperties.md).
+To modify the display properties for a [MediaPlaybackItem](mediaplaybackitem.md), retrieve the properties by calling **GetDisplayProperties**, update the data in the [MediaItemDisplayProperties](mediaitemdisplayproperties.md), then call [ApplyDisplayProperties](mediaplaybackitem_applydisplayproperties_1634192028.md).
 
 For how-to guidance for integrating with the SMTC, see [Integrate with the System Media Transport Controls](https://msdn.microsoft.com/en-us/windows/uwp/audio-video-camera/integrate-with-systemmediatransportcontrols).
 

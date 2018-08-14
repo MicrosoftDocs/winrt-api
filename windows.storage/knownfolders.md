@@ -61,7 +61,7 @@ Windows.Storage.KnownFolders.picturesLibrary.createFileAsync("sample.png", Windo
 );
 ```
 
-After the [CreateFileAsync](storagefolder_createfileasync.md) method completes, the `file` variable contains a [StorageFile](storagefile.md) that represents the new file.
+After the [CreateFileAsync](storagefolder_createfileasync_1058061470.md) method completes, the `file` variable contains a [StorageFile](storagefile.md) that represents the new file.
 
 ## -see-also
 

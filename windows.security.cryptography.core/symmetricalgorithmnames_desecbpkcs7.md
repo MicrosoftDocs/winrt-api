@@ -16,7 +16,7 @@ Retrieves a string that contains "DES_ECB_PKCS7".
 String that contains "DES_ECB_PKCS7".
 
 ## -remarks
-Use the string retrieved by this property to set the symmetric encryption algorithm name when you call the [OpenAlgorithm](symmetrickeyalgorithmprovider_openalgorithm.md) method on a [SymmetricKeyAlgorithmProvider](symmetrickeyalgorithmprovider.md) object. The string represents the Data Encryption Standard (DES) algorithm coupled with an electronic codebook (ECB) mode of operation and PKCS#7 padding.
+Use the string retrieved by this property to set the symmetric encryption algorithm name when you call the [OpenAlgorithm](symmetrickeyalgorithmprovider_openalgorithm_637226074.md) method on a [SymmetricKeyAlgorithmProvider](symmetrickeyalgorithmprovider.md) object. The string represents the Data Encryption Standard (DES) algorithm coupled with an electronic codebook (ECB) mode of operation and PKCS#7 padding.
 
 ## -examples
 

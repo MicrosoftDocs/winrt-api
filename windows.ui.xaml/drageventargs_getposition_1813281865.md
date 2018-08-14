@@ -20,9 +20,9 @@ The [UIElement](uielement.md) for which to get a relative drop point.
 A point in the coordinate system that is relative to the element specified in *relativeTo*.
 
 ## -remarks
-For drag-drop operations involving a UI container, you typically call [GetPosition](drageventargs_getposition.md) using a *relativeTo* reference to the object that is the *sender* of the event. This gives the relative position within the container.
+For drag-drop operations involving a UI container, you typically call [GetPosition](drageventargs_getposition_1813281865.md) using a *relativeTo* reference to the object that is the *sender* of the event. This gives the relative position within the container.
 
-If this [DragEventArgs](drageventargs.md) is associated with the [UIElement.Drop](uielement_drop.md) event, then the return value of [GetPosition](drageventargs_getposition.md) is the drop point.
+If this [DragEventArgs](drageventargs.md) is associated with the [UIElement.Drop](uielement_drop.md) event, then the return value of [GetPosition](drageventargs_getposition_1813281865.md) is the drop point.
 
 
 ## -examples

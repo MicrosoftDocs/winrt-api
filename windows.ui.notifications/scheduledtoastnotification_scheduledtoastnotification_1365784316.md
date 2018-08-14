@@ -18,7 +18,7 @@ Deprecated in Windows 10. On Windows 8 systems, creates and initializes a new in
 The XML that defines the toast notification content.
 
 ### -param deliveryTime
-The date and time that Windows should first display the toast notification. You must call [AddToSchedule](toastnotifier_addtoschedule.md) before this time.
+The date and time that Windows should first display the toast notification. You must call [AddToSchedule](toastnotifier_addtoschedule_1355516744.md) before this time.
 
 ### -param snoozeInterval
 The amount of time between occurrences of the notification. To be valid, this value must be no less than 60 seconds and no more than 60 minutes.

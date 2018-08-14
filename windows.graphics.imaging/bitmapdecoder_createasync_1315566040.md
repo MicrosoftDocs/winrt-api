@@ -23,7 +23,7 @@ The stream containing the image file to be decoded.
 An object that manages the asynchronous creation of a new [BitmapDecoder](bitmapdecoder.md).
 
 ## -remarks
-This method allows the application to explicitly select the bitmap decoder to be used and bypass any automatic codec arbitration. The unique identifiers of the built-in decoders are available as properties on [BitmapDecoder](bitmapdecoder.md). In addition, the unique identifier of any installed decoder can be obtained using the [GetDecoderInformationEnumerator](bitmapdecoder_getdecoderinformationenumerator.md) method.
+This method allows the application to explicitly select the bitmap decoder to be used and bypass any automatic codec arbitration. The unique identifiers of the built-in decoders are available as properties on [BitmapDecoder](bitmapdecoder.md). In addition, the unique identifier of any installed decoder can be obtained using the [GetDecoderInformationEnumerator](bitmapdecoder_getdecoderinformationenumerator_1302740057.md) method.
 
 ## -examples
 

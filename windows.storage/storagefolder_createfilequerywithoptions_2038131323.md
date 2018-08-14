@@ -43,21 +43,21 @@ In the following cases, this query is a deep query that returns files from the c
 > > [!TIP]
 > Some of the values from the [CommonFileQuery](../windows.storage.search/commonfilequery.md) enumeration can only be used with a library folder (such as the Pictures library) or the Homegroup folder. In addition to the **DefaultQuery** option, you can use only the **OrderByName** and **OrderBySearchRank** options with a folder that's not a library folder.
 
-For a list of methods that identifies shallow queries and deep queries, see the Remarks in the topic [GetFilesAsync](storagefolder_getfilesasync.md).
+For a list of methods that identifies shallow queries and deep queries, see the Remarks in the topic [GetFilesAsync](storagefolder_getfilesasync_1429382825.md).
 
-To check whether the [QueryOptions](../windows.storage.search/queryoptions.md) you want to specify are available for the current folder, call the folder's [AreQueryOptionsSupported](storagefolder_arequeryoptionssupported.md) method. To check whether a specific [CommonFileQuery](../windows.storage.search/commonfilequery.md) is available, call the folder's [IsCommonFileQuerySupported](storagefolder_iscommonfilequerysupported.md) method.
+To check whether the [QueryOptions](../windows.storage.search/queryoptions.md) you want to specify are available for the current folder, call the folder's [AreQueryOptionsSupported](storagefolder_arequeryoptionssupported_849436946.md) method. To check whether a specific [CommonFileQuery](../windows.storage.search/commonfilequery.md) is available, call the folder's [IsCommonFileQuerySupported](storagefolder_iscommonfilequerysupported_1848755604.md) method.
 
-You can also get a list of files in the current folder asynchronously by calling one of the [GetFilesAsync](storagefolder_getfilesasync.md) methods.
+You can also get a list of files in the current folder asynchronously by calling one of the [GetFilesAsync](storagefolder_getfilesasync_1429382825.md) methods.
 
-To get a query result object that contains the files in the current folder without configuring a [QueryOptions](../windows.storage.search/queryoptions.md) object, call one of the [CreateFileQuery](storagefolder_createfilequery.md) methods.
+To get a query result object that contains the files in the current folder without configuring a [QueryOptions](../windows.storage.search/queryoptions.md) object, call one of the [CreateFileQuery](storagefolder_createfilequery_1641434999.md) methods.
 
-To get items that are files or folders, call the [CreateItemQueryWithOptions](storagefolder_createitemquerywithoptions.md) method.
+To get items that are files or folders, call the [CreateItemQueryWithOptions](storagefolder_createitemquerywithoptions_1519361285.md) method.
 
 > **For Windows Server 2012**
 > You must install indexer components to use some [QueryOptions](../windows.storage.search/queryoptions.md) because indexer components are not installed by default.
 
 ## -examples
-The following example shows how to get the JPG files in the user's Pictures folder and its subfolders, sorted by date, by calling the [CreateFileQueryWithOptions(QueryOptions)](storagefolder_createfilequerywithoptions.md) method. This query is a deep query because the folder is a library folder and a value other than **DefaultQuery** from the [CommonFileQuery](../windows.storage.search/commonfilequery.md) enumeration is specified.
+The following example shows how to get the JPG files in the user's Pictures folder and its subfolders, sorted by date, by calling the [CreateFileQueryWithOptions(QueryOptions)](storagefolder_createfilequerywithoptions_2038131323.md) method. This query is a deep query because the folder is a library folder and a value other than **DefaultQuery** from the [CommonFileQuery](../windows.storage.search/commonfilequery.md) enumeration is specified.
 
 Before you run the following example, enable the **Pictures Library** capability in the app manifest file.
 
@@ -167,4 +167,4 @@ sortedFilesPromise.done(function (sortedFiles) {
 ```
 
 ## -see-also
-[CreateFileQuery](storagefolder_createfilequery.md), [Content indexer sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620524)
+[CreateFileQuery](storagefolder_createfilequery_1641434999.md), [Content indexer sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620524)

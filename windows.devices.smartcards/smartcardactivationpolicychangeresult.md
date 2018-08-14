@@ -10,7 +10,7 @@ public enum Windows.Devices.SmartCards.SmartCardActivationPolicyChangeResult : i
 # SmartCardActivationPolicyChangeResult
 
 ## -description
-Defines the return values for the [RequestActivationPolicyChangeAsync](smartcardappletidgroupregistration_requestactivationpolicychangeasync.md) method.
+Defines the return values for the [RequestActivationPolicyChangeAsync](smartcardappletidgroupregistration_requestactivationpolicychangeasync_926513637.md) method.
 
 ## -enum-fields
 ### -field Denied:0

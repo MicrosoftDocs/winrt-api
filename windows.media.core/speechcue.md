@@ -13,7 +13,7 @@ public class SpeechCue : IMediaCue
 Represents a speech cue that can be included in a [TimedMetadataTrack](timedmetadatatrack.md). This cue can be used to receive events based on metadata included in a text-to-speech (TTS) stream, such as word boundaries, sentence boundaries, and Speech Sythesis Markup Language (SSML) bookmarks. 
 
 ## -remarks
-A **SpeechCue** can be added to a [TimedMetadataTrack](timedmetadatatrack.md) with the [AddCue](timedmetadatatrack_addcue.md) method. When the cue's start time is reached, the [CueEntered](timedmetadatatrack_cueentered.md) event is raised and you can use the [MediaCueEventArgs](mediacueeventargs.md) passed into the handler to get a copy of the **SpeechCue**. 
+A **SpeechCue** can be added to a [TimedMetadataTrack](timedmetadatatrack.md) with the [AddCue](timedmetadatatrack_addcue_1989081881.md) method. When the cue's start time is reached, the [CueEntered](timedmetadatatrack_cueentered.md) event is raised and you can use the [MediaCueEventArgs](mediacueeventargs.md) passed into the handler to get a copy of the **SpeechCue**. 
 
 The [SpeechSynthesizer](./windows.media.speechsynthesis/speechsynthesizer.md) class generates metadata that uses the following values for the [TimedMetataTrack.Label](timedmetadatatrack_label.md) in order to identify the type of speech metadata included in a track.
 

@@ -12,7 +12,7 @@ public int TryUpdateScale(System.Single value, Windows.Foundation.Numerics.Vecto
 ## -description
 Tries to update the scale to the specified value.
 
-The [TryUpdateScale](interactiontracker_tryupdatescale.md) method updates the scale location of [InteractionTracker](interactiontracker.md) to the Scale position and centerpoint specified as a parameter. [TryUpdateScale](interactiontracker_tryupdatescale.md) is used to declaratively define the scale of [InteractionTracker](interactiontracker.md) at any point in time (either at start, from some state-entered event, etc.). [TryUpdateScale](interactiontracker_tryupdatescale.md) can be called from either the Idle, CustomAnimation or Inertia state – doing so will move the scale position of [InteractionTracker](interactiontracker.md) to the defined position and enter the idle state.
+The [TryUpdateScale](interactiontracker_tryupdatescale_1382285002.md) method updates the scale location of [InteractionTracker](interactiontracker.md) to the Scale position and centerpoint specified as a parameter. [TryUpdateScale](interactiontracker_tryupdatescale_1382285002.md) is used to declaratively define the scale of [InteractionTracker](interactiontracker.md) at any point in time (either at start, from some state-entered event, etc.). [TryUpdateScale](interactiontracker_tryupdatescale_1382285002.md) can be called from either the Idle, CustomAnimation or Inertia state – doing so will move the scale position of [InteractionTracker](interactiontracker.md) to the defined position and enter the idle state.
 
 ## -parameters
 ### -param value

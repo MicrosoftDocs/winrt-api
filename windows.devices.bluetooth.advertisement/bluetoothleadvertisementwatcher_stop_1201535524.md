@@ -14,7 +14,7 @@ public void Stop()
 Stop the [BluetoothLEAdvertisementWatcher](bluetoothleadvertisementwatcher.md) and disable the scanning for Bluetooth LE advertisements.
 
 ## -remarks
-This method will transition the [BluetoothLEAdvertisementWatcher](bluetoothleadvertisementwatcher.md) to the **Stopping** state until the scan is cancelled in which the state will transition to the **Stopped** state. Calling this method in the **Stopped** or **Aborted** state has no effect. Calling this method in the **Stopping** state will overwrite any advertisements received in the last [Start](bluetoothleadvertisementwatcher_start.md) method call during that state.
+This method will transition the [BluetoothLEAdvertisementWatcher](bluetoothleadvertisementwatcher.md) to the **Stopping** state until the scan is cancelled in which the state will transition to the **Stopped** state. Calling this method in the **Stopped** or **Aborted** state has no effect. Calling this method in the **Stopping** state will overwrite any advertisements received in the last [Start](bluetoothleadvertisementwatcher_start_1587696324.md) method call during that state.
 
 The [BluetoothLEAdvertisementWatcher](bluetoothleadvertisementwatcher.md) will be automatically stopped when an app is suspended.
 

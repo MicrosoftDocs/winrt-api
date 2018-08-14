@@ -36,7 +36,7 @@ The custom tool.
 ## -examples
 
 ## -see-also
-- [CreateFromIcon](radialcontrollermenuitem_createfromicon.md)
+- [CreateFromIcon](radialcontrollermenuitem_createfromicon_2066467533.md)
 - [CreateFromFontGlyph(String displayText, String glyph, String fontFamily)](radialcontrollermenuitem_createfromfontglyph_63723173.md)
 - [CreateFromFontGlyph(String displayText, String glyph, String fontFamily, Uri fontUri)](radialcontrollermenuitem_createfromfontglyph_679326837.md)
 - [Surface Dial interactions](https://msdn.microsoft.com/en-us/windows/uwp/input-and-devices/windows-wheel-interactions)

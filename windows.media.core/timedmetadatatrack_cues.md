@@ -16,7 +16,7 @@ Gets a read-only list of the media cues in the [TimedMetadataTrack](timedmetadat
 A read-only list of the media cues in the timed metadata track.
 
 ## -remarks
-Add cues to the list by calling [AddCue](timedmetadatatrack_addcue.md).
+Add cues to the list by calling [AddCue](timedmetadatatrack_addcue_1989081881.md).
 
 The cues in the list are sorted in chronological order by the value of the [StartTime](imediacue_starttime.md) property.
 

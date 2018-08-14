@@ -19,9 +19,9 @@ The Windows Runtime  [ProgressBar](../windows.ui.xaml.controls/progressbar.md) c
 
 [ProgressBarAutomationPeer](progressbarautomationpeer.md) has overrides of **Core** methods such that the associated [AutomationPeer](automationpeer.md) methods provide peer-specific information to a Microsoft UI Automation client.
 
-+ [GetPattern](automationpeer_getpattern.md) defers to base peers. A [ProgressBar](../windows.ui.xaml.controls/progressbar.md) can be indeterminate ([IsIndeterminate](../windows.ui.xaml.controls/progressbar_isindeterminate.md) is **true**). If this is true of the owner control, [GetPattern](automationpeer_getpattern.md) won't return a pattern for [IRangeValueProvider](../windows.ui.xaml.automation.provider/irangevalueprovider.md) even though the base [RangeBaseAutomationPeer](rangebaseautomationpeer.md) normally would.
-+ [GetClassName](automationpeer_getclassname.md) returns "ProgressBar".
-+ [GetAutomationControlType](automationpeer_getautomationcontroltype.md) returns [AutomationControlType.ProgressBar](automationcontroltype.md).
++ [GetPattern](automationpeer_getpattern_2046576749.md) defers to base peers. A [ProgressBar](../windows.ui.xaml.controls/progressbar.md) can be indeterminate ([IsIndeterminate](../windows.ui.xaml.controls/progressbar_isindeterminate.md) is **true**). If this is true of the owner control, [GetPattern](automationpeer_getpattern_2046576749.md) won't return a pattern for [IRangeValueProvider](../windows.ui.xaml.automation.provider/irangevalueprovider.md) even though the base [RangeBaseAutomationPeer](rangebaseautomationpeer.md) normally would.
++ [GetClassName](automationpeer_getclassname_614238974.md) returns "ProgressBar".
++ [GetAutomationControlType](automationpeer_getautomationcontroltype_1156384152.md) returns [AutomationControlType.ProgressBar](automationcontroltype.md).
 The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](http://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4).
 
 ## -examples

@@ -19,10 +19,10 @@ The Windows Runtime  [Thumb](../windows.ui.xaml.controls.primitives/thumb.md) cl
 
 [ThumbAutomationPeer](thumbautomationpeer.md) has overrides of **Core** methods such that the associated [AutomationPeer](automationpeer.md) methods provide peer-specific information to a Microsoft UI Automation client.
 
-+ [GetPattern](automationpeer_getpattern.md) reports no pattern support.
-+ [GetClassName](automationpeer_getclassname.md) returns "Thumb".
-+ [GetAutomationControlType](automationpeer_getautomationcontroltype.md) returns [AutomationControlType.Thumb](automationcontroltype.md).
-+ [IsControlElement](automationpeer_iscontrolelement.md) returns a value based on the template parent. If there is a template parent then it returns **true**, otherwise the value is **false**.
++ [GetPattern](automationpeer_getpattern_2046576749.md) reports no pattern support.
++ [GetClassName](automationpeer_getclassname_614238974.md) returns "Thumb".
++ [GetAutomationControlType](automationpeer_getautomationcontroltype_1156384152.md) returns [AutomationControlType.Thumb](automationcontroltype.md).
++ [IsControlElement](automationpeer_iscontrolelement_1004644794.md) returns a value based on the template parent. If there is a template parent then it returns **true**, otherwise the value is **false**.
 The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](http://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4).
 
 ## -examples

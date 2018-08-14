@@ -12,7 +12,7 @@ public void ConfigurePositionXInertiaModifiers(Windows.Foundation.Collections.II
 ## -description
 Applies a collection of InteractionTrackerInertiaModifier objects to the x inertia of an InteractionTracker.
 
-The [ConfigurePositionXInertiaModifiers](interactiontracker_configurepositionxinertiamodifiers.md) method applies an individual or a collection of [InteractionTrackerInertiaModifier](interactiontrackerinertiamodifier.md) s to the x component of [InteractionTracker](interactiontracker.md). The system will evaluate each of X modifier's condition property in the order they were added to [InteractionTracker](interactiontracker.md). Thus, the order that the [InteractionTrackerInertiaModifier](interactiontrackerinertiamodifier.md) have in the collection will be the same order that the system will evaluate with.
+The [ConfigurePositionXInertiaModifiers](interactiontracker_configurepositionxinertiamodifiers_1194364155.md) method applies an individual or a collection of [InteractionTrackerInertiaModifier](interactiontrackerinertiamodifier.md) s to the x component of [InteractionTracker](interactiontracker.md). The system will evaluate each of X modifier's condition property in the order they were added to [InteractionTracker](interactiontracker.md). Thus, the order that the [InteractionTrackerInertiaModifier](interactiontrackerinertiamodifier.md) have in the collection will be the same order that the system will evaluate with.
 
 ## -parameters
 ### -param modifiers

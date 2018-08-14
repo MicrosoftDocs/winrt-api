@@ -31,7 +31,7 @@ Use the [Date](calendarviewdayitem_date.md) property to get the date represented
 
 Use the [IsBlackout](calendarviewdayitem_isblackout.md) property to get or set a value that indicates whether the date is unavailable.
 
-Call the [SetDensityColors](calendarviewdayitem_setdensitycolors.md) method to set the collection of [Color](../windows.ui/color.md) values used to display the density bar.
+Call the [SetDensityColors](calendarviewdayitem_setdensitycolors_669941734.md) method to set the collection of [Color](../windows.ui/color.md) values used to display the density bar.
 
 > [!NOTE]
 > The [IsBlackout](calendarviewdayitem_isblackout.md) property and the density colors collection are reset each time the day item container is recycled. If you use these features, you should set the values each time the [CalendarViewDayItemChanging](calendarview_calendarviewdayitemchanging.md) event occurs.

@@ -11,7 +11,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Networking.Sockets.StreamSocke
 # Windows.Networking.Proximity.PeerFinder.ConnectAsync
 
 ## -description
-Connects to a peer discovered by a call to the [FindAllPeersAsync](peerfinder_findallpeersasync.md) method.
+Connects to a peer discovered by a call to the [FindAllPeersAsync](peerfinder_findallpeersasync_830195586.md) method.
 
 ## -parameters
 ### -param peerInformation
@@ -21,11 +21,11 @@ A peer information object representing the peer to connect to.
 An asynchronous operation for connecting to a remote peer using the supplied [StreamSocket](../windows.networking.sockets/streamsocket_streamsocket.md) object.
 
 ## -remarks
-You can obtain an instance of a [PeerInformation](peerinformation.md) object for a peer from a call to the [FindAllPeersAsync](peerfinder_findallpeersasync.md) method, or in a handler for the [ConnectionRequested](peerfinder_connectionrequested.md) event.
+You can obtain an instance of a [PeerInformation](peerinformation.md) object for a peer from a call to the [FindAllPeersAsync](peerfinder_findallpeersasync_830195586.md) method, or in a handler for the [ConnectionRequested](peerfinder_connectionrequested.md) event.
 
-If an app calls the [ConnectAsync](peerfinder_connectasync.md) method to create a connection with a peer, the app will no longer advertise for a connection and will not be found by the [FindAllPeersAsync](peerfinder_findallpeersasync.md) method until the app calls the [Close](../windows.networking.sockets/streamsocket_close.md) method to close the socket connection.
+If an app calls the [ConnectAsync](peerfinder_connectasync_380619906.md) method to create a connection with a peer, the app will no longer advertise for a connection and will not be found by the [FindAllPeersAsync](peerfinder_findallpeersasync_830195586.md) method until the app calls the [Close](../windows.networking.sockets/streamsocket_close.md) method to close the socket connection.
 
-If you open a socket connection by calling the [ConnectAsync](peerfinder_connectasync.md) method, only one socket connection can be open at a time for the computer. If your app, or another app calls the [ConnectAsync](peerfinder_connectasync.md) method, then the existing socket connection will close.
+If you open a socket connection by calling the [ConnectAsync](peerfinder_connectasync_380619906.md) method, only one socket connection can be open at a time for the computer. If your app, or another app calls the [ConnectAsync](peerfinder_connectasync_380619906.md) method, then the existing socket connection will close.
 
 An *Access Denied* exception will be thrown if you attempt to call **ConnectAsync** when your app is in the background.
 
@@ -48,7 +48,7 @@ Wi-Fi Direct is not supported on Windows Phone 8.
 [!code-vb[Connect_CS](../windows.networking.proximity/code/Proximity_FindAllPeersAsync1/vbnet/BlankPage.xaml.vb#SnippetConnect_CS)]
 
 ## -see-also
-[FindAllPeersAsync](peerfinder_findallpeersasync.md), [PeerInformation](peerinformation.md), [ConnectionRequested](peerfinder_connectionrequested.md), [Proximity and Tapping (JavaScript)](http://msdn.microsoft.com/library/84a30dcf-ef14-4a93-9e7c-7a3de867d46b), [Proximity and Tapping (C#/VB/C++)](http://msdn.microsoft.com/library/f25bb1df-1cfd-45cd-8c67-04eec73ebfbd), [Proximity sample](http://go.microsoft.com/fwlink/p/?linkid=245082)
+[FindAllPeersAsync](peerfinder_findallpeersasync_830195586.md), [PeerInformation](peerinformation.md), [ConnectionRequested](peerfinder_connectionrequested.md), [Proximity and Tapping (JavaScript)](http://msdn.microsoft.com/library/84a30dcf-ef14-4a93-9e7c-7a3de867d46b), [Proximity and Tapping (C#/VB/C++)](http://msdn.microsoft.com/library/f25bb1df-1cfd-45cd-8c67-04eec73ebfbd), [Proximity sample](http://go.microsoft.com/fwlink/p/?linkid=245082)
 
 ## -capabilities
 proximity

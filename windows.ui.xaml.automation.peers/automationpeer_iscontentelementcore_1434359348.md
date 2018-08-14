@@ -10,7 +10,7 @@ virtual protected bool IsContentElementCore()
 # Windows.UI.Xaml.Automation.Peers.AutomationPeer.IsContentElementCore
 
 ## -description
-Provides the peer's behavior when a Microsoft UI Automation client calls [IsContentElement](automationpeer_iscontentelement.md) or an equivalent Microsoft UI Automation client API.
+Provides the peer's behavior when a Microsoft UI Automation client calls [IsContentElement](automationpeer_iscontentelement_545450603.md) or an equivalent Microsoft UI Automation client API.
 
 ## -returns
 **true** if the element is a content element; otherwise, **false**.

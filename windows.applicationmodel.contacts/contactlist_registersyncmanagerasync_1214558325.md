@@ -16,7 +16,7 @@ Adds a [SyncManager ](contactlistsyncmanager.md) to the [ContactList](contactlis
 An asynchronous registration operation that you can await.
 
 ## -remarks
-The [SyncManager](contactlistsyncmanager.md) provides an entry point for other apps to call [ContactList.SyncManager.SyncAsync](contactlistsyncmanager_syncasync.md). Calling [ContactList.SyncManager.SyncAsync](contactlistsyncmanager_syncasync.md) will launch the provider app as a background task and fire a [IContactDataProviderConnection.SyncRequested](../windows.applicationmodel.contacts.dataprovider/contactdataproviderconnection_syncrequested.md) event. An app should only call this method if they are set up as contact provider.
+The [SyncManager](contactlistsyncmanager.md) provides an entry point for other apps to call [ContactList.SyncManager.SyncAsync](contactlistsyncmanager_syncasync_2144191352.md). Calling [ContactList.SyncManager.SyncAsync](contactlistsyncmanager_syncasync_2144191352.md) will launch the provider app as a background task and fire a [IContactDataProviderConnection.SyncRequested](../windows.applicationmodel.contacts.dataprovider/contactdataproviderconnection_syncrequested.md) event. An app should only call this method if they are set up as contact provider.
 
 ## -examples
 

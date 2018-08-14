@@ -22,7 +22,7 @@ When the call to this method completes successfully, it returns a [StorageFile](
 ## -remarks
 > UWP app only. This signature isn't supported. Use [PickSingleFileAsync](fileopenpicker_picksinglefileasync_1320627792.md) instead.
 
-> Windows Phone 8.x app only. This signature isn't supported. Use [PickSingleFileAndContinue](fileopenpicker_picksinglefileandcontinue.md) instead.
+> Windows Phone 8.x app only. This signature isn't supported. Use [PickSingleFileAndContinue](fileopenpicker_picksinglefileandcontinue_1567473542.md) instead.
 
 ## -examples
 

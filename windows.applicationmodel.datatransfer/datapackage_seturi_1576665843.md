@@ -11,7 +11,7 @@ public void SetUri(Windows.Foundation.Uri value)
 
 ## -description
 > [!NOTE]
-> [SetUri](datapackage_seturi.md) may be altered or unavailable for releases after Windows 8.1. Instead, use [ApplicationLink](datapackage_setapplicationlink.md) or [WebLink](datapackage_setweblink.md).
+> [SetUri](datapackage_seturi_1576665843.md) may be altered or unavailable for releases after Windows 8.1. Instead, use [ApplicationLink](datapackage_setapplicationlink_1143215413.md) or [WebLink](datapackage_setweblink_224257999.md).
 
 Sets the Uniform Resource Identifier (URI) that is contained in the [DataPackage](datapackage.md).
 

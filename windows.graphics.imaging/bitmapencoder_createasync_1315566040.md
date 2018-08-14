@@ -23,7 +23,7 @@ The output stream.
 An object that manages the asynchronous creation of a new [BitmapEncoder](bitmapencoder.md).
 
 ## -remarks
-An application must always specify the *encoderId* in order to create a [BitmapEncoder](bitmapencoder.md). The unique identifiers of the built-in encoders are available as properties on [BitmapEncoder](bitmapencoder.md). In addition, the unique identifier of any installed encoder can be obtained by using the [GetEncoderInformationEnumerator](bitmapencoder_getencoderinformationenumerator.md) method.
+An application must always specify the *encoderId* in order to create a [BitmapEncoder](bitmapencoder.md). The unique identifiers of the built-in encoders are available as properties on [BitmapEncoder](bitmapencoder.md). In addition, the unique identifier of any installed encoder can be obtained by using the [GetEncoderInformationEnumerator](bitmapencoder_getencoderinformationenumerator_1011982973.md) method.
 
 [BitmapEncoder](bitmapencoder.md) expects that the output stream is empty. You can ensure that the stream is empty by setting its [Size](../windows.storage.streams/irandomaccessstream_size.md) property to 0.
 

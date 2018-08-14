@@ -15,7 +15,7 @@ Creates a copy of [SpeechSynthesisStream](speechsynthesisstream.md) that referen
 ## -returns
 The new stream.
 
-The [Position](speechsynthesisstream_position.md) (0), [Seek](speechsynthesisstream_seek.md) pointer, and lifetime of this new stream are independent from those of the original stream.
+The [Position](speechsynthesisstream_position.md) (0), [Seek](speechsynthesisstream_seek_1797934981.md) pointer, and lifetime of this new stream are independent from those of the original stream.
 
 ## -remarks
 

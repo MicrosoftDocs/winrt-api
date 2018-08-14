@@ -11,7 +11,7 @@ The [Windows.Devices.SerialCommunication](windows_devices_serialcommunication.md
 
 The namespace also supports devices that belong to the USB CDC device class. This includes ports exposed by Serial-to-USB adapters and internal USB to serial bridge chips like those used in Arduino Uno R3s. See note below on compatible IDs.
 
-System-internal or on-chassis serial ports may be enumerated by [DeviceInformation.FindAllAsync()](../windows.devices.enumeration/deviceinformation_findallasync.md), but cannot be opened by [SerialDevice.FromIdAsync()](serialdevice_fromidasync.md) because they currently are not supported. However, serial ports connected over USB, such as on USB-to-Serial cables are supported.
+System-internal or on-chassis serial ports may be enumerated by [DeviceInformation.FindAllAsync()](../windows.devices.enumeration/deviceinformation_findallasync.md), but cannot be opened by [SerialDevice.FromIdAsync()](serialdevice_fromidasync_1322863552.md) because they currently are not supported. However, serial ports connected over USB, such as on USB-to-Serial cables are supported.
 
 It is possible that the **DeviceInformation** collection returned by [DeviceInformation.FindAllAsync()](../windows.devices.enumeration/deviceinformation_findallasync.md) may have a serial device whose [DeviceInformation.Name](../windows.devices.enumeration/deviceinformation_name.md) property is set to the machine name. This is by design and may occur when enumerating an on-board serial port. Apps should handle this case by either:
 

@@ -19,11 +19,11 @@ The Windows Runtime  [Hub](../windows.ui.xaml.controls/hub.md) class creates a n
 
 [HubAutomationPeer](hubautomationpeer.md) has overrides of **Core** methods such that the associated [AutomationPeer](automationpeer.md) methods provide peer-specific information to a Microsoft UI Automation client.
 
-+ [GetPattern](automationpeer_getpattern.md) reports that the peer provides pattern support for [PatternInterface.Scroll](patterninterface.md) ([IScrollProvider](../windows.ui.xaml.automation.provider/iscrollprovider.md)). This uses peer forwarding to get the peer from the [ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md) part that exists in the compositing for a [Hub](../windows.ui.xaml.controls/hub.md) control. If the default template isn't being used and there is no [ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md) part, no pattern can be returned.
-+ [GetClassName](automationpeer_getclassname.md) returns "Hub".
-+ [GetAutomationControlType](automationpeer_getautomationcontroltype.md) returns [AutomationControlType.Group](automationcontroltype.md).
-+ [GetName](automationpeer_getname.md) attempts to get a string from the owner control's [Header](../windows.ui.xaml.controls/hub_header.md) property. Otherwise, the framework peer behavior of using [AutomationProperties.Name](../windows.ui.xaml.automation/automationproperties_name.md) applies.
-+ [GetChildren](automationpeer_getchildren.md) returns a set of peers where the peer for the [Header](../windows.ui.xaml.controls/hub_header.md) is first, followed by a peer for each [HubSection](../windows.ui.xaml.controls/hubsection.md).
++ [GetPattern](automationpeer_getpattern_2046576749.md) reports that the peer provides pattern support for [PatternInterface.Scroll](patterninterface.md) ([IScrollProvider](../windows.ui.xaml.automation.provider/iscrollprovider.md)). This uses peer forwarding to get the peer from the [ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md) part that exists in the compositing for a [Hub](../windows.ui.xaml.controls/hub.md) control. If the default template isn't being used and there is no [ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md) part, no pattern can be returned.
++ [GetClassName](automationpeer_getclassname_614238974.md) returns "Hub".
++ [GetAutomationControlType](automationpeer_getautomationcontroltype_1156384152.md) returns [AutomationControlType.Group](automationcontroltype.md).
++ [GetName](automationpeer_getname_1386609741.md) attempts to get a string from the owner control's [Header](../windows.ui.xaml.controls/hub_header.md) property. Otherwise, the framework peer behavior of using [AutomationProperties.Name](../windows.ui.xaml.automation/automationproperties_name.md) applies.
++ [GetChildren](automationpeer_getchildren_555647254.md) returns a set of peers where the peer for the [Header](../windows.ui.xaml.controls/hub_header.md) is first, followed by a peer for each [HubSection](../windows.ui.xaml.controls/hubsection.md).
 The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](http://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4).
 
 ## -examples

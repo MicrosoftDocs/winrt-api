@@ -31,7 +31,7 @@ A [Tapped](uielement_tapped.md) event is potentially the result of more than one
 
 For touch actions and also for interaction-specific or manipulation events that are consequences of a touch action, an element must be hit-test visible in order to be the event source. [UIElement.Visibility](uielement_visibility.md) must be [Visible](visibility.md). Other properties of derived types also affect hit-test visibility. For more info, see [Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
 
-[Tapped](uielement_tapped.md) supports the ability to attach event handlers to the route that will be invoked even if the event data for the event is marked **Handled**. See [AddHandler](uielement_addhandler.md).
+[Tapped](uielement_tapped.md) supports the ability to attach event handlers to the route that will be invoked even if the event data for the event is marked **Handled**. See [AddHandler](uielement_addhandler_2121467075.md).
 
 Specific Windows Runtime controls may also have class-based handling for the [Tapped](uielement_tapped.md) event. If so, the control probably has an override for the method [OnTapped](../windows.ui.xaml.controls/control_ontapped.md). For more info on how class-based handling for events works, see [Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
 

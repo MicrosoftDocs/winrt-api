@@ -10,7 +10,7 @@ public interface IBackgroundTaskInstance2 : Windows.ApplicationModel.Background.
 # Windows.ApplicationModel.Background.IBackgroundTaskInstance2
 
 ## -description
-Provides access to a background task instance. Inherits from the [IBackgroundTaskInstance](ibackgroundtaskinstance.md) interface and adds the [GetThrottleCount](ibackgroundtaskinstance2_getthrottlecount.md) method.
+Provides access to a background task instance. Inherits from the [IBackgroundTaskInstance](ibackgroundtaskinstance.md) interface and adds the [GetThrottleCount](ibackgroundtaskinstance2_getthrottlecount_730175295.md) method.
 
 ## -remarks
 

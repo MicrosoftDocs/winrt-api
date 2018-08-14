@@ -10,13 +10,13 @@ virtual protected Windows.Foundation.Collections.IVector<Windows.UI.Xaml.Automat
 # Windows.UI.Xaml.Automation.Peers.AutomationPeer.GetChildrenCore
 
 ## -description
-Provides the peer's behavior when a Microsoft UI Automation client calls [GetChildren](automationpeer_getchildren.md) or an equivalent Microsoft UI Automation client API.
+Provides the peer's behavior when a Microsoft UI Automation client calls [GetChildren](automationpeer_getchildren_555647254.md) or an equivalent Microsoft UI Automation client API.
 
 ## -returns
 The collection of [AutomationPeer](automationpeer.md) objects for child elements.
 
 ## -remarks
-The base implementation returns null. Peers that represent controls with item collections may override this result. Test the behavior of the peer you are using or overriding and override [GetChildrenCore](automationpeer_getchildrencore.md) if you want to change that behavior.
+The base implementation returns null. Peers that represent controls with item collections may override this result. Test the behavior of the peer you are using or overriding and override [GetChildrenCore](automationpeer_getchildrencore_766641859.md) if you want to change that behavior.
 
 ## -examples
 

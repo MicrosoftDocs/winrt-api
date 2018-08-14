@@ -19,17 +19,17 @@ For a code example, see [Sockets](/windows/uwp/networking/sockets).
 
 The [DatagramSocket](datagramsocket.md) class supports network communication using a UDP datagram socket. The [DatagramSocket](datagramsocket.md) object can be used for client apps that send UDP packets or for server apps that listen for incoming UDP data.
 
-Several steps are needed to send or receive data using a [DatagramSocket](datagramsocket.md) object. Your app first assigns the [MessageReceived](datagramsocket_messagereceived.md) event to an event handler. To listen for incoming packets from a remote endpoint (a server scenario, for example), your app calls either the [BindEndpointAsync](datagramsocket_bindendpointasync.md) or [BindServiceNameAsync](datagramsocket_bindservicenameasync.md) method to bind the [DatagramSocket](datagramsocket.md) to a local service name or UDP port. However when your app needs to communicate with a single remote endpoint (client scenario, for example), your app calls the [ConnectAsync](datagramsocket_connectasync_1841953676.md) method. The [MessageReceived](datagramsocket_messagereceived.md) event handler must be set before any bind or connect operation, otherwise an error will occur.
+Several steps are needed to send or receive data using a [DatagramSocket](datagramsocket.md) object. Your app first assigns the [MessageReceived](datagramsocket_messagereceived.md) event to an event handler. To listen for incoming packets from a remote endpoint (a server scenario, for example), your app calls either the [BindEndpointAsync](datagramsocket_bindendpointasync_1396029045.md) or [BindServiceNameAsync](datagramsocket_bindservicenameasync_440542334.md) method to bind the [DatagramSocket](datagramsocket.md) to a local service name or UDP port. However when your app needs to communicate with a single remote endpoint (client scenario, for example), your app calls the [ConnectAsync](datagramsocket_connectasync_1841953676.md) method. The [MessageReceived](datagramsocket_messagereceived.md) event handler must be set before any bind or connect operation, otherwise an error will occur.
 
 The typical order of operations is as follows:
 
 1. Create the [DatagramSocket](datagramsocket.md).
 1. Use the [Control](datagramsocket_control.md) property to retrieve a [DatagramSocketControl](datagramsocketcontrol.md) object and set any advanced controls. This step is not normally needed by most apps.
 1. Assign the [MessageReceived](datagramsocket_messagereceived.md) event to an event handler.
-1. To listen for incoming packets from any remote endpoint (server scenario, for example), call the [BindEndpointAsync](datagramsocket_bindendpointasync.md) or [BindServiceNameAsync](datagramsocket_bindservicenameasync.md) method to bind the [DatagramSocket](datagramsocket.md) to a local service name or UDP port.
+1. To listen for incoming packets from any remote endpoint (server scenario, for example), call the [BindEndpointAsync](datagramsocket_bindendpointasync_1396029045.md) or [BindServiceNameAsync](datagramsocket_bindservicenameasync_440542334.md) method to bind the [DatagramSocket](datagramsocket.md) to a local service name or UDP port.
 1. To communicate with a single remote endpoint (client scenario, for example), call the [ConnectAsync](datagramsocket_connectasync_1841953676.md) method to bind the [DatagramSocket](datagramsocket.md) to a specific remote endpoint.
 1. The [MessageReceived](datagramsocket_messagereceived.md) event handler will be invoked whenever a message from the remote endpoint arrives.
-This class can also be used to join a multicast group and send UDP packets to the multicast group. For more information, see the [JoinMulticastGroup](datagramsocket_joinmulticastgroup.md) method.
+This class can also be used to join a multicast group and send UDP packets to the multicast group. For more information, see the [JoinMulticastGroup](datagramsocket_joinmulticastgroup_1508568147.md) method.
 
 ### Handling exceptions
 

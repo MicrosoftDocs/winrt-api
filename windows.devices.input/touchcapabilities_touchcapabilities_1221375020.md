@@ -10,7 +10,7 @@ public TouchCapabilities()
 # Windows.Devices.Input.TouchCapabilities.TouchCapabilities
 
 ## -description
-Initializes a new instance of the [TouchCapabilities](touchcapabilities_touchcapabilities.md) class.
+Initializes a new instance of the [TouchCapabilities](touchcapabilities_touchcapabilities_1221375020.md) class.
 
 ## -remarks
 

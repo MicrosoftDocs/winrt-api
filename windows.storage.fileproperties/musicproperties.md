@@ -13,10 +13,10 @@ public class MusicProperties : Windows.Storage.FileProperties.IMusicProperties, 
 Provides access to the music-related properties of an item (like a file or folder).
 
 ## -remarks
-You can access a [MusicProperties](musicproperties.md) object asynchronously using the [getMusicPropertiesAsync](storageitemcontentproperties_getmusicpropertiesasync.md) method from the [Properties](../windows.storage/istorageitemproperties_properties.md) property of an item (like a file of folder), or synchronously using the [MusicProperties](../windows.storage.bulkaccess/istorageiteminformation_musicproperties.md) property if it is available.
+You can access a [MusicProperties](musicproperties.md) object asynchronously using the [getMusicPropertiesAsync](storageitemcontentproperties_getmusicpropertiesasync_1352653225.md) method from the [Properties](../windows.storage/istorageitemproperties_properties.md) property of an item (like a file of folder), or synchronously using the [MusicProperties](../windows.storage.bulkaccess/istorageiteminformation_musicproperties.md) property if it is available.
 You can get a [musicProperties](musicproperties.md) object using any of the following methods and properties:
 
-+ [StorageItemContentProperties.getMusicPropertiesAsync](storageitemcontentproperties_getmusicpropertiesasync.md) method, which can be accessed using the [Properties](../windows.storage/istorageitemproperties_properties.md) property, if it is available.
++ [StorageItemContentProperties.getMusicPropertiesAsync](storageitemcontentproperties_getmusicpropertiesasync_1352653225.md) method, which can be accessed using the [Properties](../windows.storage/istorageitemproperties_properties.md) property, if it is available.
 + [FileInformation.musicProperties](../windows.storage.bulkaccess/fileinformation_musicproperties.md) property
 + [FolderInformation.musicProperties](../windows.storage.bulkaccess/folderinformation_musicproperties.md) property
 
@@ -69,9 +69,9 @@ if (file !== null) {
 }
 ```
 
-After [GetMusicPropertiesAsync](storageitemcontentproperties_getmusicpropertiesasync.md) completes, `musicProperties` gets a [MusicProperties](musicproperties.md) object.
+After [GetMusicPropertiesAsync](storageitemcontentproperties_getmusicpropertiesasync_1352653225.md) completes, `musicProperties` gets a [MusicProperties](musicproperties.md) object.
 
 In the example, `file` contains a [StorageFile](../windows.storage/storagefile.md) that represents the file to retrieve properties for.
 
 ## -see-also
-[StorageItemContentProperties.getMusicPropertiesAsync method](storageitemcontentproperties_getmusicpropertiesasync.md), [Windows.Storage.BulkAccess.fileInformation.musicProperties property](../windows.storage.bulkaccess/fileinformation_musicproperties.md), [Windows.Storage.BulkAccess.folderInformation.musicProperties property](../windows.storage.bulkaccess/folderinformation_musicproperties.md), [Windows.Storage.BulkAccess.IStorageItemInformation.MusicProperties property](../windows.storage.bulkaccess/istorageiteminformation_musicproperties.md)
+[StorageItemContentProperties.getMusicPropertiesAsync method](storageitemcontentproperties_getmusicpropertiesasync_1352653225.md), [Windows.Storage.BulkAccess.fileInformation.musicProperties property](../windows.storage.bulkaccess/fileinformation_musicproperties.md), [Windows.Storage.BulkAccess.folderInformation.musicProperties property](../windows.storage.bulkaccess/folderinformation_musicproperties.md), [Windows.Storage.BulkAccess.IStorageItemInformation.MusicProperties property](../windows.storage.bulkaccess/istorageiteminformation_musicproperties.md)

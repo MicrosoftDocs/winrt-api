@@ -17,7 +17,7 @@ Copies the [InkStroke](inkstroke.md) to another [InkManager](inkmanager.md) (or 
 The new stroke.
 
 ## -remarks
-This method must be used with [AddStroke](inkmanager_addstroke.md) ([InkManager](inkmanager.md)) or [AddStroke](inkstrokecontainer_addstroke.md) ([InkStrokeContainer](inkstrokecontainer.md)).
+This method must be used with [AddStroke](inkmanager_addstroke_367978361.md) ([InkManager](inkmanager.md)) or [AddStroke](inkstrokecontainer_addstroke_367978361.md) ([InkStrokeContainer](inkstrokecontainer.md)).
 
 ```javascript
 

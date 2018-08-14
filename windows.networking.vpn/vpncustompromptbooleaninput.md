@@ -10,7 +10,7 @@ public class VpnCustomPromptBooleanInput : Windows.Networking.Vpn.IVpnCustomProm
 # Windows.Networking.Vpn.VpnCustomPromptBooleanInput
 
 ## -description
-Represents a Boolean type of UI control prompt required from the user. This is typically a checkbox. This is used in the construction of custom prompts used in the [VpnChannel.RequestCustomPromptAsync](vpnchannel_requestcustompromptasync.md) method.
+Represents a Boolean type of UI control prompt required from the user. This is typically a checkbox. This is used in the construction of custom prompts used in the [VpnChannel.RequestCustomPromptAsync](vpnchannel_requestcustompromptasync_598226399.md) method.
 
 ## -remarks
 

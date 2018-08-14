@@ -23,7 +23,7 @@ A hostname or IP address.
 The return value indicates the lexicographic relation of *value1* to *value2*. If the two parameters represent the same canonical hostname, then zero is returned. If *value1* is less than *value2*, the return value is less than zero. If *value1* is greater than *value2*, the return vale is greater than zero.
 
 ## -remarks
-The [Compare](hostname_compare.md) method is used to compare two strings to determine if the strings represent the same hostname. This method compares canonical names created from the *value1* and *value2* parameters to determine the value to return.
+The [Compare](hostname_compare_388941964.md) method is used to compare two strings to determine if the strings represent the same hostname. This method compares canonical names created from the *value1* and *value2* parameters to determine the value to return.
 
 ## -examples
 

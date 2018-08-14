@@ -10,7 +10,7 @@ public enum Windows.Devices.SmartCards.SmartCardAppletIdGroupActivationPolicy : 
 # SmartCardAppletIdGroupActivationPolicy
 
 ## -description
-Defines the valid values that can be passed to the [RequestActivationPolicyChangeAsync](smartcardappletidgroupregistration_requestactivationpolicychangeasync.md) method.
+Defines the valid values that can be passed to the [RequestActivationPolicyChangeAsync](smartcardappletidgroupregistration_requestactivationpolicychangeasync_926513637.md) method.
 
 ## -enum-fields
 ### -field Disabled:0

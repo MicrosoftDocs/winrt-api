@@ -23,7 +23,7 @@ An app that uses the [OnlineIdAuthenticator](onlineidauthenticator.md) class mus
 
 If the user has a connected account, they can sign out by visiting the Users page in PC Settings.
 
-If this property is **false**, a call to [SignOutUserAsync](onlineidauthenticator_signoutuserasync.md) fails with the **ONL_E_CONNECTED_ACCOUNT_CAN_NOT_SIGNOUT** error code.
+If this property is **false**, a call to [SignOutUserAsync](onlineidauthenticator_signoutuserasync_658229157.md) fails with the **ONL_E_CONNECTED_ACCOUNT_CAN_NOT_SIGNOUT** error code.
 
 ## -examples
 ```javascript

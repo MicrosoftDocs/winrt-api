@@ -17,7 +17,7 @@ Controls that contain a large number of child items can use virtualization to ef
 
 [IItemContainerProvider](iitemcontainerprovider.md) is implemented by the existing Windows Runtime automation peers for various list controls or views, controls that share the base class [ItemsControl](../windows.ui.xaml.controls/itemscontrol.md). Each of these peers inherits from [ItemsControlAutomationPeer](../windows.ui.xaml.automation.peers/itemscontrolautomationpeer.md), and [ItemsControlAutomationPeer](../windows.ui.xaml.automation.peers/itemscontrolautomationpeer.md) provides the common [FindItemByProperty](../windows.ui.xaml.automation.peers/itemscontrolautomationpeer_finditembyproperty.md) implementation.
 
-The [IItemContainerProvider](iitemcontainerprovider.md) pattern doesn't have a pattern property identifier class, the only API to implement is [FindItemByProperty](iitemcontainerprovider_finditembyproperty.md), a method.
+The [IItemContainerProvider](iitemcontainerprovider.md) pattern doesn't have a pattern property identifier class, the only API to implement is [FindItemByProperty](iitemcontainerprovider_finditembyproperty_1997743353.md), a method.
 
 ## -examples
 

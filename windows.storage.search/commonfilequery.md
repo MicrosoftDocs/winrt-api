@@ -59,8 +59,8 @@ You can use this option only for folders in a library or the HomeGroup folder.
 Use a value from the [CommonFileQuery](commonfilequery.md) enumeration when you call one of the following methods of the [StorageFolder](../windows.storage/storagefolder.md) class. For examples that use values from the [CommonFileQuery](commonfilequery.md) enumeration, see the topics for these methods.
 
 + [CreateFileQuery(CommonFileQuery)](../windows.storage/storagefolder_createfilequery_1641434999.md)
-+ [CreateFileQueryWithOptions](../windows.storage/storagefolder_createfilequerywithoptions.md). Instantiate the [QueryOptions](queryoptions_queryoptions.md) with the [QueryOptions(CommonFileQuery, IIterable(String))](queryoptions_queryoptions_811500193.md) constructor.
-+ [CreateItemQueryWithOptions](../windows.storage/storagefolder_createitemquerywithoptions.md). Instantiate the [QueryOptions](queryoptions_queryoptions.md) with the [QueryOptions(CommonFileQuery, IIterable(String))](queryoptions_queryoptions_811500193.md) constructor.
++ [CreateFileQueryWithOptions](../windows.storage/storagefolder_createfilequerywithoptions.md). Instantiate the [QueryOptions](queryoptions_queryoptions_1209951623.md) with the [QueryOptions(CommonFileQuery, IIterable(String))](queryoptions_queryoptions_811500193.md) constructor.
++ [CreateItemQueryWithOptions](../windows.storage/storagefolder_createitemquerywithoptions.md). Instantiate the [QueryOptions](queryoptions_queryoptions_1209951623.md) with the [QueryOptions(CommonFileQuery, IIterable(String))](queryoptions_queryoptions_811500193.md) constructor.
 + [GetFilesAsync(CommonFileQuery)](../windows.storage/storagefolder_getfilesasync_1429382825.md)
 + [GetFilesAsync(CommonFileQuery, UInt32, UInt32)](../windows.storage/storagefolder_getfilesasync_1563132095.md)
 

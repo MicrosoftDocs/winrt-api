@@ -17,7 +17,7 @@ Removes a midroll [MediaBreak](mediabreak.md) from the [MediaBreakSchedule](medi
 The [MediaBreak](mediabreak.md) to remove from the schedule.
 
 ## -remarks
-Add a midroll media break by calling [InsertMidrollBreak](mediabreakschedule_insertmidrollbreak.md).
+Add a midroll media break by calling [InsertMidrollBreak](mediabreakschedule_insertmidrollbreak_1567865726.md).
 
 Access the current list of midroll media breaks in the schedule with the [MidrollBreaks](mediabreakschedule_midrollbreaks.md) property.
 

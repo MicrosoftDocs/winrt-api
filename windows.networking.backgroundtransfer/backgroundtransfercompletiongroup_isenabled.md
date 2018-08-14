@@ -10,10 +10,10 @@ public bool IsEnabled { get; }
 # Windows.Networking.BackgroundTransfer.BackgroundTransferCompletionGroup.IsEnabled
 
 ## -description
-Gets a value that indicates if [Enable](backgroundtransfercompletiongroup_enable.md) method on a [BackgroundTransferCompletionGroup](backgroundtransfercompletiongroup.md) has already been called.
+Gets a value that indicates if [Enable](backgroundtransfercompletiongroup_enable_366433390.md) method on a [BackgroundTransferCompletionGroup](backgroundtransfercompletiongroup.md) has already been called.
 
 ## -property-value
-A value that indicates if the [Enable](backgroundtransfercompletiongroup_enable.md) method on the [BackgroundTransferCompletionGroup](backgroundtransfercompletiongroup.md) has already been called.
+A value that indicates if the [Enable](backgroundtransfercompletiongroup_enable_366433390.md) method on the [BackgroundTransferCompletionGroup](backgroundtransfercompletiongroup.md) has already been called.
 
 ## -remarks
 

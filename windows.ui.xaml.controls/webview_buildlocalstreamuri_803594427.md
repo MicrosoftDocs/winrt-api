@@ -10,7 +10,7 @@ public Windows.Foundation.Uri BuildLocalStreamUri(System.String contentIdentifie
 # Windows.UI.Xaml.Controls.WebView.BuildLocalStreamUri
 
 ## -description
-Creates a URI that you can pass to [NavigateToLocalStreamUri](webview_navigatetolocalstreamuri.md).
+Creates a URI that you can pass to [NavigateToLocalStreamUri](webview_navigatetolocalstreamuri_1538250901.md).
 
 ## -parameters
 ### -param contentIdentifier
@@ -81,4 +81,4 @@ public sealed class StreamUriWinRTResolver : IUriToStreamResolver
 
 
 ## -see-also
-[NavigateToLocalStreamUri](webview_navigatetolocalstreamuri.md), [XAML WebView control sample](http://go.microsoft.com/fwlink/p/?linkid=238582)
+[NavigateToLocalStreamUri](webview_navigatetolocalstreamuri_1538250901.md), [XAML WebView control sample](http://go.microsoft.com/fwlink/p/?linkid=238582)

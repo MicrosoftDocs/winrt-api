@@ -18,7 +18,7 @@ The current orientation of the calling window.
 ## -remarks
 For an example of using the [Orientation](applicationview_isscreencaptureenabled.md) property, see the [Application Views](http://code.msdn.microsoft.com/windowsapps/Application-Views-98825022) sample.
 
-The property is a nonstatic member of the window object. For JavaScript, this means that it is a method of the window object that [getForCurrentView](applicationview_getforcurrentview.md) creates, not of the [ApplicationView](applicationview.md) class.
+The property is a nonstatic member of the window object. For JavaScript, this means that it is a method of the window object that [getForCurrentView](applicationview_getforcurrentview_1363600702.md) creates, not of the [ApplicationView](applicationview.md) class.
 
 ## -examples
 

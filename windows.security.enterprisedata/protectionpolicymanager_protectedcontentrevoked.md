@@ -13,14 +13,14 @@ static public event Windows.Foundation.EventHandler ProtectedContentRevoked<Wind
 > [!NOTE]
 > Windows Information Protection (WIP) policy cannot be applied on Windows 10, version 1511 (build 10586) or earlier.
 
-Event with which your app registers to receive notification that protection is to be revoked. When your app receives this event, it should determine from [ProtectedContentRevokedEventArgs.Identities](protectedcontentrevokedeventargs_identities.md) which enterprise entities have had protection revoked, and call [RevokeContent](protectionpolicymanager_revokecontent.md) as well as delete any metadata associated with the identity. This event is not raised when your app calls [RevokeContent](protectionpolicymanager_revokecontent.md) to revoke its own access.
+Event with which your app registers to receive notification that protection is to be revoked. When your app receives this event, it should determine from [ProtectedContentRevokedEventArgs.Identities](protectedcontentrevokedeventargs_identities.md) which enterprise entities have had protection revoked, and call [RevokeContent](protectionpolicymanager_revokecontent_41134306.md) as well as delete any metadata associated with the identity. This event is not raised when your app calls [RevokeContent](protectionpolicymanager_revokecontent_41134306.md) to revoke its own access.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
-[RevokeContent](protectionpolicymanager_revokecontent.md), [ProtectedContentRevokedEventArgs.Identities](protectedcontentrevokedeventargs_identities.md)
+[RevokeContent](protectionpolicymanager_revokecontent_41134306.md), [ProtectedContentRevokedEventArgs.Identities](protectedcontentrevokedeventargs_identities.md)
 
 ## -capabilities
 enterpriseDataPolicy

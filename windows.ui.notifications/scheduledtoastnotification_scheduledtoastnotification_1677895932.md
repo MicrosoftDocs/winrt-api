@@ -18,7 +18,7 @@ Creates and initializes a new instance of a [ScheduledToastNotification](schedul
 The XML that defines the toast notification content.
 
 ### -param deliveryTime
-The date and time that Windows should display the toast notification. You must call [AddToSchedule](toastnotifier_addtoschedule.md) before this time.
+The date and time that Windows should display the toast notification. You must call [AddToSchedule](toastnotifier_addtoschedule_1355516744.md) before this time.
 
 ## -remarks
 

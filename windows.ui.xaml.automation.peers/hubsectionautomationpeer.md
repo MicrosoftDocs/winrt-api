@@ -19,14 +19,14 @@ The Windows Runtime  [HubSection](../windows.ui.xaml.controls/hubsection.md) cla
 
 [HubSectionAutomationPeer](hubsectionautomationpeer.md) has overrides of **Core** methods such that the associated [AutomationPeer](automationpeer.md) methods provide peer-specific information to a Microsoft UI Automation client.
 
-+ [GetPattern](automationpeer_getpattern.md) reports no pattern support.
-+ [GetClassName](automationpeer_getclassname.md) returns "HubSection".
-+ [GetAutomationControlType](automationpeer_getautomationcontroltype.md) returns [AutomationControlType.ListItem](automationcontroltype.md).
-+ [GetName](automationpeer_getname.md) attempts to get a string from the owner control's [Header](../windows.ui.xaml.controls/hubsection_header.md) property. Otherwise, the framework peer behavior of using [AutomationProperties.Name](../windows.ui.xaml.automation/automationproperties_name.md) applies.
-+ [GetChildren](automationpeer_getchildren.md) returns a set of peers where the peer for the [Header](../windows.ui.xaml.controls/hubsection_header.md) is first. This is followed by peers for the content in [HeaderTemplate](../windows.ui.xaml.controls/hubsection_headertemplate.md). If [IsHeaderInteractive](../windows.ui.xaml.controls/hubsection_isheaderinteractive.md) is **true** for the section, there's also a peer representing the chevron glyph button that's added by templates. Then peers are included for the content being presented in the section.
++ [GetPattern](automationpeer_getpattern_2046576749.md) reports no pattern support.
++ [GetClassName](automationpeer_getclassname_614238974.md) returns "HubSection".
++ [GetAutomationControlType](automationpeer_getautomationcontroltype_1156384152.md) returns [AutomationControlType.ListItem](automationcontroltype.md).
++ [GetName](automationpeer_getname_1386609741.md) attempts to get a string from the owner control's [Header](../windows.ui.xaml.controls/hubsection_header.md) property. Otherwise, the framework peer behavior of using [AutomationProperties.Name](../windows.ui.xaml.automation/automationproperties_name.md) applies.
++ [GetChildren](automationpeer_getchildren_555647254.md) returns a set of peers where the peer for the [Header](../windows.ui.xaml.controls/hubsection_header.md) is first. This is followed by peers for the content in [HeaderTemplate](../windows.ui.xaml.controls/hubsection_headertemplate.md). If [IsHeaderInteractive](../windows.ui.xaml.controls/hubsection_isheaderinteractive.md) is **true** for the section, there's also a peer representing the chevron glyph button that's added by templates. Then peers are included for the content being presented in the section.
 The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](http://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4).
 
-> For Windows Phone 8.x apps, [GetPattern](automationpeer_getpattern.md) reports support for the **ScrollItem** pattern, and implements the [ScrollIntoView](hubsectionautomationpeer_scrollintoview.md) method for it.
+> For Windows Phone 8.x apps, [GetPattern](automationpeer_getpattern_2046576749.md) reports support for the **ScrollItem** pattern, and implements the [ScrollIntoView](hubsectionautomationpeer_scrollintoview_1265805467.md) method for it.
 
 ## -examples
 

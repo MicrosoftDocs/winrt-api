@@ -10,7 +10,7 @@ public Windows.Foundation.TimeSpan Period { get; }
 # Windows.System.Threading.ThreadPoolTimer.Period
 
 ## -description
-Gets the timeout value of a periodic timer created with [CreatePeriodicTimer](threadpooltimer_createperiodictimer.md).
+Gets the timeout value of a periodic timer created with [CreatePeriodicTimer](threadpooltimer_createperiodictimer_1185775417.md).
 
 ## -property-value
 The timeout value. When the timeout value elapses, the timer expires, its [TimerElapsedHandler](timerelapsedhandler.md) delegate is called, and the timer reactivates. This behavior continues until the timer is canceled. 

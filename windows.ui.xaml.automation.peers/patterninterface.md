@@ -10,7 +10,7 @@ public enum Windows.UI.Xaml.Automation.Peers.PatternInterface : int
 # PatternInterface
 
 ## -description
-Specifies the control pattern that the [GetPattern](automationpeer_getpattern.md) method returns.
+Specifies the control pattern that the [GetPattern](automationpeer_getpattern_2046576749.md) method returns.
 
 ## -enum-fields
 ### -field Invoke:0
@@ -121,4 +121,4 @@ The [CustomNavigation](../windows.ui.xaml.automation.provider/icustomnavigationp
 ## -examples
 
 ## -see-also
-[GetPattern](automationpeer_getpattern.md), [GetPatternCore](automationpeer_getpatterncore.md), [Control patterns and interfaces](http://msdn.microsoft.com/library/2091883c-5d0c-44ed-936a-709022926a42), [Custom automation peers](http://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4)
+[GetPattern](automationpeer_getpattern_2046576749.md), [GetPatternCore](automationpeer_getpatterncore_1167667011.md), [Control patterns and interfaces](http://msdn.microsoft.com/library/2091883c-5d0c-44ed-936a-709022926a42), [Custom automation peers](http://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4)

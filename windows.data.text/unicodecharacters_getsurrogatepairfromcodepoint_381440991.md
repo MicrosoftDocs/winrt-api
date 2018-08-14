@@ -29,4 +29,4 @@ See [Surrogates and Supplementary Characters](http://msdn.microsoft.com/library/
 ## -examples
 
 ## -see-also
-[GetCodepointFromSurrogatePair](unicodecharacters_getcodepointfromsurrogatepair.md), [Surrogates and Supplementary Characters](http://msdn.microsoft.com/library/0dea39e2-a2b4-47fc-b44a-56af8ba1e346)
+[GetCodepointFromSurrogatePair](unicodecharacters_getcodepointfromsurrogatepair_1886831018.md), [Surrogates and Supplementary Characters](http://msdn.microsoft.com/library/0dea39e2-a2b4-47fc-b44a-56af8ba1e346)

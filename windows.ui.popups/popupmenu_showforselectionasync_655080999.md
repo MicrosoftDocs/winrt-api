@@ -25,9 +25,9 @@ The preferred placement of the context menu relative to the selection rectangle.
 The context menu is positioned in the *preferredPlacement* if the menu fits in the window and does not cover the selection. If the context menu does not fit in the preferred placement, another placement that does not cover the selection is used. If the context menu does not fit anywhere else, a placement that partially or wholly covers the selection is used.
 
 ## -returns
-A [IUICommand](iuicommand.md) object that represents the context menu command invoked by the user, after the [ShowForSelectionAsync](popupmenu_showforselectionasync.md) call completes.
+A [IUICommand](iuicommand.md) object that represents the context menu command invoked by the user, after the [ShowForSelectionAsync](popupmenu_showforselectionasync_574993385.md) call completes.
 
-If no command is invoked, [ShowForSelectionAsync](popupmenu_showforselectionasync.md) returns **null**.
+If no command is invoked, [ShowForSelectionAsync](popupmenu_showforselectionasync_574993385.md) returns **null**.
 
 ## -remarks
 You can see complete code examples that demonstrate how to create and customize context menu in the [Context menu sample](http://go.microsoft.com/fwlink/p/?linkid=234891) on the [ sample home page](http://go.microsoft.com/fwlink/p/?linkid=226952).

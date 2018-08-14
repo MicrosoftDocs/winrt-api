@@ -48,4 +48,4 @@ Of the symmetric algorithms supported by Microsoft, the following require an ini
 [!code-csharp[ShowSymmDecryption](../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#SnippetShowSymmEncryption)]
 
 ## -see-also
-[AsymmetricKeyAlgorithmProvider](asymmetrickeyalgorithmprovider.md), [Cryptographic keys](http://msdn.microsoft.com/library/f35bebdf-28c5-4f91-a94e-f7d862b6ed59), [Decrypt](cryptographicengine_decrypt.md), [SymmetricKeyAlgorithmProvider](symmetrickeyalgorithmprovider.md)
+[AsymmetricKeyAlgorithmProvider](asymmetrickeyalgorithmprovider.md), [Cryptographic keys](http://msdn.microsoft.com/library/f35bebdf-28c5-4f91-a94e-f7d862b6ed59), [Decrypt](cryptographicengine_decrypt_258898008.md), [SymmetricKeyAlgorithmProvider](symmetrickeyalgorithmprovider.md)

@@ -18,9 +18,9 @@ When this method returns, an [IBuffer](../windows.storage.streams/ibuffer.md) st
 ## -remarks
 The [IBuffer](../windows.storage.streams/ibuffer.md) return value enables passing the result to a [WriteableBitmap](writeablebitmap.md) and its [PixelBuffer](writeablebitmap_pixelbuffer.md). Another alternative is passing the buffer to a [BitmapEncoder](../windows.graphics.imaging/bitmapencoder.md). If you want an array of bytes, use a [DataReader](../windows.storage.streams/datareader.md) and the [FromBuffer](../windows.storage.streams/datareader_frombuffer.md) method to help with the conversion.
 
-Through the [IAsyncOperation](../windows.foundation/iasyncoperation_1.md) intermediate value, this method returns the pixels of the image source that was produced by the most recent call to [RenderAsync](rendertargetbitmap_renderasync.md).
+Through the [IAsyncOperation](../windows.foundation/iasyncoperation_1.md) intermediate value, this method returns the pixels of the image source that was produced by the most recent call to [RenderAsync](rendertargetbitmap_renderasync_1804035726.md).
 
-Always call [RenderAsync](rendertargetbitmap_renderasync.md) before calling [GetPixelsAsync](rendertargetbitmap_getpixelsasync.md). If you call [GetPixelsAsync](rendertargetbitmap_getpixelsasync.md) and never called [RenderAsync](rendertargetbitmap_renderasync.md) previously on that [RenderTargetBitmap](rendertargetbitmap.md) instance, [GetPixelsAsync](rendertargetbitmap_getpixelsasync.md) will return an empty buffer stream, and no error will occur (async [Status](../windows.foundation/iasyncinfo_status.md) is **Completed**, so you can't use that as an indicator).
+Always call [RenderAsync](rendertargetbitmap_renderasync_1804035726.md) before calling [GetPixelsAsync](rendertargetbitmap_getpixelsasync_1480284075.md). If you call [GetPixelsAsync](rendertargetbitmap_getpixelsasync_1480284075.md) and never called [RenderAsync](rendertargetbitmap_renderasync_1804035726.md) previously on that [RenderTargetBitmap](rendertargetbitmap.md) instance, [GetPixelsAsync](rendertargetbitmap_getpixelsasync_1480284075.md) will return an empty buffer stream, and no error will occur (async [Status](../windows.foundation/iasyncinfo_status.md) is **Completed**, so you can't use that as an indicator).
 
 ## -examples
 

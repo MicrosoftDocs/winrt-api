@@ -22,7 +22,7 @@ A reference to the callback to call for property changed behavior.
 ## -remarks
 If you want to establish a [PropertyMetadata](propertymetadata.md) instance that has a property-changed callback method but not a default value, pass **null** for *defaultValue*.
 
-If you pass a value for *defaultValue*, make sure that the type of that value is valid for the *propertyType* type from the dependency property's definition through the [Register](dependencyproperty_register.md) call. If you've created a type mismatch between registration parameter and metadata, the issue only manifests itself indirectly. You'll get runtime errors when you try to instantiate a type that has this dependency property value, you won't get any design-time or compile-time warning or error.
+If you pass a value for *defaultValue*, make sure that the type of that value is valid for the *propertyType* type from the dependency property's definition through the [Register](dependencyproperty_register_1826645607.md) call. If you've created a type mismatch between registration parameter and metadata, the issue only manifests itself indirectly. You'll get runtime errors when you try to instantiate a type that has this dependency property value, you won't get any design-time or compile-time warning or error.
 
 ## -examples
 This example shows usage of this constructor. `OnLabelChanged` refers to a delegate implementation for a [PropertyChangedCallback](propertychangedcallback.md) (not shown). To see more code that puts this example in context, see [Custom dependency properties](http://msdn.microsoft.com/library/5adf7935-f2cf-4bb6-b1a5-f535c2ed8ef8).
@@ -56,4 +56,4 @@ DependencyProperty^ ImageWithLabelControl::_LabelProperty =
 
 
 ## -see-also
-[PropertyMetadata(Object)](propertymetadata_propertymetadata_365528641.md), [DependencyProperty.Register](dependencyproperty_register.md), [Custom dependency properties](http://msdn.microsoft.com/library/5adf7935-f2cf-4bb6-b1a5-f535c2ed8ef8)
+[PropertyMetadata(Object)](propertymetadata_propertymetadata_365528641.md), [DependencyProperty.Register](dependencyproperty_register_1826645607.md), [Custom dependency properties](http://msdn.microsoft.com/library/5adf7935-f2cf-4bb6-b1a5-f535c2ed8ef8)

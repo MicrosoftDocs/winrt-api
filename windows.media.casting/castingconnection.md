@@ -14,7 +14,7 @@ public class CastingConnection : Windows.Foundation.IClosable, Windows.Media.Cas
 Represents a connection with a casting device.
 
 ## -remarks
-Get an instance of this class by calling [CreateCastingConnection](castingdevice_createcastingconnection.md).
+Get an instance of this class by calling [CreateCastingConnection](castingdevice_createcastingconnection_475464068.md).
 
 ## -examples
 

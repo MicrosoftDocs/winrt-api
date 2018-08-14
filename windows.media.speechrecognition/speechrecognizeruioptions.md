@@ -10,7 +10,7 @@ public class SpeechRecognizerUIOptions : Windows.Media.SpeechRecognition.ISpeech
 # Windows.Media.SpeechRecognition.SpeechRecognizerUIOptions
 
 ## -description
-Specifies the UI settings for the [SpeechRecognizer.RecognizeWithUIAsync](speechrecognizer_recognizewithuiasync.md) method.
+Specifies the UI settings for the [SpeechRecognizer.RecognizeWithUIAsync](speechrecognizer_recognizewithuiasync_1152231907.md) method.
 
 ## -remarks
 An app retrieves this object through the [SpeechRecognizer.UIOptions](speechrecognizer_uioptions.md) property.

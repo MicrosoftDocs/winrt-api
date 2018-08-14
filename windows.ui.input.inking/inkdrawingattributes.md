@@ -14,7 +14,7 @@ public class InkDrawingAttributes : Windows.UI.Input.Inking.IInkDrawingAttribute
 Provides properties associated with the drawing of an [InkStroke](inkstroke.md).
 
 ## -remarks
-[InkDrawingAttributes](inkdrawingattributes.md) can be set globally through the [SetDefaultDrawingAttributes](inkmanager_setdefaultdrawingattributes.md) method of an [InkManager](inkmanager.md) object or an [InkStrokeBuilder](inkstrokebuilder.md) object. They can also be set on an individual [InkStroke](inkstroke.md) object through the [DrawingAttributes](inkstroke_drawingattributes.md) property.
+[InkDrawingAttributes](inkdrawingattributes.md) can be set globally through the [SetDefaultDrawingAttributes](inkmanager_setdefaultdrawingattributes_1436218448.md) method of an [InkManager](inkmanager.md) object or an [InkStrokeBuilder](inkstrokebuilder.md) object. They can also be set on an individual [InkStroke](inkstroke.md) object through the [DrawingAttributes](inkstroke_drawingattributes.md) property.
 
 > [!NOTE]
 > : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://go.microsoft.com/fwlink/p/?linkid=258275) and [Using Windows Runtime objects in a multithreaded environment (.NET)](http://go.microsoft.com/fwlink/p/?linkid=258277).
@@ -80,4 +80,4 @@ cloneStroke.DrawingAttributes = drawingAttributes;
 For the complete example, see [Ink App sample](http://go.microsoft.com/fwlink/p/?linkid=231622).
 
 ## -see-also
-[Pen and stylus interactions](http://msdn.microsoft.com/library/3da4f2d2-5405-42a1-9ed9-3a87bcd84c43), [Windows.UI.Input.Inking.InkManager.SetDefaultDrawingAttributes](inkmanager_setdefaultdrawingattributes.md), [Windows.UI.Input.Inking.InkStroke.DrawingAttributes](inkstroke_drawingattributes.md), [UI.Xaml.Controls.InkToolbar.InkDrawingAttributes](../windows.ui.xaml.controls/inktoolbar_inkdrawingattributes.md), [Ink sample](http://go.microsoft.com/fwlink/p/?LinkID=620308), [Simple ink sample](http://go.microsoft.com/fwlink/p/?LinkID=620312), [Complex ink sample](http://go.microsoft.com/fwlink/p/?LinkID=620314)
+[Pen and stylus interactions](http://msdn.microsoft.com/library/3da4f2d2-5405-42a1-9ed9-3a87bcd84c43), [Windows.UI.Input.Inking.InkManager.SetDefaultDrawingAttributes](inkmanager_setdefaultdrawingattributes_1436218448.md), [Windows.UI.Input.Inking.InkStroke.DrawingAttributes](inkstroke_drawingattributes.md), [UI.Xaml.Controls.InkToolbar.InkDrawingAttributes](../windows.ui.xaml.controls/inktoolbar_inkdrawingattributes.md), [Ink sample](http://go.microsoft.com/fwlink/p/?LinkID=620308), [Simple ink sample](http://go.microsoft.com/fwlink/p/?LinkID=620312), [Complex ink sample](http://go.microsoft.com/fwlink/p/?LinkID=620314)

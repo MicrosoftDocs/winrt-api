@@ -31,7 +31,7 @@ A [RightTapped](uielement_righttapped.md) event is potentially the result of mor
 
 For touch actions and also for interaction-specific or manipulation events that are consequences of a touch action, an element must be hit-test visible in order to be the event source and fire the event that is associated with the action. [UIElement.Visibility](uielement_visibility.md) must be [Visible](visibility.md). Other properties of derived types also affect hit-test visibility. For more info, see [Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
 
-[RightTapped](uielement_righttapped.md) supports the ability to attach event handlers to the route that will be invoked even if the event data for the event is marked [Handled](../windows.ui.xaml.input/righttappedroutedeventargs_handled.md). See [AddHandler](uielement_addhandler.md).
+[RightTapped](uielement_righttapped.md) supports the ability to attach event handlers to the route that will be invoked even if the event data for the event is marked [Handled](../windows.ui.xaml.input/righttappedroutedeventargs_handled.md). See [AddHandler](uielement_addhandler_2121467075.md).
 
 Specific Windows Runtime controls may have class-based handling for the [RightTapped](uielement_righttapped.md) event. If so, the control probably has an override for the method [OnRightTapped](../windows.ui.xaml.controls/control_onrighttapped.md). A right-tap action might be associated with displaying a context menu or secondary window. For more info on how class-based handling for events works, see [Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
 

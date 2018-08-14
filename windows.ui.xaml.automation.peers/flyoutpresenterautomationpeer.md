@@ -19,9 +19,9 @@ The Windows Runtime  [FlyoutPresenter](../windows.ui.xaml.controls/flyoutpresent
 
 [FlyoutPresenterAutomationPeer](flyoutpresenterautomationpeer.md) has overrides of **Core** methods such that the associated [AutomationPeer](automationpeer.md) methods provide peer-specific information to a Microsoft UI Automation client.
 
-+ [GetClassName](automationpeer_getclassname.md) returns "Flyout".
-+ [GetAutomationControlType](automationpeer_getautomationcontroltype.md) returns [AutomationControlType.Pane](automationcontroltype.md).
-+ [GetPattern](automationpeer_getpattern.md) reports that the peer provides pattern support for [PatternInterface.Invoke](patterninterface.md) ([IInvokeProvider](http://msdn.microsoft.com/library/e522b8d5-c6f6-4f71-a8c8-4332f2824f72)).
++ [GetClassName](automationpeer_getclassname_614238974.md) returns "Flyout".
++ [GetAutomationControlType](automationpeer_getautomationcontroltype_1156384152.md) returns [AutomationControlType.Pane](automationcontroltype.md).
++ [GetPattern](automationpeer_getpattern_2046576749.md) reports that the peer provides pattern support for [PatternInterface.Invoke](patterninterface.md) ([IInvokeProvider](http://msdn.microsoft.com/library/e522b8d5-c6f6-4f71-a8c8-4332f2824f72)).
 The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](http://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4).
 
 ## -examples
