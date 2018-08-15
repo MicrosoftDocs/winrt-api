@@ -11,7 +11,17 @@ public bool CanReorderItems { get;  set; }
 
 ## -description
 
+Gets or sets a value that indicates whether items in the view can be reordered through user interaction.
+
+## -xaml-syntax
+
+```xaml
+<TreeView CanReorderItems="bool"/>
+```
+
 ## -property-value
+
+**true** if items in the view can be reordered through user interaction; otherwise, **false**. The default is **false**.
 
 ## -remarks
 

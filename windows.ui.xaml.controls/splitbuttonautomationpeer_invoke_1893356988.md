@@ -11,6 +11,8 @@ public void SplitButtonAutomationPeer.Invoke()
 
 ## -description
 
+Sends a request to click the button associated with the automation peer.
+
 ## -remarks
 
 ## -see-also

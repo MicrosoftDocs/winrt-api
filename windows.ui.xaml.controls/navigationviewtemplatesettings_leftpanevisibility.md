@@ -11,7 +11,11 @@ public Visibility LeftPaneVisibility { get; }
 
 ## -description
 
+Gets the visibility of the left pane.
+
 ## -property-value
+
+The visibility of the left pane.
 
 ## -remarks
 

@@ -11,6 +11,8 @@ public class SplitButtonAutomationPeer : FrameworkElementAutomationPeer, Framewo
 
 ## -description
 
+Exposes [SplitButton](splitbutton.md) types to Microsoft UI Automation.
+
 ## -remarks
 
 ## -see-also

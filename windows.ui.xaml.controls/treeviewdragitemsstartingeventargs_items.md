@@ -11,7 +11,11 @@ public IVector<object> Items { get; }
 
 ## -description
 
+Gets the loosely typed collection of objects that are selected for the item drag action.
+
 ## -property-value
+
+A loosely typed collection of objects.
 
 ## -remarks
 

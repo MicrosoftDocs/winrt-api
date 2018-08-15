@@ -11,9 +11,13 @@ public class WebViewWebResourceRequestedEventArgs
 
 ## -description
 
+Provides event data for the [WebView.WebResourceRequested](webview_webresourcerequested.md) event.
+
 ## -remarks
 
 ## -see-also
+
+[WebView.WebResourceRequested](webview_webresourcerequested.md)
 
 ## -examples
 

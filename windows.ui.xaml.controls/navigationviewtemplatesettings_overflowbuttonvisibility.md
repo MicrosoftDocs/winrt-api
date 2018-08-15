@@ -11,7 +11,11 @@ public Visibility OverflowButtonVisibility { get; }
 
 ## -description
 
+Gets the visibility of the overflow button.
+
 ## -property-value
+
+The visibility of the overflow button.
 
 ## -remarks
 

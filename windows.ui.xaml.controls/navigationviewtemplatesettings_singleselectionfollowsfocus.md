@@ -11,7 +11,11 @@ public bool SingleSelectionFollowsFocus { get; }
 
 ## -description
 
+Gets the [SelectionFollowsFocus](navigationview_selectionfollowsfocus.md) value.
+
 ## -property-value
+
+The SelectionFollowsFocus value.
 
 ## -remarks
 

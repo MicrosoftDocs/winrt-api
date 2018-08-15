@@ -11,7 +11,11 @@ public Visibility PaneToggleButtonVisibility { get; }
 
 ## -description
 
+Gets the visibility of the pane toggle button.
+
 ## -property-value
+
+The visibility of the pane toggle button.
 
 ## -remarks
 

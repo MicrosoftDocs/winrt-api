@@ -11,7 +11,11 @@ public double TopPadding { get; }
 
 ## -description
 
+Gets the padding value of the top pane.
+
 ## -property-value
+
+The padding value of the top pane.
 
 ## -remarks
 

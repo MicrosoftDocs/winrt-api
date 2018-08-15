@@ -11,6 +11,8 @@ public void ToggleSplitButtonAutomationPeer.Expand()
 
 ## -description
 
+Displays the control's drop down menu.
+
 ## -remarks
 
 ## -see-also

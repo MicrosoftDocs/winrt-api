@@ -11,9 +11,13 @@ public class TreeViewDragItemsCompletedEventArgs
 
 ## -description
 
+Provides event data for the [TreeView.DragItemsCompleted](treeview_dragitemscompleted.md) event.
+
 ## -remarks
 
 ## -see-also
+
+[TreeView.DragItemsCompleted](treeview_dragitemscompleted.md)
 
 ## -examples
 

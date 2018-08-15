@@ -11,8 +11,12 @@ public DropDownButtonAutomationPeer.DropDownButtonAutomationPeer(DropDownButton 
 
 ## -description
 
+Initializes a new instance of the [DropDownButtonAutomationPeer](dropdownbuttonautomationpeer.md) class.
+
 ## -parameters
 ### -param owner
+
+The [DropDownButton](dropdownbutton.md) control instance to create the peer for.
 
 ## -remarks
 
