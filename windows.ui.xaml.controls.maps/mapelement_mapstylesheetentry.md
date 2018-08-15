@@ -13,7 +13,7 @@ public string MapStyleSheetEntry { get;  set; }
 Gets or sets the name of an entry in the map's style sheet that you'd like to apply to this [MapElement](mapelement.md).
 
 ## -property-value
-The name of the entry in the map's style sheet that you'd like to apply to this [MapElement](mapelement.md).
+The name of the entry in the map's style sheet that you'd like to apply to this [MapElement](mapelement.md). This name may be an existing map element (see remarks) that acts like an existing base map element of that type. Or the name may be an extension that is not used by the base map but is set by the style sheet creator and can be changed without affecting the base map (see the example code).
 
 ## -remarks
 Set this property to a string or to any of the property values available in the [MapStyleSheetEntries](mapstylesheetentries.md) class.
@@ -26,21 +26,24 @@ To learn more about entries in a map style sheet, see [Map style sheet reference
 
 ```csharp
 string myStyleSheetJson = @"{""version"": ""1.*"",
+  ""elements"":{
+    ""foodPoint"":{
+      ""iconColor"":""#FF000000""}},
   ""extensions"":{
     ""myNamespace"":{
       ""myFoodPoint"":{
         ""parent"":""foodPoint"",
         ""scale"":2}}}}";
 
-this.map.StyleSheet = MapStyleSheet.ParseFromJson(myStyleSheetJson);
-this.map.MapElements.Add(new MapIcon
+myMap.StyleSheet = MapStyleSheet.ParseFromJson(myStyleSheetJson);
+myMap.MapElements.Add(new MapIcon
 {
-  Location = new Geopoint(new BasicGeoposition { Latitude = 44, Longitude = -120 }),
+  Location = new Geopoint(new BasicGeoposition { Latitude = 50, Longitude = -120 }),
   MapStyleSheetEntry = MapStyleSheetEntries.FoodPoint,
 });
-this.map.MapElements.Add(new MapIcon
+myMap.MapElements.Add(new MapIcon
 {
-  Location = new Geopoint(new BasicGeoposition { Latitude = 47, Longitude = -120 }),
+  Location = new Geopoint(new BasicGeoposition { Latitude = 44, Longitude = -120 }),
   MapStyleSheetEntry = "myNamespace.myFoodPoint",
 });
 ```
