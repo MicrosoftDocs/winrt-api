@@ -22,7 +22,7 @@ The application should allocate a [MediaStreamSample](mediastreamsample.md) and 
 
 If there are no more [MediaStreamSamples](mediastreamsample.md) to deliver to the stream identified by the [StreamDescriptor](mediastreamsourcesamplerequest_streamdescriptor.md) property because the end of the stream has been reached, then the application should set the [Sample](mediastreamsourcesamplerequest_sample.md) property to **null**.
 
-If the application needs to perform an asynchronous operation to retrieve the [MediaStreamSample](mediastreamsample.md), it should invoke the [GetDeferral](mediastreamsourcesamplerequest_getdeferral.md) method to indicate that the assignment of the [Sample](mediastreamsourcesamplerequest_sample.md) property has been deferred.
+If the application needs to perform an asynchronous operation to retrieve the [MediaStreamSample](mediastreamsample.md), it should invoke the [GetDeferral](mediastreamsourcesamplerequest_getdeferral_254836512.md) method to indicate that the assignment of the [Sample](mediastreamsourcesamplerequest_sample.md) property has been deferred.
 
 If a [MediaStreamSample](mediastreamsample.md) is not currently available, for example, because it has not yet been downloaded from a server, the application should call [GetDeferral](mediastreamsourcesamplerequest_getdeferral.md) and also call [ReportSampleProgress](mediastreamsourcesamplerequest_reportsampleprogress.md) on as the necessary data is being downloaded.
 

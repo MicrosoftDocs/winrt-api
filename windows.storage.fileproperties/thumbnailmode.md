@@ -72,4 +72,4 @@ To help you decide which mode you should use, see [Guidelines and checklist for 
 
 ## -see-also
 
-[Guidelines and checklist for thumbnails](http://msdn.microsoft.com/library/46868748-8847-49ed-a07f-324e77b27da4), [storageItemThumbnail class](storageitemthumbnail.md), [ThumbnailOptions enum](thumbnailoptions.md), [Windows.Storage.storageFile.getThumbnailAsync methods](../windows.storage/storagefile_getthumbnailasync.md), [File and folder thumbnail sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620545)
+[Guidelines and checklist for thumbnails](http://msdn.microsoft.com/library/46868748-8847-49ed-a07f-324e77b27da4), [storageItemThumbnail class](storageitemthumbnail.md), [ThumbnailOptions enum](thumbnailoptions.md), [Windows.Storage.storageFile.getThumbnailAsync methods](../windows.storage/storagefile_getthumbnailasync_1511435522.md), [File and folder thumbnail sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620545)

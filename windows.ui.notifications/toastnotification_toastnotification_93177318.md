@@ -20,7 +20,7 @@ The XML content that defines the toast notification.
 ## -remarks
 
 ## -examples
-The following example shows how to create and send a toast notification that includes text and images, including use of the [ToastNotification](toastnotification_toastnotification.md) constructor.
+The following example shows how to create and send a toast notification that includes text and images, including use of the [ToastNotification](toastnotification_toastnotification_93177318.md) constructor.
 
 ```javascript
 

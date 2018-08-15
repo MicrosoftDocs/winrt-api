@@ -19,4 +19,4 @@ You can add a handler for the [ConnectionStatusChanged](wifidirectdevice_connect
 ## -examples
 
 ## -see-also
-[GetDeviceSelector](wifidirectdevice_getdeviceselector.md), [WiFiDirectDevice sample](http://go.microsoft.com/fwlink/p/?LinkID=301419)
+[GetDeviceSelector](wifidirectdevice_getdeviceselector_185243134.md), [WiFiDirectDevice sample](http://go.microsoft.com/fwlink/p/?LinkID=301419)

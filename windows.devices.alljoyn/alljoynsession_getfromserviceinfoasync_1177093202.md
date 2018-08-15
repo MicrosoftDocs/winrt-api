@@ -18,7 +18,7 @@ Gets a session with the producer based on the specified service info and bus att
 The service info to acquire the correct session.
 
 ### -param busAttachment
-The bus attachment to identify the AllJoyn session. If not specified, it is set to the result of [AllJoynBusAttachment.GetDefault](alljoynbusattachment_getdefault.md).
+The bus attachment to identify the AllJoyn session. If not specified, it is set to the result of [AllJoynBusAttachment.GetDefault](alljoynbusattachment_getdefault_846721868.md).
 
 ## -returns
 An AllJoyn object for the AllJoyn session based off the service info.

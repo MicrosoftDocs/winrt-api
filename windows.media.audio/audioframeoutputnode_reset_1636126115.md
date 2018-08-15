@@ -13,7 +13,7 @@ public void Reset()
 Resets the audio frame output node.
 
 ## -remarks
-Calling this method causes [DiscardQueuedFrames](../windows.media.effects/ibasicaudioeffect_discardqueuedframes.md) to be called on any audio effects applied to the [AudioFrameOutputNode](audioframeoutputnode.md).
+Calling this method causes [DiscardQueuedFrames](../windows.media.effects/ibasicaudioeffect_discardqueuedframes_1358903059.md) to be called on any audio effects applied to the [AudioFrameOutputNode](audioframeoutputnode.md).
 
 ## -examples
 

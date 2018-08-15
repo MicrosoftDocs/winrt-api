@@ -20,9 +20,9 @@ The coordinates (in DIPs), relative to the window, of the user's finger or mouse
 > For VB, C#, and C++, this window is the [CoreWindow](../windows.ui.core/corewindow.md) associated with the thread that is calling the context menu.
 
 ## -returns
-A [IUICommand](iuicommand.md) object that represents the context menu command that was invoked by the user, after the [ShowAsync](popupmenu_showasync.md) call completes.
+A [IUICommand](iuicommand.md) object that represents the context menu command that was invoked by the user, after the [ShowAsync](popupmenu_showasync_583519687.md) call completes.
 
-If no command is invoked, [ShowAsync](popupmenu_showasync.md) returns **null**.
+If no command is invoked, [ShowAsync](popupmenu_showasync_583519687.md) returns **null**.
 
 ## -remarks
 You can see complete code examples that demonstrate how to create and customize context menu in the [Context menu sample](http://go.microsoft.com/fwlink/p/?linkid=234891) on the [ sample home page](http://go.microsoft.com/fwlink/p/?linkid=226952).

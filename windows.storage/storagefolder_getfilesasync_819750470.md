@@ -21,7 +21,7 @@ When this method completes successfully, it returns a list of the files in the c
 You don't have permission to access the contents of the current folder.
 
 ## -remarks
-This query is a shallow query that returns only files in the current folder. For a list of methods that identifies shallow queries and deep queries, see the Remarks in the topic [GetFilesAsync](storagefolder_getfilesasync.md).
+This query is a shallow query that returns only files in the current folder. For a list of methods that identifies shallow queries and deep queries, see the Remarks in the topic [GetFilesAsync](storagefolder_getfilesasync_1429382825.md).
 
 The following table lists methods of the [StorageFolder](storagefolder.md) class that get a list of files. The table identifies shallow queries that only return files from the current folder, and deep queries that return files from the current folder and from its subfolders.
 
@@ -30,7 +30,7 @@ Some methods take a value from the [CommonFileQuery](../windows.storage.search/c
 > > [!TIP]
 > Some of the values from the [CommonFileQuery](../windows.storage.search/commonfilequery.md) enumeration can only be used with a library folder (such as the Pictures library) or the Homegroup folder. In addition to the **DefaultQuery** option, you can use only the **OrderByName** and **OrderBySearchRank** options with a folder that's not a library folder.
 
-To get deep query results from a folder that's not a library folder, call the [CreateFileQueryWithOptions(QueryOptions)](storagefolder_createfilequerywithoptions.md) method and specify **Deep** as the value of the [FolderDepth](../windows.storage.search/queryoptions_folderdepth.md) property of the [QueryOptions](../windows.storage.search/queryoptions.md) object.
+To get deep query results from a folder that's not a library folder, call the [CreateFileQueryWithOptions(QueryOptions)](storagefolder_createfilequerywithoptions_2038131323.md) method and specify **Deep** as the value of the [FolderDepth](../windows.storage.search/queryoptions_folderdepth.md) property of the [QueryOptions](../windows.storage.search/queryoptions.md) object.
 
 <table>
    <tr><th>Method</th><th>Create a shallow query that only returns files from the current folder</th><th>Create a deep query that returns files from the current folder and from its subfolders</th></tr>
@@ -39,7 +39,7 @@ To get deep query results from a folder that's not a library folder, call the [C
    <tr><td>[GetFilesAsync(CommonFileQuery, UInt32, UInt32)](storagefolder_getfilesasync_1563132095.md)</td><td>Specify the **DefaultQuery** option.</td><td>For a library folder, specify an option other than **DefaultQuery**.</td></tr>
    <tr><td>[CreateFileQuery()](storagefolder_createfilequery_70815642.md)</td><td>Default behavior of this method.</td><td>N/A</td></tr>
    <tr><td>[CreateFileQuery(CommonFileQuery)](storagefolder_createfilequery_1641434999.md)</td><td>Specify the **DefaultQuery** option.</td><td>For a library folder, specify an option other than **DefaultQuery**.</td></tr>
-   <tr><td>[CreateFileQueryWithOptions(QueryOptions)](storagefolder_createfilequerywithoptions.md)</td><td><ul><li>Default behavior of this method if none of the following options are specified.
+   <tr><td>[CreateFileQueryWithOptions(QueryOptions)](storagefolder_createfilequerywithoptions_2038131323.md)</td><td><ul><li>Default behavior of this method if none of the following options are specified.
 
 - or -</li><li>Specify **DefaultQuery** as the value of [CommonFileQuery](../windows.storage.search/commonfilequery.md) when you instantiate the [QueryOptions](../windows.storage.search/queryoptions.md) object.
 

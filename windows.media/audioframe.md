@@ -13,7 +13,7 @@ public class AudioFrame : Windows.Foundation.IClosable, Windows.Media.IAudioFram
 Represents a single frame of audio data.
 
 ## -remarks
-An audio frame typically contains multiple audio samples. Access the audio data by calling [LockBuffer](audioframe_lockbuffer.md) which returns an [AudioBuffer](audiobuffer.md).
+An audio frame typically contains multiple audio samples. Access the audio data by calling [LockBuffer](audioframe_lockbuffer_1248676457.md) which returns an [AudioBuffer](audiobuffer.md).
 
 ## -examples
 

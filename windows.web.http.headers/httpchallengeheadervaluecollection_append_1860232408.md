@@ -17,9 +17,9 @@ Adds a new [HttpChallengeHeaderValue](httpchallengeheadervalue.md) item to the e
 The [HttpChallengeHeaderValue](httpchallengeheadervalue.md) object to append.
 
 ## -remarks
-After you've added an item, you can use the [IndexOf](httpchallengeheadervaluecollection_indexof.md) method to get it by index.
+After you've added an item, you can use the [IndexOf](httpchallengeheadervaluecollection_indexof_643099624.md) method to get it by index.
 
-To add an item to a position in the collection that's not at the collection end, use the [InsertAt](httpchallengeheadervaluecollection_insertat.md) method.
+To add an item to a position in the collection that's not at the collection end, use the [InsertAt](httpchallengeheadervaluecollection_insertat_1228553710.md) method.
 
 If you are programming using C# or Microsoft Visual Basic, the equivalent method is [Add](httpchallengeheadervaluecollection_add.md).
 

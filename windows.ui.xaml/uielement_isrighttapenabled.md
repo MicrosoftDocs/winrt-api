@@ -31,4 +31,4 @@ You do not need a mouse device to produce a [RightTapped](uielement_righttapped.
 ## -examples
 
 ## -see-also
-[RightTapped](uielement_righttapped.md), [OnRightTapped](../windows.ui.xaml.controls/control_onrighttapped.md), [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input)
+[RightTapped](uielement_righttapped.md), [OnRightTapped](../windows.ui.xaml.controls/control_onrighttapped_206844945.md), [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input)

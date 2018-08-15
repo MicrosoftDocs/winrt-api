@@ -15,7 +15,7 @@ Maps 2D points in a [MediaFrameSource](../windows.media.capture.frames/mediafram
 
 ## -remarks
 
-Get an instance of this class by calling the [TryCreateCoordinateMapper](../windows.media.capture.frames/depthmediaframe_trycreatecoordinatemapper.md) of a [DepthMediaFrame](../windows.media.capture.frames/depthmediaframe.md).
+Get an instance of this class by calling the [TryCreateCoordinateMapper](../windows.media.capture.frames/depthmediaframe_trycreatecoordinatemapper_1923171226.md) of a [DepthMediaFrame](../windows.media.capture.frames/depthmediaframe.md).
 
 ## -examples
 

@@ -27,9 +27,9 @@ In some cases, overlay UI such as an [InputPane](inputpane.md) is not fully supp
 + apps in full-screen mode, like [games](https://msdn.microsoft.com/windows/uwp/gaming/index).
 + Windows Holographic apps in [holographic view](https://developer.microsoft.com/windows/holographic/app_model#app_views).
 
-Call [GetForCurrentView](inputpane_getforcurrentview.md) to get an [InputPane](inputpane.md) object.
+Call [GetForCurrentView](inputpane_getforcurrentview_1363600702.md) to get an [InputPane](inputpane.md) object.
 
-After you register to receive input pane notifications, the system calls your event delegate whenever the input pane is shown or hidden for the window that was visible when you called the [GetForCurrentView](inputpane_getforcurrentview.md) method.
+After you register to receive input pane notifications, the system calls your event delegate whenever the input pane is shown or hidden for the window that was visible when you called the [GetForCurrentView](inputpane_getforcurrentview_1363600702.md) method.
 
 > [!NOTE]
 > This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://go.microsoft.com/fwlink/p/?linkid=258275).

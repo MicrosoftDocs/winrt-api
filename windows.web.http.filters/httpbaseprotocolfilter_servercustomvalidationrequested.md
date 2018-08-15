@@ -19,7 +19,7 @@ In order to skip parts of the OS validation (not recommended for production scen
 
 The event handler code is executed as part of a synchronous callback in the OS during the SSL/TLS connection establishment. Avoid performing long-running tasks within the event handler code to prevent the server from timing out during the connection.
 
-If you need to call async APIs within your event handler code, you must take a deferral (See [HttpServerCustomValidationArgs.GetDeferral](httpservercustomvalidationrequestedeventargs_getdeferral.md)) before calling the asynchronous APIs. Once you are done, call the [deferral.Complete](../windows.foundation/deferral_complete.md) method to return control from your handler code.
+If you need to call async APIs within your event handler code, you must take a deferral (See [HttpServerCustomValidationArgs.GetDeferral](httpservercustomvalidationrequestedeventargs_getdeferral_254836512.md)) before calling the asynchronous APIs. Once you are done, call the [deferral.Complete](../windows.foundation/deferral_complete.md) method to return control from your handler code.
 
 The following snippet shows how to subscribe to this event.
 

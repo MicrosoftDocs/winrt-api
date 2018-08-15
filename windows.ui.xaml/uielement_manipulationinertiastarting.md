@@ -25,7 +25,7 @@ An element must have a [ManipulationMode](uielement_manipulationmode.md) value o
 
 For touch actions and also for interaction-specific or manipulation events that are consequences of a touch action, an element must be hit-test visible in order to be the event source and fire the event that is associated with the action. [UIElement.Visibility](uielement_visibility.md) must be [Visible](visibility.md). Other properties of derived types also affect hit-test visibility. For more info, see [Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
 
-[ManipulationInertiaStarting](uielement_manipulationinertiastarting.md) supports the ability to attach event handlers to the route that will be invoked even if the event data for the event is marked [Handled](../windows.ui.xaml.input/manipulationinertiastartingroutedeventargs_handled.md). See [AddHandler](uielement_addhandler.md).
+[ManipulationInertiaStarting](uielement_manipulationinertiastarting.md) supports the ability to attach event handlers to the route that will be invoked even if the event data for the event is marked [Handled](../windows.ui.xaml.input/manipulationinertiastartingroutedeventargs_handled.md). See [AddHandler](uielement_addhandler_2121467075.md).
 
 
 <!--The following remark is relevant for Windows 8 > 8.1 migration. See WBB 467590-->
@@ -38,4 +38,4 @@ Apps that were compiled for Windows 8 but running on Windows 8.1 continue to u
 ## -examples
 
 ## -see-also
-[OnManipulationInertiaStarting](../windows.ui.xaml.controls/control_onmanipulationinertiastarting.md), [ManipulationStarted](uielement_manipulationstarted.md), [Using manipulation events](http://msdn.microsoft.com/library/f10bafee-8792-4a57-ae84-aa11ab95355a), [XAML user input events sample](http://go.microsoft.com/fwlink/p/?linkid=231524)
+[OnManipulationInertiaStarting](../windows.ui.xaml.controls/control_onmanipulationinertiastarting_1708609674.md), [ManipulationStarted](uielement_manipulationstarted.md), [Using manipulation events](http://msdn.microsoft.com/library/f10bafee-8792-4a57-ae84-aa11ab95355a), [XAML user input events sample](http://go.microsoft.com/fwlink/p/?linkid=231524)

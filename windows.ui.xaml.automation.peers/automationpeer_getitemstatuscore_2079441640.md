@@ -10,7 +10,7 @@ virtual protected string GetItemStatusCore()
 # Windows.UI.Xaml.Automation.Peers.AutomationPeer.GetItemStatusCore
 
 ## -description
-Provides the peer's behavior when a Microsoft UI Automation client calls [GetItemStatus](automationpeer_getitemstatus.md) or an equivalent Microsoft UI Automation client API.
+Provides the peer's behavior when a Microsoft UI Automation client calls [GetItemStatus](automationpeer_getitemstatus_341251311.md) or an equivalent Microsoft UI Automation client API.
 
 ## -returns
 The item status.

@@ -17,7 +17,7 @@ Initializes a new instance of the [HttpMethod](httpmethod.md) class with a speci
 The HTTP method.
 
 ## -remarks
-If an app needs a different value for the HTTP method from one of the static properties, the [HttpMethod](httpmethod_httpmethod.md) constructor initializes a new instance of the [HttpMethod](httpmethod.md) with an HTTP method that caller specifies.
+If an app needs a different value for the HTTP method from one of the static properties, the [HttpMethod](httpmethod_httpmethod_290278668.md) constructor initializes a new instance of the [HttpMethod](httpmethod.md) with an HTTP method that caller specifies.
 
 ## -examples
 

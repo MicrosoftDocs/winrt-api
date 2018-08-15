@@ -21,4 +21,4 @@ True if the receipt or slip printer station supports setting a custom size for t
 ## -examples
 
 ## -see-also
-[IReceiptOrSlipJob.SetPrintArea](ireceiptorslipjob_setprintarea.md), [ClaimedReceiptPrinter.PrintArea](claimedreceiptprinter_printarea.md), [ClaimedSlipPrinter.PrintArea](claimedslipprinter_printarea.md)
+[IReceiptOrSlipJob.SetPrintArea](ireceiptorslipjob_setprintarea_1895383025.md), [ClaimedReceiptPrinter.PrintArea](claimedreceiptprinter_printarea.md), [ClaimedSlipPrinter.PrintArea](claimedslipprinter_printarea.md)

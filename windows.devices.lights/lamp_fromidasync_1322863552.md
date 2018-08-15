@@ -20,7 +20,7 @@ The ID of the requested lamp device.
 An asynchronous operation that returns a [Lamp](lamp.md) object upon successful completion.
 
 ## -remarks
-Use [GetDefaultAsync](lamp_getdefaultasync.md) to get the default lamp for a device. Enumerate lamp devices by passing the class selection string returned by the [GetDeviceSelector](lamp_getdeviceselector.md) method to the [FindAllAsync](../windows.devices.enumeration/deviceinformation_findallasync.md) or [CreateWatcher](../windows.devices.enumeration/deviceinformation_createwatcher.md) method. Once retrieved, use the [DeviceId](lamp_deviceid.md) property to retrieve the ID for the associated lamp.
+Use [GetDefaultAsync](lamp_getdefaultasync_1549573963.md) to get the default lamp for a device. Enumerate lamp devices by passing the class selection string returned by the [GetDeviceSelector](lamp_getdeviceselector_838466080.md) method to the [FindAllAsync](../windows.devices.enumeration/deviceinformation_findallasync_1257462890.md) or [CreateWatcher](../windows.devices.enumeration/deviceinformation_createwatcher_1506431823.md) method. Once retrieved, use the [DeviceId](lamp_deviceid.md) property to retrieve the ID for the associated lamp.
 
 ## -examples
 

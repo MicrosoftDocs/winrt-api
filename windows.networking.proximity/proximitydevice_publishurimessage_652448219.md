@@ -26,13 +26,13 @@ The publication ID of the message.
 ## -remarks
 Only one URI can be published at a time for each proximity device.
 
-You can stop publishing a URI by passing the publication ID returned by the [PublishUriMessage](proximitydevice_publishurimessage.md) method to the [StopPublishingMessage](proximitydevice_stoppublishingmessage.md) method.
+You can stop publishing a URI by passing the publication ID returned by the [PublishUriMessage](proximitydevice_publishurimessage_632953271.md) method to the [StopPublishingMessage](proximitydevice_stoppublishingmessage_1046474884.md) method.
 
 Unlike the other publish methods for a proximity device, URI publishing is handled by the default protocol handler for the URI. A subscription to a URI message publication is not required. You can receive URI messages by registering a default handler for a URI protocol such as the HTTP protocol.
 
 The PackageFamilyName value of the sending application is automatically sent along with the URI. If no handler is registered for the protocol of a URI, the PackageFamilyName value of the sending application is used to direct the receiving application to the application store.
 
-You can use the [PublishMessage](proximitydevice_publishmessage.md) method to publish a text message to a proximate computer. You can use the [PublishBinaryMessage](proximitydevice_publishbinarymessage.md) method to publish non-text messages or messages that conform to the NDEF messaging standard.
+You can use the [PublishMessage](proximitydevice_publishmessage_1881696512.md) method to publish a text message to a proximate computer. You can use the [PublishBinaryMessage](proximitydevice_publishbinarymessage_285088637.md) method to publish non-text messages or messages that conform to the NDEF messaging standard.
 
 
 

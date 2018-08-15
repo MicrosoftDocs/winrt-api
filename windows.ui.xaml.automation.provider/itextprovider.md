@@ -10,7 +10,7 @@ public interface ITextProvider :
 # Windows.UI.Xaml.Automation.Provider.ITextProvider
 
 ## -description
-Exposes methods and properties to support Microsoft UI Automation client access to controls that contain text. Implement this interface in order to support the capabilities that an automation client requests with a [GetPattern](../windows.ui.xaml.automation.peers/automationpeer_getpattern.md) call and [PatternInterface.Text](../windows.ui.xaml.automation.peers/patterninterface.md).
+Exposes methods and properties to support Microsoft UI Automation client access to controls that contain text. Implement this interface in order to support the capabilities that an automation client requests with a [GetPattern](../windows.ui.xaml.automation.peers/automationpeer_getpattern_2046576749.md) call and [PatternInterface.Text](../windows.ui.xaml.automation.peers/patterninterface.md).
 
 ## -remarks
 For more info on this pattern, see [Text and TextRange Control Patterns](http://msdn.microsoft.com/library/4d541c31-11f7-4d7e-a0e0-9ed1da873d07).

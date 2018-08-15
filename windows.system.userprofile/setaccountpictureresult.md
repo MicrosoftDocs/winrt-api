@@ -12,7 +12,7 @@ public enum Windows.System.UserProfile.SetAccountPictureResult : int
 ## -description
 A result that is returned when you try to set the image for a user account.
 
-This object is returned when you call [SetAccountPictureAsync](userinformation_setaccountpictureasync.md), [SetAccountPictureFromStreamAsync](userinformation_setaccountpicturefromstreamasync.md), [SetAccountPicturesAsync](userinformation_setaccountpicturesasync.md), and [SetAccountPicturesFromStreamAsync.](windows_system_userprofile.md)
+This object is returned when you call [SetAccountPictureAsync](userinformation_setaccountpictureasync_2005420122.md), [SetAccountPictureFromStreamAsync](userinformation_setaccountpicturefromstreamasync_649508924.md), [SetAccountPicturesAsync](userinformation_setaccountpicturesasync_1051215039.md), and [SetAccountPicturesFromStreamAsync.](windows_system_userprofile.md)
 
 ## -enum-fields
 ### -field Success:0

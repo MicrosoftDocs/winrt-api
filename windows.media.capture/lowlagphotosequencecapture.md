@@ -31,7 +31,7 @@ Add a handler to the [PhotoCaptured](lowlagphotosequencecapture_photocaptured.md
 
 If the media type is changed or an effect is added, you must call [MediaCapture.PrepareLowLagPhotoSequenceCaptureAsync](mediacapture_preparelowlagphotosequencecaptureasync_2130225421.md) to create a new [LowLagPhotoCapture](lowlagphotocapture.md) object.
 
-[LowLagPhotoSequenceControl.GetCurrentFrameRate](../windows.media.devices/lowlagphotosequencecontrol_getcurrentframerate.md) specifies the frame rate at which the photos are taken.
+[LowLagPhotoSequenceControl.GetCurrentFrameRate](../windows.media.devices/lowlagphotosequencecontrol_getcurrentframerate_279282429.md) specifies the frame rate at which the photos are taken.
 
 [PhotoCapturedEventArgs.CaptureTimeOffset](photocapturedeventargs_capturetimeoffset.md) can be used to tell whether a frame was in the future, greater than 0, or in the past, less than 0.
 

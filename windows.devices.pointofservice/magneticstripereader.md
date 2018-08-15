@@ -14,7 +14,7 @@ public class MagneticStripeReader : Windows.Devices.PointOfService.IMagneticStri
 Represents the magnetic stripe reader device.
 
 ## -remarks
-This object is created when [GetDefaultAsync](magneticstripereader_getdefaultasync.md) or [FromIdAsync](magneticstripereader_fromidasync.md) method completes.
+This object is created when [GetDefaultAsync](magneticstripereader_getdefaultasync_1549573963.md) or [FromIdAsync](magneticstripereader_fromidasync_1322863552.md) method completes.
 
 See the [magnetic stripe reader sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/MagneticStripeReader) for an example implementation.
 

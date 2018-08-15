@@ -31,4 +31,4 @@ Another reason to suppress gesture events is if you are handling pointer-level e
 ## -examples
 
 ## -see-also
-[Holding](uielement_holding.md), [OnHolding](../windows.ui.xaml.controls/control_onholding.md), [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input)
+[Holding](uielement_holding.md), [OnHolding](../windows.ui.xaml.controls/control_onholding_1052914744.md), [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input)

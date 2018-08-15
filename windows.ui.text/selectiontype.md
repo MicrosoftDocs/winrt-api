@@ -23,7 +23,7 @@ An insertion point.
 A single nondegenerate range.
 
 ### -field InlineShape:7
-An image (see [ITextRange.InsertImage](itextrange_insertimage.md)).
+An image (see [ITextRange.InsertImage](itextrange_insertimage_631868789.md)).
 
 ### -field Shape:8
 A shape.

@@ -18,7 +18,7 @@ The operation requested by the source app.
 ## -remarks
 This property specifies the operation the consumer of a data package should perform in clipboard or drag and drop scenarios. The supported options are specified in the [DataPackageOperation](datapackageoperation.md) enumeration.
 
-When implementing clipboard functionality, [DataPackageOperation.Move](datapackageoperation.md) corresponds to the "Cut" command and [DataPackageOperation.Copy](datapackageoperation.md) to "Copy" command. It is the target of the operation's responsibility to respect this value and report that they performed a cut or copy by calling [DataPackageView.ReportOperationComplete](datapackageview_reportoperationcompleted.md) with the appropriate value.
+When implementing clipboard functionality, [DataPackageOperation.Move](datapackageoperation.md) corresponds to the "Cut" command and [DataPackageOperation.Copy](datapackageoperation.md) to "Copy" command. It is the target of the operation's responsibility to respect this value and report that they performed a cut or copy by calling [DataPackageView.ReportOperationComplete](datapackageview_reportoperationcompleted_467480582.md) with the appropriate value.
 
 In drag and drop scenarios, [CoreDragOperation.AllowedOperations](../windows.applicationmodel.datatransfer.dragdrop.core/coredraginfo_allowedoperations.md) should specify the complete set of operations the source allows, and [DataPackage.RequestedOperation](datapackage_requestedoperation.md) should specify the source's desired default. Users can override this choices by using **SHIFT** and **CTRL** keys. Target apps must inspect the key state to determine the operation the user has selected. 
 

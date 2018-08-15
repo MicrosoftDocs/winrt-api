@@ -27,7 +27,7 @@ The user sets the privacy of their location data with the **location privacy set
 For more information about location privacy, see the [Windows Privacy Statement](http://go.microsoft.com/fwlink/p/?LinkId=521839).
 
 > [!IMPORTANT]
-> Starting in Windows 10, call the [RequestAccessAsync](geolocator_requestaccessasync.md) before accessing the user’s location. At that time, your app must be in the foreground and RequestAccessAsync must be called from the UI thread. Until the user grants your app permission to their location, your app can't access location data.
+> Starting in Windows 10, call the [RequestAccessAsync](geolocator_requestaccessasync_380675631.md) before accessing the user’s location. At that time, your app must be in the foreground and RequestAccessAsync must be called from the UI thread. Until the user grants your app permission to their location, your app can't access location data.
 
 **Location services architecture**
 

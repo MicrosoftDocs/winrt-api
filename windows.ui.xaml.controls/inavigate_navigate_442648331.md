@@ -29,4 +29,4 @@ The [INavigate](inavigate.md) interface is mainly infrastructure. It's not expec
 ## -examples
 
 ## -see-also
-[Frame.Navigate](frame_navigate.md), [HyperlinkButton](hyperlinkbutton.md), [System.Type](https://msdn.microsoft.com/library/system.type.aspx)
+[Frame.Navigate](frame_navigate_1426351961.md), [HyperlinkButton](hyperlinkbutton.md), [System.Type](https://msdn.microsoft.com/library/system.type.aspx)

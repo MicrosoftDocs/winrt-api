@@ -16,10 +16,10 @@ Manages all aspects of handwriting recognition.
 ## -remarks
 <table>
    <tr><th>JavaScript (usage)</th></tr>
-   <tr><td>var inkRecognizers = [Windows.UI.Input.Inking.InkManager.getRecognizers()](inkmanager_getrecognizers.md);
+   <tr><td>var inkRecognizers = [Windows.UI.Input.Inking.InkManager.getRecognizers()](inkmanager_getrecognizers_2048895795.md);
 
 var inkRecognizer = inkRecognizers[...];</td></tr>
-   <tr><td>var inkRecognizers = [Windows.UI.Input.Inking.inkRecognizerContainer.getRecognizers()](inkrecognizercontainer_getrecognizers.md);
+   <tr><td>var inkRecognizers = [Windows.UI.Input.Inking.inkRecognizerContainer.getRecognizers()](inkrecognizercontainer_getrecognizers_2048895795.md);
 
 var inkRecognizer = inkRecognizers[...];</td></tr>
 </table>

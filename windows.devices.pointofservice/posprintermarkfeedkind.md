@@ -11,7 +11,7 @@ public enum Windows.Devices.PointOfService.PosPrinterMarkFeedKind : int
 # PosPrinterMarkFeedKind
 
 ## -description
-Describes the ways the receipt printer station should feed the mark-sensed paper when you call the [ReceiptPrintJob.MarkFeed](receiptprintjob_markfeed.md) method.
+Describes the ways the receipt printer station should feed the mark-sensed paper when you call the [ReceiptPrintJob.MarkFeed](receiptprintjob_markfeed_40048292.md) method.
 
 ## -enum-fields
 ### -field ToTakeUp:0
@@ -32,4 +32,4 @@ Feeds the mark-sensed paper to the top of the form for the next paper.
 ## -examples
 
 ## -see-also
-[ReceiptPrintJob.MarkFeed](receiptprintjob_markfeed.md), [PosPrinterMarkFeedCapabilities](posprintermarkfeedcapabilities.md), [ReceiptPrinterCapabilities.MarkFeedCapabilities](receiptprintercapabilities_markfeedcapabilities.md)
+[ReceiptPrintJob.MarkFeed](receiptprintjob_markfeed_40048292.md), [PosPrinterMarkFeedCapabilities](posprintermarkfeedcapabilities.md), [ReceiptPrinterCapabilities.MarkFeedCapabilities](receiptprintercapabilities_markfeedcapabilities.md)

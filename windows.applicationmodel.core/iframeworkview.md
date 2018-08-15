@@ -13,12 +13,12 @@ public interface IFrameworkView :
 Represents an app view provider.
 
 ## -remarks
-Object that implement this interface should be returned by the [CreateView](iframeworkviewsource_createview.md) method on your implementation of [IFrameworkViewSource](iframeworkviewsource.md), which is a factory type interface.
+Object that implement this interface should be returned by the [CreateView](iframeworkviewsource_createview_164792513.md) method on your implementation of [IFrameworkViewSource](iframeworkviewsource.md), which is a factory type interface.
 
 These three methods are called, in order, after the app object (defined by a [CoreApplication](coreapplication.md) singleton instance) has started.
-+ [Initialize](iframeworkview_initialize.md)
-+ [Load](iframeworkview_load.md)
-+ [Run](coreapplication_run.md)
++ [Initialize](iframeworkview_initialize_1389154906.md)
++ [Load](iframeworkview_load_1077941801.md)
++ [Run](coreapplication_run_1480028297.md)
 
 The following code example demonstrates how you can use IFrameworkView to implement a simple Direct3D view provider.
 

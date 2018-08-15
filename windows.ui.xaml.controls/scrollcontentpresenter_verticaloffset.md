@@ -20,4 +20,4 @@ The distance the content has been scrolled vertically.
 ## -examples
 
 ## -see-also
-[SetVerticalOffset](scrollcontentpresenter_setverticaloffset.md), [HorizontalOffset](scrollcontentpresenter_horizontaloffset.md), [ScrollViewer.HorizontalOffset](scrollviewer_horizontaloffset.md), [ScrollViewer.VerticalOffset](scrollviewer_verticaloffset.md)
+[SetVerticalOffset](scrollcontentpresenter_setverticaloffset_1333703417.md), [HorizontalOffset](scrollcontentpresenter_horizontaloffset.md), [ScrollViewer.HorizontalOffset](scrollviewer_horizontaloffset.md), [ScrollViewer.VerticalOffset](scrollviewer_verticaloffset.md)

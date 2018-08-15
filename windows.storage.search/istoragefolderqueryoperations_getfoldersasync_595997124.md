@@ -24,4 +24,4 @@ When this method completes successfully, it returns a list (type [IVectorView](.
 ## -examples
 
 ## -see-also
-[IStorageFolderQueryOperations interface](istoragefolderqueryoperations.md), [IStorageFolderQueryOperations.GetFoldersAsync methods](istoragefolderqueryoperations_getfoldersasync.md), [IStorageFolderQueryOperations.GetFoldersAsync(CommonFolderQuery, UInt32, UInt32) method](istoragefolderqueryoperations_getfoldersasync_731846614.md), [Windows.Foundation.IVectorView interface](../windows.foundation.collections/ivectorview_1.md), [Windows.Storage.StorageFolder class](../windows.storage/storagefolder.md)
+[IStorageFolderQueryOperations interface](istoragefolderqueryoperations.md), [IStorageFolderQueryOperations.GetFoldersAsync methods](istoragefolderqueryoperations_getfoldersasync_595997124.md), [IStorageFolderQueryOperations.GetFoldersAsync(CommonFolderQuery, UInt32, UInt32) method](istoragefolderqueryoperations_getfoldersasync_731846614.md), [Windows.Foundation.IVectorView interface](../windows.foundation.collections/ivectorview_1.md), [Windows.Storage.StorageFolder class](../windows.storage/storagefolder.md)

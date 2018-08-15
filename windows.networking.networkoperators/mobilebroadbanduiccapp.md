@@ -14,7 +14,7 @@ public class MobileBroadbandUiccApp : Windows.Networking.NetworkOperators.IMobil
 Represents a UICC (SIM card) application.
 
 ## -remarks
-Your code does not instantiate this class directly. To get instances of this class, first call the [MobileBroadbandUicc.GetUiccAppsAsync](mobilebroadbanduicc_getuiccappsasync.md) method. Then, from the [MobileBroadbandUiccAppsResult](mobilebroadbanduiccappsresult.md) instance returned by that method, get instances of this class from the list in the [MobileBroadbandUiccAppsResult.UiccApps](mobilebroadbanduiccappsresult.md) property.
+Your code does not instantiate this class directly. To get instances of this class, first call the [MobileBroadbandUicc.GetUiccAppsAsync](mobilebroadbanduicc_getuiccappsasync_1099934605.md) method. Then, from the [MobileBroadbandUiccAppsResult](mobilebroadbanduiccappsresult.md) instance returned by that method, get instances of this class from the list in the [MobileBroadbandUiccAppsResult.UiccApps](mobilebroadbanduiccappsresult.md) property.
 
 ## -examples
 

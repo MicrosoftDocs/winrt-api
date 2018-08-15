@@ -17,7 +17,7 @@ Creates [TileUpdater](tileupdater.md) objects used to change and update **Start*
 This is a static factory class and requires no instantiation.
 
 ## -examples
-The following example shows [GetTemplateContent](tileupdatemanager_gettemplatecontent.md) used to retrieve the XML content of a tile template and [CreateTileUpdaterForApplication](tileupdatemanager_createtileupdaterforapplication_1541898748.md) to send the notification to the app's tile.
+The following example shows [GetTemplateContent](tileupdatemanager_gettemplatecontent_43644918.md) used to retrieve the XML content of a tile template and [CreateTileUpdaterForApplication](tileupdatemanager_createtileupdaterforapplication_1541898748.md) to send the notification to the app's tile.
 
 ```javascript
 

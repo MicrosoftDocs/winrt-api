@@ -10,7 +10,7 @@ public class CompositionEffectSourceParameter : Windows.Graphics.Effects.IGraphi
 # Windows.UI.Composition.CompositionEffectSourceParameter
 
 ## -description
-Used to declare an arbitrary name (a String) to be associated with a CompositionBrush (the “effect source”). The association of the given name and the effect source occurs when the [SetSourceParameter](compositioneffectbrush_setsourceparameter.md) method of a [CompositionEffectBrush](compositioneffectbrush.md) is called.
+Used to declare an arbitrary name (a String) to be associated with a CompositionBrush (the “effect source”). The association of the given name and the effect source occurs when the [SetSourceParameter](compositioneffectbrush_setsourceparameter_49982457.md) method of a [CompositionEffectBrush](compositioneffectbrush.md) is called.
 
 ## -remarks
 See the remarks section of [CompositionEffectBrush](compositioneffectbrush.md) for information on creating and using effects.

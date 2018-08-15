@@ -13,7 +13,7 @@ public class CompassReading : Windows.Devices.Sensors.ICompassReading, Windows.D
 Represents a compass reading.
 
 ## -remarks
-This object is accessed when you invoke the [GetCurrentReading](compass_getcurrentreading.md) method; and, it is accessed when you retrieve the [Reading](compassreadingchangedeventargs_reading.md) property of the [CompassReadingChangedEventArgs](compassreadingchangedeventargs.md) object in the event callback method.
+This object is accessed when you invoke the [GetCurrentReading](compass_getcurrentreading_1416488181.md) method; and, it is accessed when you retrieve the [Reading](compassreadingchangedeventargs_reading.md) property of the [CompassReadingChangedEventArgs](compassreadingchangedeventargs.md) object in the event callback method.
 
 ## -examples
 

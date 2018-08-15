@@ -13,7 +13,7 @@ public event Windows.Foundation.TypedEventHandler FrameArrived<Windows.Media.Cap
 Occurs when a new frame arrives from the media frame source associated with the [MediaFrameReader](mediaframereader.md).
 
 ## -remarks
-In the handler for the **FrameArrived** event, call [TryAcquireLatestFrame](mediaframereader_tryacquirelatestframe.md) to get a [MediaFrameReference](mediaframereference.md) representing the latest frame from the media frame source.
+In the handler for the **FrameArrived** event, call [TryAcquireLatestFrame](mediaframereader_tryacquirelatestframe_612769713.md) to get a [MediaFrameReference](mediaframereference.md) representing the latest frame from the media frame source.
 
 ## -examples
 

@@ -10,7 +10,7 @@ public enum Windows.Devices.Enumeration.DevicePickerDisplayStatusOptions : uint
 # DevicePickerDisplayStatusOptions
 
 ## -description
-Indicates what you'd like the device picker to show about a given device. Used with the [SetDisplayStatus](devicepicker_setdisplaystatus.md) method on the [DevicePicker](devicepicker.md) object.
+Indicates what you'd like the device picker to show about a given device. Used with the [SetDisplayStatus](devicepicker_setdisplaystatus_987185536.md) method on the [DevicePicker](devicepicker.md) object.
 
 ## -enum-fields
 ### -field None:0

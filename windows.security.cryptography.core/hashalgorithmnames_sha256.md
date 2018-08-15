@@ -16,7 +16,7 @@ Retrieves a string that contains "SHA256".
 String that contains "SHA256".
 
 ## -remarks
-Use the string retrieved by this property to set the hash algorithm name when you call the [OpenAlgorithm](hashalgorithmprovider_openalgorithm.md) method. The string represents a SHA2 (Secure Hash Algorithm 2) message digest algorithm that produces a 256-bit hash value.
+Use the string retrieved by this property to set the hash algorithm name when you call the [OpenAlgorithm](hashalgorithmprovider_openalgorithm_637226074.md) method. The string represents a SHA2 (Secure Hash Algorithm 2) message digest algorithm that produces a 256-bit hash value.
 
 ## -examples
 

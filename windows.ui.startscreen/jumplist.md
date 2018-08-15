@@ -15,7 +15,7 @@ Provides functionality for an app's jump list. A jump list is a system-provided 
 
 ## -remarks
 
-An app's [JumpList](jumplist.md) is retrieved using the [LoadCurrentAsync](jumplist_loadcurrentasync.md) method. If an application does not customize its jump list, the system provides a default jump list. Currently, the default jump list shows Recent items.
+An app's [JumpList](jumplist.md) is retrieved using the [LoadCurrentAsync](jumplist_loadcurrentasync_313230072.md) method. If an application does not customize its jump list, the system provides a default jump list. Currently, the default jump list shows Recent items.
 
 ## -examples
 

@@ -32,7 +32,7 @@ You cannot change the display order of the built-in buttons. The default display
 
 You can use the built-in [InkToolbarPenConfigurationControl](inktoolbarpenconfigurationcontrol.md) or you can specify a custom [InkToolbarPenConfigurationControl](inktoolbarpenconfigurationcontrol.md) definition in the standard [InkToolbar](inktoolbar.md) pen declaration.
 
-For custom configurations, your pen class must derive from [InkToolbarCustomPen](inktoolbarcustompen.md), and override the [CreateInkDrawingAttributesCore](inktoolbarcustompen_createinkdrawingattributescore.md) method. You can then set an instance of the derived class into [InkToolbarCustomPenButton.CustomPen](inktoolbarcustompenbutton_custompen.md) and provide the custom configuration UI elements.
+For custom configurations, your pen class must derive from [InkToolbarCustomPen](inktoolbarcustompen.md), and override the [CreateInkDrawingAttributesCore](inktoolbarcustompen_createinkdrawingattributescore_257776854.md) method. You can then set an instance of the derived class into [InkToolbarCustomPenButton.CustomPen](inktoolbarcustompenbutton_custompen.md) and provide the custom configuration UI elements.
 
 ## -examples
 Here's an example of a custom pen that reuses the default [InkToolbarPenConfigurationControl](inktoolbarpenconfigurationcontrol.md).

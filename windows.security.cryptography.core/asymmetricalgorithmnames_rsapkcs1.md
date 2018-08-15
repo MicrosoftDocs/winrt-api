@@ -16,7 +16,7 @@ Retrieves a string that contains "RSA_PKCS1".
 String that contains "RSA_PKCS1".
 
 ## -remarks
-Use the string retrieved by this property to set the asymmetric algorithm name when you call the [OpenAlgorithm](asymmetrickeyalgorithmprovider_openalgorithm.md) method. The string represents an RSA public key algorithm that uses PKCS1 to pad the plaintext. No hash algorithm is used.
+Use the string retrieved by this property to set the asymmetric algorithm name when you call the [OpenAlgorithm](asymmetrickeyalgorithmprovider_openalgorithm_637226074.md) method. The string represents an RSA public key algorithm that uses PKCS1 to pad the plaintext. No hash algorithm is used.
 
 ## -examples
 

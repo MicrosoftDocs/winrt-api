@@ -17,9 +17,9 @@ Provides basic properties for the input pointer associated with a single mouse, 
 
 In most cases, we recommend that you get pointer info through the event argument of the pointer event handlers in your chosen language framework (Windows app using JavaScript, UWP app using C++, C#, or Visual Basic, or UWP app using DirectX with C++).
 
-If the event argument doesn't intrinsically expose the pointer details required by your app, you can get access to extended pointer data through the [GetCurrentPoint](pointerroutedeventargs_getcurrentpoint.md) and [GetIntermediatePoints](pointerroutedeventargs_getintermediatepoints.md) methods of [PointerRoutedEventArgs](pointerroutedeventargs.md). We recommend using these methods as you can specify the context of the pointer data.
+If the event argument doesn't intrinsically expose the pointer details required by your app, you can get access to extended pointer data through the [GetCurrentPoint](pointerroutedeventargs_getcurrentpoint_1761708789.md) and [GetIntermediatePoints](pointerroutedeventargs_getintermediatepoints_1716242609.md) methods of [PointerRoutedEventArgs](pointerroutedeventargs.md). We recommend using these methods as you can specify the context of the pointer data.
 
-The static [PointerPoint](../windows.ui.input/pointerpoint.md) methods, [GetCurrentPoint](../windows.ui.input/pointerpoint_getcurrentpoint.md) and [GetIntermediatePoints](../windows.ui.input/pointerpoint_getintermediatepoints.md), always use the context of the app.
+The static [PointerPoint](../windows.ui.input/pointerpoint.md) methods, [GetCurrentPoint](../windows.ui.input/pointerpoint_getcurrentpoint_131721878.md) and [GetIntermediatePoints](../windows.ui.input/pointerpoint_getintermediatepoints_143894736.md), always use the context of the app.
 [Pointer](pointer.md) is an abstract class that is used to describe an input device. This class identifies the input device (such as stylus, finger, or mouse) for each pointer event that occurs.
 
 ## -examples

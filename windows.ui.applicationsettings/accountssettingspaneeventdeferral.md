@@ -14,7 +14,7 @@ public class AccountsSettingsPaneEventDeferral : Windows.UI.ApplicationSettings.
 Enables the app to signal when it has finished populating command collections while handling the [AccountCommandsRequested](accountssettingspane_accountcommandsrequested.md) event.
 
 ## -remarks
-Use the [Complete](accountssettingspaneeventdeferral_complete.md) method to signal when your app has fulfilled the request.
+Use the [Complete](accountssettingspaneeventdeferral_complete_1807836922.md) method to signal when your app has fulfilled the request.
 
 ## -examples
 

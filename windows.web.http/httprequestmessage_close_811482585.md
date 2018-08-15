@@ -13,7 +13,7 @@ public void Close()
 Closes the [HttpRequestMessage](httprequestmessage.md) instance and releases allocated resources.
 
 ## -remarks
-The [Close](httprequestmessage_close.md) method releases allocated resources used by the [HttpRequestMessage](httprequestmessage.md) instance. The [Close](httprequestmessage_close.md) method can manage the lifetime of system resources (memory for the [HttpRequestMessage](httprequestmessage.md), for example) used by a Windows Runtime object.
+The [Close](httprequestmessage_close_811482585.md) method releases allocated resources used by the [HttpRequestMessage](httprequestmessage.md) instance. The [Close](httprequestmessage_close_811482585.md) method can manage the lifetime of system resources (memory for the [HttpRequestMessage](httprequestmessage.md), for example) used by a Windows Runtime object.
 
 In the .NET Framework 4.5, this method projects as the [Dispose](httprequestmessage_dispose.md) method. In Visual C++ component extensions (C++/CX), this method projects as the destructor (delete operator).
 

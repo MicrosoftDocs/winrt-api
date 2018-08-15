@@ -24,19 +24,19 @@ The [DeviceServicingTrigger](deviceservicingtrigger.md) background task allows y
 > This trigger cannot be used with single-process background tasks.
 
 ## -remarks
-Certain policies are enforced by Windows to ensure user consent when updating their peripheral devices. Additional polices are enforced to preserve user battery life when syncing and updating peripheral devices. The [DeviceServicingTrigger](deviceservicingtrigger_deviceservicingtrigger.md) background task is subject to the following policies:
+Certain policies are enforced by Windows to ensure user consent when updating their peripheral devices. Additional polices are enforced to preserve user battery life when syncing and updating peripheral devices. The [DeviceServicingTrigger](deviceservicingtrigger_deviceservicingtrigger_1221375020.md) background task is subject to the following policies:
 
-+ The [DeviceServicingTrigger](deviceservicingtrigger_deviceservicingtrigger.md) background task requires user consent every time it's triggered.
-+ Your device must be connected or paired with the PC and available when requesting the [DeviceServicingTrigger](deviceservicingtrigger_deviceservicingtrigger.md).
-+ Your app is allowed a maximum of 30 minutes (wall clock) of background activity for device updates with [DeviceServicingTrigger](deviceservicingtrigger_deviceservicingtrigger.md)
-+ Your app is not allowed to request a [DeviceServicingTrigger](deviceservicingtrigger_deviceservicingtrigger.md) background task while your app is not in the foreground.
-+ Your app can only run one [DeviceServicingTrigger](deviceservicingtrigger_deviceservicingtrigger.md) at a time. Attempting to create a second [DeviceServicingTrigger](deviceservicingtrigger_deviceservicingtrigger.md) will raise an exception.
++ The [DeviceServicingTrigger](deviceservicingtrigger_deviceservicingtrigger_1221375020.md) background task requires user consent every time it's triggered.
++ Your device must be connected or paired with the PC and available when requesting the [DeviceServicingTrigger](deviceservicingtrigger_deviceservicingtrigger_1221375020.md).
++ Your app is allowed a maximum of 30 minutes (wall clock) of background activity for device updates with [DeviceServicingTrigger](deviceservicingtrigger_deviceservicingtrigger_1221375020.md)
++ Your app is not allowed to request a [DeviceServicingTrigger](deviceservicingtrigger_deviceservicingtrigger_1221375020.md) background task while your app is not in the foreground.
++ Your app can only run one [DeviceServicingTrigger](deviceservicingtrigger_deviceservicingtrigger_1221375020.md) at a time. Attempting to create a second [DeviceServicingTrigger](deviceservicingtrigger_deviceservicingtrigger_1221375020.md) will raise an exception.
 + The PC's battery must have more than 33% capacity remaining, or the PC must be on A/C power.
-+ [DeviceServicingTrigger](deviceservicingtrigger_deviceservicingtrigger.md) background tasks may be canceled by Windows when these policy requirements are no longer met, including a maximum amount of wall clock background time.
++ [DeviceServicingTrigger](deviceservicingtrigger_deviceservicingtrigger_1221375020.md) background tasks may be canceled by Windows when these policy requirements are no longer met, including a maximum amount of wall clock background time.
 > [!NOTE]
-> UWP app that intend to use the [DeviceServicingTrigger](deviceservicingtrigger_deviceservicingtrigger.md) background task must also be a privileged app for the device. App privilege is specified in the device metadata for a peripheral device by the device manufacturer. When a UWP app attempts to trigger the [DeviceServicingTrigger](deviceservicingtrigger_deviceservicingtrigger.md) background task, Windows will validate that the calling app is the privileged app for the device it is attempting to update. If the app is not privileged for the device then Windows will not allow the background task to launch.
+> UWP app that intend to use the [DeviceServicingTrigger](deviceservicingtrigger_deviceservicingtrigger_1221375020.md) background task must also be a privileged app for the device. App privilege is specified in the device metadata for a peripheral device by the device manufacturer. When a UWP app attempts to trigger the [DeviceServicingTrigger](deviceservicingtrigger_deviceservicingtrigger_1221375020.md) background task, Windows will validate that the calling app is the privileged app for the device it is attempting to update. If the app is not privileged for the device then Windows will not allow the background task to launch.
 
-For detailed information about app privilege and the policy checks enforced by Windows for the [DeviceServicingTrigger](deviceservicingtrigger_deviceservicingtrigger.md) background task see [Device sync and update for UWP device apps](http://go.microsoft.com/fwlink/p/?LinkId=306619 ).
+For detailed information about app privilege and the policy checks enforced by Windows for the [DeviceServicingTrigger](deviceservicingtrigger_deviceservicingtrigger_1221375020.md) background task see [Device sync and update for UWP device apps](http://go.microsoft.com/fwlink/p/?LinkId=306619 ).
 
 ## -examples
 

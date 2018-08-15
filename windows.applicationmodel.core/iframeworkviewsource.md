@@ -13,7 +13,7 @@ public interface IFrameworkViewSource :
 Defines a factory for view provider objects.
 
 ## -remarks
-Instances of objects that implement this class are provided to the app object's [CoreApplication.Run](coreapplication_run.md) method when the app starts, which uses it to create the views used by the app.
+Instances of objects that implement this class are provided to the app object's [CoreApplication.Run](coreapplication_run_1480028297.md) method when the app starts, which uses it to create the views used by the app.
 
 ```cppwinrt
 struct App : implements<App, IFrameworkViewSource, IFrameworkView>

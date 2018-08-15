@@ -16,7 +16,7 @@ public class ThreadNetworkContext : Windows.Foundation.IClosable, Windows.Securi
 A protected network context for an enterprise identity. The creation of the context tags all network connections made thereafter on the current thread with the identity, and allows access to enterprise resources that are access controlled by the enterprise's policy.
 
 > [!NOTE]
-> Although  is attributed as being agile, [Close](threadnetworkcontext_close.md) (or ) must be called on the originating thread in order to avoid an exception.
+> Although  is attributed as being agile, [Close](threadnetworkcontext_close_811482585.md) (or ) must be called on the originating thread in order to avoid an exception.
 
 ## -remarks
 

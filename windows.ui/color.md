@@ -79,7 +79,7 @@ Gets or sets the **sRGB** blue channel value of the color.
 [Color](color.md) is a Windows Runtime structure that represents a color that has four channels: **A** (alpha), **R** (red), **G** (green), **B** (blue). Each of the values is stored as a **Byte** type with value 0-255.
 
 [Color](color.md) values are used in these features and scenarios:
-+ Colors for start screens and general UI (for example [SecondaryTile.BackgroundColor](../windows.ui.startscreen/secondarytile_backgroundcolor.md) and [UISettings.UIElementColor](../windows.ui.viewmanagement/uisettings_uielementcolor.md)). These can be used in JavaScript.
++ Colors for start screens and general UI (for example [SecondaryTile.BackgroundColor](../windows.ui.startscreen/secondarytile_backgroundcolor.md) and [UISettings.UIElementColor](../windows.ui.viewmanagement/uisettings_uielementcolor_197668507.md)). These can be used in JavaScript.
 + Color values for the Windows 8 ink system. Specifically, [InkDrawingAttributes.Color](../windows.ui.input.inking/inkdrawingattributes_color.md). This can be used in JavaScript.
 + Color values for XAML UI and UWP app using C++, C#, or Visual Basic, particularly for brushes. These API can't be used in JavaScript.
 + Defining color values that are used for interfaces representing text, in the [Windows.UI.Text](../windows.ui.text/windows_ui_text.md) namespace. These API can't be used in JavaScript.
@@ -109,7 +109,7 @@ The XAML object element usage (with initialization text) is useful for declaring
 
 If you are using a Microsoft .NET language (C# or Microsoft Visual Basic) then [Color](color.md) has a static method **FromArgb** that acts as a [Color](color.md) value generator. Also, the data members of [Color](color.md) are exposed as read-write properties.
 
-If you are programming with C++, either Visual C++ component extensions (C++/CX) or WRL, then only the data member fields exist as members of [Color](color.md), and you cannot use the utility methods or properties listed in the members table. C++ code can use an equivalent [FromArgb](colorhelper_fromargb.md) method on the [ColorHelper](colorhelper.md) class, and the [Platform::Object](https://docs.microsoft.com/en-us/cpp/cppcx/platform-object-class) methods.
+If you are programming with C++, either Visual C++ component extensions (C++/CX) or WRL, then only the data member fields exist as members of [Color](color.md), and you cannot use the utility methods or properties listed in the members table. C++ code can use an equivalent [FromArgb](colorhelper_fromargb_1449236110.md) method on the [ColorHelper](colorhelper.md) class, and the [Platform::Object](https://docs.microsoft.com/en-us/cpp/cppcx/platform-object-class) methods.
 
 ### ToString behavior for Color
 

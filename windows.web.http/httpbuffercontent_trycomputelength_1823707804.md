@@ -20,7 +20,7 @@ The length in bytes of the [HttpBufferContent](httpbuffercontent.md).
 **true** if *length* is a valid length; otherwise, **false**.
 
 ## -remarks
-The [TryComputeLength](httpbuffercontent_trycomputelength.md) method calculates the content length for the [HttpBufferContent](httpbuffercontent.md). This is useful for content types that are easy to calculate the content length.
+The [TryComputeLength](httpbuffercontent_trycomputelength_1823707804.md) method calculates the content length for the [HttpBufferContent](httpbuffercontent.md). This is useful for content types that are easy to calculate the content length.
 
 ## -examples
 

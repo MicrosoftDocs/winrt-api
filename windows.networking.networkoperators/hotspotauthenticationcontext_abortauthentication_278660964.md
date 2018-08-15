@@ -25,7 +25,7 @@ Aborts the current authentication attempt and disconnects the WLAN interface fro
 If **true**, Windows disables the auto-connect property for the corresponding WLAN profile and avoids future auto-connects to this hotspot. Otherwise, **false**.
 
 ## -remarks
-[AbortAuthentication](hotspotauthenticationcontext_abortauthentication.md) should be called when authentication credentials can not be provided through [IssueCredentials](hotspotauthenticationcontext_issuecredentials.md). Once [AbortAuthentication](hotspotauthenticationcontext_abortauthentication.md) is called, the authentication context is finalized and [IssueCredentials](hotspotauthenticationcontext_issuecredentials.md), [AbortAuthentication](hotspotauthenticationcontext_abortauthentication.md), or [SkipAuthentication](hotspotauthenticationcontext_SkipAuthentication.md) should not be called again.
+[AbortAuthentication](hotspotauthenticationcontext_abortauthentication_278660964.md) should be called when authentication credentials can not be provided through [IssueCredentials](hotspotauthenticationcontext_issuecredentials_808909449.md). Once [AbortAuthentication](hotspotauthenticationcontext_abortauthentication_278660964.md) is called, the authentication context is finalized and [IssueCredentials](hotspotauthenticationcontext_issuecredentials_808909449.md), [AbortAuthentication](hotspotauthenticationcontext_abortauthentication_278660964.md), or [SkipAuthentication](hotspotauthenticationcontext_SkipAuthentication.md) should not be called again.
 
 ## -examples
 

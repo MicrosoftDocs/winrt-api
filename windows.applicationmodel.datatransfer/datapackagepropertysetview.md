@@ -15,7 +15,7 @@ Gets the set of properties of a [DataPackageView](datapackageview.md) object.
 ## -remarks
 In addition to the content being shared, each instance of a [DataPackageView](datapackageview.md) object supports a set of properties. Target apps can use these properties to learn more about the content of the [DataPackageView](datapackageview.md).
 
-This class directly supports several default properties, such as a [thumbnail](datapackagepropertysetview_thumbnail.md), a [title](datapackagepropertysetview_title.md), and a [description](datapackagepropertysetview_description.md). Target apps can access specific properties through the [Lookup](datapackagepropertysetview_lookup.md) or [TryGetValue](datapackagepropertysetview_trygetvalue.md) methods.
+This class directly supports several default properties, such as a [thumbnail](datapackagepropertysetview_thumbnail.md), a [title](datapackagepropertysetview_title.md), and a [description](datapackagepropertysetview_description.md). Target apps can access specific properties through the [Lookup](datapackagepropertysetview_lookup_711408188.md) or [TryGetValue](datapackagepropertysetview_trygetvalue.md) methods.
 
 
 

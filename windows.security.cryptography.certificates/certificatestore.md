@@ -15,7 +15,7 @@ Represents a certificate store for an app.
 
 ## -remarks
 
-You can retrieve certificates from the certificate store using the [FindAllAsync](certificatestores_findallasync.md) method.
+You can retrieve certificates from the certificate store using the [FindAllAsync](certificatestores_findallasync_1029446703.md) method.
 
 ## -examples
 

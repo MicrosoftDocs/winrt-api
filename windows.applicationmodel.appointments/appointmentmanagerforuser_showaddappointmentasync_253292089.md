@@ -28,7 +28,7 @@ When this method completes, it returns a **String** object that represents the a
 ## -remarks
 When you call this method, the Appointment provider app displays in a light-dismiss pane that is hosted by your app.
 
-> On Windows Phone, this method behaves the same as [ShowEditNewAppointmentAsync](appointmentmanagerforuser_showeditnewappointmentasync.md), in that the fields in the Add Appointment UI are editable by the user.
+> On Windows Phone, this method behaves the same as [ShowEditNewAppointmentAsync](appointmentmanagerforuser_showeditnewappointmentasync_372535555.md), in that the fields in the Add Appointment UI are editable by the user.
 
 ## -examples
 

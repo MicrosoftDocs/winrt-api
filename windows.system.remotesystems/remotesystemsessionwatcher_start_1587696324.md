@@ -10,7 +10,7 @@ public void RemoteSystemSessionWatcher.Start()
 # Windows.System.RemoteSystems.RemoteSystemSessionWatcher.Start
 
 ## -description
-Starts watching for discoverable remote sessions. The discovery process runs until the [Stop](remotesystemsessionwatcher_stop.md) method is called. A [RemoteSystemSessionWatcher](RemoteSystemSessionWatcher.md) object can have its **Start** method called again at a later time.
+Starts watching for discoverable remote sessions. The discovery process runs until the [Stop](remotesystemsessionwatcher_stop_1201535524.md) method is called. A [RemoteSystemSessionWatcher](RemoteSystemSessionWatcher.md) object can have its **Start** method called again at a later time.
 
 ## -remarks
 

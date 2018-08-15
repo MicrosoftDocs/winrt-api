@@ -15,7 +15,7 @@ Removes all updates and causes the tile to display its default content as declar
 
 ## -remarks
 > [!NOTE]
-> This method does not stop periodic updates. If your tile is using periodic updates, you must also call [StopPeriodicUpdate](tileupdater_stopperiodicupdate.md) to prevent further updates.
+> This method does not stop periodic updates. If your tile is using periodic updates, you must also call [StopPeriodicUpdate](tileupdater_stopperiodicupdate_376301793.md) to prevent further updates.
 
 ## -examples
 

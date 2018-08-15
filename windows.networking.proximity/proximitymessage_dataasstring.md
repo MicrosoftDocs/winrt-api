@@ -17,7 +17,7 @@ Gets the message data as text.
 The message data as text.
 
 ## -remarks
-The [DataAsString](proximitymessage_dataasstring.md) property is available only if the binary data of the message contains only text (UTF8) characters. Otherwise, the [DataAsString](proximitymessage_dataasstring.md) property returns unpredictable results. You should not attempt to use the [DataAsString](proximitymessage_dataasstring.md) property unless you are certain the data was received as UTF8 encoded characters. You can send a message as UTF8 encoded characters using the [PublishMessage](proximitydevice_publishmessage.md) method.
+The [DataAsString](proximitymessage_dataasstring.md) property is available only if the binary data of the message contains only text (UTF8) characters. Otherwise, the [DataAsString](proximitymessage_dataasstring.md) property returns unpredictable results. You should not attempt to use the [DataAsString](proximitymessage_dataasstring.md) property unless you are certain the data was received as UTF8 encoded characters. You can send a message as UTF8 encoded characters using the [PublishMessage](proximitydevice_publishmessage_1881696512.md) method.
 
 ## -examples
 

@@ -27,9 +27,9 @@ Buffer that contains the derived key.
 
 ## -remarks
 Deriving keys requires that you use the [KeyDerivationAlgorithmProvider](keyderivationalgorithmprovider.md) and [KeyDerivationParameters](keyderivationparameters.md) classes. The following key derivation functions can be used:
-+ [BuildForPbkdf2](keyderivationparameters_buildforpbkdf2.md)
-+ [BuildForSP800108](keyderivationparameters_buildforsp800108.md)
-+ [BuildForSP80056a](keyderivationparameters_buildforsp80056a.md)
++ [BuildForPbkdf2](keyderivationparameters_buildforpbkdf2_636237279.md)
++ [BuildForSP800108](keyderivationparameters_buildforsp800108_1459175055.md)
++ [BuildForSP80056a](keyderivationparameters_buildforsp80056a_870294687.md)
 
 
 For a complete sample that contains the following code example, see the [KeyDerivationAlgorithmProvider](keyderivationalgorithmprovider.md) class.

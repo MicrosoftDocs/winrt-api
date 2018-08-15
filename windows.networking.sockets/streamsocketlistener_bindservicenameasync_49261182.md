@@ -34,4 +34,4 @@ The *protectionLevel* parameter must be set to **PlainSocket** for all sockets e
 ## -examples
 
 ## -see-also
-[BindEndpointAsync](streamsocketlistener_bindendpointasync.md), [BindServiceNameAsync(String)](streamsocketlistener_bindservicenameasync_673478814.md), [SocketProtectionLevel](socketprotectionlevel.md), [StreamSocketListenerInformation](streamsocketlistenerinformation.md)
+[BindEndpointAsync](streamsocketlistener_bindendpointasync_1396029045.md), [BindServiceNameAsync(String)](streamsocketlistener_bindservicenameasync_673478814.md), [SocketProtectionLevel](socketprotectionlevel.md), [StreamSocketListenerInformation](streamsocketlistenerinformation.md)

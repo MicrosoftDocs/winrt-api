@@ -22,7 +22,7 @@ The system doesn't notify an app when it's terminated, so your app must save its
 You should also release any exclusive resources, like file handles at suspend, so that they can be used by other apps while your app is suspended. Your app can also listen to the [Oncheckpoint](http://msdn.microsoft.com/library/a7620c81-f769-46e5-b030-dde21b8c2d5b) event to handle the app being suspended.
 
 > [!NOTE]
-> If you need to do asynchronous work when your app is being suspended, you will need to defer completion of suspend until after your work completes. You can use the [suspendingOperation.getDeferral](suspendingoperation_getdeferral.md) method to delay completion of suspend until after you complete the deferral.
+> If you need to do asynchronous work when your app is being suspended, you will need to defer completion of suspend until after your work completes. You can use the [suspendingOperation.getDeferral](suspendingoperation_getdeferral_254836512.md) method to delay completion of suspend until after you complete the deferral.
 
 ## -examples
 

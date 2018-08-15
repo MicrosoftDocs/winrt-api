@@ -13,7 +13,7 @@ public class DataRequestDeferral : Windows.ApplicationModel.DataTransfer.IDataRe
 Enables you to exchange content with a target app asynchronously.
 
 ## -remarks
-You get an instance of the [DataRequestDeferral](datarequestdeferral.md) class when you call the [getDeferral](datarequest_getdeferral.md) method of a [DataPackage.](datapackage.md)
+You get an instance of the [DataRequestDeferral](datarequestdeferral.md) class when you call the [getDeferral](datarequest_getdeferral_254836512.md) method of a [DataPackage.](datapackage.md)
 
 ## -examples
 This example shows how to get a [DataRequestDeferral](datarequestdeferral.md) object as part of sharing an image with a target app.

@@ -20,7 +20,7 @@ Use default behavior from the dependency property that uses the binding. In Wind
 The binding source is updated whenever the binding target value changes. This is detected automatically by the binding system.
 
 ### -field Explicit:2
-The binding source is updated only when you call the [BindingExpression.UpdateSource](bindingexpression_updatesource.md) method.
+The binding source is updated only when you call the [BindingExpression.UpdateSource](bindingexpression_updatesource_190615267.md) method.
 
 
 ### -field LostFocus:3

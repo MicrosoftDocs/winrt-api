@@ -24,7 +24,7 @@ An object that represents the input subsystem for interoperation purposes and ca
 
 ## -remarks
 > [!IMPORTANT]
-> You must call [CreateCoreIndependentInputSource](swapchainbackgroundpanel_createcoreindependentinputsource.md) from a non-UI thread, otherwise this method will fail.
+> You must call [CreateCoreIndependentInputSource](swapchainbackgroundpanel_createcoreindependentinputsource_467679991.md) from a non-UI thread, otherwise this method will fail.
 
 ## -examples
 

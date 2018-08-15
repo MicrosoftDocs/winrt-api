@@ -13,10 +13,10 @@ public void SetDefaultDrawingAttributes(Windows.UI.Input.Inking.InkDrawingAttrib
 ## -description
 Sets the default [InkDrawingAttributes](inkdrawingattributes.md) for all new ink strokes created after the current stroke.
 
-[SetDefaultDrawingAttributes](inkstrokebuilder_setdefaultdrawingattributes.md) does not affect the current stroke, or any existing strokes.
+[SetDefaultDrawingAttributes](inkstrokebuilder_setdefaultdrawingattributes_1436218448.md) does not affect the current stroke, or any existing strokes.
 
 > [!NOTE]
-> Use [SetDefaultDrawingAttributes](inkstrokebuilder_setdefaultdrawingattributes.md) when programmatically building strokes for both [InkPresenter](inkpresenter.md) and [InkManager](inkmanager.md) objects.
+> Use [SetDefaultDrawingAttributes](inkstrokebuilder_setdefaultdrawingattributes_1436218448.md) when programmatically building strokes for both [InkPresenter](inkpresenter.md) and [InkManager](inkmanager.md) objects.
 
 ## -parameters
 ### -param drawingAttributes

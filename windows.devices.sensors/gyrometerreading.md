@@ -13,7 +13,7 @@ public class GyrometerReading : Windows.Devices.Sensors.IGyrometerReading
 Represents a gyrometer reading.
 
 ## -remarks
-This object is accessed when you invoke the [GetCurrentReading](gyrometer_getcurrentreading.md) method; and, it is accessed when you retrieve the [Reading](gyrometerreadingchangedeventargs_reading.md) property of the [GyrometerReadingChangedEventArgs](gyrometerreadingchangedeventargs.md) object in the event callback method.
+This object is accessed when you invoke the [GetCurrentReading](gyrometer_getcurrentreading_1416488181.md) method; and, it is accessed when you retrieve the [Reading](gyrometerreadingchangedeventargs_reading.md) property of the [GyrometerReadingChangedEventArgs](gyrometerreadingchangedeventargs.md) object in the event callback method.
 
 ## -examples
 

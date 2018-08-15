@@ -18,7 +18,7 @@ Modifications made to any of the ink strokes in the stroke container are immedia
 ## -property-value
 Stores and manages one or more [InkStroke](inkstroke.md) objects.
 
-If custom dry mode is enabled ([ActivateCustomDrying](inkpresenter_activatecustomdrying.md)), [StrokeContainer](inkpresenter_strokecontainer.md) is null.
+If custom dry mode is enabled ([ActivateCustomDrying](inkpresenter_activatecustomdrying_1826048524.md)), [StrokeContainer](inkpresenter_strokecontainer.md) is null.
 
 ## -remarks
 The [StrokesCollected](inkpresenter_strokescollected.md) event is fired when ink strokes are processed ("wet" to "dry") on the UI thread.

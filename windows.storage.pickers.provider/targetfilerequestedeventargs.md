@@ -34,9 +34,9 @@ If your app, which is providing the save location, can't finish responding to th
 Your app, as the provider of the save location, can defer in order to respond to the event asynchronously by following these steps:
 
 1. Get a [targetFileRequest](targetfilerequest.md) using the [targetFileRequestedEventArgs.request](targetfilerequestedeventargs_request.md) property.
-1. Call [targetFileRequest.getDeferral](targetfilerequest_getdeferral.md) to get a [targetFileRequestDeferral](targetfilerequestdeferral.md) object.
+1. Call [targetFileRequest.getDeferral](targetfilerequest_getdeferral_254836512.md) to get a [targetFileRequestDeferral](targetfilerequestdeferral.md) object.
 1. Perform the steps needed to respond to the [targetfilerequested](filesavepickerui_targetfilerequested.md) event (described in the preceding section).
-1. Call [targetFileRequestDeferral.complete](targetfilerequestdeferral_complete.md) to signal that your app has finished responding to the [targetfilerequested](filesavepickerui_targetfilerequested.md) event.
+1. Call [targetFileRequestDeferral.complete](targetfilerequestdeferral_complete_1807836922.md) to signal that your app has finished responding to the [targetfilerequested](filesavepickerui_targetfilerequested.md) event.
 
 
 ## -examples
@@ -89,4 +89,4 @@ fileSavePickerUI.addEventListener("targetfilerequested", onTargetFileRequested, 
 In the example, `e` contains a [TargetFileRequestedEventArgs](targetfilerequestedeventargs.md) object.
 
 ## -see-also
-[FileSavePickerUI.TargetFileRequested event](filesavepickerui_targetfilerequested.md), [TargetFileRequest class](targetfilerequest.md), [TargetFileRequest.TargetFile  property](targetfilerequest_targetfile.md), [TargetFileRequest.GetDeferral method](targetfilerequest_getdeferral.md), [TargetFileRequestDeferral class](targetfilerequestdeferral.md), [TargetFileRequestDeferral.Complete method](targetfilerequestdeferral_complete.md), [Windows.Storage.StorageFile class](../windows.storage/storagefile.md)
+[FileSavePickerUI.TargetFileRequested event](filesavepickerui_targetfilerequested.md), [TargetFileRequest class](targetfilerequest.md), [TargetFileRequest.TargetFile  property](targetfilerequest_targetfile.md), [TargetFileRequest.GetDeferral method](targetfilerequest_getdeferral_254836512.md), [TargetFileRequestDeferral class](targetfilerequestdeferral.md), [TargetFileRequestDeferral.Complete method](targetfilerequestdeferral_complete_1807836922.md), [Windows.Storage.StorageFile class](../windows.storage/storagefile.md)

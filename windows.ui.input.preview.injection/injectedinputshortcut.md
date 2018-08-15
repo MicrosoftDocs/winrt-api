@@ -10,7 +10,7 @@ public enum Windows.UI.Input.Preview.Injection.InjectedInputShortcut : int
 # InjectedInputShortcut
 
 ## -description
-Specifies the system shortcuts for [InjectShortcut](inputinjector_injectshortcut.md).
+Specifies the system shortcuts for [InjectShortcut](inputinjector_injectshortcut_1050225526.md).
 
 ## -enum-fields
 ### -field Back:0

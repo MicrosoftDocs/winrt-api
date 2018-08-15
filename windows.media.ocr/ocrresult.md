@@ -14,7 +14,7 @@ public class OcrResult : Windows.Media.Ocr.IOcrResult
 Contains the results of Optical Character Recognition (OCR).
 
 ## -remarks
-When you call the [RecognizeAsync](ocrengine_recognizeasync.md) method of the [OcrEngine](ocrengine.md) class, the method returns an **OcrResult** object. The **OcrResult** contains a collection of [OcrLine](ocrline.md) objects, which you access through the [Lines](ocrresult_lines.md) property of the **OcrResult**. Each **OcrLine** object contains a collection of [OcrWord](ocrword.md) objects, which you access through the [Words](ocrline_words.md) property of each **OcrLine.**
+When you call the [RecognizeAsync](ocrengine_recognizeasync_614325911.md) method of the [OcrEngine](ocrengine.md) class, the method returns an **OcrResult** object. The **OcrResult** contains a collection of [OcrLine](ocrline.md) objects, which you access through the [Lines](ocrresult_lines.md) property of the **OcrResult**. Each **OcrLine** object contains a collection of [OcrWord](ocrword.md) objects, which you access through the [Words](ocrline_words.md) property of each **OcrLine.**
 
 ## -examples
 

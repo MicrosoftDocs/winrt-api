@@ -22,12 +22,12 @@ The inking behavior of one or more contact points. The default is [SimpleSingleP
 [SimpleMultiplePointer](inkpresenterpredefinedconfiguration.md) specifies that multi-pointer inking is supported. 
 
 > [!NOTE]
-> Multi-pointer inking requires ink input to be processed in custom drying mode. [ActivateCustomDrying](inkpresenter_activatecustomdrying.md) must be called before setting [SetPredefinedConfiguration](inkpresenter_setpredefinedconfiguration.md) to [SimpleMultiplePointer](inkpresenterpredefinedconfiguration.md).
+> Multi-pointer inking requires ink input to be processed in custom drying mode. [ActivateCustomDrying](inkpresenter_activatecustomdrying_1826048524.md) must be called before setting [SetPredefinedConfiguration](inkpresenter_setpredefinedconfiguration_1107454914.md) to [SimpleMultiplePointer](inkpresenterpredefinedconfiguration.md).
 
 ## -remarks
 #### Error codes
 ##### E_ILLEGAL_METHOD_CALL  (0x8000000E)
-Thrown if multi-pointer inking is enabled through [SetPredefinedConfiguration](inkpresenter_setpredefinedconfiguration.md) before [ActivateCustomDrying](inkpresenter_activatecustomdrying.md) is called.
+Thrown if multi-pointer inking is enabled through [SetPredefinedConfiguration](inkpresenter_setpredefinedconfiguration_1107454914.md) before [ActivateCustomDrying](inkpresenter_activatecustomdrying_1826048524.md) is called.
 
 ##### E_INVALIDARG  (0x80070057)
 An invalid parameter was specified. 

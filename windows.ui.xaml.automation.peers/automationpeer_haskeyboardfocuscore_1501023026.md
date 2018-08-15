@@ -10,7 +10,7 @@ virtual protected bool HasKeyboardFocusCore()
 # Windows.UI.Xaml.Automation.Peers.AutomationPeer.HasKeyboardFocusCore
 
 ## -description
-Provides the peer's behavior when a Microsoft UI Automation client calls [HasKeyboardFocus](automationpeer_haskeyboardfocus.md) or an equivalent Microsoft UI Automation client API.
+Provides the peer's behavior when a Microsoft UI Automation client calls [HasKeyboardFocus](automationpeer_haskeyboardfocus_1926443629.md) or an equivalent Microsoft UI Automation client API.
 
 ## -returns
 **true** if the element has keyboard focus; otherwise, **false**.

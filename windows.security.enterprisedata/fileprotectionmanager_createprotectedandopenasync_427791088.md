@@ -23,7 +23,7 @@ The folder into which to create the enterprise protected file.
 The desired name of the new enterprise protected file.
 
 ### -param identity
-The enterprise identity. This is an email address or domain that is managed. Your app should use [IsIdentityManaged](protectionpolicymanager_isidentitymanaged.md) to confirm that an email address or domain is managed.
+The enterprise identity. This is an email address or domain that is managed. Your app should use [IsIdentityManaged](protectionpolicymanager_isidentitymanaged_906801364.md) to confirm that an email address or domain is managed.
 
 ### -param collisionOption
 A [CreationCollisionOption](../windows.storage/creationcollisionoption.md) value that specifies what to do if *desiredName* already exists.
@@ -36,7 +36,7 @@ When the call to this method completes successfully, it returns a [ProtectedFile
 ## -examples
 
 ## -see-also
-[CreationCollisionOption](../windows.storage/creationcollisionoption.md), [IsIdentityManaged](protectionpolicymanager_isidentitymanaged.md), [ProtectedFileCreateResult](protectedfilecreateresult.md)
+[CreationCollisionOption](../windows.storage/creationcollisionoption.md), [IsIdentityManaged](protectionpolicymanager_isidentitymanaged_906801364.md), [ProtectedFileCreateResult](protectedfilecreateresult.md)
 
 ## -capabilities
 enterpriseDataPolicy

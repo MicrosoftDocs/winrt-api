@@ -20,7 +20,7 @@ A collection that contains the names of the properties to retrieve. The list of 
 When this method completes successfully, it returns a collection (type [IMap](../windows.foundation.collections/imap_2.md)) that contains the specified properties and values as key-value pairs. The return value of properties can be null.
 
 ## -remarks
-Expando properties can be retrieved by [RetrievePropertiesAsync](storageitemcontentproperties_retrievepropertiesasync.md). See the remarks under [SavePropertiesAsync(IIterable(IKeyValuePair))](storageitemcontentproperties_savepropertiesasync_132989229.md).
+Expando properties can be retrieved by [RetrievePropertiesAsync](storageitemcontentproperties_retrievepropertiesasync_507906171.md). See the remarks under [SavePropertiesAsync(IIterable(IKeyValuePair))](storageitemcontentproperties_savepropertiesasync_132989229.md).
 
 ## -examples
 

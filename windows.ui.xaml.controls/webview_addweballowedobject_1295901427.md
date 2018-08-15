@@ -28,9 +28,9 @@ Use this method to expose a native Windows Runtime object as a global parameter 
 
 
 
-The object passed into [AddWebAllowedObject](webview_addweballowedobject.md) must be imported from a [Windows Runtime component](http://msdn.microsoft.com/library/55887622-828b-4318-87f2-25592268f7c1) that is separate from the app assembly. This is necessary for the **AllowForWeb** attribute to be property identified by the [WebView](webview.md) security subsystem. If you use a class from your app project, [AddWebAllowedObject](webview_addweballowedobject.md) does not work.
+The object passed into [AddWebAllowedObject](webview_addweballowedobject_1295901427.md) must be imported from a [Windows Runtime component](http://msdn.microsoft.com/library/55887622-828b-4318-87f2-25592268f7c1) that is separate from the app assembly. This is necessary for the **AllowForWeb** attribute to be property identified by the [WebView](webview.md) security subsystem. If you use a class from your app project, [AddWebAllowedObject](webview_addweballowedobject_1295901427.md) does not work.
 
-You must call [AddWebAllowedObject](webview_addweballowedobject.md) every time [WebView](webview.md) is navigated to a new page that accesses the native object. You can use the [WebView.NavigationStarting](webview_navigationstarting.md) event to inject the object when navigation begins.
+You must call [AddWebAllowedObject](webview_addweballowedobject_1295901427.md) every time [WebView](webview.md) is navigated to a new page that accesses the native object. You can use the [WebView.NavigationStarting](webview_navigationstarting.md) event to inject the object when navigation begins.
 
 ## -examples
 This example shows how to decorate a class with the **AllowForWeb** attribute.

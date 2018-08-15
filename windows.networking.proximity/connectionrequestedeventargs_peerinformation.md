@@ -17,7 +17,7 @@ Gets the information for a peer that's requesting a connection.
 The information for a peer that's requesting a connection.
 
 ## -remarks
-Pass this reference to the [ConnectAsync](peerfinder_connectasync.md) method to accept the request.
+Pass this reference to the [ConnectAsync](peerfinder_connectasync_380619906.md) method to accept the request.
 
 ## -examples
 

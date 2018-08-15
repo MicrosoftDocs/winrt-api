@@ -20,7 +20,7 @@ The object that supplies the new XML definition for the tile's content.
 ## -remarks
 
 ## -examples
-The following example shows [Update](tileupdater_update.md) used to send a notification to the app's tile.
+The following example shows [Update](tileupdater_update_673402202.md) used to send a notification to the app's tile.
 
 ```javascript
 

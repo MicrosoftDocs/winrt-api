@@ -15,7 +15,7 @@ Explicitly invalidates this channel. Any notifications pushed to this channel af
 ## -remarks
 After it has been closed, the channel can never be used again. Channels that are closed through this method are no different than channels that have expired. To resume sending push notifications to this app, the app must request a new channel.
 
-Calling [Close](pushnotificationchannel_close.md) on a channel invalidates the underlying URI as well as any non-expired, non-closed URIs previously created for the app.
+Calling [Close](pushnotificationchannel_close_811482585.md) on a channel invalidates the underlying URI as well as any non-expired, non-closed URIs previously created for the app.
 
 ## -examples
 

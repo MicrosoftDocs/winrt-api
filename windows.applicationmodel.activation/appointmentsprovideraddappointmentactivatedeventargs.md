@@ -18,7 +18,7 @@ Provides data when an app is activated to add an appointment to the user’s cal
 > This type appears as [WebUIAppointmentsProviderAddAppointmentActivatedEventArgs](../windows.ui.webui/webuiappointmentsprovideraddappointmentactivatedeventargs.md).
 
 ## -remarks
-This object is accessed when you override the [OnActivated](../windows.ui.xaml/application_onactivated.md) method, [IActivatedEventArgs.Kind](iactivatedeventargs_kind.md) is **AppointmentsProvider**, and [IAppointmentsProviderActivatedEventArgs.Verb](iappointmentsprovideractivatedeventargs_verb.md) is equal to the value of the [AppointmentsProviderLaunchActionVerbs.AddAppointment](../windows.applicationmodel.appointments.appointmentsprovider/appointmentsproviderlaunchactionverbs_addappointment.md) property.
+This object is accessed when you override the [OnActivated](../windows.ui.xaml/application_onactivated_603737819.md) method, [IActivatedEventArgs.Kind](iactivatedeventargs_kind.md) is **AppointmentsProvider**, and [IAppointmentsProviderActivatedEventArgs.Verb](iappointmentsprovideractivatedeventargs_verb.md) is equal to the value of the [AppointmentsProviderLaunchActionVerbs.AddAppointment](../windows.applicationmodel.appointments.appointmentsprovider/appointmentsproviderlaunchactionverbs_addappointment.md) property.
 
 ## -examples
 

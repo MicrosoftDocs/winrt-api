@@ -20,7 +20,7 @@ Can be shown in the content catalog and consumed.
 (Xbox only) If multiple users are logged in and the content is blocked for at least one user, content is allowed with a warning displayed.
 
 ### -field Block:2
-Can be shown in the content catalog, but will be blocked by [RequestContentAccessAsync](ratedcontentrestrictions_requestcontentaccessasync.md).
+Can be shown in the content catalog, but will be blocked by [RequestContentAccessAsync](ratedcontentrestrictions_requestcontentaccessasync_637668410.md).
 
 ### -field Hide:3
 Can't be shown in the content catalog. It's rating is higher than the user's settings, determined by [MaxBrowsableAgeRating](contentrestrictionsbrowsepolicy_maxbrowsableagerating.md).

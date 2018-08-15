@@ -13,7 +13,7 @@ public void Start()
 Start monitoring data channels.
 
 ## -remarks
-Call the [Start](perceptionmonitor_start.md) method after initializing all of the channels by handling the [DataReceived](perceptionmonitorchannel_datareceived.md) event.
+Call the [Start](perceptionmonitor_start_1587696324.md) method after initializing all of the channels by handling the [DataReceived](perceptionmonitorchannel_datareceived.md) event.
 
 ## -examples
 

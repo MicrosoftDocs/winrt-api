@@ -8,7 +8,7 @@ public delegate void DataProviderHandler(Windows.ApplicationModel.DataTransfer.D
 # Windows.ApplicationModel.DataTransfer.DataProviderHandler
 
 ## -description
-Provides data when the target app requests it, instead of including the data in the [DataPackage](datapackage_datapackage.md) ahead of time. [ DataProviderHandler](dataproviderhandler.md) is used when the source app wants to avoid unnecessary work that is resource intensive, such as performing format conversions.
+Provides data when the target app requests it, instead of including the data in the [DataPackage](datapackage_datapackage_1221375020.md) ahead of time. [ DataProviderHandler](dataproviderhandler.md) is used when the source app wants to avoid unnecessary work that is resource intensive, such as performing format conversions.
 
 ## -parameters
 ### -param request

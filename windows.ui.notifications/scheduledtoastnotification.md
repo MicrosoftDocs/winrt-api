@@ -14,7 +14,7 @@ public class ScheduledToastNotification : Windows.UI.Notifications.IScheduledToa
 Contains the XML that defines the toast notification that will display at the scheduled time.
 
 ## -remarks
-Create and initialize a new instance of this object by calling [ScheduledToastNotification](scheduledtoastnotification_scheduledtoastnotification.md).
+Create and initialize a new instance of this object by calling [ScheduledToastNotification](scheduledtoastnotification_scheduledtoastnotification_1365784316.md).
 
 ## -examples
 The following example shows a toast notification scheduled to display in one hour.

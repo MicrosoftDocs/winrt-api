@@ -13,7 +13,7 @@ public class LightSensorReading : Windows.Devices.Sensors.ILightSensorReading
 Represents an ambient light–sensor reading.
 
 ## -remarks
-This object is accessed when you invoke the [GetCurrentReading](lightsensor_getcurrentreading.md) method; and, it is accessed when you retrieve the [Reading](lightsensorreadingchangedeventargs_reading.md) property of the [LightSensorReadingChangedEventArgs](lightsensorreadingchangedeventargs.md) object in the event callback method..
+This object is accessed when you invoke the [GetCurrentReading](lightsensor_getcurrentreading_1416488181.md) method; and, it is accessed when you retrieve the [Reading](lightsensorreadingchangedeventargs_reading.md) property of the [LightSensorReadingChangedEventArgs](lightsensorreadingchangedeventargs.md) object in the event callback method..
 
 ## -examples
 

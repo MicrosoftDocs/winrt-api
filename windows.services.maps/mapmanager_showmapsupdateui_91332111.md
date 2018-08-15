@@ -13,7 +13,7 @@ public void ShowMapsUpdateUI()
 Displays the UI that lets users update maps that were previously downloaded for offline use.
 
 ## -remarks
-See the remarks section of the [ShowDownloadedMapsUI](mapmanager_showdownloadedmapsui.md) method.
+See the remarks section of the [ShowDownloadedMapsUI](mapmanager_showdownloadedmapsui_1588128579.md) method.
 
 ## -examples
 

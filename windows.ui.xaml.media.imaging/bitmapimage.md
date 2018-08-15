@@ -11,7 +11,7 @@ public class BitmapImage : Windows.UI.Xaml.Media.Imaging.BitmapSource, Windows.U
 
 ## -description
 
-Provides the practical object source type for the [Image.Source](../windows.ui.xaml.controls/image_source.md) and [ImageBrush.ImageSource](../windows.ui.xaml.media/imagebrush_imagesource.md) properties. You can define a [BitmapImage](bitmapimage.md) by using a Uniform Resource Identifier (URI) that references an image source file, or by calling [SetSourceAsync](bitmapsource_setsourceasync.md) and supplying a stream.
+Provides the practical object source type for the [Image.Source](../windows.ui.xaml.controls/image_source.md) and [ImageBrush.ImageSource](../windows.ui.xaml.media/imagebrush_imagesource.md) properties. You can define a [BitmapImage](bitmapimage.md) by using a Uniform Resource Identifier (URI) that references an image source file, or by calling [SetSourceAsync](bitmapsource_setsourceasync_1118221574.md) and supplying a stream.
 
 ## -xaml-syntax
 
@@ -37,7 +37,7 @@ The [BitmapImage](bitmapimage.md) class represents an abstraction so that an ima
 
 + Use the [BitmapImage(Uri)](bitmapimage_bitmapimage_843413386.md) constructor rather than the default constructor. Although it's a constructor you can think of this as having an implicit asynchronous behavior: the [BitmapImage](bitmapimage.md) won't be ready for use until it raises an [ImageOpened](bitmapimage_imageopened.md) event that indicates a successful async source set operation.
 + Set the [UriSource](bitmapimage_urisource.md) property. As with using the **Uri** constructor, this action is implicitly asynchronous, and the [BitmapImage](bitmapimage.md) won't be ready for use until it raises an [ImageOpened](bitmapimage_imageopened.md) event.
-+ Use [SetSourceAsync](bitmapsource_setsourceasync.md). This method is explicitly asynchronous.
++ Use [SetSourceAsync](bitmapsource_setsourceasync_1118221574.md). This method is explicitly asynchronous.
  The properties where you might use a [BitmapImage](bitmapimage.md), such as [Image.Source](../windows.ui.xaml.controls/image_source.md), are designed for this asynchronous behavior, and won't throw exceptions if they are set using a [BitmapImage](bitmapimage.md) that doesn't have a complete source yet. Rather than handling exceptions, you should handle [ImageOpened](bitmapimage_imageopened.md) or [ImageFailed](bitmapimage_imagefailed.md) events either on the [BitmapImage](bitmapimage.md) directly or on the control that uses the source (if those events are available on the control class).
 
 [ImageFailed](bitmapimage_imagefailed.md) and [ImageOpened](bitmapimage_imageopened.md) are mutually exclusive. One event or the other will always be raised whenever a [BitmapImage](bitmapimage.md) object has its source value set or reset.
@@ -54,7 +54,7 @@ Starting in Windows 10, version 1607, the XAML [Image](../windows.ui.xaml.contr
 
 + Use the [AutoPlay](bitmapimage_autoplay.md) property, which defaults to **true**, to specify whether or not an animated bitmap plays as soon as it loads.
 + Use the [IsAnimatedBitmap](bitmapimage_isanimatedbitmap.md) property to check whether a bitmap is animated.
-+ Use the [IsPlaying](bitmapimage_isplaying.md) property along with the [Play](bitmapimage_play.md) and [Stop](bitmapimage_stop.md) methods to control the playback of an animated bitmap.
++ Use the [IsPlaying](bitmapimage_isplaying.md) property along with the [Play](bitmapimage_play_848564459.md) and [Stop](bitmapimage_stop_1201535524.md) methods to control the playback of an animated bitmap.
 
 > [!NOTE]
 > For most apps, we recommend that you set [AutoPlay](bitmapimage_autoplay.md) to **false** if [UISettings.AnimationsEnabled](../windows.ui.viewmanagement/uisettings_animationsenabled.md) is **false**, to support the accessibility needs of users. Do not do this if the content of the animated GIF is important for the usability of your app.

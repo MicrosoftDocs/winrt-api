@@ -42,7 +42,7 @@ Some of the same visual effects that you can produce with [RenderTransform](uiel
 This XAML example shows how to set [RenderTransformOrigin](uielement_rendertransformorigin.md) on the element in the initial XAML. An animation that runs on an initially default [CompositeTransform](../windows.ui.xaml.media/compositetransform.md) can use the [RenderTransformOrigin](uielement_rendertransformorigin.md) to modify both the scale and rotate transforms to apply to the circles's center rather than the default 0,0 coordinate origin. This makes it appear as if the circle is spinning around its center and shrinking in place. 
 
 > [!NOTE]
-> To start the animation you'd need to retrieve it from [Resources](frameworkelement_resources.md) and call [Begin](../windows.ui.xaml.media.animation/storyboard_begin.md); that code is not shown.
+> To start the animation you'd need to retrieve it from [Resources](frameworkelement_resources.md) and call [Begin](../windows.ui.xaml.media.animation/storyboard_begin_1621727531.md); that code is not shown.
 
 ```xaml
         <Ellipse x:Name="e1" RenderTransformOrigin=".5,.5" Height="100" Width="100" Loaded="e1_Loaded_1">

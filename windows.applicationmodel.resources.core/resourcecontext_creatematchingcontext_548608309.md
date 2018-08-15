@@ -11,7 +11,7 @@ public Windows.ApplicationModel.Resources.Core.ResourceContext CreateMatchingCon
 
 ## -description
 > [!NOTE]
-> CreateMatchingContext may be altered or unavailable for releases after Windows 8.1. Instead, use [ResourceContext.GetForCurrentView.OverrideToMatch](resourcecontext_overridetomatch.md).
+> CreateMatchingContext may be altered or unavailable for releases after Windows 8.1. Instead, use [ResourceContext.GetForCurrentView.OverrideToMatch](resourcecontext_overridetomatch_438819547.md).
 
 Creates a new [ResourceContext](resourcecontext.md) that matches a supplied set of qualifiers.
 

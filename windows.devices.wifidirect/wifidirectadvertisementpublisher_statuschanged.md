@@ -18,4 +18,4 @@ Notification that the status of the [WiFiDirectAdvertisementPublisher](wifidirec
 ## -examples
 
 ## -see-also
-[WiFiDirectAdvertisementPublisher.Start](wifidirectadvertisementpublisher_start.md), [WiFiDirectAdvertisementPublisher.Status](wifidirectadvertisementpublisher_status.md), [WiFiDirectAdvertisementPublisher.Stop](wifidirectadvertisementpublisher_stop.md), [WiFiDirectAdvertisementPublisherStatus](wifidirectadvertisementpublisherstatus.md)
+[WiFiDirectAdvertisementPublisher.Start](wifidirectadvertisementpublisher_start_1587696324.md), [WiFiDirectAdvertisementPublisher.Status](wifidirectadvertisementpublisher_status.md), [WiFiDirectAdvertisementPublisher.Stop](wifidirectadvertisementpublisher_stop_1201535524.md), [WiFiDirectAdvertisementPublisherStatus](wifidirectadvertisementpublisherstatus.md)

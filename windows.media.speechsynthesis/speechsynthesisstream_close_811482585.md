@@ -13,7 +13,7 @@ public void Close()
 Releases system resources that are exposed by [SpeechSynthesisStream](speechsynthesisstream.md).
 
 ## -remarks
-All outstanding asynchronous operations must complete before calling [Close](speechsynthesisstream_close.md).
+All outstanding asynchronous operations must complete before calling [Close](speechsynthesisstream_close_811482585.md).
 
 ## -examples
 

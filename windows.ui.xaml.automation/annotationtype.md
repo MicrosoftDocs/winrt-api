@@ -84,7 +84,7 @@ A circular reference error.
 
 
 ## -remarks
-This enumeration is used as an input value to the [GetAnnotationTypes](../windows.ui.xaml.automation.provider/ispreadsheetitemprovider_getannotationtypes.md) method.
+This enumeration is used as an input value to the [GetAnnotationTypes](../windows.ui.xaml.automation.provider/ispreadsheetitemprovider_getannotationtypes_911639376.md) method.
 
 The values in [AnnotationType](annotationtype.md) parallel the values in the [Annotation Type Identifiers](http://msdn.microsoft.com/library/46948b7c-ec9f-4b55-b769-62ee8be11d33) constants.
 

@@ -10,7 +10,7 @@ public class VpnCustomPromptText : Windows.Networking.Vpn.IVpnCustomPromptElemen
 # Windows.Networking.Vpn.VpnCustomPromptText
 
 ## -description
-Represents a text UI element used in the [VpnChannel.RequestCustomPromptAsync](vpnchannel_requestcustompromptasync.md) method.
+Represents a text UI element used in the [VpnChannel.RequestCustomPromptAsync](vpnchannel_requestcustompromptasync_598226399.md) method.
 
 ## -remarks
 

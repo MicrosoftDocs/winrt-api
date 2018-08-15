@@ -17,7 +17,7 @@ Appends a binary encoded string to the data stored in the [CryptographicHash](cr
 Data to append.
 
 ## -remarks
-Call the [GetValueAndReset](cryptographichash_getvalueandreset.md) method to retrieve data from the [CryptographicHash](cryptographichash.md) object and empty the buffer.
+Call the [GetValueAndReset](cryptographichash_getvalueandreset_1479544497.md) method to retrieve data from the [CryptographicHash](cryptographichash.md) object and empty the buffer.
 
 ## -examples
 

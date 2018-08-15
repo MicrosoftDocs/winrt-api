@@ -13,7 +13,7 @@ public class MapTileBitmapRequestedEventArgs : Windows.UI.Xaml.Controls.Maps.IMa
 Provides data for the [CustomMapTileDataSource.BitmapRequested](custommaptiledatasource_bitmaprequested.md) event.
 
 ## -remarks
-For more info about using the [CustomMapTileDataSource](custommaptiledatasource_custommaptiledatasource.md), see the [PixelData](maptilebitmaprequest_pixeldata.md) property of the [MapTileBitmapRequest](maptilebitmaprequest.md).
+For more info about using the [CustomMapTileDataSource](custommaptiledatasource_custommaptiledatasource_1221375020.md), see the [PixelData](maptilebitmaprequest_pixeldata.md) property of the [MapTileBitmapRequest](maptilebitmaprequest.md).
 
 ## -examples
 

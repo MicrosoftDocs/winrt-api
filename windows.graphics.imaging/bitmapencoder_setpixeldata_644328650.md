@@ -35,7 +35,7 @@ The vertical resolution, in dots per inch, of the pixel data.
 The pixel data.
 
 ## -remarks
-This method is synchronous because data is not committed until [FlushAsync](bitmapencoder_flushasync.md), [GoToNextFrameAsync](bitmapencoder_gotonextframeasync_718000702.md) or [GoToNextFrameAsync(IIterable(IKeyValuePair))](bitmapencoder_gotonextframeasync_1063265177.md) is called.
+This method is synchronous because data is not committed until [FlushAsync](bitmapencoder_flushasync_491532439.md), [GoToNextFrameAsync](bitmapencoder_gotonextframeasync_718000702.md) or [GoToNextFrameAsync(IIterable(IKeyValuePair))](bitmapencoder_gotonextframeasync_1063265177.md) is called.
 
 Setting a pixel format of **Unknown** will result in failure.
 

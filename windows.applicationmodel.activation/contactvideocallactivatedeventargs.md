@@ -16,7 +16,7 @@ Provides data when an app is activated to video call a contact.
 > This type appears as [WebUIContactVideoCallActivatedEventArgs](../windows.ui.webui/webuicontactvideocallactivatedeventargs.md).
 
 ## -remarks
-Windows 8.1 allows users to video call their contacts from the [Contact Card](../windows.applicationmodel.contacts/contactmanager_showcontactcard.md) or Windows Search experience. By implementing the contact video call activation contract, Windows can launch your app to make video calls for the user.
+Windows 8.1 allows users to video call their contacts from the [Contact Card](../windows.applicationmodel.contacts/contactmanager_showcontactcard_1968125937.md) or Windows Search experience. By implementing the contact video call activation contract, Windows can launch your app to make video calls for the user.
 
 To receive video call activations, your app must register for the "windows.contact" extension category in its manifest. Under this extension, you must include a "LaunchAction" element with the "Verb" attribute equal to "videoCall." You can then specify the "ServiceId" element to specify the domain name of the service that your app can video call over, for example "skype.com."
 

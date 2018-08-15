@@ -13,7 +13,7 @@ public void PageUp()
 Scrolls content by one page towards the top.
 
 ## -remarks
-This implementation calls [SetVerticalOffset](carouselpanel_setverticaloffset.md) using a value for "page" that is same as the [ViewportHeight](carouselpanel_viewportheight.md).
+This implementation calls [SetVerticalOffset](carouselpanel_setverticaloffset_1333703417.md) using a value for "page" that is same as the [ViewportHeight](carouselpanel_viewportheight.md).
 
 ## -examples
 

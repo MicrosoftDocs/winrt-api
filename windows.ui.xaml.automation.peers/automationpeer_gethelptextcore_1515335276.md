@@ -10,7 +10,7 @@ virtual protected string GetHelpTextCore()
 # Windows.UI.Xaml.Automation.Peers.AutomationPeer.GetHelpTextCore
 
 ## -description
-Provides the peer's behavior when a Microsoft UI Automation client calls [GetHelpText](automationpeer_gethelptext.md) or an equivalent Microsoft UI Automation client API.
+Provides the peer's behavior when a Microsoft UI Automation client calls [GetHelpText](automationpeer_gethelptext_1251901404.md) or an equivalent Microsoft UI Automation client API.
 
 ## -returns
 The help text.

@@ -16,7 +16,7 @@ Creates [BadgeUpdater](badgeupdater.md) objects that you use to manipulate a til
 ## -remarks
 
 ## -examples
-The following example shows the use of [GetTemplateContent](badgeupdatemanager_gettemplatecontent.md) to create the content for a numeric badge and [CreateBadgeUpdaterForApplication](badgeupdatemanager_createbadgeupdaterforapplication_1263267855.md) to send a numeric badge update to the calling app's tile.
+The following example shows the use of [GetTemplateContent](badgeupdatemanager_gettemplatecontent_2049200015.md) to create the content for a numeric badge and [CreateBadgeUpdaterForApplication](badgeupdatemanager_createbadgeupdaterforapplication_1263267855.md) to send a numeric badge update to the calling app's tile.
 
 ```javascript
 

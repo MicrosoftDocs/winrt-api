@@ -18,7 +18,7 @@ Stops publishing a message.
 The publication ID for the message.
 
 ## -remarks
-The publication ID for a message is returned from the [PublishMessage](proximitydevice_publishmessage.md), [PublishBinaryMessage](proximitydevice_publishbinarymessage.md), and [PublishUriMessage](proximitydevice_publishurimessage.md) methods.
+The publication ID for a message is returned from the [PublishMessage](proximitydevice_publishmessage_1881696512.md), [PublishBinaryMessage](proximitydevice_publishbinarymessage_285088637.md), and [PublishUriMessage](proximitydevice_publishurimessage_632953271.md) methods.
 
 ## -examples
 

@@ -27,7 +27,7 @@ An asynchronous operation that returns an [IVectorView](../windows.foundation.co
 
 ## -remarks
 > [!IMPORTANT]
-> For performance reasons, [FindAppointmentsAsync](appointmentcalendar_findappointmentsasync.md) will not load most properties. To load specific properties, add values to the [FindAppointmentsOptions.FetchProperties](findappointmentsoptions_fetchproperties.md) member in the *options* parameter.
+> For performance reasons, [FindAppointmentsAsync](appointmentcalendar_findappointmentsasync_1659613836.md) will not load most properties. To load specific properties, add values to the [FindAppointmentsOptions.FetchProperties](findappointmentsoptions_fetchproperties.md) member in the *options* parameter.
 
 ## -examples
 Set [FindAppointmentOptions.FetchProperties](findappointmentsoptions_fetchproperties.md) to specify the values to retrieve.

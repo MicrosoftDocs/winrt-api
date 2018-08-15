@@ -17,7 +17,7 @@ Forces content in the view to scroll until the item that's specified by [Semanti
 The item in the view to scroll to.
 
 ## -remarks
-You use the [MakeVisible](hub_makevisible.md) method to bring an item into view when the [Hub](hub.md) control is used as a view in a [SemanticZoom](semanticzoom.md) control. To bring an item into view when the [Hub](hub.md) control is not used in a [SemanticZoom](semanticzoom.md), use the [ScrollToSection](hub_scrolltosection.md) method instead.
+You use the [MakeVisible](hub_makevisible_1148837317.md) method to bring an item into view when the [Hub](hub.md) control is used as a view in a [SemanticZoom](semanticzoom.md) control. To bring an item into view when the [Hub](hub.md) control is not used in a [SemanticZoom](semanticzoom.md), use the [ScrollToSection](hub_scrolltosection_614196066.md) method instead.
 
 ## -examples
 

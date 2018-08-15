@@ -10,7 +10,7 @@ virtual protected bool IsKeyboardFocusableCore()
 # Windows.UI.Xaml.Automation.Peers.AutomationPeer.IsKeyboardFocusableCore
 
 ## -description
-Provides the peer's behavior when a Microsoft UI Automation client calls [IsKeyboardFocusable](automationpeer_iskeyboardfocusable.md) or an equivalent Microsoft UI Automation client API.
+Provides the peer's behavior when a Microsoft UI Automation client calls [IsKeyboardFocusable](automationpeer_iskeyboardfocusable_2030365113.md) or an equivalent Microsoft UI Automation client API.
 
 ## -returns
 **true** if the element can accept keyboard focus; otherwise, **false**.

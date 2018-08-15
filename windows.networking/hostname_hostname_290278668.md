@@ -27,7 +27,7 @@ The *hostName* parameter can contain one of the following:
 + A string that contains an IPv4 or an IPv6 network address of the host. An IPv4 address string is in dotted-decimal notation ("192.168.1.111", for example). An IPv6 address is in hexadecimal notation ("21DA:00D3:0010:2F3B:02AA:00FF:FE28:9C5A", for example).
 If the *hostName* parameter is the "localhost" string, this represents all loopback addresses on the local computer.
 
-The [NetworkInformation.GetHostNames](../windows.networking.connectivity/networkinformation_gethostnames.md) method in the [Windows.Networking.Connectivity](../windows.networking.connectivity/windows_networking_connectivity.md) namespace can be used to retrieve a list of host names or IP addresses associated with the local machine. One of these hostnames or IP addresses can then be used for the *hostName* parameter.
+The [NetworkInformation.GetHostNames](../windows.networking.connectivity/networkinformation_gethostnames_136280557.md) method in the [Windows.Networking.Connectivity](../windows.networking.connectivity/windows_networking_connectivity.md) namespace can be used to retrieve a list of host names or IP addresses associated with the local machine. One of these hostnames or IP addresses can then be used for the *hostName* parameter.
 
 The constructor will fail if the *hostName* parameter is null or contains an empty string.
 

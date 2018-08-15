@@ -18,7 +18,7 @@ Represents an immutable view into a vector.
 > This interface appears to .NET code as [System.Collections.Generic.IReadOnlyList<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ireadonlylist-1) due to .NET language projection. In any case where a Windows Runtime type has implemented [IVectorView&lt;T&gt;](ivectorview_1.md), .NET code can use the APIs of [IReadOnlyList<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ireadonlylist-1) instead.
 
 ## -remarks
-For read-write collections, the [IVectorView&lt;T&gt;](ivectorview_1.md) interface is still relevant, because the [IVector.GetView](ivector_1_getview.md) method returns an [IVectorView&lt;T&gt;](ivectorview_1.md) instance.
+For read-write collections, the [IVectorView&lt;T&gt;](ivectorview_1.md) interface is still relevant, because the [IVector.GetView](ivector_1_getview_37498667.md) method returns an [IVectorView&lt;T&gt;](ivectorview_1.md) instance.
 
 When programming with .NET, this interface is hidden and developers should use the  interface if they want to implement a read-only vector/list type. In any case where a Windows Runtime type has implemented [IVectorView&lt;T&gt;](ivectorview_1.md), .NET code can use the APIs of  instead. This includes all the existing Windows Runtime API and also scenarios such as using the APIs of Windows Runtime components originally implemented in Visual C++ component extensions (C++/CX) from a C# or Visual Basic app.
 
@@ -29,4 +29,4 @@ When programming with .NET, this interface is hidden and developers should use t
 ## -examples
 
 ## -see-also
-[IIterable&lt;T&gt;](iiterable_1.md), [IVector.GetView](ivector_1_getview.md), , [Collections (C++/CX)](https://docs.microsoft.com/en-us/cpp/cppcx/collections-c-cx)
+[IIterable&lt;T&gt;](iiterable_1.md), [IVector.GetView](ivector_1_getview_37498667.md), , [Collections (C++/CX)](https://docs.microsoft.com/en-us/cpp/cppcx/collections-c-cx)

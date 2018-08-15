@@ -10,7 +10,7 @@ virtual protected bool IsControlElementCore()
 # Windows.UI.Xaml.Automation.Peers.AutomationPeer.IsControlElementCore
 
 ## -description
-Provides the peer's behavior when a Microsoft UI Automation client calls [IsControlElement](automationpeer_iscontrolelement.md) or an equivalent Microsoft UI Automation client API.
+Provides the peer's behavior when a Microsoft UI Automation client calls [IsControlElement](automationpeer_iscontrolelement_1004644794.md) or an equivalent Microsoft UI Automation client API.
 
 ## -returns
 **true** if the element is a control; otherwise, **false**.

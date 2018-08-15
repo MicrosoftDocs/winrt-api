@@ -10,7 +10,7 @@ public string ImageAlternateText { get; }
 # Windows.ApplicationModel.Search.Core.SearchSuggestion.ImageAlternateText
 
 ## -description
-Gets the value that was passed to the *imageAlternateText* parameter of the [AppendResultSuggestion](../windows.applicationmodel.search/searchsuggestioncollection_appendresultsuggestion.md) method.
+Gets the value that was passed to the *imageAlternateText* parameter of the [AppendResultSuggestion](../windows.applicationmodel.search/searchsuggestioncollection_appendresultsuggestion_603544202.md) method.
 
 ## -property-value
 The alternate text for [Image](searchsuggestion_image.md), or **null** if the search suggestion is not a **Result**.
@@ -20,4 +20,4 @@ The alternate text for [Image](searchsuggestion_image.md), or **null** if the se
 ## -examples
 
 ## -see-also
-[AppendResultSuggestion](../windows.applicationmodel.search/searchsuggestioncollection_appendresultsuggestion.md), [Image](searchsuggestion_image.md), [SearchBox](../windows.ui.xaml.controls/searchbox.md)
+[AppendResultSuggestion](../windows.applicationmodel.search/searchsuggestioncollection_appendresultsuggestion_603544202.md), [Image](searchsuggestion_image.md), [SearchBox](../windows.ui.xaml.controls/searchbox.md)

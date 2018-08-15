@@ -15,7 +15,7 @@ The result of a speech recognition session.
 
 ## -remarks
 
-Call the [SpeechRecognizer.RecognizeAsync](speechrecognizer_recognizeasync.md) or the [SpeechRecognizer.RecognizeWithUIAsync](speechrecognizer_recognizewithuiasync.md) method to obtain an instance of this class.
+Call the [SpeechRecognizer.RecognizeAsync](speechrecognizer_recognizeasync_748427924.md) or the [SpeechRecognizer.RecognizeWithUIAsync](speechrecognizer_recognizewithuiasync_1152231907.md) method to obtain an instance of this class.
 
 ## -examples
 

@@ -35,4 +35,4 @@ The receipt printer station can feed the mark-sensed paper to the top of the for
 ## -examples
 
 ## -see-also
-[ReceiptPrinterCapabilities.MarkFeedCapabilities](receiptprintercapabilities_markfeedcapabilities.md), [ReceiptPrintJob.MarkFeed](receiptprintjob_markfeed.md), [PosPrinterMarkFeedKind](posprintermarkfeedkind.md)
+[ReceiptPrinterCapabilities.MarkFeedCapabilities](receiptprintercapabilities_markfeedcapabilities.md), [ReceiptPrintJob.MarkFeed](receiptprintjob_markfeed_40048292.md), [PosPrinterMarkFeedKind](posprintermarkfeedkind.md)

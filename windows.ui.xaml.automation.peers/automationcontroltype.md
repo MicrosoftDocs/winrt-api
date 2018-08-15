@@ -10,7 +10,7 @@ public enum Windows.UI.Xaml.Automation.Peers.AutomationControlType : int
 # AutomationControlType
 
 ## -description
-Specifies the control type that is exposed to the Microsoft UI Automation client. Used by [GetAutomationControlType](automationpeer_getautomationcontroltype.md).
+Specifies the control type that is exposed to the Microsoft UI Automation client. Used by [GetAutomationControlType](automationpeer_getautomationcontroltype_1156384152.md).
 
 ## -enum-fields
 ### -field Button:0
@@ -142,4 +142,4 @@ A semantic zoom control.
 ## -examples
 
 ## -see-also
-[GetAutomationControlTypeCore](automationpeer_getautomationcontroltypecore.md), [GetAutomationControlType](automationpeer_getautomationcontroltype.md), [Custom automation peers](http://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4)
+[GetAutomationControlTypeCore](automationpeer_getautomationcontroltypecore_1718556232.md), [GetAutomationControlType](automationpeer_getautomationcontroltype_1156384152.md), [Custom automation peers](http://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4)

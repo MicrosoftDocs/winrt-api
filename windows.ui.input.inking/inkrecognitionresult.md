@@ -18,10 +18,10 @@ Recognition results are produced for each word detected by an [InkRecognizer](in
 ## -remarks
 <table>
    <tr><th>JavaScript (usage)</th></tr>
-   <tr><td>var inkRecognitionResults = [Windows.UI.Input.Inking.InkManager.getRecognitionResults()](inkmanager_getrecognitionresults.md);
+   <tr><td>var inkRecognitionResults = [Windows.UI.Input.Inking.InkManager.getRecognitionResults()](inkmanager_getrecognitionresults_1073930605.md);
 
 var inkRecognitionResult = inkRecognitionResults[...];</td></tr>
-   <tr><td>var inkRecognitionResults =[Windows.UI.Input.Inking.InkStrokeContainer.getRecognitionResults()](inkstrokecontainer_getrecognitionresults.md);
+   <tr><td>var inkRecognitionResults =[Windows.UI.Input.Inking.InkStrokeContainer.getRecognitionResults()](inkstrokecontainer_getrecognitionresults_1073930605.md);
 
 var inkRecognitionResult = inkRecognitionResults[...];</td></tr>
 </table>

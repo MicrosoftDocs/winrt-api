@@ -18,7 +18,7 @@ Provides data when an app is activated to remove an appointment from the user’
 > This type appears as [WebUIAppointmentsProviderRemoveAppointmentActivatedEventArgs](../windows.ui.webui/webuiappointmentsproviderremoveappointmentactivatedeventargs.md).
 
 ## -remarks
-This object is accessed when you override the [OnActivated](../windows.ui.xaml/application_onactivated.md) method, [IActivatedEventArgs.Kind](iactivatedeventargs_kind.md) is **AppointmentsProvider**, and [IAppointmentsProviderActivatedEventArgs.Verb](iappointmentsprovideractivatedeventargs_verb.md) is equal to the value of the [AppointmentsProviderLaunchActionVerbs.RemoveAppointment](../windows.applicationmodel.appointments.appointmentsprovider/appointmentsproviderlaunchactionverbs_removeappointment.md) property.
+This object is accessed when you override the [OnActivated](../windows.ui.xaml/application_onactivated_603737819.md) method, [IActivatedEventArgs.Kind](iactivatedeventargs_kind.md) is **AppointmentsProvider**, and [IAppointmentsProviderActivatedEventArgs.Verb](iappointmentsprovideractivatedeventargs_verb.md) is equal to the value of the [AppointmentsProviderLaunchActionVerbs.RemoveAppointment](../windows.applicationmodel.appointments.appointmentsprovider/appointmentsproviderlaunchactionverbs_removeappointment.md) property.
 
 ## -examples
 

@@ -16,7 +16,7 @@ Gets the input stream to read from the remote destination on a [StreamSocket](st
 A sequential stream of bytes to be read from the remote destination.
 
 ## -remarks
-This property can be used to read incoming data received from the remote network destination on a socket object. Incoming data can be read using the [IInputStream.ReadAsync](../windows.storage.streams/iinputstream_readasync.md) method directly or by passing the [IInputStream](../windows.storage.streams/iinputstream.md) object to other objects ([DataReader](../windows.storage.streams/datareader.md), for example) that accept an [IInputStream](../windows.storage.streams/iinputstream.md) as a parameter.
+This property can be used to read incoming data received from the remote network destination on a socket object. Incoming data can be read using the [IInputStream.ReadAsync](../windows.storage.streams/iinputstream_readasync_1012630619.md) method directly or by passing the [IInputStream](../windows.storage.streams/iinputstream.md) object to other objects ([DataReader](../windows.storage.streams/datareader.md), for example) that accept an [IInputStream](../windows.storage.streams/iinputstream.md) as a parameter.
 
 ## -examples
 

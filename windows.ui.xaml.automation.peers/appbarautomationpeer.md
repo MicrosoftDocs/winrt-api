@@ -19,10 +19,10 @@ The Windows Runtime  [AppBar](../windows.ui.xaml.controls/appbar.md) class creat
 
 [AppBarAutomationPeer](appbarautomationpeer.md) has overrides of **Core** methods such that the associated [AutomationPeer](automationpeer.md) methods provide peer-specific information to a Microsoft UI Automation client.
 
-+ [GetPattern](automationpeer_getpattern.md) reports that the peer provides pattern support for [PatternInterface.Toggle](patterninterface.md) ([IToggleProvider](../windows.ui.xaml.automation.provider/itoggleprovider.md)).
-+ ****: [GetPattern](automationpeer_getpattern.md) also reports pattern support for [PatternInterface.ExpandCollapse](patterninterface.md) ([IExpandCollapseProvider](../windows.ui.xaml.automation.provider/iexpandcollapseprovider.md)).
-+ [GetClassName](automationpeer_getclassname.md) returns "ApplicationBar".
-+ [GetAutomationControlType](automationpeer_getautomationcontroltype.md) returns [AutomationControlType.AppBar](automationcontroltype.md).
++ [GetPattern](automationpeer_getpattern_2046576749.md) reports that the peer provides pattern support for [PatternInterface.Toggle](patterninterface.md) ([IToggleProvider](../windows.ui.xaml.automation.provider/itoggleprovider.md)).
++ ****: [GetPattern](automationpeer_getpattern_2046576749.md) also reports pattern support for [PatternInterface.ExpandCollapse](patterninterface.md) ([IExpandCollapseProvider](../windows.ui.xaml.automation.provider/iexpandcollapseprovider.md)).
++ [GetClassName](automationpeer_getclassname_614238974.md) returns "ApplicationBar".
++ [GetAutomationControlType](automationpeer_getautomationcontroltype_1156384152.md) returns [AutomationControlType.AppBar](automationcontroltype.md).
 
 > [!NOTE]
 > Windows 8: returns [AutomationControlType.Custom](automationcontroltype.md)

@@ -21,9 +21,9 @@ The [DeviceInformation Id](../windows.devices.enumeration/deviceinformation_id.m
 An asynchronous operation to retrieve the [WiFiDirectDevice](wifidirectdevice.md) that was created.
 
 ## -remarks
-You can use the [GetDeviceSelector](wifidirectdevice_getdeviceselector.md) methods to enumerate Wi-Fi Direct devices to determine their interface ids.
+You can use the [GetDeviceSelector](wifidirectdevice_getdeviceselector_185243134.md) methods to enumerate Wi-Fi Direct devices to determine their interface ids.
 
 ## -examples
 
 ## -see-also
-[FromIdAsync(String, WiFiDirectConnectionParameters)](wifidirectdevice_fromidasync_1400638850.md), [GetDeviceSelector](wifidirectdevice_getdeviceselector.md), [WiFiDirectDevice sample](http://go.microsoft.com/fwlink/p/?LinkID=301419)
+[FromIdAsync(String, WiFiDirectConnectionParameters)](wifidirectdevice_fromidasync_1400638850.md), [GetDeviceSelector](wifidirectdevice_getdeviceselector_185243134.md), [WiFiDirectDevice sample](http://go.microsoft.com/fwlink/p/?LinkID=301419)

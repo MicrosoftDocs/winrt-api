@@ -15,7 +15,7 @@ Provides functionality for controlling the exposure settings on a capture device
 ## -remarks
 The [ExposureControl](exposurecontrol.md) gives apps additional control over the exposure settings on a device.
 
-To set an exposure value, call [SetValueAsync](exposurecontrol_setvalueasync.md). To turn auto exposure on, call [SetAutoAsync](exposurecontrol_setautoasync.md).
+To set an exposure value, call [SetValueAsync](exposurecontrol_setvalueasync_1247308686.md). To turn auto exposure on, call [SetAutoAsync](exposurecontrol_setautoasync_1168787363.md).
 
 You can find out if a device supports this control by checking [ExposureControl.Supported](exposurecontrol_supported.md).
 

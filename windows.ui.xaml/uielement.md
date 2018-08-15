@@ -43,7 +43,7 @@ Prominent API of [UIElement](uielement.md) that support input and user interacti
 + **Pointer events:** [PointerPressed](uielement_pointerpressed.md), [PointerReleased](uielement_pointerreleased.md), [PointerMoved](uielement_pointermoved.md), [PointerEntered](uielement_pointerentered.md), [PointerExited](uielement_pointerexited.md)
 + **Key handling events:** [KeyDown](uielement_keydown.md), [KeyUp](uielement_keyup.md)
 + **Focus:** [GotFocus](uielement_gotfocus.md), [LostFocus](uielement_lostfocus.md)
-+ **Pointer capture:** [CapturePointer](uielement_capturepointer.md), [PointerCanceled](uielement_pointercanceled.md), [PointerCaptureLost](uielement_pointercapturelost.md), [ReleasePointerCapture](uielement_releasepointercapture.md), [PointerCaptures](uielement_pointercaptures.md)
++ **Pointer capture:** [CapturePointer](uielement_capturepointer_916768934.md), [PointerCanceled](uielement_pointercanceled.md), [PointerCaptureLost](uielement_pointercapturelost.md), [ReleasePointerCapture](uielement_releasepointercapture_962192786.md), [PointerCaptures](uielement_pointercaptures.md)
 + **Drag-drop:** [DragOver](uielement_dragover.md), [Drop](uielement_drop.md), [DragEnter](uielement_dragenter.md), [DragLeave](uielement_dragleave.md), [AllowDrop](uielement_allowdrop.md)
 + **Properties that influence how basic input is processed:** [IsHitTestVisible](uielement_ishittestvisible.md), [AllowDrop](uielement_allowdrop.md)
 
@@ -64,18 +64,18 @@ The [Visibility](uielement_visibility.md) and [Opacity](uielement_opacity.md) pr
 
 ### Basic layout
 
-The [UIElement](uielement.md) class provides a starting point for layout characteristics with properties such as [DesiredSize](uielement_desiredsize.md) and the [Arrange](uielement_arrange.md) and [Measure](uielement_measure.md) methods. [FrameworkElement](frameworkelement.md) adds more layout capabilities. For more info, see [Define layouts with XAML](http://msdn.microsoft.com/library/8d4e4162-1c9c-48f4-8a94-34976fb17079) and [FrameworkElement](frameworkelement.md).
+The [UIElement](uielement.md) class provides a starting point for layout characteristics with properties such as [DesiredSize](uielement_desiredsize.md) and the [Arrange](uielement_arrange_958316931.md) and [Measure](uielement_measure_1722732750.md) methods. [FrameworkElement](frameworkelement.md) adds more layout capabilities. For more info, see [Define layouts with XAML](http://msdn.microsoft.com/library/8d4e4162-1c9c-48f4-8a94-34976fb17079) and [FrameworkElement](frameworkelement.md).
 
 ### Routed events
 
 Most of the input events of [UIElement](uielement.md) are *routed events*. A routed event enables a built-in event handling notification system, so that a parent object can handle input events from child objects in the object tree if the event remains unhandled. This input event behavior is useful for input area grouping, and for control compositing. For more info, see [Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
 
-Prominent API of [UIElement](uielement.md) that support routed events: [AddHandler](uielement_addhandler.md), [RemoveHandler](uielement_removehandler.md), ***Event** properties.
+Prominent API of [UIElement](uielement.md) that support routed events: [AddHandler](uielement_addhandler_2121467075.md), [RemoveHandler](uielement_removehandler_661998757.md), ***Event** properties.
 
 ### Other platform support
 
-+ [OnCreateAutomationPeer](uielement_oncreateautomationpeer.md) enables a class to use a custom [AutomationPeer](../windows.ui.xaml.automation.peers/automationpeer.md) for its Microsoft UI Automation support.
-+ [RenderTransform](uielement_rendertransform.md), [TransformToVisual](uielement_transformtovisual.md), [Projection](uielement_projection.md), [CompositeMode](uielement_compositemode.md), [CacheMode](uielement_cachemode.md) and [FindSubElementsForTouchTargeting](uielement_findsubelementsfortouchtargeting.md) are useful for advanced UI layout scenarios.
++ [OnCreateAutomationPeer](uielement_oncreateautomationpeer_1478162674.md) enables a class to use a custom [AutomationPeer](../windows.ui.xaml.automation.peers/automationpeer.md) for its Microsoft UI Automation support.
++ [RenderTransform](uielement_rendertransform.md), [TransformToVisual](uielement_transformtovisual_799251735.md), [Projection](uielement_projection.md), [CompositeMode](uielement_compositemode.md), [CacheMode](uielement_cachemode.md) and [FindSubElementsForTouchTargeting](uielement_findsubelementsfortouchtargeting_2073429826.md) are useful for advanced UI layout scenarios.
 
 ### UIElement dependency properties
 

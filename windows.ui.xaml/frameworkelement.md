@@ -32,25 +32,25 @@ Many common XAML UI classes derive from [FrameworkElement](frameworkelement.md),
 
 The layout system recognizes all objects that derive from [FrameworkElement](frameworkelement.md) to be elements that potentially participate in layout and should have a display area in the app UI. The layout system reads various properties that are defined at [FrameworkElement](frameworkelement.md) level, such as [MinWidth](frameworkelement_minwidth.md). Most UI elements use the [FrameworkElement](frameworkelement.md)-defined [Width](frameworkelement_width.md) and [Height](frameworkelement_height.md) for their basic sizing information. [FrameworkElement](frameworkelement.md) provides extensible methods for specialized layout behavior that panels and controls with content can override in their class implementations. For more info, see [Define layouts with XAML](http://msdn.microsoft.com/library/8d4e4162-1c9c-48f4-8a94-34976fb17079).
 
-Prominent API of [FrameworkElement](frameworkelement.md) that support layout: [Height](frameworkelement_height.md), [Width](frameworkelement_width.md), [ActualHeight](frameworkelement_actualheight.md), [ActualWidth](frameworkelement_actualwidth.md), [Margin](frameworkelement_margin.md), [MeasureOverride](frameworkelement_measureoverride.md), [ArrangeOverride](frameworkelement_arrangeoverride.md), [HorizontalAlignment](frameworkelement_horizontalalignment.md), [VerticalAlignment](frameworkelement_verticalalignment.md), [LayoutUpdated](frameworkelement_layoutupdated.md).
+Prominent API of [FrameworkElement](frameworkelement.md) that support layout: [Height](frameworkelement_height.md), [Width](frameworkelement_width.md), [ActualHeight](frameworkelement_actualheight.md), [ActualWidth](frameworkelement_actualwidth.md), [Margin](frameworkelement_margin.md), [MeasureOverride](frameworkelement_measureoverride_1586581644.md), [ArrangeOverride](frameworkelement_arrangeoverride_1795048387.md), [HorizontalAlignment](frameworkelement_horizontalalignment.md), [VerticalAlignment](frameworkelement_verticalalignment.md), [LayoutUpdated](frameworkelement_layoutupdated.md).
 
 ### Object lifetime events
 
 You often want to know when an object is first loaded (*loaded* is defined as when an object becomes attached to an object tree that connects to the root visual). [FrameworkElement](frameworkelement.md) defines events related to object lifetime that provide useful hooks for code-behind operations. For example you need object lifetime info to add child objects to a collection or set properties on child objects just prior to use, with assurance that the necessary objects in the object tree have already been instantiated from XAML markup. For more info, see [Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
 
-Prominent API of [FrameworkElement](frameworkelement.md) that support object lifetime events: [Loaded](frameworkelement_loaded.md), [SizeChanged](frameworkelement_sizechanged.md), [Unloaded](frameworkelement_unloaded.md), [OnApplyTemplate](frameworkelement_onapplytemplate.md).
+Prominent API of [FrameworkElement](frameworkelement.md) that support object lifetime events: [Loaded](frameworkelement_loaded.md), [SizeChanged](frameworkelement_sizechanged.md), [Unloaded](frameworkelement_unloaded.md), [OnApplyTemplate](frameworkelement_onapplytemplate_1955470198.md).
 
 ### Data binding
 
 The ability to set a value for a potentially inherited data context for a data binding is implemented by [FrameworkElement](frameworkelement.md). [FrameworkElement](frameworkelement.md) also has API for establishing data binding in code rather than in XAML. For more info, see [Data binding in depth](http://msdn.microsoft.com/library/41e1b4f1-6caf-4128-a61a-4e400b149011).
 
-Prominent API of [FrameworkElement](frameworkelement.md) that support data binding: [DataContext](frameworkelement_datacontext.md), [DataContextChanged](frameworkelement_datacontextchanged.md), [SetBinding](frameworkelement_setbinding.md), [GetBindingExpression](frameworkelement_getbindingexpression.md).
+Prominent API of [FrameworkElement](frameworkelement.md) that support data binding: [DataContext](frameworkelement_datacontext.md), [DataContextChanged](frameworkelement_datacontextchanged.md), [SetBinding](frameworkelement_setbinding_28713777.md), [GetBindingExpression](frameworkelement_getbindingexpression_1210399878.md).
 
 ### XAML language and programming model integration
 
 Usually your app's element structure resembles the XAML markup that you defined to create the UI, but sometimes that structure changes after the XAML was parsed. [FrameworkElement](frameworkelement.md) defines the [Name](frameworkelement_name.md) property and related API, which are useful for finding elements and element relationships at run-time. For more info, see [XAML namescopes](http://msdn.microsoft.com/library/eb060cbd-a589-475e-b83d-b24068b54c21).
 
-Prominent API of [FrameworkElement](frameworkelement.md) that support XAML and programming model: [Name](frameworkelement_name.md), [FindName](frameworkelement_findname.md), [Parent](frameworkelement_parent.md), [BaseUri](frameworkelement_baseuri.md), [OnApplyTemplate](frameworkelement_onapplytemplate.md).
+Prominent API of [FrameworkElement](frameworkelement.md) that support XAML and programming model: [Name](frameworkelement_name.md), [FindName](frameworkelement_findname_634111277.md), [Parent](frameworkelement_parent.md), [BaseUri](frameworkelement_baseuri.md), [OnApplyTemplate](frameworkelement_onapplytemplate_1955470198.md).
 
 ### Globalization
 

@@ -13,9 +13,9 @@ public Windows.Storage.Search.StorageItemQueryResult CreateItemQuery()
 Gets a query result object that contains the files and subfolders in the current folder.
 
 ## -returns
-A query result object. Call the [GetItemsAsync](../windows.storage.search/storageitemqueryresult_getitemsasync.md) method of the query result to get the files and subfolders in the current folder. This method returns a list of type **IReadOnlyList**&lt;[IStorageItem](istorageitem.md)&gt;. Each file or folder is represented by an item of type [IStorageItem](istorageitem.md).
+A query result object. Call the [GetItemsAsync](../windows.storage.search/storageitemqueryresult_getitemsasync_1518547059.md) method of the query result to get the files and subfolders in the current folder. This method returns a list of type **IReadOnlyList**&lt;[IStorageItem](istorageitem.md)&gt;. Each file or folder is represented by an item of type [IStorageItem](istorageitem.md).
 
-To work with the returned items, call the [IsOfType](istorageitem_isoftype.md) method of the [IStorageItem](istorageitem.md) interface to determine whether each item is a file or a folder. Then cast the item to a [StorageFolder](storagefolder.md) or [StorageFile](storagefile.md).
+To work with the returned items, call the [IsOfType](istorageitem_isoftype_1417811226.md) method of the [IStorageItem](istorageitem.md) interface to determine whether each item is a file or a folder. Then cast the item to a [StorageFolder](storagefolder.md) or [StorageFile](storagefile.md).
 
 ## -exceptions
 ### System.UnauthorizedAccessException

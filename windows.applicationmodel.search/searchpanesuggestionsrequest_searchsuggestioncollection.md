@@ -20,9 +20,9 @@ The search pane can display 5 suggestions, at most. Additionally, each separator
 
 Use the [SearchSuggestionCollection](searchsuggestioncollection.md) object to append app-provided suggestions and search separators to display in the search pane.
 
-When the request for suggestions is completed, either by returning from the [suggestionsrequested](searchpane_suggestionsrequested.md) event handler or by calling [searchPaneSuggestionsRequestDeferral.complete](searchpanesuggestionsrequestdeferral_complete.md), the search pane displays the suggestions in the [searchSuggestionCollection](searchsuggestioncollection.md).
+When the request for suggestions is completed, either by returning from the [suggestionsrequested](searchpane_suggestionsrequested.md) event handler or by calling [searchPaneSuggestionsRequestDeferral.complete](searchpanesuggestionsrequestdeferral_complete_1807836922.md), the search pane displays the suggestions in the [searchSuggestionCollection](searchsuggestioncollection.md).
 
 ## -examples
 
 ## -see-also
-[SearchPane.SuggestionsRequested event](searchpane_suggestionsrequested.md), [SearchPaneSuggestionsRequest class](searchpanesuggestionsrequest.md), [SearchPaneSuggestionsRequest.GetDeferral method](searchpanesuggestionsrequest_getdeferral.md), [SearchPaneSuggestionsRequestDeferral class](searchpanesuggestionsrequestdeferral.md), [SearchPaneSuggestionsRequestedEventArgs class](searchpanesuggestionsrequestedeventargs.md)
+[SearchPane.SuggestionsRequested event](searchpane_suggestionsrequested.md), [SearchPaneSuggestionsRequest class](searchpanesuggestionsrequest.md), [SearchPaneSuggestionsRequest.GetDeferral method](searchpanesuggestionsrequest_getdeferral_254836512.md), [SearchPaneSuggestionsRequestDeferral class](searchpanesuggestionsrequestdeferral.md), [SearchPaneSuggestionsRequestedEventArgs class](searchpanesuggestionsrequestedeventargs.md)

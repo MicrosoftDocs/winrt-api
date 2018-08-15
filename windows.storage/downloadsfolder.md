@@ -41,6 +41,6 @@ StorageFile file = await Windows.Storage.DownloadsFolder.CreateFileAsync("sample
 // Process file
 ```
 
-After [createFileAsync](downloadsfolder_createfileasync.md) completes, `file` gets the new file as a [StorageFile](storagefile.md).
+After [createFileAsync](downloadsfolder_createfileasync_1058061470.md) completes, `file` gets the new file as a [StorageFile](storagefile.md).
 
 ## -see-also

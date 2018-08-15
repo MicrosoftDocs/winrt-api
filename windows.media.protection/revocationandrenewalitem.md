@@ -13,10 +13,10 @@ public class RevocationAndRenewalItem : Windows.Media.Protection.IRevocationAndR
 Represents a component that is being revoked and renewed with a trusted component.
 
 ## -remarks
-An instance of this object is returned by the [RevocationAndRenewalInformation.Items](revocationandrenewalinformation_items.md) property. This information can be passed to [ComponentRenewal.RenewSystemComponentsAsync](componentrenewal_renewsystemcomponentsasync.md) for system processing.
+An instance of this object is returned by the [RevocationAndRenewalInformation.Items](revocationandrenewalinformation_items.md) property. This information can be passed to [ComponentRenewal.RenewSystemComponentsAsync](componentrenewal_renewsystemcomponentsasync_1438723694.md) for system processing.
 
 ## -examples
-This example shows a [ComponentLoadFailedEventHandler](componentloadfailedeventhandler.md). A loop iterates through the failed components. And [RenewSystemComponentsAsync](componentrenewal_renewsystemcomponentsasync.md) is invoked. Note that the [RevocationAndRenewalInformation](revocationandrenewalinformation.md) is passed in through the [ComponentLoadFailedEventArgs](componentloadfailedeventargs.md).
+This example shows a [ComponentLoadFailedEventHandler](componentloadfailedeventhandler.md). A loop iterates through the failed components. And [RenewSystemComponentsAsync](componentrenewal_renewsystemcomponentsasync_1438723694.md) is invoked. Note that the [RevocationAndRenewalInformation](revocationandrenewalinformation.md) is passed in through the [ComponentLoadFailedEventArgs](componentloadfailedeventargs.md).
 
 ```javascript
 function ComponentLoadFailed(e) {

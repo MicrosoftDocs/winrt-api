@@ -14,7 +14,7 @@ public object ProcessPointerUpdate(Windows.UI.Input.PointerPoint pointerPoint)
 > [!NOTE]
 > For Universal Windows app using Extensible Application Markup Language (XAML), we recommend using [InkPresenter](inkpresenter.md) and the [InkCanvas](../windows.ui.xaml.controls/inkcanvas.md) control instead of [InkManager](inkmanager.md).
 
-Processes position and state properties, such as pressure and tilt, for the specified pointer, from the last pointer event up to and including the current pointer event.Call this method after [ProcessPointerDown](inkmanager_processpointerdown.md) and before [ProcessPointerUp](inkmanager_processpointerup.md).
+Processes position and state properties, such as pressure and tilt, for the specified pointer, from the last pointer event up to and including the current pointer event.Call this method after [ProcessPointerDown](inkmanager_processpointerdown_1209788648.md) and before [ProcessPointerUp](inkmanager_processpointerup_1637073524.md).
 
 > [!IMPORTANT]
 > This method is not supported in desktop apps.
@@ -24,14 +24,14 @@ Processes position and state properties, such as pressure and tilt, for the spec
 The input pointer for which updates are to be processed.
 
 ## -returns
-When the current [InkManipulationMode](inkmanipulationmode.md) is **Inking** or **Selecting**, this method returns the [Point](../windows.foundation/point.md) (screen position in ink space) associated with the last [ProcessPointerUpdate](inkmanager_processpointerupdate.md) of *pointerPoint*.
+When the current [InkManipulationMode](inkmanipulationmode.md) is **Inking** or **Selecting**, this method returns the [Point](../windows.foundation/point.md) (screen position in ink space) associated with the last [ProcessPointerUpdate](inkmanager_processpointerupdate_416065930.md) of *pointerPoint*.
 
 ## -remarks
 
 ## -examples
 The following example demonstrates a handler for a [PointerMoved](..\windows.ui.xaml\uielement_pointermoved.md) event on an InkCanvas.
 
-Here, the intermediate points (`intermediatePoints`) unprocessed since the last update are processed by the [InkManager](inkmanager.md) (`inkManager`) in the [ProcessPointerUpdate](inkmanager_processpointerupdate.md) call.
+Here, the intermediate points (`intermediatePoints`) unprocessed since the last update are processed by the [InkManager](inkmanager.md) (`inkManager`) in the [ProcessPointerUpdate](inkmanager_processpointerupdate_416065930.md) call.
 
 ```csharp
 void InkingArea_PointerMoved(object sender, Windows.UI.Xaml.Input.PointerRoutedEventArgs e)

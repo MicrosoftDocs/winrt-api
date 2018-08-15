@@ -34,7 +34,7 @@ Windows.Storage.FileIO.writeTextAsync(absoluteFilePath, "Swift as a shadow").the
 });
 ```
 
-Although the [writeTextAsync](pathio_writetextasync.md) methods don't have a return value, you can still use [then](http://msdn.microsoft.com/library/c63904fc-465b-4fd5-a1d6-e4fb200248e7) or [done](http://msdn.microsoft.com/library/9a5e6877-a2cf-421f-a91e-37d84ccb40da) to declare a function and perform additional tasks after the text is written to the file, as the sample shows.
+Although the [writeTextAsync](pathio_writetextasync_1597275652.md) methods don't have a return value, you can still use [then](http://msdn.microsoft.com/library/c63904fc-465b-4fd5-a1d6-e4fb200248e7) or [done](http://msdn.microsoft.com/library/9a5e6877-a2cf-421f-a91e-37d84ccb40da) to declare a function and perform additional tasks after the text is written to the file, as the sample shows.
 
 ## -see-also
 [WriteTextAsync(String, String, UnicodeEncoding)](pathio_writetextasync_40541776.md)

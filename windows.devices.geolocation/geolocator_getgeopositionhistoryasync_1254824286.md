@@ -23,7 +23,7 @@ Represents the beginning of the time span for which positions are to be returned
 Positions (of type [Geoposition](geoposition.md)) that were collected during the specified time span.
 
 ## -remarks
-The [GetGeopositionHistoryAsync](geolocator_getgeopositionhistoryasync.md) method allows your app to asynchronously fetch a list of positions that have been collected by location services. Only positions that have been collected since the specified *startTime* will be returned. If no positions are available from that time span, an empty list will be returned.
+The [GetGeopositionHistoryAsync](geolocator_getgeopositionhistoryasync_1254824286.md) method allows your app to asynchronously fetch a list of positions that have been collected by location services. Only positions that have been collected since the specified *startTime* will be returned. If no positions are available from that time span, an empty list will be returned.
 
 This method returns only positions that have already been collected by location services in the last 24 hours; it does not resolve new positions. Specifying a time span that exceeds this 24-hour window will not yield any additional positions.
 

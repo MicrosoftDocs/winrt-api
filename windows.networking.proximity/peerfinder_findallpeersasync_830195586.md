@@ -21,11 +21,11 @@ If your app is running on a PC, you can browse for peer PCs that are running you
 
 When the asynchronous browsing operation finishes successfully, it returns a list of peers that are within wireless range. A peer is a device that has an app running in the foreground with a matching app Id. A peer can also have a matching browse Id that's specified as an alternate identity. For more information, see [AlternateIdentities](peerfinder_alternateidentities.md).
 
-If an app calls the [ConnectAsync](peerfinder_connectasync.md) method to create a connection with a peer, the app will no longer advertise for a connection and will not be found by the [FindAllPeersAsync](peerfinder_findallpeersasync.md) method until the app calls the [Close](../windows.networking.sockets/streamsocket_close.md) method to close the socket connection.
+If an app calls the [ConnectAsync](peerfinder_connectasync_380619906.md) method to create a connection with a peer, the app will no longer advertise for a connection and will not be found by the [FindAllPeersAsync](peerfinder_findallpeersasync_830195586.md) method until the app calls the [Close](../windows.networking.sockets/streamsocket_close_811482585.md) method to close the socket connection.
 
 You will only find peers where the device is within wireless range and the peer app is running in the foreground. If a peer app is running in the background, proximity does not advertise for peer connections.
 
-As an alternative to the [FindAllPeersAsync](peerfinder_findallpeersasync.md) method, you can dynamically search for peer apps as they are discovered within range using the [PeerWatcher](peerwatcher.md) object.
+As an alternative to the [FindAllPeersAsync](peerfinder_findallpeersasync_830195586.md) method, you can dynamically search for peer apps as they are discovered within range using the [PeerWatcher](peerwatcher.md) object.
 
 ### Windows Phone 8
 

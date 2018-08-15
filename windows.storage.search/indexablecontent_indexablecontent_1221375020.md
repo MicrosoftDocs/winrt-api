@@ -17,4 +17,4 @@ Initializes a new instance of the [IndexableContent](indexablecontent.md) class.
 ## -examples
 
 ## -see-also
-[AddAsync](contentindexer_addasync.md), [ContentIndexer](contentindexer.md)
+[AddAsync](contentindexer_addasync_916871935.md), [ContentIndexer](contentindexer.md)

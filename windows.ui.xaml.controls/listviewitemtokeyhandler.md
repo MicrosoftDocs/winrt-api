@@ -8,7 +8,7 @@ public delegate string ListViewItemToKeyHandler(System.Object item)
 # Windows.UI.Xaml.Controls.ListViewItemToKeyHandler
 
 ## -description
-Represents the method that will handle callback for the [GetRelativeScrollPosition](listviewpersistencehelper_getrelativescrollposition.md) method.
+Represents the method that will handle callback for the [GetRelativeScrollPosition](listviewpersistencehelper_getrelativescrollposition_2012223023.md) method.
 
 ## -parameters
 ### -param item

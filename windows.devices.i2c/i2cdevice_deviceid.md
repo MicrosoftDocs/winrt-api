@@ -20,7 +20,7 @@ The plug and play device identifier of the inter-integrated circuit (I<sup>2</su
 ## -examples
 
 ## -see-also
-[I2cDevice.FromIdAsync](i2cdevice_fromidasync.md), [DeviceInformation.Id](../windows.devices.enumeration/deviceinformation_id.md)
+[I2cDevice.FromIdAsync](i2cdevice_fromidasync_1693757112.md), [DeviceInformation.Id](../windows.devices.enumeration/deviceinformation_id.md)
 
 ## -capabilities
 &lt;DeviceCapability name="lowLevel" /&gt;

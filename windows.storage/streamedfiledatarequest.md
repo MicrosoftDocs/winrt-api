@@ -10,10 +10,10 @@ public class StreamedFileDataRequest : Windows.Foundation.IClosable, Windows.Sto
 # Windows.Storage.StreamedFileDataRequest
 
 ## -description
-Represents a sequential-access output stream that indicates a request for the data stream of a [StorageFile](storagefile.md) that was created by calling [CreateStreamedFileAsync](storagefile_createstreamedfileasync.md) or [ReplaceWithStreamedFileAsync](storagefile_replacewithstreamedfileasync.md).
+Represents a sequential-access output stream that indicates a request for the data stream of a [StorageFile](storagefile.md) that was created by calling [CreateStreamedFileAsync](storagefile_createstreamedfileasync_1143300277.md) or [ReplaceWithStreamedFileAsync](storagefile_replacewithstreamedfileasync_1583738949.md).
 
 ## -remarks
-This object is passed to the app's [StreamedFileDataRequestedHandler](streamedfiledatarequestedhandler.md) function when a stream that is represented by a [StorageFile](storagefile.md) is accessed. Define the [StreamedFileDataRequestedHandler](streamedfiledatarequestedhandler.md) function if you use [CreateStreamedFileAsync](storagefile_createstreamedfileasync.md) or [ReplaceWithStreamedFileAsync](storagefile_replacewithstreamedfileasync.md) to get a [StorageFile](storagefile.md) that represents the stream.
+This object is passed to the app's [StreamedFileDataRequestedHandler](streamedfiledatarequestedhandler.md) function when a stream that is represented by a [StorageFile](storagefile.md) is accessed. Define the [StreamedFileDataRequestedHandler](streamedfiledatarequestedhandler.md) function if you use [CreateStreamedFileAsync](storagefile_createstreamedfileasync_1143300277.md) or [ReplaceWithStreamedFileAsync](storagefile_replacewithstreamedfileasync_1583738949.md) to get a [StorageFile](storagefile.md) that represents the stream.
 
 ## -examples
 

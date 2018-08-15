@@ -16,7 +16,7 @@ Retrieves a string that contains "AES_CMAC".
 String that contains "AesCmac".
 
 ## -remarks
-Use the string retrieved by this property to set the message authentication code (MAC) algorithm name when you call the [OpenAlgorithm](macalgorithmprovider_openalgorithm.md) method. The string represents an Advanced Encryption Standard (AES) encryption algorithm coupled with a cipher-based MAC block cipher algorithm. For more information, see RFC 4493.
+Use the string retrieved by this property to set the message authentication code (MAC) algorithm name when you call the [OpenAlgorithm](macalgorithmprovider_openalgorithm_637226074.md) method. The string represents an Advanced Encryption Standard (AES) encryption algorithm coupled with a cipher-based MAC block cipher algorithm. For more information, see RFC 4493.
 
 ## -examples
 

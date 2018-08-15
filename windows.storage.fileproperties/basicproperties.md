@@ -13,12 +13,12 @@ public class BasicProperties : Windows.Storage.FileProperties.IBasicProperties, 
 Provides access to the basic properties, like the size of the item or the date the item was last modified, of the item (like a file or folder).
 
 ## -remarks
-You can access a [BasicProperties](basicproperties.md) object asynchronously using the [GetBasicPropertiesAsync](../windows.storage/istorageitem_getbasicpropertiesasync.md) method of an item (like a file of folder), or synchronously using the [BasicProperties](../windows.storage.bulkaccess/istorageiteminformation_basicproperties.md) property if it is available.
+You can access a [BasicProperties](basicproperties.md) object asynchronously using the [GetBasicPropertiesAsync](../windows.storage/istorageitem_getbasicpropertiesasync_375277280.md) method of an item (like a file of folder), or synchronously using the [BasicProperties](../windows.storage.bulkaccess/istorageiteminformation_basicproperties.md) property if it is available.
 
 You can get a [BasicProperties](basicproperties.md) object using any of the following methods and properties:
 
-+ [storageFile.getBasicPropertiesAsync](../windows.storage/storagefile_getbasicpropertiesasync.md) method
-+ [storageFolder.getBasicPropertiesAsync](../windows.storage/storagefolder_getbasicpropertiesasync.md) method
++ [storageFile.getBasicPropertiesAsync](../windows.storage/storagefile_getbasicpropertiesasync_375277280.md) method
++ [storageFolder.getBasicPropertiesAsync](../windows.storage/storagefolder_getbasicpropertiesasync_375277280.md) method
 + [FileInformation.basicProperties](../windows.storage.bulkaccess/fileinformation_basicproperties.md) property
 + [FolderInformation.basicProperties](../windows.storage.bulkaccess/folderinformation_basicproperties.md) property
 
@@ -101,9 +101,9 @@ if (file !== null) {
 }
 ```
 
-After [GetBasicPropertiesAsync](../windows.storage/storagefile_getbasicpropertiesasync.md) completes, `basicProperties` gets a [BasicProperties](basicproperties.md) object.
+After [GetBasicPropertiesAsync](../windows.storage/storagefile_getbasicpropertiesasync_375277280.md) completes, `basicProperties` gets a [BasicProperties](basicproperties.md) object.
 
 In the example, `file` contains a [StorageFile](../windows.storage/storagefile.md) that represents the file to retrieve properties for.
 
 ## -see-also
-[IStorageItemExtraProperties](istorageitemextraproperties.md), [Windows.Storage.StorageFile.getBasicPropertiesAsync method](../windows.storage/storagefile_getbasicpropertiesasync.md), [Windows.Storage.StorageFolder.getBasicPropertiesAsync method](../windows.storage/storagefolder_getbasicpropertiesasync.md), [Windows.Storage.IStorageItem.GetBasicPropertiesAsync method](../windows.storage/istorageitem_getbasicpropertiesasync.md), [Windows.Storage.BulkAccess.FileInformation.basicProperties property](../windows.storage.bulkaccess/fileinformation_basicproperties.md), [Windows.Storage.BulkAccess.FolderInformation.BasicProperties property](../windows.storage.bulkaccess/folderinformation_basicproperties.md), [Windows.Storage.BulkAccess.IStorageItemInformation.BasicProperties property](../windows.storage.bulkaccess/istorageiteminformation_basicproperties.md)
+[IStorageItemExtraProperties](istorageitemextraproperties.md), [Windows.Storage.StorageFile.getBasicPropertiesAsync method](../windows.storage/storagefile_getbasicpropertiesasync_375277280.md), [Windows.Storage.StorageFolder.getBasicPropertiesAsync method](../windows.storage/storagefolder_getbasicpropertiesasync_375277280.md), [Windows.Storage.IStorageItem.GetBasicPropertiesAsync method](../windows.storage/istorageitem_getbasicpropertiesasync_375277280.md), [Windows.Storage.BulkAccess.FileInformation.basicProperties property](../windows.storage.bulkaccess/fileinformation_basicproperties.md), [Windows.Storage.BulkAccess.FolderInformation.BasicProperties property](../windows.storage.bulkaccess/folderinformation_basicproperties.md), [Windows.Storage.BulkAccess.IStorageItemInformation.BasicProperties property](../windows.storage.bulkaccess/istorageiteminformation_basicproperties.md)

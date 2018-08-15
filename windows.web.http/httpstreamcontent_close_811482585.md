@@ -13,7 +13,7 @@ public void Close()
 Closes the [HttpStreamContent](httpstreamcontent.md) instance and releases allocated resources.
 
 ## -remarks
-The [Close](httpstreamcontent_close.md) method releases allocated resources used by the [HttpStreamContent](httpstreamcontent.md) instance. The [Close](httpstreamcontent_close.md) method can manage the lifetime of system resources (memory for the [HttpStreamContent](httpstreamcontent.md), for example) used by a Windows Runtime object.
+The [Close](httpstreamcontent_close_811482585.md) method releases allocated resources used by the [HttpStreamContent](httpstreamcontent.md) instance. The [Close](httpstreamcontent_close_811482585.md) method can manage the lifetime of system resources (memory for the [HttpStreamContent](httpstreamcontent.md), for example) used by a Windows Runtime object.
 
 In the .NET Framework 4.5, this method projects as the [Dispose](httpstreamcontent_dispose.md) method. In Visual C++ component extensions (C++/CX), this method projects as the destructor (delete operator).
 

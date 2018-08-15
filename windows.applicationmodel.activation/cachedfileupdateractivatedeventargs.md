@@ -23,9 +23,9 @@ A [CachedFileUpdaterActivatedEventArgs](cachedfileupdateractivatedeventargs.md) 
 Apps written in JavaScript must listen for and handle [Windows.UI.WebUI.WebUIApplication.activated](../windows.ui.webui/webuiapplication_activated.md) events.
 
 
-UWP app using C++, C#, or Visual Basic typically implement activation points by overriding methods of the [Application](../windows.ui.xaml/application.md) object. The default template app.xaml code-behind files always include an override for [OnLaunched](../windows.ui.xaml/application_onlaunched.md), but defining overrides for other activation points such as [OnCachedFileUpdaterActivated](../windows.ui.xaml/application_oncachedfileupdateractivated.md) is up to your app code.
+UWP app using C++, C#, or Visual Basic typically implement activation points by overriding methods of the [Application](../windows.ui.xaml/application.md) object. The default template app.xaml code-behind files always include an override for [OnLaunched](../windows.ui.xaml/application_onlaunched_859642554.md), but defining overrides for other activation points such as [OnCachedFileUpdaterActivated](../windows.ui.xaml/application_oncachedfileupdateractivated_383584449.md) is up to your app code.
 
-All [Application](../windows.ui.xaml/application.md) overrides involved in an activation scenario should call [Window.Activate](../windows.ui.xaml/window_activate.md) in their implementations.
+All [Application](../windows.ui.xaml/application.md) overrides involved in an activation scenario should call [Window.Activate](../windows.ui.xaml/window_activate_1797342875.md) in their implementations.
 
 ## -examples
 The [File picker contracts sample](http://go.microsoft.com/fwlink/p/?linkid=231536) demonstrates how to respond to a **CachedFileUpdater** activation point.
@@ -62,7 +62,7 @@ public void Activate(CachedFileUpdaterActivatedEventArgs args)
         }
 ```
 
-For C#, `args` for an [OnCachedFileUpdaterActivated](../windows.ui.xaml/application_oncachedfileupdateractivated.md) override on the [Application](../windows.ui.xaml/application.md) object references a [CachedFileUpdaterActivatedEventArgs](cachedfileupdateractivatedeventargs.md) object. The [OnCachedFileUpdaterActivated](../windows.ui.xaml/application_oncachedfileupdateractivated.md) override is in the App.xaml.cs file and the `Activate` method is in the CachedFileUpdaterPage.xaml.cs file of the [File picker contracts sample](http://go.microsoft.com/fwlink/p/?linkid=231536).
+For C#, `args` for an [OnCachedFileUpdaterActivated](../windows.ui.xaml/application_oncachedfileupdateractivated_383584449.md) override on the [Application](../windows.ui.xaml/application.md) object references a [CachedFileUpdaterActivatedEventArgs](cachedfileupdateractivatedeventargs.md) object. The [OnCachedFileUpdaterActivated](../windows.ui.xaml/application_oncachedfileupdateractivated_383584449.md) override is in the App.xaml.cs file and the `Activate` method is in the CachedFileUpdaterPage.xaml.cs file of the [File picker contracts sample](http://go.microsoft.com/fwlink/p/?linkid=231536).
 
 ## -see-also
-[ActivationKind enumeration](activationkind.md), [Windows.Storage.Provider namespace](../windows.storage.provider/windows_storage_provider.md), [File picker contracts sample](http://go.microsoft.com/fwlink/p/?linkid=231536), [Windows.UI.Core.CoreApplicationView.Activated event](../windows.applicationmodel.core/coreapplicationview_activated.md), [OnCachedFileUpdaterActivated](../windows.ui.xaml/application_oncachedfileupdateractivated.md), [Application](../windows.ui.xaml/application.md)
+[ActivationKind enumeration](activationkind.md), [Windows.Storage.Provider namespace](../windows.storage.provider/windows_storage_provider.md), [File picker contracts sample](http://go.microsoft.com/fwlink/p/?linkid=231536), [Windows.UI.Core.CoreApplicationView.Activated event](../windows.applicationmodel.core/coreapplicationview_activated.md), [OnCachedFileUpdaterActivated](../windows.ui.xaml/application_oncachedfileupdateractivated_383584449.md), [Application](../windows.ui.xaml/application.md)

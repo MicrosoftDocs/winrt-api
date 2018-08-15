@@ -32,4 +32,4 @@ The publisher is aborted due to error.
 ## -examples
 
 ## -see-also
-[WiFiDirectAdvertisementPublisher](wifidirectadvertisementpublisher.md), [WiFiDirectAdvertisementPublisher.Start](wifidirectadvertisementpublisher_start.md), [WiFiDirectAdvertisementPublisher.Status](wifidirectadvertisementpublisher_status.md), [WiFiDirectAdvertisementPublisher.Stop](wifidirectadvertisementpublisher_stop.md), [WiFiDirectAdvertisementPublisher.StatusChanged](wifidirectadvertisementpublisher_statuschanged.md)
+[WiFiDirectAdvertisementPublisher](wifidirectadvertisementpublisher.md), [WiFiDirectAdvertisementPublisher.Start](wifidirectadvertisementpublisher_start_1587696324.md), [WiFiDirectAdvertisementPublisher.Status](wifidirectadvertisementpublisher_status.md), [WiFiDirectAdvertisementPublisher.Stop](wifidirectadvertisementpublisher_stop_1201535524.md), [WiFiDirectAdvertisementPublisher.StatusChanged](wifidirectadvertisementpublisher_statuschanged.md)

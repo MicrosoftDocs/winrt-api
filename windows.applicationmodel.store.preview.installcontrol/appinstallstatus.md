@@ -13,7 +13,7 @@ public class AppInstallStatus : Windows.ApplicationModel.Store.Preview.InstallCo
 Describes the status of an app that is in the installation queue.
 
 ## -remarks
-To retrieve an instance of this class, use the [GetCurrentStatus](appinstallitem_getcurrentstatus.md) method of the [AppInstallItem](appinstallitem.md) class.
+To retrieve an instance of this class, use the [GetCurrentStatus](appinstallitem_getcurrentstatus_1536936899.md) method of the [AppInstallItem](appinstallitem.md) class.
 
 > [!IMPORTANT]
 > Access to this API is protected by a private capability that is restricted to apps that are developed by Microsoft.

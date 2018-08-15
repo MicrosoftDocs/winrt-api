@@ -11,7 +11,7 @@ public double MaxReductionArea { get;  set; }
 # Windows.Graphics.Printing3D.Printing3DFaceReductionOptions.MaxReductionArea
 
 ## -description
-Sets the area of a triangle above which said triangle cannot be merged via the [TryReduceFacesAsync](printing3dmodel_tryreducefacesasync.md) method. If set to zero, a built-in default value is used.
+Sets the area of a triangle above which said triangle cannot be merged via the [TryReduceFacesAsync](printing3dmodel_tryreducefacesasync_1526716101.md) method. If set to zero, a built-in default value is used.
 
 ## -property-value
 Maximum area at which a triangle can be merged.

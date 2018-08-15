@@ -48,8 +48,8 @@ Using input injection requires the following be added to the Package.appxmanifes
 
 ### Reference
 
-- [InitializePenInjection](inputinjector_initializepeninjection.md)
-- [InitializeTouchInjection](inputinjector_initializetouchinjection.md)
+- [InitializePenInjection](inputinjector_initializepeninjection_260722924.md)
+- [InitializeTouchInjection](inputinjector_initializetouchinjection_1509714255.md)
 
 ### Conceptual
 

@@ -18,9 +18,9 @@ The name that identifies your computer to remote peers.
 
 ## -remarks
 > [!IMPORTANT]
-> Always set the [DisplayName](peerfinder_displayname.md) property to a unique value for your app before you call the [Start](peerfinder_start.md) method.
+> Always set the [DisplayName](peerfinder_displayname.md) property to a unique value for your app before you call the [Start](peerfinder_start_119778276.md) method.
 
-The **DisplayName** property value is included in the [PeerInformation](peerinformation.md) instance that's created when a remote peer calls the [FindAllPeersAsync](peerfinder_findallpeersasync.md) method and finds your computer.
+The **DisplayName** property value is included in the [PeerInformation](peerinformation.md) instance that's created when a remote peer calls the [FindAllPeersAsync](peerfinder_findallpeersasync_830195586.md) method and finds your computer.
 
 If you don't specify a value for the **DisplayName** property, the computer name is used.
 

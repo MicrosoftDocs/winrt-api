@@ -44,7 +44,7 @@ These are the main types of app data:
 
 Another folder, [SharedLocalFolder](applicationdata_sharedlocalfolder.md), is persistent across app user accounts and should be used for large files accessed by multiple users. There is some extra set up required to access [SharedLocalFolder](applicationdata_sharedlocalfolder.md). For more information on accessing and using this folder, see [SharedLocalFolder](applicationdata_sharedlocalfolder.md).
 
-You can store your app data in app-specific, versioned formats. For more info, see [Version](applicationdata_version.md) and [SetVersionAsync](applicationdata_setversionasync.md).
+You can store your app data in app-specific, versioned formats. For more info, see [Version](applicationdata_version.md) and [SetVersionAsync](applicationdata_setversionasync_766938731.md).
 
 For more details on using these APIs, see [Store and retrieve settings and other app data](http://msdn.microsoft.com/library/41676a02-325a-455e-8565-c9ec0bc3a8fe).
 

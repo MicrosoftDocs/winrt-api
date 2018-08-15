@@ -10,7 +10,7 @@ public enum Windows.Security.Cryptography.Certificates.InstallOptions : uint
 # InstallOptions
 
 ## -description
-Specifies certificate installation options. This enumeration type is used by the [InstallCertificateAsync](certificateenrollmentmanager_installcertificateasync.md) and [ImportPfxDataAsync](certificateenrollmentmanager_importpfxdataasync.md) methods.
+Specifies certificate installation options. This enumeration type is used by the [InstallCertificateAsync](certificateenrollmentmanager_installcertificateasync_225635424.md) and [ImportPfxDataAsync](certificateenrollmentmanager_importpfxdataasync_2003079147.md) methods.
 
 ## -enum-fields
 ### -field None:0
@@ -25,4 +25,4 @@ Delete expired certificates.
 ## -examples
 
 ## -see-also
-[InstallCertificateAsync](certificateenrollmentmanager_installcertificateasync.md), [ImportPfxDataAsync](certificateenrollmentmanager_importpfxdataasync.md), [Windows.Security.Cryptography.Certificates](windows_security_cryptography_certificates.md)
+[InstallCertificateAsync](certificateenrollmentmanager_installcertificateasync_225635424.md), [ImportPfxDataAsync](certificateenrollmentmanager_importpfxdataasync_2003079147.md), [Windows.Security.Cryptography.Certificates](windows_security_cryptography_certificates.md)

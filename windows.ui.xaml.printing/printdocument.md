@@ -13,7 +13,7 @@ public class PrintDocument : Windows.UI.Xaml.DependencyObject, Windows.UI.Xaml.P
 Defines a reusable object that sends output to a printer.
 
 ## -remarks
-[PrintDocument](printdocument_printdocument.md) implements a print list concept whereby pages can be added to the print list, and then various methods can be called on the ongoing print list.
+[PrintDocument](printdocument_printdocument_1221375020.md) implements a print list concept whereby pages can be added to the print list, and then various methods can be called on the ongoing print list.
 
 ## -examples
 

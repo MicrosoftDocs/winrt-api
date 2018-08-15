@@ -20,9 +20,9 @@ The publication ID of the message.
 
 
 ## -remarks
-Messages continue to be published until the [StopPublishingMessage](proximitydevice_stoppublishingmessage.md) method is called or the [ProximityDevice](proximitydevice.md) on the publishing computer is released. Messages are delivered to all apps that have subscribed for the same message type.
+Messages continue to be published until the [StopPublishingMessage](proximitydevice_stoppublishingmessage_1046474884.md) method is called or the [ProximityDevice](proximitydevice.md) on the publishing computer is released. Messages are delivered to all apps that have subscribed for the same message type.
 
-When using the [PublishMessage](proximitydevice_publishmessage.md) method, the only supported message type is one that begins with "Windows.". To publish messages using another message type, such as "WindowsMime." or "NDEF:WriteTag", you must use the [PublishBinaryMessage](proximitydevice_publishbinarymessage.md) method.
+When using the [PublishMessage](proximitydevice_publishmessage_1881696512.md) method, the only supported message type is one that begins with "Windows.". To publish messages using another message type, such as "WindowsMime." or "NDEF:WriteTag", you must use the [PublishBinaryMessage](proximitydevice_publishbinarymessage_285088637.md) method.
 
 The [MessageTransmittedHandler](messagetransmittedhandler.md) delegate is called each time a message is successfully transmitted to a device, regardless of whether any apps were subscribed to the message on that device.
 

@@ -23,7 +23,7 @@ Dependency property concepts are covered in detail in the topic [Dependency prop
 
 Instances of [DependencyProperty](dependencyproperty.md) are often referenced in the documentation as dependency property identifiers. The identifiers provide a way to refer to a dependency property that was registered to a particular [DependencyObject](dependencyobject.md) owner type. When the owner type registers the property, the owner type exposes the [DependencyProperty](dependencyproperty.md) instance as the identifier, which is a static member of the owner class.
 
-The owner [DependencyObject](dependencyobject.md) provides the property store for the dependency property. When working with a dependency property in code, you might use a [DependencyProperty](dependencyproperty.md) identifiers as input for calls to property system methods such as [SetValue](dependencyobject_setvalue.md). However, in most cases, getting or setting a dependency property is simpler by getting or setting the *wrapper*; this concept is explained in [Dependency properties overview](http://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e).
+The owner [DependencyObject](dependencyobject.md) provides the property store for the dependency property. When working with a dependency property in code, you might use a [DependencyProperty](dependencyproperty.md) identifiers as input for calls to property system methods such as [SetValue](dependencyobject_setvalue_52578133.md). However, in most cases, getting or setting a dependency property is simpler by getting or setting the *wrapper*; this concept is explained in [Dependency properties overview](http://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e).
 
 [DependencyProperty](dependencyproperty.md) supports a native conversion for XAML attribute syntax for filling values, which is used when a [Setter](setter.md) specifies its [Property](setter_property.md) value. This conversion uses an *ownerTypeName***.***propertyName* form for the input string.
 
@@ -41,7 +41,7 @@ The Windows Runtime implements the XAML attached property language feature with 
 
 If you want properties on your custom types to support value expressions, data binding, or animation, you should back the properties with a dependency property following these guidelines:
 
-+ Register a dependency property using the [Register](dependencyproperty_register.md) method, which returns a [DependencyProperty](dependencyproperty.md). This is your dependency property identifier. You should expose this object as an accessible static read-only property in your class. By convention, the name of this [DependencyProperty](dependencyproperty.md) identifier field should end with "Property".
++ Register a dependency property using the [Register](dependencyproperty_register_1826645607.md) method, which returns a [DependencyProperty](dependencyproperty.md). This is your dependency property identifier. You should expose this object as an accessible static read-only property in your class. By convention, the name of this [DependencyProperty](dependencyproperty.md) identifier field should end with "Property".
 + During registration, you can provide [PropertyMetadata](propertymetadata.md) for the property to further define the property's behaviors.
 + Provide **get** and **set** accessors for the property: these are the property wrappers, and will simplify access to your property for all callers.
 
@@ -60,17 +60,17 @@ You can also use [Setter.Property](setter_property.md) to reference an attached 
 ### Using a **DependencyProperty** (dependency property identifier) in code
 
 There are several methods that are utility methods for the Windows Runtime property system that use a [DependencyProperty](dependencyproperty.md) value as an input parameter. These include:
-+ [DependencyObject.ClearValue](dependencyobject_clearvalue.md)
-+ [DependencyObject.GetAnimationBaseValue](dependencyobject_getanimationbasevalue.md)
-+ [DependencyObject.GetValue](dependencyobject_getvalue.md)
-+ [DependencyObject.ReadLocalValue](dependencyobject_readlocalvalue.md)
-+ [DependencyObject.SetValue](dependencyobject_setvalue.md)
++ [DependencyObject.ClearValue](dependencyobject_clearvalue_1095854009.md)
++ [DependencyObject.GetAnimationBaseValue](dependencyobject_getanimationbasevalue_1072186849.md)
++ [DependencyObject.GetValue](dependencyobject_getvalue_1188551207.md)
++ [DependencyObject.ReadLocalValue](dependencyobject_readlocalvalue_275037327.md)
++ [DependencyObject.SetValue](dependencyobject_setvalue_52578133.md)
 + [DependencyPropertyChangedEventArgs.Property](dependencypropertychangedeventargs_property.md)
 + [Setter(DependencyProperty,Object) constructor](setter_setter_592072496.md)
 
 
 ## -examples
-This example shows a basic usage where a [DependencyProperty](dependencyproperty.md) is established as a public static member of a class. This is done by calling [Register](dependencyproperty_register.md) and storing the return value as a member of the class. For more examples, see [Custom dependency properties](http://msdn.microsoft.com/library/5adf7935-f2cf-4bb6-b1a5-f535c2ed8ef8).
+This example shows a basic usage where a [DependencyProperty](dependencyproperty.md) is established as a public static member of a class. This is done by calling [Register](dependencyproperty_register_1826645607.md) and storing the return value as a member of the class. For more examples, see [Custom dependency properties](http://msdn.microsoft.com/library/5adf7935-f2cf-4bb6-b1a5-f535c2ed8ef8).
 
 
 

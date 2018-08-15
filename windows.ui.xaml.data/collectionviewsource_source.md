@@ -25,7 +25,7 @@ Gets or sets the collection object from which to create this view.
 The collection to create the view from.
 
 ## -remarks
-When you set this property, a view is generated automatically unless the source collection implements [ICollectionViewFactory](icollectionviewfactory.md). Otherwise, the view is retrieved through the [CreateView](icollectionviewfactory_createview.md) method. You can retrieve the view through the [View](collectionviewsource_view.md) property.
+When you set this property, a view is generated automatically unless the source collection implements [ICollectionViewFactory](icollectionviewfactory.md). Otherwise, the view is retrieved through the [CreateView](icollectionviewfactory_createview_164792513.md) method. You can retrieve the view through the [View](collectionviewsource_view.md) property.
 
 ## -examples
 

@@ -12,10 +12,10 @@ public class VoiceCommandDisambiguationResult : Windows.ApplicationModel.VoiceCo
 ## -description
 The result obtained from the disambiguation screen displayed on the **Cortana** canvas.
 
-Calling [RequestDisambiguationAsync](voicecommandserviceconnection_requestdisambiguationasync.md) from the background app service causes **Cortana** to display the disambiguation screen.
+Calling [RequestDisambiguationAsync](voicecommandserviceconnection_requestdisambiguationasync_117243970.md) from the background app service causes **Cortana** to display the disambiguation screen.
 
 ## -remarks
-Access [VoiceCommandDisambiguationResult](voicecommand.md) objects by calling [RequestDisambiguationAsync](voicecommandserviceconnection_requestdisambiguationasync.md) on a [VoiceCommandServiceConnection](voicecommandserviceconnection.md) that references the appropriate [Windows.ApplicationModel.AppService](../windows.applicationmodel.appservice/windows_applicationmodel_appservice.md) object.
+Access [VoiceCommandDisambiguationResult](voicecommand.md) objects by calling [RequestDisambiguationAsync](voicecommandserviceconnection_requestdisambiguationasync_117243970.md) on a [VoiceCommandServiceConnection](voicecommandserviceconnection.md) that references the appropriate [Windows.ApplicationModel.AppService](../windows.applicationmodel.appservice/windows_applicationmodel_appservice.md) object.
 
 ## -examples
 

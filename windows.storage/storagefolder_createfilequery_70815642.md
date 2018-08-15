@@ -13,16 +13,16 @@ public Windows.Storage.Search.StorageFileQueryResult CreateFileQuery()
 Gets a query result object that contains the files in the current folder.
 
 ## -returns
-A query result object. Call the [GetFilesAsync](../windows.storage.search/storagefilequeryresult_getfilesasync.md) method of the query result to get the flat list of files. This method returns a list of type **IReadOnlyList**&lt;[StorageFile](storagefile.md)&gt;. Each file is represented by an item of type [StorageFile](storagefile.md).
+A query result object. Call the [GetFilesAsync](../windows.storage.search/storagefilequeryresult_getfilesasync_1261374131.md) method of the query result to get the flat list of files. This method returns a list of type **IReadOnlyList**&lt;[StorageFile](storagefile.md)&gt;. Each file is represented by an item of type [StorageFile](storagefile.md).
 
 ## -remarks
-This query is a shallow query that returns only files in the current folder. For a list of methods that identifies shallow queries and deep queries, see the Remarks in the topic [GetFilesAsync](storagefolder_getfilesasync.md).
+This query is a shallow query that returns only files in the current folder. For a list of methods that identifies shallow queries and deep queries, see the Remarks in the topic [GetFilesAsync](storagefolder_getfilesasync_1429382825.md).
 
-You can also get a list of files in the current folder asynchronously by calling one of the [GetFilesAsync](storagefolder_getfilesasync.md) methods.
+You can also get a list of files in the current folder asynchronously by calling one of the [GetFilesAsync](storagefolder_getfilesasync_1429382825.md) methods.
 
-To specify additional query options, call the [CreateFileQueryWithOptions](storagefolder_createfilequerywithoptions.md) method.
+To specify additional query options, call the [CreateFileQueryWithOptions](storagefolder_createfilequerywithoptions_2038131323.md) method.
 
-To get items that are files or folders, call the [CreateItemQuery](storagefolder_createitemquery.md) method.
+To get items that are files or folders, call the [CreateItemQuery](storagefolder_createitemquery_543424716.md) method.
 
 ## -examples
 The following example gets a query result object that contains the files in the current folder by calling the [CreateFileQuery()](storagefolder_createfilequery_70815642.md) method.

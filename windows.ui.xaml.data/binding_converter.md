@@ -25,7 +25,7 @@ Gets or sets the converter object that is called by the binding engine to modify
 The [IValueConverter](ivalueconverter.md) object that modifies the data.
 
 ## -remarks
-Create a converter by implementing the [IValueConverter](ivalueconverter.md) interface and implementing the [Convert](ivalueconverter_convert.md) method. That method should return an object that is of the same type as the dependency property that the binding targets, or at least a type that can be implicitly coerced or converted to the target type.
+Create a converter by implementing the [IValueConverter](ivalueconverter.md) interface and implementing the [Convert](ivalueconverter_convert_101701969.md) method. That method should return an object that is of the same type as the dependency property that the binding targets, or at least a type that can be implicitly coerced or converted to the target type.
 
 ## -examples
 To use your converter in a binding, first create an instance of your converter class. The following example shows this as a resource in a XAML file.

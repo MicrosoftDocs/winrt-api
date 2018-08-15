@@ -17,4 +17,4 @@ Clears all tabs, reverting to equally spaced tabs with the default tab spacing.
 ## -examples
 
 ## -see-also
-[ITextDocument.DefaultTabStop](itextdocument_defaulttabstop.md), [ITextParagraphFormat.AddTab](itextparagraphformat_addtab.md), [ITextParagraphFormat.DeleteTab](itextparagraphformat_deletetab.md), [ITextParagraphFormat.GetTab](itextparagraphformat_gettab.md), [ITextParagraphFormat.TabCount](itextparagraphformat_tabcount.md)
+[ITextDocument.DefaultTabStop](itextdocument_defaulttabstop.md), [ITextParagraphFormat.AddTab](itextparagraphformat_addtab_1762045005.md), [ITextParagraphFormat.DeleteTab](itextparagraphformat_deletetab_937922036.md), [ITextParagraphFormat.GetTab](itextparagraphformat_gettab_939731864.md), [ITextParagraphFormat.TabCount](itextparagraphformat_tabcount.md)

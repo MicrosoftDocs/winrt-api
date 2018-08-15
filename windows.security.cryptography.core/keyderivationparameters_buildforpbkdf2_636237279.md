@@ -23,7 +23,7 @@ Number of iterations to be used to derive a key.
 Refers to the parameters used during key derivation.
 
 ## -remarks
-You can use the following algorithm names with the [OpenAlgorithm](keyderivationalgorithmprovider_openalgorithm.md) function to open a PBKDF2 algorithm provider:
+You can use the following algorithm names with the [OpenAlgorithm](keyderivationalgorithmprovider_openalgorithm_637226074.md) function to open a PBKDF2 algorithm provider:
 
 
 + [KeyDerivationAlgorithmNames.Pbkdf2Md5](keyderivationalgorithmnames_pbkdf2md5.md)

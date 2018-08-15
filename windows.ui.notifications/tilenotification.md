@@ -16,7 +16,7 @@ Defines an update to a tile, including its visuals, identification tag, and expi
 ## -remarks
 
 ## -examples
-The following example uses the [TileNotification](tilenotification_tilenotification.md) constructor to create a new instance, then uses the [ExpirationTime](tilenotification_expirationtime.md) property to show a tile notification for 30 seconds.
+The following example uses the [TileNotification](tilenotification_tilenotification_93177318.md) constructor to create a new instance, then uses the [ExpirationTime](tilenotification_expirationtime.md) property to show a tile notification for 30 seconds.
 
 ```javascript
 

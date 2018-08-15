@@ -20,7 +20,7 @@ The object that supplies the new XML definition for the badge.
 ## -remarks
 
 ## -examples
-The following example shows the use of [Update](badgeupdater_update.md) to send a numeric badge update to the calling app's tile.
+The following example shows the use of [Update](badgeupdater_update_1826834066.md) to send a numeric badge update to the calling app's tile.
 
 ```javascript
 

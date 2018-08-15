@@ -21,7 +21,7 @@ The scheduled tile update object.
 If your call to this method returns a failure code, examine these possible causes: 
 + **Possible cause**: You've exceeded the maximum allowed number of scheduled notifications.
 
-**Fix**: [TileUpdater.addToSchedule](tileupdater_addtoschedule.md) will fail if you attempt to schedule more than 4096 notifications. Reduce your number of scheduled notifications.
+**Fix**: [TileUpdater.addToSchedule](tileupdater_addtoschedule_1446725541.md) will fail if you attempt to schedule more than 4096 notifications. Reduce your number of scheduled notifications.
 + **Possible cause**: Your notification is scheduled for a time in the past relative to the current system clock time.
 
 **Fix**: Make sure that the scheduled notification time is in the future. Examine the system clock time.

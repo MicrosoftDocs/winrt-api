@@ -21,4 +21,4 @@ Indicates the policy for traffic routing.
 ## -examples
 
 ## -see-also
-[RemoteHttpRoutePolicy](connectivitymanager_removehttproutepolicy.md), [RoutePolicy](routepolicy.md)
+[RemoteHttpRoutePolicy](connectivitymanager_removehttproutepolicy_960581104.md), [RoutePolicy](routepolicy.md)

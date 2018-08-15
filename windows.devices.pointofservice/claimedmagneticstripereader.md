@@ -14,7 +14,7 @@ public class ClaimedMagneticStripeReader : Windows.Devices.PointOfService.IClaim
 Represents the claimed magnetic stripe reader.
 
 ## -remarks
-This object is created when [ClaimReaderAsync](magneticstripereader_claimreaderasync.md) method completes.
+This object is created when [ClaimReaderAsync](magneticstripereader_claimreaderasync_1639218756.md) method completes.
 
 ## -examples
 

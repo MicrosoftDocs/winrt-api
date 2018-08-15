@@ -13,7 +13,7 @@ public class BitmapBuffer : Windows.Foundation.IClosable, Windows.Foundation.IMe
 Represents the pixel data buffer of a bitmap.
 
 ## -remarks
-Get an instance of this class by calling [SoftwareBitmap::LockBuffer](softwarebitmap_lockbuffer.md).
+Get an instance of this class by calling [SoftwareBitmap::LockBuffer](softwarebitmap_lockbuffer_109667063.md).
 
 ## -examples
 

@@ -21,4 +21,4 @@ This object is passed to the app's entered background event handler.
 ## -examples
 
 ## -see-also
-[IEnteredBackgroundEventArgs](ienteredbackgroundeventargs.md), [BackgroundActivated](../windows.applicationmodel.core/coreapplication_backgroundactivated.md), [OnBackgroundActivated](../windows.ui.xaml/application_onbackgroundactivated.md), [Application.EnteredBackground event](../windows.ui.xaml/application_enteredbackground.md), [CoreApplication.EnteredBackground event](../windows.applicationmodel.core/coreapplication_enteredbackground.md)
+[IEnteredBackgroundEventArgs](ienteredbackgroundeventargs.md), [BackgroundActivated](../windows.applicationmodel.core/coreapplication_backgroundactivated.md), [OnBackgroundActivated](../windows.ui.xaml/application_onbackgroundactivated_431338129.md), [Application.EnteredBackground event](../windows.ui.xaml/application_enteredbackground.md), [CoreApplication.EnteredBackground event](../windows.applicationmodel.core/coreapplication_enteredbackground.md)

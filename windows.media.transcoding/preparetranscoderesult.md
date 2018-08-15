@@ -15,7 +15,7 @@ Represents an asynchronous media transcode deferral operation which can be used 
 
 ## -remarks
 
-This object is not instantiated directly. It is returned in a call to [prepareFileTranscodeAsync](mediatranscoder_preparefiletranscodeasync.md), [prepareStreamTranscodeAsync](mediatranscoder_preparestreamtranscodeasync.md), and [PrepareMediaStreamSourceTranscodeAsync](mediatranscoder_preparemediastreamsourcetranscodeasync.md).
+This object is not instantiated directly. It is returned in a call to [prepareFileTranscodeAsync](mediatranscoder_preparefiletranscodeasync_704917623.md), [prepareStreamTranscodeAsync](mediatranscoder_preparestreamtranscodeasync_318469178.md), and [PrepareMediaStreamSourceTranscodeAsync](mediatranscoder_preparemediastreamsourcetranscodeasync_1018386378.md).
 
 For how-to guidance on transcoding media files, see [Transcode media files](https://msdn.microsoft.com/en-us/windows/uwp/audio-video-camera/transcode-media-files).
 

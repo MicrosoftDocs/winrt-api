@@ -16,7 +16,7 @@ Provides data when an app is activated to call a contact.
 > This type appears as [WebUIContactCallActivatedEventArgs](../windows.ui.webui/webuicontactcallactivatedeventargs.md).
 
 ## -remarks
-Windows 8.1 allows users to call their contacts from the [Contact Card](../windows.applicationmodel.contacts/contactmanager_showcontactcard.md) or Windows Search experience. By implementing the contact call activation contract, Windows can launch your app to make calls for the user.
+Windows 8.1 allows users to call their contacts from the [Contact Card](../windows.applicationmodel.contacts/contactmanager_showcontactcard_1968125937.md) or Windows Search experience. By implementing the contact call activation contract, Windows can launch your app to make calls for the user.
 
 To receive call activations, your app must register for the "windows.contact" extension category in its manifest. Under this extension, you must include a "LaunchAction" element with the "Verb" attribute equal to "call." You can then specify the "ServiceId" element to specify the type of calling you support. For example, if your app handles standard PSTN calls, you can specify a "ServiceId" of "telephone." If your app handles calling over a web based service, like Skype, you can specify the domain name of that service, for example "skype.com."
 

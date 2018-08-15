@@ -17,7 +17,7 @@ Removes the badge from the tile that the updater is bound to.
 The badge can also be cleared by setting the badge value to "0" or "none".
 
 > [!NOTE]
-> If your badge is using periodic updates, you must also call [StopPeriodicUpdate](badgeupdater_stopperiodicupdate.md) or the badge will reappear at the next polling interval.
+> If your badge is using periodic updates, you must also call [StopPeriodicUpdate](badgeupdater_stopperiodicupdate_376301793.md) or the badge will reappear at the next polling interval.
 
 ## -examples
 

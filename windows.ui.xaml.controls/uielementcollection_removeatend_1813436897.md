@@ -15,7 +15,7 @@ Removes the last item in the collection.
 ## -remarks
 If successful, calling this method reduces the collection size by one.
 
-If you are programming using C# or Microsoft Visual Basic, see [RemoveAt](uielementcollection_removeat.md) (pass an *index* value of [Count](uielementcollection_count.md) minus one).
+If you are programming using C# or Microsoft Visual Basic, see [RemoveAt](uielementcollection_removeat_1960564133.md) (pass an *index* value of [Count](uielementcollection_count.md) minus one).
 
 ## -examples
 

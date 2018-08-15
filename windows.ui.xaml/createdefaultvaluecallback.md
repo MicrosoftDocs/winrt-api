@@ -18,10 +18,10 @@ When you register a custom dependency property, you can supply metadata (a [Prop
 
 A typical [CreateDefaultValueCallback](propertymetadata_createdefaultvaluecallback.md) should do nothing more than call a constructor for the reference type that's used as a value, and set properties of that reference type, then return it.
 
-To specify a [CreateDefaultValueCallback](propertymetadata_createdefaultvaluecallback.md) within a [PropertyMetadata](propertymetadata.md) instance, you must use [PropertyMetadata.Create](propertymetadata_create.md) to create the instance, not a [PropertyMetadata](propertymetadata.md) constructor.
+To specify a [CreateDefaultValueCallback](propertymetadata_createdefaultvaluecallback.md) within a [PropertyMetadata](propertymetadata.md) instance, you must use [PropertyMetadata.Create](propertymetadata_create_1554665429.md) to create the instance, not a [PropertyMetadata](propertymetadata.md) constructor.
 
 ## -examples
-This example shows pseudocode for using [CreateDefaultValueCallback](propertymetadata_createdefaultvaluecallback.md) in a custom dependency property scenario. Specifically, this creates [PropertyMetadata](propertymetadata.md) to be used in a [DependencyProperty.Register](dependencyproperty_register.md) call (not shown).
+This example shows pseudocode for using [CreateDefaultValueCallback](propertymetadata_createdefaultvaluecallback.md) in a custom dependency property scenario. Specifically, this creates [PropertyMetadata](propertymetadata.md) to be used in a [DependencyProperty.Register](dependencyproperty_register_1826645607.md) call (not shown).
 
 ```csharp
 PropertyMetadata metadata = PropertyMetadata.Create(
@@ -39,4 +39,4 @@ PropertyMetadata metadata = PropertyMetadata.Create(
 
 
 ## -see-also
-[Custom dependency properties](http://msdn.microsoft.com/library/5adf7935-f2cf-4bb6-b1a5-f535c2ed8ef8), [DependencyProperty.Register](dependencyproperty_register.md), [PropertyMetadata](propertymetadata.md)
+[Custom dependency properties](http://msdn.microsoft.com/library/5adf7935-f2cf-4bb6-b1a5-f535c2ed8ef8), [DependencyProperty.Register](dependencyproperty_register_1826645607.md), [PropertyMetadata](propertymetadata.md)

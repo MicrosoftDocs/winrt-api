@@ -24,4 +24,4 @@ No object or value is returned when this method completes.
 ## -examples
 
 ## -see-also
-[imageProperties.savePropertiesAsync methods](imageproperties_savepropertiesasync.md), [imageProperties.savePropertiesAsync() method](imageproperties_savepropertiesasync_330113698.md), [Windows.Foundation.Collections.IKeyValuePair interface](../windows.foundation.collections/ikeyvaluepair_2.md)
+[imageProperties.savePropertiesAsync methods](imageproperties_savepropertiesasync_132989229.md), [imageProperties.savePropertiesAsync() method](imageproperties_savepropertiesasync_330113698.md), [Windows.Foundation.Collections.IKeyValuePair interface](../windows.foundation.collections/ikeyvaluepair_2.md)

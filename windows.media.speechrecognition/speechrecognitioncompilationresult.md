@@ -15,9 +15,9 @@ The result of compiling the constraints set for a [SpeechRecognizer](speechrecog
 
 ## -remarks
 
-Call [SpeechRecognizer.CompileConstraintsAsync](speechrecognizer_compileconstraintsasync.md) to obtain an instance of this class.
+Call [SpeechRecognizer.CompileConstraintsAsync](speechrecognizer_compileconstraintsasync_1901700993.md) to obtain an instance of this class.
 
-[CompileConstraintsAsync](speechrecognizer_compileconstraintsasync.md) must always be called before [RecognizeAsync](speechrecognizer_recognizeasync.md) or [RecognizeWithUIAsync](speechrecognizer_recognizewithuiasync.md), even if no constraints are specified in the [Constraints](speechrecognizer_constraints.md) property.
+[CompileConstraintsAsync](speechrecognizer_compileconstraintsasync_1901700993.md) must always be called before [RecognizeAsync](speechrecognizer_recognizeasync_748427924.md) or [RecognizeWithUIAsync](speechrecognizer_recognizewithuiasync_1152231907.md), even if no constraints are specified in the [Constraints](speechrecognizer_constraints.md) property.
 
 ## -examples
 

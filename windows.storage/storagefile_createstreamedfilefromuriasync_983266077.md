@@ -28,7 +28,7 @@ For a high-quality thumbnail, one edge of this thumbnail should be at least 1024
 When this method completes, it returns a [StorageFile](storagefile.md) object that represents the Uniform Resource Identifier (URI) resource.
 
 ## -remarks
-This method is nearly equivalent to [CreateStreamedFileAsync](storagefile_createstreamedfileasync.md), except when using this method, the system provides a [StreamedFileDataRequestedHandler](streamedfiledatarequestedhandler.md) on the app's behalf and implements this function to download the specified [Uri](../windows.foundation/uri.md) into the streamed file.
+This method is nearly equivalent to [CreateStreamedFileAsync](storagefile_createstreamedfileasync_1143300277.md), except when using this method, the system provides a [StreamedFileDataRequestedHandler](streamedfiledatarequestedhandler.md) on the app's behalf and implements this function to download the specified [Uri](../windows.foundation/uri.md) into the streamed file.
 
 ## -examples
 

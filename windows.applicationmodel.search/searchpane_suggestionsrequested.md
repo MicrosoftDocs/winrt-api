@@ -21,7 +21,7 @@ Suggestions can come from three sources: search history, local files, or from a 
 If your app participates in the Search contract and you want your app to display suggestions from sources that you specify, you must register a handler to respond when this event fires. In your [SuggestionsRequested](searchpane_suggestionsrequested.md) event handler, respond by obtaining suggestions and populating the [SearchSuggestionCollection](searchsuggestioncollection.md) based on the user's [SearchPaneSuggestionsRequestedEventArgs](searchpanesuggestionsrequestedeventargs.md).[QueryText](searchpanesuggestionsrequestedeventargs_querytext.md).
 
 > [!NOTE]
-> If you want to respond to this event asynchronously, you must use [SearchPaneSuggestionsRequestedEventArgs](searchpanesuggestionsrequestedeventargs.md).[Request](searchpanesuggestionsrequestedeventargs_request.md).[GetDeferral](searchpanesuggestionsrequest_getdeferral.md).
+> If you want to respond to this event asynchronously, you must use [SearchPaneSuggestionsRequestedEventArgs](searchpanesuggestionsrequestedeventargs.md).[Request](searchpanesuggestionsrequestedeventargs_request.md).[GetDeferral](searchpanesuggestionsrequest_getdeferral_254836512.md).
 
 Suggestions can't be provided for an empty search box, so this event isn't fired when the user updates the search box to be empty.
 
@@ -45,7 +45,7 @@ Here are a few examples of sources your app can use to obtain suggestions:
 
 After you obtain suggestions, you display them in the search pane by adding them to the [Request](searchpanesuggestionsrequestedeventargs_request.md).[SearchSuggestionCollection](searchsuggestioncollection.md).
 
-At most, the search pane can display 5 suggestions. If you choose to display both query suggestions and result suggestions, you should group the suggestions by suggestion type (query or result) and separate the groups using [AppendSearchSeparator](searchsuggestioncollection_appendsearchseparator.md). Each separator takes the place of a suggestion and must be followed by at least one suggestion, decreasing the number of suggestions that you can display.
+At most, the search pane can display 5 suggestions. If you choose to display both query suggestions and result suggestions, you should group the suggestions by suggestion type (query or result) and separate the groups using [AppendSearchSeparator](searchsuggestioncollection_appendsearchseparator_842802100.md). Each separator takes the place of a suggestion and must be followed by at least one suggestion, decreasing the number of suggestions that you can display.
 
 To learn more about using suggestions to create a good search experience for your users in [Guidelines and checklist for search](http://msdn.microsoft.com/library/c328faa3-f6ae-4970-8372-b413f1290c39).
 

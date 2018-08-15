@@ -23,10 +23,10 @@ When queuing is enabled, a maximum of five tile notifications can automatically 
 When your tile is based on a peek template, notification cycling is timed so that the full content is always shown before the tile cycles to the next notification.
 
 As of Windows 8.1, you can also enable the notification queue for only specific tile sizes. See the following topics: 
-+ [EnableNotificationQueueForSquare150x150](tileupdater_enablenotificationqueueforsquare150x150.md)
-+ [EnableNotificationQueueForSquare310x310](tileupdater_enablenotificationqueueforsquare310x310.md)
-+ [EnableNotificationQueueForWide310x150](tileupdater_enablenotificationqueueforwide310x150.md)
-We recommend that you disable the notification queu when using a large tile with one of the following templates, which already show three notifications simultaneously. This avoids a tile that's distractingly busy to the user. In that case, you may want to use the size-specific enable methods instead of [EnableNotificationQueue](tileupdater_enablenotificationqueue.md). 
++ [EnableNotificationQueueForSquare150x150](tileupdater_enablenotificationqueueforsquare150x150_2087406043.md)
++ [EnableNotificationQueueForSquare310x310](tileupdater_enablenotificationqueueforsquare310x310_2095794587.md)
++ [EnableNotificationQueueForWide310x150](tileupdater_enablenotificationqueueforwide310x150_1310885892.md)
+We recommend that you disable the notification queu when using a large tile with one of the following templates, which already show three notifications simultaneously. This avoids a tile that's distractingly busy to the user. In that case, you may want to use the size-specific enable methods instead of [EnableNotificationQueue](tileupdater_enablenotificationqueue_1798421599.md). 
 + [TileSquare310x310SmallImagesAndTextList01](tiletemplatetype.md)
 + [TileSquare310x310SmallImagesAndTextList02](tiletemplatetype.md)
 + [TileSquare310x310SmallImagesAndTextList03](tiletemplatetype.md)

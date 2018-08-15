@@ -35,7 +35,7 @@ The [MessageType](messagewebsocketcontrol_messagetype.md) property can be change
 
 The [OutboundBufferSizeInBytes](messagewebsocketcontrol_outboundbuffersizeinbytes.md) property must be set before the [MessageWebSocket](messagewebsocket.md) is connected. Setting this property after the [MessageWebSocket](messagewebsocket.md) is connected has no effect.
 
-Changes to any other property values on the [MessageWebSocketControl](messagewebsocketcontrol.md) must be set before the [MessageWebSocket](messagewebsocket.md) is connected. As a result if you need to make changes to the [MaxMessageSize](messagewebsocketcontrol_maxmessagesize.md), [OutboundBufferSizeInBytes](messagewebsocketcontrol_outboundbuffersizeinbytes.md), [ProxyCredential](messagewebsocketcontrol_proxycredential.md), or [ServerCredential](messagewebsocketcontrol_servercredential.md) properties, then these changes must occur before a successful call to the [ConnectAsync](messagewebsocket_connectasync.md) method on the [MessageWebSocket](messagewebsocket.md).
+Changes to any other property values on the [MessageWebSocketControl](messagewebsocketcontrol.md) must be set before the [MessageWebSocket](messagewebsocket.md) is connected. As a result if you need to make changes to the [MaxMessageSize](messagewebsocketcontrol_maxmessagesize.md), [OutboundBufferSizeInBytes](messagewebsocketcontrol_outboundbuffersizeinbytes.md), [ProxyCredential](messagewebsocketcontrol_proxycredential.md), or [ServerCredential](messagewebsocketcontrol_servercredential.md) properties, then these changes must occur before a successful call to the [ConnectAsync](messagewebsocket_connectasync_682685111.md) method on the [MessageWebSocket](messagewebsocket.md).
 
 ## -examples
 

@@ -17,7 +17,7 @@ Provides properties and methods to manage the full-screen image used as the lock
 
 ## -examples
 
-This example uses the [SetImageFileAsync](lockscreen_setimagefileasync.md) method of this class to set the lock screen image. The variable *file* is assumed to be a previously assigned image.
+This example uses the [SetImageFileAsync](lockscreen_setimagefileasync_1369237904.md) method of this class to set the lock screen image. The variable *file* is assumed to be a previously assigned image.
 
 ```csharp
 Windows.System.UserProfile.LockScreen.SetImageFileAsync(file);
@@ -39,7 +39,7 @@ LockScreen::SetImageFileAsync(file)
 Windows.System.UserProfile.LockScreen.setImageFileAsync(file);
 ```
 
-This example uses the [GetImageStream](lockscreen_getimagestream.md) method of this class to retrieve the lock screen image.
+This example uses the [GetImageStream](lockscreen_getimagestream_155459607.md) method of this class to retrieve the lock screen image.
 
 ```csharp
 IRandomAccessStream imageStream = LockScreen.GetImageStream();

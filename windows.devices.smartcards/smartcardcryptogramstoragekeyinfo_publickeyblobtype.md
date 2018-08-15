@@ -10,7 +10,7 @@ public Windows.Security.Cryptography.Core.CryptographicPublicKeyBlobType PublicK
 # Windows.Devices.SmartCards.SmartCardCryptogramStorageKeyInfo.PublicKeyBlobType
 
 ## -description
-Gets the type of the public key object. This value reflects the public key blob type requested in the [RequestCryptogramMaterialStorageKeyInfoAsync](smartcardcryptogramgenerator_requestcryptogrammaterialstoragekeyinfoasync.md) method.
+Gets the type of the public key object. This value reflects the public key blob type requested in the [RequestCryptogramMaterialStorageKeyInfoAsync](smartcardcryptogramgenerator_requestcryptogrammaterialstoragekeyinfoasync_688264229.md) method.
 
 ## -property-value
 The type of the public key object.

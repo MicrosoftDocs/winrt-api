@@ -16,7 +16,7 @@ Gets a value that indicates the confidence of the speech recognizer in the recog
 The confidence level of the recognition result.
 
 ## -remarks
-Call [GetAlternates](speechrecognitionresult_getalternates.md) for the full collection of recognition alternatives, ordered by confidence from most likely to least likely. The first item in the collection is the recognition result indicated by the parent object.
+Call [GetAlternates](speechrecognitionresult_getalternates_1293755280.md) for the full collection of recognition alternatives, ordered by confidence from most likely to least likely. The first item in the collection is the recognition result indicated by the parent object.
 
 
 

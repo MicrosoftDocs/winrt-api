@@ -10,7 +10,7 @@ public string DetailText { get; }
 # Windows.ApplicationModel.Search.Core.SearchSuggestion.DetailText
 
 ## -description
-Gets the value that was passed to the *detailText* parameter of the [AppendResultSuggestion](../windows.applicationmodel.search/searchsuggestioncollection_appendresultsuggestion.md) method.
+Gets the value that was passed to the *detailText* parameter of the [AppendResultSuggestion](../windows.applicationmodel.search/searchsuggestioncollection_appendresultsuggestion_603544202.md) method.
 
 ## -property-value
 The detail text, or **null** if the search suggestion is not a **Result**.

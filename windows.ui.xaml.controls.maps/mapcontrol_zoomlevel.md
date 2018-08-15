@@ -32,7 +32,7 @@ Gets or sets the zoom level of the map, which is a value between 1 and 20 in 2D 
 The zoom level of the map, which is a value between 1 and 20 in 2D views.
 
 ## -remarks
-See the remarks section of the [TryZoomInAsync](mapcontrol_tryzoominasync.md) method.
+See the remarks section of the [TryZoomInAsync](mapcontrol_tryzoominasync_1251712457.md) method.
 
 
 

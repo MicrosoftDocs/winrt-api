@@ -23,7 +23,7 @@ The request was cancelled by the user.
 The account associated with the request has switched. This status occurs when you attempt to use one web account, but the user indicates they wish to use a different web account instead.
 
 ### -field UserInteractionRequired:3
-User interaction is required to complete the request. This option is only applicable to requests made with [GetTokenSilentlyAsync](webauthenticationcoremanager_gettokensilentlyasync.md). If this status is returned, repeat the request with [RequestTokenAsync](webauthenticationcoremanager_requesttokenasync.md).
+User interaction is required to complete the request. This option is only applicable to requests made with [GetTokenSilentlyAsync](webauthenticationcoremanager_gettokensilentlyasync_1117329698.md). If this status is returned, repeat the request with [RequestTokenAsync](webauthenticationcoremanager_requesttokenasync_1777535178.md).
 
 ### -field AccountProviderNotAvailable:4
 The account provider was not available.

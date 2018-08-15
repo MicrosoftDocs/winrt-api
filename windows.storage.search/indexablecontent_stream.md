@@ -21,4 +21,4 @@ Assign the [Stream](indexablecontent_stream.md) property when the content proper
 ## -examples
 
 ## -see-also
-[AddAsync](contentindexer_addasync.md), [ContentIndexer](contentindexer.md)
+[AddAsync](contentindexer_addasync_916871935.md), [ContentIndexer](contentindexer.md)

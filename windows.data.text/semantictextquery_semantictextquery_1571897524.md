@@ -23,7 +23,7 @@ The [BCP-47](http://go.microsoft.com/fwlink/p/?LinkId=227302) language tag to be
 To see a list of the language tags specifically supported by the Microsoft Store, see [Choosing your languages](http://msdn.microsoft.com/library/fca66311-4145-46ac-8b20-1e736f940976).
 
 ## -remarks
-*filterLanguage* permits queries to work with language differences. For example, if *aqsFilter* is "19,5" and *filterLanguage* is "pl" (Polish), a call to [Find](semantictextquery_find.md) against text that includes "19.5" returns a text segment because it is understood that the comma is the decimal separator in Polish.
+*filterLanguage* permits queries to work with language differences. For example, if *aqsFilter* is "19,5" and *filterLanguage* is "pl" (Polish), a call to [Find](semantictextquery_find_1750099982.md) against text that includes "19.5" returns a text segment because it is understood that the comma is the decimal separator in Polish.
 
 ## -examples
 

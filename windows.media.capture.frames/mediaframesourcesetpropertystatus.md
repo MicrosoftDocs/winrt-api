@@ -10,7 +10,7 @@ public enum Windows.Media.Capture.Frames.MediaFrameSourceSetPropertyStatus : int
 # MediaFrameSourceSetPropertyStatus
 
 ## -description
-Specifies the result of a [MediaFrameSourceController.SetPropertyAsync](mediaframesourcecontroller_setpropertyasync.md) operation.
+Specifies the result of a [MediaFrameSourceController.SetPropertyAsync](mediaframesourcecontroller_setpropertyasync_419187035.md) operation.
 
 ## -enum-fields
 ### -field Success:0

@@ -19,7 +19,7 @@ This sensor detects the current quadrant orientation of the specified device as 
 
 ## -remarks
 
-The following example demonstrates how a UWP app built with XAML and C# uses the [GetDefault](simpleorientationsensor_getdefault.md) method to establish a connection to a simple orientation sensor. If no simple orientation sensor is found, the method will return a null value.
+The following example demonstrates how a UWP app built with XAML and C# uses the [GetDefault](simpleorientationsensor_getdefault_846721868.md) method to establish a connection to a simple orientation sensor. If no simple orientation sensor is found, the method will return a null value.
 
 [!code-csharp[GetDefaultCS](../windows.devices.sensors/code/simpleorientation/csharp/Scenario1.xaml.cs#SnippetGetDefaultCS)]
 

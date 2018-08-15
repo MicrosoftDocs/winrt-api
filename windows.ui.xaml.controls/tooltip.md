@@ -46,7 +46,7 @@ A [ToolTip](tooltip.md) must be assigned to another UI element that is its owner
 ```
 
 
-+ In code, use the [ToolTipService.SetToolTip](tooltipservice_settooltip.md) method to assign the [ToolTip](tooltip.md) to an owner.
++ In code, use the [ToolTipService.SetToolTip](tooltipservice_settooltip_1924909593.md) method to assign the [ToolTip](tooltip.md) to an owner.
 ```xaml
 <Button x:Name="submitButton" Content="Submit"/>
 ```

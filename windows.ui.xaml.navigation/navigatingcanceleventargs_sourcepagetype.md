@@ -10,10 +10,10 @@ public Windows.UI.Xaml.Interop.TypeName SourcePageType { get; }
 # Windows.UI.Xaml.Navigation.NavigatingCancelEventArgs.SourcePageType
 
 ## -description
-Gets the value of the *SourcePageType* parameter from the originating [Navigate](../windows.ui.xaml.controls/frame_navigate.md) call.
+Gets the value of the *SourcePageType* parameter from the originating [Navigate](../windows.ui.xaml.controls/frame_navigate_1426351961.md) call.
 
 ## -property-value
-The value of the *SourcePageType* parameter from the originating [Navigate](../windows.ui.xaml.controls/frame_navigate.md) call, as a type reference ([System.Type](https://msdn.microsoft.com/library/system.type.aspx) for Microsoft .NET, a [TypeName](../windows.ui.xaml.interop/typename.md) helper struct for Visual C++ component extensions (C++/CX)).
+The value of the *SourcePageType* parameter from the originating [Navigate](../windows.ui.xaml.controls/frame_navigate_1426351961.md) call, as a type reference ([System.Type](https://msdn.microsoft.com/library/system.type.aspx) for Microsoft .NET, a [TypeName](../windows.ui.xaml.interop/typename.md) helper struct for Visual C++ component extensions (C++/CX)).
 
 ## -remarks
 > [!NOTE]

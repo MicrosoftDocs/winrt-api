@@ -17,4 +17,4 @@ Defines the default character formatting attributes of a document, or the curren
 ## -examples
 
 ## -see-also
-[ITextDocument.GetDefaultCharacterFormat](itextdocument_getdefaultcharacterformat.md), [ITextDocument.SetDefaultCharacterFormat](itextdocument_setdefaultcharacterformat.md), [ITextRange.CharacterFormat](itextrange_characterformat.md)
+[ITextDocument.GetDefaultCharacterFormat](itextdocument_getdefaultcharacterformat_1941781921.md), [ITextDocument.SetDefaultCharacterFormat](itextdocument_setdefaultcharacterformat_6295136.md), [ITextRange.CharacterFormat](itextrange_characterformat.md)

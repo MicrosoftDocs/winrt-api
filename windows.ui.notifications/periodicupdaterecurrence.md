@@ -12,7 +12,7 @@ public enum Windows.UI.Notifications.PeriodicUpdateRecurrence : int
 
 ## -description
 Specifies the time period for subsequent polls of the tile or badge data source for new content.
-Used by [BadgeUpdater.StartPeriodicUpdate](badgeupdater_startperiodicupdate.md), [TileUpdater.StartPeriodicUpdate](tileupdater_startperiodicupdate.md), and [TileUpdater.StartPeriodicUpdateBatch](tileupdater_startperiodicupdatebatch.md).
+Used by [BadgeUpdater.StartPeriodicUpdate](badgeupdater_startperiodicupdate_1369986471.md), [TileUpdater.StartPeriodicUpdate](tileupdater_startperiodicupdate_1369986471.md), and [TileUpdater.StartPeriodicUpdateBatch](tileupdater_startperiodicupdatebatch_1331011351.md).
 
 ## -enum-fields
 ### -field HalfHour:0
@@ -37,4 +37,4 @@ Windows can delay the polling of your URL by up to 15 minutes if necessary to op
 ## -examples
 
 ## -see-also
-[BadgeUpdater.startPeriodicUpdate](badgeupdater_startperiodicupdate.md), [TileUpdater.startPeriodicUpdate](tileupdater_startperiodicupdate.md), [How to set up periodic notifications for tiles](http://msdn.microsoft.com/library/96c67773-2e5b-4278-b16d-2f813b16580c), [How to set up periodic notifications for badges](http://msdn.microsoft.com/library/96c67773-2e5b-4278-b16d-2f813b16580c), [Choose a notification delivery method](http://msdn.microsoft.com/library/fdb43ede-c5f2-493f-952c-55401ec5172b)
+[BadgeUpdater.startPeriodicUpdate](badgeupdater_startperiodicupdate_1369986471.md), [TileUpdater.startPeriodicUpdate](tileupdater_startperiodicupdate_1369986471.md), [How to set up periodic notifications for tiles](http://msdn.microsoft.com/library/96c67773-2e5b-4278-b16d-2f813b16580c), [How to set up periodic notifications for badges](http://msdn.microsoft.com/library/96c67773-2e5b-4278-b16d-2f813b16580c), [Choose a notification delivery method](http://msdn.microsoft.com/library/fdb43ede-c5f2-493f-952c-55401ec5172b)

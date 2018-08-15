@@ -24,7 +24,7 @@ Connection parameters for a Wi-Fi Direct connect/pairing operation.
 An asynchronous operation to retrieve the [WiFiDirectDevice](wifidirectdevice.md) that was created.
 
 ## -remarks
-You can use the [GetDeviceSelector](wifidirectdevice_getdeviceselector.md) methods to enumerate Wi-Fi Direct devices to determine their interface ids.
+You can use the [GetDeviceSelector](wifidirectdevice_getdeviceselector_185243134.md) methods to enumerate Wi-Fi Direct devices to determine their interface ids.
 
 ## -examples
 

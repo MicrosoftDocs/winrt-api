@@ -10,23 +10,23 @@ public Windows.ApplicationModel.VoiceCommands.VoiceCommandResponse CreateRespons
 # Windows.ApplicationModel.VoiceCommands.VoiceCommandResponse.CreateResponseForPrompt
 
 ## -description
-Creates a [VoiceCommandResponse](voicecommandresponse.md) object used in calls to [RequestConfirmationAsync](voicecommandserviceconnection_requestconfirmationasync.md) or [RequestDisambiguationAsync](voicecommandserviceconnection_requestdisambiguationasync.md).
+Creates a [VoiceCommandResponse](voicecommandresponse.md) object used in calls to [RequestConfirmationAsync](voicecommandserviceconnection_requestconfirmationasync_1656186355.md) or [RequestDisambiguationAsync](voicecommandserviceconnection_requestdisambiguationasync_117243970.md).
 
 ## -parameters
 ### -param message
 The initial message that is spoken by **Cortana** and shown on the **Cortana** canvas. 
 This message should be one of the following:
 
-+ An unambiguous question that can be answered with either yes or no on confirmation screens (see [RequestConfirmationAsync](voicecommandserviceconnection_requestconfirmationasync.md)).
-+ A request for the user to select from the list of choices presented on disambiguation screens (see [RequestDisambiguationAsync](voicecommandserviceconnection_requestdisambiguationasync.md)).
++ An unambiguous question that can be answered with either yes or no on confirmation screens (see [RequestConfirmationAsync](voicecommandserviceconnection_requestconfirmationasync_1656186355.md)).
++ A request for the user to select from the list of choices presented on disambiguation screens (see [RequestDisambiguationAsync](voicecommandserviceconnection_requestdisambiguationasync_117243970.md)).
 
 
 ### -param repeatMessage
 The secondary message that is spoken by **Cortana** and shown on the **Cortana** canvas, if a response was not understood.
 This message should be both a variation of the first message and one of the following:
 
-+ An unambiguous question that can be answered with either yes or no on confirmation screens (see [RequestConfirmationAsync](voicecommandserviceconnection_requestconfirmationasync.md)).
-+ A request for the user to select from the list of choices presented on disambiguation screens (see [RequestDisambiguationAsync](voicecommandserviceconnection_requestdisambiguationasync.md)).
++ An unambiguous question that can be answered with either yes or no on confirmation screens (see [RequestConfirmationAsync](voicecommandserviceconnection_requestconfirmationasync_1656186355.md)).
++ A request for the user to select from the list of choices presented on disambiguation screens (see [RequestDisambiguationAsync](voicecommandserviceconnection_requestdisambiguationasync_117243970.md)).
 
 
 ## -returns

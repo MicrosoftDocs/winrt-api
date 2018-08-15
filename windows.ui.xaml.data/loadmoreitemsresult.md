@@ -10,7 +10,7 @@ public struct LoadMoreItemsResult
 # LoadMoreItemsResult
 
 ## -description
-Wraps the asynchronous results of a [LoadMoreItemsAsync](icollectionview_loadmoreitemsasync.md) call.
+Wraps the asynchronous results of a [LoadMoreItemsAsync](icollectionview_loadmoreitemsasync_928705393.md) call.
 
 ## -struct-fields
 

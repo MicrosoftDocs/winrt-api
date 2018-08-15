@@ -25,4 +25,4 @@ If *value* is null, the text in the range is deleted.
 ## -examples
 
 ## -see-also
-[ITextRange.GetText](itextrange_gettext.md), [ITextRange.Text](itextrange_text.md)
+[ITextRange.GetText](itextrange_gettext_518428927.md), [ITextRange.Text](itextrange_text.md)

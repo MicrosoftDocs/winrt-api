@@ -14,9 +14,9 @@ Selects all the items in a view.
 
 ## -remarks
 > [!WARNING]
-> Call the [SelectAll](listviewbase_selectall.md) method only when the [SelectionMode](listviewbase_selectionmode.md) property is set to [Multiple](listviewselectionmode.md) or [Extended](listviewselectionmode.md). If you call [SelectAll](listviewbase_selectall.md) when the [SelectionMode](listviewbase_selectionmode.md) is **Single** or **None**, an exception is thrown.
+> Call the [SelectAll](listviewbase_selectall_1125513670.md) method only when the [SelectionMode](listviewbase_selectionmode.md) property is set to [Multiple](listviewselectionmode.md) or [Extended](listviewselectionmode.md). If you call [SelectAll](listviewbase_selectall_1125513670.md) when the [SelectionMode](listviewbase_selectionmode.md) is **Single** or **None**, an exception is thrown.
 
-Starting in Windows 10, you can use the [SelectRange](listviewbase_selectrange.md) and [DeselectRange](listviewbase_deselectrange.md) methods with the [SelectedRanges](listviewbase_selectedranges.md) property to make selections using ranges of indexes. This is a more efficient way to describe item selection than using [SelectedItems](listviewbase_selecteditems.md), which requires the actual item object to be created for each selected item. To select all items using index ranges, use [SelectRange](listviewbase_selectrange.md).
+Starting in Windows 10, you can use the [SelectRange](listviewbase_selectrange_1824826911.md) and [DeselectRange](listviewbase_deselectrange_1629963900.md) methods with the [SelectedRanges](listviewbase_selectedranges.md) property to make selections using ranges of indexes. This is a more efficient way to describe item selection than using [SelectedItems](listviewbase_selecteditems.md), which requires the actual item object to be created for each selected item. To select all items using index ranges, use [SelectRange](listviewbase_selectrange_1824826911.md).
 
 ## -examples
 ```xaml
@@ -56,4 +56,4 @@ End If
 ```
 
 ## -see-also
-[SelectedRanges](listviewbase_selectedranges.md), [SelectRange](listviewbase_selectrange.md), [DeselectRange](listviewbase_deselectrange.md), [ItemIndexRange](../windows.ui.xaml.data/itemindexrange.md)
+[SelectedRanges](listviewbase_selectedranges.md), [SelectRange](listviewbase_selectrange_1824826911.md), [DeselectRange](listviewbase_deselectrange_1629963900.md), [ItemIndexRange](../windows.ui.xaml.data/itemindexrange.md)

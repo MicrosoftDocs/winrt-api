@@ -25,7 +25,7 @@ The object representing the asynchronous operation.
 ## -remarks
 This operation will not block. The returned [IAsyncOperationWithProgress(HttpResponseMessage, HttpProgress)](../windows.foundation/iasyncoperationwithprogress_2.md) object will complete after the whole response (including content) is read.
 
-The [PostAsync](httpclient_postasync.md) and [PutAsync](httpclient_putasync.md) methods only allow setting a limited number of HTTP content headers. In contrast, the [SendRequestAsync](httpclient_sendrequestasync.md) method allows setting headers on the request message as well as on the HTTP content to be sent.
+The [PostAsync](httpclient_postasync_1466488101.md) and [PutAsync](httpclient_putasync_552115331.md) methods only allow setting a limited number of HTTP content headers. In contrast, the [SendRequestAsync](httpclient_sendrequestasync_234300504.md) method allows setting headers on the request message as well as on the HTTP content to be sent.
 
 Below are the exceptions that this function throws.
 
@@ -41,4 +41,4 @@ You must write code to handle exceptions when you call this method. Exceptions c
 ## -examples
 
 ## -see-also
-[IHttpContent](ihttpcontent.md), [IAsyncOperationWithProgress(String, HttpProgress)](../windows.foundation/iasyncoperationwithprogress_2.md), [PutAsync](httpclient_putasync.md), [SendRequestAsync](httpclient_sendrequestasync.md), [Uri](../windows.foundation/uri.md)
+[IHttpContent](ihttpcontent.md), [IAsyncOperationWithProgress(String, HttpProgress)](../windows.foundation/iasyncoperationwithprogress_2.md), [PutAsync](httpclient_putasync_552115331.md), [SendRequestAsync](httpclient_sendrequestasync_234300504.md), [Uri](../windows.foundation/uri.md)

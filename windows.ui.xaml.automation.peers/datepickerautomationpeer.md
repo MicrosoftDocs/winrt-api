@@ -19,10 +19,10 @@ The Windows Runtime  [DatePicker](../windows.ui.xaml.controls/datepicker.md) cla
 
 [DatePickerAutomationPeer](datepickerautomationpeer.md) has overrides of **Core** methods such that the associated [AutomationPeer](automationpeer.md) methods provide peer-specific information to a Microsoft UI Automation client.
 
-+ [GetClassName](automationpeer_getclassname.md) returns "DatePicker".
-+ [GetAutomationControlType](automationpeer_getautomationcontroltype.md) returns [AutomationControlType.Group](automationcontroltype.md).
-+ [GetName](automationpeer_getname.md) attempts to get a string from the owner control's [Header](../windows.ui.xaml.controls/datepicker_header.md) property. Otherwise, the framework peer behavior of using [AutomationProperties.Name](../windows.ui.xaml.automation/automationproperties_name.md) applies.
-+ [GetPattern](automationpeer_getpattern.md) reports no pattern support.
++ [GetClassName](automationpeer_getclassname_614238974.md) returns "DatePicker".
++ [GetAutomationControlType](automationpeer_getautomationcontroltype_1156384152.md) returns [AutomationControlType.Group](automationcontroltype.md).
++ [GetName](automationpeer_getname_1386609741.md) attempts to get a string from the owner control's [Header](../windows.ui.xaml.controls/datepicker_header.md) property. Otherwise, the framework peer behavior of using [AutomationProperties.Name](../windows.ui.xaml.automation/automationproperties_name.md) applies.
++ [GetPattern](automationpeer_getpattern_2046576749.md) reports no pattern support.
 The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](http://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4).
 
 ## -examples

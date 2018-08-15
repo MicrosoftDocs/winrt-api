@@ -14,7 +14,7 @@ public class PhotoImportImportItemsResult : Windows.Media.Import.IPhotoImportImp
 Represents the result of a operation that imports media items from the source.
 
 ## -remarks
-Get an instance of this class by calling [PhotoImportFindItemsResult.ImportItemsAsync](photoimportfinditemsresult_importitemsasync.md) or [PhotoImportOperation.ContinueImportingItemsAsync](photoimportoperation_continueimportingitemsasync.md).
+Get an instance of this class by calling [PhotoImportFindItemsResult.ImportItemsAsync](photoimportfinditemsresult_importitemsasync_357096682.md) or [PhotoImportOperation.ContinueImportingItemsAsync](photoimportoperation_continueimportingitemsasync.md).
 
 ## -examples
 

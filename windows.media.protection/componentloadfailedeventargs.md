@@ -10,7 +10,7 @@ public class ComponentLoadFailedEventArgs : Windows.Media.Protection.IComponentL
 # Windows.Media.Protection.ComponentLoadFailedEventArgs
 
 ## -description
-Contains event data for a [MediaProtectionManager](mediaprotectionmanager_mediaprotectionmanager.md) object when the load of binary data fails.
+Contains event data for a [MediaProtectionManager](mediaprotectionmanager_mediaprotectionmanager_1221375020.md) object when the load of binary data fails.
 
 ## -remarks
 This object is not instantiated directly. It is created by the [MediaProtectionManager.ComponentLoadFailed](mediaprotectionmanager_componentloadfailed.md) event and is returned as an argument to the [ComponentLoadFailedEventHandler](componentloadfailedeventhandler.md) delegate.

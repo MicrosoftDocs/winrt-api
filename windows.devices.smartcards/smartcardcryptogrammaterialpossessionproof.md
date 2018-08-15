@@ -10,7 +10,7 @@ public class SmartCardCryptogramMaterialPossessionProof : Windows.Devices.SmartC
 # Windows.Devices.SmartCards.SmartCardCryptogramMaterialPossessionProof
 
 ## -description
-Contains the result of calling [TryProvePossessionOfCryptogramMaterialPackageAsync](smartcardcryptogramgenerator_tryprovepossessionofcryptogrammaterialpackageasync.md) with a challenge token to prove that the device possesses the identified cryptogram material.
+Contains the result of calling [TryProvePossessionOfCryptogramMaterialPackageAsync](smartcardcryptogramgenerator_tryprovepossessionofcryptogrammaterialpackageasync_2141877963.md) with a challenge token to prove that the device possesses the identified cryptogram material.
 
 ## -remarks
 

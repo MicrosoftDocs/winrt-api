@@ -17,7 +17,7 @@ Joins a [DatagramSocket](datagramsocket.md) object to a multicast group.
 The hostname or IP address for the multicast group.
 
 ## -remarks
-To receive multicast packets on the [DatagramSocket](datagramsocket.md) object, an app must assign the [MessageReceived ](datagramsocket_messagereceived.md) event to an event handler, bind to a local service name or UDP port and a local hostname or IP address using the [BindEndpointAsync](datagramsocket_bindendpointasync.md) or [BindServiceNameAsync](datagramsocket_bindservicenameasync.md) method, and then call the [JoinMulticastGroup](datagramsocket_joinmulticastgroup.md) method to join the multicast group.
+To receive multicast packets on the [DatagramSocket](datagramsocket.md) object, an app must assign the [MessageReceived ](datagramsocket_messagereceived.md) event to an event handler, bind to a local service name or UDP port and a local hostname or IP address using the [BindEndpointAsync](datagramsocket_bindendpointasync_1396029045.md) or [BindServiceNameAsync](datagramsocket_bindservicenameasync_440542334.md) method, and then call the [JoinMulticastGroup](datagramsocket_joinmulticastgroup_1508568147.md) method to join the multicast group.
 
 If a network adapter was specified to the [BindServiceNameAsync](datagramsocket_bindservicenameasync_440542334.md) method, only groups on networks present on the specified adapter will be joined.
 

@@ -22,7 +22,7 @@ If your app participates in the Search contract and displays suggestions for pos
 > If you want to display result suggestions, you must also listen for and handle the [SuggestionsRequested](searchpane_suggestionsrequested.md) event.
 
 ## -examples
-**For C#/C++/VB:** This example demonstrates how to ensure that your app can respond to user queries at any time by overriding [OnWindowCreated](../windows.ui.xaml/application_onwindowcreated.md) in App.xaml.cs/App.xaml.cpp/App.xaml.vb to access the [SearchPane](searchpane.md) object and register handlers for [SearchPane](searchpane.md) events (like [QuerySubmitted](searchpane_querysubmitted.md) and [ResultSuggestionChosen](searchpane_resultsuggestionchosen.md)).
+**For C#/C++/VB:** This example demonstrates how to ensure that your app can respond to user queries at any time by overriding [OnWindowCreated](../windows.ui.xaml/application_onwindowcreated_1983609380.md) in App.xaml.cs/App.xaml.cpp/App.xaml.vb to access the [SearchPane](searchpane.md) object and register handlers for [SearchPane](searchpane.md) events (like [QuerySubmitted](searchpane_querysubmitted.md) and [ResultSuggestionChosen](searchpane_resultsuggestionchosen.md)).
 
 ```csharp
 protected override void OnWindowCreated(WindowCreatedEventArgs args)

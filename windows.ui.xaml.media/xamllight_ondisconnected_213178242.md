@@ -14,7 +14,7 @@ This method is automatically called when the XamlLight is no longer in use anywh
 
 This provides an opportunity to safely dispose of resources such as the CompositionLight when they aren't currently required.
 
-[OnConnected](xamllight_onconnected.md) will be called again if the XamlLight is later used to light any UIElements or Brushes after being disconnected.
+[OnConnected](xamllight_onconnected_832156073.md) will be called again if the XamlLight is later used to light any UIElements or Brushes after being disconnected.
 
 ## -params
 ## -param oldElement

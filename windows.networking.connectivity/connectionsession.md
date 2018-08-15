@@ -10,7 +10,7 @@ public class ConnectionSession : Windows.Foundation.IClosable, Windows.Networkin
 # Windows.Networking.Connectivity.ConnectionSession
 
 ## -description
-The [ConnectionSession](connectionsession.md) class is used to represent a connection to an access point established with [AcquireConnectionAsync](connectivitymanager_acquireconnectionasync.md).
+The [ConnectionSession](connectionsession.md) class is used to represent a connection to an access point established with [AcquireConnectionAsync](connectivitymanager_acquireconnectionasync_1960335865.md).
 
 ## -remarks
 
@@ -18,4 +18,4 @@ The [ConnectionSession](connectionsession.md) class is used to represent a conne
 ## -examples
 
 ## -see-also
-[AcquireConnectionAsync](connectivitymanager_acquireconnectionasync.md), [IClosable](../windows.foundation/iclosable.md)
+[AcquireConnectionAsync](connectivitymanager_acquireconnectionasync_1960335865.md), [IClosable](../windows.foundation/iclosable.md)

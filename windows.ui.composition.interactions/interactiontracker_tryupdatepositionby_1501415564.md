@@ -12,7 +12,7 @@ public int TryUpdatePositionBy(Windows.Foundation.Numerics.Vector3 amount)
 ## -description
 Tries to adjust the [InteractionTracker](interactiontracker.md) 's position by the specified amount.
 
-The [TryUpdatePositionBy](interactiontracker_tryupdatepositionby.md) method updates the current location of [InteractionTracker](interactiontracker.md) by the Vector3 delta specified as a parameter. Similarly to [TryUpdatePosition](interactiontracker_tryupdateposition.md), [TryUpdatePositionBy](interactiontracker_tryupdatepositionby.md) is used to declaratively move [InteractionTracker](interactiontracker.md) by a defined delta without the need of an animation or Inertia. [TryUpdatePositionBy](interactiontracker_tryupdatepositionby.md) can be called from either the Idle, CustomAnimation or Inertia state – doing so will move the position of [InteractionTracker](interactiontracker.md) by the defined delta and enter the idle state.
+The [TryUpdatePositionBy](interactiontracker_tryupdatepositionby_1501415564.md) method updates the current location of [InteractionTracker](interactiontracker.md) by the Vector3 delta specified as a parameter. Similarly to [TryUpdatePosition](interactiontracker_tryupdateposition_207785016.md), [TryUpdatePositionBy](interactiontracker_tryupdatepositionby_1501415564.md) is used to declaratively move [InteractionTracker](interactiontracker.md) by a defined delta without the need of an animation or Inertia. [TryUpdatePositionBy](interactiontracker_tryupdatepositionby_1501415564.md) can be called from either the Idle, CustomAnimation or Inertia state – doing so will move the position of [InteractionTracker](interactiontracker.md) by the defined delta and enter the idle state.
 
 ## -parameters
 ### -param amount

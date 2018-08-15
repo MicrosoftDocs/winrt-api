@@ -16,7 +16,7 @@ The credential to use to authenticate to the proxy server through HTTP header au
 The credential to use to authenticate to the proxy server through HTTP header authentication.
 
 ## -remarks
-The [ProxyCredential](streamwebsocketcontrol_proxycredential.md) property must be set before calling the [ConnectAsync](streamwebsocket_connectasync.md) method on the [StreamWebSocket](streamwebsocket.md) object. An attempt to set the [ProxyCredential](streamwebsocketcontrol_proxycredential.md) property after calling the [ConnectAsync](streamwebsocket_connectasync.md) method will result in an error.
+The [ProxyCredential](streamwebsocketcontrol_proxycredential.md) property must be set before calling the [ConnectAsync](streamwebsocket_connectasync_682685111.md) method on the [StreamWebSocket](streamwebsocket.md) object. An attempt to set the [ProxyCredential](streamwebsocketcontrol_proxycredential.md) property after calling the [ConnectAsync](streamwebsocket_connectasync_682685111.md) method will result in an error.
 
 ## -examples
 

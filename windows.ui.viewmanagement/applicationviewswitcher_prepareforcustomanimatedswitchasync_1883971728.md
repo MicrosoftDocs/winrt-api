@@ -26,7 +26,7 @@ Enumeration value that specifies thw view switching behaviors.
 Asynchronously returns **true** if the call succeeds; **false** if it does not.
 
 ## -remarks
-The view ID can be obtained for the current app view with [ApplicationView.Id](applicationview_id.md). For a specific app view managed by the app, call [ApplicationView.GetApplicationViewIdForWindow](applicationview_getapplicationviewidforwindow.md) with the [CoreWindow](../windows.ui.core/corewindow.md) for the app view.
+The view ID can be obtained for the current app view with [ApplicationView.Id](applicationview_id.md). For a specific app view managed by the app, call [ApplicationView.GetApplicationViewIdForWindow](applicationview_getapplicationviewidforwindow_543884123.md) with the [CoreWindow](../windows.ui.core/corewindow.md) for the app view.
 
 ## -examples
 

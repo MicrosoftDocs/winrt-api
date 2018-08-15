@@ -14,7 +14,7 @@ public Windows.Foundation.Rect ProcessPointerUp(Windows.UI.Input.PointerPoint po
 > [!NOTE]
 > For Universal Windows app using Extensible Application Markup Language (XAML), we recommend using [InkPresenter](inkpresenter.md) and the [InkCanvas](../windows.ui.xaml.controls/inkcanvas.md) control instead of [InkManager](inkmanager.md).
 
-Processes information about the position and features of the contact point, like pressure and tilt, on up contact. You must call this method after you call [ProcessPointerUpdate](inkmanager_processpointerupdate.md).
+Processes information about the position and features of the contact point, like pressure and tilt, on up contact. You must call this method after you call [ProcessPointerUpdate](inkmanager_processpointerupdate_416065930.md).
 
 > [!IMPORTANT]
 > This method is not supported in desktop apps.

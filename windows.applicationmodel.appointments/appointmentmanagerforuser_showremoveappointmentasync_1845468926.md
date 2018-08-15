@@ -14,7 +14,7 @@ Shows the Appointments provider Remove Appointment UI, to enable the user to rem
 
 ## -parameters
 ### -param appointmentId
-The appointment identifier. This is typically obtained from the async return value of a previous [ShowAddAppointmentAsync](appointmentmanagerforuser_showaddappointmentasync.md) call.
+The appointment identifier. This is typically obtained from the async return value of a previous [ShowAddAppointmentAsync](appointmentmanagerforuser_showaddappointmentasync_253292089.md) call.
 
 ### -param selection
 The [Rect](../windows.foundation/rect.md) is the rectangular area of user selection (for example, pressing a button), around which the operating system displays the Remove Appointment UI, not within that rectangular area. For example, if an app uses a button to show the [Rect](../windows.foundation/rect.md), pass the [Rect](../windows.foundation/rect.md) of the button so the Remove Appointment UI displays around the button, not overlapping it.

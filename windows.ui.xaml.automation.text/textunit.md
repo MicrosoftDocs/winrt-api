@@ -36,7 +36,7 @@ Specifies that the text unit is an entire document in length.
 
 
 ## -remarks
-[TextUnit](textunit.md) defines an input for the [Move](../windows.ui.text/itextrange_move.md) method and related methods of the **TextRange** automation control pattern. [ITextRangeProvider](../windows.ui.xaml.automation.provider/itextrangeprovider.md) is the definition interface if you want to support the **TextRange** automation pattern as part of a Windows Runtime custom control. For more info, see [ITextRangeProvider](../windows.ui.xaml.automation.provider/itextrangeprovider.md) or [Text and TextRange Control Patterns](http://msdn.microsoft.com/library/4d541c31-11f7-4d7e-a0e0-9ed1da873d07).
+[TextUnit](textunit.md) defines an input for the [Move](../windows.ui.text/itextrange_move_1126378751.md) method and related methods of the **TextRange** automation control pattern. [ITextRangeProvider](../windows.ui.xaml.automation.provider/itextrangeprovider.md) is the definition interface if you want to support the **TextRange** automation pattern as part of a Windows Runtime custom control. For more info, see [ITextRangeProvider](../windows.ui.xaml.automation.provider/itextrangeprovider.md) or [Text and TextRange Control Patterns](http://msdn.microsoft.com/library/4d541c31-11f7-4d7e-a0e0-9ed1da873d07).
 
 ## -examples
 

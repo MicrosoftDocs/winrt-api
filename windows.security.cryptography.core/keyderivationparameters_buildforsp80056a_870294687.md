@@ -32,7 +32,7 @@ Contains private information known to both initiator and responder, such as a sh
 Refers to the parameters used during key derivation.
 
 ## -remarks
-You can use the following algorithm names with the [OpenAlgorithm](keyderivationalgorithmprovider_openalgorithm.md) function to open a SP80056a KDF algorithm provider:
+You can use the following algorithm names with the [OpenAlgorithm](keyderivationalgorithmprovider_openalgorithm_637226074.md) function to open a SP80056a KDF algorithm provider:
 
 
 + [KeyDerivationAlgorithmNames.Sp80056aConcatMd5](keyderivationalgorithmnames_sp80056aconcatmd5.md)
@@ -45,7 +45,7 @@ You can use the following algorithm names with the [OpenAlgorithm](keyderivation
 ## -examples
 
 
-[!code-csharp[[!code-csharp[GetDefaultLine](../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowDerivationFromSP80056a)]
+[!code-csharp[!code-csharp[GetDefaultLine](../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowDerivationFromSP80056a)]
 ] (../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowDerivationFromSP80056a)]
 
 ## -see-also

@@ -11,7 +11,7 @@ public Windows.UI.ViewManagement.ApplicationViewState Value { get; }
 
 ## -description
 > [!NOTE]
-> ApplicationView static methods may be altered or unavailable for releases after Windows 8.1. Instead, use [ApplicationView.GetForCurrentView](applicationview_getforcurrentview.md) to get an [ApplicationView](applicationview.md) object.
+> ApplicationView static methods may be altered or unavailable for releases after Windows 8.1. Instead, use [ApplicationView.GetForCurrentView](applicationview_getforcurrentview_1363600702.md) to get an [ApplicationView](applicationview.md) object.
 
 Gets the state of the current window (app view).
 

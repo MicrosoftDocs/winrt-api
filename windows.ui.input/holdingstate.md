@@ -23,7 +23,7 @@ A single contact has been detected and a time threshold is crossed without the c
 The single contact is lifted.
 
 ### -field Canceled:2
-An additional contact is detected, a subsequent gesture (such as a slide) is detected, or the [CompleteGesture](gesturerecognizer_completegesture.md) method is called.
+An additional contact is detected, a subsequent gesture (such as a slide) is detected, or the [CompleteGesture](gesturerecognizer_completegesture_805659565.md) method is called.
 
 
 ## -remarks

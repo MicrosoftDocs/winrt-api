@@ -29,7 +29,7 @@ The content of the clipboard must be in Ink Serialized Format (ISF) format.
 The [InkStroke](inkstroke.md) content from the clipboard is selected. Any existing selection is discarded.
 
 ## -examples
-Here we show how to test whether the content on the clipboard can be added to an [InkStroke](inkstroke.md) collection before calling the [PasteFromClipboard](inkmanager_pastefromclipboard.md) method.
+Here we show how to test whether the content on the clipboard can be added to an [InkStroke](inkstroke.md) collection before calling the [PasteFromClipboard](inkmanager_pastefromclipboard_1029382566.md) method.
 
 This example specifies the insertion point for the bounding rectangle at (100, 60), but this can be customized as required.
 

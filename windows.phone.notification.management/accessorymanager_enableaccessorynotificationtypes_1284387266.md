@@ -17,7 +17,7 @@ Opt into getting notifications for toast or app uninstallation.
 One of the values specified by the [AccessoryNotificationType](accessorynotificationtype.md) enumeration.
 
 ## -remarks
-Only **AccessoryNotificationType.AppUninstall** and** AccessoryNotificationType.Toast** will use the settings made by [DisableNotificationsForApplication](accessorymanager_disablenotificationsforapplication.md). For example, [AlarmNotificationTriggerDetails.AccessoryNotificationType](alarmnotificationtriggerdetails_accessorynotificationtype.md) will notify of alarm activity regardless of what is set by these two methods.
+Only **AccessoryNotificationType.AppUninstall** and** AccessoryNotificationType.Toast** will use the settings made by [DisableNotificationsForApplication](accessorymanager_disablenotificationsforapplication_1278092887.md). For example, [AlarmNotificationTriggerDetails.AccessoryNotificationType](alarmnotificationtriggerdetails_accessorynotificationtype.md) will notify of alarm activity regardless of what is set by these two methods.
 
 Calling this API requires that the **ID_CAP_SMS** and **ID_CAP_SMS_COMPANION** capabilities be specified in the application manifest.
 

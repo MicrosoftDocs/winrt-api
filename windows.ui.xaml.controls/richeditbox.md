@@ -84,7 +84,7 @@ This table shows the resources used by the [RichEditBox](richeditbox.md) control
 </tr>
 </table>
 
-This example shows how to use the [ITextDocument.SetText](../windows.ui.text/itextdocument_settext.md) method to programmatically add text to a [RichEditBox](richeditbox.md).
+This example shows how to use the [ITextDocument.SetText](../windows.ui.text/itextdocument_settext_522499431.md) method to programmatically add text to a [RichEditBox](richeditbox.md).
 
 ```xaml
 <RichEditBox x:Name="richEditBox" Width="500" Header="Notes"/>

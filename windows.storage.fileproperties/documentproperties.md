@@ -13,12 +13,12 @@ public class DocumentProperties : Windows.Storage.FileProperties.IDocumentProper
 Provides access to the document-related properties of an item (like a file or folder).
 
 ## -remarks
-You can access a [DocumentProperties](documentproperties.md) object asynchronously using the [GetDocumentPropertiesAsync](storageitemcontentproperties_getdocumentpropertiesasync.md) method from the [Properties](../windows.storage/istorageitemproperties_properties.md) property of an item (like a file of folder), or synchronously using the [DocumentProperties](../windows.storage.bulkaccess/istorageiteminformation_documentproperties.md) property if it is available.
+You can access a [DocumentProperties](documentproperties.md) object asynchronously using the [GetDocumentPropertiesAsync](storageitemcontentproperties_getdocumentpropertiesasync_124814975.md) method from the [Properties](../windows.storage/istorageitemproperties_properties.md) property of an item (like a file of folder), or synchronously using the [DocumentProperties](../windows.storage.bulkaccess/istorageiteminformation_documentproperties.md) property if it is available.
 You can get a [DocumentProperties](documentproperties.md) object using any of the following methods and properties:
 
 + [FileInformation.documentProperties](../windows.storage.bulkaccess/fileinformation_documentproperties.md) property
 + [FolderInformation.documentProperties](../windows.storage.bulkaccess/folderinformation_documentproperties.md) property
-+ [StorageItemContentProperties.getDocumentPropertiesAsync](storageitemcontentproperties_getdocumentpropertiesasync.md) method, which can be accessed using the [Properties](../windows.storage/istorageitemproperties_properties.md) property, if it is available.
++ [StorageItemContentProperties.getDocumentPropertiesAsync](storageitemcontentproperties_getdocumentpropertiesasync_124814975.md) method, which can be accessed using the [Properties](../windows.storage/istorageitemproperties_properties.md) property, if it is available.
 
 
 > [!NOTE]
@@ -98,4 +98,4 @@ While the example uses the [DocumentsLibrary](../windows.storage/knownfolders_do
 In the example, `file` contains a [StorageFile](../windows.storage/storagefile.md) that represents the file to retrieve properties for.
 
 ## -see-also
-[StorageItemContentProperties.getDocumentPropertiesAsync method](storageitemcontentproperties_getdocumentpropertiesasync.md), [Windows.Storage.BulkAccess.FileInformation.documentProperties property](../windows.storage.bulkaccess/fileinformation_documentproperties.md), [Windows.Storage.BulkAccess.FolderInformation.documentProperties property](../windows.storage.bulkaccess/folderinformation_documentproperties.md), [Windows.Storage.BulkAccess.IStorageItemInformation.DocumentProperties property](../windows.storage.bulkaccess/istorageiteminformation_documentproperties.md)
+[StorageItemContentProperties.getDocumentPropertiesAsync method](storageitemcontentproperties_getdocumentpropertiesasync_124814975.md), [Windows.Storage.BulkAccess.FileInformation.documentProperties property](../windows.storage.bulkaccess/fileinformation_documentproperties.md), [Windows.Storage.BulkAccess.FolderInformation.documentProperties property](../windows.storage.bulkaccess/folderinformation_documentproperties.md), [Windows.Storage.BulkAccess.IStorageItemInformation.DocumentProperties property](../windows.storage.bulkaccess/istorageiteminformation_documentproperties.md)

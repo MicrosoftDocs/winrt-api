@@ -22,7 +22,7 @@ The Japanese calendar, also known as the Wareki calendar, works exactly like the
 The Japanese calendar recognizes one era for every emperor's reign. The current era is the Heisei era, which began in the Gregorian calendar year 1989. The era name is typically displayed before the year. For example, the Gregorian calendar year 2012 is the Japanese calendar year Heisei 24.
 
 The [CalendarIdentifiers](calendaridentifiers.md) class assigns numbers to the Japanese eras as follows:<table>
-   <tr><th>[Era](calendar_era.md) value</th><th>[EraAsString](calendar_eraasstring.md)</th><th>Gregorian Dates</th></tr>
+   <tr><th>[Era](calendar_era.md) value</th><th>[EraAsString](calendar_eraasstring_1742852677.md)</th><th>Gregorian Dates</th></tr>
    <tr><td>4</td><td>平成 (Heisei)</td><td>January 8, 1989 to present</td></tr>
    <tr><td>3</td><td>昭和 (Showa)</td><td>December 25, 1926 to January 7, 1989</td></tr>
    <tr><td>2</td><td>大正 (Taisho)</td><td>July 30, 1912 to December 24, 1926</td></tr>
@@ -34,7 +34,7 @@ The [CalendarIdentifiers](calendaridentifiers.md) class handles dates only from 
 Leap years in the Japanese calendar correspond to the same leap years in the Gregorian calendar. A leap year in the Gregorian calendar is defined as a Gregorian year that is evenly divisible by four, except if it is divisible by 100. However, Gregorian years that are divisible by 400 are leap years. A common year has 365 days and a leap year has 366 days.
 
 The Japanese calendar has 12 months with 28 to 31 days each:<table>
-   <tr><th>[MonthAsNumericString](calendar_monthasnumericstring.md)</th><th>Month</th><th>English</th><th>Days in common years</th><th>Days in leap years</th></tr>
+   <tr><th>[MonthAsNumericString](calendar_monthasnumericstring_952914344.md)</th><th>Month</th><th>English</th><th>Days in common years</th><th>Days in leap years</th></tr>
    <tr><td>1</td><td>1月 (Ichigatsu)</td><td>January</td><td>31</td><td>31</td></tr>
    <tr><td>2</td><td>2月 (Nigatsu)</td><td>February</td><td>28</td><td>29</td></tr>
    <tr><td>3</td><td>3月 (Sangatsu)</td><td>March</td><td>31</td><td>31</td></tr>

@@ -34,4 +34,4 @@ The color of the ruled line, as an integer value that is equal to the value of t
 ## -examples
 
 ## -see-also
-[ReceiptPrintJob.DrawRuledLine](receiptprintjob_drawruledline.md), [SlipPrintJob.DrawRuledLine](slipprintjob_drawruledline.md), [ICommonClaimedPosPrinterStation.ColorCartridge](claimedjournalprinter_colorcartridge.md), [PosPrinterLineDirection](posprinterlinedirection.md), [PosPrinterLineStyle](posprinterlinestyle.md)
+[ReceiptPrintJob.DrawRuledLine](receiptprintjob_drawruledline_1309666666.md), [SlipPrintJob.DrawRuledLine](slipprintjob_drawruledline_1309666666.md), [ICommonClaimedPosPrinterStation.ColorCartridge](claimedjournalprinter_colorcartridge.md), [PosPrinterLineDirection](posprinterlinedirection.md), [PosPrinterLineStyle](posprinterlinestyle.md)

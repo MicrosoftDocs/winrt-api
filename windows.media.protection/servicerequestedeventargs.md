@@ -10,7 +10,7 @@ public class ServiceRequestedEventArgs : Windows.Media.Protection.IServiceReques
 # Windows.Media.Protection.ServiceRequestedEventArgs
 
 ## -description
-Contains event data for a [MediaProtectionManager](mediaprotectionmanager_mediaprotectionmanager.md) object when a service is requested.
+Contains event data for a [MediaProtectionManager](mediaprotectionmanager_mediaprotectionmanager_1221375020.md) object when a service is requested.
 
 ## -remarks
 This object is not instantiated directly. It is created by the [MediaProtectionManager.ServiceRequested](mediaprotectionmanager_servicerequested.md) event and is returned as an argument to the [ServiceRequestedEventHandler](servicerequestedeventhandler.md) delegate.

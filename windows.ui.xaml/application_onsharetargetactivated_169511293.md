@@ -17,7 +17,7 @@ Invoked when the application is activated through sharing association.
 Event data for the event.
 
 ## -remarks
-All [Application](application.md) overrides involved in an activation scenario should call [Window.Activate](window_activate.md) in their implementations.
+All [Application](application.md) overrides involved in an activation scenario should call [Window.Activate](window_activate_1797342875.md) in their implementations.
 
 For example code, see [Share target activation sample](http://go.microsoft.com/fwlink/p/?LinkID=231519).
 

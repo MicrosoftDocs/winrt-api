@@ -18,7 +18,7 @@ The identifier for the [RelativePanel.AlignTopWith](relativepanel_aligntopwith.m
 ## -remarks
 This property is only an identifier for the property system, and isn't used in most app scenarios. In most cases you set the [RelativePanel.AlignTopWith](relativepanel_aligntopwith.md)  XAML attached property in XAML and won't need this identifier.
 
-To access the [RelativePanel.AlignTopWith](relativepanel_aligntopwith.md) attached property in code, you can use the dependency property system, calling either [GetValue](../windows.ui.xaml/dependencyobject_getvalue.md) or [SetValue](../windows.ui.xaml/dependencyobject_setvalue.md) and passing [RelativePanel.AlignTopWithProperty](relativepanel_aligntopwithproperty.md) as the dependency property identifier. Another way to get or set the value in code is to use [GetAlignTopWith](relativepanel_getaligntopwith.md) and [SetAlignTopWith](relativepanel_setaligntopwith.md).
+To access the [RelativePanel.AlignTopWith](relativepanel_aligntopwith.md) attached property in code, you can use the dependency property system, calling either [GetValue](../windows.ui.xaml/dependencyobject_getvalue_1188551207.md) or [SetValue](../windows.ui.xaml/dependencyobject_setvalue_52578133.md) and passing [RelativePanel.AlignTopWithProperty](relativepanel_aligntopwithproperty.md) as the dependency property identifier. Another way to get or set the value in code is to use [GetAlignTopWith](relativepanel_getaligntopwith_1785728020.md) and [SetAlignTopWith](relativepanel_setaligntopwith_800343274.md).
 
 ## -examples
 

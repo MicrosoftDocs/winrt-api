@@ -31,4 +31,4 @@ Use this overload to retrieve improve system performance by presenting a virtual
 ## -examples
 
 ## -see-also
-[IStorageFolderQueryOperations interface](istoragefolderqueryoperations.md), [IStorageFolderQueryOperations.GetFilesAsync methods](istoragefolderqueryoperations_getfilesasync.md), [IStorageFolderQueryOperations.GetFilesAsync(CommonFileQuery) method](istoragefolderqueryoperations_getfilesasync_1429382825.md), [Windows.Foundation.IVectorView interface](../windows.foundation.collections/ivectorview_1.md), [Windows.Storage.StorageFile class](../windows.storage/storagefile.md)
+[IStorageFolderQueryOperations interface](istoragefolderqueryoperations.md), [IStorageFolderQueryOperations.GetFilesAsync methods](istoragefolderqueryoperations_getfilesasync_1429382825.md), [IStorageFolderQueryOperations.GetFilesAsync(CommonFileQuery) method](istoragefolderqueryoperations_getfilesasync_1429382825.md), [Windows.Foundation.IVectorView interface](../windows.foundation.collections/ivectorview_1.md), [Windows.Storage.StorageFile class](../windows.storage/storagefile.md)

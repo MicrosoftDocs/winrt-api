@@ -16,7 +16,7 @@ Gets the captured frame.
 The captured frame.
 
 ## -remarks
-The data returned in the Frame property is raw pixel data. In other words, it does not include an image file format header. Because of this, you can't pass the captured frame's stream to the bitmap's [SetSourceAsync](../windows.ui.xaml.media.imaging/bitmapsource_setsourceasync.md) method directly. Instead, you must copy the pixel data manually into the bitmap's pixel buffer. The following code snippets show you how to copy the image data and provide a helper class that performs the operation.
+The data returned in the Frame property is raw pixel data. In other words, it does not include an image file format header. Because of this, you can't pass the captured frame's stream to the bitmap's [SetSourceAsync](../windows.ui.xaml.media.imaging/bitmapsource_setsourceasync_1118221574.md) method directly. Instead, you must copy the pixel data manually into the bitmap's pixel buffer. The following code snippets show you how to copy the image data and provide a helper class that performs the operation.
 
 First, you need to enable photo confirmation and hook up the [PhotoConfirmationCaptured](mediacapture_photoconfirmationcaptured.md) event.
 

@@ -16,7 +16,7 @@ Gets the current value that the focus is set to.
 The value that the focus is set to. The minimum and maximum values for the focus are specified by [Min](focuscontrol_min.md) and [Max](focuscontrol_max.md).
 
 ## -remarks
-To set a focus value, call [SetValueAsync](focuscontrol_setvalueasync.md) specifying a value between the [Min](focuscontrol_min.md) and [Max](focuscontrol_max.md) focus values.
+To set a focus value, call [SetValueAsync](focuscontrol_setvalueasync_2096210171.md) specifying a value between the [Min](focuscontrol_min.md) and [Max](focuscontrol_max.md) focus values.
 
 ## -examples
 

@@ -14,7 +14,7 @@ Creates a [CryptographicHash](cryptographichash.md) object that supports increme
 
 ## -parameters
 ### -param keyMaterial
-Random data used to help generate the hash. You can call the [GenerateRandom](../windows.security.cryptography/cryptographicbuffer_generaterandom.md) method to create the random data.
+Random data used to help generate the hash. You can call the [GenerateRandom](../windows.security.cryptography/cryptographicbuffer_generaterandom_1645545930.md) method to create the random data.
 
 ## -returns
 A [CryptographicHash](cryptographichash.md) object that supports incremental hash operations.

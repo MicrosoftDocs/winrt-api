@@ -23,7 +23,7 @@ Data to be signed.
 The data's signature.
 
 ## -remarks
-If the key is a persisted key and the operation requires UI or takes a long time, use the [SignAsync](cryptographicengine_signasync.md) method instead.
+If the key is a persisted key and the operation requires UI or takes a long time, use the [SignAsync](cryptographicengine_signasync_345302432.md) method instead.
 
 For more information about signing digital data, see [MACs, hashes, and signatures](http://msdn.microsoft.com/library/e674312f-6678-44c5-91d9-b489f49c4d3c).
 

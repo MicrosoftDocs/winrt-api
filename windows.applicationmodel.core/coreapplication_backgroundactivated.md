@@ -13,7 +13,7 @@ static public event Windows.Foundation.EventHandler BackgroundActivated<Windows.
 Fired when your app is activated by a background trigger.
 
 ## -remarks
-Register your background triggers with [BackgroundTaskBuilder](../windows.applicationmodel.background/backgroundtaskbuilder.md), but do not set the [TaskEntryPoint](../windows.applicationmodel.background/backgroundtaskbuilder_taskentrypoint.md). This will enable this event to fire when your trigger is signaled. The event handler has a [BackgroundActivatedEventArgs](../windows.applicationmodel.activation/backgroundactivatedeventargs.md) parameter which contains everything that the [IBackgroundTask.Run](../windows.applicationmodel.background/ibackgroundtask_run.md) method delivers.
+Register your background triggers with [BackgroundTaskBuilder](../windows.applicationmodel.background/backgroundtaskbuilder.md), but do not set the [TaskEntryPoint](../windows.applicationmodel.background/backgroundtaskbuilder_taskentrypoint.md). This will enable this event to fire when your trigger is signaled. The event handler has a [BackgroundActivatedEventArgs](../windows.applicationmodel.activation/backgroundactivatedeventargs.md) parameter which contains everything that the [IBackgroundTask.Run](../windows.applicationmodel.background/ibackgroundtask_run_2017283929.md) method delivers.
 
 
 

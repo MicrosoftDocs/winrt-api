@@ -48,7 +48,7 @@ The background task is triggered when a network change occurs, such as a change 
 The background task is triggered when a control channel is reset.
 
 > [!NOTE]
-> This trigger type does not support a [OneShot](systemtrigger_oneshot.md) mode. So the *OneShot* parameter must be false when using the [SystemTrigger](systemtrigger_systemtrigger.md) constructor.
+> This trigger type does not support a [OneShot](systemtrigger_oneshot.md) mode. So the *OneShot* parameter must be false when using the [SystemTrigger](systemtrigger_systemtrigger_1157162657.md) constructor.
 
 
 

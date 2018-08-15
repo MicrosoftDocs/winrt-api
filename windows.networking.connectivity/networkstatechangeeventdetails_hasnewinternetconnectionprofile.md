@@ -20,4 +20,4 @@ true if the connection has changed; otherwise, false.
 ## -examples
 
 ## -see-also
-[NetworkInformation_GetInternetConnectionProfile](networkinformation_getinternetconnectionprofile.md), [ConnectionProfile](connectionprofile.md)
+[NetworkInformation_GetInternetConnectionProfile](networkinformation_getinternetconnectionprofile_255647281.md), [ConnectionProfile](connectionprofile.md)

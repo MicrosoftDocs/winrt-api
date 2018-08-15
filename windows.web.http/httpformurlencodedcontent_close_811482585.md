@@ -13,7 +13,7 @@ public void Close()
 Closes the [HttpFormUrlEncodedContent](httpformurlencodedcontent.md) instance and releases allocated resources.
 
 ## -remarks
-The [Close](httpformurlencodedcontent_close.md) method releases allocated resources used by the [HttpFormUrlEncodedContent](httpformurlencodedcontent.md) instance. The [Close](httpformurlencodedcontent_close.md) method can manage the lifetime of system resources (memory for the [HttpFormUrlEncodedContent](httpformurlencodedcontent.md), for example) used by a Windows Runtime object.
+The [Close](httpformurlencodedcontent_close_811482585.md) method releases allocated resources used by the [HttpFormUrlEncodedContent](httpformurlencodedcontent.md) instance. The [Close](httpformurlencodedcontent_close_811482585.md) method can manage the lifetime of system resources (memory for the [HttpFormUrlEncodedContent](httpformurlencodedcontent.md), for example) used by a Windows Runtime object.
 
 In the .NET Framework 4.5, this method projects as the [Dispose](httpformurlencodedcontent_dispose.md) method. In Visual C++ component extensions (C++/CX), this method projects as the destructor (delete operator).
 

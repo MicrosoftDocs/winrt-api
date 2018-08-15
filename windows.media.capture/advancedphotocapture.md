@@ -13,7 +13,7 @@ public class AdvancedPhotoCapture : Windows.Media.Capture.IAdvancedPhotoCapture
 Provides methods for capturing photos using system-provided computational photography techniques.
 
 ## -remarks
-Get an instance of this class by calling [MediaCapture.PrepareAdvancedPhotoCaptureAsync](mediacapture_prepareadvancedphotocaptureasync.md).
+Get an instance of this class by calling [MediaCapture.PrepareAdvancedPhotoCaptureAsync](mediacapture_prepareadvancedphotocaptureasync_1274714827.md).
 
 For how-to guidance for using **AdvancedPhotoCapture**, see [High dynamic range (HDR) and low-light photo capture](https://msdn.microsoft.com/windows/uwp/audio-video-camera/high-dynamic-range-hdr-photo-capture).
 

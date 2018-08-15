@@ -10,7 +10,7 @@ public Windows.Media.SpeechRecognition.SpeechRecognizerUIOptions UIOptions { get
 # Windows.Media.SpeechRecognition.SpeechRecognizer.UIOptions
 
 ## -description
-Gets the UI settings for the [RecognizeWithUIAsync](speechrecognizer_recognizewithuiasync.md) method.
+Gets the UI settings for the [RecognizeWithUIAsync](speechrecognizer_recognizewithuiasync_1152231907.md) method.
 
 ## -property-value
 The UI settings.

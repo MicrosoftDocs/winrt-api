@@ -18,7 +18,7 @@ To read or write to a file using a path or Uniform Resource Identifier (URI), yo
 You can specify an app Uniform Resource Identifier (URI) to read or write files in app-specific locations like your app data folder ("ms-appdata://"). To learn more about app Uniform Resource Identifier (URI), see [How to reference content](https://msdn.microsoft.com/library/windows/apps/hh781215.aspx).
 
 ## -examples
-You can use [writeTextAsync(filePathOrURI, contents)](pathio_writetextasync_1597275652.md) to write text to a file. In the example, `filePathOrURI` is a local variable that contains a URI (like an app URI "ms-appdata://sampleFile.dat") or a file system path (like C:\examplepath\sampleFile.dat) for the file to read. Although the [writeTextAsync](pathio_writetextasync.md) methods don't have a return value, you can still perform additional tasks after the text is written to the file, as the example shows.
+You can use [writeTextAsync(filePathOrURI, contents)](pathio_writetextasync_1597275652.md) to write text to a file. In the example, `filePathOrURI` is a local variable that contains a URI (like an app URI "ms-appdata://sampleFile.dat") or a file system path (like C:\examplepath\sampleFile.dat) for the file to read. Although the [writeTextAsync](pathio_writetextasync_1597275652.md) methods don't have a return value, you can still perform additional tasks after the text is written to the file, as the example shows.
 
 ```csharp
 
@@ -49,7 +49,7 @@ if (file !== null) {
 }
 ```
 
-You can use [readTextAsync(filePathOrURI)](pathio_readtextasync_532716801.md) to read text from a file. After [readTextAsync](pathio_readtextasync.md) completes, the `fileContent` variable gets the contents of the file as a text string. You can then process the contents as appropriate.
+You can use [readTextAsync(filePathOrURI)](pathio_readtextasync_532716801.md) to read text from a file. After [readTextAsync](pathio_readtextasync_532716801.md) completes, the `fileContent` variable gets the contents of the file as a text string. You can then process the contents as appropriate.
 
 ```javascript
 if (file !== null) {

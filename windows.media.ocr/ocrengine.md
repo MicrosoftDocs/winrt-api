@@ -14,7 +14,7 @@ public class OcrEngine : Windows.Media.Ocr.IOcrEngine
 Provides optical character recognition (OCR) functionality.
 
 ## -remarks
-To use the OCR capabilities of the **OcrEngine** class in your app, call the [RecognizeAsync](ocrengine_recognizeasync.md) method. When you call the **RecognizeAsync** method of the **OcrEngine** class, the method returns an [OcrResult](ocrresult.md) object, which contains the recognized text and its size and position. The result is split into lines, and the lines are split into words.
+To use the OCR capabilities of the **OcrEngine** class in your app, call the [RecognizeAsync](ocrengine_recognizeasync_614325911.md) method. When you call the **RecognizeAsync** method of the **OcrEngine** class, the method returns an [OcrResult](ocrresult.md) object, which contains the recognized text and its size and position. The result is split into lines, and the lines are split into words.
 
 
 + The [OcrResult](ocrresult.md) contains a collection of [OcrLine](ocrline.md) objects, which you access through the [Lines](ocrresult_lines.md) property of the **OcrResult**.

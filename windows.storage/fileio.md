@@ -54,7 +54,7 @@ catch (FileNotFoundException)
 
 In the example, `file` is a local variable that contains a [storageFile](storagefile.md) that represents the file to write.
 
-Although the [writeTextAsync](fileio_writetextasync.md) methods don't have a return value, you can still perform additional tasks after the text is written to the file, as the example shows.The [File Access sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FileAccess) also shows you how to use [readTextAsync(file)](fileio_readtextasync_784288594.md) to read text from a file.
+Although the [writeTextAsync](fileio_writetextasync_1850452055.md) methods don't have a return value, you can still perform additional tasks after the text is written to the file, as the example shows.The [File Access sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FileAccess) also shows you how to use [readTextAsync(file)](fileio_readtextasync_784288594.md) to read text from a file.
 
 ```javascript
 if (file !== null) {
@@ -85,7 +85,7 @@ catch (FileNotFoundException)
 
 In the example, `file` is a local variable that contains a [storageFile](storagefile.md) that represents the file to read.
 
-After [readTextAsync](fileio_readtextasync.md) completes, the `fileContent` variable gets the contents of the file as a text string. You can then process the contents as appropriate.
+After [readTextAsync](fileio_readtextasync_1063800.md) completes, the `fileContent` variable gets the contents of the file as a text string. You can then process the contents as appropriate.
 
 ## -see-also
 

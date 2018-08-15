@@ -20,7 +20,7 @@ Protect a stream of data to an enterprise identity.
 The input, unprotected stream.
 
 ### -param identity
-The enterprise identity. This is an email address or domain that is managed. Your app should use [IsIdentityManaged](protectionpolicymanager_isidentitymanaged.md) to confirm that an email address or domain is managed.
+The enterprise identity. This is an email address or domain that is managed. Your app should use [IsIdentityManaged](protectionpolicymanager_isidentitymanaged_906801364.md) to confirm that an email address or domain is managed.
 
 ### -param protectedStream
 The output, protected stream.

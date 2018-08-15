@@ -11,7 +11,7 @@ public enum Windows.Storage.Pickers.Provider.SetFileNameResult : int
 # SetFileNameResult
 
 ## -description
-Indicates the result of a call to the [fileSavePickerUI.trySetFileName](filesavepickerui_trysetfilename.md) method.
+Indicates the result of a call to the [fileSavePickerUI.trySetFileName](filesavepickerui_trysetfilename_1605308267.md) method.
 
 ## -enum-fields
 ### -field Succeeded:0

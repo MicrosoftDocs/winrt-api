@@ -16,7 +16,7 @@ Signals that the app providing the save location finished responding to a [targe
 ## -remarks
 Learn about responding asynchronously to a [targetfilerequested](filesavepickerui_targetfilerequested.md) event in [targetFileRequestedEventArgs](targetfilerequestedeventargs.md).
 
-Calling this method will complete the request even if [getDeferral](targetfilerequest_getdeferral.md) has been called multiple times.
+Calling this method will complete the request even if [getDeferral](targetfilerequest_getdeferral_254836512.md) has been called multiple times.
 
 ## -examples
 

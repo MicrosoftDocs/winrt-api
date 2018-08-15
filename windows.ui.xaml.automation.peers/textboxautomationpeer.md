@@ -19,10 +19,10 @@ The Windows Runtime  [TextBox](../windows.ui.xaml.controls/textbox.md) class cre
 
 [TextBoxAutomationPeer](textboxautomationpeer.md) has overrides of **Core** methods such that the associated [AutomationPeer](automationpeer.md) methods provide peer-specific information to a Microsoft UI Automation client.
 
-+ [GetPattern](automationpeer_getpattern.md) reports pattern support for [TextPattern](http://msdn.microsoft.com/library/ddcf7ecd-7ed2-4b57-82a7-c7e1608dbfa1) and [ValuePattern](http://msdn.microsoft.com/library/07277405-1172-42e5-af51-8e2c1ea06894), but see "TextPattern support" in this topic for more info.
-+ [GetClassName](automationpeer_getclassname.md) returns "RichEditBox".
-+ [GetAutomationControlType](automationpeer_getautomationcontroltype.md) returns [AutomationControlType.Edit](automationcontroltype.md).
-+ [IsControlElement](automationpeer_iscontrolelement.md) returns **true**.
++ [GetPattern](automationpeer_getpattern_2046576749.md) reports pattern support for [TextPattern](http://msdn.microsoft.com/library/ddcf7ecd-7ed2-4b57-82a7-c7e1608dbfa1) and [ValuePattern](http://msdn.microsoft.com/library/07277405-1172-42e5-af51-8e2c1ea06894), but see "TextPattern support" in this topic for more info.
++ [GetClassName](automationpeer_getclassname_614238974.md) returns "RichEditBox".
++ [GetAutomationControlType](automationpeer_getautomationcontroltype_1156384152.md) returns [AutomationControlType.Edit](automationcontroltype.md).
++ [IsControlElement](automationpeer_iscontrolelement_1004644794.md) returns **true**.
 <!--not sure how this gets set cannot see in the partial cpp-->
 The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](http://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4).
 

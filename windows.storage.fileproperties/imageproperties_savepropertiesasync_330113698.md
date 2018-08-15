@@ -21,4 +21,4 @@ If any one of the property values is invalid, none of the values will be saved.
 ## -examples
 
 ## -see-also
-[imageProperties.savePropertiesAsync methods](imageproperties_savepropertiesasync.md), [imageProperties.savePropertiesAsync(IIterable(IKeyValuePair)) method](imageproperties_savepropertiesasync_132989229.md)
+[imageProperties.savePropertiesAsync methods](imageproperties_savepropertiesasync_132989229.md), [imageProperties.savePropertiesAsync(IIterable(IKeyValuePair)) method](imageproperties_savepropertiesasync_132989229.md)

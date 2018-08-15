@@ -30,7 +30,7 @@ The [MediaStreamSource](mediastreamsource.md)API are very similar to the Microso
    <tr><td>[MediaStreamSource.Starting](mediastreamsource_starting.md) (event)</td><td>The [MediaStreamSource](mediastreamsource.md) uses this event to notify the app that it is ready to start processing media data.</td></tr>
    <tr><td>[MediaStreamSourceStartingRequest](mediastreamsourcestartingrequest.md)</td><td>Represents a request from the [MediaStreamSource](mediastreamsource.md) that it is ready to start processing media data.
 
-Apps should reply as soon as possible to this request by calling [SetActualStartPosition](mediastreamsourcestartingrequest_setactualstartposition.md) on the request. If an app needs to delay the [MediaStreamSource](mediastreamsource.md) from processing data, it can get an asynchronous deferral from [MediaStreamSourceStartingRequest.GetDeferral](mediastreamsourcestartingrequest_getdeferral.md). When the app is ready for the [MediaStreamSource](mediastreamsource.md) to start, it calls [Complete](mediastreamsourcestartingrequestdeferral_complete.md) on the deferral object.
+Apps should reply as soon as possible to this request by calling [SetActualStartPosition](mediastreamsourcestartingrequest_setactualstartposition_661405035.md) on the request. If an app needs to delay the [MediaStreamSource](mediastreamsource.md) from processing data, it can get an asynchronous deferral from [MediaStreamSourceStartingRequest.GetDeferral](mediastreamsourcestartingrequest_getdeferral_254836512.md). When the app is ready for the [MediaStreamSource](mediastreamsource.md) to start, it calls [Complete](mediastreamsourcestartingrequestdeferral_complete_1807836922.md) on the deferral object.
 
 The starting request is accessed through the [MediaStreamSourceStartingEventArgs](mediastreamsourcestartingeventargs.md) that are passed to the [MediaStreamSource.Starting](mediastreamsource_starting.md) event handler.</td></tr>
    <tr><td>[MediaStreamSource.SampleRequested](mediastreamsource_samplerequested.md) (event)</td><td>The [MediaStreamSource](mediastreamsource.md) uses this event to notify the app that it is ready for a [MediaStreamSample](mediastreamsample.md).
@@ -38,7 +38,7 @@ The starting request is accessed through the [MediaStreamSourceStartingEventArgs
 Apps are required to register a handler for this event.</td></tr>
    <tr><td>[MediaStreamSourceSampleRequest](mediastreamsourcesamplerequest.md)</td><td>Represents a request from the [MediaStreamSource](mediastreamsource.md) for a new media sample. Setting the [Sample](mediastreamsourcesamplerequest_sample.md) property to the new [MediaStreamSample](mediastreamsample.md) triggers the [MediaStreamSource](mediastreamsource.md) to retrieve the media sample and continue processing the media data.
 
-Apps should reply as soon as possible to this request. If an app needs time before sending the [MediaStreamSample](mediastreamsample.md), it can get an asynchronous deferral from [MediaStreamSourceSampleRequest.GetDeferral](mediastreamsourcesamplerequest_getdeferral.md). When the app is finished with the deferral, it calls [Complete](mediastreamsourcesamplerequestdeferral_complete.md) on the deferral object.
+Apps should reply as soon as possible to this request. If an app needs time before sending the [MediaStreamSample](mediastreamsample.md), it can get an asynchronous deferral from [MediaStreamSourceSampleRequest.GetDeferral](mediastreamsourcesamplerequest_getdeferral_254836512.md). When the app is finished with the deferral, it calls [Complete](mediastreamsourcesamplerequestdeferral_complete_1807836922.md) on the deferral object.
 
 The sample request is accessed through the [MediaStreamSourceSampleRequestedEventArgs](mediastreamsourcesamplerequestedeventargs.md) that are passed to the [MediaStreamSource.SampleRequest](mediastreamsource_samplerequested.md) event handler.
 
@@ -47,7 +47,7 @@ The app indicates it has reached the end of the stream by responding to a [Media
    <tr><td>[MediaStreamSourceClosedRequest](mediastreamsourceclosedrequest.md)</td><td>Represents a request from the [MediaStreamSource](mediastreamsource.md) that it has closed.
 
 The close request is accessed through the [MediaStreamSourceClosedEventArgs](mediastreamsourceclosedeventargs.md) that are passed to the [MediaStreamSource.Closed](mediastreamsource_closed.md) event handler.</td></tr>
-   <tr><td>[MediaElement.SetMediaStreamSource](../windows.ui.xaml.controls/mediaelement_setmediastreamsource.md)</td><td>Sets the source of the [MediaElement](../windows.ui.xaml.controls/mediaelement.md) to a [MediaStreamSource](mediastreamsource.md).</td></tr>
+   <tr><td>[MediaElement.SetMediaStreamSource](../windows.ui.xaml.controls/mediaelement_setmediastreamsource_1064978867.md)</td><td>Sets the source of the [MediaElement](../windows.ui.xaml.controls/mediaelement.md) to a [MediaStreamSource](mediastreamsource.md).</td></tr>
 </table>
 
 ## -examples

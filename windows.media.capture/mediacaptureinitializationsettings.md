@@ -11,7 +11,7 @@ public class MediaCaptureInitializationSettings : Windows.Media.Capture.IMediaCa
 
 ## -description
 
-Contains initialization settings for the [MediaCapture](mediacapture.md) object which are passed to the [MediaCapture.InitializeAsync](mediacapture_initializeasync.md) method.
+Contains initialization settings for the [MediaCapture](mediacapture.md) object which are passed to the [MediaCapture.InitializeAsync](mediacapture_initializeasync_315323248.md) method.
 
 ## -remarks
 

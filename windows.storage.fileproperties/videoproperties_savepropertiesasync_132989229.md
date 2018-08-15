@@ -24,4 +24,4 @@ No object or value is returned when this method completes.
 ## -examples
 
 ## -see-also
-[videoProperties.savePropertiesAsync methods](videoproperties_savepropertiesasync.md), [videoProperties.savePropertiesAsync() method](videoproperties_savepropertiesasync_330113698.md), [Windows.Foundation.Collections.IKeyValuePair interface](../windows.foundation.collections/ikeyvaluepair_2.md)
+[videoProperties.savePropertiesAsync methods](videoproperties_savepropertiesasync_132989229.md), [videoProperties.savePropertiesAsync() method](videoproperties_savepropertiesasync_330113698.md), [Windows.Foundation.Collections.IKeyValuePair interface](../windows.foundation.collections/ikeyvaluepair_2.md)

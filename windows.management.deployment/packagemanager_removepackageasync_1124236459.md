@@ -25,7 +25,7 @@ This request cannot be canceled. The package full name is an alternate form of t
 ## -examples
 Call the [RemovePackageAsync(String)](packagemanager_removepackageasync_1124236459.md) method to uninstall the app package. Notice that the package full name in *packageFullName* comes from a command-line argument.
 
-[RemovePackageAsync(String)](packagemanager_removepackageasync_1124236459.md) returns an object that can be used to manage the asynchronous operation. Use the [Completed](../windows.foundation/iasyncoperationwithprogress_2_completed.md) property to set the [delegate](../windows.foundation/asyncoperationwithprogresscompletedhandler_2.md). Check the [Status](../windows.foundation/iasyncinfo_status.md) property to determine the status of the deployment operation. If the status is **Error**, the example calls the [GetResults](../windows.foundation/iasyncoperationwithprogress_2_getresults.md) method to get additional error information.
+[RemovePackageAsync(String)](packagemanager_removepackageasync_1124236459.md) returns an object that can be used to manage the asynchronous operation. Use the [Completed](../windows.foundation/iasyncoperationwithprogress_2_completed.md) property to set the [delegate](../windows.foundation/asyncoperationwithprogresscompletedhandler_2.md). Check the [Status](../windows.foundation/iasyncinfo_status.md) property to determine the status of the deployment operation. If the status is **Error**, the example calls the [GetResults](../windows.foundation/iasyncoperationwithprogress_2_getresults_732303200.md) method to get additional error information.
 
 ```csharp
 using Windows.Foundation;

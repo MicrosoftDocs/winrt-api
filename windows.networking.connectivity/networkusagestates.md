@@ -10,7 +10,7 @@ public struct NetworkUsageStates
 # NetworkUsageStates
 
 ## -description
-Defines the desired state of the connection profile for which usage data is returned by the method [GetNetworkUsageAsync](connectionprofile_getnetworkusageasync.md).
+Defines the desired state of the connection profile for which usage data is returned by the method [GetNetworkUsageAsync](connectionprofile_getnetworkusageasync_665790436.md).
 
 ## -struct-fields
 

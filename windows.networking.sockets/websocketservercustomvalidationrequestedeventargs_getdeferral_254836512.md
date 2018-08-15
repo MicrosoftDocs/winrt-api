@@ -10,7 +10,7 @@ public Windows.Foundation.Deferral GetDeferral()
 # Windows.Networking.Sockets.WebSocketServerCustomValidationRequestedEventArgs.GetDeferral
 
 ## -description
-Gets the [Deferral](../windows.foundation/deferral.md) object that manages the validation operation. Call this method when you begin your validation operation, and call [Deferral.Complete](../windows.foundation/deferral_complete.md) when the operation is complete.
+Gets the [Deferral](../windows.foundation/deferral.md) object that manages the validation operation. Call this method when you begin your validation operation, and call [Deferral.Complete](../windows.foundation/deferral_complete_1807836922.md) when the operation is complete.
 
 ## -returns
 The [Deferral](../windows.foundation/deferral.md) object.

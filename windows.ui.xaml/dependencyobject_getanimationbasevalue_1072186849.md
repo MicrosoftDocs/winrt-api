@@ -20,11 +20,11 @@ The identifier for the desired dependency property.
 The returned base value.
 
 ## -remarks
-Use [GetAnimationBaseValue](dependencyobject_getanimationbasevalue.md) to get values that might currently be animated but you want to know the value before the animation ran. Note that animations with **HoldEnd** behavior might not have this same value. For more info on the **HoldEnd** concept, see [Storyboarded animations](http://msdn.microsoft.com/library/0cbceea0-2b0e-44a1-a09a-f7a939632f3a).
+Use [GetAnimationBaseValue](dependencyobject_getanimationbasevalue_1072186849.md) to get values that might currently be animated but you want to know the value before the animation ran. Note that animations with **HoldEnd** behavior might not have this same value. For more info on the **HoldEnd** concept, see [Storyboarded animations](http://msdn.microsoft.com/library/0cbceea0-2b0e-44a1-a09a-f7a939632f3a).
 
 Animations that are used for visual states don't have **HoldEnd** behavior but do apply an animated value applied while the state is active. For more info, see [Storyboarded animations for visual states](http://msdn.microsoft.com/library/5e715281-d247-4e7f-9f88-2af0d88ed5e4).
 
 ## -examples
 
 ## -see-also
-[ReadLocalValue](dependencyobject_readlocalvalue.md), [Timeline](../windows.ui.xaml.media.animation/timeline.md), [Timeline.FillBehavior](../windows.ui.xaml.media.animation/timeline_fillbehavior.md), [Dependency properties overview](http://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e), [Animations overview](http://msdn.microsoft.com/library/0c8dee75-fb7b-4e59-81e3-55f8d65cd982), [Storyboarded animations](http://msdn.microsoft.com/library/0cbceea0-2b0e-44a1-a09a-f7a939632f3a), [Storyboarded animations for visual states](http://msdn.microsoft.com/library/5e715281-d247-4e7f-9f88-2af0d88ed5e4)
+[ReadLocalValue](dependencyobject_readlocalvalue_275037327.md), [Timeline](../windows.ui.xaml.media.animation/timeline.md), [Timeline.FillBehavior](../windows.ui.xaml.media.animation/timeline_fillbehavior.md), [Dependency properties overview](http://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e), [Animations overview](http://msdn.microsoft.com/library/0c8dee75-fb7b-4e59-81e3-55f8d65cd982), [Storyboarded animations](http://msdn.microsoft.com/library/0cbceea0-2b0e-44a1-a09a-f7a939632f3a), [Storyboarded animations for visual states](http://msdn.microsoft.com/library/5e715281-d247-4e7f-9f88-2af0d88ed5e4)

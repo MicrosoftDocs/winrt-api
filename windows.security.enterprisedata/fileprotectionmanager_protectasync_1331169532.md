@@ -20,7 +20,7 @@ Protect the data in a file to an enterprise identity. The app can then use stand
 The file to be protected.
 
 ### -param identity
-The enterprise identity. This is an email address or domain that is managed. Use [ProtectionPolicyManager.IsIdentityManaged](protectionpolicymanager_isidentitymanaged.md) to confirm that an email address or domain is managed before using the identity to protect a file.
+The enterprise identity. This is an email address or domain that is managed. Use [ProtectionPolicyManager.IsIdentityManaged](protectionpolicymanager_isidentitymanaged_906801364.md) to confirm that an email address or domain is managed before using the identity to protect a file.
 
 ## -returns
 When the call to this method completes successfully, it returns a [FileProtectionInfo](fileprotectioninfo.md) object that contains the status of the newly protected file.

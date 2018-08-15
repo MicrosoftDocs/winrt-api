@@ -62,9 +62,9 @@ Lack of a microphone caused recognition to fail.
 
 
 ## -remarks
-[RecognizeAsync](speechrecognizer_recognizeasync.md) and [RecognizeWithUIAsync](speechrecognizer_recognizewithuiasync.md) return a [SpeechRecognitionResult](speechrecognitionresult.md) object.
+[RecognizeAsync](speechrecognizer_recognizeasync_748427924.md) and [RecognizeWithUIAsync](speechrecognizer_recognizewithuiasync_1152231907.md) return a [SpeechRecognitionResult](speechrecognitionresult.md) object.
 
-[CompileConstraintsAsync](speechrecognizer_compileconstraintsasync.md) returns a [SpeechRecognitionCompilationResult](speechrecognitioncompilationresult.md) object.
+[CompileConstraintsAsync](speechrecognizer_compileconstraintsasync_1901700993.md) returns a [SpeechRecognitionCompilationResult](speechrecognitioncompilationresult.md) object.
 
 
 ## -examples

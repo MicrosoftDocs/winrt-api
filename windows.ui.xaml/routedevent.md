@@ -21,11 +21,11 @@ For more info on how routed events work, see [Events and routed events overview]
 
 The purpose of the [RoutedEvent](routedevent.md) type is to serve as an identifier for the Windows Runtime event system, similar to how [DependencyProperty](dependencyproperty.md) provides an identifier type for the dependency property system. [UIElement](uielement.md) includes several static read-only properties of type [RoutedEvent](routedevent.md), which are named using a naming pattern. Each [RoutedEvent](routedevent.md) property is named after an event plus the suffix "Event". Each such property is the identifier for the routed event that its name begins with. For example, [TappedEvent](uielement_tappedevent.md) identifies the [Tapped](uielement_tapped.md) routed event to the event system.
 
-For most app code usages, simply referencing the event by name in XAML or by its code entity name in code is all that's needed to reference an event on an object, for purposes of adding or removing handlers. The [RoutedEvent](routedevent.md) identifiers are only needed when you attach handlers that should be invoked even when the routed events are previously marked as handled by either system or app code. The API you use for this scenario, and the API that use a [RoutedEvent](routedevent.md) value as a parameter, are [UIElement.AddHandler](uielement_addhandler.md) and [UIElement.RemoveHandler](uielement_removehandler.md). For more info, see [Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
+For most app code usages, simply referencing the event by name in XAML or by its code entity name in code is all that's needed to reference an event on an object, for purposes of adding or removing handlers. The [RoutedEvent](routedevent.md) identifiers are only needed when you attach handlers that should be invoked even when the routed events are previously marked as handled by either system or app code. The API you use for this scenario, and the API that use a [RoutedEvent](routedevent.md) value as a parameter, are [UIElement.AddHandler](uielement_addhandler_2121467075.md) and [UIElement.RemoveHandler](uielement_removehandler_661998757.md). For more info, see [Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
 
 ### Events that use a RoutedEvent identifier
 
-Here's a list of the routed events that have a [RoutedEvent](routedevent.md) identifier and thus can use the [UIElement.AddHandler](uielement_addhandler.md) technique we described:
+Here's a list of the routed events that have a [RoutedEvent](routedevent.md) identifier and thus can use the [UIElement.AddHandler](uielement_addhandler_2121467075.md) technique we described:
 
 + [DoubleTapped](uielement_doubletapped.md)
 + [DragEnter](uielement_dragenter.md)
@@ -51,10 +51,10 @@ Here's a list of the routed events that have a [RoutedEvent](routedevent.md) ide
 + [RightTapped](uielement_righttapped.md)
 + [Tapped](uielement_tapped.md)
 > [!NOTE]
-> [GotFocus](uielement_gotfocus.md) and [LostFocus](uielement_lostfocus.md) act like routed events but don't have a [RoutedEvent](routedevent.md) identifier, so you can't use [AddHandler](uielement_addhandler.md) with them.
+> [GotFocus](uielement_gotfocus.md) and [LostFocus](uielement_lostfocus.md) act like routed events but don't have a [RoutedEvent](routedevent.md) identifier, so you can't use [AddHandler](uielement_addhandler_2121467075.md) with them.
 
 ## -examples
-This example shows the basic syntax for wiring an event handler with [AddHandler](uielement_addhandler.md) and *handledEventsToo* as **true**. In this case the event being wired is [Tapped](uielement_tapped.md), and the [RoutedEvent](routedevent.md)-type identifier used in the example is [TappedEvent](uielement_tappedevent.md). The typical place to wire handlers is either [Loaded](frameworkelement_loaded.md) for a page or [OnApplyTemplate](frameworkelement_onapplytemplate.md) for a templated control.
+This example shows the basic syntax for wiring an event handler with [AddHandler](uielement_addhandler_2121467075.md) and *handledEventsToo* as **true**. In this case the event being wired is [Tapped](uielement_tapped.md), and the [RoutedEvent](routedevent.md)-type identifier used in the example is [TappedEvent](uielement_tappedevent.md). The typical place to wire handlers is either [Loaded](frameworkelement_loaded.md) for a page or [OnApplyTemplate](frameworkelement_onapplytemplate_1955470198.md) for a templated control.
 
 
 
@@ -65,5 +65,5 @@ This example shows the basic syntax for wiring an event handler with [AddHandler
 [!code-vb[AddHandler](../windows.ui.xaml/code/BaseElementEvents/vbnet/MainPage.xaml.vb#SnippetAddHandler)]
 
 ## -see-also
-[Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832), [UIElement.AddHandler](uielement_addhandler.md), [UIElement.RemoveHandler](uielement_removehandler.md), [RoutedEventArgs](routedeventargs.md)
+[Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832), [UIElement.AddHandler](uielement_addhandler_2121467075.md), [UIElement.RemoveHandler](uielement_removehandler_661998757.md), [RoutedEventArgs](routedeventargs.md)
 tedEventArgs](routedeventargs.md)

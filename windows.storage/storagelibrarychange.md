@@ -13,7 +13,7 @@ public class StorageLibraryChange : Windows.Storage.IStorageLibraryChange
 Represents a change to an item in a storage library such as the documents, music, or video library.
 
 ## -remarks
-Instances of this class are created by the [ReadBatchAsync](storagelibrarychangereader_readbatchasync.md) method of the [StorageLibraryChangeReader](storagelibrarychangereader.md) class.
+Instances of this class are created by the [ReadBatchAsync](storagelibrarychangereader_readbatchasync_888788553.md) method of the [StorageLibraryChangeReader](storagelibrarychangereader.md) class.
 
 ## -examples
 
