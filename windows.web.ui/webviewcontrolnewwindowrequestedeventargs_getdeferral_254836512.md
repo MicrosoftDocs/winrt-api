@@ -10,6 +10,7 @@ public Deferral WebViewControlNewWindowRequestedEventArgs.GetDeferral()
 # Windows.Web.UI.WebViewControlNewWindowRequestedEventArgs.GetDeferral
 
 ## -description
+Gets a deferral.
 
 ## -returns
 
