@@ -16,9 +16,9 @@ Gets a [DataReader](../windows.storage.streams/datareader.md) object to read inc
 A [DataReader](../windows.storage.streams/datareader.md) object to read incoming data received from the remote network destination on a [MessageWebSocket](messagewebsocket.md).
 
 ## -remarks
-If the underlying TCP connection is suddenly terminated, [GetDataReader](messagewebsocketmessagereceivedeventargs_getdatareader.md) throws the WININET_E_CONNECTION_ABORTED exception.
+If the underlying TCP connection is suddenly terminated, [GetDataReader](messagewebsocketmessagereceivedeventargs_getdatareader_509392724.md) throws the WININET_E_CONNECTION_ABORTED exception.
 
-An empty message results in [GetDataReader](messagewebsocketmessagereceivedeventargs_getdatareader.md) returning a valid [IDataReader](../windows.storage.streams/idatareader.md) instance with [UnconsumedBufferLength](../windows.storage.streams/idatareader_unconsumedbufferlength.md) set to 0.
+An empty message results in [GetDataReader](messagewebsocketmessagereceivedeventargs_getdatareader_509392724.md) returning a valid [IDataReader](../windows.storage.streams/idatareader.md) instance with [UnconsumedBufferLength](../windows.storage.streams/idatareader_unconsumedbufferlength.md) set to 0.
 
 ## -examples
 

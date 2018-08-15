@@ -44,9 +44,9 @@ You cannot declare a [KeyTime](keytime.md) as a shareable object in a [ResourceD
 
 If you are using a Microsoft .NET language (C# or Microsoft Visual Basic), or Visual C++ component extensions (C++/CX), then [KeyTime](keytime.md) has some utility methods, and its data member [TimeSpan](keytime_timespan.md) is exposed as a read-only property, not a field.
 
-For Microsoft .NET, [Duration](../windows.ui.xaml/duration.md) exposes [TimeSpan.Parse](https://docs.microsoft.com/en-us/dotnet/api/system.timespan.parse#System_TimeSpan_Parse_System_String_) for its [TimeSpan](../windows.ui.xaml/duration_timespan.md), a [FromTimeSpan](keytime_fromtimespan.md) method, and an [Implicit](../windows.ui.xaml/duration_op_implicit.md) operator. These aren't available from the structure in Visual C++ component extensions (C++/CX) but you can use [KeyTimeHelper.FromTimeSpan](keytimehelper_fromtimespan.md).
+For Microsoft .NET, [Duration](../windows.ui.xaml/duration.md) exposes [TimeSpan.Parse](https://docs.microsoft.com/en-us/dotnet/api/system.timespan.parse#System_TimeSpan_Parse_System_String_) for its [TimeSpan](../windows.ui.xaml/duration_timespan.md), a [FromTimeSpan](keytime_fromtimespan.md) method, and an [Implicit](../windows.ui.xaml/duration_op_implicit.md) operator. These aren't available from the structure in Visual C++ component extensions (C++/CX) but you can use [KeyTimeHelper.FromTimeSpan](keytimehelper_fromtimespan_845885131.md).
 
-If you are programming with C++ using the Windows Runtime Template Library (WRL), then only the data member field **TimeSpan** exists as a member of [KeyTime](keytime.md). WRL code can access [FromTimeSpan](keytimehelper_fromtimespan.md) as it exists on the [KeyTimeHelper](keytimehelper.md) class.
+If you are programming with C++ using the Windows Runtime Template Library (WRL), then only the data member field **TimeSpan** exists as a member of [KeyTime](keytime.md). WRL code can access [FromTimeSpan](keytimehelper_fromtimespan_845885131.md) as it exists on the [KeyTimeHelper](keytimehelper.md) class.
 
 ## -examples
 This example uses XAML attribute syntax to set [KeyTime](doublekeyframe_keytime.md) values on several types of [DoubleAnimationUsingKeyFrames](doubleanimationusingkeyframes.md) classes.

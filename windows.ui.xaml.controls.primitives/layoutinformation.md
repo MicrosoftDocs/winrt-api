@@ -15,7 +15,7 @@ Defines methods that provide additional information about the layout of an eleme
 ## -remarks
 
 ## -examples
-The following example shows how to use [GetLayoutSlot](layoutinformation_getlayoutslot.md) and draw the bounding box for the [Rectangle](../windows.ui.xaml.shapes/rectangle.md).
+The following example shows how to use [GetLayoutSlot](layoutinformation_getlayoutslot_399246493.md) and draw the bounding box for the [Rectangle](../windows.ui.xaml.shapes/rectangle.md).
 
 
 

@@ -12,7 +12,7 @@ public int TryUpdatePositionWithAdditionalVelocity(Windows.Foundation.Numerics.V
 ## -description
 Tries to update the [InteractionTracker](interactiontracker.md) 's position by adding velocity.
 
-The [TryUpdatePositionWithAdditionalVelocity](interactiontracker_tryupdatepositionwithadditionalvelocity.md) method adds the input Vector3 representing additional velocity to the current velocity of [InteractionTracker](interactiontracker.md). As a result, because the velocity of [InteractionTracker](interactiontracker.md) has now changed, the targeted rest position for [InteractionTracker](interactiontracker.md) now changes. [TryUpdatePositionWithAdditionalVelocity](interactiontracker_tryupdatepositionwithadditionalvelocity.md) can be called from either Idle, Inertia or CustomAnimation states – doing so will either add or update the velocity of [InteractionTracker](interactiontracker.md) and enter the Inertia state.
+The [TryUpdatePositionWithAdditionalVelocity](interactiontracker_tryupdatepositionwithadditionalvelocity_1400272004.md) method adds the input Vector3 representing additional velocity to the current velocity of [InteractionTracker](interactiontracker.md). As a result, because the velocity of [InteractionTracker](interactiontracker.md) has now changed, the targeted rest position for [InteractionTracker](interactiontracker.md) now changes. [TryUpdatePositionWithAdditionalVelocity](interactiontracker_tryupdatepositionwithadditionalvelocity_1400272004.md) can be called from either Idle, Inertia or CustomAnimation states – doing so will either add or update the velocity of [InteractionTracker](interactiontracker.md) and enter the Inertia state.
 
 ## -parameters
 ### -param velocityInPixelsPerSecond

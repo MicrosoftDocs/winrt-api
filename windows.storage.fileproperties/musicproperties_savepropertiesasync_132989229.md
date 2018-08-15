@@ -24,4 +24,4 @@ No object or value is returned when this method completes.
 ## -examples
 
 ## -see-also
-[musicProperties.savePropertiesAsync methods](musicproperties_savepropertiesasync.md), [musicProperties.SavePropertiesAsync() method](musicproperties_savepropertiesasync_330113698.md), [Windows.Foundation.Collections.IKeyValuePair interface](../windows.foundation.collections/ikeyvaluepair_2.md)
+[musicProperties.savePropertiesAsync methods](musicproperties_savepropertiesasync_132989229.md), [musicProperties.SavePropertiesAsync() method](musicproperties_savepropertiesasync_330113698.md), [Windows.Foundation.Collections.IKeyValuePair interface](../windows.foundation.collections/ikeyvaluepair_2.md)

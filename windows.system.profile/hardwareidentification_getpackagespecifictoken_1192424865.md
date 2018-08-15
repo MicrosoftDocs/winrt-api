@@ -20,7 +20,7 @@ The cryptographic *nonce* is optional. The *nonce* is recommended when **ASHWID*
 The hardware Id information.
 
 ## -remarks
-The [GetPackageSpecificToken](hardwareidentification_getpackagespecifictoken.md) is designed for use by professional developers who have experience with licensing content and with sufficient expertise in cryptography
+The [GetPackageSpecificToken](hardwareidentification_getpackagespecifictoken_1192424865.md) is designed for use by professional developers who have experience with licensing content and with sufficient expertise in cryptography
 
 ## -examples
 

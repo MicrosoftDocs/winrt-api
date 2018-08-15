@@ -15,7 +15,7 @@ Provides functionality for controlling the scene mode settings on a capture devi
 ## -remarks
 The [SceneModeControl ](scenemodecontrol.md) enables apps to tune the post-processing of captured frames to better match the scene being recorded. The [SupportedModes](scenemodecontrol_supportedmodes.md) enumeration specifies the modes, such as [Snow](capturescenemode.md), [Night](capturescenemode.md), and [Sport](capturescenemode.md), that are supported by the device.
 
-To select a mode, call [SceneModeControl.SetValueAsync](scenemodecontrol_setvalueasync.md).
+To select a mode, call [SceneModeControl.SetValueAsync](scenemodecontrol_setvalueasync_1270895798.md).
 
 You can access the [SceneModeControl ](scenemodecontrol.md) for the capture device through [MediaCapture.VideoDeviceController](../windows.media.capture/mediacapture_videodevicecontroller.md).
 

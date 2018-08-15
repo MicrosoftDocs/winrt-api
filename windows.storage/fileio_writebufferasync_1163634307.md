@@ -25,7 +25,7 @@ No object or value is returned when this method completes.
 ## -remarks
 
 ## -examples
-The [File Access sample]( http://go.microsoft.com/fwlink/p/?linkid=231445) shows you how to use [WriteBufferAsync](fileio_writebufferasync.md) to write data from a buffer to a file.
+The [File Access sample]( http://go.microsoft.com/fwlink/p/?linkid=231445) shows you how to use [WriteBufferAsync](fileio_writebufferasync_1163634307.md) to write data from a buffer to a file.
 
 ```csharp
 

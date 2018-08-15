@@ -25,11 +25,11 @@ Optional app-specified metadata associated with the [StorageFile](../windows.sto
 ## -remarks
 The fields of the [AccessListEntry](accesslistentry.md) structure are set by an app when it adds a [StorageFile](../windows.storage/storagefile.md) or [StorageFolder](../windows.storage/storagefolder.md) to the [StorageItemAccessList](storageitemaccesslist.md) or to the [StorageItemMostRecentlyUsedList](storageitemmostrecentlyusedlist.md).
 
-The [AccessListEntry](accesslistentry.md) for an item in a list can be accessed from the [AccessListEntryView.First](accesslistentryview_first.md) or [AccessListEntryView.GetAt](accesslistentryview_getat.md) methods, or from the [ItemRemovedEventArgs.RemovedEntry](itemremovedeventargs_removedentry.md) property.
+The [AccessListEntry](accesslistentry.md) for an item in a list can be accessed from the [AccessListEntryView.First](accesslistentryview_first_1920739956.md) or [AccessListEntryView.GetAt](accesslistentryview_getat_496709656.md) methods, or from the [ItemRemovedEventArgs.RemovedEntry](itemremovedeventargs_removedentry.md) property.
 
 
 
 ## -examples
 
 ## -see-also
-[AccessListEntryView.First](accesslistentryview_first.md), [AccessListEntryView.GetAt](accesslistentryview_getat.md), [ItemRemovedEventArgs.RemovedEntry](itemremovedeventargs_removedentry.md), [StorageItemAccessList](storageitemaccesslist.md), [StorageItemAccessList.Add](storageitemaccesslist_add.md), [StorageItemAccessList.AddOrReplace](storageitemaccesslist_addorreplace.md), [StorageItemMostRecentlyUsedList](storageitemmostrecentlyusedlist.md), [StorageItemMostRecentlyUsedList.Add](storageitemmostrecentlyusedlist_add.md), [StorageItemMostRecentlyUsedList.AddOrReplace](storageitemmostrecentlyusedlist_addorreplace.md)
+[AccessListEntryView.First](accesslistentryview_first_1920739956.md), [AccessListEntryView.GetAt](accesslistentryview_getat_496709656.md), [ItemRemovedEventArgs.RemovedEntry](itemremovedeventargs_removedentry.md), [StorageItemAccessList](storageitemaccesslist.md), [StorageItemAccessList.Add](storageitemaccesslist_add_118555710.md), [StorageItemAccessList.AddOrReplace](storageitemaccesslist_addorreplace_1991369802.md), [StorageItemMostRecentlyUsedList](storageitemmostrecentlyusedlist.md), [StorageItemMostRecentlyUsedList.Add](storageitemmostrecentlyusedlist_add.md), [StorageItemMostRecentlyUsedList.AddOrReplace](storageitemmostrecentlyusedlist_addorreplace.md)

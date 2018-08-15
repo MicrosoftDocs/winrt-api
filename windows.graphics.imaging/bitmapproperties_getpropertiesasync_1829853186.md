@@ -20,7 +20,7 @@ A collection of strings containing the specified property keys.
 Object that manages the asynchronous retrieval of the bitmap properties.
 
 ## -remarks
-This method is identical to [BitmapPropertiesView::GetPropertiesAsync](bitmappropertiesview_getpropertiesasync.md).
+This method is identical to [BitmapPropertiesView::GetPropertiesAsync](bitmappropertiesview_getpropertiesasync_1829853186.md).
 
 ## -examples
 

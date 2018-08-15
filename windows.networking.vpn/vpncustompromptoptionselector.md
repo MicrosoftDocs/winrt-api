@@ -10,7 +10,7 @@ public class VpnCustomPromptOptionSelector : Windows.Networking.Vpn.IVpnCustomPr
 # Windows.Networking.Vpn.VpnCustomPromptOptionSelector
 
 ## -description
-Represents a multiple choice UI control prompt required from the user. This is typically a combo box. This is used in the construction of custom prompts used in the [VpnChannel.RequestCustomPromptAsync](vpnchannel_requestcustompromptasync.md) method.
+Represents a multiple choice UI control prompt required from the user. This is typically a combo box. This is used in the construction of custom prompts used in the [VpnChannel.RequestCustomPromptAsync](vpnchannel_requestcustompromptasync_598226399.md) method.
 
 ## -remarks
 

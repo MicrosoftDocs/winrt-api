@@ -24,7 +24,7 @@ Order by family name and then given name.
 
 
 ## -remarks
-The results are returned as a [ContactQueryResult](contactqueryresult.md) object, and the order of results is manifested when you call [GetContactsAsync](contactqueryresult_getcontactsasync.md).
+The results are returned as a [ContactQueryResult](contactqueryresult.md) object, and the order of results is manifested when you call [GetContactsAsync](contactqueryresult_getcontactsasync_1004597153.md).
 
 ## -examples
 

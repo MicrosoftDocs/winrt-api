@@ -18,7 +18,7 @@ The activation deferral object.
 ## -remarks
 When an app starts, the system displays its splash screen until the app indicates that it is ready to display its UI by returning from its activation handler. The app has several seconds to set up its state and initial UI. The UI for the app is displayed to the user when the app returns from its activation handler. However, some apps need to start asynchronous operations to retrieve state information and set up their UI (like using fragment loading to display app pages). Apps that must complete activation asynchronously can get a deferral object from the activation event arguments. This object enables the app to complete activation outside its handler. When the app acquires the deferral object, its activation is not completed when the activation handler returns.
 
-An app can complete activation after its required asynchronous operations complete and it is ready to display its UI. App activation is delayed until the app calls the [ActivatedDeferral.complete](activateddeferral_complete.md) method.
+An app can complete activation after its required asynchronous operations complete and it is ready to display its UI. App activation is delayed until the app calls the [ActivatedDeferral.complete](activateddeferral_complete_1807836922.md) method.
 
 Requesting a deferral enables an app to display its static splash screen for up to 15 seconds. If the app hasn't completed activation after 15 seconds, the system considers the app hung and will terminate it if the user navigates away from the splash screen.
 

@@ -17,7 +17,7 @@ Request if access to enterprise-protected content is available to an identity.
 
 ## -parameters
 ### -param sourceIdentity
-The source enterprise identity of the app. This is an email address or domain that is managed. Your app should use [IsIdentityManaged](protectionpolicymanager_isidentitymanaged.md) to check if an email address or domain is managed.
+The source enterprise identity of the app. This is an email address or domain that is managed. Your app should use [IsIdentityManaged](protectionpolicymanager_isidentitymanaged_906801364.md) to check if an email address or domain is managed.
 
 ### -param targetIdentity
 The enterprise identity you want to check has access to the protected content.

@@ -11,7 +11,7 @@ public bool SuppressSystemOverlays { get;  set; }
 
 ## -description
 > [!NOTE]
-> [SuppressSystemOverlays](applicationview_suppresssystemoverlays.md) may be altered or unavailable for releases after Windows 10. Instead, use [TryEnterFullScreenMode](applicationview_tryenterfullscreenmode.md) and [FullScreenSystemOverlayMode](applicationview_fullscreensystemoverlaymode.md).
+> [SuppressSystemOverlays](applicationview_suppresssystemoverlays.md) may be altered or unavailable for releases after Windows 10. Instead, use [TryEnterFullScreenMode](applicationview_tryenterfullscreenmode_1643702755.md) and [FullScreenSystemOverlayMode](applicationview_fullscreensystemoverlaymode.md).
 
 Gets or sets a value indicating whether or not system overlays (such as overlay applications or the soft steering wheel) should be shown.
 
@@ -22,7 +22,7 @@ Gets or sets a value indicating whether or not system overlays (such as overlay 
 > **Windows 10**
 > For Universal Windows Platform (UWP) app on Windows 10, this property is deprecated. This property has an effect only on the mobile device family.
 
-To launch your app in full screen mode, set [PreferredLaunchWindowingMode](applicationview_preferredlaunchwindowingmode.md) to **FullScreen**. To enter full screen mode after your app is launched, call [TryEnterFullScreenMode](applicationview_tryenterfullscreenmode.md). To exit full screen mode, call [ExitFullScreenMode](applicationview_exitfullscreenmode.md).
+To launch your app in full screen mode, set [PreferredLaunchWindowingMode](applicationview_preferredlaunchwindowingmode.md) to **FullScreen**. To enter full screen mode after your app is launched, call [TryEnterFullScreenMode](applicationview_tryenterfullscreenmode_1643702755.md). To exit full screen mode, call [ExitFullScreenMode](applicationview_exitfullscreenmode_1516691675.md).
 
 To suppress edge gestures, set [FullScreenSystemOverlayMode](applicationview_fullscreensystemoverlaymode.md) to **Minimal**.
 

@@ -17,9 +17,9 @@ Contains the arguments returned by the last pointer event message.
 
 In most cases, we recommend that you get pointer info through the event argument of the pointer event handlers in your chosen language framework (Windows app using JavaScript, UWP app using C++, C#, or Visual Basic, or UWP app using DirectX with C++).
 
-If the event argument doesn't intrinsically expose the pointer details required by your app, you can get access to extended pointer data through the [GetCurrentPoint](pointerroutedeventargs_getcurrentpoint.md) and [GetIntermediatePoints](pointerroutedeventargs_getintermediatepoints.md) methods of [PointerRoutedEventArgs](pointerroutedeventargs.md). Use these methods to specify the context of the pointer data.
+If the event argument doesn't intrinsically expose the pointer details required by your app, you can get access to extended pointer data through the [GetCurrentPoint](pointerroutedeventargs_getcurrentpoint_1761708789.md) and [GetIntermediatePoints](pointerroutedeventargs_getintermediatepoints_1716242609.md) methods of [PointerRoutedEventArgs](pointerroutedeventargs.md). Use these methods to specify the context of the pointer data.
 
-The static [PointerPoint](../windows.ui.input/pointerpoint.md) methods, [GetCurrentPoint](../windows.ui.input/pointerpoint_getcurrentpoint.md) and [GetIntermediatePoints](../windows.ui.input/pointerpoint_getintermediatepoints.md), always use the context of the app.
+The static [PointerPoint](../windows.ui.input/pointerpoint.md) methods, [GetCurrentPoint](../windows.ui.input/pointerpoint_getcurrentpoint_131721878.md) and [GetIntermediatePoints](../windows.ui.input/pointerpoint_getintermediatepoints_143894736.md), always use the context of the app.
 The [PointerRoutedEventArgs](pointerroutedeventargs.md) event data class is used for these events:
 
 
@@ -41,9 +41,9 @@ The [PointerRoutedEventArgs](pointerroutedeventargs.md) event data class is used
 [!code-csharp[PointerMoved](../windows.ui.input.inking/code/PointerInput_UWP/csharp/MainPage.xaml.cs#SnippetPointerMoved)]
 
 + The value of *sender* (which is on the delegate signature, not this event data class).
-+ Specific members of [PointerRoutedEventArgs](pointerroutedeventargs.md), such as [KeyModifiers](pointerroutedeventargs_keymodifiers.md) or [GetCurrentPoint](pointerroutedeventargs_getcurrentpoint.md).
++ Specific members of [PointerRoutedEventArgs](pointerroutedeventargs.md), such as [KeyModifiers](pointerroutedeventargs_keymodifiers.md) or [GetCurrentPoint](pointerroutedeventargs_getcurrentpoint_1761708789.md).
 + Values of a [Pointer](pointer.md) device description class. Get the [Pointer](pointer.md) from the [Pointer](pointerroutedeventargs_pointer.md) property.
-+ Members that come from the system input conceptualization of a [PointerPoint](../windows.ui.input/pointerpoint.md). Use the [GetCurrentPoint](pointerroutedeventargs_getcurrentpoint.md) API to get a [PointerPoint](../windows.ui.input/pointerpoint.md) value, then call [PointerPoint](../windows.ui.input/pointerpoint.md) API such as [Position](../windows.ui.input/pointerpoint_position.md) and [PointerPointProperties](../windows.ui.input/pointerpointproperties.md).
++ Members that come from the system input conceptualization of a [PointerPoint](../windows.ui.input/pointerpoint.md). Use the [GetCurrentPoint](pointerroutedeventargs_getcurrentpoint_1761708789.md) API to get a [PointerPoint](../windows.ui.input/pointerpoint.md) value, then call [PointerPoint](../windows.ui.input/pointerpoint.md) API such as [Position](../windows.ui.input/pointerpoint_position.md) and [PointerPointProperties](../windows.ui.input/pointerpointproperties.md).
 
 
 Specific events often have information available in the various pointer device and pointer point classes that is mainly only relevant for that event. For example, when you handle [PointerWheelChanged](../windows.ui.xaml/uielement_pointerwheelchanged.md), you might be interested in the [MouseWheelDelta](../windows.ui.input/pointerpointproperties_mousewheeldelta.md) from [PointerPointProperties](../windows.ui.input/pointerpointproperties.md).

@@ -19,11 +19,11 @@ The Windows Runtime  [GroupItem](../windows.ui.xaml.controls/groupitem.md) class
 
 [GroupItemAutomationPeer](groupitemautomationpeer.md) has overrides of **Core** methods such that the associated [AutomationPeer](automationpeer.md) methods provide peer-specific information to a Microsoft UI Automation client.
 
-+ [GetPattern](automationpeer_getpattern.md) reports that the peer doesn't have any control pattern support. Items within the group contents might have their own peers.
-+ [GetClassName](automationpeer_getclassname.md) returns "GroupItem".
-+ [GetAutomationControlType](automationpeer_getautomationcontroltype.md) returns [AutomationControlType.Group](automationcontroltype.md).
-+ [GetChildren](automationpeer_getchildren.md) has an implementation that walks children in the group and layout container and returns peers for those items.
-+ [GetName](automationpeer_getname.md) returns a string value based on examining the current **Content**. This is implemented so that consumers of the control don't always need to provide an [AutomationProperties.Name](../windows.ui.xaml.automation/automationproperties_name.md) value in app code, and can use a generated-from-content value for the automation **Name** directly from the UI definition. For more info on how this works, see [Basic accessibility information](http://msdn.microsoft.com/library/9641c926-68c9-4842-8b55-c38c39a9e5c5).
++ [GetPattern](automationpeer_getpattern_2046576749.md) reports that the peer doesn't have any control pattern support. Items within the group contents might have their own peers.
++ [GetClassName](automationpeer_getclassname_614238974.md) returns "GroupItem".
++ [GetAutomationControlType](automationpeer_getautomationcontroltype_1156384152.md) returns [AutomationControlType.Group](automationcontroltype.md).
++ [GetChildren](automationpeer_getchildren_555647254.md) has an implementation that walks children in the group and layout container and returns peers for those items.
++ [GetName](automationpeer_getname_1386609741.md) returns a string value based on examining the current **Content**. This is implemented so that consumers of the control don't always need to provide an [AutomationProperties.Name](../windows.ui.xaml.automation/automationproperties_name.md) value in app code, and can use a generated-from-content value for the automation **Name** directly from the UI definition. For more info on how this works, see [Basic accessibility information](http://msdn.microsoft.com/library/9641c926-68c9-4842-8b55-c38c39a9e5c5).
 The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](http://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4).
 
 ## -examples

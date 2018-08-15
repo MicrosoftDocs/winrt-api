@@ -26,7 +26,7 @@ The output, unprotected stream.
 When the call to this method completes successfully, it returns a [DataProtectionInfo](dataprotectioninfo.md) object that contains the status of the unprotected stream.
 
 ## -remarks
-See the remarks in the [UnprotectStreamAsync](dataprotectionmanager_unprotectasync.md) method.
+See the remarks in the [UnprotectStreamAsync](dataprotectionmanager_unprotectasync_996207260.md) method.
 
 ## -examples
 

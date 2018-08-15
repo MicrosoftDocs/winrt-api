@@ -41,8 +41,8 @@ Use this method overload when you referencing a font already installed on the sy
 
 ## -see-also
 - [CreateFromFontGlyph(String displayText, String glyph, String fontFamily, Uri fontUri)](radialcontrollermenuitem_createfromfontglyph_679326837.md)
-- [CreateFromIcon](radialcontrollermenuitem_createfromicon.md)
-- [CreateFromKnownIcon](radialcontrollermenuitem_createfromknownicon.md)
+- [CreateFromIcon](radialcontrollermenuitem_createfromicon_2066467533.md)
+- [CreateFromKnownIcon](radialcontrollermenuitem_createfromknownicon_1665769620.md)
 - [Surface Dial interactions](https://msdn.microsoft.com/en-us/windows/uwp/input-and-devices/windows-wheel-interactions)
 - [Universal Windows Platform samples (C# and C++)](https://go.microsoft.com/fwlink/?linkid=832713)
 - [Windows classic desktop sample](https://aka.ms/radialcontrollerclassicsample)

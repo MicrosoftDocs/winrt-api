@@ -10,7 +10,7 @@ public string GetDeviceSelector()
 # Windows.Devices.Portable.StorageDevice.GetDeviceSelector
 
 ## -description
-An Advanced Query Syntax (AQS) string for identifying removable storage devices. This string is passed to the [FindAllAsync](../windows.devices.enumeration/deviceinformation_findallasync.md) or [CreateWatcher](../windows.devices.enumeration/deviceinformation_createwatcher.md) method.
+An Advanced Query Syntax (AQS) string for identifying removable storage devices. This string is passed to the [FindAllAsync](../windows.devices.enumeration/deviceinformation_findallasync_1257462890.md) or [CreateWatcher](../windows.devices.enumeration/deviceinformation_createwatcher_1506431823.md) method.
 
 ## -returns
 An AQS string for identifying storage devices.

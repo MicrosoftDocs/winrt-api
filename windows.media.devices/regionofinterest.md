@@ -13,7 +13,7 @@ public class RegionOfInterest : Windows.Media.Devices.IRegionOfInterest, Windows
 Represents a region of interest which is a rectangular region on the image which is used for functions such as focus and exposure.
 
 ## -remarks
-Get an instance of this class by accessing the [RegionOfInterest](regionofinterest_regionofinterest.md) property.
+Get an instance of this class by accessing the [RegionOfInterest](regionofinterest_regionofinterest_1221375020.md) property.
 
 The region of interest specifies the rectangular area of preview that functions such as focus and exposure are computed over. This enables scenarios such as tap to focus.
 

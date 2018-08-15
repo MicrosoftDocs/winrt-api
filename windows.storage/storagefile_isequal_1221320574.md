@@ -20,7 +20,7 @@ The [IStorageItem](istorageitem.md) object that represents a file to compare aga
 Returns true if the current file is equal to the specified file; otherwise false.
 
 ## -remarks
-Use the [IsEqual](storagefile_isequal.md) method to determine whether two storage items represent the same file or folder.
+Use the [IsEqual](storagefile_isequal_1221320574.md) method to determine whether two storage items represent the same file or folder.
 
 This method compares the [Path](storagefile_path.md) property of both items to determine if they are the same. If there is no [Path](storagefile_path.md) (if the item is a library for example), or if the paths do not match the items are compared using [IShellItem::Compare](http://msdn.microsoft.com/library/737a93e0-2e27-466b-889c-04a25e52e883).
 

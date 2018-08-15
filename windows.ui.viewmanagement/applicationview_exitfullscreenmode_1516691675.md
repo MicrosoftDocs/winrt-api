@@ -13,7 +13,7 @@ public void ExitFullScreenMode()
 Takes the app out of full-screen mode.
 
 ## -remarks
-To preserve full-screen mode when a user restarts the app, set [PreferredLaunchWindowingMode](applicationview_preferredlaunchwindowingmode.md) to **FullScreen** if the call to [TryEnterFullScreenMode](applicationview_tryenterfullscreenmode.md) returns **true**. When you call [ExitFullScreenMode](applicationview_exitfullscreenmode.md), you should set [PreferredLaunchWindowingMode](applicationview_preferredlaunchwindowingmode.md) back to **Auto** or **PreferredLaunchViewSize**.
+To preserve full-screen mode when a user restarts the app, set [PreferredLaunchWindowingMode](applicationview_preferredlaunchwindowingmode.md) to **FullScreen** if the call to [TryEnterFullScreenMode](applicationview_tryenterfullscreenmode_1643702755.md) returns **true**. When you call [ExitFullScreenMode](applicationview_exitfullscreenmode_1516691675.md), you should set [PreferredLaunchWindowingMode](applicationview_preferredlaunchwindowingmode.md) back to **Auto** or **PreferredLaunchViewSize**.
 
 The system raises the [CoreWindow.SizeChanged](../windows.ui.core/corewindow_sizechanged.md) event when the view enters or exits full-screen mode. This is exposed to XAML apps as the [Window.SizeChanged](../windows.ui.xaml/window_sizechanged.md) event and to HTML apps as the [window.resize](https://msdn.microsoft.com/en-us/library/aa741886(v=vs.85).aspx) event.
 
@@ -49,4 +49,4 @@ private void ToggleFullScreenModeButton_Click(object sender, RoutedEventArgs e)
 
 
 ## -see-also
-[IsFullScreenMode](applicationview_isfullscreenmode.md), [TryEnterFullScreenMode](applicationview_tryenterfullscreenmode.md), [PreferredLaunchWindowingMode](applicationview_preferredlaunchwindowingmode.md), [Full screen mode sample](http://go.microsoft.com/fwlink/p/?LinkId=620546), [Window resizing sample](http://go.microsoft.com/fwlink/p/?LinkId=620026)
+[IsFullScreenMode](applicationview_isfullscreenmode.md), [TryEnterFullScreenMode](applicationview_tryenterfullscreenmode_1643702755.md), [PreferredLaunchWindowingMode](applicationview_preferredlaunchwindowingmode.md), [Full screen mode sample](http://go.microsoft.com/fwlink/p/?LinkId=620546), [Window resizing sample](http://go.microsoft.com/fwlink/p/?LinkId=620026)

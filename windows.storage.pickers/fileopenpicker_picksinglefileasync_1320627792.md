@@ -16,7 +16,7 @@ Shows the file picker so that the user can pick one file.
 When the call to this method completes successfully, it returns a [StorageFile](../windows.storage/storagefile.md) object that represents the file that the user picked.
 
 ## -remarks
-> This API isn't supported for Windows Phone for either Windows Runtime or Microsoft Silverlight. Use [PickSingleFileAndContinue](fileopenpicker_picksinglefileandcontinue.md) instead.
+> This API isn't supported for Windows Phone for either Windows Runtime or Microsoft Silverlight. Use [PickSingleFileAndContinue](fileopenpicker_picksinglefileandcontinue_1567473542.md) instead.
 
 ## -examples
 

@@ -10,7 +10,7 @@ public string GetDeviceSelectorFromUsbVidPid(System.UInt16 vendorId, System.UInt
 # Windows.Devices.SerialCommunication.SerialDevice.GetDeviceSelectorFromUsbVidPid
 
 ## -description
-Gets an Advanced Query Syntax (AQS) string that the app can pass to [DeviceInformation.FindAllAsync](../windows.devices.enumeration/deviceinformation_findallasync.md) in order to find a specific Serial-to-USB device by specifying it's VID and PID.
+Gets an Advanced Query Syntax (AQS) string that the app can pass to [DeviceInformation.FindAllAsync](../windows.devices.enumeration/deviceinformation_findallasync_1257462890.md) in order to find a specific Serial-to-USB device by specifying it's VID and PID.
 
 ## -parameters
 ### -param vendorId

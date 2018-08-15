@@ -14,7 +14,7 @@ public class TileUpdater : Windows.UI.Notifications.ITileUpdater, Windows.UI.Not
 Changes the content of the specific tile that the updater is bound to.
 
 ## -remarks
-To get an instance of this object, call the [TileUpdateManager.CreateTileUpdaterForApplication](tileupdatemanager_createtileupdaterforapplication.md) or [TileUpdateManager.CreateTileUpdaterForSecondaryTile](tileupdatemanager_createtileupdaterforsecondarytile.md) method.
+To get an instance of this object, call the [TileUpdateManager.CreateTileUpdaterForApplication](tileupdatemanager_createtileupdaterforapplication_1541898748.md) or [TileUpdateManager.CreateTileUpdaterForSecondaryTile](tileupdatemanager_createtileupdaterforsecondarytile_445640521.md) method.
 
 When it is created, [TileUpdater](tileupdater.md) is bound to a specific app or secondary tile, so the methods of this class affect only the single tile that the object instance is bound to.
 

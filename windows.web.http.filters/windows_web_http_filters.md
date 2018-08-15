@@ -40,7 +40,7 @@ It’s not hard to handle any of these network issues by themselves. This become
 <!--The following image is the identical same file being used in the m_dev_guide project  that is handling the artwork and localization of this file. -->
 <img src="../images/HTTP_Filters.png" alt="Drawing of an HTTP filter chain" />
 
-To write a custom filter, an app implements a custom version of the [IHttpFilter](ihttpfilter.md) interface. The code to implement the filter behavior is in the [IHttpFilter.SendRequestAsync](ihttpfilter_sendrequestasync.md) method. Filters can be written in C#/VB.NET or C++. Filters can be called and used from any language supported for UWP app including JavaScript.
+To write a custom filter, an app implements a custom version of the [IHttpFilter](ihttpfilter.md) interface. The code to implement the filter behavior is in the [IHttpFilter.SendRequestAsync](ihttpfilter_sendrequestasync_602331974.md) method. Filters can be written in C#/VB.NET or C++. Filters can be called and used from any language supported for UWP app including JavaScript.
 
 The sample code shows a filter to add a custom header to HTTP requests and responses.
 

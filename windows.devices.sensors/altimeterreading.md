@@ -13,7 +13,7 @@ public class AltimeterReading : Windows.Devices.Sensors.IAltimeterReading
 Represents an altimeter reading.
 
 ## -remarks
-This object is accessed when you invoke the [GetCurrentReading](altimeter_getcurrentreading.md) method; and, it is accessed when you retrieve the [Reading](altimeterreadingchangedeventargs_reading.md) property of the [AltimeterReadingChangedEventArgs](altimeterreadingchangedeventargs.md) object in the event callback method.
+This object is accessed when you invoke the [GetCurrentReading](altimeter_getcurrentreading_1416488181.md) method; and, it is accessed when you retrieve the [Reading](altimeterreadingchangedeventargs_reading.md) property of the [AltimeterReadingChangedEventArgs](altimeterreadingchangedeventargs.md) object in the event callback method.
 
 ## -examples
 

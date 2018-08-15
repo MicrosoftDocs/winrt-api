@@ -11,7 +11,7 @@ public int Status { get; }
 # Windows.Devices.AllJoyn.AllJoynAboutDataView.Status
 
 ## -description
-The status returned by the [GetDataBySessionPortAsync](alljoynaboutdataview_getdatabysessionportasync.md) operation that created the [AllJoynAboutDataView](alljoynaboutdataview.md) object.
+The status returned by the [GetDataBySessionPortAsync](alljoynaboutdataview_getdatabysessionportasync_561097955.md) operation that created the [AllJoynAboutDataView](alljoynaboutdataview.md) object.
 
 ## -property-value
 The status code.

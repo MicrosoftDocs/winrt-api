@@ -21,7 +21,7 @@ Represents a mobile broadband device service.
 > If you want to use this API and publish your app to the Store, you will need special approval. For more information, see the **Special and restricted capabilities** section under [App capability declarations](https://docs.microsoft.com/en-us/windows/uwp/packaging/app-capability-declarations). 
 
 ## -remarks
-The [GetDeviceService](mobilebroadbandmodem_getdeviceservice.md) method on the [MobileBroadbandModem](mobilebroadbandmodem.md) gets a specific device service for the mobile broadband modem.
+The [GetDeviceService](mobilebroadbandmodem_getdeviceservice_1135670295.md) method on the [MobileBroadbandModem](mobilebroadbandmodem.md) gets a specific device service for the mobile broadband modem.
 
 ## -examples
 

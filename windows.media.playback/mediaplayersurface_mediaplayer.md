@@ -16,7 +16,7 @@ Gets the [MediaPlayer](mediaplayer.md) associated with the [MediaPlayerSurface](
 The [MediaPlayer](mediaplayer.md) associated with the [MediaPlayerSurface](mediaplayersurface.md).
 
 ## -remarks
-The returned [MediaPlayer](mediaplayer.md) instance is the one on which [GetSurface](mediaplayer_getsurface.md) was called to generate the [MediaPlayerSurface](mediaplayersurface.md).
+The returned [MediaPlayer](mediaplayer.md) instance is the one on which [GetSurface](mediaplayer_getsurface_812026623.md) was called to generate the [MediaPlayerSurface](mediaplayersurface.md).
 
 ## -examples
 

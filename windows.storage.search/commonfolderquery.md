@@ -98,14 +98,14 @@ You can use this option only for folders in a library or the HomeGroup folder.
 Use a value from the [CommonFolderQuery](commonfolderquery.md) enumeration when you call one of the following methods of the [StorageFolder](../windows.storage/storagefolder.md) class. For examples that use values from the [CommonFolderQuery](commonfolderquery.md) enumeration, see the topics for these methods.
 
 + [CreateFolderQuery(CommonFolderQuery)](../windows.storage/storagefolder_createfolderquery_330767063.md)
-+ [CreateFolderQueryWithOptions](istoragefolderqueryoperations_createfolderquerywithoptions.md). Instantiate the [QueryOptions](queryoptions_queryoptions.md) with the [QueryOptions(CommonFolderQuery)](queryoptions_queryoptions_1209951623.md) constructor.
-+ [CreateItemQueryWithOptions](../windows.storage/storagefolder_createitemquerywithoptions.md). Instantiate the [QueryOptions](queryoptions_queryoptions.md) with the [QueryOptions(CommonFolderQuery)](queryoptions_queryoptions_1209951623.md) constructor.
++ [CreateFolderQueryWithOptions](istoragefolderqueryoperations_createfolderquerywithoptions_573382953.md). Instantiate the [QueryOptions](queryoptions_queryoptions_1209951623.md) with the [QueryOptions(CommonFolderQuery)](queryoptions_queryoptions_1209951623.md) constructor.
++ [CreateItemQueryWithOptions](../windows.storage/storagefolder_createitemquerywithoptions_1519361285.md). Instantiate the [QueryOptions](queryoptions_queryoptions_1209951623.md) with the [QueryOptions(CommonFolderQuery)](queryoptions_queryoptions_1209951623.md) constructor.
 + [GetFoldersAsync(CommonFolderQuery)](../windows.storage/storagefolder_getfoldersasync_595997124.md)
 + [GetFoldersAsync(CommonFolderQuery, UInt32, UInt32)](../windows.storage/storagefolder_getfoldersasync_731846614.md)
 
 These methods use the value from the [CommonFolderQuery](commonfolderquery.md) enumeration to initialize the [DateStackOption](queryoptions_datestackoption.md), [FolderDepth](queryoptions_folderdepth.md), [IndexerOption](queryoptions_indexeroption.md), and [SortOrder](queryoptions_sortorder.md) options of the query.
 
-Call the [StorageFolder.IsCommonFolderQuerySupported](../windows.storage/storagefolder_iscommonfolderquerysupported.md) method to determine whether the [CommonFolderQuery](commonfolderquery.md) value that you want to use is available for the current folder.
+Call the [StorageFolder.IsCommonFolderQuerySupported](../windows.storage/storagefolder_iscommonfolderquerysupported_1797734947.md) method to determine whether the [CommonFolderQuery](commonfolderquery.md) value that you want to use is available for the current folder.
 
 > > [!TIP]
 > When a query groups files into virtual folders based on a property that can have multiple values (for example, [System.Author](https://msdn.microsoft.com/library/windows/desktop/bb760652.aspx)), a particular file may appear in more than one virtual folder because each folder represents one of the multiple values.
@@ -116,4 +116,4 @@ Files that don't have a value for the property that the query uses to group file
 
 ## -see-also
 
-[queryOptions class](queryoptions_queryoptions.md), [Windows.Storage.storageFolder class](../windows.storage/storagefolder.md), [Folder enumeration sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=619993)
+[queryOptions class](queryoptions_queryoptions_1209951623.md), [Windows.Storage.storageFolder class](../windows.storage/storagefolder.md), [Folder enumeration sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=619993)

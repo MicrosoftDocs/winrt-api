@@ -10,7 +10,7 @@ public void SetVector3Parameter(System.String key, Windows.Foundation.Numerics.V
 # Windows.UI.Composition.CompositionAnimation.SetVector3Parameter
 
 ## -description
-Sets a [Vector3](../windows.foundation.numerics/vector3.md) value parameter for use with an [ExpressionAnimation](expressionanimation.md) or an [expression keyframe](keyframeanimation_insertexpressionkeyframe.md).
+Sets a [Vector3](../windows.foundation.numerics/vector3.md) value parameter for use with an [ExpressionAnimation](expressionanimation.md) or an [expression keyframe](keyframeanimation_insertexpressionkeyframe_1955314135.md).
 
 ## -parameters
 ### -param key

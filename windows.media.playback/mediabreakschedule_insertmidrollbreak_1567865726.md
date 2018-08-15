@@ -17,7 +17,7 @@ Adds a [MediaBreak](mediabreak.md) to the schedule that will be played at a poin
 The [MediaBreak](mediabreak.md) to add to the schedule.
 
 ## -remarks
-Remove a midroll break by calling [RemoveMidrollBreak](mediabreakschedule_removemidrollbreak.md).
+Remove a midroll break by calling [RemoveMidrollBreak](mediabreakschedule_removemidrollbreak_1073766102.md).
 
 Access the current list of midroll media breaks in the schedule with the [MidrollBreaks](mediabreakschedule_midrollbreaks.md) property.
 

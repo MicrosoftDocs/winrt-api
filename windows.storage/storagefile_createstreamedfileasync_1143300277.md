@@ -31,7 +31,7 @@ For a high-quality thumbnail, one edge of this thumbnail should be at least 1024
 When this method completes, it returns a [StorageFile](storagefile.md) object that represents the new stream of data.
 
 ## -remarks
-Both this method and [CreateStreamedFileFromUriAsync](storagefile_createstreamedfilefromuriasync.md) can be used to create a [StorageFile](storagefile.md) that can be passed to other methods or passed to another app through app contracts.
+Both this method and [CreateStreamedFileFromUriAsync](storagefile_createstreamedfilefromuriasync_983266077.md) can be used to create a [StorageFile](storagefile.md) that can be passed to other methods or passed to another app through app contracts.
 
 These methods let you defer expensive operations to produce the data until that data needed (when it is first accessed). This avoids creating unnecessary delays in user interaction while the data is produced.
 

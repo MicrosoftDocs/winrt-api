@@ -13,7 +13,7 @@ public class CameraOptionsUI
 Provides a method for displaying a UI, by which the UI contains options for the capture of photos, audio recordings and videos.
 
 ## -remarks
-This object is not instantiated directly. Simply use the static [Show](cameraoptionsui_show.md) method to display the options.
+This object is not instantiated directly. Simply use the static [Show](cameraoptionsui_show_30375942.md) method to display the options.
 
 > [!NOTE]
 > This API is in the **Desktop** device family which means it can only be used on devices that support that family. To use this API, you must add a reference to the **Windows Desktop Extensions for the UWP** to your app. For more information on device families, see Intro to the [Universal Windows Platform](https://msdn.microsoft.com/windows/uwp/get-started/universal-application-platform-guide).

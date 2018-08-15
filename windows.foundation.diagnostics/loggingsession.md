@@ -15,9 +15,9 @@ Represents the destination of logged messages from [LoggingChannel](loggingchann
 
 ## -remarks
 
-Use the [LoggingSession](loggingsession.md) class to log messages and data to an in-memory circular buffer as your app runs. Use the [SaveToFileAsync](loggingsession_savetofileasync.md) method to save the buffer to a file. You can view the log files by using the Windows Performance Toolkit (WPT) and other utilities like tracerpt.exe.
+Use the [LoggingSession](loggingsession.md) class to log messages and data to an in-memory circular buffer as your app runs. Use the [SaveToFileAsync](loggingsession_savetofileasync_705962807.md) method to save the buffer to a file. You can view the log files by using the Windows Performance Toolkit (WPT) and other utilities like tracerpt.exe.
 
-[LoggingSession](loggingsession.md) instances keep logged messages in memory until the [SaveToFileAsync](loggingsession_savetofileasync.md) method is called. This enables on-demand saving of events until the app saves the in-memory messages.
+[LoggingSession](loggingsession.md) instances keep logged messages in memory until the [SaveToFileAsync](loggingsession_savetofileasync_705962807.md) method is called. This enables on-demand saving of events until the app saves the in-memory messages.
 
 Add [LoggingChannel](loggingchannel.md) instances to a [LoggingSession](loggingsession.md), and call [LoggingSession](loggingsession.md) instance methods to remove channels, dispose, and perform other operations.
 

@@ -11,10 +11,10 @@ public Windows.Networking.Sockets.StreamSocket Socket { get; }
 # Windows.Networking.Proximity.TriggeredConnectionStateChangedEventArgs.Socket
 
 ## -description
-Gets the [StreamSocket](../windows.networking.sockets/streamsocket_streamsocket.md) instance for the connection.
+Gets the [StreamSocket](../windows.networking.sockets/streamsocket_streamsocket_1221375020.md) instance for the connection.
 
 ## -property-value
-The [StreamSocket](../windows.networking.sockets/streamsocket_streamsocket.md) instance for the connection.
+The [StreamSocket](../windows.networking.sockets/streamsocket_streamsocket_1221375020.md) instance for the connection.
 
 ## -remarks
 The [Socket](triggeredconnectionstatechangedeventargs_socket.md) property is null until a successful connection has been completed. When a successful connection is completed, [State](triggeredconnectionstatechangedeventargs_state.md) equals **Completed**.

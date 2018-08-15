@@ -10,7 +10,7 @@ virtual protected string GetItemTypeCore()
 # Windows.UI.Xaml.Automation.Peers.AutomationPeer.GetItemTypeCore
 
 ## -description
-Provides the peer's behavior when a Microsoft UI Automation client calls [GetItemType](automationpeer_getitemtype.md) or an equivalent Microsoft UI Automation client API.
+Provides the peer's behavior when a Microsoft UI Automation client calls [GetItemType](automationpeer_getitemtype_747068727.md) or an equivalent Microsoft UI Automation client API.
 
 ## -returns
 The kind of item.

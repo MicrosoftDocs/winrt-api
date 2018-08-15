@@ -26,10 +26,10 @@ These events are routed events. Changing the value of the [Handled](drageventarg
 
 The [Control](../windows.ui.xaml.controls/control.md) class has pre-wired event handlers that [Control](../windows.ui.xaml.controls/control.md) derived types can override to provide class-based handling for the drag-drop events, and these methods also use [DragEventArgs](drageventargs.md) as a parameter. These methods are:
 
-+ [Control.OnDragEnter](../windows.ui.xaml.controls/control_ondragenter.md)
-+ [Control.OnDragLeave](../windows.ui.xaml.controls/control_ondragleave.md)
-+ [Control.OnDragOver](../windows.ui.xaml.controls/control_ondragover.md)
-+ [Control.OnDrop](../windows.ui.xaml.controls/control_ondrop.md)
++ [Control.OnDragEnter](../windows.ui.xaml.controls/control_ondragenter_196818472.md)
++ [Control.OnDragLeave](../windows.ui.xaml.controls/control_ondragleave_545548419.md)
++ [Control.OnDragOver](../windows.ui.xaml.controls/control_ondragover_783114431.md)
++ [Control.OnDrop](../windows.ui.xaml.controls/control_ondrop_1015747496.md)
 
 The Windows Runtime implementation of drag-drop concepts permits only certain controls and input actions to initiate a drag-drop action. There is no generalized **DoDragDrop** method that would permit any UI element to initiate a drag-drop action. The main source of a drag-drop action is when you drag the items of a list such as [GridView](../windows.ui.xaml.controls/gridview.md). For a list item drag-drop action, the [Data](drageventargs_data.md) value in event data can potentially be modified from the control-defined default data about the item. This is done by handling the [DragItemsStarting](../windows.ui.xaml.controls/listviewbase_dragitemsstarting.md) event, and working with the [DataPackage](../windows.applicationmodel.datatransfer/datapackage.md) object that is obtained from the [DragItemsStartingEventArgs.Data](../windows.ui.xaml.controls/dragitemsstartingeventargs_data.md) property in the event data.
 

@@ -13,7 +13,7 @@ public event Windows.UI.Xaml.Printing.GetPreviewPageEventHandler GetPreviewPage
 Occurs when the [PrintManager](../windows.graphics.printing/printmanager.md) requests a particular print page to be shown in the preview window.
 
 ## -remarks
-In the handler for this event, call [SetPreviewPage](printdocument_setpreviewpage.md) to set the requested page as the current print preview page.
+In the handler for this event, call [SetPreviewPage](printdocument_setpreviewpage_550154265.md) to set the requested page as the current print preview page.
 
 ## -examples
 

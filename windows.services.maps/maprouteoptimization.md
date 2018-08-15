@@ -10,7 +10,7 @@ public enum Windows.Services.Maps.MapRouteOptimization : int
 # MapRouteOptimization
 
 ## -description
-Specifies the optimizations applied to a route. This enumeration provides values for certain parameters of some overloads of the [GetDrivingRouteAsync](maproutefinder_getdrivingrouteasync.md) and [GetDrivingRouteFromWaypointsAsync](maproutefinder_getdrivingroutefromwaypointsasync.md) methods.
+Specifies the optimizations applied to a route. This enumeration provides values for certain parameters of some overloads of the [GetDrivingRouteAsync](maproutefinder_getdrivingrouteasync_1041948120.md) and [GetDrivingRouteFromWaypointsAsync](maproutefinder_getdrivingroutefromwaypointsasync_1378129125.md) methods.
 
 ## -enum-fields
 ### -field Time:0

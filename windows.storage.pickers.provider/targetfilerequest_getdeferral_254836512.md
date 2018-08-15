@@ -19,11 +19,11 @@ The [targetFileRequestDeferral](targetfilerequestdeferral.md) that the providing
 ## -remarks
 Use this method to finish responding to a [targetFileRequest](targetfilerequest.md) event asynchronously. If this method is not called, the request is considered complete after the [targetfilerequested](filesavepickerui_targetfilerequested.md) event handler returns— regardless of outstanding asynchronous operations.
 
-To signal that your app has finished its asynchronous response to the [targetfilerequested](filesavepickerui_targetfilerequested.md) event, call the [targetFileRequestDeferral.complete](targetfilerequestdeferral_complete.md) method.
+To signal that your app has finished its asynchronous response to the [targetfilerequested](filesavepickerui_targetfilerequested.md) event, call the [targetFileRequestDeferral.complete](targetfilerequestdeferral_complete_1807836922.md) method.
 
 Learn more about responding asynchronously to a [targetfilerequested](filesavepickerui_targetfilerequested.md) event in [targetFileRequestedEventArgs](targetfilerequestedeventargs.md).
 
 ## -examples
 
 ## -see-also
-[FileSavePickerUI.TargetFileRequested event](filesavepickerui_targetfilerequested.md), [Object class](https://msdn.microsoft.com/library/system.object.aspx), [TargetFileRequest class](targetfilerequest.md), [TargetFileRequestDeferral class](targetfilerequestdeferral.md), [TargetFileRequestDeferral.Complete method](targetfilerequestdeferral_complete.md), [TargetFileRequestedEventArgs class](targetfilerequestedeventargs.md), [Windows.Storage.StorageFile class](../windows.storage/storagefile.md)
+[FileSavePickerUI.TargetFileRequested event](filesavepickerui_targetfilerequested.md), [Object class](https://msdn.microsoft.com/library/system.object.aspx), [TargetFileRequest class](targetfilerequest.md), [TargetFileRequestDeferral class](targetfilerequestdeferral.md), [TargetFileRequestDeferral.Complete method](targetfilerequestdeferral_complete_1807836922.md), [TargetFileRequestedEventArgs class](targetfilerequestedeventargs.md), [Windows.Storage.StorageFile class](../windows.storage/storagefile.md)

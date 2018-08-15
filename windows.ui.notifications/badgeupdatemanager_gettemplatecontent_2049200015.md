@@ -26,7 +26,7 @@ Instead of creating the full XML payload yourself, you can get the default templ
 See [badge schema](https://docs.microsoft.com/uwp/schemas/tiles/badgeschema/schema-root)for an explanation of badge elements and attributes.
 
 ## -examples
-The following example shows the use of [GetTemplateContent](badgeupdatemanager_gettemplatecontent.md) to get the content for a numeric badge.
+The following example shows the use of [GetTemplateContent](badgeupdatemanager_gettemplatecontent_2049200015.md) to get the content for a numeric badge.
 
 ```javascript
 

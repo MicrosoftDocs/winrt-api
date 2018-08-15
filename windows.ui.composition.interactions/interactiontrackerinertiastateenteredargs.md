@@ -10,9 +10,9 @@ public class InteractionTrackerInertiaStateEnteredArgs : Windows.UI.Composition.
 # Windows.UI.Composition.Interactions.InteractionTrackerInertiaStateEnteredArgs
 
 ## -description
-Arguments for the [IInteractionTrackerOwner.InertiaStateEntered](iinteractiontrackerowner_inertiastateentered.md) callback.
+Arguments for the [IInteractionTrackerOwner.InertiaStateEntered](iinteractiontrackerowner_inertiastateentered_615555038.md) callback.
 
-The [InteractionTrackerOwner.InertiaStateEntered](iinteractiontrackerowner_inertiastateentered.md) class defines the accessible and up-to-date property values when [InteractionTracker](interactiontracker.md) enters the inertia state. If registered for the [InertiaStateEntered](iinteractiontrackerowner_inertiastateentered.md) event, values of this object's properties represent the results calculated by the system at the beginning of the inertia state. Using the modified and natural resting positions helps enables scenarios such as scrolling virtualization.
+The [InteractionTrackerOwner.InertiaStateEntered](iinteractiontrackerowner_inertiastateentered_615555038.md) class defines the accessible and up-to-date property values when [InteractionTracker](interactiontracker.md) enters the inertia state. If registered for the [InertiaStateEntered](iinteractiontrackerowner_inertiastateentered.md) event, values of this object's properties represent the results calculated by the system at the beginning of the inertia state. Using the modified and natural resting positions helps enables scenarios such as scrolling virtualization.
 
 ## -remarks
 

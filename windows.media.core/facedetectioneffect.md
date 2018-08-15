@@ -13,7 +13,7 @@ public class FaceDetectionEffect : Windows.Media.Core.IFaceDetectionEffect, Wind
 Represents an effect that attempts to detect faces in a video stream.
 
 ## -remarks
-Get an instance of this class by passing a [FaceDetectionEffectDefinition](facedetectioneffectdefinition.md) object into [AddVideoEffectAsync](../windows.media.capture/mediacapture_addvideoeffectasync.md).
+Get an instance of this class by passing a [FaceDetectionEffectDefinition](facedetectioneffectdefinition.md) object into [AddVideoEffectAsync](../windows.media.capture/mediacapture_addvideoeffectasync_1410216019.md).
 
 ## -examples
 

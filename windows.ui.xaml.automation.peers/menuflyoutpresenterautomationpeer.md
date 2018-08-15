@@ -19,8 +19,8 @@ The Windows Runtime  [MenuFlyoutPresenter](../windows.ui.xaml.controls/menuflyou
 
 [MenuFlyoutPresenterAutomationPeer](menuflyoutpresenterautomationpeer.md) has overrides of **Core** methods such that the associated [AutomationPeer](automationpeer.md) methods provide peer-specific information to a Microsoft UI Automation client.
 
-+ [GetClassName](automationpeer_getclassname.md) returns "MenuFlyout".
-+ [GetAutomationControlType](automationpeer_getautomationcontroltype.md) returns [AutomationControlType.Menu](automationcontroltype.md).
++ [GetClassName](automationpeer_getclassname_614238974.md) returns "MenuFlyout".
++ [GetAutomationControlType](automationpeer_getautomationcontroltype_1156384152.md) returns [AutomationControlType.Menu](automationcontroltype.md).
 This peer has the base class [ItemsControlAutomationPeer](itemscontrolautomationpeer.md) and inherits its behavior other than the overrides indicated above. This includes the pattern support for [IItemContainerProvider](../windows.ui.xaml.automation.provider/iitemcontainerprovider.md) and possibly [IScrollProvider](../windows.ui.xaml.automation.provider/iscrollprovider.md). For more info, see [ItemsControlAutomationPeer](itemscontrolautomationpeer.md).
 
 The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](http://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4).

@@ -10,7 +10,7 @@ public enum Windows.System.UserProfile.SetImageFeedResult : int
 # SetImageFeedResult
 
 ## -description
-Specifies the result of a call to [LockScreen.RequestSetImageFeedAsync](lockscreen_requestsetimagefeedasync.md)
+Specifies the result of a call to [LockScreen.RequestSetImageFeedAsync](lockscreen_requestsetimagefeedasync_841630601.md)
 
 ## -enum-fields
 ### -field Success:0

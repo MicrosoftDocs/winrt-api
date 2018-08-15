@@ -13,7 +13,7 @@ public Windows.Foundation.IAsyncOperation<bool> FlushAsync()
 Flushes data asynchronously in a sequential stream.
 
 ## -returns
-An asynchronous operation. For more information, see [FlushAsync](../windows.storage.streams/ioutputstream_flushasync.md) method.
+An asynchronous operation. For more information, see [FlushAsync](../windows.storage.streams/ioutputstream_flushasync_491532439.md) method.
 
 ## -remarks
 

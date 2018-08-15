@@ -20,7 +20,7 @@ The query.
 The input language.
 
 ## -remarks
-The [SearchBox](../windows.ui.xaml.controls/searchbox.md) control calls the [SetQuery](searchsuggestionmanager_setquery.md) method when the query text changes.
+The [SearchBox](../windows.ui.xaml.controls/searchbox.md) control calls the [SetQuery](searchsuggestionmanager_setquery_1931070342.md) method when the query text changes.
 
 ## -examples
 

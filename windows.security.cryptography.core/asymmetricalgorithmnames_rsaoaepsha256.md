@@ -16,7 +16,7 @@ Retrieves a string that contains "RSA_OAEP_SHA256".
 String that contains "RSA_OAEP_SHA256".
 
 ## -remarks
-Use the string retrieved by this property to set the asymmetric algorithm name when you call the [OpenAlgorithm](asymmetrickeyalgorithmprovider_openalgorithm.md) method. The string represents an RSA algorithm that uses Optimal Asymmetric Encryption Padding (OAEP) to encode or pad the plaintext and a Secure Hashing Algorithm (SHA) to hash the message contents before signing. The length of the SHA hash is 256 bits.
+Use the string retrieved by this property to set the asymmetric algorithm name when you call the [OpenAlgorithm](asymmetrickeyalgorithmprovider_openalgorithm_637226074.md) method. The string represents an RSA algorithm that uses Optimal Asymmetric Encryption Padding (OAEP) to encode or pad the plaintext and a Secure Hashing Algorithm (SHA) to hash the message contents before signing. The length of the SHA hash is 256 bits.
 
 ## -examples
 

@@ -14,7 +14,7 @@ This method is automatically called when the XamlLight is first in use on the sc
 
 This provides an opportunity to create resources such as the CompositionLight only when required.
 
-[OnDisconnected](xamllight_ondisconnected.md) will be called when the XamlLight is no longer being used to light any UIElements or Brushes.
+[OnDisconnected](xamllight_ondisconnected_213178242.md) will be called when the XamlLight is no longer being used to light any UIElements or Brushes.
 
 ## -params
 ### -param newElement

@@ -10,7 +10,7 @@ public interface ITextProvider2 : Windows.UI.Xaml.Automation.Provider.ITextProvi
 # Windows.UI.Xaml.Automation.Provider.ITextProvider2
 
 ## -description
-Extends the [ITextProvider](itextprovider.md) interface to enable Microsoft UI Automation providers to expose textual content that is the target of an annotation or selection. Implement this interface in order to support the capabilities that an automation client requests with a [GetPattern](../windows.ui.xaml.automation.peers/automationpeer_getpattern.md) call and [PatternInterface.Text2](../windows.ui.xaml.automation.peers/patterninterface.md).
+Extends the [ITextProvider](itextprovider.md) interface to enable Microsoft UI Automation providers to expose textual content that is the target of an annotation or selection. Implement this interface in order to support the capabilities that an automation client requests with a [GetPattern](../windows.ui.xaml.automation.peers/automationpeer_getpattern_2046576749.md) call and [PatternInterface.Text2](../windows.ui.xaml.automation.peers/patterninterface.md).
 
 ## -remarks
 For more info on this pattern, see [Text and TextRange Control Patterns](http://msdn.microsoft.com/library/4d541c31-11f7-4d7e-a0e0-9ed1da873d07).

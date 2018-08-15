@@ -14,7 +14,7 @@ public void ProcessPointerDown(Windows.UI.Input.PointerPoint pointerPoint)
 > [!NOTE]
 > For Universal Windows app using Extensible Application Markup Language (XAML), we recommend using [InkPresenter](inkpresenter.md) and the [InkCanvas](../windows.ui.xaml.controls/inkcanvas.md) control instead of [InkManager](inkmanager.md).
 
-Processes information about the position and features of the contact point, like pressure and tilt, on initial down contact. You must call this method before you call [ProcessPointerUpdate](inkmanager_processpointerupdate.md), and then [ProcessPointerUp.](inkmanager_processpointerdown.md)
+Processes information about the position and features of the contact point, like pressure and tilt, on initial down contact. You must call this method before you call [ProcessPointerUpdate](inkmanager_processpointerupdate_416065930.md), and then [ProcessPointerUp.](inkmanager_processpointerdown_1209788648.md)
 
 > [!IMPORTANT]
 > This method is not supported in desktop apps.

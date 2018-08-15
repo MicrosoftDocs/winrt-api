@@ -15,7 +15,7 @@ Resumes a continuous speech recognition session, if paused.
 ## -remarks
 An error is returned if [SpeechRecognizerState](speechrecognizerstate.md) is not [Paused](speechrecognizerstate.md).
 
-If a [SpeechRecognitionTopicConstraint](speechrecognitiontopicconstraint.md) is added after [PauseAsync](speechcontinuousrecognitionsession_pauseasync.md), [Resume](speechcontinuousrecognitionsession_resume.md) fails with error code COR_E_INVALIDOPERATION.
+If a [SpeechRecognitionTopicConstraint](speechrecognitiontopicconstraint.md) is added after [PauseAsync](speechcontinuousrecognitionsession_pauseasync_576113822.md), [Resume](speechcontinuousrecognitionsession_resume_406343050.md) fails with error code COR_E_INVALIDOPERATION.
 
 ## -examples
 

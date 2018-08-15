@@ -13,7 +13,7 @@ public class HttpCookieCollection : Windows.Foundation.Collections.IIterable<Win
 Provides a collection container for instances of the [HttpCookie](httpcookie.md) class.
 
 ## -remarks
-The [GetCookies](httpcookiemanager_getcookies.md) method on [HttpCookieManager](httpcookiemanager.md) returns an [HttpCookieCollection](httpcookiecollection.md) object. This is the method that an [HttpCookieCollection](httpcookiecollection.md) is constructed.
+The [GetCookies](httpcookiemanager_getcookies_1465382103.md) method on [HttpCookieManager](httpcookiemanager.md) returns an [HttpCookieCollection](httpcookiecollection.md) object. This is the method that an [HttpCookieCollection](httpcookiecollection.md) is constructed.
 
 
 <!--Begin NET note for IEnumerable support-->
@@ -27,4 +27,4 @@ The [GetCookies](httpcookiemanager_getcookies.md) method on [HttpCookieManager](
 ## -examples
 
 ## -see-also
-[GetCookies](httpcookiemanager_getcookies.md), [HttpCookie](httpcookie.md), [HttpCookieManager](httpcookiemanager.md), [IVectorView(HttpCookie)](../windows.foundation.collections/ivectorview_1.md), [IIterable(HttpCookie)](../windows.foundation.collections/iiterable_1.md)
+[GetCookies](httpcookiemanager_getcookies_1465382103.md), [HttpCookie](httpcookie.md), [HttpCookieManager](httpcookiemanager.md), [IVectorView(HttpCookie)](../windows.foundation.collections/ivectorview_1.md), [IIterable(HttpCookie)](../windows.foundation.collections/iiterable_1.md)

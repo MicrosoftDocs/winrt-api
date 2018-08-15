@@ -10,10 +10,10 @@ public Windows.ApplicationModel.Resources.ResourceLoader GetForCurrentView()
 # Windows.ApplicationModel.Resources.ResourceLoader.GetForCurrentView
 
 ## -description
-Gets a [ResourceLoader](resourceloader.md) object for the [Resources subtree](../windows.applicationmodel.resources.core/resourcemap_getsubtree.md) of the currently running app's main [ResourceMap](../windows.applicationmodel.resources.core/resourcemap.md). This [ResourceLoader](resourceloader.md) uses a default context associated with the current view.
+Gets a [ResourceLoader](resourceloader.md) object for the [Resources subtree](../windows.applicationmodel.resources.core/resourcemap_getsubtree_1701937926.md) of the currently running app's main [ResourceMap](../windows.applicationmodel.resources.core/resourcemap.md). This [ResourceLoader](resourceloader.md) uses a default context associated with the current view.
 
 ## -returns
-A resource loader for the [Resources subtree](../windows.applicationmodel.resources.core/resourcemap_getsubtree.md) of the currently running app's main [ResourceMap](../windows.applicationmodel.resources.core/resourcemap.md).
+A resource loader for the [Resources subtree](../windows.applicationmodel.resources.core/resourcemap_getsubtree_1701937926.md) of the currently running app's main [ResourceMap](../windows.applicationmodel.resources.core/resourcemap.md).
 
 ## -remarks
 This method allows access relative to a resource file named "resources" (resources.resjson or resources.resw). The [ResourceLoader](resourceloader.md) that is returned uses a default context associated with the current view.

@@ -13,7 +13,7 @@ public Windows.UI.Input.Inking.InkDrawingAttributes CopyDefaultDrawingAttributes
 ## -description
 Retrieves the [InkDrawingAttributes](inkdrawingattributes.md) used by the [InkPresenter](inkpresenter.md) when rendering a new [InkStroke](inkstroke.md) on an [InkCanvas](../windows.ui.xaml.controls/inkcanvas.md) control.
 
-This method is used in conjunction with [UpdateDefaultDrawingAttributes](inkpresenter_updatedefaultdrawingattributes.md) to set drawing attributes at run time.
+This method is used in conjunction with [UpdateDefaultDrawingAttributes](inkpresenter_updatedefaultdrawingattributes_2083673367.md) to set drawing attributes at run time.
 
 ## -returns
 The drawing attributes applied to a new ink stroke.

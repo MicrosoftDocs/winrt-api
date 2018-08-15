@@ -179,9 +179,9 @@ The request does not support the range.
 The request is mising the file size.
 
 ## -remarks
-A [WebErrorStatus](weberrorstatus.md) value is returned by [Windows.Web.WebError.GetStatus](weberror_getstatus.md), [Windows.Networking.WebSocketError.GetStatus](../windows.networking.sockets/websocketerror_getstatus.md), and [Windows.Networking.BackgroundTransfer.GetStatus](../windows.networking.backgroundtransfer/backgroundtransfererror_getstatus.md).
+A [WebErrorStatus](weberrorstatus.md) value is returned by [Windows.Web.WebError.GetStatus](weberror_getstatus_1856274933.md), [Windows.Networking.WebSocketError.GetStatus](../windows.networking.sockets/websocketerror_getstatus_1856274933.md), and [Windows.Networking.BackgroundTransfer.GetStatus](../windows.networking.backgroundtransfer/backgroundtransfererror_getstatus_1856274933.md).
 
-This example demonstrates how to use [WebErrorStatus](weberrorstatus.md) to display a different error message depending on the type of error. In this example, the [WebErrorStatus](weberrorstatus.md) value is returned by [Windows.Networking.WebSocketError.GetStatus](../windows.networking.sockets/websocketerror_getstatus.md).
+This example demonstrates how to use [WebErrorStatus](weberrorstatus.md) to display a different error message depending on the type of error. In this example, the [WebErrorStatus](weberrorstatus.md) value is returned by [Windows.Networking.WebSocketError.GetStatus](../windows.networking.sockets/websocketerror_getstatus_1856274933.md).
 
 ```csharp
 using Windows.Web;
@@ -258,7 +258,7 @@ else {
 ## -examples
 
 ## -see-also
-[Windows.Web.WebError.GetStatus](weberror_getstatus.md),
-[Windows.Networking.WebSocketError.GetStatus](../windows.networking.sockets/websocketerror_getstatus.md),
-[Windows.Networking.BackgroundTransfer.GetStatus](../windows.networking.backgroundtransfer/backgroundtransfererror_getstatus.md),
+[Windows.Web.WebError.GetStatus](weberror_getstatus_1856274933.md),
+[Windows.Networking.WebSocketError.GetStatus](../windows.networking.sockets/websocketerror_getstatus_1856274933.md),
+[Windows.Networking.BackgroundTransfer.GetStatus](../windows.networking.backgroundtransfer/backgroundtransfererror_getstatus_1856274933.md),
 [Background Transfer Download sample](http://go.microsoft.com/fwlink/p/?linkid=245064)

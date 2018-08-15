@@ -13,7 +13,7 @@ public class OrientationSensorReading : Windows.Devices.Sensors.IOrientationSens
 Represents an orientation-sensor reading.
 
 ## -remarks
-This object is accessed when you invoke the [GetCurrentReading](orientationsensor_getcurrentreading.md) method; and, it is accessed when you retrieve the [Reading](orientationsensorreadingchangedeventargs_reading.md) property of the [OrientationSensorReadingChangedEventArgs](orientationsensorreadingchangedeventargs.md) object in the event callback method..
+This object is accessed when you invoke the [GetCurrentReading](orientationsensor_getcurrentreading_1416488181.md) method; and, it is accessed when you retrieve the [Reading](orientationsensorreadingchangedeventargs_reading.md) property of the [OrientationSensorReadingChangedEventArgs](orientationsensorreadingchangedeventargs.md) object in the event callback method..
 
 ## -examples
 

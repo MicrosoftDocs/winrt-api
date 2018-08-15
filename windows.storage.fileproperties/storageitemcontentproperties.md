@@ -104,7 +104,7 @@ if (file !== null) {
 }
 ```
 
-After [GetImagePropertiesAsync](storageitemcontentproperties_getimagepropertiesasync.md) completes, `imageProperties` gets a [ImageProperties](imageproperties.md) object. Additionally, after [RetrievePropertiesAsync](storageitemcontentproperties_retrievepropertiesasync.md) completes, `extraProperties` gets an object that contains the specified properties.
+After [GetImagePropertiesAsync](storageitemcontentproperties_getimagepropertiesasync_292219360.md) completes, `imageProperties` gets a [ImageProperties](imageproperties.md) object. Additionally, after [RetrievePropertiesAsync](storageitemcontentproperties_retrievepropertiesasync_507906171.md) completes, `extraProperties` gets an object that contains the specified properties.
 
 In the example, `file` contains a [StorageFile](../windows.storage/storagefile.md) that represents the file to retrieve properties for.
 

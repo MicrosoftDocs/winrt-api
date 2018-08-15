@@ -17,7 +17,7 @@ Causes an audit event to be logged.
 
 ## -parameters
 ### -param sourceIdentity
-The enterprise identity to which the content is protected. This is an email address or domain that is managed. Your app should use [IsIdentityManaged](protectionpolicymanager_isidentitymanaged.md) to confirm that an email address or domain is managed.
+The enterprise identity to which the content is protected. This is an email address or domain that is managed. Your app should use [IsIdentityManaged](protectionpolicymanager_isidentitymanaged_906801364.md) to confirm that an email address or domain is managed.
 
 ### -param targetIdentity
 The enterprise identity to which the content is being disclosed. This is an email address or domain.

@@ -19,4 +19,4 @@ Gets the deferral object when an app has entered the background state.
 ## -examples
 
 ## -see-also
-[BackgroundActivated](../windows.applicationmodel.core/coreapplication_backgroundactivated.md), [OnBackgroundActivated](../windows.ui.xaml/application_onbackgroundactivated.md), [Application.EnteredBackground event](../windows.ui.xaml/application_enteredbackground.md), [CoreApplication.EnteredBackground event](../windows.applicationmodel.core/coreapplication_enteredbackground.md)
+[BackgroundActivated](../windows.applicationmodel.core/coreapplication_backgroundactivated.md), [OnBackgroundActivated](../windows.ui.xaml/application_onbackgroundactivated_431338129.md), [Application.EnteredBackground event](../windows.ui.xaml/application_enteredbackground.md), [CoreApplication.EnteredBackground event](../windows.applicationmodel.core/coreapplication_enteredbackground.md)

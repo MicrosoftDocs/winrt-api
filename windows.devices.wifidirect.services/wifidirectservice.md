@@ -19,9 +19,9 @@ This is one of several classes that support connecting two devices with a prefer
 Your code does not instantiate this class directly. Instead, your code follows this process to get an instance of this class and use it to establish a Wi-Fi Direct Service session.
 
 
-1. Use one of the [GetSelector](wifidirectservice_getselector.md) methods to get a query string for a particular service
+1. Use one of the [GetSelector](wifidirectservice_getselector_1490626236.md) methods to get a query string for a particular service
 1. Create a [DeviceWatcher](../windows.devices.enumeration/devicewatcher.md) that watches for Advertisers that match the query string. When an Advertiser is found, decide whether to use that Advertiser, either programmatically or by asking the user to indicate a choice.
-1. Once your Seeker has identified the desired service advertiser, call the static [FromIdAsync](wifidirectservice_fromidasync.md) method with the Device ID of the chosen advertiser device. FromIdAsync retrieves an instance of [WiFiDirectService](wifidirectservice.md) for the requested service on the requested device.
+1. Once your Seeker has identified the desired service advertiser, call the static [FromIdAsync](wifidirectservice_fromidasync_1322863552.md) method with the Device ID of the chosen advertiser device. FromIdAsync retrieves an instance of [WiFiDirectService](wifidirectservice.md) for the requested service on the requested device.
 1. Proceed to establish a session by calling [WiFiDirectService.ConnectAsync](wifidirectservice_connectasync.md).
 
 

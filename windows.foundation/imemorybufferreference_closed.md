@@ -10,7 +10,7 @@ abstract public event Windows.Foundation.TypedEventHandler Closed<Windows.Founda
 # Windows.Foundation.IMemoryBufferReference.Closed
 
 ## -description
-Occurs when [MemoryBuffer.Close](memorybuffer_close.md) has been called and this [IMemoryBufferReference](imemorybufferreference.md) has been closed.
+Occurs when [MemoryBuffer.Close](memorybuffer_close_811482585.md) has been called and this [IMemoryBufferReference](imemorybufferreference.md) has been closed.
 
 ## -remarks
 

@@ -10,7 +10,7 @@ public class BackgroundTaskDeferral : Windows.ApplicationModel.Background.IBackg
 # Windows.ApplicationModel.Background.BackgroundTaskDeferral
 
 ## -description
-Represents a background task deferral returned by the [IBackgroundTaskInstance.GetDeferral](ibackgroundtaskinstance_getdeferral.md) method.
+Represents a background task deferral returned by the [IBackgroundTaskInstance.GetDeferral](ibackgroundtaskinstance_getdeferral_254836512.md) method.
 
 ## -remarks
 > [!NOTE]

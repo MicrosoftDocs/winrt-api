@@ -57,7 +57,7 @@ The API that enables you to add a **SwapChain** to an existing [SwapChainPanel](
 
 ### Processing input on background threads
 
-Using the [CreateCoreIndependentInputSource](swapchainpanel_createcoreindependentinputsource.md) method, apps can process input and render to a [SwapChainPanel](swapchainpanel.md) entirely on one or more background threads. This enables high performance input and rendering independent of the XAML UI thread.
+Using the [CreateCoreIndependentInputSource](swapchainpanel_createcoreindependentinputsource_467679991.md) method, apps can process input and render to a [SwapChainPanel](swapchainpanel.md) entirely on one or more background threads. This enables high performance input and rendering independent of the XAML UI thread.
 
 ## -examples
 

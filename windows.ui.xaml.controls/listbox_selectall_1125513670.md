@@ -14,7 +14,7 @@ Selects all the items in the [ListBox](listbox.md) control.
 
 ## -remarks
 > [!WARNING]
-> The [SelectAll](listbox_selectall.md) method should only be called when the [SelectionMode](listbox_selectionmode.md) property is set to [Multiple](selectionmode.md) or [Extended](selectionmode.md). If [SelectAll](listbox_selectall.md) is called when the [SelectionMode](listbox_selectionmode.md) is **Single**, an exception is thrown.
+> The [SelectAll](listbox_selectall_1125513670.md) method should only be called when the [SelectionMode](listbox_selectionmode.md) property is set to [Multiple](selectionmode.md) or [Extended](selectionmode.md). If [SelectAll](listbox_selectall_1125513670.md) is called when the [SelectionMode](listbox_selectionmode.md) is **Single**, an exception is thrown.
 
 ## -examples
 ```csharp

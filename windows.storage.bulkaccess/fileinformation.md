@@ -13,10 +13,10 @@ public class FileInformation : Windows.Storage.BulkAccess.IStorageItemInformatio
 Provides synchronous access to the properties exposed off [StorageFile](../windows.storage/storagefile.md) and lets an app perform asynchronous file operations such as copy, delete, move, and rename.
 
 ## -remarks
-You can retrieve a list of [FileInformation](fileinformation.md) objects by calling one of the [fileInformationFactory.getFilesAsync](fileinformationfactory_getfilesasync.md) methods.
+You can retrieve a list of [FileInformation](fileinformation.md) objects by calling one of the [fileInformationFactory.getFilesAsync](fileinformationfactory_getfilesasync_1261374131.md) methods.
 
 ## -examples
 
 
 ## -see-also
-[FileInformationFactory.GetFilesAsync](fileinformationfactory_getfilesasync.md), [IStorageItemInformation](istorageiteminformation.md), [IStorageFile](../windows.storage/istoragefile.md), [IStorageItem](../windows.storage/istorageitem.md), [IRandomAccessStreamReference](../windows.storage.streams/irandomaccessstreamreference.md), [IInputStreamReference](../windows.storage.streams/iinputstreamreference.md), [IStorageItemProperties](../windows.storage/istorageitemproperties.md), [IStorageItem2](../windows.storage/istorageitem2.md), [IStorageItemPropertiesWithProvider](../windows.storage/istorageitempropertieswithprovider.md), [IStorageFilePropertiesWithAvailability](../windows.storage/istoragefilepropertieswithavailability.md)
+[FileInformationFactory.GetFilesAsync](fileinformationfactory_getfilesasync_1261374131.md), [IStorageItemInformation](istorageiteminformation.md), [IStorageFile](../windows.storage/istoragefile.md), [IStorageItem](../windows.storage/istorageitem.md), [IRandomAccessStreamReference](../windows.storage.streams/irandomaccessstreamreference.md), [IInputStreamReference](../windows.storage.streams/iinputstreamreference.md), [IStorageItemProperties](../windows.storage/istorageitemproperties.md), [IStorageItem2](../windows.storage/istorageitem2.md), [IStorageItemPropertiesWithProvider](../windows.storage/istorageitempropertieswithprovider.md), [IStorageFilePropertiesWithAvailability](../windows.storage/istoragefilepropertieswithavailability.md)

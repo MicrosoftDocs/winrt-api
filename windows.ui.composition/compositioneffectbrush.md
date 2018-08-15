@@ -24,7 +24,7 @@ A [CompositionEffectBrush](compositioneffectbrush.md) is applied to a [SpriteVis
 
 Sources to [CompositionEffectBrush](compositioneffectbrush.md) can be an existing surface or texture, or another effect enabling effect chaining.
 
-CompositionEffectBrush.Properties (inherited from CompositionObject.Properties) allows setting or animating the animatable properties that were specified in the call to Compositor.[CreateEffectFactory](compositor_createeffectfactory.md) using their full 'EffectName.PropertyName' name.
+CompositionEffectBrush.Properties (inherited from CompositionObject.Properties) allows setting or animating the animatable properties that were specified in the call to Compositor.[CreateEffectFactory](compositor_createeffectfactory_720924202.md) using their full 'EffectName.PropertyName' name.
 
 Effect sources can be set independently from other CompositionEffectBrush instances, and properties can be animated independently from other CompositionEffectBrush instances.
 
@@ -36,10 +36,10 @@ To create and apply an effect you need to perform the following steps:
 
 1. Create an effect description. See the [Win2D](http://microsoft.github.io/Win2D/html/Introduction.htm) namespace, [Microsoft.Graphics.Canvas.Effects](http://microsoft.github.io/Win2D/html/N_Microsoft_Graphics_Canvas_Effects.htm), for valid effect types.
 2. Set any effect sources with either an instance of [CompositionEffectSourceParameter](compositioneffectsourceparameter.md) or another effect. Specifying another effect creates an effect chain.
-3. Create a CompositionEffectFactory with Compositor.[CreateEffectFactory](compositor_createeffectfactory.md) using the effect description as input.
-4. Create an instance of the effect using CompositorEffectFactory.[CreateBrush](compositioneffectfactory_createbrush.md).
-5. Set any CompositionEffectSourceParameter using CompositionEffectBrush.[SetSourceParameter](compositioneffectbrush_setsourceparameter.md) and the name of the source parameter as previously specified using a [CompositionEffectSourceParameter](compositioneffectsourceparameter.md).
-6. Create an instance of [SpriteVisual](spritevisual.md) using Compositor.[CreateSpriteVisual](compositor_createspritevisual.md).
+3. Create a CompositionEffectFactory with Compositor.[CreateEffectFactory](compositor_createeffectfactory_720924202.md) using the effect description as input.
+4. Create an instance of the effect using CompositorEffectFactory.[CreateBrush](compositioneffectfactory_createbrush_639615316.md).
+5. Set any CompositionEffectSourceParameter using CompositionEffectBrush.[SetSourceParameter](compositioneffectbrush_setsourceparameter_49982457.md) and the name of the source parameter as previously specified using a [CompositionEffectSourceParameter](compositioneffectsourceparameter.md).
+6. Create an instance of [SpriteVisual](spritevisual.md) using Compositor.[CreateSpriteVisual](compositor_createspritevisual_1850565165.md).
 7. Set the [Brush](spritevisual_brush.md) property of the [SpriteVisual](spritevisual.md) to the created effect.
 8. Add the [SpriteVisual](spritevisual.md) to the composition tree by using the [Children](containervisual_children.md) property of a [ContainerVisual](containervisual.md).
 

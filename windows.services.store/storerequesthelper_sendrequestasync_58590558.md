@@ -14,7 +14,7 @@ Sends the specified request to the Windows Store with the provided context and p
 
 ## -parameters
 ### -param context
-An object that specifies the user for which to perform the operation. If your app is a single-user app (that is, it runs only in the context of the user that launched the app), use the [StoreContext.GetDefault](storecontext_getdefault.md) method to get a [StoreContext](storecontext.md) object that you can use to send a request that operates in the context of the user. If your app is a multi-user app, use the [StoreContext.GetForUser](storecontext_getforuser.md) method to get a [StoreContext](storecontext.md) object that you can use to send a request that operates in the context of a specific user.
+An object that specifies the user for which to perform the operation. If your app is a single-user app (that is, it runs only in the context of the user that launched the app), use the [StoreContext.GetDefault](storecontext_getdefault_846721868.md) method to get a [StoreContext](storecontext.md) object that you can use to send a request that operates in the context of the user. If your app is a multi-user app, use the [StoreContext.GetForUser](storecontext_getforuser_2058550280.md) method to get a [StoreContext](storecontext.md) object that you can use to send a request that operates in the context of a specific user.
 
 ### -param requestKind
 A value that identifies the request that you want to send to the Windows Store.

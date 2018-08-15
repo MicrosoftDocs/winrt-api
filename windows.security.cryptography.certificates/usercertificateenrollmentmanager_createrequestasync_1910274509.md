@@ -41,7 +41,7 @@ The [CertificateRequestProperties](certificaterequestproperties.md) object conta
    <tr><td>[KeyStorageProviderName](certificaterequestproperties_keystorageprovidername.md)</td><td>Microsoft Software Key Storage Provider</td></tr>
 </table>
 
-While the [CreateRequestAsync](usercertificateenrollmentmanager_createrequestasync.md) method creates the certificate request, you will need to submit the request to an http enrollment end point. You can then take the response from the http enrollment end point and then call the [InstallCertificateAsync](usercertificateenrollmentmanager_installcertificateasync.md) method to install the response.
+While the [CreateRequestAsync](usercertificateenrollmentmanager_createrequestasync_1910274509.md) method creates the certificate request, you will need to submit the request to an http enrollment end point. You can then take the response from the http enrollment end point and then call the [InstallCertificateAsync](usercertificateenrollmentmanager_installcertificateasync_225635424.md) method to install the response.
 
 > [!NOTE]
 > You must include the **Signing** value in the [KeyUsages](certificaterequestproperties_keyusages.md) property in any[ CertificateRequestProperties](certificaterequestproperties.md) object that you use in a call to **CreateRequestAsync**. If you wish to set [KeyUsages](certificaterequestproperties_keyusages.md) to **Decryption** or **KeyAgreement**, you must also OR in **Signing**. Otherwise, the call to **CreateRequestAsync** will fail.

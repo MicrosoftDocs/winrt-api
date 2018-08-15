@@ -23,7 +23,7 @@ Specifies whether to be fast or precise when trimming the media.
 An async operation which can be used to track the success or failure of the operation.
 
 ## -remarks
-This method saves the composition to a video file that can be played back with standard media players. If you want to save the composition as an XML file that can be loaded and modified in the future, use [SaveAsync](mediacomposition_saveasync.md).
+This method saves the composition to a video file that can be played back with standard media players. If you want to save the composition as an XML file that can be loaded and modified in the future, use [SaveAsync](mediacomposition_saveasync_389603876.md).
 
 ## -examples
 

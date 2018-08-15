@@ -10,7 +10,7 @@ public string GetDeviceSelector(System.String portName)
 # Windows.Devices.SerialCommunication.SerialDevice.GetDeviceSelector
 
 ## -description
-Gets an Advanced Query Syntax (AQS) string that the app can pass to [DeviceInformation.FindAllAsync](../windows.devices.enumeration/deviceinformation_findallasync.md) in order to find a serial device by specifying its port name.
+Gets an Advanced Query Syntax (AQS) string that the app can pass to [DeviceInformation.FindAllAsync](../windows.devices.enumeration/deviceinformation_findallasync_1257462890.md) in order to find a serial device by specifying its port name.
 
 ## -parameters
 ### -param portName

@@ -24,7 +24,7 @@ A [StreamSocketListenerControl](streamsocketlistenercontrol.md) object is automa
 + [QualityOfService](streamsocketlistenercontrol_qualityofservice.md) - The quality of service to be set on a [StreamSocket](streamsocket.md) object created when a connection is received by the [StreamSocketListener](streamsocketlistener.md) object.
 
 
-Any changes to the [StreamSocketListenerControl](streamsocketlistenercontrol.md) property values must be set before the [StreamSocketListener](streamsocketlistener.md) is bound. So changes to the [QualityOfService](streamsocketlistenercontrol_qualityofservice.md) property must be set before the [BindServiceNameAsync](streamsocketlistener_bindservicenameasync.md) or [BindEndpointAsync](streamsocketlistener_bindendpointasync.md) method is called on the [StreamSocketListener](streamsocketlistener.md).
+Any changes to the [StreamSocketListenerControl](streamsocketlistenercontrol.md) property values must be set before the [StreamSocketListener](streamsocketlistener.md) is bound. So changes to the [QualityOfService](streamsocketlistenercontrol_qualityofservice.md) property must be set before the [BindServiceNameAsync](streamsocketlistener_bindservicenameasync_1713574846.md) or [BindEndpointAsync](streamsocketlistener_bindendpointasync_1396029045.md) method is called on the [StreamSocketListener](streamsocketlistener.md).
 
 ## -examples
 

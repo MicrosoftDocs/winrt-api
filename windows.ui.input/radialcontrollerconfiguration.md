@@ -19,9 +19,9 @@ Provides configuration details for the [RadialController](radialcontroller.md) m
 
 In this example, we specify which built-in tools are displayed on the menu, and set the default tool.
 
-1. First, in the `ModifySystemDefaults` function, we get a reference to the [RadialControllerConfiguration](radialcontrollerconfiguration.md) object for the Surface Dial (`config`) by calling [GetForCurrentView](radialcontrollerconfiguration_getforcurrentview.md).
-1. Then, we call [SetDefaultMenuItems](radialcontrollerconfiguration_setdefaultmenuitems.md) to specify the default collection of built-in menu items ([Volume](radialcontrollersystemmenuitemkind.md) and [Scroll](radialcontrollersystemmenuitemkind.md)).
-1. In the `Select_Volume` function, we attempt to set the default menu item to [Volume](radialcontrollersystemmenuitemkind.md) by calling [TrySelectDefaultMenuItem](radialcontrollerconfiguration_tryselectdefaultmenuitem.md).
+1. First, in the `ModifySystemDefaults` function, we get a reference to the [RadialControllerConfiguration](radialcontrollerconfiguration.md) object for the Surface Dial (`config`) by calling [GetForCurrentView](radialcontrollerconfiguration_getforcurrentview_1363600702.md).
+1. Then, we call [SetDefaultMenuItems](radialcontrollerconfiguration_setdefaultmenuitems_1318008085.md) to specify the default collection of built-in menu items ([Volume](radialcontrollersystemmenuitemkind.md) and [Scroll](radialcontrollersystemmenuitemkind.md)).
+1. In the `Select_Volume` function, we attempt to set the default menu item to [Volume](radialcontrollersystemmenuitemkind.md) by calling [TrySelectDefaultMenuItem](radialcontrollerconfiguration_tryselectdefaultmenuitem_1342621095.md).
 
 ```csharp
 public sealed partial class MainPage : Page
@@ -44,10 +44,10 @@ public sealed partial class MainPage : Page
 }
 ```
 
-In this example, we clear all built-in tools by calling [SetDefaultMenuItems](radialcontrollerconfiguration_setdefaultmenuitems.md) and passing an empty collection.
+In this example, we clear all built-in tools by calling [SetDefaultMenuItems](radialcontrollerconfiguration_setdefaultmenuitems_1318008085.md) and passing an empty collection.
 
 > [!IMPORTANT]
-> When present, the [InkToolbar](../windows.ui.xaml.controls/inktoolbar.md) adds two custom tools to the [RadialController](radialcontroller.md) menu (pen and stroke size). These tools are not accessible through [RadialController](radialcontroller.md) APIs such as [Items](radialcontrollermenu_items.md) or [SetDefaultMenuItems](radialcontrollerconfiguration_setdefaultmenuitems.md).
+> When present, the [InkToolbar](../windows.ui.xaml.controls/inktoolbar.md) adds two custom tools to the [RadialController](radialcontroller.md) menu (pen and stroke size). These tools are not accessible through [RadialController](radialcontroller.md) APIs such as [Items](radialcontrollermenu_items.md) or [SetDefaultMenuItems](radialcontrollerconfiguration_setdefaultmenuitems_1318008085.md).
 
 ```csharp
   private void ClearSystemDefaults(object sender, RoutedEventArgs e) 

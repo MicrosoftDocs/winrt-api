@@ -20,7 +20,7 @@ An object representing a Voice Command Definition (VCD) file.
 An asynchronous handler called when the operation is complete.
 
 ## -remarks
-Call this method only from your [OnLaunched](../windows.ui.xaml/application_onlaunched.md) override, or a [Resuming](../windows.applicationmodel.core/coreapplication_resuming.md) event handler.
+Call this method only from your [OnLaunched](../windows.ui.xaml/application_onlaunched_859642554.md) override, or a [Resuming](../windows.applicationmodel.core/coreapplication_resuming.md) event handler.
 
 Do not call this method from a [Suspending](../windows.applicationmodel.core/coreapplication_suspending.md) event handler as the action might take longer than the time allotted by the system for app suspension.
 

@@ -21,7 +21,7 @@ Specifies whether the user interface that will be shown allows the user to captu
 When this operation completes, a [StorageFile](../windows.storage/storagefile.md) object is returned.
 
 ## -remarks
-Call [CaptureFileAsync](cameracaptureui_capturefileasync.md) to launch the UI. The user has control over when to start the capture. When the asynchronous operation completes, a [StorageFile](../windows.storage/storagefile.md) object is returned.
+Call [CaptureFileAsync](cameracaptureui_capturefileasync_1903527183.md) to launch the UI. The user has control over when to start the capture. When the asynchronous operation completes, a [StorageFile](../windows.storage/storagefile.md) object is returned.
 
 ## -examples
 

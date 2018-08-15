@@ -16,7 +16,7 @@ Gets a value indicating the type of the decay model.
 A value indicating the type of the decay model.
 
 ## -remarks
-Create a [Natural](audionodeemitterdecaykind.md) decay model by calling [CreateNatural](audionodeemitterdecaymodel_createnatural.md). Create a [Custom](audionodeemitterdecaykind.md) decay model by calling [CreateCustom](audionodeemitterdecaymodel_createcustom.md).
+Create a [Natural](audionodeemitterdecaykind.md) decay model by calling [CreateNatural](audionodeemitterdecaymodel_createnatural_887095524.md). Create a [Custom](audionodeemitterdecaykind.md) decay model by calling [CreateCustom](audionodeemitterdecaymodel_createcustom.md).
 
 ## -examples
 

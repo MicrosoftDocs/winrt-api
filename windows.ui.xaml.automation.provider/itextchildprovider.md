@@ -10,7 +10,7 @@ public interface ITextChildProvider :
 # Windows.UI.Xaml.Automation.Provider.ITextChildProvider
 
 ## -description
-Provides access to a text-based control that is a child of another text-based control. Implement this interface in order to support the capabilities that an automation client requests with a [GetPattern](../windows.ui.xaml.automation.peers/automationpeer_getpattern.md) call and [PatternInterface.TextChild](../windows.ui.xaml.automation.peers/patterninterface.md).
+Provides access to a text-based control that is a child of another text-based control. Implement this interface in order to support the capabilities that an automation client requests with a [GetPattern](../windows.ui.xaml.automation.peers/automationpeer_getpattern_2046576749.md) call and [PatternInterface.TextChild](../windows.ui.xaml.automation.peers/patterninterface.md).
 
 ## -remarks
 This pattern has guidelines and conventions that aren't fully documented here. For more info on what this pattern is for, see [TextChild Control Pattern](http://msdn.microsoft.com/library/b33bcbef-9ad2-4a5a-871e-e97e69be8195).

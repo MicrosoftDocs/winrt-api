@@ -20,7 +20,7 @@ No error has occurred.
 An unspecified error has occurred.
 
 ### -field AppReportedError:2
-The app reported an error by calling the [NotifyError](mediastreamsource_notifyerror.md) method on the [MediaStreamSource](mediastreamsource.md).
+The app reported an error by calling the [NotifyError](mediastreamsource_notifyerror_645943664.md) method on the [MediaStreamSource](mediastreamsource.md).
 
 ### -field UnsupportedProtectionSystem:3
 Components needed to implement the protection system are missing.

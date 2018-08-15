@@ -19,9 +19,9 @@ The Windows Runtime  [GridViewItem](../windows.ui.xaml.controls/gridviewitem.md)
 
 [GridViewItemAutomationPeer](gridviewitemautomationpeer.md) has overrides of **Core** methods such that the associated [AutomationPeer](automationpeer.md) methods provide peer-specific information to a Microsoft UI Automation client.
 
-+ [GetPattern](automationpeer_getpattern.md) defers to base peers. [GetPattern](automationpeer_getpattern.md) returns a pattern for [IDragProvider](http://msdn.microsoft.com/library/fac4a56d-17bc-42e6-a03e-ee45d717de37) though an internal base class. The content of the [GridViewItem](../windows.ui.xaml.controls/gridviewitem.md) might also have a specific peer, for example if it is a [TextBox](../windows.ui.xaml.controls/textbox.md). The parent [GridView](../windows.ui.xaml.controls/gridview.md) has the support for any selection-related automation behavior.
-+ [GetClassName](automationpeer_getclassname.md) returns "GridViewItem".
-+ [GetAutomationControlType](automationpeer_getautomationcontroltype.md) returns [AutomationControlType.ListItem](automationcontroltype.md).
++ [GetPattern](automationpeer_getpattern_2046576749.md) defers to base peers. [GetPattern](automationpeer_getpattern_2046576749.md) returns a pattern for [IDragProvider](http://msdn.microsoft.com/library/fac4a56d-17bc-42e6-a03e-ee45d717de37) though an internal base class. The content of the [GridViewItem](../windows.ui.xaml.controls/gridviewitem.md) might also have a specific peer, for example if it is a [TextBox](../windows.ui.xaml.controls/textbox.md). The parent [GridView](../windows.ui.xaml.controls/gridview.md) has the support for any selection-related automation behavior.
++ [GetClassName](automationpeer_getclassname_614238974.md) returns "GridViewItem".
++ [GetAutomationControlType](automationpeer_getautomationcontroltype_1156384152.md) returns [AutomationControlType.ListItem](automationcontroltype.md).
 <!--Is actually a mystery how, because I don't see this done in the code, but it tests out-->
 The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](http://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4).
 

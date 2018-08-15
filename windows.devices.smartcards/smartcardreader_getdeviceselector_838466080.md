@@ -10,7 +10,7 @@ public string GetDeviceSelector()
 # Windows.Devices.SmartCards.SmartCardReader.GetDeviceSelector
 
 ## -description
-Returns an Advanced Query Syntax (AQS) string representing all smart card readers connected to the device. This string is passed to the [FindAllAsync](../windows.devices.enumeration/deviceinformation_findallasync.md) method to enumerate the given set of smart card readers.
+Returns an Advanced Query Syntax (AQS) string representing all smart card readers connected to the device. This string is passed to the [FindAllAsync](../windows.devices.enumeration/deviceinformation_findallasync_1257462890.md) method to enumerate the given set of smart card readers.
 
 ## -returns
 The Advanced Query Syntax (AQS) string representing all smart card readers connected to the device.

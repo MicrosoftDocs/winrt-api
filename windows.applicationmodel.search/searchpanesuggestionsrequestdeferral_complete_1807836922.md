@@ -17,4 +17,4 @@ Signals that the app has finished populating a [searchSuggestionCollection](sear
 ## -examples
 
 ## -see-also
-[SearchPaneSuggestionsRequest.GetDeferral method](searchpanesuggestionsrequest_getdeferral.md), [SearchPaneSuggestionsRequestDeferral class](searchpanesuggestionsrequestdeferral.md)
+[SearchPaneSuggestionsRequest.GetDeferral method](searchpanesuggestionsrequest_getdeferral_254836512.md), [SearchPaneSuggestionsRequestDeferral class](searchpanesuggestionsrequestdeferral.md)

@@ -17,7 +17,7 @@ Lets apps manage real-time updates to files.
 
 This class is static and cannot be instantiated. Call the methods directly instead.
 
-Typically, Windows implicitly initiates updates for files that are provided by other apps when those files change.  However, you can control when updates are initiated by calling [DeferUpdates](cachedfilemanager_deferupdates.md). If you use this method are deferred until you call [CompleteUpdatesAsync](cachedfilemanager_completeupdatesasync.md) to initiate them.
+Typically, Windows implicitly initiates updates for files that are provided by other apps when those files change.  However, you can control when updates are initiated by calling [DeferUpdates](cachedfilemanager_deferupdates_1404792989.md). If you use this method are deferred until you call [CompleteUpdatesAsync](cachedfilemanager_completeupdatesasync_1507988567.md) to initiate them.
 
 ## -examples
 

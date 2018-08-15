@@ -25,7 +25,7 @@ An asynchronous action. If you use [Asynchronous programming](http://msdn.micros
 ## -remarks
 If the *id* value passed in to this method is not unique, or if the item has already been added to the wallet, an exception is thrown. How to handle errors/exceptions varies by programming language, particularly so when calling asynchronous methods. See [Asynchronous programming](http://msdn.microsoft.com/library/23fe28f1-89c5-4a17-a732-a722648f9c5e).
 
-Remember that when you call this method, the item is added to the wallet item store, which is owned by the device not the app. While you're still developing, the store persists across app sessions, and so attempting to add the same item again when running another debug session can throw an exception because the item's already there. Consider adding a call to [ClearAsync](walletitemstore_clearasync.md) before you attempt to add any items and you've run your code more than once, at least while you're still developing and testing your code.
+Remember that when you call this method, the item is added to the wallet item store, which is owned by the device not the app. While you're still developing, the store persists across app sessions, and so attempting to add the same item again when running another debug session can throw an exception because the item's already there. Consider adding a call to [ClearAsync](walletitemstore_clearasync_1031039026.md) before you attempt to add any items and you've run your code more than once, at least while you're still developing and testing your code.
 
 ## -examples
 

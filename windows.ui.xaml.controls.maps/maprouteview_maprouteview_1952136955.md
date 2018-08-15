@@ -10,7 +10,7 @@ public MapRouteView(Windows.Services.Maps.MapRoute route)
 # Windows.UI.Xaml.Controls.Maps.MapRouteView.MapRouteView
 
 ## -description
-Initializes a new instance of the [MapRouteView](maprouteview_maprouteview.md) class with the specified [MapRoute](../windows.services.maps/maproute.md).
+Initializes a new instance of the [MapRouteView](maprouteview_maprouteview_1952136955.md) class with the specified [MapRoute](../windows.services.maps/maproute.md).
 
 ## -parameters
 ### -param route

@@ -10,7 +10,7 @@ virtual protected Windows.UI.Xaml.Automation.Peers.AutomationControlType GetAuto
 # Windows.UI.Xaml.Automation.Peers.AutomationPeer.GetAutomationControlTypeCore
 
 ## -description
-Provides the peer's behavior when a Microsoft UI Automation client calls [GetAutomationControlType](automationpeer_getautomationcontroltype.md) or an equivalent Microsoft UI Automation client API.
+Provides the peer's behavior when a Microsoft UI Automation client calls [GetAutomationControlType](automationpeer_getautomationcontroltype_1156384152.md) or an equivalent Microsoft UI Automation client API.
 
 ## -returns
 The control type.

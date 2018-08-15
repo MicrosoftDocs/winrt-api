@@ -13,7 +13,7 @@ public class StoreConsumableResult : Windows.Services.Store.IStoreConsumableResu
 Provides response data for a request that involves a consumable add-on for the current app.
 
 ## -remarks
-The [ReportConsumableFulfillmentAsync](storecontext_reportconsumablefulfillmentasync.md) and [GetConsumableBalanceRemainingAsync](storecontext_getconsumablebalanceremainingasync.md) methods of the [StoreContext](storecontext.md) class return an object of this type.
+The [ReportConsumableFulfillmentAsync](storecontext_reportconsumablefulfillmentasync_1944624188.md) and [GetConsumableBalanceRemainingAsync](storecontext_getconsumablebalanceremainingasync_667148504.md) methods of the [StoreContext](storecontext.md) class return an object of this type.
 
 ## -examples
 

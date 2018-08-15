@@ -10,7 +10,7 @@ virtual protected Windows.UI.Xaml.Automation.Peers.AutomationPeer GetLabeledByCo
 # Windows.UI.Xaml.Automation.Peers.AutomationPeer.GetLabeledByCore
 
 ## -description
-Provides the peer's behavior when a Microsoft UI Automation client calls [GetLabeledBy](automationpeer_getlabeledby.md) or an equivalent Microsoft UI Automation client API.
+Provides the peer's behavior when a Microsoft UI Automation client calls [GetLabeledBy](automationpeer_getlabeledby_1845689.md) or an equivalent Microsoft UI Automation client API.
 
 ## -returns
 The [AutomationPeer](automationpeer.md) for the element that is targeted by the [UIElement](../windows.ui.xaml/uielement.md).

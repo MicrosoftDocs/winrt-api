@@ -13,7 +13,7 @@ public void UpdateDefaultDrawingAttributes(Windows.UI.Input.Inking.InkDrawingAtt
 ## -description
 Sets the [InkDrawingAttributes](inkdrawingattributes.md) used by the [InkPresenter](inkpresenter.md) when rendering a new [InkStroke](inkstroke.md) on an [InkCanvas](../windows.ui.xaml.controls/inkcanvas.md) control.
 
-This method is used in conjunction with [CopyDefaultDrawingAttributes](inkpresenter_copydefaultdrawingattributes.md) to set drawing attributes at run time.
+This method is used in conjunction with [CopyDefaultDrawingAttributes](inkpresenter_copydefaultdrawingattributes_553706939.md) to set drawing attributes at run time.
 
 ## -parameters
 ### -param value

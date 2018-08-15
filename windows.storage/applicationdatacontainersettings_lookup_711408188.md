@@ -20,7 +20,7 @@ The key of the setting.
 The value, if an item with the specified key exists. Use the **HasKey** method to determine whether the key exists.
 
 ## -remarks
-For a code example of [Lookup](applicationdatacontainersettings_lookup.md), see the [HasKey](applicationdatacontainersettings_haskey.md) example.
+For a code example of [Lookup](applicationdatacontainersettings_lookup_711408188.md), see the [HasKey](applicationdatacontainersettings_haskey_425964900.md) example.
 
 ## -examples
 

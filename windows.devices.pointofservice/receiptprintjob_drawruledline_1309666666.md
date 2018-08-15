@@ -57,4 +57,4 @@ This *positionList* results in four drawn ruled lines starting at unit positions
 ## -examples
 
 ## -see-also
-[IReceiptOrSlipJob.DrawRuledLine](ireceiptorslipjob_drawruledline.md), [ClaimedReceiptPrinter.ColorCartridge](claimedreceiptprinter_colorcartridge.md), [PosPrinterLineDirection](posprinterlinedirection.md), [PosPrinterLineStyle](posprinterlinestyle.md)
+[IReceiptOrSlipJob.DrawRuledLine](ireceiptorslipjob_drawruledline_1309666666.md), [ClaimedReceiptPrinter.ColorCartridge](claimedreceiptprinter_colorcartridge.md), [PosPrinterLineDirection](posprinterlinedirection.md), [PosPrinterLineStyle](posprinterlinestyle.md)

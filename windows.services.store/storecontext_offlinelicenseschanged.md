@@ -13,7 +13,7 @@ public event Windows.Foundation.TypedEventHandler OfflineLicensesChanged<Windows
 Raised when the status of the app's license changes (for example, the trial period has expired or the user has purchased the full version of the app).
 
 ## -remarks
-When this event is raised, you can get the latest app license from the Microsoft Store by calling the [GetAppLicenseAsync](storecontext_getapplicenseasync.md) method. The [StoreAppLicense](storeapplicense.md) object returned by this method also contains the latest add-on licenses for the app in the [AddOnLicenses](storeapplicense_addonlicenses.md) property. 
+When this event is raised, you can get the latest app license from the Microsoft Store by calling the [GetAppLicenseAsync](storecontext_getapplicenseasync_1472711008.md) method. The [StoreAppLicense](storeapplicense.md) object returned by this method also contains the latest add-on licenses for the app in the [AddOnLicenses](storeapplicense_addonlicenses.md) property. 
 
 For more information about the [OfflineLicensesChanged](storecontext_offlinelicenseschanged.md) event, including a code example, see [Implement a trial version of your app](https://msdn.microsoft.com/windows/uwp/monetize/implement-a-trial-version-of-your-app).
 

@@ -16,7 +16,7 @@ Gets the name of the open MAC algorithm.
 Algorithm name.
 
 ## -remarks
-You must call the [OpenAlgorithm](macalgorithmprovider_openalgorithm.md) method before calling this property. The following algorithm names are supported:
+You must call the [OpenAlgorithm](macalgorithmprovider_openalgorithm_637226074.md) method before calling this property. The following algorithm names are supported:
 
 
 + [MacAlgorithmNames.AesCmac](macalgorithmnames_aescmac.md)

@@ -17,13 +17,13 @@ Represents a device. This class allows access to well-known device properties as
 
 A [DeviceInformation](deviceinformation.md) object is composed of an identity ([DeviceInformation.Id](deviceinformation_id.md)), a kind ([DeviceInformation.Kind](deviceinformation_kind.md)), and a property bag ([DeviceInformation.Properties](deviceinformation_properties.md)). All of the other properties of a [DeviceInformation](deviceinformation.md) object are derived from the [Properties](deviceinformation_properties.md) property bag. For example, [Name](deviceinformation_name.md) is derived from **System.ItemNameDisplay**.
 
-Successful completion of [FindAllAsync](deviceinformation_findallasync.md) results in a [DeviceInformationCollection](deviceinformationcollection.md) containing [DeviceInformation](deviceinformation.md) objects.
+Successful completion of [FindAllAsync](deviceinformation_findallasync_1257462890.md) results in a [DeviceInformationCollection](deviceinformationcollection.md) containing [DeviceInformation](deviceinformation.md) objects.
 
-If a call to [CreateWatcher](deviceinformation_createwatcher.md) succeeds, a [DeviceInformation](deviceinformation.md) object is passed to the [added](devicewatcher_added.md) event for each device that is found.
+If a call to [CreateWatcher](deviceinformation_createwatcher_1506431823.md) succeeds, a [DeviceInformation](deviceinformation.md) object is passed to the [added](devicewatcher_added.md) event for each device that is found.
 
 The [Name](deviceinformation_name.md) property should only be used for display purposes only and not for finding a device because the [Name](deviceinformation_name.md) can change due to localization or a user assigning a name.
 
-[CreateFromIdAsync](deviceinformation_createfromidasync.md) creates a [DeviceInformation](deviceinformation.md) object if successful.
+[CreateFromIdAsync](deviceinformation_createfromidasync_270724983.md) creates a [DeviceInformation](deviceinformation.md) object if successful.
 
 The [DeviceInformation](deviceinformation.md) class provides device information, but more specifically, it provides properties of the device interface, the interface that represents functionality that the device exposes. Multi-function devices may have more than one device interface. The physical object that a user sees as a device, is known as the device container, and has properties such as **Manufacturer** and **ModelID**. For more information about enumerating devices and recovering properties, see [Enumerate devices](http://msdn.microsoft.com/library/4311d293-94f0-4bbd-a22d-f007382b4db8).
 

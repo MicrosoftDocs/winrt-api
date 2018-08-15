@@ -32,7 +32,7 @@ Some methods take a value from the [CommonFolderQuery](../windows.storage.search
 > > [!TIP]
 > You can use the **DefaultQuery** option with any folder; you can use the other options from the [CommonFolderQuery](../windows.storage.search/commonfolderquery.md) enumeration only with library folders, such as the Pictures library, or the Homegroup folder.
 
-To get deep query results from a folder that's not a library folder, call the [CreateFolderQueryWithOptions(QueryOptions)](storagefolder_createfolderquerywithoptions.md) method and specify **Deep** as the value of the [FolderDepth](../windows.storage.search/queryoptions_folderdepth.md) property of the [QueryOptions](../windows.storage.search/queryoptions.md) object.
+To get deep query results from a folder that's not a library folder, call the [CreateFolderQueryWithOptions(QueryOptions)](storagefolder_createfolderquerywithoptions_573382953.md) method and specify **Deep** as the value of the [FolderDepth](../windows.storage.search/queryoptions_folderdepth.md) property of the [QueryOptions](../windows.storage.search/queryoptions.md) object.
 
 <table>
    <tr><th>Method</th><th>Create a shallow query that only returns subfolders from the current folder</th><th>Create a deep query that returns all nested subfolders</th></tr>
@@ -41,7 +41,7 @@ To get deep query results from a folder that's not a library folder, call the [C
    <tr><td>[GetFoldersAsync(CommonFileQuery, UInt32, UInt32)](storagefolder_getfoldersasync_731846614.md)</td><td>Specify the **DefaultQuery** option.</td><td>For a library folder, specify an option other than **DefaultQuery**.</td></tr>
    <tr><td>[CreateFolderQuery()](storagefolder_createfolderquery_325438332.md)</td><td>Default behavior of this method.</td><td>N/A</td></tr>
    <tr><td>[CreateFolderQuery(CommonFileQuery)](storagefolder_createfolderquery_330767063.md)</td><td>Specify the **DefaultQuery** option.</td><td>For a library folder, specify an option other than **DefaultQuery**.</td></tr>
-   <tr><td>[CreateFolderQueryWithOptions(QueryOptions)](storagefolder_createfolderquerywithoptions.md)</td><td><ul><li>Default behavior of this method if none of the following options are specified.
+   <tr><td>[CreateFolderQueryWithOptions(QueryOptions)](storagefolder_createfolderquerywithoptions_573382953.md)</td><td><ul><li>Default behavior of this method if none of the following options are specified.
 
 - or -</li><li>Specify **DefaultQuery** as the value of [CommonFolderQuery](../windows.storage.search/commonfolderquery.md) when you instantiate the [QueryOptions](../windows.storage.search/queryoptions.md) object.
 

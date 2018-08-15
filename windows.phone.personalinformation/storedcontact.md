@@ -16,10 +16,10 @@ Represents a contact associated with a custom contact store.
 You must open your app's contact store in order to obtain a [StoredContact](storedcontact.md) object. To work with contact information that is not yet associated with a store or to parse contact information from a vCard, use the [ContactInformation](contactinformation.md) class.
 
 These APIs create or obtain a [StoredContact](storedcontact.md) object:
-+ [ContactStore.CreateMeContactAsync](contactstore_createmecontactasync.md)
-+ [ContactStore.FindContactByIdAsync](contactstore_findcontactbyidasync.md)
-+ [ContactStore.FindContactByRemoteIdAsync](contactstore_findcontactbyremoteidasync.md)
-+ [ContactQueryResult.GetContactsAsync](contactqueryresult_getcontactsasync.md) (returns a collection)
++ [ContactStore.CreateMeContactAsync](contactstore_createmecontactasync_367847777.md)
++ [ContactStore.FindContactByIdAsync](contactstore_findcontactbyidasync_682238637.md)
++ [ContactStore.FindContactByRemoteIdAsync](contactstore_findcontactbyremoteidasync_1811337011.md)
++ [ContactQueryResult.GetContactsAsync](contactqueryresult_getcontactsasync_1004597153.md) (returns a collection)
 
 
 ## -examples

@@ -19,7 +19,7 @@ See [Guidance on using the App Specific Hardware ID (ASHWID) to implement per-de
 > : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://go.microsoft.com/fwlink/p/?linkid=258275) and [Using Windows Runtime objects in a multithreaded environment (.NET)](http://go.microsoft.com/fwlink/p/?linkid=258277).
 
 ## -examples
-The following code shows how to get the hardware id of a device using [GetPackageSpecificToken](hardwareidentification_getpackagespecifictoken.md).
+The following code shows how to get the hardware id of a device using [GetPackageSpecificToken](hardwareidentification_getpackagespecifictoken_1192424865.md).
 
 ```csharp
 // nonce is an IBuffer object that would be sent from the cloud service.

@@ -14,7 +14,7 @@ Specifies the set of reasons that a [CoreWindow](corewindow.md) 's [Activated](c
 
 ## -enum-fields
 ### -field CodeActivated:0
-The window was activated by a call to [Activate](corewindow_activate.md).
+The window was activated by a call to [Activate](corewindow_activate_1797342875.md).
 
 ### -field Deactivated:1
 The window was deactivated.

@@ -11,7 +11,7 @@ public event Windows.Foundation.TypedEventHandler PrintTaskRequested<Windows.Gra
 # Windows.Graphics.Printing.PrintManager.PrintTaskRequested
 
 ## -description
-Raised when a request to print has occurred. This event may be triggered by user action or via programmatic invocation of printing via the [ShowPrintUIAsync](printmanager_showprintuiasync.md) method.
+Raised when a request to print has occurred. This event may be triggered by user action or via programmatic invocation of printing via the [ShowPrintUIAsync](printmanager_showprintuiasync_1397448831.md) method.
 
 ## -remarks
 When you add print capabilities to your UWP app, you have to implement an event handler to process this event when it is raised. Here is a JavaScript code snippet that shows how to handle this event:

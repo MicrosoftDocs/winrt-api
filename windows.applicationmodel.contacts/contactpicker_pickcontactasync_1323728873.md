@@ -16,7 +16,7 @@ Launches the Contact Picker to select a single contact.
 The operation that launches the Contact Picker.
 
 ## -remarks
-To pick multiple contacts at once, use [PickContactsAsync](contactpicker_pickcontactsasync.md).
+To pick multiple contacts at once, use [PickContactsAsync](contactpicker_pickcontactsasync_540067144.md).
 
 For info about how to select contacts, see [Selecting contacts](http://msdn.microsoft.com/library/35fedee6-2b0e-4391-84ba-5e9191d4e442) and [Quickstart: Selecting user contacts ](http://msdn.microsoft.com/library/1330470e-efd2-41e1-934e-08ec081ba3c2).
 

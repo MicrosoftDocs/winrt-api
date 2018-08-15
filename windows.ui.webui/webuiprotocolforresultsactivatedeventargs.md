@@ -10,7 +10,7 @@ public class WebUIProtocolForResultsActivatedEventArgs : Windows.ApplicationMode
 # Windows.UI.WebUI.WebUIProtocolForResultsActivatedEventArgs
 
 ## -description
-Describes the activation arguments when an app is launched via [LaunchUriForResultsAsync](../windows.system/launcher_launchuriforresultsasync.md).
+Describes the activation arguments when an app is launched via [LaunchUriForResultsAsync](../windows.system/launcher_launchuriforresultsasync_148601521.md).
 
 ## -remarks
 

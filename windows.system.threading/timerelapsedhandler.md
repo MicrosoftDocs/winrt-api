@@ -8,7 +8,7 @@ public delegate void TimerElapsedHandler(Windows.System.Threading.ThreadPoolTime
 # Windows.System.Threading.TimerElapsedHandler
 
 ## -description
-Represents a method that is called when a timer created with [CreateTimer](threadpooltimer_createtimer.md) or [CreatePeriodicTimer](threadpooltimer_createperiodictimer.md) expires.
+Represents a method that is called when a timer created with [CreateTimer](threadpooltimer_createtimer_1268637445.md) or [CreatePeriodicTimer](threadpooltimer_createperiodictimer_1185775417.md) expires.
 
 ## -parameters
 ### -param timer

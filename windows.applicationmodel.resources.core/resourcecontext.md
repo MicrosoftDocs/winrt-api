@@ -13,7 +13,7 @@ public class ResourceContext : Windows.ApplicationModel.Resources.Core.IResource
 Encapsulates all of the factors ([ResourceQualifier](resourcequalifier.md) s) that might affect resource selection.
 
 ## -remarks
-Resources can be sensitive to scale, and different views owned by an app are able to display simultaneously on different display devices, which might use different scales. For that reason, a [ResourceContext](resourcecontext.md) is generally associated with a specific view, and should be obtained using [GetForCurrentView](resourcecontext_getforcurrentview.md). (A view-independent **ResourceContext** can be obtained using [GetForViewIndependentUse](resourcecontext_getforviewindependentuse.md), but note that scale-dependent functionality will fail if invoked on a **ResourceContext** that is not associated with a view.)
+Resources can be sensitive to scale, and different views owned by an app are able to display simultaneously on different display devices, which might use different scales. For that reason, a [ResourceContext](resourcecontext.md) is generally associated with a specific view, and should be obtained using [GetForCurrentView](resourcecontext_getforcurrentview_1363600702.md). (A view-independent **ResourceContext** can be obtained using [GetForViewIndependentUse](resourcecontext_getforviewindependentuse_386169056.md), but note that scale-dependent functionality will fail if invoked on a **ResourceContext** that is not associated with a view.)
 
 Do not create an instance of [ResourceContext](resourcecontext.md) using the constructor, as it is deprecated and subject to removal in a future release.
 

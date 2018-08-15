@@ -13,7 +13,7 @@ public void Close()
 Closes the [HttpMultipartFormDataContent](httpmultipartformdatacontent.md) instance and releases allocated resources.
 
 ## -remarks
-The [Close](httpmultipartformdatacontent_close.md) method releases allocated resources used by the [HttpMultipartFormDataContent](httpmultipartformdatacontent.md) instance. The [Close](httpmultipartformdatacontent_close.md) method can manage the lifetime of system resources (memory for the [HttpMultipartFormDataContent](httpmultipartformdatacontent.md), for example) used by a Windows Runtime object.
+The [Close](httpmultipartformdatacontent_close_811482585.md) method releases allocated resources used by the [HttpMultipartFormDataContent](httpmultipartformdatacontent.md) instance. The [Close](httpmultipartformdatacontent_close_811482585.md) method can manage the lifetime of system resources (memory for the [HttpMultipartFormDataContent](httpmultipartformdatacontent.md), for example) used by a Windows Runtime object.
 
 In the .NET Framework 4.5, this method projects as the [Dispose](httpmultipartformdatacontent_dispose.md) method. In Visual C++ component extensions (C++/CX), this method projects as the destructor (delete operator).
 

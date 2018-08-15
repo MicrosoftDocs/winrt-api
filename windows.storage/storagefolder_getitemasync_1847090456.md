@@ -19,7 +19,7 @@ The name (or path relative to the current folder) of the file or folder to get.
 ## -returns
 When this method completes successfully, it returns an [IStorageItem](istorageitem.md) that represents the specified file or folder.
 
-To work with the returned item, call the [IsOfType](istorageitem_isoftype.md) method of the [IStorageItem](istorageitem.md) interface to determine whether the item is a file or a folder. Then cast the item to a [StorageFolder](storagefolder.md) or [StorageFile](storagefile.md).
+To work with the returned item, call the [IsOfType](istorageitem_isoftype_1417811226.md) method of the [IStorageItem](istorageitem.md) interface to determine whether the item is a file or a folder. Then cast the item to a [StorageFolder](storagefolder.md) or [StorageFile](storagefile.md).
 
 ## -exceptions
 ### System.IO.FileNotFoundException
@@ -35,11 +35,11 @@ You don't have permission to access the specified item.
 The path cannot be in Uri format (for example, /image.jpg). Check the value of *name*.
 
 ## -remarks
-Call the [IsOfType](istorageitem_isoftype.md) method of the [IStorageItem](istorageitem.md) interface to determine whether the returned item is a file or a folder.
+Call the [IsOfType](istorageitem_isoftype_1417811226.md) method of the [IStorageItem](istorageitem.md) interface to determine whether the returned item is a file or a folder.
 
-To get a specific file without casting the return value, call the [GetFileAsync](storagefolder_getfileasync.md) method. To get a specific folder without casting the return value, call the [GetFolderAsync](storagefolder_getfolderasync.md) method.
+To get a specific file without casting the return value, call the [GetFileAsync](storagefolder_getfileasync_703762627.md) method. To get a specific folder without casting the return value, call the [GetFolderAsync](storagefolder_getfolderasync_761626819.md) method.
 
-To try to get a file or folder by name, or to check whether a file or folder exists, without the need to handle a **FileNotFoundException**, call the [TryGetItemAsync](storagefolder_trygetitemasync.md) method.
+To try to get a file or folder by name, or to check whether a file or folder exists, without the need to handle a **FileNotFoundException**, call the [TryGetItemAsync](storagefolder_trygetitemasync_1863649689.md) method.
 
 ## -examples
 The following example shows how to get a single file or folder from the current folder by calling the [GetItemAsync](storagefolder_getitemsasync_1518547059.md) method. This example also shows how to get an item from a subfolder of the current folder by providing a relative path.

@@ -23,7 +23,7 @@ In most cases, we recommend that you get pointer info through the event argument
 
 If the event argument doesn't intrinsically expose the pointer details required by your app, you can get access to extended pointer data through the [GetCurrentPoint](../windows.ui.xaml/input/pointerroutedeventargs_getcurrentpoint.md) and [GetIntermediatePoints](../windows.ui.xaml/input/pointerroutedeventargs_getintermediatepoints.md) methods of [PointerRoutedEventArgs](../windows.ui.xaml/input/pointerroutedeventargs.md). Use these methods to specify the context of the pointer data.
 
-The static [PointerPoint](pointerpoint.md) methods, [GetCurrentPoint](pointerpoint_getcurrentpoint.md) and [GetIntermediatePoints](pointerpoint_getintermediatepoints.md), always use the app context.
+The static [PointerPoint](pointerpoint.md) methods, [GetCurrentPoint](pointerpoint_getcurrentpoint_131721878.md) and [GetIntermediatePoints](pointerpoint_getintermediatepoints_143894736.md), always use the app context.
 
 > [!NOTE]
 > : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://go.microsoft.com/fwlink/p/?linkid=258275) and [Using Windows Runtime objects in a multithreaded environment (.NET)](http://go.microsoft.com/fwlink/p/?linkid=258277).

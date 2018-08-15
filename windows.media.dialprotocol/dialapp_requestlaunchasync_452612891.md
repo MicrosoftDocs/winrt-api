@@ -21,7 +21,7 @@ Optional.
 Indicates the result of attempting to launch the app.
 
 ## -remarks
-This method must be called from the UI thread or an exception will be thrown. To dispatch the call to the UI thread from another thread, you can use [CoreDispatcher.RunAsync](../windows.ui.core/coredispatcher_runasync.md).
+This method must be called from the UI thread or an exception will be thrown. To dispatch the call to the UI thread from another thread, you can use [CoreDispatcher.RunAsync](../windows.ui.core/coredispatcher_runasync_447339746.md).
 
 ## -examples
 

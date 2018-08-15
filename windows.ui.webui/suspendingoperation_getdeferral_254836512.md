@@ -16,7 +16,7 @@ Requests that the app suspension operation be delayed.
 The suspension deferral.
 
 ## -remarks
-App suspension is delayed until the app calls the [SuspendingDeferral.complete](suspendingdeferral_complete.md) method or the deadline for suspension has passed.
+App suspension is delayed until the app calls the [SuspendingDeferral.complete](suspendingdeferral_complete_1807836922.md) method or the deadline for suspension has passed.
 
 Use the deferral to complete asynchronous operations, such as saving data to a file, before the system suspends your app.
 

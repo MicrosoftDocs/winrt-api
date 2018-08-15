@@ -13,7 +13,7 @@ public class MediaFrameSourceGetPropertyResult : Windows.Media.Capture.Frames.IM
 Represents the value of a [MediaFrameSource](mediaframesource.md) property, if it was successfully retrieved, and the result status of the get operation.
 
 ## -remarks
-Get an instance of **MediaFrameSourceGetPropertyResult** by calling [MediaFrameSourceController.GetPropertyAsync](mediaframesourcecontroller_getpropertyasync.md). Check the value of the [Status](mediaframesourcegetpropertyresult_status.md) property to determine if the get operation was successful.
+Get an instance of **MediaFrameSourceGetPropertyResult** by calling [MediaFrameSourceController.GetPropertyAsync](mediaframesourcecontroller_getpropertyasync_1561087689.md). Check the value of the [Status](mediaframesourcegetpropertyresult_status.md) property to determine if the get operation was successful.
 
 ## -examples
 

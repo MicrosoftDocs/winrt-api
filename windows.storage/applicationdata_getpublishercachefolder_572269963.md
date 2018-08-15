@@ -60,7 +60,7 @@ Manually enter XML similar to the following example in the app manifest to regis
 
 **To access data in the publisher's shared storage folder**
 
-Call the [GetPublisherCacheFolder](applicationdata_getpublishercachefolder.md) method to get one of the registered subfolders from the shared storage folder.
+Call the [GetPublisherCacheFolder](applicationdata_getpublishercachefolder_572269963.md) method to get one of the registered subfolders from the shared storage folder.
 
 Then use the properties and methods of the [StorageFolder](storagefolder.md) class to read and write files and subfolders in the shared folder.
 

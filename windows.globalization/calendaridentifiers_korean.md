@@ -24,7 +24,7 @@ The Korean calendar system recognizes only the current era.
 Leap years in the Korean calendar correspond to the same leap years in the Gregorian calendar. A leap year in the Gregorian calendar is defined as a Gregorian year that is evenly divisible by four, except if it is divisible by 100. However, Gregorian years that are divisible by 400 are leap years. A common year has 365 days and a leap year has 366 days.
 
 The Korean calendar has 12 months with 28 to 31 days each:<table>
-   <tr><th>[MonthAsNumericString](calendar_monthasnumericstring.md)</th><th>Month</th><th>Days in common years</th><th>Days in leap years</th></tr>
+   <tr><th>[MonthAsNumericString](calendar_monthasnumericstring_952914344.md)</th><th>Month</th><th>Days in common years</th><th>Days in leap years</th></tr>
    <tr><td>1</td><td>1월 (January)</td><td>31</td><td>31</td></tr>
    <tr><td>2</td><td>2월 (February)</td><td>28</td><td>29</td></tr>
    <tr><td>3</td><td>3월 (March)</td><td>31</td><td>31</td></tr>

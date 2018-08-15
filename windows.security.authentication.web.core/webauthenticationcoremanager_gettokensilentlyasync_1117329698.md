@@ -20,7 +20,7 @@ The web token request.
 When this method completes successfully, it returns the result of the web token request.
 
 ## -remarks
-Unlike [RequestTokenAsync](webauthenticationcoremanager_requesttokenasync.md), you may call this method from background threads.
+Unlike [RequestTokenAsync](webauthenticationcoremanager_requesttokenasync_1777535178.md), you may call this method from background threads.
 
 ## -examples
 

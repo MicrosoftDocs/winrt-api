@@ -13,7 +13,7 @@ public void SetDefaultMenuItems(Windows.Foundation.Collections.IIterable<Windows
 Specifies which built-in tools are shown on the [RadialController](radialcontroller.md) menu.
 
 > [!IMPORTANT]
-> When present, the [InkToolbar](../windows.ui.xaml.controls/inktoolbar.md) adds two custom tools to the [RadialController](radialcontroller.md) menu (pen and stroke size). These tools are not accessible through [RadialController](radialcontroller.md) APIs such as [Items](radialcontrollermenu_items.md) or [SetDefaultMenuItems](radialcontrollerconfiguration_setdefaultmenuitems.md).
+> When present, the [InkToolbar](../windows.ui.xaml.controls/inktoolbar.md) adds two custom tools to the [RadialController](radialcontroller.md) menu (pen and stroke size). These tools are not accessible through [RadialController](radialcontroller.md) APIs such as [Items](radialcontrollermenu_items.md) or [SetDefaultMenuItems](radialcontrollerconfiguration_setdefaultmenuitems_1318008085.md).
 
 ## -parameters
 ### -param buttons

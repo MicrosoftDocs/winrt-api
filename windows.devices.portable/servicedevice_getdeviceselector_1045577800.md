@@ -10,7 +10,7 @@ public string GetDeviceSelector(Windows.Devices.Portable.ServiceDeviceType servi
 # Windows.Devices.Portable.ServiceDevice.GetDeviceSelector
 
 ## -description
-Returns an Advanced Query Syntax (AQS) string that is used to enumerate device services of the specified [ServiceDeviceType](servicedevicetype.md). This string is passed to the [FindAllAsync](../windows.devices.enumeration/deviceinformation_findallasync.md) or [CreateWatcher](../windows.devices.enumeration/deviceinformation_createwatcher.md) method.
+Returns an Advanced Query Syntax (AQS) string that is used to enumerate device services of the specified [ServiceDeviceType](servicedevicetype.md). This string is passed to the [FindAllAsync](../windows.devices.enumeration/deviceinformation_findallasync_1257462890.md) or [CreateWatcher](../windows.devices.enumeration/deviceinformation_createwatcher_1506431823.md) method.
 
 ## -parameters
 ### -param serviceType

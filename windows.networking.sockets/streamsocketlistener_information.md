@@ -16,7 +16,7 @@ Gets socket information for the [StreamSocketListener](streamsocketlistener.md) 
 Socket information for the [StreamSocketListener](streamsocketlistener.md) object.
 
 ## -remarks
-The [Information](datagramsocket_bindendpointasync.md) property gets the [StreamSocketListenerInformation](streamsocketlistenerinformation.md) instance associated with a [StreamSocketListener](streamsocketlistener.md) object. The [Information](datagramsocket_bindendpointasync.md) instance can then be used to get information used by the [StreamSocketListener](streamsocketlistener.md). The only information data supported is the [LocalPort](streamsocketlistenerinformation_localport.md) property which represents the local TCP port number bound to the [StreamSocketListener](streamsocketlistener.md) object.
+The [Information](datagramsocket_bindendpointasync_1396029045.md) property gets the [StreamSocketListenerInformation](streamsocketlistenerinformation.md) instance associated with a [StreamSocketListener](streamsocketlistener.md) object. The [Information](datagramsocket_bindendpointasync_1396029045.md) instance can then be used to get information used by the [StreamSocketListener](streamsocketlistener.md). The only information data supported is the [LocalPort](streamsocketlistenerinformation_localport.md) property which represents the local TCP port number bound to the [StreamSocketListener](streamsocketlistener.md) object.
 
 ## -examples
 

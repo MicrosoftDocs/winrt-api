@@ -16,11 +16,11 @@ Asynchronously performs an advanced photo capture.
 An asynchronous operation that returns an [AdvancedCapturedPhoto](advancedcapturedphoto.md) upon successful completion.
 
 ## -remarks
-[MediaCapture.PrepareAdvancedPhotoCaptureAsync](mediacapture_prepareadvancedphotocaptureasync.md) must be called before calling **CaptureAsync**.
+[MediaCapture.PrepareAdvancedPhotoCaptureAsync](mediacapture_prepareadvancedphotocaptureasync_1274714827.md) must be called before calling **CaptureAsync**.
 
 Concurrently recording video and photo capture using [AdvancedPhotoCapture](advancedphotocapture.md) is not supported.
 
 ## -examples
 
 ## -see-also
-[MediaCapture.PrepareAdvancedPhotoCaptureAsync](mediacapture_prepareadvancedphotocaptureasync.md), [CaptureAsync(Object)](advancedphotocapture_captureasync_651770772.md)
+[MediaCapture.PrepareAdvancedPhotoCaptureAsync](mediacapture_prepareadvancedphotocaptureasync_1274714827.md), [CaptureAsync(Object)](advancedphotocapture_captureasync_651770772.md)

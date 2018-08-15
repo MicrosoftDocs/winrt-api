@@ -16,7 +16,7 @@ Retrieves a string that contains "DSA_SHA256".
 String that contains "DSA_SHA256".
 
 ## -remarks
-Use the string retrieved by this property to set the asymmetric algorithm name when you call the [OpenAlgorithm](asymmetrickeyalgorithmprovider_openalgorithm.md) method. The string represents a Digital Signature Algorithm (DSA) that uses the Secure Hashing Algorithm (SHA) to hash the message contents before signing. The length of the hash is 256 bits.
+Use the string retrieved by this property to set the asymmetric algorithm name when you call the [OpenAlgorithm](asymmetrickeyalgorithmprovider_openalgorithm_637226074.md) method. The string represents a Digital Signature Algorithm (DSA) that uses the Secure Hashing Algorithm (SHA) to hash the message contents before signing. The length of the hash is 256 bits.
 
 ## -examples
 

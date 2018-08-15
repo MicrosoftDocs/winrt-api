@@ -18,7 +18,7 @@ Cancels a message subscription.
 The subscription ID for the message.
 
 ## -remarks
-The subscription ID for a message subscription is returned from the [SubscribeForMessage](proximitydevice_subscribeformessage.md) method.
+The subscription ID for a message subscription is returned from the [SubscribeForMessage](proximitydevice_subscribeformessage_2022774312.md) method.
 
 ## -examples
 

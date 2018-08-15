@@ -10,7 +10,7 @@ virtual protected bool IsEnabledCore()
 # Windows.UI.Xaml.Automation.Peers.AutomationPeer.IsEnabledCore
 
 ## -description
-Provides the peer's behavior when a Microsoft UI Automation client calls [IsEnabled](automationpeer_isenabled.md) or an equivalent Microsoft UI Automation client API.
+Provides the peer's behavior when a Microsoft UI Automation client calls [IsEnabled](automationpeer_isenabled_180154405.md) or an equivalent Microsoft UI Automation client API.
 
 ## -returns
 **true** if the element can be interacted with; otherwise, **false**.

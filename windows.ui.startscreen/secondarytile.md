@@ -101,7 +101,7 @@ tile.requestCreateAsync().then(function (isCreated) {
 });
 ```
 
-The following example demonstrates how to delete (unpin) a secondary tile by using the [RequestDeleteAsync](secondarytile_requestdeleteasync_880835933.md) method. Note that this example assumes that the tile exists. To determine whether the tile is pinned before you call [RequestDeleteAsync](secondarytile_requestdeleteasync_880835933.md), see the [Exists](secondarytile_exists.md) method.
+The following example demonstrates how to delete (unpin) a secondary tile by using the [RequestDeleteAsync](secondarytile_requestdeleteasync_880835933.md) method. Note that this example assumes that the tile exists. To determine whether the tile is pinned before you call [RequestDeleteAsync](secondarytile_requestdeleteasync_880835933.md), see the [Exists](secondarytile_exists_1536819090.md) method.
 
 ```csharp
 // Check if the secondary tile is pinned
@@ -134,7 +134,7 @@ tileToBeDeleted.requestDeleteAsync().then(function (isDeleted) {
 });
 ```
 
-The following example demonstrates how to use the [FindAllForPackageAsync](secondarytile_findallforpackageasync.md) method to retrieve a list of IDs for all secondary tiles created for the calling app and any other app in the same package.
+The following example demonstrates how to use the [FindAllForPackageAsync](secondarytile_findallforpackageasync_2029224098.md) method to retrieve a list of IDs for all secondary tiles created for the calling app and any other app in the same package.
 
 ```csharp
 // Get all secondary tiles
@@ -151,7 +151,7 @@ Windows.UI.StartScreen.SecondaryTile.findAllForPackageAsync().done(function (til
 });
 ```
 
-The following example demonstrates how to use the [TileUpdateManager.createTileUpdaterForSecondaryTile](../windows.ui.notifications/tileupdatemanager_createtileupdaterforsecondarytile.md) method to send a notification to a secondary tile with an ID of "SecondaryTile.Dynamic". Note that the example provides both a wide and square version of the notification because the user has control over which form of the tile is showing.
+The following example demonstrates how to use the [TileUpdateManager.createTileUpdaterForSecondaryTile](../windows.ui.notifications/tileupdatemanager_createtileupdaterforsecondarytile_445640521.md) method to send a notification to a secondary tile with an ID of "SecondaryTile.Dynamic". Note that the example provides both a wide and square version of the notification because the user has control over which form of the tile is showing.
 
 ```csharp
 using NotificationsExtensions.TileContent;
@@ -198,7 +198,7 @@ var tileUpdater = notifications.TileUpdateManager.createTileUpdaterForSecondaryT
 tileUpdater.update(tileNotification);
 ```
 
-The following example demonstrates how to use the [BadgeUpdateManager.createBadgeUpdaterForSecondaryTile](../windows.ui.notifications/badgeupdatemanager_createbadgeupdaterforsecondarytile.md) method to send a numeric badge notification to a secondary tile with an ID of "SecondaryTile.Dynamic".
+The following example demonstrates how to use the [BadgeUpdateManager.createBadgeUpdaterForSecondaryTile](../windows.ui.notifications/badgeupdatemanager_createbadgeupdaterforsecondarytile_131286133.md) method to send a numeric badge notification to a secondary tile with an ID of "SecondaryTile.Dynamic".
 
 ```csharp
 using NotificationsExtensions.BadgeContent;

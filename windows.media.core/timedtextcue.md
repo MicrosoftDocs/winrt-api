@@ -13,7 +13,7 @@ public class TimedTextCue : Windows.Media.Core.IMediaCue, Windows.Media.Core.ITi
 Represents a text cue in a [TimedMetadataTrack](timedmetadatatrack.md).
 
 ## -remarks
-After creating a **TimeTextCue**, you can add it to a [TimedMetadataTrack](timedmetadatatrack.md) by calling [AddCue](timedmetadatatrack_addcue.md).
+After creating a **TimeTextCue**, you can add it to a [TimedMetadataTrack](timedmetadatatrack.md) by calling [AddCue](timedmetadatatrack_addcue_1989081881.md).
 
 ## -examples
 

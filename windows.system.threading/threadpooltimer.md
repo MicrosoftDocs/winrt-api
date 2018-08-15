@@ -10,13 +10,13 @@ public class ThreadPoolTimer : Windows.System.Threading.IThreadPoolTimer
 # Windows.System.Threading.ThreadPoolTimer
 
 ## -description
-Represents a timer created with [CreateTimer](threadpooltimer_createtimer.md) or [CreatePeriodicTimer](threadpooltimer_createperiodictimer.md).
+Represents a timer created with [CreateTimer](threadpooltimer_createtimer_1268637445.md) or [CreatePeriodicTimer](threadpooltimer_createperiodictimer_1185775417.md).
 
 > [!NOTE]
 > The ThreadPool API is supported for desktop as well as UWP apps.
 
 ## -remarks
-The [CreatePeriodicTimer](threadpooltimer_createperiodictimer.md) or [CreateTimer](threadpooltimer_createtimer.md) method can be used to create this object.
+The [CreatePeriodicTimer](threadpooltimer_createperiodictimer_1185775417.md) or [CreateTimer](threadpooltimer_createtimer_1268637445.md) method can be used to create this object.
 
 
 

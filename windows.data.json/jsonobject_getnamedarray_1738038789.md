@@ -10,7 +10,7 @@ public Windows.Data.Json.JsonArray GetNamedArray(System.String name, Windows.Dat
 # Windows.Data.Json.JsonObject.GetNamedArray
 
 ## -description
-Gets the [JsonArray](jsonarray_jsonarray.md) value with the specified name, or the provided default value if no such named value is found.
+Gets the [JsonArray](jsonarray_jsonarray_1221375020.md) value with the specified name, or the provided default value if no such named value is found.
 
 ## -parameters
 ### -param name

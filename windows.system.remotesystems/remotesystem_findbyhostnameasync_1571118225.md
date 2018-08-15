@@ -14,7 +14,7 @@ Attempts to discover a single remote system specified by the *HostName* paramete
 
 ## -parameters
 ### -param hostName
-A wrapper object for the address of a remote system to be discovered. For information on how to instantiate a , see the [HostName constructor](../windows.networking/hostname_hostname.md).
+A wrapper object for the address of a remote system to be discovered. For information on how to instantiate a , see the [HostName constructor](../windows.networking/hostname_hostname_290278668.md).
 
 ## -returns
 An asynchronous operation that returns the [RemoteSystem](remotesystem.md) that was found. Returns *null* if no  was found.

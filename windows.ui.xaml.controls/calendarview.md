@@ -73,7 +73,7 @@ This table lists the properties you can change to modify the appearance of calen
 
 By default, the month view shows 6 weeks at a time. You can change the number of weeks shown by setting the [NumberOfWeeksInView](calendarview_numberofweeksinview.md) property. The minimum number of weeks to show is 2; the maximum is 8.
 
-By default, the year and decade views show in a 4x4 grid. To change the number of rows or columns, call [SetYearDecadeDisplayDimensions](calendarview_setyeardecadedisplaydimensions.md) with the your desired number of rows and columns. This will change the grid for both the year and decade views.
+By default, the year and decade views show in a 4x4 grid. To change the number of rows or columns, call [SetYearDecadeDisplayDimensions](calendarview_setyeardecadedisplaydimensions_388826447.md) with the your desired number of rows and columns. This will change the grid for both the year and decade views.
 
 Here, the year and decade views are set to show in a 3x4 grid.
 
@@ -99,7 +99,7 @@ Each day in the calendar is represented by a [CalendarViewDayItem](calendarviewd
 
 You can make a day not selectable in the [CalendarView](calendarview.md) by setting its [CalendarViewDayItem.IsBlackout](calendarviewdayitem_isblackout.md) property to **true**.
 
-You can show contextual information about the density of events in a day by calling the [CalendarViewDayItem.SetDensityColors](calendarviewdayitem_setdensitycolors.md) method. You can show from 0 to 10 density bars for each day, and set the color of each bar.
+You can show contextual information about the density of events in a day by calling the [CalendarViewDayItem.SetDensityColors](calendarviewdayitem_setdensitycolors_669941734.md) method. You can show from 0 to 10 density bars for each day, and set the color of each bar.
 
 Here are some day items in a calendar. Days 1 and 2 are blacked out. Days 2, 3, and 4 have various density bars set.
 

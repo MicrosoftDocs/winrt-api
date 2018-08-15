@@ -15,7 +15,7 @@ Implements the [ISyndicationClient](isyndicationclient.md) interface which retri
 
 ## -remarks
 
-The following code demonstrates how to retrieve a feed using [RetrieveFeedAsync](syndicationclient_retrievefeedasync.md).
+The following code demonstrates how to retrieve a feed using [RetrieveFeedAsync](syndicationclient_retrievefeedasync_2072117461.md).
 
 ```javascript
 function GetFeed(feedUri) {

@@ -10,7 +10,7 @@ public enum Windows.UI.Xaml.Automation.Peers.AutomationEvents : int
 # AutomationEvents
 
 ## -description
-Specifies the event that is raised by the element through the associated [AutomationPeer](automationpeer.md). Used by [RaiseAutomationEvent](automationpeer_raiseautomationevent.md).
+Specifies the event that is raised by the element through the associated [AutomationPeer](automationpeer.md). Used by [RaiseAutomationEvent](automationpeer_raiseautomationevent_2027563412.md).
 
 ## -enum-fields
 ### -field ToolTipOpened:0
@@ -26,19 +26,19 @@ The event that is raised when a menu is opened.
 The event that is raised when a menu is closed.
 
 ### -field AutomationFocusChanged:4
-The event that is raised when the focus has changed. See [SetFocus](automationpeer_setfocus.md).
+The event that is raised when the focus has changed. See [SetFocus](automationpeer_setfocus_192955311.md).
 
 ### -field InvokePatternOnInvoked:5
-The event that is raised when a control is activated. See [Invoke](buttonautomationpeer_invoke.md).
+The event that is raised when a control is activated. See [Invoke](buttonautomationpeer_invoke_1893356988.md).
 
 ### -field SelectionItemPatternOnElementAddedToSelection:6
-The event that is raised when an item is added to a collection of selected items. See [AddToSelection](radiobuttonautomationpeer_addtoselection.md).
+The event that is raised when an item is added to a collection of selected items. See [AddToSelection](radiobuttonautomationpeer_addtoselection_1271464825.md).
 
 ### -field SelectionItemPatternOnElementRemovedFromSelection:7
-The event that is raised when an item is removed from a collection of selected items. See [RemoveFromSelection](radiobuttonautomationpeer_removefromselection.md).
+The event that is raised when an item is removed from a collection of selected items. See [RemoveFromSelection](radiobuttonautomationpeer_removefromselection_1451724986.md).
 
 ### -field SelectionItemPatternOnElementSelected:8
-The event that is raised when a single item is selected (which clears any previous selection). See [Select](radiobuttonautomationpeer_select.md).
+The event that is raised when a single item is selected (which clears any previous selection). See [Select](radiobuttonautomationpeer_select_431777312.md).
 
 ### -field SelectionPatternOnInvalidated:9
 The event that is raised when a selection in a container has changed significantly.
@@ -109,4 +109,4 @@ The event that is raised when the window layout has become invalidated. This eve
 ## -examples
 
 ## -see-also
-[RaiseAutomationEvent](automationpeer_raiseautomationevent.md), [Custom automation peers](http://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4)
+[RaiseAutomationEvent](automationpeer_raiseautomationevent_2027563412.md), [Custom automation peers](http://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4)

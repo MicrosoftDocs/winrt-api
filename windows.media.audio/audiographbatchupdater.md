@@ -10,10 +10,10 @@ public class AudioGraphBatchUpdater : Windows.Foundation.IClosable
 # Windows.Media.Audio.AudioGraphBatchUpdater
 
 ## -description
-An object that, upon creation with [CreateBatchUpdater](audiograph_createbatchupdater.md), causes all subsequent modifications to all nodes in an [AudioGraph](audiograph.md) to be accumulated and then committed once your app closes or disposes of the batch updater object.
+An object that, upon creation with [CreateBatchUpdater](audiograph_createbatchupdater_98890190.md), causes all subsequent modifications to all nodes in an [AudioGraph](audiograph.md) to be accumulated and then committed once your app closes or disposes of the batch updater object.
 
 ## -remarks
-Get an instance of this class by calling [AudioGraph.CreateBatchUpdater](audiograph_createbatchupdater.md).
+Get an instance of this class by calling [AudioGraph.CreateBatchUpdater](audiograph_createbatchupdater_98890190.md).
 
 ## -examples
 

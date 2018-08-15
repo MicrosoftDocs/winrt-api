@@ -13,7 +13,7 @@ public class AdvancedPhotoCaptureSettings : Windows.Media.Devices.IAdvancedPhoto
 Represents settings for an [AdvancedPhotoControl](advancedphotocontrol.md) object.
 
 ## -remarks
-Use this class to configure an instance of the [AdvancedPhotoControl](advancedphotocontrol.md) class by passing it into the [AdvancedPhotoControl.Configure](advancedphotocontrol_configure.md) method.
+Use this class to configure an instance of the [AdvancedPhotoControl](advancedphotocontrol.md) class by passing it into the [AdvancedPhotoControl.Configure](advancedphotocontrol_configure_232907878.md) method.
 
 For how-to guidance on using [AdvancedPhotoCapture](../windows.media.capture/advancedphotocapture.md), see [High dynamic range (HDR) and low-light photo capture](https://msdn.microsoft.com/en-us/windows/uwp/audio-video-camera/high-dynamic-range-hdr-photo-capture).
 

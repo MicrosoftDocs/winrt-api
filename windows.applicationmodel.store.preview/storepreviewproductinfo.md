@@ -13,7 +13,7 @@ public class StorePreviewProductInfo : Windows.ApplicationModel.Store.Preview.IS
 Provides information about an in-app product, including details about available SKUs.
 
 ## -remarks
-To retrieve an instance of this class for the current app, use the [LoadAddOnProductInfosAsync](storepreview_loadaddonproductinfosasync.md) method of the [StorePreview](storepreview.md) class.
+To retrieve an instance of this class for the current app, use the [LoadAddOnProductInfosAsync](storepreview_loadaddonproductinfosasync_1961632920.md) method of the [StorePreview](storepreview.md) class.
 
 ## -examples
 

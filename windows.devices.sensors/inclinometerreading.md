@@ -13,7 +13,7 @@ public class InclinometerReading : Windows.Devices.Sensors.IInclinometerReading,
 Represents an inclinometer reading.
 
 ## -remarks
-This object is accessed when you invoke the [GetCurrentReading](inclinometer_getcurrentreading.md) method; and, it is accessed when you retrieve the [Reading](inclinometerreadingchangedeventargs_reading.md) property of the [InclinometerReadingChangedEventArgs](inclinometerreadingchangedeventargs.md) object in the event callback method.
+This object is accessed when you invoke the [GetCurrentReading](inclinometer_getcurrentreading_1416488181.md) method; and, it is accessed when you retrieve the [Reading](inclinometerreadingchangedeventargs_reading.md) property of the [InclinometerReadingChangedEventArgs](inclinometerreadingchangedeventargs.md) object in the event callback method.
 
 ## -examples
 

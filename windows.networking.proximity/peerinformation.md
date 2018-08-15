@@ -14,7 +14,7 @@ public class PeerInformation : Windows.Networking.Proximity.IPeerInformation, Wi
 Contains information that identifies a peer.
 
 ## -remarks
-A [PeerInformation](peerinformation.md) instance is created when you call the [FindAllPeersAsync](peerfinder_findallpeersasync.md) method, and then passed to the [ConnectionRequested](peerfinder_connectionrequested.md) event. You can pass that instance to the [ConnectAsync](peerfinder_connectasync.md) method to accept a connection request from a peer.
+A [PeerInformation](peerinformation.md) instance is created when you call the [FindAllPeersAsync](peerfinder_findallpeersasync_830195586.md) method, and then passed to the [ConnectionRequested](peerfinder_connectionrequested.md) event. You can pass that instance to the [ConnectAsync](peerfinder_connectasync_380619906.md) method to accept a connection request from a peer.
 
 ## -examples
 

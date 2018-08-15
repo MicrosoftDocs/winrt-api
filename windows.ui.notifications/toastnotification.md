@@ -17,7 +17,7 @@ Defines the content, associated metadata and events, and expiration time of a to
 A desktop app must subscribe to at least the [Activated](toastnotification_activated.md) event to handle activation.
 
 ## -examples
-The following example shows how to create and send a toast notification that includes text and images, including use of the [ToastNotification](toastnotification_toastnotification.md) constructor.
+The following example shows how to create and send a toast notification that includes text and images, including use of the [ToastNotification](toastnotification_toastnotification_93177318.md) constructor.
 
 ```javascript
 

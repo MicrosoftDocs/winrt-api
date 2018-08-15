@@ -14,7 +14,7 @@ public Windows.UI.Input.Inking.InkStroke CreateStrokeFromInkPoints(Windows.Found
 Creates a basic ink stroke from collection of [InkPoint](inkpoint.md) objects.
 
 > [!NOTE]
-> Use [CreateStrokeFromInkPoints](inkstrokebuilder_createstrokefrominkpoints.md) and [SetDefaultDrawingAttributes](inkstrokebuilder_setdefaultdrawingattributes.md) to programmatically build strokes for an [InkPresenter](inkpresenter.md).
+> Use [CreateStrokeFromInkPoints](inkstrokebuilder_createstrokefrominkpoints_2009821049.md) and [SetDefaultDrawingAttributes](inkstrokebuilder_setdefaultdrawingattributes_1436218448.md) to programmatically build strokes for an [InkPresenter](inkpresenter.md).
 
 ## -parameters
 ### -param inkPoints

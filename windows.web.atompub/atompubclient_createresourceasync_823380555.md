@@ -10,7 +10,7 @@ public Windows.Foundation.IAsyncOperationWithProgress<Windows.Web.Syndication.Sy
 # Windows.Web.AtomPub.AtomPubClient.CreateResourceAsync
 
 ## -description
-Creates a new Entry resource in the specified collection. The Uri of the collection in which to create the new resource can be discovered from the [ResourceCollection](resourcecollection.md) object retrieved from the [RetrieveResourceAsync](atompubclient_retrieveresourceasync.md) method.
+Creates a new Entry resource in the specified collection. The Uri of the collection in which to create the new resource can be discovered from the [ResourceCollection](resourcecollection.md) object retrieved from the [RetrieveResourceAsync](atompubclient_retrieveresourceasync_1946100714.md) method.
 
 ## -parameters
 ### -param uri
@@ -72,7 +72,7 @@ The following code demonstrates how to access a service document and retrieve ed
 ```
 
 > [!NOTE]
-> See [RetrieveServiceDocumentAsync](atompubclient_retrieveservicedocumentasync.md) for the code behind the **findEditUri** function called in this example.
+> See [RetrieveServiceDocumentAsync](atompubclient_retrieveservicedocumentasync_1639649532.md) for the code behind the **findEditUri** function called in this example.
 
 ## -see-also
 [Quickstart: Managing Feed Entries](http://msdn.microsoft.com/library/239d42bc-5812-4ead-a91c-b3696fc3ef75), [AtomPub sample](http://go.microsoft.com/fwlink/p/?linkid=245061)

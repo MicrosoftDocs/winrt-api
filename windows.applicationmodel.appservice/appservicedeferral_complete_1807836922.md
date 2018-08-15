@@ -17,4 +17,4 @@ Indicates that the content for an asynchronous handler for the [AppServiceConnec
 ## -examples
 
 ## -see-also
-[AppServiceRequestReceivedEventArgs.GetDeferral](appservicerequestreceivedeventargs_getdeferral.md), [AppServiceConnection.RequestReceived](appserviceconnection_requestreceived.md)
+[AppServiceRequestReceivedEventArgs.GetDeferral](appservicerequestreceivedeventargs_getdeferral_254836512.md), [AppServiceConnection.RequestReceived](appserviceconnection_requestreceived.md)

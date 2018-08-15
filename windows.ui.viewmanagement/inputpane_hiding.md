@@ -13,7 +13,7 @@ public event Windows.Foundation.TypedEventHandler Hiding<Windows.UI.ViewManageme
 Occurs when the input pane starts sliding out of view.
 
 ## -remarks
-The system associates the input pane with the application window that was visible when you called the [GetForCurrentView](inputpane_getforcurrentview.md) method. This implies that you must create a new input pane object and register for the [Showing](inputpane_showing.md) event each time you create a new window. You can use the [Hiding](inputpane_hiding.md) event to undo changes you may have made to your app's layout during the [Showing](inputpane_showing.md) event.
+The system associates the input pane with the application window that was visible when you called the [GetForCurrentView](inputpane_getforcurrentview_1363600702.md) method. This implies that you must create a new input pane object and register for the [Showing](inputpane_showing.md) event each time you create a new window. You can use the [Hiding](inputpane_hiding.md) event to undo changes you may have made to your app's layout during the [Showing](inputpane_showing.md) event.
 
 When the system calls your event handler, the input pane has not started to slide out of view. After your event handler returns, the input pane starts to slide out of view. If your event handler doesn't respond quickly enough (within 200 milliseconds), the input pane starts to slide out of view without waiting for your event handler to return.
 

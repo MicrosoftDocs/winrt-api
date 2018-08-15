@@ -16,7 +16,7 @@ Gets a collection of [StateTriggerBase](statetriggerbase.md) objects that indica
 A collection of [StateTriggerBase](statetriggerbase.md) objects. The default is an empty collection.
 
 ## -remarks
-Use this property to create rules in XAML that specify when a particular [VisualState](visualstate.md) is to be applied. You use [StateTriggers](visualstate_statetriggers.md) directly in your XAML markup instead of calling [VisualStateManager.GoToState](visualstatemanager_gotostate.md) in your code.
+Use this property to create rules in XAML that specify when a particular [VisualState](visualstate.md) is to be applied. You use [StateTriggers](visualstate_statetriggers.md) directly in your XAML markup instead of calling [VisualStateManager.GoToState](visualstatemanager_gotostate_443481648.md) in your code.
 
 You can use the built-in [AdaptiveTrigger](adaptivetrigger.md) to create rules based on window size, which is useful for creating responsive UI. You can also extend [StateTriggerBase](statetriggerbase.md) to create your own custom triggers and use them within the [StateTriggers](visualstate_statetriggers.md) property.
 

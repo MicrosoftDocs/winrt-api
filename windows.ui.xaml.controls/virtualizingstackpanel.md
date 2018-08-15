@@ -40,7 +40,7 @@ Arranges and virtualizes content on a single line that is oriented either horizo
 
 [VirtualizingStackPanel.VirtualizationMode](virtualizingstackpanel_virtualizationmode.md) is an Extensible Application Markup Language (XAML) attached property, and child elements set this property in markup to declare how the item should be virtualized when included as a [VirtualizingStackPanel](virtualizingstackpanel.md) child element.
 
-**VirtualizingStackPanel.IsVirtualizing** uses the attached property model as a property store, but does not support a Extensible Application Markup Language (XAML) usage. Instead, the property serves as a sentinel that any [VirtualizingStackPanel](virtualizingstackpanel.md) child element can check to determine whether that child is currently being represented as virtualized. To find out if an item is being virtualized, call [GetIsVirtualizing](virtualizingstackpanel_getisvirtualizing.md), passing the item as the input parameter.
+**VirtualizingStackPanel.IsVirtualizing** uses the attached property model as a property store, but does not support a Extensible Application Markup Language (XAML) usage. Instead, the property serves as a sentinel that any [VirtualizingStackPanel](virtualizingstackpanel.md) child element can check to determine whether that child is currently being represented as virtualized. To find out if an item is being virtualized, call [GetIsVirtualizing](virtualizingstackpanel_getisvirtualizing_1946654319.md), passing the item as the input parameter.
 
 ## -examples
 

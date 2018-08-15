@@ -13,7 +13,7 @@ public class DownloadOperation : Windows.Networking.BackgroundTransfer.IBackgrou
 Performs an asynchronous download operation. The [Background Transfer  sample](http://go.microsoft.com/fwlink/p/?linkid=245064) demonstrates this functionality. For an overview of Background Transfer capabilities, see [Transferring data in the background](http://msdn.microsoft.com/library/9e2ed5b4-af57-456a-884f-1e1d2136a8e8). Download the [Background Transfer sample](http://go.microsoft.com/fwlink/p/?linkid=245064) for examples in JavaScript, C#, and C++.
 
 ## -remarks
-After app termination, an app should enumerate all existing [DownloadOperation](downloadoperation.md) instances at next start-up using [GetCurrentDownloadsAsync](backgrounddownloader_getcurrentdownloadsasync.md). When a UWP app using Background Transfer is terminated, incomplete downloads will persist in the background. If the app is restarted after termination and these incomplete operations are not enumerated and re-introduced to the current session, they will go stale and continue to occupy device resources.
+After app termination, an app should enumerate all existing [DownloadOperation](downloadoperation.md) instances at next start-up using [GetCurrentDownloadsAsync](backgrounddownloader_getcurrentdownloadsasync_1101292265.md). When a UWP app using Background Transfer is terminated, incomplete downloads will persist in the background. If the app is restarted after termination and these incomplete operations are not enumerated and re-introduced to the current session, they will go stale and continue to occupy device resources.
 
 Background transfer doesn't support concurrent downloads of the same [Uri](../windows.foundation/uri.md). So an app can download *http://example.com/myfile.wmv* once, or download it again after a previous download completed. An app shouldn't start two downloads of the same [Uri](../windows.foundation/uri.md) concurrently, since this may result in truncated files.
 
@@ -31,7 +31,7 @@ Assuming there is Internet connectivity, Background Transfer will retry a downlo
 
 Stopping a debugging session in Microsoft Visual Studio is comparable to closing your app; downloads are paused and POST uploads are terminated. Even while debugging, your app should enumerate and then pause, resume, restart, or cancel any persisted downloads.
 
-However, if Microsoft Visual Studio project updates, like changes to the app manifest, require that the app is uninstalled and re-deployed for debugging, [GetCurrentDownloadsAsync](backgrounddownloader_getcurrentdownloadsasync.md) cannot enumerate persisted operations created using the previous app deployment.
+However, if Microsoft Visual Studio project updates, like changes to the app manifest, require that the app is uninstalled and re-deployed for debugging, [GetCurrentDownloadsAsync](backgrounddownloader_getcurrentdownloadsasync_1101292265.md) cannot enumerate persisted operations created using the previous app deployment.
 
 ## -examples
 The following example demonstrates how to configure and begin a basic download operation, and is based on the [Background Transfer sample](http://go.microsoft.com/fwlink/p/?linkid=245064) offered in the Windows Sample Gallery.

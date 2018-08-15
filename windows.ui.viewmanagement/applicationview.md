@@ -23,7 +23,7 @@ Each window has a corresponding [CoreWindow](../windows.ui.core/corewindow.md) t
 
 You can use the properties (or methods, for JavaScript) of the window in configuring your pages. For example: the [Orientation](applicationview_orientation.md) property tells you whether the window is portrait or landscape; for Windows the [AdjacentToLeftDisplayEdge](applicationview_adjacenttoleftdisplayedge.md) property tells you whether the left edge of the screen is the left border of the window; and the [isFullScreen](applicationview_isfullscreen.md) method tells you whether the window uses the entire screen. For examples of using these methods, see the [Application Views](http://code.msdn.microsoft.com/windowsapps/Application-Views-98825022) sample.
 
-To obtain an object of this type, call [ApplicationView.GetForCurrentView](applicationview_getforcurrentview.md).
+To obtain an object of this type, call [ApplicationView.GetForCurrentView](applicationview_getforcurrentview_1363600702.md).
 
 > [!NOTE]
 > Do not use the value returned in the [ ApplicationView.Value](applicationview_value.md) property when creating a page layout. This method is deprecated and may not be available in future releases.

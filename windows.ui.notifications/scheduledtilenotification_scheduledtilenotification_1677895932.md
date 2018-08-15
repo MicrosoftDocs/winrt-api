@@ -23,7 +23,7 @@ The time at which the tile should be updated with the notification information.
 ## -remarks
 
 ## -examples
-The following example, which shows a tile scheduled to display in one hour, includes the use of the [ScheduledTileNotification](scheduledtilenotification_scheduledtilenotification.md) constructor to create the notification object.
+The following example, which shows a tile scheduled to display in one hour, includes the use of the [ScheduledTileNotification](scheduledtilenotification_scheduledtilenotification_1677895932.md) constructor to create the notification object.
 
 ```javascript
 

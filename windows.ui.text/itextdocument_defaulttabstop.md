@@ -21,4 +21,4 @@ The default tab spacing is used whenever no tab exists beyond the desired displa
 ## -examples
 
 ## -see-also
-[ITextParagraphFormat.AddTab](itextparagraphformat_addtab.md), [ITextParagraphFormat.ClearAllTabs](itextparagraphformat_clearalltabs.md), [ITextParagraphFormat.DeleteTab](itextparagraphformat_deletetab.md), [ITextParagraphFormat.GetTab](itextparagraphformat_gettab.md), [ITextParagraphFormat.ListTab](itextparagraphformat_listtab.md), [ITextParagraphFormat.TabCount](itextparagraphformat_tabcount.md)
+[ITextParagraphFormat.AddTab](itextparagraphformat_addtab_1762045005.md), [ITextParagraphFormat.ClearAllTabs](itextparagraphformat_clearalltabs_28978480.md), [ITextParagraphFormat.DeleteTab](itextparagraphformat_deletetab_937922036.md), [ITextParagraphFormat.GetTab](itextparagraphformat_gettab_939731864.md), [ITextParagraphFormat.ListTab](itextparagraphformat_listtab.md), [ITextParagraphFormat.TabCount](itextparagraphformat_tabcount.md)

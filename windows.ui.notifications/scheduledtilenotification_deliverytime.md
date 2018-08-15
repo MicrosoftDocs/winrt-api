@@ -17,7 +17,7 @@ Gets the time at which the tile is scheduled to be updated.
 The date and time that the notification will be updated.
 
 ## -remarks
-This value is set when the [ScheduledTileNotification](scheduledtilenotification.md) is created. For the tile to be updated at the specified time, the notification must be added to the schedule through the [TileUpdater.addToSchedule](tileupdater_addtoschedule.md) method.
+This value is set when the [ScheduledTileNotification](scheduledtilenotification.md) is created. For the tile to be updated at the specified time, the notification must be added to the schedule through the [TileUpdater.addToSchedule](tileupdater_addtoschedule_1446725541.md) method.
 
 ## -examples
 

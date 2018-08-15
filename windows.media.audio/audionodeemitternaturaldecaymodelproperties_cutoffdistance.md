@@ -10,7 +10,7 @@ public double CutoffDistance { get; }
 # Windows.Media.Audio.AudioNodeEmitterNaturalDecayModelProperties.CutoffDistance
 
 ## -description
-Gets a value indicating the distance at which the gain reaches the minimum gain value specified when the model was created with a call to [AudioNodeEmitterDecayModel.CreateNatural](audionodeemitterdecaymodel_createnatural.md).
+Gets a value indicating the distance at which the gain reaches the minimum gain value specified when the model was created with a call to [AudioNodeEmitterDecayModel.CreateNatural](audionodeemitterdecaymodel_createnatural_887095524.md).
 
 ## -property-value
 A value indicating the distance at which the gain reaches the model's minimum gain value.

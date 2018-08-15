@@ -13,7 +13,7 @@ public class LineDisplay : IClosable
 Represents a line display device.
 
 ## -remarks
-This object is created when a [GetDefaultAsync](linedisplay_getdefaultasync.md) or [FromIdAsync](linedisplay_fromidasync.md) method completes.
+This object is created when a [GetDefaultAsync](linedisplay_getdefaultasync_1549573963.md) or [FromIdAsync](linedisplay_fromidasync_1322863552.md) method completes.
 
 See the [line display sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/LineDisplay) for an example implementation.
 

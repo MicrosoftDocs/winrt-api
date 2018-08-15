@@ -14,7 +14,7 @@ Provides access to Play To capabilities.
 
 ## -remarks
 
-If your application includes audio, video, or image elements, users can stream the media source for those elements to a Play To target device. You can use the [PlayToManager](playtomanager.md) class to customize the Play To experience for users. You can disable the default behavior by using the [DefaultSourceSelection](playtomanager_defaultsourceselection.md) property.You can select which media is streamed by using the [SourceRequested](playtomanager_sourcerequested.md) event. And you can display the Play To UI in place of the **Devices** charm by using the [ShowPlayToUI](playtomanager_showplaytoui.md) method.
+If your application includes audio, video, or image elements, users can stream the media source for those elements to a Play To target device. You can use the [PlayToManager](playtomanager.md) class to customize the Play To experience for users. You can disable the default behavior by using the [DefaultSourceSelection](playtomanager_defaultsourceselection.md) property.You can select which media is streamed by using the [SourceRequested](playtomanager_sourcerequested.md) event. And you can display the Play To UI in place of the **Devices** charm by using the [ShowPlayToUI](playtomanager_showplaytoui_77103824.md) method.
 
 In Play To, video starts from the current position. If you want to start the video from the beginning, simply seek to the beginning of the video as soon as the Play To connection is established.
 

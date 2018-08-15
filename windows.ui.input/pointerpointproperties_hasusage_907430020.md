@@ -25,7 +25,7 @@ True if the input data includes usage information; otherwise false.
 ## -remarks
 [PointerPoint](pointerpoint.md) and [PointerPointProperties](pointerpointproperties.md) expose common Human Interface Device (HID) usages directly.
 
-Use [HasUsage](pointerpointproperties_hasusage.md) to query for additional, custom, and device-specific usages or when you need to verify that a device actually supports a property (where [PointerPoint](pointerpoint.md) and [PointerPointProperties](pointerpointproperties.md) return a default value).
+Use [HasUsage](pointerpointproperties_hasusage_907430020.md) to query for additional, custom, and device-specific usages or when you need to verify that a device actually supports a property (where [PointerPoint](pointerpoint.md) and [PointerPointProperties](pointerpointproperties.md) return a default value).
 
 The following table lists the Human Interface Device (HID) usages that are exposed directly through [PointerPoint](pointerpoint.md) and [PointerPointProperties](pointerpointproperties.md).
 
@@ -54,4 +54,4 @@ The following table lists the Human Interface Device (HID) usages that are expos
 ## -examples
 
 ## -see-also
-[GetUsageValue](pointerpointproperties_getusagevalue.md), [HID Information](http://go.microsoft.com/fwlink/p/?linkid=233148)
+[GetUsageValue](pointerpointproperties_getusagevalue_1941837333.md), [HID Information](http://go.microsoft.com/fwlink/p/?linkid=233148)

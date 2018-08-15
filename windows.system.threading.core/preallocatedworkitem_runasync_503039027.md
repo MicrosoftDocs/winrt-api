@@ -16,7 +16,7 @@ Submits the preallocated work item to the thread pool, without requiring any add
 Provides access to the running [IAsyncAction](../windows.foundation/iasyncaction.md) that was previously constructed and given the necessary resource allocation.
 
 ## -remarks
-For information about how [IAsyncAction](../windows.foundation/iasyncaction.md) applies to work items, see [Windows.System.Threading.RunAsync](../windows.system.threading/threadpool_runasync.md).
+For information about how [IAsyncAction](../windows.foundation/iasyncaction.md) applies to work items, see [Windows.System.Threading.RunAsync](../windows.system.threading/threadpool_runasync_514988780.md).
 
 ## -examples
 

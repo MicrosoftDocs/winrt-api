@@ -17,7 +17,7 @@ Represents the thumbnail image associated with a system resource (like a file or
 
 You can get thumbnails for many file system resources through the Windows Runtime objects that represent them. Many of these objects have methods or properties that let you get (and sometimes set) a [StorageItemThumbnail](storageitemthumbnail.md) that represents the thumbnail associated with a particular resource.
 
-To find out how to get thumbnail for a particular Windows Runtime object, see the documentation for that object. For example, to get a thumbnail for a file you can call one of the [StorageFile.getThumbnailAsync](../windows.storage/storagefile_getthumbnailasync.md) methods, or to get a thumbnail for a contact you can use the [Contact.thumbnail](../windows.applicationmodel.contacts/contact_thumbnail.md) property.
+To find out how to get thumbnail for a particular Windows Runtime object, see the documentation for that object. For example, to get a thumbnail for a file you can call one of the [StorageFile.getThumbnailAsync](../windows.storage/storagefile_getthumbnailasync_1511435522.md) methods, or to get a thumbnail for a contact you can use the [Contact.thumbnail](../windows.applicationmodel.contacts/contact_thumbnail.md) property.
 
 For more code samples about retrieving thumbnails, see the [Folder enumeration sample](http://go.microsoft.com/fwlink/p/?linkid=231512) and the [File thumbnails sample](http://go.microsoft.com/fwlink/p/?linkid=231522).
 
@@ -70,7 +70,7 @@ query.getFilesAsync().done(function (files) {
 });
 ```
 
-After [GetThumbnailAsync](../windows.storage/storagefile_getthumbnailasync.md) completes, thumbnail gets a [StorageItemThumbnail](storageitemthumbnail.md) object.
+After [GetThumbnailAsync](../windows.storage/storagefile_getthumbnailasync_1511435522.md) completes, thumbnail gets a [StorageItemThumbnail](storageitemthumbnail.md) object.
 
 In the example, the `file` variable gets a [StorageFile](../windows.storage/storagefile.md) that represents each file that we want to retrieve a thumbnail for. We used a query to obtain [StorageFile](../windows.storage/storagefile.md) objects for these files (stored in the `file` variable), but you can use whatever approach is best for your app to obtain [StorageFile](../windows.storage/storagefile.md) objects (like through the file picker).
 

@@ -16,7 +16,7 @@ Gets hashed data from the [CryptographicHash](cryptographichash.md) object and r
 Hashed data.
 
 ## -remarks
-Call the [Append](cryptographichash_append.md) method to add data to the [CryptographicHash](cryptographichash.md) object.
+Call the [Append](cryptographichash_append_1115721057.md) method to add data to the [CryptographicHash](cryptographichash.md) object.
 
 ## -examples
 

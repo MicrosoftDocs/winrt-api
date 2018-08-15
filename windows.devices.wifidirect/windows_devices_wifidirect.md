@@ -11,7 +11,7 @@ Contains classes that support connecting to associated Wi-Fi Direct devices and 
 
 ## -remarks
 
-You can use the [WiFiDirectDevice](wifidirectdevice.md) class to establish a socket connection with other devices that have a Wi-Fi Direct (WFD) capable device. You can call the [GetDeviceSelector](wifidirectdevice_getdeviceselector.md) method to get the device identifier for a Wi-Fi Direct device. Once you have a reference to a [WiFiDirectDevice](wifidirectdevice.md) on your computer, you can call the [GetConnectionEndpointPairs](wifidirectdevice_getconnectionendpointpairs.md) method to get an [EndpointPair](../windows.networking/endpointpair.md) object and establish a socket connection using classes in the [Windows.Networking.Sockets](../windows.networking.sockets/windows_networking_sockets.md) namespace.
+You can use the [WiFiDirectDevice](wifidirectdevice.md) class to establish a socket connection with other devices that have a Wi-Fi Direct (WFD) capable device. You can call the [GetDeviceSelector](wifidirectdevice_getdeviceselector_185243134.md) method to get the device identifier for a Wi-Fi Direct device. Once you have a reference to a [WiFiDirectDevice](wifidirectdevice.md) on your computer, you can call the [GetConnectionEndpointPairs](wifidirectdevice_getconnectionendpointpairs_1958888015.md) method to get an [EndpointPair](../windows.networking/endpointpair.md) object and establish a socket connection using classes in the [Windows.Networking.Sockets](../windows.networking.sockets/windows_networking_sockets.md) namespace.
 
 You can add a handler for the [ConnectionStatusChanged](wifidirectdevice_connectionstatuschanged.md) event to be notified when the connection has been established or disconnected.
 

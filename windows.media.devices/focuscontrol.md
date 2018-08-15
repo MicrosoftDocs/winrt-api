@@ -21,7 +21,7 @@ You can access the [FocusControl](focuscontrol.md) for the capture device throug
 
 The [FocusControl](focuscontrol.md) gives apps additional control over the focus settings on a device.
 
-You can use one of the [FocusPreset](focuspreset.md) values by calling [SetPresetAsync](focuscontrol_setpresetasync.md). Or call [SetValueAsync](focuscontrol_setvalueasync.md) to set a specific [Value](focuscontrol_value.md) between the [Min](focuscontrol_min.md) and [Max](focuscontrol_max.md).
+You can use one of the [FocusPreset](focuspreset.md) values by calling [SetPresetAsync](focuscontrol_setpresetasync_183048954.md). Or call [SetValueAsync](focuscontrol_setvalueasync_2096210171.md) to set a specific [Value](focuscontrol_value.md) between the [Min](focuscontrol_min.md) and [Max](focuscontrol_max.md).
 
 For how-to guidance for using the **FocusControl**, see [Manual camera controls for photo and video capture](https://msdn.microsoft.com/en-us/windows/uwp/audio-video-camera/capture-device-controls-for-photo-and-video-capture).
 

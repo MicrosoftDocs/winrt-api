@@ -15,11 +15,11 @@ An explicitly created group of active animations or effects.
 ## -remarks
 Represents a group of active animations or effects and triggers a callback when all members of the group have completed. A CompositionScopedBatch is explicitly created and is used to designate specific objects to be included in a single Scoped batch.
 
-A scoped batch is explicitly created using [Compositor.CreateScopedBatch](compositor_createscopedbatch.md) and is used to designate specific objects to be included in a single batch. A Scoped batch can be created on any thread and is not tied to the composition thread. Scoped batches will only aggregate objects within the thread it is created.
+A scoped batch is explicitly created using [Compositor.CreateScopedBatch](compositor_createscopedbatch_706133524.md) and is used to designate specific objects to be included in a single batch. A Scoped batch can be created on any thread and is not tied to the composition thread. Scoped batches will only aggregate objects within the thread it is created.
 
-   [CompositionScopedBatch](compositionscopedbatch.md) may be explicitly paused with [Suspend](compositionscopedbatch_suspend.md) in order to exclude objects from that batch. When a batch is suspended it can be reopened by calling [Resume](compositionscopedbatch_resume.md).
+   [CompositionScopedBatch](compositionscopedbatch.md) may be explicitly paused with [Suspend](compositionscopedbatch_suspend_1316139061.md) in order to exclude objects from that batch. When a batch is suspended it can be reopened by calling [Resume](compositionscopedbatch_resume_406343050.md).
 
-   A [CompositionScopedBatch](compositionscopedbatch.md) must be explicitly closed using [End](compositionscopedbatch_end.md). Once it has been closed it cannot be suspended or resumed again.
+   A [CompositionScopedBatch](compositionscopedbatch.md) must be explicitly closed using [End](compositionscopedbatch_end_1028829999.md). Once it has been closed it cannot be suspended or resumed again.
 
    Multiple [CompositionScopedBatch](compositionscopedbatch.md) instances can be created and objects can be aggregated in multiple batches at the same time.
 

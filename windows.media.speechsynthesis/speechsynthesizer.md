@@ -21,7 +21,7 @@ Only Microsoft-signed voices installed on the system can be used to generate spe
 
 ## -examples
 
-Your UWP app can use a [SpeechSynthesizer](../windows.devices.humaninterfacedevice/hiddevice_getdeviceselector.md) object to create an audio stream and output speech based on a plain text string.
+Your UWP app can use a [SpeechSynthesizer](../windows.devices.humaninterfacedevice/hiddevice_getdeviceselector_1541481733.md) object to create an audio stream and output speech based on a plain text string.
 
 ```javascript
 

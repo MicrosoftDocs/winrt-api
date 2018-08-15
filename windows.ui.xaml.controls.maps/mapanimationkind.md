@@ -10,7 +10,7 @@ public enum Windows.UI.Xaml.Controls.Maps.MapAnimationKind : int
 # MapAnimationKind
 
 ## -description
-Specifies the animation to use when you change the view of the map. For example, you can specify animation when calling the [TrySetViewAsync](mapcontrol_trysetviewasync_2106504554.md) or [TrySetViewBoundsAsync](mapcontrol_trysetviewboundsasync.md) methods.
+Specifies the animation to use when you change the view of the map. For example, you can specify animation when calling the [TrySetViewAsync](mapcontrol_trysetviewasync_2106504554.md) or [TrySetViewBoundsAsync](mapcontrol_trysetviewboundsasync_1104525723.md) methods.
 
 ## -enum-fields
 ### -field Default:0

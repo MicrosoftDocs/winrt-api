@@ -21,4 +21,4 @@ Register to be notified when this event fires by adding an event listener to the
 ## -examples
 
 ## -see-also
-[SearchPane class](searchpane.md), [SearchPane.Show methods](searchpane_show.md), [SearchPane.Visible property](searchpane_visible.md), [SearchPaneVisibilityChangedEventArgs class](searchpanevisibilitychangedeventargs.md)
+[SearchPane class](searchpane.md), [SearchPane.Show methods](searchpane_show_1323631364.md), [SearchPane.Visible property](searchpane_visible.md), [SearchPaneVisibilityChangedEventArgs class](searchpanevisibilitychangedeventargs.md)

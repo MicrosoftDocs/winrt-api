@@ -10,7 +10,7 @@ public enum Windows.ApplicationModel.Wallet.System.WalletItemAppAssociation : in
 # WalletItemAppAssociation
 
 ## -description
-Defines values used by the [GetAppStatusForItem](walletitemsystemstore_getappstatusforitem.md) method indicating if an app is installed for the specified [WalletItem](../windows.applicationmodel.wallet/walletitem.md).
+Defines values used by the [GetAppStatusForItem](walletitemsystemstore_getappstatusforitem_1214253302.md) method indicating if an app is installed for the specified [WalletItem](../windows.applicationmodel.wallet/walletitem.md).
 
 > [!NOTE]
 > This API is not available to all Windows apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.

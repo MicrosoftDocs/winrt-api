@@ -10,13 +10,13 @@ public Windows.Storage.Streams.IRandomAccessStreamReference PixelData { get;  se
 # Windows.UI.Xaml.Controls.Maps.MapTileBitmapRequest.PixelData
 
 ## -description
-Gets the bitmap data for the [CustomMapTileDataSource](custommaptiledatasource_custommaptiledatasource.md).
+Gets the bitmap data for the [CustomMapTileDataSource](custommaptiledatasource_custommaptiledatasource_1221375020.md).
 
 ## -property-value
 The bitmap data.
 
 ## -remarks
-[CustomMapTileDataSource](custommaptiledatasource_custommaptiledatasource.md) supports drawing tiles in memory and returning them as a stream of pixels. The following code sample demonstrates one approach for drawing tiles in memory.
+[CustomMapTileDataSource](custommaptiledatasource_custommaptiledatasource_1221375020.md) supports drawing tiles in memory and returning them as a stream of pixels. The following code sample demonstrates one approach for drawing tiles in memory.
 
 ```csharp
         // Create new custom tile source

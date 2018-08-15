@@ -16,9 +16,9 @@ Retrieves a string that contains "PBKDF2_SHA1".
 String that contains "PBKDF2_SHA1".
 
 ## -remarks
-Use the string retrieved by this property to set the Key Derivation Function (KDF) name when you call the [OpenAlgorithm](keyderivationalgorithmprovider_openalgorithm.md) method on the [KeyDerivationAlgorithmProvider](keyderivationalgorithmprovider.md) class. The string represents a Password-Based Key Derivation Function 2 (PBKDF2) algorithm that uses a Hashed Message Authentication Code (HMAC) based on the SHA1 (Secure Hash Algorithm 1) message digest algorithm as the underlying pseudorandom function.
+Use the string retrieved by this property to set the Key Derivation Function (KDF) name when you call the [OpenAlgorithm](keyderivationalgorithmprovider_openalgorithm_637226074.md) method on the [KeyDerivationAlgorithmProvider](keyderivationalgorithmprovider.md) class. The string represents a Password-Based Key Derivation Function 2 (PBKDF2) algorithm that uses a Hashed Message Authentication Code (HMAC) based on the SHA1 (Secure Hash Algorithm 1) message digest algorithm as the underlying pseudorandom function.
 
-To use this KDF, you must specify the appropriate salt value and iteration count by calling the [BuildForPbkdf2](keyderivationparameters_buildforpbkdf2.md) method on the [KeyDerivationParameters](keyderivationparameters.md) class before calling the [CreateKey](keyderivationalgorithmprovider_createkey.md) method to derive a key.
+To use this KDF, you must specify the appropriate salt value and iteration count by calling the [BuildForPbkdf2](keyderivationparameters_buildforpbkdf2_636237279.md) method on the [KeyDerivationParameters](keyderivationparameters.md) class before calling the [CreateKey](keyderivationalgorithmprovider_createkey_928231294.md) method to derive a key.
 
 ## -examples
 

@@ -20,7 +20,7 @@ The string to convert.
 The unescaped representation of *stringToUnescape*.
 
 ## -remarks
-Use [UnescapeComponent](uri_unescapecomponent.md) as a utility if you want a user-readable string of just a component, for example just the [Path](uri_path.md) value, unescaped.
+Use [UnescapeComponent](uri_unescapecomponent_836887596.md) as a utility if you want a user-readable string of just a component, for example just the [Path](uri_path.md) value, unescaped.
 
 ## -examples
 

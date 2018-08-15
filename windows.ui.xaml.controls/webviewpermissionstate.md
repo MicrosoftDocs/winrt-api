@@ -17,13 +17,13 @@ Defines constants that specify the state of a [WebView.PermissionRequested](webv
 The state of the permission request can't be determined.
 
 ### -field Defer:1
-[WebViewPermissionRequest.Defer](webviewpermissionrequest_defer.md) was called. The permission request is deferred.
+[WebViewPermissionRequest.Defer](webviewpermissionrequest_defer_1945301616.md) was called. The permission request is deferred.
 
 ### -field Allow:2
-[WebViewPermissionRequest.Allow](webviewpermissionrequest_allow.md) was called. The permission request is allowed.
+[WebViewPermissionRequest.Allow](webviewpermissionrequest_allow_1592747266.md) was called. The permission request is allowed.
 
 ### -field Deny:3
-[WebViewPermissionRequest.Deny](webviewpermissionrequest_deny.md) was called. The permission request is denied.
+[WebViewPermissionRequest.Deny](webviewpermissionrequest_deny_445869776.md) was called. The permission request is denied.
 
 
 ## -remarks

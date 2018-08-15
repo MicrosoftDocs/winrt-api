@@ -13,7 +13,7 @@ public class HttpMethod : Windows.Foundation.IStringable, Windows.Web.Http.IHttp
 Retrieves standard HTTP methods such as GET and POST and creates new HTTP methods.
 
 ## -remarks
-The most common use of [HttpMethod](httpmethod.md) is to get a standard HTTP method (verb) from a property on this class. However, if an app needs a different value for the HTTP method, the [HttpMethod](httpmethod_httpmethod.md) constructor initializes a new instance of the [HttpMethod](httpmethod.md) with an HTTP method that the app developer specifies.
+The most common use of [HttpMethod](httpmethod.md) is to get a standard HTTP method (verb) from a property on this class. However, if an app needs a different value for the HTTP method, the [HttpMethod](httpmethod_httpmethod_290278668.md) constructor initializes a new instance of the [HttpMethod](httpmethod.md) with an HTTP method that the app developer specifies.
 
 ## -examples
 

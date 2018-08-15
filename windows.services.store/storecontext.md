@@ -21,13 +21,13 @@ The [StoreContext](storecontext.md) class is the main entry point to the [Window
 
 To get a [StoreContext](storecontext.md) object, use one of these static methods:
 
-+ [GetDefault](storecontext_getdefault.md): Use this method in single-user apps (that is, apps that run only in the context of the user that launched the app). This method gets a [StoreContext](storecontext.md) object that you can use to access and manage Microsoft Store-related data for the user. Most Universal Windows Platform (UWP) apps are single-user apps.
++ [GetDefault](storecontext_getdefault_846721868.md): Use this method in single-user apps (that is, apps that run only in the context of the user that launched the app). This method gets a [StoreContext](storecontext.md) object that you can use to access and manage Microsoft Store-related data for the user. Most Universal Windows Platform (UWP) apps are single-user apps.
 
   ```csharp
   Windows.Services.Store.StoreContext context = StoreContext.GetDefault();
   ```
 
-+ [GetForUser](storecontext_getforuser.md): Use this method in multi-user apps. This method gets a [StoreContext](storecontext.md) object that you can use to access and manage Microsoft Store-related data for a specific user. For more information about multi-user apps, see [Introduction to multi-user applications](https://msdn.microsoft.com/windows/uwp/xbox-apps/multi-user-applications).
++ [GetForUser](storecontext_getforuser_2058550280.md): Use this method in multi-user apps. This method gets a [StoreContext](storecontext.md) object that you can use to access and manage Microsoft Store-related data for a specific user. For more information about multi-user apps, see [Introduction to multi-user applications](https://msdn.microsoft.com/windows/uwp/xbox-apps/multi-user-applications).
 
   ```csharp
   var users = await Windows.System.User.FindAllAsync();

@@ -14,9 +14,9 @@ public event Windows.Foundation.TypedEventHandler StrokesErased<Windows.UI.Input
 Occurs when an [InkStroke](inkstroke.md) object is removed from an [InkCanvas](../windows.ui.xaml.controls/inkcanvas.md) control using the pen eraser or the pen tip when [Mode](inkinputprocessingconfiguration_mode.md) is set to [Erasing](inkinputprocessingmode.md).
 
 ## -remarks
-[InkStrokeContainer.DeleteSelected](inkstrokecontainer_deleteselected.md) does not cause this event to fire.
+[InkStrokeContainer.DeleteSelected](inkstrokecontainer_deleteselected_2139837948.md) does not cause this event to fire.
 
-This event is not raised in custom dry mode ([ActivateCustomDrying](inkpresenter_activatecustomdrying.md)).
+This event is not raised in custom dry mode ([ActivateCustomDrying](inkpresenter_activatecustomdrying_1826048524.md)).
 
 
 

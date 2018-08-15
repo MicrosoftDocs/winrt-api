@@ -20,7 +20,7 @@ The index at which to set the value.
 The value to set.
 
 ## -remarks
-[InsertAt](dependencyobjectcollection_insertat.md) expands the collection and moves all subsequent index items by one. In contrast, [SetAt](dependencyobjectcollection_setat.md) replaces the item at the index, and the collection count remains the same.
+[InsertAt](dependencyobjectcollection_insertat_1364321154.md) expands the collection and moves all subsequent index items by one. In contrast, [SetAt](dependencyobjectcollection_setat_537822194.md) replaces the item at the index, and the collection count remains the same.
 
 
 

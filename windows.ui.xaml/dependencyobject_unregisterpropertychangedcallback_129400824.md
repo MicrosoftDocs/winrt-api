@@ -10,18 +10,18 @@ public void UnregisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty
 # Windows.UI.Xaml.DependencyObject.UnregisterPropertyChangedCallback
 
 ## -description
-Cancels a change notification that was previously registered by calling [RegisterPropertyChangedCallback](dependencyobject_registerpropertychangedcallback.md).
+Cancels a change notification that was previously registered by calling [RegisterPropertyChangedCallback](dependencyobject_registerpropertychangedcallback_1557279748.md).
 
 ## -parameters
 ### -param dp
 The dependency property identifier of the property to unregister for property-changed notification.
 
 ### -param token
-A token that represents the callback (returned by [RegisterPropertyChangedCallback](dependencyobject_registerpropertychangedcallback.md)).
+A token that represents the callback (returned by [RegisterPropertyChangedCallback](dependencyobject_registerpropertychangedcallback_1557279748.md)).
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
-[RegisterPropertyChangedCallback](dependencyobject_registerpropertychangedcallback.md), [DependencyPropertyChangedCallback](dependencypropertychangedcallback.md)
+[RegisterPropertyChangedCallback](dependencyobject_registerpropertychangedcallback_1557279748.md), [DependencyPropertyChangedCallback](dependencypropertychangedcallback.md)

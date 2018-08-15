@@ -21,4 +21,4 @@ The [RoutePolicy](routepolicy.md) to remove.
 ## -examples
 
 ## -see-also
-[AddHttpRoutePolicy](connectivitymanager_addhttproutepolicy.md), [RoutePolicy](routepolicy.md)
+[AddHttpRoutePolicy](connectivitymanager_addhttproutepolicy_1422666154.md), [RoutePolicy](routepolicy.md)

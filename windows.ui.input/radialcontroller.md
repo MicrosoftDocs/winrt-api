@@ -30,8 +30,8 @@ The [RadialController](radialcontroller.md) and related APIs (see end of topic) 
 
 In this example, we add a custom tool to the Surface Dial menu and declare the [RadialController](radialcontroller.md) input handlers.
 
-1. First, we create a reference to the [RadialController](radialcontroller.md) object for the Surface Dial (`myController`) by calling [CreateForCurrentView](radialcontroller_createforcurrentview.md).
-1. We then create an instance of a [RadialControllerMenuItem](radialcontrollermenuitem.md) (`myItem`) by calling [RadialControllerMenuItem.CreateFromIcon](radialcontrollermenuitem_createfromicon.md).
+1. First, we create a reference to the [RadialController](radialcontroller.md) object for the Surface Dial (`myController`) by calling [CreateForCurrentView](radialcontroller_createforcurrentview_1186319000.md).
+1. We then create an instance of a [RadialControllerMenuItem](radialcontrollermenuitem.md) (`myItem`) by calling [RadialControllerMenuItem.CreateFromIcon](radialcontrollermenuitem_createfromicon_2066467533.md).
 1. Next, we append that item to the collection of menu items.
 1. We declare the input event handlers ([ButtonClicked](radialcontroller_buttonclicked.md) and [RotationChanged](radialcontroller_rotationchanged.md)) for the [RadialController](radialcontroller.md) object.
 1. Finally, we define the event handlers.

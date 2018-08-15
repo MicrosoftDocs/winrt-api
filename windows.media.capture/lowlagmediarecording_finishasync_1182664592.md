@@ -16,7 +16,7 @@ Asynchronously releases the [LowLagMediaRecording](lowlagmediarecording.md) obje
 Object that is used to control the asynchronous operation.
 
 ## -remarks
-[FinishAsync](lowlagmediarecording_finishasync.md) stops the media recording operation and releases the [LowLagMediaRecording](lowlagmediarecording.md) object and resources used by the media recording operation. If you want to restart the recording after calling [FinishAsync](lowlagmediarecording_finishasync.md), you will need to call one of the **PrepareLowLagRecord** methods to initialize a new [LowLagMediaRecording](lowlagmediarecording.md) object.
+[FinishAsync](lowlagmediarecording_finishasync_1182664592.md) stops the media recording operation and releases the [LowLagMediaRecording](lowlagmediarecording.md) object and resources used by the media recording operation. If you want to restart the recording after calling [FinishAsync](lowlagmediarecording_finishasync_1182664592.md), you will need to call one of the **PrepareLowLagRecord** methods to initialize a new [LowLagMediaRecording](lowlagmediarecording.md) object.
 
 ## -examples
 

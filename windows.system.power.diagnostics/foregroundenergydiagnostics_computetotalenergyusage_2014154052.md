@@ -22,7 +22,7 @@ The total cumulative energy usage of the foreground app since the last reset, ex
 > [!IMPORTANT]
 > This method consumes significant CPU resources. We recommend using this method only for debugging purposes.
 
-Reset the energy usage total by calling [ResetTotalEnergyUsage](foregroundenergydiagnostics_resettotalenergyusage.md).
+Reset the energy usage total by calling [ResetTotalEnergyUsage](foregroundenergydiagnostics_resettotalenergyusage_1916149566.md).
 
 The energy usage of a foreground app is classified into one these predefined levels, from lowest to highest energy consumption: [LowUsageLevel](../windows.system.power/foregroundenergymanager_lowusagelevel.md), [NearMaxAcceptableUsageLevel](../windows.system.power/foregroundenergymanager_nearmaxacceptableusagelevel.md), [MaxAcceptableUsageLevel](../windows.system.power/foregroundenergymanager_maxacceptableusagelevel.md), or [ExcessiveUsageLevel](../windows.system.power/foregroundenergymanager_excessiveusagelevel.md).
 

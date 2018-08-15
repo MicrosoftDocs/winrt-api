@@ -19,7 +19,7 @@ The new query options.
 ## -remarks
 This method causes the [OptionsChanged](storagefilequeryresult_optionschanged.md) event to fire.
 
-When this method returns, subsequent calls to [GetFoldersAsync](storagefolderqueryresult_getfoldersasync.md) or [GetItemCountAsync](storagefolderqueryresult_getitemcountasync.md) will reflect the results of the new [QueryOptions](queryoptions.md).
+When this method returns, subsequent calls to [GetFoldersAsync](storagefolderqueryresult_getfoldersasync_1487375516.md) or [GetItemCountAsync](storagefolderqueryresult_getitemcountasync_1115995255.md) will reflect the results of the new [QueryOptions](queryoptions.md).
 
 ## -examples
 

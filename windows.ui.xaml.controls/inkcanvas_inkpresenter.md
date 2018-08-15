@@ -12,7 +12,7 @@ public Windows.UI.Input.Inking.InkPresenter InkPresenter { get; }
 ## -description
 Gets the underlying [InkPresenter](../windows.ui.input.inking/inkpresenter.md) object associated with the [InkCanvas](inkcanvas.md).
 
-Each [InkCanvas](inkcanvas_inkcanvas.md) control is associated with an instance of an [InkPresenter](../windows.ui.input.inking/inkpresenter.md) object (exposed through the [InkPresenter](inkcanvas_inkpresenter.md) property). The [InkPresenter](../windows.ui.input.inking/inkpresenter.md) provides properties, methods, and events for managing the input, processing, and rendering of ink data for an [InkCanvas](inkcanvas.md) control.
+Each [InkCanvas](inkcanvas_inkcanvas_1221375020.md) control is associated with an instance of an [InkPresenter](../windows.ui.input.inking/inkpresenter.md) object (exposed through the [InkPresenter](inkcanvas_inkpresenter.md) property). The [InkPresenter](../windows.ui.input.inking/inkpresenter.md) provides properties, methods, and events for managing the input, processing, and rendering of ink data for an [InkCanvas](inkcanvas.md) control.
 
 The [InkPresenter](../windows.ui.input.inking/inkpresenter.md) cannot be instantiated directly.
 

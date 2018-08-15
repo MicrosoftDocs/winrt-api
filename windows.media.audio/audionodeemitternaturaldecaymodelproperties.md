@@ -13,7 +13,7 @@ public class AudioNodeEmitterNaturalDecayModelProperties : Windows.Media.Audio.I
 Describes the characteristics of a natural [AudioNodeEmitterDecayModel](audionodeemitterdecaymodel.md).
 
 ## -remarks
-Create a natural emitter decay model by calling [AudioNodeEmitterDecayModel.CreateNatural](audionodeemitterdecaymodel_createnatural.md). After creating the model, read-only access to the natural decay model properties is provided by the [NaturalProperties](audionodeemitterdecaymodel_naturalproperties.md) property.
+Create a natural emitter decay model by calling [AudioNodeEmitterDecayModel.CreateNatural](audionodeemitterdecaymodel_createnatural_887095524.md). After creating the model, read-only access to the natural decay model properties is provided by the [NaturalProperties](audionodeemitterdecaymodel_naturalproperties.md) property.
 
 ## -examples
 

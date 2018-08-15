@@ -92,8 +92,8 @@ The following table maps [SyndicationItem](syndicationitem.md) properties to RSS
    <tr><td>[EditMediaUri](syndicationitem_editmediauri.md)</td><td /><td>link with rel="edit-media"</td><td /></tr>
    <tr><td>[EditUri](syndicationitem_edituri.md)</td><td /><td>link with rel="edit"</td><td /></tr>
    <tr><td>[ElementExtensions](syndicationitem_elementextensions.md) (foreign markup)</td><td /><td /><td /></tr>
-   <tr><td>**Etag**</td><td /><td /><td>ETag header after [CreateResourceAsync](../windows.web.atompub/atompubclient_createresourceasync.md)</td></tr>
-   <tr><td>[Id](syndicationitem_id.md)</td><td>guid</td><td>id</td><td>Location header after [CreateResourceAsync](../windows.web.atompub/atompubclient_createresourceasync.md)</td></tr>
+   <tr><td>**Etag**</td><td /><td /><td>ETag header after [CreateResourceAsync](../windows.web.atompub/atompubclient_createresourceasync_823380555.md)</td></tr>
+   <tr><td>[Id](syndicationitem_id.md)</td><td>guid</td><td>id</td><td>Location header after [CreateResourceAsync](../windows.web.atompub/atompubclient_createresourceasync_823380555.md)</td></tr>
    <tr><td>[ItemUri](syndicationitem_itemuri.md)</td><td /><td /><td /></tr>
    <tr><td>[Language](syndicationitem_language.md)</td><td>xml:lang</td><td>xml:lang</td><td /></tr>
    <tr><td>[LastUpdatedTime](syndicationitem_lastupdatedtime.md)</td><td /><td>updated</td><td /></tr>

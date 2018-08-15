@@ -32,7 +32,7 @@ The format for the frame-rate counter displayed in the window chrome is: <table>
 
 The *App fps* value is specifically reporting on the UI thread. There could be a much higher apparent refresh rate happening in your app that's related to the composition thread, but not to the UI thread. For more info on what each thread is responsible for, see [Performance best practices for ](http://msdn.microsoft.com/library/567bcefa-5da5-4e42-a4b8-1358c71adfa2).
 
-[OnLaunched](application_onlaunched.md) is a good place to change [DebugSettings](debugsettings.md) values. Another possibility is the `App()` constructor.
+[OnLaunched](application_onlaunched_859642554.md) is a good place to change [DebugSettings](debugsettings.md) values. Another possibility is the `App()` constructor.
 
 
 <!--The following remark is relevant for Windows 8 > 8.1 migration. No WBB not breaking-->

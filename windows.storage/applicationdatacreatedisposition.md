@@ -10,7 +10,7 @@ public enum Windows.Storage.ApplicationDataCreateDisposition : int
 # ApplicationDataCreateDisposition
 
 ## -description
-Specifies options for creating application data containers or returning existing containers. This enumeration is used by the [ApplicationDataContainer.CreateContainer](applicationdatacontainer_createcontainer.md) method.
+Specifies options for creating application data containers or returning existing containers. This enumeration is used by the [ApplicationDataContainer.CreateContainer](applicationdatacontainer_createcontainer_1839874827.md) method.
 
 ## -enum-fields
 ### -field Always:0

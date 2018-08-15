@@ -19,12 +19,12 @@ The Windows Runtime  [ItemsControl](../windows.ui.xaml.controls/itemscontrol.md)
 
 [ItemsControlAutomationPeer](itemscontrolautomationpeer.md) has overrides of **Core** methods such that the associated [AutomationPeer](automationpeer.md) methods provide peer-specific information to a Microsoft UI Automation client.
 
-+ [GetPattern](automationpeer_getpattern.md) reports that the peer provides pattern support for [PatternInterface.ItemContainer](patterninterface.md) ([IItemContainerProvider](../windows.ui.xaml.automation.provider/iitemcontainerprovider.md)). Also, there's logic that looks for scrolling behavior in the owner. If there's scrolling available and a peer can be forwarded to provide the control pattern, the peer can support [PatternInterface.Scroll](patterninterface.md) ([IScrollProvider](../windows.ui.xaml.automation.provider/iscrollprovider.md)).
-+ There is no [GetClassName](automationpeer_getclassname.md) and [GetAutomationControlType](automationpeer_getautomationcontroltype.md) is **Custom**. These values are expected to come from derived peers.
-+ [GetChildren](automationpeer_getchildren.md) has an extensive implementation that returns the item peers and is used by all the derived peers.
++ [GetPattern](automationpeer_getpattern_2046576749.md) reports that the peer provides pattern support for [PatternInterface.ItemContainer](patterninterface.md) ([IItemContainerProvider](../windows.ui.xaml.automation.provider/iitemcontainerprovider.md)). Also, there's logic that looks for scrolling behavior in the owner. If there's scrolling available and a peer can be forwarded to provide the control pattern, the peer can support [PatternInterface.Scroll](patterninterface.md) ([IScrollProvider](../windows.ui.xaml.automation.provider/iscrollprovider.md)).
++ There is no [GetClassName](automationpeer_getclassname_614238974.md) and [GetAutomationControlType](automationpeer_getautomationcontroltype_1156384152.md) is **Custom**. These values are expected to come from derived peers.
++ [GetChildren](automationpeer_getchildren_555647254.md) has an extensive implementation that returns the item peers and is used by all the derived peers.
 The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](http://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4).
 
-> For Windows Phone 8.x apps, [ItemsControlAutomationPeer](itemscontrolautomationpeer.md) has methods that support creating item-specific automation peers for data items. See [CreateItemAutomationPeer](itemscontrolautomationpeer_createitemautomationpeer.md) and [OnCreateItemAutomationPeer](itemscontrolautomationpeer_oncreateitemautomationpeer.md).
+> For Windows Phone 8.x apps, [ItemsControlAutomationPeer](itemscontrolautomationpeer.md) has methods that support creating item-specific automation peers for data items. See [CreateItemAutomationPeer](itemscontrolautomationpeer_createitemautomationpeer_1938957340.md) and [OnCreateItemAutomationPeer](itemscontrolautomationpeer_oncreateitemautomationpeer_1507723118.md).
 
 ### **ItemsControlAutomationPeer** derived classes
 

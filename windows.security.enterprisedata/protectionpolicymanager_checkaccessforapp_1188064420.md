@@ -17,7 +17,7 @@ Perform enterprise-protection policy evaluation for a data transfer between your
 
 ## -parameters
 ### -param sourceIdentity
-The source enterprise identity of the app. This is an email address or domain that is managed. Your app should use [IsIdentityManaged](protectionpolicymanager_isidentitymanaged.md) to check if an email address or domain is managed.
+The source enterprise identity of the app. This is an email address or domain that is managed. Your app should use [IsIdentityManaged](protectionpolicymanager_isidentitymanaged_906801364.md) to check if an email address or domain is managed.
 
 ### -param appPackageFamilyName
 The package family name of the app you want to check has access to the protected content.

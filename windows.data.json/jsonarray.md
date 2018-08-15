@@ -13,7 +13,7 @@ public class JsonArray : Windows.Data.Json.IJsonArray, Windows.Data.Json.IJsonVa
 
 Represents a JSON array.
 
-[JsonArray](jsonarray_jsonarray.md) inherits the [IVector(IJsonValue)](../windows.foundation.collections/ivector_1.md) and [IIterable(IJsonValue)](../windows.foundation.collections/iiterable_1.md) interfaces, which provide methods to iterate through the elements in the array and update its contents.
+[JsonArray](jsonarray_jsonarray_1221375020.md) inherits the [IVector(IJsonValue)](../windows.foundation.collections/ivector_1.md) and [IIterable(IJsonValue)](../windows.foundation.collections/iiterable_1.md) interfaces, which provide methods to iterate through the elements in the array and update its contents.
 
 ## -remarks
 

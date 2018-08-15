@@ -16,13 +16,13 @@ A single ink stroke, including the Bézier curve parameters used for final rende
 ## -remarks
 <table>
    <tr><th>JavaScript (usage)</th></tr>
-   <tr><td>var inkStrokes = [Windows.UI.Input.Inking.InkManager.getStrokes](inkmanager_getstrokes.md);
+   <tr><td>var inkStrokes = [Windows.UI.Input.Inking.InkManager.getStrokes](inkmanager_getstrokes_993850152.md);
 
 var inkStroke = inkStrokes[...];</td></tr>
-   <tr><td>var inkStrokes = [Windows.UI.Input.Inking.inkRecognitionResult.getStrokes](inkrecognitionresult_getstrokes.md);
+   <tr><td>var inkStrokes = [Windows.UI.Input.Inking.inkRecognitionResult.getStrokes](inkrecognitionresult_getstrokes_993850152.md);
 
 var inkStroke = inkStrokes[...];</td></tr>
-   <tr><td>var inkStrokes = [Windows.UI.Input.Inking.inkStrokeContainer.getStrokes](inkstrokecontainer_getstrokes.md);
+   <tr><td>var inkStrokes = [Windows.UI.Input.Inking.inkStrokeContainer.getStrokes](inkstrokecontainer_getstrokes_993850152.md);
 
 var inkStroke = inkStrokes[...];</td></tr>
 </table>

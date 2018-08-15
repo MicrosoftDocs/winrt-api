@@ -13,7 +13,7 @@ public class CryptographicHash : Windows.Security.Cryptography.Core.IHashComputa
 Represents a reusable hashing object and contains the result of a hashing operation.
 
 ## -remarks
-Call the [HashAlgorithmProvider.CreateHash](hashalgorithmprovider_createhash.md) or [MacAlgorithmProvider.CreateHash](macalgorithmprovider_createhash.md) method to create a [CryptographicHash](cryptographichash.md) object. You can open a hash algorithm provider, by name, for any of the following algorithm names:
+Call the [HashAlgorithmProvider.CreateHash](hashalgorithmprovider_createhash_203787775.md) or [MacAlgorithmProvider.CreateHash](macalgorithmprovider_createhash_851111259.md) method to create a [CryptographicHash](cryptographichash.md) object. You can open a hash algorithm provider, by name, for any of the following algorithm names:
 
 
 + MD5

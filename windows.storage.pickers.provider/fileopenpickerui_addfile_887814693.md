@@ -21,7 +21,7 @@ A unique identifier of the file to add.
 The file to add to the list of files that the user has chosen.
 
 ## -returns
-The enumeration value that indicates the result of this [addFile](fileopenpickerui_addfile.md) method.
+The enumeration value that indicates the result of this [addFile](fileopenpickerui_addfile_887814693.md) method.
 
 ## -remarks
 

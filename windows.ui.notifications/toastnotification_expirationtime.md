@@ -17,7 +17,7 @@ Gets or sets the time after which a toast notification should not be displayed.
 The date and time after which the toast is no longer considered current or valid and should not be displayed.
 
 ## -remarks
-Windows attempts to raise toast notifications immediately after you call [Show](toastnotifier_show.md), so this property is rarely used.
+Windows attempts to raise toast notifications immediately after you call [Show](toastnotifier_show_184420709.md), so this property is rarely used.
 
 > For Windows Phone 8.x app: this property also causes the toast notification to be removed from the action center once the specified date and time is reached.
 

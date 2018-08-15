@@ -17,9 +17,9 @@ Stores the specified query in the search history.
 The query.
 
 ## -remarks
-The [SearchBox](../windows.ui.xaml.controls/searchbox.md) control calls the [AddToHistory](searchsuggestionmanager_addtohistory.md) method when the query entry is committed, to add it to the current history context.
+The [SearchBox](../windows.ui.xaml.controls/searchbox.md) control calls the [AddToHistory](searchsuggestionmanager_addtohistory_2021265072.md) method when the query entry is committed, to add it to the current history context.
 
-Calling the [AddToHistory](searchsuggestionmanager_addtohistory.md) method doesn't immediately update the suggestions in the [Suggestions](searchsuggestionmanager_suggestions.md) property. Call [SetQuery](searchsuggestionmanager_setquery.md) to update the [Suggestions](searchsuggestionmanager_suggestions.md) property.
+Calling the [AddToHistory](searchsuggestionmanager_addtohistory_2021265072.md) method doesn't immediately update the suggestions in the [Suggestions](searchsuggestionmanager_suggestions.md) property. Call [SetQuery](searchsuggestionmanager_setquery_1931070342.md) to update the [Suggestions](searchsuggestionmanager_suggestions.md) property.
 
 ## -examples
 

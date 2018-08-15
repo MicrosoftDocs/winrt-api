@@ -14,7 +14,7 @@ public class BarcodeScanner : Windows.Devices.PointOfService.IBarcodeScanner, Wi
 Represents the barcode scanner device.
 
 ## -remarks
-This object is created when [GetDefaultAsync](barcodescanner_getdefaultasync.md) or [FromIdAsync](barcodescanner_fromidasync.md) method completes.
+This object is created when [GetDefaultAsync](barcodescanner_getdefaultasync_1549573963.md) or [FromIdAsync](barcodescanner_fromidasync_1322863552.md) method completes.
 
 See the [barcode scanner sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/BarcodeScanner) for an example implementation.
 

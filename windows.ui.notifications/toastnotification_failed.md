@@ -16,7 +16,7 @@ Occurs when an error is caused when Windows attempts to raise a toast notificati
 ## -remarks
 The reason for the toast's failure can be found in the [ErrorCode](toastfailedeventargs_errorcode.md) property of the [ToastFailedEventArgs](toastfailedeventargs.md) parameter.
 
-The most common failure that you'll see when you raise a toast is a [settings](notificationsetting.md) error, for instance a block on toast notifications for this user. We recommend that you call [ToastNotifier.Setting](toastnotifier_setting.md) before you call [Show](toastnotifier_show.md) instead of handling that situation through this event.
+The most common failure that you'll see when you raise a toast is a [settings](notificationsetting.md) error, for instance a block on toast notifications for this user. We recommend that you call [ToastNotifier.Setting](toastnotifier_setting.md) before you call [Show](toastnotifier_show_184420709.md) instead of handling that situation through this event.
 
 ## -examples
 

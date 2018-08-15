@@ -22,4 +22,4 @@ True if the search pane is being displayed; otherwise false.
 ## -examples
 
 ## -see-also
-[SearchPane class](searchpane.md), [SearchPane.Show methods](searchpane_show.md), [SearchPane.VisibilityChanged event](searchpane_visibilitychanged.md), [SearchPaneVisibilityChangedEventArgs class](searchpanevisibilitychangedeventargs.md)
+[SearchPane class](searchpane.md), [SearchPane.Show methods](searchpane_show_1323631364.md), [SearchPane.VisibilityChanged event](searchpane_visibilitychanged.md), [SearchPaneVisibilityChangedEventArgs class](searchpanevisibilitychangedeventargs.md)

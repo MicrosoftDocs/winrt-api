@@ -16,11 +16,11 @@ Gets an [IInputStream](../windows.storage.streams/iinputstream.md) object (a mes
 A message represented as a sequential stream of bytes.
 
 ## -remarks
-If the underlying TCP connection is suddenly terminated, [GetDataStream](messagewebsocketmessagereceivedeventargs_getdatastream.md) throws the WININET_E_CONNECTION_ABORTED exception.
+If the underlying TCP connection is suddenly terminated, [GetDataStream](messagewebsocketmessagereceivedeventargs_getdatastream_1357691687.md) throws the WININET_E_CONNECTION_ABORTED exception.
 
-An empty message results in [GetDataStream](messagewebsocketmessagereceivedeventargs_getdatastream.md) returning a valid [IInputStream](../windows.storage.streams/iinputstream.md) instance that yields zero bytes.
+An empty message results in [GetDataStream](messagewebsocketmessagereceivedeventargs_getdatastream_1357691687.md) returning a valid [IInputStream](../windows.storage.streams/iinputstream.md) instance that yields zero bytes.
 
 ## -examples
 
 ## -see-also
-[GetDataReader](datagramsocketmessagereceivedeventargs_getdatareader.md), [IInputStream](../windows.storage.streams/iinputstream.md)
+[GetDataReader](datagramsocketmessagereceivedeventargs_getdatareader_509392724.md), [IInputStream](../windows.storage.streams/iinputstream.md)

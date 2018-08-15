@@ -10,7 +10,7 @@ public enum Windows.System.UserProfile.AccountPictureKind : int
 # AccountPictureKind
 
 ## -description
-Allows you to request a specific image type when using [GetAccountPicture](userinformation_getaccountpicture.md).
+Allows you to request a specific image type when using [GetAccountPicture](userinformation_getaccountpicture_1542251334.md).
 
 ## -enum-fields
 ### -field SmallImage:0

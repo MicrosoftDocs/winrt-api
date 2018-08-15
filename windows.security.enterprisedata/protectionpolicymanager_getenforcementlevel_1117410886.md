@@ -17,7 +17,7 @@ You can use this method to determine the current Windows Information Protection 
 
 ## -parameters
 ### -param identity
-The enterprise identity. This is an email address or domain that is managed. Your app should use [IsIdentityManaged](protectionpolicymanager_isidentitymanaged.md) to confirm that an email address or domain is managed.
+The enterprise identity. This is an email address or domain that is managed. Your app should use [IsIdentityManaged](protectionpolicymanager_isidentitymanaged_906801364.md) to confirm that an email address or domain is managed.
 
 ## -returns
 A value of the [EnforcementLevel](enforcementlevel.md) enumeration.

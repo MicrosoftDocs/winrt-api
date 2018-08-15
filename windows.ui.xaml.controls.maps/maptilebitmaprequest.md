@@ -13,7 +13,7 @@ public class MapTileBitmapRequest : Windows.UI.Xaml.Controls.Maps.IMapTileBitmap
 Represents a bitmap request for a tile for a [CustomMapTileDataSource](custommaptiledatasource.md).
 
 ## -remarks
-For more info about using the [CustomMapTileDataSource](custommaptiledatasource_custommaptiledatasource.md), see the [PixelData](maptilebitmaprequest_pixeldata.md) property of the [MapTileBitmapRequest](maptilebitmaprequest.md).
+For more info about using the [CustomMapTileDataSource](custommaptiledatasource_custommaptiledatasource_1221375020.md), see the [PixelData](maptilebitmaprequest_pixeldata.md) property of the [MapTileBitmapRequest](maptilebitmaprequest.md).
 
 ## -examples
 

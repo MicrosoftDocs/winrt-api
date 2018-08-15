@@ -10,7 +10,7 @@ public interface IScrollItemProvider :
 # Windows.UI.Xaml.Automation.Provider.IScrollItemProvider
 
 ## -description
-Exposes methods and properties to support access by Microsoft UI Automation client to individual child controls of containers that implement [IScrollProvider](iscrollprovider.md). Implement this interface in order to support the capabilities that an automation client requests with a [GetPattern](../windows.ui.xaml.automation.peers/automationpeer_getpattern.md) call and [PatternInterface.ScrollItem](../windows.ui.xaml.automation.peers/patterninterface.md).
+Exposes methods and properties to support access by Microsoft UI Automation client to individual child controls of containers that implement [IScrollProvider](iscrollprovider.md). Implement this interface in order to support the capabilities that an automation client requests with a [GetPattern](../windows.ui.xaml.automation.peers/automationpeer_getpattern_2046576749.md) call and [PatternInterface.ScrollItem](../windows.ui.xaml.automation.peers/patterninterface.md).
 
 ## -remarks
 This control pattern acts as a communication channel between a child control and its container to ensure that the container can change the currently visible content (or region) within its viewport to display the child control. The pattern has guidelines and conventions that aren't fully documented here. For more info on what this pattern is for, see [ScrollItem Control Pattern](http://msdn.microsoft.com/library/ea0d7438-218c-4925-b24c-a8011f305b9d).
@@ -22,7 +22,7 @@ This control pattern acts as a communication channel between a child control and
 + internal base class of [ListViewItemDataAutomationPeer](../windows.ui.xaml.automation.peers/listviewitemdataautomationpeer.md) and [GridViewItemDataAutomationPeer](../windows.ui.xaml.automation.peers/gridviewitemdataautomationpeer.md)
 
 
-The [IScrollItemProvider](iscrollitemprovider.md) pattern doesn't have a pattern property identifier class, the only API to implement is [ScrollIntoView](iscrollitemprovider_scrollintoview.md), a method.
+The [IScrollItemProvider](iscrollitemprovider.md) pattern doesn't have a pattern property identifier class, the only API to implement is [ScrollIntoView](iscrollitemprovider_scrollintoview_1265805467.md), a method.
 
 ## -examples
 

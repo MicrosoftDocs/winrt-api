@@ -13,10 +13,10 @@ public Windows.UI.Input.PointerPoint AppendToStroke(Windows.UI.Input.PointerPoin
 ## -description
 Adds a new segment to the ink stroke.
 
-[AppendToStroke](inkstrokebuilder_appendtostroke.md) is called after [BeginStroke](inkstrokebuilder_beginstroke.md) and before [EndStroke](inkstrokebuilder_endstroke.md) during the [InkStroke](inkstroke.md) building process.
+[AppendToStroke](inkstrokebuilder_appendtostroke_63911598.md) is called after [BeginStroke](inkstrokebuilder_beginstroke_947510527.md) and before [EndStroke](inkstrokebuilder_endstroke_245944492.md) during the [InkStroke](inkstroke.md) building process.
 
 > [!NOTE]
-> [AppendToStroke](inkstrokebuilder_appendtostroke.md) is not supported by [InkPresenter](inkpresenter.md). Use [CreateStrokeFromInkPoints](inkstrokebuilder_createstrokefrominkpoints.md) and [SetDefaultDrawingAttributes](inkstrokebuilder_setdefaultdrawingattributes.md) to programmatically build strokes for an [InkPresenter](inkpresenter.md).
+> [AppendToStroke](inkstrokebuilder_appendtostroke_63911598.md) is not supported by [InkPresenter](inkpresenter.md). Use [CreateStrokeFromInkPoints](inkstrokebuilder_createstrokefrominkpoints_2009821049.md) and [SetDefaultDrawingAttributes](inkstrokebuilder_setdefaultdrawingattributes_1436218448.md) to programmatically build strokes for an [InkPresenter](inkpresenter.md).
 
 ## -parameters
 ### -param pointerPoint

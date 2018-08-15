@@ -21,10 +21,10 @@ Provides access to the results of a query of the files in the location that is r
 
 You can get a [storageFileQueryResult](storagefilequeryresult.md) object by calling the following methods from a [storageFolder](../windows.storage/storagefolder.md) or a [folderInformation](../windows.storage.bulkaccess/folderinformation.md) object:
 
-+ [storageFolder.createFileQuery methods](istoragefolderqueryoperations_createfilequery.md)
-+ [storageFolder.createFileQueryWithOptions method](../windows.storage/storagefolder_createfilequerywithoptions.md)
-+ [folderInformation.createFileQuery methods](../windows.storage.bulkaccess/folderinformation_createfilequery.md)
-+ [folderInformation.createFileQueryWithOptions](../windows.storage.bulkaccess/folderinformation_createfilequerywithoptions.md)
++ [storageFolder.createFileQuery methods](istoragefolderqueryoperations_createfilequery_1641434999.md)
++ [storageFolder.createFileQueryWithOptions method](../windows.storage/storagefolder_createfilequerywithoptions_2038131323.md)
++ [folderInformation.createFileQuery methods](../windows.storage.bulkaccess/folderinformation_createfilequery_1641434999.md)
++ [folderInformation.createFileQueryWithOptions](../windows.storage.bulkaccess/folderinformation_createfilequerywithoptions_2038131323.md)
 
 ## -examples
 
@@ -72,4 +72,4 @@ The `query` variable gets the [storageFileQueryResult](storagefilequeryresult.md
 
 ## -see-also
 
-[Windows.Storage.storageFolder.createFileQuery methods](istoragefolderqueryoperations_createfilequery.md), [Windows.Storage.storageFolder.createFileQueryWithOptions method](../windows.storage/storagefolder_createfilequerywithoptions.md), [Windows.Storage.BulkAccess.folderInformation.createFileQuery](../windows.storage.bulkaccess/folderinformation_createfilequery.md), [Windows.Storage.BulkAccess.folderInformation.createFileQueryWithOptions](../windows.storage.bulkaccess/folderinformation_createfilequerywithoptions.md), [File search sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620544), [Folder enumeration sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FolderEnumeration)
+[Windows.Storage.storageFolder.createFileQuery methods](istoragefolderqueryoperations_createfilequery_1641434999.md), [Windows.Storage.storageFolder.createFileQueryWithOptions method](../windows.storage/storagefolder_createfilequerywithoptions_2038131323.md), [Windows.Storage.BulkAccess.folderInformation.createFileQuery](../windows.storage.bulkaccess/folderinformation_createfilequery_1641434999.md), [Windows.Storage.BulkAccess.folderInformation.createFileQueryWithOptions](../windows.storage.bulkaccess/folderinformation_createfilequerywithoptions_2038131323.md), [File search sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620544), [Folder enumeration sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FolderEnumeration)

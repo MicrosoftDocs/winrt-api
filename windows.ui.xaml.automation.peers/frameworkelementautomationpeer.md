@@ -19,8 +19,8 @@ There is no "ControlAutomationPeer" class. [FrameworkElementAutomationPeer](fram
 <!--Maybe eventually also put this info in the Core methods, because it is overriders that most want to know the specifics of each such behavior whereas general consumers might want big picture or the semi client perspective you get from the non Core descs-->
 
 In addition to the **Core** overrides, [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) has two static utility methods that are useful for getting a peer handle from within control code, or for generating items peers from an item container peer for Microsoft UI Automation support. These are:
-+ [CreatePeerForElement](frameworkelementautomationpeer_createpeerforelement.md)
-+ [FromElement](frameworkelementautomationpeer_fromelement.md)
++ [CreatePeerForElement](frameworkelementautomationpeer_createpeerforelement_1260151463.md)
++ [FromElement](frameworkelementautomationpeer_fromelement_1666357111.md)
 
 If you have a need to define a custom automation peer and can't identify a more derived peer class that pairs up with the control or base class you are deriving the owner class from, you should base your peer on [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md). Even if the owner class isn't necessarily a [FrameworkElement](../windows.ui.xaml/frameworkelement.md), you can't practically derive peers from [AutomationPeer](automationpeer.md) directly because [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) has many overrides that provide the expected behavior for layout, automation and UI interactions. You do need to derive your owner class from [UIElement](../windows.ui.xaml/uielement.md) at least, otherwise there is no way to create the peer on automation tree load with [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md).
 
