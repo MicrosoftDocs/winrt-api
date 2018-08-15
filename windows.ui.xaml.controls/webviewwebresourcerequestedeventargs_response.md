@@ -11,7 +11,11 @@ public HttpResponseMessage Response { get;  set; }
 
 ## -description
 
+Gets or sets the response to the web resource request.
+
 ## -property-value
+
+The response to the web resource request.
 
 ## -remarks
 

@@ -11,7 +11,22 @@ public StyleSelector ItemContainerStyleSelector { get;  set; }
 
 ## -description
 
+Gets or sets a reference to a custom [StyleSelector](styleselector.md) logic class. The [StyleSelector](styleselector.md) returns different [Style](../windows.ui.xaml/style.md) values to use for the item container based on characteristics of the object being displayed.
+
+## -xaml-syntax
+
+```xaml
+<TreeView ItemContainerStyleSelector="styleSelectorReference" />
+```
+
+## -xaml-values
+
+<dl><dt>styleSelectorReference</dt><dd>styleSelectorReferenceA reference to an existing StyleSelector. Typically this is a keyed resource, which you reference through a {StaticResource} markup extension usage.</dd>
+</dl>
+
 ## -property-value
+
+A custom [StyleSelector](styleselector.md) logic class.
 
 ## -remarks
 

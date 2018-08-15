@@ -11,6 +11,8 @@ public void SplitButtonAutomationPeer.Collapse()
 
 ## -description
 
+Hides the control's drop down menu.
+
 ## -remarks
 
 ## -see-also

@@ -11,6 +11,8 @@ public void ToggleSplitButtonAutomationPeer.Collapse()
 
 ## -description
 
+Hides the control's drop down menu.
+
 ## -remarks
 
 ## -see-also

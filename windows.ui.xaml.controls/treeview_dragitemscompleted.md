@@ -11,7 +11,17 @@ public event TypedEventHandler DragItemsCompleted<TreeView, TreeViewDragItemsCom
 
 ## -description
 
+Occurs when a drag operation that involves one of the items in the view is ended.
+
+## -xaml-syntax
+
+```xaml
+<TreeView DragItemsCompleted="eventhandler"/>
+```
+
 ## -remarks
+
+To receive this event, set the [CanDragItems](treeview_candragitems) property to **true**.
 
 ## -see-also
 

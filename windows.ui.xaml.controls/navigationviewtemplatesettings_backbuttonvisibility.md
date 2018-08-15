@@ -11,7 +11,11 @@ public Visibility BackButtonVisibility { get; }
 
 ## -description
 
+Gets the visibility of the back button.
+
 ## -property-value
+
+The visibility of the back button.
 
 ## -remarks
 

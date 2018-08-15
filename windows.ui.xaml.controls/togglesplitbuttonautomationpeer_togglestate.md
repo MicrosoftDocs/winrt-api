@@ -11,7 +11,11 @@ public ToggleState ToggleState { get; }
 
 ## -description
 
+Gets the toggle state of the control.
+
 ## -property-value
+
+A value of the enumeration.
 
 ## -remarks
 

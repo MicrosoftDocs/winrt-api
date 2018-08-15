@@ -11,6 +11,8 @@ public void ToggleSplitButtonAutomationPeer.Toggle()
 
 ## -description
 
+Cycles through the toggle states of a control.
+
 ## -remarks
 
 ## -see-also

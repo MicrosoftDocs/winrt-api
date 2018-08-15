@@ -11,6 +11,8 @@ public class DropDownButtonAutomationPeer : ButtonAutomationPeer, ButtonAutomati
 
 ## -description
 
+Exposes [DropDownButton](dropdownbutton.md) types to Microsoft UI Automation.
+
 ## -remarks
 
 ## -see-also

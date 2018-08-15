@@ -11,9 +11,13 @@ public class TreeViewDragItemsStartingEventArgs
 
 ## -description
 
+Provides event data for the [TreeView.DragItemsStarting](treeview_dragitemsstarting.md) event.
+
 ## -remarks
 
 ## -see-also
+
+[TreeView.DragItemsStarting](treeview_dragitemsstarting.md)
 
 ## -examples
 

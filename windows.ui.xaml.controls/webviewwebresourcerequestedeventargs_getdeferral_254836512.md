@@ -11,7 +11,11 @@ public Deferral WebViewWebResourceRequestedEventArgs.GetDeferral()
 
 ## -description
 
+Gets a deferral object for managing the work done in the WebResourceRequested event handler.
+
 ## -returns
+
+A deferral object.
 
 ## -remarks
 

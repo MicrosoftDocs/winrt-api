@@ -11,7 +11,11 @@ public HttpRequestMessage Request { get; }
 
 ## -description
 
+Gets the web resource request.
+
 ## -property-value
+
+The web resource request.
 
 ## -remarks
 

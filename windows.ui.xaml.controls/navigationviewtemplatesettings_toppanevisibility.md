@@ -11,7 +11,11 @@ public Visibility TopPaneVisibility { get; }
 
 ## -description
 
+Gets the visibility of the top pane.
+
 ## -property-value
+
+The visibility of the top pane.
 
 ## -remarks
 

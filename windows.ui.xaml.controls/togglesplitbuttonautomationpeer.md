@@ -11,6 +11,8 @@ public class ToggleSplitButtonAutomationPeer : FrameworkElementAutomationPeer, F
 
 ## -description
 
+Exposes [ToggleSplitButton](togglesplitbutton.md) types to Microsoft UI Automation.
+
 ## -remarks
 
 ## -see-also

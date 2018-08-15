@@ -11,7 +11,11 @@ public object Item { get; }
 
 ## -description
 
+Gets the TreeView item that is collapsed.
+
 ## -property-value
+
+The TreeView item that is collapsed.
 
 ## -remarks
 
