@@ -11,10 +11,16 @@ public void IXamlBindScopeDiagnostics.Disable(Int32 lineNumber, Int32 columnNumb
 
 ## -description
 
+Disables a binding while running in a debugger.
+
 ## -parameters
 ### -param lineNumber
 
+The line number of the x:Bind in the XAML source file.
+
 ### -param columnNumber
+
+The column number of the x:Bind in the XAML source file.
 
 ## -remarks
 
