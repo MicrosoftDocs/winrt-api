@@ -11,7 +11,11 @@ public double OpenAnimationEndPosition { get; }
 
 ## -description
 
+Gets the end position for the open animation.
+
 ## -property-value
+
+The end position for the animation.
 
 ## -remarks
 

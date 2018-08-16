@@ -11,7 +11,11 @@ public bool IsOpen { get; }
 
 ## -description
 
+Gets a value that indicates whether the flyout is open.
+
 ## -property-value
+
+**true** if the flyout is open; otherwise, **false**.
 
 ## -remarks
 

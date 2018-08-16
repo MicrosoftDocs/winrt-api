@@ -11,7 +11,11 @@ public double ExpandUpAnimationEndPosition { get; }
 
 ## -description
 
+Gets the end position for the expand up animation.
+
 ## -property-value
+
+The end position for the animation.
 
 ## -remarks
 

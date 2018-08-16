@@ -11,6 +11,8 @@ public class NavigationViewItemPresenter : ContentControl, ContentControl
 
 ## -description
 
+Represents the visual elements of a NavigationViewItem.
+
 ## -remarks
 
 ## -see-also

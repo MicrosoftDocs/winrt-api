@@ -11,7 +11,11 @@ public IReference<Point> Position { get;  set; }
 
 ## -description
 
+Gets or sets the position where the flyout opens.
+
 ## -property-value
+
+The position where the flyout opens.
 
 ## -remarks
 

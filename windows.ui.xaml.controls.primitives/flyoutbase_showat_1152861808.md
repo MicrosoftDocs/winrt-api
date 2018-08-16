@@ -11,10 +11,17 @@ public void FlyoutBase.ShowAt(DependencyObject placementTarget, FlyoutShowOption
 
 ## -description
 
+Shows the flyout placed in relation to the specified element using the specified options.
+
 ## -parameters
+
 ### -param placementTarget
 
+The element to use as the flyout's placement target.
+
 ### -param showOptions
+
+The options to use when showing the flyout.
 
 ## -remarks
 

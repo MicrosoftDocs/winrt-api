@@ -11,7 +11,11 @@ public double ExpandedWidth { get; }
 
 ## -description
 
+Gets the width of the control when expanded.
+
 ## -property-value
+
+The width of the control when expanded.
 
 ## -remarks
 

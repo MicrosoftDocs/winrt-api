@@ -11,7 +11,11 @@ public double ExpandUpAnimationHoldPosition { get; }
 
 ## -description
 
+Gets the hold position for the expand up animation.
+
 ## -property-value
+
+The hold position for the animation.
 
 ## -remarks
 

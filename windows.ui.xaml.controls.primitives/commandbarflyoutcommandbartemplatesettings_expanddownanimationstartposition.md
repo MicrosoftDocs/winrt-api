@@ -11,7 +11,11 @@ public double ExpandDownAnimationStartPosition { get; }
 
 ## -description
 
+Gets the start position for the expand down animation.
+
 ## -property-value
+
+The start position for the animation.
 
 ## -remarks
 

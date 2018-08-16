@@ -11,7 +11,11 @@ public IReference<FlyoutPlacementMode> Placement { get;  set; }
 
 ## -description
 
+Gets or sets a value that indicates where the flyout is placed in relation to it's target element.
+
 ## -property-value
+
+A value of the enumeration that indicates where the flyout is placed in relation to it's target element.
 
 ## -remarks
 
