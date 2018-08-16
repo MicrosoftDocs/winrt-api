@@ -11,7 +11,11 @@ public double ExpandDownAnimationHoldPosition { get; }
 
 ## -description
 
+Gets the hold position for the expand down animation.
+
 ## -property-value
+
+The hold position for the animation.
 
 ## -remarks
 

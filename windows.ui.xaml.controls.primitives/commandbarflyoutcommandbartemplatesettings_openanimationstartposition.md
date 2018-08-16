@@ -11,7 +11,11 @@ public double OpenAnimationStartPosition { get; }
 
 ## -description
 
+Gets the start position for the open animation.
+
 ## -property-value
+
+The start position for the animation.
 
 ## -remarks
 

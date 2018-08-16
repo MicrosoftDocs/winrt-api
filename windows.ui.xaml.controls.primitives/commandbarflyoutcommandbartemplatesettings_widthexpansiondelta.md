@@ -11,7 +11,11 @@ public double WidthExpansionDelta { get; }
 
 ## -description
 
+Gets the amount of change for the width expansion.
+
 ## -property-value
+
+The amount of change for the width expansion.
 
 ## -remarks
 

@@ -11,7 +11,11 @@ public double ExpandUpOverflowVerticalPosition { get; }
 
 ## -description
 
+Gets the vertical position of the overflow when expanded up.
+
 ## -property-value
+
+The vertical position of the overflow when expanded up.
 
 ## -remarks
 

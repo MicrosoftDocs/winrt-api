@@ -11,7 +11,11 @@ public double CurrentWidth { get; }
 
 ## -description
 
+Gets the current width of the control.
+
 ## -property-value
+
+The current width of the control.
 
 ## -remarks
 

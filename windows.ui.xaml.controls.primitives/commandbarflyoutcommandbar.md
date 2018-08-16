@@ -11,6 +11,8 @@ public class CommandBarFlyoutCommandBar : CommandBar, CommandBar
 
 ## -description
 
+Represents a specialized command bar used in a CommandBarFlyout.
+
 ## -remarks
 
 ## -see-also

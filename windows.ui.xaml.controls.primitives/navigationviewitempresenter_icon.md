@@ -11,7 +11,11 @@ public IconElement Icon { get;  set; }
 
 ## -description
 
+Gets or sets the icon in a NavigationView item.
+
 ## -property-value
+
+The NavigationView item's icon.
 
 ## -remarks
 

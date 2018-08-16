@@ -11,7 +11,11 @@ public Rect ContentClipRect { get; }
 
 ## -description
 
+Gets the rectangle used to clip the content.
+
 ## -property-value
+
+The rectangle used to clip the content.
 
 ## -remarks
 

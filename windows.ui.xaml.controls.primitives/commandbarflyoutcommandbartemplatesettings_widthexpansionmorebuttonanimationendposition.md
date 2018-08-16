@@ -11,7 +11,11 @@ public double WidthExpansionMoreButtonAnimationEndPosition { get; }
 
 ## -description
 
+Gets the end position for the "more" button width expansion animation.
+
 ## -property-value
+
+The end position for the animation.
 
 ## -remarks
 

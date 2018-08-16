@@ -11,6 +11,8 @@ public class FlyoutShowOptions : DependencyObject, DependencyObject
 
 ## -description
 
+Represents the options used to show a flyout.
+
 ## -remarks
 
 ## -see-also

@@ -11,7 +11,11 @@ public Rect OverflowContentClipRect { get; }
 
 ## -description
 
+Gets the rectangle used to clip the overflow content.
+
 ## -property-value
+
+The rectangle used to clip the overflow content.
 
 ## -remarks
 
