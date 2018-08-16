@@ -11,7 +11,11 @@ public IXamlType BoxedType { get; }
 
 ## -description
 
+Gets the [IXamlType](ixamltype.md) for the boxed type of the XAML type. Determination of this value is based on the underlying type for core types.
+
 ## -property-value
+
+The [IXamlType](ixamltype.md) for the boxed type of the XAML type.
 
 ## -remarks
 
