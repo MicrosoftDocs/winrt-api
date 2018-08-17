@@ -10,17 +10,17 @@ public bool AlwaysOn { get;  set; }
 # Windows.Networking.Vpn.VpnNativeProfile.AlwaysOn
 
 ## -description
-Gets or sets the AlwayOn property. If true, indicates that the VPN profile is always connected.
+Gets or sets a value that indicates whether the profile is for [Always On VPN](https://docs.microsoft.com/windows-server/remote/remote-access/vpn/always-on-vpn/).
 
 ## -property-value
-If the VPN profile is an AlwaysOn profile, it is TRUE; otherwise , it is FALSE.
+`true` if the VPN profile is always connected, otherwise `false`.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
-
+[Remote Access Always On VPN](https://docs.microsoft.com/windows-server/remote/remote-access/vpn/always-on-vpn/)
 
 ## -capabilities
 networkingVpnProvider
