@@ -28,16 +28,8 @@ The most appropriate string value of the specified resource for the default [Res
 ## -remarks
 <!--Writer todo: remarks: discuss when to use GetString vs. GetStringByReference.-->
 
-
-Example:
-
-```javascript
-var string = resourceLoader.getString('Header1');
-```
-
-
-
 ## -examples
+See the example in [ResourceLoader](resourceloader.md).
 
 ## -see-also
 [ResourceContext](../windows.applicationmodel.resources.core/resourcecontext.md)
