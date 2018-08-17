@@ -11,7 +11,11 @@ public bool CanContentRenderOutsideBounds { get;  set; }
 
 ## -description
 
+Gets or sets a value that indicates whether scrolled content can render outside the bounds of the ScrollViewer.
+
 ## -property-value
+
+**true** if scrolled content can render outside the bounds of the ScrollViewer; otherwise, **false**. The default is **false**.
 
 ## -remarks
 
