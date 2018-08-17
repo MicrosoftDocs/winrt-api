@@ -11,10 +11,17 @@ public enum NavigationViewSelectionFollowsFocus : int
 
 ## -description
 
+Defines constants that specify whether item selection changes when keyboard focus changes in a NavigationView.
+
 ## -enum-fields
+
 ### -field Enabled:1
 
+Selection changes when keyboard focus changes.
+
 ### -field Disabled:0
+
+Selection does not change when keyboard focus changes.
 
 ## -remarks
 

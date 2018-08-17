@@ -9,6 +9,8 @@ public class AppBarElementContainer : ContentControl, ContentControl, ICommandBa
 
 # Windows.UI.Xaml.Controls.AppBarElementContainer
 
+## -description
+
 Represents a container that allows an element that doesn't implement ICommandBarElement to be displayed in a command bar.
 
 ## -xaml-syntax

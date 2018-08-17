@@ -11,14 +11,19 @@ public TreeViewNode TreeView.NodeFromContainer(DependencyObject container)
 
 ## -description
 
+Returns the TreeViewNode corresponding to the specified container.
+
 ## -parameters
 ### -param container
 
+The container to retrieve the TreeViewNode for.
+
 ## -returns
+
+The node that corresponds to the specified container.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

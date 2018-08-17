@@ -11,6 +11,8 @@ public class MenuBarItemFlyout : MenuFlyout, MenuFlyout
 
 ## -description
 
+Represents the flyout of a MenuBar item.
+
 ## -remarks
 
 ## -see-also
