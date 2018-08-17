@@ -37,20 +37,16 @@ You can subscribe to published messages using the [SubscribeForMessage](proximit
 
 You can use the [PublishMessage](proximitydevice_publishmessage_1881696512.md) method to publish a text message to a proximate computer. You can use the [PublishUriMessage](proximitydevice_publishurimessage_632953271.md) method to publish a Uniform Resource Identifier (URI) to a proximate computer.
 
-
-
 > [!IMPORTANT]
 > The proximity APIs do not provide authentication, encryption, or message integrity. Do not use proximity to exchange user sensitive information such as passwords, financial data, text messages, email, photographs, or government id numbers.
-
 
 <!--Changing the content of this topic to try to force a snippet rebuild, for a code change for TFS 2412443-->
 
 ### Message Types
 
-For details on the types of messages that you can publish with the [PublishBinaryMessage(String, IBuffer, MessageTransmittedHandler)](proximitydevice_publishbinarymessage_374148007.md) method, see the remarks in the [PublishBinaryMessage(String, IBuffer)](proximitydevice_publishbinarymessage_285088637.md) reference topic.
+For details on the types of messages that you can publish with the [PublishBinaryMessage(String, IBuffer, MessageTransmittedHandler)](proximitydevice_publishbinarymessage_374148007.md) method, see the remarks in the [PublishBinaryMessage(String, IBuffer)](proximitydevice_publishbinarymessage_285088637.md) topic.
 
 ## -examples
-
 
 [!code-csharp[LaunchAppWriteTag1](../windows.networking.proximity/code/Proximity_PublishBinaryMessage/csharp/MainPage.xaml.cs#SnippetLaunchAppWriteTag1)]
 

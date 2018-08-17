@@ -27,6 +27,7 @@ A [ResourceLoader](resourceloader.md) has an implicit context that is used when 
 This method fails with an exception if it is called in a windowless thread, or if the main [ResourceMap](../windows.applicationmodel.resources.core/resourcemap.md) does not have a "resources" subtree.
 
 ## -examples
+See the example in [ResourceLoader](resourceloader.md).
 
 ## -see-also
 [GetForCurrentView(String)](resourceloader_getforcurrentview_147266590.md)
