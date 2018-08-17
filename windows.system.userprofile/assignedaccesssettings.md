@@ -11,9 +11,17 @@ public class AssignedAccessSettings
 
 ## -description
 
+Provides properties and methods to access the user's assigned access settings.
+
 ## -remarks
 
+Assigned access settings are per user and per device.
+
+Call **GetForUser** if your app supports multiple users. Call **GetDefault** if your app supports a single user.
+
 ## -see-also
+
+[Configure kiosks and digital signs on Windows desktop editions](https://docs.microsoft.com/windows/configuration/kiosk-methods)
 
 ## -examples
 

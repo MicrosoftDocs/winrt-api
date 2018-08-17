@@ -11,11 +11,17 @@ public bool IsSingleAppKioskMode { get; }
 
 ## -description
 
+Gets a value that indicates whether the kiosk account is configured as a single-app kiosk.
+
 ## -property-value
+
+**true** if the kiosk account is configured as a single-app kiosk.; otherwise, **false**.
 
 ## -remarks
 
 ## -see-also
+
+[Set up a single-app kiosk](https://docs.microsoft.com/windows/configuration/kiosk-single-app), [Set up a multi-app kiosk](https://docs.microsoft.com/windows/configuration/lock-down-windows-10-to-specific-apps)
 
 ## -examples
 

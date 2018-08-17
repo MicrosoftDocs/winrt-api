@@ -11,7 +11,11 @@ public AssignedAccessSettings AssignedAccessSettings.GetDefault()
 
 ## -description
 
+Retrieves the default assigned access settings.
+
 ## -returns
+
+A settings object that contains the user's current assigned access settings.
 
 ## -remarks
 

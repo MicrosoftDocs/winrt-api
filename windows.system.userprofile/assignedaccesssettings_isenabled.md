@@ -11,7 +11,11 @@ public bool IsEnabled { get; }
 
 ## -description
 
+Gets a value that indicates whether the user has configured _Assigned Access_ in the Windows settings.
+
 ## -property-value
+
+**true** if assigned access is configured; otherwise, **false**.
 
 ## -remarks
 

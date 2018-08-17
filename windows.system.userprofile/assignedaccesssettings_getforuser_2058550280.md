@@ -11,10 +11,17 @@ public AssignedAccessSettings AssignedAccessSettings.GetForUser(User user)
 
 ## -description
 
+Retrieves the assigned access settings for the specified user.
+
 ## -parameters
+
 ### -param user
 
+The user to get settings for.
+
 ## -returns
+
+A settings object that contains the user's current assigned access settings.
 
 ## -remarks
 
