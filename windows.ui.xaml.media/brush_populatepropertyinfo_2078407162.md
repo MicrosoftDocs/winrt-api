@@ -11,10 +11,16 @@ public void Brush.PopulatePropertyInfo(String propertyName, AnimationPropertyInf
 
 ## -description
 
+Defines a property that can be animated.
+
 ## -parameters
 ### -param propertyName
 
+The property that can be animated.
+
 ### -param propertyInfo
+
+Information about the property to be animated.
 
 ## -remarks
 

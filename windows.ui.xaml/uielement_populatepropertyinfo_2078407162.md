@@ -11,14 +11,22 @@ public void UIElement.PopulatePropertyInfo(String propertyName, AnimationPropert
 
 ## -description
 
+Defines a property that can be animated.
+
 ## -parameters
 ### -param propertyName
 
+The property that can be animated.
+
 ### -param propertyInfo
+
+Information about the property to be animated.
 
 ## -remarks
 
 ## -see-also
+
+[UIElement.StartAnimation](uielement_startanimation_466567403.md)
 
 ## -examples
 
