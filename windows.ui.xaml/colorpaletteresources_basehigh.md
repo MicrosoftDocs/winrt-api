@@ -11,7 +11,11 @@ public IReference<Color> BaseHigh { get;  set; }
 
 ## -description
 
+Gets or sets the BaseHigh color value.
+
 ## -property-value
+
+The BaseHigh color value.
 
 ## -remarks
 

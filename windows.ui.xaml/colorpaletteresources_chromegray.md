@@ -11,7 +11,11 @@ public IReference<Color> ChromeGray { get;  set; }
 
 ## -description
 
+Gets or sets the ChromeGray color value.
+
 ## -property-value
+
+The ChromeGray color value.
 
 ## -remarks
 

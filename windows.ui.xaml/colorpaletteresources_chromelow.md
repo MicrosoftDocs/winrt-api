@@ -11,7 +11,11 @@ public IReference<Color> ChromeLow { get;  set; }
 
 ## -description
 
+Gets or sets the ChromeLow color value.
+
 ## -property-value
+
+The ChromeLow color value.
 
 ## -remarks
 

@@ -11,7 +11,11 @@ public IReference<Color> AltMedium { get;  set; }
 
 ## -description
 
+Gets or sets the AltMedium color value.
+
 ## -property-value
+
+The AltMedium color value.
 
 ## -remarks
 

@@ -11,7 +11,11 @@ public IReference<Color> ChromeAltLow { get;  set; }
 
 ## -description
 
+Gets or sets the ChromeAltLow color value.
+
 ## -property-value
+
+The ChromeAltLow color value.
 
 ## -remarks
 

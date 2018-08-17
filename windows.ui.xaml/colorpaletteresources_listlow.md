@@ -11,7 +11,11 @@ public IReference<Color> ListLow { get;  set; }
 
 ## -description
 
+Gets or sets the ListLow color value.
+
 ## -property-value
+
+The ListLow color value.
 
 ## -remarks
 
