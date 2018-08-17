@@ -11,7 +11,11 @@ public object Item { get; }
 
 ## -description
 
+Gets the data item for the tree view node that is expanding.
+
 ## -property-value
+
+The data item for the tree view node that is expanding.
 
 ## -remarks
 

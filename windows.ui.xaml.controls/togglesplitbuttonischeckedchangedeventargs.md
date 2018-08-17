@@ -11,9 +11,13 @@ public class ToggleSplitButtonIsCheckedChangedEventArgs
 
 ## -description
 
+Provides event data for the [ToggleSplitButton.IsCheckedChanged](togglesplitbutton_ischeckedchanged.md) event.
+
 ## -remarks
 
 ## -see-also
+
+[ToggleSplitButton.IsCheckedChanged](togglesplitbutton_ischeckedchanged.md)
 
 ## -examples
 
