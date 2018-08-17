@@ -11,14 +11,22 @@ virtual protected void UIElement.PopulatePropertyInfoOverride(String propertyNam
 
 ## -description
 
+When overridden in a derived class, defines a property that can be animated.
+
 ## -parameters
 ### -param propertyName
 
+The property that can be animated.
+
 ### -param animationPropertyInfo
+
+Information about the property to be animated.
 
 ## -remarks
 
 ## -see-also
+
+[UIElement.StartAnimation](uielement_startanimation_466567403.md)
 
 ## -examples
 
