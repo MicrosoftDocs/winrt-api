@@ -11,7 +11,11 @@ public IReference<Color> AltMediumLow { get;  set; }
 
 ## -description
 
+Gets or sets the AltMediumLow color value.
+
 ## -property-value
+
+The AltMediumLow color value.
 
 ## -remarks
 

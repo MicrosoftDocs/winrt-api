@@ -11,7 +11,11 @@ public IReference<Color> ChromeBlackMedium { get;  set; }
 
 ## -description
 
+Gets or sets the ChromeBlackMedium color value.
+
 ## -property-value
+
+The ChromeBlackMedium color value.
 
 ## -remarks
 

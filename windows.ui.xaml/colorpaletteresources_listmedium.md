@@ -11,7 +11,11 @@ public IReference<Color> ListMedium { get;  set; }
 
 ## -description
 
+Gets or sets the ListMedium color value.
+
 ## -property-value
+
+The ListMedium color value.
 
 ## -remarks
 

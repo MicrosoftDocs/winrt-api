@@ -11,7 +11,11 @@ public IReference<Color> ChromeDisabledHigh { get;  set; }
 
 ## -description
 
+Gets or sets the ChromeDisabledHigh color value.
+
 ## -property-value
+
+The ChromeDisabledHigh color value.
 
 ## -remarks
 

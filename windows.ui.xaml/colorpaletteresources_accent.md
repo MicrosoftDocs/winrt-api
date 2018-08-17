@@ -11,7 +11,11 @@ public IReference<Color> Accent { get;  set; }
 
 ## -description
 
+Gets or sets the Accent color value.
+
 ## -property-value
+
+The Accent color value.
 
 ## -remarks
 
