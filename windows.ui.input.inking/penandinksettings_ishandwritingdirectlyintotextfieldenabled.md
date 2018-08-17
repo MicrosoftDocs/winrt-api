@@ -11,11 +11,16 @@ public bool IsHandwritingDirectlyIntoTextFieldEnabled { get; }
 
 ## -description
 
+Gets whether ink can be used for text input in a text control (when [HandwritingView](..\windows.ui.xaml.controls\handwritingview.md) is enabled).
+
 ## -property-value
 
+True if ink can be used for text input. Otherwise, false.
+
 ## -remarks
+
+This value can be set by the user through the *Pen & Windows Ink* settings screen.
 
 ## -see-also
 
 ## -examples
-
