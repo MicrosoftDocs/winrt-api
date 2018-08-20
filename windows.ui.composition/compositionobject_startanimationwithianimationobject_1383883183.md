@@ -11,12 +11,20 @@ public void CompositionObject.StartAnimationWithIAnimationObject(IAnimationObjec
 
 ## -description
 
+Connects an animation with the specified property of the target object and starts the animation.
+
 ## -parameters
 ### -param target
 
+The object that defines the property to be animated.
+
 ### -param propertyName
 
+The property to associate the animation with.
+
 ### -param animation
+
+The animation to associate with the specified property.
 
 ## -remarks
 

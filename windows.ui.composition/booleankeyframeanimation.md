@@ -11,6 +11,8 @@ public class BooleanKeyFrameAnimation : KeyFrameAnimation, KeyFrameAnimation
 
 ## -description
 
+A time-based animation that targets a Boolean property with one or more key frames.
+
 ## -remarks
 
 ## -see-also

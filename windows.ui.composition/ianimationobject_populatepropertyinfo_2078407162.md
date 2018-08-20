@@ -11,10 +11,16 @@ public void IAnimationObject.PopulatePropertyInfo(String propertyName, Animation
 
 ## -description
 
+Defines a property that can be animated.
+
 ## -parameters
 ### -param propertyName
 
+The property that can be animated.
+
 ### -param propertyInfo
+
+Information about the property to be animated.
 
 ## -remarks
 

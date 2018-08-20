@@ -11,7 +11,11 @@ public BooleanKeyFrameAnimation Compositor.CreateBooleanKeyFrameAnimation()
 
 ## -description
 
+Creates an instance of [BooleanKeyFrameAnimation](booleankeyframeanimation.md).
+
 ## -returns
+
+Returns the created [BooleanKeyFrameAnimation](booleankeyframeanimation.md) object.
 
 ## -remarks
 

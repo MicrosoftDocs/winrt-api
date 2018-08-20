@@ -11,6 +11,8 @@ public interface IAnimationObject
 
 ## -description
 
+Represents an object that has properties that can be referenced by an animation.
+
 ## -remarks
 
 ## -see-also
