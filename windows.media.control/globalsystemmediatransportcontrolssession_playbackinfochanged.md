@@ -10,6 +10,7 @@ public event TypedEventHandler PlaybackInfoChanged<GlobalSystemMediaTransportCon
 # Windows.Media.Control.GlobalSystemMediaTransportControlsSession.PlaybackInfoChanged
 
 ## -description
+Occurs when the sessions playback info has changed.
 
 ## -remarks
 

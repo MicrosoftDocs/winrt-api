@@ -10,8 +10,10 @@ public string Title { get; }
 # Windows.Media.Control.GlobalSystemMediaTransportControlsSessionMediaProperties.Title
 
 ## -description
+Gets the title.
 
 ## -property-value
+The title.
 
 ## -remarks
 

@@ -10,8 +10,10 @@ public GlobalSystemMediaTransportControlsSessionPlaybackControls Controls { get;
 # Windows.Media.Control.GlobalSystemMediaTransportControlsSessionPlaybackInfo.Controls
 
 ## -description
+Specifies which controls the session has enabled.
 
 ## -property-value
+A GlobalSystemMediaTransportControlsSessionPlaybackControls object.
 
 ## -remarks
 

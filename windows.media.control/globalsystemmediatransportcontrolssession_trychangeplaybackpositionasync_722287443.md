@@ -10,11 +10,14 @@ public IAsyncOperation<bool> GlobalSystemMediaTransportControlsSession.TryChange
 # Windows.Media.Control.GlobalSystemMediaTransportControlsSession.TryChangePlaybackPositionAsync
 
 ## -description
+Attempts to change the playback position on the session to the requested value.
 
 ## -parameters
 ### -param requestedPlaybackPosition
+The requested playback position to seek to.
 
 ## -returns
+Bool indicating success.
 
 ## -remarks
 

@@ -10,11 +10,14 @@ public IAsyncOperation<bool> GlobalSystemMediaTransportControlsSession.TryChange
 # Windows.Media.Control.GlobalSystemMediaTransportControlsSession.TryChangeShuffleActiveAsync
 
 ## -description
+Attempts to change whether the session is actively shuffling or not.
 
 ## -parameters
 ### -param requestedShuffleState
+The requested shuffle state to switch to.
 
 ## -returns
+Bool indicating success.
 
 ## -remarks
 

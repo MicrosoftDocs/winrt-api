@@ -10,6 +10,7 @@ public event TypedEventHandler MediaPropertiesChanged<GlobalSystemMediaTransport
 # Windows.Media.Control.GlobalSystemMediaTransportControlsSession.MediaPropertiesChanged
 
 ## -description
+Occurs when the sessions MediaProperties have changed.
 
 ## -remarks
 

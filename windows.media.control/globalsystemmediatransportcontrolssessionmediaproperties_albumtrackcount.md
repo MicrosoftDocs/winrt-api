@@ -10,8 +10,10 @@ public int AlbumTrackCount { get; }
 # Windows.Media.Control.GlobalSystemMediaTransportControlsSessionMediaProperties.AlbumTrackCount
 
 ## -description
+Gets the total number of tracks on the album.
 
 ## -property-value
+The total number of tracks on the album.
 
 ## -remarks
 

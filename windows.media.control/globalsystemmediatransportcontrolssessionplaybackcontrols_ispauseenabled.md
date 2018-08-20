@@ -10,8 +10,10 @@ public bool IsPauseEnabled { get; }
 # Windows.Media.Control.GlobalSystemMediaTransportControlsSessionPlaybackControls.IsPauseEnabled
 
 ## -description
+Whether the session currently supports the pause command.
 
 ## -property-value
+true if pause is supported; otherwise, false.
 
 ## -remarks
 

@@ -10,8 +10,10 @@ public bool IsNextEnabled { get; }
 # Windows.Media.Control.GlobalSystemMediaTransportControlsSessionPlaybackControls.IsNextEnabled
 
 ## -description
+Whether the session currently supports the next command.
 
 ## -property-value
+true if next is supported; otherwise, false.
 
 ## -remarks
 

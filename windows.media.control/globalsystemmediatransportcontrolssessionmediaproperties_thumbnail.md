@@ -10,8 +10,10 @@ public IRandomAccessStreamReference Thumbnail { get; }
 # Windows.Media.Control.GlobalSystemMediaTransportControlsSessionMediaProperties.Thumbnail
 
 ## -description
+A reference to a RandomAccessStream of the thumbnail image associated with this content.
 
 ## -property-value
+The thumbnail image.
 
 ## -remarks
 

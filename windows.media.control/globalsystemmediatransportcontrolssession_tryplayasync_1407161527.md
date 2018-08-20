@@ -10,8 +10,10 @@ public IAsyncOperation<bool> GlobalSystemMediaTransportControlsSession.TryPlayAs
 # Windows.Media.Control.GlobalSystemMediaTransportControlsSession.TryPlayAsync
 
 ## -description
+Attempts to request the session to start playback.
 
 ## -returns
+Bool indicating success.
 
 ## -remarks
 

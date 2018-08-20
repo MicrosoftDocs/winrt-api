@@ -10,8 +10,10 @@ public IAsyncOperation<bool> GlobalSystemMediaTransportControlsSession.TryChange
 # Windows.Media.Control.GlobalSystemMediaTransportControlsSession.TryChangeChannelUpAsync
 
 ## -description
+Attempts to change the channel up on the session.
 
 ## -returns
+Bool indicating success.
 
 ## -remarks
 

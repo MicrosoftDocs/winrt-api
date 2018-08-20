@@ -11,7 +11,10 @@ public GlobalSystemMediaTransportControlsSessionTimelineProperties GlobalSystemM
 
 ## -description
 
+Gets the GlobalSystemMediaTransportControlsSessionTimelineProperties instance that represents this sessions timeline state.
+
 ## -returns
+The object representing the timeline property values.
 
 ## -remarks
 

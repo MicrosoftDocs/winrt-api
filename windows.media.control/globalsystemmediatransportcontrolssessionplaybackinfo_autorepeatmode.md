@@ -10,8 +10,10 @@ public IReference<MediaPlaybackAutoRepeatMode> AutoRepeatMode { get; }
 # Windows.Media.Control.GlobalSystemMediaTransportControlsSessionPlaybackInfo.AutoRepeatMode
 
 ## -description
+Specifies the repeat mode of the session. 
 
 ## -property-value
+A value representing the current auto-repeat mode.
 
 ## -remarks
 

@@ -10,8 +10,10 @@ public GlobalSystemMediaTransportControlsSession GlobalSystemMediaTransportContr
 # Windows.Media.Control.GlobalSystemMediaTransportControlsSessionManager.GetCurrentSession
 
 ## -description
+Gets the current session. This is the session the system believes the user would most likely want to control. 
 
 ## -returns
+A session object that represents this remote session.
 
 ## -remarks
 

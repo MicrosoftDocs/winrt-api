@@ -10,8 +10,10 @@ public IAsyncOperation<bool> GlobalSystemMediaTransportControlsSession.TrySkipNe
 # Windows.Media.Control.GlobalSystemMediaTransportControlsSession.TrySkipNextAsync
 
 ## -description
+Attempts to request the session to skip next.
 
 ## -returns
+Bool indicating success.
 
 ## -remarks
 

@@ -10,8 +10,10 @@ public bool IsRewindEnabled { get; }
 # Windows.Media.Control.GlobalSystemMediaTransportControlsSessionPlaybackControls.IsRewindEnabled
 
 ## -description
+Whether the session currently supports the rewind command.
 
 ## -property-value
+true if rewind is supported; otherwise, false.
 
 ## -remarks
 

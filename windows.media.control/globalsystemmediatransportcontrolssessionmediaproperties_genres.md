@@ -10,8 +10,10 @@ public IVectorView<string> Genres { get; }
 # Windows.Media.Control.GlobalSystemMediaTransportControlsSessionMediaProperties.Genres
 
 ## -description
+Gets the list of genres.
 
 ## -property-value
+A list of all strings representing the genres.
 
 ## -remarks
 

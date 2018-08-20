@@ -10,8 +10,10 @@ public bool IsPlayPauseToggleEnabled { get; }
 # Windows.Media.Control.GlobalSystemMediaTransportControlsSessionPlaybackControls.IsPlayPauseToggleEnabled
 
 ## -description
+Whether the session currently supports the play pause toggle command (where play or pause is picked depending on state).
 
 ## -property-value
+true if play pause toggle is supported; otherwise, false.
 
 ## -remarks
 

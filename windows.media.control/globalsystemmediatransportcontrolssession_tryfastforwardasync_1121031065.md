@@ -10,8 +10,10 @@ public IAsyncOperation<bool> GlobalSystemMediaTransportControlsSession.TryFastFo
 # Windows.Media.Control.GlobalSystemMediaTransportControlsSession.TryFastForwardAsync
 
 ## -description
+Attempts to put the session into a FastForward state.
 
 ## -returns
+Bool indicating success.
 
 ## -remarks
 

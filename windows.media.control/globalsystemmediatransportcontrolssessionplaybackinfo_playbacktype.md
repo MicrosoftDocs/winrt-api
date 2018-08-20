@@ -10,8 +10,10 @@ public IReference<MediaPlaybackType> PlaybackType { get; }
 # Windows.Media.Control.GlobalSystemMediaTransportControlsSessionPlaybackInfo.PlaybackType
 
 ## -description
+Specifies what type of content the session has.
 
 ## -property-value
+The playback type.
 
 ## -remarks
 

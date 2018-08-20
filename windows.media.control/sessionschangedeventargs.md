@@ -10,6 +10,7 @@ public class SessionsChangedEventArgs
 # Windows.Media.Control.SessionsChangedEventArgs
 
 ## -description
+Represents arguments for a SessionsChanged event.
 
 ## -remarks
 

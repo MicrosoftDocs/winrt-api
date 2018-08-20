@@ -10,8 +10,10 @@ public IAsyncOperation<bool> GlobalSystemMediaTransportControlsSession.TryPauseA
 # Windows.Media.Control.GlobalSystemMediaTransportControlsSession.TryPauseAsync
 
 ## -description
+Attempts to request the session to pause.
 
 ## -returns
+Bool indicating success.
 
 ## -remarks
 

@@ -10,6 +10,7 @@ namespace Windows.Media.Control
 # Windows.Media.Control
 
 ## -description
+Collection of APIs that allow control of different playback instances.
 
 ## -remarks
 

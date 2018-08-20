@@ -11,6 +11,8 @@ public class CurrentSessionChangedEventArgs
 
 ## -description
 
+Represents arguments for a CurrentSessionChanged event.
+
 ## -remarks
 
 ## -see-also

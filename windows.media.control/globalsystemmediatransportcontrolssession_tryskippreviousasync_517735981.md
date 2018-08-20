@@ -10,8 +10,10 @@ public IAsyncOperation<bool> GlobalSystemMediaTransportControlsSession.TrySkipPr
 # Windows.Media.Control.GlobalSystemMediaTransportControlsSession.TrySkipPreviousAsync
 
 ## -description
+Attempts to request the session to skip previous.
 
 ## -returns
+Bool indicating success.
 
 ## -remarks
 

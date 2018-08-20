@@ -10,8 +10,10 @@ public IVectorView<GlobalSystemMediaTransportControlsSession> GlobalSystemMediaT
 # Windows.Media.Control.GlobalSystemMediaTransportControlsSessionManager.GetSessions
 
 ## -description
+Gets all of the available sessions.
 
 ## -returns
+A vector of all available sessions.
 
 ## -remarks
 
