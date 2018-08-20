@@ -10,14 +10,14 @@ public IAsyncAction AppUriHandlerRegistration.SetAppAddedHostsAsync(IIterable<Ap
 # Windows.System.AppUriHandlerRegistration.SetAppAddedHostsAsync
 
 ## -description
-Registers hosts in addition to the hosts already definied in the AppxManifest.
+Registers hosts in addition to the hosts already defined in the AppxManifest.
 
 ## -parameters
 ### -param hosts
 The set of [AppUriHandlerHost](appurihandlerhost.md) objects to register.
 
 ## -returns
-Represents the asyncronous action.
+Represents the asynchronous action.
 
 ## -remarks
 This API does not override, replace, or remove entries that are registered via the AppxManifest.
@@ -25,6 +25,7 @@ This API does not override, replace, or remove entries that are registered via t
 ## -see-also
 
 ## -examples
+```csharp
 // Application logic can determine which are the new domains to register 
 // Here we just have a hardcoded list. 
 List<AppUriHandlerHost> hosts = await registration.GetAppAddedHostsAsync(); 
