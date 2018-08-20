@@ -10,10 +10,10 @@ public string ANG { get; }
 # Windows.Globalization.CurrencyIdentifiers.ANG
 
 ## -description
-Gets the currency identifier for the Netherlands Antilles Guilder.
+Gets the currency identifier for the Netherlands Antillean Guilder.
 
 ## -property-value
-The string "ANG", which identifies the Netherlands Antilles Guilder.
+The string "ANG", which identifies the Netherlands Antillean Guilder.
 
 ## -remarks
 
