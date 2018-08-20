@@ -11,7 +11,11 @@ public Visual Source { get;  set; }
 
 ## -description
 
+Gets or sets the Visual that this RedirectVisual gets its content from.
+
 ## -property-value
+
+The Visual that this RedirectVisual gets its content from. The default is **null**.
 
 ## -remarks
 

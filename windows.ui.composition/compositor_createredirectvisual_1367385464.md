@@ -11,7 +11,11 @@ public RedirectVisual Compositor.CreateRedirectVisual()
 
 ## -description
 
+Creates an instance of [RedirectVisual](redirectvisual.md).
+
 ## -returns
+
+Returns the created [RedirectVisual](redirectvisual.md) object.
 
 ## -remarks
 
