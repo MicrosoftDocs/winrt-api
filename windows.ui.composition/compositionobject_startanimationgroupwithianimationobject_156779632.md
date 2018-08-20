@@ -11,10 +11,16 @@ public void CompositionObject.StartAnimationGroupWithIAnimationObject(IAnimation
 
 ## -description
 
+Starts an animation group on the specified target.
+
 ## -parameters
 ### -param target
 
+The object that defines the property to be animated.
+
 ### -param animation
+
+The animation to associate with the specified property.
 
 ## -remarks
 

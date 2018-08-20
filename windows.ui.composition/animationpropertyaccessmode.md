@@ -11,14 +11,24 @@ public enum AnimationPropertyAccessMode : int
 
 ## -description
 
+Defines constants that specify how an animated property can be accessed.
+
 ## -enum-fields
 ### -field WriteOnly:2
 
+The property can only be written to.
+
 ### -field ReadWrite:3
+
+The property can be read or written to.
 
 ### -field ReadOnly:1
 
+The property can only be read.
+
 ### -field None:0
+
+The property cannot be accessed.
 
 ## -remarks
 
