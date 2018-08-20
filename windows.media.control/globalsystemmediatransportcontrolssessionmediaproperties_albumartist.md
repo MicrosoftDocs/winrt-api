@@ -10,8 +10,10 @@ public string AlbumArtist { get; }
 # Windows.Media.Control.GlobalSystemMediaTransportControlsSessionMediaProperties.AlbumArtist
 
 ## -description
+Gets the album's artist
 
 ## -property-value
+The name of the album artist.
 
 ## -remarks
 

@@ -10,6 +10,7 @@ public class PlaybackInfoChangedEventArgs
 # Windows.Media.Control.PlaybackInfoChangedEventArgs
 
 ## -description
+Represents arguments for a PlaybackInfoChanged event.
 
 ## -remarks
 

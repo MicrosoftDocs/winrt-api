@@ -10,8 +10,10 @@ public string AlbumTitle { get; }
 # Windows.Media.Control.GlobalSystemMediaTransportControlsSessionMediaProperties.AlbumTitle
 
 ## -description
+Gets the title of the album.
 
 ## -property-value
+The title of the album.
 
 ## -remarks
 

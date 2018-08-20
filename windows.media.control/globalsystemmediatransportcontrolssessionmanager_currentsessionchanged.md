@@ -10,6 +10,7 @@ public event TypedEventHandler CurrentSessionChanged<GlobalSystemMediaTransportC
 # Windows.Media.Control.GlobalSystemMediaTransportControlsSessionManager.CurrentSessionChanged
 
 ## -description
+Occurs when the current session has changed. This is the session that the system believes is the one the user would most likely want to control. 
 
 ## -remarks
 

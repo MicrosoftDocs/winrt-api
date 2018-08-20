@@ -10,6 +10,7 @@ public class GlobalSystemMediaTransportControlsSessionMediaProperties
 # Windows.Media.Control.GlobalSystemMediaTransportControlsSessionMediaProperties
 
 ## -description
+Holds information about the content that the current session has.
 
 ## -remarks
 

@@ -10,8 +10,10 @@ public string Subtitle { get; }
 # Windows.Media.Control.GlobalSystemMediaTransportControlsSessionMediaProperties.Subtitle
 
 ## -description
+Gets the subtitle.
 
 ## -property-value
+The subtitle of the media.
 
 ## -remarks
 

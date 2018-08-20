@@ -10,6 +10,7 @@ public class TimelinePropertiesChangedEventArgs
 # Windows.Media.Control.TimelinePropertiesChangedEventArgs
 
 ## -description
+Represents arguments for a TimelinePropertiesChanged event.
 
 ## -remarks
 

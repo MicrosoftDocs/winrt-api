@@ -10,8 +10,10 @@ public bool IsRecordEnabled { get; }
 # Windows.Media.Control.GlobalSystemMediaTransportControlsSessionPlaybackControls.IsRecordEnabled
 
 ## -description
+Whether the session currently supports the record command.
 
 ## -property-value
+True if record is supported; otherwise, false.
 
 ## -remarks
 

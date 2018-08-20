@@ -10,8 +10,10 @@ public bool IsFastForwardEnabled { get; }
 # Windows.Media.Control.GlobalSystemMediaTransportControlsSessionPlaybackControls.IsFastForwardEnabled
 
 ## -description
+Whether the session currently supports the fast forward command.
 
 ## -property-value
+True if fast forward is supported; otherwise, false.
 
 ## -remarks
 

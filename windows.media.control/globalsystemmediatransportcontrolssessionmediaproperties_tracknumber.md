@@ -10,8 +10,10 @@ public int TrackNumber { get; }
 # Windows.Media.Control.GlobalSystemMediaTransportControlsSessionMediaProperties.TrackNumber
 
 ## -description
+The number associated with this track
 
 ## -property-value
+The track number.
 
 ## -remarks
 

@@ -10,8 +10,10 @@ public bool IsChannelUpEnabled { get; }
 # Windows.Media.Control.GlobalSystemMediaTransportControlsSessionPlaybackControls.IsChannelUpEnabled
 
 ## -description
+Whether the session currently supports ChannelUp.
 
 ## -property-value
+True if channel up is supported; otherwise, false.
 
 ## -remarks
 

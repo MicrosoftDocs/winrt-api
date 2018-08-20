@@ -10,6 +10,7 @@ public class MediaPropertiesChangedEventArgs
 # Windows.Media.Control.MediaPropertiesChangedEventArgs
 
 ## -description
+Represents arguments for a MediaPropertiesChanged event.
 
 ## -remarks
 

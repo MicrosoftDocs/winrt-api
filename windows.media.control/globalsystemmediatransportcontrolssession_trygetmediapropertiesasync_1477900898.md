@@ -10,8 +10,10 @@ public IAsyncOperation<GlobalSystemMediaTransportControlsSessionMediaProperties>
 # Windows.Media.Control.GlobalSystemMediaTransportControlsSession.TryGetMediaPropertiesAsync
 
 ## -description
+Attempts to get the media properties for this session.
 
 ## -returns
+GlobalSystemMediaTransportControlsSessionMediaProperties instance representing the session's current media item.
 
 ## -remarks
 

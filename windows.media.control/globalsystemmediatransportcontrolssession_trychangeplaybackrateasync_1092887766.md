@@ -10,11 +10,14 @@ public IAsyncOperation<bool> GlobalSystemMediaTransportControlsSession.TryChange
 # Windows.Media.Control.GlobalSystemMediaTransportControlsSession.TryChangePlaybackRateAsync
 
 ## -description
+Attempts to change the playback rate on the session to the requested value.
 
 ## -parameters
 ### -param requestedPlaybackRate
+The requested playback rate to change to
 
 ## -returns
+True indicates success; False otherwise
 
 ## -remarks
 

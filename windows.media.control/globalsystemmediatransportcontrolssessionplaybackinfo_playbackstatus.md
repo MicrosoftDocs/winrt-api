@@ -10,8 +10,10 @@ public GlobalSystemMediaTransportControlsSessionPlaybackStatus PlaybackStatus { 
 # Windows.Media.Control.GlobalSystemMediaTransportControlsSessionPlaybackInfo.PlaybackStatus
 
 ## -description
+The current playback state of the session.
 
 ## -property-value
+The playback status.
 
 ## -remarks
 

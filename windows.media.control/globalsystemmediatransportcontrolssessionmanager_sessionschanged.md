@@ -10,6 +10,7 @@ public event TypedEventHandler SessionsChanged<GlobalSystemMediaTransportControl
 # Windows.Media.Control.GlobalSystemMediaTransportControlsSessionManager.SessionsChanged
 
 ## -description
+Occurs when the list of available sessions has changed due to a new session connecting or an existing one disconnecting. 
 
 ## -remarks
 

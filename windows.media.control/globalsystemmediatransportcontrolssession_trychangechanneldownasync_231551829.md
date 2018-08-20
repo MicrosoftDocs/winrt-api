@@ -10,8 +10,10 @@ public IAsyncOperation<bool> GlobalSystemMediaTransportControlsSession.TryChange
 # Windows.Media.Control.GlobalSystemMediaTransportControlsSession.TryChangeChannelDownAsync
 
 ## -description
+Attempts to change the channel down on the session.
 
 ## -returns
+True indicates success; False otherwise
 
 ## -remarks
 

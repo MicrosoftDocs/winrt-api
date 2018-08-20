@@ -10,6 +10,7 @@ public event TypedEventHandler TimelinePropertiesChanged<GlobalSystemMediaTransp
 # Windows.Media.Control.GlobalSystemMediaTransportControlsSession.TimelinePropertiesChanged
 
 ## -description
+Occurs when the timeline properties of this session change.
 
 ## -remarks
 

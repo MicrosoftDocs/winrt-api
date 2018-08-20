@@ -10,8 +10,10 @@ public IAsyncOperation<bool> GlobalSystemMediaTransportControlsSession.TryStopAs
 # Windows.Media.Control.GlobalSystemMediaTransportControlsSession.TryStopAsync
 
 ## -description
+Attempts to request the session to stop playback.
 
 ## -returns
+True indicates success; False otherwise
 
 ## -remarks
 

@@ -10,8 +10,10 @@ public IAsyncOperation<GlobalSystemMediaTransportControlsSessionManager> GlobalS
 # Windows.Media.Control.GlobalSystemMediaTransportControlsSessionManager.RequestAsync
 
 ## -description
+Requests an instance of the GlobalSystemMediaTransportControlsSessionManager.
 
 ## -returns
+A new instance of the Session Manager.
 
 ## -remarks
 

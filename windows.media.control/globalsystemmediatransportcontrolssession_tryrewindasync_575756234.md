@@ -10,8 +10,10 @@ public IAsyncOperation<bool> GlobalSystemMediaTransportControlsSession.TryRewind
 # Windows.Media.Control.GlobalSystemMediaTransportControlsSession.TryRewindAsync
 
 ## -description
+Attempts to request the session to rewind.
 
 ## -returns
+True indicates success; False otherwise
 
 ## -remarks
 
