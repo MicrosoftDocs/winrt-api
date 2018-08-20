@@ -11,6 +11,8 @@ public class IconSourceElement : IconElement, IconElement
 
 ## -description
 
+Represents an icon that uses an IconSource as its content.
+
 ## -remarks
 
 ## -see-also
