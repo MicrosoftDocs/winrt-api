@@ -10,7 +10,6 @@ public GlobalSystemMediaTransportControlsSessionTimelineProperties GlobalSystemM
 # Windows.Media.Control.GlobalSystemMediaTransportControlsSession.GetTimelineProperties
 
 ## -description
-
 Gets the GlobalSystemMediaTransportControlsSessionTimelineProperties instance that represents this sessions timeline state.
 
 ## -returns

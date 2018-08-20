@@ -13,7 +13,7 @@ public IAsyncOperation<bool> GlobalSystemMediaTransportControlsSession.TryFastFo
 Attempts to put the session into a FastForward state.
 
 ## -returns
-Bool indicating success.
+True indicates success; False otherwise
 
 ## -remarks
 

@@ -13,7 +13,7 @@ public IAsyncOperation<bool> GlobalSystemMediaTransportControlsSession.TrySkipNe
 Attempts to request the session to skip next.
 
 ## -returns
-Bool indicating success.
+True indicates success; False otherwise
 
 ## -remarks
 

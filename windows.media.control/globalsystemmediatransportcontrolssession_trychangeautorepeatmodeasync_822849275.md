@@ -12,10 +12,9 @@ public IAsyncOperation<bool> GlobalSystemMediaTransportControlsSession.TryChange
 ## -description
 Attempts to change the MediaPlaybackAutoRepeatMode on the session.
 
-
 ## -parameters
 ### -param requestedAutoRepeatMode
-The requested auto repeat mode to change to.
+The requested auto repeat mode.
 
 ## -returns
 Bool indicating success.

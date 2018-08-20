@@ -13,7 +13,6 @@ public GlobalSystemMediaTransportControlsSessionPlaybackInfo GlobalSystemMediaTr
 Gets the GlobalSystemMediaTransportControlsSessionPlaybackInfo for this session, accurate to the time of the call.
 
 ## -returns
-GlobalSystemMediaTransportControlsSessionPlaybackInfo
 The current playback info for this session.
 
 ## -remarks

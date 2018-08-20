@@ -13,7 +13,7 @@ public bool IsNextEnabled { get; }
 Whether the session currently supports the next command.
 
 ## -property-value
-true if next is supported; otherwise, false.
+True if next is supported; otherwise, false.
 
 ## -remarks
 

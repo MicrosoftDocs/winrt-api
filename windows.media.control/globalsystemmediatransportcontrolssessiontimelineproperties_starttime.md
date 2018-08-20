@@ -13,7 +13,7 @@ public TimeSpan StartTime { get; }
 The starting timestamp of the current media item.
 
 ## -property-value
-A value representing the start time of the current media item
+A value representing the start time of the current media item.
 
 ## -remarks
 

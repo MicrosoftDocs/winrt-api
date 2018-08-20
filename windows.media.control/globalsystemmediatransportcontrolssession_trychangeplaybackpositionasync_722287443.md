@@ -17,7 +17,7 @@ Attempts to change the playback position on the session to the requested value.
 The requested playback position to seek to.
 
 ## -returns
-Bool indicating success.
+True indicates success; False otherwise
 
 ## -remarks
 

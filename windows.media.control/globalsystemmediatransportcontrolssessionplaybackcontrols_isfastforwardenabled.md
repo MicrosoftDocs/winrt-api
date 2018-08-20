@@ -13,7 +13,7 @@ public bool IsFastForwardEnabled { get; }
 Whether the session currently supports the fast forward command.
 
 ## -property-value
-true if fast forward is supported; otherwise, false.
+True if fast forward is supported; otherwise, false.
 
 ## -remarks
 

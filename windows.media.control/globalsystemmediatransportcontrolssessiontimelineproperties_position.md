@@ -13,7 +13,7 @@ public TimeSpan Position { get; }
 The playback position, current as of LastUpdatedTime.
 
 ## -property-value
-A value representing the playback positon of the current media item
+A value representing the playback position of the current media item.
 
 ## -remarks
 

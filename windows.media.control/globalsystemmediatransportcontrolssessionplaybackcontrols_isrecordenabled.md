@@ -13,7 +13,7 @@ public bool IsRecordEnabled { get; }
 Whether the session currently supports the record command.
 
 ## -property-value
-true if record is supported; otherwise, false.
+True if record is supported; otherwise, false.
 
 ## -remarks
 

@@ -13,7 +13,7 @@ public TimeSpan MaxSeekTime { get; }
 The furthest timestamp at which the content can currently seek to.
 
 ## -property-value
-A value representing the max seek time of the current media item
+A value representing the max seek time of the current media item.
 
 ## -remarks
 

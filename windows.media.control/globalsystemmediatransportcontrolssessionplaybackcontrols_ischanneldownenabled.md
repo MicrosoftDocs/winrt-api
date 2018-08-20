@@ -13,7 +13,7 @@ public bool IsChannelDownEnabled { get; }
 Whether the session currently supports ChannelDown.
 
 ## -property-value
-true if channel down is supported; otherwise, false.
+True if channel down is supported; otherwise, false.
 
 ## -remarks
 

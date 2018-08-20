@@ -13,7 +13,7 @@ public IAsyncOperation<bool> GlobalSystemMediaTransportControlsSession.TryStopAs
 Attempts to request the session to stop playback.
 
 ## -returns
-Bool indicating success.
+True indicates success; False otherwise
 
 ## -remarks
 

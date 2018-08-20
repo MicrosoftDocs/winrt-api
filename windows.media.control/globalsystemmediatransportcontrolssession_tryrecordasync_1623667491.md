@@ -13,7 +13,7 @@ public IAsyncOperation<bool> GlobalSystemMediaTransportControlsSession.TryRecord
 Attempts to request that the session starts recording.
 
 ## -returns
-Bool indicating success.
+True indicates success; False otherwise
 
 ## -remarks
 

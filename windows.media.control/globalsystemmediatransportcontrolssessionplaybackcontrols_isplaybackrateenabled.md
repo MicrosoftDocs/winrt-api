@@ -13,7 +13,7 @@ public bool IsPlaybackRateEnabled { get; }
 Whether the session currently supports changing the playback rate.
 
 ## -property-value
-true if playback rate is supported; otherwise, false.
+True if playback rate is supported; otherwise, false.
 
 ## -remarks
 

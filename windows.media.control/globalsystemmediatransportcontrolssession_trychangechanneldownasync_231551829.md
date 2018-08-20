@@ -13,7 +13,7 @@ public IAsyncOperation<bool> GlobalSystemMediaTransportControlsSession.TryChange
 Attempts to change the channel down on the session.
 
 ## -returns
-Bool indicating success.
+True indicates success; False otherwise
 
 ## -remarks
 

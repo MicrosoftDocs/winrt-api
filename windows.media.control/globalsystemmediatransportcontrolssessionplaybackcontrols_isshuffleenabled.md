@@ -10,11 +10,10 @@ public bool IsShuffleEnabled { get; }
 # Windows.Media.Control.GlobalSystemMediaTransportControlsSessionPlaybackControls.IsShuffleEnabled
 
 ## -description
-
 Gets a value indicating whether the session currently allows control of its shuffle state.
 
 ## -property-value
-true if shuffle control is supported; otherwise, false.
+True if shuffle control is supported; otherwise, false.
 
 ## -remarks
 

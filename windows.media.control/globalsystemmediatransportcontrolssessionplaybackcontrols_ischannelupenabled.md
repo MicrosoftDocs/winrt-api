@@ -13,7 +13,7 @@ public bool IsChannelUpEnabled { get; }
 Whether the session currently supports ChannelUp.
 
 ## -property-value
-true if channel up is supported; otherwise, false.
+True if channel up is supported; otherwise, false.
 
 ## -remarks
 

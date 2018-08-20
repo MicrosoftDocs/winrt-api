@@ -17,7 +17,7 @@ Attempts to change whether the session is actively shuffling or not.
 The requested shuffle state to switch to.
 
 ## -returns
-Bool indicating success.
+True indicates success; False otherwise
 
 ## -remarks
 

@@ -13,7 +13,7 @@ public bool IsPlaybackPositionEnabled { get; }
 Whether the session currently supports changing the playback position.
 
 ## -property-value
-true if playback position is supported; otherwise, false.
+True if playback position is supported; otherwise, false.
 
 ## -remarks
 

@@ -13,7 +13,7 @@ public bool IsRewindEnabled { get; }
 Whether the session currently supports the rewind command.
 
 ## -property-value
-true if rewind is supported; otherwise, false.
+True if rewind is supported; otherwise, false.
 
 ## -remarks
 

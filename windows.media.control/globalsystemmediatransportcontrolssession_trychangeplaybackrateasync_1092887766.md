@@ -17,7 +17,7 @@ Attempts to change the playback rate on the session to the requested value.
 The requested playback rate to change to
 
 ## -returns
-Bool indicating success.
+True indicates success; False otherwise
 
 ## -remarks
 

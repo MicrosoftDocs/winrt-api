@@ -13,7 +13,7 @@ public bool IsPreviousEnabled { get; }
 Whether the session currently supports the previous command.
 
 ## -property-value
-true if previous is supported; otherwise, false.
+True if previous is supported; otherwise, false.
 
 ## -remarks
 

@@ -10,10 +10,10 @@ public IAsyncOperation<bool> GlobalSystemMediaTransportControlsSession.TryToggle
 # Windows.Media.Control.GlobalSystemMediaTransportControlsSession.TryTogglePlayPauseAsync
 
 ## -description
-Attempts to request the session to start or pause playback, based on it's current playback state.
+Attempts to request the session to start or pause playback, based on its current playback state.
 
 ## -returns
-Bool indicating success.
+True indicates success; False otherwise
 
 ## -remarks
 

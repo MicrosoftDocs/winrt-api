@@ -10,7 +10,6 @@ public class CurrentSessionChangedEventArgs
 # Windows.Media.Control.CurrentSessionChangedEventArgs
 
 ## -description
-
 Represents arguments for a CurrentSessionChanged event.
 
 ## -remarks

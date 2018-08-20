@@ -10,7 +10,7 @@ public string SourceAppUserModelId { get; }
 # Windows.Media.Control.GlobalSystemMediaTransportControlsSession.SourceAppUserModelId
 
 ## -description
-Gets the App user model Id of the source app that this session belongs to.
+Gets the App user model Id of the source app of the session.
 
 ## -property-value
 The app user model id.
