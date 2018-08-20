@@ -36,6 +36,7 @@ The shared storage folder has the following requirements and restrictions.
 + You cannot use this feature to share data among apps from different publishers.
 + You cannot use this feature to share data among different users.
 + The shared storage folder does not have version management.
+
 **To register an app to use the publisher's shared storage folder**
 
 Manually enter XML similar to the following example in the app manifest to register subfolders. You don't have to create these subfolders. They are automatically provisioned for you.
@@ -45,11 +46,11 @@ Manually enter XML similar to the following example in the app manifest to regis
     …
     <Extensions>
         …
-        <Extension Category=”windows.publisherCacheFolders”>
-            <PublisherCacheFolder>
-                <Folder Name="Folder1">
-                <Folder Name="Folder2">
-            </PublisherCacheFolder>
+        <Extension Category="windows.publisherCacheFolders">
+            <PublisherCacheFolders>
+                <Folder Name="Folder1"/>
+                <Folder Name="Folder2"/>
+            </PublisherCacheFolders>
         </Extension>
         …
     </Extensions>
@@ -70,6 +71,7 @@ Access to the shared storage folder has the following requirements and restricti
 + There is no default subfolder. You have to specify a subfolder when you call the [GetPublisherCacheFolder](applicationdata_getpublishercachefolder.md) method.
 + You can only access subfolders registered in the app manifest.
 + You can't access the root of the shared storage folder.
+
 **To clean up the data in the publisher's shared storage folder**
 
 Call the [ClearPublisherCacheFolderAsync](applicationdata_clearpublishercachefolderasync.md) method to clear the files and subfolders from the specified subfolder of the shared storage folder for the publisher of the current app.
