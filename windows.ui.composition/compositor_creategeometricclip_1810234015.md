@@ -11,9 +11,11 @@ public CompositionGeometricClip Compositor.CreateGeometricClip()
 
 ## -description
 
-## -returns
+Creates an instance of [CompositionGeometricClip](compositiongeometricclip.md).
 
 ## -remarks
+
+The created [CompositionGeometricClip](compositiongeometricclip.md) object.
 
 ## -see-also
 

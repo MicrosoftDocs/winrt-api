@@ -11,10 +11,16 @@ public CompositionGeometricClip Compositor.CreateGeometricClip(CompositionGeomet
 
 ## -description
 
+Creates an instance of [CompositionGeometricClip](compositiongeometricclip.md) using the specified geometry.
+
 ## -parameters
 ### -param geometry
 
+The geometry that defines the shape of the clip.
+
 ## -returns
+
+The created [CompositionGeometricClip](compositiongeometricclip.md) object.
 
 ## -remarks
 
