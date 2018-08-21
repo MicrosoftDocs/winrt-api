@@ -10,11 +10,14 @@ public TensorString TensorString.Create(IIterable<Int64> shape)
 # Windows.AI.MachineLearning.TensorString.Create
 
 ## -description
-Creates a string tensor object and allocates a buffer of size 'shape'.
+Creates a string tensor object and allocates a buffer of size *shape*.
+
 ## -parameters
 ### -param shape
+The size of the buffer.
 
 ## -returns
+A string tensor object with a buffer of the given size.
 
 ## -remarks
 

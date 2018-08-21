@@ -11,7 +11,9 @@ public IVectorView<long> Shape { get; }
 
 ## -description
 Returns the count and size of each dimension.
+
 ## -property-value
+The count and size of each dimension.
 
 ## -remarks
 

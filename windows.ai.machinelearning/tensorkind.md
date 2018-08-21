@@ -11,41 +11,59 @@ public enum TensorKind : int
 
 ## -description
 Defines the list of supported tensor data types.
+
 ## -enum-fields
 ### -field Undefined:0
-Invalid type
-### -field UInt8:2
-The tensor type is 8bit unsigned int.
-### -field UInt64:13
-The tensor type is 64bit unsigned int.
-### -field UInt32:12
-The tensor type is 32bit unsigned int.
-### -field UInt16:4
-The tensor type is 16bit unsigned int.
-### -field String:8
-The tensor type is String.
-### -field Int8:3
-The tensor type is 8bit signed int.
-### -field Int64:7
-The tensor type is 64bit signed int.
-### -field Int32:6
-The tensor type is 32bit signed int.
-### -field Int16:5
-The tensor type is 16bit signed int.
-### -field Float16:10
-The tensor type is 16bit float.
+Invalid type.
+
 ### -field Float:1
-The tensor type is 32bit float.
-### -field Double:11
-The tensor type is 64bit float.
-### -field Complex64:14
-Invalid type
-### -field Complex128:15
-Invalid type
+The tensor type is 32-bit floating point.
+
+### -field UInt8:2
+The tensor type is 8-bit unsigned integer.
+
+### -field Int8:3
+The tensor type is 8-bit signed integer.
+
+### -field UInt16:4
+The tensor type is 16-bit unsigned integer.
+
+### -field Int16:5
+The tensor type is 16-bit signed integer.
+
+### -field Int32:6
+The tensor type is 32-bit signed integer.
+
+### -field Int64:7
+The tensor type is 64-bit signed integer.
+
+### -field String:8
+The tensor type is **String**.
+
 ### -field Boolean:9
-The tensor type is Boolean.
+The tensor type is **Boolean**.
+
+### -field Float16:10
+The tensor type is 16-bit floating point.
+
+### -field Double:11
+The tensor type is 64-bit floating point.
+
+### -field UInt32:12
+The tensor type is 32-bit unsigned integer.
+
+### -field UInt64:13
+The tensor type is 64-bit unsigned integer.
+
+### -field Complex64:14
+Invalid type.
+
+### -field Complex128:15
+Invalid type.
+
 ## -remarks
 
 ## -see-also
+[Windows Machine Learning](https://docs.microsoft.com/windows/ai/), [Windows ML samples (GitHub repo)](https://github.com/Microsoft/Windows-Machine-Learning)
 
 ## -examples

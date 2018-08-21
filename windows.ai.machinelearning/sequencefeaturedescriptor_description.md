@@ -11,7 +11,9 @@ public string Description { get; }
 
 ## -description
 A description of what this feature is used for in the model.
+
 ## -property-value
+A description of what this feature is used for in the model.
 
 ## -remarks
 

@@ -11,7 +11,9 @@ public LearningModel Model { get; }
 
 ## -description
 Returns the trained machine learning model for this session.
+
 ## -property-value
+The trained machine learning model for this session.
 
 ## -remarks
 

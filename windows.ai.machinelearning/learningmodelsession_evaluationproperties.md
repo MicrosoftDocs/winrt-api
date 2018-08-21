@@ -11,7 +11,9 @@ public IPropertySet EvaluationProperties { get; }
 
 ## -description
 Set of properties that control model evaluation.
+
 ## -property-value
+Set of properties that control model evaluation.
 
 ## -remarks
 

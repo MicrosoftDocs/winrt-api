@@ -11,7 +11,9 @@ public string Name { get; }
 
 ## -description
 The name you use to bind values to this feature.
+
 ## -property-value
+The name you use to bind values to this feature.
 
 ## -remarks
 

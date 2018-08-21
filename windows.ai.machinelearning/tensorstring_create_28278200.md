@@ -11,7 +11,9 @@ public TensorString TensorString.Create()
 
 ## -description
 Creates a string tensor object without allocating a buffer.
+
 ## -returns
+A string tensor object.
 
 ## -remarks
 

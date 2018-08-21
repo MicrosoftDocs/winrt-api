@@ -10,13 +10,16 @@ public IAsyncOperation<LearningModel> LearningModel.LoadFromStreamAsync(IRandomA
 # Windows.AI.MachineLearning.LearningModel.LoadFromStreamAsync
 
 ## -description
+Loads an ONNX model from a stream asynchronously.
 
 ## -parameters
 ### -param modelStream
+The stream from which to load the model.
 
 ### -param operatorProvider
 
 ## -returns
+An object representing the model.
 
 ## -remarks
 

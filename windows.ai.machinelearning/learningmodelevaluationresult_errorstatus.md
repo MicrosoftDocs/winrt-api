@@ -11,7 +11,9 @@ public int ErrorStatus { get; }
 
 ## -description
 If the evaluation failed, returns an error code for what caused the failure.
+
 ## -property-value
+The error code for what caused the failure.
 
 ## -remarks
 

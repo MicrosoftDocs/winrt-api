@@ -10,11 +10,14 @@ public TensorDouble TensorDouble.Create(IIterable<Int64> shape)
 # Windows.AI.MachineLearning.TensorDouble.Create
 
 ## -description
-Creates a 64bit float tensor object and allocates a buffer of size 'shape'.
+Creates a 64-bit float tensor object and allocates a buffer of size *shape*.
+
 ## -parameters
 ### -param shape
+The size of the buffer.
 
 ## -returns
+A 64-bit float tensor object with a buffer of the given size.
 
 ## -remarks
 

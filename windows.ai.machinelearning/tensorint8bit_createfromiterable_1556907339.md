@@ -10,13 +10,17 @@ public TensorInt8Bit TensorInt8Bit.CreateFromIterable(IIterable<Int64> shape, II
 # Windows.AI.MachineLearning.TensorInt8Bit.CreateFromIterable
 
 ## -description
-Creates a 8bit signed int tensor object, allocates a buffer of size 'shape', and copies all of 'data' into it.
+Creates an 8-bit signed integer tensor object, allocates a buffer of size *shape*, and copies all of *data* into it.
+
 ## -parameters
 ### -param shape
+The size of the buffer.
 
 ### -param data
+The data to copy into the buffer.
 
 ## -returns
+An 8-bit signed integer tensor object with a buffer containing the given data.
 
 ## -remarks
 
