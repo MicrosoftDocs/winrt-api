@@ -10,9 +10,11 @@ public SpatialAudioDeviceConfiguration SpatialAudioDeviceConfiguration.GetForDev
 # Windows.Media.Audio.SpatialAudioDeviceConfiguration.GetForDeviceId
 
 ## -description
+Creates a SpatialAudioDeviceConfiguration for the given device ID.
 
 ## -parameters
 ### -param deviceId
+The device ID of the device to represent.
 
 ## -returns
 

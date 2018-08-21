@@ -10,6 +10,7 @@ public class SpatialAudioDeviceConfiguration
 # Windows.Media.Audio.SpatialAudioDeviceConfiguration
 
 ## -description
+Represents a audio device, providing information and control for its current spatial audio setup.
 
 ## -remarks
 
