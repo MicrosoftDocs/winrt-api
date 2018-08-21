@@ -10,8 +10,10 @@ public string Heif { get; }
 # Windows.Media.MediaProperties.MediaEncodingSubtypes.Heif
 
 ## -description
+Gets the name for High Efficiency Image File (HEIF). 
 
 ## -property-value
+The name for HEIF.
 
 ## -remarks
 

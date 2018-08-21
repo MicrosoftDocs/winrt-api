@@ -19,9 +19,8 @@ NV12 media pixel format.
 ### -field Bgra8:1
 BGRA8 media pixel format.
 
-
 ### -field P010:2
-
+P010 media pixel format.
 
 ## -remarks
 

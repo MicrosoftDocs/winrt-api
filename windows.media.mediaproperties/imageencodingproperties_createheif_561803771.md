@@ -10,8 +10,10 @@ public ImageEncodingProperties ImageEncodingProperties.CreateHeif()
 # Windows.Media.MediaProperties.ImageEncodingProperties.CreateHeif
 
 ## -description
+Creates an instance of [ImageEncodingProperties](imageencodingproperties.md) for HEIF format.
 
 ## -returns
+The [ImageEncodingProperties](imageencodingproperties.md) for HEIF format.
 
 ## -remarks
 
