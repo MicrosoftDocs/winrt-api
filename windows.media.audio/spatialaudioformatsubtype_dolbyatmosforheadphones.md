@@ -10,8 +10,10 @@ public string DolbyAtmosForHeadphones { get; }
 # Windows.Media.Audio.SpatialAudioFormatSubtype.DolbyAtmosForHeadphones
 
 ## -description
+GUID for DolbyAtmosForHeadphones.
 
 ## -property-value
+A string representation of the formats GUID.
 
 ## -remarks
 

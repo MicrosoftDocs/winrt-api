@@ -10,6 +10,7 @@ public class SpatialAudioFormatSubtype
 # Windows.Media.Audio.SpatialAudioFormatSubtype
 
 ## -description
+Helper class to retrieve the GUIDs for known spatial audio formats.
 
 ## -remarks
 

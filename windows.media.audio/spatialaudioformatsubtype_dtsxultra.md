@@ -10,8 +10,10 @@ public string DTSXUltra { get; }
 # Windows.Media.Audio.SpatialAudioFormatSubtype.DTSXUltra
 
 ## -description
+GUID for DTSXUltra.
 
 ## -property-value
+A string representation of the formats GUID.
 
 ## -remarks
 

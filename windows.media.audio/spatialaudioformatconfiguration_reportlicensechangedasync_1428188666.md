@@ -10,11 +10,14 @@ public IAsyncAction SpatialAudioFormatConfiguration.ReportLicenseChangedAsync(St
 # Windows.Media.Audio.SpatialAudioFormatConfiguration.ReportLicenseChangedAsync
 
 ## -description
+Allows a spatial audio format companion app to report that the license has changed for a specific format.
 
 ## -parameters
 ### -param subtype
+String of the GUID for the spatial audio format that's license has changed.
 
 ## -returns
+An async action.
 
 ## -remarks
 

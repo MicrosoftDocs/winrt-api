@@ -10,8 +10,10 @@ public MixedRealitySpatialAudioFormatPolicy MixedRealityExclusiveModePolicy { ge
 # Windows.Media.Audio.SpatialAudioFormatConfiguration.MixedRealityExclusiveModePolicy
 
 ## -description
+Specifies which policy to use when picking a spatial audio format in mixed reality.
 
 ## -property-value
+An enumeration that specifies how to handle spatial audio in Mixed Reality.
 
 ## -remarks
 

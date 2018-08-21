@@ -10,8 +10,10 @@ public string WindowsSonic { get; }
 # Windows.Media.Audio.SpatialAudioFormatSubtype.WindowsSonic
 
 ## -description
+GUID for WindowsSonic.
 
 ## -property-value
+A string representation of the formats GUID.
 
 ## -remarks
 

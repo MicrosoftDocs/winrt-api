@@ -10,8 +10,10 @@ public SpatialAudioFormatConfiguration SpatialAudioFormatConfiguration.GetDefaul
 # Windows.Media.Audio.SpatialAudioFormatConfiguration.GetDefault
 
 ## -description
+Gets an instance of SpatialAudioFormatConfiguration.
 
 ## -returns
+An instance of SpatialAudioFormatConfiguration.
 
 ## -remarks
 

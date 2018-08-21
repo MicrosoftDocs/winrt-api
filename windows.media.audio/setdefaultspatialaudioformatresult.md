@@ -10,6 +10,7 @@ public class SetDefaultSpatialAudioFormatResult
 # Windows.Media.Audio.SetDefaultSpatialAudioFormatResult
 
 ## -description
+Represents the result of attempting to set a default spatial audio format.
 
 ## -remarks
 

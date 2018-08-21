@@ -10,6 +10,7 @@ public event TypedEventHandler ConfigurationChanged<SpatialAudioDeviceConfigurat
 # Windows.Media.Audio.SpatialAudioDeviceConfiguration.ConfigurationChanged
 
 ## -description
+Occurs when the spatial audio state of the device has changed.
 
 ## -remarks
 

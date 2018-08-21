@@ -10,8 +10,10 @@ public string DolbyAtmosForSpeakers { get; }
 # Windows.Media.Audio.SpatialAudioFormatSubtype.DolbyAtmosForSpeakers
 
 ## -description
+GUID for DolbyAtmosForSpeakers.
 
 ## -property-value
+A string representation of the formats GUID.
 
 ## -remarks
 

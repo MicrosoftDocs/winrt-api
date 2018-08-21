@@ -10,8 +10,10 @@ public string DolbyAtmosForHomeTheater { get; }
 # Windows.Media.Audio.SpatialAudioFormatSubtype.DolbyAtmosForHomeTheater
 
 ## -description
+GUID for DolbyAtmosForHomeTheater.
 
 ## -property-value
+A string representation of the formats GUID.
 
 ## -remarks
 

@@ -10,8 +10,10 @@ public string DTSHeadphoneX { get; }
 # Windows.Media.Audio.SpatialAudioFormatSubtype.DTSHeadphoneX
 
 ## -description
+GUID for DTSHeadphoneX.
 
 ## -property-value
+A string representation of the formats GUID.
 
 ## -remarks
 
