@@ -10,13 +10,19 @@ public void LearningModelBinding.Split(IMapView<Object> first, IMapView<Object> 
 # Windows.AI.MachineLearning.LearningModelBinding.Split
 
 ## -description
+Splits the map view into two views.
 
 ## -parameters
 ### -param first
+One half of the original map.
 
 ### -param second
+The second half of the original map.
 
 ## -remarks
+The two views that result from the split operation may not contain the same number of items. The two views do not overlap.
+
+If the map view cannot be split, then both the first and second parameters are **null** when the method returns.
 
 ## -see-also
 

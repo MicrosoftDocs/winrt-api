@@ -10,8 +10,10 @@ public LearningModelFeatureKind Kind { get; }
 # Windows.AI.MachineLearning.ILearningModelFeatureValue.Kind
 
 ## -description
+The data type of the feature.
 
 ## -property-value
+The data type of the feature.
 
 ## -remarks
 

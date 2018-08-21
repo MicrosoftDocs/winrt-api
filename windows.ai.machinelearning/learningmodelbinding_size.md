@@ -10,8 +10,10 @@ public uint Size { get; }
 # Windows.AI.MachineLearning.LearningModelBinding.Size
 
 ## -description
+Gets the number of elements in the map.
 
 ## -property-value
+The number of elements in the map.
 
 ## -remarks
 

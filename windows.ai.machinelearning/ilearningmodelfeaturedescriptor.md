@@ -10,10 +10,13 @@ public interface ILearningModelFeatureDescriptor
 # Windows.AI.MachineLearning.ILearningModelFeatureDescriptor
 
 ## -description
+Describes the common properties that all features have.
 
 ## -remarks
 
 ## -see-also
+[Windows Machine Learning](https://docs.microsoft.com/windows/ai/),
+[Windows ML samples (GitHub)](https://github.com/Microsoft/Windows-Machine-Learning)
 
 ## -examples
 
