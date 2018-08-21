@@ -17,6 +17,7 @@ Creates a SpatialAudioDeviceConfiguration for the given device ID.
 The device ID of the device to represent.
 
 ## -returns
+The SpatialAudioDeviceConfiguration for the device.
 
 ## -remarks
 
