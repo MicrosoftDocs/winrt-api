@@ -26,10 +26,27 @@ Each call requires separate resources. To handle multiple VoIP calls simultaneou
 
 Resources are freed automatically when a call is completed.
 
+You should only call **ReserveCallResourcesAsync** once. Calling it a second time results in an exception with an HRESULT of -2147024713 (0x800700b7), as shown in the code example below.
+
 ## -examples
 
-## -see-also
+```csharp
+...
+try
+{
+    status = await vCC.ReserveCallResourcesAsync(Current.RtcCallTaskName);
+}
+catch (System.Exception ex)
+{
+    if (ex.HResult == -2147024713)
+    {
+        Debug.WriteLine("CPU and memory resources have already been reserved for your application. Ignore the return value from your call to ReserveCallResourcesAsync, and proceed to handle a new VoIP call.");
+    }
+}
+...
+```
 
+## -see-also
 
 ## -capabilities
 phoneCallHistory, phoneCallHistorySystem
