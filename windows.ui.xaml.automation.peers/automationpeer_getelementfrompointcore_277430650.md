@@ -10,7 +10,7 @@ virtual protected object GetElementFromPointCore(Windows.Foundation.Point pointI
 # Windows.UI.Xaml.Automation.Peers.AutomationPeer.GetElementFromPointCore
 
 ## -description
-Provides the behavior of the peer when a Microsoft UI Automation client calls [GetElementFromPoint](automationpeer_getelementfrompoint.md) or an equivalent Microsoft UI Automation client API.
+Provides the behavior of the peer when a Microsoft UI Automation client calls [GetElementFromPoint](automationpeer_getelementfrompoint_1217124515.md) or an equivalent Microsoft UI Automation client API.
 
 ## -parameters
 ### -param pointInWindowCoordinates

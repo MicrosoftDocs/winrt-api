@@ -17,4 +17,4 @@ Specifies the event that is fired when a window is closed (or the app terminates
 ## -examples
 
 ## -see-also
-[ICoreWindow.Close](corewindow_close.md)
+[ICoreWindow.Close](corewindow_close_811482585.md)

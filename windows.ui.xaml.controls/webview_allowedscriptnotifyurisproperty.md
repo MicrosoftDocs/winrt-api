@@ -27,7 +27,7 @@ The identifier for the [AllowedScriptNotifyUris](webview_allowedscriptnotifyuris
 
 These remarks apply only to apps compiled for Windows 8, even when running on Windows 8.1.
 
-To enable an external web page to fire the [ScriptNotify](webview_scriptnotify.md) event when calling **window.external.notify**, you must include the page's URI in the list returned by the [AllowedScriptNotifyUris](webview_allowedscriptnotifyuris.md) property. Set this property to [AnyScriptNotifyUri](webview_anyscriptnotifyuri.md) to indicate that any page can fire [ScriptNotify](webview_scriptnotify.md) events for this [WebView](webview.md) control. This requirement does not apply to content loaded using the [NavigateToString](webview_navigatetostring.md) method.
+To enable an external web page to fire the [ScriptNotify](webview_scriptnotify.md) event when calling **window.external.notify**, you must include the page's URI in the list returned by the [AllowedScriptNotifyUris](webview_allowedscriptnotifyuris.md) property. Set this property to [AnyScriptNotifyUri](webview_anyscriptnotifyuri.md) to indicate that any page can fire [ScriptNotify](webview_scriptnotify.md) events for this [WebView](webview.md) control. This requirement does not apply to content loaded using the [NavigateToString](webview_navigatetostring_1924125949.md) method.
 
 ## -examples
 

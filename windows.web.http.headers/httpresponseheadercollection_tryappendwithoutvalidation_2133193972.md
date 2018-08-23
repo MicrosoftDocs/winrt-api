@@ -23,7 +23,7 @@ The value of the item to append.
 **true** if the item was appended; otherwise **false**.
 
 ## -remarks
-The [TryAppendWithoutValidation](httpresponseheadercollection_tryappendwithoutvalidation.md) method is available when you need to work with an HTTP header on an HTTP response that doesn't have a strongly-typed class for the HTTP header. If there is a strongly-typed implementation of the HTTP header, then the methods and properties on the strongly-typed class should be used instead of the [TryAppendWithoutValidation](httpresponseheadercollection_tryappendwithoutvalidation.md) method.
+The [TryAppendWithoutValidation](httpresponseheadercollection_tryappendwithoutvalidation_2133193972.md) method is available when you need to work with an HTTP header on an HTTP response that doesn't have a strongly-typed class for the HTTP header. If there is a strongly-typed implementation of the HTTP header, then the methods and properties on the strongly-typed class should be used instead of the [TryAppendWithoutValidation](httpresponseheadercollection_tryappendwithoutvalidation_2133193972.md) method.
 
 ## -examples
 

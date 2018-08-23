@@ -24,4 +24,4 @@ The random access stream.
 ## -examples
 
 ## -see-also
-[ITextRange.GetTextViaStream](itextrange_gettextviastream.md)
+[ITextRange.GetTextViaStream](itextrange_gettextviastream_1369580261.md)

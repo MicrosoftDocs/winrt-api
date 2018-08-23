@@ -28,7 +28,7 @@ A [Measure](uielement_measure_1722732750.md) call will automatically invalidate 
 Layout updates can be forced by app code rather than relying on the built-in layout system behavior by using the [UpdateLayout](uielement_updatelayout_1243658106.md) method. However, that is not recommended. It is usually unnecessary and can cause poor performance if overused. In many situations where calling [UpdateLayout](uielement_updatelayout_1243658106.md) from app code might be appropriate because of changes to properties, the layout system will probably already be processing updates. The layout system also has optimizations for dealing with cascades of layout changes through parent-child relationships, and calling [UpdateLayout](uielement_updatelayout_1243658106.md) can work against such optimizations. Nevertheless, it's possible that layout situations exist in more complicated scenarios where calling [UpdateLayout](uielement_updatelayout_1243658106.md) is the best option for resolving a timing issue or other issue with layout. Just use it deliberately and sparingly.
 
 ## -examples
-This example shows how you would use [Arrange](uielement_arrange_958316931.md) within an [ArrangeOverride](frameworkelement_arrangeoverride_1795048387.md) implementation. The basic idea is that you should query [DesiredSize](uielement_desiredsize.md) on anything you attempt to call [Arrange](uielement_arrange.md) on so that you have a value for *finalRect*, unless your layout implementation has some specific design that alters or ignores the desired size before passing it as *finalRect*.
+This example shows how you would use [Arrange](uielement_arrange_958316931.md) within an [ArrangeOverride](frameworkelement_arrangeoverride_1795048387.md) implementation. The basic idea is that you should query [DesiredSize](uielement_desiredsize.md) on anything you attempt to call [Arrange](uielement_arrange_958316931.md) on so that you have a value for *finalRect*, unless your layout implementation has some specific design that alters or ignores the desired size before passing it as *finalRect*.
 
 
 
@@ -37,5 +37,5 @@ This example shows how you would use [Arrange](uielement_arrange_958316931.md) w
 [!code-vb[2](../windows.ui.xaml.controls.primitives/code/BlockPanel/vbnet/BlankPage.xaml.vb#Snippet2)]
 
 ## -see-also
-[ArrangeOverride](frameworkelement_arrangeoverride.md), [MeasureOverride](frameworkelement_measureoverride.md)
+[ArrangeOverride](frameworkelement_arrangeoverride_1795048387.md), [MeasureOverride](frameworkelement_measureoverride_1586581644.md)
 meworkelement_measureoverride.md)

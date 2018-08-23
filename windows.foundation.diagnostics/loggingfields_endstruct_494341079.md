@@ -17,4 +17,4 @@ Ends a structured field.
 ## -examples
 
 ## -see-also
-[BeginStruct](loggingfields_beginstruct.md)
+[BeginStruct](/uwp/api/windows.foundation.diagnostics.loggingfields.beginstruct)

@@ -31,4 +31,4 @@ Expose mouse input events.
 ## -examples
 
 ## -see-also
-[CreateCoreIndependentInputSource](../windows.ui.xaml.controls/swapchainpanel_createcoreindependentinputsource.md)
+[CreateCoreIndependentInputSource](../windows.ui.xaml.controls/swapchainpanel_createcoreindependentinputsource_467679991.md)

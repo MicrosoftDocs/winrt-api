@@ -19,8 +19,8 @@ The new service request interface.
 This method should only be called after:
 
 
-+ A completion event from the [IAsyncAction](../windows.foundation/iasyncaction.md) object returned from [BeginServiceRequest](playreadylicenseacquisitionservicerequest_beginservicerequest.md) has indicated the current service request is complete (automatic enabling).
-+ A call to [ProcessManualEnablingResponse](playreadylicenseacquisitionservicerequest_processmanualenablingresponse.md) (manual enabling).
++ A completion event from the [IAsyncAction](../windows.foundation/iasyncaction.md) object returned from [BeginServiceRequest](playreadylicenseacquisitionservicerequest_beginservicerequest_736222023.md) has indicated the current service request is complete (automatic enabling).
++ A call to [ProcessManualEnablingResponse](playreadylicenseacquisitionservicerequest_processmanualenablingresponse_559693975.md) (manual enabling).
 
 
 Both of the above situations leave the current service request in a read-only/complete state, although there could be additional service requests to perform. An app should call this method to determine if additional service requests are required.

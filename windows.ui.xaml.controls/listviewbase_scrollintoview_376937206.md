@@ -24,4 +24,4 @@ When the contents of the [ItemsSource](itemscontrol_itemssource.md) collection c
 ## -examples
 
 ## -see-also
-[ScrollIntoView(Object, ScrollIntoViewAlignment)](listviewbase_scrollintoview_2024050476.md), [MakeVisible](listviewbase_makevisible.md)
+[ScrollIntoView(Object, ScrollIntoViewAlignment)](listviewbase_scrollintoview_2024050476.md), [MakeVisible](listviewbase_makevisible_1148837317.md)

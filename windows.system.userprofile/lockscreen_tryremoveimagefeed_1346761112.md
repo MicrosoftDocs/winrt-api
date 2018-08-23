@@ -16,7 +16,7 @@ Unregisters the image feed being used in the lock screen slideshow, stopping the
 **true** if the image feed was disabled; otherwise, **false**.
 
 ## -remarks
-This image feed was registered through the [RequestSetImageFeedAsync](lockscreen_requestsetimagefeedasync.md) method.
+This image feed was registered through the [RequestSetImageFeedAsync](lockscreen_requestsetimagefeedasync_841630601.md) method.
 
 
 

@@ -16,7 +16,7 @@ Gets the vertical offset of the scrolled content.
 A value in pixels.
 
 ## -remarks
-To change the vertical offset, call [SetVerticalOffset](orientedvirtualizingpanel_setverticaloffset.md).
+To change the vertical offset, call [SetVerticalOffset](orientedvirtualizingpanel_setverticaloffset_1333703417.md).
 
 ## -examples
 

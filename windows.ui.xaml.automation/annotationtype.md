@@ -93,4 +93,4 @@ The values in [AnnotationType](annotationtype.md) parallel the values in the [An
 ## -examples
 
 ## -see-also
-[GetAnnotationTypes](../windows.ui.xaml.automation.provider/ispreadsheetitemprovider_getannotationtypes.md)
+[GetAnnotationTypes](../windows.ui.xaml.automation.provider/ispreadsheetitemprovider_getannotationtypes_911639376.md)

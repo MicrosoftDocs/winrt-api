@@ -16,9 +16,9 @@ Gets or sets the URI used to perform a service request action.
 The URI to be used.
 
 ## -remarks
-The URI must be set through this property before calling [BeginServiceRequest](playreadymeteringreportservicerequest_beginservicerequest.md).
+The URI must be set through this property before calling [BeginServiceRequest](playreadymeteringreportservicerequest_beginservicerequest_736222023.md).
 
-This property cannot be set after [BeginServiceRequest](playreadymeteringreportservicerequest_beginservicerequest.md) or [GenerateManualEnablingChallenge](playreadymeteringreportservicerequest_generatemanualenablingchallenge.md) have been called.
+This property cannot be set after [BeginServiceRequest](playreadymeteringreportservicerequest_beginservicerequest_736222023.md) or [GenerateManualEnablingChallenge](playreadymeteringreportservicerequest_generatemanualenablingchallenge_1228062000.md) have been called.
 
 ## -examples
 

@@ -11,7 +11,7 @@ public string GetDeviceSelector(Windows.Devices.Bluetooth.Rfcomm.RfcommServiceId
 # Windows.Devices.Bluetooth.Rfcomm.RfcommDeviceService.GetDeviceSelector
 
 ## -description
-Gets an Advanced Query Syntax (AQS) string for identifying instances of an RFCOMM service. This string is passed to the [CreateWatcher](../windows.devices.enumeration/deviceinformation_createwatcher.md) method.
+Gets an Advanced Query Syntax (AQS) string for identifying instances of an RFCOMM service. This string is passed to the [CreateWatcher](/uwp/api/windows.devices.enumeration.deviceinformation.createwatcher) method.
 
 ## -parameters
 ### -param serviceId

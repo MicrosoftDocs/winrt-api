@@ -23,7 +23,7 @@ The value of the media frame source property to be set.
 An asynchronous operation that returns a [MediaFrameSourceSetPropertyStatus](mediaframesourcesetpropertystatus.md) upon completion.
 
 ## -remarks
-To get the value of a media frame source property, use [GetPropertyAsync](mediaframesourcecontroller_getpropertyasync.md).
+To get the value of a media frame source property, use [GetPropertyAsync](mediaframesourcecontroller_getpropertyasync_1561087689.md).
 
 ## -examples
 

@@ -23,4 +23,4 @@ When this asynchronous method completes, a [CapturedPhoto](capturedphoto.md) obj
 ## -examples
 
 ## -see-also
-[PrepareLowLagPhotoCaptureAsync](mediacapture_preparelowlagphotocaptureasync.md)
+[PrepareLowLagPhotoCaptureAsync](mediacapture_preparelowlagphotocaptureasync_1426375994.md)

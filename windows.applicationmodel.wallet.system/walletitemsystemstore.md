@@ -15,7 +15,7 @@ Defines a set of asynchronous actions and operations that manage the wallet item
 > [!NOTE]
 > This API is not available to all Windows apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 
-Call the [WalletManagerSystem.RequestStoreAsync](walletmanagersystem_requeststoreasync.md)method to obtain an instance of this class.
+Call the [WalletManagerSystem.RequestStoreAsync](walletmanagersystem_requeststoreasync_428591920.md)method to obtain an instance of this class.
 
 ## -remarks
 

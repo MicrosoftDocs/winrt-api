@@ -10,7 +10,7 @@ public class ZoomSettings : Windows.Media.Devices.IZoomSettings
 # Windows.Media.Devices.ZoomSettings
 
 ## -description
-Represents zoom settings that can be applied to the [ZoomControl](zoomcontrol.md) by calling the [Configure](zoomcontrol_configure.md) method.
+Represents zoom settings that can be applied to the [ZoomControl](zoomcontrol.md) by calling the [Configure](zoomcontrol_configure_1205629206.md) method.
 
 ## -remarks
 

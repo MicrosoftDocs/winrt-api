@@ -10,7 +10,7 @@ public class MuteChangeEventArgs : Windows.Phone.Networking.Voip.IMuteChangeEven
 # Windows.Phone.Networking.Voip.MuteChangeEventArgs
 
 ## -description
-Supports the [Muted](mutechangeeventargs_muted.md) and [Unmuted](voipcallcoordinator_notifyunmuted.md) events.
+Supports the [Muted](mutechangeeventargs_muted.md) and [Unmuted](voipcallcoordinator_notifyunmuted_41225160.md) events.
 
 ## -remarks
 

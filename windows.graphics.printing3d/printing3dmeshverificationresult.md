@@ -11,7 +11,7 @@ public class Printing3DMeshVerificationResult : Windows.Graphics.Printing3D.IPri
 # Windows.Graphics.Printing3D.Printing3DMeshVerificationResult
 
 ## -description
-Provides data for the [VerifyAsync](printing3dmesh_verifyasync.md) method.
+Provides data for the [VerifyAsync](printing3dmesh_verifyasync_784165027.md) method.
 
 ## -remarks
 

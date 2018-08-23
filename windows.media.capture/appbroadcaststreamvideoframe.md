@@ -16,7 +16,7 @@ Represents a video frame in a broadcast stream.
 > This API requires the **appBroadcast** and **appBroadcastSettings** capability which is not available to all Windows apps. Unless your developer account is specially provisioned by Microsoft, calls to this API will fail at runtime.
 
 ## -remarks
-Get an instance of this class by calling [AppBroadcastStreamReader.TryGetNextVideoFrame](appbroadcaststreamreader_trygetnextvideoframe.md).
+Get an instance of this class by calling [AppBroadcastStreamReader.TryGetNextVideoFrame](appbroadcaststreamreader_trygetnextvideoframe_1410796427.md).
 
 ## -examples
 

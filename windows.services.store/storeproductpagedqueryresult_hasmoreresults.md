@@ -10,7 +10,7 @@ public bool HasMoreResults { get; }
 # Windows.Services.Store.StoreProductPagedQueryResult.HasMoreResults
 
 ## -description
-Gets a value that indicates whether there are additional pages of results. To get the next page of results, use the [GetNextAsync](storeproductpagedqueryresult_getnextasync.md) method.
+Gets a value that indicates whether there are additional pages of results. To get the next page of results, use the [GetNextAsync](storeproductpagedqueryresult_getnextasync_1854313260.md) method.
 
 ## -property-value
 True if there are additional pages of results; otherwise, false.

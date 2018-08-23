@@ -20,4 +20,4 @@ The minimum zoom level, as a percentage.
 ## -examples
 
 ## -see-also
-[MaxZoom](itransformprovider2_maxzoom.md), [Zoom](itransformprovider2_zoom.md)
+[MaxZoom](itransformprovider2_maxzoom.md), [Zoom](itransformprovider2_zoom_1427900009.md)

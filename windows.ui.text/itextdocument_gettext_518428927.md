@@ -24,4 +24,4 @@ The text in the active story.
 ## -examples
 
 ## -see-also
-[ITextDocument.SetText](itextdocument_settext.md)
+[ITextDocument.SetText](itextdocument_settext_522499431.md)

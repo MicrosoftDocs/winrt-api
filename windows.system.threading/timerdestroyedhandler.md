@@ -8,7 +8,7 @@ public delegate void TimerDestroyedHandler(Windows.System.Threading.ThreadPoolTi
 # Windows.System.Threading.TimerDestroyedHandler
 
 ## -description
-Represents a method that is called when a timer created with [CreateTimer](threadpooltimer_createtimer.md) or [CreatePeriodicTimer](threadpooltimer_createperiodictimer.md) is complete.
+Represents a method that is called when a timer created with [CreateTimer](/uwp/api/windows.system.threading.threadpooltimer.createtimer) or [CreatePeriodicTimer](/uwp/api/windows.system.threading.threadpooltimer.createperiodictimer) is complete.
 
 ## -parameters
 ### -param timer

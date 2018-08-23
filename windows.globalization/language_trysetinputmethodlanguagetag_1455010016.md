@@ -16,7 +16,7 @@ Tries to set the normalized [BCP-47](http://go.microsoft.com/fwlink/p/?linkid=22
 ### -param languageTag
 The normalized [BCP-47](http://go.microsoft.com/fwlink/p/?linkid=227302) language tag.
 
-**Starting in :** Language tags can support Unicode extensions. See the Remarks for the [Language](language_language.md) constructor.
+**Starting in :** Language tags can support Unicode extensions. See the Remarks for the [Language](language_language_290278668.md) constructor.
 
 ## -returns
 **true** if the value is successfully set, otherwise **false**.

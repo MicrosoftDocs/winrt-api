@@ -17,4 +17,4 @@ Specifies the event that is fired when the window completes activation or deacti
 ## -examples
 
 ## -see-also
-[ICoreWindow.Activate](corewindow_activate.md)
+[ICoreWindow.Activate](corewindow_activate_1797342875.md)

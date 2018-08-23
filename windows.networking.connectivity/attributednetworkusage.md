@@ -25,4 +25,4 @@ The [AttributedNetworkUsage](attributednetworkusage.md) class is retrieved from 
 ## -examples
 
 ## -see-also
-[ConnectionProfile](connectionprofile.md), [GetAttributedNetworkUsageAsync](connectionprofile_getattributednetworkusageasync.md)
+[ConnectionProfile](connectionprofile.md), [GetAttributedNetworkUsageAsync](connectionprofile_getattributednetworkusageasync_1743384794.md)

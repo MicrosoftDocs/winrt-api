@@ -10,10 +10,10 @@ public class ProcessAudioFrameContext : Windows.Media.Effects.IProcessAudioFrame
 # Windows.Media.Effects.ProcessAudioFrameContext
 
 ## -description
-Provides context for performing a custom audio effect operation within the [ProcessFrame](ibasicaudioeffect_processframe.md) method.
+Provides context for performing a custom audio effect operation within the [ProcessFrame](ibasicaudioeffect_processframe_1501667467.md) method.
 
 ## -remarks
-To retrieve an instance of this class, implement the [ProcessFrame](ibasicaudioeffect_processframe.md) method.
+To retrieve an instance of this class, implement the [ProcessFrame](ibasicaudioeffect_processframe_1501667467.md) method.
 
 ## -examples
 

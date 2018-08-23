@@ -16,7 +16,7 @@ Gets the name of the open key derivation function (KDF) algorithm.
 Algorithm name.
 
 ## -remarks
-You must call the [OpenAlgorithm](keyderivationalgorithmprovider_openalgorithm.md) method before calling this property.
+You must call the [OpenAlgorithm](keyderivationalgorithmprovider_openalgorithm_637226074.md) method before calling this property.
 
 ## -examples
 

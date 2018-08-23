@@ -45,4 +45,4 @@ _spotLight.Targets.Add(root);
 
 
 ## -see-also
-[CompositionLight](compositionlight.md), [Targets](compositionlight_targets.md), [CreateSpotLight](compositor_createspotlight.md)
+[CompositionLight](compositionlight.md), [Targets](compositionlight_targets.md), [CreateSpotLight](compositor_createspotlight_583315408.md)

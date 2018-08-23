@@ -28,4 +28,4 @@ Private network.
 ## -examples
 
 ## -see-also
-[GetNetworkTypes](networkitem_getnetworktypes.md)
+[GetNetworkTypes](networkitem_getnetworktypes_2122184215.md)

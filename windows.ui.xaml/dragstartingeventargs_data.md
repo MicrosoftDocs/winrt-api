@@ -16,7 +16,7 @@ Gets the data payload associated with a drag action.
 The data payload. The default is an empty [DataPackage](../windows.applicationmodel.datatransfer/datapackage.md).
 
 ## -remarks
-In your [DragStarting](uielement_dragstarting.md) event handler, use the [DataPackage.SetData](../windows.applicationmodel.datatransfer/datapackage_setdata.md) method to provide the data being dragged.
+In your [DragStarting](uielement_dragstarting.md) event handler, use the [DataPackage.SetData](../windows.applicationmodel.datatransfer/datapackage_setdata_2074524277.md) method to provide the data being dragged.
 
 ## -examples
 

@@ -33,4 +33,4 @@ Since the [GetValue](resourcemap_getvalue_1450213417.md) method selects the best
 ## -examples
 
 ## -see-also
-[ResourceContext](resourcecontext.md), [ResourceContext.GetForCurrentView](resourcecontext_getforcurrentview.md)
+[ResourceContext](resourcecontext.md), [ResourceContext.GetForCurrentView](resourcecontext_getforcurrentview_1363600702.md)

@@ -20,7 +20,7 @@ A stream containing the image data. If you use [Asynchronous programming](http:/
 ## -examples
 
 ## -see-also
-[ContactInformation.GetDisplayPictureAsync](contactinformation_getdisplaypictureasync.md)
+[ContactInformation.GetDisplayPictureAsync](contactinformation_getdisplaypictureasync_1583863734.md)
 
 ## -capabilities
 ID_CAP_CONTACTS [Windows Phone]

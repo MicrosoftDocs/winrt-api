@@ -24,4 +24,4 @@ The text stream.
 ## -examples
 
 ## -see-also
-[ITextRange.SetTextViaStream](itextrange_settextviastream.md)
+[ITextRange.SetTextViaStream](itextrange_settextviastream_1369572373.md)

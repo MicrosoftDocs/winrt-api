@@ -17,4 +17,4 @@ Represents an event that triggers a background task to run when an application s
 > Only first-party applications should use this class.  
 
 The background task must be declared in the manifest before the registration can be successful.
-An instance of this class is passed to the background task in its [Run](ibackgroundtask_run.md) method.
+An instance of this class is passed to the background task in its [Run](ibackgroundtask_run_2017283929.md) method.

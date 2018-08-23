@@ -19,7 +19,7 @@ Contains event details for the event raised when an SMS message is received.
 ## -remarks
 You access an [SmsMessageReceivedTriggerDetails](smsmessagereceivedtriggerdetails.md) object through the function that you implement to handle the [SmsMessageRegistration.MessageReceived](smsmessageregistration_messagereceived.md) event.
 
-Your filtering code is required to acknowledge each filtered message by calling [Drop](smsmessagereceivedtriggerdetails_drop.md) or [Accept](smsmessagereceivedtriggerdetails_accept.md) before it can process the next message.
+Your filtering code is required to acknowledge each filtered message by calling [Drop](smsmessagereceivedtriggerdetails_drop_1201404469.md) or [Accept](smsmessagereceivedtriggerdetails_accept_1944939200.md) before it can process the next message.
 
 ## -examples
 

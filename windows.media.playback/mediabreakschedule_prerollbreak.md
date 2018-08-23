@@ -16,7 +16,7 @@ Gets or sets the [MediaBreak](mediabreak.md) to be played before the [MediaPlayb
 The [MediaBreak](mediabreak.md) to be played before the [MediaPlaybackItem](mediaplaybackitem.md) associated with the [MediaBreakSchedule](mediabreakschedule.md) plays.
 
 ## -remarks
-If you want a **MediaBreak** to be played after the associated [MediaPlaybackItem](mediaplaybackitem.md) plays, assign it to the [PostrollBreak](mediabreakschedule_postrollbreak.md) property. If you want a **MediaBreak** to play at a point during the playback of the associated **MediaPlaybackItem**, use the [InsertMidrollBreak](mediabreakschedule_insertmidrollbreak.md) method.
+If you want a **MediaBreak** to be played after the associated [MediaPlaybackItem](mediaplaybackitem.md) plays, assign it to the [PostrollBreak](mediabreakschedule_postrollbreak.md) property. If you want a **MediaBreak** to play at a point during the playback of the associated **MediaPlaybackItem**, use the [InsertMidrollBreak](mediabreakschedule_insertmidrollbreak_1567865726.md) method.
 
 ## -examples
 

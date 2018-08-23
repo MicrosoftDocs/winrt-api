@@ -16,7 +16,7 @@ Returns a new service request interface.
 The new service request interface.
 
 ## -remarks
-This method should only be called after a completion event from the [IAsyncAction](../windows.foundation/iasyncaction.md) object returned from [BeginServiceRequest](playreadymeteringreportservicerequest_beginservicerequest.md) has indicated the current service request is complete (automatic enabling). This situation leaves the current service request in a read-only/complete state, although there could be additional service requests to perform. An app should call this method to determine if additional service requests are required.
+This method should only be called after a completion event from the [IAsyncAction](../windows.foundation/iasyncaction.md) object returned from [BeginServiceRequest](playreadymeteringreportservicerequest_beginservicerequest_736222023.md) has indicated the current service request is complete (automatic enabling). This situation leaves the current service request in a read-only/complete state, although there could be additional service requests to perform. An app should call this method to determine if additional service requests are required.
 
 If no data is available for metering, this method will return MSPR_E_NO_METERING_DATA_AVAILABLE.
 

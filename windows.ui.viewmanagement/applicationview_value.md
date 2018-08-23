@@ -21,7 +21,7 @@ The state of the current window (app view). This state indicates the orientation
 ## -remarks
 To respond to a view state change, an app queries this property from inside the app window resize event handler to determine how to lay out the app in the changed view state.
 
-This is a static member of the [ApplicationView](applicationview.md) class. For JavaScript this means that it is a method of the [ApplicationView](applicationview.md) class, not of the window object that [getForCurrentView](applicationview_getforcurrentview.md) creates.
+This is a static member of the [ApplicationView](applicationview.md) class. For JavaScript this means that it is a method of the [ApplicationView](applicationview.md) class, not of the window object that [getForCurrentView](applicationview_getforcurrentview_1363600702.md) creates.
 
 ## -examples
 

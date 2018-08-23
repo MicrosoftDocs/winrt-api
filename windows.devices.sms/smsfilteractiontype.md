@@ -28,7 +28,7 @@ Filters with this action type are applied after **AcceptImmediately** filters. M
 ### -field Peek:2
 Filters with this action type are applied after **Drop** filters. This action type allows your app to inspect each message and decide which are dropped and which continue on to be processed or shown to the user.
 
-Note that your code is required to process each filtered message by calling either [Drop](smsmessagereceivedtriggerdetails_drop.md) or [Accept](smsmessagereceivedtriggerdetails_accept.md) within a maximum timeout period of 60 seconds.
+Note that your code is required to process each filtered message by calling either [Drop](smsmessagereceivedtriggerdetails_drop_1201404469.md) or [Accept](smsmessagereceivedtriggerdetails_accept_1944939200.md) within a maximum timeout period of 60 seconds.
 
 ### -field Accept:3
 Filters with this action type are applied after **Peek** filters. Messages filtered on this action type are delivered to your app. A copy of the message can also be delivered to the messaging application to be shown to the user if appropriate. Note that if multiple applications register the same filter with this action type, each application gets its own copy of the message.

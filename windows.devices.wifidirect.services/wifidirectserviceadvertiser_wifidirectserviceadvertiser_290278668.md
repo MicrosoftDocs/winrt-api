@@ -11,7 +11,7 @@ public WiFiDirectServiceAdvertiser(System.String serviceName)
 # Windows.Devices.WiFiDirect.Services.WiFiDirectServiceAdvertiser.WiFiDirectServiceAdvertiser
 
 ## -description
-Creates an instance of the WiFiDirectServiceAdvertiser class. To start advertising a Wi-Fi Direct Service, create an instance of this class, set its properties appropriately for your service, and then call its [Start](wifidirectserviceadvertiser_start.md) method.
+Creates an instance of the WiFiDirectServiceAdvertiser class. To start advertising a Wi-Fi Direct Service, create an instance of this class, set its properties appropriately for your service, and then call its [Start](wifidirectserviceadvertiser_start_1587696324.md) method.
 
 ## -parameters
 ### -param serviceName

@@ -13,7 +13,7 @@ public class ContactManagerForUser : Windows.ApplicationModel.Contacts.IContactM
 Represents a service that source apps can call to access contact data for a specific user.
 
 ## -remarks
-Call the [ContactManager.GetForUser](contactmanager_getforuser.md) method to get an instance of this class.
+Call the [ContactManager.GetForUser](contactmanager_getforuser_2058550280.md) method to get an instance of this class.
 
 ## -examples
 

@@ -18,7 +18,7 @@ Creates the buffer for vertex normals.
 The capacity of the buffer, the maximum number of bytes that the [IBuffer](../windows.storage.streams/ibuffer.md) can hold.
 
 ## -remarks
-To access the buffer for vertex normals, use [GetVertexNormals](printing3dmesh_getvertexnormals.md).
+To access the buffer for vertex normals, use [GetVertexNormals](printing3dmesh_getvertexnormals_997243037.md).
 
 ## -examples
 

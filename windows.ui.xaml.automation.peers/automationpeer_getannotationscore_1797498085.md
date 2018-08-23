@@ -10,7 +10,7 @@ virtual protected Windows.Foundation.Collections.IVector<Windows.UI.Xaml.Automat
 # Windows.UI.Xaml.Automation.Peers.AutomationPeer.GetAnnotationsCore
 
 ## -description
-Provides the behavior of the peer when a Microsoft UI Automation client calls [GetAnnotations](automationpeer_getannotations.md) or an equivalent Microsoft UI Automation client API.
+Provides the behavior of the peer when a Microsoft UI Automation client calls [GetAnnotations](automationpeer_getannotations_676104854.md) or an equivalent Microsoft UI Automation client API.
 
 ## -returns
 The behavior of the peer.

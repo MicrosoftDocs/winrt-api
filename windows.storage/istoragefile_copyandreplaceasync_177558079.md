@@ -24,4 +24,4 @@ No object or value is returned when this method completes.
 ## -examples
 
 ## -see-also
-[StorageFile.CopyAndReplaceAsync](storagefile_copyandreplaceasync.md)
+[StorageFile.CopyAndReplaceAsync](storagefile_copyandreplaceasync_177558079.md)

@@ -31,4 +31,4 @@ This method lets an app emulate pointer commands, which is particularly useful f
 ## -examples
 
 ## -see-also
-[ITextRange.SetPoint](itextrange_setpoint.md)
+[ITextRange.SetPoint](itextrange_setpoint_1952197951.md)

@@ -13,7 +13,7 @@ public event Windows.Foundation.TypedEventHandler QuantumStarted<Windows.Media.A
 Raised when the audio graph is ready to begin processing a new quantum of data.
 
 ## -remarks
-Use the [FrameInputNodeQuantumStartedEventArgs.RequiredSamples](frameinputnodequantumstartedeventargs_requiredsamples.md) property to determine how many samples are required to fill the quantum with data. Pass an [AudioFrame](audioframecompletedeventargs.md) into the [AddFrame](audioframeinputnode_addframe.md) method to provide the required audio samples.
+Use the [FrameInputNodeQuantumStartedEventArgs.RequiredSamples](frameinputnodequantumstartedeventargs_requiredsamples.md) property to determine how many samples are required to fill the quantum with data. Pass an [AudioFrame](audioframecompletedeventargs.md) into the [AddFrame](audioframeinputnode_addframe_561479871.md) method to provide the required audio samples.
 
 ## -examples
 

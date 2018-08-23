@@ -13,7 +13,7 @@ public class DeviceThumbnail : Windows.Foundation.IClosable, Windows.Storage.Str
 Represents the thumbnail image for a device.
 
 ## -remarks
-Call [DeviceInformation.GetThumbnailAsync](deviceinformation_getthumbnailasync.md) and handle the completion event as shown in the example.
+Call [DeviceInformation.GetThumbnailAsync](deviceinformation_getthumbnailasync_241227233.md) and handle the completion event as shown in the example.
 
 ## -examples
 

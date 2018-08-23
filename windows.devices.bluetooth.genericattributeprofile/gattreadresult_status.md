@@ -21,6 +21,6 @@ The status of the asynchronous operation.
 ## -examples
 
 ## -see-also
-[ReadValueAsync](gattcharacteristic_readvalueasync.md)
+[ReadValueAsync](/uwp/api/windows.devices.bluetooth.genericattributeprofile.gattcharacteristic.readvalueasync)
 ## -capabilities
 bluetooth

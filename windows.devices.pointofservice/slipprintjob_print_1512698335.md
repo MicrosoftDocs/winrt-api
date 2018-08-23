@@ -23,4 +23,4 @@ If [ClaimedPosPrinter.IsCharacterSetMappingEnabled](claimedposprinter_ischaracte
 ## -examples
 
 ## -see-also
-[IPosPrinterJob.Print](iposprinterjob_print.md)
+[IPosPrinterJob.Print](iposprinterjob_print_1512698335.md)

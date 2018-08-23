@@ -10,7 +10,7 @@ public VpnCustomPromptText()
 # Windows.Networking.Vpn.VpnCustomPromptText.VpnCustomPromptText
 
 ## -description
-Allows VPN plug-ins to specify a text UI element to be used in the [RequestCustomPromptAsync](vpnchannel_requestcustompromptasync.md) method.
+Allows VPN plug-ins to specify a text UI element to be used in the [RequestCustomPromptAsync](vpnchannel_requestcustompromptasync_598226399.md) method.
 
 ## -remarks
 

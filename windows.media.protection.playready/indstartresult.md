@@ -10,7 +10,7 @@ public interface INDStartResult :
 # Windows.Media.Protection.PlayReady.INDStartResult
 
 ## -description
-Provides the [StartAsync](ndclient_startasync.md) result that contains the created PlayReady-ND  instance.
+Provides the [StartAsync](ndclient_startasync_1466387351.md) result that contains the created PlayReady-ND  instance.
 
 ## -remarks
 

@@ -24,4 +24,4 @@ A trigger that monitors the specified location(s).
 ## -examples
 
 ## -see-also
-[GetLibraryAsync](../windows.storage/storagelibrary_getlibraryasync.md)
+[GetLibraryAsync](../windows.storage/storagelibrary_getlibraryasync_1997874509.md)

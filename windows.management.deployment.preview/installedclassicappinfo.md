@@ -17,4 +17,4 @@ Provides display info for an installed classic desktop app.
 ## -examples
 
 ## -see-also
-[ClassicAppManager.FindInstalledApp](classicappmanager_findinstalledapp.md)
+[ClassicAppManager.FindInstalledApp](classicappmanager_findinstalledapp_388394577.md)

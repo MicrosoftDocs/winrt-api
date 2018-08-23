@@ -13,7 +13,7 @@ public class EmailRecipientResolutionResult : Windows.ApplicationModel.Email.IEm
 Represents the result of an attempt to resolve an email recipient.
 
 ## -remarks
-Call [ResolveRecipientsAsync](emailmailbox_resolverecipientsasync.md) to retrieve an instance of this class.
+Call [ResolveRecipientsAsync](emailmailbox_resolverecipientsasync_1555064140.md) to retrieve an instance of this class.
 
 ## -examples
 

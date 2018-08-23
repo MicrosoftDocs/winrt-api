@@ -16,7 +16,7 @@ Identifies the Boolean automation property that indicates if the data is valid f
 The automation property identifier.
 
 ## -remarks
-A Boolean that indicates if the data is valid for the form is returned by the [GetIsDataValidForForm](automationproperties_getisdatavalidforform.md) method.
+A Boolean that indicates if the data is valid for the form is returned by the [GetIsDataValidForForm](automationproperties_getisdatavalidforform_597294680.md) method.
 
 ## -examples
 

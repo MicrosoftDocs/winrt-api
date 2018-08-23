@@ -17,7 +17,7 @@ Gets the buffer for triangle material indices.
 The buffer for triangle material indices.
 
 ## -remarks
-To create the buffer for triangle material indices, use [CreateTriangleMaterialIndices](printing3dmesh_createtrianglematerialindices.md).
+To create the buffer for triangle material indices, use [CreateTriangleMaterialIndices](printing3dmesh_createtrianglematerialindices_1629565064.md).
 
 ## -examples
 

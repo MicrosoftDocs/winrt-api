@@ -22,11 +22,11 @@ The index value. The value is zero if *unit* does not exist.
 ## -remarks
 The first unit in a story has an index value of 1. The index of a unit is the same for all character positions from the position immediately preceding the unit, up to the last character in the unit.
 
-For a text range at the end of a story, the index retrieved by [GetIndex](itextrange_getindex.md) indicates the number of units in the story, such as the number of words, lines, objects, and so on.
+For a text range at the end of a story, the index retrieved by [GetIndex](itextrange_getindex_825085340.md) indicates the number of units in the story, such as the number of words, lines, objects, and so on.
 
-The index value returned by the [GetIndex](itextrange_getindex.md) method is not valid if the text is subsequently edited. Be careful when using retrieved index values, especially if you store the values for a significant length of time.
+The index value returned by the [GetIndex](itextrange_getindex_825085340.md) method is not valid if the text is subsequently edited. Be careful when using retrieved index values, especially if you store the values for a significant length of time.
 
 ## -examples
 
 ## -see-also
-[ITextRange.SetIndex](itextrange_setindex.md)
+[ITextRange.SetIndex](itextrange_setindex_1017096528.md)

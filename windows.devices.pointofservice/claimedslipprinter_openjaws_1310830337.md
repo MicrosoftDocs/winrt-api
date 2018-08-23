@@ -18,4 +18,4 @@ Opens the mechanism that holds the slip in place while the slip printer station 
 ## -examples
 
 ## -see-also
-[CloseJaws](claimedslipprinter_closejaws.md), [InsertSlipAsync](claimedslipprinter_insertslipasync.md), [RemoveSlipAsync](claimedslipprinter_removeslipasync.md)
+[CloseJaws](claimedslipprinter_closejaws_455707994.md), [InsertSlipAsync](claimedslipprinter_insertslipasync_1445956481.md), [RemoveSlipAsync](claimedslipprinter_removeslipasync_1430912393.md)

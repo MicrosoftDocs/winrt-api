@@ -24,9 +24,9 @@ The signed data.
 
 ## -remarks
 <!--<rem  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">If the <mark type="param">key</mark> parameter is a persisted key, user input may be required for a hardware key, strongly protected key, or shared user key.</rem>-->
-The input data supplied to the [SignHashedData](cryptographicengine_signhasheddata.md) method is a hashed value. To sign raw data that has not been hashed, use the [SignAsync](cryptographicengine_signasync.md) method.
+The input data supplied to the [SignHashedData](cryptographicengine_signhasheddata_1250888265.md) method is a hashed value. To sign raw data that has not been hashed, use the [SignAsync](cryptographicengine_signasync_345302432.md) method.
 
-If the key is a persisted key and the operation requires UI or takes a long time, use the [SignHashedDataAsync](cryptographicengine_signhasheddataasync.md) method instead.
+If the key is a persisted key and the operation requires UI or takes a long time, use the [SignHashedDataAsync](cryptographicengine_signhasheddataasync_820020633.md) method instead.
 
 ## -examples
 

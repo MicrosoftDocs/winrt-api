@@ -46,4 +46,4 @@ You can also get a list of files in the current folder asynchronously by calling
 ## -examples
 
 ## -see-also
-[CreateFileQuery](storagefolder_createfilequery_70815642.md), [CreateFileQueryWithOptions](storagefolder_createfilequerywithoptions.md)
+[CreateFileQuery](storagefolder_createfilequery_70815642.md), [CreateFileQueryWithOptions](storagefolder_createfilequerywithoptions_2038131323.md)

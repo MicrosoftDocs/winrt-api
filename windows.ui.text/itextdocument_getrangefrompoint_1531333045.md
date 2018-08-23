@@ -27,4 +27,4 @@ The text range object.
 ## -examples
 
 ## -see-also
-[ITextDocument.GetRange](itextdocument_getrange.md)
+[ITextDocument.GetRange](itextdocument_getrange_2138248117.md)

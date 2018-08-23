@@ -18,7 +18,7 @@ Sets the rotation of the text or image on the page for the receipt printer stati
 The rotation of the text or image on the page for the receipt printer station.
 
 ### -param includeBitmaps
-Whether bitmaps should also be rotated. This setting takes effect only for subsequent calls to [PrintBitmap](receiptprintjob_printbitmap.md), and may not apply to saved bitmaps that you print using [PrintSavedBitmap](receiptprintjob_printsavedbitmap.md).
+Whether bitmaps should also be rotated. This setting takes effect only for subsequent calls to [PrintBitmap](/uwp/api/windows.devices.pointofservice.receiptprintjob.printbitmap), and may not apply to saved bitmaps that you print using [PrintSavedBitmap](receiptprintjob_printsavedbitmap_1902948304.md).
 
 ## -remarks
 This rotation setting persists beyond the current print job.

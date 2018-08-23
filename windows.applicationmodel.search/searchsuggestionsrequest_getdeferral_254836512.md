@@ -18,7 +18,7 @@ An object that lets an app signal when it has fulfilled the request for search s
 ## -remarks
 Your app should respond asynchronously to a request for search suggestions if fulfilling the request will take a significant amount of time, such as fetching suggestions from a web service.
 
-Call the [Complete](searchsuggestionsrequestdeferral_complete.md) method to signal when your app has fulfilled the request.
+Call the [Complete](searchsuggestionsrequestdeferral_complete_1807836922.md) method to signal when your app has fulfilled the request.
 
 ## -examples
 

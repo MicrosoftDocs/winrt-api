@@ -21,7 +21,7 @@ The chat message.
 An asynchronous action.
 
 ## -remarks
-The [TransportId](chatmessage_transportid.md) property of the message is set to the desired outgoing transport. The [ChatMessage.Body](chatmessage_body.md) property is optionally set to any initial text. The following example shows a call to [ShowComposeSmsMessageAsync](chatmessagemanager_showcomposesmsmessageasync.md) with the transport and initial text for a message:
+The [TransportId](chatmessage_transportid.md) property of the message is set to the desired outgoing transport. The [ChatMessage.Body](chatmessage_body.md) property is optionally set to any initial text. The following example shows a call to [ShowComposeSmsMessageAsync](chatmessagemanager_showcomposesmsmessageasync_1632642119.md) with the transport and initial text for a message:
 
 ```
 async void ComposeMessage()

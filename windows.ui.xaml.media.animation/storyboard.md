@@ -26,7 +26,7 @@ Controls animations with a timeline, and provides object and property targeting 
 [Storyboard](storyboard.md) is used for these properties:
 + [VisualState.Storyboard](../windows.ui.xaml/visualstate_storyboard.md)
 + [VisualTransition.Storyboard](../windows.ui.xaml/visualtransition_storyboard.md)
-+ [BeginStoryboard.Storyboard](beginstoryboard_storyboard.md)
++ [BeginStoryboard.Storyboard](beginstoryboard_storyboard_1221375020.md)
 
 
 These properties aren't the only place where a [Storyboard](storyboard.md) is defined. The typical way that a [Storyboard](storyboard.md) is used for a storyboarded animation is that the [Storyboard](storyboard.md) is defined in a **Resources** collection (either [Application.Resources](../windows.ui.xaml/application_resources.md) or [FrameworkElement.Resources](../windows.ui.xaml/frameworkelement_resources.md), or possibly as a resource within a file such as Generic.xaml for a custom control). Whenever it's defined as a XAML resource, you should always assign an [x:Name attribute](http://msdn.microsoft.com/library/4ff1f3ed-903a-4305-b2bd-dcd29e0c9e6d) value to your [Storyboard](storyboard.md). You can then reference the name as a programming variable later in code-behind. You'll need this reference to actually run the animations that the [Storyboard](storyboard.md) contains, by calling the [Begin](storyboard_begin_1621727531.md) method on that [Storyboard](storyboard.md) instance. [Storyboard](storyboard.md) also has other control methods such as [Stop](storyboard_stop_1201535524.md) that can control the animation thereafter.

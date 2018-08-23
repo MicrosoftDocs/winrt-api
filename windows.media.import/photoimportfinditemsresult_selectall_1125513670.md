@@ -11,7 +11,7 @@ public void SelectAll()
 # Windows.Media.Import.PhotoImportFindItemsResult.SelectAll
 
 ## -description
-Selects all items found on the source to be included in the [ImportItemsAsync](photoimportfinditemsresult_importitemsasync.md) operation.
+Selects all items found on the source to be included in the [ImportItemsAsync](photoimportfinditemsresult_importitemsasync_357096682.md) operation.
 
 ## -remarks
 

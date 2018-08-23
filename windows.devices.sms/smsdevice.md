@@ -28,7 +28,7 @@ If access to the SMS device has been given to an app:
 + If the app is registering for the SMS background event ([Windows.ApplicationModel.Background.SystemTriggerType.SmsReceived](../windows.applicationmodel.background/systemtriggertype.md)), the app has to first call [GetDefaultAsync](smsdevice_getdefaultasync_1549573963.md) or [FromIdAsync](smsdevice_fromidasync_1322863552.md) again to access SMS to ensure the app has access. Calling [GetDefaultAsync](smsdevice_getdefaultasync_1549573963.md) or [FromIdAsync](smsdevice_fromidasync_1322863552.md) from the background task will not trigger a consent prompt. If it is a first time run or if the user did not grant permission or if permission is revoked then it will receive an **E_ACCESS_DENIED**.
 
 
-The first use of the [SmsDevice](ismsdevice.md) object to call [FromIdAsync](smsdevice_fromidasync.md) or [GetDefaultAsync](smsdevice_getdefaultasync.md) by applications written in C# or C++ should be on the single-threaded apartment (STA) thread. Calls from a multi-threaded apartment (MTA) thread may result in undefined behavior.
+The first use of the [SmsDevice](ismsdevice.md) object to call [FromIdAsync](smsdevice_fromidasync_1322863552.md) or [GetDefaultAsync](smsdevice_getdefaultasync_1549573963.md) by applications written in C# or C++ should be on the single-threaded apartment (STA) thread. Calls from a multi-threaded apartment (MTA) thread may result in undefined behavior.
 
 ## -examples
 

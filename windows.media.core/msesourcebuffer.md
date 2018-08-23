@@ -13,7 +13,7 @@ public class MseSourceBuffer : Windows.Media.Core.IMseSourceBuffer
 Represents a media source extensions (MSE) source buffer.
 
 ## -remarks
-Get an instance of this class by calling [AddSourceBuffer](msestreamsource_addsourcebuffer.md).
+Get an instance of this class by calling [AddSourceBuffer](msestreamsource_addsourcebuffer_362600906.md).
 
 ## -examples
 

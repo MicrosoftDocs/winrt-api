@@ -26,7 +26,7 @@ Retrieve values from the Bluetooth device.
 ## -examples
 
 ## -see-also
-[GattCharacteristic.ReadValueAsync](../windows.devices.bluetooth.genericattributeprofile/gattcharacteristic_readvalueasync.md), [RfcommDeviceService.GetSdpRawAttributesAsync](../windows.devices.bluetooth.rfcomm/rfcommdeviceservice_getsdprawattributesasync.md)
+[GattCharacteristic.ReadValueAsync](/uwp/api/windows.devices.bluetooth.genericattributeprofile.gattcharacteristic.readvalueasync), [RfcommDeviceService.GetSdpRawAttributesAsync](/uwp/api/windows.devices.bluetooth.rfcomm.rfcommdeviceservice.getsdprawattributesasync)
 
 ## -capabilities
 bluetooth

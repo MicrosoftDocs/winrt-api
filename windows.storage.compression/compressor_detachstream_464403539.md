@@ -10,7 +10,7 @@ public Windows.Storage.Streams.IOutputStream DetachStream()
 # Windows.Storage.Compression.Compressor.DetachStream
 
 ## -description
-Detaches the underlying stream from the Compressor object so that the object can be closed using the [Compressor.Close](compressor_close.md) method without also closing the underlying stream.
+Detaches the underlying stream from the Compressor object so that the object can be closed using the [Compressor.Close](compressor_close_811482585.md) method without also closing the underlying stream.
 
 ## -returns
 The stream of information.

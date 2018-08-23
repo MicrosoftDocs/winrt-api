@@ -62,4 +62,4 @@ private void tbTagChangedCallback(DependencyObject sender, DependencyProperty dp
 
 
 ## -see-also
-[RegisterPropertyChangedCallback](dependencyobject_registerpropertychangedcallback.md), [UnregisterPropertyChangedCallback](dependencyobject_unregisterpropertychangedcallback.md)
+[RegisterPropertyChangedCallback](dependencyobject_registerpropertychangedcallback_1557279748.md), [UnregisterPropertyChangedCallback](dependencyobject_unregisterpropertychangedcallback_129400824.md)

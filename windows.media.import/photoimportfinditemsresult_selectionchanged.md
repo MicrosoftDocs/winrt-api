@@ -11,7 +11,7 @@ public event Windows.Foundation.TypedEventHandler SelectionChanged<Windows.Media
 # Windows.Media.Import.PhotoImportFindItemsResult.SelectionChanged
 
 ## -description
-Occurs when the set of items selected to be included in the [ImportItemsAsync](photoimportfinditemsresult_importitemsasync.md) operation changes.
+Occurs when the set of items selected to be included in the [ImportItemsAsync](photoimportfinditemsresult_importitemsasync_357096682.md) operation changes.
 
 ## -remarks
 

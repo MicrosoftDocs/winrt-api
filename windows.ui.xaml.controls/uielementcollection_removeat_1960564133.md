@@ -24,4 +24,4 @@ If you are programming using C# or Microsoft Visual Basic, see [RemoveAt](uielem
 ## -examples
 
 ## -see-also
-[IndexOf](uielementcollection_indexof.md)
+[IndexOf](uielementcollection_indexof_645395357.md)

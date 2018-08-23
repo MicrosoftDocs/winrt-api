@@ -10,7 +10,7 @@ public enum Windows.UI.Xaml.Automation.ZoomUnit : int
 # ZoomUnit
 
 ## -description
-Contains possible values for the [ZoomByUnit](../windows.ui.xaml.automation.provider/itransformprovider2_zoombyunit.md) method, which zooms the viewport of a control by the specified unit.
+Contains possible values for the [ZoomByUnit](../windows.ui.xaml.automation.provider/itransformprovider2_zoombyunit_1744877203.md) method, which zooms the viewport of a control by the specified unit.
 
 ## -enum-fields
 ### -field NoAmount:0
@@ -34,4 +34,4 @@ Increase zoom by a small increment.
 ## -examples
 
 ## -see-also
-[ZoomByUnit](../windows.ui.xaml.automation.provider/itransformprovider2_zoombyunit.md)
+[ZoomByUnit](../windows.ui.xaml.automation.provider/itransformprovider2_zoombyunit_1744877203.md)

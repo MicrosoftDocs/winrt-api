@@ -23,7 +23,7 @@ The [Rect](../windows.foundation/rect.md) is the rectangular area of user select
 When this method completes, it returns a **String** object that represents the [RoamingId](appointment_roamingid.md) of the appointment. If the appointment identifier returned is an empty string, the appointment was not added to the Appointments provider app.
 
 ## -remarks
-> For Windows Phone 8.x apps, this method behaves the same as [ShowEditNewAppointmentAsync](appointmentmanager_showeditnewappointmentasync.md), in that the fields in the Add Appointment UI are editable by the user.
+> For Windows Phone 8.x apps, this method behaves the same as [ShowEditNewAppointmentAsync](appointmentmanager_showeditnewappointmentasync_372535555.md), in that the fields in the Add Appointment UI are editable by the user.
 
 ## -examples
 

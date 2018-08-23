@@ -26,4 +26,4 @@ The Unicode numeric type for *codepoint*.
 ## -examples
 
 ## -see-also
-[UnicodeNumericType](unicodenumerictype.md), [GetCodepointFromSurrogatePair](unicodecharacters_getcodepointfromsurrogatepair.md)
+[UnicodeNumericType](unicodenumerictype.md), [GetCodepointFromSurrogatePair](unicodecharacters_getcodepointfromsurrogatepair_1886831018.md)

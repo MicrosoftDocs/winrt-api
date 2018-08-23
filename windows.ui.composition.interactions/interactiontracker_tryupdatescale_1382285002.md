@@ -25,7 +25,7 @@ The new center point.
 Returns the request ID. On state transitions, the request which caused the change in state will be included in the args. These IDs will start at 1 and increase with each try call during the lifetime of the application.
 
 ## -remarks
-If [InteractionTracker](interactiontracker.md) is in its Interacting State (user actively manipulating), and [TryUpdateScale](interactiontracker_tryupdatescale.md) is called, the system will ignore this request – an event gets fired when this occurs that can be listened for. If sent from one of the other states, listen for the event fired for IdleStateEntered and check the RequestID property that identifies which request triggered the callback.
+If [InteractionTracker](interactiontracker.md) is in its Interacting State (user actively manipulating), and [TryUpdateScale](interactiontracker_tryupdatescale_1382285002.md) is called, the system will ignore this request – an event gets fired when this occurs that can be listened for. If sent from one of the other states, listen for the event fired for IdleStateEntered and check the RequestID property that identifies which request triggered the callback.
 
 The table below summarizes the expected behavior when this method is called in a particular state:
 

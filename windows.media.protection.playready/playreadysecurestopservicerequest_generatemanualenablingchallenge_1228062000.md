@@ -16,7 +16,7 @@ Begins the process of manually enabling.
 The SOAP message to be used in a manual license acquisition challenge request.
 
 ## -remarks
-Provides the caller the raw HTTP challenge and headers that they must send up to the server. When the response is received, it should be processed by calling the [ProcessManualEnablingResponse](playreadysecurestopservicerequest_processmanualenablingresponse.md) method.
+Provides the caller the raw HTTP challenge and headers that they must send up to the server. When the response is received, it should be processed by calling the [ProcessManualEnablingResponse](playreadysecurestopservicerequest_processmanualenablingresponse_559693975.md) method.
 
 ## -examples
 

@@ -11,10 +11,10 @@ public class MobileBroadbandUiccAppsResult : Windows.Networking.NetworkOperators
 # Windows.Networking.NetworkOperators.MobileBroadbandUiccAppsResult
 
 ## -description
-Reports results of a call to [MobileBroadbandUicc.GetUiccAppsAsync](mobilebroadbanduicc_getuiccappsasync.md).
+Reports results of a call to [MobileBroadbandUicc.GetUiccAppsAsync](mobilebroadbanduicc_getuiccappsasync_1099934605.md).
 
 ## -remarks
-Your code does not instantiate this class directly. Instead, use the instance returned by the [MobileBroadbandUicc.GetUiccAppsAsync](mobilebroadbanduicc_getuiccappsasync.md) method.
+Your code does not instantiate this class directly. Instead, use the instance returned by the [MobileBroadbandUicc.GetUiccAppsAsync](mobilebroadbanduicc_getuiccappsasync_1099934605.md) method.
 
 ## -examples
 

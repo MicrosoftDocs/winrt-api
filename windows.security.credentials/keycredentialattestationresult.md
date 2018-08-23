@@ -11,7 +11,7 @@ public class KeyCredentialAttestationResult : Windows.Security.Credentials.IKeyC
 # Windows.Security.Credentials.KeyCredentialAttestationResult
 
 ## -description
-Represents the results of the [KeyCredential.GetAttestationAsync](keycredential_getattestationasync.md) method.
+Represents the results of the [KeyCredential.GetAttestationAsync](keycredential_getattestationasync_144904369.md) method.
 
 ## -remarks
 

@@ -22,4 +22,4 @@ The [PointerCaptures](uielement_pointercaptures.md) property exposes a view of w
 ## -examples
 
 ## -see-also
-[ReleasePointerCapture](uielement_releasepointercapture.md)
+[ReleasePointerCapture](uielement_releasepointercapture_962192786.md)

@@ -16,9 +16,9 @@ Gets the current scene mod ethe capture device is set to.
 The scene mode.
 
 ## -remarks
-To set this property, call [SetValueAsync](scenemodecontrol_setvalueasync.md).
+To set this property, call [SetValueAsync](scenemodecontrol_setvalueasync_1270895798.md).
 
 ## -examples
 
 ## -see-also
-[SetValueAsync](scenemodecontrol_setvalueasync.md)
+[SetValueAsync](scenemodecontrol_setvalueasync_1270895798.md)

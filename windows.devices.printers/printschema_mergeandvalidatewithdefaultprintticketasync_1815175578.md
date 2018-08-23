@@ -26,4 +26,4 @@ This method attempts to merge the user's selections with a default print ticket 
 ## -examples
 
 ## -see-also
-[GetDefaultPrintTicketAsync](printschema_getdefaultprintticketasync.md)
+[GetDefaultPrintTicketAsync](printschema_getdefaultprintticketasync_2066314240.md)

@@ -29,4 +29,4 @@ When this method completes, it returns a [StorageFile](storagefile.md) that repr
 ## -examples
 
 ## -see-also
-[CopyAsync(IStorageFolder)](istoragefile_copyasync_690062730.md), [CopyAsync(IStorageFolder, String, NameCollisionOption)](istoragefile_copyasync_460876542.md), [StorageFile.CopyAsync](storagefile_copyasync.md)
+[CopyAsync(IStorageFolder)](istoragefile_copyasync_690062730.md), [CopyAsync(IStorageFolder, String, NameCollisionOption)](istoragefile_copyasync_460876542.md), [StorageFile.CopyAsync](/uwp/api/windows.storage.storagefile.copyasync)

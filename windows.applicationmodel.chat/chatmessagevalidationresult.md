@@ -14,7 +14,7 @@ public class ChatMessageValidationResult : Windows.ApplicationModel.Chat.IChatMe
 Provides results for validation of chat messages.
 
 ## -remarks
-Obtain an instance of this class by calling [ValidateMessage](chatmessagestore_validatemessage.md).
+Obtain an instance of this class by calling [ValidateMessage](chatmessagestore_validatemessage_660151262.md).
 
 ## -examples
 

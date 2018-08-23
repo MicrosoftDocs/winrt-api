@@ -24,4 +24,4 @@ When this method completes successfully, it returns a [StorageFile](storagefile.
 ## -examples
 
 ## -see-also
-[StorageFolder.GetFileAsync](storagefolder_getfileasync.md)
+[StorageFolder.GetFileAsync](storagefolder_getfileasync_703762627.md)

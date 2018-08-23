@@ -10,7 +10,7 @@ public class LicenseSatisfactionResult : Windows.ApplicationModel.Store.LicenseM
 # Windows.ApplicationModel.Store.LicenseManagement.LicenseSatisfactionResult
 
 ## -description
-Provides license entitlement information that is returned by the [GetSatisfactionInfosAsync](licensemanager_getsatisfactioninfosasync.md) method for the specified products.
+Provides license entitlement information that is returned by the [GetSatisfactionInfosAsync](licensemanager_getsatisfactioninfosasync_1186889928.md) method for the specified products.
 
 ## -remarks
 

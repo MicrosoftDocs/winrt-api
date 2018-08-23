@@ -16,7 +16,7 @@ Identifies a dependency property that's used for controlled peers, which is an a
 A dependency property identifier.
 
 ## -remarks
-There's no public dependency property for **ControlledPeers** because this is an advanced scenario. Use [GetControlledPeers](automationproperties_getcontrolledpeers.md) to get the list of controlled automation elements.
+There's no public dependency property for **ControlledPeers** because this is an advanced scenario. Use [GetControlledPeers](automationproperties_getcontrolledpeers_853183966.md) to get the list of controlled automation elements.
 
 **ControlledPeers** is used when an automation element affects one or more segments of the application UI or the desktop; otherwise, it is hard to associate the impact of the control operation with UI elements.
 

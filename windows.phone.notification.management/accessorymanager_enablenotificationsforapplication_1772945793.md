@@ -22,6 +22,6 @@ Calling this API requires that the **ID_CAP_SMS** and **ID_CAP_SMS_COMPANION** c
 ## -examples
 
 ## -see-also
-[AccessoryManager.GetApps](accessorymanager_getapps.md)
+[AccessoryManager.GetApps](accessorymanager_getapps_535321816.md)
 ## -capabilities
 accessoryManager

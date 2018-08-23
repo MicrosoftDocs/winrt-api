@@ -10,7 +10,7 @@ public void SetBooleanParameter(System.String key, System.Boolean value)
 # Windows.UI.Composition.CompositionAnimation.SetBooleanParameter
 
 ## -description
-Sets a boolean value parameter for use with an [ExpressionAnimation](expressionanimation.md) or an [expression keyframe](keyframeanimation_insertexpressionkeyframe.md).
+Sets a boolean value parameter for use with an [ExpressionAnimation](expressionanimation.md) or an [expression keyframe](/uwp/api/windows.ui.composition.keyframeanimation.insertexpressionkeyframe).
 
 ## -parameters
 ### -param key

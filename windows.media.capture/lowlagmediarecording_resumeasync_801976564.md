@@ -16,7 +16,7 @@ Resumes a paused low lag recording operation.
 An asynchronous action.
 
 ## -remarks
-Pause a low lag media recording operation by calling [PauseAsync](lowlagmediarecording_pauseasync.md).
+Pause a low lag media recording operation by calling [PauseAsync](lowlagmediarecording_pauseasync_622665789.md).
 
 ## -examples
 

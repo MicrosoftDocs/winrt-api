@@ -27,6 +27,6 @@ Not used.
 ## -remarks
 
 ## -see-also
-[WiFiAdapter.ConnectAsync](wifiadapter_connectasync.md)
+[WiFiAdapter.ConnectAsync](/uwp/api/windows.devices.wifi.wifiadapter.connectasync)
 ## -examples
 

@@ -17,7 +17,7 @@ Writes a diagnostic message to the system log.
 The text of the diagnostic message.
 
 ## -remarks
-The messages logged with [LogDiagnosticMessage](vpnchannel_logdiagnosticmessage.md) can be viewed using Event Viewer, under Application and Services Logs\Microsoft\Windows\Vpn Plugin Platform.
+The messages logged with [LogDiagnosticMessage](vpnchannel_logdiagnosticmessage_1700962681.md) can be viewed using Event Viewer, under Application and Services Logs\Microsoft\Windows\Vpn Plugin Platform.
 
 ## -examples
 

@@ -16,7 +16,7 @@ Gets a value indicating the current zoom transition mode.
 A value indicating the current zoom transition mode.
 
 ## -remarks
-Set the zoom transition mode by creating an instance of the [ZoomSettings](zoomsettings.md) class and passing it into the [Configure](focuscontrol_configure.md) method.
+Set the zoom transition mode by creating an instance of the [ZoomSettings](zoomsettings.md) class and passing it into the [Configure](focuscontrol_configure_1968380006.md) method.
 
 ## -examples
 

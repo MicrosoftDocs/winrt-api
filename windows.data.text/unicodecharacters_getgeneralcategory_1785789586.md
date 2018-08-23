@@ -26,4 +26,4 @@ The Unicode general category for *codepoint*.
 ## -examples
 
 ## -see-also
-[UnicodeGeneralCategory](unicodegeneralcategory.md), [GetCodepointFromSurrogatePair](unicodecharacters_getcodepointfromsurrogatepair.md)
+[UnicodeGeneralCategory](unicodegeneralcategory.md), [GetCodepointFromSurrogatePair](unicodecharacters_getcodepointfromsurrogatepair_1886831018.md)

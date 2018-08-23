@@ -21,7 +21,7 @@ When you register a handler for this event, if log files had been saved while th
 
 Your handler must do any processing necessary to preserve the file.
 
-This event is not raised for the last log file because the last log file does not roll over. Use [CloseAndSaveToFileAsync](fileloggingsession_closeandsavetofileasync.md) to access the last log file.
+This event is not raised for the last log file because the last log file does not roll over. Use [CloseAndSaveToFileAsync](fileloggingsession_closeandsavetofileasync_867561099.md) to access the last log file.
 
 ## -examples
 

@@ -14,7 +14,7 @@ public class ChatMessageChangedDeferral : Windows.ApplicationModel.Chat.IChatMes
 Represents a deferred asynchronous change request.
 
 ## -remarks
-Obtain an instance of this class by calling [GetDeferral](chatmessagechangedeventargs_getdeferral.md).
+Obtain an instance of this class by calling [GetDeferral](chatmessagechangedeventargs_getdeferral_254836512.md).
 
 ## -examples
 

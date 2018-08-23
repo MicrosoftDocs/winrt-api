@@ -26,7 +26,7 @@ The initial vector for a symmetric key. For an asymmetric key, set this value to
 The decrypted data.
 
 ## -remarks
-If the key is a persisted key and the decrypt operation requires UI or takes a long time, use the [DecryptAsync](cryptographicengine_decryptasync.md) method instead of the [Decrypt](cryptographicengine_decrypt.md) method. For example, UI is required when decrypting using a key that is strongly protected.
+If the key is a persisted key and the decrypt operation requires UI or takes a long time, use the [DecryptAsync](cryptographicengine_decryptasync_155595670.md) method instead of the [Decrypt](cryptographicengine_decrypt_258898008.md) method. For example, UI is required when decrypting using a key that is strongly protected.
 
 ## -examples
 

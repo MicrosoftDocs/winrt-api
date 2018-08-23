@@ -13,7 +13,7 @@ public void Resume()
 Resumes the playback of the [MediaTimelineController](mediatimelinecontroller.md) from the position at which the controller was paused.
 
 ## -remarks
-To restart the [MediaTimelineController](mediatimelinecontroller.md) at position 0, call [Start](mediatimelinecontroller_start.md) instead.
+To restart the [MediaTimelineController](mediatimelinecontroller.md) at position 0, call [Start](mediatimelinecontroller_start_1587696324.md) instead.
 
 ## -examples
 

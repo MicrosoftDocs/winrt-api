@@ -13,7 +13,7 @@ public class ActivitySensorReadingChangeReport : Windows.Devices.Sensors.IActivi
 Represents data for the sensor trigger.
 
 ## -remarks
-This object is accessed when you call the [ActivitySensorTriggerDetails.ReadReports](activitysensortriggerdetails_readreports.md) method.
+This object is accessed when you call the [ActivitySensorTriggerDetails.ReadReports](activitysensortriggerdetails_readreports_231406138.md) method.
 
 ## -examples
 

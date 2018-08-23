@@ -16,7 +16,7 @@ Gets the outer angle of a an audio node emitter cone shape, expressed in radians
 The outer angle of a an audio node emitter cone shape
 
 ## -remarks
-Set the outer angle of an emitter cone shape by calling [AudioNodeEmitterShape.CreateCone](audionodeemittershape_createcone.md).
+Set the outer angle of an emitter cone shape by calling [AudioNodeEmitterShape.CreateCone](audionodeemittershape_createcone_1260552697.md).
 
 ## -examples
 

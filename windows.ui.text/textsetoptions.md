@@ -40,4 +40,4 @@ Apply the Rich Text Format (RTF) default settings for the document. Rich Text Fo
 ## -examples
 
 ## -see-also
-[ITextDocument.LoadFromStream](itextdocument_loadfromstream.md), [ITextDocument.SetText](itextdocument_settext.md), [ITextRange.SetText](itextrange_settext.md), [ITextRange.SetTextViaStream](itextrange_settextviastream.md)
+[ITextDocument.LoadFromStream](itextdocument_loadfromstream_1957374177.md), [ITextDocument.SetText](itextdocument_settext_522499431.md), [ITextRange.SetText](itextrange_settext_522499431.md), [ITextRange.SetTextViaStream](itextrange_settextviastream_1369572373.md)

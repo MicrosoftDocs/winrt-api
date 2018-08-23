@@ -10,10 +10,10 @@ public class AppointmentStoreChangedDeferral : Windows.ApplicationModel.Appointm
 # Windows.ApplicationModel.Appointments.AppointmentStoreChangedDeferral
 
 ## -description
-Represents a background task deferral returned by the [AppointmentStoreChangedEventArgs.GetDeferral](appointmentstorechangedeventargs_getdeferral.md) method.
+Represents a background task deferral returned by the [AppointmentStoreChangedEventArgs.GetDeferral](appointmentstorechangedeventargs_getdeferral_254836512.md) method.
 
 ## -remarks
-Returned by the [AppointmentStoreChangedEventArgs.GetDeferral](appointmentstorechangedeventargs_getdeferral.md) method.
+Returned by the [AppointmentStoreChangedEventArgs.GetDeferral](appointmentstorechangedeventargs_getdeferral_254836512.md) method.
 
 ## -examples
 

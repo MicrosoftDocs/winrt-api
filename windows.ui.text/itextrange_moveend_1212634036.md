@@ -27,9 +27,9 @@ If you move the end position of the text range so that it precedes the original 
 
 This method moves the end position in a logical direction rather than a physical direction. That is, movement is toward the end or start of a story. Depending on the language, moving the end position toward the end of the story could result in the end position moving either left or right.
 
-For more information, see the discussion in [ITextRange](itextrange.md) and the Remarks section of [ITextRange.Move](itextrange_move.md).
+For more information, see the discussion in [ITextRange](itextrange.md) and the Remarks section of [ITextRange.Move](itextrange_move_1126378751.md).
 
 ## -examples
 
 ## -see-also
-[ITextRange.Move](itextrange_move.md), [ITextRange.MoveStart](itextrange_movestart.md)
+[ITextRange.Move](itextrange_move_1126378751.md), [ITextRange.MoveStart](itextrange_movestart_65838126.md)

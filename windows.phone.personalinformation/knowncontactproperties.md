@@ -13,12 +13,12 @@ public class KnownContactProperties
 Provides key names for accessing known properties for [StoredContact](storedcontact.md) or [ContactInformation](contactinformation.md) objects.
 
 ## -remarks
-Use values of the properties of this class as key names for the collections returned by [ContactInformation.GetPropertiesAsync](contactinformation_getpropertiesasync.md) and [StoredContact.GetPropertiesAsync](storedcontact_getpropertiesasync.md).
+Use values of the properties of this class as key names for the collections returned by [ContactInformation.GetPropertiesAsync](contactinformation_getpropertiesasync_1672422196.md) and [StoredContact.GetPropertiesAsync](storedcontact_getpropertiesasync_1672422196.md).
 
 ## -examples
 
 ## -see-also
-[ContactInformation.GetPropertiesAsync](contactinformation_getpropertiesasync.md), [StoredContact.GetPropertiesAsync](storedcontact_getpropertiesasync.md)
+[ContactInformation.GetPropertiesAsync](contactinformation_getpropertiesasync_1672422196.md), [StoredContact.GetPropertiesAsync](storedcontact_getpropertiesasync_1672422196.md)
 
 ## -capabilities
 ID_CAP_CONTACTS [Windows Phone]

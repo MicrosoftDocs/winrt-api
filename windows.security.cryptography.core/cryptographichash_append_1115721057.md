@@ -22,4 +22,4 @@ Call the [GetValueAndReset](cryptographichash_getvalueandreset_1479544497.md) me
 ## -examples
 
 ## -see-also
-[CreateHash](hashalgorithmprovider_createhash.md)
+[CreateHash](hashalgorithmprovider_createhash_203787775.md)

@@ -20,4 +20,4 @@ A [Boolean](https://msdn.microsoft.com/library/system.boolean.aspx) value that d
 ## -examples
 
 ## -see-also
-[FindConnectionProfilesAsync](networkinformation_findconnectionprofilesasync.md)
+[FindConnectionProfilesAsync](networkinformation_findconnectionprofilesasync_358252851.md)

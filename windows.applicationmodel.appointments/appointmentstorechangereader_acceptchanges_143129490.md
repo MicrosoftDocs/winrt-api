@@ -10,7 +10,7 @@ public void AcceptChanges()
 # Windows.ApplicationModel.Appointments.AppointmentStoreChangeReader.AcceptChanges
 
 ## -description
-Tells the system that all of the changes to appointments returned by the call to [ReadBatchAsync](appointmentstorechangereader_readbatchasync.md) have been addressed by the app.
+Tells the system that all of the changes to appointments returned by the call to [ReadBatchAsync](appointmentstorechangereader_readbatchasync_888788553.md) have been addressed by the app.
 
 ## -remarks
 

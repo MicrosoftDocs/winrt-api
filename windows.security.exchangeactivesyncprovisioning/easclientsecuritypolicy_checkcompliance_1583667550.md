@@ -13,7 +13,7 @@ public Windows.Security.ExchangeActiveSyncProvisioning.EasComplianceResults Chec
 > [!NOTE]
 > [EasClientSecurityPolicy](easclientsecuritypolicy.md) may be unavailable for releases after Windows 10.
 
-Evaluates the EAS policies.[CheckCompliance](easclientsecuritypolicy_checkcompliance.md) is called by a UWP app for mail any time the app wants to evaluate whether the local computer is compliant to the given EAS policies. Because this call doesn't involve any UI interactions, it is a synchronous call.
+Evaluates the EAS policies.[CheckCompliance](easclientsecuritypolicy_checkcompliance_1583667550.md) is called by a UWP app for mail any time the app wants to evaluate whether the local computer is compliant to the given EAS policies. Because this call doesn't involve any UI interactions, it is a synchronous call.
 
 ## -returns
 Returns the results of the compliance check, in synchronous mode.

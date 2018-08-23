@@ -54,4 +54,4 @@ function openNewFile() {
 ## -examples
 
 ## -see-also
-[StorageFolder.IsEqual](storagefolder_isequal.md)
+[StorageFolder.IsEqual](storagefolder_isequal_1221320574.md)

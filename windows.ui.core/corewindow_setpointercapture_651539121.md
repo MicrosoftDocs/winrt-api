@@ -17,7 +17,7 @@ A pointer can be captured only by a single app at any time. Only the foreground 
 
 A pointer can only be captured when contact is detected (mouse button pressed, touch contact down, stylus in contact), and the pointer is within the bounding rectangle of the app.
 
-The pointer is released on a [PointerReleased](corewindow_pointerreleased.md) or a [PointerCaptureLost](corewindow_pointercapturelost.md) event, or [ReleasePointerCapture](corewindow_releasepointercapture.md) is explicitly called.
+The pointer is released on a [PointerReleased](corewindow_pointerreleased.md) or a [PointerCaptureLost](corewindow_pointercapturelost.md) event, or [ReleasePointerCapture](corewindow_releasepointercapture_193058457.md) is explicitly called.
 
 ## -examples
 

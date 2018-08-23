@@ -14,7 +14,7 @@ public class ChatMessageTransport : Windows.ApplicationModel.Chat.IChatMessageTr
 Represents the identity of a transport for sending and receiving messages. Physically, a chat message transport is a SIM slot on the phone.
 
 ## -remarks
-Obtain an instance of this class by calling [GetTransportsAsync](chatmessagemanager_gettransportsasync.md).
+Obtain an instance of this class by calling [GetTransportsAsync](chatmessagemanager_gettransportsasync_998895362.md).
 
 ## -examples
 

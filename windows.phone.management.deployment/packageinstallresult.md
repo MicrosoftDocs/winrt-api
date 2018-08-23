@@ -14,10 +14,10 @@ Provides the results of an application install for a specified application packa
 
 ## -remarks
 Instances of this class can be obtained through these APIs:
-+ [InstallationManager.AddPackageAsync](installationmanager_addpackageasync.md)
-+ [InstallationManager.RemovePackageAsync](installationmanager_removepackageasync.md)
-+ [InstallationManager.GetPendingPackageInstalls](installationmanager_getpendingpackageinstalls.md)
-+ [InstallationManager.RegisterPackageAsync](installationmanager_registerpackageasync.md)
++ [InstallationManager.AddPackageAsync](/uwp/api/windows.phone.management.deployment.installationmanager.addpackageasync)
++ [InstallationManager.RemovePackageAsync](installationmanager_removepackageasync_1331217245.md)
++ [InstallationManager.GetPendingPackageInstalls](installationmanager_getpendingpackageinstalls_2098499945.md)
++ [InstallationManager.RegisterPackageAsync](installationmanager_registerpackageasync_593568238.md)
 
 
 ## -examples

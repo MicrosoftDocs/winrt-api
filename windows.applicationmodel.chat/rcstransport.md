@@ -14,7 +14,7 @@ public class RcsTransport : Windows.ApplicationModel.Chat.IRcsTransport
 Provides functionality for accessing the Rich Communication Services (RCS) transport.
 
 ## -remarks
-Call [RcsManager.GetTransportAsync](rcsmanager_gettransportasync.md) or [RcsManager.GetTransportsAsync](rcsmanager_gettransportsasync.md) to get an instance of this class.
+Call [RcsManager.GetTransportAsync](rcsmanager_gettransportasync_455003223.md) or [RcsManager.GetTransportsAsync](rcsmanager_gettransportsasync_998895362.md) to get an instance of this class.
 
 ## -examples
 

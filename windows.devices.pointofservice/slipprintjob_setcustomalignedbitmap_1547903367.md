@@ -31,4 +31,4 @@ The width to use for printing the bitmap, expressed in the unit of measurement i
 ## -examples
 
 ## -see-also
-[SetBitmap(UInt32, BitmapFrame, PosPrinterAlignment)](slipprintjob_setbitmap_489195165.md), [SetBitmap(UInt32, BitmapFrame, PosPrinterAlignment, UInt32)](slipprintjob_setbitmap_49606997.md), [SetCustomAlignedBitmap(UInt32, BitmapFrame, UInt32)](slipprintjob_setcustomalignedbitmap_1134515791.md), [ClaimedPosPrinter.MapMode](claimedposprinter_mapmode.md), [PrintSavedBitmap](slipprintjob_printsavedbitmap.md)
+[SetBitmap(UInt32, BitmapFrame, PosPrinterAlignment)](slipprintjob_setbitmap_489195165.md), [SetBitmap(UInt32, BitmapFrame, PosPrinterAlignment, UInt32)](slipprintjob_setbitmap_49606997.md), [SetCustomAlignedBitmap(UInt32, BitmapFrame, UInt32)](slipprintjob_setcustomalignedbitmap_1134515791.md), [ClaimedPosPrinter.MapMode](claimedposprinter_mapmode.md), [PrintSavedBitmap](slipprintjob_printsavedbitmap_1902948304.md)

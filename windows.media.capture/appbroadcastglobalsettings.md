@@ -16,7 +16,7 @@ Specifies global broadcasting settings that persist across all broadcasting UWP 
 > This API requires the **appBroadcast** and **appBroadcastSettings** capability which is not available to all Windows apps. Unless your developer account is specially provisioned by Microsoft, calls to this API will fail at runtime.
 
 ## -remarks
-Get an instance of this class by calling [AppBroadcastManager.GetGlobalSettings](appbroadcastmanager_getglobalsettings.md).
+Get an instance of this class by calling [AppBroadcastManager.GetGlobalSettings](appbroadcastmanager_getglobalsettings_2021185159.md).
 
 ## -examples
 

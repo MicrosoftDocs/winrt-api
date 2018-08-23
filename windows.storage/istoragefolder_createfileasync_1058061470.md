@@ -29,4 +29,4 @@ When this method completes, it returns the new file as a [StorageFile](storagefi
 ## -examples
 
 ## -see-also
-[CreateFileAsync(String)](istoragefolder_createfileasync_644130808.md), [StorageFolder.CreateFileAsync](storagefolder_createfileasync.md)
+[CreateFileAsync(String)](istoragefolder_createfileasync_644130808.md), [StorageFolder.CreateFileAsync](/uwp/api/windows.storage.storagefolder.createfileasync)

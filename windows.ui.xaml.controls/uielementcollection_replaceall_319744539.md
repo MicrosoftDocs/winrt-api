@@ -24,4 +24,4 @@ If you are programming using C# or Microsoft Visual Basic, there is no single-ca
 ## -examples
 
 ## -see-also
-[Clear](uielementcollection_clear.md)
+[Clear](uielementcollection_clear_556466.md)

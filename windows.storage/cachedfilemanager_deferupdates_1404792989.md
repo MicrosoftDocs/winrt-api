@@ -17,7 +17,7 @@ Lets apps defer real-time updates for a specified file.
 The file to defer updates for.
 
 ## -remarks
-Typically, Windows implicitly initiates updates for files that are provided by other apps when those files change.  However, you can control when updates are initiated by calling [DeferUpdates](cachedfilemanager_deferupdates.md).
+Typically, Windows implicitly initiates updates for files that are provided by other apps when those files change.  However, you can control when updates are initiated by calling [DeferUpdates](cachedfilemanager_deferupdates_1404792989.md).
 
 ## -examples
 

@@ -10,7 +10,7 @@ public VpnCustomPromptOptionSelector()
 # Windows.Networking.Vpn.VpnCustomPromptOptionSelector.VpnCustomPromptOptionSelector
 
 ## -description
-Constructs an object representing a multiple choice UI element to be used in the [VpnChannel.RequestCustomPrompt](vpnchannel_requestcustomprompt.md) method.
+Constructs an object representing a multiple choice UI element to be used in the [VpnChannel.RequestCustomPrompt](vpnchannel_requestcustomprompt_1927878854.md) method.
 
 ## -remarks
 

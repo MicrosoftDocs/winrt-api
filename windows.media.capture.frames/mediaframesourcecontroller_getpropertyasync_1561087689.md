@@ -20,7 +20,7 @@ The identifier of the media frame source property to be retrieved.
 An asynchronous operation that returns a [MediaFrameSourceGetPropertyResult](mediaframesourcegetpropertyresult.md) upon completion.
 
 ## -remarks
-To set the value of a media frame source property, use [SetPropertyAsync](mediaframesourcecontroller_setpropertyasync.md).
+To set the value of a media frame source property, use [SetPropertyAsync](mediaframesourcecontroller_setpropertyasync_419187035.md).
 
 ## -examples
 

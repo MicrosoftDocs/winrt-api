@@ -20,4 +20,4 @@ If your app participates in the File Open Picker contract, you can use this clas
 
 
 ## -see-also
-[pickerClosingOperation.getDeferral](pickerclosingoperation_getdeferral.md)
+[pickerClosingOperation.getDeferral](pickerclosingoperation_getdeferral_254836512.md)

@@ -25,4 +25,4 @@ This method is identical to [BitmapPropertiesView::GetPropertiesAsync](bitmappro
 ## -examples
 
 ## -see-also
-[BitmapPropertySet](bitmappropertyset.md), [BitmapPropertiesView::GetPropertiesAsync](bitmappropertiesview_getpropertiesasync.md)
+[BitmapPropertySet](bitmappropertyset.md), [BitmapPropertiesView::GetPropertiesAsync](bitmappropertiesview_getpropertiesasync_1829853186.md)

@@ -16,9 +16,9 @@ Asynchronously starts the low lag media recording.
 Object that is used to control the asynchronous operation.
 
 ## -remarks
-Before calling [StartAsync](lowlagmediarecording_startasync_1931900819.md), you must initialize the [LowLagMediaRecording](lowlagmediarecording.md) object by calling one of the prepare method on [MediaCapture](mediacapture.md): [PrepareLowLagRecordToStreamAsync](mediacapture_preparelowlagrecordtostreamasync.md), [PrepareLowLagRecordToStorageFileAsync](mediacapture_preparelowlagrecordtostoragefileasync.md), and [PrepareLowLagRecordToCustomSinkAsync](mediacapture_preparelowlagrecordtocustomsinkasync.md).
+Before calling [StartAsync](lowlagmediarecording_startasync_1931900819.md), you must initialize the [LowLagMediaRecording](lowlagmediarecording.md) object by calling one of the prepare method on [MediaCapture](mediacapture.md): [PrepareLowLagRecordToStreamAsync](mediacapture_preparelowlagrecordtostreamasync_1450185294.md), [PrepareLowLagRecordToStorageFileAsync](mediacapture_preparelowlagrecordtostoragefileasync_1085563722.md), and [PrepareLowLagRecordToCustomSinkAsync](/uwp/api/windows.media.capture.mediacapture.preparelowlagrecordtocustomsinkasync).
 
 ## -examples
 
 ## -see-also
-[PrepareLowLagRecordToStreamAsync](mediacapture_preparelowlagrecordtostreamasync.md), [PrepareLowLagRecordToStorageFileAsync](mediacapture_preparelowlagrecordtostoragefileasync.md), [PrepareLowLagRecordToCustomSinkAsync](mediacapture_preparelowlagrecordtocustomsinkasync.md)
+[PrepareLowLagRecordToStreamAsync](mediacapture_preparelowlagrecordtostreamasync_1450185294.md), [PrepareLowLagRecordToStorageFileAsync](mediacapture_preparelowlagrecordtostoragefileasync_1085563722.md), [PrepareLowLagRecordToCustomSinkAsync](/uwp/api/windows.media.capture.mediacapture.preparelowlagrecordtocustomsinkasync)

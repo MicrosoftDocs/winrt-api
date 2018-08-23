@@ -10,7 +10,7 @@ public event TypedEventHandler ReleaseDeviceRequested<ClaimedLineDisplay,  objec
 # Windows.Devices.PointOfService.ClaimedLineDisplay.ReleaseDeviceRequested
 
 ## -description
-Occurs when a claimed line display claimed is claimed by another app with [LineDisplay.ClaimAsync](linedisplay_claimasync.md).
+Occurs when a claimed line display claimed is claimed by another app with [LineDisplay.ClaimAsync](linedisplay_claimasync_1760840245.md).
 
 ## -remarks
 

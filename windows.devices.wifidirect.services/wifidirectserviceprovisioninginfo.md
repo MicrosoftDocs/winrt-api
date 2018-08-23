@@ -14,7 +14,7 @@ public class WiFiDirectServiceProvisioningInfo : Windows.Devices.WiFiDirect.Serv
 Contains provisioning information about a Wi-Fi Direct Service.
 
 ## -remarks
-Your code does not instantiate this class directly. You can retrieve an instance using either the [WiFiDirectServiceSessionRequest.ProvisioningInfo](wifidirectservicesessionrequest_provisioninginfo.md) property or the [WiFiDirectService.GetProvisioningInfoAsync](wifidirectservice_getprovisioninginfoasync.md) method.
+Your code does not instantiate this class directly. You can retrieve an instance using either the [WiFiDirectServiceSessionRequest.ProvisioningInfo](wifidirectservicesessionrequest_provisioninginfo.md) property or the [WiFiDirectService.GetProvisioningInfoAsync](wifidirectservice_getprovisioninginfoasync_628266286.md) method.
 
 ## -examples
 

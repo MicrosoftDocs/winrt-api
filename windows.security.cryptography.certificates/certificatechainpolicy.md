@@ -31,4 +31,4 @@ Check the last element of the first simple chain for a Microsoft root public key
 ## -examples
 
 ## -see-also
-[Validate](certificatechain_validate.md)
+[Validate](/uwp/api/windows.security.cryptography.certificates.certificatechain.validate)

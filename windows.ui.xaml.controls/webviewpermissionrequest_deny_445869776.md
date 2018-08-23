@@ -13,7 +13,7 @@ public void Deny()
 Denies the requested permission.
 
 ## -remarks
-When you deny the requested permission, subsequent calls to [Allow](webviewpermissionrequest_allow.md), [Deny](webviewpermissionrequest_deny.md), or [Defer](webviewpermissionrequest_defer.md) the permission request result in an error.
+When you deny the requested permission, subsequent calls to [Allow](webviewpermissionrequest_allow_1592747266.md), [Deny](webviewpermissionrequest_deny_445869776.md), or [Defer](webviewpermissionrequest_defer_1945301616.md) the permission request result in an error.
 
 ## -examples
 

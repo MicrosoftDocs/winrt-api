@@ -14,7 +14,7 @@ public Windows.Foundation.Collections.IVectorView<Windows.Media.Ocr.OcrWord> Wor
 Gets the collection of [OcrWord](ocrword.md) objects that represents the words detected in the current line of text by the [RecognizeAsync](ocrengine_recognizeasync_614325911.md) method.
 
 ## -property-value
-The collection of [OcrWord](ocrword.md) objects that represents the words detected in the current line of text by the [RecognizeAsync](ocrengine_recognizeasync.md) method.
+The collection of [OcrWord](ocrword.md) objects that represents the words detected in the current line of text by the [RecognizeAsync](ocrengine_recognizeasync_614325911.md) method.
 
 ## -remarks
 

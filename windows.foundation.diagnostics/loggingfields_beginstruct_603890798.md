@@ -24,4 +24,4 @@ Specifies up to twenty-eight bits of user-defined field metadata. The top four b
 ## -examples
 
 ## -see-also
-[BeginStruct(String)](loggingfields_beginstruct_359748894.md), [EndStruct](loggingfields_endstruct.md)
+[BeginStruct(String)](loggingfields_beginstruct_359748894.md), [EndStruct](loggingfields_endstruct_494341079.md)

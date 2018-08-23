@@ -130,4 +130,4 @@ sortedItemsPromise.done(function getFilesSuccess(sortedItems) {
 ```
 
 ## -see-also
-[GetFilesAsync(CommonFileQuery, UInt32, UInt32)](storagefolder_getfilesasync_1563132095.md), [GetFilesAsync(CommonFileQuery)](storagefolder_getfilesasync_1429382825.md), [GetItemsAsync](storagefolder_getitemsasync.md)
+[GetFilesAsync(CommonFileQuery, UInt32, UInt32)](storagefolder_getfilesasync_1563132095.md), [GetFilesAsync(CommonFileQuery)](storagefolder_getfilesasync_1429382825.md), [GetItemsAsync](/uwp/api/windows.storage.storagefolder.getitemsasync)

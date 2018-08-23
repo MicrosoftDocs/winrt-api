@@ -13,7 +13,7 @@ public class UIViewSettings : Windows.UI.ViewManagement.IUIViewSettings
 Represents UI states and behaviors associated with the device mode (Tablet or Desktop) and input device type.
 
 ## -remarks
-To get an instance of this class, call [GetForCurrentView](uiviewsettings_getforcurrentview.md).
+To get an instance of this class, call [GetForCurrentView](uiviewsettings_getforcurrentview_1363600702.md).
 
 
 > [!NOTE]

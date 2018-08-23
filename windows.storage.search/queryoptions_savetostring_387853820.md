@@ -21,4 +21,4 @@ Use this method if you want to save the query options for later use. For example
 ## -examples
 
 ## -see-also
-[LoadFromString](queryoptions_loadfromstring.md)
+[LoadFromString](queryoptions_loadfromstring_1308493691.md)
