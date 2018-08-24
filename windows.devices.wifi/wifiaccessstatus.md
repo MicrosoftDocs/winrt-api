@@ -32,4 +32,4 @@ Access has been denied by the system.
 ## -examples
 
 ## -see-also
-[WiFiAdapter.RequestAccessAsync](wifiadapter_requestaccessasync.md)
+[WiFiAdapter.RequestAccessAsync](wifiadapter_requestaccessasync_380675631.md)

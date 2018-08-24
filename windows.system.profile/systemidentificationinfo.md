@@ -13,7 +13,7 @@ public class SystemIdentificationInfo : Windows.System.Profile.ISystemIdentifica
 Represents a unique system identifier based on either the app publisher ID or a user ID.
 
 ## -remarks
-Call the [GetSystemIdForPublisher](systemidentification_getsystemidforpublisher.md) method or the [GetSystemIdForUser](systemidentification_getsystemidforuser.md) method to get an instance of this class.
+Call the [GetSystemIdForPublisher](systemidentification_getsystemidforpublisher_728928815.md) method or the [GetSystemIdForUser](systemidentification_getsystemidforuser_459524648.md) method to get an instance of this class.
 
 ## -examples
 

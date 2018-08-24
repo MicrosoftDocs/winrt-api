@@ -17,7 +17,7 @@ Represents a multiple choice UI control prompt required from the user. This is t
 ## -examples
 
 ## -see-also
-[IVpnCustomPromptElement](ivpncustompromptelement.md), [VpnChannel.RequestCustomPromptAsync](vpnchannel_requestcustompromptasync.md)
+[IVpnCustomPromptElement](ivpncustompromptelement.md), [VpnChannel.RequestCustomPromptAsync](vpnchannel_requestcustompromptasync_598226399.md)
 
 ## -capabilities
 networkingVpnProvider

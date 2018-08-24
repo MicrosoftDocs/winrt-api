@@ -27,4 +27,4 @@ The new text range.
 ## -examples
 
 ## -see-also
-[ITextDocument.GetRangeFromPoint](itextdocument_getrangefrompoint.md)
+[ITextDocument.GetRangeFromPoint](itextdocument_getrangefrompoint_1531333045.md)

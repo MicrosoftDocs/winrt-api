@@ -44,4 +44,4 @@ If programming with C#, VB, or C++, launch is complete when you activate an app 
 ## -examples
 
 ## -see-also
-[Handle app activation](http://msdn.microsoft.com/library/da9a6a43-f09d-4512-a2ab-9b6132431007), [Windows.UI.Core.CoreApplicationView.Activated](../windows.applicationmodel.core/coreapplicationview_activated.md), [Application](../windows.ui.xaml/application.md), [OnLaunched](../windows.ui.xaml/application_onlaunched.md)
+[Handle app activation](http://msdn.microsoft.com/library/da9a6a43-f09d-4512-a2ab-9b6132431007), [Windows.UI.Core.CoreApplicationView.Activated](../windows.applicationmodel.core/coreapplicationview_activated.md), [Application](../windows.ui.xaml/application.md), [OnLaunched](../windows.ui.xaml/application_onlaunched_859642554.md)

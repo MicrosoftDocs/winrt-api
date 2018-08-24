@@ -8,7 +8,7 @@ public delegate void NavigatingCancelEventHandler(System.Object sender, Windows.
 # Windows.UI.Xaml.Navigation.NavigatingCancelEventHandler
 
 ## -description
-Represents the method to use as the [OnNavigatingFrom](../windows.ui.xaml.controls/page_onnavigatingfrom.md) callback override.
+Represents the method to use as the [OnNavigatingFrom](../windows.ui.xaml.controls/page_onnavigatingfrom_425696585.md) callback override.
 
 ## -parameters
 ### -param sender

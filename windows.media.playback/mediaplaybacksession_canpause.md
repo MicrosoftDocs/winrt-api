@@ -10,7 +10,7 @@ public bool CanPause { get; }
 # Windows.Media.Playback.MediaPlaybackSession.CanPause
 
 ## -description
-Gets a value that indicates whether media can be paused if the [MediaPlayer.Pause](mediaplayer_pause.md) method is called.
+Gets a value that indicates whether media can be paused if the [MediaPlayer.Pause](mediaplayer_pause_1953642114.md) method is called.
 
 ## -property-value
 True if the media can be paused; otherwise, false.

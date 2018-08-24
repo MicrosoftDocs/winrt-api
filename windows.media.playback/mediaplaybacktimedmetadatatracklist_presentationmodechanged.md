@@ -13,7 +13,7 @@ public event Windows.Foundation.TypedEventHandler PresentationModeChanged<Window
 Occurs when the presentation mode of the [MediaPlaybackTimedMetadataTrackList](mediaplaybacktimedmetadatatracklist.md) changes.
 
 ## -remarks
-Change the presentation mode by calling [SetPresentationMode](mediaplaybacktimedmetadatatracklist_setpresentationmode.md).
+Change the presentation mode by calling [SetPresentationMode](mediaplaybacktimedmetadatatracklist_setpresentationmode_83974782.md).
 
 ## -examples
 

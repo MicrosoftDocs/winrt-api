@@ -13,7 +13,7 @@ public class UserDataAccount : Windows.ApplicationModel.UserDataAccounts.IUserDa
 Represents a user data account used to access email, contacts, calendars, and so on.
 
 ## -remarks
-Call [UserDataAccountStore.GetAccountAsync](userdataaccountstore_getaccountasync.md) to get an instance of this class.
+Call [UserDataAccountStore.GetAccountAsync](userdataaccountstore_getaccountasync_446150997.md) to get an instance of this class.
 
 ## -examples
 

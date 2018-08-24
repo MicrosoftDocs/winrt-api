@@ -24,4 +24,4 @@ The random access stream for saving the document.
 ## -examples
 
 ## -see-also
-[ITextDocument.LoadFromStream](itextdocument_loadfromstream.md)
+[ITextDocument.LoadFromStream](itextdocument_loadfromstream_1957374177.md)

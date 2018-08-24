@@ -10,7 +10,7 @@ virtual protected bool IsPeripheralCore()
 # Windows.UI.Xaml.Automation.Peers.AutomationPeer.IsPeripheralCore
 
 ## -description
-Provides the peer’s behavior when a Microsoft UI Automation client accesses [IsPeripheral](automationpeer_isperipheral.md) or an equivalent Microsoft UI Automation client API.
+Provides the peer’s behavior when a Microsoft UI Automation client accesses [IsPeripheral](automationpeer_isperipheral_1509271576.md) or an equivalent Microsoft UI Automation client API.
 
 ## -returns
 A Boolean value that indicates whether the automation element represents peripheral UI.

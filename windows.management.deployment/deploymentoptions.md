@@ -61,6 +61,6 @@ Additionally, to simplify and enhance the app development experience, these key 
 ## -examples
 
 ## -see-also
-[PackageManager.AddPackageAsync](packagemanager_addpackageasync.md), [PackageManager.RegisterPackageAsync](packagemanager_registerpackageasync.md), [PackageManager.UpdatePackageAsync](packagemanager_updatepackageasync.md)
+[PackageManager.AddPackageAsync](/uwp/api/windows.management.deployment.packagemanager.addpackageasync), [PackageManager.RegisterPackageAsync](/uwp/api/windows.management.deployment.packagemanager.registerpackageasync), [PackageManager.UpdatePackageAsync](packagemanager_updatepackageasync_1181217661.md)
 
 

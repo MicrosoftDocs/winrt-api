@@ -21,6 +21,6 @@ The result of the asynchronous read operation.
 ## -examples
 
 ## -see-also
-[ReadClientCharacteristicConfigurationDescriptorAsync](gattcharacteristic_readclientcharacteristicconfigurationdescriptorasync.md)
+[ReadClientCharacteristicConfigurationDescriptorAsync](gattcharacteristic_readclientcharacteristicconfigurationdescriptorasync_310627851.md)
 ## -capabilities
 bluetooth

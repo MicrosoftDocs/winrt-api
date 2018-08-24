@@ -13,7 +13,7 @@ public class AppointmentManagerForUser : Windows.ApplicationModel.Appointments.I
 Represents an appointment manager for a specific user.
 
 ## -remarks
-Call the [AppointmentManager.GetForUser](appointmentmanager_getforuser.md) method to get an instance of this class.
+Call the [AppointmentManager.GetForUser](appointmentmanager_getforuser_2058550280.md) method to get an instance of this class.
 
 ## -examples
 

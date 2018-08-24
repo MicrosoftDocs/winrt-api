@@ -104,4 +104,4 @@ filesInFolderPromise.done(function getFilesSuccess(filesInFolder) {
 ```
 
 ## -see-also
-[CreateFileQuery(CommonFileQuery)](storagefolder_createfilequery_1641434999.md), [CreateFileQueryWithOptions](storagefolder_createfilequerywithoptions.md)
+[CreateFileQuery(CommonFileQuery)](storagefolder_createfilequery_1641434999.md), [CreateFileQueryWithOptions](storagefolder_createfilequerywithoptions_2038131323.md)

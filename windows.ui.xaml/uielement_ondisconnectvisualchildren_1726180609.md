@@ -22,4 +22,4 @@ Override this method to implement how layout and logic should behave when items 
 ## -examples
 
 ## -see-also
-[VisualTreeHelper](../windows.ui.xaml.media/visualtreehelper.md), [VisualTreeHelper.DisconnectChildrenRecursive](../windows.ui.xaml.media/visualtreehelper_disconnectchildrenrecursive.md)
+[VisualTreeHelper](../windows.ui.xaml.media/visualtreehelper.md), [VisualTreeHelper.DisconnectChildrenRecursive](../windows.ui.xaml.media/visualtreehelper_disconnectchildrenrecursive_1375370588.md)

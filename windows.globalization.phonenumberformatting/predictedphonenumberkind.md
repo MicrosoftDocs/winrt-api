@@ -10,7 +10,7 @@ public enum Windows.Globalization.PhoneNumberFormatting.PredictedPhoneNumberKind
 # PredictedPhoneNumberKind
 
 ## -description
-The kinds of phone numbers returned by [PhoneNumberInfo.PredictNumberKind](phonenumberinfo_predictnumberkind.md).
+The kinds of phone numbers returned by [PhoneNumberInfo.PredictNumberKind](phonenumberinfo_predictnumberkind_261207465.md).
 
 ## -enum-fields
 ### -field FixedLine:0

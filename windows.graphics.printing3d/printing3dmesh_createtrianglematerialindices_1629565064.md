@@ -18,7 +18,7 @@ Creates the buffer for triangle material indices.
 The capacity of the buffer, the maximum number of bytes that the [IBuffer](../windows.storage.streams/ibuffer.md) can hold.
 
 ## -remarks
-To access the buffer for triangle material indices, use [GetTriangleMaterialIndices](printing3dmesh_gettrianglematerialindices.md).
+To access the buffer for triangle material indices, use [GetTriangleMaterialIndices](printing3dmesh_gettrianglematerialindices_378308768.md).
 
 ## -examples
 

@@ -26,9 +26,9 @@ A [DeploymentOptions](deploymentoptions.md)-typed value that specifies the packa
 The status of the deployment request. The [DeploymentResult](deploymentresult.md) contains the final returned value of the deployment operation, once it is completed. The [DeploymentProgress](deploymentprogress.md) can be used to obtain the percentage of completion over the entire course of the deployment operation.
 
 ## -remarks
-To hide specifics about the manifest of a bundle package, instead of calling [RegisterPackageAsync](packagemanager_registerpackageasync.md), you can call [RegisterPackageByFullNameAsync](packagemanager_registerpackagebyfullnameasync.md) to register a package by its full name. Bundle packages and regular packages are both referenced by the common package full name and thus registration by full name reduces the amount of domain knowledge required by the caller.
+To hide specifics about the manifest of a bundle package, instead of calling [RegisterPackageAsync](/uwp/api/windows.management.deployment.packagemanager.registerpackageasync), you can call [RegisterPackageByFullNameAsync](packagemanager_registerpackagebyfullnameasync_828314124.md) to register a package by its full name. Bundle packages and regular packages are both referenced by the common package full name and thus registration by full name reduces the amount of domain knowledge required by the caller.
 
-[RegisterPackageByFullNameAsync](packagemanager_registerpackagebyfullnameasync.md) can't install a package for any user other than the caller. The *dependencyPackageFullNames* can contain 0 elements if there aren't any dependency packages.
+[RegisterPackageByFullNameAsync](packagemanager_registerpackagebyfullnameasync_828314124.md) can't install a package for any user other than the caller. The *dependencyPackageFullNames* can contain 0 elements if there aren't any dependency packages.
 
 ## -examples
 

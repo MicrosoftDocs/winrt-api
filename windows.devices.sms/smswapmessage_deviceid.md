@@ -21,7 +21,7 @@ The device information ID of the [SmsDevice](smsdevice.md) that receives the [Sm
 ## -examples
 
 ## -see-also
-[SmsDevice](smsdevice.md), [SmsDevice.FromIdAsync](smsdevice_fromidasync.md)
+[SmsDevice](smsdevice.md), [SmsDevice.FromIdAsync](smsdevice_fromidasync_1322863552.md)
 
 ## -capabilities
 cellularMessaging, sms

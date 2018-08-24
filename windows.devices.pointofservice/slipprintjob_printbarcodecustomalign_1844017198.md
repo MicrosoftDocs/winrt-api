@@ -37,4 +37,4 @@ The distance from the leftmost print column to the start of the barcode, express
 ## -examples
 
 ## -see-also
-[IReceiptOrSlipJob.PrintBarcodeCustomAlign](ireceiptorslipjob_printbarcodecustomalign.md)
+[IReceiptOrSlipJob.PrintBarcodeCustomAlign](ireceiptorslipjob_printbarcodecustomalign_1844017198.md)

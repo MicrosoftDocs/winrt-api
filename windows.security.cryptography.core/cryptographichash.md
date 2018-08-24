@@ -29,4 +29,4 @@ Call the [HashAlgorithmProvider.CreateHash](hashalgorithmprovider_createhash_203
 [!code-csharp[ShowAppend](../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowAppend)]
 
 ## -see-also
-[HashAlgorithmProvider](hashalgorithmprovider.md), [CreateHash](hashalgorithmprovider_createhash.md)
+[HashAlgorithmProvider](hashalgorithmprovider.md), [CreateHash](hashalgorithmprovider_createhash_203787775.md)

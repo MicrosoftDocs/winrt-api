@@ -19,16 +19,8 @@ The name of an application-defined class that performs the work of a background 
 ## -returns
 The result of the reservation action.
 
-## -remarks
-Use this method when your VoIP application receives an incoming call notification, or before creating an outgoing VoIP call.
-
-Each call requires separate resources. To handle multiple VoIP calls simultaneously, you must invoke this method once for each call.
-
-Resources are freed automatically when a call is completed.
-
-You should only call **ReserveCallResourcesAsync** once. Calling it a second time results in an exception with an HRESULT of -2147024713 (0x800700b7), as shown in the code example below.
-
 ## -examples
+You should call **ReserveCallResourcesAsync** only once. Calling it a subsequent time results in an exception with an HRESULT of -2147024713 (0x800700b7), as shown in the code example.
 
 ```csharp
 ...
@@ -45,6 +37,15 @@ catch (System.Exception ex)
 }
 ...
 ```
+
+## -remarks
+Use this method when your VoIP application receives an incoming call notification, or before creating an outgoing VoIP call.
+
+Each call requires separate resources. To handle multiple VoIP calls simultaneously, you must invoke this method once for each call.
+
+Resources are freed automatically when a call is completed.
+
+You should call **ReserveCallResourcesAsync** only once. See the code example.
 
 ## -see-also
 

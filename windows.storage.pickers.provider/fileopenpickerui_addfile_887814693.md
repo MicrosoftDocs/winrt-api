@@ -28,4 +28,4 @@ The enumeration value that indicates the result of this [addFile](fileopenpicker
 ## -examples
 
 ## -see-also
-[FileOpenPickerUI class](fileopenpickerui.md), [FileOpenPickerUI.CanAddFile method](fileopenpickerui_canaddfile.md), [FileOpenPickerUI.RemoveFile method](fileopenpickerui_removefile.md)
+[FileOpenPickerUI class](fileopenpickerui.md), [FileOpenPickerUI.CanAddFile method](fileopenpickerui_canaddfile_448184137.md), [FileOpenPickerUI.RemoveFile method](fileopenpickerui_removefile_245169084.md)

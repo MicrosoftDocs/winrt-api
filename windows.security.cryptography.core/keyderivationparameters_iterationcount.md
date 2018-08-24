@@ -10,13 +10,13 @@ public uint IterationCount { get; }
 # Windows.Security.Cryptography.Core.KeyDerivationParameters.IterationCount
 
 ## -description
-Retrieves the number of iterations used to derive the key. For more information, see [BuildForPbkdf2](keyderivationparameters_buildforpbkdf2.md).
+Retrieves the number of iterations used to derive the key. For more information, see [BuildForPbkdf2](keyderivationparameters_buildforpbkdf2_636237279.md).
 
 ## -property-value
 Iteration count.
 
 ## -remarks
-The number of iterations is specified in the [BuildForPbkdf2](keyderivationparameters_buildforpbkdf2.md) method.
+The number of iterations is specified in the [BuildForPbkdf2](keyderivationparameters_buildforpbkdf2_636237279.md) method.
 
 ## -examples
 

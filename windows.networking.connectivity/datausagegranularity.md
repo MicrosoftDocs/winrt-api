@@ -10,7 +10,7 @@ public enum Windows.Networking.Connectivity.DataUsageGranularity : int
 # DataUsageGranularity
 
 ## -description
-Defines levels of granularity used when retrieving data usage statistics with [GetNetworkUsageAsync](connectionprofile_getnetworkusageasync.md).
+Defines levels of granularity used when retrieving data usage statistics with [GetNetworkUsageAsync](connectionprofile_getnetworkusageasync_665790436.md).
 
 ## -enum-fields
 ### -field PerMinute:0

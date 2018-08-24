@@ -35,7 +35,7 @@ Don't include hidden text.
 Include list numbers.
 
 ### -field FormatRtf:8192
-Retrieve Rich Text Format (RTF) instead of plain text. Rich Text Format (RTF) is a BYTE (8-bit) format, but because [ITextRange.GetText](itextrange_gettext.md) returns a string, the Rich Text Format (RTF) is returned as WCHARs (16-bit or UTF-16), not bytes, when you call [ITextRange.GetText](itextrange_gettext.md) with the **FormatRtf** value. When you call [ITextRange.SetText](itextrange_settext.md) with **FormatRtf**, the method accepts an string containing either bytes or WCHARs, but other Rich Text Format (RTF) readers only understand bytes.
+Retrieve Rich Text Format (RTF) instead of plain text. Rich Text Format (RTF) is a BYTE (8-bit) format, but because [ITextRange.GetText](itextrange_gettext_518428927.md) returns a string, the Rich Text Format (RTF) is returned as WCHARs (16-bit or UTF-16), not bytes, when you call [ITextRange.GetText](itextrange_gettext_518428927.md) with the **FormatRtf** value. When you call [ITextRange.SetText](itextrange_settext_522499431.md) with **FormatRtf**, the method accepts an string containing either bytes or WCHARs, but other Rich Text Format (RTF) readers only understand bytes.
 
 ### -field UseLf:16777216
 Use line feed (LF) in place of all carriage returns.
@@ -48,4 +48,4 @@ If both UseLf and UseCrLf are used an invalid argument exception is thrown.
 ## -examples
 
 ## -see-also
-[ITextDocument.GetText](itextdocument_gettext.md), [ITextDocument.SaveToStream](itextdocument_savetostream.md), [ITextRange.GetTextViaStream](itextrange_gettextviastream.md), [ITextRange.SetTextViaStream](itextrange_settextviastream.md), [ITextRange.GetText](itextrange_gettext.md)
+[ITextDocument.GetText](itextdocument_gettext_518428927.md), [ITextDocument.SaveToStream](itextdocument_savetostream_748724562.md), [ITextRange.GetTextViaStream](itextrange_gettextviastream_1369580261.md), [ITextRange.SetTextViaStream](itextrange_settextviastream_1369572373.md), [ITextRange.GetText](itextrange_gettext_518428927.md)

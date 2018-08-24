@@ -33,7 +33,7 @@ if (ApiInformation.IsMethodPresent("Windows.UI.Xaml.Media.Imaging.BitmapImage", 
 
 This example shows how to use an animated GIF. A button lets the user start or stop the animation. The [IsPlaying](bitmapimage_isplaying.md) property is checked to determine whether the [Play](bitmapimage_play_848564459.md) or [Stop](bitmapimage_stop_1201535524.md) method is called to toggle playback.
 
-The example uses version adaptive code so it can run on all versions of Windows 10. In this case, the presence of the [IsPlaying](bitmapimage_isplaying.md) property indicates that the [Play](bitmapimage_play.md) and [Stop](bitmapimage_stop.md) methods are also present, so an additional API check is not needed.
+The example uses version adaptive code so it can run on all versions of Windows 10. In this case, the presence of the [IsPlaying](bitmapimage_isplaying.md) property indicates that the [Play](bitmapimage_play_848564459.md) and [Stop](bitmapimage_stop_1201535524.md) methods are also present, so an additional API check is not needed.
 
 ```xaml
 <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">

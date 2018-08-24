@@ -24,4 +24,4 @@ True if this text range has the same character positions and story as *range*, a
 ## -examples
 
 ## -see-also
-[ITextRange.InRange](itextrange_inrange.md)
+[ITextRange.InRange](itextrange_inrange_1794915461.md)

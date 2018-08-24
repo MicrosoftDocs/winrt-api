@@ -14,7 +14,7 @@ public Windows.Networking.Sockets.SocketProtectionLevel MaxProtectionLevel { get
 Gets the maximum SocketProtectionLevel supported by this RFCOMM service instance.
 
 ## -property-value
-The maximum SocketProtectionLevel of the RFCOMM service instance. This level can be passed to [StreamSocket.ConnectAsync](../windows.networking.sockets/streamsocket_connectasync.md) to upgrade the RFCOMM link protection level.
+The maximum SocketProtectionLevel of the RFCOMM service instance. This level can be passed to [StreamSocket.ConnectAsync](/uwp/api/windows.networking.sockets.streamsocket.connectasync) to upgrade the RFCOMM link protection level.
 
 ## -remarks
 

@@ -17,7 +17,7 @@ A VPN plug-in must always call this function in its background tasks Run() metho
 The plug-in to be processed.
 
 ### -param event
-The event object that was passed to the app from a background task **Run** method parameter. App code calling [ProcessEventAsync](vpnchannel_processeventasync.md) treats this object as an opaque blob it is passing from the background task to the event processing code. (In the event processing code, the object will be understood and parsed appropriately.)
+The event object that was passed to the app from a background task **Run** method parameter. App code calling [ProcessEventAsync](vpnchannel_processeventasync_1190258170.md) treats this object as an opaque blob it is passing from the background task to the event processing code. (In the event processing code, the object will be understood and parsed appropriately.)
 
 ## -remarks
 

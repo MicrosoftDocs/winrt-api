@@ -146,4 +146,4 @@ itemsInFolderPromise.done(function getItemsSuccess(itemsInFolder) {
 ```
 
 ## -see-also
-[GetItemsAsync(UInt32, UInt32)](storagefolder_getitemsasync_561011846.md), [GetFilesAsync](storagefolder_getfilesasync.md), [GetFoldersAsync](storagefolder_getfoldersasync.md)
+[GetItemsAsync(UInt32, UInt32)](storagefolder_getitemsasync_561011846.md), [GetFilesAsync](/uwp/api/windows.storage.storagefolder.getfilesasync), [GetFoldersAsync](/uwp/api/windows.storage.storagefolder.getfoldersasync)

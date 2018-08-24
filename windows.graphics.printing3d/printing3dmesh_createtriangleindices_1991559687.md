@@ -18,7 +18,7 @@ Creates the buffer for triangle indices.
 The capacity of the buffer, the maximum number of bytes that the [IBuffer](../windows.storage.streams/ibuffer.md) can hold.
 
 ## -remarks
-To access the buffer for triangle indices, use [GetTriangleIndices](printing3dmesh_gettriangleindices.md).
+To access the buffer for triangle indices, use [GetTriangleIndices](printing3dmesh_gettriangleindices_227173511.md).
 
 ## -examples
 

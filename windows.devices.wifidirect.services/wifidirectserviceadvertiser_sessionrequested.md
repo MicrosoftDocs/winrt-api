@@ -11,7 +11,7 @@ public event Windows.Foundation.TypedEventHandler SessionRequested<Windows.Devic
 # Windows.Devices.WiFiDirect.Services.WiFiDirectServiceAdvertiser.SessionRequested
 
 ## -description
-Event raised when a Seeker has requested that a session be established with the service associated with this WiFiDirectServiceAdvertiser instance. To accept the request, call [WiFiDirectServiceAdvertiser.ConnectAsync](wifidirectserviceadvertiser_connectasync.md) in your event handler.
+Event raised when a Seeker has requested that a session be established with the service associated with this WiFiDirectServiceAdvertiser instance. To accept the request, call [WiFiDirectServiceAdvertiser.ConnectAsync](/uwp/api/windows.devices.wifidirect.services.wifidirectserviceadvertiser.connectasync) in your event handler.
 
 ## -remarks
 

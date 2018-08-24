@@ -25,4 +25,4 @@ If the string is **NULL**, the text in the document is deleted.
 ## -examples
 
 ## -see-also
-[ITextDocument.GetText](itextdocument_gettext.md)
+[ITextDocument.GetText](itextdocument_gettext_518428927.md)

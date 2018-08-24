@@ -18,7 +18,7 @@ Sets the rotation of the text or image on the page on the slip printer station.
 The rotation of the text or image on the page.
 
 ### -param includeBitmaps
-Whether bitmaps should also be rotated. This setting takes effect only for subsequent calls to [PrintBitmap](slipprintjob_printbitmap.md), and may not apply to saved bitmaps that you print using [PrintSavedBitmap](slipprintjob_printsavedbitmap.md).
+Whether bitmaps should also be rotated. This setting takes effect only for subsequent calls to [PrintBitmap](/uwp/api/windows.devices.pointofservice.slipprintjob.printbitmap), and may not apply to saved bitmaps that you print using [PrintSavedBitmap](slipprintjob_printsavedbitmap_1902948304.md).
 
 ## -remarks
 This rotation setting persists beyond the current print job.

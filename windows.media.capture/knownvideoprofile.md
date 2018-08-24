@@ -44,9 +44,9 @@ The profile provides hints to the driver to optimize for capturing variable phot
 The profile provides hints to the driver to optimize for High Dynamic Range (HDR) video.
 
 ## -remarks
-Use [FindKnownVideoProfiles](mediacapture_findknownvideoprofiles.md) to retrieve the list of known profiles that are supported for a specified video device.
+Use [FindKnownVideoProfiles](mediacapture_findknownvideoprofiles_875917242.md) to retrieve the list of known profiles that are supported for a specified video device.
 
 ## -examples
 
 ## -see-also
-[FindKnownVideoProfiles](mediacapture_findknownvideoprofiles.md)
+[FindKnownVideoProfiles](mediacapture_findknownvideoprofiles_875917242.md)

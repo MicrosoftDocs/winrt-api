@@ -13,7 +13,7 @@ public class ActivitySensorReading : Windows.Devices.Sensors.IActivitySensorRead
 Represents the reading of an activity sensor that provides readings for the sensor.
 
 ## -remarks
-This object is accessed when you call the [ActivitySensor.GetCurrentReadingAsync](activitysensor_getcurrentreadingasync.md) method.
+This object is accessed when you call the [ActivitySensor.GetCurrentReadingAsync](activitysensor_getcurrentreadingasync_1875759564.md) method.
 
 ## -examples
 

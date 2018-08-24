@@ -13,7 +13,7 @@ public class EmailManagerForUser : Windows.ApplicationModel.Email.IEmailManagerF
 Represents a service that source apps can call to access email data for a specific user.
 
 ## -remarks
-Call the [EmailManager.GetForUser](emailmanager_getforuser.md) method to get an instance of this class.
+Call the [EmailManager.GetForUser](emailmanager_getforuser_2058550280.md) method to get an instance of this class.
 
 ## -examples
 

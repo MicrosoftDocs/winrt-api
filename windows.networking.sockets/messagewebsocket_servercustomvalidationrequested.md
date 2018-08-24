@@ -23,7 +23,7 @@ As an example of the kind of validation you can do in this event handler: you co
 
 To indicate validation failure, call the [WebSocketServerCustomValidationRequestedEventArgs.Reject](websocketservercustomvalidationrequestedeventargs_reject_731021879.md) method. To indicate validation success, simply return from the event handler.
 
-Note that whether validation succeeds or fails, you must call [Deferral.Complete](../windows.foundation/deferral_complete.md) on the deferral object you acquired when you started the validation process.
+Note that whether validation succeeds or fails, you must call [Deferral.Complete](../windows.foundation/deferral_complete_1807836922.md) on the deferral object you acquired when you started the validation process.
 
 ## -examples
 

@@ -10,7 +10,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Foundation.Collections.IVector
 # Windows.ApplicationModel.UserDataAccounts.UserDataAccountStore.FindAccountsAsync
 
 ## -description
-Returns a collection of [UserDataAccount](userdataaccount.md) objects from the store based on the [UserDataAccountStoreAccessType](userdataaccountstoreaccesstype.md) value passed into [RequestStoreAsync](userdataaccountmanager_requeststoreasync.md).
+Returns a collection of [UserDataAccount](userdataaccount.md) objects from the store based on the [UserDataAccountStoreAccessType](userdataaccountstoreaccesstype.md) value passed into [RequestStoreAsync](userdataaccountmanager_requeststoreasync_1031356348.md).
 
 ## -returns
 Returns the collection of user data accounts, scoped by access request.

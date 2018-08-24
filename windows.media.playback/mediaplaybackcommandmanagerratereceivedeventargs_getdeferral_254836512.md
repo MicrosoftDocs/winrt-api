@@ -16,7 +16,7 @@ Gets a [Deferral](../windows.foundation/deferral.md) object that causes the syst
 The deferral object.
 
 ## -remarks
-Call [Complete](../windows.foundation/deferral_complete.md) when your asynchronous operations are complete to signal the system to continue.
+Call [Complete](../windows.foundation/deferral_complete_1807836922.md) when your asynchronous operations are complete to signal the system to continue.
 
 ## -examples
 

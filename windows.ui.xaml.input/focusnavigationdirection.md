@@ -51,4 +51,4 @@ No change in focus.
 ## -examples
 
 ## -see-also
-[TryMoveFocus](focusmanager_trymovefocus.md)
+[TryMoveFocus](/uwp/api/windows.ui.xaml.input.focusmanager.trymovefocus)

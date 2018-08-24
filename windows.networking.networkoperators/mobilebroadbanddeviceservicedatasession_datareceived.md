@@ -11,13 +11,13 @@ public event Windows.Foundation.TypedEventHandler DataReceived<Windows.Networkin
 # Windows.Networking.NetworkOperators.MobileBroadbandDeviceServiceDataSession.DataReceived
 
 ## -description
-An event that indicates that data was received on the [MobileBroadbandDeviceServiceDataSession](mobilebroadbanddeviceservicedatasession.md) object after the [WriteDataAsync](mobilebroadbanddeviceservicedatasession_writedataasync.md) method was called.
+An event that indicates that data was received on the [MobileBroadbandDeviceServiceDataSession](mobilebroadbanddeviceservicedatasession.md) object after the [WriteDataAsync](mobilebroadbanddeviceservicedatasession_writedataasync_319321365.md) method was called.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
-[WriteDataAsync](mobilebroadbanddeviceservicedatasession_writedataasync.md)
+[WriteDataAsync](mobilebroadbanddeviceservicedatasession_writedataasync_319321365.md)
 ## -capabilities
 cellularDeviceIdentity, cellularDeviceControl

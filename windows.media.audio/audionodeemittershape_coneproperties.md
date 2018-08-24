@@ -16,7 +16,7 @@ Gets an object that defines the characteristics of an emitter's cone shape, incl
 An object that defines the characteristics of the cone shape
 
 ## -remarks
-Create a cone emitter shape by calling [CreateCone](audionodeemittershape_createcone.md).
+Create a cone emitter shape by calling [CreateCone](audionodeemittershape_createcone_1260552697.md).
 
 ## -examples
 

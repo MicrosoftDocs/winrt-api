@@ -16,7 +16,7 @@ Identifies a dependency property that's used for a list of annotation objects in
 The identifier for the **Annotations** attached property.
 
 ## -remarks
-There's no public dependency property for **Annotations**. Use [GetAnnotations](automationproperties_getannotations.md) to get the list of annotations.
+There's no public dependency property for **Annotations**. Use [GetAnnotations](automationproperties_getannotations_1232704323.md) to get the list of annotations.
 
 ## -examples
 

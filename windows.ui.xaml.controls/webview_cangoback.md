@@ -16,9 +16,9 @@ Gets a value that indicates whether there is at least one page in the backward n
 **true** if the [WebView](webview.md) can navigate backward; otherwise, **false**.
 
 ## -remarks
-To navigate backward, call the [GoBack](webview_goback.md) method.
+To navigate backward, call the [GoBack](webview_goback_1030386674.md) method.
 
 ## -examples
 
 ## -see-also
-[GoBack](webview_goback.md)
+[GoBack](webview_goback_1030386674.md)

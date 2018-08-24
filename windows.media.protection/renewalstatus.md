@@ -10,7 +10,7 @@ public enum Windows.Media.Protection.RenewalStatus : int
 # RenewalStatus
 
 ## -description
-Defines the possible values returned from [RenewSystemComponentsAsync](componentrenewal_renewsystemcomponentsasync.md).
+Defines the possible values returned from [RenewSystemComponentsAsync](componentrenewal_renewsystemcomponentsasync_1438723694.md).
 
 ## -enum-fields
 ### -field NotStarted:0

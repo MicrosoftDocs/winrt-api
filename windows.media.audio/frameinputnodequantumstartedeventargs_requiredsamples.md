@@ -16,7 +16,7 @@ Gets the number of samples that the audio graph requires to fill the quantum wit
 The number of samples that the audio graph requires to fill the quantum with data.
 
 ## -remarks
-Pass an [AudioFrame](audioframecompletedeventargs.md) into the [AddFrame](audioframeinputnode_addframe.md) method to provide the required audio samples. It is recommended that you only submit the number of samples requested by the audio graph. Submitting extra samples can result in latency in the audio graph.
+Pass an [AudioFrame](audioframecompletedeventargs.md) into the [AddFrame](audioframeinputnode_addframe_561479871.md) method to provide the required audio samples. It is recommended that you only submit the number of samples requested by the audio graph. Submitting extra samples can result in latency in the audio graph.
 
 If the amount of data currently in the node is more than enough to fill one quantum, **RequiredSamples** will be 0.
 

@@ -18,7 +18,7 @@ Indicates whether the package has been disabled.
 ## -remarks
 Disabled packages must be enabled before they can be used.
 
-Packages are disabled by using [PackageManager.SetPackageStatus](../windows.management.deployment/packagemanager_setpackagestatus.md) and enabled by using [PackageManager.ClearPackageStatus](../windows.management.deployment/packagemanager_clearpackagestatus.md).
+Packages are disabled by using [PackageManager.SetPackageStatus](../windows.management.deployment/packagemanager_setpackagestatus_823303881.md) and enabled by using [PackageManager.ClearPackageStatus](../windows.management.deployment/packagemanager_clearpackagestatus_2106290289.md).
 
 ## -examples
 

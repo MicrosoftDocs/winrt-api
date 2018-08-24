@@ -10,7 +10,7 @@ public MediaCaptureInitializationSettings()
 # Windows.Media.Capture.MediaCaptureInitializationSettings.MediaCaptureInitializationSettings
 
 ## -description
-Creates a new instance of the [MediaCaptureInitializationSettings](mediacaptureinitializationsettings_mediacaptureinitializationsettings.md) object.
+Creates a new instance of the [MediaCaptureInitializationSettings](mediacaptureinitializationsettings_mediacaptureinitializationsettings_1221375020.md) object.
 
 ## -remarks
 

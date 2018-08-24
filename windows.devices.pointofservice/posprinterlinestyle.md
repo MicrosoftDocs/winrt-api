@@ -32,4 +32,4 @@ Prints a sequence of short lines separated by a space, then followed by a very s
 ## -examples
 
 ## -see-also
-[ReceiptPrintJob.DrawRuledLine](receiptprintjob_drawruledline.md), [SlipPrintJob.DrawRuledLine](slipprintjob_drawruledline.md), [IReceiptOrSlipJob.DrawRuledLine](ireceiptorslipjob_drawruledline.md)
+[ReceiptPrintJob.DrawRuledLine](receiptprintjob_drawruledline_1309666666.md), [SlipPrintJob.DrawRuledLine](slipprintjob_drawruledline_1309666666.md), [IReceiptOrSlipJob.DrawRuledLine](ireceiptorslipjob_drawruledline_1309666666.md)

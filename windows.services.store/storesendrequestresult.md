@@ -13,9 +13,9 @@ public class StoreSendRequestResult : Windows.Services.Store.IStoreSendRequestRe
 Provides response data for a request that is sent to the Microsoft Store.
 
 ## -remarks
-The [StoreRequestHelper.SendRequestAsync](storerequesthelper_sendrequestasync.md) method returns an object of this type.
+The [StoreRequestHelper.SendRequestAsync](storerequesthelper_sendrequestasync_58590558.md) method returns an object of this type.
 
 ## -examples
 
 ## -see-also
-[SendRequestAsync](storerequesthelper_sendrequestasync.md)
+[SendRequestAsync](storerequesthelper_sendrequestasync_58590558.md)

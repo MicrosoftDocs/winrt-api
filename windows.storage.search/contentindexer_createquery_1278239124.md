@@ -30,4 +30,4 @@ The query.
 ## -examples
 
 ## -see-also
-[CreateQuery(String, IIterable(String), IIterable(SortEntry), String)](contentindexer_createquery_2143311724.md), [CreateQuery(String, IIterable(String))](contentindexer_createquery_293378840.md), [GetPropertiesAsync](contentindexerquery_getpropertiesasync.md)
+[CreateQuery(String, IIterable(String), IIterable(SortEntry), String)](contentindexer_createquery_2143311724.md), [CreateQuery(String, IIterable(String))](contentindexer_createquery_293378840.md), [GetPropertiesAsync](/uwp/api/windows.storage.search.contentindexerquery.getpropertiesasync)

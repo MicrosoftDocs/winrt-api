@@ -27,4 +27,4 @@ Indicates how to set the endpoints of the text range. If *extend* is 0, the text
 ## -examples
 
 ## -see-also
-[ITextRange.GetPoint](itextrange_getpoint.md)
+[ITextRange.GetPoint](itextrange_getpoint_1487502073.md)

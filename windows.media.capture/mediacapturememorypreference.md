@@ -21,7 +21,7 @@ CPU memory is used.
 
 
 ## -remarks
-Specify a memory preference by setting the [MemoryPreference](mediacaptureinitializationsettings_memorypreference.md) property of the [MediaCaptureInitializationSettings](mediacaptureinitializationsettings.md) object before calling [MediaCapture.InitializeAsync](mediacapture_initializeasync.md).
+Specify a memory preference by setting the [MemoryPreference](mediacaptureinitializationsettings_memorypreference.md) property of the [MediaCaptureInitializationSettings](mediacaptureinitializationsettings.md) object before calling [MediaCapture.InitializeAsync](/uwp/api/windows.media.capture.mediacapture.initializeasync).
 
 ## -examples
 

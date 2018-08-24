@@ -46,4 +46,4 @@ _distantLight.Targets.Add(root);
 
 
 ## -see-also
-[CompositionLight](compositionlight.md), [CompositionLight.Targets](compositionlight_targets.md), [Compositor.CreateDistantLight](compositor_createdistantlight.md)
+[CompositionLight](compositionlight.md), [CompositionLight.Targets](compositionlight_targets.md), [Compositor.CreateDistantLight](compositor_createdistantlight_2124441775.md)

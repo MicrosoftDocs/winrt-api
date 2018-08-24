@@ -14,7 +14,7 @@ public class ChatMessageChange : Windows.ApplicationModel.Chat.IChatMessageChang
 Represents a revision to a chat message.
 
 ## -remarks
-Obtain an instance of this class by calling [ReadBatchAsync](chatmessagechangereader_readbatchasync.md).
+Obtain an instance of this class by calling [ReadBatchAsync](chatmessagechangereader_readbatchasync_888788553.md).
 
 ## -examples
 

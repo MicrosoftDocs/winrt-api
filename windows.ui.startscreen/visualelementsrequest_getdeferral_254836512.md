@@ -16,7 +16,7 @@ public Windows.UI.StartScreen.VisualElementsRequestDeferral GetDeferral()
 The deferral object.
 
 ## -remarks
-If you call this method, you must follow it with a call to [Complete](visualelementsrequestdeferral_complete.md) before the deferral period times out. If you don't, any properties set during the deferral period are ignored.
+If you call this method, you must follow it with a call to [Complete](visualelementsrequestdeferral_complete_1807836922.md) before the deferral period times out. If you don't, any properties set during the deferral period are ignored.
 
 ## -examples
 

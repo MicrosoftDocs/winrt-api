@@ -13,7 +13,7 @@ public class StoreProductResult : Windows.Services.Store.IStoreProductResult
 Provides response data for a request to retrieve details about the current app.
 
 ## -remarks
-The [StoreContext.GetStoreProductForCurrentAppAsync](storecontext_getstoreproductforcurrentappasync.md) method returns an object of this type.
+The [StoreContext.GetStoreProductForCurrentAppAsync](storecontext_getstoreproductforcurrentappasync_128036649.md) method returns an object of this type.
 
 ## -examples
 

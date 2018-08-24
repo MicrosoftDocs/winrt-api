@@ -31,4 +31,4 @@ CompositionLight is the base class for four light types.
 ## -examples
 
 ## -see-also
-[CompositionObject](compositionobject.md), [CompositionLight.Targets](compositionlight_targets.md), [Compositor.CreateAmbientLight](compositor_createambientlight.md), [Compositor.CreatePointLight](compositor_createpointlight.md), [Compositor.CreateSpotLight](compositor_createspotlight.md), [Compositor.CreateDistantLight](compositor_createdistantlight.md)
+[CompositionObject](compositionobject.md), [CompositionLight.Targets](compositionlight_targets.md), [Compositor.CreateAmbientLight](compositor_createambientlight_920812985.md), [Compositor.CreatePointLight](compositor_createpointlight_53515673.md), [Compositor.CreateSpotLight](compositor_createspotlight_583315408.md), [Compositor.CreateDistantLight](compositor_createdistantlight_2124441775.md)

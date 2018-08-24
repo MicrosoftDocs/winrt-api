@@ -16,7 +16,7 @@ Gets the maximum allowed age rating level to show in a content catalog. No conte
 An integer, that represents an age.
 
 ## -remarks
-If user doesn’t have any content restrictions enforced by Family Safety, the return value is NULL. The app is still expected to call [RequestContentAccessAsync](ratedcontentrestrictions_requestcontentaccessasync.md) for every piece of content a user is trying to use.
+If user doesn’t have any content restrictions enforced by Family Safety, the return value is NULL. The app is still expected to call [RequestContentAccessAsync](ratedcontentrestrictions_requestcontentaccessasync_637668410.md) for every piece of content a user is trying to use.
 
 ## -examples
 

@@ -47,4 +47,4 @@ myFrame.Navigate(typeof(Page2), null, new SuppressNavigationTransitionInfo());
 
 
 ## -see-also
-[DependencyObject](../windows.ui.xaml/dependencyobject.md), [Frame.Navigate](../windows.ui.xaml.controls/frame_navigate.md)
+[DependencyObject](../windows.ui.xaml/dependencyobject.md), [Frame.Navigate](/uwp/api/windows.ui.xaml.controls.frame.navigate)

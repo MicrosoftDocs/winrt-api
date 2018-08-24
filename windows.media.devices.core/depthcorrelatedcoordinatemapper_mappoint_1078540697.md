@@ -10,7 +10,7 @@ public Windows.Foundation.Point MapPoint(Windows.Foundation.Point sourcePoint, W
 # Windows.Media.Devices.Core.DepthCorrelatedCoordinateMapper.MapPoint
 
 ## -description
-Maps a point from one [MediaFrameSource](../windows.media.capture.frames/mediaframesource.md) to another, using depth information from the [DepthMediaFrame](../windows.media.capture.frames/depthmediaframe.md) from which the coordinate mapper was created with a call to [TryCreateCoordinateMapper](../windows.media.capture.frames/depthmediaframe_trycreatecoordinatemapper.md).
+Maps a point from one [MediaFrameSource](../windows.media.capture.frames/mediaframesource.md) to another, using depth information from the [DepthMediaFrame](../windows.media.capture.frames/depthmediaframe.md) from which the coordinate mapper was created with a call to [TryCreateCoordinateMapper](../windows.media.capture.frames/depthmediaframe_trycreatecoordinatemapper_1923171226.md).
 
 ## -parameters
 ### -param sourcePoint

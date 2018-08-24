@@ -17,7 +17,7 @@ Invoked when the application creates a window.
 Event data for the event.
 
 ## -remarks
-This method is called once for the creation of the main window, once for each hosted window, and once each time [CreateNewView](../windows.applicationmodel.core/coreapplication_createnewview.md) is called. You can override this method, for example, to access various panes by calling **GetForCurrentView** methods such as [SearchPane.GetForCurrentView](../windows.applicationmodel.search/searchpane_getforcurrentview.md) and [SettingsPane.GetForCurrentView](../windows.ui.applicationsettings/settingspane_getforcurrentview.md).
+This method is called once for the creation of the main window, once for each hosted window, and once each time [CreateNewView](/uwp/api/windows.applicationmodel.core.coreapplication.createnewview) is called. You can override this method, for example, to access various panes by calling **GetForCurrentView** methods such as [SearchPane.GetForCurrentView](../windows.applicationmodel.search/searchpane_getforcurrentview_1363600702.md) and [SettingsPane.GetForCurrentView](../windows.ui.applicationsettings/settingspane_getforcurrentview_1363600702.md).
 
 ## -examples
 

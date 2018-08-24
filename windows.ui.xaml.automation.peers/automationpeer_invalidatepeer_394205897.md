@@ -10,7 +10,7 @@ public void InvalidatePeer()
 # Windows.UI.Xaml.Automation.Peers.AutomationPeer.InvalidatePeer
 
 ## -description
-Triggers recalculation of the main properties of the [AutomationPeer](automationpeer.md) and raises the [PropertyChanged](automationpeer_raisepropertychangedevent.md) notification to the automation client if the properties have changed.
+Triggers recalculation of the main properties of the [AutomationPeer](automationpeer.md) and raises the [PropertyChanged](automationpeer_raisepropertychangedevent_715050195.md) notification to the automation client if the properties have changed.
 
 ## -remarks
 

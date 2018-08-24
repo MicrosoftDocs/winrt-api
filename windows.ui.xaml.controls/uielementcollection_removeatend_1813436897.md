@@ -20,4 +20,4 @@ If you are programming using C# or Microsoft Visual Basic, see [RemoveAt](uielem
 ## -examples
 
 ## -see-also
-[RemoveAt](uielementcollection_removeat.md), [IndexOf](uielementcollection_indexof.md)
+[RemoveAt](uielementcollection_removeat_1960564133.md), [IndexOf](uielementcollection_indexof_645395357.md)

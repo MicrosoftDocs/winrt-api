@@ -13,7 +13,7 @@ public class AppointmentStoreNotificationTriggerDetails : Windows.ApplicationMod
 Passed to a background task to indicate that the task was invoked by an [AppointmentStore](appointmentstore.md).
 
 ## -remarks
-This object is received as an argument to an [IBackgroundTask.Run](../windows.applicationmodel.background/ibackgroundtask_run.md) method.
+This object is received as an argument to an [IBackgroundTask.Run](../windows.applicationmodel.background/ibackgroundtask_run_2017283929.md) method.
 
 ## -examples
 

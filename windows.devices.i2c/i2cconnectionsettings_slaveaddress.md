@@ -20,4 +20,4 @@ The bus address of the I<sup>2</sup> C device. Only 7-bit addressing is supporte
 ## -examples
 
 ## -see-also
-[I2cConnectionSettings(Int32)](i2cconnectionsettings_i2cconnectionsettings.md), [I2cDevice.FromIdAsync](i2cdevice_fromidasync.md)
+[I2cConnectionSettings(Int32)](i2cconnectionsettings_i2cconnectionsettings_745845612.md), [I2cDevice.FromIdAsync](i2cdevice_fromidasync_1693757112.md)

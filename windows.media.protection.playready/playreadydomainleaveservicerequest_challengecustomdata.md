@@ -20,7 +20,7 @@ Use this property to get the custom data to be placed in the request challenge o
 
 Setting this property is optional.
 
-This property cannot be set after [BeginServiceRequest](playreadydomainleaveservicerequest_beginservicerequest.md) or [GenerateManualEnablingChallenge](playreadydomainleaveservicerequest_generatemanualenablingchallenge.md) have been called.
+This property cannot be set after [BeginServiceRequest](playreadydomainleaveservicerequest_beginservicerequest_736222023.md) or [GenerateManualEnablingChallenge](playreadydomainleaveservicerequest_generatemanualenablingchallenge_1228062000.md) have been called.
 
 ## -examples
 

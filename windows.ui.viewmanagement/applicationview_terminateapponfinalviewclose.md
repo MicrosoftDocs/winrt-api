@@ -18,7 +18,7 @@ Indicates whether the app terminates when the last window is closed.
 ## -remarks
 For info about using this property, see [App lifecycle](http://msdn.microsoft.com/library/6c469e77-f1e3-4859-a27b-c326f9616d10).
 
-This is a static member of the [ApplicationView](applicationview.md) class. For JavaScript this means that it is a method of the [ApplicationView](applicationview.md) class, not of the window object that [getForCurrentView](applicationview_getforcurrentview.md) creates.
+This is a static member of the [ApplicationView](applicationview.md) class. For JavaScript this means that it is a method of the [ApplicationView](applicationview.md) class, not of the window object that [getForCurrentView](applicationview_getforcurrentview_1363600702.md) creates.
 
 ## -examples
 

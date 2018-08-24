@@ -30,7 +30,7 @@ When the call to this method completes successfully, it returns a [BufferProtect
 ## -examples
 
 ## -see-also
-[ProtectionPolicyManager.IsIdentityManaged](protectionpolicymanager_isidentitymanaged.md)
+[ProtectionPolicyManager.IsIdentityManaged](protectionpolicymanager_isidentitymanaged_906801364.md)
 
 ## -capabilities
 enterpriseDataPolicy

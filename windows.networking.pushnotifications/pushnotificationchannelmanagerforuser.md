@@ -31,7 +31,7 @@ function openNotificationsChannel() {
 );
 ```
 
-The following example shows the use of the [CreatePushNotificationChannelForSecondaryTileAsync](pushnotificationchannelmanagerforuser_createpushnotificationchannelforsecondarytileasync.md) method to retrieve a push notification channel for a secondary tile.
+The following example shows the use of the [CreatePushNotificationChannelForSecondaryTileAsync](pushnotificationchannelmanagerforuser_createpushnotificationchannelforsecondarytileasync_233711584.md) method to retrieve a push notification channel for a secondary tile.
 
 ```javascript
 

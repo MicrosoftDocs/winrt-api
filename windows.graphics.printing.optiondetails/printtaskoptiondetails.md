@@ -42,4 +42,4 @@ For more information on this and other printing scenarios, see [Printing](http:/
 ## -examples
 
 ## -see-also
-[getFromPrintTaskOptions](printtaskoptiondetails_getfromprinttaskoptions.md)
+[getFromPrintTaskOptions](printtaskoptiondetails_getfromprinttaskoptions_55978790.md)

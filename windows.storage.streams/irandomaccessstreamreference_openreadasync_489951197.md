@@ -20,4 +20,4 @@ The asynchronous operation.
 ## -examples
 
 ## -see-also
-[OpenSequentialReadAsync](iinputstreamreference_opensequentialreadasync.md)
+[OpenSequentialReadAsync](iinputstreamreference_opensequentialreadasync_1587758617.md)

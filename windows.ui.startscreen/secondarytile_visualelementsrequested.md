@@ -11,7 +11,7 @@ public event Windows.Foundation.TypedEventHandler VisualElementsRequested<Window
 # Windows.UI.StartScreen.SecondaryTile.VisualElementsRequested
 
 ## -description
-Fired when a call is made to [RequestCreateAsync](secondarytile_requestcreateasync.md).
+Fired when a call is made to [RequestCreateAsync](/uwp/api/windows.ui.startscreen.secondarytile.requestcreateasync).
 
 
 

@@ -23,7 +23,7 @@ A value indicating whether the effect is optional.
 A property set containing configuration settings for the specified audio effect.
 
 ## -remarks
-To remove audio effects from the playback stream, call [RemoveAllEffects](mediaplayer_removealleffects.md).
+To remove audio effects from the playback stream, call [RemoveAllEffects](mediaplayer_removealleffects_674052444.md).
 
 ## -examples
 

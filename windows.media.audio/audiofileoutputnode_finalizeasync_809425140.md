@@ -16,7 +16,7 @@ Finalizes the asynchronous operation of the audio file output node.
 When this operation completes, a [TranscodeFailureReason](../windows.media.transcoding/transcodefailurereason.md) value is returned.
 
 ## -remarks
-You must call the [AudioFileOutputNode.Stop](audiofileoutputnode_stop.md) method to stop the node before calling **FinalizeAsync** or an exception will be thrown.
+You must call the [AudioFileOutputNode.Stop](audiofileoutputnode_stop_1201535524.md) method to stop the node before calling **FinalizeAsync** or an exception will be thrown.
 
 Upon completion of **FinalizeAsync**, this node transitions itself into the closed state. Further calls into this node will result in a RO_E_CLOSED exception.
 

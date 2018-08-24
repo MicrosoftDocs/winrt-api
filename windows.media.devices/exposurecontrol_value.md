@@ -16,7 +16,7 @@ Gets the exposure time.
 The exposure time.
 
 ## -remarks
-To set an exposure value, call [SetValueAsync](exposurecontrol_setvalueasync_1247308686.md) specifying a value between the [Min](exposurecontrol_min.md) and [Max](exposurecontrol_max.md) exposure values. To turn auto exposure on, call [SetAutoAsync](exposurecontrol_setautoasync.md).
+To set an exposure value, call [SetValueAsync](exposurecontrol_setvalueasync_1247308686.md) specifying a value between the [Min](exposurecontrol_min.md) and [Max](exposurecontrol_max.md) exposure values. To turn auto exposure on, call [SetAutoAsync](exposurecontrol_setautoasync_1168787363.md).
 
 ## -examples
 

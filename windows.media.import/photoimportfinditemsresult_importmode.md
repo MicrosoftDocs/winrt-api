@@ -11,7 +11,7 @@ public Windows.Media.Import.PhotoImportImportMode ImportMode { get; }
 # Windows.Media.Import.PhotoImportFindItemsResult.ImportMode
 
 ## -description
-Gets the photo import mode that determines which types of files are included in the [ImportItemsAsync](photoimportfinditemsresult_importitemsasync.md) operation.
+Gets the photo import mode that determines which types of files are included in the [ImportItemsAsync](photoimportfinditemsresult_importitemsasync_357096682.md) operation.
 
 ## -property-value
 The photo import mode.

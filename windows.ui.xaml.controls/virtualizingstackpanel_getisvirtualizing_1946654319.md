@@ -20,7 +20,7 @@ The object item where you want to determine the current virtualization state.
 **true** if the item specified by *o* is currently virtualizing its content; otherwise, **false**.
 
 ## -remarks
-**VirtualizingStackPanel.IsVirtualizing** uses the attached property model as a property store, but does not support a XAML usage. Instead, the property serves as a sentinel that any [VirtualizingStackPanel](virtualizingstackpanel.md) child element can check to determine whether that child is currently being represented as virtualized. To find out if an item is being virtualized, call [GetIsVirtualizing](virtualizingstackpanel_getisvirtualizing.md), passing the item as the input parameter.
+**VirtualizingStackPanel.IsVirtualizing** uses the attached property model as a property store, but does not support a XAML usage. Instead, the property serves as a sentinel that any [VirtualizingStackPanel](virtualizingstackpanel.md) child element can check to determine whether that child is currently being represented as virtualized. To find out if an item is being virtualized, call [GetIsVirtualizing](virtualizingstackpanel_getisvirtualizing_1946654319.md), passing the item as the input parameter.
 
 ## -examples
 

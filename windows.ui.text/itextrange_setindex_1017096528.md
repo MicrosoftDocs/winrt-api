@@ -28,4 +28,4 @@ This method allows an app to work with line-oriented text, such as source code l
 ## -examples
 
 ## -see-also
-[ITextRange.GetIndex](itextrange_getindex.md)
+[ITextRange.GetIndex](itextrange_getindex_825085340.md)

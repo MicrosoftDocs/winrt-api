@@ -18,7 +18,7 @@ Creates the buffer for vertex positions.
 The capacity of the buffer, the maximum number of bytes that the [IBuffer](../windows.storage.streams/ibuffer.md) can hold.
 
 ## -remarks
-To access the buffer for vertex positions, use [GetVertexPositions](printing3dmesh_getvertexpositions.md).
+To access the buffer for vertex positions, use [GetVertexPositions](printing3dmesh_getvertexpositions_2133105161.md).
 
 ## -examples
 

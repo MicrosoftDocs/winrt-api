@@ -24,4 +24,4 @@ If you are programming using C# or Microsoft Visual Basic, see [Add](uielementco
 ## -examples
 
 ## -see-also
-[InsertAt](uielementcollection_insertat.md)
+[InsertAt](uielementcollection_insertat_1232866588.md)

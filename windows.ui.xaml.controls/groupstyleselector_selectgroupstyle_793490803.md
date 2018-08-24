@@ -23,7 +23,7 @@ The level of nesting for the specified group.
 The[GroupStyle](groupstyle.md) to use when this [GroupStyleSelector](groupstyleselector.md) is invoked in an application.
 
 ## -remarks
-To provide a specific group style in a derived class, override the [SelectGroupStyleCore](groupstyleselector_selectgroupstylecore.md) method.
+To provide a specific group style in a derived class, override the [SelectGroupStyleCore](groupstyleselector_selectgroupstylecore_1139726630.md) method.
 
 > **Windows 8**
 > In Windows 8, you can pass **null** as the *group* parameter value. In Windows 8.1, passing **null** causes an error.

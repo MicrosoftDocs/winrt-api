@@ -10,7 +10,7 @@ public event Windows.Foundation.TypedEventHandler AudioFrameCompleted<Windows.Me
 # Windows.Media.Audio.AudioFrameInputNode.AudioFrameCompleted
 
 ## -description
-Notifies of a completed audio frame that has been submitted to the graph with a call to [AddFrame](audioframeinputnode_addframe.md).
+Notifies of a completed audio frame that has been submitted to the graph with a call to [AddFrame](audioframeinputnode_addframe_561479871.md).
 
 ## -remarks
 

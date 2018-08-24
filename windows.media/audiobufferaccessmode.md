@@ -28,4 +28,4 @@ The audio buffer is write-only.
 ## -examples
 
 ## -see-also
-[AudioBuffer](audiobuffer.md), [LockBuffer](audioframe_lockbuffer.md)
+[AudioBuffer](audiobuffer.md), [LockBuffer](audioframe_lockbuffer_1248676457.md)

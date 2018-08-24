@@ -27,7 +27,7 @@ Call the [TryGetItemAsync](storagefolder_trygetitemasync_1863649689.md) method t
 Call the [IsOfType](istorageitem_isoftype_1417811226.md) method of the [IStorageItem](istorageitem.md) interface to determine whether the returned item is a file or a folder.
 
 ## -examples
-The following example shows how to try to get a single file or folder from the current folder, or to check whether the file or folder exists, by calling the [TryGetItemAsync](storagefolder_trygetitemasync.md) method.
+The following example shows how to try to get a single file or folder from the current folder, or to check whether the file or folder exists, by calling the [TryGetItemAsync](storagefolder_trygetitemasync_1863649689.md) method.
 
 ```csharp
 using Windows.Storage;
@@ -134,4 +134,4 @@ getImagePromise.done(function getItemSuccess(image) {
 ```
 
 ## -see-also
-[GetItemAsync](storagefolder_getitemasync.md)
+[GetItemAsync](storagefolder_getitemasync_1847090456.md)

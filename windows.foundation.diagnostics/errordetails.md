@@ -13,7 +13,7 @@ public class ErrorDetails : Windows.Foundation.Diagnostics.IErrorDetails
 Provides information about an error that occurred.
 
 ## -remarks
-Constructed using the [CreateFromHResult](errordetails_createfromhresultasync.md) factory method.
+Constructed using the [CreateFromHResult](errordetails_createfromhresultasync_172714447.md) factory method.
 
 ## -examples
 

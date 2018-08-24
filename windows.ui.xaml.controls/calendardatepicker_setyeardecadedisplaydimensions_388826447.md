@@ -20,9 +20,9 @@ The number of columns in the view.
 The number of rows in the view.
 
 ## -remarks
-This method affects the [CalendarDatePicker](calendardatepicker.md) 's internal [CalendarView](calendarview.md). For more info, see [CalendarView.SetYearDecadeDisplayDimensions](calendarview_setyeardecadedisplaydimensions.md).
+This method affects the [CalendarDatePicker](calendardatepicker.md) 's internal [CalendarView](calendarview.md). For more info, see [CalendarView.SetYearDecadeDisplayDimensions](calendarview_setyeardecadedisplaydimensions_388826447.md).
 
 ## -examples
 
 ## -see-also
-[CalendarView.SetYearDecadeDisplayDimensions](calendarview_setyeardecadedisplaydimensions.md)
+[CalendarView.SetYearDecadeDisplayDimensions](calendarview_setyeardecadedisplaydimensions_388826447.md)

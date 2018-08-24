@@ -29,7 +29,7 @@ You don't have permission to access the contents of the current folder.
 You don't have permission to access the contents of the current folder.
 
 ## -remarks
-For more information and examples on getting query result objects, see [CreateFileQueryWithOptions](storagefolder_createfilequerywithoptions.md).
+For more information and examples on getting query result objects, see [CreateFileQueryWithOptions](storagefolder_createfilequerywithoptions_2038131323.md).
 
 ## -examples
 

@@ -16,7 +16,7 @@ Identifies the localized control type automation property which provides a mecha
 The automation property identifier.
 
 ## -remarks
-The current localized control type is returned by the [GetLocalizedControlTypeCore](../windows.ui.xaml.automation.peers/automationpeer_getlocalizedcontroltypecore.md) method.
+The current localized control type is returned by the [GetLocalizedControlTypeCore](../windows.ui.xaml.automation.peers/automationpeer_getlocalizedcontroltypecore_1799576178.md) method.
 
 ## -examples
 

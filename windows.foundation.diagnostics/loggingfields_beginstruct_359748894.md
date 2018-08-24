@@ -21,4 +21,4 @@ Name of the structured field.
 ## -examples
 
 ## -see-also
-[BeginStruct(String, Int32)](loggingfields_beginstruct_603890798.md), [EndStruct](loggingfields_endstruct.md)
+[BeginStruct(String, Int32)](loggingfields_beginstruct_603890798.md), [EndStruct](loggingfields_endstruct_494341079.md)

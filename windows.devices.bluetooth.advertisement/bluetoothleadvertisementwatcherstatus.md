@@ -35,6 +35,6 @@ An error occurred during transition or scanning that stopped the watcher due to 
 ## -examples
 
 ## -see-also
-[BluetoothLEAdvertisementWatcher](bluetoothleadvertisementwatcher.md), [BluetoothLEAdvertisementWatcher.Start](bluetoothleadvertisementwatcher_start.md), [BluetoothLEAdvertisementWatcher.Stop](bluetoothleadvertisementwatcher_stop.md)
+[BluetoothLEAdvertisementWatcher](bluetoothleadvertisementwatcher.md), [BluetoothLEAdvertisementWatcher.Start](bluetoothleadvertisementwatcher_start_1587696324.md), [BluetoothLEAdvertisementWatcher.Stop](bluetoothleadvertisementwatcher_stop_1201535524.md)
 ## -capabilities
 bluetooth

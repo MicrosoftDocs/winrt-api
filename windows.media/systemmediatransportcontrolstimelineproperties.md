@@ -10,7 +10,7 @@ public class SystemMediaTransportControlsTimelineProperties : Windows.Media.ISys
 # Windows.Media.SystemMediaTransportControlsTimelineProperties
 
 ## -description
-Represents timeline properties of the [SystemMediaTransportControls](systemmediatransportcontrols.md). Pass an instance of this class to the [UpdateTimelineProperties](systemmediatransportcontrols_updatetimelineproperties.md) method to update the properties.
+Represents timeline properties of the [SystemMediaTransportControls](systemmediatransportcontrols.md). Pass an instance of this class to the [UpdateTimelineProperties](systemmediatransportcontrols_updatetimelineproperties_1933562266.md) method to update the properties.
 
 ## -remarks
 

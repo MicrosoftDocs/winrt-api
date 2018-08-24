@@ -10,10 +10,10 @@ public Windows.Management.Deployment.PackageVolume GetDefaultPackageVolume()
 # Windows.Management.Deployment.PackageManager.GetDefaultPackageVolume
 
 ## -description
-Gets the default package volume, which is the target of deployment operations such as the [AddPackageAsync](packagemanager_addpackageasync.md) method.
+Gets the default package volume, which is the target of deployment operations such as the [AddPackageAsync](/uwp/api/windows.management.deployment.packagemanager.addpackageasync) method.
 
 ## -returns
-The default package volume, which is the target of deployment operations such as the [AddPackageAsync](packagemanager_addpackageasync.md) method.
+The default package volume, which is the target of deployment operations such as the [AddPackageAsync](/uwp/api/windows.management.deployment.packagemanager.addpackageasync) method.
 
 ## -remarks
 

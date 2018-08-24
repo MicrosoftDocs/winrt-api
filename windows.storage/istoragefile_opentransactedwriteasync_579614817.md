@@ -20,4 +20,4 @@ When this method completes, it returns a [StorageStreamTransaction](storagestrea
 ## -examples
 
 ## -see-also
-[StorageFile.OpenTransactedWriteAsync](storagefile_opentransactedwriteasync.md)
+[StorageFile.OpenTransactedWriteAsync](/uwp/api/windows.storage.storagefile.opentransactedwriteasync)

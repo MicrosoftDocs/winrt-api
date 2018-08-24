@@ -32,4 +32,4 @@ textRange2.FormattedText = textRange1.FormattedText;
 ## -examples
 
 ## -see-also
-[ITextRange.Cut](itextrange_cut.md), [ITextRange.Paste](itextrange_paste.md)
+[ITextRange.Cut](itextrange_cut_1740700893.md), [ITextRange.Paste](itextrange_paste_955889140.md)

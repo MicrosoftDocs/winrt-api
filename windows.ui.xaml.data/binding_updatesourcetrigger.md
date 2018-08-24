@@ -32,4 +32,4 @@ You can't set the property values of a [Binding](binding.md) object after that b
 ## -examples
 
 ## -see-also
-[UpdateSource](bindingexpression_updatesource_190615267.md), [Mode](binding_mode.md), [XAML data binding sample](http://go.microsoft.com/fwlink/p/?linkid=226854), [Data binding in depth](http://msdn.microsoft.com/library/41e1b4f1-6caf-4128-a61a-4e400b149011), [Dependency properties overview](http://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e), [GetBindingExpression](../windows.ui.xaml/frameworkelement_getbindingexpression.md), [BindingOperations.SetBinding](bindingoperations_setbinding.md)
+[UpdateSource](bindingexpression_updatesource_190615267.md), [Mode](binding_mode.md), [XAML data binding sample](http://go.microsoft.com/fwlink/p/?linkid=226854), [Data binding in depth](http://msdn.microsoft.com/library/41e1b4f1-6caf-4128-a61a-4e400b149011), [Dependency properties overview](http://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e), [GetBindingExpression](../windows.ui.xaml/frameworkelement_getbindingexpression_1210399878.md), [BindingOperations.SetBinding](bindingoperations_setbinding_746099660.md)

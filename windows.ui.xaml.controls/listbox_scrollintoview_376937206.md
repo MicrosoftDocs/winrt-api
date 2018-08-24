@@ -17,7 +17,7 @@ Causes the object to scroll into view.
 The object to scroll to.
 
 ## -remarks
-When the contents of the [ItemsSource](itemscontrol_itemssource.md) collection changes, particularly if many items are added to or removed from the collection, you might need to call [UpdateLayout](../windows.ui.xaml/uielement_updatelayout.md) prior to calling [ScrollIntoView](listbox_scrollintoview.md) for the specified item to scroll into the viewport.
+When the contents of the [ItemsSource](itemscontrol_itemssource.md) collection changes, particularly if many items are added to or removed from the collection, you might need to call [UpdateLayout](../windows.ui.xaml/uielement_updatelayout_1243658106.md) prior to calling [ScrollIntoView](listbox_scrollintoview_376937206.md) for the specified item to scroll into the viewport.
 
 ## -examples
 

@@ -22,7 +22,7 @@ The value to add to the current position.
 Returns the request ID. On state transitions, the request which caused the change in state will be included in the args. These IDs will start at 1 and increase with each try call during the lifetime of the application.
 
 ## -remarks
-If InteractionTracker is in its Interacting State (user actively manipulating), and [TryUpdatePositionBy](interactiontracker_tryupdatepositionby.md) is called, the system will ignore this request – an event gets fired when this occurs that can be listened for. If sent from one of the other states, listen for the event fired for IdleStateEntered and check the RequestId property that identifies which request triggered the callback. The table below summarizes the expected behavior when this method is called in a particular state:
+If InteractionTracker is in its Interacting State (user actively manipulating), and [TryUpdatePositionBy](interactiontracker_tryupdatepositionby_1501415564.md) is called, the system will ignore this request – an event gets fired when this occurs that can be listened for. If sent from one of the other states, listen for the event fired for IdleStateEntered and check the RequestId property that identifies which request triggered the callback. The table below summarizes the expected behavior when this method is called in a particular state:
 
 <table>
    <tr><th>Current State</th><th>Outcome</th></tr>

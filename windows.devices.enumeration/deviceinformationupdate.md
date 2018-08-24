@@ -15,7 +15,7 @@ Contains updated properties for a [DeviceInformation](deviceinformation.md) obje
 ## -remarks
 The [Updated](devicewatcher_updated.md) event receives a [DeviceInformationUpdate](deviceinformationupdate.md), as shown in the example.
 
-You can also instantiate a [DeviceInformationUpdate](deviceinformationupdate.md) object to pass to [Update](deviceinformation_update.md).
+You can also instantiate a [DeviceInformationUpdate](deviceinformationupdate.md) object to pass to [Update](deviceinformation_update_1167410501.md).
 
 ## -examples
 This example incrementally enumerates devices, adding them to a list each time a device is found, and also watching for updates. Once enumeration is complete, the app prints a list of devices. The app also prints a message if devices are added, updated, or removed after the initial enumeration completes.

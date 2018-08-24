@@ -26,6 +26,6 @@ The [GetDeviceService](mobilebroadbandmodem_getdeviceservice_1135670295.md) meth
 ## -examples
 
 ## -see-also
-[MobileBroadbandDeviceServiceCommandSession](mobilebroadbanddeviceservicecommandsession.md), [MobileBroadbandDeviceServiceDataSession](mobilebroadbanddeviceservicedatasession.md), [MobileBroadbandModem](mobilebroadbandmodem.md), [MobileBroadbandModem.GetDeviceService](mobilebroadbandmodem_getdeviceservice.md)
+[MobileBroadbandDeviceServiceCommandSession](mobilebroadbanddeviceservicecommandsession.md), [MobileBroadbandDeviceServiceDataSession](mobilebroadbanddeviceservicedatasession.md), [MobileBroadbandModem](mobilebroadbandmodem.md), [MobileBroadbandModem.GetDeviceService](mobilebroadbandmodem_getdeviceservice_1135670295.md)
 ## -capabilities
 cellularDeviceIdentity, cellularDeviceControl

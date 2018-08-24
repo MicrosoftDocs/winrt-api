@@ -10,7 +10,7 @@ public enum Windows.ApplicationModel.Store.Preview.StoreSystemFeature : int
 # StoreSystemFeature
 
 ## -description
-Defines values that represent hardware features that can be queried for the current device by using the [FilterUnsupportedSystemFeaturesAsync](storeconfiguration_filterunsupportedsystemfeaturesasync.md) method.
+Defines values that represent hardware features that can be queried for the current device by using the [FilterUnsupportedSystemFeaturesAsync](storeconfiguration_filterunsupportedsystemfeaturesasync_1497477694.md) method.
 
 ## -enum-fields
 ### -field ArchitectureX86:0

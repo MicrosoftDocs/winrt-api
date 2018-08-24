@@ -10,14 +10,14 @@ public Windows.Data.Xml.Dom.IXmlNode SetNamedItemNS(Windows.Data.Xml.Dom.IXmlNod
 # Windows.Data.Xml.Dom.XmlNamedNodeMap.SetNamedItemNS
 
 ## -description
-Adds the specified node to the collection in the specified namespace. If you are not using any namespaces, then use the [SetNamedItem](xmlnamednodemap_setnameditem.md) method.
+Adds the specified node to the collection in the specified namespace. If you are not using any namespaces, then use the [SetNamedItem](xmlnamednodemap_setnameditem_762437060.md) method.
 
 ## -parameters
 ### -param node
 The node to add to the collection.
 
 > [!NOTE]
-> You set the namespace when you create the node using the [CreateAttributeNS](xmldocument_createattributens.md) or [CreateElementNS](xmldocument_createelementns.md) methods.
+> You set the namespace when you create the node using the [CreateAttributeNS](xmldocument_createattributens_84639206.md) or [CreateElementNS](xmldocument_createelementns_1302649478.md) methods.
 
 ## -returns
 The attribute successfully added to the collection. If Null, no object is created.

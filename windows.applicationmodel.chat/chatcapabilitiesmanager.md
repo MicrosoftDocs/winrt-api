@@ -14,7 +14,7 @@ public class ChatCapabilitiesManager
 Provides functionality for getting chat capabilities.
 
 ## -remarks
-Call the [GetCachedCapabilitiesAsync](chatcapabilitiesmanager_getcachedcapabilitiesasync.md) or [GetCapabilitiesFromNetworkAsync](chatcapabilitiesmanager_getcapabilitiesfromnetworkasync.md) method to get an instance of this class.
+Call the [GetCachedCapabilitiesAsync](chatcapabilitiesmanager_getcachedcapabilitiesasync_1447428004.md) or [GetCapabilitiesFromNetworkAsync](chatcapabilitiesmanager_getcapabilitiesfromnetworkasync_886100284.md) method to get an instance of this class.
 
 ## -examples
 

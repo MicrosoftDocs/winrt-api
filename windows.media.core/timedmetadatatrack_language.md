@@ -16,7 +16,7 @@ Gets a string indicating the language of the timed metadata track.
 A string indicating the language of the timed metadata track.
 
 ## -remarks
-You can specify a value for the **Language** property in the [TimedMetadataTrack constructor](timedmetadatatrack_timedmetadatatrack.md).
+You can specify a value for the **Language** property in the [TimedMetadataTrack constructor](timedmetadatatrack_timedmetadatatrack_2131229248.md).
 
 ## -examples
 

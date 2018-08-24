@@ -14,7 +14,7 @@ public class PhotoImportOperation : Windows.Media.Import.IPhotoImportOperation
 Represents an in-progress photo import operation.
 
 ## -remarks
-Get an instance of this class by calling [PhotoImportManager.GetPendingOperations](photoimportmanager_getpendingoperations.md).
+Get an instance of this class by calling [PhotoImportManager.GetPendingOperations](photoimportmanager_getpendingoperations_1715149755.md).
 
 ## -examples
 

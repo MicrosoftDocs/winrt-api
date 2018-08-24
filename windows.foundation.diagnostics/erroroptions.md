@@ -34,4 +34,4 @@ Error information for [SetErrorInfo](http://msdn.microsoft.com/library/8eaacfac-
 ## -examples
 
 ## -see-also
-[GetErrorOptions](runtimebrokererrorsettings_geterroroptions.md), [SetErrorOptions](runtimebrokererrorsettings_seterroroptions.md)
+[GetErrorOptions](runtimebrokererrorsettings_geterroroptions_955722078.md), [SetErrorOptions](runtimebrokererrorsettings_seterroroptions_108183281.md)

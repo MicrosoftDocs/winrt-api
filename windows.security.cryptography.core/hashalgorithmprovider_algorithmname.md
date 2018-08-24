@@ -24,9 +24,9 @@ The following hashing algorithm names are supported:
 + [HashAlgorithmNames.Sha256](hashalgorithmnames_sha256.md)
 + [HashAlgorithmNames.Sha384](hashalgorithmnames_sha384.md)
 + [HashAlgorithmNames.Sha512](hashalgorithmnames_sha512.md)
-You must call the [OpenAlgorithm](hashalgorithmprovider_openalgorithm.md) method before calling this property.
+You must call the [OpenAlgorithm](hashalgorithmprovider_openalgorithm_637226074.md) method before calling this property.
 
 ## -examples
 
 ## -see-also
-[OpenAlgorithm](hashalgorithmprovider_openalgorithm.md)
+[OpenAlgorithm](hashalgorithmprovider_openalgorithm_637226074.md)

@@ -25,7 +25,7 @@ The object representing the asynchronous operation.
 ## -remarks
 This operation will not block. The returned [IAsyncOperationWithProgress(HttpResponseMessage, HttpProgress)](../windows.foundation/iasyncoperationwithprogress_2.md) object will complete after the whole response (including content) is read.
 
-The [PutAsync](httpclient_putasync.md) and [PostAsync](httpclient_postasync.md) methods only allow setting a limited number of HTTP content headers. In contrast, the [SendRequestAsync](httpclient_sendrequestasync.md) method allows setting headers on the request message as well as on the HTTP content to be sent.
+The [PutAsync](httpclient_putasync_552115331.md) and [PostAsync](httpclient_postasync_1466488101.md) methods only allow setting a limited number of HTTP content headers. In contrast, the [SendRequestAsync](/uwp/api/windows.web.http.httpclient.sendrequestasync) method allows setting headers on the request message as well as on the HTTP content to be sent.
 
 Below are the exceptions that this function throws.
 
@@ -36,4 +36,4 @@ The *uri* parameter was a **null** reference (**Nothing** in Visual Basic).
 ## -examples
 
 ## -see-also
-[PostAsync](httpclient_postasync.md), [SendRequestAsync](httpclient_sendrequestasync.md)
+[PostAsync](httpclient_postasync_1466488101.md), [SendRequestAsync](/uwp/api/windows.web.http.httpclient.sendrequestasync)

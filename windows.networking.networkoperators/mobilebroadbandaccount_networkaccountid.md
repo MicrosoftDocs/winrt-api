@@ -26,7 +26,7 @@ A unique identifier for the mobile broadband account.
 ## -remarks
 The network account identifier is supplied by the mobile broadband provider when an account is activated and is stored locally in metadata that describes account information for the mobile broadband device.
 
-The network account identifier for a mobile broadband account matches the value passed to the [CreateFromNetworkAccountId](ussdsession_createfromnetworkaccountid.md) method.
+The network account identifier for a mobile broadband account matches the value passed to the [CreateFromNetworkAccountId](ussdsession_createfromnetworkaccountid_2015090244.md) method.
 
 ## -examples
 

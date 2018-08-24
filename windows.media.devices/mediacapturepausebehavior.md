@@ -10,7 +10,7 @@ public enum Windows.Media.Devices.MediaCapturePauseBehavior : int
 # MediaCapturePauseBehavior
 
 ## -description
-Defines the behavior when media capture is paused with a call to [PauseAsync](../windows.media.capture/lowlagmediarecording_pauseasync.md) or [PauseRecordAsync](../windows.media.capture/mediacapture_pauserecordasync.md).
+Defines the behavior when media capture is paused with a call to [PauseAsync](../windows.media.capture/lowlagmediarecording_pauseasync_622665789.md) or [PauseRecordAsync](../windows.media.capture/mediacapture_pauserecordasync_1650376226.md).
 
 ## -enum-fields
 ### -field RetainHardwareResources:0

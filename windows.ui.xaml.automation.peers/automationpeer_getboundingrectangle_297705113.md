@@ -20,4 +20,4 @@ The bounding rectangle.
 ## -examples
 
 ## -see-also
-[GetBoundingRectangleCore](automationpeer_getboundingrectanglecore.md)
+[GetBoundingRectangleCore](automationpeer_getboundingrectanglecore_304219283.md)

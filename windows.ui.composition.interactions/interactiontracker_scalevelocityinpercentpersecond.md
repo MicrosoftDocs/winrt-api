@@ -18,7 +18,7 @@ The [ScaleVelocityInPercentPerSecond](interactiontracker_scalevelocityinpercentp
 The rate of change for scale.
 
 ## -remarks
-When accessing the [ScaleVelocityInPercentPerSecond](interactiontracker_scalevelocityinpercentpersecond.md) property off the [InertiaStateEntered](iinteractiontrackerowner_inertiastateentered.md) event, you will be retrieving a snapshot of the calculated velocity based on the Interaction. This event will only fire once after the interaction has occurred.
+When accessing the [ScaleVelocityInPercentPerSecond](interactiontracker_scalevelocityinpercentpersecond.md) property off the [InertiaStateEntered](iinteractiontrackerowner_inertiastateentered_615555038.md) event, you will be retrieving a snapshot of the calculated velocity based on the Interaction. This event will only fire once after the interaction has occurred.
 
 ## -examples
 ```csharp

@@ -16,7 +16,7 @@ Gets the minimum unit count.
 The minimum unit count.
 
 ## -remarks
-This value is used as a large negative count for the [ITextRange.Move](itextrange_move.md), [ITextRange.MoveEnd](itextrange_moveend.md), and [ITextRange.MoveStart](itextrange_movestart.md) methods.
+This value is used as a large negative count for the [ITextRange.Move](itextrange_move_1126378751.md), [ITextRange.MoveEnd](itextrange_moveend_1212634036.md), and [ITextRange.MoveStart](itextrange_movestart_65838126.md) methods.
 
 ## -examples
 

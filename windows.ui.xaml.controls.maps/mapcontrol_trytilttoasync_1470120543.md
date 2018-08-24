@@ -20,7 +20,7 @@ The final [Pitch](mapcamera_pitch.md) of the map's camera in degrees.
 Contains the results of the operation: **true** if the operation completed successfully; otherwise, **false**.
 
 ## -remarks
-See the remarks section of the [TryTiltAsync](mapcontrol_trytiltasync.md) method.
+See the remarks section of the [TryTiltAsync](mapcontrol_trytiltasync_1650923439.md) method.
 
 ## -examples
 

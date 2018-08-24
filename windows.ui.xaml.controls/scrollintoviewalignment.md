@@ -28,4 +28,4 @@ When scrolled horizontally, the leading edge is the left edge if [FlowDirection]
 ## -examples
 
 ## -see-also
-[ListViewBase.ScrollIntoView](listviewbase_scrollintoview.md)
+[ListViewBase.ScrollIntoView](/uwp/api/windows.ui.xaml.controls.listviewbase.scrollintoview)
