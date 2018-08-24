@@ -23,14 +23,14 @@ To work with the returned items, call the [IsOfType](istorageitem_isoftype_14178
 You don't have permission to access the contents of the current folder.
 
 ## -remarks
-This query is a shallow query that returns only items in the current folder. For a list of methods that identifies shallow queries and deep queries, see the Remarks in the topic [GetItemsAsync](storagefolder_getitemsasync.md).
+This query is a shallow query that returns only items in the current folder. For a list of methods that identifies shallow queries and deep queries, see the Remarks in the topic [GetItemsAsync](/uwp/api/windows.storage.storagefolder.getitemsasync).
 
-You can also get a list of items in the current folder asynchronously by calling one of the [GetItemsAsync](storagefolder_getitemsasync.md) methods.
+You can also get a list of items in the current folder asynchronously by calling one of the [GetItemsAsync](/uwp/api/windows.storage.storagefolder.getitemsasync) methods.
 
-To specify additional query options, call the [CreateItemQueryWithOptions](storagefolder_createitemquerywithoptions.md) method.
+To specify additional query options, call the [CreateItemQueryWithOptions](storagefolder_createitemquerywithoptions_1519361285.md) method.
 
 ## -examples
-The following example shows how to get the files and subfolders in the current folder by calling the [CreateItemQuery()](storagefolder_createitemquery.md) method.
+The following example shows how to get the files and subfolders in the current folder by calling the [CreateItemQuery()](storagefolder_createitemquery_543424716.md) method.
 
 ```csharp
 using Windows.Storage;

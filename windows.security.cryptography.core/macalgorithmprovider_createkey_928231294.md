@@ -14,7 +14,7 @@ Creates a symmetric key that can be used to create the MAC value.
 
 ## -parameters
 ### -param keyMaterial
-Random data used to help generate the key. You can call the [GenerateRandom](../windows.security.cryptography/cryptographicbuffer_generaterandom.md) method to create the random data.
+Random data used to help generate the key. You can call the [GenerateRandom](../windows.security.cryptography/cryptographicbuffer_generaterandom_1645545930.md) method to create the random data.
 
 ## -returns
 Symmetric key.

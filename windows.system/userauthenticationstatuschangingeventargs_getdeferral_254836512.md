@@ -16,7 +16,7 @@ Requests a delay before the user's authentication status changes.
 The user authentication status change deferral.
 
 ## -remarks
-The change in user authentication status is delayed until the app calls the [UserAuthenticationStatusChangeDeferral.Complete](userauthenticationstatuschangedeferral_complete.md) method or the deadline for the change has passed.
+The change in user authentication status is delayed until the app calls the [UserAuthenticationStatusChangeDeferral.Complete](userauthenticationstatuschangedeferral_complete_1807836922.md) method or the deadline for the change has passed.
 
 Use the deferral to complete asynchronous operations, such as saving data to a file, before the system changes the user’s authentication status.
 

@@ -16,7 +16,7 @@ Gets a read-only list of of [MediaPlaybackItem](mediaplaybackitem.md) objects th
 A read-only list of of [MediaPlaybackItem](mediaplaybackitem.md) objects that will be played in shuffle mode
 
 ## -remarks
-Replace the list of pending shuffled items by calling [SetShuffledItems](mediaplaybacklist_setshuffleditems.md).
+Replace the list of pending shuffled items by calling [SetShuffledItems](mediaplaybacklist_setshuffleditems_502786703.md).
 
 ## -examples
 

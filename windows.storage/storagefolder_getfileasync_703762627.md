@@ -33,10 +33,10 @@ You don't have permission to access the specified file.
 The path cannot be in Uri format (for example, /image.jpg). Check the value of *name*.
 
 ## -remarks
-To get an item that's a file or a folder, call the [GetItemAsync](storagefolder_getitemasync.md) method.
+To get an item that's a file or a folder, call the [GetItemAsync](storagefolder_getitemasync_1847090456.md) method.
 
 ## -examples
-The following example shows how to get a file from the current folder by calling the [GetFileAsync](storagefolder_getfileasync.md) method. This example also shows how to get a file from a subfolder of the current folder by providing a relative path.
+The following example shows how to get a file from the current folder by calling the [GetFileAsync](storagefolder_getfileasync_703762627.md) method. This example also shows how to get a file from a subfolder of the current folder by providing a relative path.
 
 ```csharp
 using Windows.Storage;
@@ -98,4 +98,4 @@ logoImagePromise.done(function (logoImage) {
 ```
 
 ## -see-also
-[GetItemAsync](storagefolder_getitemasync.md)
+[GetItemAsync](storagefolder_getitemasync_1847090456.md)

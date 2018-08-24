@@ -22,4 +22,4 @@ Enables the tile to queue up to five notifications on the medium tile.
 ## -examples
 
 ## -see-also
-[EnableNotificationQueue](tileupdater_enablenotificationqueue.md), [EnableNotificationQueueForSquare310x310](tileupdater_enablenotificationqueueforsquare310x310.md), [EnableNotificationQueueForWide310x150](tileupdater_enablenotificationqueueforwide310x150.md)
+[EnableNotificationQueue](tileupdater_enablenotificationqueue_1798421599.md), [EnableNotificationQueueForSquare310x310](tileupdater_enablenotificationqueueforsquare310x310_2095794587.md), [EnableNotificationQueueForWide310x150](tileupdater_enablenotificationqueueforwide310x150_1310885892.md)

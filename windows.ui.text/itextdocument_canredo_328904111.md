@@ -20,4 +20,4 @@ True if one or more redo operations exist; otherwise false.
 ## -examples
 
 ## -see-also
-[ITextDocument.CanCopy](itextdocument_cancopy.md), [ITextDocument.CanPaste](itextdocument_canpaste.md), [ITextDocument.CanUndo](itextdocument_canundo.md), [ITextDocument.Redo](itextdocument_redo.md)
+[ITextDocument.CanCopy](itextdocument_cancopy_171689037.md), [ITextDocument.CanPaste](itextdocument_canpaste_1221588146.md), [ITextDocument.CanUndo](itextdocument_canundo_730574244.md), [ITextDocument.Redo](itextdocument_redo_1163178780.md)

@@ -31,10 +31,10 @@ A number of classes and an interface can be used for HTTP content. These include
 
 
 A number of [HttpClient](httpclient.md) methods don't need to set the [Content](httprequestmessage_content.md) property on the [HttpRequestMessage](httprequestmessage.md). These include the following:
-+ The [HttpClient.GetAsync](httpclient_getasync.md) methods.
-+ [HttpClient.GetBufferAsync](httpclient_getbufferasync.md).
-+ [HttpClient.GetInputStreamAsync](httpclient_getinputstreamasync.md).
-+ [HttpClient.GetStringAsync](httpclient_getstringasync.md).
++ The [HttpClient.GetAsync](/uwp/api/windows.web.http.httpclient.getasync) methods.
++ [HttpClient.GetBufferAsync](httpclient_getbufferasync_894906839.md).
++ [HttpClient.GetInputStreamAsync](httpclient_getinputstreamasync_1910746187.md).
++ [HttpClient.GetStringAsync](httpclient_getstringasync_149346728.md).
 
 
 ## -examples

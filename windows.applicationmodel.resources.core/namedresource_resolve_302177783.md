@@ -29,4 +29,4 @@ See the [ResourceContext.GetForCurrentView](resourcecontext_getforcurrentview_13
 ## -examples
 
 ## -see-also
-[ResourceContext](resourcecontext.md), [ResourceContext.GetForCurrentView](resourcecontext_getforcurrentview.md)
+[ResourceContext](resourcecontext.md), [ResourceContext.GetForCurrentView](resourcecontext_getforcurrentview_1363600702.md)

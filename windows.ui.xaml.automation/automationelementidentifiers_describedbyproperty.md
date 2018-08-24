@@ -16,7 +16,7 @@ Identifies the described by automation property.
 The automation property identifier.
 
 ## -remarks
-The collection of elements that provide more information about the automation element is returned by the [GetDescribedBy](automationproperties_getdescribedby.md) method.
+The collection of elements that provide more information about the automation element is returned by the [GetDescribedBy](automationproperties_getdescribedby_903862056.md) method.
 
 ## -examples
 

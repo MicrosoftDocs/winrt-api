@@ -15,7 +15,7 @@ A helper class that enables getting and setting the UI element that has focus.
 ## -remarks
 
 ## -examples
-Use [TryMoveFocus](focusmanager_trymovefocus.md) to traverse between UI elements using the arrow keys.
+Use [TryMoveFocus](/uwp/api/windows.ui.xaml.input.focusmanager.trymovefocus) to traverse between UI elements using the arrow keys.
 
 ```csharp
 private void Page_KeyUp(object sender, KeyRoutedEventArgs e)

@@ -13,9 +13,9 @@ public class AppServiceDeferral : Windows.ApplicationModel.AppService.IAppServic
 Enables the background task for an app service to get a deferral so that the app service can respond to subsequent requests. App service providers enable app-to-app communication by providing services that other Universal Windows app can consume.
 
 ## -remarks
-Use [AppServiceRequestReceivedEventArgs.GetDeferral](appservicerequestreceivedeventargs_getdeferral.md) to get this deferral.
+Use [AppServiceRequestReceivedEventArgs.GetDeferral](appservicerequestreceivedeventargs_getdeferral_254836512.md) to get this deferral.
 
 ## -examples
 
 ## -see-also
-[AppServiceRequestReceivedEventArgs.GetDeferral](appservicerequestreceivedeventargs_getdeferral.md)
+[AppServiceRequestReceivedEventArgs.GetDeferral](appservicerequestreceivedeventargs_getdeferral_254836512.md)

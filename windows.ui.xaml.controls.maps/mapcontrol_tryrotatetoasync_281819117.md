@@ -20,7 +20,7 @@ The final [Heading](mapcamera_heading.md) of the map's camera, in degrees.
 Contains the results of the operation: **true** if the operation completed successfully; otherwise, **false**.
 
 ## -remarks
-See the remarks section of the [TryRotateAsync](mapcontrol_tryrotateasync.md) method.
+See the remarks section of the [TryRotateAsync](mapcontrol_tryrotateasync_1049608017.md) method.
 
 ## -examples
 

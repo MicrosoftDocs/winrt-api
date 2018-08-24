@@ -23,7 +23,7 @@ The policy is not set for evaluation.
 This computer is already DeviceProtected.HRESULT: S_OK and the user is controlled.
 
 ### -field CanBeCompliant:2
-This computer can be compliant by using the [ApplyAsync](easclientsecuritypolicy_applyasync.md) method.HRESULT: S_OK but the user is not controlled.
+This computer can be compliant by using the [ApplyAsync](easclientsecuritypolicy_applyasync_489349523.md) method.HRESULT: S_OK but the user is not controlled.
 
 ### -field NotProvisionedOnAllVolumes:3
 This computer is not provisioned to support device encryption. Enable BitLocker on all volumes to comply with device encryption policy. HRESULT: FVE_E_NOT_PROVISIONED_ON_ALL_VOLUMES
@@ -79,4 +79,4 @@ An unexpected failure occurred.
 ## -examples
 
 ## -see-also
-[ApplyAsync](easclientsecuritypolicy_applyasync.md)
+[ApplyAsync](easclientsecuritypolicy_applyasync_489349523.md)

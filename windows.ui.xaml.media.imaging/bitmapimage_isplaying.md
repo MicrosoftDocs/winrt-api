@@ -25,7 +25,7 @@ Use the [IsPlaying](bitmapimage_isplaying.md) property along with the [Play](bit
 If your app runs on releases of Windows 10 prior to version 1607, you must use the [ApiInformation](../windows.foundation.metadata/apiinformation.md) class to check for the presence of this property before you use it. For more info, see [Version adaptive code: Use new APIs while maintaining compatibility with previous versions](https://msdn.microsoft.com/windows/uwp/debug-test-perf/version-adaptive-code).
 
 ## -examples
-This example shows how to use an animated GIF. A button lets the user start or stop the animation. The [IsPlaying](bitmapimage_isplaying.md) property is checked to determine whether the [Play](bitmapimage_play.md) or [Stop](bitmapimage_stop.md) method is called to toggle playback.
+This example shows how to use an animated GIF. A button lets the user start or stop the animation. The [IsPlaying](bitmapimage_isplaying.md) property is checked to determine whether the [Play](bitmapimage_play_848564459.md) or [Stop](bitmapimage_stop_1201535524.md) method is called to toggle playback.
 
 The example uses version adaptive code so it can run on all versions of Windows 10. On versions prior to version 1607, the first frame of the GIF is shown, but it is not animated.
 

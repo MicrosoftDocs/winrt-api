@@ -127,7 +127,7 @@ An error encountered on socket operation is returned as **HRESULT** value. The [
 ## -examples
 
 ## -see-also
-[SocketError](socketerror.md), [SocketError.GetStatus](socketerror_getstatus.md)
+[SocketError](socketerror.md), [SocketError.GetStatus](socketerror_getstatus_1856274933.md)
 
 ## -capabilities
 ID_CAP_NETWORKING [Windows Phone]

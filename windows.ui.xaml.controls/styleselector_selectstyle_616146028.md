@@ -23,7 +23,7 @@ The element to which the style is applied.
 An application-specific style to apply; may also return null.
 
 ## -remarks
-To provide a specific style in a derived class, override the [SelectStyleCore](styleselector_selectstylecore.md) method.
+To provide a specific style in a derived class, override the [SelectStyleCore](styleselector_selectstylecore_1376419096.md) method.
 
 ## -examples
 

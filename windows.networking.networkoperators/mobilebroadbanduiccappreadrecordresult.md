@@ -14,7 +14,7 @@ public class MobileBroadbandUiccAppReadRecordResult : Windows.Networking.Network
 Encapsulates the results of a UICC application record read operation.
 
 ## -remarks
-Your code does not instantiate this class directly. Instead, use the instance returned when you call the [MobileBroadbandUiccApp.ReadRecordAsync](mobilebroadbanduiccapp_readrecordasync.md) method.
+Your code does not instantiate this class directly. Instead, use the instance returned when you call the [MobileBroadbandUiccApp.ReadRecordAsync](mobilebroadbanduiccapp_readrecordasync_1910963636.md) method.
 
 ## -examples
 

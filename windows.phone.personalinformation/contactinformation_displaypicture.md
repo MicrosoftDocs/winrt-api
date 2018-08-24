@@ -16,12 +16,12 @@ Gets the display picture of a contact.
 A stream containing the image data.
 
 ## -remarks
-To set this value, use [SetDisplayPictureAsync](contactinformation_setdisplaypictureasync.md).
+To set this value, use [SetDisplayPictureAsync](contactinformation_setdisplaypictureasync_974033820.md).
 
 ## -examples
 
 ## -see-also
-[SetDisplayPictureAsync](contactinformation_setdisplaypictureasync.md)
+[SetDisplayPictureAsync](contactinformation_setdisplaypictureasync_974033820.md)
 
 ## -capabilities
 ID_CAP_CONTACTS [Windows Phone]

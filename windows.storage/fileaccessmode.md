@@ -27,7 +27,7 @@ A file supports a single stream for writing. Writing is non-transactional and oc
 
 
 ## -remarks
-For more explanation on usage, see [OpenAsync](istoragefile2_openasync.md).
+For more explanation on usage, see [OpenAsync](istoragefile2_openasync_1542217918.md).
 
 ## -examples
 

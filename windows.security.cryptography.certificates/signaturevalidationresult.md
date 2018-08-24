@@ -34,4 +34,4 @@ Additional errors were encountered.
 ## -examples
 
 ## -see-also
-[VerifySignature](cmsattachedsignature_verifysignature.md), [VerifySignatureAsync](cmsdetachedsignature_verifysignatureasync.md)
+[VerifySignature](cmsattachedsignature_verifysignature_168064265.md), [VerifySignatureAsync](cmsdetachedsignature_verifysignatureasync_103550404.md)

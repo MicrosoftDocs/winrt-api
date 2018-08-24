@@ -38,6 +38,6 @@ The publisher is aborted due to an error.
 ## -examples
 
 ## -see-also
-[BluetoothLEAdvertisementPublisher](bluetoothleadvertisementpublisher.md), [BluetoothLEAdvertisementPublisher.Start](bluetoothleadvertisementpublisher_start.md), [BluetoothLEAdvertisementPublisher.Stop](bluetoothleadvertisementpublisher_stop.md)
+[BluetoothLEAdvertisementPublisher](bluetoothleadvertisementpublisher.md), [BluetoothLEAdvertisementPublisher.Start](bluetoothleadvertisementpublisher_start_1587696324.md), [BluetoothLEAdvertisementPublisher.Stop](bluetoothleadvertisementpublisher_stop_1201535524.md)
 ## -capabilities
 bluetooth

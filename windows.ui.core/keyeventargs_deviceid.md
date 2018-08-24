@@ -25,4 +25,4 @@ This property is useful for retrieving info for a specific user account associat
 ## -examples
 
 ## -see-also
-[CoreComponentInputSource.GetCurrentKeyEventDeviceId](corecomponentinputsource_getcurrentkeyeventdeviceid.md), [CoreWindow.GetCurrentKeyEventDeviceId](corewindow_getcurrentkeyeventdeviceid.md)
+[CoreComponentInputSource.GetCurrentKeyEventDeviceId](corecomponentinputsource_getcurrentkeyeventdeviceid_498768106.md), [CoreWindow.GetCurrentKeyEventDeviceId](corewindow_getcurrentkeyeventdeviceid_498768106.md)

@@ -19,4 +19,4 @@ Is fired when the app terminates.
 ## -examples
 
 ## -see-also
-[CoreWindow.Close](corewindow_close.md)
+[CoreWindow.Close](corewindow_close_811482585.md)

@@ -21,7 +21,7 @@ True if the Clipboard content can be pasted into the text range in the specified
 
 ## -remarks
 > [!NOTE]
-> On Windows Phone, [CanPaste](itextrange_canpaste.md) always returns false. Programmatic access to the clipboard is not supported on Windows Phone.
+> On Windows Phone, [CanPaste](itextrange_canpaste_746058742.md) always returns false. Programmatic access to the clipboard is not supported on Windows Phone.
 
 ## -examples
 

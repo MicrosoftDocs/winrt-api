@@ -40,4 +40,4 @@ Include the optional packages when you enumerate the package repository.
 ## -examples
 
 ## -see-also
-[FindPackagesForUserWithPackageTypes](packagemanager_findpackagesforuserwithpackagetypes.md), [FindPackagesWithPackageTypes](packagemanager_findpackageswithpackagetypes.md)
+[FindPackagesForUserWithPackageTypes](/uwp/api/windows.management.deployment.packagemanager.findpackagesforuserwithpackagetypes), [FindPackagesWithPackageTypes](/uwp/api/windows.management.deployment.packagemanager.findpackageswithpackagetypes)

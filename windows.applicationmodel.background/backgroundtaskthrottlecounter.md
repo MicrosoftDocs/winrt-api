@@ -10,7 +10,7 @@ public enum Windows.ApplicationModel.Background.BackgroundTaskThrottleCounter : 
 # BackgroundTaskThrottleCounter
 
 ## -description
-Indicates the type of throttle count to check for in a [GetThrottleCount](ibackgroundtaskinstance2_getthrottlecount.md) request.
+Indicates the type of throttle count to check for in a [GetThrottleCount](ibackgroundtaskinstance2_getthrottlecount_730175295.md) request.
 
 ## -enum-fields
 ### -field All:0

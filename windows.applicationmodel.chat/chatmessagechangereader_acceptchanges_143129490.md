@@ -14,7 +14,7 @@ public void AcceptChanges()
 Accepts all the changes up to and including the latest change to the message.
 
 ## -remarks
-The [AcceptChanges](chatmessagechangereader_acceptchanges.md) method accepts all the message changes currently tracked by the change tracker. Calling [AcceptChanges](chatmessagechangereader_acceptchanges.md) will cause change tracking to reset and tracking will begin again with the next message change.
+The [AcceptChanges](chatmessagechangereader_acceptchanges_143129490.md) method accepts all the message changes currently tracked by the change tracker. Calling [AcceptChanges](chatmessagechangereader_acceptchanges_143129490.md) will cause change tracking to reset and tracking will begin again with the next message change.
 
 ## -examples
 

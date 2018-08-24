@@ -16,7 +16,7 @@ Identifies the Boolean automation property that indicates if the automation elem
 The automation property identifier.
 
 ## -remarks
-A Boolean that indicates the automation element represents peripheral UI is returned by the [GetIsPeripheral](automationproperties_getisperipheral.md) method.
+A Boolean that indicates the automation element represents peripheral UI is returned by the [GetIsPeripheral](automationproperties_getisperipheral_1121244247.md) method.
 
 ## -examples
 

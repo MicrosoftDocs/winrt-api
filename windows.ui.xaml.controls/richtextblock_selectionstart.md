@@ -16,7 +16,7 @@ Gets the starting position of the text selected in the [RichTextBlock](richtextb
 An object that represents the selection start, or **null** if no selection exists.
 
 ## -remarks
-Use [Select](richtextblock_select.md) to set the selection start and end.
+Use [Select](richtextblock_select_694729799.md) to set the selection start and end.
 
 ## -examples
 

@@ -152,4 +152,4 @@ groupedItemsPromise.done(function getFoldersSuccess(groupedItems) {
 ```
 
 ## -see-also
-[GetFoldersAsync(CommonFolderQuery, UInt32, UInt32)](storagefolder_getfoldersasync_731846614.md), [GetFoldersAsync(CommonFolderQuery)](storagefolder_getfoldersasync_595997124.md), [GetItemsAsync](storagefolder_getitemsasync.md)
+[GetFoldersAsync(CommonFolderQuery, UInt32, UInt32)](storagefolder_getfoldersasync_731846614.md), [GetFoldersAsync(CommonFolderQuery)](storagefolder_getfoldersasync_595997124.md), [GetItemsAsync](/uwp/api/windows.storage.storagefolder.getitemsasync)

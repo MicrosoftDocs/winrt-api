@@ -13,7 +13,7 @@ public class AdaptiveMediaSourceDownloadRequestedDeferral : Windows.Media.Stream
 Represents a deferral that can be used to defer the completion of the [DownloadRequested](adaptivemediasource_downloadrequested.md) event so that the app can asynchronously download media content.
 
 ## -remarks
-To get an instance of this class call [AdaptiveMediaSourceDownloadRequestedEventargs.GetDeferral](adaptivemediasourcedownloadrequestedeventargs_getdeferral.md).
+To get an instance of this class call [AdaptiveMediaSourceDownloadRequestedEventargs.GetDeferral](adaptivemediasourcedownloadrequestedeventargs_getdeferral_254836512.md).
 
 ## -examples
 

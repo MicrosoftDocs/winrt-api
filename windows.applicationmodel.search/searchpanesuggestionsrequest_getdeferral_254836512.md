@@ -23,4 +23,4 @@ Use the [searchPaneSuggestionsRequestDeferral.complete](searchpanesuggestionsreq
 ## -examples
 
 ## -see-also
-[SearchPane.SuggestionsRequested event](searchpane_suggestionsrequested.md), [SearchPaneSuggestionsRequest class](searchpanesuggestionsrequest.md), [SearchPaneSuggestionsRequestedEventArgs class](searchpanesuggestionsrequestedeventargs.md), [SearchPaneSuggestionsRequestDeferral class](searchpanesuggestionsrequestdeferral.md), [SearchPaneSuggestionsRequestDeferral.Complete method](searchpanesuggestionsrequestdeferral_complete.md)
+[SearchPane.SuggestionsRequested event](searchpane_suggestionsrequested.md), [SearchPaneSuggestionsRequest class](searchpanesuggestionsrequest.md), [SearchPaneSuggestionsRequestedEventArgs class](searchpanesuggestionsrequestedeventargs.md), [SearchPaneSuggestionsRequestDeferral class](searchpanesuggestionsrequestdeferral.md), [SearchPaneSuggestionsRequestDeferral.Complete method](searchpanesuggestionsrequestdeferral_complete_1807836922.md)

@@ -29,4 +29,4 @@ If the printer for the print job has non-volatile bitmap storage, this method sa
 ## -examples
 
 ## -see-also
-[SetBitmap(UInt32, BitmapFrame, PosPrinterAlignment, UInt32)](ireceiptorslipjob_setbitmap_49606997.md), [SetCustomAlignedBitmap(UInt32, BitmapFrame, UInt32)](ireceiptorslipjob_setcustomalignedbitmap_1134515791.md), [SetCustomAlignedBitmap(UInt32, BitmapFrame, UInt32, UInt32)](ireceiptorslipjob_setcustomalignedbitmap_1547903367.md), [PosPrinterAlignment](posprinteralignment.md), [PrintSavedBitmap](ireceiptorslipjob_printsavedbitmap.md)
+[SetBitmap(UInt32, BitmapFrame, PosPrinterAlignment, UInt32)](ireceiptorslipjob_setbitmap_49606997.md), [SetCustomAlignedBitmap(UInt32, BitmapFrame, UInt32)](ireceiptorslipjob_setcustomalignedbitmap_1134515791.md), [SetCustomAlignedBitmap(UInt32, BitmapFrame, UInt32, UInt32)](ireceiptorslipjob_setcustomalignedbitmap_1547903367.md), [PosPrinterAlignment](posprinteralignment.md), [PrintSavedBitmap](ireceiptorslipjob_printsavedbitmap_1902948304.md)

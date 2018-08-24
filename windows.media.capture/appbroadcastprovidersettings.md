@@ -16,7 +16,7 @@ Provides access to the settings of the remote broadcast provider service. These 
 > This API requires the **appBroadcast** and **appBroadcastSettings** capability which is not available to all Windows apps. Unless your developer account is specially provisioned by Microsoft, calls to this API will fail at runtime.
 
 ## -remarks
-Get an instance of this class by calling [AppBroadcastManager.GetProviderSettings](appbroadcastmanager_getprovidersettings.md).
+Get an instance of this class by calling [AppBroadcastManager.GetProviderSettings](appbroadcastmanager_getprovidersettings_921685894.md).
 
 ## -examples
 

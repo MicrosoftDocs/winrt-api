@@ -29,7 +29,7 @@ A value from this enumeration is returned by the [IStorageItem.IsOfType](istorag
 The **IsOfType** method is useful for processing the results from a method that returns [IStorageItem](istorageitem.md) instances that can be files or folders. For example, the [GetItemAsync](storagefolder_getitemasync_1847090456.md) and [GetItemsAsync](storagefolder_getitemsasync_1518547059.md) methods returns [IStorageItem](istorageitem.md) instances. To work with the returned items, call the [IsOfType](istorageitem_isoftype_1417811226.md) method of the [IStorageItem](istorageitem.md) interface to determine whether each item is a file or a folder. Then cast the item to a [StorageFolder](storagefolder.md) or [StorageFile](storagefile.md).
 
 ## -examples
-The following example shows how to get the files and subfolders in the current folder by calling the [GetItemsAsync()](storagefolder_getitemsasync_1518547059.md) method. Then the example iterates over each [IStorageItem](istorageitem.md) and calls the [IStorageItem.IsOfType](istorageitem_isoftype.md) method to determine whether each item is a file or a folder.
+The following example shows how to get the files and subfolders in the current folder by calling the [GetItemsAsync()](storagefolder_getitemsasync_1518547059.md) method. Then the example iterates over each [IStorageItem](istorageitem.md) and calls the [IStorageItem.IsOfType](istorageitem_isoftype_1417811226.md) method to determine whether each item is a file or a folder.
 
 ```csharp
 using Windows.Storage;

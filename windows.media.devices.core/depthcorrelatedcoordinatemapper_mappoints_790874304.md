@@ -10,7 +10,7 @@ public void MapPoints(Windows.Foundation.Point[] sourcePoints, Windows.Perceptio
 # Windows.Media.Devices.Core.DepthCorrelatedCoordinateMapper.MapPoints
 
 ## -description
-Maps an array of points from one [MediaFrameSource](../windows.media.capture.frames/mediaframesource.md) to another, using depth information from the [DepthMediaFrame](../windows.media.capture.frames/depthmediaframe.md) from which the coordinate mapper was created with a call to [TryCreateCoordinateMapper](../windows.media.capture.frames/depthmediaframe_trycreatecoordinatemapper.md).
+Maps an array of points from one [MediaFrameSource](../windows.media.capture.frames/mediaframesource.md) to another, using depth information from the [DepthMediaFrame](../windows.media.capture.frames/depthmediaframe.md) from which the coordinate mapper was created with a call to [TryCreateCoordinateMapper](../windows.media.capture.frames/depthmediaframe_trycreatecoordinatemapper_1923171226.md).
 
 ## -parameters
 ### -param sourcePoints

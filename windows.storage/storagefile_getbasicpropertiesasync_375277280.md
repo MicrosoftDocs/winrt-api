@@ -29,6 +29,6 @@ storageFile.getBasicPropertiesAsync().then(
 );
 ```
 
-You must have a [StorageFile](storagefile.md) object (`storageFile` in the example) that represents your file in order to use the [storageFile.getBasicPropertiesAsync](storagefile_getbasicpropertiesasync.md) method.
+You must have a [StorageFile](storagefile.md) object (`storageFile` in the example) that represents your file in order to use the [storageFile.getBasicPropertiesAsync](storagefile_getbasicpropertiesasync_375277280.md) method.
 
 ## -see-also

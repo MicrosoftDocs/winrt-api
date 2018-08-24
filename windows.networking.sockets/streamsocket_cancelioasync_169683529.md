@@ -23,7 +23,7 @@ Call [CancelIOAsync](streamsocket_cancelioasync_169683529.md) to cancel any pend
 
 
 > [!NOTE]
-> [CancelIOAsync](streamsocket_cancelioasync.md) cancels pending writes and reads in the Windows Runtime, but if there is a write buffer pending in networking drivers, it flushes the write.
+> [CancelIOAsync](streamsocket_cancelioasync_169683529.md) cancels pending writes and reads in the Windows Runtime, but if there is a write buffer pending in networking drivers, it flushes the write.
 
 ## -examples
 

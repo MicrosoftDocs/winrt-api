@@ -15,7 +15,7 @@ Contains static properties that return string values. Each string corresponds to
 ## -remarks
 The [DataPackage](datapackage.md) class supports several format types. Whenever you need to specify a format, we recommend using the properties of the **StandardDataFormats** class, instead of string values. Doing so ensures consistency between source and target applications.
 
-The [DataPackage](datapackage.md) class supports a number of legacy formats for interoperability between UWP app and desktop apps. To retrieve these formats, you pass one of the following strings to the [DataPackageView.GetDataAsync](datapackageview_getdataasync.md) method instead of a value from the **StandardDataFormats** class. <table>
+The [DataPackage](datapackage.md) class supports a number of legacy formats for interoperability between UWP app and desktop apps. To retrieve these formats, you pass one of the following strings to the [DataPackageView.GetDataAsync](datapackageview_getdataasync_225712847.md) method instead of a value from the **StandardDataFormats** class. <table>
    <tr><th>If format name is:</th><th>GetDataAsync() retrieves:</th></tr>
    <tr><td>"AnsiText"</td><td>String for CF_TEXT.</td></tr>
    <tr><td>"DeviceIndependentBitmap"</td><td>Stream for HGLOBAL corresponding to CF_DIB.</td></tr>

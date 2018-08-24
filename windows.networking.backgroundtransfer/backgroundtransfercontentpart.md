@@ -49,7 +49,7 @@ The following example demonstrates how to configure and begin a multi-part uploa
 
 
 ## -see-also
-[CreateDownload(Uri, IStorageFile, IStorageFile)](backgrounddownloader_createdownload_1461958690.md), [CreateUploadAsync](backgrounduploader_createuploadasync.md)
+[CreateDownload(Uri, IStorageFile, IStorageFile)](backgrounddownloader_createdownload_1461958690.md), [CreateUploadAsync](/uwp/api/windows.networking.backgroundtransfer.backgrounduploader.createuploadasync)
 
 ## -capabilities
 internetClient, internetClientServer, privateNetworkClientServer

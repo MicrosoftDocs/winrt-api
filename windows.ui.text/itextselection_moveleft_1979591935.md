@@ -35,4 +35,4 @@ A nonzero *extend* value corresponds to the Shift key being pressed in addition 
 ## -examples
 
 ## -see-also
-[ITextSelection.MoveRight](itextselection_moveright.md)
+[ITextSelection.MoveRight](itextselection_moveright_1427894299.md)

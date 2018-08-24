@@ -22,7 +22,7 @@ Windows will trigger a file update request just before it has been retrieved fro
 
 
 ## -remarks
-If your app participates in the Cached File Updater contract, associate this information with the locally cached copy of a file by calling [CachedFileUpdater.SetUpdateInformation](cachedfileupdater_setupdateinformation.md).
+If your app participates in the Cached File Updater contract, associate this information with the locally cached copy of a file by calling [CachedFileUpdater.SetUpdateInformation](cachedfileupdater_setupdateinformation_1837385638.md).
 
 ## -examples
 

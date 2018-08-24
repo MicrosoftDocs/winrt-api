@@ -23,7 +23,7 @@ Only allow the file to be read.
 Allows both readers and writers to coexist.
 
 ## -remarks
-For more explanation on usage, see [OpenAsync](istoragefile2_openasync.md).
+For more explanation on usage, see [OpenAsync](istoragefile2_openasync_1542217918.md).
 
 ## -examples
 

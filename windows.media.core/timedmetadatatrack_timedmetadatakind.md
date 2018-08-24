@@ -16,7 +16,7 @@ Gets a value indicating the kind of metadata contained in the track.
 A value indicating the kind of metadata contained in the track.
 
 ## -remarks
-You can specify a value for the **TimedMetadataKind** property in the [TimedMetadataTrack constructor](timedmetadatatrack_timedmetadatatrack.md).
+You can specify a value for the **TimedMetadataKind** property in the [TimedMetadataTrack constructor](timedmetadatatrack_timedmetadatatrack_2131229248.md).
 
 ## -examples
 

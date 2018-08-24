@@ -10,7 +10,7 @@ public class InteractionTrackerInteractingStateEnteredArgs : Windows.UI.Composit
 # Windows.UI.Composition.Interactions.InteractionTrackerInteractingStateEnteredArgs
 
 ## -description
-Arguments for the [IInteractionTrackerOwner.InteractingStateEntered](iinteractiontrackerowner_interactingstateentered.md) callback.
+Arguments for the [IInteractionTrackerOwner.InteractingStateEntered](iinteractiontrackerowner_interactingstateentered_562654012.md) callback.
 
 ## -remarks
 

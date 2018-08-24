@@ -32,4 +32,4 @@ When the [ITextRange.FindText](ITextRange_FindText.md) method is used, you can u
 ## -examples
 
 ## -see-also
-[ITextRange.IsEqual](itextrange_isequal.md)
+[ITextRange.IsEqual](itextrange_isequal_565025630.md)

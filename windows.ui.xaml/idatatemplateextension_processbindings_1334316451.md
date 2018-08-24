@@ -17,7 +17,7 @@ Updates a list item container element with bound data.
 Information about the item, item index, and rendering phase.
 
 ## -returns
-The phase at which the next call to [ProcessBindings](idatatemplateextension_processbindings.md) will occur. A value of -1 indicates that no further callbacks are requested.
+The phase at which the next call to [ProcessBindings](idatatemplateextension_processbindings_1334316451.md) will occur. A value of -1 indicates that no further callbacks are requested.
 
 ## -remarks
 

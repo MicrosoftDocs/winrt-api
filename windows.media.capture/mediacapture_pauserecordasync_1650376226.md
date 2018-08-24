@@ -20,11 +20,11 @@ A value indicating whether the media capture hardware resources should be preser
 An asynchronous action.
 
 ## -remarks
-Resume recording by calling [ResumeRecordAsync](mediacapture_resumerecordasync.md).
+Resume recording by calling [ResumeRecordAsync](mediacapture_resumerecordasync_654128650.md).
 
 ## -examples
 
 ## -see-also
-[ResumeRecordAsync](mediacapture_resumerecordasync.md)
+[ResumeRecordAsync](mediacapture_resumerecordasync_654128650.md)
 ## -capabilities
 backgroundMediaRecording

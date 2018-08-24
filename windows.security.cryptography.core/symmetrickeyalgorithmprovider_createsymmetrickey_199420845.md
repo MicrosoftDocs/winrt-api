@@ -14,7 +14,7 @@ Creates a symmetric key.
 
 ## -parameters
 ### -param keyMaterial
-Data used to generate the key. You can call the [GenerateRandom](../windows.security.cryptography/cryptographicbuffer_generaterandom.md) method to create random key material.
+Data used to generate the key. You can call the [GenerateRandom](../windows.security.cryptography/cryptographicbuffer_generaterandom_1645545930.md) method to create random key material.
 
 ## -returns
 Symmetric key.

@@ -13,7 +13,7 @@ public class SocialDashboardItemUpdater : Windows.ApplicationModel.SocialInfo.Pr
 Represents a task that can update dashboard items.
 
 ## -remarks
-Call [SocialInfoProviderManager.CreateDashboardItemUpdaterAsync](socialinfoprovidermanager_createdashboarditemupdaterasync.md) to create an instance of this class.
+Call [SocialInfoProviderManager.CreateDashboardItemUpdaterAsync](socialinfoprovidermanager_createdashboarditemupdaterasync_1728882678.md) to create an instance of this class.
 
 ## -examples
 

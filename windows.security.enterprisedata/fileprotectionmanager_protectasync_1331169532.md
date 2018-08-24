@@ -30,7 +30,7 @@ When the call to this method completes successfully, it returns a [FileProtectio
 ## -examples
 
 ## -see-also
-[FileProtectionInfo](fileprotectioninfo.md), [IsIdentityManaged](protectionpolicymanager_isidentitymanaged.md)
+[FileProtectionInfo](fileprotectioninfo.md), [IsIdentityManaged](protectionpolicymanager_isidentitymanaged_906801364.md)
 
 ## -capabilities
 enterpriseDataPolicy

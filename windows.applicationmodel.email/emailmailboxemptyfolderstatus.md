@@ -10,7 +10,7 @@ public enum Windows.ApplicationModel.Email.EmailMailboxEmptyFolderStatus : int
 # EmailMailboxEmptyFolderStatus
 
 ## -description
-Indicates the result of a call to [TryEmptyFolderAsync](emailmailbox_tryemptyfolderasync.md).
+Indicates the result of a call to [TryEmptyFolderAsync](emailmailbox_tryemptyfolderasync_1505533787.md).
 
 ## -enum-fields
 ### -field Success:0

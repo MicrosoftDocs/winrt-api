@@ -20,4 +20,4 @@ The detail text, or **null** if the search suggestion is not a **Result**.
 ## -examples
 
 ## -see-also
-[SearchBox](../windows.ui.xaml.controls/searchbox.md), [AppendResultSuggestion](../windows.applicationmodel.search/searchsuggestioncollection_appendresultsuggestion.md)
+[SearchBox](../windows.ui.xaml.controls/searchbox.md), [AppendResultSuggestion](../windows.applicationmodel.search/searchsuggestioncollection_appendresultsuggestion_603544202.md)

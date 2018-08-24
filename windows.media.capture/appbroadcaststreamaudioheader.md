@@ -16,7 +16,7 @@ Provides metadata about a broadcast audio frame.
 > This API requires the **appBroadcast** and **appBroadcastSettings** capability which is not available to all Windows apps. Unless your developer account is specially provisioned by Microsoft, calls to this API will fail at runtime.
 
 ## -remarks
-Get an instance of this class by accessing the [AudioHeader](appbroadcaststreamaudioframe_audioheader.md) property of an [AppBroadcastStreamAudioFrame](appbroadcaststreamaudioframe.md) object obtained from a call to [AppBroadcastStreamReader.TryGetNextAudioFrame](appbroadcaststreamreader_trygetnextaudioframe.md).
+Get an instance of this class by accessing the [AudioHeader](appbroadcaststreamaudioframe_audioheader.md) property of an [AppBroadcastStreamAudioFrame](appbroadcaststreamaudioframe.md) object obtained from a call to [AppBroadcastStreamReader.TryGetNextAudioFrame](appbroadcaststreamreader_trygetnextaudioframe_1561983342.md).
 
 ## -examples
 

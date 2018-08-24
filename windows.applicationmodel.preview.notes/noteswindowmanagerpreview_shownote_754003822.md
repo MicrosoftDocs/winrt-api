@@ -13,7 +13,7 @@ public void ShowNote(System.Int32 noteViewId)
 Makes a note visible on the device screen.
 
 > [!NOTE]
-> This method should only be called on a note that has been hidden with [HideNote](noteswindowmanagerpreview_hidenote.md).
+> This method should only be called on a note that has been hidden with [HideNote](noteswindowmanagerpreview_hidenote_1106719948.md).
 
 ## -parameters
 ### -param noteViewId

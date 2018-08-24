@@ -92,6 +92,6 @@ public async Task<Boolean> DeleteAllAnnotationLists()
 
 
 ## -see-also
-[RequestAnnotationStoreAsync](contactmanager_requestannotationstoreasync_2147083254.md), [ContactAnnotationList](contactannotationlist.md), [CreateAnnotationListAsync](contactannotationstore_createannotationlistasync.md), [GetAnnotationListAsync](contactannotationstore_getannotationlistasync.md), [DeleteAsync](contactannotationlist_deleteasync.md)
+[RequestAnnotationStoreAsync](contactmanager_requestannotationstoreasync_2147083254.md), [ContactAnnotationList](contactannotationlist.md), [CreateAnnotationListAsync](/uwp/api/windows.applicationmodel.contacts.contactannotationstore.createannotationlistasync), [GetAnnotationListAsync](contactannotationstore_getannotationlistasync_1462689163.md), [DeleteAsync](contactannotationlist_deleteasync_1247887881.md)
 ## -capabilities
 contactsSystem

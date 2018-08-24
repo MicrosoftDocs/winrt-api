@@ -16,7 +16,7 @@ Gets the end position of the text selected in the [TextBlock](textblock.md).
 An object that represents the selection end, or null if no selection exists.
 
 ## -remarks
-Use [Select](textblock_select.md) to set the selection start and end.
+Use [Select](textblock_select_694729799.md) to set the selection start and end.
 
 ## -examples
 

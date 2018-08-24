@@ -10,7 +10,7 @@ public bool CanPause { get; }
 # Windows.UI.Xaml.Controls.MediaElement.CanPause
 
 ## -description
-Gets a value that indicates whether media can be paused if the [Pause](mediaelement_pause.md) method is called.
+Gets a value that indicates whether media can be paused if the [Pause](mediaelement_pause_1953642114.md) method is called.
 
 ## -property-value
 **true** if the media can be paused; otherwise, **false**.

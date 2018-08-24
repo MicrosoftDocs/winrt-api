@@ -16,7 +16,7 @@ Gets or sets the current content header property.
 The current content header property.
 
 ## -remarks
-This property cannot be set after [BeginServiceRequest](playreadylicenseacquisitionservicerequest_beginservicerequest.md) or [GenerateManualEnablingChallenge](playreadylicenseacquisitionservicerequest_generatemanualenablingchallenge.md) have been called.
+This property cannot be set after [BeginServiceRequest](playreadylicenseacquisitionservicerequest_beginservicerequest_736222023.md) or [GenerateManualEnablingChallenge](playreadylicenseacquisitionservicerequest_generatemanualenablingchallenge_1228062000.md) have been called.
 
 ## -examples
 

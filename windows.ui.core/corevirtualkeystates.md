@@ -30,4 +30,4 @@ The key is in a toggled or modified state (for example, Caps Lock) for the input
 ## -examples
 
 ## -see-also
-[Windows.UI.Core](windows_ui_core.md), [CoreComponentInputSource.GetCurrentKeyState](corecomponentinputsource_getcurrentkeystate.md), [CoreWindow.GetAsyncKeyState](corewindow_getasynckeystate.md), [CoreWindow.GetKeyState](corewindow_getkeystate.md)
+[Windows.UI.Core](windows_ui_core.md), [CoreComponentInputSource.GetCurrentKeyState](corecomponentinputsource_getcurrentkeystate_324576627.md), [CoreWindow.GetAsyncKeyState](corewindow_getasynckeystate_1621551046.md), [CoreWindow.GetKeyState](corewindow_getkeystate_1676715341.md)

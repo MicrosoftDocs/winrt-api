@@ -18,7 +18,7 @@ Sets the rotation of the text or image on the page for the receipt or slip print
 The rotation of the text or image on the page.
 
 ### -param includeBitmaps
-Whether bitmaps should be rotated as well. This setting takes effect only for subsequent calls to [PrintBitmap](ireceiptorslipjob_printbitmap.md), and may not apply to saved bitmaps that you print using [PrintSavedBitmap](ireceiptorslipjob_printsavedbitmap.md).
+Whether bitmaps should be rotated as well. This setting takes effect only for subsequent calls to [PrintBitmap](/uwp/api/windows.devices.pointofservice.ireceiptorslipjob.printbitmap), and may not apply to saved bitmaps that you print using [PrintSavedBitmap](ireceiptorslipjob_printsavedbitmap_1902948304.md).
 
 ## -remarks
 This rotation setting persists beyond the current print job.

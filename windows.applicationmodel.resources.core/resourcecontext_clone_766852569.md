@@ -16,7 +16,7 @@ Creates a clone of this [ResourceContext](resourcecontext.md), with identical qu
 A new, cloned [ResourceContext](resourcecontext.md).
 
 ## -remarks
-By default, a cloned context has the same qualifier values as the default context from which it was derived. If a qualifier value in the default context changes, the changes are reflected in the cloned context as well. However, if a qualifier value is programmatically overridden on the cloned context, the linkage to the default context for that qualifier is removed— changes to that qualifier value in the cloned context do not affect the default context, and vice versa. This linkage can be restored using the [Reset](resourcecontext_reset.md) method.
+By default, a cloned context has the same qualifier values as the default context from which it was derived. If a qualifier value in the default context changes, the changes are reflected in the cloned context as well. However, if a qualifier value is programmatically overridden on the cloned context, the linkage to the default context for that qualifier is removed— changes to that qualifier value in the cloned context do not affect the default context, and vice versa. This linkage can be restored using the [Reset](/uwp/api/windows.applicationmodel.resources.core.resourcecontext.reset) method.
 
 ## -examples
 

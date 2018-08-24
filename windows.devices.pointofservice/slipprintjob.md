@@ -20,4 +20,4 @@ The created print job object is valid as long as the ClaimedSlipPrinter object t
 ## -examples
 
 ## -see-also
-[IReceiptOrSlipJob](ireceiptorslipjob.md), [IPosPrinterJob](iposprinterjob.md), [ClaimedSlipPrinter.CreateJob](claimedslipprinter_createjob.md)
+[IReceiptOrSlipJob](ireceiptorslipjob.md), [IPosPrinterJob](iposprinterjob.md), [ClaimedSlipPrinter.CreateJob](claimedslipprinter_createjob_1417454808.md)

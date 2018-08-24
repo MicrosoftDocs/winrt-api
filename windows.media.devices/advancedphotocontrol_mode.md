@@ -16,7 +16,7 @@ Gets the current advanced capture mode of the [AdvancedPhotoControl](advancedpho
 The current advanced capture mode of the [AdvancedPhotoControl](advancedphotocontrol.md).
 
 ## -remarks
-Set the advanced capture mode of the [AdvancedPhotoControl](advancedphotocontrol.md) by calling the [Configure](advancedphotocontrol_configure.md) method.
+Set the advanced capture mode of the [AdvancedPhotoControl](advancedphotocontrol.md) by calling the [Configure](advancedphotocontrol_configure_232907878.md) method.
 
 ## -examples
 

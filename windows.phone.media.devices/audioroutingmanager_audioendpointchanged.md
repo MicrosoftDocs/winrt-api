@@ -13,7 +13,7 @@ public event Windows.Foundation.TypedEventHandler AudioEndpointChanged<Windows.P
 Occurs when the audio endpoint currently in use has changed, or when the set of available audio endpoints has changed.
 
 ## -remarks
-This event is raised even when the application itself has requested the change by calling [SetAudioEndpoint](audioroutingmanager_setaudioendpoint.md).
+This event is raised even when the application itself has requested the change by calling [SetAudioEndpoint](audioroutingmanager_setaudioendpoint_65938411.md).
 
 ## -examples
 

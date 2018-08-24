@@ -17,7 +17,7 @@ Gets the buffer for vertex positions.
 The buffer for vertex positions.
 
 ## -remarks
-To create the buffer for vertex positions, use [CreateVertexPositions](printing3dmesh_createvertexpositions.md).
+To create the buffer for vertex positions, use [CreateVertexPositions](printing3dmesh_createvertexpositions_738967062.md).
 
 ## -examples
 

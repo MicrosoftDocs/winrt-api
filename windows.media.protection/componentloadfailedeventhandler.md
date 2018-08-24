@@ -15,7 +15,7 @@ Represents the method that handles the data passed by the [MediaProtectionManage
 Contains the [MediaProtectionManager](mediaprotectionmanager.md) object that was loading the binary data when the load failed.
 
 ### -param e
-Contains event data for a [MediaProtectionManager](mediaprotectionmanager_mediaprotectionmanager.md) object when the load of binary data fails.
+Contains event data for a [MediaProtectionManager](mediaprotectionmanager_mediaprotectionmanager_1221375020.md) object when the load of binary data fails.
 
 
 ## -remarks

@@ -34,7 +34,7 @@ The file update was completed successfully and the file has been renamed. For ex
 
 
 ## -remarks
-If your app participates in the Cached File Updater contract, you use this enumeration to communicate the status of a file update request to another app that initiated the update (for example, by calling [CachedFileManager.CompleteUpdatesAsync](../windows.storage/cachedfilemanager_completeupdatesasync.md)).
+If your app participates in the Cached File Updater contract, you use this enumeration to communicate the status of a file update request to another app that initiated the update (for example, by calling [CachedFileManager.CompleteUpdatesAsync](../windows.storage/cachedfilemanager_completeupdatesasync_1507988567.md)).
 
 ## -examples
 

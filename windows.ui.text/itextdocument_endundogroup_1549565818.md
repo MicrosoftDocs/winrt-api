@@ -18,4 +18,4 @@ Turns off undo grouping.
 ## -examples
 
 ## -see-also
-[ITextDocument.BeginUndoGroup](itextdocument_beginundogroup.md), [ITextDocument.ApplyDisplayUpdates](itextdocument_applydisplayupdates.md)
+[ITextDocument.BeginUndoGroup](itextdocument_beginundogroup_1705396921.md), [ITextDocument.ApplyDisplayUpdates](itextdocument_applydisplayupdates_1551145521.md)

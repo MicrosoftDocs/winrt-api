@@ -23,9 +23,9 @@ Indicates how to change the selection. True extends the selection by moving only
 The number of units that the insertion point or the active end is moved.
 
 ## -remarks
-The [HomeKey](itextselection_homekey.md) method is a logical method rather than a directional method and so is dependent on the language that is involved. For example, in Arabic text, [HomeKey](itextselection_homekey.md) moves to the right end of a line, whereas in English text, it moves to the left. Thus [HomeKey](itextselection_homekey.md) is different from the [ITextSelection.MoveRight](itextselection_moveright.md) or [ITextSelection.MoveLeft](itextselection_moveleft.md) methods. [HomeKey](itextselection_homekey.md) also differs from the [ITextRange.StartOf](itextrange_startof.md) method in that it extends from the active end, whereas [StartOf](itextrange_startof.md) extends from the start position.
+The [HomeKey](itextselection_homekey_234543261.md) method is a logical method rather than a directional method and so is dependent on the language that is involved. For example, in Arabic text, [HomeKey](itextselection_homekey_234543261.md) moves to the right end of a line, whereas in English text, it moves to the left. Thus [HomeKey](itextselection_homekey_234543261.md) is different from the [ITextSelection.MoveRight](itextselection_moveright_1427894299.md) or [ITextSelection.MoveLeft](itextselection_moveleft_1979591935.md) methods. [HomeKey](itextselection_homekey_234543261.md) also differs from the [ITextRange.StartOf](itextrange_startof_1690436680.md) method in that it extends from the active end, whereas [StartOf](itextrange_startof_1690436680.md) extends from the start position.
 
 ## -examples
 
 ## -see-also
-[ITextSelection.EndKey](itextselection_endkey.md)
+[ITextSelection.EndKey](itextselection_endkey_141627204.md)

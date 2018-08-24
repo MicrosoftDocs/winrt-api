@@ -33,7 +33,7 @@ The name that you would like to give the file.
 **true** if files in this folder should be protected, otherwise **false**.
 
 ## -remarks
-See the remarks section of this method: [IsFileProtectionRequiredAsync](protectionpolicymanager_isfileprotectionrequiredasync.md).
+See the remarks section of this method: [IsFileProtectionRequiredAsync](protectionpolicymanager_isfileprotectionrequiredasync_2068771327.md).
 
 ## -examples
 

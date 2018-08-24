@@ -18,7 +18,7 @@ The new position of the stream.
 
 ## -remarks
 > [!WARNING]
-> This method does not check the position to make sure the value is valid for the stream. If the position is invalid for the stream, the [ReadAsync](iinputstream_readasync.md) and [WriteAsync](ioutputstream_writeasync.md) methods will return an error if you call them.
+> This method does not check the position to make sure the value is valid for the stream. If the position is invalid for the stream, the [ReadAsync](iinputstream_readasync_1012630619.md) and [WriteAsync](ioutputstream_writeasync_897036872.md) methods will return an error if you call them.
 
 ## -examples
 

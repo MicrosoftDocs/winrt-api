@@ -10,7 +10,7 @@ public enum Windows.ApplicationModel.Email.EmailMailboxDeleteFolderStatus : int
 # EmailMailboxDeleteFolderStatus
 
 ## -description
-Indicates the result of a call to [TryDeleteFolderAsync](emailmailbox_trydeletefolderasync.md).
+Indicates the result of a call to [TryDeleteFolderAsync](emailmailbox_trydeletefolderasync_1435582098.md).
 
 ## -enum-fields
 ### -field Success:0

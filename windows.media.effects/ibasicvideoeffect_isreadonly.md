@@ -16,7 +16,7 @@ Gets a value indicating whether the video effect will modify the contents of the
 True, if the effect will not modify the input frame; otherwise, false.
 
 ## -remarks
-When [IBasicVideoEffect.IsReadOnly](ibasicvideoeffect_isreadonly.md) is set to true, the system automatically copies the frame data directly from the input frame to the output frame before [ProcessFrame](ibasicvideoeffect_processframe.md) is called. This allows an effect that analyzes the input data, but does not modify it, to skip the creation of the output frame data.
+When [IBasicVideoEffect.IsReadOnly](ibasicvideoeffect_isreadonly.md) is set to true, the system automatically copies the frame data directly from the input frame to the output frame before [ProcessFrame](ibasicvideoeffect_processframe_1753355935.md) is called. This allows an effect that analyzes the input data, but does not modify it, to skip the creation of the output frame data.
 
 ## -examples
 

@@ -14,7 +14,7 @@ public class ChatSearchReader : Windows.ApplicationModel.Chat.IChatSearchReader
 Provides functionality to search for chat messages in the [ChatMessageStore](chatmessagestore.md).
 
 ## -remarks
-Call the [ChatMessageStore.GetSearchReader](chatmessagestore_getsearchreader.md) method to obtain an instance of this class.
+Call the [ChatMessageStore.GetSearchReader](chatmessagestore_getsearchreader_1103843978.md) method to obtain an instance of this class.
 
 ## -examples
 

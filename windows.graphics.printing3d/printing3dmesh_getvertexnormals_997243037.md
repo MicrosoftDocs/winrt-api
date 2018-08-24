@@ -17,7 +17,7 @@ Gets the buffer for vertex normals.
 The buffer for vertex normals.
 
 ## -remarks
-To create the buffer for vertex normals, use [CreateVertexNormals](printing3dmesh_createvertexnormals.md).
+To create the buffer for vertex normals, use [CreateVertexNormals](printing3dmesh_createvertexnormals_1326037651.md).
 
 ## -examples
 

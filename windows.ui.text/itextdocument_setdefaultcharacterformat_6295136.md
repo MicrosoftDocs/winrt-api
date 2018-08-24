@@ -21,4 +21,4 @@ The new default character formatting attributes.
 ## -examples
 
 ## -see-also
-[ITextDocument.GetDefaultCharacterFormat](itextdocument_getdefaultcharacterformat.md)
+[ITextDocument.GetDefaultCharacterFormat](itextdocument_getdefaultcharacterformat_1941781921.md)

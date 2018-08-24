@@ -37,4 +37,4 @@ The [WiFiDirectDevice](../windows.devices.wifidirect/wifidirectdevice.md) class 
 ## -examples
 
 ## -see-also
-[DatagramSocket](../windows.networking.sockets/datagramsocket.md), [HostName](hostname.md), [NetworkInformation](../windows.networking.connectivity/networkinformation.md), [StreamSocket](../windows.networking.sockets/streamsocket.md), [Windows.Networking](windows_networking.md), [Windows.Networking.Sockets](../windows.networking.sockets/windows_networking_sockets.md), [WiFiDirectDevice.GetConnectionEndpointPairs](../windows.devices.wifidirect/wifidirectdevice_getconnectionendpointpairs.md)
+[DatagramSocket](../windows.networking.sockets/datagramsocket.md), [HostName](hostname.md), [NetworkInformation](../windows.networking.connectivity/networkinformation.md), [StreamSocket](../windows.networking.sockets/streamsocket.md), [Windows.Networking](windows_networking.md), [Windows.Networking.Sockets](../windows.networking.sockets/windows_networking_sockets.md), [WiFiDirectDevice.GetConnectionEndpointPairs](../windows.devices.wifidirect/wifidirectdevice_getconnectionendpointpairs_1958888015.md)

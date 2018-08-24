@@ -13,7 +13,7 @@ public class BarcodeSymbologyAttributes
 The attributes of a barcode scanner symbology.
 
 ## -remarks
-This object is created when a [ClaimedBarcodeScanner.GetSymbologyAttributesAsync](claimedbarcodescanner_getsymbologyattributesasync.md) method completes.
+This object is created when a [ClaimedBarcodeScanner.GetSymbologyAttributesAsync](claimedbarcodescanner_getsymbologyattributesasync_1783019997.md) method completes.
 
 ## -see-also
 

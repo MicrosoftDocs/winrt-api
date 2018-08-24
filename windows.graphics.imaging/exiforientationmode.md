@@ -32,4 +32,4 @@ In addition, if you specify **RespectExifOrientation** along with a clip using [
 ## -examples
 
 ## -see-also
-[GetPixelDataAsync](bitmapdecoder_getpixeldataasync.md)
+[GetPixelDataAsync](/uwp/api/windows.graphics.imaging.bitmapdecoder.getpixeldataasync)

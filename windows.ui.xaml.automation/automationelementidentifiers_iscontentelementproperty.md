@@ -10,7 +10,7 @@ public Windows.UI.Xaml.Automation.AutomationProperty IsContentElementProperty { 
 # Windows.UI.Xaml.Automation.AutomationElementIdentifiers.IsContentElementProperty
 
 ## -description
-Identifies the content element determination automation property. The content element status indicates whether the element contains content that is valuable to the end user. The current status is returned by the [IsContentElement](../windows.ui.xaml.automation.peers/automationpeer_iscontentelement.md) method.
+Identifies the content element determination automation property. The content element status indicates whether the element contains content that is valuable to the end user. The current status is returned by the [IsContentElement](../windows.ui.xaml.automation.peers/automationpeer_iscontentelement_545450603.md) method.
 
 ## -property-value
 The automation property identifier.

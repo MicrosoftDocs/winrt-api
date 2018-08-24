@@ -14,7 +14,7 @@ Determines the video encoding format.
 
 ## -enum-fields
 ### -field Auto:0
-**Auto** fills in the proper settings based on the current camera settings. So when **Auto** is used, settings that are manually modified are ignored. For example, if you create a preset profile using one the static create methods, such as [CreateWmv](mediaencodingprofile_createwmv.md), and specify **Auto** as the encoding quality, any changes you make to the properties will be overwritten with values based on the current camera settings.
+**Auto** fills in the proper settings based on the current camera settings. So when **Auto** is used, settings that are manually modified are ignored. For example, if you create a preset profile using one the static create methods, such as [CreateWmv](mediaencodingprofile_createwmv_1317453732.md), and specify **Auto** as the encoding quality, any changes you make to the properties will be overwritten with values based on the current camera settings.
 
 ### -field HD1080p:1
 HD1080p format.

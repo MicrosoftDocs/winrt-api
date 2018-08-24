@@ -16,7 +16,7 @@ Gets the pointer data of the last pointer event.
 Information about the state and screen position of the pointer.
 
 ## -remarks
-[CurrentPoint](pointereventargs_currentpoint.md) corresponds to the last point retrieved by [GetIntermediatePoints](pointereventargs_getintermediatepoints.md).
+[CurrentPoint](pointereventargs_currentpoint.md) corresponds to the last point retrieved by [GetIntermediatePoints](pointereventargs_getintermediatepoints_1956108759.md).
 
 ## -examples
 ```cppwinrt

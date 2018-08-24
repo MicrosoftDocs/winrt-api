@@ -21,4 +21,4 @@ The delegate must transform the existing application data from the app-defined s
 ## -examples
 
 ## -see-also
-[ApplicationData.SetVersionAsync](applicationdata_setversionasync.md)
+[ApplicationData.SetVersionAsync](applicationdata_setversionasync_766938731.md)

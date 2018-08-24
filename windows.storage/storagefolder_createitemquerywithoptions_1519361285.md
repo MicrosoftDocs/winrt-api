@@ -31,7 +31,7 @@ You don't have permission to access the contents of the current folder.
 You specified a value other than **DefaultQuery** from the [CommonFileQuery](../windows.storage.search/commonfilequery.md) or [CommonFolderQuery](../windows.storage.search/commonfolderquery.md) enumeration for a folder that's not a library folder.
 
 ## -remarks
-For more information and examples on getting query result objects, see [CreateFileQueryWithOptions](storagefolder_createfilequerywithoptions.md).
+For more information and examples on getting query result objects, see [CreateFileQueryWithOptions](storagefolder_createfilequerywithoptions_2038131323.md).
 
 ## -examples
 

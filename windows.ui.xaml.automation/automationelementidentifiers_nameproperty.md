@@ -10,7 +10,7 @@ public Windows.UI.Xaml.Automation.AutomationProperty NameProperty { get; }
 # Windows.UI.Xaml.Automation.AutomationElementIdentifiers.NameProperty
 
 ## -description
-Identifies the element name automation property. The current name is returned by the [GetName](../windows.ui.xaml.automation.peers/automationpeer_getname.md) method.
+Identifies the element name automation property. The current name is returned by the [GetName](../windows.ui.xaml.automation.peers/automationpeer_getname_1386609741.md) method.
 
 ## -property-value
 The automation property identifier.

@@ -10,7 +10,7 @@ public interface IXamlUIPresenterHost3 :
 # Windows.UI.Xaml.Hosting.IXamlUIPresenterHost3
 
 ## -description
-Extends [IXamlUIPresenterHost](ixamluipresenterhost.md) to add [ResolveDictionaryResource](ixamluipresenterhost3_resolvedictionaryresource.md).
+Extends [IXamlUIPresenterHost](ixamluipresenterhost.md) to add [ResolveDictionaryResource](ixamluipresenterhost3_resolvedictionaryresource_451490648.md).
 
 ## -remarks
 

@@ -17,7 +17,7 @@ Enters text into the selection as if someone typed it.
 The text string to type into this selection.
 
 ## -remarks
-This method is similar to the underlying [ITextDocument.SetText](itextdocument_settext.md) method, but is sensitive to the Insert or Overtype key state and UI settings like AutoCorrect and smart quotes.
+This method is similar to the underlying [ITextDocument.SetText](itextdocument_settext_522499431.md) method, but is sensitive to the Insert or Overtype key state and UI settings like AutoCorrect and smart quotes.
 
 ## -examples
 

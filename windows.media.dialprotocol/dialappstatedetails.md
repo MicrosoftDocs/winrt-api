@@ -14,7 +14,7 @@ public class DialAppStateDetails : Windows.Media.DialProtocol.IDialAppStateDetai
 Represents the state of the DIAL app.
 
 ## -remarks
-This object is returned when [GetAppStateAsync](dialapp_getappstateasync.md) is called on a DIAL app.
+This object is returned when [GetAppStateAsync](dialapp_getappstateasync_2130355982.md) is called on a DIAL app.
 
 ## -examples
 

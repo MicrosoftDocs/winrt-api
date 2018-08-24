@@ -10,7 +10,7 @@ public VpnInterfaceId(System.Byte[] address)
 # Windows.Networking.Vpn.VpnInterfaceId.VpnInterfaceId
 
 ## -description
-Allows the VPN plug-in to construct this object and use it in the [VpnChannel.Start](vpnchannel_start.md) method.
+Allows the VPN plug-in to construct this object and use it in the [VpnChannel.Start](vpnchannel_start_1915696275.md) method.
 
 ## -parameters
 ### -param address

@@ -10,7 +10,7 @@ public void ReleasePointerCapture()
 # Windows.UI.Core.CoreWindow.ReleasePointerCapture
 
 ## -description
-Dissociates pointer input from the app, if previously associated through [SetPointerCapture](corewindow_setpointercapture.md), and restores normal pointer input processing.
+Dissociates pointer input from the app, if previously associated through [SetPointerCapture](corewindow_setpointercapture_651539121.md), and restores normal pointer input processing.
 
 ## -remarks
 

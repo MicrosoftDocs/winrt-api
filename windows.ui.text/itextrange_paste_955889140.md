@@ -23,4 +23,4 @@ The clipboard format to use in the paste operation. Zero represents the best for
 ## -examples
 
 ## -see-also
-[ITextRange.CanPaste](itextrange_canpaste.md), [ITextRange.Copy](itextrange_copy.md), [ITextRange.Cut](itextrange_cut.md)
+[ITextRange.CanPaste](itextrange_canpaste_746058742.md), [ITextRange.Copy](itextrange_copy_4862135.md), [ITextRange.Cut](itextrange_cut_1740700893.md)

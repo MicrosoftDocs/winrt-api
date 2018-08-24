@@ -20,7 +20,7 @@ The effect to remove from the capture pipeline.
 Returns an [IAsyncAction](../windows.foundation/iasyncaction.md) object that is used to control the asynchronous operation.
 
 ## -remarks
-Pass the effect instance returned by [AddVideoEffectAsync](mediacapture_addvideoeffectasync.md) or [AddAudioEffectAsync](mediacapture_addaudioeffectasync.md) into this method to remove the effect from the pipeline.
+Pass the effect instance returned by [AddVideoEffectAsync](mediacapture_addvideoeffectasync_1410216019.md) or [AddAudioEffectAsync](mediacapture_addaudioeffectasync_182168147.md) into this method to remove the effect from the pipeline.
 
 ## -examples
 

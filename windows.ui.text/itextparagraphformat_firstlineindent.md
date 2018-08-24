@@ -21,4 +21,4 @@ The left indent applies to all lines of the paragraph except the first line.
 ## -examples
 
 ## -see-also
-[ITextParagraphFormat.LeftIndent](itextparagraphformat_leftindent.md), [ITextParagraphFormat.SetIndents](itextparagraphformat_setindents.md)
+[ITextParagraphFormat.LeftIndent](itextparagraphformat_leftindent.md), [ITextParagraphFormat.SetIndents](itextparagraphformat_setindents_1806531478.md)

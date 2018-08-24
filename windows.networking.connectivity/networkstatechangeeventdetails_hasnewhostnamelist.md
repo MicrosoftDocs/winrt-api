@@ -10,7 +10,7 @@ public bool HasNewHostNameList { get; }
 # Windows.Networking.Connectivity.NetworkStateChangeEventDetails.HasNewHostNameList
 
 ## -description
-Indicates if the list of host names returned by [GetHostNames](networkinformation_gethostnames.md) has changed.
+Indicates if the list of host names returned by [GetHostNames](networkinformation_gethostnames_136280557.md) has changed.
 
 ## -property-value
 true if a new Host Name list was provided; otherwise, false.

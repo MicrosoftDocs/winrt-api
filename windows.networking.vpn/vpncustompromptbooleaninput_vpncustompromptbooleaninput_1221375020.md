@@ -10,7 +10,7 @@ public VpnCustomPromptBooleanInput()
 # Windows.Networking.Vpn.VpnCustomPromptBooleanInput.VpnCustomPromptBooleanInput
 
 ## -description
-Constructs an object representing the Boolean input UI element to be used in the [VpnChannel.RequestCustomPromptAsync](vpnchannel_requestcustompromptasync.md) method.
+Constructs an object representing the Boolean input UI element to be used in the [VpnChannel.RequestCustomPromptAsync](vpnchannel_requestcustompromptasync_598226399.md) method.
 
 ## -remarks
 

@@ -16,7 +16,7 @@ A [BitmapTransform](bitmaptransform.md) object that is used to specify how the f
 A [BitmapTransform](bitmaptransform.md) object that is used to specify how the frame bitmap is to be transformed.
 
 ## -remarks
-If you try scale an image stored in an indexed pixel format using the [BitmapTransform](bitmaptransform.md) member, [FlushAsync](bitmapencoder_flushasync_491532439.md) fails with HRESULT [WINCODEC_ERR_INVALIDPARAMETER](http://msdn.microsoft.com/library/1ded909c-311b-49e3-ba23-b22cd7a77bc6) . Instead, you must use [GetPixelDataAsync](bitmapdecoder_getpixeldataasync.md) to obtain the scaled pixel data and then use [SetPixelData](bitmapencoder_setpixeldata.md) to set it on the encoder.
+If you try scale an image stored in an indexed pixel format using the [BitmapTransform](bitmaptransform.md) member, [FlushAsync](bitmapencoder_flushasync_491532439.md) fails with HRESULT [WINCODEC_ERR_INVALIDPARAMETER](http://msdn.microsoft.com/library/1ded909c-311b-49e3-ba23-b22cd7a77bc6) . Instead, you must use [GetPixelDataAsync](/uwp/api/windows.graphics.imaging.bitmapdecoder.getpixeldataasync) to obtain the scaled pixel data and then use [SetPixelData](bitmapencoder_setpixeldata_644328650.md) to set it on the encoder.
 
 ## -examples
 

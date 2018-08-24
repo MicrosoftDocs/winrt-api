@@ -20,4 +20,4 @@ The created print job object is valid as long as the ClaimedJournalPrinter objec
 ## -examples
 
 ## -see-also
-[IPosPrinterJob](iposprinterjob.md), [ClaimedJournalPrinter.CreateJob](claimedjournalprinter_createjob.md)
+[IPosPrinterJob](iposprinterjob.md), [ClaimedJournalPrinter.CreateJob](claimedjournalprinter_createjob_1417454808.md)

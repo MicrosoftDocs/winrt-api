@@ -35,4 +35,4 @@ These values follow the types in the [Unicode Standard Annex #44](http://go.micr
 ## -examples
 
 ## -see-also
-[GetNumericType](unicodecharacters_getnumerictype.md)
+[GetNumericType](unicodecharacters_getnumerictype_1735068207.md)

@@ -45,9 +45,9 @@ Not supported. Do not use.
 
 
 ## -remarks
-See [UISettings.GetColorValue](uisettings_getcolorvalue.md).
+See [UISettings.GetColorValue](uisettings_getcolorvalue_461420534.md).
 
 ## -examples
 
 ## -see-also
-[UISettings.GetColorValue](uisettings_getcolorvalue.md)
+[UISettings.GetColorValue](uisettings_getcolorvalue_461420534.md)

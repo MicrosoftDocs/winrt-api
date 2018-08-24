@@ -20,4 +20,4 @@ The identifier for the [Tapped](uielement_tapped.md) routed event.
 ## -examples
 
 ## -see-also
-[AddHandler](uielement_addhandler.md)
+[AddHandler](uielement_addhandler_2121467075.md)

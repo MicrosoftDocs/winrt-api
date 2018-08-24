@@ -10,7 +10,7 @@ public enum Windows.Security.Cryptography.BinaryStringEncoding : int
 # BinaryStringEncoding
 
 ## -description
-Contains encoding formats that can be used in the [ConvertStringToBinary](cryptographicbuffer_convertstringtobinary.md) and [ConvertBinaryToString](cryptographicbuffer_convertbinarytostring.md) methods.
+Contains encoding formats that can be used in the [ConvertStringToBinary](cryptographicbuffer_convertstringtobinary_1526134090.md) and [ConvertBinaryToString](cryptographicbuffer_convertbinarytostring_2099042169.md) methods.
 
 ## -enum-fields
 ### -field Utf8:0

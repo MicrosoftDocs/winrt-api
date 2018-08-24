@@ -17,7 +17,7 @@ Use this method to check (for a known identity that is managed or ever was manag
 
 ## -parameters
 ### -param identity
-The enterprise identity protecting the data. This is an email address or domain that is managed. Your app should use [IsIdentityManaged](protectionpolicymanager_isidentitymanaged.md) to confirm that an email address or domain is managed.
+The enterprise identity protecting the data. This is an email address or domain that is managed. Your app should use [IsIdentityManaged](protectionpolicymanager_isidentitymanaged_906801364.md) to confirm that an email address or domain is managed.
 
 ### -param since
 The date and time from which point forward you want to include in the check.
@@ -30,7 +30,7 @@ Call this API only for an identity that has protected content on the device (in 
 
 We recommend that your app maintains a log of the times it first protected data (files, buffers, or streams) associated with an identity. After this, you should call  only if the identity has protected content associated with it on that device and your app wishes to know whether the protected content was revoked since the time it was protected.
 
- is not intended to be used as a way to determine whether Windows Information Protection (WIP) was ever enabled and then revoked for an arbitrary identity, in other words as a retrospective-looking form of [IsIdentityManaged](protectionpolicymanager_isidentitymanaged.md).
+ is not intended to be used as a way to determine whether Windows Information Protection (WIP) was ever enabled and then revoked for an arbitrary identity, in other words as a retrospective-looking form of [IsIdentityManaged](protectionpolicymanager_isidentitymanaged_906801364.md).
 
 ## -examples
 

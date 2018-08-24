@@ -20,4 +20,4 @@ The sharing mode to use to connect to the I<sup>2</sup> C bus address.
 ## -examples
 
 ## -see-also
-[I2cSharingMode](i2csharingmode.md), [I2cDevice.FromIdAsync](i2cdevice_fromidasync.md)
+[I2cSharingMode](i2csharingmode.md), [I2cDevice.FromIdAsync](i2cdevice_fromidasync_1693757112.md)

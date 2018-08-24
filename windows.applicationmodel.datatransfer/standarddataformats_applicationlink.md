@@ -21,4 +21,4 @@ An application link represents a Uniform Resource Identifier (URI) with a scheme
 ## -examples
 
 ## -see-also
-[SetApplicationLink](datapackage_setapplicationlink.md), [GetApplicationLinkAsync](datapackageview_getapplicationlinkasync.md)
+[SetApplicationLink](datapackage_setapplicationlink_1143215413.md), [GetApplicationLinkAsync](datapackageview_getapplicationlinkasync_832271692.md)

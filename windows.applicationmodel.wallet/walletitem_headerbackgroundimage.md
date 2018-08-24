@@ -20,4 +20,4 @@ The header background image of the item.
 ## -examples
 
 ## -see-also
-[IRandomAccessStreamReference](../windows.storage.streams/irandomaccessstreamreference.md), [StorageFile.GetFileFromApplicationUriAsync](../windows.storage/storagefile_getfilefromapplicationuriasync.md), [RandomAccessStreamReference.CreateFromUri](../windows.storage.streams/randomaccessstreamreference_createfromuri.md), [RandomAccessStreamReference.CreateFromFile](../windows.storage.streams/randomaccessstreamreference_createfromfile.md)
+[IRandomAccessStreamReference](../windows.storage.streams/irandomaccessstreamreference.md), [StorageFile.GetFileFromApplicationUriAsync](../windows.storage/storagefile_getfilefromapplicationuriasync_1702427701.md), [RandomAccessStreamReference.CreateFromUri](../windows.storage.streams/randomaccessstreamreference_createfromuri_407037831.md), [RandomAccessStreamReference.CreateFromFile](../windows.storage.streams/randomaccessstreamreference_createfromfile_2143564516.md)

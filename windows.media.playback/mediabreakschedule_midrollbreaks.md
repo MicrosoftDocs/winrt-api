@@ -16,7 +16,7 @@ Gets the schedule's current list of [MediaBreak](mediabreak.md) objects that wil
 The schedule's current list of [MediaBreak](mediabreak.md) objects that will be played at a position within the playback of the [MediaPlaybackItem](mediaplaybackitem.md) with which the schedule is associated.
 
 ## -remarks
-To add a [MediaBreak](mediabreak.md) to the **MidrollBreaks** list, use [InsertMidrollBreak](mediabreakschedule_insertmidrollbreak.md).
+To add a [MediaBreak](mediabreak.md) to the **MidrollBreaks** list, use [InsertMidrollBreak](mediabreakschedule_insertmidrollbreak_1567865726.md).
 
 ## -examples
 

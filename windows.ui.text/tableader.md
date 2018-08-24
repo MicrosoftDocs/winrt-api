@@ -37,4 +37,4 @@ An equal sign is used.
 ## -examples
 
 ## -see-also
-[ITextParagraphFormat.GetTab](itextparagraphformat_gettab.md), [ITextParagraphFormat.AddTab](itextparagraphformat_addtab.md)
+[ITextParagraphFormat.GetTab](itextparagraphformat_gettab_939731864.md), [ITextParagraphFormat.AddTab](itextparagraphformat_addtab_1762045005.md)

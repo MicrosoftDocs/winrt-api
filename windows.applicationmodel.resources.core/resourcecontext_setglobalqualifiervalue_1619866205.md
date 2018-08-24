@@ -28,4 +28,4 @@ This method fails with an exception if *key* or *value* are invalid.
 ## -examples
 
 ## -see-also
-[SetGlobalQualifierValue(String, String)](resourcecontext_setglobalqualifiervalue.md)
+[SetGlobalQualifierValue(String, String)](/uwp/api/windows.applicationmodel.resources.core.resourcecontext.setglobalqualifiervalue)

@@ -11,7 +11,7 @@ public string GetDeviceSelector(System.String appName)
 # Windows.Media.DialProtocol.DialDevice.GetDeviceSelector
 
 ## -description
-Returns an AQS filter string to be used with the [Windows.Devices.Enumeration](../windows.devices.enumeration/windows_devices_enumeration.md) APIs (such as the [CreateWatcher](../windows.devices.enumeration/deviceinformation_createwatcher.md) API) for a given Dial app.
+Returns an AQS filter string to be used with the [Windows.Devices.Enumeration](../windows.devices.enumeration/windows_devices_enumeration.md) APIs (such as the [CreateWatcher](/uwp/api/windows.devices.enumeration.deviceinformation.createwatcher) API) for a given Dial app.
 
 ## -parameters
 ### -param appName

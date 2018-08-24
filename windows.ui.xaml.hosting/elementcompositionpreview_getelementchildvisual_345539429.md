@@ -17,7 +17,7 @@ Retrieves a [Windows.UI.Composition.Visual](../windows.ui.composition/visual.md)
 The element to retrieve the [Visual](../windows.ui.composition/visual.md) for.
 
 ## -returns
-A [Windows.UI.Composition.Visual](../windows.ui.composition/visual.md) object previously set by a call to [SetElementChildVisual](elementcompositionpreview_setelementchildvisual.md).
+A [Windows.UI.Composition.Visual](../windows.ui.composition/visual.md) object previously set by a call to [SetElementChildVisual](elementcompositionpreview_setelementchildvisual_151424769.md).
 
 ## -remarks
 

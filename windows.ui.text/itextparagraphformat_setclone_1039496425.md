@@ -22,4 +22,4 @@ Any paragraph formatting values that are undefined in *value* have no effect.
 ## -examples
 
 ## -see-also
-[ITextParagraphFormat.GetClone](itextparagraphformat_getclone.md)
+[ITextParagraphFormat.GetClone](itextparagraphformat_getclone_1591167677.md)

@@ -28,4 +28,4 @@ The work item should run at high priority.
 ## -examples
 
 ## -see-also
-[ThreadPool.RunAsync](threadpool_runasync.md)
+[ThreadPool.RunAsync](/uwp/api/windows.system.threading.threadpool.runasync)

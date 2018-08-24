@@ -10,7 +10,7 @@ virtual protected Windows.Foundation.Rect TransformBoundsCore(Windows.Foundation
 # Windows.UI.Xaml.Media.GeneralTransform.TransformBoundsCore
 
 ## -description
-Provides the means to override the [TransformBounds](generaltransform_transformbounds.md) behavior in a derived transform class.
+Provides the means to override the [TransformBounds](generaltransform_transformbounds_2050801728.md) behavior in a derived transform class.
 
 ## -parameters
 ### -param rect

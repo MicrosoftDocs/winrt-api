@@ -16,7 +16,7 @@ Occurs when the user opens the accounts pane. Handling this event lets the app i
 ## -remarks
 When your app handles this event, populate the provided [AccountsSettingsPaneCommandsRequestedEventArgs](accountssettingspanecommandsrequestedeventargs.md) with your [SettingsCommand](settingscommand.md) objects, your [CredentialCommand](credentialcommand.md) objects, and your [WebAccountCommand](webaccountcommand.md) objects to make them available to the [AccountsSettingsPane](accountssettingspane.md)UI.
 
-If an error occurs while modifying the pane, calls to [Show](accountssettingspane_show.md) will fail silently and the pane will not appear.  
+If an error occurs while modifying the pane, calls to [Show](accountssettingspane_show_392493604.md) will fail silently and the pane will not appear.  
 
 ## -examples
 

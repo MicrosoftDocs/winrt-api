@@ -104,4 +104,4 @@ logoImagePromise.done(function getItemSuccess(logoImage) {
 ```
 
 ## -see-also
-[GetFileAsync](storagefolder_getfileasync.md), [GetFolderAsync](storagefolder_getfolderasync.md), [TryGetItemAsync](storagefolder_trygetitemasync.md)
+[GetFileAsync](storagefolder_getfileasync_703762627.md), [GetFolderAsync](storagefolder_getfolderasync_761626819.md), [TryGetItemAsync](storagefolder_trygetitemasync_1863649689.md)

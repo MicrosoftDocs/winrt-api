@@ -20,4 +20,4 @@ The default character formatting attributes.
 ## -examples
 
 ## -see-also
-[ITextDocument.SetDefaultCharacterFormat](itextdocument_setdefaultcharacterformat.md)
+[ITextDocument.SetDefaultCharacterFormat](itextdocument_setdefaultcharacterformat_6295136.md)

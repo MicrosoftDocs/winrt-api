@@ -17,7 +17,7 @@ Sets the maximum length of an edge for which the triangles that share said edge 
 Maximum length of an edge for which the triangles that share said edge can be merged.
 
 ## -remarks
-The units of length are derived from the [Unit](printing3dmodel_unit.md) property in the [Printing3DModel](printing3dmodel.md) object from which [TryReduceFacesAsync](printing3dmodel_tryreducefacesasync.md) is called.
+The units of length are derived from the [Unit](printing3dmodel_unit.md) property in the [Printing3DModel](printing3dmodel.md) object from which [TryReduceFacesAsync](/uwp/api/windows.graphics.printing3d.printing3dmodel.tryreducefacesasync) is called.
 
 ## -examples
 

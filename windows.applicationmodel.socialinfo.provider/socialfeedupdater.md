@@ -13,7 +13,7 @@ public class SocialFeedUpdater : Windows.ApplicationModel.SocialInfo.Provider.IS
 Represents a task the can be used to update a social media feed.
 
 ## -remarks
-Call [SocialInfoProviderManager.CreateSocialFeedUpdaterAsync](socialinfoprovidermanager_createsocialfeedupdaterasync.md) to get an instance of this class.
+Call [SocialInfoProviderManager.CreateSocialFeedUpdaterAsync](socialinfoprovidermanager_createsocialfeedupdaterasync_990295011.md) to get an instance of this class.
 
 ## -examples
 

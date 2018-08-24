@@ -21,4 +21,4 @@ The default paragraph formatting attributes.
 ## -examples
 
 ## -see-also
-[ITextDocument.GetDefaultParagraphFormat](itextdocument_getdefaultparagraphformat.md)
+[ITextDocument.GetDefaultParagraphFormat](itextdocument_getdefaultparagraphformat_1054074895.md)

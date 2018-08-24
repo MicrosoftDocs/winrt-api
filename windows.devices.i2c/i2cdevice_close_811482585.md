@@ -18,4 +18,4 @@ You cannot call [Close](../windows.foundation/iclosable_close_811482585.md) meth
 ## -examples
 
 ## -see-also
-[I2cDevice.FromIdAsync](i2cdevice_fromidasync.md)
+[I2cDevice.FromIdAsync](i2cdevice_fromidasync_1693757112.md)

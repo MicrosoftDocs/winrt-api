@@ -28,4 +28,4 @@ Match case; that is, a case-sensitive search.
 ## -examples
 
 ## -see-also
-[ITextRange.FindText](itextrange_findtext.md)
+[ITextRange.FindText](itextrange_findtext_105657918.md)

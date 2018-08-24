@@ -30,4 +30,4 @@ The start position does not change if *unit* is set to **Character**.
 ## -examples
 
 ## -see-also
-[ITextRange.EndOf](itextrange_endof.md)
+[ITextRange.EndOf](itextrange_endof_428994747.md)

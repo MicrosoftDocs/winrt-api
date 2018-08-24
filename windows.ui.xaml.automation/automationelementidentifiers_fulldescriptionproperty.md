@@ -16,7 +16,7 @@ Identifies the full description automation property.
 The automation property identifier.
 
 ## -remarks
-A localized string that describes the visual appearance or contents of something such as an image or image control is returned by the [GetFullDescription](automationproperties_getfulldescription.md) method.
+A localized string that describes the visual appearance or contents of something such as an image or image control is returned by the [GetFullDescription](automationproperties_getfulldescription_437649034.md) method.
 
 ## -examples
 

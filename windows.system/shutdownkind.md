@@ -25,4 +25,4 @@ Shuts down the fixed-purpose device, then restarts the device.
 ## -examples
 
 ## -see-also
-[ShutdownManager.BeginShutdown](shutdownmanager_beginshutdown.md)
+[ShutdownManager.BeginShutdown](shutdownmanager_beginshutdown_1111263285.md)

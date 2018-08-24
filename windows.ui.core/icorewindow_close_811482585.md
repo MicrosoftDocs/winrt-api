@@ -13,7 +13,7 @@ public void Close()
 Specifies the method that closes the window and exits the message loop.
 
 ## -remarks
-This method also causes the [ProcessEvents](coredispatcher_processevents.md) operation to exit the event processing loop.
+This method also causes the [ProcessEvents](coredispatcher_processevents_1611214514.md) operation to exit the event processing loop.
 
 ## -examples
 

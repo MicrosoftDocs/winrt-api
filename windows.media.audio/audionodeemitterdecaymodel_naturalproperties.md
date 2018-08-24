@@ -16,7 +16,7 @@ Gets the properties of a natural [AudioNodeEmitterDecayModel](audionodeemitterde
 The properties of a natural decay model.
 
 ## -remarks
-Set the properties of a natural decay model by calling [CreateNatural](audionodeemitterdecaymodel_createnatural.md).
+Set the properties of a natural decay model by calling [CreateNatural](audionodeemitterdecaymodel_createnatural_887095524.md).
 
 ## -examples
 

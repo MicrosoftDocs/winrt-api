@@ -16,7 +16,7 @@ Gets the identifier for the timed metadata track.
 The identifier for the track.
 
 ## -remarks
-You can specify a value for the **Id** property in the [TimedMetadataTrack constructor](timedmetadatatrack_timedmetadatatrack.md).
+You can specify a value for the **Id** property in the [TimedMetadataTrack constructor](timedmetadatatrack_timedmetadatatrack_2131229248.md).
 
 ## -examples
 

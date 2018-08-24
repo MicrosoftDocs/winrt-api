@@ -14,7 +14,7 @@ public class NetworkOperatorTetheringClient : Windows.Networking.NetworkOperator
 Contains details about a tethering client.
 
 ## -remarks
-Your code does not instantiate this class directly. Instead, use [NetworkOperatorTetheringManager.GetTetheringClients](networkoperatortetheringmanager_gettetheringclients.md) to retrieve a list of instances initialized for the current tethering clients.
+Your code does not instantiate this class directly. Instead, use [NetworkOperatorTetheringManager.GetTetheringClients](networkoperatortetheringmanager_gettetheringclients_34653131.md) to retrieve a list of instances initialized for the current tethering clients.
 
 ## -examples
 

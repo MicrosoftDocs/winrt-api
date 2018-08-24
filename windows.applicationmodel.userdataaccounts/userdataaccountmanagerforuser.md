@@ -13,7 +13,7 @@ public class UserDataAccountManagerForUser : Windows.ApplicationModel.UserDataAc
 Represents a user data account manager for a specific user.
 
 ## -remarks
-Call the [UserDataAccountManager.GetForUser](userdataaccountmanager_getforuser.md) method to get an instance of this class.
+Call the [UserDataAccountManager.GetForUser](userdataaccountmanager_getforuser_2058550280.md) method to get an instance of this class.
 
 ## -examples
 

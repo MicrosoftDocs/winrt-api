@@ -34,4 +34,4 @@ You don't have permission to access the contents of the current folder.
 ## -examples
 
 ## -see-also
-[GetItemsAsync](storagefolder_getitemsasync_1518547059.md), [GetFilesAsync](storagefolder_getfilesasync.md), [GetFoldersAsync](storagefolder_getfoldersasync.md)
+[GetItemsAsync](storagefolder_getitemsasync_1518547059.md), [GetFilesAsync](/uwp/api/windows.storage.storagefolder.getfilesasync), [GetFoldersAsync](/uwp/api/windows.storage.storagefolder.getfoldersasync)

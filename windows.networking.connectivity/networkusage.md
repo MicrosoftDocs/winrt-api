@@ -11,7 +11,7 @@ public class NetworkUsage : Windows.Networking.Connectivity.INetworkUsage
 # Windows.Networking.Connectivity.NetworkUsage
 
 ## -description
-Represents network usage statistics returned by the [ConnectionProfile](connectionprofile.md).[GetNetworkUsageAsync](connectionprofile_getnetworkusageasync.md) method.
+Represents network usage statistics returned by the [ConnectionProfile](connectionprofile.md).[GetNetworkUsageAsync](connectionprofile_getnetworkusageasync_665790436.md) method.
 
 ## -remarks
 

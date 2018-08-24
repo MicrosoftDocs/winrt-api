@@ -25,4 +25,4 @@ Use [UnescapeComponent](uri_unescapecomponent_836887596.md) as a utility if you 
 ## -examples
 
 ## -see-also
-[EscapeComponent](uri_escapecomponent.md)
+[EscapeComponent](uri_escapecomponent_580804330.md)

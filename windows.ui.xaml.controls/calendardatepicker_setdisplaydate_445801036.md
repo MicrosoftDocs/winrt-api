@@ -22,4 +22,4 @@ The date to show.
 ## -examples
 
 ## -see-also
-[CalendarView.SetDisplayDate](calendarview_setdisplaydate.md)
+[CalendarView.SetDisplayDate](calendarview_setdisplaydate_445801036.md)

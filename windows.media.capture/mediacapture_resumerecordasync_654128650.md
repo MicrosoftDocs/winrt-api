@@ -16,7 +16,7 @@ Resumes a paused recording operation.
 An asynchronous operation.
 
 ## -remarks
-Pause recording by calling [PauseRecordAsync](mediacapture_pauserecordasync.md).
+Pause recording by calling [PauseRecordAsync](mediacapture_pauserecordasync_1650376226.md).
 
 ## -examples
 

@@ -13,7 +13,7 @@ public class StatusBar : Windows.UI.ViewManagement.IStatusBar
 Provides methods and properties for interacting with the status bar assocaited with an app view (window). The status bar is a user experience that the system presents on the top edge (typically) of the screen that allows users to control behavior of the device and can present progres.
 
 ## -remarks
-To obtain an object of this type, call [StatusBar.GetForCurrentView](statusbar_getforcurrentview.md).
+To obtain an object of this type, call [StatusBar.GetForCurrentView](statusbar_getforcurrentview_1363600702.md).
 
 ## -examples
 

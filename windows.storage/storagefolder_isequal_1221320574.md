@@ -27,4 +27,4 @@ This method compares the [Path](storagefolder_path.md) property of both items to
 ## -examples
 
 ## -see-also
-[StorageFile.IsEqual](storagefile_isequal.md)
+[StorageFile.IsEqual](storagefile_isequal_1221320574.md)

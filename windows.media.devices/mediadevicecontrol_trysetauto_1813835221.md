@@ -14,7 +14,7 @@ Enables or disables automatic adjustment of the camera setting.
 
 ## -parameters
 ### -param value
-True to enable automatic adjustment; or false to disable automatic adjustment. If false, call [TrySetValue](mediadevicecontrol_trysetvalue.md) to adjust the setting.
+True to enable automatic adjustment; or false to disable automatic adjustment. If false, call [TrySetValue](mediadevicecontrol_trysetvalue_1874772851.md) to adjust the setting.
 
 ## -returns
 Returns true if the method succeeds, or false otherwise.

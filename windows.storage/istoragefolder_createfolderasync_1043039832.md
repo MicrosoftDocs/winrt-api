@@ -29,4 +29,4 @@ When this method completes, it returns the new folder as a [StorageFolder](stora
 ## -examples
 
 ## -see-also
-[CreateFolderAsync(String)](istoragefolder_createfolderasync_660577586.md), [StorageFolder.CreateFolderAsync](storagefolder_createfolderasync.md)
+[CreateFolderAsync(String)](istoragefolder_createfolderasync_660577586.md), [StorageFolder.CreateFolderAsync](/uwp/api/windows.storage.storagefolder.createfolderasync)

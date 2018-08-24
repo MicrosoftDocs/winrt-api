@@ -13,7 +13,7 @@ public ContactPicker()
 Creates a new instance of the [ContactPicker](contactpicker.md) class.
 
 ## -remarks
-To select contacts, create an instance of this class and then use either the [PickSingleContactAsync](contactpicker_picksinglecontactasync.md) or [PickMultipleContactsAsync](contactpicker_pickmultiplecontactsasync.md) method.
+To select contacts, create an instance of this class and then use either the [PickSingleContactAsync](contactpicker_picksinglecontactasync_2033050338.md) or [PickMultipleContactsAsync](contactpicker_pickmultiplecontactsasync_1630502573.md) method.
 
 ## -examples
 

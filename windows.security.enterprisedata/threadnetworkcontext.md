@@ -23,4 +23,4 @@ A protected network context for an enterprise identity. The creation of the cont
 ## -examples
 
 ## -see-also
-[IClosable](../windows.foundation/iclosable.md), [ProtectionPolicyManager.CreateCurrentThreadNetworkContext](protectionpolicymanager_createcurrentthreadnetworkcontext.md)
+[IClosable](../windows.foundation/iclosable.md), [ProtectionPolicyManager.CreateCurrentThreadNetworkContext](protectionpolicymanager_createcurrentthreadnetworkcontext_620400136.md)

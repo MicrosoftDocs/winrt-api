@@ -25,4 +25,4 @@ A fast speed of 400 kHz.
 ## -examples
 
 ## -see-also
-[I2cConnectionSettings.BusSpeed](i2cconnectionsettings_busspeed.md), [I2cDevice.FromIdAsync](i2cdevice_fromidasync.md)
+[I2cConnectionSettings.BusSpeed](i2cconnectionsettings_busspeed.md), [I2cDevice.FromIdAsync](i2cdevice_fromidasync_1693757112.md)

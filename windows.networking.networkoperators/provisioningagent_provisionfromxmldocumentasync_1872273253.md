@@ -30,7 +30,7 @@ An asynchronous handler to start the provisioning attempt and track its completi
 ## -remarks
 You can retrieve the results of the provisioning attempt using the [ProvisionResultsXml](provisionfromxmldocumentresults_provisionresultsxml.md) method when the provisioning attempt has completed.
 
-[ProvisionFromXmlDocumentAsync](provisioningagent_provisionfromxmldocumentasync.md) returns critical errors as HRESULTs that are then translated into exceptions. The most common HRESULTs returned are listed below:<table>
+[ProvisionFromXmlDocumentAsync](provisioningagent_provisionfromxmldocumentasync_1872273253.md) returns critical errors as HRESULTs that are then translated into exceptions. The most common HRESULTs returned are listed below:<table>
    <tr><th>Name</th><th>HRESULT</th><th>Description</th></tr>
    <tr><td>E_ACCESSDENIED</td><td>0x80070005L</td><td>Caller is an operator app, but attempted to provision a different operator’s profiles</td></tr>
    <tr><td>PROVCORE_E_XML_MALFORMED</td><td>0x82170001</td><td>Provisioning file is not well-formed XML</td></tr>

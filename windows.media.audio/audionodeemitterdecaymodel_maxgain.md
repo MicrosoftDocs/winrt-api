@@ -16,7 +16,7 @@ Gets the maximum gain applied to the signal as a result of the decay model.
 The maximum gain applied to the signal as a result of the decay model.
 
 ## -remarks
-Specify the maximum gain of an [AudioNodeEmitterDecayModel](audionodeemitterdecaymodel.md) by calling [CreateCustom](audionodeemitterdecaymodel_createcustom.md) or [CreateNatural](audionodeemitterdecaymodel_createnatural.md).
+Specify the maximum gain of an [AudioNodeEmitterDecayModel](audionodeemitterdecaymodel.md) by calling [CreateCustom](audionodeemitterdecaymodel_createcustom_675347716.md) or [CreateNatural](audionodeemitterdecaymodel_createnatural_887095524.md).
 
 ## -examples
 

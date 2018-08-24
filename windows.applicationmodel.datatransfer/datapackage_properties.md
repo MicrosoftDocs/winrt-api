@@ -18,7 +18,7 @@ A collection of properties that describe the data contained in a [DataPackage.](
 ## -remarks
 In addition to the content being shared, each instance of a [DataPackage](datapackage.md) object supports a set of properties. Target apps can use these properties to learn more about the content of the [DataPackage](datapackage.md). Examples of common properties include [thumbnail](datapackagepropertyset_thumbnail.md) images, [title](datapackagepropertyset_title.md), and [file types](datapackagepropertyset_filetypes.md).
 
-This property contains an instance of the [DataPackagePropertySet](datapackagepropertyset.md) class. This class supports several properties by default. This class also supports custom properties through its [Insert](datapackagepropertyset_insert.md) and [Lookup](datapackagepropertyset_lookup.md) methods.
+This property contains an instance of the [DataPackagePropertySet](datapackagepropertyset.md) class. This class supports several properties by default. This class also supports custom properties through its [Insert](datapackagepropertyset_insert_2123640444.md) and [Lookup](datapackagepropertyset_lookup_711408188.md) methods.
 
 ## -examples
 

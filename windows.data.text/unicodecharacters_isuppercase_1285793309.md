@@ -26,4 +26,4 @@ A Unicode character. This must be in the proper range: 0 &lt;= *codepoint* &lt;=
 ## -examples
 
 ## -see-also
-[GetCodepointFromSurrogatePair](unicodecharacters_getcodepointfromsurrogatepair.md)
+[GetCodepointFromSurrogatePair](unicodecharacters_getcodepointfromsurrogatepair_1886831018.md)

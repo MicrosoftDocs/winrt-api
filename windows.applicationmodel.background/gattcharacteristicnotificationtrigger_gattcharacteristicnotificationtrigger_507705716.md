@@ -21,9 +21,9 @@ To register for notifications when the value of a GATT characteristic changes, a
 
 1. Create an instance of the [GattCharacteristicNotificationTrigger](gattcharacteristicnotificationtrigger.md) object.
 
-2. Create an instance of the [BackgroundTaskBuilder](backgroundtaskbuilder.md) object, and call [SetTrigger](backgroundtaskbuilder_settrigger.md) to attach the GattCharacteristicNotificationTrigger.
+2. Create an instance of the [BackgroundTaskBuilder](backgroundtaskbuilder.md) object, and call [SetTrigger](backgroundtaskbuilder_settrigger_2125876510.md) to attach the GattCharacteristicNotificationTrigger.
 
-3. Call [Register](backgroundtaskbuilder_register.md) on the BackgroundTaskBuilder object.
+3. Call [Register](backgroundtaskbuilder_register_292201929.md) on the BackgroundTaskBuilder object.
 
 Note that this can only be done for Bluetooth LE devices, and only for characteristics for which the device is willing to generate notifications or indications. The system will attempt to keep the specified Bluetooth LE device in a connected state as long as at least one of the notification triggers is outstanding.
 
