@@ -15,7 +15,7 @@ Represents a frame from a [MediaFrameSource](mediaframesource.md) that provides 
 ## -remarks
 Get an instance of this class by accessing the [BufferMediaFrame](buffermediaframe.md) property of a [MediaFrameReference](mediaframereference.md) object that was obtained from a media frame source. The **BufferMediaFrame** property of a **MediaFrameReference** will always be non-null. This is not true for other frame types, such as [VideoMediaFrame](videomediaframe.md), which will be null if the buffer doesn't contain 2D image data or contains data in an unknown format.
 
-A **BufferMediaFrame** represents the 1D buffer. If the underlying sample returned by the pipeline contains non-consecutive data, the system uses [IMFMediaBuffer::Lock](https://msdn.microsoft.com/en-us/library/windows/desktop/bb970366(v=vs.85).aspx) to copy the 2D buffer into the 1D buffer. For this reason, it is recommended that you use [BufferMediaFrame](buffermediaframe.md) for arbitrary buffers, such as skeleton or body tracking data, but that you use [VideoMediaFrame](videomediaframe.md) for 2D buffers to avoid extra copy operations.
+A **BufferMediaFrame** represents the 1D buffer. If the underlying sample returned by the pipeline contains non-consecutive data, the system uses [IMFMediaBuffer.Lock](https://msdn.microsoft.com/en-us/library/windows/desktop/bb970366(v=vs.85).aspx) to copy the 2D buffer into the 1D buffer. For this reason, it is recommended that you use [BufferMediaFrame](buffermediaframe.md) for arbitrary buffers, such as skeleton or body tracking data, but that you use [VideoMediaFrame](videomediaframe.md) for 2D buffers to avoid extra copy operations.
 
 
 

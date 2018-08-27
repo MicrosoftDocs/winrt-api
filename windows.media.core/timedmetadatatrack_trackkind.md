@@ -10,7 +10,7 @@ public Windows.Media.Core.MediaTrackKind TrackKind { get; }
 # Windows.Media.Core.TimedMetadataTrack.TrackKind
 
 ## -description
-Gets a value specifying the type of the media track. For [TimedMetadataTrack](timedmetadatatrack.md) this value will always be [MediaTrackKind::TimedMetadata](mediatrackkind.md).
+Gets a value specifying the type of the media track. For [TimedMetadataTrack](timedmetadatatrack.md) this value will always be [MediaTrackKind.TimedMetadata](mediatrackkind.md).
 
 ## -property-value
 A value specifying the type of the media track.

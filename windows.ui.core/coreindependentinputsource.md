@@ -13,7 +13,7 @@ public class CoreIndependentInputSource : Windows.UI.Core.ICoreInputSourceBase, 
 Surfaces core input API for interoperation scenarios.
 
 ## -remarks
-Create an instance of this class by calling [SwapChainBackgroundPanel::CreateCoreIndependentInputSource](../windows.ui.xaml.controls/swapchainbackgroundpanel_createcoreindependentinputsource_467679991.md) or [SwapChainPanel::CreateCoreIndependentInputSource](../windows.ui.xaml.controls/swapchainpanel_createcoreindependentinputsource_467679991.md).
+Create an instance of this class by calling [SwapChainBackgroundPanel.CreateCoreIndependentInputSource](../windows.ui.xaml.controls/swapchainbackgroundpanel_createcoreindependentinputsource_467679991.md) or [SwapChainPanel.CreateCoreIndependentInputSource](../windows.ui.xaml.controls/swapchainpanel_createcoreindependentinputsource_467679991.md).
 
 The [CoreIndependentInputSource](coreindependentinputsource.md) class enables an app to handle input and rendering independent of the XAML UI thread, because you're intentionally providing the input processing logic on a background thread. You must call [CreateCoreIndependentInputSource](../windows.ui.xaml.controls/swapchainpanel_createcoreindependentinputsource_467679991.md) from a non-UI thread, otherwise the [CreateCoreIndependentInputSource](../windows.ui.xaml.controls/swapchainpanel_createcoreindependentinputsource_467679991.md) method call will fail.
 

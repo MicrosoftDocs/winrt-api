@@ -40,4 +40,4 @@ Low power consumption and high picture quality are prioritized.
 ## -examples
 
 ## -see-also
-[VideoDeviceController::DesiredOptimization](videodevicecontroller_desiredoptimization.md)
+[VideoDeviceController.DesiredOptimization](videodevicecontroller_desiredoptimization.md)

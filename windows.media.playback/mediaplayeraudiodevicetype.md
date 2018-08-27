@@ -10,7 +10,7 @@ public enum Windows.Media.Playback.MediaPlayerAudioDeviceType : int
 # MediaPlayerAudioDeviceType
 
 ## -description
-Describes the primary usage of the device that is being used to play back audio. This value is used by [MediaPlayer::AudioDeviceType](mediaplayer_audiodevicetype.md).
+Describes the primary usage of the device that is being used to play back audio. This value is used by [MediaPlayer.AudioDeviceType](mediaplayer_audiodevicetype.md).
 
 ## -enum-fields
 ### -field Console:0

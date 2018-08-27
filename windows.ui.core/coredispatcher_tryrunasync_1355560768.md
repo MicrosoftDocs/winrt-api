@@ -14,7 +14,7 @@ Attempts to schedule the provided callback on the UI thread from a worker thread
 
 ## -parameters
 ### -param priority
-Specifies the priority for event dispatch. Set this to [CoreDispatcherPriority::Normal](coredispatcherpriority.md).
+Specifies the priority for event dispatch. Set this to [CoreDispatcherPriority.Normal](coredispatcherpriority.md).
 
 ### -param agileCallback
 The callback on which the dispatcher returns when the event is dispatched.

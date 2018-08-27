@@ -17,4 +17,4 @@ Defines the style of the rendered text in a [TimedTextCue](timedtextcue.md). You
 ## -examples
 
 ## -see-also
-[ITimedTextStyle](itimedtextstyle.md), [TimedTextLine](timedtextline.md), [TimedTextLine::Subformats](timedtextline_subformats.md)
+[ITimedTextStyle](itimedtextstyle.md), [TimedTextLine](timedtextline.md), [TimedTextLine.Subformats](timedtextline_subformats.md)

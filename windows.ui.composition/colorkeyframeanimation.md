@@ -18,7 +18,7 @@ The [ColorKeyFrameAnimation](colorkeyframeanimation.md) class is one of the supp
 
 Use the [CompostionObject.StartAnimation](compositionobject_startanimation_709050842.md) and [CompostionObject.StopAnimation](compositionobject_stopanimation_1075337060.md) methods to start and stop the animation.
 
-An animation is associated with an object's property by calling [CompositionObject::StartAnimation](compositionobject_startanimation_709050842.md) and specifying the property name and the animation. See the remarks section of [CompositionObject::StartAnimation](compositionobject_startanimation_709050842.md) for a list of animatable properties.
+An animation is associated with an object's property by calling [CompositionObject.StartAnimation](compositionobject_startanimation_709050842.md) and specifying the property name and the animation. See the remarks section of [CompositionObject.StartAnimation](compositionobject_startanimation_709050842.md) for a list of animatable properties.
 
 ## -examples
 

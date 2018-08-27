@@ -26,7 +26,7 @@ An object that contains the image.
 > [!IMPORTANT]
 > The [UserInformation](userinformation.md) class is not supported on Windows 10 or later. Use the [User](../windows.system/user.md) class instead. See Remarks in the [UserInformation](userinformation.md) class documentation.
 
-Access to the account picture can be blocked by privacy settings (for example, if the [UserInformation::NameAccessAllowed](userinformation_nameaccessallowed.md) property is false). If access is blocked, this method returns a null value.
+Access to the account picture can be blocked by privacy settings (for example, if the [UserInformation.NameAccessAllowed](userinformation_nameaccessallowed.md) property is false). If access is blocked, this method returns a null value.
 
 This method does not throw an exception.
 

@@ -23,4 +23,4 @@ Object that manages the asynchronous retrieval of the color profile.
 ## -examples
 
 ## -see-also
-[DisplayProperties::ColorProfileChanged](displayproperties_colorprofilechanged.md)
+[DisplayProperties.ColorProfileChanged](displayproperties_colorprofilechanged.md)

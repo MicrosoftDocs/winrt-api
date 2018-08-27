@@ -15,7 +15,7 @@ Represents a node in an audio graph node that inputs audio data into the graph f
 
 ## -remarks
 
-Get an instance of this class by calling [AudioGraph::CreateFileInputNodeAsync](audiograph_createfileinputnodeasync_152724062.md) and then accessing the [CreateFileInputNodeResult::FileInputNode](createaudiofileinputnoderesult_fileinputnode.md) property.
+Get an instance of this class by calling [AudioGraph.CreateFileInputNodeAsync](audiograph_createfileinputnodeasync_152724062.md) and then accessing the [CreateFileInputNodeResult.FileInputNode](createaudiofileinputnoderesult_fileinputnode.md) property.
 
 The [MediaSourceAudioInputNode](mediasourceaudioinputnode.md) is another way of inputing audio data from a file into a graph. The [MediaSource](../windows.media.core/mediasource.md) class also allows you to use other sources of audio, such as a network stream.
 

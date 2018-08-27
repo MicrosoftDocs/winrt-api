@@ -13,7 +13,7 @@ public class AudioBuffer : Windows.Foundation.IClosable, Windows.Foundation.IMem
 Represents a buffer containing audio data.
 
 ## -remarks
-Get an instance of this class by calling [AudioFrame::LockBuffer](audioframe_lockbuffer_1248676457.md).
+Get an instance of this class by calling [AudioFrame.LockBuffer](audioframe_lockbuffer_1248676457.md).
 
 ## -examples
 

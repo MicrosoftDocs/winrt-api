@@ -21,9 +21,9 @@ For both [LocalSettings](applicationdata_localsettings.md) and [RoamingSettings]
 The [Windows Runtime data types](http://msdn.microsoft.com/library/b5735851-ec07-48c1-92b4-ca9f768096f6) are supported for app settings.
 
 ## -examples
-Use the [LocalSettings | localSettings](applicationdata_localsettings.md) property to get the settings in an [ApplicationDataContainer](applicationdatacontainer.md) object. Use the [ApplicationDataContainer.Values | values](applicationdatacontainer_values.md) property to access the settings in the `localSettings` container. This example creates and reads a setting named `exampleSetting`.
+Use the [LocalSettings](applicationdata_localsettings.md) property to get the settings in an [ApplicationDataContainer](applicationdatacontainer.md) object. Use the [ApplicationDataContainer.Values](applicationdatacontainer_values.md) property to access the settings in the `localSettings` container. This example creates and reads a setting named `exampleSetting`.
 
-Call the [ApplicationDataContainerSettings.Remove | remove](applicationdatacontainersettings_remove_1498489487.md) method to delete the `exampleSetting` setting when you have finished with it.
+Call the [ApplicationDataContainerSettings.Remove](applicationdatacontainersettings_remove_1498489487.md) method to delete the `exampleSetting` setting when you have finished with it.
 
 Note that to access the [RoamingSettings](applicationdata_roamingsettings.md), use the same process outlined in the example, except change the occurrences of `localSettings` to `roamingSettings`
 
