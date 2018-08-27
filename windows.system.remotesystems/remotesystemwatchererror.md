@@ -25,7 +25,6 @@ The process stopped because the user's cross-device settings don't allow discove
 ## -remarks
 
 ## -see-also
-**[ErrorOccurred](remotesystemwatcher_ErrorOccurred.md)** event
 
 ## -examples
 
