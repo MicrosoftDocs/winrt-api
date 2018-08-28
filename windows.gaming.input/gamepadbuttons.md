@@ -73,6 +73,15 @@ The fourth paddle.
 
 ## -remarks
 
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | Paddle1 |
+| 1607 | 14393 | Paddle2 |
+| 1607 | 14393 | Paddle3 |
+| 1607 | 14393 | Paddle4 |
+
 ## -examples
 
 ## -see-also

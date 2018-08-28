@@ -63,6 +63,13 @@ Current app modifications folder.
 
 ## -remarks
 
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | AllAppMods |
+| 1703 | 15063 | CurrentAppMods |
+
 ## -examples
 
 ## -see-also

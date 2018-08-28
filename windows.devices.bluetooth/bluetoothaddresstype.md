@@ -26,6 +26,12 @@ Random address.
 
 ## -remarks
 
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | Unspecified |
+
 ## -examples
 
 ## -see-also

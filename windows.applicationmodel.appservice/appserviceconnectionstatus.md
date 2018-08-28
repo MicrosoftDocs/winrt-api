@@ -39,8 +39,14 @@ The user for your app is not authorized to connect to the service.
 
 
 ## -remarks
-> [!NOTE]
-> **RemoteSystemUnavailable**, **RemoteSystemNotSupportedByApp**, and **NotAuthorized** were introduced in Windows 10, version 1607
+
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | NotAuthorized |
+| 1607 | 14393 | RemoteSystemNotSupportedByApp |
+| 1607 | 14393 | RemoteSystemUnavailable |
 
 ## -examples
 

@@ -46,6 +46,13 @@ The beginning of the text is aligned to the edge of the container.
 ## -remarks
 **DetectFromContent** is available starting with Windows 10. When the **TextAlignment** property is set to **DetectFromContent**, alignment is inferred from the text content of the control. For example, English text is left aligned, and Arabic text is right aligned.
 
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1709 | 16299 | End |
+| 1709 | 16299 | Start |
+
 ## -examples
 
 ## -see-also

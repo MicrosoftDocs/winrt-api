@@ -621,6 +621,15 @@ If you would like to use a glyph from the **Segoe MDL2 Assets** font that is not
 > **Universal Windows 8 app**
 > For Universal Windows 8 app, the standard glyphs are provided by the Segoe UI Symbol font. See [AppBar button style images](http://msdn.microsoft.com/library/bb8bfc26-5c83-430d-9aa1-3e4bdd1e0ea5) to see these glyphs.
 
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1709 | 16299 | GlobalNavigationButton |
+| 1709 | 16299 | Print |
+| 1709 | 16299 | Share |
+| 1709 | 16299 | XboxOneConsole |
+
 ## -examples
 
 ## -see-also

@@ -31,6 +31,13 @@ Use the ARGB color space for interpolation.
 
 ## -remarks
 
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1709 | 16299 | HslLinear |
+| 1709 | 16299 | RgbLinear |
+
 ## -examples
 
 ## -see-also

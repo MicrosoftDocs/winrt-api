@@ -90,6 +90,23 @@ The values in [AnnotationType](annotationtype.md) parallel the values in the [An
 
 <!--The descriptions in this topic are adapted or taken directly from http://msdn.microsoft.com/en-us/library/windows/desktop/hh448743(v=vs.85).aspx-->
 
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | AdvancedProofingIssue |
+| 1607 | 14393 | Author |
+| 1607 | 14393 | CircularReferenceError |
+| 1607 | 14393 | ConflictingChange |
+| 1607 | 14393 | DataValidationError |
+| 1607 | 14393 | DeletionChange |
+| 1607 | 14393 | EditingLockedChange |
+| 1607 | 14393 | ExternalChange |
+| 1607 | 14393 | FormatChange |
+| 1607 | 14393 | InsertionChange |
+| 1607 | 14393 | MoveChange |
+| 1607 | 14393 | UnsyncedChange |
+
 ## -examples
 
 ## -see-also

@@ -36,6 +36,12 @@ An embedded SE smart card reader.
 
 ## -remarks
 
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | EmbeddedSE |
+
 ## -examples
 
 ## -see-also

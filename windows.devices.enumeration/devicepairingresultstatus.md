@@ -76,6 +76,17 @@ An unknown failure occurred.
 
 ## -remarks
 
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1511 | 10586 | Failed |
+| 1511 | 10586 | OperationAlreadyInProgress |
+| 1511 | 10586 | PairingCanceled |
+| 1511 | 10586 | RejectedByHandler |
+| 1511 | 10586 | RemoteDeviceHasAssociation |
+| 1511 | 10586 | RequiredHandlerNotRegistered |
+
 ## -examples
 
 ## -see-also

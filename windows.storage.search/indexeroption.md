@@ -27,6 +27,12 @@ Only returns the properties specified in [QueryOptions.SetPropertyPrefetch](quer
 
 ## -remarks
 
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1709 | 16299 | OnlyUseIndexerAndOptimizeForIndexedProperties |
+
 ## -examples
 
 ## -see-also
