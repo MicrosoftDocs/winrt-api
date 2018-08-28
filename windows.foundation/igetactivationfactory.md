@@ -24,4 +24,4 @@ The implementation of a type that supports this interface must have a method cal
 ## -examples
 
 ## -see-also
-[CoreApplication::RunWithActivationFactories](../windows.applicationmodel.core/coreapplication_runwithactivationfactories_672867736.md)
+[CoreApplication.RunWithActivationFactories](../windows.applicationmodel.core/coreapplication_runwithactivationfactories_672867736.md)

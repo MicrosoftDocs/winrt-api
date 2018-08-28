@@ -20,4 +20,4 @@ Detailed information about the closure.
 ## -examples
 
 ## -see-also
-[WebSocketClosedEventArgs.Code | code](websocketclosedeventargs_code.md)
+[WebSocketClosedEventArgs.Code](websocketclosedeventargs_code.md)

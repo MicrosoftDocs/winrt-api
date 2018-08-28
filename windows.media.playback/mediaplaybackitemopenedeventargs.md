@@ -10,7 +10,7 @@ public class MediaPlaybackItemOpenedEventArgs : Windows.Media.Playback.IMediaPla
 # Windows.Media.Playback.MediaPlaybackItemOpenedEventArgs
 
 ## -description
-Provides data for the [MediaPlaybackList::ItemOpened](mediaplaybacklist_itemopened.md) event.
+Provides data for the [MediaPlaybackList.ItemOpened](mediaplaybacklist_itemopened.md) event.
 
 ## -remarks
 Get an instance of this class by handling the [MediaPlaybackList.ItemOpened](mediaplaybacklist_itemopened.md) event.

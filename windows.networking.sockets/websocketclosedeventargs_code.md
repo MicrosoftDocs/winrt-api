@@ -27,4 +27,4 @@ Status codes in the range 4000-4999 are reserved for private use and cannot be r
 ## -examples
 
 ## -see-also
-[WebSocketClosedEventArgs.Reason | reason](websocketclosedeventargs_reason.md)
+[WebSocketClosedEventArgs.Reason](websocketclosedeventargs_reason.md)

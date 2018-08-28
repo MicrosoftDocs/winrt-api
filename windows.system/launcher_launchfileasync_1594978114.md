@@ -29,14 +29,14 @@ This API also imposes several restrictions on what types of files it can launch.
 
 When the launch fails for any of the above reasons, the API succeeds and returns FALSE from its asynchronous operation. Since it has no ability to query whether the above restrictions apply to the current launch, the calling app should not assume that the launch succeeded, and should provide fallback mechanism in case it failed. A possible solution would be to ask the user to save the file and direct the user to open it in the desktop. 
 
-To enable the user to choose an app instead of launching the default app, set the [LauncherOptions.DisplayApplicationPicker | displayApplicationPicker](launcheroptions_displayapplicationpicker.md) property.
+To enable the user to choose an app instead of launching the default app, set the [LauncherOptions.DisplayApplicationPicker](launcheroptions_displayapplicationpicker.md) property.
 
-To display a warning that the file is potentially unsafe, set the [LauncherOptions.TreatAsUntrusted | treatAsUntrusted](launcheroptions_treatasuntrusted.md) property.
+To display a warning that the file is potentially unsafe, set the [LauncherOptions.TreatAsUntrusted](launcheroptions_treatasuntrusted.md) property.
 
 The file is passed to the associated app. If the associated app is a desktop app, the file is passed using shell execution mechanisms.
 
 ## -examples
-This example uses [LaunchFileAsync(IStorageFile) | launchFileAsync(IStorageFile)](launcher_launchfileasync_1594978114.md) to launch a file contained in the app package.
+This example uses [LaunchFileAsync(IStorageFile)](launcher_launchfileasync_1594978114.md) to launch a file contained in the app package.
 
 ```csharp
 async void DefaultLaunch()

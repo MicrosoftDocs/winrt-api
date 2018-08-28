@@ -32,15 +32,15 @@ This API also imposes several restrictions on what types of files it can launch.
 
 When the launch fails for any of the above reasons, the API succeeds and returns FALSE from its asynchronous operation. Since it has no ability to query whether the above restrictions apply to the current launch, the calling app should not assume that the launch succeeded, and should provide fallback mechanism in case it failed. A possible solution would be to ask the user to save the file and direct the user to open it in the desktop. 
 
-To enable the user to choose an app instead of launching the default app, set the [LauncherOptions.DisplayApplicationPicker | displayApplicationPicker](launcheroptions_displayapplicationpicker.md) property.
+To enable the user to choose an app instead of launching the default app, set the [LauncherOptions.DisplayApplicationPicker](launcheroptions_displayapplicationpicker.md) property.
 
-To display a warning that the file is potentially unsafe, set the [LauncherOptions.TreatAsUntrusted | treatAsUntrusted](launcheroptions_treatasuntrusted.md) property.
+To display a warning that the file is potentially unsafe, set the [LauncherOptions.TreatAsUntrusted](launcheroptions_treatasuntrusted.md) property.
 
 The file is passed to the associated app. If the associated app is a desktop app, the file is passed using shell execution mechanisms.
 
 ## -examples
 
-Call the [Launcher.LaunchFileAsync(IStorageFile, LauncherOptions) | launchFileAsync(IStorageFile, LauncherOptions)](launcher_launchfileasync_1480137410.md) method with [LauncherOptions.DisplayApplicationPicker | displayApplicationPicker](launcheroptions_displayapplicationpicker.md) set to **true** to launch the app that the user selects for the file from the **Open With** dialog box.
+Call the [Launcher.LaunchFileAsync(IStorageFile, LauncherOptions)](launcher_launchfileasync_1480137410.md) method with [LauncherOptions.DisplayApplicationPicker](launcheroptions_displayapplicationpicker.md) set to **true** to launch the app that the user selects for the file from the **Open With** dialog box.
 
 ```csharp
 async void DefaultLaunch()

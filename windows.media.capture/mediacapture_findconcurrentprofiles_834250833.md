@@ -14,7 +14,7 @@ Retrieves the list of video profiles supported by the specified video capture de
 
 ## -parameters
 ### -param videoDeviceId
-The identifier of the video device for which supported video profiles are queried. For information on getting the video device ID, see [DeviceInformation::FindAllAsync](../windows.devices.enumeration/deviceinformation_findallasync_1257462890.md).
+The identifier of the video device for which supported video profiles are queried. For information on getting the video device ID, see [DeviceInformation.FindAllAsync](../windows.devices.enumeration/deviceinformation_findallasync_1257462890.md).
 
 ## -returns
 The list of video profiles supported by the specified video capture device that support concurrency.
@@ -29,6 +29,6 @@ For how-to guidance for working with camera profiles, see [Discover and select c
 ## -examples
 
 ## -see-also
-[MediaCaptureVideoProfile::GetConcurrency](mediacapturevideoprofile_getconcurrency_2045494455.md), [Discover and select camera capabilities with camera profiles](https://msdn.microsoft.com/en-us/windows/uwp/audio-video-camera/camera-profiles)
+[MediaCaptureVideoProfile.GetConcurrency](mediacapturevideoprofile_getconcurrency_2045494455.md), [Discover and select camera capabilities with camera profiles](https://msdn.microsoft.com/en-us/windows/uwp/audio-video-camera/camera-profiles)
 ## -capabilities
 backgroundMediaRecording

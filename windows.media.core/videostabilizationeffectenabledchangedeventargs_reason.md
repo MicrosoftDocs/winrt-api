@@ -10,10 +10,10 @@ public Windows.Media.Core.VideoStabilizationEffectEnabledChangedReason Reason { 
 # Windows.Media.Core.VideoStabilizationEffectEnabledChangedEventArgs.Reason
 
 ## -description
-Gets a value indicating the reason why the [VideoStabilizationEffect::Enabled](videostabilizationeffect_enabled.md) property changed.
+Gets a value indicating the reason why the [VideoStabilizationEffect.Enabled](videostabilizationeffect_enabled.md) property changed.
 
 ## -property-value
-A value indicating the reason why the [VideoStabilizationEffect::Enabled](videostabilizationeffect_enabled.md) property changed.
+A value indicating the reason why the [VideoStabilizationEffect.Enabled](videostabilizationeffect_enabled.md) property changed.
 
 ## -remarks
 

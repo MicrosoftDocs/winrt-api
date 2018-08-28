@@ -16,7 +16,7 @@ Gets the encoding properties for the audio graph.
 The encoding properties for the audio graph.
 
 ## -remarks
-Specify the encoding properties for an audio graph by setting the [AudioGraphSettings::EncodingProperties](audiographsettings_encodingproperties.md) property before creating the audio graph with a call to [CreateAsync](audiograph_createasync_145006550.md).
+Specify the encoding properties for an audio graph by setting the [AudioGraphSettings.EncodingProperties](audiographsettings_encodingproperties.md) property before creating the audio graph with a call to [CreateAsync](audiograph_createasync_145006550.md).
 
 ## -examples
 

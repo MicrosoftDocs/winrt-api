@@ -18,4 +18,4 @@ Get an instance of this class by accessing the [MediaClip.EmbeddedAudioTracks](m
 ## -examples
 
 ## -see-also
-[MediaClip::EmbeddedAudioTracks](mediaclip_embeddedaudiotracks.md)
+[MediaClip.EmbeddedAudioTracks](mediaclip_embeddedaudiotracks.md)

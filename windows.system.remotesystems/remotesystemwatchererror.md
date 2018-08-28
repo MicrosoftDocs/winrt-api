@@ -25,7 +25,6 @@ Discovery of cloud remote systems for a web account failed because authenticatio
 ## -remarks
 
 ## -see-also
-**[ErrorOccurred](remotesystemwatcher_ErrorOccurred.md)** event
 
 ## -examples
 

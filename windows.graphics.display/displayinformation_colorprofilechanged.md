@@ -13,10 +13,7 @@ public event Windows.Foundation.TypedEventHandler ColorProfileChanged<Windows.Gr
 Occurs when the physical display's color profile changes.
 
 ## -remarks
-The [ColorProfileChanged](displayinformation_colorprofilechanged.md) event is only triggered when the display’s color profile changes. You must then call the [DisplayInformation::GetColorProfileAsync](displayinformation_getcolorprofileasync_1815252224.md) method to asynchronously retrieve the new color profile.
-
-<!--[jjacks - WinBlue bug 381377 says to remove this comment because the issue is fixed for blue] If there is no physical display (such as when the app runs over remote desktop or in the Simulator), don't register a handler for this event because the operation will fail with HRESULT E_FAIL.
--->
+The [ColorProfileChanged](displayinformation_colorprofilechanged.md) event is only triggered when the display’s color profile changes. You must then call the [DisplayInformation.GetColorProfileAsync](displayinformation_getcolorprofileasync_1815252224.md) method to asynchronously retrieve the new color profile.
 
 ## -examples
 
