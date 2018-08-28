@@ -50,14 +50,14 @@ Launcher.LaunchUriAsync("http://www.cloud.com/file.docx", options);
 
 When the launch fails for any of the above reasons, the API will succeed and return FALSE from its asynchronous operation.
 
-To enable the user to choose an app instead of launching the default app, set the [LauncherOptions.DisplayApplicationPicker | displayApplicationPicker](launcheroptions_displayapplicationpicker.md) property.
+To enable the user to choose an app instead of launching the default app, set the [LauncherOptions.DisplayApplicationPicker](launcheroptions_displayapplicationpicker.md) property.
 
-To display a warning that the URI is potentially unsafe, set the [LauncherOptions.TreatAsUntrusted | treatAsUntrusted](launcheroptions_treatasuntrusted.md) property.
+To display a warning that the URI is potentially unsafe, set the [LauncherOptions.TreatAsUntrusted](launcheroptions_treatasuntrusted.md) property.
 
 The URI is passed to the associated app. If the associated app is a desktop app, the URI is passed using shell execution mechanisms.
 
 ## -examples
-This sample uses [LaunchUriAsync(Uri, LauncherOptions) | launchUriAsync(Uri, LauncherOptions)](launcher_launchuriasync_68890748.md) to launch a URI with a warning. The [TreatAsUntrusted | treatAsUntrusted](launcheroptions_treatasuntrusted.md) property indicates that the system should display a warning.
+This sample uses [LaunchUriAsync(Uri, LauncherOptions)](launcher_launchuriasync_68890748.md) to launch a URI with a warning. The [TreatAsUntrusted](launcheroptions_treatasuntrusted.md) property indicates that the system should display a warning.
 
 ```csharp
 // The URI to launch

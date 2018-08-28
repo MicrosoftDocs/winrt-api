@@ -20,4 +20,4 @@ The list of supported MIME/content types.
 ## -examples
 
 ## -see-also
-[IContentTypeProvider::ContentType](../windows.storage.streams/icontenttypeprovider_contenttype.md)
+[IContentTypeProvider.ContentType](../windows.storage.streams/icontenttypeprovider_contenttype.md)

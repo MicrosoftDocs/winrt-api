@@ -11,10 +11,10 @@ public class PhotoImportSelectionChangedEventArgs : Windows.Media.Import.IPhotoI
 # Windows.Media.Import.PhotoImportSelectionChangedEventArgs
 
 ## -description
-Provides data for the [PhotoImportFindItemsResult::SelectionChanged](photoimportfinditemsresult_selectionchanged.md) event.
+Provides data for the [PhotoImportFindItemsResult.SelectionChanged](photoimportfinditemsresult_selectionchanged.md) event.
 
 ## -remarks
-Get an instance of this class by handling the [PhotoImportFindItemsResult::SelectionChanged](photoimportfinditemsresult_selectionchanged.md) event.
+Get an instance of this class by handling the [PhotoImportFindItemsResult.SelectionChanged](photoimportfinditemsresult_selectionchanged.md) event.
 
 ## -examples
 

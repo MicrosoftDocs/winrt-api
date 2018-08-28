@@ -15,7 +15,7 @@ Occurs when roaming application data is synchronized.
 ## -remarks
 
 ## -examples
-This example registers for the [DataChanged | datachanged](applicationdata_datachanged.md) event.
+This example registers for the [DataChanged](applicationdata_datachanged.md) event.
 
 ```csharp
 void InitHandlers()

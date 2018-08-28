@@ -13,7 +13,7 @@ public string Name { get; }
 Gets the name of a registered background task.
 
 ## -property-value
-The description specified with [BackgroundTaskBuilder::Name](backgroundtaskbuilder_name.md) when the task was created.
+The description specified with [BackgroundTaskBuilder.Name](backgroundtaskbuilder_name.md) when the task was created.
 
 ## -remarks
 

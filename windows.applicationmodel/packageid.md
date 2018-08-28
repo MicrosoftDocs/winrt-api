@@ -13,7 +13,7 @@ public class PackageId : Windows.ApplicationModel.IPackageId, Windows.Applicatio
 Provides package identification info, such as name, version, and publisher.
 
 ## -remarks
-Use the [Package.Current | current](package_current.md) property to get the package for the current app.
+Use the [Package.Current](package_current.md) property to get the package for the current app.
 
 ## -examples
 

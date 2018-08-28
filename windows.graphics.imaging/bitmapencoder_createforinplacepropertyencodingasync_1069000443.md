@@ -29,9 +29,9 @@ Here are several limitations to an encoder retrieved this way:
 
 
 + You can only use these methods on the encoder:
-   + [BitmapEncoder::BitmapProperties::GetPropertiesAsync](bitmapproperties_getpropertiesasync_1829853186.md)
-   + [BitmapEncoder::BitmapProperties::SetPropertiesAsync](bitmapproperties_setpropertiesasync_1991487715.md)
-   + [BitmapEncoder::FlushAsync](bitmapencoder_flushasync_491532439.md)
+   + [BitmapEncoder.BitmapProperties.GetPropertiesAsync](bitmapproperties_getpropertiesasync_1829853186.md)
+   + [BitmapEncoder.BitmapProperties.SetPropertiesAsync](bitmapproperties_setpropertiesasync_1991487715.md)
+   + [BitmapEncoder.FlushAsync](bitmapencoder_flushasync_491532439.md)
  Any other methods will fail if you call them.
 + The input [BitmapDecoder](bitmapdecoder.md) must be an encoder created on a stream with [ReadWrite](../windows.storage/fileaccessmode.md) access.
 + Not all metadata formats support fast metadata encoding. The native metadata handlers that support metadata are IFD, Exif, XMP, and GPS.

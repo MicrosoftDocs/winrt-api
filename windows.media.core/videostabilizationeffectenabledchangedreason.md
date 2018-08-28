@@ -10,7 +10,7 @@ public enum Windows.Media.Core.VideoStabilizationEffectEnabledChangedReason : in
 # VideoStabilizationEffectEnabledChangedReason
 
 ## -description
-Specifies the reason why the [VideoStabilizationEffect::Enabled](videostabilizationeffect_enabled.md) property changed.
+Specifies the reason why the [VideoStabilizationEffect.Enabled](videostabilizationeffect_enabled.md) property changed.
 
 ## -enum-fields
 ### -field Programmatic:0
@@ -28,4 +28,4 @@ The video stabilization effect was running slowly.
 ## -examples
 
 ## -see-also
-[VideoStabilizationEffect::Enabled](videostabilizationeffect_enabled.md)
+[VideoStabilizationEffect.Enabled](videostabilizationeffect_enabled.md)

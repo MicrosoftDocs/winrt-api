@@ -11,7 +11,7 @@ public Windows.Media.Import.PhotoImportItem ImportedItem { get; }
 # Windows.Media.Import.PhotoImportItemImportedEventArgs.ImportedItem
 
 ## -description
-Gets the imported item associated with the [PhotoImportFindItemsResult::ItemImported](photoimportfinditemsresult_itemimported.md) event.
+Gets the imported item associated with the [PhotoImportFindItemsResult.ItemImported](photoimportfinditemsresult_itemimported.md) event.
 
 ## -property-value
 The imported item.
