@@ -120,6 +120,22 @@ The device chipset uses the ARM64 CPU architecture.
 
 ## -remarks
 
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | Memory12GB |
+| 1607 | 14393 | Memory16GB |
+| 1607 | 14393 | Memory20GB |
+| 1607 | 14393 | Memory4GB |
+| 1607 | 14393 | Memory6GB |
+| 1607 | 14393 | Memory8GB |
+| 1607 | 14393 | VideoMemory1GB |
+| 1607 | 14393 | VideoMemory2GB |
+| 1607 | 14393 | VideoMemory4GB |
+| 1607 | 14393 | VideoMemory6GB |
+| 1803 | 17134 | ArchitectureArm64 |
+
 ## -examples
 
 ## -see-also

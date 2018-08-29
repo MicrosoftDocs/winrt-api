@@ -43,6 +43,12 @@ The device supports HMacSha256.
 
 ## -remarks
 
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | CloseRangeDataTransmission |
+
 ## -examples
 
 ## -see-also

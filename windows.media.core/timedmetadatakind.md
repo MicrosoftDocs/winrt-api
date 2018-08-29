@@ -39,6 +39,13 @@ The metadata contains speech metadata, such as word boundaries, sentence boundar
 
 ## -remarks
 
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | ImageSubtitle |
+| 1703 | 15063 | Speech |
+
 ## -examples
 
 ## -see-also

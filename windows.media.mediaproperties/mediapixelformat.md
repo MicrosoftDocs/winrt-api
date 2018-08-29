@@ -24,6 +24,12 @@ P010 media pixel format.
 
 ## -remarks
 
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1803 | 17134 | P010 |
+
 ## -examples
 
 ## -see-also

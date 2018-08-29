@@ -64,6 +64,13 @@ The item is being used by another process. You can apply enterprise protection t
 
 ## -remarks
 
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1511 | 10586 | AccessSuspended |
+| 1511 | 10586 | LicenseExpired |
+| 1607 | 14393 | FileInUse |
 
 ## -examples
 

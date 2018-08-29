@@ -30,6 +30,13 @@ The task is enabled by the administrator or group policy.
 
 ## -remarks
 
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1709 | 16299 | DisabledByPolicy |
+| 1803 | 17134 | EnabledByPolicy |
+
 ## -examples
 
 ## -see-also

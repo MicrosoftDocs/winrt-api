@@ -37,6 +37,13 @@ The keys to access the protected item have been dropped while the device is lock
 
 ## -remarks
 
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1511 | 10586 | AccessSuspended |
+| 1511 | 10586 | LicenseExpired |
+
 ## -examples
 
 ## -see-also

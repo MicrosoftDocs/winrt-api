@@ -32,6 +32,12 @@ Opt-in feature for Xbox with Windows 10 version 1803 (codenamed "Redstone 4") an
 
 ## -remarks
 
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1803 | 17134 | Reveal |
+
 ## -examples
 
 ## -see-also

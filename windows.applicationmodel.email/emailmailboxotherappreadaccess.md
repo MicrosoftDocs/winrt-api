@@ -25,6 +25,12 @@ No other apps can read from this mailbox.
 
 ## -remarks
 
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | None |
+
 ## -examples
 
 ## -see-also

@@ -37,6 +37,12 @@ Share the contact.
 ## -remarks
 Use the OR operator to combine these values together into a single bit field.
 
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | Share |
+
 ## -examples
 
 ## -see-also

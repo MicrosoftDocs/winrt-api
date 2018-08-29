@@ -47,6 +47,14 @@ The operation requires consent.
 
 ## -remarks
 
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1511 | 10586 | DisabledByUser |
+| 1607 | 14393 | ConsentRequired |
+| 1703 | 15063 | TransportNotSupported |
+
 ## -examples
 
 ## -see-also

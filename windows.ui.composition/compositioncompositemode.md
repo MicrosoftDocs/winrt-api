@@ -28,6 +28,12 @@ Visual content's colors subtract for color channels in the background.
 
 ## -remarks
 
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | MinBlend |
+
 ## -examples
 
 ## -see-also

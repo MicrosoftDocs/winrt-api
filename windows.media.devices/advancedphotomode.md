@@ -30,6 +30,12 @@ Low light capture mode.
 > [!NOTE]
 > Using the camera flash during advanced photo capture is not supported.
 
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | LowLight |
+
 ## -examples
 
 ## -see-also

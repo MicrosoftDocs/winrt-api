@@ -216,6 +216,15 @@ Expected input does not include emoji. Advises input processors to not display t
 
 ## -remarks
 
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | ChatWithoutEmoji |
+| 1709 | 16299 | Digits |
+| 1709 | 16299 | PinAlphanumeric |
+| 1709 | 16299 | PinNumeric |
+
 ## -examples
 
 ## -see-also

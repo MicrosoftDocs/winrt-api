@@ -255,6 +255,13 @@ else {
 }
 ```
 
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1709 | 16299 | InsufficientRangeSupport |
+| 1709 | 16299 | MissingContentLengthSupport |
+
 ## -examples
 
 ## -see-also

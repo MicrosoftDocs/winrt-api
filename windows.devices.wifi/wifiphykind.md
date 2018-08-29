@@ -49,6 +49,12 @@ High-Efficiency Wireless (HEW) PHY for 802.11ax.
 
 ## -remarks
 
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | Dmg |
+
 ## -examples
 
 ## -see-also

@@ -33,6 +33,12 @@ A type of option that is a toggle.
 
 ## -remarks
 
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1803 | 17134 | Toggle |
+
 ## -examples
 
 ## -see-also

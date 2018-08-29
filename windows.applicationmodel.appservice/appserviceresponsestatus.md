@@ -33,8 +33,13 @@ The app service failed to process the message because it is too large.
 
 
 ## -remarks
-> [!NOTE]
-> **RemoteSystemUnavailable** and **MessageSizeTooLarge** were introduced in Windows 10, version 1607
+
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | MessageSizeTooLarge |
+| 1607 | 14393 | RemoteSystemUnavailable |
 
 ## -examples
 

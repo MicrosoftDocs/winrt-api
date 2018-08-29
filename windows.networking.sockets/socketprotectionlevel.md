@@ -78,6 +78,12 @@ The users of non-domain joined machines can also disable ciphers and protocols b
 
 The [SocketProtectionLevel](socketprotectionlevel.md) enumeration also allow servers to control protocol negotiation for security with clients when using the [StreamSocketListener](streamsocketlistener.md) object to listen and bind to sockets over Bluetooth. When the [StreamSocketListener](streamsocketlistener.md) object is used over Bluetooth, the supported [SocketProtectionLevel](socketprotectionlevel.md) values are **PlainSocket**, **BluetoothEncryptionAllowNullAuthentication**, or **BluetoothEncryptionWithAuthentication**. When the [StreamSocketListener](streamsocketlistener.md) object is used to listen and bind to TCP sockets, the only supported [SocketProtectionLevel](socketprotectionlevel.md) value is **PlainSocket**.
 
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1709 | 16299 | Unspecified |
+
 ## -examples
 
 ## -see-also
