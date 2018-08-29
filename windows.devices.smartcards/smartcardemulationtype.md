@@ -25,6 +25,12 @@ The device emulates a smart card by forwarding the application protocol data uni
 
 ## -remarks
 
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | EmbeddedSE |
+
 ## -examples
 
 ## -see-also

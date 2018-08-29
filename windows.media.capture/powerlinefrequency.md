@@ -28,6 +28,12 @@ The power-line frequency is determined automatically by the system.
 
 ## -remarks
 
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | Auto |
+
 ## -examples
 
 ## -see-also

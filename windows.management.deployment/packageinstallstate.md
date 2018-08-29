@@ -28,6 +28,12 @@ The installation of the package has been paused.
 
 ## -remarks
 
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1511 | 10586 | Paused |
+
 ## -examples
 
 ## -see-also

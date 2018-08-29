@@ -28,6 +28,13 @@ Pointer input goes to the UI thread, Precision Touchpad input goes to the compos
 
 ## -remarks
 
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1803 | 17134 | CapableTouchpadAndPointerWheel |
+| 1803 | 17134 | PointerWheelOnly |
+
 ## -examples
 
 ## -see-also

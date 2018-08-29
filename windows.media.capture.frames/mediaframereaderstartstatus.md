@@ -28,6 +28,12 @@ The operation failed because the requested output format is not supported by the
 
 ## -remarks
 
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | ExclusiveControlNotAvailable |
+
 ## -examples
 
 ## -see-also

@@ -37,6 +37,13 @@ The position was obtained from Wi-Fi network data.
 
 ## -remarks
 
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | Default |
+| 1607 | 14393 | Obfuscated |
+
 ## -examples
 
 ## -see-also

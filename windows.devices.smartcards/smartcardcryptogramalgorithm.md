@@ -43,6 +43,12 @@ Use the Public-Key Cryptography Standards 1 (PKCS) RSA algorithm.
 
 ## -remarks
 
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | Sha256Hmac |
+
 ## -examples
 
 ## -see-also

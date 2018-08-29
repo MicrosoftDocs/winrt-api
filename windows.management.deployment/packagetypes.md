@@ -37,6 +37,12 @@ Include the optional packages when you enumerate the package repository.
 
 ## -remarks
 
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | Optional |
+
 ## -examples
 
 ## -see-also

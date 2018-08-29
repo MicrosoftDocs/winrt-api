@@ -120,6 +120,12 @@ ContentLink text.
 
 ## -remarks
 
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1803 | 17134 | ContentLink |
+
 ## -examples
 
 ## -see-also

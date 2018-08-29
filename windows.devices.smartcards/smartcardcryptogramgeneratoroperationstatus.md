@@ -58,6 +58,13 @@ An unknown error occurred.
 
 ## -remarks
 
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | ValidationFailed |
+| 1709 | 16299 | NotSupported |
+
 ## -examples
 
 ## -see-also

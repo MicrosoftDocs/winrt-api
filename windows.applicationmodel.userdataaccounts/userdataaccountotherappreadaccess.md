@@ -25,6 +25,12 @@ Other apps on the device cannot read any properties of this [UserDataAccount](us
 
 ## -remarks
 
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | None |
+
 ## -examples
 
 ## -see-also

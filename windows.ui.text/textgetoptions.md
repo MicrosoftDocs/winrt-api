@@ -44,6 +44,11 @@ Use line feed (LF) in place of all carriage returns.
 ## -remarks
 If both UseLf and UseCrLf are used an invalid argument exception is thrown. 
 
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | UseLf |
 
 ## -examples
 

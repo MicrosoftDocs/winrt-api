@@ -30,6 +30,13 @@ There was a GATT communication protocol error.
 
 ## -remarks
 
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | AccessDenied |
+| 1703 | 15063 | ProtocolError |
+
 ## -examples
 
 ## -see-also

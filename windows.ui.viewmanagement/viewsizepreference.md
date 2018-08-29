@@ -40,6 +40,12 @@ An "app view" is the displayed portion of a UWP app, and which can be variably s
 ### Custom view sizes
 Set the [ViewModePreferences.ViewSizePreference](viewmodepreferences_viewsizepreference.md) property value to **Custom** when you set the [ViewModePreferences.CustomSize](viewmodepreferences_customsize.md) property.
 
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | Custom |
+
 ## -examples
 
 ## -see-also

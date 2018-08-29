@@ -66,6 +66,13 @@ The "hand" Windows cursor with a pin symbol.
 
 ## -remarks
 
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1709 | 16299 | Person |
+| 1709 | 16299 | Pin |
+
 ## -examples
 
 ## -see-also

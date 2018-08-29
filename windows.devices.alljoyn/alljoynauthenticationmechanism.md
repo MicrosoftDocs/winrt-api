@@ -37,6 +37,12 @@ ECDHE_SPEKE key exchange.
 
 ## -remarks
 
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | EcdheSpeke |
+
 ## -examples
 
 ## -see-also
