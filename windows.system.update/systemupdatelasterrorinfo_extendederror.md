@@ -13,11 +13,13 @@ public HResult ExtendedError { get; }
 Extended error description.
 
 ## -property-value
+Extended error description.
 
 ## -remarks
 May be set even when an exception is not thrown.
 
 ## -see-also
+[SystemUpdateItemLastErrorInfo](systemupdatelasterrorinfo.md)
 
 ## -examples
 

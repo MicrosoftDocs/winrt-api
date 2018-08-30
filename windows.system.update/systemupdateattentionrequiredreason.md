@@ -31,7 +31,7 @@ Insufficient battery power to begin updating system.
 ## -remarks
 
 ## -see-also
-[SystemUpdateManager.ExtendedError](systemupdatemanager_extendederror.md)
+[SystemUpdateManager.ExtendedError](systemupdatemanager_extendederror.md), [SystemUpdateManager.AttentionRequiredReason](systemupdatemanager_attentionrequiredreason.md)
 
 ## -examples
 

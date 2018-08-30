@@ -14,12 +14,13 @@ Information about the last failed system update.
 
 ## -property-value
 
-[SystemUpdateLastErrorInfo](systemupdatelasterrorinfo.md)
+Information about the last failed system update.
 
 ## -remarks
 
 ## -see-also
 
+[SystemUpdateLastErrorInfo](systemupdatelasterrorinfo.md)
 
 ## -examples
 

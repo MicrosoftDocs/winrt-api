@@ -13,6 +13,7 @@ public DateTime LastUpdateInstallTime { get; }
 Time of last update install.
 
 ## -property-value
+Time of last update install.
 
 ## -remarks
 

@@ -18,6 +18,7 @@ Specifies if the last update error occurred during an interactive update.
 ## -remarks
 
 ## -see-also
+[SystemUpdateItemLastErrorInfo](systemupdatelasterrorinfo.md)
 
 ## -examples
 

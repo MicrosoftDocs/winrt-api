@@ -10,15 +10,16 @@ public SystemUpdateManagerState State { get; }
 # Windows.System.Update.SystemUpdateLastErrorInfo.State
 
 ## -description
-SystemUpdateManager state when the last error occurred.
+**SystemUpdateManager** state when the last error occurred.
 
 ## -property-value
 
-[SystemUpdateManagerState](systemupdatemanagerstate.md)
+**SystemUpdateManager** state when the last error occurred.
 
 ## -remarks
 
 ## -see-also
+[SystemUpdateItemLastErrorInfo](systemupdatelasterrorinfo.md)
 
 ## -examples
 

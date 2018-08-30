@@ -15,10 +15,12 @@ Reason why user attention is required.
 
 ## -property-value
 
-[SystemUpdateAttentionRequiredReason](systemupdateattentionrequiredreason.md)
+**SystemUpdateManager** state when the last error occurred.
 
 ## -remarks
 
 ## -see-also
+
+[SystemUpdateAttentionRequiredReason](systemupdateattentionrequiredreason.md)
 
 ## -examples

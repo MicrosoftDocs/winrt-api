@@ -14,6 +14,8 @@ Time of last check for updates.
 
 ## -property-value
 
+Time of last check for updates.
+
 ## -remarks
 
 ## -see-also

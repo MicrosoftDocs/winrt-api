@@ -13,10 +13,12 @@ public double InstallProgress { get; }
 Install progress percentage.
 
 ## -property-value
+Install progress percentage.
 
 ## -remarks
 
 ## -see-also
+[SystemUpdateItem](systemupdateitem.md)
 
 ## -examples
 

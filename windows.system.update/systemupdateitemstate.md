@@ -10,7 +10,7 @@ public enum SystemUpdateItemState : int
 # Windows.System.Update.SystemUpdateItemState
 
 ## -description
-State of a SystemUpdateItem.
+State of a [SystemUpdateItem](systemupdateitem.md).
 
 ## -enum-fields
 ### -field RebootRequired:7
@@ -29,7 +29,7 @@ Update item installing.
 Update item initializing.
 
 ### -field Error:8
-See extended error.
+Error encountered when trying to update&mdash;see [ExtendedError](systemupdateitem_extendederror.md)
 
 ### -field Downloading:4
 Update item downloading.
@@ -43,6 +43,7 @@ Calculating update item actions.
 ## -remarks
 
 ## -see-also
+[SystemUpdateItem.State](systemupdateitem_state.md)
 
 ## -examples
 

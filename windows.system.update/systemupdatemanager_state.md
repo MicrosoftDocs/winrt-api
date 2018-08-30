@@ -10,14 +10,16 @@ public SystemUpdateManagerState State { get; }
 # Windows.System.Update.SystemUpdateManager.State
 
 ## -description
-The current state of the SystemUpdateManager.
+The current state of the **SystemUpdateManager**.
 
 ## -property-value
 
-[SystemUpdateManagerState](systemupdatemanagerstate.md)
+The current state of the **SystemUpdateManager**.
 
 ## -remarks
 
 ## -see-also
+
+[SystemUpdateManagerState](systemupdatemanagerstate.md)
 
 ## -examples

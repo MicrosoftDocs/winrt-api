@@ -13,6 +13,7 @@ public TimeSpan UserActiveHoursStart { get; }
 Gets the user active hours start time value.
 
 ## -property-value
+Gets the user active hours start time value.
 
 ## -remarks
 

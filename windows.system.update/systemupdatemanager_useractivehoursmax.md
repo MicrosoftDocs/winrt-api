@@ -10,9 +10,10 @@ public int UserActiveHoursMax { get; }
 # Windows.System.Update.SystemUpdateManager.UserActiveHoursMax
 
 ## -description
-Gets the maximum interval allowed between UserActiveHoursStart and UserActiveHoursEnd in hours.
+Gets the maximum interval allowed between **UserActiveHoursStart** and **UserActiveHoursEnd** in hours.
 
 ## -property-value
+Gets the maximum interval allowed between **UserActiveHoursStart** and **UserActiveHoursEnd** in hours.
 
 ## -remarks
 

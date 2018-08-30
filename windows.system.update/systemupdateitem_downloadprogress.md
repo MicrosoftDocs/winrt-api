@@ -13,10 +13,12 @@ public double DownloadProgress { get; }
 Download progress percentage.
 
 ## -property-value
+Download progress percentage.
 
 ## -remarks
 
 ## -see-also
+[SystemUpdateItem](systemupdateitem.md)
 
 ## -examples
 

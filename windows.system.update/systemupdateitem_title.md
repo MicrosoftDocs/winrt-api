@@ -10,13 +10,15 @@ public string Title { get; }
 # Windows.System.Update.SystemUpdateItem.Title
 
 ## -description
-Title of update item.
+Title of the update item.
 
 ## -property-value
+Title of the update item.
 
 ## -remarks
 
 ## -see-also
+[SystemUpdateItem](systemupdateitem.md)
 
 ## -examples
 

@@ -13,11 +13,13 @@ public HResult ExtendedError { get; }
 Extended error information, if available.
 
 ## -property-value
+Extended error information, if available.
 
 ## -remarks
 If an error occurs, the extended error can be retrieved through this property even if an exception is not thrown.
 
 ## -see-also
+[SystemUpdateItem](systemupdateitem.md)
 
 ## -examples
 

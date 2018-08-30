@@ -13,6 +13,7 @@ public double DownloadProgress { get; }
 Download progress percentage.
 
 ## -property-value
+Download progress percentage.
 
 ## -remarks
 

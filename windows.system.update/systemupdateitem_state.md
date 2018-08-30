@@ -15,10 +15,12 @@ State of the current update item.
 
 ## -property-value
 
-[SystemUpdateItemState](systemupdateitemstate.md)
+State of the current update item.
 
 ## -remarks
 
 ## -see-also
+[SystemUpdateItem](systemupdateitem.md),
+[SystemUpdateItemState](systemupdateitemstate.md)
 
 ## -examples

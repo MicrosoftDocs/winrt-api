@@ -13,10 +13,12 @@ public string Description { get; }
 Describes the contents of the SystemUpdateItem.
 
 ## -property-value
+Description of the contents of the system update package.
 
 ## -remarks
 
 ## -see-also
+[SystemUpdateItem](systemupdateitem.md)
 
 ## -examples
 

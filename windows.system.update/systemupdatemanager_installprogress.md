@@ -13,6 +13,7 @@ public double InstallProgress { get; }
 Install progress percentage.
 
 ## -property-value
+Install progress percentage.
 
 ## -remarks
 
