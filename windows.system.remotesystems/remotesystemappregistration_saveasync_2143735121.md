@@ -10,8 +10,10 @@ public IAsyncOperation<bool> RemoteSystemAppRegistration.SaveAsync()
 # Windows.System.RemoteSystems.RemoteSystemAppRegistration.SaveAsync
 
 ## -description
+Starts the process of registering this application in the cloud. 
 
 ## -returns
+An asynchronous operation with a value of **true** if the registration was successful, otherwise **false**.
 
 ## -remarks
 

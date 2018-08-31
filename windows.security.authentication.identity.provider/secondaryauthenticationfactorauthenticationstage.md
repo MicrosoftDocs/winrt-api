@@ -40,9 +40,8 @@ Stopping authentication.
 ### -field ReadyForLock:7
 Ready for lock.
 
-
 ### -field CheckingDevicePresence:8
-
+**Deprecated.** Checking for device presence.
 
 ## -remarks
 

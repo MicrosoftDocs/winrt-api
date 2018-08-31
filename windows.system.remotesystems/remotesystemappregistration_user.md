@@ -10,8 +10,10 @@ public User User { get; }
 # Windows.System.RemoteSystems.RemoteSystemAppRegistration.User
 
 ## -description
+The user under which to register the app.
 
 ## -property-value
+The user.
 
 ## -remarks
 

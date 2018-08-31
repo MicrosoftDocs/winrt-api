@@ -10,7 +10,7 @@ public class RemoteSystemWatcherErrorOccurredEventArgs
 # Windows.System.RemoteSystems.RemoteSystemWatcherErrorOccurredEventArgs
 
 ## -description
-Contains information relevant to the **[RemoteSystemWatcher.ErrorOccurred](remotesystemwatcher_ErrorOccurred.md)** event.
+Gets information about an **[ErrorOccurred](remotesystemwatcher_erroroccurred.md)** event, namely the **[RemoteSystemWatcherError](remotesystemwatchererror.md)** value describing the error.
 
 ## -remarks
 

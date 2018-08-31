@@ -10,9 +10,11 @@ public RemoteSystemWebAccountFilter.RemoteSystemWebAccountFilter(WebAccount acco
 # Windows.System.RemoteSystems.RemoteSystemWebAccountFilter.RemoteSystemWebAccountFilter
 
 ## -description
+Initializes an instance of the [RemoteSystemWebAccountFilter](RemoteSystemWebAccountFilter.md) class.
 
 ## -parameters
 ### -param account
+The web account to target.
 
 ## -remarks
 

@@ -10,8 +10,10 @@ public RemoteSystemAppRegistration RemoteSystemAppRegistration.GetDefault()
 # Windows.System.RemoteSystems.RemoteSystemAppRegistration.GetDefault
 
 ## -description
+Gets a **[RemoteSystemAppRegistration](RemoteSystemAppRegistration.md)** instance to register an app for the device's default user account.
 
 ## -returns
+A new **RemoteSystemAppRegistration** instance.
 
 ## -remarks
 

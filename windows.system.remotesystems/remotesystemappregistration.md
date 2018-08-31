@@ -10,6 +10,7 @@ public class RemoteSystemAppRegistration
 # Windows.System.RemoteSystems.RemoteSystemAppRegistration
 
 ## -description
+This class represents an application that is to be registered in the cloud for remote connectivity. A registered app can provide remote app services or be used to launch a URI. 
 
 ## -remarks
 

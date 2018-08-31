@@ -10,8 +10,10 @@ public WebAccount Account { get; }
 # Windows.System.RemoteSystems.RemoteSystemWebAccountFilter.Account
 
 ## -description
+The web account that the containing [RemoteSystemStatusTypeFilter](remotesystemstatustypefilter.md) object targets.
 
 ## -property-value
+The web account to target.
 
 ## -remarks
 

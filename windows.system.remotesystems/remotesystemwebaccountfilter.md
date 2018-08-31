@@ -10,6 +10,7 @@ public class RemoteSystemWebAccountFilter : IRemoteSystemFilter
 # Windows.System.RemoteSystems.RemoteSystemWebAccountFilter
 
 ## -description
+An [IRemoteSystemFilter](iremotesystemfilter.md) that limits the set of discoverable remote systems by allowing only those which are signed in with a certain web account.
 
 ## -remarks
 

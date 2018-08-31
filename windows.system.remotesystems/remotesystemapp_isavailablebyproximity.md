@@ -10,8 +10,10 @@ public bool IsAvailableByProximity { get; }
 # Windows.System.RemoteSystems.RemoteSystemApp.IsAvailableByProximity
 
 ## -description
+Indicates whether this application is currently available for proximal connection. 
 
 ## -property-value
+**true** if the application is available for proximal connection, otherwise **false**. 
 
 ## -remarks
 

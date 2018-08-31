@@ -10,6 +10,7 @@ public class RemoteSystemApp
 # Windows.System.RemoteSystems.RemoteSystemApp
 
 ## -description
+Represents an application on a remote system. 
 
 ## -remarks
 
