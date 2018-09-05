@@ -11,7 +11,8 @@ namespace Windows.AI.MachineLearning.Preview
 
 ## -description
 
-**Deprecated.** Please use [Windows.AI.MachineLearning](../windows.ai.machinelearning/windows.ai.machinelearning.md) instead.
+> [!Warning]
+> This namespace contains deprecated APIs. Please use [Windows.AI.MachineLearning](../windows.ai.machinelearning/windows_ai_machinelearning.md) instead.
 
 ## -remarks
 
@@ -20,6 +21,6 @@ namespace Windows.AI.MachineLearning.Preview
 
 ## -see-also
 
-[Windows.AI.MachineLearning](../windows.ai.machinelearning/windows.ai.machinelearning.md)
+[Windows.AI.MachineLearning](../windows.ai.machinelearning/windows_ai_machinelearning.md)
 
 ## -examples
