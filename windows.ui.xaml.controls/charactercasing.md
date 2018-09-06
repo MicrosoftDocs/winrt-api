@@ -31,8 +31,7 @@ Characters are changed to lowercase.
 
 ## -see-also
 
-- [TextBox.CharacterCasing](textbox_charactercasing.md)
-- [RichEditBox.CharacterCasing](richeditbox_charactercasing.md)
+[TextBox.CharacterCasing](textbox_charactercasing.md), [RichEditBox.CharacterCasing](richeditbox_charactercasing.md)
 
 ## -examples
 
