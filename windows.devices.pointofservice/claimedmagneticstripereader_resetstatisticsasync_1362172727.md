@@ -16,11 +16,10 @@ Resets the specified statistics to zero for all statistics that can be reset.
 ## -parameters
 ### -param statisticsCategories
 The list of names of the statistics to reset. 
-+ An empty string ("") retrieves all statistics.
-+ "U_" retrieves all UnifiedPOS defined statistics.
-+ "M_" retrieves all manufacturer defined statistics.
-+ "name1" and/or "name2" retrieves specific named statistics as defined by the UnifiedPOS or manufacturer.
-
++ An empty string ("") resets all statistics.
++ "U_" resets all UnifiedPOS-defined statistics.
++ "M_" resets all manufacturer-defined statistics.
++ "name1" and/or "name2" resets specific named statistics as defined by the UnifiedPOS or manufacturer.
 
 ## -returns
 No object or value is returned by this method when it completes.
