@@ -20,9 +20,8 @@ Public address.
 ### -field Random:1
 Random address.
 
-
 ### -field Unspecified:2
-
+Unspecified address.
 
 ## -remarks
 
