@@ -21,6 +21,7 @@ Occurs when the image source is downloaded and decoded with no failure. You can 
 ## -remarks
 When [ImageOpened](image_imageopened.md) fires, that serves as the notification that any asynchronous operations have completed and all the properties of the object used as the image source are ready for use. For example, to determine the size of the image, handle [ImageOpened](image_imageopened.md), and check the value of the [PixelWidth](../windows.ui.xaml.media.imaging/bitmapsource_pixelwidth.md) and [PixelHeight](../windows.ui.xaml.media.imaging/bitmapsource_pixelheight.md) properties on the object referenced as [Image.Source](image_source.md). The event data for the [ImageOpened](image_imageopened.md) event isn't typically useful.
 
+When the Image element isn’t in the live visual tree, the Image element will not fire [ImageOpened](image_imageopened.md) or [ImageFailed](image_imagefailed.md) events.  If you need to receive these events while the element isn’t in the live tree, use the BitmapImage.ImageOpened/ImageFailed events.
 
 <!--The following remark is relevant for Windows 8 > 8.1 migration. See WBB 459121-->
 ### Windows 8 behavior

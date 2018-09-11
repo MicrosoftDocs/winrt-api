@@ -32,6 +32,7 @@ You might be able to use the [ErrorMessage](../windows.ui.xaml/exceptionroutedev
 
 One scenario for handling [ImageFailed](image_imagefailed.md) is to set the [UriSource](../windows.ui.xaml.media.imaging/bitmapimage_urisource.md) of the underlying [BitmapImage](../windows.ui.xaml.media.imaging/bitmapimage.md) source to a different local image file. This can serve as a fallback value to display instead of empty space. For example, if you are trying to display an external image where it's possible that the source is no longer there, or for when the user has no Internet connection, you could set the [UriSource](../windows.ui.xaml.media.imaging/bitmapimage_urisource.md) to reference a local fallback or placeholder image that's part of your app package and is always guaranteed to be available.
 
+When the Image element isn’t in the live visual tree, the Image element will not fire [ImageOpened](image_imageopened.md) or [ImageFailed](image_imagefailed.md) events.  If you need to receive these events while the element isn’t in the live tree, use the BitmapImage.ImageOpened/ImageFailed events.
 
 
 ```csharp
