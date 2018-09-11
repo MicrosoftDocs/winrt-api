@@ -10,7 +10,7 @@ public Windows.ApplicationModel.Store.Preview.StorePreviewProductPurchaseStatus 
 # Windows.ApplicationModel.Store.Preview.StorePreviewPurchaseResults.ProductPurchaseStatus
 
 ## -description
-Gets the current state of the purchase transaction for an in-app product SKU that was purchased by using the [RequestProductPurchaseByProductIdAndSkuIdAsync](storepreview_requestproductpurchasebyproductidandskuidasync.md) method.
+Gets the current state of the purchase transaction for an in-app product SKU that was purchased by using the [RequestProductPurchaseByProductIdAndSkuIdAsync](storepreview_requestproductpurchasebyproductidandskuidasync_423925263.md) method.
 
 ## -property-value
 The status of the purchase transaction.

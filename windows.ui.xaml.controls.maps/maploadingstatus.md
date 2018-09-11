@@ -25,6 +25,12 @@ Map data is unavailable.
 
 ## -remarks
 
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1511 | 10586 | DataUnavailable |
+
 ## -examples
 
 ## -see-also

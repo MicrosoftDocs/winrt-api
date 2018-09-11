@@ -27,4 +27,4 @@ The progress percentage of the deployment request.
 ## -examples
 
 ## -see-also
-[PackageManager.AddPackageAsync](packagemanager_addpackageasync.md), [PackageManager.CleanupPackageForUserAsync](packagemanager_cleanuppackageforuserasync.md), [PackageManager.RegisterPackageAsync](packagemanager_registerpackageasync.md), [PackageManager.RemovePackageAsync](packagemanager_removepackageasync.md), [PackageManager.StagePackageAsync](packagemanager_stagepackageasync.md), [PackageManager.UpdatePackageAsync](packagemanager_updatepackageasync.md)
+[PackageManager.AddPackageAsync](/uwp/api/windows.management.deployment.packagemanager.addpackageasync), [PackageManager.CleanupPackageForUserAsync](packagemanager_cleanuppackageforuserasync_270500303.md), [PackageManager.RegisterPackageAsync](/uwp/api/windows.management.deployment.packagemanager.registerpackageasync), [PackageManager.RemovePackageAsync](/uwp/api/windows.management.deployment.packagemanager.removepackageasync), [PackageManager.StagePackageAsync](/uwp/api/windows.management.deployment.packagemanager.stagepackageasync), [PackageManager.UpdatePackageAsync](packagemanager_updatepackageasync_1181217661.md)

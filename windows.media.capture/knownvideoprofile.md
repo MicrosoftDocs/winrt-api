@@ -44,9 +44,19 @@ The profile provides hints to the driver to optimize for capturing variable phot
 The profile provides hints to the driver to optimize for High Dynamic Range (HDR) video.
 
 ## -remarks
-Use [FindKnownVideoProfiles](mediacapture_findknownvideoprofiles.md) to retrieve the list of known profiles that are supported for a specified video device.
+Use [FindKnownVideoProfiles](mediacapture_findknownvideoprofiles_875917242.md) to retrieve the list of known profiles that are supported for a specified video device.
+
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1803 | 17134 | HdrWithWcgPhoto |
+| 1803 | 17134 | HdrWithWcgVideo |
+| 1803 | 17134 | HighFrameRate |
+| 1803 | 17134 | VariablePhotoSequence |
+| 1803 | 17134 | VideoHdr8 |
 
 ## -examples
 
 ## -see-also
-[FindKnownVideoProfiles](mediacapture_findknownvideoprofiles.md)
+[FindKnownVideoProfiles](mediacapture_findknownvideoprofiles_875917242.md)

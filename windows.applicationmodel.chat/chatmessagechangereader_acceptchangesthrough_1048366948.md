@@ -18,7 +18,7 @@ Accepts all the changes up to and including a specified change.
 The last change to acknowledge.
 
 ## -remarks
-The [AcceptChangesThrough](chatmessagechangereader_acceptchangesthrough.md) method accepts all the message changes currently tracked up to and including the change specified in *lastChangeToAcknowledge*. Calling [AcceptChangesThrough](chatmessagechangereader_acceptchangesthrough.md) will cause change tracking to reset and tracking will begin again with the next message change.
+The [AcceptChangesThrough](chatmessagechangereader_acceptchangesthrough_1048366948.md) method accepts all the message changes currently tracked up to and including the change specified in *lastChangeToAcknowledge*. Calling [AcceptChangesThrough](chatmessagechangereader_acceptchangesthrough_1048366948.md) will cause change tracking to reset and tracking will begin again with the next message change.
 
 ## -examples
 

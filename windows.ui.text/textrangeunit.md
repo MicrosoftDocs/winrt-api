@@ -120,7 +120,13 @@ ContentLink text.
 
 ## -remarks
 
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1803 | 17134 | ContentLink |
+
 ## -examples
 
 ## -see-also
-[ITextSelection.HomeKey](itextselection_homekey.md), [ITextSelection.EndKey](itextselection_endkey.md), [ITextSelection.MoveLeft](itextselection_moveleft.md), [ITextSelection.MoveUp](itextselection_moveup.md), [ITextSelection.MoveDown](itextselection_movedown.md), [ITextSelection.MoveRight](itextselection_moveright.md), [ITextRange.Delete](itextrange_delete.md), [ITextRange.Expand](itextrange_expand.md), [ITextRange.StartOf](itextrange_startof.md), [ITextRange.EndOf](itextrange_endof.md), [ITextRange.Move](itextrange_move.md), [ITextRange.MoveStart](itextrange_movestart.md), [ITextRange.MoveEnd](itextrange_moveend.md), [ITextRange.SetIndex](itextrange_setindex.md), [ITextRange.GetIndex](itextrange_getindex.md)
+[ITextSelection.HomeKey](itextselection_homekey_234543261.md), [ITextSelection.EndKey](itextselection_endkey_141627204.md), [ITextSelection.MoveLeft](itextselection_moveleft_1979591935.md), [ITextSelection.MoveUp](itextselection_moveup_1557792442.md), [ITextSelection.MoveDown](itextselection_movedown_1876359068.md), [ITextSelection.MoveRight](itextselection_moveright_1427894299.md), [ITextRange.Delete](itextrange_delete_876436284.md), [ITextRange.Expand](itextrange_expand_1312677017.md), [ITextRange.StartOf](itextrange_startof_1690436680.md), [ITextRange.EndOf](itextrange_endof_428994747.md), [ITextRange.Move](itextrange_move_1126378751.md), [ITextRange.MoveStart](itextrange_movestart_65838126.md), [ITextRange.MoveEnd](itextrange_moveend_1212634036.md), [ITextRange.SetIndex](itextrange_setindex_1017096528.md), [ITextRange.GetIndex](itextrange_getindex_825085340.md)

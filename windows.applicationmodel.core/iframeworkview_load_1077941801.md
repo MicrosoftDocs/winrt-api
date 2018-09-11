@@ -10,7 +10,7 @@ public void Load(System.String entryPoint)
 # Windows.ApplicationModel.Core.IFrameworkView.Load
 
 ## -description
-Loads or activates any external resources used by the app view before [Run](coreapplication_run.md) is called.
+Loads or activates any external resources used by the app view before [Run](coreapplication_run_1480028297.md) is called.
 
 ## -parameters
 ### -param entryPoint

@@ -27,6 +27,12 @@ Content is hosted on a separate process off the app process. All of an app's Web
 
 ## -remarks
 
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1803 | 17134 | SeparateProcess |
+
 ## -examples
 
 ## -see-also

@@ -10,7 +10,7 @@ public class UserAuthenticationStatusChangeDeferral : Windows.System.IUserAuthen
 # Windows.System.UserAuthenticationStatusChangeDeferral
 
 ## -description
-Represents a user authentication status change deferral returned by the [UserAuthenticationStatusChangingEventArgs.GetDeferral](userauthenticationstatuschangingeventargs_getdeferral.md) method.
+Represents a user authentication status change deferral returned by the [UserAuthenticationStatusChangingEventArgs.GetDeferral](userauthenticationstatuschangingeventargs_getdeferral_254836512.md) method.
 
 ## -remarks
 

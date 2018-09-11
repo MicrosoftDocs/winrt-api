@@ -69,6 +69,15 @@ Declare the RTC capability in your app's manifest by specifying the **Control ch
 
 If all hardware RTC slots are full at the time that the app is added to the lock screen, and if the app has specified **Control channel** in its manifest, together with **Timer** or **Push notification**, it is added to the lock screen, but without RTC capability. The app can then make further requests to be added to the lock screen, which do not present UI to the user. If a hardware slot is open when one such request is made, the app will take that slot.
 
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | AllowedSubjectToSystemPolicy |
+| 1607 | 14393 | AlwaysAllowed |
+| 1607 | 14393 | DeniedBySystemPolicy |
+| 1607 | 14393 | DeniedByUser |
+
 ## -examples
 
 ## -see-also

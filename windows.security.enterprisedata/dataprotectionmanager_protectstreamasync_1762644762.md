@@ -33,7 +33,7 @@ When the call to this method completes successfully, it returns a [DataProtectio
 ## -examples
 
 ## -see-also
-[DataProtectionInfo](dataprotectioninfo.md), [ProtectionPolicyManager.IsIdentityManaged](protectionpolicymanager_isidentitymanaged.md)
+[DataProtectionInfo](dataprotectioninfo.md), [ProtectionPolicyManager.IsIdentityManaged](protectionpolicymanager_isidentitymanaged_906801364.md)
 
 ## -capabilities
 enterpriseDataPolicy

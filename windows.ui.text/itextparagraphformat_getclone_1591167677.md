@@ -20,4 +20,4 @@ The duplicate paragraph format object.
 ## -examples
 
 ## -see-also
-[ITextParagraphFormat.SetClone](itextparagraphformat_setclone.md)
+[ITextParagraphFormat.SetClone](itextparagraphformat_setclone_1039496425.md)

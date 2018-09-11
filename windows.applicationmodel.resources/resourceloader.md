@@ -26,7 +26,7 @@ In general, resources can be sensitive to scale or other display characteristics
 Also see [Screen sizes and breakpoints](/windows/uwp/design/layout/screen-sizes-and-breakpoints-for-responsive-design).
 
 ## -examples
-Use the [ResourceLoader.GetString | getString](resourceloader_getstring_1647290392.md) method to get the string resource identified by "Farewell".
+Use the [ResourceLoader.GetString](resourceloader_getstring_1647290392.md) method to get the string resource identified by "Farewell".
 
 ```csharp
 var resourceLoader = Windows.ApplicationModel.Resources.ResourceLoader.GetForCurrentView();

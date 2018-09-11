@@ -23,7 +23,7 @@ The animation with the specified key; or **null** if no animation has been prepa
 A [ConnectedAnimation](connectedanimation.md) is no longer active when:
 + It has been canceled.
 + The animation has completed.
-+ The source has expired ([PrepareToAnimate](connectedanimationservice_preparetoanimate.md) was called and then the animation was not started for ~2 seconds).
++ The source has expired ([PrepareToAnimate](connectedanimationservice_preparetoanimate_910589761.md) was called and then the animation was not started for ~2 seconds).
 
 
 ## -examples

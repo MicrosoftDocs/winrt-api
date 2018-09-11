@@ -22,7 +22,7 @@ Returns **true** if the current storage item is the same as the specified storag
 ## -remarks
 Use the [IsEqual](istorageitem2_isequal_1221320574.md) method to determine whether two storage items represent the same file or folder.
 
-This method compares the [Path](istorageitem_path.md) property of both items to determine if they are the same. If there is no [Path](istorageitem_path.md) (if the item is a library for example), or if the paths do not match the items are compared using [IShellItem::Compare](http://msdn.microsoft.com/library/737a93e0-2e27-466b-889c-04a25e52e883).
+This method compares the [Path](istorageitem_path.md) property of both items to determine if they are the same. If there is no [Path](istorageitem_path.md) (if the item is a library for example), or if the paths do not match the items are compared using [IShellItem.Compare](http://msdn.microsoft.com/library/737a93e0-2e27-466b-889c-04a25e52e883).
 
 This example shows how to compare two storage files for equality.
 
@@ -56,4 +56,4 @@ function openNewFile() {
 ## -examples
 
 ## -see-also
-[StorageFile.IsEqual](storagefile_isequal.md), [StorageFolder.IsEqual](storagefolder_isequal.md)
+[StorageFile.IsEqual](storagefile_isequal_1221320574.md), [StorageFolder.IsEqual](storagefolder_isequal_1221320574.md)

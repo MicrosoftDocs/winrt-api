@@ -35,9 +35,9 @@ You cannot use this method to launch a URI in the local zone. For example, apps 
 
 When the launch fails for any of the above reasons, the API will succeed and return FALSE from its asynchronous operation.
 
-To enable the user to choose an app instead of launching the default app, set the [LauncherOptions.DisplayApplicationPicker | displayApplicationPicker](launcheroptions_displayapplicationpicker.md) property.
+To enable the user to choose an app instead of launching the default app, set the [LauncherOptions.DisplayApplicationPicker](launcheroptions_displayapplicationpicker.md) property.
 
-To display a warning that the URI is potentially unsafe, set the [LauncherOptions.TreatAsUntrusted | treatAsUntrusted](launcheroptions_treatasuntrusted.md) property.
+To display a warning that the URI is potentially unsafe, set the [LauncherOptions.TreatAsUntrusted](launcheroptions_treatasuntrusted.md) property.
 
 The URI is passed to the associated app. If the associated app is a desktop app, the URI is passed using shell execution mechanisms.
 

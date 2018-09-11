@@ -29,7 +29,7 @@ The revision version number of the package.
 ## -remarks
 
 ## -examples
-Use the [Package.Current | current](package_current.md) property to get the package for the current app. Use the [Package.Id | id](package_id.md) property to get the package ID, from wihch you can then get the version.
+Use the [Package.Current](package_current.md) property to get the package for the current app. Use the [Package.Id](package_id.md) property to get the package ID, from which you can then get the version.
 
 ```javascript
 var package = Windows.ApplicationModel.Package.current;

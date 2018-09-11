@@ -21,4 +21,4 @@ A stream representing the bar code image.
 ## -examples
 
 ## -see-also
-[WalletBarcode(WalletBarcodeSymbology, String)](walletbarcode_walletbarcode_30902746.md), [StorageFile.GetFileFromApplicationUriAsync](../windows.storage/storagefile_getfilefromapplicationuriasync.md)
+[WalletBarcode(WalletBarcodeSymbology, String)](walletbarcode_walletbarcode_30902746.md), [StorageFile.GetFileFromApplicationUriAsync](../windows.storage/storagefile_getfilefromapplicationuriasync_1702427701.md)

@@ -20,7 +20,7 @@ The final zoom level of the map, between 1 and 20.
 Contains the results of the operation: **true** if the operation completed successfully; otherwise, **false**.
 
 ## -remarks
-See the remarks section of the [TryZoomInAsync](mapcontrol_tryzoominasync.md) method.
+See the remarks section of the [TryZoomInAsync](mapcontrol_tryzoominasync_1251712457.md) method.
 
 ## -examples
 

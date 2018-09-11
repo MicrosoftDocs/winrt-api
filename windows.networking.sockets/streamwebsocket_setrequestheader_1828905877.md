@@ -20,13 +20,13 @@ The name of the request header.
 The value of the request header.
 
 ## -remarks
-The [SetRequestHeader](streamwebsocket_setrequestheader.md) method must be called prior to calling the [ConnectAsync](streamwebsocket_connectasync.md) method. Calling the [SetRequestHeader](streamwebsocket_setrequestheader.md) method after calling the [ConnectAsync](streamwebsocket_connectasync.md) method will result in an error.
+The [SetRequestHeader](streamwebsocket_setrequestheader_1828905877.md) method must be called prior to calling the [ConnectAsync](streamwebsocket_connectasync_682685111.md) method. Calling the [SetRequestHeader](streamwebsocket_setrequestheader_1828905877.md) method after calling the [ConnectAsync](streamwebsocket_connectasync_682685111.md) method will result in an error.
 
-Using the [SetRequestHeader](streamwebsocket_setrequestheader.md) method to add a **Sec-WebSocket-Extensions** header is not supported.
+Using the [SetRequestHeader](streamwebsocket_setrequestheader_1828905877.md) method to add a **Sec-WebSocket-Extensions** header is not supported.
 
 
 
 ## -examples
 
 ## -see-also
-[ConnectAsync](streamwebsocket_connectasync.md)
+[ConnectAsync](streamwebsocket_connectasync_682685111.md)

@@ -19,7 +19,7 @@ This API requires the use of the IoT **systemManagement** capability, and the in
 ## -examples
 
 ## -see-also
-[ShutdownManager.BeginShutdown](shutdownmanager_beginshutdown.md)
+[ShutdownManager.BeginShutdown](shutdownmanager_beginshutdown_1111263285.md)
 
 ## -capabilities
 systemManagement

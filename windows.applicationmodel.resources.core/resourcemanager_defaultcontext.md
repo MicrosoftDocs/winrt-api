@@ -23,4 +23,4 @@ The resource context.
 ## -examples
 
 ## -see-also
-[ResourceContext.GetForCurrentView](resourcecontext_getforcurrentview.md)
+[ResourceContext.GetForCurrentView](resourcecontext_getforcurrentview_1363600702.md)

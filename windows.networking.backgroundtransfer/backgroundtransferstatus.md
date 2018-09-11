@@ -45,6 +45,12 @@ One of the app-configured recoverable web error statuses ([RecoverableWebErrorSt
 
 ## -remarks
 
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1709 | 16299 | PausedRecoverableWebErrorStatus |
+
 ## -examples
 
 ## -see-also

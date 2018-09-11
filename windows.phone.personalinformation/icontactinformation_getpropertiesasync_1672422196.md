@@ -20,7 +20,7 @@ When this method completes, it returns a map/dictionary of string name/untyped v
 ## -examples
 
 ## -see-also
-[ContactInformation.GetPropertiesAsync](contactinformation_getpropertiesasync.md)
+[ContactInformation.GetPropertiesAsync](contactinformation_getpropertiesasync_1672422196.md)
 
 ## -capabilities
 ID_CAP_CONTACTS [Windows Phone]

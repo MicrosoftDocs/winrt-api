@@ -10,7 +10,7 @@ public event Windows.Foundation.TypedEventHandler EnabledChanged<Windows.Media.C
 # Windows.Media.Core.VideoStabilizationEffect.EnabledChanged
 
 ## -description
-Occurs when the value of the [VideoStabilizationEffect::Enabled](videostabilizationeffect_enabled.md) property changes.
+Occurs when the value of the [VideoStabilizationEffect.Enabled](videostabilizationeffect_enabled.md) property changes.
 
 ## -remarks
 

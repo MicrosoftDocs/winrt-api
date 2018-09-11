@@ -26,4 +26,4 @@ This method determines if *codepoint* is a one of the invalid Unicode code point
 ## -examples
 
 ## -see-also
-[GetCodepointFromSurrogatePair](unicodecharacters_getcodepointfromsurrogatepair.md)
+[GetCodepointFromSurrogatePair](unicodecharacters_getcodepointfromsurrogatepair_1886831018.md)

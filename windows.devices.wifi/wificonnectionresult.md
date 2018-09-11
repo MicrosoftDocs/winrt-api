@@ -14,9 +14,9 @@ public class WiFiConnectionResult : Windows.Devices.WiFi.IWiFiConnectionResult
 Describes the results of an attempt to connect to a Wi-Fi network.
 
 ## -remarks
-An instance of this class is created and returned by the [WiFiAdapter.ConnectAsync](wifiadapter_connectasync.md) function.
+An instance of this class is created and returned by the [WiFiAdapter.ConnectAsync](/uwp/api/windows.devices.wifi.wifiadapter.connectasync) function.
 
 ## -examples
 
 ## -see-also
-[WiFiAdapter.ConnectAsync](wifiadapter_connectasync.md) 
+[WiFiAdapter.ConnectAsync](/uwp/api/windows.devices.wifi.wifiadapter.connectasync) 

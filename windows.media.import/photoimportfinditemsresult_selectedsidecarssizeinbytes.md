@@ -11,7 +11,7 @@ public ulong SelectedSidecarsSizeInBytes { get; }
 # Windows.Media.Import.PhotoImportFindItemsResult.SelectedSidecarsSizeInBytes
 
 ## -description
-Gets the size of the sidecar files that are currently selected to be included in the [ImportItemsAsync](photoimportfinditemsresult_importitemsasync.md) operation, in bytes.
+Gets the size of the sidecar files that are currently selected to be included in the [ImportItemsAsync](photoimportfinditemsresult_importitemsasync_357096682.md) operation, in bytes.
 
 ## -property-value
 The size of the sidecar files that are currently selected.

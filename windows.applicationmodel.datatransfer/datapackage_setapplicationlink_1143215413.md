@@ -24,4 +24,4 @@ The scheme of this Uniform Resource Identifier (URI) must not be **http** or **h
 ## -examples
 
 ## -see-also
-[GetApplicationLinkAsync](datapackageview_getapplicationlinkasync.md)
+[GetApplicationLinkAsync](datapackageview_getapplicationlinkasync_832271692.md)

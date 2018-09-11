@@ -25,4 +25,4 @@ Uppercase characters.
 ## -examples
 
 ## -see-also
-[ITextRange.ChangeCase](itextrange_changecase.md)
+[ITextRange.ChangeCase](itextrange_changecase_399547813.md)

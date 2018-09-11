@@ -16,9 +16,9 @@ Gets a value that indicates whether there is at least one page in the forward na
 **true** if the [WebView](webview.md) can navigate forward; otherwise, **false**.
 
 ## -remarks
-To navigate forward, call the [GoForward](webview_goforward.md) method.
+To navigate forward, call the [GoForward](webview_goforward_1537152893.md) method.
 
 ## -examples
 
 ## -see-also
-[GoForward](webview_goforward.md)
+[GoForward](webview_goforward_1537152893.md)

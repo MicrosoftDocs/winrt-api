@@ -16,7 +16,7 @@ Gets a value indicating the gain applied at the outer angle of the cone.
 A value indicating the gain applied at the outer angle of the cone.
 
 ## -remarks
-Set the outer angle gain of an emitter cone shape by calling [AudioNodeEmitterShape.CreateCone](audionodeemittershape_createcone.md).
+Set the outer angle gain of an emitter cone shape by calling [AudioNodeEmitterShape.CreateCone](audionodeemittershape_createcone_1260552697.md).
 
 ## -examples
 

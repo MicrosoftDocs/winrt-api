@@ -15,7 +15,7 @@ Represents a certificate chain used for signature verification.
 ## -remarks
 A certificate chain is a hierarchal collection of certificates that leads from the end user or computer back to a root of trust, typically the root certification authority (CA).
 
-To obtain a [CertificateChain](certificatechain.md) object, call the [Certificate.BuildChainAsync](certificate_buildchainasync.md) method.
+To obtain a [CertificateChain](certificatechain.md) object, call the [Certificate.BuildChainAsync](/uwp/api/windows.security.cryptography.certificates.certificate.buildchainasync) method.
 
 ## -examples
 

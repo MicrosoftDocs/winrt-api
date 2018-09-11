@@ -20,4 +20,4 @@ Gets a value that reports whether the window has pointer capture.
 ## -examples
 
 ## -see-also
-[SetPointerCapture](coreindependentinputsource_setpointercapture.md), [ReleasePointerCapture](coreindependentinputsource_releasepointercapture.md)
+[SetPointerCapture](coreindependentinputsource_setpointercapture_651539121.md), [ReleasePointerCapture](coreindependentinputsource_releasepointercapture_193058457.md)

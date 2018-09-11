@@ -28,4 +28,4 @@ The distance from the leftmost print column to the start of the bitmap, expresse
 ## -examples
 
 ## -see-also
-[SetCustomAlignedBitmap(UInt32, BitmapFrame, UInt32, UInt32)](ireceiptorslipjob_setcustomalignedbitmap_1547903367.md), [SetBitmap(UInt32, BitmapFrame, PosPrinterAlignment)](ireceiptorslipjob_setbitmap_489195165.md), [SetBitmap(UInt32, BitmapFrame, PosPrinterAlignment, UInt32)](ireceiptorslipjob_setbitmap_49606997.md), [ClaimedPosPrinter.MapMode](claimedposprinter_mapmode.md), [PrintSavedBitmap](ireceiptorslipjob_printsavedbitmap.md)
+[SetCustomAlignedBitmap(UInt32, BitmapFrame, UInt32, UInt32)](ireceiptorslipjob_setcustomalignedbitmap_1547903367.md), [SetBitmap(UInt32, BitmapFrame, PosPrinterAlignment)](ireceiptorslipjob_setbitmap_489195165.md), [SetBitmap(UInt32, BitmapFrame, PosPrinterAlignment, UInt32)](ireceiptorslipjob_setbitmap_49606997.md), [ClaimedPosPrinter.MapMode](claimedposprinter_mapmode.md), [PrintSavedBitmap](ireceiptorslipjob_printsavedbitmap_1902948304.md)

@@ -27,4 +27,4 @@ The flags indicating the current state of the supplied virtual key when the inpu
 ## -examples
 
 ## -see-also
-[CoreVirtualKeyStates](corevirtualkeystates.md), [GetKeyState](corewindow_getkeystate.md)
+[CoreVirtualKeyStates](corevirtualkeystates.md), [GetKeyState](corewindow_getkeystate_1676715341.md)

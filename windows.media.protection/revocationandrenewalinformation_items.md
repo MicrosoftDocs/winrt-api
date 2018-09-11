@@ -16,9 +16,9 @@ Returns a list of components that need to be revoked and renewed with updated co
 List of components that need to be revoked and renewed.
 
 ## -remarks
-If there are no entries in the list, it indicates that basic system components are compromised. In that case, recovery can be attempted by invoking [ComponentRenewal.RenewSystemComponentsAsync](componentrenewal_renewsystemcomponentsasync.md).
+If there are no entries in the list, it indicates that basic system components are compromised. In that case, recovery can be attempted by invoking [ComponentRenewal.RenewSystemComponentsAsync](componentrenewal_renewsystemcomponentsasync_1438723694.md).
 
-If there is a single entry in the list, the entry may indicate that the system’s revocation list (active.grl) needs updating. This usually means that the content protection system requires updates of components. This is often the first indication that components need updating. Recovery can be attempted by invoking [ComponentRenewal.RenewSystemComponentsAsync](componentrenewal_renewsystemcomponentsasync.md).
+If there is a single entry in the list, the entry may indicate that the system’s revocation list (active.grl) needs updating. This usually means that the content protection system requires updates of components. This is often the first indication that components need updating. Recovery can be attempted by invoking [ComponentRenewal.RenewSystemComponentsAsync](componentrenewal_renewsystemcomponentsasync_1438723694.md).
 
 ## -examples
 

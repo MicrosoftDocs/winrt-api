@@ -10,7 +10,7 @@ public class InteractionTrackerValuesChangedArgs : Windows.UI.Composition.Intera
 # Windows.UI.Composition.Interactions.InteractionTrackerValuesChangedArgs
 
 ## -description
-Arguments for the [IInteractionTrackerOwner.ValuesChanged](iinteractiontrackerowner_valueschanged.md) callback.
+Arguments for the [IInteractionTrackerOwner.ValuesChanged](iinteractiontrackerowner_valueschanged_7014738.md) callback.
 
 ## -remarks
 

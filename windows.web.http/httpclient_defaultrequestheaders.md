@@ -25,7 +25,7 @@ The [DefaultRequestHeaders](httpclient_defaultrequestheaders.md) property repres
 
 
 > [!WARNING]
-> In versions before Windows 10, setting certain headers to NULL caused an empty header value to be set, which caused an unexpected failure in subsequent calls to [GetAsync](httpclient_getasync.md). Starting in Windows 10, setting any of the following headers to NULL causes them to be removed from the request entirely, so that the remaining headers are valid.
+> In versions before Windows 10, setting certain headers to NULL caused an empty header value to be set, which caused an unexpected failure in subsequent calls to [GetAsync](/uwp/api/windows.web.http.httpclient.getasync). Starting in Windows 10, setting any of the following headers to NULL causes them to be removed from the request entirely, so that the remaining headers are valid.
 
 + Authorization
 + Date

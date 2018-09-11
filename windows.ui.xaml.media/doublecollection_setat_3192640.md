@@ -20,9 +20,9 @@ The index at which to set the value.
 The value to set.
 
 ## -remarks
-[InsertAt](doublecollection_insertat.md) expands the collection and moves all subsequent index items by one.
+[InsertAt](doublecollection_insertat_1903154992.md) expands the collection and moves all subsequent index items by one.
 
-In contrast, [SetAt](doublecollection_setat.md) replaces the item at the index, and the collection count remains the same.
+In contrast, [SetAt](doublecollection_setat_3192640.md) replaces the item at the index, and the collection count remains the same.
 
 ## -examples
 

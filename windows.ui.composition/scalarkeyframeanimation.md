@@ -13,7 +13,7 @@ public class ScalarKeyFrameAnimation : Windows.UI.Composition.KeyFrameAnimation,
 A time-based animation that targets any Scalar-based property with one or more key frames.
 
 ## -remarks
-An animation is associated with an object's property by calling [CompositionObject::StartAnimation](compositionobject_startanimation_709050842.md) and specifying the property name and the animation. See the remarks section of [CompositionObject::StartAnimation](compositionobject_startanimation_709050842.md) for a list of animatable properties.
+An animation is associated with an object's property by calling [CompositionObject.StartAnimation](compositionobject_startanimation_709050842.md) and specifying the property name and the animation. See the remarks section of [CompositionObject.StartAnimation](compositionobject_startanimation_709050842.md) for a list of animatable properties.
 
 ## -examples
 

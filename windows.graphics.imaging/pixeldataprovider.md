@@ -13,7 +13,7 @@ public class PixelDataProvider : Windows.Graphics.Imaging.IPixelDataProvider
 Provides access to the pixel data from a bitmap frame.
 
 ## -remarks
-An application asynchronously receives a [PixelDataProvider](pixeldataprovider.md) from the [GetPixelDataAsync](bitmapframe_getpixeldataasync_1391309547.md) methods of [BitmapFrame](bitmapframe.md) or [BitmapDecoder](bitmapdecoder.md). The application can then synchronously request the pixel data using [DetachPixelData](pixeldataprovider_detachpixeldata.md) to get access to the raw pixels of the bitmap.
+An application asynchronously receives a [PixelDataProvider](pixeldataprovider.md) from the [GetPixelDataAsync](bitmapframe_getpixeldataasync_1391309547.md) methods of [BitmapFrame](bitmapframe.md) or [BitmapDecoder](bitmapdecoder.md). The application can then synchronously request the pixel data using [DetachPixelData](pixeldataprovider_detachpixeldata_1386564001.md) to get access to the raw pixels of the bitmap.
 
 ## -examples
 

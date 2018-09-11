@@ -10,7 +10,7 @@ public void SetQuaternionParameter(System.String key, Windows.Foundation.Numeric
 # Windows.UI.Composition.CompositionAnimation.SetQuaternionParameter
 
 ## -description
-Sets a Quaternion value for use with an [ExpressionAnimation](expressionanimation.md) or an [expression keyframe](keyframeanimation_insertexpressionkeyframe.md).
+Sets a Quaternion value for use with an [ExpressionAnimation](expressionanimation.md) or an [expression keyframe](/uwp/api/windows.ui.composition.keyframeanimation.insertexpressionkeyframe).
 
 ## -parameters
 ### -param key

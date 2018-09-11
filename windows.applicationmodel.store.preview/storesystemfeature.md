@@ -10,7 +10,7 @@ public enum Windows.ApplicationModel.Store.Preview.StoreSystemFeature : int
 # StoreSystemFeature
 
 ## -description
-Defines values that represent hardware features that can be queried for the current device by using the [FilterUnsupportedSystemFeaturesAsync](storeconfiguration_filterunsupportedsystemfeaturesasync.md) method.
+Defines values that represent hardware features that can be queried for the current device by using the [FilterUnsupportedSystemFeaturesAsync](storeconfiguration_filterunsupportedsystemfeaturesasync_1497477694.md) method.
 
 ## -enum-fields
 ### -field ArchitectureX86:0
@@ -119,6 +119,22 @@ The device has 1 GB of video memory.
 The device chipset uses the ARM64 CPU architecture.
 
 ## -remarks
+
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | Memory12GB |
+| 1607 | 14393 | Memory16GB |
+| 1607 | 14393 | Memory20GB |
+| 1607 | 14393 | Memory4GB |
+| 1607 | 14393 | Memory6GB |
+| 1607 | 14393 | Memory8GB |
+| 1607 | 14393 | VideoMemory1GB |
+| 1607 | 14393 | VideoMemory2GB |
+| 1607 | 14393 | VideoMemory4GB |
+| 1607 | 14393 | VideoMemory6GB |
+| 1803 | 17134 | ArchitectureArm64 |
 
 ## -examples
 

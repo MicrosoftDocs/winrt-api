@@ -10,10 +10,10 @@ public class CompositeVideoFrameContext : Windows.Media.Effects.ICompositeVideoF
 # Windows.Media.Effects.CompositeVideoFrameContext
 
 ## -description
-Provides context for performing a custom overlay operation within the [CompositeFrame](ivideocompositor_compositeframe.md) method.
+Provides context for performing a custom overlay operation within the [CompositeFrame](ivideocompositor_compositeframe_269150036.md) method.
 
 ## -remarks
-To retrieve an instance of this class, implement the [CompositeFrame](ivideocompositor_compositeframe.md) method.
+To retrieve an instance of this class, implement the [CompositeFrame](ivideocompositor_compositeframe_269150036.md) method.
 
 ## -examples
 

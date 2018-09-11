@@ -10,10 +10,10 @@ public Windows.ApplicationModel.Email.EmailMailboxCreateFolderStatus Status { ge
 # Windows.ApplicationModel.Email.EmailMailboxCreateFolderResult.Status
 
 ## -description
-Gets the status of a [TryCreateFolderAsync](emailmailbox_trycreatefolderasync.md) operation.
+Gets the status of a [TryCreateFolderAsync](emailmailbox_trycreatefolderasync_142768409.md) operation.
 
 ## -property-value
-The status of a [TryCreateFolderAsync](emailmailbox_trycreatefolderasync.md) operation.
+The status of a [TryCreateFolderAsync](emailmailbox_trycreatefolderasync_142768409.md) operation.
 
 ## -remarks
 

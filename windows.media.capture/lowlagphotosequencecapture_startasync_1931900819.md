@@ -23,4 +23,4 @@ Add a handler to the [PhotoCaptured](lowlagphotosequencecapture_photocaptured.md
 ## -examples
 
 ## -see-also
-[PrepareLowLagPhotoSequenceCaptureAsync](mediacapture_preparelowlagphotosequencecaptureasync.md)
+[PrepareLowLagPhotoSequenceCaptureAsync](mediacapture_preparelowlagphotosequencecaptureasync_2130225421.md)

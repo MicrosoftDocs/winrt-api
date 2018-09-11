@@ -138,6 +138,22 @@ The app was activated as a barcode scanner provider.
 
 ## -remarks
 
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1511 | 10586 | DevicePairing |
+| 1511 | 10586 | Print3DWorkflow |
+| 1607 | 14393 | FilePickerExperience |
+| 1607 | 14393 | UserDataAccountsProvider |
+| 1703 | 15063 | ContactPanel |
+| 1703 | 15063 | LockScreenComponent |
+| 1709 | 16299 | CommandLineLaunch |
+| 1709 | 16299 | GameUIProvider |
+| 1709 | 16299 | PrintWorkflowForegroundTask |
+| 1709 | 16299 | StartupTask |
+| 1803 | 17134 | BarcodeScannerProvider |
+
 ## -examples
 
 ## -see-also

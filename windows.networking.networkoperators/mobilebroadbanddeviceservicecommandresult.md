@@ -26,6 +26,6 @@ A [MobileBroadbandDeviceServiceCommandResult](mobilebroadbanddeviceservicecomman
 ## -examples
 
 ## -see-also
-[MobileBroadbandDeviceService](mobilebroadbanddeviceservice.md), [MobileBroadbandDeviceServiceCommandSession](mobilebroadbanddeviceservicecommandsession.md), [SendQueryCommandAsync](mobilebroadbanddeviceservicecommandsession_sendquerycommandasync.md), [SendSetCommandAsync](mobilebroadbanddeviceservicecommandsession_sendsetcommandasync.md)
+[MobileBroadbandDeviceService](mobilebroadbanddeviceservice.md), [MobileBroadbandDeviceServiceCommandSession](mobilebroadbanddeviceservicecommandsession.md), [SendQueryCommandAsync](mobilebroadbanddeviceservicecommandsession_sendquerycommandasync_1203981658.md), [SendSetCommandAsync](mobilebroadbanddeviceservicecommandsession_sendsetcommandasync_422276589.md)
 ## -capabilities
 cellularDeviceIdentity, cellularDeviceControl

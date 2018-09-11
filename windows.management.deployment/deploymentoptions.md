@@ -34,7 +34,6 @@ When you set this option, only the required content group will be staged. An app
 ## -remarks
 You can use the **DevelopmentMode** option to install apps without requiring an app package. Instead, the deployment engine processes the AppxManifest.xml file directly, which allows for a more rapid development cycle. The BlockMap.xml, [Content_Types].xml, and digital signature files are not required for app installation in **DevelopmentMode**.
 
-
 To successfully install an app in **DevelopmentMode**, it must meet these additional conditions beyond what is typically required for UWP apps:
 
 + The app must be unique to the current user account. No other user can have an app with the same package family name installed on the computer.
@@ -45,7 +44,6 @@ To successfully install an app in **DevelopmentMode**, it must meet these additi
 + The app can't be installed from the WindowsApps directory.
 If any of the preceding conditions aren't met, installation fails.
 
-
 Additionally, to simplify and enhance the app development experience, these key operating system behaviors are modified when an app is installed in **DevelopmentMode**:
 
 + App payload files can be modified. If you modify an app payload file, the changes are reflected next time the app is launched. You don't need to reinstall the app unless you modify the AppxManifest.xml file.
@@ -54,9 +52,14 @@ Additionally, to simplify and enhance the app development experience, these key 
 + Network loopback is allowed. You must opt-in to network loopback as described in [How to enable loopback and troubleshoot network isolation](http://msdn.microsoft.com/library/1ba27347-56ff-453f-83c9-56b9bd1f5092).
 + The app can be launched in [DesignMode](../windows.applicationmodel/designmode.md). For info about the [DesignMode class](../windows.applicationmodel/designmode.md), see [DesignMode class](../windows.applicationmodel/designmode.md).
 
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | RequiredContentGroupOnly |
 
 ## -examples
 
 ## -see-also
-[PackageManager.AddPackageAsync](packagemanager_addpackageasync.md), [PackageManager.RegisterPackageAsync](packagemanager_registerpackageasync.md), [PackageManager.UpdatePackageAsync](packagemanager_updatepackageasync.md)
+[PackageManager.AddPackageAsync](/uwp/api/windows.management.deployment.packagemanager.addpackageasync), [PackageManager.RegisterPackageAsync](/uwp/api/windows.management.deployment.packagemanager.registerpackageasync), [PackageManager.UpdatePackageAsync](packagemanager_updatepackageasync_1181217661.md)
 

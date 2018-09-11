@@ -17,17 +17,17 @@ Creates a [ThreadNetworkContext](threadnetworkcontext.md) protected to an enterp
 
 ## -parameters
 ### -param identity
-The enterprise identity. This is an email address or domain that is managed. This may be returned from [GetPrimaryManagedIdentityForNetworkEndpoint](protectionpolicymanager_getprimarymanagedidentityfornetworkendpointasync.md); otherwise your app should use [IsIdentityManaged](protectionpolicymanager_isidentitymanaged.md) to confirm that an email address or domain is managed.
+The enterprise identity. This is an email address or domain that is managed. This may be returned from [GetPrimaryManagedIdentityForNetworkEndpoint](protectionpolicymanager_getprimarymanagedidentityfornetworkendpointasync_9146700.md); otherwise your app should use [IsIdentityManaged](protectionpolicymanager_isidentitymanaged_906801364.md) to confirm that an email address or domain is managed.
 
 ## -returns
-The protected network context. The app must call [ThreadNetworkContext.Close](threadnetworkcontext_close.md) after access to the resource is completed.
+The protected network context. The app must call [ThreadNetworkContext.Close](threadnetworkcontext_close_811482585.md) after access to the resource is completed.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
-[GetPrimaryManagedIdentityForNetworkEndpoint](protectionpolicymanager_getprimarymanagedidentityfornetworkendpointasync.md), [IsIdentityManaged](protectionpolicymanager_isidentitymanaged.md), [ThreadNetworkContext.Close](threadnetworkcontext_close.md)
+[GetPrimaryManagedIdentityForNetworkEndpoint](protectionpolicymanager_getprimarymanagedidentityfornetworkendpointasync_9146700.md), [IsIdentityManaged](protectionpolicymanager_isidentitymanaged_906801364.md), [ThreadNetworkContext.Close](threadnetworkcontext_close_811482585.md)
 
 ## -capabilities
 enterpriseDataPolicy

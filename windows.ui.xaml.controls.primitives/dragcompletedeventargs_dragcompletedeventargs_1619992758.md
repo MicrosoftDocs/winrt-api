@@ -20,7 +20,7 @@ The horizontal change in position of the [Thumb](thumb.md) control, resulting fr
 The vertical change in position of the [Thumb](thumb.md) control, resulting from the drag operation.
 
 ### -param canceled
-A value that indicates whether the drag operation was canceled by a call to the [CancelDrag](thumb_canceldrag.md) method.
+A value that indicates whether the drag operation was canceled by a call to the [CancelDrag](thumb_canceldrag_1759017356.md) method.
 
 ## -remarks
 

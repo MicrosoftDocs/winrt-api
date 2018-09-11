@@ -25,4 +25,4 @@ Indicates that access to the programming element is not restricted.
 ## -examples
 
 ## -see-also
-[ComposableAttribute](composableattribute_composableattribute.md)
+[ComposableAttribute](/uwp/api/windows.foundation.metadata.composableattribute.composableattribute)

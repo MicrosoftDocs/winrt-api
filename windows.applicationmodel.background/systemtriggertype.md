@@ -118,6 +118,12 @@ The background task is triggered when the default sign-in account changes.
 
 ## -remarks
 
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | DefaultSignInAccountChange |
+
 ## -examples
 
 ## -see-also

@@ -18,7 +18,7 @@ The [PositionVelocityInPixelsPerSecond](interactiontracker_positionvelocityinpix
 The velocity currently applied to position.
 
 ## -remarks
-When accessing the [PositionVelocityInPixelsPerSecond](interactiontracker_positionvelocityinpixelspersecond.md) property from the [InertiaStateEntered](iinteractiontrackerowner_inertiastateentered.md) event, you will be retrieving a snapshot of the calculated velocity based on the interaction. This event will only fire once after the interaction has occurred.
+When accessing the [PositionVelocityInPixelsPerSecond](interactiontracker_positionvelocityinpixelspersecond.md) property from the [InertiaStateEntered](iinteractiontrackerowner_inertiastateentered_615555038.md) event, you will be retrieving a snapshot of the calculated velocity based on the interaction. This event will only fire once after the interaction has occurred.
 
 ## -examples
 ```csharp

@@ -107,6 +107,20 @@ The companion device is unavailable. Use another sign-in option.
 
 ## -remarks
 
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1803 | 17134 | CanceledByUser |
+| 1803 | 17134 | CenterHand |
+| 1803 | 17134 | ConnectionRequired |
+| 1803 | 17134 | DeviceUnavailable |
+| 1803 | 17134 | MoveHandCloser |
+| 1803 | 17134 | MoveHandFarther |
+| 1803 | 17134 | PlaceHandAbove |
+| 1803 | 17134 | RecognitionFailed |
+| 1803 | 17134 | TimeLimitExceeded |
+
 ## -examples
 
 ## -see-also

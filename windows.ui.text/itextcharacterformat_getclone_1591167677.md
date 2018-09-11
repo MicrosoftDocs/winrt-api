@@ -20,4 +20,4 @@ The duplicate character format object.
 ## -examples
 
 ## -see-also
-[ITextCharacterFormat.SetClone](itextcharacterformat_setclone.md)
+[ITextCharacterFormat.SetClone](itextcharacterformat_setclone_1054413093.md)

@@ -13,7 +13,7 @@ public string DisplayText { get; }
 Gets the display text for a Japanese phoneme.
 
 ## -property-value
-The display text as originally passed to [TextReverseConversionGenerator.GetPhonemesAsync](textreverseconversiongenerator_getphonemesasync.md). In the typical use case of passing a Japanese sentence to that method, the display text is one phonetic part of the sentence in Kanji or a mix of Kanji and phonetic characters.
+The display text as originally passed to [TextReverseConversionGenerator.GetPhonemesAsync](textreverseconversiongenerator_getphonemesasync_395544774.md). In the typical use case of passing a Japanese sentence to that method, the display text is one phonetic part of the sentence in Kanji or a mix of Kanji and phonetic characters.
 
 ## -remarks
 

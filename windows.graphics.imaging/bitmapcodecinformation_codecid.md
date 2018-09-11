@@ -10,7 +10,7 @@ public System.Guid CodecId { get; }
 # Windows.Graphics.Imaging.BitmapCodecInformation.CodecId
 
 ## -description
-The unique identifier of the decoder or encoder. Methods like [BitmapDecoder::CreateAsync](bitmapdecoder_createasync.md) and [BitmapEncoder::CreateAsync](bitmapencoder_createasync.md) use the codec identifier to determine which codec to create.
+The unique identifier of the decoder or encoder. Methods like [BitmapDecoder.CreateAsync](/uwp/api/windows.graphics.imaging.bitmapdecoder.createasync) and [BitmapEncoder.CreateAsync](/uwp/api/windows.graphics.imaging.bitmapencoder.createasync) use the codec identifier to determine which codec to create.
 
 ## -property-value
 The codec unique identifier.
@@ -21,4 +21,4 @@ The encoder and decoder of an image format are separate, and their codec IDs are
 ## -examples
 
 ## -see-also
-[BitmapDecoder::CreateAsync](bitmapdecoder_createasync.md), [BitmapEncoder::CreateAsync](bitmapencoder_createasync.md)
+[BitmapDecoder.CreateAsync](/uwp/api/windows.graphics.imaging.bitmapdecoder.createasync), [BitmapEncoder.CreateAsync](/uwp/api/windows.graphics.imaging.bitmapencoder.createasync)

@@ -10,7 +10,7 @@ public enum Windows.ApplicationModel.Background.MediaProcessingTriggerResult : i
 # MediaProcessingTriggerResult
 
 ## -description
-Specifies the result of a call to [MediaProcessingTrigger::RequestAsync](mediaprocessingtrigger_requestasync.md).
+Specifies the result of a call to [MediaProcessingTrigger.RequestAsync](/uwp/api/windows.applicationmodel.background.mediaprocessingtrigger.requestasync).
 
 ## -enum-fields
 ### -field Allowed:0

@@ -24,4 +24,4 @@ This API is supported in native apps only.
 ## -examples
 
 ## -see-also
-[CoreApplication::RunWithActivationFactories](coreapplication_runwithactivationfactories.md)
+[CoreApplication.RunWithActivationFactories](coreapplication_runwithactivationfactories_672867736.md)

@@ -37,6 +37,12 @@ A hybrid map that combines an aerial 3D map with roads.
 
 ## -remarks
 
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | Custom |
+
 ## -examples
 
 ## -see-also

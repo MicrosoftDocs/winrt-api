@@ -25,4 +25,4 @@ An asynchronous operation that returns true if the user inserts the slip within 
 ## -examples
 
 ## -see-also
-[RemoveSlipAsync](claimedslipprinter_removeslipasync.md), [OpenJaws](claimedslipprinter_openjaws.md), [CloseJaws](claimedslipprinter_closejaws.md)
+[RemoveSlipAsync](claimedslipprinter_removeslipasync_1430912393.md), [OpenJaws](claimedslipprinter_openjaws_1310830337.md), [CloseJaws](claimedslipprinter_closejaws_455707994.md)

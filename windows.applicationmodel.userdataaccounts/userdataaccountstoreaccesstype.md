@@ -10,7 +10,7 @@ public enum Windows.ApplicationModel.UserDataAccounts.UserDataAccountStoreAccess
 # UserDataAccountStoreAccessType
 
 ## -description
-Specifies the requested access type in a call to [RequestStoreAsync](userdataaccountmanager_requeststoreasync.md).
+Specifies the requested access type in a call to [RequestStoreAsync](userdataaccountmanager_requeststoreasync_1031356348.md).
 
 ## -enum-fields
 ### -field AllAccountsReadOnly:0

@@ -16,7 +16,7 @@ Gets a unique identifier for the media frame source group.
 A unique identifier for the media frame source group.
 
 ## -remarks
-Use this identifier when calling [FromIdAsync](mediaframesourcegroup_fromidasync.md) to retrieve a specific media frame source group.
+Use this identifier when calling [FromIdAsync](mediaframesourcegroup_fromidasync_1322863552.md) to retrieve a specific media frame source group.
 
 ## -examples
 

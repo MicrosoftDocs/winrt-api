@@ -26,4 +26,4 @@ Starting in Windows 10, you can use the [SelectRange](listviewbase_selectrange_
 ## -examples
 
 ## -see-also
-[SelectionMode](listviewbase_selectionmode.md), [Selector.SelectedItem](../windows.ui.xaml.controls.primitives/selector_selecteditem.md), [Selector.SelectedIndex](../windows.ui.xaml.controls.primitives/selector_selectedindex.md), [Selector.SelectionChanged](../windows.ui.xaml.controls.primitives/selector_selectionchanged.md), [SelectedRanges](listviewbase_selectedranges.md), [SelectRange](listviewbase_selectrange.md), [DeselectRange](listviewbase_deselectrange.md)
+[SelectionMode](listviewbase_selectionmode.md), [Selector.SelectedItem](../windows.ui.xaml.controls.primitives/selector_selecteditem.md), [Selector.SelectedIndex](../windows.ui.xaml.controls.primitives/selector_selectedindex.md), [Selector.SelectionChanged](../windows.ui.xaml.controls.primitives/selector_selectionchanged.md), [SelectedRanges](listviewbase_selectedranges.md), [SelectRange](listviewbase_selectrange_1824826911.md), [DeselectRange](listviewbase_deselectrange_1629963900.md)

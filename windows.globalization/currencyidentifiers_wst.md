@@ -10,10 +10,10 @@ public string WST { get; }
 # Windows.Globalization.CurrencyIdentifiers.WST
 
 ## -description
-Gets the currency identifier for the Samoa Tala.
+Gets the currency identifier for the Samoan Tala.
 
 ## -property-value
-The string "WST", which identifies the Samoa Tala.
+The string "WST", which identifies the Samoan Tala.
 
 ## -remarks
 

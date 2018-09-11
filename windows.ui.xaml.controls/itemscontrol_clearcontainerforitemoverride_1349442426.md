@@ -10,7 +10,7 @@ virtual protected void ClearContainerForItemOverride(Windows.UI.Xaml.DependencyO
 # Windows.UI.Xaml.Controls.ItemsControl.ClearContainerForItemOverride
 
 ## -description
-Undoes the effects of the [PrepareContainerForItemOverride](itemscontrol_preparecontainerforitemoverride.md) method.
+Undoes the effects of the [PrepareContainerForItemOverride](itemscontrol_preparecontainerforitemoverride_1839050347.md) method.
 
 ## -parameters
 ### -param element

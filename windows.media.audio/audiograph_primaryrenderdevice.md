@@ -16,7 +16,7 @@ Gets the primary render device for the audio graph.
 The primary render device for the audio graph.
 
 ## -remarks
-Specify the primary rendering device for an audio graph by setting the [AudioGraphSettings::PrimaryRenderDevice](audiographsettings_primaryrenderdevice.md) property before creating the audio graph with a call to [CreateAsync](audiograph_createasync_145006550.md).
+Specify the primary rendering device for an audio graph by setting the [AudioGraphSettings.PrimaryRenderDevice](audiographsettings_primaryrenderdevice.md) property before creating the audio graph with a call to [CreateAsync](audiograph_createasync_145006550.md).
 
 ## -examples
 

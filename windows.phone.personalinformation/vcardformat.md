@@ -26,7 +26,7 @@ Version 3.0
 ## -examples
 
 ## -see-also
-[ContactInformation.ToVcardAsync](contactinformation_tovcardasync.md)
+[ContactInformation.ToVcardAsync](/uwp/api/windows.phone.personalinformation.contactinformation.tovcardasync)
 
 ## -capabilities
 ID_CAP_CONTACTS [Windows Phone]

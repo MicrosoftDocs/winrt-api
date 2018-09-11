@@ -10,7 +10,7 @@ public enum Windows.Globalization.PhoneNumberFormatting.PhoneNumberMatchResult :
 # PhoneNumberMatchResult
 
 ## -description
-The result of calling the [PhoneNumberInfo.CheckNumberMatch](phonenumberinfo_checknumbermatch.md) method.
+The result of calling the [PhoneNumberInfo.CheckNumberMatch](phonenumberinfo_checknumbermatch_849235604.md) method.
 
 ## -enum-fields
 ### -field NoMatch:0

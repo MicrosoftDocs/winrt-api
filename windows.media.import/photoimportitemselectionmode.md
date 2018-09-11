@@ -11,7 +11,7 @@ public enum Windows.Media.Import.PhotoImportItemSelectionMode : int
 # PhotoImportItemSelectionMode
 
 ## -description
-Specifies the initial selection state for items that are discovered using [PhotoImportSession::FindItemsAsync](photoimportsession_finditemsasync.md).
+Specifies the initial selection state for items that are discovered using [PhotoImportSession.FindItemsAsync](photoimportsession_finditemsasync_1686050162.md).
 
 ## -enum-fields
 ### -field SelectAll:0

@@ -11,10 +11,10 @@ public class MobileBroadbandUiccAppRecordDetailsResult : Windows.Networking.Netw
 # Windows.Networking.NetworkOperators.MobileBroadbandUiccAppRecordDetailsResult
 
 ## -description
-Contains details about results of a UICC application record read operation initiated with [MobileBroadbandUiccAppClass.GetRecordDetailsAsync](mobilebroadbanduiccapp_getrecorddetailsasync.md).
+Contains details about results of a UICC application record read operation initiated with [MobileBroadbandUiccAppClass.GetRecordDetailsAsync](mobilebroadbanduiccapp_getrecorddetailsasync_306973478.md).
 
 ## -remarks
-Your code does not instantiate this class directly. Instead, use instances returned by the [MobileBroadbandUiccApp.GetRecordDetailsAsync](mobilebroadbanduiccapp_getrecorddetailsasync.md) method.
+Your code does not instantiate this class directly. Instead, use instances returned by the [MobileBroadbandUiccApp.GetRecordDetailsAsync](mobilebroadbanduiccapp_getrecorddetailsasync_306973478.md) method.
 
 ## -examples
 

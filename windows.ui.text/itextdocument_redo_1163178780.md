@@ -17,4 +17,4 @@ Reverses the most recent undo operation.
 ## -examples
 
 ## -see-also
-[ITextDocument.CanRedo](itextdocument_canredo.md), [ITextDocument.Undo](itextdocument_undo.md)
+[ITextDocument.CanRedo](itextdocument_canredo_328904111.md), [ITextDocument.Undo](itextdocument_undo_1162720031.md)

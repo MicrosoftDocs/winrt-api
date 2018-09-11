@@ -10,10 +10,10 @@ public Windows.Foundation.Collections.ValueSet Arguments { get; }
 # Windows.Media.MediaProcessingTriggerDetails.Arguments
 
 ## -description
-Gets a value set containing the arguments supplied in the call to [MediaProcessingTrigger::RequestAsync](../windows.applicationmodel.background/mediaprocessingtrigger_requestasync_1089362155.md).
+Gets a value set containing the arguments supplied in the call to [MediaProcessingTrigger.RequestAsync](../windows.applicationmodel.background/mediaprocessingtrigger_requestasync_1089362155.md).
 
 ## -property-value
-A value set containing the arguments supplied in the call to [MediaProcessingTrigger::RequestAsync](../windows.applicationmodel.background/mediaprocessingtrigger_requestasync_1089362155.md).
+A value set containing the arguments supplied in the call to [MediaProcessingTrigger.RequestAsync](../windows.applicationmodel.background/mediaprocessingtrigger_requestasync_1089362155.md).
 
 ## -remarks
 

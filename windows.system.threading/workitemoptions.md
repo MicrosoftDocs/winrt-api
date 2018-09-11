@@ -25,4 +25,4 @@ The work items should be run simultaneously with other work items sharing a proc
 ## -examples
 
 ## -see-also
-[ThreadPool.RunAsync](threadpool_runasync.md)
+[ThreadPool.RunAsync](/uwp/api/windows.system.threading.threadpool.runasync)

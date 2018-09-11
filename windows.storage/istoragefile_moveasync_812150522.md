@@ -41,4 +41,4 @@ No object or value is returned by this method.
 ## -examples
 
 ## -see-also
-[MoveAsync(IStorageFolder)](istoragefile_moveasync_2090099526.md), [MoveAsync(IStorageFolder, String, NameCollisionOption)](istoragefile_moveasync_1322093618.md), [StorageFile.MoveAsync](storagefile_moveasync.md)
+[MoveAsync(IStorageFolder)](istoragefile_moveasync_2090099526.md), [MoveAsync(IStorageFolder, String, NameCollisionOption)](istoragefile_moveasync_1322093618.md), [StorageFile.MoveAsync](/uwp/api/windows.storage.storagefile.moveasync)

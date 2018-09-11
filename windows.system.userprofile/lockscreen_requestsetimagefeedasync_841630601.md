@@ -20,7 +20,7 @@ The Uniform Resource Identifier (URI) of the RSS image feed.
 One of the [SetImageFeedResult](setimagefeedresult.md) values.
 
 ## -remarks
-The slideshow can be stopped by calling [TryRemoveImageFeed](lockscreen_tryremoveimagefeed.md).
+The slideshow can be stopped by calling [TryRemoveImageFeed](lockscreen_tryremoveimagefeed_1346761112.md).
 
 
 

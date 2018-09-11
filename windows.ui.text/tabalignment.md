@@ -34,4 +34,4 @@ A vertical bar is positioned at the tab position. Text is not affected. Alignmen
 ## -examples
 
 ## -see-also
-[ITextParagraphFormat.GetTab](itextparagraphformat_gettab.md), [ITextParagraphFormat.AddTab](itextparagraphformat_addtab.md)
+[ITextParagraphFormat.GetTab](itextparagraphformat_gettab_939731864.md), [ITextParagraphFormat.AddTab](itextparagraphformat_addtab_1762045005.md)

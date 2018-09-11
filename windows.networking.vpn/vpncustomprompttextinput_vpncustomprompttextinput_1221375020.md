@@ -10,7 +10,7 @@ public VpnCustomPromptTextInput()
 # Windows.Networking.Vpn.VpnCustomPromptTextInput.VpnCustomPromptTextInput
 
 ## -description
-Allows VPN plug-ins to create a text input UI element object to be used in the [RequestCustomPromptAsync](vpnchannel_requestcustompromptasync.md) method.
+Allows VPN plug-ins to create a text input UI element object to be used in the [RequestCustomPromptAsync](vpnchannel_requestcustompromptasync_598226399.md) method.
 
 ## -remarks
 

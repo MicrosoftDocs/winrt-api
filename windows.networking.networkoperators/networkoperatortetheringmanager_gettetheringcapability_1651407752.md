@@ -21,7 +21,7 @@ The network account ID.
 The tethering capabilities of a network account.
 
 ## -remarks
-Always call [GetTetheringCapability](networkoperatortetheringmanager_gettetheringcapability.md) prior to the creation of the tethering network using [CreateFromNetworkAccountId](mobilebroadbandaccount_createfromnetworkaccountid.md) to first confirm that the system is capable of creating a tethering network.
+Always call [GetTetheringCapability](networkoperatortetheringmanager_gettetheringcapability_1651407752.md) prior to the creation of the tethering network using [CreateFromNetworkAccountId](mobilebroadbandaccount_createfromnetworkaccountid_2015090244.md) to first confirm that the system is capable of creating a tethering network.
 
 ## -examples
 

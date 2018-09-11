@@ -55,6 +55,14 @@ A one-way beacon request
 
 ## -remarks
 
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | Beacon |
+| 1703 | 15063 | CrossOriginPreFlight |
+| 1703 | 15063 | Fetch |
+
 ## -examples
 
 ## -see-also

@@ -22,7 +22,7 @@ Gets a GUID that uniquely identifies the authentication attempt for which this e
 A GUID that uniquely identifies the connection attempt.
 
 ## -remarks
-The handler retrieving this token must call [TryGetAuthenticationContext](hotspotauthenticationcontext_trygetauthenticationcontext.md) to retrieve the full context of this event.
+The handler retrieving this token must call [TryGetAuthenticationContext](hotspotauthenticationcontext_trygetauthenticationcontext_1029198546.md) to retrieve the full context of this event.
 
 ## -examples
 

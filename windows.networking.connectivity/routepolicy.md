@@ -17,4 +17,4 @@ The [RoutePolicy](routepolicy.md) class is used to represent the traffic routing
 ## -examples
 
 ## -see-also
-[AddHttpRoutePolicy](connectivitymanager_addhttproutepolicy.md), [RemoveHttpRoutePolicy](connectivitymanager_removehttproutepolicy.md)
+[AddHttpRoutePolicy](connectivitymanager_addhttproutepolicy_1422666154.md), [RemoveHttpRoutePolicy](connectivitymanager_removehttproutepolicy_960581104.md)

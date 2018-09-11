@@ -16,7 +16,7 @@ Gets a value that indicates the current zoom factor engaged for content scaling.
 The current zoom factor engaged for content scaling. The default is 1.0, where 1.0 indicates no additional scaling.
 
 ## -remarks
-To change the value of this property at run-time or for initialization, use [ZoomToFactor](scrollviewer_zoomtofactor.md).
+To change the value of this property at run-time or for initialization, use [ZoomToFactor](scrollviewer_zoomtofactor_634053988.md).
 
 ## -examples
 

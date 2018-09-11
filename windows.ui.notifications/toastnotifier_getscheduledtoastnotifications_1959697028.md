@@ -22,7 +22,7 @@ The collection of scheduled toast notifications that the app bound to this notif
 ## -remarks
 
 ## -examples
-The following example shows the use of the [GetScheduledToastNotifications](toastnotifier_getscheduledtoastnotifications.md) method.
+The following example shows the use of the [GetScheduledToastNotifications](toastnotifier_getscheduledtoastnotifications_1959697028.md) method.
 
 ```javascript
 

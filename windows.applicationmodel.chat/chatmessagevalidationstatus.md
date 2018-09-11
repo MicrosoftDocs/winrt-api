@@ -59,6 +59,14 @@ Data roaming restriction
 
 ## -remarks
 
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | DataRoamingRestriction |
+| 1607 | 14393 | ValidWithLargeMessage |
+| 1607 | 14393 | VoiceRoamingRestriction |
+
 ## -examples
 
 ## -see-also

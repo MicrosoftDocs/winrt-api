@@ -40,4 +40,4 @@ A light that illuminates every targeted Visual equally.
 
 
 ## -see-also
-[CompositionLight](compositionlight.md), [CompositionLight.Targets](compositionlight_targets.md), [CreateAmbientLight](compositor_createambientlight.md)
+[CompositionLight](compositionlight.md), [CompositionLight.Targets](compositionlight_targets.md), [CreateAmbientLight](compositor_createambientlight_920812985.md)

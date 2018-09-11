@@ -14,7 +14,7 @@ public CameraCaptureUI()
 Create a new [CameraCaptureUI](cameracaptureui.md) object.
 
 ## -remarks
-After you create a new [CameraCaptureUI](cameracaptureui.md) object, you may want to set the [PhotoSettings](cameracaptureui_photosettings.md) or [VideoSettings](cameracaptureui_videosettings.md) property of the object before calling [CaptureFileAsync](cameracaptureui_capturefileasync.md).
+After you create a new [CameraCaptureUI](cameracaptureui.md) object, you may want to set the [PhotoSettings](cameracaptureui_photosettings.md) or [VideoSettings](cameracaptureui_videosettings.md) property of the object before calling [CaptureFileAsync](cameracaptureui_capturefileasync_1903527183.md).
 
 ## -examples
 

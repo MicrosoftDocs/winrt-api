@@ -20,4 +20,4 @@ static public event Windows.Graphics.Display.DisplayPropertiesEventHandler Color
 ## -examples
 
 ## -see-also
-[DisplayProperties::GetColorProfileAsync](displayproperties_getcolorprofileasync.md)
+[DisplayProperties.GetColorProfileAsync](displayproperties_getcolorprofileasync_1815252224.md)

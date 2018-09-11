@@ -31,4 +31,4 @@ We recommend that you disable the notification queu when using a large tile with
 ## -examples
 
 ## -see-also
-[EnableNotificationQueue](tileupdater_enablenotificationqueue.md), [EnableNotificationQueueForSquare150x150](tileupdater_enablenotificationqueueforsquare150x150.md), [EnableNotificationQueueForWide310x150](tileupdater_enablenotificationqueueforwide310x150.md)
+[EnableNotificationQueue](tileupdater_enablenotificationqueue_1798421599.md), [EnableNotificationQueueForSquare150x150](tileupdater_enablenotificationqueueforsquare150x150_2087406043.md), [EnableNotificationQueueForWide310x150](tileupdater_enablenotificationqueueforwide310x150_1310885892.md)

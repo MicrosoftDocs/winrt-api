@@ -10,10 +10,10 @@ public Windows.UI.Xaml.DependencyProperty StoryboardProperty { get; }
 # Windows.UI.Xaml.Media.Animation.BeginStoryboard.StoryboardProperty
 
 ## -description
-Identifies the [BeginStoryboard.Storyboard](beginstoryboard_storyboard.md)  dependency property.
+Identifies the [BeginStoryboard.Storyboard](beginstoryboard_storyboard_1221375020.md)  dependency property.
 
 ## -property-value
-The identifier for the [BeginStoryboard.Storyboard](beginstoryboard_storyboard.md)  dependency property.
+The identifier for the [BeginStoryboard.Storyboard](beginstoryboard_storyboard_1221375020.md)  dependency property.
 
 ## -remarks
 

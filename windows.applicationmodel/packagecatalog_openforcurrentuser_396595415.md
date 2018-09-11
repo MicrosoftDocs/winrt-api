@@ -20,7 +20,7 @@ The catalog of packages for the current user.
 ## -examples
 
 ## -see-also
-[PackageManager.FindPackages](../windows.management.deployment/packagemanager_findpackages.md)
+[PackageManager.FindPackages](/uwp/api/windows.management.deployment.packagemanager.findpackages)
 
 ## -capabilities
 packageQuery

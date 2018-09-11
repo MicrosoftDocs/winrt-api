@@ -49,4 +49,3 @@ The following code example demonstrates the placement modes for a [ToolTip](tool
 
 ## -see-also
 [ToolTip](tooltip.md), [How to add a tooltip](http://msdn.microsoft.com/library/447c49d9-dc35-485c-b0ef-14c47414e6ec), [XAML essential controls sample](http://go.microsoft.com/fwlink/p/?linkid=226951)
-ML essential controls sample](http://go.microsoft.com/fwlink/p/?linkid=226951)

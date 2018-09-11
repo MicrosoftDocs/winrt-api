@@ -11,7 +11,7 @@ public Windows.Foundation.IAsyncAction SelectNewAsync()
 # Windows.Media.Import.PhotoImportFindItemsResult.SelectNewAsync
 
 ## -description
-Selects all new items found on the source to be included in the [ImportItemsAsync](photoimportfinditemsresult_importitemsasync.md) operation.
+Selects all new items found on the source to be included in the [ImportItemsAsync](photoimportfinditemsresult_importitemsasync_357096682.md) operation.
 
 ## -returns
 An asynchronous operation.

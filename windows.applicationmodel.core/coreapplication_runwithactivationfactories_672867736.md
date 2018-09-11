@@ -24,4 +24,4 @@ This API is supported in native apps only.
 ## -examples
 
 ## -see-also
-[CoreApplication::Run](coreapplication_run.md)
+[CoreApplication.Run](coreapplication_run_1480028297.md)

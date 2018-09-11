@@ -24,4 +24,4 @@ Returns **true** if the current storage item is the same as the specified storag
 ## -examples
 
 ## -see-also
-[StorageFile.IsEqual](../windows.storage/storagefile_isequal.md)
+[StorageFile.IsEqual](../windows.storage/storagefile_isequal_1221320574.md)

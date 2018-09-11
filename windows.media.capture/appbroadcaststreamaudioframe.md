@@ -16,7 +16,7 @@ Represents a frame of audio samples in a broadcast stream.
 > This API requires the **appBroadcast** and **appBroadcastSettings** capability which is not available to all Windows apps. Unless your developer account is specially provisioned by Microsoft, calls to this API will fail at runtime.
 
 ## -remarks
-Get an instance of this class by calling [AppBroadcastStreamReader.TryGetNextAudioFrame](appbroadcaststreamreader_trygetnextaudioframe.md).
+Get an instance of this class by calling [AppBroadcastStreamReader.TryGetNextAudioFrame](appbroadcaststreamreader_trygetnextaudioframe_1561983342.md).
 
 ## -examples
 

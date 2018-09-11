@@ -37,4 +37,4 @@ The horizontal alignment of the barcode on the page.
 ## -examples
 
 ## -see-also
-[IReceiptOrSlipJob.PrintBarcode](ireceiptorslipjob_printbarcode.md)
+[IReceiptOrSlipJob.PrintBarcode](ireceiptorslipjob_printbarcode_1361148756.md)

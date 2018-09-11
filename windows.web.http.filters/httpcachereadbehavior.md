@@ -30,6 +30,12 @@ Do not use cache nor do a conditional request. This ensures that all HTTP reques
 
 ## -remarks
 
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | NoCache |
+
 ## -examples
 
 ## -see-also

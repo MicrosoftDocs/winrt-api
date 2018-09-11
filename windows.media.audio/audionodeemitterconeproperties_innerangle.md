@@ -16,7 +16,7 @@ Gets the inner angle of an audio node emitter cone shape. This is the angle at w
 The inner angle of a an audio node emitter cone shape.
 
 ## -remarks
-Set the inner angle of an emitter cone shape by calling [AudioNodeEmitterShape.CreateCone](audionodeemittershape_createcone.md).
+Set the inner angle of an emitter cone shape by calling [AudioNodeEmitterShape.CreateCone](audionodeemittershape_createcone_1260552697.md).
 
 ## -examples
 

@@ -10,7 +10,7 @@ public class InteractionTrackerIdleStateEnteredArgs : Windows.UI.Composition.Int
 # Windows.UI.Composition.Interactions.InteractionTrackerIdleStateEnteredArgs
 
 ## -description
-Arguments for the [IInteractionTrackerOwner.IdleStateEntered](iinteractiontrackerowner_idlestateentered.md) callback.
+Arguments for the [IInteractionTrackerOwner.IdleStateEntered](iinteractiontrackerowner_idlestateentered_677615450.md) callback.
 
 ## -remarks
 

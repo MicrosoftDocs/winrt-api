@@ -13,7 +13,7 @@ public class AudioNodeEmitterDecayModel : Windows.Media.Audio.IAudioNodeEmitterD
 Represents the model used to compute the distance-based attenuation of a signal from an [AudioNodeEmitter](audionodeemitter.md).
 
 ## -remarks
-Create an instance of this class by calling [CreateCustom](audionodeemitterdecaymodel_createcustom.md) or [CreateNatural](audionodeemitterdecaymodel_createnatural.md).
+Create an instance of this class by calling [CreateCustom](audionodeemitterdecaymodel_createcustom_675347716.md) or [CreateNatural](audionodeemitterdecaymodel_createnatural_887095524.md).
 
 ## -examples
 

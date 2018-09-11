@@ -10,7 +10,7 @@ public enum Windows.ApplicationModel.Store.Preview.StorePreviewProductPurchaseSt
 # StorePreviewProductPurchaseStatus
 
 ## -description
-Defines values that are used to indicate the transaction status when purchasing an in-app product SKU by using the [RequestProductPurchaseByProductIdAndSkuIdAsync](storepreview_requestproductpurchasebyproductidandskuidasync.md) method.
+Defines values that are used to indicate the transaction status when purchasing an in-app product SKU by using the [RequestProductPurchaseByProductIdAndSkuIdAsync](storepreview_requestproductpurchasebyproductidandskuidasync_423925263.md) method.
 
 ## -enum-fields
 ### -field Succeeded:0

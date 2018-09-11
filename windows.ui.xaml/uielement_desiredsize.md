@@ -23,7 +23,7 @@ The size that this [UIElement](uielement.md) computed during the measure pass of
 [DesiredSize](uielement_desiredsize.md) is really only intended for use when you define your own layout override methods. If you're just interested in the size of an element in your app's UI at run time, then you should use the [ActualWidth](frameworkelement_actualwidth.md) and [ActualHeight](frameworkelement_actualheight.md) properties instead. You might be checking size this way if an element is influenced by dynamic layout techniques such as star sizing of [Grid](../windows.ui.xaml.controls/grid.md) cells. Rely on [ActualWidth](frameworkelement_actualwidth.md) and [ActualHeight](frameworkelement_actualheight.md) values only in situations that are sure to be after layout has run: for example, in [Loaded](frameworkelement_loaded.md) events, or triggered by user actions that are only possible after the UI has been rendered initially.
 
 ## -examples
-This example queries [DesiredSize](uielement_desiredsize.md) as part of the child iteration for an [ArrangeOverride](frameworkelement_arrangeoverride.md) implementation.
+This example queries [DesiredSize](uielement_desiredsize.md) as part of the child iteration for an [ArrangeOverride](frameworkelement_arrangeoverride_1795048387.md) implementation.
 
 
 
@@ -32,5 +32,5 @@ This example queries [DesiredSize](uielement_desiredsize.md) as part of the chil
 [!code-vb[2](../windows.ui.xaml.controls.primitives/code/BlockPanel/vbnet/BlankPage.xaml.vb#Snippet2)]
 
 ## -see-also
-[ArrangeOverride](frameworkelement_arrangeoverride.md), [MeasureOverride](frameworkelement_measureoverride.md), [Arrange](uielement_arrange.md), [Measure](uielement_measure.md)
-, [Measure](uielement_measure.md)
+[ArrangeOverride](frameworkelement_arrangeoverride_1795048387.md), [MeasureOverride](frameworkelement_measureoverride_1586581644.md), [Arrange](uielement_arrange_958316931.md), [Measure](uielement_measure_1722732750.md)
+, [Measure](uielement_measure_1722732750.md)

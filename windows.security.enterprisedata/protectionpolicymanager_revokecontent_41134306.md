@@ -19,7 +19,7 @@ A remote management client on a device receives an unenrollment request from the
 
 ## -parameters
 ### -param identity
-The enterprise identity. This is an email address or domain that is managed. Your app should use [IsIdentityManaged](protectionpolicymanager_isidentitymanaged.md) to confirm that an email address or domain is managed.
+The enterprise identity. This is an email address or domain that is managed. Your app should use [IsIdentityManaged](protectionpolicymanager_isidentitymanaged_906801364.md) to confirm that an email address or domain is managed.
 
 ## -remarks
 This API is intended for remote device management client apps to call.  requires that all of the following conditions are true for your app.
@@ -33,7 +33,7 @@ Selective Wipe keys are generated for each UWP app when MDM is not in the pictur
 ## -examples
 
 ## -see-also
-[IsIdentityManaged](protectionpolicymanager_isidentitymanaged.md)
+[IsIdentityManaged](protectionpolicymanager_isidentitymanaged_906801364.md)
 
 ## -capabilities
 enterpriseDataPolicy

@@ -18,4 +18,4 @@ This interface is mainly infrastructure. It's not expected that typical UWP app 
 ## -examples
 
 ## -see-also
-[Frame](frame.md), [Frame.Navigate](frame_navigate.md)
+[Frame](frame.md), [Frame.Navigate](/uwp/api/windows.ui.xaml.controls.frame.navigate)

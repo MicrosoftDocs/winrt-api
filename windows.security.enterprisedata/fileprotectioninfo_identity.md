@@ -16,11 +16,11 @@ public string Identity { get; }
 The enterprise identity of the enterprise protected file.
 
 ## -property-value
-The enterprise identity. This is an email address or domain that is managed. Your app should use [IsIdentityManaged](protectionpolicymanager_isidentitymanaged.md) to confirm that an email address or domain is managed.
+The enterprise identity. This is an email address or domain that is managed. Your app should use [IsIdentityManaged](protectionpolicymanager_isidentitymanaged_906801364.md) to confirm that an email address or domain is managed.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
-[IsIdentityManaged](protectionpolicymanager_isidentitymanaged.md)
+[IsIdentityManaged](protectionpolicymanager_isidentitymanaged_906801364.md)

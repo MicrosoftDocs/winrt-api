@@ -20,4 +20,4 @@ When this method completes successfully, it returns a list of the files and fold
 ## -examples
 
 ## -see-also
-[StorageFolder.GetItemsAsync](storagefolder_getitemsasync.md)
+[StorageFolder.GetItemsAsync](/uwp/api/windows.storage.storagefolder.getitemsasync)

@@ -10,7 +10,7 @@ public Windows.UI.Xaml.Automation.AutomationProperty AcceleratorKeyProperty { ge
 # Windows.UI.Xaml.Automation.AutomationElementIdentifiers.AcceleratorKeyProperty
 
 ## -description
-Identifies the accelerator key automation property. The accelerator key property value is returned by the [GetAcceleratorKey](../windows.ui.xaml.automation.peers/automationpeer_getacceleratorkey.md) method.
+Identifies the accelerator key automation property. The accelerator key property value is returned by the [GetAcceleratorKey](../windows.ui.xaml.automation.peers/automationpeer_getacceleratorkey_970307487.md) method.
 
 ## -property-value
 The automation property identifier.

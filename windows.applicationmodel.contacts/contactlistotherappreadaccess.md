@@ -28,6 +28,12 @@ No other apps can read any of the contact information.
 
 ## -remarks
 
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | None |
+
 ## -examples
 
 ## -see-also

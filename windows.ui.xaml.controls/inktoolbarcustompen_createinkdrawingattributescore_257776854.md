@@ -42,7 +42,7 @@ Derive from [InkToolbarCustomPen](inktoolbarcustompen.md) and specify a custom [
 [Get Started Tutorial: Support ink in your UWP app](https://docs.microsoft.com/windows/uwp/get-started/ink-walkthrough)
 
 ### Reference
-[InkDrawingAttributes](inktoolbar_inkdrawingattributes.md), [InkDrawingAttributesChanged](inktoolbar_inkdrawingattributeschanged.md), [CreateInkDrawingAttributes](inktoolbarcustompen_createinkdrawingattributes.md)
+[InkDrawingAttributes](inktoolbar_inkdrawingattributes.md), [InkDrawingAttributesChanged](inktoolbar_inkdrawingattributeschanged.md), [CreateInkDrawingAttributes](inktoolbarcustompen_createinkdrawingattributes_950887291.md)
 
 ### Samples
 * [Simple ink sample (C#/C++)](http://go.microsoft.com/fwlink/p/?LinkID=620312)

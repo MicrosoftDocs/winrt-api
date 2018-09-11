@@ -20,7 +20,7 @@ The folder query to test.
 True if the folder supports the specified folder query; otherwise false.
 
 ## -remarks
-Not all locations support all query options, for more detail refer to [IsCommonFileQuerySupported](istoragefolderqueryoperations_iscommonfilequerysupported.md).
+Not all locations support all query options, for more detail refer to [IsCommonFileQuerySupported](istoragefolderqueryoperations_iscommonfilequerysupported_1848755604.md).
 
 ## -examples
 

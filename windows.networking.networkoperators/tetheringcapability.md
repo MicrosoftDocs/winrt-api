@@ -11,7 +11,7 @@ public enum Windows.Networking.NetworkOperators.TetheringCapability : int
 # TetheringCapability
 
 ## -description
-Defines values that can be returned after calling [NetworkOperatorTetheringManager.GetTetheringCapability](networkoperatortetheringmanager_gettetheringcapability.md) to indicate the tethering capabilities of a network account.
+Defines values that can be returned after calling [NetworkOperatorTetheringManager.GetTetheringCapability](networkoperatortetheringmanager_gettetheringcapability_1651407752.md) to indicate the tethering capabilities of a network account.
 
 ## -enum-fields
 ### -field Enabled:0
@@ -36,7 +36,7 @@ An application required for tethering operations is not available.
 Tethering is disabled for unknown reasons.
 
 ### -field DisabledBySystemCapability:7
-Tethering has been disabled by the system because the app lacks the necessary **DeviceCapability** entry in its manifest. See [CreateFromConnectionProfile](networkoperatortetheringmanager_createfromconnectionprofile.md) for more information about manifest requirements.
+Tethering has been disabled by the system because the app lacks the necessary **DeviceCapability** entry in its manifest. See [CreateFromConnectionProfile](/uwp/api/windows.networking.networkoperators.networkoperatortetheringmanager.createfromconnectionprofile) for more information about manifest requirements.
 
 ## -remarks
 

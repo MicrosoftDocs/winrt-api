@@ -22,7 +22,7 @@ The zero-based index specifying the new location of the item.
 ## -remarks
 Calling this method offers advantages over removing an item and adding it to a new location. Specifically, not as much tree rebuilding is required internally, and panels or controls that use [UIElementCollection](uielementcollection.md) for items can be more responsive.
 
-An example of a scenario where using [Move](uielementcollection_move.md) may be useful is if you have a collection view or a specialized panel that supports a user experience where items wrap around. In this case you might want to move an item from the start of the collection to the end or vice versa, without forcing the entire visual tree under the panel or view to be rebuilt.
+An example of a scenario where using [Move](uielementcollection_move_354844500.md) may be useful is if you have a collection view or a specialized panel that supports a user experience where items wrap around. In this case you might want to move an item from the start of the collection to the end or vice versa, without forcing the entire visual tree under the panel or view to be rebuilt.
 
 ## -examples
 

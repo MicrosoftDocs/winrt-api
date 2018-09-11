@@ -14,7 +14,7 @@ public class ChatMessageChangeReader : Windows.ApplicationModel.Chat.IChatMessag
 Provides methods for reading and accepting message change revisions.
 
 ## -remarks
-Obtain an instance of this class by calling [GetChangeReader](chatmessagechangetracker_getchangereader.md).
+Obtain an instance of this class by calling [GetChangeReader](chatmessagechangetracker_getchangereader_1364424875.md).
 
 ## -examples
 

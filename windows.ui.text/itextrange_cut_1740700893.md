@@ -19,4 +19,4 @@ Moves the text of the text range to the Clipboard.
 ## -examples
 
 ## -see-also
-[ITextRange.Copy](itextrange_copy.md), [ITextRange.Paste](itextrange_paste.md)
+[ITextRange.Copy](itextrange_copy_4862135.md), [ITextRange.Paste](itextrange_paste_955889140.md)

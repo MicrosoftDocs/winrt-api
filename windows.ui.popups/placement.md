@@ -34,4 +34,4 @@ Place the context menu to the right of the selection rectangle.
 ## -examples
 
 ## -see-also
-[PopupMenu.ShowForSelectionAsync](popupmenu_showforselectionasync.md)
+[PopupMenu.ShowForSelectionAsync](/uwp/api/windows.ui.popups.popupmenu.showforselectionasync)

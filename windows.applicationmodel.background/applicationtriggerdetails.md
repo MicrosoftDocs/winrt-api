@@ -14,7 +14,7 @@ The details of an [ApplicationTrigger](applicationtrigger.md).
 
 ## -remarks
 
-An instance of this class is passed to the background task in its [Run](ibackgroundtask_run.md) method.
+An instance of this class is passed to the background task in its [Run](ibackgroundtask_run_2017283929.md) method.
 
 ## -examples
 

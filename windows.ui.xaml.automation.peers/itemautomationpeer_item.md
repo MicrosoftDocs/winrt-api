@@ -16,7 +16,7 @@ Gets the data item in the [Items](../windows.ui.xaml.controls/itemscontrol_items
 The data item.
 
 ## -remarks
-This property is similar in purpose to the **Owner** property on other peers (it provides the reference to the object that this peer provides the automation exposure for). Its value must be set in the [ItemAutomationPeer](itemautomationpeer_itemautomationpeer.md) constructor.
+This property is similar in purpose to the **Owner** property on other peers (it provides the reference to the object that this peer provides the automation exposure for). Its value must be set in the [ItemAutomationPeer](itemautomationpeer_itemautomationpeer_183553765.md) constructor.
 
 ## -examples
 

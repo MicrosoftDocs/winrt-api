@@ -13,7 +13,7 @@ public class ProcessMemoryUsageReport : Windows.System.Diagnostics.IProcessMemor
 Provides data about the memory usage of the process.
 
 ## -remarks
-Call [GetReport](processmemoryusage_getreport.md) to get an instance of this class.
+Call [GetReport](processmemoryusage_getreport_610268658.md) to get an instance of this class.
 
 ## -examples
 

@@ -24,4 +24,4 @@ When this method completes, it returns the random-access stream (type [IRandomAc
 ## -examples
 
 ## -see-also
-[StorageFile.OpenAsync](storagefile_openasync.md)
+[StorageFile.OpenAsync](/uwp/api/windows.storage.storagefile.openasync)

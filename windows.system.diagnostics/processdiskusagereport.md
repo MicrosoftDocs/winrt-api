@@ -13,7 +13,7 @@ public class ProcessDiskUsageReport : Windows.System.Diagnostics.IProcessDiskUsa
 Provides data about the disk usage of the process.
 
 ## -remarks
-Call the [GetReport](processdiskusage_getreport.md) method to get an instance of this class.
+Call the [GetReport](processdiskusage_getreport_610268658.md) method to get an instance of this class.
 
 ## -examples
 

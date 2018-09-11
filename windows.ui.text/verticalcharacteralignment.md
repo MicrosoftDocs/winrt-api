@@ -28,4 +28,4 @@ The character is positioned at the bottom edge of the bounding rectangle.
 ## -examples
 
 ## -see-also
-[HorizontalCharacterAlignment](horizontalcharacteralignment.md), [ITextRange.GetPoint](itextrange_getpoint.md)
+[HorizontalCharacterAlignment](horizontalcharacteralignment.md), [ITextRange.GetPoint](itextrange_getpoint_1487502073.md)

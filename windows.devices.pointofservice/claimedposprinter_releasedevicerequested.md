@@ -19,4 +19,4 @@ When this event occurs, the app has a two-second window of time to call the [Ret
 ## -examples
 
 ## -see-also
-[PosPrinterReleaseDeviceRequestedEventArgs](posprinterreleasedevicerequestedeventargs.md), [RetainDeviceAsync](claimedposprinter_retaindeviceasync.md), [Close](claimedposprinter_close.md)
+[PosPrinterReleaseDeviceRequestedEventArgs](posprinterreleasedevicerequestedeventargs.md), [RetainDeviceAsync](claimedposprinter_retaindeviceasync_1460106534.md), [Close](claimedposprinter_close_811482585.md)

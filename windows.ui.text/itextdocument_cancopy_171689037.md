@@ -21,4 +21,4 @@ Copying is allowed unless the document is copy-protected.
 ## -examples
 
 ## -see-also
-[ITextDocument.CanPaste](itextdocument_canpaste.md), [ITextDocument.CanRedo](itextdocument_canredo.md), [ITextDocument.CanUndo](itextdocument_canundo.md)
+[ITextDocument.CanPaste](itextdocument_canpaste_1221588146.md), [ITextDocument.CanRedo](itextdocument_canredo_328904111.md), [ITextDocument.CanUndo](itextdocument_canundo_730574244.md)

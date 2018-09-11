@@ -21,7 +21,7 @@ The chat message to be sent.
 An asynchronous action.
 
 ## -remarks
-Once the send is attempted, the message is assigned an identifier and the [Id](chatmessage_id.md) property is set to this value. If the send operation fails, the application can try sending the message again later with [RetrySendMessageAsync](chatmessagestore_retrysendmessageasync.md) method using the assigned identifier.
+Once the send is attempted, the message is assigned an identifier and the [Id](chatmessage_id.md) property is set to this value. If the send operation fails, the application can try sending the message again later with [RetrySendMessageAsync](chatmessagestore_retrysendmessageasync_1122758369.md) method using the assigned identifier.
 
 ## -examples
 

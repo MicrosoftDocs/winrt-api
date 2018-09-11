@@ -42,4 +42,4 @@ IGraphicsEffect graphicsEffect = new CompositeEffect()
 
 
 ## -see-also
-[CompositionLight](../windows.ui.composition/compositionlight.md), [CompositionLight.Targets](../windows.ui.composition/compositionlight_targets.md), [Compositor.CreateAmbientLight](../windows.ui.composition/compositor_createambientlight.md), [Compositor.CreateDistantLight](../windows.ui.composition/compositor_createdistantlight.md), [Compositor.CreatePointLight](../windows.ui.composition/compositor_createpointlight.md)
+[CompositionLight](../windows.ui.composition/compositionlight.md), [CompositionLight.Targets](../windows.ui.composition/compositionlight_targets.md), [Compositor.CreateAmbientLight](../windows.ui.composition/compositor_createambientlight_920812985.md), [Compositor.CreateDistantLight](../windows.ui.composition/compositor_createdistantlight_2124441775.md), [Compositor.CreatePointLight](../windows.ui.composition/compositor_createpointlight_53515673.md)

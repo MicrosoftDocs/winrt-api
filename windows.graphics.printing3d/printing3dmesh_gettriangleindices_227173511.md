@@ -17,7 +17,7 @@ Gets the buffer for triangle indices.
 The buffer for triangle indices.
 
 ## -remarks
-To create the buffer for triangle indices, use [CreateTriangleIndices](printing3dmesh_createtriangleindices.md).
+To create the buffer for triangle indices, use [CreateTriangleIndices](printing3dmesh_createtriangleindices_1991559687.md).
 
 ## -examples
 

@@ -19,7 +19,7 @@ The system automatically detects the available lines on boot and then dynamicall
 
 This class implements the watcher pattern.
 
-You can retrieve an instance of this class by calling [RequestLineWatcher](phonecallstore_requestlinewatcher.md).
+You can retrieve an instance of this class by calling [RequestLineWatcher](phonecallstore_requestlinewatcher_489228512.md).
 
 The following example shows how to enumerate through all the current phone lines. 
 

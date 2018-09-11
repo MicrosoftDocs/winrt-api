@@ -10,12 +10,12 @@ public struct XamlBinaryWriterErrorInformation
 # XamlBinaryWriterErrorInformation
 
 ## -description
-Records error information produced by calls to [XamlBinaryWriter.Write](xamlbinarywriter_write.md).
+Records error information produced by calls to [XamlBinaryWriter.Write](xamlbinarywriter_write_504090345.md).
 
 ## -struct-fields
 
 ### -field InputStreamIndex
-The index of the stream in the original *inputStreams* parameter for [XamlBinaryWriter.Write](xamlbinarywriter_write.md) where the error occurred.
+The index of the stream in the original *inputStreams* parameter for [XamlBinaryWriter.Write](xamlbinarywriter_write_504090345.md) where the error occurred.
     
 
 ### -field LineNumber
@@ -31,4 +31,4 @@ The line position in the input XAML text representation where the error was enco
 ## -examples
 
 ## -see-also
-[XamlBinaryWriter.Write](xamlbinarywriter_write.md)
+[XamlBinaryWriter.Write](xamlbinarywriter_write_504090345.md)

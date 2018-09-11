@@ -10,7 +10,7 @@ public Windows.Foundation.Deferral GetDeferral()
 # Windows.ApplicationModel.IEnteredBackgroundEventArgs.GetDeferral
 
 ## -description
-Gets the deferral object which delays the transition from running in the background state to the suspended state until the app calls [Deferral.Complete](../windows.foundation/deferral_complete.md) or the deadline for navigation has passed.
+Gets the deferral object which delays the transition from running in the background state to the suspended state until the app calls [Deferral.Complete](../windows.foundation/deferral_complete_1807836922.md) or the deadline for navigation has passed.
 
 ## -returns
 The deferral object you will use to indicate when your processing is complete.

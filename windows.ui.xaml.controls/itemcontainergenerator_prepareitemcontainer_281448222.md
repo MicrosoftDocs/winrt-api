@@ -14,7 +14,7 @@ Prepares the specified element as the container for the corresponding item.
 
 ## -parameters
 ### -param container
-The container to prepare. Typically, *container* is the result of the previous call to [GenerateNext](itemcontainergenerator_generatenext.md).
+The container to prepare. Typically, *container* is the result of the previous call to [GenerateNext](itemcontainergenerator_generatenext_1034911097.md).
 
 ## -remarks
 

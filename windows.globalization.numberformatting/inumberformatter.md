@@ -10,7 +10,7 @@ public interface INumberFormatter :
 # Windows.Globalization.NumberFormatting.INumberFormatter
 
 ## -description
-An interface that returns a string representation of a provided value, using an overloaded [Format](inumberformatter_format.md) method to format several data types.
+An interface that returns a string representation of a provided value, using an overloaded [Format](/uwp/api/windows.globalization.numberformatting.inumberformatter.format) method to format several data types.
 
 ## -remarks
 

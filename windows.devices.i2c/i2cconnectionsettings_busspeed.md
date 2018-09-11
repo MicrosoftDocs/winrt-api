@@ -20,4 +20,4 @@ The bus speed to use for connecting to anI<sup>2</sup> C device.
 ## -examples
 
 ## -see-also
-[I2cBusSpeed](i2cbusspeed.md), [I2cDevice.FromIdAsync](i2cdevice_fromidasync.md)
+[I2cBusSpeed](i2cbusspeed.md), [I2cDevice.FromIdAsync](i2cdevice_fromidasync_1693757112.md)

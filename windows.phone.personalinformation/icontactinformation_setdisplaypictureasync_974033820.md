@@ -24,7 +24,7 @@ An asynchronous action. If you use [Asynchronous programming](http://msdn.micros
 ## -examples
 
 ## -see-also
-[ContactInformation.SetDisplayPictureAsync](contactinformation_setdisplaypictureasync.md)
+[ContactInformation.SetDisplayPictureAsync](contactinformation_setdisplaypictureasync_974033820.md)
 
 ## -capabilities
 ID_CAP_CONTACTS [Windows Phone]

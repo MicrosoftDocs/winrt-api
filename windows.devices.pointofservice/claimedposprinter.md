@@ -19,4 +19,4 @@ To get an instance of the [ClaimedPosPrinter](claimedposprinter.md) class, use t
 ## -examples
 
 ## -see-also
-[IClosable](../windows.foundation/iclosable.md), [PosPrinter.ClaimPrinterAsync](posprinter_claimprinterasync.md)
+[IClosable](../windows.foundation/iclosable.md), [PosPrinter.ClaimPrinterAsync](posprinter_claimprinterasync_1994037670.md)

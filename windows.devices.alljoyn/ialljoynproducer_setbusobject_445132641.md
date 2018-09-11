@@ -22,6 +22,6 @@ The desired bus object.
 ## -examples
 
 ## -see-also
-[AllJoynBusObject.AddProducer](alljoynbusobject_addproducer.md)
+[AllJoynBusObject.AddProducer](alljoynbusobject_addproducer_1528733518.md)
 ## -capabilities
 allJoyn

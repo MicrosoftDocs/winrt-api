@@ -21,4 +21,4 @@ A web link represents a Uniform Resource Identifier (URI) with a scheme of **htt
 ## -examples
 
 ## -see-also
-[SetWebLink](datapackage_setweblink.md), [GetWebLinkAsync](datapackageview_getweblinkasync.md)
+[SetWebLink](datapackage_setweblink_224257999.md), [GetWebLinkAsync](datapackageview_getweblinkasync_1792258175.md)

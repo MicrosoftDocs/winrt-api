@@ -21,4 +21,4 @@ Pasting is allowed unless the control is read-only or the selection is protected
 ## -examples
 
 ## -see-also
-[ITextDocument.CanCopy](itextdocument_cancopy.md), [ITextDocument.CanRedo](itextdocument_canredo.md), [ITextDocument.CanUndo](itextdocument_canundo.md)
+[ITextDocument.CanCopy](itextdocument_cancopy_171689037.md), [ITextDocument.CanRedo](itextdocument_canredo_328904111.md), [ITextDocument.CanUndo](itextdocument_canundo_730574244.md)

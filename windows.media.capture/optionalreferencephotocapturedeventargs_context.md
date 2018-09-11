@@ -16,7 +16,7 @@ Gets the app-defined context object associated with the advanced photo capture o
 The app-defined context object associated with the advanced photo capture operation.
 
 ## -remarks
-One overload of [AdvancedPhotoCapture.CaptureAsync](advancedphotocapture_captureasync.md) allows you to provide an app-defined object that conveys context information.
+One overload of [AdvancedPhotoCapture.CaptureAsync](/uwp/api/windows.media.capture.advancedphotocapture.captureasync) allows you to provide an app-defined object that conveys context information.
 
 ## -examples
 

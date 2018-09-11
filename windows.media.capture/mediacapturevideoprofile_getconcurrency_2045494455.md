@@ -16,11 +16,11 @@ Gets the list of [MediaCaptureVideoProfile](mediacapturevideoprofile.md) objects
 The list of [MediaCaptureVideoProfile](mediacapturevideoprofile.md) objects that can be used concurrently with this video profile.
 
 ## -remarks
-You can get a list of video profiles that support concurrency by calling [MediaCapture::FindConcurrentProfiles](mediacapture_findconcurrentprofiles.md).
+You can get a list of video profiles that support concurrency by calling [MediaCapture.FindConcurrentProfiles](mediacapture_findconcurrentprofiles_834250833.md).
 
 ## -examples
 
 ## -see-also
-[MediaCapture::FindConcurrentProfiles](mediacapture_findconcurrentprofiles.md)
+[MediaCapture.FindConcurrentProfiles](mediacapture_findconcurrentprofiles_834250833.md)
 ## -capabilities
 backgroundMediaRecording

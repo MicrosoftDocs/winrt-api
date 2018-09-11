@@ -27,6 +27,12 @@ The ID was generated from the system registry.
 
 ## -remarks
 
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1709 | 16299 | Registry |
+
 ## -examples
 
 ## -see-also

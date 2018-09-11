@@ -10,7 +10,7 @@ public enum Windows.ApplicationModel.Email.EmailMailboxCreateFolderStatus : int
 # EmailMailboxCreateFolderStatus
 
 ## -description
-Indicates the result of a call to [TryCreateFolderAsync](emailmailbox_trycreatefolderasync.md).
+Indicates the result of a call to [TryCreateFolderAsync](emailmailbox_trycreatefolderasync_142768409.md).
 
 ## -enum-fields
 ### -field Success:0

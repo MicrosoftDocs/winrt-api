@@ -11,7 +11,7 @@ public string GetDeviceSelector()
 # Windows.Devices.Bluetooth.BluetoothLEDevice.GetDeviceSelector
 
 ## -description
-Gets an Advanced Query Syntax (AQS) string for identifying all Bluetooth Low Energy (LE) devices. This string is passed to the [FindAllAsync](../windows.devices.enumeration/deviceinformation_findallasync.md) or [CreateWatcher](../windows.devices.enumeration/deviceinformation_createwatcher.md) method in order to get a list of Bluetooth LE devices.
+Gets an Advanced Query Syntax (AQS) string for identifying all Bluetooth Low Energy (LE) devices. This string is passed to the [FindAllAsync](/uwp/api/windows.devices.enumeration.deviceinformation.findallasync) or [CreateWatcher](/uwp/api/windows.devices.enumeration.deviceinformation.createwatcher) method in order to get a list of Bluetooth LE devices.
 
 ## -returns
 The device selector for this device.

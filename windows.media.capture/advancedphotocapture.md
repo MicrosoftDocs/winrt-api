@@ -23,4 +23,4 @@ For how-to guidance for using **AdvancedPhotoCapture**, see [High dynamic range 
 ## -examples
 
 ## -see-also
-[High dynamic range (HDR) and low-light photo capture](https://msdn.microsoft.com/windows/uwp/audio-video-camera/high-dynamic-range-hdr-photo-capture), [MediaCapture.PrepareAdvancedPhotoCaptureAsync](mediacapture_prepareadvancedphotocaptureasync.md)
+[High dynamic range (HDR) and low-light photo capture](https://msdn.microsoft.com/windows/uwp/audio-video-camera/high-dynamic-range-hdr-photo-capture), [MediaCapture.PrepareAdvancedPhotoCaptureAsync](mediacapture_prepareadvancedphotocaptureasync_1274714827.md)

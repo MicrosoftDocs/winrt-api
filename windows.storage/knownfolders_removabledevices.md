@@ -35,7 +35,7 @@ If no removable devices are available, reading the value of this property return
 ## -examples
 
 ## -see-also
-[CreateFileQuery](storagefolder_createfilequery.md), [CreateFileQueryWithOptions](storagefolder_createfilequerywithoptions.md), [CreateFolderQuery](storagefolder_createfolderquery.md), [CreateFolderQueryWithOptions](storagefolder_createfolderquerywithoptions.md)
+[CreateFileQuery](/uwp/api/windows.storage.storagefolder.createfilequery), [CreateFileQueryWithOptions](storagefolder_createfilequerywithoptions_2038131323.md), [CreateFolderQuery](/uwp/api/windows.storage.storagefolder.createfolderquery), [CreateFolderQueryWithOptions](storagefolder_createfolderquerywithoptions_573382953.md)
 
 ## -capabilities
 removableStorage

@@ -20,7 +20,7 @@ The object that contains the content of the toast notification to display.
 ## -remarks
 
 ## -examples
-The following example shows how to create and send a toast notification that includes text and images, including use of the [Show](toastnotifier_show.md) method.
+The following example shows how to create and send a toast notification that includes text and images, including use of the [Show](toastnotifier_show_184420709.md) method.
 
 ```javascript
 

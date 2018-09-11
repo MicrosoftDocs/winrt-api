@@ -10,7 +10,7 @@ public enum Windows.ApplicationModel.AppService.AppServiceConnectionStatus : int
 # AppServiceConnectionStatus
 
 ## -description
-Describes the status for the attempt that an app makes to open a connection to an app service by calling the [AppServiceConnection.OpenAsync](appserviceconnection_openasync.md) method. App service providers enable app-to-app communication by providing services that other Universal Windows app can consume.
+Describes the status for the attempt that an app makes to open a connection to an app service by calling the [AppServiceConnection.OpenAsync](appserviceconnection_openasync_171309613.md) method. App service providers enable app-to-app communication by providing services that other Universal Windows app can consume.
 
 ## -enum-fields
 ### -field Success:0
@@ -39,10 +39,16 @@ The user for your app is not authorized to connect to the service.
 
 
 ## -remarks
-> [!NOTE]
-> **RemoteSystemUnavailable**, **RemoteSystemNotSupportedByApp**, and **NotAuthorized** were introduced in Windows 10, version 1607
+
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | NotAuthorized |
+| 1607 | 14393 | RemoteSystemNotSupportedByApp |
+| 1607 | 14393 | RemoteSystemUnavailable |
 
 ## -examples
 
 ## -see-also
-[AppServiceConnection.OpenAsync](appserviceconnection_openasync.md)
+[AppServiceConnection.OpenAsync](appserviceconnection_openasync_171309613.md)

@@ -29,4 +29,4 @@ An example use case for using a shared connection is a sensor that obtains readi
 ## -examples
 
 ## -see-also
-[I2cConnectionSettings.SharingMode](i2cconnectionsettings_sharingmode.md), [I2cDevice.FromIdAsync](i2cdevice_fromidasync.md)
+[I2cConnectionSettings.SharingMode](i2cconnectionsettings_sharingmode.md), [I2cDevice.FromIdAsync](i2cdevice_fromidasync_1693757112.md)

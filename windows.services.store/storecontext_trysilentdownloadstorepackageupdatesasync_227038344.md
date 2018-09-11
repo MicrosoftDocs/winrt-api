@@ -28,6 +28,9 @@ This operation will not block. The [IAsyncOperationWithProgress](../windows.foun
 
 The method that you assign to handle [Progress](../windows.foundation/iasyncoperationwithprogress_2_progress.md) notifications is called one time for each step in the download process for each package in this request. The [Progress](../windows.foundation/iasyncoperationwithprogress_2_progress.md) handler receives a [StorePackageUpdateStatus](storepackageupdatestatus.md) argument that provides info about the update package that raised the progress notification.
 
+> [!NOTE]
+> If the connection is terminated during a download, a subsequent call to this method will not resume transferring from the prior location. The download will restart from the beginning.
+
 ## -see-also
 [Download and install package updates for your app](https://msdn.microsoft.com/windows/uwp/packaging/self-install-package-updates),[CanSilentlyDownloadStorePackageUpdates](storecontext_cansilentlydownloadstorepackageupdates.md),[TrySilentDownloadAndInstallStorePackageUpdatesAsync](storecontext_trysilentdownloadandinstallstorepackageupdatesasync_788206773.md)
 

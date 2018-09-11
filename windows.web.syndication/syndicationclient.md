@@ -33,10 +33,11 @@ function GetFeed(feedUri) {
 using Windows.Foundation;
 using Windows.Web.Syndication;
 
-async void GetFeed(feedUri){
-      Uri uri = new Uri(feedUri);
-      SyndicationClient client = new SyndicationClient();
-      client.BypassCacheOnRetrieve = true;
+async Task GetFeedAsync(string feedUri){
+      var uri = new Uri(feedUri);
+      var client = new SyndicationClient() {
+          BypassCacheOnRetrieve = true
+      };
       currentFeed = await client.RetrieveFeedAsync(uri);
 }
 

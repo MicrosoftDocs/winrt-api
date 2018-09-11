@@ -44,4 +44,4 @@ The values in [SynchronizedInputType](synchronizedinputtype.md) parallel the val
 
 
 ## -see-also
-[StartListening](../windows.ui.xaml.automation.provider/isynchronizedinputprovider_startlistening.md)
+[StartListening](../windows.ui.xaml.automation.provider/isynchronizedinputprovider_startlistening_125371983.md)

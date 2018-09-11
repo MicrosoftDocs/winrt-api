@@ -68,6 +68,6 @@ if (file !== null) {
 
 In the example, `file` is a local variable that contains a [storageFile](storagefile.md) that represents the file to write.
 
-Although the [writeBufferAsync](fileio_writebufferasync.md) methods don't have a return value, you can still perform additional tasks after the text is written to the file, as the example shows.
+Although the [writeBufferAsync](fileio_writebufferasync_1163634307.md) methods don't have a return value, you can still perform additional tasks after the text is written to the file, as the example shows.
 
 ## -see-also

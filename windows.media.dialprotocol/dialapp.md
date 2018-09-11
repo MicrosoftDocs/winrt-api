@@ -14,7 +14,7 @@ public class DialApp : Windows.Media.DialProtocol.IDialApp
 Represents a DIAL application running on a remote device.
 
 ## -remarks
-Get an instance of this class by accessing the [GetDialApp](dialdevice_getdialapp.md) property.
+Get an instance of this class by accessing the [GetDialApp](dialdevice_getdialapp_1997105867.md) property.
 
 ## -examples
 

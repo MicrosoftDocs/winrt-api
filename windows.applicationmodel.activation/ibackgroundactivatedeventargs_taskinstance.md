@@ -10,10 +10,10 @@ public Windows.ApplicationModel.Background.IBackgroundTaskInstance TaskInstance 
 # Windows.ApplicationModel.Activation.IBackgroundActivatedEventArgs.TaskInstance
 
 ## -description
-Get the data that was available to the [IBackgroundTask.Run](../windows.applicationmodel.background/ibackgroundtask_run.md) method that resulted in your app being activated.
+Get the data that was available to the [IBackgroundTask.Run](../windows.applicationmodel.background/ibackgroundtask_run_2017283929.md) method that resulted in your app being activated.
 
 ## -property-value
-The data that was available to the [IBackgroundTask.Run](../windows.applicationmodel.background/ibackgroundtask_run.md) method.
+The data that was available to the [IBackgroundTask.Run](../windows.applicationmodel.background/ibackgroundtask_run_2017283929.md) method.
 
 ## -remarks
 

@@ -21,4 +21,4 @@ See the [cash drawer sample](https://github.com/Microsoft/Windows-universal-samp
 ## -examples
 
 ## -see-also
-[FromIdAsync](cashdrawer_fromidasync.md), [GetDefaultAsync](posprinter_getdefaultasync.md)
+[FromIdAsync](cashdrawer_fromidasync_1322863552.md), [GetDefaultAsync](posprinter_getdefaultasync_1549573963.md)

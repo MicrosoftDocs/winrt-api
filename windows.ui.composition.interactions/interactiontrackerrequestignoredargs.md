@@ -10,7 +10,7 @@ public class InteractionTrackerRequestIgnoredArgs : Windows.UI.Composition.Inter
 # Windows.UI.Composition.Interactions.InteractionTrackerRequestIgnoredArgs
 
 ## -description
-Arguments for the [IInteractionTrackerOwner.RequestIgnored](iinteractiontrackerowner_requestignored.md) callback.
+Arguments for the [IInteractionTrackerOwner.RequestIgnored](iinteractiontrackerowner_requestignored_1806693457.md) callback.
 
 ## -remarks
 

@@ -21,4 +21,4 @@ The amount of left indentation, in floating-point points. Indentation is relativ
 ## -examples
 
 ## -see-also
-[ITextParagraphFormat.FirstLineIndent](itextparagraphformat_firstlineindent.md), [ITextParagraphFormat.RightIndent](itextparagraphformat_rightindent.md), [ITextParagraphFormat.SetIndents](itextparagraphformat_setindents.md)
+[ITextParagraphFormat.FirstLineIndent](itextparagraphformat_firstlineindent.md), [ITextParagraphFormat.RightIndent](itextparagraphformat_rightindent.md), [ITextParagraphFormat.SetIndents](itextparagraphformat_setindents_1806531478.md)

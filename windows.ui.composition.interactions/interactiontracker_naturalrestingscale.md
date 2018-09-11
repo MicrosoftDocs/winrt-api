@@ -18,7 +18,7 @@ The [NaturalRestingScale](interactiontracker_naturalrestingscale.md) property is
 Natural resting scale for the [InteractionTracker](interactiontracker.md).
 
 ## -remarks
-The two use cases described in the code snippet are the primary uses of the [NaturalRestingScale](interactiontracker_naturalrestingscale.md) property. Although you may be tempted to reference this property off [InteractionTracker](interactiontracker.md) like any other object.property relationship, you will not always get the most up-to-date value. It is recommended in this situation that you listen for the [InertiaStateEntered](iinteractiontrackerowner_inertiastateentered.md) event and grab the latest value from the arguments.
+The two use cases described in the code snippet are the primary uses of the [NaturalRestingScale](interactiontracker_naturalrestingscale.md) property. Although you may be tempted to reference this property off [InteractionTracker](interactiontracker.md) like any other object.property relationship, you will not always get the most up-to-date value. It is recommended in this situation that you listen for the [InertiaStateEntered](iinteractiontrackerowner_inertiastateentered_615555038.md) event and grab the latest value from the arguments.
 
 ## -examples
 ```csharp

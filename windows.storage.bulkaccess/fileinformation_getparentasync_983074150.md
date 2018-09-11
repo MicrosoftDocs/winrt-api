@@ -20,4 +20,4 @@ When this method completes, it returns the parent folder as a [StorageFolder](..
 ## -examples
 
 ## -see-also
-[GetParentAsync](../windows.storage/storagefile_getparentasync.md)
+[GetParentAsync](../windows.storage/storagefile_getparentasync_983074150.md)

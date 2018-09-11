@@ -13,9 +13,9 @@ public void Close()
 Closes a secondary window and exits the message loop.
 
 ## -remarks
-This method also causes the [ProcessEvents](coredispatcher_processevents.md) operation to exit the event-processing loop.
+This method also causes the [ProcessEvents](coredispatcher_processevents_1611214514.md) operation to exit the event-processing loop.
 
 ## -examples
 
 ## -see-also
-[CoreDispatcher.ProcessEvents](coredispatcher_processevents.md)
+[CoreDispatcher.ProcessEvents](coredispatcher_processevents_1611214514.md)

@@ -127,7 +127,7 @@ Windows::Foundation::IAsyncAction HttpClientExample()
 }
 ```
 
-```cpp
+```cppcx
 using namespace Windows::Foundation;
 using namespace Windows::Web::Http;
 
@@ -146,8 +146,8 @@ catch (Exception ^ ex)
     // Details in ex.Message and ex.HResult.       
 }
 
-// In C++ and CX, the system resources used by httpClient object are released 
-// when the object falls out of scope or by the destructor (delete operator)
+// In C++/CX, the system resources used by httpClient object are released 
+// when the object falls out of scope or by the destructor (delete operator).
 ```
 
 ## -see-also

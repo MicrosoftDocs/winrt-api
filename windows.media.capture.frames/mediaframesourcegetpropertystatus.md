@@ -10,7 +10,7 @@ public enum Windows.Media.Capture.Frames.MediaFrameSourceGetPropertyStatus : int
 # MediaFrameSourceGetPropertyStatus
 
 ## -description
-Specifies the result of a [MediaFrameSourceController.GetPropertyAsync](mediaframesourcecontroller_getpropertyasync.md) operation.
+Specifies the result of a [MediaFrameSourceController.GetPropertyAsync](mediaframesourcecontroller_getpropertyasync_1561087689.md) operation.
 
 ## -enum-fields
 ### -field Success:0
@@ -27,6 +27,13 @@ The operation failed because the media frame source device is unavailable.
 
 
 ## -remarks
+
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | MaxPropertyValueSizeRequired |
+| 1703 | 15063 | MaxPropertyValueSizeTooSmall |
 
 ## -examples
 

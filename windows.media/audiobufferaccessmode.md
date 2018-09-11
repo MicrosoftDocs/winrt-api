@@ -10,7 +10,7 @@ public enum Windows.Media.AudioBufferAccessMode : int
 # AudioBufferAccessMode
 
 ## -description
-Defines the access mode of an [AudioBuffer](audiobuffer.md) returned by [AudioFrame::LockBuffer](audioframe_lockbuffer_1248676457.md).
+Defines the access mode of an [AudioBuffer](audiobuffer.md) returned by [AudioFrame.LockBuffer](audioframe_lockbuffer_1248676457.md).
 
 ## -enum-fields
 ### -field Read:0
@@ -28,4 +28,4 @@ The audio buffer is write-only.
 ## -examples
 
 ## -see-also
-[AudioBuffer](audiobuffer.md), [LockBuffer](audioframe_lockbuffer.md)
+[AudioBuffer](audiobuffer.md), [LockBuffer](audioframe_lockbuffer_1248676457.md)

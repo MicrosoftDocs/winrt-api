@@ -20,4 +20,4 @@ The maximum number of undo actions.
 ## -examples
 
 ## -see-also
-[ITextDocument.CanUndo](itextdocument_canundo.md), [ITextDocument.Undo](itextdocument_undo.md)
+[ITextDocument.CanUndo](itextdocument_canundo_730574244.md), [ITextDocument.Undo](itextdocument_undo_1162720031.md)

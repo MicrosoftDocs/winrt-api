@@ -14,7 +14,7 @@ public class ChatSyncManager : Windows.ApplicationModel.Chat.IChatSyncManager
 Manages the syncing of chat messages.
 
 ## -remarks
-This class is retrieved by calling [RequestSyncManagerAsync](chatmessagemanager_requestsyncmanagerasync.md).
+This class is retrieved by calling [RequestSyncManagerAsync](chatmessagemanager_requestsyncmanagerasync_1572900658.md).
 
 ## -examples
 

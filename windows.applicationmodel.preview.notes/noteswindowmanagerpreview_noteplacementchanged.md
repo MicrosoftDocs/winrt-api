@@ -13,7 +13,7 @@ public event Windows.Foundation.TypedEventHandler NotePlacementChanged<Windows.A
 Indicates that a note's placement (dimensions and location) has changed.
 
 > [!NOTE]
-> When this event is raised, the application should call [GetNotePlacement](noteswindowmanagerpreview_getnoteplacement.md) to update its record with the note's new placement.
+> When this event is raised, the application should call [GetNotePlacement](noteswindowmanagerpreview_getnoteplacement_639894587.md) to update its record with the note's new placement.
 
 ## -remarks
 

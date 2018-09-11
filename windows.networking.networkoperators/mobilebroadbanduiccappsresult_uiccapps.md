@@ -11,7 +11,7 @@ public Windows.Foundation.Collections.IVectorView<Windows.Networking.NetworkOper
 # Windows.Networking.NetworkOperators.MobileBroadbandUiccAppsResult.UiccApps
 
 ## -description
-A list of UICC applications retrieved using [MobileBroadbandUicc.GetUiccAppsAsync](mobilebroadbanduicc_getuiccappsasync.md). Note that this is only valid when *Status* is **Success**.
+A list of UICC applications retrieved using [MobileBroadbandUicc.GetUiccAppsAsync](mobilebroadbanduicc_getuiccappsasync_1099934605.md). Note that this is only valid when *Status* is **Success**.
 
 ## -property-value
 A list of the UICC applications.

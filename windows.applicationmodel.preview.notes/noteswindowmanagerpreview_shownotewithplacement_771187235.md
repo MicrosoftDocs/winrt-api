@@ -20,7 +20,7 @@ The unique identifier of the note to be shown.
 An array of bytes holding note placement data.
 
 ## -remarks
-[GetNotePlacement](noteswindowmanagerpreview_getnoteplacement.md) and [ShowNoteWithPlacement](noteswindowmanagerpreview_shownotewithplacement.md) can be used together to store the placement of a note (say, while the application is exiting) and then restore the note to its previous placement on the screen (when the application is opened again).
+[GetNotePlacement](noteswindowmanagerpreview_getnoteplacement_639894587.md) and [ShowNoteWithPlacement](/uwp/api/windows.applicationmodel.preview.notes.noteswindowmanagerpreview.shownotewithplacement) can be used together to store the placement of a note (say, while the application is exiting) and then restore the note to its previous placement on the screen (when the application is opened again).
 
 ## -examples
 

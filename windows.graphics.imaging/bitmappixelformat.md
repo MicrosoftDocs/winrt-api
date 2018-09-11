@@ -45,6 +45,12 @@ The pixel format is P010.
 
 The set of pixel formats represented by [BitmapPixelFormat](bitmappixelformat.md) is smaller than the set of native pixel formats that can be supported by the bitmap codecs. For example, certain codecs support 32 bit floating point values. In these cases there will be a loss in fidelity when obtaining pixel data from the bitmap.
 
+### Version history
+
+| Version | SDK version | Value added |
+| -- | -- | -- |
+| 1803 | 17134 | P010 |
+
 ## -examples
 
 ## -see-also

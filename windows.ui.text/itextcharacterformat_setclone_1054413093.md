@@ -22,4 +22,4 @@ Any character formatting values that are undefined in *value* have no effect.
 ## -examples
 
 ## -see-also
-[ITextCharacterFormat.GetClone](itextcharacterformat_getclone.md)
+[ITextCharacterFormat.GetClone](itextcharacterformat_getclone_1591167677.md)

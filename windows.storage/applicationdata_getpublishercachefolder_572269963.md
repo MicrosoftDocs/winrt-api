@@ -68,13 +68,13 @@ Then use the properties and methods of the [StorageFolder](storagefolder.md) cla
 Access to the shared storage folder has the following requirements and restrictions.
 
 
-+ There is no default subfolder. You have to specify a subfolder when you call the [GetPublisherCacheFolder](applicationdata_getpublishercachefolder.md) method.
++ There is no default subfolder. You have to specify a subfolder when you call the [GetPublisherCacheFolder](applicationdata_getpublishercachefolder_572269963.md) method.
 + You can only access subfolders registered in the app manifest.
 + You can't access the root of the shared storage folder.
 
 **To clean up the data in the publisher's shared storage folder**
 
-Call the [ClearPublisherCacheFolderAsync](applicationdata_clearpublishercachefolderasync.md) method to clear the files and subfolders from the specified subfolder of the shared storage folder for the publisher of the current app.
+Call the [ClearPublisherCacheFolderAsync](applicationdata_clearpublishercachefolderasync_203747524.md) method to clear the files and subfolders from the specified subfolder of the shared storage folder for the publisher of the current app.
 
 The shared storage folder is automatically cleaned up when the last app from the publisher is uninstalled.
 
@@ -83,4 +83,5 @@ Data saved in the shared storage folder is not linked to the app that saved it. 
 ## -examples
 
 ## -see-also
-[ClearPublisherCacheFolderAsync](applicationdata_clearpublishercachefolderasync.md)
+[ClearPublisherCacheFolderAsync](applicationdata_clearpublishercachefolderasync_203747524.md)
+

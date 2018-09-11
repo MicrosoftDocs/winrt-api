@@ -18,4 +18,4 @@ Closes the mechanism that holds the slip in place while the slip printer station
 ## -examples
 
 ## -see-also
-[OpenJaws](claimedslipprinter_openjaws.md)
+[OpenJaws](claimedslipprinter_openjaws_1310830337.md)
