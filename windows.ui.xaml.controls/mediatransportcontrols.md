@@ -135,6 +135,18 @@ Here's how to configure transport control buttons in XAML. In this example, the 
 
 ```
 
+Notice that you can configure transport controls exactly the same way in MediaPlayerElement ( available after Anniversary Update 1607). In the example below we are setting IsCompactOverlayButtonVisible property ( only avaialbe after April 2018 Update 1803).
+
+```xaml
+<MediaPlayerElement x:Name="mediaElement1" Source="ms-appx:///Assets/audio.wma"
+          AreTransportControlsEnabled="True">
+    <MediaPlayerElement.TransportControls>
+        <MediaTransportControls IsCompactOverlayButtonVisible="True"/>
+    </MediaPlayerElement.TransportControls>
+</MediaPlayerElement>
+
+```
+
 Here's how to do the same thing in code. For simplicity, the code is placed in the `MainPage` constructor. `rootGrid` refers to the [Grid](grid.md) element that is created in MainPage.xaml. It has been named so that the [MediaElement](mediaelement.md) can be added to the XAML tree programmatically.
 
 ```csharp
