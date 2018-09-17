@@ -135,7 +135,7 @@ Here's how to configure transport control buttons in XAML. In this example, the 
 
 ```
 
-Notice that you can configure transport controls exactly the same way in MediaPlayerElement ( available after Anniversary Update 1607). In the example below we are setting IsCompactOverlayButtonVisible property ( only avaialbe after April 2018 Update 1803).
+Notice that you can configure transport controls exactly the same way in MediaPlayerElement ( available after Windows 10, version 1607). In the example below we are setting IsCompactOverlayButtonVisible property ( available after Windows 10, version 1803).
 
 ```xaml
 <MediaPlayerElement x:Name="mediaElement1" Source="ms-appx:///Assets/audio.wma"
