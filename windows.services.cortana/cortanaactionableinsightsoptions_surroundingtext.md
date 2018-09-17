@@ -13,6 +13,9 @@ public string SurroundingText { get;  set; }
 
 Text from the surrounding context of the content supplied to [CortanaActionableInsights](cortanaactionableinsights.md) for showing insights.
 
+> [!IMPORTANT]
+> The [CortanaActionableInsights](cortanaactionableinsights.md) APIs are a limited access feature. Please contact [InsightsAPISupport@microsoft.com](mailto://InsightsAPISupport@microsoft.com) for more info, or to request an unlock token.
+
 ## -property-value
 
 The textual context surrounding the content (maximum length of 3000 characters). This value can be null.
@@ -32,8 +35,6 @@ The [CortanaActionableInsights](cortanaactionableinsights.md) class requires the
   - `IgnorableNamespaces="rescap"`
 - Under \<Capabilities\>
   - `<rescap:capability name="cortanaSurface"/>`
-
-The [CortanaActionableInsights](cortanaactionableinsights.md) API is a limited access feature. Developers must request access and be granted an unlock token by Microsoft before they can use the API.
 
 ## -see-also
 

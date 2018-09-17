@@ -13,6 +13,9 @@ public Uri ContentSourceWebLink { get;  set; }
 
 A URI that identifies where the specified text or image content originated.
 
+> [!IMPORTANT]
+> The [CortanaActionableInsights](cortanaactionableinsights.md) APIs are a limited access feature. Please contact [InsightsAPISupport@microsoft.com](mailto://InsightsAPISupport@microsoft.com) for more info, or to request an unlock token.
+
 ## -property-value
 
 The web link address. This value can be null.
@@ -30,8 +33,6 @@ The [CortanaActionableInsights](cortanaactionableinsights.md) class requires the
   - `IgnorableNamespaces="rescap"`
 - Under \<Capabilities\>
   - `<rescap:capability name="cortanaSurface"/>`
-
-The [CortanaActionableInsights](cortanaactionableinsights.md) API is a limited access feature. Developers must request access and be granted an unlock token by Microsoft before they can use the API.
 
 ## -see-also
 

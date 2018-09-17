@@ -13,6 +13,9 @@ public CortanaActionableInsightsOptions.CortanaActionableInsightsOptions()
 
 Creates a [CortanaActionableInsightsOptions](cortanaactionableinsightsoptions.md) object.
 
+> [!IMPORTANT]
+> The [CortanaActionableInsights](cortanaactionableinsights.md) APIs are a limited access feature. Please contact [InsightsAPISupport@microsoft.com](mailto://InsightsAPISupport@microsoft.com) for more info, or to request an unlock token.
+
 ## -capabilities
 
 cortanaSurface
@@ -26,8 +29,6 @@ The [CortanaActionableInsights](cortanaactionableinsights.md) class requires the
   - `IgnorableNamespaces="rescap"`
 - Under \<Capabilities\>
   - `<rescap:capability name="cortanaSurface"/>`
-
-The [CortanaActionableInsights](cortanaactionableinsights.md) API is a limited access feature. Developers must request access and be granted an unlock token by Microsoft before they can use the API.
 
 ## -see-also
 
