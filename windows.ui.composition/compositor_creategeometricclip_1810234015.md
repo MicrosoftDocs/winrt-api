@@ -7,6 +7,9 @@
 public CompositionGeometricClip Compositor.CreateGeometricClip()
 -->
 
+## -returns
+
+
 # Windows.UI.Composition.Compositor.CreateGeometricClip
 
 ## -description
@@ -20,4 +23,5 @@ The created [CompositionGeometricClip](compositiongeometricclip.md) object.
 ## -see-also
 
 ## -examples
+
 
