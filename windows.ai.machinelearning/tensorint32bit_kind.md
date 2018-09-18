@@ -11,7 +11,9 @@ public LearningModelFeatureKind Kind { get; }
 
 ## -description
 The kind of the feature.
+
 ## -property-value
+The kind of the feature.
 
 ## -remarks
 

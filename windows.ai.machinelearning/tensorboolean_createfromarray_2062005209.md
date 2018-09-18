@@ -10,13 +10,17 @@ public TensorBoolean TensorBoolean.CreateFromArray(IIterable<Int64> shape, Boole
 # Windows.AI.MachineLearning.TensorBoolean.CreateFromArray
 
 ## -description
-Creates a boolean tensor object, allocates a buffer of size 'shape', and copies all of 'data' into it.
+Creates a boolean tensor object, allocates a buffer of size *shape*, and copies all of *data* into it.
+
 ## -parameters
 ### -param shape
+The size of the buffer.
 
 ### -param data
+The data to copy into the buffer.
 
 ## -returns
+A boolean tensor object with a buffer containing the given data.
 
 ## -remarks
 

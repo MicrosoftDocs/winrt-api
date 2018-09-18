@@ -10,8 +10,10 @@ public TensorInt8Bit TensorInt8Bit.Create()
 # Windows.AI.MachineLearning.TensorInt8Bit.Create
 
 ## -description
-Creates a 8bit signed int tensor object without allocating a buffer.
+Creates an 8-bit signed integer tensor object without allocating a buffer.
+
 ## -returns
+An 8-bit signed integer tensor object.
 
 ## -remarks
 

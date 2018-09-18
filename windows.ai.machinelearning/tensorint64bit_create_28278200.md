@@ -10,8 +10,10 @@ public TensorInt64Bit TensorInt64Bit.Create()
 # Windows.AI.MachineLearning.TensorInt64Bit.Create
 
 ## -description
-Creates a 64bit signed int tensor object without allocating a buffer.
+Creates a 64-bit signed integer tensor object without allocating a buffer.
+
 ## -returns
+A 64-bit signed integer tensor object.
 
 ## -remarks
 

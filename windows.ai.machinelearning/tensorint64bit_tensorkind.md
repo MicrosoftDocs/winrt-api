@@ -11,7 +11,9 @@ public TensorKind TensorKind { get; }
 
 ## -description
 Returns the data type of the tensor.
+
 ## -property-value
+The data type of the tensor.
 
 ## -remarks
 

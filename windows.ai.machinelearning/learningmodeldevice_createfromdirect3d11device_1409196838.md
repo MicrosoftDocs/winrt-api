@@ -10,11 +10,14 @@ public LearningModelDevice LearningModelDevice.CreateFromDirect3D11Device(IDirec
 # Windows.AI.MachineLearning.LearningModelDevice.CreateFromDirect3D11Device
 
 ## -description
-Create a LearningModelDevice from the specified IDirect3DDevice. 
+Create a [LearningModelDevice](learningmodeldevice.md) from the specified [IDirect3DDevice](../windows.graphics.directx.direct3d11/idirect3ddevice.md).
+
 ## -parameters
 ### -param device
+The **IDirect3DDevice** from which to create a **LearningModelDevice**.
 
 ## -returns
+A **LearningModelDevice** created from the specified **IDirect3DDevice**.
 
 ## -remarks
 

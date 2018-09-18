@@ -11,7 +11,9 @@ public ILearningModelFeatureDescriptor ValueDescriptor { get; }
 
 ## -description
 Map values can be feature kinds.
+
 ## -property-value
+The feature for this map value.
 
 ## -remarks
 

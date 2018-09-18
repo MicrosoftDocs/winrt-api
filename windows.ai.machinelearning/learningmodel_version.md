@@ -11,7 +11,9 @@ public long Version { get; }
 
 ## -description
 The version of the model.
+
 ## -property-value
+The version of the model.
 
 ## -remarks
 

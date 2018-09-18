@@ -10,8 +10,10 @@ public string Name { get; }
 # Windows.AI.MachineLearning.TensorFeatureDescriptor.Name
 
 ## -description
+The name you use to bind values to this feature.
 
 ## -property-value
+The name you use to bind values to this feature.
 
 ## -remarks
 

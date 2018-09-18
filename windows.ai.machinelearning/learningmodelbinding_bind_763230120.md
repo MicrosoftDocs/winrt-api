@@ -11,12 +11,16 @@ public void LearningModelBinding.Bind(String name, Object value, IPropertySet pr
 
 ## -description
 Bind a value to the named feature using properties to control the binding.
+
 ## -parameters
 ### -param name
+The name of the feature to which to bind.
 
 ### -param value
+The value to bind to the feature.
 
 ### -param props
+The properties to control the binding.
 
 ## -remarks
 

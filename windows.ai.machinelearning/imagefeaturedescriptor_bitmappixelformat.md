@@ -11,7 +11,9 @@ public BitmapPixelFormat BitmapPixelFormat { get; }
 
 ## -description
 Specifies the expected pixel format (channel ordering, bit depth, and data type).
+
 ## -property-value
+The pixel format of the image.
 
 ## -remarks
 

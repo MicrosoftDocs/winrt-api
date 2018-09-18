@@ -10,8 +10,10 @@ public BitmapAlphaMode BitmapAlphaMode { get; }
 # Windows.AI.MachineLearning.ImageFeatureDescriptor.BitmapAlphaMode
 
 ## -description
-Specifies expected alpha mode.
+Specifies the expected alpha mode of the image.
+
 ## -property-value
+The alpha mode of the image.
 
 ## -remarks
 

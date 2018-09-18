@@ -11,7 +11,9 @@ public TensorBoolean TensorBoolean.Create()
 
 ## -description
 Creates a boolean tensor object without allocating a buffer.
+
 ## -returns
+A boolean tensor object.
 
 ## -remarks
 

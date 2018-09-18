@@ -11,7 +11,9 @@ public ulong AdapterId { get; }
 
 ## -description
 Returns the unique identifier for the device.
+
 ## -property-value
+The unique identifier for the device.
 
 ## -remarks
 
