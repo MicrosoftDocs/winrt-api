@@ -11,7 +11,9 @@ public ILearningModelFeatureDescriptor ElementDescriptor { get; }
 
 ## -description
 Sequence elements can be feature kinds.
+
 ## -property-value
+The feature descriptor for this sequence element.
 
 ## -remarks
 

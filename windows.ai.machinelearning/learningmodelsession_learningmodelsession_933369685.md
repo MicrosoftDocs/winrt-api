@@ -11,11 +11,38 @@ public LearningModelSession.LearningModelSession(LearningModel model)
 
 ## -description
 Creates a session using the default device.
+
 ## -parameters
 ### -param model
+The trained machine learning model for this session.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
+The following example loads a model and creates an evaluation session with it.
+
+```csharp
+private async Task LoadModelAsync(LearningModel _model, string _modelFileName, LearningModelSession _session)
+{
+    // Only load the model one time.
+    if (_model != null) return;
+
+    try
+    {
+        // Load and create the model
+        var modelFile = 
+            await StorageFile.GetFileFromApplicationUriAsync(new Uri($"ms-appx:///Assets/{_modelFileName}"));
+        _model = await LearningModel.LoadFromStorageFileAsync(modelFile);
+
+        // Create the evaluation session with the model and device.
+        _session = new LearningModelSession(_model);
+    }
+    catch (Exception ex)
+    {
+        StatusBlock.Text = $"error: {ex.Message}";
+        _model = null;
+    }
+}
+```

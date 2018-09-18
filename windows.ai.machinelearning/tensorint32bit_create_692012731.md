@@ -10,11 +10,14 @@ public TensorInt32Bit TensorInt32Bit.Create(IIterable<Int64> shape)
 # Windows.AI.MachineLearning.TensorInt32Bit.Create
 
 ## -description
-Creates a 32bit signed int tensor object and allocates a buffer of size 'shape'.
+Creates a 32-bit signed integer tensor object and allocates a buffer of size *shape*.
+
 ## -parameters
 ### -param shape
+The size of the buffer.
 
 ## -returns
+A 32-bit signed integer tensor object with a buffer of the given size.
 
 ## -remarks
 

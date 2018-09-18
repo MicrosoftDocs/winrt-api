@@ -10,10 +10,10 @@ public IMapView<string, object> Outputs { get; }
 # Windows.AI.MachineLearning.LearningModelEvaluationResult.Outputs
 
 ## -description
-
 Gets the output features of the model.
 
 ## -property-value
+The output features of the model.
 
 ## -remarks
 

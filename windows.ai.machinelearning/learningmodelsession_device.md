@@ -13,6 +13,7 @@ public LearningModelDevice Device { get; }
 Returns the session's evaluation device.
 
 ## -property-value
+The session's evaluation device.
 
 ## -remarks
 

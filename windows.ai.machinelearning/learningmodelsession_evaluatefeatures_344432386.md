@@ -10,13 +10,17 @@ public LearningModelEvaluationResult LearningModelSession.EvaluateFeatures(IMap<
 # Windows.AI.MachineLearning.LearningModelSession.EvaluateFeatures
 
 ## -description
-Evaluate the machine learning model using the feature values in the map 'features'.
+Evaluate the machine learning model using the feature values in *features*.
+
 ## -parameters
 ### -param features
+A map of features with which to evaluate the model.
 
 ### -param correlationId
-Optional user supplied string that was attached to the Evaluate() call to connect the output results.
+Optional user supplied string to connect the output results.
+
 ## -returns
+The result of the evaluation.
 
 ## -remarks
 

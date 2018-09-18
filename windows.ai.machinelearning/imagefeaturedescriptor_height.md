@@ -11,7 +11,9 @@ public uint Height { get; }
 
 ## -description
 The expected image height.
+
 ## -property-value
+The expected image height.
 
 ## -remarks
 

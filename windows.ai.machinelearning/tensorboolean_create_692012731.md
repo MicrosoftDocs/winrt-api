@@ -10,11 +10,14 @@ public TensorBoolean TensorBoolean.Create(IIterable<Int64> shape)
 # Windows.AI.MachineLearning.TensorBoolean.Create
 
 ## -description
-Creates a boolean tensor object and allocates a buffer of size 'shape'.
+Creates a boolean tensor object and allocates a buffer of size *shape*.
+
 ## -parameters
 ### -param shape
+The size of the buffer.
 
 ## -returns
+A boolean tensor object with a buffer of the given size.
 
 ## -remarks
 

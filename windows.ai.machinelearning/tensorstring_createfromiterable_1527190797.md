@@ -10,13 +10,17 @@ public TensorString TensorString.CreateFromIterable(IIterable<Int64> shape, IIte
 # Windows.AI.MachineLearning.TensorString.CreateFromIterable
 
 ## -description
-Creates a string tensor object, allocates a buffer of size 'shape', and copies all of 'data' into it.
+Creates a string tensor object, allocates a buffer of size *shape*, and copies all of *data* into it.
+
 ## -parameters
 ### -param shape
+The size of the buffer.
 
 ### -param data
+The data to copy into the buffer.
 
 ## -returns
+A string tensor object with a buffer containing the given data.
 
 ## -remarks
 

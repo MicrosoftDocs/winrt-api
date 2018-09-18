@@ -10,8 +10,10 @@ public LearningModelFeatureKind Kind { get; }
 # Windows.AI.MachineLearning.ImageFeatureDescriptor.Kind
 
 ## -description
-The kind of feature - use this to know which derived class to use.
+The kind of feature&mdash;use this to know which derived class to use.
+
 ## -property-value
+The kind of feature.
 
 ## -remarks
 

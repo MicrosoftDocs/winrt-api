@@ -10,13 +10,17 @@ public TensorFloat16Bit TensorFloat16Bit.CreateFromArray(IIterable<Int64> shape,
 # Windows.AI.MachineLearning.TensorFloat16Bit.CreateFromArray
 
 ## -description
-Creates a 16bit float tensor object, allocates a buffer of size 'shape', and copies all of 'data' into it.
+Creates a 16-bit float tensor object, allocates a buffer of size *shape*, and copies all of *data* into it.
+
 ## -parameters
 ### -param shape
+The size of the buffer.
 
 ### -param data
+The data to copy into the buffer.
 
 ## -returns
+A 16-bit float tensor object with a buffer containing the given data.
 
 ## -remarks
 

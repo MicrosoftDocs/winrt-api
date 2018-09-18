@@ -10,11 +10,14 @@ public TensorInt8Bit TensorInt8Bit.Create(IIterable<Int64> shape)
 # Windows.AI.MachineLearning.TensorInt8Bit.Create
 
 ## -description
-Creates a 8bit signed int tensor object and allocates a buffer of size 'shape'.
+Creates an 8-bit signed integer tensor object and allocates a buffer of size *shape*.
+
 ## -parameters
 ### -param shape
+The size of the buffer.
 
 ## -returns
+An 8-bit signed integer tensor object with a buffer of the given size.
 
 ## -remarks
 

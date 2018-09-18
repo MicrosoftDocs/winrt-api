@@ -10,13 +10,17 @@ public LearningModelEvaluationResult LearningModelSession.Evaluate(LearningModel
 # Windows.AI.MachineLearning.LearningModelSession.Evaluate
 
 ## -description
-Evaluate the machine learning model using the feature values bound in 'bindings'.
+Evaluate the machine learning model using the feature values bound in *bindings*.
+
 ## -parameters
 ### -param bindings
 Holder for associations between model inputs and variable instances.
+
 ### -param correlationId
-Optional user supplied string that was attached to the Evaluate() call to connect the output results.
+Optional user-supplied string to connect the output results.
+
 ## -returns
+The results of the evaluation.
 
 ## -remarks
 

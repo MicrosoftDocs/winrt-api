@@ -11,10 +11,13 @@ public LearningModel LearningModel.LoadFromStream(IRandomAccessStreamReference m
 
 ## -description
 Loads an ONNX model from a stream.
+
 ## -parameters
 ### -param modelStream
+The stream from which to load the model.
 
 ## -returns
+An object representing the model file.
 
 ## -remarks
 

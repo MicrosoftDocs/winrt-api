@@ -1,0 +1,23 @@
+---
+-api-id: P:Windows.AI.MachineLearning.ILearningModelFeatureValue.Kind
+-api-type: winrt property
+---
+
+<!-- Property syntax.
+public LearningModelFeatureKind Kind { get; }
+-->
+
+# Windows.AI.MachineLearning.ILearningModelFeatureValue.Kind
+
+## -description
+The data type of the feature.
+
+## -property-value
+The data type of the feature.
+
+## -remarks
+
+## -see-also
+
+## -examples
+

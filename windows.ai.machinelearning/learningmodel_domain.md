@@ -11,7 +11,9 @@ public string Domain { get; }
 
 ## -description
 The domain of the model.
+
 ## -property-value
+The domain of the model.
 
 ## -remarks
 

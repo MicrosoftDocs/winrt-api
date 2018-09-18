@@ -11,7 +11,9 @@ public string Name { get; }
 
 ## -description
 The name of the model.
+
 ## -property-value
+The name of the model.
 
 ## -remarks
 

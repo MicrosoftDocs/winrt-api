@@ -11,7 +11,9 @@ public TensorKind KeyKind { get; }
 
 ## -description
 Map keys can be tensor kinds.
+
 ## -property-value
+The type of tensor this map key is.
 
 ## -remarks
 

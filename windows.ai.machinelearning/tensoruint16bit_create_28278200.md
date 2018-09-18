@@ -10,8 +10,10 @@ public TensorUInt16Bit TensorUInt16Bit.Create()
 # Windows.AI.MachineLearning.TensorUInt16Bit.Create
 
 ## -description
-Creates a 16bit unsigned int tensor object without allocating a buffer.
+Creates a 16-bit unsigned integer tensor object without allocating a buffer.
+
 ## -returns
+A 16-bit unsigned integer tensor object.
 
 ## -remarks
 

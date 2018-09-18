@@ -11,10 +11,13 @@ public IAsyncOperation<LearningModel> LearningModel.LoadFromStreamAsync(IRandomA
 
 ## -description
 Loads an ONNX model from a stream asynchronously.
+
 ## -parameters
 ### -param modelStream
+The stream from which to load the model.
 
 ## -returns
+An object representing the model.
 
 ## -remarks
 

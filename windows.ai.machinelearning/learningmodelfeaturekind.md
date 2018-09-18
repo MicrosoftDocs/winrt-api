@@ -14,15 +14,21 @@ Input and output feature kinds for a machine learning model.
 
 ## -enum-fields
 ### -field Tensor:0
-The feature is a tensor, use TensorFeatureDescriptor.
+The feature is a tensor, so use [TensorFeatureDescriptor](tensorfeaturedescriptor.md).
+
 ### -field Sequence:1
-The feature is a sequence, use SequenceFeatureDescriptor.
+The feature is a sequence, so use [SequenceFeatureDescriptor](sequencefeaturedescriptor.md).
+
 ### -field Map:2
-The feature is a map, use MapFeatureDescriptor.
+The feature is a map, so use [MapFeatureDescriptor](mapfeaturedescriptor.md).
+
 ### -field Image:3
-The feature is an image, use ImageFeatureDescriptor.
+The feature is an image, so use [ImageFeatureDescriptor](imagefeaturedescriptor.md).
+
 ## -remarks
-Each of these maps to a corresponding FeatureDescriptor that can be used to learn more about how to pass the feature into and out of the model.
+Each of these maps to a corresponding feature descriptor that can be used to learn more about how to pass the feature into and out of the model.
+
 ## -see-also
+[Windows ML](https://docs.microsoft.com/windows/ai/), [Windows ML samples (GitHub)](https://github.com/Microsoft/Windows-Machine-Learning/tree/master)
 
 ## -examples
