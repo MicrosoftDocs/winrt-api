@@ -17,9 +17,9 @@ The asynchronous action.
 ### -param asyncStatus
 One of the enumeration values.
 
-
 ## -remarks
 
 ## -examples
+For example [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/) code illustrating how to handle the **Completed** event, see [Delegate types for asynchronous actions and operations](/windows/uwp/cpp-and-winrt-apis/handle-events#delegate-types-for-asynchronous-actions-and-operations).
 
 ## -see-also
