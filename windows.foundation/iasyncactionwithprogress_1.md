@@ -38,6 +38,7 @@ To monitor the progress of the action (if not using the language-specific techni
 As with calling the existing methods, there are language-specific ways to define asynchronous methods that don't use [IAsyncActionWithProgress&lt;TProgress&gt;](iasyncactionwithprogress_1.md) directly. If writing code using .NET, your method can return a [Task](http://msdn.microsoft.com/library/system.threading.tasks.task.aspx). For C++/CX, you can use the [Concurrency runtime](http://msdn.microsoft.com/library/f1d33ca2-679b-4442-b140-22a9d9df61d1). However, if you're defining a [ component](http://msdn.microsoft.com/library/9a6b8f0a-7d5e-40a0-a9c5-a59b4908e133), you can use **Task**/**task** internally but you must return one of the Windows Runtime interfaces for your public methods. The language-specific asynchronous support types (and many other language-specific types you might conventionally use in code) can't be used for the public surface area of a Windows Runtime component.
 
 ## -examples
+For example [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/) code illustrating how to handle the **Progress** event, see [Delegate types for asynchronous actions and operations](/windows/uwp/cpp-and-winrt-apis/handle-events#delegate-types-for-asynchronous-actions-and-operations).
 
 ## -see-also
 [IAsyncInfo](iasyncinfo.md), [IAsyncAction](iasyncaction.md)
