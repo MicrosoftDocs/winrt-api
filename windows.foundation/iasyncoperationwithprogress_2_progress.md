@@ -18,6 +18,7 @@ A reference to the callback method that handles progress notifications. Implemen
 ## -remarks
 
 ## -examples
+For example [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/) code illustrating how to handle the **Progress** event, see [Delegate types for asynchronous actions and operations](/windows/uwp/cpp-and-winrt-apis/handle-events#delegate-types-for-asynchronous-actions-and-operations).
 
 ## -see-also
 [IAsyncOperationWithProgress&lt;TResult, TProgress&gt;](iasyncoperationwithprogress_2.md)
