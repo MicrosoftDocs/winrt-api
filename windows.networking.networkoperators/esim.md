@@ -13,9 +13,9 @@ public class ESim
 A class that represents an embedded SIM (eSIM, or eUICC). An eSIM stores one or more identities (eSIM profiles) belonging to one or more mobile network operators (MNOs). An eSIM is not a form factor; it's a way to manage SIM profiles.
 
 > [!NOTE]
-> This functionality is only available to mobile operator apps and UWP apps given privileged access by mobile network operators.
+> This functionality is available only to mobile operator apps and UWP apps given privileged access by mobile network operators.
 >
-> If you want to use this API and publish your app to the Store then you will need to request special approval to use the restricted capability **Microsoft.eSIMManagement_8wekyb3d8bbwe**. For more info, see [Special and restricted capabilities](/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities).
+> If you want to use this API and publish your app to the Microsoft Store, then you'll need to request special approval to use the custom capability **Microsoft.eSIMManagement_8wekyb3d8bbwe**. For more info, see [Custom capabilities](/windows/uwp/packaging/app-capability-declarations#custom-capabilities).
 
 ## -remarks
 A traditional SIM card stores a single identity that the modem can use to register onto a mobile network operator's (MNO's) network, and provide cellular service (the card is usually distributed by the MNO). But an eSIM stores one or more identities (eSIM profiles) belonging to one or more mobile operators. An eSIM switches identities by enabling and disabling the eSIM profiles saved on the card. Once an eSIM profile is enabled, the eSIM appears and functions as if it were a traditional SIM card from the MNO that distributed the profile. In this way, the end-user can easily switch between MNOs without changing the physical card.
