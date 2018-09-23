@@ -10,14 +10,14 @@ public Windows.Foundation.IAsyncOperation<Windows.Security.Authentication.Web.Co
 # Windows.Security.Authentication.Web.Core.WebAuthenticationCoreManager.GetTokenSilentlyAsync
 
 ## -description
-Attempts to get a token without showing any UI using one input. The user will never be prompted to enter their credentials.
+Asynchronously attempts to get a token without showing any UI. The user will never be prompted to enter their credentials.
 
 ## -parameters
 ### -param request
 The web token request.
 
 ## -returns
-When this method completes successfully, it returns the result of the web token request.
+An asynchronous request operation. On successful completion, contains a [WebTokenRequestResult](webtokenrequestresult.md) object representing the result of the web token request.
 
 ## -remarks
 Unlike [RequestTokenAsync](webauthenticationcoremanager_requesttokenasync_1777535178.md), you may call this method from background threads.

@@ -20,7 +20,7 @@ The ID provider that owns the accounts to be retrieved.
 The ID of the client application.
 
 ## -returns
-An asynchronous operation with the result of the account retrieval. 
+An asynchronous find operation. On successful completion, contains a [FindAllAccountsResult](findallaccountsresult.md) object representing the result of the account retrieval.
 
 ## -remarks
 
