@@ -10,14 +10,14 @@ public Windows.Foundation.IAsyncOperation<Windows.ApplicationModel.Background.Ba
 # Windows.ApplicationModel.Background.BackgroundExecutionManager.RequestAccessAsync
 
 ## -description
-Requests that the app be permitted to run background tasks.
+Asynchronously requests that the app be permitted to run background tasks.
 
 ## -parameters
 ### -param applicationId
-The Package Relative Application ID (PRAID) of the app to be permitted to run background tasks. The specified app must be in the same package as the calling app.
+The package-relative application identifier (PRAID) of the app to be permitted to run background tasks. The specified app must be in the same package as the calling app. For more info on the PRAID, see the **Id** attribute of the [Application](/uwp/schemas/appxpackage/appxmanifestschema/element-application#attributes-and-elements) element.
 
 ## -returns
-When the operation completes, it returns a member of the [BackgroundAccessStatus](backgroundaccessstatus.md) enumeration that specifies the outcome.
+An asynchronous request operation. On successful completion, contains a member of the [BackgroundAccessStatus](backgroundaccessstatus.md) enumeration that specifies the outcome.
 
 ## -remarks
 <table>
