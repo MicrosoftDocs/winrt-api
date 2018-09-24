@@ -10,17 +10,17 @@ public Windows.Foundation.IAsyncOperation<Windows.Security.Credentials.WebAccoun
 # Windows.Security.Authentication.Web.Core.WebAuthenticationCoreManager.FindAccountAsync
 
 ## -description
-Finds a web account asynchronously.
+Asynchronously attempts to find a web account provider.
 
 ## -parameters
 ### -param provider
 The web account provider for the web account.
 
 ### -param webAccountId
-The Id of the web account.
+The identifier of the web account.
 
 ## -returns
-When this method completes successfully, it returns the found **[WebAccount](https://docs.microsoft.com/uwp/api/windows.security.credentials.webaccount)** object.
+An asynchronous find operation. On successful completion, contains a [WebAccount](../windows.security.credentials/webaccount.md) object representing the found web account.
 
 ## -remarks
 

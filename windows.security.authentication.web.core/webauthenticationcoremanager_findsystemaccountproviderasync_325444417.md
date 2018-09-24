@@ -10,7 +10,7 @@ public IAsyncOperation<WebAccountProvider> WebAuthenticationCoreManager.FindSyst
 # Windows.Security.Authentication.Web.Core.WebAuthenticationCoreManager.FindSystemAccountProviderAsync
 
 ## -description
-Finds a web account provider for device-wide authentication. This method runs asynchronously and takes two inputs.
+Asynchronously attempts to find a web account provider for device-wide authentication.
 
 ## -parameters
 ### -param webAccountProviderId
@@ -20,7 +20,7 @@ The Id of the web account provider to find.
 The authority of the web account provider to find.
 
 ## -returns
-When this method completes successfully, it returns the found **[WebAccountProvider](https://docs.microsoft.com/uwp/api/windows.security.credentials.webaccountprovider)** object.
+An asynchronous find operation. On successful completion, contains a [WebAccountProvider](../windows.security.credentials/webaccountprovider.md) object representing the found web account provider.
 
 ## -remarks
 The device token feature is intended for cases in which a service needs to connect to cloud resources before a user ever signs into the device (for example, in out-of-box experiences where there are System Center Configuration Manager (SCCM) policies that must be applied right away). Only first-party ID providers (Xbox, MSA, AAD) allow device-wide tokens; other ID providers do not.

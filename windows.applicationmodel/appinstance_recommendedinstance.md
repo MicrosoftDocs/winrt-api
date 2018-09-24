@@ -19,6 +19,9 @@ The app instance that the shell prefers to use for an app, or `null` if there is
 If the shell provides a preference, the app can redirect activation to that instance. 
 The app can ignore the preference. 
 
+> [!NOTE]
+> Currently, the shell does not set a non-null value for **RecommendedInstance**.
+
 ## -see-also
 
 ## -examples
