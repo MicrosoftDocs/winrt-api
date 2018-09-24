@@ -10,7 +10,7 @@ public IAsyncOperation<WebAccountProvider> WebAuthenticationCoreManager.FindSyst
 # Windows.Security.Authentication.Web.Core.WebAuthenticationCoreManager.FindSystemAccountProviderAsync
 
 ## -description
-Finds a web account provider for device-wide authentication. This method runs asynchronously and takes three inputs.
+Asynchronously attempts to find a web account provider for device-wide authentication.
 
 ## -parameters
 ### -param webAccountProviderId
@@ -23,7 +23,7 @@ The authority of the web account provider to find.
 The user associated with the web account provider to find.
 
 ## -returns
-When this method completes successfully, it returns the found **[WebAccountProvider](https://docs.microsoft.com/uwp/api/windows.security.credentials.webaccountprovider)** object.
+An asynchronous find operation. On successful completion, contains a [WebAccountProvider](../windows.security.credentials/webaccountprovider.md) object representing the found web account provider.
 
 ## -remarks
 

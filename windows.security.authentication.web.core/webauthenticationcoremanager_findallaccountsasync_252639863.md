@@ -17,7 +17,7 @@ Enumerates all of the accounts that have been added by a user for a particular I
 The ID provider that owns the accounts to be retrieved.
 
 ## -returns
-An asynchronous operation with the result of the account retrieval. 
+An asynchronous find operation. On successful completion, contains a [FindAllAccountsResult](findallaccountsresult.md) object representing the result of the account retrieval.
 
 ## -remarks
 
