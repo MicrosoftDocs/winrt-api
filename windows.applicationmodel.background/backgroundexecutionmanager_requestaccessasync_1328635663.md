@@ -16,6 +16,8 @@ Asynchronously requests that the app be permitted to run background tasks.
 ### -param applicationId
 The package-relative application identifier (PRAID) of the app to be permitted to run background tasks. The specified app must be in the same package as the calling app. For more info on the PRAID, see the **Id** attribute of the [Application](/uwp/schemas/appxpackage/appxmanifestschema/element-application#attributes-and-elements) element.
 
+If you are hosting background task(s) in an out-of-process COM server, separate from your main application, then pass as the argument for `applicationId` the PRAID of the application that defines the `windows.backgroundTask` extension in its own package manifest.
+
 ## -returns
 An asynchronous request operation. On successful completion, contains a member of the [BackgroundAccessStatus](backgroundaccessstatus.md) enumeration that specifies the outcome.
 
