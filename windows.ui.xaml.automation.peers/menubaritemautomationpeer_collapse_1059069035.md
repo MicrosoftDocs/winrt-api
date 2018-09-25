@@ -11,9 +11,10 @@ public void MenuBarItemAutomationPeer.Collapse()
 
 ## -description
 
+Hides all nodes, controls, or content that are descendants of the [MenuBarItem](../windows.ui.xaml.controls/menubaritem.md).
+
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

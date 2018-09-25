@@ -11,11 +11,14 @@ public ExpandCollapseState ExpandCollapseState { get; }
 
 ## -description
 
+Gets the state, expanded or collapsed, of the control.
+
 ## -property-value
+
+A value of the enumeration.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

@@ -11,9 +11,10 @@ public void AppBarButtonAutomationPeer.Expand()
 
 ## -description
 
+Displays all child nodes, controls, or content of the control.
+
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

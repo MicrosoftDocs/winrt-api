@@ -11,6 +11,8 @@ public void MenuBarItemAutomationPeer.Invoke()
 
 ## -description
 
+Sends a request to click the [MenuBarItem](../windows.ui.xaml.controls/menubaritem.md) associated with the automation peer.
+
 ## -remarks
 
 ## -see-also

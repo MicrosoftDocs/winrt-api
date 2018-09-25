@@ -11,9 +11,12 @@ public class MenuBarAutomationPeer : FrameworkElementAutomationPeer, FrameworkEl
 
 ## -description
 
-## -remarks
+Exposes [MenuBar](menubarautomationpeer.md) types to Microsoft UI Automation.
 
-## -see-also
+## -remarks
 
 ## -examples
 
+## -see-also
+
+[FrameworkElementAutomationPeer](frameworkelementautomationpeer.md)

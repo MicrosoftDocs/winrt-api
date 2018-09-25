@@ -11,12 +11,16 @@ public MenuBarItemAutomationPeer.MenuBarItemAutomationPeer(MenuBarItem owner)
 
 ## -description
 
+Initializes a new instance of the [MenuBarItemAutomationPeer](menubaritemautomationpeer.md) class using the specified [MenuBarItem](../windows.ui.xaml.controls/menubaritem.md).
+
 ## -parameters
+
 ### -param owner
+
+The specified [MenuBarItem](../windows.ui.xaml.controls/menubaritem.md).
 
 ## -remarks
 
-## -see-also
-
 ## -examples
 
+## -see-also
