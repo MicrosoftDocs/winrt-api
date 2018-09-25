@@ -12,6 +12,7 @@ public bool DeviceInformationPairing.TryRegisterForAllInboundPairingRequestsWith
 ## -description
 
 ## -parameters
+
 ### -param pairingKindsSupported
 
 ### -param minProtectionLevel
