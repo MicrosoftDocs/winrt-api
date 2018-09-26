@@ -11,8 +11,13 @@ public void XamlUICommand.Execute(Object parameter)
 
 ## -description
 
+Invokes the command.
+
 ## -parameters
+
 ### -param parameter
+
+Data used by the command. If the command does not require data, this object can be set to null.
 
 ## -remarks
 

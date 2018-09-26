@@ -11,11 +11,16 @@ public string AccessKey { get;  set; }
 
 ## -description
 
+Gets or sets the access key (mnemonic) for this element.
+
 ## -property-value
+
+The access key (mnemonic) for this element.
 
 ## -remarks
 
 ## -see-also
 
-## -examples
+[AccessKey](../windows.ui.xaml/uielement_accesskey.md), [Access keys](https://docs.microsoft.com/windows/uwp/design/input/access-keys)
 
+## -examples

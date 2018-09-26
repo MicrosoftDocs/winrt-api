@@ -11,9 +11,12 @@ public event TypedEventHandler ExecuteRequested<XamlUICommand, ExecuteRequestedE
 
 ## -description
 
+Occurs when an [Execute](xamluicommand_execute_171295283.md) call is made.
+
 ## -remarks
 
 ## -see-also
 
-## -examples
+[XamlUICommand](xamluicommand.md), [ExecuteRequestedEventArgs](executerequestedeventargs.md)
 
+## -examples

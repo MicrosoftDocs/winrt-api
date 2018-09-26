@@ -11,11 +11,14 @@ public string Label { get;  set; }
 
 ## -description
 
+Gets or sets the label for this element.
+
 ## -property-value
+
+The label for this element.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

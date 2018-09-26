@@ -22,4 +22,3 @@ The identifier for the [Command](xamluicommand_command.md) dependency property.
 ## -see-also
 
 ## -examples
-

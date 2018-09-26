@@ -11,11 +11,15 @@ public object Parameter { get; }
 
 ## -description
 
+Gets the command parameter passed into the [CanExecute](icommand_canexecute_508446764.md) method that raised this event.
+
 ## -property-value
 
 ## -remarks
 
 ## -see-also
+
+[CanExecuteRequested](xamluicommand_canexecuterequested.md)
 
 ## -examples
 

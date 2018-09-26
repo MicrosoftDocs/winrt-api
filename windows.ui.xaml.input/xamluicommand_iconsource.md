@@ -11,7 +11,11 @@ public IconSource IconSource { get;  set; }
 
 ## -description
 
+Gets or sets a glyph from the Segoe MDL2 Assets font for this element.
+
 ## -property-value
+
+A glyph from the Segoe MDL2 Assets font for this element.
 
 ## -remarks
 

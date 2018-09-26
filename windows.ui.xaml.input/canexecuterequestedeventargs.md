@@ -11,9 +11,13 @@ public class CanExecuteRequestedEventArgs
 
 ## -description
 
+Provides event data for the [CanExecuteRequested](xamluicommand_canexecuterequested.md) event.
+
 ## -remarks
 
 ## -see-also
+
+[XamlUICommand](xamluicommand.md)
 
 ## -examples
 

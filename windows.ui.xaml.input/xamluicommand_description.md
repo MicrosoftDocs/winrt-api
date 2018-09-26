@@ -11,7 +11,11 @@ public string Description { get;  set; }
 
 ## -description
 
+Gets or sets a description for this element.
+
 ## -property-value
+
+The description for this element.
 
 ## -remarks
 

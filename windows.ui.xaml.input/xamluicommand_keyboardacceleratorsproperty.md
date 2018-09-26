@@ -22,4 +22,3 @@ The identifier for the [KeyboardAccelerators](xamluicommand_keyboardaccelerators
 ## -see-also
 
 ## -examples
-

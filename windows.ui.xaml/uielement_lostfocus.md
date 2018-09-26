@@ -10,18 +10,22 @@ public event Windows.UI.Xaml.RoutedEventHandler LostFocus
 # Windows.UI.Xaml.UIElement.LostFocus
 
 ## -description
-Occurs when a [UIElement](uielement.md) loses focus.
+
+Occurs when a [UIElement](uielement.md) loses focus. This event is raised asynchronously, so focus can move again before bubbling is complete.
 
 ## -xaml-syntax
+
 ```xaml
 <uiElement LostFocus="eventhandler"/>
 ```
 
-
 ## -remarks
+
 Only one UI element can have focus.
 
 A control can lose focus when another control gets focus, the application view changes, the user switches applications, or interacts with the system such that the application is no longer in the foreground.
+
+[LostFocus](uielement_lostfocus.md) is raised before [GotFocus](uielement_gotfocus.md).
 
 Keyboard focus is particularly relevant for keyboard event handling, because only the currently keyboard-focused [UIElement](uielement.md) can be the source of the [KeyUp](uielement_keyup.md) and [KeyDown](uielement_keydown.md) key events. Applications might call [Focus](../windows.ui.xaml.controls/control_focus_195503898.md) as an initialization action so that the key events in the app as a whole can be used to detect access or accelerator keys. For more info, see [Keyboard interactions](http://msdn.microsoft.com/library/ff819bac-67c0-4ec9-8921-f087be188138).
 
@@ -36,4 +40,5 @@ For more info on how class-based handling for events works, see [Events and rout
 ## -examples
 
 ## -see-also
+
 [RoutedEventArgs](routedeventargs.md), [LosingFocus](uielement_losingfocus.md), [GotFocus](uielement_gotfocus.md), [Control.Focus](../windows.ui.xaml.controls/control_focus_195503898.md), [Keyboard interactions](http://msdn.microsoft.com/library/ff819bac-67c0-4ec9-8921-f087be188138), [Storyboarded animations for visual states](http://msdn.microsoft.com/library/5e715281-d247-4e7f-9f88-2af0d88ed5e4)

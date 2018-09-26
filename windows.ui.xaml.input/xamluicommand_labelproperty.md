@@ -22,4 +22,3 @@ The identifier for the [Label](xamluicommand_label.md) dependency property.
 ## -see-also
 
 ## -examples
-

@@ -11,9 +11,12 @@ public void XamlUICommand.NotifyCanExecuteChanged()
 
 ## -description
 
+Notifies the system that the command state has changed.
+
 ## -remarks
 
 ## -see-also
 
-## -examples
+[CanExecuteChanged](xamluicommand_canexecutechanged.md)
 
+## -examples

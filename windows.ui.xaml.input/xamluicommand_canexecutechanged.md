@@ -11,9 +11,16 @@ public event EventHandler CanExecuteChanged<object>
 
 ## -description
 
+Occurs whenever something happens that affects whether the command can execute.
+
 ## -remarks
+
+Call [CanExecute](xamluicommand_canexecute_508446764.md) on the command element when this event occurs.
+
+A command element typically disables itself if the command it is associated with cannot execute. For example, a MenuItem associated with the Paste command is disabled when the there is nothing on the clipboard to paste.
 
 ## -see-also
 
-## -examples
+[NotifyCanExecuteChanged](xamluicommand_notifycanexecutechanged_1647343835.md)
 
+## -examples

@@ -22,4 +22,3 @@ The identifier for the [IconSource](xamluicommand_iconsource.md) dependency prop
 ## -see-also
 
 ## -examples
-

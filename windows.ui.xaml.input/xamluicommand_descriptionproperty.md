@@ -22,4 +22,3 @@ The identifier for the [Description](xamluicommand_description.md) dependency pr
 ## -see-also
 
 ## -examples
-

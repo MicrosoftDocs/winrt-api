@@ -17,5 +17,7 @@ Represents a Windows Ink input surface for text input controls.
 
 ## -see-also
 
+[TextBox](textbox.md), [RichEditBox](richeditbox.md), [AutoSuggestBox](autosuggestbox.md), [Text input with the handwriting view](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/text-handwriting-view)
+
 ## -examples
 

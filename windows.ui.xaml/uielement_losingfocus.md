@@ -10,7 +10,8 @@ public event TypedEventHandler LosingFocus<UIElement, LosingFocusEventArgs>
 # Windows.UI.Xaml.UIElement.LosingFocus
 
 ## -description
-Occurs before a [UIElement](uielement.md) loses focus.
+
+Occurs before a [UIElement](uielement.md) loses focus. This event is raised synchronously to ensure focus isn't moved while the event is bubbling.
 
 ## -xaml-syntax
 
@@ -19,10 +20,11 @@ Occurs before a [UIElement](uielement.md) loses focus.
 ```
 
 ## -remarks
+
 [FocusNavigationDirection.Previous](focusnavigationdirection.md) and [FocusNavigationDirection.Next](focusnavigationdirection.md) cannot be used with [FindNextElementOptions](findnextelementoptions.md). Only [FocusNavigationDirection.Up](focusnavigationdirection.md), [FocusNavigationDirection.Down](focusnavigationdirection.md), [FocusNavigationDirection.Left](focusnavigationdirection.md), or [FocusNavigationDirection.Right](focusnavigationdirection.md) are valid.
 
 ## -see-also
+
 [LosingFocusEventArgs](..\windows.ui.xaml.input\losingfocuseventargs.md), [LostFocus](uielement_lostfocus.md)
 
 ## -examples
-

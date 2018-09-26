@@ -18,4 +18,3 @@ Initializes a new instance of the [XamlUICommand](xamluicommand.md) class.
 ## -see-also
 
 ## -examples
-

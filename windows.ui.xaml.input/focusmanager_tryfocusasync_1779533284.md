@@ -10,19 +10,25 @@ public IAsyncOperation<FocusMovementResult> FocusManager.TryFocusAsync(Dependenc
 # Windows.UI.Xaml.Input.FocusManager.TryFocusAsync
 
 ## -description
+
 Asynchronously attempts to set focus on an element when the application is initialized. 
 
 ## -parameters
+
 ### -param element
+
 The object on which to set focus.
 
 ### -param value
+
 One of the values from the [FocusState](https://docs.microsoft.com/uwp/api/windows.ui.xaml.focusstate) enumeration that specify how an elemnent can obtain focus.
 
 ## -returns
+
 The [FocusMovementResult](focusmovementresult.md) that indicates whether focus was successfully set.
 
 ## -remarks
+
 Some objects, such as a [WebView](../windows.ui.xaml.controls/webview.md), can run in either the app process or in a separate process (see [WebViewExecutionMode.SeparateProcess](../windows.ui.xaml.controls/webviewexecutionmode.md)). 
 
 When an object runs in the app process, the following focus events occur as expected for both the previously focused object and the newly focused object:
@@ -39,9 +45,10 @@ However, if the newly focused object is running in a separate process some of th
  
 [TryFocusAsync](focusmanager_tryfocusasync_1779533284.md) completes synchronously when called on an element running in the app process. 
  
-
 ## -examples
+
 Here, we show how to set focus on a WebView object, and, if that fails, restore focus to the original element. 
+
 ```csharp
 async void MoveFocus(WebView webView)) 
 { 
@@ -56,5 +63,3 @@ async void MoveFocus(WebView webView))
 ```
 
 ## -see-also
-
-
