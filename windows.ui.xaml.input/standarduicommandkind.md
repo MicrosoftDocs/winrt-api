@@ -87,6 +87,6 @@ Specifies the redo command.
 
 ## -see-also
 
-[StandardUICommand](standarduicommand.md)
+[Kind](standarduicommand_kind.md), [StandardUICommand(StandardUICommandKind kind)](standarduicommand_standarduicommand_1550060345.md)
 
 ## -examples

@@ -11,11 +11,14 @@ public StandardUICommandKind Kind { get; }
 
 ## -description
 
+Gets the pre-defined command (including behavior, and various UI-related properties, methods, and events) that can be used with a [StandardUICommand](standarduicommand.md).
+
 ## -property-value
+
+The pre-defined command.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

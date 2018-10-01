@@ -11,12 +11,18 @@ public StandardUICommand.StandardUICommand(StandardUICommandKind kind)
 
 ## -description
 
+Initializes a new instance of the [StandardUICommand](standarduicommand.md) class of the specified kind.
+
 ## -parameters
+
 ### -param kind
+
+The pre-defined command (including behavior, and various UI-related properties, methods, and events).
 
 ## -remarks
 
 ## -see-also
 
-## -examples
+[StandardUICommand()](standarduicommand_standarduicommand_1221375020.md)
 
+## -examples

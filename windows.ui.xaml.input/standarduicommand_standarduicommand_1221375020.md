@@ -17,5 +17,6 @@ Initializes a new instance of the [StandardUICommand](standarduicommand.md) clas
 
 ## -see-also
 
-## -examples
+[StandardUICommand(StandardUICommandKind kind)](standarduicommand_standarduicommand_1550060345.md)
 
+## -examples
