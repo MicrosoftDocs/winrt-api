@@ -17,7 +17,7 @@ Blocks the current thread until the right time to begin rendering the next frame
 The amount of extra head start time to wake up early.
 
 ## -remarks
-This will be approximately the head start plus one frame duration before the next frame is expected to be received by the compositor to reproject and scan out.
+This method will return approximately the head start plus one frame duration before the next frame is expected to be received by the compositor to reproject and scan out.
 
 ## -see-also
 

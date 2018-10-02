@@ -19,6 +19,8 @@ public class TensorVariableDescriptorPreview : ILearningModelVariableDescriptorP
 
 This type maps to a multi-dimensional array or the .NET Tensor<T>
 
+A tensor type, regardless of its dimension, is mapped to IList.
+
 ## -see-also
 
 ## -examples

@@ -29,9 +29,44 @@ The preferred location of the flyout is to the right of the target element.
 The preferred location of the flyout is centered on the screen.
 
 
+### -field BottomEdgeAlignedLeft:7
+
+
+### -field BottomEdgeAlignedRight:8
+
+
+### -field LeftEdgeAlignedBottom:10
+
+
+### -field LeftEdgeAlignedTop:9
+
+
+### -field RightEdgeAlignedBottom:12
+
+
+### -field RightEdgeAlignedTop:11
+
+
+### -field TopEdgeAlignedLeft:5
+
+
+### -field TopEdgeAlignedRight:6
+
+
+### -field Auto:13
+
+
 ## -remarks
 
 ## -examples
 
 ## -see-also
 [FlyoutBase.Placement](flyoutbase_placement.md), [Flyout](../windows.ui.xaml.controls/flyout.md), [MenuFlyout](../windows.ui.xaml.controls/menuflyout.md)
+
+
+
+
+
+
+
+

@@ -13,6 +13,8 @@ public class SpatialEntityRemovedEventArgs
 Event data for spatial entity removed events.
 
 ## -remarks
+> [!IMPORTANT]
+> The SpatialEntityStore approach of synchronizing spatial anchors between devices is not currently supported.
 
 ## -see-also
 

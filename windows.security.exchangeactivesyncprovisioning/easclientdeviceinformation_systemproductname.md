@@ -10,13 +10,13 @@ public string SystemProductName { get; }
 # Windows.Security.ExchangeActiveSyncProvisioning.EasClientDeviceInformation.SystemProductName
 
 ## -description
-Returns the system product name of the local device.
+Gets the system product name of the local device. Use **SystemProductName** only if the value of [SystemSku](easclientdeviceinformation_systemsku.md) is empty.
 
 ## -property-value
-The system product name of the local device. The value must be less than 1024 characters.
+A string containing the system product name of the local device. The value is fewer than 1024 characters long.
 
 ## -remarks
-> UWP apps only. Use this only if the [SystemSku](easclientdeviceinformation_systemsku.md) is empty. [SystemProductName](easclientdeviceinformation_systemproductname.md) is retrieved from the registry. If the registry can't be read for any reason, [SystemProductName](easclientdeviceinformation_systemproductname.md) is returned as an empty string.
+**SystemProductName** is retrieved from the Window Registry. If the Registry can't be read for any reason, **SystemProductName** returns an empty string.
 
 ## -examples
 

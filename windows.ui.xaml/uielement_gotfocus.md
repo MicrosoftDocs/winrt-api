@@ -10,16 +10,21 @@ public event Windows.UI.Xaml.RoutedEventHandler GotFocus
 # Windows.UI.Xaml.UIElement.GotFocus
 
 ## -description
-Occurs when a [UIElement](uielement.md) receives focus.
+
+Occurs when a [UIElement](uielement.md) receives focus. This event is raised asynchronously, so focus can move again before bubbling is complete.
 
 ## -xaml-syntax
+
 ```xaml
 <uiElement GotFocus="eventhandler"/>
 ```
 
 
 ## -remarks
+
 Only one UI element can have focus.
+
+[LostFocus](uielement_lostfocus.md) is raised before [GotFocus](uielement_gotfocus.md).
 
 If you are using control compositing or UI compositing and handling [GotFocus](uielement_gotfocus.md) on a container such as a [Panel](../windows.ui.xaml.controls/panel.md) or [GridView](../windows.ui.xaml.controls/gridview.md), then you might want to check the [OriginalSource](routedeventargs_originalsource.md) on the event data to determine which element in the composition actually received the focus.
 
@@ -38,4 +43,5 @@ For more info on how class-based handling for events works, see [Events and rout
 ## -examples
 
 ## -see-also
+
 [RoutedEventArgs](routedeventargs.md), [GettingFocus](uielement_gettingfocus.md), [LostFocus](uielement_lostfocus.md), [Control.Focus](../windows.ui.xaml.controls/control_focus_195503898.md), [Keyboard interactions](http://msdn.microsoft.com/library/ff819bac-67c0-4ec9-8921-f087be188138), [Storyboarded animations for visual states](http://msdn.microsoft.com/library/5e715281-d247-4e7f-9f88-2af0d88ed5e4)

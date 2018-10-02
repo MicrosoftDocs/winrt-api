@@ -10,13 +10,17 @@ public Windows.UI.Xaml.UIElement FindNextFocusableElement(Windows.UI.Xaml.Input.
 # Windows.UI.Xaml.Input.FocusManager.FindNextFocusableElement
 
 ## -description
-Retrieves the element that will receive focus based on the specified navigation direction.
+
+Retrieves the element that should receive focus based on the specified navigation direction.
 
 ## -parameters
+
 ### -param focusNavigationDirection
-The direction that focus moves from element to element within the app UI.
+
+The direction that focus moves from element to element within the application UI.
 
 ## -returns
+
 **null** if focus cannot be set in the specified direction.
 
 ## -remarks
@@ -24,4 +28,5 @@ The direction that focus moves from element to element within the app UI.
 ## -examples
 
 ## -see-also
+
 [FindNextFocusableElement(FocusNavigationDirection, Rect)](focusmanager_findnextfocusableelement_153874287.md)

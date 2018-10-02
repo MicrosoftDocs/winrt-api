@@ -31,6 +31,9 @@ If this package is currently in use, the processes associated with the package a
 ### -field RequiredContentGroupOnly:256
 When you set this option, only the required content group will be staged. An app can be installed as a package with the required content group alone.
 
+### -field ForceUpdateFromAnyVersion:262144
+Force a specific version of a package to be staged/registered, regardless of if a higher version is already staged/registered.
+
 ## -remarks
 You can use the **DevelopmentMode** option to install apps without requiring an app package. Instead, the deployment engine processes the AppxManifest.xml file directly, which allows for a more rapid development cycle. The BlockMap.xml, [Content_Types].xml, and digital signature files are not required for app installation in **DevelopmentMode**.
 
@@ -62,4 +65,5 @@ Additionally, to simplify and enhance the app development experience, these key 
 
 ## -see-also
 [PackageManager.AddPackageAsync](/uwp/api/windows.management.deployment.packagemanager.addpackageasync), [PackageManager.RegisterPackageAsync](/uwp/api/windows.management.deployment.packagemanager.registerpackageasync), [PackageManager.UpdatePackageAsync](packagemanager_updatepackageasync_1181217661.md)
+
 

@@ -31,10 +31,12 @@ Permission is for media.
 ### -field Geolocation:0
 Permission is for geolocation.
 
+### -field ImmersiveView:6
+Permission is for the ImmersiveView.
+
 ## -remarks
 This enumeration provides values for the [WebViewPermissionRequest.PermissionType](webviewcontrolpermissionrequest_permissiontype.md) and [WebViewDeferredPermissionRequest.PermissionType](webviewcontroldeferredpermissionrequest_permissiontype.md) properties.
 
 ## -see-also
 
 ## -examples
-

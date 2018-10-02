@@ -10,9 +10,11 @@ public string DeviceId { get; }
 # Windows.Devices.Sensors.SimpleOrientationSensor.DeviceId
 
 ## -description
-Gets the device identifier.
+
+Gets the device identifier used in the [SimpleOrientationSensor.FromIdAsync](simpleorientationsensor_fromidasync_1322863552.md) method.
 
 ## -property-value
+
 The device identifier.
 
 ## -remarks

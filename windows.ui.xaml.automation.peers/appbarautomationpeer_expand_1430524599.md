@@ -10,6 +10,7 @@ public void Expand()
 # Windows.UI.Xaml.Automation.Peers.AppBarAutomationPeer.Expand
 
 ## -description
+
 Displays all child nodes, controls, or content of the control.
 
 ## -remarks

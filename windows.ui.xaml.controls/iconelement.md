@@ -20,6 +20,7 @@ Represents the base class for an icon UI element.
 + [FontIcon](fonticon.md)
 + [PathIcon](pathicon.md)
 + [SymbolIcon](symbolicon.md)
++ [IconSourceElement](iconsourceelement.md)
 
 
 ## -examples

@@ -21,5 +21,7 @@ The identifier for the IsOpen dependency property.
 
 ## -see-also
 
+[Text input with the handwriting view](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/text-handwriting-view)
+
 ## -examples
 

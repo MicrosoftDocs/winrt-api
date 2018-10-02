@@ -14,7 +14,7 @@ Initializes an instance of the [RemoteSystemConnectionRequest](remotesystemconne
 
 ## -parameters
 ### -param remoteSystem
-The underlying remote system (device) for the resulting .
+The underlying remote system (device) for the resulting RemoteSystemConnectionRequest.
 
 ## -remarks
 

@@ -1,0 +1,23 @@
+---
+-api-id: P:Windows.Media.Audio.SpatialAudioDeviceConfiguration.ActiveSpatialAudioFormat
+-api-type: winrt property
+---
+
+<!-- Property syntax.
+public string ActiveSpatialAudioFormat { get; }
+-->
+
+# Windows.Media.Audio.SpatialAudioDeviceConfiguration.ActiveSpatialAudioFormat
+
+## -description
+Provides the currently active spatial audio format for this device. This could have been changed by the system and therefore may not be the same as the default.
+
+## -property-value
+A string of the GUID for the active spatial audio format.
+
+## -remarks
+
+## -see-also
+
+## -examples
+

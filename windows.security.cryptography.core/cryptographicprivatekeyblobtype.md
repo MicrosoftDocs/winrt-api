@@ -53,7 +53,7 @@ Microsoft private key format defined by Cryptography API: Next Generation (CNG).
 Microsoft private key format defined by the legacy Cryptography API (CAPI). For more information, see [Base Provider Key BLOBs](http://msdn.microsoft.com/library/b4592036-0fa3-4b7e-beed-78cf1d2f39a9).
 
 ### -field BCryptEccFullPrivateKey:4
-
+The key is a BCrypt full elliptic curve cryptography (ECC) private key.
 
 
 ## -remarks

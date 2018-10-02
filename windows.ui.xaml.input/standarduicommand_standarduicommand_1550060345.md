@@ -1,0 +1,28 @@
+---
+-api-id: M:Windows.UI.Xaml.Input.StandardUICommand.#ctor(Windows.UI.Xaml.Input.StandardUICommandKind)
+-api-type: winrt method
+---
+
+<!-- Method syntax.
+public StandardUICommand.StandardUICommand(StandardUICommandKind kind)
+-->
+
+# Windows.UI.Xaml.Input.StandardUICommand.StandardUICommand
+
+## -description
+
+Initializes a new instance of the [StandardUICommand](standarduicommand.md) class of the specified kind.
+
+## -parameters
+
+### -param kind
+
+The pre-defined command (including behavior, and various UI-related properties, methods, and events).
+
+## -remarks
+
+## -see-also
+
+[StandardUICommand()](standarduicommand_standarduicommand_1221375020.md)
+
+## -examples

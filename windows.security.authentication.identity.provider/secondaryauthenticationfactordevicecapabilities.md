@@ -29,7 +29,7 @@ Set this flag if the companion device stores the auth key and device keys.
 Set this flag if the companion device can confirm user intent to authenticate.
 
 ### -field SupportSecureUserPresenceCheck:8
-Set this flag if the companion device supports securely confirming the user's identity and presence. In order to make sure your user presence check meets the security bar, contact cdfonboard@microsoft.com.
+**Deprecated.** Set this flag if the companion device supports securely confirming the user's identity and presence. In order to make sure your user presence check meets the security bar, contact cdfonboard@microsoft.com.
 
 ### -field TransmittedDataIsEncrypted:16
 Set this flag if the companion device transmits auth keys and devices key over an encrypted channel.
@@ -37,9 +37,8 @@ Set this flag if the companion device transmits auth keys and devices key over a
 ### -field HMacSha256:32
 The device supports HMacSha256.
 
-
 ### -field CloseRangeDataTransmission:64
-
+The device supports close range data transmission.
 
 ## -remarks
 

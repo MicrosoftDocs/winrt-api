@@ -34,9 +34,10 @@ The content of the pane footer. The default is **null**.
 
 ## -remarks
 
+The PaneFooter property takes a single UIElement, which can be a layout panel that contains additional elements.
+
 If you place a [NavigationViewItem](navigationviewitem.md) in the PaneFooter, it will not raise the [NavigationView.ItemInvoked](navigationview_iteminvoked.md) event. The ItemInvoked event is raised only when the NavigationViewItem is in the [NavigationView.MenuItems](navigationview_menuitems.md) collection.
 
 ## -see-also
 
 ## -examples
-

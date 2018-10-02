@@ -19,7 +19,7 @@ The user presence.
 A HolographicSpace's user presence value is a combination of:
 * Whether the user is wearing the headset.
 * Whether this HolographicSpace is currently showing in the headset.
-* Whether a modal dialog is intercepting input from a visible HolographicSpace.
+* Whether a modal dialog is intercepting input from this HolographicSpace.
 
 ## -see-also
 [HolographicSpaceUserPresence](holographicspaceuserpresence.md)

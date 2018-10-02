@@ -1,0 +1,21 @@
+---
+-api-id: M:Windows.Devices.Lights.Effects.LampArrayEffectPlaylist.Pause
+-api-type: winrt method
+---
+
+<!-- Method syntax.
+public void LampArrayEffectPlaylist.Pause()
+-->
+
+# Windows.Devices.Lights.Effects.LampArrayEffectPlaylist.Pause
+
+## -description
+Pauses the playlist and persists the last state set by the internally playing effect.
+
+## -remarks
+Can be 'unpaused' by called [Start](lamparrayeffectplaylist_start_1587696324.md).
+
+## -see-also
+
+## -examples
+

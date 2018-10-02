@@ -1,0 +1,22 @@
+---
+-api-id: E:Windows.ApplicationModel.Chat.RcsManager.TransportListChanged
+-api-type: winrt event
+---
+
+<!-- Event syntax.
+static public event EventHandler TransportListChanged<object>
+-->
+
+# Windows.ApplicationModel.Chat.RcsManager.TransportListChanged
+
+## -description
+Occurs when one or more [RcsTransport](rcstransport.md) instances are added or removed from the list of RcsTransport instances that would be returned from [RcsManager.GetTransportsAsync](rcsmanager_gettransportsasync.md).
+
+## -remarks
+
+## -see-also
+
+## -examples
+
+## -capabilities
+chatSystem, smsSend, chat

@@ -10,6 +10,7 @@ public void Collapse()
 # Windows.UI.Xaml.Automation.Peers.AppBarAutomationPeer.Collapse
 
 ## -description
+
 Hides all nodes, controls, or content that are descendants of the control.
 
 ## -remarks

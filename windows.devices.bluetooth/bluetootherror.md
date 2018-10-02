@@ -41,9 +41,8 @@ The operation is disabled by the user.
 ### -field ConsentRequired:8
 The operation requires consent.
 
-
 ### -field TransportNotSupported:9
-
+The transport is not supported.
 
 ## -remarks
 

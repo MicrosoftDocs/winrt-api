@@ -37,9 +37,8 @@ Use the signed dynamic application data algorithm.
 ### -field RsaPkcs1:7
 Use the Public-Key Cryptography Standards 1 (PKCS) RSA algorithm.
 
-
 ### -field Sha256Hmac:8
-
+Use the SHA-256 HMAC algorithm.
 
 ## -remarks
 

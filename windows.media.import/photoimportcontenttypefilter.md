@@ -24,6 +24,10 @@ Include only videos.
 Include images and videos.
 
 
+### -field ImagesAndVideosFromCameraRoll:3
+Include images and videos located in the Camera Roll directory or any of its subdirectories.
+
+
 ## -remarks
 
 ## -examples
