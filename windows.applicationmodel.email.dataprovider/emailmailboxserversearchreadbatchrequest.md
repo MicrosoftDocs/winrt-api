@@ -13,7 +13,7 @@ public class EmailMailboxServerSearchReadBatchRequest : Windows.ApplicationModel
 Details of a request to read a batch of server-side search results.
 
 ## -remarks
-Used in your [ServerSearchReadBatchRequested](emaildataproviderconnection_serversearchreadbatchrequested.md) event handler. Use the instance of this class that's returned by the [EmailMailboxSeverSearchReadBatchRequestEventArgs.Request](emailmailboxserversearchreadbatchrequesteventargs_request.md) property.
+Used in your [ServerSearchReadBatchRequested](emaildataproviderconnection_serversearchreadbatchrequested.md) event handler. Use the instance of this class that's returned by the [EmailMailboxServerSearchReadBatchRequestEventArgs.Request](emailmailboxserversearchreadbatchrequesteventargs_request.md) property.
 
 ## -examples
 
