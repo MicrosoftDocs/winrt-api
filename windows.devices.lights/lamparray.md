@@ -10,7 +10,7 @@ public class LampArray
 # Windows.Devices.Lights.LampArray
 
 ## -description
-Represents a LampArray device attached the system.  Currently, only [HID LampArrays](http://www.usb.org/developers/hidpage/HUTRR84_-_Lighting_and_Illumination_Page.pdf) are supported.
+Represents a LampArray device attached the system.  Currently, only [HID LampArrays](https://www.usb.org/sites/default/files/hutrr84_-_lighting_and_illumination_page.pdf) are supported.
 ## -remarks
 LampArray devices have one or more lamp indexes (e.g. lights/LEDs/bulbs, etc…) whose color state can be directly manipulated.  Static information (retrieved from the device) describe supported colors, geometric positions and intended purposes for each lamp index.
 
@@ -21,6 +21,6 @@ An application can set lamp state at any time, but state will only be applied by
 LampArrays are enumerated by [DeviceWatcher](../windows.devices.enumeration/devicewatcher.md), and retrieved via [FromIdAsync](lamparray_fromidasync_1322863552.md).
 
 ## -see-also
-[Lighting and Illumination](http://www.usb.org/developers/hidpage/HUTRR84_-_Lighting_and_Illumination_Page.pdf) USB HID review request.
+[Lighting and Illumination](https://www.usb.org/sites/default/files/hutrr84_-_lighting_and_illumination_page.pdf) USB HID review request.
 
 ## -examples
