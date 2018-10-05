@@ -13,7 +13,9 @@ public class StorePackageLicense : Windows.Foundation.IClosable, Windows.Service
 Provides license info for a downloadable content (DLC) package for the current app.
 
 ## -remarks
-The [StoreAcquireLicenseResult.StorePackageLicense](storeacquirelicenseresult_storepackagelicense.md) property returns an object of this type.> [!NOTE]
+The [StoreAcquireLicenseResult.StorePackageLicense](storeacquirelicenseresult_storepackagelicense.md) property returns an object of this type.
+
+> [!NOTE]  
 > Downloadable content (DLC) packages are not available to all developer accounts.
 
 ## -examples
