@@ -10,19 +10,42 @@ public enum Windows.Media.SpeechSynthesis.VoiceGender : int
 # VoiceGender
 
 ## -description
-Specifies the gender settings for an installed speech synthesis engine (voice).
+
+Specifies the gender preferences available for speech synthesis (if supported by the specified speech synthesis engine).
 
 ## -enum-fields
+
 ### -field Male:0
+
 Male
 
 ### -field Female:1
-Female
 
+Female
 
 ## -remarks
 
 ## -examples
 
+Here, we show how to select a gender for the voice ([VoiceInformation.Gender](voiceinformation_gender.md)) by using either the first female voice ([VoiceGender](voicegender.md)) found, or just the default system voice ([SpeechSynthesizer.DefaultVoice](speechsynthesizer_defaultvoice.md)), if no female voice is found.
+
+``` csharp
+using (SpeechSynthesizer synthesizer = new SpeechSynthesizer())
+{
+    VoiceInformation voiceInfo =
+        (
+            from voice in SpeechSynthesizer.AllVoices
+            where voice.Gender == VoiceGender.Female
+            select voice
+        ).FirstOrDefault() ?? SpeechSynthesizer.DefaultVoice;
+        
+    synthesizer.Voice = voiceInfo;
+    
+    // Windows.Media.SpeechSynthesis.SpeechSynthesisStream
+    stream = await synthesizer.SynthesizeTextToStreamAsync(text);
+}
+```
+
 ## -see-also
-[Windows.Media.SpeechSynthesis](windows_media_speechsynthesis.md), [Speech interactions](http://msdn.microsoft.com/library/646db3ce-fa81-4727-8c21-936c81079439), [Speech design guidelines](http://msdn.microsoft.com/library/4a63a8c4-4182-4e36-ba12-4c343a56fca9), [Speech recognition and speech synthesis sample](http://go.microsoft.com/fwlink/p/?LinkID=619897)
+
+[Windows.Media.SpeechSynthesis](windows_media_speechsynthesis.md), [Speech interactions](https://docs.microsoft.com/windows/uwp/design/input/speech-interactions), [Speech recognition and speech synthesis sample](http://go.microsoft.com/fwlink/p/?LinkID=619897)
