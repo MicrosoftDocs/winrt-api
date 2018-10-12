@@ -10,9 +10,14 @@ public Windows.Foundation.Collections.IVectorView<Windows.Media.IMediaMarker> Ma
 # Windows.Media.SpeechSynthesis.SpeechSynthesisStream.Markers
 
 ## -description
+
 Gets the collection of timeline markers associated with the [SpeechSynthesisStream](speechsynthesisstream.md).
 
+> [!NOTE] 
+> [SpeechSynthesisStream.Markers](speechsynthesisstream_markers.md) is deprecated. We recommend using the [MediaPlayerElement](../windows.ui.xaml.controls/mediaplayerelement.md) and [MediaPlaybackItem](../windows.media.playback/mediaplaybackitem.md) objects instead (in conjunction with the [IncludeSentenceBoundaryMetadata](speechsynthesizeroptions_includesentenceboundarymetadata.md) and [IncludeWordBoundaryMetadata](speechsynthesizeroptions_includewordboundarymetadata.md) properties of a [SpeechSynthesizerOptions](speechsynthesizeroptions.md) object).
+
 ## -property-value
+
 When this method completes successfully, it returns a collection of [IMediaMarker](../windows.media/imediamarker.md) objects that represent the timeline markers in the stream.
 
 ## -remarks
@@ -20,4 +25,5 @@ When this method completes successfully, it returns a collection of [IMediaMarke
 ## -examples
 
 ## -see-also
-[Speech interactions](http://msdn.microsoft.com/library/646db3ce-fa81-4727-8c21-936c81079439), [Speech design guidelines](http://msdn.microsoft.com/library/4a63a8c4-4182-4e36-ba12-4c343a56fca9), [Speech recognition and speech synthesis sample](http://go.microsoft.com/fwlink/p/?LinkID=619897)
+
+[Speech interactions](https://docs.microsoft.com/en-us/windows/uwp/design/input/speech-interactions), [Speech recognition and speech synthesis sample](http://go.microsoft.com/fwlink/p/?LinkID=619897)

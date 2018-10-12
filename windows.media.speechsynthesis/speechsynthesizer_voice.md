@@ -10,36 +10,44 @@ public Windows.Media.SpeechSynthesis.VoiceInformation Voice { get;  set; }
 # Windows.Media.SpeechSynthesis.SpeechSynthesizer.Voice
 
 ## -description
+
 Gets or sets the speech synthesis engine (voice).
 
 ## -property-value
-A speech synthesis engine (voice). The default value is the system voice.
+
+A speech synthesis engine (or voice). The default value is the current system voice.
 
 ## -remarks
-Only Microsoft-signed voices can be used by [SpeechSynthesizer](speechsynthesizer.md). Here is a list of Microsoft-signed voices provided with Windows.
 
-<table>
-   <tr><th>Voice</th><th>Gender</th><th>Windows 8</th><th>Windows 8.1</th><th>Name</th><th>Display name</th></tr>
-   <tr><td>English US</td><td>Female</td><td>Y</td><td>Y</td><td>Zira</td><td>Microsoft Zira (en-US, female).</td></tr>
-   <tr><td>English US</td><td>Male</td><td>Y</td><td>Y</td><td>David</td><td>Microsoft David (en-US, male)</td></tr>
-   <tr><td>English GB</td><td>Female</td><td>Y</td><td>Y</td><td>Hazel</td><td>Microsoft Hazel (en-GB, female)</td></tr>
-   <tr><td>French FR</td><td>Female</td><td>Y</td><td>Y</td><td>Hortense</td><td>Microsoft Hortense (fr-FR , female)</td></tr>
-   <tr><td>German DE</td><td>Female</td><td>Y</td><td>Y</td><td>Hedda</td><td>Microsoft Hedda (de-DE, female)</td></tr>
-   <tr><td>Spanish ES</td><td>Female</td><td>Y</td><td>Y</td><td>Helena</td><td>Microsoft Helena (es-ES, female)</td></tr>
-   <tr><td>Chinese PRC</td><td>Female</td><td>Y</td><td>Y</td><td>Huihui</td><td>Microsoft Huihui (zh-CN, female)</td></tr>
-   <tr><td>Chinese TW</td><td>Female</td><td>Y</td><td>Y</td><td>Hanhan</td><td>Microsoft Hanhan (zh-TW, female)</td></tr>
-   <tr><td>Japanese JA</td><td>Female</td><td>Y</td><td>Y</td><td>Haruka</td><td>Microsoft Haruka (ja-JP, female)</td></tr>
-   <tr><td>Korean KR</td><td>Female</td><td>Y</td><td>Y</td><td>Heami</td><td>Microsoft Heami (ko-KR, female)</td></tr>
-   <tr><td>Spanish MX</td><td>Female</td><td>N</td><td>Y</td><td>Sabina</td><td>Microsoft Sabina (es-MX, female)</td></tr>
-   <tr><td>Italian IT</td><td>Female</td><td>N</td><td>Y</td><td>Elsa</td><td>Microsoft Elsa (it-IT, female)</td></tr>
-   <tr><td>English IN</td><td>Female</td><td>N</td><td>Y</td><td>Heera</td><td>Microsoft Heera (en-IN, female)</td></tr>
-   <tr><td>Russian RU</td><td>Female</td><td>N</td><td>Y</td><td>Irina</td><td>Microsoft Irina (ru-RU, female)</td></tr>
-   <tr><td>Chinese HK</td><td>Female</td><td>N</td><td>Y</td><td>Tracy</td><td>Microsoft Tracy (zh-HK, female)</td></tr>
-   <tr><td>Polish PL</td><td>Female</td><td>N</td><td>Y</td><td>Paulina</td><td>Microsoft Paulina (pl-PL, female)</td></tr>
-   <tr><td>Portuguese BR</td><td>Female</td><td>N</td><td>Y</td><td>Maria</td><td>Microsoft Maria (pt-BR, female)</td></tr>
-</table>
+Only Microsoft-signed voices installed on the system can be used to generate speech with a [SpeechSynthesizer](speechsynthesizer.md). Each voice generates synthesized speech in a single language, as spoken in a specific country/region.
+
+By default, a new [SpeechSynthesizer](speechsynthesizer.md) object uses the current system voice (call [DefaultVoice](speechsynthesizer_defaultvoice.md) to find out what the default voice is).
+
+To specify any of the other speech synthesis (text-to-speech) voices installed on the user's system, use the [Voice](speechsynthesizer_voice.md) method (to find out which [voices](voiceinformation.md) are installed on the system, call [AllVoices](speechsynthesizer_allvoices.md)).
+
+If you don't specify a language, the voice that most closely corresponds to the language selected in the Language control panel is loaded.
 
 ## -examples
 
+Here, we show how to select a gender for the voice ([VoiceInformation.Gender](voiceinformation_gender.md)) by using either the first female voice ([VoiceGender](voicegender.md)) found, or just the default system voice ([SpeechSynthesizer.DefaultVoice](speechsynthesizer_defaultvoice.md)), if no female voice is found.
+
+``` csharp
+using (SpeechSynthesizer synthesizer = new SpeechSynthesizer())
+{
+    VoiceInformation voiceInfo =
+        (
+            from voice in SpeechSynthesizer.AllVoices
+            where voice.Gender == VoiceGender.Female
+            select voice
+        ).FirstOrDefault() ?? SpeechSynthesizer.DefaultVoice;
+        
+    synthesizer.Voice = voiceInfo;
+    
+    // Windows.Media.SpeechSynthesis.SpeechSynthesisStream
+    stream = await synthesizer.SynthesizeTextToStreamAsync(text);
+}
+```
+
 ## -see-also
-[Speech interactions](http://msdn.microsoft.com/library/646db3ce-fa81-4727-8c21-936c81079439), [Speech design guidelines](http://msdn.microsoft.com/library/4a63a8c4-4182-4e36-ba12-4c343a56fca9), [Speech recognition and speech synthesis sample](http://go.microsoft.com/fwlink/p/?LinkID=619897)
+
+[Speech interactions](https://docs.microsoft.com/windows/uwp/design/input/speech-interactions), [Speech recognition and speech synthesis sample](http://go.microsoft.com/fwlink/p/?LinkID=619897)
