@@ -15,16 +15,85 @@ Provides event data for the [Tapped](../windows.ui.xaml/uielement_tapped.md) eve
 
 ## -remarks
 
+A [Tapped](../windows.ui.xaml/uielement_tapped.md) event is sent whenever a mouse is clicked or a finger or pen taps the object
+
 ## -examples
 
-The following code example shows scenario 3 from the [Input sample](http://go.microsoft.com/fwlink/p/?linkid=226855). This code shows some usage patterns for direct manipulation using the [Holding](../windows.ui.xaml/uielement_holding.md), [Tapped](../windows.ui.xaml/uielement_tapped.md), [DoubleTapped](../windows.ui.xaml/uielement_doubletapped.md), and [RightTapped](../windows.ui.xaml/uielement_righttapped.md) events.
+The following snippets are from *Scenario 1 - Input events* of the [Basic input sample](https://github.com/Microsoft/Windows-universal-samples/tree/fe8567faf2efdea3672c2ba642ba7b925ff6467e/Samples/BasicInput).
 
-[!code-xml[Scenario3Xaml](../windows.ui.xaml/code/input/csharp/Scenario3.xaml#SnippetScenario3Xaml)]
+```cpp
+Scenario1::Scenario1()
+{
+    InitializeComponent();
 
-[!code-csharp[Scenario3Code](../windows.ui.xaml/code/input/csharp/Scenario3.xaml.cs#SnippetScenario3Code)]
+    // pointer press/release handlers
+    pressedTarget->PointerPressed += ref new PointerEventHandler(this, &Scenario1::target_PointerPressed);
+    pressedTarget->PointerReleased += ref new PointerEventHandler(this, &Scenario1::target_PointerReleased);
 
-[!code-vb[Scenario3Code](../windows.ui.xaml/code/input/vbnet/Scenario3.xaml.vb#SnippetScenario3Code)]
+    // pointer enter/exit handlers
+    enterExitTarget->PointerEntered += ref new PointerEventHandler(this, &Scenario1::target_PointerEntered);
+    enterExitTarget->PointerExited += ref new PointerEventHandler(this, &Scenario1::target_PointerExited);
+
+    // gesture handlers
+    tapTarget->Tapped += ref new TappedEventHandler(this, &Scenario1::target_Tapped);
+    tapTarget->DoubleTapped += ref new DoubleTappedEventHandler(this, &Scenario1::target_DoubleTapped);
+
+    holdTarget->Holding += ref new HoldingEventHandler(this, &Scenario1::target_Holding);
+    holdTarget->RightTapped += ref new RightTappedEventHandler(this, &Scenario1::target_RightTapped);
+}
+
+void Scenario1::target_Tapped(Object^ sender, TappedRoutedEventArgs^ e)
+{
+    tapTarget->Background = ref new SolidColorBrush(Windows::UI::Colors::DeepSkyBlue);
+    tapTargetText->Text = "Tapped";
+}
+```
+
+```csharp
+public Scenario1()
+{
+    this.InitializeComponent();
+
+    // pointer press/release handlers
+    pressedTarget.PointerPressed += new PointerEventHandler(target_PointerPressed);
+    pressedTarget.PointerReleased += new PointerEventHandler(target_PointerReleased);
+
+    // pointer enter/exit handlers
+    enterExitTarget.PointerEntered += new PointerEventHandler(target_PointerEntered);
+    enterExitTarget.PointerExited += new PointerEventHandler(target_PointerExited);
+
+    // gesture handlers
+    tapTarget.Tapped += new TappedEventHandler(target_Tapped);
+    tapTarget.DoubleTapped += new DoubleTappedEventHandler(target_DoubleTapped);
+    holdTarget.Holding += new HoldingEventHandler(target_Holding);
+    holdTarget.RightTapped += new RightTappedEventHandler(target_RightTapped);
+}
+
+void target_Tapped(object sender, TappedRoutedEventArgs e)
+{
+    tapTarget.Background = new SolidColorBrush(Windows.UI.Colors.DeepSkyBlue);
+    tapTargetText.Text = "Tapped";
+}
+```
+
+```vb
+Public Sub New()
+    Me.InitializeComponent()
+    AddHandler pressedTarget.PointerPressed, New PointerEventHandler(AddressOf target_PointerPressed)
+    AddHandler pressedTarget.PointerReleased, New PointerEventHandler(AddressOf target_PointerReleased)
+    AddHandler enterExitTarget.PointerEntered, New PointerEventHandler(AddressOf target_PointerEntered)
+    AddHandler enterExitTarget.PointerExited, New PointerEventHandler(AddressOf target_PointerExited)
+    AddHandler tapTarget.Tapped, New TappedEventHandler(AddressOf target_Tapped)
+    AddHandler tapTarget.DoubleTapped, New DoubleTappedEventHandler(AddressOf target_DoubleTapped)
+    AddHandler holdTarget.Holding, New HoldingEventHandler(AddressOf target_Holding)
+    AddHandler holdTarget.RightTapped, New RightTappedEventHandler(AddressOf target_RightTapped)
+End Sub
+
+Sub target_Tapped(sender As Object, e As TappedRoutedEventArgs)
+    tapTarget.Background = New SolidColorBrush(Windows.UI.Colors.DeepSkyBlue)
+    tapTargetText.Text = "Tapped"
+End Sub
+```
 
 ## -see-also
-
-[RoutedEventArgs](../windows.ui.xaml/routedeventargs.md)
+[RoutedEventArgs](../windows.ui.xaml/routedeventargs.md), [Basic input sample](https://github.com/Microsoft/Windows-universal-samples/tree/fe8567faf2efdea3672c2ba642ba7b925ff6467e/Samples/BasicInput)

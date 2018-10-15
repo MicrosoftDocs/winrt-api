@@ -19,6 +19,9 @@ Occurs when the manipulation processor is first created.
 
 
 ## -remarks
+
+For custom controls and interaction experiences, see [GestureRecognizer](../windows.ui.input/gesturerecognizer.md).
+
 An element must have a [ManipulationMode](uielement_manipulationmode.md) value other than **None** or **System** to be a manipulation event source. The default value of [ManipulationMode](uielement_manipulationmode.md) is **System**, which enables built-in control logic to process manipulations, but doesn't permit app code to handle manipulation events. If you want to handle manipulations, set [ManipulationMode](uielement_manipulationmode.md) to **All**, or to specific [ManipulationModes](../windows.ui.xaml.input/manipulationmodes.md) values. For more info, see [ManipulationMode](uielement_manipulationmode.md).
 
 [ManipulationStarting](uielement_manipulationstarting.md) fires basically any time that a pointer interacts with an element where the element enables manipulation. This includes cases where the manipulation is interpreted as a gesture and the pointers never move, for example a [Tapped](uielement_tapped.md) or [Holding](uielement_holding.md) gesture. If the pointers do move, [ManipulationStarted](uielement_manipulationstarted.md) typically fires thereafter.

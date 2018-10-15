@@ -19,6 +19,9 @@ Occurs when an input device begins a manipulation on the [UIElement](uielement.m
 
 
 ## -remarks
+
+For custom controls and interaction experiences, see [GestureRecognizer.ManipulationStarted](../windows.ui.input/gesturerecognizer_manipulationstarted.md).
+
 [ManipulationStarted](uielement_manipulationstarted.md) represents that the manipulation recognition logic has detected pointer movement. In this case it's the second manipulation event to fire in a typical sequence, firing after ManipulationStarting, but before ManipulationDelta or other events such as ManipulationInertiaStarting.
 
 An element must have a [ManipulationMode](uielement_manipulationmode.md) value other than **None** or **System** to be a manipulation event source. The default value of [ManipulationMode](uielement_manipulationmode.md) is **System**, which enables built-in control logic to process manipulations, but doesn't permit app code to handle manipulation events. If you want to handle manipulations, set [ManipulationMode](uielement_manipulationmode.md) to **All**, or to specific [ManipulationModes](../windows.ui.xaml.input/manipulationmodes.md) values. For more info, see [ManipulationMode](uielement_manipulationmode.md).

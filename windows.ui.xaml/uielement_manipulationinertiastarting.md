@@ -19,6 +19,9 @@ Occurs when the input device loses contact with the [UIElement](uielement.md) ob
 
 
 ## -remarks
+
+For custom controls and interaction experiences, see [GestureRecognizer.ManipulationInertiaStarting](../windows.ui.input/gesturerecognizer_manipulationinertiastarting.md).
+
 An element must have a [ManipulationMode](uielement_manipulationmode.md) value other than **None** or **System** to be a manipulation event source. The default value of [ManipulationMode](uielement_manipulationmode.md) is **System**, which enables built-in control logic to process manipulations, but doesn't permit app code to handle manipulation events. If you want to handle manipulations, set [ManipulationMode](uielement_manipulationmode.md) to **All**, or to specific [ManipulationModes](../windows.ui.xaml.input/manipulationmodes.md) values. For more info, see [ManipulationMode](uielement_manipulationmode.md).
 
 [ManipulationInertiaStarting](uielement_manipulationinertiastarting.md) is a routed event. If the event is permitted to bubble up to parent elements because it goes unhandled, then it is possible to handle the event on parent elements even if [ManipulationMode](uielement_manipulationmode.md) is **None** or **System** on the parent element. For more info on the routed event concept, see [Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).

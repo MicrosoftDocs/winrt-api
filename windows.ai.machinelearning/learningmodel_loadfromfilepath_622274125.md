@@ -20,6 +20,7 @@ The path to the ONNX model file on disk.
 An object representing the model.
 
 ## -remarks
+This method is meant for desktop (non-UWP) applications. For UWP, see [LoadFromStorageFileAsync](learningmodel_loadfromstoragefileasync_532232733.md).
 
 ## -see-also
 
