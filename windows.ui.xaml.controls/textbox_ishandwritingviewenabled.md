@@ -19,6 +19,10 @@ Gets or sets a value that indicates whether a user can enter text in the handwri
 
 ## -remarks
 
+When a user taps into a text input box using a Windows pen, the text box transforms to let the user write directly into it with a pen, rather than opening a separate input panel.
+
+<img src="images/controls/handwritingview-inksuggestion1.gif" alt="Text box with ink and suggestions" />
+
 ## -see-also
 
 [Text input with the handwriting view](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/text-handwriting-view)

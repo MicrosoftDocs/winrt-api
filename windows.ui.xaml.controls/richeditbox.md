@@ -28,6 +28,14 @@ You use the [Document](richeditbox_document.md) property of the [RichEditBox](ri
 
 For more info and examples, see the [RichEditBox control guide](http://msdn.microsoft.com/library/4afc0dfa-3b89-434d-9f86-4309ccff7839).
 
+### Pen input
+
+Starting with Windows 10, version 1803, XAML text input boxes feature embedded support for pen input using [Windows Ink](../input/pen-and-stylus-interactions.md). When a user taps into a text input box using a Windows pen, the text box transforms to let the user write directly into it with a pen, rather than opening a separate input panel.
+
+<img src="images/controls/handwritingview-inksuggestion1.gif" alt="Text box with ink and suggestions" />
+
+For more info, see [Text input with the handwriting view](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/text-handwriting-view).
+
 ### Control style and template
 
 You can modify the default [Style](../windows.ui.xaml/style.md) and [ControlTemplate](controltemplate.md) to give the control a unique appearance. For information about modifying a control's style and template, see [Styling controls](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/styling-controls). The default style, template, and resources that define the look of the control are included in the generic.xaml file. For design purposes, generic.xaml is available in the \(Program Files)\Windows Kits\10\DesignTime\CommonConfiguration\Neutral\UAP\&lt;SDK version&gt;\Generic folder from a Windows Software Development Kit (SDK) installation. Styles and resources from different versions of the SDK might have different values.
