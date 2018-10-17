@@ -13,7 +13,7 @@ public string Type { get; }
 Gets a string indicating the type of video data the video frame contains.
 
 ## -property-value
-A string indicating the type of audio data the video frame contains.
+A string indicating the type of video data the video frame contains.
 
 ## -remarks
 
