@@ -10,20 +10,20 @@ public class AutoSuggestBox : Windows.UI.Xaml.Controls.ItemsControl, Windows.UI.
 # Windows.UI.Xaml.Controls.AutoSuggestBox
 
 ## -description
-Represents a text control that makes suggestions to users as they type. The app is notified when text has been changed by the user and is responsible for providing relevant suggestions for this control to display.
+
+Represents a text control that makes suggestions to users as they enter text using a keyboard or pen (using ink and handwriting recognition). The app is notified when text has been changed by the user and is responsible for providing relevant suggestions for this control to display.
 
 ## -xaml-syntax
+
 ```xaml
 <AutoSuggestBox .../>
 ```
 
-
 ## -remarks
+
 Use an [AutoSuggestBox](autosuggestbox.md) to provide a list of suggestions for a user to select from as they type.
 
 By default, the text entry box doesn’t have a query button shown. You can set the [QueryIcon](autosuggestbox_queryicon.md) property to add a button with the specified icon on the right side of the text box. For example, to make the [AutoSuggestBox](autosuggestbox.md) look like a typical search box, add a ‘find’ icon, like this.
-
-
 
 ```xaml
 <AutoSuggestBox QueryIcon="Find"/>
@@ -47,7 +47,6 @@ To control how items are displayed in the suggestion list, you can use [DisplayM
 
 + To display the text of a single property of your data item, set the [DisplayMemberPath](itemscontrol_displaymemberpath.md) property to choose which property from your object to display in the suggestion list.
 + To define a custom look for each item in the list, use the [ItemTemplate](itemscontrol_itemtemplate.md) property .
-
 
 ### Suggestion chosen
 
@@ -75,6 +74,30 @@ If you are using an assistive technology, such as [Narrator](https://support.mic
 + Be able to move Narrator focus to the list
 + Be able to Navigate through a suggestion with all other reading modes
 See [Auto-suggest accessibility](https://docs.microsoft.com/windows/uwp/design/accessibility/accessible-text-requirements#auto-suggest-accessibility) for more information.
+
+## Pen input
+
+Starting with Windows 10, version 1803, XAML text input boxes feature embedded support for pen input using [Windows Ink](../input/pen-and-stylus-interactions.md). When a user taps into a text input box using a Windows pen, the text box transforms to let the user write directly into it with a pen, rather than opening a separate input panel.
+
+You can configure the handwriting view of the AutoSuggestBox through its TextBox control, as we show here.
+
+```xaml
+<AutoSuggestBox Name="NoHandwritingAutoSuggestBox"
+        BorderThickness="0"  Width="680"
+        FontSize="24" VerticalAlignment="Top"
+        HorizontalAlignment="Center"
+        PlaceholderText="Handwriting view is not supported">
+    <AutoSuggestBox.TextBoxStyle>
+        <Style TargetType="TextBox">
+            <Setter Property="IsHandwritingViewEnabled" Value="False"/>
+        </Style>
+    </AutoSuggestBox.TextBoxStyle>
+</AutoSuggestBox>
+```
+
+<img src="images/controls/handwritingview-inksuggestion1.gif" alt="Text box with ink and suggestions" />
+
+For more info, see [Text input with the handwriting view](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/text-handwriting-view).
 
 ### Control style and template
 

@@ -23,9 +23,14 @@ Represents a control that can be used to display and edit plain text (single or 
 
 <img alt="Text box control" src="images/controls/TextBox.png" />
 
-The [TextBox](textbox.md) control enables a user to type text into an app. It's typically used to capture a single line of text, but can be configured to capture multiple lines of text. The text displays on the screen in a simple uniform plaintext format.
+The [TextBox](textbox.md) control enables a user to enter text into an app. It's typically used to capture a single line of text, but can be configured to capture multiple lines of text. The text displays on the screen in a simple uniform plaintext format.
 
-[TextBox](textbox.md) has a number of features that can simplify text entry. It comes with a familiar, built-in context menu with support for copying and pasting text. The "clear all" button lets a user quickly delete all text that has been entered. It also has spell checking capabilities built in and enabled by default.
+[TextBox](textbox.md) has a number of features that can simplify text entry:
+
+- It supports text input from a keyboard  or a pen (using ink and handwriting recognition).
+- It comes with a familiar, built-in context menu with support for copying and pasting text.
+- A "clear all" button lets a user quickly delete all text that has been entered.
+- It also has spell checking capabilities built in and enabled by default.
 
 Here's how to create a [TextBox](textbox.md) in XAML and in code.
 
@@ -44,7 +49,9 @@ rootGrid.Children.Add(textBox);
 
 The resulting [TextBox](textbox.md) looks like this. The blue border indicates that the [TextBox](textbox.md) has focus.
 
-<img src="images/TextBox_Ex1.png" alt="A simple text box" />### Is TextBox the right control to use?
+<img src="images/TextBox_Ex1.png" alt="A simple text box" />
+
+### Is TextBox the right control to use?
 You can use a [TextBox](textbox.md) control to display and edit unformatted text. If you need an editable text box that accepts passwords or other sensitive input, see [PasswordBox](passwordbox.md). If you need a text box to enter search terms, see [AutoSuggestBox](autosuggestbox.md). If you need to enter or edit formatted text, see [RichEditBox](richeditbox.md).
 
 ### Use TextBox for data input in a form
@@ -130,6 +137,14 @@ rootGrid.Children.Add(textBox);
 The resulting [TextBox](textbox.md) looks like this.
 
 <img src="images/TextBox_Formatted.png" alt="A simple text box" />
+
+### Pen input
+
+Starting with Windows 10, version 1803, XAML text input boxes feature embedded support for pen input using [Windows Ink](../input/pen-and-stylus-interactions.md). When a user taps into a text input box using a Windows pen, the text box transforms to let the user write directly into it with a pen, rather than opening a separate input panel.
+
+<img src="images/controls/handwritingview-inksuggestion1.gif" alt="Text box with ink and suggestions" />
+
+For more info, see [Text input with the handwriting view](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/text-handwriting-view).
 
 ### Modify the context menu
 
