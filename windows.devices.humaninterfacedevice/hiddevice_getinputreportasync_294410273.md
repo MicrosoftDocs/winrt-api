@@ -52,8 +52,4 @@ private void InputReportReceived(
 
 ### Reference
 
-[GetInputReportAsync](hiddevice_getinputreportasync_2092816092.md)
-
-### Samples
-
-[Custom HID device sample](https://github.com/Microsoft/Windows-universal-samples/tree/6370138b150ca8a34ff86de376ab6408c5587f5d/Samples/CustomHidDeviceAccess)
+[GetInputReportAsync](hiddevice_getinputreportasync_2092816092.md), [Custom HID device sample](https://github.com/Microsoft/Windows-universal-samples/tree/6370138b150ca8a34ff86de376ab6408c5587f5d/Samples/CustomHidDeviceAccess)

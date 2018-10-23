@@ -22,10 +22,4 @@ A **HidOutputReport** object.
 
 ## -see-also
 
-### Reference
-
-[CreateOutputReport(UInt16)](hiddevice_createoutputreport_175094101.md)
-
-### Samples
-
-[Custom HID device sample](https://github.com/Microsoft/Windows-universal-samples/tree/6370138b150ca8a34ff86de376ab6408c5587f5d/Samples/CustomHidDeviceAccess)
+[CreateOutputReport(UInt16)](hiddevice_createoutputreport_175094101.md), [Custom HID device sample](https://github.com/Microsoft/Windows-universal-samples/tree/6370138b150ca8a34ff86de376ab6408c5587f5d/Samples/CustomHidDeviceAccess)
