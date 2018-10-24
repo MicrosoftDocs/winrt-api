@@ -24,4 +24,4 @@ The signed upper bound.
 
 ## -see-also
 
-[PhysicalMaximum](hidnumericcontroldescription_physicalmaximum.md)
+[PhysicalMaximum](hidnumericcontroldescription_physicalmaximum.md), [Custom HID device sample](https://github.com/Microsoft/Windows-universal-samples/tree/6370138b150ca8a34ff86de376ab6408c5587f5d/Samples/CustomHidDeviceAccess)
