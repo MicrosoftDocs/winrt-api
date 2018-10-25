@@ -52,4 +52,4 @@ Here's an example.
 ## -see-also
 
 ## -capabilities
-previewHfx
+runFullTrust
