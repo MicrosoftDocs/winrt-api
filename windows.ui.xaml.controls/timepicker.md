@@ -64,19 +64,12 @@ This table shows the resources used by the [TimePicker](timepicker.md) control.
 
 ## -examples
 
-<table>
-<th align="left">XAML Controls Gallery<th>
-<tr>
-<td><img src="images/xaml-controls-gallery-sm.png" alt="XAML controls gallery"></img></td>
-<td>
-    <p>If you have the <strong style="font-weight: semi-bold">XAML Controls Gallery</strong> app installed, click here to <a href="xamlcontrolsgallery:/item/TimePicker">open the app and see the TimePicker in action</a>.</p>
-    <ul>
-    <li><a href="https://www.microsoft.com/store/productId/9MSVH128X2ZT">Get the XAML Controls Gallery app (Microsoft Store)</a></li>
-    <li><a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics">Get the source code (GitHub)</a></li>
-    </ul>
-</td>
-</tr>
-</table>
+> [!TIP]
+> For more info, design guidance, and code examples, see [Time picker](/windows/uwp/design/controls-and-patterns/time-picker).
+>
+> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the TimePicker in action](xamlcontrolsgallery:/item/TimePicker).
+> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics)
 
 ## -see-also
-[Control](control.md), [TimePicker styles and templates](http://msdn.microsoft.com/library/ee6d30e1-a9e4-485b-b39a-c674d1cfda51), [Windows.Globalization.ClockIdentifiers](../windows.globalization/clockidentifiers.md), [System.TimeSpan (C#/VB)](https://msdn.microsoft.com/library/system.timespan.aspx), [Windows::Foundation::TimeSpan (C++)](http://msdn.microsoft.com/library/fbc6ecc2-6372-4b15-9532-3cd68a72e7b4), [DatePicker](datepicker.md), [Controls list](http://msdn.microsoft.com/library/11172840-a63d-4f48-9db4-7baca06308ee), [Controls by function](http://msdn.microsoft.com/library/8db4347b-91d6-4659-91f2-80ecf7bbb596)
+[Time picker overview](/windows/uwp/design/controls-and-patterns/time-picker), [Windows.Globalization.ClockIdentifiers](../windows.globalization/clockidentifiers.md), [System.TimeSpan (C#/VB)](https://msdn.microsoft.com/library/system.timespan.aspx), [Windows::Foundation::TimeSpan (C++)](http://msdn.microsoft.com/library/fbc6ecc2-6372-4b15-9532-3cd68a72e7b4), [DatePicker](datepicker.md), [Controls list](http://msdn.microsoft.com/library/11172840-a63d-4f48-9db4-7baca06308ee), [Controls by function](http://msdn.microsoft.com/library/8db4347b-91d6-4659-91f2-80ecf7bbb596)

@@ -15,6 +15,9 @@ Represents a Windows Ink input surface for text input controls.
 
 ## -remarks
 
+> [!TIP]
+> For more info, design guidance, and code examples, see [Text input with the handwriting view](/windows/uwp/design/controls-and-patterns/text-handwriting-view).
+
 Supported by text input controls such as [TextBox](textbox.md), [RichEditBox](richeditbox.md), and composite text controls such as [AutoSuggestBox](autosuggestbox.md).
 
 When a user taps into a text input box using a Windows pen, the text box transforms to let the user write directly into it with a pen, rather than opening a separate input panel.
@@ -26,4 +29,3 @@ When a user taps into a text input box using a Windows pen, the text box transfo
 [TextBox](textbox.md), [RichEditBox](richeditbox.md), [AutoSuggestBox](autosuggestbox.md), [Text input with the handwriting view](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/text-handwriting-view)
 
 ## -examples
-

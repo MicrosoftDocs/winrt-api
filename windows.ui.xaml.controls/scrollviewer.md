@@ -23,6 +23,10 @@ content
 
 
 ## -remarks
+
+> [!TIP]
+> For more info, design guidance, and code examples, see [Scroll viewer controls](/windows/uwp/design/controls-and-patterns/scroll-controls).
+
 [ScrollViewer](scrollviewer.md) is a container control that lets the user pan and zoom its content.
 
 <img alt="Scroll viewer control" src="images/controls/ScrollViewerBasic.png" />
@@ -161,23 +165,16 @@ Apps that were compiled for Windows 8 but running on Windows 8.1 continue to u
 
 ## -examples
 
-<table>
-<th align="left">XAML Controls Gallery<th>
-<tr>
-<td><img src="images/xaml-controls-gallery-sm.png" alt="XAML controls gallery"></img></td>
-<td>
-    <p>If you have the <strong style="font-weight: semi-bold">XAML Controls Gallery</strong> app installed, click here to <a href="xamlcontrolsgallery:/item/ScrollViewer">open the app and see the ScrollViewer in action</a>.</p>
-    <ul>
-    <li><a href="https://www.microsoft.com/store/productId/9MSVH128X2ZT">Get the XAML Controls Gallery app (Microsoft Store)</a></li>
-    <li><a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics">Get the source code (GitHub)</a></li>
-    </ul>
-</td>
-</tr>
-</table>
+> [!TIP]
+> For more info, design guidance, and code examples, see [Scroll viewer controls](/windows/uwp/design/controls-and-patterns/scroll-controls).
+>
+> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the ScrollViewer in action](xamlcontrolsgallery:/item/ScrollViewer).
+> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics)
 
 The following XAML creates a large [TextBlock](textblock.md) inside a [ScrollViewer](scrollviewer.md), along with another copy of the [TextBlock](textblock.md) for comparison.
 
 [!code-xml[1](../windows.ui.xaml.data/code/System.Windows.Controls.ScrollViewer/csharp/Page.xaml#Snippet1)]
 
 ## -see-also
-[ContentControl](contentcontrol.md), [ScrollViewer styles and templates](http://msdn.microsoft.com/library/238f91fc-ed6e-4311-883c-2e2ee0186d0b), [Scroll viewer controls overview](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/scroll-controls)
+[Scroll viewer controls overview](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/scroll-controls)

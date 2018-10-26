@@ -23,6 +23,10 @@ Represents a rich text display container that supports formatted text, hyperlink
 
 
 ## -remarks
+
+> [!TIP]
+> For more info, design guidance, and code examples, see [Rich text block](/windows/uwp/design/controls-and-patterns/rich-text-block).
+
 The [RichTextBlock](richtextblock.md) control displays read-only text, and provides several features for advanced text layout. Use a [RichTextBlock](richtextblock.md) when you need support for paragraphs, inline UI elements, or overflow text.
 
 [TextBlock](textblock.md) provides a simpler content model, so it’s typically easier to use, and it can provide better text rendering performance than [RichTextBlock](richtextblock.md). It also provides many of the same formatting options for customizing how your text is rendered. However, [RichTextBlock](richtextblock.md) provides several unique features that [TextBlock](textblock.md) doesn’t provide.
@@ -49,19 +53,12 @@ The default [FontFamily](richtextblock_fontfamily.md) for [RichTextBlock](richte
 
 ## -examples
 
-<table>
-<th align="left">XAML Controls Gallery<th>
-<tr>
-<td><img src="images/xaml-controls-gallery-sm.png" alt="XAML controls gallery"></img></td>
-<td>
-    <p>If you have the <strong style="font-weight: semi-bold">XAML Controls Gallery</strong> app installed, click here to <a href="xamlcontrolsgallery:/item/RichTextBlock">open the app and see the RichTextBlock in action</a>.</p>
-    <ul>
-    <li><a href="https://www.microsoft.com/store/productId/9MSVH128X2ZT">Get the XAML Controls Gallery app (Microsoft Store)</a></li>
-    <li><a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics">Get the source code (GitHub)</a></li>
-    </ul>
-</td>
-</tr>
-</table>
+> [!TIP]
+> For more info, design guidance, and code examples, see [Rich text block](/windows/uwp/design/controls-and-patterns/rich-text-block).
+>
+> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the RichTextBlock in action](xamlcontrolsgallery:/item/RichTextBlock).
+> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics)
 
 This example shows a [RichTextBlock](richtextblock.md) with text selection and text wrapping enabled.
 
@@ -194,5 +191,4 @@ Here, a [RichTextBlock](richtextblock.md) targets a [RichTextBlockOverflow](rich
 [!code-xml[RichTextOverflow](../windows.ui.xaml.controls/code/TextDisplaySnippets/CS/MainPage.xaml#SnippetRichTextOverflow)]
 
 ## -see-also
-[FrameworkElement](../windows.ui.xaml/frameworkelement.md), [RichTextBlock control guide](http://msdn.microsoft.com/library/e4be4b1b-418e-4075-88f1-22c09ddf8e45), [Paragraph](../windows.ui.xaml.documents/paragraph.md), [OverflowContentTarget](richtextblock_overflowcontenttarget.md), [RichTextBlockOverflow](richtextblockoverflow.md), [RichTextBlockOverflow.OverflowContentTarget](richtextblockoverflow_overflowcontenttarget.md), [XAML text display sample](http://go.microsoft.com/fwlink/p/?linkid=238579)
-flowcontenttarget.md), [XAML text display sample](http://go.microsoft.com/fwlink/p/?linkid=238579)
+[Rich text block overview](/windows/uwp/design/controls-and-patterns/rich-text-block), [Paragraph](../windows.ui.xaml.documents/paragraph.md), [OverflowContentTarget](richtextblock_overflowcontenttarget.md), [RichTextBlockOverflow](richtextblockoverflow.md), [RichTextBlockOverflow.OverflowContentTarget](richtextblockoverflow_overflowcontenttarget.md), [XAML text display sample](http://go.microsoft.com/fwlink/p/?linkid=238579)

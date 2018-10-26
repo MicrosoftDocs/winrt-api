@@ -19,6 +19,10 @@ Represents a control for entering passwords.
 
 
 ## -remarks
+
+> [!TIP]
+> For more info, design guidance, and code examples, see [Password box](/windows/uwp/design/controls-and-patterns/password-box).
+
 [PasswordBox](passwordbox.md) lets a user enter a masked password.
 
 <img alt="Password box control" src="images/controls/PasswordBox.png" />
@@ -93,19 +97,12 @@ In Windows Phone, the user reveals the password by checking a checkbox, so the p
 
 ## -examples
 
-<table>
-<th align="left">XAML Controls Gallery<th>
-<tr>
-<td><img src="images/xaml-controls-gallery-sm.png" alt="XAML controls gallery"></img></td>
-<td>
-    <p>If you have the <strong style="font-weight: semi-bold">XAML Controls Gallery</strong> app installed, click here to <a href="xamlcontrolsgallery:/item/PasswordBox">open the app and see the PasswordBox in action</a>.</p>
-    <ul>
-    <li><a href="https://www.microsoft.com/store/productId/9MSVH128X2ZT">Get the XAML Controls Gallery app (Microsoft Store)</a></li>
-    <li><a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics">Get the source code (GitHub)</a></li>
-    </ul>
-</td>
-</tr>
-</table>
+> [!TIP]
+> For more info, design guidance, and code examples, see [Password box](/windows/uwp/design/controls-and-patterns/password-box).
+>
+> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the PasswordBox in action](xamlcontrolsgallery:/item/PasswordBox).
+> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics)
 
 This example shows a [PasswordBox](passwordbox.md) control that demonstrates the [Password](passwordbox_password.md) property and the [PasswordChanged](passwordbox_passwordchanged.md) event. When the user enters text into this [PasswordBox](passwordbox.md), it's checked to see if it's the literal value, "Password". If it is, a message is displayed to the user.
 
@@ -142,9 +139,5 @@ Private Sub passwordBox_PasswordChanged(sender As Object, e As RoutedEventArgs)
 End Sub
 ```
 
-
-<!--<auto_snippet sample_id="PasswordBoxSnippet" snippet_id="PasswordBoxXAML"/>
-    <auto_snippet sample_id="PasswordBoxSnippet" snippet_id="PasswordBoxCode"/>-->
-
 ## -see-also
-[Control](control.md), [PasswordBox styles and templates](http://msdn.microsoft.com/library/2e6e0ed5-c763-4713-8749-0621a123568b), [PasswordBox guidelines](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/password-box), [TextBox](textbox.md), [Controls list](http://msdn.microsoft.com/library/11172840-a63d-4f48-9db4-7baca06308ee), [Controls by function](http://msdn.microsoft.com/library/8db4347b-91d6-4659-91f2-80ecf7bbb596)
+[Password box overview](/windows/uwp/design/controls-and-patterns/password-box), [TextBox](textbox.md), [Controls list](http://msdn.microsoft.com/library/11172840-a63d-4f48-9db4-7baca06308ee)

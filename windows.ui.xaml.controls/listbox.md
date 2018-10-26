@@ -22,6 +22,10 @@ Presents a list of items the user can select from.
 ```
 
 ## -remarks
+
+> [!TIP]
+> For more info, design guidance, and code examples, see [Lists](/windows/uwp/design/controls-and-patterns/lists#list-boxes).
+
 [ListBox](listbox.md) lets users select from a pre-defined list of options presented like a text control. Use a [ListBox](listbox.md) when you want the options to be visible all the time or when users can select more than one option at a time. [ListBox](listbox.md) controls are always open, so several items can be displayed without user interaction.
 
 <img alt="List box control" src="images/controls/ListBox.png" />
@@ -44,6 +48,14 @@ You populate the [ListBox](listbox.md) control by adding [UIElement](../windows.
 [ListBox](listbox.md) has many similarities with [ListView](listview.md) or [GridView](gridview.md) (they share the parent class [ItemsControl](itemscontrol.md)), but each control is oriented towards different scenarios. [ListBox](listbox.md) is best for general UI composition, particularly when the elements are always intended to be selectable, whereas [ListView](listview.md) or [GridView](gridview.md) are best for data binding scenarios, particularly if virtualization or large data sets are involved. For more info on virtualization, see [Using virtualization with a list or grid](http://msdn.microsoft.com/library/c6f8727a-2a3a-4f0d-9a5a-82780994839f).
 
 ## -examples
+
+> [!TIP]
+> For more info, design guidance, and code examples, see [Lists](/windows/uwp/design/controls-and-patterns/lists#list-boxes).
+>
+> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the ListBox in action](xamlcontrolsgallery:/item/ListBox).
+> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics)
+
 This example demonstrates how to add a collection of [FontFamily](../windows.ui.xaml.media/fontfamily.md) objects directly to a [ListBox](listbox.md) control.
 
 ```xaml

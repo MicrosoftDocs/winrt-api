@@ -13,6 +13,10 @@ public class CalendarDatePicker : Windows.UI.Xaml.Controls.Control, Windows.UI.X
 Represents a control that allows a user to pick a date from a calendar display.
 
 ## -remarks
+
+> [!TIP]
+> For more info, design guidance, and code examples, see [Calendar date picker](/windows/uwp/design/controls-and-patterns/calendar-date-picker).
+
 [CalendarDatePicker](calendardatepicker.md) is a drop down control that’s optimized for picking a single date from a calendar view where contextual information like the day of the week or fullness of the calendar is important. It’s similar to the [DatePicker](datepicker.md) control, but the [DatePicker](datepicker.md) is optimized for picking a known date, such as a date of birth, where the context of the calendar is not important.
 
 You can use the [CalendarDatePicker](calendardatepicker.md) control in its default form with a minimal amount of Extensible Application Markup Language (XAML) or other code, or you can customize it in various ways to suit your app. Here's a simple [CalendarDatePicker](calendardatepicker.md) created in Extensible Application Markup Language (XAML) and code.
@@ -123,19 +127,12 @@ This table shows the resources used by the [CalendarDatePicker](calendardatepick
 
 ## -examples
 
-<table>
-<th align="left">XAML Controls Gallery<th>
-<tr>
-<td><img src="images/xaml-controls-gallery-sm.png" alt="XAML controls gallery"></img></td>
-<td>
-    <p>If you have the <strong style="font-weight: semi-bold">XAML Controls Gallery</strong> app installed, click here to <a href="xamlcontrolsgallery:/item/CalendarDatePicker">open the app and see the CalendarDatePicker in action</a>.</p>
-    <ul>
-    <li><a href="https://www.microsoft.com/store/productId/9MSVH128X2ZT">Get the XAML Controls Gallery app (Microsoft Store)</a></li>
-    <li><a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics">Get the source code (GitHub)</a></li>
-    </ul>
-</td>
-</tr>
-</table>
+> [!TIP]
+> For more info, design guidance, and code examples, see [Calendar date picker](/windows/uwp/design/controls-and-patterns/calendar-date-picker).
+>
+> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the CalendarDatePicker in action](xamlcontrolsgallery:/item/CalendarDatePicker).
+> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics)
 
 ## -see-also
 [Control](control.md), [CalendarDatePicker styles and templates](http://msdn.microsoft.com/library/30d22fcc-3a79-412e-ac0d-ce3c5eb59487)

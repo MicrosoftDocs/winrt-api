@@ -25,6 +25,9 @@ Represents a control that displays data items in a vertical stack.
 
 ## -remarks
 
+> [!TIP]
+> For more info, design guidance, and code examples, see [List view and grid view](/windows/uwp/design/controls-and-patterns/listview-and-gridview).
+
 Use a [ListView](listview.md) to display a collection of items stacked vertically or horizontally. To display a collection in rows and columns, use a [GridView](gridview.md).
 
 <img alt="List view control" src="images/controls/ListViewBasic.png" />
@@ -75,19 +78,12 @@ List controls that derive from [Selector](../windows.ui.xaml.controls.primitives
 
 ## -examples
 
-<table>
-<th align="left">XAML Controls Gallery<th>
-<tr>
-<td><img src="images/xaml-controls-gallery-sm.png" alt="XAML controls gallery"></img></td>
-<td>
-    <p>If you have the <strong style="font-weight: semi-bold">XAML Controls Gallery</strong> app installed, click here to open the app and see the <a href="xamlcontrolsgallery:/item/ListView">ListView</a> in action.</p>
-    <ul>
-    <li><a href="https://www.microsoft.com/store/productId/9MSVH128X2ZT">Get the XAML Controls Gallery app (Microsoft Store)</a></li>
-    <li><a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics">Get the source code (GitHub)</a></li>
-    </ul>
-</td>
-</tr>
-</table>
+> [!TIP]
+> For more info, design guidance, and code examples, see [List view and grid view](/windows/uwp/design/controls-and-patterns/listview-and-gridview).
+>
+> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the ListView in action](xamlcontrolsgallery:/item/ListView).
+> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics)
 
 In this example, the [ItemTemplate](itemscontrol_itemtemplate.md) of a [ListView](listview.md) is defined inline. Because the [ItemsSource](itemscontrol_itemssource.md) is set, the [ItemTemplate](itemscontrol_itemtemplate.md) is applied to every item.
 

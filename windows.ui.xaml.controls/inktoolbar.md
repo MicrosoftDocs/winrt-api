@@ -14,6 +14,9 @@ Represents a Universal Windows app control containing a customizable and extensi
 
 ## -remarks
 
+> [!TIP]
+> For more info, design guidance, and code examples, see [Inking controls](/windows/uwp/design/controls-and-patterns/inking-controls).
+
 Associate an [InkToolbar](inktoolbar.md) with an [InkCanvas](inkcanvas.md) control through the [TargetInkCanvas](inktoolbar_targetinkcanvas.md) property.
 
 By default, the toolbar includes buttons for drawing, erasing, highlighting, and displaying a ruler. Depending on the feature, other settings and commands, such as ink color, stroke thickness, erase all, are provided in a flyout. An "extension glyph" is displayed on the button to indicate the existence of the flyout.

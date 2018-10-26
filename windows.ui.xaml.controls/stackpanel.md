@@ -24,6 +24,10 @@ Arranges child elements into a single line that can be oriented horizontally or 
 
 
 ## -remarks
+
+> [!TIP]
+> For more info, design guidance, and code examples, see [Layout panels](/windows/uwp/design/layout/layout-panels#stackpanel).
+
 [StackPanel](stackpanel.md) is a layout panel that arranges child elements into a single line that can be oriented horizontally or vertically.
 
 <img alt="Stack panel layout control" src="images/controls/StackPanel.png" />
@@ -45,19 +49,12 @@ You can insert items into a [StackPanel](stackpanel.md) at a specific location u
 
 ## -examples
 
-<table>
-<th align="left">XAML Controls Gallery<th>
-<tr>
-<td><img src="images/xaml-controls-gallery-sm.png" alt="XAML controls gallery"></img></td>
-<td>
-    <p>If you have the <strong style="font-weight: semi-bold">XAML Controls Gallery</strong> app installed, click here to <a href="xamlcontrolsgallery:/item/StackPanel">open the app and see the StackPanel in action</a>.</p>
-    <ul>
-    <li><a href="https://www.microsoft.com/store/productId/9MSVH128X2ZT">Get the XAML Controls Gallery app (Microsoft Store)</a></li>
-    <li><a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics">Get the source code (GitHub)</a></li>
-    </ul>
-</td>
-</tr>
-</table>
+> [!TIP]
+> For more info, design guidance, and code examples, see [Layout panels](/windows/uwp/design/layout/layout-panels#stackpanel).
+>
+> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the StackPanel in action](xamlcontrolsgallery:/item/StackPanel).
+> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics)
 
 The following example shows how to create a [StackPanel](stackpanel.md) of items.
 

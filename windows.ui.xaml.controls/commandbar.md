@@ -25,6 +25,9 @@ Represents a specialized app bar that provides layout for [AppBarButton](appbarb
 
 ## -remarks
 
+> [!TIP]
+> For more info, design guidance, and code examples, see [Command bar](/windows/uwp/design/controls-and-patterns/app-bars).
+
 Use a [CommandBar](commandbar.md) to provide users with quick access to your app’s most common tasks. It's a general-purpose, flexible, light-weight control that can display both complex content, such as images, progress bars, or text blocks, as well as simple commands such as [AppBarButton](appbarbutton.md), [AppBarToggleButton](appbartogglebutton.md), and [AppBarSeparator](appbarseparator.md) controls.
 
 ### Anatomy
@@ -117,6 +120,13 @@ This table shows the resources used by the [CommandBar](commandbar.md) control.
 </table>
 
 ## -examples
+
+> [!TIP]
+> For more info, design guidance, and code examples, see [Command bar](/windows/uwp/design/controls-and-patterns/app-bars).
+>
+> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the CommandBar in action](xamlcontrolsgallery:/item/CommandBar).
+> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics)
 
 <table>
 <th align="left">XAML Controls Gallery<th>

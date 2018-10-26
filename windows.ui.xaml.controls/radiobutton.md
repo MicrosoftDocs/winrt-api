@@ -23,8 +23,11 @@ Represents a button that allows a user to select a single option from a group of
 <RadioButton ...>stringContent</RadioButton>
 ```
 
-
 ## -remarks
+
+> [!TIP]
+> For more info, design guidance, and code examples, see [Radio buttons](/windows/uwp/design/controls-and-patterns/radio-button).
+
 Use [RadioButton](radiobutton.md) controls to limit a user's selection to a single choice within a set of related, but mutually exclusive, choices. You group [RadioButton](radiobutton.md) controls by putting them inside the same parent container or by setting the [GroupName](radiobutton_groupname.md) property on each [RadioButton](radiobutton.md) to the same value.
 
 <img alt="Radio button controls" src="images/controls/RadioButton.png" />
@@ -81,19 +84,12 @@ This table shows the resources used by the [RadioButton](radiobutton.md) control
 
 ## -examples
 
-<table>
-<th align="left">XAML Controls Gallery<th>
-<tr>
-<td><img src="images/xaml-controls-gallery-sm.png" alt="XAML controls gallery"></img></td>
-<td>
-    <p>If you have the <strong style="font-weight: semi-bold">XAML Controls Gallery</strong> app installed, click here to <a href="xamlcontrolsgallery:/item/RadioButton">open the app and see the RadioButton in action</a>.</p>
-    <ul>
-    <li><a href="https://www.microsoft.com/store/productId/9MSVH128X2ZT">Get the XAML Controls Gallery app (Microsoft Store)</a></li>
-    <li><a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics">Get the source code (GitHub)</a></li>
-    </ul>
-</td>
-</tr>
-</table>
+> [!TIP]
+> For more info, design guidance, and code examples, see [Radio buttons](/windows/uwp/design/controls-and-patterns/radio-button).
+>
+> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the RadioButton in action](xamlcontrolsgallery:/item/RadioButton).
+> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics)
 
 The following example shows three radio buttons. The first two radio buttons are grouped together. The remaining radio button is not grouped explicitly, which means that you can select the third radio button and either the first or second. When you select a radio button, a [TextBlock](textblock.md) displays the name of the group, if the radio button has an explicit group name, and the name of the radio button.
 
@@ -104,5 +100,5 @@ The following example shows three radio buttons. The first two radio buttons are
 [!code-vb[11](../windows.ui.xaml.data/code/System.Windows.Controls.RadioButtonEx/vbnet/Page.xaml.vb#Snippet11)]
 
 ## -see-also
-[Radio buttons overview](https://docs.microsoft.com/windows/uwp/controls-and-patterns/radio-button), [RadioButton styles and templates](http://msdn.microsoft.com/library/3ebab2b7-6b67-4f90-8633-e9291fd13455), [ToggleButton](../windows.ui.xaml.controls.primitives/togglebutton.md), [CheckBox](checkbox.md), [ToggleSwitch](toggleswitch.md), [Controls list](http://msdn.microsoft.com/library/11172840-a63d-4f48-9db4-7baca06308ee), [Controls by function](http://msdn.microsoft.com/library/8db4347b-91d6-4659-91f2-80ecf7bbb596)
+[Radio buttons overview](https://docs.microsoft.com/windows/uwp/controls-and-patterns/radio-button), [ToggleButton](../windows.ui.xaml.controls.primitives/togglebutton.md), [CheckBox](checkbox.md), [ToggleSwitch](toggleswitch.md), [Controls list](http://msdn.microsoft.com/library/11172840-a63d-4f48-9db4-7baca06308ee), [Controls by function](http://msdn.microsoft.com/library/8db4347b-91d6-4659-91f2-80ecf7bbb596)
 p://msdn.microsoft.com/library/8db4347b-91d6-4659-91f2-80ecf7bbb596)

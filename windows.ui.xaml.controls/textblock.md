@@ -25,13 +25,15 @@ Provides a lightweight control for displaying small amounts of text.
 
 
 ## -remarks
+
+> [!TIP]
+> For more info, design guidance, and code examples, see [Text block](/windows/uwp/design/controls-and-patterns/text-block).
+
 [TextBlock](textblock.md) is the primary control for displaying read-only text in apps. You can use it to display single-line or multi-line text, inline hyperlinks, and text with formatting like bold, italic, or underlined.
 
 <img alt="Text block control" src="images/controls/TextBlock.png" />
 
  [TextBlock](textblock.md) is typically easier to use and provides better text rendering performance than [RichTextBlock](richtextblock.md), so it's preferred for most app UI text. It also provides many of the same formatting options for customizing how your text is rendered. Although you can put line breaks in the text, [TextBlock](textblock.md) is designed to display a single paragraph and doesn’t support text indentation. Consider a [RichTextBlock](richtextblock.md) if you need support for multiple paragraphs, multi-column text, or inline UI elements like images.
-
-For more info, see the [TextBlock control guide](http://msdn.microsoft.com/library/da562509-d893-425a-aae6-b2ae9e9f8a19).
 
 ### Text performance
 
@@ -69,19 +71,12 @@ The rendered text looks like this:
 
 ## -examples
 
-<table>
-<th align="left">XAML Controls Gallery<th>
-<tr>
-<td><img src="images/xaml-controls-gallery-sm.png" alt="XAML controls gallery"></img></td>
-<td>
-    <p>If you have the <strong style="font-weight: semi-bold">XAML Controls Gallery</strong> app installed, click here to <a href="xamlcontrolsgallery:/item/TextBlock">open the app and see the TextBlock in action</a>.</p>
-    <ul>
-    <li><a href="https://www.microsoft.com/store/productId/9MSVH128X2ZT">Get the XAML Controls Gallery app (Microsoft Store)</a></li>
-    <li><a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics">Get the source code (GitHub)</a></li>
-    </ul>
-</td>
-</tr>
-</table>
+> [!TIP]
+> For more info, design guidance, and code examples, see [Text block](/windows/uwp/design/controls-and-patterns/text-block).
+>
+> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the TextBlock in action](xamlcontrolsgallery:/item/TextBlock).
+> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics)
 
 This example demonstrates a [TextBlock](textblock.md) with text selection enabled and text wrapping enabled.
 
@@ -224,4 +219,4 @@ The rendered text looks like this:
 [!code-xml[LineStackingStrategyExampleWholePage](../windows.ui.xaml.controls/code/TextBlock.LineStackingStrategy/csharp/Page.xaml#SnippetLineStackingStrategyExampleWholePage)]
 
 ## -see-also
-[FrameworkElement](../windows.ui.xaml/frameworkelement.md), [TextBlock control guide](http://msdn.microsoft.com/library/da562509-d893-425a-aae6-b2ae9e9f8a19), [RichTextBlock](richtextblock.md), [TextBox](textbox.md), [Controls list](http://msdn.microsoft.com/library/11172840-a63d-4f48-9db4-7baca06308ee), [Controls by function](http://msdn.microsoft.com/library/8db4347b-91d6-4659-91f2-80ecf7bbb596)
+[Text block overview](/windows/uwp/design/controls-and-patterns/text-block), [RichTextBlock](richtextblock.md), [TextBox](textbox.md), [Controls list](http://msdn.microsoft.com/library/11172840-a63d-4f48-9db4-7baca06308ee), [Controls by function](http://msdn.microsoft.com/library/8db4347b-91d6-4659-91f2-80ecf7bbb596)
