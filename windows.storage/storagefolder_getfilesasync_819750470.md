@@ -27,7 +27,7 @@ The following table lists methods of the [StorageFolder](storagefolder.md) class
 
 Some methods take a value from the [CommonFileQuery](../windows.storage.search/commonfilequery.md) enumeration. When you specify the **DefaultQuery** option from the [CommonFileQuery](../windows.storage.search/commonfilequery.md) enumeration, the query is a shallow query that returns only files in the current folder. When you specify another value from the [CommonFileQuery](../windows.storage.search/commonfilequery.md) enumeration, the query is a deep query that returns a flattened list of files from the current folder and from its subfolders.
 
-> > [!TIP]
+> [!TIP]
 > Some of the values from the [CommonFileQuery](../windows.storage.search/commonfilequery.md) enumeration can only be used with a library folder (such as the Pictures library) or the Homegroup folder. In addition to the **DefaultQuery** option, you can use only the **OrderByName** and **OrderBySearchRank** options with a folder that's not a library folder.
 
 To get deep query results from a folder that's not a library folder, call the [CreateFileQueryWithOptions(QueryOptions)](storagefolder_createfilequerywithoptions_2038131323.md) method and specify **Deep** as the value of the [FolderDepth](../windows.storage.search/queryoptions_folderdepth.md) property of the [QueryOptions](../windows.storage.search/queryoptions.md) object.
@@ -73,27 +73,30 @@ foreach (StorageFile file in sortedItems)
 ```
 
 ```cppwinrt
-IAsyncAction MainPage::ExampleCoroutineAsync()
+#include <winrt/Windows.Storage.h>
+#include <winrt/Windows.Storage.Search.h>
+...
+IAsyncAction ExampleCoroutineAsync()
 {
-    // Get the users's Pictures library.
+    // Get the user's Pictures library.
     // Enable the Pictures Library capability in the app manifest file.
     Windows::Storage::StorageFolder picturesLibrary{ Windows::Storage::KnownFolders::PicturesLibrary() };
 
-    // Get the first 20 sorted images in the library.
-        // Get the items in the current folder.
+    // Get the first 20 sorted images in the library, sorted by date.
     Windows::Foundation::Collections::IVectorView<Windows::Storage::StorageFile> filesInFolder{
         co_await picturesLibrary.GetFilesAsync(Windows::Storage::Search::CommonFileQuery::OrderByDate, 0, 20) };
 
     // Iterate over the results, and print the list of files to the Visual Studio output window.
-    for (StorageFile const& fileInFolder : filesInFolder)
+    for (Windows::Storage::StorageFile const& fileInFolder : filesInFolder)
     {
-        std::wstring output{ fileInFolder.Name() };
+        std::wstring output{ fileInFolder.Name() + L' ' };
         ::OutputDebugString(output.c_str());
     }
+    ::OutputDebugString(L"\n");
 }
 ```
 
-```cpp
+```cppcx
 // Get user's pictures library
 StorageFolder^ picturesLibrary = KnownFolders::PicturesLibrary;
 
