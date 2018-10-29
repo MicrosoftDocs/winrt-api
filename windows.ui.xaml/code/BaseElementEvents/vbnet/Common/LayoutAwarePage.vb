@@ -190,7 +190,7 @@
             If properties.IsLeftButtonPressed OrElse properties.IsRightButtonPressed OrElse
                 properties.IsMiddleButtonPressed Then Return
 
-            ' If back or foward are pressed (but not both) navigate appropriately
+            ' If back or forward are pressed (but not both) navigate appropriately
             Dim backPressed = properties.IsXButton1Pressed
             Dim forwardPressed = properties.IsXButton2Pressed
             If backPressed Xor forwardPressed Then
