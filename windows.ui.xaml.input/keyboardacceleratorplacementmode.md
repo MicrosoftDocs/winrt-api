@@ -17,7 +17,7 @@ Defines constants that specify whether a keyboard shortcut (accelerator) is disp
 The keyboard accelerator is not shown.
 
 ### -field Auto:0
-The keyboard acclerator is displayed. Default.
+The keyboard accelerator is displayed. Default.
 
 ## -remarks
 This enumeration is used by the [UIElement.KeyboardAcceleratorPlacementMode](../windows.ui.xaml/uielement_keyboardacceleratorplacementmode.md) property.
