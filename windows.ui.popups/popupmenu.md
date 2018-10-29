@@ -27,7 +27,7 @@ Provide users with a context menu by adding an event listener for the `"contextm
 
 [!code-js[addcontextmenueventlistener_js](../windows.ui.popups/code/ContextMenu/js/js/scenario1.js#Snippetaddcontextmenueventlistener_js)]
 
-To customize the context menu, call [preventDefault](https://msdn.microsoft.com/en-us/library/ff975967(v=vs.85).aspx) on the event to suppress the default, and then create a new, empty context menu menu as shown in the [Context menu sample](http://go.microsoft.com/fwlink/p/?linkid=234891).
+To customize the context menu, call [preventDefault](https://msdn.microsoft.com/en-us/library/ff975967(v=vs.85).aspx) on the event to suppress the default, and then create a new, empty context menu as shown in the [Context menu sample](http://go.microsoft.com/fwlink/p/?linkid=234891).
 
 
 
