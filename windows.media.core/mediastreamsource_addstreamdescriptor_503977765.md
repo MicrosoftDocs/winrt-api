@@ -17,7 +17,7 @@ Adds a new stream descriptor to the [MediaStreamSource](mediastreamsource.md).
 The descriptor to add.
 
 ## -remarks
-This method can only be invoked when the [MediaStreamSource](mediastreamsource.md) is not yet in use by the media pipeline, for example by a [video](https://msdn.microsoft.com/en-us/library/ff975073(v=vs.85).aspx) object, a [MediaElement](../windows.ui.xaml.controls/mediaelement.md), or a [MediaTranscoder](../windows.media.transcoding/mediatranscoder.md).
+This method can only be invoked when the [MediaStreamSource](mediastreamsource.md) is not yet in use by the media pipeline, for example by a [video](https://msdn.microsoft.com/library/ff975073(v=vs.85).aspx) object, a [MediaElement](../windows.ui.xaml.controls/mediaelement.md), or a [MediaTranscoder](../windows.media.transcoding/mediatranscoder.md).
 
 It is possible to invoke this method multiple times.
 

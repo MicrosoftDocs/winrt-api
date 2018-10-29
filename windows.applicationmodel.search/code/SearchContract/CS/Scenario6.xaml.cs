@@ -152,7 +152,7 @@ namespace SearchContract
                 try
                 {
                     // Use the web service Url entered in the UrlTextBox that supports XML Search Suggestions in order to see suggestions come from the web service.
-                    // See http://msdn.microsoft.com/en-us/library/cc848863(v=vs.85).aspx for details on XML Search Suggestions format.
+                    // See http://msdn.microsoft.com/library/cc848863(v=vs.85).aspx for details on XML Search Suggestions format.
                     // Replace "{searchTerms}" of the Url with the query string.
                     Task task = GetSuggestionsAsync(Regex.Replace(UrlTextBox.Text, "{searchTerms}", Uri.EscapeDataString(queryText)), request.SearchSuggestionCollection);
                     await task;

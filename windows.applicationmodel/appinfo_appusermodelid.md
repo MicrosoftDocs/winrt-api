@@ -21,4 +21,4 @@ An application user model identifier is used to associate processes, files, and 
 ## -examples
 
 ## -see-also
-[System.AppUserModel.ID](https://msdn.microsoft.com/en-us/library/windows/desktop/dd391569(v=vs.85).aspx)
+[System.AppUserModel.ID](https://msdn.microsoft.com/library/windows/desktop/dd391569(v=vs.85).aspx)

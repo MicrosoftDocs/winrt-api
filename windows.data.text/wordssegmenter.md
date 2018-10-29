@@ -20,7 +20,7 @@ The language supplied when this object is constructed is matched against the lan
 
 For keyword search scenarios, it is always recommended to request a segmenter in the language of the text contents. 
 
-For spellchecking scenarios, some language segmenters (such as German) may return multiple word stem segments for a single compound word. In contrast, the spellchecking APIs may expect the words to be kept together as a single word. For such languages, you may choose to force language-neutral segmenting rules by explicitly requesting the "und" (undetermined language) segmenter.  However, doing so will greatly reduce the breaking quality of non-spaced languages. Therefore, it is recommended that you use the [Language.Script](https://msdn.microsoft.com/en-us/library/windows/apps/windows.globalization.language.script.aspx) API to determine if the content language uses one of the following non-spaced scripts:
+For spellchecking scenarios, some language segmenters (such as German) may return multiple word stem segments for a single compound word. In contrast, the spellchecking APIs may expect the words to be kept together as a single word. For such languages, you may choose to force language-neutral segmenting rules by explicitly requesting the "und" (undetermined language) segmenter.  However, doing so will greatly reduce the breaking quality of non-spaced languages. Therefore, it is recommended that you use the [Language.Script](https://msdn.microsoft.com/library/windows/apps/windows.globalization.language.script.aspx) API to determine if the content language uses one of the following non-spaced scripts:
 
 
 | Script | Language |

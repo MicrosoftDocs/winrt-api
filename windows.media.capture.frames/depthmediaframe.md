@@ -15,9 +15,9 @@ Represents a [VideoMediaFrame](videomediaframe.md) that contains depth video dat
 ## -remarks
 Get an instance of this class by accessing the [DepthMediaFrame](depthmediaframe.md) property of the [VideoMediaFrame](videomediaframe.md) class.
 
-For how-to guidance on using [MediaFrameSource](mediaframesource.md) to capture frames, see [Process media frames with MediaFrameReader](https://msdn.microsoft.com/en-us/windows/uwp/audio-video-camera/process-media-frames-with-mediaframereader).
+For how-to guidance on using [MediaFrameSource](mediaframesource.md) to capture frames, see [Process media frames with MediaFrameReader](https://msdn.microsoft.com/windows/uwp/audio-video-camera/process-media-frames-with-mediaframereader).
 
 ## -examples
 
 ## -see-also
-[Process media frames with MediaFrameReader](https://msdn.microsoft.com/en-us/windows/uwp/audio-video-camera/process-media-frames-with-mediaframereader)
+[Process media frames with MediaFrameReader](https://msdn.microsoft.com/windows/uwp/audio-video-camera/process-media-frames-with-mediaframereader)

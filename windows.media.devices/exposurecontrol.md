@@ -23,9 +23,9 @@ If the device does not support the [ExposureControl](exposurecontrol.md), you ca
 
 You can access the [ExposureControl](exposurecontrol.md) for the capture device through [MediaCapture.VideoDeviceController](../windows.media.capture/mediacapture_videodevicecontroller.md).
 
-For how-to guidance for using the **ExposureControl**, see [Manual camera controls for photo and video capture](https://msdn.microsoft.com/en-us/windows/uwp/audio-video-camera/capture-device-controls-for-photo-and-video-capture).
+For how-to guidance for using the **ExposureControl**, see [Manual camera controls for photo and video capture](https://msdn.microsoft.com/windows/uwp/audio-video-camera/capture-device-controls-for-photo-and-video-capture).
 
 ## -examples
 
 ## -see-also
-[Manual camera controls for photo and video capture](https://msdn.microsoft.com/en-us/windows/uwp/audio-video-camera/capture-device-controls-for-photo-and-video-capture)
+[Manual camera controls for photo and video capture](https://msdn.microsoft.com/windows/uwp/audio-video-camera/capture-device-controls-for-photo-and-video-capture)

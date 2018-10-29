@@ -13,7 +13,7 @@ public string Language { get;  set; }
 Gets or sets the language for this notification binding.
 
 ## -property-value
-The language of the text content. See the [National Language Support (NLS) API Reference](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx) for a list of valid values.
+The language of the text content. See the [National Language Support (NLS) API Reference](https://msdn.microsoft.com/goglobal/bb896001.aspx) for a list of valid values.
 
 ## -remarks
 

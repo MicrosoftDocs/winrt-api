@@ -27,7 +27,7 @@ Here is a breakdown of the parts of an example Uniform Resource Identifier (URI)
 
 For example:
 
-<cmd_line>http://msdn.microsoft.com/en-us/library/windows/apps/windows.foundation.uri.aspx?cs-save-lang=1&amp;cs-lang=cpp#code-snippet-1</cmd_line>
+<cmd_line>http://msdn.microsoft.com/library/windows/apps/windows.foundation.uri.aspx?cs-save-lang=1&amp;cs-lang=cpp#code-snippet-1</cmd_line>
 
 In this example:
 

@@ -54,7 +54,7 @@ Some XAML usages use the [Point](point.md) type to represent a *logical point*. 
 
 If you are using a Microsoft .NET language (C# or Microsoft Visual Basic), or Visual C++ component extensions (C++/CX), then [Point](point.md) has non-data members available, and its data members are exposed as read-write properties, not fields. Microsoft .NET supports this functionality through the System.Runtime.WindowsRuntime.dll interop assembly that's shipped as part of .NET for Windows Runtime app. Visual C++ component extensions (C++/CX) supports it through the language-specific platform.winmd metadata and the runtime behavior it represents.
 
-If you are programming with C++ using the Windows Template Runtime Library (WRL), then only the data member fields exist as members of [Point](point.md), and you cannot use the utility methods or properties listed in the members table. WRL code can access similar utility methods that are available from the [PointHelper](../windows.ui.xaml/pointhelper.md) static class. For more info on WRL, see [Windows Runtime C++ Template Library (WRL)](https://msdn.microsoft.com/en-us/library/hh438466.aspx).
+If you are programming with C++ using the Windows Template Runtime Library (WRL), then only the data member fields exist as members of [Point](point.md), and you cannot use the utility methods or properties listed in the members table. WRL code can access similar utility methods that are available from the [PointHelper](../windows.ui.xaml/pointhelper.md) static class. For more info on WRL, see [Windows Runtime C++ Template Library (WRL)](https://msdn.microsoft.com/library/hh438466.aspx).
 
 ### **Point** values and how they are interpreted by properties
 

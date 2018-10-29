@@ -12,7 +12,7 @@ The [Windows.Devices.Usb](windows_devices_usb.md) defines Windows Runtime classe
 <table>
    <tr><th>Resources</th><th>Description</th></tr>
    <tr><td>[Writing apps for USB devices (UWP apps using C#/VB/C++)](http://msdn.microsoft.com/library/d009ddf2-def6-4c57-a5c7-12b844931631)</td><td>A brief overview about how to use these APIs.</td></tr>
-   <tr><td>[Talking to USB devices, start to finish (UWP app)](https://msdn.microsoft.com/en-us/library/dn312121)</td><td>Step-by-step instructions about using these APIs to perform common tasks for communicating with a USB device.</td></tr>
+   <tr><td>[Talking to USB devices, start to finish (UWP app)](https://msdn.microsoft.com/library/dn312121)</td><td>Step-by-step instructions about using these APIs to perform common tasks for communicating with a USB device.</td></tr>
    <tr><td>Samples</td><td><ul><li>[Custom USB device access sample](http://go.microsoft.com/fwlink/p/?LinkID=309716)</li><li>[USB CDC Control sample](http://go.microsoft.com/fwlink/p/?LinkID=309716)</li><li>[Firmware Update USB Device sample](http://go.microsoft.com/fwlink/p/?LinkID=309716)</li></ul></td></tr>
 </table>
 

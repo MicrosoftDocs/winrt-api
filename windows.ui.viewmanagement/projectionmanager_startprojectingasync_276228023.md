@@ -28,7 +28,7 @@ The asynchronous results of the operation. Use this to determine when the async 
 ## -remarks
 If this method succeeds, an existing window (app view) is placed on a secondary display, if one is detected. Otherwise, the window is placed on the primary display. This window can only be accessed from an ASTA UI thread.
 
-The moved window has its own ASTA UI thread and associated [CoreWindow](../windows.ui.core/corewindow.md). Always use thread-safe methods, such as [window.postMessage](https://msdn.microsoft.com/en-us/library/hh772821(v=vs.85).aspx) for JavaScript apps or the [CoreDispatcher](../windows.ui.core/coredispatcher.md) event messaging API for C# and C++ apps, when communicating between the windows.
+The moved window has its own ASTA UI thread and associated [CoreWindow](../windows.ui.core/corewindow.md). Always use thread-safe methods, such as [window.postMessage](https://msdn.microsoft.com/library/hh772821(v=vs.85).aspx) for JavaScript apps or the [CoreDispatcher](../windows.ui.core/coredispatcher.md) event messaging API for C# and C++ apps, when communicating between the windows.
 
 Either the current app view window or the projection view window must be active for this call to succeed. The view ID can be obtained for the current app view with [ApplicationView.Id](applicationview_id.md). For a specific app view managed by the app, call [ApplicationView.GetApplicationViewIdForWindow](applicationview_getapplicationviewidforwindow_543884123.md) with the [CoreWindow](../windows.ui.core/corewindow.md) for the app view.
 

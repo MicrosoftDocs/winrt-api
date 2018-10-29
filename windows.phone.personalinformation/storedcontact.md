@@ -25,7 +25,7 @@ These APIs create or obtain a [StoredContact](storedcontact.md) object:
 ## -examples
 
 ## -see-also
-[IContactInformation](icontactinformation.md), [ContactStore class](contactstore.md), [Implementing contact bindings in a Windows Phone Silverlight 8.1 app](https://msdn.microsoft.com/en-us/library/windows/apps/dn642083(v=vs.105).aspx)
+[IContactInformation](icontactinformation.md), [ContactStore class](contactstore.md), [Implementing contact bindings in a Windows Phone Silverlight 8.1 app](https://msdn.microsoft.com/library/windows/apps/dn642083(v=vs.105).aspx)
 
 ## -capabilities
 ID_CAP_CONTACTS [Windows Phone]

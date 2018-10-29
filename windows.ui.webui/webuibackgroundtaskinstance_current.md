@@ -16,7 +16,7 @@ Gets the current background task.
 The current background task. This property can only be accessed in the context of a background task. This property is null in a foreground app.
 
 ## -remarks
-An app creates a background task by using the [BackgroundTaskBuilder](../windows.applicationmodel.background/backgroundtaskbuilder.md) class. The [SetTrigger](https://msdn.microsoft.com/en-us/library/windows/desktop/aa381867(v=vs.85).aspx) method must be set to the event trigger for the task. The [TaskEntryPoint](../windows.applicationmodel.background/backgroundtaskbuilder_taskentrypoint.md) must specify a JavaScript file containing the code to run. The app then registers the background task by calling the [Register](../windows.applicationmodel.background/backgroundtaskbuilder_register_292201929.md) method. When the trigger fires, the system executes the code in the JavaScript file.
+An app creates a background task by using the [BackgroundTaskBuilder](../windows.applicationmodel.background/backgroundtaskbuilder.md) class. The [SetTrigger](https://msdn.microsoft.com/library/windows/desktop/aa381867(v=vs.85).aspx) method must be set to the event trigger for the task. The [TaskEntryPoint](../windows.applicationmodel.background/backgroundtaskbuilder_taskentrypoint.md) must specify a JavaScript file containing the code to run. The app then registers the background task by calling the [Register](../windows.applicationmodel.background/backgroundtaskbuilder_register_292201929.md) method. When the trigger fires, the system executes the code in the JavaScript file.
 
 The app must also specify the JavaScript file in the `<Extensions>` section of the app manifest. For example: `<Extension Category="windows.backgroundTasks" StartPage = "js\backgroundtask.js">.`.
 
