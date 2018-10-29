@@ -2687,7 +2687,7 @@ WinJS.Namespace.defineWithParent(WinJS, "UI", {
                 pointerRecord.currentX = location.x;
                 pointerRecord.currentY = location.y;
                 // First thing to check is if we've only got one pointer. If this point has moved a certain distance away from its start location,
-                // then we'll let the zoomable view take control of the pointer and set capture for it whereever necessary.
+                // then we'll let the zoomable view take control of the pointer and set capture for it wherever necessary.
                 if (this._pointerCount === 1) {
                     if (distance(pointerRecord.startX, pointerRecord.startY, pointerRecord.currentX, pointerRecord.currentY) >= abandonEventsDistance && this._pinchedDirection === PinchDirection.none) {
                         this._ignoreGestures = true;
