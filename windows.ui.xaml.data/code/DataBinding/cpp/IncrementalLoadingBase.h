@@ -21,7 +21,7 @@ namespace SDKSample
     {
         // This class can used as a jumpstart for implementing ISupportIncrementalLoading. 
         // Implementing the ISupportIncrementalLoading interfaces allows you to create a list that loads
-        //  more data automatically when the user scrolls to the end of of a GridView or ListView.
+        //  more data automatically when the user scrolls to the end of a GridView or ListView.
         ref class IncrementalLoadingBase
             : Windows::UI::Xaml::Interop::IBindableObservableVector, 
             Windows::UI::Xaml::Data::ISupportIncrementalLoading
