@@ -13,7 +13,7 @@ public class PaymentTransactionAcceptResult : Windows.ApplicationModel.Payments.
 This class contains the status of of a payment transaction after attempting to accept it.
 
 ## -remarks
-An object of this class type is created and retrieved through the [PaymentTransationc.AcceptAsync](paymenttransaction_acceptasync_1179121155.md) method.
+An object of this class type is created and retrieved through the [PaymentTransaction.AcceptAsync](paymenttransaction_acceptasync_1179121155.md) method.
 
 ## -examples
 
