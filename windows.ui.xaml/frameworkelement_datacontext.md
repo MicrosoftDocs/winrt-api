@@ -33,7 +33,7 @@ The object to use as data context.
 
 The most important aspect of data context is the data source that is used for data binding. A typical use of [DataContext](frameworkelement_datacontext.md) is to set it directly to a data source object. This data source might be an instance of a class such as a business object. Or you can create a data source as an observable collection, so that the data context enables detecting changes in the backing collection. If the data source is defined by a library that is also included in the project, setting a [DataContext](frameworkelement_datacontext.md) is often combined with instantiating the data source as a keyed resource in a [ResourceDictionary](resourcedictionary.md), and then setting the [DataContext](frameworkelement_datacontext.md) in XAML with a [{StaticResource} markup extension](http://msdn.microsoft.com/library/d50349b5-4588-4ebd-9458-75f629ccc395) reference.
 
-Another technique for setting [DataContext](frameworkelement_datacontext.md) is to add it to the root of the runtime object tree, as part of app initialization initialization logic, just after calling **InitializeComponent**. This technique is shown in [Data binding overview](http://msdn.microsoft.com/library/a9d54dec-cd1b-4043-ade4-32cd4977d1bf).
+Another technique for setting [DataContext](frameworkelement_datacontext.md) is to add it to the root of the runtime object tree, as part of app initialization logic, just after calling **InitializeComponent**. This technique is shown in [Data binding overview](http://msdn.microsoft.com/library/a9d54dec-cd1b-4043-ade4-32cd4977d1bf).
 
 In addition to specifying the source, a data context can also store additional characteristics of a binding declaration, such as a path into the data source.
 
