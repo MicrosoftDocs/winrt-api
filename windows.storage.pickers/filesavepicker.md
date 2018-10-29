@@ -17,7 +17,7 @@ Represents a file picker that lets the user choose the file name, extension, and
 
 To learn how to save files through the file picker, see [How to save files through file pickers](https://docs.microsoft.com/windows/uwp/files/quickstart-save-a-file-with-a-picker).
 
-To get started accessing files and folders file picker, see [Files, folders, and libraries ](https://docs.microsoft.com/en-us/windows/uwp/files/index).
+To get started accessing files and folders file picker, see [Files, folders, and libraries ](https://docs.microsoft.com/windows/uwp/files/index).
 
 > [!WARNING]
 > If you try to show the file picker while your app is snapped the file picker will not be shown and an exception will be thrown. You can avoid this by making sure your app is not snapped or by unsnapping it before you call the file picker. The following code examples and the [File picker sample](http://go.microsoft.com/fwlink/p/?linkid=234890) show you how.

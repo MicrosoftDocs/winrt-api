@@ -10,7 +10,7 @@ public enum Windows.Media.Playback.TimedMetadataTrackPresentationMode : int
 # TimedMetadataTrackPresentationMode
 
 ## -description
-Specifies whether a set of timed metadata tracks are listed in the XAML **[MediaTransportControls](https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.controls.mediatransportcontrols), whether events are raised for data cues in the tracks, and whether any subtitles and closed captions contained in the tracks are displayed by the system, by the app, or not at all.
+Specifies whether a set of timed metadata tracks are listed in the XAML **[MediaTransportControls](https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.mediatransportcontrols), whether events are raised for data cues in the tracks, and whether any subtitles and closed captions contained in the tracks are displayed by the system, by the app, or not at all.
 
 ## -enum-fields
 ### -field Disabled:0

@@ -23,7 +23,7 @@ appointment.duration = (60 * 60 * 1000); // 1 hour in 1-millisecond units
 
 
 + In Visual C++ component extensions (C++/CX), use a [TimeSpan](../windows.foundation/timespan.md) structure value with a **Duration** value. In Visual C++ component extensions (C++/CX), each unit for a **Duration** value represents 100 nanoseconds.
-+ In C# or Microsoft Visual Basic, you use a [System.TimeSpan](https://msdn.microsoft.com/library/system.timespan.aspx) value. You can use utility API of [System.TimeSpan](https://msdn.microsoft.com/library/system.timespan.aspx) such as [FromSeconds](https://docs.microsoft.com/en-us/dotnet/api/system.timespan.fromseconds) to generate a [System.TimeSpan](https://msdn.microsoft.com/library/system.timespan.aspx) and set the value.
++ In C# or Microsoft Visual Basic, you use a [System.TimeSpan](https://msdn.microsoft.com/library/system.timespan.aspx) value. You can use utility API of [System.TimeSpan](https://msdn.microsoft.com/library/system.timespan.aspx) such as [FromSeconds](https://docs.microsoft.com/dotnet/api/system.timespan.fromseconds) to generate a [System.TimeSpan](https://msdn.microsoft.com/library/system.timespan.aspx) and set the value.
 
 
 

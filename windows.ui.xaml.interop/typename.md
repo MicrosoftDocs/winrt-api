@@ -39,4 +39,4 @@ If you are programming with C++ using the Windows Runtime Template Library (WRL)
 ## -examples
 
 ## -see-also
-[System.Type](https://msdn.microsoft.com/library/system.type.aspx), [IXamlType](../windows.ui.xaml.markup/ixamltype.md), [Type System (C++/CX)](https://docs.microsoft.com/en-us/cpp/cppcx/type-system-c-cx)
+[System.Type](https://msdn.microsoft.com/library/system.type.aspx), [IXamlType](../windows.ui.xaml.markup/ixamltype.md), [Type System (C++/CX)](https://docs.microsoft.com/cpp/cppcx/type-system-c-cx)

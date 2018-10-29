@@ -16,7 +16,7 @@ Gets the [IRandomAccessStream](https://docs.microsoft.com/uwp/api/windows.storag
 The **IRandomAccessStream** associated with the media stream source request.
 
 ## -remarks
-The app service should parse the **IRandomAccessStream** to create an [IMediaStreamDescriptor](https://docs.microsoft.com/uwp/api/windows.media.core.imediastreamdescriptor). If the requested stream format is supported, then the app service can initialize the [MediaStreamSource](https://docs.microsoft.com/en-us/uwp/api/windows.media.core.mediastreamsource) provided in the event args and begin providing samples.
+The app service should parse the **IRandomAccessStream** to create an [IMediaStreamDescriptor](https://docs.microsoft.com/uwp/api/windows.media.core.imediastreamdescriptor). If the requested stream format is supported, then the app service can initialize the [MediaStreamSource](https://docs.microsoft.com/uwp/api/windows.media.core.mediastreamsource) provided in the event args and begin providing samples.
 
 ## -see-also
 

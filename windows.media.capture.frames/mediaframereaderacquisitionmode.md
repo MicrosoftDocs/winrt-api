@@ -10,7 +10,7 @@ public enum MediaFrameReaderAcquisitionMode : int
 # Windows.Media.Capture.Frames.MediaFrameReaderAcquisitionMode
 
 ## -description
-Specifies the way that the system should manage frames acquired from a [MediaFrameReader](https://docs.microsoft.com/en-us/uwp/api/windows.media.capture.frames.mediaframereader) or a [MultiSourceMediaFrameReader](https://docs.microsoft.com/en-us/uwp/api/windows.media.capture.frames.multisourcemediaframereader) when a new frame arrives before the app has finished processing the previous frame.
+Specifies the way that the system should manage frames acquired from a [MediaFrameReader](https://docs.microsoft.com/uwp/api/windows.media.capture.frames.mediaframereader) or a [MultiSourceMediaFrameReader](https://docs.microsoft.com/uwp/api/windows.media.capture.frames.multisourcemediaframereader) when a new frame arrives before the app has finished processing the previous frame.
 
 ## -enum-fields
 ### -field Realtime:0

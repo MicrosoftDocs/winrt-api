@@ -10,7 +10,7 @@ public Deferral InitializeMediaStreamSourceRequestedEventArgs.GetDeferral()
 # Windows.Media.Core.InitializeMediaStreamSourceRequestedEventArgs.GetDeferral
 
 ## -description
-Gets a [Deferral](https://docs.microsoft.com/en-us/uwp/api/windows.foundation.deferral) object that instructs the system to wait for the app service to complete media source stream initialization before continuing processing the request.
+Gets a [Deferral](https://docs.microsoft.com/uwp/api/windows.foundation.deferral) object that instructs the system to wait for the app service to complete media source stream initialization before continuing processing the request.
 
 ## -returns
 A **Deferral** object.

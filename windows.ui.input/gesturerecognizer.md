@@ -36,7 +36,7 @@ Rotation is not supported for single pointer input if the value of [PivotRadius]
 
 ## -examples
 
-Here we set up a [GestureRecognizer](gesturerecognizer.md) object with a collection of input event handlers for processing both pointer and gesture input. For more information on how to listen to and handle Windows Runtime events, see [https://docs.microsoft.com/en-us/windows/uwp/xaml-platform/events-and-routed-events-overview](https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview). See the [Basic input sample](http://go.microsoft.com/fwlink/p/?LinkId=620514) for the full implementation.
+Here we set up a [GestureRecognizer](gesturerecognizer.md) object with a collection of input event handlers for processing both pointer and gesture input. For more information on how to listen to and handle Windows Runtime events, see [https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview](https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview). See the [Basic input sample](http://go.microsoft.com/fwlink/p/?LinkId=620514) for the full implementation.
 
 ```csharp
 class ManipulationInputProcessor

@@ -14,7 +14,7 @@ Asynchronously obtains the sensor from its identifier.
 
 ## -parameters
 ### -param deviceId
-The [sensor identifier](https://docs.microsoft.com/en-us/windows-hardware/drivers/install/device-instance-ids)
+The [sensor identifier](https://docs.microsoft.com/windows-hardware/drivers/install/device-instance-ids)
 
 ## -returns
 Returns the [Barometer](Barometer.md) object from its identifier.

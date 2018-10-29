@@ -168,7 +168,7 @@ In XAML, the keys for [ResourceDictionary](resourcedictionary.md)items are decla
 
 ### Iterating through a **ResourceDictionary**
 
-You can iterate through a [ResourceDictionary](resourcedictionary.md) in C# or Microsoft Visual Basic. In many cases, such as using **foreach** syntax, the compiler does this casting for you and you won't need to cast to `IEnumerable` explicitly. If you do need to cast explicitly, for example if you want to call [GetEnumerator](https://docs.microsoft.com/en-us/dotnet/api/system.collections.ienumerable.getenumerator), cast to [IEnumerable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1) with a **KeyValuePair&lt;Object,Object&gt;** constraint.
+You can iterate through a [ResourceDictionary](resourcedictionary.md) in C# or Microsoft Visual Basic. In many cases, such as using **foreach** syntax, the compiler does this casting for you and you won't need to cast to `IEnumerable` explicitly. If you do need to cast explicitly, for example if you want to call [GetEnumerator](https://docs.microsoft.com/dotnet/api/system.collections.ienumerable.getenumerator), cast to [IEnumerable<T>](https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1) with a **KeyValuePair&lt;Object,Object&gt;** constraint.
 
 ### **ResourceDictionary** and Microsoft Visual Studio
 
@@ -211,7 +211,7 @@ In practice, the vast majority of the resources defined in a [ResourceDictionary
 ### Accessing a ResourceDictionary object in code
 
 The API that your code uses to access the resources in a [ResourceDictionary](resourcedictionary.md) depends on which programming language you use:
-+ For C# or Microsoft Visual Basic you use API that implement [IDictionary&lt;TKey,TValue&gt;](XREF:TODO:T:System.Collections.Generic.IDictionary`2) and [IEnumerable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1). For example, [TryGetValue](resourcedictionary_trygetvalue.md) or the [Item](resourcedictionary_item.md) indexer.
++ For C# or Microsoft Visual Basic you use API that implement [IDictionary&lt;TKey,TValue&gt;](XREF:TODO:T:System.Collections.Generic.IDictionary`2) and [IEnumerable<T>](https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1). For example, [TryGetValue](resourcedictionary_trygetvalue.md) or the [Item](resourcedictionary_item.md) indexer.
 + For Visual C++ component extensions (C++/CX) you use API that implement [IMap&lt;K,V&gt;](../windows.foundation.collections/imap_2.md) and [IIterable&lt;T&gt;](../windows.foundation.collections/iiterable_1.md). For example, [Lookup](resourcedictionary_lookup_786690417.md).
 + API that aren't part of collection support, like [Source](resourcedictionary_source.md), are the same in all languages.
 

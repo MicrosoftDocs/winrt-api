@@ -15,7 +15,7 @@ Provides access to media playback functionality such as play, pause, fast-forwar
 
 ## -remarks
 
-The [Media playback](https://docs.microsoft.com/en-us/windows/uwp/audio-video-camera/media-playback) section of the documentation contains how-to articles that provide detailed guidance for adding media playback features to your app. The following table lists some of the available articles.
+The [Media playback](https://docs.microsoft.com/windows/uwp/audio-video-camera/media-playback) section of the documentation contains how-to articles that provide detailed guidance for adding media playback features to your app. The following table lists some of the available articles.
 
 | Topic                                                                                             | Description                                                                                                                                                                                                                                                                                    |
 |---------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

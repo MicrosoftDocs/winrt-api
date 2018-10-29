@@ -29,7 +29,7 @@ Before any instances can be returned, they must be registered with [FindOrRegist
 
 This class can only be used from an app that has opted in to multi-instancing.
 Specify the _SupportsMultipleInstances_ attribute on the **Application** element in the manifest for the app. 
-For more information about app manifests, see [Package manifest schema reference for Windows 10](https://docs.microsoft.com/en-us/uwp/schemas/appxpackage/uapmanifestschema/schema-root).
+For more information about app manifests, see [Package manifest schema reference for Windows 10](https://docs.microsoft.com/uwp/schemas/appxpackage/uapmanifestschema/schema-root).
 
 ## -see-also
 

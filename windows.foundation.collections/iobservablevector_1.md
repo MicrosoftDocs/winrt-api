@@ -23,9 +23,9 @@ Observable collections are mainly useful for XAML data binding scenarios. For mo
 
 ### .NET usage
 
-[IObservableVector&lt;T&gt;](iobservablevector_1.md) isn't hidden for .NET usage. However, it's more common to use the .NET [ObservableCollection<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.objectmodel.observablecollection-1) type as a base class, or implement a **List** type or interface (generic or nongeneric) and **INotifyCollectionChanged** separately. If you do use [IObservableVector&lt;T&gt;](iobservablevector_1.md) for .NET code, the base interfaces (and their members) project as [IList<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ilist-1) and [IEnumerable&lt;T&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1).
+[IObservableVector&lt;T&gt;](iobservablevector_1.md) isn't hidden for .NET usage. However, it's more common to use the .NET [ObservableCollection<T>](https://docs.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1) type as a base class, or implement a **List** type or interface (generic or nongeneric) and **INotifyCollectionChanged** separately. If you do use [IObservableVector&lt;T&gt;](iobservablevector_1.md) for .NET code, the base interfaces (and their members) project as [IList<T>](https://docs.microsoft.com/dotnet/api/system.collections.generic.ilist-1) and [IEnumerable&lt;T&gt;](https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1).
 
 ## -examples
 
 ## -see-also
-[IObservableMap&lt;K,V&gt;](iobservablemap_2.md), [Collections (C++/CX)](https://docs.microsoft.com/en-us/cpp/cppcx/collections-c-cx), [Data binding in depth](http://msdn.microsoft.com/library/41e1b4f1-6caf-4128-a61a-4e400b149011)
+[IObservableMap&lt;K,V&gt;](iobservablemap_2.md), [Collections (C++/CX)](https://docs.microsoft.com/cpp/cppcx/collections-c-cx), [Data binding in depth](http://msdn.microsoft.com/library/41e1b4f1-6caf-4128-a61a-4e400b149011)

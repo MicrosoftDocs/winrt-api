@@ -21,7 +21,7 @@ The [CollectionGroups](icollectionview_collectiongroups.md) property is of type 
 
 ### Interface inheritance
 
-[ICollectionView](icollectionview.md) inherits [IObservableVector](../windows.foundation.collections/iobservablevector_1.md), [IVector](../windows.foundation.collections/ivector_1.md) and [IIterable](../windows.foundation.collections/iiterable_1.md) . Types that implement [ICollectionView](icollectionview.md) also implement the interface members of [IObservableVector](../windows.foundation.collections/iobservablevector_1.md), and either [IVector](../windows.foundation.collections/ivector_1.md) and [IIterable](../windows.foundation.collections/iiterable_1.md) for C++ usage or [IList](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ilist-1)and [IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1) for Microsoft .NET usage.
+[ICollectionView](icollectionview.md) inherits [IObservableVector](../windows.foundation.collections/iobservablevector_1.md), [IVector](../windows.foundation.collections/ivector_1.md) and [IIterable](../windows.foundation.collections/iiterable_1.md) . Types that implement [ICollectionView](icollectionview.md) also implement the interface members of [IObservableVector](../windows.foundation.collections/iobservablevector_1.md), and either [IVector](../windows.foundation.collections/ivector_1.md) and [IIterable](../windows.foundation.collections/iiterable_1.md) for C++ usage or [IList](https://docs.microsoft.com/dotnet/api/system.collections.generic.ilist-1)and [IEnumerable](https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1) for Microsoft .NET usage.
 
 ## -examples
 

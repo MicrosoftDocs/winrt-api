@@ -108,4 +108,4 @@ namespace AppUIBasics.Common
 
 ## -see-also
 
-[Command design basics](https://docs.microsoft.com/en-us/windows/uwp/layout/commanding-basics)
+[Command design basics](https://docs.microsoft.com/windows/uwp/layout/commanding-basics)

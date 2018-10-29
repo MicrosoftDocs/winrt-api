@@ -18,7 +18,7 @@ This provides an opportunity to create resources such as the CompositionLight on
 
 ## -params
 ### -param newElement
-The [UIElement](https://docs.microsoft.com/en-us/uwp/api/Windows.UI.Xaml.UIElement) that the light is attached to.
+The [UIElement](https://docs.microsoft.com/uwp/api/Windows.UI.Xaml.UIElement) that the light is attached to.
 
 ## -remarks
 

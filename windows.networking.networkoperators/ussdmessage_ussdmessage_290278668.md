@@ -18,7 +18,7 @@ Creates a new instance of a [UssdMessage](ussdmessage_ussdmessage_290278668.md) 
 
 
 
-> If you want to use this API and publish your app to the Store, you will need special approval. For more information, see the **Special and restricted capabilities** section under [App capability declarations](https://docs.microsoft.com/en-us/windows/uwp/packaging/app-capability-declarations). 
+> If you want to use this API and publish your app to the Store, you will need special approval. For more information, see the **Special and restricted capabilities** section under [App capability declarations](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations). 
 
 ## -parameters
 ### -param messageText
