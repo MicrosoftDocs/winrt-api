@@ -29,7 +29,7 @@ Indicates that the color temperature is adjusted for a daylight scene.
 Indicates that the color temperature is adjusted for a scene lit by a flash.
 
 ### -field Fluorescent:5
-Indicates that the color temperature is adjusted for a scene lit by florescent light.
+Indicates that the color temperature is adjusted for a scene lit by fluorescent light.
 
 ### -field Tungsten:6
 Indicates that the color temperature is adjusted for a scene lit by tungsten light.
