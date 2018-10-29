@@ -10,7 +10,7 @@ public WebUIView WebUIView { get; }
 # Windows.UI.WebUI.NewWebUIViewCreatedEventArgs.WebUIView
 
 ## -description
-Gets the the web UI view that triggered the event.
+Gets the web UI view that triggered the event.
 
 ## -property-value
 The view that triggered the event.

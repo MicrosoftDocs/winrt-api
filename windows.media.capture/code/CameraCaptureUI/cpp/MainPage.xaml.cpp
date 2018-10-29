@@ -86,7 +86,7 @@ void MainPage::InvalidateSize()
         // We have different widths to use depending on the layout
         if (windowWidth >= 768)
         {
-            // Make us as big as the the left over space, factoring in the ListBox width, the ListBox margins.
+            // Make us as big as the left over space, factoring in the ListBox width, the ListBox margins.
             // and the LayoutRoot's margins
             InputSection->Width = ((availableWidth) - 
                 (layoutRootMarginLeft + layoutRootMarginRight + listBoxMarginLeft + listBoxMarginRight));

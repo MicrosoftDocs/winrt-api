@@ -10,7 +10,7 @@ public InkInputConfiguration InputConfiguration { get; }
 # Windows.UI.Input.Inking.InkPresenter.InputConfiguration
 
 ## -description
-Gets which types of secondary input can be processed by the the [InkPresenter](inkpresenter.md) object.
+Gets which types of secondary input can be processed by the [InkPresenter](inkpresenter.md) object.
 
 ## -property-value
 The types of secondary input that can be processed.

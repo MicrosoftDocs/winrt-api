@@ -13,7 +13,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Foundation.Collections.IVector
 Gets the enterprise key credential registrations.
 
 ## -returns
-When this method completes, it returns the the enterprise key credential registrations.
+When this method completes, it returns the enterprise key credential registrations.
 
 ## -remarks
 
