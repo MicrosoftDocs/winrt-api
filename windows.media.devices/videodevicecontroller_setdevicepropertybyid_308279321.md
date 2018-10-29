@@ -10,7 +10,7 @@ public VideoDeviceControllerSetDevicePropertyStatus VideoDeviceController.SetDev
 # Windows.Media.Devices.VideoDeviceController.SetDevicePropertyById
 
 ## -description
-Sets the value of the property with the specified ID from the capture device driver, using an extended ID with custom header information and and providing the value as an object.
+Sets the value of the property with the specified ID from the capture device driver, using an extended ID with custom header information and providing the value as an object.
 
 ## -params
 
