@@ -10,7 +10,7 @@ public GamepadButtons Buttons { get;  set; }
 # Windows.UI.Input.Preview.Injection.InjectedInputGamepadInfo.Buttons
 
 ## -description
-Gets or sets the the gamepad buttons used for input injection.
+Gets or sets the gamepad buttons used for input injection.
 
 ## -property-value
 One or more gamepad buttons used for input injection.

@@ -14,7 +14,7 @@ Indicates that tethering is denied for the network account ID (SSID) for the dev
 
 ## -parameters
 ### -param entitlementFailureReason
-A string specifying the reason for the the tethering failure.
+A string specifying the reason for the tethering failure.
 
 ## -remarks
 
