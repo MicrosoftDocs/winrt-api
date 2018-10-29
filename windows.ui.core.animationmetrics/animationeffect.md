@@ -114,7 +114,7 @@ A page of content is brought in to the display.
 One page is replaced by another page.
 
 ### -field CrossFade:33
-One item is faded out as another fades in in its place.
+One item is faded out as another fades in its place.
 
 ### -field Peek:34
 Contents of a tile move up or down to show a part of the tile that is normally hidden.
