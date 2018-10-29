@@ -18,7 +18,7 @@ Removes a spatial entity from the store for all participants.
 The spatial entity to remove.
 
 ## -returns
-Action that triggers once once the entity removal has been communicated to the host.
+Action that triggers once the entity removal has been communicated to the host.
 
 ## -remarks
 

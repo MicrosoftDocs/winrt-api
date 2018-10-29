@@ -18,7 +18,7 @@ Saves a new or updated spatial entity into the store, to be synchronized with al
 The new or updated spatial entity.
 
 ## -returns
-Action that triggers once once the entity data has been communicated to the host.
+Action that triggers once the entity data has been communicated to the host.
 
 ## -remarks
 
