@@ -74,7 +74,7 @@ Here we specify keyboard accelerators for a set of buttons (we specify a tooltip
 </StackPanel>
 ```
 
-In this example, we specify keyboard accelerators for a set of MenuFlyoutItem and ToggleMenuFlyoutItem objects. The keyboard acclerator is displayed in the control's flyout.
+In this example, we specify keyboard accelerators for a set of MenuFlyoutItem and ToggleMenuFlyoutItem objects. The keyboard accelerator is displayed in the control's flyout.
 
 ```xaml
 <AppBarButton AccessKey="R" Icon="Refresh" Label="Refresh" IsAccessKeyScope="True">
