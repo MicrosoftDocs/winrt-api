@@ -29,7 +29,10 @@ Represents a container with two views; one view for the main content and another
 
 ## -remarks
 
-[SplitView](splitview.md)The [SplitView](splitview.md) control presents two areas of content: a [Pane](splitview_pane.md) and the main [Content](splitview_content.md). You typically use a [SplitView](splitview.md) to create a top-level navigation experience that adapts to different screen widths following the [nav pane pattern](http://msdn.microsoft.com/library/8fb52f5e-8e72-4604-9222-0b0ec6a97541) or the [master/details pattern](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/master-details), but it's not strictly limited to use for navigation.
+> [!TIP]
+> For more info, design guidance, and code examples, see [Split view](/windows/uwp/design/controls-and-patterns/split-view).
+
+The [SplitView](splitview.md) control presents two areas of content: a [Pane](splitview_pane.md) and the main [Content](splitview_content.md). You typically use a [SplitView](splitview.md) to create a top-level navigation experience that adapts to different screen widths following the [nav pane pattern](http://msdn.microsoft.com/library/8fb52f5e-8e72-4604-9222-0b0ec6a97541) or the [master/details pattern](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/master-details), but it's not strictly limited to use for navigation.
 
 The XAML for this [SplitView](splitview.md) is shown in the Examples section.
 
@@ -44,27 +47,16 @@ To specify the length of the open pane, set the [OpenPaneLength](splitview_openp
 Although the appearance of the control is largely based on the elements assigned to the [Pane](splitview_pane.md) and [Content](splitview_content.md), you can change the default background color of the [Pane](splitview_pane.md) by setting the [PaneBackground](splitview_panebackground.md).
 
 Set the [DisplayMode](splitview_displaymode.md) property to configure the interaction of the [Pane](splitview_pane.md) with the [Content](splitview_content.md). By default, the [Pane](splitview_pane.md) overlays the [Content](splitview_content.md) and disappears completely when closed. You can use one of the "inline" modes to show the [Pane](splitview_pane.md) side-by-side with the [Content](splitview_content.md). You can use the "compact" modes to make a narrow section of the [Pane](splitview_pane.md) remain visible even when the [Pane](splitview_pane.md) is closed. See the [SplitViewDisplayMode](splitviewdisplaymode.md) enumeration for more info about the supported modes.
-<!--<termdeflist><label><xref targtype="enum_winrt" rid="w_ui_xaml_ctrl.splitviewdisplaymode">DisplayMode</xref></label><termdef><name>Overlay</name><desc>This is the default mode.<list><item>When the <xref targtype="property_winrt" rid="w_ui_xaml_ctrl.splitview_pane">Pane</xref> is closed it does not appear onscreen.</item><item>When the <xref targtype="property_winrt" rid="w_ui_xaml_ctrl.splitview_pane">Pane</xref> is open, it appears layered over the <xref targtype="property_winrt" rid="w_ui_xaml_ctrl.splitview_content">Content</xref>.</item><item>The <xref targtype="property_winrt" rid="w_ui_xaml_ctrl.splitview_pane">Pane</xref> responds to a light-dismiss, which means it closes automatically when the user taps outside of it.</item></list></desc></termdef><termdef><name>CompactOverlay</name><desc><list><item>When the <xref targtype="property_winrt" rid="w_ui_xaml_ctrl.splitview_pane">Pane</xref> is closed, a portion  of it remains visible.  The amount that remains visible is determined by the <xref targtype="property_winrt" rid="w_ui_xaml_ctrl.splitview_compactpanelength">CompactPaneLength</xref> property.</item><item>When the <xref targtype="property_winrt" rid="w_ui_xaml_ctrl.splitview_pane">Pane</xref> is open, the remaining part of the  <xref targtype="property_winrt" rid="w_ui_xaml_ctrl.splitview_pane">Pane</xref> appears layered over the <xref targtype="property_winrt" rid="w_ui_xaml_ctrl.splitview_content">Content</xref>.</item><item>The <xref targtype="property_winrt" rid="w_ui_xaml_ctrl.splitview_pane">Pane</xref> responds to a light-dismiss.</item></list></desc></termdef><termdef><name>Inline</name><desc><list><item>The <xref targtype="property_winrt" rid="w_ui_xaml_ctrl.splitview_pane">Pane</xref> does not overlay the content area.  The <xref targtype="property_winrt" rid="w_ui_xaml_ctrl.splitview_pane">Pane</xref> and <xref targtype="property_winrt" rid="w_ui_xaml_ctrl.splitview_content">Content</xref> areas divide the available width of the control.</item><item>When the <xref targtype="property_winrt" rid="w_ui_xaml_ctrl.splitview_pane">Pane</xref> is closed, the <xref targtype="property_winrt" rid="w_ui_xaml_ctrl.splitview_content">Content</xref> occupies the full length of the control.</item><item>When the <xref targtype="property_winrt" rid="w_ui_xaml_ctrl.splitview_pane">Pane</xref> is open, it occupies the portion of the control specified by the <xref targtype="property_winrt" rid="w_ui_xaml_ctrl.splitview_openpanelength">OpenPaneLength</xref> property, and  the <xref targtype="property_winrt" rid="w_ui_xaml_ctrl.splitview_content">Content</xref> occupies the remaining space.</item><item>The <xref targtype="property_winrt" rid="w_ui_xaml_ctrl.splitview_pane">Pane</xref> does not respond to a  light-dismiss, which means it remains open when a user taps outside of it.</item></list></desc></termdef><termdef><name>CompactInline</name><desc><list><item>The <xref targtype="property_winrt" rid="w_ui_xaml_ctrl.splitview_pane">Pane</xref> does not overlay the content area.  The <xref targtype="property_winrt" rid="w_ui_xaml_ctrl.splitview_pane">Pane</xref> and <xref targtype="property_winrt" rid="w_ui_xaml_ctrl.splitview_content">Content</xref> areas divide the available width of the control.</item><item>When the <xref targtype="property_winrt" rid="w_ui_xaml_ctrl.splitview_pane">Pane</xref> is closed, a portion  of it remains visible.  The amount that remains visible is determined by the <xref targtype="property_winrt" rid="w_ui_xaml_ctrl.splitview_compactpanelength">CompactPaneLength</xref> property. The <xref targtype="property_winrt" rid="w_ui_xaml_ctrl.splitview_content">Content</xref> occupies the remaining space.</item><item>When the <xref targtype="property_winrt" rid="w_ui_xaml_ctrl.splitview_pane">Pane</xref> is open, it occupies the portion of the control specified by the <xref targtype="property_winrt" rid="w_ui_xaml_ctrl.splitview_openpanelength">OpenPaneLength</xref> property. The <xref targtype="property_winrt" rid="w_ui_xaml_ctrl.splitview_content">Content</xref> occupies the remaining space.</item><item>The <xref targtype="property_winrt" rid="w_ui_xaml_ctrl.splitview_pane">Pane</xref> does not respond to a  light-dismiss.</item></list></desc></termdef></termdeflist>-->
 
-For design guidance, see [Guidelines for the split view control](http://msdn.microsoft.com/library/e9e4537f-1160-4183-9a83-26602fcfdc9a).
-
-For more info and examples on building a top-level navigation experience, see [Guidelines for navigation panes](http://msdn.microsoft.com/library/8fb52f5e-8e72-4604-9222-0b0ec6a97541) and the [XAML Navigation Menu sample](http://go.microsoft.com/fwlink/p/?LinkId=619902&amp;amp;clcid=0x409).
 
 ## -examples
 
-<table>
-<th align="left">XAML Controls Gallery<th>
-<tr>
-<td><img src="images/xaml-controls-gallery-sm.png" alt="XAML controls gallery"></img></td>
-<td>
-    <p>If you have the <strong style="font-weight: semi-bold">XAML Controls Gallery</strong> app installed, click here to <a href="xamlcontrolsgallery:/item/SplitView">open the app and see the SplitView in action</a>.</p>
-    <ul>
-    <li><a href="https://www.microsoft.com/store/productId/9MSVH128X2ZT">Get the XAML Controls Gallery app (Microsoft Store)</a></li>
-    <li><a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics">Get the source code (GitHub)</a></li>
-    </ul>
-</td>
-</tr>
-</table>
+> [!TIP]
+> For more info, design guidance, and code examples, see [Split view](/windows/uwp/design/controls-and-patterns/split-view).
+>
+> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the SplitView in action](xamlcontrolsgallery:/item/SplitView).
+> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics)
 
 Here's a [SplitView](splitview.md) control with an open [Pane](splitview_pane.md) appearing inline next to the [Content](splitview_content.md).
 
@@ -90,4 +82,4 @@ Here's a [SplitView](splitview.md) control with an open [Pane](splitview_pane.md
 
 ## -see-also
 
-[Control](control.md), [Guidelines for the split view control](http://msdn.microsoft.com/library/e9e4537f-1160-4183-9a83-26602fcfdc9a), [Guidelines for navigation panes](http://msdn.microsoft.com/library/8fb52f5e-8e72-4604-9222-0b0ec6a97541), [Guidelines for master/details pattern](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/master-details), [Navigation menu (XAML) sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=619902), [Tailored multiple views sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620636)
+[Split view control overview](/windows/uwp/design/controls-and-patterns/split-view)

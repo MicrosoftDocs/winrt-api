@@ -19,6 +19,10 @@ Represents a selection control that combines a non-editable text box and a drop-
 
 
 ## -remarks
+
+> [!TIP]
+> For more info, design guidance, and code examples, see [Combo box](/windows/uwp/design/controls-and-patterns/combo-box).
+
 [ComboBox](combobox.md) presents a drop-down list of items a user can select from.
 
 <img alt="Open combo box" src="images/controls/ComboBoxBasicOpen.png" />
@@ -69,6 +73,14 @@ This table shows the resources used by the [ComboBox](combobox.md) control.
 </table>
 
 ## -examples
+
+> [!TIP]
+> For more info, design guidance, and code examples, see [Combo box](/windows/uwp/design/controls-and-patterns/combo-box).
+>
+> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the ComboBox in action](xamlcontrolsgallery:/item/ComboBox).
+> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics)
+
 The following example demonstrates binding a [ComboBox](combobox.md) to a collection of [FontFamily](../windows.ui.xaml.media/fontfamily.md) objects.
 
 ```xaml

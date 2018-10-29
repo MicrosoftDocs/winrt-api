@@ -103,8 +103,8 @@ You can also support other app platforms. For more information, see [AlternateId
 #### "WriteableTag" protocol
 When subscribing for this message protocol, if a writeable tag is brought in to proximity, then a proximity message is received that contains an **int32** (little-endian) indicating the maximum writeable size of the tag. This protocol is only valid for subscriptions.
 
-#### "" protocol
-<termdef><name>Pairing:Bluetooth</name>Windows subscribes to this message type to complete a Bluetooth pairing using proximity. This protocol is not intended to be uses in apps.</termdef>
+#### "Pairing:Bluetooth" protocol
+Windows subscribes to this message type to complete a Bluetooth pairing using proximity. This protocol is not intended to be uses in apps.
 
 #### "NDEF" protocol
 The message contents are properly-formatted NDEF records. The underlying type of the content for a publication using NDEF as the message type is contained in the NDEF records. A subscription for the NDEF type subscribes to all NDEF formatted messages.

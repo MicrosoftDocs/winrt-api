@@ -23,6 +23,9 @@ Represents a flyout that displays a menu of commands.
 
 ## -remarks
 
+> [!TIP]
+> For more info, design guidance, and code examples, see [Menus and context menus](/windows/uwp/design/controls-and-patterns/menus).
+
 [MenuFlyout](menuflyout.md) temporarily displays a list of commands or options related to what the user is currently doing.
 
 <img src="images/controls/MenuFlyout.png" alt="Menu flyout control" />
@@ -46,6 +49,13 @@ In addition to the members listed above, there are other members of the base cla
 + [ShowAttachedFlyout](../windows.ui.xaml.controls.primitives/flyoutbase_showattachedflyout_1146189011.md): a static method that can determine whether a flyout is already associated with a UI element through a [FlyoutBase.AttachedFlyout](../windows.ui.xaml.controls.primitives/flyoutbase_attachedflyout.md) usage. If so, the method calls [ShowAt](../windows.ui.xaml.controls.primitives/flyoutbase_showat_157739403.md) internally, using the [FrameworkElement](../windows.ui.xaml/frameworkelement.md) that you specified.
 
 ## -examples
+
+> [!TIP]
+> For more info, design guidance, and code examples, see [Menus and context menus](/windows/uwp/design/controls-and-patterns/menus).
+>
+> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the MenuFlyout in action](xamlcontrolsgallery:/item/MenuFlyout).
+> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics)
 
 <table>
 <th align="left">XAML Controls Gallery<th>

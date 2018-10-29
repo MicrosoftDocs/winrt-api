@@ -22,6 +22,9 @@ Represents a rich text editing control that supports formatted text, hyperlinks,
 
 ## -remarks
 
+> [!TIP]
+> For more info, design guidance, and code examples, see [Rich edit box](/windows/uwp/design/controls-and-patterns/rich-edit-box).
+
 [RichEditBox](richeditbox.md) is a control that lets a user enter formatted text such as bold, italic, and underlined. [RichEditBox](richeditbox.md) can also display Rich Text Format (.rtf) documents including hyperlinks and images (.jpg, .png, etc). This control is designed for advanced text editing scenarios. For simple plain text input, like on a form, consider using [TextBox](textbox.md).
 
 You use the [Document](richeditbox_document.md) property of the [RichEditBox](richeditbox.md) to get its content. The content of a [RichEditBox](richeditbox.md) is a [Windows.UI.Text.ITextDocument](../windows.ui.text/itextdocument.md) object, which gives you access to the underlying [Text Object Model](https://msdn.microsoft.com/library/windows/desktop/bb787607.aspx) APIs. See the [Windows.UI.Text](../windows.ui.text/windows_ui_text.md) namespace for APIs that you can use to work with the text document.
@@ -78,19 +81,12 @@ This table shows the resources used by the [RichEditBox](richeditbox.md) control
 
 ## -examples
 
-<table>
-<th align="left">XAML Controls Gallery<th>
-<tr>
-<td><img src="images/xaml-controls-gallery-sm.png" alt="XAML controls gallery"></img></td>
-<td>
-    <p>If you have the <strong style="font-weight: semi-bold">XAML Controls Gallery</strong> app installed, click here to <a href="xamlcontrolsgallery:/item/RichEditBox">open the app and see the RichEditBox in action</a>.</p>
-    <ul>
-    <li><a href="https://www.microsoft.com/store/productId/9MSVH128X2ZT">Get the XAML Controls Gallery app (Microsoft Store)</a></li>
-    <li><a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics">Get the source code (GitHub)</a></li>
-    </ul>
-</td>
-</tr>
-</table>
+> [!TIP]
+> For more info, design guidance, and code examples, see [Rich edit box](/windows/uwp/design/controls-and-patterns/rich-edit-box).
+>
+> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the RichEditBox in action](xamlcontrolsgallery:/item/RichEditBox).
+> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics)
 
 This example shows how to use the [ITextDocument.SetText](../windows.ui.text/itextdocument_settext_522499431.md) method to programmatically add text to a [RichEditBox](richeditbox.md).
 

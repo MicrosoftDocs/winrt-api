@@ -27,7 +27,8 @@ Represents a control that provides quick navigation of views within an app.
 
 ## -remarks
 
-For more info, see [Pivots and tabs](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/tabs-pivot).
+> [!TIP]
+> For more info, design guidance, and code examples, see [Pivot](/windows/uwp/design/controls-and-patterns/pivot).
 
 Use a [Pivot](pivot.md) to present groups of content that a user can swipe through. You typically use a [Pivot](pivot.md) as the top level control on a page.
 
@@ -73,19 +74,12 @@ This table shows the resources used by the [Pivot](pivot.md) control.
 
 ## -examples
 
-<table>
-<th align="left">XAML Controls Gallery<th>
-<tr>
-<td><img src="images/xaml-controls-gallery-sm.png" alt="XAML controls gallery"></img></td>
-<td>
-    <p>If you have the <strong style="font-weight: semi-bold">XAML Controls Gallery</strong> app installed, click here to <a href="xamlcontrolsgallery:/item/Pivot">open the app and see the Pivot in action</a>.</p>
-    <ul>
-    <li><a href="https://www.microsoft.com/store/productId/9MSVH128X2ZT">Get the XAML Controls Gallery app (Microsoft Store)</a></li>
-    <li><a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics">Get the source code (GitHub)</a></li>
-    </ul>
-</td>
-</tr>
-</table>
+> [!TIP]
+> For more info, design guidance, and code examples, see [Pivot](/windows/uwp/design/controls-and-patterns/pivot).
+>
+> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the Pivot in action](xamlcontrolsgallery:/item/Pivot).
+> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics)
 
 For more examples, see the [Pivot sample](http://go.microsoft.com/fwlink/p/?LinkId=619903).
 
@@ -146,4 +140,4 @@ private void NextButton_Click(object sender, RoutedEventArgs e)
 
 ## -see-also
 
-[Tabs and pivot overview](https://docs.microsoft.com/windows/uwp/controls-and-patterns/tabs-pivot), [Pivot styles and templates](http://msdn.microsoft.com/library/72669a58-4c18-4b39-ad43-36bf614f96b1), [Pivot sample](http://go.microsoft.com/fwlink/p/?LinkId=619903), [Tailored multiple views sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620636)
+[Pivot overview](/windows/uwp/design/controls-and-patterns/pivot)

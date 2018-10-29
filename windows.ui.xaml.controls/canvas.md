@@ -23,6 +23,10 @@ Defines an area within which you can explicitly position child objects, using co
 
 
 ## -remarks
+
+> [!TIP]
+> For more info, design guidance, and code examples, see [Layout panels](/windows/uwp/design/layout/layout-panels#canvas).
+
 [Canvas](canvas.md) is a layout panel that supports absolute positioning of child elements relative to the top left corner of the canvas.
 
 <img alt="Canvas layout panel" src="images/controls/Canvas.png" />
@@ -78,6 +82,13 @@ mySquare.SetValue(Canvas.TopProperty, 100);
 
 
 ## -examples
+
+> [!TIP]
+> For more info, design guidance, and code examples, see [Layout panels](/windows/uwp/design/layout/layout-panels#canvas).
+>
+> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the Canvas in action](xamlcontrolsgallery:/item/Canvas).
+> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics)
 
 <table>
 <th align="left">XAML Controls Gallery<th>

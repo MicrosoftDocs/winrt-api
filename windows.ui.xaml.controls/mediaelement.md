@@ -25,6 +25,9 @@ Represents an object that renders audio and video to the display. See Remarks.
 > has the same functionality as **MediaElement**, while also enabling more advanced media playback scenarios. Additionally, all future improvements in media playback will happen in
 > **MediaPlayerElement**.
 
+> [!TIP]
+> For more info, design guidance, and code examples, see [Media playback](/windows/uwp/design/controls-and-patterns/media-playback).
+
 Use a [MediaElement](mediaelement.md) control to play audio and video files in your app. Built– in media transport controls let users interact with their media by providing a default playback experience comprised of various buttons including play, pause, closed captions, and others. See [MediaTransportControls](mediatransportcontrols.md) for more info.
 
 For info about the media formats that [MediaElement](mediaelement.md) supports, see [Supported codecs](http://msdn.microsoft.com/library/9347ad7c-3a90-4073-bff4-9e8237398343).
@@ -250,6 +253,13 @@ Prior to Windows 8.1, the [AreTransportControlsEnabled](mediaelement_aretranspo
 Windows Phone 8.x app must use [PickSingleFileAndContinue](../windows.storage.pickers/fileopenpicker_picksinglefileandcontinue_1567473542.md) to open local media files.
 
 ## -examples
+
+> [!TIP]
+> For more info, design guidance, and code examples, see [Media playback](/windows/uwp/design/controls-and-patterns/media-playback).
+>
+> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the MediaElement in action](xamlcontrolsgallery:/item/MediaElement).
+> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics)
 
 This code creates a [MediaElement](mediaelement.md) with the [AutoPlay](mediaelement_autoplay.md) property explicitly set to **true** and the [Source](mediaelement_source.md) set to the path of a video file that is included in the app.
 

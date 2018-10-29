@@ -19,6 +19,10 @@ Represents a control that indicates the progress of an operation, where the typi
 
 
 ## -remarks
+
+> [!TIP]
+> For more info, design guidance, and code examples, see [[Progress controls](/windows/uwp/controls-and-patterns/progress-controls).
+
 A [ProgressBar](progressbar.md) control visually indicates progress of an operation with one of two styles: a bar that displays a repeating pattern, or a bar that fills based on a value.
 
 <img src="images/controls/ProgressBar_Indeterminate.png" alt="Indeterminate progress bar control" />
@@ -37,19 +41,12 @@ The [IsIndeterminate](progressbar_isindeterminate.md) property determines the ap
 
 ## -examples
 
-<table>
-<th align="left">XAML Controls Gallery<th>
-<tr>
-<td><img src="images/xaml-controls-gallery-sm.png" alt="XAML controls gallery"></img></td>
-<td>
-    <p>If you have the <strong style="font-weight: semi-bold">XAML Controls Gallery</strong> app installed, click here to open the app and see the <a href="xamlcontrolsgallery:/item/ProgressBar">ProgressBar</a> in action.</p>
-    <ul>
-    <li><a href="https://www.microsoft.com/store/productId/9MSVH128X2ZT">Get the XAML Controls Gallery app (Microsoft Store)</a></li>
-    <li><a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics">Get the source code (GitHub)</a></li>
-    </ul>
-</td>
-</tr>
-</table>
+> [!TIP]
+> For more info, design guidance, and code examples, see [[Progress controls](/windows/uwp/controls-and-patterns/progress-controls).
+>
+> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the ProgressBar in action](xamlcontrolsgallery:/item/ProgressBar).
+> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics)
 
 The following example demonstrates a value-based [ProgressBar](progressbar.md) and an indeterminate [ProgressBar](progressbar.md).
 
@@ -79,8 +76,5 @@ private void RepeatButton_Click(object sender, RoutedEventArgs e)
 }
 ```
 
-
-<!--<auto_snippet sample_id="System.Windows.Controls.ProgressBarEx" snippet_id="3"/>-->
-
 ## -see-also
-[Progress controls overview](https://docs.microsoft.com/windows/uwp/controls-and-patterns/progress-controls), [RangeBase](../windows.ui.xaml.controls.primitives/rangebase.md), [ProgressBar styles and templates](http://msdn.microsoft.com/library/43967846-0b5c-47a8-a727-fbeeec96a25b), [ProgressRing](progressring.md), [Controls list](http://msdn.microsoft.com/library/11172840-a63d-4f48-9db4-7baca06308ee), [Controls by function](http://msdn.microsoft.com/library/8db4347b-91d6-4659-91f2-80ecf7bbb596)
+[Progress controls overview](https://docs.microsoft.com/windows/uwp/controls-and-patterns/progress-controls), [ProgressRing](progressring.md), [Controls list](http://msdn.microsoft.com/library/11172840-a63d-4f48-9db4-7baca06308ee)

@@ -21,6 +21,9 @@ Represents an object that uses a [MediaPlayer](../windows.media.playback/mediapl
 
 ## -remarks
 
+> [!TIP]
+> For more info, design guidance, and code examples, see [Media playback](/windows/uwp/design/controls-and-patterns/media-playback).
+
 For info about the media formats that [MediaPlayerElement](mediaplayerelement.md) supports, see [Supported codecs](http://msdn.microsoft.com/library/9347ad7c-3a90-4073-bff4-9e8237398343).
 
 ### Architectural overview
@@ -137,19 +140,12 @@ You can use the [PosterSource](mediaplayerelement_postersource.md) property to p
 
 ## -examples
 
-<table>
-<th align="left">XAML Controls Gallery<th>
-<tr>
-<td><img src="images/xaml-controls-gallery-sm.png" alt="XAML controls gallery"></img></td>
-<td>
-    <p>If you have the <strong style="font-weight: semi-bold">XAML Controls Gallery</strong> app installed, click here to open the app and see the <a href="xamlcontrolsgallery:/item/MediaPlayerElement">MediaPlayerElement</a> in action.</p>
-    <ul>
-    <li><a href="https://www.microsoft.com/store/productId/9MSVH128X2ZT">Get the XAML Controls Gallery app (Microsoft Store)</a></li>
-    <li><a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics">Get the source code (GitHub)</a></li>
-    </ul>
-</td>
-</tr>
-</table>
+> [!TIP]
+> For more info, design guidance, and code examples, see [Media playback](/windows/uwp/design/controls-and-patterns/media-playback).
+>
+> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the MediaPlayerElement in action](xamlcontrolsgallery:/item/MediaPlayerElement).
+> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics)
 
 This code creates a MediaPlayerElement with the [AutoPlay](mediaplayerelement_autoplay.md) property explicitly set to **true** and the [Source](mediaplayerelement_source.md) set to the path of a video file that is included in the app.
 

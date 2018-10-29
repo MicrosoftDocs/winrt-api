@@ -25,6 +25,11 @@ Represents a dialog box that can be customized to contain checkboxes, hyperlinks
 
 
 ## -remarks
+
+> [!TIP]
+> For more info, design guidance, and code examples, see [Dialog controls](/windows/uwp/design/controls-and-patterns/dialogs-and-flyouts/dialogs
+).
+
 Use a [ContentDialog](contentdialog.md) to request input from the user, or to show information in a modal dialog. You can add a [ContentDialog](contentdialog.md) to an app page using code or XAML, or you can create a custom dialog class that's derived from [ContentDialog](contentdialog.md). Both ways are shown in the examples section of this topic.
 
 Use the [Title](contentdialog_title.md) property to put a title on the dialog. To add a complex title element with more than simple text, you can use the [TitleTemplate](contentdialog_titletemplate.md) property.
@@ -61,19 +66,13 @@ This table shows the resources used by the [ContentDialog](contentdialog.md) con
 
 ## -examples
 
-<table>
-<th align="left">XAML Controls Gallery<th>
-<tr>
-<td><img src="images/xaml-controls-gallery-sm.png" alt="XAML controls gallery"></img></td>
-<td>
-    <p>If you have the <strong style="font-weight: semi-bold">XAML Controls Gallery</strong> app installed, click here to open the app and see the <a href="xamlcontrolsgallery:/item/ContentDialog">ContentDialog</a> or <a href="xamlcontrolsgallery:/item/Flyout">Flyout</a> in action.</p>
-    <ul>
-    <li><a href="https://www.microsoft.com/store/productId/9MSVH128X2ZT">Get the XAML Controls Gallery app (Microsoft Store)</a></li>
-    <li><a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics">Get the source code (GitHub)</a></li>
-    </ul>
-</td>
-</tr>
-</table>
+> [!TIP]
+> For more info, design guidance, and code examples, see [Dialog controls](/windows/uwp/design/controls-and-patterns/dialogs-and-flyouts/dialogs
+).
+>
+> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the ContentDialog in action](xamlcontrolsgallery:/item/ContentDialog).
+> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics)
 
 This example shows how to create and show a simple [ContentDialog](contentdialog.md) in code.
 

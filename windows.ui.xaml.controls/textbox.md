@@ -21,6 +21,9 @@ Represents a control that can be used to display and edit plain text (single or 
 
 ## -remarks
 
+> [!TIP]
+> For more info, design guidance, and code examples, see [Text box](/windows/uwp/design/controls-and-patterns/text-box).
+
 <img alt="Text box control" src="images/controls/TextBox.png" />
 
 The [TextBox](textbox.md) control enables a user to enter text into an app. It's typically used to capture a single line of text, but can be configured to capture multiple lines of text. The text displays on the screen in a simple uniform plaintext format.
@@ -213,19 +216,12 @@ This table shows the resources used by the [TextBox](textbox.md) control. Resour
 
 ## -examples
 
-<table>
-<th align="left">XAML Controls Gallery<th>
-<tr>
-<td><img src="images/xaml-controls-gallery-sm.png" alt="XAML controls gallery"></img></td>
-<td>
-    <p>If you have the <strong style="font-weight: semi-bold">XAML Controls Gallery</strong> app installed, click here to <a href="xamlcontrolsgallery:/item/TextBox">open the app and see the TextBox in action</a>.</p>
-    <ul>
-    <li><a href="https://www.microsoft.com/store/productId/9MSVH128X2ZT">Get the XAML Controls Gallery app (Microsoft Store)</a></li>
-    <li><a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics">Get the source code (GitHub)</a></li>
-    </ul>
-</td>
-</tr>
-</table>
+> [!TIP]
+> For more info, design guidance, and code examples, see [Text box](/windows/uwp/design/controls-and-patterns/text-box).
+>
+> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the TextBox in action](xamlcontrolsgallery:/item/TextBox).
+> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics)
 
 This example shows a [TextBox](textbox.md) with a header and placeholder text. The [Text](textbox_text.md) from the [TextBox](textbox.md) is used to show a greeting to the user.
 
@@ -253,4 +249,4 @@ private void Button_Click(object sender, RoutedEventArgs e)
 
 ## -see-also
 
-[Control](control.md), [Guidelines for text input](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/text-box), [TextBox styles and templates](http://msdn.microsoft.com/library/fb929d6f-b605-41e0-8a1d-98eb55fbedc0), [How to use input scope to change the touch keyboard](http://msdn.microsoft.com/library/6e5f55d7-24d6-47cc-b457-b6231ede2a71), [XAML text editing sample](http://go.microsoft.com/fwlink/p/?linkid=251417), [Guidelines for spell checking](http://msdn.microsoft.com/library/b867c956-5ab2-4207-a8de-179ce7871180), [PasswordBox](passwordbox.md), [RichEditBox](richeditbox.md), [RichTextBlock](richtextblock.md), [SearchBox](searchbox.md), [Controls list](http://msdn.microsoft.com/library/11172840-a63d-4f48-9db4-7baca06308ee), [Controls by function](http://msdn.microsoft.com/library/8db4347b-91d6-4659-91f2-80ecf7bbb596), [Touch keyboard text input sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=690716)
+[Text box overview](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/text-box), [How to use input scope to change the touch keyboard](http://msdn.microsoft.com/library/6e5f55d7-24d6-47cc-b457-b6231ede2a71), [XAML text editing sample](http://go.microsoft.com/fwlink/p/?linkid=251417), [Guidelines for spell checking](http://msdn.microsoft.com/library/b867c956-5ab2-4207-a8de-179ce7871180), [PasswordBox](passwordbox.md), [RichEditBox](richeditbox.md), [RichTextBlock](richtextblock.md), [SearchBox](searchbox.md), [Controls list](http://msdn.microsoft.com/library/11172840-a63d-4f48-9db4-7baca06308ee), [Controls by function](http://msdn.microsoft.com/library/8db4347b-91d6-4659-91f2-80ecf7bbb596), [Touch keyboard text input sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=690716)

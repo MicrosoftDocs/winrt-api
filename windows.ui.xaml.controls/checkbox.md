@@ -25,6 +25,10 @@ Represents a control that a user can select (check) or clear (uncheck). A [Check
 
 
 ## -remarks
+
+> [!TIP]
+> For more info, design guidance, and code examples, see [Check boxes](/windows/uwp/design/controls-and-patterns/checkbox).
+
 [CheckBox](checkbox.md) is a control that a user can select or clear.
 
 <img alt="The 3 states of a check box" src="images/controls/CheckBox_DefaultStates.png" />
@@ -126,22 +130,14 @@ This table shows the resources used by the [CheckBox](checkbox.md) control.
 
 ## -examples
 
-<table>
-<tr>
-<td><img src="images/xaml-controls-gallery-sm.png" alt="XAML controls gallery"></img></td>
-<td>
-    <p>If you have the <strong style="font-weight: semi-bold">XAML Controls Gallery</strong> app installed, click here to <a href="xamlcontrolsgallery:/item/CheckBox">open the app and see the CheckBox in action</a>.</p>
-    <ul>
-    <li><a href="https://www.microsoft.com/store/productId/9MSVH128X2ZT">Get the XAML Controls Gallery app (Microsoft Store)</a></li>
-    <li><a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics">Get the source code (GitHub)</a></li>
-    </ul>
-</td>
-</tr>
-</table>
+> [!TIP]
+> For more info, design guidance, and code examples, see [Check boxes](/windows/uwp/design/controls-and-patterns/checkbox).
+>
+> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the CheckBox in action](xamlcontrolsgallery:/item/CheckBox).
+> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics)
 
 The following example shows two check box controls. The first check box demonstrates the checked and unchecked states. The second check box demonstrates the checked, unchecked, and indeterminate states. You can select the controls to change their appearance and see which state they are in.
-
-
 
 [!code-xml[1](../windows.ui.xaml.data/code/System.Windows.Controls.CheckBoxEx/csharp/Page.xaml#Snippet1)]
 

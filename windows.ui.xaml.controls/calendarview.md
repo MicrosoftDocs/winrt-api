@@ -13,6 +13,10 @@ public class CalendarView : Windows.UI.Xaml.Controls.Control, Windows.UI.Xaml.Co
 Represents a control that enables a user to select a date by using a visual calendar display.
 
 ## -remarks
+
+> [!TIP]
+> For more info, design guidance, and code examples, see [Calendar view](/windows/uwp/design/controls-and-patterns/calendar-view).
+
 The [CalendarView](calendarview.md) gives you a standardized way to let users view and interact with a calendar. If you need to let a user select multiple dates, you must use a [CalendarView](calendarview.md). If you need to let a user pick only a single date and don’t need a calendar to be always visible, consider using a [CalendarDatePicker](calendardatepicker.md) or [DatePicker](datepicker.md) control. You can use the [CalendarView](calendarview.md) control in its default form with a minimal amount of Extensible Application Markup Language (XAML) or other code, or you can customize it in various ways to suit your app.
 
 The [CalendarView](calendarview.md) is made up of 3 separate views: the month view, year view, and decade view. By default, it starts with the month view open. You can specify a startup view by setting the [DisplayMode](calendarview_displaymode.md) property.
@@ -142,19 +146,12 @@ This table shows the resources used by the [CalendarView](calendarview.md) contr
 
 ## -examples
 
-<table>
-<th align="left">XAML Controls Gallery<th>
-<tr>
-<td><img src="images/xaml-controls-gallery-sm.png" alt="XAML controls gallery"></img></td>
-<td>
-    <p>If you have the <strong style="font-weight: semi-bold">XAML Controls Gallery</strong> app installed, click here to <a href="xamlcontrolsgallery:/item/CalendarView">open the app and see the CalendarView in action</a>.</p>
-    <ul>
-    <li><a href="https://www.microsoft.com/store/productId/9MSVH128X2ZT">Get the XAML Controls Gallery app (Microsoft Store)</a></li>
-    <li><a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics">Get the source code (GitHub)</a></li>
-    </ul>
-</td>
-</tr>
-</table>
+> [!TIP]
+> For more info, design guidance, and code examples, see [Calendar view](/windows/uwp/design/controls-and-patterns/calendar-view).
+>
+> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the CalendarView in action](xamlcontrolsgallery:/item/CalendarView).
+> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics)
 
 This example shows phased rendering of a [CalendarView](calendarview.md) for scheduling appointments. In phase 0, the default day item is rendered. In phase 1, you blackout dates that can't be booked. This includes past dates, Sundays, and dates that are already fully booked. In phase 2, you check each appointment that's booked for the day. You show a green density bar for each confirmed appointment and a blue density bar for each tentative appointment. The `Bookings` class in this example is from a fictitious appointment booking app, and is not shown.
 

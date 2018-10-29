@@ -19,6 +19,10 @@ Represents a control that indicates that an operation is ongoing. The typical vi
 
 
 ## -remarks
+
+> [!TIP]
+> For more info, design guidance, and code examples, see [[Progress controls](/windows/uwp/controls-and-patterns/progress-controls).
+
 [ProgressRing](progressring.md) is a control that indicates indeterminate progress by displaying an animated ring.
 
 <img alt="Progress ring control" src="images/controls/ProgressRing.png" />
@@ -32,19 +36,12 @@ Use a [ProgressRing](progressring.md) to visually indicate that an operation is 
 
 ## -examples
 
-<table>
-<th align="left">XAML Controls Gallery<th>
-<tr>
-<td><img src="images/xaml-controls-gallery-sm.png" alt="XAML controls gallery"></img></td>
-<td>
-    <p>If you have the <strong style="font-weight: semi-bold">XAML Controls Gallery</strong> app installed, click here to open the app and see the <a href="xamlcontrolsgallery:/item/ProgressRing">ProgressRing</a> in action.</p>
-    <ul>
-    <li><a href="https://www.microsoft.com/store/productId/9MSVH128X2ZT">Get the XAML Controls Gallery app (Microsoft Store)</a></li>
-    <li><a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics">Get the source code (GitHub)</a></li>
-    </ul>
-</td>
-</tr>
-</table>
+> [!TIP]
+> For more info, design guidance, and code examples, see [[Progress controls](/windows/uwp/controls-and-patterns/progress-controls).
+>
+> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the ProgressRing in action](xamlcontrolsgallery:/item/ProgressRing).
+> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics)
 
 This example shows how to set the [IsActive](progressring_isactive.md) property of a [ProgressRing](progressring.md) in code. A [ToggleSwitch](toggleswitch.md) is used to turn the[ProgressRing](progressring.md) control on or off.
 
@@ -79,4 +76,4 @@ This example shows how to set the [IsActive](progressring_isactive.md) property 
 
 
 ## -see-also
-[Progress controls overview](https://docs.microsoft.com/windows/uwp/controls-and-patterns/progress-controls), [ProgressRing styles and templates](http://msdn.microsoft.com/library/ea3c6fe2-af06-4ada-8f77-cb78bd1388da), [ProgressBar](progressbar.md), [Controls list](http://msdn.microsoft.com/library/11172840-a63d-4f48-9db4-7baca06308ee), [Controls by function](http://msdn.microsoft.com/library/8db4347b-91d6-4659-91f2-80ecf7bbb596)
+[Progress controls overview](https://docs.microsoft.com/windows/uwp/controls-and-patterns/progress-controls), [ProgressBar](progressbar.md), [Controls list](http://msdn.microsoft.com/library/11172840-a63d-4f48-9db4-7baca06308ee), [Controls by function](http://msdn.microsoft.com/library/8db4347b-91d6-4659-91f2-80ecf7bbb596)
