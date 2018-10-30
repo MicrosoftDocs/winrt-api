@@ -13,7 +13,7 @@ public Windows.UI.Xaml.DependencyObject ClosedTarget { get;  set; }
 Gets or sets the UI element that specifies the initial clip size.
 
 ## -property-value
-The the UI element that specifies the initial clip size.
+The UI element that specifies the initial clip size.
 
 ## -remarks
 Don't set this in XAML. For a XAML declaration, use [ClosedTargetName](splitopenthemeanimation_closedtargetname.md) instead.

@@ -293,7 +293,7 @@
     // </SnippetMouseWheel>
 
 // <SnippetPointerCancel>
-    // Fires for for various reasons, including: 
+    // Fires for various reasons, including: 
     //    - A touch contact is canceled by a pen coming into range of the surface.
     //    - The device doesn't report an active contact for more than 100ms.
     //    - The desktop is locked or the user logged off. 
@@ -327,7 +327,7 @@
 // </SnippetPointerCancel>
 
 // <SnippetLostPointerCapture>
-    // Fires for for various reasons, including: 
+    // Fires for various reasons, including: 
     //    - User interactions
     //    - Programmatic caputre of another pointer
     //    - Captured pointer was deliberately released

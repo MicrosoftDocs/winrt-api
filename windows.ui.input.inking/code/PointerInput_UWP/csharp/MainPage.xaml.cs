@@ -250,7 +250,7 @@ namespace PointerInput
         // </SnippetPointerWheel>
 
         // <SnippetPointerCaptureLost>
-        // Fires for for various reasons, including: 
+        // Fires for various reasons, including: 
         //    - User interactions
         //    - Programmatic capture of another pointer
         //    - Captured pointer was deliberately released
@@ -282,7 +282,7 @@ namespace PointerInput
         // </SnippetPointerCaptureLost>
 
         // <SnippetPointerCanceled>
-        // Fires for for various reasons, including: 
+        // Fires for various reasons, including: 
         //    - Touch contact canceled by pen coming into range of the surface.
         //    - The device doesn't report an active contact for more than 100ms.
         //    - The desktop is locked or the user logged off. 

@@ -182,7 +182,7 @@ class ManipulationInputProcessor
         recognizer.GestureSettings ^= GestureSettings.ManipulationTranslateX;
     }
     
-    // Modify the GestureSettings property to allow movement on both the the X and Y axes
+    // Modify the GestureSettings property to allow movement on both the X and Y axes
     public void MoveOnXAndYAxes()
     {
         recognizer.CompleteGesture();
