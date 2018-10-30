@@ -10,7 +10,7 @@ public event TypedEventHandler RangesDownloaded<DownloadOperation, BackgroundTra
 # Windows.Networking.BackgroundTransfer.DownloadOperation.RangesDownloaded
 
 ## -description
-Provides access to to incremental download progress.
+Provides access to incremental download progress.
 
 ## -remarks
 |||

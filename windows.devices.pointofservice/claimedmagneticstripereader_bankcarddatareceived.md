@@ -14,7 +14,7 @@ public event Windows.Foundation.TypedEventHandler BankCardDataReceived<Windows.D
 Occurs when a bank card is swiped.
 
 ## -remarks
-An application can register for this event event handler to get the bank card data each time a bank card is swiped through the magnetic stripe reader.
+An application can register for this event handler to get the bank card data each time a bank card is swiped through the magnetic stripe reader.
 
 ## -examples
 The following example shows how to setup the magnetic stripe reader to receive data after a scanning event.

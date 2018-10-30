@@ -10,7 +10,7 @@ public class InkModelerAttributes
 # Windows.UI.Input.Inking.InkModelerAttributes
 
 ## -description
-Manages which types of ink modeler attributes can be processed by the the [InkPresenter](inkpresenter.md) object.
+Manages which types of ink modeler attributes can be processed by the [InkPresenter](inkpresenter.md) object.
 
 ## -remarks
 Ink modeling refers to the process of processing and optimizing input for rendering as ink strokes. This can inlcude filtering, smoothing, prediction (to reduce perceived latency), and transformation (such as scaling for display DPI, or mapping pointer pressure to stroke width).

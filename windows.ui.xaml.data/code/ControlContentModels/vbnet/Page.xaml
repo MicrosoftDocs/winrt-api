@@ -23,7 +23,7 @@
 
     
         <TextBox Margin="10" HorizontalAlignment="Left"  Width="100" 
-        Text="TextBox with a line of text that that wraps." 
+        Text="TextBox with a line of text that wraps." 
         FontFamily="Arial" TextWrapping="Wrap" />
       
     

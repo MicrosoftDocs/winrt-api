@@ -27,7 +27,7 @@ namespace PointerExample
             if (e.Pointer.PointerDeviceType != 
                 Windows.Devices.Input.PointerDeviceType.Mouse)
             {
-                // Store and and touch input contacts.  
+                // Store and touch input contacts.  
                 Windows.UI.Input.PointerPoint pt = e.GetCurrentPoint(this);
                 _contacts[e.Pointer.PointerId] = pt.Position;
             }

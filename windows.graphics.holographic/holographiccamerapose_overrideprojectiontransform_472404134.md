@@ -19,7 +19,7 @@ The alternate suboptimal projection transform.
 ## -remarks
 **Warning:** Rendering a frame with any projection transform other than that frame's [ProjectionTransform](holographiccamerapose_projectiontransform.md) value will result in reduced visual quality.
 
-However, if you must render a frame with an alternate projection transform, be sure to call this method and provide that transform.  Visual quality will be even worse if the compositor does not know the the actual transforms used for rendering.
+However, if you must render a frame with an alternate projection transform, be sure to call this method and provide that transform.  Visual quality will be even worse if the compositor does not know the actual transforms used for rendering.
 
 ## -see-also
 

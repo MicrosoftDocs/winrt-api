@@ -10,7 +10,7 @@ public class InkInputConfiguration
 # Windows.UI.Input.Inking.InkInputConfiguration
 
 ## -description
-Manages which types of secondary input can be processed by the the [InkPresenter](inkpresenter.md) object.
+Manages which types of secondary input can be processed by the [InkPresenter](inkpresenter.md) object.
 
 ## -remarks
 To manage how secondary input is processed by your app, see [InkInputProcessingConfiguration](inkinputprocessingconfiguration.md).

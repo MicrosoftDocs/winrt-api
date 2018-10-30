@@ -10,7 +10,7 @@ public uint Id { get; }
 # Windows.UI.Input.Inking.InkStroke.Id
 
 ## -description
-Gets the the ink stroke identifier.
+Gets the ink stroke identifier.
 
 A unique identifier is assigned to each ink stroke managed by the [InkPresenter](inkpresenter.md).
 

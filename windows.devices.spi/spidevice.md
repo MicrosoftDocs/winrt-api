@@ -57,7 +57,7 @@ async void Digipot_AD5206()
                 await Task.Delay(100); 
             } 
 
-            // Step the resistence on this channel from min to max 
+            // Step the resistance on this channel from min to max 
             for (byte r = 255; r >= 0; --r) 
             { 
                 data[1] = r; 
