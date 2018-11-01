@@ -10,7 +10,7 @@ public Windows.Foundation.IAsyncOperation<Windows.ApplicationModel.Calls.VoipPho
 # Windows.ApplicationModel.Calls.VoipCallCoordinator.ReserveCallResourcesAsync
 
 ## -description
-Reserves the CPU and memory resources necessary for a VoIP call.
+Reserves the CPU and memory resources necessary for a VoIP call. You should use this method only in a single-process application model.
 
 ## -parameters
 ### -param taskEntryPoint
@@ -51,4 +51,5 @@ You should call **ReserveCallResourcesAsync** only once. See the code example.
 
 ## -capabilities
 phoneCallHistory, phoneCallHistorySystem
-voipCall
+voipCall, oneProcessVoIP
+

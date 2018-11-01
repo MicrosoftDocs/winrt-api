@@ -40,3 +40,5 @@ Your application should call **VoipPhoneCall.NotifyCallAccepted** if the user ac
 
 ## -examples
 
+## -capabilities
+backgroundVoIP

@@ -17,9 +17,13 @@ Notifies the system that the VoIP call has been accepted.
 The media types used by the call.
 
 ## -remarks
+This event notifies the system that the incoming VoIP call was answered from within the VoIP application's incoming call notification. You should raise this event in conjunction with the [**VoipCallCoordinator.RequestNewAppInitiatedCall**](voipcallcoordinator_requestnewappinitiatedcall_477072082.md) method.
+
 The system will raise the **AnswerRequested** event on the **VoipPhoneCall** object to signal to the VoIP App that the call has been accepted by the system. After the event is raised, the VoIP App must call **NotifyCallActive** within 5 seconds.
 
 ## -see-also
 
 ## -examples
 
+## -capabilities
+backgroundVoIP
