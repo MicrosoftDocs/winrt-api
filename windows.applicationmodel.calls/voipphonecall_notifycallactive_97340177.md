@@ -20,4 +20,4 @@ The system raises the [AnswerRequested](voipphonecall_answerrequested.md) event 
 ## -see-also
 
 ## -capabilities
-phoneCallHistory, phoneCallHistorySystem, voipCall
+phoneCallHistory, phoneCallHistorySystem, voipCall, voipCall

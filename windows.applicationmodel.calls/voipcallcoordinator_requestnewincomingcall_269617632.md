@@ -56,3 +56,5 @@ Use this method when the user has turned on quiet hours. If caller's contact rem
 
 ## -examples
 
+## -capabilities
+voipCall

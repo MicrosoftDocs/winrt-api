@@ -19,10 +19,9 @@ The media types used by the call.
 ## -remarks
 This event notifies the system that the incoming VoIP call was answered from within your VoIP application's incoming call notification. You should raise this event in conjunction with the [VoipCallCoordinator.RequestNewAppInitiatedCall](voipcallcoordinator_requestnewappinitiatedcall_477072082.md) method.
 
-
 ## -see-also
 
 ## -examples
 
 ## -capabilities
-backgroundVoIP
+backgroundVoIP, voipCall

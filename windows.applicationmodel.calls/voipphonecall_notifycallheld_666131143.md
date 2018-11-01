@@ -19,7 +19,5 @@ Apps must call this method before calling [NotifyCallActive](voipphonecall_notif
 
 ## -see-also
 
-
 ## -capabilities
-phoneCallHistory, phoneCallHistorySystem
-voipCall
+phoneCallHistory, phoneCallHistorySystem, voipCall

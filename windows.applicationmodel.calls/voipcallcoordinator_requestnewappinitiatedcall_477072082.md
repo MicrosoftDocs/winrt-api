@@ -40,4 +40,4 @@ Use this method to create a new [VoipPhoneCall](voipphonecall.md) object. You ca
 ## -examples
 
 ## -capabilities
-backgroundVoIP
+backgroundVoIP, voipCall
