@@ -200,10 +200,10 @@ namespace MediaCaptureSnippets
             capturePreview.Source = mc;
             await mc.StartPreviewAsync();
 
-            var horLenght = mc.MediaCaptureSettings.Horizontal35mmEquivalentFocalLength;
+            var horLength = mc.MediaCaptureSettings.Horizontal35mmEquivalentFocalLength;
             var vertLength = mc.MediaCaptureSettings.Vertical35mmEquivalentFocalLength;
 
-            txtDisplay.Text += horLenght;
+            txtDisplay.Text += horLength;
             txtDisplay.Text += vertLength;
 
             // var aov = 2 * (Math.Atan(
