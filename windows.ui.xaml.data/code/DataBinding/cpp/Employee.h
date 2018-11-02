@@ -75,7 +75,7 @@ namespace SDKSample
                 _isPropertyChangedObserved = false;
             }
 
-            // in c++, it is not neccessary to include definitions of add, remove, and raise.
+            // in c++, it is not necessary to include definitions of add, remove, and raise.
             //  these definitions have been made explicitly here so that we can check if the 
             //  event has listeners before firing the event
             virtual event Windows::UI::Xaml::Data::PropertyChangedEventHandler^ PropertyChanged
