@@ -22,7 +22,5 @@ Apps can set the start time for the given call to match their conventions for wh
 
 ## -see-also
 
-
 ## -capabilities
-phoneCallHistory, phoneCallHistorySystem
-voipCall
+phoneCallHistory, phoneCallHistorySystem, voipCall

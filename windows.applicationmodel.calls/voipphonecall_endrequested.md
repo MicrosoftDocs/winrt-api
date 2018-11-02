@@ -19,7 +19,5 @@ After this event has been raised, the application is required to call [NotifyCal
 
 ## -see-also
 
-
 ## -capabilities
-phoneCallHistory, phoneCallHistorySystem
-voipCall
+phoneCallHistory, phoneCallHistorySystem, voipCall

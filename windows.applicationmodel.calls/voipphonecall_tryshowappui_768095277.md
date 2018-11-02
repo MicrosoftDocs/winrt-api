@@ -18,6 +18,5 @@ Brings the VOIP app's user interface into the foreground after accepting a call.
 
 ## -examples
 
-
 ## -capabilities
-phoneCallHistory, phoneCallHistorySystem
+phoneCallHistory, phoneCallHistorySystem, voipCall

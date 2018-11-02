@@ -19,7 +19,5 @@ After this event has been raised, the application must call [NotifyCallActive](v
 
 ## -see-also
 
-
 ## -capabilities
-phoneCallHistory, phoneCallHistorySystem
-voipCall
+phoneCallHistory, phoneCallHistorySystem, voipCall

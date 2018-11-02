@@ -46,5 +46,4 @@ You should call **ReserveCallResourcesAsync** only once. See the code example.
 ## -see-also
 
 ## -capabilities
-phoneCallHistory, phoneCallHistorySystem
-voipCall, oneProcessVoIP
+oneProcessVoIP, phoneCallHistory, phoneCallHistorySystem, voipCall

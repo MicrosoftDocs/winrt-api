@@ -42,5 +42,4 @@ All string parameters have a maximum allowed length of 128 characters (including
 
 
 ## -capabilities
-backgroundVoIP
-phoneCallHistory, phoneCallHistorySystem
+backgroundVoIP, phoneCallHistory, phoneCallHistorySystem, voipCall
