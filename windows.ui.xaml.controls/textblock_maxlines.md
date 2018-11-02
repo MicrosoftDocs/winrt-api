@@ -10,7 +10,7 @@ public int MaxLines { get;  set; }
 # Windows.UI.Xaml.Controls.TextBlock.MaxLines
 
 ## -description
-Gets or sets the maximum lines of text shown in the [TextBlock](textblock.md).
+Gets or sets the maximum number of lines of text shown in the [TextBlock](textblock.md).
 
 ## -xaml-syntax
 ```xaml
@@ -19,10 +19,10 @@ Gets or sets the maximum lines of text shown in the [TextBlock](textblock.md).
 
 
 ## -property-value
-The maximum lines of text shown in the [TextBlock](textblock.md). The default is 0, which is a special value that represents "Auto" behavior. The value cannot be negative.
+The maximum number of lines of text shown in the [TextBlock](textblock.md). The default is 0, which is a special value that represents "Auto" behavior. The value cannot be negative.
 
 ## -remarks
-Use the **MaxLines** property to specify the maximum lines of text shown in a text block. The text control will adjust it’s height to show no more than the specified number of lines, regardless of the font size, font style, or text length.
+Use the **MaxLines** property to specify the maximum number of lines of text shown in a text block. The text control will adjust its height to show no more than the specified number of lines, regardless of the font size, font style, or text length.
 
 Negative integer values are invalid, and will cause a run-time exception.
 
