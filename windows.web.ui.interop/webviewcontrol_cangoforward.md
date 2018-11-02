@@ -12,7 +12,7 @@ public bool CanGoForward { get; }
 ## -description
 Gets a value that indicates whether there is at least one page in the forward navigation history.
 
-For more info, see [Windows.Web.UI.IWebViewControl](../window.web.ui/iwebviewcontrol.md)
+For more info, see [Windows.Web.UI.IWebViewControl](../windows.web.ui/iwebviewcontrol.md)
 
 ## -property-value
 **true** if the IWebViewControl can navigate forward; otherwise, **false**.

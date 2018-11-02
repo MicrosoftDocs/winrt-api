@@ -12,7 +12,7 @@ public event TypedEventHandler ContentLoading<IWebViewControl, WebViewControlCon
 ## -description
 An event that is triggered when the control has started loading new content.
 
-For more info, see [Windows.Web.UI.IWebViewControl](../window.web.ui/iwebviewcontrol.md)
+For more info, see [Windows.Web.UI.IWebViewControl](../windows.web.ui/iwebviewcontrol.md)
 
 ## -remarks
 

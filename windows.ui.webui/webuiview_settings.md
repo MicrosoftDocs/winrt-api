@@ -13,7 +13,7 @@ public WebViewControlSettings Settings { get; }
 Gets a [WebViewControlSettings](../windows.web.ui/webviewcontrolsettings.md) object that contains properties to enable or disable IWebViewControl features.
 
 ## -property-value
-A [WebViewControlSettings](../window.web.ui/webviewcontrolsettings.md) object that contains properties to enable or disable IWebViewControl features.
+A [WebViewControlSettings](../windows.web.ui/webviewcontrolsettings.md) object that contains properties to enable or disable IWebViewControl features.
 
 ## -remarks
 
