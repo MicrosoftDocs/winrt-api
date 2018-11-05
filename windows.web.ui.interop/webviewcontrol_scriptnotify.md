@@ -12,7 +12,7 @@ public event TypedEventHandler ScriptNotify<IWebViewControl, WebViewControlScrip
 ## -description
 An event that is triggered when the content contained in the control passes a string to the app using JavaScript.
 
-For more info, see [Windows.Web.UI.IWebViewControl](../window.web.ui/iwebviewcontrol.md)
+For more info, see [Windows.Web.UI.IWebViewControl](../windows.web.ui/iwebviewcontrol.md)
 
 ## -remarks
 

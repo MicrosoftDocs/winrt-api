@@ -12,7 +12,7 @@ public IAsyncOperation<DataPackage> WebViewControl.CaptureSelectedContentToDataP
 ## -description
 Asynchronously gets a [DataPackage](../windows.applicationmodel.datatransfer/datapackage.md) that contains the selected content within the control.
 
-For more info, see [Windows.Web.UI.IWebViewControl](../window.web.ui/iwebviewcontrol.md)
+For more info, see [Windows.Web.UI.IWebViewControl](../windows.web.ui/iwebviewcontrol.md)
 
 ## -returns
 When this method completes, it returns the selected content as a [DataPackage](../windows.applicationmodel.datatransfer/datapackage.md).

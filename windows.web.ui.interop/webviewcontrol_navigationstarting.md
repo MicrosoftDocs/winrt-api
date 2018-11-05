@@ -12,7 +12,7 @@ public event TypedEventHandler NavigationStarting<IWebViewControl, WebViewContro
 ## -description
 An event that is triggered before the control navigates to new content.
 
-For more info, see [Windows.Web.UI.IWebViewControl](../window.web.ui/iwebviewcontrol.md)
+For more info, see [Windows.Web.UI.IWebViewControl](../windows.web.ui/iwebviewcontrol.md)
 
 ## -remarks
 

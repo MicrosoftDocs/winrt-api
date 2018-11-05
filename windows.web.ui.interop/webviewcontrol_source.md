@@ -12,7 +12,7 @@ public Uri Source { get;  set; }
 ## -description
 Gets or sets the URI source of the HTML content to display in the control.
 
-For more info, see [Windows.Web.UI.IWebViewControl](../window.web.ui/iwebviewcontrol.md)
+For more info, see [Windows.Web.UI.IWebViewControl](../windows.web.ui/iwebviewcontrol.md)
 
 ## -property-value
 The URI source of the HTML content to display in the control.

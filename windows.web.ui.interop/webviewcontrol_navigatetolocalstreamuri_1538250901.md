@@ -12,7 +12,7 @@ public void WebViewControl.NavigateToLocalStreamUri(Uri source, IUriToStreamReso
 ## -description
 Loads local web content at the specified URI using an [IUriToStreamResolver](../windows.web/iuritostreamresolver.md).
 
-For more info, see [Windows.Web.UI.IWebViewControl](../window.web.ui/iwebviewcontrol.md)
+For more info, see [Windows.Web.UI.IWebViewControl](../windows.web.ui/iwebviewcontrol.md)
 
 ## -parameters
 ### -param source

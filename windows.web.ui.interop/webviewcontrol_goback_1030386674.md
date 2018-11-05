@@ -12,7 +12,7 @@ public void WebViewControl.GoBack()
 ## -description
 Navigates the IWebViewControl to the previous page in the navigation history.
 
-For more info, see [Windows.Web.UI.IWebViewControl](../window.web.ui/iwebviewcontrol.md)
+For more info, see [Windows.Web.UI.IWebViewControl](../windows.web.ui/iwebviewcontrol.md)
 
 ## -remarks
 

@@ -12,7 +12,7 @@ public void WebViewControl.GetDeferredPermissionRequestById(UInt32 id, WebViewCo
 ## -description
 Returns the deferred permission request with the specified Id.
 
-For more info, see [Windows.Web.UI.IWebViewControl](../window.web.ui/iwebviewcontrol.md)
+For more info, see [Windows.Web.UI.IWebViewControl](../windows.web.ui/iwebviewcontrol.md)
 
 ## -parameters
 ### -param id

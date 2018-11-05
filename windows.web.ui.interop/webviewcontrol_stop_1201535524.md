@@ -12,7 +12,7 @@ public void WebViewControl.Stop()
 ## -description
 Halts the current control navigation or download.
 
-For more info, see [Windows.Web.UI.IWebViewControl](../window.web.ui/iwebviewcontrol.md)
+For more info, see [Windows.Web.UI.IWebViewControl](../windows.web.ui/iwebviewcontrol.md)
 
 ## -remarks
 

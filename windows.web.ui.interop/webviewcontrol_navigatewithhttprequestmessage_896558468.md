@@ -12,7 +12,7 @@ public void WebViewControl.NavigateWithHttpRequestMessage(HttpRequestMessage req
 ## -description
 Navigates the control to a URI with a POST request and HTTP headers.
 
-For more info, see [Windows.Web.UI.IWebViewControl](../window.web.ui/iwebviewcontrol.md)
+For more info, see [Windows.Web.UI.IWebViewControl](../windows.web.ui/iwebviewcontrol.md)
 
 ## -parameters
 ### -param requestMessage

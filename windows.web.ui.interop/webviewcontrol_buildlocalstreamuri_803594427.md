@@ -12,7 +12,7 @@ public Uri WebViewControl.BuildLocalStreamUri(String contentIdentifier, String r
 ## -description
 Creates a URI that you can pass to [NavigateToLocalStreamUri](../windows.web.ui/iwebviewcontrol_navigatetolocalstreamuri_1538250901.md)
 
-For more info, see [Windows.Web.UI.IWebViewControl](../window.web.ui/iwebviewcontrol.md)
+For more info, see [Windows.Web.UI.IWebViewControl](../windows.web.ui/iwebviewcontrol.md)
 
 ## -parameters
 ### -param contentIdentifier

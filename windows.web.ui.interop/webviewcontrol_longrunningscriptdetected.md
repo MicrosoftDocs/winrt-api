@@ -12,7 +12,7 @@ public event TypedEventHandler LongRunningScriptDetected<IWebViewControl, WebVie
 ## -description
 An event that is triggered periodically while the control executes JavaScript, letting you halt the script.
 
-For more info, see [Windows.Web.UI.IWebViewControl](../window.web.ui/iwebviewcontrol.md)
+For more info, see [Windows.Web.UI.IWebViewControl](../windows.web.ui/iwebviewcontrol.md)
 ## -remarks
 
 ## -see-also

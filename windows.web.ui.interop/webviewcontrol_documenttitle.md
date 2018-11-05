@@ -12,7 +12,7 @@ public string DocumentTitle { get; }
 ## -description
 Gets the title of the page currently displayed in the control.
 
-For more info, see [Windows.Web.UI.IWebViewControl](../window.web.ui/iwebviewcontrol.md)
+For more info, see [Windows.Web.UI.IWebViewControl](../windows.web.ui/iwebviewcontrol.md)
 
 ## -property-value
 The page title.

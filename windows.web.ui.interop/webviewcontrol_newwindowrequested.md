@@ -13,7 +13,7 @@ public event TypedEventHandler NewWindowRequested<IWebViewControl, WebViewContro
 ## -description
 An event that is triggered when a user performs an action in the control that causes content to be opened in a new window.
 
-For more info, see [Windows.Web.UI.IWebViewControl](../window.web.ui/iwebviewcontrol.md)
+For more info, see [Windows.Web.UI.IWebViewControl](../windows.web.ui/iwebviewcontrol.md)
 
 ## -remarks
 

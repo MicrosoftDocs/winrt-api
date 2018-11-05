@@ -12,7 +12,7 @@ public void WebViewControl.Refresh()
 ## -description
 Reloads the current content in the control.
 
-For more info, see [Windows.Web.UI.IWebViewControl](../window.web.ui/iwebviewcontrol.md)
+For more info, see [Windows.Web.UI.IWebViewControl](../windows.web.ui/iwebviewcontrol.md)
 
 ## -remarks
 
