@@ -84,7 +84,7 @@ The user has begun dragging an item.
 The user has stopped dragging an item.
 
 ### -field TransitionContent:23
-Large-scale content replacement is occuring.
+Large-scale content replacement is occurring.
 
 ### -field Reveal:24
 UI expands around a tapped or clicked target.
