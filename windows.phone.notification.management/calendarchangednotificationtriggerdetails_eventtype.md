@@ -13,7 +13,7 @@ public Windows.Phone.Notification.Management.CalendarChangedEvent EventType { ge
 Represents the type of event.
 
 ## -property-value
-The type of calender changed event.
+The type of calendar changed event.
 
 ## -remarks
 Calling this API requires that the **ID_CAP_SMS** and **ID_CAP_SMS_COMPANION** capabilities be specified in the application manifest.
