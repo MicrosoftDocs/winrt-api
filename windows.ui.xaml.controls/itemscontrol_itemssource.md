@@ -28,6 +28,11 @@ Gets or sets an object source used to generate the content of the [ItemsControl]
 The object that is used to generate the content of the [ItemsControl](itemscontrol.md). The default is null.
 
 ## -remarks
+The ItemsSource property value must implement either the IIterable<IInspectable> or IBindableIterable interface.  For example, in a C# application, it must implement IEnumerable<Object> or IEnumerable.  
+
+The ItemsControl can provide better performance if the ItemsSource property value also implements a random-access list interface:  IVector<IInspectable>, IVectorView<IInspectable>, IBindableVector, or IBindableVectorView.  In C#, this means IList<Object>, IReadOnlyCollection<Object>, or IList.
+
+The ItemsControl can respond to changes if the ItemsSource property value also implements a change notification interface:  IObservableVector<IInspectable> or INotifyCollectionChanged.
 
 ## -examples
 
