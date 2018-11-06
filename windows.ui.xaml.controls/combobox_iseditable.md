@@ -13,6 +13,12 @@ public bool IsEditable { get; }
 
 Gets or sets a value that indicates whether the user can edit text in the text box portion of the [ComboBox](combobox.md). See remarks. 
 
+## -xaml-syntax
+```xaml
+<ComboBox IsEditable="bool"/>
+
+```
+
 ## -property-value
 
 **true** if the user can edit text in the ComboBox, otherwise **false**. The default is **false**. See remarks.
