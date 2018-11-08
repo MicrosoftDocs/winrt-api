@@ -10,7 +10,7 @@ abstract public event TypedEventHandler WebResourceRequested<IWebViewControl, We
 # Windows.Web.UI.IWebViewControl.WebResourceRequested
 
 ## -description
-Allows the interception of an HTTP request. This event is triggered everytime an HTTP request is made.
+Allows the interception of an HTTP request. This event is triggered every time an HTTP request is made.
 
 ## -remarks
 When intercepting requests, custom responses can be made by setting the [Response](webviewcontrolwebresourcerequestedeventargs_response.md) property.
