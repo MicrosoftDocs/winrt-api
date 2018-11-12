@@ -10,7 +10,7 @@ public Windows.Foundation.Collections.IIterable<string> Keywords { get; }
 # Windows.ApplicationModel.Store.ProductListing.Keywords
 
 ## -description
-Gets the list of keywords associated with the add-on (also called an in-app product or IAP). These strings correspond to the value of the **Keywords** field in the properties page for the add-on in the Windows Dev Center dashboard. These keywords are useful for filtering product lists by keyword, for example, when calling [LoadListingInformationByKeywordsAsync](currentapp_loadlistinginformationbykeywordsasync_2044666377.md).
+Gets the list of keywords associated with the add-on (also called an in-app product or IAP). These strings correspond to the value of the **Keywords** field in the properties page for the add-on in [Partner Center](https://partner.microsoft.com/dashboard). These keywords are useful for filtering product lists by keyword, for example, when calling [LoadListingInformationByKeywordsAsync](currentapp_loadlistinginformationbykeywordsasync_2044666377.md).
 
 ## -property-value
 The keywords associated with the add-on.

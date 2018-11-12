@@ -24,7 +24,7 @@ You can use this method to free up disk space by uninstalling DLC packages that 
 
 When you call this method, the OS displays a dialog that asks the user's permission to uninstall the app package. To silently uninstall an app package without displaying a notification dialog, use [UninstallStorePackageAsync](storecontext_uninstallstorepackageasync_597217492.md) or [UninstallStorePackageByStoreIdAsync](storecontext_uninstallstorepackagebystoreidasync_262618884.md) (these methods require access to a restricted capability).
 
-The Store ID for a an add-on is available in the Windows Dev Center dashboard, and it also is returned by the [StoreId](storeproduct_storeid.md) property of the [StoreProduct](storeproduct.md) that represents the add-on. For more information, see [Store IDs](https://docs.microsoft.com/windows/uwp/monetize/in-app-purchases-and-trials#store-ids).
+The Store ID for a an add-on is available in [Partner Center](https://partner.microsoft.com/dashboard), and it also is returned by the [StoreId](storeproduct_storeid.md) property of the [StoreProduct](storeproduct.md) that represents the add-on. For more information, see [Store IDs](https://docs.microsoft.com/windows/uwp/monetize/in-app-purchases-and-trials#store-ids).
 
 > [!NOTE]
 > DLC packages are not available to all developer accounts.
