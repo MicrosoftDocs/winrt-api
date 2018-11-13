@@ -52,9 +52,9 @@ You can use a [Setter](setter.md) in a [Style](style.md) to apply values to any 
 
 When a [Style](style.md) is used to define a control template, the [TargetType](style_targettype.md) of the [Style](style.md) element and the [TargetType](../windows.ui.xaml.controls/controltemplate_targettype.md) of the [ControlTemplate](../windows.ui.xaml.controls/controltemplate.md) element for its [Control.Template](../windows.ui.xaml.controls/control_template.md) setter should always use the same value.
 
-The [Template](../windows.ui.xaml.controls/control_template.md) setter defines the basic template UI definition for a control instance where that template is applied. It also contains the visual states for a control, and other state-based UI definitions such as default theme transitions. For a complex control such as [ListBox](../windows.ui.xaml.controls/listbox.md), the default template [Style](style.md) and the [ControlTemplate](../windows.ui.xaml.controls/controltemplate.md) within can have hundreds of lines of XAML. For more info on the role of [Style](style.md) in control templating scenarios, see [Quickstart: Control templates](http://msdn.microsoft.com/library/67c424ae-afb1-4560-a6a8-4a3506775d77).
+The [Template](../windows.ui.xaml.controls/control_template.md) setter defines the basic template UI definition for a control instance where that template is applied. It also contains the visual states for a control, and other state-based UI definitions such as default theme transitions. For a complex control such as [ListBox](../windows.ui.xaml.controls/listbox.md), the default template [Style](style.md) and the [ControlTemplate](../windows.ui.xaml.controls/controltemplate.md) within can have hundreds of lines of XAML. For more info on the role of [Style](style.md) in control templating scenarios, see [XAML Control templates](/windows/uwp/design/controls-and-patterns/control-templates).
 
-The template for a control often includes visual states that change the appearance of the control in response to logical states. For example, a [Button](../windows.ui.xaml.controls/button.md) can have a different visual appearance when it's pressed by applying a new visual state from its template, and all appearance changes can come from XAML not code. For more info on how visual states work and how to modify them or define states for custom controls, see [Storyboarded animations for visual states](http://msdn.microsoft.com/library/5e715281-d247-4e7f-9f88-2af0d88ed5e4) and [Quickstart: Control templates](http://msdn.microsoft.com/library/67c424ae-afb1-4560-a6a8-4a3506775d77).
+The template for a control often includes visual states that change the appearance of the control in response to logical states. For example, a [Button](../windows.ui.xaml.controls/button.md) can have a different visual appearance when it's pressed by applying a new visual state from its template, and all appearance changes can come from XAML not code. For more info on how visual states work and how to modify them or define states for custom controls, see [Storyboarded animations for visual states](http://msdn.microsoft.com/library/5e715281-d247-4e7f-9f88-2af0d88ed5e4) and [XAML Control templates](/windows/uwp/design/controls-and-patterns/control-templates).
 
 ### Styles and runtime behavior
 
@@ -77,14 +77,14 @@ You can define styles such that a [Style](style.md) is used implicitly by all ob
 Using the [Style](style.md) class in code (for example calling a constructor and building up the [Setter](setter.md) values one by one) is very rare. Styles are used for templates, and templates should be available at XAML load time, so any [Style](style.md) created in code is usually available too late to be applied to controls in a UI.
 
 ## -examples
-This example creates two styles: one for a [TextBlock](../windows.ui.xaml.controls/textblock.md) and one for a [TextBox](../windows.ui.xaml.controls/textbox.md). Each style is applied to two instances of a control to create a uniform appearance for each [TextBlock](../windows.ui.xaml.controls/textblock.md) and [TextBox](../windows.ui.xaml.controls/textbox.md). The example sets the [FrameworkElement.Style](frameworkelement_style.md) property of each control by referencing the [Style](style.md) as a [{StaticResource} markup extension](http://msdn.microsoft.com/library/d50349b5-4588-4ebd-9458-75f629ccc395).
+This example creates two styles: one for a [TextBlock](../windows.ui.xaml.controls/textblock.md) and one for a [TextBox](../windows.ui.xaml.controls/textbox.md). Each style is applied to two instances of a control to create a uniform appearance for each [TextBlock](../windows.ui.xaml.controls/textblock.md) and [TextBox](../windows.ui.xaml.controls/textbox.md). The example sets the [FrameworkElement.Style](frameworkelement_style.md) property of each control by referencing the [Style](style.md) as a [{StaticResource} markup extension](http://msdn.microsoft.com/library/d50349b5-4588-4ebd-9458-75f629ccc395). The example also shows how to retrieve a style from a resource dictionary and apply it to a control in code.
 
 Each style has multiple [Setter](setter.md) parts. In this XAML, no `Style.Setters` XAML property element appears. That is the typical usage in XAML for this property. The `Style.Setters` value is implicit, because [Setters](style_setters.md) is the XAML content property for a [Style](style.md). For more info on XAML syntax and how the XAML content syntax makes it possible to imply and omit certain XAML elements, see [XAML syntax guide](http://msdn.microsoft.com/library/a57fe7b4-9947-4aa0-bc99-5fe4686b611d).
 
 Notice that in the style for the [TextBox](../windows.ui.xaml.controls/textbox.md), the [Margin](frameworkelement_margin.md) property is set to 4, which means that the [TextBox](../windows.ui.xaml.controls/textbox.md) has a margin of 4 on all sides. To compensate for the length of the second [TextBlock](../windows.ui.xaml.controls/textblock.md), which is shorter than the first [TextBlock](../windows.ui.xaml.controls/textblock.md) because **Last Name** takes less room than **First Name**, a value of "6,4,4,4" is assigned to the [Margin](frameworkelement_margin.md) property on the second [TextBox](../windows.ui.xaml.controls/textbox.md). This causes the second [TextBox](../windows.ui.xaml.controls/textbox.md) to have a different margin than what the style specifies, so that it aligns horizontally with the first [TextBox](../windows.ui.xaml.controls/textbox.md).
 
 ```xaml
-<StackPanel>
+<StackPanel x:Name="rootPanel">
   <StackPanel.Resources>
     <!--Create a Style for a TextBlock to specify that the
               Foreground equals Navy, FontSize equals 14, and
@@ -116,21 +116,34 @@ Notice that in the style for the [TextBox](../windows.ui.xaml.controls/textbox.m
   </StackPanel.Resources>
 
   <!--Apply the TextBlockStyle and TextBoxStyle to each 
-          TextBlock and TextBox, respectively.-->
+      TextBlock and TextBox, respectively.-->
   <StackPanel Orientation="Horizontal">
-    <TextBlock Style="{StaticResource TextBlockStyle}">
-              First Name:
-          </TextBlock>
+    <TextBlock Text="First Name:" Style="{StaticResource TextBlockStyle}"/>
     <TextBox Style="{StaticResource TextBoxStyle}"/>
   </StackPanel>
   <StackPanel Orientation="Horizontal">
-    <TextBlock Style="{StaticResource TextBlockStyle}">
-              Last Name:
-          </TextBlock>
+    <TextBlock Text="Last Name:" Style="{StaticResource TextBlockStyle}"/>
     <TextBox Style="{StaticResource TextBoxStyle}"
-                   Margin="6,4,4,4"/>
+             Margin="6,4,4,4"/>
   </StackPanel>
+  <StackPanel x:Name="emailAddressPanel" Orientation="Horizontal"/>
 </StackPanel>
+```
+
+```csharp
+private void ShowEmailAddressBox()
+{
+    TextBlock emailAddressLabel = new TextBlock();
+    emailAddressLabel.Text = "Email:";
+    emailAddressLabel.Style = (Style)rootPanel.Resources["TextBlockStyle"];
+
+    TextBox emailAddressBox = new TextBox();
+    emailAddressBox.Style = (Style)rootPanel.Resources["TextBoxStyle"];
+    emailAddressBox.Margin = new Thickness(38, 4, 4, 4);
+
+    emailAddressPanel.Children.Add(emailAddressLabel);
+    emailAddressPanel.Children.Add(emailAddressBox);
+}
 ```
 
 This example creates two style elements. The TargetType for the first style element is set to TextBox and the TargetType for the second style element is set to Button. These are then applied as the implicit style for a TextBox control and a Button control.
