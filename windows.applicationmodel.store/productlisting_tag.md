@@ -10,7 +10,7 @@ public string Tag { get; }
 # Windows.ApplicationModel.Store.ProductListing.Tag
 
 ## -description
-Gets the custom developer data string (also called a tag) that contains custom information about an add-on (also called an in-app product or IAP). This string corresponds to the value of the **Custom developer data** field in the properties page for the add-on in the Windows Dev Center dashboard.
+Gets the custom developer data string (also called a tag) that contains custom information about an add-on (also called an in-app product or IAP). This string corresponds to the value of the **Custom developer data** field in the properties page for the add-on in [Partner Center](https://partner.microsoft.com/dashboard).
 
 ## -property-value
 The custom developer data for the add-on.

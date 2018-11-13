@@ -30,7 +30,7 @@ If the **ErrorCode** property of the exception has the value 0x80070578 (ERROR_I
 ## -remarks
 For more information about using this method, including a code example, see [Enable in-app purchases of apps and add-ons](https://msdn.microsoft.com/windows/uwp/monetize/enable-in-app-purchases-of-apps-and-add-ons).
 
-The Store ID for an app or add-on is available in the Windows Dev Center dashboard, and it is returned by the [StoreId](storeproduct_storeid.md) property of the [StoreProduct](storeproduct.md) that represents the app or add-on.
+The Store ID for an app or add-on is available in [Partner Center](https://partner.microsoft.com/dashboard), and it is returned by the [StoreId](storeproduct_storeid.md) property of the [StoreProduct](storeproduct.md) that represents the app or add-on.
 
 ## -examples
 
