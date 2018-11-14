@@ -10,7 +10,7 @@ public IAsyncOperation<PushNotificationChannel> PushNotificationChannelManagerFo
 # Windows.Networking.PushNotifications.PushNotificationChannelManagerForUser.CreateRawPushNotificationChannelWithAlternateKeyForApplicationAsync
 
 ## -description
-Creates an object bound to a specified app through which you retrieve a push notificaiton channel from Windows Push Notification Services (WNS). The specified app must be in the same package as the calling app.
+Creates an object bound to a specified app through which you retrieve a push notification channel from Windows Push Notification Services (WNS). The specified app must be in the same package as the calling app.
 
 ## -parameters
 
