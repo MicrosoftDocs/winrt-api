@@ -25,8 +25,8 @@ Calling this API requires that the **ID_CAP_SMS** and **ID_CAP_SMS_COMPANION** c
 ## -examples
 Determine the actual type of the notification. It is not necessary to support all types but the sample below assumes the accessory is interested in everything.
 
-```
-MyBackgroundTask.cs
+```csharp
+// MyBackgroundTask.cs
 
        public async void Run(IBackgroundTaskInstance taskInstance)
         {
@@ -34,7 +34,7 @@ MyBackgroundTask.cs
             INotificationTriggerDetails notificationTriggerDetails = 
              AccessoryManager.NextTriggerDetails();
             while (notificationTriggerDetails != null) 
-// get rid of while loop in case you would like to process one notificaiton at a time. 
+// get rid of while loop in case you would like to process one notification at a time. 
 //  You have to use ProcessingTriggerDetailsCompleted to indicate that you are done with this instance of the trigger
             {
                 switch (notificationTriggerDetails.NotificationType)
@@ -71,7 +71,7 @@ MyBackgroundTask.cs
 //string response = listResponses[0].Content;
                                 
 // AccessoryManager.RejectPhoneCall(phoneCall.CallDetails.CallId, listResponses[0].Id);
-// Rejct Call
+// Reject Call
 // AccessoryManager.RejectPhoneCall(phoneCall.CallDetails.CallId);
                                 break;
 
