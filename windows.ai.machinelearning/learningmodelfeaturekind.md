@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.AI.MachineLearning.LearningModelFeatureKind
 -api-type: winrt enum
+ms.custom: RS5
 ---
 
 <!-- Enumeration syntax.

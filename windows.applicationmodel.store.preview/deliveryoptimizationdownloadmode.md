@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.ApplicationModel.Store.Preview.DeliveryOptimizationDownloadMode
 -api-type: winrt enum
+ms.custom: RS5
 ---
 
 <!-- Enumeration syntax.

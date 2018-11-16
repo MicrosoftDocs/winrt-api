@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.Media.Control.GlobalSystemMediaTransportControlsSessionMediaProperties
 -api-type: winrt class
+ms.custom: RS5
 ---
 
 <!-- Class syntax.

@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.Xaml.Media.Animation.BasicConnectedAnimationConfiguration.#ctor
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

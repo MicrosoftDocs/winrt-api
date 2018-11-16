@@ -2,6 +2,7 @@
 -api-id: M:Windows.ApplicationModel.Chat.ChatCapabilitiesManager.GetCachedCapabilitiesAsync(System.String)
 -api-type: winrt method
 -api-device-family-note: xbox
+ms.custom: RS5
 ---
 
 <!-- Method syntax

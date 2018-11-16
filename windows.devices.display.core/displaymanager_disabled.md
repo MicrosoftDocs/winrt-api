@@ -1,6 +1,7 @@
 ---
 -api-id: E:Windows.Devices.Display.Core.DisplayManager.Disabled
 -api-type: winrt event
+ms.custom: RS5
 ---
 
 <!-- Event syntax.

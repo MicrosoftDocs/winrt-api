@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.ApplicationModel.DataTransfer.Clipboard.ClearHistory
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

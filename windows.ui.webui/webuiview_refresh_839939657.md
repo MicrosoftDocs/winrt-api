@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.WebUI.WebUIView.Refresh
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Media.Audio.SpatialAudioDeviceConfiguration.SetDefaultSpatialAudioFormatAsync(System.String)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Graphics.Capture.GraphicsCaptureItem.CreateFromVisual(Windows.UI.Composition.Visual)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

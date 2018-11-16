@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.System.Launcher.LaunchFolderPathForUserAsync(Windows.System.User,System.String,Windows.System.FolderLauncherOptions)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.Display.Core.DisplayTask.SetWait(Windows.Devices.Display.Core.DisplayFence,System.UInt64)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

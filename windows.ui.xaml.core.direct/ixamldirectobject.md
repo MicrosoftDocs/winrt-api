@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.UI.Xaml.Core.Direct.IXamlDirectObject
 -api-type: winrt interface
+ms.custom: RS5
 ---
 
 <!-- Interface syntax.

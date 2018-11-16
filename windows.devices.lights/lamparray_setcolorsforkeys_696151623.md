@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.Lights.LampArray.SetColorsForKeys(Windows.UI.Color[],Windows.System.VirtualKey[])
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

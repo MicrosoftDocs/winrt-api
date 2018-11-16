@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.PointOfService.Provider.BarcodeScannerProviderConnection.CreateFrameReaderAsync(Windows.Graphics.Imaging.BitmapPixelFormat,Windows.Graphics.Imaging.BitmapSize)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

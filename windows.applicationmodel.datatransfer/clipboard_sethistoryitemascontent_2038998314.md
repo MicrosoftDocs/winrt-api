@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.ApplicationModel.DataTransfer.Clipboard.SetHistoryItemAsContent(Windows.ApplicationModel.DataTransfer.ClipboardHistoryItem)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

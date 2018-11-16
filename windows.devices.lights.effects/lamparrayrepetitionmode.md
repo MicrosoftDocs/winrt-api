@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.Devices.Lights.Effects.LampArrayRepetitionMode
 -api-type: winrt enum
+ms.custom: RS5
 ---
 
 <!-- Enumeration syntax.

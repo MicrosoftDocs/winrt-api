@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Perception.Spatial.SpatialLocation.AbsoluteAngularAccelerationAxisAngle
 -api-type: winrt property
+ms.custom: RS5
 ---
 
 <!-- Property syntax.

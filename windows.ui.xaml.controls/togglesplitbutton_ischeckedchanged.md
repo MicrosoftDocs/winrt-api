@@ -1,6 +1,7 @@
 ---
 -api-id: E:Windows.UI.Xaml.Controls.ToggleSplitButton.IsCheckedChanged
 -api-type: winrt event
+ms.custom: RS5
 ---
 
 <!-- Event syntax.

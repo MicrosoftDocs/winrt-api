@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.Display.Core.DisplayTarget.IsEqual(Windows.Devices.Display.Core.DisplayTarget)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

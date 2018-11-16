@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.Xaml.Core.Direct.XamlDirect.GetXamlDirectObjectFromCollectionAt(Windows.UI.Xaml.Core.Direct.IXamlDirectObject,System.UInt32)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

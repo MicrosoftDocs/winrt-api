@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.UI.Xaml.Media.Animation.GravityConnectedAnimationConfiguration
 -api-type: winrt class
+ms.custom: RS5
 ---
 
 <!-- Class syntax.

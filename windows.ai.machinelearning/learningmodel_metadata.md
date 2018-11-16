@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.AI.MachineLearning.LearningModel.Metadata
 -api-type: winrt property
+ms.custom: RS5
 ---
 
 <!-- Property syntax.

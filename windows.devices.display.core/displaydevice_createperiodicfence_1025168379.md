@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.Display.Core.DisplayDevice.CreatePeriodicFence(Windows.Devices.Display.Core.DisplayTarget,Windows.Foundation.TimeSpan)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

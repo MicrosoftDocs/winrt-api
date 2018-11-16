@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Graphics.Capture.Direct3D11CaptureFramePool.CreateFreeThreaded(Windows.Graphics.DirectX.Direct3D11.IDirect3DDevice,Windows.Graphics.DirectX.DirectXPixelFormat,System.Int32,Windows.Graphics.SizeInt32)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

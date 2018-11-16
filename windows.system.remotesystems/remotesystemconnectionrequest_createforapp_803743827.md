@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.System.RemoteSystems.RemoteSystemConnectionRequest.CreateForApp(Windows.System.RemoteSystems.RemoteSystemApp)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

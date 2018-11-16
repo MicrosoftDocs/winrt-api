@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.UI.Xaml.Media.Animation.SlideNavigationTransitionInfo.EffectProperty
 -api-type: winrt property
+ms.custom: RS5
 ---
 
 <!-- Property syntax.

@@ -1,6 +1,7 @@
 ---
 -api-id: E:Windows.Media.Control.GlobalSystemMediaTransportControlsSession.PlaybackInfoChanged
 -api-type: winrt event
+ms.custom: RS5
 ---
 
 <!-- Event syntax.

@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.AI.MachineLearning.TensorFloat.TensorKind
 -api-type: winrt property
+ms.custom: RS5
 ---
 
 <!-- Property syntax.

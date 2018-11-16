@@ -1,6 +1,7 @@
 ---
 -api-id: N:Windows.AI.MachineLearning
 -api-type: winrt namespace
+ms.custom: RS5
 ---
 
 <!-- Namespace syntax.

@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.System.AppUriHandlerRegistration.User
 -api-type: winrt property
+ms.custom: RS5
 ---
 
 <!-- Property syntax.

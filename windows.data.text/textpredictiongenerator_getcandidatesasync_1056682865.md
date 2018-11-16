@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Data.Text.TextPredictionGenerator.GetCandidatesAsync(System.String,System.UInt32,Windows.Data.Text.TextPredictionOptions,Windows.Foundation.Collections.IIterable{System.String})
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.ApplicationModel.DataTransfer.Clipboard.SetContentWithOptions(Windows.ApplicationModel.DataTransfer.DataPackage,Windows.ApplicationModel.DataTransfer.ClipboardContentOptions)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

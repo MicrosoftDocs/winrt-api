@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Perception.Spatial.SpatialAnchorExporter.RequestAccessAsync
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

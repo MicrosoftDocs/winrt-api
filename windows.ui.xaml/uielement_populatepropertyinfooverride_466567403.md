@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.Xaml.UIElement.PopulatePropertyInfoOverride(System.String,Windows.UI.Composition.AnimationPropertyInfo)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

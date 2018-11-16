@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Devices.Display.Core.DisplayPrimaryDescription.Height
 -api-type: winrt property
+ms.custom: RS5
 ---
 
 <!-- Property syntax.

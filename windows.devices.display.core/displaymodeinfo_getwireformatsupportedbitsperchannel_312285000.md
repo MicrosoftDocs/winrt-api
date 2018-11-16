@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.Display.Core.DisplayModeInfo.GetWireFormatSupportedBitsPerChannel(Windows.Devices.Display.Core.DisplayWireFormatPixelEncoding)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

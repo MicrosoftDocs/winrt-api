@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.System.RemoteSystems.RemoteSystemConnectionInfo.TryCreateFromAppServiceConnection(Windows.ApplicationModel.AppService.AppServiceConnection)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

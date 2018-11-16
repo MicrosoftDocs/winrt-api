@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.Xaml.Input.StandardUICommand.#ctor(Windows.UI.Xaml.Input.StandardUICommandKind)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

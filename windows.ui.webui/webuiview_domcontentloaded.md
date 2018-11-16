@@ -1,6 +1,7 @@
 ---
 -api-id: E:Windows.UI.WebUI.WebUIView.DOMContentLoaded
 -api-type: winrt event
+ms.custom: RS5
 ---
 
 <!-- Event syntax.

@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.Composition.Compositor.CreateRedirectVisual(Windows.UI.Composition.Visual)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

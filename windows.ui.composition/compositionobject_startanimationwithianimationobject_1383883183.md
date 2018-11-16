@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.Composition.CompositionObject.StartAnimationWithIAnimationObject(Windows.UI.Composition.IAnimationObject,System.String,Windows.UI.Composition.CompositionAnimation)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

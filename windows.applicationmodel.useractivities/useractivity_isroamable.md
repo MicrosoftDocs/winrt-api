@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.ApplicationModel.UserActivities.UserActivity.IsRoamable
 -api-type: winrt property
+ms.custom: RS5
 ---
 
 <!-- Property syntax.

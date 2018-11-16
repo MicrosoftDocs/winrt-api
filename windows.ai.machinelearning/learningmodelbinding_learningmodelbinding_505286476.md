@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.AI.MachineLearning.LearningModelBinding.#ctor(Windows.AI.MachineLearning.LearningModelSession)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

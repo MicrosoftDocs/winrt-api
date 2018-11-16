@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.ApplicationModel.Store.Preview.StoreConfiguration.PinToDesktop(System.String)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

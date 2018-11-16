@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.Xaml.Core.Direct.XamlDirect.SetObjectProperty(Windows.UI.Xaml.Core.Direct.IXamlDirectObject,Windows.UI.Xaml.Core.Direct.XamlPropertyIndex,System.Object)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

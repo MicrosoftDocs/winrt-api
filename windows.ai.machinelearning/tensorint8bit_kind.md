@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.AI.MachineLearning.TensorInt8Bit.Kind
 -api-type: winrt property
+ms.custom: RS5
 ---
 
 <!-- Property syntax.

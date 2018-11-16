@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Media.Control.GlobalSystemMediaTransportControlsSessionManager.GetCurrentSession
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

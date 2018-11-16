@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Graphics.Display.Core.HdmiDisplayMode.IsDolbyVisionLowLatencySupported
 -api-type: winrt property
+ms.custom: RS5
 ---
 
 <!-- Property syntax.

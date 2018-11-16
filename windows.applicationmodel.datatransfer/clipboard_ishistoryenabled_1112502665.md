@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.ApplicationModel.DataTransfer.Clipboard.IsHistoryEnabled
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Web.UI.IWebViewControl2.AddInitializeScript(System.String)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

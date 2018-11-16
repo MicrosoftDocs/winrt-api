@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.SmartCards.SmartCardAppletIdGroupRegistration.SetPropertiesAsync(Windows.Foundation.Collections.ValueSet)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.UI.Input.Inking.Preview.PalmRejectionDelayZonePreview
 -api-type: winrt class
+ms.custom: RS5
 ---
 
 <!-- Class syntax.

@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Media.Devices.Core.CameraIntrinsics.#ctor(Windows.Foundation.Numerics.Vector2,Windows.Foundation.Numerics.Vector2,Windows.Foundation.Numerics.Vector3,Windows.Foundation.Numerics.Vector2,System.UInt32,System.UInt32)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

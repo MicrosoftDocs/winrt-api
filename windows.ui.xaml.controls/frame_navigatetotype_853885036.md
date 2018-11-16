@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.Xaml.Controls.Frame.NavigateToType(Windows.UI.Xaml.Interop.TypeName,System.Object,Windows.UI.Xaml.Navigation.FrameNavigationOptions)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

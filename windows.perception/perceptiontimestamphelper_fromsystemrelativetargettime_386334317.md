@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Perception.PerceptionTimestampHelper.FromSystemRelativeTargetTime(Windows.Foundation.TimeSpan)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

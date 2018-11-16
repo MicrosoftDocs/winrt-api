@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.UI.WebUI.BackgroundActivatedEventHandler
 -api-type: winrt delegate
+ms.custom: RS5
 ---
 
 <!-- Delegate syntax.

@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.AI.MachineLearning.ILearningModelFeatureValue
 -api-type: winrt interface
+ms.custom: RS5
 ---
 
 <!-- Interface syntax.

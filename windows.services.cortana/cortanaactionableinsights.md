@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.Services.Cortana.CortanaActionableInsights
 -api-type: winrt class
+ms.custom: RS5
 ---
 
 <!-- Class syntax.

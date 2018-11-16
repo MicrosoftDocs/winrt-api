@@ -1,6 +1,7 @@
 ---
 -api-id: E:Windows.UI.Xaml.Input.FocusManager.GotFocus
 -api-type: winrt event
+ms.custom: RS5
 ---
 
 <!-- Event syntax.

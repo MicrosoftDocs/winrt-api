@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.Xaml.Input.XamlUICommand.CanExecute(System.Object)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

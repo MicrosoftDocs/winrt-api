@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Services.Cortana.CortanaActionableInsights.ShowInsightsForImageAsync(Windows.Storage.Streams.IRandomAccessStreamReference,Windows.Services.Cortana.CortanaActionableInsightsOptions)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.System.Update.SystemUpdateManager.UserActiveHoursStart
 -api-type: winrt property
+ms.custom: RS5
 ---
 
 <!-- Property syntax.

@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.Xaml.Automation.AutomationProperties.GetIsDialog(Windows.UI.Xaml.DependencyObject)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

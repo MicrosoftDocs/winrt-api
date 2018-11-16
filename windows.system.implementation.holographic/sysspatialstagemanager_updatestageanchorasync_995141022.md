@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.System.Implementation.Holographic.SysSpatialStageManager.UpdateStageAnchorAsync(Windows.Perception.Spatial.SpatialStageFrameOfReference,Windows.Perception.Spatial.SpatialAnchor)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

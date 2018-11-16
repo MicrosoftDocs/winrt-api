@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.Lights.Effects.LampArrayBitmapRequestedEventArgs.UpdateBitmap(Windows.Graphics.Imaging.SoftwareBitmap)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

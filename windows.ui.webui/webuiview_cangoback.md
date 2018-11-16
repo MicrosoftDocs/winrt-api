@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.UI.WebUI.WebUIView.CanGoBack
 -api-type: winrt property
+ms.custom: RS5
 ---
 
 <!-- Property syntax.

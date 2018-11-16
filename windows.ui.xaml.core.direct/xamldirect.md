@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.UI.Xaml.Core.Direct.XamlDirect
 -api-type: winrt class
+ms.custom: RS5
 ---
 
 <!-- Class syntax.

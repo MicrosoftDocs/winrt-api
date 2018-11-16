@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.System.Profile.SystemManufacturers.SystemSupportDeviceInfo
 -api-type: winrt class
+ms.custom: RS5
 ---
 
 <!-- Class syntax.
