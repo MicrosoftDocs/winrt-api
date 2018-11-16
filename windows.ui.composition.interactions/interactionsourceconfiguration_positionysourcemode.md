@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.UI.Composition.Interactions.InteractionSourceConfiguration.PositionYSourceMode
 -api-type: winrt property
+ms.custom: RS5
 ---
 
 <!-- Property syntax.

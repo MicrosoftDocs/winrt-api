@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.Xaml.Automation.Peers.AppBarButtonAutomationPeer.Collapse
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

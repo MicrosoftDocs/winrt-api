@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.Devices.Display.Core.DisplayPresentationRate
 -api-type: winrt struct
+ms.custom: RS5
 ---
 
 <!-- Structure syntax.

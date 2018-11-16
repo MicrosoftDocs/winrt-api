@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.AI.MachineLearning.ImageFeatureDescriptor.BitmapAlphaMode
 -api-type: winrt property
+ms.custom: RS5
 ---
 
 <!-- Property syntax.

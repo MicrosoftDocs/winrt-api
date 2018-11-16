@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.Graphics.Holographic.HolographicQuadLayerUpdateParameters
 -api-type: winrt class
+ms.custom: RS5
 ---
 
 <!-- Class syntax.

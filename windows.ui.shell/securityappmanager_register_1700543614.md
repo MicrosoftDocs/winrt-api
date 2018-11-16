@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.Shell.SecurityAppManager.Register(Windows.UI.Shell.SecurityAppKind,System.String,Windows.Foundation.Uri,System.Boolean)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

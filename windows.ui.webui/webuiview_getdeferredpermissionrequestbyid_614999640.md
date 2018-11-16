@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.WebUI.WebUIView.GetDeferredPermissionRequestById(System.UInt32,Windows.Web.UI.WebViewControlDeferredPermissionRequest@)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

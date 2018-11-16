@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.System.Preview.TwoPanelHingedDevicePosturePreviewReading.Panel1Orientation
 -api-type: winrt property
+ms.custom: RS5
 ---
 
 <!-- Property syntax.

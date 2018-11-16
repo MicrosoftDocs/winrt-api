@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Devices.Lights.LampInfo.GreenLevelCount
 -api-type: winrt property
+ms.custom: RS5
 ---
 
 <!-- Property syntax.

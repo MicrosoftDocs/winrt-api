@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Perception.Spatial.SpatialAnchorExportSufficiency.IsMinimallySufficient
 -api-type: winrt property
+ms.custom: RS5
 ---
 
 <!-- Property syntax.

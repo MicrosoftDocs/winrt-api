@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Perception.PerceptionTimestamp.SystemRelativeTargetTime
 -api-type: winrt property
+ms.custom: RS5
 ---
 
 <!-- Property syntax.

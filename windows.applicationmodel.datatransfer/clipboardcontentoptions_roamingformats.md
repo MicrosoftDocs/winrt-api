@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.ApplicationModel.DataTransfer.ClipboardContentOptions.RoamingFormats
 -api-type: winrt property
+ms.custom: RS5
 ---
 
 <!-- Property syntax.

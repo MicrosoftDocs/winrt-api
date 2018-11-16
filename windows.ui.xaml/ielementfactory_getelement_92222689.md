@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.Xaml.IElementFactory.GetElement(Windows.UI.Xaml.ElementFactoryGetArgs)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

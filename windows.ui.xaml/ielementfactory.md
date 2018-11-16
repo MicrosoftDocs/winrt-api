@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.UI.Xaml.IElementFactory
 -api-type: winrt interface
+ms.custom: RS5
 ---
 
 <!-- Interface syntax.

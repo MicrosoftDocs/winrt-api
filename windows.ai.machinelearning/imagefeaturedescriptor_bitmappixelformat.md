@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.AI.MachineLearning.ImageFeatureDescriptor.BitmapPixelFormat
 -api-type: winrt property
+ms.custom: RS5
 ---
 
 <!-- Property syntax.

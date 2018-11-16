@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.System.Implementation.Holographic.SysSpatialStageManager.SetBoundaryEnabled(Windows.Perception.Spatial.SpatialStageFrameOfReference,System.Boolean)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.Composition.CompositionAnimation.SetExpressionReferenceParameter(System.String,Windows.UI.Composition.IAnimationObject)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Management.Deployment.PackageManager.DeprovisionPackageForAllUsersAsync(System.String)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

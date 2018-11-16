@@ -1,6 +1,7 @@
 ---
 -api-id: N:Windows.UI.Xaml.Hosting
 -api-type: winrt namespace
+ms.custom: RS5
 ---
 
 # Windows.UI.Xaml.Hosting

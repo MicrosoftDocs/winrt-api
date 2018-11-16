@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.UI.Xaml.Controls.IScrollAnchorProvider.CurrentAnchor
 -api-type: winrt property
+ms.custom: RS5
 ---
 
 <!-- Property syntax.

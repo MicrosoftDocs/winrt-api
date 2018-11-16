@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Media.Core.MediaStreamSample.CreateFromDirect3D11Surface(Windows.Graphics.DirectX.Direct3D11.IDirect3DSurface,Windows.Foundation.TimeSpan)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

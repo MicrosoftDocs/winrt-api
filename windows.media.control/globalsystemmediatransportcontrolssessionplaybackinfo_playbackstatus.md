@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Media.Control.GlobalSystemMediaTransportControlsSessionPlaybackInfo.PlaybackStatus
 -api-type: winrt property
+ms.custom: RS5
 ---
 
 <!-- Property syntax.

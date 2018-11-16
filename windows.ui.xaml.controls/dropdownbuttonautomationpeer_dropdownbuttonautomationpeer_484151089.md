@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.Xaml.Controls.DropDownButtonAutomationPeer.#ctor(Windows.UI.Xaml.Controls.DropDownButton)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

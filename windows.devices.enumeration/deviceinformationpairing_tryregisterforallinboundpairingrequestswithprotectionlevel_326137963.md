@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.Enumeration.DeviceInformationPairing.TryRegisterForAllInboundPairingRequestsWithProtectionLevel(Windows.Devices.Enumeration.DevicePairingKinds,Windows.Devices.Enumeration.DevicePairingProtectionLevel)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.ApplicationModel.Store.Preview.InstallControl.AppInstallOptions.CompletedInstallToastNotificationMode
 -api-type: winrt property
+ms.custom: RS5
 ---
 
 <!-- Property syntax.

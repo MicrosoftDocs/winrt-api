@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.Display.Core.DisplayPath.ApplyPropertiesFromMode(Windows.Devices.Display.Core.DisplayModeInfo)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

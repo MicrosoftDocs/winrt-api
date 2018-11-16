@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.Input.Inking.Preview.PalmRejectionDelayZonePreview.CreateForVisual(Windows.UI.Composition.Visual,Windows.Foundation.Rect,Windows.UI.Composition.Visual,Windows.Foundation.Rect)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

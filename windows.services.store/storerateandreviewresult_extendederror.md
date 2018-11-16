@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Services.Store.StoreRateAndReviewResult.ExtendedError
 -api-type: winrt property
+ms.custom: RS5
 ---
 
 <!-- Property syntax.

@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Services.Store.StoreContext.RequestRateAndReviewAppAsync
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

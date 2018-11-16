@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.Display.Core.DisplayState.TryApply(Windows.Devices.Display.Core.DisplayStateApplyOptions)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

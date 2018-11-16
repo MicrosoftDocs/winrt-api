@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.UI.Notifications.ScheduledToastNotificationShowingEventArgs.Cancel
 -api-type: winrt property
+ms.custom: RS5
 ---
 
 <!-- Property syntax.

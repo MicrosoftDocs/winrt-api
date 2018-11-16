@@ -1,6 +1,7 @@
 ---
 -api-id: E:Windows.ApplicationModel.DataTransfer.Clipboard.RoamingEnabledChanged
 -api-type: winrt event
+ms.custom: RS5
 ---
 
 <!-- Event syntax.

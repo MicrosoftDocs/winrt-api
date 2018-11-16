@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.System.Implementation.Holographic.SysSpatialInputDevice.HasPositionalTracking
 -api-type: winrt property
+ms.custom: RS5
 ---
 
 <!-- Property syntax.

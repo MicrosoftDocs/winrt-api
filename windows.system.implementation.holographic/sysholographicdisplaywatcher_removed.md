@@ -1,6 +1,7 @@
 ---
 -api-id: E:Windows.System.Implementation.Holographic.SysHolographicDisplayWatcher.Removed
 -api-type: winrt event
+ms.custom: RS5
 ---
 
 <!-- Event syntax.

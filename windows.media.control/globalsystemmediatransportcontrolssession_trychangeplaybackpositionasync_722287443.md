@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Media.Control.GlobalSystemMediaTransportControlsSession.TryChangePlaybackPositionAsync(System.Int64)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

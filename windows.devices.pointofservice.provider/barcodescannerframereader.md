@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.Devices.PointOfService.Provider.BarcodeScannerFrameReader
 -api-type: winrt class
+ms.custom: RS5
 ---
 
 <!-- Class syntax.

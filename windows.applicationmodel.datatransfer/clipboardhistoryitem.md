@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.ApplicationModel.DataTransfer.ClipboardHistoryItem
 -api-type: winrt class
+ms.custom: RS5
 ---
 
 <!-- Class syntax.

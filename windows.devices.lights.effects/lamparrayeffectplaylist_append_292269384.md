@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.Lights.Effects.LampArrayEffectPlaylist.Append(Windows.Devices.Lights.Effects.ILampArrayEffect)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

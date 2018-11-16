@@ -1,6 +1,7 @@
 ---
 -api-id: E:Windows.Media.Audio.SpatialAudioDeviceConfiguration.ConfigurationChanged
 -api-type: winrt event
+ms.custom: RS5
 ---
 
 <!-- Event syntax.

@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.Xaml.Controls.SplitButtonAutomationPeer.#ctor(Windows.UI.Xaml.Controls.SplitButton)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

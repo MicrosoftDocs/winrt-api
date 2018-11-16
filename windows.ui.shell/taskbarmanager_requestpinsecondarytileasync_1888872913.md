@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.Shell.TaskbarManager.RequestPinSecondaryTileAsync(Windows.UI.StartScreen.SecondaryTile)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

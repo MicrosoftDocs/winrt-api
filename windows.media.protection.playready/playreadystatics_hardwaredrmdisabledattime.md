@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Media.Protection.PlayReady.PlayReadyStatics.HardwareDRMDisabledAtTime
 -api-type: winrt property
+ms.custom: RS5
 ---
 
 <!-- Property syntax.

@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Media.Core.MediaStreamSample.Direct3D11Surface
 -api-type: winrt property
+ms.custom: RS5
 ---
 
 <!-- Property syntax.

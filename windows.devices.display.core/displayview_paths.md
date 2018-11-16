@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Devices.Display.Core.DisplayView.Paths
 -api-type: winrt property
+ms.custom: RS5
 ---
 
 <!-- Property syntax.

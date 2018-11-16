@@ -1,6 +1,7 @@
 ---
 -api-id: E:Windows.Devices.PointOfService.ClaimedBarcodeScanner.Closed
 -api-type: winrt event
+ms.custom: RS5
 ---
 
 <!-- Event syntax.

@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.Xaml.Core.Direct.XamlDirect.SetDurationProperty(Windows.UI.Xaml.Core.Direct.IXamlDirectObject,Windows.UI.Xaml.Core.Direct.XamlPropertyIndex,Windows.UI.Xaml.Duration)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

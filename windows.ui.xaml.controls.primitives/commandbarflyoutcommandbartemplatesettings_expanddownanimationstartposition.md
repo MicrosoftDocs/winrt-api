@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.UI.Xaml.Controls.Primitives.CommandBarFlyoutCommandBarTemplateSettings.ExpandDownAnimationStartPosition
 -api-type: winrt property
+ms.custom: RS5
 ---
 
 <!-- Property syntax.

@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.UI.Input.Inking.HandwritingLineHeight
 -api-type: winrt enum
+ms.custom: RS5
 ---
 
 <!-- Enumeration syntax.

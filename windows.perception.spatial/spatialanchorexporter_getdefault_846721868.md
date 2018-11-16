@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Perception.Spatial.SpatialAnchorExporter.GetDefault
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

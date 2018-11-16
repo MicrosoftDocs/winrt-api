@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.Media.Audio.MixedRealitySpatialAudioFormatPolicy
 -api-type: winrt enum
+ms.custom: RS5
 ---
 
 <!-- Enumeration syntax.

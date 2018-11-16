@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.UI.Xaml.Controls.PasswordBox.SelectionFlyoutProperty
 -api-type: winrt property
+ms.custom: RS5
 ---
 
 <!-- Property syntax.

@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.Xaml.Controls.ScrollViewer.SetCanContentRenderOutsideBounds(Windows.UI.Xaml.DependencyObject,System.Boolean)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

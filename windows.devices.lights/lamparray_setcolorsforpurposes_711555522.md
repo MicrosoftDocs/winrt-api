@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.Lights.LampArray.SetColorsForPurposes(Windows.UI.Color,Windows.Devices.Lights.LampPurposes)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

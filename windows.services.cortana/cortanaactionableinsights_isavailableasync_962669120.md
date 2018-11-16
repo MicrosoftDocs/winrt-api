@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Services.Cortana.CortanaActionableInsights.IsAvailableAsync
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

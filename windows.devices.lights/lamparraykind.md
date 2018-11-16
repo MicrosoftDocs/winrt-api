@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.Devices.Lights.LampArrayKind
 -api-type: winrt enum
+ms.custom: RS5
 ---
 
 <!-- Enumeration syntax.

@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Networking.Connectivity.ConnectionProfile.TryDeleteAsync
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

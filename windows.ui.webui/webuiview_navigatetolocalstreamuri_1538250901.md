@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.WebUI.WebUIView.NavigateToLocalStreamUri(Windows.Foundation.Uri,Windows.Web.IUriToStreamResolver)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.WebUI.WebUIView.InvokeScriptAsync(System.String,Windows.Foundation.Collections.IIterable{System.String})
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

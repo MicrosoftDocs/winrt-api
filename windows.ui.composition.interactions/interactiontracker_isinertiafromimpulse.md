@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.UI.Composition.Interactions.InteractionTracker.IsInertiaFromImpulse
 -api-type: winrt property
+ms.custom: RS5
 ---
 
 <!-- Property syntax.

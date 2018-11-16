@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.UI.WebUI.WebUIView.Settings
 -api-type: winrt property
+ms.custom: RS5
 ---
 
 <!-- Property syntax.

@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.Lights.Effects.LampArrayEffectPlaylist.OverrideZIndex(System.Int32)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

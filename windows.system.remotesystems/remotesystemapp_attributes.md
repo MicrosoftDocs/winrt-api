@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.System.RemoteSystems.RemoteSystemApp.Attributes
 -api-type: winrt property
+ms.custom: RS5
 ---
 
 <!-- Property syntax.

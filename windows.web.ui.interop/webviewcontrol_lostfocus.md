@@ -1,6 +1,7 @@
 ---
 -api-id: E:Windows.Web.UI.Interop.WebViewControl.LostFocus
 -api-type: winrt event
+ms.custom: RS5
 ---
 
 <!-- Event syntax.

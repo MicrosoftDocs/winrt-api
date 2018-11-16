@@ -1,6 +1,7 @@
 ---
 -api-id: E:Windows.Devices.Lights.Effects.LampArrayCustomEffect.UpdateRequested
 -api-type: winrt event
+ms.custom: RS5
 ---
 
 <!-- Event syntax.

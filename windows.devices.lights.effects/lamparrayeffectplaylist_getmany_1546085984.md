@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.Lights.Effects.LampArrayEffectPlaylist.GetMany(System.UInt32,Windows.Devices.Lights.Effects.ILampArrayEffect[])
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

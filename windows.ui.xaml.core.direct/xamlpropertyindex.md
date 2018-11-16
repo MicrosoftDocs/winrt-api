@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.UI.Xaml.Core.Direct.XamlPropertyIndex
 -api-type: winrt enum
+ms.custom: RS5
 ---
 
 <!-- Enumeration syntax.

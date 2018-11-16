@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Media.Control.GlobalSystemMediaTransportControlsSession.TryChangeShuffleActiveAsync(System.Boolean)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

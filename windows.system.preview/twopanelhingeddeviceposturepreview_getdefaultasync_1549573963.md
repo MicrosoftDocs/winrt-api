@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.System.Preview.TwoPanelHingedDevicePosturePreview.GetDefaultAsync
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.
