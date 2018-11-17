@@ -319,7 +319,7 @@ The supported [WebViewExecutionMode](wevbviewexecutionmode.md) values are:
 
 When running in a separate process, WebView exibits two behavior differences:
 
-- The WebView process could terminate. You can be notified of this by listening to the [SeparateProcessLost](webview_seperateprocesslost.md) event.
+- The WebView process could terminate. You can be notified of this by listening to the [SeparateProcessLost](webview_separateprocesslost.md) event.
 - The WebView process could asynchronously reject keyboard focus. In this case, the WebView.Focus method returns **true**, and then immediately (but asynchronously), focus moves away from the WebView. (Other ways of moving focus behave similarly, such as FocusManager.TryMoveFocus.) You can track this more explicitly by using the [FocusManager.TryFocusAsync](../windows.ui.xaml.input/focusmanager_tryfocusasync_1779533284.md) or [FocusManager.TryMoveFocusAsync](../windows.ui.xaml.input/focusmanager_trymovefocus_582274934.md) APIs.
 
 This example demonstrates how to create a WebView control that runs in a separate process from the host app, and will be re-created if the separate process is lost.
