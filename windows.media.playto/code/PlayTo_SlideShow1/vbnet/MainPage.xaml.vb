@@ -231,7 +231,7 @@ Public NotInheritable Class MainPage
     ' by the slide show logic. For example, if the user opens the Devices
     ' charm and the sourcerequested event fires, but the image display timeout
     ' completes before the user selects a target device, then the image that
-    ' was being displayed is removed and destroyed. intialImage is never 
+    ' was being displayed is removed and destroyed. initialImage is never 
     ' destroyed so Play To will always have a valid source to stream.
     Private initialImage As Image = Nothing
 
