@@ -15,7 +15,7 @@ Creates and initializes a new [BadgeUpdateManagerForUser](badgeupdatemanagerforu
 ## -parameters
 
 ### -param user
-The user who will recieve the tile badge updates. 
+The user who will receive the tile badge updates. 
 
 ## -returns
 An object that will update tile badges for the specified user.
