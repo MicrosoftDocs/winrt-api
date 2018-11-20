@@ -13,7 +13,7 @@ public string IconResource { get;  set; }
 A reference to an icon resource for a Cloud Storage provider property.
 
 ## -property-value
-A string value of a reference to an icon resouce. E.g., "SyncProviderResources.dll, -1234"
+A string value of a reference to an icon resource. E.g., "SyncProviderResources.dll, -1234"
 
 ## -remarks
 

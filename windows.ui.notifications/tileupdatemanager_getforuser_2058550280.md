@@ -15,7 +15,7 @@ Creates and initializes a new [TileUpdateManagerForUser](tileupdatemanagerforuse
 ## -parameters
 
 ### -param user
-The user who will recieve the tile updates. 
+The user who will receive the tile updates. 
 
 ## -returns
 An object that will update tiles for the specified user.

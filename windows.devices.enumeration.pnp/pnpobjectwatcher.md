@@ -13,7 +13,7 @@ public class PnpObjectWatcher : Windows.Devices.Enumeration.Pnp.IPnpObjectWatche
 Raises events to notify the client that a [PnpObject](pnpobject.md) has been added, updated, or removed from an enumerated collection of Pnp device objects in an incremental and asynchronous way.
 
 ## -remarks
-An app calls [Start](pnpobjectwatcher_start_1587696324.md) to begin the search for devices. During this intial enumeration, the [PnpObjectWatcher](pnpobjectwatcher.md) raises an [Added](pnpobjectwatcher_added.md) event for each device that's found, until all devices are found. The [PnpObjectWatcher](pnpobjectwatcher.md) raises an [EnumerationCompleted](pnpobjectwatcher_enumerationcompleted.md) event when the initial enumeration is complete, and continues to raise events if a device is added, updated, or removed.
+An app calls [Start](pnpobjectwatcher_start_1587696324.md) to begin the search for devices. During this initial enumeration, the [PnpObjectWatcher](pnpobjectwatcher.md) raises an [Added](pnpobjectwatcher_added.md) event for each device that's found, until all devices are found. The [PnpObjectWatcher](pnpobjectwatcher.md) raises an [EnumerationCompleted](pnpobjectwatcher_enumerationcompleted.md) event when the initial enumeration is complete, and continues to raise events if a device is added, updated, or removed.
 
 The following diagram shows how the [PnpObjectWatcher](pnpobjectwatcher.md) transitions between the states represented by [DeviceWatcherStatus](../windows.devices.enumeration/devicewatcherstatus.md) enumeration.
 
