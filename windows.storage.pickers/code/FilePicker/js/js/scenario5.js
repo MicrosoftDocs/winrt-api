@@ -54,7 +54,7 @@
 
     function printFileAsync(file) {
         Windows.Storage.FileIO.readTextAsync(file).then(function (fileContent) {
-            WinJS.log && WinJS.log("Recieved File: " + file.name + "\n" + "File Content: " + fileContent, "sample", "status");
+            WinJS.log && WinJS.log("Received File: " + file.name + "\n" + "File Content: " + fileContent, "sample", "status");
         });
     }
 })();

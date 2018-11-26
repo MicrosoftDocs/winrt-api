@@ -39,7 +39,7 @@
         savePicker.pickSaveFileAsync().then(function (file) {
             if (file) {
                 fileToken = Windows.Storage.AccessCache.StorageApplicationPermissions.futureAccessList.add(file);
-                WinJS.log && WinJS.log("Recieved File: " + file.name, "sample", "status");
+                WinJS.log && WinJS.log("Received File: " + file.name, "sample", "status");
                 writeFileButton.disabled = false;
             } else {
                 // The picker was dismissed with no selected file
@@ -84,7 +84,7 @@
 
     function printFileAsync(file) {
         Windows.Storage.FileIO.readTextAsync(file).then(function (fileContent) {
-            WinJS.log && WinJS.log("Recieved File: " + file.name + "\n" + "File Content: " + fileContent, "sample", "status");
+            WinJS.log && WinJS.log("Received File: " + file.name + "\n" + "File Content: " + fileContent, "sample", "status");
         }, WinJS.log);
     }
 })();
