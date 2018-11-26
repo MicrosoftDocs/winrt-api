@@ -38,7 +38,7 @@
                 <LineBreak/>
                 <LineBreak/>
                 Unfortunately, we have to do a fair amount of work to allow this to happen.  
-                You need to handle the AppBar.Opened event and resize the WebView to accomodate the AppBar and then translate the
+                You need to handle the AppBar.Opened event and resize the WebView to accommodate the AppBar and then translate the
                 WebView to occupy the rest of the screen space while showing the AppBar.
                 <LineBreak/>
                 <LineBreak/>
