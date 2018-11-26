@@ -256,7 +256,7 @@ Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
     IInputStream^ inputStream = stream->GetInputStreamAt(0);
     DataReader^ dataReader = ref new DataReader(inputStream);
     // The encoding and byte order need to match the settings of the writer 
-    / we previously used.
+    // we previously used.
     dataReader->UnicodeEncoding = UnicodeEncoding::Utf8;
     dataReader->ByteOrder = ByteOrder::LittleEndian;
 
