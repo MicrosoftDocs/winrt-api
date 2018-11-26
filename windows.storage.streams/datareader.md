@@ -112,9 +112,9 @@ private async void TransferData(object sender, RoutedEventArgs e)
 #include <winrt/Windows.Storage.Streams.h>
 
 using namespace winrt;
-...
+
 std::array<winrt::hstring, 5> m_inputElements{ L"Hello", L"World", L"1 2 3 4 5", L"Très bien!", L"Goodbye" };
-...
+
 WriteReadStream::WriteReadStream()
 {
     InitializeComponent();
