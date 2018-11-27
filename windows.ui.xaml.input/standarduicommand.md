@@ -12,9 +12,7 @@ public class StandardUICommand : UICommand, UICommand
 
 ## -description
 
-Implements the [ICommand](icommand.md) interface that defines a command behavior, and adds various UI-related properties, methods, and events.
-
-Provides an derivation of [XamlUICommand](xamluicommand.md) that automatically populates its property values based on an enum value used to select standard commands (e.g., Cut, Copy, Paste, etc.).
+Derives from [XamlUICommand](xamluicommand.md), adding a set of standard platform commands with pre-defined properties.
 
 ## -remarks
 
@@ -36,8 +34,6 @@ The platform provides the following set of commands.
 - Backward
 - Undo
 - Redo
-
-
 
 ## -see-also
 
