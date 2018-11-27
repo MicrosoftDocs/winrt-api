@@ -10,16 +10,21 @@ public Windows.UI.Xaml.DependencyProperty ControlledPeersProperty { get; }
 # Windows.UI.Xaml.Automation.AutomationProperties.ControlledPeersProperty
 
 ## -description
-Identifies a dependency property that's used for controlled peers, which is an array of automation elements that are manipulated by the automation element that supports this property.
+
+Identifies the ControlledPeers attached property, which is used for a collection of automation elements that can be manipulated by the specified automation element.
 
 ## -property-value
-A dependency property identifier.
+
+The identifier for the ControlledPeers attached property.
 
 ## -remarks
-There's no public dependency property for **ControlledPeers** because this is an advanced scenario. Use [GetControlledPeers](automationproperties_getcontrolledpeers_853183966.md) to get the list of controlled automation elements.
 
-**ControlledPeers** is used when an automation element affects one or more segments of the application UI or the desktop; otherwise, it is hard to associate the impact of the control operation with UI elements.
+There's no public attached property for **ControlledPeers** because this is an advanced scenario. Use [GetControlledPeers](automationproperties_getcontrolledpeers_853183966.md) to get the list of controlled automation elements.
+
+**ControlledPeers** is used when an automation element affects one or more segments of either the application UI or the desktop. This makes it easier to associate the impact of the control operation on other UI elements.
 
 ## -examples
 
 ## -see-also
+
+[Accessible text requirements](https://docs.microsoft.com/en-us/windows/uwp/design/accessibility/accessible-text-requirements#auto-suggest-accessibility), [Custom automation peers](https://docs.microsoft.com/en-us/windows/uwp/design/accessibility/custom-automation-peers)
