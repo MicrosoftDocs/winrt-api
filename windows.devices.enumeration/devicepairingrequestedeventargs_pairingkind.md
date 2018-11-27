@@ -14,6 +14,7 @@ Gets the kind of pairing associated with this pairing event.
 
 ## -property-value
 The kind of pairing used for this pairing request.
+Exactly one of the [DevicePairingKinds](devicepairingkinds.md) bits will be set.
 
 ## -remarks
 
