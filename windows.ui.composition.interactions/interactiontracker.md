@@ -21,7 +21,7 @@ Handles the logic of input that can be used as targets in ExpressionAnimations�
 
 IneractionTracker is intended to be used for:
 
-+ Adding custom swipe behavior, for exmaple swiping ListView items or other visuals to delete/dismiss
++ Adding custom swipe behavior, for example swiping ListView items or other visuals to delete/dismiss
 + Transitions tied to panning, for example swiping to transition between “closed” and “open” states
 + Input-driven animation of an effect, for example panning causes the screen to blur
 + Custom Controls, for example creating a custom implementation of a ScrollViewer with different panning speeds or the ability to be controlled programmatically
