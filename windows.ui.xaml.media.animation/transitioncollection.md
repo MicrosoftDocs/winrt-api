@@ -35,11 +35,8 @@ Represents a collection of [Transition](transition.md) objects. Each [Transition
 + [SettingsFlyoutTemplateSettings.ContentTransitions](../windows.ui.xaml.controls.primitives/settingsflyouttemplatesettings_contenttransitions.md)
 + [UIElement.Transitions](../windows.ui.xaml/uielement_transitions.md) (on hundreds of classes)
 
-
-
-
-> [!IMPORTANT]
-> The XAML syntax for all properties that use a [TransitionCollection](transitioncollection.md) value is unusual in that you must declare an explicit [TransitionCollection](transitioncollection.md) object element as the value, and then provide object elements as child elements of [TransitionCollection](transitioncollection.md) for each of the transition animations you want to use. For most other XAML collection properties you could omit the collection object element because it can be implicit, but properties that use [TransitionCollection](transitioncollection.md) don't support the implicit collection usage. For more info on implicit collections and XAML, see [XAML syntax guide](http://msdn.microsoft.com/library/a57fe7b4-9947-4aa0-bc99-5fe4686b611d).
+> [!NOTE]
+> Prior to Windows 10, version 1809 (SDK 17763), the XAML syntax for properties that have a [TransitionCollection](../windows.ui.xaml.media.animation/transitioncollection.md) value requires that you declare an explicit [TransitionCollection](../windows.ui.xaml.media.animation/transitioncollection.md) object element as the value, and then provide object elements as child elements of [TransitionCollection](../windows.ui.xaml.media.animation/transitioncollection.md) for each of the transition animations you want to use. In Windows 10, version 1809 (SDK 17763) or later, [TransitionCollection](../windows.ui.xaml.media.animation/transitioncollection.md) supports the implicit collection usage, so you can omit the collection object element. For more info on implicit collections and XAML, see [XAML syntax guide](/windows/uwp/xaml-platform/xaml-syntax-guide).
 
 Transition animations are preconfigured animations from the Windows Runtime animation library. Transition animations run automatically upon the conditions that the transition animation is associated with, using the property owner where the [TransitionCollection](transitioncollection.md) is set as the target. The properties being animated vary depending on which transition you use. 
 <!--For more info, see Transition animations and theme animations.-->
