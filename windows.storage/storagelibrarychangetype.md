@@ -49,3 +49,4 @@ The change tracking information associated with the item was lost. Call [Reset](
 ## -examples
 
 ## -see-also
+[Track file system changes in the background](https://docs.microsoft.com/windows/uwp/files/change-tracking-filesystem)
