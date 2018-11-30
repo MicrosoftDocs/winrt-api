@@ -10,15 +10,15 @@ public Windows.Networking.BackgroundTransfer.BackgroundDownloadProgress Progress
 # Windows.Networking.BackgroundTransfer.DownloadOperation.Progress
 
 ## -description
-Gets the current progress of the upload operation.
+Gets the current progress of the operation.
 
 ## -property-value
-The download operation status change.
+An instance of a [BackgroundDownloadProgress](backgrounddownloadprogress.md) struct describing the current download operation's progress.
 
 ## -remarks
-The value of the Progress property is updated in real time, which means that the value can change while a progress handler is executing. As a best practice, create a local copy of the Progress property at the beginning of your progress handler, and use only that copy in your progress handler, to maintain a consistent view of progress as your handler executes.
+The value of **Progress** is updated in real time, which means that the value can change while a progress handler is executing. As a best practice, create a local copy of the value of the **Progress** property at the beginning of your progress handler, and use only that copy in your progress handler, to maintain a consistent view of progress as your handler executes.
 
 ## -examples
 
 ## -see-also
-[Background Transfer Download  sample](http://go.microsoft.com/fwlink/p/?linkid=245064)
+[Background Transfer Download sample](http://go.microsoft.com/fwlink/p/?linkid=245064)
