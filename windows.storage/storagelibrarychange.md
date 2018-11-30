@@ -18,3 +18,4 @@ Instances of this class are created by the [ReadBatchAsync](storagelibrarychange
 ## -examples
 
 ## -see-also
+[Track file system changes in the background](https://docs.microsoft.com/windows/uwp/files/change-tracking-filesystem)

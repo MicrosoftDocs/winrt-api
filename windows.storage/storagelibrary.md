@@ -21,4 +21,4 @@ You can only access libraries that you have declared capabilities for in your ap
 
 ## -see-also
 
-[Library management sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/LibraryManagement)
+[Files and folders in the Music, Pictures, and Videos libraries](https://docs.microsoft.com/windows/uwp/files/quickstart-managing-folders-in-the-music-pictures-and-videos-libraries),[Library management sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/LibraryManagement)
