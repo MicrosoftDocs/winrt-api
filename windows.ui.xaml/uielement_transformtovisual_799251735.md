@@ -15,6 +15,7 @@ Returns a transform object that can be used to transform coordinates from the [U
 ## -parameters
 ### -param visual
 The object to compare to the current object for purposes of obtaining the transform.
+If this parameter is null, then the root of the XAML tree is used. 
 
 ## -returns
 The transform information as an object. Call methods on this object to get a practical transform.
