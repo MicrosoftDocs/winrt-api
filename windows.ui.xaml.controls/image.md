@@ -167,7 +167,7 @@ Using the [NineGrid](image_ninegrid.md) technique is another option for sizing i
 
 ### **Image** source files and scaling
 
-You should create your image sources at several recommended sizes, to ensure that your app looks great when Windows 8 scales it. When specifying a [Source](image_source.md) for an [Image](image.md), you can use a naming convention for resources that will use the correct resource for device-specific scaling factors. This is determined by the app automatically at run-time. For specifics of the naming conventions to use and more info, see [Quickstart: Using file or image resources](http://msdn.microsoft.com/library/a3e91a0e-9a74-4e92-a6e4-ddd633660a3a).
+You should create your image sources at several recommended sizes, to ensure that your app looks great when Windows 10 scales it. When specifying a [Source](image_source.md) for an [Image](image.md), you can use a naming convention for resources that will use the correct resource for device-specific scaling factors. This is determined by the app automatically at run-time. For specifics of the naming conventions to use and more info, see [Quickstart: Using file or image resources](http://msdn.microsoft.com/library/a3e91a0e-9a74-4e92-a6e4-ddd633660a3a).
 
 For more info on how to design images properly for scaling, see [UX guidelines for layout and scaling](http://msdn.microsoft.com/library/c388f639-6f35-4d52-bffe-53ff3f537d4b).
 
@@ -182,16 +182,6 @@ If you set [FlowDirection](../windows.ui.xaml/frameworkelement_flowdirection.md)
 ### The Image class and accessibility
 
 The [Image](image.md) class is not a true control class in that it is not a descendant class of [Control](control.md). You can't call focus to an [Image](image.md) element, or place an [Image](image.md) element in a tab sequence. For more info on the accessibility aspects of using images and the [Image](image.md) element in your UI, see [Basic accessibility information](http://msdn.microsoft.com/library/9641c926-68c9-4842-8b55-c38c39a9e5c5).
-
-<!--The following remark is relevant for Windows 8 > 8.1 migration. See WBB 459121-->
-
-### Windows 8 behavior
-
-For Windows 8, resources can use a resource qualifier pattern to load different resources depending on device-specific scaling. However, resources aren't automatically reloaded if the scaling factor changes while the app is running. In this case apps would have to take care of reloading resources, by handling the [DpiChanged](../windows.graphics.display/displayinformation_dpichanged.md) event (or the deprecated [LogicalDpiChanged](../windows.graphics.display/displayproperties_logicaldpichanged.md) event) and using [ResourceManager](../windows.applicationmodel.resources.core/resourcemanager.md)  API to manually reload the resource that's appropriate for the new scaling factor. Starting with Windows 8.1, any resource that was originally retrieved for your app is automatically re-evaluated if the scaling factor changes while the app is running. In addition, when that resource is the image source for an [Image](image.md) object, then one of the source-load events ([ImageOpened](image_imageopened.md) or [ImageFailed](image_imagefailed.md)) is fired as a result of the system's action of requesting the new resource and then applying it to the [Image](image.md). The scenario where a run-time scale change might happen is if the user moves your app to a different monitor when more than one is available.
-
-If you migrate your app code from Windows 8 to Windows 8.1 you may want to account for this behavior change, because it results in [ImageOpened](image_imageopened.md) or [ImageFailed](image_imagefailed.md) events that happen at run-time when the scale change is handled, even in cases where the [Source](image_source.md) is set in XAML. Also, if you did have code that handled [DpiChanged](../windows.graphics.display/displayinformation_dpichanged.md)/[LogicalDpiChanged](../windows.graphics.display/displayproperties_logicaldpichanged.md) and reset the resources, you should examine whether that code is still needed given the new Windows 8.1 automatic reload behavior.
-
-Apps that were compiled for Windows 8 but running on Windows 8.1 continue to use the Windows 8 behavior.
 
 ## -examples
 
