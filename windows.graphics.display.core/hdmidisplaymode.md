@@ -11,7 +11,7 @@ public class HdmiDisplayMode
 
 ## -description
 
-Represents the display mode of a connected device, like a TV or a monitor. It provides info about display capabilities of the device, such as the number of bits per pixel, colorspace, type of pixel encoding, refresh rate and more.
+Represents the display mode of a connected device such as a TV or a monitor. It provides info about the display capabilities of the device, such as the number of bits per pixel, colorspace, type of pixel encoding, refresh rate, and more.
 
 ## -remarks
 

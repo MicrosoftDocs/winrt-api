@@ -74,7 +74,7 @@ void OnNavigationFailed(object sender, NavigationFailedEventArgs e)
 }
 ```
 
-```cpp
+```cppwinrt
 void App::OnLaunched(LaunchActivatedEventArgs const& e)
 {
     Frame rootFrame{ nullptr };
@@ -138,7 +138,7 @@ void App::OnNavigationFailed(IInspectable const&, NavigationFailedEventArgs cons
 }
 ```
 
-```cpp
+```cppcx
 void App::OnLaunched(LaunchActivatedEventArgs^ e)
 {
  auto rootFrame = dynamic_cast<Frame^>(Window::Current->Content);
@@ -191,7 +191,7 @@ void App::OnNavigationFailed(Platform::Object ^sender, Windows::UI::Xaml::Naviga
 }
 ```
 
-```vbnet
+```vb
 Protected Overrides Sub OnLaunched(e As LaunchActivatedEventArgs)
     Dim rootFrame As Frame = TryCast(Window.Current.Content, Frame)
 

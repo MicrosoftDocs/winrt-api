@@ -12,7 +12,11 @@ public bool IsDolbyVisionLowLatencySupported { get; }
 
 ## -description
 
+Indicates whether the low-latency profile for Dolby Vision is supported on the device.
+
 ## -property-value
+
+`true` if the low-latency profile for Dolby Vision is supported on the device, otherwise `false`.
 
 ## -remarks
 
