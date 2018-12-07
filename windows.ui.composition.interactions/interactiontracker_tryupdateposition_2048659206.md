@@ -12,12 +12,20 @@ public int InteractionTracker.TryUpdatePosition(Vector3 value, InteractionTracke
 
 ## -description
 
+Tries to update the position of the [InteractionTracker](interactiontracker.md) using the specified clamping option.
+
 ## -parameters
+
 ### -param value
+The new position for the [InteractionTracker](interactiontracker.md).
 
 ### -param option
 
+A value that specifies how values are clamped to the maximum and minimum.
+
 ## -returns
+
+Returns the request ID. On state transitions, the request which caused the change in state will be included in the args. These IDs will start at 1 and increase with each try call during the lifetime of the application.
 
 ## -remarks
 
