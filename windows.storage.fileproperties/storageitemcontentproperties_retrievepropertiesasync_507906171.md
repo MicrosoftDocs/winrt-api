@@ -14,7 +14,7 @@ Retrieves the specified properties associated with the item.
 
 ## -parameters
 ### -param propertiesToRetrieve
-A collection that contains the names of the properties to retrieve. The list of supported properties can be found on the [System](http://msdn.microsoft.com/library/e86e5836-522f-4084-8bb3-4c0d4da9cb26) properties page.
+A collection that contains the names of the properties to retrieve. The list of supported properties can be found on the [Core](https://docs.microsoft.com/windows/desktop/properties/core-bumper) properties page.
 
 ## -returns
 When this method completes successfully, it returns a collection (type [IMap](../windows.foundation.collections/imap_2.md)) that contains the specified properties and values as key-value pairs. The return value of properties can be null.

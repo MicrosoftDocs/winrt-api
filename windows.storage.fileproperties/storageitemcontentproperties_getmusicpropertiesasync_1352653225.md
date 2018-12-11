@@ -13,7 +13,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Storage.FileProperties.MusicPr
 Retrieves the music properties of the item (like a file of folder).
 
 ## -returns
-When this method completes successfully, it returns a [musicProperties](musicproperties.md) object.
+When this method completes successfully, it returns a [MusicProperties](musicproperties.md) object.
 
 ## -remarks
 
