@@ -26,7 +26,7 @@ The specified file does not exist. Check the value of *name*.
 
 ### System.UnauthorizedAccessException
 
-You don't have permission to access the specified file.
+You don't have permission to access the specified file. For more information, see [File access permissions](https://docs.microsoft.com/windows/uwp/files/file-access-permissions).
 
 ### System.ArgumentException
 
@@ -98,4 +98,4 @@ logoImagePromise.done(function (logoImage) {
 ```
 
 ## -see-also
-[GetItemAsync](storagefolder_getitemasync_1847090456.md)
+[File access permissions](https://docs.microsoft.com/windows/uwp/files/file-access-permissions), [GetItemAsync](storagefolder_getitemasync_1847090456.md)

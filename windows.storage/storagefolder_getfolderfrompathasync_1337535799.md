@@ -26,7 +26,7 @@ The specified folder does not exist. Check the value of *path*.
 
 ### System.UnauthorizedAccessException
 
-You don't have permission to access the specified folder.
+You don't have permission to access the specified folder. For more information, see [File access permissions](https://docs.microsoft.com/windows/uwp/files/file-access-permissions).
 
 ### System.ArgumentException
 
@@ -87,3 +87,4 @@ folderPromise.done(function getFolderSuccess(folder) {
 ```
 
 ## -see-also
+[File access permissions](https://docs.microsoft.com/windows/uwp/files/file-access-permissions)

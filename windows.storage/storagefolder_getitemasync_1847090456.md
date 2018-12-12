@@ -28,7 +28,7 @@ The specified item does not exist. Check the value of *name*.
 
 ### System.UnauthorizedAccessException
 
-You don't have permission to access the specified item.
+You don't have permission to access the specified item. For more information, see [File access permissions](https://docs.microsoft.com/windows/uwp/files/file-access-permissions).
 
 ### System.ArgumentException
 
@@ -104,4 +104,4 @@ logoImagePromise.done(function getItemSuccess(logoImage) {
 ```
 
 ## -see-also
-[GetFileAsync](storagefolder_getfileasync_703762627.md), [GetFolderAsync](storagefolder_getfolderasync_761626819.md), [TryGetItemAsync](storagefolder_trygetitemasync_1863649689.md)
+[File access permissions](https://docs.microsoft.com/windows/uwp/files/file-access-permissions), [GetFileAsync](storagefolder_getfileasync_703762627.md), [GetFolderAsync](storagefolder_getfolderasync_761626819.md), [TryGetItemAsync](storagefolder_trygetitemasync_1863649689.md)
