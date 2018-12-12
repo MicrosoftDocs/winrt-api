@@ -13,7 +13,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Storage.FileProperties.VideoPr
 Retrieves the video properties of the item (like a file of folder).
 
 ## -returns
-When this method completes successfully, it returns a [videoProperties](videoproperties.md) object.
+When this method completes successfully, it returns a [VideoProperties](videoproperties.md) object.
 
 ## -remarks
 

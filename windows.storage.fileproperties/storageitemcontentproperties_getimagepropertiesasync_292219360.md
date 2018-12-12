@@ -13,7 +13,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Storage.FileProperties.ImagePr
 Retrieves the image properties of the item (like a file of folder).
 
 ## -returns
-When this method completes successfully, it returns an [imageProperties](imageproperties.md) object.
+When this method completes successfully, it returns an [ImageProperties](imageproperties.md) object.
 
 ## -remarks
 
