@@ -18,7 +18,7 @@ When this method completes successfully, it returns a list of the files in the c
 ## -exceptions
 ### System.UnauthorizedAccessException
 
-You don't have permission to access the contents of the current folder.
+You don't have permission to access the contents of the current folder. For more information, see [File access permissions](https://docs.microsoft.com/windows/uwp/files/file-access-permissions).
 
 ## -remarks
 This query is a shallow query that returns only files in the current folder. For a list of methods that identifies shallow queries and deep queries, see the Remarks in the topic [GetFilesAsync](storagefolder_getfilesasync_1429382825.md).
@@ -133,4 +133,4 @@ sortedItemsPromise.done(function getFilesSuccess(sortedItems) {
 ```
 
 ## -see-also
-[GetFilesAsync(CommonFileQuery, UInt32, UInt32)](storagefolder_getfilesasync_1563132095.md), [GetFilesAsync(CommonFileQuery)](storagefolder_getfilesasync_1429382825.md), [GetItemsAsync](/uwp/api/windows.storage.storagefolder.getitemsasync)
+[File access permissions](https://docs.microsoft.com/windows/uwp/files/file-access-permissions), [GetFilesAsync(CommonFileQuery, UInt32, UInt32)](storagefolder_getfilesasync_1563132095.md), [GetFilesAsync(CommonFileQuery)](storagefolder_getfilesasync_1429382825.md), [GetItemsAsync](/uwp/api/windows.storage.storagefolder.getitemsasync)

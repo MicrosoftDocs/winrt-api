@@ -104,8 +104,9 @@ if (file !== null) {
 }
 ```
 
-After [GetImagePropertiesAsync](storageitemcontentproperties_getimagepropertiesasync_292219360.md) completes, *imageProperties* gets a [ImageProperties](imageproperties.md) object. Additionally, after [RetrievePropertiesAsync](storageitemcontentproperties_retrievepropertiesasync_507906171.md) completes, *extraProperties* gets an object that contains the specified properties (the list of supported properties can be found on the [Core](https://docs.microsoft.com/windows/desktop/properties/core-bumper) properties page).
+After [GetImagePropertiesAsync](storageitemcontentproperties_getimagepropertiesasync_292219360.md) completes, **imageProperties** gets a [ImageProperties](imageproperties.md) object. Additionally, after [RetrievePropertiesAsync](storageitemcontentproperties_retrievepropertiesasync_507906171.md) completes, **extraProperties** gets an object that contains the specified properties (the list of supported properties can be found on the [Core properties page](https://docs.microsoft.com/windows/desktop/properties/core-bumper)).
 
-In the example, *file* contains a [StorageFile](../windows.storage/storagefile.md) that represents the file for which to retrieve properties.
+In the example, **file** contains a [StorageFile](../windows.storage/storagefile.md) that represents the file for which to retrieve properties.
 
 ## -see-also
+[Core properties page](https://docs.microsoft.com/windows/desktop/properties/core-bumper)

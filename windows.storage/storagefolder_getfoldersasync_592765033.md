@@ -18,7 +18,7 @@ When this method completes successfully, it returns a list of the subfolders in 
 ## -exceptions
 ### System.UnauthorizedAccessException
 
-You don't have permission to access the contents of the current folder.
+You don't have permission to access the contents of the current folder. For more information, see [File access permissions](https://docs.microsoft.com/windows/uwp/files/file-access-permissions).
 
 ## -remarks
 This query is a shallow query that returns only subfolders in the current folder.
@@ -152,4 +152,4 @@ groupedItemsPromise.done(function getFoldersSuccess(groupedItems) {
 ```
 
 ## -see-also
-[GetFoldersAsync(CommonFolderQuery, UInt32, UInt32)](storagefolder_getfoldersasync_731846614.md), [GetFoldersAsync(CommonFolderQuery)](storagefolder_getfoldersasync_595997124.md), [GetItemsAsync](/uwp/api/windows.storage.storagefolder.getitemsasync)
+[File access permissions](https://docs.microsoft.com/windows/uwp/files/file-access-permissions), [GetFoldersAsync(CommonFolderQuery, UInt32, UInt32)](storagefolder_getfoldersasync_731846614.md), [GetFoldersAsync(CommonFolderQuery)](storagefolder_getfoldersasync_595997124.md), [GetItemsAsync](/uwp/api/windows.storage.storagefolder.getitemsasync)
