@@ -248,7 +248,7 @@ translation.X, translation.Y, translation.Z, 1.0]</td></tr>
    <tr><td>ColorLerp(Color colorTo, Color colorFrom, Float progress)</td><td>Returns a Color object that represents the calculated linear interpolation value between two color objects based on a given progress. (Note: Progress is between 0.0 and 1.0)</td></tr>
    <tr><td>ColorLerpRGB(Color colorTo, Color colorFrom, Float progress)</td><td>Returns a Color object that represents the calculated linear interpolation value between two objects based on a given progress in the RGB color space.</td></tr>
    <tr><td>ColorLerpHSL(Color colorTo, Color colorFrom, Float progress)</td><td>Returns a Color object that represents the calculated linear interpolation value between two objects based on a given progress in the HSL color space.</td></tr>
-   <tr><td>ColorArgb(Float a, Float r, Float g, Float b)</td><td>Constructs an object representing Color defined by ARGB components</td></tr>
+   <tr><td>ColorRGB(Float a, Float r, Float g, Float b)</td><td>Constructs an object representing Color defined by ARGB components.  (Note: ARGB components are between 0.0 and 255.0)</td></tr>
    <tr><td>ColorHsl(Float h, Float s, Float l)</td><td>Constructs an object representing Color defined by HSL components (Note: Hue is defined from 0 and 2pi)</td></tr>
 </table>
 
