@@ -1,4 +1,4 @@
----
+F---
 -api-id: P:Windows.UI.Xaml.Automation.Peers.FrameworkElementAutomationPeer.Owner
 -api-type: winrt property
 ---
@@ -16,7 +16,7 @@ Gets the [UIElement](../windows.ui.xaml/uielement.md) owner that is associated w
 The element that owns this instance of the peer class.
 
 ## -remarks
-Note that getting this property will fail if the owner element has been deleted.
+If the owner element has been deleted, getting this property fails.
 
 ## -examples
 
