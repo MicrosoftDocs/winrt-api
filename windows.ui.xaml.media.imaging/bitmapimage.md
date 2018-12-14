@@ -143,7 +143,8 @@ void Image_Loaded(object sender, RoutedEventArgs e)
     // Natural px width of image source.
     // You don't need to set Height; the system maintains aspect ratio, and calculates the other
     // dimension, as long as one dimension measurement is provided.
-    bitmapImage.UriSource = new Uri(img.BaseUri,"Images/myimage.png");
+    bitmapImage.UriSource = new Uri(img.BaseUri,"Assets/StoreLogo.png");
+    img.Source = bitmapImage;
 }
 ```
 
