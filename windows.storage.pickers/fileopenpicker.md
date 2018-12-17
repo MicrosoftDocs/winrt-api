@@ -15,7 +15,7 @@ Represents a UI element that lets the user choose and open files.
 
 ## -remarks
 
-To get started accessing files and folders file picker, see [Quickstart: Accessing files with File Pickers](https://docs.microsoft.com/en-us/windows/uwp/files/quickstart-using-file-and-folder-pickers).
+To get started accessing files and folders file picker, see [Quickstart: Accessing files with File Pickers](https://docs.microsoft.com/windows/uwp/files/quickstart-using-file-and-folder-pickers).
 
 ## -examples
 
@@ -36,4 +36,4 @@ The [File picker sample](http://go.microsoft.com/fwlink/p/?LinkId=619994) demons
 
 ## -see-also
 
-[File picker sample](http://go.microsoft.com/fwlink/p/?LinkId=619994), [Quickstart: Accessing files with File Pickers ](https://docs.microsoft.com/en-us/windows/uwp/files/quickstart-using-file-and-folder-pickers), [Blobs sample](http://go.microsoft.com/fwlink/p/?LinkId=620573)
+[File picker sample](http://go.microsoft.com/fwlink/p/?LinkId=619994), [Quickstart: Accessing files with File Pickers ](https://docs.microsoft.com/windows/uwp/files/quickstart-using-file-and-folder-pickers), [Blobs sample](http://go.microsoft.com/fwlink/p/?LinkId=620573)
