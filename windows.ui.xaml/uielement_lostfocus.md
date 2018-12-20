@@ -21,9 +21,11 @@ Occurs when a [UIElement](uielement.md) loses focus. This event is raised asynch
 
 ## -remarks
 
-Only one UI element can have focus.
+We recommend using the [UIElement](../windows.ui.xaml/uielement.md) focus routed events instead of [FocusManager](focusmanager.md) events whenever possible.
 
-A control can lose focus when another control gets focus, the application view changes, the user switches applications, or interacts with the system such that the application is no longer in the foreground.
+Only a single UI element at a time can have focus.
+
+A control can lose focus when another control gets focus, the application view changes, the user switches applications, or the user interacts with the system such that the application is no longer in the foreground.
 
 [LostFocus](uielement_lostfocus.md) is raised before [GotFocus](uielement_gotfocus.md).
 
@@ -41,4 +43,4 @@ For more info on how class-based handling for events works, see [Events and rout
 
 ## -see-also
 
-[RoutedEventArgs](routedeventargs.md), [LosingFocus](uielement_losingfocus.md), [GotFocus](uielement_gotfocus.md), [Control.Focus](../windows.ui.xaml.controls/control_focus_195503898.md), [Keyboard interactions](http://msdn.microsoft.com/library/ff819bac-67c0-4ec9-8921-f087be188138), [Storyboarded animations for visual states](http://msdn.microsoft.com/library/5e715281-d247-4e7f-9f88-2af0d88ed5e4)
+[LosingFocus](uielement_losingfocus.md), [LosingFocusEvent](uielement_losingfocusevent.md), [GotFocus](uielement_gotfocus.md), [GettingFocusEvent](uielement_gettingfocusevent.md), [GettingFocus](uielement_gettingfocus.md), [Control.Focus](../windows.ui.xaml.controls/control_focus_195503898.md), [AddHandler](uielement_addhandler_2121467075.md), [Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832), [Keyboard interactions](https://docs.microsoft.com/windows/uwp/design/input/keyboard-interactions), [Focus navigation for keyboard, gamepad, remote control, and accessibility tools](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation), [Programmatic focus navigation](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation-programmatic)

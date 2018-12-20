@@ -22,6 +22,8 @@ The default is **null**.
 
 ## -remarks
 
+We recommend using the [UIElement](../windows.ui.xaml/uielement.md) focus routed events instead of [FocusManager](focusmanager.md) events whenever possible.
+
 Focus moves can result in a number of direct and indirect actions.
 
 For example, there is the standard sequence of events that starts with [LosingFocus](../windows.ui.xaml/uielement_losingfocus.md) and moves through [LostFocus](../windows.ui.xaml/uielement_lostfocus.md), [GettingFocus](../windows.ui.xaml/uielement_gettingfocus.md), to [GotFocus](../windows.ui.xaml/uielement_gotfocus.md). These focus events typically get routed through multiple elements in the element tree (including the [FocusManager](focusmanager.md)).
@@ -42,6 +44,6 @@ A new CorrelationId is generated when:
 
 ## -see-also
 
-[FocusManagerLostFocusEventArgs.CorrelationId](focusmanagerlostfocuseventargs_correlationid.md)
+[FocusManagerLostFocusEventArgs.CorrelationId](focusmanagerlostfocuseventargs_correlationid.md), [Keyboard interactions](https://docs.microsoft.com/windows/uwp/design/input/keyboard-interactions), [Focus navigation for keyboard, gamepad, remote control, and accessibility tools](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation), [Programmatic focus navigation](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation-programmatic)
 
 ## -examples

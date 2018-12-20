@@ -15,7 +15,7 @@ A helper class that enables global management of focus actions and events across
 
 ## -remarks
 
-We recommend using the [UIElement](../windows.ui.xaml/uielement.md) focus routed events when possible.
+We recommend using the [UIElement](../windows.ui.xaml/uielement.md) focus routed events instead of [FocusManager](focusmanager.md) events whenever possible.
 
 FocusManager is intended for advanced scenarios where specific elements in an application do not receive bubbled events from a [UIElement](../windows.ui.xaml/uielement.md). For example, visual "overlay" objects such as [Popup](../windows.ui.xaml.controls.primitives/popup.md), [Tooltip](../windows.ui.xaml.controls/tooltip.md), or [MenuFlyout](../windows.ui.xaml.controls/menuflyout.md) that appear as part of the app UI but are actually their own focus scope and not part of the visual tree hierarchy. In the case of a [Popup](../windows.ui.xaml.controls.primitives/popup.md), this occurs when you programmatically set [IsOpen](../windows.ui.xaml.controls.primitives/popup_isopen.md) to true and focus moves in and out of the popup.
 
@@ -72,3 +72,5 @@ private void Page_KeyUp(object sender, KeyRoutedEventArgs e)
 ```
 
 ## -see-also
+
+[Keyboard interactions](https://docs.microsoft.com/windows/uwp/design/input/keyboard-interactions), [Focus navigation for keyboard, gamepad, remote control, and accessibility tools](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation), [Programmatic focus navigation](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation-programmatic)

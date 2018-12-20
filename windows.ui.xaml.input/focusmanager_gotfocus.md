@@ -16,6 +16,8 @@ Occurs when an element within a container element (a focus scope) receives focus
 
 ## -remarks
 
+We recommend using the [UIElement](../windows.ui.xaml/uielement.md) focus routed events instead of [FocusManager](focusmanager.md) events whenever possible.
+
 UIElement focus events bubble up to the FocusManager in the following order:
 
 1. [UIElement.LosingFocus](../windows.ui.xaml/uielement_losingfocus.md)/[FocusManager.LosingFocus](focusmanager_losingfocus.md)
@@ -26,6 +28,8 @@ UIElement focus events bubble up to the FocusManager in the following order:
 6. [FocusManager.GotFocus](focusmanager_gotfocus.md) is raised (even if the routed event is marked handled)
 
 ## -see-also
+
+[UIElement.GotFocus](../windows.ui.xaml/uielement_gotfocus.md), [Keyboard interactions](https://docs.microsoft.com/windows/uwp/design/input/keyboard-interactions), [Focus navigation for keyboard, gamepad, remote control, and accessibility tools](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation), [Programmatic focus navigation](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation-programmatic)
 
 ## -examples
 

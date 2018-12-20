@@ -27,7 +27,7 @@ The last focusable object.
 
 ## -see-also
 
-- [FindFirstFocusableElement(DependencyObject searchScope)](focusmanager_findfirstfocusableelement_2071666361.md)
+[FindFirstFocusableElement(DependencyObject searchScope)](focusmanager_findfirstfocusableelement_2071666361.md), [Keyboard interactions](https://docs.microsoft.com/windows/uwp/design/input/keyboard-interactions), [Focus navigation for keyboard, gamepad, remote control, and accessibility tools](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation), [Programmatic focus navigation](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation-programmatic)
 
 ## -examples
 

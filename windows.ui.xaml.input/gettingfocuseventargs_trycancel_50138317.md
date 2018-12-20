@@ -27,7 +27,7 @@ The [GettingFocus](../windows.ui.xaml/uielement_gettingfocus.md) and [LosingFocu
 If focus is moved while these events are still bubbling, an exception is thrown.
 
 ## -see-also
-[GettingFocusEventArgs.TrySetNewFocusedElement](gettingfocuseventargs_trysetnewfocusedelement_804964491.md), [Focus navigation for keyboard, gamepad, remote control, and accessibility tools](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation), [Programmatic focus navigation](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation-programmatic)
+[GettingFocusEventArgs.TrySetNewFocusedElement](gettingfocuseventargs_trysetnewfocusedelement_804964491.md), [Keyboard interactions](https://docs.microsoft.com/windows/uwp/design/input/keyboard-interactions), [Focus navigation for keyboard, gamepad, remote control, and accessibility tools](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation), [Programmatic focus navigation](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation-programmatic)
 
 
 ## -examples
