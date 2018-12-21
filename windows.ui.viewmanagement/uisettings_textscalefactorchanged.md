@@ -10,10 +10,18 @@ public event Windows.Foundation.TypedEventHandler TextScaleFactorChanged<Windows
 # Windows.UI.ViewManagement.UISettings.TextScaleFactorChanged
 
 ## -description
+
 Occurs when the system text size setting is changed.
 
 ## -remarks
 
+The value ranges from 1 to 2.25.
+
+>[!NOTE]
+> Not all text is scaled by the same factor. Generally speaking, the larger text is, the less it’s affected by scaling.
+
 ## -examples
 
 ## -see-also
+
+[TextScaleFactor](uisettings_textscalefactor.md), [Text scaling](https://docs.microsoft.com/windows/uwp/design/input/text-scaling), [Accessible text requirements](https://docs.microsoft.com/windows/uwp/design/accessibility/accessible-text-requirements)
