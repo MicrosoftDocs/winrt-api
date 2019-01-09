@@ -43,6 +43,8 @@ The control might also interpret the data being entered differently (typically f
 
 Other properties that affect the touch keyboard are [IsSpellCheckEnabled](textbox_isspellcheckenabledproperty.md), [IsTextPredictionEnabled](textbox_istextpredictionenabledproperty.md), and [PreventKeyboardDisplayOnProgrammaticFocus](textbox_preventkeyboarddisplayonprogrammaticfocus.md). For more info and examples, see [Use input scope to change the touch keyboard](http://msdn.microsoft.com/library/6e5f55d7-24d6-47cc-b457-b6231ede2a71).
 
+Note that while this property can hold a collection of InputeNameScope values, only the first is used, and the rest are ignored.
+
 ## -examples
 Here's how to set the [InputScope](../windows.ui.xaml.input/inputscope.md) in XAML and in code.
 
