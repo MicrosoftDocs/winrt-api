@@ -10,6 +10,7 @@ public event Windows.Foundation.TypedEventHandler DragStarting<Windows.UI.Xaml.U
 # Windows.UI.Xaml.UIElement.DragStarting
 
 ## -description
+
 Occurs when a drag operation is initiated.
 
 ## -xaml-syntax
@@ -20,7 +21,10 @@ Occurs when a drag operation is initiated.
 
 ## -remarks
 
+[DragStarting](uielement_dragstarting.md) is a routed event. For more info on the routed event concept, see [Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
+
 ## -examples
 
 ## -see-also
-[Drag and drop sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620634)
+
+[DragStartingEventArgs](dragstartingeventargs.md), [Drag and drop sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620634)

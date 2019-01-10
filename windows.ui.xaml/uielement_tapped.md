@@ -10,15 +10,17 @@ public event Windows.UI.Xaml.Input.TappedEventHandler Tapped
 # Windows.UI.Xaml.UIElement.Tapped
 
 ## -description
+
 Occurs when an otherwise unhandled **Tap** interaction occurs over the hit test area of this element.
 
 ## -xaml-syntax
+
 ```xaml
 <uiElement Tapped="eventhandler"/>
 ```
 
-
 ## -remarks
+
 Touch, mouse devices and pen devices can all produce a **Tap** action. For more info, see [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input).
 
 See [Touch interaction design](http://msdn.microsoft.com/library/9ba7f613-e5d1-40d4-920b-143094209e3a) for more info on how to use a **Tap** interaction in your app design. The general idea is that a **Tap** interaction on an element invokes the element's primary action in your app.
@@ -44,7 +46,6 @@ If a user interaction also raises [DoubleTapped](uielement_doubletapped.md), [Ta
 The input system processes an action where the user clicks the left mouse button while over the element as a [Tapped](uielement_tapped.md) action. The event doesn't fire until the left mouse button is released. Mouse input doesn't produce [Holding](uielement_holding.md) events by default, no matter how long a mouse button is held down, or which button is held.
 
 For pen devices, touching the pen device to the surface and remaining in one place produces a **Hold** action.
-<!--verify w real pen device-->
 
 ### Controls that do not raise the Tapped event
 
@@ -54,8 +55,8 @@ These controls do not raise the **Tapped** event:
 + [RichEditBox](../windows.ui.xaml.controls/richeditbox.md)
 + [TextBox](../windows.ui.xaml.controls/textbox.md)
 
-
 ## -examples
 
 ## -see-also
-[IsTapEnabled](uielement_istapenabled.md), [PointerPressed](uielement_pointerpressed.md), [DoubleTapped](uielement_doubletapped.md), [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input), [XAML user input events sample](http://go.microsoft.com/fwlink/p/?linkid=231524)
+
+[TappedRoutedEventArgs](../windows.ui.xaml.input/tappedroutedeventargs.md), [IsTapEnabled](uielement_istapenabled.md), [PointerPressed](uielement_pointerpressed.md), [DoubleTapped](uielement_doubletapped.md), [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input), [XAML user input events sample](http://go.microsoft.com/fwlink/p/?linkid=231524)

@@ -10,13 +10,14 @@ public event Windows.UI.Xaml.Input.ManipulationCompletedEventHandler Manipulatio
 # Windows.UI.Xaml.UIElement.ManipulationCompleted
 
 ## -description
+
 Occurs when a manipulation on the [UIElement](uielement.md) is complete.
 
 ## -xaml-syntax
+
 ```xaml
 <uiElement ManipulationCompleted="eventhandler"/>
 ```
-
 
 ## -remarks
 
@@ -30,8 +31,6 @@ For touch actions and also for interaction-specific or manipulation events that 
 
 [ManipulationCompleted](uielement_manipulationcompleted.md) supports the ability to attach event handlers to the route that will be invoked even if the event data for the event is marked [Handled](../windows.ui.xaml.input/manipulationcompletedroutedeventargs_handled.md). See [AddHandler](uielement_addhandler_2121467075.md).
 
-
-<!--The following remark is relevant for Windows 8 > 8.1 migration. See WBB 467590-->
 ### Windows 8 behavior
 
 Windows 8 doesn't fire [ManipulationCompleted](uielement_manipulationcompleted.md) in cases where the inertial phase has started (and [ManipulationInertiaStarting](uielement_manipulationinertiastarting.md) has fired) but the user has tapped on the item before it's finished scrolling, which cancels the inertial phase visually. The issue is fixed starting with Windows 8.1; [ManipulationCompleted](uielement_manipulationcompleted.md) is fired as soon as the tap action cancels the inertial phase.
@@ -41,4 +40,5 @@ Apps that were compiled for Windows 8 but running on Windows 8.1 continue to u
 ## -examples
 
 ## -see-also
-[ManipulationStarted](uielement_manipulationstarted.md), [ManipulationStarting](uielement_manipulationstarting.md), [OnManipulationCompleted](../windows.ui.xaml.controls/control_onmanipulationcompleted_955700152.md), [Using manipulation events](http://msdn.microsoft.com/library/f10bafee-8792-4a57-ae84-aa11ab95355a), [XAML user input events sample](http://go.microsoft.com/fwlink/p/?linkid=231524)
+
+[ManipulationCompletedRoutedEventArgs](../windows.ui.xaml.input/manipulationcompletedroutedeventargs.md), [ManipulationStarted](uielement_manipulationstarted.md), [ManipulationStarting](uielement_manipulationstarting.md), [OnManipulationCompleted](../windows.ui.xaml.controls/control_onmanipulationcompleted_955700152.md), [Using manipulation events](http://msdn.microsoft.com/library/f10bafee-8792-4a57-ae84-aa11ab95355a), [XAML user input events sample](http://go.microsoft.com/fwlink/p/?linkid=231524)

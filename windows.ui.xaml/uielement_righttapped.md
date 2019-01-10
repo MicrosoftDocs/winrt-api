@@ -10,15 +10,17 @@ public event Windows.UI.Xaml.Input.RightTappedEventHandler RightTapped
 # Windows.UI.Xaml.UIElement.RightTapped
 
 ## -description
+
 Occurs when a right-tap input stimulus happens while the pointer is over the element.
 
 ## -xaml-syntax
+
 ```xaml
 <uielement RightTapped = "eventhandler" .../>
 ```
 
-
 ## -remarks
+
 [RightTapped](uielement_righttapped.md) for a touch action results from processing an action that remains in one place for a certain amount of time. If it's a touch action, a [Holding](uielement_holding.md) event from the same element always precedes this, but [RightTapped](uielement_righttapped.md) won't fire until the touch point is released. If the time the pointer is pressed is too short and [Tapped](uielement_tapped.md) fires instead of [Holding](uielement_holding.md), or if the **Hold** action ends with [HoldingState](../windows.ui.xaml.input/holdingroutedeventargs_holdingstate.md) as **Canceled**, [RightTapped](uielement_righttapped.md) won't fire.
 
 [RightTapped](uielement_righttapped.md) is the event to handle for displaying context menus. See [Touch interaction design](http://msdn.microsoft.com/library/9ba7f613-e5d1-40d4-920b-143094209e3a) and [UX guidelines for custom user interactions](http://msdn.microsoft.com/library/52f9607d-e2d0-44e4-9e1c-f856f7072a1e) for more info on how to use a right-tap interaction in your app design.
@@ -41,16 +43,12 @@ The input system processes an action where the user clicks the right mouse butto
 
 Some pen devices have multiple buttons, one of which can be used the same way that the right button on a mouse device is used. This depends on the device and its settings, but if a right-click equivalent is enabled by the pen device, the input system can fire [RightTapped](uielement_righttapped.md) for these actions also.
 
-
-<!--The following remark is relevant for Windows 8 > 8.1 migration. See WBB 458128-->
 ### Windows 8 behavior
 
 Windows 8 had an issue with the data for the [RightTapped](uielement_righttapped.md) event, where the **X** and **Y** values for the point you'd get from [RightTappedRoutedEventArgs.GetPosition](../windows.ui.xaml.input/righttappedroutedeventargs_getposition_1813281865.md) were reversed (**X** was really **Y**; **Y** was really **X**). This issue has been fixed starting with Windows 8.1. But if you're retargeting a Windows 8 app for Windows 8.1, you might have had code that worked around this issue by swapping the **X** and **Y** back. If so, remove that code when you retarget because the issue is now fixed.
 
 Apps that were compiled for Windows 8 but running on Windows 8.1 continue to use this Windows 8 behavior.
 
-
-<!--The following remark is relevant for Windows 8 > 8.1 migration. See WBB 458260-->
 Also, Windows 8 didn't include default key handling for Shift+F10 that would fire this event and then display context menus. Shift+F10 is typically a secondary key combination for the VK_APP virtual key value (the Properties key), and thus Shift+F10 might be expected to fire [RightTapped](uielement_righttapped.md) too. This issue has been fixed starting with Windows 8.1; Shift+F10 now fires [RightTapped](uielement_righttapped.md). You can see this change as default event handling on some controls that have default context menus for text, such as [TextBox](../windows.ui.xaml.controls/textbox.md), or when invoking custom menus and flyouts.
 
 Apps that were compiled for Windows 8 but running on Windows 8.1 do not use this Windows 8 behavior, they use the corrected Windows 8.1 behavior.
@@ -58,4 +56,5 @@ Apps that were compiled for Windows 8 but running on Windows 8.1 do not use th
 ## -examples
 
 ## -see-also
-[IsRightTapEnabled](uielement_isrighttapenabled.md), [PopupMenu](../windows.ui.popups/popupmenu.md), [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input), [XAML user input events sample](http://go.microsoft.com/fwlink/p/?linkid=231524), [Context  menu sample](http://code.msdn.microsoft.com/windowsapps/Context-menu-sample-40840351/view/SourceCode)
+
+[RightTappedRoutedEventArgs](../windows.ui.xaml.input/righttappedroutedeventargs.md), [IsRightTapEnabled](uielement_isrighttapenabled.md), [PopupMenu](../windows.ui.popups/popupmenu.md), [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input), [XAML user input events sample](http://go.microsoft.com/fwlink/p/?linkid=231524), [Context  menu sample](http://code.msdn.microsoft.com/windowsapps/Context-menu-sample-40840351/view/SourceCode)

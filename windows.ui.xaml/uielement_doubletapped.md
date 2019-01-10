@@ -10,15 +10,17 @@ public event Windows.UI.Xaml.Input.DoubleTappedEventHandler DoubleTapped
 # Windows.UI.Xaml.UIElement.DoubleTapped
 
 ## -description
+
 Occurs when an otherwise unhandled **DoubleTap** interaction occurs over the hit test area of this element.
 
 ## -xaml-syntax
+
 ```xaml
 <uiElement DoubleTapped="eventhandler"/>
 ```
 
-
 ## -remarks
+
 A **DoubleTap** interaction is simply two **Tap** interactions that occur in quick succession. The exact timing of what the system interprets as a double tap is adjustable by users through system settings.
 
 See [Touch interaction design](http://msdn.microsoft.com/library/9ba7f613-e5d1-40d4-920b-143094209e3a) for more info on how to use a **DoubleTap** interaction in your app design.
@@ -40,4 +42,5 @@ Specific Windows Runtime controls may have class-based handling for the [DoubleT
 ## -examples
 
 ## -see-also
-[Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input), [XAML user input events sample](http://go.microsoft.com/fwlink/p/?linkid=231524)
+
+[DoubleTappedRoutedEventArgs](../windows.ui.xaml.input/doubletappedroutedeventargs.md), [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input), [XAML user input events sample](http://go.microsoft.com/fwlink/p/?linkid=231524)

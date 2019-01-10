@@ -24,6 +24,8 @@ Occurs when a single, composed character is received by the input queue.
 > [!NOTE]
 > A composed character is a single visual object derived from a sequence of one or more other characters.
 
+[CharacterReceived](uielement_characterreceived.md) is a routed event. For more info on the routed event concept, see [Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
+
 Apps do not receive this event when an [Input Method Editor (IME)](https://msdn.microsoft.com/library/windows/apps/5fcc73e6-f499-47e6-8e81-0014ca4d241c) is enabled. The Input Method Editor (IME) handles all keyboard input and sets [Handled](../windows.ui.xaml.input/characterreceivedroutedeventargs_handled.md) to true.
 
 This event is useful for text input scenarios such as "typeahead find or search" (also known as incremental search, incremental find, or real-time suggestions) where, as the user types, the control progressively searches for and filters text based on the characters in the input queue.
@@ -67,6 +69,6 @@ The [CharacterReceived](uielement_characterreceived.md) event can occur at diffe
 
 ## -see-also
 
-- [ComboBox.IsTextSearchEnabled](../windows.ui.xaml.controls/combobox_istextsearchenabled.md)
+[CharacterReceivedRoutedEventArgs](../windows.ui.xaml.input/characterreceivedroutedeventargs.md), [ComboBox.IsTextSearchEnabled](../windows.ui.xaml.controls/combobox_istextsearchenabled.md)
 
 ## -examples
