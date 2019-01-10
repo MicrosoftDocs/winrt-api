@@ -10,13 +10,14 @@ public event Windows.UI.Xaml.Input.ManipulationDeltaEventHandler ManipulationDel
 # Windows.UI.Xaml.UIElement.ManipulationDelta
 
 ## -description
+
 Occurs when the input device changes position during a manipulation.
 
 ## -xaml-syntax
+
 ```xaml
 <uiElement ManipulationDelta="eventhandler"/>
 ```
-
 
 ## -remarks
 
@@ -33,4 +34,5 @@ For touch actions and also for interaction-specific or manipulation events that 
 ## -examples
 
 ## -see-also
-[OnManipulationDelta](../windows.ui.xaml.controls/control_onmanipulationdelta_1383871802.md), [ManipulationStarted](uielement_manipulationstarted.md), [Delta](../windows.ui.input/manipulationdelta.md), [Using manipulation events](http://msdn.microsoft.com/library/f10bafee-8792-4a57-ae84-aa11ab95355a), [XAML user input events sample](http://go.microsoft.com/fwlink/p/?linkid=231524)
+
+[ManipulationDeltaRoutedEventArgs](../windows.ui.xaml.input/manipulationdeltaroutedeventargs.md), [OnManipulationDelta](../windows.ui.xaml.controls/control_onmanipulationdelta_1383871802.md), [ManipulationStarted](uielement_manipulationstarted.md), [Delta](../windows.ui.input/manipulationdelta.md), [Using manipulation events](http://msdn.microsoft.com/library/f10bafee-8792-4a57-ae84-aa11ab95355a), [XAML user input events sample](http://go.microsoft.com/fwlink/p/?linkid=231524)

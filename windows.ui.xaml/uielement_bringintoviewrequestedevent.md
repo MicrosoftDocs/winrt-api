@@ -10,6 +10,7 @@ public RoutedEvent BringIntoViewRequestedEvent { get; }
 # Windows.UI.Xaml.UIElement.BringIntoViewRequestedEvent
 
 ## -description
+
 Gets the identifier for the BringIntoViewRequested routed event.
 
 ## -property-value

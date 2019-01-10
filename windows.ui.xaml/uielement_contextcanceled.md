@@ -10,6 +10,7 @@ public event Windows.Foundation.TypedEventHandler ContextCanceled<Windows.UI.Xam
 # Windows.UI.Xaml.UIElement.ContextCanceled
 
 ## -description
+
 Occurs when a context input gesture continues into a manipulation gesture, to notify the element that the context flyout should not be opened.
 
 ## -xaml-syntax
@@ -19,8 +20,13 @@ Occurs when a context input gesture continues into a manipulation gesture, to no
 ```
 
 ## -remarks
+
 You typically handle this event for elements that can be manipulated by drag-and-drop. This event is raised when a [ContextRequested](uielement_contextrequested.md) event has been raised, but the element has not received a [PointerReleased](uielement_pointerreleased.md) event before a manipulation begins. This indicates that the user intended to invoke a manipulation rather than a context flyout, so the context flyout should not be opened.
+
+[ContextCanceled](uielement_contextcanceled.md) is a routed event. For more info on the routed event concept, see [Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
 
 ## -examples
 
 ## -see-also
+
+[RoutedEventArgs](routedeventargs.md)

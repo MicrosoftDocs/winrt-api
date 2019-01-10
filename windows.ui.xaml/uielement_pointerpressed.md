@@ -10,22 +10,22 @@ public event Windows.UI.Xaml.Input.PointerEventHandler PointerPressed
 # Windows.UI.Xaml.UIElement.PointerPressed
 
 ## -description
+
 Occurs when the pointer device initiates a **Press** action within this element.
 
 ## -xaml-syntax
+
 ```xaml
 <uiElement PointerPressed="eventhandler"/>
 ```
 
-
 ## -remarks
+
 Touch, mouse, and pen/stylus interactions are received, processed, and managed as pointer input in UWP app. Any of these interactions can produce a [PointerPressed](uielement_pointerpressed.md) event. For more info, see [Handle pointer input](http://msdn.microsoft.com/library/bdbc9e33-4037-4671-9596-471dcf855c82). Pointer events are intended for scenarios where you're interested in multiple pointers and their relationships, or when you are examining specifics of each pointer such as exact coordinate position. Otherwise, you might consider handling gesture events such as [Tapped](uielement_tapped.md).
 
 Use a handler based on [PointerEventHandler](../windows.ui.xaml.input/pointereventhandler.md) to handle this event.
 
 Mouse input is associated with a single pointer assigned when mouse input is first detected. Clicking a mouse button (left, wheel, or right) creates a secondary association between the pointer and that button through the [PointerPressed](uielement_pointerpressed.md) event. The [PointerReleased](uielement_pointerreleased.md) event is fired only when that same mouse button is released (no other button can be associated with the pointer until this event is complete). Because of this exclusive association, other mouse button clicks are routed through the [PointerMoved](uielement_pointermoved.md) event. You can test the mouse button state when handling this event, as shown in the following example.
-
-
 
 [!code-csharp[PointerMoved](../windows.ui.input.inking/code/PointerInput/csharp/MainPage.xaml.cs#SnippetPointerMoved)]
 
@@ -60,14 +60,15 @@ Gesture events can be specifically disabled on individual elements by setting pr
 ### PointerPressed and PointerReleased
 
 Other events instead of [PointerReleased](uielement_pointerreleased.md) may fire at the end of the action— for example, [PointerCanceled](uielement_pointercanceled.md) or [PointerCaptureLost](uielement_pointercapturelost.md). Don't rely on [PointerPressed](uielement_pointerpressed.md) and [PointerReleased](uielement_pointerreleased.md) events always occurring in pairs. To function properly, your app must listen for and handle all events that represent likely conclusions to the **Press** action. Some of the reasons why you might not get a [PointerReleased](uielement_pointerreleased.md) occurrence are:
+
 + Differences in how specific hardware handles touch actions and **Press** actions
 + A programmatic pointer capture from a different pointer
 + User actions that change the relationship of the display area, such as changing resolution or monitor settings
 + Input interactions such as a stylus touching the same surface as a previous touch action
 
-
 ## -examples
 
 ## -see-also
-[Tapped](uielement_tapped.md), [PointerReleased](uielement_pointerreleased.md), [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input), [XAML user input events sample](http://go.microsoft.com/fwlink/p/?linkid=231524)
+
+[PointerRoutedEventArgs](../windows.ui.xaml.input/pointerroutedeventargs.md), [Tapped](uielement_tapped.md), [PointerReleased](uielement_pointerreleased.md), [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input), [XAML user input events sample](http://go.microsoft.com/fwlink/p/?linkid=231524)
 soft.com/fwlink/p/?linkid=231524)

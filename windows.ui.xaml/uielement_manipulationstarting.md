@@ -10,13 +10,14 @@ public event Windows.UI.Xaml.Input.ManipulationStartingEventHandler Manipulation
 # Windows.UI.Xaml.UIElement.ManipulationStarting
 
 ## -description
+
 Occurs when the manipulation processor is first created.
 
 ## -xaml-syntax
+
 ```xaml
 <uiElement ManipulationStarting="eventhandler"/>
 ```
-
 
 ## -remarks
 
@@ -32,8 +33,6 @@ For touch actions and also for interaction-specific or manipulation events that 
 
 [ManipulationStarting](uielement_manipulationstarting.md) supports the ability to attach event handlers to the route that will be invoked even if the event data for the event is marked [Handled](../windows.ui.xaml.input/manipulationstartingroutedeventargs_handled.md). See [AddHandler](uielement_addhandler_2121467075.md).
 
-
-<!--The following remark is relevant for Windows 8 > 8.1 migration. See WBB 458026-->
 ### Windows 8 behavior
 
 Windows 8 had an issue with firing this event if multiple gestures happened in a short period of time. For example, Windows 8 might only fire [ManipulationStarting](uielement_manipulationstarting.md) for the first gesture and not the second. The issue is fixed starting with Windows 8.1; multiple starting gestures processed by the input system each fire a distinct [ManipulationStarting](uielement_manipulationstarting.md) event.
@@ -43,4 +42,5 @@ Apps that were compiled for Windows 8 but running on Windows 8.1 continue to u
 ## -examples
 
 ## -see-also
-[OnManipulationStarting](../windows.ui.xaml.controls/control_onmanipulationstarting_1590761399.md), [ManipulationStarted](uielement_manipulationstarted.md), [Using manipulation events](http://msdn.microsoft.com/library/f10bafee-8792-4a57-ae84-aa11ab95355a), [XAML user input events sample](http://go.microsoft.com/fwlink/p/?linkid=231524)
+
+[ManipulationStartingRoutedEventArgs](../windows.ui.xaml.input/manipulationstartingroutedeventargs.md), [OnManipulationStarting](../windows.ui.xaml.controls/control_onmanipulationstarting_1590761399.md), [ManipulationStarted](uielement_manipulationstarted.md), [Using manipulation events](http://msdn.microsoft.com/library/f10bafee-8792-4a57-ae84-aa11ab95355a), [XAML user input events sample](http://go.microsoft.com/fwlink/p/?linkid=231524)
