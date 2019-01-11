@@ -38,7 +38,9 @@ This code results in a [ScrollViewer](scrollviewer.md) named `myScrollViewer` be
 bool flag = myScrollViewer.ChangeView(2, null, null, true); 
 ```
 
-
+```cppwinrt
+bool flag{ myScrollViewer.ChangeView(Windows::Foundation::IReference<double>{2.f}, nullptr, nullptr, true) };
+```
 
 ## -see-also
 [ChangeView(IReference(Double), IReference(Double), IReference(Single))](scrollviewer_changeview_1425504772.md)
