@@ -11,7 +11,7 @@ public Uri ContentUri { get;  set; }
 
 ## -description
 
-Gets and sets the content Uniform Resource Identifier (URI) of the image that will be used to represent the activity on another device.
+Gets and sets the content Uniform Resource Identifier (URI) of the content or document that is represented by the UserActivity.
 
 ## -property-value
 
