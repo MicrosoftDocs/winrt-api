@@ -10,10 +10,10 @@ public class LockScreenCallUI : Windows.ApplicationModel.Calls.ILockScreenCallUI
 # Windows.ApplicationModel.Calls.LockScreenCallUI
 
 ## -description
-Handles communication to and from the lock screen.
+**Deprecated.** Handles communication to and from the lock screen.
 
 ## -remarks
-
+[!Warning] This class was deprecated after Windows 8.1.
 
 ## -examples
 
