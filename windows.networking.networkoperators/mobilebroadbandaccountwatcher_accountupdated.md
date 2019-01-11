@@ -44,7 +44,6 @@ The AccountUpdated event is triggered when any of the following properties chang
 + [MobileBroadbandNetwork](mobilebroadbandnetwork.md) class:
 
 + [AccessPointName](mobilebroadbandnetwork_accesspointname.md)
-+ [AccessPointName](mobilebroadbandnetwork_accesspointname.md)
 + [NetworkRegistrationState](mobilebroadbandnetwork_networkregistrationstate.md)
 + [PacketAttachNetworkError](mobilebroadbandnetwork_packetattachnetworkerror.md)
 + [RegistrationNetworkError](mobilebroadbandnetwork_registrationnetworkerror.md)
