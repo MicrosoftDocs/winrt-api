@@ -10,7 +10,7 @@ public event Windows.Foundation.TypedEventHandler EndRequested<Windows.Applicati
 # Windows.ApplicationModel.Calls.LockScreenCallUI.EndRequested
 
 ## -description
-Occurs when the lock screen wants to end the call.
+**Deprecated.** Occurs when the lock screen wants to end the call.
 
 ## -remarks
 The [EndRequested](lockscreencallui_endrequested.md) event typically happens when the user taps the “End call” button on the lock screen, but the event can also happen under other conditions. For example, suppose a call comes in while a call is already active on the lock screen. By accepting the new call on the lock screen, the previous call ends.
