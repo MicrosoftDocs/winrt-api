@@ -10,6 +10,7 @@
 Provides access to game controller input.
 
 ## -remarks
+UWP apps cannot receive input from an Xbox One Controller while the app is not in focus.
 
 ## -examples
 
