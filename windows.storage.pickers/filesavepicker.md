@@ -15,6 +15,9 @@ Represents a file picker that lets the user choose the file name, extension, and
 
 ## -remarks
 
+> [!IMPORTANT]
+> You must use the [FileTypeChoices property](filesavepicker_filetypechoices.md) property to specify one or more file types before you call the PickSaveFileAsync method, or the picker will thrown an exception. 
+
 To learn how to save files through the file picker, see [How to save files through file pickers](https://docs.microsoft.com/windows/uwp/files/quickstart-save-a-file-with-a-picker).
 
 To get started accessing files and folders file picker, see [Files, folders, and libraries ](https://docs.microsoft.com/en-us/windows/uwp/files/index).
