@@ -29,4 +29,17 @@ A settings object that contains the user's current assigned access settings.
 ## -see-also
 
 ## -examples
+```csharp
+using Windows.System.UserProfile; 
 
+// Retrieve AssignedAccessSettings for all users
+async void GetAssignedAccessSettingsForAllUsers()
+{
+    foreach (var user in await Windows.System.User.FindAllAsync())
+    {
+        var targetUserSettings = AssignedAccessSettings.GetForUser(user);
+        // determine the behavior according to the user's AssignedAccessSettings
+    }
+}
+
+```
