@@ -84,7 +84,7 @@ public static int Main(string[] args)
 }
 ```
 
-Also see [Visual Studio support for C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt#visual-studio-support-for-cwinrt-and-the-vsix).
+Also see [Visual Studio support for C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt#visual-studio-support-for-cwinrt-xaml-and-the-vsix).
 
 ```cppwinrt
 // main.cpp : In Visual Studio, create a new Windows Console Application (C++/WinRT).

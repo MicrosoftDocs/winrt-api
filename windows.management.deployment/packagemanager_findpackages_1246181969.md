@@ -64,7 +64,7 @@ private static void DisplayPackageInfo(Windows.ApplicationModel.Package package)
 }
 ```
 
-Also see [Visual Studio support for C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt#visual-studio-support-for-cwinrt-and-the-vsix).
+Also see [Visual Studio support for C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt#visual-studio-support-for-cwinrt-xaml-and-the-vsix).
 
 ```cppwinrt
 // main.cpp : In Visual Studio, create a new Windows Console Application (C++/WinRT), and run it (or run Visual Studio) as administrator.
