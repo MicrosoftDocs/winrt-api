@@ -18,7 +18,7 @@ Apply this attribute to C++-based data classes to enable their use as binding so
 ## -examples
 The following code example shows the typical usage pattern for this attribute. For the complete code listing, see the [XAML data binding sample](http://go.microsoft.com/fwlink/p/?linkid=226854).
 
-If you're using [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt), then you need to add the **BindableAttribute** only if you're using the [{Binding}](/windows/uwp/xaml-platform/binding-markup-extension) markup extension. If you're using the [{x:Bind}](/windows/uwp/xaml-platform/x-bind-markup-extension) markup extension, then you don't need **BindableAttribute** (for more info, see see [XAML controls; bind to a C++/WinRT property](/windows/uwp/cpp-and-winrt-apis/binding-property)).
+If you're using [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt), then you need to add the **BindableAttribute** only if you're using the [{Binding}](/windows/uwp/xaml-platform/binding-markup-extension) markup extension. If you're using the [{x:Bind}](/windows/uwp/xaml-platform/x-bind-markup-extension) markup extension, then you don't need **BindableAttribute** (for more info, see [XAML controls; bind to a C++/WinRT property](/windows/uwp/cpp-and-winrt-apis/binding-property)).
 
 ```cppwinrt
 // MyColors.idl
