@@ -10,21 +10,20 @@ public object DataContext { get;  set; }
 # Windows.UI.Xaml.FrameworkElement.DataContext
 
 ## -description
-Gets or sets the data context for a [FrameworkElement](frameworkelement.md) when it participates in data binding.
+Gets or sets the data context for a [FrameworkElement](frameworkelement.md). A common use of a data context is when a **FrameworkElement** uses the [{Binding}](/windows/uwp/xaml-platform/binding-markup-extension) markup extension and participates in data binding.
 
 ## -xaml-syntax
 ```xaml
 <frameworkElement DataContext="binding"/>
 - or -
 <frameworkElement DataContext="{StaticResource keyedObject}"/>
- 
 ```
-
 
 ## -xaml-values
 <dl><dt>binding</dt><dd>bindingA binding expression that can reference an existing data context, or a property in the data context. See Data binding overview or {Binding} markup extension.</dd>
 <dt>keyedObject</dt><dd>keyedObjectThe x:Key attribute value of an object that exists in an in-scope Resources collection. Typically, this is an object element instantiation of a custom type defined elsewhere in your code, and requires a custom XAML namespace mapping in the ResourceDictionary.</dd>
 </dl>
+
 ## -property-value
 The object to use as data context.
 
@@ -46,7 +45,121 @@ A common scenario for C# and Microsoft Visual Basic data contexts is to use a CL
 ## -examples
 This example sets the [DataContext](frameworkelement_datacontext.md) directly to an instance of a custom class.
 
+If you're using [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt) and the [{Binding}](/windows/uwp/xaml-platform/binding-markup-extension) markup extension, then you'll use the **FrameworkElement::DataContext** property, and the [BindableAttribute](/uwp/api/windows.ui.xaml.data.bindableattribute). If you're using the [{x:Bind}](/windows/uwp/xaml-platform/x-bind-markup-extension) markup extension, then you won't use **FrameworkElement::DataContext** nor the **BindableAttribute**.
 
+For more background on the C++/WinRT code example below (for example, how to use the `.idl` file listing, and what to do with the implementation files that it generates for you), see [XAML controls; bind to a C++/WinRT property](/windows/uwp/cpp-and-winrt-apis/binding-property).
+
+```cppwinrt
+// MyColors.idl
+namespace MyColorsApp
+{
+    [bindable]
+    [default_interface]
+    runtimeclass MyColors : Windows.UI.Xaml.Data.INotifyPropertyChanged
+    {
+        MyColors();
+        Windows.UI.Xaml.Media.SolidColorBrush Brush1;
+    }
+}
+
+// MyColors.h
+#pragma once
+#include "MyColors.g.h"
+namespace winrt::MyColorsApp::implementation
+{
+    struct MyColors : MyColorsT<MyColors>
+    {
+        MyColors() = default;
+
+        Windows::UI::Xaml::Media::SolidColorBrush Brush1();
+        void Brush1(Windows::UI::Xaml::Media::SolidColorBrush const& value);
+        winrt::event_token PropertyChanged(Windows::UI::Xaml::Data::PropertyChangedEventHandler const& handler);
+        void PropertyChanged(winrt::event_token const& token) noexcept;
+
+    private:
+        Windows::UI::Xaml::Media::SolidColorBrush m_brush1{ nullptr };
+        winrt::event<Windows::UI::Xaml::Data::PropertyChangedEventHandler> m_propertyChanged;
+    };
+}
+
+namespace winrt::MyColorsApp::factory_implementation
+{
+    struct MyColors : MyColorsT<MyColors, implementation::MyColors>
+    {
+    };
+}
+
+// MyColors.cpp
+#include "pch.h"
+#include "MyColors.h"
+
+namespace winrt::MyColorsApp::implementation
+{
+    Windows::UI::Xaml::Media::SolidColorBrush MyColors::Brush1()
+    {
+        return m_brush1;
+    }
+
+    void MyColors::Brush1(Windows::UI::Xaml::Media::SolidColorBrush const& value)
+    {
+        if (m_brush1 != value)
+        {
+            m_brush1 = value;
+            m_propertyChanged(*this, Windows::UI::Xaml::Data::PropertyChangedEventArgs{ L"Brush1" });
+        }
+    }
+
+    winrt::event_token MyColors::PropertyChanged(Windows::UI::Xaml::Data::PropertyChangedEventHandler const& handler)
+    {
+        return m_propertyChanged.add(handler);
+    }
+
+    void MyColors::PropertyChanged(winrt::event_token const& token) noexcept
+    {
+        m_propertyChanged.remove(token);
+    }
+}
+
+<!-- MainPage.xaml-->
+...
+<TextBox x:Name="MyTextBox" Background="{Binding Brush1}"/>
+...
+
+// MainPage.h
+...
+#include "MyColors.h"
+#include "MainPage.g.h"
+...
+
+// MainPage.cpp
+#include "pch.h"
+#include "MainPage.h"
+
+using namespace winrt;
+using namespace Windows::UI;
+using namespace Windows::UI::Xaml;
+using namespace Windows::UI::Xaml::Media;
+
+namespace winrt::MyColorsApp::implementation
+{
+    MainPage::MainPage()
+    {
+        InitializeComponent();
+
+        // Create an instance of the MyColors class
+        // which implements INotifyPropertyChanged.
+        winrt::MyColorsApp::MyColors textcolor{ winrt::make<winrt::MyColorsApp::implementation::MyColors>() };
+
+        // Set the Brush1 property value to a new SolidColorBrush
+        // with the color Red.
+        textcolor.Brush1(SolidColorBrush(Colors::Red()));
+
+        // Set the DataContext of the TextBox named MyTextBox.
+        MyTextBox().DataContext(textcolor);
+    }
+...
+}
+```
 
 [!code-csharp[DataContext](../windows.ui.xaml.controls.primitives/code/Binding_Simple/csharp/Page.xaml.cs#SnippetDataContext)]
 

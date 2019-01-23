@@ -13,14 +13,28 @@ public class BindableAttribute : System.Attribute
 Specifies that a type defined in C++ can be used for binding.
 
 ## -remarks
-Apply this attribute to C++-based data classes to enable their use as binding sources. Common language runtime (CLR) types, including all types defined in C# and Microsoft Visual Basic, are bindable by default. You can also make a type bindable by implementing [ICustomPropertyProvider](icustompropertyprovider.md). For more info, see [Data binding in depth](http://msdn.microsoft.com/library/41e1b4f1-6caf-4128-a61a-4e400b149011).
+Apply this attribute to C++-based data classes to enable their use as binding sources. Common language runtime (CLR) types, including all types defined in C# and Microsoft Visual Basic, are bindable by default. You can also make a type bindable by implementing [ICustomPropertyProvider](icustompropertyprovider.md). For more info, see [Data binding in depth](/windows/uwp/data-binding/data-binding-in-depth).
 
 ## -examples
 The following code example shows the typical usage pattern for this attribute. For the complete code listing, see the [XAML data binding sample](http://go.microsoft.com/fwlink/p/?linkid=226854).
 
-For an example of binding using C++/WinRT, see [XAML controls; bind to a C++/WinRT property](/windows/uwp/cpp-and-winrt-apis/binding-property).
+If you're using [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt), then you need to add the **BindableAttribute** only if you're using the [{Binding}](/windows/uwp/xaml-platform/binding-markup-extension) markup extension. If you're using the [{x:Bind}](/windows/uwp/xaml-platform/x-bind-markup-extension) markup extension, then you don't need **BindableAttribute** (for more info, see [XAML controls; bind to a C++/WinRT property](/windows/uwp/cpp-and-winrt-apis/binding-property)).
 
-```cpp
+```cppwinrt
+// MyColors.idl
+namespace MyColorsApp
+{
+    [bindable]
+    [default_interface]
+    runtimeclass MyColors : Windows.UI.Xaml.Data.INotifyPropertyChanged
+    {
+        MyColors();
+        Windows.UI.Xaml.Media.SolidColorBrush Brush1;
+    }
+}
+```
+
+```cppcx
 [Windows::UI::Xaml::Data::Bindable]
 public ref class Employee sealed : Windows::UI::Xaml::Data::INotifyPropertyChanged
 {
@@ -29,4 +43,4 @@ public ref class Employee sealed : Windows::UI::Xaml::Data::INotifyPropertyChang
 ```
 
 ## -see-also
-[Attribute](https://msdn.microsoft.com/library/system.attribute.aspx), [Binding](binding.md), [ICustomPropertyProvider](icustompropertyprovider.md), [XAML data binding sample](http://go.microsoft.com/fwlink/p/?linkid=226854), [Data binding in depth](http://msdn.microsoft.com/library/41e1b4f1-6caf-4128-a61a-4e400b149011)
+[Attribute](https://msdn.microsoft.com/library/system.attribute.aspx), [Binding](binding.md), [ICustomPropertyProvider](icustompropertyprovider.md), [XAML data binding sample](http://go.microsoft.com/fwlink/p/?linkid=226854), [Data binding in depth](http://msdn.microsoft.com/library/41e1b4f1-6caf-4128-a61a-4e400b149011), [XAML controls; bind to a C++/WinRT property](/windows/uwp/cpp-and-winrt-apis/binding-property)
