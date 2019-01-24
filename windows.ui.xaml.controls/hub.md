@@ -10,7 +10,7 @@ public class Hub : Windows.UI.Xaml.Controls.Control, Windows.UI.Xaml.Controls.IH
 # Windows.UI.Xaml.Controls.Hub
 
 ## -description
-Represents a control that displays groups of content in a panning view.
+**For Windows 10 and later: We recommend against using this control; use one of the other navigation controls instead. For a list, see the [Navigation basics](https://docs.microsoft.com/windows/uwp/design/basics/navigation-basics) article.** Represents a control that displays groups of content in a panning view.
 
 ## -xaml-syntax
 ```xaml
@@ -21,11 +21,7 @@ Represents a control that displays groups of content in a panning view.
 </Hub>
 ```
 
-
 ## -remarks
-
-> [!TIP]
-> For more info, design guidance, and code examples, see [Hub control/pattern](/windows/uwp/design/controls-and-patterns/hub).
 
 Use a [Hub](hub.md) to show different collections of data, either from the same source or from different sources.
 
@@ -61,13 +57,6 @@ This table shows the resources used by the [Hub](hub.md) control.
 </table>
 
 ## -examples
-
-> [!TIP]
-> For more info, design guidance, and code examples, see [Hub control/pattern](/windows/uwp/design/controls-and-patterns/hub).
->
-> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the Hub in action](xamlcontrolsgallery:/item/Hub).
-> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics)
 
 This example shows the basic XAML used to create a [Hub](hub.md).
 
@@ -126,4 +115,4 @@ private void Hub_SectionHeaderClick(object sender, HubSectionHeaderClickEventArg
 
 
 ## -see-also
-[Hub overview](https://docs.microsoft.com/windows/uwp/controls-and-patterns/hub), [Hub styles and templates](http://msdn.microsoft.com/library/534813df-ce43-497e-b7e2-9348df034c8a), [XAML Hub control sample (Windows 8)](http://go.microsoft.com/fwlink/p/?LinkID=310072), [ISemanticZoomInformation](isemanticzoominformation.md)
+[Navigation basics](https://docs.microsoft.com/windows/uwp/design/basics/navigation-basics)
