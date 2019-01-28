@@ -19,4 +19,4 @@ To learn more about the 3D model repair algorithm implemented in these APIs and 
 
 ## -see-also
 
-[Print3DTask class](print3dtask.md), [3D printing from your app](https://msdn.microsoft.com/en-us/windows/uwp/devices-sensors/3d-print-from-app), [3MF Specification](http://go.microsoft.com/fwlink/p/?LinkId=616252), [3D Model Repair service](http://aka.ms/modelrepair), [3D Printing from Unity sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=722936), [3D printing sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/3DPrinting)
+[Print3DTask class](print3dtask.md), [3D printing from your app](https://msdn.microsoft.com/windows/uwp/devices-sensors/3d-print-from-app), [3MF Specification](http://go.microsoft.com/fwlink/p/?LinkId=616252), [3D Model Repair service](http://aka.ms/modelrepair), [3D Printing from Unity sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=722936), [3D printing sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/3DPrinting)

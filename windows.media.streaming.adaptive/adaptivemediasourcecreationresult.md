@@ -15,9 +15,9 @@ Represents the result of the creation of a [AdaptiveMediaSource](adaptivemediaso
 ## -remarks
 This object is accessed when you call one of the [CreateFromStreamAsync](adaptivemediasource_createfromstreamasync_337009516.md) or [CreateFromUriAsync](adaptivemediasource_createfromuriasync_832683104.md)  methods to create a [AdaptiveMediaSource](adaptivemediasource.md) object.
 
-For how-to guidance for using adaptive streaming in your app, see [Adaptive streaming](https://msdn.microsoft.com/en-us/windows/uwp/audio-video-camera/adaptive-streaming).
+For how-to guidance for using adaptive streaming in your app, see [Adaptive streaming](https://msdn.microsoft.com/windows/uwp/audio-video-camera/adaptive-streaming).
 
 ## -examples
 
 ## -see-also
-[Adaptive streaming](https://msdn.microsoft.com/en-us/windows/uwp/audio-video-camera/adaptive-streaming)
+[Adaptive streaming](https://msdn.microsoft.com/windows/uwp/audio-video-camera/adaptive-streaming)

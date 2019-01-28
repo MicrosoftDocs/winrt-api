@@ -88,7 +88,7 @@ This enumeration is used as an input value to the [GetAnnotationTypes](../window
 
 The values in [AnnotationType](annotationtype.md) parallel the values in the [Annotation Type Identifiers](http://msdn.microsoft.com/library/46948b7c-ec9f-4b55-b769-62ee8be11d33) constants.
 
-<!--The descriptions in this topic are adapted or taken directly from http://msdn.microsoft.com/en-us/library/windows/desktop/hh448743(v=vs.85).aspx-->
+<!--The descriptions in this topic are adapted or taken directly from http://msdn.microsoft.com/library/windows/desktop/hh448743(v=vs.85).aspx-->
 
 ### Version history
 

@@ -47,4 +47,4 @@ End Sub
 
 
 ## -see-also
-[OnActivated](application_onactivated_603737819.md), [Resuming](application_resuming.md), [Launching and resuming apps](https://docs.microsoft.com/en-us/windows/uwp/launch-resume/)
+[OnActivated](application_onactivated_603737819.md), [Resuming](application_resuming.md), [Launching and resuming apps](https://docs.microsoft.com/windows/uwp/launch-resume/)

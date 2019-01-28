@@ -16,7 +16,7 @@ Creates a new instance of the [PopupMenu](popupmenu.md) class.
 You can see complete code examples that demonstrate how to create and customize context menu in the [Context menu sample](http://go.microsoft.com/fwlink/p/?linkid=234891) on the [ sample home page](http://go.microsoft.com/fwlink/p/?linkid=226952).
 
 ## -examples
-To customize the context menu, call [preventDefault](https://msdn.microsoft.com/en-us/library/ff975967(v=vs.85).aspx) on the [oncontextmenu](XREF:TODO:wwa.oncontextmenu_Event) event (`e` in the example) to suppress the default context menu, and then create a new, empty context menu as shown in the [Context menu sample](http://go.microsoft.com/fwlink/p/?linkid=234891).
+To customize the context menu, call [preventDefault](https://msdn.microsoft.com/library/ff975967(v=vs.85).aspx) on the [oncontextmenu](XREF:TODO:wwa.oncontextmenu_Event) event (`e` in the example) to suppress the default context menu, and then create a new, empty context menu as shown in the [Context menu sample](http://go.microsoft.com/fwlink/p/?linkid=234891).
 
 
 

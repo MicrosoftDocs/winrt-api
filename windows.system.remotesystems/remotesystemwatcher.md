@@ -21,7 +21,7 @@ This class is instantiated when the static method [CreateWatcher](remotesystem_c
 ## -examples
 
 ## -see-also
-[Connected apps and devices (Project Rome)](https://msdn.microsoft.com/en-us/windows/uwp/launch-resume/connected-apps-and-devices)
+[Connected apps and devices (Project Rome)](https://msdn.microsoft.com/windows/uwp/launch-resume/connected-apps-and-devices)
 
 ## -capabilities
 remoteSystem

@@ -27,7 +27,7 @@ To use the [NavigateToLocalStreamUri](webview_navigatetolocalstreamuri_153825090
 The [IUriToStreamResolver](../windows.web/iuritostreamresolver.md) interface has one method, [UriToStreamAsync](../windows.web/iuritostreamresolver_uritostreamasync_1256896073.md) which takes the URI and returns the stream. The URI is in the form of “ms-local-stream://appname_KEY/folder/file” where KEY identifies the resolver. Use [BuildLocalStreamUri](webview_buildlocalstreamuri_803594427.md) to create a URI in the correct format that references the local content to load.
 
 > [!NOTE]
-> Your [IUriToStreamResolver](../windows.web/iuritostreamresolver.md) implementation must be agile to prevent deadlock that can occur when the UI thread waits for the [IUriToStreamResolver](../windows.web/iuritostreamresolver.md) to finish its work before continuing. For more info, see [Threading and Marshaling](https://docs.microsoft.com/en-us/cpp/cppcx/threading-and-marshaling-c-cx)
+> Your [IUriToStreamResolver](../windows.web/iuritostreamresolver.md) implementation must be agile to prevent deadlock that can occur when the UI thread waits for the [IUriToStreamResolver](../windows.web/iuritostreamresolver.md) to finish its work before continuing. For more info, see [Threading and Marshaling](https://docs.microsoft.com/cpp/cppcx/threading-and-marshaling-c-cx)
 
 ## -examples
 The following code example shows how to create and use a resolver that will serve a file from the app package. For a complete example, see the [XAML WebView control sample](http://go.microsoft.com/fwlink/p/?linkid=238582).

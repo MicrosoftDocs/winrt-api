@@ -23,9 +23,9 @@ An asynchronous operation to retrieve the base64 encoded PKCS #10 certificate re
 Certificate enrollment can be performed in an app container. We recommend that you use the following request objects to submit the request:
 
 
-+ [XMLHttpRequest](https://msdn.microsoft.com/en-us/library/ms535874(v=vs.85).aspx) (JavaScript)
++ [XMLHttpRequest](https://msdn.microsoft.com/library/ms535874(v=vs.85).aspx) (JavaScript)
 + [HttpWebRequest](https://msdn.microsoft.com/library/system.net.httpwebrequest.aspx) (C#)
-+ [IXMLHTTPRequest](https://msdn.microsoft.com/en-us/library/ms759148(v=vs.85).aspx) (C++)
++ [IXMLHTTPRequest](https://msdn.microsoft.com/library/ms759148(v=vs.85).aspx) (C++)
 The [CertificateRequestProperties](certificaterequestproperties.md) object contains the following default values.
 
 <table>

@@ -27,4 +27,4 @@ The returned support object for the custom property, or **nullptr**.
 ## -examples
 
 ## -see-also
-[typeid component extension](https://msdn.microsoft.com/en-us/library/kwd9abya.aspx)
+[typeid component extension](https://msdn.microsoft.com/library/kwd9abya.aspx)

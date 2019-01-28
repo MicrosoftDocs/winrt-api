@@ -13,7 +13,7 @@ public class VideoEffects
 Provides video-related effects.
 
 ## -remarks
-For information in using the effects when capturing video, see [Effects for video capture](https://msdn.microsoft.com/en-us/windows/uwp/audio-video-camera/effects-for-video-capture).
+For information in using the effects when capturing video, see [Effects for video capture](https://msdn.microsoft.com/windows/uwp/audio-video-camera/effects-for-video-capture).
 
 ## -examples
 The following JavaScript example adds the [VideoStabilization](videoeffects_videostabilization.md) effect to a &lt;video&gt; element. To add a different effect, replace the first parameter with the activatable ClassID of your media extension.
@@ -31,4 +31,4 @@ myVideo.msAddVideoEffect(
 
 
 ## -see-also
-[Effects for video capture](https://msdn.microsoft.com/en-us/windows/uwp/audio-video-camera/effects-for-video-capture), [Media extension sample](http://go.microsoft.com/fwlink/p/?linkid=241427)
+[Effects for video capture](https://msdn.microsoft.com/windows/uwp/audio-video-camera/effects-for-video-capture), [Media extension sample](http://go.microsoft.com/fwlink/p/?linkid=241427)

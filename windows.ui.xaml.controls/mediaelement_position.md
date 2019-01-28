@@ -22,7 +22,7 @@ Set this property to set a specific start-play position within the media.
 A **TimeSpan** is represented as different types depending on the programming language you are using. 
 
 > **C# or Microsoft Visual Basic**
-> Use a [System.TimeSpan](https://msdn.microsoft.com/library/system.timespan.aspx) structure. [System.TimeSpan](https://msdn.microsoft.com/library/system.timespan.aspx) has utility members such as [Parse(String)](https://docs.microsoft.com/en-us/dotnet/api/system.timespan.parse#System_TimeSpan_Parse_System_String_) that make it easy to create, change or compare time values.
+> Use a [System.TimeSpan](https://msdn.microsoft.com/library/system.timespan.aspx) structure. [System.TimeSpan](https://msdn.microsoft.com/library/system.timespan.aspx) has utility members such as [Parse(String)](https://docs.microsoft.com/dotnet/api/system.timespan.parse#System_TimeSpan_Parse_System_String_) that make it easy to create, change or compare time values.
 
 
 

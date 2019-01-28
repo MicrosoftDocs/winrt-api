@@ -29,7 +29,7 @@ When a user taps into a text input box using a Windows pen, the text box transfo
 
 ## -examples
 
-In this example, we disable the handwriting view by setting the [IsHandwritingViewEnabled](https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.richeditbox.ishandwritingviewenabled) ​property of the [RichEditBox](https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.controls.richeditbox) control to false. All text controls that support the handwriting view support a similar property.
+In this example, we disable the handwriting view by setting the [IsHandwritingViewEnabled](https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.richeditbox.ishandwritingviewenabled) ​property of the [RichEditBox](https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.richeditbox) control to false. All text controls that support the handwriting view support a similar property.
 ​
 ```xaml
 <RichEditBox Name="NoHandwritingRichEditBox" 

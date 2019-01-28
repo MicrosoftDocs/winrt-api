@@ -32,7 +32,7 @@ Typically, touch input is used for direct manipulation of an object or the app U
 When the app starts, only pen inking is supported, with touch used for panning or zooming of the inking surface. When touch inking is enabled, the inking surface cannot be panned or zoomed through touch input.
 
 > [!NOTE]
-> See [Inking controls](https://msdn.microsoft.com/en-us/windows/uwp/controls-and-patterns/inking-controls) for both [InkCanvas](inkcanvas.md) and [InkToolbar](inktoolbar.md) UX guidelines. The following recommendations are relevant to this example:
+> See [Inking controls](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/inking-controls) for both [InkCanvas](inkcanvas.md) and [InkToolbar](inktoolbar.md) UX guidelines. The following recommendations are relevant to this example:
 + The [InkToolbar](inktoolbar.md), and inking in general, is best experienced through an active pen. However, inking with mouse and touch can be supported if required by your app.
 + If supporting inking with touch input, we recommend using the "ED5F" icon from the "Segoe MLD2 Assets" font for the toggle button, with a "Touch writing" tooltip.
 

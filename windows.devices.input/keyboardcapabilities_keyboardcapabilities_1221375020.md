@@ -17,4 +17,4 @@ Initializes a new instance of the [KeyboardCapabilities](keyboardcapabilities_ke
 ## -examples
 
 ## -see-also
-[Quickstart: Identifying input devices](https://docs.microsoft.com/en-us/windows/uwp/design/input/identify-input-devices)
+[Quickstart: Identifying input devices](https://docs.microsoft.com/windows/uwp/design/input/identify-input-devices)

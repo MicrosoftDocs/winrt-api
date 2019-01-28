@@ -23,7 +23,7 @@ The properties of the [RemoteSystem](remotesystem.md) class are used to determin
 
 ## -see-also
 
-[Connected apps and devices (Project Rome)](https://msdn.microsoft.com/en-us/windows/uwp/launch-resume/connected-apps-and-devices), [Remote systems sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/RemoteSystems)
+[Connected apps and devices (Project Rome)](https://msdn.microsoft.com/windows/uwp/launch-resume/connected-apps-and-devices), [Remote systems sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/RemoteSystems)
 
 ## -capabilities
 

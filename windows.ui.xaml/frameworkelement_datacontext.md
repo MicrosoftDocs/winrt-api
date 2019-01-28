@@ -41,7 +41,7 @@ Setting a [DataContext](frameworkelement_datacontext.md) is convenient for setti
 
 How you implement the object data source varies depending on your requirements and your programming language. For more info, see [Data binding in depth](http://msdn.microsoft.com/library/41e1b4f1-6caf-4128-a61a-4e400b149011).
 
-A common scenario for C# and Microsoft Visual Basic data contexts is to use a CLR-defined business object that supports change notification. For a business object, the custom class used as data context typically implements [INotifyPropertyChanged](../windows.ui.xaml.data/inotifypropertychanged.md), so that updates to the data can update a one-way or two-way binding. If the data source is a collection of business objects, it can implement [INotifyCollectionChanged](../windows.ui.xaml.interop/inotifycollectionchanged.md) plus list support ([IList<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ilist-1) or [List<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ilist-1)), or derive from [ObservableCollection<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.objectmodel.observablecollection-1).
+A common scenario for C# and Microsoft Visual Basic data contexts is to use a CLR-defined business object that supports change notification. For a business object, the custom class used as data context typically implements [INotifyPropertyChanged](../windows.ui.xaml.data/inotifypropertychanged.md), so that updates to the data can update a one-way or two-way binding. If the data source is a collection of business objects, it can implement [INotifyCollectionChanged](../windows.ui.xaml.interop/inotifycollectionchanged.md) plus list support ([IList<T>](https://docs.microsoft.com/dotnet/api/system.collections.generic.ilist-1) or [List<T>](https://docs.microsoft.com/dotnet/api/system.collections.generic.ilist-1)), or derive from [ObservableCollection<T>](https://docs.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1).
 
 ## -examples
 This example sets the [DataContext](frameworkelement_datacontext.md) directly to an instance of a custom class.
@@ -53,5 +53,5 @@ This example sets the [DataContext](frameworkelement_datacontext.md) directly to
 [!code-vb[DataContext](../windows.ui.xaml.controls.primitives/code/Binding_Simple/vbnet/BlankPage.xaml.vb#SnippetDataContext)]
 
 ## -see-also
-[Binding](../windows.ui.xaml.data/binding.md), [Data binding in depth](http://msdn.microsoft.com/library/41e1b4f1-6caf-4128-a61a-4e400b149011), [ObservableCollection<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.objectmodel.observablecollection-1)
+[Binding](../windows.ui.xaml.data/binding.md), [Data binding in depth](http://msdn.microsoft.com/library/41e1b4f1-6caf-4128-a61a-4e400b149011), [ObservableCollection<T>](https://docs.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1)
 jectModel.ObservableCollection`1)
