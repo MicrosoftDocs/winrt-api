@@ -44,7 +44,7 @@ An app developer wants to have a button in their app that allows a user to check
 private async void CheckForUpdatesButton_Click(object sender, RoutedEventArgs e)
 {
     PackageUpdateAvailabilityResult result = await Package.Current.CheckUpdateAvailabilityAsync();
-    switch (result.PackageUpdateAvailability) 
+    switch (result.Availability) 
     {
         case PackageUpdateAvailability.Available:
             GoToUpdateAvailableUIView();
@@ -75,7 +75,7 @@ public async void CheckForAvailableUpdatesAndLaunchAsync(string targetPackageFul
     Package package = pm.FindPackageForUser(string.Empty /*current user*/, targetPackageFullName);
 
     PackageUpdateAvailabilityResult result = await package.CheckUpdateAvailabilityAsync();
-    switch (result.PackageUpdateAvailability)
+    switch (result.Availability)
     {
         case PackageUpdateAvailability.Available:
             GoToUpdateAvailableUIView();
