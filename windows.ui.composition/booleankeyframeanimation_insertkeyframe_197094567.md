@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.Composition.BooleanKeyFrameAnimation.InsertKeyFrame(System.Single,System.Boolean)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.Display.Core.DisplayPrimaryDescription.#ctor(System.UInt32,System.UInt32,Windows.Graphics.DirectX.DirectXPixelFormat,Windows.Graphics.DirectX.DirectXColorSpace,System.Boolean,Windows.Graphics.DirectX.Direct3D11.Direct3DMultisampleDescription)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

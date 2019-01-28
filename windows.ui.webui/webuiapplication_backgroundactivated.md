@@ -1,6 +1,7 @@
 ---
 -api-id: E:Windows.UI.WebUI.WebUIApplication.BackgroundActivated
 -api-type: winrt event
+ms.custom: RS5
 ---
 
 <!-- Event syntax.

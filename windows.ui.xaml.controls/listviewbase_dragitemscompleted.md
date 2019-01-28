@@ -17,4 +17,4 @@ Occurs when a drag operation that involves one of the items in the view is ended
 ## -examples
 
 ## -see-also
-[Drag and drop sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620634)
+[Drag and drop sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620634), [DragItemsCompletedEventArgs](dragitemscompletedeventargs.md)

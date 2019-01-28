@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.System.Implementation.Holographic.SysHolographicWindowingEnvironment.IsSpeechPersonalizationSupported
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

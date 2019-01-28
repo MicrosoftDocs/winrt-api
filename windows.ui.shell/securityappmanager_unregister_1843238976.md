@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.Shell.SecurityAppManager.Unregister(Windows.UI.Shell.SecurityAppKind,System.Guid)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

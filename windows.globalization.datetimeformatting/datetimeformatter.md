@@ -16,6 +16,9 @@ Formats dates and times.
 ## -remarks
 
 > [!NOTE]
+> This API is being updated to support the May 2019 Japanese era change. If your application supports the Japanese calendar, you should validate that it properly handles the new era. See [Prepare your application for the Japanese era change](https://docs.microsoft.com/windows/uwp/design/globalizing/japanese-era-change) for more information.
+
+> [!NOTE]
 > If your app passes language tags used in this class to any [National Language Support](http://msdn.microsoft.com/library/7a548074-0782-45e1-8051-80c3b9d81885) functions, it must first convert the tags by calling [ResolveLocaleName](http://msdn.microsoft.com/library/99264b22-3fb5-47e2-b0b9-42a6768e67c1).
 
 Some of the constructors for [DateTimeFormatter](datetimeformatter.md) take a *formatTemplate* string parameter that specifies the requested components to be formatted. This parameter can be either a **format template** or a **format pattern**. Format templates are convenient to use and provide formatting which is typical for the language, clock and calendar that you specify. Format patterns provide greater control of output than format templates. If you need formatting that is non-standard, use format patterns instead of templates.

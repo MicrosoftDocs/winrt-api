@@ -10,7 +10,7 @@ public class ApplicationTrigger : Windows.ApplicationModel.Background.IApplicati
 # Windows.ApplicationModel.Background.ApplicationTrigger
 
 ## -description
-This allows you to programmatically trigger a background tasks from within your application.
+This allows you to programmatically trigger a background task from within your application.
 
 ## -remarks
 

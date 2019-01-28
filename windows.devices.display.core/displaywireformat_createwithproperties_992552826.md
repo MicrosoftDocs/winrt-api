@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.Display.Core.DisplayWireFormat.CreateWithProperties(Windows.Foundation.Collections.IIterable{Windows.Foundation.Collections.IKeyValuePair{System.Guid,System.Object}},Windows.Devices.Display.Core.DisplayWireFormatPixelEncoding,System.Int32,Windows.Devices.Display.Core.DisplayWireFormatColorSpace,Windows.Devices.Display.Core.DisplayWireFormatEotf,Windows.Devices.Display.Core.DisplayWireFormatHdrMetadata)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.Display.Core.DisplayModeInfo.IsWireFormatSupported(Windows.Devices.Display.Core.DisplayWireFormat)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

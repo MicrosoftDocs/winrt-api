@@ -26,7 +26,7 @@ The phone number (if applicable) of the caller.
 The name of the service or application.
 
 ### -param media
-The type of call (audio/video or audio only).
+The media types of the new incoming call (either audio and video or audio only). Pass **Audio|Video** if the call should be answered with outgoing video. This assumes that the user's device has a camera available for the app to use at the time the call is answered. If this is not the case, or the user should only use audio, pass **Audio**.
 
 ## -returns
 Returns the call as a VoipPhoneCall object.
@@ -42,5 +42,4 @@ All string parameters have a maximum allowed length of 128 characters (including
 
 
 ## -capabilities
-backgroundVoIP
-phoneCallHistory, phoneCallHistorySystem
+backgroundVoIP, phoneCallHistory, phoneCallHistorySystem, voipCall

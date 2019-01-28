@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.Xaml.Hosting.XamlSourceFocusNavigationRequest.#ctor(Windows.UI.Xaml.Hosting.XamlSourceFocusNavigationReason,Windows.Foundation.Rect)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

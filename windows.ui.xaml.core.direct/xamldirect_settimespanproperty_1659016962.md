@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.Xaml.Core.Direct.XamlDirect.SetTimeSpanProperty(Windows.UI.Xaml.Core.Direct.IXamlDirectObject,Windows.UI.Xaml.Core.Direct.XamlPropertyIndex,Windows.Foundation.TimeSpan)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

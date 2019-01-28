@@ -41,6 +41,9 @@ The input scope provides a hint at the type of text input expected by the contro
 
 The control might also interpret the data being entered differently (typically for East Asian related input scopes). The input scope does not perform any validation, and does not prevent the user from providing any input through a hardware keyboard or other input device.
 
+> [!NOTE]
+> While this property can hold a collection of InputeNameScope values, only the first is used, and the rest are ignored.
+
 ## -examples
 Here's how to set the [InputScope](../windows.ui.xaml.input/inputscope.md) in XAML and in code.
 

@@ -10,15 +10,17 @@ public event Windows.UI.Xaml.Input.PointerEventHandler PointerCaptureLost
 # Windows.UI.Xaml.UIElement.PointerCaptureLost
 
 ## -description
+
 Occurs when pointer capture previously held by this element moves to another element or elsewhere.
 
 ## -xaml-syntax
+
 ```xaml
 <uiElement PointerCaptureLost="eventhandler"/>
 ```
 
-
 ## -remarks
+
 > > [!IMPORTANT]
 > [PointerCaptureLost](uielement_pointercapturelost.md) might fire instead of [PointerReleased](uielement_pointerreleased.md). Don't rely on [PointerPressed](uielement_pointerpressed.md) and [PointerReleased](uielement_pointerreleased.md) events always occurring in pairs. To function properly, your app must listen for and handle all events that represent likely conclusions to the **Press** action, and that includes [PointerCaptureLost](uielement_pointercapturelost.md). A pointer can lose capture either because of user interactions or because you programmatically captured another pointer or released the current pointer capture deliberately.
 
@@ -31,4 +33,5 @@ There is no event that fires when a pointer is successfully captured. To capture
 ## -examples
 
 ## -see-also
-[CapturePointer](uielement_capturepointer_916768934.md), [PointerCaptures](uielement_pointercaptures.md), [ReleasePointerCapture](uielement_releasepointercapture_962192786.md), [ReleasePointerCaptures](uielement_releasepointercaptures_190109337.md), [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input), [Mouse interactions](http://msdn.microsoft.com/library/c8a158ef-70a9-4ba2-a270-7d08125700ac), [XAML user input events sample](http://go.microsoft.com/fwlink/p/?linkid=231524)
+
+[PointerRoutedEventArgs](../windows.ui.xaml.input/pointerroutedeventargs.md), [CapturePointer](uielement_capturepointer_916768934.md), [PointerCaptures](uielement_pointercaptures.md), [ReleasePointerCapture](uielement_releasepointercapture_962192786.md), [ReleasePointerCaptures](uielement_releasepointercaptures_190109337.md), [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input), [Mouse interactions](http://msdn.microsoft.com/library/c8a158ef-70a9-4ba2-a270-7d08125700ac), [XAML user input events sample](http://go.microsoft.com/fwlink/p/?linkid=231524)

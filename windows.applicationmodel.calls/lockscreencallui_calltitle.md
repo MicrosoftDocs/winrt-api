@@ -10,7 +10,7 @@ public string CallTitle { get;  set; }
 # Windows.ApplicationModel.Calls.LockScreenCallUI.CallTitle
 
 ## -description
-Gets and sets a brief description of the nature of the call. This brief description is also called the call's accessible name; its form is "Video call with Jane Doe."
+**Deprecated.** Gets and sets a brief description of the nature of the call. This brief description is also called the call's accessible name; its form is "Video call with Jane Doe."
 
 ## -property-value
 A brief description of the nature of the call, for example, "Video call with Jane Doe."

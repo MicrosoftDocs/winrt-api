@@ -11,9 +11,11 @@ public bool Is2086MetadataSupported { get; }
 
 ## -description
 
-Indicates whether the 10 bit display metadata is supported on the device. If TRUE, 10 bit display metadata is supported.
+Indicates whether 10 bit display metadata is supported on the device.
 
 ## -property-value
+
+`true` if 10 bit display metadata is supported on the device, otherwise `false`.
 
 ## -remarks
 

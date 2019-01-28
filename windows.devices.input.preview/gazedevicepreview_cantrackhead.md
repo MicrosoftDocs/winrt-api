@@ -19,7 +19,7 @@ True, if the device can track the user's head; otherwise, false.
 
 ## -remarks
 
-At this time, no eye-tracking devices report head position, orientation, and movement data. See [Get started with eye control in Windows 10](https://support.microsoft.com/help/4043921/windows-10-get-started-eye-control#supported-devices) for a list of supported eye-tracking devices. 
+At this time, no eye-tracking devices report head position, orientation, and movement data. See [Get started with eye control in Windows 10](https://support.microsoft.com/help/4043921/windows-10-get-started-eye-control#supported-devices) for a list of supported eye-tracking devices.
 
 ## -see-also
 
@@ -27,5 +27,12 @@ At this time, no eye-tracking devices report head position, orientation, and mov
 
 [Gaze interactions and eye tracking in UWP apps](https://docs.microsoft.com/windows/uwp/design/input/gaze-interactions)
 
-## -examples
+### Samples
 
+[Gaze input sample (basic)](https://github.com/MicrosoftDocs/windows-topic-specific-samples/archive/uwp-gazeinput-basic.zip)
+
+### Resources
+
+[Windows Community Toolkit Gaze library](https://docs.microsoft.com/windows/uwpcommunitytoolkit/gaze/gazeinteractionlibrary)
+
+## -examples

@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Devices.SmartCards.SmartCardAppletIdGroup.SecureUserAuthenticationRequired
 -api-type: winrt property
+ms.custom: RS5
 ---
 
 <!-- Property syntax.

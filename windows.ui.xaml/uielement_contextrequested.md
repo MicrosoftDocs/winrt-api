@@ -10,6 +10,7 @@ public event Windows.Foundation.TypedEventHandler ContextRequested<Windows.UI.Xa
 # Windows.UI.Xaml.UIElement.ContextRequested
 
 ## -description
+
 Occurs when the user has completed a context input gesture, such as a right-click.
 
 ## -xaml-syntax
@@ -19,8 +20,13 @@ Occurs when the user has completed a context input gesture, such as a right-clic
 ```
 
 ## -remarks
+
 If the [ContextFlyout](uielement_contextflyout.md) property is **null**, this event is marked as handled.
+
+[ContextRequested](uielement_contextrequested.md) is a routed event. For more info on the routed event concept, see [Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
 
 ## -examples
 
 ## -see-also
+
+[ContextRequestedEventArgs](../windows.ui.xaml.input/contextrequestedeventargs.md)

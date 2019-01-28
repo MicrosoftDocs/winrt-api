@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.UI.Notifications.ScheduledToastNotificationShowingEventArgs
 -api-type: winrt class
+ms.custom: RS5
 ---
 
 <!-- Class syntax.

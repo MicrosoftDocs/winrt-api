@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.Display.Core.DisplayTaskPool.ExecuteTask(Windows.Devices.Display.Core.DisplayTask)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

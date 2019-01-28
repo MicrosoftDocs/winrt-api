@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.Display.Core.DisplayDevice.WaitForVBlank(Windows.Devices.Display.Core.DisplaySource)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

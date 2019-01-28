@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.Composition.Interactions.InteractionTracker.TryUpdatePosition(Windows.Foundation.Numerics.Vector3)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax

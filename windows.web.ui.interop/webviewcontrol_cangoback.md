@@ -12,7 +12,7 @@ public bool CanGoBack { get; }
 ## -description
 Gets a value that indicates whether there is at least one page in the backward navigation history.
 
-For more info, see [Windows.Web.UI.IWebViewControl](../window.web.ui/iwebviewcontrol.md)
+For more info, see [Windows.Web.UI.IWebViewControl](../windows.web.ui/iwebviewcontrol.md)
 
 ## -property-value
 **true** if the control can navigate backward; otherwise, **false**.

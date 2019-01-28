@@ -12,7 +12,7 @@ public event TypedEventHandler FrameNavigationStarting<IWebViewControl, WebViewC
 ## -description
 An event that is triggered before a frame in the control navigates to new content.
 
-For more info, see [Windows.Web.UI.IWebViewControl](../window.web.ui/iwebviewcontrol.md)
+For more info, see [Windows.Web.UI.IWebViewControl](../windows.web.ui/iwebviewcontrol.md)
 ## -remarks
 
 ## -see-also

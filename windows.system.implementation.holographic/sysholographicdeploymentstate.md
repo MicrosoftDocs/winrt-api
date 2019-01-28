@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.System.Implementation.Holographic.SysHolographicDeploymentState
 -api-type: winrt enum
+ms.custom: RS5
 ---
 
 <!-- Enumeration syntax.

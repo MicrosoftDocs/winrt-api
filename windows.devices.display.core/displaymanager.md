@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.Devices.Display.Core.DisplayManager
 -api-type: winrt class
+ms.custom: RS5
 ---
 
 <!-- Class syntax.

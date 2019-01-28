@@ -12,7 +12,7 @@ public event TypedEventHandler UnsupportedUriSchemeIdentified<IWebViewControl, W
 ## -description
 An event that is triggered when an attempt is made to navigate to a URI using a scheme that the control doesn't support.
 
-For more info, see [Windows.Web.UI.IWebViewControl](../window.web.ui/iwebviewcontrol.md)
+For more info, see [Windows.Web.UI.IWebViewControl](../windows.web.ui/iwebviewcontrol.md)
 ## -remarks
 
 ## -see-also

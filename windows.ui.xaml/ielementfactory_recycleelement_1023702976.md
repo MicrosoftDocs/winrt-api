@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.Xaml.IElementFactory.RecycleElement(Windows.UI.Xaml.ElementFactoryRecycleArgs)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

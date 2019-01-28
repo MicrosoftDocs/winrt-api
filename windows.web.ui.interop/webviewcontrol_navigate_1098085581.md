@@ -12,7 +12,7 @@ public void WebViewControl.Navigate(Uri source)
 ## -description
 Loads the HTML content at the specified Uniform Resource Identifier (URI).
 
-For more info, see [Windows.Web.UI.IWebViewControl](../window.web.ui/iwebviewcontrol.md)
+For more info, see [Windows.Web.UI.IWebViewControl](../windows.web.ui/iwebviewcontrol.md)
 
 ## -parameters
 ### -param source

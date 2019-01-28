@@ -30,7 +30,7 @@ If the **ErrorCode** property of the exception has the value 0x80070578 (ERROR_I
 ## -remarks
 Use this method to download and install new DLC packages for the current app. When you call this method, the OS displays a dialog that tells the user that an app package is available to download and install, and asks the user's permission to proceed with the operation. If the user does not grant permission, the [OverallState](storepackageupdateresult_overallstate.md) property of the [StorePackageUpdateResult](storepackageupdateresult.md) return value has the value **Canceled**. To silently install an app package without displaying a notification dialog, use [DownloadAndInstallStorePackagesAsync](storecontext_downloadandinstallstorepackagesasync_1940804668.md) (this method requires access to a restricted capability).
 
-The Store ID for a DLC add-on is available in the Windows Dev Center dashboard, and it also is returned by the [StoreId](storeproduct_storeid.md) property of the [StoreProduct](storeproduct.md) that represents the DLC add-on. For more information, see [Store IDs](https://docs.microsoft.com/windows/uwp/monetize/in-app-purchases-and-trials#store-ids).
+The Store ID for a DLC add-on is available in [Partner Center](https://partner.microsoft.com/dashboard), and it also is returned by the [StoreId](storeproduct_storeid.md) property of the [StoreProduct](storeproduct.md) that represents the DLC add-on. For more information, see [Store IDs](https://docs.microsoft.com/windows/uwp/monetize/in-app-purchases-and-trials#store-ids).
 
 This operation will not block. The [IAsyncOperationWithProgress](../windows.foundation/iasyncoperationwithprogress_2.md) object returned by this method will complete after the packages are downloaded and installed.
 

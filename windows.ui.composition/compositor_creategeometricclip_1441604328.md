@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.Composition.Compositor.CreateGeometricClip(Windows.UI.Composition.CompositionGeometry)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

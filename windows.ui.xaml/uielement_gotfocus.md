@@ -19,10 +19,13 @@ Occurs when a [UIElement](uielement.md) receives focus. This event is raised asy
 <uiElement GotFocus="eventhandler"/>
 ```
 
-
 ## -remarks
 
-Only one UI element can have focus.
+We recommend using the [UIElement](../windows.ui.xaml/uielement.md) focus routed events instead of [FocusManager](focusmanager.md) events whenever possible.
+
+Only a single UI element at a time can have focus.
+
+A control can get focus when another control loses focus, the application view changes, the user switches applications, or the user interacts with the system such that the application is no longer in the foreground.
 
 [LostFocus](uielement_lostfocus.md) is raised before [GotFocus](uielement_gotfocus.md).
 
@@ -34,9 +37,9 @@ Keyboard focus is particularly relevant for keyboard event handling, because onl
 
 [GotFocus](uielement_gotfocus.md) is a routed event. For more info on the routed event concept, see [Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
 
-Specific Windows Runtime controls may have class-based handling for the [GotFocus](uielement_gotfocus.md) event. If so, the control probably has an override for the method [OnGotFocus](../windows.ui.xaml.controls/control_ongotfocus_1398920478.md). Typically the event is marked handled by the class handler, and the [GotFocus](uielement_gotfocus.md) event is not raised for handling by any user code handlers on that control. Controls might handle the event in order to load a visual state property that displays a focus rectangle. 
+Specific Windows Runtime controls may have class-based handling for the [GotFocus](uielement_gotfocus.md) event. If so, the control probably has an override for the method [OnGotFocus](../windows.ui.xaml.controls/control_ongotfocus_1398920478.md). Typically the event is marked handled by the class handler, and the [GotFocus](uielement_gotfocus.md) event is not raised for handling by any user code handlers on that control. Controls might handle the event in order to load a visual state property that displays a focus rectangle.
 
-A control's focus rectangle is an important visual component that aids accessibility by identifying the current focused element and indicating where the user is within the tab sequence of the application UI. In some cases, the [FocusState](focusstate.md) of the focus action is relevant for whether a visible focus indicator should display. 
+A control's focus rectangle is an important visual component that aids accessibility by identifying the current focused element and indicating where the user is within the tab sequence of the application UI. In some cases, the [FocusState](focusstate.md) of the focus action is relevant for whether a visible focus indicator should display.
 
 For more info on how class-based handling for events works, see [Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832). For more info on tab sequences and accessibility, see [Keyboard accessibility](http://msdn.microsoft.com/library/ddae8c4b-7907-49fe-9645-f105f8dfad8b).
 
@@ -44,4 +47,4 @@ For more info on how class-based handling for events works, see [Events and rout
 
 ## -see-also
 
-[RoutedEventArgs](routedeventargs.md), [GettingFocus](uielement_gettingfocus.md), [LostFocus](uielement_lostfocus.md), [Control.Focus](../windows.ui.xaml.controls/control_focus_195503898.md), [Keyboard interactions](http://msdn.microsoft.com/library/ff819bac-67c0-4ec9-8921-f087be188138), [Storyboarded animations for visual states](http://msdn.microsoft.com/library/5e715281-d247-4e7f-9f88-2af0d88ed5e4)
+[RoutedEventArgs](routedeventargs.md), [GettingFocus](uielement_gettingfocus.md), [GettingFocusEvent](uielement_gettingfocusevent.md), [LostFocus](uielement_lostfocus.md), [LosingFocusEvent](uielement_losingfocusevent.md), [LosingFocus](uielement_losingfocus.md), [Control.Focus](../windows.ui.xaml.controls/control_focus_195503898.md), [AddHandler](uielement_addhandler_2121467075.md), [Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832), [Keyboard interactions](https://docs.microsoft.com/windows/uwp/design/input/keyboard-interactions), [Focus navigation for keyboard, gamepad, remote control, and accessibility tools](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation), [Programmatic focus navigation](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation-programmatic)

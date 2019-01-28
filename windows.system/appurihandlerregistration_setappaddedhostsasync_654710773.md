@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.System.AppUriHandlerRegistration.SetAppAddedHostsAsync(Windows.Foundation.Collections.IIterable{Windows.System.AppUriHandlerHost})
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

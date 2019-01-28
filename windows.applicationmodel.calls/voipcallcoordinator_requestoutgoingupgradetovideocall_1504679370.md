@@ -34,7 +34,5 @@ The object representing the new outgoing call.
 
 ## -see-also
 
-
 ## -capabilities
-phoneCallHistory, phoneCallHistorySystem
-voipCall
+phoneCallHistory, phoneCallHistorySystem, voipCall

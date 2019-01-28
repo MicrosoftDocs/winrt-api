@@ -12,7 +12,7 @@ public event TypedEventHandler FrameDOMContentLoaded<IWebViewControl, WebViewCon
 ## -description
 An event that is triggered when a frame in the control has finished parsing its current HTML content.
 
-For more info, see [Windows.Web.UI.IWebViewControl](../window.web.ui/iwebviewcontrol.md)
+For more info, see [Windows.Web.UI.IWebViewControl](../windows.web.ui/iwebviewcontrol.md)
 ## -remarks
 
 ## -see-also

@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.PointOfService.Provider.BarcodeScannerFrameReader.StartAsync
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

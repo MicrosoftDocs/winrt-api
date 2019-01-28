@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Media.Audio.SpatialAudioFormatConfiguration.MixedRealityExclusiveModePolicy
 -api-type: winrt property
+ms.custom: RS5
 ---
 
 <!-- Property syntax.

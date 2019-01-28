@@ -39,7 +39,7 @@ The Bond media type.
 The CardStock media type.
 
 ### -field Continuous:8
-The Continous media type.
+The Continuous media type.
 
 ### -field EnvelopePlain:9
 The EnvelopePlain media type.

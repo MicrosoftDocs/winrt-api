@@ -16,8 +16,7 @@ Represents a file change within a [StorageFolder](https://docs.microsoft.com/uwp
 The background task must be declared in the manifest before the registration can be successful.
 
 ## -see-also
-[Create and register an out-of-process background task](https://docs.microsoft.com/windows/uwp/launch-resume/create-and-register-a-background-task)
-[Create and register an in-process background task](https://docs.microsoft.com/windows/uwp/launch-resume/create-and-register-an-inproc-background-task)
+[Track file system changes in the background](https://docs.microsoft.com/windows/uwp/files/change-tracking-filesystem),[Create and register an out-of-process background task](https://docs.microsoft.com/windows/uwp/launch-resume/create-and-register-a-background-task),[Create and register an in-process background task](https://docs.microsoft.com/windows/uwp/launch-resume/create-and-register-an-inproc-background-task)
 
 ## -examples
 

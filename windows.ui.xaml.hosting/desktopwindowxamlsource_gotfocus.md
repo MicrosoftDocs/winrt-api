@@ -1,6 +1,7 @@
 ---
 -api-id: E:Windows.UI.Xaml.Hosting.DesktopWindowXamlSource.GotFocus
 -api-type: winrt event
+ms.custom: RS5
 ---
 
 <!-- Event syntax.

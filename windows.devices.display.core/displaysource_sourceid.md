@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Devices.Display.Core.DisplaySource.SourceId
 -api-type: winrt property
+ms.custom: RS5
 ---
 
 <!-- Property syntax.

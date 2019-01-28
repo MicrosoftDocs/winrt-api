@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Data.Text.TextPredictionGenerator.GetNextWordCandidatesAsync(System.UInt32,Windows.Foundation.Collections.IIterable{System.String})
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

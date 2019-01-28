@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.ApplicationModel.Package.CheckUpdateAvailabilityAsync
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

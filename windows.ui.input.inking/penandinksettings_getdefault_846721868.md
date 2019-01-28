@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.Input.Inking.PenAndInkSettings.GetDefault
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

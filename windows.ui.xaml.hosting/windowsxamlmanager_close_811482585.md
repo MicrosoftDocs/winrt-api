@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.Xaml.Hosting.WindowsXamlManager.Close
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

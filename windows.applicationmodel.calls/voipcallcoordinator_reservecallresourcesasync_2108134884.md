@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.ApplicationModel.Calls.VoipCallCoordinator.ReserveCallResourcesAsync(System.String)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax
@@ -10,7 +11,7 @@ public Windows.Foundation.IAsyncOperation<Windows.ApplicationModel.Calls.VoipPho
 # Windows.ApplicationModel.Calls.VoipCallCoordinator.ReserveCallResourcesAsync
 
 ## -description
-Reserves the CPU and memory resources necessary for a VoIP call.
+Reserves the CPU and memory resources necessary for a VoIP call. You should use this method only in a two-process application model.
 
 ## -parameters
 ### -param taskEntryPoint
@@ -20,7 +21,7 @@ The name of an application-defined class that performs the work of a background 
 The result of the reservation action.
 
 ## -examples
-You should call **ReserveCallResourcesAsync** only once. Calling it a subsequent time results in an exception with an HRESULT of -2147024713 (0x800700b7), as shown in the code example.
+You should call **ReserveCallResourcesAsync** only once for each call. Calling it a subsequent time for a new call while another call already exists results in an exception with an HRESULT of -2147024713 (0x800700b7), as shown in the code example.
 
 ```csharp
 ...
@@ -43,12 +44,10 @@ Use this method when your VoIP application receives an incoming call notificatio
 
 Each call requires separate resources. To handle multiple VoIP calls simultaneously, you must invoke this method once for each call.
 
-Resources are freed automatically when a call is completed.
-
-You should call **ReserveCallResourcesAsync** only once. See the code example.
+Resources are freed automatically when the last call is completed.
 
 ## -see-also
 
 ## -capabilities
-phoneCallHistory, phoneCallHistorySystem
-voipCall
+phoneCallHistory, phoneCallHistorySystem, voipCall
+

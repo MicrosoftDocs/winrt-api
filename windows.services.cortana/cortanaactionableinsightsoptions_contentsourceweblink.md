@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Services.Cortana.CortanaActionableInsightsOptions.ContentSourceWebLink
 -api-type: winrt property
+ms.custom: RS5
 ---
 
 <!-- Property syntax.

@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.System.Implementation.Holographic.SysSpatialStageManager.SetAndSaveNewStageAsync(Windows.Perception.Spatial.SpatialAnchor,Windows.Foundation.Numerics.Vector2[])
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

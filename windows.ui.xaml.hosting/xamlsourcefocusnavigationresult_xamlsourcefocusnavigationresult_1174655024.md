@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.Xaml.Hosting.XamlSourceFocusNavigationResult.#ctor(System.Boolean)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

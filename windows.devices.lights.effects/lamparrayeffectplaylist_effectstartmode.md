@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Devices.Lights.Effects.LampArrayEffectPlaylist.EffectStartMode
 -api-type: winrt property
+ms.custom: RS5
 ---
 
 <!-- Property syntax.

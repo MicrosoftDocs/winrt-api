@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.Devices.Display.Core.DisplayPathStatus
 -api-type: winrt enum
+ms.custom: RS5
 ---
 
 <!-- Enumeration syntax.

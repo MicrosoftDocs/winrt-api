@@ -28,10 +28,10 @@ The Shift virtual key.
 ### -field Windows:8
 The Windows virtual key.
 
-
 ## -remarks
+This enum is used with the [Modifiers](../windows.ui.xaml.input/keyboardaccelerator_modifiers.md) property of a [KeyboardAccelerator](../windows.ui.xaml.input/keyboardaccelerator.md) object. For more information, including code examples, see [Keyboard Accelerators](https://docs.microsoft.com/windows/uwp/design/input/keyboard-accelerators).
 
 ## -examples
 
 ## -see-also
-[Windows.System.VirtualKey](virtualkey.md)
+[Keyboard Accelerators](https://docs.microsoft.com/windows/uwp/design/input/keyboard-accelerators), [Windows.System.VirtualKey](virtualkey.md)

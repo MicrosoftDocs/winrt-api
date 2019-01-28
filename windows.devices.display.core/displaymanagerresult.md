@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.Devices.Display.Core.DisplayManagerResult
 -api-type: winrt enum
+ms.custom: RS5
 ---
 
 <!-- Enumeration syntax.

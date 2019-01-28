@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.UI.Xaml.Input.FocusManagerLostFocusEventArgs.CorrelationId
 -api-type: winrt property
+ms.custom: RS5
 ---
 
 <!-- Property syntax.
@@ -20,6 +21,8 @@ The unique ID, if any. Otherwise, **null**.
 The default is **null**.
 
 ## -remarks
+
+We recommend using the [UIElement](../windows.ui.xaml/uielement.md) focus routed events instead of [FocusManager](focusmanager.md) events whenever possible.
 
 Focus moves can result in a number of direct and indirect actions.
 
@@ -41,6 +44,6 @@ A new CorrelationId is generated when:
 
 ## -see-also
 
-[FocusManagerGotFocusEventArgs.CorrelationId](focusmanagergottfocuseventargs_correlationid.md)
+[FocusManagerGotFocusEventArgs.CorrelationId](focusmanagergottfocuseventargs_correlationid.md), [Keyboard interactions](https://docs.microsoft.com/windows/uwp/design/input/keyboard-interactions), [Focus navigation for keyboard, gamepad, remote control, and accessibility tools](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation), [Programmatic focus navigation](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation-programmatic)
 
 ## -examples

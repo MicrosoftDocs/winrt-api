@@ -12,7 +12,7 @@ public bool ContainsFullScreenElement { get; }
 ## -description
 Gets a value that indicates whether the control contains an element that supports full screen.
 
-For more info, see [Windows.Web.UI.IWebViewControl](../window.web.ui/iwebviewcontrol.md)
+For more info, see [Windows.Web.UI.IWebViewControl](../windows.web.ui/iwebviewcontrol.md)
 
 ## -property-value
 A value that indicates whether the IWebViewControl contains an element that supports full screen.

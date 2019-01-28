@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Perception.Spatial.SpatialAnchorExportSufficiency.RecommendedSufficiencyLevel
 -api-type: winrt property
+ms.custom: RS5
 ---
 
 <!-- Property syntax.

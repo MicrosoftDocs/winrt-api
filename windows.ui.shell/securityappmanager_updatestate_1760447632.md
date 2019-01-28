@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.Shell.SecurityAppManager.UpdateState(Windows.UI.Shell.SecurityAppKind,System.Guid,Windows.UI.Shell.SecurityAppState,Windows.UI.Shell.SecurityAppSubstatus,Windows.Foundation.Uri)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.System.AppUriHandlerRegistration.GetAppAddedHostsAsync
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

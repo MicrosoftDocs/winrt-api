@@ -1,6 +1,7 @@
 ---
 -api-id: E:Windows.UI.Xaml.Input.FocusManager.LosingFocus
 -api-type: winrt event
+ms.custom: RS5
 ---
 
 <!-- Event syntax.
@@ -21,6 +22,8 @@ Occurs before focus moves from the current element with focus to the target elem
 
 ## -remarks
 
+We recommend using the [UIElement](../windows.ui.xaml/uielement.md) focus routed events instead of [FocusManager](focusmanager.md) events whenever possible.
+
 [FocusNavigationDirection.Previous](focusnavigationdirection.md) and [FocusNavigationDirection.Next](focusnavigationdirection.md) cannot be used with [FindNextElementOptions](findnextelementoptions.md). Only [FocusNavigationDirection.Up](focusnavigationdirection.md), [FocusNavigationDirection.Down](focusnavigationdirection.md), [FocusNavigationDirection.Left](focusnavigationdirection.md), or [FocusNavigationDirection.Right](focusnavigationdirection.md) are supported.
 
 UIElement focus events bubble up to the FocusManager in the following order:
@@ -34,6 +37,6 @@ UIElement focus events bubble up to the FocusManager in the following order:
 
 ## -see-also
 
-[LosingFocusEventArgs](..\windows.ui.xaml.input\losingfocuseventargs.md), [Focus navigation for keyboard, gamepad, remote control, and accessibility tools](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation), [Programmatic focus navigation](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation-programmatic)
+[LosingFocusEventArgs](..\windows.ui.xaml.input\losingfocuseventargs.md), [UIElement.LosingFocus](../windows.ui.xaml/uielement_losingfocus.md), [UIElement.LosingFocusEvent](../windows.ui.xaml/uielement_losingfocusevent.md), [Keyboard interactions](https://docs.microsoft.com/windows/uwp/design/input/keyboard-interactions), [Focus navigation for keyboard, gamepad, remote control, and accessibility tools](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation), [Programmatic focus navigation](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation-programmatic)
 
 ## -examples

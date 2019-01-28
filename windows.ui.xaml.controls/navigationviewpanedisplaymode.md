@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.UI.Xaml.Controls.NavigationViewPaneDisplayMode
 -api-type: winrt enum
+ms.custom: RS5
 ---
 
 <!-- Enumeration syntax.

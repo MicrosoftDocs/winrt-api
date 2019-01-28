@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.System.Implementation.Holographic.SysHolographicDeploymentProgress
 -api-type: winrt struct
+ms.custom: RS5
 ---
 
 <!-- Structure syntax.

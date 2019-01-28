@@ -529,9 +529,10 @@ The gamepad right thumbstick right.
 ### -field GamepadRightThumbstickLeft:218
 The gamepad right thumbstick left.
 
-
 ## -remarks
+This enum is used with the [Key](../windows.ui.xaml.input/keyboardaccelerator_key.md) property of a [KeyboardAccelerator](../windows.ui.xaml.input/keyboardaccelerator.md) object. For more information, including code examples, see [Keyboard Accelerators](https://docs.microsoft.com/windows/uwp/design/input/keyboard-accelerators).
 
 ## -examples
 
 ## -see-also
+[Keyboard Accelerators](https://docs.microsoft.com/windows/uwp/design/input/keyboard-accelerators), [Windows.System.VirtualKeyModifiers](virtualkeymodifiers.md)

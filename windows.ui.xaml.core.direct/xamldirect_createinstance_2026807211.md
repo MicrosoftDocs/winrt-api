@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.Xaml.Core.Direct.XamlDirect.CreateInstance(Windows.UI.Xaml.Core.Direct.XamlTypeIndex)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

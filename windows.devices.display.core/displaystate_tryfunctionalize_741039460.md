@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.Display.Core.DisplayState.TryFunctionalize(Windows.Devices.Display.Core.DisplayStateFunctionalizeOptions)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

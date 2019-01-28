@@ -12,7 +12,7 @@ public event TypedEventHandler PermissionRequested<IWebViewControl, WebViewContr
 ## -description
 An event that is triggered when an action in the control requires that permission to be granted.
 
-For more info, see [Windows.Web.UI.IWebViewControl](../window.web.ui/iwebviewcontrol.md)
+For more info, see [Windows.Web.UI.IWebViewControl](../windows.web.ui/iwebviewcontrol.md)
 
 ## -remarks
 

@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.UI.Xaml.Input.FocusManagerLostFocusEventArgs
 -api-type: winrt class
+ms.custom: RS5
 ---
 
 <!-- Class syntax.
@@ -15,8 +16,10 @@ Provides data for the [LostFocus](focusmanager_lostfocus.md) event.
 
 ## -remarks
 
+We recommend using the [UIElement](../windows.ui.xaml/uielement.md) focus routed events instead of [FocusManager](focusmanager.md) events whenever possible.
+
 ## -see-also
 
-[Focus navigation for keyboard, gamepad, remote control, and accessibility tools](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation), [Programmatic focus navigation](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation-programmatic)
+[Keyboard interactions](https://docs.microsoft.com/windows/uwp/design/input/keyboard-interactions), [Focus navigation for keyboard, gamepad, remote control, and accessibility tools](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation), [Programmatic focus navigation](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation-programmatic)
 
 ## -examples

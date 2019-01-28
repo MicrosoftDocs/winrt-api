@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.UI.Xaml.ColorPaletteResources.AltMediumHigh
 -api-type: winrt property
+ms.custom: RS5
 ---
 
 <!-- Property syntax.

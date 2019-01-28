@@ -20,7 +20,7 @@ The Store ID of the DLC add-on to check.
 An asynchronous operation that, on successful completion, returns a [StoreCanAcquireLicenseResult](storecanacquirelicenseresult.md) object that indicates whether the license can be acquired.
 
 ## -remarks
-The Store ID for an add-on is available in the Windows Dev Center dashboard, and it is returned by the [StoreId](storeproduct_storeid.md) property of the [StoreProduct](storeproduct.md) that represents the add-on.
+The Store ID for an add-on is available in [Partner Center](https://partner.microsoft.com/dashboard), and it is returned by the [StoreId](storeproduct_storeid.md) property of the [StoreProduct](storeproduct.md) that represents the add-on.
 
 > [!NOTE]
 > Downloadable content (DLC) add-on are not available to all developer accounts.

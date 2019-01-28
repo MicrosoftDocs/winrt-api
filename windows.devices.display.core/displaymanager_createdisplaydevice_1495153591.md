@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.Display.Core.DisplayManager.CreateDisplayDevice(Windows.Devices.Display.Core.DisplayAdapter)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

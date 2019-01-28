@@ -10,15 +10,17 @@ public event Windows.UI.Xaml.Input.PointerEventHandler PointerMoved
 # Windows.UI.Xaml.UIElement.PointerMoved
 
 ## -description
+
 Occurs when a pointer moves while the pointer remains within the hit test area of this element.
 
 ## -xaml-syntax
+
 ```xaml
 <uiElement PointerMoved="eventhandler"/>
 ```
 
-
 ## -remarks
+
 Touch, mouse, and pen/stylus interactions are received, processed, and managed as pointer input in UWP app. Any of these interactions can produce a [PointerMoved](uielement_pointermoved.md) event. For more info, see [Handle pointer input](http://msdn.microsoft.com/library/bdbc9e33-4037-4671-9596-471dcf855c82) and the "PointerMoved for mouse and stylus input" section of this topic.
 
 In some UI scenarios, particularly if the user is using a mouse, this event will fire a lot. Be aware of the performance profile for code you put into this handler, and consider ways to use your own flags or tolerances that can throttle how many times the logic actually needs to run.
@@ -37,8 +39,6 @@ In contrast, a touch point is only detectable if a finger is touching the surfac
 
 Mouse input is associated with a single pointer assigned when mouse input is first detected, and all mouse-initiated interactions have the same [PointerId](../windows.ui.input/pointerpoint_pointerid.md). Clicking a mouse button (left, wheel, or right) creates a secondary association between the pointer and that button through the [PointerPressed](uielement_pointerpressed.md) event. The [PointerReleased](uielement_pointerreleased.md) event is fired only when that same mouse button is released (no other button can be associated with the pointer until this event is complete). Because of this exclusive association, other mouse button clicks are routed through the [PointerMoved](uielement_pointermoved.md) event. You can test the mouse button state when handling this event, as shown in this example:
 
-
-
 [!code-csharp[PointerMoved](../windows.ui.input.inking/code/PointerInput/csharp/MainPage.xaml.cs#SnippetPointerMoved)]
 
 [!code-csharp[PointerMoved](../windows.ui.input.inking/code/PointerInput_UWP/csharp/MainPage.xaml.cs#SnippetPointerMoved)]
@@ -46,5 +46,6 @@ Mouse input is associated with a single pointer assigned when mouse input is fir
 ## -examples
 
 ## -see-also
-[PointerEntered](uielement_pointerentered.md), [OnPointerMoved](../windows.ui.xaml.controls/control_onpointermoved_600528909.md), [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input), [Handle pointer input](http://msdn.microsoft.com/library/bdbc9e33-4037-4671-9596-471dcf855c82), [XAML user input events sample](http://go.microsoft.com/fwlink/p/?linkid=231524)
+
+[PointerRoutedEventArgs](../windows.ui.xaml.input/pointerroutedeventargs.md), [PointerEntered](uielement_pointerentered.md), [OnPointerMoved](../windows.ui.xaml.controls/control_onpointermoved_600528909.md), [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input), [Handle pointer input](http://msdn.microsoft.com/library/bdbc9e33-4037-4671-9596-471dcf855c82), [XAML user input events sample](http://go.microsoft.com/fwlink/p/?linkid=231524)
 soft.com/fwlink/p/?linkid=231524)

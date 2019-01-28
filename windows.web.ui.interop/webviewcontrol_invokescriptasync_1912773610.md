@@ -12,7 +12,7 @@ public IAsyncOperation<string> WebViewControl.InvokeScriptAsync(String scriptNam
 ## -description
 Executes the specified script function from the currently loaded HTML, with specific arguments, as an asynchronous action.
 
-For more info, see [Windows.Web.UI.IWebViewControl](../window.web.ui/iwebviewcontrol.md)
+For more info, see [Windows.Web.UI.IWebViewControl](../windows.web.ui/iwebviewcontrol.md)
 
 ## -parameters
 ### -param scriptName

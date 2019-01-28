@@ -28,7 +28,7 @@ Use this method to download and install new DLC packages for the current app. Wh
 > [!NOTE]
 > The restricted **storePackageManagement** capability is only available to desktop applications and games that use the [Desktop Bridge](https://developer.microsoft.com/windows/bridges/desktop) and to Xbox games that use XVC packages and are developed as part of a managed partner program, such as the [ID@Xbox](https://www.xbox.com/developers/id) program. These applications and games have this capability by default.
 
-The Store ID for an add-on is available in the Windows Dev Center dashboard, and it also is returned by the [StoreId](storeproduct_storeid.md) property of the [StoreProduct](storeproduct.md) that represents the DLC add-on. For more information, see [Store IDs](https://docs.microsoft.com/windows/uwp/monetize/in-app-purchases-and-trials#store-ids).
+The Store ID for an add-on is available in [Partner Center](https://partner.microsoft.com/dashboard), and it also is returned by the [StoreId](storeproduct_storeid.md) property of the [StoreProduct](storeproduct.md) that represents the DLC add-on. For more information, see [Store IDs](https://docs.microsoft.com/windows/uwp/monetize/in-app-purchases-and-trials#store-ids).
 
 This operation will not block. The [IAsyncOperationWithProgress](../windows.foundation/iasyncoperationwithprogress_2.md) object returned by this method will complete after the packages are downloaded and installed.
 

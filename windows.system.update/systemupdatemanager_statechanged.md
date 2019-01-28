@@ -1,6 +1,7 @@
 ---
 -api-id: E:Windows.System.Update.SystemUpdateManager.StateChanged
 -api-type: winrt event
+ms.custom: RS5
 ---
 
 <!-- Event syntax.

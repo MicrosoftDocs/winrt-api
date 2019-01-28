@@ -25,18 +25,11 @@
         </VisualStateManager.VisualStateGroups>
 
         <!-- <Snippetmatrixtransform> -->
-        <Rectangle Width="60" Height="60" Fill="Blue">
+        <Rectangle Width="100" Height="100" Fill="Red">
             <Rectangle.RenderTransform>
-                <MatrixTransform>
-                    <MatrixTransform.Matrix >
-
-                        <!-- This matrix transforms the x,y position of
-                             the rectangle and skews it. -->
-                        <Matrix OffsetX="30" OffsetY="100" M12="0.5" />
-                    </MatrixTransform.Matrix>
+                <MatrixTransform Matrix="1,0,0,1,200,0">
                 </MatrixTransform>
             </Rectangle.RenderTransform>
-
         </Rectangle>
         <!-- </Snippetmatrixtransform> -->
 

@@ -12,7 +12,7 @@ public Color DefaultBackgroundColor { get;  set; }
 ## -description
 Gets or sets the color to use as the control background when the HTML content does not specify a color.
 
-For more info, see [Windows.Web.UI.IWebViewControl](../window.web.ui/iwebviewcontrol.md)
+For more info, see [Windows.Web.UI.IWebViewControl](../windows.web.ui/iwebviewcontrol.md)
 
 ## -property-value
 The background color.

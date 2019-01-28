@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.Xaml.Vector3Transition.#ctor
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

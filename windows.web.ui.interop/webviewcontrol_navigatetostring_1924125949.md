@@ -12,7 +12,7 @@ public void WebViewControl.NavigateToString(String text)
 ## -description
 Loads the specified HTML content as a new document.
 
-For more info, see [Windows.Web.UI.IWebViewControl](../window.web.ui/iwebviewcontrol.md)
+For more info, see [Windows.Web.UI.IWebViewControl](../windows.web.ui/iwebviewcontrol.md)
 
 ## -parameters
 ### -param text

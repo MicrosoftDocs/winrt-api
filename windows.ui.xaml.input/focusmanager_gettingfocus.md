@@ -1,6 +1,7 @@
 ---
 -api-id: E:Windows.UI.Xaml.Input.FocusManager.GettingFocus
 -api-type: winrt event
+ms.custom: RS5
 ---
 
 <!-- Event syntax.
@@ -15,7 +16,9 @@ Occurs before an element actually receives focus. This event is raised synchrono
 
 ## -remarks
 
-[FocusNavigationDirection.Previous](focusnavigationdirection.md) and [FocusNavigationDirection.Next](focusnavigationdirection.md) cannot be used with [FindNextElementOptions](findnextelementoptions.md). Only [FocusNavigationDirection.Up](focusnavigationdirection.md), [FocusNavigationDirection.Down](focusnavigationdirection.md), [FocusNavigationDirection.Left](focusnavigationdirection.md), or [FocusNavigationDirection.Right](focusnavigationdirection.md) are supported.
+We recommend using the [UIElement](../windows.ui.xaml/uielement.md) focus routed events instead of [FocusManager](focusmanager.md) events whenever possible.
+
+[FocusNavigationDirection.Previous](focusnavigationdirection.md) and [FocusNavigationDirection.Next](focusnavigationdirection.md) cannot be used with [FindNextElementOptions](findnextelementoptions.md). Only [FocusNavigationDirection.Up](focusnavigationdirection.md), [FocusNavigationDirection.Down](focusnavigationdirection.md), [FocusNavigationDirection.Left](focusnavigationdirection.md), or [FocusNavigationDirection.Right](focusnavigationdirection.md) are valid.
 
 UIElement focus events bubble up to the FocusManager in the following order:
 
@@ -28,7 +31,7 @@ UIElement focus events bubble up to the FocusManager in the following order:
 
 ## -see-also
 
-[GettingFocusEventArgs](..\windows.ui.xaml.input\gettingfocuseventargs.md), [Focus navigation for keyboard, gamepad, remote control, and accessibility tools](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation), [Programmatic focus navigation](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation-programmatic)
+[GettingFocusEventArgs](..\windows.ui.xaml.input\gettingfocuseventargs.md), [UIElement.GettingFocus](../windows.ui.xaml/uielement_gettingfocus.md), [UIElement.GettingFocusEvent](../windows.ui.xaml/uielement_gettingfocusevent.md), [Keyboard interactions](https://docs.microsoft.com/windows/uwp/design/input/keyboard-interactions), [Focus navigation for keyboard, gamepad, remote control, and accessibility tools](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation), [Programmatic focus navigation](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation-programmatic)
 
 ## -examples
 

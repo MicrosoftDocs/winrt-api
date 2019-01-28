@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.AI.MachineLearning.ITensor
 -api-type: winrt interface
+ms.custom: RS5
 ---
 
 <!-- Interface syntax.

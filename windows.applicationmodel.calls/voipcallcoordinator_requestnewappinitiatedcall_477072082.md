@@ -10,7 +10,7 @@ public VoipPhoneCall VoipCallCoordinator.RequestNewAppInitiatedCall(String conte
 # Windows.ApplicationModel.Calls.VoipCallCoordinator.RequestNewAppInitiatedCall
 
 ## -description
-Makes a request to the system for a new call object.
+Requests a new call object from the system. Call this method from your VoIP app to tell the system that there's a new incoming call, and that you want to host an incoming call notification for that new call.
 
 ## -parameters
 ### -param context
@@ -26,17 +26,18 @@ The phone number of the caller to be displayed on the incoming call UI. The maxi
 The name of the VoIP service or application. The maximum length is 128 characters.
 
 ### -param media
-The media types of the new incoming call.
+The media types of the new incoming call (either audio and video or audio only). Pass **Audio|Video** if the user should have the option of answering the call with outgoing video. This assumes that the user's device has a camera available for the app to use at the time the call arrives. If this is not the case, or the user should only use audio, pass **Audio**.
 
 ## -returns
 The object representing the new initiated call.
 
 ## -remarks
-Use this method to create new **VoipPhoneCall** objects, which can be used to setup a new in-app call notifcation and attach event handlers.
-
-Your application should call **VoipPhoneCall.NotifyCallAccepted** if the user accepts the call. If the call is rejected or unanswered, use **VoipPhoneCall.NotifyCallEnded**. Alternatively, the system can raise the **AnswerRequested** or **RejectRequested** events on the VoipPhoneCall object to tell the VoIP App if the user accepts or rejects the incoming call via HID device.
+Use this method to create a new [VoipPhoneCall](voipphonecall.md) object. You can use a **VoipPhoneCall** object to send in-app call notifications, and to handle events that the **VoipPhoneCall** raises. See [VoipPhoneCall](voipphonecall.md) for more info about how to work with these notifications and events.
 
 ## -see-also
+[VoipPhoneCall](voipphonecall.md)
 
 ## -examples
 
+## -capabilities
+backgroundVoIP, voipCall

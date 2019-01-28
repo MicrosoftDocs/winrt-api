@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.ApplicationModel.Store.Preview.DeliveryOptimizationSettings.GetCurrentSettings
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

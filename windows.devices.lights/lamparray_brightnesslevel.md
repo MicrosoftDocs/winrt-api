@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Devices.Lights.LampArray.BrightnessLevel
 -api-type: winrt property
+ms.custom: RS5
 ---
 
 <!-- Property syntax.

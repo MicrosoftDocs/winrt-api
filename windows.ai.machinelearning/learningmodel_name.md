@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.AI.MachineLearning.LearningModel.Name
 -api-type: winrt property
+ms.custom: RS5
 ---
 
 <!-- Property syntax.

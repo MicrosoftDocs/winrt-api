@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.Xaml.Controls.IScrollAnchorProvider.UnregisterAnchorCandidate(Windows.UI.Xaml.UIElement)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

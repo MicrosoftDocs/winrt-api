@@ -23,10 +23,10 @@ The name or ID of the caller which is displayed in the phone's minimized call UI
 The name of the VoIP service which is displayed in the phone's minimized call UI. The maximum length is 128 characters.
 
 ### -param media
-The object representing the new outgoing call.
+The media type of the new outgoing call (either audio and video or audio only). Pass **Audio|Video** if the user chose to start the call with outgoing video. This assumes that the user's device has a camera available for the app to use at the time the call is made. If this is not the case, or the user should only use audio, pass **Audio**.
 
 ## -returns
-The object representing the new incoming call.
+The object representing the new outgoing call.
 
 ## -remarks
 
@@ -34,7 +34,5 @@ The object representing the new incoming call.
 
 ## -see-also
 
-
 ## -capabilities
-phoneCallHistory, phoneCallHistorySystem
-voipCall
+phoneCallHistory, phoneCallHistorySystem, voipCall

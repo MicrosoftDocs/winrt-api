@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.Lights.Effects.LampArrayUpdateRequestedEventArgs.SetColorForIndex(System.Int32,Windows.UI.Color)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

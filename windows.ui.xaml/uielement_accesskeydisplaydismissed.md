@@ -10,7 +10,8 @@ public event Windows.Foundation.TypedEventHandler AccessKeyDisplayDismissed<Wind
 # Windows.UI.Xaml.UIElement.AccessKeyDisplayDismissed
 
 ## -description
-Occurs when the access key sequence is complete to notify controls that they should hide access key visuals.
+
+Occurs when access keys should no longer be displayed.
 
 ## -xaml-syntax
 
@@ -20,7 +21,10 @@ Occurs when the access key sequence is complete to notify controls that they sho
 
 ## -remarks
 
+This event notifies an element to hide access key visuals.
+
 ## -examples
 
 ## -see-also
-[Access keys](https://docs.microsoft.com/windows/uwp/design/input/access-keys)
+
+[AccessKeyDisplayDismissedEventArgs](../windows.ui.xaml.input/accesskeydisplaydismissedeventargs.md), [Access keys](https://docs.microsoft.com/windows/uwp/design/input/access-keys)

@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.System.RemoteSystems.RemoteSystemAppRegistration.GetForUser(Windows.System.User)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

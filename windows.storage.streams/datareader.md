@@ -112,9 +112,9 @@ private async void TransferData(object sender, RoutedEventArgs e)
 #include <winrt/Windows.Storage.Streams.h>
 
 using namespace winrt;
-...
+
 std::array<winrt::hstring, 5> m_inputElements{ L"Hello", L"World", L"1 2 3 4 5", L"Très bien!", L"Goodbye" };
-...
+
 WriteReadStream::WriteReadStream()
 {
     InitializeComponent();
@@ -256,7 +256,7 @@ Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
     IInputStream^ inputStream = stream->GetInputStreamAt(0);
     DataReader^ dataReader = ref new DataReader(inputStream);
     // The encoding and byte order need to match the settings of the writer 
-    / we previously used.
+    // we previously used.
     dataReader->UnicodeEncoding = UnicodeEncoding::Utf8;
     dataReader->ByteOrder = ByteOrder::LittleEndian;
 

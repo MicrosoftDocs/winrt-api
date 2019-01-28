@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.Lights.LampArray.SendMessageAsync(System.Int32,Windows.Storage.Streams.IBuffer)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.Sensors.SimpleOrientationSensor.FromIdAsync(System.String)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

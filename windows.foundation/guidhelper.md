@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.Foundation.GuidHelper
 -api-type: winrt class
+ms.custom: RS5
 ---
 
 <!-- Class syntax.

@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Services.Cortana.CortanaActionableInsights.ShowInsightsAsync(Windows.ApplicationModel.DataTransfer.DataPackage,Windows.Services.Cortana.CortanaActionableInsightsOptions)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

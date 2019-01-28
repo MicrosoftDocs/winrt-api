@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.UI.Xaml.Core.Direct.XamlDirect.SetDoubleProperty(Windows.UI.Xaml.Core.Direct.IXamlDirectObject,Windows.UI.Xaml.Core.Direct.XamlPropertyIndex,System.Double)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

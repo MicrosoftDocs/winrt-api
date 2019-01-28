@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.UI.Xaml.Controls.TextBlock.SelectionFlyout
 -api-type: winrt property
+ms.custom: RS5
 ---
 
 <!-- Property syntax.

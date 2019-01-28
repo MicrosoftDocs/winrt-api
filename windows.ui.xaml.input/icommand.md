@@ -10,14 +10,18 @@ public interface ICommand :
 # Windows.UI.Xaml.Input.ICommand
 
 ## -description
+
 Defines the command behavior of an interactive UI element that performs an action when invoked, such as sending an email, deleting an item, or submitting a form.
 
 ## -remarks
-A basic example is a Button control, which is designed to make something happen when a user clicks it. There are two ways you can make something happen:
+
+For a basic example, see the [Button](../windows.ui.xaml.controls/button.md) control, which invokes a command when a user clicks it. There are two ways you manage the command experience:
+
 - Handle the Click event
 - Bind the Command property to an ICommand implementation that describes the command logic
 
 ## -examples
+
 Here, we define a command that simply relays its functionality to other objects.
 
 See the [UI basics (XAML) sample](https://github.com/Microsoft/Windows-universal-samples/tree/6370138b150ca8a34ff86de376ab6408c5587f5d/Samples/XamlUIBasics) for the complete application.
@@ -108,4 +112,4 @@ namespace AppUIBasics.Common
 
 ## -see-also
 
-[Command design basics](https://docs.microsoft.com/windows/uwp/layout/commanding-basics)
+[Command design basics](https://docs.microsoft.com/windows/uwp/layout/commanding-basics), [Windows.UI.Xaml.Input.XamlUICommand](xamluicommand.md), [Windows.UI.Xaml.Input.StandardUICommand](standarduicommand.md)

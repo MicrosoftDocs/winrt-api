@@ -13,13 +13,11 @@ public event Windows.Foundation.TypedEventHandler RejectRequested<Windows.Applic
 Raised when a call has been rejected.
 
 ## -remarks
-After this event is raised, the application must call [NotifyCallEnded](voipphonecall_notifycallended_1962259325.md) within 5 seconds.
+The system raises the **RejectRequested** event to signal to your VoIP application that the call has been rejected. After this event is raised, your VoIP application must call [NotifyCallEnded](voipphonecall_notifycallended_1962259325.md) within 5 seconds. See [VoipPhoneCall](voipphonecall.md) for more info.
 
 ## -examples
 
 ## -see-also
 
-
 ## -capabilities
-phoneCallHistory, phoneCallHistorySystem
-voipCall
+phoneCallHistory, phoneCallHistorySystem, voipCall

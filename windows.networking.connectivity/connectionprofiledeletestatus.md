@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.Networking.Connectivity.ConnectionProfileDeleteStatus
 -api-type: winrt enum
+ms.custom: RS5
 ---
 
 <!-- Enumeration syntax.

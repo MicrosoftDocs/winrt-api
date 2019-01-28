@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.UI.Xaml.Markup.IXamlType2
 -api-type: winrt interface
+ms.custom: RS5
 ---
 
 <!-- Interface syntax.

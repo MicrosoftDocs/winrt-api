@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.Devices.Lights.Effects.ILampArrayEffect
 -api-type: winrt interface
+ms.custom: RS5
 ---
 
 <!-- Interface syntax.

@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.System.Implementation.Holographic.SysHolographicWindowingEnvironmentStatus
 -api-type: winrt class
+ms.custom: RS5
 ---
 
 <!-- Class syntax.

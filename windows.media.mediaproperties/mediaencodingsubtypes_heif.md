@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Media.MediaProperties.MediaEncodingSubtypes.Heif
 -api-type: winrt property
+ms.custom: RS5
 ---
 
 <!-- Property syntax.

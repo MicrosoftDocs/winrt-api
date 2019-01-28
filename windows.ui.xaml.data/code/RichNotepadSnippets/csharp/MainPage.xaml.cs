@@ -28,7 +28,7 @@ namespace RichNotepad
         }
 
         //<SnippetInitialization>
-        //Initialize the RichTextBox. The intial text is saved as XAML inthe Hamlet.docx file.
+        //Initialize the RichTextBox. The initial text is saved as XAML in the Hamlet.docx file.
         void MainPage_Loaded(object sender, RoutedEventArgs e)
         {
             rtb.Xaml = XElement.Load("/RichNotepad;component/sample.sav").ToString();

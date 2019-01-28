@@ -10,13 +10,14 @@ public StorageProviderSyncRootInfo StorageProviderSyncRootManager.GetSyncRootInf
 # Windows.Storage.Provider.StorageProviderSyncRootManager.GetSyncRootInformationForFolder
 
 ## -description
-Returns [SyncRootInformation](syncrootinformation.md) given a storage folder.
+Returns the properties of a Cloud Storage Provider's sync root given a storage folder.
 
 ## -parameters
 ### -param folder
 The storage folder for the sync root.
 
 ## -returns
+The properties of a Cloud Storage Provider's sync root for the given storage folder.
 
 ## -remarks
 

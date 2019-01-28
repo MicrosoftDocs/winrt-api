@@ -26,7 +26,7 @@ The specified folder does not exist. Check the value of *name*.
 
 ### System.UnauthorizedAccessException
 
-You don't have permission to access the specified folder.
+You don't have permission to access the specified folder. For more information, see [File access permissions](https://docs.microsoft.com/windows/uwp/files/file-access-permissions).
 
 ### System.ArgumentException
 
@@ -124,4 +124,4 @@ level2FolderPromise.done(function getFolderSuccess(level2Folder) {
 ```
 
 ## -see-also
-[GetItemAsync](storagefolder_getitemasync_1847090456.md)
+[File access permissions](https://docs.microsoft.com/windows/uwp/files/file-access-permissions), [GetItemAsync](storagefolder_getitemasync_1847090456.md)

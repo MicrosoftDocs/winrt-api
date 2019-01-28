@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.System.Implementation.Holographic.SysSpatialInputDevice.TryGetBatteryReport
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

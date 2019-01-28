@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.Display.Core.DisplayTask.SetScanout(Windows.Devices.Display.Core.DisplayScanout)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

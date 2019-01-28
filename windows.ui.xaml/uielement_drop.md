@@ -10,23 +10,23 @@ public event Windows.UI.Xaml.DragEventHandler Drop
 # Windows.UI.Xaml.UIElement.Drop
 
 ## -description
+
 Occurs when the input system reports an underlying drop event with this element as the drop target.
 
 ## -xaml-syntax
+
 ```xaml
 <uiElement Drop="eventhandler"/>
 ```
 
-
 ## -remarks
+
 For [Drop](uielement_drop.md) to occur and to invoke a handler, the value of [AllowDrop](uielement_allowdrop.md) on the [UIElement](uielement.md) that is the drop target and also on the drag-drop action source must be **true**.
 
 A typical handler will check the [Data](drageventargs_data.md) value from the [DragEventArgs](drageventargs.md) event data.
 
 You can initiate a drag-drop action on any [UIElement](uielement.md) by calling the [StartDragAsync](uielement_startdragasync_369751260.md) method. Once the action is initiated, any [UIElement](uielement.md) in the app can potentially be a drop target so long as [AllowDrop](uielement_allowdrop.md) is **true** on that element, and any elements that the drag-drop action passes over can handle [DragEnter](uielement_dragenter.md), [DragLeave](uielement_dragleave.md) or [DragOver](uielement_dragover.md).
 
-
-<!--For more info see ...-->
 [Drop](uielement_drop.md) is a routed event. An element must have [AllowDrop](uielement_allowdrop.md) be **true** to be a [Drop](uielement_drop.md) event source. If the event is permitted to bubble up to parent elements because it goes unhandled, then it is possible to handle the event on a parent element if [AllowDrop](uielement_allowdrop.md) is **true** on the parent element. Intermediate elements in the route that aren't either the handler object or the drop target don't need [AllowDrop](uielement_allowdrop.md) to be **true**. For more info on the routed event concept, see [Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
 
 For touch actions, drag-drop actions, and also for interaction-specific or manipulation events that are consequences of a touch action, an element must be hit-test visible in order to be the event source and fire the event that is associated with the action. [UIElement.Visibility](uielement_visibility.md) must be [Visible](visibility.md). Other properties of derived types also affect hit-test visibility, for example [IsEnabled](../windows.ui.xaml.controls/control_isenabled.md). For more info, see [Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
@@ -43,4 +43,5 @@ Independent of the event occurrence, some controls may use theme animations such
 ## -examples
 
 ## -see-also
-[DragOver](uielement_dragover.md), [AllowDrop](uielement_allowdrop.md), [Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832), [Drag and drop sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620634)
+
+[DragEventArgs](drageventargs.md), [DragOver](uielement_dragover.md), [AllowDrop](uielement_allowdrop.md), [Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832), [Drag and drop sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620634)

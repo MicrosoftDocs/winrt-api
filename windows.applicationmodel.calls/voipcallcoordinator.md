@@ -18,7 +18,5 @@ Allows an application to manage VoIP calls.
 
 ## -see-also
 
-
 ## -capabilities
-phoneCallHistory, phoneCallHistorySystem
-voipCall
+phoneCallHistory, phoneCallHistorySystem, voipCall

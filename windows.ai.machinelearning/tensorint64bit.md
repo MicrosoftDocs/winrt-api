@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.AI.MachineLearning.TensorInt64Bit
 -api-type: winrt class
+ms.custom: RS5
 ---
 
 <!-- Class syntax.

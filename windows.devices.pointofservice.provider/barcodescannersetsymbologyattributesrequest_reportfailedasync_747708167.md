@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.PointOfService.Provider.BarcodeScannerSetSymbologyAttributesRequest.ReportFailedAsync(System.Int32)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

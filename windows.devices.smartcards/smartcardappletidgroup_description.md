@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Devices.SmartCards.SmartCardAppletIdGroup.Description
 -api-type: winrt property
+ms.custom: RS5
 ---
 
 <!-- Property syntax.

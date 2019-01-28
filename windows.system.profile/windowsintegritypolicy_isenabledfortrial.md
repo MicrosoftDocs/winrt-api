@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.System.Profile.WindowsIntegrityPolicy.IsEnabledForTrial
 -api-type: winrt property
+ms.custom: RS5
 ---
 
 <!-- Property syntax.

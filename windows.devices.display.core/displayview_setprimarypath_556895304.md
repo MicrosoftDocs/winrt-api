@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.Display.Core.DisplayView.SetPrimaryPath(Windows.Devices.Display.Core.DisplayPath)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

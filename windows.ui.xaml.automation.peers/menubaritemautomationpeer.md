@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.UI.Xaml.Automation.Peers.MenuBarItemAutomationPeer
 -api-type: winrt class
+ms.custom: RS5
 ---
 
 <!-- Class syntax.

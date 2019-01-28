@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.System.Update.SystemUpdateManager.StartInstall(Windows.System.Update.SystemUpdateStartInstallAction)
 -api-type: winrt method
+ms.custom: RS5
 ---
 
 <!-- Method syntax.

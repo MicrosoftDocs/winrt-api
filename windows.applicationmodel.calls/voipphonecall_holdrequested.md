@@ -19,7 +19,5 @@ After this event is raised, the application is required to call [NotifyCallHeld]
 
 ## -see-also
 
-
 ## -capabilities
-phoneCallHistory, phoneCallHistorySystem
-voipCall
+phoneCallHistory, phoneCallHistorySystem, voipCall

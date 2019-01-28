@@ -22,7 +22,5 @@ You can use this method to get the default instance of the [VoipCallCoordinator]
 
 ## -see-also
 
-
 ## -capabilities
-phoneCallHistory, phoneCallHistorySystem
-voipCall
+phoneCallHistory, phoneCallHistorySystem, voipCall

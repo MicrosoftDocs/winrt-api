@@ -10,7 +10,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Storage.StorageFile> GetFileFr
 # Windows.Storage.StorageFile.GetFileFromApplicationUriAsync
 
 ## -description
-Gets a [StorageFile](storagefile.md) object to represent the specified Uniform Resource Identifier (URI) app resource. For examples of sample URIs see [How to load file resources](http://msdn.microsoft.com/library/2fc07702-7022-44b7-8471-8d477a105fc5).
+Gets a [StorageFile](storagefile.md) object to represent the specified Uniform Resource Identifier (URI) app resource. For examples of sample URIs see [Load images and assets tailored for scale, theme, high contrast, and others](https://docs.microsoft.com/windows/uwp/app-resources/images-tailored-for-scale-theme-contrast).
 
 ## -parameters
 ### -param uri
@@ -28,7 +28,5 @@ var uri = new Windows.Foundation.Uri("ms-appx:///datafile.xml")
 Windows.Storage.StorageFile.getFileFromApplicationUriAsync(uri).done( /* Your success and error handlers */ );
 ```
 
-
-
 ## -see-also
-[How to load file resources](http://msdn.microsoft.com/library/2fc07702-7022-44b7-8471-8d477a105fc5)
+[Load images and assets tailored for scale, theme, high contrast, and others](https://docs.microsoft.com/windows/uwp/app-resources/images-tailored-for-scale-theme-contrast)

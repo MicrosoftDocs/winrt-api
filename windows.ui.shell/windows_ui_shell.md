@@ -10,6 +10,7 @@ namespace Windows.UI.Shell
 # Windows.UI.Shell
 
 ## -description
+
 Provides support for connecting apps with native elements of the Windows UI through the Windows Shell.
 
 ## -remarks
@@ -17,4 +18,3 @@ Provides support for connecting apps with native elements of the Windows UI thro
 ## -see-also
 
 ## -examples
-

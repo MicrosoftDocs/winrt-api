@@ -10,7 +10,7 @@ public interface IStorageProviderItemPropertySource
 # Windows.Storage.Provider.IStorageProviderItemPropertySource
 
 ## -description
-Provides access to storage provider item propeties from the sync root.
+Provides access to storage provider item properties from the sync root.
 
 ## -remarks
 

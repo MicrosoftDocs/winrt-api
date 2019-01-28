@@ -12,7 +12,7 @@ public IVectorView<WebViewControlDeferredPermissionRequest> DeferredPermissionRe
 ## -description
 Gets a collection of permission requests that are waiting to be granted or denied.
 
-For more info, see [Windows.Web.UI.IWebViewControl](../window.web.ui/iwebviewcontrol.md)
+For more info, see [Windows.Web.UI.IWebViewControl](../windows.web.ui/iwebviewcontrol.md)
 
 ## -property-value
 A collection of [WebViewDeferredPermissionRequest](../windows.web.ui/webviewcontroldeferredpermissionrequest.md) objects that are waiting to be granted or denied.

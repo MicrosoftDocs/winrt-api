@@ -10,7 +10,7 @@ public bool Mandatory { get; }
 # Windows.Services.Store.StorePackageUpdate.Mandatory
 
 ## -description
-Gets a value that indicates whether the package that has an update available for download from the Microsoft Store is a mandatory package, as specified by the developer in the Windows Dev Center dashboard.
+Gets a value that indicates whether the package that has an update available for download from the Microsoft Store is a mandatory package, as specified by the developer in [Partner Center](https://partner.microsoft.com/dashboard).
 
 ## -property-value
 True if the package is a mandatory package; otherwise, false.

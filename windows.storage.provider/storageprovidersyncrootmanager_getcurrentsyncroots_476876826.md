@@ -16,9 +16,8 @@ Gets all of the currently registered sync roots.
 A collection of currently registered sync roots.
 
 ## -remarks
-This collection can include both legacy sync roots and sync roots registered with [SyncRootManager.Register(SyncRootInformation)](syncrootmanager_register_988394462.md).
+This collection can include both legacy sync roots and sync roots registered with [StorageProviderSyncRootManager.Register](storageprovidersyncrootmanager_register_1146790023.md).
 
 ## -see-also
 
 ## -examples
-
