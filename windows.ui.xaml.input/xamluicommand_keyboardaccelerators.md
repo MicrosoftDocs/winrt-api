@@ -24,7 +24,7 @@ Accelerators are typically assigned to buttons or menu items.
 
 ## -see-also
 
-[KeyboardAccelerators](../windows.ui.xaml/uielement_keyboardaccelerators.md), [Keyboard accelerators](https://docs.microsoft.com/en-us/windows/uwp/design/input/keyboard-accelerators)
+[KeyboardAccelerators](../windows.ui.xaml/uielement_keyboardaccelerators.md), [Keyboard accelerators](https://docs.microsoft.com/windows/uwp/design/input/keyboard-accelerators)
 
 ## -examples
 

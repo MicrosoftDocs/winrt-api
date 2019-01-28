@@ -20,7 +20,7 @@ Get an instance of this class by calling [AudioGraph.CreateMediaSourceAudioInput
 ## -see-also
 [MediaSourceAudioInputNode](mediasourceaudioinputnode.md)
 [MediaSource](../windows.media.core/mediasource.md)
-[Media items, playlists, and tracks](https://docs.microsoft.com/en-us/windows/uwp/audio-video-camera/media-playback-with-mediasource)
+[Media items, playlists, and tracks](https://docs.microsoft.com/windows/uwp/audio-video-camera/media-playback-with-mediasource)
 
 ## -examples
 

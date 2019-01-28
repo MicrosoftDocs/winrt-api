@@ -20,10 +20,10 @@ Paints an area with an image. The image source is typically obtained from file f
 ## -remarks
 An [ImageBrush](imagebrush.md) is a type of [brush](brush.md) that defines its content as an image which can be optionally stretched and aligned. Uses for an [ImageBrush](imagebrush.md) include decorative effects for text, or image backgrounds for controls or layout containers.
 
-It's useful to use an [ImageBrush](imagebrush.md) instead of an [Image control](https://docs.microsoft.com/en-us/uwp/api/Windows.UI.Xaml.Controls.Image) in two main  scenarios:
+It's useful to use an [ImageBrush](imagebrush.md) instead of an [Image control](https://docs.microsoft.com/uwp/api/Windows.UI.Xaml.Controls.Image) in two main  scenarios:
 
 1. You want to paint a non-rectangular area such as an ellipse or border with an image
-2. You want to use a single ImageBrush to paint multiple areas or UIElements with the same image, which is more efficient than using multiple [Image](https://docs.microsoft.com/en-us/uwp/api/Windows.UI.Xaml.Controls.Image) controls
+2. You want to use a single ImageBrush to paint multiple areas or UIElements with the same image, which is more efficient than using multiple [Image](https://docs.microsoft.com/uwp/api/Windows.UI.Xaml.Controls.Image) controls
 
 
 If you define an [ImageBrush](imagebrush.md) using code, use the default constructor, then set [ImageBrush.ImageSource](imagebrush_imagesource.md). This requires a [BitmapImage](../windows.ui.xaml.media.imaging/bitmapimage.md) (not a Uniform Resource Identifier (URI)) in code. If your source is a stream, use the [SetSourceAsync](../windows.ui.xaml.media.imaging/bitmapsource_setsourceasync_1118221574.md) method to initialize the value. If your source is a Uniform Resource Identifier (URI), which includes content in your app that uses the **ms-appx** or **ms-resource** schemes, use the [BitmapImage](../windows.ui.xaml.media.imaging/bitmapimage_bitmapimage_843413386.md) constructor that takes a Uniform Resource Identifier (URI). You might also consider handling the [ImageOpened](imagebrush_imageopened.md) event if there are any timing issues with retrieving or decoding the image source, where you might need alternate content to display until the image source is available. See [XAML images sample](http://go.microsoft.com/fwlink/p/?linkid=238575) for example code.

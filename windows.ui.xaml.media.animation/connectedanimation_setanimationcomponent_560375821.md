@@ -36,7 +36,7 @@ customKeyFrameAnimation.InsertExpressionKeyFrame(1.0f, "FinalValue");
 myConnectedAnimation.SetAnimationComponent(ConnectedAnimationComponent.OffsetX, customKeyFrameAnimation);
 ```
 
-See [Expression Keyframes](https://docs.microsoft.com/en-us/windows/uwp/graphics/composition-animation#expression-keyframes) for more information on using Composition expressions.
+See [Expression Keyframes](https://docs.microsoft.com/windows/uwp/graphics/composition-animation#expression-keyframes) for more information on using Composition expressions.
 
 ## -see-also
 

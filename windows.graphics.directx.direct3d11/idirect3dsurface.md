@@ -10,10 +10,10 @@ public interface IDirect3DSurface : Windows.Foundation.IClosable
 # Windows.Graphics.DirectX.Direct3D11.IDirect3DSurface
 
 ## -description
-This represents an [IDXGISurface](https://msdn.microsoft.com/en-us/library/windows/desktop/bb174565) and can be used to interop between Windows Runtime components that need to exchange [IDXGISurface](https://msdn.microsoft.com/en-us/library/windows/desktop/bb174565) references.
+This represents an [IDXGISurface](https://msdn.microsoft.com/library/windows/desktop/bb174565) and can be used to interop between Windows Runtime components that need to exchange [IDXGISurface](https://msdn.microsoft.com/library/windows/desktop/bb174565) references.
 
 ## -remarks
-To move back and forth between [IDirect3DSurface](idirect3dsurface.md) and [IDXGISurface](https://msdn.microsoft.com/en-us/library/windows/desktop/bb174565), use the [CreateDirect3DSurface](https://msdn.microsoft.com/en-us/library/windows/apps/dn895090) and [GetDXGIInterface(IDirect3DSurface^, DXGIType**)](https://msdn.microsoft.com/en-us/library/windows/apps/dn895102) functions.
+To move back and forth between [IDirect3DSurface](idirect3dsurface.md) and [IDXGISurface](https://msdn.microsoft.com/library/windows/desktop/bb174565), use the [CreateDirect3DSurface](https://msdn.microsoft.com/library/windows/apps/dn895090) and [GetDXGIInterface(IDirect3DSurface^, DXGIType**)](https://msdn.microsoft.com/library/windows/apps/dn895102) functions.
 
 ## -examples
 First include the necessary headers and namespaces:

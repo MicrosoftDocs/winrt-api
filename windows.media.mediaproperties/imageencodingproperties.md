@@ -13,9 +13,9 @@ public class ImageEncodingProperties : Windows.Media.MediaProperties.IImageEncod
 Describes the format of an image stream.
 
 ## -remarks
-For how-to guidance for using **ImageEncodingProperties** to set the encoding properties for captured images, see [Basic photo, video, and audio capture with MediaCapture](https://msdn.microsoft.com/en-us/windows/uwp/audio-video-camera/basic-photo-video-and-audio-capture-with-mediacapture).
+For how-to guidance for using **ImageEncodingProperties** to set the encoding properties for captured images, see [Basic photo, video, and audio capture with MediaCapture](https://msdn.microsoft.com/windows/uwp/audio-video-camera/basic-photo-video-and-audio-capture-with-mediacapture).
 
 ## -examples
 
 ## -see-also
-[Basic photo, video, and audio capture with MediaCapture](https://msdn.microsoft.com/en-us/windows/uwp/audio-video-camera/basic-photo-video-and-audio-capture-with-mediacapture)
+[Basic photo, video, and audio capture with MediaCapture](https://msdn.microsoft.com/windows/uwp/audio-video-camera/basic-photo-video-and-audio-capture-with-mediacapture)

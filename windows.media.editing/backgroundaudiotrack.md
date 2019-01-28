@@ -15,9 +15,9 @@ Represents a single audio track for accompanying a video clip.
 ## -remarks
 Add background audio tracks to a composition by adding them to a [MediaComposition](mediacomposition.md) object's [BackgroundAudioTracks](mediacomposition_backgroundaudiotracks.md) collection.
 
-For how-to guidance on adding media editing to your app, see [Media compositions and editing](https://msdn.microsoft.com/en-us/windows/uwp/audio-video-camera/media-compositions-and-editing).
+For how-to guidance on adding media editing to your app, see [Media compositions and editing](https://msdn.microsoft.com/windows/uwp/audio-video-camera/media-compositions-and-editing).
 
 ## -examples
 
 ## -see-also
-[Media compositions and editing](https://msdn.microsoft.com/en-us/windows/uwp/audio-video-camera/media-compositions-and-editing)
+[Media compositions and editing](https://msdn.microsoft.com/windows/uwp/audio-video-camera/media-compositions-and-editing)

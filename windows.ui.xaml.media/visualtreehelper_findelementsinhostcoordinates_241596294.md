@@ -33,7 +33,7 @@ For basic hit testing, the goal is to discover which element is highest in the z
 
 For this scenario, you should pass the rectangle you're interested in hit-testing as the value of the *intersectingRect* parameter. For the *subtree* parameter, you can pass it as **null**. Or you can specify *subtree* to be some element that you know is the root visual of a page, or is otherwise some element that you want to be the final stop for hit testing.
 
-The order of element in the returned [IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1) of [UIElement](../windows.ui.xaml/uielement.md) items is accounting for both coordinate space in the area and for the z-order. So it's possible to get hits for items that are not at the highest z-order and therefore couldn't be the source of input events. To make sure, you can do an element-filtered hit test for any items from the returned list that you're interested in, using the same *intersectingRect* but passing the element of interest as *subtree*.
+The order of element in the returned [IEnumerable](https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1) of [UIElement](../windows.ui.xaml/uielement.md) items is accounting for both coordinate space in the area and for the z-order. So it's possible to get hits for items that are not at the highest z-order and therefore couldn't be the source of input events. To make sure, you can do an element-filtered hit test for any items from the returned list that you're interested in, using the same *intersectingRect* but passing the element of interest as *subtree*.
 
 ### Element-filtered hit testing
 
@@ -41,7 +41,7 @@ Sometimes you want to know whether a specific element exists within an area of t
 
 If the return value is empty, that means that the *subtree* element didn't exist in the area.
 
-If you are programming using C# or Microsoft Visual Basic, the return value type of this method is projected as an [IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1) generic collection that contains [UIElement](../windows.ui.xaml/uielement.md) items. If you are programming using Visual C++ component extensions (C++/CX), the return type of this method is [IIterable&lt;UIElement&gt;](../windows.foundation.collections/iiterable_1.md).
+If you are programming using C# or Microsoft Visual Basic, the return value type of this method is projected as an [IEnumerable](https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1) generic collection that contains [UIElement](../windows.ui.xaml/uielement.md) items. If you are programming using Visual C++ component extensions (C++/CX), the return type of this method is [IIterable&lt;UIElement&gt;](../windows.foundation.collections/iiterable_1.md).
 
 ## -examples
 Given this XAML UI:

@@ -10,7 +10,7 @@ public enum Windows.Graphics.DirectX.DirectXPixelFormat : int
 # DirectXPixelFormat
 
 ## -description
-Specifies pixel formats, which includes fully-typed and type-less formats. This is a managed version of the [DXGI_FORMAT](https://msdn.microsoft.com/en-us/library/windows/desktop/bb173059) enumeration.
+Specifies pixel formats, which includes fully-typed and type-less formats. This is a managed version of the [DXGI_FORMAT](https://msdn.microsoft.com/library/windows/desktop/bb173059) enumeration.
 
 ## -enum-fields
 ### -field Unknown:0
@@ -372,7 +372,7 @@ Specifies pixel formats, which includes fully-typed and type-less formats. This 
 
 
 ## -remarks
-Refer to [DXGI_FORMAT](https://msdn.microsoft.com/en-us/library/windows/desktop/bb173059) for descriptions of these formats.
+Refer to [DXGI_FORMAT](https://msdn.microsoft.com/library/windows/desktop/bb173059) for descriptions of these formats.
 
 ## -examples
 

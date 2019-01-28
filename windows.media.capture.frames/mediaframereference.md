@@ -26,9 +26,9 @@ It is the responsibility of the app to call [Close](mediaframereference_close_81
 > [!IMPORTANT]
 > If you access the [SoftwareBitmap](../windows.graphics.imaging/softwarebitmap.md) or [Direct3DSurface](../windows.graphics.directx.direct3d11/idirect3dsurface.md) objects provided by the [VideoMediaFrame](mediaframereference_videomediaframe.md) property of a [MediaFrameReference](mediaframereference.md), the system creates a strong reference to these objects, which means that they will not be disposed when you call [Dispose](mediaframereference_close_811482585.md) on the containing **MediaFrameReference**. This also applies to the **SoftwareBitmap** or **Direct3DSurface** objects provided by the **VideoFrame** object that you obtain from the [MediaFrameReference.VideoMediaFrame](mediaframereference_videomediaframe.md) property. You must explicitly call the **Dispose** method of the **SoftwareBitmap** or **Direct3DSurface** directly for the objects to be immediately disposed. Otherwise, the garbage collector will eventually free the memory for these objects, but you can't know when this will occur, and if the number of allocated bitmaps or surfaces exceeds the maximum amount allowed by the system, the flow of new frames will stop.
 
-For how-to guidance on using [MediaFrameSource](mediaframesource.md) to capture frames, see [Process media frames with MediaFrameReader](https://msdn.microsoft.com/en-us/windows/uwp/audio-video-camera/process-media-frames-with-mediaframereader).
+For how-to guidance on using [MediaFrameSource](mediaframesource.md) to capture frames, see [Process media frames with MediaFrameReader](https://msdn.microsoft.com/windows/uwp/audio-video-camera/process-media-frames-with-mediaframereader).
 
 ## -examples
 
 ## -see-also
-[IClosable](../windows.foundation/iclosable.md), [Process media frames with MediaFrameReader](https://msdn.microsoft.com/en-us/windows/uwp/audio-video-camera/process-media-frames-with-mediaframereader)
+[IClosable](../windows.foundation/iclosable.md), [Process media frames with MediaFrameReader](https://msdn.microsoft.com/windows/uwp/audio-video-camera/process-media-frames-with-mediaframereader)

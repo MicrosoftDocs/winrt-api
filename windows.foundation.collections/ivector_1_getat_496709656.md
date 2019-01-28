@@ -20,7 +20,7 @@ The zero-based index of the item.
 The item at the specified index.
 
 ## -remarks
-When programming with .NET, this interface is hidden and developers should use the [System.Collections.Generic.IList<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ilist-1) interface.
+When programming with .NET, this interface is hidden and developers should use the [System.Collections.Generic.IList<T>](https://docs.microsoft.com/dotnet/api/system.collections.generic.ilist-1) interface.
 
 ## -examples
 

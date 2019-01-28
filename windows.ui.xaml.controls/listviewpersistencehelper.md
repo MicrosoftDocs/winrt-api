@@ -19,5 +19,5 @@ If the [ItemsStackPanel.ItemsUpdatingScrollMode](itemsstackpanel_itemsupdatingsc
 For a complete implementation, see the [Restore scroll position sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlListView/cs/Samples/RestoreScrollPositionSample) in the [ListView and GridView sample repository](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlListView).
 
 ## -see-also
-+ [ListView Class](https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.controls.listview#Definition)
-+ [ListView and GridView](https://docs.microsoft.com/en-us/windows/uwp/controls-and-patterns/listview-and-gridview)
++ [ListView Class](https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.listview#Definition)
++ [ListView and GridView](https://docs.microsoft.com/windows/uwp/controls-and-patterns/listview-and-gridview)

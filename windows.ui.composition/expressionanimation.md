@@ -16,7 +16,7 @@ A Composition Animation that uses a mathematical equation to calculate the value
 
 The core of [ExpressionAnimation](expressionanimation.md)s allows a developer to define a mathematical equation that can be used to calculate the value of a targeted animating property each frame. This contrasts [KeyFrameAnimation](keyframeanimation.md) s, which use an interpolator to define how the animating property changes over time. The mathematical equation can be defined using references to properties of Composition objects, mathematical functions and operators and Input. Expression Animations open the door to making experiences such as sticky headers and parallax easily describable.
 
-For a detailed walkthrough of using Composition [ExpressionAnimation](expressionanimation.md), check out the [Animations Overview document](https://msdn.microsoft.com/en-us/windows/uwp/graphics/composition-animation).
+For a detailed walkthrough of using Composition [ExpressionAnimation](expressionanimation.md), check out the [Animations Overview document](https://msdn.microsoft.com/windows/uwp/graphics/composition-animation).
 
 Use the [CompostionObject.StartAnimation](compositionobject_startanimation_709050842.md) and [CompostionObject.StopAnimation](compositionobject_stopanimation_1075337060.md) methods to start and stop the animation.
 
@@ -298,4 +298,4 @@ void angleBetweenVectors()
 
 
 ## -see-also
-[Animations Overview document](https://msdn.microsoft.com/en-us/windows/uwp/graphics/composition-animation), [Expression Property](expressionanimation_expression.md)
+[Animations Overview document](https://msdn.microsoft.com/windows/uwp/graphics/composition-animation), [Expression Property](expressionanimation_expression.md)

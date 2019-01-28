@@ -10,7 +10,7 @@ public struct Direct3DMultisampleDescription
 # Direct3DMultisampleDescription
 
 ## -description
-A Windows Runtime projection of the [DXGI_SAMPLE_DESC](https://msdn.microsoft.com/en-us/library/windows/desktop/bb173072) structure. Describes multi-sampling parameters for a [IDirect3DSurface](idirect3dsurface.md).
+A Windows Runtime projection of the [DXGI_SAMPLE_DESC](https://msdn.microsoft.com/library/windows/desktop/bb173072) structure. Describes multi-sampling parameters for a [IDirect3DSurface](idirect3dsurface.md).
 
 ## -struct-fields
 

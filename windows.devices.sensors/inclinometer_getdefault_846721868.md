@@ -10,7 +10,7 @@ public Windows.Devices.Sensors.Inclinometer GetDefault()
 # Windows.Devices.Sensors.Inclinometer.GetDefault
 
 ## -description
-Returns the default inclinometer for [absolute readings](https://docs.microsoft.com/en-us/uwp/api/windows.devices.sensors.sensorreadingtype).
+Returns the default inclinometer for [absolute readings](https://docs.microsoft.com/uwp/api/windows.devices.sensors.sensorreadingtype).
 
 ## -returns
 The default inclinometer or null if no inclinometers are found.

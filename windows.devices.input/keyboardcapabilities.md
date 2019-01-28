@@ -31,4 +31,4 @@ function getKeyboardCapabilities() {
 
 ## -see-also
 
-[Identify input devices](https://docs.microsoft.com/en-us/windows/uwp/design/input/identify-input-devices), [Basic input sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620514)
+[Identify input devices](https://docs.microsoft.com/windows/uwp/design/input/identify-input-devices), [Basic input sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620514)

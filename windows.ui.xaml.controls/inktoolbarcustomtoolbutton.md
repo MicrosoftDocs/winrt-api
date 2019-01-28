@@ -37,7 +37,7 @@ In this example, we define a custom tool button that, when selected, causes subs
 The following example steps through how to enable stroke selection through a custom tool button.
 
 > [!NOTE]
-> See [Inking controls](https://msdn.microsoft.com/en-us/windows/uwp/controls-and-patterns/inking-controls) for both [InkCanvas](inkcanvas.md) and [InkToolbar](inktoolbar.md) UX guidelines. The following recommendation is relevant to this example:
+> See [Inking controls](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/inking-controls) for both [InkCanvas](inkcanvas.md) and [InkToolbar](inktoolbar.md) UX guidelines. The following recommendation is relevant to this example:
 + If providing stroke selection, we recommend using the "EF20" icon from the "Segoe MLD2 Assets" font for the tool button, with a "Selection tool" tooltip.
 
 
@@ -58,7 +58,7 @@ This handler configures the [InkPresenter](inkcanvas_inkpresenter.md) to pass un
 
 
 > **For a more detailed step through of this code**
-> See the [Pass-through input for advanced processing](https://msdn.microsoft.com/en-us/windows/uwp/input-and-devices/pen-and-stylus-interactions#pass-through-input-for-advanced-processing) section of [Pen interactions and Windows Ink in UWP apps](https://msdn.microsoft.com/en-us/windows/uwp/input-and-devices/pen-and-stylus-interactions).
+> See the [Pass-through input for advanced processing](https://msdn.microsoft.com/windows/uwp/input-and-devices/pen-and-stylus-interactions#pass-through-input-for-advanced-processing) section of [Pen interactions and Windows Ink in UWP apps](https://msdn.microsoft.com/windows/uwp/input-and-devices/pen-and-stylus-interactions).
 
 We also specified an icon for the button using the [SymbolIcon](symbolicon.md) element and the [{x:Bind} markup extension](http://msdn.microsoft.com/library/529fbeb5-e589-486f-a204-b310acdc5c06) that binds it to a field defined in the code-behind file (`SelectIcon`).
 

@@ -18,7 +18,7 @@ Object that is used to control the asynchronous operation.
 ## -remarks
 
 ## -examples
-Here is an example that shows how to setup and take low lag photos. It displays the captured photo and thumbnail in [Image](https://msdn.microsoft.com/en-us/library/dd757809(v=vs.85).aspx) objects. The XAML creates a simple UI with a two [Image](../windows.ui.xaml.controls/image.md) objects and some [Button](../windows.ui.xaml.controls/button.md) objects to interact with the [MediaCapture](mediacapture.md) element. In code, there is a method to initialize the [MediaCapture](mediacapture.md) object, a method to initialize the [LowLagPhotoCapture](lowlagphotocapture.md) object, a method to take the photo and display it, and a method to shutdown the [LowLagPhotoCapture](lowlagphotocapture.md).
+Here is an example that shows how to setup and take low lag photos. It displays the captured photo and thumbnail in [Image](https://msdn.microsoft.com/library/dd757809(v=vs.85).aspx) objects. The XAML creates a simple UI with a two [Image](../windows.ui.xaml.controls/image.md) objects and some [Button](../windows.ui.xaml.controls/button.md) objects to interact with the [MediaCapture](mediacapture.md) element. In code, there is a method to initialize the [MediaCapture](mediacapture.md) object, a method to initialize the [LowLagPhotoCapture](lowlagphotocapture.md) object, a method to take the photo and display it, and a method to shutdown the [LowLagPhotoCapture](lowlagphotocapture.md).
 
 
 

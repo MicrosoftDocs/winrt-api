@@ -29,4 +29,4 @@ This enumeration is not relevant to type system information as reported to .NET 
 ## -examples
 
 ## -see-also
-[System.Type](https://msdn.microsoft.com/library/system.type.aspx), [Type system (C++/CX)](https://docs.microsoft.com/en-us/cpp/cppcx/type-system-c-cx)
+[System.Type](https://msdn.microsoft.com/library/system.type.aspx), [Type system (C++/CX)](https://docs.microsoft.com/cpp/cppcx/type-system-c-cx)
