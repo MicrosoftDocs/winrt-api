@@ -33,11 +33,11 @@ The systemManagement capability must include the iot namespace when you declare 
 
 Use [SystemSpeechLanguage](speechrecognizer_systemspeechlanguage.md) to get the current system speech recognition language.
 
-Use [Windows.Globalization.Language.IsWellFormed](https://docs.microsoft.com/en-us/uwp/api/windows.globalization.language#Windows_Globalization_Language_IsWellFormed_System_String_) to validate *speechLanguage*.
+Use [Windows.Globalization.Language.IsWellFormed](https://docs.microsoft.com/uwp/api/windows.globalization.language#Windows_Globalization_Language_IsWellFormed_System_String_) to validate *speechLanguage*.
 
 ## -see-also
 - [SystemSpeechLanguage](speechrecognizer_systemspeechlanguage.md)
-- [Windows.Globalization.Language.IsWellFormed](https://docs.microsoft.com/en-us/uwp/api/windows.globalization.language#Windows_Globalization_Language_IsWellFormed_System_String_)
+- [Windows.Globalization.Language.IsWellFormed](https://docs.microsoft.com/uwp/api/windows.globalization.language#Windows_Globalization_Language_IsWellFormed_System_String_)
 
 ### How-to's
 - [Embedded mode](https://developer.microsoft.com/windows/iot/docs/embeddedmode)

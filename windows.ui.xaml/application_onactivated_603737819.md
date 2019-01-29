@@ -33,4 +33,4 @@ For more info, see [App lifecycle](http://msdn.microsoft.com/library/6c469e77-f1
 ## -examples
 
 ## -see-also
-[Launching and resuming apps](https://docs.microsoft.com/en-us/windows/uwp/launch-resume/)
+[Launching and resuming apps](https://docs.microsoft.com/windows/uwp/launch-resume/)

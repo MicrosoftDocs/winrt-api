@@ -24,11 +24,11 @@ Use [PrepareLowLagPhotoCaptureAsync](mediacapture_preparelowlagphotocaptureasync
 
 [PrepareLowLagPhotoCaptureAsync](mediacapture_preparelowlagphotocaptureasync_1426375994.md) must be called before [LowLagPhotoCapture.CaptureAsync](lowlagphotocapture_captureasync_2078018041.md).
 
-For how-to guidance on using [LowLagPhotoCapture](lowlagphotocapture.md) to capture a photo, see [Basic photo, video, and audio capture with MediaCapture](https://msdn.microsoft.com/en-us/windows/uwp/audio-video-camera/basic-photo-video-and-audio-capture-with-mediacapture).
+For how-to guidance on using [LowLagPhotoCapture](lowlagphotocapture.md) to capture a photo, see [Basic photo, video, and audio capture with MediaCapture](https://msdn.microsoft.com/windows/uwp/audio-video-camera/basic-photo-video-and-audio-capture-with-mediacapture).
 
 ## -examples
 
 ## -see-also
-[Basic photo, video, and audio capture with MediaCapture](https://msdn.microsoft.com/en-us/windows/uwp/audio-video-camera/basic-photo-video-and-audio-capture-with-mediacapture), [LowLagPhotoCapture](lowlagphotocapture.md)
+[Basic photo, video, and audio capture with MediaCapture](https://msdn.microsoft.com/windows/uwp/audio-video-camera/basic-photo-video-and-audio-capture-with-mediacapture), [LowLagPhotoCapture](lowlagphotocapture.md)
 ## -capabilities
 backgroundMediaRecording

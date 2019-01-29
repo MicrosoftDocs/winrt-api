@@ -15,7 +15,7 @@ Creates a [SemanticTextQuery](semantictextquery.md) from an Advanced Query Synta
 
 ## -parameters
 ### -param aqsFilter
-An Advanced Query Syntax (AQS) string that contains the desired query. Learn more about AQS in [Advanced Query Syntax (AQS)](https://msdn.microsoft.com/en-us/library/aa965711.aspx).
+An Advanced Query Syntax (AQS) string that contains the desired query. Learn more about AQS in [Advanced Query Syntax (AQS)](https://msdn.microsoft.com/library/aa965711.aspx).
 
 ## -remarks
 

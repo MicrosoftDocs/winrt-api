@@ -10,7 +10,7 @@ public class SpiConnectionSettings : Windows.Devices.Spi.ISpiConnectionSettings
 # Windows.Devices.Spi.SpiConnectionSettings
 
 ## -description
-Represents the settings for the connection with an [SpiDevice](https://docs.microsoft.com/en-us/uwp/api/windows.devices.spi.spidevice).
+Represents the settings for the connection with an [SpiDevice](https://docs.microsoft.com/uwp/api/windows.devices.spi.spidevice).
 
 ## -remarks
 

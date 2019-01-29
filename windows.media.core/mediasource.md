@@ -25,9 +25,9 @@ Using one of the factory methods, you can create an instance of [MediaSource](me
 
 After getting a [MediaSource](mediasource.md) instance, create a new [MediaPlaybackItem](../windows.media.playback/mediaplaybackitem.md) wrapping the media source and pass the [MediaPlaybackItem](../windows.media.playback/mediaplaybackitem.md) to one of the media playback objects, such as [MediaPlayer](../windows.media.playback/mediaplayer.md) or [MediaElement](../windows.ui.xaml.controls/mediaelement.md).
 
-For how-to guidance for using **MediaSource** to play back media, see [Media items, playlists, and tracks](https://docs.microsoft.com/en-us/windows/uwp/audio-video-camera/media-playback-with-mediasource).
+For how-to guidance for using **MediaSource** to play back media, see [Media items, playlists, and tracks](https://docs.microsoft.com/windows/uwp/audio-video-camera/media-playback-with-mediasource).
 
 ## -examples
 
 ## -see-also
-[Media items, playlists, and tracks](https://docs.microsoft.com/en-us/windows/uwp/audio-video-camera/media-playback-with-mediasource/), [MediaPlaybackItem](../windows.media.playback/mediaplaybackitem.md)
+[Media items, playlists, and tracks](https://docs.microsoft.com/windows/uwp/audio-video-camera/media-playback-with-mediasource/), [MediaPlaybackItem](../windows.media.playback/mediaplaybackitem.md)

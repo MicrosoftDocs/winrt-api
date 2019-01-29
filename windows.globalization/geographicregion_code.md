@@ -10,6 +10,7 @@ public string Code { get; }
 # Windows.Globalization.GeographicRegion.Code
 
 ## -description
+
 Gets the string that contains the best available identifier that represents the region.
 
 ## -property-value
@@ -21,6 +22,7 @@ Returns a string that contains:
 + otherwise, the three-digit numeric identifier code, if one exists (and is not "999");
 + otherwise, "ZZ".
 
+For a list of standard country/region codes used by Microsoft, see the [Official Country/Region List](https://globalready.azurewebsites.net/marketreadiness/OfficialCountryregion).
 
 ## -remarks
 

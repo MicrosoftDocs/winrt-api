@@ -19,7 +19,7 @@ Hosts 2D boxed content of type [CompositionBrush](compositionbrush.md). Any part
 
 ```csharp
 
-SpriteVisual visual= compositor.CreateSpriteVisual();
+SpriteVisual visual = compositor.CreateSpriteVisual();
 visual.Brush = compositor.CreateColorBrush  (Colors.White);
           
 ```
@@ -28,7 +28,7 @@ visual.Brush = compositor.CreateColorBrush  (Colors.White);
 
 ```csharp
 
-SpriteVisual visual= compositor.CreateSpriteVisual();
+SpriteVisual visual = compositor.CreateSpriteVisual();
 var surface = graphicsDevice.CreateDrawingSurface(new Size(300, 50), 
                                                   Windows.Graphics.DirectX.DirectXPixelFormat.B8G8R8A8UIntNormalized, 
                                                   CompositionAlphaMode.Ignore); 

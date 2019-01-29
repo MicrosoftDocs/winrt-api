@@ -112,4 +112,4 @@ namespace AppUIBasics.Common
 
 ## -see-also
 
-[Command design basics](https://docs.microsoft.com/en-us/windows/uwp/layout/commanding-basics), [Windows.UI.Xaml.Input.XamlUICommand](xamluicommand.md), [Windows.UI.Xaml.Input.StandardUICommand](standarduicommand.md)
+[Command design basics](https://docs.microsoft.com/windows/uwp/layout/commanding-basics), [Windows.UI.Xaml.Input.XamlUICommand](xamluicommand.md), [Windows.UI.Xaml.Input.StandardUICommand](standarduicommand.md)

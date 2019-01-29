@@ -20,4 +20,4 @@ The underlying type, with relevant information as the values of the [TypeName](.
 ## -examples
 
 ## -see-also
-[typeid component extension](https://msdn.microsoft.com/en-us/library/kwd9abya.aspx)
+[typeid component extension](https://msdn.microsoft.com/library/kwd9abya.aspx)

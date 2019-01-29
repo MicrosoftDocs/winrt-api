@@ -133,7 +133,7 @@ void MainPage::DefaultLaunch()
 ```
 
 > [!NOTE]
-> For Windows app using JavaScript, call [preventDefault](https://msdn.microsoft.com/en-us/library/ff975967(v=vs.85).aspx) in your event handler if the [treatAsUntrusted](launcheroptions_treatasuntrusted.md) property is set and you are using an [a](https://msdn.microsoft.com/en-us/library/ms535173(v=vs.85).aspx) element to launch the URI.
+> For Windows app using JavaScript, call [preventDefault](https://msdn.microsoft.com/library/ff975967(v=vs.85).aspx) in your event handler if the [treatAsUntrusted](launcheroptions_treatasuntrusted.md) property is set and you are using an [a](https://msdn.microsoft.com/library/ms535173(v=vs.85).aspx) element to launch the URI.
 
 ```javascript
 // The URI to launch

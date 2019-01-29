@@ -17,7 +17,7 @@ Sets the list of [AudioStreamDescriptor](https://docs.microsoft.com/uwp/api/Wind
 A list of [VideoStreamDescriptor](https://docs.microsoft.com/uwp/api/windows.media.core.videostreamdescriptor) objects.
 
 ## -remarks
-The  [Label](https://docs.microsoft.com/uwp/api/windows.media.core.audiostreamdescriptor.Label) field for each [AudioStreamDescriptor](https://docs.microsoft.com/en-us/uwp/api/windows.media.core.audiostreamdescriptor) in the collection must be unique. If you attempt to add more than one stream descriptor with the same label, an invalid argument error will occur.
+The  [Label](https://docs.microsoft.com/uwp/api/windows.media.core.audiostreamdescriptor.Label) field for each [AudioStreamDescriptor](https://docs.microsoft.com/uwp/api/windows.media.core.audiostreamdescriptor) in the collection must be unique. If you attempt to add more than one stream descriptor with the same label, an invalid argument error will occur.
 
 If you set the [Audio](https://docs.microsoft.com/uwp/api/windows.media.mediaproperties.mediaencodingprofile.Audio) property, the list of video tracks is reset to a list with a single **AudioStreamDescriptor** entry. If you retrieve the **Audio** property after calling **SetVideoTracks**, the property will return the first entry in the provided list.
 

@@ -17,7 +17,7 @@ Rotates the recorded video.
 The amount by which to rotate the video.
 
 ## -remarks
-For how-to guidance on handling orientation when using the camera, see [Handle device orientation with MediaCapture](https://msdn.microsoft.com/en-us/windows/uwp/audio-video-camera/handle-device-orientation-with-mediacapture).
+For how-to guidance on handling orientation when using the camera, see [Handle device orientation with MediaCapture](https://msdn.microsoft.com/windows/uwp/audio-video-camera/handle-device-orientation-with-mediacapture).
 
 ## -examples
 

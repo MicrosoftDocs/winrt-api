@@ -27,7 +27,7 @@ Here is a breakdown of the parts of an example Uniform Resource Identifier (URI)
 
 For example:
 
-<cmd_line>http://msdn.microsoft.com/en-us/library/windows/apps/windows.foundation.uri.aspx?cs-save-lang=1&amp;cs-lang=cpp#code-snippet-1</cmd_line>
+<cmd_line>http://msdn.microsoft.com/library/windows/apps/windows.foundation.uri.aspx?cs-save-lang=1&amp;cs-lang=cpp#code-snippet-1</cmd_line>
 
 In this example:
 
@@ -142,4 +142,4 @@ auto uri = ref new Windows::Foundation::Uri(uriFile);
 ```
 
 ## -see-also
-[System.Uri](https://msdn.microsoft.com/library/system.uri.aspx), [How to reference content (HTML)](http://msdn.microsoft.com/library/b1ad2d76-d18f-4e9e-b810-06af0cfd4628), [How to load file resources (XAML)](http://msdn.microsoft.com/library/a1bfa080-757c-49f7-8b7e-dcf64234edac), [Connecting to networks and web services](https://docs.microsoft.com/en-us/windows/uwp/networking/index), [WwwFormUrlDecoder](wwwformurldecoder.md), [createObjectURL (for HTML/JavaScript)](https://msdn.microsoft.com/library/windows/apps/hh453196), [RFC 3986](http://go.microsoft.com/fwlink/p/?LinkId=263444), [RFC 3987](http://tools.ietf.org/html/rfc3987), [RSS reader end-to-end (JavaScript) sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620542)
+[System.Uri](https://msdn.microsoft.com/library/system.uri.aspx), [How to reference content (HTML)](http://msdn.microsoft.com/library/b1ad2d76-d18f-4e9e-b810-06af0cfd4628), [How to load file resources (XAML)](http://msdn.microsoft.com/library/a1bfa080-757c-49f7-8b7e-dcf64234edac), [Connecting to networks and web services](https://docs.microsoft.com/windows/uwp/networking/index), [WwwFormUrlDecoder](wwwformurldecoder.md), [createObjectURL (for HTML/JavaScript)](https://msdn.microsoft.com/library/windows/apps/hh453196), [RFC 3986](http://go.microsoft.com/fwlink/p/?LinkId=263444), [RFC 3987](http://tools.ietf.org/html/rfc3987), [RSS reader end-to-end (JavaScript) sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620542)

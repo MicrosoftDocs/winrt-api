@@ -10,7 +10,7 @@ public struct Direct3DSurfaceDescription
 # Direct3DSurfaceDescription
 
 ## -description
-A Windows Runtime projection of the [DXGI_SURFACE_DESC](https://msdn.microsoft.com/en-us/library/windows/desktop/bb173074) structure. Describes a [IDirect3DSurface](idirect3dsurface.md).
+A Windows Runtime projection of the [DXGI_SURFACE_DESC](https://msdn.microsoft.com/library/windows/desktop/bb173074) structure. Describes a [IDirect3DSurface](idirect3dsurface.md).
 
 ## -struct-fields
 

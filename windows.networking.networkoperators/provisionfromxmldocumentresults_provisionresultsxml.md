@@ -18,7 +18,7 @@ Indicates which elements in the provisioning profile could not be successfully p
 
 
 
-> If you want to use this API and publish your app to the Store, you will need special approval. For more information, see the **Special and restricted capabilities** section under [App capability declarations](https://docs.microsoft.com/en-us/windows/uwp/packaging/app-capability-declarations). 
+> If you want to use this API and publish your app to the Store, you will need special approval. For more information, see the **Special and restricted capabilities** section under [App capability declarations](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations). 
 
 ## -property-value
 An instance of [ResultsSchema](https://docs.microsoft.com/uwp/schemas/mobilebroadbandschema/resultsschema/schema-root) that indicates which elements in the provisioning profile could not be successfully provisioned.
