@@ -27,5 +27,7 @@ The *content* parameter is **null** (**Nothing** in Visual Basic).
 
 ## -examples
 
+See [POST binary data over HTTP](/windows/uwp/networking/httpclient#post-binary-data-over-http).
+
 ## -see-also
 [HttpBufferContent(IBuffer, UInt32, UInt32)](httpbuffercontent_httpbuffercontent_2118840992.md)
