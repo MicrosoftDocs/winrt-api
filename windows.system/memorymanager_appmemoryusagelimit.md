@@ -13,7 +13,7 @@ public ulong AppMemoryUsageLimit { get; }
 Gets the app's memory usage limit.
 
 ## -property-value
-The app's memory usage limit.
+The app's memory usage limit in bytes.
 
 ## -remarks
 
