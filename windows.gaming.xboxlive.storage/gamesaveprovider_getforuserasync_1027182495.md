@@ -16,7 +16,7 @@ Gets a game save provider for the specified user.
 ## -parameters
 ### -param user
 
-Type: [User](w_sys.user)
+Type: [User](windows.system.user)
 
 User who the game saves are for.
 
