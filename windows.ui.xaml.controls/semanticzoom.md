@@ -56,7 +56,7 @@ When you use a [GridView](gridview.md) in a [SemanticZoom](semanticzoom.md) cont
 >
 > If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the SemanticZoom in action](xamlcontrolsgallery:/item/SemanticZoom).
 > + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
 
 ## -see-also
 [Control](control.md), [SemanticZoom styles and templates](http://msdn.microsoft.com/library/7d34cb53-d6d0-4856-b495-166b67d896c4), [Semantic zoom overview](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/semantic-zoom), [GridView](gridview.md), [Hub](hub.md), [ListView](listview.md),

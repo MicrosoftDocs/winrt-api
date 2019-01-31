@@ -80,7 +80,7 @@ This table shows the resources used by the [Button](button.md) control.
 >
 > If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the Button in action](xamlcontrolsgallery:/item/Button).
 > + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
 
 The following example shows three buttons that respond to clicks in three different ways based on their [ClickMode](../windows.ui.xaml.controls.primitives/buttonbase_clickmode.md) property value.
 

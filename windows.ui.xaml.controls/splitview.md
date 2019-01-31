@@ -56,7 +56,7 @@ Set the [DisplayMode](splitview_displaymode.md) property to configure the intera
 >
 > If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the SplitView in action](xamlcontrolsgallery:/item/SplitView).
 > + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
 
 Here's a [SplitView](splitview.md) control with an open [Pane](splitview_pane.md) appearing inline next to the [Content](splitview_content.md).
 

@@ -79,7 +79,7 @@ This table shows the resources used by the [Pivot](pivot.md) control.
 >
 > If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the Pivot in action](xamlcontrolsgallery:/item/Pivot).
 > + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
 
 For more examples, see the [Pivot sample](http://go.microsoft.com/fwlink/p/?LinkId=619903).
 

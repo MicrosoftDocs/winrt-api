@@ -76,7 +76,7 @@ The rendered text looks like this:
 >
 > If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the TextBlock in action](xamlcontrolsgallery:/item/TextBlock).
 > + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
 
 This example demonstrates a [TextBlock](textblock.md) with text selection enabled and text wrapping enabled.
 

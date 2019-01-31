@@ -33,7 +33,7 @@ Defines a content decorator that can stretch and scale a single child to fill th
 > [!TIP]
 > If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the ViewBox in action](xamlcontrolsgallery:/item/ViewBox).
 > + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
 
 The following example shows what happens when you change the [StretchDirection](viewbox_stretchdirection.md) and [Stretch](viewbox_stretch.md) properties of a [Viewbox](viewbox.md). The example includes three [Viewbox](viewbox.md) controls that have different sizes. The same image is displayed in the [Viewbox](viewbox.md) controls so that you can compare the differences. You can manipulate the stretching and scaling of the image by clicking the buttons that correspond to the values for the [Stretch](viewbox_stretch.md) and [StretchDirection](viewbox_stretchdirection.md) enumerations.
 

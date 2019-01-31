@@ -68,7 +68,7 @@ This table shows the resources used by the [FlipView](flipview.md) control.
 >
 > If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the FlipView in action](xamlcontrolsgallery:/item/FlipView).
 > + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
 
 In this example, the [ItemTemplate](itemscontrol_itemtemplate.md) of a [FlipView](flipview.md) is defined inline.
 

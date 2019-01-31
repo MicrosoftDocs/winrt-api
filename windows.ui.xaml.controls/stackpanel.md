@@ -54,7 +54,7 @@ You can insert items into a [StackPanel](stackpanel.md) at a specific location u
 >
 > If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the StackPanel in action](xamlcontrolsgallery:/item/StackPanel).
 > + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
 
 The following example shows how to create a [StackPanel](stackpanel.md) of items.
 
