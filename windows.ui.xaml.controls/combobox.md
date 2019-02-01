@@ -79,7 +79,7 @@ This table shows the resources used by the [ComboBox](combobox.md) control.
 >
 > If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the ComboBox in action](xamlcontrolsgallery:/item/ComboBox).
 > + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
 
 The following example demonstrates binding a [ComboBox](combobox.md) to a collection of [FontFamily](../windows.ui.xaml.media/fontfamily.md) objects.
 

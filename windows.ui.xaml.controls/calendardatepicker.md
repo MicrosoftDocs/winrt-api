@@ -132,7 +132,7 @@ This table shows the resources used by the [CalendarDatePicker](calendardatepick
 >
 > If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the CalendarDatePicker in action](xamlcontrolsgallery:/item/CalendarDatePicker).
 > + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
 
 ## -see-also
 [Control](control.md), [CalendarDatePicker styles and templates](http://msdn.microsoft.com/library/30d22fcc-3a79-412e-ac0d-ce3c5eb59487)

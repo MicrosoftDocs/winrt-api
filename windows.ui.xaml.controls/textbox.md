@@ -221,7 +221,7 @@ This table shows the resources used by the [TextBox](textbox.md) control. Resour
 >
 > If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the TextBox in action](xamlcontrolsgallery:/item/TextBox).
 > + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
 
 This example shows a [TextBox](textbox.md) with a header and placeholder text. The [Text](textbox_text.md) from the [TextBox](textbox.md) is used to show a greeting to the user.
 

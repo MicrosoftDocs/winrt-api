@@ -41,7 +41,7 @@ Use a [ProgressRing](progressring.md) to visually indicate that an operation is 
 >
 > If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the ProgressRing in action](xamlcontrolsgallery:/item/ProgressRing).
 > + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
 
 This example shows how to set the [IsActive](progressring_isactive.md) property of a [ProgressRing](progressring.md) in code. A [ToggleSwitch](toggleswitch.md) is used to turn the[ProgressRing](progressring.md) control on or off.
 

@@ -37,4 +37,4 @@ For more info about the ColorPicker control, see [Color picker](https://docs.mic
 >
 > If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the ColorPicker in action](xamlcontrolsgallery:/item/ColorPicker).
 > + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)

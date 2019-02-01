@@ -26,5 +26,5 @@ Represents a container control that provides a [RefreshVisualizer](refreshvisual
 >
 > If you have the **XAML Controls Gallery** app installed, click here to [open the app and see pull-to-refresh in action](xamlcontrolsgallery:/item/PullToRefresh).
 > + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
 

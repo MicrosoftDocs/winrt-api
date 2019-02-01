@@ -69,7 +69,7 @@ This table shows the resources used by the [TimePicker](timepicker.md) control.
 >
 > If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the TimePicker in action](xamlcontrolsgallery:/item/TimePicker).
 > + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
 
 ## -see-also
 [Time picker overview](/windows/uwp/design/controls-and-patterns/time-picker), [Windows.Globalization.ClockIdentifiers](../windows.globalization/clockidentifiers.md), [System.TimeSpan (C#/VB)](https://msdn.microsoft.com/library/system.timespan.aspx), [Windows::Foundation::TimeSpan (C++)](http://msdn.microsoft.com/library/fbc6ecc2-6372-4b15-9532-3cd68a72e7b4), [DatePicker](datepicker.md), [Controls list](http://msdn.microsoft.com/library/11172840-a63d-4f48-9db4-7baca06308ee), [Controls by function](http://msdn.microsoft.com/library/8db4347b-91d6-4659-91f2-80ecf7bbb596)

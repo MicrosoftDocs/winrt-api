@@ -124,7 +124,7 @@ The [HorizontalAlignment](../windows.ui.xaml/frameworkelement_horizontalalignmen
 >
 > If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the RelativePanel in action](xamlcontrolsgallery:/item/RelativePanel).
 > + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
 
 ## -see-also
 [Panel](panel.md), [Define layouts with XAML](http://msdn.microsoft.com/library/8d4e4162-1c9c-48f4-8a94-34976fb17079), [Quickstart: Adding layout controls](http://msdn.microsoft.com/library/5ad6c2ac-7ad7-4f0e-9636-97a0b3fbc43f), [Alignment, margin, and padding](http://msdn.microsoft.com/library/9412abd4-3674-4865-b07d-64c7c26e4842), [Canvas](canvas.md), [Grid](grid.md), [StackPanel](stackpanel.md), [VariableSizedWrapGrid](variablesizedwrapgrid.md), [Controls list](http://msdn.microsoft.com/library/11172840-a63d-4f48-9db4-7baca06308ee), [Controls by function](http://msdn.microsoft.com/library/8db4347b-91d6-4659-91f2-80ecf7bbb596)
