@@ -76,7 +76,7 @@ StorageFolder^ folder = StorageDevice::FromId(deviceInformationId);
 ```
 
 ## -see-also
-[Removable Storage Sample](http://go.microsoft.com/fwlink/p/?linkid=242035)
+[Removable Storage Sample](https://go.microsoft.com/fwlink/p/?linkid=242035)
 
 ## -capabilities
 removableStorage

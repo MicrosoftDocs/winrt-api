@@ -13,7 +13,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Storage.Streams.IRandomAccessS
 Gets the display picture of a contact.
 
 ## -returns
-A stream containing the image data. If you use [Asynchronous programming](http://msdn.microsoft.com/library/23fe28f1-89c5-4a17-a732-a722648f9c5e), the result type is [IRandomAccessStream](../windows.storage.streams/irandomaccessstream.md), which is the bitmap data for an image provided as a stream.
+A stream containing the image data. If you use [Asynchronous programming](https://msdn.microsoft.com/library/23fe28f1-89c5-4a17-a732-a722648f9c5e), the result type is [IRandomAccessStream](../windows.storage.streams/irandomaccessstream.md), which is the bitmap data for an image provided as a stream.
 
 ## -remarks
 

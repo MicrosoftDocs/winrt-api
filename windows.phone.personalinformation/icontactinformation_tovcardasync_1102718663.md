@@ -17,7 +17,7 @@ Retrieves a vCard representation of the contact using the specified vCard format
 The format that the returned vCard will use.
 
 ## -returns
-When this method completes, it returns a stream containing the vCard data. If you use [Asynchronous programming](http://msdn.microsoft.com/library/23fe28f1-89c5-4a17-a732-a722648f9c5e), the result type is [IRandomAccessStream](../windows.storage.streams/irandomaccessstream.md), which is the data.
+When this method completes, it returns a stream containing the vCard data. If you use [Asynchronous programming](https://msdn.microsoft.com/library/23fe28f1-89c5-4a17-a732-a722648f9c5e), the result type is [IRandomAccessStream](../windows.storage.streams/irandomaccessstream.md), which is the data.
 
 ## -remarks
 

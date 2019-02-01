@@ -21,7 +21,7 @@ Animates from the [Color](../windows.ui/color.md) value of the previous key fram
 ## -remarks
 Key-frame animations permit more than one target value that is reached at a point along the animation timeline. In other words each key frame can specify a different intermediate value, and the last key frame reached is the final animation value. By specifying multiple values to animate, you can make more complex animations. You can mix discrete, linear, and spline keyframes in the same keyframe collection.
 
-For more info on how to use key-frame animations, see [Key-frame animations and easing function animations](http://msdn.microsoft.com/library/d8af24cd-f4c2-4562-afd7-25010955d677).
+For more info on how to use key-frame animations, see [Key-frame animations and easing function animations](https://msdn.microsoft.com/library/d8af24cd-f4c2-4562-afd7-25010955d677).
 
 ## -examples
 This XAML example uses the **ColorAnimationUsingKeyFrames** class to animate the [Background](../windows.ui.xaml.controls/panel_background.md) property of a [StackPanel](../windows.ui.xaml.controls/stackpanel.md). This animation uses three key frames in the following manner:
@@ -51,5 +51,5 @@ This XAML example uses the **ColorAnimationUsingKeyFrames** class to animate the
 [!code-vb[Coloranimationusingkeyframes_cs](../windows.ui.xaml.media.animation/code/coloranimationusingkeyframes/vbnet/Page.xaml.vb#SnippetColoranimationusingkeyframes_cs)]
 
 ## -see-also
-[Storyboarded animations](http://msdn.microsoft.com/library/0cbceea0-2b0e-44a1-a09a-f7a939632f3a), [Key-frame animations and easing function animations](http://msdn.microsoft.com/library/d8af24cd-f4c2-4562-afd7-25010955d677), [ColorKeyFrame](colorkeyframe.md), [ColorAnimationUsingKeyFrames](coloranimationusingkeyframes.md), [KeyTime](colorkeyframe_keytime.md), [Value](colorkeyframe_value.md)
+[Storyboarded animations](https://msdn.microsoft.com/library/0cbceea0-2b0e-44a1-a09a-f7a939632f3a), [Key-frame animations and easing function animations](https://msdn.microsoft.com/library/d8af24cd-f4c2-4562-afd7-25010955d677), [ColorKeyFrame](colorkeyframe.md), [ColorAnimationUsingKeyFrames](coloranimationusingkeyframes.md), [KeyTime](colorkeyframe_keytime.md), [Value](colorkeyframe_value.md)
 [KeyTime](colorkeyframe_keytime.md), [Value](colorkeyframe_value.md)

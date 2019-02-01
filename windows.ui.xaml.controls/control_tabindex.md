@@ -26,4 +26,4 @@ A value that determines the order of logical navigation for a device. The defaul
 ## -examples
 
 ## -see-also
-[IsTabStop](control_istabstop.md), [TabNavigation](control_tabnavigation.md), [Keyboard interactions](http://msdn.microsoft.com/library/ff819bac-67c0-4ec9-8921-f087be188138), [Keyboard accessibility](http://msdn.microsoft.com/library/ddae8c4b-7907-49fe-9645-f105f8dfad8b)
+[IsTabStop](control_istabstop.md), [TabNavigation](control_tabnavigation.md), [Keyboard interactions](https://msdn.microsoft.com/library/ff819bac-67c0-4ec9-8921-f087be188138), [Keyboard accessibility](https://msdn.microsoft.com/library/ddae8c4b-7907-49fe-9645-f105f8dfad8b)

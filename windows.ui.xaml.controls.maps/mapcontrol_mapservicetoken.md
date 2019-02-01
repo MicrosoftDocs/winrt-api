@@ -20,4 +20,4 @@ The authentication key required for using the [MapControl](mapcontrol.md) and on
 ## -examples
 
 ## -see-also
-[Request a maps authentication key](http://msdn.microsoft.com/library/13b400d7-e13f-4f07-acc3-9c34087f0f73), [Display maps with 2D, 3D, and Streetside views](http://msdn.microsoft.com/library/3839e00b-2c1e-4627-a45f-6dda98d7077f)
+[Request a maps authentication key](https://msdn.microsoft.com/library/13b400d7-e13f-4f07-acc3-9c34087f0f73), [Display maps with 2D, 3D, and Streetside views](https://msdn.microsoft.com/library/3839e00b-2c1e-4627-a45f-6dda98d7077f)

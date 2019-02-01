@@ -11,7 +11,7 @@ A geofence is a virtual area around a geographical point. The geofencing APIs en
 
 Apps define areas of interest (geofences) and corresponding trigger conditions, such as triggering when the user enters or exits the geofence. Finally, the app registers to be notified when the trigger conditions are met. Windows and Windows Phone support hundreds of geofences per app. The operating system efficiently manages geofence tracking for all apps. When the trigger conditions for one or more geofences are met, the associated app is alerted even when it is not actively running. This high capacity, power-aware, adaptive geofence tracking system allows you to quickly and easily add location-triggered functionality to your app.
 
-For a complete guide on using geofencing, see [Geofencing, start to finish](http://msdn.microsoft.com/library/eee6b589-2eab-4279-ac61-22bfa5e06d8e).
+For a complete guide on using geofencing, see [Geofencing, start to finish](https://msdn.microsoft.com/library/eee6b589-2eab-4279-ac61-22bfa5e06d8e).
 
 The geofencing APIs enable your app to do the following:
 
@@ -40,7 +40,7 @@ Your app must declare the location capability in the app manifest in order to us
 
 ## -see-also
 
-[Get current location](http://msdn.microsoft.com/library/24dc9a41-8cc1-48b0-bc6d-24bf571afcc8), [Set up a geofence](http://msdn.microsoft.com/library/a3a46e03-0751-4dbd-a2a1-2323db09bdba), [Geofence](geofence.md), [GeofenceMonitor](geofencemonitor.md), [Windows.Devices.Geolocation](windows_devices_geolocation_geofencing.md), [Geolocation sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=533278)
+[Get current location](https://msdn.microsoft.com/library/24dc9a41-8cc1-48b0-bc6d-24bf571afcc8), [Set up a geofence](https://msdn.microsoft.com/library/a3a46e03-0751-4dbd-a2a1-2323db09bdba), [Geofence](geofence.md), [GeofenceMonitor](geofencemonitor.md), [Windows.Devices.Geolocation](windows_devices_geolocation_geofencing.md), [Geolocation sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=533278)
 
 ## -capabilities
 

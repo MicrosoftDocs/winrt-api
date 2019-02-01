@@ -56,5 +56,5 @@ The beginning of the text is aligned to the edge of the container.
 ## -examples
 
 ## -see-also
-[RichEditBox.TextAlignment](../windows.ui.xaml.controls/richeditbox_textalignment.md), [RichTextBlock.TextAlignment](../windows.ui.xaml.controls/richtextblock_textalignment.md), [TextBlock.TextAlignment](../windows.ui.xaml.controls/textblock_textalignment.md), [TextBox.TextAlignment](../windows.ui.xaml.controls/textbox_textalignment.md), [FlowDirection](flowdirection.md), [How to support bidirectional UI](http://msdn.microsoft.com/library/66f92aff-6f1c-428f-b06f-b2892a8015b7)
+[RichEditBox.TextAlignment](../windows.ui.xaml.controls/richeditbox_textalignment.md), [RichTextBlock.TextAlignment](../windows.ui.xaml.controls/richtextblock_textalignment.md), [TextBlock.TextAlignment](../windows.ui.xaml.controls/textblock_textalignment.md), [TextBox.TextAlignment](../windows.ui.xaml.controls/textbox_textalignment.md), [FlowDirection](flowdirection.md), [How to support bidirectional UI](https://msdn.microsoft.com/library/66f92aff-6f1c-428f-b06f-b2892a8015b7)
 

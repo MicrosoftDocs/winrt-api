@@ -20,7 +20,7 @@ Imports data from a ".mswallet" XML file into the system wallet store.
 The ".mswallet" file to import.
 
 ## -returns
-An asynchronous operation that, on successful completion, returns the wallet item that was imported into the wallet. If you use [Asynchronous programming](http://msdn.microsoft.com/library/23fe28f1-89c5-4a17-a732-a722648f9c5e), the result type on successful completion is a single [WalletItem](../windows.applicationmodel.wallet/walletitem.md).
+An asynchronous operation that, on successful completion, returns the wallet item that was imported into the wallet. If you use [Asynchronous programming](https://msdn.microsoft.com/library/23fe28f1-89c5-4a17-a732-a722648f9c5e), the result type on successful completion is a single [WalletItem](../windows.applicationmodel.wallet/walletitem.md).
 
 ## -remarks
 

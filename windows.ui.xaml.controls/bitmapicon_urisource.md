@@ -26,4 +26,4 @@ The [Uri](../windows.foundation/uri.md) of the bitmap to use as the icon content
 ## -examples
 
 ## -see-also
-[IconElement.Foreground](iconelement_foreground.md), [Adding app bars](http://msdn.microsoft.com/library/9915aea1-e738-4c4b-a838-85625055fa06), [Uri schemes](http://msdn.microsoft.com/library/f3b3ae74-aaea-4f00-8f0a-4c231b8745af)
+[IconElement.Foreground](iconelement_foreground.md), [Adding app bars](https://msdn.microsoft.com/library/9915aea1-e738-4c4b-a838-85625055fa06), [Uri schemes](https://msdn.microsoft.com/library/f3b3ae74-aaea-4f00-8f0a-4c231b8745af)

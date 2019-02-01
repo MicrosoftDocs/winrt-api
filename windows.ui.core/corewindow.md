@@ -49,10 +49,10 @@ void MyCoreWindowEvents::Run() // this is an implementation of IFrameworkView::R
 ```
 
 > [!NOTE]
-> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://go.microsoft.com/fwlink/p/?linkid=258275).
+> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275).
 
 ## -examples
 
 ## -see-also
 
-[CoreApplicationView](../windows.applicationmodel.core/coreapplicationview.md), [CoreApplication.CreateNewView](../windows.applicationmodel.core/coreapplication_createnewview_1643095864.md), [CoreApplication.Views](../windows.applicationmodel.core/coreapplication_views.md), [Direct2D custom image effects sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620531)
+[CoreApplicationView](../windows.applicationmodel.core/coreapplicationview.md), [CoreApplication.CreateNewView](../windows.applicationmodel.core/coreapplication_createnewview_1643095864.md), [CoreApplication.Views](../windows.applicationmodel.core/coreapplication_views.md), [Direct2D custom image effects sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620531)

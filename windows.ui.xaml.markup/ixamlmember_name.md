@@ -10,10 +10,10 @@ public string Name { get; }
 # Windows.UI.Xaml.Markup.IXamlMember.Name
 
 ## -description
-Gets the [XamlName name string](http://msdn.microsoft.com/library/ms742534.aspx) that declares the XAML member.
+Gets the [XamlName name string](https://msdn.microsoft.com/library/ms742534.aspx) that declares the XAML member.
 
 ## -property-value
-The [XamlName name string](http://msdn.microsoft.com/library/ms742534.aspx) that declares the XAML member.
+The [XamlName name string](https://msdn.microsoft.com/library/ms742534.aspx) that declares the XAML member.
 
 ## -remarks
 

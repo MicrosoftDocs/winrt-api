@@ -18,7 +18,7 @@ If you want to run a work item more than once at a regular interval, use the [Cr
 
 If you want a work item to wait until an event or semaphore is signaled, or if you want to create a preallocated work item, see [Windows.System.Threading.Core](../windows.system.threading.core/windows_system_threading_core.md).
 
-For example code that demonstrates how to use the thread pool, see the [Thread Pool Sample](http://code.msdn.microsoft.com/windowsapps/Pool-Sample-5aa60454).
+For example code that demonstrates how to use the thread pool, see the [Thread Pool Sample](https://code.msdn.microsoft.com/windowsapps/Pool-Sample-5aa60454).
 
 > [!NOTE]
 > The ThreadPool API is supported for desktop as well as UWP apps.

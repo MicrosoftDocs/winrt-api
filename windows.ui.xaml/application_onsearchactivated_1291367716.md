@@ -21,11 +21,11 @@ Event data for the event.
 
 All [Application](application.md) overrides involved in an activation scenario should call [Window.Activate](window_activate_1797342875.md) in their implementations.
 
-The [Search contract sample](http://code.msdn.microsoft.com/windowsapps/Search-app-contract-sample-118a92f5) demonstrates how to respond to a [Search](../windows.applicationmodel.activation/activationkind.md) activated event.
+The [Search contract sample](https://code.msdn.microsoft.com/windowsapps/Search-app-contract-sample-118a92f5) demonstrates how to respond to a [Search](../windows.applicationmodel.activation/activationkind.md) activated event.
 
-Consider writing your [OnSearchActivated](application_onsearchactivated_1291367716.md) handler as asynchronous. For more info, see [Minimize startup time](http://msdn.microsoft.com/library/b38f6c63-520b-4bf6-a47a-9a4af6303e71).
+Consider writing your [OnSearchActivated](application_onsearchactivated_1291367716.md) handler as asynchronous. For more info, see [Minimize startup time](https://msdn.microsoft.com/library/b38f6c63-520b-4bf6-a47a-9a4af6303e71).
 
 ## -examples
 
 ## -see-also
-[Quickstart: Adding search](http://msdn.microsoft.com/library/d412c562-22d2-41c4-9f27-27503b89b9e9), [Search contract sample](http://code.msdn.microsoft.com/windowsapps/Search-app-contract-sample-118a92f5)
+[Quickstart: Adding search](https://msdn.microsoft.com/library/d412c562-22d2-41c4-9f27-27503b89b9e9), [Search contract sample](https://code.msdn.microsoft.com/windowsapps/Search-app-contract-sample-118a92f5)

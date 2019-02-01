@@ -30,4 +30,4 @@ var region = Windows.System.UserProfile.GlobalizationPreferences.HomeGeographicR
 
 ## -see-also
 
-[Globalization preferences sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=624045), [OCR sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/OCR)
+[Globalization preferences sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=624045), [OCR sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/OCR)

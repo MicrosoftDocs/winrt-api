@@ -23,7 +23,7 @@ When your app creates a file in the Downloads folder, other apps can't interfere
 
 Capabilities are not needed to create or access files in the Downloads folder. Learn more about capabilities in [App capability declarations](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations).
 
-To learn more about what locations your app can access, see [File access permissions](http://msdn.microsoft.com/library/3a404cc0-a997-45c8-b2e8-44745539759d).
+To learn more about what locations your app can access, see [File access permissions](https://msdn.microsoft.com/library/3a404cc0-a997-45c8-b2e8-44745539759d).
 
 ## -examples
 You can create an empty file in the Downloads folder like this:

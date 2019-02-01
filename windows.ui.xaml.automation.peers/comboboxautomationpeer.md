@@ -30,7 +30,7 @@ The Windows Runtime  [ComboBox](../windows.ui.xaml.controls/combobox.md) class c
 + [GetChildren](automationpeer_getchildren_555647254.md) provides peers for contained elements. See [ComboBoxItemAutomationPeer](comboboxitemautomationpeer.md).
 This peer has the base classes [ItemsControlAutomationPeer](itemscontrolautomationpeer.md) and [SelectorAutomationPeer](selectorautomationpeer.md) and these peers also have behavior that isn't overridden by the notes above. For more info, see [ItemsControlAutomationPeer](itemscontrolautomationpeer.md) and [SelectorAutomationPeer](selectorautomationpeer.md).
 
-The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](http://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4).
+The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](https://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4).
 
 [IsReadOnly](comboboxautomationpeer_isreadonly.md) and [IsEnabled](automationpeer_isenabled_180154405.md) return a calculated value based on UI properties such as [IsEnabled](../windows.ui.xaml.controls/control_isenabled.md) on the owner.
 
@@ -39,4 +39,4 @@ The peer can fire the automation events when [ExpandCollapseState](comboboxautom
 ## -examples
 
 ## -see-also
-[ComboBox](../windows.ui.xaml.controls/combobox.md), [SelectorAutomationPeer](selectorautomationpeer.md), [IItemContainerProvider](../windows.ui.xaml.automation.provider/iitemcontainerprovider.md), [ISelectionProvider](../windows.ui.xaml.automation.provider/iselectionprovider.md), [IValueProvider](../windows.ui.xaml.automation.provider/ivalueprovider.md), [IExpandCollapseProvider](../windows.ui.xaml.automation.provider/iexpandcollapseprovider.md), [ItemsControlAutomationPeer](itemscontrolautomationpeer.md), [ComboBoxItemAutomationPeer](comboboxitemautomationpeer.md), [Custom automation peers](http://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4)
+[ComboBox](../windows.ui.xaml.controls/combobox.md), [SelectorAutomationPeer](selectorautomationpeer.md), [IItemContainerProvider](../windows.ui.xaml.automation.provider/iitemcontainerprovider.md), [ISelectionProvider](../windows.ui.xaml.automation.provider/iselectionprovider.md), [IValueProvider](../windows.ui.xaml.automation.provider/ivalueprovider.md), [IExpandCollapseProvider](../windows.ui.xaml.automation.provider/iexpandcollapseprovider.md), [ItemsControlAutomationPeer](itemscontrolautomationpeer.md), [ComboBoxItemAutomationPeer](comboboxitemautomationpeer.md), [Custom automation peers](https://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4)

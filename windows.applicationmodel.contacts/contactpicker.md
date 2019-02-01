@@ -20,7 +20,7 @@ The [ContactPicker](contactpicker.md) class enables users to select one or more 
 > [!NOTE]
 > Apps that were compiled for Windows 8 but running on Windows 8.1 may encounter runtime errors without compile-time errors.
 
-For info about how to select contacts, see [Selecting contacts](http://msdn.microsoft.com/library/35fedee6-2b0e-4391-84ba-5e9191d4e442) and [Quickstart: Selecting user contacts](http://msdn.microsoft.com/library/1330470e-efd2-41e1-934e-08ec081ba3c2).
+For info about how to select contacts, see [Selecting contacts](https://msdn.microsoft.com/library/35fedee6-2b0e-4391-84ba-5e9191d4e442) and [Quickstart: Selecting user contacts](https://msdn.microsoft.com/library/1330470e-efd2-41e1-934e-08ec081ba3c2).
 
 ## -examples
 
@@ -30,7 +30,7 @@ This example demonstrates using the [ContactPicker](contactpicker.md) to get the
 
 ## -see-also
 
-[Contact Picker app sample](http://go.microsoft.com/fwlink/p/?linkid=231575), [Contact picker sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=624041), [My People Notifications sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/MyPeopleNotifications)
+[Contact Picker app sample](https://go.microsoft.com/fwlink/p/?linkid=231575), [Contact picker sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=624041), [My People Notifications sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/MyPeopleNotifications)
 
 ## -capabilities
 

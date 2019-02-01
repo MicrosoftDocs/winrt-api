@@ -17,7 +17,7 @@ The [UnhandledException](application_unhandledexception.md) event is used to not
 
 For example, if the Windows Runtime invokes app code like an event handler, and the app code throws an exception and does not catch it, the exception will propagate back to the Windows Runtime. The Windows Runtime will then fire the [UnhandledException](application_unhandledexception.md) event to notify the app of this exception.
 
-Handling exceptions in an [UnhandledException](application_unhandledexception.md) is just one of many techniques that can be used both for debugging and for run-time exception handling and possible recovery. For more info about the full set of techniques you might use for debugging and error handling, see [Exception handling for    in C# or Visual Basic](http://msdn.microsoft.com/library/825c5d4f-5ce0-ee93-fd1e-aca1372b1670).
+Handling exceptions in an [UnhandledException](application_unhandledexception.md) is just one of many techniques that can be used both for debugging and for run-time exception handling and possible recovery. For more info about the full set of techniques you might use for debugging and error handling, see [Exception handling for    in C# or Visual Basic](https://msdn.microsoft.com/library/825c5d4f-5ce0-ee93-fd1e-aca1372b1670).
 
 Note that this event will only fire when there is no longer any possibility that app code can catch an exception. For example, imagine that an app event handler calls a Windows Runtime  API that in turn invokes a callback. If the inner app code throws an exception and does not catch it, the exception will propagate through the Windows Runtime back to the outer layer of app code, which is given a chance to catch it. The [UnhandledException](application_unhandledexception.md) event is fired only when there are no more opportunities for app code to catch an exception through normal propagation.
 
@@ -27,7 +27,7 @@ Normally after the [UnhandledException](application_unhandledexception.md) event
 + Typically the [UnhandledException](application_unhandledexception.md) event handler doesn’t have enough information to know whether continuing on after an exception is safe. Parts of the application code or the Windows Runtime may be in an inconsistent state, which could result in subsequent failures if the app continues running its code.
 + The Windows Runtime considers exceptions encountered during certain operations as nonrecoverable, because the Windows Runtime itself will be in an inconsistent state following these exceptions. For such exceptions, even if the [UnhandledException](application_unhandledexception.md) event handler sets [Handled](unhandledexceptioneventargs_handled.md) to **true**, the app will still be terminated.
 + Errors that happen during navigation could cause a state where there's nothing loaded as content and nothing to indicate to the user that the app is still running.
-+ For more info on these points see [Exception handling for    in C# or Visual Basic](http://msdn.microsoft.com/library/825c5d4f-5ce0-ee93-fd1e-aca1372b1670).
++ For more info on these points see [Exception handling for    in C# or Visual Basic](https://msdn.microsoft.com/library/825c5d4f-5ce0-ee93-fd1e-aca1372b1670).
 
 
 
@@ -41,4 +41,4 @@ For Windows 8.1 apps, exceptions from async method calls can propagate as an [U
 ## -examples
 
 ## -see-also
-[UnhandledExceptionEventArgs](unhandledexceptioneventargs.md), [App lifecycle](http://msdn.microsoft.com/library/6c469e77-f1e3-4859-a27b-c326f9616d10), [Exception handling for    in C# or Visual Basic](http://msdn.microsoft.com/library/825c5d4f-5ce0-ee93-fd1e-aca1372b1670), [Cross-reference: Standard exceptions and error codes](http://msdn.microsoft.com/library/625c5d4f-5ce0-ee93-fd1e-aca1372b1622), [Call asynchronous APIs in C# or Visual Basic](http://msdn.microsoft.com/library/066711e0-d5c4-467e-8683-3cc64edbcc83), [Suspending](application_suspending.md), [Resuming](application_resuming.md)
+[UnhandledExceptionEventArgs](unhandledexceptioneventargs.md), [App lifecycle](https://msdn.microsoft.com/library/6c469e77-f1e3-4859-a27b-c326f9616d10), [Exception handling for    in C# or Visual Basic](https://msdn.microsoft.com/library/825c5d4f-5ce0-ee93-fd1e-aca1372b1670), [Cross-reference: Standard exceptions and error codes](https://msdn.microsoft.com/library/625c5d4f-5ce0-ee93-fd1e-aca1372b1622), [Call asynchronous APIs in C# or Visual Basic](https://msdn.microsoft.com/library/066711e0-d5c4-467e-8683-3cc64edbcc83), [Suspending](application_suspending.md), [Resuming](application_resuming.md)

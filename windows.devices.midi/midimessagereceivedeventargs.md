@@ -18,4 +18,4 @@ This object is not instantiated directly; it is returned by the [MidiInPort.Mess
 ## -examples
 
 ## -see-also
-[MIDI  sample](http://go.microsoft.com/fwlink/p/?LinkID=394281)
+[MIDI  sample](https://go.microsoft.com/fwlink/p/?LinkID=394281)

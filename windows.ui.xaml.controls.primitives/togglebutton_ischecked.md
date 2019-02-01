@@ -42,9 +42,9 @@ If you are programming using C#or Microsoft Visual Basic, the type of this prope
 > [!NOTE]
 > [ToggleButton](togglebutton.md) has the same visual state for the indeterminate and unchecked states. Derived controls, like [CheckBox](../windows.ui.xaml.controls/checkbox.md), may define different visual states for each state.
 
-To set the value to **null** in XAML, use the [{x:Null} markup extension](http://msdn.microsoft.com/library/e6a4038e-4ada-4e82-9824-582fc16ab037).
+To set the value to **null** in XAML, use the [{x:Null} markup extension](https://msdn.microsoft.com/library/e6a4038e-4ada-4e82-9824-582fc16ab037).
 
 ## -examples
 
 ## -see-also
-[Nullable](https://docs.microsoft.com/dotnet/api/system.nullable-1), [{x:Null} markup extension](http://msdn.microsoft.com/library/e6a4038e-4ada-4e82-9824-582fc16ab037)
+[Nullable](https://docs.microsoft.com/dotnet/api/system.nullable-1), [{x:Null} markup extension](https://msdn.microsoft.com/library/e6a4038e-4ada-4e82-9824-582fc16ab037)

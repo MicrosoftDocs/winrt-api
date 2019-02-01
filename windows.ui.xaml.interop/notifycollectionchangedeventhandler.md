@@ -29,4 +29,4 @@ When programming with .NET, this delegate is hidden and developers should use th
 ## -examples
 
 ## -see-also
-[XAML data binding sample](http://go.microsoft.com/fwlink/p/?linkid=226854)
+[XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854)

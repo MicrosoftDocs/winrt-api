@@ -15,7 +15,7 @@ Creates an object bound to a specified app through which you retrieve a push not
 ## -parameters
 
 ### -param appServerKey
-An uncompressed key in ANSI X9.62 format. This value is from the P-256 curve defined in the [Secure Hash Standard specification](http://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf).
+An uncompressed key in ANSI X9.62 format. This value is from the P-256 curve defined in the [Secure Hash Standard specification](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf).
 
 ### -param channelId
 The ID of the push notification channel.

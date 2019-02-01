@@ -30,7 +30,7 @@ Windows.Storage.PathIO.readTextAsync(absoluteFilePath).then(function (contents) 
 });
 ```
 
-You can use [then](http://msdn.microsoft.com/library/c63904fc-465b-4fd5-a1d6-e4fb200248e7) or [done](http://msdn.microsoft.com/library/9a5e6877-a2cf-421f-a91e-37d84ccb40da) to declare a function to capture and process the text that was read from the file. After the [readTextAsync](pathio_readtextasync_532716801.md) method completes, the text will be passed to this function as a [string](https://msdn.microsoft.com/library/system.string.aspx) object (`contents` in the example).
+You can use [then](https://msdn.microsoft.com/library/c63904fc-465b-4fd5-a1d6-e4fb200248e7) or [done](https://msdn.microsoft.com/library/9a5e6877-a2cf-421f-a91e-37d84ccb40da) to declare a function to capture and process the text that was read from the file. After the [readTextAsync](pathio_readtextasync_532716801.md) method completes, the text will be passed to this function as a [string](https://msdn.microsoft.com/library/system.string.aspx) object (`contents` in the example).
 
 ## -see-also
 [ReadTextAsync(String, UnicodeEncoding)](pathio_readtextasync_829418789.md)

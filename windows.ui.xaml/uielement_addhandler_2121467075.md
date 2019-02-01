@@ -27,7 +27,7 @@ A reference to the handler implementation.
 Do not routinely ask to rehandle a routed event, because it interferes with the intended design of the Windows Runtime event system for control compositing.
 
 ## -remarks
-Don't try to use [AddHandler](uielement_addhandler_2121467075.md) as a general substitute for the language-specific syntax you normally use for wiring event handlers; it won't work, because not all events have an identifier you can pass as *routedEvent*. [AddHandler](uielement_addhandler_2121467075.md) is specifically for routed events, and intended mainly for the particular scenario enabled by passing *handledEventsToo* as **true**. For more info, see [Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
+Don't try to use [AddHandler](uielement_addhandler_2121467075.md) as a general substitute for the language-specific syntax you normally use for wiring event handlers; it won't work, because not all events have an identifier you can pass as *routedEvent*. [AddHandler](uielement_addhandler_2121467075.md) is specifically for routed events, and intended mainly for the particular scenario enabled by passing *handledEventsToo* as **true**. For more info, see [Events and routed events overview](https://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
 
 ### Routed event identifiers
 
@@ -68,7 +68,7 @@ The *handler* parameter is an untyped parameter, but you should provide a new de
 
 Processing low-level input events in a practical way is a complex task. Many controls implement behavior where a certain event is marked as handled, and is replaced by another more intuitive event. Generally, a control will mark a routed event as handled only if there is some design intention for doing so. However, in certain scenarios, those design intentions might not be what your particular handling of the input event requires. It is for these scenarios that registering handlers with *handledEventsToo* as **true** is appropriate. But you should not do this routinely. Invoking handlers in response to all events even if handled will complicate your own app event-processing logic. You may see a decrease in performance if the handler logic is substantial. You should attach handlers to already-handled events only if you have discovered that certain controls are handling events that you want to handle with app logic.
 
-Another technique for avoiding a control's class-handling behavior is to subclass that control and override its **On*** methods, which are pre-configured overrides by which the control marks an event as handled. However, this too can be complex. You may have to reproduce a control's handling implementation without calling the base implementation, because the base implementation would mark the event as handled. For more info, see [Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
+Another technique for avoiding a control's class-handling behavior is to subclass that control and override its **On*** methods, which are pre-configured overrides by which the control marks an event as handled. However, this too can be complex. You may have to reproduce a control's handling implementation without calling the base implementation, because the base implementation would mark the event as handled. For more info, see [Events and routed events overview](https://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
 
 ## -examples
 This example shows the basic syntax for wiring an event handler with [AddHandler](uielement_addhandler_2121467075.md) and *handledEventsToo* as **true**. In this case the event being wired is [Tapped](uielement_tapped.md). The typical place to wire handlers is either [Loaded](frameworkelement_loaded.md) for a page or [OnApplyTemplate](frameworkelement_onapplytemplate_1955470198.md) for a templated control.
@@ -82,5 +82,5 @@ This example shows the basic syntax for wiring an event handler with [AddHandler
 [!code-vb[AddHandler](../windows.ui.xaml/code/BaseElementEvents/vbnet/MainPage.xaml.vb#SnippetAddHandler)]
 
 ## -see-also
-[RemoveHandler](uielement_removehandler_661998757.md), [Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832), [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input)
+[RemoveHandler](uielement_removehandler_661998757.md), [Events and routed events overview](https://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832), [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input)
 afee-8792-4a57-ae84-aa11ab95355a)

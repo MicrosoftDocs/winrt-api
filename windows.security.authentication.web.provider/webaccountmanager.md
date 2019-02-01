@@ -17,4 +17,4 @@ Provides methods for managing web accounts.
 ## -examples
 
 ## -see-also
-[Web account management sample](http://go.microsoft.com/fwlink/p/?LinkId=620621)
+[Web account management sample](https://go.microsoft.com/fwlink/p/?LinkId=620621)

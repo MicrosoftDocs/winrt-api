@@ -42,7 +42,7 @@ The [UpgradeToSslAsync](streamsocket_upgradetosslasync_746090393.md) method can 
 ## -examples
 
 ## -see-also
-[HostName](../windows.networking/hostname.md), [How to secure socket connections with TLS/SSL](http://msdn.microsoft.com/library/1ad956be-a446-4ffc-a6c3-01e853a8a375), [SocketProtectionLevel](socketprotectionlevel.md)
+[HostName](../windows.networking/hostname.md), [How to secure socket connections with TLS/SSL](https://msdn.microsoft.com/library/1ad956be-a446-4ffc-a6c3-01e853a8a375), [SocketProtectionLevel](socketprotectionlevel.md)
 
 ## -capabilities
 ID_CAP_NETWORKING [Windows Phone]

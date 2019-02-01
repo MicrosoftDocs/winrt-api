@@ -38,4 +38,4 @@ When your app is launched as a result of an action on an item in Wallet, the **O
 ## -examples
 
 ## -see-also
-[WalletActionActivatedEventArgs](../windows.applicationmodel.activation/walletactionactivatedeventargs.md), [WebUIWalletActionActivatedEventArgs](../windows.ui.webui/webuiwalletactionactivatedeventargs.md), [Handle app activation](http://msdn.microsoft.com/library/da9a6a43-f09d-4512-a2ab-9b6132431007), [App lifecycle](http://msdn.microsoft.com/library/6c469e77-f1e3-4859-a27b-c326f9616d10)
+[WalletActionActivatedEventArgs](../windows.applicationmodel.activation/walletactionactivatedeventargs.md), [WebUIWalletActionActivatedEventArgs](../windows.ui.webui/webuiwalletactionactivatedeventargs.md), [Handle app activation](https://msdn.microsoft.com/library/da9a6a43-f09d-4512-a2ab-9b6132431007), [App lifecycle](https://msdn.microsoft.com/library/6c469e77-f1e3-4859-a27b-c326f9616d10)

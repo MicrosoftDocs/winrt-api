@@ -20,4 +20,4 @@ Exposes [ListViewBaseHeaderItem](../windows.ui.xaml.controls/listviewbaseheaderi
 ## -examples
 
 ## -see-also
-[FrameworkElementAutomationPeer](frameworkelementautomationpeer.md), [Custom automation peers](http://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4)
+[FrameworkElementAutomationPeer](frameworkelementautomationpeer.md), [Custom automation peers](https://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4)

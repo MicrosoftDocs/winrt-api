@@ -32,4 +32,4 @@ If an app needs a hardware slot to support connected standby, then the [ControlC
 ## -examples
 
 ## -see-also
-[How to set background connectivity options](http://msdn.microsoft.com/library/b6042b5f-5cee-4dee-8cb4-8f376f878e97), [ControlChannelTrigger(String, UInt32, ControlChannelTriggerResourceType)](controlchanneltrigger_controlchanneltrigger_2092736614.md), [ControlChannelTriggerResourceType](controlchanneltriggerresourcetype.md)
+[How to set background connectivity options](https://msdn.microsoft.com/library/b6042b5f-5cee-4dee-8cb4-8f376f878e97), [ControlChannelTrigger(String, UInt32, ControlChannelTriggerResourceType)](controlchanneltrigger_controlchanneltrigger_2092736614.md), [ControlChannelTriggerResourceType](controlchanneltriggerresourcetype.md)

@@ -13,7 +13,7 @@ public string GetTimeZone()
 Gets the identifier that identifies the time zone that is used by this [Calendar](calendar.md) object.
 
 ## -returns
-The identifier from the [IANA Time Zone Database](http://go.microsoft.com/fwlink/p/?LinkId=302107) that identifies the time zone that is used by this [Calendar](calendar.md) object. (An example is "America/Los_Angeles" for Pacific Time.)
+The identifier from the [IANA Time Zone Database](https://go.microsoft.com/fwlink/p/?LinkId=302107) that identifies the time zone that is used by this [Calendar](calendar.md) object. (An example is "America/Los_Angeles" for Pacific Time.)
 
 ## -remarks
 

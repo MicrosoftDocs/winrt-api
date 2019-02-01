@@ -62,4 +62,4 @@ This XAML example shows a single [EntranceThemeTransition](../windows.ui.xaml.me
 [!code-xml[EntranceThemeTransitionStyle](../windows.ui.xaml/code/EntranceThemeTransitionStyle/csharp/BlankPage.xaml#SnippetEntranceThemeTransitionStyle)]
 
 ## -see-also
-[Storyboarded animations](http://msdn.microsoft.com/library/0cbceea0-2b0e-44a1-a09a-f7a939632f3a), [TransitionCollection](../windows.ui.xaml.media.animation/transitioncollection.md)
+[Storyboarded animations](https://msdn.microsoft.com/library/0cbceea0-2b0e-44a1-a09a-f7a939632f3a), [TransitionCollection](../windows.ui.xaml.media.animation/transitioncollection.md)

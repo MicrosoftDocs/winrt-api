@@ -55,7 +55,7 @@ For details on the types of messages that you can publish with the [PublishBinar
 [!code-vb[LaunchAppWriteTag1](../windows.networking.proximity/code/Proximity_PublishBinaryMessage/vbnet/MainPage.xaml.vb#SnippetLaunchAppWriteTag1)]
 
 ## -see-also
-[PublishBinaryMessage(String, IBuffer)](proximitydevice_publishbinarymessage_285088637.md), [Proximity and Tapping (JavaScript)](http://msdn.microsoft.com/library/84a30dcf-ef14-4a93-9e7c-7a3de867d46b), [Proximity and Tapping (C#/VB/C++)](http://msdn.microsoft.com/library/f25bb1df-1cfd-45cd-8c67-04eec73ebfbd), [Proximity sample](http://go.microsoft.com/fwlink/p/?linkid=245082)
+[PublishBinaryMessage(String, IBuffer)](proximitydevice_publishbinarymessage_285088637.md), [Proximity and Tapping (JavaScript)](https://msdn.microsoft.com/library/84a30dcf-ef14-4a93-9e7c-7a3de867d46b), [Proximity and Tapping (C#/VB/C++)](https://msdn.microsoft.com/library/f25bb1df-1cfd-45cd-8c67-04eec73ebfbd), [Proximity sample](https://go.microsoft.com/fwlink/p/?linkid=245082)
 
 ## -capabilities
 proximity

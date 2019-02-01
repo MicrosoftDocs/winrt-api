@@ -44,4 +44,4 @@ This example demonstrates how to set the binding mode in XAML.
 [!code-xml[BindingMode](../windows.ui.xaml.controls.primitives/code/Binding_Simple/csharp/Page.xaml#SnippetBindingMode)]
 
 ## -see-also
-[Binding](binding.md), [Binding.Mode](binding_mode.md), [XAML data binding sample](http://go.microsoft.com/fwlink/p/?linkid=226854), [Data binding in depth](http://msdn.microsoft.com/library/41e1b4f1-6caf-4128-a61a-4e400b149011)
+[Binding](binding.md), [Binding.Mode](binding_mode.md), [XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854), [Data binding in depth](https://msdn.microsoft.com/library/41e1b4f1-6caf-4128-a61a-4e400b149011)

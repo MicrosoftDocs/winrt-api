@@ -23,4 +23,4 @@ To access the [RelativePanel.AlignTopWith](relativepanel_aligntopwith.md) attach
 ## -examples
 
 ## -see-also
-[RelativePanel.AlignTopWith](relativepanel_aligntopwith.md), [Attached properties overview](http://msdn.microsoft.com/library/098c1de0-d640-48b1-9961-d0adf33266e2)
+[RelativePanel.AlignTopWith](relativepanel_aligntopwith.md), [Attached properties overview](https://msdn.microsoft.com/library/098c1de0-d640-48b1-9961-d0adf33266e2)

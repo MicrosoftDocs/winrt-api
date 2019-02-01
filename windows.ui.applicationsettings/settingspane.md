@@ -11,16 +11,16 @@ public class SettingsPane : Windows.UI.ApplicationSettings.ISettingsPane
 
 ## -description
 > [!NOTE]
-> [SettingsPane](settingspane.md) is deprecated, and might not work on all versions of Windows 10. Instead of using a [SettingsPane](settingspane.md), integrate settings options into the app experience. For more info, see [Guidelines for app settings](http://msdn.microsoft.com/library/2d765e90-3fa0-42f5-a5cb-bedc14c3f60a).
+> [SettingsPane](settingspane.md) is deprecated, and might not work on all versions of Windows 10. Instead of using a [SettingsPane](settingspane.md), integrate settings options into the app experience. For more info, see [Guidelines for app settings](https://msdn.microsoft.com/library/2d765e90-3fa0-42f5-a5cb-bedc14c3f60a).
 
 A static class that enables the app to control the Settings Charm pane. The app can add or remove commands, receive a notification when the user opens the pane, or open the pane programmatically.
 
 ## -remarks
 > [!NOTE]
-> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://go.microsoft.com/fwlink/p/?linkid=258275) and [Using Windows Runtime objects in a multithreaded environment (.NET)](http://go.microsoft.com/fwlink/p/?linkid=258277).
+> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
 
 ## -examples
-The following code shows how to add app commands by using the [SettingsPane](settingspane.md) and [SettingsCommand](settingscommand.md) classes. For the full example, see [App settings sample](http://go.microsoft.com/fwlink/p/?linkid=226738).
+The following code shows how to add app commands by using the [SettingsPane](settingspane.md) and [SettingsCommand](settingscommand.md) classes. For the full example, see [App settings sample](https://go.microsoft.com/fwlink/p/?linkid=226738).
 
 ```csharp
 using Windows.UI.ApplicationSettings;
@@ -190,4 +190,4 @@ void ApplicationSettings::AddSettingsScenario::onCommandsRequested(
 
 
 ## -see-also
-[SettingsCommand](settingscommand.md), [App settings sample](http://go.microsoft.com/fwlink/p/?linkid=226738)
+[SettingsCommand](settingscommand.md), [App settings sample](https://go.microsoft.com/fwlink/p/?linkid=226738)

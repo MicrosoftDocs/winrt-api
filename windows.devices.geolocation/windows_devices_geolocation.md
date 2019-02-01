@@ -7,7 +7,7 @@
 
 ## -description
 
-Provides APIs for [getting the current location](http://msdn.microsoft.com/library/24dc9a41-8cc1-48b0-bc6d-24bf571afcc8) or tracking the device's location over time. Location information may come from estimating a position from beacons like Wi-Fi access points and cell towers, from the device's IP address, or it may come from other sources such as a GNSS or GPS device. The [Windows.Devices.Geolocation](windows_devices_geolocation.md) API provides the most appropriate geolocation data from all available sources.
+Provides APIs for [getting the current location](https://msdn.microsoft.com/library/24dc9a41-8cc1-48b0-bc6d-24bf571afcc8) or tracking the device's location over time. Location information may come from estimating a position from beacons like Wi-Fi access points and cell towers, from the device's IP address, or it may come from other sources such as a GNSS or GPS device. The [Windows.Devices.Geolocation](windows_devices_geolocation.md) API provides the most appropriate geolocation data from all available sources.
 
 The accuracy of the location information depends on the source. The latitude and longitude may vary within the following ranges:
 
@@ -24,7 +24,7 @@ The user sets the privacy of their location data with the **location privacy set
 + The location services setting, **Location**, is turned **on**
 + Under **Choose apps that can use your location**, your app is set to **on**
 
-For more information about location privacy, see the [Windows Privacy Statement](http://go.microsoft.com/fwlink/p/?LinkId=521839).
+For more information about location privacy, see the [Windows Privacy Statement](https://go.microsoft.com/fwlink/p/?LinkId=521839).
 
 > [!IMPORTANT]
 > Starting in Windows 10, call the [RequestAccessAsync](geolocator_requestaccessasync_380675631.md) before accessing the user’s location. At that time, your app must be in the foreground and RequestAccessAsync must be called from the UI thread. Until the user grants your app permission to their location, your app can't access location data.
@@ -39,7 +39,7 @@ The first layer of the location services architecture consists of hardware in th
 
 ## -see-also
 
-[Get current location](http://msdn.microsoft.com/library/24dc9a41-8cc1-48b0-bc6d-24bf571afcc8), [Set up a geofence](http://msdn.microsoft.com/library/a3a46e03-0751-4dbd-a2a1-2323db09bdba), [geolocation sample](http://go.microsoft.com/fwlink/p/?linkid=533278), [Geotag sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Geotag)
+[Get current location](https://msdn.microsoft.com/library/24dc9a41-8cc1-48b0-bc6d-24bf571afcc8), [Set up a geofence](https://msdn.microsoft.com/library/a3a46e03-0751-4dbd-a2a1-2323db09bdba), [geolocation sample](https://go.microsoft.com/fwlink/p/?linkid=533278), [Geotag sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Geotag)
 
 ## -capabilities
 

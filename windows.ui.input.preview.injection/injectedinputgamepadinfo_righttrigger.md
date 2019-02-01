@@ -39,8 +39,8 @@ Using input injection requires the following be added to the Package.appxmanifes
 
 - [Simulate user input through input injection](https://review.docs.microsoft.com/windows/uwp/design/input/input-injection?branch=kbridge-inputinjection)
 - [Input injection sample (mouse to touch)](https://github.com/MicrosoftDocs/windows-topic-specific-samples/archive/uwp-input-injection-mouse-to-touch.zip)
-- [Touch injection sample](http://go.microsoft.com/fwlink/p/?LinkID=267906)
-- [Input: XAML user input events sample](http://go.microsoft.com/fwlink/p/?linkid=226855)
+- [Touch injection sample](https://go.microsoft.com/fwlink/p/?LinkID=267906)
+- [Input: XAML user input events sample](https://go.microsoft.com/fwlink/p/?linkid=226855)
 
 ## -examples
 

@@ -16,9 +16,9 @@ Returns the image as a [CastingSource](../windows.media.casting/castingsource.md
 The image as a [CastingSource](../windows.media.casting/castingsource.md).
 
 ## -remarks
-For more info about using [Image](image.md) as a casting source, see [Media casting](http://msdn.microsoft.com/library/40b97e0c-eb1b-40c2-a022-1ab95dfb085e).
+For more info about using [Image](image.md) as a casting source, see [Media casting](https://msdn.microsoft.com/library/40b97e0c-eb1b-40c2-a022-1ab95dfb085e).
 
 ## -examples
 
 ## -see-also
-[Media casting](http://msdn.microsoft.com/library/40b97e0c-eb1b-40c2-a022-1ab95dfb085e)
+[Media casting](https://msdn.microsoft.com/library/40b97e0c-eb1b-40c2-a022-1ab95dfb085e)

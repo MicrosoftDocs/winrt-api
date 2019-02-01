@@ -24,10 +24,10 @@ The static [PointerPoint](../windows.ui.input/pointerpoint.md) methods, [GetCurr
 
 ## -examples
 
-The following code example shows the usage of [Pointer](pointer.md) class to find the unique [PointerId](pointer_pointerid.md) of each input contact in an app, use the [PointerDeviceType](pointer_pointerdevicetype.md) to ignore specific forms of input (for example, mouse input) and store the [Pointer](pointer.md) positions. For additional code that uses the [Pointer](pointer.md) class, see the [Input sample](http://go.microsoft.com/fwlink/p/?linkid=226855).
+The following code example shows the usage of [Pointer](pointer.md) class to find the unique [PointerId](pointer_pointerid.md) of each input contact in an app, use the [PointerDeviceType](pointer_pointerdevicetype.md) to ignore specific forms of input (for example, mouse input) and store the [Pointer](pointer.md) positions. For additional code that uses the [Pointer](pointer.md) class, see the [Input sample](https://go.microsoft.com/fwlink/p/?linkid=226855).
 
 
 [!code-csharp[Code](../windows.ui.xaml.input/code/PointerExample/csharp/BlankPage.xaml.cs#SnippetCode)]
 
 ## -see-also
-[Input sample](http://go.microsoft.com/fwlink/p/?linkid=226855)
+[Input sample](https://go.microsoft.com/fwlink/p/?linkid=226855)

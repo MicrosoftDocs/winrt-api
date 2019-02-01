@@ -27,4 +27,4 @@ When programming with .NET, this interface is hidden and developers should use t
 ## -examples
 
 ## -see-also
-[IBindableIterable](ibindableiterable.md), [XAML data binding sample](http://go.microsoft.com/fwlink/p/?linkid=226854)
+[IBindableIterable](ibindableiterable.md), [XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854)

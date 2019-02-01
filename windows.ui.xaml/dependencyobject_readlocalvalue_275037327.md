@@ -20,9 +20,9 @@ The [DependencyProperty](dependencyproperty.md) identifier of the property for w
 Returns the local value, or returns the sentinel value [UnsetValue](dependencyproperty_unsetvalue.md) if no local value is set.
 
 ## -remarks
-The local value is not always the effective value. For more info, see [Dependency properties overview](http://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e).
+The local value is not always the effective value. For more info, see [Dependency properties overview](https://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e).
 
 ## -examples
 
 ## -see-also
-[Dependency properties overview](http://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e)
+[Dependency properties overview](https://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e)

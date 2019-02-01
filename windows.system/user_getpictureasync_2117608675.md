@@ -24,7 +24,7 @@ When this method completes, it returns the user's picture.
 ## -examples
 
 ## -see-also
-[User information sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620617)
+[User information sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620617)
 
 ## -capabilities
 userAccountInformation

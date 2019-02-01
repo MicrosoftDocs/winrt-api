@@ -25,4 +25,4 @@ The encoding properties returned from this method can either be of type [VideoEn
 ## -examples
 
 ## -see-also
-[Set media encoding properties for MediaCapture](https://msdn.microsoft.com/windows/uwp/audio-video-camera/set-media-encoding-properties), [Camera resolution sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=624252)
+[Set media encoding properties for MediaCapture](https://msdn.microsoft.com/windows/uwp/audio-video-camera/set-media-encoding-properties), [Camera resolution sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=624252)

@@ -35,9 +35,9 @@ To do more than just set focus in the [SearchBox](searchbox.md), such as make th
 
 You should set [FocusOnKeyboardInput](searchbox_focusonkeyboardinput.md) to **false** if the user sets focus on some other editable text field.
 
-To learn more about when you should let users type to search, see [Guidelines and checklist for search](http://msdn.microsoft.com/library/c328faa3-f6ae-4970-8372-b413f1290c39).
+To learn more about when you should let users type to search, see [Guidelines and checklist for search](https://msdn.microsoft.com/library/c328faa3-f6ae-4970-8372-b413f1290c39).
 
 ## -examples
 
 ## -see-also
-[PrepareForFocusOnKeyboardInput](searchbox_prepareforfocusonkeyboardinput.md), [Guidelines and checklist for search](http://msdn.microsoft.com/library/c328faa3-f6ae-4970-8372-b413f1290c39)
+[PrepareForFocusOnKeyboardInput](searchbox_prepareforfocusonkeyboardinput.md), [Guidelines and checklist for search](https://msdn.microsoft.com/library/c328faa3-f6ae-4970-8372-b413f1290c39)

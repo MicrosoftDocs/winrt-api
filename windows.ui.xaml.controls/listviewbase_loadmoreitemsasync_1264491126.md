@@ -20,4 +20,4 @@ When the operation completes, returns a [LoadMoreItemsResult](../windows.ui.xaml
 ## -examples
 
 ## -see-also
-[LoadMoreItemsResult](../windows.ui.xaml.data/loadmoreitemsresult.md), [ISupportIncrementalLoading](../windows.ui.xaml.data/isupportincrementalloading.md), [DataFetchSize](listviewbase_datafetchsize.md), [IncrementalLoadingThreshold](listviewbase_incrementalloadingthreshold.md), [IncrementalLoadingTrigger](listviewbase_incrementalloadingtrigger.md), [Using virtualization with a list or grid](http://msdn.microsoft.com/library/c6f8727a-2a3a-4f0d-9a5a-82780994839f)
+[LoadMoreItemsResult](../windows.ui.xaml.data/loadmoreitemsresult.md), [ISupportIncrementalLoading](../windows.ui.xaml.data/isupportincrementalloading.md), [DataFetchSize](listviewbase_datafetchsize.md), [IncrementalLoadingThreshold](listviewbase_incrementalloadingthreshold.md), [IncrementalLoadingTrigger](listviewbase_incrementalloadingtrigger.md), [Using virtualization with a list or grid](https://msdn.microsoft.com/library/c6f8727a-2a3a-4f0d-9a5a-82780994839f)

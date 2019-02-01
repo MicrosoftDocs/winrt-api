@@ -27,7 +27,7 @@ Represents a control that lets the user select from a range of values by moving 
 
 <img alt="Slider control" src="images/controls/Slider.png" />
 
-Use a [Slider](slider.md) control when you want your users to be able to set defined, contiguous values (such as volume or brightness) or a range of discrete values (such as screen resolution settings). [Slider](slider.md) s are for user interaction. If a user can't ever change the value, use read-only text instead. For more information on when to use a [Slider](slider.md), see [Guidelines for sliders](http://msdn.microsoft.com/library/7ec7ea33-be7e-4fd5-b205-b8fa7b729acc).
+Use a [Slider](slider.md) control when you want your users to be able to set defined, contiguous values (such as volume or brightness) or a range of discrete values (such as screen resolution settings). [Slider](slider.md) s are for user interaction. If a user can't ever change the value, use read-only text instead. For more information on when to use a [Slider](slider.md), see [Guidelines for sliders](https://msdn.microsoft.com/library/7ec7ea33-be7e-4fd5-b205-b8fa7b729acc).
 
 ### Binding Minimum and Maximum values
 
@@ -91,4 +91,4 @@ The following code example shows several slider controls and how to handle the [
 [!code-vb[11](../windows.ui.xaml.data/code/System.Windows.Controls.Extended.SliderSL/vbnet/Page.xaml.vb#Snippet11)]
 
 ## -see-also
-[Sliders overview](https://docs.microsoft.com/windows/uwp/controls-and-patterns/slider), [Slider styles and templates](http://msdn.microsoft.com/library/beef17b1-50bb-49e5-83c3-59645cb36389), [RangeBase](../windows.ui.xaml.controls.primitives/rangebase.md), [ComboBox](combobox.md), [ListBox](listbox.md), [Controls list](http://msdn.microsoft.com/library/11172840-a63d-4f48-9db4-7baca06308ee), [Controls by function](http://msdn.microsoft.com/library/8db4347b-91d6-4659-91f2-80ecf7bbb596)
+[Sliders overview](https://docs.microsoft.com/windows/uwp/controls-and-patterns/slider), [Slider styles and templates](https://msdn.microsoft.com/library/beef17b1-50bb-49e5-83c3-59645cb36389), [RangeBase](../windows.ui.xaml.controls.primitives/rangebase.md), [ComboBox](combobox.md), [ListBox](listbox.md), [Controls list](https://msdn.microsoft.com/library/11172840-a63d-4f48-9db4-7baca06308ee), [Controls by function](https://msdn.microsoft.com/library/8db4347b-91d6-4659-91f2-80ecf7bbb596)

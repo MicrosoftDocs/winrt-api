@@ -15,4 +15,4 @@ Provides APIs for face detection in bitmaps or video frames.
 
 ## -see-also
 
-[Basic face tracking sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620513), [Basic face detection sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620512)
+[Basic face tracking sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620513), [Basic face detection sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620512)

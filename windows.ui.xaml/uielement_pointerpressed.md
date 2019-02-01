@@ -21,7 +21,7 @@ Occurs when the pointer device initiates a **Press** action within this element.
 
 ## -remarks
 
-Touch, mouse, and pen/stylus interactions are received, processed, and managed as pointer input in UWP app. Any of these interactions can produce a [PointerPressed](uielement_pointerpressed.md) event. For more info, see [Handle pointer input](http://msdn.microsoft.com/library/bdbc9e33-4037-4671-9596-471dcf855c82). Pointer events are intended for scenarios where you're interested in multiple pointers and their relationships, or when you are examining specifics of each pointer such as exact coordinate position. Otherwise, you might consider handling gesture events such as [Tapped](uielement_tapped.md).
+Touch, mouse, and pen/stylus interactions are received, processed, and managed as pointer input in UWP app. Any of these interactions can produce a [PointerPressed](uielement_pointerpressed.md) event. For more info, see [Handle pointer input](https://msdn.microsoft.com/library/bdbc9e33-4037-4671-9596-471dcf855c82). Pointer events are intended for scenarios where you're interested in multiple pointers and their relationships, or when you are examining specifics of each pointer such as exact coordinate position. Otherwise, you might consider handling gesture events such as [Tapped](uielement_tapped.md).
 
 Use a handler based on [PointerEventHandler](../windows.ui.xaml.input/pointereventhandler.md) to handle this event.
 
@@ -33,13 +33,13 @@ Mouse input is associated with a single pointer assigned when mouse input is fir
 
 Pointer events from a mouse input device generally have the same [PointerId](../windows.ui.input/pointerpoint_pointerid.md) in the event details for the lifetime of the app.
 
-[PointerPressed](uielement_pointerpressed.md) is a routed event. For more info on the routed event concept, see [Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
+[PointerPressed](uielement_pointerpressed.md) is a routed event. For more info on the routed event concept, see [Events and routed events overview](https://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
 
-For touch actions and also for interaction-specific or manipulation events that are consequences of a touch action, an element must be hit-test visible in order to be the event source and fire the event that is associated with the action. [UIElement.Visibility](uielement_visibility.md) must be [Visible](visibility.md). Other properties of derived types also affect hit-test visibility. For more info, see [Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
+For touch actions and also for interaction-specific or manipulation events that are consequences of a touch action, an element must be hit-test visible in order to be the event source and fire the event that is associated with the action. [UIElement.Visibility](uielement_visibility.md) must be [Visible](visibility.md). Other properties of derived types also affect hit-test visibility. For more info, see [Events and routed events overview](https://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
 
 [PointerPressed](uielement_pointerpressed.md) supports the ability to attach event handlers to the route that will be invoked even if the event data for the event is marked [Handled](../windows.ui.xaml.input/pointerroutedeventargs_handled.md). See [AddHandler](uielement_addhandler_2121467075.md).
 
-Specific Windows Runtime controls may have class-based handling for the [PointerPressed](uielement_pointerpressed.md) input event. If so, the control probably has an override for the method [OnPointerPressed](../windows.ui.xaml.controls/control_onpointerpressed_1718956371.md). Typically the event is marked handled by the class handler, and the [PointerPressed](uielement_pointerpressed.md) event is not raised for handling by any user code handlers on that control. For example, [ButtonBase](../windows.ui.xaml.controls.primitives/buttonbase.md) has class handling that handles [PointerPressed](uielement_pointerpressed.md) and instead fires [Click](../windows.ui.xaml.controls.primitives/buttonbase_click.md). For more info on how class-based handling for events works, see [Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
+Specific Windows Runtime controls may have class-based handling for the [PointerPressed](uielement_pointerpressed.md) input event. If so, the control probably has an override for the method [OnPointerPressed](../windows.ui.xaml.controls/control_onpointerpressed_1718956371.md). Typically the event is marked handled by the class handler, and the [PointerPressed](uielement_pointerpressed.md) event is not raised for handling by any user code handlers on that control. For example, [ButtonBase](../windows.ui.xaml.controls.primitives/buttonbase.md) has class handling that handles [PointerPressed](uielement_pointerpressed.md) and instead fires [Click](../windows.ui.xaml.controls.primitives/buttonbase_click.md). For more info on how class-based handling for events works, see [Events and routed events overview](https://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
 
 Controls may also have a [PointerDownThemeAnimation](../windows.ui.xaml.media.animation/pointerdownthemeanimation.md) personality animation that run independently of the event.
 
@@ -70,5 +70,5 @@ Other events instead of [PointerReleased](uielement_pointerreleased.md) may fire
 
 ## -see-also
 
-[PointerRoutedEventArgs](../windows.ui.xaml.input/pointerroutedeventargs.md), [Tapped](uielement_tapped.md), [PointerReleased](uielement_pointerreleased.md), [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input), [XAML user input events sample](http://go.microsoft.com/fwlink/p/?linkid=231524)
+[PointerRoutedEventArgs](../windows.ui.xaml.input/pointerroutedeventargs.md), [Tapped](uielement_tapped.md), [PointerReleased](uielement_pointerreleased.md), [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input), [XAML user input events sample](https://go.microsoft.com/fwlink/p/?linkid=231524)
 soft.com/fwlink/p/?linkid=231524)

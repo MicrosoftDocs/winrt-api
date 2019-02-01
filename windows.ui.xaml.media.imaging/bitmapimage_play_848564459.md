@@ -13,7 +13,7 @@ public void Play()
 Starts the animation of an animated image.
 
 ## -remarks
-Starting in Windows 10, version 1607, the XAML [Image](../windows.ui.xaml.controls/image.md) element supports animated GIF images. When you use a [BitmapImage](bitmapimage.md) as the image [Source](../windows.ui.xaml.controls/image_source.md), you can access [BitmapImage](bitmapimage.md)  API to control playback of the animated GIF image. For more info, see the 'Animated images' section of the [BitmapImage](bitmapimage.md) class Remarks and the [Animated GIF playback sample](http://go.microsoft.com/fwlink/p/?LinkId=624046).
+Starting in Windows 10, version 1607, the XAML [Image](../windows.ui.xaml.controls/image.md) element supports animated GIF images. When you use a [BitmapImage](bitmapimage.md) as the image [Source](../windows.ui.xaml.controls/image_source.md), you can access [BitmapImage](bitmapimage.md)  API to control playback of the animated GIF image. For more info, see the 'Animated images' section of the [BitmapImage](bitmapimage.md) class Remarks and the [Animated GIF playback sample](https://go.microsoft.com/fwlink/p/?LinkId=624046).
 
 Use the [IsPlaying](bitmapimage_isplaying.md) property along with the [Play](bitmapimage_play_848564459.md) and [Stop](bitmapimage_stop_1201535524.md) methods to control the playback of an animated bitmap.
 

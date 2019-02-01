@@ -13,11 +13,11 @@ public Windows.Foundation.IAsyncOperation<Windows.ApplicationModel.Wallet.Wallet
 Requests an instance of the default wallet store for the app.
 
 ## -returns
-An asynchronous operation that, on successful completion, returns an instance of the default wallet store. If you use [Asynchronous programming](http://msdn.microsoft.com/library/23fe28f1-89c5-4a17-a732-a722648f9c5e), the result type is a single [WalletItemStore](walletitemstore.md) object.
+An asynchronous operation that, on successful completion, returns an instance of the default wallet store. If you use [Asynchronous programming](https://msdn.microsoft.com/library/23fe28f1-89c5-4a17-a732-a722648f9c5e), the result type is a single [WalletItemStore](walletitemstore.md) object.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
-[Asynchronous programming](http://msdn.microsoft.com/library/23fe28f1-89c5-4a17-a732-a722648f9c5e)
+[Asynchronous programming](https://msdn.microsoft.com/library/23fe28f1-89c5-4a17-a732-a722648f9c5e)

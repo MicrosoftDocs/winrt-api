@@ -69,4 +69,4 @@ This table shows the resources used by the [ComboBoxItem](comboboxitem.md) contr
 ## -examples
 
 ## -see-also
-[SelectorItem](../windows.ui.xaml.controls.primitives/selectoritem.md), [ComboBox](combobox.md), [ItemContainerStyle](itemscontrol_itemcontainerstyle.md), [ComboBoxItem styles and templates](http://msdn.microsoft.com/library/5e4eabfc-78b9-47c5-920e-b8018943aee0)
+[SelectorItem](../windows.ui.xaml.controls.primitives/selectoritem.md), [ComboBox](combobox.md), [ItemContainerStyle](itemscontrol_itemcontainerstyle.md), [ComboBoxItem styles and templates](https://msdn.microsoft.com/library/5e4eabfc-78b9-47c5-920e-b8018943aee0)

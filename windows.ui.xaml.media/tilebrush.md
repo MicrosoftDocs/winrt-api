@@ -20,4 +20,4 @@ Base class that describes a way to paint a region. Parent of [ImageBrush](imageb
 ## -examples
 
 ## -see-also
-[Brush](brush.md), [ImageBrush](imagebrush.md), [WebViewBrush](../windows.ui.xaml.controls/webviewbrush.md), [Use brushes](http://msdn.microsoft.com/library/02141f86-355e-4046-86ea-2a89d615b7db)
+[Brush](brush.md), [ImageBrush](imagebrush.md), [WebViewBrush](../windows.ui.xaml.controls/webviewbrush.md), [Use brushes](https://msdn.microsoft.com/library/02141f86-355e-4046-86ea-2a89d615b7db)

@@ -25,4 +25,4 @@ Every **LoggingActivity** object is attached to a [LoggingChannel](loggingchanne
 
 ## -see-also
 
-[IClosable](../windows.foundation/iclosable.md), [LoggingChannel](loggingchannel.md), [ILoggingTarget](iloggingtarget.md), [Logging sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620565)
+[IClosable](../windows.foundation/iclosable.md), [LoggingChannel](loggingchannel.md), [ILoggingTarget](iloggingtarget.md), [Logging sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620565)

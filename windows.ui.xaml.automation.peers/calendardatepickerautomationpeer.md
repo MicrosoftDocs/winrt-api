@@ -21,7 +21,7 @@ The Windows Runtime [CalendarDatePicker](../windows.ui.xaml.controls/calendardat
 
 + [GetClassName](automationpeer_getclassname_614238974.md) returns "CalendarDatePicker".
 + [GetAutomationControlType](automationpeer_getautomationcontroltype_1156384152.md) returns [AutomationControlType.Button](automationcontroltype.md).
-+ [GetPattern](automationpeer_getpattern_2046576749.md) reports support for [PatternInterface.Invoke](patterninterface.md) ([IInvokeProvider](../windows.ui.xaml.automation.provider/iinvokeprovider.md) ). The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](http://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4).
++ [GetPattern](automationpeer_getpattern_2046576749.md) reports support for [PatternInterface.Invoke](patterninterface.md) ([IInvokeProvider](../windows.ui.xaml.automation.provider/iinvokeprovider.md) ). The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](https://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4).
 
 ## -see-also
 [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md), [CalendarDatePicker](../windows.ui.xaml.controls/calendardatepicker.md)

@@ -17,4 +17,4 @@ Occurs when a pointer moves to another app. This event is raised after [PointerE
 ## -examples
 
 ## -see-also
-[Handle pointer input](http://msdn.microsoft.com/library/bdbc9e33-4037-4671-9596-471dcf855c82)
+[Handle pointer input](https://msdn.microsoft.com/library/bdbc9e33-4037-4671-9596-471dcf855c82)

@@ -30,4 +30,4 @@ When your app determines that a user is no longer valid, you can quickly revoke 
 ## -examples
 
 ## -see-also
-[FileRevocationManager sample](http://go.microsoft.com/fwlink/p/?LinkID=299023), [How to protect files with Selective Wipe  (C#/VB/C++)](http://msdn.microsoft.com/library/a1afb4fb-6731-461a-8dd2-51eec5e880a1), [How to protect files with Selective Wipe (JavaScript)](http://msdn.microsoft.com/library/5b8652eb-6462-4bf1-b5b7-4a37957c605f)
+[FileRevocationManager sample](https://go.microsoft.com/fwlink/p/?LinkID=299023), [How to protect files with Selective Wipe  (C#/VB/C++)](https://msdn.microsoft.com/library/a1afb4fb-6731-461a-8dd2-51eec5e880a1), [How to protect files with Selective Wipe (JavaScript)](https://msdn.microsoft.com/library/5b8652eb-6462-4bf1-b5b7-4a37957c605f)

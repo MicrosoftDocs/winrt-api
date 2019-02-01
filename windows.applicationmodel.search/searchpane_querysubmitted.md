@@ -14,7 +14,7 @@ Fires when the user submits the text in the search box and the app needs to disp
 
 ## -remarks
 > [!NOTE]
-> An app can't use both the search box ([Windows.UI.Xaml.Controls.SearchBox](../windows.ui.xaml.controls/searchbox.md) for UWP app using C++, C#, or Visual Basic, [WinJS.UI.SearchBox](http://msdn.microsoft.com/library/58f5cea3-a19b-48a8-abcc-17f38d8fa886) for Windows app using JavaScript) and the [SearchPane](searchpane.md). Using both the search box and the search pane in the same app causes the app to throw an exception with this message: "Cannot create instance of type 'Windows.UI.Xaml.Controls.SearchBox.'"
+> An app can't use both the search box ([Windows.UI.Xaml.Controls.SearchBox](../windows.ui.xaml.controls/searchbox.md) for UWP app using C++, C#, or Visual Basic, [WinJS.UI.SearchBox](https://msdn.microsoft.com/library/58f5cea3-a19b-48a8-abcc-17f38d8fa886) for Windows app using JavaScript) and the [SearchPane](searchpane.md). Using both the search box and the search pane in the same app causes the app to throw an exception with this message: "Cannot create instance of type 'Windows.UI.Xaml.Controls.SearchBox.'"
 
 If your app participates in the Search contract, register an event handler to respond when this event fires. In your [QuerySubmitted](searchpane_querysubmitted.md) event handler, respond by taking the user to your search results page and populating it with results based on the [SearchPaneQuerySubmittedEventArgs](searchpanequerysubmittedeventargs.md).[QueryText](searchpanequerysubmittedeventargs_querytext.md).
 
@@ -57,4 +57,4 @@ Windows.ApplicationModel.Search.SearchPane.getForCurrentView().onquerysubmitted 
 
 
 ## -see-also
-[Search contract sample](http://go.microsoft.com/fwlink/p/?linkid=234892), [SearchPane class](searchpane.md), [SearchPane.QueryChanged event](searchpane_querychanged.md), [SearchPaneQuerySubmittedEventArgs class](searchpanequerysubmittedeventargs.md)
+[Search contract sample](https://go.microsoft.com/fwlink/p/?linkid=234892), [SearchPane class](searchpane.md), [SearchPane.QueryChanged event](searchpane_querychanged.md), [SearchPaneQuerySubmittedEventArgs class](searchpanequerysubmittedeventargs.md)

@@ -21,9 +21,9 @@ The requested object. This can be null if no matching object was found in the cu
 
 ## -remarks
 > [!IMPORTANT]
-> In order to use the [FindName](frameworkelement_findname_634111277.md) method effectively, you should understand the concept of a XAML namescope, and how a XAML namescope is created at XAML load time and then referenced and possibly modified at run time. For more info see [XAML namescopes](http://msdn.microsoft.com/library/eb060cbd-a589-475e-b83d-b24068b54c21).
+> In order to use the [FindName](frameworkelement_findname_634111277.md) method effectively, you should understand the concept of a XAML namescope, and how a XAML namescope is created at XAML load time and then referenced and possibly modified at run time. For more info see [XAML namescopes](https://msdn.microsoft.com/library/eb060cbd-a589-475e-b83d-b24068b54c21).
 
-The most common usage of [FindName](frameworkelement_findname_634111277.md) in your Windows Runtime code will be from within the generated **InitializeComponent** call for a XAML page. In this situation, [FindName](frameworkelement_findname_634111277.md) is invoked only after the XAML page is loaded. **InitializeComponent** provides the infrastructure such that any object that was instantiated by XAML loading can conveniently be accessed by your code-behind code. You can then reference the objects as a variable that shares the same name as the markup-declared [x:Name attribute](http://msdn.microsoft.com/library/4ff1f3ed-903a-4305-b2bd-dcd29e0c9e6d).
+The most common usage of [FindName](frameworkelement_findname_634111277.md) in your Windows Runtime code will be from within the generated **InitializeComponent** call for a XAML page. In this situation, [FindName](frameworkelement_findname_634111277.md) is invoked only after the XAML page is loaded. **InitializeComponent** provides the infrastructure such that any object that was instantiated by XAML loading can conveniently be accessed by your code-behind code. You can then reference the objects as a variable that shares the same name as the markup-declared [x:Name attribute](https://msdn.microsoft.com/library/4ff1f3ed-903a-4305-b2bd-dcd29e0c9e6d).
 
 A run-time API such as [FindName](frameworkelement_findname_634111277.md) is working against a run-time object tree of the app as it exists in memory. When part of this object tree is created from templates or run-time loaded XAML, a XAML namescope is typically not contiguous within that object tree. The result is that there might be a named object in the object tree that a given [FindName](frameworkelement_findname_634111277.md) scope cannot find. The discontinuities between XAML namescopes that you might encounter in typical application scenarios are when objects are created by applying a template, or when objects are created by a call to [XamlReader.Load](../windows.ui.xaml.markup/xamlreader_load_1077941801.md) and subsequently added to the object tree.
 
@@ -35,7 +35,7 @@ If you return an unexpected null result for [FindName](frameworkelement_findname
 
 The object returned by [FindName](frameworkelement_findname_634111277.md) is not necessarily a [FrameworkElement](frameworkelement.md). For example, you might apply a name to an animation storyboard, and the various animation storyboard types do not derive from [FrameworkElement](frameworkelement.md).
 
-The [Name](frameworkelement_name.md) property for an object (or the similar [x:Name attribute](http://msdn.microsoft.com/library/4ff1f3ed-903a-4305-b2bd-dcd29e0c9e6d)) is assigned by specifying an attribute on an object element in XAML markup. You can set a [Name](frameworkelement_name.md) value after the initial source XAML is loaded, but this technique has some limitations (see Remarks in [Name](frameworkelement_name.md)).
+The [Name](frameworkelement_name.md) property for an object (or the similar [x:Name attribute](https://msdn.microsoft.com/library/4ff1f3ed-903a-4305-b2bd-dcd29e0c9e6d)) is assigned by specifying an attribute on an object element in XAML markup. You can set a [Name](frameworkelement_name.md) value after the initial source XAML is loaded, but this technique has some limitations (see Remarks in [Name](frameworkelement_name.md)).
 
 [TextElement](../windows.ui.xaml.documents/textelement.md) defines a similar [FindName](../windows.ui.xaml.documents/textelement_findname_634111277.md). This enables a **FindName** behavior in the object model, which is not limited to [FrameworkElement](frameworkelement.md). Calls by either implementation of **FindName** can traverse into a mixed [FrameworkElement](frameworkelement.md) / text element object tree, and use a common XAML namescope so that a [FrameworkElement.FindName](frameworkelement_findname_634111277.md) call can find a named text element, and vice versa.
 
@@ -44,4 +44,4 @@ The [Name](frameworkelement_name.md) property for an object (or the similar [x:N
 ## -examples
 
 ## -see-also
-[Name](frameworkelement_name.md), [XAML namescopes](http://msdn.microsoft.com/library/eb060cbd-a589-475e-b83d-b24068b54c21), [x:Name attribute](http://msdn.microsoft.com/library/4ff1f3ed-903a-4305-b2bd-dcd29e0c9e6d)
+[Name](frameworkelement_name.md), [XAML namescopes](https://msdn.microsoft.com/library/eb060cbd-a589-475e-b83d-b24068b54c21), [x:Name attribute](https://msdn.microsoft.com/library/4ff1f3ed-903a-4305-b2bd-dcd29e0c9e6d)

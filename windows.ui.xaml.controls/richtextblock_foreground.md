@@ -47,4 +47,4 @@ The default appearance of text and text styles depends heavily on the active the
 ## -examples
 
 ## -see-also
-[TextElement.Foreground](../windows.ui.xaml.documents/textelement_foreground.md), [Use brushes](http://msdn.microsoft.com/library/02141f86-355e-4046-86ea-2a89d615b7db)
+[TextElement.Foreground](../windows.ui.xaml.documents/textelement_foreground.md), [Use brushes](https://msdn.microsoft.com/library/02141f86-355e-4046-86ea-2a89d615b7db)

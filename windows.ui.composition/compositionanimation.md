@@ -24,4 +24,4 @@ Value parameters (as opposed to reference parameters which are set using [SetRef
 
 ## -see-also
 
-[ExpressionAnimation](expressionanimation.md), [KeyFrameAnimation](keyframeanimation.md), [Composition Animations Overview](http://go.microsoft.com/fwlink/p/?LinkID=692060), [CompositionObject](compositionobject.md), [IClosable](../windows.foundation/iclosable.md)
+[ExpressionAnimation](expressionanimation.md), [KeyFrameAnimation](keyframeanimation.md), [Composition Animations Overview](https://go.microsoft.com/fwlink/p/?LinkID=692060), [CompositionObject](compositionobject.md), [IClosable](../windows.foundation/iclosable.md)

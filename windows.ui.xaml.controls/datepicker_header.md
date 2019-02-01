@@ -39,4 +39,4 @@ You can set a data template for the [Header](datepicker_header.md) value by usin
 ## -examples
 
 ## -see-also
-[HeaderTemplate](datepicker_headertemplate.md), [Quickstart: Adding a DatePicker](http://msdn.microsoft.com/library/feae870d-e423-457b-9d0a-3929247952a9)
+[HeaderTemplate](datepicker_headertemplate.md), [Quickstart: Adding a DatePicker](https://msdn.microsoft.com/library/feae870d-e423-457b-9d0a-3929247952a9)

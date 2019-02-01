@@ -24,4 +24,4 @@ The root visual object for the requested print page.
 ## -examples
 
 ## -see-also
-[Print from your app](http://msdn.microsoft.com/library/9a0f1852-a76b-4f43-acfc-2cc56aad1c03)
+[Print from your app](https://msdn.microsoft.com/library/9a0f1852-a76b-4f43-acfc-2cc56aad1c03)

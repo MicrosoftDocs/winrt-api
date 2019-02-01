@@ -35,7 +35,7 @@ Location services collects positions only when an app or services queries for th
 ## -examples
 
 ## -see-also
-[Get current location](http://msdn.microsoft.com/library/24dc9a41-8cc1-48b0-bc6d-24bf571afcc8), [Set up a geofence](http://msdn.microsoft.com/library/a3a46e03-0751-4dbd-a2a1-2323db09bdba), [GetGeopositionHistoryAsync(DateTime, TimeSpan)](geolocator_getgeopositionhistoryasync_544182854.md), [geolocation sample](http://go.microsoft.com/fwlink/p/?linkid=533278)
+[Get current location](https://msdn.microsoft.com/library/24dc9a41-8cc1-48b0-bc6d-24bf571afcc8), [Set up a geofence](https://msdn.microsoft.com/library/a3a46e03-0751-4dbd-a2a1-2323db09bdba), [GetGeopositionHistoryAsync(DateTime, TimeSpan)](geolocator_getgeopositionhistoryasync_544182854.md), [geolocation sample](https://go.microsoft.com/fwlink/p/?linkid=533278)
 
 ## -capabilities
 locationHistory

@@ -19,7 +19,7 @@ The Compositor class creates an instance of the Compositor for the application t
 
 The Compositor implicitly synchronizes changes made to associated visuals to ensure they get applied in a transactional manner.
 
-See the [Composition UI Overview](http://go.microsoft.com/fwlink/p/?LinkID=699334) and [Composition Visual Tree Overview](http://go.microsoft.com/fwlink/p/?LinkID=699335) for more information.
+See the [Composition UI Overview](https://go.microsoft.com/fwlink/p/?LinkID=699334) and [Composition Visual Tree Overview](https://go.microsoft.com/fwlink/p/?LinkID=699335) for more information.
 
 New instances of Compositor must be created on a thread that has a CoreDispatcher.
 
@@ -27,4 +27,4 @@ New instances of Compositor must be created on a thread that has a CoreDispatche
 
 ## -see-also
 
-[Composition UI Overview](http://go.microsoft.com/fwlink/p/?LinkID=699334), [Composition Visual Tree Overview](http://go.microsoft.com/fwlink/p/?LinkID=699335), [IClosable](../windows.foundation/iclosable.md), [Composition visual without framework sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620483), [Version adaptive code sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/VersionAdaptiveCode)
+[Composition UI Overview](https://go.microsoft.com/fwlink/p/?LinkID=699334), [Composition Visual Tree Overview](https://go.microsoft.com/fwlink/p/?LinkID=699335), [IClosable](../windows.foundation/iclosable.md), [Composition visual without framework sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620483), [Version adaptive code sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/VersionAdaptiveCode)

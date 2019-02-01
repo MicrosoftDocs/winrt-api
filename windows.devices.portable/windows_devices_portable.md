@@ -6,10 +6,10 @@
 # Windows.Devices.Portable
 
 ## -description
-[Windows Portable Devices](http://msdn.microsoft.com/library/b3833a11-631d-4860-867f-a611c9362dae) (WPD) enables computers to communicate with attached media and storage devices. This namespace provides methods for identifying Windows Portable Device (WPD) services and storage.
+[Windows Portable Devices](https://msdn.microsoft.com/library/b3833a11-631d-4860-867f-a611c9362dae) (WPD) enables computers to communicate with attached media and storage devices. This namespace provides methods for identifying Windows Portable Device (WPD) services and storage.
 
 ## -remarks
-This table lists the GUIDs of standard MTP device services that can be passed to the *serviceId* parameter. For more information about these MTP devices services, see [MTP Device Services for Windows](http://go.microsoft.com/fwlink/p/?LinkID=264914).
+This table lists the GUIDs of standard MTP device services that can be passed to the *serviceId* parameter. For more information about these MTP devices services, see [MTP Device Services for Windows](https://go.microsoft.com/fwlink/p/?LinkID=264914).
 
 While the standard device services are all MTP device services, non-MTP devices may also support services. An MTP device may also support additional device services that are not standard device services. Check with the device manufacturer to find out what device services are supported on a given WPD device.
 
@@ -48,4 +48,4 @@ This table lists GUIDs commonly used when accessing storage functionality on WPD
 ## -examples
 
 ## -see-also
-[Windows Portable Devices](http://msdn.microsoft.com/library/b3833a11-631d-4860-867f-a611c9362dae)
+[Windows Portable Devices](https://msdn.microsoft.com/library/b3833a11-631d-4860-867f-a611c9362dae)

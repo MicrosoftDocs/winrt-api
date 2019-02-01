@@ -20,7 +20,7 @@ Do not create an instance of [ResourceContext](resourcecontext.md) using the con
 Except where otherwise noted, methods of this class can be called on any thread.
 
 ## -examples
-This example is based on scenario 13 of the [Application resources and localization sample](http://go.microsoft.com/fwlink/p/?linkid=227301). See the sample for the more complete solution.
+This example is based on scenario 13 of the [Application resources and localization sample](https://go.microsoft.com/fwlink/p/?linkid=227301). See the sample for the more complete solution.
 
 ```javascript
 // Create a ResourceContext.
@@ -80,4 +80,4 @@ function renderCandidate(candidate, index, output) {
 
 
 ## -see-also
-[ResourceQualifier](resourcequalifier.md), [Application resources and localization sample](http://go.microsoft.com/fwlink/p/?linkid=227301)
+[ResourceQualifier](resourcequalifier.md), [Application resources and localization sample](https://go.microsoft.com/fwlink/p/?linkid=227301)

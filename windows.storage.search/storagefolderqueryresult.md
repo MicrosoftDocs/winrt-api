@@ -16,7 +16,7 @@ Provides access to the results of a query that lists the folder (or file groups)
 ## -remarks
 
 > [!NOTE]
-> Although it's not attributed with `marshalling_behavior(agile)`, this class can be treated as agile. For more info, see [Threading and Marshaling (C++/CX)](http://go.microsoft.com/fwlink/p/?linkid=258275).
+> Although it's not attributed with `marshalling_behavior(agile)`, this class can be treated as agile. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275).
 <!--W8B 988884 v2-->
 
 You can get a [storageFolderQueryResult](storagefolderqueryresult.md) object by calling the following methods from a [storageFolder](../windows.storage/storagefolder.md) or a [folderInformation](../windows.storage.bulkaccess/folderinformation.md) object:
@@ -26,7 +26,7 @@ You can get a [storageFolderQueryResult](storagefolderqueryresult.md) object by 
 + [folderInformation.createFolderQuery methods](../windows.storage.bulkaccess/folderinformation_createfolderquery_325438332.md)
 + [folderInformation.createFolderQueryWithOptions method](../windows.storage.bulkaccess/folderinformation_createfolderquerywithoptions_573382953.md)
 
-For more code examples that show you how to use [storageFolderQueryResult](storagefolderqueryresult.md) objects, see the [Folder enumeration sample](http://go.microsoft.com/fwlink/p/?linkid=231512).
+For more code examples that show you how to use [storageFolderQueryResult](storagefolderqueryresult.md) objects, see the [Folder enumeration sample](https://go.microsoft.com/fwlink/p/?linkid=231512).
 
 To get a [StorageFolderQueryResult](storagefolderqueryresult.md) object to enumerate the folders or file groups in a location, you must get a [storageFolder](../windows.storage/storagefolder.md) that represents the location and then create a folder query
 
@@ -98,8 +98,8 @@ queryResult.getFoldersAsync().done(function(folders) {
 The `queryResult` variable gets the [storageFolderQueryResult](storagefolderqueryresult.md) that is used to retrieve file groups (or folders) that meet the criteria of the query.
 
 > [!NOTE]
-> You need the Pictures library capability to access the library using [KnownFolders.PicturesLibrary](../windows.storage/knownfolders_pictureslibrary.md). To learn more about capabilities and file access, see [File access permissions](http://msdn.microsoft.com/library/3a404cc0-a997-45c8-b2e8-44745539759d).
+> You need the Pictures library capability to access the library using [KnownFolders.PicturesLibrary](../windows.storage/knownfolders_pictureslibrary.md). To learn more about capabilities and file access, see [File access permissions](https://msdn.microsoft.com/library/3a404cc0-a997-45c8-b2e8-44745539759d).
 
 ## -see-also
 
-[Windows.Storage.storageFolder.createFolderQuery methods](../windows.storage/storagefolder_createfolderquery_325438332.md), [Windows.Storage.storageFolder.createFolderQueryWithOptions method](../windows.storage/storagefolder_createfolderquerywithoptions_573382953.md), [Windows.Storage.BulkAccess.folderInformation.createFolderQuery methods](../windows.storage.bulkaccess/folderinformation_createfolderquery_325438332.md), [Windows.Storage.BulkAccess.folderInformation.createFolderQueryWithOptions method](../windows.storage.bulkaccess/folderinformation_createfolderquerywithoptions_573382953.md), [Folder enumeration sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=619993)
+[Windows.Storage.storageFolder.createFolderQuery methods](../windows.storage/storagefolder_createfolderquery_325438332.md), [Windows.Storage.storageFolder.createFolderQueryWithOptions method](../windows.storage/storagefolder_createfolderquerywithoptions_573382953.md), [Windows.Storage.BulkAccess.folderInformation.createFolderQuery methods](../windows.storage.bulkaccess/folderinformation_createfolderquery_325438332.md), [Windows.Storage.BulkAccess.folderInformation.createFolderQueryWithOptions method](../windows.storage.bulkaccess/folderinformation_createfolderquerywithoptions_573382953.md), [Folder enumeration sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=619993)

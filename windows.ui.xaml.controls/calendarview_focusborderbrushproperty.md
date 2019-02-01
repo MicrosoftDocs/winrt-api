@@ -20,4 +20,4 @@ The identifier for the [FocusBorderBrush](calendarview_focusborderbrush.md)   d
 ## -examples
 
 ## -see-also
-[FocusBorderBrush](calendarview_focusborderbrush.md), [Dependency properties overview](http://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e)
+[FocusBorderBrush](calendarview_focusborderbrush.md), [Dependency properties overview](https://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e)

@@ -19,4 +19,4 @@ Represents a single page in a Portable Document Format (PDF) document.
 
 ## -see-also
 
-[IClosable](../windows.foundation/iclosable.md), [PDF document sample (Windows 10)](http://go.microsoft.com/fwlink/?LinkID=703785)
+[IClosable](../windows.foundation/iclosable.md), [PDF document sample (Windows 10)](https://go.microsoft.com/fwlink/?LinkID=703785)

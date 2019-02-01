@@ -22,7 +22,7 @@ License key identifier.
 
 + A full PlayReady Object (PRO), which is a binary format defined by PlayReady.
 + A raw XML WRMHeader.
-Both of these types of objects are described in the *Supporting In-Home Content Distribution with PlayReady for Network Devices* document located on the [Microsoft PlayReady Documents](http://www.microsoft.com/PlayReady/documents/) Web page.
+Both of these types of objects are described in the *Supporting In-Home Content Distribution with PlayReady for Network Devices* document located on the [Microsoft PlayReady Documents](https://www.microsoft.com/PlayReady/documents/) Web page.
 
 ### -field Custom:3
 Custom object specific to the transmitter. It is expected that the transmitter will understand the data contained therein. PlayReady does not define a standard format for custom content identifiers.

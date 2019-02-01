@@ -50,4 +50,4 @@ This table shows the resources used by the [ToggleMenuFlyoutItem](togglemenuflyo
 ## -examples
 
 ## -see-also
-[MenuFlyout](menuflyout.md), [MenuFlyoutItem](menuflyoutitem.md), [ToggleMenuFlyoutItem styles and templates](http://msdn.microsoft.com/library/ad43e8a5-eb26-42a9-b12e-9b998c8a2b46)
+[MenuFlyout](menuflyout.md), [MenuFlyoutItem](menuflyoutitem.md), [ToggleMenuFlyoutItem styles and templates](https://msdn.microsoft.com/library/ad43e8a5-eb26-42a9-b12e-9b998c8a2b46)

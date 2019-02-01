@@ -20,4 +20,4 @@ The identifier for the   [MonthYearItemFontSize](calendarview_monthyearitemfont
 ## -examples
 
 ## -see-also
-[MonthYearItemFontSize](calendarview_monthyearitemfontsize.md), [Dependency properties overview](http://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e)
+[MonthYearItemFontSize](calendarview_monthyearitemfontsize.md), [Dependency properties overview](https://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e)

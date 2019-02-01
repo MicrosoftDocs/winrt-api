@@ -31,4 +31,4 @@ You can animate each property of a [CompositeTransform3D](compositetransform3d.m
 
 ## -see-also
 
-[Transform3D](transform3d.md), [PerspectiveTransform3D class](perspectivetransform3d.md), [UIElement.Transform3D property](../windows.ui.xaml/uielement_transform3d.md), [Transform3D parallax sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620638), [Transform3D animations sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620637)
+[Transform3D](transform3d.md), [PerspectiveTransform3D class](perspectivetransform3d.md), [UIElement.Transform3D property](../windows.ui.xaml/uielement_transform3d.md), [Transform3D parallax sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620638), [Transform3D animations sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620637)

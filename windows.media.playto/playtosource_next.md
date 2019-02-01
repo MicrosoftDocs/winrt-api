@@ -17,7 +17,7 @@ The next Play To source element.
 
 ## -remarks
 For an example of using the [Next](playtosource_next.md) property, see [Streaming a slide show using Play To
-(JavaScript)](http://msdn.microsoft.com/library/780cb5f5-4ee5-4294-ad60-5be54107838a) or [Media casting](http://msdn.microsoft.com/library/40b97e0c-eb1b-40c2-a022-1ab95dfb085e).
+(JavaScript)](https://msdn.microsoft.com/library/780cb5f5-4ee5-4294-ad60-5be54107838a) or [Media casting](https://msdn.microsoft.com/library/40b97e0c-eb1b-40c2-a022-1ab95dfb085e).
 
 ## -examples
 
@@ -29,5 +29,5 @@ For an example of using the [Next](playtosource_next.md) property, see [Streamin
 [!code-vb[PlayToContract](../windows.media.playto/code/PlayTo_SlideShow1/vbnet/MainPage.xaml.vb#SnippetPlayToContract_CS)]
 
 ## -see-also
-[Play To sample](http://go.microsoft.com/fwlink/p/?linkid=245166), [PlayToReceiver sample](http://go.microsoft.com/fwlink/p/?linkid=245167), [Media Server sample](http://go.microsoft.com/fwlink/p/?linkid=245168)
+[Play To sample](https://go.microsoft.com/fwlink/p/?linkid=245166), [PlayToReceiver sample](https://go.microsoft.com/fwlink/p/?linkid=245167), [Media Server sample](https://go.microsoft.com/fwlink/p/?linkid=245168)
 soft.com/fwlink/p/?linkid=245168)

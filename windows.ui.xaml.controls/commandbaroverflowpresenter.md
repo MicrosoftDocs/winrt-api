@@ -44,4 +44,4 @@ This table shows the resources used by the [CommandBarOverflowPresenter](command
 ## -examples
 
 ## -see-also
-[ItemsControl](itemscontrol.md), [IItemContainerMapping](iitemcontainermapping.md), [CommandBarOverflowPresenter styles and templates](http://msdn.microsoft.com/library/9da08625-3314-4b15-8e5c-9e1beee28ecf)
+[ItemsControl](itemscontrol.md), [IItemContainerMapping](iitemcontainermapping.md), [CommandBarOverflowPresenter styles and templates](https://msdn.microsoft.com/library/9da08625-3314-4b15-8e5c-9e1beee28ecf)

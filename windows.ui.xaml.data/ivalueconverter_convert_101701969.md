@@ -63,5 +63,5 @@ The following example shows how to implement the [Convert](ivalueconverter_conve
 [!code-vb[2](../windows.ui.xaml.controls.primitives/code/DataBindingConverterParameterEx/vbnet/Page.xaml.vb#Snippet2)]
 
 ## -see-also
-[ConvertBack](ivalueconverter_convertback_2106225504.md), [XAML data binding sample](http://go.microsoft.com/fwlink/p/?linkid=226854), [Data binding in depth](http://msdn.microsoft.com/library/41e1b4f1-6caf-4128-a61a-4e400b149011)
+[ConvertBack](ivalueconverter_convertback_2106225504.md), [XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854), [Data binding in depth](https://msdn.microsoft.com/library/41e1b4f1-6caf-4128-a61a-4e400b149011)
 

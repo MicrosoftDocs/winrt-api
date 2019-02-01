@@ -23,7 +23,7 @@ Defines a duration and other behavior properties for a Windows Runtime animation
 
 [Timeline](timeline.md) also defines the [Completed](timeline_completed.md) event for [Storyboard](storyboard.md) and animations. Handling the [Completed](timeline_completed.md) event isn't necessary or most UI animation scenarios.
 
-The relationship between [Storyboard](storyboard.md) and the animation types is that a [Storyboard](storyboard.md) is a container that can group multiple animations, and acts as the controller for starting and stopping the contained animations. When you set [Timeline](timeline.md) properties on a [Storyboard](storyboard.md) as opposed to individual animations within a [Storyboard](storyboard.md), the [Timeline](timeline.md) properties set in the [Storyboard](storyboard.md) typically override those from the combined animations. For more info see [Storyboarded animations](http://msdn.microsoft.com/library/0cbceea0-2b0e-44a1-a09a-f7a939632f3a).
+The relationship between [Storyboard](storyboard.md) and the animation types is that a [Storyboard](storyboard.md) is a container that can group multiple animations, and acts as the controller for starting and stopping the contained animations. When you set [Timeline](timeline.md) properties on a [Storyboard](storyboard.md) as opposed to individual animations within a [Storyboard](storyboard.md), the [Timeline](timeline.md) properties set in the [Storyboard](storyboard.md) typically override those from the combined animations. For more info see [Storyboarded animations](https://msdn.microsoft.com/library/0cbceea0-2b0e-44a1-a09a-f7a939632f3a).
 
 [Timeline](timeline.md) has a strongly typed collection class that is used for properties that take a set of [Timeline](timeline.md) values, such as [Storyboard.Children](storyboard_children.md). For more info see [TimelineCollection](timelinecollection.md).
 
@@ -60,4 +60,4 @@ The relationship between [Storyboard](storyboard.md) and the animation types is 
 ## -examples
 
 ## -see-also
-[DependencyObject](../windows.ui.xaml/dependencyobject.md), [Storyboard](storyboard.md), [Storyboarded animations](http://msdn.microsoft.com/library/0cbceea0-2b0e-44a1-a09a-f7a939632f3a), [Storyboarded animations for visual states](http://msdn.microsoft.com/library/5e715281-d247-4e7f-9f88-2af0d88ed5e4), [Key-frame animations and easing function animations](http://msdn.microsoft.com/library/d8af24cd-f4c2-4562-afd7-25010955d677)
+[DependencyObject](../windows.ui.xaml/dependencyobject.md), [Storyboard](storyboard.md), [Storyboarded animations](https://msdn.microsoft.com/library/0cbceea0-2b0e-44a1-a09a-f7a939632f3a), [Storyboarded animations for visual states](https://msdn.microsoft.com/library/5e715281-d247-4e7f-9f88-2af0d88ed5e4), [Key-frame animations and easing function animations](https://msdn.microsoft.com/library/d8af24cd-f4c2-4562-afd7-25010955d677)

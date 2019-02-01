@@ -52,7 +52,7 @@ The object retrieved by the GetCurrentPoint and GetIntermediatePoints methods pr
 
 
 
-In the following example, we get extended pointer properties through the [PointerPoint](../windows.ui.input/pointerpoint.md) and [PointerPointProperties](../windows.ui.input/pointerpointproperties.md) objects. (See [Quickstart: Pointers](http://msdn.microsoft.com/library/90967981-40c0-4a7c-9ba9-86c28c78e154) for the complete example.)
+In the following example, we get extended pointer properties through the [PointerPoint](../windows.ui.input/pointerpoint.md) and [PointerPointProperties](../windows.ui.input/pointerpointproperties.md) objects. (See [Quickstart: Pointers](https://msdn.microsoft.com/library/90967981-40c0-4a7c-9ba9-86c28c78e154) for the complete example.)
 
 [!code-csharp[SnippetQueryPointer](../windows.ui.input.inking/code/PointerInput/csharp/MainPage.xaml.cs#SnippetQueryPointer)]
 
@@ -61,7 +61,7 @@ Typically, the object returned by this method is used to feed pointer data to a 
 
 
 ## -examples
-The following code example shows scenario 2 from the [Input sample](http://go.microsoft.com/fwlink/p/?linkid=226855). This code shows some usage patterns for direct manipulation using the [PointerPressed](../windows.ui.xaml/uielement_pointerpressed.md), [PointerReleased](../windows.ui.xaml/uielement_pointerreleased.md), [PointerEntered](../windows.ui.xaml/uielement_pointerentered.md), [PointerExited](../windows.ui.xaml/uielement_pointerexited.md), and [PointerMoved](../windows.ui.xaml/uielement_pointermoved.md) events.
+The following code example shows scenario 2 from the [Input sample](https://go.microsoft.com/fwlink/p/?linkid=226855). This code shows some usage patterns for direct manipulation using the [PointerPressed](../windows.ui.xaml/uielement_pointerpressed.md), [PointerReleased](../windows.ui.xaml/uielement_pointerreleased.md), [PointerEntered](../windows.ui.xaml/uielement_pointerentered.md), [PointerExited](../windows.ui.xaml/uielement_pointerexited.md), and [PointerMoved](../windows.ui.xaml/uielement_pointermoved.md) events.
 
 
 

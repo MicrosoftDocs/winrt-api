@@ -29,7 +29,7 @@ For JavaScript, [FilePickerSelectedFilesArray](filepickerselectedfilesarray.md) 
 <!--End NET note for IEnumerable support-->
 
 ## -examples
-The [File picker sample](http://go.microsoft.com/fwlink/p/?linkid=234890) demonstrates how capture the [filePickerSelectedFilesArray](filepickerselectedfilesarray.md) (`files` in the example) of picked files after calling [fileOpenPicker.pickMultipleFilesAsync](fileopenpicker_pickmultiplefilesasync_1324933367.md).
+The [File picker sample](https://go.microsoft.com/fwlink/p/?linkid=234890) demonstrates how capture the [filePickerSelectedFilesArray](filepickerselectedfilesarray.md) (`files` in the example) of picked files after calling [fileOpenPicker.pickMultipleFilesAsync](fileopenpicker_pickmultiplefilesasync_1324933367.md).
 
 > [!NOTE]
 > You should always make sure that your app is not snapped (or that it can be unsnapped) and set file picker properties regardless of whether the user is picking a single file or multiple files.
@@ -41,5 +41,5 @@ The [File picker sample](http://go.microsoft.com/fwlink/p/?linkid=234890) demons
 [!code-js[all_openpicker_showmulti](../windows.storage.pickers/code/FilePicker/js/js/scenario2.js#Snippetall_openpicker_showmulti)]
 
 ## -see-also
-[File picker sample](http://go.microsoft.com/fwlink/p/?linkid=234890), [Quickstart: Accessing files with ](http://msdn.microsoft.com/library/df082239-381c-462f-9f97-d2b390a2052e), [fileOpenPicker.pickMultipleFilesAsync method](fileopenpicker_pickmultiplefilesasync_1324933367.md)
+[File picker sample](https://go.microsoft.com/fwlink/p/?linkid=234890), [Quickstart: Accessing files with ](https://msdn.microsoft.com/library/df082239-381c-462f-9f97-d2b390a2052e), [fileOpenPicker.pickMultipleFilesAsync method](fileopenpicker_pickmultiplefilesasync_1324933367.md)
 picker_pickmultiplefilesasync.md)

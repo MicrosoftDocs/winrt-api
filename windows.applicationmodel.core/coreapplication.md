@@ -64,4 +64,4 @@ This API is supported in native apps only, except for the [Properties](coreappli
 
 ## -see-also
 
-[DirectX swap chain implementation sample](http://go.microsoft.com/fwlink/p/?linkid=258452), [CoreApplicationView](coreapplicationview.md), [Multiple views sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/MultipleViews)
+[DirectX swap chain implementation sample](https://go.microsoft.com/fwlink/p/?linkid=258452), [CoreApplicationView](coreapplicationview.md), [Multiple views sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/MultipleViews)

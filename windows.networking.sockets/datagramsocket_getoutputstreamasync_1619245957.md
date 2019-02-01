@@ -56,7 +56,7 @@ The [GetOutputStreamAsync](datagramsocket_getoutputstreamasync_1619245957.md) me
 ## -examples
 
 ## -see-also
-[HostName](../windows.networking/hostname.md), [GetOutputStreamAsync(EndpointPair)](datagramsocket_getoutputstreamasync_228240991.md), [IOutputStream](../windows.storage.streams/ioutputstream.md), [DatagramSocket sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620534)
+[HostName](../windows.networking/hostname.md), [GetOutputStreamAsync(EndpointPair)](datagramsocket_getoutputstreamasync_228240991.md), [IOutputStream](../windows.storage.streams/ioutputstream.md), [DatagramSocket sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620534)
 
 ## -capabilities
 ID_CAP_NETWORKING [Windows Phone]

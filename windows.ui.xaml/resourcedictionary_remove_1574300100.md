@@ -21,4 +21,4 @@ The key of the item to remove.
 ## -examples
 
 ## -see-also
-[Remove(TKey)](https://docs.microsoft.com/dotnet/api/system.collections.generic.idictionary-2.remove#System_Collections_Generic_IDictionary_2_Remove__0_), [ResourceDictionary and XAML resource references](http://msdn.microsoft.com/library/e3cbfa3d-6af5-44e1-b9f9-c3d3ea8a25ce)
+[Remove(TKey)](https://docs.microsoft.com/dotnet/api/system.collections.generic.idictionary-2.remove#System_Collections_Generic_IDictionary_2_Remove__0_), [ResourceDictionary and XAML resource references](https://msdn.microsoft.com/library/e3cbfa3d-6af5-44e1-b9f9-c3d3ea8a25ce)

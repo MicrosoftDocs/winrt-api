@@ -23,4 +23,4 @@ When a [title](messagedialog_title.md) is used, use the content to present addit
 ## -examples
 
 ## -see-also
-[MessageDialog.Title](messagedialog_title.md), [Quickstart: Designing a message dialog](http://msdn.microsoft.com/library/2e183b56-46ac-4ad2-93fd-34ffff886c74)
+[MessageDialog.Title](messagedialog_title.md), [Quickstart: Designing a message dialog](https://msdn.microsoft.com/library/2e183b56-46ac-4ad2-93fd-34ffff886c74)

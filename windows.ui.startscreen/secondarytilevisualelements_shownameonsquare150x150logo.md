@@ -23,4 +23,4 @@ Specifies whether the display name should be shown on the medium secondary tile.
 ## -examples
 
 ## -see-also
-[ShowNameOnSquare310x310Logo](secondarytilevisualelements_shownameonsquare310x310logo.md), [ShowNameOnWide310x150Logo](secondarytilevisualelements_shownameonwide310x150logo.md), [Secondary tiles sample](http://go.microsoft.com/fwlink/p/?linkid=231487)
+[ShowNameOnSquare310x310Logo](secondarytilevisualelements_shownameonsquare310x310logo.md), [ShowNameOnWide310x150Logo](secondarytilevisualelements_shownameonwide310x150logo.md), [Secondary tiles sample](https://go.microsoft.com/fwlink/p/?linkid=231487)

@@ -10,7 +10,7 @@ public Windows.UI.Xaml.Media.Geometry Data { get;  set; }
 # Windows.UI.Xaml.Controls.PathIcon.Data
 
 ## -description
-Gets or sets a [Geometry](../windows.ui.xaml.media/geometry.md) that specifies the shape to be drawn. In XAML. this can also be set using a string that describes [Move and draw commands syntax](http://msdn.microsoft.com/library/7772bc3e-a631-46ff-9940-3dd5b9d0e0d9).
+Gets or sets a [Geometry](../windows.ui.xaml.media/geometry.md) that specifies the shape to be drawn. In XAML. this can also be set using a string that describes [Move and draw commands syntax](https://msdn.microsoft.com/library/7772bc3e-a631-46ff-9940-3dd5b9d0e0d9).
 
 ## -xaml-syntax
 ```xaml
@@ -50,4 +50,4 @@ This example shows an [AppBarButton](appbarbutton.md) with a [PathIcon](pathicon
 
 
 ## -see-also
-[Path.Data](../windows.ui.xaml.shapes/path_data.md), [AppBar](appbar.md), [Move and draw commands syntax](http://msdn.microsoft.com/library/7772bc3e-a631-46ff-9940-3dd5b9d0e0d9)
+[Path.Data](../windows.ui.xaml.shapes/path_data.md), [AppBar](appbar.md), [Move and draw commands syntax](https://msdn.microsoft.com/library/7772bc3e-a631-46ff-9940-3dd5b9d0e0d9)

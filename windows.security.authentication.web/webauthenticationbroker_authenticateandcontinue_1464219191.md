@@ -24,4 +24,4 @@ The callback URI that indicates the completion of the web authentication. The br
 ## -examples
 
 ## -see-also
-[AuthenticateAndContinue(Uri)](webauthenticationbroker_authenticateandcontinue_1571442307.md), [AuthenticateAndContinue(Uri, Uri, ValueSet, WebAuthenticationOptions)](webauthenticationbroker_authenticateandcontinue_22464923.md), [Web authentication broker](http://msdn.microsoft.com/library/05f06961-1768-44a7-b185-bcdb74488f85), [How to continue your Windows Phone 8.x app after calling an AndContinue method](http://msdn.microsoft.com/library/3398d631-ff80-4336-be45-8ee3ea96fbdb)
+[AuthenticateAndContinue(Uri)](webauthenticationbroker_authenticateandcontinue_1571442307.md), [AuthenticateAndContinue(Uri, Uri, ValueSet, WebAuthenticationOptions)](webauthenticationbroker_authenticateandcontinue_22464923.md), [Web authentication broker](https://msdn.microsoft.com/library/05f06961-1768-44a7-b185-bcdb74488f85), [How to continue your Windows Phone 8.x app after calling an AndContinue method](https://msdn.microsoft.com/library/3398d631-ff80-4336-be45-8ee3ea96fbdb)

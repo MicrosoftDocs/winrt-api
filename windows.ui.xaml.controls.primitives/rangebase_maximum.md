@@ -22,7 +22,7 @@ Gets or sets the highest possible [Value](rangebase_value.md) of the range eleme
 The highest possible [Value](rangebase_value.md) of the range element. The default is 1.
 
 ## -remarks
-[Slider](../windows.ui.xaml.controls/slider.md) and [ProgressBar](../windows.ui.xaml.controls/progressbar.md) override the metadata of this property and set its default to 100. For more information, see [Dependency properties overview](http://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e).
+[Slider](../windows.ui.xaml.controls/slider.md) and [ProgressBar](../windows.ui.xaml.controls/progressbar.md) override the metadata of this property and set its default to 100. For more information, see [Dependency properties overview](https://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e).
 
 > [!NOTE]
 > When binding [Minimum](rangebase_minimum.md) and [Maximum](rangebase_maximum.md) values in Extensible Application Markup Language (XAML), declare the [Binding](../windows.ui.xaml.data/binding.md) for [Maximum](rangebase_maximum.md) first. If the [Binding](../windows.ui.xaml.data/binding.md) for [Maximum](rangebase_maximum.md) is declared after [Minimum](rangebase_minimum.md), the bound value for [Maximum](rangebase_maximum.md) is ignored and the following situations can occur: + If the bound [Minimum](rangebase_minimum.md) value is negative, the [Maximum](rangebase_maximum.md) value is set to 0.

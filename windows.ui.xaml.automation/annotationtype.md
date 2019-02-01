@@ -10,7 +10,7 @@ public enum Windows.UI.Xaml.Automation.AnnotationType : int
 # AnnotationType
 
 ## -description
-Provides a set of constants that identify types of annotations in a document, as used by the [ISpreadsheetItemProvider](http://msdn.microsoft.com/library/e6428fed-2bcc-4ad5-b612-a22899624538)  Microsoft UI Automation interface.
+Provides a set of constants that identify types of annotations in a document, as used by the [ISpreadsheetItemProvider](https://msdn.microsoft.com/library/e6428fed-2bcc-4ad5-b612-a22899624538)  Microsoft UI Automation interface.
 
 ## -enum-fields
 ### -field Unknown:60000
@@ -86,7 +86,7 @@ A circular reference error.
 ## -remarks
 This enumeration is used as an input value to the [GetAnnotationTypes](../windows.ui.xaml.automation.provider/ispreadsheetitemprovider_getannotationtypes_911639376.md) method.
 
-The values in [AnnotationType](annotationtype.md) parallel the values in the [Annotation Type Identifiers](http://msdn.microsoft.com/library/46948b7c-ec9f-4b55-b769-62ee8be11d33) constants.
+The values in [AnnotationType](annotationtype.md) parallel the values in the [Annotation Type Identifiers](https://msdn.microsoft.com/library/46948b7c-ec9f-4b55-b769-62ee8be11d33) constants.
 
 <!--The descriptions in this topic are adapted or taken directly from http://msdn.microsoft.com/library/windows/desktop/hh448743(v=vs.85).aspx-->
 

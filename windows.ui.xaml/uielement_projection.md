@@ -42,4 +42,4 @@ This example shows how to apply a basic [PlaneProjection](../windows.ui.xaml.med
 [!code-xml[BasicPerspectiveTransforms](../windows.ui.xaml/code/BasicPerspectiveTransforms/csharp/MainPage.xaml#SnippetBasicPerspectiveTransforms)]
 
 ## -see-also
-[Matrix3DProjection](../windows.ui.xaml.media/matrix3dprojection.md), [Matrix3D](../windows.ui.xaml.media.media3d/matrix3d.md), [3-D effects for  using XAML](http://msdn.microsoft.com/library/abcbbdb6-02a5-4e4e-a8dc-ceacedb91913), [XAML two-dimensional transforms sample](http://go.microsoft.com/fwlink/p/?linkid=238580)
+[Matrix3DProjection](../windows.ui.xaml.media/matrix3dprojection.md), [Matrix3D](../windows.ui.xaml.media.media3d/matrix3d.md), [3-D effects for  using XAML](https://msdn.microsoft.com/library/abcbbdb6-02a5-4e4e-a8dc-ceacedb91913), [XAML two-dimensional transforms sample](https://go.microsoft.com/fwlink/p/?linkid=238580)

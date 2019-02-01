@@ -20,4 +20,4 @@ A [TimeSpan](../windows.foundation/timespan.md) structure that contains the time
 ## -examples
 
 ## -see-also
-[Transcoding media sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620569)
+[Transcoding media sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620569)

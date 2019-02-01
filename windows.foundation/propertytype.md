@@ -50,10 +50,10 @@ An unsigned 16-bit (2-byte) code point.
 A value that can be only true or false.
 
 ### -field String:12
-A Windows Runtime  [HSTRING](http://msdn.microsoft.com/library/763ace57-efdd-482e-851e-668d7756c5df).
+A Windows Runtime  [HSTRING](https://msdn.microsoft.com/library/763ace57-efdd-482e-851e-668d7756c5df).
 
 ### -field Inspectable:13
-An object implementing the [IInspectable](http://msdn.microsoft.com/library/0657e51f-d4c0-46c6-927d-b01e54b6846c) interface.
+An object implementing the [IInspectable](https://msdn.microsoft.com/library/0657e51f-d4c0-46c6-927d-b01e54b6846c) interface.
 
 ### -field DateTime:14
 An instant in time, typically expressed as a date and time of day.

@@ -15,7 +15,7 @@ Reads a Japanese string that is a combination of Kanji characters and Hiragana c
 
 ## -remarks
 
-Analyzing Japanese strings and generating readings and word breaks is not a straightforward task, as one Kanji character can be read in multiple ways depending on context. Japanese strings also don't have explicit word breaks such as whitespace. [JapanesePhoneticAnalyzer](japanesephoneticanalyzer.md) breaks an input string into an [IVectorView](http://msdn.microsoft.com/library/644aa3d0-6f4d-406e-9adc-7f02fe575e90) of [JapanesePhoneme](japanesephoneme.md) objects.
+Analyzing Japanese strings and generating readings and word breaks is not a straightforward task, as one Kanji character can be read in multiple ways depending on context. Japanese strings also don't have explicit word breaks such as whitespace. [JapanesePhoneticAnalyzer](japanesephoneticanalyzer.md) breaks an input string into an [IVectorView](https://msdn.microsoft.com/library/644aa3d0-6f4d-406e-9adc-7f02fe575e90) of [JapanesePhoneme](japanesephoneme.md) objects.
 
 Each [JapanesePhoneme](japanesephoneme.md) object represents a single Japanese word, and has properties for its display, its "reading" (the pronunciation of the display string, represented by a sequence of Hiragana characters), and whether or not it is the start of a phrase.
 
@@ -34,4 +34,4 @@ You can also use the method overload [JapanesePhoneticAnalyzer.GetWords(input, m
 
 ## -see-also
 
-[JapanesePhoneme](japanesephoneme.md), [Japanese phonetic analysis sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620555)
+[JapanesePhoneme](japanesephoneme.md), [Japanese phonetic analysis sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620555)

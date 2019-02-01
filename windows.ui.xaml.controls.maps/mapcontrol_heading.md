@@ -37,4 +37,4 @@ Heading values greater than 360 degrees are normalized to their equivalent 0-360
 ## -examples
 
 ## -see-also
-[Display maps with 2D, 3D, and Streetside views](http://msdn.microsoft.com/library/3839e00b-2c1e-4627-a45f-6dda98d7077f)
+[Display maps with 2D, 3D, and Streetside views](https://msdn.microsoft.com/library/3839e00b-2c1e-4627-a45f-6dda98d7077f)

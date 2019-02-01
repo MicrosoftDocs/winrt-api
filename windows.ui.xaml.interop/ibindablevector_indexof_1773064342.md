@@ -28,4 +28,4 @@ When programming with .NET, this interface is hidden and developers should use t
 ## -examples
 
 ## -see-also
-[XAML data binding sample](http://go.microsoft.com/fwlink/p/?linkid=226854)
+[XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854)

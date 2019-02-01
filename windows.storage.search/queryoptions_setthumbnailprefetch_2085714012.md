@@ -16,7 +16,7 @@ Specifies the type and size of thumbnails that the system should start loading i
 ### -param mode
 The enumeration value that describes the purpose of the thumbnail and determines how the thumbnail image is adjusted.
 
-For guidance about choosing the best thumbnail mode, see [Guidelines and checklist for thumbnails](http://msdn.microsoft.com/library/46868748-8847-49ed-a07f-324e77b27da4).
+For guidance about choosing the best thumbnail mode, see [Guidelines and checklist for thumbnails](https://msdn.microsoft.com/library/46868748-8847-49ed-a07f-324e77b27da4).
 
 ### -param requestedSize
 The requested size, in pixels, of the longest edge of the thumbnail. Windows uses the *requestedSize* as a guide and tries to return a thumbnail image that can be scaled to the requested size without reducing the quality of the image.
@@ -31,5 +31,5 @@ The enum value that describes the desired behavior to use to retrieve the thumbn
 ## -examples
 
 ## -see-also
-[Folder enumeration sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=619993)
+[Folder enumeration sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=619993)
 [Fast access to file properties in UWP](https://docs.microsoft.com/windows/uwp/files/fast-file-properties)

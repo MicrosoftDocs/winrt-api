@@ -25,7 +25,7 @@ Some of the scenarios where you might have used a **WriteableBitmap** class in p
 
 ## -examples
 
-This example writes to the [PixelBuffer](writeablebitmap_pixelbuffer.md) property of [WriteableBitmap](writeablebitmap.md) as part of a transcoding scenario that will eventually use the [WriteableBitmap](writeablebitmap.md) as an [Image.Source](../windows.ui.xaml.controls/image_source.md) value and display the image. The code shown here comes from a larger code sample, the SDK [XAML images sample](http://go.microsoft.com/fwlink/p/?linkid=238575).
+This example writes to the [PixelBuffer](writeablebitmap_pixelbuffer.md) property of [WriteableBitmap](writeablebitmap.md) as part of a transcoding scenario that will eventually use the [WriteableBitmap](writeablebitmap.md) as an [Image.Source](../windows.ui.xaml.controls/image_source.md) value and display the image. The code shown here comes from a larger code sample, the SDK [XAML images sample](https://go.microsoft.com/fwlink/p/?linkid=238575).
 
 ```csharp
 using (IRandomAccessStream fileStream = await file.OpenAsync(Windows.Storage.FileAccessMode.Read)) 
@@ -57,4 +57,4 @@ using (IRandomAccessStream fileStream = await file.OpenAsync(Windows.Storage.Fil
 
 ## -see-also
 
-[BitmapSource](bitmapsource.md), [Image](../windows.ui.xaml.controls/image.md), [BitmapDecoder](../windows.graphics.imaging/bitmapdecoder.md), [Windows.Graphics.Imaging namespace](../windows.graphics.imaging/windows_graphics_imaging.md), [XAML images sample](http://go.microsoft.com/fwlink/p/?linkid=238575), [Camera preview frame sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620516)
+[BitmapSource](bitmapsource.md), [Image](../windows.ui.xaml.controls/image.md), [BitmapDecoder](../windows.graphics.imaging/bitmapdecoder.md), [Windows.Graphics.Imaging namespace](../windows.graphics.imaging/windows_graphics_imaging.md), [XAML images sample](https://go.microsoft.com/fwlink/p/?linkid=238575), [Camera preview frame sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620516)

@@ -59,7 +59,7 @@ For UWP apps, publications and subscriptions are active only if the calling app 
 [!code-vb[PublishSubscribe](../windows.networking.proximity/code/ProximityReferenceSample/vbnet/MainPage.xaml.vb#SnippetPublishSubscribe)]
 
 ## -see-also
-[PublishMessage(String, String, MessageTransmittedHandler)](proximitydevice_publishmessage_1989900324.md), [PublishBinaryMessage](proximitydevice_publishbinarymessage_285088637.md), [PublishUriMessage](proximitydevice_publishurimessage_632953271.md), [StopPublishingMessage](proximitydevice_stoppublishingmessage_1046474884.md), [Proximity and Tapping (JavaScript)](http://msdn.microsoft.com/library/84a30dcf-ef14-4a93-9e7c-7a3de867d46b), [Proximity and Tapping (C#/VB/C++)](http://msdn.microsoft.com/library/f25bb1df-1cfd-45cd-8c67-04eec73ebfbd), [Proximity sample](http://go.microsoft.com/fwlink/p/?linkid=245082)
+[PublishMessage(String, String, MessageTransmittedHandler)](proximitydevice_publishmessage_1989900324.md), [PublishBinaryMessage](proximitydevice_publishbinarymessage_285088637.md), [PublishUriMessage](proximitydevice_publishurimessage_632953271.md), [StopPublishingMessage](proximitydevice_stoppublishingmessage_1046474884.md), [Proximity and Tapping (JavaScript)](https://msdn.microsoft.com/library/84a30dcf-ef14-4a93-9e7c-7a3de867d46b), [Proximity and Tapping (C#/VB/C++)](https://msdn.microsoft.com/library/f25bb1df-1cfd-45cd-8c67-04eec73ebfbd), [Proximity sample](https://go.microsoft.com/fwlink/p/?linkid=245082)
 
 ## -capabilities
 proximity

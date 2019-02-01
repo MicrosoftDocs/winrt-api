@@ -14,13 +14,13 @@ Asynchronously retrieves one or more bitmap properties.
 
 ## -parameters
 ### -param propertiesToRetrieve
-A collection of strings representing the property keys or queries that are being requested. Valid strings include [Windows properties](http://msdn.microsoft.com/library/ac71889b-94e5-4135-abd4-5d96690e41ea) and [Windows Imaging Component metadata queries](http://msdn.microsoft.com/library/a6ab1708-dd82-4960-b908-f1daef7374ef).
+A collection of strings representing the property keys or queries that are being requested. Valid strings include [Windows properties](https://msdn.microsoft.com/library/ac71889b-94e5-4135-abd4-5d96690e41ea) and [Windows Imaging Component metadata queries](https://msdn.microsoft.com/library/a6ab1708-dd82-4960-b908-f1daef7374ef).
 
 ## -returns
 Object that manages the asynchronous retrieval of the bitmap properties.
 
 ## -remarks
-The asynchronous operation produces a collection representing the requested image property keys and their values. The values are stored as [BitmapTypedValue](bitmaptypedvalue.md), which contains both the actual data as well as the [PropertyType](http://msdn.microsoft.com/library/a4dc4348-88ee-48fb-91ed-f1d12fc89ee1) of the data.
+The asynchronous operation produces a collection representing the requested image property keys and their values. The values are stored as [BitmapTypedValue](bitmaptypedvalue.md), which contains both the actual data as well as the [PropertyType](https://msdn.microsoft.com/library/a4dc4348-88ee-48fb-91ed-f1d12fc89ee1) of the data.
 
 A particular image may only contain some (or none) of the requested properties. In this case the collection will only have key-value pairs for the properties which were found in the image. You need to check for the existence of the property before you attempt to get data from it: 
 
@@ -71,7 +71,7 @@ bitmapPropertiesView.getPropertiesAsync([]).done(function (retrievedProperties) 
 
 
 
-If the image format does not support metadata, it will fail with HRESULT [WINCODEC_ERR_UNSUPPORTEDOPERATION](http://msdn.microsoft.com/library/1ded909c-311b-49e3-ba23-b22cd7a77bc6).
+If the image format does not support metadata, it will fail with HRESULT [WINCODEC_ERR_UNSUPPORTEDOPERATION](https://msdn.microsoft.com/library/1ded909c-311b-49e3-ba23-b22cd7a77bc6).
 
 ## -examples
 

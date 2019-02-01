@@ -31,4 +31,4 @@ In the event subscription model, a delegate registers to receive change notifica
 ## -examples
 
 ## -see-also
-[System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken](https://msdn.microsoft.com/library/system.runtime.interopservices.windowsruntime.eventregistrationtoken.aspx), [Events (C++/CX)](http://msdn.microsoft.com/library/31c8e08a-00ad-40f9-8f7e-124864aaad58), [Delegates (C++/CX)](http://msdn.microsoft.com/library/3175bf1c-86d8-4eda-8d8f-c5b6753d8e38)
+[System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken](https://msdn.microsoft.com/library/system.runtime.interopservices.windowsruntime.eventregistrationtoken.aspx), [Events (C++/CX)](https://msdn.microsoft.com/library/31c8e08a-00ad-40f9-8f7e-124864aaad58), [Delegates (C++/CX)](https://msdn.microsoft.com/library/3175bf1c-86d8-4eda-8d8f-c5b6753d8e38)

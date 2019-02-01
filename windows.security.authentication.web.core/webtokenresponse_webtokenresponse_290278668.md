@@ -21,4 +21,4 @@ The token.
 ## -examples
 
 ## -see-also
-[Web account management code sample](http://go.microsoft.com/fwlink/p/?LinkId=620621), [WebTokenResponse(String, WebAccount)](webtokenresponse_webtokenresponse_1372244988.md), [WebTokenResponse(String, WebAccount, WebProviderError)](webtokenresponse_webtokenresponse_2052452308.md)
+[Web account management code sample](https://go.microsoft.com/fwlink/p/?LinkId=620621), [WebTokenResponse(String, WebAccount)](webtokenresponse_webtokenresponse_1372244988.md), [WebTokenResponse(String, WebAccount, WebProviderError)](webtokenresponse_webtokenresponse_2052452308.md)

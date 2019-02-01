@@ -19,7 +19,7 @@ The transfer-coding value (transfer-coding name) used in the **Transfer-Encoding
 All transfer-coding names are case-insensitive and ought to be registered within the HTTP Transfer Coding registry.
 
 For the list of registered transfer-coding values, see [Hypertext Transfer Protocol (HTTP) Parameters
-](http://www.iana.org/assignments/http-parameters/http-parameters.xml#http-parameters-2).
+](https://www.iana.org/assignments/http-parameters/http-parameters.xml#http-parameters-2).
 
 ## -examples
 

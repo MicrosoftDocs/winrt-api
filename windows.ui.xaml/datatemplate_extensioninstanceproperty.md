@@ -20,4 +20,4 @@ The identifier for the [ExtensionInstance](datatemplate_extensioninstance.md)  
 ## -examples
 
 ## -see-also
-[ExtensionInstance](datatemplate_extensioninstance.md), [Attached properties overview](http://msdn.microsoft.com/library/098c1de0-d640-48b1-9961-d0adf33266e2)
+[ExtensionInstance](datatemplate_extensioninstance.md), [Attached properties overview](https://msdn.microsoft.com/library/098c1de0-d640-48b1-9961-d0adf33266e2)

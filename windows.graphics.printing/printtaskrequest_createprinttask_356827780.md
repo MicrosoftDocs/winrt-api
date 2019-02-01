@@ -28,4 +28,4 @@ Pointer to the print task that was created.
 ## -examples
 
 ## -see-also
-[Printing](http://msdn.microsoft.com/library/windows/apps/hh465225.aspx), [PrintTask](printtask.md), [PrintTaskSourceRequestedHandler](printtasksourcerequestedhandler.md)
+[Printing](https://msdn.microsoft.com/library/windows/apps/hh465225.aspx), [PrintTask](printtask.md), [PrintTaskSourceRequestedHandler](printtasksourcerequestedhandler.md)

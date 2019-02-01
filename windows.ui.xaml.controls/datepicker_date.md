@@ -21,9 +21,9 @@ The [Date](datepicker_date.md) property can't be set as a XAML attribute string,
 + [DateTimeOffset](https://msdn.microsoft.com/library/system.datetimeoffset.aspx): Call the  constructor. For the inner [System.DateTime](https://msdn.microsoft.com/library/system.datetime.aspx), use the  constructor signature. Or, construct a default [DateTimeOffset](https://msdn.microsoft.com/library/system.datetimeoffset.aspx) (it is initialized to the current date) and call methods such as [AddMonths](https://docs.microsoft.com/dotnet/api/system.datetimeoffset.addmonths#System_DateTimeOffset_AddMonths_System_Int32_).
 
 
-Another possible technique is to define a date that's available as a data object or in the data context, then set [Date](datepicker_date.md) as a XAML attribute that references a [{Binding} markup extension](http://msdn.microsoft.com/library/3bafe7b5-af33-487f-9ad5-beafd65d04c3) that can access the date as data.
+Another possible technique is to define a date that's available as a data object or in the data context, then set [Date](datepicker_date.md) as a XAML attribute that references a [{Binding} markup extension](https://msdn.microsoft.com/library/3bafe7b5-af33-487f-9ad5-beafd65d04c3) that can access the date as data.
 
 ## -examples
 
 ## -see-also
-[DateChanged](datepicker_datechanged.md), [Quickstart: Adding a DatePicker](http://msdn.microsoft.com/library/feae870d-e423-457b-9d0a-3929247952a9), [XAML DatePicker and TimePicker controls sample](http://go.microsoft.com/fwlink/p/?LinkID=310075)
+[DateChanged](datepicker_datechanged.md), [Quickstart: Adding a DatePicker](https://msdn.microsoft.com/library/feae870d-e423-457b-9d0a-3929247952a9), [XAML DatePicker and TimePicker controls sample](https://go.microsoft.com/fwlink/p/?LinkID=310075)

@@ -25,4 +25,4 @@ Usage for [LoadWithInitialTemplateValidation](xamlreader_loadwithinitialtemplate
 ## -examples
 
 ## -see-also
-[XamlReader.Load](xamlreader_load_1077941801.md), [XAML syntax guide](http://msdn.microsoft.com/library/a57fe7b4-9947-4aa0-bc99-5fe4686b611d), [XAML overview](http://msdn.microsoft.com/library/48041b37-f1a8-44a4-bb8e-1d4de30e7823)
+[XamlReader.Load](xamlreader_load_1077941801.md), [XAML syntax guide](https://msdn.microsoft.com/library/a57fe7b4-9947-4aa0-bc99-5fe4686b611d), [XAML overview](https://msdn.microsoft.com/library/48041b37-f1a8-44a4-bb8e-1d4de30e7823)

@@ -23,4 +23,4 @@ This method is mainly relevant for methods that are playing or paused, and which
 ## -examples
 
 ## -see-also
-[FillBehavior](timeline_fillbehavior.md), [Storyboarded animations](http://msdn.microsoft.com/library/0cbceea0-2b0e-44a1-a09a-f7a939632f3a)
+[FillBehavior](timeline_fillbehavior.md), [Storyboarded animations](https://msdn.microsoft.com/library/0cbceea0-2b0e-44a1-a09a-f7a939632f3a)

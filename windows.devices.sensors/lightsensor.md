@@ -35,4 +35,4 @@ The following example shows the [ReadingChanged](lightsensor_readingchanged.md) 
 
 ## -see-also
 
-[LightSensor Sample](http://go.microsoft.com/fwlink/p/?linkid=241381), [Light sensor sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620561)
+[LightSensor Sample](https://go.microsoft.com/fwlink/p/?linkid=241381), [Light sensor sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620561)

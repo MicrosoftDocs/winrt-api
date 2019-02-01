@@ -22,7 +22,7 @@ A reference to the pixel buffer.
 
 
 ## -examples
-This example writes to the [PixelBuffer](writeablebitmap_pixelbuffer.md) property of [WriteableBitmap](writeablebitmap.md) as part of a transcoding scenario that will eventually use the [WriteableBitmap](writeablebitmap.md) as an [Image.Source](../windows.ui.xaml.controls/image_source.md) value and display the image. The code shown here comes from a larger code sample, the SDK [XAML images sample](http://go.microsoft.com/fwlink/p/?linkid=238575).
+This example writes to the [PixelBuffer](writeablebitmap_pixelbuffer.md) property of [WriteableBitmap](writeablebitmap.md) as part of a transcoding scenario that will eventually use the [WriteableBitmap](writeablebitmap.md) as an [Image.Source](../windows.ui.xaml.controls/image_source.md) value and display the image. The code shown here comes from a larger code sample, the SDK [XAML images sample](https://go.microsoft.com/fwlink/p/?linkid=238575).
 
 ```csharp
 using (IRandomAccessStream fileStream = await file.OpenAsync(Windows.Storage.FileAccessMode.Read)) 
@@ -55,4 +55,4 @@ using (IRandomAccessStream fileStream = await file.OpenAsync(Windows.Storage.Fil
 
 
 ## -see-also
-[BitmapSource](bitmapsource.md), [BitmapDecoder](../windows.graphics.imaging/bitmapdecoder.md), [Windows.Graphics.Imaging namespace](../windows.graphics.imaging/windows_graphics_imaging.md), [XAML images sample](http://go.microsoft.com/fwlink/p/?linkid=238575)
+[BitmapSource](bitmapsource.md), [BitmapDecoder](../windows.graphics.imaging/bitmapdecoder.md), [Windows.Graphics.Imaging namespace](../windows.graphics.imaging/windows_graphics_imaging.md), [XAML images sample](https://go.microsoft.com/fwlink/p/?linkid=238575)

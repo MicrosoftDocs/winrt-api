@@ -27,4 +27,4 @@ The minimum width of the object, in pixels. The default is 0. This value can be 
 ## -examples
 
 ## -see-also
-[MaxWidth](frameworkelement_maxwidth.md), [Width](frameworkelement_width.md), [HorizontalAlignment](frameworkelement_horizontalalignment.md), [Define layouts with XAML](http://msdn.microsoft.com/library/8d4e4162-1c9c-48f4-8a94-34976fb17079)
+[MaxWidth](frameworkelement_maxwidth.md), [Width](frameworkelement_width.md), [HorizontalAlignment](frameworkelement_horizontalalignment.md), [Define layouts with XAML](https://msdn.microsoft.com/library/8d4e4162-1c9c-48f4-8a94-34976fb17079)

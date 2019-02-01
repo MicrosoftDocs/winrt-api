@@ -20,6 +20,6 @@ You will receive an **IDS_GEOFENCEMONITOR_OUT_OF_SYNC** exception if the Locatio
 ## -examples
 
 ## -see-also
-[Geofencing, start to finish](http://msdn.microsoft.com/library/eee6b589-2eab-4279-ac61-22bfa5e06d8e), [Windows.Devices.Geolocation](windows_devices_geolocation_geofencing.md), [Geofence](geofence.md)
+[Geofencing, start to finish](https://msdn.microsoft.com/library/eee6b589-2eab-4279-ac61-22bfa5e06d8e), [Windows.Devices.Geolocation](windows_devices_geolocation_geofencing.md), [Geofence](geofence.md)
 ## -capabilities
 location

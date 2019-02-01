@@ -53,4 +53,4 @@ This example shows how to put a [Border](border.md) around several [Rectangle](.
 [!code-xml[LayoutOvwBorder](../windows.ui.xaml/code/layout_ovw_all/CSharp/MainPage.xaml#SnippetLayoutOvwBorder)]
 
 ## -see-also
-[FrameworkElement](../windows.ui.xaml/frameworkelement.md), [Alignment, margin, and padding](http://msdn.microsoft.com/library/9412abd4-3674-4865-b07d-64c7c26e4842)
+[FrameworkElement](../windows.ui.xaml/frameworkelement.md), [Alignment, margin, and padding](https://msdn.microsoft.com/library/9412abd4-3674-4865-b07d-64c7c26e4842)

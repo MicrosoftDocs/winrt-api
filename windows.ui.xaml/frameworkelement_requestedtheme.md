@@ -36,7 +36,7 @@ The [RequestedTheme](frameworkelement_requestedtheme.md) value you set on a [Fra
 
 
 
-The [RequestedTheme](frameworkelement_requestedtheme.md) property is ignored if the user is running in high contrast mode. See [High-contrast themes](http://msdn.microsoft.com/library/fd7ca6f6-a8f1-47d8-aa6c-3f2ec3168c45) and [XAML high contrast style sample](http://go.microsoft.com/fwlink/p/?LinkID=254993).
+The [RequestedTheme](frameworkelement_requestedtheme.md) property is ignored if the user is running in high contrast mode. See [High-contrast themes](https://msdn.microsoft.com/library/fd7ca6f6-a8f1-47d8-aa6c-3f2ec3168c45) and [XAML high contrast style sample](https://go.microsoft.com/fwlink/p/?LinkID=254993).
 
 
 
@@ -46,4 +46,4 @@ The [RequestedTheme](frameworkelement_requestedtheme.md) property is ignored if 
 ## -examples
 
 ## -see-also
-[Application.RequestedTheme](application_requestedtheme.md), [XAML requested theme sample](http://go.microsoft.com/fwlink/p/?LinkId=306608), [{ThemeResource} markup extension](http://msdn.microsoft.com/library/8a1c79d2-9566-44aa-b8e1-cc7adad1bcc5)
+[Application.RequestedTheme](application_requestedtheme.md), [XAML requested theme sample](https://go.microsoft.com/fwlink/p/?LinkId=306608), [{ThemeResource} markup extension](https://msdn.microsoft.com/library/8a1c79d2-9566-44aa-b8e1-cc7adad1bcc5)

@@ -65,4 +65,4 @@ Round to the integer, increment, or significant digit that is closest to the inp
 
 ## -see-also
 
-[Number formatting and parsing sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620578)
+[Number formatting and parsing sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620578)

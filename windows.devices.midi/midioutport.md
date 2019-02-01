@@ -17,4 +17,4 @@ Represents a port used to send MIDI messages to a MIDI device.
 ## -examples
 
 ## -see-also
-[IMidiOutPort](imidioutport.md), [IClosable](../windows.foundation/iclosable.md), [MIDI  sample](http://go.microsoft.com/fwlink/p/?LinkID=394281)
+[IMidiOutPort](imidioutport.md), [IClosable](../windows.foundation/iclosable.md), [MIDI  sample](https://go.microsoft.com/fwlink/p/?LinkID=394281)

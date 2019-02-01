@@ -37,7 +37,7 @@ Call [GetForCurrentView](coreinputview_getforcurrentview_1363600702.md) to get a
 After you register to receive input pane notifications, the system calls your event delegate whenever the pane is shown or hidden for the window that was visible when you called the [GetForCurrentView](coreinputview_getforcurrentview_1363600702.md) method.
 
 > [!NOTE]
-> This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://go.microsoft.com/fwlink/p/?linkid=258275).
+> This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275).
 
 ## -see-also
 

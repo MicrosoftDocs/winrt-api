@@ -54,7 +54,7 @@ The following example uses a [Path](path.md) to draw an ellipse.
       
       ge p8:href="F7350D28-90E9-4423-9027-0A1C013D8381" xmlns:p8="http://www.w3.org/1999/xlink" />
 -->
-In XAML, you can also use [Move and draw commands syntax](http://msdn.microsoft.com/library/7772bc3e-a631-46ff-9940-3dd5b9d0e0d9) as the value for the [Data](path_data.md) property. This example uses this syntax to specify the shape of a [Path](path.md).
+In XAML, you can also use [Move and draw commands syntax](https://msdn.microsoft.com/library/7772bc3e-a631-46ff-9940-3dd5b9d0e0d9) as the value for the [Data](path_data.md) property. This example uses this syntax to specify the shape of a [Path](path.md).
 
 ```xaml
 <Canvas>
@@ -63,9 +63,9 @@ In XAML, you can also use [Move and draw commands syntax](http://msdn.microsoft.
 </Canvas>
 ```
 
-The **Data** attribute string begins with the *move to* command, indicated by "M", which establishes a start point for the path in the coordinate system of the [Canvas](../windows.ui.xaml.controls/canvas.md). Strings in the [Move and draw commands syntax](http://msdn.microsoft.com/library/7772bc3e-a631-46ff-9940-3dd5b9d0e0d9) are case-sensitive and determine whether commands use relative (offset) or absolute coordinates. The first segment is a cubic Bezier curve beginning at (100,200) and ending at (400,175), drawn using the two control points (100,25) and (400,350).
+The **Data** attribute string begins with the *move to* command, indicated by "M", which establishes a start point for the path in the coordinate system of the [Canvas](../windows.ui.xaml.controls/canvas.md). Strings in the [Move and draw commands syntax](https://msdn.microsoft.com/library/7772bc3e-a631-46ff-9940-3dd5b9d0e0d9) are case-sensitive and determine whether commands use relative (offset) or absolute coordinates. The first segment is a cubic Bezier curve beginning at (100,200) and ending at (400,175), drawn using the two control points (100,25) and (400,350).
 
 The second segment begins with an absolute horizontal *line to* command "H", which specifies a line drawn from the preceding subpath's endpoint (400,175) to a new endpoint (280,175). Because it is a horizontal *line to* command, the value specified is an x-coordinate.
 
 ## -see-also
-[Move and draw commands syntax](http://msdn.microsoft.com/library/7772bc3e-a631-46ff-9940-3dd5b9d0e0d9)
+[Move and draw commands syntax](https://msdn.microsoft.com/library/7772bc3e-a631-46ff-9940-3dd5b9d0e0d9)

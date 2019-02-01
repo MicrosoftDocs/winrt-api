@@ -24,4 +24,4 @@ The [ISelectionInfo](iselectioninfo.md) interface supports virtualization of lar
 
 ## -see-also
 
-[Data virtualization sample (Windows 10)](http://go.microsoft.com/fwlink/?LinkID=703784)
+[Data virtualization sample (Windows 10)](https://go.microsoft.com/fwlink/?LinkID=703784)

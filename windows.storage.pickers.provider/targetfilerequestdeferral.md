@@ -19,7 +19,7 @@ If your app participates in the File Save Picker contract and a [targetfilereque
 Your app, as the provider of a save location, can signal that it has finished its asynchronous response to a [targetfilerequested](filesavepickerui_targetfilerequested.md) event by calling [targetFileRequestDeferral.complete](targetfilerequestdeferral_complete_1807836922.md). Learn more about responding asynchronously to a [targetfilerequested](filesavepickerui_targetfilerequested.md) event in [targetFileRequestedEventArgs](targetfilerequestedeventargs.md).
 
 ## -examples
-The [File picker sample](http://go.microsoft.com/fwlink/p/?linkid=234890) demonstrates how to respond to a [targetfilerequested](filesavepickerui_targetfilerequested.md) event handler, including how to get a deferral.
+The [File picker sample](https://go.microsoft.com/fwlink/p/?linkid=234890) demonstrates how to respond to a [targetfilerequested](filesavepickerui_targetfilerequested.md) event handler, including how to get a deferral.
 
 ```csharp
 

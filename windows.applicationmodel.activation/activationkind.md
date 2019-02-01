@@ -110,7 +110,7 @@ This app was launched by another app on a different device by using the DIAL pro
 This app was activated as a result of pairing a device.
 
 ### -field UserDataAccountsProvider:1014
-The app was launched to handle the user interface for account management. In circumstances where the system would have shown the default system user interface, it instead has invoked your app with the UserDataAccountProvider contract. The activation payload contains information about the type of operation being requested and all the information necessary to replicate the system-provided user interface. This activation kind is limited to 1st party apps. To use this field, you must add the **userDataAccountsProvider** capability in your app's package manifest. For more info see [App capability declarations](http://aka.ms/appcap). Introduced in Windows 10, version 1607 (10.0.14393).
+The app was launched to handle the user interface for account management. In circumstances where the system would have shown the default system user interface, it instead has invoked your app with the UserDataAccountProvider contract. The activation payload contains information about the type of operation being requested and all the information necessary to replicate the system-provided user interface. This activation kind is limited to 1st party apps. To use this field, you must add the **userDataAccountsProvider** capability in your app's package manifest. For more info see [App capability declarations](https://aka.ms/appcap). Introduced in Windows 10, version 1607 (10.0.14393).
 
 ### -field FilePickerExperience:1015
 Reserved for system use. Introduced in Windows 10, version 1607 (10.0.14393).

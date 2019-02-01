@@ -20,4 +20,4 @@ The identifier for the [MinDate](calendardatepicker_mindate.md) dependency prope
 ## -examples
 
 ## -see-also
-[MinDate](calendardatepicker_mindate.md), [Dependency properties overview](http://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e)
+[MinDate](calendardatepicker_mindate.md), [Dependency properties overview](https://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e)

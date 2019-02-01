@@ -35,4 +35,4 @@ Setting [IsSwipeEnabled](listviewbase_isswipeenabled.md) to **false** disables s
 ## -examples
 
 ## -see-also
-[AllowDrop](../windows.ui.xaml/uielement_allowdrop.md), [CanReorderItems](listviewbase_canreorderitems.md), [Drag and drop sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620634)
+[AllowDrop](../windows.ui.xaml/uielement_allowdrop.md), [CanReorderItems](listviewbase_canreorderitems.md), [Drag and drop sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620634)

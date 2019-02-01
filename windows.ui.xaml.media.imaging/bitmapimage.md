@@ -44,7 +44,7 @@ The [BitmapImage](bitmapimage.md) class represents an abstraction so that an ima
 
 ### BitmapImage and encoding
 
-The underlying codec support for image files is supplied by Windows Imaging Component (WIC)  API in Windows. For more info on specific image formats as documented for the codecs, see [Native WIC Codecs](http://msdn.microsoft.com/library/8d3e4b3a-fa39-475c-b177-61fc81e5ffcc). For more info on formats and how to use Uniform Resource Identifier (URI) to access image source files that come from app resources, see [Image and ImageBrush](http://msdn.microsoft.com/library/cea8780c-71a3-4168-a6e8-6361cdfb2faf).
+The underlying codec support for image files is supplied by Windows Imaging Component (WIC)  API in Windows. For more info on specific image formats as documented for the codecs, see [Native WIC Codecs](https://msdn.microsoft.com/library/8d3e4b3a-fa39-475c-b177-61fc81e5ffcc). For more info on formats and how to use Uniform Resource Identifier (URI) to access image source files that come from app resources, see [Image and ImageBrush](https://msdn.microsoft.com/library/cea8780c-71a3-4168-a6e8-6361cdfb2faf).
 
 The API for [Image](../windows.ui.xaml.controls/image.md), [BitmapImage](bitmapimage.md) and [BitmapSource](bitmapsource.md) doesn't include any dedicated methods for encoding and decoding of media formats. All of the encode and decode operations are built-in, and at most will surface aspects of encode or decode as part of event data for load events. If you want to do any special work with image encode or decode, which you might use if your app is doing image conversions or manipulation, you should use the API that are available in the [Windows.Graphics.Imaging](../windows.graphics.imaging/windows_graphics_imaging.md) namespace. These imaging API can be used by either UWP app using C++, C#, or Visual Basic or Windows app using JavaScript. These APIs are also supported by the Windows Imaging Component (WIC) component of Windows 8.
 
@@ -124,7 +124,7 @@ void playButton_Click(object sender, RoutedEventArgs e)
 }
 ```
 
-For more examples, see the [Animated GIF playback sample](http://go.microsoft.com/fwlink/p/?LinkId=624046).
+For more examples, see the [Animated GIF playback sample](https://go.microsoft.com/fwlink/p/?LinkId=624046).
 
 ## -examples
 
@@ -150,4 +150,4 @@ void Image_Loaded(object sender, RoutedEventArgs e)
 
 ## -see-also
 
-[Image](../windows.ui.xaml.controls/image.md), [BitmapSource](bitmapsource.md), [Image.Source](../windows.ui.xaml.controls/image_source.md), [ImageBrush.ImageSource](../windows.ui.xaml.media/imagebrush_imagesource.md), [Image and ImageBrush](http://msdn.microsoft.com/library/cea8780c-71a3-4168-a6e8-6361cdfb2faf), [Animated GIF playback (XAML) sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlAnimatedGif)
+[Image](../windows.ui.xaml.controls/image.md), [BitmapSource](bitmapsource.md), [Image.Source](../windows.ui.xaml.controls/image_source.md), [ImageBrush.ImageSource](../windows.ui.xaml.media/imagebrush_imagesource.md), [Image and ImageBrush](https://msdn.microsoft.com/library/cea8780c-71a3-4168-a6e8-6361cdfb2faf), [Animated GIF playback (XAML) sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlAnimatedGif)

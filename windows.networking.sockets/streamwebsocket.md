@@ -15,7 +15,7 @@ Supports network communication that allows reading and writing streams using a W
 
 ## -remarks
 
-The [StreamWebSocket](streamwebsocket.md) class provides a stream-based abstraction of the message-based [WebSocket protocol](http://go.microsoft.com/fwlink/p/?linkid=240293). This is useful for scenarios in which large files (such as photos or movies) need to be transferred. Using [StreamWebSocket](streamwebsocket.md) allows sections of a message to be read with each read operation, rather than requiring the entire message to be read in a single operation (as with [MessageWebSocket](messagewebsocket.md)).
+The [StreamWebSocket](streamwebsocket.md) class provides a stream-based abstraction of the message-based [WebSocket protocol](https://go.microsoft.com/fwlink/p/?linkid=240293). This is useful for scenarios in which large files (such as photos or movies) need to be transferred. Using [StreamWebSocket](streamwebsocket.md) allows sections of a message to be read with each read operation, rather than requiring the entire message to be read in a single operation (as with [MessageWebSocket](messagewebsocket.md)).
 
 [StreamWebSocket](streamwebsocket.md) only supports binary messages. For UTF-8 messages, [MessageWebSocket](messagewebsocket.md) must be used.
 
@@ -25,7 +25,7 @@ You must write code to handle exceptions when you call asynchronous methods on t
 
 The [Windows.Networking.Sockets](windows_networking_sockets.md) namespace has a convenient helper method and enumeration for handling errors when using WebSockets. This can be useful for handling specific network exceptions differently in your app. An app can also use the **HRESULT** from the exception on parameter validation errors to learn more detailed information on the error that caused the exception.
 
-For more information on possible exceptions and how to handle exceptions, see [Handling exceptions in network apps](http://msdn.microsoft.com/library/76fafcc9-c674-4cf8-baa0-2400638fae35).
+For more information on possible exceptions and how to handle exceptions, see [Handling exceptions in network apps](https://msdn.microsoft.com/library/76fafcc9-c674-4cf8-baa0-2400638fae35).
 
 ### Using StreamWebSocket on Windows Server 2012
 
@@ -39,7 +39,7 @@ The Media Foundation feature can be enabled on Windows Server 2012 or Windows S
 
 ## -see-also
 
-[WebSockets](/windows/uwp/networking/websockets?branch=live), [Handling exceptions in network apps](http://msdn.microsoft.com/library/76fafcc9-c674-4cf8-baa0-2400638fae35), [MessageWebSocket](messagewebsocket.md), [StreamWebSocketControl](streamwebsocketcontrol.md), [StreamWebSocketInformation](streamwebsocketinformation.md), [WebSocket sample](http://go.microsoft.com/fwlink/p/?LinkId=620623), [ControlChannelTrigger StreamWebSocket sample](http://go.microsoft.com/fwlink/p/?linkid=251232)
+[WebSockets](/windows/uwp/networking/websockets?branch=live), [Handling exceptions in network apps](https://msdn.microsoft.com/library/76fafcc9-c674-4cf8-baa0-2400638fae35), [MessageWebSocket](messagewebsocket.md), [StreamWebSocketControl](streamwebsocketcontrol.md), [StreamWebSocketInformation](streamwebsocketinformation.md), [WebSocket sample](https://go.microsoft.com/fwlink/p/?LinkId=620623), [ControlChannelTrigger StreamWebSocket sample](https://go.microsoft.com/fwlink/p/?linkid=251232)
 
 ## -capabilities
 

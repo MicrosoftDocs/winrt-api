@@ -39,4 +39,4 @@ The main reason you'd want more than one [PathFigure](pathfigure.md) is if you w
 ## -examples
 
 ## -see-also
-[PathFigure](pathfigure.md), [Path](../windows.ui.xaml.shapes/path.md), [IsClosed](pathfigure_isclosed.md), [Move and draw commands syntax](http://msdn.microsoft.com/library/7772bc3e-a631-46ff-9940-3dd5b9d0e0d9)
+[PathFigure](pathfigure.md), [Path](../windows.ui.xaml.shapes/path.md), [IsClosed](pathfigure_isclosed.md), [Move and draw commands syntax](https://msdn.microsoft.com/library/7772bc3e-a631-46ff-9940-3dd5b9d0e0d9)

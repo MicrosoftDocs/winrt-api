@@ -20,4 +20,4 @@ The identifier for the   [FirstOfMonthLabelFontFamily](calendarview_firstofmont
 ## -examples
 
 ## -see-also
-[FirstOfMonthLabelFontFamily](calendarview_firstofmonthlabelfontfamily.md), [Dependency properties overview](http://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e)
+[FirstOfMonthLabelFontFamily](calendarview_firstofmonthlabelfontfamily.md), [Dependency properties overview](https://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e)

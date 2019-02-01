@@ -35,7 +35,7 @@ The identity quaternion is (0, 0, 0, 1), where the quaternion values are listed 
 
 These quaternion values do not directly indicate an angle of rotation and an axis.
 
-For more information about quaternions, see [Quaternion]( https://go.microsoft.com/fwlink/p/?LinkId=730455), [Quaternions and spatial rotation](https://go.microsoft.com/fwlink/p/?LinkId=730456), and [Introducing the Quaternions](http://go.microsoft.com/fwlink/p/?LinkId=730457).
+For more information about quaternions, see [Quaternion]( https://go.microsoft.com/fwlink/p/?LinkId=730455), [Quaternions and spatial rotation](https://go.microsoft.com/fwlink/p/?LinkId=730456), and [Introducing the Quaternions](https://go.microsoft.com/fwlink/p/?LinkId=730457).
 
 ## -examples
 

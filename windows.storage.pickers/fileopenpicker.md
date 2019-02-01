@@ -19,7 +19,7 @@ To get started accessing files and folders file picker, see [Quickstart: Accessi
 
 ## -examples
 
-The [File picker sample](http://go.microsoft.com/fwlink/p/?LinkId=619994) demonstrates how to check whether the app is snapped, how to set file picker properties, and how to show a file picker so that the user can pick one file.
+The [File picker sample](https://go.microsoft.com/fwlink/p/?LinkId=619994) demonstrates how to check whether the app is snapped, how to set file picker properties, and how to show a file picker so that the user can pick one file.
 
 [!code-csharp[all_openpicker_checksnapped_showsingle](../windows.storage.pickers/code/FilePicker/CS/Scenario1.xaml.cs#Snippetall_openpicker_checksnapped_showsingle)]
 
@@ -36,4 +36,4 @@ The [File picker sample](http://go.microsoft.com/fwlink/p/?LinkId=619994) demons
 
 ## -see-also
 
-[File picker sample](http://go.microsoft.com/fwlink/p/?LinkId=619994), [Quickstart: Accessing files with File Pickers ](https://docs.microsoft.com/windows/uwp/files/quickstart-using-file-and-folder-pickers), [Blobs sample](http://go.microsoft.com/fwlink/p/?LinkId=620573)
+[File picker sample](https://go.microsoft.com/fwlink/p/?LinkId=619994), [Quickstart: Accessing files with File Pickers ](https://docs.microsoft.com/windows/uwp/files/quickstart-using-file-and-folder-pickers), [Blobs sample](https://go.microsoft.com/fwlink/p/?LinkId=620573)

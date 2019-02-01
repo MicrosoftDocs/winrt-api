@@ -29,7 +29,7 @@ Represents a rich text editing control that supports formatted text, hyperlinks,
 
 You use the [Document](richeditbox_document.md) property of the [RichEditBox](richeditbox.md) to get its content. The content of a [RichEditBox](richeditbox.md) is a [Windows.UI.Text.ITextDocument](../windows.ui.text/itextdocument.md) object, which gives you access to the underlying [Text Object Model](https://msdn.microsoft.com/library/windows/desktop/bb787607.aspx) APIs. See the [Windows.UI.Text](../windows.ui.text/windows_ui_text.md) namespace for APIs that you can use to work with the text document.
 
-For more info and examples, see the [RichEditBox control guide](http://msdn.microsoft.com/library/4afc0dfa-3b89-434d-9f86-4309ccff7839).
+For more info and examples, see the [RichEditBox control guide](https://msdn.microsoft.com/library/4afc0dfa-3b89-434d-9f86-4309ccff7839).
 
 ### Pen input
 
@@ -239,4 +239,4 @@ private void UnderlineButton_Click(object sender, RoutedEventArgs e)
 
 ## -see-also
 
-[Control](control.md), [RichEditBox styles and templates](http://msdn.microsoft.com/library/12fc81ba-c638-4b41-8aa4-7c0fb5a43f97), [RichEditBox overview](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/rich-edit-box), [Touch keyboard text input sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=690716)
+[Control](control.md), [RichEditBox styles and templates](https://msdn.microsoft.com/library/12fc81ba-c638-4b41-8aa4-7c0fb5a43f97), [RichEditBox overview](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/rich-edit-box), [Touch keyboard text input sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=690716)

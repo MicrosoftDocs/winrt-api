@@ -28,7 +28,7 @@ You typically capture the pointer because you want the current pointer action to
 
 The pointer capture state and generating the events that are related to pointer capture isn't entirely up to app code. If the user releases the pointer, that generates a [PointerReleased](uielement_pointerreleased.md) event, and pointer captures associated with that pointer are lost. This also fires [PointerCaptureLost](uielement_pointercapturelost.md) on the original capturing element.
 
-In most cases the pointer capture will be released automatically when the user completes an input action that releases the previous pointer capture (lifting a touch point, releasing the left mouse button, taking the stylus out of range). Another condition that might release capture is any action that also fires a [PointerCanceled](uielement_pointercanceled.md) event. Your app can typically rely on the capture-release behavior associated with user input actions, without having to specifically cancel a pointer capture with [ReleasePointerCapture](uielement_releasepointercapture_962192786.md) or [ReleasePointerCaptures](uielement_releasepointercaptures_190109337.md). For more info, see [Mouse interactions](http://msdn.microsoft.com/library/c8a158ef-70a9-4ba2-a270-7d08125700ac).
+In most cases the pointer capture will be released automatically when the user completes an input action that releases the previous pointer capture (lifting a touch point, releasing the left mouse button, taking the stylus out of range). Another condition that might release capture is any action that also fires a [PointerCanceled](uielement_pointercanceled.md) event. Your app can typically rely on the capture-release behavior associated with user input actions, without having to specifically cancel a pointer capture with [ReleasePointerCapture](uielement_releasepointercapture_962192786.md) or [ReleasePointerCaptures](uielement_releasepointercaptures_190109337.md). For more info, see [Mouse interactions](https://msdn.microsoft.com/library/c8a158ef-70a9-4ba2-a270-7d08125700ac).
 
 The [CapturePointer](uielement_capturepointer_916768934.md) method will return **false** if the pointer was already captured.
 
@@ -52,5 +52,5 @@ This example shows calling [CapturePointer](uielement_capturepointer_916768934.m
 [!code-vb[Scenario2Code](../windows.ui.xaml/code/input/vbnet/Scenario2.xaml.vb#SnippetScenario2Code)]
 
 ## -see-also
-[Pointer](../windows.ui.xaml.input/pointer.md), [ReleasePointerCapture](uielement_releasepointercapture_962192786.md), [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input), [Input sample](http://go.microsoft.com/fwlink/p/?linkid=226855)
+[Pointer](../windows.ui.xaml.input/pointer.md), [ReleasePointerCapture](uielement_releasepointercapture_962192786.md), [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input), [Input sample](https://go.microsoft.com/fwlink/p/?linkid=226855)
 soft.com/fwlink/p/?linkid=226855)

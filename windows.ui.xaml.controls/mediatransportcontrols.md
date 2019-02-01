@@ -28,7 +28,7 @@ You can use the [MediaTransportControls](mediatransportcontrols.md) to make it e
 <img alt="Default media transport controls" src="images/controls/MediaTransportControlsBasic.png" />
 
 > [!NOTE]
-> You can also integrate [MediaElement](mediaelement.md) with the system media transport controls. The system transport controls are the controls that pop up when hardware media keys are pressed, such as the media buttons on keyboards. If the user presses the pause key on a keyboard and your app supports the [SystemMediaTransportControls](../windows.media/systemmediatransportcontrols.md), your app is notified and you can take the appropriate action. For more info, see [System Media Transport Controls](http://msdn.microsoft.com/library/efcf84d0-2f4c-454d-97da-249e9eaa806c).
+> You can also integrate [MediaElement](mediaelement.md) with the system media transport controls. The system transport controls are the controls that pop up when hardware media keys are pressed, such as the media buttons on keyboards. If the user presses the pause key on a keyboard and your app supports the [SystemMediaTransportControls](../windows.media/systemmediatransportcontrols.md), your app is notified and you can take the appropriate action. For more info, see [System Media Transport Controls](https://msdn.microsoft.com/library/efcf84d0-2f4c-454d-97da-249e9eaa806c).
 
 ### Adding basic transport controls to a MediaElement
 
@@ -120,7 +120,7 @@ This table shows the built-in transport controls with their associated propertie
 
 There are no properties to hide, show, enable, or disable the play/pause button, closed caption button, audio track selection button, or the cast button. The play/pause and cast buttons are always visible and enabled. The closed caption button is visible whenever closed caption tracks are available, and the audio track selection button is visible whenever multiple audio tracks are available.
 
-To remove these buttons, or to add custom buttons, you must re-template the [MediaTransportControls](mediatransportcontrols.md). If you re-template the control, you can also specify the order in which buttons drop out at different screen sizes. For more info, see [Create custom transport controls](http://msdn.microsoft.com/library/6643a108-a6eb-42bc-b800-22eabd7b731b) and the [Media transport controls sample](http://go.microsoft.com/fwlink/p/?LinkId=620023&amp;amp;clcid=0x409).
+To remove these buttons, or to add custom buttons, you must re-template the [MediaTransportControls](mediatransportcontrols.md). If you re-template the control, you can also specify the order in which buttons drop out at different screen sizes. For more info, see [Create custom transport controls](https://msdn.microsoft.com/library/6643a108-a6eb-42bc-b800-22eabd7b731b) and the [Media transport controls sample](https://go.microsoft.com/fwlink/p/?LinkId=620023&amp;amp;clcid=0x409).
 
 Here's how to configure transport control buttons in XAML. In this example, the aspect ratio button is hidden and disabled, and the playback rate button is shown and enabled.
 
@@ -191,4 +191,4 @@ In the compact mode, the [Slider](slider.md) and [CommandBar](commandbar.md) are
 
 ## -see-also
 
-[Control](control.md), [Create custom transport controls](http://msdn.microsoft.com/library/6643a108-a6eb-42bc-b800-22eabd7b731b), [Media transport controls sample](http://go.microsoft.com/fwlink/p/?LinkId=620023&amp;amp;clcid=0x409), [Video playback sample](http://go.microsoft.com/fwlink/p/?LinkId=620020&amp;amp;clcid=0x409), [Media transport controls sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620023)
+[Control](control.md), [Create custom transport controls](https://msdn.microsoft.com/library/6643a108-a6eb-42bc-b800-22eabd7b731b), [Media transport controls sample](https://go.microsoft.com/fwlink/p/?LinkId=620023&amp;amp;clcid=0x409), [Video playback sample](https://go.microsoft.com/fwlink/p/?LinkId=620020&amp;amp;clcid=0x409), [Media transport controls sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620023)

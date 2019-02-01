@@ -24,7 +24,7 @@ All [Application](../windows.ui.xaml/application.md) overrides involved in an ac
 
 Avoid performing tasks during launch if they could significantly increase the time required to launch your app. Instead, you can trigger additional loading tasks by listening for the [SplashScreen.Dismissed](splashscreen_dismissed.md) event.
 
-The activation deferral object should not be used to complete complex tasks during activation. Any unhandled errors or exceptions that occur during activation (including deferred activation) will cause the app to crash. If you need to perform network calls or process a number of additional files during activation, consider launching your app to an extended splash screen and then performing these operations. For more information, see [How to display a splash screen for an extended time](http://msdn.microsoft.com/library/fd10a9ff-4e09-471f-886e-8b8246dc12de).
+The activation deferral object should not be used to complete complex tasks during activation. Any unhandled errors or exceptions that occur during activation (including deferred activation) will cause the app to crash. If you need to perform network calls or process a number of additional files during activation, consider launching your app to an extended splash screen and then performing these operations. For more information, see [How to display a splash screen for an extended time](https://msdn.microsoft.com/library/fd10a9ff-4e09-471f-886e-8b8246dc12de).
 
 > [!IMPORTANT]
 > Apps that require an excessive amount of time to launch may be terminated by the system.
@@ -44,4 +44,4 @@ If programming with C#, VB, or C++, launch is complete when you activate an app 
 ## -examples
 
 ## -see-also
-[Handle app activation](http://msdn.microsoft.com/library/da9a6a43-f09d-4512-a2ab-9b6132431007), [Windows.UI.Core.CoreApplicationView.Activated](../windows.applicationmodel.core/coreapplicationview_activated.md), [Application](../windows.ui.xaml/application.md), [OnLaunched](../windows.ui.xaml/application_onlaunched_859642554.md)
+[Handle app activation](https://msdn.microsoft.com/library/da9a6a43-f09d-4512-a2ab-9b6132431007), [Windows.UI.Core.CoreApplicationView.Activated](../windows.applicationmodel.core/coreapplicationview_activated.md), [Application](../windows.ui.xaml/application.md), [OnLaunched](../windows.ui.xaml/application_onlaunched_859642554.md)

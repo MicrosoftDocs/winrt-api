@@ -24,7 +24,7 @@ Some devices, such as Xbox, permit multiple users to sign in for a single intera
 
 > In Windows 10 and later, Universal Windows Platform (UWP) app do not have access to user information without explicit user consent (unlike Windows 8, where permission is granted by default).
 
-Universal Windows Platform (UWP) app that access user information must declare the [userAccountInformation capability](http://msdn.microsoft.com/library/4c8cea15-094d-4d4e-a1c1-5db78cb78612) ([Windows.System.UserDeviceAssociation.FindUserFromDeviceId](../windows.system/userdeviceassociation_finduserfromdeviceid_1383143459.md), [Windows.System.User.FindAllAsync](../windows.system/user_findallasync_1333355945.md) and [User.GetPropertiesAsync](../windows.system/user_getpropertiesasync_1952817514.md) can be used to get the data).
+Universal Windows Platform (UWP) app that access user information must declare the [userAccountInformation capability](https://msdn.microsoft.com/library/4c8cea15-094d-4d4e-a1c1-5db78cb78612) ([Windows.System.UserDeviceAssociation.FindUserFromDeviceId](../windows.system/userdeviceassociation_finduserfromdeviceid_1383143459.md), [Windows.System.User.FindAllAsync](../windows.system/user_findallasync_1333355945.md) and [User.GetPropertiesAsync](../windows.system/user_getpropertiesasync_1952817514.md) can be used to get the data).
 
 When this capability is declared, users installing the app are prompted to allow access to their information. If the user permits the app to access the information, the app appears listed in the **Privacy** page of the Windows 10 Settings app (**Settings &gt; Privacy &gt; Account info**). 
 

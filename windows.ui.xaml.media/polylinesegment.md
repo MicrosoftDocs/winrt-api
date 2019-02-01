@@ -30,5 +30,5 @@ This example creates a [PathGeometry](pathgeometry.md) with two [PathFigure](pat
 <img src="Images/PolyLineSegment_curves.gif" alt="Various line shapes created by the example" />
 
 ## -see-also
-[PathSegment](pathsegment.md), [PathFigure](pathfigure.md), [PathGeometry](pathgeometry.md), [Path](../windows.ui.xaml.shapes/path.md), [XAML vector-based drawing sample](http://go.microsoft.com/fwlink/p/?linkid=226866), [Draw shapes](http://msdn.microsoft.com/library/54cc0bd4-1961-44d7-ab40-6e8b58e42d65)
+[PathSegment](pathsegment.md), [PathFigure](pathfigure.md), [PathGeometry](pathgeometry.md), [Path](../windows.ui.xaml.shapes/path.md), [XAML vector-based drawing sample](https://go.microsoft.com/fwlink/p/?linkid=226866), [Draw shapes](https://msdn.microsoft.com/library/54cc0bd4-1961-44d7-ab40-6e8b58e42d65)
 s.drawing_shapes)

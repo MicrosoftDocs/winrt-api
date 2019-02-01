@@ -34,7 +34,7 @@ The [BitmapDecoder](bitmapdecoder.md) class implements [IBitmapFrame](ibitmapfra
 
 ## -examples
 
-Here's a partial example of creating a decoder object. This example assumes you selected a file with [Windows.Storage.Pickers.FileOpenPicker](../windows.storage.pickers/fileopenpicker.md). For full instructions on selecting a file, creating an decoder, and decoding an image see [Imaging](http://msdn.microsoft.com/library/3fd2aa71-ef67-47b2-9332-3ffa5d3703ea)
+Here's a partial example of creating a decoder object. This example assumes you selected a file with [Windows.Storage.Pickers.FileOpenPicker](../windows.storage.pickers/fileopenpicker.md). For full instructions on selecting a file, creating an decoder, and decoding an image see [Imaging](https://msdn.microsoft.com/library/3fd2aa71-ef67-47b2-9332-3ffa5d3703ea)
 
 ```javascript
 file.openAsync(Windows.Storage.FileAccessMode.readWrite).then(function(_stream) {
@@ -49,4 +49,4 @@ file.openAsync(Windows.Storage.FileAccessMode.readWrite).then(function(_stream) 
 
 ## -see-also
 
-[Animated GIF playback (XAML) sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=624046), [OCR sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620579), [Camera resolution sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=624252), [Basic camera app sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=619479), [Video stabilization sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620519), [Camera face detection sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=619486), [Manual camera controls sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=627611), [High dynamic range sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620517), [Camera Advanced Capture sample](https://github.com/Microsoft/Windows-universal-samples/tree/dev/Samples/CameraAdvancedCapture)
+[Animated GIF playback (XAML) sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=624046), [OCR sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620579), [Camera resolution sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=624252), [Basic camera app sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=619479), [Video stabilization sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620519), [Camera face detection sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=619486), [Manual camera controls sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=627611), [High dynamic range sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620517), [Camera Advanced Capture sample](https://github.com/Microsoft/Windows-universal-samples/tree/dev/Samples/CameraAdvancedCapture)

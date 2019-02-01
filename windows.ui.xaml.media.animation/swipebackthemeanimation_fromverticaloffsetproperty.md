@@ -20,4 +20,4 @@ The identifier for the [FromHorizontalOffset](swipebackthemeanimation_fromhorizo
 ## -examples
 
 ## -see-also
-[Animating swipe gestures](http://msdn.microsoft.com/library/fd1921de-ae4e-4f8e-b917-3e8a33810f23)
+[Animating swipe gestures](https://msdn.microsoft.com/library/fd1921de-ae4e-4f8e-b917-3e8a33810f23)

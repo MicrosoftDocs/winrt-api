@@ -24,4 +24,4 @@ The zoom level range for the tiles.
 ## -examples
 
 ## -see-also
-[MapTileSource(MapTileDataSource)](maptilesource_maptilesource_2023217331.md), [MapTileSource(MapTileDataSource, MapZoomLevelRange, GeoboundingBox)](maptilesource_maptilesource_904316957.md), [MapTileSource(MapTileDataSource, MapZoomLevelRange, GeoboundingBox, Int32)](maptilesource_maptilesource_270987811.md), [Overlay tiled images on a map](http://msdn.microsoft.com/library/066bd6e2-c22b-4f5b-aa94-5d6c86a09bdf)
+[MapTileSource(MapTileDataSource)](maptilesource_maptilesource_2023217331.md), [MapTileSource(MapTileDataSource, MapZoomLevelRange, GeoboundingBox)](maptilesource_maptilesource_904316957.md), [MapTileSource(MapTileDataSource, MapZoomLevelRange, GeoboundingBox, Int32)](maptilesource_maptilesource_270987811.md), [Overlay tiled images on a map](https://msdn.microsoft.com/library/066bd6e2-c22b-4f5b-aa94-5d6c86a09bdf)

@@ -15,4 +15,4 @@ Gets info about smart card readers and smart cards; configures physical smart ca
 
 ## -see-also
 
-[Create an NFC Smart Card app](http://msdn.microsoft.com/library/26834a51-512b-485b-84c8-abf713787588), [Smart cards sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620604)
+[Create an NFC Smart Card app](https://msdn.microsoft.com/library/26834a51-512b-485b-84c8-abf713787588), [Smart cards sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620604)

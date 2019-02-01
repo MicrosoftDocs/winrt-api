@@ -30,4 +30,4 @@ An object that manages the asynchronous creation of a new [BitmapEncoder](bitmap
 ## -examples
 
 ## -see-also
-[BitmapPropertySet](bitmappropertyset.md), [BitmapTypedValue](bitmaptypedvalue.md), [Imaging](http://msdn.microsoft.com/library/3fd2aa71-ef67-47b2-9332-3ffa5d3703ea), [CreateAsync(Guid, IRandomAccessStream)](bitmapencoder_createasync_1315566040.md)
+[BitmapPropertySet](bitmappropertyset.md), [BitmapTypedValue](bitmaptypedvalue.md), [Imaging](https://msdn.microsoft.com/library/3fd2aa71-ef67-47b2-9332-3ffa5d3703ea), [CreateAsync(Guid, IRandomAccessStream)](bitmapencoder_createasync_1315566040.md)

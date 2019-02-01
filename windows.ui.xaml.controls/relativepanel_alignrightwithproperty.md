@@ -23,4 +23,4 @@ To access the [RelativePanel.AlignRightWith](relativepanel_alignrightwith.md) at
 ## -examples
 
 ## -see-also
-[RelativePanel.AlignRightWith](relativepanel_alignrightwith.md), [Attached properties overview](http://msdn.microsoft.com/library/098c1de0-d640-48b1-9961-d0adf33266e2)
+[RelativePanel.AlignRightWith](relativepanel_alignrightwith.md), [Attached properties overview](https://msdn.microsoft.com/library/098c1de0-d640-48b1-9961-d0adf33266e2)

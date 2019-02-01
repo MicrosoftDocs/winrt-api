@@ -22,4 +22,4 @@ You describe the color composition of a [LinearGradientBrush](lineargradientbrus
 ## -examples
 
 ## -see-also
-[Brush](brush.md), [LinearGradientBrush](lineargradientbrush.md), [GradientStop](gradientstop.md), [Use brushes](http://msdn.microsoft.com/library/02141f86-355e-4046-86ea-2a89d615b7db)
+[Brush](brush.md), [LinearGradientBrush](lineargradientbrush.md), [GradientStop](gradientstop.md), [Use brushes](https://msdn.microsoft.com/library/02141f86-355e-4046-86ea-2a89d615b7db)

@@ -67,5 +67,5 @@ The operation is not supported.
 ## -examples
 
 ## -see-also
-[Create an NFC Smart Card app](http://msdn.microsoft.com/library/26834a51-512b-485b-84c8-abf713787588)
+[Create an NFC Smart Card app](https://msdn.microsoft.com/library/26834a51-512b-485b-84c8-abf713787588)
 

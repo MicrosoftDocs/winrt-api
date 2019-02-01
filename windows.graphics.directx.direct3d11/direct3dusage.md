@@ -10,7 +10,7 @@ public enum Windows.Graphics.DirectX.Direct3D11.Direct3DUsage : int
 # Direct3DUsage
 
 ## -description
-A Windows Runtime projection of the [D3D11_USAGE](http://msdn.microsoft.com/library/251d462e-964e-42db-8554-dba8f5a9b1ef) enumeration. Identifies expected resource use during rendering. The usage directly reflects whether a resource is accessible by the CPU and/or the graphics processing unit (GPU).
+A Windows Runtime projection of the [D3D11_USAGE](https://msdn.microsoft.com/library/251d462e-964e-42db-8554-dba8f5a9b1ef) enumeration. Identifies expected resource use during rendering. The usage directly reflects whether a resource is accessible by the CPU and/or the graphics processing unit (GPU).
 
 ## -enum-fields
 ### -field Default:0

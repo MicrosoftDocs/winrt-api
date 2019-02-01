@@ -37,4 +37,4 @@ You cannot extract the matrix-specific information from the nonmatrix transforma
 ## -examples
 
 ## -see-also
-[DependencyObject](../windows.ui.xaml/dependencyobject.md), [Transform](transform.md), [XAML two-dimensional transforms sample](http://go.microsoft.com/fwlink/p/?linkid=226868)
+[DependencyObject](../windows.ui.xaml/dependencyobject.md), [Transform](transform.md), [XAML two-dimensional transforms sample](https://go.microsoft.com/fwlink/p/?linkid=226868)

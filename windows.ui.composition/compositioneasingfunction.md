@@ -19,4 +19,4 @@ The [CompositionEasingFunction](compositioneasingfunction.md) class is the base 
 ## -examples
 
 ## -see-also
-[Composition Animations Overview](http://go.microsoft.com/fwlink/p/?LinkID=692060), [CompositionObject](compositionobject.md), [IClosable](../windows.foundation/iclosable.md)
+[Composition Animations Overview](https://go.microsoft.com/fwlink/p/?LinkID=692060), [CompositionObject](compositionobject.md), [IClosable](../windows.foundation/iclosable.md)

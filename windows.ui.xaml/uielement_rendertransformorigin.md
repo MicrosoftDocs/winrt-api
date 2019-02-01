@@ -71,4 +71,4 @@ This XAML example shows how to set [RenderTransformOrigin](uielement_rendertrans
 
 
 ## -see-also
-[TranslateTransform](../windows.ui.xaml.media/translatetransform.md), [3-D effects for  using XAML](http://msdn.microsoft.com/library/abcbbdb6-02a5-4e4e-a8dc-ceacedb91913), [XAML two-dimensional transforms sample](http://go.microsoft.com/fwlink/p/?linkid=226868)
+[TranslateTransform](../windows.ui.xaml.media/translatetransform.md), [3-D effects for  using XAML](https://msdn.microsoft.com/library/abcbbdb6-02a5-4e4e-a8dc-ceacedb91913), [XAML two-dimensional transforms sample](https://go.microsoft.com/fwlink/p/?linkid=226868)

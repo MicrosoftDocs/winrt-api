@@ -25,4 +25,4 @@ This method is a utility method for the property system, and isn't used in most 
 ## -examples
 
 ## -see-also
-[MediaTransportControlsHelper.DropoutOrder](mediatransportcontrolshelper_dropoutorder.md), [Attached properties overview](http://msdn.microsoft.com/library/098c1de0-d640-48b1-9961-d0adf33266e2)
+[MediaTransportControlsHelper.DropoutOrder](mediatransportcontrolshelper_dropoutorder.md), [Attached properties overview](https://msdn.microsoft.com/library/098c1de0-d640-48b1-9961-d0adf33266e2)

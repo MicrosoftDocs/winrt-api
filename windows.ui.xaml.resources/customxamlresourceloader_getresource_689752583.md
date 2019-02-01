@@ -29,7 +29,7 @@ The type of the property that serves as the key, with type represented as a stri
 The retrieved resource.
 
 ## -remarks
-This method will be called by the Windows Runtime XAML parser whenever it encounters a [{CustomResource} markup extension](http://msdn.microsoft.com/library/3a59a8de-e805-4f04-b9d9-a91e053f3642) usage in markup. The *resourceId* comes from the default *key* markup extension argument to [{CustomResource} markup extension](http://msdn.microsoft.com/library/3a59a8de-e805-4f04-b9d9-a91e053f3642), and the other input parameters come from context, such as which property the usage is applied to.
+This method will be called by the Windows Runtime XAML parser whenever it encounters a [{CustomResource} markup extension](https://msdn.microsoft.com/library/3a59a8de-e805-4f04-b9d9-a91e053f3642) usage in markup. The *resourceId* comes from the default *key* markup extension argument to [{CustomResource} markup extension](https://msdn.microsoft.com/library/3a59a8de-e805-4f04-b9d9-a91e053f3642), and the other input parameters come from context, such as which property the usage is applied to.
 
 ## -examples
 

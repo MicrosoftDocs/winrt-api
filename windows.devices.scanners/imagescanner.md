@@ -17,4 +17,4 @@ Represents the properties of images to scan.
 ## -examples
 
 ## -see-also
-[Scan Sample](http://go.microsoft.com/fwlink/p/?LinkId=301980)
+[Scan Sample](https://go.microsoft.com/fwlink/p/?LinkId=301980)

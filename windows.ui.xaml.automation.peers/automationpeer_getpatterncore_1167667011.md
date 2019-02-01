@@ -22,7 +22,7 @@ The object that implements the pattern interface; **null** if the peer does not 
 ## -remarks
 The standard implementation at the [AutomationPeer](automationpeer.md) level returns **null**, because the basic peer class doesn't support any patterns. The majority of existing Windows Runtime peer classes override this method to report the patterns that a particular peer supports.
 
-Overriding this method to return the implementation of patterns that your peer class supports is one of the most common scenarios for implementing an automation peer. You can see sample code for this in the [XAML accessibility sample](http://go.microsoft.com/fwlink/p/?linkid=238570) (Scenario 3). You should also read the [Custom automation peers](http://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4) topic.
+Overriding this method to return the implementation of patterns that your peer class supports is one of the most common scenarios for implementing an automation peer. You can see sample code for this in the [XAML accessibility sample](https://go.microsoft.com/fwlink/p/?linkid=238570) (Scenario 3). You should also read the [Custom automation peers](https://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4) topic.
 
 
 <!--The following remark is relevant for Windows 8 > 8.1 migration. See WBB 466373-->
@@ -37,4 +37,4 @@ Apps that were compiled for Windows 8 but running on Windows 8.1 continue to u
 ## -examples
 
 ## -see-also
-[FrameworkElementAutomationPeer](frameworkelementautomationpeer.md), [Custom automation peers](http://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4), [Control patterns and interfaces](http://msdn.microsoft.com/library/2091883c-5d0c-44ed-936a-709022926a42), [Accessibility](http://msdn.microsoft.com/library/c89d79c2-b830-493d-b020-f3ff8eb5ffdd), [XAML accessibility sample](http://go.microsoft.com/fwlink/p/?linkid=238570)
+[FrameworkElementAutomationPeer](frameworkelementautomationpeer.md), [Custom automation peers](https://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4), [Control patterns and interfaces](https://msdn.microsoft.com/library/2091883c-5d0c-44ed-936a-709022926a42), [Accessibility](https://msdn.microsoft.com/library/c89d79c2-b830-493d-b020-f3ff8eb5ffdd), [XAML accessibility sample](https://go.microsoft.com/fwlink/p/?linkid=238570)

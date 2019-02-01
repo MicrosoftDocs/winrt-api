@@ -20,7 +20,7 @@ Updates navigational guidance, using the specified geographic location.
 The user's current location.
 
 ## -remarks
-To find the user's current location, use the [Geolocator](../windows.devices.geolocation/geolocator.md) object in the [Windows.Devices.Geolocation](../windows.devices.geolocation/windows_devices_geolocation.md) namespace. For more information, see [Get current location](http://msdn.microsoft.com/library/24dc9a41-8cc1-48b0-bc6d-24bf571afcc8).
+To find the user's current location, use the [Geolocator](../windows.devices.geolocation/geolocator.md) object in the [Windows.Devices.Geolocation](../windows.devices.geolocation/windows_devices_geolocation.md) namespace. For more information, see [Get current location](https://msdn.microsoft.com/library/24dc9a41-8cc1-48b0-bc6d-24bf571afcc8).
 
 ## -examples
 

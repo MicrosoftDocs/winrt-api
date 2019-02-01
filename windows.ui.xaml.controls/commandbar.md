@@ -89,7 +89,7 @@ After opening the [CommandBar](commandbar.md), if the user interacts with the ap
 
 ### Placement
 
-You can place a [CommandBar](commandbar.md) inline with your app content, anywhere in your XAML. If the [CommandBar](commandbar.md) must remain visible to a user when the touch keyboard, or Soft Input Panel (SIP), appears then you can assign it to the [BottomAppBar](page_bottomappbar.md) property of a [Page](page.md) and it will move to remain visible when the Soft Input Panel (SIP) is present. Otherwise, you should place it inline and positioned relative to your app content. Where you place the [CommandBar](commandbar.md) will influence things like whether you make it sticky, or use the minimal mode when it's closed. For more info and guidance, see [Guidelines for command bars](http://msdn.microsoft.com/library/e39f876e-347c-40c9-a89c-c8c1bc623b2a).
+You can place a [CommandBar](commandbar.md) inline with your app content, anywhere in your XAML. If the [CommandBar](commandbar.md) must remain visible to a user when the touch keyboard, or Soft Input Panel (SIP), appears then you can assign it to the [BottomAppBar](page_bottomappbar.md) property of a [Page](page.md) and it will move to remain visible when the Soft Input Panel (SIP) is present. Otherwise, you should place it inline and positioned relative to your app content. Where you place the [CommandBar](commandbar.md) will influence things like whether you make it sticky, or use the minimal mode when it's closed. For more info and guidance, see [Guidelines for command bars](https://msdn.microsoft.com/library/e39f876e-347c-40c9-a89c-c8c1bc623b2a).
 
 ### Control style and template
 
@@ -167,4 +167,4 @@ This example creates the command bar shown in Remarks.
 
 ## -see-also
 
-[Guidelines for command bars](https://docs.microsoft.com/windows/uwp/controls-and-patterns/app-bars), [CommandBar styles and templates](http://msdn.microsoft.com/library/9320d248-1388-4b46-8065-10d4f76976aa), [Commanding sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620019)
+[Guidelines for command bars](https://docs.microsoft.com/windows/uwp/controls-and-patterns/app-bars), [CommandBar styles and templates](https://msdn.microsoft.com/library/9320d248-1388-4b46-8065-10d4f76976aa), [Commanding sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620019)

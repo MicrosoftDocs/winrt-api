@@ -15,7 +15,7 @@ Exposes [FrameworkElement](../windows.ui.xaml/frameworkelement.md) derived types
 ## -remarks
 There is no "ControlAutomationPeer" class. [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) serves as implementation for all basic [Control](../windows.ui.xaml.controls/control.md) class scenarios that involve Microsoft UI Automation. This includes behavior that does not necessarily appear as a public API exposure, such as the practical implementations of many of the **Core** methods from [AutomationPeer](automationpeer.md).
 
-[FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) includes extensive base implementation of peer behavior that other peers can use to report information that comes from owner classes at the [UIElement](../windows.ui.xaml/uielement.md) and [FrameworkElement](../windows.ui.xaml/frameworkelement.md) level. For more info, see the "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](http://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4).
+[FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) includes extensive base implementation of peer behavior that other peers can use to report information that comes from owner classes at the [UIElement](../windows.ui.xaml/uielement.md) and [FrameworkElement](../windows.ui.xaml/frameworkelement.md) level. For more info, see the "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](https://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4).
 <!--Maybe eventually also put this info in the Core methods, because it is overriders that most want to know the specifics of each such behavior whereas general consumers might want big picture or the semi client perspective you get from the non Core descs-->
 
 In addition to the **Core** overrides, [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) has two static utility methods that are useful for getting a peer handle from within control code, or for generating items peers from an item container peer for Microsoft UI Automation support. These are:
@@ -63,7 +63,7 @@ If you have a need to define a custom automation peer and can't identify a more 
 + [ToggleSwitchAutomationPeer](toggleswitchautomationpeer.md)
 
 ## -examples
-This example shows the basic subclass requirements for deriving a peer from [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) and supporting at least one control pattern. This code is an excerpt from the [XAML accessibility sample](http://go.microsoft.com/fwlink/p/?linkid=238570).
+This example shows the basic subclass requirements for deriving a peer from [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) and supporting at least one control pattern. This code is an excerpt from the [XAML accessibility sample](https://go.microsoft.com/fwlink/p/?linkid=238570).
 
 ```csharp
         public class MediaContainerAP : FrameworkElementAutomationPeer, IRangeValueProvider, IToggleProvider
@@ -246,4 +246,4 @@ End Class
 ```
 
 ## -see-also
-[FrameworkElement](../windows.ui.xaml/frameworkelement.md), [Custom automation peers](http://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4), [AutomationPeer](automationpeer.md), [XAML accessibility sample](http://go.microsoft.com/fwlink/p/?linkid=238570)
+[FrameworkElement](../windows.ui.xaml/frameworkelement.md), [Custom automation peers](https://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4), [AutomationPeer](automationpeer.md), [XAML accessibility sample](https://go.microsoft.com/fwlink/p/?linkid=238570)

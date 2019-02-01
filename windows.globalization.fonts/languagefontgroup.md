@@ -24,7 +24,7 @@ The weight/style/stretch attributes are significant for some usage cases but not
 For some languages and scripts, the [LanguageFontGroup](languagefontgroup.md) may not provide a font recommendation for every usage case. For instance, fixed-width fonts are not provided in Windows for every script. See the remarks for each [LanguageFontGroup](languagefontgroup.md) property for additional information.
 
 > [!NOTE]
-> If your app passes language tags used in this class to any [National Language Support](http://msdn.microsoft.com/library/7a548074-0782-45e1-8051-80c3b9d81885) functions, it must first convert the tags by calling [ResolveLocaleName](http://msdn.microsoft.com/library/99264b22-3fb5-47e2-b0b9-42a6768e67c1).
+> If your app passes language tags used in this class to any [National Language Support](https://msdn.microsoft.com/library/7a548074-0782-45e1-8051-80c3b9d81885) functions, it must first convert the tags by calling [ResolveLocaleName](https://msdn.microsoft.com/library/99264b22-3fb5-47e2-b0b9-42a6768e67c1).
 
 **Beginning in :** The [LanguageFontGroup](languagefontgroup.md) class returns font group data to match the target operating system for which an app was developed. Therefore, if you update your Windows 8 app to Windows 8.1, the fonts used in your app may change, and you may need to make adjustments to your UI layout.
 
@@ -62,4 +62,4 @@ var modernDocumentFontScaleFactor = modernDocumentFont.ScaleFactor;           //
 
 ## -see-also
 
-[Language font mapping sample](http://go.microsoft.com/fwlink/p/?linkid=231603), [Language font mapping sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620559)
+[Language font mapping sample](https://go.microsoft.com/fwlink/p/?linkid=231603), [Language font mapping sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620559)

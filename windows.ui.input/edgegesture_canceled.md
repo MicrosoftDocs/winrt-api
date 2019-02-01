@@ -21,4 +21,4 @@ Cancelling the action causes the UI that is being summoned or dismissed to anima
 ## -examples
 
 ## -see-also
-[Edge gesture invocation sample](http://go.microsoft.com/fwlink/p/?linkid=242153)
+[Edge gesture invocation sample](https://go.microsoft.com/fwlink/p/?linkid=242153)

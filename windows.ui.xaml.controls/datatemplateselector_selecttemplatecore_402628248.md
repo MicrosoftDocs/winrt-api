@@ -28,4 +28,4 @@ If your [ItemsControl.ItemsPanel](itemscontrol_itemspanel.md) is an [ItemsStackP
 ## -examples
 
 ## -see-also
-[DataTemplate](../windows.ui.xaml/datatemplate.md), [SelectTemplateCore(Object, DependencyObject)](datatemplateselector_selecttemplatecore_711611086.md), [Adding ListView and GridView controls](http://msdn.microsoft.com/library/ede8164f-ad0f-4249-b5ab-6f46ca65754a)
+[DataTemplate](../windows.ui.xaml/datatemplate.md), [SelectTemplateCore(Object, DependencyObject)](datatemplateselector_selecttemplatecore_711611086.md), [Adding ListView and GridView controls](https://msdn.microsoft.com/library/ede8164f-ad0f-4249-b5ab-6f46ca65754a)

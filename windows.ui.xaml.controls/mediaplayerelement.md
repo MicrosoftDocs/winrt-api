@@ -24,7 +24,7 @@ Represents an object that uses a [MediaPlayer](../windows.media.playback/mediapl
 > [!TIP]
 > For more info, design guidance, and code examples, see [Media playback](/windows/uwp/design/controls-and-patterns/media-playback).
 
-For info about the media formats that [MediaPlayerElement](mediaplayerelement.md) supports, see [Supported codecs](http://msdn.microsoft.com/library/9347ad7c-3a90-4073-bff4-9e8237398343).
+For info about the media formats that [MediaPlayerElement](mediaplayerelement.md) supports, see [Supported codecs](https://msdn.microsoft.com/library/9347ad7c-3a90-4073-bff4-9e8237398343).
 
 ### Architectural overview
 

@@ -16,9 +16,9 @@ Returns an Advanced Query Syntax (AQS) string representing all smart card reader
 The Advanced Query Syntax (AQS) string representing all smart card readers connected to the device.
 
 ## -remarks
-For info about AQS, see [Using Advanced Query Syntax Programmatically](http://msdn.microsoft.com/library/76e33903-d063-48c0-9afe-912c3daa8237).
+For info about AQS, see [Using Advanced Query Syntax Programmatically](https://msdn.microsoft.com/library/76e33903-d063-48c0-9afe-912c3daa8237).
 
 ## -examples
 
 ## -see-also
-[GetDeviceSelector(SmartCardReaderKind)](smartcardreader_getdeviceselector_1037956577.md), [Create an NFC Smart Card app](http://msdn.microsoft.com/library/26834a51-512b-485b-84c8-abf713787588)
+[GetDeviceSelector(SmartCardReaderKind)](smartcardreader_getdeviceselector_1037956577.md), [Create an NFC Smart Card app](https://msdn.microsoft.com/library/26834a51-512b-485b-84c8-abf713787588)

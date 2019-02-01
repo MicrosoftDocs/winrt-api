@@ -52,7 +52,7 @@ Additionally, to simplify and enhance the app development experience, these key 
 + App payload files can be modified. If you modify an app payload file, the changes are reflected next time the app is launched. You don't need to reinstall the app unless you modify the AppxManifest.xml file.
 + Bytecode generation and NGEN are disabled. JS bytecode generation and .NET binary NGEN are disabled on **DevelopmentMode** packages to let you modify payload files without reinstalling your app.
 + App payload files aren't removed when the app is uninstalled. Because these files are potentially your source code, Windows doesn't delete these files when an app is uninstalled.
-+ Network loopback is allowed. You must opt-in to network loopback as described in [How to enable loopback and troubleshoot network isolation](http://msdn.microsoft.com/library/1ba27347-56ff-453f-83c9-56b9bd1f5092).
++ Network loopback is allowed. You must opt-in to network loopback as described in [How to enable loopback and troubleshoot network isolation](https://msdn.microsoft.com/library/1ba27347-56ff-453f-83c9-56b9bd1f5092).
 + The app can be launched in [DesignMode](../windows.applicationmodel/designmode.md). For info about the [DesignMode class](../windows.applicationmodel/designmode.md), see [DesignMode class](../windows.applicationmodel/designmode.md).
 
 ### Version history

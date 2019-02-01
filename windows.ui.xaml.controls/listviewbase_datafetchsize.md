@@ -27,4 +27,4 @@ The amount of data to fetch per interval, in pages.
 ## -examples
 
 ## -see-also
-[IncrementalLoadingThreshold](listviewbase_incrementalloadingthreshold.md), [IncrementalLoadingTrigger](incrementalloadingtrigger.md), [LoadMoreItemsAsync](listviewbase_loadmoreitemsasync_1264491126.md), [Using virtualization with a list or grid](http://msdn.microsoft.com/library/c6f8727a-2a3a-4f0d-9a5a-82780994839f)
+[IncrementalLoadingThreshold](listviewbase_incrementalloadingthreshold.md), [IncrementalLoadingTrigger](incrementalloadingtrigger.md), [LoadMoreItemsAsync](listviewbase_loadmoreitemsasync_1264491126.md), [Using virtualization with a list or grid](https://msdn.microsoft.com/library/c6f8727a-2a3a-4f0d-9a5a-82780994839f)

@@ -52,4 +52,4 @@ This example shows an [AppBarButton](appbarbutton.md) that uses a [SymbolIcon](s
 
 
 ## -see-also
-[BitmapIcon.UriSource](bitmapicon_urisource.md), [SymbolIcon](symbolicon.md), [Adding app bars](http://msdn.microsoft.com/library/9915aea1-e738-4c4b-a838-85625055fa06), [Use brushes](http://msdn.microsoft.com/library/02141f86-355e-4046-86ea-2a89d615b7db)
+[BitmapIcon.UriSource](bitmapicon_urisource.md), [SymbolIcon](symbolicon.md), [Adding app bars](https://msdn.microsoft.com/library/9915aea1-e738-4c4b-a838-85625055fa06), [Use brushes](https://msdn.microsoft.com/library/02141f86-355e-4046-86ea-2a89d615b7db)

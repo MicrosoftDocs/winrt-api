@@ -31,5 +31,5 @@ This API is supported in native apps only.
 [!code-js[HowToShareTextBasic](../windows.applicationmodel.datatransfer/code/ShareMainBeta/javascript/js/ShareText.js#SnippetHowToShareTextBasic)]
 
 ## -see-also
-[Clipboard sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620520), [Sharing content source app sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620596)
+[Clipboard sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620520), [Sharing content source app sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620596)
 soft.com/fwlink/p/?LinkId=620596)

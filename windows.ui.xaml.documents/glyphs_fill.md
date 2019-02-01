@@ -45,4 +45,4 @@ Because the default is **null**, you almost always should define a value for [Fi
 ## -examples
 
 ## -see-also
-[Use brushes](http://msdn.microsoft.com/library/02141f86-355e-4046-86ea-2a89d615b7db)
+[Use brushes](https://msdn.microsoft.com/library/02141f86-355e-4046-86ea-2a89d615b7db)

@@ -24,4 +24,4 @@ The [IItemsRangeInfo](iitemsrangeinfo.md) interface supports virtualization of l
 
 ## -see-also
 
-[IClosable](../windows.foundation/iclosable.md), [Data virtualization sample (Windows 10)](http://go.microsoft.com/fwlink/?LinkID=703784)
+[IClosable](../windows.foundation/iclosable.md), [Data virtualization sample (Windows 10)](https://go.microsoft.com/fwlink/?LinkID=703784)

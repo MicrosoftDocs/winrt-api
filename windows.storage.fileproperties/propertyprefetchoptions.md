@@ -45,4 +45,4 @@ A group of basic properties that can be access through a [BasicProperties](basic
 
 ## -see-also
 
-[Folder enumeration sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=619993)
+[Folder enumeration sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=619993)

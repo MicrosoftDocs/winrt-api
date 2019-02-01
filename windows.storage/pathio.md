@@ -13,7 +13,7 @@ public class PathIO
 Provides helper methods for reading and writing a file using the absolute path or Uniform Resource Identifier (URI) of the file.
 
 ## -remarks
-To read or write to a file using a path or Uniform Resource Identifier (URI), you must have permission to access the file's location. To learn more about what locations your app has permission to access, see [File access permissions](http://msdn.microsoft.com/library/3a404cc0-a997-45c8-b2e8-44745539759d).
+To read or write to a file using a path or Uniform Resource Identifier (URI), you must have permission to access the file's location. To learn more about what locations your app has permission to access, see [File access permissions](https://msdn.microsoft.com/library/3a404cc0-a997-45c8-b2e8-44745539759d).
 
 You can specify an app Uniform Resource Identifier (URI) to read or write files in app-specific locations like your app data folder ("ms-appdata://"). To learn more about app Uniform Resource Identifier (URI), see [How to reference content](https://msdn.microsoft.com/library/windows/apps/hh781215.aspx).
 

@@ -20,7 +20,7 @@ The stream source that sets the SVG source value.
 A [SvgImageSourceLoadStatus](svgimagesourceloadstatus.md) value that indicates whether the operation was successful. If it failed, indicates the reason for the failure.  
 
 ## -remarks
-Setting a SVG source by calling the asynchronous [SetSourceAsync(IRandomAccessStream)](svgimagesource_setsourceasync_1118221574.md) method avoids blocking the UI thread. For more info on how to use **async** or **await**, see [Call asynchronous APIs in C# or Visual Basic](http://msdn.microsoft.com/library/066711e0-d5c4-467e-8683-3cc64edbcc83).
+Setting a SVG source by calling the asynchronous [SetSourceAsync(IRandomAccessStream)](svgimagesource_setsourceasync_1118221574.md) method avoids blocking the UI thread. For more info on how to use **async** or **await**, see [Call asynchronous APIs in C# or Visual Basic](https://msdn.microsoft.com/library/066711e0-d5c4-467e-8683-3cc64edbcc83).
 If the app changes the SVG source again via [SetSourceAsync(IRandomAccessStream)](svgimagesource_setsourceasync_1118221574.md) or [UriSource](svgimagesource_urisource.md) while a [SetSourceAsync(IRandomAccessStream)](svgimagesource_setsourceasync_1118221574.md) call is already in progress, the pending [SetSourceAsync(IRandomAccessStream)](svgimagesource_setsourceasync_1118221574.md) action will throw a [TaskCanceledException](https://msdn.microsoft.com/library/system.threading.tasks.taskcanceledexception.aspx).
 
 ## -see-also

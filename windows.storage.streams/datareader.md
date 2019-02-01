@@ -19,7 +19,7 @@ Instances of DataReader objects do not support concurrent read operations. If an
 
 ## -examples
 
-The following code example shows how to write and read strings to an in-memory stream. For the full sample application in C# and in C++/CX, see [Serializing and deserializing data sample](http://go.microsoft.com/fwlink/p/?LinkId=620535).
+The following code example shows how to write and read strings to an in-memory stream. For the full sample application in C# and in C++/CX, see [Serializing and deserializing data sample](https://go.microsoft.com/fwlink/p/?LinkId=620535).
 
 ```csharp
 using System;
@@ -401,4 +401,4 @@ function transferData() {
 
 ## -see-also
 
-[Reading and writing data sample](http://go.microsoft.com/fwlink/p/?linkid=231581), [StreamSocket sample](http://go.microsoft.com/fwlink/p/?linkid=231543), [DataReaderLoadOperation](datareaderloadoperation.md), [DataWriter](datawriter.md), [Serializing and deserializing data sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620535), [File access sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=619995), [StreamSocket sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620609), [Custom USB device sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620530), [DatagramSocket sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620534)
+[Reading and writing data sample](https://go.microsoft.com/fwlink/p/?linkid=231581), [StreamSocket sample](https://go.microsoft.com/fwlink/p/?linkid=231543), [DataReaderLoadOperation](datareaderloadoperation.md), [DataWriter](datawriter.md), [Serializing and deserializing data sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620535), [File access sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=619995), [StreamSocket sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620609), [Custom USB device sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620530), [DatagramSocket sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620534)

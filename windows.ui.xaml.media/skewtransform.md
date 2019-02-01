@@ -35,4 +35,4 @@ This example uses a [SkewTransform](skewtransform.md) to skew text. A *skew*, al
 
 
 ## -see-also
-[Transform](transform.md), [XAML two-dimensional transforms sample](http://go.microsoft.com/fwlink/p/?linkid=238580)
+[Transform](transform.md), [XAML two-dimensional transforms sample](https://go.microsoft.com/fwlink/p/?linkid=238580)

@@ -27,4 +27,4 @@ The clock identifier to use.
 ## -examples
 
 ## -see-also
-[Unicode Key/Type Definitions](http://go.microsoft.com/fwlink/p/?LinkId=308919)
+[Unicode Key/Type Definitions](https://go.microsoft.com/fwlink/p/?LinkId=308919)

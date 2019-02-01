@@ -43,4 +43,4 @@ The exact meaning of the [FocusState](focusstate.md) values depends on whether y
 
 ## -see-also
 
-[Control.FocusState](../windows.ui.xaml.controls/control_focusstate.md), [Control.Focus](../windows.ui.xaml.controls/control_focus_195503898.md), [Keyboard interactions](http://msdn.microsoft.com/library/ff819bac-67c0-4ec9-8921-f087be188138)
+[Control.FocusState](../windows.ui.xaml.controls/control_focusstate.md), [Control.Focus](../windows.ui.xaml.controls/control_focus_195503898.md), [Keyboard interactions](https://msdn.microsoft.com/library/ff819bac-67c0-4ec9-8921-f087be188138)

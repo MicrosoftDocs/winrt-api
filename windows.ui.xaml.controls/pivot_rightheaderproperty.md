@@ -20,4 +20,4 @@ The identifier for the [RightHeader](pivot_rightheader.md) dependency property.
 ## -examples
 
 ## -see-also
-[RightHeader](pivot_rightheader.md), [Dependency properties overview](http://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e)
+[RightHeader](pivot_rightheader.md), [Dependency properties overview](https://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e)

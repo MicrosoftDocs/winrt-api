@@ -20,7 +20,7 @@ The [LocalId](appointment_localid.md) of the appointment to be displayed.
 A [DateTime](../windows.foundation/datetime.md) object with the start time of the appointment instance to be displayed.
 
 ## -returns
-When this method returns, it does not return a result. On completion, the [AsyncActionCompletedHandler ](../windows.foundation/asyncactioncompletedhandler.md) specified by [get_Completed](http://msdn.microsoft.com/library/5050bf84-f9e0-4b3e-9252-6c5c1060826e) / [Completed](http://msdn.microsoft.com/library/eda29981-0c24-409a-8fb9-2dc2eb96d108) is invoked.
+When this method returns, it does not return a result. On completion, the [AsyncActionCompletedHandler ](../windows.foundation/asyncactioncompletedhandler.md) specified by [get_Completed](https://msdn.microsoft.com/library/5050bf84-f9e0-4b3e-9252-6c5c1060826e) / [Completed](https://msdn.microsoft.com/library/eda29981-0c24-409a-8fb9-2dc2eb96d108) is invoked.
 
 ## -remarks
 

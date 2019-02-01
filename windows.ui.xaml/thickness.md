@@ -75,7 +75,7 @@ Although the type of the data values of a [Thickness](thickness.md) is **Double*
 
 A string that specifies three values does not cause a parser error, but only the first two values are interpreted, and any third value is ignored.
 
-Although you can specify a [Thickness](thickness.md) as an object element, you cannot specify the individual values such as **Top** as attributes of that object element. The XAML parser does not support setting XAML attribute values for this structure. Instead, you must specify the values as initialization text within the [Thickness](thickness.md). Using the object element syntax for a [Thickness](thickness.md) is useful if you want to declare a keyed resource that can be used by multiple [Control](../windows.ui.xaml.controls/control.md) instances for their [Padding](../windows.ui.xaml.controls/control_padding.md). For more info on XAML initialization text, see [XAML syntax guide](http://msdn.microsoft.com/library/a57fe7b4-9947-4aa0-bc99-5fe4686b611d).
+Although you can specify a [Thickness](thickness.md) as an object element, you cannot specify the individual values such as **Top** as attributes of that object element. The XAML parser does not support setting XAML attribute values for this structure. Instead, you must specify the values as initialization text within the [Thickness](thickness.md). Using the object element syntax for a [Thickness](thickness.md) is useful if you want to declare a keyed resource that can be used by multiple [Control](../windows.ui.xaml.controls/control.md) instances for their [Padding](../windows.ui.xaml.controls/control_padding.md). For more info on XAML initialization text, see [XAML syntax guide](https://msdn.microsoft.com/library/a57fe7b4-9947-4aa0-bc99-5fe4686b611d).
 
 You can use a space rather than a comma as the delimiter between values.
 
@@ -88,4 +88,4 @@ If you are programming with C++ using the Windows Runtime Template Library (WRL)
 ## -examples
 
 ## -see-also
-[Border](../windows.ui.xaml.controls/border.md), [Control](../windows.ui.xaml.controls/control.md), [Define layouts with XAML](http://msdn.microsoft.com/library/8d4e4162-1c9c-48f4-8a94-34976fb17079)
+[Border](../windows.ui.xaml.controls/border.md), [Control](../windows.ui.xaml.controls/control.md), [Define layouts with XAML](https://msdn.microsoft.com/library/8d4e4162-1c9c-48f4-8a94-34976fb17079)

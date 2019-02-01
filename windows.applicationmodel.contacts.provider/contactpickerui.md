@@ -13,7 +13,7 @@ public class ContactPickerUI : Windows.ApplicationModel.Contacts.Provider.IConta
 Allows you to call the contact picker UI so you can select one or more contacts.
 
 ## -remarks
-To see an example of how to use this class, check out our [code sample](http://go.microsoft.com/fwlink/p/?linkid=231575).
+To see an example of how to use this class, check out our [code sample](https://go.microsoft.com/fwlink/p/?linkid=231575).
 
 ## -examples
 This example code prepares the page to use [ContactPickerUI](contactpickerui.md):

@@ -16,19 +16,19 @@ Provides information about the activated event that fires when the user searches
 > This type appears as [SearchActivatedEventArgs](../windows.applicationmodel.activation/searchactivatedeventargs.md).
 
 ## -remarks
-If your app integrates with the Search contract, a [webUISearchActivatedEventArgs](webuisearchactivatedeventargs.md) is passed to your app's [onactivated](http://msdn.microsoft.com/library/8b1cf913-a914-47d1-a690-bc3f0931e9d4) event handler when the user searches the app from the Search charm and your app is not the main app on screen. This type of activation is indicated by the [activationKind.search](../windows.applicationmodel.activation/activationkind.md) value returned by the [kind](webuisearchactivatedeventargs_kind.md) property.
+If your app integrates with the Search contract, a [webUISearchActivatedEventArgs](webuisearchactivatedeventargs.md) is passed to your app's [onactivated](https://msdn.microsoft.com/library/8b1cf913-a914-47d1-a690-bc3f0931e9d4) event handler when the user searches the app from the Search charm and your app is not the main app on screen. This type of activation is indicated by the [activationKind.search](../windows.applicationmodel.activation/activationkind.md) value returned by the [kind](webuisearchactivatedeventargs_kind.md) property.
 
-Learn how to let users search with your app in [Quickstart: Adding search](http://msdn.microsoft.com/library/d412c562-22d2-41c4-9f27-27503b89b9e9). Learn about responding to other search-related events and customizing the search box and suggestions using the [searchPane](../windows.applicationmodel.search/searchpane.md) class in the [Windows.ApplicationModel.Search](../windows.applicationmodel.search/windows_applicationmodel_search.md) namespace reference.
+Learn how to let users search with your app in [Quickstart: Adding search](https://msdn.microsoft.com/library/d412c562-22d2-41c4-9f27-27503b89b9e9). Learn about responding to other search-related events and customizing the search box and suggestions using the [searchPane](../windows.applicationmodel.search/searchpane.md) class in the [Windows.ApplicationModel.Search](../windows.applicationmodel.search/windows_applicationmodel_search.md) namespace reference.
 
 
 
 > [!NOTE]
-> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://go.microsoft.com/fwlink/p/?linkid=258275)
-<!--[jjacks - removed this link (http://go.microsoft.com/fwlink/p/?linkid=258277 404->http://msdn.microsoft.com/library/windows/apps/jj157115.aspx) because it doesn't work] and Using Windows Runtime objects in a multithreaded environment (.NET)-->
+> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275)
+<!--[jjacks - removed this link (https://go.microsoft.com/fwlink/p/?linkid=258277 404->http://msdn.microsoft.com/library/windows/apps/jj157115.aspx) because it doesn't work] and Using Windows Runtime objects in a multithreaded environment (.NET)-->
 .
 
 ## -examples
-The [Search contract sample](http://go.microsoft.com/fwlink/p/?linkid=234892) demonstrates how to respond to a [search](../windows.applicationmodel.activation/activationkind.md) activated event.
+The [Search contract sample](https://go.microsoft.com/fwlink/p/?linkid=234892) demonstrates how to respond to a [search](../windows.applicationmodel.activation/activationkind.md) activated event.
 
 ```javascript
 function activated(eventObject) {
@@ -62,4 +62,4 @@ function activated(eventObject) {
 For JavaScript, `eventObject` contains a [webUISearchActivatedEventArgs](webuisearchactivatedeventargs.md) object.
 
 ## -see-also
-[Search contract sample](http://go.microsoft.com/fwlink/p/?linkid=234892)
+[Search contract sample](https://go.microsoft.com/fwlink/p/?linkid=234892)

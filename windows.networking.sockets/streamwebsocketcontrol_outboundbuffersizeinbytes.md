@@ -16,7 +16,7 @@ The size, in bytes, of the send buffer to be used for sending data on a [StreamW
 The size, in bytes, of the send buffer to be used for sending data.
 
 ## -remarks
-The [OutboundBufferSizeInBytes](streamwebsocketcontrol_outboundbuffersizeinbytes.md) property sets the value of the **SO_SNDBUF** socket option on the TCP socket used by the [StreamWebSocket](streamwebsocket.md). The default value is the local computer's default send buffer size. This value varies based on the system memory size. For more detailed information, see [SOL_SOCKET Socket Options](http://msdn.microsoft.com/library/0cd0056e-0c33-4f6e-9f70-5417f8f8da4b) in the Windows Sockets documentation.
+The [OutboundBufferSizeInBytes](streamwebsocketcontrol_outboundbuffersizeinbytes.md) property sets the value of the **SO_SNDBUF** socket option on the TCP socket used by the [StreamWebSocket](streamwebsocket.md). The default value is the local computer's default send buffer size. This value varies based on the system memory size. For more detailed information, see [SOL_SOCKET Socket Options](https://msdn.microsoft.com/library/0cd0056e-0c33-4f6e-9f70-5417f8f8da4b) in the Windows Sockets documentation.
 
 For most apps, this property should not be set since this disables TCP send auto-tuning by the system on this [StreamWebSocket](streamwebsocket.md) object. With TCP send auto-tuning disabled, network throughput is often worse especially on a connections with high latency. So this property should only be used in very specific situations.
 
@@ -25,4 +25,4 @@ The [OutboundBufferSizeInBytes](streamwebsocketcontrol_outboundbuffersizeinbytes
 ## -examples
 
 ## -see-also
-[How to use advanced WebSocket controls ](http://msdn.microsoft.com/library/0a47f7c3-66f9-4315-886e-bd1afe77bf39), [How to use advanced WebSocket controls ](http://msdn.microsoft.com/library/4ab9621e-90e5-420e-88d0-09f1c7239d7a), [SOL_SOCKET Socket Options](http://msdn.microsoft.com/library/0cd0056e-0c33-4f6e-9f70-5417f8f8da4b), [StreamWebSocket](streamwebsocket.md)
+[How to use advanced WebSocket controls ](https://msdn.microsoft.com/library/0a47f7c3-66f9-4315-886e-bd1afe77bf39), [How to use advanced WebSocket controls ](https://msdn.microsoft.com/library/4ab9621e-90e5-420e-88d0-09f1c7239d7a), [SOL_SOCKET Socket Options](https://msdn.microsoft.com/library/0cd0056e-0c33-4f6e-9f70-5417f8f8da4b), [StreamWebSocket](streamwebsocket.md)

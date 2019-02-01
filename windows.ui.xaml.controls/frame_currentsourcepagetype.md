@@ -26,4 +26,4 @@ A type reference for the content that is currently displayed.
 ## -examples
 
 ## -see-also
-[Navigating](frame_navigating.md), [Page.OnNavigatingFrom](page_onnavigatingfrom_425696585.md), [XAML Navigation sample](http://go.microsoft.com/fwlink/p/?LinkID=330214)
+[Navigating](frame_navigating.md), [Page.OnNavigatingFrom](page_onnavigatingfrom_425696585.md), [XAML Navigation sample](https://go.microsoft.com/fwlink/p/?LinkID=330214)

@@ -20,7 +20,7 @@ Some fonts contain stylistic variant glyphs that correspond to portions of a cha
 
 
 > [!NOTE]
-> Whenever possible, [TextBlock](../windows.ui.xaml.controls/textblock.md) renders text using an efficient *fast path*. Only the default values for the various [Typography](typography.md) attached properties are fast path. Non-default values require [TextBlock](../windows.ui.xaml.controls/textblock.md) to fall back to a more CPU intensive code path for text rendering. For more info, see the [TextBlock control guide](http://msdn.microsoft.com/library/da562509-d893-425a-aae6-b2ae9e9f8a19).
+> Whenever possible, [TextBlock](../windows.ui.xaml.controls/textblock.md) renders text using an efficient *fast path*. Only the default values for the various [Typography](typography.md) attached properties are fast path. Non-default values require [TextBlock](../windows.ui.xaml.controls/textblock.md) to fall back to a more CPU intensive code path for text rendering. For more info, see the [TextBlock control guide](https://msdn.microsoft.com/library/da562509-d893-425a-aae6-b2ae9e9f8a19).
 
 ## -examples
 Here, [Typography](typography.md) values are set on a [TextBlock](../windows.ui.xaml.controls/textblock.md) to render the text in small caps using stylistic set 4.
@@ -49,4 +49,4 @@ In this example, the [Typography.Fraction](typography_fraction.md) attached prop
 
 
 ## -see-also
-[TextBlock](../windows.ui.xaml.controls/textblock.md), [RichTextBlock](../windows.ui.xaml.controls/richtextblock.md), [TextBlock control guide](http://msdn.microsoft.com/library/da562509-d893-425a-aae6-b2ae9e9f8a19), [RichTextBlock control guide](http://msdn.microsoft.com/library/e4be4b1b-418e-4075-88f1-22c09ddf8e45)
+[TextBlock](../windows.ui.xaml.controls/textblock.md), [RichTextBlock](../windows.ui.xaml.controls/richtextblock.md), [TextBlock control guide](https://msdn.microsoft.com/library/da562509-d893-425a-aae6-b2ae9e9f8a19), [RichTextBlock control guide](https://msdn.microsoft.com/library/e4be4b1b-418e-4075-88f1-22c09ddf8e45)

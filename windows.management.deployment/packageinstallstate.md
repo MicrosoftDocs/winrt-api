@@ -37,4 +37,4 @@ The installation of the package has been paused.
 ## -examples
 
 ## -see-also
-[Packaging apps](http://msdn.microsoft.com/library/1abcbb13-80f0-4bf1-a812-649ee8bd1915), [PackageUserInformation.InstallState](packageuserinformation_installstate.md)
+[Packaging apps](https://msdn.microsoft.com/library/1abcbb13-80f0-4bf1-a812-649ee8bd1915), [PackageUserInformation.InstallState](packageuserinformation_installstate.md)

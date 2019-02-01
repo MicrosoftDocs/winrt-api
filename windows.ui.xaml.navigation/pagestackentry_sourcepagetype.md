@@ -22,4 +22,4 @@ The page type of the navigation entry, as a type reference ([System.Type](https:
 ## -examples
 
 ## -see-also
-[XAML Navigation sample](http://go.microsoft.com/fwlink/p/?LinkID=330214)
+[XAML Navigation sample](https://go.microsoft.com/fwlink/p/?LinkID=330214)

@@ -36,4 +36,4 @@ The [FrameworkElement.DataContext](frameworkelement_datacontext.md) property has
 ## -examples
 
 ## -see-also
-[DataContext](frameworkelement_datacontext.md), [DataContextChangedEventArgs](datacontextchangedeventargs.md), [Data binding in depth](http://msdn.microsoft.com/library/41e1b4f1-6caf-4128-a61a-4e400b149011)
+[DataContext](frameworkelement_datacontext.md), [DataContextChangedEventArgs](datacontextchangedeventargs.md), [Data binding in depth](https://msdn.microsoft.com/library/41e1b4f1-6caf-4128-a61a-4e400b149011)

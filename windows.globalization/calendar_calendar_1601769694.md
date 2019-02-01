@@ -23,11 +23,11 @@ The calendar identifier to use.
 The clock identifier to use.
 
 ### -param timeZoneId
-An identifier from the [IANA Time Zone Database](http://go.microsoft.com/fwlink/p/?LinkId=302107) which identifies the time zone that should be used (for example, "America/Los_Angeles" for Pacific Time).
+An identifier from the [IANA Time Zone Database](https://go.microsoft.com/fwlink/p/?LinkId=302107) which identifies the time zone that should be used (for example, "America/Los_Angeles" for Pacific Time).
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
-[Calendar(IIterable(String))](calendar_calendar_1181929246.md), [Calendar(IIterable(String), String, String)](calendar_calendar_1820927522.md), [Unicode Key/Type Definitions](http://go.microsoft.com/fwlink/p/?LinkId=308919)
+[Calendar(IIterable(String))](calendar_calendar_1181929246.md), [Calendar(IIterable(String), String, String)](calendar_calendar_1820927522.md), [Unicode Key/Type Definitions](https://go.microsoft.com/fwlink/p/?LinkId=308919)

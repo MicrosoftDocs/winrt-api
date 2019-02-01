@@ -20,4 +20,4 @@ The identifier for the [DragLeave](uielement_dragleave.md) routed event.
 ## -examples
 
 ## -see-also
-[AddHandler](uielement_addhandler_2121467075.md), [Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832)
+[AddHandler](uielement_addhandler_2121467075.md), [Events and routed events overview](https://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832)

@@ -20,4 +20,4 @@ The identifier for the [EntranceTarget](drillinthemeanimation_entrancetarget.md)
 ## -examples
 
 ## -see-also
-[EntranceTarget](drillinthemeanimation_entrancetarget.md), [Dependency properties overview](http://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e)
+[EntranceTarget](drillinthemeanimation_entrancetarget.md), [Dependency properties overview](https://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e)

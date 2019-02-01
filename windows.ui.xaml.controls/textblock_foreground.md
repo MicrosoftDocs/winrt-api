@@ -40,7 +40,7 @@ Gets or sets the [Brush](../windows.ui.xaml.media/brush.md) to apply to the text
 The brush used to apply to the text content. The default is a null brush from a pure code perspective, but the default text styles set this to [Black](../windows.ui/colors_black.md) (for **Light** theme) or [White](../windows.ui/colors_white.md) (for **Dark** theme) for a [TextBlock](textblock.md) element in UI.
 
 ## -remarks
-[TextBlock](textblock.md) isn't a control so you don't use templates to change its appearance. Instead you can use styles. It's more common (and a better practice) to use named styles for [TextBlock](textblock.md) appearance than it is to set inline attributes for each [TextBlock](textblock.md) instance, particularly if you are using common values in many elements. For more info on styles, see [Quickstart: Styling controls](http://msdn.microsoft.com/library/45d4f823-e637-4131-a63b-268af4d3e743).
+[TextBlock](textblock.md) isn't a control so you don't use templates to change its appearance. Instead you can use styles. It's more common (and a better practice) to use named styles for [TextBlock](textblock.md) appearance than it is to set inline attributes for each [TextBlock](textblock.md) instance, particularly if you are using common values in many elements. For more info on styles, see [Quickstart: Styling controls](https://msdn.microsoft.com/library/45d4f823-e637-4131-a63b-268af4d3e743).
 
 
 The default appearance of text and text styles depends heavily on the active theme and other settings. The theme and various styles and behaviors that are using default system settings or user preferences are the source of the effective runtime appearance of [TextBlock](textblock.md) foreground color of text as well as other text characteristics. You can change these defaults by changing the property values, or by applying a different style to specific [TextBlock](textblock.md) instances. You can change the foreground value for all default text by overriding the resource named **DefaultTextForegroundThemeBrush** in App.xaml.
@@ -60,4 +60,4 @@ The following XAML example shows how to set the [Foreground](textblock_foregroun
 
 
 ## -see-also
-[Quickstart: Displaying text](http://msdn.microsoft.com/library/3efa9d2a-71a5-41d3-bba4-ec6cc356d47f), [Use brushes](http://msdn.microsoft.com/library/02141f86-355e-4046-86ea-2a89d615b7db)
+[Quickstart: Displaying text](https://msdn.microsoft.com/library/3efa9d2a-71a5-41d3-bba4-ec6cc356d47f), [Use brushes](https://msdn.microsoft.com/library/02141f86-355e-4046-86ea-2a89d615b7db)

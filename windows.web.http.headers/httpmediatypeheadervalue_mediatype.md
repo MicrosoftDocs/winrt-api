@@ -16,7 +16,7 @@ Gets or sets the **media-type** of the entity-body used in the **Content-Type** 
 The **media-type** of the entity-body.
 
 ## -remarks
-Internet media types should be registered with IANA. Media type registrations are listed in categories by IANA as [MIME Media Types](http://www.iana.org/assignments/media-types).
+Internet media types should be registered with IANA. Media type registrations are listed in categories by IANA as [MIME Media Types](https://www.iana.org/assignments/media-types).
 
 ## -examples
 

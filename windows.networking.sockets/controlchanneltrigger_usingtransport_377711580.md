@@ -35,4 +35,4 @@ For , the [UsingTransport](controlchanneltrigger_usingtransport_377711580.md) me
 ## -examples
 
 ## -see-also
-[How to set background connectivity options](http://msdn.microsoft.com/library/b6042b5f-5cee-4dee-8cb4-8f376f878e97), [IXMLHTTPRequest2](https://msdn.microsoft.com/library/windows/desktop/hh831151(v=vs.85).aspx), [StreamSocket](streamsocket.md), , [Windows.Web.Http.HttpClient](../windows.web.http/httpclient.md)
+[How to set background connectivity options](https://msdn.microsoft.com/library/b6042b5f-5cee-4dee-8cb4-8f376f878e97), [IXMLHTTPRequest2](https://msdn.microsoft.com/library/windows/desktop/hh831151(v=vs.85).aspx), [StreamSocket](streamsocket.md), , [Windows.Web.Http.HttpClient](../windows.web.http/httpclient.md)

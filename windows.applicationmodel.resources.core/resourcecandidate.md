@@ -15,7 +15,7 @@ public class ResourceCandidate : Windows.ApplicationModel.Resources.Core.IResour
 ## -remarks
 
 ## -examples
-This example is based on scenario 13 of the [Application resources and localization sample](http://go.microsoft.com/fwlink/p/?linkid=227301). See the sample for the more complete solution.
+This example is based on scenario 13 of the [Application resources and localization sample](https://go.microsoft.com/fwlink/p/?linkid=227301). See the sample for the more complete solution.
 
 ```javascript
 // Create a ResourceContext.
@@ -75,4 +75,4 @@ function renderCandidate(candidate, index, output) {
 
 
 ## -see-also
-[Application resources and localization sample](http://go.microsoft.com/fwlink/p/?linkid=227301)
+[Application resources and localization sample](https://go.microsoft.com/fwlink/p/?linkid=227301)

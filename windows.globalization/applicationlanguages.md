@@ -13,7 +13,7 @@ public class ApplicationLanguages
 Specifies the language-related preferences that the app can use and maintain.
 
 ## -remarks
-The languages referenced in this class are represented by [BCP-47 language tags](http://go.microsoft.com/fwlink/p/?linkid=227302). Each of these is a language identifier and not a locale name, although the two structurally can be the same. As a language tag, "en-US" means American English (or the dialect of English spoken in the United States). It makes no claims about the actual location of the speakers (though many of them do reside in the US) and no other claims about conventions that are used in the US such as the measurement system or currency.
+The languages referenced in this class are represented by [BCP-47 language tags](https://go.microsoft.com/fwlink/p/?linkid=227302). Each of these is a language identifier and not a locale name, although the two structurally can be the same. As a language tag, "en-US" means American English (or the dialect of English spoken in the United States). It makes no claims about the actual location of the speakers (though many of them do reside in the US) and no other claims about conventions that are used in the US such as the measurement system or currency.
 
 
 
@@ -26,11 +26,11 @@ Windows.Globalization.ApplicationLanguages.PrimaryLanguageOverride = "en-US"
 
 
 > [!NOTE]
-> If your app passes language tags from this class to any [National Language Support](http://msdn.microsoft.com/library/7a548074-0782-45e1-8051-80c3b9d81885) functions, it must first convert the tags by calling [ResolveLocaleName](http://msdn.microsoft.com/library/99264b22-3fb5-47e2-b0b9-42a6768e67c1).
+> If your app passes language tags from this class to any [National Language Support](https://msdn.microsoft.com/library/7a548074-0782-45e1-8051-80c3b9d81885) functions, it must first convert the tags by calling [ResolveLocaleName](https://msdn.microsoft.com/library/99264b22-3fb5-47e2-b0b9-42a6768e67c1).
 
 ### **Starting in :**
 
-Language tags support the Unicode extensions "ca-" and "nu-". (See [Unicode Key/Type Definitions](http://go.microsoft.com/fwlink/p/?LinkId=308919).) Note that these extensions can affect the numeral system or calendar used by globalization objects.
+Language tags support the Unicode extensions "ca-" and "nu-". (See [Unicode Key/Type Definitions](https://go.microsoft.com/fwlink/p/?LinkId=308919).) Note that these extensions can affect the numeral system or calendar used by globalization objects.
 
 UWP apps can be deployed using resource packages. When language resource packages are used, the packages that are installed and registered for a given user are determined by the languages in the user's language profile. As a result, not all of the languages included in the app bundle that was submitted to the Microsoft Store will necessarily be available for use at runtime. The [PrimaryLanguageOverride](applicationlanguages_primarylanguageoverride.md) property should only be set to languages that are available for the user.
 
@@ -43,4 +43,4 @@ If a language is in the main app package but is not a match for any language in 
 ## -examples
 
 ## -see-also
-[BCP-47 language tags](http://go.microsoft.com/fwlink/p/?linkid=227302), [Unicode Key/Type Definitions](http://go.microsoft.com/fwlink/p/?LinkId=308919)
+[BCP-47 language tags](https://go.microsoft.com/fwlink/p/?linkid=227302), [Unicode Key/Type Definitions](https://go.microsoft.com/fwlink/p/?LinkId=308919)

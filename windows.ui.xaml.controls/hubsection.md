@@ -87,4 +87,4 @@ This example shows the basic XAML used to create a [Hub](hub.md) with 3 [HubSect
 
 
 ## -see-also
-[Control](control.md), [Hub](hub.md), [HubSectionCollection](hubsectioncollection.md), [HubSectionHeaderClickEventArgs](hubsectionheaderclickeventargs.md), [ISemanticZoomInformation](isemanticzoominformation.md), [HubSection styles and templates](http://msdn.microsoft.com/library/73642152-aabd-40a8-8c31-43aeb9d80a14), [XAML Hub control sample](http://go.microsoft.com/fwlink/p/?LinkID=310072)
+[Control](control.md), [Hub](hub.md), [HubSectionCollection](hubsectioncollection.md), [HubSectionHeaderClickEventArgs](hubsectionheaderclickeventargs.md), [ISemanticZoomInformation](isemanticzoominformation.md), [HubSection styles and templates](https://msdn.microsoft.com/library/73642152-aabd-40a8-8c31-43aeb9d80a14), [XAML Hub control sample](https://go.microsoft.com/fwlink/p/?LinkID=310072)

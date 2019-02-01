@@ -24,4 +24,4 @@ You can respond to the app bar being opened by handling the [Opened](appbar_open
 ## -examples
 
 ## -see-also
-[Quickstart: Adding app bars](http://msdn.microsoft.com/library/079aace2-af20-4b31-9869-322f76c529bb)
+[Quickstart: Adding app bars](https://msdn.microsoft.com/library/079aace2-af20-4b31-9869-322f76c529bb)

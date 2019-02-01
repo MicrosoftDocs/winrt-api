@@ -21,4 +21,4 @@ The value of this property corresponds to application of the [BindableAttribute]
 ## -examples
 
 ## -see-also
-[XAML overview](http://msdn.microsoft.com/library/48041b37-f1a8-44a4-bb8e-1d4de30e7823)
+[XAML overview](https://msdn.microsoft.com/library/48041b37-f1a8-44a4-bb8e-1d4de30e7823)

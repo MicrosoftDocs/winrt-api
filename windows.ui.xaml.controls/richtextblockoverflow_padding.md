@@ -34,9 +34,9 @@ A [Thickness](../windows.ui.xaml/thickness.md) structure that specifies the amou
 ## -remarks
 [RichTextBlock](richtextblock.md) also has a [Padding](richtextblock_padding.md) property, therefore the padding applied to the [RichTextBlockOverflow](richtextblockoverflow.md) can be different than on the [RichTextBlock](richtextblock.md) associated with it. The padding on the overflow won't default to the value from the associated [RichTextBlock](richtextblock.md), so you'll have to set it manually if you want the same padding on each.
 
-A related property is [Margin](../windows.ui.xaml/frameworkelement_margin.md) (a property of [FrameworkElement](../windows.ui.xaml/frameworkelement.md)). For more info about the relationship between margin and padding, see [Alignment, margin, and padding](http://msdn.microsoft.com/library/9412abd4-3674-4865-b07d-64c7c26e4842) or [Define layouts with XAML](http://msdn.microsoft.com/library/8d4e4162-1c9c-48f4-8a94-34976fb17079).
+A related property is [Margin](../windows.ui.xaml/frameworkelement_margin.md) (a property of [FrameworkElement](../windows.ui.xaml/frameworkelement.md)). For more info about the relationship between margin and padding, see [Alignment, margin, and padding](https://msdn.microsoft.com/library/9412abd4-3674-4865-b07d-64c7c26e4842) or [Define layouts with XAML](https://msdn.microsoft.com/library/8d4e4162-1c9c-48f4-8a94-34976fb17079).
 
 ## -examples
 
 ## -see-also
-[Thickness](../windows.ui.xaml/thickness.md), [RichTextBlock](richtextblock.md), [Alignment, margin, and padding](http://msdn.microsoft.com/library/9412abd4-3674-4865-b07d-64c7c26e4842)
+[Thickness](../windows.ui.xaml/thickness.md), [RichTextBlock](richtextblock.md), [Alignment, margin, and padding](https://msdn.microsoft.com/library/9412abd4-3674-4865-b07d-64c7c26e4842)

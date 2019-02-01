@@ -23,10 +23,10 @@ Exceptions are suppressed and not reported.
 Exceptions are reported.
 
 ### -field UseSetErrorInfo:4
-Error information for [SetErrorInfo](http://msdn.microsoft.com/library/8eaacfac-fc37-4eaa-870b-10b99d598d66) is used.
+Error information for [SetErrorInfo](https://msdn.microsoft.com/library/8eaacfac-fc37-4eaa-870b-10b99d598d66) is used.
 
 ### -field SuppressSetErrorInfo:8
-Error information for [SetErrorInfo](http://msdn.microsoft.com/library/8eaacfac-fc37-4eaa-870b-10b99d598d66) is suppressed and not reported.
+Error information for [SetErrorInfo](https://msdn.microsoft.com/library/8eaacfac-fc37-4eaa-870b-10b99d598d66) is suppressed and not reported.
 
 
 ## -remarks

@@ -54,7 +54,7 @@ Here's an example of a UI using a [RelativePanel](relativepanel.md) for its layo
 </RelativePanel>
 ```
 
-[RelativePanel](relativepanel.md), used in conjunction with [AdaptiveTrigger](../windows.ui.xaml/adaptivetrigger.md) s, can be a powerful tool to create responsive UI that scales well across different screen sizes. For more examples, see the [XAML Responsive Techniques sample](http://go.microsoft.com/fwlink/p/?LinkId=620024&amp;amp;clcid=0x409).
+[RelativePanel](relativepanel.md), used in conjunction with [AdaptiveTrigger](../windows.ui.xaml/adaptivetrigger.md) s, can be a powerful tool to create responsive UI that scales well across different screen sizes. For more examples, see the [XAML Responsive Techniques sample](https://go.microsoft.com/fwlink/p/?LinkId=620024&amp;amp;clcid=0x409).
 
 
 
@@ -127,4 +127,4 @@ The [HorizontalAlignment](../windows.ui.xaml/frameworkelement_horizontalalignmen
 > + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
 
 ## -see-also
-[Panel](panel.md), [Define layouts with XAML](http://msdn.microsoft.com/library/8d4e4162-1c9c-48f4-8a94-34976fb17079), [Quickstart: Adding layout controls](http://msdn.microsoft.com/library/5ad6c2ac-7ad7-4f0e-9636-97a0b3fbc43f), [Alignment, margin, and padding](http://msdn.microsoft.com/library/9412abd4-3674-4865-b07d-64c7c26e4842), [Canvas](canvas.md), [Grid](grid.md), [StackPanel](stackpanel.md), [VariableSizedWrapGrid](variablesizedwrapgrid.md), [Controls list](http://msdn.microsoft.com/library/11172840-a63d-4f48-9db4-7baca06308ee), [Controls by function](http://msdn.microsoft.com/library/8db4347b-91d6-4659-91f2-80ecf7bbb596)
+[Panel](panel.md), [Define layouts with XAML](https://msdn.microsoft.com/library/8d4e4162-1c9c-48f4-8a94-34976fb17079), [Quickstart: Adding layout controls](https://msdn.microsoft.com/library/5ad6c2ac-7ad7-4f0e-9636-97a0b3fbc43f), [Alignment, margin, and padding](https://msdn.microsoft.com/library/9412abd4-3674-4865-b07d-64c7c26e4842), [Canvas](canvas.md), [Grid](grid.md), [StackPanel](stackpanel.md), [VariableSizedWrapGrid](variablesizedwrapgrid.md), [Controls list](https://msdn.microsoft.com/library/11172840-a63d-4f48-9db4-7baca06308ee), [Controls by function](https://msdn.microsoft.com/library/8db4347b-91d6-4659-91f2-80ecf7bbb596)

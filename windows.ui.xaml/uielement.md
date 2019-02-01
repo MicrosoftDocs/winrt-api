@@ -36,7 +36,7 @@ The [UIElementCollection](../windows.ui.xaml.controls/uielementcollection.md) cl
 
 ### Input, and events for responding to user interaction
 
-Much of the input behavior for visible elements in a UI is defined in the [UIElement](uielement.md) class. This includes the events for keyboard, mouse, touch, drag-drop, and focus interactions. For more info, see [Handle pointer input](http://msdn.microsoft.com/library/bdbc9e33-4037-4671-9596-471dcf855c82), [Keyboard interactions](http://msdn.microsoft.com/library/ff819bac-67c0-4ec9-8921-f087be188138), and [Custom user interactions](http://msdn.microsoft.com/library/9403c46c-60da-4c13-a381-6fbd069dd9ce).
+Much of the input behavior for visible elements in a UI is defined in the [UIElement](uielement.md) class. This includes the events for keyboard, mouse, touch, drag-drop, and focus interactions. For more info, see [Handle pointer input](https://msdn.microsoft.com/library/bdbc9e33-4037-4671-9596-471dcf855c82), [Keyboard interactions](https://msdn.microsoft.com/library/ff819bac-67c0-4ec9-8921-f087be188138), and [Custom user interactions](https://msdn.microsoft.com/library/9403c46c-60da-4c13-a381-6fbd069dd9ce).
 
 Prominent API of [UIElement](uielement.md) that support input and user interaction:
 
@@ -49,7 +49,7 @@ Prominent API of [UIElement](uielement.md) that support input and user interacti
 
 ### Gestures and manipulations
 
-Gestures and manipulations are also a way to handle input and user interaction. The API are listed out separately here because these events represent how the system interacts with device-level input actions and interprets them as a user interaction. Manipulations are a way to handle dynamic multi-touch interactions such as pinching and stretching. Together, the gestures and manipulations provide the touch patterns for touch interaction with UWP app. For more info, see [Custom user interactions](http://msdn.microsoft.com/library/9403c46c-60da-4c13-a381-6fbd069dd9ce) and [Touch interaction design](http://msdn.microsoft.com/library/9ba7f613-e5d1-40d4-920b-143094209e3a).
+Gestures and manipulations are also a way to handle input and user interaction. The API are listed out separately here because these events represent how the system interacts with device-level input actions and interprets them as a user interaction. Manipulations are a way to handle dynamic multi-touch interactions such as pinching and stretching. Together, the gestures and manipulations provide the touch patterns for touch interaction with UWP app. For more info, see [Custom user interactions](https://msdn.microsoft.com/library/9403c46c-60da-4c13-a381-6fbd069dd9ce) and [Touch interaction design](https://msdn.microsoft.com/library/9ba7f613-e5d1-40d4-920b-143094209e3a).
 
 Prominent API of [UIElement](uielement.md) that support gestures and manipulations:
 
@@ -64,11 +64,11 @@ The [Visibility](uielement_visibility.md) and [Opacity](uielement_opacity.md) pr
 
 ### Basic layout
 
-The [UIElement](uielement.md) class provides a starting point for layout characteristics with properties such as [DesiredSize](uielement_desiredsize.md) and the [Arrange](uielement_arrange_958316931.md) and [Measure](uielement_measure_1722732750.md) methods. [FrameworkElement](frameworkelement.md) adds more layout capabilities. For more info, see [Define layouts with XAML](http://msdn.microsoft.com/library/8d4e4162-1c9c-48f4-8a94-34976fb17079) and [FrameworkElement](frameworkelement.md).
+The [UIElement](uielement.md) class provides a starting point for layout characteristics with properties such as [DesiredSize](uielement_desiredsize.md) and the [Arrange](uielement_arrange_958316931.md) and [Measure](uielement_measure_1722732750.md) methods. [FrameworkElement](frameworkelement.md) adds more layout capabilities. For more info, see [Define layouts with XAML](https://msdn.microsoft.com/library/8d4e4162-1c9c-48f4-8a94-34976fb17079) and [FrameworkElement](frameworkelement.md).
 
 ### Routed events
 
-Most of the input events of [UIElement](uielement.md) are *routed events*. A routed event enables a built-in event handling notification system, so that a parent object can handle input events from child objects in the object tree if the event remains unhandled. This input event behavior is useful for input area grouping, and for control compositing. For more info, see [Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
+Most of the input events of [UIElement](uielement.md) are *routed events*. A routed event enables a built-in event handling notification system, so that a parent object can handle input events from child objects in the object tree if the event remains unhandled. This input event behavior is useful for input area grouping, and for control compositing. For more info, see [Events and routed events overview](https://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
 
 Prominent API of [UIElement](uielement.md) that support routed events: [AddHandler](uielement_addhandler_2121467075.md), [RemoveHandler](uielement_removehandler_661998757.md), ***Event** properties.
 
@@ -79,7 +79,7 @@ Prominent API of [UIElement](uielement.md) that support routed events: [AddHandl
 
 ### UIElement dependency properties
 
-Many of the read-write properties of the [UIElement](uielement.md) base element class are dependency properties. Dependency properties support some of the basic programming model features for a UWP app using C++, C#, or Visual Basic, such as styles and templates, data binding, XAML resource references, and property-changed logic. For more info on dependency properties and the features they support, see [Dependency properties overview](http://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e).
+Many of the read-write properties of the [UIElement](uielement.md) base element class are dependency properties. Dependency properties support some of the basic programming model features for a UWP app using C++, C#, or Visual Basic, such as styles and templates, data binding, XAML resource references, and property-changed logic. For more info on dependency properties and the features they support, see [Dependency properties overview](https://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e).
 
 ### UIElement derived classes
 
@@ -89,4 +89,4 @@ The only Windows Runtime class that derives directly from [UIElement](uielement.
 
 ## -see-also
 
-[DependencyObject](dependencyobject.md), [FrameworkElement](frameworkelement.md), [Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832), [Dependency properties overview](http://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e), [Drag and drop sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlDragAndDrop), [Basic input sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/BasicInput), [Transform3D animations sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlTransform3DAnimations)
+[DependencyObject](dependencyobject.md), [FrameworkElement](frameworkelement.md), [Events and routed events overview](https://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832), [Dependency properties overview](https://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e), [Drag and drop sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlDragAndDrop), [Basic input sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/BasicInput), [Transform3D animations sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlTransform3DAnimations)

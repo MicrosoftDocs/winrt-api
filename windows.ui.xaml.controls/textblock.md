@@ -37,11 +37,11 @@ Provides a lightweight control for displaying small amounts of text.
 
 ### Text performance
 
-Starting in Windows 10, performance improvements were made to [TextBlock](textblock.md) that decrease overall memory use and greatly reduce the CPU time to do text measuring and arranging. To find out more about these performance improvements and how to make sure you are using them, see the Performance considerations section of the [TextBlock control guide](http://msdn.microsoft.com/library/da562509-d893-425a-aae6-b2ae9e9f8a19).
+Starting in Windows 10, performance improvements were made to [TextBlock](textblock.md) that decrease overall memory use and greatly reduce the CPU time to do text measuring and arranging. To find out more about these performance improvements and how to make sure you are using them, see the Performance considerations section of the [TextBlock control guide](https://msdn.microsoft.com/library/da562509-d893-425a-aae6-b2ae9e9f8a19).
 
 ### Built-in text styles
 
-You can use Windows 10 text styles that ship with the platform to align the style of your text with the text used in the system. Here's how to use built-in styles to align with the Windows 10 type ramp. For more info, see [XAML theme resources](http://msdn.microsoft.com/library/41b87dbf-e7a2-44e9-beba-af6eebabb81b).
+You can use Windows 10 text styles that ship with the platform to align the style of your text with the text used in the system. Here's how to use built-in styles to align with the Windows 10 type ramp. For more info, see [XAML theme resources](https://msdn.microsoft.com/library/41b87dbf-e7a2-44e9-beba-af6eebabb81b).
 
 ```xaml
 <TextBlock Text="Header" Style="{StaticResource HeaderTextBlockStyle}"/>
@@ -219,4 +219,4 @@ The rendered text looks like this:
 [!code-xml[LineStackingStrategyExampleWholePage](../windows.ui.xaml.controls/code/TextBlock.LineStackingStrategy/csharp/Page.xaml#SnippetLineStackingStrategyExampleWholePage)]
 
 ## -see-also
-[Text block overview](/windows/uwp/design/controls-and-patterns/text-block), [RichTextBlock](richtextblock.md), [TextBox](textbox.md), [Controls list](http://msdn.microsoft.com/library/11172840-a63d-4f48-9db4-7baca06308ee), [Controls by function](http://msdn.microsoft.com/library/8db4347b-91d6-4659-91f2-80ecf7bbb596)
+[Text block overview](/windows/uwp/design/controls-and-patterns/text-block), [RichTextBlock](richtextblock.md), [TextBox](textbox.md), [Controls list](https://msdn.microsoft.com/library/11172840-a63d-4f48-9db4-7baca06308ee), [Controls by function](https://msdn.microsoft.com/library/8db4347b-91d6-4659-91f2-80ecf7bbb596)

@@ -17,7 +17,7 @@ Creates a [DeviceInformation](deviceinformation.md) object from a [DeviceInforma
 A string containing the [DeviceInformation](deviceinformation.md) ID.
 
 ### -param additionalProperties
-An iterable list of additional properties to include in the [Properties](deviceinformation_properties.md) property of the [DeviceInformation](deviceinformation.md) objects in the enumeration results. For more info on what the properties represent, see [Device information properties](http://msdn.microsoft.com/library/4a4c2802-e674-4c04-8a6d-d7c1bbf1bd20).
+An iterable list of additional properties to include in the [Properties](deviceinformation_properties.md) property of the [DeviceInformation](deviceinformation.md) objects in the enumeration results. For more info on what the properties represent, see [Device information properties](https://msdn.microsoft.com/library/4a4c2802-e674-4c04-8a6d-d7c1bbf1bd20).
 
 ### -param kind
 The type of [DeviceInformation](deviceinformation.md) object you want to create.

@@ -26,4 +26,4 @@ Media extensions have the following limitations.
 
 ## -see-also
 
-[Media extension sample](http://go.microsoft.com/fwlink/p/?linkid=241427), [Transcoding media sample](http://go.microsoft.com/fwlink/p/?linkid=242136), [Real-Time communication sample](http://go.microsoft.com/fwlink/p/?linkid=245973), [Real-time communication sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620600)
+[Media extension sample](https://go.microsoft.com/fwlink/p/?linkid=241427), [Transcoding media sample](https://go.microsoft.com/fwlink/p/?linkid=242136), [Real-Time communication sample](https://go.microsoft.com/fwlink/p/?linkid=245973), [Real-time communication sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620600)
