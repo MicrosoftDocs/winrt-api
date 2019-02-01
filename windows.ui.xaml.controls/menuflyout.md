@@ -55,7 +55,7 @@ In addition to the members listed above, there are other members of the base cla
 >
 > If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the MenuFlyout in action](xamlcontrolsgallery:/item/MenuFlyout).
 > + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
 
 <table>
 <th align="left">XAML Controls Gallery<th>
@@ -65,7 +65,7 @@ In addition to the members listed above, there are other members of the base cla
     <p>If you have the <strong style="font-weight: semi-bold">XAML Controls Gallery</strong> app installed, click here to <a href="xamlcontrolsgallery:/item/MenuFlyout">open the app and see the MenuFlyout in action</a>.</p>
     <ul>
     <li><a href="https://www.microsoft.com/store/productId/9MSVH128X2ZT">Get the XAML Controls Gallery app (Microsoft Store)</a></li>
-    <li><a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics">Get the source code (GitHub)</a></li>
+    <li><a href="https://github.com/Microsoft/Xaml-Controls-Gallery">Get the source code (GitHub)</a></li>
     </ul>
 </td>
 </tr>

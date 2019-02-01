@@ -71,7 +71,7 @@ There's nothing you can do within the [Click](../windows.ui.xaml.controls.primit
 >
 > If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the HyperlinkButton in action](xamlcontrolsgallery:/item/HyperlinkButton).
 > + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
 
 Here's a [HyperlinkButton](hyperlinkbutton.md) as declared in XAML. It declares a string value for [Content](contentcontrol_content.md) and also a [NavigateUri](hyperlinkbutton_navigateuri.md) value.
 

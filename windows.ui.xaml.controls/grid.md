@@ -101,7 +101,7 @@ An element in the first column that spans multiple rows can affect the height of
 >
 > If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the Grid in action](xamlcontrolsgallery:/item/Grid).
 > + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
 
 
 This XAML example shows how to design a layout by using a [Grid](grid.md).
