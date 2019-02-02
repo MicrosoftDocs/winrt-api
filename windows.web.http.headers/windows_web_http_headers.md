@@ -13,7 +13,7 @@ Provides support for HTTP headers used by the [Windows.Web.Http](../windows.web.
 
 The [Windows.Web.Http](../windows.web.http/windows_web_http.md) namespace and the related [Windows.Web.Http.Headers](windows_web_http_headers.md) and [Windows.Web.Http.Filters](../windows.web.http.filters/windows_web_http_filters.md) namespaces provide a programming interface for UWP app that connect to HTTP and REST services. These namespaces provides consistent support in JavaScript, C#, VB.NET, and C++ for HTTP app developers.
 
-Classes in the [Windows.Web.Http.Headers](windows_web_http_headers.md) namespace represent HTTP headers defined in [RFC 2616](http://go.microsoft.com/fwlink/p/?LinkID=241642) by the IETF. HTTP headers are associated with the [HttpRequestMessage](../windows.web.http/httprequestmessage.md), [HttpResponseMessage](../windows.web.http/httpresponsemessage.md), and HTTP content sent with an HTTP request message or received with an HTTP response message.
+Classes in the [Windows.Web.Http.Headers](windows_web_http_headers.md) namespace represent HTTP headers defined in [RFC 2616](https://go.microsoft.com/fwlink/p/?LinkID=241642) by the IETF. HTTP headers are associated with the [HttpRequestMessage](../windows.web.http/httprequestmessage.md), [HttpResponseMessage](../windows.web.http/httpresponsemessage.md), and HTTP content sent with an HTTP request message or received with an HTTP response message.
 
 The primary classes in the [Windows.Web.Http.Headers](windows_web_http_headers.md) namespace are the following:
 
@@ -33,4 +33,4 @@ The [HttpContentHeaderCollection](httpcontentheadercollection.md) has a construc
 
 ## -see-also
 
-[HttpClient](../windows.web.http/httpclient.md), [HttpRequestMessage](../windows.web.http/httprequestmessage.md), [HttpResponseMessage](../windows.web.http/httpresponsemessage.md), [Windows.Web.Http](../windows.web.http/windows_web_http.md), [Windows.Web.Http.Filters](../windows.web.http.filters/windows_web_http_filters.md), [HttpClient sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620551)
+[HttpClient](../windows.web.http/httpclient.md), [HttpRequestMessage](../windows.web.http/httprequestmessage.md), [HttpResponseMessage](../windows.web.http/httpresponsemessage.md), [Windows.Web.Http](../windows.web.http/windows_web_http.md), [Windows.Web.Http.Filters](../windows.web.http.filters/windows_web_http_filters.md), [HttpClient sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620551)

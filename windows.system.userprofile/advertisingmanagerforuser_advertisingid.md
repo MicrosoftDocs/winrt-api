@@ -20,4 +20,4 @@ The advertising ID is represented as an alphanumeric string. When the advertisin
 ## -examples
 
 ## -see-also
-[AdvertisingManager.AdvertisingId](advertisingmanager_advertisingid.md), [Microsoft Advertising SDK](http://aka.ms/ads-sdk-uwp), [Windows Store policies for advertising conduct and content](https://msdn.microsoft.com/library/windows/apps/dn764944.aspx#pol_10_10)
+[AdvertisingManager.AdvertisingId](advertisingmanager_advertisingid.md), [Microsoft Advertising SDK](https://aka.ms/ads-sdk-uwp), [Windows Store policies for advertising conduct and content](https://msdn.microsoft.com/library/windows/apps/dn764944.aspx#pol_10_10)

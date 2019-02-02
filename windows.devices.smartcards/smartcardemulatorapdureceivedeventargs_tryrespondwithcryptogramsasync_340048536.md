@@ -27,4 +27,4 @@ Returns an asynchronous operation that completes with an operation status.
 ## -examples
 
 ## -see-also
-[TryRespondWithCryptogramsAsync(IBuffer, IIterable(SmartCardCryptogramPlacementStep), IReference(UInt32))](smartcardemulatorapdureceivedeventargs_tryrespondwithcryptogramsasync_429873224.md), [Create an NFC Smart Card app](http://msdn.microsoft.com/library/26834a51-512b-485b-84c8-abf713787588)
+[TryRespondWithCryptogramsAsync(IBuffer, IIterable(SmartCardCryptogramPlacementStep), IReference(UInt32))](smartcardemulatorapdureceivedeventargs_tryrespondwithcryptogramsasync_429873224.md), [Create an NFC Smart Card app](https://msdn.microsoft.com/library/26834a51-512b-485b-84c8-abf713787588)

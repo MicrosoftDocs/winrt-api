@@ -13,4 +13,4 @@ Contains the classes, interfaces, structures and other components that are built
 ## -examples
 
 ## -see-also
-[Scan from your app](http://msdn.microsoft.com/library/374d1983-60e0-4e18-abbb-04775baa0f0d), [Scan from your app](http://msdn.microsoft.com/library/374d1983-60e0-4e18-abbb-04775baa0f0d)
+[Scan from your app](https://msdn.microsoft.com/library/374d1983-60e0-4e18-abbb-04775baa0f0d), [Scan from your app](https://msdn.microsoft.com/library/374d1983-60e0-4e18-abbb-04775baa0f0d)

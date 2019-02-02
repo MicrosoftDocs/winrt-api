@@ -20,4 +20,4 @@ The normalized center point.
 ## -examples
 
 ## -see-also
-[Animation metrics sample](http://go.microsoft.com/fwlink/p/?linkid=242462)
+[Animation metrics sample](https://go.microsoft.com/fwlink/p/?linkid=242462)

@@ -21,4 +21,4 @@ This value corresponds to the Event Tracing for Windows (ETW) definition of a ta
 ## -examples
 
 ## -see-also
-[Defining Tasks and Opcodes](http://msdn.microsoft.com/library/6a872517-14de-423e-a7ff-7edb9a29b22d)
+[Defining Tasks and Opcodes](https://msdn.microsoft.com/library/6a872517-14de-423e-a7ff-7edb9a29b22d)

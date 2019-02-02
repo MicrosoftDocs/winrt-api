@@ -24,7 +24,7 @@ Indicates you want the video for the user's account.
 
 
 ## -remarks
-To see how to use this property, check out our [code sample](http://go.microsoft.com/fwlink/p/?linkid=231579).
+To see how to use this property, check out our [code sample](https://go.microsoft.com/fwlink/p/?linkid=231579).
 
 ## -examples
 

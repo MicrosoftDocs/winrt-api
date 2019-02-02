@@ -27,7 +27,7 @@ Gets or sets a value that indicates whether a [Selector](selector.md) should kee
 If you are programming using C#or Microsoft Visual Basic, the type of this property is projected as **bool?**(a nullable [Boolean](https://msdn.microsoft.com/library/system.boolean.aspx)).
 
 ## -remarks
-The nullable value for [IsSynchronizedWithCurrentItem](selector_issynchronizedwithcurrentitem.md) enables the value to be indeterminate, neither **true** nor **false**. This is indicated by a value of **null** if accessed in code. To set the value to **null** in XAML, use the [{x:Null} markup extension](http://msdn.microsoft.com/library/e6a4038e-4ada-4e82-9824-582fc16ab037).
+The nullable value for [IsSynchronizedWithCurrentItem](selector_issynchronizedwithcurrentitem.md) enables the value to be indeterminate, neither **true** nor **false**. This is indicated by a value of **null** if accessed in code. To set the value to **null** in XAML, use the [{x:Null} markup extension](https://msdn.microsoft.com/library/e6a4038e-4ada-4e82-9824-582fc16ab037).
 
 ### Selection behavior and CollectionViewSource
 
@@ -36,4 +36,4 @@ List controls that derive from [Selector](selector.md) have a default selection 
 ## -examples
 
 ## -see-also
-[Nullable](https://docs.microsoft.com/dotnet/api/system.nullable-1), [{x:Null} markup extension](http://msdn.microsoft.com/library/e6a4038e-4ada-4e82-9824-582fc16ab037)
+[Nullable](https://docs.microsoft.com/dotnet/api/system.nullable-1), [{x:Null} markup extension](https://msdn.microsoft.com/library/e6a4038e-4ada-4e82-9824-582fc16ab037)

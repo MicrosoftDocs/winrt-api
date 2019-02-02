@@ -32,5 +32,5 @@ The following example shows how to setup the event handler.
 [!code-csharp[ReleaseDeviceRequested](../windows.devices.pointofservice/code/BarcodeScanner/cs/Scenario1.xaml.cs#SnippetReleaseDeviceRequested)]
 
 ## -see-also
-[Barcode scanner sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620014)
-ample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620014)
+[Barcode scanner sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620014)
+ample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620014)

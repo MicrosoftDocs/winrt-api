@@ -101,4 +101,4 @@ The following is an example of a template for a custom control that animates as 
 
 
 ## -see-also
-[Timeline](timeline.md), [Animating drag-and-drop sequences](http://msdn.microsoft.com/library/2bac27bf-83ea-40aa-a679-6e55cdd6fc0b), [Guidelines and checklist for drag-and-drop animations](http://msdn.microsoft.com/library/6064755f-6e24-4901-a4ff-263f05f0dfd6)
+[Timeline](timeline.md), [Animating drag-and-drop sequences](https://msdn.microsoft.com/library/2bac27bf-83ea-40aa-a679-6e55cdd6fc0b), [Guidelines and checklist for drag-and-drop animations](https://msdn.microsoft.com/library/6064755f-6e24-4901-a4ff-263f05f0dfd6)

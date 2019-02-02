@@ -20,7 +20,7 @@ Access methods in this class statically.
 
 ## -examples
 
-The [File picker contracts sample](http://go.microsoft.com/fwlink/p/?linkid=231536) demonstrates how to set update information for a file in its [TargetFileRequested](../windows.storage.pickers.provider/filesavepickerui_targetfilerequested.md) event handler.
+The [File picker contracts sample](https://go.microsoft.com/fwlink/p/?linkid=231536) demonstrates how to set update information for a file in its [TargetFileRequested](../windows.storage.pickers.provider/filesavepickerui_targetfilerequested.md) event handler.
 
 ```csharp
 
@@ -72,4 +72,4 @@ function onTargetFileRequested(e) {
 
 ## -see-also
 
-[File picker provider sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620543)
+[File picker provider sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620543)

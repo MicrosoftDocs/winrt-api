@@ -44,7 +44,7 @@ If either *scaledWidth* or *scaledHeight* but not both is specified, the value y
 
 You can call this method and leave the *scaledWidth* and *scaledHeight* values both as 0. In this case the [UIElement](../windows.ui.xaml/uielement.md) tree will be rendered at its native size. This is the same behavior as the [RenderAsync(UIElement)](rendertargetbitmap_renderasync_1804035726.md) overload.
 
-The maximum rendered size of a XAML visual tree is restricted by the maximum dimensions of a Microsoft DirectX texture; for more info see [Resource Limits ()](http://msdn.microsoft.com/library/80ae49f2-4a6d-4cfc-95d6-510685ab9736). This resource limit can vary depending on the hardware where the app runs. Very large content that exceeds this limit might be scaled to fit. If scaling limits are applied in this way, the rendered size after scaling can be queried using the [PixelWidth](rendertargetbitmap_pixelwidth.md) and [PixelHeight](rendertargetbitmap_pixelheight.md) properties. For example, a 10000 by 10000 pixel XAML visual tree might be scaled to 4096 by 4096 pixels, an example of a particular resource limit on 2D textures being applied.
+The maximum rendered size of a XAML visual tree is restricted by the maximum dimensions of a Microsoft DirectX texture; for more info see [Resource Limits ()](https://msdn.microsoft.com/library/80ae49f2-4a6d-4cfc-95d6-510685ab9736). This resource limit can vary depending on the hardware where the app runs. Very large content that exceeds this limit might be scaled to fit. If scaling limits are applied in this way, the rendered size after scaling can be queried using the [PixelWidth](rendertargetbitmap_pixelwidth.md) and [PixelHeight](rendertargetbitmap_pixelheight.md) properties. For example, a 10000 by 10000 pixel XAML visual tree might be scaled to 4096 by 4096 pixels, an example of a particular resource limit on 2D textures being applied.
 
 ### XAML visuals and **RenderTargetBitmap** capture capabilities
 
@@ -59,4 +59,4 @@ There are a few scenarios for XAML-composed visual content that you can't captur
 ## -examples
 
 ## -see-also
-[RenderAsync(UIElement)](rendertargetbitmap_renderasync_1804035726.md), [XAML render to bitmap sample](http://go.microsoft.com/fwlink/p/?LinkID=309153)
+[RenderAsync(UIElement)](rendertargetbitmap_renderasync_1804035726.md), [XAML render to bitmap sample](https://go.microsoft.com/fwlink/p/?LinkID=309153)

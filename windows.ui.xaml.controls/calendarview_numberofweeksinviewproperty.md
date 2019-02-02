@@ -20,4 +20,4 @@ The identifier for the [NumberOfWeeksInView](calendarview_numberofweeksinview.md
 ## -examples
 
 ## -see-also
-[NumberOfWeeksInView](calendarview_numberofweeksinview.md), [Dependency properties overview](http://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e)
+[NumberOfWeeksInView](calendarview_numberofweeksinview.md), [Dependency properties overview](https://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e)

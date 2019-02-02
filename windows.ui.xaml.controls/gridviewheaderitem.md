@@ -36,4 +36,4 @@ This table shows the resources used by the [GridViewHeaderItem](gridviewheaderit
 ## -examples
 
 ## -see-also
-[ListViewBaseHeaderItem](listviewbaseheaderitem.md), [GridView](gridview.md), [GroupStyle property](itemscontrol_groupstyle.md), [GroupStyle.HeaderTemplate](groupstyle_headertemplate.md), [GridViewHeaderItem styles and templates](http://msdn.microsoft.com/library/4c6fbe0a-3998-4ca3-a018-94dd61e6c91a)
+[ListViewBaseHeaderItem](listviewbaseheaderitem.md), [GridView](gridview.md), [GroupStyle property](itemscontrol_groupstyle.md), [GroupStyle.HeaderTemplate](groupstyle_headertemplate.md), [GridViewHeaderItem styles and templates](https://msdn.microsoft.com/library/4c6fbe0a-3998-4ca3-a018-94dd61e6c91a)

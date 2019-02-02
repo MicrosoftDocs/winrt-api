@@ -20,4 +20,4 @@ The actual pitch of the map. Sometimes the pitch requested by setting the proper
 ## -examples
 
 ## -see-also
-[DesiredPitch](mapcontrol_desiredpitch.md), [Display maps with 2D, 3D, and Streetside views](http://msdn.microsoft.com/library/3839e00b-2c1e-4627-a45f-6dda98d7077f)
+[DesiredPitch](mapcontrol_desiredpitch.md), [Display maps with 2D, 3D, and Streetside views](https://msdn.microsoft.com/library/3839e00b-2c1e-4627-a45f-6dda98d7077f)

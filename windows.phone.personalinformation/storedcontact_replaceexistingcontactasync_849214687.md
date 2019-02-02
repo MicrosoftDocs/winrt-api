@@ -17,14 +17,14 @@ Replaces the contact with the specified ID with the current contact.
 The ID of the contact to replace.
 
 ## -returns
-An asynchronous action. If you use [Asynchronous programming](http://msdn.microsoft.com/library/23fe28f1-89c5-4a17-a732-a722648f9c5e), the result type is **void**.
+An asynchronous action. If you use [Asynchronous programming](https://msdn.microsoft.com/library/23fe28f1-89c5-4a17-a732-a722648f9c5e), the result type is **void**.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
-[Asynchronous programming](http://msdn.microsoft.com/library/23fe28f1-89c5-4a17-a732-a722648f9c5e)
+[Asynchronous programming](https://msdn.microsoft.com/library/23fe28f1-89c5-4a17-a732-a722648f9c5e)
 
 ## -capabilities
 ID_CAP_CONTACTS [Windows Phone]

@@ -15,4 +15,4 @@ Provides classes and other programming elements needed to create properties for 
 
 ## -see-also
 
-[Real-time communication sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620600), [Transcoding media sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/MediaTranscoding)
+[Real-time communication sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620600), [Transcoding media sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/MediaTranscoding)

@@ -24,9 +24,9 @@ The starting project templates include a basic implementation for [OnLaunched](a
 For example code of overrides of [OnLaunched](application_onlaunched_859642554.md), create a new app project and examine the template-created code in the app.xaml code-behind.
 
 > [!NOTE]
-> The app.xaml code-behind from some project templates reference API in a SuspensionManager helper class. In this case, the [OnLaunched](application_onlaunched_859642554.md) override is asynchronous, because some of the SuspensionManager  API it calls is asynchronous. For more info, see [Minimize startup time](http://msdn.microsoft.com/library/b38f6c63-520b-4bf6-a47a-9a4af6303e71).
+> The app.xaml code-behind from some project templates reference API in a SuspensionManager helper class. In this case, the [OnLaunched](application_onlaunched_859642554.md) override is asynchronous, because some of the SuspensionManager  API it calls is asynchronous. For more info, see [Minimize startup time](https://msdn.microsoft.com/library/b38f6c63-520b-4bf6-a47a-9a4af6303e71).
 
 ## -examples
 
 ## -see-also
-[Launching and resuming apps](https://docs.microsoft.com/windows/uwp/launch-resume/), [Handle app prelaunch](http://msdn.microsoft.com/library/a4838ac2-22d7-46ba-9eb2-f3c248e22f52)
+[Launching and resuming apps](https://docs.microsoft.com/windows/uwp/launch-resume/), [Handle app prelaunch](https://msdn.microsoft.com/library/a4838ac2-22d7-46ba-9eb2-f3c248e22f52)

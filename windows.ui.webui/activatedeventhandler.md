@@ -23,4 +23,4 @@ The event information. The data type depends on why the app was activated. For a
 ## -examples
 
 ## -see-also
-[App lifecycle](http://msdn.microsoft.com/library/6c469e77-f1e3-4859-a27b-c326f9616d10), [Onactivated event](http://msdn.microsoft.com/library/8b1cf913-a914-47d1-a690-bc3f0931e9d4), [WebUIApplication](webuiapplication.md), [ActivationKind](../windows.applicationmodel.activation/activationkind.md), [App activated, resume, and suspend using the WRL sample](http://go.microsoft.com/fwlink/p/?linkid=226722)
+[App lifecycle](https://msdn.microsoft.com/library/6c469e77-f1e3-4859-a27b-c326f9616d10), [Onactivated event](https://msdn.microsoft.com/library/8b1cf913-a914-47d1-a690-bc3f0931e9d4), [WebUIApplication](webuiapplication.md), [ActivationKind](../windows.applicationmodel.activation/activationkind.md), [App activated, resume, and suspend using the WRL sample](https://go.microsoft.com/fwlink/p/?linkid=226722)

@@ -10,7 +10,7 @@ public enum Windows.Graphics.DirectX.Direct3D11.Direct3DBindings : uint
 # Direct3DBindings
 
 ## -description
-A Windows Runtime projection of the [D3D11_BIND_FLAG](http://msdn.microsoft.com/library/4ffa1714-bd85-4d5a-930d-20526f46e4b9) enumeration. Identifies the ways in which a resource may be bound to the graphics pipeline.
+A Windows Runtime projection of the [D3D11_BIND_FLAG](https://msdn.microsoft.com/library/4ffa1714-bd85-4d5a-930d-20526f46e4b9) enumeration. Identifies the ways in which a resource may be bound to the graphics pipeline.
 
 ## -enum-fields
 ### -field VertexBuffer:1

@@ -49,7 +49,7 @@ A [Duration](duration.md) value is used for these properties:
 + [VisualTransition.GeneratedDuration](visualtransition_generatedduration.md)
 + [RepeatBehavior.Duration](../windows.ui.xaml.media.animation/repeatbehavior_duration.md)
 + [MediaElement.NaturalDuration](../windows.ui.xaml.controls/mediaelement_naturalduration.md) (this usage isn't part of the storyboarded animation scenario; all the others are)
-For more info on how to use a [Duration](duration.md) as part of a [Timeline](../windows.ui.xaml.media.animation/timeline.md), including code examples, see [Storyboarded animations](http://msdn.microsoft.com/library/0cbceea0-2b0e-44a1-a09a-f7a939632f3a) or [Timeline.Duration](../windows.ui.xaml.media.animation/timeline_duration.md).
+For more info on how to use a [Duration](duration.md) as part of a [Timeline](../windows.ui.xaml.media.animation/timeline.md), including code examples, see [Storyboarded animations](https://msdn.microsoft.com/library/0cbceea0-2b0e-44a1-a09a-f7a939632f3a) or [Timeline.Duration](../windows.ui.xaml.media.animation/timeline_duration.md).
 
 The most common way to use a [Duration](duration.md) value in the Windows Runtime is to set it using a XAML attribute. When you set a value in XAML, you're supplying a string, and the string is parsed using the *hours***:***minutes***:***seconds* string format and its variants as is described in the XAML Syntax sections near the beginning of this reference topic.
 
@@ -87,4 +87,4 @@ Using **Forever** for an animation is a deprecated usage, and is seldom used. Th
 ## -examples
 
 ## -see-also
-[Storyboarded animations](http://msdn.microsoft.com/library/0cbceea0-2b0e-44a1-a09a-f7a939632f3a), [Storyboard](../windows.ui.xaml.media.animation/storyboard.md), [Timeline.Duration](../windows.ui.xaml.media.animation/timeline_duration.md)
+[Storyboarded animations](https://msdn.microsoft.com/library/0cbceea0-2b0e-44a1-a09a-f7a939632f3a), [Storyboard](../windows.ui.xaml.media.animation/storyboard.md), [Timeline.Duration](../windows.ui.xaml.media.animation/timeline_duration.md)

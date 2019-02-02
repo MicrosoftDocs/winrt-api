@@ -15,7 +15,7 @@ Provides functionality for controlling the focus settings on a capture device.
 ## -remarks
 You can find out if a device supports this control by checking [FocusControl.Supported](focuscontrol_supported.md).
 
-If the device does not support the [FocusControl](focuscontrol.md), you can still use the [Focus](videodevicecontroller_focus.md) property on the [VideoCaptureDevice](http://msdn.microsoft.com/library/afba2768-11a0-4105-a5b1-c48bc961e9ed) to set the focus value.
+If the device does not support the [FocusControl](focuscontrol.md), you can still use the [Focus](videodevicecontroller_focus.md) property on the [VideoCaptureDevice](https://msdn.microsoft.com/library/afba2768-11a0-4105-a5b1-c48bc961e9ed) to set the focus value.
 
 You can access the [FocusControl](focuscontrol.md) for the capture device through [MediaCapture.VideoDeviceController](../windows.media.capture/mediacapture_videodevicecontroller.md).
 

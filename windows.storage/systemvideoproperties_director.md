@@ -10,7 +10,7 @@ public string Director { get; }
 # Windows.Storage.SystemVideoProperties.Director
 
 ## -description
-Gets the name of the [System.Video.Director](https://msdn.microsoft.com/library/windows/desktop/bb760040.aspx) property (one of the [Windows video file properties](http://msdn.microsoft.com/library/5d36b057-3712-4d00-99b7-3ddf45620b7a).
+Gets the name of the [System.Video.Director](https://msdn.microsoft.com/library/windows/desktop/bb760040.aspx) property (one of the [Windows video file properties](https://msdn.microsoft.com/library/5d36b057-3712-4d00-99b7-3ddf45620b7a).
 
 ## -property-value
 The name of the [System.Video.Director](https://msdn.microsoft.com/library/windows/desktop/bb760040.aspx) file property.

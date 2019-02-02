@@ -15,4 +15,4 @@ Provides a mechanism for applications to execute when they are not in the foregr
 
 ## -see-also
 
-[Extended execution sample (Windows 10)](http://go.microsoft.com/fwlink/?LinkId=723509)
+[Extended execution sample (Windows 10)](https://go.microsoft.com/fwlink/?LinkId=723509)

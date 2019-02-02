@@ -16,7 +16,7 @@ Contains the windows activation state information returned by the [CoreWindow.Ac
 This object is returned by a delegate registered for the [CoreWindow.Activated](corewindow_activated.md) event.
 
 > [!NOTE]
-> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://go.microsoft.com/fwlink/p/?linkid=258275).
+> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275).
 
 ## -examples
 ```cppwinrt

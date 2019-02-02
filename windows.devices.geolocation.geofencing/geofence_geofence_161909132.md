@@ -29,6 +29,6 @@ The *geoshape* parameter must be a non-null [Geocircle](../windows.devices.geolo
 ## -examples
 
 ## -see-also
-[Geofencing, start to finish](http://msdn.microsoft.com/library/eee6b589-2eab-4279-ac61-22bfa5e06d8e), [Geofence(String, IGeoshape, MonitoredGeofenceStates, Boolean)](geofence_geofence_1541426940.md), [Geofence(String, IGeoshape, MonitoredGeofenceStates, Boolean, TimeSpan)](geofence_geofence_247731772.md), [Geofence(String, IGeoshape, MonitoredGeofenceStates, Boolean, TimeSpan, DateTime, TimeSpan)](geofence_geofence_1118020828.md)
+[Geofencing, start to finish](https://msdn.microsoft.com/library/eee6b589-2eab-4279-ac61-22bfa5e06d8e), [Geofence(String, IGeoshape, MonitoredGeofenceStates, Boolean)](geofence_geofence_1541426940.md), [Geofence(String, IGeoshape, MonitoredGeofenceStates, Boolean, TimeSpan)](geofence_geofence_247731772.md), [Geofence(String, IGeoshape, MonitoredGeofenceStates, Boolean, TimeSpan, DateTime, TimeSpan)](geofence_geofence_1118020828.md)
 ## -capabilities
 location

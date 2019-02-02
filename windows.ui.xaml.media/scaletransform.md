@@ -42,4 +42,4 @@ Here's the rectangle after it's been pressed twice.
 <img src="Images/skewed_rectangle.png" alt="A rectangle with a skew transform applied" />
 
 ## -see-also
-[Transform](transform.md), [XAML two-dimensional transforms sample](http://go.microsoft.com/fwlink/p/?linkid=238580)
+[Transform](transform.md), [XAML two-dimensional transforms sample](https://go.microsoft.com/fwlink/p/?linkid=238580)

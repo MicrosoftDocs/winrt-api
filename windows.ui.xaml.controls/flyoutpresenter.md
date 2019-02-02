@@ -30,4 +30,4 @@ The main purpose of the [FlyoutPresenter](flyoutpresenter.md) class is to be the
 ## -examples
 
 ## -see-also
-[ContentControl](contentcontrol.md), [Flyout](flyout.md), [FlyoutPresenter styles and templates](http://msdn.microsoft.com/library/eefbb325-9c9b-4c52-936a-c009377da75d)
+[ContentControl](contentcontrol.md), [Flyout](flyout.md), [FlyoutPresenter styles and templates](https://msdn.microsoft.com/library/eefbb325-9c9b-4c52-936a-c009377da75d)

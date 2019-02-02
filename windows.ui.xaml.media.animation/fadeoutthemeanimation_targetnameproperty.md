@@ -20,4 +20,4 @@ The identifier for the [TargetName](fadeoutthemeanimation_targetname.md) depende
 ## -examples
 
 ## -see-also
-[Animating fades](http://msdn.microsoft.com/library/21be4a46-8d63-451f-ae34-23c9e11f62da), [Guidelines and checklist for fade animations](http://msdn.microsoft.com/library/975e5ee3-efbe-4159-8d10-3c94143dd07f)
+[Animating fades](https://msdn.microsoft.com/library/21be4a46-8d63-451f-ae34-23c9e11f62da), [Guidelines and checklist for fade animations](https://msdn.microsoft.com/library/975e5ee3-efbe-4159-8d10-3c94143dd07f)

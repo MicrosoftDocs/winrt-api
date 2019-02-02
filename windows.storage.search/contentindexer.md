@@ -23,14 +23,14 @@ You can query over content by using Advanced Query Syntax ([AQS](https://msdn.mi
 
 Don't use the index as a primary data store, the index is only a cache of searchable properties. All data in the index must be stored elsewhere in case the cache is lost. Content is separated per app package and per user. A package can't query another package's data, but the operating system can access any data that is pushed in.
 
-For more information on the properties available to use, see the [Windows Property System](http://msdn.microsoft.com/library/c2094bbe-a4ca-4f30-b16e-14dced2912bc).
+For more information on the properties available to use, see the [Windows Property System](https://msdn.microsoft.com/library/c2094bbe-a4ca-4f30-b16e-14dced2912bc).
 
 ## -examples
 
-[Content indexer sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620524)
+[Content indexer sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620524)
 
 [Video Walkthrough of a demo app](https://channel9.msdn.com/events/Build/2016/P407)
 
 ## -see-also
 
-[ContentIndexerQuery](contentindexerquery.md), [IndexableContent](indexablecontent.md), [QueryOptions](queryoptions.md), [StorageFileQueryResult](storagefilequeryresult.md), [StorageFolderQueryResult](storagefolderqueryresult.md), [StorageItemQueryResult](storageitemqueryresult.md), [Windows Property System](http://msdn.microsoft.com/library/c2094bbe-a4ca-4f30-b16e-14dced2912bc)
+[ContentIndexerQuery](contentindexerquery.md), [IndexableContent](indexablecontent.md), [QueryOptions](queryoptions.md), [StorageFileQueryResult](storagefilequeryresult.md), [StorageFolderQueryResult](storagefolderqueryresult.md), [StorageItemQueryResult](storageitemqueryresult.md), [Windows Property System](https://msdn.microsoft.com/library/c2094bbe-a4ca-4f30-b16e-14dced2912bc)

@@ -20,4 +20,4 @@ Begin starts the animations within the [Storyboard](storyboard.md) from their in
 ## -examples
 
 ## -see-also
-[Stop](storyboard_stop_1201535524.md), [GetCurrentTime](storyboard_getcurrenttime_1338472985.md), [Children](storyboard_children.md), [Storyboarded animations](http://msdn.microsoft.com/library/0cbceea0-2b0e-44a1-a09a-f7a939632f3a)
+[Stop](storyboard_stop_1201535524.md), [GetCurrentTime](storyboard_getcurrenttime_1338472985.md), [Children](storyboard_children.md), [Storyboarded animations](https://msdn.microsoft.com/library/0cbceea0-2b0e-44a1-a09a-f7a939632f3a)

@@ -26,4 +26,4 @@ The device is connected to an associated Wi-Fi Direct device.
 ## -examples
 
 ## -see-also
-[ConnectionStatusChanged](wifidirectdevice_connectionstatuschanged.md), [WiFiDirectDevice sample](http://go.microsoft.com/fwlink/p/?LinkID=301419)
+[ConnectionStatusChanged](wifidirectdevice_connectionstatuschanged.md), [WiFiDirectDevice sample](https://go.microsoft.com/fwlink/p/?LinkID=301419)

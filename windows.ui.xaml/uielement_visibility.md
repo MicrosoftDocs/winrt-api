@@ -48,4 +48,4 @@ A common scenario in apps that use data from a data source is to identify a prop
 
 
 ## -see-also
-[Define layouts with XAML](http://msdn.microsoft.com/library/8d4e4162-1c9c-48f4-8a94-34976fb17079)
+[Define layouts with XAML](https://msdn.microsoft.com/library/8d4e4162-1c9c-48f4-8a94-34976fb17079)

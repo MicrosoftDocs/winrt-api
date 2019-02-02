@@ -37,4 +37,4 @@ When using the Soft Input Panel (SIP), this property enables the following featu
 ## -examples
 
 ## -see-also
-[Touch keyboard text input sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=690716)
+[Touch keyboard text input sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=690716)

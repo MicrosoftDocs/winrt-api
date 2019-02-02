@@ -31,4 +31,4 @@ myVideo.msAddVideoEffect(
 
 
 ## -see-also
-[Effects for video capture](https://msdn.microsoft.com/windows/uwp/audio-video-camera/effects-for-video-capture), [Media extension sample](http://go.microsoft.com/fwlink/p/?linkid=241427)
+[Effects for video capture](https://msdn.microsoft.com/windows/uwp/audio-video-camera/effects-for-video-capture), [Media extension sample](https://go.microsoft.com/fwlink/p/?linkid=241427)

@@ -21,7 +21,7 @@ Represents the visual elements of a [GridViewItem](../windows.ui.xaml.controls/g
 ## -remarks
 The XAML usage shown is intended to be part of a XAML template or style for a [GridView](../windows.ui.xaml.controls/gridview.md) control (or derived type) and its items. For more info, see [GridView](../windows.ui.xaml.controls/gridview.md).
 
-For a custom [GridViewItemPresenter](gridviewitempresenter.md), use the name of your class as the string within the object element syntax for XAML. You'll probably have to map an **xmlns** definition with a prefix to refer to your class definition. For more info, see [XAML namespaces and namespace mapping](http://msdn.microsoft.com/library/a19dff78-e692-47ae-8221-ab5ea9470e8b).
+For a custom [GridViewItemPresenter](gridviewitempresenter.md), use the name of your class as the string within the object element syntax for XAML. You'll probably have to map an **xmlns** definition with a prefix to refer to your class definition. For more info, see [XAML namespaces and namespace mapping](https://msdn.microsoft.com/library/a19dff78-e692-47ae-8221-ab5ea9470e8b).
 
 ## -examples
 

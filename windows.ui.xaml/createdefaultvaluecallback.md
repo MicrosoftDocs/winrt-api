@@ -39,4 +39,4 @@ PropertyMetadata metadata = PropertyMetadata.Create(
 
 
 ## -see-also
-[Custom dependency properties](http://msdn.microsoft.com/library/5adf7935-f2cf-4bb6-b1a5-f535c2ed8ef8), [DependencyProperty.Register](dependencyproperty_register_1826645607.md), [PropertyMetadata](propertymetadata.md)
+[Custom dependency properties](https://msdn.microsoft.com/library/5adf7935-f2cf-4bb6-b1a5-f535c2ed8ef8), [DependencyProperty.Register](dependencyproperty_register_1826645607.md), [PropertyMetadata](propertymetadata.md)

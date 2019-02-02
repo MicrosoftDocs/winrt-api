@@ -39,4 +39,4 @@ You can set a data template for the [Header](passwordbox_header.md) value by usi
 ## -examples
 
 ## -see-also
-[Password](passwordbox_password.md), [HeaderTemplate](passwordbox_headertemplate.md), [PasswordBox styles and templates](http://msdn.microsoft.com/library/2e6e0ed5-c763-4713-8749-0621a123568b)
+[Password](passwordbox_password.md), [HeaderTemplate](passwordbox_headertemplate.md), [PasswordBox styles and templates](https://msdn.microsoft.com/library/2e6e0ed5-c763-4713-8749-0621a123568b)

@@ -109,4 +109,4 @@ public MainPage()
 <!--<auto_snippet sample_id="ComboBoxBoundEx" snippet_id="2"/>-->
 
 ## -see-also
-[Selector](../windows.ui.xaml.controls.primitives/selector.md), [ComboBox styles and templates](http://msdn.microsoft.com/library/42b25b93-a015-4446-bf57-3effdc164171), [ListBox](listbox.md), [Controls list](http://msdn.microsoft.com/library/11172840-a63d-4f48-9db4-7baca06308ee), [Controls by function](http://msdn.microsoft.com/library/8db4347b-91d6-4659-91f2-80ecf7bbb596)
+[Selector](../windows.ui.xaml.controls.primitives/selector.md), [ComboBox styles and templates](https://msdn.microsoft.com/library/42b25b93-a015-4446-bf57-3effdc164171), [ListBox](listbox.md), [Controls list](https://msdn.microsoft.com/library/11172840-a63d-4f48-9db4-7baca06308ee), [Controls by function](https://msdn.microsoft.com/library/8db4347b-91d6-4659-91f2-80ecf7bbb596)

@@ -28,4 +28,4 @@ XML (not escaped)
 ## -examples
 
 ## -see-also
-[Syndication sample](http://go.microsoft.com/fwlink/p/?linkid=245062)
+[Syndication sample](https://go.microsoft.com/fwlink/p/?linkid=245062)

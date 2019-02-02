@@ -20,4 +20,4 @@ Represents text, HTML, or XHTML content. This interface encapsulates elements in
 ## -examples
 
 ## -see-also
-[ISyndicationNode](isyndicationnode.md), [Syndication sample](http://go.microsoft.com/fwlink/p/?linkid=245062)
+[ISyndicationNode](isyndicationnode.md), [Syndication sample](https://go.microsoft.com/fwlink/p/?linkid=245062)

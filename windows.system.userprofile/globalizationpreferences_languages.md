@@ -20,4 +20,4 @@ One or more language identifiers for the user's preferred languages.
 ## -examples
 
 ## -see-also
-[OCR sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620579)
+[OCR sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620579)

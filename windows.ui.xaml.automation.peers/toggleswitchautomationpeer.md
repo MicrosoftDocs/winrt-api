@@ -27,9 +27,9 @@ This peer raises toggle-related automation events on behalf of its owner class.
 
 Although a [ToggleSwitch](../windows.ui.xaml.controls/toggleswitch.md) can have text content, there is no [GetName](automationpeer_getname_1386609741.md) implementation that can use a string representation. You should set a value for automation **Name** using the [AutomationProperties](../windows.ui.xaml.automation/automationproperties.md) attached properties.
 
-The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](http://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4).
+The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](https://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4).
 
 ## -examples
 
 ## -see-also
-[ToggleSwitch](../windows.ui.xaml.controls/toggleswitch.md), [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md), [IToggleProvider](../windows.ui.xaml.automation.provider/itoggleprovider.md), [Custom automation peers](http://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4)
+[ToggleSwitch](../windows.ui.xaml.controls/toggleswitch.md), [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md), [IToggleProvider](../windows.ui.xaml.automation.provider/itoggleprovider.md), [Custom automation peers](https://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4)

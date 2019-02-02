@@ -21,7 +21,7 @@ When the call to this method completes successfully, it returns a [storageFolder
 
 ## -remarks
 > [!WARNING]
-> If you try to show the file picker while your app is snapped the file picker will not be shown and an exception will be thrown. You can avoid this by making sure your app is not snapped or by unsnapping it before you call the file picker. The [FolderPicker](folderpicker.md) code examples and the [File picker sample](http://go.microsoft.com/fwlink/p/?linkid=234890) show you how.
+> If you try to show the file picker while your app is snapped the file picker will not be shown and an exception will be thrown. You can avoid this by making sure your app is not snapped or by unsnapping it before you call the file picker. The [FolderPicker](folderpicker.md) code examples and the [File picker sample](https://go.microsoft.com/fwlink/p/?linkid=234890) show you how.
 
 ## -examples
 

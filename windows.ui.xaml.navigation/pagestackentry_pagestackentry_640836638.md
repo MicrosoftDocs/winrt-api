@@ -29,4 +29,4 @@ Info about the animated transition associated with the navigation entry.
 ## -examples
 
 ## -see-also
-[BackStack](../windows.ui.xaml.controls/frame_backstack.md), [ForwardStack](../windows.ui.xaml.controls/frame_forwardstack.md), [XAML Navigation sample](http://go.microsoft.com/fwlink/p/?LinkID=330214)
+[BackStack](../windows.ui.xaml.controls/frame_backstack.md), [ForwardStack](../windows.ui.xaml.controls/frame_forwardstack.md), [XAML Navigation sample](https://go.microsoft.com/fwlink/p/?LinkID=330214)

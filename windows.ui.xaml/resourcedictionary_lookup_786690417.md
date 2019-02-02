@@ -26,4 +26,4 @@ The value, if an item with the specified key exists. Use the **HasKey** method t
 ## -examples
 
 ## -see-also
-[Item](XREF:TODO:P:System.Collections.Generic.IDictionary`2.Item(`0)), [ResourceDictionary and XAML resource references](http://msdn.microsoft.com/library/e3cbfa3d-6af5-44e1-b9f9-c3d3ea8a25ce)
+[Item](XREF:TODO:P:System.Collections.Generic.IDictionary`2.Item(`0)), [ResourceDictionary and XAML resource references](https://msdn.microsoft.com/library/e3cbfa3d-6af5-44e1-b9f9-c3d3ea8a25ce)

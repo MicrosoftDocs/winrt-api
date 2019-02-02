@@ -28,4 +28,4 @@ Most implementations will choose to implement the selection logic based on the v
 ## -examples
 
 ## -see-also
-[DataTemplate](../windows.ui.xaml/datatemplate.md), [SelectTemplateCore(Object)](datatemplateselector_selecttemplatecore_402628248.md), [Adding ListView and GridView controls](http://msdn.microsoft.com/library/ede8164f-ad0f-4249-b5ab-6f46ca65754a)
+[DataTemplate](../windows.ui.xaml/datatemplate.md), [SelectTemplateCore(Object)](datatemplateselector_selecttemplatecore_402628248.md), [Adding ListView and GridView controls](https://msdn.microsoft.com/library/ede8164f-ad0f-4249-b5ab-6f46ca65754a)

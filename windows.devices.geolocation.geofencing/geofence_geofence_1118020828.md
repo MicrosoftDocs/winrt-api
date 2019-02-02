@@ -46,6 +46,6 @@ If the expiration date for the geofence - which is the start time plus the durat
 ## -examples
 
 ## -see-also
-[Geofencing, start to finish](http://msdn.microsoft.com/library/eee6b589-2eab-4279-ac61-22bfa5e06d8e), [Geofence(String, IGeoshape)](geofence_geofence_161909132.md), [Geofence(String, IGeoshape, MonitoredGeofenceStates, Boolean)](geofence_geofence_1541426940.md), [Geofence(String, IGeoshape, MonitoredGeofenceStates, Boolean, TimeSpan)](geofence_geofence_247731772.md)
+[Geofencing, start to finish](https://msdn.microsoft.com/library/eee6b589-2eab-4279-ac61-22bfa5e06d8e), [Geofence(String, IGeoshape)](geofence_geofence_161909132.md), [Geofence(String, IGeoshape, MonitoredGeofenceStates, Boolean)](geofence_geofence_1541426940.md), [Geofence(String, IGeoshape, MonitoredGeofenceStates, Boolean, TimeSpan)](geofence_geofence_247731772.md)
 ## -capabilities
 location

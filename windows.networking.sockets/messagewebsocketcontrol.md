@@ -86,15 +86,15 @@ clientWebSocket.control.messageType = Windows.Networking.Sockets.SocketMessageTy
 // Now you can call the ConnectAsync method to connect the MessageWebSocket.
 ```
 
-For more information on using [MessageWebSocketControl](messagewebsocketcontrol.md), see [How to use advanced WebSocket controls ](http://msdn.microsoft.com/library/0a47f7c3-66f9-4315-886e-bd1afe77bf39) and [How to use advanced WebSocket controls ](http://msdn.microsoft.com/library/4ab9621e-90e5-420e-88d0-09f1c7239d7a).
+For more information on using [MessageWebSocketControl](messagewebsocketcontrol.md), see [How to use advanced WebSocket controls ](https://msdn.microsoft.com/library/0a47f7c3-66f9-4315-886e-bd1afe77bf39) and [How to use advanced WebSocket controls ](https://msdn.microsoft.com/library/4ab9621e-90e5-420e-88d0-09f1c7239d7a).
 
 ## -examples
 
 ## -see-also
-[How to use advanced WebSocket controls ](http://msdn.microsoft.com/library/0a47f7c3-66f9-4315-886e-bd1afe77bf39),
-[How to use advanced WebSocket controls ](http://msdn.microsoft.com/library/4ab9621e-90e5-420e-88d0-09f1c7239d7a),
+[How to use advanced WebSocket controls ](https://msdn.microsoft.com/library/0a47f7c3-66f9-4315-886e-bd1afe77bf39),
+[How to use advanced WebSocket controls ](https://msdn.microsoft.com/library/4ab9621e-90e5-420e-88d0-09f1c7239d7a),
 [MessageWebSocket](messagewebsocket.md),
 [MessageWebSocket.Control](messagewebsocket_control.md),
 [MessageWebSocketInformation](messagewebsocketinformation.md),
 [WebSockets](/windows/uwp/networking/websockets?branch=live),
-[WebSocket sample](http://go.microsoft.com/fwlink/p/?LinkId=620623)
+[WebSocket sample](https://go.microsoft.com/fwlink/p/?LinkId=620623)

@@ -46,4 +46,4 @@ Before a log file is provided to an app via the [LogFileGenerated](fileloggingse
 
 ## -see-also
 
-[LoggingChannel](loggingchannel.md), [IFileLoggingSession](ifileloggingsession.md), [IClosable](../windows.foundation/iclosable.md), [Logging sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620565)
+[LoggingChannel](loggingchannel.md), [IFileLoggingSession](ifileloggingsession.md), [IClosable](../windows.foundation/iclosable.md), [Logging sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620565)

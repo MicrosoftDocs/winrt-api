@@ -24,4 +24,4 @@ In your app, you'll typically use one of these subclasses of CompositionBrush:
 ## -examples
 
 ## -see-also
-[Composition Brushes Overview](http://msdn.microsoft.com/library/03dd256f-78c0-e1b1-3d9f-7b3afab29b2f), [Composition Effects Overview](http://go.microsoft.com/fwlink/p/?LinkID=692063), [CompositionObject](compositionobject.md), [IClosable](../windows.foundation/iclosable.md)
+[Composition Brushes Overview](https://msdn.microsoft.com/library/03dd256f-78c0-e1b1-3d9f-7b3afab29b2f), [Composition Effects Overview](https://go.microsoft.com/fwlink/p/?LinkID=692063), [CompositionObject](compositionobject.md), [IClosable](../windows.foundation/iclosable.md)

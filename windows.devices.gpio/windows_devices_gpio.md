@@ -15,4 +15,4 @@ Contains types for using general-purpose I/O (GPIO) pins in user mode.
 
 ## -see-also
 
-[General Purpose Input/Output (GPIO) sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=624149)
+[General Purpose Input/Output (GPIO) sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=624149)

@@ -20,4 +20,4 @@ The string "HaniDec", which identifies the Han decimal numeral system. This syst
 ## -examples
 
 ## -see-also
-[NumeralSystem values](http://msdn.microsoft.com/library/69ef3b67-7c16-4d44-9e6a-2c5fde0fdc8f)
+[NumeralSystem values](https://msdn.microsoft.com/library/69ef3b67-7c16-4d44-9e6a-2c5fde0fdc8f)

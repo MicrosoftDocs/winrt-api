@@ -52,4 +52,4 @@ This table shows the resources used by the [MenuFlyoutSubItem](menuflyoutsubitem
 
 ## -see-also
 
-[MenuFlyoutItemBase](menuflyoutitembase.md), [MenuFlyoutSubItem styles and templates](http://msdn.microsoft.com/library/781816dd-3ece-4e4e-8f7a-114053bbf5d9), [Context menu (XAML) sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlContextMenu)
+[MenuFlyoutItemBase](menuflyoutitembase.md), [MenuFlyoutSubItem styles and templates](https://msdn.microsoft.com/library/781816dd-3ece-4e4e-8f7a-114053bbf5d9), [Context menu (XAML) sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlContextMenu)

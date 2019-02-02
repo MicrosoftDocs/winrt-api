@@ -81,7 +81,7 @@ This table shows the resources used by the [Pivot](pivot.md) control.
 > + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
 > + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
 
-For more examples, see the [Pivot sample](http://go.microsoft.com/fwlink/p/?LinkId=619903).
+For more examples, see the [Pivot sample](https://go.microsoft.com/fwlink/p/?LinkId=619903).
 
 This example shows a Pivot with 3 items. It also has a [RightHeader](pivot_rightheader.md) with forward and back buttons that use [SelectedIndex](pivot_selectedindex.md) to let a user navigate through the items.
 

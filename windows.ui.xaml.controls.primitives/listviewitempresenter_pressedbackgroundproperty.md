@@ -20,4 +20,4 @@ The identifier for the [PressedBackground](listviewitempresenter_pressedbackgrou
 ## -examples
 
 ## -see-also
-[PressedBackground](listviewitempresenter_pressedbackground.md), [Dependency properties overview](http://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e)
+[PressedBackground](listviewitempresenter_pressedbackground.md), [Dependency properties overview](https://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e)

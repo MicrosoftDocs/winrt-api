@@ -30,7 +30,7 @@ The remarks for [RequestProductPurchaseAsync(String)](currentappsimulator_reques
 
 To confirm whether the product license is active after a successful call to this overload, use the [LicenseInformation.IsActive](licenseinformation_isactive.md) property.
 
-You can see an example of how to use this method in our [code sample](http://go.microsoft.com/fwlink/p/?linkid=231569).
+You can see an example of how to use this method in our [code sample](https://go.microsoft.com/fwlink/p/?linkid=231569).
 
 ## -examples
 

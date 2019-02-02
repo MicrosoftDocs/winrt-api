@@ -21,7 +21,7 @@ Typically, Windows implicitly initiates updates for files that are provided by o
 
 ## -examples
 
-The [File picker sample](http://go.microsoft.com/fwlink/p/?linkid=234890) shows you how to use a [CachedFileManager](cachedfilemanager.md) to defer updates to a file until the app finishes modifying the file.
+The [File picker sample](https://go.microsoft.com/fwlink/p/?linkid=234890) shows you how to use a [CachedFileManager](cachedfilemanager.md) to defer updates to a file until the app finishes modifying the file.
 
 ```javascript
 
@@ -92,4 +92,4 @@ In the example, `file` is a local variable that contains a [StorageFile](storage
 
 ## -see-also
 
-[File picker sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=619994)
+[File picker sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=619994)

@@ -61,7 +61,7 @@ A related concept is padding. For an object and its bounding box, the margin is 
 + [TextBlock.Padding](../windows.ui.xaml.controls/textblock_padding.md)
 + [RichTextBlock.Padding](../windows.ui.xaml.controls/richtextblock_padding.md)
 + [ItemsPresenter.Padding](../windows.ui.xaml.controls/itemspresenter_padding.md)
- For more info about the relationship between margin and padding, see [Alignment, margin, and padding](http://msdn.microsoft.com/library/9412abd4-3674-4865-b07d-64c7c26e4842) or [Define layouts with XAML](http://msdn.microsoft.com/library/8d4e4162-1c9c-48f4-8a94-34976fb17079).
+ For more info about the relationship between margin and padding, see [Alignment, margin, and padding](https://msdn.microsoft.com/library/9412abd4-3674-4865-b07d-64c7c26e4842) or [Define layouts with XAML](https://msdn.microsoft.com/library/8d4e4162-1c9c-48f4-8a94-34976fb17079).
 
 ## -examples
 This example sets [Margin](frameworkelement_margin.md) in code as part of a larger scenario of creating a UI element at run time, and then setting various layout-related properties. This is often done prior to adding a new element to an existing XAML UI page's object tree. In this case several [Margin](frameworkelement_margin.md) properties are set using a new [Thickness](thickness.md) created with the uniform-value constructor.
@@ -73,5 +73,5 @@ This example sets [Margin](frameworkelement_margin.md) in code as part of a larg
 [!code-vb[GridClassCode](../windows.ui.xaml/code/GridReferenceSample/vbnet/Page.xaml.vb#SnippetGridClassCode)]
 
 ## -see-also
-[Thickness](thickness.md), [Alignment, margin, and padding](http://msdn.microsoft.com/library/9412abd4-3674-4865-b07d-64c7c26e4842), [Define layouts with XAML](http://msdn.microsoft.com/library/8d4e4162-1c9c-48f4-8a94-34976fb17079)
+[Thickness](thickness.md), [Alignment, margin, and padding](https://msdn.microsoft.com/library/9412abd4-3674-4865-b07d-64c7c26e4842), [Define layouts with XAML](https://msdn.microsoft.com/library/8d4e4162-1c9c-48f4-8a94-34976fb17079)
 4162-1c9c-48f4-8a94-34976fb17079)

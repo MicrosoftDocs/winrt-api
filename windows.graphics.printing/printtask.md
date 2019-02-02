@@ -59,9 +59,9 @@ Here is a JavaScript code snippet that shows how to indicate the order in which 
 
 ```
 
-To see the complete listing for this, and other printing scenarios using **PrintTask**, see [Printing](http://msdn.microsoft.com/library/windows/apps/hh465225.aspx).
+To see the complete listing for this, and other printing scenarios using **PrintTask**, see [Printing](https://msdn.microsoft.com/library/windows/apps/hh465225.aspx).
 
 ## -examples
 
 ## -see-also
-[Printing](http://msdn.microsoft.com/library/windows/apps/hh465225.aspx), [PrintManager](printmanager.md)
+[Printing](https://msdn.microsoft.com/library/windows/apps/hh465225.aspx), [PrintManager](printmanager.md)

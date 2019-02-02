@@ -20,4 +20,4 @@ Gets or sets whether to launch your app when the user taps "see more transaction
 ## -examples
 
 ## -see-also
-[Quickstart: Using the   APIs](http://msdn.microsoft.com/library/4312628c-37a3-48a7-b41f-14605d478cf7)
+[Quickstart: Using the   APIs](https://msdn.microsoft.com/library/4312628c-37a3-48a7-b41f-14605d478cf7)

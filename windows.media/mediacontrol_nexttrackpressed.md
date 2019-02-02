@@ -21,4 +21,4 @@ Event raised when a **NextTrack** command is issued to the application.
 ## -examples
 
 ## -see-also
-[How to configure keys for media controls](http://go.microsoft.com/fwlink/p/?linkid=241436)
+[How to configure keys for media controls](https://go.microsoft.com/fwlink/p/?linkid=241436)

@@ -50,4 +50,4 @@ This table shows the resources used by the [MenuFlyoutItem](menuflyoutitem.md) c
 ## -examples
 
 ## -see-also
-[MenuFlyoutItemBase](menuflyoutitembase.md), [MenuFlyout](menuflyout.md), [MenuFlyoutItem styles and templates](http://msdn.microsoft.com/library/fcb179f6-5dc3-4725-a5e2-c034bcfa865b)
+[MenuFlyoutItemBase](menuflyoutitembase.md), [MenuFlyout](menuflyout.md), [MenuFlyoutItem styles and templates](https://msdn.microsoft.com/library/fcb179f6-5dc3-4725-a5e2-c034bcfa865b)

@@ -23,4 +23,4 @@ To access the [RelativePanel.RightOf](relativepanel_rightof.md) attached propert
 ## -examples
 
 ## -see-also
-[RelativePanel.RightOf](relativepanel_rightof.md), [Attached properties overview](http://msdn.microsoft.com/library/098c1de0-d640-48b1-9961-d0adf33266e2)
+[RelativePanel.RightOf](relativepanel_rightof.md), [Attached properties overview](https://msdn.microsoft.com/library/098c1de0-d640-48b1-9961-d0adf33266e2)

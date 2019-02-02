@@ -36,4 +36,4 @@ The brush used to highlight the selected text. The default is a null brush from 
 ## -examples
 
 ## -see-also
-[Use brushes](http://msdn.microsoft.com/library/02141f86-355e-4046-86ea-2a89d615b7db)
+[Use brushes](https://msdn.microsoft.com/library/02141f86-355e-4046-86ea-2a89d615b7db)

@@ -22,7 +22,7 @@ Provides data for drag-and-drop events.
 + [UIElement.DragOver](uielement_dragover.md)
 + [UIElement.Drop](uielement_drop.md)
 
-These events are routed events. Changing the value of the [Handled](drageventargs_handled.md) property of [DragEventArgs](drageventargs.md) from an event handler can influence how a routed event behaves. For more info on the routed event concept, see [Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
+These events are routed events. Changing the value of the [Handled](drageventargs_handled.md) property of [DragEventArgs](drageventargs.md) from an event handler can influence how a routed event behaves. For more info on the routed event concept, see [Events and routed events overview](https://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
 
 The [Control](../windows.ui.xaml.controls/control.md) class has pre-wired event handlers that [Control](../windows.ui.xaml.controls/control.md) derived types can override to provide class-based handling for the drag-drop events, and these methods also use [DragEventArgs](drageventargs.md) as a parameter. These methods are:
 
@@ -37,4 +37,4 @@ The Windows Runtime implementation of drag-drop concepts permits only certain co
 
 ## -see-also
 
-[RoutedEventArgs](routedeventargs.md), [ListViewBase](../windows.ui.xaml.controls/listviewbase.md), [UIElement](uielement.md), [AllowDrop](uielement_allowdrop.md), [Drag and drop sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620634)
+[RoutedEventArgs](routedeventargs.md), [ListViewBase](../windows.ui.xaml.controls/listviewbase.md), [UIElement](uielement.md), [AllowDrop](uielement_allowdrop.md), [Drag and drop sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620634)

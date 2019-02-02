@@ -29,7 +29,7 @@ The typical way to specify a [TargetType](controltemplate_targettype.md) value i
 
 In most cases, you will be setting the [TargetType](controltemplate_targettype.md) for a [ControlTemplate](controltemplate.md) where that [ControlTemplate](controltemplate.md) is within a [Setter](../windows.ui.xaml/setter.md) for the [Template](control_template.md) property. This in turn is within the implicit [Style](../windows.ui.xaml/style.md) you are defining for a control. The [ControlTemplate.TargetType](controltemplate_targettype.md) value and the [Style.TargetType](../windows.ui.xaml/style_targettype.md) value of the containing [Style](../windows.ui.xaml/style.md) should always be the same type reference, referring to the same implicitly named control. Otherwise the control template might not work.
 
-For more info on how to write a control template, see [Quickstart: Control templates](http://msdn.microsoft.com/library/67c424ae-afb1-4560-a6a8-4a3506775d77).
+For more info on how to write a control template, see [Quickstart: Control templates](https://msdn.microsoft.com/library/67c424ae-afb1-4560-a6a8-4a3506775d77).
 
 > [!NOTE]
 > If you have previously programmed XAML for Windows Presentation Foundation (WPF), then you might have used an **x:Type** markup extension to fill in any XAML values that take a [System.Type](https://msdn.microsoft.com/library/system.type.aspx). The Windows Runtime XAML parser does not support **x:Type**. Instead, you should refer to the type by name without using any markup extension, and any necessary XAML-to-backing type conversion is already handled by the built-in conversion behavior described in the previous paragraph.
@@ -46,4 +46,4 @@ Getting a [TargetType](controltemplate_targettype.md) in code is also uncommon, 
 ## -examples
 
 ## -see-also
-[Style.TargetType](../windows.ui.xaml/style_targettype.md), [Quickstart: Control templates](http://msdn.microsoft.com/library/67c424ae-afb1-4560-a6a8-4a3506775d77), [ResourceDictionary and XAML resource references](http://msdn.microsoft.com/library/e3cbfa3d-6af5-44e1-b9f9-c3d3ea8a25ce)
+[Style.TargetType](../windows.ui.xaml/style_targettype.md), [Quickstart: Control templates](https://msdn.microsoft.com/library/67c424ae-afb1-4560-a6a8-4a3506775d77), [ResourceDictionary and XAML resource references](https://msdn.microsoft.com/library/e3cbfa3d-6af5-44e1-b9f9-c3d3ea8a25ce)

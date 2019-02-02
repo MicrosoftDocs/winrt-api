@@ -22,4 +22,4 @@ The data type of the target page, as a type reference ([System.Type](https://msd
 ## -examples
 
 ## -see-also
-[XAML Navigation sample](http://go.microsoft.com/fwlink/p/?LinkID=330214)
+[XAML Navigation sample](https://go.microsoft.com/fwlink/p/?LinkID=330214)

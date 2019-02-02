@@ -31,7 +31,7 @@ The user can enter a single line of non-wrapping text in a [PasswordBox](passwor
 
 Use the [Password](passwordbox_password.md) property to get or set the content of the [PasswordBox](passwordbox.md). Handle the [PasswordChanged](passwordbox_passwordchanged.md) event to get the [Password](passwordbox_password.md) value while the user enters it.
 
-For more info, see [PasswordBox control guide](http://msdn.microsoft.com/library/4bfdecc6-9bc5-4ff5-8c63-bb36f6ddf2ef).
+For more info, see [PasswordBox control guide](https://msdn.microsoft.com/library/4bfdecc6-9bc5-4ff5-8c63-bb36f6ddf2ef).
 
 ### Password reveal mode
 
@@ -41,7 +41,7 @@ Windows 10, version 1607, introduces a new keyboard shortcut for accessibility.
 
 <img src="images/PasswordBox_Revealed.png" alt="A password box with the password shown." />
 
-You can hide the password reveal button, or provide a custom UI to let the user reveal the password. For more info and examples, see [PasswordRevealMode](passwordbox_passwordrevealmode.md) and [PasswordBox control guide](http://msdn.microsoft.com/library/4bfdecc6-9bc5-4ff5-8c63-bb36f6ddf2ef).
+You can hide the password reveal button, or provide a custom UI to let the user reveal the password. For more info and examples, see [PasswordRevealMode](passwordbox_passwordrevealmode.md) and [PasswordBox control guide](https://msdn.microsoft.com/library/4bfdecc6-9bc5-4ff5-8c63-bb36f6ddf2ef).
 
 > [!NOTE]
 > Use the [PasswordRevealMode](passwordbox_passwordrevealmode.md) property instead of the [IsPasswordRevealButtonEnabled](passwordbox_ispasswordrevealbuttonenabled.md) property. [IsPasswordRevealButtonEnabled](passwordbox_ispasswordrevealbuttonenabled.md) is deprecated in Windows 10 and any value is ignored.
@@ -140,4 +140,4 @@ End Sub
 ```
 
 ## -see-also
-[Password box overview](/windows/uwp/design/controls-and-patterns/password-box), [TextBox](textbox.md), [Controls list](http://msdn.microsoft.com/library/11172840-a63d-4f48-9db4-7baca06308ee)
+[Password box overview](/windows/uwp/design/controls-and-patterns/password-box), [TextBox](textbox.md), [Controls list](https://msdn.microsoft.com/library/11172840-a63d-4f48-9db4-7baca06308ee)

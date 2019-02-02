@@ -20,9 +20,9 @@ One of the enumeration values, representing a specific smart card reader type.
 The Advanced Query Syntax (AQS) string representing a set of the specified type of smart card readers connected to the device.
 
 ## -remarks
-For info about AQS, see [Using Advanced Query Syntax Programmatically](http://msdn.microsoft.com/library/76e33903-d063-48c0-9afe-912c3daa8237).
+For info about AQS, see [Using Advanced Query Syntax Programmatically](https://msdn.microsoft.com/library/76e33903-d063-48c0-9afe-912c3daa8237).
 
 ## -examples
 
 ## -see-also
-[GetDeviceSelector](smartcardreader_getdeviceselector_838466080.md), [Create an NFC Smart Card app](http://msdn.microsoft.com/library/26834a51-512b-485b-84c8-abf713787588)
+[GetDeviceSelector](smartcardreader_getdeviceselector_838466080.md), [Create an NFC Smart Card app](https://msdn.microsoft.com/library/26834a51-512b-485b-84c8-abf713787588)

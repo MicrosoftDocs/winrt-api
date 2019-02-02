@@ -43,4 +43,4 @@ This XAML defines a [Matrix](../windows.ui.xaml.media/matrix.md) that provides d
 [!code-xml[matrixtransform](../windows.ui.xaml/code/matrixtransform/csharp/Page.xaml#Snippetmatrixtransform)]
 
 ## -see-also
-[TranslateTransform](../windows.ui.xaml.media/translatetransform.md), [XAML two-dimensional transforms sample](http://go.microsoft.com/fwlink/p/?linkid=226868)
+[TranslateTransform](../windows.ui.xaml.media/translatetransform.md), [XAML two-dimensional transforms sample](https://go.microsoft.com/fwlink/p/?linkid=226868)

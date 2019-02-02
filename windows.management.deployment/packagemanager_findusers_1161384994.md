@@ -215,7 +215,7 @@ void SidToAccountName(wstring sidString, wstring& stringSid)
 ```
 
 ## -see-also
-[Enumerate app packages sample](http://code.msdn.microsoft.com/windowsdesktop/Package-Manager-Inventory-ee821079), [Enumerate app packages by name and publisher sample](http://code.msdn.microsoft.com/windowsdesktop/Package-Manager-Inventory-fe747b8a)
+[Enumerate app packages sample](https://code.msdn.microsoft.com/windowsdesktop/Package-Manager-Inventory-ee821079), [Enumerate app packages by name and publisher sample](https://code.msdn.microsoft.com/windowsdesktop/Package-Manager-Inventory-fe747b8a)
 
 ## -capabilities
 packageManagement

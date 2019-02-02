@@ -21,7 +21,7 @@ You can access information about the requested update by using the [FileUpdateRe
 If you need user input to complete the update, set the [FileUpdateRequest.Status](fileupdaterequest_status.md) to [FileUpdateStatus.UserInputNeeded](fileupdatestatus.md) and complete the request. If user interaction is available, another [FileUpdateRequested](cachedfileupdaterui_fileupdaterequested.md) will fire and your app can obtain user input and complete the request.
 
 ## -examples
-The [File picker contracts sample](http://go.microsoft.com/fwlink/p/?linkid=231536) demonstrates how to respond to a [FileUpdateRequested](cachedfileupdaterui_fileupdaterequested.md) event.
+The [File picker contracts sample](https://go.microsoft.com/fwlink/p/?linkid=231536) demonstrates how to respond to a [FileUpdateRequested](cachedfileupdaterui_fileupdaterequested.md) event.
 
 ```csharp
 

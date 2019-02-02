@@ -19,10 +19,10 @@ The new settings for local content suggestions.
 ## -remarks
 When local content suggestions are enabled, Windows provides search suggestions from the user's local files as the user enters query text. For example, a picture application can configure local content suggestions so that search suggestions come only from a particular kind of image file that is stored in the user's picture library.
 
-To search a local library, the appropriate capability must be declared in the app manifest. For more info, see [App capability declarations](http://msdn.microsoft.com/library/25b18ba5-e584-4537-9f19-bb2c8c52dfe1).
+To search a local library, the appropriate capability must be declared in the app manifest. For more info, see [App capability declarations](https://msdn.microsoft.com/library/25b18ba5-e584-4537-9f19-bb2c8c52dfe1).
 
 ## -examples
-Here, suggestions are restricted to one kind of file, music files, using an AQS string. Two of the most common AQS filters restrict based on file kind, like "kind:music" in the example; and based on file name extension, like "ext:.mp3". You can learn more about AQS in [Advanced Query Syntax](http://msdn.microsoft.com/library/8e55bd40-c7cf-44a6-bc18-24bc7a267779).
+Here, suggestions are restricted to one kind of file, music files, using an AQS string. Two of the most common AQS filters restrict based on file kind, like "kind:music" in the example; and based on file name extension, like "ext:.mp3". You can learn more about AQS in [Advanced Query Syntax](https://msdn.microsoft.com/library/8e55bd40-c7cf-44a6-bc18-24bc7a267779).
 
 ```csharp
 public MainPage()

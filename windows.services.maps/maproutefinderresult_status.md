@@ -20,4 +20,4 @@ The status of a [MapRouteFinder](maproutefinder.md) query.
 ## -examples
 
 ## -see-also
-[Display  routes and directions on a map](http://msdn.microsoft.com/library/bbb4c23a-8f10-41d1-81ea-271be01aed81)
+[Display  routes and directions on a map](https://msdn.microsoft.com/library/bbb4c23a-8f10-41d1-81ea-271be01aed81)

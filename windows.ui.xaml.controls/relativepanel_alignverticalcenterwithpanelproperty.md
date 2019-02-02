@@ -23,4 +23,4 @@ To access the [RelativePanel.AlignVerticalCenterWithPanel](relativepanel_alignve
 ## -examples
 
 ## -see-also
-[RelativePanel.AlignVerticalCenterWithPanel](relativepanel_alignverticalcenterwithpanel.md), [Attached properties overview](http://msdn.microsoft.com/library/098c1de0-d640-48b1-9961-d0adf33266e2)
+[RelativePanel.AlignVerticalCenterWithPanel](relativepanel_alignverticalcenterwithpanel.md), [Attached properties overview](https://msdn.microsoft.com/library/098c1de0-d640-48b1-9961-d0adf33266e2)

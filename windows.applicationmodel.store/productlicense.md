@@ -51,4 +51,4 @@ DateTimeOffset expirationDate = inAppOfferLicense.ExpirationDate;
 
 
 ## -see-also
-[Store sample ()](https://github.com/Microsoft/Windows-universal-samples/tree/win10-1507/Samples/Store), [Trial app and in-app purchase sample ()](http://go.microsoft.com/fwlink/p/?LinkID=144754), [Enable in-app product purchases](https://msdn.microsoft.com/windows/uwp/monetize/enable-in-app-product-purchases)
+[Store sample ()](https://github.com/Microsoft/Windows-universal-samples/tree/win10-1507/Samples/Store), [Trial app and in-app purchase sample ()](https://go.microsoft.com/fwlink/p/?LinkID=144754), [Enable in-app product purchases](https://msdn.microsoft.com/windows/uwp/monetize/enable-in-app-product-purchases)

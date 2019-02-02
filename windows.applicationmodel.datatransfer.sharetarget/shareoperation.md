@@ -23,7 +23,7 @@ An app currently open as a Share target cannot initiate an additional [ShareOper
 All ShareOperation APIs should only be called after the CoreWindow for the Share target has been [activated](../windows.ui.core/corewindow_activated.md). The Share platform creates an entry for share operation only after the window has been activated.
 
 > [!NOTE]
-> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://go.microsoft.com/fwlink/p/?linkid=258275) and [Using Windows Runtime objects in a multithreaded environment (.NET)](http://go.microsoft.com/fwlink/p/?linkid=258277).
+> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
 
 ## -examples
 
@@ -33,4 +33,4 @@ The following example shows how to work with the [ShareOperation](shareoperation
 
 ## -see-also
 
-[Sharing content source app sample](http://go.microsoft.com/fwlink/p/?linkid=231511), [Sharing content target app sample](http://go.microsoft.com/fwlink/p/?linkid=231519), [Quickstart: Sharing content ](http://msdn.microsoft.com/library/594cd09c-19d4-4f7e-996a-e8e2489170dd), [Share data](http://msdn.microsoft.com/library/32287f5e-eb86-4b98-97ff-8f6228d06782), [Quickstart: Receiving shared content ](http://msdn.microsoft.com/library/84d45bb6-2784-4b5f-8b13-debf786a0304), [Receive data](http://msdn.microsoft.com/library/0aff9e0d-dff4-4018-b393-a26b11afdb41), [Sharing content target app sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620597), [Sharing content source app sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620596), [App package information sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620581)
+[Sharing content source app sample](https://go.microsoft.com/fwlink/p/?linkid=231511), [Sharing content target app sample](https://go.microsoft.com/fwlink/p/?linkid=231519), [Quickstart: Sharing content ](https://msdn.microsoft.com/library/594cd09c-19d4-4f7e-996a-e8e2489170dd), [Share data](https://msdn.microsoft.com/library/32287f5e-eb86-4b98-97ff-8f6228d06782), [Quickstart: Receiving shared content ](https://msdn.microsoft.com/library/84d45bb6-2784-4b5f-8b13-debf786a0304), [Receive data](https://msdn.microsoft.com/library/0aff9e0d-dff4-4018-b393-a26b11afdb41), [Sharing content target app sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620597), [Sharing content source app sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620596), [App package information sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620581)

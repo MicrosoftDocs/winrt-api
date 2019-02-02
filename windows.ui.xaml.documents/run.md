@@ -29,9 +29,9 @@ When you use a [TextBlock](../windows.ui.xaml.controls/textblock.md), set the [T
 For more examples, see
 
 + [TextBlock](../windows.ui.xaml.controls/textblock.md)
-+ [TextBlock control guide](http://msdn.microsoft.com/library/da562509-d893-425a-aae6-b2ae9e9f8a19)
++ [TextBlock control guide](https://msdn.microsoft.com/library/da562509-d893-425a-aae6-b2ae9e9f8a19)
 + [RichTextBlock](../windows.ui.xaml.controls/richtextblock.md)
-+ [RichTextBlock control guide](http://msdn.microsoft.com/library/e4be4b1b-418e-4075-88f1-22c09ddf8e45)
++ [RichTextBlock control guide](https://msdn.microsoft.com/library/e4be4b1b-418e-4075-88f1-22c09ddf8e45)
 
 
 ## -examples

@@ -24,7 +24,7 @@ Occurs when a single, composed character is received by the input queue.
 > [!NOTE]
 > A composed character is a single visual object derived from a sequence of one or more other characters.
 
-[CharacterReceived](uielement_characterreceived.md) is a routed event. For more info on the routed event concept, see [Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
+[CharacterReceived](uielement_characterreceived.md) is a routed event. For more info on the routed event concept, see [Events and routed events overview](https://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
 
 Apps do not receive this event when an [Input Method Editor (IME)](https://msdn.microsoft.com/library/windows/apps/5fcc73e6-f499-47e6-8e81-0014ca4d241c) is enabled. The Input Method Editor (IME) handles all keyboard input and sets [Handled](../windows.ui.xaml.input/characterreceivedroutedeventargs_handled.md) to true.
 

@@ -20,4 +20,4 @@ Because it's a class, [IRawElementProviderSimple](irawelementprovidersimple.md) 
 ## -examples
 
 ## -see-also
-[DependencyObject](../windows.ui.xaml/dependencyobject.md), [IRawElementProviderSimple (COM interface)](http://msdn.microsoft.com/library/f0ec6185-acd0-4df7-88f4-fd00747f98bf), [FindItemByProperty](iitemcontainerprovider_finditembyproperty_1997743353.md)
+[DependencyObject](../windows.ui.xaml/dependencyobject.md), [IRawElementProviderSimple (COM interface)](https://msdn.microsoft.com/library/f0ec6185-acd0-4df7-88f4-fd00747f98bf), [FindItemByProperty](iitemcontainerprovider_finditembyproperty_1997743353.md)

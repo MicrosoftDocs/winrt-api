@@ -46,4 +46,4 @@ var advertisingId = Windows.System.UserProfile.AdvertisingManager.advertisingId;
 ## -examples
 
 ## -see-also
-[Microsoft Advertising SDK](http://aka.ms/ads-sdk-uwp), [Microsoft Store policies for advertising conduct and content](https://msdn.microsoft.com/library/windows/apps/dn764944.aspx#pol_10_10)
+[Microsoft Advertising SDK](https://aka.ms/ads-sdk-uwp), [Microsoft Store policies for advertising conduct and content](https://msdn.microsoft.com/library/windows/apps/dn764944.aspx#pol_10_10)

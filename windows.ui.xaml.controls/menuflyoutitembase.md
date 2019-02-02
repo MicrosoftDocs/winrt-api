@@ -22,4 +22,4 @@ There are three elements that you can use to compose the menu items in a [MenuFl
 ## -examples
 
 ## -see-also
-[Control](control.md), [MenuFlyoutItem](menuflyoutitem.md), [MenuFlyoutSeparator](menuflyoutseparator.md), [ToggleMenuFlyoutItem](togglemenuflyoutitem.md), [Quickstart: Adding a MenuFlyout](http://msdn.microsoft.com/library/0261a056-9b91-41f7-88ff-a104cbb9ac26)
+[Control](control.md), [MenuFlyoutItem](menuflyoutitem.md), [MenuFlyoutSeparator](menuflyoutseparator.md), [ToggleMenuFlyoutItem](togglemenuflyoutitem.md), [Quickstart: Adding a MenuFlyout](https://msdn.microsoft.com/library/0261a056-9b91-41f7-88ff-a104cbb9ac26)

@@ -19,7 +19,7 @@ public class CaptureElement : Windows.UI.Xaml.FrameworkElement, Windows.UI.Xaml.
 
 
 ## -remarks
- [CaptureElement](captureelement.md) is used in conjunction with the [Windows.Media.Capture.MediaCapture](../windows.media.capture/mediacapture.md)  API. Make sure your project has specified device capabilities for Webcam and Microphone to use this API. For more info on how to use [CaptureElement](captureelement.md), see [Capture photos and video with MediaCapture](http://msdn.microsoft.com/library/1361e82a-202f-40f7-9239-56f00dfca54b).
+ [CaptureElement](captureelement.md) is used in conjunction with the [Windows.Media.Capture.MediaCapture](../windows.media.capture/mediacapture.md)  API. Make sure your project has specified device capabilities for Webcam and Microphone to use this API. For more info on how to use [CaptureElement](captureelement.md), see [Capture photos and video with MediaCapture](https://msdn.microsoft.com/library/1361e82a-202f-40f7-9239-56f00dfca54b).
 
 Use the [MediaCapture](../windows.media.capture/mediacapture.md) object to control the stream and set options on the capture device. The [CaptureElement](captureelement.md) is the UI portion of the stream that is associated with the [MediaCapture](../windows.media.capture/mediacapture.md).
 
@@ -62,4 +62,4 @@ private async void Button_Click(object sender, RoutedEventArgs e)
 
 
 ## -see-also
-[FrameworkElement](../windows.ui.xaml/frameworkelement.md), [MediaCapture](../windows.media.capture/mediacapture.md), [Capture photos and video with MediaCapture](http://msdn.microsoft.com/library/1361e82a-202f-40f7-9239-56f00dfca54b), [Media capture sample](http://go.microsoft.com/fwlink/p/?linkid=241428), [Camera capture UI sample](http://go.microsoft.com/fwlink/p/?linkid=249441), [Call asynchronous APIs in C# or Visual Basic](http://msdn.microsoft.com/library/066711e0-d5c4-467e-8683-3cc64edbcc83)
+[FrameworkElement](../windows.ui.xaml/frameworkelement.md), [MediaCapture](../windows.media.capture/mediacapture.md), [Capture photos and video with MediaCapture](https://msdn.microsoft.com/library/1361e82a-202f-40f7-9239-56f00dfca54b), [Media capture sample](https://go.microsoft.com/fwlink/p/?linkid=241428), [Camera capture UI sample](https://go.microsoft.com/fwlink/p/?linkid=249441), [Call asynchronous APIs in C# or Visual Basic](https://msdn.microsoft.com/library/066711e0-d5c4-467e-8683-3cc64edbcc83)

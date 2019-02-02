@@ -17,4 +17,4 @@ For how-to guidance on adding media editing to your app, see [Media compositions
 
 ## -see-also
 
-[Media editing sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620567), [Media compositions and editing](https://msdn.microsoft.com/windows/uwp/audio-video-camera/media-compositions-and-editing)
+[Media editing sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620567), [Media compositions and editing](https://msdn.microsoft.com/windows/uwp/audio-video-camera/media-compositions-and-editing)

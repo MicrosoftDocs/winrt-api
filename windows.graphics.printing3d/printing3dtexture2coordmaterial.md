@@ -14,7 +14,7 @@ public class Printing3DTexture2CoordMaterial : Windows.Graphics.Printing3D.IPrin
 Represents a 2D texture material used in the 3D model.
 
 ## -remarks
-The [Printing3DTexture2CoordMaterial](printing3dtexture2coordmaterial.md) class corresponds to the `<tex2coord>` element in the 3D Manufacturing Format (3MF) specification. For more info, see the [3MF Specification](http://go.microsoft.com/fwlink/p/?LinkId=616252).
+The [Printing3DTexture2CoordMaterial](printing3dtexture2coordmaterial.md) class corresponds to the `<tex2coord>` element in the 3D Manufacturing Format (3MF) specification. For more info, see the [3MF Specification](https://go.microsoft.com/fwlink/p/?LinkId=616252).
 
 ## -examples
 

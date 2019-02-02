@@ -36,4 +36,4 @@ This table shows the resources used by the [ListViewHeaderItem](listviewheaderit
 ## -examples
 
 ## -see-also
-[ListViewBaseHeaderItem](listviewbaseheaderitem.md), [ListView](listview.md), [GroupStyle property](itemscontrol_groupstyle.md), [GroupStyle.HeaderTemplate](groupstyle_headertemplate.md), [ListViewHeaderItem styles and templates](http://msdn.microsoft.com/library/8dd286a3-1d89-455e-bd08-0f87f7a32112)
+[ListViewBaseHeaderItem](listviewbaseheaderitem.md), [ListView](listview.md), [GroupStyle property](itemscontrol_groupstyle.md), [GroupStyle.HeaderTemplate](groupstyle_headertemplate.md), [ListViewHeaderItem styles and templates](https://msdn.microsoft.com/library/8dd286a3-1d89-455e-bd08-0f87f7a32112)

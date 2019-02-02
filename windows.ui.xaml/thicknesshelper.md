@@ -20,4 +20,4 @@ Provides helper methods to evaluate or set [Thickness](thickness.md) values. C# 
 ## -examples
 
 ## -see-also
-[Thickness](thickness.md), [Margin](frameworkelement_margin.md), [Padding](../windows.ui.xaml.controls/control_padding.md), [Define layouts with XAML](http://msdn.microsoft.com/library/8d4e4162-1c9c-48f4-8a94-34976fb17079)
+[Thickness](thickness.md), [Margin](frameworkelement_margin.md), [Padding](../windows.ui.xaml.controls/control_padding.md), [Define layouts with XAML](https://msdn.microsoft.com/library/8d4e4162-1c9c-48f4-8a94-34976fb17079)

@@ -82,12 +82,12 @@ clientSocket.control.noDelay = false;
 // Now you can call the ConnectAsync method to connect the StreamWebSocket.
 ```
 
-For more information on using [StreamSocketControl](streamsocketcontrol.md), see [How to use advanced socket controls ](http://msdn.microsoft.com/library/2e1071d8-a1c7-44c0-b93a-31a701d431c4) and [How to use advanced socket controls ](http://msdn.microsoft.com/library/f2c5be73-3461-452e-a38f-d2ddef9b5682).
+For more information on using [StreamSocketControl](streamsocketcontrol.md), see [How to use advanced socket controls ](https://msdn.microsoft.com/library/2e1071d8-a1c7-44c0-b93a-31a701d431c4) and [How to use advanced socket controls ](https://msdn.microsoft.com/library/f2c5be73-3461-452e-a38f-d2ddef9b5682).
 
 ## -examples
 
 ## -see-also
-[Connecting with sockets ](http://msdn.microsoft.com/library/67cfa78f-570f-4dd4-a0f2-cd6c891f5446), [Connecting with sockets ](http://msdn.microsoft.com/library/2a6448d0-e21f-4963-bca5-aae001ae4fc7), [How to use advanced socket controls ](http://msdn.microsoft.com/library/2e1071d8-a1c7-44c0-b93a-31a701d431c4), [How to use advanced socket controls ](http://msdn.microsoft.com/library/f2c5be73-3461-452e-a38f-d2ddef9b5682), [StreamSocket](streamsocket.md), [StreamSocket.Control](streamsocket_control.md), [StreamSocketInformation](datagramsocketinformation.md), [ControlChannelTrigger StreamSocket sample](http://go.microsoft.com/fwlink/p/?linkid=243039), [StreamSocket sample](http://go.microsoft.com/fwlink/p/?linkid=243037)
+[Connecting with sockets ](https://msdn.microsoft.com/library/67cfa78f-570f-4dd4-a0f2-cd6c891f5446), [Connecting with sockets ](https://msdn.microsoft.com/library/2a6448d0-e21f-4963-bca5-aae001ae4fc7), [How to use advanced socket controls ](https://msdn.microsoft.com/library/2e1071d8-a1c7-44c0-b93a-31a701d431c4), [How to use advanced socket controls ](https://msdn.microsoft.com/library/f2c5be73-3461-452e-a38f-d2ddef9b5682), [StreamSocket](streamsocket.md), [StreamSocket.Control](streamsocket_control.md), [StreamSocketInformation](datagramsocketinformation.md), [ControlChannelTrigger StreamSocket sample](https://go.microsoft.com/fwlink/p/?linkid=243039), [StreamSocket sample](https://go.microsoft.com/fwlink/p/?linkid=243037)
 
 ## -capabilities
 ID_CAP_NETWORKING [Windows Phone], bluetooth.rfcomm

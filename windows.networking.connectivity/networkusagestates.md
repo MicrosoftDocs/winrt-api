@@ -23,7 +23,7 @@ Defines the desired sharing state of the network connection.
     
 
 ## -remarks
-The Shared [NetworkUsageState](networkusagestates.md) corresponds to when a network connection is made available to provide internet access for other devices. For an example of how [NetworkUsageStates](networkusagestates.md) is used, see [How to retrieve connection usage data for a specific period of time](http://msdn.microsoft.com/library/c9409429-7712-42e9-a2af-3940a7375c21).
+The Shared [NetworkUsageState](networkusagestates.md) corresponds to when a network connection is made available to provide internet access for other devices. For an example of how [NetworkUsageStates](networkusagestates.md) is used, see [How to retrieve connection usage data for a specific period of time](https://msdn.microsoft.com/library/c9409429-7712-42e9-a2af-3940a7375c21).
 
 ## -examples
 

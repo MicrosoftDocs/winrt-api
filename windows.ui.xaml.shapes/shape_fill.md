@@ -45,4 +45,4 @@ A [Brush](../windows.ui.xaml.media/brush.md) that paints/fills the shape interio
 ## -examples
 
 ## -see-also
-[Stroke](shape_stroke.md), [Use brushes](http://msdn.microsoft.com/library/02141f86-355e-4046-86ea-2a89d615b7db)
+[Stroke](shape_stroke.md), [Use brushes](https://msdn.microsoft.com/library/02141f86-355e-4046-86ea-2a89d615b7db)

@@ -31,7 +31,7 @@ The [RichTextBlock](richtextblock.md) control displays read-only text, and provi
 
 [TextBlock](textblock.md) provides a simpler content model, so it’s typically easier to use, and it can provide better text rendering performance than [RichTextBlock](richtextblock.md). It also provides many of the same formatting options for customizing how your text is rendered. However, [RichTextBlock](richtextblock.md) provides several unique features that [TextBlock](textblock.md) doesn’t provide.
 
-For more info and examples, see the [RichTextBlock control guide](http://msdn.microsoft.com/library/e4be4b1b-418e-4075-88f1-22c09ddf8e45).
+For more info and examples, see the [RichTextBlock control guide](https://msdn.microsoft.com/library/e4be4b1b-418e-4075-88f1-22c09ddf8e45).
 
 ### Paragraphs and formatting
 
@@ -191,4 +191,4 @@ Here, a [RichTextBlock](richtextblock.md) targets a [RichTextBlockOverflow](rich
 [!code-xml[RichTextOverflow](../windows.ui.xaml.controls/code/TextDisplaySnippets/CS/MainPage.xaml#SnippetRichTextOverflow)]
 
 ## -see-also
-[Rich text block overview](/windows/uwp/design/controls-and-patterns/rich-text-block), [Paragraph](../windows.ui.xaml.documents/paragraph.md), [OverflowContentTarget](richtextblock_overflowcontenttarget.md), [RichTextBlockOverflow](richtextblockoverflow.md), [RichTextBlockOverflow.OverflowContentTarget](richtextblockoverflow_overflowcontenttarget.md), [XAML text display sample](http://go.microsoft.com/fwlink/p/?linkid=238579)
+[Rich text block overview](/windows/uwp/design/controls-and-patterns/rich-text-block), [Paragraph](../windows.ui.xaml.documents/paragraph.md), [OverflowContentTarget](richtextblock_overflowcontenttarget.md), [RichTextBlockOverflow](richtextblockoverflow.md), [RichTextBlockOverflow.OverflowContentTarget](richtextblockoverflow_overflowcontenttarget.md), [XAML text display sample](https://go.microsoft.com/fwlink/p/?linkid=238579)

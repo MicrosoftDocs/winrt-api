@@ -20,9 +20,9 @@ Standard [Windows.UI.Input.Inking](../windows.ui.input.inking/windows_ui_input_i
 
 Use the [Windows.UI.Input.Inking.Core](windows_ui_input_inking_core.md) pointer events to intercept raw pointer data and suppress, or cancel, ink rendering at any point along a stroke. This can be useful when protecting existing ink strokes or providing custom gesture support, such as press and hold, without creating ink artifacts.
 
-Input from various devices (including touch, pen, and mouse) is received, processed, and managed as pointer input. User interactions from any of these devices can produce the following events. For more info, see [Handle pointer input](http://msdn.microsoft.com/library/bdbc9e33-4037-4671-9596-471dcf855c82).
+Input from various devices (including touch, pen, and mouse) is received, processed, and managed as pointer input. User interactions from any of these devices can produce the following events. For more info, see [Handle pointer input](https://msdn.microsoft.com/library/bdbc9e33-4037-4671-9596-471dcf855c82).
 
 ## -examples
 
 ## -see-also
-[Windows.UI.Input.Inking.Core classes](windows_ui_input_inking_core_classes.md), [Pen and stylus interactions](http://msdn.microsoft.com/library/3da4f2d2-5405-42a1-9ed9-3a87bcd84c43), [Ink sample](http://go.microsoft.com/fwlink/p/?LinkID=620308), [Simple ink sample](http://go.microsoft.com/fwlink/p/?LinkID=620312), [Complex ink sample](http://go.microsoft.com/fwlink/p/?LinkID=620314)
+[Windows.UI.Input.Inking.Core classes](windows_ui_input_inking_core_classes.md), [Pen and stylus interactions](https://msdn.microsoft.com/library/3da4f2d2-5405-42a1-9ed9-3a87bcd84c43), [Ink sample](https://go.microsoft.com/fwlink/p/?LinkID=620308), [Simple ink sample](https://go.microsoft.com/fwlink/p/?LinkID=620312), [Complex ink sample](https://go.microsoft.com/fwlink/p/?LinkID=620314)

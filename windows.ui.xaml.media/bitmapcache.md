@@ -40,4 +40,4 @@ canvas1->CacheMode = ref new BitmapCache(); //canvas1 is an existing named eleme
 ```
 
 ## -see-also
-[UIElement.CacheMode](../windows.ui.xaml/uielement_cachemode.md), [IsOverdrawHeatMapEnabled](../windows.ui.xaml/debugsettings_isoverdrawheatmapenabled.md), [Optimize your XAML markup](http://msdn.microsoft.com/library/569e8c27-fa01-41d8-80b9-1e3e637d5b99)
+[UIElement.CacheMode](../windows.ui.xaml/uielement_cachemode.md), [IsOverdrawHeatMapEnabled](../windows.ui.xaml/debugsettings_isoverdrawheatmapenabled.md), [Optimize your XAML markup](https://msdn.microsoft.com/library/569e8c27-fa01-41d8-80b9-1e3e637d5b99)

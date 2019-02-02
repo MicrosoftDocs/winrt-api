@@ -20,4 +20,4 @@ Provides helper methods to evaluate or set [GridLength](gridlength.md) values. C
 ## -examples
 
 ## -see-also
-[Grid](../windows.ui.xaml.controls/grid.md), [GridLength](gridlengthhelper.md), [Define layouts with XAML](http://msdn.microsoft.com/library/8d4e4162-1c9c-48f4-8a94-34976fb17079)
+[Grid](../windows.ui.xaml.controls/grid.md), [GridLength](gridlengthhelper.md), [Define layouts with XAML](https://msdn.microsoft.com/library/8d4e4162-1c9c-48f4-8a94-34976fb17079)

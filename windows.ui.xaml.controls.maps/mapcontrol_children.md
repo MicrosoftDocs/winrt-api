@@ -20,9 +20,9 @@ Display XAML user interface elements such as a [Button](../windows.ui.xaml.contr
 
 Alternately, to display pushpins, images, and shapes on the [MapControl](mapcontrol.md), add them to its [MapElements](mapcontrol_mapelements.md) collection.
 
-For more info, see [Display maps with 2D, 3D, and Streetside views](http://msdn.microsoft.com/library/3839e00b-2c1e-4627-a45f-6dda98d7077f).
+For more info, see [Display maps with 2D, 3D, and Streetside views](https://msdn.microsoft.com/library/3839e00b-2c1e-4627-a45f-6dda98d7077f).
 
 ## -examples
 
 ## -see-also
-[Display maps with 2D, 3D, and Streetside views](http://msdn.microsoft.com/library/3839e00b-2c1e-4627-a45f-6dda98d7077f)
+[Display maps with 2D, 3D, and Streetside views](https://msdn.microsoft.com/library/3839e00b-2c1e-4627-a45f-6dda98d7077f)

@@ -52,4 +52,4 @@ Here's a [GridView](gridview.md) that contains 6 rectangles that a user can reor
 
 
 ## -see-also
-[AllowDrop](../windows.ui.xaml/uielement_allowdrop.md), [CanDragItems](listviewbase_candragitems.md), [Drag and drop sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620634)
+[AllowDrop](../windows.ui.xaml/uielement_allowdrop.md), [CanDragItems](listviewbase_candragitems.md), [Drag and drop sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620634)

@@ -29,4 +29,4 @@ You can enable multi-line text in a [TextBox](textbox.md) control by using the [
 ## -examples
 
 ## -see-also
-[Display and edit text](http://msdn.microsoft.com/library/abb02e08-a40a-4973-8a7e-caeb3c694db3), [ScrollViewer](scrollviewer.md)
+[Display and edit text](https://msdn.microsoft.com/library/abb02e08-a40a-4973-8a7e-caeb3c694db3), [ScrollViewer](scrollviewer.md)

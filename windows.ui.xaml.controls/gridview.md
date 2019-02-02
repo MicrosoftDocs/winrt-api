@@ -39,7 +39,7 @@ By default, a data item is displayed in the [GridView](gridview.md) as the strin
 > [!NOTE]
 > If you populate the [GridView](gridview.md) by setting the [ItemsSource](itemscontrol_itemssource.md) property, the [ItemTemplate](itemscontrol_itemtemplate.md) is applied to every item. If you populate the [Items](itemscontrol_items.md) collection directly, the [ItemTemplate](itemscontrol_itemtemplate.md) is applied only if the item is not a [GridViewItem](gridviewitem.md). See Examples for more info.
 
-If you use the [GridView](gridview.md) to display large sets of data, see [Optimize ListView and GridView](http://msdn.microsoft.com/library/26df15e8-2c05-4174-a714-7df2e8273d32) for tips to maintain a smooth and responsive user experience.
+If you use the [GridView](gridview.md) to display large sets of data, see [Optimize ListView and GridView](https://msdn.microsoft.com/library/26df15e8-2c05-4174-a714-7df2e8273d32) for tips to maintain a smooth and responsive user experience.
 
 > <div id="main">
 > <strong>Fall Creators Update (Windows 10) - Behavior change</strong>
@@ -114,4 +114,4 @@ Here, a [GridView](gridview.md) is bound to a grouped [CollectionViewSource](../
 ```
 
 ## -see-also
-[List view and grid view](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/listview-and-gridview), [ListViewBase](listviewbase.md), [ISemanticZoomInformation](isemanticzoominformation.md), [GridView styles and templates](http://msdn.microsoft.com/library/3ea83c39-3300-4c3c-89b3-24d4777c7067), [Item templates for GridView](https://docs.microsoft.com/windows/uwp/controls-and-patterns/item-templates-gridview), [Data binding overview](http://msdn.microsoft.com/library/a9d54dec-cd1b-4043-ade4-32cd4977d1bf), [ListView](listview.md), [SemanticZoom](semanticzoom.md), [ListView and GridView sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlListView)
+[List view and grid view](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/listview-and-gridview), [ListViewBase](listviewbase.md), [ISemanticZoomInformation](isemanticzoominformation.md), [GridView styles and templates](https://msdn.microsoft.com/library/3ea83c39-3300-4c3c-89b3-24d4777c7067), [Item templates for GridView](https://docs.microsoft.com/windows/uwp/controls-and-patterns/item-templates-gridview), [Data binding overview](https://msdn.microsoft.com/library/a9d54dec-cd1b-4043-ade4-32cd4977d1bf), [ListView](listview.md), [SemanticZoom](semanticzoom.md), [ListView and GridView sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlListView)

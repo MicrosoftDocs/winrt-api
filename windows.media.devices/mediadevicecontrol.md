@@ -20,7 +20,7 @@ Various properties on the [VideoDeviceController](videodevicecontroller.md) obje
 
 
 > [!NOTE]
-> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://go.microsoft.com/fwlink/p/?linkid=258275) and [Using Windows Runtime objects in a multithreaded environment (.NET)](http://go.microsoft.com/fwlink/p/?linkid=258277).
+> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
 
 ## -examples
 The following example shows how to get the [Brightness](videodevicecontroller_brightness.md) on a [VideoDeviceController](videodevicecontroller.md). Note that [Brightness](videodevicecontroller_brightness.md) is a [MediaDeviceController](imediadevicecontroller.md).

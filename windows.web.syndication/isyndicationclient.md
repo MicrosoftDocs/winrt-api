@@ -17,4 +17,4 @@ Encapsulates the data and methods needed to retrieve feeds from a URI asynchrono
 ## -examples
 
 ## -see-also
-[Syndication sample](http://go.microsoft.com/fwlink/p/?linkid=245062)
+[Syndication sample](https://go.microsoft.com/fwlink/p/?linkid=245062)

@@ -27,7 +27,7 @@ You should only call [ReleasePointerCapture](uielement_releasepointercapture_962
 
 Your app code might call [CapturePointer](uielement_capturepointer_916768934.md) from a different [UIElement](uielement.md) than the one that has any current pointer capture. If so, that cancels any pointer capture previously made by other elements. 
 <!--Again, you won't have to explicitly call <xref targtype="method_winrt" rid="w_ui_xaml.uielement_releasepointercapture"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">ReleasePointerCapture</xref>, release of pointer capture will just happen implicitly when another <xref targtype="class_winrt" rid="w_ui_xaml.uielement">UIElement</xref> calls <xref targtype="method_winrt" rid="w_ui_xaml.uielement_capturepointer">CapturePointer</xref>.-->
-A [UIElement](uielement.md)can capture multiple pointers to handle multiple touch points such as for manipulations, but only one [UIElement](uielement.md)in an app can have any pointer captures at any one time. For more info, see [Handle pointer input](http://msdn.microsoft.com/library/bdbc9e33-4037-4671-9596-471dcf855c82).
+A [UIElement](uielement.md)can capture multiple pointers to handle multiple touch points such as for manipulations, but only one [UIElement](uielement.md)in an app can have any pointer captures at any one time. For more info, see [Handle pointer input](https://msdn.microsoft.com/library/bdbc9e33-4037-4671-9596-471dcf855c82).
 
 ## -examples
 This example shows calling [ReleasePointerCapture](uielement_releasepointercapture_962192786.md) based on handling [PointerReleased](uielement_pointerreleased.md).
@@ -41,5 +41,5 @@ It also shows code for capturing the pointer initially, and a pattern for tracki
 [!code-vb[Scenario2Code](../windows.ui.xaml/code/input/vbnet/Scenario2.xaml.vb#SnippetScenario2Code)]
 
 ## -see-also
-[CapturePointer](uielement_capturepointer_916768934.md), [PointerReleased](uielement_pointerreleased.md), [PointerCaptureLost](uielement_pointercapturelost.md), [Input sample](http://go.microsoft.com/fwlink/p/?linkid=226855)
+[CapturePointer](uielement_capturepointer_916768934.md), [PointerReleased](uielement_pointerreleased.md), [PointerCaptureLost](uielement_pointercapturelost.md), [Input sample](https://go.microsoft.com/fwlink/p/?linkid=226855)
 soft.com/fwlink/p/?linkid=226855)

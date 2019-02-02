@@ -14,7 +14,7 @@ public class Printing3DModel : Windows.Graphics.Printing3D.IPrinting3DModel, Win
 Represents the 3D model in a 3D Manufacturing Format (3MF) package.
 
 ## -remarks
-The [Printing3DModel](printing3dmodel.md) class corresponds to the `<model>` element in the 3D Manufacturing Format (3MF) specification. For more info, see the [3MF Specification](http://go.microsoft.com/fwlink/p/?LinkId=616252).
+The [Printing3DModel](printing3dmodel.md) class corresponds to the `<model>` element in the 3D Manufacturing Format (3MF) specification. For more info, see the [3MF Specification](https://go.microsoft.com/fwlink/p/?LinkId=616252).
 
 ## -examples
 

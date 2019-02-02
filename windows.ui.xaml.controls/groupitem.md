@@ -24,4 +24,4 @@ See Remarks
 ## -examples
 
 ## -see-also
-[ContentControl](contentcontrol.md), [GroupStyle](groupstyle.md), [GroupItem styles and templates](http://msdn.microsoft.com/library/38f03fac-11c9-4a17-a30b-eea52ce322dc)
+[ContentControl](contentcontrol.md), [GroupStyle](groupstyle.md), [GroupItem styles and templates](https://msdn.microsoft.com/library/38f03fac-11c9-4a17-a30b-eea52ce322dc)

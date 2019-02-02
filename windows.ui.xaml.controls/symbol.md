@@ -619,7 +619,7 @@ If you would like to use a glyph from the **Segoe MDL2 Assets** font that is not
 ### Notes for previous versions
 
 > **Universal Windows 8 app**
-> For Universal Windows 8 app, the standard glyphs are provided by the Segoe UI Symbol font. See [AppBar button style images](http://msdn.microsoft.com/library/bb8bfc26-5c83-430d-9aa1-3e4bdd1e0ea5) to see these glyphs.
+> For Universal Windows 8 app, the standard glyphs are provided by the Segoe UI Symbol font. See [AppBar button style images](https://msdn.microsoft.com/library/bb8bfc26-5c83-430d-9aa1-3e4bdd1e0ea5) to see these glyphs.
 
 ### Version history
 
@@ -633,7 +633,7 @@ If you would like to use a glyph from the **Segoe MDL2 Assets** font that is not
 ## -examples
 
 ## -see-also
-[Guidelines for Segoe MDL2 icons](https://docs.microsoft.com/windows/uwp/style/segoe-ui-symbol-font), [Quickstart: Adding app bar buttons (Windows 8)](http://msdn.microsoft.com/library/743b852c-f4fe-4b4f-814e-77155ccfdefe)
+[Guidelines for Segoe MDL2 icons](https://docs.microsoft.com/windows/uwp/style/segoe-ui-symbol-font), [Quickstart: Adding app bar buttons (Windows 8)](https://msdn.microsoft.com/library/743b852c-f4fe-4b4f-814e-77155ccfdefe)
 
 
 

@@ -21,4 +21,4 @@ An input name based on the [InputScopeNameValue](inputscopenamevalue.md) enumera
 ## -examples
 
 ## -see-also
-[Use input scope to change the touch keyboard](http://msdn.microsoft.com/library/6e5f55d7-24d6-47cc-b457-b6231ede2a71)
+[Use input scope to change the touch keyboard](https://msdn.microsoft.com/library/6e5f55d7-24d6-47cc-b457-b6231ede2a71)

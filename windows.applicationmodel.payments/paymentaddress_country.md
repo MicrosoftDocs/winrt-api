@@ -10,7 +10,7 @@ public string Country { get;  set; }
 # Windows.ApplicationModel.Payments.PaymentAddress.Country
 
 ## -description
-The country. Values must be from the [CLDR](http://cldr.unicode.org/) standard.
+The country. Values must be from the [CLDR](https://cldr.unicode.org/) standard.
 
 ## -property-value
 Gets or sets the Country.

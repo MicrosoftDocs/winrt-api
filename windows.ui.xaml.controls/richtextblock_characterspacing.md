@@ -25,7 +25,7 @@ The uniform spacing between characters, in units of 1/1000 of an em. The default
 *Tracking* is the typographic term for an amount of space added or removed between all pairs of characters in a portion of text. This feature can be accessed through the [CharacterSpacing](richtextblock_characterspacing.md) property on [TextBlock](textblock.md) and [RichTextBlock](richtextblock.md). [CharacterSpacing](richtextblock_characterspacing.md) is measured in 1/1000 of an "em". One "em" is equivalent to the current font size of the control. For example, an additional 14 pixels will be inserted between each character in a text control with `FontSize="14"` and `CharacterSpacing="1000"`.
 
 ## -examples
-To see an example, see scenario 1, "Tracking (character spacing)", of the [XAML text display sample](http://go.microsoft.com/fwlink/p/?linkid=238579).
+To see an example, see scenario 1, "Tracking (character spacing)", of the [XAML text display sample](https://go.microsoft.com/fwlink/p/?linkid=238579).
 
 ## -see-also
-[XAML text display sample](http://go.microsoft.com/fwlink/p/?linkid=238579)
+[XAML text display sample](https://go.microsoft.com/fwlink/p/?linkid=238579)

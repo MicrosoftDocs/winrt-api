@@ -39,4 +39,4 @@ This example shows how to apply the same transforms to an object by using either
 [!code-xml[CompositeTransform](../windows.ui.xaml/code/transforms/csharp/CompositeTransform.xaml#SnippetCompositeTransform)]
 
 ## -see-also
-[Transform](transform.md), [XAML two-dimensional transforms sample](http://go.microsoft.com/fwlink/p/?linkid=226868), [TransformGroup](transformgroup.md)
+[Transform](transform.md), [XAML two-dimensional transforms sample](https://go.microsoft.com/fwlink/p/?linkid=226868), [TransformGroup](transformgroup.md)

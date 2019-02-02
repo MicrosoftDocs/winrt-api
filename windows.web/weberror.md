@@ -17,4 +17,4 @@ Provides error status resulting from a web service operation.
 ## -examples
 
 ## -see-also
-[Background Transfer Download sample](http://go.microsoft.com/fwlink/p/?linkid=245064)
+[Background Transfer Download sample](https://go.microsoft.com/fwlink/p/?linkid=245064)

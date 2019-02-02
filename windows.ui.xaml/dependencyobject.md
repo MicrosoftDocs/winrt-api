@@ -10,10 +10,10 @@ public class DependencyObject : Windows.UI.Xaml.IDependencyObject, Windows.UI.Xa
 # Windows.UI.Xaml.DependencyObject
 
 ## -description
-Represents an object that participates in the dependency property system. [DependencyObject](dependencyobject.md) is the immediate base class of many important UI-related classes, such as [UIElement](uielement.md), [Geometry](../windows.ui.xaml.media/geometry.md), [FrameworkTemplate](frameworktemplate.md), [Style](style.md), and [ResourceDictionary](resourcedictionary.md). For more info on how [DependencyObject](dependencyobject.md) supports dependency properties, see [Dependency properties overview](http://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e).
+Represents an object that participates in the dependency property system. [DependencyObject](dependencyobject.md) is the immediate base class of many important UI-related classes, such as [UIElement](uielement.md), [Geometry](../windows.ui.xaml.media/geometry.md), [FrameworkTemplate](frameworktemplate.md), [Style](style.md), and [ResourceDictionary](resourcedictionary.md). For more info on how [DependencyObject](dependencyobject.md) supports dependency properties, see [Dependency properties overview](https://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e).
 
 ## -remarks
-The [DependencyObject](dependencyobject.md) class enables dependency property system services on its many derived classes. For more info about the dependency property concept, see [Dependency properties overview](http://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e).
+The [DependencyObject](dependencyobject.md) class enables dependency property system services on its many derived classes. For more info about the dependency property concept, see [Dependency properties overview](https://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e).
 
 The dependency property system's primary function is to compute the values of properties, and to provide system notification about values that have changed. Another key class that participates in the dependency property system is [DependencyProperty](dependencyproperty.md). [DependencyProperty](dependencyproperty.md) enables the registration of dependency properties into the property system, whereas [DependencyObject](dependencyobject.md) as a base class enables objects to use and set the dependency properties.
 
@@ -28,7 +28,7 @@ Here are some notable services and characteristics that [DependencyObject](depen
 + Advanced-scenario utility for examining metadata or property values (for example [GetAnimationBaseValue](dependencyobject_getanimationbasevalue_1072186849.md)).
 + Enforcement of thread affinity to the main UI thread of the Windows Runtime for all [DependencyObject](dependencyobject.md) instances.
 + The [Dispatcher](dependencyobject_dispatcher.md) property for advanced threading scenarios. Getting the [Dispatcher](dependencyobject_dispatcher.md) value provides a reference to a [CoreDispatcher](../windows.ui.core/coredispatcher.md) object. With the [CoreDispatcher](../windows.ui.core/coredispatcher.md), a worker thread can run code that use a [DependencyObject](dependencyobject.md) but is not on the UI thread, because the [CoreDispatcher](../windows.ui.core/coredispatcher.md) can defer the execution to an asynchronous operation that won't block or otherwise interfere with the UI thread. See "**DependencyObject** and threading" section below.
-+ Basic data binding and styling support, by enabling properties to be set as expressions to be evaluated at some later point in an object's lifetime. These concepts are explained in more detail in [Dependency properties overview](http://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e). See also [Data binding in depth](http://msdn.microsoft.com/library/41e1b4f1-6caf-4128-a61a-4e400b149011).
++ Basic data binding and styling support, by enabling properties to be set as expressions to be evaluated at some later point in an object's lifetime. These concepts are explained in more detail in [Dependency properties overview](https://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e). See also [Data binding in depth](https://msdn.microsoft.com/library/41e1b4f1-6caf-4128-a61a-4e400b149011).
 
 
 ### **DependencyObject** and threading
@@ -76,7 +76,7 @@ This example defines a class that derives from [DependencyObject](dependencyobje
 
 [!code-vb[DOCheckClear](../windows.ui.xaml/code/DOandDP/vbnet/Class1.vb#SnippetDOCheckClear)]
 
-This example shows a simple dependency property declaration. A call to [GetValue](dependencyobject_getvalue_1188551207.md) constitutes the entirety of the **get** accessor implementation for the property wrapper of the new dependency property. A call to [SetValue](dependencyobject_setvalue_52578133.md) constitutes the entirety of the **set** accessor implementation. For more examples, see [Custom dependency properties](http://msdn.microsoft.com/library/5adf7935-f2cf-4bb6-b1a5-f535c2ed8ef8).
+This example shows a simple dependency property declaration. A call to [GetValue](dependencyobject_getvalue_1188551207.md) constitutes the entirety of the **get** accessor implementation for the property wrapper of the new dependency property. A call to [SetValue](dependencyobject_setvalue_52578133.md) constitutes the entirety of the **set** accessor implementation. For more examples, see [Custom dependency properties](https://msdn.microsoft.com/library/5adf7935-f2cf-4bb6-b1a5-f535c2ed8ef8).
 
 
 
@@ -85,4 +85,4 @@ This example shows a simple dependency property declaration. A call to [GetValue
 [!code-vb[DOSimpleDP](../windows.ui.xaml/code/DOandDP/vbnet/Class1.vb#DOSimpleDP)]
 
 ## -see-also
-[DependencyProperty](dependencyproperty.md), [Dependency properties overview](http://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e), [Custom dependency properties](http://msdn.microsoft.com/library/5adf7935-f2cf-4bb6-b1a5-f535c2ed8ef8), [Custom attached properties](http://msdn.microsoft.com/library/e9c0c57e-6098-4875-aa3e-9d7b36e160e0), [Attached properties overview](http://msdn.microsoft.com/library/098c1de0-d640-48b1-9961-d0adf33266e2)
+[DependencyProperty](dependencyproperty.md), [Dependency properties overview](https://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e), [Custom dependency properties](https://msdn.microsoft.com/library/5adf7935-f2cf-4bb6-b1a5-f535c2ed8ef8), [Custom attached properties](https://msdn.microsoft.com/library/e9c0c57e-6098-4875-aa3e-9d7b36e160e0), [Attached properties overview](https://msdn.microsoft.com/library/098c1de0-d640-48b1-9961-d0adf33266e2)

@@ -20,7 +20,7 @@ Releases system resources that are exposed by a Windows Runtime object.
 
 
 > **C++/CX**
-> This interface appears as [Platform::IDisposable](http://msdn.microsoft.com/library/f4344056-7030-42ed-bc98-b140edffddcd).
+> This interface appears as [Platform::IDisposable](https://msdn.microsoft.com/library/f4344056-7030-42ed-bc98-b140edffddcd).
 
 ## -remarks
 Implementation / caller notes that follow are mainly relevant for WRL.

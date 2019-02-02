@@ -24,9 +24,9 @@ Also, the [CaptureElement](../windows.ui.xaml.controls/captureelement.md) isn't 
 + [GetPattern](automationpeer_getpattern_2046576749.md) reports no pattern support.
 + [GetClassName](automationpeer_getclassname_614238974.md) returns "CaptureElement".
 + [GetAutomationControlType](automationpeer_getautomationcontroltype_1156384152.md) returns [AutomationControlType.Custom](automationcontroltype.md).
-The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](http://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4).
+The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](https://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4).
 
 ## -examples
 
 ## -see-also
-[FrameworkElementAutomationPeer](frameworkelementautomationpeer.md), [CaptureElement](../windows.ui.xaml.controls/captureelement.md), [Custom automation peers](http://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4)
+[FrameworkElementAutomationPeer](frameworkelementautomationpeer.md), [CaptureElement](../windows.ui.xaml.controls/captureelement.md), [Custom automation peers](https://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4)

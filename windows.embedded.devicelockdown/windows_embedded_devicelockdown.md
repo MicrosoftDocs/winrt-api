@@ -21,4 +21,4 @@ The device lockdown APIs in [Windows.Embedded.DeviceLockdown](windows_embedded_d
 
 ## -see-also
 
-[Device lockdown with Azure login sample (Windows 10)](http://go.microsoft.com/fwlink/?LinkID=703786)
+[Device lockdown with Azure login sample (Windows 10)](https://go.microsoft.com/fwlink/?LinkID=703786)

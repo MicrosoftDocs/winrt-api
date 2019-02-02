@@ -19,4 +19,4 @@ Contains the calendar identifiers for the supported calendars, as static propert
 
 ## -see-also
 
-[Date and time formatting sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=624044), [Calendar sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=624043)
+[Date and time formatting sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=624044), [Calendar sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=624043)

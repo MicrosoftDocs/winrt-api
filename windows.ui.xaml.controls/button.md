@@ -37,13 +37,13 @@ The [Button](button.md) class represents the most basic type of button control. 
 
 When you tap a [Button](button.md) with a finger or stylus, or press a left mouse button while the pointer is over it, the button raises the [Click](../windows.ui.xaml.controls.primitives/buttonbase_click.md) event. If a button has keyboard focus, pressing the Enter key or the Spacebar key also raises the [Click](../windows.ui.xaml.controls.primitives/buttonbase_click.md) event.
 
-You generally can't handle low-level [PointerPressed](../windows.ui.xaml/uielement_pointerpressed.md) events on a [Button](button.md) because it has the [Click](../windows.ui.xaml.controls.primitives/buttonbase_click.md) behavior instead. For more info, see [Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
+You generally can't handle low-level [PointerPressed](../windows.ui.xaml/uielement_pointerpressed.md) events on a [Button](button.md) because it has the [Click](../windows.ui.xaml.controls.primitives/buttonbase_click.md) behavior instead. For more info, see [Events and routed events overview](https://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
 
 You can change how a button raises the [Click](../windows.ui.xaml.controls.primitives/buttonbase_click.md) event by changing the [ClickMode](../windows.ui.xaml.controls.primitives/buttonbase_clickmode.md) property. The default [ClickMode](../windows.ui.xaml.controls.primitives/buttonbase_clickmode.md) value is **Release**. If [ClickMode](../windows.ui.xaml.controls.primitives/buttonbase_clickmode.md) is **Hover**, the [Click](../windows.ui.xaml.controls.primitives/buttonbase_click.md) event can't be raised with the keyboard.
 
 ### Button content
 
-[Button](button.md) is a [ContentControl](contentcontrol.md). Its XAML content property is [Content](contentcontrol_content.md), and this enables a syntax like this for XAML: `<Button>A button's content</Button>`. For more info about XAML content properties, see [XAML overview](http://msdn.microsoft.com/library/48041b37-f1a8-44a4-bb8e-1d4de30e7823).
+[Button](button.md) is a [ContentControl](contentcontrol.md). Its XAML content property is [Content](contentcontrol_content.md), and this enables a syntax like this for XAML: `<Button>A button's content</Button>`. For more info about XAML content properties, see [XAML overview](https://msdn.microsoft.com/library/48041b37-f1a8-44a4-bb8e-1d4de30e7823).
 
 ### **Button** derived classes
 
@@ -99,4 +99,4 @@ The following example shows three buttons that respond to clicks in three differ
 [!code-vb[11](../windows.ui.xaml.data/code/System.Windows.Controls.ButtonClickModeSL/vbnet/Page.xaml.vb#Snippet11)]
 
 ## -see-also
-[Buttons overview](https://docs.microsoft.com/windows/uwp/controls-and-patterns/buttons), [Button styles and templates](http://msdn.microsoft.com/library/05f2b757-6a25-42a7-824a-45776e76c2d2), [AppBarButton](appbarbutton.md), [CheckBox](checkbox.md), [HyperlinkButton](hyperlinkbutton.md), [RepeatButton](../windows.ui.xaml.controls.primitives/repeatbutton.md), [RadioButton](radiobutton.md), [ToggleSwitch](toggleswitch.md) 
+[Buttons overview](https://docs.microsoft.com/windows/uwp/controls-and-patterns/buttons), [Button styles and templates](https://msdn.microsoft.com/library/05f2b757-6a25-42a7-824a-45776e76c2d2), [AppBarButton](appbarbutton.md), [CheckBox](checkbox.md), [HyperlinkButton](hyperlinkbutton.md), [RepeatButton](../windows.ui.xaml.controls.primitives/repeatbutton.md), [RadioButton](radiobutton.md), [ToggleSwitch](toggleswitch.md) 

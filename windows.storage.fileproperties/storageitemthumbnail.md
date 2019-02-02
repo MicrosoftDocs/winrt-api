@@ -19,7 +19,7 @@ You can get thumbnails for many file system resources through the Windows Runtim
 
 To find out how to get thumbnail for a particular Windows Runtime object, see the documentation for that object. For example, to get a thumbnail for a file you can call one of the [StorageFile.getThumbnailAsync](../windows.storage/storagefile_getthumbnailasync_1511435522.md) methods, or to get a thumbnail for a contact you can use the [Contact.thumbnail](../windows.applicationmodel.contacts/contact_thumbnail.md) property.
 
-For more code samples about retrieving thumbnails, see the [Folder enumeration sample](http://go.microsoft.com/fwlink/p/?linkid=231512) and the [File thumbnails sample](http://go.microsoft.com/fwlink/p/?linkid=231522).
+For more code samples about retrieving thumbnails, see the [Folder enumeration sample](https://go.microsoft.com/fwlink/p/?linkid=231512) and the [File thumbnails sample](https://go.microsoft.com/fwlink/p/?linkid=231522).
 
 ## -examples
 
@@ -76,4 +76,4 @@ In the example, the `file` variable gets a [StorageFile](../windows.storage/stor
 
 ## -see-also
 
-[StorageFile](../windows.storage/storagefile.md), [File and folder thumbnail sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620545)
+[StorageFile](../windows.storage/storagefile.md), [File and folder thumbnail sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620545)

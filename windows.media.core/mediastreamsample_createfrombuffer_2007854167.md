@@ -10,7 +10,7 @@ public Windows.Media.Core.MediaStreamSample CreateFromBuffer(Windows.Storage.Str
 # Windows.Media.Core.MediaStreamSample.CreateFromBuffer
 
 ## -description
-Creates a [MediaStreamSample](mediastreamsample.md) from an [IBuffer](http://msdn.microsoft.com/library/6c3bde9b-d354-48f8-b7f6-517df14202c0).
+Creates a [MediaStreamSample](mediastreamsample.md) from an [IBuffer](https://msdn.microsoft.com/library/6c3bde9b-d354-48f8-b7f6-517df14202c0).
 
 ## -parameters
 ### -param buffer

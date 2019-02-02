@@ -64,4 +64,4 @@ Here's a [DatePicker](datepicker.md) that combines 2 format patterns to display 
 
 
 ## -see-also
-[DateTimeFormatter](../windows.globalization.datetimeformatting/datetimeformatter.md), [MonthFormat](datepicker_monthformat.md), [YearFormat](datepicker_yearformat.md), [DayVisible](datepicker_dayvisible.md), [Quickstart: Adding a DatePicker](http://msdn.microsoft.com/library/feae870d-e423-457b-9d0a-3929247952a9), [How to use patterns to format dates and times](http://msdn.microsoft.com/library/4d281463-2acc-43ab-bffb-7d901e05cf25)
+[DateTimeFormatter](../windows.globalization.datetimeformatting/datetimeformatter.md), [MonthFormat](datepicker_monthformat.md), [YearFormat](datepicker_yearformat.md), [DayVisible](datepicker_dayvisible.md), [Quickstart: Adding a DatePicker](https://msdn.microsoft.com/library/feae870d-e423-457b-9d0a-3929247952a9), [How to use patterns to format dates and times](https://msdn.microsoft.com/library/4d281463-2acc-43ab-bffb-7d901e05cf25)

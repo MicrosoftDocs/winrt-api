@@ -24,4 +24,4 @@ If the list view is one of the views in a [SemanticZoom](semanticzoom.md), selec
 ## -examples
 
 ## -see-also
-[IsItemClickEnabled](listviewbase_isitemclickenabled.md), [How to change the interaction mode](http://msdn.microsoft.com/library/7591268b-3835-4a48-a4ba-b2e6c9db73e6)
+[IsItemClickEnabled](listviewbase_isitemclickenabled.md), [How to change the interaction mode](https://msdn.microsoft.com/library/7591268b-3835-4a48-a4ba-b2e6c9db73e6)

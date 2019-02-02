@@ -39,4 +39,4 @@ Call the [SetDensityColors](calendarviewdayitem_setdensitycolors_669941734.md) m
 ## -examples
 
 ## -see-also
-[Control](control.md), [CalendarView](calendarview.md), [CalendarView.CalendarViewDayItemChanging](calendarview_calendarviewdayitemchanging.md), [CalendarDatePicker.CalendarViewDayItemChanging](calendardatepicker_calendarviewdayitemchanging.md), [CalendarViewDayItem styles and templates](http://msdn.microsoft.com/library/9fac8c72-02da-44d6-a5be-7b67be5540c3)
+[Control](control.md), [CalendarView](calendarview.md), [CalendarView.CalendarViewDayItemChanging](calendarview_calendarviewdayitemchanging.md), [CalendarDatePicker.CalendarViewDayItemChanging](calendardatepicker_calendarviewdayitemchanging.md), [CalendarViewDayItem styles and templates](https://msdn.microsoft.com/library/9fac8c72-02da-44d6-a5be-7b67be5540c3)

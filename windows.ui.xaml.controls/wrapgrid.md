@@ -28,7 +28,7 @@ Positions child elements sequentially from left to right or top to bottom. When 
 
 [WrapGrid](wrapgrid.md) can only be used to display items in an [ItemsControl](itemscontrol.md).
 
-The content of a [WrapGrid](wrapgrid.md) is virtualized. This can improve performance when you work with large data sets. For more info, see [Optimize ListView and GridView](http://msdn.microsoft.com/library/26df15e8-2c05-4174-a714-7df2e8273d32).
+The content of a [WrapGrid](wrapgrid.md) is virtualized. This can improve performance when you work with large data sets. For more info, see [Optimize ListView and GridView](https://msdn.microsoft.com/library/26df15e8-2c05-4174-a714-7df2e8273d32).
 
 In a [WrapGrid](wrapgrid.md), elements are arranged in rows or columns that automatically wrap to a new row or column when the [MaximumRowsOrColumns](wrapgrid_maximumrowsorcolumns.md) value is reached. The [Orientation](wrapgrid_orientation.md) property specifies whether the grid adds its items in rows or columns before wrapping.
 
@@ -66,4 +66,4 @@ Apps that were compiled for Windows 8 but running on Windows 8.1 continue to u
 ## -examples
 
 ## -see-also
-[OrientedVirtualizingPanel](../windows.ui.xaml.controls.primitives/orientedvirtualizingpanel.md), [IScrollSnapPointsInfo](../windows.ui.xaml.controls.primitives/iscrollsnappointsinfo.md), [ItemsControl.ItemsPanel](itemscontrol_itemspanel.md), [ItemsPanelTemplate](itemspaneltemplate.md), [Quickstart: Adding ListView and GridView controls](http://msdn.microsoft.com/library/b237d616-33de-4ddd-9df5-27c47f81b064)
+[OrientedVirtualizingPanel](../windows.ui.xaml.controls.primitives/orientedvirtualizingpanel.md), [IScrollSnapPointsInfo](../windows.ui.xaml.controls.primitives/iscrollsnappointsinfo.md), [ItemsControl.ItemsPanel](itemscontrol_itemspanel.md), [ItemsPanelTemplate](itemspaneltemplate.md), [Quickstart: Adding ListView and GridView controls](https://msdn.microsoft.com/library/b237d616-33de-4ddd-9df5-27c47f81b064)

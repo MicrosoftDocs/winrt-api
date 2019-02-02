@@ -17,4 +17,4 @@ Represents a MIDI messages that specifies a MIDI note to turn off.
 ## -examples
 
 ## -see-also
-[IMidiMessage](imidimessage.md), [MIDI  sample](http://go.microsoft.com/fwlink/p/?LinkID=394281)
+[IMidiMessage](imidimessage.md), [MIDI  sample](https://go.microsoft.com/fwlink/p/?LinkID=394281)

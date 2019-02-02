@@ -40,4 +40,4 @@ Applications which require this namespace require the addition of the “pointOf
 
 ## -see-also
 
-[Cash drawer sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620015), [Magnetic stripe reader sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620017), [POS printer sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620018), [Barcode scanner sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620014)
+[Cash drawer sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620015), [Magnetic stripe reader sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620017), [POS printer sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620018), [Barcode scanner sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620014)

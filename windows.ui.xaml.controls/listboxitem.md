@@ -30,4 +30,4 @@ You can specify the look of the [ListBoxItem](listboxitem.md) by setting the [Li
 ## -examples
 
 ## -see-also
-[SelectorItem](../windows.ui.xaml.controls.primitives/selectoritem.md), [ListBox](listbox.md), [ItemContainerStyle](itemscontrol_itemcontainerstyle.md), [ListBoxItem styles and templates](http://msdn.microsoft.com/library/d133a9ff-32f4-4b15-b5e2-a538e60d5402)
+[SelectorItem](../windows.ui.xaml.controls.primitives/selectoritem.md), [ListBox](listbox.md), [ItemContainerStyle](itemscontrol_itemcontainerstyle.md), [ListBoxItem styles and templates](https://msdn.microsoft.com/library/d133a9ff-32f4-4b15-b5e2-a538e60d5402)

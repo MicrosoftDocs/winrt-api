@@ -33,4 +33,4 @@ Any changes to the [StreamWebSocketControl](streamwebsocketcontrol.md) property 
 ## -examples
 
 ## -see-also
-[How to use advanced WebSocket controls](http://msdn.microsoft.com/library/0a47f7c3-66f9-4315-886e-bd1afe77bf39), [NoDelay](streamwebsocketcontrol_nodelay.md), [OutboundBufferSizeInBytes](streamwebsocketcontrol_outboundbuffersizeinbytes.md), [ProxyCredential](streamwebsocketcontrol_proxycredential.md), [ServerCredential](streamwebsocketcontrol_servercredential.md), [StreamWebSocketControl](streamwebsocketcontrol.md), [SupportedProtocols](streamwebsocketcontrol_supportedprotocols.md)
+[How to use advanced WebSocket controls](https://msdn.microsoft.com/library/0a47f7c3-66f9-4315-886e-bd1afe77bf39), [NoDelay](streamwebsocketcontrol_nodelay.md), [OutboundBufferSizeInBytes](streamwebsocketcontrol_outboundbuffersizeinbytes.md), [ProxyCredential](streamwebsocketcontrol_proxycredential.md), [ServerCredential](streamwebsocketcontrol_servercredential.md), [StreamWebSocketControl](streamwebsocketcontrol.md), [SupportedProtocols](streamwebsocketcontrol_supportedprotocols.md)

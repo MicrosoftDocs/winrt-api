@@ -37,4 +37,4 @@ The content is not presented in a supported format.
 ## -examples
 
 ## -see-also
-[SyndicationError](syndicationerror.md), [Syndication sample](http://go.microsoft.com/fwlink/p/?linkid=245062)
+[SyndicationError](syndicationerror.md), [Syndication sample](https://go.microsoft.com/fwlink/p/?linkid=245062)

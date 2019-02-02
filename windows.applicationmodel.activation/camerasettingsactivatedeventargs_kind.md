@@ -26,4 +26,4 @@ If [Kind](camerasettingsactivatedeventargs_kind.md) is **CameraSettings**, the a
 ## -examples
 
 ## -see-also
-[Microsoft Store device app for camera sample](http://go.microsoft.com/fwlink/p/?LinkID=249442), [Developing  device apps for cameras](http://go.microsoft.com/fwlink/p/?LinkId=226802)
+[Microsoft Store device app for camera sample](https://go.microsoft.com/fwlink/p/?LinkID=249442), [Developing  device apps for cameras](https://go.microsoft.com/fwlink/p/?LinkId=226802)

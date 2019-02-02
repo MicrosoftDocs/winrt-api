@@ -19,21 +19,21 @@ Gets or sets the identifying name of the object. When a XAML processor creates t
 
 
 ## -property-value
-The name of the object, which must be a string that is valid in the XamlName grammar (see table in [x:Name attribute](http://msdn.microsoft.com/library/4ff1f3ed-903a-4305-b2bd-dcd29e0c9e6d) reference). The default is an empty string.
+The name of the object, which must be a string that is valid in the XamlName grammar (see table in [x:Name attribute](https://msdn.microsoft.com/library/4ff1f3ed-903a-4305-b2bd-dcd29e0c9e6d) reference). The default is an empty string.
 
 ## -remarks
-The most common usage of this property is to specify the [x:Name attribute](http://msdn.microsoft.com/library/4ff1f3ed-903a-4305-b2bd-dcd29e0c9e6d) for an object in XAML markup, or to read that value as it was set in markup. In most ways, the **x:Name** attribute and the [Name](frameworkelement_name.md) property are equivalent. On any single element, the **x:Name** attribute and the [Name](frameworkelement_name.md) property are mutually exclusive as XAML attributes; if you attempt to set both **x:Name** and [Name](frameworkelement_name.md) on the same object element in markup, a parser error is thrown.
+The most common usage of this property is to specify the [x:Name attribute](https://msdn.microsoft.com/library/4ff1f3ed-903a-4305-b2bd-dcd29e0c9e6d) for an object in XAML markup, or to read that value as it was set in markup. In most ways, the **x:Name** attribute and the [Name](frameworkelement_name.md) property are equivalent. On any single element, the **x:Name** attribute and the [Name](frameworkelement_name.md) property are mutually exclusive as XAML attributes; if you attempt to set both **x:Name** and [Name](frameworkelement_name.md) on the same object element in markup, a parser error is thrown.
 
-When you use the default **Page** build actions for XAML, any XAML element that has a [x:Name attribute](http://msdn.microsoft.com/library/4ff1f3ed-903a-4305-b2bd-dcd29e0c9e6d) or [Name](frameworkelement_name.md) generates field references that are eventually populated by **InitializeComponent** when the XAML is loaded. The field references enable a programming model whereby objects can be directly referenced by name in your page-specific code-behind, once the XAML object tree is loaded into a page or app.
+When you use the default **Page** build actions for XAML, any XAML element that has a [x:Name attribute](https://msdn.microsoft.com/library/4ff1f3ed-903a-4305-b2bd-dcd29e0c9e6d) or [Name](frameworkelement_name.md) generates field references that are eventually populated by **InitializeComponent** when the XAML is loaded. The field references enable a programming model whereby objects can be directly referenced by name in your page-specific code-behind, once the XAML object tree is loaded into a page or app.
 
-Names must be unique in a XAML namescope. Generally, the XAML namescope is defined by the XAML page, but certain features such as templates or calls to API such as [XamlReader.Load](../windows.ui.xaml.markup/xamlreader_load_1077941801.md) can define separate XAML namescopes. For more info, see [XAML namescopes](http://msdn.microsoft.com/library/eb060cbd-a589-475e-b83d-b24068b54c21).
+Names must be unique in a XAML namescope. Generally, the XAML namescope is defined by the XAML page, but certain features such as templates or calls to API such as [XamlReader.Load](../windows.ui.xaml.markup/xamlreader_load_1077941801.md) can define separate XAML namescopes. For more info, see [XAML namescopes](https://msdn.microsoft.com/library/eb060cbd-a589-475e-b83d-b24068b54c21).
 
 [Name](frameworkelement_name.md) should never be localized. [Name](frameworkelement_name.md) is used as a field name variable in code-behind. Such code is typically inaccessible to the localizer who might otherwise have access to XAML files that define the UI, although this depends on your deployment model and localization procedures. This is one reason why you should not display any strings that come from [Name](frameworkelement_name.md) in your app UI.
 
 ### Scenarios for Name
 
-Setting **x:Name** or [Name](frameworkelement_name.md) in the XAML that defines UI elements supports several major scenarios: + **Animation targeting** To apply an animation to an object property, you must target a specific instance. You do that by setting the [Storyboard.TargetName](../windows.ui.xaml.media.animation/storyboard_targetname.md) attached property on any [Timeline](../windows.ui.xaml.media.animation/timeline.md). The value that you set here is the string that you assigned as the **x:Name** or [Name](frameworkelement_name.md). For more info, see [Storyboarded animations](http://msdn.microsoft.com/library/0cbceea0-2b0e-44a1-a09a-f7a939632f3a).
-+ **Parts of a control template** In order to support the visual state model and control initialization, control authors should specify **Name** values for the key parts of a templated control. For more info see [Quickstart: Control templates](http://msdn.microsoft.com/library/67c424ae-afb1-4560-a6a8-4a3506775d77).
+Setting **x:Name** or [Name](frameworkelement_name.md) in the XAML that defines UI elements supports several major scenarios: + **Animation targeting** To apply an animation to an object property, you must target a specific instance. You do that by setting the [Storyboard.TargetName](../windows.ui.xaml.media.animation/storyboard_targetname.md) attached property on any [Timeline](../windows.ui.xaml.media.animation/timeline.md). The value that you set here is the string that you assigned as the **x:Name** or [Name](frameworkelement_name.md). For more info, see [Storyboarded animations](https://msdn.microsoft.com/library/0cbceea0-2b0e-44a1-a09a-f7a939632f3a).
++ **Parts of a control template** In order to support the visual state model and control initialization, control authors should specify **Name** values for the key parts of a templated control. For more info see [Quickstart: Control templates](https://msdn.microsoft.com/library/67c424ae-afb1-4560-a6a8-4a3506775d77).
 + **General run time interaction** For example, code within an event handler might handle an event on an object that provides the change UI, but the change to properties occurs on another nearby UI element. The easiest way to write code for this situation is to use the field reference generated from a **Name**.
 
 
@@ -45,7 +45,7 @@ The utility method [FindName](frameworkelement_findname_634111277.md), which is 
 
 You cannot use the string value of [Name](frameworkelement_name.md) as a direct source value for a data binding source. If you have to display the same string value as [Name](frameworkelement_name.md) in UI with binding, you should replicate the same value to the [Tag](frameworkelement_tag.md) property, which can be used as a property binding source. Also don't use [Name](frameworkelement_name.md) as a binding target.
 
-The value of **x:Name** or [Name](frameworkelement_name.md) is the identifier that you use to identify the source element for an [ElementName](../windows.ui.xaml.data/binding_elementname.md) binding. For more info see [Data binding in depth](http://msdn.microsoft.com/library/41e1b4f1-6caf-4128-a61a-4e400b149011).
+The value of **x:Name** or [Name](frameworkelement_name.md) is the identifier that you use to identify the source element for an [ElementName](../windows.ui.xaml.data/binding_elementname.md) binding. For more info see [Data binding in depth](https://msdn.microsoft.com/library/41e1b4f1-6caf-4128-a61a-4e400b149011).
 
 ### Setting Name in code
 
@@ -69,5 +69,5 @@ This example gets a value for [Name](frameworkelement_name.md) from an existing 
 [!code-vb[Change_targetname_1_cs](../windows.ui.xaml/code/change_targetname_1/vbnet/Page.xaml.vb#SnippetChange_targetname_1_cs)]
 
 ## -see-also
-[x:Name attribute](http://msdn.microsoft.com/library/4ff1f3ed-903a-4305-b2bd-dcd29e0c9e6d), [FindName](frameworkelement_findname_634111277.md), [Storyboard.TargetName](../windows.ui.xaml.media.animation/storyboard_targetname.md), [XAML namescopes](http://msdn.microsoft.com/library/eb060cbd-a589-475e-b83d-b24068b54c21), [XAML overview](http://msdn.microsoft.com/library/48041b37-f1a8-44a4-bb8e-1d4de30e7823)
+[x:Name attribute](https://msdn.microsoft.com/library/4ff1f3ed-903a-4305-b2bd-dcd29e0c9e6d), [FindName](frameworkelement_findname_634111277.md), [Storyboard.TargetName](../windows.ui.xaml.media.animation/storyboard_targetname.md), [XAML namescopes](https://msdn.microsoft.com/library/eb060cbd-a589-475e-b83d-b24068b54c21), [XAML overview](https://msdn.microsoft.com/library/48041b37-f1a8-44a4-bb8e-1d4de30e7823)
 1b37-f1a8-44a4-bb8e-1d4de30e7823)

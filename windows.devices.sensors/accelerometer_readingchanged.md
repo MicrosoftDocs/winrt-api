@@ -42,4 +42,4 @@ The following example shows the [ReadingChanged](accelerometer_readingchanged.md
 ## -examples
 
 ## -see-also
-[Accelerometer sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620477)
+[Accelerometer sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620477)

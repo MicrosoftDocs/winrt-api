@@ -22,7 +22,7 @@ The key for an entry in a [FilePickerFileTypesOrderedMap](filepickerfiletypesord
 For JavaScript, [FilePickerFileTypesOrderedMap](filepickerfiletypesorderedmap.md) supports using an index to access items.
 
 ## -examples
-The [File picker sample](http://go.microsoft.com/fwlink/p/?linkid=234890) demonstrates how to add file type choices with a display name.
+The [File picker sample](https://go.microsoft.com/fwlink/p/?linkid=234890) demonstrates how to add file type choices with a display name.
 
 
 
@@ -31,5 +31,5 @@ The [File picker sample](http://go.microsoft.com/fwlink/p/?linkid=234890) demons
 [!code-js[all_savepicker_setprops](../windows.storage.pickers/code/FilePicker/js/js/scenario4.js#Snippetall_savepicker_setprops)]
 
 ## -see-also
-[File picker sample](http://go.microsoft.com/fwlink/p/?linkid=234890), [Quickstart: Accessing files with file pickers (HTML)](http://msdn.microsoft.com/library/df082239-381c-462f-9f97-d2b390a2052e), [Open files and folders with a picker](http://msdn.microsoft.com/library/f87dbe2f-77db-4573-8172-29e11abefd34), [FileSavePicker.FileTypeChoices property](filesavepicker_filetypechoices.md)
+[File picker sample](https://go.microsoft.com/fwlink/p/?linkid=234890), [Quickstart: Accessing files with file pickers (HTML)](https://msdn.microsoft.com/library/df082239-381c-462f-9f97-d2b390a2052e), [Open files and folders with a picker](https://msdn.microsoft.com/library/f87dbe2f-77db-4573-8172-29e11abefd34), [FileSavePicker.FileTypeChoices property](filesavepicker_filetypechoices.md)
 ilesavepicker_filetypechoices.md)

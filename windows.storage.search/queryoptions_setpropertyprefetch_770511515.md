@@ -28,4 +28,4 @@ A list of additional properties to retrieve.
 ## -examples
 
 ## -see-also
-[Folder enumeration sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=619993)
+[Folder enumeration sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=619993)

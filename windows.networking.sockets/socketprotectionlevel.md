@@ -74,7 +74,7 @@ For TCP sockets, the various enum values allow app developers to control the use
 
 For Bluetooth RFCOMM sockets, the various enum values allow app developers to control the use of Bluetooth encryption.
 
-The users of non-domain joined machines can also disable ciphers and protocols by using registry settings. For more information, see [How to Restrict the Use of Certain Cryptographic Algorithms and Protocols in Schannel.dll](http://support.microsoft.com/kb/245030).
+The users of non-domain joined machines can also disable ciphers and protocols by using registry settings. For more information, see [How to Restrict the Use of Certain Cryptographic Algorithms and Protocols in Schannel.dll](https://support.microsoft.com/kb/245030).
 
 The [SocketProtectionLevel](socketprotectionlevel.md) enumeration also allow servers to control protocol negotiation for security with clients when using the [StreamSocketListener](streamsocketlistener.md) object to listen and bind to sockets over Bluetooth. When the [StreamSocketListener](streamsocketlistener.md) object is used over Bluetooth, the supported [SocketProtectionLevel](socketprotectionlevel.md) values are **PlainSocket**, **BluetoothEncryptionAllowNullAuthentication**, or **BluetoothEncryptionWithAuthentication**. When the [StreamSocketListener](streamsocketlistener.md) object is used to listen and bind to TCP sockets, the only supported [SocketProtectionLevel](socketprotectionlevel.md) value is **PlainSocket**.
 

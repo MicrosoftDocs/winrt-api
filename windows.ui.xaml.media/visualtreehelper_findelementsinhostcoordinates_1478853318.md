@@ -80,4 +80,4 @@ private bool DoesPointContainElement(Point testPoint, string elementName, UIElem
 
 
 ## -see-also
-[Point](../windows.foundation/point.md), [Mouse interactions](http://msdn.microsoft.com/library/c8a158ef-70a9-4ba2-a270-7d08125700ac)
+[Point](../windows.foundation/point.md), [Mouse interactions](https://msdn.microsoft.com/library/c8a158ef-70a9-4ba2-a270-7d08125700ac)

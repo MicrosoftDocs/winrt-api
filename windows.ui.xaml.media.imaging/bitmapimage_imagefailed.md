@@ -35,4 +35,4 @@ private void BitmapImage_ImageFailed(object sender, ExceptionRoutedEventArgs e) 
 ## -examples
 
 ## -see-also
-[ImageOpened](bitmapimage_imageopened.md), [Image.ImageFailed](../windows.ui.xaml.controls/image_imagefailed.md), [ImageBrush.ImageFailed](../windows.ui.xaml.media/imagebrush_imagefailed.md), [Image control](../windows.ui.xaml.controls/image.md), [Image and ImageBrush](http://msdn.microsoft.com/library/cea8780c-71a3-4168-a6e8-6361cdfb2faf)
+[ImageOpened](bitmapimage_imageopened.md), [Image.ImageFailed](../windows.ui.xaml.controls/image_imagefailed.md), [ImageBrush.ImageFailed](../windows.ui.xaml.media/imagebrush_imagefailed.md), [Image control](../windows.ui.xaml.controls/image.md), [Image and ImageBrush](https://msdn.microsoft.com/library/cea8780c-71a3-4168-a6e8-6361cdfb2faf)

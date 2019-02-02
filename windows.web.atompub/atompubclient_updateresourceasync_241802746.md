@@ -23,9 +23,9 @@ The resource to be updated.
 The object that is used to update the resource asynchronously and to report the progress and completion status of the operation.
 
 ## -remarks
-For an example of how this method is implemented to update syndicated content see [Quickstart: Managing Feed Entries](http://msdn.microsoft.com/library/239d42bc-5812-4ead-a91c-b3696fc3ef75).
+For an example of how this method is implemented to update syndicated content see [Quickstart: Managing Feed Entries](https://msdn.microsoft.com/library/239d42bc-5812-4ead-a91c-b3696fc3ef75).
 
 ## -examples
 
 ## -see-also
-[Quickstart: Managing Feed Entries](http://msdn.microsoft.com/library/239d42bc-5812-4ead-a91c-b3696fc3ef75), [AtomPub sample](http://go.microsoft.com/fwlink/p/?linkid=245061)
+[Quickstart: Managing Feed Entries](https://msdn.microsoft.com/library/239d42bc-5812-4ead-a91c-b3696fc3ef75), [AtomPub sample](https://go.microsoft.com/fwlink/p/?linkid=245061)

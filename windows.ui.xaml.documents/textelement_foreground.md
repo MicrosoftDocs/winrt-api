@@ -45,4 +45,4 @@ Setting [Foreground](textelement_foreground.md) has no visible effect for [LineB
 ## -examples
 
 ## -see-also
-[Quickstart: Displaying text](http://msdn.microsoft.com/library/3efa9d2a-71a5-41d3-bba4-ec6cc356d47f), [Use brushes](http://msdn.microsoft.com/library/02141f86-355e-4046-86ea-2a89d615b7db)
+[Quickstart: Displaying text](https://msdn.microsoft.com/library/3efa9d2a-71a5-41d3-bba4-ec6cc356d47f), [Use brushes](https://msdn.microsoft.com/library/02141f86-355e-4046-86ea-2a89d615b7db)

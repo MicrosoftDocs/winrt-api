@@ -23,7 +23,7 @@ Specifies the streams to which the effect will be applied.
 An asynchronous operation that returns an [IMediaExtension](../windows.media/imediaextension.md) upon successful completion.
 
 ## -remarks
-For how-to guidance on adding effects to the camera capture and preview streams, see [Effects for video capture](http://msdn.microsoft.com/library/e0189423-1df3-4052-ab2e-846ea18254c4).
+For how-to guidance on adding effects to the camera capture and preview streams, see [Effects for video capture](https://msdn.microsoft.com/library/e0189423-1df3-4052-ab2e-846ea18254c4).
 
 ## -examples
 

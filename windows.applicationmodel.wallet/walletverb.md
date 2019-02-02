@@ -22,7 +22,7 @@ A [WalletVerb](walletverb.md) object represents the individual items for the [Wa
 
 The verb is a cue to the app of which UI to display on activation, which might be specific to the verb that was chosen by the user.
 
-For more info on using **Wallet** activation, see the "Handling app activation by Wallet " section of [Quickstart: Using the   APIs](http://msdn.microsoft.com/library/4312628c-37a3-48a7-b41f-14605d478cf7).
+For more info on using **Wallet** activation, see the "Handling app activation by Wallet " section of [Quickstart: Using the   APIs](https://msdn.microsoft.com/library/4312628c-37a3-48a7-b41f-14605d478cf7).
 
 ## -examples
 

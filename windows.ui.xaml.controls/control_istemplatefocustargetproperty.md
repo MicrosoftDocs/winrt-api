@@ -20,4 +20,4 @@ The identifier for the [Control.IsTemplateFocusTarget](control_istemplatefocusta
 ## -examples
 
 ## -see-also
-[Control.IsTemplateFocusTarget](control_istemplatefocustarget.md), [Attached properties overview](http://msdn.microsoft.com/library/098c1de0-d640-48b1-9961-d0adf33266e2)
+[Control.IsTemplateFocusTarget](control_istemplatefocustarget.md), [Attached properties overview](https://msdn.microsoft.com/library/098c1de0-d640-48b1-9961-d0adf33266e2)

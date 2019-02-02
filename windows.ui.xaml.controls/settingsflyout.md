@@ -60,7 +60,7 @@ To add a [SettingsFlyout](settingsflyout.md) control to an app project in Micros
 
 To instantiate your [SettingsFlyout](settingsflyout.md) control, use the class name you specified and the default constructor for it. For example, if you named your [SettingsFlyout](settingsflyout.md) class as `UpdateSettingsFlyout`, you'd call `new UpdateSettingsFlyout()`.
 
-For more information and detailed steps, see [Quickstart: Add app settings](http://msdn.microsoft.com/library/9651582e-56bb-4e14-ae99-9d0ff8cae104) and [Quickstart: Add app help](http://msdn.microsoft.com/library/770b546b-c909-4ecb-8a1f-c2f6b3e573b7).
+For more information and detailed steps, see [Quickstart: Add app settings](https://msdn.microsoft.com/library/9651582e-56bb-4e14-ae99-9d0ff8cae104) and [Quickstart: Add app help](https://msdn.microsoft.com/library/770b546b-c909-4ecb-8a1f-c2f6b3e573b7).
 
 ## -examples
 This example shows the result of adding a templated item for **Settings Flyout** and naming the class `UpdateSettingsFlyout`. Then, the `SettingsFlyoutSectionStyle` resource is redefined, and appropriate strings and controls are added to the XAML composition of the [SettingsFlyout](settingsflyout.md) XAML so that the user can adjust the settings.
@@ -164,7 +164,7 @@ private void UpdateSettingsButton_Click(object sender, RoutedEventArgs e)
 }
 ```
 
-For more code in context, see the [App settings sample](http://go.microsoft.com/fwlink/p/?LinkID=310073).
+For more code in context, see the [App settings sample](https://go.microsoft.com/fwlink/p/?LinkID=310073).
 
 ## -see-also
-[ContentControl](contentcontrol.md), [Quickstart: Add app settings](http://msdn.microsoft.com/library/9651582e-56bb-4e14-ae99-9d0ff8cae104), [Quickstart: Add app help](http://msdn.microsoft.com/library/770b546b-c909-4ecb-8a1f-c2f6b3e573b7), [App settings sample](http://go.microsoft.com/fwlink/p/?LinkID=310073)
+[ContentControl](contentcontrol.md), [Quickstart: Add app settings](https://msdn.microsoft.com/library/9651582e-56bb-4e14-ae99-9d0ff8cae104), [Quickstart: Add app help](https://msdn.microsoft.com/library/770b546b-c909-4ecb-8a1f-c2f6b3e573b7), [App settings sample](https://go.microsoft.com/fwlink/p/?LinkID=310073)

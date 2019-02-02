@@ -42,7 +42,7 @@ For each of these classes, you typically define object elements. Most theme tran
 + [UIElement.Transitions](../windows.ui.xaml/uielement_transitions.md)
 
 
-Not all transitions make sense for any given property. For example, [PopupThemeTransition](popupthemetransition.md) is really only useful for [Popup.ChildTransitions](../windows.ui.xaml.controls.primitives/popup_childtransitions.md). For more info on how to use the theme transitions, see [Animations overview](http://msdn.microsoft.com/library/0c8dee75-fb7b-4e59-81e3-55f8d65cd982) and topics linked from there, including the design guidelines topics.
+Not all transitions make sense for any given property. For example, [PopupThemeTransition](popupthemetransition.md) is really only useful for [Popup.ChildTransitions](../windows.ui.xaml.controls.primitives/popup_childtransitions.md). For more info on how to use the theme transitions, see [Animations overview](https://msdn.microsoft.com/library/0c8dee75-fb7b-4e59-81e3-55f8d65cd982) and topics linked from there, including the design guidelines topics.
 
 > [!NOTE]
 > Prior to Windows 10, version 1809 (SDK 17763), the XAML syntax for properties that have a [TransitionCollection](../windows.ui.xaml.media.animation/transitioncollection.md) value requires that you declare an explicit [TransitionCollection](../windows.ui.xaml.media.animation/transitioncollection.md) object element as the value, and then provide object elements as child elements of [TransitionCollection](../windows.ui.xaml.media.animation/transitioncollection.md) for each of the transition animations you want to use. In Windows 10, version 1809 (SDK 17763) or later, [TransitionCollection](../windows.ui.xaml.media.animation/transitioncollection.md) supports the implicit collection usage, so you can omit the collection object element. For more info on implicit collections and XAML, see [XAML syntax guide](/windows/uwp/xaml-platform/xaml-syntax-guide).
@@ -50,4 +50,4 @@ Not all transitions make sense for any given property. For example, [PopupThemeT
 ## -examples
 
 ## -see-also
-[DependencyObject](../windows.ui.xaml/dependencyobject.md), [Animations overview](http://msdn.microsoft.com/library/0c8dee75-fb7b-4e59-81e3-55f8d65cd982), [UIElement.Transitions](../windows.ui.xaml/uielement_transitions.md)
+[DependencyObject](../windows.ui.xaml/dependencyobject.md), [Animations overview](https://msdn.microsoft.com/library/0c8dee75-fb7b-4e59-81e3-55f8d65cd982), [UIElement.Transitions](../windows.ui.xaml/uielement_transitions.md)

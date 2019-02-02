@@ -21,4 +21,4 @@ You can use this method during a share operation to send the selected [WebView](
 ## -examples
 
 ## -see-also
-[DataPackage](../windows.applicationmodel.datatransfer/datapackage.md), [WebView control (XAML) sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=722922)
+[DataPackage](../windows.applicationmodel.datatransfer/datapackage.md), [WebView control (XAML) sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=722922)

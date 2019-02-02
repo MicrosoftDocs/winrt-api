@@ -31,4 +31,4 @@ The first available barcode scanner. Returns a null object in the following case
 [!code-js[CreateBarcodeScannerJS](../windows.devices.pointofservice/code/BarcodeScanner/js/scenario1.js#SnippetCreateBarcodeScannerJS)]
 
 ## -see-also
-[Barcode scanner sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620014)
+[Barcode scanner sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620014)

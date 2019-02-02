@@ -17,4 +17,4 @@ Many of the types in this namespace are infrastructure or types that support unc
 ## -examples
 
 ## -see-also
-[XAML overview](http://msdn.microsoft.com/library/48041b37-f1a8-44a4-bb8e-1d4de30e7823)
+[XAML overview](https://msdn.microsoft.com/library/48041b37-f1a8-44a4-bb8e-1d4de30e7823)

@@ -30,9 +30,9 @@ Represents an object that renders audio and video to the display. See Remarks.
 
 Use a [MediaElement](mediaelement.md) control to play audio and video files in your app. Built– in media transport controls let users interact with their media by providing a default playback experience comprised of various buttons including play, pause, closed captions, and others. See [MediaTransportControls](mediatransportcontrols.md) for more info.
 
-For info about the media formats that [MediaElement](mediaelement.md) supports, see [Supported codecs](http://msdn.microsoft.com/library/9347ad7c-3a90-4073-bff4-9e8237398343).
+For info about the media formats that [MediaElement](mediaelement.md) supports, see [Supported codecs](https://msdn.microsoft.com/library/9347ad7c-3a90-4073-bff4-9e8237398343).
 
-For info about performance related to [MediaElement](mediaelement.md), see [Optimize animations and media](http://msdn.microsoft.com/library/de5b084c-dac1-430b-a15b-5b3d5fb698f7).
+For info about performance related to [MediaElement](mediaelement.md), see [Optimize animations and media](https://msdn.microsoft.com/library/de5b084c-dac1-430b-a15b-5b3d5fb698f7).
 
 ### Set the media source
 
@@ -72,7 +72,7 @@ You can create your own media transport controls by setting [AreTransportControl
 > [!TIP]
 > For better performance, avoid data binding to the [Position](mediaelement_position.md) property to reflect frequent position updates (for example with a progress bar). Instead, use the [DispatcherTimer](../windows.ui.xaml/dispatchertimer.md) to query the [Position](mediaelement_position.md) property.
 
-For more info and examples, see [Create custom transport controls](http://msdn.microsoft.com/library/6643a108-a6eb-42bc-b800-22eabd7b731b).
+For more info and examples, see [Create custom transport controls](https://msdn.microsoft.com/library/6643a108-a6eb-42bc-b800-22eabd7b731b).
 
 ### Open local media files
 
@@ -139,7 +139,7 @@ Use the [AudioStreamIndex](mediaelement_audiostreamindex.md) property and the [G
 To search for a track in a specific language, start by iterating through each audio track on the video. Use [AudioStreamCount](mediaelement_audiostreamcount.md) as the max value for a **for** loop.
 1. Get the language of the audio track.
 
-Use the [GetAudioStreamLanguage](mediaelement_getaudiostreamlanguage_366720426.md) method to get the language of the track. The language of the track is identified by a [language code](http://msdn.microsoft.com/library/ms533052(vs.85).aspx), such as **"en"** for English or **"ja"** for Japanese.
+Use the [GetAudioStreamLanguage](mediaelement_getaudiostreamlanguage_366720426.md) method to get the language of the track. The language of the track is identified by a [language code](https://msdn.microsoft.com/library/ms533052(vs.85).aspx), such as **"en"** for English or **"ja"** for Japanese.
 1. Set the active audio track.
 
 When you find the track with the desired language, set the [AudioStreamIndex](mediaelement_audiostreamindex.md) to the index of the track. Setting [AudioStreamIndex](mediaelement_audiostreamindex.md) to **null** selects the default audio track which is defined by the content.
@@ -246,7 +246,7 @@ Prior to Windows 8.1, the [IsFullWindow](mediaelement_isfullwindow.md) property
 
 Prior to Windows 8.1, the **Opacity** property is not supported on [MediaElement](mediaelement.md).
 
-Prior to Windows 8.1, the [AreTransportControlsEnabled](mediaelement_aretransportcontrolsenabled.md) property and built-in transport controls are not available. You must provide your own transport controls. For more info and examples, see [Create custom transport controls](http://msdn.microsoft.com/library/6643a108-a6eb-42bc-b800-22eabd7b731b) and scenario 4 of the [XAML media playback sample](http://go.microsoft.com/fwlink/p/?linkid=226859).
+Prior to Windows 8.1, the [AreTransportControlsEnabled](mediaelement_aretransportcontrolsenabled.md) property and built-in transport controls are not available. You must provide your own transport controls. For more info and examples, see [Create custom transport controls](https://msdn.microsoft.com/library/6643a108-a6eb-42bc-b800-22eabd7b731b) and scenario 4 of the [XAML media playback sample](https://go.microsoft.com/fwlink/p/?linkid=226859).
 
 ### Windows Phone 8
 
@@ -330,5 +330,5 @@ private void ShowPopupClicked(object sender, RoutedEventArgs e)
 
 ## -see-also
 
-[Control](control.md), [MediaElement control guide](http://msdn.microsoft.com/library/af2f2008-9b53-430c-bbc3-8888f631b0b0), [Create custom transport controls](http://msdn.microsoft.com/library/6643a108-a6eb-42bc-b800-22eabd7b731b), [Media transport controls sample](http://go.microsoft.com/fwlink/p/?LinkId=620023&amp;amp;clcid=0x409), [Video playback sample](http://go.microsoft.com/fwlink/p/?LinkId=620020&amp;amp;clcid=0x409), [Real-time communication sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620600)
-e](http://go.microsoft.com/fwlink/p/?LinkId=620023&amp;amp;clcid=0x409), [Video playback sample](http://go.microsoft.com/fwlink/p/?LinkId=620020&amp;amp;clcid=0x409), [Real-time communication sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620600), [Version adaptive code sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/VersionAdaptiveCode)
+[Control](control.md), [MediaElement control guide](https://msdn.microsoft.com/library/af2f2008-9b53-430c-bbc3-8888f631b0b0), [Create custom transport controls](https://msdn.microsoft.com/library/6643a108-a6eb-42bc-b800-22eabd7b731b), [Media transport controls sample](https://go.microsoft.com/fwlink/p/?LinkId=620023&amp;amp;clcid=0x409), [Video playback sample](https://go.microsoft.com/fwlink/p/?LinkId=620020&amp;amp;clcid=0x409), [Real-time communication sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620600)
+e](https://go.microsoft.com/fwlink/p/?LinkId=620023&amp;amp;clcid=0x409), [Video playback sample](https://go.microsoft.com/fwlink/p/?LinkId=620020&amp;amp;clcid=0x409), [Real-time communication sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620600), [Version adaptive code sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/VersionAdaptiveCode)

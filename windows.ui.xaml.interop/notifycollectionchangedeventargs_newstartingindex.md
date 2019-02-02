@@ -32,4 +32,4 @@ Note that this value is signed. This enables the -1 value cases.
 ## -examples
 
 ## -see-also
-[XAML data binding sample](http://go.microsoft.com/fwlink/p/?linkid=226854)
+[XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854)

@@ -27,4 +27,4 @@ When programming with .NET, this class is hidden and developers should use the [
 ## -examples
 
 ## -see-also
-[System.EventHandler&lt;TEventArgs&gt;](https://msdn.microsoft.com/library/windows/apps/db0etb8x), [Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832)
+[System.EventHandler&lt;TEventArgs&gt;](https://msdn.microsoft.com/library/windows/apps/db0etb8x), [Events and routed events overview](https://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832)

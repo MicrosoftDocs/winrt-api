@@ -46,4 +46,4 @@ This table shows the resources used by the [MenuFlyoutPresenter](menuflyoutprese
 ## -examples
 
 ## -see-also
-[ItemsControl](itemscontrol.md), [IItemContainerMapping](iitemcontainermapping.md), [MenuFlyout](menuflyout.md), [MenuFlyoutPresenter styles and templates](http://msdn.microsoft.com/library/a1b395e3-7547-4845-8d8d-65cab6531aa8)
+[ItemsControl](itemscontrol.md), [IItemContainerMapping](iitemcontainermapping.md), [MenuFlyout](menuflyout.md), [MenuFlyoutPresenter styles and templates](https://msdn.microsoft.com/library/a1b395e3-7547-4845-8d8d-65cab6531aa8)

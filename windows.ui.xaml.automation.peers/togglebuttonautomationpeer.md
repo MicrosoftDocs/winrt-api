@@ -28,7 +28,7 @@ This peer raises toggle-related automation events on behalf of its owner class.
 
 This peer has the base class [ButtonBaseAutomationPeer](buttonbaseautomationpeer.md) and inherits behavior other than the overrides indicated above. Notably, [GetName](automationpeer_getname_1386609741.md) returns a string value based on examining the current **Content**. For more info, see [ButtonBaseAutomationPeer](buttonbaseautomationpeer.md).
 
-The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](http://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4).
+The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](https://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4).
 
 ### **ToggleButtonAutomationPeer** derived classes
 
@@ -42,4 +42,4 @@ The peer also has other behaviors that are provided by the base [FrameworkElemen
 ## -examples
 
 ## -see-also
-[ToggleButton](../windows.ui.xaml.controls.primitives/togglebutton.md), [ButtonBaseAutomationPeer](buttonbaseautomationpeer.md), [IToggleProvider](../windows.ui.xaml.automation.provider/itoggleprovider.md), [Custom automation peers](http://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4)
+[ToggleButton](../windows.ui.xaml.controls.primitives/togglebutton.md), [ButtonBaseAutomationPeer](buttonbaseautomationpeer.md), [IToggleProvider](../windows.ui.xaml.automation.provider/itoggleprovider.md), [Custom automation peers](https://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4)

@@ -22,4 +22,4 @@ For JavaScript, [BitmapPropertySet](bitmappropertyset.md) supports using an inde
 ## -examples
 
 ## -see-also
-[BitmapTypedValue](bitmaptypedvalue.md), [Image Metadata](http://msdn.microsoft.com/library/d5d98044-7221-4c2a-9724-56e59f341ab0), [Image Metadata](http://msdn.microsoft.com/library/d5d98044-7221-4c2a-9724-56e59f341ab0)
+[BitmapTypedValue](bitmaptypedvalue.md), [Image Metadata](https://msdn.microsoft.com/library/d5d98044-7221-4c2a-9724-56e59f341ab0), [Image Metadata](https://msdn.microsoft.com/library/d5d98044-7221-4c2a-9724-56e59f341ab0)

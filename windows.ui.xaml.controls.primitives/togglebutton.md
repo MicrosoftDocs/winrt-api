@@ -54,4 +54,4 @@ The following example shows how to create a three-state [ToggleButton](togglebut
 [!code-xml[1](../windows.ui.xaml.data/code/System.Windows.Controls.ToggleButtonThreeState/csharp/Page.xaml#Snippet1)]
 
 ## -see-also
-[ButtonBase](buttonbase.md), [ToggleButton styles and templates](http://msdn.microsoft.com/library/03017a91-a386-4a08-b0fc-63e98001ef6b), [AppBarToggleButton](../windows.ui.xaml.automation.peers/appbartogglebuttonautomationpeer.md), [CheckBox](../windows.ui.xaml.controls/checkbox.md), [RadioButton](../windows.ui.xaml.controls/radiobutton.md)
+[ButtonBase](buttonbase.md), [ToggleButton styles and templates](https://msdn.microsoft.com/library/03017a91-a386-4a08-b0fc-63e98001ef6b), [AppBarToggleButton](../windows.ui.xaml.automation.peers/appbartogglebuttonautomationpeer.md), [CheckBox](../windows.ui.xaml.controls/checkbox.md), [RadioButton](../windows.ui.xaml.controls/radiobutton.md)

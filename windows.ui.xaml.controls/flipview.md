@@ -30,14 +30,14 @@ Use a [FlipView](flipview.md) to present a collection of items that the user vie
 By default, a data item is displayed in the [FlipView](flipview.md) as the string representation of the data object it's bound to. To specify exactly how items in the [FlipView](flipview.md) are displayed, you create a [DataTemplate](../windows.ui.xaml/datatemplate.md) to define the layout of controls used to display an individual item. The controls in the layout can be bound to properties of a data object, or have content defined inline. You assign the [DataTemplate](../windows.ui.xaml/datatemplate.md) to the [ItemTemplate](itemscontrol_itemtemplate.md) property of the [FlipView](flipview.md).
 
 For more info, see these topics:
-+ [Quickstart: Adding FlipView controls](http://msdn.microsoft.com/library/74f359a7-a228-4dbd-ac9e-1226fac477fd)
-+ [How to add a flip  view](http://msdn.microsoft.com/library/fd01cc83-c8ea-460e-84cb-4c5bda7f528c)
++ [Quickstart: Adding FlipView controls](https://msdn.microsoft.com/library/74f359a7-a228-4dbd-ac9e-1226fac477fd)
++ [How to add a flip  view](https://msdn.microsoft.com/library/fd01cc83-c8ea-460e-84cb-4c5bda7f528c)
 
 
 > [!NOTE]
 > When a user flips through [FlipView](flipview.md) content using touch interaction, a [SelectionChanged](../windows.ui.xaml.controls.primitives/selector_selectionchanged.md) event occurs only when touch manipulations are complete. This means that when a user flips through content quickly, individual [SelectionChanged](../windows.ui.xaml.controls.primitives/selector_selectionchanged.md) events are not always generated for every item because the manipulation is still occurring.
 
-For more examples, see [XAML FlipView sample](http://go.microsoft.com/fwlink/p/?LinkID=311760).
+For more examples, see [XAML FlipView sample](https://go.microsoft.com/fwlink/p/?LinkID=311760).
 
 ### Control style and template
 
@@ -75,4 +75,4 @@ In this example, the [ItemTemplate](itemscontrol_itemtemplate.md) of a [FlipView
 [!code-xml[FlipViewItemTemplate](../windows.ui.xaml.controls/code/ListAndGridViewSnippets/csharp/SplitPage.xaml#SnippetFlipViewItemTemplate)]
 
 ## -see-also
-[Selector](../windows.ui.xaml.controls.primitives/selector.md), [FlipView styles and templates](http://msdn.microsoft.com/library/9db798b1-06b7-40e3-add2-c89676b2bfdb), [XAML FlipView sample](http://go.microsoft.com/fwlink/p/?LinkID=311760), [Guidelines for flip view controls](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/flipview)
+[Selector](../windows.ui.xaml.controls.primitives/selector.md), [FlipView styles and templates](https://msdn.microsoft.com/library/9db798b1-06b7-40e3-add2-c89676b2bfdb), [XAML FlipView sample](https://go.microsoft.com/fwlink/p/?LinkID=311760), [Guidelines for flip view controls](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/flipview)

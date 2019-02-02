@@ -25,13 +25,13 @@ The [RenderTargetBitmap](rendertargetbitmap.md)  API you'll use the most often i
 
 A [RenderTargetBitmap](rendertargetbitmap.md) object isn't typically declared in a XAML UI, because you need to call [RenderAsync](rendertargetbitmap_renderasync_1804035726.md) in code before you have a useful, image-populated instance of [RenderTargetBitmap](rendertargetbitmap.md) for UI display purposes.
 
-For more code examples of using [RenderTargetBitmap](rendertargetbitmap.md), see [XAML render to bitmap sample](http://go.microsoft.com/fwlink/p/?LinkID=309153).
+For more code examples of using [RenderTargetBitmap](rendertargetbitmap.md), see [XAML render to bitmap sample](https://go.microsoft.com/fwlink/p/?LinkID=309153).
 
 The contents of a [RenderTargetBitmap](rendertargetbitmap.md) can be lost in rare cases because of interaction with other lower-level systems, for example if the video driver is reset as part of a recovery (see [Timeout Detection and Recovery (TDR)](XREF:TODO:display.timeout_detection_and_recovery)). If that happens, the [CompositionTarget.SurfaceContentsLost](../windows.ui.xaml.media/compositiontarget_surfacecontentslost.md) event will fire. To account for this case and similar info-loss cases, apps should listen for the [CompositionTarget.SurfaceContentsLost](../windows.ui.xaml.media/compositiontarget_surfacecontentslost.md) event and re-render the contents of a [RenderTargetBitmap](rendertargetbitmap.md) by calling [RenderAsync](rendertargetbitmap_renderasync_1804035726.md) again.
 
 The rendered bitmap contents of a [RenderTargetBitmap](rendertargetbitmap.md) do not automatically scale when the current DPI setting changes. Apps should re-render the contents of a [RenderTargetBitmap](rendertargetbitmap.md) when the current view's DPI setting changes in order to ensure that the rendered vector content remains crisp. For example, a resize can occur if the user moves an app between two monitors running at a different DPI setting. Consider listening for the [DisplayInformation.DpiChanged](../windows.graphics.display/displayinformation_dpichanged.md) event to detect these cases.
 
-The maximum rendered size of a XAML visual tree is restricted by the maximum dimensions of a Microsoft DirectX texture; for more info see [Resource Limits ()](http://msdn.microsoft.com/library/80ae49f2-4a6d-4cfc-95d6-510685ab9736). This limit can vary depending on the hardware whre the app runs. Very large content that exceeds this limit might be scaled to fit. If scaling limits are applied in this way, the rendered size after scaling can be queried using the [PixelWidth](rendertargetbitmap_pixelwidth.md) and [PixelHeight](rendertargetbitmap_pixelheight.md) properties. For example, a 10000 by 10000 pixel XAML visual tree might be scaled to 4096 by 4096 pixels, an example of a particular limit as forced by the hardware where the app runs.
+The maximum rendered size of a XAML visual tree is restricted by the maximum dimensions of a Microsoft DirectX texture; for more info see [Resource Limits ()](https://msdn.microsoft.com/library/80ae49f2-4a6d-4cfc-95d6-510685ab9736). This limit can vary depending on the hardware whre the app runs. Very large content that exceeds this limit might be scaled to fit. If scaling limits are applied in this way, the rendered size after scaling can be queried using the [PixelWidth](rendertargetbitmap_pixelwidth.md) and [PixelHeight](rendertargetbitmap_pixelheight.md) properties. For example, a 10000 by 10000 pixel XAML visual tree might be scaled to 4096 by 4096 pixels, an example of a particular limit as forced by the hardware where the app runs.
 
 ### XAML visuals and **RenderTargetBitmap** capture capabilities
 
@@ -46,7 +46,7 @@ There are a few scenarios for XAML-composed visual content that you can't captur
 
 
 ## -examples
-This basic code outline is adapted from the first scenario XAML and code of the [XAML render to bitmap sample](http://go.microsoft.com/fwlink/p/?LinkID=309153). Note how all the code, even the constructor, is within an **async** method. Here it's an event handler for a button that a user clicks to initiate the rendering request.
+This basic code outline is adapted from the first scenario XAML and code of the [XAML render to bitmap sample](https://go.microsoft.com/fwlink/p/?LinkID=309153). Note how all the code, even the constructor, is within an **async** method. Here it's an event handler for a button that a user clicks to initiate the rendering request.
 
 ```xaml
 <StackPanel> 
@@ -74,4 +74,4 @@ private async void SaveImageSource_Click(object sender, RoutedEventArgs e)
 
 
 ## -see-also
-[ImageSource](../windows.ui.xaml.media/imagesource.md), [XAML render to bitmap sample](http://go.microsoft.com/fwlink/p/?LinkID=309153), [Image and ImageBrush](http://msdn.microsoft.com/library/cea8780c-71a3-4168-a6e8-6361cdfb2faf), [RenderAsync(UIElement)](rendertargetbitmap_renderasync_1804035726.md)
+[ImageSource](../windows.ui.xaml.media/imagesource.md), [XAML render to bitmap sample](https://go.microsoft.com/fwlink/p/?LinkID=309153), [Image and ImageBrush](https://msdn.microsoft.com/library/cea8780c-71a3-4168-a6e8-6361cdfb2faf), [RenderAsync(UIElement)](rendertargetbitmap_renderasync_1804035726.md)

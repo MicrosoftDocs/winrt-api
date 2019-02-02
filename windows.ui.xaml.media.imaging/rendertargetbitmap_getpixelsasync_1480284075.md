@@ -25,4 +25,4 @@ Always call [RenderAsync](rendertargetbitmap_renderasync_1804035726.md) before c
 ## -examples
 
 ## -see-also
-[BitmapEncoder](../windows.graphics.imaging/bitmapencoder.md), [DataTransferManager](../windows.applicationmodel.datatransfer/datatransfermanager.md), [Windows.Graphics.Imaging namespace](../windows.graphics.imaging/windows_graphics_imaging.md), [XAML render to bitmap sample](http://go.microsoft.com/fwlink/p/?LinkID=309153)
+[BitmapEncoder](../windows.graphics.imaging/bitmapencoder.md), [DataTransferManager](../windows.applicationmodel.datatransfer/datatransfermanager.md), [Windows.Graphics.Imaging namespace](../windows.graphics.imaging/windows_graphics_imaging.md), [XAML render to bitmap sample](https://go.microsoft.com/fwlink/p/?LinkID=309153)

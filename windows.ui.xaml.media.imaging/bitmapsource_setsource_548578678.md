@@ -24,4 +24,4 @@ In low memory situations (most likely on lower-memory phones), it is possible fo
 ## -examples
 
 ## -see-also
-[SetSourceAsync](bitmapsource_setsourceasync_1118221574.md), [UriSource](bitmapimage_urisource.md), [Imaging](http://msdn.microsoft.com/library/3fd2aa71-ef67-47b2-9332-3ffa5d3703ea)
+[SetSourceAsync](bitmapsource_setsourceasync_1118221574.md), [UriSource](bitmapimage_urisource.md), [Imaging](https://msdn.microsoft.com/library/3fd2aa71-ef67-47b2-9332-3ffa5d3703ea)

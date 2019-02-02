@@ -33,4 +33,4 @@ A value for the [HorizontalContentAlignment](control_horizontalcontentalignment.
 ## -examples
 
 ## -see-also
-[VerticalContentAlignment](control_verticalcontentalignment.md), [FrameworkElement.HorizontalAlignment](../windows.ui.xaml/frameworkelement_horizontalalignment.md), [Alignment, margin, and padding](http://msdn.microsoft.com/library/9412abd4-3674-4865-b07d-64c7c26e4842)
+[VerticalContentAlignment](control_verticalcontentalignment.md), [FrameworkElement.HorizontalAlignment](../windows.ui.xaml/frameworkelement_horizontalalignment.md), [Alignment, margin, and padding](https://msdn.microsoft.com/library/9412abd4-3674-4865-b07d-64c7c26e4842)

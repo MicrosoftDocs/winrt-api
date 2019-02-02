@@ -23,4 +23,4 @@ See [Request a maps authentication key](https://msdn.microsoft.com/windows/uwp/m
 ## -examples
 
 ## -see-also
-[Launch the Windows Settings app](http://msdn.microsoft.com/library/c84d4bee-1fee-4648-ad7d-8321eac70290)
+[Launch the Windows Settings app](https://msdn.microsoft.com/library/c84d4bee-1fee-4648-ad7d-8321eac70290)

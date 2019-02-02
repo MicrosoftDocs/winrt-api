@@ -29,4 +29,4 @@ The object value for the resource to insert.
 ## -examples
 
 ## -see-also
-[Add](resourcedictionary_add_2.md), [ResourceDictionary and XAML resource references](http://msdn.microsoft.com/library/e3cbfa3d-6af5-44e1-b9f9-c3d3ea8a25ce)
+[Add](resourcedictionary_add_2.md), [ResourceDictionary and XAML resource references](https://msdn.microsoft.com/library/e3cbfa3d-6af5-44e1-b9f9-c3d3ea8a25ce)

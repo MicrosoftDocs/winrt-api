@@ -30,4 +30,4 @@ You must enable the **Proximity** capability to communicate with Wi-Fi Direct de
 [!code-js[2_JS](../windows.devices.wifidirect/code/WiFiDirect_Device/js/default.js#Snippet2_JS)]
 
 ## -see-also
-[WiFiDirectDevice sample](http://go.microsoft.com/fwlink/p/?LinkID=301419)
+[WiFiDirectDevice sample](https://go.microsoft.com/fwlink/p/?LinkID=301419)

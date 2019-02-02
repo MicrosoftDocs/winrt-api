@@ -18,4 +18,4 @@ For more info on [IXamlMetadataProvider](ixamlmetadataprovider.md), [IXamlType](
 ## -examples
 
 ## -see-also
-[IXamlType](ixamltype.md), [XAML overview](http://msdn.microsoft.com/library/48041b37-f1a8-44a4-bb8e-1d4de30e7823)
+[IXamlType](ixamltype.md), [XAML overview](https://msdn.microsoft.com/library/48041b37-f1a8-44a4-bb8e-1d4de30e7823)

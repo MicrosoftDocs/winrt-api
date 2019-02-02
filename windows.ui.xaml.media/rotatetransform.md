@@ -79,4 +79,4 @@ This example uses a [RotateTransform](rotatetransform.md) to rotate text. An [An
 [!code-xml[RotateTransform90DegreeText](../windows.ui.xaml/code/transforms/csharp/Rotate_90_Degrees_Text.xaml#SnippetRotateTransform90DegreeText)]
 
 ## -see-also
-[XAML two-dimensional transforms sample](http://go.microsoft.com/fwlink/p/?linkid=238580), [Transform](transform.md)
+[XAML two-dimensional transforms sample](https://go.microsoft.com/fwlink/p/?linkid=238580), [Transform](transform.md)

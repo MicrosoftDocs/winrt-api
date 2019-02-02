@@ -28,6 +28,6 @@ True if the contact has already been selected; otherwise, false.
 ## -examples
 
 ## -see-also
-[Contact Picker app sample](http://go.microsoft.com/fwlink/p/?linkid=231575)
+[Contact Picker app sample](https://go.microsoft.com/fwlink/p/?linkid=231575)
 ## -capabilities
 contactsSystem

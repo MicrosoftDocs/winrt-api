@@ -59,4 +59,4 @@ operation = await Task.Run(() => { return myDownloadOperation.StartAsync(); });
 ## -examples
 
 ## -see-also
-[Background Transfer Download sample](http://go.microsoft.com/fwlink/p/?linkid=245064), [BackgroundTransferError.GetStatus](backgroundtransfererror_getstatus_1856274933.md), [Handling exceptions in network apps](http://msdn.microsoft.com/library/76fafcc9-c674-4cf8-baa0-2400638fae35), [Quickstart: Download a file](http://msdn.microsoft.com/library/f7b1a3a0-87b8-4c85-a2a3-be9ff7f04d53)
+[Background Transfer Download sample](https://go.microsoft.com/fwlink/p/?linkid=245064), [BackgroundTransferError.GetStatus](backgroundtransfererror_getstatus_1856274933.md), [Handling exceptions in network apps](https://msdn.microsoft.com/library/76fafcc9-c674-4cf8-baa0-2400638fae35), [Quickstart: Download a file](https://msdn.microsoft.com/library/f7b1a3a0-87b8-4c85-a2a3-be9ff7f04d53)

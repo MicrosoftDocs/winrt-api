@@ -28,4 +28,4 @@ If you don't explicitly set an [Altitude](https://docs.microsoft.com/uwp/api/win
 ## -examples
 
 ## -see-also
-[Display maps with 2D, 3D, and Streetside views](http://msdn.microsoft.com/library/3839e00b-2c1e-4627-a45f-6dda98d7077f), [MapElement](mapelement.md)
+[Display maps with 2D, 3D, and Streetside views](https://msdn.microsoft.com/library/3839e00b-2c1e-4627-a45f-6dda98d7077f), [MapElement](mapelement.md)

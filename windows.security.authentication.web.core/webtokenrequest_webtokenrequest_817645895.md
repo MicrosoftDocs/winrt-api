@@ -27,4 +27,4 @@ The client ID.
 ## -examples
 
 ## -see-also
-[Web account management code sample](http://go.microsoft.com/fwlink/p/?LinkId=620621), [WebTokenRequest(WebAccountProvider, String, String, WebTokenRequestPromptType)](webtokenrequest_webtokenrequest_222701383.md)
+[Web account management code sample](https://go.microsoft.com/fwlink/p/?LinkId=620621), [WebTokenRequest(WebAccountProvider, String, String, WebTokenRequestPromptType)](webtokenrequest_webtokenrequest_222701383.md)

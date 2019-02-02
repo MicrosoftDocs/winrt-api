@@ -18,4 +18,4 @@ Represents the composited display surface for an app. This class is mainly for M
 ## -examples
 
 ## -see-also
-[DirectX and XAML interop](http://msdn.microsoft.com/library/17987eea-6771-423c-9b68-6b9aeadc7b7f), [Optimize animations and media](http://msdn.microsoft.com/library/de5b084c-dac1-430b-a15b-5b3d5fb698f7), [ shooting game sample](http://go.microsoft.com/fwlink/p/?linkid=238717)
+[DirectX and XAML interop](https://msdn.microsoft.com/library/17987eea-6771-423c-9b68-6b9aeadc7b7f), [Optimize animations and media](https://msdn.microsoft.com/library/de5b084c-dac1-430b-a15b-5b3d5fb698f7), [ shooting game sample](https://go.microsoft.com/fwlink/p/?linkid=238717)

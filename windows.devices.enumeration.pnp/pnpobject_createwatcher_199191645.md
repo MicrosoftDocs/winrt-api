@@ -17,7 +17,7 @@ Returns a [PnpObjectWatcher](pnpobjectwatcher.md) object that is used to enumera
 The type of the [PnpObject](pnpobject.md).
 
 ### -param requestedProperties
-An iterable list of additional properties to include in the [Properties](pnpobject_properties.md) property of the [PnpObject](pnpobject.md) objects included in enumeration results. For more info on what the properties represent, see [Device information properties](http://msdn.microsoft.com/library/4a4c2802-e674-4c04-8a6d-d7c1bbf1bd20).
+An iterable list of additional properties to include in the [Properties](pnpobject_properties.md) property of the [PnpObject](pnpobject.md) objects included in enumeration results. For more info on what the properties represent, see [Device information properties](https://msdn.microsoft.com/library/4a4c2802-e674-4c04-8a6d-d7c1bbf1bd20).
 
 ## -returns
 A [PnpObjectWatcher](pnpobjectwatcher.md) object used to enumerate the collection by registering event notification delegates and by issuing start and stop event notifications.
@@ -28,4 +28,4 @@ A [PnpObjectWatcher](pnpobjectwatcher.md) object used to enumerate the collectio
 ## -examples
 
 ## -see-also
-[CreateWatcher(PnpObjectType, IIterable_1, String)](pnpobject_createwatcher_1842907357.md), [Device information properties](http://msdn.microsoft.com/library/4a4c2802-e674-4c04-8a6d-d7c1bbf1bd20)
+[CreateWatcher(PnpObjectType, IIterable_1, String)](pnpobject_createwatcher_1842907357.md), [Device information properties](https://msdn.microsoft.com/library/4a4c2802-e674-4c04-8a6d-d7c1bbf1bd20)

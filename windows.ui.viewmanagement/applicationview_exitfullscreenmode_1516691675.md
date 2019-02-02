@@ -49,4 +49,4 @@ private void ToggleFullScreenModeButton_Click(object sender, RoutedEventArgs e)
 
 
 ## -see-also
-[IsFullScreenMode](applicationview_isfullscreenmode.md), [TryEnterFullScreenMode](applicationview_tryenterfullscreenmode_1643702755.md), [PreferredLaunchWindowingMode](applicationview_preferredlaunchwindowingmode.md), [Full screen mode sample](http://go.microsoft.com/fwlink/p/?LinkId=620546), [Window resizing sample](http://go.microsoft.com/fwlink/p/?LinkId=620026)
+[IsFullScreenMode](applicationview_isfullscreenmode.md), [TryEnterFullScreenMode](applicationview_tryenterfullscreenmode_1643702755.md), [PreferredLaunchWindowingMode](applicationview_preferredlaunchwindowingmode.md), [Full screen mode sample](https://go.microsoft.com/fwlink/p/?LinkId=620546), [Window resizing sample](https://go.microsoft.com/fwlink/p/?LinkId=620026)

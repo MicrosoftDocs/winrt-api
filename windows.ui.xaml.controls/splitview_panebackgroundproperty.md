@@ -20,4 +20,4 @@ The identifier for the   [PaneBackground](splitview_panebackground.md) dependen
 ## -examples
 
 ## -see-also
-[PaneBackground](splitview_panebackground.md), [Dependency properties overview](http://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e)
+[PaneBackground](splitview_panebackground.md), [Dependency properties overview](https://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e)

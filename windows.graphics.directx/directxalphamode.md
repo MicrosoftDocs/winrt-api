@@ -10,7 +10,7 @@ public enum Windows.Graphics.DirectX.DirectXAlphaMode : int
 # DirectXAlphaMode
 
 ## -description
-Identifies the alpha value, transparency behavior, of a surface. This is a managed version of the [DXGI_APLAHA_MODE](http://msdn.microsoft.com/library/dd3d1e49-06d2-4fb9-a41b-86453d8e566f) enumeration.
+Identifies the alpha value, transparency behavior, of a surface. This is a managed version of the [DXGI_APLAHA_MODE](https://msdn.microsoft.com/library/dd3d1e49-06d2-4fb9-a41b-86453d8e566f) enumeration.
 
 ## -enum-fields
 ### -field Unspecified:0

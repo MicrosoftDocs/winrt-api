@@ -14,7 +14,7 @@ public class HotspotAuthenticationEventDetails : Windows.Networking.NetworkOpera
 Provides the content of the event that is raised for background task handlers for the hotspot authentication event.
 
 > [!NOTE]
-> This functionality is only available to mobile operator apps and UWP apps given privileged access by mobile network operators. For more information, see [Mobile Broadband: ](http://msdn.microsoft.com/library/windows/hardware/hh852368.aspx) and [Windows 8 Integration for Wireless Hotspot Operators](http://msdn.microsoft.com/library/windows/hardware/hh770516.aspx).
+> This functionality is only available to mobile operator apps and UWP apps given privileged access by mobile network operators. For more information, see [Mobile Broadband: ](https://msdn.microsoft.com/library/windows/hardware/hh852368.aspx) and [Windows 8 Integration for Wireless Hotspot Operators](https://msdn.microsoft.com/library/windows/hardware/hh770516.aspx).
 
 > If you want to use this API and publish your app to the Store, you will need special approval. For more information, see the **Special and restricted capabilities** section under [App capability declarations](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations). 
 
@@ -24,6 +24,6 @@ An application can register for the hotspot authentication event through the [Ne
 ## -examples
 
 ## -see-also
-[HotspotAuthenticationContext](HotspotAuthenticationContext.md), [Wi-Fi hotpost authentication sample](http://code.msdn.microsoft.com/windowsapps/Wi-Fi-hotspot-authenticatio-943569eb)
+[HotspotAuthenticationContext](HotspotAuthenticationContext.md), [Wi-Fi hotpost authentication sample](https://code.msdn.microsoft.com/windowsapps/Wi-Fi-hotspot-authenticatio-943569eb)
 ## -capabilities
 cellularDeviceIdentity, cellularDeviceControl

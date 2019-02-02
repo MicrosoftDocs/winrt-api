@@ -25,9 +25,9 @@ The Windows Runtime  [ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md)
 + [IsControlElement](automationpeer_iscontrolelement_1004644794.md) returns a value based on the template parent. If there is a template parent then it returns **true**, otherwise the value is **false**. The scenario here is that a templated control may have forwarded to this peer for scrolling support, but normally a [ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md) by itself isn't a full-fledged control.
 This peer fires several automation events on behalf of its owner in response to changes in scrolling or properties that report scrolling info.
 
-The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](http://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4).
+The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](https://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4).
 
 ## -examples
 
 ## -see-also
-[ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md), [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md), [IScrollProvider](../windows.ui.xaml.automation.provider/iscrollprovider.md), [Custom automation peers](http://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4)
+[ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md), [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md), [IScrollProvider](../windows.ui.xaml.automation.provider/iscrollprovider.md), [Custom automation peers](https://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4)

@@ -17,7 +17,7 @@ The [WhiteBalanceControl](whitebalancecontrol.md) gives apps additional control 
 
 You can find out if a device supports this control by checking [WhiteBalanceControl.Supported](whitebalancecontrol_supported.md).
 
-If the device does not support the [WhiteBalanceControl](whitebalancecontrol.md), you can still use the [WhiteBalance](videodevicecontroller_whitebalance.md) on the [VideoCaptureDevice](http://msdn.microsoft.com/library/afba2768-11a0-4105-a5b1-c48bc961e9ed) to set the value for the white balance color temperature.
+If the device does not support the [WhiteBalanceControl](whitebalancecontrol.md), you can still use the [WhiteBalance](videodevicecontroller_whitebalance.md) on the [VideoCaptureDevice](https://msdn.microsoft.com/library/afba2768-11a0-4105-a5b1-c48bc961e9ed) to set the value for the white balance color temperature.
 
 You can access the [WhiteBalanceControl](whitebalancecontrol.md) for the capture device through [MediaCapture.VideoDeviceController](../windows.media.capture/mediacapture_videodevicecontroller.md).
 

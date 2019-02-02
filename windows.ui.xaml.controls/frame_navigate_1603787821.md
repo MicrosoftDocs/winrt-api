@@ -27,4 +27,4 @@ The navigation parameter to pass to the target page; must have a basic type (str
 ## -examples
 
 ## -see-also
-[Page](page.md), [Navigate(Type)](frame_navigate_442648331.md), [Navigation](http://msdn.microsoft.com/library/742c1c18-c7b1-47b7-866c-726eeb8235ec), [XAML Navigation sample](http://go.microsoft.com/fwlink/p/?LinkID=330214)
+[Page](page.md), [Navigate(Type)](frame_navigate_442648331.md), [Navigation](https://msdn.microsoft.com/library/742c1c18-c7b1-47b7-866c-726eeb8235ec), [XAML Navigation sample](https://go.microsoft.com/fwlink/p/?LinkID=330214)

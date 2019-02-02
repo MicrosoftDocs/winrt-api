@@ -18,7 +18,7 @@ If your app provides its own suggestions to display in the search pane, use the 
 The search pane can display 5 suggestions, at most. Additionally, each separator you use takes the place of a suggestion and lowers the number of suggestions that you can display.
 
 ## -examples
-The [Search contract sample](http://go.microsoft.com/fwlink/p/?linkid=234892) demonstrates how to respond to a [suggestionsrequested](searchpane_suggestionsrequested.md) event, including how to access the [searchPaneSuggestionsRequest](searchpanesuggestionsrequest.md).
+The [Search contract sample](https://go.microsoft.com/fwlink/p/?linkid=234892) demonstrates how to respond to a [suggestionsrequested](searchpane_suggestionsrequested.md) event, including how to access the [searchPaneSuggestionsRequest](searchpanesuggestionsrequest.md).
 
 
 
@@ -27,5 +27,5 @@ The [Search contract sample](http://go.microsoft.com/fwlink/p/?linkid=234892) de
 [!code-js[all_suggestionsrequested_handler_deferral](../windows.applicationmodel.search/code/SearchContract/js/js/scenario6.js#Snippetall_suggestionsrequested_handler_deferral)]
 
 ## -see-also
-[Search contract sample](http://go.microsoft.com/fwlink/p/?linkid=234892), [SearchPane.SuggestionsRequested event](searchpane_suggestionsrequested.md), [SearchPaneSuggestionsRequestedEventArgs class](searchpanesuggestionsrequestedeventargs.md), [SearchPaneSuggestionsRequestedEventArgs.Request property](searchpanesuggestionsrequestedeventargs_request.md)
+[Search contract sample](https://go.microsoft.com/fwlink/p/?linkid=234892), [SearchPane.SuggestionsRequested event](searchpane_suggestionsrequested.md), [SearchPaneSuggestionsRequestedEventArgs class](searchpanesuggestionsrequestedeventargs.md), [SearchPaneSuggestionsRequestedEventArgs.Request property](searchpanesuggestionsrequestedeventargs_request.md)
 onsrequestedeventargs_request.md)

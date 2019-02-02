@@ -157,5 +157,5 @@ This example incrementally enumerates devices, adding them to a list each time a
 
 
 ## -see-also
-[Custom USB device sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620530)
+[Custom USB device sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620530)
 [Device enumeration and pairing sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/DeviceEnumerationAndPairing)

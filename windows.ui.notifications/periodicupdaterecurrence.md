@@ -37,4 +37,4 @@ Windows can delay the polling of your URL by up to 15 minutes if necessary to op
 ## -examples
 
 ## -see-also
-[BadgeUpdater.startPeriodicUpdate](badgeupdater_startperiodicupdate_1369986471.md), [TileUpdater.startPeriodicUpdate](tileupdater_startperiodicupdate_1369986471.md), [How to set up periodic notifications for tiles](http://msdn.microsoft.com/library/96c67773-2e5b-4278-b16d-2f813b16580c), [How to set up periodic notifications for badges](http://msdn.microsoft.com/library/96c67773-2e5b-4278-b16d-2f813b16580c), [Choose a notification delivery method](http://msdn.microsoft.com/library/fdb43ede-c5f2-493f-952c-55401ec5172b)
+[BadgeUpdater.startPeriodicUpdate](badgeupdater_startperiodicupdate_1369986471.md), [TileUpdater.startPeriodicUpdate](tileupdater_startperiodicupdate_1369986471.md), [How to set up periodic notifications for tiles](https://msdn.microsoft.com/library/96c67773-2e5b-4278-b16d-2f813b16580c), [How to set up periodic notifications for badges](https://msdn.microsoft.com/library/96c67773-2e5b-4278-b16d-2f813b16580c), [Choose a notification delivery method](https://msdn.microsoft.com/library/fdb43ede-c5f2-493f-952c-55401ec5172b)

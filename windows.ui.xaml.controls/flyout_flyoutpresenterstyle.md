@@ -45,4 +45,4 @@ A [Flyout](flyout.md) itself isn't a control or even a [UIElement](../windows.ui
 ## -examples
 
 ## -see-also
-[Content](flyout_content.md), [FlyoutPresenter](flyoutpresenter.md), [Styling controls](http://msdn.microsoft.com/library/ab469a46-faf5-42d0-9340-948d0edf4150)
+[Content](flyout_content.md), [FlyoutPresenter](flyoutpresenter.md), [Styling controls](https://msdn.microsoft.com/library/ab469a46-faf5-42d0-9340-948d0edf4150)

@@ -20,4 +20,4 @@ The identifier for the [IsGroupLabelVisible](calendarview_isgrouplabelvisible.md
 ## -examples
 
 ## -see-also
-[IsGroupLabelVisible](calendarview_isgrouplabelvisible.md), [Dependency properties overview](http://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e)
+[IsGroupLabelVisible](calendarview_isgrouplabelvisible.md), [Dependency properties overview](https://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e)

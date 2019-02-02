@@ -23,4 +23,4 @@ Use the [DisplayIri](uri_displayiri.md) property instead if you want to decode t
 ## -examples
 
 ## -see-also
-[DisplayIri property](uri_displayiri.md), [RFC 3492 (Punycode)](http://tools.ietf.org/html/rfc3492)
+[DisplayIri property](uri_displayiri.md), [RFC 3492 (Punycode)](https://tools.ietf.org/html/rfc3492)

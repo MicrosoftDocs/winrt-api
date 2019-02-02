@@ -20,4 +20,4 @@ The identifier for the [HorizontalContentAlignment](contentpresenter_horizontalc
 ## -examples
 
 ## -see-also
-[HorizontalContentAlignment](contentpresenter_horizontalcontentalignment.md), [Dependency properties overview](http://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e)
+[HorizontalContentAlignment](contentpresenter_horizontalcontentalignment.md), [Dependency properties overview](https://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e)

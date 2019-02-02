@@ -17,4 +17,4 @@ This namespace is the successor to the source components of the [Windows.Media.P
 
 ## -see-also
 
-[Advanced casting sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620480), [Basic media casting sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620515)
+[Advanced casting sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620480), [Basic media casting sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620515)

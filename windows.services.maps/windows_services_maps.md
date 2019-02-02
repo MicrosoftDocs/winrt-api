@@ -16,4 +16,4 @@ See [Request a maps authentication key](https://msdn.microsoft.com/windows/uwp/m
 ## -examples
 
 ## -see-also
-[Maps and location overview](http://msdn.microsoft.com/library/f4c1f094-cf46-4b15-9d80-c1a26a314521)
+[Maps and location overview](https://msdn.microsoft.com/library/f4c1f094-cf46-4b15-9d80-c1a26a314521)

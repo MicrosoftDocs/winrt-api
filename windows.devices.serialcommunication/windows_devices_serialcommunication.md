@@ -28,7 +28,7 @@ Serial devices that use the following compatible IDs can be supported by the in-
 
 Your UWP app must include certain device capabilities in its App package manifest. The capabilities identify the device and its purpose. Here are the required elements in hierarchical order:
 
-+ [&lt;DeviceCapability&gt;](http://msdn.microsoft.com/library/4353c4fd-f038-4986-81ed-d2ec0c6235ef): The **Name** attribute must be "serialcommunication".
++ [&lt;DeviceCapability&gt;](https://msdn.microsoft.com/library/4353c4fd-f038-4986-81ed-d2ec0c6235ef): The **Name** attribute must be "serialcommunication".
 
    + **&lt;Device&gt;**: The **Id** attribute must specify the device identifier. If you are using a Serial-to-USB adapter, **Id** must specify vendor/product identifiers or can be "any" to allow access to any device that matches the function type.
 

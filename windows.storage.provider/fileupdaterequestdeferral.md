@@ -22,7 +22,7 @@ If your app participates in the Cached File Updater contract, and you can't fini
 To learn about responding to a [FileUpdateRequested](cachedfileupdaterui_fileupdaterequested.md) event, see [FileUpdateRequestedEventArgs](fileupdaterequestedeventargs.md).
 
 ## -examples
-The [File picker contracts sample](http://go.microsoft.com/fwlink/p/?linkid=231536) demonstrates how to respond to a [FileUpdateRequested](cachedfileupdaterui_fileupdaterequested.md) event, including how to get a deferral.
+The [File picker contracts sample](https://go.microsoft.com/fwlink/p/?linkid=231536) demonstrates how to respond to a [FileUpdateRequested](cachedfileupdaterui_fileupdaterequested.md) event, including how to get a deferral.
 
 ```csharp
 

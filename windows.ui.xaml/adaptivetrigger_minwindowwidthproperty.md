@@ -23,4 +23,4 @@ To access the [MinWindowWidth](adaptivetrigger_minwindowwidth.md) dependency pro
 ## -examples
 
 ## -see-also
-[MinWindowWidth](adaptivetrigger_minwindowwidth.md), [Dependency properties overview](http://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e)
+[MinWindowWidth](adaptivetrigger_minwindowwidth.md), [Dependency properties overview](https://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e)

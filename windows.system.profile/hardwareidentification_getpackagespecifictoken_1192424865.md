@@ -25,4 +25,4 @@ The [GetPackageSpecificToken](hardwareidentification_getpackagespecifictoken_119
 ## -examples
 
 ## -see-also
-[Guidance on using the App Specific Hardware ID (ASHWID) to implement per-device app logic](http://msdn.microsoft.com/library/ee93f175-b0ce-42fd-9889-c43cd23eec6c)
+[Guidance on using the App Specific Hardware ID (ASHWID) to implement per-device app logic](https://msdn.microsoft.com/library/ee93f175-b0ce-42fd-9889-c43cd23eec6c)

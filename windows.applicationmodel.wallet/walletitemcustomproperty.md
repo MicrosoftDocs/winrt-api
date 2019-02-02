@@ -18,4 +18,4 @@ Defines a custom property on a wallet item. Apps can show data in the details vi
 ## -examples
 
 ## -see-also
-[WalletItem](walletitem.md), [WalletItem.DisplayProperties](walletitem_displayproperties.md), [Quickstart: Using the   APIs](http://msdn.microsoft.com/library/4312628c-37a3-48a7-b41f-14605d478cf7)
+[WalletItem](walletitem.md), [WalletItem.DisplayProperties](walletitem_displayproperties.md), [Quickstart: Using the   APIs](https://msdn.microsoft.com/library/4312628c-37a3-48a7-b41f-14605d478cf7)

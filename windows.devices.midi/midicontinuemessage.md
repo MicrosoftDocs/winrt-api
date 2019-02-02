@@ -17,4 +17,4 @@ Represents a MIDI message that specifies a continue message.
 ## -examples
 
 ## -see-also
-[IMidiMessage](imidimessage.md), [MIDI  sample](http://go.microsoft.com/fwlink/p/?LinkID=394281)
+[IMidiMessage](imidimessage.md), [MIDI  sample](https://go.microsoft.com/fwlink/p/?LinkID=394281)

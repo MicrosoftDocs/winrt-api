@@ -27,7 +27,7 @@ A [FileExtensionVector](fileextensionvector.md) is enumerable, so you can use la
 <!--End NET note for IEnumerable support-->
 
 ## -examples
-The [File picker sample](http://go.microsoft.com/fwlink/p/?linkid=234890) demonstrates how to specify the file types that the user can see and pick from in the file picker.
+The [File picker sample](https://go.microsoft.com/fwlink/p/?linkid=234890) demonstrates how to specify the file types that the user can see and pick from in the file picker.
 
 
 
@@ -42,5 +42,5 @@ The [File picker sample](http://go.microsoft.com/fwlink/p/?linkid=234890) demons
 [!code-js[all_openpicker_displayAllTypes](../windows.storage.pickers/code/FilePicker/js/js/scenario2.js#Snippetall_openpicker_displayAllTypes)]
 
 ## -see-also
-[File picker sample](http://go.microsoft.com/fwlink/p/?linkid=234890), [Quickstart: Accessing files with ](http://msdn.microsoft.com/library/df082239-381c-462f-9f97-d2b390a2052e), [fileOpenPicker.fileTypeFilter property](fileopenpicker_filetypefilter.md), [folderPicker.fileTypeFilter property](folderpicker_filetypefilter.md)
+[File picker sample](https://go.microsoft.com/fwlink/p/?linkid=234890), [Quickstart: Accessing files with ](https://msdn.microsoft.com/library/df082239-381c-462f-9f97-d2b390a2052e), [fileOpenPicker.fileTypeFilter property](fileopenpicker_filetypefilter.md), [folderPicker.fileTypeFilter property](folderpicker_filetypefilter.md)
 olderPicker.fileTypeFilter property](folderpicker_filetypefilter.md)

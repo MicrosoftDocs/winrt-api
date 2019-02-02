@@ -11,7 +11,7 @@ public HidInputReport HidInputReport { get; }
 
 ## -description
 
-Gets a [Human Interface Device (HID)](http://www.usb.org/developers/hidpage/) input report for the eye-tracking device.
+Gets a [Human Interface Device (HID)](https://www.usb.org/developers/hidpage/) input report for the eye-tracking device.
 
 ## -property-value
 

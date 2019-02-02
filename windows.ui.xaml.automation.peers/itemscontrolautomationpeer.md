@@ -22,7 +22,7 @@ The Windows Runtime  [ItemsControl](../windows.ui.xaml.controls/itemscontrol.md)
 + [GetPattern](automationpeer_getpattern_2046576749.md) reports that the peer provides pattern support for [PatternInterface.ItemContainer](patterninterface.md) ([IItemContainerProvider](../windows.ui.xaml.automation.provider/iitemcontainerprovider.md)). Also, there's logic that looks for scrolling behavior in the owner. If there's scrolling available and a peer can be forwarded to provide the control pattern, the peer can support [PatternInterface.Scroll](patterninterface.md) ([IScrollProvider](../windows.ui.xaml.automation.provider/iscrollprovider.md)).
 + There is no [GetClassName](automationpeer_getclassname_614238974.md) and [GetAutomationControlType](automationpeer_getautomationcontroltype_1156384152.md) is **Custom**. These values are expected to come from derived peers.
 + [GetChildren](automationpeer_getchildren_555647254.md) has an extensive implementation that returns the item peers and is used by all the derived peers.
-The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](http://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4).
+The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](https://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4).
 
 > For Windows Phone 8.x apps, [ItemsControlAutomationPeer](itemscontrolautomationpeer.md) has methods that support creating item-specific automation peers for data items. See [CreateItemAutomationPeer](itemscontrolautomationpeer_createitemautomationpeer_1938957340.md) and [OnCreateItemAutomationPeer](itemscontrolautomationpeer_oncreateitemautomationpeer_1507723118.md).
 
@@ -33,4 +33,4 @@ The peer also has other behaviors that are provided by the base [FrameworkElemen
 ## -examples
 
 ## -see-also
-[ItemsControl](../windows.ui.xaml.controls/itemscontrol.md), [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md), [IItemContainerProvider](../windows.ui.xaml.automation.provider/iitemcontainerprovider.md), [Custom automation peers](http://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4)
+[ItemsControl](../windows.ui.xaml.controls/itemscontrol.md), [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md), [IItemContainerProvider](../windows.ui.xaml.automation.provider/iitemcontainerprovider.md), [Custom automation peers](https://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4)

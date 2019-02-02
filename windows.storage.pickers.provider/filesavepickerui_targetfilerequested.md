@@ -20,7 +20,7 @@ If your app participates in the File Save Picker contract and a [targetfilereque
 > file picker UI is disabled until the providing app has finished responding to this event.
 
 ## -examples
-The [File picker sample](http://go.microsoft.com/fwlink/p/?linkid=234890) demonstrates how to respond to a [targetfilerequested](filesavepickerui_targetfilerequested.md) event handler.
+The [File picker sample](https://go.microsoft.com/fwlink/p/?linkid=234890) demonstrates how to respond to a [targetfilerequested](filesavepickerui_targetfilerequested.md) event handler.
 
 ```csharp
 

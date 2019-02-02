@@ -10,11 +10,11 @@ public IAsyncOperation<MapModel3D> MapModel3D.CreateFrom3MFAsync(IRandomAccessSt
 # Windows.UI.Xaml.Controls.Maps.MapModel3D.CreateFrom3MFAsync
 
 ## -description
-Creates an instance of a [MapModel3D](mapmodel3d.md) by importing a 3D object from a [3D Manufacturing Format (3MF)](http://3mf.io/specification/) file.
+Creates an instance of a [MapModel3D](mapmodel3d.md) by importing a 3D object from a [3D Manufacturing Format (3MF)](https://3mf.io/specification/) file.
 
 ## -parameters
 ### -param source
-A [3D Manufacturing Format (3MF) file](http://3mf.io/specification/) file that describes a 3D object.
+A [3D Manufacturing Format (3MF) file](https://3mf.io/specification/) file that describes a 3D object.
 
 ## -returns
 A 3D model object.

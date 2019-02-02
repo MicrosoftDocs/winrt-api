@@ -29,4 +29,4 @@ Provides a base class for all [Panel](panel.md) elements. Use [Panel](panel.md) 
 ## -examples
 
 ## -see-also
-[FrameworkElement](../windows.ui.xaml/frameworkelement.md), [Canvas](canvas.md), [Grid](grid.md), [StackPanel](stackpanel.md), [RelativePanel](relativepanel.md), [VariableSizedWrapGrid](variablesizedwrapgrid.md), [WrapGrid](wrapgrid.md), [ItemsControl.ItemsPanel](itemscontrol_itemspanel.md), [Quickstart: Adding layout controls](http://msdn.microsoft.com/library/5ad6c2ac-7ad7-4f0e-9636-97a0b3fbc43f)
+[FrameworkElement](../windows.ui.xaml/frameworkelement.md), [Canvas](canvas.md), [Grid](grid.md), [StackPanel](stackpanel.md), [RelativePanel](relativepanel.md), [VariableSizedWrapGrid](variablesizedwrapgrid.md), [WrapGrid](wrapgrid.md), [ItemsControl.ItemsPanel](itemscontrol_itemspanel.md), [Quickstart: Adding layout controls](https://msdn.microsoft.com/library/5ad6c2ac-7ad7-4f0e-9636-97a0b3fbc43f)

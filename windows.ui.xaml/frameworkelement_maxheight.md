@@ -35,4 +35,4 @@ This XAML example shows a technique of specifying a [MaxHeight](frameworkelement
 [!code-xml[ViewBoxXAML](../windows.ui.xaml/code/ViewBoxSnippet/csharp/MainPage.xaml#SnippetViewBoxXAML)]
 
 ## -see-also
-[ActualHeight](frameworkelement_actualheight.md), [Height](frameworkelement_height.md), [Height](frameworkelement_height.md), [Define layouts with XAML](http://msdn.microsoft.com/library/8d4e4162-1c9c-48f4-8a94-34976fb17079)
+[ActualHeight](frameworkelement_actualheight.md), [Height](frameworkelement_height.md), [Height](frameworkelement_height.md), [Define layouts with XAML](https://msdn.microsoft.com/library/8d4e4162-1c9c-48f4-8a94-34976fb17079)

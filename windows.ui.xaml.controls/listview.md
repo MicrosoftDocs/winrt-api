@@ -39,7 +39,7 @@ By default, a data item is displayed in the [ListView](listview.md) as the strin
 > [!NOTE]
 > If you populate the [ListView](listview.md) by setting the [ItemsSource](itemscontrol_itemssource.md) property, the [ItemTemplate](itemscontrol_itemtemplate.md) is applied to every item. If you populate the [Items](itemscontrol_items.md) collection directly, the [ItemTemplate](itemscontrol_itemtemplate.md) is applied only if the item is not a [ListViewItem](listviewitem.md). See Examples for more info.
 
-If you use the [ListView](listview.md) to display large sets of data, see [Optimize ListView and GridView](http://msdn.microsoft.com/library/26df15e8-2c05-4174-a714-7df2e8273d32) for tips to maintain a smooth and responsive user experience.
+If you use the [ListView](listview.md) to display large sets of data, see [Optimize ListView and GridView](https://msdn.microsoft.com/library/26df15e8-2c05-4174-a714-7df2e8273d32) for tips to maintain a smooth and responsive user experience.
 
 > <div id="main">
 > <strong><span class="uwpd-prelease">Prerelease.</span> Fall Creators Update (Windows 10 Insider Preview Build 16215 and later) - Behavior change</strong>
@@ -110,4 +110,4 @@ In this example, the [ItemTemplate](itemscontrol_itemtemplate.md) of a [ListView
 
 ## -see-also
 
-[Lists overview](https://docs.microsoft.com/windows/uwp/controls-and-patterns/lists), [ListViewBase](listviewbase.md), [ListView styles and templates](http://msdn.microsoft.com/library/f5fba473-bc71-40ec-8df1-ea977c6938ed), [Item templates for ListView](https://docs.microsoft.com/windows/uwp/controls-and-patterns/item-templates-listview), [Data binding overview](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-quickstart), [RSS reader end-to-end (JavaScript) sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620542), [ListView and GridView sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=619900), [Navigation menu (XAML) sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=619902)
+[Lists overview](https://docs.microsoft.com/windows/uwp/controls-and-patterns/lists), [ListViewBase](listviewbase.md), [ListView styles and templates](https://msdn.microsoft.com/library/f5fba473-bc71-40ec-8df1-ea977c6938ed), [Item templates for ListView](https://docs.microsoft.com/windows/uwp/controls-and-patterns/item-templates-listview), [Data binding overview](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-quickstart), [RSS reader end-to-end (JavaScript) sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620542), [ListView and GridView sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=619900), [Navigation menu (XAML) sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=619902)

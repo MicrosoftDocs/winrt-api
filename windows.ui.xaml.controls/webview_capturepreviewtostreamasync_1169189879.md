@@ -22,7 +22,7 @@ An asynchronous action to await the capture operation.
 ## -remarks
 
 ## -examples
-This example shows how to use this method to create a thumbnail image of the current content. For the complete example, see the [WebView control sample](http://go.microsoft.com/fwlink/p/?linkid=238582).
+This example shows how to use this method to create a thumbnail image of the current content. For the complete example, see the [WebView control sample](https://go.microsoft.com/fwlink/p/?linkid=238582).
 
 ```csharp
 private async void bookmarkBtn_Click(object sender, RoutedEventArgs e)
@@ -59,4 +59,4 @@ private async void bookmarkBtn_Click(object sender, RoutedEventArgs e)
 
 
 ## -see-also
-[XAML WebView control sample](http://go.microsoft.com/fwlink/p/?linkid=238582), [WebView control (XAML) sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=722922)
+[XAML WebView control sample](https://go.microsoft.com/fwlink/p/?linkid=238582), [WebView control (XAML) sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=722922)

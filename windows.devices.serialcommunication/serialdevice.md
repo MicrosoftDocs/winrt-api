@@ -13,7 +13,7 @@ public class SerialDevice : Windows.Devices.SerialCommunication.ISerialDevice, W
 Represents a serial port. The object provides methods and properties that an app can use to find the port (in the system).
 
 ## -remarks
-The serial device capability, [&lt;DeviceCapability&gt;](http://msdn.microsoft.com/library/4353c4fd-f038-4986-81ed-d2ec0c6235ef), is required to use the [SerialDevice](serialdevice.md) class. For more info, see [Windows.Devices.SerialCommunication](windows_devices_serialcommunication.md).
+The serial device capability, [&lt;DeviceCapability&gt;](https://msdn.microsoft.com/library/4353c4fd-f038-4986-81ed-d2ec0c6235ef), is required to use the [SerialDevice](serialdevice.md) class. For more info, see [Windows.Devices.SerialCommunication](windows_devices_serialcommunication.md).
 
 
 **Create a SerialDevice object**

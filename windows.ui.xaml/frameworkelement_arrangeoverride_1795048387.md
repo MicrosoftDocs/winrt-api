@@ -42,5 +42,5 @@ This example implements [ArrangeOverride](frameworkelement_arrangeoverride_17950
 [!code-vb[2](../windows.ui.xaml.controls.primitives/code/BlockPanel/vbnet/BlankPage.xaml.vb#Snippet2)]
 
 ## -see-also
-[Arrange](uielement_arrange_958316931.md), [MeasureOverride](frameworkelement_measureoverride_1586581644.md), [Define layouts with XAML](http://msdn.microsoft.com/library/8d4e4162-1c9c-48f4-8a94-34976fb17079)
+[Arrange](uielement_arrange_958316931.md), [MeasureOverride](frameworkelement_measureoverride_1586581644.md), [Define layouts with XAML](https://msdn.microsoft.com/library/8d4e4162-1c9c-48f4-8a94-34976fb17079)
 4162-1c9c-48f4-8a94-34976fb17079)

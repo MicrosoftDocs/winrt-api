@@ -22,7 +22,7 @@ To unregister the [MessageReceived ](datagramsocket_messagereceived.md) event, t
 ## -examples
 
 ## -see-also
-[DatagramSocket sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620534)
+[DatagramSocket sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620534)
 
 ## -capabilities
 ID_CAP_NETWORKING [Windows Phone]

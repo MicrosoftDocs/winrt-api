@@ -34,7 +34,7 @@ The target can bind directly to the [Source](binding_source.md) object if the pa
 You can't set the property values of a [Binding](binding.md) object after that binding has been attached to a target element and target property. If you attempt this you'll get a run-time exception.
 
 ## -examples
-The following code example demonstrates how to set this property in XAML. For the complete code listing, see the [XAML data binding sample](http://go.microsoft.com/fwlink/p/?linkid=226854).
+The following code example demonstrates how to set this property in XAML. For the complete code listing, see the [XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854).
 
 ```xaml
 <StackPanel>
@@ -57,4 +57,4 @@ The following code example demonstrates how to set this property in XAML. For th
 For an example demonstrates how to set this property in code, see the [Binding](binding.md) class.
 
 ## -see-also
-[XAML data binding sample](http://go.microsoft.com/fwlink/p/?linkid=226854), [Data binding in depth](http://msdn.microsoft.com/library/41e1b4f1-6caf-4128-a61a-4e400b149011)
+[XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854), [Data binding in depth](https://msdn.microsoft.com/library/41e1b4f1-6caf-4128-a61a-4e400b149011)

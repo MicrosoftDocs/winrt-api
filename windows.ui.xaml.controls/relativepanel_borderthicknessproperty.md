@@ -20,4 +20,4 @@ The identifier for the [BorderThickness](relativepanel_borderthickness.md) depen
 ## -examples
 
 ## -see-also
-[BorderThickness](relativepanel_borderthickness.md), [Dependency properties overview](http://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e)
+[BorderThickness](relativepanel_borderthickness.md), [Dependency properties overview](https://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e)

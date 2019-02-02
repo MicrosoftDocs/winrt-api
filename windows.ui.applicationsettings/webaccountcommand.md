@@ -22,4 +22,4 @@ Add instances of the [WebAccountCommand](webaccountcommand.md) class to the [Web
 
 ## -see-also
 
-[WebAccount](../windows.security.credentials/webaccount.md), [WebAccountCommands](accountssettingspanecommandsrequestedeventargs_webaccountcommands.md), [WebAuthenticationBroker sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620622)
+[WebAccount](../windows.security.credentials/webaccount.md), [WebAccountCommands](accountssettingspanecommandsrequestedeventargs_webaccountcommands.md), [WebAuthenticationBroker sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620622)

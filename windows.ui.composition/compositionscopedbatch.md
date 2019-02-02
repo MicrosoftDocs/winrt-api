@@ -23,7 +23,7 @@ A scoped batch is explicitly created using [Compositor.CreateScopedBatch](compos
 
    Multiple [CompositionScopedBatch](compositionscopedbatch.md) instances can be created and objects can be aggregated in multiple batches at the same time.
 
-See [Composition Animations Overview](http://go.microsoft.com/fwlink/p/?LinkID=692060) for more information on composition batches.
+See [Composition Animations Overview](https://go.microsoft.com/fwlink/p/?LinkID=692060) for more information on composition batches.
 
 ## -examples
 Scoped Batch
@@ -65,4 +65,4 @@ public void BatchAnimations()
 
 
 ## -see-also
-[Composition Animations Overview](http://go.microsoft.com/fwlink/p/?LinkID=692060), [CompositionObject](compositionobject.md), [IClosable](../windows.foundation/iclosable.md)
+[Composition Animations Overview](https://go.microsoft.com/fwlink/p/?LinkID=692060), [CompositionObject](compositionobject.md), [IClosable](../windows.foundation/iclosable.md)

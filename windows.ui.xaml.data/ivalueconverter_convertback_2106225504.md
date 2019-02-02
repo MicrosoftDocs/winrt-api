@@ -34,4 +34,4 @@ If you don't use a converter for **TwoWay** bindings it's acceptable to leave [C
 ## -examples
 
 ## -see-also
-[Convert](ivalueconverter_convert_101701969.md), [XAML data binding sample](http://go.microsoft.com/fwlink/p/?linkid=226854), [Data binding in depth](http://msdn.microsoft.com/library/41e1b4f1-6caf-4128-a61a-4e400b149011)
+[Convert](ivalueconverter_convert_101701969.md), [XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854), [Data binding in depth](https://msdn.microsoft.com/library/41e1b4f1-6caf-4128-a61a-4e400b149011)
