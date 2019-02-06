@@ -13,12 +13,12 @@ public class MusicProperties : Windows.Storage.FileProperties.IMusicProperties, 
 Provides access to the music-related properties of an item (like a file or folder).
 
 ## -remarks
-You can access a [MusicProperties](musicproperties.md) object asynchronously using the [getMusicPropertiesAsync](storageitemcontentproperties_getmusicpropertiesasync_1352653225.md) method from the [Properties](../windows.storage/istorageitemproperties_properties.md) property of an item (like a file of folder), or synchronously using the [MusicProperties](../windows.storage.bulkaccess/istorageiteminformation_musicproperties.md) property if it is available.
+You can access a [MusicProperties](musicproperties.md) object asynchronously using the [GetMusicPropertiesAsync](storageitemcontentproperties_getmusicpropertiesasync_1352653225.md) method from the [Properties](../windows.storage/istorageitemproperties_properties.md) property of an item (like a file of folder), or synchronously using the [MusicProperties](../windows.storage.bulkaccess/istorageiteminformation_musicproperties.md) property if it is available.
 You can get a [musicProperties](musicproperties.md) object using any of the following methods and properties:
 
-+ [StorageItemContentProperties.getMusicPropertiesAsync](storageitemcontentproperties_getmusicpropertiesasync_1352653225.md) method, which can be accessed using the [Properties](../windows.storage/istorageitemproperties_properties.md) property, if it is available.
-+ [FileInformation.musicProperties](../windows.storage.bulkaccess/fileinformation_musicproperties.md) property
-+ [FolderInformation.musicProperties](../windows.storage.bulkaccess/folderinformation_musicproperties.md) property
++ [StorageItemContentProperties.GetMusicPropertiesAsync](storageitemcontentproperties_getmusicpropertiesasync_1352653225.md) method, which can be accessed using the [Properties](../windows.storage/istorageitemproperties_properties.md) property, if it is available.
++ [FileInformation.MusicProperties](../windows.storage.bulkaccess/fileinformation_musicproperties.md) property
++ [FolderInformation.MusicProperties](../windows.storage.bulkaccess/folderinformation_musicproperties.md) property
 
 
 > [!NOTE]
