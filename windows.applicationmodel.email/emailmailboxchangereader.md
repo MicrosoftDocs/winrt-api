@@ -10,7 +10,7 @@ public class EmailMailboxChangeReader : Windows.ApplicationModel.Email.IEmailMai
 # Windows.ApplicationModel.Email.EmailMailboxChangeReader
 
 ## -description
-The functionality described in this topic is not available to all Windows and Windows Phone apps. For your code to call these APIs, Microsoft must approve your use of them and provision your developer account. Otherwise the calls will fail at runtime.
+The functionality described in this topic is not available to all UWP apps. As part of the store app submission process, Microsoft must approve your use of these APIs and provision your developer account before you can publish an app that uses them.
 
 For more information about the [Windows.ApplicationModel.Email](windows_applicationmodel_email.md) namespace, please work with your Microsoft Account Team representative.
 
