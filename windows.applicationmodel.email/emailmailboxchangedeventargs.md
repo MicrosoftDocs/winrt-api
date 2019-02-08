@@ -13,7 +13,7 @@ public class EmailMailboxChangedEventArgs : Windows.ApplicationModel.Email.IEmai
 Represents the deferral process.
 
 ## -remarks
-The functionality described in this topic is not available to all Windows and Windows Phone apps. For your code to call these APIs, Microsoft must approve your use of them and provision your developer account. Otherwise the calls will fail at runtime.
+The functionality described in this topic is not available to all UWP apps. As part of the store app submission process, Microsoft must approve your use of these APIs and provision your developer account before you can publish an app that uses them.
 
 ## -examples
 
