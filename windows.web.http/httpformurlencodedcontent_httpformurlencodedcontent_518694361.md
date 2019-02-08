@@ -25,4 +25,18 @@ The *content* parameter is **null** (**Nothing** in Visual Basic).
 
 ## -examples
 
+```cppwinrt
+auto contentKeyValuePairs{
+winrt::single_threaded_map<winrt::hstring, winrt::hstring>(std::map<winrt::hstring, winrt::hstring>{
+    { L"firstname", L"Jane" }, { L"lastname", L"Austen" }
+})
+};
+Windows::Web::Http::HttpFormUrlEncodedContent content1{ contentKeyValuePairs };
+
+Windows::Web::Http::HttpFormUrlEncodedContent content2{
+    std::map<winrt::hstring, winrt::hstring>{
+        { L"firstname", L"Jane" }, { L"lastname", L"Austen" }}
+};
+```
+
 ## -see-also

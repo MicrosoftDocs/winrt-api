@@ -23,14 +23,15 @@ You must enable the **Proximity** capability to communicate with Wi-Fi Direct de
 
 ```csharp
 Windows.Devices.WiFiDirect.WiFiDirectDevice wfdDevice;
+
 private async System.Threading.Tasks.Task<String> Connect(string deviceId)
 {
     string result = ""; 
 
     try
     {
-        // No device Id specified.
-        if (String.IsNullOrEmpty(deviceId)) { return "Please specify a Wi- Fi Direct device Id."; }
+        // No device ID specified.
+        if (String.IsNullOrEmpty(deviceId)) { return "Please specify a Wi-Fi Direct device ID."; }
 
         // Connect to the selected Wi-Fi Direct device.
         wfdDevice = await Windows.Devices.WiFiDirect.WiFiDirectDevice.FromIdAsync(deviceId);
@@ -89,8 +90,6 @@ private void Disconnect()
         wfdDevice.Dispose(); 
     }
 }
-
-
 ```
 
 ```javascript
@@ -101,8 +100,8 @@ function connect(deviceId) {
 
     try
     {
-        // No device Id specified.
-        if (!deviceId) { return "Please specify a Wi- Fi Direct device Id."; }
+        // No device ID specified.
+        if (!deviceId) { return "Please specify a Wi-Fi Direct device ID."; }
 
         // Connect to the selected Wi-Fi Direct device.
         Windows.Devices.WiFiDirect.WiFiDirectDevice.fromIdAsync(deviceId).then(
@@ -153,7 +152,6 @@ function disconnect() {
         wfdDevice.dispose(); 
     }
 }
-
 ```
 
 ## -see-also

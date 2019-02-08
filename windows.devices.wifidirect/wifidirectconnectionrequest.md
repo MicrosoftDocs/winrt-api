@@ -11,7 +11,7 @@ public class WiFiDirectConnectionRequest : Windows.Devices.WiFiDirect.IWiFiDirec
 # Windows.Devices.WiFiDirect.WiFiDirectConnectionRequest
 
 ## -description
-A Wi-FI Direct connection request received by a [WiFiDirectConnectionListener](wifidirectconnectionlistener.md).
+A Wi-Fi Direct connection request received by a [WiFiDirectConnectionListener](wifidirectconnectionlistener.md).
 
 ## -remarks
 A [WiFiDirectConnectionRequest](wifidirectconnectionrequest.md) instance is retrieved by the [GetConnectionRequest](wifidirectconnectionrequestedeventargs_getconnectionrequest_2044958184.md) method on the [WiFiDirectConnectionRequestedEventArgs](wifidirectconnectionrequestedeventargs.md) object when the [ConnectionRequested](wifidirectconnectionlistener_connectionrequested.md) event occurs on a [WiFiDirectConnectionListener](wifidirectconnectionlistener.md).

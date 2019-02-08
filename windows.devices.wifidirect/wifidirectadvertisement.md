@@ -11,7 +11,7 @@ public class WiFiDirectAdvertisement : Windows.Devices.WiFiDirect.IWiFiDirectAdv
 # Windows.Devices.WiFiDirect.WiFiDirectAdvertisement
 
 ## -description
-Represent a Wi-Fi Direct advertisement and allows the app to control the listen state and custom information elements in the advertisement.
+Represents a Wi-Fi Direct advertisement and allows the app to control the listen state and custom information elements in the advertisement.
 
 ## -remarks
 
