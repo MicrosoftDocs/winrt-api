@@ -137,6 +137,9 @@ The app was launched from the command line. Introduced in Windows 10, version 17
 The app was activated as a barcode scanner provider. 
 
 ## -remarks
+Values are mutually exclusive and cannot be combined. Each one relates to a different type of activation, and an app instance can be activated in only one way at a time.
+
+For more information about app activation, see the remarks on the [Application.OnActivated(IActivatedEventArgs)](../windows.ui.xaml/application_onactivated_603737819.md) page.
 
 ### Version history
 
