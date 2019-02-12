@@ -28,7 +28,7 @@ The *input* parameter is **null** (**Nothing** in Visual Basic).
 
 The *input* parameter is not valid content disposition information.
 
-
 ## -examples
+See the code example in [HttpContentHeaderCollection class](..\windows.web.http\httpcontentheadercollection.md).
 
 ## -see-also
