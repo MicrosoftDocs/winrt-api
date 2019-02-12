@@ -21,11 +21,9 @@ The content disposition value to be used in the **Content-Disposition** HTTP hea
 ## -remarks
 
 ## -examples
-
-See the code example in [HttpContentHeaderCollection class](..\windows.web.http\httpcontentheadercollection.md).
+See the code example in [HttpContentHeaderCollection class](httpcontentheadercollection.md).
 
 ## -see-also
 
-* [Content Disposition Values](https://www.iana.org/assignments/cont-disp/cont-disp.xhtml)
-* [Content-Disposition
+[Content Disposition Values](https://www.iana.org/assignments/cont-disp/cont-disp.xhtml), [Content-Disposition
 ](https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Disposition)
