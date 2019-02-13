@@ -18,6 +18,9 @@ True if you must bind a value to this feature before calling **LearningModelSess
 
 ## -remarks
 
+### Thread safety
+This API is thread-safe.
+
 ## -see-also
 
 ## -examples

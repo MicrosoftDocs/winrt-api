@@ -18,6 +18,9 @@ A description of what this feature is used for in the model.
 
 ## -remarks
 
+### Thread safety
+This API is thread-safe.
+
 ## -see-also
 
 ## -examples

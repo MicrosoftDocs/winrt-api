@@ -17,6 +17,9 @@ An iterator that is initialized to the first element in the map view.
 
 ## -remarks
 
+### Thread safety
+This API is thread-safe.
+
 ## -see-also
 
 ## -examples

@@ -21,6 +21,9 @@ True if the evaluation completed successfully; otherwise, false.
 
 If false, use [LearningModelEvaluationResult.ErrorStatus](learningmodelevaluationresult_errorstatus.md) to find out what caused the failure.
 
+### Thread safety
+This API is thread-safe.
+
 ## -see-also
 
 ## -examples

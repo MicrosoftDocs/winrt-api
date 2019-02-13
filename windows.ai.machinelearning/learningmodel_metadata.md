@@ -19,6 +19,9 @@ The raw &lt;string,string&gt; metadata from the ONNX model.
 
 ## -remarks
 
+### Thread safety
+This API is thread-safe.
+
 ## -see-also
 
 ## -examples

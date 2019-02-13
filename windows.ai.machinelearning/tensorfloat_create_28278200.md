@@ -17,6 +17,9 @@ A 32-bit float tensor object.
 
 ## -remarks
 
+### Thread safety
+This API is thread-safe.
+
 ## -see-also
 
 ## -examples

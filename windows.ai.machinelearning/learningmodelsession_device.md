@@ -18,6 +18,9 @@ The session's evaluation device.
 
 ## -remarks
 
+### Thread safety
+This API is thread-safe.
+
 ## -see-also
 
 ## -examples

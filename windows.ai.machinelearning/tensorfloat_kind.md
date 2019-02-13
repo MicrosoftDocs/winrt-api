@@ -16,6 +16,9 @@ public LearningModelFeatureKind Kind { get; }
 
 ## -remarks
 
+### Thread safety
+This API is thread-safe.
+
 ## -see-also
 
 ## -examples

@@ -18,6 +18,9 @@ The feature descriptor for this sequence element.
 
 ## -remarks
 
+### Thread safety
+This API is thread-safe.
+
 ## -see-also
 
 ## -examples

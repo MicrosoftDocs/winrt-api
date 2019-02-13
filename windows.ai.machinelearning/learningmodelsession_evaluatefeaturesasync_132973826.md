@@ -25,6 +25,9 @@ The result of the evaluation.
 ## -remarks
 This method is an alternative to the separated bind then evaluate form that takes a [LearningModelBinding](learningmodelbinding.md). It will take the passed in features, create a **LearningModelBinding** for you, bind the features, and then evaluate the model.
 
+### Thread safety
+This API is thread-safe.
+
 ## -see-also
 
 ## -examples

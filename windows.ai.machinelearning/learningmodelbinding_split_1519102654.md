@@ -24,6 +24,9 @@ The two views that result from the split operation may not contain the same numb
 
 If the map view cannot be split, then both the first and second parameters are **null** when the method returns.
 
+### Thread safety
+This API is thread-safe.
+
 ## -see-also
 
 ## -examples

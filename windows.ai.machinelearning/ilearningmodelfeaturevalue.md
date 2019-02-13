@@ -15,6 +15,9 @@ The instantiated value for a feature.
 
 ## -remarks
 
+### Thread safety
+This API is thread-safe.
+
 ## -see-also
 [Windows Machine Learning](https://docs.microsoft.com/windows/ai/),
 [Windows ML samples (GitHub)](https://github.com/Microsoft/Windows-Machine-Learning)

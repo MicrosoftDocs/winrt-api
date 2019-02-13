@@ -18,6 +18,9 @@ The error code for what caused the failure.
 
 ## -remarks
 
+### Thread safety
+This API is thread-safe.
+
 ## -see-also
 
 ## -examples

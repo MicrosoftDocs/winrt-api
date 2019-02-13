@@ -14,6 +14,9 @@ public interface ILearningModelOperatorProvider
 
 ## -remarks
 
+### Thread safety
+This API is thread-safe.
+
 ## -see-also
 
 ## -examples

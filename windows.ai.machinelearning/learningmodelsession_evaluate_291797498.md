@@ -24,6 +24,9 @@ The results of the evaluation.
 
 ## -remarks
 
+### Thread safety
+This API is thread-safe.
+
 ## -see-also
 
 ## -examples

@@ -18,6 +18,9 @@ Set of properties that control model evaluation.
 
 ## -remarks
 
+### Thread safety
+This API is thread-safe.
+
 ## -see-also
 
 ## -examples

@@ -24,6 +24,9 @@ An 8-bit signed integer tensor object with a buffer containing the given data.
 
 ## -remarks
 
+### Thread safety
+This API is thread-safe.
+
 ## -see-also
 
 ## -examples

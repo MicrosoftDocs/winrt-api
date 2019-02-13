@@ -17,6 +17,9 @@ A string tensor object.
 
 ## -remarks
 
+### Thread safety
+This API is thread-safe.
+
 ## -see-also
 
 ## -examples

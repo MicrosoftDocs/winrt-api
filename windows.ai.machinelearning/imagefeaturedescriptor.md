@@ -15,6 +15,9 @@ Describes the properties of the image the model is expecting.
 
 ## -remarks
 
+### Thread safety
+This API is thread-safe.
+
 ## -see-also
 [Windows ML](https://docs.microsoft.com/windows/ai/), [Windows ML samples (GitHub)](https://github.com/Microsoft/Windows-Machine-Learning/tree/master)
 

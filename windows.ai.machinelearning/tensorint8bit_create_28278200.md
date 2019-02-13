@@ -17,6 +17,9 @@ An 8-bit signed integer tensor object.
 
 ## -remarks
 
+### Thread safety
+This API is thread-safe.
+
 ## -see-also
 
 ## -examples

@@ -21,6 +21,9 @@ The **ImageFeatureValue** created from the given video frame.
 
 ## -remarks
 
+### Thread safety
+This API is thread-safe.
+
 ## -see-also
 
 ## -examples

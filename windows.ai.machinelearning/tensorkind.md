@@ -64,6 +64,9 @@ Invalid type.
 
 ## -remarks
 
+### Thread safety
+This API is thread-safe.
+
 ## -see-also
 [Windows Machine Learning](https://docs.microsoft.com/windows/ai/), [Windows ML samples (GitHub repo)](https://github.com/Microsoft/Windows-Machine-Learning)
 

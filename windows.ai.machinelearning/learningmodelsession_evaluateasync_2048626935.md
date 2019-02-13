@@ -24,6 +24,9 @@ A [LearningModelEvaluationResult](learningmodelevaluationresult.md) from the eva
 
 ## -remarks
 
+### Thread safety
+This API is thread-safe.
+
 ## -see-also
 
 ## -examples

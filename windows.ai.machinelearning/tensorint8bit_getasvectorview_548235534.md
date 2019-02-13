@@ -17,6 +17,9 @@ A read-only view of the data.
 
 ## -remarks
 
+### Thread safety
+This API is thread-safe.
+
 ## -see-also
 
 ## -examples

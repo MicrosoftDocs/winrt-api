@@ -18,6 +18,9 @@ The name you use to bind values to this feature.
 
 ## -remarks
 
+### Thread safety
+This API is thread-safe.
+
 ## -see-also
 
 ## -examples

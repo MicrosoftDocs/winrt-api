@@ -18,6 +18,9 @@ The count and size of each dimension.
 
 ## -remarks
 
+### Thread safety
+This API is thread-safe.
+
 ## -see-also
 
 ## -examples

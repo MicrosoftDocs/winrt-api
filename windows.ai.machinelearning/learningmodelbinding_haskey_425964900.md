@@ -21,6 +21,9 @@ True if the map view contains the specified key; otherwise, false.
 
 ## -remarks
 
+### Thread safety
+This API is thread-safe.
+
 ## -see-also
 
 ## -examples

@@ -21,6 +21,9 @@ A **LearningModelDevice** created from the specified **IDirect3DDevice**.
 
 ## -remarks
 
+### Thread safety
+This API is thread-safe.
+
 ## -see-also
 
 ## -examples

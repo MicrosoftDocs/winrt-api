@@ -13,6 +13,9 @@ public void LearningModelSession.Close()
 
 ## -remarks
 
+### Thread safety
+This API is thread-safe.
+
 ## -see-also
 
 ## -examples

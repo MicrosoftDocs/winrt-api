@@ -18,6 +18,9 @@ The feature for this map value.
 
 ## -remarks
 
+### Thread safety
+This API is thread-safe.
+
 ## -see-also
 
 ## -examples
