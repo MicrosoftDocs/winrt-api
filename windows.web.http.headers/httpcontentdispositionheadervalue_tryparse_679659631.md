@@ -25,6 +25,6 @@ The [HttpContentDispositionHeaderValue](httpcontentdispositionheadervalue.md) ve
 ## -remarks
 
 ## -examples
-See the code example in [HttpContentHeaderCollection class](..\windows.web.http\httpcontentheadercollection.md).
+See the code example in [HttpContentHeaderCollection class](httpcontentheadercollection.md).
 
 ## -see-also

@@ -23,8 +23,8 @@ This header is used in two different contexts:
 + A MIME header for nested body content in the [HttpMultipartFormDataContent](../windows.web.http/httpmultipartformdatacontent.md) class. For more information, see IETF RFC 2183.
 + An HTTP header in [HttpContentHeaderCollection](httpcontentheadercollection.md) class. For more information, see IETF RFC 6266.
 
-
 ## -examples
+See the code example in [HttpContentHeaderCollection class](httpcontentheadercollection.md).
 
 ## -see-also
 [ContentDisposition](httpcontentheadercollection_contentdisposition.md), [HttpContentHeaderCollection](httpcontentheadercollection.md), [IStringable](../windows.foundation/istringable.md)
