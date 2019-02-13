@@ -25,5 +25,4 @@ See the code example in [HttpContentHeaderCollection class](httpcontentheadercol
 
 ## -see-also
 
-[Content Disposition Values](https://www.iana.org/assignments/cont-disp/cont-disp.xhtml), [Content-Disposition
-](https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Disposition)
+[Content Disposition Values](https://www.iana.org/assignments/cont-disp/cont-disp.xhtml), [Content-Disposition](https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Disposition)
