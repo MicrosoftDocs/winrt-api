@@ -18,6 +18,9 @@ The **IDirect3DDevice** for the device.
 
 ## -remarks
 
+### Thread safety
+This API is thread-safe.
+
 ## -see-also
 
 ## -examples

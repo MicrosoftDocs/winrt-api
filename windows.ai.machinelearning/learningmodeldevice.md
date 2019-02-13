@@ -15,6 +15,9 @@ The device used to evaluate the machine learning model.
 
 ## -remarks
 
+### Thread safety
+This API is thread-safe.
+
 ## -see-also
 [Windows ML](https://docs.microsoft.com/windows/ai/), [Windows ML samples (GitHub)](https://github.com/Microsoft/Windows-Machine-Learning/tree/master)
 

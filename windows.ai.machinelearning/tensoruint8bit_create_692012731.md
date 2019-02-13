@@ -21,6 +21,9 @@ An 8-bit unsigned integer tensor object with a buffer of the given size.
 
 ## -remarks
 
+### Thread safety
+This API is thread-safe.
+
 ## -see-also
 
 ## -examples

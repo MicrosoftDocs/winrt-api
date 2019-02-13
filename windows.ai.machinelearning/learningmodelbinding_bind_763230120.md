@@ -24,6 +24,9 @@ The properties to control the binding.
 
 ## -remarks
 
+### Thread safety
+This API is thread-safe.
+
 ## -see-also
 
 ## -examples

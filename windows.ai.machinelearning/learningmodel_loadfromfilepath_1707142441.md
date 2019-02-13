@@ -25,6 +25,9 @@ An object representing the model.
 ## -remarks
 This method is meant for desktop (non-UWP) applications. For UWP, see [LoadFromStorageFileAsync](learningmodel_loadfromstoragefileasync_532232733.md).
 
+### Thread safety
+This API is thread-safe.
+
 ## -see-also
 
 ## -examples

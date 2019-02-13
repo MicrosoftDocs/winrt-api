@@ -18,6 +18,9 @@ The kind of feature&mdash;use this to know which derived class to use.
 
 ## -remarks
 
+### Thread safety
+This API is thread-safe.
+
 ## -see-also
 
 ## -examples

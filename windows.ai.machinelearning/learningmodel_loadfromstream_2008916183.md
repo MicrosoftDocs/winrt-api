@@ -23,6 +23,9 @@ An object representing the model file.
 
 ## -remarks
 
+### Thread safety
+This API is thread-safe.
+
 ## -see-also
 
 ## -examples

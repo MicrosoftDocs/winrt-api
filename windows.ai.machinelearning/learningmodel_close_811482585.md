@@ -14,6 +14,9 @@ Releases the in-memory ONNX model. After calling this, you cannot create any mor
 
 ## -remarks
 
+### Thread safety
+This API is thread-safe.
+
 ## -see-also
 
 ## -examples

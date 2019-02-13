@@ -24,6 +24,9 @@ A 32-bit float tensor object with a buffer containing the given data.
 
 ## -remarks
 
+### Thread safety
+This API is thread-safe.
+
 ## -see-also
 
 ## -examples

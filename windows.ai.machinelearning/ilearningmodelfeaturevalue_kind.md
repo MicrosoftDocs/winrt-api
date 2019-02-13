@@ -18,6 +18,9 @@ The data type of the feature.
 
 ## -remarks
 
+### Thread safety
+This API is thread-safe.
+
 ## -see-also
 
 ## -examples

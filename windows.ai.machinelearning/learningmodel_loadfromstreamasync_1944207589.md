@@ -21,6 +21,9 @@ An object representing the model.
 
 ## -remarks
 
+### Thread safety
+This API is thread-safe.
+
 ## -see-also
 
 ## -examples

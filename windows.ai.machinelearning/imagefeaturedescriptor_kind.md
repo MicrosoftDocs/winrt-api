@@ -18,6 +18,9 @@ The kind of feature.
 
 ## -remarks
 
+### Thread safety
+This API is thread-safe.
+
 ## -see-also
 
 ## -examples

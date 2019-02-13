@@ -18,6 +18,9 @@ A list of the model's input features.
 
 ## -remarks
 
+### Thread safety
+This API is thread-safe.
+
 ## -see-also
 
 ## -examples

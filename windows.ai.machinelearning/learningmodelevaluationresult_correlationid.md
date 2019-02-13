@@ -18,6 +18,9 @@ The optional string that was passed to **LearningModelSession.Evaluate**.
 
 ## -remarks
 
+### Thread safety
+This API is thread-safe.
+
 ## -see-also
 
 ## -examples

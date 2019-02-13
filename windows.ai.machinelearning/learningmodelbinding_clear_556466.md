@@ -14,6 +14,9 @@ Remove all bindings.
 
 ## -remarks
 
+### Thread safety
+This API is thread-safe.
+
 ## -see-also
 
 ## -examples

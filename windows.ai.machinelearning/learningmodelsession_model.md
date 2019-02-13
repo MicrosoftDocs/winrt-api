@@ -18,6 +18,9 @@ The trained machine learning model for this session.
 
 ## -remarks
 
+### Thread safety
+This API is thread-safe.
+
 ## -see-also
 
 ## -examples

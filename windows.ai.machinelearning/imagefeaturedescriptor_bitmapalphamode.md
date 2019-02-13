@@ -18,6 +18,9 @@ The alpha mode of the image.
 
 ## -remarks
 
+### Thread safety
+This API is thread-safe.
+
 ## -see-also
 
 ## -examples

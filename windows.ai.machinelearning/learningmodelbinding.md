@@ -16,6 +16,9 @@ Used to bind values to named input and output features.
 ## -remarks
 Models specify their input and output features using unique string names.   Before evaluating the model you can bind your inputs and outputs to the session using those names. To do this you use the **LearningModelBinding** object which you can create based on a session.
 
+### Thread safety
+This API is thread-safe.
+
 ## -see-also
 [Windows ML](https://docs.microsoft.com/windows/ai/), [Windows ML samples (GitHub)](https://github.com/Microsoft/Windows-Machine-Learning/tree/master)
 

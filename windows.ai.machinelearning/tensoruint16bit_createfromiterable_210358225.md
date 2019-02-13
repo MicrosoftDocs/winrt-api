@@ -24,6 +24,9 @@ A 16-bit unsigned integer tensor object with a buffer containing the given data.
 
 ## -remarks
 
+### Thread safety
+This API is thread-safe.
+
 ## -see-also
 
 ## -examples

@@ -18,6 +18,9 @@ The number of elements in the map.
 
 ## -remarks
 
+### Thread safety
+This API is thread-safe.
+
 ## -see-also
 
 ## -examples

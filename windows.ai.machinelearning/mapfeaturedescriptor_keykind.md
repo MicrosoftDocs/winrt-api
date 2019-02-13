@@ -18,6 +18,9 @@ The type of tensor this map key is.
 
 ## -remarks
 
+### Thread safety
+This API is thread-safe.
+
 ## -see-also
 
 ## -examples

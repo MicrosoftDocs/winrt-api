@@ -19,6 +19,9 @@ The **LearningModelSession** from which to create the **LearningModelBinding**.
 
 ## -remarks
 
+### Thread safety
+This API is thread-safe.
+
 ## -see-also
 
 ## -examples

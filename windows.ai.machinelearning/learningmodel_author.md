@@ -18,6 +18,9 @@ The name of the model author.
 
 ## -remarks
 
+### Thread safety
+This API is thread-safe.
+
 ## -see-also
 
 ## -examples

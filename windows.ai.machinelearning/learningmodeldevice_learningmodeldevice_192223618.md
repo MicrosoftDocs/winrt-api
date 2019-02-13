@@ -19,6 +19,9 @@ The specified **LearningModelDeviceKind** to evaluate the model on.
 
 ## -remarks
 
+### Thread safety
+This API is thread-safe.
+
 ## -see-also
 
 ## -examples

@@ -21,6 +21,9 @@ The item at the specified key in the map view.
 
 ## -remarks
 
+### Thread safety
+This API is thread-safe.
+
 ## -see-also
 
 ## -examples

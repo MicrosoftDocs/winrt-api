@@ -23,6 +23,9 @@ A [LearningModel](learningmodel.md) based on the model file.
 
 ## -remarks
 
+### Thread safety
+This API is thread-safe.
+
 ## -see-also
 
 ## -examples
