@@ -24,6 +24,9 @@ A [PackageUpdateAvailabilityResult](packageupdateavailabilityresult.md) that ind
 ## -see-also
 [PackageUpdateAvailabilityResult](packageupdateavailabilityresult.md)
 
+## -known-issues
+This method fails if used on Package.Current. See the below example for how to retrieve update information about the app's own package.
+
 ## -examples
 
 An app developer wants to have a button in their app that allows a user to check for app updates. To enable the app to check if an update is available, they use the CheckUpdateAvailabilityAsync method as shown below. 
@@ -32,7 +35,9 @@ An app developer wants to have a button in their app that allows a user to check
 
 private async void CheckForUpdatesButton_Click(object sender, RoutedEventArgs e)
 {
-    PackageUpdateAvailabilityResult result = await Package.Current.CheckUpdateAvailabilityAsync();
+    PackageManager pm = new PackageManager();
+    Package currentPackage = pm.FindPackageForUser(string.Empty, Package.Current.Id.FullName);
+    PackageUpdateAvailabilityResult result = await currentPackage.CheckUpdateAvailabilityAsync();
     switch (result.Availability)
     {
         case PackageUpdateAvailability.Available:
