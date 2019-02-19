@@ -23,6 +23,8 @@ The callback on which the dispatcher returns when the event is dispatched.
 The asynchronous operation.
 
 ## -remarks
+Once the CoreDispatcher starts shutting down, if this method is called it will complete successfully
+and return false.
 
 ## -examples
 
