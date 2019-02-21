@@ -14,25 +14,27 @@ public IAsyncOperation<PackageUpdateAvailabilityResult> Package.CheckUpdateAvail
 
 The **CheckUpdateAvailabilityAsync** method allows developers to check for updates to the main app package listed in the .appinstaller file. It allows the developer to determine if the updates are required due to .appinstaller policy. This method currently only works for applications installed via .appinstaller files.
 
-
 ## -returns
-
 A [PackageUpdateAvailabilityResult](packageupdateavailabilityresult.md) that indicates if an application has an update, and if the update is required.
 
 ## -remarks
+If you try to use this method on the [Package](package.md) object returned by the [Current](package_current.md) property, this method will fail with an "Access denied" error. This is a known issue that may be fixed in a future release. The example on this page demonstrates how to retrieve update information about the current app's package.
+
+This method is not supported in JavaScript. However, you can create a Windows Runtime component that calls this method and then call this component from a JavaScript UWP app. For more information, see [App Installer file API issues](https://docs.microsoft.com/windows/msix/app-installer/app-installer-api-issues).
 
 ## -see-also
-[PackageUpdateAvailabilityResult](packageupdateavailabilityresult.md)
+[PackageUpdateAvailabilityResult](packageupdateavailabilityresult.md),[PackageManager.FindPackageForUser](../windows.management.deployment/packagemanager_findpackageforuser_526853699.md),[App Installer APIs](https://docs.microsoft.com/windows/msix/app-installer/app-installer-apis)
 
 ## -examples
 
-An app developer wants to have a button in their app that allows a user to check for app updates. To enable the app to check if an update is available, they use the CheckUpdateAvailabilityAsync method as shown below. 
+An app developer wants to have a button in their app that allows a user to check for app updates. To enable the app to check if an update is available, they use the **CheckUpdateAvailabilityAsync** method as shown below.
 
 ```csharp
-
 private async void CheckForUpdatesButton_Click(object sender, RoutedEventArgs e)
 {
-    PackageUpdateAvailabilityResult result = await Package.Current.CheckUpdateAvailabilityAsync();
+    PackageManager pm = new PackageManager();
+    Package currentPackage = pm.FindPackageForUser(string.Empty, Package.Current.Id.FullName);
+    PackageUpdateAvailabilityResult result = await currentPackage.CheckUpdateAvailabilityAsync();
     switch (result.Availability)
     {
         case PackageUpdateAvailability.Available:
@@ -52,13 +54,11 @@ private async void CheckForUpdatesButton_Click(object sender, RoutedEventArgs e)
             break;
     }
 }
-
 ```
 
 From inside the app, the developer wants to check for updates and start the update process if updates are available. 
 
 ```csharp
-
 public async void CheckForAvailableUpdatesAndLaunchAsync(string targetPackageFullName)
 {
     PackageManager pm = new PackageManager();
@@ -88,5 +88,4 @@ public async void CheckForAvailableUpdatesAndLaunchAsync(string targetPackageFul
             break;
     }
 }
-
 ```
