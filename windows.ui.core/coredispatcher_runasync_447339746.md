@@ -30,9 +30,7 @@ If you are on a worker thread and want to schedule work on the UI thread, use [C
 
 To spin off a worker thread from the UI thread, do not use this method ([CoreDispatcher.RunAsync](coredispatcher_runasync_447339746.md)). Instead, use one of the [Windows.System.Threading.ThreadPool.RunAsync](../windows.system.threading/threadpool_runasync_514988780.md) method overloads.
 
-Once the CoreDispatcher starts shutting down, this method will complete successfully, but not run the provided callback
-on the UI thread.  To detect this case, use the [CoreDispatcher.TryRunAsync](CoreDispatcher.TryRunAsync)
-method instead.
+This method completes successfully when the CoreDispatcher starts to shut down, but does not run the specified callback on the UI thread. Use [CoreDispatcher.TryRunAsync](CoreDispatcher.TryRunAsync) if you need to detect this case.
 
 ### Await a UI task sent from a background thread
 
