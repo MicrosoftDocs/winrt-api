@@ -10,7 +10,7 @@ public Windows.Foundation.IAsyncOperation<bool> TryRunAsync(Windows.UI.Core.Core
 # Windows.UI.Core.CoreDispatcher.TryRunAsync
 
 ## -description
-Attempts to schedule the provided callback on the UI thread from a worker thread, and returns the results asynchronously.
+Attempts to schedule the specified callback on the UI thread from a worker thread, and returns the results asynchronously.
 
 ## -parameters
 ### -param priority
@@ -23,6 +23,8 @@ The callback on which the dispatcher returns when the event is dispatched.
 The asynchronous operation.
 
 ## -remarks
+
+If called while the CoreDispatcher is shutting down, this method will complete successfully and return false.
 
 ## -examples
 
