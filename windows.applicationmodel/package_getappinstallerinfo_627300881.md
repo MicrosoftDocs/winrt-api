@@ -21,7 +21,7 @@ The .appinstaller xml file location.
 ## -remarks
 
 ## -see-also
-[Windows.ApplicationModel.AppInstallerInfo.Uri](appinstallerinfo_uri.md)
+[Windows.ApplicationModel.AppInstallerInfo.Uri](appinstallerinfo_uri.md),[App Installer APIs](https://docs.microsoft.com/windows/msix/app-installer/app-installer-apis)
 
 ## -examples
 
@@ -32,8 +32,8 @@ If the app developer wants to post or send a link of the .appinstaller URI that 
 AppInstallerInfo info = Windows.ApplicationModel.Package.Current.GetAppInstallerInfo();
 if (info != null)
 {
-    // Uri that was used to install the app. 
-    // Example: http://ie-snap/scratchtests/joshusto/connect4.appinstaller.
+    // Uri that was used to install the app.
+    // Example: http://contoso/connect4.appinstaller.
     Uri appInstallerUri = info.Uri;
     // Pass to URI builder and provide optional args.
     UriBuilder innerUriBuilder = new UriBuilder(appInstallerUri);

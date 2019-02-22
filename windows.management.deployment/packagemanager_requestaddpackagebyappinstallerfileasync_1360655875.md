@@ -25,9 +25,14 @@ The volume that the package is installed to.
 ## -returns
 
 ## -remarks
-This method is identical to [AddPackageByAppInstallerAsync](packagemanager_addpackagebyappinstallerfileasync_1097728195.md) except this uses the SmartScreen filter. 
+This method is identical to [AddPackageByAppInstallerAsync](packagemanager_addpackagebyappinstallerfileasync_1097728195.md) except this uses the SmartScreen filter.
+
+This method is not supported in JavaScript. However, you can create a Windows Runtime component that calls this method and then call this component from a JavaScript UWP app. For more information, see [App Installer file API issues](https://docs.microsoft.com/windows/msix/app-installer/app-installer-api-issues).
 
 ## -see-also
+[App Installer APIs](https://docs.microsoft.com/windows/msix/app-installer/app-installer-apis)
 
 ## -examples
 
+## -capabilities
+packageManagement
