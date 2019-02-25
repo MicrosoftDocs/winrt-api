@@ -13,9 +13,7 @@ public uint Height { get; }
 Gets the height of the image.
 
 ## -property-value
-The height of the image
-
-, in pixels.
+The height of the image, in pixels.
 
 ## -remarks
 
