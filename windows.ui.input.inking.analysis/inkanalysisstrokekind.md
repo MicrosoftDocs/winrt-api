@@ -14,19 +14,30 @@ public enum InkAnalysisStrokeKind : int {
 # Windows.UI.Input.Inking.Analysis.InkAnalysisStrokeKind
 
 ## -description
+
 Specifies the types of ink strokes that can be recognized by the ink analysis process.
 
 ## -enum-fields
 
 ## -field Writing:1
 
+Indicates a handwriting ink stroke.
+
 ## -field Drawing:2
+
+Indicates a non-handwriting ink stroke.
 
 ## -field Auto:0
 
+Indicates a non-specific ink stroke.
+
 ## -remarks
 
+Use [InkAnalysisStrokeKind](inkanalysisstrokekind.md) with the [**SetStrokeDataKind**](https://docs.microsoft.com/en-us/uwp/api/windows.ui.input.inking.analysis.inkanalyzer.setstrokedatakind) method to specify the type of ink stroke you're interested in analyzing: text (including document structure and bullet lists), drawing (including shape recognition), or non-specific. This can improve both efficiency and recognition accuracy.
+
 ## -see-also
+
+[SetStrokeDataKind](inkanalyzer_setstrokedatakind_844006976.md)
 
 ## -examples
 
