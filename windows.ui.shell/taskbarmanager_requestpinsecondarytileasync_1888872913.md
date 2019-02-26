@@ -26,7 +26,7 @@ A boolean representing whether the tile is pinned to the takbar. If the tile was
 
 ## -remarks
 
-This API can only be used with Limited-Access. See the docs for pinning secondary tiles to taskbar to learn more.
+This API can only be used with user approval, as described [here](https://docs.microsoft.com/en-us/windows/uwp/design/shell/pin-to-taskbar#4-pin-your-app). See the docs for pinning secondary tiles to taskbar to learn more.
 
 ## -see-also
 
