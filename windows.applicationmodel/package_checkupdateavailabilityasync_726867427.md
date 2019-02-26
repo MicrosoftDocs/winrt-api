@@ -32,8 +32,10 @@ An app developer wants to have a button in their app that allows a user to check
 ```csharp
 private async void CheckForUpdatesButton_Click(object sender, RoutedEventArgs e)
 {
+    // Get the current app's package for the current user.
     PackageManager pm = new PackageManager();
     Package currentPackage = pm.FindPackageForUser(string.Empty, Package.Current.Id.FullName);
+
     PackageUpdateAvailabilityResult result = await currentPackage.CheckUpdateAvailabilityAsync();
     switch (result.Availability)
     {
@@ -44,13 +46,15 @@ private async void CheckForUpdatesButton_Click(object sender, RoutedEventArgs e)
             GoToUpdateRequiredUIView();
             break;
         case PackageUpdateAvailability.NoUpdates:
-            ShowNoUpdateAvailableDialog(); // dismissable ‘Ok’ dialog
+            // Dismissable ‘Ok’ dialog.
+            ShowNoUpdateAvailableDialog(); 
             break;
         case PackageUpdateAvailability.Unknown:
         default:
             // Log and ignore error.
             Logger.Log($"No update information associated with app {Package.Current.DisplayName}");
-            ShowNoUpdateAvailableDialog(); // dismissable ‘Ok’ dialog
+            // Dismissable ‘Ok’ dialog.
+            ShowNoUpdateAvailableDialog();
             break;
     }
 }
@@ -61,8 +65,9 @@ From inside the app, the developer wants to check for updates and start the upda
 ```csharp
 public async void CheckForAvailableUpdatesAndLaunchAsync(string targetPackageFullName)
 {
+    // Get the current app's package for the current user.
     PackageManager pm = new PackageManager();
-    Package package = pm.FindPackageForUser(string.Empty /*current user*/, targetPackageFullName);
+    Package package = pm.FindPackageForUser(string.Empty, targetPackageFullName);
 
     PackageUpdateAvailabilityResult result = await package.CheckUpdateAvailabilityAsync();
     switch (result.Availability)
@@ -74,7 +79,7 @@ public async void CheckForAvailableUpdatesAndLaunchAsync(string targetPackageFul
             GoToUpdateRequiredUIView();
             break;
         case PackageUpdateAvailability.NoUpdates:
-            // Launch target app and close AppInstaller
+            // Launch target app and close AppInstaller.
             LaunchTargetApp(targetPackageFullName);
             await ConsolidateAppInstallerView();
             break;
@@ -82,7 +87,7 @@ public async void CheckForAvailableUpdatesAndLaunchAsync(string targetPackageFul
         default:
             // Log and ignore error.
             Logger.Log($"No update information associated with app {targetPackageFullName}");
-            // Launch target app and close AppInstaller
+            // Launch target app and close AppInstaller.
             LaunchTargetApp(targetPackageFullName);
             await ConsolidateAppInstallerView();
             break;
