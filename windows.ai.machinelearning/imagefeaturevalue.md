@@ -18,6 +18,9 @@ This is the recommended way of passing images as inputs and outputs. It allows y
 
 Windows ML supports two types of [VideoFrame](../windows.media/videoframe.md): [SoftwareBitmap](../windows.graphics.imaging/softwarebitmap.md) and [IDirect3DSurface](../windows.graphics.directx.direct3d11/idirect3dsurface.md). The system takes care of both conversion and tensorization for the images to match the format the model requires. The currently supported model format types are Gray8, Rgb8, and Bgr8, and the currently supported pixel range is 0-255.
 
+### Windows Server
+To use this API on Windows Server, you must use Windows Server 2019 with Desktop Experience.
+
 ### Thread safety
 This API is thread-safe.
 

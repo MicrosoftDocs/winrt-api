@@ -20,6 +20,9 @@ This is the main object you use to interact with Windows ML. You use it to load,
 2. Enumerate the [InputFeatures](learningmodel_inputfeatures.md) and [OutputFeatures](learningmodel_outputfeatures.md) and bind to your model.
 3. Create a [LearningModelSession](learningmodelsession.md) and evalaute.
 
+### Windows Server
+To use this API on Windows Server, you must use Windows Server 2019 with Desktop Experience.
+
 ### Thread safety
 This API is thread-safe.
 
