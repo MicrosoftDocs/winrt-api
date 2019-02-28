@@ -24,6 +24,9 @@ The two views that result from the split operation may not contain the same numb
 
 If the map view cannot be split, then both the first and second parameters are **null** when the method returns.
 
+### Windows Server
+To use this API on Windows Server, you must use Windows Server 2019 with Desktop Experience.
+
 ### Thread safety
 This API is thread-safe.
 

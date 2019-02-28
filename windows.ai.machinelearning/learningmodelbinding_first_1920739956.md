@@ -17,6 +17,9 @@ An iterator that is initialized to the first element in the map view.
 
 ## -remarks
 
+### Windows Server
+To use this API on Windows Server, you must use Windows Server 2019 with Desktop Experience.
+
 ### Thread safety
 This API is thread-safe.
 

@@ -18,6 +18,9 @@ A tensor is a multi-dimensional array of values. A 64-bit signed integer tensor 
 
 The layout of tensors is row-major, with tightly packed contiguous data representing each dimension. The total size of a tensor is the product of the size of each dimension.
 
+### Windows Server
+To use this API on Windows Server, you must use Windows Server 2019 with Desktop Experience.
+
 ### Thread safety
 This API is thread-safe.
 
