@@ -25,9 +25,11 @@ The window is full-screen.
 
 ### -field CompactOverlay:3
 
+The window is shown as a compact overlay (picture-in-picture).
 
 ### -field Maximized:4
 
+The window is maximized.
 
 ## -remarks
 
