@@ -22,4 +22,6 @@ The pre-defined command.
 
 ## -see-also
 
+[XamlUICommand](xamluicommand.md), [Command design basics](https://docs.microsoft.com/windows/uwp/layout/commanding-basics), [Commanding in Universal Windows Platform (UWP) apps using StandardUICommand, XamlUICommand, and ICommand](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/commanding)
+
 ## -examples

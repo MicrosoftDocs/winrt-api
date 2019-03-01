@@ -12,9 +12,11 @@ public class XamlUICommand : DependencyObject, DependencyObject, ICommand
 
 ## -description
 
-Implements the [ICommand](icommand.md) interface, adding various UI properties, methods, and events to provide a base class for defining the command behavior of an interactive UI element that performs an action when invoked (such as sending an email, deleting an item, or submitting a form).
+Provides a base class for defining the command behavior of an interactive UI element that performs an action when invoked (such as sending an email, deleting an item, or submitting a form).
 
 ## -remarks
+
+Implements the ICommand interface ([Windows.UI.Xaml.Input.ICommand](icommand.md) for C++ or [System.Windows.Input.ICommand](https://docs.microsoft.com/dotnet/api/system.windows.input.icommand) for C#), adding various UI properties, methods, and events.
 
 ### XamlUICommand derived classes
 
@@ -31,6 +33,6 @@ XamlUICommand lets you specify UI through the control binding, such as an icon, 
 
 ## -see-also
 
-[StandardUICommand](standarduicommand.md)
+[StandardUICommand](standarduicommand.md), [Command design basics](https://docs.microsoft.com/windows/uwp/layout/commanding-basics), [Commanding in Universal Windows Platform (UWP) apps using StandardUICommand, XamlUICommand, and ICommand](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/commanding)
 
 ## -examples
