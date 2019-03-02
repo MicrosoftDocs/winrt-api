@@ -36,8 +36,8 @@ using System.Windows.Input;
 namespace AppUIBasics.Common
 {
     /// <summary>
-    /// A command whose sole purpose is to relay its functionality 
-    /// to other objects by invoking delegates. 
+    /// A command whose sole purpose is to relay its functionality
+    /// to other objects by invoking delegates.
     /// The default return value for the CanExecute method is 'true'.
     /// RaiseCanExecuteChanged needs to be called whenever
     /// CanExecute is expected to return a different value.
@@ -74,7 +74,7 @@ namespace AppUIBasics.Common
         /// Determines whether this RelayCommand can execute in its current state.
         /// </summary>
         /// <param name="parameter">
-        /// Data used by the command. If the command does not require data to be passed, 
+        /// Data used by the command. If the command does not require data to be passed,
         /// this object can be set to null.
         /// </param>
         /// <returns>true if this command can be executed; otherwise, false.</returns>
@@ -86,7 +86,7 @@ namespace AppUIBasics.Common
         /// Executes the RelayCommand on the current command target.
         /// </summary>
         /// <param name="parameter">
-        /// Data used by the command. If the command does not require data to be passed, 
+        /// Data used by the command. If the command does not require data to be passed,
         /// this object can be set to null.
         /// </param>
         public void Execute(object parameter)
@@ -112,4 +112,4 @@ namespace AppUIBasics.Common
 
 ## -see-also
 
-[Command design basics](https://docs.microsoft.com/windows/uwp/layout/commanding-basics), [Windows.UI.Xaml.Input.XamlUICommand](xamluicommand.md), [Windows.UI.Xaml.Input.StandardUICommand](standarduicommand.md)
+[Command design basics](https://docs.microsoft.com/windows/uwp/layout/commanding-basics), [Commanding in Universal Windows Platform (UWP) apps using StandardUICommand, XamlUICommand, and ICommand](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/commanding), [XamlUICommand](xamluicommand.md), [StandardUICommand](standarduicommand.md)
