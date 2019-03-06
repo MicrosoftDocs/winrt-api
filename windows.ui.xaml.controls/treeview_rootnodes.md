@@ -4,7 +4,7 @@
 ---
 
 <!-- Property syntax.
-public IVector<TreeViewNode> RootNodes { get; }
+public IVector<[TreeViewNode](treeviewnode.md)> RootNodes { get; }
 -->
 
 # Windows.UI.Xaml.Controls.TreeView.RootNodes
