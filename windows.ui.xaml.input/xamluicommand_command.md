@@ -24,6 +24,6 @@ XamlUICommand implements the ICommand interface ([Windows.UI.Xaml.Input.ICommand
 
 ## -see-also
 
-[Windows.UI.Xaml.Input.ICommand](icommand.md), [System.Windows.Input.ICommand](https://docs.microsoft.com/dotnet/api/system.windows.input.icommand), [StandardUICommand](standarduicommand.md), [Command design basics](https://docs.microsoft.com/windows/uwp/layout/commanding-basics), [Commanding in Universal Windows Platform (UWP) apps using StandardUICommand, XamlUICommand, and ICommand](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/commanding)
+[Windows.UI.Xaml.Input.ICommand](icommand.md), [System.Windows.Input.ICommand](https://docs.microsoft.com/dotnet/api/system.windows.input.icommand), [StandardUICommand](standarduicommand.md), [Command design basics](https://docs.microsoft.com/windows/uwp/layout/commanding-basics), [Commanding in Universal Windows Platform apps using StandardUICommand, XamlUICommand, and ICommand](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/commanding)
 
 ## -examples
