@@ -17,6 +17,6 @@ Initializes a new instance of the [StandardUICommand](standarduicommand.md) clas
 
 ## -see-also
 
-[StandardUICommand(StandardUICommandKind kind)](standarduicommand_standarduicommand_1550060345.md), [XamlUICommand](xamluicommand.md), [Command design basics](https://docs.microsoft.com/windows/uwp/layout/commanding-basics), [Commanding in Universal Windows Platform (UWP) apps using StandardUICommand, XamlUICommand, and ICommand](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/commanding)
+[StandardUICommand(StandardUICommandKind kind)](standarduicommand_standarduicommand_1550060345.md), [XamlUICommand](xamluicommand.md), [Command design basics](https://docs.microsoft.com/windows/uwp/layout/commanding-basics), [Commanding in Universal Windows Platform apps using StandardUICommand, XamlUICommand, and ICommand](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/commanding)
 
 ## -examples

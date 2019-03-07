@@ -22,6 +22,6 @@ A command element typically disables itself if the command it is associated with
 
 ## -see-also
 
-[NotifyCanExecuteChanged](xamluicommand_notifycanexecutechanged_1647343835.md), [StandardUICommand](standarduicommand.md), [Command design basics](https://docs.microsoft.com/windows/uwp/layout/commanding-basics), [Commanding in Universal Windows Platform (UWP) apps using StandardUICommand, XamlUICommand, and ICommand](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/commanding)
+[NotifyCanExecuteChanged](xamluicommand_notifycanexecutechanged_1647343835.md), [StandardUICommand](standarduicommand.md), [Command design basics](https://docs.microsoft.com/windows/uwp/layout/commanding-basics), [Commanding in Universal Windows Platform apps using StandardUICommand, XamlUICommand, and ICommand](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/commanding)
 
 ## -examples
