@@ -16,6 +16,8 @@ Derives from [XamlUICommand](xamluicommand.md), adding a set of standard platfor
 
 ## -remarks
 
+[XamlUICommand](xamluicommand.md) implements the ICommand interface ([Windows.UI.Xaml.Input.ICommand](icommand.md) for C++ or [System.Windows.Input.ICommand](https://docs.microsoft.com/dotnet/api/system.windows.input.icommand) for C#), adding various UI properties, methods, and events.
+
 The platform provides the following set of commands.
 
 - Cut
