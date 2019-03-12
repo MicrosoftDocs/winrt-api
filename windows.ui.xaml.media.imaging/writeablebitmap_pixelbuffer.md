@@ -51,6 +51,8 @@ using (IRandomAccessStream fileStream = await file.OpenAsync(Windows.Storage.Fil
 ```
 
 ```cppwinrt
+// Add the Pictures Library capability to your Package.appxmanifest file.
+
 // MainPage.xaml
 ...
 <Image x:Name="anyExampleImage" Width="100" Height="100"/>
@@ -106,10 +108,13 @@ Windows::Graphics::Imaging::PixelDataProvider pixelData{ co_await decoder.GetPix
 // An array containing the decoded image data, which could be modified before being displayed 
 winrt::com_array<uint8_t> sourcePixels{ pixelData.DetachPixelData() };
 
+// COMMENT OUT EXACTLY ONE OF TECHNIQUE 1/2
+// TECHNIQUE 1; QI for IBufferByteAccess.
 auto bufferByteAccess{ m_writeableBitmap.PixelBuffer().as<::IBufferByteAccess>() };
-
 uint8_t * pTargetBytes{ nullptr };
 bufferByteAccess->Buffer(&pTargetBytes);
+// TECHNIQUE 2; use a C++/WinRT helper function (and delete the definition of IBufferByteAccess, above).
+// uint8_t * pTargetBytes{ m_writeableBitmap.PixelBuffer().data() };
 
 for (auto & element : sourcePixels)
 {
