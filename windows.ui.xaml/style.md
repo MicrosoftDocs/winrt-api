@@ -42,7 +42,7 @@ A [Style](style.md) is almost always defined in XAML as a resource in a [Resourc
 > **Windows 8**
 > If you are re-templating an existing control in Windows 8 XAML, you sometimes modify the [Style](style.md) elements that exist in the StandardStyles.xaml XAML file that is included in most of the starting app templates. StandardStyles.xaml is referenced by the template app.xaml files as a [MergedDictionaries](resourcedictionary_mergeddictionaries.md) source file. Templates for apps starting with Windows 8.1 don't use StandardStyles.xaml anymore.
 
-A [Style](style.md) defined element in a [ResourceDictionary](resourcedictionary.md) is not required to have an [x:Key attribute](https://msdn.microsoft.com/library/141fc5af-80ee-4401-8a1b-17cb22c2277a) or [x:Name attribute](https://msdn.microsoft.com/library/4ff1f3ed-903a-4305-b2bd-dcd29e0c9e6d), which is normally a requirement of being a XAML resource. A [Style](style.md) that's defined this way uses its [TargetType](style_targettype.md) property value as the implicit key and is known as an .
+A [Style](style.md) defined element in a [ResourceDictionary](resourcedictionary.md) is not required to have an [x:Key attribute](https://msdn.microsoft.com/library/141fc5af-80ee-4401-8a1b-17cb22c2277a) or [x:Name attribute](https://msdn.microsoft.com/library/4ff1f3ed-903a-4305-b2bd-dcd29e0c9e6d), which is normally a requirement of being a XAML resource. A [Style](style.md) that's defined this way uses its [TargetType](style_targettype.md) property value as the implicit key and is known as an implicit style.
 
 For more info on how to use XAML resource dictionaries, see [ResourceDictionary and XAML resource references](https://msdn.microsoft.com/library/e3cbfa3d-6af5-44e1-b9f9-c3d3ea8a25ce).
 
