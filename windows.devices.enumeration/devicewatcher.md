@@ -34,13 +34,12 @@ For complete implementations in C#, C++, and JavaScript, see the [Device enumera
 This example incrementally enumerates devices, adding them to a list each time a device is found, and also handling removals and updates. The onAdded function that handles the [added](devicewatcher_added.md) event takes a [DeviceInformation](deviceinformation.md) object. Once enumeration is complete, the app prints a list of devices. The app also prints a message if devices are added, updated, or removed after the initial enumeration completes.
 
 ```html
-
 <!DOCTYPE html>
 <html>
 <head>
     <title>Device Enumeration Sample</title>
     <script>
-   var watcher;
+    var watcher;
     var deviceArray = new Array(); // Saves the enumeration results.
 
     function WatchDevices() {
@@ -131,31 +130,26 @@ This example incrementally enumerates devices, adding them to a list each time a
 </head>
 <body role="application">
     <h1>Device Enumeration Sample</h1>
-    <h2 >Input</h2>
-    <div >            
-            <div >
-            <p>This example incrementally enumerates devices, adding them to a list each time a device is found, and also watching for updates.
-               Once enumeration is complete, the list of devices is printed.</p> 
-                <input type="button" value="Watch(All Devices)" onclick="WatchDevices()"/>
-                <br/><br/>
+    <h2>Input</h2>
+    <div>            
+        <div>
+        <p>This example incrementally enumerates devices, adding them to a list each time a device is found, and also watching for
+            updates. After enumeration is complete, the list of devices is printed.</p> 
+            <input type="button" value="Watch(All Devices)" onclick="WatchDevices()"/>
+            <br/><br/>
 
-                <input type="button" value="Stop" onclick="stopWatcher()"/>
-                <br/><br/>
-            </div>
+            <input type="button" value="Stop" onclick="stopWatcher()"/>
+            <br/><br/>
+        </div>
     </div>
 
-    <h2 > Output</h2>
-            <div id="statusMessage"></div>
-            <!--  Output -->
-            <div  id="output"></div>
+    <h2>Output</h2>
+        <div id="statusMessage"></div>
+        <!--  Output -->
+        <div  id="output"></div>
 </body>
 </html>
-
-
 ```
 
-
-
 ## -see-also
-[Custom USB device sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620530)
 [Device enumeration and pairing sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/DeviceEnumerationAndPairing)
