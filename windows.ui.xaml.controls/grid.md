@@ -56,19 +56,6 @@ Setting the [Margin](../windows.ui.xaml/frameworkelement_margin.md) property on 
 
 [WrapGrid](wrapgrid.md) is another similar layout panel that has the benefit of better handling for content that's too wide, which might be clipped by a regular [Grid](grid.md) depending on values of other layout properties.
 
-### Grid XAML attached properties
-
-[Grid](grid.md) is the host service class for several XAML attached properties. These attached properties enable child elements to report how they should be positioned in their [Grid](grid.md) parent.
-
-[Grid](grid.md) provides these attached properties for XAML usage: 
-+ [Grid.Column](grid_column.md)
-+ [Grid.ColumnSpan](grid_columnspan.md)
-+ [Grid.Row](grid_row.md)
-+ [Grid.RowSpan](grid_rowspan.md)
-
-
-In order to support XAML processor access to the attached properties, and also to expose equivalent get and set operations to code, each XAML attached property has a pair of **Get** and **Set** accessor methods. For example, the [GetColumnSpan](grid_getcolumnspan_1507379653.md) and [SetColumnSpan](grid_setcolumnspan_1865339609.md) methods support and provide the equivalent code-only support for [Grid.ColumnSpan](grid_columnspan.md). Alternatively, you can use the dependency property system to get or set the value of the attached property. Call [GetValue](../windows.ui.xaml/dependencyobject_getvalue_1188551207.md) or [SetValue](../windows.ui.xaml/dependencyobject_setvalue_52578133.md), passing the arguments of the dependency property identifier to set, and a reference to the target object on which to get or set the value.
-
 An element in the first column that spans multiple rows can affect the height of each spanned row even if the first row has enough height to accommodate the element, and subsequent spanned rows would otherwise have a height of 0. For example, the second row in this Grid has its height set to 0, so the blue rectangle would not typically be visible. In this case, you might expect that the red ellipse would not affect the second row because the first row is tall enough to contain the ellipse. However, the Grid calculates the MinHeight of each row to be enough to accommodate the red ellipse, and then spans the element across the rows. As a result, the second row is given a MinHeight of 50, the red ellipse is centered in the 150px span, and half of the blue rectangle is visible in the second row.
 
 > [!NOTE]
@@ -93,6 +80,19 @@ An element in the first column that spans multiple rows can affect the height of
 ### **Grid** derived classes
 
 [Grid](grid.md) is the parent class for [SwapChainPanel](swapchainpanel.md) and [SwapChainBackgroundPanel](swapchainbackgroundpanel.md).
+
+### XAML attached properties
+
+Grid is the host service class for several [XAML attached properties](https://docs.microsoft.com/windows/uwp/xaml-platform/attached-properties-overview). These attached properties enable child elements to report how they should be positioned in their Grid parent.
+
+In order to support XAML processor access to the attached properties, and also to expose equivalent _get_ and _set_ operations to code, each XAML attached property has a pair of Get and Set accessor methods. Another way to get or set the value in code is to use the dependency property system, calling either [GetValue](../windows.ui.xaml/dependencyobject_getvalue_1188551207.md) or [SetValue](../windows.ui.xaml/dependencyobject_setvalue_52578133.md) and passing the identifier field as the dependency property identifier.
+
+| Attached property | Description |
+| - | - |
+| Column | Gets or sets the column alignment of an element when child layout is processed by a parent Grid layout container.<ul><li>Type: int</li><li>Identifier field: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.grid.columnproperty">ColumnProperty</a></li><li>Accessor methods: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.grid.getcolumn">GetColumn</a>, <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.grid.setcolumn">SetColumn</a></li></ul>The value is the zero-based index of the Grid column that the element should appear within. Negative values are not permitted.|
+| ColumnSpan | Gets or sets a value that indicates the total number of columns that the element content spans within a parent Grid.<ul><li>Type: int</li><li>Identifier field: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.grid.columnspanproperty">ColumnSpanProperty</a></li><li>Accessor methods: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.grid.getcolumnspan">GetColumnSpan</a>, <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.grid.setcolumnspan">SetColumnSpan</a></li></ul> Zero or negative integer values are not permitted. Values that are greater than the total number of columns are treated as if they specified the total number and will span all columns.|
+| Row | Gets or sets the row alignment of an element when child layout is processed by a parent Grid layout container.<ul><li>Type: int</li><li>Identifier field: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.grid.rowproperty">RowProperty</a></li><li>Accessor methods: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.grid.getrow">GetRow</a>, <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.grid.setrow">SetRow</a></li></ul>The value is the zero-based index of the Grid row that the element should appear within. Negative values are not permitted.|
+| RowSpan | Gets or sets a value that indicates the total number of rows that the element content spans within a parent Grid.<ul><li>Type: int</li><li>Identifier field: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.grid.rowspanproperty">RowSpanProperty</a></li><li>Accessor methods: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.grid.getrowspan">GetRowSpan</a>, <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.grid.setrowspan">SetRowSpan</a></li></ul> Zero or negative integer values are not permitted. Values that are greater than the total number of rows are treated as if they specified the total number and will span all rows.|
 
 ## -examples
 
