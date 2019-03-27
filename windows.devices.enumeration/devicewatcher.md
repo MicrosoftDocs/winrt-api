@@ -33,7 +33,7 @@ For complete implementations in C#, C++, and JavaScript, see the [Device enumera
 
 This example incrementally enumerates devices, adding them to a list each time a device is found, and also handling removals and updates. The onAdded function that handles the [added](devicewatcher_added.md) event takes a [DeviceInformation](deviceinformation.md) object. Once enumeration is complete, the app prints a list of devices. The app also prints a message if devices are added, updated, or removed after the initial enumeration completes.
 
-```javascript
+```html
 
 <!DOCTYPE html>
 <html>
