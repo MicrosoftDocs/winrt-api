@@ -45,31 +45,33 @@ When the value is **Horizontal**, the grid adds items in rows from left to right
    <tr><td>Item 7</td><td>Item 8</td><td>Item 9</td></tr>
 </table>
 
-You can make items different sizes in the grid by making them span multiple rows and columns using the [VariableSizedWrapGrid.RowSpan](variablesizedwrapgrid_rowspan.md) and [VariableSizedWrapGrid.ColumnSpan](grid_columnspan.md) attached properties.
+You can make items different sizes in the grid by making them span multiple rows and columns using the VariableSizedWrapGrid.RowSpan and VariableSizedWrapGrid.ColumnSpan attached properties.
 
-### VariableSizedWrapGrid XAML attached properties
+### RowSpan and ColumnSpan
 
-[VariableSizedWrapGrid](variablesizedwrapgrid.md) is the host service class for several XAML attached properties. The purpose of these attached properties is to enable child elements to specify how they should be positioned within the [VariableSizedWrapGrid](variablesizedwrapgrid.md).
-
-[VariableSizedWrapGrid](variablesizedwrapgrid.md) provides the following attached properties for XAML usage: 
-+ [VariableSizedWrapGrid.ColumnSpan](variablesizedwrapgrid_columnspan.md)
-+ [VariableSizedWrapGrid.RowSpan](variablesizedwrapgrid_rowspan.md)
-
-
-You can set either or both of these attached properties on any child elements in the [VariableSizedWrapGrid](variablesizedwrapgrid.md) in order to have particular child elements use a spanning logic for layout. This is useful if an element has a notably larger size than other elements. For example, if one child element has a desired size that is about twice as large in both dimensions, and you don't want this large element to produce a lot of white space in the nearby cells of peer elements, then you might use markup like this:
+You can set either or both of the RowSpan and ColumnSpan attached properties on any child elements in the [VariableSizedWrapGrid](variablesizedwrapgrid.md) in order to have particular child elements use a spanning logic for layout. This is useful if an element has a notably larger size than other elements. For example, if one child element has a desired size that is about twice as large in both dimensions, and you don't want this large element to produce a lot of white space in the nearby cells of peer elements, then you might use markup like this:
 
 ```xaml
 <VariableSizedWrapGrid>
   <Image Name="MyBigImage"
     VariableSizedWrapGrid.ColumnSpan="2"
-    VariableSizedWrapGrid.RowSpan="2" 
+    VariableSizedWrapGrid.RowSpan="2"
     ...
-/>
+  />
   ...
 </VariableSizedWrapGrid>
 ```
 
-In order to support XAML processor access to the attached properties, and also to expose equivalent get and set operations to code, each XAML attached property has a pair of **Get** and **Set** accessor methods. For example, the [GetRowSpan](variablesizedwrapgrid_getrowspan_378623951.md) and [SetRowSpan](variablesizedwrapgrid_setrowspan_538866403.md) methods support and provide the equivalent code-only support for `VariableSizedWrapGrid.RowSpan`. Alternatively, you can use the dependency property system to get or set the value of the attached property. Call [GetValue](../windows.ui.xaml/dependencyobject_getvalue_1188551207.md) or [SetValue](../windows.ui.xaml/dependencyobject_setvalue_52578133.md), passing the arguments of the dependency property identifier to set, and a reference to the target object on which to get or set the value.
+### XAML attached properties
+
+VariableSizedWrapGrid is the host service class for several [XAML attached properties](https://docs.microsoft.com/windows/uwp/xaml-platform/attached-properties-overview). These attached properties enable child elements to report how they should be positioned in their grid parent.
+
+In order to support XAML processor access to the attached properties, and also to expose equivalent _get_ and _set_ operations to code, each XAML attached property has a pair of Get and Set accessor methods. Another way to get or set the value in code is to use the dependency property system, calling either [GetValue](../windows.ui.xaml/dependencyobject_getvalue_1188551207.md) or [SetValue](../windows.ui.xaml/dependencyobject_setvalue_52578133.md) and passing the identifier field as the dependency property identifier.
+
+| Attached property | Description |
+| - | - |
+| ColumnSpan | Gets or sets a value that indicates the total number of columns that the element content spans within a parent VariableSizedWrapGrid.<ul><li>Type: int</li><li>Identifier field: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.variablesizedwrapgrid.columnspanproperty">ColumnSpanProperty</a></li><li>Accessor methods: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.variablesizedwrapgrid.getcolumnspan">GetColumnSpan</a>, <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.variablesizedwrapgrid.setcolumnspan">SetColumnSpan</a></li></ul> Zero or negative integer values are not permitted. Values that are greater than the total number of columns are treated as if they specified the total number and will span all columns.|
+| RowSpan | Gets or sets a value that indicates the total number of rows that the element content spans within a parent VariableSizedWrapGrid.<ul><li>Type: int</li><li>Identifier field: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.variablesizedwrapgrid.rowspanproperty">RowSpanProperty</a></li><li>Accessor methods: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.variablesizedwrapgrid.getrowspan">GetRowSpan</a>, <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.variablesizedwrapgrid.setrowspan">SetRowSpan</a></li></ul> Zero or negative integer values are not permitted. Values that are greater than the total number of rows are treated as if they specified the total number and will span all rows.|
 
 > [!NOTE]
 > [VariableSizedWrapGrid](variablesizedwrapgrid.md) is not supported for use as the [ItemsPanel](itemscontrol_itemspanel.md) of a [ListView](listview.md) control. You can use it as the [ItemsPanel](itemscontrol_itemspanel.md) in a [GridView](gridview.md) or [ItemsControl](itemscontrol.md), but the content of a [VariableSizedWrapGrid](variablesizedwrapgrid.md) is not virtualized. This can reduce performance when you work with large data sets. For more info about virtualization, see [Optimize ListView and GridView](https://msdn.microsoft.com/library/26df15e8-2c05-4174-a714-7df2e8273d32).
