@@ -54,32 +54,17 @@ The children of a [Canvas](canvas.md) (if any) are still visible even if the [Ca
 
 A [Canvas](canvas.md) with no children and with a default [Height](../windows.ui.xaml/frameworkelement_height.md) and [Width](../windows.ui.xaml/frameworkelement_width.md) of **Auto** doesn't have dimensions. This is also the case if the [Canvas](canvas.md) has children but all the children have [Visibility](../windows.ui.xaml/uielement_visibility.md) of **Collapsed**, or zero [Height](../windows.ui.xaml/frameworkelement_height.md) or [Width](../windows.ui.xaml/frameworkelement_width.md).
 
-### Canvas XAML attached properties
+### XAML attached properties
 
-[Canvas](canvas.md) is the host service class for several XAML attached properties. The purpose of these attached properties is to enable child elements in layout to report how they should be positioned in a [Canvas](canvas.md) parent.
+Canvas is the host service class for several [XAML attached properties](https://docs.microsoft.com/windows/uwp/xaml-platform/attached-properties-overview).
 
-These XAML attached properties are supported by [Canvas](canvas.md):
+In order to support XAML processor access to the attached properties, and also to expose equivalent _get_ and _set_ operations to code, each XAML attached property has a pair of Get and Set accessor methods. Another way to get or set the value in code is to use the dependency property system, calling either [GetValue](../windows.ui.xaml/dependencyobject_getvalue_1188551207.md) or [SetValue](../windows.ui.xaml/dependencyobject_setvalue_52578133.md) and passing the identifier field as the dependency property identifier.
 
-+ [Canvas.Left](canvas_left.md)
-+ [Canvas.Top](canvas_top.md)
-+ [Canvas.ZIndex](canvas_zindex.md)
-In order to support XAML processor access to the attached properties, and also to expose equivalent get and set operations to code, each XAML attached property has a pair of **Get** and **Set** accessor methods. For example, the [GetLeft](canvas_getleft_1030990844.md) and [SetLeft](canvas_setleft_551047612.md) methods support and provide the equivalent code-only support for [Canvas.Left](canvas_left.md). Alternatively, you can use the dependency property system to get or set the value of the attached property. Call [GetValue](../windows.ui.xaml/dependencyobject_getvalue_1188551207.md) or [SetValue](../windows.ui.xaml/dependencyobject_setvalue_52578133.md), passing the arguments of the dependency property identifier to set, and a reference to the target object on which to get or set the value.
-
-For example, to change the position of the child element using C#, first define the object inside a [Canvas](canvas.md), making sure to include the [Canvas.Left](canvas_left.md) and [Canvas.Top](canvas_top.md) properties.
-
-```xaml
-<Canvas >
-  <Grid x:Name="mySquare" Width="64" Height="64" Background="Red" Canvas.Left="0" Canvas.Top = "0"></Grid>
-</Canvas>
-```
-
-In the code-behind page, you can then access the position of the element, like this:
-
-```csharp
-mySquare.SetValue(Canvas.LeftProperty,100);
-mySquare.SetValue(Canvas.TopProperty, 100);
-```
-
+| Attached property | Description |
+| - | - |
+| Left | Gets or sets the distance between the left side of an object and the left side of its parent Canvas.<ul><li>Type: Double</li><li>Identifier field: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.canvas.leftproperty">LeftProperty</a></li><li>Accessor methods: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.canvas.getleft">GetLeft</a>, <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.canvas.setleft">SetLeft</a></li></ul> The Left value is the horizontal offset between the left edge of the parent Canvas and where the target element should be placed. You typically specify positive integer numbers. Non-integer Double values are allowed but can potentially cause subpixel rendering issues; see UseLayoutRounding. |
+| Top | Gets or sets the distance between the top of an element and the top of its parent Canvas.<ul><li>Type: Double</li><li>Identifier field: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.canvas.topproperty">TopProperty</a></li><li>Accessor methods: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.canvas.gettop">GetTop</a>, <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.canvas.settop">SetTop</a></li></ul> The Top value is the vertical offset between the top edge of the parent Canvas and where the target element should be placed. You typically specify positive integer numbers. Non-integer Double values are allowed but can potentially cause subpixel rendering issues; see UseLayoutRounding.<br/>A Canvas.Top value is interpreted by the most immediate parent Canvas element from where the value is set. The value is used along with Canvas.Left to specify the layout characteristics of each child element of a Canvas. |
+| ZIndex | Gets or sets the Z-order of an element when that element is presented in its parent Canvas layout container.<ul><li>Type: Int32</li><li>Identifier field: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.canvas.zindexproperty">ZIndexProperty</a></li><li>Accessor methods: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.canvas.getzindex">GetZIndex</a>, <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.canvas.setzindex">SetZIndex</a></li></ul> Canvas.ZIndex declares the draw order for the child elements of a Canvas. This matters when there is overlap between any of the bounds of the child elements. A higher z-order value will draw on top of a lower z-order value. If no value is set, the default is -1. If there is a draw order issue where elements share one or more pixels of layout space in a Canvas and the z-index values are the same, then the last element declared in XAML (or the highest index element in the Children collection if using code) is the element that draws on top.<br/>You typically use values 0 and greater but negative values are permitted. A negative value, such as -99, places the object even farther from the foreground than any default value.<br/>A value is interpreted by the most immediate parent Canvas element from where the value is set. The value is used to explicitly define the draw order in cases where child elements overlap. |
 
 ## -examples
 

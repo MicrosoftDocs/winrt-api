@@ -44,6 +44,16 @@ The XAML usage for contents of a data template is not exposed as a settable code
 
 For advanced data binding scenarios, you might want to have properties of the data determine which template should produce their UI representations. For this scenario, you can use a [DataTemplateSelector](../windows.ui.xaml.controls/datatemplateselector.md) and set properties such as [ItemTemplateSelector](../windows.ui.xaml.controls/itemscontrol_itemtemplateselector.md) to assign it to a data view. A [DataTemplateSelector](../windows.ui.xaml.controls/datatemplateselector.md) is a logic class you write yourself, which has a method that returns exactly one [DataTemplate](datatemplate.md) to the binding engine based on your own logic interacting with your data. For more info, see [Data binding in depth](https://msdn.microsoft.com/library/41e1b4f1-6caf-4128-a61a-4e400b149011).
 
+### XAML attached properties
+
+DataTemplate is the host service class for a [XAML attached property](https://docs.microsoft.com/windows/uwp/xaml-platform/attached-properties-overview).
+
+In order to support XAML processor access to the attached properties, and also to expose equivalent _get_ and _set_ operations to code, each XAML attached property has a pair of Get and Set accessor methods. Another way to get or set the value in code is to use the dependency property system, calling either [GetValue](dependencyobject_getvalue_1188551207.md) or [SetValue](dependencyobject_setvalue_52578133.md) and passing the identifier field as the dependency property identifier.
+
+| Attached property | Description |
+| - | - |
+| ExtensionInstance | Gets or sets an extension instance that defines helper methods for phased rendering of a data template.<ul><li>Type: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.idatatemplateextension">IDataTemplateExtension</a></li><li>Identifier field: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.datatemplate.extensioninstanceproperty">ExtensionInstanceProperty</a></li><li>Accessor methods: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.datatemplate.getextensioninstance">GetExtensionInstance</a>, <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.datatemplate.setextensioninstance">SetExtensionInstance</a></li></ul> |
+
 ## -examples
 The following example uses a [DataTemplate](datatemplate.md) to display the items of a [ListBox](../windows.ui.xaml.controls/listbox.md). In this example, the [ListBox](../windows.ui.xaml.controls/listbox.md) is bound to a collection of `Customer` objects. The [DataTemplate](datatemplate.md) contains [TextBlock](../windows.ui.xaml.controls/textblock.md) controls that bind to the `FirstName`, `LastName`, and `Address` properties. For more info on data binding, see [Data binding in depth](https://msdn.microsoft.com/library/41e1b4f1-6caf-4128-a61a-4e400b149011).
 
