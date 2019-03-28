@@ -21,6 +21,8 @@ Associates an easing function with a [DoubleAnimationUsingKeyFrames](doubleanima
 ## -remarks
 Easing functions allow you to apply custom mathematical formulas to your animations. Mathematical operations are often useful to produce animations that simulate real-world physics in a 2-D coordinate system. For example, you may want an object to realistically bounce or behave as though it were on a spring. For a list of easing functions and info on how to use them, see [Key-frame animations and easing function animations](https://msdn.microsoft.com/library/d8af24cd-f4c2-4562-afd7-25010955d677).
 
+If no easing function is set, the default easing function will be linear. 
+
 ## -examples
 This XAML example shows how to use key frames that have easing functions associated with them to create an animation of a rectangle that contracts upward, slows down, then expands downward (as though falling), and then bounces to a stop.
 
