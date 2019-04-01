@@ -19,6 +19,8 @@ A value of the enumeration that specifies how the pane and content areas of a Na
 
 ## -remarks
 
+To set the state of the pane and content areas, use the [PaneDisplayMode](navigationview_panedisplaymode.md) property.
+
 ## -see-also
 
 ## -examples
