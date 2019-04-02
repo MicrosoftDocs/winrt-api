@@ -33,7 +33,7 @@ try
 {
     if (file != null)
     {
-        IBuffer buffer = GetBufferFromString("Swift as a shadow");
+        IBuffer buffer = CryptographicBuffer.GenerateRandom(10);
         await FileIO.WriteBufferAsync(file, buffer);
         // Perform additional tasks after file is written
     }
@@ -49,11 +49,7 @@ catch (FileNotFoundException)
 
 if (file !== null) {
     // Create buffer
-    var memoryStream = new Windows.Storage.Streams.InMemoryRandomAccessStream();
-    var dataWriter = new Windows.Storage.Streams.DataWriter(memoryStream);
-    dataWriter.writeString("Swift as a shadow");
-    var buffer = dataWriter.detachBuffer();
-    dataWriter.close();
+    var buffer = Windows.Security.Cryptography.CryptographicBuffer.generateRandom(10);
 
     // Write buffer to file
     Windows.Storage.FileIO.writeBufferAsync(file, buffer).done(function () {

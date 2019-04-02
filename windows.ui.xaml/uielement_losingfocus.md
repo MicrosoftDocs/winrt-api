@@ -21,7 +21,7 @@ Occurs before a [UIElement](uielement.md) loses focus. This event is raised sync
 
 ## -remarks
 
-We recommend using the [UIElement](../windows.ui.xaml/uielement.md) focus routed events instead of [FocusManager](focusmanager.md) events whenever possible.
+We recommend using the [UIElement](../windows.ui.xaml/uielement.md) focus routed events instead of [FocusManager](../windows.ui.xaml.input/focusmanager.md) events whenever possible.
 
 Only a single UI element at a time can have focus.
 
