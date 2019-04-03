@@ -14,7 +14,7 @@ Event data for spatial entity added events.
 
 ## -remarks
 > [!IMPORTANT]
-> The SpatialEntityStore approach of synchronizing spatial anchors between devices is not currently supported.
+> The [SpatialEntityStore](spatialentitystore.md) approach of synchronizing spatial anchors between devices is not currently supported.  Consider using [Azure Spatial Anchors](https://docs.microsoft.com/azure/spatial-anchors) instead.
 
 ## -see-also
 

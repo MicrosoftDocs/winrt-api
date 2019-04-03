@@ -14,8 +14,8 @@ public class SpatialAnchorTransferManager
 Static methods for transferring spatial anchors between devices, so that both devices can reason about the same locations in their users' surroundings.
 
 ## -remarks
-> [!IMPORTANT]
-> The SpatialAnchorTransferManager approach of sharing spatial anchors between devices is being deprecated.  In a future release of Windows, you will need to transition to the [SpatialAnchorExporter](spatialanchorexporter.md) API, which provides for sharing and relocalization of spatial anchors across devices.
+> [!NOTE]
+> Local anchor transfers using **SpatialAnchorTransferManager** provide less robust anchor recall than [Azure Spatial Anchors](https://docs.microsoft.com/azure/spatial-anchors), and iOS and Android devices are not supported by this approach.
 
 ## -examples
 
