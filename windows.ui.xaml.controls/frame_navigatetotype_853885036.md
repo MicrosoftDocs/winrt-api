@@ -21,7 +21,7 @@ The page to navigate to, specified as a type reference to its partial class type
 
 ### -param parameter
 
-The navigation parameter to pass to the target page; must have a basic type (string, char, numeric, or GUID) to support parameter serialization using [GetNavigationState](frame_getnavigationstate.md).
+The navigation parameter to pass to the target page; must have a basic type (string, char, numeric, or GUID) to support parameter serialization using [GetNavigationState](frame_getnavigationstate_1352043812.md).
 
 ### -param navigationOptions
 

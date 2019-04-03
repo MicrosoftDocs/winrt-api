@@ -18,7 +18,7 @@ Defines constants that specify when gamepad bumpers can be used to navigate the 
 
 ### -field WhenSelectionFollowsFocus:0
 
-Gamepad bumpers navigate the top-level navigation items when the [SelectionFollowsFocus](navigationview_selectionfollowfocus.md) property is **Enabled**.
+Gamepad bumpers navigate the top-level navigation items when the [SelectionFollowsFocus](navigationview_selectionfollowsfocus.md) property is **Enabled**.
 
 ### -field Never:2
 
@@ -32,7 +32,7 @@ Gamepad bumpers always navigate the top-level navigation items.
 
 ## -see-also
 
-[Designing for Xbox and TV](/windows/uwp/design/devices/designing-for-tv#hardware-buttons)
+[Designing for Xbox and TV](/windows/uwp/design/devices/designing-for-tv), [Gamepad and remote control interactions](/windows/uwp/design/input/gamepad-and-remote-interactions#hardware-buttons)
 
 ## -examples
 

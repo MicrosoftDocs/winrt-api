@@ -33,4 +33,4 @@ You typically set [IsSwipeEnabled](listviewbase_isswipeenabled.md) to **false** 
 ## -examples
 
 ## -see-also
-[Touch interaction design](https://msdn.microsoft.com/library/9ba7f613-e5d1-40d4-920b-143094209e3a)
+[Touch interactions](/windows/uwp/design/input/touch-interactions)
