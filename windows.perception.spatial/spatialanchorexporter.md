@@ -14,6 +14,8 @@ public class SpatialAnchorExporter
 Allows apps to export spatial anchors for sharing and relocalization across devices, so that both devices can reason about the same locations in their users' surroundings.
 
 ## -remarks
+> [!NOTE]
+> This type supports [Azure Spatial Anchors](https://docs.microsoft.com/azure/spatial-anchors), which enables you to create durable cloud-backed spatial anchors that your app can then locate across multiple HoloLens, iOS and Android devices.
 
 ## -see-also
 
