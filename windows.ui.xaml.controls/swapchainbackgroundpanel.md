@@ -43,7 +43,7 @@ Cast the [SwapChainBackgroundPanel](swapchainbackgroundpanel.md) instance to [II
 
 It's common to put the code that queries the interface and sets the swap chain as part of a **Create*Resources** method. The **Create*Resources** methods are an implementation pattern that's seen in the Microsoft DirectX  **Renderer** class templates/examples.
 
-The API that enables you to add a **SwapChain** to an existing [SwapChainBackgroundPanel](swapchainpanel.md) is not a runtime class API, it is a Microsoft DirectX  API. You implement the swap chain input as a Microsoft DirectX interface ([IDXGISwapChain](https://msdn.microsoft.com/library/344ada45-35a0-4e99-b3b7-0f316df029ab)).
+The API that enables you to add a **SwapChain** to an existing [SwapChainBackgroundPanel](swapchainpanel.md) is not a runtime class API, it is a Microsoft DirectX  API. You implement the swap chain input as a Microsoft DirectX interface ([IDXGISwapChain](/windows/desktop/api/dxgi/nn-dxgi-idxgiswapchain)).
 
 ### Composition limitations
 

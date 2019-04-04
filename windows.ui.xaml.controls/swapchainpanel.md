@@ -37,7 +37,7 @@ Cast the [SwapChainPanel](swapchainpanel.md) instance to [IInspectable](https://
 
 It's common to put the code that queries the interface and sets the swap chain as part of a **Create*Resources** method. The **Create*Resources** methods are an implementation pattern that's seen in the Microsoft DirectX  **Renderer** class templates/examples, and you'll also see this implementation pattern in the SDK samples, and in the code you get from the **DirectX (XAML)** project template in Microsoft Visual Studio. Specifically, in the **DirectX (XAML)** project template, you'll see the **QueryInterface** call and the call to [ISwapChainPanelNative.SetSwapChain](https://msdn.microsoft.com/library/8269a6dc-1732-40cf-96c7-fa13bc6763d2) in the `DeviceResources::CreateWindowSizeDependentResources` method implementation in DeviceResources.cpp.
 
-The API that enables you to add a **SwapChain** to an existing [SwapChainPanel](swapchainpanel.md) is not a runtime class API, it is a Microsoft DirectX  API. You implement the swap chain input as a Microsoft DirectX interface ([IDXGISwapChain](https://msdn.microsoft.com/library/344ada45-35a0-4e99-b3b7-0f316df029ab)).
+The API that enables you to add a **SwapChain** to an existing [SwapChainPanel](swapchainpanel.md) is not a runtime class API, it is a Microsoft DirectX  API. You implement the swap chain input as a Microsoft DirectX interface ([IDXGISwapChain](/windows/desktop/api/dxgi/nn-dxgi-idxgiswapchain)).
 
 ### **SwapChainPanel** and **SwapChainBackgroundPanel**
 

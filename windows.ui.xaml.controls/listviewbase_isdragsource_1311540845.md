@@ -16,7 +16,7 @@ Returns a value that indicates whether the list view is both the drag source and
 **true** if the list view is both the drag source and drop target; otherwise, **false**.
 
 ## -remarks
-For more info, see [Drag and drop](https://msdn.microsoft.com/windows/uwp/app-to-app/drag-and-drop).
+For more info, see [Drag and drop](/windows/uwp/design/input/drag-and-drop).
 
 ### Version compatibility
 
