@@ -23,7 +23,7 @@ Provides the destination for the result. Size the initial array size as a "capac
 The number of items retrieved.
 
 ## -remarks
-If you are programming using C# or Microsoft Visual Basic, see [CopyTo](uielementcollection_copyto.md).
+If you are programming using C# or Microsoft Visual Basic, see [CopyTo](/dotnet/api/system.collections.generic.icollection-1.copyto).
 
 ## -examples
 

@@ -23,7 +23,7 @@ The index of the item to find, if found.
 **true** if an item with the specified value was found; otherwise, **false**.
 
 ## -remarks
-If you are programming using C# or Microsoft Visual Basic, see [IndexOf](uielementcollection_indexof_1.md).
+If you are programming using C# or Microsoft Visual Basic, see [IndexOf](/dotnet/api/system.collections.generic.ilist-1.indexof).
 
 ## -examples
 
