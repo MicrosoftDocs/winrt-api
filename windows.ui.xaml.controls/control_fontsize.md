@@ -30,4 +30,4 @@ The default value of [FontSize](control_fontsize.md) is 11.
 ## -examples
 
 ## -see-also
-[UX guidelines for layout and scaling](https://msdn.microsoft.com/library/c388f639-6f35-4d52-bffe-53ff3f537d4b), [Quickstart: Displaying text](https://msdn.microsoft.com/library/3efa9d2a-71a5-41d3-bba4-ec6cc356d47f)
+[Text controls](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/text-controls), [Text scaling](https://docs.microsoft.com/windows/uwp/design/input/text-scaling)
