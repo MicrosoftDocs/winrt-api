@@ -24,9 +24,6 @@ Provides a grid-style layout panel where each tile/cell can be variable size bas
 
 ## -remarks
 
-> [!TIP]
-> For more info, design guidance, and code examples, see [Layout panels](/windows/uwp/design/layout/layout-panels#variablesizedwrapgrid).
-
 [VariableSizedWrapGrid](variablesizedwrapgrid.md) is layout panel that supports arranging child elements in rows and columns. Each child element can span multiple rows and columns.
 
 <img alt="Variable sized wrap grid layout panel" src="images/controls/VariableSizedWrapGrid.png" />
