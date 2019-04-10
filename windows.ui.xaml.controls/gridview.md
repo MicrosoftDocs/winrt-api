@@ -42,21 +42,22 @@ By default, a data item is displayed in the [GridView](gridview.md) as the strin
 If you use the [GridView](gridview.md) to display large sets of data, see [Optimize ListView and GridView](https://msdn.microsoft.com/library/26df15e8-2c05-4174-a714-7df2e8273d32) for tips to maintain a smooth and responsive user experience.
 
 > <div id="main">
-> <strong>Fall Creators Update (Windows 10) - Behavior change</strong>
+> <strong>Windows 10, version 1709 (SDK 16299) - Behavior change</strong>
 > </div>
 > By default, instead of performing selection, an active pen now scrolls/pans a list in UWP apps (like touch, touchpad, and passive pen).
-> If your app depends on the previous behavior, you can override pen scrolling and revert to the previous behavior. See the [Scroll​Viewer](scrollviewer.md) class reference for details.
+> If your app depends on the previous behavior, you can override pen scrolling and revert to the previous behavior. See the <a Scroll​Viewer href="scrollviewer.md">ScrollViewer</a> class reference for details.
 
 By default, a user can select a single item in a [GridView](gridview.md). You can set the [SelectionMode](listviewbase_selectionmode.md) property to a [ListViewSelectionMode](listviewselectionmode.md) enumeration value to allow multi-selection or to disable selection. You can also change the [GridView](gridview.md) interaction mode to make items respond to a user click like a button instead of being selected.
 
-This table shows the ways a user can interact with a [GridView](gridview.md), and how you can respond to the interaction.<table>
-   <tr><th>To enable this interaction:</th><th>Use these settings:</th><th>Handle this event:</th><th>Use this property to get the selected item:</th></tr>
-   <tr><td>No interaction</td><td>[SelectionMode](listviewbase_selectionmode.md) = [None](listviewselectionmode.md), [IsItemClickEnabled](listviewbase_isitemclickenabled.md) = **False**</td><td>N/A</td><td>N/A</td></tr>
-   <tr><td>Single selection</td><td>[SelectionMode](listviewbase_selectionmode.md) = [Single](listviewselectionmode.md), [IsItemClickEnabled](listviewbase_isitemclickenabled.md) = **False**</td><td>[SelectionChanged](../windows.ui.xaml.controls.primitives/selector_selectionchanged.md)</td><td>[SelectedItem](../windows.ui.xaml.controls.primitives/selector_selecteditem.md), [SelectedIndex](../windows.ui.xaml.controls.primitives/selector_selectedindex.md)</td></tr>
-   <tr><td>Contiguous multi-selection</td><td>[SelectionMode](listviewbase_selectionmode.md) = [Multiple](listviewselectionmode.md), [IsItemClickEnabled](listviewbase_isitemclickenabled.md) = **False**</td><td>[SelectionChanged](../windows.ui.xaml.controls.primitives/selector_selectionchanged.md)</td><td>[SelectedItems](listviewbase_selecteditems.md)</td></tr>
-   <tr><td>Non-contiguous multi-selection</td><td>[SelectionMode](listviewbase_selectionmode.md) = [Extended](listviewselectionmode.md), [IsItemClickEnabled](listviewbase_isitemclickenabled.md) = **False**</td><td>[SelectionChanged](../windows.ui.xaml.controls.primitives/selector_selectionchanged.md)</td><td>[SelectedItems](listviewbase_selecteditems.md)</td></tr>
-   <tr><td>Click</td><td>[SelectionMode](listviewbase_selectionmode.md) = [None](listviewselectionmode.md), [IsItemClickEnabled](listviewbase_isitemclickenabled.md) = **True**</td><td>[ItemClick](listviewbase_itemclick.md)</td><td>N/A</td></tr>
-</table>
+This table shows the ways a user can interact with a [GridView](gridview.md), and how you can respond to the interaction.
+
+| To enable this interaction: | Use these settings: | Handle this event: | Use this property to get the selected item: |
+| - | - | - | - |
+| No interaction | [SelectionMode](listviewbase_selectionmode.md) = [None](listviewselectionmode.md), [IsItemClickEnabled](listviewbase_isitemclickenabled.md) = **False** | N/A | N/A |
+| Single selection | [SelectionMode](listviewbase_selectionmode.md) = [Single](listviewselectionmode.md), [IsItemClickEnabled](listviewbase_isitemclickenabled.md) = **False** | [SelectionChanged](../windows.ui.xaml.controls.primitives/selector_selectionchanged.md) | [SelectedItem](../windows.ui.xaml.controls.primitives/selector_selecteditem.md), [SelectedIndex](../windows.ui.xaml.controls.primitives/selector_selectedindex.md) |
+| Contiguous multi-selection | [SelectionMode](listviewbase_selectionmode.md) = [Multiple](listviewselectionmode.md), [IsItemClickEnabled](listviewbase_isitemclickenabled.md) = **False** | [SelectionChanged](../windows.ui.xaml.controls.primitives/selector_selectionchanged.md) | [SelectedItems](listviewbase_selecteditems.md) |
+| Non-contiguous multi-selection | [SelectionMode](listviewbase_selectionmode.md) = [Extended](listviewselectionmode.md), [IsItemClickEnabled](listviewbase_isitemclickenabled.md) = **False** | [SelectionChanged](../windows.ui.xaml.controls.primitives/selector_selectionchanged.md) | [SelectedItems](listviewbase_selecteditems.md) |
+| Click | [SelectionMode](listviewbase_selectionmode.md) = [None](listviewselectionmode.md), [IsItemClickEnabled](listviewbase_isitemclickenabled.md) = **True** | [ItemClick](listviewbase_itemclick.md) | N/A |
 
 > [!NOTE]
 > The [PointerWheelChanged](../windows.ui.xaml/uielement_pointerwheelchanged.md) event does not bubble up from a [GridView](gridview.md). This means that a control that has a [GridView](gridview.md) inside of it does not receive mouse wheel change messages if the pointer is over the [GridView](gridview.md). For example, if you put a [GridView](gridview.md) inside of a [ScrollViewer](scrollviewer.md), you can't scroll the [ScrollViewer](scrollviewer.md) with the mouse wheel when the pointer is over the [GridView](gridview.md).
@@ -71,7 +72,7 @@ This table shows the ways a user can interact with a [GridView](gridview.md), an
  Incremental loading virtualization is supported when the data source implements the [ISupportIncrementalLoading](../windows.ui.xaml.data/isupportincrementalloading.md) interface. When incremental loading is supported, you can use these members to control data loading: [DataFetchSize](listviewbase_datafetchsize.md), [IncrementalLoadingThreshold](listviewbase_incrementalloadingthreshold.md), [IncrementalLoadingTrigger](listviewbase_incrementalloadingtrigger.md), [LoadMoreItemsAsync](listviewbase_loadmoreitemsasync_1264491126.md).
 
 > **Windows 8**
-> In Windows 8, when the data item in a selected [GridViewItem](gridviewitem.md) is replaced, the [SelectedIndex](../windows.ui.xaml.controls.primitives/selector_selectedindex.md) value is not cleared. In Windows 8.1, the [SelectedIndex](../windows.ui.xaml.controls.primitives/selector_selectedindex.md) value is cleared.
+> In Windows 8, when the data item in a selected [GridViewItem](gridviewitem.md) is replaced, the [SelectedIndex](../windows.ui.xaml.controls.primitives/selector_selectedindex.md) value is not cleared. In Windows 8.1 or later, the [SelectedIndex](../windows.ui.xaml.controls.primitives/selector_selectedindex.md) value is cleared.
 
 [GridView](gridview.md) implements the [ISemanticZoomInformation](isemanticzoominformation.md) interface, so it can be used as a view in a [SemanticZoom](semanticzoom.md) control. When it's used in a [SemanticZoom](semanticzoom.md) control, always set the [ScrollViewer.IsHorizontalScrollChainingEnabled](scrollviewer_ishorizontalscrollchainingenabled.md) attached property to **false** on the [ScrollViewer](scrollviewer.md) that's in the [GridView](gridview.md) 's control template, like this: `<GridView ScrollViewer.IsHorizontalScrollChainingEnabled="False">`. These members have an effect only when the [GridView](gridview.md) is hosted in a [SemanticZoom](semanticzoom.md) control: [IsActiveView](listviewbase_isactiveview.md), [IsZoomedInView](listviewbase_iszoomedinview.md), [SemanticZoomOwner](listviewbase_semanticzoomowner.md), [CompleteViewChange](listviewbase_completeviewchange_1917507883.md), [CompleteViewChangeFrom](listviewbase_completeviewchangefrom_788425485.md), [CompleteViewChangeTo](listviewbase_completeviewchangeto_41306206.md), [InitializeViewChange](listviewbase_initializeviewchange_1165335344.md), [MakeVisible](listviewbase_makevisible_1148837317.md), [StartViewChangeFrom](listviewbase_startviewchangefrom_1386295791.md), [StartViewChangeTo](listviewbase_startviewchangeto_1504058226.md).
 

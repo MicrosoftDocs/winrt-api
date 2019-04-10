@@ -74,7 +74,6 @@ Here's how to enable the compact mode in XAML.
         <MediaTransportControls IsCompact="True"/>
     </MediaElement.TransportControls>
 </MediaElement>
-
 ```
 
 Here's how to do the same thing in code. For simplicity, the code is placed in the `MainPage` constructor. `rootGrid` refers to the [Grid](grid.md) element that is created in MainPage.xaml. It has been named so that the [MediaElement](mediaelement.md) can be added to the XAML tree programmatically.
@@ -102,21 +101,20 @@ public MainPage()
 
 This table shows the built-in transport controls with their associated properties and default values.
 
-<table>
-   <tr><th>Element</th><th>Is*Visible</th><th>Is*Enabled</th></tr>
-   <tr><td>Seek bar</td><td>[IsSeekBarVisible](mediatransportcontrols_isseekbarvisible.md) (**true**)</td><td>[IsSeekEnabled](mediatransportcontrols_isseekenabled.md) ="**true** "</td></tr>
-   <tr><td>Play/pause</td><td>N/A</td><td>N/A</td></tr>
-   <tr><td>Fast forward</td><td>[IsFastForwardButtonVisible](mediatransportcontrols_isfastforwardbuttonvisible.md) (**false**)</td><td>[IsFastForwardEnabled](mediatransportcontrols_isfastforwardenabled.md) (**false**)</td></tr>
-   <tr><td>Fast rewind</td><td>[IsFastRewindButtonVisible](mediatransportcontrols_isfastrewindbuttonvisible.md) (**false**)</td><td>[IsFastRewindEnabled](mediatransportcontrols_isfastrewindenabled.md) (**false**)</td></tr>
-   <tr><td>Stop</td><td>[IsStopButtonVisible](mediatransportcontrols_isstopbuttonvisible.md) (**false**)</td><td>[IsStopEnabled](mediatransportcontrols_isstopenabled.md) (**false**)</td></tr>
-   <tr><td>Volume</td><td>[IsVolumeButtonVisible](mediatransportcontrols_isvolumebuttonvisible.md) (**true**)</td><td>[IsVolumeEnabled](mediatransportcontrols_isvolumeenabled.md) (**true**)</td></tr>
-   <tr><td>Full screen</td><td>[IsFullWindowButtonVisible](mediatransportcontrols_isfullwindowbuttonvisible.md) (**true**)</td><td>[IsFullWindowEnabled](mediatransportcontrols_isfullwindowenabled.md) (**true**)</td></tr>
-   <tr><td>Playback rate</td><td>[IsPlaybackRateButtonVisible](mediatransportcontrols_isplaybackratebuttonvisible.md) (**false**)</td><td>[IsPlaybackRateEnabled](mediatransportcontrols_isplaybackrateenabled.md) (**false**)</td></tr>
-   <tr><td>Aspect ratio (zoom)</td><td>[IsZoomButtonVisible](mediatransportcontrols_iszoombuttonvisible.md) (**true**)</td><td>[IsZoomEnabled](mediatransportcontrols_iszoomenabled.md) (**true**)</td></tr>
-   <tr><td>Cast</td><td>N/A</td><td>N/A</td></tr>
-   <tr><td>Closed captions</td><td>N/A - shown if a closed caption track is available.</td><td>N/A</td></tr>
-   <tr><td>Audio track selection</td><td>N/A - shown if multiple audio tracks are available.</td><td>N/A</td></tr>
-</table>
+| Element | Is\*Visible | Is\*Enabled |
+| - | - | - |
+| Seek bar | [IsSeekBarVisible](mediatransportcontrols_isseekbarvisible.md) (**true**) | [IsSeekEnabled](mediatransportcontrols_isseekenabled.md)  (**true**) |
+| Play/pause | N/A | N/A |
+| Fast forward | [IsFastForwardButtonVisible](mediatransportcontrols_isfastforwardbuttonvisible.md) (**false**) | [IsFastForwardEnabled](mediatransportcontrols_isfastforwardenabled.md) (**false**) |
+| Fast rewind | [IsFastRewindButtonVisible](mediatransportcontrols_isfastrewindbuttonvisible.md) (**false**) | [IsFastRewindEnabled](mediatransportcontrols_isfastrewindenabled.md) (**false**) |
+| Stop | [IsStopButtonVisible](mediatransportcontrols_isstopbuttonvisible.md) (**false**) | [IsStopEnabled](mediatransportcontrols_isstopenabled.md) (**false**) |
+| Volume | [IsVolumeButtonVisible](mediatransportcontrols_isvolumebuttonvisible.md) (**true**) | [IsVolumeEnabled](mediatransportcontrols_isvolumeenabled.md) (**true**) |
+| Full screen | [IsFullWindowButtonVisible](mediatransportcontrols_isfullwindowbuttonvisible.md) (**true**) | [IsFullWindowEnabled](mediatransportcontrols_isfullwindowenabled.md) (**true**) |
+| Playback rate | [IsPlaybackRateButtonVisible](mediatransportcontrols_isplaybackratebuttonvisible.md) (**false**) | [IsPlaybackRateEnabled](mediatransportcontrols_isplaybackrateenabled.md) (**false**) |
+| Aspect ratio (zoom) | [IsZoomButtonVisible](mediatransportcontrols_iszoombuttonvisible.md) (**true**) | [IsZoomEnabled](mediatransportcontrols_iszoomenabled.md) (**true**) |
+| Cast | N/A | N/A |
+| Closed captions | N/A - shown if a closed caption track is available. | N/A |
+| Audio track selection | N/A - shown if multiple audio tracks are available. | N/A |
 
 There are no properties to hide, show, enable, or disable the play/pause button, closed caption button, audio track selection button, or the cast button. The play/pause and cast buttons are always visible and enabled. The closed caption button is visible whenever closed caption tracks are available, and the audio track selection button is visible whenever multiple audio tracks are available.
 
@@ -164,7 +162,7 @@ public MainPage()
     mediaElement1.TransportControls.IsZoomEnabled = false;
     mediaElement1.TransportControls.IsPlaybackRateButtonVisible = true;
     mediaElement1.TransportControls.IsPlaybackRateEnabled = true;
-    
+
     rootGrid.Children.Add(mediaElement1);
 }
 ```
@@ -176,6 +174,7 @@ public MainPage()
 In the default mode, the [Grid](grid.md) has 2 rows. The first row contains a [Slider](slider.md) (the seek bar) that shows the progress of the media file, and lets the user seek forward or backward through the media. Below the [Slider](slider.md) are two [TextBlock](textblock.md) s. These display the elapsed and remaining time. The second row contains a [CommandBar](commandbar.md) with [AppBarButton](appbarbutton.md) s. The [AppBarButton](appbarbutton.md) s let the user perform actions like play and pause the media, change the volume, and make the video full screen.
 
 <img alt="Default media transport control parts" src="images/MediaTransportControls_Anatomy.png" />
+
 In the compact mode, the [Slider](slider.md) and [CommandBar](commandbar.md) are shown in a single row. The [TextBlock](textblock.md) s for elapsed and remaining time are hidden.
 
 <img alt="Compact media transport control parts" src="images/MediaTransportControls_Anatomy_Compact.png" />

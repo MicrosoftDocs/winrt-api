@@ -24,9 +24,6 @@ Defines an area within which you can position and align child objects in relatio
 
 ## -remarks
 
-> [!TIP]
-> For more info, design guidance, and code examples, see [Layout panels](/windows/uwp/design/layout/layout-panels#relativepanel).
-
 [RelativePanel](relativepanel.md) is a layout container that is useful for creating UI that do not have a clear linear pattern; that is, layouts that are not fundamentally stacked, wrapped, or tabular, where you might naturally use a [StackPanel](stackpanel.md) or [Grid](grid.md).
 
 If your UI consists of multiple nested panels, [RelativePanel](relativepanel.md) is a good option to consider.
@@ -35,7 +32,8 @@ If your UI consists of multiple nested panels, [RelativePanel](relativepanel.md)
 
 Here's an example of a UI using a [RelativePanel](relativepanel.md) for its layout:
 
-<img alt="Relative panel control" src="images/controls/RelativePanelBasic.png" />
+<img alt="Relative panel control" src="images/controls/RelativePanelBasic.png"/>
+
 ```xaml
 <RelativePanel BorderBrush="Gray" BorderThickness="10">
     <Rectangle x:Name="RedRect" Fill="Red" MinHeight="100" MinWidth="100"/>

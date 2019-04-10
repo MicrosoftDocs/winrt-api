@@ -10,7 +10,8 @@ public class Hub : Windows.UI.Xaml.Controls.Control, Windows.UI.Xaml.Controls.IH
 # Windows.UI.Xaml.Controls.Hub
 
 ## -description
-**For Windows 10 and later: We recommend against using this control; use one of the other navigation controls instead. For a list, see the [Navigation basics](https://docs.microsoft.com/windows/uwp/design/basics/navigation-basics) article.** Represents a control that displays groups of content in a panning view.
+
+Represents a control that displays groups of content in a panning view.
 
 ## -xaml-syntax
 ```xaml
@@ -22,6 +23,8 @@ public class Hub : Windows.UI.Xaml.Controls.Control, Windows.UI.Xaml.Controls.IH
 ```
 
 ## -remarks
+
+**For Windows 10 and later: We recommend against using this control; use one of the other navigation controls instead. For a list, see the [Navigation basics](https://docs.microsoft.com/windows/uwp/design/basics/navigation-basics) article.**
 
 Use a [Hub](hub.md) to show different collections of data, either from the same source or from different sources.
 
@@ -45,9 +48,9 @@ If you declare a [Hub](hub.md) as the [ZoomedInView](semanticzoom_zoomedinview.m
 
 ### Control style and template
 
-You can modify the default [Style](../windows.ui.xaml/style.md) and [ControlTemplate](controltemplate.md) to give the control a unique appearance. For information about modifying a control's style and template, see [Styling controls](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/styling-controls). The default style, template, and resources that define the look of the control are included in the generic.xaml file. For design purposes, generic.xaml is available in the \(Program Files)\Windows Kits\10\DesignTime\CommonConfiguration\Neutral\UAP\&lt;SDK version&gt;\Generic folder from a Windows Software Development Kit (SDK) installation. Styles and resources from different versions of the SDK might have different values.
+You can modify the default [Style](../windows.ui.xaml/style.md) and [ControlTemplate](controltemplate.md) to give the control a unique appearance. For information about modifying a control's style and template, see [Styling controls](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/styling-controls). The default style, template, and resources that define the look of the control are included in the generic.xaml file. For design purposes, generic.xaml is available in the \(Program Files)\Windows Kits\10\DesignTime\CommonConfiguration\Neutral\UAP\ &lt;SDK version&gt;\Generic folder from a Windows Software Development Kit (SDK) installation. Styles and resources from different versions of the SDK might have different values.
 
-Starting in Windows 10, version 1607 (Windows Software Development Kit (SDK) version 10.0.14393.0), generic.xaml includes resources that you can use to modify the colors of a control in different visual states without modifying the control template. In apps that target this software development kit (SDK) or later, modifying these resources is preferred to setting properties such as [Background](control_background.md) and [Foreground](control_foreground.md). For more info, see the [Light-weight styling](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) section of the [Styling controls](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) article.
+Starting in Windows 10, version 1607 (SDK 14393), generic.xaml includes resources that you can use to modify the colors of a control in different visual states without modifying the control template. In apps that target this software development kit (SDK) or later, modifying these resources is preferred to setting properties such as [Background](control_background.md) and [Foreground](control_foreground.md). For more info, see the [Light-weight styling](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) section of the [Styling controls](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) article.
 
 This table shows the resources used by the [Hub](hub.md) control.
 

@@ -10,11 +10,15 @@ public Windows.UI.Xaml.Media.Media3D.Transform3D Transform3D { get;  set; }
 # Windows.UI.Xaml.UIElement.Transform3D
 
 ## -description
+
 Gets or sets the 3-D transform effect to apply when rendering this element.
 
 ## -property-value
+
 The 3-D transform effect to apply when rendering this element. The default is **null**.
+
 ## -remarks
+
 Use the [Transform3D](uielement_transform3d.md) property to apply a 3-D transform matrix to a XAML element. This lets you create effects where two-dimensional UI appears to exist in 3-D space relative to the user. [Transform3D](uielement_transform3d.md) behaves much like [RenderTransform](uielement_rendertransform.md), but allows transforms in three-dimensional space and not just two dimensions.
 
 ### PerspectiveTransform3D and CompositeTransform3D
@@ -50,11 +54,12 @@ Here's an example of using the [Transform3D](../windows.ui.xaml.media.media3d/tr
 ```
 
 <img src="images/Transform3D.png" alt="Rectangles with 3-D transforms" />
+
 In this example, a [PerspectiveTransform3D](../windows.ui.xaml.media.media3d/perspectivetransform3d.md) is attached to the root [StackPanel](../windows.ui.xaml.controls/stackpanel.md) and provides a shared perspective viewport for the panel’s children.
+
 + The [Rectangle](../windows.ui.xaml.shapes/rectangle.md) on the left has no transform, so it appears as normal.
 + The [Rectangle](../windows.ui.xaml.shapes/rectangle.md) in the center is rotated -30 degrees about its central axis and translated back 75 pixels, causing its right edge to have a Z-coordinate of -150 pixels.
 + The [Rectangle](../windows.ui.xaml.shapes/rectangle.md) on the right is translated back 150 pixels.
-
 
 The edges of the three rectangles appear to be contiguous because they share a common perspective.
 
@@ -117,4 +122,5 @@ Prior to Windows 10, the only way to create 3-D effects was to set the [Project
 ## -examples
 
 ## -see-also
+
 [PerspectiveTransform3D](../windows.ui.xaml.media.media3d/perspectivetransform3d.md), [CompositeTransform3D](../windows.ui.xaml.media.media3d/compositetransform3d.md), [PlaneProjection](../windows.ui.xaml.media/planeprojection.md)
