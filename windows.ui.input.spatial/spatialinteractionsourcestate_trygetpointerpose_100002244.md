@@ -2,6 +2,7 @@
 -api-id: M:Windows.UI.Input.Spatial.SpatialInteractionSourceState.TryGetPointerPose(Windows.Perception.Spatial.SpatialCoordinateSystem)
 -api-type: winrt method
 -api-device-family-note: xbox
+ms.custom: 19H1
 ---
 
 <!-- Method syntax
@@ -11,11 +12,11 @@ public Windows.UI.Input.Spatial.SpatialPointerPose TryGetPointerPose(Windows.Per
 # Windows.UI.Input.Spatial.SpatialInteractionSourceState.TryGetPointerPose
 
 ## -description
-Gets the available pointer poses, such as the user's head gaze and each motion controller's pointer pose, for the timestamp when this state snapshot was taken.
+Gets the available pointer poses, such as the user's head gaze, eye gaze and each motion controller's pointer pose, for the timestamp when this state snapshot was taken.
 
 ## -remarks
-When targeting a spatial interaction, such as a hand gesture, motion controller press or voice interaction, apps should choose a pointing ray available from the interaction's SpatialPointerPose, based on the nature of the interaction's [SpatialInteractionSource](spatialinteractionsource.md):
-* If the interaction source does not support pointing ([IsPointingSupported](spatialinteractionsource_ispointingsupported.md) is false), the app should target based on the user's gaze, available through the [Head](spatialpointerpose_head.md) property.
+When targeting a spatial interaction, such as a hand gesture, motion controller press or voice interaction, apps should choose a pointing ray available from the interaction's [SpatialPointerPose](spatialpointerpose.md), based on the nature of the interaction's [SpatialInteractionSource](spatialinteractionsource.md):
+* If the interaction source does not support pointing ([IsPointingSupported](spatialinteractionsource_ispointingsupported.md) is false), the app should target based on the user's head gaze, available through the [Head](spatialpointerpose_head.md) property.
 * If the interaction source does support pointing ([IsPointingSupported](spatialinteractionsource_ispointingsupported.md) is true), the app may instead target based on the source's pointer pose, available through the [TryGetInteractionSourcePose](spatialpointerpose_trygetinteractionsourcepose_1162732260.md) method.
 
 The app should then intersect the chosen pointing ray with its own holograms or with the spatial mapping mesh to render cursors and determine what the user is intending to interact with.

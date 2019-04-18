@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.Networking.Connectivity.NetworkAuthenticationType
 -api-type: winrt enum
+ms.custom: 19H1
 ---
 
 <!-- Enumeration syntax
@@ -43,6 +44,8 @@ Specifies an IEEE 802.11i RSNA algorithm that uses PSK. IEEE 802.1X port authori
 ### -field Ihv:9
 Specifies an authentication type defined by an independent hardware vendor (IHV).
 
+### -field Wpa3Sae:11
+Specifies a Wi-Fi Protected Access 3 Simultaneous Authentication of Equals (WPA3 SAE) algorithm. WPA3 SAE is the consumer version of WPA3. Simultaneous Authentication of Equals (SAE) is a secure key establishment protocol between devices; it provides synchronous authentication, and stronger protections for users against password-guessing attempts by third parties.
 
 ## -remarks
 

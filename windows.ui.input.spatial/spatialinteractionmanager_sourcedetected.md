@@ -2,6 +2,7 @@
 -api-id: E:Windows.UI.Input.Spatial.SpatialInteractionManager.SourceDetected
 -api-type: winrt event
 -api-device-family-note: xbox
+ms.custom: 19H1
 ---
 
 <!-- Event syntax
@@ -11,7 +12,8 @@ public event Windows.Foundation.TypedEventHandler SourceDetected<Windows.UI.Inpu
 # Windows.UI.Input.Spatial.SpatialInteractionManager.SourceDetected
 
 ## -description
-Occurs when a new hand, motion controller, or source of voice commands has been detected.
+
+Occurs when a new hand, motion controller, or speech source has been detected.
 
 ## -remarks
 

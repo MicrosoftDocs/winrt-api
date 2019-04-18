@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.ApplicationModel.Calls.PhoneLineTransport
 -api-type: winrt enum
+ms.custom: 19H1
 ---
 
 <!-- Enumeration syntax
@@ -19,6 +20,8 @@ The phone line uses a cellular transport.
 ### -field VoipApp:1
 The phone line uses a voice over IP transport.
 
+### -field Bluetooth:2
+The phone line uses a bluetooth transport.
 
 ## -remarks
 
@@ -27,3 +30,4 @@ The phone line uses a voice over IP transport.
 ## -see-also
 ## -capabilities
 phoneCallHistory, phoneCallHistorySystem
+

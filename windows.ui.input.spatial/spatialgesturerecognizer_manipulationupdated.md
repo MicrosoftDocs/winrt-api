@@ -2,6 +2,7 @@
 -api-id: E:Windows.UI.Input.Spatial.SpatialGestureRecognizer.ManipulationUpdated
 -api-type: winrt event
 -api-device-family-note: xbox
+ms.custom: 19H1
 ---
 
 <!-- Event syntax
@@ -11,12 +12,14 @@ public event Windows.Foundation.TypedEventHandler ManipulationUpdated<Windows.UI
 # Windows.UI.Input.Spatial.SpatialGestureRecognizer.ManipulationUpdated
 
 ## -description
-Occurs when a Manipulation gesture is updated due to hand movement.
+
+Occurs when a [Manipulation](spatialgesturesettings.md) gesture is updated due to hand movement.
 
 ## -remarks
-For hand interactions, the [SpatialManipulationUpdatedEventArgs](spatialmanipulationupdatedeventargs.md) event fires when the relevant hand that had a ManipulationStarted updates its position.
 
-For voice interactions and motion controllers, this event does not fire.
+For hand interactions, the [SpatialManipulationUpdatedEventArgs](spatialmanipulationupdatedeventargs.md) event fires when the [ManipulationStarted](spatialgesturerecognizer_manipulationstarted.md) hand updates its position.
+
+For speech and motion controller interactions, this event does not fire.
 
 ## -examples
 
