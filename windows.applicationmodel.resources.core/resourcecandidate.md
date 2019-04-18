@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.ApplicationModel.Resources.Core.ResourceCandidate
 -api-type: winrt class
+ms.custom: 19H1
 ---
 
 <!-- Class syntax.
@@ -15,7 +16,7 @@ public class ResourceCandidate : Windows.ApplicationModel.Resources.Core.IResour
 ## -remarks
 
 ## -examples
-This example is based on scenario 13 of the [Application resources and localization sample](https://go.microsoft.com/fwlink/p/?linkid=227301). See the sample for the more complete solution.
+This example is based on scenario 13 of the [Application resources and localization sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/ApplicationResources). See the sample for the more complete solution.
 
 ```javascript
 // Create a ResourceContext.

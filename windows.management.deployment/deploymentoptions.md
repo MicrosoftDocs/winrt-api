@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.Management.Deployment.DeploymentOptions
 -api-type: winrt enum
+ms.custom: 19H1
 ---
 
 <!-- Enumeration syntax
@@ -34,6 +35,10 @@ When you set this option, only the required content group will be staged. An app
 ### -field ForceUpdateFromAnyVersion:262144
 Force a specific version of a package to be staged/registered, regardless of if a higher version is already staged/registered.
 
+### -field RetainFilesOnFailure:2097152
+In the case of a failed deployment, do not remove files that have been created on the target machine during the install process. 
+
+
 ## -remarks
 You can use the **DevelopmentMode** option to install apps without requiring an app package. Instead, the deployment engine processes the AppxManifest.xml file directly, which allows for a more rapid development cycle. The BlockMap.xml, [Content_Types].xml, and digital signature files are not required for app installation in **DevelopmentMode**.
 
@@ -65,5 +70,6 @@ Additionally, to simplify and enhance the app development experience, these key 
 
 ## -see-also
 [PackageManager.AddPackageAsync](/uwp/api/windows.management.deployment.packagemanager.addpackageasync), [PackageManager.RegisterPackageAsync](/uwp/api/windows.management.deployment.packagemanager.registerpackageasync), [PackageManager.UpdatePackageAsync](packagemanager_updatepackageasync_1181217661.md)
+
 
 

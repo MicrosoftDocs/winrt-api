@@ -2,6 +2,7 @@
 -api-id: M:Windows.UI.Input.Spatial.SpatialGestureRecognizer.TrySetGestureSettings(Windows.UI.Input.Spatial.SpatialGestureSettings)
 -api-type: winrt method
 -api-device-family-note: xbox
+ms.custom: 19H1
 ---
 
 <!-- Method syntax
@@ -11,16 +12,22 @@ public bool TrySetGestureSettings(Windows.UI.Input.Spatial.SpatialGestureSetting
 # Windows.UI.Input.Spatial.SpatialGestureRecognizer.TrySetGestureSettings
 
 ## -description
-Attempt to change the gesture settings for this recognizer. This will only succeed if there are no gestures in progress at the time.
+
+Attempts to change the gesture settings for this recognizer.
 
 ## -parameters
+
 ### -param settings
-The new SpatialGestureSettings to switch to.
+
+The new [SpatialGestureSettings](spatialgesturesettings.md) to switch to.
 
 ## -returns
-Whether the switch was successful.
+
+True if the switch was successful; otherwise, false.
 
 ## -remarks
+
+This method can only succeed if there are no gestures currently in progress.
 
 ## -examples
 

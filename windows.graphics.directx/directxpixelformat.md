@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.Graphics.DirectX.DirectXPixelFormat
 -api-type: winrt enum
+ms.custom: 19H1
 ---
 
 <!-- Enumeration syntax
@@ -10,7 +11,7 @@ public enum Windows.Graphics.DirectX.DirectXPixelFormat : int
 # DirectXPixelFormat
 
 ## -description
-Specifies pixel formats, which includes fully-typed and type-less formats. This is a managed version of the [DXGI_FORMAT](https://msdn.microsoft.com/library/windows/desktop/bb173059) enumeration.
+Specifies pixel formats, which includes fully-typed and type-less formats. This is a Windows Runtime equivalent of the Desktop [DXGI_FORMAT](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) enumeration.
 
 ## -enum-fields
 ### -field Unknown:0
@@ -369,6 +370,7 @@ Specifies pixel formats, which includes fully-typed and type-less formats. This 
 
 ### -field V408:132
 
+## -remarks
 
 
 ## -remarks

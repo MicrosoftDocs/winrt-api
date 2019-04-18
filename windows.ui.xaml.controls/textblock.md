@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.UI.Xaml.Controls.TextBlock
 -api-type: winrt class
+ms.custom: 19H1
 ---
 
 <!-- Class syntax.
@@ -10,9 +11,11 @@ public class TextBlock : Windows.UI.Xaml.FrameworkElement, Windows.UI.Xaml.Contr
 # Windows.UI.Xaml.Controls.TextBlock
 
 ## -description
+
 Provides a lightweight control for displaying small amounts of text.
 
 ## -xaml-syntax
+
 ```xaml
 <TextBlock ...>text</TextBlock>
 -or-
@@ -22,7 +25,6 @@ Provides a lightweight control for displaying small amounts of text.
 -or-
 <TextBlock .../>
 ```
-
 
 ## -remarks
 
@@ -75,10 +77,14 @@ The rendered text looks like this:
 > For more info, design guidance, and code examples, see [Text block](/windows/uwp/design/controls-and-patterns/text-block).
 >
 > If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the TextBlock in action](xamlcontrolsgallery:/item/TextBlock).
+>
 > + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
 > + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
 
 This example demonstrates a [TextBlock](textblock.md) with text selection enabled and text wrapping enabled.
+
+> [!IMPORTANT]
+> If using a keyboard for text selection within a TextBlock, the user must first activate *Caret Browsing* (with the app in the foreground, press F7).
 
 The rendered text looks like this:
 
@@ -219,4 +225,5 @@ The rendered text looks like this:
 [!code-xml[LineStackingStrategyExampleWholePage](../windows.ui.xaml.controls/code/TextBlock.LineStackingStrategy/csharp/Page.xaml#SnippetLineStackingStrategyExampleWholePage)]
 
 ## -see-also
+
 [Text block overview](/windows/uwp/design/controls-and-patterns/text-block), [RichTextBlock](richtextblock.md), [TextBox](textbox.md), [Controls list](https://msdn.microsoft.com/library/11172840-a63d-4f48-9db4-7baca06308ee), [Controls by function](https://msdn.microsoft.com/library/8db4347b-91d6-4659-91f2-80ecf7bbb596)

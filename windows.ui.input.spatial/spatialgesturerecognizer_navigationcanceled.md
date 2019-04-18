@@ -2,6 +2,7 @@
 -api-id: E:Windows.UI.Input.Spatial.SpatialGestureRecognizer.NavigationCanceled
 -api-type: winrt event
 -api-device-family-note: xbox
+ms.custom: 19H1
 ---
 
 <!-- Event syntax
@@ -11,14 +12,16 @@ public event Windows.Foundation.TypedEventHandler NavigationCanceled<Windows.UI.
 # Windows.UI.Input.Spatial.SpatialGestureRecognizer.NavigationCanceled
 
 ## -description
-Occurs when a Navigation gesture is canceled.
+
+Occurs when a [Navigation](spatialgesturesettings.md) gesture is canceled.
 
 ## -remarks
-For hand interactions, the [SpatialNavigationCanceledEventArgs](spatialnavigationcanceledeventargs.md) event fires when the relevant hand that had a NavigationStarted is lost during the gesture.
 
-For voice interactions, this event does not fire.
+For hand interactions, the [SpatialNavigationCanceledEventArgs](spatialnavigationcanceledeventargs.md) event fires when the [NavigationStarted](spatialgesturerecognizer_navigationstarted.md) hand is lost during the gesture.
 
-For motion controllers, this event fires when the relevant controller that had a NavigationStarted is lost during the gesture.
+For speech interactions, this event does not fire.
+
+For motion controller interactions, this event fires when the [NavigationStarted](spatialgesturerecognizer_navigationstarted.md) controller is lost during the gesture.
 
 ## -examples
 

@@ -2,7 +2,7 @@
 -api-id: T:Windows.Graphics.Holographic.HolographicCamera
 -api-type: winrt class
 -api-device-family-note: xbox
-ms.custom: RS5
+ms.custom: RS5, 19H1
 ---
 
 <!-- Class syntax.
@@ -13,11 +13,11 @@ public class HolographicCamera : Windows.Graphics.Holographic.IHolographicCamera
 
 ## -description
 
-Provides rendering state for a display to which a holographic view must render each frame from that frame's pose.
+Provides per-frame rendering functionality for a [HolographicViewConfiguration](holographicviewconfiguration.md) on a [HolographicDisplay](holographicdisplay.md).
 
 ## -remarks
 
-An app must render to each HolographicCamera before presenting each HolographicFrame.
+An app renders to the back buffer for at least one [HolographicCamera](holographiccamera.md) before presenting each HolographicFrame.
 
 ## -examples
 

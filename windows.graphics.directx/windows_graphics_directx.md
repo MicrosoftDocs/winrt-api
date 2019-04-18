@@ -1,12 +1,13 @@
 ---
 -api-id: N:Windows.Graphics.DirectX
 -api-type: winrt namespace
+ms.custom: 19H1
 ---
 
 # Windows.Graphics.DirectX
 
 ## -description
-Specifies pixel formats for use with Winrt Direct3D 11 interop surfaces.
+Specifies pixel formats, and other enumerated constants, for use with Windows Runtime Direct3D 11 interop surfaces.
 
 ## -remarks
 

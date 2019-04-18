@@ -2,6 +2,7 @@
 -api-id: M:Windows.UI.Input.Spatial.SpatialInteractionManager.GetDetectedSourcesAtTimestamp(Windows.Perception.PerceptionTimestamp)
 -api-type: winrt method
 -api-device-family-note: xbox
+ms.custom: 19H1
 ---
 
 <!-- Method syntax
@@ -11,14 +12,18 @@ public Windows.Foundation.Collections.IVectorView<Windows.UI.Input.Spatial.Spati
 # Windows.UI.Input.Spatial.SpatialInteractionManager.GetDetectedSourcesAtTimestamp
 
 ## -description
-Get the state of all detected interaction sources as of the specified timestamp.
+
+Get the state of all interaction sources detected for the specified timestamp.
 
 ## -parameters
+
 ### -param timeStamp
-The time to query for the state of interaction sources.
+
+The time to query the state of interaction sources.
 
 ## -returns
-The detected source states.
+
+The source states detected.
 
 ## -remarks
 

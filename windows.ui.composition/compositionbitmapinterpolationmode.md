@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.UI.Composition.CompositionBitmapInterpolationMode
 -api-type: winrt enum
+ms.custom: 19H1
 ---
 
 <!-- Enumeration syntax
@@ -20,6 +21,30 @@ Use the exact color of the nearest bitmap pixel to the current rendering pixel.
 Interpolate a color from the four bitmap pixels that are the nearest to the current rendering pixel.
 
 
+### -field MagLinearMinLinearMipLinear:2
+
+
+### -field MagLinearMinLinearMipNearest:3
+
+
+### -field MagLinearMinNearestMipLinear:4
+
+
+### -field MagLinearMinNearestMipNearest:5
+
+
+### -field MagNearestMinLinearMipLinear:6
+
+
+### -field MagNearestMinLinearMipNearest:7
+
+
+### -field MagNearestMinNearestMipLinear:8
+
+
+### -field MagNearestMinNearestMipNearest:9
+
+
 ## -remarks
 Interpolating pixels is necessary when the pixels of an [ICompositionSurface](icompositionsurface.md) do not form a one-to-one mapping to the pixels of a [SpriteVisual](spritevisual.md); this can happen under scale, stretch, rotation, skew, or other transformations (such as perspective projection, etc.).
 
@@ -30,3 +55,10 @@ Conversely, when the bitmap contents of an [ICompositionSurface](icompositionsur
 ## -examples
 
 ## -see-also
+
+
+
+
+
+
+
