@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.ApplicationModel.Calls.Background.PhoneTriggerType
 -api-type: winrt enum
+ms.custom: 19H1
 ---
 
 <!-- Enumeration syntax
@@ -31,6 +32,9 @@ A request was made for the origin of the phone call.
 ### -field CallBlocked:5
 The call was blocked.
 
+### -field IncomingCallDismissed:6
+The incoming call was dismissed. Currently limited to first party use only.
+
 
 ## -remarks
 
@@ -39,3 +43,4 @@ The call was blocked.
 ## -see-also
 ## -capabilities
 phoneCallHistory, phoneCallHistorySystem
+

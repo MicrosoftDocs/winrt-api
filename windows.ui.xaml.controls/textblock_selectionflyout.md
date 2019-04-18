@@ -1,7 +1,7 @@
 ---
 -api-id: P:Windows.UI.Xaml.Controls.TextBlock.SelectionFlyout
 -api-type: winrt property
-ms.custom: RS5
+ms.custom: RS5, 19H1
 ---
 
 <!-- Property syntax.
@@ -20,7 +20,9 @@ The flyout that is shown when text is selected using touch or pen, or **null** i
 
 ## -remarks
 
+> [!IMPORTANT]
+> If using a keyboard for text selection within a TextBlock, the user must first activate *Caret Browsing* (with the app in the foreground, press F7).
+
 ## -see-also
 
 ## -examples
-

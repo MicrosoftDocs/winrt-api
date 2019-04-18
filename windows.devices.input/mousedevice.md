@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.Devices.Input.MouseDevice
 -api-type: winrt class
+ms.custom: 19H1
 ---
 
 <!-- Class syntax.
@@ -10,6 +11,7 @@ public class MouseDevice : Windows.Devices.Input.IMouseDevice
 # Windows.Devices.Input.MouseDevice
 
 ## -description
+
 Supports the ability to identify and track connected mouse devices.
 
 ## -remarks

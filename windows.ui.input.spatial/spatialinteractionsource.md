@@ -2,6 +2,7 @@
 -api-id: T:Windows.UI.Input.Spatial.SpatialInteractionSource
 -api-type: winrt class
 -api-device-family-note: xbox
+ms.custom: 19H1
 ---
 
 <!-- Class syntax.
@@ -12,13 +13,13 @@ public class SpatialInteractionSource : Windows.UI.Input.Spatial.ISpatialInterac
 
 ## -description
 
-Represents one detected instance of a hand, motion controller, or user's voice that can cause interactions and gestures.
+Represents one detected instance of a hand, motion controller, or speech source that can cause interactions and gestures.
 
 ## -remarks
 
 For hands and controllers, each detected hand or motion controller will get its own ID. For as long as the system can track that a hand is the same hand that was previously detected, it will share an ID.
 
-For the user's voice, a single ID will be used for all voice input.
+For speech, a single ID will be used for all speech input.
 
 ## -examples
 

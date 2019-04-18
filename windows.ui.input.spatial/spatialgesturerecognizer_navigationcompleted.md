@@ -2,6 +2,7 @@
 -api-id: E:Windows.UI.Input.Spatial.SpatialGestureRecognizer.NavigationCompleted
 -api-type: winrt event
 -api-device-family-note: xbox
+ms.custom: 19H1
 ---
 
 <!-- Event syntax
@@ -11,14 +12,16 @@ public event Windows.Foundation.TypedEventHandler NavigationCompleted<Windows.UI
 # Windows.UI.Input.Spatial.SpatialGestureRecognizer.NavigationCompleted
 
 ## -description
-Occurs when a Navigation gesture is completed.
+
+Occurs when a [Navigation](spatialgesturesettings.md) gesture is completed.
 
 ## -remarks
-For hand interactions, the [SpatialNavigationCompletedEventArgs](spatialnavigationcompletedeventargs.md) event fires when the finger is released after NavigationStarted.
 
-For voice interactions, this event does not fire.
+For hand interactions, the [SpatialNavigationCompletedEventArgs](spatialnavigationcompletedeventargs.md) event fires when the finger is released after a [NavigationStarted](spatialgesturerecognizer_navigationstarted.md) event.
 
-For motion controllers, this event fires when the Select trigger or button is released after NavigationStarted.
+For speech interactions, this event does not fire.
+
+For motion controller interactions, this event fires when the Select trigger or button is released after a [NavigationStarted](spatialgesturerecognizer_navigationstarted.md) event.
 
 ## -examples
 

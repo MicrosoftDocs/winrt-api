@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.UI.Xaml.Controls.RelativePanel
 -api-type: winrt class
+ms.custom: 19H1
 ---
 
 <!-- Class syntax.

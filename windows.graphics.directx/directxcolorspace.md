@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.Graphics.DirectX.DirectXColorSpace
 -api-type: winrt enum
+ms.custom: 19H1
 ---
 
 <!-- Enumeration syntax.
@@ -11,7 +12,7 @@ public enum DirectXColorSpace : int
 
 ## -description
 
-A WinRT (Windows Runtime) projection of [DXGI_COLOR_SPACE_TYPE](https://msdn.microsoft.com/library/windows/desktop/dn903661).
+This is a Windows Runtime equivalent of the Desktop [DXGI_COLOR_SPACE_TYPE](/windows/desktop/api/dxgicommon/ne-dxgicommon-dxgi_color_space_type) enumeration.
 
 ## -enum-fields
 
@@ -117,11 +118,11 @@ Corresponds to **DXGI_COLOR_SPACE_RESERVED**.
 
 ## -remarks
 
-Each value corresponds to a value in the [DXGI_COLOR_SPACE_TYPE enumeration](https://msdn.microsoft.com/library/windows/desktop/dn903661). For example, **DirectXColorSpace.RgbFullG22NoneP709** corresponds to **DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709**. See that documentation for more information on each value.
+Each value corresponds to a value in the [DXGI_COLOR_SPACE_TYPE](/windows/desktop/api/dxgicommon/ne-dxgicommon-dxgi_color_space_type) enumeration. For example, **DirectXColorSpace.RgbFullG22NoneP709** corresponds to **DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709**. See that documentation for more information on each value.
 
 ## -see-also
 
-[DXGI_COLOR_SPACE_TYPE enumeration](https://msdn.microsoft.com/library/windows/desktop/dn903661),
+[DXGI_COLOR_SPACE_TYPE enumeration](/windows/desktop/api/dxgicommon/ne-dxgicommon-dxgi_color_space_type),
 [Windows.Graphics.DirectX namespace](windows_graphics_directx.md)
 
 ## -examples

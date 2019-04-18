@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.System.ProcessorArchitecture
 -api-type: winrt enum
+ms.custom: 19H1
 ---
 
 <!-- Enumeration syntax
@@ -28,6 +29,11 @@ A neutral processor architecture.
 ### -field Unknown:65535
 An unknown processor architecture.
 
+### -field Arm64:12
+The Arm64 processor architecture
+
+### -field X86OnArm64:14
+The Arm64 processor architecture emulating the X86 architecture
 
 ## -remarks
 
@@ -35,3 +41,4 @@ An unknown processor architecture.
 
 ## -see-also
 [Windows.ApplicationModel.PackageId.Architecture](../windows.applicationmodel/packageid_architecture.md)
+
