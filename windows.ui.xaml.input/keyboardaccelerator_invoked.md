@@ -24,8 +24,8 @@ public class MyListView : ListView
   …
   protected override void OnKeyboardAcceleratorInvoked(KeyboardAcceleratorInvokedEventArgs args) 
   {
-    if(args.Accelerator.Key == VirtualKey.A 
-      && args.Accelerator.Modifiers == KeyboardModifiers.Control)
+    if(args.KeyboardAccelerator.Key == VirtualKey.A 
+      && args.KeyboardAccelerator.Modifiers == VirtualKeyModifiers.Control)
     {
       CustomSelectAll(TypeOfSelection.OnlyNumbers); 
       args.Handled = true;
