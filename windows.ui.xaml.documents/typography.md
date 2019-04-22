@@ -13,7 +13,12 @@ public class Typography : Windows.UI.Xaml.Documents.ITypography
 Provides access to a set of Microsoft OpenType typography properties. These properties are implemented as XAML attached properties such that they can be set from text object model properties as well as from specific text controls.
 
 ## -remarks
-You typically use [Typography](typography.md) attached properties with the text of [TextBlock](../windows.ui.xaml.controls/textblock.md) or [RichTextBlock](../windows.ui.xaml.controls/richtextblock.md) controls. Note that you cannot use these properties with the [TextBox](../windows.ui.xaml.controls/textbox.md) or [RichEditBox](../windows.ui.xaml.controls/richeditbox.md) controls. The [Typography](typography.md) object exposes the set of features that the Microsoft OpenType font supports. By setting the properties of [Typography](typography.md) in markup or code, you can author documents that take advantage of Microsoft OpenType features, and turn those features on at a per-element level if desired.
+You typically use [Typography](typography.md) attached properties with the text of [TextBlock](../windows.ui.xaml.controls/textblock.md) or [RichTextBlock](../windows.ui.xaml.controls/richtextblock.md) controls. 
+
+> [!NOTE]
+> You cannot use these properties with the [TextBox](../windows.ui.xaml.controls/textbox.md) or [RichEditBox](../windows.ui.xaml.controls/richeditbox.md) controls. 
+
+The [Typography](typography.md) object exposes the set of features that the Microsoft OpenType font supports. By setting the properties of [Typography](typography.md) in markup or code, you can author documents that take advantage of Microsoft OpenType features, and turn those features on at a per-element level if desired.
 
 Some fonts contain stylistic variant glyphs that correspond to portions of a character set. Glyphs in stylistic sets may be designed to harmonize visually, interact in particular ways, or work together in other ways. Some of these variants are identified by particular conventions, for example the font might have discretionary ligatures. In this example case, the typography behavior can be enabled by setting [Typography.DiscretionaryLigatures](typography_discretionaryligatures.md) to true. Other stylistic variants are not identified by any Microsoft OpenType set or convention, and are instead specific to that particular font's typography design. These variants can be accessed by setting any of the **StylisticSet#** attached properties to true.
 
