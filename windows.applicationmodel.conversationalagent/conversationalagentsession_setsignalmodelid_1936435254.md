@@ -12,14 +12,22 @@ public bool ConversationalAgentSession.SetSignalModelId(UInt32 signalModelId)
 
 ## -description
 
+Assigns a unique identifier to the model representing the activation audio signal for the conversational agent.
+
 ## -parameters
+
 ### -param signalModelId
 
+The unique identifier.
+
 ## -returns
+
+True, if set successfully. Otherwise, false.
 
 ## -remarks
 
 ## -see-also
 
-## -examples
+[SetSignalModelIdAsync](conversationalagentsession_setsignalmodelidasync_1536264347.md)
 
+## -examples

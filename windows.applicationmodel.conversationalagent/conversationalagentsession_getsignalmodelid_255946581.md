@@ -12,11 +12,16 @@ public uint ConversationalAgentSession.GetSignalModelId()
 
 ## -description
 
+Retrieves the unique model identifier of the [Signal](conversationalagentsignal.md) that activated the conversational agent.
+
 ## -returns
+
+The unique model identifier.
 
 ## -remarks
 
 ## -see-also
 
-## -examples
+[Windows.ApplicationModel.ConversationalAgent.ConversationalAgentSession.GetSignalModelIdAsync](conversationalagentsession_getsignalmodelidasync_318358985.md)
 
+## -examples

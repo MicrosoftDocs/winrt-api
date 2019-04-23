@@ -12,11 +12,16 @@ public IAsyncOperation<IVectorView<uint>> ConversationalAgentSession.GetSupporte
 
 ## -description
 
+Asynchronously retrieves the collection of unique [Signal](conversationalagentsignal.md) model identifiers supported by the conversational agent.
+
 ## -returns
+
+When this method completes successfully, it returns a collection of unique [Signal](conversationalagentsignal.md) model identifiers.
 
 ## -remarks
 
 ## -see-also
 
-## -examples
+[Windows.ApplicationModel.ConversationalAgent.ConversationalAgentSession.GetSupportedSignalModelIdsAsync](conversationalagentsession_getsupportedsignalmodelidsasync_150685345.md)
 
+## -examples
