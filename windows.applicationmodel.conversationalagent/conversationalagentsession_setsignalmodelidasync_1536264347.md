@@ -12,14 +12,22 @@ public IAsyncOperation<bool> ConversationalAgentSession.SetSignalModelIdAsync(UI
 
 ## -description
 
+Asynchronously assigns a unique identifier to the model representing the activation audio signal for the conversational agent.
+
 ## -parameters
+
 ### -param signalModelId
 
+The unique identifier.
+
 ## -returns
+
+An asynchronous operation with a value of **true** if the model identifier was set successfully; otherwise **false**.
 
 ## -remarks
 
 ## -see-also
 
-## -examples
+[Windows.ApplicationModel.ConversationalAgent.ConversationalAgentSession.SetSignalModelId](conversationalagentsession_setsignalmodelid_1936435254.md)
 
+## -examples

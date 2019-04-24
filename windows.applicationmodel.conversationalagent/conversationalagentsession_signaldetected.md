@@ -12,9 +12,11 @@ public event TypedEventHandler SignalDetected<ConversationalAgentSession, Conver
 
 ## -description
 
-Occurs when a wake utterance for a digital assistant is detected.
+Occurs when a [Signal](conversationalagentsignal.md) for activating a digital assistant is detected.
 
 ## -remarks
+
+Examples of activation [Signals](conversationalagentsignal.md) can include a *wake* utterance, Bluetooth transmission, system keyboard accelerator, in-app speech recognition, or other sounds (door slam, smoke detector).
 
 ## -see-also
 

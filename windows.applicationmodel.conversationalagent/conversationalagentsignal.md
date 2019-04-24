@@ -12,7 +12,7 @@ public class ConversationalAgentSignal
 
 ## -description
 
-The signal that indicates the digital assistant should be activated, such as the *wake* utterance, Bluetooth transmission, system keyboard accelerator, in-app speech recognition, or other audio event (door slam, smoke detector).
+The audible signal detected by a digital signal processor (DSP) that indicates the digital assistant should be activated. This signal can include audio events such as a *wake* utterance, Bluetooth transmission, system keyboard accelerator, in-app speech recognition, or other sounds (door slam, smoke detector).
 
 ## -remarks
 

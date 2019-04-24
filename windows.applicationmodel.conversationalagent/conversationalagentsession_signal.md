@@ -12,9 +12,11 @@ public ConversationalAgentSignal Signal { get; }
 
 ## -description
 
-The [Signal](conversationalagentsignal.md) that activated the digital assistant, such as the *wake* utterance, Bluetooth transmission, system keyboard accelerator, in-app speech recognition, or other audio event (door slam, smoke detector).
+The [Signal](conversationalagentsignal.md) that activated the digital assistant, such as a *wake* utterance, Bluetooth transmission, system keyboard accelerator, in-app speech recognition, or other sounds (door slam, smoke detector).
 
 ## -property-value
+
+The audible signal detected by the digital signal processor (DSP).
 
 ## -remarks
 

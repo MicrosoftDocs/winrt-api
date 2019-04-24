@@ -12,7 +12,7 @@ public StandardUICommandKind Kind { get; }
 
 ## -description
 
-Gets the pre-defined command (including behavior, and various UI-related properties, methods, and events) that can be used with a [StandardUICommand](standarduicommand.md).
+Gets the platform command (with pre-defined properties such as icon, keyboard accelerator, and description) that can be used with a [StandardUICommand](standarduicommand.md).
 
 ## -property-value
 
