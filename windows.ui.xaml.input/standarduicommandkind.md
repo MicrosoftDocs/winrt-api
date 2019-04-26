@@ -12,7 +12,7 @@ public enum StandardUICommandKind : int
 
 ## -description
 
-Specifies the pre-defined commands (including behavior, and various UI-related properties, methods, and events) that can be used with a [StandardUICommand](standarduicommand.md).
+Specifies the set of platform commands (with pre-defined properties such as icon, keyboard accelerator, and description) that can be used with a [StandardUICommand](standarduicommand.md).
 
 ## -enum-fields
 

@@ -12,11 +12,16 @@ public IVectorView<uint> ConversationalAgentSession.GetSupportedSignalModelIds()
 
 ## -description
 
+Retrieves the collection of unique [Signal](conversationalagentsignal.md) model identifiers supported by the conversational agent.
+
 ## -returns
+
+A collection of unique [Signal](conversationalagentsignal.md) model identifiers.
 
 ## -remarks
 
 ## -see-also
 
-## -examples
+[Windows.ApplicationModel.ConversationalAgent.ConversationalAgentSession.GetSupportedSignalModelIdsAsync](conversationalagentsession_getsupportedsignalmodelidsasync_150685345.md)
 
+## -examples

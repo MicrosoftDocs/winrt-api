@@ -16,7 +16,7 @@ Provides applications the ability to expose functionality through any digital as
 
 ## -remarks
 
-Users can enable a first-stage *wake* utterance (or keyword detection) for a digital assistant in Settings. For example, the "Hey Cortana" keywords enable listening mode for a Cortana interaction.
+Users can enable a first-stage signal for a digital assistant in Settings. This signal can include a *wake* utterance, Bluetooth transmission, system keyboard accelerator, in-app speech recognition, or other sounds (door slam, smoke detector). For example, the "Hey Cortana" keywords enable listening mode for a Cortana interaction.
 
 A second-stage utterance (or keyword detection) is part of the intent phase. For example, "Hey Cortana, *what's the forecast for today?*".
 

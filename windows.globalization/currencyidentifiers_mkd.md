@@ -11,10 +11,12 @@ public string MKD { get; }
 # Windows.Globalization.CurrencyIdentifiers.MKD
 
 ## -description
-Gets the currency identifier for the North Macedonia (FYROM) Denar.
+
+Gets the currency identifier for the Republic of North Macedonia Denar.
 
 ## -property-value
-The string "MKD", which identifies the North Macedonia (FYROM) Denar.
+
+The string "MKD", which identifies the Republic of North Macedonia Denar.
 
 ## -remarks
 
