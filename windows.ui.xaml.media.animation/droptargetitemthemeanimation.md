@@ -83,7 +83,7 @@ The following is an example of a template for a custom control that supports an 
                     </VisualStateManager.VisualStateGroups>
                     
                     <!-- Template content here. -->
-
+                </Border>
             </ControlTemplate>
         </Setter.Value>
     </Setter>
