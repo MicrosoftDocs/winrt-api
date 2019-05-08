@@ -13,7 +13,7 @@ public bool Visible { get; }
 Gets whether the window is visible or not.
 
 ## -property-value
-True if the event is handled; otherwise, false.
+True if the window is visible; otherwise, false.
 
 ## -remarks
 
