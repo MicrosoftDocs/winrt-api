@@ -17,7 +17,7 @@ Callback that is triggered when the [InteractionTracker](interactiontracker.md) 
 The [InteractionTracker](interactiontracker.md) that triggered the callback.
 
 ### -param args
-The arguemtns for the callback.
+The arguments for the callback.
 
 ## -remarks
 
