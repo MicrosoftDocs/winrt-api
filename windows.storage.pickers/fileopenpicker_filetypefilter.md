@@ -33,5 +33,4 @@ The [File picker sample](https://go.microsoft.com/fwlink/p/?linkid=234890) demon
 [!code-js[all_openpicker_displayAllTypes](../windows.storage.pickers/code/FilePicker/js/js/scenario2.js#Snippetall_openpicker_displayAllTypes)]
 
 ## -see-also
-[File picker sample](https://go.microsoft.com/fwlink/p/?linkid=234890), [Quickstart: Accessing files with ](https://msdn.microsoft.com/library/df082239-381c-462f-9f97-d2b390a2052e), [fileOpenPicker class](fileopenpicker.md), [fileExtensionVector class](fileextensionvector.md)
-eopenpicker.md), [fileExtensionVector class](fileextensionvector.md)
+[File picker sample](https://go.microsoft.com/fwlink/p/?linkid=234890), [Quickstart: Accessing files with ](https://msdn.microsoft.com/library/df082239-381c-462f-9f97-d2b390a2052e), [fileOpenPicker class](fileopenpicker.md), [fileExtensionVector class](fileextensionvector.md), [fileExtensionVector class](fileextensionvector.md)
