@@ -10,13 +10,17 @@ public float GetBottom(Windows.Foundation.Rect target)
 # Windows.UI.Xaml.RectHelper.GetBottom
 
 ## -description
-Gets a "Bottom" value for the specified [Rect](../windows.foundation/rect.md). So long as **Height** is positive, "Bottom" is evaluated as **Y** + **Height**. C# and Microsoft Visual Basic code should use [Bottom](../windows.foundation/rect_bottom.md) instead.
+
+Gets a "Bottom" value for the specified [Rect](../windows.foundation/rect.md). So long as **Height** is positive, "Bottom" is evaluated as **Y** + **Height**. C# and Microsoft Visual Basic code should use [Rect.Bottom](/dotnet/api/windows.foundation.rect.bottom) instead.
 
 ## -parameters
+
 ### -param target
+
 The [Rect](../windows.foundation/rect.md) to evaluate.
 
 ## -returns
+
 The evaluated "Bottom" value.
 
 ## -remarks

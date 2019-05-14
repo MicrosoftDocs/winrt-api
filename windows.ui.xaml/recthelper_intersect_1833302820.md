@@ -10,17 +10,22 @@ public Windows.Foundation.Rect Intersect(Windows.Foundation.Rect target, Windows
 # Windows.UI.Xaml.RectHelper.Intersect
 
 ## -description
-Returns the areas of two specified [Rect](../windows.foundation/rect.md) values that intersect, as a new [Rect](../windows.foundation/rect.md). C# and Microsoft Visual Basic code should use [Intersect](../windows.foundation/rect_intersect.md) instead.
+
+Returns the areas of two specified [Rect](../windows.foundation/rect.md) values that intersect, as a new [Rect](../windows.foundation/rect.md). C# and Microsoft Visual Basic code should use [Rect.Intersect](/dotnet/api/windows.foundation.rect.intersect) instead.
 
 ## -parameters
+
 ### -param target
-The first [Rect](../windows.foundation/rect.md) to check for intersect.
+
+The first [Rect](../windows.foundation/rect.md) to check for intersection.
 
 ### -param rect
-The second [Rect](../windows.foundation/rect.md) to check for intersect.
+
+The second [Rect](../windows.foundation/rect.md) to check for intersection.
 
 ## -returns
-A [Rect](../windows.foundation/rect.md) that represents the areas of *target* and *rect* that intersect. Can be an [Empty](recthelper_empty.md) value if there is no intersect.
+
+A [Rect](../windows.foundation/rect.md) that represents the areas of *target* and *rect* that intersect. Can be an [Empty](recthelper_empty.md) value if there is no intersection.
 
 ## -remarks
 

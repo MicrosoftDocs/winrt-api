@@ -10,13 +10,17 @@ public float GetTop(Windows.Foundation.Rect target)
 # Windows.UI.Xaml.RectHelper.GetTop
 
 ## -description
-Gets a "Top" value for the specified [Rect](../windows.foundation/rect.md). So long as **Height** is positive, "Top" is evaluated as **Y**. C# and Microsoft Visual Basic code should use [Top](../windows.foundation/rect_top.md) instead.
+
+Gets a "Top" value for the specified [Rect](../windows.foundation/rect.md). So long as **Height** is positive, "Top" is evaluated as **Y**. C# and Microsoft Visual Basic code should use [Rect.Top](/dotnet/api/windows.foundation.rect.top) instead.
 
 ## -parameters
+
 ### -param target
+
 The [Rect](../windows.foundation/rect.md) to evaluate.
 
 ## -returns
+
 The evaluated "Top" value.
 
 ## -remarks

@@ -10,16 +10,21 @@ public Windows.Foundation.Point FromCoordinates(System.Single x, System.Single y
 # Windows.UI.Xaml.PointHelper.FromCoordinates
 
 ## -description
-Creates a new [Point](../windows.foundation/point.md) value using x- and y-coordinate values in pixels. C# and Microsoft Visual Basic code should use [Point(Double,Double)](../windows.foundation/point_point.md) instead.
+
+Creates a new [Point](../windows.foundation/point.md) value using x- and y-coordinate values in pixels. C# and Microsoft Visual Basic code should use the [Point(Double,Double)](/dotnet/api/windows.foundation.point.-ctor) constructor instead.
 
 ## -parameters
+
 ### -param x
+
 The pixel value to set for **X**.
 
 ### -param y
+
 The pixel value to set for **Y**.
 
 ## -returns
+
 The created [Point](../windows.foundation/point.md).
 
 ## -remarks
