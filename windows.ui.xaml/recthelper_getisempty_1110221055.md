@@ -10,14 +10,18 @@ public bool GetIsEmpty(Windows.Foundation.Rect target)
 # Windows.UI.Xaml.RectHelper.GetIsEmpty
 
 ## -description
- Returns whether a specified [Rect](../windows.foundation/rect.md) is equivalent to an [Empty](recthelper_empty.md)  [Rect](../windows.foundation/rect.md). C# and Microsoft Visual Basic code should use [IsEmpty](../windows.foundation/rect_isempty.md) instead. 
+
+ Returns whether a specified [Rect](../windows.foundation/rect.md) is equivalent to an [Empty](recthelper_empty.md) [Rect](../windows.foundation/rect.md). C# and Microsoft Visual Basic code should use [Rect.IsEmpty](/dotnet/api/windows.foundation.rect.isempty) instead.
 
 ## -parameters
+
 ### -param target
+
 The [Rect](../windows.foundation/rect.md) to evaluate.
 
 ## -returns
- **true** if the specified [Rect](../windows.foundation/rect.md) is equivalent to an [Empty](recthelper_empty.md)  [Rect](../windows.foundation/rect.md); otherwise, **false**.
+
+ **true** if the specified [Rect](../windows.foundation/rect.md) is equivalent to an [Empty](recthelper_empty.md) [Rect](../windows.foundation/rect.md); otherwise, **false**.
 
 ## -remarks
 

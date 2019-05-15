@@ -50,9 +50,18 @@ You can use a space rather than a comma as the delimiter between values.
 
 ### Projection and members of **Size**
 
-If you are using a Microsoft .NET language (C# or Microsoft Visual Basic), or Visual C++ component extensions (C++/CX), then [Size](size.md) has non-data members available, and its data members are exposed as read-write properties, not fields. Microsoft .NET supports this functionality through the System.Runtime.WindowsRuntime.dll interop assembly that's shipped as part of .NET for Windows Runtime app. Visual C++ component extensions (C++/CX) supports it through the language-specific platform.winmd metadata and the runtime behavior it represents.
+If you are using a Microsoft .NET language (C# or Microsoft Visual Basic), or Visual C++ component extensions (C++/CX), then [Size](size.md) has non-data members available, and its data members are exposed as read-write properties, not fields. See [Size](/dotnet/api/windows.foundation.size) in the .NET API Browser.
 
-If you are programming with C++ using the Windows Runtime Template Library (WRL), then only the data member fields exist as members of [Size](size.md), and you cannot use the utility methods or properties listed in the members table. WRL code can access similar utility methods that are available from the [SizeHelper](../windows.ui.xaml/sizehelper.md) static class. For more info on WRL, see [WRL Integration](https://msdn.microsoft.com/library/3ad43894-c574-477c-ad3e-240301f381d4).
+If you are programming with [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/index) or the [Windows Runtime C++ Template Library (WRL)](/cpp/windows/windows-runtime-cpp-template-library-wrl), then only the data member fields exist as members of [Size](size.md), and you cannot use the utility methods or properties of the .NET projection. C++ code can access similar utility methods that are available from the [SizeHelper](../windows.ui.xaml/sizehelper.md) static class.
+
+This table shows the equivalent methods available in .NET and C++.
+
+| .NET ([Size](/dotnet/api/windows.foundation.size)) | C++ ([SizeHelper](../windows.ui.xaml/sizehelper.md)) |
+| ---- | --- |
+| [Size(Double, Double)](/dotnet/api/windows.foundation.size.-ctor) | [FromDimensions(Single, Single)](../windows.ui.xaml/sizehelper_fromdimensions_84932572.md) |
+| [Empty](/dotnet/api/windows.foundation.size.empty) | [Empty](../windows.ui.xaml/sizehelper_equals_1638522698.md) |
+| [IsEmpty](/dotnet/api/windows.foundation.size.isempty) | [GetIsEmpty(Size)](../windows.ui.xaml/sizehelper_getisempty_1023510010.md) |
+| [Equals](/dotnet/api/windows.foundation.size.equals) | [Equals(Size, Size)](../windows.ui.xaml/sizehelper_equals_1638522698.md) |
 
 ## -examples
 
