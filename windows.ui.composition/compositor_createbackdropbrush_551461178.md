@@ -37,7 +37,7 @@ CompositionEffectFactory blurEffectFactory = _compositor.CreateEffectFactory(blu
 
 CompositionEffectBrush blurBrush = blurEffectFactory.CreateBrush(); 
 
-// Create a BackdropBrush and bind it to the EffectSourceParameter “source” 
+// Create a BackdropBrush and bind it to the EffectSourceParameter "source" 
 CompositionBackdropBrush backdropBrush = _compositor.CreateBackdropBrush(); 
 
 blurBrush.SetSourceParameter("source", backdropBrush); 
