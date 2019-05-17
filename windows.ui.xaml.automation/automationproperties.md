@@ -63,4 +63,4 @@ For localization reasons, you should avoid hard-coded string values for the **Na
 ## -examples
 
 ## -see-also
-[Accessibility](https://msdn.microsoft.com/library/c89d79c2-b830-493d-b020-f3ff8eb5ffdd), [Basic accessibility information](https://msdn.microsoft.com/library/9641c926-68c9-4842-8b55-c38c39a9e5c5), [Accessibility testing](https://msdn.microsoft.com/library/272d9c9e-b179-4f5a-8493-926d007a0225), [Attached properties overview](https://msdn.microsoft.com/library/098c1de0-d640-48b1-9961-d0adf33266e2), [XAML accessibility sample](https://go.microsoft.com/fwlink/p/?LinkID=238570)
+[Accessibility](https://msdn.microsoft.com/library/c89d79c2-b830-493d-b020-f3ff8eb5ffdd), [Basic accessibility information](https://msdn.microsoft.com/library/9641c926-68c9-4842-8b55-c38c39a9e5c5), [Accessibility testing](https://msdn.microsoft.com/library/272d9c9e-b179-4f5a-8493-926d007a0225), [Attached properties overview](https://msdn.microsoft.com/library/098c1de0-d640-48b1-9961-d0adf33266e2), [Code samples for resolving common programmatic accessibility issues in Windows desktop apps](https://docs.microsoft.com/accessibility-tools-docs/)

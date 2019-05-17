@@ -63,7 +63,12 @@ If you have a need to define a custom automation peer and can't identify a more 
 + [ToggleSwitchAutomationPeer](toggleswitchautomationpeer.md)
 
 ## -examples
-This example shows the basic subclass requirements for deriving a peer from [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) and supporting at least one control pattern. This code is an excerpt from the [XAML accessibility sample](https://go.microsoft.com/fwlink/p/?linkid=238570).
+This example shows the basic subclass requirements for deriving a peer from [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) and supporting at least one control pattern.
+
+This code is an excerpt from the [XAML accessibility sample](https://go.microsoft.com/fwlink/p/?linkid=238570).
+
+> [!NOTE]
+> **This sample is not maintained and might not compile.**
 
 ```csharp
         public class MediaContainerAP : FrameworkElementAutomationPeer, IRangeValueProvider, IToggleProvider
@@ -246,4 +251,4 @@ End Class
 ```
 
 ## -see-also
-[FrameworkElement](../windows.ui.xaml/frameworkelement.md), [Custom automation peers](https://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4), [AutomationPeer](automationpeer.md), [XAML accessibility sample](https://go.microsoft.com/fwlink/p/?linkid=238570)
+[FrameworkElement](../windows.ui.xaml/frameworkelement.md), [Custom automation peers](https://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4), [AutomationPeer](automationpeer.md), [Code samples for resolving common programmatic accessibility issues in Windows desktop apps](https://docs.microsoft.com/accessibility-tools-docs/)

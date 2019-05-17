@@ -18,7 +18,13 @@ The class-specific [AutomationPeer](../windows.ui.xaml.automation.peers/automati
 ## -remarks
 For more info on the purpose of an automation peer and why you might need to define a class-specific [AutomationPeer](../windows.ui.xaml.automation.peers/automationpeer.md) class, see [Custom automation peers](https://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4).
 
-You should override this method in a custom class where you want to supply a custom automation peer for Microsoft UI Automation, rather than the default peer that is referenced by the default [OnCreateAutomationPeer](uielement_oncreateautomationpeer_1478162674.md) implementation. How you define a custom peer for your custom control depends on your control's accessibility requirements , its UI contract, and its behavior. For more info on why you might want to define a new peer, see [Custom automation peers](https://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4). To see a sample that implements [OnCreateAutomationPeer](uielement_oncreateautomationpeer_1478162674.md) and defines the custom peer that [OnCreateAutomationPeer](uielement_oncreateautomationpeer_1478162674.md) returns, see [XAML accessibility sample](https://go.microsoft.com/fwlink/p/?linkid=238570) (the peer implementation is part of Scenario 3 in that sample).
+You should override this method in a custom class where you want to supply a custom automation peer for Microsoft UI Automation, rather than the default peer that is referenced by the default [OnCreateAutomationPeer](uielement_oncreateautomationpeer_1478162674.md) implementation. How you define a custom peer for your custom control depends on your control's accessibility requirements , its UI contract, and its behavior. For more info on why you might want to define a new peer, see [Custom automation peers](https://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4). 
+
+> [!NOTE]
+>
+> **This sample is not maintained and might not compile.**
+>
+> See [XAML accessibility sample](https://go.microsoft.com/fwlink/p/?linkid=238570) for an implementation of [OnCreateAutomationPeer](uielement_oncreateautomationpeer_1478162674.md) that defines the custom peer returned by [OnCreateAutomationPeer](uielement_oncreateautomationpeer_1478162674.md) (the peer implementation is part of Scenario 3 in this sample). 
 
 We recommend that the [OnCreateAutomationPeer](uielement_oncreateautomationpeer_1478162674.md) implementation should do nothing more than initialize a new instance of your custom automation peer, passing the calling control as owner, and return that instance. Do not attempt additional logic in this method. In particular, any logic that could potentially lead to destruction of the [AutomationPeer](../windows.ui.xaml.automation.peers/automationpeer.md) within the same call may result in unexpected runtime behavior.
 
@@ -58,4 +64,4 @@ End Function
 ```
 
 ## -see-also
-[AutomationPeer](../windows.ui.xaml.automation.peers/automationpeer.md), [XAML accessibility sample](https://go.microsoft.com/fwlink/p/?linkid=238570), [Custom automation peers](https://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4), [Accessibility](https://msdn.microsoft.com/library/c89d79c2-b830-493d-b020-f3ff8eb5ffdd)
+[AutomationPeer](../windows.ui.xaml.automation.peers/automationpeer.md), [Code samples for resolving common programmatic accessibility issues in Windows desktop apps](https://docs.microsoft.com/accessibility-tools-docs/), [Custom automation peers](https://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4), [Accessibility](https://msdn.microsoft.com/library/c89d79c2-b830-493d-b020-f3ff8eb5ffdd)
