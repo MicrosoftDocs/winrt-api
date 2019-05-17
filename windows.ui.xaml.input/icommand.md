@@ -15,7 +15,7 @@ Defines the command behavior of an interactive UI element that performs an actio
 
 ## -remarks
 
-[XamlUICommand](xamluicommand.md) implements this [ICommand](icommand.md) interface  for C++ or [System.Windows.Input.ICommand](https://docs.microsoft.com/dotnet/api/system.windows.input.icommand) for C# (adding various UI properties, methods, and events).
+[XamlUICommand](xamluicommand.md) implements this ICommand interface  for C++ or [System.Windows.Input.ICommand](https://docs.microsoft.com/dotnet/api/system.windows.input.icommand) for C# (adding various UI properties, methods, and events).
 
 For a basic example, see the [Button](../windows.ui.xaml.controls/button.md) control, which invokes a command when a user clicks it. There are two ways you manage the command experience:
 

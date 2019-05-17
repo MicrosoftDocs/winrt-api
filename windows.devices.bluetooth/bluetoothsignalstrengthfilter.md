@@ -14,7 +14,7 @@ public class BluetoothSignalStrengthFilter : Windows.Devices.Bluetooth.IBluetoot
 Groups parameters used to configure received signal strength indicator (RSSI)-based filtering.
 
 ## -remarks
-The [BluetoothSignalStrengthFilter](bluetoothsignalstrengthfilter.md) class only accepts a limited range for its properties. However, depending on how this class is used by an app, additional restrictions may apply. For example, the valid range for RSSI values differs between Bluetooth LE and Bluetooth BR/EDR devices.
+The BluetoothSignalStrengthFilter class only accepts a limited range for its properties. However, depending on how this class is used by an app, additional restrictions may apply. For example, the valid range for RSSI values differs between Bluetooth LE and Bluetooth BR/EDR devices.
 
 The valid range for these properties are as follows:
 

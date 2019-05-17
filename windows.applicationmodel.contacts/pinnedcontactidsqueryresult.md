@@ -13,7 +13,7 @@ public class PinnedContactIdsQueryResult
 Provides access to the results of a query that lists the IDs all contacts pinned to the taskbar or Start menu.
 
 ## -remarks
-You can use a [PinnedContactIdsQueryResult](pinnedcontactidsqueryresult.md) to enumerate through the IDs of pinned contacts.
+You can use a PinnedContactIdsQueryResult to enumerate through the IDs of pinned contacts.
 
 ## -see-also
 [ContactIds](pinnedcontactidsqueryresult_contactids.md), [GetPinnedContactIdsAsync](pinnedcontactmanager_getpinnedcontactidsasync_301892974.md)

@@ -19,15 +19,15 @@ Represents an icon that uses a glyph from the specified font.
 
 
 ## -remarks
-Use [FontIcon](fonticon.md) to specify an icon using a [Glyph](fonticon_glyph.md) value from a [FontFamily](fonticon_fontfamily.md). You must have the font available for the glyphs to show. Glyph values are assigned by font developers to private Unicode values that don’t map to existing code points. Windows 10 uses the **Segoe MDL2 Assets** FontFamily, and the glyphs are included in the [Symbol](symbol.md) enumeration. 
+Use FontIcon to specify an icon using a [Glyph](fonticon_glyph.md) value from a [FontFamily](fonticon_fontfamily.md). You must have the font available for the glyphs to show. Glyph values are assigned by font developers to private Unicode values that don’t map to existing code points. Windows 10 uses the **Segoe MDL2 Assets** FontFamily, and the glyphs are included in the [Symbol](symbol.md) enumeration. 
 
-You can set the [MirroredWhenRightToLeft](fonticon_mirroredwhenrighttoleft.md) property to have the glyph appear mirrored when the [FlowDirection](../windows.ui.xaml/frameworkelement_flowdirection.md) is [RightToLeft](../windows.ui.xaml/flowdirection.md). You typically use this property when a [FontIcon](fonticon.md) is used to display an icon as part of a control template and the icon needs to be mirrored along with the rest of the control.
+You can set the [MirroredWhenRightToLeft](fonticon_mirroredwhenrighttoleft.md) property to have the glyph appear mirrored when the [FlowDirection](../windows.ui.xaml/frameworkelement_flowdirection.md) is [RightToLeft](../windows.ui.xaml/flowdirection.md). You typically use this property when a FontIcon is used to display an icon as part of a control template and the icon needs to be mirrored along with the rest of the control.
 
 > [!NOTE]
-> You can set the **Foreground** property on the [AppBarButton](appbarbutton.md) or on the [FontIcon](fonticon.md). If you set the [Foreground](control_foreground.md) on the [AppBarButton](appbarbutton.md), it's applied only to the default visual state. It's not applied to the other visual states defined in the [AppBarButton](appbarbutton.md) template, like `MouseOver`. If you set the [Foreground](iconelement_foreground.md) on the [FontIcon](fonticon.md), the color is applied to all visual states.
+> You can set the **Foreground** property on the [AppBarButton](appbarbutton.md) or on the FontIcon. If you set the [Foreground](control_foreground.md) on the [AppBarButton](appbarbutton.md), it's applied only to the default visual state. It's not applied to the other visual states defined in the [AppBarButton](appbarbutton.md) template, like `MouseOver`. If you set the [Foreground](iconelement_foreground.md) on the FontIcon, the color is applied to all visual states.
 
 ## -examples
-This example shows an [AppBarToggleButton](appbartogglebutton.md) with a [FontIcon](fonticon.md).
+This example shows an [AppBarToggleButton](appbartogglebutton.md) with a FontIcon.
 
 ```xaml
 <AppBarToggleButton Label="FontIcon" Click="AppBarButton_Click">

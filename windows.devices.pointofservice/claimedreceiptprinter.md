@@ -14,7 +14,7 @@ public class ClaimedReceiptPrinter : Windows.Devices.PointOfService.IClaimedRece
 Represents a receipt printer station that has been claimed for use.
 
 ## -remarks
-To get a [ClaimedReceiptPrinter](claimedreceiptprinter.md) object, use the [ClaimedPosPrinter.Receipt](claimedposprinter_receipt.md) property.
+To get a ClaimedReceiptPrinter object, use the [ClaimedPosPrinter.Receipt](claimedposprinter_receipt.md) property.
 
 ## -examples
 

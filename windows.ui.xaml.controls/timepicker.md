@@ -20,7 +20,7 @@ Represents a control that allows a user to pick a time value.
 
 
 ## -remarks
-[TimePicker](timepicker.md) is a control that lets a user set a time value.
+TimePicker is a control that lets a user set a time value.
 
 <img src="images/controls/TimePicker.png" alt="TimePicker control" />
 
@@ -30,7 +30,7 @@ You can modify the default [Style](../windows.ui.xaml/style.md) and [ControlTemp
 
 Starting in Windows 10, version 1607 (SDK 14393), generic.xaml includes resources that you can use to modify the colors of a control in different visual states without modifying the control template. In apps that target this software development kit (SDK) or later, modifying these resources is preferred to setting properties such as [Background](control_background.md) and [Foreground](control_foreground.md). For more info, see the [Light-weight styling](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) section of the [Styling controls](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) article.
 
-This table shows the resources used by the [TimePicker](timepicker.md) control.
+This table shows the resources used by the TimePicker control.
 
 <table>
    <tr><th>Resource key</th><th>Description</th></tr>

@@ -23,7 +23,7 @@ True extends the text range by moving just the end position of the range to the 
 The number of character positions that the range was moved or extended, plus 1 if the text range collapsed to the start of the range. If the text range includes the final carriage return (CR) at the end of the story, and *extend* is false, the return value is set to –1 to indicate that the collapse occurred before the end of the range. This is because an insertion point cannot exist beyond the final CR.
 
 ## -remarks
-If the range is an insertion point on a boundary between units, the [EndOf](itextrange_endof_428994747.md) method does not change the end position of the range.
+If the range is an insertion point on a boundary between units, the EndOf method does not change the end position of the range.
 
 ## -examples
 

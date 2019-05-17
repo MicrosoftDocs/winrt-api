@@ -29,7 +29,7 @@ The language of the conversion.
 The value to be passed to the source object.
 
 ## -remarks
-If you don't use a converter for **TwoWay** bindings it's acceptable to leave [ConvertBack](ivalueconverter_convertback_2106225504.md) unimplemented (uses the template default from Visual Studio where it returns a **NotImplementedException**).
+If you don't use a converter for **TwoWay** bindings it's acceptable to leave ConvertBack unimplemented (uses the template default from Visual Studio where it returns a **NotImplementedException**).
 
 ## -examples
 

@@ -13,7 +13,7 @@ public class WalletActionActivatedEventArgs : Windows.ApplicationModel.Activatio
 Provides information to an app that was launched as the result of a wallet action.
 
 ## -remarks
-You access a [WalletActionActivatedEventArgs](walletactionactivatedeventargs.md) object when you implement an event handler that responds to [Activated](../windows.applicationmodel.core/coreapplicationview_activated.md) events when [ActivationKind](activationkind.md) is **WalletAction**.
+You access a WalletActionActivatedEventArgs object when you implement an event handler that responds to [Activated](../windows.applicationmodel.core/coreapplicationview_activated.md) events when [ActivationKind](activationkind.md) is **WalletAction**.
 
 ## -examples
 

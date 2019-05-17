@@ -16,7 +16,7 @@ In most cases, we recommend that you get pointer info through the event argument
 
 If the event argument doesn't intrinsically expose the pointer details required by your app, you can get access to extended pointer data through the [GetCurrentPoint](../windows.ui.xaml/input/pointerroutedeventargs_getcurrentpoint_1761708789.md) and [GetIntermediatePoints](../windows.ui.xaml/input/pointerroutedeventargs_getintermediatepoints_1716242609.md) methods of [PointerRoutedEventArgs](../windows.ui.xaml/input/pointerroutedeventargs.md). Use these methods to specify the context of the pointer data.
 
-The static [PointerPoint](pointerpoint.md) methods, [GetCurrentPoint](pointerpoint_getcurrentpoint_131721878.md) and [GetIntermediatePoints](pointerpoint_getintermediatepoints_143894736.md), always use the app context.
+The static [PointerPoint](pointerpoint.md) methods, [GetCurrentPoint](pointerpoint_getcurrentpoint_131721878.md) and GetIntermediatePoints, always use the app context.
 
 ## -parameters
 ### -param pointerId
@@ -26,7 +26,7 @@ The ID of the pointer.
 The transformed pointer properties (current and historic).
 
 ## -remarks
-[GetIntermediatePoints](pointerpoint_getintermediatepoints_143894736.md) is a static method.
+GetIntermediatePoints is a static method.
 
 The most recent pointer information retrieved by this method is equivalent to that retrieved by the [GetCurrentPoint](pointerpoint_getcurrentpoint_131721878.md) method.
 

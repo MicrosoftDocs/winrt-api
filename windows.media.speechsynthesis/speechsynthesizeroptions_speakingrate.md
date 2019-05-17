@@ -26,7 +26,7 @@ Some voices have minimum speaking rates faster than 0.5 and maximum speaking rat
 
 ## -remarks
 
-If Speech Synthesis Markup Language (SSML) is used, [SpeakingRate](speechsynthesizeroptions_speakingrate.md) is combined with any prosody tags in the markup.
+If Speech Synthesis Markup Language (SSML) is used, SpeakingRate is combined with any prosody tags in the markup.
 
 > [!NOTE]
 > Prosody are properties of syllables and larger units of speech, not individual phonetic segments (vowels and consonants).

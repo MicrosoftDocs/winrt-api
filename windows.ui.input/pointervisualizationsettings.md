@@ -17,12 +17,12 @@ Provides access to the visual feedback settings for pointer input.
 > Pointer visualizations are supported by the Desktop device family only.
 
 ## -remarks
-Call [GetForCurrentView](pointervisualizationsettings_getforcurrentview_1363600702.md) to get a [PointerVisualizationSettings](pointervisualizationsettings.md) object associated with the active app. This object is used to set the visual feedback preferences for the app.
+Call [GetForCurrentView](pointervisualizationsettings_getforcurrentview_1363600702.md) to get a PointerVisualizationSettings object associated with the active app. This object is used to set the visual feedback preferences for the app.
 
 This
 
 ## -examples
-The following example demonstrates the use of [GetForCurrentView](pointervisualizationsettings_getforcurrentview_1363600702.md) to retrieve an instance of [PointerVisualizationSettings](pointervisualizationsettings.md) through which the visual feedback preferences for the current app are set.
+The following example demonstrates the use of [GetForCurrentView](pointervisualizationsettings_getforcurrentview_1363600702.md) to retrieve an instance of PointerVisualizationSettings through which the visual feedback preferences for the current app are set.
 
 ```javascript
 

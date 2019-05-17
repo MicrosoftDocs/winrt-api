@@ -17,22 +17,22 @@ Updates the [DesiredSize](uielement_desiredsize.md) of a [UIElement](uielement.m
 The available space that a parent can allocate to a child object. A child object can request a larger space than what is available; the provided size might be accommodated if scrolling or other resize behavior is possible in that particular container.
 
 ## -remarks
-The [Measure](uielement_measure_1722732750.md) call potentially reaches a [MeasureOverride](frameworkelement_measureoverride_1586581644.md) implementation of that specific class. Otherwise, most [FrameworkElement](frameworkelement.md) classes have an implicit default layout behavior for [Measure](uielement_measure_1722732750.md).
+The Measure call potentially reaches a [MeasureOverride](frameworkelement_measureoverride_1586581644.md) implementation of that specific class. Otherwise, most [FrameworkElement](frameworkelement.md) classes have an implicit default layout behavior for Measure.
 
 *availableSize* can be any number from zero to infinite. Elements participating in layout should return the minimum [Size](../windows.foundation/size.md) they require for a given *availableSize*.
 
-Computation of initial layout positioning in a XAML UI consists of a [Measure](uielement_measure_1722732750.md) call and an [Arrange](uielement_arrange_958316931.md) call, in that order. During the [Measure](uielement_measure_1722732750.md) call, the layout system determines an element's size requirements using the *availableSize* measurement. During the [Arrange](uielement_arrange_958316931.md) call, the layout system finalizes the size and position of an element's bounding box.
+Computation of initial layout positioning in a XAML UI consists of a Measure call and an [Arrange](uielement_arrange_958316931.md) call, in that order. During the Measure call, the layout system determines an element's size requirements using the *availableSize* measurement. During the [Arrange](uielement_arrange_958316931.md) call, the layout system finalizes the size and position of an element's bounding box.
 
-When a layout is first produced, it always has a [Measure](uielement_measure_1722732750.md) call that happens before [Arrange](uielement_arrange_958316931.md). However, after the first layout pass, an [Arrange](uielement_arrange_958316931.md) call can happen without a [Measure](uielement_measure_1722732750.md) preceding it. This can happen when a property that affects only [Arrange](uielement_arrange_958316931.md) is changed (such as alignment), or when the parent receives an [Arrange](uielement_arrange_958316931.md) without a [Measure](uielement_measure_1722732750.md).
+When a layout is first produced, it always has a Measure call that happens before [Arrange](uielement_arrange_958316931.md). However, after the first layout pass, an [Arrange](uielement_arrange_958316931.md) call can happen without a Measure preceding it. This can happen when a property that affects only [Arrange](uielement_arrange_958316931.md) is changed (such as alignment), or when the parent receives an [Arrange](uielement_arrange_958316931.md) without a Measure.
 
-A [Measure](uielement_measure_1722732750.md) call will automatically invalidate any [Arrange](uielement_arrange_958316931.md) information. Layout updates generally occur asynchronously (at a time determined by the layout system). An element might not immediately reflect changes to properties that affect element sizing (such as [Width](frameworkelement_actualwidth.md)).
+A Measure call will automatically invalidate any [Arrange](uielement_arrange_958316931.md) information. Layout updates generally occur asynchronously (at a time determined by the layout system). An element might not immediately reflect changes to properties that affect element sizing (such as [Width](frameworkelement_actualwidth.md)).
 
 ## -examples
 This example implements [MeasureOverride](frameworkelement_measureoverride_1586581644.md) to customize the "Measure" pass logic for a custom panel implementation. Note in particular these aspects of the code:
 
 
 + Iterates over children.
-+ For each child, calls [Measure](uielement_measure_1722732750.md), using a [Size](../windows.foundation/size.md) that makes sense based on how the panel logic treats the number of children and its own known size limit.
++ For each child, calls Measure, using a [Size](../windows.foundation/size.md) that makes sense based on how the panel logic treats the number of children and its own known size limit.
 + Returns its size (in this case, this simple panel returns a fixed size rather than a size calculated on accumulating the measurements).
 
 

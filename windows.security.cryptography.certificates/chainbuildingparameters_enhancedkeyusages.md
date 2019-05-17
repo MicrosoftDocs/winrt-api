@@ -16,7 +16,7 @@ Gets a collection of object identifiers (OIDs) for the enhanced key usage extens
 A collection of object identifiers (OIDs) for the enhanced key usage extension.
 
 ## -remarks
-The [EnhancedKeyUsages](chainbuildingparameters_enhancedkeyusages.md) property is read-only. However, the list of object identifiers (OIDs) that is returned is writable and you can add OIDs for enhanced key usage to the list.
+The EnhancedKeyUsages property is read-only. However, the list of object identifiers (OIDs) that is returned is writable and you can add OIDs for enhanced key usage to the list.
 
 ## -examples
 

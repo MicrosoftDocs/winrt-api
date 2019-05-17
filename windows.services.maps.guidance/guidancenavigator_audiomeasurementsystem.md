@@ -19,7 +19,7 @@ Gets or sets the measurement system used for audio guidance.
 The measurement system used for audio guidance.
 
 ## -remarks
-Regardless of the measurement system used for audio guidance ([AudioMeasurementSystem](guidancenavigator_audiomeasurementsystem.md)), the metric system is always used for distance and speed API values.
+Regardless of the measurement system used for audio guidance (AudioMeasurementSystem), the metric system is always used for distance and speed API values.
 
 ## -examples
 

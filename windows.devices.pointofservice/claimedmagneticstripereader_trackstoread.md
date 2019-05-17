@@ -17,7 +17,7 @@ Gets or sets the track data that the application wants to receive following a ca
 The card track.
 
 ## -remarks
-[TracksToRead](claimedmagneticstripereader_trackstoread.md) determines which tracks the application wants to receive following a card swipe. This does not indicate the capability of the device hardware; instead, it is an application configurable property representing which tracks to read. There are cases when the desired data cannot be obtained, such as cards not having data for a particular track.
+TracksToRead determines which tracks the application wants to receive following a card swipe. This does not indicate the capability of the device hardware; instead, it is an application configurable property representing which tracks to read. There are cases when the desired data cannot be obtained, such as cards not having data for a particular track.
 
 Decreasing the required number of tracks may provide a greater success rate and somewhat greater responsiveness by removing the processing for inaccessible data.
 

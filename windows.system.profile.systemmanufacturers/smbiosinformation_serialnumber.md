@@ -16,9 +16,9 @@ Gets the serial number from the SMBIOS for the system.
 The serial number.
 
 ## -remarks
-The [SerialNumber](smbiosinformation_serialnumber.md) property securely retrieves the serial number from the SMBIOS for the system. For a UWP app to access the serial number, the system manufacturer must specify the app in the system's metadata.
+The SerialNumber property securely retrieves the serial number from the SMBIOS for the system. For a UWP app to access the serial number, the system manufacturer must specify the app in the system's metadata.
 
-System manufacturers typically use the [SerialNumber](smbiosinformation_serialnumber.md) property to aid in identification of devices for servicing and troubleshooting operations.
+System manufacturers typically use the SerialNumber property to aid in identification of devices for servicing and troubleshooting operations.
 
 ## -examples
 

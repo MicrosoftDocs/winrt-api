@@ -16,7 +16,7 @@ Gets the IP address of the remote sender of the datagram on the [DatagramSocket]
 The IP address of the remote network destination when the message is received on a [DatagramSocket](datagramsocket.md).
 
 ## -remarks
-The [DatagramSocketMessageReceivedEventArgs.RemoteAddress](datagramsocketmessagereceivedeventargs_remoteaddress.md) property gets the IP address of the remote sender when a datagram was received on a [DatagramSocket](datagramsocket.md). A message received event can only occur after a successful connect or bind operation on the [DatagramSocket](datagramsocket.md).
+The DatagramSocketMessageReceivedEventArgs.RemoteAddress property gets the IP address of the remote sender when a datagram was received on a [DatagramSocket](datagramsocket.md). A message received event can only occur after a successful connect or bind operation on the [DatagramSocket](datagramsocket.md).
 
 ## -examples
 

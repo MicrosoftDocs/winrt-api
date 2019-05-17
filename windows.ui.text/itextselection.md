@@ -15,7 +15,7 @@ Represents the currently selected text of a document.
 ## -remarks
 ### Interface inheritance
 
-[ITextSelection](itextselection.md) inherits [ITextRange](itextrange.md). Types that implement [ITextSelection](itextselection.md) also implement the interface members of [ITextRange](itextrange.md).
+ITextSelection inherits [ITextRange](itextrange.md). Types that implement ITextSelection also implement the interface members of [ITextRange](itextrange.md).
 
 ## -examples
 

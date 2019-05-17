@@ -16,7 +16,7 @@ Gets the domain name component, including top-level domain, from a Uniform Resou
 The domain name.
 
 ## -remarks
-If the domain name is subject to *Punycode* encoding as shown in [AbsoluteCanonicalUri](uri_absolutecanonicaluri.md), the [Domain](uri_domain.md) property shows the decoded value, not the *Punycode* encoded value.
+If the domain name is subject to *Punycode* encoding as shown in [AbsoluteCanonicalUri](uri_absolutecanonicaluri.md), the Domain property shows the decoded value, not the *Punycode* encoded value.
 
 ## -examples
 

@@ -16,7 +16,7 @@ The height of the first frame in pixels.
 The height of the first frame in pixels.
 
 ## -remarks
-Use [PixelHeight](bitmapdecoder_pixelheight.md) for pixel dimensions of the image as it is natively stored.
+Use PixelHeight for pixel dimensions of the image as it is natively stored.
 
 ## -examples
 

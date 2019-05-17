@@ -10,7 +10,7 @@ public Windows.Foundation.IAsyncActionWithProgress<Windows.Web.Syndication.Trans
 # Windows.Web.AtomPub.AtomPubClient.UpdateResourceAsync
 
 ## -description
-Updates an existing Entry or Media Link resource. If an ETag: header has previously been seen while retrieving this resource (in a response to [RetrieveResourceAsync](atompubclient_retrieveresourceasync_1946100714.md), [CreateResourceAsync](atompubclient_createresourceasync_823380555.md) or a previous call to [UpdateResourceAsync](atompubclient_updateresourceasync_241802746.md)), this method automatically sends an If-Match: header with the remembered value.
+Updates an existing Entry or Media Link resource. If an ETag: header has previously been seen while retrieving this resource (in a response to [RetrieveResourceAsync](atompubclient_retrieveresourceasync_1946100714.md), [CreateResourceAsync](atompubclient_createresourceasync_823380555.md) or a previous call to UpdateResourceAsync), this method automatically sends an If-Match: header with the remembered value.
 
 ## -parameters
 ### -param uri

@@ -13,9 +13,9 @@ public class StreamWebSocketInformation : Windows.Networking.Sockets.IWebSocketI
 Provides socket information on a [StreamWebSocket](streamwebsocket.md) object.
 
 ## -remarks
-[StreamWebSocketInformation](streamwebsocketinformation.md) can be called any time after the [StreamWebSocket](streamwebsocket.md) has been created.
+StreamWebSocketInformation can be called any time after the [StreamWebSocket](streamwebsocket.md) has been created.
 
-A [StreamWebSocketInformation](streamwebsocketinformation.md) object is automatically created with the parent [StreamWebSocket](streamwebsocket.md) object. The [StreamWebSocket.Information](streamwebsocket_information.md) property provides access to the associated [StreamWebSocketInformation](streamwebsocketinformation.md) object.
+A StreamWebSocketInformation object is automatically created with the parent [StreamWebSocket](streamwebsocket.md) object. The [StreamWebSocket.Information](streamwebsocket_information.md) property provides access to the associated StreamWebSocketInformation object.
 
 
 

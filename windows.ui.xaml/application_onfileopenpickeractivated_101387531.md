@@ -17,7 +17,7 @@ Invoked when the application is activated through file-open dialog association.
 Event data for the event.
 
 ## -remarks
-[OnFileOpenPickerActivated](application_onfileopenpickeractivated_101387531.md) is a pre-defined activation point handler that is invoked for a core [Activated](../windows.ui.core/corewindow_activated.md) event when the [ActivationKind](../windows.applicationmodel.activation/activationkind.md) is **FileOpenPicker**.
+OnFileOpenPickerActivated is a pre-defined activation point handler that is invoked for a core [Activated](../windows.ui.core/corewindow_activated.md) event when the [ActivationKind](../windows.applicationmodel.activation/activationkind.md) is **FileOpenPicker**.
 
 All [Application](application.md) overrides involved in an activation scenario should call [Window.Activate](window_activate_1797342875.md) in their implementations.
 

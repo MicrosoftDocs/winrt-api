@@ -25,7 +25,7 @@ Revokes all files and folders protected for selective wipe for a specified enter
 Revoke all files and folders protected by selective wipe for this enterprise id. The *enterpriseIdentity* value must be formatted as an Internationalized Domain Name (IDN) and cannot contain spaces. For example, **contoso.com**.
 
 ## -remarks
-When your app determines that a user is no longer valid, you can quickly revoke access to all of the files and folders protected for an enterprise identity using the [Revoke](filerevocationmanager_revoke_675458443.md) method, as shown in the following example. The file is not deleted by the [Revoke](filerevocationmanager_revoke_675458443.md) method. The [Revoke](filerevocationmanager_revoke_675458443.md) method puts the file into state where it cannot be accessed. You can add code to your app to delete a file that is inaccessible and has been revoked.
+When your app determines that a user is no longer valid, you can quickly revoke access to all of the files and folders protected for an enterprise identity using the Revoke method, as shown in the following example. The file is not deleted by the Revoke method. The Revoke method puts the file into state where it cannot be accessed. You can add code to your app to delete a file that is inaccessible and has been revoked.
 
 ## -examples
 

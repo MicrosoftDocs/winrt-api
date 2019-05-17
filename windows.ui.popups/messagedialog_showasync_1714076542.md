@@ -23,8 +23,8 @@ To launch subsequent dialogs or other modal UI such as file pickers after a dial
 ### Calling showAsync while the splash screen is being displayed
 
 <!--This section was added for Windows Blue Bug 466096.-->
-+ **In :** Your app can call [showAsync](messagedialog_showasync_1714076542.md) from within the **activated** handler (the [onactivated event](https://msdn.microsoft.com/library/8b1cf913-a914-47d1-a690-bc3f0931e9d4) or the [CoreApplicationView.Activated event](../windows.applicationmodel.core/coreapplicationview_activated.md)), and paint operations then occur behind the app's splash screen.
-+ **Beginning in :**  Windows suppresses painting while the app is behind the splash screen to reduce wasteful operations. Your app should not call [showAsync](messagedialog_showasync_1714076542.md) from within the **activated** handler, but should instead wait for the **visibility changed** notification (the [visibilitychange event](XREF:TODO:wwa.MSHTMLDocumentExtensions_msvisibilitychanged) or the [CoreWindow.VisibilityChanged event](../windows.ui.core/corewindow_visibilitychanged.md)).
++ **In :** Your app can call showAsync from within the **activated** handler (the [onactivated event](https://msdn.microsoft.com/library/8b1cf913-a914-47d1-a690-bc3f0931e9d4) or the [CoreApplicationView.Activated event](../windows.applicationmodel.core/coreapplicationview_activated.md)), and paint operations then occur behind the app's splash screen.
++ **Beginning in :**  Windows suppresses painting while the app is behind the splash screen to reduce wasteful operations. Your app should not call showAsync from within the **activated** handler, but should instead wait for the **visibility changed** notification (the [visibilitychange event](XREF:TODO:wwa.MSHTMLDocumentExtensions_msvisibilitychanged) or the [CoreWindow.VisibilityChanged event](../windows.ui.core/corewindow_visibilitychanged.md)).
 
 
 ## -examples

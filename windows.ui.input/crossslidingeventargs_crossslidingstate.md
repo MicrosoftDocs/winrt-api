@@ -17,7 +17,7 @@ Gets the state of the [CrossSliding](gesturerecognizer_crosssliding.md) event.
 State of the [CrossSliding](gesturerecognizer_crosssliding.md) event.
 
 ## -remarks
-The [CrossSlidingState](crossslidingeventargs_crossslidingstate.md) property is set based on the distance thresholds specified by the [CrossSlideThresholds](gesturerecognizer_crossslidethresholds.md) property of a [GestureRecognizer](gesturerecognizer.md).
+The CrossSlidingState property is set based on the distance thresholds specified by the [CrossSlideThresholds](gesturerecognizer_crossslidethresholds.md) property of a [GestureRecognizer](gesturerecognizer.md).
 
 ## -examples
 

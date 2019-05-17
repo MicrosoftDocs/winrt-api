@@ -35,7 +35,7 @@ The representation of the state to transition to.
 **true** if the control successfully transitions to the new state; otherwise, **false**.
 
 ## -remarks
-This API is part of the scenario of defining a custom [VisualStateManager](visualstatemanager.md) behavior. Overriding [GoToStateCore](visualstatemanager_gotostatecore_681569745.md) changes the state behavior in your custom class behavior. 
+This API is part of the scenario of defining a custom [VisualStateManager](visualstatemanager.md) behavior. Overriding GoToStateCore changes the state behavior in your custom class behavior. 
 
 To reference your custom [VisualStateManager](visualstatemanager.md) class, set the value of the [VisualStateManager.CustomVisualStateManager](visualstatemanager_customvisualstatemanager.md) attached property within any control template where you want to use the custom [VisualStateManager](visualstatemanager.md) class behavior. You typically create an instance of the custom [VisualStateManager](visualstatemanager.md) class through default XAML construction in [Application.Resources](application_resources.md). Then the [VisualStateManager.CustomVisualStateManager](visualstatemanager_customvisualstatemanager.md) attached property is set using a [{StaticResource} markup extension](https://msdn.microsoft.com/library/d50349b5-4588-4ebd-9458-75f629ccc395) reference to the key of the custom [VisualStateManager](visualstatemanager.md) resource.
 

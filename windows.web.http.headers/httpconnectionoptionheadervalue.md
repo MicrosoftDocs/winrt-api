@@ -13,9 +13,9 @@ public class HttpConnectionOptionHeaderValue : Windows.Foundation.IStringable, W
 Represents connection information used in the **Connection** HTTP header on an HTTP request.
 
 ## -remarks
-The [HttpConnectionOptionHeaderValue](httpconnectionoptionheadervalue.md) class represents connection information used in the **Connection** HTTP header on an HTTP request.
+The HttpConnectionOptionHeaderValue class represents connection information used in the **Connection** HTTP header on an HTTP request.
 
-The [Connection](httprequestheadercollection_connection.md) property on the [HttpRequestHeaderCollection](httprequestheadercollection.md) returns an [HttpConnectionOptionHeaderValueCollection](httpconnectionoptionheadervaluecollection.md) that contains [HttpConnectionOptionHeaderValue](httpconnectionoptionheadervalue.md) objects.
+The [Connection](httprequestheadercollection_connection.md) property on the [HttpRequestHeaderCollection](httprequestheadercollection.md) returns an [HttpConnectionOptionHeaderValueCollection](httpconnectionoptionheadervaluecollection.md) that contains HttpConnectionOptionHeaderValue objects.
 
 ## -examples
 

@@ -16,7 +16,7 @@ Provides the peer's behavior when a Microsoft UI Automation client calls [GetCla
 The class name.
 
 ## -remarks
-You should never invoke the base behavior, and all custom peers should override [GetClassNameCore](automationpeer_getclassnamecore_637441696.md) to report the class name that is unique to that peer class. For more info, see [Custom automation peers](https://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4).
+You should never invoke the base behavior, and all custom peers should override GetClassNameCore to report the class name that is unique to that peer class. For more info, see [Custom automation peers](https://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4).
 
 ## -examples
 

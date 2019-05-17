@@ -27,7 +27,7 @@ If the [EndpointPair](../windows.networking/endpointpair.md) object passed in th
 
 If the [EndpointPair](../windows.networking/endpointpair.md) object passed in the *endpointPair* parameter contains null for the [LocalServiceName](../windows.networking/endpointpair_localservicename.md) property, then an error will occur.
 
-The [ConnectAsync(EndpointPair, SocketProtectionLevel)](streamsocket_connectasync_706428084.md) method is not exposed in JavaScript. This method can't be called from JavaScript since it has the same number of arguments as the [ConnectAsync(HostName, String)](streamsocket_connectasync_1841953676.md) method.
+The [ConnectAsync(EndpointPair, SocketProtectionLevel) method is not exposed in JavaScript. This method can't be called from JavaScript since it has the same number of arguments as the [ConnectAsync(HostName, String)](streamsocket_connectasync_1841953676.md) method.
 
 Apps written in JavaScript can't connect a [StreamSocket](streamsocket.md) using an [EndpointPair](../windows.networking/endpointpair.md) using SSL directly. In order to connect an [EndpointPair](../windows.networking/endpointpair.md) using SSL, JavaScript apps can use the following code instead.
 

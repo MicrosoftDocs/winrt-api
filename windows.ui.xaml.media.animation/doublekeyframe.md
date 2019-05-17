@@ -15,7 +15,7 @@ An abstract class that defines an animation segment with its own target value an
 ## -remarks
 ### **DoubleKeyFrame** derived classes
 
-[DoubleKeyFrame](doublekeyframe.md) is the parent class for several immediately derived classes that define the interpolation behavior for the typed keyframe.
+DoubleKeyFrame is the parent class for several immediately derived classes that define the interpolation behavior for the typed keyframe.
 
 + [DiscreteDoubleKeyFrame](discretedoublekeyframe.md)
 + [EasingDoubleKeyFrame](easingdoublekeyframe.md)

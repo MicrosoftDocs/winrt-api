@@ -21,7 +21,7 @@ Occurs when a button control is clicked.
 ## -remarks
 
 ## -examples
-The following example demonstrates handling the [Click](buttonbase_click.md) event and setting the [IsEnabled](../windows.ui.xaml.controls/control_isenabled.md) property of a [Button](../windows.ui.xaml.controls/button.md), which inherits from [ButtonBase](buttonbase.md).
+The following example demonstrates handling the Click event and setting the [IsEnabled](../windows.ui.xaml.controls/control_isenabled.md) property of a [Button](../windows.ui.xaml.controls/button.md), which inherits from [ButtonBase](buttonbase.md).
 
 
 

@@ -21,7 +21,7 @@ Provides the animated transition behavior on controls when they first appear. Yo
 ## -remarks
 
 ## -examples
-This example shows a how to apply an [EntranceThemeTransition](entrancethemetransition.md) to a [Button](../windows.ui.xaml.controls/button.md).
+This example shows a how to apply an EntranceThemeTransition to a [Button](../windows.ui.xaml.controls/button.md).
 
 [!code-xml[EntranceThemeTransitionSimple](../windows.ui.xaml.media.animation/code/EntranceThemeTransition/csharp/BlankPage.xaml#SnippetEntranceThemeTransitionSimple)]
 

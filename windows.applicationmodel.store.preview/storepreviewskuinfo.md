@@ -13,7 +13,7 @@ public class StorePreviewSkuInfo : Windows.ApplicationModel.Store.Preview.IStore
 Provides information about the available SKUs for an in-app product.
 
 ## -remarks
-The [SkuInfoList](storepreviewproductinfo_skuinfolist.md) property of the [StorePreviewProductInfo](storepreviewproductinfo.md) class returns a list of [StorePreviewSkuInfo](storepreviewskuinfo.md) objects that provide information about the available SKUs for the in-app product.
+The [SkuInfoList](storepreviewproductinfo_skuinfolist.md) property of the [StorePreviewProductInfo](storepreviewproductinfo.md) class returns a list of StorePreviewSkuInfo objects that provide information about the available SKUs for the in-app product.
 
 ## -examples
 

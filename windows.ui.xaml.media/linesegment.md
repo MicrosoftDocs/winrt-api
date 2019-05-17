@@ -21,7 +21,7 @@ Represents a line drawn between two points, which can be part of a [PathFigure](
 ## -remarks
 
 ## -examples
-This example creates a simple [PathGeometry](pathgeometry.md) made up of a single [PathFigure](pathfigure.md) with a [LineSegment](linesegment.md) and displays it using a [Path](../windows.ui.xaml.shapes/path.md) element. The [PathFigure](pathfigure.md) object's [StartPoint](pathfigure_startpoint.md) is set to `(10,20)` and a [LineSegment](linesegment.md) is defined with an end point of `(100,130)`.
+This example creates a simple [PathGeometry](pathgeometry.md) made up of a single [PathFigure](pathfigure.md) with a LineSegment and displays it using a [Path](../windows.ui.xaml.shapes/path.md) element. The [PathFigure](pathfigure.md) object's [StartPoint](pathfigure_startpoint.md) is set to `(10,20)` and a LineSegment is defined with an end point of `(100,130)`.
 
 
 

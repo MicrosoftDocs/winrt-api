@@ -10,7 +10,7 @@ Provides functionality for apps to invoke system-level UI to manage sync partner
 
 ## -remarks
 > [!IMPORTANT]
-> The APIs exposed via the [Windows.ApplicationModel.UserDataAccounts.SystemAccess](windows_applicationmodel_userdataaccounts_systemaccess.md) namespace require the application to have the restricted **EmailSystem** capability.
+> The APIs exposed via the Windows.ApplicationModel.UserDataAccounts.SystemAccess namespace require the application to have the restricted **EmailSystem** capability.
 
 ## -examples
 

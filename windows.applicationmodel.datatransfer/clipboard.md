@@ -15,7 +15,7 @@ Gets and sets information from the clipboard object.
 
 ## -remarks
 
-Because the [Clipboard](clipboard.md) class is a static class, you don't need to create an instance of it to access its methods.
+Because the Clipboard class is a static class, you don't need to create an instance of it to access its methods.
 
 > [!NOTE]
 > This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
@@ -24,7 +24,7 @@ You can only access the clipboard when the calling application is in focus on th
 
 ## -examples
 
-The following sample shows how to track changes to the [Clipboard](clipboard.md). If the [Clipboard](clipboard.md) has text, the code adds the text to an HTML page.
+The following sample shows how to track changes to the Clipboard. If the Clipboard has text, the code adds the text to an HTML page.
 
 [!code-js[TrackClipboardChanges](../windows.applicationmodel.datatransfer/code/ClipBoardBeta/js/default.js#SnippetTrackClipboardChanges)]
 

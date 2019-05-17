@@ -13,7 +13,7 @@ public class SyndicationLink : Windows.Web.Syndication.ISyndicationLink, Windows
 Represents a link within a syndication feed or item. This class encapsulates information in the **/rss/channel/link** or /**rss/channel/item/link** element in *RSS 2.0* or the **atom:link** element in *Atom 1.0*.
 
 ## -remarks
-The following table maps [SyndicationLink](syndicationlink.md) properties to RSS and Atom feed elements.
+The following table maps SyndicationLink properties to RSS and Atom feed elements.
 
 <table>
    <tr><th>SyndicationLink</th><th>RSS</th><th>Atom</th></tr>

@@ -28,7 +28,7 @@ Basic guidance regarding the origin of the type.
     
 
 ## -remarks
-When programming with .NET, this type is hidden and developers should use the [System.Type](https://msdn.microsoft.com/library/system.type.aspx) type. All Windows Runtime APIs that use a [TypeName](typename.md) per the raw IDL signatures will instead use [System.Type](https://msdn.microsoft.com/library/system.type.aspx) values when you use the API with .NET code.
+When programming with .NET, this type is hidden and developers should use the [System.Type](https://msdn.microsoft.com/library/system.type.aspx) type. All Windows Runtime APIs that use a TypeName per the raw IDL signatures will instead use [System.Type](https://msdn.microsoft.com/library/system.type.aspx) values when you use the API with .NET code.
 
 ### Projection and members of TypeName
 

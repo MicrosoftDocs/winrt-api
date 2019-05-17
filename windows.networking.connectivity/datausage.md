@@ -11,7 +11,7 @@ public class DataUsage : Windows.Networking.Connectivity.IDataUsage
 
 ## -description
 > [!NOTE]
-> [DataUsage](datausage.md) may be altered or unavailable for releases after Windows 8.1. Instead, use [NetworkUsage](networkusage.md)
+> DataUsage may be altered or unavailable for releases after Windows 8.1. Instead, use [NetworkUsage](networkusage.md)
 
 Represents data usage information returned by the [ConnectionProfile.GetLocalUsage](connectionprofile_getlocalusage_2102872925.md) method.
 

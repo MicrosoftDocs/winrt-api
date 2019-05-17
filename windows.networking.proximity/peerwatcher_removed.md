@@ -14,7 +14,7 @@ public event Windows.Foundation.TypedEventHandler Removed<Windows.Networking.Pro
 Occurs when a peer app is no longer within wireless range.
 
 ## -remarks
-The [Removed](peerwatcher_removed.md) event is raised when a peer app is removed from the collection of enumerated peer apps. This may happen if a user switches apps or if a device is no longer within range.
+The Removed event is raised when a peer app is removed from the collection of enumerated peer apps. This may happen if a user switches apps or if a device is no longer within range.
 
 
 

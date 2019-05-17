@@ -11,7 +11,7 @@ public string InvokeScript(System.String scriptName, System.String[] arguments)
 
 ## -description
 > [!NOTE]
-> [InvokeScript](webview_invokescript_1786819783.md) may be altered or unavailable for releases after Windows 8.1. Instead, use [InvokeScriptAsync](webview_invokescriptasync_1912773610.md).
+> InvokeScript may be altered or unavailable for releases after Windows 8.1. Instead, use [InvokeScriptAsync](webview_invokescriptasync_1912773610.md).
 
 Executes the specified script function from the currently loaded HTML, with specific arguments.
 

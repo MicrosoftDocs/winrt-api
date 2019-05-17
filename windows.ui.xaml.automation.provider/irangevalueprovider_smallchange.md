@@ -13,7 +13,7 @@ public double SmallChange { get; }
 Gets the value that is added to or subtracted from the [Value](irangevalueprovider_value.md) property when a small change is made, such as with an arrow key.
 
 ## -property-value
-The small-change value supported by the control, or null if the control does not support [SmallChange](irangevalueprovider_smallchange.md).
+The small-change value supported by the control, or null if the control does not support SmallChange.
 
 ## -remarks
 

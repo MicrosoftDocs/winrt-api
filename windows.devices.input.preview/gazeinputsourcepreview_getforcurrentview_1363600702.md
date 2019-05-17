@@ -15,7 +15,7 @@ Retrieves a reference to the user identified by an eye-tracking device, bound to
 
 ## -returns
 
-A [GazeInputSourcePreview](gazeinputsourcepreview_getforcurrentview_1363600702.md) object bound to the active application.
+A GazeInputSourcePreview object bound to the active application.
 
 ## -remarks
 

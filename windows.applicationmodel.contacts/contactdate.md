@@ -13,7 +13,7 @@ public class ContactDate : Windows.ApplicationModel.Contacts.IContactDate
 Represents an important date for a contact.
 
 ## -remarks
-Here is how to use the [ContactDate](contactdate.md) properties to format date strings.
+Here is how to use the ContactDate properties to format date strings.
 
 
 ### Insert sentinel values

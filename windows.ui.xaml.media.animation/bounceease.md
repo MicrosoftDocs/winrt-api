@@ -19,14 +19,14 @@ Represents an easing function that creates an animated bouncing effect.
 
 
 ## -remarks
-[BounceEase](bounceease.md) has two controlling properties [Bounciness](bounceease_bounciness.md) and [Bounces](bounceease_bounces.md) that affect the behavior of the function.
+BounceEase has two controlling properties [Bounciness](bounceease_bounciness.md) and [Bounces](bounceease_bounces.md) that affect the behavior of the function.
 
-[ElasticEase](elasticease.md) is a similar easing function that works well for physics emulation in animations. The difference with [BounceEase](bounceease.md) is that an [ElasticEase](elasticease.md) can go outside the **From**/**To** range. Another way to conceptualize the two easing functions is that [ElasticEase](elasticease.md) is what you might use to animate the plucking of a string, whereas [BounceEase](bounceease.md) is what you might use to show the bounce of a ball against a line or plane.
+[ElasticEase](elasticease.md) is a similar easing function that works well for physics emulation in animations. The difference with BounceEase is that an [ElasticEase](elasticease.md) can go outside the **From**/**To** range. Another way to conceptualize the two easing functions is that [ElasticEase](elasticease.md) is what you might use to animate the plucking of a string, whereas BounceEase is what you might use to show the bounce of a ball against a line or plane.
 
 An easing function can be applied to the **EasingFunction** properties of **From**/**To**/**By** animations, or to the **EasingFunction** properties of key-frame types used for the **Easing** variants of key-frame animations. For more info, see [Key-frame animations and easing function animations](https://msdn.microsoft.com/library/d8af24cd-f4c2-4562-afd7-25010955d677).
 
 ## -examples
-The following example applies a [BounceEase](bounceease.md) easing function to a [DoubleAnimation](doubleanimation.md) to create a bouncing effect.
+The following example applies a BounceEase easing function to a [DoubleAnimation](doubleanimation.md) to create a bouncing effect.
 
 
 

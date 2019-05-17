@@ -20,7 +20,7 @@ The most recently chosen [UIElement](../windows.ui.xaml/uielement.md) for scroll
 
 ## -remarks
 
-If there are no anchor candidates registered with the [IScrollAnchorProvider](iscrollanchorprovider.md) or none have been chosen, then [CurrentAnchor](iscrollanchorprovider_currentanchor.md) is **null**.
+If there are no anchor candidates registered with the [IScrollAnchorProvider](iscrollanchorprovider.md) or none have been chosen, then CurrentAnchor is **null**.
 
 ## -see-also
 

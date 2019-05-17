@@ -23,13 +23,13 @@ Represents a control that indicates the progress of an operation, where the typi
 > [!TIP]
 > For more info, design guidance, and code examples, see [[Progress controls](/windows/uwp/controls-and-patterns/progress-controls).
 
-A [ProgressBar](progressbar.md) control visually indicates progress of an operation with one of two styles: a bar that displays a repeating pattern, or a bar that fills based on a value.
+A ProgressBar control visually indicates progress of an operation with one of two styles: a bar that displays a repeating pattern, or a bar that fills based on a value.
 
 <img src="images/controls/ProgressBar_Indeterminate.png" alt="Indeterminate progress bar control" />
 
 <img alt="Progress bar control" src="images/controls/ProgressBar_Determinate.png" />
 
-The [IsIndeterminate](progressbar_isindeterminate.md) property determines the appearance of a [ProgressBar](progressbar.md).
+The [IsIndeterminate](progressbar_isindeterminate.md) property determines the appearance of a ProgressBar.
 + Set [IsIndeterminate](progressbar_isindeterminate.md) to **true** to display a repeating pattern. An alternative control to use for indeterminate progress is a [ProgressRing](progressring.md).
 + Set [IsIndeterminate](progressbar_isindeterminate.md) to **false** to fill the bar based on a value. When [IsIndeterminate](progressbar_isindeterminate.md) is **false**, you specify the range with the [Minimum](../windows.ui.xaml.controls.primitives/rangebase_minimum.md) and [Maximum](../windows.ui.xaml.controls.primitives/rangebase_maximum.md) properties. By default [Minimum](../windows.ui.xaml.controls.primitives/rangebase_minimum.md) is 0 and [Maximum](../windows.ui.xaml.controls.primitives/rangebase_maximum.md) is 1. To specify the progress value, you set the [Value](../windows.ui.xaml.controls.primitives/rangebase_value.md) property.
 
@@ -37,7 +37,7 @@ The [IsIndeterminate](progressbar_isindeterminate.md) property determines the ap
 ### Notes for Windows 8.x
 
 > **Windows 8.x**
-> In an app compiled for Windows 8, when the [ProgressBar](progressbar.md) is indeterminate, the progress animation continues even if it's not visible on the screen, such as when the [ProgressBar](progressbar.md)  [Visibility](../windows.ui.xaml/uielement_visibility.md) is [Collapsed](../windows.ui.xaml/visibility.md). This can keep the UI thread awake, use resources, and impair app performance. When the [ProgressBar](progressbar.md) is not visible, you should disable the animation by setting [IsIndeterminate](progressbar_isindeterminate.md) to **false**.
+> In an app compiled for Windows 8, when the ProgressBar is indeterminate, the progress animation continues even if it's not visible on the screen, such as when the ProgressBar  [Visibility](../windows.ui.xaml/uielement_visibility.md) is [Collapsed](../windows.ui.xaml/visibility.md). This can keep the UI thread awake, use resources, and impair app performance. When the ProgressBar is not visible, you should disable the animation by setting [IsIndeterminate](progressbar_isindeterminate.md) to **false**.
 
 ## -examples
 
@@ -48,7 +48,7 @@ The [IsIndeterminate](progressbar_isindeterminate.md) property determines the ap
 > + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
 > + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
 
-The following example demonstrates a value-based [ProgressBar](progressbar.md) and an indeterminate [ProgressBar](progressbar.md).
+The following example demonstrates a value-based ProgressBar and an indeterminate ProgressBar.
 
 ```xaml
 <StackPanel x:Name="LayoutRoot">

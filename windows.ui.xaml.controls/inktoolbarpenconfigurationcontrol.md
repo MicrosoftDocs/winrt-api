@@ -15,10 +15,10 @@ Represents an object used to configure an optional flyout associated with an [In
 
 ## -remarks
 
-The [InkToolbarPenConfigurationControl](inktoolbarpenconfigurationcontrol.md) is configured by default for built-in pen buttons derived from [InkToolbarPenButton](inktoolbarpenbutton.md). Custom pen buttons can use these default settings or fully customize them (see examples).
+The InkToolbarPenConfigurationControl is configured by default for built-in pen buttons derived from [InkToolbarPenButton](inktoolbarpenbutton.md). Custom pen buttons can use these default settings or fully customize them (see examples).
 
 ## -examples
-Here's an example of a custom pen that reuses the default [InkToolbarPenConfigurationControl](inktoolbarpenconfigurationcontrol.md).
+Here's an example of a custom pen that reuses the default InkToolbarPenConfigurationControl.
 
 
 

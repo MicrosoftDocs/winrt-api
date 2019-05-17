@@ -10,10 +10,10 @@ public class Timeline : Windows.UI.Xaml.DependencyObject, Windows.UI.Xaml.Media.
 # Windows.UI.Xaml.Media.Animation.Timeline
 
 ## -description
-Defines a duration and other behavior properties for a Windows Runtime animation. [Timeline](timeline.md) is the base class for [Storyboard](storyboard.md) and all the Windows Runtime animation types, including those from the animation library and those used for custom animations in visual states or page-level XAML.
+Defines a duration and other behavior properties for a Windows Runtime animation. Timeline is the base class for [Storyboard](storyboard.md) and all the Windows Runtime animation types, including those from the animation library and those used for custom animations in visual states or page-level XAML.
 
 ## -remarks
-[Timeline](timeline.md) defines the [Duration](timeline_duration.md) property that controls how long an animation runs once started. [Timeline](timeline.md) also defines these behavior properties, which are common to all animations types, and to [Storyboard](storyboard.md):
+Timeline defines the [Duration](timeline_duration.md) property that controls how long an animation runs once started. Timeline also defines these behavior properties, which are common to all animations types, and to [Storyboard](storyboard.md):
 + [AutoReverse](timeline_autoreverse.md)
 + [BeginTime](timeline_begintime.md)
 + [FillBehavior](timeline_fillbehavior.md)
@@ -21,15 +21,15 @@ Defines a duration and other behavior properties for a Windows Runtime animation
 + [SpeedRatio](timeline_speedratio.md) (not commonly used)
 
 
-[Timeline](timeline.md) also defines the [Completed](timeline_completed.md) event for [Storyboard](storyboard.md) and animations. Handling the [Completed](timeline_completed.md) event isn't necessary or most UI animation scenarios.
+Timeline also defines the [Completed](timeline_completed.md) event for [Storyboard](storyboard.md) and animations. Handling the [Completed](timeline_completed.md) event isn't necessary or most UI animation scenarios.
 
-The relationship between [Storyboard](storyboard.md) and the animation types is that a [Storyboard](storyboard.md) is a container that can group multiple animations, and acts as the controller for starting and stopping the contained animations. When you set [Timeline](timeline.md) properties on a [Storyboard](storyboard.md) as opposed to individual animations within a [Storyboard](storyboard.md), the [Timeline](timeline.md) properties set in the [Storyboard](storyboard.md) typically override those from the combined animations. For more info see [Storyboarded animations](https://msdn.microsoft.com/library/0cbceea0-2b0e-44a1-a09a-f7a939632f3a).
+The relationship between [Storyboard](storyboard.md) and the animation types is that a [Storyboard](storyboard.md) is a container that can group multiple animations, and acts as the controller for starting and stopping the contained animations. When you set Timeline properties on a [Storyboard](storyboard.md) as opposed to individual animations within a [Storyboard](storyboard.md), the Timeline properties set in the [Storyboard](storyboard.md) typically override those from the combined animations. For more info see [Storyboarded animations](https://msdn.microsoft.com/library/0cbceea0-2b0e-44a1-a09a-f7a939632f3a).
 
-[Timeline](timeline.md) has a strongly typed collection class that is used for properties that take a set of [Timeline](timeline.md) values, such as [Storyboard.Children](storyboard_children.md). For more info see [TimelineCollection](timelinecollection.md).
+Timeline has a strongly typed collection class that is used for properties that take a set of Timeline values, such as [Storyboard.Children](storyboard_children.md). For more info see [TimelineCollection](timelinecollection.md).
 
 ### **Timeline** derived classes
 
-[Timeline](timeline.md) is the parent class for several immediately derived classes that support the storyboarded animation system and also the built-in library animations. Here are some of the notable derived classes:
+Timeline is the parent class for several immediately derived classes that support the storyboarded animation system and also the built-in library animations. Here are some of the notable derived classes:
 
 + [Storyboard](storyboard.md): A container and controller for other storyboarded animations that each target a particular object and property.
 + Typed animations: Each of these is used to animate a property that takes a particular value type, or an object. + [ColorAnimation](coloranimation.md), [ColorAnimationUsingKeyFrames](coloranimationusingkeyframes.md)
@@ -54,7 +54,7 @@ The relationship between [Storyboard](storyboard.md) and the animation types is 
 
 
 > [!NOTE]
-> Theme transitions don't derive from [Timeline](timeline.md), they derive from [Transition](transition.md).
+> Theme transitions don't derive from Timeline, they derive from [Transition](transition.md).
 
 
 ## -examples

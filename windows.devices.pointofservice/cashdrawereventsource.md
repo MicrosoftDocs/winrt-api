@@ -14,7 +14,7 @@ public class CashDrawerEventSource : Windows.Devices.PointOfService.ICashDrawerE
 Provides event sources that allow a developer to detect when the cash drawer is opened or closed.
 
 ## -remarks
-[CashDrawerEventSource](cashdrawereventsource.md) is created from [CashDrawer.DrawerEventSource](cashdrawer_drawereventsource.md).
+CashDrawerEventSource is created from [CashDrawer.DrawerEventSource](cashdrawer_drawereventsource.md).
 
 ## -examples
 

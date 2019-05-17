@@ -27,11 +27,11 @@ Represents a switch that can be toggled between two states.
 > [!TIP]
 > For more info, design guidance, and code examples, see [Toggle switches](/windows/uwp/design/controls-and-patterns/toggles).
 
-[ToggleSwitch](toggleswitch.md) is a control that can be toggled between 2 states.
+ToggleSwitch is a control that can be toggled between 2 states.
 
 <img alt="Toggle switch control" src="images/controls/ToggleSwitch.png" />
 
-Use a [ToggleSwitch](toggleswitch.md) control to let the user switch an option between on and off states. Use the [IsOn](toggleswitch_ison.md) property to determine the state of the switch. Handle the [Toggled](toggleswitch_toggled.md) event to respond to changes in the state.
+Use a ToggleSwitch control to let the user switch an option between on and off states. Use the [IsOn](toggleswitch_ison.md) property to determine the state of the switch. Handle the [Toggled](toggleswitch_toggled.md) event to respond to changes in the state.
 
 ### Control style and template
 
@@ -39,7 +39,7 @@ You can modify the default [Style](../windows.ui.xaml/style.md) and [ControlTemp
 
 Starting in Windows 10, version 1607 (SDK 14393), generic.xaml includes resources that you can use to modify the colors of a control in different visual states without modifying the control template. In apps that target this software development kit (SDK) or later, modifying these resources is preferred to setting properties such as [Background](control_background.md) and [Foreground](control_foreground.md). For more info, see the [Light-weight styling](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) section of the [Styling controls](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) article.
 
-This table shows the resources used by the [ToggleSwitch](toggleswitch.md) control.
+This table shows the resources used by the ToggleSwitch control.
 
 <table>
    <tr><th>Resource key</th><th>Description</th></tr>

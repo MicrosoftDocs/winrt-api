@@ -22,7 +22,7 @@ ItemsStackPanel CacheLength="double" />
 The size of the buffers for items outside the viewport, in multiples of the viewport size. The default is 4.0.
 
 ## -remarks
-To improve scrolling performance, [ItemsStackPanel](itemsstackpanel.md) creates and caches item containers for items that are off-screen on both sides of the viewport. The [CacheLength](itemsstackpanel_cachelength.md) property specifies the size of the buffers for the off-screen items. You specify [CacheLength](itemsstackpanel_cachelength.md) in multiples of the current viewport size. For example, if the [CacheLength](itemsstackpanel_cachelength.md) is 4.0, 2 viewports worth of items are buffered on each side of the viewport.
+To improve scrolling performance, [ItemsStackPanel](itemsstackpanel.md) creates and caches item containers for items that are off-screen on both sides of the viewport. The CacheLength property specifies the size of the buffers for the off-screen items. You specify CacheLength in multiples of the current viewport size. For example, if the CacheLength is 4.0, 2 viewports worth of items are buffered on each side of the viewport.
 
 You can set a smaller cache length to optimize startup time, or set a larger cache size to optimize scrolling performance. Item containers that are off-screen are created at a lower priority than those in the viewport.
 

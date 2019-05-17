@@ -13,13 +13,13 @@ public class LanguageFont : Windows.Globalization.Fonts.ILanguageFont
 Provides data related to a particular font recommendation for a given language.
 
 ## -remarks
-A [LanguageFont](languagefont.md) object provides data giving a font recommendation for a particular language and for particular usage cases. [LanguageFont](languagefont.md) objects are obtained from a [LanguageFontGroup](languagefontgroup.md) object, which is constructed for a particular language or script. Each [LanguageFontGroup](languagefontgroup.md) object provides different [LanguageFont](languagefont.md) objects for different usage cases.
+A LanguageFont object provides data giving a font recommendation for a particular language and for particular usage cases. LanguageFont objects are obtained from a [LanguageFontGroup](languagefontgroup.md) object, which is constructed for a particular language or script. Each [LanguageFontGroup](languagefontgroup.md) object provides different LanguageFont objects for different usage cases.
 
-Depending on the usage case, font weight/style/stretch attributes provided in the [LanguageFont](languagefont.md) may or may not be significant: for some usage cases, a "regular" font (regular weight, normal style, normal stretch) may always be returned. Applications may want to apply other weight/style/stretch formatting in those cases. See the remarks on the different usage cases for [LanguageFontGroup](languagefontgroup.md).
+Depending on the usage case, font weight/style/stretch attributes provided in the LanguageFont may or may not be significant: for some usage cases, a "regular" font (regular weight, normal style, normal stretch) may always be returned. Applications may want to apply other weight/style/stretch formatting in those cases. See the remarks on the different usage cases for [LanguageFontGroup](languagefontgroup.md).
 
 The [ScaleFactor](languagefont_scalefactor.md) property provides a multiplier that can be applied to a nominal font size. See the [ScaleFactor](languagefont_scalefactor.md) property topic for additional information.
 
-The fonts referenced by a [LanguageFont](languagefont.md) are always fonts that ship as part of Windows. There is no way for an end user or developer to customize these values. It is safe to assume that the font will be present on every Windows 8 system.
+The fonts referenced by a LanguageFont are always fonts that ship as part of Windows. There is no way for an end user or developer to customize these values. It is safe to assume that the font will be present on every Windows 8 system.
 
 ## -examples
 

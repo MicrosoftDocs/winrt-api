@@ -6,10 +6,10 @@
 # Windows.Services.Maps
 
 ## -description
-The [Windows.Services.Maps](windows_services_maps.md) namespace contains classes that provide location, routing, and geocoding services.
+The Windows.Services.Maps namespace contains classes that provide location, routing, and geocoding services.
 
 ## -remarks
-Your [Universal Windows app](https://msdn.microsoft.com/windows/uwp/get-started/universal-application-platform-guide) must be authenticated before it can use the [MapControl](../windows.ui.xaml.controls.maps/mapcontrol.md) and map services in the [Windows.Services.Maps](windows_services_maps.md) namespace. To authenticate your app, you must specify a maps authentication key.
+Your [Universal Windows app](https://msdn.microsoft.com/windows/uwp/get-started/universal-application-platform-guide) must be authenticated before it can use the [MapControl](../windows.ui.xaml.controls.maps/mapcontrol.md) and map services in the Windows.Services.Maps namespace. To authenticate your app, you must specify a maps authentication key.
 
 See [Request a maps authentication key](https://msdn.microsoft.com/windows/uwp/maps-and-location/authentication-key).
 

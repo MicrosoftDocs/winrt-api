@@ -16,7 +16,7 @@ Gets the parent folder of the current storage item.
 When this method completes, it returns the parent folder as a [StorageFolder](storagefolder.md).
 
 ## -remarks
-You must have access to the parent for the [GetParentAsync](istorageitem2_getparentasync_983074150.md) method to succeed, either by declaring library capabilities or by persisting a higher-level folder in the Access List. Also, this method returns **null** if you can’t get to the parent, instead of raising an exception.
+You must have access to the parent for the GetParentAsync method to succeed, either by declaring library capabilities or by persisting a higher-level folder in the Access List. Also, this method returns **null** if you can’t get to the parent, instead of raising an exception.
 
 This example shows how to get the parent folder of a [StorageFile](storagefile.md).
 

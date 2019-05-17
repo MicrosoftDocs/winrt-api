@@ -13,7 +13,7 @@ public class InstalledDesktopApp : IStringable
 Provides a list of installed Win32 apps available to the current user. This includes apps installed for all users as well as only for the current user.
 
 ## -remarks
-[InstalledDesktopApp](installeddesktopapp.md) checks for the **packageQuery** capability and returns an empty vector if the capability isn’t held by the caller.
+InstalledDesktopApp checks for the **packageQuery** capability and returns an empty vector if the capability isn’t held by the caller.
 
 ## -see-also
 

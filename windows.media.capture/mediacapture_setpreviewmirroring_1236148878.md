@@ -22,7 +22,7 @@ Horizontal mirroring is useful for video conferencing or video chat applications
 
 To mirror the preview video, apps should instead use the following method. Windows app using JavaScript should use the [msHorizontalMirror](https://msdn.microsoft.com/library/windows/apps/hh465967.aspx) property of the [video](https://msdn.microsoft.com/library/windows/apps/hh465962.aspx) object. UWP apps using C++, C#, or Visual Basic should use the [FlowDirection](../windows.ui.xaml/flowdirection.md) property on the [CaptureElement](../windows.ui.xaml.controls/captureelement.md).
 
-[SetPreviewMirroring](mediacapture_setpreviewmirroring_1236148878.md) can potentially be used as a performance optimization on some devices
+SetPreviewMirroring can potentially be used as a performance optimization on some devices
 
 For how-to guidance on handling orientation and mirroring when using the camera, see [Handle device orientation with MediaCapture](https://msdn.microsoft.com/windows/uwp/audio-video-camera/handle-device-orientation-with-mediacapture).
 

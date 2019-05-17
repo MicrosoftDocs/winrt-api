@@ -18,7 +18,7 @@ The list of the file properties that are used to provide suggestions from local 
 ## -remarks
 If local suggestions are disabled, this property has no effect.
 
-Adding properties to this list limits local suggestions to the values of the specified properties for local, indexed files. For example, if you want to limit suggestions to musical artists, you would append the "System.Music.AlbumArtist" (Album artists) or the "System.Music.Artist" (Contributing artists) property to the [PropertiesToMatch](localcontentsuggestionsettings_propertiestomatch.md) list.
+Adding properties to this list limits local suggestions to the values of the specified properties for local, indexed files. For example, if you want to limit suggestions to musical artists, you would append the "System.Music.AlbumArtist" (Album artists) or the "System.Music.Artist" (Contributing artists) property to the PropertiesToMatch list.
 
 Adding properties to this list limits local suggestions to local, indexed files that have the listed properties.
 

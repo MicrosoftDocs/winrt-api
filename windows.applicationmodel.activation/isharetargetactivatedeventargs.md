@@ -15,7 +15,7 @@ Provides information for an application that is a target for share operations.
 ## -remarks
 ### Interface inheritance
 
-[IShareTargetActivatedEventArgs](isharetargetactivatedeventargs.md) inherits [IActivatedEventArgs](iactivatedeventargs.md). Types that implement [IShareTargetActivatedEventArgs](isharetargetactivatedeventargs.md) also implement the interface members of [IActivatedEventArgs](iactivatedeventargs.md).
+IShareTargetActivatedEventArgs inherits [IActivatedEventArgs](iactivatedeventargs.md). Types that implement IShareTargetActivatedEventArgs also implement the interface members of [IActivatedEventArgs](iactivatedeventargs.md).
 
 ## -examples
 

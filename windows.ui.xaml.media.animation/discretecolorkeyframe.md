@@ -28,7 +28,7 @@ This XAML example uses the **ColorAnimationUsingKeyFrames** class to animate the
 
 
 1. During the first two seconds, [LinearColorKeyFrame](linearcolorkeyframe.md) gradually changes the color from green to red. Linear key frames like [LinearColorKeyFrame](linearcolorkeyframe.md) create a smooth linear transition between values.
-1. During the end of the next half second, [DiscreteColorKeyFrame](discretecolorkeyframe.md) quickly changes the color from red to yellow. Discrete key frames like [DiscreteColorKeyFrame](discretecolorkeyframe.md) create sudden changes between values; the animation occurs quickly and has no interpolation between values at all.
+1. During the end of the next half second, DiscreteColorKeyFrame quickly changes the color from red to yellow. Discrete key frames like DiscreteColorKeyFrame create sudden changes between values; the animation occurs quickly and has no interpolation between values at all.
 1. During the final two seconds, [SplineColorKeyFrame](splinecolorkeyframe.md) changes the color again, this time from yellow back to green. Spline key frames like [SplineColorKeyFrame](splinecolorkeyframe.md) create a variable transition between values according to the values of the [KeySpline](splinecolorkeyframe_keyspline.md) property. A [KeySpline](keyspline.md) provides a way to alter the relationship of time versus value during the animation duration to be nonlinear, and in particular the relationship can be a curve that would be difficult to produce with individual key frames. In this example, the change in color begins slowly and speeds up exponentially toward the end of the time segment.
 
 <!--  

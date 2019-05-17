@@ -15,11 +15,11 @@ Provides data for a [MessageReceived](datagramsocket_messagereceived.md) event o
 
 ## -remarks
 
-The [DatagramSocketMessageReceivedEventArgs](datagramsocketmessagereceivedeventargs.md) is used to receive data on a [DatagramSocket](datagramsocket.md) object.
+The DatagramSocketMessageReceivedEventArgs is used to receive data on a [DatagramSocket](datagramsocket.md) object.
 
 The [DatagramSocket.BindServiceNameAsync](datagramsocket_bindservicenameasync_440542334.md) or [DatagramSocket.BindEndpointAsync](datagramsocket_bindendpointasync_1396029045.md) method is used to bind a [DatagramSocket](datagramsocket.md) to a local service name or UDP port if a [DatagramSocket](datagramsocket.md) instance wants to listen and receive data. These methods are not needed if the [DatagramSocket](datagramsocket.md) is to be used only for sending data.
 
-A [DatagramSocket.MessageReceived](datagramsocket_messagereceived.md) event occurs on a [DatagramSocket](datagramsocket.md) that has been bound to a local service name or UDP port when a message is received. A [DatagramSocketMessageReceivedEventArgs](datagramsocketmessagereceivedeventargs.md) instance is created when the [DatagramSocket.MessageReceived](datagramsocket_messagereceived.md) event occurs.
+A [DatagramSocket.MessageReceived](datagramsocket_messagereceived.md) event occurs on a [DatagramSocket](datagramsocket.md) that has been bound to a local service name or UDP port when a message is received. A DatagramSocketMessageReceivedEventArgs instance is created when the [DatagramSocket.MessageReceived](datagramsocket_messagereceived.md) event occurs.
 
 There are two primary methods to read data when a message has been received:
 

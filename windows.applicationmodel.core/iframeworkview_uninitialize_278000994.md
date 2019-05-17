@@ -17,7 +17,7 @@ Your implementation of this method should clean up any external resources create
 
 ### Windows Phone 8
 
-You should not use [Uninitialize](iframeworkview_uninitialize_278000994.md) to exit an app.
+You should not use Uninitialize to exit an app.
 
 ## -examples
 

@@ -14,10 +14,10 @@ public event Windows.Foundation.TypedEventHandler Updated<Windows.Networking.Pro
 Occurs when the [DisplayName](peerinformation_displayname.md) or [DiscoveryData](peerinformation_discoverydata.md) for a peer app within wireless range has changed.
 
 ## -remarks
-The [Updated](peerwatcher_updated.md) event is raised when the [DisplayName](peerinformation_displayname.md) or [DiscoveryData](peerinformation_discoverydata.md) for a peer app changes. You can use the [Id](peerinformation_id.md) property to uniquely identify the peer app and update your UI.
+The Updated event is raised when the [DisplayName](peerinformation_displayname.md) or [DiscoveryData](peerinformation_discoverydata.md) for a peer app changes. You can use the [Id](peerinformation_id.md) property to uniquely identify the peer app and update your UI.
 
 > > [!IMPORTANT]
-> For Windows Phone 8.x apps, calling [PeerFinder.ConnectAsync](peerfinder_connectasync_380619906.md) from within an [Updated](peerwatcher_updated.md) event handler will fail. Instead, call it outside of this event handler, for example, when the user has explicitly chosen to connect to a peer.
+> For Windows Phone 8.x apps, calling [PeerFinder.ConnectAsync](peerfinder_connectasync_380619906.md) from within an Updated event handler will fail. Instead, call it outside of this event handler, for example, when the user has explicitly chosen to connect to a peer.
 
 
 

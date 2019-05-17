@@ -33,15 +33,15 @@ Gets or sets the [ManipulationModes](../windows.ui.xaml.input/manipulationmodes.
 A value or values of the enumeration. The default is typically **System**, but this can vary on specific controls and elements. See Remarks.
 
 ## -remarks
-You must set the [ManipulationMode](uielement_manipulationmode.md) to a value other than **System** or **None** if you want to handle manipulation events such as [ManipulationStarted](uielement_manipulationstarted.md) from UI elements in your app code. For more info on manipulations, see [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input).
+You must set the ManipulationMode to a value other than **System** or **None** if you want to handle manipulation events such as [ManipulationStarted](uielement_manipulationstarted.md) from UI elements in your app code. For more info on manipulations, see [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input).
 
-The typical default value of [ManipulationMode](uielement_manipulationmode.md) is **System** rather than **None**. When the value is **System**, manipulations that originate from the element can be handled by the Windows Runtime infrastructure, which is based on the [Direct Manipulation](https://msdn.microsoft.com/library/26358bc5-71e9-40f0-9243-9bddd961a0e5)  API. For example, [ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md) handles user manipulations in its control logic and processes them as scrolling actions for the control. The **System** value also enables personality animations that respond to manipulation events.
+The typical default value of ManipulationMode is **System** rather than **None**. When the value is **System**, manipulations that originate from the element can be handled by the Windows Runtime infrastructure, which is based on the [Direct Manipulation](https://msdn.microsoft.com/library/26358bc5-71e9-40f0-9243-9bddd961a0e5)  API. For example, [ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md) handles user manipulations in its control logic and processes them as scrolling actions for the control. The **System** value also enables personality animations that respond to manipulation events.
 
-[Slider](../windows.ui.xaml.controls/slider.md) and [ToggleSwitch](../windows.ui.xaml.controls/toggleswitch.md) have default templates that set the [ManipulationMode](uielement_manipulationmode.md) value to **None**, so **None** will be the default value you see at design time.
+[Slider](../windows.ui.xaml.controls/slider.md) and [ToggleSwitch](../windows.ui.xaml.controls/toggleswitch.md) have default templates that set the ManipulationMode value to **None**, so **None** will be the default value you see at design time.
 
 ### Specifying related manipulation modes
 
-You can specify more than one of the flagwise [ManipulationModes](../windows.ui.xaml.input/manipulationmodes.md) values as the value of the [ManipulationMode](uielement_manipulationmode.md) property. This is possible in XAML using the comma syntax shown in the "XAML Values" section. For example, you can combine **TranslateX**, **TranslateY**, **Rotate**, and **Scale**, or any combination of these. However, not all combinations are valid. Validity is enforced only once [ManipulationModes](../windows.ui.xaml.input/manipulationmodes.md) is used by a specific control, so issues with setting an invalid combination of [ManipulationModes](../windows.ui.xaml.input/manipulationmodes.md) might not appear until run-time when values are applied. 
+You can specify more than one of the flagwise [ManipulationModes](../windows.ui.xaml.input/manipulationmodes.md) values as the value of the ManipulationMode property. This is possible in XAML using the comma syntax shown in the "XAML Values" section. For example, you can combine **TranslateX**, **TranslateY**, **Rotate**, and **Scale**, or any combination of these. However, not all combinations are valid. Validity is enforced only once [ManipulationModes](../windows.ui.xaml.input/manipulationmodes.md) is used by a specific control, so issues with setting an invalid combination of [ManipulationModes](../windows.ui.xaml.input/manipulationmodes.md) might not appear until run-time when values are applied. 
 + Don't combine **Translate*** values with **TranslateRails*** values, these are treated as mutually exclusive values.
 + Don't combine the inertial values with the non-inertial values.
 + The **All** value isn't the true additive value of all the flags (if values are compared bitwise). A value of **All** doesn't necessarily indicate that the combination of all the values is valid either, or that any specific value is set.
@@ -51,7 +51,7 @@ You can specify more than one of the flagwise [ManipulationModes](../windows.ui.
 <!--The following remark is relevant for Windows 8 > 8.1 migration. See WBB 454712-->
 ### Windows 8 behavior
 
-On Windows 8, setting [ManipulationMode](uielement_manipulationmode.md) to a value that combines **System** with any other value will throw an exception, so some of the combinations mentioned above won't work for Windows 8. Starting with Windows 8.1, you can combine **System** with other values.
+On Windows 8, setting ManipulationMode to a value that combines **System** with any other value will throw an exception, so some of the combinations mentioned above won't work for Windows 8. Starting with Windows 8.1, you can combine **System** with other values.
 
 Apps that were compiled for Windows 8 but running on Windows 8.1 use the new behavior and permit combining **System** with other values.
 

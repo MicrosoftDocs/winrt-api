@@ -12,7 +12,7 @@ public interface ICorePointerRedirector :
 ## -description
 Defines pointer events for cross-process input handling.
 
-An implementation of the [ICorePointerRedirector](icorepointerredirector.md) interface is provided by the [CoreWindow](corewindow.md) class.
+An implementation of the ICorePointerRedirector interface is provided by the [CoreWindow](corewindow.md) class.
 
 Input chaining refers to the interaction behavior of both a parent object (host) and a nested child object (component) when an input boundary is reached.
 

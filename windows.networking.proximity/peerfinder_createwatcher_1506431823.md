@@ -17,9 +17,9 @@ Creates a new instance of a [PeerWatcher](peerwatcher.md) object for dynamic dis
 An instance of a [PeerWatcher](peerwatcher.md) object for dynamic discovery of peer apps.
 
 ## -remarks
-You must first call the [Start](peerfinder_start_119778276.md) method before calling the [CreateWatcher](peerfinder_createwatcher_1506431823.md) method.
+You must first call the [Start](peerfinder_start_119778276.md) method before calling the CreateWatcher method.
 
-If you call the [CreateWatcher](peerfinder_createwatcher_1506431823.md) method multiple times, you will receive a reference to the same [PeerWatcher](peerwatcher.md) instance. 
+If you call the CreateWatcher method multiple times, you will receive a reference to the same [PeerWatcher](peerwatcher.md) instance. 
 
 
 

@@ -27,7 +27,7 @@ The attributes applied to the [InkStroke](../windows.ui.input.inking/inkstroke.m
 ## -remarks
 An [InkToolbarCustomPenButton](inktoolbarcustompenbutton.md) can reuse the standard [InkToolbarPenConfigurationControl](inktoolbarpenconfigurationcontrol.md) object to configure an optional settings flyout for the custom pen. An "extension glyph" is displayed on the button to indicate the existence of the flyout.
 
-Derive from [InkToolbarCustomPen](inktoolbarcustompen.md) and specify a custom [InkToolbarPenConfigurationControl](inktoolbarpenconfigurationcontrol.md). Override the [CreateInkDrawingAttributesCore](inktoolbarcustompen_createinkdrawingattributescore_257776854.md) method to change the default [InkDrawingAttributes](../windows.ui.input.inking/inkdrawingattributes.md) settings.
+Derive from [InkToolbarCustomPen](inktoolbarcustompen.md) and specify a custom [InkToolbarPenConfigurationControl](inktoolbarpenconfigurationcontrol.md). Override the CreateInkDrawingAttributesCore method to change the default [InkDrawingAttributes](../windows.ui.input.inking/inkdrawingattributes.md) settings.
 
 ## -examples
 

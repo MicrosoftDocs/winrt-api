@@ -20,7 +20,7 @@ The response from a background app service for progress, confirmation, disambigu
 An asynchronous handler called when the operation is complete.
 
 ## -remarks
-**Cortana** presents the progress screen to the user for up to 5 seconds. The background app service send another progress message by calling [ReportProgressAsync](voicecommandserviceconnection_reportprogressasync_197749011.md) again, or move to the next screen in the interaction flow (confirmation, disambiguation, or completion).
+**Cortana** presents the progress screen to the user for up to 5 seconds. The background app service send another progress message by calling ReportProgressAsync again, or move to the next screen in the interaction flow (confirmation, disambiguation, or completion).
 
 ## -examples
 

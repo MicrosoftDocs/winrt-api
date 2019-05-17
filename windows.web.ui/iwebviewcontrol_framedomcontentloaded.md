@@ -24,7 +24,7 @@ Similar events occur in the same order for each iframe in the WebView content:
 
 - [FrameNavigationStarting](iwebviewcontrol_framenavigationstarting.md)
 - [FrameContentLoading](iwebviewcontrol_framecontentloading.md)
-- [FrameDOMContentLoaded](iwebviewcontrol_framedomcontentloaded.md)
+- FrameDOMContentLoaded
 - [FrameNavigationCompleted](iwebviewcontrol_navigationcompleted.md)
 
 ## -see-also

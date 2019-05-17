@@ -28,7 +28,7 @@ The binding source is updated whenever the binding target element loses focus.
 
 ## -remarks
 > [!NOTE]
-> The default [UpdateSourceTrigger](updatesourcetrigger.md) value is **Default** rather than **PropertyChanged** for legacy reasons. Previous XAML frameworks enabled a way to register a dependency property with a value that influenced what its default binding update behavior does. That dependency property behavior isn't implemented in the Windows Runtime.
+> The default UpdateSourceTrigger value is **Default** rather than **PropertyChanged** for legacy reasons. Previous XAML frameworks enabled a way to register a dependency property with a value that influenced what its default binding update behavior does. That dependency property behavior isn't implemented in the Windows Runtime.
 
 ### Version history
 

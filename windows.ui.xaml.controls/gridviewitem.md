@@ -23,9 +23,9 @@ Represents the container for an item in a [GridView](gridview.md) control.
 
 
 ## -remarks
-The [GridViewItem](gridviewitem.md) class provides the container for items displayed in a [GridView](gridview.md) control. You populate the [GridView](gridview.md) by adding objects directly to its [Items](itemscontrol_items.md) collection or by binding its [ItemsSource](itemscontrol_itemssource.md) property to a data source. When items are added to the [GridView](gridview.md), a [GridViewItem](gridviewitem.md) container is created automatically for each item in the collection.
+The GridViewItem class provides the container for items displayed in a [GridView](gridview.md) control. You populate the [GridView](gridview.md) by adding objects directly to its [Items](itemscontrol_items.md) collection or by binding its [ItemsSource](itemscontrol_itemssource.md) property to a data source. When items are added to the [GridView](gridview.md), a GridViewItem container is created automatically for each item in the collection.
 
-You can specify the look of the [GridViewItem](gridviewitem.md) by setting the [GridView](gridview.md) 's [ItemContainerStyle](itemscontrol_itemcontainerstyle.md) property to a [Style](../windows.ui.xaml/style.md) with a [TargetType](../windows.ui.xaml/style_targettype.md) of [GridViewItem](gridviewitem.md).
+You can specify the look of the GridViewItem by setting the [GridView](gridview.md) 's [ItemContainerStyle](itemscontrol_itemcontainerstyle.md) property to a [Style](../windows.ui.xaml/style.md) with a [TargetType](../windows.ui.xaml/style_targettype.md) of GridViewItem.
 
 ### Control style and template
 
@@ -33,7 +33,7 @@ You can modify the default [Style](../windows.ui.xaml/style.md) and [ControlTemp
 
 Starting in Windows 10, version 1607 (SDK 14393), generic.xaml includes resources that you can use to modify the colors of a control in different visual states without modifying the control template. In apps that target this software development kit (SDK) or later, modifying these resources is preferred to setting properties such as [Background](control_background.md) and [Foreground](control_foreground.md). For more info, see the [Light-weight styling](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) section of the [Styling controls](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) article.
 
-This table shows the resources used by the [GridViewItem](gridviewitem.md) control.
+This table shows the resources used by the GridViewItem control.
 
 <table>
    <tr><th>Resource key</th><th>Description</th></tr>

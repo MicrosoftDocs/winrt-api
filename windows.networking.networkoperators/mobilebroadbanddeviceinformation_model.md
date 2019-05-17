@@ -17,7 +17,7 @@ Gets the name of the model of the mobile broadband network device.
 The name of the model of the mobile broadband network device.
 
 ## -remarks
-You can use the [Model](mobilebroadbanddeviceinformation_model.md) property value to determine the provisioning that must occur for the mobile broadband network device.
+You can use the Model property value to determine the provisioning that must occur for the mobile broadband network device.
 
 ## -examples
 

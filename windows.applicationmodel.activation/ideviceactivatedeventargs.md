@@ -15,7 +15,7 @@ Provides information for a device that invokes AutoPlay.
 ## -remarks
 ### Interface inheritance
 
-[IDeviceActivatedEventArgs](ideviceactivatedeventargs.md) inherits [IActivatedEventArgs](iactivatedeventargs.md). Types that implement [IDeviceActivatedEventArgs](ideviceactivatedeventargs.md) also implement the interface members of [IActivatedEventArgs](iactivatedeventargs.md).
+IDeviceActivatedEventArgs inherits [IActivatedEventArgs](iactivatedeventargs.md). Types that implement IDeviceActivatedEventArgs also implement the interface members of [IActivatedEventArgs](iactivatedeventargs.md).
 
 ## -examples
 

@@ -19,14 +19,14 @@ Represents an easing function that creates an animation that accelerates and/or 
 
 
 ## -remarks
-A [PowerEase](powerease.md) can be used to produce the same results as some of the other easing functions, depending on how [Power](powerease_power.md) is set. For example, a [CubicEase](cubicease.md) is the same as a [PowerEase](powerease.md) with [Power](powerease_power.md) of 3.
+A PowerEase can be used to produce the same results as some of the other easing functions, depending on how [Power](powerease_power.md) is set. For example, a [CubicEase](cubicease.md) is the same as a PowerEase with [Power](powerease_power.md) of 3.
 
 [Power](powerease_power.md) is a **Double** value so can be used to set non-integer values. For example you could use a [Power](powerease_power.md) of 2.5 to produce an easing function has a sharper curve than [QuadraticEase](quadraticease.md) but not as sharp as [CubicEase](cubicease.md).
 
 An easing function can be applied to the **EasingFunction** properties of **From**/**To**/**By** animations, or to the **EasingFunction** properties of key-frame types used for the **Easing** variants of key-frame animations. For more info, see [Key-frame animations and easing function animations](https://msdn.microsoft.com/library/d8af24cd-f4c2-4562-afd7-25010955d677).
 
 ## -examples
-This XAML example applies a [PowerEase](powerease.md) easing function with a [Power](powerease_power.md) property value of 20 to a [DoubleAnimation](doubleanimation.md) to create a decelerating animation. Because the [Power](powerease_power.md) value is so high, the deceleration is sudden compared to what it would be if you used a lower value.
+This XAML example applies a PowerEase easing function with a [Power](powerease_power.md) property value of 20 to a [DoubleAnimation](doubleanimation.md) to create a decelerating animation. Because the [Power](powerease_power.md) value is so high, the deceleration is sudden compared to what it would be if you used a lower value.
 
 
 

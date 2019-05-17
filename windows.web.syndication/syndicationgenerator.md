@@ -13,7 +13,7 @@ public class SyndicationGenerator : Windows.Web.Syndication.ISyndicationGenerato
 Describes the agent or the tool used to generate the feed. This class encapsulates information in the **/rss/channel/generator** element in *RSS 2.0* or the **/atom:feed/atom:generator** element in *Atom 1.0*.
 
 ## -remarks
-The following table maps [SyndicationGenerator](syndicationgenerator.md) properties to RSS and Atom feed elements.
+The following table maps SyndicationGenerator properties to RSS and Atom feed elements.
 
 <table>
    <tr><th>SyndicationGenerator</th><th>RSS</th><th>Atom</th></tr>

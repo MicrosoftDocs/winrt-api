@@ -13,7 +13,7 @@ public class PlayToSourceRequest : Windows.Media.PlayTo.IPlayToSourceRequest
 Represents a request to connect a media element with a Play To target.
 
 ## -remarks
-The [PlayToSourceRequest](playtosourcerequest.md) class represents a user request for source media to stream to a Play To target. You use the [SourceRequest](playtosourcerequestedeventargs_sourcerequest.md) property of the [PlayToSourceRequestedEventArgs](playtosourcerequestedeventargs.md) class to pass media from your application to Play To during the [SourceRequested](playtomanager_sourcerequested.md) event.
+The PlayToSourceRequest class represents a user request for source media to stream to a Play To target. You use the [SourceRequest](playtosourcerequestedeventargs_sourcerequest.md) property of the [PlayToSourceRequestedEventArgs](playtosourcerequestedeventargs.md) class to pass media from your application to Play To during the [SourceRequested](playtomanager_sourcerequested.md) event.
 
 You can use the [GetDeferral](playtosourcerequest_getdeferral_254836512.md) method to create a deferral for when you want to make an asynchronous call to retrieve the media element to stream. Play To will then wait for you to supply the media element until you mark the deferral as complete.
 

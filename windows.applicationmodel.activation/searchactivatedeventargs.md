@@ -18,7 +18,7 @@ Provides information about the activated event that fires when the user searches
 > This type appears as [webUISearchActivatedEventArgs](../windows.ui.webui/webuisearchactivatedeventargs.md).
 
 ## -remarks
-If your app integrates with the Search contract, a [SearchActivatedEventArgs](searchactivatedeventargs.md) object is passed to your app's [OnSearchActivated](../windows.ui.xaml/application_onsearchactivated_1291367716.md) activation point handler when the user searches the app from the Search charm and your app is not the main app on screen. This type of activation is indicated by the [ActivationKind.Search](activationkind.md) value returned by the [Kind](searchactivatedeventargs_kind.md) property.
+If your app integrates with the Search contract, a SearchActivatedEventArgs object is passed to your app's [OnSearchActivated](../windows.ui.xaml/application_onsearchactivated_1291367716.md) activation point handler when the user searches the app from the Search charm and your app is not the main app on screen. This type of activation is indicated by the [ActivationKind.Search](activationkind.md) value returned by the [Kind](searchactivatedeventargs_kind.md) property.
 
 Learn how to let users search with your app in [Quickstart: Adding search](https://msdn.microsoft.com/library/d412c562-22d2-41c4-9f27-27503b89b9e9). Learn about responding to other search-related events and customizing the search box and suggestions using the [SearchPane](../windows.applicationmodel.search/searchpane.md) class in the [Windows.ApplicationModel.Search](../windows.applicationmodel.search/windows_applicationmodel_search.md) namespace reference.
 

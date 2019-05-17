@@ -16,7 +16,7 @@ Gets a value that reports the selection direction in a [ComboBox](../windows.ui.
 A value of the enumeration.
 
 ## -remarks
-[SelectedItemDirection](comboboxtemplatesettings_selecteditemdirection.md) is referenced in the default generic.xaml template animations for [ComboBox](../windows.ui.xaml.controls/combobox.md).
+SelectedItemDirection is referenced in the default generic.xaml template animations for [ComboBox](../windows.ui.xaml.controls/combobox.md).
 
 ## -examples
 

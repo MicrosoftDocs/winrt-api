@@ -27,7 +27,7 @@ To request that Windows index your app data for search, create a folder named "I
 > [!NOTE]
 > Content in the indexed folder will not be surfaced in a system search, but can be searched by the app. 
 
-If the device that runs this app supports app data backup, any content placed on [LocalFolder](applicationdata_localfolder.md) will be eligible to be backed up to the cloud. Therefore if you want to persist data and keep it local to the device you should consider using [LocalCacheFolder](applicationdata_localcachefolder.md).
+If the device that runs this app supports app data backup, any content placed on LocalFolder will be eligible to be backed up to the cloud. Therefore if you want to persist data and keep it local to the device you should consider using [LocalCacheFolder](applicationdata_localcachefolder.md).
 
 ## -examples
 

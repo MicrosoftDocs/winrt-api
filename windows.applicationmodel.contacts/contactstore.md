@@ -15,7 +15,7 @@ Represents a database that contains contacts.
 
 ## -remarks
 
-To get a [ContactStore](contactstore.md) object, call the static utility method [ContactManager.RequestStoreAsync](contactmanager_requeststoreasync_112705385.md).
+To get a ContactStore object, call the static utility method [ContactManager.RequestStoreAsync](contactmanager_requeststoreasync_112705385.md).
 
 ## -examples
 

@@ -11,7 +11,7 @@ public Windows.UI.Xaml.DependencyProperty GridViewItemPresenterVerticalContentAl
 
 ## -description
 > [!NOTE]
-> [GridViewItemPresenterVerticalContentAlignmentProperty](gridviewitempresenter_gridviewitempresenterverticalcontentalignmentproperty.md) may be altered or unavailable for releases after Windows 10. Instead, use [ContentPresenter.VerticalContentAlignmentProperty](../windows.ui.xaml.controls/contentpresenter_verticalcontentalignmentproperty.md).
+> GridViewItemPresenterVerticalContentAlignmentProperty may be altered or unavailable for releases after Windows 10. Instead, use [ContentPresenter.VerticalContentAlignmentProperty](../windows.ui.xaml.controls/contentpresenter_verticalcontentalignmentproperty.md).
 
 Identifies the [GridViewItemPresenterVerticalContentAlignment](gridviewitempresenter_gridviewitempresenterverticalcontentalignment.md) dependency property.
 
@@ -20,7 +20,7 @@ The identifier for the [GridViewItemPresenterVerticalContentAlignment](gridviewi
 
 ## -remarks
 > [!IMPORTANT]
-> [GridViewItemPresenterVerticalContentAlignmentProperty](gridviewitempresenter_gridviewitempresenterverticalcontentalignmentproperty.md) may be altered or unavailable for releases after Windows 10. Instead, use [ContentPresenter.VerticalContentAlignmentProperty](../windows.ui.xaml.controls/contentpresenter_verticalcontentalignmentproperty.md).
+> GridViewItemPresenterVerticalContentAlignmentProperty may be altered or unavailable for releases after Windows 10. Instead, use [ContentPresenter.VerticalContentAlignmentProperty](../windows.ui.xaml.controls/contentpresenter_verticalcontentalignmentproperty.md).
 
 ## -examples
 

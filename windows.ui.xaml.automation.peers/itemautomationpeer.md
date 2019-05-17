@@ -13,15 +13,15 @@ public class ItemAutomationPeer : Windows.UI.Xaml.Automation.Peers.AutomationPee
 Exposes a data item in an [Items](../windows.ui.xaml.controls/itemscontrol_items.md) collection to Microsoft UI Automation.
 
 ## -remarks
- [ItemAutomationPeer](itemautomationpeer.md) is generated from items control logic and [ItemsControlAutomationPeer](itemscontrolautomationpeer.md), not an associated control class.
+ ItemAutomationPeer is generated from items control logic and [ItemsControlAutomationPeer](itemscontrolautomationpeer.md), not an associated control class.
 
-In addition to the typical peer implementation API, [ItemAutomationPeer](itemautomationpeer.md) has an [ItemsControlAutomationPeer](itemautomationpeer_itemscontrolautomationpeer.md) property to reference its container peer. The container peer potentially supplies the logic for [AutomationPeer](automationpeer.md) methods as called against the [ItemAutomationPeer](itemautomationpeer.md). There is also an [Item](itemautomationpeer_item.md) property that is similar in purpose to the **Owner** property on other peers (it provides the reference to the object that this peer provides the automation exposure for). Both these values must be set in the [ItemAutomationPeer](itemautomationpeer_itemautomationpeer_183553765.md) constructor.
+In addition to the typical peer implementation API, ItemAutomationPeer has an [ItemsControlAutomationPeer](itemautomationpeer_itemscontrolautomationpeer.md) property to reference its container peer. The container peer potentially supplies the logic for [AutomationPeer](automationpeer.md) methods as called against the ItemAutomationPeer. There is also an [Item](itemautomationpeer_item.md) property that is similar in purpose to the **Owner** property on other peers (it provides the reference to the object that this peer provides the automation exposure for). Both these values must be set in the [ItemAutomationPeer](itemautomationpeer_itemautomationpeer_183553765.md) constructor.
 
-[ItemAutomationPeer](itemautomationpeer.md) implements the [Realize](itemautomationpeer_realize_1392015295.md) method in order to support the [IVirtualizedItemProvider](../windows.ui.xaml.automation.provider/ivirtualizeditemprovider.md) control pattern. Clients can call their framework's equivalent pattern access to [Realize](itemautomationpeer_realize_1392015295.md) to get a non-virtualized result. This generates more information about the item in an automation tree view.
+ItemAutomationPeer implements the [Realize](itemautomationpeer_realize_1392015295.md) method in order to support the [IVirtualizedItemProvider](../windows.ui.xaml.automation.provider/ivirtualizeditemprovider.md) control pattern. Clients can call their framework's equivalent pattern access to [Realize](itemautomationpeer_realize_1392015295.md) to get a non-virtualized result. This generates more information about the item in an automation tree view.
 
 ### Default peer implementation and overrides in **ItemAutomationPeer**
 
-[ItemAutomationPeer](itemautomationpeer.md) has overrides of **Core** methods such that the associated [AutomationPeer](automationpeer.md) methods provide peer-specific information to a Microsoft UI Automation client.
+ItemAutomationPeer has overrides of **Core** methods such that the associated [AutomationPeer](automationpeer.md) methods provide peer-specific information to a Microsoft UI Automation client.
 
 + [GetPattern](automationpeer_getpattern_2046576749.md) reports that the peer supports [PatternInterface.VirtualizedItem](patterninterface.md) ([IVirtualizedItemProvider](../windows.ui.xaml.automation.provider/ivirtualizeditemprovider.md)). Also, there is "GetContainerPeer" logic that reports information about the item container's supported patterns.
 + [GetClassName](automationpeer_getclassname_614238974.md) uses "GetContainerPeer" logic to get class name information. If there is no container peer, calling [GetClassName](automationpeer_getclassname_614238974.md) throws [ElementNotAvailableException](https://msdn.microsoft.com/library/system.windows.automation.elementnotavailableexception).
@@ -32,7 +32,7 @@ This is one of the only peer classes in the Windows Runtime support for Microsof
 
 ### **ItemAutomationPeer** derived classes
 
-[ItemAutomationPeer](itemautomationpeer.md) is the parent class for [SelectorItemAutomationPeer](selectoritemautomationpeer.md).
+ItemAutomationPeer is the parent class for [SelectorItemAutomationPeer](selectoritemautomationpeer.md).
 
 ## -examples
 

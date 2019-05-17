@@ -22,7 +22,7 @@ WebView navigation events occur in the following order:
 
 Similar events occur in the same order for each iframe in the WebView content:
 
-- [FrameNavigationStarting](iwebviewcontrol_framenavigationstarting.md)
+- FrameNavigationStarting
 - [FrameContentLoading](iwebviewcontrol_framecontentloading.md)
 - [FrameDOMContentLoaded](iwebviewcontrol_framedomcontentloaded.md)
 - [FrameNavigationCompleted](iwebviewcontrol_navigationcompleted.md)

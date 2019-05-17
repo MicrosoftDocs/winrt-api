@@ -24,7 +24,7 @@ Represents an easing function that creates an animation that accelerates and/or 
 An easing function can be applied to the **EasingFunction** properties of **From**/**To**/**By** animations, or to the **EasingFunction** properties of key-frame types used for the **Easing** variants of key-frame animations. For more info, see [Key-frame animations and easing function animations](https://msdn.microsoft.com/library/d8af24cd-f4c2-4562-afd7-25010955d677).
 
 ## -examples
-This XAML example applies a [CubicEase](cubicease.md) easing function to a [DoubleAnimation](doubleanimation.md) to create a decelerating animation.
+This XAML example applies a CubicEase easing function to a [DoubleAnimation](doubleanimation.md) to create a decelerating animation.
 
 
 <!--<p xml:space="preserve">

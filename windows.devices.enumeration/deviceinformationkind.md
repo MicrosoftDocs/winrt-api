@@ -25,7 +25,7 @@ The [DeviceInformation](deviceinformation.md) object represents a PnP device int
 
 This type of [DeviceInformation](deviceinformation.md) object contains all the properties of the PnP *DeviceInterface* object plus some properties from the parent PnP *DeviceContainer* object. This combination of properties can be presented to the user when the user needs to select a device to complete an app scenario. A *DeviceInterface* object can only be a child to one *DeviceContainer* object.
 
-This is the default [DeviceInformationKind](deviceinformationkind.md) when enumerating devices without specifying a specific kind.
+This is the default DeviceInformationKind when enumerating devices without specifying a specific kind.
 
 The [Id](deviceinformation_id.md) for this object is the device interface id, or the device interface path.
 
@@ -73,7 +73,7 @@ The [Id](deviceinformation_id.md) for this object as a string.
 
 ## -remarks
 
-A [DeviceInformationKind](deviceinformationkind.md) value can be passed to the various enumeration APIs to indicate the specific kind of device you want to enumerate. In most scenarios, you will receive the [DeviceInformation](deviceinformation.md) from the device selector. To see how to enumerate over specific kinds of devices using [DeviceInformationKind](deviceinformationkind.md), see [Enumerate devices](https://msdn.microsoft.com/library/4311d293-94f0-4bbd-a22d-f007382b4db8).
+A DeviceInformationKind value can be passed to the various enumeration APIs to indicate the specific kind of device you want to enumerate. In most scenarios, you will receive the [DeviceInformation](deviceinformation.md) from the device selector. To see how to enumerate over specific kinds of devices using DeviceInformationKind, see [Enumerate devices](https://msdn.microsoft.com/library/4311d293-94f0-4bbd-a22d-f007382b4db8).
 
 The following diagram show how the different device types interact with each other. It also indicates the properties that tie the relationships together. For performance reasons, many of the relationship connections only go in one direction. The exception to this is **AepContainer**. It contains a list of its child objects thanks to **AepContainer.Children**.
 

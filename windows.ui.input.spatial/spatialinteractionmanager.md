@@ -17,7 +17,7 @@ Provides access to user input from hands, motion controllers, and system voice c
 
 ## -remarks
 
-Spatial gestures are a key form of input for HoloLens. By routing the interactions from the [SpatialInteractionManager](spatialinteractionmanager.md) to a hologram's [SpatialGestureRecognizer](spatialgesturerecognizer.md), apps can detect [Tap](spatialgesturesettings.md), [Hold](spatialgesturesettings.md), [Manipulation](spatialgesturesettings.md), and [Navigation](spatialgesturesettings.md) events uniformly across hand, speech and controller interactions.
+Spatial gestures are a key form of input for HoloLens. By routing the interactions from the SpatialInteractionManager to a hologram's [SpatialGestureRecognizer](spatialgesturerecognizer.md), apps can detect [Tap](spatialgesturesettings.md), [Hold](spatialgesturesettings.md), [Manipulation](spatialgesturesettings.md), and [Navigation](spatialgesturesettings.md) events uniformly across hand, speech and controller interactions.
 
 > [!NOTE]
 > Spatial interactions are not detected from gamepad, keyboard, or mouse input devices.

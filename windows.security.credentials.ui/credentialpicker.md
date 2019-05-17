@@ -13,7 +13,7 @@ public class CredentialPicker
 Creates an asynchronous object that displays a dialog box of credentials to the user and collects the user's response.
 
 > [!NOTE]
-> Enterprise credentials retrieved from the [CredentialPicker](credentialpicker.md) don't have the capability to roam.
+> Enterprise credentials retrieved from the CredentialPicker don't have the capability to roam.
 
 ## -remarks
 

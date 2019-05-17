@@ -20,9 +20,9 @@ Occurs when a user performs a [slide](https://msdn.microsoft.com/library/897555e
 <!--kbridge: Font details: Segoe UI Symbol 11pt RGB: 214/31/126-->
 
 ## -remarks
-[CrossSlide](gesturesettings.md) must be set in the [GestureSettings](gesturerecognizer_gesturesettings.md) property to support [CrossSliding](gesturerecognizer_crosssliding.md).
+[CrossSlide](gesturesettings.md) must be set in the [GestureSettings](gesturerecognizer_gesturesettings.md) property to support CrossSliding.
 
-[CrossSliding](gesturerecognizer_crosssliding.md) distance thresholds are disabled by default. Use [CrossSlideThresholds](gesturerecognizer_crossslidethresholds.md) to set these values.
+CrossSliding distance thresholds are disabled by default. Use [CrossSlideThresholds](gesturerecognizer_crossslidethresholds.md) to set these values.
 
 ## -examples
 

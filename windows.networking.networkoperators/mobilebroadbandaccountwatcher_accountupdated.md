@@ -24,7 +24,7 @@ Occurs when a Mobile Broadband Account is updated on the client.
 The network account id of the account is available in the event handler from the [NetworkAccountId](mobilebroadbandaccountupdatedeventargs_networkaccountid.md) property.
 
 
-The [AccountUpdated](mobilebroadbandaccountwatcher_accountupdated.md) event is triggered when any of the following properties change:
+The AccountUpdated event is triggered when any of the following properties change:
 
 + [MobileBroadbandDeviceInformation](mobilebroadbanddeviceinformation.md) class:
 

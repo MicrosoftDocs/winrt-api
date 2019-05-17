@@ -16,7 +16,7 @@ Gets a value that reports the run-time layout slot height of the "Popup" part of
 The run-time layout slot height, in pixels.
 
 ## -remarks
-[DropDownOpenedHeight](comboboxtemplatesettings_dropdownopenedheight.md) is referenced in the default generic.xaml template animations for [ComboBox](../windows.ui.xaml.controls/combobox.md).
+DropDownOpenedHeight is referenced in the default generic.xaml template animations for [ComboBox](../windows.ui.xaml.controls/combobox.md).
 
 ## -examples
 

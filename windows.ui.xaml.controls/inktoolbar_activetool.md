@@ -24,7 +24,7 @@ This property provides access to the following objects:
 Features in this group are mutually exclusive: selecting a feature deselects the currently active feature.
 
 > [!NOTE]
-> [InkToolbarRulerButton](inktoolbarrulerbutton.md) and [InkToolbarCustomToggleButton](inktoolbarcustomtogglebutton.md) objects work in conjunction with the active feature and are not exposed to the [ActiveTool](inktoolbar_activetool.md) property.
+> [InkToolbarRulerButton](inktoolbarrulerbutton.md) and [InkToolbarCustomToggleButton](inktoolbarcustomtogglebutton.md) objects work in conjunction with the active feature and are not exposed to the ActiveTool property.
 
 ## -property-value
 The currently selected feature. By default, this is the first button on the [InkToolbar](inktoolbar.md).

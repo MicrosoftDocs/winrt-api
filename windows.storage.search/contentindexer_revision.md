@@ -16,9 +16,9 @@ Gets the version of the [ContentIndexer](contentindexer.md).
 The revision number.
 
 ## -remarks
-Use the [Revision](contentindexer_revision.md) property to track updates to the index.
+Use the Revision property to track updates to the index.
 
-For example, it's possible that your app may have terminated prior to the index being committed. In many cases the app can resubmit all of its content, but for more sophisticated apps, like mail, where there's a large amount of content, the app can create its own checkpoints and re-index only the missing content. The app can track how much content has been indexed by tracking the revision number. The [Revision](contentindexer_revision.md) property is a number that increments based on the indexing operations that the app has initiated.
+For example, it's possible that your app may have terminated prior to the index being committed. In many cases the app can resubmit all of its content, but for more sophisticated apps, like mail, where there's a large amount of content, the app can create its own checkpoints and re-index only the missing content. The app can track how much content has been indexed by tracking the revision number. The Revision property is a number that increments based on the indexing operations that the app has initiated.
 
 If the index is reset (which can be caused by either the index getting corrupted or a user manually clearing it out), the revision number will be "0". In this case, the app should re-push all of its data.
 

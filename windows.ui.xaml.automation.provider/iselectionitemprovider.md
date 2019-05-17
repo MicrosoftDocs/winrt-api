@@ -15,12 +15,12 @@ Exposes methods and properties to support access by a Microsoft UI Automation cl
 ## -remarks
 This pattern has guidelines and conventions that aren't fully documented here. For more info on what this pattern is for, see [SelectionItem Control Pattern](https://msdn.microsoft.com/library/9314547f-7062-42db-b6a7-8a8eaef21d4e). However, you don't need to follow the guidance regarding [IRawElementProviderFragmentRoot](https://msdn.microsoft.com/library/16e51962-915e-40ea-a7a1-6f5a5809ba05), that is specific to COM provider implementations and the interface doesn't exist in the Windows Runtime automation provider API.
 
-[ISelectionItemProvider](iselectionitemprovider.md) is implemented by these existing Windows Runtime classes:
+ISelectionItemProvider is implemented by these existing Windows Runtime classes:
 + [RadioButtonAutomationPeer](../windows.ui.xaml.automation.peers/radiobuttonautomationpeer.md)
 + [SelectorItemAutomationPeer](../windows.ui.xaml.automation.peers/selectoritemautomationpeer.md)
 
 
-Use [SelectionItemPatternIdentifiers](../windows.ui.xaml.automation/selectionitempatternidentifiers.md) if you want to reference the [ISelectionItemProvider](iselectionitemprovider.md) pattern properties from control code when you fire automation events or call [RaisePropertyChangedEvent](../windows.ui.xaml.automation.peers/automationpeer_raisepropertychangedevent_715050195.md).
+Use [SelectionItemPatternIdentifiers](../windows.ui.xaml.automation/selectionitempatternidentifiers.md) if you want to reference the ISelectionItemProvider pattern properties from control code when you fire automation events or call [RaisePropertyChangedEvent](../windows.ui.xaml.automation.peers/automationpeer_raisepropertychangedevent_715050195.md).
 
 ## -examples
 

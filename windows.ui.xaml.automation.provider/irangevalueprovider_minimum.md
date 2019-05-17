@@ -13,7 +13,7 @@ public double Minimum { get; }
 Gets the minimum range value that is supported by the control.
 
 ## -property-value
-The minimum value that is supported by the control, or null if the control does not support [Minimum](irangevalueprovider_minimum.md).
+The minimum value that is supported by the control, or null if the control does not support Minimum.
 
 ## -remarks
 

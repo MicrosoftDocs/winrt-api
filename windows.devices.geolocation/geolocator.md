@@ -17,7 +17,7 @@ Provides access to the current geographic location.
 
 ## -examples
 
-This example shows how to use the [Geolocator](geolocator.md) class to retrieve the device's location. For more info, see [Get current location](https://msdn.microsoft.com/library/24dc9a41-8cc1-48b0-bc6d-24bf571afcc8).
+This example shows how to use the Geolocator class to retrieve the device's location. For more info, see [Get current location](https://msdn.microsoft.com/library/24dc9a41-8cc1-48b0-bc6d-24bf571afcc8).
 
 ```csharp
 using Windows.Devices.Geolocation;

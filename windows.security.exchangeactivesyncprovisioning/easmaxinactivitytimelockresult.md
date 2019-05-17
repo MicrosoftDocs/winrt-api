@@ -11,7 +11,7 @@ public enum Windows.Security.ExchangeActiveSyncProvisioning.EasMaxInactivityTime
 
 ## -description
 > [!NOTE]
-> [EasMaxInactivityTimeLockResult](easmaxinactivitytimelockresult.md) may be unavailable for releases after Windows 10.
+> EasMaxInactivityTimeLockResult may be unavailable for releases after Windows 10.
 
 Represents the maximum length of time result before locking the computer. These values are mapped against the HRESULT codes returned from the EAS policy engine.
 

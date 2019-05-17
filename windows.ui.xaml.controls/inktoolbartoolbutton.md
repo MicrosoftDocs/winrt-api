@@ -14,7 +14,7 @@ Provides a base class for all built-in and custom buttons on an [InkToolbar](ink
 
 ## -remarks
 
-The [InkToolbarToolButton](inktoolbartoolbutton.md) class cannot be instantiated directly. Use the various built-in and custom [InkToolbar](inktoolbar.md) pen buttons instead.
+The InkToolbarToolButton class cannot be instantiated directly. Use the various built-in and custom [InkToolbar](inktoolbar.md) pen buttons instead.
 
 By default, the [InkToolbar](inktoolbar.md) contains the following built-in buttons:
 
@@ -32,7 +32,7 @@ Standalone toggle button
 
 ### **InkToolbarToolButton** derived classes
 
-[InkToolbarToolButton](inktoolbartoolbutton.md) is the base class for:
+InkToolbarToolButton is the base class for:
 
 Pen buttons
 
@@ -40,7 +40,7 @@ Pen buttons
 
 Tool buttons
 
-+ [InkToolbarToolButton](inktoolbartoolbutton.md)
++ InkToolbarToolButton
 
 Custom pen buttons
 

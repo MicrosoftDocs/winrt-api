@@ -10,7 +10,7 @@ public class NetworkOperatorTetheringAccessPointConfiguration : Windows.Networki
 # Windows.Networking.NetworkOperators.NetworkOperatorTetheringAccessPointConfiguration
 
 ## -description
-Provides the ability to configure and create a [NetworkOperatorTetheringAccessPointConfiguration](networkoperatortetheringaccesspointconfiguration.md) object that contains a specific network account ID (SSID) and specifies the passphrase used to authenticate clients trying to establish a network connection to the tethering network.
+Provides the ability to configure and create a NetworkOperatorTetheringAccessPointConfiguration object that contains a specific network account ID (SSID) and specifies the passphrase used to authenticate clients trying to establish a network connection to the tethering network.
 
 ## -remarks
 Windows 10, version 1607, supports Mobile Hotspot, an enhanced version of the mobile broadband tethering feature. 

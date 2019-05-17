@@ -26,7 +26,7 @@ As of Windows 8.1, you can also enable the notification queue for only specific
 + [EnableNotificationQueueForSquare150x150](tileupdater_enablenotificationqueueforsquare150x150_2087406043.md)
 + [EnableNotificationQueueForSquare310x310](tileupdater_enablenotificationqueueforsquare310x310_2095794587.md)
 + [EnableNotificationQueueForWide310x150](tileupdater_enablenotificationqueueforwide310x150_1310885892.md)
-We recommend that you disable the notification queu when using a large tile with one of the following templates, which already show three notifications simultaneously. This avoids a tile that's distractingly busy to the user. In that case, you may want to use the size-specific enable methods instead of [EnableNotificationQueue](tileupdater_enablenotificationqueue_1798421599.md). 
+We recommend that you disable the notification queu when using a large tile with one of the following templates, which already show three notifications simultaneously. This avoids a tile that's distractingly busy to the user. In that case, you may want to use the size-specific enable methods instead of EnableNotificationQueue. 
 + [TileSquare310x310SmallImagesAndTextList01](tiletemplatetype.md)
 + [TileSquare310x310SmallImagesAndTextList02](tiletemplatetype.md)
 + [TileSquare310x310SmallImagesAndTextList03](tiletemplatetype.md)

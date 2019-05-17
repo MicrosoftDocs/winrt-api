@@ -34,7 +34,7 @@ Gets or sets the content for the items header.
 The content of the items header. The default value is **null**.
 
 ## -remarks
-You can set a data template for the [Header](itemspresenter_header.md) by using the [HeaderTemplate](itemspresenter_headertemplate.md) property.
+You can set a data template for the Header by using the [HeaderTemplate](itemspresenter_headertemplate.md) property.
 
 <!--Windows Blue bug 454690-->
 > **Windows 8.1**

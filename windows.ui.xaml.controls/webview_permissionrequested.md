@@ -15,7 +15,7 @@ Occurs when an action in a [WebView](webview.md) requires that permission be gra
 ## -remarks
 The types of permission that can be requested are defined in the [WebViewPermissionType](webviewpermissiontype.md) enumeration.
 
-If you don't handle the [PermissionRequested](webview_permissionrequested.md) event, the [WebView](webview.md) denies permission by default.
+If you don't handle the PermissionRequested event, the [WebView](webview.md) denies permission by default.
 
 When you handle a permission request in a [WebView](webview.md), you get a [WebViewPermissionRequest](webviewpermissionrequest.md) object as the value of the [WebViewPermissionRequestedEventArgs.PermissionRequest](webviewpermissionrequestedeventargs_permissionrequest.md) property. You can call [Allow](webviewpermissionrequest_allow_1592747266.md) to grant the request, [Deny](webviewpermissionrequest_deny_445869776.md) to deny the request, or [Defer](webviewpermissionrequest_defer_1945301616.md) to defer the request until a later time. For example, you might defer the request if you need to prompt the user for consent.
 

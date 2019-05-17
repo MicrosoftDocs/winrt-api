@@ -17,7 +17,7 @@ This interface supports the creation of data bindable collections in C++. When p
 
 ### Interface inheritance
 
-[IBindableObservableVector](ibindableobservablevector.md) inherits [IBindableVector](ibindablevector.md) and [IBindableIterable](ibindableiterable.md). Types that implement [IBindableObservableVector](ibindableobservablevector.md) also implement the interface members of [IBindableVector](ibindablevector.md) and [IBindableIterable](ibindableiterable.md) for C++ usage, or [IList](https://msdn.microsoft.com/library/system.collections.ilist.aspx) and [IEnumerable](https://msdn.microsoft.com/library/system.collections.ienumerable.aspx) for Microsoft .NET usage.
+IBindableObservableVector inherits [IBindableVector](ibindablevector.md) and [IBindableIterable](ibindableiterable.md). Types that implement IBindableObservableVector also implement the interface members of [IBindableVector](ibindablevector.md) and [IBindableIterable](ibindableiterable.md) for C++ usage, or [IList](https://msdn.microsoft.com/library/system.collections.ilist.aspx) and [IEnumerable](https://msdn.microsoft.com/library/system.collections.ienumerable.aspx) for Microsoft .NET usage.
 
 ## -examples
 

@@ -15,7 +15,7 @@ public byte MaxPasswordFailedAttempts { get;  set; }
 
 Gets or sets the maximum number of failed password attempts for logging on. The MS-ASPROV name is MaxDevicePasswordFailedAttempts.
 
-The [MaxPasswordFailedAttempts](easclientsecuritypolicy_maxpasswordfailedattempts.md) property is superseded by the MS-ASPROV DevicePasswordEnabled policy. If the caller received DevicePasswordEnabled equal to FALSE, do not set the [MaxPasswordFailedAttempts](easclientsecuritypolicy_maxpasswordfailedattempts.md) property for evaluation or application. If the caller received DevicePasswordEnabled equal to TRUE, you can set the [MaxPasswordFailedAttempts](easclientsecuritypolicy_maxpasswordfailedattempts.md) property for evaluation or application.
+The MaxPasswordFailedAttempts property is superseded by the MS-ASPROV DevicePasswordEnabled policy. If the caller received DevicePasswordEnabled equal to FALSE, do not set the MaxPasswordFailedAttempts property for evaluation or application. If the caller received DevicePasswordEnabled equal to TRUE, you can set the MaxPasswordFailedAttempts property for evaluation or application.
 
 ## -property-value
 The range is between 4 and 16.

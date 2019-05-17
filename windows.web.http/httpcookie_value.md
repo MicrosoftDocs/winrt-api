@@ -16,7 +16,7 @@ Get or set the value for the [HttpCookie](httpcookie.md).
 The value for the [HttpCookie](httpcookie.md).
 
 ## -remarks
-The [Value](httpcookie_value.md) of the [HttpCookie](httpcookie.md) must not be set to **null** (**Nothing** in Visual Basic).
+The Value of the [HttpCookie](httpcookie.md) must not be set to **null** (**Nothing** in Visual Basic).
 
 The following characters are reserved and cannot be used for this property: 
 + backslash ('\')

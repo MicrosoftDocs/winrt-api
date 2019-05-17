@@ -22,7 +22,7 @@ The drawing attributes.
 The following example demonstrates how to set a drawing attribute for a specific stroke.
 
 > [!NOTE]
-> You cannot set the [DrawingAttributes](inkstroke_drawingattributes.md) property of the stroke directly. You must create a copy of the [InkDrawingAttributes](inkdrawingattributes.md) of the stroke, set the desired values for that [InkDrawingAttributes](inkdrawingattributes.md) object, and then assign the new [InkDrawingAttributes](inkdrawingattributes.md) to the [DrawingAttributes](inkstroke_drawingattributes.md) of the stroke, as shown here.
+> You cannot set the DrawingAttributes property of the stroke directly. You must create a copy of the [InkDrawingAttributes](inkdrawingattributes.md) of the stroke, set the desired values for that [InkDrawingAttributes](inkdrawingattributes.md) object, and then assign the new [InkDrawingAttributes](inkdrawingattributes.md) to the DrawingAttributes of the stroke, as shown here.
 
 ```javascript
 inkManager.getStrokes().forEach(function (stroke)

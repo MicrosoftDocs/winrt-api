@@ -15,7 +15,7 @@ Provides text manipulation methods that are used by several objects.
 ## -remarks
 ### Interface inheritance
 
-[IXmlCharacterData](ixmlcharacterdata.md) inherits [IXmlNode](ixmlnode.md), [IXmlNodeSelector](ixmlnodeselector.md), and [IXmlNodeSerializer](ixmlnodeserializer.md). Types that implement [IXmlCharacterData](ixmlcharacterdata.md) also implement the interface members of [IXmlNode](ixmlnode.md), [IXmlNodeSelector](ixmlnodeselector.md), and [IXmlNodeSerializer](ixmlnodeserializer.md).
+IXmlCharacterData inherits [IXmlNode](ixmlnode.md), [IXmlNodeSelector](ixmlnodeselector.md), and [IXmlNodeSerializer](ixmlnodeserializer.md). Types that implement IXmlCharacterData also implement the interface members of [IXmlNode](ixmlnode.md), [IXmlNodeSelector](ixmlnodeselector.md), and [IXmlNodeSerializer](ixmlnodeserializer.md).
 
 ## -examples
 

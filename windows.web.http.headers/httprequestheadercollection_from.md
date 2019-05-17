@@ -18,7 +18,7 @@ The value of a **From** HTTP header on an HTTP request. An empty string means th
 ## -remarks
 
 
-The following sample code shows a method to set the **From** header on an [HttpRequestMessage](../windows.web.http/httprequestmessage.md) object using the [From](httprequestheadercollection_from.md) property on the [HttpRequestHeaderCollection](httprequestheadercollection.md) object.
+The following sample code shows a method to set the **From** header on an [HttpRequestMessage](../windows.web.http/httprequestmessage.md) object using the From property on the [HttpRequestHeaderCollection](httprequestheadercollection.md) object.
 
 ```csharp
     public void DemonstrateHeaderRequestFrom() {

@@ -11,7 +11,7 @@ public IVectorView<InfraredTorchMode> SupportedModes { get; }
 # Windows.Media.Devices.InfraredTorchControl.SupportedModes
 
 ## -description
-[SupportedModes](infraredtorchcontrol_supportedmodes.md) property is used to find out modes that the infrared LED supports.
+SupportedModes property is used to find out modes that the infrared LED supports.
 
 ## -property-value
 Read-only list of supported [InfraredTorchModes](infraredtorchmode.md).

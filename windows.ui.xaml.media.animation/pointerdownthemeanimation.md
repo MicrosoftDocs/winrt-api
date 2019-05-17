@@ -20,10 +20,10 @@ Represents a preconfigured animation that runs when a pointer down is detected o
 ## -remarks
 Setting the [Duration](timeline_duration.md) property has no effect on this object as the duration is preconfigured.
 
-[PointerDownThemeAnimation](pointerdownthemeanimation.md) overrides the current values of [Projection](../windows.ui.xaml/uielement_projection.md) and [RenderTransform](../windows.ui.xaml/uielement_rendertransform.md).
+PointerDownThemeAnimation overrides the current values of [Projection](../windows.ui.xaml/uielement_projection.md) and [RenderTransform](../windows.ui.xaml/uielement_rendertransform.md).
 
 > **Windows 8.1 and prior**
-> [Projection](../windows.ui.xaml/uielement_projection.md) and [RenderTransform](../windows.ui.xaml/uielement_rendertransform.md) are not affected by [PointerDownThemeAnimation](pointerdownthemeanimation.md).
+> [Projection](../windows.ui.xaml/uielement_projection.md) and [RenderTransform](../windows.ui.xaml/uielement_rendertransform.md) are not affected by PointerDownThemeAnimation.
 
 ## -examples
 The following is an example of a template of a custom control that uses PointerDown/Up theme animations.

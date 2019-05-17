@@ -12,20 +12,20 @@ public class InkManager : Windows.UI.Input.Inking.IInkManager, Windows.UI.Input.
 
 ## -description
 > [!NOTE]
-> For Universal Windows app using Extensible Application Markup Language (XAML), we recommend using [InkPresenter](inkpresenter.md) and the [InkCanvas](../windows.ui.xaml.controls/inkcanvas.md) control instead of [InkManager](inkmanager.md).
+> For Universal Windows app using Extensible Application Markup Language (XAML), we recommend using [InkPresenter](inkpresenter.md) and the [InkCanvas](../windows.ui.xaml.controls/inkcanvas.md) control instead of InkManager.
 
 Manages the input, manipulation, and processing (including handwriting recognition) of one or more [InkStroke](inkstroke.md) objects.
 
 ## -remarks
-If recognition is not required, use an [InkStrokeContainer](inkstrokecontainer.md) object instead of an [InkManager](inkmanager.md). Previous recognition results are still available through [GetRecognitionResults](inkstrokecontainer_getrecognitionresults_1073930605.md).
+If recognition is not required, use an [InkStrokeContainer](inkstrokecontainer.md) object instead of an InkManager. Previous recognition results are still available through [GetRecognitionResults](inkstrokecontainer_getrecognitionresults_1073930605.md).
 
-If only recognition is required, and not storage, use an [InkRecognizerContainer](inkrecognizercontainer.md) instead of an [InkManager](inkmanager.md).
+If only recognition is required, and not storage, use an [InkRecognizerContainer](inkrecognizercontainer.md) instead of an InkManager.
 
 > [!NOTE]
 > : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
 
 ## -examples
-This example shows how to create an [InkManager](inkmanager.md) object.
+This example shows how to create an InkManager object.
 
 ```
 
@@ -33,7 +33,7 @@ var inkManager = new Windows.UI.Input.Inking.InkManager();
 
 ```
 
-The following function demonstrates how to select all ink strokes on a [canvas](XREF:TODO:wwa.HTMLCanvasElement) that are part of the stroke collection of this [InkManager](inkmanager.md) (`inkManager`).
+The following function demonstrates how to select all ink strokes on a [canvas](XREF:TODO:wwa.HTMLCanvasElement) that are part of the stroke collection of this InkManager (`inkManager`).
 
 ```
 

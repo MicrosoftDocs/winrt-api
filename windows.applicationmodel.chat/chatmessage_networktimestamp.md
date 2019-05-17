@@ -17,7 +17,7 @@ Gets the network timestamp of the message.
 The network timestamp of the message.
 
 ## -remarks
-The value for [NetworkTimestamp](chatmessage_networktimestamp.md) is the phone network based time for the message.
+The value for NetworkTimestamp is the phone network based time for the message.
 
 ## -examples
 

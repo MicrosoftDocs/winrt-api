@@ -11,7 +11,7 @@ public enum Windows.Networking.NetworkOperators.MobileBroadbandAccountWatcherSta
 # MobileBroadbandAccountWatcherStatus
 
 ## -description
-Describes different states of a [MobileBroadbandAccountWatcherStatus](mobilebroadbandaccountwatcherstatus.md) object.
+Describes different states of a MobileBroadbandAccountWatcherStatus object.
 
 > [!NOTE]
 > This functionality is only available to mobile operator apps and UWP apps given privileged access by mobile network operators.

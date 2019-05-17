@@ -13,11 +13,11 @@ public class FlyoutPresenterAutomationPeer : Windows.UI.Xaml.Automation.Peers.Fr
 Exposes [FlyoutPresenter](../windows.ui.xaml.controls/flyoutpresenter.md) types to Microsoft UI Automation.
 
 ## -remarks
-The Windows Runtime  [FlyoutPresenter](../windows.ui.xaml.controls/flyoutpresenter.md) class creates a new [FlyoutPresenterAutomationPeer](flyoutpresenterautomationpeer.md) as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. Derive your automation peer from [FlyoutPresenterAutomationPeer](flyoutpresenterautomationpeer.md) if you are deriving a custom class from [FlyoutPresenter](../windows.ui.xaml.controls/flyoutpresenter.md) and want to add automation support for additional features that you enabled in your custom class. Then override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) so that it returns your custom peer.
+The Windows Runtime  [FlyoutPresenter](../windows.ui.xaml.controls/flyoutpresenter.md) class creates a new FlyoutPresenterAutomationPeer as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. Derive your automation peer from FlyoutPresenterAutomationPeer if you are deriving a custom class from [FlyoutPresenter](../windows.ui.xaml.controls/flyoutpresenter.md) and want to add automation support for additional features that you enabled in your custom class. Then override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) so that it returns your custom peer.
 
 ### Default peer implementation and overrides in **FlyoutPresenterAutomationPeer**
 
-[FlyoutPresenterAutomationPeer](flyoutpresenterautomationpeer.md) has overrides of **Core** methods such that the associated [AutomationPeer](automationpeer.md) methods provide peer-specific information to a Microsoft UI Automation client.
+FlyoutPresenterAutomationPeer has overrides of **Core** methods such that the associated [AutomationPeer](automationpeer.md) methods provide peer-specific information to a Microsoft UI Automation client.
 
 + [GetClassName](automationpeer_getclassname_614238974.md) returns "Flyout".
 + [GetAutomationControlType](automationpeer_getautomationcontroltype_1156384152.md) returns [AutomationControlType.Pane](automationcontroltype.md).

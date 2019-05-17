@@ -32,7 +32,7 @@ Gets or sets a value that indicates whether the control supports three states.
    <tr><td>indeterminate</td><td>[  IsChecked](togglebutton_ischecked.md)</td><td>**null**</td></tr>
 </table>
 
- For the [ToggleButton](togglebutton.md) to report the indeterminate state, you must set the [IsThreeState](togglebutton_isthreestate.md) property to **true**.
+ For the [ToggleButton](togglebutton.md) to report the indeterminate state, you must set the IsThreeState property to **true**.
 
 > [!NOTE]
 > [ToggleButton](togglebutton.md) has the same visual state for the indeterminate and unchecked states. Derived controls, like [CheckBox](../windows.ui.xaml.controls/checkbox.md), may define different visual states for each state.

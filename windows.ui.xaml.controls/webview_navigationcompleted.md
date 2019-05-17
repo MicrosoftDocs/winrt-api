@@ -28,7 +28,7 @@ To determine whether navigation has failed, check the [IsSuccess](webviewnavigat
 + [NavigationStarting](webview_navigationstarting.md)
 + [ContentLoading](webview_contentloading.md)
 + [DOMContentLoaded](webview_domcontentloaded.md)
-+ [NavigationCompleted](webview_navigationcompleted.md)
++ NavigationCompleted
 
 
 Similar events occur in the same order for each **iframe** in the [WebView](webview.md) content: 

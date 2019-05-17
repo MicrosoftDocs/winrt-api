@@ -23,7 +23,7 @@ The following example demonstrates how a UWP app built with C# and XAML register
 
 [!code-csharp[EnableReadingChangedCS](../windows.devices.sensors/code/gyrometer/csharp/Scenario1.xaml.cs#SnippetEnableReadingChangedCS)]
 
-The following example shows the [ReadingChanged](gyrometer_readingchanged.md) event handler.
+The following example shows the ReadingChanged event handler.
 
 
 
@@ -35,7 +35,7 @@ The following example demonstrates how a UWP app built with JavaScript registers
 
 [!code-js[EnableDataChangedJS](../windows.devices.sensors/code/gyrometer/javascript/scenario1.js#SnippetEnableDataChangedJS)]
 
-The following example shows the [ReadingChanged](gyrometer_readingchanged.md) event handler.
+The following example shows the ReadingChanged event handler.
 
 
 

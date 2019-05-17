@@ -13,11 +13,11 @@ public void Enable()
 Indicates that the [BackgroundTransferCompletionGroup](backgroundtransfercompletiongroup.md) is complete and no more background transfer operations ([DownloadOperation](downloadoperation.md) or [UploadOperation](uploadoperation.md) objects) will be added t the completion group.
 
 ## -remarks
-The [Enable](backgroundtransfercompletiongroup_enable_366433390.md) method must be called on the [BackgroundTransferCompletionGroup](backgroundtransfercompletiongroup.md) to enable the completion group, otherwise the background task associated with the [BackgroundTransferCompletionGroup](backgroundtransfercompletiongroup.md) will never be called.
+The Enable method must be called on the [BackgroundTransferCompletionGroup](backgroundtransfercompletiongroup.md) to enable the completion group, otherwise the background task associated with the [BackgroundTransferCompletionGroup](backgroundtransfercompletiongroup.md) will never be called.
 
-Any attempt to add a [DownloadOperation](downloadoperation.md) or [UploadOperation](uploadoperation.md) to the [BackgroundTransferCompletionGroup](backgroundtransfercompletiongroup.md) after calling the [Enable](backgroundtransfercompletiongroup_enable_366433390.md) method will result in an exception.
+Any attempt to add a [DownloadOperation](downloadoperation.md) or [UploadOperation](uploadoperation.md) to the [BackgroundTransferCompletionGroup](backgroundtransfercompletiongroup.md) after calling the Enable method will result in an exception.
 
-The [Enable](backgroundtransfercompletiongroup_enable_366433390.md) method on a [BackgroundTransferCompletionGroup](backgroundtransfercompletiongroup.md) can only be called once. An attempt to call the [Enable](backgroundtransfercompletiongroup_enable_366433390.md) method more than once will result in an exception.
+The Enable method on a [BackgroundTransferCompletionGroup](backgroundtransfercompletiongroup.md) can only be called once. An attempt to call the Enable method more than once will result in an exception.
 
 ## -examples
 

@@ -32,7 +32,7 @@ Gets or sets the border thickness of a control.
 The border thickness of a control, as a [Thickness](../windows.ui.xaml/thickness.md) value.
 
 ## -remarks
-Each control might apply this property differently based on its visual template. This property only affects a control whose template uses the [BorderThickness](control_borderthickness.md) property as a parameter. On other controls, this property has no effect. For more info about visual templates, see the [Template](control_template.md) property.
+Each control might apply this property differently based on its visual template. This property only affects a control whose template uses the BorderThickness property as a parameter. On other controls, this property has no effect. For more info about visual templates, see the [Template](control_template.md) property.
 
 ## -examples
 

@@ -25,13 +25,13 @@ Defines an area within which you can position and align child objects in relatio
 
 ## -remarks
 
-[RelativePanel](relativepanel.md) is a layout container that is useful for creating UI that do not have a clear linear pattern; that is, layouts that are not fundamentally stacked, wrapped, or tabular, where you might naturally use a [StackPanel](stackpanel.md) or [Grid](grid.md).
+RelativePanel is a layout container that is useful for creating UI that do not have a clear linear pattern; that is, layouts that are not fundamentally stacked, wrapped, or tabular, where you might naturally use a [StackPanel](stackpanel.md) or [Grid](grid.md).
 
-If your UI consists of multiple nested panels, [RelativePanel](relativepanel.md) is a good option to consider.
+If your UI consists of multiple nested panels, RelativePanel is a good option to consider.
 
 
 
-Here's an example of a UI using a [RelativePanel](relativepanel.md) for its layout:
+Here's an example of a UI using a RelativePanel for its layout:
 
 <img alt="Relative panel control" src="images/controls/RelativePanelBasic.png" />
 
@@ -53,7 +53,7 @@ Here's an example of a UI using a [RelativePanel](relativepanel.md) for its layo
 </RelativePanel>
 ```
 
-[RelativePanel](relativepanel.md), used in conjunction with [AdaptiveTrigger](../windows.ui.xaml/adaptivetrigger.md) s, can be a powerful tool to create responsive UI that scales well across different screen sizes. For more examples, see the [XAML Responsive Techniques sample](https://go.microsoft.com/fwlink/p/?LinkId=620024&amp;amp;clcid=0x409).
+RelativePanel, used in conjunction with [AdaptiveTrigger](../windows.ui.xaml/adaptivetrigger.md) s, can be a powerful tool to create responsive UI that scales well across different screen sizes. For more examples, see the [XAML Responsive Techniques sample](https://go.microsoft.com/fwlink/p/?LinkId=620024&amp;amp;clcid=0x409).
 
 
 
@@ -62,7 +62,7 @@ Here's an example of a UI using a [RelativePanel](relativepanel.md) for its layo
 
 ### Default position
 
-By default, any unconstrained element declared as a child of the [RelativePanel](relativepanel.md) is given the entire available space and positioned at the (0, 0) coordinates (upper left corner) of the panel. So, if you are positioning a second element relative to an unconstrained element, keep in mind that the second element might get pushed out of the panel.
+By default, any unconstrained element declared as a child of the RelativePanel is given the entire available space and positioned at the (0, 0) coordinates (upper left corner) of the panel. So, if you are positioning a second element relative to an unconstrained element, keep in mind that the second element might get pushed out of the panel.
 
 In this example, `RectA` doesn't have any constraints, so it's positioned at (0,0). `RectB` is not shown on the screen because it is declared to be [Above](relativepanel_above.md)  `RectA` and is therefore pushed out of the panel.
 
@@ -78,7 +78,7 @@ In this example, `RectA` doesn't have any constraints, so it's positioned at (0,
 
 ### Circular dependency
 
-A circular dependency occurs when two elements inside a [RelativePanel](relativepanel.md) declare relationships with each other in any direction. For example, this XAML results in a design-time exception, "RelativePanel error: Circular dependency detected. Layout could not complete."
+A circular dependency occurs when two elements inside a RelativePanel declare relationships with each other in any direction. For example, this XAML results in a design-time exception, "RelativePanel error: Circular dependency detected. Layout could not complete."
 
 ```xaml
 <RelativePanel>
@@ -105,7 +105,7 @@ The [HorizontalAlignment](../windows.ui.xaml/frameworkelement_horizontalalignmen
 
 ### Border properties
 
-[RelativePanel](relativepanel.md) defines border properties that let you draw a border around the [RelativePanel](relativepanel.md) without using an additional [Border](border.md) element. The properties are [RelativePanel.BorderBrush](relativepanel_borderbrush.md), [RelativePanel.BorderThickness](relativepanel_borderthickness.md), [RelativePanel.CornerRadius](relativepanel_cornerradius.md), and [RelativePanel.Padding](relativepanel_padding.md).
+RelativePanel defines border properties that let you draw a border around the RelativePanel without using an additional [Border](border.md) element. The properties are [RelativePanel.BorderBrush](relativepanel_borderbrush.md), [RelativePanel.BorderThickness](relativepanel_borderthickness.md), [RelativePanel.CornerRadius](relativepanel_cornerradius.md), and [RelativePanel.Padding](relativepanel_padding.md).
 
 ```xaml
 <RelativePanel BorderBrush="Red" BorderThickness="2" CornerRadius="10" Padding="12">

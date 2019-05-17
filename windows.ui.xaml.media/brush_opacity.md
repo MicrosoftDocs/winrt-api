@@ -19,7 +19,7 @@ Gets or sets the degree of opacity of a [Brush](brush.md).
 
 
 ## -property-value
-The value of the [Opacity](brush_opacity.md) property is expressed as a value between 0 and 1.0. The default value is 1.0, which is full opacity. 0 is transparent opacity.
+The value of the Opacity property is expressed as a value between 0 and 1.0. The default value is 1.0, which is full opacity. 0 is transparent opacity.
 
 ## -remarks
 

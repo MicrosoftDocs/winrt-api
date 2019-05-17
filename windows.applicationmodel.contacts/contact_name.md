@@ -11,7 +11,7 @@ public string Name { get;  set; }
 
 ## -description
 > [!NOTE]
-> [Name](contact_name.md) may be altered or unavailable for releases after Windows 8.1. Instead, use [FirstName](contact_firstname.md).
+> Name may be altered or unavailable for releases after Windows 8.1. Instead, use [FirstName](contact_firstname.md).
 
 Sets and gets the name of the contact.
 
@@ -19,10 +19,10 @@ Sets and gets the name of the contact.
 The name of the contact.
 
 ## -remarks
-An app can set the [name](contact_name.md) property to any value that matches the name of a contact. We recommend that you set this value to contain both the first and last names of the contact, if that information is available.
+An app can set the name property to any value that matches the name of a contact. We recommend that you set this value to contain both the first and last names of the contact, if that information is available.
 
 ## -examples
-This example shows a function taking the [name](contact_name.md) property and returning the first and last names of the contact.
+This example shows a function taking the name property and returning the first and last names of the contact.
 
 
 

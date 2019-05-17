@@ -13,21 +13,21 @@ public class HttpContentCodingHeaderValueCollection : Windows.Foundation.Collect
 Represents the value of the **Content-Encoding** HTTP header on HTTP content in a request or a response.
 
 ## -remarks
-The [HttpContentCodingHeaderValueCollection](httpcontentcodingheadervaluecollection.md) class represents the value of the **Content-Encoding** HTTP header on HTTP content sent in an HTTP request or received in an HTTP response.
+The HttpContentCodingHeaderValueCollection class represents the value of the **Content-Encoding** HTTP header on HTTP content sent in an HTTP request or received in an HTTP response.
 
-The [HttpContentCodingHeaderValueCollection](httpcontentcodingheadervaluecollection.md) provides a collection container for instances of the [HttpConnectionOptionHeaderValue](httpconnectionoptionheadervalue.md) class objects used for content encoding information in the **Content-Encoding** HTTP header.
+The HttpContentCodingHeaderValueCollection provides a collection container for instances of the [HttpConnectionOptionHeaderValue](httpconnectionoptionheadervalue.md) class objects used for content encoding information in the **Content-Encoding** HTTP header.
 
-The [ContentEncoding](httpcontentheadercollection_contentencoding.md) property on the [HttpContentHeaderCollection](httpcontentheadercollection.md) returns an [HttpContentCodingHeaderValueCollection](httpcontentcodingheadervaluecollection.md).
+The [ContentEncoding](httpcontentheadercollection_contentencoding.md) property on the [HttpContentHeaderCollection](httpcontentheadercollection.md) returns an HttpContentCodingHeaderValueCollection.
 
 ### Collection member lists
 
-For JavaScript, [HttpContentCodingHeaderValueCollection](httpcontentcodingheadervaluecollection.md) has the members shown in the member lists. In addition, [HttpContentCodingHeaderValueCollection](httpcontentcodingheadervaluecollection.md) supports members of **Array.prototype** and using an index to access items.
+For JavaScript, HttpContentCodingHeaderValueCollection has the members shown in the member lists. In addition, HttpContentCodingHeaderValueCollection supports members of **Array.prototype** and using an index to access items.
 
 
 <!--Begin NET note for IEnumerable support-->
 ### Enumerating the collection in C# or Microsoft Visual Basic
 
-You can iterate through an [HttpContentCodingHeaderValueCollection](httpcontentcodingheadervaluecollection.md) object in C# or Microsoft Visual Basic. In many cases, such as using **foreach** syntax, the compiler does this casting for you and you won't need to cast to `IEnumerable<HttpContentCodingHeaderValue>` explicitly. If you do need to cast explicitly, for example if you want to call [GetEnumerator](https://docs.microsoft.com/dotnet/api/system.collections.ienumerable.getenumerator), cast the collection object to [IEnumerable<T>](https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1) with an [HttpContentCodingHeaderValue](httpcontentcodingheadervalue.md) constraint.
+You can iterate through an HttpContentCodingHeaderValueCollection object in C# or Microsoft Visual Basic. In many cases, such as using **foreach** syntax, the compiler does this casting for you and you won't need to cast to `IEnumerable<HttpContentCodingHeaderValue>` explicitly. If you do need to cast explicitly, for example if you want to call [GetEnumerator](https://docs.microsoft.com/dotnet/api/system.collections.ienumerable.getenumerator), cast the collection object to [IEnumerable<T>](https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1) with an [HttpContentCodingHeaderValue](httpcontentcodingheadervalue.md) constraint.
 
 ## -examples
 

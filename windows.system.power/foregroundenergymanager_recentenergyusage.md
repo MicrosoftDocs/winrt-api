@@ -16,7 +16,7 @@ Gets the nearest predefined energy level of the foreground app for the current 3
 The nearest predefined energy level of the foreground app for the current 30 minute period.
 
 ## -remarks
-The [RecentEnergyUsage](foregroundenergymanager_recentenergyusage.md) property is a more accurate measure of energy usage than [RecentEnergyUsageLevel](foregroundenergymanager_recentenergyusagelevel.md). The [RecentEnergyUsage](foregroundenergymanager_recentenergyusage.md) value will typically fall between predefined energy levels. The [RecentEnergyUsageLevel](foregroundenergymanager_recentenergyusagelevel.md) will always equal the nearest predefined energy level.
+The RecentEnergyUsage property is a more accurate measure of energy usage than [RecentEnergyUsageLevel](foregroundenergymanager_recentenergyusagelevel.md). The RecentEnergyUsage value will typically fall between predefined energy levels. The [RecentEnergyUsageLevel](foregroundenergymanager_recentenergyusagelevel.md) will always equal the nearest predefined energy level.
 
 ## -examples
 

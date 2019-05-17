@@ -36,7 +36,7 @@ The verification operation was canceled.
 
 
 ## -remarks
-The following example shows a method that requests fingerprint verification and returns a message that describes the result based on the [UserConsentVerificationResult](userconsentverificationresult.md) value.
+The following example shows a method that requests fingerprint verification and returns a message that describes the result based on the UserConsentVerificationResult value.
 
 [!code-csharp[2](../windows.security.credentials.ui/code/BiometricAuth/cs/MainPage.xaml.cs#Snippet2)]
 

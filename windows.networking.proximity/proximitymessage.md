@@ -14,7 +14,7 @@ public class ProximityMessage : Windows.Networking.Proximity.IProximityMessage
 Represents a message that's received from a subscription.
 
 ## -remarks
-Messages published using the [PublishMessage](proximitydevice_publishmessage_1881696512.md), [PublishBinaryMessage](proximitydevice_publishbinarymessage_285088637.md), or [PublishUriMessage](proximitydevice_publishurimessage_632953271.md) methods and received by the [MessageReceivedEventHandler](messagereceivedhandler.md) passed to the [SubscribeForMessage](proximitydevice_subscribeformessage_2022774312.md) method are of type [ProximityMessage](proximitymessage.md).
+Messages published using the [PublishMessage](proximitydevice_publishmessage_1881696512.md), [PublishBinaryMessage](proximitydevice_publishbinarymessage_285088637.md), or [PublishUriMessage](proximitydevice_publishurimessage_632953271.md) methods and received by the [MessageReceivedEventHandler](messagereceivedhandler.md) passed to the [SubscribeForMessage](proximitydevice_subscribeformessage_2022774312.md) method are of type ProximityMessage.
 
 ## -examples
 

@@ -16,7 +16,7 @@ public void SetDefaultDrawingAttributes(Windows.UI.Input.Inking.InkDrawingAttrib
 
 Sets the default [InkDrawingAttributes](inkdrawingattributes.md) for all new [InkStroke](inkstroke.md) objects added to the [InkStroke](inkstroke.md) collection managed by the [InkManager](inkmanager.md).
 
-[SetDefaultDrawingAttributes](inkmanager_setdefaultdrawingattributes_1436218448.md) does not affect the current stroke, or any existing strokes.
+SetDefaultDrawingAttributes does not affect the current stroke, or any existing strokes.
 
 ## -parameters
 ### -param drawingAttributes

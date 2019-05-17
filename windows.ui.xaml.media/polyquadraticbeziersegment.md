@@ -21,7 +21,7 @@ Represents a set of quadratic Bezier segments.
 ## -remarks
 
 ## -examples
-This example creates two curves using a [PolyQuadraticBezierSegment](polyquadraticbeziersegment.md) to specify the coordinates.
+This example creates two curves using a PolyQuadraticBezierSegment to specify the coordinates.
 
 
 

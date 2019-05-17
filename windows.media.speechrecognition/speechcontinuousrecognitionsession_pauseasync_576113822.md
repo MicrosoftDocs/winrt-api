@@ -18,7 +18,7 @@ An asynchronous handler called when the operation is complete.
 ## -remarks
 An error is returned if [SpeechRecognizerState](speechrecognizerstate.md) is [Idle](speechrecognizerstate.md) or [Paused](speechrecognizerstate.md).
 
-If the list of constraints is empty (which defaults to a [SpeechRecognitionTopicConstraint](speechrecognitiontopicconstraint.md)), or a [SpeechRecognitionTopicConstraint](speechrecognitiontopicconstraint.md) is present in the list of constraints, [PauseAsync](speechcontinuousrecognitionsession_pauseasync_576113822.md) fails with error code COR_E_INVALIDOPERATION.
+If the list of constraints is empty (which defaults to a [SpeechRecognitionTopicConstraint](speechrecognitiontopicconstraint.md)), or a [SpeechRecognitionTopicConstraint](speechrecognitiontopicconstraint.md) is present in the list of constraints, PauseAsync fails with error code COR_E_INVALIDOPERATION.
 
 ## -examples
 

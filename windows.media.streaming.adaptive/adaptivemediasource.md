@@ -15,7 +15,7 @@ Represents the source of adaptive streaming content.
 
 ## -remarks
 
-Call one of the [CreateFromStreamAsync](adaptivemediasource_createfromstreamasync_337009516.md) or [CreateFromUriAsync](adaptivemediasource_createfromuriasync_832683104.md) methods to create a [AdaptiveMediaSource](adaptivemediasource.md) object with a specific adaptive streaming manifest source.
+Call one of the [CreateFromStreamAsync](adaptivemediasource_createfromstreamasync_337009516.md) or [CreateFromUriAsync](adaptivemediasource_createfromuriasync_832683104.md) methods to create a AdaptiveMediaSource object with a specific adaptive streaming manifest source.
 
 For how-to guidance for using adaptive streaming in your app, see [Adaptive streaming](https://msdn.microsoft.com/windows/uwp/audio-video-camera/adaptive-streaming).
 

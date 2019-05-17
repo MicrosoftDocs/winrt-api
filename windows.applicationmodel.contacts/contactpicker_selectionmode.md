@@ -19,7 +19,7 @@ Controls whether the Contact Picker shows contacts as a complete entity or as a 
 The mode for the Contact Picker user interface. You can set this to **Contacts** or **Fields**.
 
 ## -remarks
-A contact can contain a lot of information. If you want all of this information, set the [SelectionMode](contactpicker_selectionmode.md) property to return the entire contact. If you are only interested in specific fields, set this property to return only a selection of fields, then use the [DesiredFields](contactpicker_desiredfields.md) property to specify which fields you want.
+A contact can contain a lot of information. If you want all of this information, set the SelectionMode property to return the entire contact. If you are only interested in specific fields, set this property to return only a selection of fields, then use the [DesiredFields](contactpicker_desiredfields.md) property to specify which fields you want.
 
 Use the [ContactSelectionMode](contactselectionmode.md) enumeration to set the value of this property.
 

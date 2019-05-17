@@ -32,7 +32,7 @@ Gets or sets the preferred top-level font family for the text content in this el
 A [FontFamily](../windows.ui.xaml.media/fontfamily.md) object that specifies the preferred font family, or a primary preferred font family with one or more fallback font families. For information about defaults, see the [FontFamily](../windows.ui.xaml.media/fontfamily.md) class topic.
 
 ## -remarks
-Set the [FontFamily](richtextblock_fontfamily.md) property to specify the default font family to use for all text in the [RichTextBlock](richtextblock.md). You can override this value for specific text elements in the [RichTextBlock](richtextblock.md) by setting the [TextElement.FontFamily](../windows.ui.xaml.documents/textelement_fontfamily.md) property.
+Set the FontFamily property to specify the default font family to use for all text in the [RichTextBlock](richtextblock.md). You can override this value for specific text elements in the [RichTextBlock](richtextblock.md) by setting the [TextElement.FontFamily](../windows.ui.xaml.documents/textelement_fontfamily.md) property.
 
 ## -examples
 

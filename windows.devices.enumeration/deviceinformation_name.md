@@ -16,7 +16,7 @@ The name of the device. This name is in the best available language for the app.
 The name of the device. This name is in the best available language for the app.
 
 ## -remarks
-The [Name](deviceinformation_name.md) property should only be used for display purposes only and not for finding a device because the [Name](deviceinformation_name.md) can change due to localization or a user assigning a name.
+The Name property should only be used for display purposes only and not for finding a device because the Name can change due to localization or a user assigning a name.
 
 ## -examples
 

@@ -179,9 +179,9 @@ The request does not support the range.
 The request is mising the file size.
 
 ## -remarks
-A [WebErrorStatus](weberrorstatus.md) value is returned by [Windows.Web.WebError.GetStatus](weberror_getstatus_1856274933.md), [Windows.Networking.WebSocketError.GetStatus](../windows.networking.sockets/websocketerror_getstatus_1856274933.md), and [Windows.Networking.BackgroundTransfer.GetStatus](../windows.networking.backgroundtransfer/backgroundtransfererror_getstatus_1856274933.md).
+A WebErrorStatus value is returned by [Windows.Web.WebError.GetStatus](weberror_getstatus_1856274933.md), [Windows.Networking.WebSocketError.GetStatus](../windows.networking.sockets/websocketerror_getstatus_1856274933.md), and [Windows.Networking.BackgroundTransfer.GetStatus](../windows.networking.backgroundtransfer/backgroundtransfererror_getstatus_1856274933.md).
 
-This example demonstrates how to use [WebErrorStatus](weberrorstatus.md) to display a different error message depending on the type of error. In this example, the [WebErrorStatus](weberrorstatus.md) value is returned by [Windows.Networking.WebSocketError.GetStatus](../windows.networking.sockets/websocketerror_getstatus_1856274933.md).
+This example demonstrates how to use WebErrorStatus to display a different error message depending on the type of error. In this example, the WebErrorStatus value is returned by [Windows.Networking.WebSocketError.GetStatus](../windows.networking.sockets/websocketerror_getstatus_1856274933.md).
 
 ```csharp
 using Windows.Web;

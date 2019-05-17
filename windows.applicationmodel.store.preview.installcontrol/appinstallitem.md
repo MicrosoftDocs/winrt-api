@@ -13,7 +13,7 @@ public class AppInstallItem : Windows.ApplicationModel.Store.Preview.InstallCont
 Represents an app that is in the installation queue.
 
 ## -remarks
-Use the [AppInstallManager.AppInstallItems](appinstallmanager_appinstallitems.md) property to retrieve a vector view of [AppInstallItem](appinstallitem.md) objects.
+Use the [AppInstallManager.AppInstallItems](appinstallmanager_appinstallitems.md) property to retrieve a vector view of AppInstallItem objects.
 
 > [!IMPORTANT]
 > Access to this API is protected by a private capability that is restricted to apps that are developed by Microsoft.

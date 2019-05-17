@@ -13,7 +13,7 @@ public interface IMemoryBufferReference : Windows.Foundation.IClosable
 Represents a reference to an [IMemoryBuffer](imemorybuffer.md) object.
 
 ## -remarks
-The [IMemoryBufferReference](imemorybufferreference.md) interface allows a client to retrieve the [Capacity](imemorybufferreference_capacity.md) of the memory buffer. The same object identity must also implement the COM interface **IMemoryBufferByteAccess**. A client retrieves the **IMemoryBufferByteAccess** interface pointer via a **QueryInterface** from the [IMemoryBufferReference](imemorybufferreference.md) object.
+The IMemoryBufferReference interface allows a client to retrieve the [Capacity](imemorybufferreference_capacity.md) of the memory buffer. The same object identity must also implement the COM interface **IMemoryBufferByteAccess**. A client retrieves the **IMemoryBufferByteAccess** interface pointer via a **QueryInterface** from the IMemoryBufferReference object.
 
 ## -examples
 

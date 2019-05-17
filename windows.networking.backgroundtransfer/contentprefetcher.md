@@ -13,13 +13,13 @@ public class ContentPrefetcher
 Provides properties for specifying web resources to be prefetched. Windows will use heuristics to attempt to download the specified resources in advance of your app being launched by the user.
 
 ## -remarks
-Many categories of apps need to download significant amounts of web content upon launch. This can result in poor user experiences where users must wait for content to load before the app becomes fully functional. The [ContentPrefetcher](contentprefetcher.md) class provides mechanisms for specifying resources that Windows should attempt to download in advance of your app being launched by the user.
+Many categories of apps need to download significant amounts of web content upon launch. This can result in poor user experiences where users must wait for content to load before the app becomes fully functional. The ContentPrefetcher class provides mechanisms for specifying resources that Windows should attempt to download in advance of your app being launched by the user.
 
 Heuristics are used to determine when prefetching should occur and which resources will be downloaded. These heuristics take into account system network and power conditions, user app usage history, and the results of prior prefetch attempts to provide maximum user benefit, but there is no guarantee that any particular resource will have been downloaded before a given app launch.
 
 Resources that have been successfully prefetched will be placed in the app-specific [WinINet](https://msdn.microsoft.com/library/0a06f2af-957a-4dff-a8cc-187370181b5c) cache. No changes are required to existing HTTP requests for these resources once the app is running; [WinINet](https://msdn.microsoft.com/library/0a06f2af-957a-4dff-a8cc-187370181b5c) will simply transparently serve the content from cache if it is available. In the event that a requested resource was not prefetched, an HTTP request for content simply results in a cache miss, and the request is made to the server. Note that this caching strategy works for HTTP requests made using [WinJS.xhr](https://msdn.microsoft.com/library/62fc3e32-3d52-4654-8807-8c0563150f01), [Windows.Web.Http.HttpClient](../windows.web.http/httpclient.md), and [IXMLHTTPRequest2](https://msdn.microsoft.com/library/windows/desktop/hh831151(v=vs.85).aspx) interface. The .NET Framework  [HttpClient](https://go.microsoft.com/fwlink/p/?linkid=239962) is not supported.
 
-The [ContentPrefetcher](contentprefetcher.md) class provides two mechanisms for specifying resources that should be prefetched:
+The ContentPrefetcher class provides two mechanisms for specifying resources that should be prefetched:
 
 
 + The [ContentUris](contentprefetcher_contenturis.md) property allows direct, client-side specification of resources to prefetch. This is useful for content with URIs that are fairly static in that they don’t change between subsequent use of the application. An example would be the URIs associated with sections of an app a user is subscribed to which would only change when the user updates their subscription options with the application.

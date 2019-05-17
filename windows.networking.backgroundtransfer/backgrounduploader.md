@@ -38,7 +38,7 @@ Upload services that require the username and password be set in clear text in a
 
 **Toast notifications**
 
-The [BackgroundUploader](backgrounduploader.md) class in Windows 8.1 and Windows Server 2012 R2 supports options for the user to receive tile and toast notifications when a transfer is completed successfully or fails to complete.
+The BackgroundUploader class in Windows 8.1 and Windows Server 2012 R2 supports options for the user to receive tile and toast notifications when a transfer is completed successfully or fails to complete.
 
 An app that uses [Windows.Networking.BackgroundTransfer](windows_networking_backgroundtransfer.md) to communicate through a toast notification must declare that it is **Toast capable** in the app manifest file. The **Toast capable** setting is located under the **Notifications** section of **Application** tab. Set the **Toast capable** option to "Yes" so the app can receive toast notifications.
 

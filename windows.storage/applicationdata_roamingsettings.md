@@ -16,7 +16,7 @@ Gets the application settings container in the roaming app data store.
 The application settings container.
 
 ## -remarks
-See [LocalSettings](applicationdata_localsettings.md) for remarks and examples on accessing [RoamingSettings](applicationdata_roamingsettings.md).
+See [LocalSettings](applicationdata_localsettings.md) for remarks and examples on accessing RoamingSettings.
 
 ## -examples
 

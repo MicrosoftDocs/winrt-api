@@ -15,7 +15,7 @@ Raised when the user's query text changes and the app needs to provide new sugge
 ## -remarks
 Suggestions can come from three sources: search history, local files, or from a source specified by the app. Suggestions are grouped by their source and display in the following order in the search pane: search history, local files, and then app-specified sources.
 
-If your app participates in the Search contract and you want your app to display suggestions from sources that you specify, you must register a handler to respond when this event fires. In your [SuggestionsRequested](searchsuggestionmanager_suggestionsrequested.md) event handler, respond by obtaining suggestions and populating the [SearchSuggestionCollection](../windows.applicationmodel.search/searchsuggestioncollection.md) based on the user's [QueryText](searchsuggestionsrequestedeventargs_querytext.md).
+If your app participates in the Search contract and you want your app to display suggestions from sources that you specify, you must register a handler to respond when this event fires. In your SuggestionsRequested event handler, respond by obtaining suggestions and populating the [SearchSuggestionCollection](../windows.applicationmodel.search/searchsuggestioncollection.md) based on the user's [QueryText](searchsuggestionsrequestedeventargs_querytext.md).
 
 > [!NOTE]
 > If you want to respond to this event asynchronously, you must get a deferral from the [Request](searchsuggestionsrequestedeventargs_request.md) property.

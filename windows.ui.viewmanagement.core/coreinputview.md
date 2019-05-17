@@ -32,7 +32,7 @@ The input pane appears when the user performs an action that requires them to pr
 
 By default, Windows handles input pane events and repositions content so that users can see the control with focus. If you set [CoreTextEditContext.InputPaneDisplayPolicy](../windows.ui.text.core/coretexteditcontext_inputpanedisplaypolicy.md) to **Manual** in your app, you are responsible for showing and hiding the input pane using [TryShowPrimaryView](coreinputview_tryshowprimaryview_1925215151.md) and [TryHidePrimaryView](coreinputview_tryhideprimaryview_908065025.md). Use this class to override the default behavior and customize the input pane.
 
-Call [GetForCurrentView](coreinputview_getforcurrentview_1363600702.md) to get a [CoreInputView](coreinputview.md) object.
+Call [GetForCurrentView](coreinputview_getforcurrentview_1363600702.md) to get a CoreInputView object.
 
 After you register to receive input pane notifications, the system calls your event delegate whenever the pane is shown or hidden for the window that was visible when you called the [GetForCurrentView](coreinputview_getforcurrentview_1363600702.md) method.
 

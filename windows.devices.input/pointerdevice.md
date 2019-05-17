@@ -21,7 +21,7 @@ The [Device Capabilities Sample](https://go.microsoft.com/fwlink/p/?linkid=23153
 > : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
 
 ## -examples
-The following code shows how to use [PointerDevice](pointerdevice.md).
+The following code shows how to use PointerDevice.
 
 ```javascript
 function getPointerCapabilities() { 

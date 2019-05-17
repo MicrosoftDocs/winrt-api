@@ -29,7 +29,7 @@ A control can get focus when another control loses focus, the application view c
 
 When programmatically navigating between elements, [FocusNavigationDirection.Previous](../windows.ui.xaml.input/focusnavigationdirection.md) and [FocusNavigationDirection.Next](../windows.ui.xaml.input/focusnavigationdirection.md) cannot be used with [FindNextElementOptions](../windows.ui.xaml.input/findnextelementoptions.md). Only [FocusNavigationDirection.Up](../windows.ui.xaml.input/focusnavigationdirection.md), [FocusNavigationDirection.Down](../windows.ui.xaml.input/focusnavigationdirection.md), [FocusNavigationDirection.Left](../windows.ui.xaml.input/focusnavigationdirection.md), or [FocusNavigationDirection.Right](../windows.ui.xaml.input/focusnavigationdirection.md) are valid.
 
-[GettingFocus](uielement_gettingfocus.md) is a routed event. For more info on the routed event concept, see [Events and routed events overview](https://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
+GettingFocus is a routed event. For more info on the routed event concept, see [Events and routed events overview](https://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
 
 ## -see-also
 

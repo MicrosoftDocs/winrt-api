@@ -11,7 +11,7 @@ public Windows.UI.Xaml.VerticalAlignment GridViewItemPresenterVerticalContentAli
 
 ## -description
 > [!NOTE]
-> [GridViewItemPresenterVerticalContentAlignment](gridviewitempresenter_gridviewitempresenterverticalcontentalignment.md) may be altered or unavailable for releases after Windows 10. Instead, use [ContentPresenter.VerticalContentAlignment](../windows.ui.xaml.controls/contentpresenter_verticalcontentalignment.md).
+> GridViewItemPresenterVerticalContentAlignment may be altered or unavailable for releases after Windows 10. Instead, use [ContentPresenter.VerticalContentAlignment](../windows.ui.xaml.controls/contentpresenter_verticalcontentalignment.md).
 
 Gets or sets the vertical alignment of the content being presented.
 
@@ -20,7 +20,7 @@ A value of the enumeration.
 
 ## -remarks
 > [!IMPORTANT]
-> [GridViewItemPresenterVerticalContentAlignment](gridviewitempresenter_gridviewitempresenterverticalcontentalignment.md) may be altered or unavailable for releases after Windows 10. Instead, use [ContentPresenter.VerticalContentAlignment](../windows.ui.xaml.controls/contentpresenter_verticalcontentalignment.md).
+> GridViewItemPresenterVerticalContentAlignment may be altered or unavailable for releases after Windows 10. Instead, use [ContentPresenter.VerticalContentAlignment](../windows.ui.xaml.controls/contentpresenter_verticalcontentalignment.md).
 
 ## -examples
 

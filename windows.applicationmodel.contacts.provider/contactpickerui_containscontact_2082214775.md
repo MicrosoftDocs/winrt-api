@@ -13,7 +13,7 @@ public bool ContainsContact(System.String id)
 Checks to see whether the contact was already selected by the user.
 
 > [!NOTE]
-> The [Contact.Id](../windows.applicationmodel.contacts/contact_id.md) property must be set when you call [ContainsContact](contactpickerui_containscontact_2082214775.md). If [Contact.Id](../windows.applicationmodel.contacts/contact_id.md) isn't set, your app won't be able to find the contact.
+> The [Contact.Id](../windows.applicationmodel.contacts/contact_id.md) property must be set when you call ContainsContact. If [Contact.Id](../windows.applicationmodel.contacts/contact_id.md) isn't set, your app won't be able to find the contact.
 
 ## -parameters
 ### -param id

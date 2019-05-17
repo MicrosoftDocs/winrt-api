@@ -21,7 +21,7 @@ The default colors are dependent on the [RequestedTheme](application_requestedth
 [HighVisibility](focusvisualkind.md) focus visuals are rendered with an outer (primary) and inner (secondary) border. 
 For more info:
 
-+ [FocusVisualPrimaryBrush](frameworkelement_focusvisualprimarybrush.md)
++ FocusVisualPrimaryBrush
 + [FocusVisualSecondaryBrush](frameworkelement_focusvisualsecondarybrush.md)
 + [FocusVisualPrimaryThickness](frameworkelement_focusvisualprimarythickness.md)
 + [FocusVisualSecondaryThickness](frameworkelement_focusvisualsecondarythickness.md)

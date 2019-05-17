@@ -13,7 +13,7 @@ public Windows.Devices.Geolocation.Geopath Path { get;  set; }
 Gets or sets the collection of coordinates that define the [MapPolygon](mappolygon.md) shape.
 
 > [!NOTE]
-> In Windows 10, version 1511, we recommend using the [Paths](mappolygon_paths.md) property to create simple and complex polygons. Do not use both properties ([Paths](mappolygon_paths.md) and [Path](mappolygon_path.md)) at the same time.
+> In Windows 10, version 1511, we recommend using the [Paths](mappolygon_paths.md) property to create simple and complex polygons. Do not use both properties ([Paths](mappolygon_paths.md) and Path) at the same time.
 
 ## -property-value
 The collection of coordinates that define the [MapPolygon](mappolygon.md) shape.

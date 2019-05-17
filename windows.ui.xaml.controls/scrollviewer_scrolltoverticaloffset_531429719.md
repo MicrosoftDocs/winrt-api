@@ -11,7 +11,7 @@ public void ScrollToVerticalOffset(System.Double offset)
 
 ## -description
 > [!NOTE]
-> [ScrollToVerticalOffset](scrollviewer_scrolltoverticaloffset_531429719.md) may be altered or unavailable for releases after Windows 8.1. Instead, use [ChangeView](scrollviewer_changeview_1425504772.md).
+> ScrollToVerticalOffset may be altered or unavailable for releases after Windows 8.1. Instead, use [ChangeView](scrollviewer_changeview_1425504772.md).
 
 Scrolls the content that is within the [ScrollViewer](scrollviewer.md) to the specified vertical offset position.
 

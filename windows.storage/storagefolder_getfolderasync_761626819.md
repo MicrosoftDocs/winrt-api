@@ -35,7 +35,7 @@ The path cannot be in Uri format (for example, /Assets). Check the value of *nam
 ## -remarks
 
 ## -examples
-The following example shows how to get a subfolder from the current folder by calling the [GetFolderAsync](storagefolder_getfolderasync_761626819.md) method. This example also shows how to get a subfolder from a subfolder of the current folder by providing a relative path.
+The following example shows how to get a subfolder from the current folder by calling the GetFolderAsync method. This example also shows how to get a subfolder from a subfolder of the current folder by providing a relative path.
 
 ```csharp
 using Windows.Storage;

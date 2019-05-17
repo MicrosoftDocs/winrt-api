@@ -13,7 +13,7 @@ public class ToastCollection
 Represents a group of notifications for a particular app. 
 
 ## -remarks
-Use a [ToastCollectionManager](toastcollectionmanager.md) to save, update, and remove [ToastCollection](toastcollection.md) objects. 
+Use a [ToastCollectionManager](toastcollectionmanager.md) to save, update, and remove ToastCollection objects. 
 
 ## -see-also
 [ToastCollectionManager](toastcollectionmanager.md)

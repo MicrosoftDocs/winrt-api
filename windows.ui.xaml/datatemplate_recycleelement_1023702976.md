@@ -44,7 +44,7 @@ Specifying the [Parent](elementfactoryrecycleargs_parent.md) is not required whe
 * [IElementFactory](ielementfactory.md)
 * DataTemplate
   * [GetElement](datatemplate_getelement_92222689.md)
-  * [RecycleElement](datatemplate_recycleelement_1023702976.md)
+  * RecycleElement
 * DataTemplateSelector
   * [GetElement](../windows.ui.xaml.controls/datatemplateselector_getelement_92222689.md)
   * [RecycleElement](../windows.ui.xaml.controls/datatemplateselector_recycleelement_1023702976.md)

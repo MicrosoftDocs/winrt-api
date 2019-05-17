@@ -17,9 +17,9 @@ Nine-Grid stretching refers to the partitioning of visual content (the content o
 
 <img src="images/ninegridstretching.png" alt="Stretching of nine-grid sections" />
 
-When a [SpriteVisual](spritevisual.md) painted with a [CompositionNineGridBrush](compositionninegridbrush.md) is resized or scaled, the left and right margins (rectangles 4 and 6) stretch along the vertical axis, the top and bottom margins rectangles (rectangles 2 and 8) stretch along the horizontal axis, and the center (rectangle 5) is stretched along both axes while the corners (rectangles 1,3,7, and 9) do not stretch.
+When a [SpriteVisual](spritevisual.md) painted with a CompositionNineGridBrush is resized or scaled, the left and right margins (rectangles 4 and 6) stretch along the vertical axis, the top and bottom margins rectangles (rectangles 2 and 8) stretch along the horizontal axis, and the center (rectangle 5) is stretched along both axes while the corners (rectangles 1,3,7, and 9) do not stretch.
 
-The **Source** property of [CompositionNineGridBrush](compositionninegridbrush.md) accepts brushes of one of two types:
+The **Source** property of CompositionNineGridBrush accepts brushes of one of two types:
 
 
 + [CompositionSurfaceBrush](compositionsurfacebrush.md): apply Nine-Grid Stretching to a textured image surface.
@@ -40,7 +40,7 @@ The CompositionSurfaceBrush.[Stretch](compositionsurfacebrush_stretch.md) proper
 
 <i>NineGridBrush Insets specified on a rounded rectangle asset with CompositionStretch.Fill; the Insets are specified in pixels (measured in the coordinate space of the ICompositionSurface that contains the asset)</i>
 
-[CompositionNineGridBrush](compositionninegridbrush.md) is not designed to apply Nine-Grid Scaling to a [CompositionSurfaceBrush](compositionsurfacebrush.md) source that has a transformation applied through one of the following properties:
+CompositionNineGridBrush is not designed to apply Nine-Grid Scaling to a [CompositionSurfaceBrush](compositionsurfacebrush.md) source that has a transformation applied through one of the following properties:
 
 + CompositionSurfaceBrush.AnchorPoint
 + CompositionSurfaceBrush.CenterPoint
@@ -49,17 +49,17 @@ The CompositionSurfaceBrush.[Stretch](compositionsurfacebrush_stretch.md) proper
 + CompositionSurfaceBrush.RotationAngleInDegrees
 + CompositionSurfaceBrush.Scale
 + CompositionSurfaceBrush.TransformMatrix
-No pixel content will be drawn if there is a transformation operation applied to the [CompositionSurfaceBrush](compositionsurfacebrush.md) source to a [CompositionNineGridBrush](compositionninegridbrush.md).
+No pixel content will be drawn if there is a transformation operation applied to the [CompositionSurfaceBrush](compositionsurfacebrush.md) source to a CompositionNineGridBrush.
 
 ### Applying Nine-Grid Stretching to an Opacity Mask
 
-The contents of the [CompositionSurfaceBrush](compositionsurfacebrush.md) source may also be an opacity mask surface. The resulting [CompositionNineGridBrush](compositionninegridbrush.md) may then be set as [Mask](compositionmaskbrush_mask.md) to a [CompositionMaskBrush](compositionmaskbrush.md). This would allow the content being masked to scale as desired while the opacity mask is subject to Nine-Grid Stretching.
+The contents of the [CompositionSurfaceBrush](compositionsurfacebrush.md) source may also be an opacity mask surface. The resulting CompositionNineGridBrush may then be set as [Mask](compositionmaskbrush_mask.md) to a [CompositionMaskBrush](compositionmaskbrush.md). This would allow the content being masked to scale as desired while the opacity mask is subject to Nine-Grid Stretching.
 
-Similarly, the [Source](compositionmaskbrush_source.md) to a [CompositionMaskBrush](compositionmaskbrush.md) may also be of type [CompositionNineGridBrush](compositionninegridbrush.md).
+Similarly, the [Source](compositionmaskbrush_source.md) to a [CompositionMaskBrush](compositionmaskbrush.md) may also be of type CompositionNineGridBrush.
 
 ### Applying an Effect to CompositionNineGridBrush
 
-A [CompositionNineGridBrush](compositionninegridbrush.md) may be set as source to a [CompositionEffectBrush](compositioneffectbrush.md) to apply an IGraphics or Windows.UI.Composition.Effect to its Nine-Grid Stretched contents.
+A CompositionNineGridBrush may be set as source to a [CompositionEffectBrush](compositioneffectbrush.md) to apply an IGraphics or Windows.UI.Composition.Effect to its Nine-Grid Stretched contents.
 
 ### Notes on CompositionColorBrush Source
 
@@ -67,7 +67,7 @@ In conjunction with the [IsCenterHollow](compositionninegridbrush_iscenterhollow
 
 ### Notes on Inset Thickness and Inset Scale
 
-The inset thickness of a [CompositionNineGridBrush](compositionninegridbrush.md) does not change if the [Size](visual_size.md) property of the associated [SpriteVisual](spritevisual.md) is changed.
+The inset thickness of a CompositionNineGridBrush does not change if the [Size](visual_size.md) property of the associated [SpriteVisual](spritevisual.md) is changed.
 
 The inset scale properties provide a mechanism to scale Nine-Grid Insets from the brush’s coordinate space (such as pixel space for an image) to that of the [SpriteVisual](spritevisual.md). For instance, the inset scale properties may be used to control inset thickness in response to scale transformation inherited from the [SpriteVisual](spritevisual.md) that the NineGridBrush is painted onto or an arbitrary ancestor in its Visual tree (such as in cases of DPI scale, etc.). In this case, [ExpressionAnimation](expressionanimation.md) s provide a means to dynamically update values of inset scale.
 
@@ -162,7 +162,7 @@ private void CounterScaleInsets(SpriteVisual ninegridVisual)
          
 ```
 
-Apply an effect to Nine-Grid Stretched content ([CompositionNineGridBrush](compositionninegridbrush.md) as input to a [CompositionEffectBrush](compositioneffectbrush.md))
+Apply an effect to Nine-Grid Stretched content (CompositionNineGridBrush as input to a [CompositionEffectBrush](compositioneffectbrush.md))
 
 ```csharp
 

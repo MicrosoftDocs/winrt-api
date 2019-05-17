@@ -35,7 +35,7 @@ An [ItemsPanelTemplate](itemspaneltemplate.md) that defines the panel to use for
 
 ## -remarks
 > [!NOTE]
-> [ComboBox](combobox.md) uses a [CarouselPanel](../windows.ui.xaml.controls.primitives/carouselpanel.md) as its [ItemsPanel](itemscontrol_itemspanel.md). Using a different panel as the [ItemsPanel](itemscontrol_itemspanel.md) of [ComboBox](combobox.md) is not supported and might result in undesired behavior.
+> [ComboBox](combobox.md) uses a [CarouselPanel](../windows.ui.xaml.controls.primitives/carouselpanel.md) as its ItemsPanel. Using a different panel as the ItemsPanel of [ComboBox](combobox.md) is not supported and might result in undesired behavior.
 
 ## -examples
 

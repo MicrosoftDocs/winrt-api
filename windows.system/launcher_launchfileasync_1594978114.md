@@ -36,7 +36,7 @@ To display a warning that the file is potentially unsafe, set the [LauncherOptio
 The file is passed to the associated app. If the associated app is a desktop app, the file is passed using shell execution mechanisms.
 
 ## -examples
-This example uses [LaunchFileAsync(IStorageFile)](launcher_launchfileasync_1594978114.md) to launch a file contained in the app package.
+This example uses LaunchFileAsync(IStorageFile) to launch a file contained in the app package.
 
 ```csharp
 async void DefaultLaunch()

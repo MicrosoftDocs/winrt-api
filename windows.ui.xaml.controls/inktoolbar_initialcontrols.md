@@ -29,7 +29,7 @@ By default, the [InkToolbar](inktoolbar.md) consists of two distinct groups of b
 The collection of built-in buttons to add to the [InkToolbar](inktoolbar.md).
 
 ## -remarks
-Default built-in buttons, or those specified through [InitialControls](inktoolbar_initialcontrols.md), are not added to the [Children](inktoolbar_children.md) property.
+Default built-in buttons, or those specified through InitialControls, are not added to the [Children](inktoolbar_children.md) property.
 
 Built-in or custom buttons added programmatically or declared in XAML, are added to the [Children](inktoolbar_children.md) property.
 
@@ -39,7 +39,7 @@ Built-in buttons are displayed in a pre-determined order within their respective
 
 To specify which built-in buttons are displayed at initialization:
 
-1. Set [InitialControls](inktoolbar_initialcontrols.md) to [None](inktoolbarinitialcontrols.md).
+1. Set InitialControls to [None](inktoolbarinitialcontrols.md).
 1. Add the individual buttons.
 1. Specify the [InkToolbar](inktoolbar.md) UI experience, such as the default button.
 The following examples (both XAML and code-behind) show how to clear the default buttons from the InkToolber, add ballpoint pen, pencil, and eraser buttons, and set the default button to pencil.

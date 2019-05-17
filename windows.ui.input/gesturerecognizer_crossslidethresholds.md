@@ -13,7 +13,7 @@ public Windows.UI.Input.CrossSlideThresholds CrossSlideThresholds { get;  set; }
 Gets or sets values that indicate the distance thresholds for a [CrossSliding](gesturerecognizer_crosssliding.md) interaction.
 
 ## -property-value
-By default, every value in [CrossSlideThresholds](gesturerecognizer_crossslidethresholds.md) is set to 0.0 ([CrossSliding](gesturerecognizer_crosssliding.md) functionality is disabled).
+By default, every value in CrossSlideThresholds is set to 0.0 ([CrossSliding](gesturerecognizer_crosssliding.md) functionality is disabled).
 
 ## -remarks
 

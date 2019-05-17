@@ -17,7 +17,7 @@ Displays the Settings Charm pane to the user.
 
 ## -remarks
 
-The [Show](settingspane_show_392493604.md) method raises an exception if one of the following is true:
+The Show method raises an exception if one of the following is true:
 
 + It is called from a snapped app.
 + It is called when the current app does not have focus.

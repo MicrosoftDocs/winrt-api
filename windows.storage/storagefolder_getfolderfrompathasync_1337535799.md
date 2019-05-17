@@ -35,7 +35,7 @@ The path cannot be a relative path or a Uri. Check the value of *path*.
 ## -remarks
 
 ## -examples
-The following example shows how to get the folder that has the specified absolute path in the file system by calling the [GetFolderFromPathAsync](storagefolder_getfolderfrompathasync_1337535799.md) method.
+The following example shows how to get the folder that has the specified absolute path in the file system by calling the GetFolderFromPathAsync method.
 
 ```csharp
 using Windows.Storage;

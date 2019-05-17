@@ -18,7 +18,7 @@ Used to interact with the file picker when your app provides a save location wit
 
 If your app participates in the File Save Picker contract, you can access this object using a fileSavePickerUI property while you handle a [filesavepicker](../windows.applicationmodel.activation/activationkind.md) activated event.
 
-Use one of the following properties to retrieve a [fileSavePickerUI](filesavepickerui.md) object:
+Use one of the following properties to retrieve a fileSavePickerUI object:
 
 + > **JavaScript**
 > [webUIFileSavePickerActivatedEventArgs.fileSavePickerUI](../windows.ui.webui/webuifilesavepickeractivatedeventargs_filesavepickerui.md)

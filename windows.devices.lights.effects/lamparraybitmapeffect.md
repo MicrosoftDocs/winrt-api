@@ -20,7 +20,7 @@ Best effort is done to create a 2D composition of requested lamps and scale up/d
 
 Must be [Appended](lamparrayeffectplaylist_append_292269384.md) to a [LampArrayEffectPlaylist](lamparrayeffectplaylist.md) before can be played.
 
-If a [LampArray](../windows.devices.lights/lamparray.md) is bound to a [LampArrayBitmapEffect](lamparraybitmapeffect.md) and it disconnects, progress of the effect continues as a no-op.  No exception/error is thrown/returned.
+If a [LampArray](../windows.devices.lights/lamparray.md) is bound to a LampArrayBitmapEffect and it disconnects, progress of the effect continues as a no-op.  No exception/error is thrown/returned.
 ## -see-also
 
 ## -examples

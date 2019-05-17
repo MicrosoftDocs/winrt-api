@@ -10,7 +10,7 @@ public void SetMediaStreamSource(Windows.Media.Core.IMediaSource source)
 # Windows.UI.Xaml.Controls.MediaElement.SetMediaStreamSource
 
 ## -description
-Sets the [Source](mediaelement_source.md) of the [MediaElement](mediaelement.md) to the specified [MediaStreamSource](mediaelement_setmediastreamsource_1064978867.md).
+Sets the [Source](mediaelement_source.md) of the [MediaElement](mediaelement.md) to the specified MediaStreamSource.
 
 ## -parameters
 ### -param source

@@ -15,7 +15,7 @@ Defines an animation segment with its own target value and interpolation method 
 ## -remarks
 ### **ObjectKeyFrame** derived classes
 
-[ObjectKeyFrame](objectkeyframe.md) is the parent class for [DiscreteObjectKeyFrame](discreteobjectkeyframe.md).
+ObjectKeyFrame is the parent class for [DiscreteObjectKeyFrame](discreteobjectkeyframe.md).
 
 ## -examples
 

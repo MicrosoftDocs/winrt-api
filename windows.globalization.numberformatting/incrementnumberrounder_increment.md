@@ -27,9 +27,9 @@ This property can be one of the following:
 This property is initialized to a default value of 1.
 
 When rounding is performed, the result is produced in this manner:
-1. Divide the input by the [Increment](incrementnumberrounder_increment.md).
+1. Divide the input by the Increment.
 1. Round the result to an integer using the rounding strategy of [RoundingAlgorithm](incrementnumberrounder_roundingalgorithm.md).
-1. Multiply the result by the [Increment](incrementnumberrounder_increment.md).
+1. Multiply the result by the Increment.
 
 
 ## -examples

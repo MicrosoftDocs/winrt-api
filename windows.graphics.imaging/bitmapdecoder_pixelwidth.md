@@ -16,7 +16,7 @@ The width of the first frame in pixels.
 The width of the first frame in pixels.
 
 ## -remarks
-Use [PixelWidth](bitmapdecoder_pixelwidth.md) for pixel dimensions of the image as it is natively stored.
+Use PixelWidth for pixel dimensions of the image as it is natively stored.
 
 ## -examples
 

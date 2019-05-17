@@ -29,7 +29,7 @@ You can use Document Object Model (DOM) manipulation functions to customize the 
 See [tile schema](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/schema-root) for an explanation of tile elements and attributes.
 
 ## -examples
-The following example shows [GetTemplateContent](tileupdatemanager_gettemplatecontent_43644918.md) used to retrieve the XML content of a tile template.
+The following example shows GetTemplateContent used to retrieve the XML content of a tile template.
 
 ```javascript
 

@@ -33,7 +33,7 @@ The watcher has aborted operation. No subsequent events will be raised.
 
 
 ## -remarks
-The following state diagram shows how the [DeviceWatcher](devicewatcher.md) transitions between the states represented by [DeviceWatcherStatus](devicewatcherstatus.md) enumeration.
+The following state diagram shows how the [DeviceWatcher](devicewatcher.md) transitions between the states represented by DeviceWatcherStatus enumeration.
 
 <img src="images/statediagram.png" alt="state diagram of DeviceWatcher states"></img>
 

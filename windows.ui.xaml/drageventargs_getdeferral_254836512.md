@@ -16,7 +16,7 @@ Supports asynchronous drag-and-drop operations by creating and returning a [Drag
 A deferral object that you can use to identify when the generation of the data package is complete.
 
 ## -remarks
-The [GetDeferral](drageventargs_getdeferral_254836512.md) method allows your app to call a function during a drag-and-drop operation, so that your app can asynchronously generate the [DataPackage](../windows.applicationmodel.datatransfer/datapackage.md) object for the target app.
+The GetDeferral method allows your app to call a function during a drag-and-drop operation, so that your app can asynchronously generate the [DataPackage](../windows.applicationmodel.datatransfer/datapackage.md) object for the target app.
 
 
 <!--Same behavior as DataRequest.GetDeferral?-->

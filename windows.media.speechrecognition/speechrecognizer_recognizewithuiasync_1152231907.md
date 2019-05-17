@@ -16,7 +16,7 @@ Asynchronously starts a speech recognition session that includes additional UI m
 The result of the speech recognition session as a [SpeechRecognitionResult](speechrecognitionresult.md) object.
 
 ## -remarks
-The UI mechanisms supported by [RecognizeWithUIAsync](speechrecognizer_recognizewithuiasync_1152231907.md) are specified by the [UIOptions](speechrecognizer_uioptions.md) property.
+The UI mechanisms supported by RecognizeWithUIAsync are specified by the [UIOptions](speechrecognizer_uioptions.md) property.
 
 
 ## -examples

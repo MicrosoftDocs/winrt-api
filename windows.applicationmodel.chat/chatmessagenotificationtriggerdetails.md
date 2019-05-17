@@ -26,7 +26,7 @@ A chat app must register a background task to process notifications in order to 
 
 ```
 
-The background task's [Run](../windows.applicationmodel.background/ibackgroundtask_run_2017283929.md) method receives a task instance with the notification trigger details. The [TriggerDetails](../windows.applicationmodel.background/ibackgroundtaskinstance_triggerdetails.md) property is cast to a [ChatMessageNotificationTriggerDetails](chatmessagenotificationtriggerdetails.md) object. The trigger details for a chat message are obtained as shown in the following example.
+The background task's [Run](../windows.applicationmodel.background/ibackgroundtask_run_2017283929.md) method receives a task instance with the notification trigger details. The [TriggerDetails](../windows.applicationmodel.background/ibackgroundtaskinstance_triggerdetails.md) property is cast to a ChatMessageNotificationTriggerDetails object. The trigger details for a chat message are obtained as shown in the following example.
 
 ```
 public void Run(IBackgroundTaskInstance taskInstance)

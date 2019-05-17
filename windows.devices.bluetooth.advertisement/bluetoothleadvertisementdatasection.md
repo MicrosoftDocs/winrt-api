@@ -11,7 +11,7 @@ public class BluetoothLEAdvertisementDataSection : Windows.Devices.Bluetooth.Adv
 # Windows.Devices.Bluetooth.Advertisement.BluetoothLEAdvertisementDataSection
 
 ## -description
-A Bluetooth LE advertisement section. A Bluetooth LE advertisement packet can contain multiple instances of these [BluetoothLEAdvertisementDataSection](bluetoothleadvertisementdatasection.md) objects.
+A Bluetooth LE advertisement section. A Bluetooth LE advertisement packet can contain multiple instances of these BluetoothLEAdvertisementDataSection objects.
 
 ## -remarks
 

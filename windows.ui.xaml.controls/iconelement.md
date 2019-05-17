@@ -15,7 +15,7 @@ Represents the base class for an icon UI element.
 ## -remarks
 ### IconElement derived classes
 
-[IconElement](iconelement.md) is the parent class for these classes:
+IconElement is the parent class for these classes:
 + [BitmapIcon](bitmapicon.md)
 + [FontIcon](fonticon.md)
 + [PathIcon](pathicon.md)

@@ -13,7 +13,7 @@ public class MenuFlyoutPresenter : Windows.UI.Xaml.Controls.ItemsControl, Window
 Displays the content of a [MenuFlyout](menuflyout.md) control.
 
 ## -remarks
-You don't typically use a [MenuFlyoutPresenter](menuflyoutpresenter.md) directly, either in XAML or code. Instead, you reference the [MenuFlyoutPresenter](menuflyoutpresenter.md) type as the [TargetType](../windows.ui.xaml/style_targettype.md) of the style you use for the [MenuFlyout.MenuFlyoutPresenterStyle](menuflyout_menuflyoutpresenterstyle.md) property. Then, you use style [Setter](../windows.ui.xaml/setter.md) elements to set the various [Control](control.md) properties that influence the appearance of the [MenuFlyout](menuflyout.md) through this presenter. For example you can use a [Setter](../windows.ui.xaml/setter.md) to set the [Width](../windows.ui.xaml/frameworkelement_width.md) of the [MenuFlyout](menuflyout.md):
+You don't typically use a MenuFlyoutPresenter directly, either in XAML or code. Instead, you reference the MenuFlyoutPresenter type as the [TargetType](../windows.ui.xaml/style_targettype.md) of the style you use for the [MenuFlyout.MenuFlyoutPresenterStyle](menuflyout_menuflyoutpresenterstyle.md) property. Then, you use style [Setter](../windows.ui.xaml/setter.md) elements to set the various [Control](control.md) properties that influence the appearance of the [MenuFlyout](menuflyout.md) through this presenter. For example you can use a [Setter](../windows.ui.xaml/setter.md) to set the [Width](../windows.ui.xaml/frameworkelement_width.md) of the [MenuFlyout](menuflyout.md):
 ```xaml
 <MenuFlyout x:Name="optionFlyout">
   <MenuFlyout.MenuFlyoutPresenterStyle>
@@ -27,7 +27,7 @@ You don't typically use a [MenuFlyoutPresenter](menuflyoutpresenter.md) directly
 
 
 
-The [MenuFlyoutPresenter](menuflyoutpresenter.md) class is not a [ContentPresenter](contentpresenter.md) derived class, it's actually a control (derived from [ItemsControl](itemscontrol.md)) that plays a special role when creating the visual tree for a [MenuFlyout](menuflyout.md).
+The MenuFlyoutPresenter class is not a [ContentPresenter](contentpresenter.md) derived class, it's actually a control (derived from [ItemsControl](itemscontrol.md)) that plays a special role when creating the visual tree for a [MenuFlyout](menuflyout.md).
 
 ### Control style and template
 
@@ -35,7 +35,7 @@ You can modify the default [Style](../windows.ui.xaml/style.md) and [ControlTemp
 
 Starting in Windows 10, version 1607 (SDK 14393), generic.xaml includes resources that you can use to modify the colors of a control in different visual states without modifying the control template. In apps that target this software development kit (SDK) or later, modifying these resources is preferred to setting properties such as [Background](control_background.md) and [Foreground](control_foreground.md). For more info, see the [Light-weight styling](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) section of the [Styling controls](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) article.
 
-This table shows the resources used by the [MenuFlyoutPresenter](menuflyoutpresenter.md) control.
+This table shows the resources used by the MenuFlyoutPresenter control.
 
 <table>
    <tr><th>Resource key</th><th>Description</th></tr>

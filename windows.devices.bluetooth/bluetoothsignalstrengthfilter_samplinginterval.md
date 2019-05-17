@@ -19,7 +19,7 @@ The interval at which RSSI events are sampled.
 ## -remarks
 The valid range for this property is equal or greater than zero.
 
-If the [SamplingInterval](bluetoothsignalstrengthfilter_samplinginterval.md) is zero, every received RSSI event that satisfies the conditions configured through the other [BluetoothSignalStrengthFilter](bluetoothsignalstrengthfilter.md) properties will be propagated. If the sampling interval is greater than or equal to a maximum limit value (currently 25.5 seconds), sampling will be disabled and RSSI events will only be propagated on a triggered basis when they transition between in range and out of range. Otherwise, an aggregated RSSI value (average in most cases) of the RSSI events received within [SamplingInterval](bluetoothsignalstrengthfilter_samplinginterval.md) will be propagated. If no RSSI events have been received within [SamplingInterval](bluetoothsignalstrengthfilter_samplinginterval.md), no RSSI events are propagated.
+If the SamplingInterval is zero, every received RSSI event that satisfies the conditions configured through the other [BluetoothSignalStrengthFilter](bluetoothsignalstrengthfilter.md) properties will be propagated. If the sampling interval is greater than or equal to a maximum limit value (currently 25.5 seconds), sampling will be disabled and RSSI events will only be propagated on a triggered basis when they transition between in range and out of range. Otherwise, an aggregated RSSI value (average in most cases) of the RSSI events received within SamplingInterval will be propagated. If no RSSI events have been received within SamplingInterval, no RSSI events are propagated.
 
 ## -examples
 

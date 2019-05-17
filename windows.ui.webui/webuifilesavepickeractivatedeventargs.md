@@ -55,7 +55,7 @@ function activated(eventObject) {
 WinJS.Application.addEventListener("activated", activated, false);
 ```
 
-For JavaScript, `eventObject` contains a [webUIFileSavePickerActivatedEventArgs](webuifilesavepickeractivatedeventargs.md) object.
+For JavaScript, `eventObject` contains a webUIFileSavePickerActivatedEventArgs object.
 
 ## -see-also
 

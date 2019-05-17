@@ -15,7 +15,7 @@ Provides information in response to the event that is raised when print task set
 ## -remarks
 ### Interface inheritance
 
-[IPrintTaskSettingsActivatedEventArgs](iprinttasksettingsactivatedeventargs.md) inherits [IActivatedEventArgs](iactivatedeventargs.md). Types that implement [IPrintTaskSettingsActivatedEventArgs](iprinttasksettingsactivatedeventargs.md) also implement the interface members of [IActivatedEventArgs](iactivatedeventargs.md).
+IPrintTaskSettingsActivatedEventArgs inherits [IActivatedEventArgs](iactivatedeventargs.md). Types that implement IPrintTaskSettingsActivatedEventArgs also implement the interface members of [IActivatedEventArgs](iactivatedeventargs.md).
 
 ## -examples
 

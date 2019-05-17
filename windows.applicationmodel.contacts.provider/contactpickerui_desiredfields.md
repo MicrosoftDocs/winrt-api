@@ -11,7 +11,7 @@ public Windows.Foundation.Collections.IVectorView<string> DesiredFields { get; }
 
 ## -description
 > [!NOTE]
-> [DesiredFields](contactpickerui_desiredfields.md) may be altered or unavailable for releases after Windows 8.1. Instead, use [DesiredFieldsWithContactFieldType](contactpickerui_desiredfieldswithcontactfieldtype.md).
+> DesiredFields may be altered or unavailable for releases after Windows 8.1. Instead, use [DesiredFieldsWithContactFieldType](contactpickerui_desiredfieldswithcontactfieldtype.md).
 
 Specifies the fields that you want returned after the user selects one or more contacts.
 

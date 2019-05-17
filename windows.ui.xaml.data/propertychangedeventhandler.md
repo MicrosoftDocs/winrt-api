@@ -22,7 +22,7 @@ Event data.
 When programming with Microsoft .NET, this delegate is hidden. Microsoft .NET Developers should use the [System.ComponentModel.PropertyChangedEventHandler](https://msdn.microsoft.com/library/system.componentmodel.propertychangedeventhandler.aspx) delegate.
 
 ## -examples
-This example demonstrates how to implement the [INotifyPropertyChanged](inotifypropertychanged.md) interface and use [PropertyChangedEventHandler](propertychangedeventhandler.md). For the complete code listing, see the [XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854).
+This example demonstrates how to implement the [INotifyPropertyChanged](inotifypropertychanged.md) interface and use PropertyChangedEventHandler. For the complete code listing, see the [XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854).
 
 ```csharp
 using System;

@@ -25,7 +25,7 @@ Gets or sets the top-level font weight for the [RichTextBlock](richtextblock.md)
 The requested font weight, which is a [FontWeight](../windows.ui.text/fontweight.md) that is obtained from one of the [FontWeights](../windows.ui.text/fontweights.md) property values. The default is [Normal](../windows.ui.text/fontweights_normal.md).
 
 ## -remarks
-Set the [FontWeight](richtextblock_fontweight.md) property to specify the default font stretch to use for all text in the [RichTextBlock](richtextblock.md). You can override this value for specific text elements in the [RichTextBlock](richtextblock.md) by setting the [TextElement.FontWeight](../windows.ui.xaml.documents/textelement_fontweight.md) property.
+Set the FontWeight property to specify the default font stretch to use for all text in the [RichTextBlock](richtextblock.md). You can override this value for specific text elements in the [RichTextBlock](richtextblock.md) by setting the [TextElement.FontWeight](../windows.ui.xaml.documents/textelement_fontweight.md) property.
 
 ## -examples
 

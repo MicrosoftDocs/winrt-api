@@ -18,7 +18,7 @@ The object representing the asynchronous operation.
 ## -remarks
 This operation will not block. The returned [IAsyncOperationWithProgress(IBuffer, UInt64)](../windows.foundation/iasyncoperationwithprogress_2.md) object will complete after all of the content has been written to the buffer.
 
-The [HttpMultipartContent](httpmultipartcontent.md) class can be used to stream content that might be of arbitrary length. The [ReadAsBufferAsync](httpmultipartcontent_readasbufferasync_1151439480.md) method will fail if all of the [HttpMultipartContent](httpmultipartcontent.md) can't fit in memory since this method requires the entire content to be buffered in memory first.
+The [HttpMultipartContent](httpmultipartcontent.md) class can be used to stream content that might be of arbitrary length. The ReadAsBufferAsync method will fail if all of the [HttpMultipartContent](httpmultipartcontent.md) can't fit in memory since this method requires the entire content to be buffered in memory first.
 
 ## -examples
 

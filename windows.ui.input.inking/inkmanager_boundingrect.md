@@ -22,7 +22,7 @@ The bounding rectangle of the [InkStroke](inkstroke.md) collection.
 ## -remarks
 
 ## -examples
-This example shows how to get the [BoundingRect](inkmanager_boundingrect.md) for the [InkStroke](inkstroke.md) collection of an [InkManager](inkmanager.md) object.
+This example shows how to get the BoundingRect for the [InkStroke](inkstroke.md) collection of an [InkManager](inkmanager.md) object.
 
 ```
 var rect = inkManager.boundingRect;

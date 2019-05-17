@@ -16,7 +16,7 @@ Gets or sets the initial location where the file open picker looks for files to 
 The identifier of the starting location.
 
 ## -remarks
-The [SuggestedStartLocation](fileopenpicker_suggestedstartlocation.md) is not always used as the start location for the file picker. To give the user a sense of consistency, the file picker remembers the last location that the user navigated to and will generally start at that location.
+The SuggestedStartLocation is not always used as the start location for the file picker. To give the user a sense of consistency, the file picker remembers the last location that the user navigated to and will generally start at that location.
 
 ## -examples
 

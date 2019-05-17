@@ -22,7 +22,7 @@ The length in bytes of the [HttpStringContent](httpstringcontent.md).
 The return value should never be **false**.
 
 ## -remarks
-The [TryComputeLength](httpstringcontent_trycomputelength_1823707804.md) method calculates the content length for HTTP content in [HttpStringContent](httpstringcontent.md). Headers set on the content are not included in the content length. This is useful for content types that are easy to calculate the content length.
+The TryComputeLength method calculates the content length for HTTP content in [HttpStringContent](httpstringcontent.md). Headers set on the content are not included in the content length. This is useful for content types that are easy to calculate the content length.
 
 ## -examples
 

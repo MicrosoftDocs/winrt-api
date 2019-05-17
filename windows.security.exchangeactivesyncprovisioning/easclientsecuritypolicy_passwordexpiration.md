@@ -15,7 +15,7 @@ public Windows.Foundation.TimeSpan PasswordExpiration { get;  set; }
 
 Gets or set the length of time that a password is valid. The MS-ASPROV name is DevicePasswordExpiration.
 
-The [PasswordExpiration](easclientsecuritypolicy_passwordexpiration.md) property is superseded by the MS-ASPROV DevicePasswordEnabled policy. If the caller received DevicePasswordEnabled equal to FALSE, do not set the [PasswordExpiration](easclientsecuritypolicy_passwordexpiration.md) property for evaluation or application. If the caller received DevicePasswordEnabled equal to TRUE, you can set the [PasswordExpiration](easclientsecuritypolicy_passwordexpiration.md) property for evaluation or application.
+The PasswordExpiration property is superseded by the MS-ASPROV DevicePasswordEnabled policy. If the caller received DevicePasswordEnabled equal to FALSE, do not set the PasswordExpiration property for evaluation or application. If the caller received DevicePasswordEnabled equal to TRUE, you can set the PasswordExpiration property for evaluation or application.
 
 ## -property-value
 The length of time before the password expires and must be reset.

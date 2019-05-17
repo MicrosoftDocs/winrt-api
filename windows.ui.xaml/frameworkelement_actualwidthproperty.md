@@ -17,7 +17,7 @@ The identifier for the [ActualWidth](frameworkelement_actualwidth.md)  dependen
 
 ## -remarks
 > [!NOTE]
-> Although it has an [ActualWidthProperty](frameworkelement_actualwidthproperty.md) backing field, [ActualWidth](frameworkelement_actualwidth.md) does not raise property change notifications and it should be thought of as a regular CLR property and not a dependency property.
+> Although it has an ActualWidthProperty backing field, [ActualWidth](frameworkelement_actualwidth.md) does not raise property change notifications and it should be thought of as a regular CLR property and not a dependency property.
 
 ## -examples
 

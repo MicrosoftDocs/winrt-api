@@ -11,7 +11,7 @@ Allow apps to send and receive Bluetooth Low Energy (LE) advertisements.
 
 ## -remarks
 
-The [Windows.Devices.Bluetooth.Advertisement](windows_devices_bluetooth_advertisement.md) namespace provides an app with a simple but powerful set of methods that allow the following:
+The Windows.Devices.Bluetooth.Advertisement namespace provides an app with a simple but powerful set of methods that allow the following:
 
 + Receive advertisement data from Bluetooth LE peripherals with configurable filtering capabilities.
 + Send out Bluetooth LE advertisements allowing the app to operate as a source of beacon advertisements.

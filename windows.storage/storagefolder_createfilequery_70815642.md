@@ -25,7 +25,7 @@ To specify additional query options, call the [CreateFileQueryWithOptions](stora
 To get items that are files or folders, call the [CreateItemQuery](storagefolder_createitemquery_543424716.md) method.
 
 ## -examples
-The following example gets a query result object that contains the files in the current folder by calling the [CreateFileQuery()](storagefolder_createfilequery_70815642.md) method.
+The following example gets a query result object that contains the files in the current folder by calling the CreateFileQuery() method.
 
 ```csharp
 using Windows.Storage;

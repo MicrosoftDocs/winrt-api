@@ -10,7 +10,7 @@ public event Windows.Foundation.TypedEventHandler RequestResponseCompleted<Windo
 # Windows.Web.Http.Diagnostics.HttpDiagnosticProvider.RequestResponseCompleted
 
 ## -description
-Subscribe to the [RequestResponseCompleted](httpdiagnosticprovider_requestresponsecompleted.md) event to receive a notification that a request has been submitted.
+Subscribe to the RequestResponseCompleted event to receive a notification that a request has been submitted.
 
 ## -remarks
 

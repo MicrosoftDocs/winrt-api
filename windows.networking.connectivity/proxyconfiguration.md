@@ -16,7 +16,7 @@ Represents the proxy configuration for the current user.
 > This class is not supported on Windows Phone.
 
 ## -remarks
-A [ProxyConfiguration](proxyconfiguration.md) object is returned by calling the [GetProxyConfigurationAsync](networkinformation_getproxyconfigurationasync_1451648549.md) method on the [NetworkInformation](networkinformation.md) object. If the [GetProxyConfigurationAsync](networkinformation_getproxyconfigurationasync_1451648549.md) method is successful, the [IAsyncOperation(ProxyConfiguration)](../windows.foundation/iasyncoperation_1.md) handler for the method is passed a [ProxyConfiguration](proxyconfiguration.md) object.
+A ProxyConfiguration object is returned by calling the [GetProxyConfigurationAsync](networkinformation_getproxyconfigurationasync_1451648549.md) method on the [NetworkInformation](networkinformation.md) object. If the [GetProxyConfigurationAsync](networkinformation_getproxyconfigurationasync_1451648549.md) method is successful, the [IAsyncOperation(ProxyConfiguration)](../windows.foundation/iasyncoperation_1.md) handler for the method is passed a ProxyConfiguration object.
 
 The proxy configuration returned is for the *uri* parameter passed to the [GetProxyConfigurationAsync](networkinformation_getproxyconfigurationasync_1451648549.md) method. The *uri* parameter contains a hostname or IP address for the target endpoint and a service name, port number, or protocol scheme.
 

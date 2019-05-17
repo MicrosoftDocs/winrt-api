@@ -16,7 +16,7 @@ Gets the purchase price for the in-app product with the appropriate formatting f
 The purchase price with the appropriate formatting for the current market.
 
 ## -remarks
-If the in-app product is on sale in the current market, the [FormattedPrice](productlisting_formattedprice.md) property returns the sale price. Use the [FormattedBasePrice](productlisting_formattedbaseprice.md) property to get the default price. If the in-app product is not on sale, [FormattedBasePrice](productlisting_formattedbaseprice.md) and [FormattedPrice](productlisting_formattedprice.md) return the same value.
+If the in-app product is on sale in the current market, the FormattedPrice property returns the sale price. Use the [FormattedBasePrice](productlisting_formattedbaseprice.md) property to get the default price. If the in-app product is not on sale, [FormattedBasePrice](productlisting_formattedbaseprice.md) and FormattedPrice return the same value.
 
 ## -examples
 

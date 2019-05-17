@@ -25,7 +25,7 @@ Gets or sets the display format for the day value.
 The display format for the day value.
 
 ## -remarks
-Change the format of the day value by setting the [DayFormat](datepickerflyout_dayformat.md) property.
+Change the format of the day value by setting the DayFormat property.
 
 The string content of the day value is created by a [DateTimeFormatter](../windows.globalization.datetimeformatting/datetimeformatter.md). You inform the [DateTimeFormatter](../windows.globalization.datetimeformatting/datetimeformatter.md) how to format the day value by providing a string that is either a *format template* or a *format pattern*. Common templates and patterns for day values are listed in the following table.
 

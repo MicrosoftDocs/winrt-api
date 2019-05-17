@@ -13,7 +13,7 @@ public class GeofenceStateChangeReport : Windows.Devices.Geolocation.Geofencing.
 Contains the information about the state changes for a [Geofence](geofence.md).
 
 ## -remarks
-Use the [GeofenceMonitor.ReadReports](geofencemonitor_readreports_231406138.md) method to get a collection of [GeofenceStateChangeReport](geofencestatechangereport.md) objects which contain information about changes in state to a geofence.
+Use the [GeofenceMonitor.ReadReports](geofencemonitor_readreports_231406138.md) method to get a collection of GeofenceStateChangeReport objects which contain information about changes in state to a geofence.
 
 ## -examples
 

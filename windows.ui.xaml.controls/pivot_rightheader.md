@@ -34,7 +34,7 @@ Gets or sets the content for the header on the control's right side.
 The content of the header on the control's right side. The default is **null**.
 
 ## -remarks
-You can set a data template for the [RightHeader](pivot_rightheader.md) value by using the [RightHeaderTemplate](pivot_rightheadertemplate.md) property.
+You can set a data template for the RightHeader value by using the [RightHeaderTemplate](pivot_rightheadertemplate.md) property.
 
 ## -examples
 

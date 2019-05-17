@@ -13,7 +13,7 @@ public class WebAccountProviderActivatedEventArgs : Windows.ApplicationModel.Act
 Provides information to an app activated as a result of a web account provider operation.
 
 ## -remarks
-You access a [WebAccountProviderActivatedEventArgs](webaccountprovideractivatedeventargs.md) object when you implement an event handler that responds to [Activated](../windows.applicationmodel.core/coreapplicationview_activated.md) events when [ActivationKind](activationkind.md) is **WebAccountProvider**.
+You access a WebAccountProviderActivatedEventArgs object when you implement an event handler that responds to [Activated](../windows.applicationmodel.core/coreapplicationview_activated.md) events when [ActivationKind](activationkind.md) is **WebAccountProvider**.
 
 ## -examples
 

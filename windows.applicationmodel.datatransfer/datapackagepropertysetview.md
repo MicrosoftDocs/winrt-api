@@ -23,7 +23,7 @@ This class directly supports several default properties, such as a [thumbnail](d
 
 ### Collection member lists
 
-For JavaScript, [DataPackagePropertySetView](datapackagepropertysetview.md) supports using an index to access items.
+For JavaScript, DataPackagePropertySetView supports using an index to access items.
 
 ## -examples
 

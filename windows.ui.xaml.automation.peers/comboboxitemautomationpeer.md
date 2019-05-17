@@ -13,11 +13,11 @@ public class ComboBoxItemAutomationPeer : Windows.UI.Xaml.Automation.Peers.Frame
 Exposes the [ComboBoxItem](../windows.ui.xaml.controls/comboboxitem.md) contents in a [ComboBox](../windows.ui.xaml.controls/combobox.md) to Microsoft UI Automation.
 
 ## -remarks
-The Windows Runtime  [ComboBoxItem](../windows.ui.xaml.controls/comboboxitem.md) class creates a new [ComboBoxItemAutomationPeer](comboboxitemautomationpeer.md) as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. Derive your automation peer from [ComboBoxItemAutomationPeer](comboboxitemautomationpeer.md) if you are deriving a custom class from [ComboBoxItem](../windows.ui.xaml.controls/comboboxitem.md) and want to add automation support for additional features that you enabled in your custom class. Then override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) so that it returns your custom peer.
+The Windows Runtime  [ComboBoxItem](../windows.ui.xaml.controls/comboboxitem.md) class creates a new ComboBoxItemAutomationPeer as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. Derive your automation peer from ComboBoxItemAutomationPeer if you are deriving a custom class from [ComboBoxItem](../windows.ui.xaml.controls/comboboxitem.md) and want to add automation support for additional features that you enabled in your custom class. Then override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) so that it returns your custom peer.
 
 ### Default peer implementation and overrides in **ComboBoxItemAutomationPeer**
 
-[ComboBoxItemAutomationPeer](comboboxitemautomationpeer.md) has overrides of **Core** methods such that the associated [AutomationPeer](automationpeer.md) methods provide peer-specific information to a Microsoft UI Automation client.
+ComboBoxItemAutomationPeer has overrides of **Core** methods such that the associated [AutomationPeer](automationpeer.md) methods provide peer-specific information to a Microsoft UI Automation client.
 
 + [GetPattern](automationpeer_getpattern_2046576749.md) reports that the peer doesn't have any patterns. However, the content of the [ComboBoxItem](../windows.ui.xaml.controls/comboboxitem.md) might have a specific peer, for example if it is a [TextBox](../windows.ui.xaml.controls/textbox.md). The parent [ComboBox](../windows.ui.xaml.controls/combobox.md) has the support for any selection-related automation behavior.
 + [GetClassName](automationpeer_getclassname_614238974.md) returns "ComboBoxItem".

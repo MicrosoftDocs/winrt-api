@@ -16,7 +16,7 @@ Gets or sets the dots per inch of the software bitmap in the X direction.
 The dots per inch of the software bitmap in the X direction.
 
 ## -remarks
-[DpiX](softwarebitmap_dpix.md) and [DpiY](softwarebitmap_dpiy.md) are metadata about the bitmap. Modifying these values does not scale the image.
+DpiX and [DpiY](softwarebitmap_dpiy.md) are metadata about the bitmap. Modifying these values does not scale the image.
 
 ## -examples
 

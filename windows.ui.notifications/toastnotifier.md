@@ -14,7 +14,7 @@ public class ToastNotifier : Windows.UI.Notifications.IToastNotifier, Windows.UI
 Raises a toast notification to the specific app to which the ToastNotifier is bound. This class also lets you schedule and remove toast notifications.
 
 ## -remarks
-When it is created, [ToastNotifier](toastnotifier.md) is bound to a specific app, so the methods of this class affect only that app.
+When it is created, ToastNotifier is bound to a specific app, so the methods of this class affect only that app.
 
 ## -examples
 The following example shows how to create and send a toast notification that includes text and images, including use of the [Show](toastnotifier_show_184420709.md) method.

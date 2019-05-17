@@ -16,7 +16,7 @@ Gets the value of the **qvalue** or quality factor from the [HttpLanguageRangeWi
 The value of the **qvalue** or quality factor.
 
 ## -remarks
-Each language-range can be given an associated quality value representing an estimate of the user's preference for the languages specified by that range. The quality must be in the range 0.0 to 1.0. No value for the [Quality](httplanguagerangewithqualityheadervalue_quality.md) property is the same as q=1.
+Each language-range can be given an associated quality value representing an estimate of the user's preference for the languages specified by that range. The quality must be in the range 0.0 to 1.0. No value for the Quality property is the same as q=1.
 
 ## -examples
 

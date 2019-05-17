@@ -12,7 +12,7 @@ public Windows.Foundation.IAsyncAction SaveContactAsync(Windows.ApplicationModel
 ## -description
 Asynchronously saves a contact that meets server-side search criteria.
 
-When a server-side search is requested, the data provider performs the search, calls [SaveContactAsync](contactlistserversearchreadbatchrequest_savecontactasync_64942310.md) on each contact found, and then calls [ReportCompletedAsync.](contactlistserversearchreadbatchrequest_reportcompletedasync_1707664681.md)
+When a server-side search is requested, the data provider performs the search, calls SaveContactAsync on each contact found, and then calls [ReportCompletedAsync.](contactlistserversearchreadbatchrequest_reportcompletedasync_1707664681.md)
 
 ## -parameters
 ### -param contact

@@ -25,13 +25,13 @@ A value of the enumeration. The initial value is the default theme set by the us
 
 ## -remarks
 
-There are two built in themes: "Light" and "Dark". By default your app runs using the theme set by the user in Windows settings (Settings > Personalization > Colors > Choose your default app mode). You can set the app's [RequestedTheme](application_requestedtheme.md) property to override the user default and specify which theme is used.
+There are two built in themes: "Light" and "Dark". By default your app runs using the theme set by the user in Windows settings (Settings > Personalization > Colors > Choose your default app mode). You can set the app's RequestedTheme property to override the user default and specify which theme is used.
 
-The theme can only be set when the app is started, not while it’s running. Attempting to set [RequestedTheme](application_requestedtheme.md) while the app is running throws an exception (**NotSupportedException** for Microsoft .NET code). If you give the user an option to pick a theme that's part of app UI, you must save the setting in the app data and apply it when the app is restarted.
+The theme can only be set when the app is started, not while it’s running. Attempting to set RequestedTheme while the app is running throws an exception (**NotSupportedException** for Microsoft .NET code). If you give the user an option to pick a theme that's part of app UI, you must save the setting in the app data and apply it when the app is restarted.
 
-You can change specific theme values at run-time after [Application.RequestedTheme](application_requestedtheme.md) is applied, if you use the [FrameworkElement.RequestedTheme](frameworkelement_requestedtheme.md) property and sets values on specific elements in the UI.
+You can change specific theme values at run-time after Application.RequestedTheme is applied, if you use the [FrameworkElement.RequestedTheme](frameworkelement_requestedtheme.md) property and sets values on specific elements in the UI.
 
-There is also a "HighContrast" theme that uses system values, but apps and app code use a different technique for switching the app to high contrast. The [RequestedTheme](application_requestedtheme.md) property is ignored if the user is running in high contrast mode. See [High-contrast themes](https://msdn.microsoft.com/library/fd7ca6f6-a8f1-47d8-aa6c-3f2ec3168c45) and [XAML high contrast style sample](https://go.microsoft.com/fwlink/p/?LinkID=254993).
+There is also a "HighContrast" theme that uses system values, but apps and app code use a different technique for switching the app to high contrast. The RequestedTheme property is ignored if the user is running in high contrast mode. See [High-contrast themes](https://msdn.microsoft.com/library/fd7ca6f6-a8f1-47d8-aa6c-3f2ec3168c45) and [XAML high contrast style sample](https://go.microsoft.com/fwlink/p/?LinkID=254993).
 
 Although the app can't switch the themes at run-time, the user can (starting with Windows 8.1). For example, a user might enable a high-contrast theme while your app is running, by using the Alt+Shift+PrtScn key shortcut. If this happens, the XAML resource system will recalculate the resource values for any [{ThemeResource} markup extension](https://msdn.microsoft.com/library/8a1c79d2-9566-44aa-b8e1-cc7adad1bcc5) usage. Theme-appropriate resources such as colors and brushes then use values appropriate for the current theme, even though it wasn't the app that requested that theme originally.
 
@@ -43,7 +43,7 @@ The resources that are theme-specific are typically defined in a separate resour
 
 By default your app runs using the "Dark" theme (in the themeresources.xaml file, the key name for the "Dark" resources is "Default").
 
-On Windows, setting [RequestedTheme](application_requestedtheme.md) to [ElementTheme.Default](elementtheme.md) will always result in "Dark" being the theme. On Windows Phone, using the [ElementTheme.Default](elementtheme.md) value will result in a query for the system theme, as set by the user.
+On Windows, setting RequestedTheme to [ElementTheme.Default](elementtheme.md) will always result in "Dark" being the theme. On Windows Phone, using the [ElementTheme.Default](elementtheme.md) value will result in a query for the system theme, as set by the user.
 
 ## -examples
 

@@ -14,7 +14,7 @@ public void RetainDevice()
 Retains exclusive claim to the barcode scanner.
 
 ## -remarks
-When the application receives a request to release its exclusive claim to the barcode scanner, it must call [RetainDevice](claimedbarcodescanner_retaindevice_1634489834.md), otherwise it will lose its claim to the device.
+When the application receives a request to release its exclusive claim to the barcode scanner, it must call RetainDevice, otherwise it will lose its claim to the device.
 
 ## -examples
 

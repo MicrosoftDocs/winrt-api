@@ -46,7 +46,7 @@ The brush used to apply to the text content. The default is a null brush from a 
 The default appearance of text and text styles depends heavily on the active theme and other settings. The theme and various styles and behaviors that are using default system settings or user preferences are the source of the effective runtime appearance of [TextBlock](textblock.md) foreground color of text as well as other text characteristics. You can change these defaults by changing the property values, or by applying a different style to specific [TextBlock](textblock.md) instances. You can change the foreground value for all default text by overriding the resource named **DefaultTextForegroundThemeBrush** in App.xaml.
 
 ## -examples
-The following XAML example shows how to set the [Foreground](textblock_foreground.md) property to a solid color using an inline-defined attribute value "Maroon". The XAML parser uses this "Maroon" value to refer to the named color [Colors.Maroon](../windows.ui/colors_maroon.md), and to create the [SolidColorBrush](../windows.ui.xaml.media/solidcolorbrush.md) instance that supplies the runtime value.
+The following XAML example shows how to set the Foreground property to a solid color using an inline-defined attribute value "Maroon". The XAML parser uses this "Maroon" value to refer to the named color [Colors.Maroon](../windows.ui/colors_maroon.md), and to create the [SolidColorBrush](../windows.ui.xaml.media/solidcolorbrush.md) instance that supplies the runtime value.
 
 ```xaml
 <TextBlock

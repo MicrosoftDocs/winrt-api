@@ -24,7 +24,7 @@ Don't rely on this property to access a folder, because a file system path is no
 
 
 ## -examples
-The following example gets the app's installation folder and displays the value of the folder's [Path](storagefolder_path.md).
+The following example gets the app's installation folder and displays the value of the folder's Path.
 
 ```csharp
 using Windows.Storage;

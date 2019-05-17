@@ -21,10 +21,10 @@ Represents a cubic Bezier curve drawn between two points.
 ## -remarks
 This class is relevant for setting the vector data for either a [Path](../windows.ui.xaml.shapes/path.md) or a [PathIcon](../windows.ui.xaml.controls/pathicon.md).
 
-Rather than creating an instance or an object element, you can also define a [BezierSegment](beziersegment.md) as part of a vector within the string for a [Move and draw commands syntax](https://msdn.microsoft.com/library/7772bc3e-a631-46ff-9940-3dd5b9d0e0d9).
+Rather than creating an instance or an object element, you can also define a BezierSegment as part of a vector within the string for a [Move and draw commands syntax](https://msdn.microsoft.com/library/7772bc3e-a631-46ff-9940-3dd5b9d0e0d9).
 
 ## -examples
-This example uses a [BezierSegment](beziersegment.md) as one of the [PathSegment](pathsegment.md) items in a [PathGeometry](pathgeometry.md).
+This example uses a BezierSegment as one of the [PathSegment](pathsegment.md) items in a [PathGeometry](pathgeometry.md).
 
 
 

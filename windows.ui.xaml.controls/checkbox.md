@@ -29,20 +29,20 @@ Represents a control that a user can select (check) or clear (uncheck). A CheckB
 > [!TIP]
 > For more info, design guidance, and code examples, see [Check boxes](/windows/uwp/design/controls-and-patterns/checkbox).
 
-[CheckBox](checkbox.md) is a control that a user can select or clear.
+CheckBox is a control that a user can select or clear.
 
 <img alt="The 3 states of a check box" src="images/controls/CheckBox_DefaultStates.png" />
 
-Use the [CheckBox](checkbox.md) control to provide a list of options that a user can select, such as a list of settings to apply to an application. Both [CheckBox](checkbox.md) and [RadioButton](radiobutton.md) controls allow the user to select from a list of options. [CheckBox](checkbox.md) controls allow the user to select a combination of options. In contrast, [RadioButton](radiobutton.md) controls allow the user to select from mutually exclusive options.
+Use the CheckBox control to provide a list of options that a user can select, such as a list of settings to apply to an application. Both CheckBox and [RadioButton](radiobutton.md) controls allow the user to select from a list of options. CheckBox controls allow the user to select a combination of options. In contrast, [RadioButton](radiobutton.md) controls allow the user to select from mutually exclusive options.
 
-The [CheckBox](checkbox.md) control inherits from [ToggleButton](../windows.ui.xaml.controls.primitives/togglebutton.md) and can have three states: <table>
+The CheckBox control inherits from [ToggleButton](../windows.ui.xaml.controls.primitives/togglebutton.md) and can have three states: <table>
    <tr><th>State</th><th>Property</th><th>Value</th></tr>
    <tr><td>checked</td><td>[  IsChecked](../windows.ui.xaml.controls.primitives/togglebutton_ischecked.md)</td><td>**true**</td></tr>
    <tr><td>unchecked</td><td>[  IsChecked](../windows.ui.xaml.controls.primitives/togglebutton_ischecked.md)</td><td>**false**</td></tr>
    <tr><td>indeterminate</td><td>[  IsChecked](../windows.ui.xaml.controls.primitives/togglebutton_ischecked.md)</td><td>**null**</td></tr>
 </table>
 
- For the [CheckBox](checkbox.md) to report the indeterminate state, you must set the [IsThreeState](../windows.ui.xaml.controls.primitives/togglebutton_isthreestate.md) property to **true**.
+ For the CheckBox to report the indeterminate state, you must set the [IsThreeState](../windows.ui.xaml.controls.primitives/togglebutton_isthreestate.md) property to **true**.
 
 ### Control style and template
 
@@ -50,7 +50,7 @@ You can modify the default [Style](../windows.ui.xaml/style.md) and [ControlTemp
 
 Starting in Windows 10, version 1607 (SDK 14393), generic.xaml includes resources that you can use to modify the colors of a control in different visual states without modifying the control template. In apps that target this software development kit (SDK) or later, modifying these resources is preferred to setting properties such as [Background](control_background.md) and [Foreground](control_foreground.md). For more info, see the [Light-weight styling](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) section of the [Styling controls](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) article.
 
-This table shows the resources used by the [CheckBox](checkbox.md) control.
+This table shows the resources used by the CheckBox control.
 
 <table>
    <tr><th>Resource key</th><th>Description</th></tr>

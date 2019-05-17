@@ -21,7 +21,7 @@ Represents an object that displays a [MediaPlayer](../windows.media.playback/med
 
 ## -remarks
 
-[MediaPlayerPresenter](mediaplayerpresenter.md) is intended to be used in the control template of the [MediaPlayerElement](mediaplayerelement.md) control. You will typically use [MediaPlayerElement](mediaplayerelement.md) in your app rather than [MediaPlayerPresenter](mediaplayerpresenter.md).
+MediaPlayerPresenter is intended to be used in the control template of the [MediaPlayerElement](mediaplayerelement.md) control. You will typically use [MediaPlayerElement](mediaplayerelement.md) in your app rather than MediaPlayerPresenter.
 
 ## -examples
 

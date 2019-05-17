@@ -18,7 +18,7 @@ The true-north heading.
 ## -remarks
 Before retrieving this property, your code should first check to verify that the value is not null. (If the value is null and you attempt to retrieve it, Windows will generate an exception.)
 
-In order to retrieve the declination, your app needs to have access to the device's current location. If the location is not available, the declination defaults to 0 degrees. In this scenario, [HeadingTrueNorth](compassreading_headingtruenorth.md) equals [HeadingMagneticNorth](compassreading_headingmagneticnorth.md).
+In order to retrieve the declination, your app needs to have access to the device's current location. If the location is not available, the declination defaults to 0 degrees. In this scenario, HeadingTrueNorth equals [HeadingMagneticNorth](compassreading_headingmagneticnorth.md).
 
 ## -examples
 

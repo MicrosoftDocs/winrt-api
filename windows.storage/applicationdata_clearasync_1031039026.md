@@ -13,7 +13,7 @@ public Windows.Foundation.IAsyncAction ClearAsync()
 Removes all application data from the local, roaming, and temporary app data stores.
 
 > [!NOTE]
-> [ClearAsync()](applicationdata_clearasync_1031039026.md) method encounters an error if there are any open file handles. You should take care to close all open files prior to calling ClearAsync.
+> ClearAsync() method encounters an error if there are any open file handles. You should take care to close all open files prior to calling ClearAsync.
 
 ## -returns
 An object that is used to manage the asynchronous clear operation.

@@ -13,7 +13,7 @@ public class Package : Windows.ApplicationModel.IPackage, Windows.ApplicationMod
 Provides information about a package.
 
 ## -remarks
-Although [Package](package.md) is supported in desktop apps, some members of this class are supported only in UWP app. The remarks section will indicate whether a member has any restrictions on its behavior.
+Although Package is supported in desktop apps, some members of this class are supported only in UWP app. The remarks section will indicate whether a member has any restrictions on its behavior.
 
 ## -examples
 

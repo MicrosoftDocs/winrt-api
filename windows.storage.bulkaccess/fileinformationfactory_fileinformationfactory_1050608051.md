@@ -22,7 +22,7 @@ To learn about query result objects, see [StorageFileQueryResult](../windows.sto
 A value that indicates the type of thumbnail view to retrieve for the [StorageFile](../windows.storage/storagefile.md) and [StorageFolder](../windows.storage/storagefolder.md).
 
 ## -remarks
-If the query specified [SetThumbnailPrefetch](../windows.storage.search/queryoptions_setthumbnailprefetch_2085714012.md) options, those options are overridden by options requested in any of the [FileInformationFactory](fileinformationfactory_fileinformationfactory_1050608051.md) constructors.
+If the query specified [SetThumbnailPrefetch](../windows.storage.search/queryoptions_setthumbnailprefetch_2085714012.md) options, those options are overridden by options requested in any of the FileInformationFactory constructors.
 
 ## -examples
 

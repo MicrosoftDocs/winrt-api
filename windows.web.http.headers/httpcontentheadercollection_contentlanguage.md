@@ -18,7 +18,7 @@ The collection of objects that represent the value of an HTTP **Content-Language
 ## -remarks
 
 
-The following sample code shows a method to get or set the **Content-Language** header value on HTTP content using the [ContentLanguage](httpcontentheadercollection_contentlanguage.md) property on the [HttpContentHeaderCollection](httpcontentheadercollection.md) object.
+The following sample code shows a method to get or set the **Content-Language** header value on HTTP content using the ContentLanguage property on the [HttpContentHeaderCollection](httpcontentheadercollection.md) object.
 
 ```csharp
     // Content-Language header

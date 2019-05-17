@@ -39,7 +39,7 @@ This API is used in conjunction with [Stereo3DVideoRenderMode](stereo3dvideorend
 Returns or sets **topbottom** or **sidebyside** for stereo 3-D content packing, or **none** for regular 2-D video.
 
 ## -examples
-This example creates a [MediaElement](mediaelementstate.md) with [Stereo3DVideoPackingMode](stereo3dvideopackingmode.md) and [Stereo3DVideoRenderMode](stereo3dvideorendermode.md) set.
+This example creates a [MediaElement](mediaelementstate.md) with Stereo3DVideoPackingMode and [Stereo3DVideoRenderMode](stereo3dvideorendermode.md) set.
 
 ```xaml
 <MediaElement Stereo3DVideoPackingMode="TopBottom" 

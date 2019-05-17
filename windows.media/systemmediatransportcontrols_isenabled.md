@@ -16,7 +16,7 @@ Enables and disables the system media transport controls for the app.
 **true** if the system transport controls are enabled for the app; otherwise, **false**.
 
 ## -remarks
-Setting [IsEnabled](systemmediatransportcontrols_isenabled.md) to **false** will disable the apps support for the system media transport controls, so the controls will not show. Setting [IsEnabled](systemmediatransportcontrols_isenabled.md) to **true** will re-enable the controls for the app.
+Setting IsEnabled to **false** will disable the apps support for the system media transport controls, so the controls will not show. Setting IsEnabled to **true** will re-enable the controls for the app.
 
 ## -examples
 

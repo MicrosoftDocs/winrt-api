@@ -12,7 +12,7 @@ public string AppLaunchArgument { get;  set; }
 ## -description
 Gets or sets a string as a launch parameter that can be associated with the response by the background app service.
 
-[AppLaunchArgument](voicecommandresponse_applaunchargument.md) is used to specify the state or context of the foreground app when launched through a deep link in **Cortana**.
+AppLaunchArgument is used to specify the state or context of the foreground app when launched through a deep link in **Cortana**.
 
 ## -property-value
 The string used as a launch parameter.

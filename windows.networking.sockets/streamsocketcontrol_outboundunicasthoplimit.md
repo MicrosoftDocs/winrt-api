@@ -20,7 +20,7 @@ This value indicates the hop limit that is set on an outbound TCP packet sent to
 
 This property may be set before the [StreamSocket](streamsocket.md) is connected. After the [StreamSocket](streamsocket.md) is connected, setting this property will result in an error.
 
-Setting the [OutboundUnicastHopLimit](streamsocketcontrol_outboundunicasthoplimit.md) may not have an effect if the system doesn't support setting the TTL.
+Setting the OutboundUnicastHopLimit may not have an effect if the system doesn't support setting the TTL.
 
 ## -examples
 

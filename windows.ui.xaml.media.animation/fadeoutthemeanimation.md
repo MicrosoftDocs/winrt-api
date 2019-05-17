@@ -21,7 +21,7 @@ Represents the preconfigured opacity animation that applies to controls when the
 ## -remarks
 
 ## -examples
-The following example applies a [FadeInThemeAnimation](fadeinthemeanimation.md) and [FadeOutThemeAnimation](fadeoutthemeanimation.md) to a rectangle.
+The following example applies a [FadeInThemeAnimation](fadeinthemeanimation.md) and FadeOutThemeAnimation to a rectangle.
 
 
 <!--  

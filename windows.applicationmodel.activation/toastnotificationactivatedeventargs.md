@@ -13,7 +13,7 @@ public class ToastNotificationActivatedEventArgs : Windows.ApplicationModel.Acti
 Provides information about an event that occurs when the app is activated because a user tapped on the body of a toast notification or performed an action inside a toast notification.
 
 ## -remarks
-[ToastNotificationActivatedEventArgs](toastnotificationactivatedeventargs.md) is passed to the event handler that you implement for the activation event that occurs when the app is activated because a user tapped on the body of a toast notification or performed an action inside a toast notification.
+ToastNotificationActivatedEventArgs is passed to the event handler that you implement for the activation event that occurs when the app is activated because a user tapped on the body of a toast notification or performed an action inside a toast notification.
 
 ## -examples
 

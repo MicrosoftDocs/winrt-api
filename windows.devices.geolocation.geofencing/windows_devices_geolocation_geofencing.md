@@ -40,7 +40,7 @@ Your app must declare the location capability in the app manifest in order to us
 
 ## -see-also
 
-[Get current location](https://msdn.microsoft.com/library/24dc9a41-8cc1-48b0-bc6d-24bf571afcc8), [Set up a geofence](https://msdn.microsoft.com/library/a3a46e03-0751-4dbd-a2a1-2323db09bdba), [Geofence](geofence.md), [GeofenceMonitor](geofencemonitor.md), [Windows.Devices.Geolocation](windows_devices_geolocation_geofencing.md), [Geolocation sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=533278)
+[Get current location](https://msdn.microsoft.com/library/24dc9a41-8cc1-48b0-bc6d-24bf571afcc8), [Set up a geofence](https://msdn.microsoft.com/library/a3a46e03-0751-4dbd-a2a1-2323db09bdba), [Geofence](geofence.md), [GeofenceMonitor](geofencemonitor.md), Windows.Devices.Geolocation, [Geolocation sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=533278)
 
 ## -capabilities
 

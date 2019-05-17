@@ -30,11 +30,11 @@ Represents a dialog box that can be customized to contain checkboxes, hyperlinks
 > For more info, design guidance, and code examples, see [Dialog controls](/windows/uwp/design/controls-and-patterns/dialogs-and-flyouts/dialogs
 ).
 
-Use a [ContentDialog](contentdialog.md) to request input from the user, or to show information in a modal dialog. You can add a [ContentDialog](contentdialog.md) to an app page using code or XAML, or you can create a custom dialog class that's derived from [ContentDialog](contentdialog.md). Both ways are shown in the examples section of this topic.
+Use a ContentDialog to request input from the user, or to show information in a modal dialog. You can add a ContentDialog to an app page using code or XAML, or you can create a custom dialog class that's derived from ContentDialog. Both ways are shown in the examples section of this topic.
 
 Use the [Title](contentdialog_title.md) property to put a title on the dialog. To add a complex title element with more than simple text, you can use the [TitleTemplate](contentdialog_titletemplate.md) property.
 
-The [ContentDialog](contentdialog.md) has 3 built-in buttons that describe the actions that the user may take in response to the dialog's prompt. All dialogs should have a safe, non-destructive action. Dialogs may also optionally contain one or two specific "do it" actions in response to the prompt.  
+The ContentDialog has 3 built-in buttons that describe the actions that the user may take in response to the dialog's prompt. All dialogs should have a safe, non-destructive action. Dialogs may also optionally contain one or two specific "do it" actions in response to the prompt.  
 
 Use the [CloseButtonText](contentdialog_closebuttontext.md) and property to set the display text for the safe, non-destructive button. The dialog's close button will also be invoked when the user performs a Cancel action, like pressing the ESC key or pressing the system back button.
 Use the [PrimaryButtonText](contentdialog_primarybuttontext.md) and [SecondaryButtonText](contentdialog_secondarybuttontext.md) properties to display responses to the main question or action posed by the dialog.
@@ -47,7 +47,7 @@ You may optionally choose to differentiate one of the three buttons as the dialo
 
 You may wish to do some work before the dialog closes (for example, to verify that the user entered into form fields before submitting a request). You have two ways to do work before the dialog closes. You can handle the [PrimaryButtonClick](contentdialog_primarybuttonclick.md), [SecondaryButtonClick](contentdialog_secondarybuttonclick.md), or [CloseButtonClick](contentdialog_closebuttonclick.md) events to get the user's response when the user presses a button and verify the state of the dialog before it closes. You can also handle the [Closing](contentdialog_closing.md) event to do work before the dialog closes.
 
-Only one [ContentDialog](contentdialog.md) can be shown at a time. To chain together more than one [ContentDialog](contentdialog.md), handle the [Closing](contentdialog_closing.md) event of the first [ContentDialog](contentdialog.md). In the [Closing](contentdialog_closing.md) event handler, call [ShowAsync](contentdialog_showasync_1208475713.md) on the second dialog to show it.
+Only one ContentDialog can be shown at a time. To chain together more than one ContentDialog, handle the [Closing](contentdialog_closing.md) event of the first ContentDialog. In the [Closing](contentdialog_closing.md) event handler, call [ShowAsync](contentdialog_showasync_1208475713.md) on the second dialog to show it.
 
 ### Control style and template
 
@@ -55,7 +55,7 @@ You can modify the default [Style](../windows.ui.xaml/style.md) and [ControlTemp
 
 Starting in Windows 10, version 1607 (SDK 14393), generic.xaml includes resources that you can use to modify the colors of a control in different visual states without modifying the control template. In apps that target this software development kit (SDK) or later, modifying these resources is preferred to setting properties such as [Background](control_background.md) and [Foreground](control_foreground.md). For more info, see the [Light-weight styling](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) section of the [Styling controls](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) article.
 
-This table shows the resources used by the [ContentDialog](contentdialog.md) control.
+This table shows the resources used by the ContentDialog control.
 
 <table>
    <tr><th>Resource key</th><th>Description</th></tr>
@@ -74,7 +74,7 @@ This table shows the resources used by the [ContentDialog](contentdialog.md) con
 > + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
 > + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
 
-This example shows how to create and show a simple [ContentDialog](contentdialog.md) in code.
+This example shows how to create and show a simple ContentDialog in code.
 
 ```csharp
 private async void DisplayNoWifiDialog()
@@ -90,7 +90,7 @@ private async void DisplayNoWifiDialog()
 }
 ```
 
-This example shows how to create a [ContentDialog](contentdialog.md) in the XAML of an app page. Even though the dialog is defined in the app page, it's not shown until you call [ShowAsync](contentdialog_showasync_1208475713.md) in your code.
+This example shows how to create a ContentDialog in the XAML of an app page. Even though the dialog is defined in the app page, it's not shown until you call [ShowAsync](contentdialog_showasync_1208475713.md) in your code.
 
 Here, the [IsPrimaryButtonEnabled](contentdialog_isprimarybuttonenabled.md) property is set to **false**. The primary button is enabled in code when the user checks the [CheckBox](checkbox.md) to confirm their age.
 
@@ -158,7 +158,7 @@ private void ConfirmAgeCheckBox_Unchecked(object sender, RoutedEventArgs e)
 }
 ```
 
-This example shows how to create and use a custom dialog (`SignInContentDialog`) derived from [ContentDialog](contentdialog.md).
+This example shows how to create and use a custom dialog (`SignInContentDialog`) derived from ContentDialog.
 
 ```xaml
 

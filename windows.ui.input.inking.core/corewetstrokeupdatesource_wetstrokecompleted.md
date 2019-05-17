@@ -15,9 +15,9 @@ Occurs after the [InkPresenter](../windows.ui.input.inking/inkpresenter.md) stop
 Subsequent ink input is considered a new stroke.
 
 ## -remarks
-An ink stroke always triggers either a [WetStrokeCompleted](corewetstrokeupdatesource_wetstrokecompleted.md) or a [WetStrokeCanceled](corewetstrokeupdatesource_wetstrokecanceled.md) event.
+An ink stroke always triggers either a WetStrokeCompleted or a [WetStrokeCanceled](corewetstrokeupdatesource_wetstrokecanceled.md) event.
 
-[NewInkPoints](corewetstrokeupdateeventargs_newinkpoints.md) is always empty for the [WetStrokeCompleted](corewetstrokeupdatesource_wetstrokecompleted.md) and [WetStrokeCanceled](corewetstrokeupdatesource_wetstrokecanceled.md) events.
+[NewInkPoints](corewetstrokeupdateeventargs_newinkpoints.md) is always empty for the WetStrokeCompleted and [WetStrokeCanceled](corewetstrokeupdatesource_wetstrokecanceled.md) events.
 
 [NewInkPoints](corewetstrokeupdateeventargs_newinkpoints.md) might be empty for the [WetStrokeStopping](corewetstrokeupdatesource_wetstrokestopping.md) event.
 

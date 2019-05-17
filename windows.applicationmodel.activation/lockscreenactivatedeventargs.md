@@ -13,7 +13,7 @@ public class LockScreenActivatedEventArgs : Windows.ApplicationModel.Activation.
 Provides information about an event that occurs when the app is activated as the lock screen.
 
 ## -remarks
-[LockScreenActivatedEventArgs](lockscreenactivatedeventargs.md) is passed to the event handler that you implement for the activation event that occurs when the app is activated as the lock screen.
+LockScreenActivatedEventArgs is passed to the event handler that you implement for the activation event that occurs when the app is activated as the lock screen.
 
 ## -examples
 

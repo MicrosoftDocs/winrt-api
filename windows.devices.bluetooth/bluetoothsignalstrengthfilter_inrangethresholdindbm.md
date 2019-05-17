@@ -19,7 +19,7 @@ The minimum RSSI value in dBm on which RSSI events will be propagated or conside
 ## -remarks
 The valid range for this property is between -128 and 127.
 
-This condition still applies if no events were received since the beginning of the filtering process. The initial assumption for any device is always out of range. An event is considered in range if its RSSI value is greater than or equal to [InRangeThresholdInDBm](bluetoothsignalstrengthfilter_inrangethresholdindbm.md) or if the previous event was considered in range and the [OutOfRangeTimeout](bluetoothsignalstrengthfilter_outofrangetimeout.md) has not expired.
+This condition still applies if no events were received since the beginning of the filtering process. The initial assumption for any device is always out of range. An event is considered in range if its RSSI value is greater than or equal to InRangeThresholdInDBm or if the previous event was considered in range and the [OutOfRangeTimeout](bluetoothsignalstrengthfilter_outofrangetimeout.md) has not expired.
 
 ## -examples
 

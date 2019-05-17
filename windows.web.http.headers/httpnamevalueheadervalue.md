@@ -13,7 +13,7 @@ public class HttpNameValueHeaderValue : Windows.Foundation.IStringable, Windows.
 Represents name and value information used in a number of HTTP headers.
 
 ## -remarks
-The [HttpNameValueHeaderValue](httpnamevalueheadervalue.md) class provides support for name/value pairs used in various headers
+The HttpNameValueHeaderValue class provides support for name/value pairs used in various headers
 
 ## -examples
 

@@ -11,7 +11,7 @@ public Windows.UI.Xaml.DependencyObject ContainerFromItem(System.Object item)
 
 ## -description
 > [!NOTE]
-> [ContainerFromItem](itemcontainergenerator_containerfromitem_832238941.md) may be altered or unavailable for releases after Windows 8.1. Instead, use [ItemsControl.ContainerFromItem](itemscontrol_containerfromitem_832238941.md).
+> ContainerFromItem may be altered or unavailable for releases after Windows 8.1. Instead, use [ItemsControl.ContainerFromItem](itemscontrol_containerfromitem_832238941.md).
 
 Returns the container corresponding to the specified item.
 

@@ -16,7 +16,7 @@ Gets the [HttpCacheDirectiveHeaderValueCollection](httpcachedirectiveheadervalue
 The collection of objects that represent the value of a **Cache-Control** HTTP header on an HTTP response. An empty collection means that the header is absent.
 
 ## -remarks
-The [CacheControl](httpresponseheadercollection_cachecontrol.md) property represents the value of a **Cache-Control** HTTP header on an HTTP response.
+The CacheControl property represents the value of a **Cache-Control** HTTP header on an HTTP response.
 
 Some of the objects in the [HttpCacheDirectiveHeaderValueCollection](httpcachedirectiveheadervaluecollection.md) for the **Cache-Control** header use the [Windows.Foundation.TimeSpan](../windows.foundation/timespan.md) structure. When programming with .NET, this structure is hidden and developers should use the [System.TimeSpan](https://msdn.microsoft.com/library/system.timespan.aspx) structure. The value can be **null**, because it's typed as `TimeSpan?` (a nullable [TimeSpan](https://msdn.microsoft.com/library/system.timespan.aspx)).
 

@@ -13,7 +13,7 @@ public void Close()
 > [!NOTE]
 > Windows Information Protection (WIP) policy cannot be applied on Windows 10, version 1511 (build 10586) or earlier.
 
-Closes the protected network context. To avoid race conditions against other tasks, the app must call [Close](threadnetworkcontext_close_811482585.md) after access to the protected resource is initiated.
+Closes the protected network context. To avoid race conditions against other tasks, the app must call Close after access to the protected resource is initiated.
 
 ## -remarks
 

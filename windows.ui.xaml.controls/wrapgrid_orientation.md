@@ -22,7 +22,7 @@ WrapGrid Orientation="orientationMemberName" />
 A value of the enumeration. The default is **Vertical**.
 
 ## -remarks
-The [Orientation](wrapgrid_orientation.md) property specifies whether the grid adds its items in rows or columns before wrapping.
+The Orientation property specifies whether the grid adds its items in rows or columns before wrapping.
 
 When the value is **Vertical**, the grid adds items in columns from top to bottom, then wraps from left to right, like this:<table>
    <tr><td>Item 1</td><td>Item 4</td><td>Item 7</td></tr>

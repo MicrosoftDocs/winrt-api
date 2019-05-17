@@ -43,7 +43,7 @@ The dimension of the content is set to the corresponding dimension of the [Scrol
 ## -remarks
 
 ## -examples
-The following example shows how to use the [ScrollBarVisibility](scrollbarvisibility.md) enumeration members to set the [HorizontalScrollBarVisibility](scrollviewer_horizontalscrollbarvisibility.md) property of a [ScrollViewer](scrollviewer.md) control.
+The following example shows how to use the ScrollBarVisibility enumeration members to set the [HorizontalScrollBarVisibility](scrollviewer_horizontalscrollbarvisibility.md) property of a [ScrollViewer](scrollviewer.md) control.
 
 
 

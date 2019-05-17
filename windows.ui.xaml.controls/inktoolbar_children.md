@@ -16,9 +16,9 @@ Gets the collection of custom buttons displayed on the [InkToolbar](inktoolbar.m
 A collection of [InkToolbar](inktoolbar.md) custom buttons.
 
 ## -remarks
-[Children](inktoolbar_children.md) returns only the number of buttons on the [InkToolbar](inktoolbar.md) that have been added manually (see [ActiveTool](inktoolbar_activetool.md) and [InitialControls](inktoolbar_initialcontrols.md)). The default [InkToolbar](inktoolbar.md) does not add any buttons to the value of this property.
+Children returns only the number of buttons on the [InkToolbar](inktoolbar.md) that have been added manually (see [ActiveTool](inktoolbar_activetool.md) and [InitialControls](inktoolbar_initialcontrols.md)). The default [InkToolbar](inktoolbar.md) does not add any buttons to the value of this property.
 
-[Children](inktoolbar_children.md) does not include buttons declared in markup.
+Children does not include buttons declared in markup.
 
 
 The [InkToolbar](inktoolbar.md) consists of two distinct groups of button types:

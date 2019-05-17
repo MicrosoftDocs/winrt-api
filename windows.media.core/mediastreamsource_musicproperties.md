@@ -16,11 +16,11 @@ Gets the music properties which are used for music-related metadata.
 The music properties.
 
 ## -remarks
-[MusicProperties](mediastreamsource_musicproperties.md) is a music-oriented view of the [MediaStreamSource](mediastreamsource.md) properties.
+MusicProperties is a music-oriented view of the [MediaStreamSource](mediastreamsource.md) properties.
 
-Applications are allowed to modify the properties of [MusicProperties](mediastreamsource_musicproperties.md) at any time.
+Applications are allowed to modify the properties of MusicProperties at any time.
 
-Applications should be aware that there is overlap with [VideoProperties](mediastreamsource_videoproperties.md). A change to the [MusicProperties](mediastreamsource_musicproperties.md) may modify a similar property in the [VideoProperties](mediastreamsource_videoproperties.md), and vice versa.
+Applications should be aware that there is overlap with [VideoProperties](mediastreamsource_videoproperties.md). A change to the MusicProperties may modify a similar property in the [VideoProperties](mediastreamsource_videoproperties.md), and vice versa.
 
 ## -examples
 

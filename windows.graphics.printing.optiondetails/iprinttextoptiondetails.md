@@ -16,7 +16,7 @@ Represents objects that describe the text of a print task option.
 ## -remarks
 ### Interface inheritance
 
-[IPrintTextOptionDetails](iprinttextoptiondetails.md) inherits [IPrintOptionDetails](iprintoptiondetails.md). Types that implement [IPrintTextOptionDetails](iprinttextoptiondetails.md) also implement the interface members of [IPrintOptionDetails](iprintoptiondetails.md).
+IPrintTextOptionDetails inherits [IPrintOptionDetails](iprintoptiondetails.md). Types that implement IPrintTextOptionDetails also implement the interface members of [IPrintOptionDetails](iprintoptiondetails.md).
 
 ## -examples
 

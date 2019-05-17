@@ -10,10 +10,10 @@ public Windows.UI.Xaml.DependencyProperty InputScopeProperty { get; }
 # Windows.UI.Xaml.Controls.TextBox.InputScopeProperty
 
 ## -description
-Identifies the [InputScope](textbox_inputscopeproperty.md) dependency property.
+Identifies the InputScope dependency property.
 
 ## -property-value
-The identifier for the [InputScope](textbox_inputscopeproperty.md) dependency property.
+The identifier for the InputScope dependency property.
 
 ## -remarks
 

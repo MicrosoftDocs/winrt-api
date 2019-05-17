@@ -15,7 +15,7 @@ Controls how the Contact Picker user interface opens and what information it sho
 
 ## -remarks
 
-The [ContactPicker](contactpicker.md) class enables users to select one or more contacts from any app that supports the Contact Picker contract. You can configure the [ContactPicker](contactpicker.md) class to accept only a single contact, or multiple contacts. In addition, you can request that the app providing the contact information return the entire set of data for each contact, or just specific fields.
+The ContactPicker class enables users to select one or more contacts from any app that supports the Contact Picker contract. You can configure the ContactPicker class to accept only a single contact, or multiple contacts. In addition, you can request that the app providing the contact information return the entire set of data for each contact, or just specific fields.
 
 > [!NOTE]
 > Apps that were compiled for Windows 8 but running on Windows 8.1 may encounter runtime errors without compile-time errors.
@@ -24,7 +24,7 @@ For info about how to select contacts, see [Selecting contacts](https://msdn.mic
 
 ## -examples
 
-This example demonstrates using the [ContactPicker](contactpicker.md) to get the name and email address of a single contact.
+This example demonstrates using the ContactPicker to get the name and email address of a single contact.
 
 [!code-js[ContactsSinglePicker](../windows.applicationmodel.contacts.provider/code/ContactsMain/javascript/js/contacts.js#SnippetContactsSinglePicker)]
 

@@ -27,7 +27,7 @@ Creates an arbitrary affine matrix transformation that is used to manipulate obj
 ## -remarks
 
 ## -examples
-This example transforms the position and skew of a rectangle using a [MatrixTransform](matrixtransform.md).
+This example transforms the position and skew of a rectangle using a MatrixTransform.
 
 
 

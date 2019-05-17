@@ -16,7 +16,7 @@ Get a vector of SSL server errors to ignore when making an SSL connection with a
 A vector of SSL server errors to ignore.
 
 ## -remarks
-The [IgnorableServerCertificateErrors](streamsocketcontrol_ignorableservercertificateerrors.md) property gets a vector of [ChainValidationResult](../windows.security.cryptography.certificates/chainvalidationresult.md) enumeration values for the SSL server errors to ignore.
+The IgnorableServerCertificateErrors property gets a vector of [ChainValidationResult](../windows.security.cryptography.certificates/chainvalidationresult.md) enumeration values for the SSL server errors to ignore.
 
 SSL server errors should only be ignored in advanced scenarios. Disregarding server certificate errors may result in the loss of privacy or integrity of the content passed over the SSL session.
 

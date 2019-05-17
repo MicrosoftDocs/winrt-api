@@ -17,7 +17,7 @@ The altitude reference system of the geographic point.
 
 ## -remarks
 > [!NOTE]
-> The default [altitude reference system](altitudereferencesystem.md) that’s used to provide location data depends on the GPS/GNSS radio hardware. Most hardware will return coordinates using the **Geoid** reference system. To find out which one is being used by a [Geopoint](geopoint.md) object, see the [AltitudeReferenceSystem](geopoint_altitudereferencesystem.md) property. The **Geoid** reference system may not be what you want depending on your application. For example if passing the coordinates to a map control, you may instead want to snap the coordinate to the terrain.
+> The default [altitude reference system](altitudereferencesystem.md) that’s used to provide location data depends on the GPS/GNSS radio hardware. Most hardware will return coordinates using the **Geoid** reference system. To find out which one is being used by a [Geopoint](geopoint.md) object, see the AltitudeReferenceSystem property. The **Geoid** reference system may not be what you want depending on your application. For example if passing the coordinates to a map control, you may instead want to snap the coordinate to the terrain.
 
 ## -examples
 

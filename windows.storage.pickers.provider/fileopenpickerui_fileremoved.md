@@ -12,15 +12,15 @@ public event Windows.Foundation.TypedEventHandler FileRemoved<Windows.Storage.Pi
 
 ## -description
 > [!NOTE]
-> The [fileremoved](fileopenpickerui_fileremoved.md) event is deprecated and should not be used.
+> The fileremoved event is deprecated and should not be used.
 
 Fires when the user removes a file from the list of files that the user has chosen if that file was added by the app that is providing files.
 
 ## -remarks
-If your app participates in the File Open Picker contract and your app uses the app page that is hosted in the file picker to visually indicate which items the user selects, you should respond to this event. When a [fileremoved](fileopenpickerui_fileremoved.md) event fires you should update your app's file picker page to reflect the change. Learn more about responding to this event in [fileRemovedEventArgs](fileremovedeventargs.md).
+If your app participates in the File Open Picker contract and your app uses the app page that is hosted in the file picker to visually indicate which items the user selects, you should respond to this event. When a fileremoved event fires you should update your app's file picker page to reflect the change. Learn more about responding to this event in [fileRemovedEventArgs](fileremovedeventargs.md).
 
 ## -examples
-The [File picker sample](https://go.microsoft.com/fwlink/p/?linkid=234890) demonstrates how to respond to a [fileremoved](fileopenpickerui_fileremoved.md) event handler.
+The [File picker sample](https://go.microsoft.com/fwlink/p/?linkid=234890) demonstrates how to respond to a fileremoved event handler.
 
 ```csharp
 

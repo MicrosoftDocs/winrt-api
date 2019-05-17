@@ -17,7 +17,7 @@ Represents the primary object type that participates in the [XamlDirect](xamldir
 ## -remarks
 
 The [XamlDirect](xamldirect.md) APIs allows middleware authors to access most of Xaml at a more primitive level, achieving better CPU and working set performance.  
-[IXamlDirectObject](ixamldirectobject.md) is the minimal handle to Xaml's internal object instances. It is used only by [XamlDirect](xamldirect.md) APIs.
+IXamlDirectObject is the minimal handle to Xaml's internal object instances. It is used only by [XamlDirect](xamldirect.md) APIs.
 
 ## -see-also
 

@@ -26,7 +26,7 @@ The function that receives the iterators.
 ## -remarks
 The iterators in [SelectableWordSegmentsTokenizingHandler](selectablewordsegmentstokenizinghandler.md) are lazy and evaluate small chunks of text at a time.
 
-The handler is called at most once per call to [Tokenize](selectablewordssegmenter_tokenize_561242729.md). The handler is not called if there are no selectable words in *text*.
+The handler is called at most once per call to Tokenize. The handler is not called if there are no selectable words in *text*.
 
 ## -examples
 

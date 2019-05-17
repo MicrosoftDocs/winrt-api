@@ -11,7 +11,7 @@ public UssdMessage(System.String messageText)
 # Windows.Networking.NetworkOperators.UssdMessage.UssdMessage
 
 ## -description
-Creates a new instance of a [UssdMessage](ussdmessage_ussdmessage_290278668.md) and encodes the supplied string into the message payload.
+Creates a new instance of a UssdMessage and encodes the supplied string into the message payload.
 
 > [!NOTE]
 > This functionality is only available to mobile operator apps and UWP apps given privileged access by mobile network operators.
@@ -22,10 +22,10 @@ Creates a new instance of a [UssdMessage](ussdmessage_ussdmessage_290278668.md) 
 
 ## -parameters
 ### -param messageText
-The payload for the [UssdMessage](ussdmessage_ussdmessage_290278668.md).
+The payload for the UssdMessage.
 
 ## -remarks
-The default [UssdMessage](ussdmessage_ussdmessage_290278668.md) constructor assigns the default [DataCodingScheme](ussdmessage_datacodingscheme.md) value and encodes the string supplied to the constructor into the message payload.
+The default UssdMessage constructor assigns the default [DataCodingScheme](ussdmessage_datacodingscheme.md) value and encodes the string supplied to the constructor into the message payload.
 
 ## -examples
 

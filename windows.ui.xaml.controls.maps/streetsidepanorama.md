@@ -13,7 +13,7 @@ public class StreetsidePanorama : Windows.UI.Xaml.DependencyObject, Windows.UI.X
 Represents a panoramic view of a geographic location from a street-level perspective.
 
 ## -remarks
-Use [StreetsidePanorama](streetsidepanorama.md) with [StreetsideExperience](streetsideexperience_streetsideexperience_2014336380.md) to create a street-level map experience.
+Use StreetsidePanorama with [StreetsideExperience](streetsideexperience_streetsideexperience_2014336380.md) to create a street-level map experience.
 
 ## -examples
 

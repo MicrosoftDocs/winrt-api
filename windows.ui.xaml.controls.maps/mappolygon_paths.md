@@ -13,7 +13,7 @@ public Windows.Foundation.Collections.IVector<Windows.Devices.Geolocation.Geopat
 Gets a list of [Geopath](../windows.devices.geolocation/geopath.md) objects that define the [MapPolygon](mappolygon.md) shape.
 
 > [!NOTE]
-> In Windows 10, version 1511, we recommend using this property instead of [Path](mappolygon_path.md) to create polygons. Do not use both properties ([Paths](mappolygon_paths.md) and [Path](mappolygon_path.md)) at the same time.
+> In Windows 10, version 1511, we recommend using this property instead of [Path](mappolygon_path.md) to create polygons. Do not use both properties (Paths and [Path](mappolygon_path.md)) at the same time.
 
 ## -property-value
 A list of [Geopath](../windows.devices.geolocation/geopath.md) objects that define the [MapPolygon](mappolygon.md) shape.

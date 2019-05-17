@@ -10,7 +10,7 @@ public event Windows.Foundation.TypedEventHandler ResponseReceived<Windows.Web.H
 # Windows.Web.Http.Diagnostics.HttpDiagnosticProvider.ResponseReceived
 
 ## -description
-Subscribe to the [ResponseReceived](httpdiagnosticprovider_responsereceived.md) event to receive a notification that a response has been received.
+Subscribe to the ResponseReceived event to receive a notification that a response has been received.
 
 ## -remarks
 

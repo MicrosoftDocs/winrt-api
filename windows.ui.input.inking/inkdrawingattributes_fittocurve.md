@@ -19,7 +19,7 @@ Gets or sets a value that indicates whether a Bezier curve or a collection of st
 ## -remarks
 
 ## -examples
-The following example demonstrates how to set the [FitToCurve](inkdrawingattributes_fittocurve.md) attribute for all strokes managed by this [InkManager](inkmanager.md) object (`inkManager`) that are created after the [SetDefaultDrawingAttributes](inkmanager_setdefaultdrawingattributes_1436218448.md) method call.
+The following example demonstrates how to set the FitToCurve attribute for all strokes managed by this [InkManager](inkmanager.md) object (`inkManager`) that are created after the [SetDefaultDrawingAttributes](inkmanager_setdefaultdrawingattributes_1436218448.md) method call.
 
 ```
 

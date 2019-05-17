@@ -23,21 +23,21 @@ Represents a control for entering passwords.
 > [!TIP]
 > For more info, design guidance, and code examples, see [Password box](/windows/uwp/design/controls-and-patterns/password-box).
 
-[PasswordBox](passwordbox.md) lets a user enter a masked password.
+PasswordBox lets a user enter a masked password.
 
 <img alt="Password box control" src="images/controls/PasswordBox.png" />
 
-The user can enter a single line of non-wrapping text in a [PasswordBox](passwordbox.md) control. The text is not displayed while it is entered; only password characters that mask the text are displayed. You can specify this password character by setting the [PasswordChar](passwordbox_passwordchar.md) property.
+The user can enter a single line of non-wrapping text in a PasswordBox control. The text is not displayed while it is entered; only password characters that mask the text are displayed. You can specify this password character by setting the [PasswordChar](passwordbox_passwordchar.md) property.
 
-Use the [Password](passwordbox_password.md) property to get or set the content of the [PasswordBox](passwordbox.md). Handle the [PasswordChanged](passwordbox_passwordchanged.md) event to get the [Password](passwordbox_password.md) value while the user enters it.
+Use the [Password](passwordbox_password.md) property to get or set the content of the PasswordBox. Handle the [PasswordChanged](passwordbox_passwordchanged.md) event to get the [Password](passwordbox_password.md) value while the user enters it.
 
 For more info, see [PasswordBox control guide](https://msdn.microsoft.com/library/4bfdecc6-9bc5-4ff5-8c63-bb36f6ddf2ef).
 
 ### Password reveal mode
 
-The [PasswordRevealMode](passwordbox_passwordrevealmode.md) property lets you customize the password viewing experience. By default, the [PasswordBox](passwordbox.md) has a built-in button that the user can press to display the password text. When the user releases it, the password is automatically hidden again.
+The [PasswordRevealMode](passwordbox_passwordrevealmode.md) property lets you customize the password viewing experience. By default, the PasswordBox has a built-in button that the user can press to display the password text. When the user releases it, the password is automatically hidden again.
 
-Windows 10, version 1607, introduces a new keyboard shortcut for accessibility. When the focus is in the [PasswordBox](passwordbox.md) and the password reveal button is visible, the user can press and hold Alt+F8 to reveal their password. When they let go of either key press, the password is hidden again.
+Windows 10, version 1607, introduces a new keyboard shortcut for accessibility. When the focus is in the PasswordBox and the password reveal button is visible, the user can press and hold Alt+F8 to reveal their password. When they let go of either key press, the password is hidden again.
 
 <img src="images/PasswordBox_Revealed.png" alt="A password box with the password shown." />
 
@@ -52,7 +52,7 @@ You can modify the default [Style](../windows.ui.xaml/style.md) and [ControlTemp
 
 Starting in Windows 10, version 1607 (SDK 14393), generic.xaml includes resources that you can use to modify the colors of a control in different visual states without modifying the control template. In apps that target this software development kit (SDK) or later, modifying these resources is preferred to setting properties such as [Background](control_background.md) and [Foreground](control_foreground.md). For more info, see the [Light-weight styling](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) section of the [Styling controls](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) article.
 
-This table shows the resources used by the [PasswordBox](passwordbox.md) control. Resources that start with "TextControl" are shared by [TextBox](textbox.md), [PasswordBox](passwordbox.md), [RichEditBox](richeditbox.md), and [AutoSuggestBox](autosuggestbox.md).
+This table shows the resources used by the PasswordBox control. Resources that start with "TextControl" are shared by [TextBox](textbox.md), PasswordBox, [RichEditBox](richeditbox.md), and [AutoSuggestBox](autosuggestbox.md).
 
 <table>
    <tr><th>Resource key</th><th>Description</th></tr>
@@ -104,7 +104,7 @@ In Windows Phone, the user reveals the password by checking a checkbox, so the p
 > + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
 > + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
 
-This example shows a [PasswordBox](passwordbox.md) control that demonstrates the [Password](passwordbox_password.md) property and the [PasswordChanged](passwordbox_passwordchanged.md) event. When the user enters text into this [PasswordBox](passwordbox.md), it's checked to see if it's the literal value, "Password". If it is, a message is displayed to the user.
+This example shows a PasswordBox control that demonstrates the [Password](passwordbox_password.md) property and the [PasswordChanged](passwordbox_passwordchanged.md) event. When the user enters text into this PasswordBox, it's checked to see if it's the literal value, "Password". If it is, a message is displayed to the user.
 
 ```xaml
 <PasswordBox x:Name="passwordBox" Width="200" MaxLength="16"

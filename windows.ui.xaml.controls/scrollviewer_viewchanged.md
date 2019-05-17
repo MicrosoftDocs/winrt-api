@@ -19,7 +19,7 @@ Occurs when manipulations such as scrolling and zooming have caused the view to 
 
 
 ## -remarks
-[ViewChanging](scrollviewer_viewchanging.md) fires before [ViewChanged](scrollviewer_viewchanged.md).
+[ViewChanging](scrollviewer_viewchanging.md) fires before ViewChanged.
 
 In your event handler, use a parameter of type [ScrollViewerViewChangedEventArgs](scrollviewerviewchangedeventargs.md) for the second parameter of your handler method. [ScrollViewerViewChangedEventArgs](scrollviewerviewchangedeventargs.md) includes the [IsIntermediate](scrollviewerviewchangedeventargs_isintermediate.md) property, which reports whether the manipulation that fired the event is completed or still ongoing.
 

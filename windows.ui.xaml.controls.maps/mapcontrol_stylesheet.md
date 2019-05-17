@@ -20,7 +20,7 @@ An object that defines the style of the map control.
 ## -see-also
 
 ## -examples
-The following example sets the [StyleSheet](mapcontrol_stylesheet.md) property by using one of the provided styles through the static [MapStyleSheet.RoadDark](mapstylesheet_roaddark_376470101.md) method.
+The following example sets the StyleSheet property by using one of the provided styles through the static [MapStyleSheet.RoadDark](mapstylesheet_roaddark_376470101.md) method.
 
 ```csharp
   myMap.StyleSheet = MapStyleSheet.RoadDark();

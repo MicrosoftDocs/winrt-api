@@ -13,7 +13,7 @@ public class SyndicationCategory : Windows.Web.Syndication.ISyndicationCategory,
 Represents the category of a feed or an item. This class encapsulates information in the **/rss/channel/item/category** element in *RSS 2.0* or the **atom:category** element in *Atom 1.0*.
 
 ## -remarks
-The following table maps [SyndicationCategory](syndicationcategory.md) properties to RSS and Atom feed elements.
+The following table maps SyndicationCategory properties to RSS and Atom feed elements.
 
 <table>
    <tr><th>SyndicationCategory</th><th>RSS</th><th>Atom</th></tr>

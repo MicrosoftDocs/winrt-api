@@ -10,7 +10,7 @@ public KeyboardCapabilities()
 # Windows.Devices.Input.KeyboardCapabilities.KeyboardCapabilities
 
 ## -description
-Initializes a new instance of the [KeyboardCapabilities](keyboardcapabilities_keyboardcapabilities_1221375020.md) class.
+Initializes a new instance of the KeyboardCapabilities class.
 
 ## -remarks
 

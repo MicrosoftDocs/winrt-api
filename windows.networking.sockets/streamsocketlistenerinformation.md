@@ -13,9 +13,9 @@ public class StreamSocketListenerInformation : Windows.Networking.Sockets.IStrea
 Provides socket information on a [StreamSocketListener](streamsocketlistener.md) object.
 
 ## -remarks
-The [StreamSocketListenerInformation](streamsocketlistenerinformation.md) class retrieves information on a [StreamSocketListener](streamsocketlistener.md) and can be called any time after the [StreamSocketListener](streamsocketlistener.md) has been created.
+The StreamSocketListenerInformation class retrieves information on a [StreamSocketListener](streamsocketlistener.md) and can be called any time after the [StreamSocketListener](streamsocketlistener.md) has been created.
 
-A [StreamSocketListenerInformation](streamsocketlistenerinformation.md) object is automatically created with the parent [StreamSocketListener](streamsocketlistener.md) object. The [StreamSocketListener.Information](streamsocketlistener_information.md) property provides access to the associated [StreamSocketListenerControl](streamsocketlistenercontrol.md) object.
+A StreamSocketListenerInformation object is automatically created with the parent [StreamSocketListener](streamsocketlistener.md) object. The [StreamSocketListener.Information](streamsocketlistener_information.md) property provides access to the associated [StreamSocketListenerControl](streamsocketlistenercontrol.md) object.
 
 ## -examples
 

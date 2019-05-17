@@ -10,14 +10,14 @@ public Windows.Foundation.TimeSpan Duration { get;  set; }
 # Windows.ApplicationModel.Appointments.Appointment.Duration
 
 ## -description
-Gets or sets a time span that represents the time duration of the appointment. [Duration](appointment_duration.md) is of type [TimeSpan](../windows.foundation/timespan.md) and must be non-negative.
+Gets or sets a time span that represents the time duration of the appointment. Duration is of type [TimeSpan](../windows.foundation/timespan.md) and must be non-negative.
 
 ## -property-value
 A time span that represents the duration of the appointment. The duration can't be a negative value.
 
 ## -remarks
 This property uses a time span value, which is represented differently depending on which language you are programming with.
-+ In JavaScript, set the [Duration](appointment_duration.md) value with a **Number** that represents the time interval. Each unit for a [TimeSpan](../windows.foundation/timespan.md) value represents 1 millisecond. For example, this code sets a [Duration](appointment_duration.md) value to 60 minutes (one hour). ```javascript
++ In JavaScript, set the Duration value with a **Number** that represents the time interval. Each unit for a [TimeSpan](../windows.foundation/timespan.md) value represents 1 millisecond. For example, this code sets a Duration value to 60 minutes (one hour). ```javascript
 appointment.duration = (60 * 60 * 1000); // 1 hour in 1-millisecond units
 ```
 

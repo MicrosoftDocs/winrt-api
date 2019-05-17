@@ -17,7 +17,7 @@ Specifies whether the [PeerFinder](peerfinder.md) class may connect a [StreamSoc
 True if the [PeerFinder](peerfinder.md) class may connect a [StreamSocket](../windows.networking.sockets/streamsocket_streamsocket_1221375020.md) object by using Wi-Fi Direct; otherwise false. The default is true.
 
 ## -remarks
-Setting the [AllowWiFiDirect](peerfinder_allowwifidirect.md) property to false disables the ability to browse for peer apps using Wi-Fi Direct. You will not be able to use the [FindAllPeersAsync](peerfinder_findallpeersasync_830195586.md) method to browse for remote peers.
+Setting the AllowWiFiDirect property to false disables the ability to browse for peer apps using Wi-Fi Direct. You will not be able to use the [FindAllPeersAsync](peerfinder_findallpeersasync_830195586.md) method to browse for remote peers.
 
 ### Windows Phone 8
 

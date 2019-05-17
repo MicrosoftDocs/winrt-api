@@ -17,9 +17,9 @@ The collection of [MapElement](mapelement.md) objects that are children of the [
 
 ## -remarks
 >[!Note]
-In the Windows 10 Fall Creators Update, we recommend that you add [MapElement](mapelement.md) objects to a [MapElementsLayer](mapelementslayer.md) instead of adding them to the [MapElements](mapcontrol_mapelements.md) collection.
+In the Windows 10 Fall Creators Update, we recommend that you add [MapElement](mapelement.md) objects to a [MapElementsLayer](mapelementslayer.md) instead of adding them to the MapElements collection.
 
-Display pushpins, images, and shapes on the [MapControl](mapcontrol.md) by adding them to its [MapElements](mapcontrol_mapelements.md) collection.
+Display pushpins, images, and shapes on the [MapControl](mapcontrol.md) by adding them to its MapElements collection.
 
 
 + Display an **image** such as a pushpin with optional text by using the [MapIcon](mapicon.md) class. Keep the default image or provide a custom image.

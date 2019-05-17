@@ -19,7 +19,7 @@ Gets a string that represents an unstructured address.
 The address of the contact in an unstructured format.
 
 ## -remarks
-If the contact-providing application includes an address, but doesn't specify elements such as [PostalCode](contactlocationfield_postalcode.md) or [City](contactlocationfield_city.md), the data is put in the [UnstructuredAddress](contactlocationfield_unstructuredaddress.md) property.
+If the contact-providing application includes an address, but doesn't specify elements such as [PostalCode](contactlocationfield_postalcode.md) or [City](contactlocationfield_city.md), the data is put in the UnstructuredAddress property.
 
 ## -examples
 

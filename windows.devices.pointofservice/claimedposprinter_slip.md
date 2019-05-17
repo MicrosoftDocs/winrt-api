@@ -21,7 +21,7 @@ There is only one instance of this object per [ClaimedPosPrinter](claimedposprin
 An object that represents the slip station for a claimed point-of-service printer. Null if a slip station is not present.
 
 ## -remarks
-You should check the value of the [SlipPrinterCapabilities.IsPrinterPresent](slipprintercapabilities_isprinterpresent.md) property before you try to use the [ClaimedPosPrinter.Slip](claimedposprinter_slip.md) property.
+You should check the value of the [SlipPrinterCapabilities.IsPrinterPresent](slipprintercapabilities_isprinterpresent.md) property before you try to use the ClaimedPosPrinter.Slip property.
 
 ## -examples
 

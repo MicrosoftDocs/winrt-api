@@ -21,7 +21,7 @@ The client coordinates, in device-independent pixels (DIP).
 
 Under some circumstances, such as touch targeting near a [UIElement](../windows.ui.xaml/uielement.md), this data might be modified by the system.
 
-If your app supports complex inking, where accuracy and performance is critical, we recommend using the [RawPosition](pointerpoint_rawposition.md) data to handle input prediction when managing hardware or message latency due to delays in sensing and processing of the pointer location on the digitizer.
+If your app supports complex inking, where accuracy and performance is critical, we recommend using the RawPosition data to handle input prediction when managing hardware or message latency due to delays in sensing and processing of the pointer location on the digitizer.
 
 See [Position](pointerpoint_position.md) for more information on handling modified input data.
 

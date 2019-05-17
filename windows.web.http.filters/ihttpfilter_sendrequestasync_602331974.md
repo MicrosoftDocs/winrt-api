@@ -20,7 +20,7 @@ The HTTP request message to send.
 The object representing the asynchronous operation.
 
 ## -remarks
-Custom filters are implemented in the [SendRequestAsync](ihttpfilter_sendrequestasync_602331974.md) method on their [IHttpFilter](ihttpfilter.md) interface.
+Custom filters are implemented in the SendRequestAsync method on their [IHttpFilter](ihttpfilter.md) interface.
 
 Classes in the [Windows.Web.Http](../windows.web.http/windows_web_http.md) namespace support the use of filters based on the classes in the [Windows.Web.Http.Filters](windows_web_http_filters.md) namespace. The [HttpClient](../windows.web.http/httpclient.md) class in the [Windows.Web.Http](../windows.web.http/windows_web_http.md) namespace provides a base class for sending HTTP requests and receiving HTTP responses. Filters provide a handler mechanism to help with common HTTP service issues. Simple filters can be chained together in a sequence to handle more complex HTTP service issues.
 

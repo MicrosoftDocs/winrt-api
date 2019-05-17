@@ -14,7 +14,7 @@ Represents a slow motion effect definition.
 
 ## -remarks
 > [!IMPORTANT]
-> Using [SlowMotionEffectDefinition](slowmotioneffectdefinition.md) will only affect video. It is not to be used as an audio effect.
+> Using SlowMotionEffectDefinition will only affect video. It is not to be used as an audio effect.
 
 ## -examples
 

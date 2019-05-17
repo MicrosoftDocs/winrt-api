@@ -23,7 +23,7 @@ One of the enumeration values that specifies the orientation of child elements. 
 
 ## -remarks
 > [!NOTE]
-> [ItemsWrapGrid](itemswrapgrid.md) is the default [ItemsPanel](itemscontrol_itemspanel.md) for [GridView](gridview.md). For Universal Windows Platform (UWP) app on Windows 10, the default [GridView](gridview.md) template sets the [Orientation](itemswrapgrid_orientation.md) to **Horizontal**.
+> [ItemsWrapGrid](itemswrapgrid.md) is the default [ItemsPanel](itemscontrol_itemspanel.md) for [GridView](gridview.md). For Universal Windows Platform (UWP) app on Windows 10, the default [GridView](gridview.md) template sets the Orientation to **Horizontal**.
 
 ## -examples
 

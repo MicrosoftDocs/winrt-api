@@ -21,7 +21,7 @@ A single, primary contact point is used to draw an [InkStroke](inkstroke.md).
 Each contact point is used to draw an [InkStroke](inkstroke.md). 
 
 > [!NOTE]
-> Multi-pointer inking requires ink input to be processed in custom drying mode. [ActivateCustomDrying](inkpresenter_activatecustomdrying_1826048524.md) must be called before setting [SetPredefinedConfiguration](inkpresenter_setpredefinedconfiguration_1107454914.md) to [SimpleMultiplePointer](inkpresenterpredefinedconfiguration.md).
+> Multi-pointer inking requires ink input to be processed in custom drying mode. [ActivateCustomDrying](inkpresenter_activatecustomdrying_1826048524.md) must be called before setting [SetPredefinedConfiguration](inkpresenter_setpredefinedconfiguration_1107454914.md) to SimpleMultiplePointer.
 
 
 ## -remarks

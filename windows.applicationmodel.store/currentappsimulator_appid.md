@@ -10,7 +10,7 @@ public System.Guid AppId { get; }
 # Windows.ApplicationModel.Store.CurrentAppSimulator.AppId
 
 ## -description
-Gets a simulated app ID. Since [CurrentAppSimulator](currentappsimulator.md) is intended only for testing during app development, the returned [CurrentAppSimulator.AppId](currentappsimulator_appid.md) will contain only 0's.
+Gets a simulated app ID. Since [CurrentAppSimulator](currentappsimulator.md) is intended only for testing during app development, the returned CurrentAppSimulator.AppId will contain only 0's.
 
 Once your app is listed on the Windows Store, [CurrentApp.AppId](currentapp_appid.md) will get the GUID generated during app on-boarding and used to list your app within the Windows Store catalog.
 

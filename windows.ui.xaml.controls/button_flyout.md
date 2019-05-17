@@ -34,7 +34,7 @@ Gets or sets the flyout associated with this button.
 The flyout associated with this button, if any; otherwise, **null**. The default is **null**.
 
 ## -remarks
-By default, the flyout that's set as the value of the [Flyout](button_flyout.md) property displays when the button is tapped or otherwise invoked, you don't need to call methods to display it. That differs from the behavior of flyouts assigned through the [FlyoutBase.AttachedFlyout](../windows.ui.xaml.controls.primitives/flyoutbase_attachedflyout.md) attached property; these flyouts must be explicitly displayed by calling [ShowAt](../windows.ui.xaml.controls.primitives/flyoutbase_showat_157739403.md) on the flyout instance, or the static [ShowAttachedFlyout](../windows.ui.xaml.controls.primitives/flyoutbase_showattachedflyout_1146189011.md) method.
+By default, the flyout that's set as the value of the Flyout property displays when the button is tapped or otherwise invoked, you don't need to call methods to display it. That differs from the behavior of flyouts assigned through the [FlyoutBase.AttachedFlyout](../windows.ui.xaml.controls.primitives/flyoutbase_attachedflyout.md) attached property; these flyouts must be explicitly displayed by calling [ShowAt](../windows.ui.xaml.controls.primitives/flyoutbase_showat_157739403.md) on the flyout instance, or the static [ShowAttachedFlyout](../windows.ui.xaml.controls.primitives/flyoutbase_showattachedflyout_1146189011.md) method.
 
 ## -examples
 

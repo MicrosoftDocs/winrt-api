@@ -20,7 +20,7 @@ A [CrossSliding](gesturerecognizer_crosssliding.md) interaction has been detecte
 A [CrossSliding](gesturerecognizer_crosssliding.md) interaction has started but the [swipe](https://msdn.microsoft.com/library/897555e2-c567-4bbe-b600-553daeb223d5) or [slide](https://msdn.microsoft.com/library/897555e2-c567-4bbe-b600-553daeb223d5) gesture has not crossed the minimum distance threshold for a selection action. (See the Remarks section for a diagram showing the [CrossSliding](gesturerecognizer_crosssliding.md) distance thresholds.)
 
 > [!NOTE]
-> There is no correlation between **Dragging** in [CrossSlidingState](crossslidingstate.md) (touch) and [DraggingState](draggingstate.md) (mouse or pen/stylus).
+> There is no correlation between **Dragging** in CrossSlidingState (touch) and [DraggingState](draggingstate.md) (mouse or pen/stylus).
 
 ### -field Selecting:2
 The [swipe](https://msdn.microsoft.com/library/897555e2-c567-4bbe-b600-553daeb223d5) or [slide](https://msdn.microsoft.com/library/897555e2-c567-4bbe-b600-553daeb223d5) gesture has crossed the minimum distance threshold for a selection action but has not crossed the minimum distance threshold of the rearrange action. This state is valid only when [SpeedBumpStart](crossslidethresholds.md) is disabled in a [GestureRecognizer](gesturerecognizer.md).

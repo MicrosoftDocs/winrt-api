@@ -13,7 +13,7 @@ public class UserDataTaskStore
 Represents a database that contains tasks.
 
 ## -remarks
-To get a [UserDataTaskStore](userdatataskstore.md) object, call the static utility method [UserDataTaskManager.RequestStoreAsync](userdatataskmanager_requeststoreasync_1330322877.md).
+To get a UserDataTaskStore object, call the static utility method [UserDataTaskManager.RequestStoreAsync](userdatataskmanager_requeststoreasync_1330322877.md).
 
 ## -see-also
 

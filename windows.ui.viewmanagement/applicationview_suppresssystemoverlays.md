@@ -11,7 +11,7 @@ public bool SuppressSystemOverlays { get;  set; }
 
 ## -description
 > [!NOTE]
-> [SuppressSystemOverlays](applicationview_suppresssystemoverlays.md) may be altered or unavailable for releases after Windows 10. Instead, use [TryEnterFullScreenMode](applicationview_tryenterfullscreenmode_1643702755.md) and [FullScreenSystemOverlayMode](applicationview_fullscreensystemoverlaymode.md).
+> SuppressSystemOverlays may be altered or unavailable for releases after Windows 10. Instead, use [TryEnterFullScreenMode](applicationview_tryenterfullscreenmode_1643702755.md) and [FullScreenSystemOverlayMode](applicationview_fullscreensystemoverlaymode.md).
 
 Gets or sets a value indicating whether or not system overlays (such as overlay applications or the soft steering wheel) should be shown.
 

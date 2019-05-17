@@ -37,7 +37,7 @@ The [SplashScreen](iactivatedeventargs_splashscreen.md) property is available on
 
 ## -examples
 
-The [Splash screen sample](https://go.microsoft.com/fwlink/p/?linkid=234889) demonstrates how to retrieve a [SplashScreen](splashscreen.md) object in its activated event handler, when the app launches.
+The [Splash screen sample](https://go.microsoft.com/fwlink/p/?linkid=234889) demonstrates how to retrieve a SplashScreen object in its activated event handler, when the app launches.
 
 ```csharp
 protected override void OnLaunched(LaunchActivatedEventArgs args)

@@ -11,7 +11,7 @@ public Windows.UI.Xaml.Style ContainerStyle { get;  set; }
 
 ## -description
 > [!NOTE]
-> [ContainerStyle](groupstyle_containerstyle.md) may be altered or unavailable for releases after Windows 8.1 and is not supported for [ItemsControl.GroupStyle](itemscontrol_groupstyle.md).
+> ContainerStyle may be altered or unavailable for releases after Windows 8.1 and is not supported for [ItemsControl.GroupStyle](itemscontrol_groupstyle.md).
 
 Gets or sets the style that is applied to the [GroupItem](groupitem.md) generated for each item.
 

@@ -23,7 +23,7 @@ If this method is called from an app that is not in foreground, the request is r
 
 ## -remarks
 
-If you set [CoreTextEditContext.InputPaneDisplayPolicy](../windows.ui.text.core/coretexteditcontext_inputpanedisplaypolicy.md) to **Manual** in your app, you are responsible for showing and hiding the input pane using [TryShowPrimaryView](coreinputview_tryshowprimaryview_1925215151.md) and [TryHidePrimaryView](coreinputview_tryhideprimaryview_908065025.md).
+If you set [CoreTextEditContext.InputPaneDisplayPolicy](../windows.ui.text.core/coretexteditcontext_inputpanedisplaypolicy.md) to **Manual** in your app, you are responsible for showing and hiding the input pane using TryShowPrimaryView and [TryHidePrimaryView](coreinputview_tryhideprimaryview_908065025.md).
 
 ## -see-also
 

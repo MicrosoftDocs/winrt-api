@@ -14,7 +14,7 @@ public class ClaimedCashDrawer : Windows.Devices.PointOfService.IClaimedCashDraw
 Provides access to exclusive and privileged methods, properties, and events on a point-of-service cash drawer device.
 
 ## -remarks
-The user gets an instance of [ClaimedCashDrawer](claimedcashdrawer.md) from the [CashDrawer.ClaimDrawerAsync](cashdrawer_claimdrawerasync_887994265.md) method. Claim is cooperatively managed, so multiple concurrent apps can negotiate which app owns claim.
+The user gets an instance of ClaimedCashDrawer from the [CashDrawer.ClaimDrawerAsync](cashdrawer_claimdrawerasync_887994265.md) method. Claim is cooperatively managed, so multiple concurrent apps can negotiate which app owns claim.
 
 ## -examples
 

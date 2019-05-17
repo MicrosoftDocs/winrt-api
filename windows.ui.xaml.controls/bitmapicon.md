@@ -23,21 +23,21 @@ Represents an icon that uses a bitmap as its content.
 > [!NOTE]
 > BitmapIcon is typically used to provide the icon for an AppBarButton, and the remarks in this section assume this usage. However, it can be used anywhere a UIElement can be used. The remarks apply to all usages.
 
-To use a [BitmapIcon](bitmapicon.md) as the [Icon](appbarbutton_icon.md) for an [AppBarButton](appbarbutton.md), you specify the URI of an image file.
+To use a BitmapIcon as the [Icon](appbarbutton_icon.md) for an [AppBarButton](appbarbutton.md), you specify the URI of an image file.
 
 The file that you use should be a solid image on a transparent background. The bitmap image as retrieved from the [UriSource](bitmapicon_urisource.md) location is expected to be a true bitmap that has transparent pixels and non-transparent pixels. The recommended format is PNG. Other file-format image sources will load apparently without error but result in a solid block of the foreground color inside the [AppBarButton](appbarbutton.md).
 
-All color info is stripped from the bitmap when the [BitmapIcon](bitmapicon.md) is rendered. The remaining non-transparent colors are combined to produce an image that's entirely the foreground color as set by the [Foreground](iconelement_foreground.md) property (this typically comes from styles or templates, such as the default template resolving to a theme resource).
+All color info is stripped from the bitmap when the BitmapIcon is rendered. The remaining non-transparent colors are combined to produce an image that's entirely the foreground color as set by the [Foreground](iconelement_foreground.md) property (this typically comes from styles or templates, such as the default template resolving to a theme resource).
 
 > [!NOTE]
-> You can set the **Foreground** property on the [AppBarButton](appbarbutton.md) or on the [BitmapIcon](bitmapicon.md). If you set the [Foreground](control_foreground.md) on the [AppBarButton](appbarbutton.md), it's applied only to the default visual state. It's not applied to the other visual states defined in the [AppBarButton](appbarbutton.md) template, like `MouseOver`. If you set the [Foreground](iconelement_foreground.md) on the [BitmapIcon](bitmapicon.md), the color is applied to all visual states.
+> You can set the **Foreground** property on the [AppBarButton](appbarbutton.md) or on the BitmapIcon. If you set the [Foreground](control_foreground.md) on the [AppBarButton](appbarbutton.md), it's applied only to the default visual state. It's not applied to the other visual states defined in the [AppBarButton](appbarbutton.md) template, like `MouseOver`. If you set the [Foreground](iconelement_foreground.md) on the BitmapIcon, the color is applied to all visual states.
 
 The default font size for an AppBarButton Icon is 20px.
 
 You typically specify a [UriSource](bitmapicon_urisource.md) value that references a bitmap that you've included as part of the app, as a resource or otherwise within the app package. For more info on the **ms-appx:** scheme and other URI schemes that you can use to reference resources in your app, see [Uri schemes](https://msdn.microsoft.com/library/f3b3ae74-aaea-4f00-8f0a-4c231b8745af).
 
 ## -examples
-This example shows an [AppBarButton](appbarbutton.md) with a [BitmapIcon](bitmapicon.md). The [UriSource](bitmapicon_urisource.md) specifies an image that's included in the app package.
+This example shows an [AppBarButton](appbarbutton.md) with a BitmapIcon. The [UriSource](bitmapicon_urisource.md) specifies an image that's included in the app package.
 
 ```xaml
 <AppBarButton Label="BitmapIcon" Click="AppBarButton_Click">

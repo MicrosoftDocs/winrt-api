@@ -15,7 +15,7 @@ A single segment of a complete ink stroke.
 
 A single segment consists of a starting point, an ending point, and two Bezier control points. However, for a series of segments that make up a stroke, the last point of the previous segment is the first point of the current segment. This means that only the ending point for each segment is required to represent a complete stroke.
 
-Each stroke is a vector of [InkStrokeRenderingSegment](inkstrokerenderingsegment.md) objects with the first segment identified by a single starting point and all remaining segments identified by an ending point and two Bezier control points.
+Each stroke is a vector of InkStrokeRenderingSegment objects with the first segment identified by a single starting point and all remaining segments identified by an ending point and two Bezier control points.
 
 ## -remarks
 Set the [FitToCurve](inkdrawingattributes_fittocurve.md) property of [DrawingAttributes](inkstroke_drawingattributes.md) to true if you want an ink stroke to be rendered with cubic Bezier curves. Otherwise, the stroke is rendered with straight line segments.

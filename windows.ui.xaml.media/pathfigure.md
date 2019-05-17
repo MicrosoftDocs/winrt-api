@@ -23,11 +23,11 @@ Represents a subsection of a geometry, a single connected series of two-dimensio
 
 
 ## -remarks
-[PathFigureCollection](pathfigurecollection.md) is a strongly typed collection for [PathFigure](pathfigure.md) items. [PathFigureCollection](pathfigurecollection.md) is the type used by the [PathGeometry.Figures](pathgeometry_figures.md) property. In XAML, specify one or more [PathFigure](pathfigure.md) elements for this property.
+[PathFigureCollection](pathfigurecollection.md) is a strongly typed collection for PathFigure items. [PathFigureCollection](pathfigurecollection.md) is the type used by the [PathGeometry.Figures](pathgeometry_figures.md) property. In XAML, specify one or more PathFigure elements for this property.
 
 This class is relevant for setting the vector data for either a [Path](../windows.ui.xaml.shapes/path.md) or a [PathIcon](../windows.ui.xaml.controls/pathicon.md).
 
-Rather than creating an instance or an object element, you can also define segments and a single [PathFigure](pathfigure.md) as part of a vector within the string for a [Move and draw commands syntax](https://msdn.microsoft.com/library/7772bc3e-a631-46ff-9940-3dd5b9d0e0d9).
+Rather than creating an instance or an object element, you can also define segments and a single PathFigure as part of a vector within the string for a [Move and draw commands syntax](https://msdn.microsoft.com/library/7772bc3e-a631-46ff-9940-3dd5b9d0e0d9).
 
 ## -examples
 This example creates a simple [PathGeometry](pathgeometry.md) made up of a single **PathFigure** with a [LineSegment](linesegment.md) and displays it using a [Path](../windows.ui.xaml.shapes/path.md) element. The **PathFigure** object's [StartPoint](pathfigure_startpoint.md) is set to (10,20) and a **LineSegment** is defined with an end point of (100,130).

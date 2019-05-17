@@ -16,7 +16,7 @@ Gets or sets the quality of service on a [DatagramSocket](datagramsocket.md) obj
 The quality of service on a [DatagramSocket](datagramsocket.md) object. The default is **normal**.
 
 ## -remarks
-This [QualityOfService](datagramsocketcontrol_qualityofservice.md) property is the quality of service that [DatagramSocket](datagramsocket.md) object should provide. The default value is **normal**.
+This QualityOfService property is the quality of service that [DatagramSocket](datagramsocket.md) object should provide. The default value is **normal**.
 
 When the property is set to a value other than **normal**, the socket will follow a policy to provide the specified quality of service. When the property is set to **lowLatency**, this sets the thread priority of the incoming packets to a higher value. The **lowLatency** value would commonly be used for audio or similar apps that are timing sensitive. This property is not normally set for other apps.
 

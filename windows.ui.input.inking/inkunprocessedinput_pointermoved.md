@@ -14,7 +14,7 @@ public event Windows.Foundation.TypedEventHandler PointerMoved<Windows.UI.Input.
 Occurs when a pointer moves within the hit test, or bounding, area of an [InkCanvas](../windows.ui.xaml.controls/inkcanvas.md) control.
 
 ## -remarks
-Input from various devices (including touch, pen, and mouse) is received, processed, and managed as pointer input. User interactions based on any of these devices can produce a [PointerMoved](inkunprocessedinput_pointermoved.md) event. For more info, see [Handle pointer input](https://msdn.microsoft.com/library/bdbc9e33-4037-4671-9596-471dcf855c82).
+Input from various devices (including touch, pen, and mouse) is received, processed, and managed as pointer input. User interactions based on any of these devices can produce a PointerMoved event. For more info, see [Handle pointer input](https://msdn.microsoft.com/library/bdbc9e33-4037-4671-9596-471dcf855c82).
 
 
 

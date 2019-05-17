@@ -13,12 +13,12 @@ public class HttpCredentialsHeaderValue : Windows.Foundation.IStringable, Window
 Represents the value of the **Authorization** or **Proxy-Authorization** HTTP header on an HTTP request.
 
 ## -remarks
-The [HttpCredentialsHeaderValue](httpcredentialsheadervalue.md) class represents the **Authorization** or **Proxy-Authorization** HTTP header on an HTTP request.
+The HttpCredentialsHeaderValue class represents the **Authorization** or **Proxy-Authorization** HTTP header on an HTTP request.
 
-The [Authorization](httprequestheadercollection_authorization.md) property on the [HttpRequestHeaderCollection](httprequestheadercollection.md) returns an [HttpCredentialsHeaderValue](httpcredentialsheadervalue.md) object that represents the **Authorization** HTTP header. The [ProxyAuthorization](httprequestheadercollection_proxyauthorization.md) property on the [HttpRequestHeaderCollection](httprequestheadercollection.md) returns an [HttpCredentialsHeaderValue](httpcredentialsheadervalue.md) object that represents the **Proxy-Authorization** HTTP header.
+The [Authorization](httprequestheadercollection_authorization.md) property on the [HttpRequestHeaderCollection](httprequestheadercollection.md) returns an HttpCredentialsHeaderValue object that represents the **Authorization** HTTP header. The [ProxyAuthorization](httprequestheadercollection_proxyauthorization.md) property on the [HttpRequestHeaderCollection](httprequestheadercollection.md) returns an HttpCredentialsHeaderValue object that represents the **Proxy-Authorization** HTTP header.
 
 ## -examples
-The following sample code shows a method to get and set the **Authorization** HTTP header on an [HttpRequestMessage](../windows.web.http/httprequestmessage.md) object using the properties and methods on the [HttpCredentialsHeaderValue](httpcredentialsheadervalue.md) class.
+The following sample code shows a method to get and set the **Authorization** HTTP header on an [HttpRequestMessage](../windows.web.http/httprequestmessage.md) object using the properties and methods on the HttpCredentialsHeaderValue class.
 
 ```csharp
 using System;
@@ -47,7 +47,7 @@ using Windows.Web.Http.Headers;
 
 ```
 
-The following sample code shows a method to get and set the **Proxy-Authorization** HTTP header on an [HttpRequestMessage](../windows.web.http/httprequestmessage.md) object using the properties and methods on the [HttpCredentialsHeaderValue](httpcredentialsheadervalue.md) class.
+The following sample code shows a method to get and set the **Proxy-Authorization** HTTP header on an [HttpRequestMessage](../windows.web.http/httprequestmessage.md) object using the properties and methods on the HttpCredentialsHeaderValue class.
 
 ```csharp
 using System;

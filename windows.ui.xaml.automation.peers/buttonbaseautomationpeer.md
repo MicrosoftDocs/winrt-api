@@ -13,7 +13,7 @@ public class ButtonBaseAutomationPeer : Windows.UI.Xaml.Automation.Peers.Framewo
 Represents a base class for exposing classes derived from [ButtonBase](../windows.ui.xaml.controls.primitives/buttonbase.md) to Microsoft UI Automation.
 
 ## -remarks
- [ButtonBaseAutomationPeer](buttonbaseautomationpeer.md) has a protected constructor, so you won't be able to use it directly for an [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. Derive your automation peer from [ButtonBaseAutomationPeer](buttonbaseautomationpeer.md) if you are deriving a custom class from [ButtonBase](../windows.ui.xaml.controls.primitives/buttonbase.md) and want to add automation support for additional features that you enabled in your custom class. Then override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) so that it returns your custom peer. Note that [ButtonBase](../windows.ui.xaml.controls.primitives/buttonbase.md) already has derived classes, each of which also has a derived peer, so make sure that you really want to derive from this base class rather than use one of the existing XAML-enabled derived button classes.
+ ButtonBaseAutomationPeer has a protected constructor, so you won't be able to use it directly for an [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. Derive your automation peer from ButtonBaseAutomationPeer if you are deriving a custom class from [ButtonBase](../windows.ui.xaml.controls.primitives/buttonbase.md) and want to add automation support for additional features that you enabled in your custom class. Then override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) so that it returns your custom peer. Note that [ButtonBase](../windows.ui.xaml.controls.primitives/buttonbase.md) already has derived classes, each of which also has a derived peer, so make sure that you really want to derive from this base class rather than use one of the existing XAML-enabled derived button classes.
 
 ### Default peer implementation and overrides in **ButtonBaseAutomationPeer**
 
@@ -37,7 +37,7 @@ If you have a need to define a custom automation peer and can't identify a more 
 
 ### **ButtonBaseAutomationPeer** derived classes
 
-[ButtonBaseAutomationPeer](buttonbaseautomationpeer.md) is the parent class for several immediately derived classes that implement peer support for Windows Runtime controls. Here is the list of classes that directly derive from [ButtonBaseAutomationPeer](buttonbaseautomationpeer.md):
+ButtonBaseAutomationPeer is the parent class for several immediately derived classes that implement peer support for Windows Runtime controls. Here is the list of classes that directly derive from ButtonBaseAutomationPeer:
 
 + [ButtonAutomationPeer](buttonautomationpeer.md)
 + [HyperlinkButtonAutomationPeer](hyperlinkbuttonautomationpeer.md)

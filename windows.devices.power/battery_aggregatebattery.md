@@ -16,7 +16,7 @@ Gets a [Battery](battery.md) object that represents all battery controllers conn
 A [Battery](battery.md) object that represents overall battery power.
 
 ## -remarks
-When created with [AggregateBattery](battery_aggregatebattery.md), the [Battery](battery.md) object represents an aggregate of all battery controllers connected to the device.
+When created with AggregateBattery, the [Battery](battery.md) object represents an aggregate of all battery controllers connected to the device.
 
 ## -examples
 

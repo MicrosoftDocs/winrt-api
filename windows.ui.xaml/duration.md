@@ -47,18 +47,18 @@ The type as a member of the enumeration.
 
 ## -remarks
 
-A [Duration](duration.md) value is used for these properties:
+A Duration value is used for these properties:
 
 + [Timeline.Duration](../windows.ui.xaml.media.animation/timeline_duration.md) (can be set on either a [Storyboard](../windows.ui.xaml.media.animation/storyboard.md) or an animation)
 + [VisualTransition.GeneratedDuration](visualtransition_generatedduration.md)
 + [RepeatBehavior.Duration](../windows.ui.xaml.media.animation/repeatbehavior_duration.md)
 + [MediaElement.NaturalDuration](../windows.ui.xaml.controls/mediaelement_naturalduration.md) (this usage isn't part of the storyboarded animation scenario; all the others are)
 
-For more info on how to use a [Duration](duration.md) as part of a [Timeline](../windows.ui.xaml.media.animation/timeline.md), including code examples, see [Storyboarded animations](/windows/uwp/design/motion/storyboarded-animations) or [Timeline.Duration](../windows.ui.xaml.media.animation/timeline_duration.md).
+For more info on how to use a Duration as part of a [Timeline](../windows.ui.xaml.media.animation/timeline.md), including code examples, see [Storyboarded animations](/windows/uwp/design/motion/storyboarded-animations) or [Timeline.Duration](../windows.ui.xaml.media.animation/timeline_duration.md).
 
 ### XAML usage
 
-The most common way to use a [Duration](duration.md) value in the Windows Runtime is to set it using a XAML attribute. When you set a value in XAML, you're supplying a string, and the string is parsed using the _hours_:_minutes_:_seconds_ string format and its variants as described here.
+The most common way to use a Duration value in the Windows Runtime is to set it using a XAML attribute. When you set a value in XAML, you're supplying a string, and the string is parsed using the _hours_:_minutes_:_seconds_ string format and its variants as described here.
 
 ```xaml
 <object property="[days.]hours:minutes:seconds[.fractionalSeconds]"/>
@@ -82,26 +82,26 @@ The most common way to use a [Duration](duration.md) value in the Windows Runtim
 
 + _Forever_: The literal string `Forever`.
 
-Specifying a [Duration](duration.md) using a string that resembles an integer, without any literal characters used in the _hours_:_minutes_:_seconds_ string format such as **:** or **.** will result in a [Duration](duration.md) of that number of days! This is seldom the intended result. Usually you specify animation durations in seconds. As such, the [Duration](duration.md) string must include preceding 0 values for *hours* and *minutes*, with literal **:** characters as separators between *hours* and *minutes*, and between *minutes* and *seconds*. For example, to specify a [Duration](duration.md) of five seconds, the correct string for a XAML attribute value is "0:0:5" ("0:0:05" is equivalent).
+Specifying a Duration using a string that resembles an integer, without any literal characters used in the _hours_:_minutes_:_seconds_ string format such as **:** or **.** will result in a Duration of that number of days! This is seldom the intended result. Usually you specify animation durations in seconds. As such, the Duration string must include preceding 0 values for *hours* and *minutes*, with literal **:** characters as separators between *hours* and *minutes*, and between *minutes* and *seconds*. For example, to specify a Duration of five seconds, the correct string for a XAML attribute value is "0:0:5" ("0:0:05" is equivalent).
 
 #### Notes on XAML syntax
 
 In the grammar shown in the XAML attribute usage, [ ] (square brackets) indicates optional values, the [ ] are not literals. The **:** (colon) and **.** (period) characters are both literals, and delimit the **h:m:s** string form of a common time span, or the optional *days* and *fractionalSeconds* values.
 
-Use the literal strings "Automatic" and "Forever" as XAML attribute values if you want a [Duration](duration.md) that has behavior as documented by [Duration.Automatic](/dotnet/api/windows.ui.xaml.duration.automatic) and [Duration.Forever](/dotnet/api/windows.ui.xaml.duration.forever).
+Use the literal strings "Automatic" and "Forever" as XAML attribute values if you want a Duration that has behavior as documented by [Duration.Automatic](/dotnet/api/windows.ui.xaml.duration.automatic) and [Duration.Forever](/dotnet/api/windows.ui.xaml.duration.forever).
 
-[Duration](duration.md) does not support an object element syntax, and you cannot declare a [Duration](duration.md) as a shareable item in a [ResourceDictionary](resourcedictionary.md).
+Duration does not support an object element syntax, and you cannot declare a Duration as a shareable item in a [ResourceDictionary](resourcedictionary.md).
 
 ### Code usage
 
-If you're using a [Duration](duration.md) in code, a [Duration](duration.md) uses a definition of time that is also used by the **TimeSpan** structure. The **TimeSpan** structure is represented by [System.TimeSpan](https://msdn.microsoft.com/library/system.timespan.aspx) if you are programming using C# or Microsoft Visual Basic, or [Windows.Foundation.TimeSpan](../windows.foundation/timespan.md) if you are programming using C++.
+If you're using a Duration in code, a Duration uses a definition of time that is also used by the **TimeSpan** structure. The **TimeSpan** structure is represented by [System.TimeSpan](https://msdn.microsoft.com/library/system.timespan.aspx) if you are programming using C# or Microsoft Visual Basic, or [Windows.Foundation.TimeSpan](../windows.foundation/timespan.md) if you are programming using C++.
 
-+ The C# or Microsoft Visual Basic [System.TimeSpan](https://msdn.microsoft.com/library/system.timespan.aspx) has a [Parse](https://docs.microsoft.com/dotnet/api/system.timespan.parse#System_TimeSpan_Parse_System_String_) method that uses the _hours_:_minutes_:_seconds_ string format. If you need to create a [Duration](duration.md) value in code you can call the [Duration](duration_duration.md) constructor and provide the [System.TimeSpan](https://msdn.microsoft.com/library/system.timespan.aspx) argument by calling [TimeSpan.Parse](https://docs.microsoft.com/dotnet/api/system.timespan.parse#System_TimeSpan_Parse_System_String_) with an _hours_:_minutes_:_seconds_ string. Always use the "en-us" culture for parsing this string, because that's how XAML interprets the string format, and you shouldn't be using culture-specific inputs for animating timings anyways.
++ The C# or Microsoft Visual Basic [System.TimeSpan](https://msdn.microsoft.com/library/system.timespan.aspx) has a [Parse](https://docs.microsoft.com/dotnet/api/system.timespan.parse#System_TimeSpan_Parse_System_String_) method that uses the _hours_:_minutes_:_seconds_ string format. If you need to create a Duration value in code you can call the [Duration](duration_duration.md) constructor and provide the [System.TimeSpan](https://msdn.microsoft.com/library/system.timespan.aspx) argument by calling [TimeSpan.Parse](https://docs.microsoft.com/dotnet/api/system.timespan.parse#System_TimeSpan_Parse_System_String_) with an _hours_:_minutes_:_seconds_ string. Always use the "en-us" culture for parsing this string, because that's how XAML interprets the string format, and you shouldn't be using culture-specific inputs for animating timings anyways.
 + The C++ [Windows.Foundation.TimeSpan](../windows.foundation/timespan.md) doesn't support a way to create it in an _hours_:_minutes_:_seconds_ string format. You'll have to use [DurationHelper.FromTimeSpan](durationhelper_fromtimespan_845885131.md), and do the conversion yourself for how _hours_:_minutes_:_seconds_ converts to the C++ [Windows.Foundation.TimeSpan](../windows.foundation/timespan.md) data value, which is a value in milliseconds.
 
 ### Automatic and Forever
 
-**Automatic** and **Forever** are values that hold special meaning for a [Duration](duration.md) property value. For Microsoft .NET, these are represented by the static properties [Automatic](/dotnet/api/windows.ui.xaml.duration.automatic) and [Forever](/dotnet/api/windows.ui.xaml.duration.forever).
+**Automatic** and **Forever** are values that hold special meaning for a Duration property value. For Microsoft .NET, these are represented by the static properties [Automatic](/dotnet/api/windows.ui.xaml.duration.automatic) and [Forever](/dotnet/api/windows.ui.xaml.duration.forever).
 
 The **Automatic** value applied in either XAML or code results in different behavior on a [Storyboard](../windows.ui.xaml.media.animation/storyboard.md) as opposed to an animation.
 
@@ -113,11 +113,11 @@ The **Automatic** value applied in either XAML or code results in different beha
 
 ### Projection and members of Duration
 
-If you are using a Microsoft .NET language (C# or Microsoft Visual Basic), or Visual C++ component extensions (C++/CX), then [Duration](duration.md) has non-data members available, and its data members are exposed as read-write properties, not fields. [Duration](duration.md) exposes several operators, including comparison operators. See [Duration](/dotnet/api/windows.ui.xaml.duration) in the .NET API Browser.
+If you are using a Microsoft .NET language (C# or Microsoft Visual Basic), or Visual C++ component extensions (C++/CX), then Duration has non-data members available, and its data members are exposed as read-write properties, not fields. Duration exposes several operators, including comparison operators. See [Duration](/dotnet/api/windows.ui.xaml.duration) in the .NET API Browser.
 
-For Microsoft .NET, [Duration](duration.md) exposes [TimeSpan.Parse](https://docs.microsoft.com/dotnet/api/system.timespan.parse#System_TimeSpan_Parse_System_String_) for its [TimeSpan](/dotnet/api/windows.ui.xaml.duration.timespan) property, [Implicit](/dotnet/api/windows.ui.xaml.duration.op_implicit) and [UnaryPlus](/dotnet/api/windows.ui.xaml.duration.op_unaryplus) operators, and [Add](/dotnet/api/windows.ui.xaml.duration.add) and [Subtract](/en-us/dotnet/api/windows.ui.xaml.duration.subtract) methods. These aren't available from the structure in Visual C++ component extensions (C++/CX) but you can use equivalent [DurationHelper](durationhelper.md) methods for some of these.
+For Microsoft .NET, Duration exposes [TimeSpan.Parse](https://docs.microsoft.com/dotnet/api/system.timespan.parse#System_TimeSpan_Parse_System_String_) for its [TimeSpan](/dotnet/api/windows.ui.xaml.duration.timespan) property, [Implicit](/dotnet/api/windows.ui.xaml.duration.op_implicit) and [UnaryPlus](/dotnet/api/windows.ui.xaml.duration.op_unaryplus) operators, and [Add](/dotnet/api/windows.ui.xaml.duration.add) and [Subtract](/en-us/dotnet/api/windows.ui.xaml.duration.subtract) methods. These aren't available from the structure in Visual C++ component extensions (C++/CX) but you can use equivalent [DurationHelper](durationhelper.md) methods for some of these.
 
-If you are programming with [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/index) or the [Windows Runtime C++ Template Library (WRL)](/cpp/windows/windows-runtime-cpp-template-library-wrl), then only the data member fields exist as members of [Duration](duration.md), and you cannot use the utility methods or properties of the .NET projection. C++ code can access similar utility methods that exist on the [DurationHelper](durationhelper.md) class. For example, you can call [DurationHelper.Compare](durationhelper_compare_2000782616.md) to compare two C++ [Duration](duration.md) values. For more info, see [DurationHelper](durationhelper.md).
+If you are programming with [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/index) or the [Windows Runtime C++ Template Library (WRL)](/cpp/windows/windows-runtime-cpp-template-library-wrl), then only the data member fields exist as members of Duration, and you cannot use the utility methods or properties of the .NET projection. C++ code can access similar utility methods that exist on the [DurationHelper](durationhelper.md) class. For example, you can call [DurationHelper.Compare](durationhelper_compare_2000782616.md) to compare two C++ Duration values. For more info, see [DurationHelper](durationhelper.md).
 
 This table shows the equivalent properties and methods available in .NET and C++.
 

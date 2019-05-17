@@ -13,9 +13,9 @@ public class MessageWebSocketMessageReceivedEventArgs : Windows.Networking.Socke
 Provides data for a message received event on a [MessageWebSocket](messagewebsocket.md).
 
 ## -remarks
-The [MessageWebSocketMessageReceivedEventArgs](messagewebsocketmessagereceivedeventargs.md) is used to receive data on a [MessageWebSocket](messagewebsocket.md) object.
+The MessageWebSocketMessageReceivedEventArgs is used to receive data on a [MessageWebSocket](messagewebsocket.md) object.
 
-A [MessageWebSocket.MessageReceived](messagewebsocket_messagereceived.md) event occurs on a [MessageWebSocket](messagewebsocket.md) when a message is received. A [MessageWebSocketMessageReceivedEventArgs](messagewebsocketmessagereceivedeventargs.md) instance is created when the [MessageWebSocket.MessageReceived](messagewebsocket_messagereceived.md) event occurs.
+A [MessageWebSocket.MessageReceived](messagewebsocket_messagereceived.md) event occurs on a [MessageWebSocket](messagewebsocket.md) when a message is received. A MessageWebSocketMessageReceivedEventArgs instance is created when the [MessageWebSocket.MessageReceived](messagewebsocket_messagereceived.md) event occurs.
 
 ## -examples
 

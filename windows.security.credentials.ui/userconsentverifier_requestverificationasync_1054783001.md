@@ -20,7 +20,7 @@ A message to display to the user for this biometric verification request.
 A [UserConsentVerificationResult](userconsentverificationresult.md) value that describes the result of the biometric verification.
 
 ## -remarks
-You can use the [RequestVerificationAsync](userconsentverifier_requestverificationasync_1054783001.md) method to request user consent for authentication. For example, you can require fingerprint authentication before authorizing an in-app purchase, or access to restricted resources. You can use the [CheckAvailabilityAsync](userconsentverifier_checkavailabilityasync_167910294.md) method to determine if authentication is supported for the current computer .
+You can use the RequestVerificationAsync method to request user consent for authentication. For example, you can require fingerprint authentication before authorizing an in-app purchase, or access to restricted resources. You can use the [CheckAvailabilityAsync](userconsentverifier_checkavailabilityasync_167910294.md) method to determine if authentication is supported for the current computer .
 
 ## -examples
 

@@ -15,11 +15,11 @@ Provides access to the application data store. Application data consists of file
 ## -remarks
 ### Types of application data
 
-[ApplicationData](applicationdata.md) provides local, roaming, and temporary storage for app data on a per-user basis. Use this class to preserve app-specific data between sessions, users, and across multiple devices.
+ApplicationData provides local, roaming, and temporary storage for app data on a per-user basis. Use this class to preserve app-specific data between sessions, users, and across multiple devices.
 
-[ApplicationData](applicationdata.md) does not provide access to files in an app package. To do this, use [Windows.ApplicationModel.Package.InstalledLocation](../windows.applicationmodel/package_installedlocation.md).
+ApplicationData does not provide access to files in an app package. To do this, use [Windows.ApplicationModel.Package.InstalledLocation](../windows.applicationmodel/package_installedlocation.md).
 
-[ApplicationData.Current](applicationdata_current.md) gives you the app's [ApplicationData](applicationdata.md) instance. Use this instance to get app folders or settings.
+[ApplicationData.Current](applicationdata_current.md) gives you the app's ApplicationData instance. Use this instance to get app folders or settings.
 
 Folders are used to store app data as files on the file system. App settings are stored in key/value pairs that can be organized in to nested sets. Settings data is saved in the Windows registry.
 
@@ -49,7 +49,7 @@ You can store your app data in app-specific, versioned formats. For more info, s
 For more details on using these APIs, see [Store and retrieve settings and other app data](https://msdn.microsoft.com/library/41676a02-325a-455e-8565-c9ec0bc3a8fe).
 
 ## -examples
-The following code example demonstrates how to read or write to an [ApplicationData](applicationdata.md) folder of your choice. This example uses the [LocalFolder](applicationdata_localfolder.md), but the code can be slightly modified to access the [LocalCacheFolder](applicationdata_localcachefolder.md), [RoamingFolder](applicationdata_roamingfolder.md), [SharedLocalFolder](applicationdata_sharedlocalfolder.md), or [TemporaryFolder](applicationdata_temporaryfolder.md) based on how your data should be stored. [SharedLocalFolder](applicationdata_sharedlocalfolder.md) has some restrictions and needs special permissions to access, for more information, see [SharedLocalFolder](applicationdata_sharedlocalfolder.md).
+The following code example demonstrates how to read or write to an ApplicationData folder of your choice. This example uses the [LocalFolder](applicationdata_localfolder.md), but the code can be slightly modified to access the [LocalCacheFolder](applicationdata_localcachefolder.md), [RoamingFolder](applicationdata_roamingfolder.md), [SharedLocalFolder](applicationdata_sharedlocalfolder.md), or [TemporaryFolder](applicationdata_temporaryfolder.md) based on how your data should be stored. [SharedLocalFolder](applicationdata_sharedlocalfolder.md) has some restrictions and needs special permissions to access, for more information, see [SharedLocalFolder](applicationdata_sharedlocalfolder.md).
 
 ```csharp
 // This example code can be used to read or write to an ApplicationData folder of your choice.

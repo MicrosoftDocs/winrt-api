@@ -21,7 +21,7 @@ Translates (moves) an object in the two-dimensional x-y coordinate system.
 ## -remarks
 
 ## -examples
-This example uses a [TranslateTransform](translatetransform.md) to offset text. In this example, a slightly offset copy of text below the primary text creates a shadow effect.
+This example uses a TranslateTransform to offset text. In this example, a slightly offset copy of text below the primary text creates a shadow effect.
 
 
 

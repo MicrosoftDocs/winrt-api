@@ -26,7 +26,7 @@ Mouse
 ## -remarks
 
 ## -examples
-The following example shows how to use the [PointerDeviceType](pointerdevicetype.md) enumeration.
+The following example shows how to use the PointerDeviceType enumeration.
 
 ```html
     function getPointerDeviceType(pdt)

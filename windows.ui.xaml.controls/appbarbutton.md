@@ -27,7 +27,7 @@ App bar buttons differ from standard buttons in several ways:
 + You use the [Label](appbarbutton_label.md) and [Icon](appbarbutton_icon.md) properties to set the content instead of the [Content](contentcontrol_content.md) property. The [Content](contentcontrol_content.md) property is ignored if the [Icon](appbarbutton_icon.md) is set.
 + The button has the [IsCompact](appbarbutton_iscompact.md) property to control its size.
 
-[AppBarButton](appbarbutton.md) has two sizes; normal and compact. By default, it's shown with a text label and full padding. When the [IsCompact](appbarbutton_iscompact.md) property is set to **true**, the text label is hidden and the height of the button is reduced.
+AppBarButton has two sizes; normal and compact. By default, it's shown with a text label and full padding. When the [IsCompact](appbarbutton_iscompact.md) property is set to **true**, the text label is hidden and the height of the button is reduced.
 
 <p>Here are the same commands shown in their normal state,  and then in their compact state.</p>
 <p>
@@ -54,7 +54,7 @@ You can modify the default [Style](../windows.ui.xaml/style.md) and [ControlTemp
 
 Starting in Windows 10, version 1607 (SDK 14393), generic.xaml includes resources that you can use to modify the colors of a control in different visual states without modifying the control template. In apps that target this software development kit (SDK) or later, modifying these resources is preferred to setting properties such as [Background](control_background.md) and [Foreground](control_foreground.md). For more info, see the [Light-weight styling](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) section of the [Styling controls](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) article.
 
-This table shows the resources used by the [AppBarButton](appbarbutton.md) control.
+This table shows the resources used by the AppBarButton control.
 
 <table>
    <tr><th>Resource key</th><th>Description</th></tr>
@@ -74,7 +74,7 @@ This table shows the resources used by the [AppBarButton](appbarbutton.md) contr
 
 ## -examples
 
-This example shows [AppBarButton](appbarbutton.md) controls with each type of icon:
+This example shows AppBarButton controls with each type of icon:
 
 <img src="images/AppBarButtons.png" alt="App bar button icon examples." />
 
@@ -104,7 +104,7 @@ This example shows [AppBarButton](appbarbutton.md) controls with each type of ic
 </AppBarButton>
 ```
 
-Here's how to create the same [AppBarButton](appbarbutton.md) controls in code.
+Here's how to create the same AppBarButton controls in code.
 
 ```csharp
 void MainPage_Loaded(object sender, RoutedEventArgs e)
@@ -178,7 +178,7 @@ void AppBarButton_Click(object sender, RoutedEventArgs e)
 }
 ```
 
-This example shows how to change the [Icon](appbarbutton_icon.md) and [Label](appbarbutton_label.md) of an [AppBarButton](appbarbutton.md) that's initially defined in Extensible Application Markup Language (XAML). This code toggles a button between `Play` and `Pause`.
+This example shows how to change the [Icon](appbarbutton_icon.md) and [Label](appbarbutton_label.md) of an AppBarButton that's initially defined in Extensible Application Markup Language (XAML). This code toggles a button between `Play` and `Pause`.
 
 ```xaml
 

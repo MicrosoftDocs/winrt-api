@@ -13,7 +13,7 @@ public class SearchPane : Windows.ApplicationModel.Search.ISearchPane
 Deprecated. Use the [Windows.UI.Xaml.Controls.SearchBox](../windows.ui.xaml.controls/searchbox.md) (XAML) or the [WinJS.UI.SearchBox](https://msdn.microsoft.com/library/58f5cea3-a19b-48a8-abcc-17f38d8fa886) (HTML) control instead. Represents and manages the search pane that opens when a user activates the Search charm.
 
 > [!NOTE]
-> An app can't use both the search box ([Windows.UI.Xaml.Controls.SearchBox](../windows.ui.xaml.controls/searchbox.md) for XAMLUniversal Windows Platform (UWP) app, [WinJS.UI.SearchBox](https://msdn.microsoft.com/library/58f5cea3-a19b-48a8-abcc-17f38d8fa886) for HTMLUniversal Windows Platform (UWP) app) and the [SearchPane](searchpane.md). Using both the search box and the search pane in the same app causes the app to throw an exception with this message: "Cannot create instance of type 'Windows.UI.Xaml.Controls.SearchBox.'"
+> An app can't use both the search box ([Windows.UI.Xaml.Controls.SearchBox](../windows.ui.xaml.controls/searchbox.md) for XAMLUniversal Windows Platform (UWP) app, [WinJS.UI.SearchBox](https://msdn.microsoft.com/library/58f5cea3-a19b-48a8-abcc-17f38d8fa886) for HTMLUniversal Windows Platform (UWP) app) and the SearchPane. Using both the search box and the search pane in the same app causes the app to throw an exception with this message: "Cannot create instance of type 'Windows.UI.Xaml.Controls.SearchBox.'"
 
 ## -remarks
 This object is available to apps that participate in the Search contract; you can learn more about adding the Search contract to your app in [Quickstart: Adding search](https://msdn.microsoft.com/library/d412c562-22d2-41c4-9f27-27503b89b9e9). In order to provide users with search results, you must add code to your activated event handler that responds when your app is activated for search. To learn more about responding to [search](../windows.applicationmodel.activation/activationkind.md) activation events see [webUISearchActivatedEventArgs](../windows.ui.webui/webuisearchactivatedeventargs.md) (JavaScript) or [SearchActivatedEventArgs](../windows.applicationmodel.activation/searchactivatedeventargs.md) (C#/C++/VB).
@@ -21,7 +21,7 @@ This object is available to apps that participate in the Search contract; you ca
 You can see code examples that demonstrate how to respond to search events and manage the search pane in the [Search contract sample](https://go.microsoft.com/fwlink/p/?linkid=234892).
 
 ## -examples
-**For C#/C++/VB:** This example demonstrates how to ensure that your app can respond to user queries at any time by overriding [OnWindowCreated](../windows.ui.xaml/application_onwindowcreated_1983609380.md) in App.xaml.cs/App.xaml.cpp/App.xaml.vb to access the [SearchPane](searchpane.md) object and register handlers for [SearchPane](searchpane.md) events (like [QuerySubmitted](searchpane_querysubmitted.md)).
+**For C#/C++/VB:** This example demonstrates how to ensure that your app can respond to user queries at any time by overriding [OnWindowCreated](../windows.ui.xaml/application_onwindowcreated_1983609380.md) in App.xaml.cs/App.xaml.cpp/App.xaml.vb to access the SearchPane object and register handlers for SearchPane events (like [QuerySubmitted](searchpane_querysubmitted.md)).
 
 ```csharp
 protected override void OnWindowCreated(WindowCreatedEventArgs args)
@@ -43,10 +43,10 @@ protected override void OnWindowCreated(WindowCreatedEventArgs args)
 }
 ```
 
-**For JavaScript:** This example demonstrates how to access the [searchPane](searchpane.md) to register a [querysubmitted](searchpane_querysubmitted.md) event handler.
+**For JavaScript:** This example demonstrates how to access the searchPane to register a [querysubmitted](searchpane_querysubmitted.md) event handler.
 
 > [!NOTE]
-> To ensure that your app can respond to user queries at any time, make sure your [searchPane](searchpane.md) event handlers are registered in your app's global scope.
+> To ensure that your app can respond to user queries at any time, make sure your searchPane event handlers are registered in your app's global scope.
 
 ```javascript
 

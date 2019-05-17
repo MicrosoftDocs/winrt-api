@@ -13,7 +13,7 @@ public class BitmapTypedValue : Windows.Graphics.Imaging.IBitmapTypedValue
 A value along with an enumeration specifying its data type.
 
 ## -remarks
-[BitmapTypedValue](bitmaptypedvalue.md) is immutable. In order to alter a value or data type, you must create a new object.
+BitmapTypedValue is immutable. In order to alter a value or data type, you must create a new object.
 
 ## -examples
 

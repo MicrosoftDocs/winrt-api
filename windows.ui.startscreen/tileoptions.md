@@ -11,7 +11,7 @@ public enum Windows.UI.StartScreen.TileOptions : uint
 
 ## -description
 > [!NOTE]
-> [TileOptions](tileoptions.md) may be altered or unavailable for releases after Windows 8.1. Instead, use the properties specified in each value.
+> TileOptions may be altered or unavailable for releases after Windows 8.1. Instead, use the properties specified in each value.
 
 Specifies options available to a secondary tile.
 

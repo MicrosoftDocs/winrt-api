@@ -16,9 +16,9 @@ Gets the user token information used in the **Authorization** or **Proxy-Authori
 The user token information in the **Authorization** or **Proxy-Authorization** HTTP header.
 
 ## -remarks
-The [Token](httpcredentialsheadervalue_token.md) property gets a simple string with the credentials containing the authentication information of the user agent for the resource being requested.
+The Token property gets a simple string with the credentials containing the authentication information of the user agent for the resource being requested.
 
-An [HttpCredentialsHeaderValue](httpcredentialsheadervalue.md) object has a [Scheme](httpcredentialsheadervalue_scheme.md) and either a [Token](httpcredentialsheadervalue_token.md) or a [Parameters](httpcredentialsheadervalue_parameters.md) list. So either the [Parameters](httpcredentialsheadervalue_parameters.md) property is an empty collection or the [Token](httpcredentialsheadervalue_token.md) property is an empty string.
+An [HttpCredentialsHeaderValue](httpcredentialsheadervalue.md) object has a [Scheme](httpcredentialsheadervalue_scheme.md) and either a Token or a [Parameters](httpcredentialsheadervalue_parameters.md) list. So either the [Parameters](httpcredentialsheadervalue_parameters.md) property is an empty collection or the Token property is an empty string.
 
 ## -examples
 

@@ -16,7 +16,7 @@ Gets or sets the dedicated object for media content protection that is associate
 The dedicated object for media content protection.
 
 ## -remarks
-See the [PlayReady sample for ](https://go.microsoft.com/fwlink/p/?linkid=258394) for an example of using [ProtectionManager](mediaelement_protectionmanager.md).
+See the [PlayReady sample for ](https://go.microsoft.com/fwlink/p/?linkid=258394) for an example of using ProtectionManager.
 
 ## -examples
 

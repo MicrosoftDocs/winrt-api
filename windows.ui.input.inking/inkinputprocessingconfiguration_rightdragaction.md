@@ -19,10 +19,10 @@ By default, this secondary input is processed as primary input and rendered as a
 The input behavior when modified with a secondary affordance.
 
 ## -remarks
-To pass input as [UnprocessedInput](inkpresenter_unprocessedinput.md) through to your app for custom processing, set [RightDragAction](inkinputprocessingconfiguration_rightdragaction.md) to [LeaveUnprocessed](inkinputrightdragaction.md).
+To pass input as [UnprocessedInput](inkpresenter_unprocessedinput.md) through to your app for custom processing, set RightDragAction to [LeaveUnprocessed](inkinputrightdragaction.md).
 
 ## -examples
-Here, we set [RightDragAction](inkinputprocessingconfiguration_rightdragaction.md) to [LeaveUnprocessed](inkinputrightdragaction.md) and declare [UnprocessedInput](inkpresenter_unprocessedinput.md) event listeners for pointer input.
+Here, we set RightDragAction to [LeaveUnprocessed](inkinputrightdragaction.md) and declare [UnprocessedInput](inkpresenter_unprocessedinput.md) event listeners for pointer input.
 
 ```csharp
 inkCanvas.InkPresenter.InputProcessingConfiguration.RightDragAction = 

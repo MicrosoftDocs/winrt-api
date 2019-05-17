@@ -11,7 +11,7 @@ public class BluetoothLEManufacturerData : Windows.Devices.Bluetooth.Advertiseme
 # Windows.Devices.Bluetooth.Advertisement.BluetoothLEManufacturerData
 
 ## -description
-A Bluetooth LE manufacturer-specific data section (one particular type of LE advertisement section). A Bluetooth LE advertisement packet can contain multiple instances of these [BluetoothLEManufacturerData](bluetoothlemanufacturerdata.md) objects.
+A Bluetooth LE manufacturer-specific data section (one particular type of LE advertisement section). A Bluetooth LE advertisement packet can contain multiple instances of these BluetoothLEManufacturerData objects.
 
 ## -remarks
 

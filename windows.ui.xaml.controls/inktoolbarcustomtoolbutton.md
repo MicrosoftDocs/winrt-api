@@ -17,7 +17,7 @@ Represents an [InkToolbar](inktoolbar.md) button that invokes a non-pen tool, de
 
 The [InkToolbar](inktoolbar.md) consists of two distinct groups of button types:
 
-+ One group of "tool" buttons containing the built-in drawing ([InkToolbarBallpointPenButton](inktoolbarballpointpenbutton.md), [InkToolbarPencilButton](inktoolbarpencilbutton.md)), erasing ([InkToolbarEraserButton](inktoolbareraserbutton.md)), and highlighting ([InkToolbarHighlighterButton](inktoolbarhighlighterbutton.md)) buttons. Custom tools ([InkToolbarCustomPenButton](inktoolbarcustompenbutton.md) and [InkToolbarCustomToolButton](inktoolbarcustomtoolbutton.md)) are added here.
++ One group of "tool" buttons containing the built-in drawing ([InkToolbarBallpointPenButton](inktoolbarballpointpenbutton.md), [InkToolbarPencilButton](inktoolbarpencilbutton.md)), erasing ([InkToolbarEraserButton](inktoolbareraserbutton.md)), and highlighting ([InkToolbarHighlighterButton](inktoolbarhighlighterbutton.md)) buttons. Custom tools ([InkToolbarCustomPenButton](inktoolbarcustompenbutton.md) and InkToolbarCustomToolButton) are added here.
 
     > Feature selection is mutually exclusive.
 
@@ -44,14 +44,14 @@ The following example steps through how to enable stroke selection through a cus
 First, we set up the UI in MainPage.xaml.
 
 
-+ We declare an [InkToolbarCustomToolButton](inktoolbarcustomtoolbutton.md) element (`customToolButton`) with a [Click](../windows.ui.xaml.controls.primitives/buttonbase_click.md) event listener that specifies the event handler (`customToolButton_Click`) where stroke selection is configured. (We've also added a set of buttons for copying, cutting, and pasting the stroke selection.)
++ We declare an InkToolbarCustomToolButton element (`customToolButton`) with a [Click](../windows.ui.xaml.controls.primitives/buttonbase_click.md) event listener that specifies the event handler (`customToolButton_Click`) where stroke selection is configured. (We've also added a set of buttons for copying, cutting, and pasting the stroke selection.)
 + We also add a [Canvas](canvas.md) element for drawing our selection stroke. Using a separate layer to draw the selection stroke leaves the [InkCanvas](inkcanvas.md) and its content untouched.
 
 
 [!code-xml[SnippetUI_AddCustomTool](../windows.ui.input.inking/code/Ink_Basic_InkToolbar/csharp/MainPage_AddCustomTool.xaml#SnippetUI_AddCustomTool)]
 
 
-We then handle the [Click](../windows.ui.xaml.controls.primitives/buttonbase_click.md) event for the [InkToolbarCustomToolButton](inktoolbarcustomtoolbutton.md) in the `MainPage.xaml.cs` code-behind file.
+We then handle the [Click](../windows.ui.xaml.controls.primitives/buttonbase_click.md) event for the InkToolbarCustomToolButton in the `MainPage.xaml.cs` code-behind file.
 
 This handler configures the [InkPresenter](inkcanvas_inkpresenter.md) to pass unprocessed input through to the app.
 

@@ -13,21 +13,21 @@ public class HttpResponseHeaderCollection : Windows.Foundation.Collections.IIter
 Provides a collection of the HTTP headers associated with an HTTP response.
 
 ## -remarks
-The [HttpResponseHeaderCollection](httpresponseheadercollection.md) is a collection of the HTTP headers associated with an HTTP response to an HTTP request message. The [HttpResponseHeaderCollection](httpresponseheadercollection.md) object can be used to get or set the specific headers on the HTTP response. Most of the properties on the [HttpResponseHeaderCollection](httpresponseheadercollection.md) object provide access for the value of a specific HTTP header.
+The HttpResponseHeaderCollection is a collection of the HTTP headers associated with an HTTP response to an HTTP request message. The HttpResponseHeaderCollection object can be used to get or set the specific headers on the HTTP response. Most of the properties on the HttpResponseHeaderCollection object provide access for the value of a specific HTTP header.
 
-The [Headers](../windows.web.http/httpresponsemessage_headers.md) property on [HttpResponseMessage](../windows.web.http/httpresponsemessage.md) returns an [HttpResponseHeaderCollection](httpresponseheadercollection.md) object. This is how an [HttpResponseHeaderCollection](httpresponseheadercollection.md) is constructed.
+The [Headers](../windows.web.http/httpresponsemessage_headers.md) property on [HttpResponseMessage](../windows.web.http/httpresponsemessage.md) returns an HttpResponseHeaderCollection object. This is how an HttpResponseHeaderCollection is constructed.
 
 
 <!--Begin NET note for IEnumerable support-->
 ### Enumerating the collection in C# or Microsoft Visual Basic
 
-You can iterate through an [HttpResponseHeaderCollection](httpresponseheadercollection.md) object in C# or Microsoft Visual Basic. In many cases, such as using **foreach** syntax, the compiler does this casting for you and you won't need to cast to `IEnumerable` explicitly. If you do need to cast explicitly, for example if you want to call [GetEnumerator](https://docs.microsoft.com/dotnet/api/system.collections.ienumerable.getenumerator), cast the collection object to [IEnumerable<T>](https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1) with a [KeyValuePair](https://docs.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2) of [String](https://msdn.microsoft.com/library/system.string.aspx) and [String](https://msdn.microsoft.com/library/system.string.aspx) as the constraint.
+You can iterate through an HttpResponseHeaderCollection object in C# or Microsoft Visual Basic. In many cases, such as using **foreach** syntax, the compiler does this casting for you and you won't need to cast to `IEnumerable` explicitly. If you do need to cast explicitly, for example if you want to call [GetEnumerator](https://docs.microsoft.com/dotnet/api/system.collections.ienumerable.getenumerator), cast the collection object to [IEnumerable<T>](https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1) with a [KeyValuePair](https://docs.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2) of [String](https://msdn.microsoft.com/library/system.string.aspx) and [String](https://msdn.microsoft.com/library/system.string.aspx) as the constraint.
 
 
 <!--End NET note for IEnumerable support-->
 
 ## -examples
-The following sample code shows a method to get and set response headers on an [HttpResponseMessage](../windows.web.http/httpresponsemessage.md) object using the properties on the [HttpResponseHeaderCollection](httpresponseheadercollection.md) object. The [Windows.Web.Http.Headers](windows_web_http_headers.md) namespace has a number of strongly-typed header collection and value classes for specific HTTP headers that can be used to get and set headers with validation.
+The following sample code shows a method to get and set response headers on an [HttpResponseMessage](../windows.web.http/httpresponsemessage.md) object using the properties on the HttpResponseHeaderCollection object. The [Windows.Web.Http.Headers](windows_web_http_headers.md) namespace has a number of strongly-typed header collection and value classes for specific HTTP headers that can be used to get and set headers with validation.
 
 ```csharp
 

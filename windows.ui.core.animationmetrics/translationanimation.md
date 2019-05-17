@@ -20,7 +20,7 @@ The timing controls [Control1](translationanimation_control1.md) and [Control2](
 On the resulting Bézier curve, the x-coordinate represents time and the y-coordinate represents progress. The raw curve from (0,0) to (1,1) is scaled to match the actual duration and range of the animated transition, such that x=0 is the starting time of the transform, x=1 is the ending time, y=0 is the initial value of the animated property, and y=1 is the final value. Values of x and y between 0 and 1 represent corresponding intermediate values of time and the animation.
 
 ## -examples
-To obtain an instance of the [TranslationAnimation](translationanimation.md) class, you first obtain the collection of [animations](animationdescription_animations.md) in the [animation description](animationdescription.md), and then walk that array of animations to find any that are of type [translation](propertyanimationtype.md). The following examples shows this process. The *effect* and *target* parameters are assumed to have been previously assigned.
+To obtain an instance of the TranslationAnimation class, you first obtain the collection of [animations](animationdescription_animations.md) in the [animation description](animationdescription.md), and then walk that array of animations to find any that are of type [translation](propertyanimationtype.md). The following examples shows this process. The *effect* and *target* parameters are assumed to have been previously assigned.
 
 ```csharp
 using Windows.UI.Core.AnimationMetrics;

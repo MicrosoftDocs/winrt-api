@@ -15,7 +15,7 @@ Provides socket information on a [MessageWebSocket](messagewebsocket.md).
 ## -remarks
 [MessageWebSocketInformation](messagewebsocket_information.md) can be called any time after the [MessageWebSocket](messagewebsocket.md) has been created.
 
-A [MessageWebSocketInformation](messagewebsocketinformation.md) object is automatically created with the parent [MessageWebSocket](messagewebsocket.md) object. The [MessageWebSocket.Information](messagewebsocket_information.md) property provides access to the associated [MessageWebSocketInformation](messagewebsocketinformation.md) object.
+A MessageWebSocketInformation object is automatically created with the parent [MessageWebSocket](messagewebsocket.md) object. The [MessageWebSocket.Information](messagewebsocket_information.md) property provides access to the associated MessageWebSocketInformation object.
 
 
 

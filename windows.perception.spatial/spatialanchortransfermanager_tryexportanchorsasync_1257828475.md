@@ -43,7 +43,7 @@ Windows::Foundation::Collections::IMap<Platform::String^, Windows::Perception::S
 }
 ```
 
-Now you can populate the anchors collection in JavaScript and pass it to the [TryExportAnchorsAsync](spatialanchortransfermanager_tryexportanchorsasync_1257828475.md) method. The following code example shows how to use the SpatialAnchorHelper class to populate the anchors collection.
+Now you can populate the anchors collection in JavaScript and pass it to the TryExportAnchorsAsync method. The following code example shows how to use the SpatialAnchorHelper class to populate the anchors collection.
 
 ```javascript
 waitForPositionalTracking(function () {

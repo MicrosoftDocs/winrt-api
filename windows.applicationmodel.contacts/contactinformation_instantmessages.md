@@ -19,7 +19,7 @@ A read-only list of instant messaging accounts stored with the contact.
 A read-only list of instant messaging accounts.
 
 ## -remarks
-Use the [InstantMessages](contactinformation_instantmessages.md) property to access a contact's instant messaging user names from a [ContactInformation](contactinformation.md) object.
+Use the InstantMessages property to access a contact's instant messaging user names from a [ContactInformation](contactinformation.md) object.
 
 ## -examples
 

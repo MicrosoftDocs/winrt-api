@@ -13,9 +13,9 @@ public class ProgressBarTemplateSettings : Windows.UI.Xaml.DependencyObject, Win
 Provides calculated values that can be referenced as **TemplatedParent** sources when defining templates for a [ProgressBar](../windows.ui.xaml.controls/progressbar.md) control. Not intended for general use.
 
 ## -remarks
-Get instances of [ProgressBarTemplateSettings](progressbartemplatesettings.md) by querying the value of [TemplateSettings](../windows.ui.xaml.controls/progressbar_templatesettings.md).
+Get instances of ProgressBarTemplateSettings by querying the value of [TemplateSettings](../windows.ui.xaml.controls/progressbar_templatesettings.md).
 
-The values from [ProgressBarTemplateSettings](progressbartemplatesettings.md) are typically used as either the "To" or "From" values of theme animations or transitions.
+The values from ProgressBarTemplateSettings are typically used as either the "To" or "From" values of theme animations or transitions.
 
 ## -examples
 

@@ -10,12 +10,12 @@ public class Transition : Windows.UI.Xaml.DependencyObject, Windows.UI.Xaml.Medi
 # Windows.UI.Xaml.Media.Animation.Transition
 
 ## -description
-Represents a visual behavior that occurs for predefined actions or state changes. Specific theme transitions (various [Transition](transition.md) derived classes) can be applied to individual elements using the [UIElement.Transitions](../windows.ui.xaml/uielement_transitions.md) property, or applied for scenario-specific theme transition properties such as [ContentControl.ContentTransitions](../windows.ui.xaml.controls/contentcontrol_contenttransitions.md).
+Represents a visual behavior that occurs for predefined actions or state changes. Specific theme transitions (various Transition derived classes) can be applied to individual elements using the [UIElement.Transitions](../windows.ui.xaml/uielement_transitions.md) property, or applied for scenario-specific theme transition properties such as [ContentControl.ContentTransitions](../windows.ui.xaml.controls/contentcontrol_contenttransitions.md).
 
 ## -remarks
 ### **Transition** derived classes
 
-[Transition](transition.md) is the parent class for several immediately derived classes that define library theme transitions. Here are some of the notable derived classes:
+Transition is the parent class for several immediately derived classes that define library theme transitions. Here are some of the notable derived classes:
 
 + [AddDeleteThemeTransition](adddeletethemetransition.md)
 + [ContentThemeTransition](contentthemetransition.md)

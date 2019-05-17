@@ -16,7 +16,7 @@ Gets the remote identifier of the stored contact.
 The remote identifier of the contact.
 
 ## -remarks
-Use this property to associate the [Id](storedcontact_id.md) of the contact with the identifier used by a remote, cloud-based contact store. The value of this property must be stable and must be unique across all apps on the phone. Attempting to save a contact may fail if the [RemoteId](storedcontact_remoteid.md) property is not unique on the phone.
+Use this property to associate the [Id](storedcontact_id.md) of the contact with the identifier used by a remote, cloud-based contact store. The value of this property must be stable and must be unique across all apps on the phone. Attempting to save a contact may fail if the RemoteId property is not unique on the phone.
 
 ## -examples
 

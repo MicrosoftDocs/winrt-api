@@ -19,7 +19,7 @@ The [Width](../windows.foundation/size.md) and [Height](../windows.foundation/si
 ## -remarks
 
 ## -examples
-The following example includes a function that shows how to set the [Size](inkdrawingattributes_size.md) (`strokeSize`) of an [InkStroke](inkstroke.md) (`stroke`).
+The following example includes a function that shows how to set the Size (`strokeSize`) of an [InkStroke](inkstroke.md) (`stroke`).
 
 ```
 

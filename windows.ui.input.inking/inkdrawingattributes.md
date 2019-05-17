@@ -14,7 +14,7 @@ public class InkDrawingAttributes : Windows.UI.Input.Inking.IInkDrawingAttribute
 Provides properties associated with the drawing of an [InkStroke](inkstroke.md).
 
 ## -remarks
-[InkDrawingAttributes](inkdrawingattributes.md) can be set globally through the [SetDefaultDrawingAttributes](inkmanager_setdefaultdrawingattributes_1436218448.md) method of an [InkManager](inkmanager.md) object or an [InkStrokeBuilder](inkstrokebuilder.md) object. They can also be set on an individual [InkStroke](inkstroke.md) object through the [DrawingAttributes](inkstroke_drawingattributes.md) property.
+InkDrawingAttributes can be set globally through the [SetDefaultDrawingAttributes](inkmanager_setdefaultdrawingattributes_1436218448.md) method of an [InkManager](inkmanager.md) object or an [InkStrokeBuilder](inkstrokebuilder.md) object. They can also be set on an individual [InkStroke](inkstroke.md) object through the [DrawingAttributes](inkstroke_drawingattributes.md) property.
 
 > [!NOTE]
 > : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
@@ -53,7 +53,7 @@ inkManager.SetDefaultDrawingAttributes(drawingAttributes);
 The following example demonstrates how to set a drawing attribute for a specific stroke.
 
 > [!NOTE]
-> You cannot set the [DrawingAttributes](inkstroke_drawingattributes.md) property of the stroke directly. You must create a copy of the [InkDrawingAttributes](inkdrawingattributes.md) of the stroke, set the desired values for that [InkDrawingAttributes](inkdrawingattributes.md) object, and then assign the new [InkDrawingAttributes](inkdrawingattributes.md) to the [DrawingAttributes](inkstroke_drawingattributes.md) of the stroke, as shown here.
+> You cannot set the [DrawingAttributes](inkstroke_drawingattributes.md) property of the stroke directly. You must create a copy of the InkDrawingAttributes of the stroke, set the desired values for that InkDrawingAttributes object, and then assign the new InkDrawingAttributes to the [DrawingAttributes](inkstroke_drawingattributes.md) of the stroke, as shown here.
 
 ```javascript
 inkManager.getStrokes().forEach(function (stroke)

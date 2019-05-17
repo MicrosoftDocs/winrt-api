@@ -22,7 +22,7 @@ Gets or sets the value part of a value range that steps should be created for.
 The value part of a value range that steps should be created for.
 
 ## -remarks
-When the [SnapsTo](slider_snapsto.md) property is set to [StepValues](../windows.ui.xaml.controls.primitives/slidersnapsto.md), set the [StepFrequency](slider_stepfrequency.md) property to specify the interval between snap points.
+When the [SnapsTo](slider_snapsto.md) property is set to [StepValues](../windows.ui.xaml.controls.primitives/slidersnapsto.md), set the StepFrequency property to specify the interval between snap points.
 
 ## -examples
 

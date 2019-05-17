@@ -19,16 +19,16 @@ Represents an icon that uses a glyph from the Segoe MDL2 Assets font as its cont
 
 
 ## -remarks
-The most common way to specify the icon for an app bar button is to use one of the standard glyphs provided by the Segoe MDL2 Assets font, as specified in the [Symbol](symbol.md) enumeration. You can use a [SymbolIcon](symbolicon.md) by setting the [Icon](appbarbutton_icon.md) property of an [AppBarButton](appbarbutton.md) directly to a value of the [Symbol](symbol.md) enumeration.
+The most common way to specify the icon for an app bar button is to use one of the standard glyphs provided by the Segoe MDL2 Assets font, as specified in the [Symbol](symbol.md) enumeration. You can use a SymbolIcon by setting the [Icon](appbarbutton_icon.md) property of an [AppBarButton](appbarbutton.md) directly to a value of the [Symbol](symbol.md) enumeration.
 
 > [!NOTE]
-> You can set the **Foreground** property on the [AppBarButton](appbarbutton.md) or on the [SymbolIcon](symbolicon.md). If you set the [Foreground](control_foreground.md) on the [AppBarButton](appbarbutton.md), it's applied only to the default visual state. It's not applied to the other visual states defined in the [AppBarButton](appbarbutton.md) template, like `MouseOver`. If you set the [Foreground](iconelement_foreground.md) on the [SymbolIcon](symbolicon.md), the color is applied to all visual states.
+> You can set the **Foreground** property on the [AppBarButton](appbarbutton.md) or on the SymbolIcon. If you set the [Foreground](control_foreground.md) on the [AppBarButton](appbarbutton.md), it's applied only to the default visual state. It's not applied to the other visual states defined in the [AppBarButton](appbarbutton.md) template, like `MouseOver`. If you set the [Foreground](iconelement_foreground.md) on the SymbolIcon, the color is applied to all visual states.
 
 > **Windows 8/8.1**
 > On Windows 8, the standard glyphs are provided by the Segoe UI Symbol font.
 
 ## -examples
-This example shows two ways to use a [SymbolIcon](symbolicon.md) an [AppBarButton](appbarbutton.md). The second button icon has its [Foreground](iconelement_foreground.md) set to "Green".
+This example shows two ways to use a SymbolIcon an [AppBarButton](appbarbutton.md). The second button icon has its [Foreground](iconelement_foreground.md) set to "Green".
 
 ```xaml
 

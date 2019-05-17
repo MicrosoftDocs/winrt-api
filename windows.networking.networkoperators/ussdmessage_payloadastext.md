@@ -24,7 +24,7 @@ Gets or sets the payload of this [UssdMessage](ussdmessage_ussdmessage_290278668
 The payload of this [UssdMessage](ussdmessage_ussdmessage_290278668.md) as text.
 
 ## -remarks
-The [PayloadAsText](ussdmessage_payloadastext.md) property can be used with the default [DataCodingScheme](ussdmessage_datacodingscheme.md) value, which supports only ASCII characters. The maximum length of a message is using the default data-coding scheme is 182 characters.
+The PayloadAsText property can be used with the default [DataCodingScheme](ussdmessage_datacodingscheme.md) value, which supports only ASCII characters. The maximum length of a message is using the default data-coding scheme is 182 characters.
 
 ## -examples
 

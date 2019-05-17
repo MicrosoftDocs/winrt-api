@@ -17,7 +17,7 @@ Gets the maximum number of text fragments allowed for a message. This value has 
 The maximum number of parts.
 
 ## -remarks
-The SMS text portion of a message is divided into multiple parts if necessary. The [MaxPartCount](chatmessagevalidationresult_maxpartcount.md) value is the total count of parts allowed for any message.
+The SMS text portion of a message is divided into multiple parts if necessary. The MaxPartCount value is the total count of parts allowed for any message.
 
 ## -examples
 

@@ -41,7 +41,7 @@ The [CertificateRequestProperties](certificaterequestproperties.md) object conta
    <tr><td>[KeyStorageProviderName](certificaterequestproperties_keystorageprovidername.md)</td><td>Microsoft Software Key Storage Provider</td></tr>
 </table>
 
-While the [CreateRequestAsync](certificateenrollmentmanager_createrequestasync_1910274509.md) method creates the certificate request, you will need to submit the request to an http enrollment end point. You can then take the response from the http enrollment end point and then call the [InstallCertificateAsync](certificateenrollmentmanager_installcertificateasync_225635424.md) method to install the response.
+While the CreateRequestAsync method creates the certificate request, you will need to submit the request to an http enrollment end point. You can then take the response from the http enrollment end point and then call the [InstallCertificateAsync](certificateenrollmentmanager_installcertificateasync_225635424.md) method to install the response.
 
 
 

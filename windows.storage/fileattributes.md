@@ -33,7 +33,7 @@ The item is locally incomplete. Windows only.
 
 
 ## -remarks
-The [FileAttributes](fileattributes.md) enumeration is used with the [StorageFile.Attributes](storagefile_attributes.md) and [StorageFolder.Attributes](storagefolder_attributes.md) properties.
+The FileAttributes enumeration is used with the [StorageFile.Attributes](storagefile_attributes.md) and [StorageFolder.Attributes](storagefolder_attributes.md) properties.
 
 
 

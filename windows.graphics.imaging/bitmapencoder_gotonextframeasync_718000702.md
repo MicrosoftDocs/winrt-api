@@ -18,7 +18,7 @@ An object that manages the asynchronous operation of committing the current fram
 ## -remarks
 After this method is called, data on the just-committed frame is no longer accessible. Instead, a new, empty frame is appended to the image and subsequent reads and writes on the [BitmapEncoder](bitmapencoder.md) will access this frame. You can't "rewind" to a previously committed frame.
 
-Don't call this method if the current frame is intended to be the last frame in the image, as this will result in a superfluous, empty frame at the end of the image. Instead, call [FlushAsync](bitmapencoder_flushasync_491532439.md) which will commit the frame and close the entire [BitmapEncoder](bitmapencoder.md). For example, in most scenarios the application only needs to save a single-frame image. In these cases [GoToNextFrameAsync](bitmapencoder_gotonextframeasync_718000702.md) should never be called.
+Don't call this method if the current frame is intended to be the last frame in the image, as this will result in a superfluous, empty frame at the end of the image. Instead, call [FlushAsync](bitmapencoder_flushasync_491532439.md) which will commit the frame and close the entire [BitmapEncoder](bitmapencoder.md). For example, in most scenarios the application only needs to save a single-frame image. In these cases GoToNextFrameAsync should never be called.
 
 The first time this method is called, all container level data as well as the first frame data is committed. Afterwards, any attempts to access container level data will fail.
 

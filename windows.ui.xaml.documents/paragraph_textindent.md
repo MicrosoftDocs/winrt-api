@@ -22,7 +22,7 @@ Gets or sets the indentation of the first line of text in a paragraph, in pixels
 The offset amount, in pixels, of the first line of text in a paragraph.
 
 ## -remarks
-You can set the indent amount for all paragraphs in a [RichTextBlock](../windows.ui.xaml.controls/richtextblock.md) by setting the [RichTextBlock.TextIndent](../windows.ui.xaml.controls/richtextblock_textindent.md) property. You can override this setting for specific paragraphs in a [RichTextBlock](../windows.ui.xaml.controls/richtextblock.md) by setting the [Paragraph.TextIndent](paragraph_textindent.md) property to a different value.
+You can set the indent amount for all paragraphs in a [RichTextBlock](../windows.ui.xaml.controls/richtextblock.md) by setting the [RichTextBlock.TextIndent](../windows.ui.xaml.controls/richtextblock_textindent.md) property. You can override this setting for specific paragraphs in a [RichTextBlock](../windows.ui.xaml.controls/richtextblock.md) by setting the Paragraph.TextIndent property to a different value.
 
 ## -examples
 

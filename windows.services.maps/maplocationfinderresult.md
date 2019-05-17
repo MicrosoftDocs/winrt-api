@@ -13,7 +13,7 @@ public class MapLocationFinderResult : Windows.Services.Maps.IMapLocationFinderR
 Returns the result of a [MapLocationFinder](maplocationfinder.md) query.
 
 ## -remarks
-A [MapLocationFinderResult](maplocationfinderresult.md) is returned when you call the methods of the [MapLocationFinder](maplocationfinder.md) class.
+A MapLocationFinderResult is returned when you call the methods of the [MapLocationFinder](maplocationfinder.md) class.
 
 Your [Universal Windows app](https://msdn.microsoft.com/windows/uwp/get-started/universal-application-platform-guide) must be authenticated before it can use the [MapControl](../windows.ui.xaml.controls.maps/mapcontrol.md) and map services in the [Windows.Services.Maps](windows_services_maps.md) namespace. To authenticate your app, you must specify a maps authentication key.
 

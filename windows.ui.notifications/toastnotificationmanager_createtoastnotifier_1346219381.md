@@ -22,7 +22,7 @@ Do not use this overload when creating a toast notifier for a desktop app. Use [
 If your app uses a background voice-over-Internet protocol (VOIP) agent, it must specify the app ID to show a toast. Use the [CreateToastNotifier(appID)](toastnotificationmanager_createtoastnotifier_163337301.md) method overload.
 
 ## -examples
-The following example shows how to create and send a toast notification that includes text and images, including the use of the [CreateToastNotifier](toastnotificationmanager_createtoastnotifier_1346219381.md) method.
+The following example shows how to create and send a toast notification that includes text and images, including the use of the CreateToastNotifier method.
 
 ```javascript
 

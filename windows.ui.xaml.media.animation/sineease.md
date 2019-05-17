@@ -19,7 +19,7 @@ Represents an easing function that creates an animation that accelerates and/or 
 
 
 ## -remarks
-[SineEase](sineease.md) is an easing function that has a function-over-time formula that resembles a sine curve when represented as a function-time graph. When [EasingMode](easingfunctionbase_easingmode.md) is **EaseIn** (the default), this easing function starts slow and accelerates gradually as it reaches the end. It reaches about 30% value halfway through the duration.
+SineEase is an easing function that has a function-over-time formula that resembles a sine curve when represented as a function-time graph. When [EasingMode](easingfunctionbase_easingmode.md) is **EaseIn** (the default), this easing function starts slow and accelerates gradually as it reaches the end. It reaches about 30% value halfway through the duration.
 
 The formula used for this function is:
 
@@ -28,7 +28,7 @@ The formula used for this function is:
 An easing function can be applied to the **EasingFunction** properties of **From**/**To**/**By** animations, or to the **EasingFunction** properties of key-frame types used for the **Easing** variants of key-frame animations. For more info, see [Key-frame animations and easing function animations](https://msdn.microsoft.com/library/d8af24cd-f4c2-4562-afd7-25010955d677).
 
 ## -examples
-This XAML example applies a [SineEase](sineease.md) easing function to a [DoubleAnimation](doubleanimation.md) to create a decelerating animation.
+This XAML example applies a SineEase easing function to a [DoubleAnimation](doubleanimation.md) to create a decelerating animation.
 
 
 

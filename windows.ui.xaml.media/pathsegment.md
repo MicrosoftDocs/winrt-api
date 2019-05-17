@@ -13,7 +13,7 @@ public class PathSegment : Windows.UI.Xaml.DependencyObject, Windows.UI.Xaml.Med
 Represents a segment of a [PathFigure](pathfigure.md) object. Derived classes of [PathFigure](pathfigure.md) describe different types of segments.
 
 ## -remarks
-[PathSegmentCollection](pathsegmentcollection.md) is a strongly typed collection for [PathSegment](pathsegment.md) items. [PathSegmentCollection](pathsegmentcollection.md) is the type used by the [PathFigure.Segments](pathfigure_segments.md) property. In XAML, specify one or more of the element types that derive from [PathSegment](pathsegment.md) for this property.
+[PathSegmentCollection](pathsegmentcollection.md) is a strongly typed collection for PathSegment items. [PathSegmentCollection](pathsegmentcollection.md) is the type used by the [PathFigure.Segments](pathfigure_segments.md) property. In XAML, specify one or more of the element types that derive from PathSegment for this property.
 
 ### **PathSegment** derived classes
 

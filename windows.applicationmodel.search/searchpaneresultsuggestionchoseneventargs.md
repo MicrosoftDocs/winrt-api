@@ -19,7 +19,7 @@ This object is passed to an app's [resultsuggestionchosen](searchpane_resultsugg
 The [Search contract sample](https://go.microsoft.com/fwlink/p/?linkid=234892) demonstrates how to register a [resultsuggestionchosen](searchpane_resultsuggestionchosen.md) event handler.
 
 > [!NOTE]
-> You can get information about the event from the [searchPaneResultSuggestionChosenEventArgs](searchpaneresultsuggestionchoseneventargs.md) object that is passed to your [resultsuggestionchosen](searchpane_resultsuggestionchosen.md) event handler.
+> You can get information about the event from the searchPaneResultSuggestionChosenEventArgs object that is passed to your [resultsuggestionchosen](searchpane_resultsuggestionchosen.md) event handler.
 
 
 

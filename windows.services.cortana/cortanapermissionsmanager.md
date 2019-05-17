@@ -19,9 +19,9 @@ cortanaPermissions
 
 ## -remarks
 
-This is a static class, you do not need to get a [CortanaPermissionsManager](cortanapermissionsmanager.md) object to access its members.
+This is a static class, you do not need to get a CortanaPermissionsManager object to access its members.
 
-The [CortanaPermissionManager](cortanapermissionsmanager.md) class requires the following be added to the Package.appmanifest:
+The CortanaPermissionManager class requires the following be added to the Package.appmanifest:
 
 - To \<Package\>
   - `xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities"`

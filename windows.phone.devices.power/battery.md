@@ -13,7 +13,7 @@ public class Battery : Windows.Phone.Devices.Power.IBattery
 Provides information about the status of the phone's battery.
 
 ## -remarks
-Use the [GetDefault](battery_getdefault_846721868.md) method to retrieve an instance of the [Battery](battery.md) class.
+Use the [GetDefault](battery_getdefault_846721868.md) method to retrieve an instance of the Battery class.
 
 ## -examples
 

@@ -25,7 +25,7 @@ Gets or sets the property to apply the [Value](setter_value.md) to.
 A [DependencyProperty](dependencyproperty.md) to which the [Value](setter_value.md) will be applied. The default is **null**.
 
 ## -remarks
-You must specify both the [Property](setter_property.md) and [Value](setter_value.md) properties on a [Setter](setter.md). Otherwise an exception is thrown (either a parse exception or runtime error, depending on whether the [Setter](setter.md) is created in XAML or modified in code).
+You must specify both the Property and [Value](setter_value.md) properties on a [Setter](setter.md). Otherwise an exception is thrown (either a parse exception or runtime error, depending on whether the [Setter](setter.md) is created in XAML or modified in code).
 
 If you're accessing a [Setter](setter.md) instance using code, you cannot change the value of any property of a [Setter](setter.md) instance if the value of the [IsSealed](style_issealed.md) property on a parent [Style](style.md) is **true**. This is also reported by the [IsSealed](setterbase_issealed.md) property on an individual [Setter](setter.md). The system sets these properties to **true** when the runtime applies styles to UI elements and displays them in the UI. Attempting to change a sealed [Setter](setter.md) throws a runtime error.
 
@@ -36,14 +36,14 @@ You can use a [Setter](setter.md) to style an attached property. In this case th
 
 ### Identifying dependency properties
 
-As noted, you can only use a [Setter](setter.md) to adjust a property through a style if the property in question is a dependency property. The UI properties where there's a scenario for applying a style are almost always implemented as dependency properties by the Windows Runtime, and settable properties that aren't a dependency property on UI elements are quite rare. If you want to verify that a Windows Runtime property is a dependency property, check the members lists for the type that originally defines the property. If a property is in fact a dependency property, the dependency property identifier will exist on that class also, and that identifier has the same name as the property itself but with the suffix **Property** added. This dependency property identifier is a static read-only property that's useful in some dependency property scenarios through code. For example you could use such an identifier value in code to adjust an existing [Setter.Property](setter_property.md) value so long as the parent style isn't already sealed.
+As noted, you can only use a [Setter](setter.md) to adjust a property through a style if the property in question is a dependency property. The UI properties where there's a scenario for applying a style are almost always implemented as dependency properties by the Windows Runtime, and settable properties that aren't a dependency property on UI elements are quite rare. If you want to verify that a Windows Runtime property is a dependency property, check the members lists for the type that originally defines the property. If a property is in fact a dependency property, the dependency property identifier will exist on that class also, and that identifier has the same name as the property itself but with the suffix **Property** added. This dependency property identifier is a static read-only property that's useful in some dependency property scenarios through code. For example you could use such an identifier value in code to adjust an existing Setter.Property value so long as the parent style isn't already sealed.
 
 ### Using a Setter for a custom property
 
 For your own custom properties you should declare the property as a dependency property if you want to support styles, as well as for other scenarios such as data binding or animation. If you do so your custom property is also supported for styling on any [Style](style.md) with a [TargetType](style_targettype.md) that references your custom type. For more info, see [Custom dependency properties](https://msdn.microsoft.com/library/5adf7935-f2cf-4bb6-b1a5-f535c2ed8ef8) or [TargetType](style_targettype.md).
 
 ## -examples
-This example creates two styles: one for a [TextBlock](../windows.ui.xaml.controls/textblock.md) and one for a [TextBox](../windows.ui.xaml.controls/textbox.md). When setting [Property](setter_property.md) attribute values in XAML, you are specifying the name of the property.
+This example creates two styles: one for a [TextBlock](../windows.ui.xaml.controls/textblock.md) and one for a [TextBox](../windows.ui.xaml.controls/textbox.md). When setting Property attribute values in XAML, you are specifying the name of the property.
 
 
 

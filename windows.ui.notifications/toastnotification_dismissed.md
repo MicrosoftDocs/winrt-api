@@ -17,7 +17,7 @@ Occurs when a toast notification leaves the screen, either by expiring or being 
 The [ToastDismissalReason](toastdismissalreason.md) is included in the [ToastDismissedEventArgs](toastdismissedeventargs.md) parameter.
 
 ## -examples
-The following example shows how to listen for and handle the [Dismissed](toastnotification_dismissed.md) event.
+The following example shows how to listen for and handle the Dismissed event.
 
 ```javascript
 

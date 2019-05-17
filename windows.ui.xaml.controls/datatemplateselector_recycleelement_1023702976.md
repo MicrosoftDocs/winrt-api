@@ -32,6 +32,6 @@ For more info, see the remarks for the [DataTemplate.RecycleElement](../windows.
   * [RecycleElement](../windows.ui.xaml/datatemplate_recycleelement_1023702976.md)
 * DataTemplateSelector
   * [GetElement](datatemplateselector_getelement_92222689.md)
-  * [RecycleElement](datatemplateselector_recycleelement_1023702976.md)
+  * RecycleElement
 
 ## -examples

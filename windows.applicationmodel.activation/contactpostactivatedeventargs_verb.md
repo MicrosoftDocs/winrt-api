@@ -16,7 +16,7 @@ Gets the action to be performed.
 The action to be performed.
 
 ## -remarks
-Use the [Verb](contactpostactivatedeventargs_verb.md) property to determine the action to perform when your app is activated with [ActivationKind.Contact](activationkind.md). For post activations, the [Verb](contactpostactivatedeventargs_verb.md) property is set to the value of [Windows.ApplicationModel.Contacts.ContactLaunchActionVerbs.Post](../windows.applicationmodel.contacts/contactlaunchactionverbs_post.md).
+Use the Verb property to determine the action to perform when your app is activated with [ActivationKind.Contact](activationkind.md). For post activations, the Verb property is set to the value of [Windows.ApplicationModel.Contacts.ContactLaunchActionVerbs.Post](../windows.applicationmodel.contacts/contactlaunchactionverbs_post.md).
 
 ## -examples
 

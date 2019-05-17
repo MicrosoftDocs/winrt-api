@@ -14,7 +14,7 @@ public class ClaimedJournalPrinter : Windows.Devices.PointOfService.IClaimedJour
 Represents a journal printer station that has been claimed for use.
 
 ## -remarks
-To get a [ClaimedJournalPrinter](claimedjournalprinter.md) object, use the [ClaimedPosPrinter.Journal](claimedposprinter_journal.md) property.
+To get a ClaimedJournalPrinter object, use the [ClaimedPosPrinter.Journal](claimedposprinter_journal.md) property.
 
 ## -examples
 

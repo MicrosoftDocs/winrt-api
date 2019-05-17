@@ -12,7 +12,7 @@ public int TryUpdateScaleWithAdditionalVelocity(System.Single velocityInPercentP
 ## -description
 Tries to update the scale by adding the specified velocity.
 
-The [TryUpdateScaleWithAdditionalVelocity](interactiontracker_tryupdatescalewithadditionalvelocity_294808182.md) method adds the inputted scalar representing additional velocity to the current velocity of [InteractionTracker](interactiontracker.md) as well as shifts the centerpoint to the inputted Vector3. As a result, because the velocity of [InteractionTracker](interactiontracker.md) has now changed, the targeted rest scale position for [InteractionTracker](interactiontracker.md) now changes. [TryUpdateScaleWithAdditionalVelocity](interactiontracker_tryupdatescalewithadditionalvelocity_294808182.md) can be called from either Idle, Inertia or CustomAnimation states – doing so will either add or update the velocity of InteractionTracker and enter the Inertia state.
+The TryUpdateScaleWithAdditionalVelocity method adds the inputted scalar representing additional velocity to the current velocity of [InteractionTracker](interactiontracker.md) as well as shifts the centerpoint to the inputted Vector3. As a result, because the velocity of [InteractionTracker](interactiontracker.md) has now changed, the targeted rest scale position for [InteractionTracker](interactiontracker.md) now changes. TryUpdateScaleWithAdditionalVelocity can be called from either Idle, Inertia or CustomAnimation states – doing so will either add or update the velocity of InteractionTracker and enter the Inertia state.
 
 ## -parameters
 ### -param velocityInPercentPerSecond
@@ -25,7 +25,7 @@ The new center point.
 Returns the request ID. On state transitions, the request which caused the change in state will be included in the args. These IDs will start at 1 and increase with each try call during the lifetime of the application.
 
 ## -remarks
-If [InteractionTracker](interactiontracker.md) is in its Interacting State (user actively manipulating), and [TryUpdateScaleWithAdditionalVelocity](interactiontracker_tryupdatescalewithadditionalvelocity_294808182.md) is called, the system will ignore this request – an event gets fired when this occurs that can be listened for. If sent from one of the other states, listen for the event fired for [InertiaStateEntered](iinteractiontrackerowner_inertiastateentered_615555038.md) and check the RequestId property that identifies which request triggered the callback.
+If [InteractionTracker](interactiontracker.md) is in its Interacting State (user actively manipulating), and TryUpdateScaleWithAdditionalVelocity is called, the system will ignore this request – an event gets fired when this occurs that can be listened for. If sent from one of the other states, listen for the event fired for [InertiaStateEntered](iinteractiontrackerowner_inertiastateentered_615555038.md) and check the RequestId property that identifies which request triggered the callback.
 
 The table below summarizes the expected behavior when this method is called in a particular state:
 

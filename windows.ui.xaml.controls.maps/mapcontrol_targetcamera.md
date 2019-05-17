@@ -16,7 +16,7 @@ Gets the [MapCamera](mapcamera.md) settings that define the final position of th
 The [MapCamera](mapcamera.md) settings that define the final position of the camera.
 
 ## -remarks
-During an animation of the map, the [ActualCamera](mapcontrol_actualcamera.md) defines the current position of the map's camera and [TargetCamera](mapcontrol_targetcamera.md) defines the final position of the camera.
+During an animation of the map, the [ActualCamera](mapcontrol_actualcamera.md) defines the current position of the map's camera and TargetCamera defines the final position of the camera.
 
 ## -examples
 

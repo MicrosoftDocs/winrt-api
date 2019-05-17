@@ -16,7 +16,7 @@ Gets the action to be performed.
 The action to be performed.
 
 ## -remarks
-Use the [Verb](webuicontactmapactivatedeventargs_verb.md) property to determine the action to perform when your app is activated with [ActivationKind.Contact](../windows.applicationmodel.activation/activationkind.md). For map activations, the [Verb](webuicontactmapactivatedeventargs_verb.md) property is set to the value of [Windows.ApplicationModel.Contacts.ContactLaunchActionVerbs.Map](../windows.applicationmodel.contacts/contactlaunchactionverbs_map.md).
+Use the Verb property to determine the action to perform when your app is activated with [ActivationKind.Contact](../windows.applicationmodel.activation/activationkind.md). For map activations, the Verb property is set to the value of [Windows.ApplicationModel.Contacts.ContactLaunchActionVerbs.Map](../windows.applicationmodel.contacts/contactlaunchactionverbs_map.md).
 
 ## -examples
 

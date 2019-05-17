@@ -23,7 +23,7 @@ Represents a composite [Transform](transform.md) composed of other [Transform](t
 ## -remarks
 
 ## -examples
-This example shows the markup for using a [TransformGroup](transformgroup.md) to fill the [RenderTransform](../windows.ui.xaml/uielement_rendertransform.md) property.
+This example shows the markup for using a TransformGroup to fill the [RenderTransform](../windows.ui.xaml/uielement_rendertransform.md) property.
 
 
 

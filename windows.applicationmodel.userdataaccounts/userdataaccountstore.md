@@ -13,7 +13,7 @@ public class UserDataAccountStore : Windows.ApplicationModel.UserDataAccounts.IU
 Represents a data store that contains user accounts.
 
 ## -remarks
-Call [RequestStoreAsync](userdataaccountmanager_requeststoreasync_1031356348.md) to get an instance of [UserDataAccountStore](userdataaccountstore.md).
+Call [RequestStoreAsync](userdataaccountmanager_requeststoreasync_1031356348.md) to get an instance of UserDataAccountStore.
 
 ## -examples
 

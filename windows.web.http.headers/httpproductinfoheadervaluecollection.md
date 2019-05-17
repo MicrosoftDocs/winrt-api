@@ -13,16 +13,16 @@ public class HttpProductInfoHeaderValueCollection : Windows.Foundation.Collectio
 Represents the value of the **User-Agent** HTTP header on an HTTP request.
 
 ## -remarks
-The [HttpProductInfoHeaderValueCollection](httpproductinfoheadervaluecollection.md) represents the value of the **User-Agent** HTTP header on an HTTP request.
+The HttpProductInfoHeaderValueCollection represents the value of the **User-Agent** HTTP header on an HTTP request.
 
-The [HttpProductInfoHeaderValueCollection](httpproductinfoheadervaluecollection.md) is a collection of [HttpProductInfoHeaderValue](httpproductinfoheadervalue.md) objects used for product information in the HTTP **User-Agent** header.
+The HttpProductInfoHeaderValueCollection is a collection of [HttpProductInfoHeaderValue](httpproductinfoheadervalue.md) objects used for product information in the HTTP **User-Agent** header.
 
 The **User-Agent** header contains information about the user agent originating the request. The **User-Agent** header can contain multiple product tokens and comments identifying the user agent and any sub-products.
 
-The [UserAgent](httprequestheadercollection_useragent.md) property on the [HttpRequestHeaderCollection](httprequestheadercollection.md) returns an [HttpProductInfoHeaderValueCollection](httpproductinfoheadervaluecollection.md) object.
+The [UserAgent](httprequestheadercollection_useragent.md) property on the [HttpRequestHeaderCollection](httprequestheadercollection.md) returns an HttpProductInfoHeaderValueCollection object.
 
 ## -examples
-The following sample code shows a method to get and set the **User-Agent** HTTP header on an [HttpRequestMessage](../windows.web.http/httprequestmessage.md) object using the properties and methods on the [HttpProductInfoHeaderValueCollection](httpproductinfoheadervaluecollection.md) and [HttpProductInfoHeaderValue](httpproductinfoheadervalue.md) classes.
+The following sample code shows a method to get and set the **User-Agent** HTTP header on an [HttpRequestMessage](../windows.web.http/httprequestmessage.md) object using the properties and methods on the HttpProductInfoHeaderValueCollection and [HttpProductInfoHeaderValue](httpproductinfoheadervalue.md) classes.
 
 ```csharp
 

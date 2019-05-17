@@ -23,7 +23,7 @@ The collection of "wet" ink strokes to pass to the [IInkD2DRenderer](https://msd
 ## -remarks
 #### Error codes
 ##### E_ILLEGAL_METHOD_CALL  (0x8000000E)
-Thrown if [BeginDry](inksynchronizer_begindry_793652329.md) is called again, before [EndDry](inksynchronizer_enddry_671680857.md) is called.
+Thrown if BeginDry is called again, before [EndDry](inksynchronizer_enddry_671680857.md) is called.
 
 ## -examples
 

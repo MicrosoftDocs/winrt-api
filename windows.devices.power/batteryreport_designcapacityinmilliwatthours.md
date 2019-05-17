@@ -19,7 +19,7 @@ The estimated energy capacity of a new battery of this type, in milliwatt-hours 
 ## -remarks
 This property is not supported by all battery controllers. Some battery controllers might return the same value as [FullChargeCapacityInMilliwattHours](batteryreport_fullchargecapacityinmilliwatthours.md) or return no value at all.
 
-When this property is supported, the capacity ratio is the ratio of [FullChargeCapacityInMilliwattHours](batteryreport_fullchargecapacityinmilliwatthours.md) to [DesignCapacityInMilliwattHours](batteryreport_designcapacityinmilliwatthours.md). [FullChargeCapacityInMilliwattHours](batteryreport_fullchargecapacityinmilliwatthours.md) is used in this way because the full charge capacity typically changes with battery wear.
+When this property is supported, the capacity ratio is the ratio of [FullChargeCapacityInMilliwattHours](batteryreport_fullchargecapacityinmilliwatthours.md) to DesignCapacityInMilliwattHours. [FullChargeCapacityInMilliwattHours](batteryreport_fullchargecapacityinmilliwatthours.md) is used in this way because the full charge capacity typically changes with battery wear.
 
 ## -examples
 

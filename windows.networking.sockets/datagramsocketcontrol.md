@@ -15,13 +15,13 @@ Provides socket control data on a [DatagramSocket](datagramsocket.md) object.
 
 ## -remarks
 
-The [DatagramSocketControl](datagramsocketcontrol.md) class provides access to advanced socket control data on a [DatagramSocket](datagramsocket.md) object.
+The DatagramSocketControl class provides access to advanced socket control data on a [DatagramSocket](datagramsocket.md) object.
 
-A [DatagramSocketControl](datagramsocketcontrol.md) object is automatically created with the parent [DatagramSocket](datagramsocket.md) object. The [DatagramSocket.Control](datagramsocket_control.md) property provides access to the associated [DatagramSocketControl](datagramsocketcontrol.md) object.
+A DatagramSocketControl object is automatically created with the parent [DatagramSocket](datagramsocket.md) object. The [DatagramSocket.Control](datagramsocket_control.md) property provides access to the associated DatagramSocketControl object.
 
 The [OutboundUnicastHopLimit](datagramsocketcontrol_outboundunicasthoplimit.md) property can be set before or after the [DatagramSocket](datagramsocket.md) is bound or connected. Before changing this value on a bound or connected [DatagramSocket](datagramsocket.md), any outgoing packets should first be flushed to ensure that all previously-written data is sent out with the previous hop limit.
 
-Any changes to the other property values on the [DatagramSocketControl](datagramsocketcontrol.md) must be set before the [DatagramSocket](datagramsocket.md) is bound or connected. As a result if you need to make changes to the [DontFragment](datagramsocketcontrol_dontfragment.md), [InboundBufferSizeInBytes](datagramsocketcontrol_inboundbuffersizeinbytes.md), or [QualityOfService](datagramsocketcontrol_qualityofservice.md) properties, then these changes must occur before a successful call to the [BindEndpointAsync](datagramsocket_bindendpointasync_1396029045.md), [BindServiceNameAsync](datagramsocket_bindservicenameasync_440542334.md), or one of the [ConnectAsync](datagramsocket_connectasync_13692504.md) methods on the [DatagramSocket](datagramsocket.md).
+Any changes to the other property values on the DatagramSocketControl must be set before the [DatagramSocket](datagramsocket.md) is bound or connected. As a result if you need to make changes to the [DontFragment](datagramsocketcontrol_dontfragment.md), [InboundBufferSizeInBytes](datagramsocketcontrol_inboundbuffersizeinbytes.md), or [QualityOfService](datagramsocketcontrol_qualityofservice.md) properties, then these changes must occur before a successful call to the [BindEndpointAsync](datagramsocket_bindendpointasync_1396029045.md), [BindServiceNameAsync](datagramsocket_bindservicenameasync_440542334.md), or one of the [ConnectAsync](datagramsocket_connectasync_13692504.md) methods on the [DatagramSocket](datagramsocket.md).
 
 The following example creates a [DatagramSocket](datagramsocket.md), and then demonstrates how to set the [QualityOfService](datagramsocketcontrol_qualityofservice.md) property to **LowLatency**. Other properties may be set in a similar manner. After this is done, the app can connect the [DatagramSocket](datagramsocket.md) or send data on the socket.
 
@@ -84,7 +84,7 @@ clientSocket.control.QualityOfService = SocketQualityOfService.lowLatency;
 // Now you can call the ConnectAsync method to connect the DatagramSocket.
 ```
 
-For more information on using [DatagramSocketControl](datagramsocketcontrol.md), see [How to use advanced socket controls ](https://msdn.microsoft.com/library/2e1071d8-a1c7-44c0-b93a-31a701d431c4) and [How to use advanced socket controls ](https://msdn.microsoft.com/library/f2c5be73-3461-452e-a38f-d2ddef9b5682).
+For more information on using DatagramSocketControl, see [How to use advanced socket controls ](https://msdn.microsoft.com/library/2e1071d8-a1c7-44c0-b93a-31a701d431c4) and [How to use advanced socket controls ](https://msdn.microsoft.com/library/f2c5be73-3461-452e-a38f-d2ddef9b5682).
 
 ## -examples
 

@@ -14,7 +14,7 @@ public Windows.Foundation.Collections.IVectorView<Windows.Media.IMediaMarker> Ma
 Gets the collection of timeline markers associated with the [SpeechSynthesisStream](speechsynthesisstream.md).
 
 > [!NOTE] 
-> [SpeechSynthesisStream.Markers](speechsynthesisstream_markers.md) is deprecated. We recommend using the [MediaPlayerElement](../windows.ui.xaml.controls/mediaplayerelement.md) and [MediaPlaybackItem](../windows.media.playback/mediaplaybackitem.md) objects instead (in conjunction with the [IncludeSentenceBoundaryMetadata](speechsynthesizeroptions_includesentenceboundarymetadata.md) and [IncludeWordBoundaryMetadata](speechsynthesizeroptions_includewordboundarymetadata.md) properties of a [SpeechSynthesizerOptions](speechsynthesizeroptions.md) object).
+> SpeechSynthesisStream.Markers is deprecated. We recommend using the [MediaPlayerElement](../windows.ui.xaml.controls/mediaplayerelement.md) and [MediaPlaybackItem](../windows.media.playback/mediaplaybackitem.md) objects instead (in conjunction with the [IncludeSentenceBoundaryMetadata](speechsynthesizeroptions_includesentenceboundarymetadata.md) and [IncludeWordBoundaryMetadata](speechsynthesizeroptions_includewordboundarymetadata.md) properties of a [SpeechSynthesizerOptions](speechsynthesizeroptions.md) object).
 
 ## -property-value
 

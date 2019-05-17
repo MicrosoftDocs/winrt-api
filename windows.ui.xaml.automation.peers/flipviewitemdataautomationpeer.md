@@ -13,11 +13,11 @@ public class FlipViewItemDataAutomationPeer : Windows.UI.Xaml.Automation.Peers.S
 Exposes the data content of a [FlipViewItem](../windows.ui.xaml.controls/flipviewitem.md) to Microsoft UI Automation.
 
 ## -remarks
- [FlipViewItemDataAutomationPeer](flipviewitemdataautomationpeer.md) is generated from [FlipViewAutomationPeer](flipviewautomationpeer.md) logic, not an associated control class.
+ FlipViewItemDataAutomationPeer is generated from [FlipViewAutomationPeer](flipviewautomationpeer.md) logic, not an associated control class.
 
 ### Default peer implementation and overrides in **FlipViewItemDataAutomationPeer**
 
-[FlipViewItemDataAutomationPeer](flipviewitemdataautomationpeer.md) has overrides of **Core** methods such that the associated [AutomationPeer](automationpeer.md) methods provide peer-specific information to a Microsoft UI Automation client.
+FlipViewItemDataAutomationPeer has overrides of **Core** methods such that the associated [AutomationPeer](automationpeer.md) methods provide peer-specific information to a Microsoft UI Automation client.
 
 + [GetPattern](automationpeer_getpattern_2046576749.md) reports that the peer supports [PatternInterface.ScrollItem](patterninterface.md) ([IScrollItemProvider](../windows.ui.xaml.automation.provider/iscrollitemprovider.md)). The base [SelectorItemAutomationPeer](selectoritemautomationpeer.md) supports [PatternInterface.SelectionItem](patterninterface.md) ([ISelectionItemProvider](../windows.ui.xaml.automation.provider/iselectionitemprovider.md)) and the base [ItemAutomationPeer](itemautomationpeer.md) supports [PatternInterface.VirtualizedItem](patterninterface.md) ([IVirtualizedItemProvider](../windows.ui.xaml.automation.provider/ivirtualizeditemprovider.md)).
 + [GetClassName](automationpeer_getclassname_614238974.md) returns "FlipViewItem".

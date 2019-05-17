@@ -15,7 +15,7 @@ Gets the default font family based on an app's language settings.
 ## -property-value
 The default font family based on an app's language settings. See Remarks.
 ## -remarks
-[XamlAutoFontFamily](fontfamily_xamlautofontfamily.md) is the default **FontFamily** property setting for all XAML controls. The [FontFamily](fontfamily.md) that this property gets at run time depends on the app language.
+XamlAutoFontFamily is the default **FontFamily** property setting for all XAML controls. The [FontFamily](fontfamily.md) that this property gets at run time depends on the app language.
 
 <table>
    <tr><th>Language</th><th>Default FontFamily</th></tr>

@@ -13,18 +13,18 @@ public class ComboBoxAutomationPeer : Windows.UI.Xaml.Automation.Peers.SelectorA
 Exposes [ComboBox](../windows.ui.xaml.controls/combobox.md) types to Microsoft UI Automation.
 
 ## -remarks
-The Windows Runtime  [ComboBox](../windows.ui.xaml.controls/combobox.md) class creates a new [ComboBoxAutomationPeer](comboboxautomationpeer.md) as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. Derive your automation peer from [ComboBoxAutomationPeer](comboboxautomationpeer.md) if you are deriving a custom class from [ComboBox](../windows.ui.xaml.controls/combobox.md) and want to add automation support for additional features that you enabled in your custom class. Then override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) so that it returns your custom peer.
+The Windows Runtime  [ComboBox](../windows.ui.xaml.controls/combobox.md) class creates a new ComboBoxAutomationPeer as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. Derive your automation peer from ComboBoxAutomationPeer if you are deriving a custom class from [ComboBox](../windows.ui.xaml.controls/combobox.md) and want to add automation support for additional features that you enabled in your custom class. Then override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) so that it returns your custom peer.
 
 ### Default peer implementation and overrides in **ComboBoxAutomationPeer**
 
-[ComboBoxAutomationPeer](comboboxautomationpeer.md) has overrides of **Core** methods such that the associated [AutomationPeer](automationpeer.md) methods provide peer-specific information to a Microsoft UI Automation client.
+ComboBoxAutomationPeer has overrides of **Core** methods such that the associated [AutomationPeer](automationpeer.md) methods provide peer-specific information to a Microsoft UI Automation client.
 
 + [GetPattern](automationpeer_getpattern_2046576749.md) reports that the peer provides pattern support for these patterns:
 + [PatternInterface.Value](patterninterface.md) ([IValueProvider](../windows.ui.xaml.automation.provider/ivalueprovider.md))
 + [PatternInterface.Selection](patterninterface.md) ([ISelectionProvider](../windows.ui.xaml.automation.provider/iselectionprovider.md))
 + [PatternInterface.ItemContainer](patterninterface.md) ([IItemContainerProvider](../windows.ui.xaml.automation.provider/iitemcontainerprovider.md))
 + [PatternInterface.ExpandCollapse](patterninterface.md) ([IExpandCollapseProvider](../windows.ui.xaml.automation.provider/iexpandcollapseprovider.md))
- This is the accumulated pattern support from each of the peer base classes and [ComboBoxAutomationPeer](comboboxautomationpeer.md) itself.
+ This is the accumulated pattern support from each of the peer base classes and ComboBoxAutomationPeer itself.
 + [GetClassName](automationpeer_getclassname_614238974.md) returns "ComboBox".
 + [GetAutomationControlType](automationpeer_getautomationcontroltype_1156384152.md) returns [AutomationControlType.ComboBox](automationcontroltype.md).
 + [GetChildren](automationpeer_getchildren_555647254.md) provides peers for contained elements. See [ComboBoxItemAutomationPeer](comboboxitemautomationpeer.md).

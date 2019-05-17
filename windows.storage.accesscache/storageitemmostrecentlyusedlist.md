@@ -18,7 +18,7 @@ Use the most recently used (MRU) list to track files and/or locations that your 
 This list can store up to 25 items. While the app must add items to the MRU in order to track them, Windows maintains the 25-item limit by removing stale items if necessary.
 
 > [!NOTE]
-> If you want to respond to [ItemRemoved](storageitemmostrecentlyusedlist_itemremoved.md) events you must register your event handle every time you get a new reference to the [StorageItemMostRecentlyUsedList](storageitemmostrecentlyusedlist.md).
+> If you want to respond to [ItemRemoved](storageitemmostrecentlyusedlist_itemremoved.md) events you must register your event handle every time you get a new reference to the StorageItemMostRecentlyUsedList.
 
 To see more code examples, see the [File picker sample](https://go.microsoft.com/fwlink/p/?linkid=234890) and the [File access sample]( http://go.microsoft.com/fwlink/p/?linkid=231445).
 

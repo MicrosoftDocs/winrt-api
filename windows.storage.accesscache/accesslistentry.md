@@ -23,9 +23,9 @@ Optional app-specified metadata associated with the [StorageFile](../windows.sto
     
 
 ## -remarks
-The fields of the [AccessListEntry](accesslistentry.md) structure are set by an app when it adds a [StorageFile](../windows.storage/storagefile.md) or [StorageFolder](../windows.storage/storagefolder.md) to the [StorageItemAccessList](storageitemaccesslist.md) or to the [StorageItemMostRecentlyUsedList](storageitemmostrecentlyusedlist.md).
+The fields of the AccessListEntry structure are set by an app when it adds a [StorageFile](../windows.storage/storagefile.md) or [StorageFolder](../windows.storage/storagefolder.md) to the [StorageItemAccessList](storageitemaccesslist.md) or to the [StorageItemMostRecentlyUsedList](storageitemmostrecentlyusedlist.md).
 
-The [AccessListEntry](accesslistentry.md) for an item in a list can be accessed from the [AccessListEntryView.First](accesslistentryview_first_1920739956.md) or [AccessListEntryView.GetAt](accesslistentryview_getat_496709656.md) methods, or from the [ItemRemovedEventArgs.RemovedEntry](itemremovedeventargs_removedentry.md) property.
+The AccessListEntry for an item in a list can be accessed from the [AccessListEntryView.First](accesslistentryview_first_1920739956.md) or [AccessListEntryView.GetAt](accesslistentryview_getat_496709656.md) methods, or from the [ItemRemovedEventArgs.RemovedEntry](itemremovedeventargs_removedentry.md) property.
 
 
 

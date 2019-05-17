@@ -19,7 +19,7 @@ Animates from the [Point](../windows.foundation/point.md) value of the previous 
 
 
 ## -remarks
-Key-frame animations permit more than one target value that is reached at a point along the animation timeline. In other words each key frame can specify a different intermediate value, and the last key frame reached is the final animation value. By specifying multiple values to animate, you can make more complex animations. You'd typically have at least two keyframes in a [PointAnimationUsingKeyFrames](pointanimationusingkeyframes.md) with [LinearPointKeyFrame](linearpointkeyframe.md), otherwise a [PointAnimation](pointanimation.md) would have been simpler.
+Key-frame animations permit more than one target value that is reached at a point along the animation timeline. In other words each key frame can specify a different intermediate value, and the last key frame reached is the final animation value. By specifying multiple values to animate, you can make more complex animations. You'd typically have at least two keyframes in a [PointAnimationUsingKeyFrames](pointanimationusingkeyframes.md) with LinearPointKeyFrame, otherwise a [PointAnimation](pointanimation.md) would have been simpler.
 
 For more info on how to use key-frame animations, see [Key-frame animations and easing function animations](https://msdn.microsoft.com/library/d8af24cd-f4c2-4562-afd7-25010955d677).
 
@@ -27,7 +27,7 @@ For more info on how to use key-frame animations, see [Key-frame animations and 
 This XAML example moves an ellipse along a triangular path. The example uses the [PointAnimationUsingKeyFrames](pointanimationusingkeyframes.md) class to animate the [Center](../windows.ui.xaml.media/ellipsegeometry_center.md) property of an [EllipseGeometry](../windows.ui.xaml.media/ellipsegeometry.md). This animation uses three key frames in the following manner:
 
 
-1. During the first half second, it uses an instance of the [LinearPointKeyFrame](linearpointkeyframe.md) class to move the ellipse along a path at a steady rate from its starting position. Linear key frames such as [LinearPointKeyFrame](linearpointkeyframe.md) create a smooth linear interpolation between values.
+1. During the first half second, it uses an instance of the LinearPointKeyFrame class to move the ellipse along a path at a steady rate from its starting position. Linear key frames such as LinearPointKeyFrame create a smooth linear interpolation between values.
 1. During the end of the next half second, it uses an instance of the [DiscretePointKeyFrame](discretepointkeyframe.md) class to suddenly move the ellipse along the path to the next position. Discrete key frames like [DiscretePointKeyFrame](discretepointkeyframe.md) create sudden jumps between values.
 1. During the final two seconds, it uses an instance of the [SplinePointKeyFrame](splinepointkeyframe.md) class to move the ellipse back to its starting position. Spline key frames like [SplinePointKeyFrame](splinepointkeyframe.md) create a variable transition between values according to the values of the [KeySpline](splinepointkeyframe_keyspline.md) property. In this example, the animation begins slowly and speeds up exponentially toward the end of the time segment.
 

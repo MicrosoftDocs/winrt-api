@@ -13,7 +13,7 @@ public interface ICustomProperty :
 Implements custom property definition support for data binding sources that are implemented using COM.
 
 ## -remarks
-[ICustomProperty](icustomproperty.md) represents a property on an instance of an object, but the calling patterns support the ability to implement the interface per owner type.
+ICustomProperty represents a property on an instance of an object, but the calling patterns support the ability to implement the interface per owner type.
 
 ## -examples
 

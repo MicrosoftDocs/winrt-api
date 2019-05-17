@@ -19,7 +19,7 @@ Represents the available spatial pointer poses, such as the user's head gaze, ey
 
 The **SpatialPointerPose** provides the set of pointing rays available at the time represented by the [Timestamp](spatialpointerpose_timestamp.md) property.
 
-When targeting a spatial interaction, such as a hand gesture, motion controller press or speech interaction, apps should choose a pointing ray available from the interaction's [SpatialPointerPose](spatialpointerpose.md), based on the nature of the interaction's [SpatialInteractionSource](spatialinteractionsource.md):
+When targeting a spatial interaction, such as a hand gesture, motion controller press or speech interaction, apps should choose a pointing ray available from the interaction's SpatialPointerPose, based on the nature of the interaction's [SpatialInteractionSource](spatialinteractionsource.md):
 
 * If the interaction source does not support pointing ([IsPointingSupported](spatialinteractionsource_ispointingsupported.md) is false), the app should target based on the user's head gaze, available through the [Head](spatialpointerpose_head.md) property.
 * If the interaction source does support pointing ([IsPointingSupported](spatialinteractionsource_ispointingsupported.md) is true), the app may instead target based on the source's pointer pose, available through the [TryGetInteractionSourcePose](spatialpointerpose_trygetinteractionsourcepose_1162732260.md) method.

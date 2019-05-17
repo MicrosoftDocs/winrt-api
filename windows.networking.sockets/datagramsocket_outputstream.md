@@ -18,7 +18,7 @@ A stream of bytes to be written to the remote host in a UDP datagram.
 ## -remarks
 This property is often used with the [DataWriter](../windows.storage.streams/datawriter.md) object to write outgoing data to be sent to the remote network destination on a socket object.
 
-Every write to the [OutputStream](datagramsocket_outputstream.md) results in a network packet being sent.
+Every write to the OutputStream results in a network packet being sent.
 
 ## -examples
 

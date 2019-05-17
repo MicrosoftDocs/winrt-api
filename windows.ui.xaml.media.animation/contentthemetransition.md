@@ -21,7 +21,7 @@ Provides the animated transition behavior for when the content of a control is c
 Note that setting the [Duration](timeline_duration.md) property has no effect on this object since the duration is preconfigured.
 
 ## -examples
-The following example applies a [ContentThemeAnimation](contentthemetransition.md) to a rectangle.
+The following example applies a ContentThemeAnimation to a rectangle.
 
 ```xaml
 <!-- The ContentThemeTransition will execute when the ContentControl’s content changes. -->        

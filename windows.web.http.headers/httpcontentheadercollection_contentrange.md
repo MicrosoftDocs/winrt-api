@@ -18,7 +18,7 @@ The object that represent the value of the HTTP **Content-Range** header on the 
 ## -remarks
 
 
-The following sample code shows a method to get or set the **Content-Range** header value on HTTP content using the [ContentRange](httpcontentheadercollection_contentrange.md) property on the [HttpContentHeaderCollection](httpcontentheadercollection.md) object.
+The following sample code shows a method to get or set the **Content-Range** header value on HTTP content using the ContentRange property on the [HttpContentHeaderCollection](httpcontentheadercollection.md) object.
 
 ```csharp
     // Content-Range header

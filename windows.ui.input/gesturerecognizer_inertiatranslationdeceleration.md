@@ -16,7 +16,7 @@ Gets or sets a value that indicates the rate of deceleration from the start of i
 The rate of deceleration, in device-independent pixel (DIP)/ms<sup>2</sup>.
 
 ## -remarks
-If [InertiaTranslationDisplacement](gesturerecognizer_inertiatranslationdisplacement.md) is assigned a value, [InertiaTranslationDeceleration](gesturerecognizer_inertiatranslationdeceleration.md) is ignored.
+If [InertiaTranslationDisplacement](gesturerecognizer_inertiatranslationdisplacement.md) is assigned a value, InertiaTranslationDeceleration is ignored.
 
 ## -examples
 

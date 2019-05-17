@@ -32,7 +32,7 @@ When programming with .NET, this structure is hidden and developers should use t
 In JavaScript, this structure is accessed as a value, not as an object. For example, use `var a = 10000`, not `var a = { duration: 10000 }`.
 
 > [!NOTE]
-> In JavaScript, [TimeSpan](timespan.md) values interpreted as **Number** are treated as the number of millisecond intervals, not the number of 100-nanosecond intervals. Therefore, [Windows.Foundation.TimeSpan](timespan.md) values can lose precision when being ported between languages.
+> In JavaScript, TimeSpan values interpreted as **Number** are treated as the number of millisecond intervals, not the number of 100-nanosecond intervals. Therefore, Windows.Foundation.TimeSpan values can lose precision when being ported between languages.
 
 ## -examples
 

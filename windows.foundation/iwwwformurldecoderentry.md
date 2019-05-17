@@ -13,7 +13,7 @@ public interface IWwwFormUrlDecoderEntry :
 Represents a name-value pair in a URL query string.
 
 ## -remarks
-The [WwwFormUrlDecoder](wwwformurldecoder.md) class represents a URL query string as a sequence of name-value pairs. Each name-value pair is represented by an [IWwwFormUrlDecoderEntry](iwwwformurldecoderentry.md) object.
+The [WwwFormUrlDecoder](wwwformurldecoder.md) class represents a URL query string as a sequence of name-value pairs. Each name-value pair is represented by an IWwwFormUrlDecoderEntry object.
 
 ## -examples
 

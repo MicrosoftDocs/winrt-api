@@ -13,9 +13,9 @@ public class HttpContentDispositionHeaderValue : Windows.Foundation.IStringable,
 Represents the value of the **Content-Disposition** HTTP header on HTTP content in a request or a response.
 
 ## -remarks
-The [HttpContentDispositionHeaderValue](httpcontentdispositionheadervalue.md) class represents information in the **Content-Disposition** header on HTTP content sent in an HTTP request or received in an HTTP response.
+The HttpContentDispositionHeaderValue class represents information in the **Content-Disposition** header on HTTP content sent in an HTTP request or received in an HTTP response.
 
-The [ContentDisposition](httpcontentheadercollection_contentdisposition.md) property on the [HttpContentHeaderCollection](httpcontentheadercollection.md) returns an [HttpContentDispositionHeaderValue](httpcontentdispositionheadervalue.md).
+The [ContentDisposition](httpcontentheadercollection_contentdisposition.md) property on the [HttpContentHeaderCollection](httpcontentheadercollection.md) returns an HttpContentDispositionHeaderValue.
 
 The **Content-Disposition** header is normally used for working with file uploads and downloads. The format differs from other headers in that it is a single header with a disposition type followed by a list of parameters, some of which are well defined.
 

@@ -16,9 +16,9 @@ Used to interact with the file picker if your app provides file updates through 
 
 ## -remarks
 
-In JavaScript, retrieve a [CachedFileUpdaterUI](cachedfileupdaterui.md) object using the [webuiCachedFileUpdaterActivatedEventArgs.cachedFileUpdaterUI](../windows.ui.webui/webuicachedfileupdateractivatedeventargs_cachedfileupdaterui.md) property.
+In JavaScript, retrieve a CachedFileUpdaterUI object using the [webuiCachedFileUpdaterActivatedEventArgs.cachedFileUpdaterUI](../windows.ui.webui/webuicachedfileupdateractivatedeventargs_cachedfileupdaterui.md) property.
 
-In C#, C++, and VB, retrieve a [CachedFileUpdaterUI](cachedfileupdaterui.md) object using the [CachedFileUpdaterActivatedEventArgs.CachedFileUpdaterUI](../windows.applicationmodel.activation/cachedfileupdateractivatedeventargs_cachedfileupdaterui.md) property.
+In C#, C++, and VB, retrieve a CachedFileUpdaterUI object using the [CachedFileUpdaterActivatedEventArgs.CachedFileUpdaterUI](../windows.applicationmodel.activation/cachedfileupdateractivatedeventargs_cachedfileupdaterui.md) property.
 
 ## -examples
 

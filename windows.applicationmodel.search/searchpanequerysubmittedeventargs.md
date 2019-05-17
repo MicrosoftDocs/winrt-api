@@ -19,7 +19,7 @@ This object is passed to an app's [querysubmitted](searchpane_querysubmitted.md)
 The [Search contract sample](https://go.microsoft.com/fwlink/p/?linkid=234892) demonstrates how to register a [querysubmitted](searchpane_querysubmitted.md) event handler.
 
 > [!NOTE]
-> You can access information about the event from the [searchPaneQuerySubmittedEventArgs](searchpanequerysubmittedeventargs.md) object that is passed to your [querysubmitted](searchpane_querysubmitted.md) event handler.
+> You can access information about the event from the searchPaneQuerySubmittedEventArgs object that is passed to your [querysubmitted](searchpane_querysubmitted.md) event handler.
 
 
 
@@ -28,5 +28,5 @@ The [Search contract sample](https://go.microsoft.com/fwlink/p/?linkid=234892) d
 [!code-js[all_searchpane_querysubmitted_register](../windows.applicationmodel.search/code/SearchContract/js/js/default.js#Snippetall_searchpane_querysubmitted_register)]
 
 ## -see-also
-[SearchPane.QuerySubmitted event](searchpane_querysubmitted.md), [SearchPaneQuerySubmittedEventArgs class](searchpanequerysubmittedeventargs.md)
+[SearchPane.QuerySubmitted event](searchpane_querysubmitted.md), [SearchPaneQuerySubmittedEventArgs class
 chpanequerysubmittedeventargs.md)

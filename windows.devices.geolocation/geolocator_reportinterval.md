@@ -16,9 +16,9 @@ The requested minimum time interval between location updates, in milliseconds. I
 The requested minimum time interval between location updates.
 
 ## -remarks
-The default report interval is 1 second or as frequent as the hardware can support – whichever is shorter. Location updates can be set to a different frequency if you specify a [MovementThreshold](geolocator_movementthreshold.md) or set [ReportInterval](geolocator_reportinterval.md) to a different value. If your app sets both [MovementThreshold](geolocator_movementthreshold.md) and [ReportInterval](geolocator_reportinterval.md), location will be updated according to [MovementThreshold](geolocator_movementthreshold.md).
+The default report interval is 1 second or as frequent as the hardware can support – whichever is shorter. Location updates can be set to a different frequency if you specify a [MovementThreshold](geolocator_movementthreshold.md) or set ReportInterval to a different value. If your app sets both [MovementThreshold](geolocator_movementthreshold.md) and ReportInterval, location will be updated according to [MovementThreshold](geolocator_movementthreshold.md).
 
-If another application has requested more frequent updates, by specifying a smaller value for [ReportInterval](geolocator_reportinterval.md), your application may receive updates at a higher frequency than requested.
+If another application has requested more frequent updates, by specifying a smaller value for ReportInterval, your application may receive updates at a higher frequency than requested.
 
 ## -examples
 

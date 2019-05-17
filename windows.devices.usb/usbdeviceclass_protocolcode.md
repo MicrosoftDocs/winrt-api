@@ -16,7 +16,7 @@ Gets or sets the protocol code of the device.
 The protocol code of the device.
 
 ## -remarks
-You can set the [ProtocolCode](usbdeviceclass_protocolcode.md) value only when [SubclassCode](usbdeviceclass_subclasscode.md) value is set to a non-null value.
+You can set the ProtocolCode value only when [SubclassCode](usbdeviceclass_subclasscode.md) value is set to a non-null value.
 
 ## -examples
 

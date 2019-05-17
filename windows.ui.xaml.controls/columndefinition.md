@@ -21,7 +21,7 @@ Defines column-specific properties that apply to [Grid](grid.md) objects.
 ## -remarks
 
 ## -examples
-The following example uses three [ColumnDefinition](columndefinition.md) s and three [RowDefinition](rowdefinition.md) s to create a grid that has nine cells, such as in a worksheet. Each cell contains a [TextBlock](textblock.md) element that represents data, and the top row contains a [TextBlock](textblock.md) with the [ColumnSpan](grid_columnspan.md) property applied.
+The following example uses three ColumnDefinition s and three [RowDefinition](rowdefinition.md) s to create a grid that has nine cells, such as in a worksheet. Each cell contains a [TextBlock](textblock.md) element that represents data, and the top row contains a [TextBlock](textblock.md) with the [ColumnSpan](grid_columnspan.md) property applied.
 
 
 

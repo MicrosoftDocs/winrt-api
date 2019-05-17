@@ -20,10 +20,10 @@ Represents an icon that uses a vector path as its content.
 
 ## -remarks
 > [!NOTE]
-> You can set the **Foreground** property on the [AppBarButton](appbarbutton.md) or on the [PathIcon](pathicon.md). If you set the [Foreground](control_foreground.md) on the [AppBarButton](appbarbutton.md), it's applied only to the default visual state. It's not applied to the other visual states defined in the [AppBarButton](appbarbutton.md) template, like `MouseOver`. If you set the [Foreground](iconelement_foreground.md) on the [PathIcon](pathicon.md), the color is applied to all visual states.
+> You can set the **Foreground** property on the [AppBarButton](appbarbutton.md) or on the PathIcon. If you set the [Foreground](control_foreground.md) on the [AppBarButton](appbarbutton.md), it's applied only to the default visual state. It's not applied to the other visual states defined in the [AppBarButton](appbarbutton.md) template, like `MouseOver`. If you set the [Foreground](iconelement_foreground.md) on the PathIcon, the color is applied to all visual states.
 
 ## -examples
-This example shows an [AppBarButton](appbarbutton.md) with a [PathIcon](pathicon.md).
+This example shows an [AppBarButton](appbarbutton.md) with a PathIcon.
 
 ```xaml
 <!-- App bar button with path icon. -->

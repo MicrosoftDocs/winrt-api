@@ -16,7 +16,7 @@ Gets the number of objects in the [HttpResponseHeaderCollection](httpresponsehea
 The number of objects in the [HttpResponseHeaderCollection](httpresponseheadercollection.md).
 
 ## -remarks
-The [Size](httpresponseheadercollection_size.md) property returns the true number of items.
+The Size property returns the true number of items.
 
 If you are programming using C# or Microsoft Visual Basic, the equivalent method is [Count](httpresponseheadercollection_count.md).
 

@@ -67,7 +67,7 @@ private async void StartDownload_Click(object sender, RoutedEventArgs e)
 ```
 
 ## -remarks
-At next start-up after application termination, your application should enumerate all existing [DownloadOperation](downloadoperation.md) instances using [GetCurrentDownloadsAsync](backgrounddownloader_getcurrentdownloadsasync_1101292265.md). When a UWP application using Background Transfer is terminated, incomplete downloads persist in the background. If your application is restarted after termination and these incomplete operations are not enumerated and re-introduced to the current session, then they will go stale and continue to occupy device resources.
+At next start-up after application termination, your application should enumerate all existing DownloadOperation instances using [GetCurrentDownloadsAsync](backgrounddownloader_getcurrentdownloadsasync_1101292265.md). When a UWP application using Background Transfer is terminated, incomplete downloads persist in the background. If your application is restarted after termination and these incomplete operations are not enumerated and re-introduced to the current session, then they will go stale and continue to occupy device resources.
 
 Background transfer doesn't support concurrent downloads of the same [Uri](../windows.foundation/uri.md). So an app can download *http://example.com/myfile.wmv* once, or download it again after a previous download completed. An app shouldn't start two downloads of the same [Uri](../windows.foundation/uri.md) concurrently, since this may result in truncated files.
 

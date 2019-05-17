@@ -24,7 +24,7 @@ The destination screen coordinates for the upper-left corner of the bounding rec
 The bounding rectangle of the selected ink strokes.
 
 ## -remarks
-The following can result from a call to [MoveSelected](inkmanager_moveselected_1369131213.md):
+The following can result from a call to MoveSelected:
 + Moving one or more strokes that make up part of a word results in the reprocessing of existing ink recognition results.
 + Moving all strokes that make up a word results in the recalculation of the [BoundingRect](inkrecognitionresult_boundingrect.md) of the [InkRecognitionResult](inkrecognitionresult.md). Ink recognition is not reprocessed.
 + Moving one or more strokes results in the recalculation of the [BoundingRect](inkstroke_boundingrect.md) for each stroke.

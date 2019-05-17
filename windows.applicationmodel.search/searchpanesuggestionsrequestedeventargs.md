@@ -31,7 +31,7 @@ After you obtain suggestions, you must append them to the collection of suggesti
 The [Search contract sample](https://go.microsoft.com/fwlink/p/?linkid=234892) demonstrates how to respond to a [suggestionsrequested](searchpane_suggestionsrequested.md) event.
 
 > [!NOTE]
-> You can access information about the event from the [searchPaneSuggestionsRequestedEventArgs](searchpanesuggestionsrequestedeventargs.md) object that is passed to your [suggestionsrequested](searchpane_suggestionsrequested.md) handler.
+> You can access information about the event from the searchPaneSuggestionsRequestedEventArgs object that is passed to your [suggestionsrequested](searchpane_suggestionsrequested.md) handler.
 
 
 
@@ -46,5 +46,5 @@ searchPane.SuggestionsRequested += new TypedEventHandler<SearchPane, SearchPaneS
 
 
 ## -see-also
-[Search contract sample](https://go.microsoft.com/fwlink/p/?linkid=234892), [Guidelines and checklist for search](https://msdn.microsoft.com/library/c328faa3-f6ae-4970-8372-b413f1290c39), [SearchPane class](searchpane.md), [SearchPane.ResultSuggestionChosen event](searchpane_resultsuggestionchosen.md), [SearchPane.SuggestionsRequested event](searchpane_suggestionsrequested.md), [SearchSuggestionCollection class](searchsuggestioncollection.md), [SearchPaneSuggestionsRequestedEventArgs class](searchpanesuggestionsrequestedeventargs.md), [SearchPaneSuggestionsRequest.SearchSuggestionCollection property](searchpanesuggestionsrequest_searchsuggestioncollection.md)
+[Search contract sample](https://go.microsoft.com/fwlink/p/?linkid=234892), [Guidelines and checklist for search](https://msdn.microsoft.com/library/c328faa3-f6ae-4970-8372-b413f1290c39), [SearchPane class](searchpane.md), [SearchPane.ResultSuggestionChosen event](searchpane_resultsuggestionchosen.md), [SearchPane.SuggestionsRequested event](searchpane_suggestionsrequested.md), [SearchSuggestionCollection class](searchsuggestioncollection.md), [SearchPaneSuggestionsRequestedEventArgs class, [SearchPaneSuggestionsRequest.SearchSuggestionCollection property](searchpanesuggestionsrequest_searchsuggestioncollection.md)
 st_searchsuggestioncollection.md)

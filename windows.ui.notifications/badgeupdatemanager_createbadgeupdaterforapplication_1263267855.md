@@ -19,7 +19,7 @@ The object you will use to send changes to the app tile's badge.
 ## -remarks
 
 ## -examples
-The following example shows [CreateBadgeUpdaterForApplication](badgeupdatemanager_createbadgeupdaterforapplication_1263267855.md) used to send a numeric badge update to the calling app's tile.
+The following example shows CreateBadgeUpdaterForApplication used to send a numeric badge update to the calling app's tile.
 
 ```javascript
 

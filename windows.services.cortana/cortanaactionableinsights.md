@@ -15,7 +15,7 @@ public class CortanaActionableInsights
 Derives contextual insights from images or text that let the user learn more about the content, or perform an action based on it.
 
 > [!IMPORTANT]
-> The [CortanaActionableInsights](cortanaactionableinsights.md) APIs are a limited access feature. Please contact [InsightsAPISupport@microsoft.com](mailto://InsightsAPISupport@microsoft.com) for more info, or to request an unlock token.
+> The CortanaActionableInsights APIs are a limited access feature. Please contact [InsightsAPISupport@microsoft.com](mailto://InsightsAPISupport@microsoft.com) for more info, or to request an unlock token.
 
 ## -capabilities
 
@@ -23,7 +23,7 @@ cortanaSurface
 
 ## -remarks
 
-The [CortanaActionableInsights](cortanaactionableinsights.md) class requires the following be added to the Package.appxmanifest:
+The CortanaActionableInsights class requires the following be added to the Package.appxmanifest:
 
 - To \<Package\>
   - `xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities"`

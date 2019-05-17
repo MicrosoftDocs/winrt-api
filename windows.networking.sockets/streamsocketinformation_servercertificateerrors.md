@@ -16,7 +16,7 @@ Gets the list of errors that occurred making an SSL connection with a [StreamSoc
 The list of errors that occurred making an SSL connection.
 
 ## -remarks
-The [ServerCertificateErrors](streamsocketinformation_servercertificateerrors.md) property gets a vector of [ChainValidationResult](../windows.security.cryptography.certificates/chainvalidationresult.md) enumeration values of errors that occurred making an SSL connection with a [StreamSocket](streamsocket.md).
+The ServerCertificateErrors property gets a vector of [ChainValidationResult](../windows.security.cryptography.certificates/chainvalidationresult.md) enumeration values of errors that occurred making an SSL connection with a [StreamSocket](streamsocket.md).
 
 SSL server certificate errors should only be ignored in advanced scenarios. Disregarding server certificate errors may result in the loss of privacy or integrity of the content passed over the SSL session.
 

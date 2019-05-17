@@ -12,7 +12,7 @@ public Windows.Foundation.Uri WideLogo { get;  set; }
 
 ## -description
 > [!NOTE]
-> [WideLogo](secondarytile_widelogo.md) may be altered or unavailable for releases after Windows 8.1. Instead, use [SecondaryTileVisualElements.Wide310x150Logo](secondarytilevisualelements_wide310x150logo.md).
+> WideLogo may be altered or unavailable for releases after Windows 8.1. Instead, use [SecondaryTileVisualElements.Wide310x150Logo](secondarytilevisualelements_wide310x150logo.md).
 
 Gets or sets the logo image used in a wide secondary tile. This property is required when you create a wide secondary tile and gives the user the option of a wide tile when they resize the tile.
 

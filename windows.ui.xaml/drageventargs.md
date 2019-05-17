@@ -15,16 +15,16 @@ Provides data for drag-and-drop events.
 
 ## -remarks
 
-[DragEventArgs](drageventargs.md) is used as event data for these events:
+DragEventArgs is used as event data for these events:
 
 + [UIElement.DragEnter](uielement_drop.md)
 + [UIElement.DragLeave](uielement_dragleave.md)
 + [UIElement.DragOver](uielement_dragover.md)
 + [UIElement.Drop](uielement_drop.md)
 
-These events are routed events. Changing the value of the [Handled](drageventargs_handled.md) property of [DragEventArgs](drageventargs.md) from an event handler can influence how a routed event behaves. For more info on the routed event concept, see [Events and routed events overview](https://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
+These events are routed events. Changing the value of the [Handled](drageventargs_handled.md) property of DragEventArgs from an event handler can influence how a routed event behaves. For more info on the routed event concept, see [Events and routed events overview](https://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
 
-The [Control](../windows.ui.xaml.controls/control.md) class has pre-wired event handlers that [Control](../windows.ui.xaml.controls/control.md) derived types can override to provide class-based handling for the drag-drop events, and these methods also use [DragEventArgs](drageventargs.md) as a parameter. These methods are:
+The [Control](../windows.ui.xaml.controls/control.md) class has pre-wired event handlers that [Control](../windows.ui.xaml.controls/control.md) derived types can override to provide class-based handling for the drag-drop events, and these methods also use DragEventArgs as a parameter. These methods are:
 
 + [Control.OnDragEnter](../windows.ui.xaml.controls/control_ondragenter_196818472.md)
 + [Control.OnDragLeave](../windows.ui.xaml.controls/control_ondragleave_545548419.md)

@@ -13,7 +13,7 @@ public class UserAuthenticationStatusChangingEventArgs : Windows.System.IUserAut
 Provides data for a user authentication status changing event.
 
 ## -remarks
-At the time the [UserAuthenticationStatusChanging](userauthenticationstatuschangingeventargs.md) event is raised, the user’s authentication status has not yet changed.
+At the time the UserAuthenticationStatusChanging event is raised, the user’s authentication status has not yet changed.
 
 ## -examples
 

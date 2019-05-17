@@ -23,7 +23,7 @@ Represents the playback controls for a media player element.
 
 The media transport controls let users interact with their media by providing a default playback experience comprised of various buttons including play, pause, closed captions, and others. It has many properties to allow for easy customization of the UI and configuration of which buttons are visible or enabled.
 
-You can use the [MediaTransportControls](mediatransportcontrols.md) to make it easy for users to control their audio and video content. The [MediaTransportControls](mediatransportcontrols.md) class is intended to be used only in conjunction with a [MediaElement](mediaelement.md) or [MediaPlayerElement](mediaplayerelement.md) control. It doesn't function as a stand-alone control. You access an instance of [MediaTransportControls](mediatransportcontrols.md) through the [MediaElement.TransportControls](mediaelement_transportcontrols.md) or [MediaPlayerElement.TransportControls](mediaplayerelement_transportcontrols.md) property.
+You can use the MediaTransportControls to make it easy for users to control their audio and video content. The MediaTransportControls class is intended to be used only in conjunction with a [MediaElement](mediaelement.md) or [MediaPlayerElement](mediaplayerelement.md) control. It doesn't function as a stand-alone control. You access an instance of MediaTransportControls through the [MediaElement.TransportControls](mediaelement_transportcontrols.md) or [MediaPlayerElement.TransportControls](mediaplayerelement_transportcontrols.md) property.
 
 <img alt="Default media transport controls" src="images/controls/MediaTransportControlsBasic.png" />
 
@@ -32,7 +32,7 @@ You can use the [MediaTransportControls](mediatransportcontrols.md) to make it e
 
 ### Adding basic transport controls to a MediaElement
 
-To use [MediaTransportControls](mediatransportcontrols.md) with a [MediaElement](mediaelement.md), set the [AreTransportControlsEnabled](mediaelement_aretransportcontrolsenabled.md) property to **true** on the [MediaElement](mediaelement.md).
+To use MediaTransportControls with a [MediaElement](mediaelement.md), set the [AreTransportControlsEnabled](mediaelement_aretransportcontrolsenabled.md) property to **true** on the [MediaElement](mediaelement.md).
 
 Here's how to enable transport controls for a [MediaElement](mediaelement.md) in XAML.
 
@@ -97,7 +97,7 @@ public MainPage()
 
 ### Hiding, Showing, Enabling, and Disabling Buttons
 
-[MediaTransportControls](mediatransportcontrols.md) includes a seek bar and buttons for common functions. You can control whether a button is shown by setting the **Is*ButtonVisible** property. You can independently control whether a button is enabled by setting the **Is*Enabled** property.
+MediaTransportControls includes a seek bar and buttons for common functions. You can control whether a button is shown by setting the **Is*ButtonVisible** property. You can independently control whether a button is enabled by setting the **Is*Enabled** property.
 
 This table shows the built-in transport controls with their associated properties and default values.
 
@@ -118,7 +118,7 @@ This table shows the built-in transport controls with their associated propertie
 
 There are no properties to hide, show, enable, or disable the play/pause button, closed caption button, audio track selection button, or the cast button. The play/pause and cast buttons are always visible and enabled. The closed caption button is visible whenever closed caption tracks are available, and the audio track selection button is visible whenever multiple audio tracks are available.
 
-To remove these buttons, or to add custom buttons, you must re-template the [MediaTransportControls](mediatransportcontrols.md). If you re-template the control, you can also specify the order in which buttons drop out at different screen sizes. For more info, see [Create custom transport controls](https://msdn.microsoft.com/library/6643a108-a6eb-42bc-b800-22eabd7b731b) and the [Media transport controls sample](https://go.microsoft.com/fwlink/p/?LinkId=620023&amp;amp;clcid=0x409).
+To remove these buttons, or to add custom buttons, you must re-template the MediaTransportControls. If you re-template the control, you can also specify the order in which buttons drop out at different screen sizes. For more info, see [Create custom transport controls](https://msdn.microsoft.com/library/6643a108-a6eb-42bc-b800-22eabd7b731b) and the [Media transport controls sample](https://go.microsoft.com/fwlink/p/?LinkId=620023&amp;amp;clcid=0x409).
 
 Here's how to configure transport control buttons in XAML. In this example, the aspect ratio button is hidden and disabled, and the playback rate button is shown and enabled.
 
@@ -169,7 +169,7 @@ public MainPage()
 
 ### Anatomy
 
-[MediaTransportControls](mediatransportcontrols.md) is a composite control made up of several other XAML controls, which are all contained within a root [Grid](grid.md) element.
+MediaTransportControls is a composite control made up of several other XAML controls, which are all contained within a root [Grid](grid.md) element.
 
 In the default mode, the [Grid](grid.md) has 2 rows. The first row contains a [Slider](slider.md) (the seek bar) that shows the progress of the media file, and lets the user seek forward or backward through the media. Below the [Slider](slider.md) are two [TextBlock](textblock.md) s. These display the elapsed and remaining time. The second row contains a [CommandBar](commandbar.md) with [AppBarButton](appbarbutton.md) s. The [AppBarButton](appbarbutton.md) s let the user perform actions like play and pause the media, change the volume, and make the video full screen.
 

@@ -16,7 +16,7 @@ Gets a read-only list of [MediaFrameFormat](mediaframeformat.md) objects represe
 A read-only list of frame formats supported by the media frame source.
 
 ## -remarks
-Get the list of supported frame formats for a media frame source by accessing the [SupportedFormats](mediaframesource_supportedformats.md) property.
+Get the list of supported frame formats for a media frame source by accessing the SupportedFormats property.
 
 Get the current frame format of the media frame source by accessing the [CurrentFormat](mediaframesource_currentformat.md) property. Set the current frame format by calling [SetFormatAsync](mediaframesource_setformatasync_966320450.md).
 

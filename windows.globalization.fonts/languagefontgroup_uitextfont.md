@@ -16,11 +16,11 @@ Gets a font that is recommended for typical UI body text.
 The recommended [LanguageFont](languagefont.md).
 
 ## -remarks
-The [UITextFont](languagefontgroup_uitextfont.md) property provides a font recommendation for typical UI body text.
+The UITextFont property provides a font recommendation for typical UI body text.
 
 The font recommended for this usage case may be differentiated from other UI usage cases in font weight, style or stretch values. Those attributes are significant aspects of the font recommendation being provided.
 
-A [UITextFont](languagefontgroup_uitextfont.md) recommendation is available for every supported language or script.
+A UITextFont recommendation is available for every supported language or script.
 
 ## -examples
 

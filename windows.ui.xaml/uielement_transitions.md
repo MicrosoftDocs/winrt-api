@@ -50,9 +50,9 @@ Specific classes that derive from [UIElement](uielement.md) sometimes have their
 Transition animations play a particular role in the UI design of your app. The basic idea is that when there is a change or transition, the animation draws the attention of the user to the change.
 <!-- For more info, see  Transition animations and theme animations.-->
 
-It's not common to set the value of the [Transitions](uielement_transitions.md) property directly on a [UIElement](uielement.md) that is a direct element of app UI. It's more common to have a transitions collection be a part of a visual state, template or style. In this case you use mechanisms such as [Setter](setter.md) of a [Style](style.md) to specify the [Transitions](uielement_transitions.md) property, and set the value using XAML-defined content that is typically stored as a XAML resource.
+It's not common to set the value of the Transitions property directly on a [UIElement](uielement.md) that is a direct element of app UI. It's more common to have a transitions collection be a part of a visual state, template or style. In this case you use mechanisms such as [Setter](setter.md) of a [Style](style.md) to specify the Transitions property, and set the value using XAML-defined content that is typically stored as a XAML resource.
 
-[VisualTransition](visualtransition.md) is not one of the types you put in the [UIElement.Transitions](uielement_transitions.md) collection. [VisualTransition](visualtransition.md) is specifically for animations in visual state groups, and is used by the [VisualStateGroup.Transitions](visualstategroup_transitions.md) property.
+[VisualTransition](visualtransition.md) is not one of the types you put in the UIElement.Transitions collection. [VisualTransition](visualtransition.md) is specifically for animations in visual state groups, and is used by the [VisualStateGroup.Transitions](visualstategroup_transitions.md) property.
 
 ## -examples
 This XAML example shows a single [EntranceThemeTransition](../windows.ui.xaml.media.animation/entrancethemetransition.md) as defined in a [Style](style.md) for a [Button](../windows.ui.xaml.controls/button.md). Transition animation properties are typically set in styles and templates rather than as properties directly in a UI definition. Styles are typically stored as a XAML resource.

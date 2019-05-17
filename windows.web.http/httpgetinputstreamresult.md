@@ -14,7 +14,7 @@ public class HttpGetInputStreamResult : IClosable, IStringable
 Combines the final input stream result along with following: the original HTTP request, the resulting HTTP response (if any), an extended error value, and a succeeded indication.
 
 ## -remarks
-The [HttpGetInputStreamResult](httpgetinputstreamresult.md) is the return result from a call to **HttpClient** [TryGetInputStreamAsync](httpclient_trygetinputstreamasync_434735070.md)
+The HttpGetInputStreamResult is the return result from a call to **HttpClient** [TryGetInputStreamAsync](httpclient_trygetinputstreamasync_434735070.md)
 
 ## -see-also
 [HttpRequestMessage](httprequestmessage.md), [HttpResponseMessage](httpresponsemessage.md)

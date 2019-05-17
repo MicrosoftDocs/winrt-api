@@ -16,7 +16,7 @@ Provides information about the activated event that fires when the user searches
 > This type appears as [SearchActivatedEventArgs](../windows.applicationmodel.activation/searchactivatedeventargs.md).
 
 ## -remarks
-If your app integrates with the Search contract, a [webUISearchActivatedEventArgs](webuisearchactivatedeventargs.md) is passed to your app's [onactivated](https://msdn.microsoft.com/library/8b1cf913-a914-47d1-a690-bc3f0931e9d4) event handler when the user searches the app from the Search charm and your app is not the main app on screen. This type of activation is indicated by the [activationKind.search](../windows.applicationmodel.activation/activationkind.md) value returned by the [kind](webuisearchactivatedeventargs_kind.md) property.
+If your app integrates with the Search contract, a webUISearchActivatedEventArgs is passed to your app's [onactivated](https://msdn.microsoft.com/library/8b1cf913-a914-47d1-a690-bc3f0931e9d4) event handler when the user searches the app from the Search charm and your app is not the main app on screen. This type of activation is indicated by the [activationKind.search](../windows.applicationmodel.activation/activationkind.md) value returned by the [kind](webuisearchactivatedeventargs_kind.md) property.
 
 Learn how to let users search with your app in [Quickstart: Adding search](https://msdn.microsoft.com/library/d412c562-22d2-41c4-9f27-27503b89b9e9). Learn about responding to other search-related events and customizing the search box and suggestions using the [searchPane](../windows.applicationmodel.search/searchpane.md) class in the [Windows.ApplicationModel.Search](../windows.applicationmodel.search/windows_applicationmodel_search.md) namespace reference.
 
@@ -59,7 +59,7 @@ function activated(eventObject) {
 }
 ```
 
-For JavaScript, `eventObject` contains a [webUISearchActivatedEventArgs](webuisearchactivatedeventargs.md) object.
+For JavaScript, `eventObject` contains a webUISearchActivatedEventArgs object.
 
 ## -see-also
 [Search contract sample](https://go.microsoft.com/fwlink/p/?linkid=234892)

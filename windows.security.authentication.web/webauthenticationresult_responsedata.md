@@ -16,7 +16,7 @@ Contains the protocol data when the operation successfully completes.
 The returned data.
 
 ## -remarks
-When the [WebAuthenticationOptions.UseTitle](webauthenticationoptions.md) option is used, this property contains the value of the webpage title. The [ResponseData](webauthenticationresult_responsedata.md) for HTTP GET and HTTP redirects includes the entire URL. For POST, the data is the entity body.
+When the [WebAuthenticationOptions.UseTitle](webauthenticationoptions.md) option is used, this property contains the value of the webpage title. The ResponseData for HTTP GET and HTTP redirects includes the entire URL. For POST, the data is the entity body.
 
 ## -examples
 

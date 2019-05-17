@@ -17,7 +17,7 @@ Adds a condition to a background task.
 An instance of a [SystemCondition](systemcondition.md) object.
 
 ## -remarks
-[AddCondition](backgroundtaskbuilder_addcondition_1258521593.md) can be called more than once to specify more than one condition for a background task. All specified conditions must be met before the system will schedule the task.
+AddCondition can be called more than once to specify more than one condition for a background task. All specified conditions must be met before the system will schedule the task.
 
 ## -examples
 

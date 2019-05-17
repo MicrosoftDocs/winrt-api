@@ -19,7 +19,7 @@ If the event argument doesn't expose the pointer details required by your app, y
 The static [PointerPoint](pointerpoint.md) methods, [GetCurrentPoint](pointerpoint_getcurrentpoint_131721878.md) and [GetIntermediatePoints](pointerpoint_getintermediatepoints_143894736.md), always use the context of the app.
 
 ## -remarks
-The [PointerPointProperties](pointerpointproperties.md) class implements IPointerPointProperties.
+The PointerPointProperties class implements IPointerPointProperties.
 
 > [!NOTE]
 > : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).

@@ -43,9 +43,9 @@ The set of candidate anchor elements may change during any of the situations cal
 1. setting their [UIElement.CanBeScrollAnchor](../windows.ui.xaml/uielement_canbescrollanchor.md) property to **true**, or
 1. programmatically registering the element using the [RegisterAnchorCandidate](iscrollanchorprovider_registeranchorcandidate_178281111.md) method.
 
-The [CanBeScrollAnchor](../windows.ui.xaml/uielement_canbescrollanchor.md) property can be set at any time. When set, the framework implicitly calls [RegisterAnchorCandidate](iscrollanchorprovider_registeranchorcandidate_178281111.md)/[UnregisterAnchorCandidate](iscrollanchorprovider_unregisteranchorcandidate_667335027.md), but only on the first [IScrollAnchorProvider](iscrollanchorprovider.md) found in that element's chain of ancestors.
+The [CanBeScrollAnchor](../windows.ui.xaml/uielement_canbescrollanchor.md) property can be set at any time. When set, the framework implicitly calls [RegisterAnchorCandidate](iscrollanchorprovider_registeranchorcandidate_178281111.md)/[UnregisterAnchorCandidate](iscrollanchorprovider_unregisteranchorcandidate_667335027.md), but only on the first IScrollAnchorProvider found in that element's chain of ancestors.
 
-The framework similarly registers/unregisters elements with [CanBeScrollAnchor](../windows.ui.xaml/uielement_canbescrollanchor.md) set to **true** as they are added or removed from the live visual tree. But, once again, it is only done with the first [IScrollAnchorProvider](iscrollanchorprovider.md) found in the element's chain of ancestors.
+The framework similarly registers/unregisters elements with [CanBeScrollAnchor](../windows.ui.xaml/uielement_canbescrollanchor.md) set to **true** as they are added or removed from the live visual tree. But, once again, it is only done with the first IScrollAnchorProvider found in the element's chain of ancestors.
 
 A virtualizing control may choose to automatically set the [CanBeScrollAnchor](../windows.ui.xaml/uielement_canbescrollanchor.md) on its generated children elements.
 

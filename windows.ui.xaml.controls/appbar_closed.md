@@ -19,7 +19,7 @@ Occurs when the [AppBar](appbar.md) changes from visible to hidden.
 
 
 ## -remarks
-You can respond to the app bar being dismissed by handling the [Closed](appbar_closed.md) event.
+You can respond to the app bar being dismissed by handling the Closed event.
 
 ## -examples
 

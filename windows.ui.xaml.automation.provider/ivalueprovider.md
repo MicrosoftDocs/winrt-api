@@ -15,11 +15,11 @@ Exposes methods and properties to support access by a Microsoft UI Automation cl
 ## -remarks
 The value string can be editable, depending on the control and its settings. This pattern has guidelines and conventions that aren't fully documented here. For more info on what this pattern is for, see [Value Control Pattern](https://msdn.microsoft.com/library/6b11d281-aca7-4548-853c-e7322999825d).
 
-[IValueProvider](ivalueprovider.md) is implemented by the existing Windows Runtime class [ComboBoxAutomationPeer](../windows.ui.xaml.automation.peers/comboboxautomationpeer.md).
+IValueProvider is implemented by the existing Windows Runtime class [ComboBoxAutomationPeer](../windows.ui.xaml.automation.peers/comboboxautomationpeer.md).
 
-The text models supported by Windows Runtime text controls such as [TextBox](../windows.ui.xaml.controls/textbox.md) and [RichTextBlock](../windows.ui.xaml.controls/richtextblock.md) don't use the [IValueProvider](ivalueprovider.md) pattern.
+The text models supported by Windows Runtime text controls such as [TextBox](../windows.ui.xaml.controls/textbox.md) and [RichTextBlock](../windows.ui.xaml.controls/richtextblock.md) don't use the IValueProvider pattern.
 
-Use [ValuePatternIdentifiers](../windows.ui.xaml.automation/valuepatternidentifiers.md) if you want to reference the [IValueProvider](ivalueprovider.md) pattern properties from control code when you fire automation events or call [RaisePropertyChangedEvent](../windows.ui.xaml.automation.peers/automationpeer_raisepropertychangedevent_715050195.md).
+Use [ValuePatternIdentifiers](../windows.ui.xaml.automation/valuepatternidentifiers.md) if you want to reference the IValueProvider pattern properties from control code when you fire automation events or call [RaisePropertyChangedEvent](../windows.ui.xaml.automation.peers/automationpeer_raisepropertychangedevent_715050195.md).
 
 ## -examples
 

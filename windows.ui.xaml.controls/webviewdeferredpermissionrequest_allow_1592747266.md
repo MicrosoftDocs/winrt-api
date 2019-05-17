@@ -13,7 +13,7 @@ public void Allow()
 Grants the requested permission.
 
 ## -remarks
-When you allow the requested permission, subsequent calls to [Allow](webviewdeferredpermissionrequest_allow_1592747266.md) or [Deny](webviewdeferredpermissionrequest_deny_445869776.md) the permission request result in an error.
+When you allow the requested permission, subsequent calls to Allow or [Deny](webviewdeferredpermissionrequest_deny_445869776.md) the permission request result in an error.
 
 ## -examples
 

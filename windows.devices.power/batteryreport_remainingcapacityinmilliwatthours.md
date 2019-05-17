@@ -17,7 +17,7 @@ Gets the remaining power capacity of the battery.
 The remaining power capacity of the battery, in milliwatt-hours.
 
 ## -remarks
-To calculate the battery level, divide [RemainingCapacityInMilliwattHours](batteryreport_remainingcapacityinmilliwatthours.md) by [FullChargeCapacityInMilliwattHours](batteryreport_fullchargecapacityinmilliwatthours.md).
+To calculate the battery level, divide RemainingCapacityInMilliwattHours by [FullChargeCapacityInMilliwattHours](batteryreport_fullchargecapacityinmilliwatthours.md).
 
 ## -examples
 

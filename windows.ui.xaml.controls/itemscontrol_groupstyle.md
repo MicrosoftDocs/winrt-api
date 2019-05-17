@@ -31,7 +31,7 @@ A collection of [GroupStyle](groupstyle.md) objects that define the appearance o
 
 ## -remarks
 > [!NOTE]
-> [GroupStyle.ContainerStyle](groupstyle_containerstyle.md) and [GroupStyle.ContainerStyleSelector](groupstyle_containerstyleselector.md) are deprecated in Windows 8.1, and are ignored in [ItemsControl.GroupStyle](itemscontrol_groupstyle.md).
+> [GroupStyle.ContainerStyle](groupstyle_containerstyle.md) and [GroupStyle.ContainerStyleSelector](groupstyle_containerstyleselector.md) are deprecated in Windows 8.1, and are ignored in ItemsControl.GroupStyle.
 
 ## -examples
 

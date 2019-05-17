@@ -10,10 +10,10 @@ public class MediaSourceOpenOperationCompletedEventArgs : Windows.Media.Core.IMe
 # Windows.Media.Core.MediaSourceOpenOperationCompletedEventArgs
 
 ## -description
-Provides data for the [MediaSource.MediaSourceOpenOperationCompleted](mediasourceopenoperationcompletedeventargs.md) event.
+Provides data for the MediaSource.MediaSourceOpenOperationCompleted event.
 
 ## -remarks
-Get an instance of this class by handling the [MediaSource.MediaSourceOpenOperationCompleted](mediasourceopenoperationcompletedeventargs.md) event.
+Get an instance of this class by handling the MediaSource.MediaSourceOpenOperationCompleted event.
 
 ## -examples
 

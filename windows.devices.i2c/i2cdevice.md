@@ -13,7 +13,7 @@ public class I2cDevice : Windows.Devices.I2c.II2cDevice, Windows.Foundation.IClo
 Represents a communications channel to a device on an inter-integrated circuit (I<sup>2</sup> C) bus.
 
 ## -remarks
-To get an instance of [I2cDevice](i2cdevice.md), use the [I2cDevice.FromIdAsync](i2cdevice_fromidasync_1693757112.md) method.
+To get an instance of I2cDevice, use the [I2cDevice.FromIdAsync](i2cdevice_fromidasync_1693757112.md) method.
 
 ## -examples
 

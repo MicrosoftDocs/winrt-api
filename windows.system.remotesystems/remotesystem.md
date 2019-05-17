@@ -17,7 +17,7 @@ This class manages the attributes of a discovered remote system (device) and pro
 
 This class is instantiated whenever a remote system (device) is discovered, is updated, or disappears (the instance is referenced as a property of the [RemoteSystemAddedEventArgs](remotesystemaddedeventargs.md), [RemoteSystemUpdatedEventArgs](remotesystemupdatedeventargs.md), or [RemoteSystemRemovedEventArgs](remotesystemremovedeventargs.md) class).
 
-The properties of the [RemoteSystem](remotesystem.md) class are used to determine the operations that can be done on a given remote system.
+The properties of the RemoteSystem class are used to determine the operations that can be done on a given remote system.
 
 ## -examples
 

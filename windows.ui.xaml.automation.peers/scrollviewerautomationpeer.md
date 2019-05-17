@@ -13,11 +13,11 @@ public class ScrollViewerAutomationPeer : Windows.UI.Xaml.Automation.Peers.Frame
 Exposes [ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md) types to Microsoft UI Automation.
 
 ## -remarks
-The Windows Runtime  [ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md) class creates a new [ScrollViewerAutomationPeer](scrollviewerautomationpeer.md) as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. [ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md) is sealed, so the normal scenario of deriving from the [ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md) class and its existing peer isn't applicable to [ScrollViewerAutomationPeer](scrollviewerautomationpeer.md).
+The Windows Runtime  [ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md) class creates a new ScrollViewerAutomationPeer as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. [ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md) is sealed, so the normal scenario of deriving from the [ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md) class and its existing peer isn't applicable to ScrollViewerAutomationPeer.
 
 ### Default peer implementation and overrides in **ScrollViewerAutomationPeer**
 
-[ScrollViewerAutomationPeer](scrollviewerautomationpeer.md) has overrides of **Core** methods such that the associated [AutomationPeer](automationpeer.md) methods provide peer-specific information to a Microsoft UI Automation client.
+ScrollViewerAutomationPeer has overrides of **Core** methods such that the associated [AutomationPeer](automationpeer.md) methods provide peer-specific information to a Microsoft UI Automation client.
 
 + [GetPattern](automationpeer_getpattern_2046576749.md) reports that the peer provides pattern support for [PatternInterface.Scroll](patterninterface.md) ([IScrollProvider](../windows.ui.xaml.automation.provider/iscrollprovider.md)).
 + [GetClassName](automationpeer_getclassname_614238974.md) returns "ScrolViewer".

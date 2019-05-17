@@ -34,7 +34,7 @@ Represents a measurement for control logic that explicitly supports **Star** (\*
 
 ### -field Value
 
-The measure for this [GridLength](gridlength.md), which is not necessarily a pixel measure.
+The measure for this GridLength, which is not necessarily a pixel measure.
 
 ### -field GridUnitType
 
@@ -42,21 +42,21 @@ A value of the [GridUnitType](gridunittype.md) enumeration that qualifies how **
 
 ## -remarks
 
-Types such as [ColumnDefinition](../windows.ui.xaml.controls/columndefinition.md) and [RowDefinition](../windows.ui.xaml.controls/rowdefinition.md) use [GridLength](gridlength.md) values for some of their properties ([ColumnDefinition.Width](../windows.ui.xaml.controls/columndefinition_width.md) and [RowDefinition.Height](../windows.ui.xaml.controls/rowdefinition_height.md)). These property values are used to support variable distribution of available space in layout containers such as [Grid](../windows.ui.xaml.controls/grid.md) (and also derived types of [Grid](../windows.ui.xaml.controls/grid.md) such as [VariableSizedWrapGrid](../windows.ui.xaml.controls/variablesizedwrapgrid.md)).
+Types such as [ColumnDefinition](../windows.ui.xaml.controls/columndefinition.md) and [RowDefinition](../windows.ui.xaml.controls/rowdefinition.md) use GridLength values for some of their properties ([ColumnDefinition.Width](../windows.ui.xaml.controls/columndefinition_width.md) and [RowDefinition.Height](../windows.ui.xaml.controls/rowdefinition_height.md)). These property values are used to support variable distribution of available space in layout containers such as [Grid](../windows.ui.xaml.controls/grid.md) (and also derived types of [Grid](../windows.ui.xaml.controls/grid.md) such as [VariableSizedWrapGrid](../windows.ui.xaml.controls/variablesizedwrapgrid.md)).
 
-A [GridLength](gridlength.md) can describe one of three modes for sizing:
+A GridLength can describe one of three modes for sizing:
 
 - A fixed width.
 - A weighted distribution (star sizing).
 - An "Auto" sizing mode.
 
-[GridLength](gridlength.md) values are typically declared in XAML attribute syntax. In XAML, the weighted distribution is declared using a "\*" symbol, preceded by a number that declares the weighting factor to use for that [GridLength](gridlength.md). The weighted distribution option is also known as *star sizing*.
+GridLength values are typically declared in XAML attribute syntax. In XAML, the weighted distribution is declared using a "\*" symbol, preceded by a number that declares the weighting factor to use for that GridLength. The weighted distribution option is also known as *star sizing*.
 
-The data values held by a [GridLength](gridlength.md) ([Value](/uwp/api/windows.ui.xaml.gridlength.value) and [GridUnitType](/uwp/api/windows.ui.xaml.gridlength.gridunittype)) are both read-only. If you want to change the value of a property that takes a [GridLength](gridlength.md) at run time, you have to create a new value using one of the constructors and replace the previous value.
+The data values held by a GridLength ([Value](/uwp/api/windows.ui.xaml.gridlength.value) and [GridUnitType](/uwp/api/windows.ui.xaml.gridlength.gridunittype)) are both read-only. If you want to change the value of a property that takes a GridLength at run time, you have to create a new value using one of the constructors and replace the previous value.
 
 ### Star sizing
 
-Star sizing is a convention whereby a [GridLength](gridlength.md) has a number value that specifies a weighted factor versus other [GridLength](gridlength.md) values. Any [GridLength](gridlength.md) values that use star sizing divide the available space, accounting for the weighting factors, and evaluating after any fixed widths are applied. If none of the star sizings have weighting factors, the height or width is divided equally amongst them. The default weighting factor is 1.
+Star sizing is a convention whereby a GridLength has a number value that specifies a weighted factor versus other GridLength values. Any GridLength values that use star sizing divide the available space, accounting for the weighting factors, and evaluating after any fixed widths are applied. If none of the star sizings have weighting factors, the height or width is divided equally amongst them. The default weighting factor is 1.
 
 This table provides some examples of star sizing results. For these examples, assume that the parent [Grid](../windows.ui.xaml.controls/grid.md) has a fixed width of 600, and that there are three columns.
 
@@ -66,23 +66,23 @@ This table provides some examples of star sizing results. For these examples, as
 | 100 | * | * | 100,250,250 |
 | 100 | * | 4* | 100,100,400 |
 
-In code, a star sizing is equivalent to a [GridLength](gridlength.md) where [IsStar](/dotnet/api/windows.ui.xaml.gridlength.isstar) is **true**, [GridUnitType](/uwp/api/windows.ui.xaml.gridlength.gridunittype) is [Star](gridunittype.md), and [Value](/uwp/api/windows.ui.xaml.gridlength.value) is the weighted factor applied.
+In code, a star sizing is equivalent to a GridLength where [IsStar](/dotnet/api/windows.ui.xaml.gridlength.isstar) is **true**, [GridUnitType](/uwp/api/windows.ui.xaml.gridlength.gridunittype) is [Star](gridunittype.md), and [Value](/uwp/api/windows.ui.xaml.gridlength.value) is the weighted factor applied.
 
 Non-integer weighting factors are permitted; for example, ".5*".
 
 ### Auto sizing
 
-Auto sizing distributes space evenly based on the size of the content that is within a column or row. The exact logic for auto sizing is implemented by the control or class using the [GridLength](gridlength.md) values. Typically that class is [Grid](../windows.ui.xaml.controls/grid.md), as it interprets its [RowDefinition](../windows.ui.xaml.controls/rowdefinition.md) and [ColumnDefinition](../windows.ui.xaml.controls/columndefinition.md) components.
+Auto sizing distributes space evenly based on the size of the content that is within a column or row. The exact logic for auto sizing is implemented by the control or class using the GridLength values. Typically that class is [Grid](../windows.ui.xaml.controls/grid.md), as it interprets its [RowDefinition](../windows.ui.xaml.controls/rowdefinition.md) and [ColumnDefinition](../windows.ui.xaml.controls/columndefinition.md) components.
 
 ### Notes on XAML syntax
 
-Although you can specify a [GridLength](gridlength.md) as an object element, you cannot specify the individual values, such as **Value**, as attributes of that object element. The XAML parser does not support setting XAML attribute values for this structure. Instead, you must specify the values as initialization text within the [GridLength](gridlength.md). For more info on XAML initialization text, see [XAML syntax guide](/windows/uwp/xaml-platform/xaml-syntax-guide).
+Although you can specify a GridLength as an object element, you cannot specify the individual values, such as **Value**, as attributes of that object element. The XAML parser does not support setting XAML attribute values for this structure. Instead, you must specify the values as initialization text within the GridLength. For more info on XAML initialization text, see [XAML syntax guide](/windows/uwp/xaml-platform/xaml-syntax-guide).
 
 ### Projection and members of GridLength
 
-If you are using a Microsoft .NET language (C# or Microsoft Visual Basic), or Visual C++ component extensions (C++/CX), then [GridLength](gridlength.md) has non-data members available, and its data members are exposed as read-only properties, not fields. See [GridLength](/dotnet/api/windows.ui.xaml.gridlength) in the .NET API Browser.
+If you are using a Microsoft .NET language (C# or Microsoft Visual Basic), or Visual C++ component extensions (C++/CX), then GridLength has non-data members available, and its data members are exposed as read-only properties, not fields. See [GridLength](/dotnet/api/windows.ui.xaml.gridlength) in the .NET API Browser.
 
-If you are programming with [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/index) or the [Windows Runtime C++ Template Library (WRL)](/cpp/windows/windows-runtime-cpp-template-library-wrl), then only the data member fields exist as members of [GridLength](gridlength.md), and you cannot use the utility methods or properties of the .NET projection. C++ code can access similar utility methods that exist on the [GridLengthHelper](gridlengthhelper.md) class.
+If you are programming with [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/index) or the [Windows Runtime C++ Template Library (WRL)](/cpp/windows/windows-runtime-cpp-template-library-wrl), then only the data member fields exist as members of GridLength, and you cannot use the utility methods or properties of the .NET projection. C++ code can access similar utility methods that exist on the [GridLengthHelper](gridlengthhelper.md) class.
 
 This table shows the equivalent properties and methods available in .NET and C++.
 

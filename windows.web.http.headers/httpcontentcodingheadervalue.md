@@ -13,9 +13,9 @@ public class HttpContentCodingHeaderValue : Windows.Foundation.IStringable, Wind
 Represents content encoding information used in the **Content-Encoding** HTTP header on HTTP content in a request or a response.
 
 ## -remarks
-The [HttpContentCodingHeaderValue](httpcontentcodingheadervalue.md) class represents content encoding information used in the **Content-Encoding** HTTP header on HTTP content sent in an HTTP request or received in an HTTP response.
+The HttpContentCodingHeaderValue class represents content encoding information used in the **Content-Encoding** HTTP header on HTTP content sent in an HTTP request or received in an HTTP response.
 
-The [ContentEncoding](httpcontentheadercollection_contentencoding.md) property on the [HttpContentHeaderCollection](httpcontentheadercollection.md) returns an [HttpContentCodingHeaderValueCollection](httpcontentcodingheadervaluecollection.md) that contains [HttpContentCodingHeaderValue](httpcontentcodingheadervalue.md) objects.
+The [ContentEncoding](httpcontentheadercollection_contentencoding.md) property on the [HttpContentHeaderCollection](httpcontentheadercollection.md) returns an [HttpContentCodingHeaderValueCollection](httpcontentcodingheadervaluecollection.md) that contains HttpContentCodingHeaderValue objects.
 
 ## -examples
 

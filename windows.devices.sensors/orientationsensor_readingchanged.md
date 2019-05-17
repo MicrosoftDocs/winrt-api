@@ -35,7 +35,7 @@ The following example demonstrates how a UWP app built with JavaScript registers
 
 [!code-js[EnableReadingChangedJS](../windows.devices.sensors/code/orientation/javascript/scenario1.js#SnippetEnableReadingChangedJS)]
 
-The following example shows the [ReadingChanged](orientationsensor_readingchanged.md) event handler.
+The following example shows the ReadingChanged event handler.
 
 
 

@@ -26,7 +26,7 @@ Represents the container control that holds app UI components for commanding and
 ## -remarks
 
 > [!IMPORTANT]
-> You should use the [AppBar](appbar.md) only when you are upgrading a Universal Windows 8 app that uses the [AppBar](appbar.md), and need to minimize changes. For new apps in Windows 10, we recommend using the [CommandBar](commandbar.md) control instead.
+> You should use the AppBar only when you are upgrading a Universal Windows 8 app that uses the AppBar, and need to minimize changes. For new apps in Windows 10, we recommend using the [CommandBar](commandbar.md) control instead.
 
 An app bar is a UI element that's typically used to present commands and tools to the user, but can also be used for navigation. An app bar can appear at the top of the page, at the bottom of the page, or both. By default, its shown in a minimal state. Its content is shown or hidden when the user presses the ellipsis [•••], or performs a right-click that is not otherwise handled by the app.
 
@@ -42,7 +42,7 @@ You can open and close the app bar programmatically by setting the [IsOpen](appb
 
 By default, the app bar is dismissed (closed) when the user interacts with the app anywhere outside of the app bar. Closing the app bar this way is called *light dismiss*. You can control how the app bar is dismissed by setting the [IsSticky](appbar_issticky.md) property. When the app bar is *sticky*, it's not closed by a *light dismiss* gesture. The app bar remains visible until the user right clicks or presses the ellipsis [•••].
 
-To add an app bar in Extensible Application Markup Language (XAML), you assign an [AppBar](appbar.md) control to a [Page](page.md) 's [TopAppBar](page_topappbar.md) or [BottomAppBar](page_bottomappbar.md) property. A single app bar can be shared across multiple pages. You can add and remove commands programmatically based on the page context.
+To add an app bar in Extensible Application Markup Language (XAML), you assign an AppBar control to a [Page](page.md) 's [TopAppBar](page_topappbar.md) or [BottomAppBar](page_bottomappbar.md) property. A single app bar can be shared across multiple pages. You can add and remove commands programmatically based on the page context.
 
 ### Control style and template
 
@@ -50,7 +50,7 @@ You can modify the default [Style](../windows.ui.xaml/style.md) and [ControlTemp
 
 Starting in Windows 10, version 1607 (SDK 14393), generic.xaml includes resources that you can use to modify the colors of a control in different visual states without modifying the control template. In apps that target this software development kit (SDK) or later, modifying these resources is preferred to setting properties such as [Background](control_background.md) and [Foreground](control_foreground.md). For more info, see the [Light-weight styling](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) section of the [Styling controls](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) article.
 
-This table shows the resources used by the [AppBar](appbar.md) control.
+This table shows the resources used by the AppBar control.
 
 <table>
    <tr><th>Resource key</th><th>Description</th></tr>

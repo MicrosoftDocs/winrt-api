@@ -15,7 +15,7 @@ Represents an element that has a value within a specific range, such as the [Pro
 ## -remarks
 ### **RangeBase** derived classes
 
-[RangeBase](rangebase.md) is the parent class for these controls:
+RangeBase is the parent class for these controls:
 + [ProgressBar](../windows.ui.xaml.controls/progressbar.md)
 + [ScrollBar](scrollbar.md),
 + [Slider](../windows.ui.xaml.controls/slider.md)

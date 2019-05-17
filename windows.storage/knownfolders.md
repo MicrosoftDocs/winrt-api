@@ -25,7 +25,7 @@ To access the folders and libraries represented by the properties of this class,
 
 ### Return value
 
-The properties of the [KnownFolders](knownfolders.md) class return a [StorageFolder](storagefolder.md). To work with the known folder and its contents, call the methods and properties of the [StorageFolder](storagefolder.md) class.
+The properties of the KnownFolders class return a [StorageFolder](storagefolder.md). To work with the known folder and its contents, call the methods and properties of the [StorageFolder](storagefolder.md) class.
 
 + For info about how to use pictures, music, and videos in your app, see [Audio, video, and camera](https://msdn.microsoft.com/library/0fc12d26-f1cf-4da7-b5a7-735a5074b74a).
 + For general info about how to use files and folders, see [Enumerate and query files and folders](https://msdn.microsoft.com/library/4c59d5ac-58f7-4863-a884-e9e54228a5ad).

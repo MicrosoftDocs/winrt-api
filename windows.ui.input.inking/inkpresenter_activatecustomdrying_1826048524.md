@@ -19,7 +19,7 @@ By default, ink input is processed on a low-latency background thread and render
 
 **[InkCanvas](../windows.ui.xaml.controls/inkcanvas.md)**
 
-By calling [ActivateCustomDrying](inkpresenter_activatecustomdrying_1826048524.md) (before the [InkCanvas](../windows.ui.xaml.controls/inkcanvas.md) is loaded), an app creates an [InkSynchronizer](inksynchronizer.md) object to customize how an ink stroke is rendered dry to a [SurfaceImageSource](../windows.ui.xaml.media.imaging/surfaceimagesource.md) or [VirtualSurfaceImageSource](../windows.ui.xaml.media.imaging/virtualsurfaceimagesource.md). For example, an ink stroke could be rasterized and integrated into application content instead of as a separate [InkCanvas](../windows.ui.xaml.controls/inkcanvas.md) layer.
+By calling ActivateCustomDrying (before the [InkCanvas](../windows.ui.xaml.controls/inkcanvas.md) is loaded), an app creates an [InkSynchronizer](inksynchronizer.md) object to customize how an ink stroke is rendered dry to a [SurfaceImageSource](../windows.ui.xaml.media.imaging/surfaceimagesource.md) or [VirtualSurfaceImageSource](../windows.ui.xaml.media.imaging/virtualsurfaceimagesource.md). For example, an ink stroke could be rasterized and integrated into application content instead of as a separate [InkCanvas](../windows.ui.xaml.controls/inkcanvas.md) layer.
 
 **[InkDesktopHost](https://msdn.microsoft.com/library/windows/desktop/mt622161.aspx)** (Windows 10 version 1511 and newer)
 
@@ -37,7 +37,7 @@ The object used for custom ink stroke rendering.
 ## -remarks
 #### Error codes
 ##### E_ILLEGAL_METHOD_CALL  (0x8000000E)
-Thrown if [ActivateCustomDrying](inkpresenter_activatecustomdrying_1826048524.md) is called after [InkCanvas](../windows.ui.xaml.controls/inkcanvas.md) is loaded.
+Thrown if ActivateCustomDrying is called after [InkCanvas](../windows.ui.xaml.controls/inkcanvas.md) is loaded.
 
 This method must be called prior to loading the [InkCanvas](../windows.ui.xaml.controls/inkcanvas.md).
 

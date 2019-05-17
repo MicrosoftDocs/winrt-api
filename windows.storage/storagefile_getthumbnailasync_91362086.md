@@ -35,7 +35,7 @@ When this method completes successfully, it returns a [StorageItemThumbnail](../
 ## -remarks
 
 ## -examples
-This example shows you how to capture the thumbnail of a file using the [storageFile.getThumbnailAsync(mode, requestedSize, options)](storagefile_getthumbnailasync_91362086.md) method.
+This example shows you how to capture the thumbnail of a file using the [storageFile.getThumbnailAsync(mode, requestedSize, options) method.
 
 ```javascript
 storageFile.getThumbnailAsync(

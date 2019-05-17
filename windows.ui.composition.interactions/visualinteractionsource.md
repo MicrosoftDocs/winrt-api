@@ -12,7 +12,7 @@ public class VisualInteractionSource : Windows.UI.Composition.CompositionObject,
 ## -description
 Object for configuring input to the InteractionTracker relative to a visual.
 
-The [VisualInteractionSource](visualinteractionsource.md) is designed to be used only with [InteractionTracker](interactiontracker.md) and defines which input will be sent to the [InteractionTracker](interactiontracker.md) to drive its state and properties. This class contains both the visual to be used for hit-testing, as well as a variety of configuration properties for which gestures and types of input will be sent to the [InteractionTracker](interactiontracker.md).
+The VisualInteractionSource is designed to be used only with [InteractionTracker](interactiontracker.md) and defines which input will be sent to the [InteractionTracker](interactiontracker.md) to drive its state and properties. This class contains both the visual to be used for hit-testing, as well as a variety of configuration properties for which gestures and types of input will be sent to the [InteractionTracker](interactiontracker.md).
 
 ## -remarks
 The VisualInteractionSource is used to define important properties about the types of interactions that should drive the InteractionTracker’s state and properties. The source property is used both for hit-testing, as well as the coordinate space for gesture detection. As a result, it is important to use a Visual that is not going to be in motion during the manipulation. Multiple VisualInteractionSources can be associated with the same InteractionTracker if there are multiple hit-test regions, but the most common cases require only one VisualInteractionSource for a given InteractionTracker.

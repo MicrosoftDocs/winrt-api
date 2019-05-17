@@ -26,7 +26,7 @@ Expando properties are a set of named values associated with a storage file inst
 
 They can be written and read by any app, and therefore provide a way to associate information with a storage file. This is useful in scenarios where a storage file is passed from one app to another to communicate extra information about that file.
 
-Expando properties are accessed using the Windows Runtime storage API. They are retrieved as a value using [RetrievePropertiesAsync](storageitemcontentproperties_retrievepropertiesasync_507906171.md) with the "System.ExpandoProperties" property name. The expando properties are written using [SavePropertiesAsync](storageitemcontentproperties_savepropertiesasync_132989229.md). That value is a property set itself so the values within it are accessed using the PropertySet programming model.
+Expando properties are accessed using the Windows Runtime storage API. They are retrieved as a value using [RetrievePropertiesAsync](storageitemcontentproperties_retrievepropertiesasync_507906171.md) with the "System.ExpandoProperties" property name. The expando properties are written using SavePropertiesAsync. That value is a property set itself so the values within it are accessed using the PropertySet programming model.
 
 The names used to identify values in the System.ExpandoProperties set do not need to conform to the system's property naming scheme (which prefixes property names with "System"). They can be any string value.
 
@@ -37,4 +37,4 @@ Apps may define and document the properties that they use so other applications 
 ## -examples
 
 ## -see-also
-[storageItemContentProperties class](storageitemcontentproperties.md), [storageItemContentProperties.savePropertiesAsync methods](storageitemcontentproperties_savepropertiesasync_132989229.md), [storageItemContentProperties.savePropertiesAsync() method](storageitemcontentproperties_savepropertiesasync_330113698.md), [Windows.Foundation.Collections.IKeyValuePair interface](../windows.foundation.collections/ikeyvaluepair_2.md), [System.Dynamic.ExpandoObject](https://msdn.microsoft.com/library/system.dynamic.expandoobject(v=vs.110).aspx)
+[storageItemContentProperties class](storageitemcontentproperties.md), [storageItemContentProperties.savePropertiesAsync methods, [storageItemContentProperties.savePropertiesAsync() method](storageitemcontentproperties_savepropertiesasync_330113698.md), [Windows.Foundation.Collections.IKeyValuePair interface](../windows.foundation.collections/ikeyvaluepair_2.md), [System.Dynamic.ExpandoObject](https://msdn.microsoft.com/library/system.dynamic.expandoobject(v=vs.110).aspx)

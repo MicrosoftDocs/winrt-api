@@ -22,7 +22,7 @@ The value to set.
 ## -remarks
 [InsertAt](doublekeyframecollection_insertat_464613308.md) expands the collection and moves all subsequent index items by one.
 
-In contrast, [SetAt](doublekeyframecollection_setat_1793986508.md) replaces the item at the index, and the collection count remains the same.
+In contrast, SetAt replaces the item at the index, and the collection count remains the same.
 
 ## -examples
 

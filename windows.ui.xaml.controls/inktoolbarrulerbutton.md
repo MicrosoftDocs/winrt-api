@@ -22,7 +22,7 @@ The [InkToolbar](inktoolbar.md) consists of two distinct groups of button types:
 
     > Feature selection is mutually exclusive.
 
-+ A second group of "toggle" buttons containing the built-in ruler ([InkToolbarRulerButton](inktoolbarrulerbutton.md)) button. Custom toggles ([InkToolbarCustomToggleButton](inktoolbarcustomtogglebutton.md)) are added here.
++ A second group of "toggle" buttons containing the built-in ruler (InkToolbarRulerButton) button. Custom toggles ([InkToolbarCustomToggleButton](inktoolbarcustomtogglebutton.md)) are added here.
 
     > Features are not mutually exclusive and can be used concurrently with other active tools.
 

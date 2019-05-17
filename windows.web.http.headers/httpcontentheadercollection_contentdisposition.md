@@ -18,7 +18,7 @@ The object that represent the value of HTTP **Content-Disposition** header on th
 ## -remarks
 
 
-The following sample code shows a method to get or set the **Content-Disposition** header value on HTTP content using the [ContentDisposition](httpcontentheadercollection_contentdisposition.md) property on the [HttpContentHeaderCollection](httpcontentheadercollection.md) object.
+The following sample code shows a method to get or set the **Content-Disposition** header value on HTTP content using the ContentDisposition property on the [HttpContentHeaderCollection](httpcontentheadercollection.md) object.
 
 ```csharp
     // Content-Disposition header

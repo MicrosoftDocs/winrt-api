@@ -21,7 +21,7 @@ Use [GetCodepointFromSurrogatePair](unicodecharacters_getcodepointfromsurrogatep
 The normal procedure for processing the code points in a stream is to:
 
 1. Use [IsHighSurrogate](unicodecharacters_ishighsurrogate_1444937275.md) to determine if a code point is a high surrogate.
-1. If it is not, pass it to the desired method of [UnicodeCharacters](unicodecharacters.md).
+1. If it is not, pass it to the desired method of UnicodeCharacters.
 1. Else the code point is a high surrogate:1. Use [IsLowSurrogate](unicodecharacters_islowsurrogate_645121110.md) to check the next code point in the stream to determine if it is a low surrogate.
 1. If it is not, you have an invalid sequence of code points.
 1. Else the second code point is a low surrogate. Pass the high and low pair to [GetCodepointFromSurrogatePair](unicodecharacters_getcodepointfromsurrogatepair_1886831018.md) to obtain the supplementary Unicode character that can be passed on to the desired method.

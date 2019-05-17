@@ -13,7 +13,7 @@ public class VoiceCommandConfirmationResult : Windows.ApplicationModel.VoiceComm
 The response to the question specified by the background app and shown on the **Cortana** confirmation screen. This screen is displayed when the background app service calls [RequestConfirmationAsync](voicecommandserviceconnection_requestconfirmationasync_1656186355.md).
 
 ## -remarks
-Access the [VoiceCommandConfirmationResult](voicecommandconfirmationresult.md) object by calling [RequestConfirmationAsync](voicecommandserviceconnection_requestconfirmationasync_1656186355.md) on a [VoiceCommandServiceConnection](voicecommandserviceconnection.md) that references the appropriate [Windows.ApplicationModel.AppService](../windows.applicationmodel.appservice/windows_applicationmodel_appservice.md) object.
+Access the VoiceCommandConfirmationResult object by calling [RequestConfirmationAsync](voicecommandserviceconnection_requestconfirmationasync_1656186355.md) on a [VoiceCommandServiceConnection](voicecommandserviceconnection.md) that references the appropriate [Windows.ApplicationModel.AppService](../windows.applicationmodel.appservice/windows_applicationmodel_appservice.md) object.
 
 ## -examples
 

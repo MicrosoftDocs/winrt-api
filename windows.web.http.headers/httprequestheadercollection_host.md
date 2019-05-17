@@ -18,7 +18,7 @@ The [HostName](../windows.networking/hostname.md) that represents the value of a
 ## -remarks
 
 
-The following sample code shows a method to set the **Host** header on an [HttpRequestMessage](../windows.web.http/httprequestmessage.md) object using the [Host](httprequestheadercollection_host.md) property on the [HttpRequestHeaderCollection](httprequestheadercollection.md) object.
+The following sample code shows a method to set the **Host** header on an [HttpRequestMessage](../windows.web.http/httprequestmessage.md) object using the Host property on the [HttpRequestHeaderCollection](httprequestheadercollection.md) object.
 
 ```csharp
     public void DemonstrateHeaderRequestHost() {

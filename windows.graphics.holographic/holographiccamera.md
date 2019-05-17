@@ -17,7 +17,7 @@ Provides per-frame rendering functionality for a [HolographicViewConfiguration](
 
 ## -remarks
 
-An app renders to the back buffer for at least one [HolographicCamera](holographiccamera.md) before presenting each HolographicFrame.
+An app renders to the back buffer for at least one HolographicCamera before presenting each HolographicFrame.
 
 ## -examples
 

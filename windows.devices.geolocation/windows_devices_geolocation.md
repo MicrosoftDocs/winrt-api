@@ -7,7 +7,7 @@
 
 ## -description
 
-Provides APIs for [getting the current location](https://msdn.microsoft.com/library/24dc9a41-8cc1-48b0-bc6d-24bf571afcc8) or tracking the device's location over time. Location information may come from estimating a position from beacons like Wi-Fi access points and cell towers, from the device's IP address, or it may come from other sources such as a GNSS or GPS device. The [Windows.Devices.Geolocation](windows_devices_geolocation.md) API provides the most appropriate geolocation data from all available sources.
+Provides APIs for [getting the current location](https://msdn.microsoft.com/library/24dc9a41-8cc1-48b0-bc6d-24bf571afcc8) or tracking the device's location over time. Location information may come from estimating a position from beacons like Wi-Fi access points and cell towers, from the device's IP address, or it may come from other sources such as a GNSS or GPS device. The Windows.Devices.Geolocation API provides the most appropriate geolocation data from all available sources.
 
 The accuracy of the location information depends on the source. The latitude and longitude may vary within the following ranges:
 

@@ -29,11 +29,11 @@ The local network adapter to use for the connect operation on the [StreamSocket]
 An asynchronous connect operation on a [StreamSocket](streamsocket.md) object.
 
 ## -remarks
-The [ConnectAsync(Hostname, String, SocketProtectionLevel, NetworkAdapter)](streamsocket_connectasync_238604852.md) method binds to a network interface specified in the *adapter* parameter on the local computer and the remote hostname and service name specified in the *remoteHostName* and *remoteServiceName* parameters with the protection level specified in the *protectionLevel* parameter.
+The [ConnectAsync(Hostname, String, SocketProtectionLevel, NetworkAdapter) method binds to a network interface specified in the *adapter* parameter on the local computer and the remote hostname and service name specified in the *remoteHostName* and *remoteServiceName* parameters with the protection level specified in the *protectionLevel* parameter.
 
 The *remoteHostName* and *remoteServiceName* parameters must be provided. If the *remoteHostName* is **null** or the *remoteServiceName* is **null** or an empty string, an error will occur. If the *adapter* parameter is **null**, an error will occur.
 
-The name resolution mechanism used by the [ConnectAsync(Hostname, String, SocketProtectionLevel, NetworkAdapter)](streamsocket_connectasync_238604852.md) method is limited to the specified interface for the domain name system (DNS) namespace.
+The name resolution mechanism used by the [ConnectAsync(Hostname, String, SocketProtectionLevel, NetworkAdapter) method is limited to the specified interface for the domain name system (DNS) namespace.
 
 Using the specified network adapter is on a best-effort basis. Systems with adapters configured in weak-host or forwarding modes may use an adapter other than the specified adapter.
 
@@ -41,7 +41,7 @@ When the *protectionLevel* parameter is set to a value that requires SSL or TLS,
 
 An app can retrieve a valid [NetworkAdapter](../windows.networking.connectivity/networkadapter.md) by inspecting a [HostName](../windows.networking/hostname.md) instance (using the [NetworkInformation.GetHostNames](../windows.networking.connectivity/networkinformation_gethostnames_136280557.md) method, for example) and retrieving the [IPInformation](../windows.networking.connectivity/ipinformation.md) object from the [Hostname.IPInformation](../windows.networking/hostname_ipinformation.md) property. The [IPInformation.NetworkAdapter](../windows.networking.connectivity/ipinformation_networkadapter.md) property can be used to retrieve the associated [NetworkAdapter](../windows.networking.connectivity/networkadapter.md).
 
-In a UWP app, the [StreamSocket](streamsocket.md) class supports connecting to a remote endpoint when proxies are required to complete the connection. This support for proxies is automatic and transparent to the app. However, connecting through proxies is not supported when a specific network adapter is selected. So proxy support is disabled when the [ConnectAsync(HostName, String, SocketProtectionLevel, NetworkAdapter)](streamsocket_connectasync_238604852.md) method is used. For more detailed information, see the remarks on *Support for proxies* in the [StreamSocket](streamsocket.md) class reference.
+In a UWP app, the [StreamSocket](streamsocket.md) class supports connecting to a remote endpoint when proxies are required to complete the connection. This support for proxies is automatic and transparent to the app. However, connecting through proxies is not supported when a specific network adapter is selected. So proxy support is disabled when the [ConnectAsync(HostName, String, SocketProtectionLevel, NetworkAdapter) method is used. For more detailed information, see the remarks on *Support for proxies* in the [StreamSocket](streamsocket.md) class reference.
 
 In a Windows Phone 8.x app, the [StreamSocket](streamsocket.md) class does not provide automatic support for proxies.
 

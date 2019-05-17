@@ -25,7 +25,7 @@ Gets or sets the display format for the year value.
 The display format for the year value.
 
 ## -remarks
-Change the format of the year picker by setting the [YearFormat](datepicker_yearformat.md) property.
+Change the format of the year picker by setting the YearFormat property.
 
 The string content of each [ComboBox](combobox.md) in the [DatePicker](datepicker.md) is created by a [DateTimeFormatter](../windows.globalization.datetimeformatting/datetimeformatter.md). You inform the [DateTimeFormatter](../windows.globalization.datetimeformatting/datetimeformatter.md) how to format the year value by providing a string that is either a *format template* or a *format pattern*. Common templates and patterns for year values are listed in the following table.
 

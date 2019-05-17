@@ -17,7 +17,7 @@ Provides read access to bitmap container data as well as data from the first fra
 
 ### Image formats
 
-[BitmapDecoder](bitmapdecoder.md) can decode the following formats.
+BitmapDecoder can decode the following formats.
 
 + JPEG
 + PNG
@@ -30,7 +30,7 @@ Provides read access to bitmap container data as well as data from the first fra
 
 For a list of decoding formats, see the [BitmapEncoder](bitmapencoder.md) topic.
 
-The [BitmapDecoder](bitmapdecoder.md) class implements [IBitmapFrame](ibitmapframe.md). It provides access to container data as well as data from the first frame. This allows applications to accomplish most common scenarios without needing to retrieve a separate [BitmapFrame](bitmapframe.md).
+The BitmapDecoder class implements [IBitmapFrame](ibitmapframe.md). It provides access to container data as well as data from the first frame. This allows applications to accomplish most common scenarios without needing to retrieve a separate [BitmapFrame](bitmapframe.md).
 
 ## -examples
 

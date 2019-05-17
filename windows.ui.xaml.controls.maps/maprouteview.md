@@ -13,7 +13,7 @@ public class MapRouteView : Windows.UI.Xaml.DependencyObject, Windows.UI.Xaml.Co
 Displays a [MapRoute](../windows.services.maps/maproute.md) on a [MapControl](mapcontrol.md).
 
 ## -remarks
-To display a route on a map, construct a [MapRouteView](maprouteview.md) with the [MapRoute](../windows.services.maps/maproute.md) and add the [MapRouteView](maprouteview.md) to the [Routes](mapcontrol_routes.md) collection of the [MapControl](mapcontrol.md).
+To display a route on a map, construct a MapRouteView with the [MapRoute](../windows.services.maps/maproute.md) and add the MapRouteView to the [Routes](mapcontrol_routes.md) collection of the [MapControl](mapcontrol.md).
 
 ## -examples
 

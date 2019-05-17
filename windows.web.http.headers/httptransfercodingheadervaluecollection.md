@@ -13,11 +13,11 @@ public class HttpTransferCodingHeaderValueCollection : Windows.Foundation.Collec
 Represents the value of the **Transfer-Encoding** HTTP header on an HTTP request.
 
 ## -remarks
-The [HttpTransferCodingHeaderValueCollection](httptransfercodingheadervaluecollection.md) represents the value of the **Transfer-Encoding** HTTP header on an HTTP request.
+The HttpTransferCodingHeaderValueCollection represents the value of the **Transfer-Encoding** HTTP header on an HTTP request.
 
-The [HttpTransferCodingHeaderValueCollection](httptransfercodingheadervaluecollection.md) is a collection of [HttpTransferCodingHeaderValue](httptransfercodingheadervalue.md) objects used for transfer coding information in the HTTP **Transfer-Encoding** header.
+The HttpTransferCodingHeaderValueCollection is a collection of [HttpTransferCodingHeaderValue](httptransfercodingheadervalue.md) objects used for transfer coding information in the HTTP **Transfer-Encoding** header.
 
-The [TransferEncoding](httprequestheadercollection_transferencoding.md) property on the [HttpRequestHeaderCollection](httprequestheadercollection.md) returns an [HttpTransferCodingHeaderValueCollection](httptransfercodingheadervaluecollection.md) object.
+The [TransferEncoding](httprequestheadercollection_transferencoding.md) property on the [HttpRequestHeaderCollection](httprequestheadercollection.md) returns an HttpTransferCodingHeaderValueCollection object.
 
 ## -examples
 

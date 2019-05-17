@@ -28,11 +28,11 @@ Represents a button that allows a user to select a single option from a group of
 > [!TIP]
 > For more info, design guidance, and code examples, see [Radio buttons](/windows/uwp/design/controls-and-patterns/radio-button).
 
-Use [RadioButton](radiobutton.md) controls to limit a user's selection to a single choice within a set of related, but mutually exclusive, choices. You group [RadioButton](radiobutton.md) controls by putting them inside the same parent container or by setting the [GroupName](radiobutton_groupname.md) property on each [RadioButton](radiobutton.md) to the same value.
+Use RadioButton controls to limit a user's selection to a single choice within a set of related, but mutually exclusive, choices. You group RadioButton controls by putting them inside the same parent container or by setting the [GroupName](radiobutton_groupname.md) property on each RadioButton to the same value.
 
 <img alt="Radio button controls" src="images/controls/RadioButton.png" />
 
-A [RadioButton](radiobutton.md) has two states: selected or cleared. When a [RadioButton](radiobutton.md) is selected, its [IsChecked](../windows.ui.xaml.controls.primitives/togglebutton_ischecked.md) property is **true**. When a [RadioButton](radiobutton.md) is cleared, its [IsChecked](../windows.ui.xaml.controls.primitives/togglebutton_ischecked.md) property is **false**. A [RadioButton](radiobutton.md) can be cleared by clicking another [RadioButton](radiobutton.md) in the same group, but it cannot be cleared by clicking it again. However, a [RadioButton](radiobutton.md) can be cleared programmatically by setting its [IsChecked](../windows.ui.xaml.controls.primitives/togglebutton_ischecked.md) property to **false**.
+A RadioButton has two states: selected or cleared. When a RadioButton is selected, its [IsChecked](../windows.ui.xaml.controls.primitives/togglebutton_ischecked.md) property is **true**. When a RadioButton is cleared, its [IsChecked](../windows.ui.xaml.controls.primitives/togglebutton_ischecked.md) property is **false**. A RadioButton can be cleared by clicking another RadioButton in the same group, but it cannot be cleared by clicking it again. However, a RadioButton can be cleared programmatically by setting its [IsChecked](../windows.ui.xaml.controls.primitives/togglebutton_ischecked.md) property to **false**.
 
 ### Control style and template
 
@@ -40,7 +40,7 @@ You can modify the default [Style](../windows.ui.xaml/style.md) and [ControlTemp
 
 Starting in Windows 10, version 1607 (SDK 14393), generic.xaml includes resources that you can use to modify the colors of a control in different visual states without modifying the control template. In apps that target this software development kit (SDK) or later, modifying these resources is preferred to setting properties such as [Background](control_background.md) and [Foreground](control_foreground.md). For more info, see the [Light-weight styling](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) section of the [Styling controls](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) article.
 
-This table shows the resources used by the [RadioButton](radiobutton.md) control.
+This table shows the resources used by the RadioButton control.
 
 <table>
    <tr><th>Resource key</th><th>Description</th></tr>

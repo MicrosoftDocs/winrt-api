@@ -16,7 +16,7 @@ Gets a value that reports the run-time offset value that is useful for a **Split
 The run-time offset value in pixels.
 
 ## -remarks
-[DropDownOffset](comboboxtemplatesettings_dropdownoffset.md) is referenced in the default generic.xaml template animations for [ComboBox](../windows.ui.xaml.controls/combobox.md).
+DropDownOffset is referenced in the default generic.xaml template animations for [ComboBox](../windows.ui.xaml.controls/combobox.md).
 
 ## -examples
 

@@ -16,7 +16,7 @@ Gets the source of the data received in the [HttpResponseMessage](httpresponseme
 The source of the data received in the [HttpResponseMessage](httpresponsemessage.md).
 
 ## -remarks
-The [Source](httpresponsemessage_source.md) property indicates whether the data received in the [HttpResponseMessage](httpresponsemessage.md) was from the local cache or was received over the network.
+The Source property indicates whether the data received in the [HttpResponseMessage](httpresponsemessage.md) was from the local cache or was received over the network.
 
 ## -examples
 

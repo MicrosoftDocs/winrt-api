@@ -12,9 +12,9 @@ public double MaxStrokeWidth { get;  set; }
 ## -description
 Gets or sets the maximum possible [Size](../windows.ui.input.inking/inkdrawingattributes_size.md) of an ink stroke.
 
-For ballpoint pen and pencil strokes, [MaxStrokeWidth](inktoolbarpenbutton_maxstrokewidth.md) specifies both the maximum [Height](../windows.foundation/size.md) and [Width](../windows.foundation/size.md) of a [Rectangle](../windows.ui.input.inking/pentipshape.md) pen tip.
+For ballpoint pen and pencil strokes, MaxStrokeWidth specifies both the maximum [Height](../windows.foundation/size.md) and [Width](../windows.foundation/size.md) of a [Rectangle](../windows.ui.input.inking/pentipshape.md) pen tip.
 
-For highlighter strokes, [MaxStrokeWidth](inktoolbarpenbutton_maxstrokewidth.md) specifies the maximum height of a [Rectangle](../windows.ui.input.inking/pentipshape.md) pen tip, while [MaxStrokeWidth](inktoolbarpenbutton_maxstrokewidth.md)/3 specifies the maximum width.
+For highlighter strokes, MaxStrokeWidth specifies the maximum height of a [Rectangle](../windows.ui.input.inking/pentipshape.md) pen tip, while MaxStrokeWidth/3 specifies the maximum width.
 
 Custom pen stroke dimensions can be set as required.
 

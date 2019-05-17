@@ -13,12 +13,12 @@ public class InkRecognizerContainer : Windows.UI.Input.Inking.IInkRecognizerCont
 ## -description
 Provides properties and methods to manage one or more [InkRecognizer](inkrecognizer.md) objects used for handwriting recognition.
 
-[InkRecognizerContainer](inkrecognizercontainer.md) is null if a recognition engine is not available on the system.
+InkRecognizerContainer is null if a recognition engine is not available on the system.
 
 ## -remarks
 If recognition is not required, use an [InkStrokeContainer](inkstrokecontainer.md) object instead of an [InkManager](inkmanager.md). Previous recognition results are still available through [GetRecognitionResults](inkstrokecontainer_getrecognitionresults_1073930605.md).
 
-If only recognition is required, and not storage, use an [InkRecognizerContainer](inkrecognizercontainer.md) instead of an [InkManager](inkmanager.md).
+If only recognition is required, and not storage, use an InkRecognizerContainer instead of an [InkManager](inkmanager.md).
 
 > [!NOTE]
 > : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).

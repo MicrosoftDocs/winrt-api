@@ -23,9 +23,9 @@ The remote service name or UDP port.
 A list of [EndpointPair](../windows.networking/endpointpair.md) objects.
 
 ## -remarks
-The [GetEndpointPairsAsync](datagramsocket_getendpointpairsasync_1796487528.md) method gets a list of possible [EndpointPair](../windows.networking/endpointpair.md) objects that can be used by a [DatagramSocket](datagramsocket.md) to send datagrams to a remote network destination. The returned list is sorted so that the address pairs that are best suited for communication between two peers occur earlier in the list.
+The GetEndpointPairsAsync method gets a list of possible [EndpointPair](../windows.networking/endpointpair.md) objects that can be used by a [DatagramSocket](datagramsocket.md) to send datagrams to a remote network destination. The returned list is sorted so that the address pairs that are best suited for communication between two peers occur earlier in the list.
 
-A [DatagramSocket](datagramsocket.md) can use the list returned by the [GetEndpointPairsAsync](datagramsocket_getendpointpairsasync_1796487528.md) method to try and bind or connect to each [EndpointPair](../windows.networking/endpointpair.md) object until a connection can be made. An [EndpointPair](../windows.networking/endpointpair.md) object from the list would be used with the [ConnectAsync(EndpointPair)](datagramsocket_connectasync_13692504.md) methods
+A [DatagramSocket](datagramsocket.md) can use the list returned by the GetEndpointPairsAsync method to try and bind or connect to each [EndpointPair](../windows.networking/endpointpair.md) object until a connection can be made. An [EndpointPair](../windows.networking/endpointpair.md) object from the list would be used with the [ConnectAsync(EndpointPair)](datagramsocket_connectasync_13692504.md) methods
 
 ## -examples
 

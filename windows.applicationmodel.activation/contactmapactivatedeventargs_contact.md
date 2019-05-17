@@ -16,7 +16,7 @@ Gets the contact for the mapping operation.
 The contact for the mapping operation.
 
 ## -remarks
-Use the [Contact](contactmapactivatedeventargs_contact.md) property to collect additional info about the contact that is being mapped. The contact can have a name and thumbnail that can be used to represent it in your app’s UI. Or, the contact can have alternative addresses that can be used.
+Use the Contact property to collect additional info about the contact that is being mapped. The contact can have a name and thumbnail that can be used to represent it in your app’s UI. Or, the contact can have alternative addresses that can be used.
 
 
 Here are possible [Contact](../windows.applicationmodel.contacts/contact.md) properties that can be populated during a map activation:

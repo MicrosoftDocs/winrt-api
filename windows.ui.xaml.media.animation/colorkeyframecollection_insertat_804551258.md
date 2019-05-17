@@ -20,7 +20,7 @@ The index at which to set the value.
 The value to set.
 
 ## -remarks
-[InsertAt](colorkeyframecollection_insertat_804551258.md) expands the collection and moves all subsequent index items by one.
+InsertAt expands the collection and moves all subsequent index items by one.
 
 In contrast, [SetAt](colorkeyframecollection_setat_1588271658.md) replaces the item at the index, and the collection count remains the same.
 

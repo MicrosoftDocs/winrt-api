@@ -18,7 +18,7 @@ Handles the bulk of the work during a share operation. This includes the data th
 
 When a user selects your app as the target of a share action, an [activated](../windows.applicationmodel.core/coreapplicationview_activated.md) event fires. The object that this event sends to your app contains the instance of the **ShareOperation** class.
 
-An app currently open as a Share target cannot initiate an additional [ShareOperation](shareoperation.md), or launch a [FileOpenPicker](../windows.storage.pickers/fileopenpicker.md) or [FileSavePicker](../windows.storage.pickers/filesavepicker.md).
+An app currently open as a Share target cannot initiate an additional ShareOperation, or launch a [FileOpenPicker](../windows.storage.pickers/fileopenpicker.md) or [FileSavePicker](../windows.storage.pickers/filesavepicker.md).
 
 All ShareOperation APIs should only be called after the CoreWindow for the Share target has been [activated](../windows.ui.core/corewindow_activated.md). The Share platform creates an entry for share operation only after the window has been activated.
 
@@ -27,7 +27,7 @@ All ShareOperation APIs should only be called after the CoreWindow for the Share
 
 ## -examples
 
-The following example shows how to work with the [ShareOperation](shareoperation.md) object.
+The following example shows how to work with the ShareOperation object.
 
 [!code-js[HowToReceiveSharedText](../windows.applicationmodel.datatransfer.sharetarget/code/ShareTargetBeta/javascript/js/ReceivedShardText.js#SnippetHowToReceiveSharedText)]
 

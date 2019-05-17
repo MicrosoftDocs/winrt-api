@@ -22,7 +22,7 @@ The object that provides access to the content-related properties of the file.
 For more code samples about accessing properties, see the [File access sample]( http://go.microsoft.com/fwlink/p/?linkid=231445).
 
 ## -examples
-This example demonstrates how to retrieve content properties or specified properties from a file using [StorageFile.Properties](storagefile_properties.md).
+This example demonstrates how to retrieve content properties or specified properties from a file using StorageFile.Properties.
 
 ```csharp
 try

@@ -11,7 +11,7 @@ public string Group { get;  set; }
 
 ## -description
 > [!NOTE]
-> [Group](ibackgroundtransferbase_group.md) may be altered or unavailable for releases after Windows 8.1. Instead, use the relevant [DownloadOperation](downloadoperation.md) or [UploadOperation](uploadoperation.md) TransferGroup.
+> Group may be altered or unavailable for releases after Windows 8.1. Instead, use the relevant [DownloadOperation](downloadoperation.md) or [UploadOperation](uploadoperation.md) TransferGroup.
 
 Gets are sets a string value indicating the group the transfer will belong to.
 

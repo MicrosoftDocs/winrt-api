@@ -15,7 +15,7 @@ Notifies listeners of dynamic changes to a map of [ResourceQualifier](resourcequ
 ## -remarks
 ### Collection member lists
 
-For JavaScript, [ResourceQualifierObservableMap](resourcequalifierobservablemap.md) supports using an index to access items.
+For JavaScript, ResourceQualifierObservableMap supports using an index to access items.
 
 ## -examples
 

@@ -11,7 +11,7 @@ Enables HTTP CRUD access to Web resources using the AtomPub protocol. The [AtomP
 
 ## -remarks
 
-[Windows.Web.AtomPub](windows_web_atompub.md) leverages [Windows.Web.Syndication](../windows.web.syndication/windows_web_syndication.md) classes to represent individual content elements.
+Windows.Web.AtomPub leverages [Windows.Web.Syndication](../windows.web.syndication/windows_web_syndication.md) classes to represent individual content elements.
 
 ## -examples
 

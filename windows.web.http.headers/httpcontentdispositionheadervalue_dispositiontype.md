@@ -16,9 +16,9 @@ Gets or sets the value of the **disposition-type** information in the **Content-
 The value of the **disposition-type** characteristic in the **Content-Disposition** HTTP header.
 
 ## -remarks
-The [DispositionType](httpcontentdispositionheadervalue_dispositiontype.md) property represents the disposition type for a content body part.
+The DispositionType property represents the disposition type for a content body part.
 
-A body part should be marked with a [DispositionType](httpcontentdispositionheadervalue_dispositiontype.md) property of "inline" if it is intended to be displayed automatically upon display of the message. A body part can be designated with a [DispositionType](httpcontentdispositionheadervalue_dispositiontype.md) property of "attachment" to indicate that they are separate from the main body of the HTTP request or response.
+A body part should be marked with a DispositionType property of "inline" if it is intended to be displayed automatically upon display of the message. A body part can be designated with a DispositionType property of "attachment" to indicate that they are separate from the main body of the HTTP request or response.
 
 ## -examples
 

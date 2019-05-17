@@ -33,7 +33,7 @@ Fatal errors indicate the SSL server’s certificate cannot be validated. Reason
 
 
 ## -remarks
-The [SocketSslErrorSeverity](socketsslerrorseverity.md) enumeration indicates the category of error that occurs when an SSL connection to a server is established.
+The SocketSslErrorSeverity enumeration indicates the category of error that occurs when an SSL connection to a server is established.
 
 SSL server errors should only be ignored in advanced scenarios. Disregarding server certificate errors classified as either **Ignorable** or **Fatal** may result in the loss of privacy or integrity of the content passed over the SSL session.
 

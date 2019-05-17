@@ -13,7 +13,7 @@ public class GCPressureAttribute : System.Attribute
 Microsoft internal use only.
 
 ## -remarks
-Enables Windows Runtime APIs that use significant amounts of native memory to signal their memory footprint to garbage-collected (GC) environments, like JavaScript and .NET Framework. Applying the [GCPressureAttribute](gcpressureattribute.md) enables efficient scheduling of garbage collection sweeps.
+Enables Windows Runtime APIs that use significant amounts of native memory to signal their memory footprint to garbage-collected (GC) environments, like JavaScript and .NET Framework. Applying the GCPressureAttribute enables efficient scheduling of garbage collection sweeps.
 
 GC environments explicitly ignore the attribute on Windows Runtime objects that are outside of the Windows namespace.
 

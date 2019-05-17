@@ -16,7 +16,7 @@ Gets or sets the [Uri](../windows.foundation/uri.md) used for the [HttpRequestMe
 The [Uri](../windows.foundation/uri.md) used for the HTTP request.
 
 ## -remarks
-The *value* of the [RequestUri](httprequestmessage_requesturi.md) must not be a relative [Uri](../windows.foundation/uri.md).
+The *value* of the RequestUri must not be a relative [Uri](../windows.foundation/uri.md).
 
 ## -examples
 

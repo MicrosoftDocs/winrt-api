@@ -16,12 +16,12 @@ Cancels pending reads and writes over a [StreamSocketListener](streamsocketliste
 An asynchronous cancel operation on a [StreamSocketListener](streamsocketlistener.md) object.
 
 ## -remarks
-Call [CancelIOAsync](streamsocketlistener_cancelioasync_169683529.md) to cancel any pending reads or writes on this socket before you call [TransferOwnership](/uwp/api/windows.networking.sockets.streamsocketlistener.transferownership) when your app is about to be suspended.
+Call CancelIOAsync to cancel any pending reads or writes on this socket before you call [TransferOwnership](/uwp/api/windows.networking.sockets.streamsocketlistener.transferownership) when your app is about to be suspended.
 
 
 
 > [!NOTE]
-> [CancelIOAsync](streamsocketlistener_cancelioasync_169683529.md) cancels pending writes and reads in the Windows Runtime, but if there is a write buffer pending in networking drivers, it flushes the write.
+> CancelIOAsync cancels pending writes and reads in the Windows Runtime, but if there is a write buffer pending in networking drivers, it flushes the write.
 
 ## -examples
 

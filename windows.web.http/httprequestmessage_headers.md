@@ -16,9 +16,9 @@ Gets the collection of the HTTP request headers associated with the [HttpRequest
 The collection of HTTP request headers associated with the [HttpRequestMessage](httprequestmessage.md).
 
 ## -remarks
-The [Headers](httprequestmessage_headers.md) property returns an [HttpRequestHeaderCollection](../windows.web.http.headers/httprequestheadercollection.md) object that can be used to get or set the specific headers on the HTTP request.
+The Headers property returns an [HttpRequestHeaderCollection](../windows.web.http.headers/httprequestheadercollection.md) object that can be used to get or set the specific headers on the HTTP request.
 
-The [Headers](httprequestmessage_headers.md) property represents the headers that an app developer can set, not all of the headers that may eventually be sent with the request. The [HttpBaseProtocolFilter](../windows.web.http.filters/httpbaseprotocolfilter.md) will add some additional headers.
+The Headers property represents the headers that an app developer can set, not all of the headers that may eventually be sent with the request. The [HttpBaseProtocolFilter](../windows.web.http.filters/httpbaseprotocolfilter.md) will add some additional headers.
 
 ## -examples
 

@@ -11,7 +11,7 @@ Provides sockets and WebSockets classes to use for network communications and cl
 
 ## -remarks
 
-The [Windows.Networking.Sockets](windows_networking_sockets.md) namespace provides classes and interfaces for networking that use sockets and WebSockets. Here are the primary classes.
+The Windows.Networking.Sockets namespace provides classes and interfaces for networking that use sockets and WebSockets. Here are the primary classes.
 
 + [DatagramSocket](datagramsocket.md). A UDP datagram socket to use for network communication.
 + [StreamSocket](streamsocket.md). A stream socket to use for incoming or outgoing network communication over TCP or over Bluetooth connections that use RFCOMM.
@@ -19,13 +19,13 @@ The [Windows.Networking.Sockets](windows_networking_sockets.md) namespace provid
 + [MessageWebSocket](messagewebsocket.md). A message-based WebSocket to read and write whole messages for network communication. See [WebSockets](/windows/uwp/networking/websockets?branch=live).
 + [StreamWebSocket](streamwebsocket.md). A stream-based WebSocket to read and write streams for network communications. See [WebSockets](/windows/uwp/networking/websockets?branch=live).
 
-These primary classes also have a number of related information and control classes in the [Windows.Networking.Sockets](windows_networking_sockets.md) namespace.
+These primary classes also have a number of related information and control classes in the Windows.Networking.Sockets namespace.
 
 ### Handling exceptions
 
-You must write code to handle exceptions when you call asynchronous methods in the [Windows.Networking.Sockets](windows_networking_sockets.md) namespace. Exceptions can result from parameter validation errors, name resolutions failures, and network errors. Exceptions from network errors (loss of connectivity, connection failures, and server failures, for example) can happen at any time. These errors result in exceptions being thrown. If not handled by your app, an exception can cause your entire app to be terminated by the runtime.
+You must write code to handle exceptions when you call asynchronous methods in the Windows.Networking.Sockets namespace. Exceptions can result from parameter validation errors, name resolutions failures, and network errors. Exceptions from network errors (loss of connectivity, connection failures, and server failures, for example) can happen at any time. These errors result in exceptions being thrown. If not handled by your app, an exception can cause your entire app to be terminated by the runtime.
 
-The [Windows.Networking.Sockets](windows_networking_sockets.md) namespace has convenient helper methods and enumerations for handling errors when using sockets and WebSockets. This can be useful for handling specific network exceptions differently in your app. An app can also use the **HRESULT** from the exception on parameter validation errors to learn more detailed information on the error that caused the exception.
+The Windows.Networking.Sockets namespace has convenient helper methods and enumerations for handling errors when using sockets and WebSockets. This can be useful for handling specific network exceptions differently in your app. An app can also use the **HRESULT** from the exception on parameter validation errors to learn more detailed information on the error that caused the exception.
 
 For more information on possible exceptions and how to handle exceptions, see [Handling exceptions in network apps](https://msdn.microsoft.com/library/76fafcc9-c674-4cf8-baa0-2400638fae35).
 
@@ -43,11 +43,11 @@ Your app can use a [DatagramSocket](datagramsocket.md) for network data transfer
 
 ### Using network triggers
 
-The [Windows.Networking.Sockets](windows_networking_sockets.md) namespace offers two kinds of triggers that your app can use for background networking: [ControlChannelTrigger](controlchanneltrigger.md) and [SocketActivityTrigger](../windows.applicationmodel.background/socketactivitytrigger.md).
+The Windows.Networking.Sockets namespace offers two kinds of triggers that your app can use for background networking: [ControlChannelTrigger](controlchanneltrigger.md) and [SocketActivityTrigger](../windows.applicationmodel.background/socketactivitytrigger.md).
 
 ### Control channel triggers
 
-The [ControlChannelTrigger](controlchanneltrigger.md) lets your app receive network data packets and network keepalives when the app is in the background. This lets your app provide real-time status and network notifications for [StreamSocket](streamsocket.md) in the [Windows.Networking.Sockets](windows_networking_sockets.md) namespace and other network classes in related namespaces.
+The [ControlChannelTrigger](controlchanneltrigger.md) lets your app receive network data packets and network keepalives when the app is in the background. This lets your app provide real-time status and network notifications for [StreamSocket](streamsocket.md) in the Windows.Networking.Sockets namespace and other network classes in related namespaces.
 
 Network triggers are used by long-running network apps (for example, an email app) to minimize network and system resource usage. Network triggers let an app drop to a low-power mode for periods of time, keeping network connections intact but in a low-power state. You can set a keepalive interval to let the system know when the app should wake up. You can also set a trigger to be notified when a packet is received for the app. These notification features can help extend battery life when using long-running network apps on mobile devices.
 
@@ -70,11 +70,11 @@ There are some scenarios where either kind of trigger would be suitable. When yo
 
 ### Using sockets and WebSockets on Windows Server 2012
 
-On Windows Server 2012 and Windows Server 2012 R2, the *Windows.Networking.dll* that implements most of the classes in the [Windows.Networking.Sockets](windows_networking_sockets.md) namespace will fail to load unless the Media Foundation feature is enabled. As a result, apps that uses sockets or WebSockets classes in the [Windows.Networking.Sockets](windows_networking_sockets.md) namespace will fail if the Media Foundation feature is disabled. Windows Server 2012 or Windows Server 2012 R2 installs with the Media Foundation feature disabled.
+On Windows Server 2012 and Windows Server 2012 R2, the *Windows.Networking.dll* that implements most of the classes in the Windows.Networking.Sockets namespace will fail to load unless the Media Foundation feature is enabled. As a result, apps that uses sockets or WebSockets classes in the Windows.Networking.Sockets namespace will fail if the Media Foundation feature is disabled. Windows Server 2012 or Windows Server 2012 R2 installs with the Media Foundation feature disabled.
 
 The Media Foundation feature can be enabled on Windows Server 2012 or Windows Server 2012 R2 using Server Manager or by entering the following text in a command prompt or a script:
 
-`dism /online /enable-feature /featurename:ServerMediaFoundation `After the Media Foundation feature is enabled, the user is prompted to restart. Once the computer is restarted, classes for sockets and WebSockets in the [Windows.Networking.Sockets](windows_networking_sockets.md) namespace will work as expected.
+`dism /online /enable-feature /featurename:ServerMediaFoundation `After the Media Foundation feature is enabled, the user is prompted to restart. Once the computer is restarted, classes for sockets and WebSockets in the Windows.Networking.Sockets namespace will work as expected.
 
 ### Using sockets and WebSockets with network isolation
 
@@ -82,7 +82,7 @@ Network isolation in Windows 8 lets you fully control the security profile of a
 
 Network isolation lets you define the network access needed for each app by choosing the appropriate capabilities. An app without the appropriate capabilities set is prevented from using specific network types (Internet or Home/Work Network) and specific network requests (outbound client-initiated requests, or both inbound unsolicited requests and outbound client-initiated requests). The ability to enforce network isolation ensures that even if an app becomes compromised, the app can only use features (network types and network requests, for example) that the app was granted as capabilities. This significantly reduces the possible impact on other apps and on the operating system.
 
-Windows 8 actively enforces network isolation. A call to a method or any access to a property in the [Windows.Networking.Sockets](windows_networking_sockets.md) namespace (or related namespaces that require network access) may fail if the appropriate network capability has not been enabled.
+Windows 8 actively enforces network isolation. A call to a method or any access to a property in the Windows.Networking.Sockets namespace (or related namespaces that require network access) may fail if the appropriate network capability has not been enabled.
 
 The network capabilities for an app are configured in the app manifest when the app is built. Network capabilities are usually added using Visual Studio when you develop your app. They may also be set manually in the app manifest file using a text editor.
 

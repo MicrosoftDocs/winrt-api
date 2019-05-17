@@ -26,7 +26,7 @@ The state that the control should transition to.
 The control where the transition animation between states is applied.
 
 ## -remarks
-This API is part of the scenario of defining a custom [VisualStateManager](visualstatemanager.md) behavior. The most important method to override in this scenario is [GoToStateCore](visualstatemanager_gotostatecore_681569745.md), because it's that method that changes the state behavior in your custom class behavior. Overriding the behavior of [RaiseCurrentStateChanged](visualstatemanager_raisecurrentstatechanged_506662503.md) and [RaiseCurrentStateChanging](visualstatemanager_raisecurrentstatechanging_642620570.md) is optional: how and when the events are raised by the default implementation might be adequate for your custom class.
+This API is part of the scenario of defining a custom [VisualStateManager](visualstatemanager.md) behavior. The most important method to override in this scenario is [GoToStateCore](visualstatemanager_gotostatecore_681569745.md), because it's that method that changes the state behavior in your custom class behavior. Overriding the behavior of [RaiseCurrentStateChanged](visualstatemanager_raisecurrentstatechanged_506662503.md) and RaiseCurrentStateChanging is optional: how and when the events are raised by the default implementation might be adequate for your custom class.
 
 ## -examples
 

@@ -14,7 +14,7 @@ public Windows.UI.Input.Inking.InkStroke CreateStroke(Windows.Foundation.Collect
 Creates a stroke from an array of [Point](../windows.foundation/point.md) coordinates.
 
 > [!NOTE]
-> [CreateStroke](inkstrokebuilder_createstroke_1210349563.md) is not supported by [InkPresenter](inkpresenter.md). Use [CreateStrokeFromInkPoints](inkstrokebuilder_createstrokefrominkpoints_2009821049.md) and [SetDefaultDrawingAttributes](inkstrokebuilder_setdefaultdrawingattributes_1436218448.md) to programmatically build strokes for an [InkPresenter](inkpresenter.md).
+> CreateStroke is not supported by [InkPresenter](inkpresenter.md). Use [CreateStrokeFromInkPoints](inkstrokebuilder_createstrokefrominkpoints_2009821049.md) and [SetDefaultDrawingAttributes](inkstrokebuilder_setdefaultdrawingattributes_1436218448.md) to programmatically build strokes for an [InkPresenter](inkpresenter.md).
 
 ## -parameters
 ### -param points

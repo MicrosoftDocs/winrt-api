@@ -22,7 +22,7 @@ Gets or sets the height of each line of content.
 The pixel height of each line as modified by [LineStackingStrategy](block_linestackingstrategy.md). A value of 0 indicates that the line height is determined automatically from the current font characteristics. The default is 0.
 
 ## -remarks
-[Block](block.md) is a base class for [Paragraph](paragraph.md). [Paragraph](paragraph.md) is the only element that you can set a [LineHeight](block_lineheight.md) value on in Windows Runtime XAML, unless you create a custom class based on [Block](block.md).
+[Block](block.md) is a base class for [Paragraph](paragraph.md). [Paragraph](paragraph.md) is the only element that you can set a LineHeight value on in Windows Runtime XAML, unless you create a custom class based on [Block](block.md).
 
 ## -examples
 

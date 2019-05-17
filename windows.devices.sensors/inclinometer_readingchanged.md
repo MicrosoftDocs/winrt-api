@@ -21,19 +21,19 @@ The following example demonstrates how a UWP app built with C# and XAML register
 
 [!code-csharp[EnableReadingChangedCS](../windows.devices.sensors/code/inclinometer/csharp/Scenario1.xaml.cs#SnippetEnableReadingChangedCS)]
 
-The following example shows the [ReadingChanged](inclinometer_readingchanged.md) event handler.
+The following example shows the ReadingChanged event handler.
 
 
 
 [!code-csharp[ReadingChangedCS](../windows.devices.sensors/code/inclinometer/csharp/Scenario1.xaml.cs#SnippetReadingChangedCS)]
 
-The following example demonstrates how a UWP app built with JavaScript registers its [ReadingChanged](inclinometer_readingchanged.md) event handler.
+The following example demonstrates how a UWP app built with JavaScript registers its ReadingChanged event handler.
 
 
 
 [!code-js[EnableDataChangedJS](../windows.devices.sensors/code/inclinometer/javascript/scenario1.js#SnippetEnableDataChangedJS)]
 
-The following example shows the [ReadingChanged](inclinometer_readingchanged.md) event handler.
+The following example shows the ReadingChanged event handler.
 
 
 

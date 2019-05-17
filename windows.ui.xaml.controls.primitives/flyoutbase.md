@@ -17,7 +17,7 @@ Represents the base class for flyout controls, such as [Flyout](../windows.ui.xa
 
 ### **FlyoutBase** derived classes
 
-[FlyoutBase](flyoutbase.md) is the parent class for [Flyout](../windows.ui.xaml.controls/flyout.md) and [MenuFlyout](../windows.ui.xaml.controls/menuflyout.md).
+FlyoutBase is the parent class for [Flyout](../windows.ui.xaml.controls/flyout.md) and [MenuFlyout](../windows.ui.xaml.controls/menuflyout.md).
 
 ### XAML attached properties
 

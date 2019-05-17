@@ -13,11 +13,11 @@ public class GridViewItemAutomationPeer : Windows.UI.Xaml.Automation.Peers.Frame
 Exposes a [GridViewItem](../windows.ui.xaml.controls/gridviewitem.md) to Microsoft UI Automation.
 
 ## -remarks
-The Windows Runtime  [GridViewItem](../windows.ui.xaml.controls/gridviewitem.md) class creates a new [GridViewItemAutomationPeer](gridviewitemautomationpeer.md) as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. Derive your automation peer from [GridViewItemAutomationPeer](gridviewitemautomationpeer.md) if you are deriving a custom class from [GridViewItem](../windows.ui.xaml.controls/gridviewitem.md) and want to add automation support for additional features that you enabled in your custom class. Then override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) so that it returns your custom peer.
+The Windows Runtime  [GridViewItem](../windows.ui.xaml.controls/gridviewitem.md) class creates a new GridViewItemAutomationPeer as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. Derive your automation peer from GridViewItemAutomationPeer if you are deriving a custom class from [GridViewItem](../windows.ui.xaml.controls/gridviewitem.md) and want to add automation support for additional features that you enabled in your custom class. Then override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) so that it returns your custom peer.
 
 ### Default peer implementation and overrides in **GridViewItemAutomationPeer**
 
-[GridViewItemAutomationPeer](gridviewitemautomationpeer.md) has overrides of **Core** methods such that the associated [AutomationPeer](automationpeer.md) methods provide peer-specific information to a Microsoft UI Automation client.
+GridViewItemAutomationPeer has overrides of **Core** methods such that the associated [AutomationPeer](automationpeer.md) methods provide peer-specific information to a Microsoft UI Automation client.
 
 + [GetPattern](automationpeer_getpattern_2046576749.md) defers to base peers. [GetPattern](automationpeer_getpattern_2046576749.md) returns a pattern for [IDragProvider](https://msdn.microsoft.com/library/fac4a56d-17bc-42e6-a03e-ee45d717de37) though an internal base class. The content of the [GridViewItem](../windows.ui.xaml.controls/gridviewitem.md) might also have a specific peer, for example if it is a [TextBox](../windows.ui.xaml.controls/textbox.md). The parent [GridView](../windows.ui.xaml.controls/gridview.md) has the support for any selection-related automation behavior.
 + [GetClassName](automationpeer_getclassname_614238974.md) returns "GridViewItem".

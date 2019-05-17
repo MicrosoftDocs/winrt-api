@@ -24,7 +24,7 @@ You can use the static [DeriveKeyMaterial](cryptographicengine_derivekeymaterial
    <tr><td>[BuildForSP80056a](keyderivationparameters_buildforsp80056a_870294687.md)</td><td>Creates a [KeyDerivationParameters](keyderivationparameters.md) object for use in the SP800-56A key derivation function.</td></tr>
 </table>
 
-You create a [KeyDerivationAlgorithmProvider](keyderivationalgorithmprovider.md) object by calling the static [OpenAlgorithm](keyderivationalgorithmprovider_openalgorithm_637226074.md) method.
+You create a KeyDerivationAlgorithmProvider object by calling the static [OpenAlgorithm](keyderivationalgorithmprovider_openalgorithm_637226074.md) method.
 
 ## -examples
 

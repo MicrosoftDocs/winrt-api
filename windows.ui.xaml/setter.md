@@ -19,23 +19,23 @@ Applies a value to a property in a [Style](style.md) or a [VisualState](visualst
 
 
 ## -remarks
-Use [Setter](setter.md) statements to set a property value within a [Style](style.md) or a [VisualState](visualstate.md).
+Use Setter statements to set a property value within a [Style](style.md) or a [VisualState](visualstate.md).
 
 The [Setter.Target](setter_target.md) property can be used in either a [Style](style.md) or a [VisualState](visualstate.md), but in different ways. When used in a [Style](style.md), the property that needs to be modified can be specified directly. When used in [VisualState](visualstate.md), the Target property must be given a [TargetPropertyPath](targetpropertypath.md) (dotted syntax with a target element and property explicitly specified).
 
 The [Setter.Property](setter_property.md) property can be used only in a [Style](style.md) and not in a [VisualState](visualstate.md). Starting in Windows 10, you can use [Setter.Target](setter_target.md) everywhere instead of [Setter.Property](setter_property.md).
 
-You must specify both the [Value](setter_value.md), and the [Target](setter_target.md) or [Property](setter_property.md), on a [Setter](setter.md). Otherwise, an exception is thrown (either a parse exception or runtime error, depending on whether the [Setter](setter.md) is created in XAML or modified in code).
+You must specify both the [Value](setter_value.md), and the [Target](setter_target.md) or [Property](setter_property.md), on a Setter. Otherwise, an exception is thrown (either a parse exception or runtime error, depending on whether the Setter is created in XAML or modified in code).
 
-If you're accessing a [Setter](setter.md) instance using code, you cannot change the value of any property of a [Setter](setter.md) instance if the value of the [IsSealed](style_issealed.md) property on a parent [Style](style.md) is **true**. This is also reported by the [IsSealed](setterbase_issealed.md) property on an individual [Setter](setter.md). The system sets these properties to **true** when the runtime applies styles to UI elements and displays them in the UI. Attempting to change a sealed [Setter](setter.md) throws a runtime error.
+If you're accessing a Setter instance using code, you cannot change the value of any property of a Setter instance if the value of the [IsSealed](style_issealed.md) property on a parent [Style](style.md) is **true**. This is also reported by the [IsSealed](setterbase_issealed.md) property on an individual Setter. The system sets these properties to **true** when the runtime applies styles to UI elements and displays them in the UI. Attempting to change a sealed Setter throws a runtime error.
 
 ### Migration notes
 
-+ Windows Presentation Foundation (WPF) and Microsoft Silverlight supported the ability to use a [Binding](../windows.ui.xaml.data/binding.md) expression to supply the [Value](setter_value.md) for a [Setter](setter.md) in a [Style](style.md). The Windows Runtime doesn't support a [Binding](../windows.ui.xaml.data/binding.md) usage for [Setter.Value](../windows.ui.xaml.data/binding.md) (the [Binding](../windows.ui.xaml.data/binding.md) won't evaluate and the [Setter](setter.md) has no effect, you won't get errors, but you won't get the desired result either). When you convert XAML styles from Windows Presentation Foundation (WPF) or Microsoft Silverlight XAML, replace any [Binding](../windows.ui.xaml.data/binding.md) expression usages with strings or objects that set values, or refactor the values as shared [{StaticResource} markup extension](https://msdn.microsoft.com/library/d50349b5-4588-4ebd-9458-75f629ccc395) values rather than [Binding](../windows.ui.xaml.data/binding.md)-obtained values.
++ Windows Presentation Foundation (WPF) and Microsoft Silverlight supported the ability to use a [Binding](../windows.ui.xaml.data/binding.md) expression to supply the [Value](setter_value.md) for a Setter in a [Style](style.md). The Windows Runtime doesn't support a [Binding](../windows.ui.xaml.data/binding.md) usage for [Setter.Value](../windows.ui.xaml.data/binding.md) (the [Binding](../windows.ui.xaml.data/binding.md) won't evaluate and the Setter has no effect, you won't get errors, but you won't get the desired result either). When you convert XAML styles from Windows Presentation Foundation (WPF) or Microsoft Silverlight XAML, replace any [Binding](../windows.ui.xaml.data/binding.md) expression usages with strings or objects that set values, or refactor the values as shared [{StaticResource} markup extension](https://msdn.microsoft.com/library/d50349b5-4588-4ebd-9458-75f629ccc395) values rather than [Binding](../windows.ui.xaml.data/binding.md)-obtained values.
 
 
 ## -examples
-This example shows how to use [Setter](setter.md) statements in a style for [TextBlock](../windows.ui.xaml.controls/textblock.md) elements.
+This example shows how to use Setter statements in a style for [TextBlock](../windows.ui.xaml.controls/textblock.md) elements.
 
 ```xaml
 <StackPanel>
@@ -59,7 +59,7 @@ This example shows how to use [Setter](setter.md) statements in a style for [Tex
 
 
 <!--<auto_snippet sample_id="StylingTemplatingOverview" snippet_id="1"/>-->
-This example shows how to use multiple [Setter](setter.md) statements inside the [VisualState.Setters](visualstate_setters.md) property to apply discrete property value changes on various elements (without animations) when a [VisualState](visualstate.md) is applied.
+This example shows how to use multiple Setter statements inside the [VisualState.Setters](visualstate_setters.md) property to apply discrete property value changes on various elements (without animations) when a [VisualState](visualstate.md) is applied.
 
 ```xaml
 

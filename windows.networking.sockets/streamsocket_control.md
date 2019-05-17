@@ -16,7 +16,7 @@ Gets socket control data on a [StreamSocket](streamsocket.md) object.
 Socket control data on a [StreamSocket](streamsocket.md) object.
 
 ## -remarks
-The [Control](streamsocket_control.md) property gets the [StreamSocketControl](streamsocketcontrol.md) instance associated with a [StreamSocket](streamsocket.md) object.
+The Control property gets the [StreamSocketControl](streamsocketcontrol.md) instance associated with a [StreamSocket](streamsocket.md) object.
 
 A [StreamSocketControl](streamsocketcontrol.md) object is automatically created with the parent [StreamSocket](streamsocket.md) object. The [StreamSocketControl](streamsocketcontrol.md) instance can then be used to get or set control data used by the [StreamSocket](streamsocket.md) object. These properties on the [StreamSocketControl](streamsocketcontrol.md) instance include the following:
 

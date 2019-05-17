@@ -13,7 +13,7 @@ public class DependencyObjectCollection : Windows.UI.Xaml.DependencyObject, Wind
 Implements a practical collection class that can contain [DependencyObject](dependencyobject.md) items.
 
 ## -remarks
-The purpose of the [DependencyObjectCollection](dependencyobjectcollection.md) class is mainly to support the tooling and portability of behaviors. Behaviors are a technique for defining certain basic interactions of a UI element entirely in XAML, without requiring an event handler and code-behind.
+The purpose of the DependencyObjectCollection class is mainly to support the tooling and portability of behaviors. Behaviors are a technique for defining certain basic interactions of a UI element entirely in XAML, without requiring an event handler and code-behind.
 
 If you're interested in implementing a business object class that supports collection-changed notifications you should use **ObservableCollection** or one of the interface patterns that supports changed events. For more info see [Data binding in depth](https://msdn.microsoft.com/library/41e1b4f1-6caf-4128-a61a-4e400b149011).
 
@@ -21,7 +21,7 @@ If you're interested in implementing a business object class that supports colle
 <!--Begin NET note for IEnumerable support-->
 ### Enumerating the collection in C# or Microsoft Visual Basic
 
-A [DependencyObjectCollection](dependencyobjectcollection.md) is enumerable, so you can use language-specific syntax such as **foreach** in C# to enumerate the items in the collection. The compiler does the type-casting for you and you won't need to cast to `IEnumerable<DependencyObject>` explicitly. If you do need to cast explicitly, for example if you want to call [GetEnumerator](https://docs.microsoft.com/dotnet/api/system.collections.ienumerable.getenumerator), cast to [IEnumerable<T>](https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1) with a [DependencyObject](dependencyobject.md) constraint.
+A DependencyObjectCollection is enumerable, so you can use language-specific syntax such as **foreach** in C# to enumerate the items in the collection. The compiler does the type-casting for you and you won't need to cast to `IEnumerable<DependencyObject>` explicitly. If you do need to cast explicitly, for example if you want to call [GetEnumerator](https://docs.microsoft.com/dotnet/api/system.collections.ienumerable.getenumerator), cast to [IEnumerable<T>](https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1) with a [DependencyObject](dependencyobject.md) constraint.
 
 
 <!--End NET note for IEnumerable support-->

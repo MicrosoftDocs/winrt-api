@@ -19,7 +19,7 @@ A read-only list of email addresses stored with the contact.
 A read-only list of email addresses.
 
 ## -remarks
-Use the [Emails](contactinformation_emails.md) property to access a contact's email addresses from a [ContactInformation](contactinformation.md) object.
+Use the Emails property to access a contact's email addresses from a [ContactInformation](contactinformation.md) object.
 
 ## -examples
 

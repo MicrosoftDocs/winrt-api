@@ -13,9 +13,9 @@ public class PlayToReceiver : Windows.Media.PlayTo.IPlayToReceiver
 Represents a Play To target.
 
 ## -remarks
-You can use the [PlayToReceiver](playtoreceiver.md) class to create a custom software Play To receiver that is a digital media renderer for computers on your network. You can include a [PlayToReceiver](playtoreceiver.md) object in your app to handle communication with Play To client computers, and then play or display content streamed from those computers using your own media elements or controls.
+You can use the PlayToReceiver class to create a custom software Play To receiver that is a digital media renderer for computers on your network. You can include a PlayToReceiver object in your app to handle communication with Play To client computers, and then play or display content streamed from those computers using your own media elements or controls.
 
-The members of the [PlayToReceiver](playtoreceiver.md) class consist of the following:
+The members of the PlayToReceiver class consist of the following:
 + The [FriendlyName](playtoreceiver_friendlyname.md) property that identifies the name of the Play To receiver when it is advertised on the network.
 + Properties that identify the type of media that your Play To receiver supports: [SupportsAudio](playtoreceiver_supportsaudio.md), [SupportsVideo](playtoreceiver_supportsvideo.md), [SupportsImage](playtoreceiver_supportsimage.md).
 + The [StartAsync](playtoreceiver_startasync_1931900819.md) method that starts the Play To receiver and advertises it on the network as a digital media renderer. The [StopAsync](playtoreceiver_stopasync_1648475005.md) method that stops the Play To receiver and stops advertising it on the network.

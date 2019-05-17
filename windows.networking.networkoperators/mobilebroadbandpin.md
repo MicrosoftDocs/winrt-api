@@ -23,7 +23,7 @@ Contains the properties and methods associated with a mobile broadband PIN.
 ## -remarks
 The usage and content of a Universal Integrated Circuit Card (UICC), normally called a SIM Card, can be protected by use of a code called the Personal Identification Number (PIN). PIN1 is defined to control normal use of the phone or data modem. PIN2 can be set to allow the use of special functions such as limiting outbound calls to a list of numbers.
 
-A [MobileBroadbandPin](mobilebroadbandpin.md) object is returned by the [GetPin](mobilebroadbandpinmanager_getpin_157691612.md) method on the [MobileBroadbandPinManager](mobilebroadbandpinmanager.md) .
+A MobileBroadbandPin object is returned by the [GetPin](mobilebroadbandpinmanager_getpin_157691612.md) method on the [MobileBroadbandPinManager](mobilebroadbandpinmanager.md) .
 
 ## -examples
 

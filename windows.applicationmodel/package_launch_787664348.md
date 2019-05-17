@@ -30,7 +30,7 @@ The Launch parameter has the same format as the **NavigationUri** format. The fo
 
 
 > [!IMPORTANT]
-> The [Launch](package_launch_787664348.md) method only works if it is called from a Windows Phone Silverlight app.
+> The Launch method only works if it is called from a Windows Phone Silverlight app.
 
 ## -examples
 

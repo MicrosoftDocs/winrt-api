@@ -35,9 +35,9 @@ The right mouse button has been pressed.
 
 
 ## -remarks
-Values of [SynchronizedInputType](synchronizedinputtype.md) are used as an input parameter by the [StartListening](../windows.ui.xaml.automation.provider/isynchronizedinputprovider_startlistening_125371983.md) method.
+Values of SynchronizedInputType are used as an input parameter by the [StartListening](../windows.ui.xaml.automation.provider/isynchronizedinputprovider_startlistening_125371983.md) method.
 
-The values in [SynchronizedInputType](synchronizedinputtype.md) parallel the values in the [SynchronizedInputType](https://msdn.microsoft.com/library/28c66392-89f0-40eb-be19-ac84c64dacb7) enumeration.
+The values in SynchronizedInputType parallel the values in the [SynchronizedInputType](https://msdn.microsoft.com/library/28c66392-89f0-40eb-be19-ac84c64dacb7) enumeration.
 
 
 ## -examples

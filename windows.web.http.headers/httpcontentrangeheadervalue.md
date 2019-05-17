@@ -13,9 +13,9 @@ public class HttpContentRangeHeaderValue : Windows.Foundation.IStringable, Windo
 Represents the value of the **Content-Range** HTTP header on HTTP content in a request or a response.
 
 ## -remarks
-The [HttpContentRangeHeaderValue](httpcontentrangeheadervalue.md) class represents the value of the **Content-Range** HTTP header on HTTP content sent in an HTTP request or received in an response.
+The HttpContentRangeHeaderValue class represents the value of the **Content-Range** HTTP header on HTTP content sent in an HTTP request or received in an response.
 
-The [ContentRange](httpcontentheadercollection_contentrange.md) property on the [HttpContentHeaderCollection](httpcontentheadercollection.md) returns an [HttpContentRangeHeaderValue](httpcontentrangeheadervalue.md) object.
+The [ContentRange](httpcontentheadercollection_contentrange.md) property on the [HttpContentHeaderCollection](httpcontentheadercollection.md) returns an HttpContentRangeHeaderValue object.
 
 ## -examples
 

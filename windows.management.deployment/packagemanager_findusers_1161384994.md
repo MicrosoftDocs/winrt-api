@@ -23,7 +23,7 @@ If the method succeeds, an enumerable collection of package user information obj
 This method requires administrative privileges.
 
 ## -examples
-Call the [PackageManager.FindUsers](packagemanager_findusers_1161384994.md) method to enumerate the users who have installed a package. This example displays the information in the [PackageUserInformation.UserSecurityId](packageuserinformation_usersecurityid.md) property.
+Call the PackageManager.FindUsers method to enumerate the users who have installed a package. This example displays the information in the [PackageUserInformation.UserSecurityId](packageuserinformation_usersecurityid.md) property.
 
 ```csharp
 using System.Security.Principal;

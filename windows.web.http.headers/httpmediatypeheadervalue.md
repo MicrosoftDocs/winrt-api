@@ -13,9 +13,9 @@ public class HttpMediaTypeHeaderValue : Windows.Foundation.IStringable, Windows.
 Represents the value of the **Content-Type** HTTP header on the HTTP content in a request or a response.
 
 ## -remarks
-The [HttpMediaTypeHeaderValue](httpmediatypeheadervalue.md) class represents the value of the **Content-Type** HTTP header on HTTP content sent in an HTTP request or received in an HTTP response.
+The HttpMediaTypeHeaderValue class represents the value of the **Content-Type** HTTP header on HTTP content sent in an HTTP request or received in an HTTP response.
 
-The [ContentType](httpcontentheadercollection_contenttype.md) property on the [HttpContentHeaderCollection](httpcontentheadercollection.md) returns an [HttpMediaTypeHeaderValue](httpmediatypeheadervalue.md) object.
+The [ContentType](httpcontentheadercollection_contenttype.md) property on the [HttpContentHeaderCollection](httpcontentheadercollection.md) returns an HttpMediaTypeHeaderValue object.
 
 ## -examples
 

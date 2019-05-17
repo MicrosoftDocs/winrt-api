@@ -11,7 +11,7 @@ public Windows.UI.Xaml.DependencyProperty GridViewItemPresenterHorizontalContent
 
 ## -description
 > [!NOTE]
-> [GridViewItemPresenterHorizontalContentAlignmentProperty](gridviewitempresenter_gridviewitempresenterhorizontalcontentalignmentproperty.md) may be altered or unavailable for releases after Windows 10. Instead, use [ContentPresenter.HorizontalContentAlignmentProperty](../windows.ui.xaml.controls/contentpresenter_horizontalcontentalignmentproperty.md).
+> GridViewItemPresenterHorizontalContentAlignmentProperty may be altered or unavailable for releases after Windows 10. Instead, use [ContentPresenter.HorizontalContentAlignmentProperty](../windows.ui.xaml.controls/contentpresenter_horizontalcontentalignmentproperty.md).
 
 Identifies the [GridViewItemPresenterHorizontalContentAlignment](gridviewitempresenter_gridviewitempresenterhorizontalcontentalignment.md) dependency property.
 

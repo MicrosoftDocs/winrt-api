@@ -11,16 +11,16 @@ Provides access to hostnames and endpoints used by network apps.
 
 ## -remarks
 
-The [Windows.Networking](windows_networking.md) namespace provides classes that are used to initialize and provide data for a hostname or IP address and for a network endpoint pair used in network apps. The [HostName](hostname.md) and [EndpointPair](endpointpair.md) objects are used by many classes in other related namespaces. These include the following:
+The Windows.Networking namespace provides classes that are used to initialize and provide data for a hostname or IP address and for a network endpoint pair used in network apps. The [HostName](hostname.md) and [EndpointPair](endpointpair.md) objects are used by many classes in other related namespaces. These include the following:
 
 + Classes in the [Windows.Networking.Sockets](../windows.networking.sockets/windows_networking_sockets.md) namespace used for network apps using sockets and WebSockets.
 + The [NetworkInformation](../windows.networking.connectivity/networkinformation.md) Class in the [Windows.Networking.Connectivity](../windows.networking.connectivity/windows_networking_connectivity.md) namespace.
 
-On Windows Server 2012, the *Windows.Networking.dll* that implements the classes in the [Windows.Networking](windows_networking.md) namespace will fail to load unless the Media Foundation feature is enabled. As a result, apps using classes in the [Windows.Networking](windows_networking.md) namespace will fail if the Media Foundation feature is disabled (the default on Windows Server 2012).
+On Windows Server 2012, the *Windows.Networking.dll* that implements the classes in the Windows.Networking namespace will fail to load unless the Media Foundation feature is enabled. As a result, apps using classes in the Windows.Networking namespace will fail if the Media Foundation feature is disabled (the default on Windows Server 2012).
 
 The Media Foundation feature can be enabled on Windows Server 2012 using Server Manager or by entering the follow command in a CMD window or a script.
 
-`dism /online /enable-feature /featurename:ServerMediaFoundation `The user is prompted to reboot after the Media Foundation feature is enabled on Windows Server 2012. Once the computer is rebooted, classes in the [Windows.Networking](windows_networking.md) namespace will work as expected.
+`dism /online /enable-feature /featurename:ServerMediaFoundation `The user is prompted to reboot after the Media Foundation feature is enabled on Windows Server 2012. Once the computer is rebooted, classes in the Windows.Networking namespace will work as expected.
 
 ### Using network isolation
 

@@ -17,7 +17,7 @@ Prepares the [CurrencyFormatter](currencyformatter.md) object to format currency
 The desired rounding algorithm for the currency. This must be one of the members of [RoundingAlgorithm](roundingalgorithm.md), excluding **None**.
 
 ## -remarks
-[ApplyRoundingForCurrency](currencyformatter_applyroundingforcurrency_1365585652.md) initializes [NumberRounder](currencyformatter_numberrounder.md) to an [IncrementNumberRounder](incrementnumberrounder.md) object whose increment is set such that the inputs to [Format](currencyformatter_format_339880429.md) will be rounded to the number of fraction digits established by [Currency](currencyformatter_currency.md). The number of fraction digits can be obtained from the default value of the [FractionDigits](currencyformatter_fractiondigits.md) property.
+ApplyRoundingForCurrency initializes [NumberRounder](currencyformatter_numberrounder.md) to an [IncrementNumberRounder](incrementnumberrounder.md) object whose increment is set such that the inputs to [Format](currencyformatter_format_339880429.md) will be rounded to the number of fraction digits established by [Currency](currencyformatter_currency.md). The number of fraction digits can be obtained from the default value of the [FractionDigits](currencyformatter_fractiondigits.md) property.
 
 ## -examples
 

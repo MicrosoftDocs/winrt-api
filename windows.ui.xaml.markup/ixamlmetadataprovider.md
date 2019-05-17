@@ -13,7 +13,7 @@ public interface IXamlMetadataProvider :
 Implements XAML schema context concepts that support XAML parsing.
 
 ## -remarks
-For more info on [IXamlMetadataProvider](ixamlmetadataprovider.md), [IXamlType](ixamltype.md) and [IXamlMember](ixamlmember.md) and how these are used for XAML custom types, see "Remarks" section of [IXamlType](ixamltype.md).
+For more info on IXamlMetadataProvider, [IXamlType](ixamltype.md) and [IXamlMember](ixamlmember.md) and how these are used for XAML custom types, see "Remarks" section of [IXamlType](ixamltype.md).
 
 ## -examples
 

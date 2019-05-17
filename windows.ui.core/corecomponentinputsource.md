@@ -13,7 +13,7 @@ public class CoreComponentInputSource : Windows.UI.Core.ICoreClosestInteractiveB
 Provides a mechanism to receive input for a XAML framework element hosted in another framework, such as a DirectX interop framework.
 
 ## -remarks
-The [CoreComponentInputSource](corecomponentinputsource.md) class enables an app to handle input for a XAML framework element hosted in another framework, such as a DirectX interop framework. Call the [CoreComponentInputSource.DispatcherQueue](corecomponentinputsource_dispatcherqueue.md) property to get the DispatcherQueue of the thread where the [CoreComponentInputSource](corecomponentinputsource.md) was instantiated.  
+The CoreComponentInputSource class enables an app to handle input for a XAML framework element hosted in another framework, such as a DirectX interop framework. Call the [CoreComponentInputSource.DispatcherQueue](corecomponentinputsource_dispatcherqueue.md) property to get the DispatcherQueue of the thread where the CoreComponentInputSource was instantiated.  
 
 ## -examples
 

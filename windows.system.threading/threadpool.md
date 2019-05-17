@@ -24,7 +24,7 @@ Provides access to the thread pool. See [Threading and async programming](https:
 > The ThreadPool API is supported for desktop as well as UWP apps.
 
 ## -remarks
-The [ThreadPool](threadpool.md) class has only static methods, so its methods can be called without creating an instance of the class.
+The ThreadPool class has only static methods, so its methods can be called without creating an instance of the class.
 
 ## -examples
 

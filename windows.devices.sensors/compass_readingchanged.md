@@ -23,7 +23,7 @@ The following example demonstrates how a UWP app built with C# and XAML register
 
 [!code-csharp[EnableReadingChangedCS](../windows.devices.sensors/code/compass/csharp/Scenario1.xaml.cs#SnippetEnableReadingChangedCS)]
 
-The following example shows the [ReadingChanged](compass_readingchanged.md) event handler.
+The following example shows the ReadingChanged event handler.
 
 
 
@@ -35,7 +35,7 @@ The following example demonstrates how a UWP app built with JavaScript registers
 
 [!code-js[EnableReadingChangedJS](../windows.devices.sensors/code/compass/javascript/scenario1.js#SnippetEnableReadingChangedJS)]
 
-The following example shows the [ReadingChanged](compass_readingchanged.md) event handler.
+The following example shows the ReadingChanged event handler.
 
 
 

@@ -13,27 +13,27 @@ public class HttpChallengeHeaderValueCollection : Windows.Foundation.Collections
 Represents the value of the **Proxy-Authenticate** or **WWW-Authenticate** HTTP header on an HTTP response.
 
 ## -remarks
-The [HttpChallengeHeaderValueCollection](httpchallengeheadervaluecollection.md) represents the value of the **Proxy-Authenticate** or **WWW-Authenticate** HTTP header on an HTTP response.
+The HttpChallengeHeaderValueCollection represents the value of the **Proxy-Authenticate** or **WWW-Authenticate** HTTP header on an HTTP response.
 
-The [HttpChallengeHeaderValueCollection](httpchallengeheadervaluecollection.md) provides a collection container for instances of the [HttpChallengeHeaderValue](httpchallengeheadervalue.md) class used for authentication information used in the **Authorization**, **ProxyAuthorization**, **WWW-Authenticate**, and **Proxy-Authenticate** HTTP header values.
+The HttpChallengeHeaderValueCollection provides a collection container for instances of the [HttpChallengeHeaderValue](httpchallengeheadervalue.md) class used for authentication information used in the **Authorization**, **ProxyAuthorization**, **WWW-Authenticate**, and **Proxy-Authenticate** HTTP header values.
 
-The [ProxyAuthenticate](httpresponseheadercollection_proxyauthenticate.md) property on [HttpResponseHeaderCollection](httpresponseheadercollection.md) returns an [HttpChallengeHeaderValueCollection](httpchallengeheadervaluecollection.md) object. The [WwwAuthenticate](httpresponseheadercollection_wwwauthenticate.md) property on [HttpResponseHeaderCollection](httpresponseheadercollection.md) also returns an [HttpChallengeHeaderValueCollection](httpchallengeheadervaluecollection.md) object.
+The [ProxyAuthenticate](httpresponseheadercollection_proxyauthenticate.md) property on [HttpResponseHeaderCollection](httpresponseheadercollection.md) returns an HttpChallengeHeaderValueCollection object. The [WwwAuthenticate](httpresponseheadercollection_wwwauthenticate.md) property on [HttpResponseHeaderCollection](httpresponseheadercollection.md) also returns an HttpChallengeHeaderValueCollection object.
 
 ### Collection member lists
 
-For JavaScript, [HttpChallengeHeaderValueCollection](httpchallengeheadervaluecollection.md) has the members shown in the member lists. In addition, [HttpChallengeHeaderValueCollection](httpchallengeheadervaluecollection.md) supports members of **Array.prototype** and using an index to access items.
+For JavaScript, HttpChallengeHeaderValueCollection has the members shown in the member lists. In addition, HttpChallengeHeaderValueCollection supports members of **Array.prototype** and using an index to access items.
 
 
 <!--Begin NET note for IEnumerable support-->
 ### Enumerating the collection in C# or Microsoft Visual Basic
 
-You can iterate through an [HttpChallengeHeaderValueCollection](httpchallengeheadervaluecollection.md) object in C# or Microsoft Visual Basic. In many cases, such as using **foreach** syntax, the compiler does this casting for you and you won't need to cast to `IEnumerable<HttpChallengeHeaderValue>` explicitly. If you do need to cast explicitly, for example if you want to call [GetEnumerator](https://docs.microsoft.com/dotnet/api/system.collections.ienumerable.getenumerator), cast the collection object to [IEnumerable<T>](https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1) with an [HttpChallengeHeaderValue](httpchallengeheadervalue.md) constraint.
+You can iterate through an HttpChallengeHeaderValueCollection object in C# or Microsoft Visual Basic. In many cases, such as using **foreach** syntax, the compiler does this casting for you and you won't need to cast to `IEnumerable<HttpChallengeHeaderValue>` explicitly. If you do need to cast explicitly, for example if you want to call [GetEnumerator](https://docs.microsoft.com/dotnet/api/system.collections.ienumerable.getenumerator), cast the collection object to [IEnumerable<T>](https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1) with an [HttpChallengeHeaderValue](httpchallengeheadervalue.md) constraint.
 
 
 <!--End NET note for IEnumerable support-->
 
 ## -examples
-The following sample code shows a method to get and set the **Proxy-Authenticate** HTTP header on an [HttpResponseMessage](../windows.web.http/httpresponsemessage.md) object using the properties and methods on the [HttpChallengeHeaderValueCollection](httpchallengeheadervaluecollection.md) and [HttpChallengeHeaderValue](httpchallengeheadervalue.md) classes.
+The following sample code shows a method to get and set the **Proxy-Authenticate** HTTP header on an [HttpResponseMessage](../windows.web.http/httpresponsemessage.md) object using the properties and methods on the HttpChallengeHeaderValueCollection and [HttpChallengeHeaderValue](httpchallengeheadervalue.md) classes.
 
 ```csharp
 using System;

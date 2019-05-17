@@ -19,10 +19,10 @@ Describes how to display the grouped items in a collection, such as the collecti
 
 
 ## -remarks
-A [GroupStyle](groupstyle.md) is typically defined in Extensible Application Markup Language (XAML) and then set as the value of the [ItemsControl.GroupStyle](itemscontrol_groupstyle.md) property to define the visual look of the groups.
+A GroupStyle is typically defined in Extensible Application Markup Language (XAML) and then set as the value of the [ItemsControl.GroupStyle](itemscontrol_groupstyle.md) property to define the visual look of the groups.
 
 ## -examples
-Here, a [GroupStyle](groupstyle.md) is applied to a [GridView](gridview.md) control that contains grouped data. For more info, and to see the full example code, see [How to group items in a list or grid](https://msdn.microsoft.com/library/b9ed59b9-651c-40c7-a39c-c4db432dc132).
+Here, a GroupStyle is applied to a [GridView](gridview.md) control that contains grouped data. For more info, and to see the full example code, see [How to group items in a list or grid](https://msdn.microsoft.com/library/b9ed59b9-651c-40c7-a39c-c4db432dc132).
 
 
 

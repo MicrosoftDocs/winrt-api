@@ -15,7 +15,7 @@ Provides a [BitmapSource](bitmapsource.md) that can be written to and updated.
 
 ## -remarks
 
-The image source data of a [WriteableBitmap](writeablebitmap.md) is an underlying pixel buffer.
+The image source data of a WriteableBitmap is an underlying pixel buffer.
 
 The [IBuffer](/uwp/api/windows.storage.streams.ibuffer) returned by [WriteableBitmap.PixelBuffer](writeablebitmap_pixelbuffer.md) can't be written to directly. But you can use language-specific techniques to write to the underlying pixel content in the buffer. For details, see the **Remarks** section of [WriteableBitmap.PixelBuffer](writeablebitmap_pixelbuffer.md).
 

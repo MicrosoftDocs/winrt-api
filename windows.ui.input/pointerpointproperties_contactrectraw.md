@@ -16,7 +16,7 @@ Gets the bounding rectangle of the raw input (typically from touch input).
 The bounding rectangle of the raw input, in device-independent pixel (DIP)
 
 ## -remarks
-[ContactRectRaw](pointerpointproperties_contactrectraw.md) contains the bounding rectangle of the raw input as reported by the input device. Under some circumstances, such as input prediction, this data can be modified by the system to compensate for hardware latency or message latency due to inherent delays in sensing and processing the pointer location on the digitizer.
+ContactRectRaw contains the bounding rectangle of the raw input as reported by the input device. Under some circumstances, such as input prediction, this data can be modified by the system to compensate for hardware latency or message latency due to inherent delays in sensing and processing the pointer location on the digitizer.
 
 See [ContactRect](pointerpointproperties_contactrect.md) for more information on handling modified input data.
 

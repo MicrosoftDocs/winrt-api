@@ -18,9 +18,9 @@ The file system folder that contains files.
 ## -remarks
 ### Accessing SharedLocalFolder
 
-[SharedLocalFolder](applicationdata_sharedlocalfolder.md) is only available if the device has the appropriate group policy. If the group policy is not enabled, the device administrator must enable it. From Local Group Policy Editor, navigate to Computer Configuration\Administrative Templates\Windows Components\App Package Deployment, then change the setting "Allow a Windows app to share application data between users" to "Enabled."
+SharedLocalFolder is only available if the device has the appropriate group policy. If the group policy is not enabled, the device administrator must enable it. From Local Group Policy Editor, navigate to Computer Configuration\Administrative Templates\Windows Components\App Package Deployment, then change the setting "Allow a Windows app to share application data between users" to "Enabled."
 
-After the group policy is enabled, [SharedLocalFolder](applicationdata_sharedlocalfolder.md) can be accessed.
+After the group policy is enabled, SharedLocalFolder can be accessed.
 
 ## -examples
 

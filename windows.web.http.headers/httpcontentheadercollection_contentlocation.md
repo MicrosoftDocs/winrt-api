@@ -18,7 +18,7 @@ The value of the HTTP **Content-Location** header on the HTTP content. A null va
 ## -remarks
 
 
-The following sample code shows a method to get or set the **Content-Location** header value on HTTP content using the [ContentLocation](httpcontentheadercollection_contentlocation.md) property on the [HttpContentHeaderCollection](httpcontentheadercollection.md) object.
+The following sample code shows a method to get or set the **Content-Location** header value on HTTP content using the ContentLocation property on the [HttpContentHeaderCollection](httpcontentheadercollection.md) object.
 
 ```csharp
     // Content-Location header

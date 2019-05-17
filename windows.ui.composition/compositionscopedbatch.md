@@ -17,11 +17,11 @@ Represents a group of active animations or effects and triggers a callback when 
 
 A scoped batch is explicitly created using [Compositor.CreateScopedBatch](compositor_createscopedbatch_706133524.md) and is used to designate specific objects to be included in a single batch. A Scoped batch can be created on any thread and is not tied to the composition thread. Scoped batches will only aggregate objects within the thread it is created.
 
-   [CompositionScopedBatch](compositionscopedbatch.md) may be explicitly paused with [Suspend](compositionscopedbatch_suspend_1316139061.md) in order to exclude objects from that batch. When a batch is suspended it can be reopened by calling [Resume](compositionscopedbatch_resume_406343050.md).
+   CompositionScopedBatch may be explicitly paused with [Suspend](compositionscopedbatch_suspend_1316139061.md) in order to exclude objects from that batch. When a batch is suspended it can be reopened by calling [Resume](compositionscopedbatch_resume_406343050.md).
 
-   A [CompositionScopedBatch](compositionscopedbatch.md) must be explicitly closed using [End](compositionscopedbatch_end_1028829999.md). Once it has been closed it cannot be suspended or resumed again.
+   A CompositionScopedBatch must be explicitly closed using [End](compositionscopedbatch_end_1028829999.md). Once it has been closed it cannot be suspended or resumed again.
 
-   Multiple [CompositionScopedBatch](compositionscopedbatch.md) instances can be created and objects can be aggregated in multiple batches at the same time.
+   Multiple CompositionScopedBatch instances can be created and objects can be aggregated in multiple batches at the same time.
 
 See [Composition Animations Overview](https://go.microsoft.com/fwlink/p/?LinkID=692060) for more information on composition batches.
 

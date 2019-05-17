@@ -23,7 +23,7 @@ UIElement focus events bubble up to the FocusManager in the following order:
 1. [UIElement.LosingFocus](../windows.ui.xaml/uielement_losingfocus.md)/[FocusManager.LosingFocus](focusmanager_losingfocus.md)
 2. [UIElement.GettingFocus](../windows.ui.xaml/uielement_gettingfocus.md)/[FocusManager.GettingFocus](focusmanager_gettingfocus.md)
 3. [UIElement.LostFocus](../windows.ui.xaml/uielement_lostfocus.md) routed event is raised by the element that lost focus and the event bubbles up
-4. [FocusManager.LostFocus](focusmanager_lostfocus.md) is raised (even if the routed event is marked handled)
+4. FocusManager.LostFocus is raised (even if the routed event is marked handled)
 5. [UIElement.GotFocus](../windows.ui.xaml/uielement_gotfocus.md) routed event is raised by the element that received focus and the event bubbles up
 6. [FocusManager.GotFocus](focusmanager_gotfocus.md) is raised (even if the routed event is marked handled)
 

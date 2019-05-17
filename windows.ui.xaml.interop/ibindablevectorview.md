@@ -17,7 +17,7 @@ This interface supports the creation of data bindable collections in C++. When p
 
 ### Interface inheritance
 
-[IBindableVectorView](ibindablevectorview.md) inherits [IBindableIterable](ibindableiterable.md). Types that implement [IBindableVectorView](ibindablevectorview.md) also implement the interface members of [IBindableIterable](ibindableiterable.md) for C++ usage.
+IBindableVectorView inherits [IBindableIterable](ibindableiterable.md). Types that implement IBindableVectorView also implement the interface members of [IBindableIterable](ibindableiterable.md) for C++ usage.
 
 ## -examples
 

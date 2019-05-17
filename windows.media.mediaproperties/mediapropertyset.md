@@ -25,7 +25,7 @@ For information on working with a property set collection, see [PropertySet](../
 
 ### Collection member lists
 
-For JavaScript, [MediaPropertySet](mediapropertyset.md) supports using an index to access items.
+For JavaScript, MediaPropertySet supports using an index to access items.
 
 ## -examples
 
