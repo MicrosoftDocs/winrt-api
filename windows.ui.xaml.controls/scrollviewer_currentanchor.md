@@ -24,7 +24,6 @@ If there are no anchor candidates registered with the [ScrollViewer](scrollviewe
 
 ## -see-also
 
-* [IScrollAnchorProvider](iscrollanchorprovider.md)
+[IScrollAnchorProvider](iscrollanchorprovider.md)
 
 ## -examples
-
