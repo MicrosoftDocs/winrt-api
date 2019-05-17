@@ -41,7 +41,8 @@ The text does not appear underlined in the following cases:
 
 ### **Hyperlink** and **HyperlinkButton**
 
-There are two ways that you can add a hyperlink to a XAML app. [Hyperlink](../windows.ui.xaml.documents/hyperlink.md) and [HyperlinkButton](hyperlinkbutton.md) have the similar purpose of enabling a user to launch a specific URI using a separate browser app.+ Use an inline [Hyperlink](../windows.ui.xaml.documents/hyperlink.md) text element inside of a text control. A [Hyperlink](../windows.ui.xaml.documents/hyperlink.md) element flows with other text elements and you can use it in any [InlineCollection](../windows.ui.xaml.documents/inlinecollection.md). For more info, see [Hyperlink](../windows.ui.xaml.documents/hyperlink.md).
+There are two ways that you can add a hyperlink to a XAML app. [Hyperlink](../windows.ui.xaml.documents/hyperlink.md) and [HyperlinkButton](hyperlinkbutton.md) have the similar purpose of enabling a user to launch a specific URI using a separate browser app.
++ Use an inline [Hyperlink](../windows.ui.xaml.documents/hyperlink.md) text element inside of a text control. A [Hyperlink](../windows.ui.xaml.documents/hyperlink.md) element flows with other text elements and you can use it in any [InlineCollection](../windows.ui.xaml.documents/inlinecollection.md). For more info, see [Hyperlink](../windows.ui.xaml.documents/hyperlink.md).
 + Use a [HyperlinkButton](hyperlinkbutton.md) control anywhere in the app. A [HyperlinkButton](hyperlinkbutton.md) is a specialized [Button](button.md) control that you can use anywhere that you would use a [Button](button.md).
 
 
