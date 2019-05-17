@@ -179,6 +179,26 @@ In the compact mode, the [Slider](slider.md) and [CommandBar](commandbar.md) are
 
 <img alt="Compact media transport control parts" src="images/MediaTransportControls_Anatomy_Compact.png" />
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | FastPlayFallbackBehaviour |
+| 1607 | 14393 | IsNextTrackButtonVisible |
+| 1607 | 14393 | IsPreviousTrackButtonVisible |
+| 1607 | 14393 | IsSkipBackwardButtonVisible |
+| 1607 | 14393 | IsSkipBackwardEnabled |
+| 1607 | 14393 | IsSkipForwardButtonVisible |
+| 1607 | 14393 | IsSkipForwardEnabled |
+| 1607 | 14393 | ThumbnailRequested |
+| 1709 | 16299 | Hide |
+| 1709 | 16299 | IsRepeatButtonVisible |
+| 1709 | 16299 | IsRepeatEnabled |
+| 1709 | 16299 | Show |
+| 1709 | 16299 | ShowAndHideAutomatically |
+| 1803 | 17134 | IsCompactOverlayButtonVisible |
+| 1803 | 17134 | IsCompactOverlayEnabled |
+
 ## -examples
 
 > [!TIP]

@@ -48,6 +48,12 @@ This table shows the resources used by the MenuFlyoutSubItem control.
    <tr><td>MenuFlyoutSubItemChevronSubMenuOpened</td><td>Chevron color when opened</td></tr>
 </table>
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | Icon |
+
 ## -examples
 
 ## -see-also

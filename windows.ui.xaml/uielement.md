@@ -85,6 +85,80 @@ Many of the read-write properties of the UIElement base element class are depend
 
 The only Windows Runtime class that derives directly from UIElement is [FrameworkElement](frameworkelement.md). For a list of the classes that derive from [FrameworkElement](frameworkelement.md), see the "**FrameworkElement** derived classes" section of the [FrameworkElement](frameworkelement.md) reference topic.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | AccessKey |
+| 1607 | 14393 | AccessKeyDisplayDismissed |
+| 1607 | 14393 | AccessKeyDisplayRequested |
+| 1607 | 14393 | AccessKeyInvoked |
+| 1607 | 14393 | AccessKeyScopeOwner |
+| 1607 | 14393 | ContextCanceled |
+| 1607 | 14393 | ContextFlyout |
+| 1607 | 14393 | ContextRequested |
+| 1607 | 14393 | ExitDisplayModeOnAccessKeyInvoked |
+| 1607 | 14393 | IsAccessKeyScope |
+| 1703 | 15063 | GettingFocus |
+| 1703 | 15063 | GettingFocusEvent |
+| 1703 | 15063 | HighContrastAdjustment |
+| 1703 | 15063 | KeyTipHorizontalOffset |
+| 1703 | 15063 | KeyTipPlacementMode |
+| 1703 | 15063 | KeyTipVerticalOffset |
+| 1703 | 15063 | Lights |
+| 1703 | 15063 | LosingFocus |
+| 1703 | 15063 | LosingFocusEvent |
+| 1703 | 15063 | NoFocusCandidateFound |
+| 1703 | 15063 | NoFocusCandidateFoundEvent |
+| 1703 | 15063 | StartBringIntoView |
+| 1703 | 15063 | StartBringIntoView(BringIntoViewOptions) |
+| 1703 | 15063 | TabFocusNavigation |
+| 1703 | 15063 | XYFocusDownNavigationStrategy |
+| 1703 | 15063 | XYFocusKeyboardNavigation |
+| 1703 | 15063 | XYFocusLeftNavigationStrategy |
+| 1703 | 15063 | XYFocusRightNavigationStrategy |
+| 1703 | 15063 | XYFocusUpNavigationStrategy |
+| 1709 | 16299 | CharacterReceived |
+| 1709 | 16299 | CharacterReceivedEvent |
+| 1709 | 16299 | GetChildrenInTabFocusOrder |
+| 1709 | 16299 | KeyboardAccelerators |
+| 1709 | 16299 | OnProcessKeyboardAccelerators |
+| 1709 | 16299 | PreviewKeyDown |
+| 1709 | 16299 | PreviewKeyDownEvent |
+| 1709 | 16299 | PreviewKeyUp |
+| 1709 | 16299 | PreviewKeyUpEvent |
+| 1709 | 16299 | ProcessKeyboardAccelerators |
+| 1709 | 16299 | TryInvokeKeyboardAccelerator |
+| 1803 | 17134 | BringIntoViewRequested |
+| 1803 | 17134 | BringIntoViewRequestedEvent |
+| 1803 | 17134 | ContextRequestedEvent |
+| 1803 | 17134 | KeyboardAcceleratorPlacementMode |
+| 1803 | 17134 | KeyboardAcceleratorPlacementTarget |
+| 1803 | 17134 | KeyTipTarget |
+| 1803 | 17134 | OnBringIntoViewRequested |
+| 1803 | 17134 | OnKeyboardAcceleratorInvoked |
+| 1803 | 17134 | RegisterAsScrollPort |
+| 1809 | 17763 | CanBeScrollAnchor |
+| 1809 | 17763 | CenterPoint |
+| 1809 | 17763 | OpacityTransition |
+| 1809 | 17763 | PopulatePropertyInfo |
+| 1809 | 17763 | PopulatePropertyInfoOverride |
+| 1809 | 17763 | Rotation |
+| 1809 | 17763 | RotationAxis |
+| 1809 | 17763 | RotationTransition |
+| 1809 | 17763 | Scale |
+| 1809 | 17763 | ScaleTransition |
+| 1809 | 17763 | StartAnimation |
+| 1809 | 17763 | StopAnimation |
+| 1809 | 17763 | TransformMatrix |
+| 1809 | 17763 | Translation |
+| 1809 | 17763 | TranslationTransition |
+| 1903 | 18362 | ActualOffset |
+| 1903 | 18362 | ActualSize |
+| 1903 | 18362 | Shadow |
+| 1903 | 18362 | UIContext |
+| 1903 | 18362 | XamlRoot |
+
 ## -examples
 
 ## -see-also

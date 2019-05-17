@@ -18,10 +18,6 @@ The PrintManager class is responsible for orchestrating the printing flow for UW
 
 When a UWP app registers its "intention" to print, it creates a print contract with the print manager. Here is a JavaScript code snippet to show how to register your app for a print contract using a PrintManager:
 
-
-
-
-
 ```javascript
     var app = WinJS.Application;
 
@@ -40,6 +36,12 @@ When a UWP app registers its "intention" to print, it creates a print contract w
 ```
 
 For more examples involving the print manager and to see some sample code for printing scenarios in UWP apps, see [Printing](https://msdn.microsoft.com/library/windows/apps/hh465225.aspx) in the Windows Dev Center.
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | IsSupported |
 
 ## -examples
 

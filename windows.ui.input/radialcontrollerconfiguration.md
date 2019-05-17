@@ -15,6 +15,15 @@ Provides configuration details for the [RadialController](radialcontroller.md) m
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | ActiveControllerWhenMenuIsSuppressed |
+| 1703 | 15063 | IsMenuSuppressed |
+| 1709 | 16299 | AppController |
+| 1709 | 16299 | IsAppControllerEnabled |
+
 ## -examples
 
 In this example, we specify which built-in tools are displayed on the menu, and set the default tool.

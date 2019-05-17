@@ -15,6 +15,13 @@ Provides the service methods for obtaining PlayReady licenses.
 ## -remarks
 This class can be created proactively, returned from a previous service request operation, or delivered to the app through the **MediaProtectionManager.ServiceRequested** event.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | SessionId |
+| 1703 | 15063 | CreateLicenseIterable |
+
 ## -examples
 
 ## -see-also

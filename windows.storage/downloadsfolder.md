@@ -25,6 +25,15 @@ Capabilities are not needed to create or access files in the Downloads folder. L
 
 To learn more about what locations your app can access, see [File access permissions](https://msdn.microsoft.com/library/3a404cc0-a997-45c8-b2e8-44745539759d).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1511 | 10586 | CreateFileForUserAsync(User,String) |
+| 1511 | 10586 | CreateFileForUserAsync(User,String,CreationCollisionOption) |
+| 1511 | 10586 | CreateFolderForUserAsync(User,String) |
+| 1511 | 10586 | CreateFolderForUserAsync(User,String,CreationCollisionOption) |
+
 ## -examples
 You can create an empty file in the Downloads folder like this:
 

@@ -25,6 +25,14 @@ Using input injection requires the following be added to the Package.appxmanifes
 - To `<Capabilities>`
     - `<rescap:Capability Name="inputInjectionBrokered" />`
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1709 | 16299 | InitializeGamepadInjection |
+| 1709 | 16299 | InjectGamepadInput |
+| 1709 | 16299 | TryCreateForAppBroadcastOnly |
+| 1709 | 16299 | UninitializeGamepadInjection |
 
 ## -examples
 

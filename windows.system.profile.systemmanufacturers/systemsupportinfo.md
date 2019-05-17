@@ -14,6 +14,12 @@ Provides support information about the device. This includes the local system ed
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1809 | 17763 | LocalDeviceInfo |
+
 ## -see-also
 
 ## -examples

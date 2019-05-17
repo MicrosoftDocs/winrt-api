@@ -28,6 +28,14 @@ The app should then intersect the chosen pointing ray with its own holograms or 
 
 Once an interaction has started, relative motions of the hand or controller may be used to control the gesture, as with the [Manipulation](spatialgesturerecognizer_gesturesettings.md) or [Navigation](spatialgesturerecognizer_gesturesettings.md) gesture.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | TryGetInteractionSourcePose |
+| 1903 | 18362 | Eyes |
+| 1903 | 18362 | IsHeadCapturedBySystem |
+
 ## -examples
 
 ## -see-also

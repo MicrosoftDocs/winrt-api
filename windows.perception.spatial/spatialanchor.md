@@ -28,6 +28,12 @@ Use the [RawCoordinateSystem](spatialanchor_rawcoordinatesystem.md) property and
 
 The coordinate system is right-handed, with +y up, +x to the right, and -z forward.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | RemovedByUser |
+
 ## -examples
 
 ## -see-also

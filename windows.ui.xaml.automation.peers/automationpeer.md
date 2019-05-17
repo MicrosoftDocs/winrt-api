@@ -47,8 +47,6 @@ If AutomationPeer.ListenerExists(AutomationEvents.PropertyChanged) Then
 End If
 ```
 
-
-
 ### **AutomationPeer** derived classes
 
 AutomationPeer is in the hierarchy for all the existing peers for the Windows Runtime controls and related UI classes.
@@ -63,6 +61,31 @@ Classes that directly derive from AutomationPeer are:
 The "Core" methods are the standard implementations that perform the default action of an associated Microsoft UI Automation client-callable method. You can override any of the "Core" methods to return alternative values in a custom automation peer. For example, [GetAcceleratorKeyCore](automationpeer_getacceleratorkeycore_1091687272.md) is invoked any time that [GetAcceleratorKey](automationpeer_getacceleratorkey_970307487.md) is called, [GetAccessKeyCore](automationpeer_getaccesskeycore_536668621.md) is invoked any time that [GetAccessKey](automationpeer_getaccesskey_372284052.md) is called, and so on.
 
 The base implementation for AutomationPeer returns null. Peers that represent items may defer the result to their container.
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1511 | 10586 | GetLandmarkType |
+| 1511 | 10586 | GetLandmarkTypeCore |
+| 1511 | 10586 | GetLocalizedLandmarkType |
+| 1511 | 10586 | GetLocalizedLandmarkTypeCore |
+| 1607 | 14393 | GetDescribedByCore |
+| 1607 | 14393 | GetFlowsFromCore |
+| 1607 | 14393 | GetFlowsToCore |
+| 1607 | 14393 | GetFullDescription |
+| 1607 | 14393 | GetFullDescriptionCore |
+| 1607 | 14393 | IsDataValidForForm |
+| 1607 | 14393 | IsDataValidForFormCore |
+| 1607 | 14393 | IsPeripheral |
+| 1607 | 14393 | IsPeripheralCore |
+| 1703 | 15063 | GetCulture |
+| 1703 | 15063 | GetCultureCore |
+| 1709 | 16299 | RaiseNotificationEvent |
+| 1803 | 17134 | GetHeadingLevel |
+| 1803 | 17134 | GetHeadingLevelCore |
+| 1809 | 17763 | IsDialog |
+| 1809 | 17763 | IsDialogCore |
 
 ## -examples
 

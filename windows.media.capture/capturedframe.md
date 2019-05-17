@@ -15,6 +15,13 @@ Represents a captured video frame.
 ## -remarks
 There are several different techniques for capturing photos using the [MediaCapture](mediacapture.md) class, including [AdvancedPhotoCapture](advancedphotocapture.md), [LowLagPhotoCapture](lowlagphotocapture.md), [LowLagPhotoSequenceCapture](lowlagphotosequencecapture.md), and [VariablePhotoSequenceCapture](../windows.media.capture.core/variablephotosequencecapture.md). Though the sets of APIs used for each of these techniques vary, ultimately they all return the captured photo to you in the form of a **CapturedFrame** object.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1803 | 17134 | BitmapProperties |
+| 1803 | 17134 | ControlValues |
+
 ## -examples
 
 ## -see-also

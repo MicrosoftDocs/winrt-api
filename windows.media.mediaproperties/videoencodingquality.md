@@ -57,7 +57,7 @@ Use this API to test for avaiability of this enum:
 
 ### Version history
 
-| Version | SDK version | Value added |
+| Windows version | SDK version | Value added |
 | -- | -- | -- |
 | 1703 | 15063 | Uhd2160p |
 | 1703 | 15063 | Uhd4320p |

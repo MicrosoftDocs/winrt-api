@@ -18,6 +18,13 @@ To get a PosPrinter object, use the [FromIdAsync](posprinter_fromidasync_1322863
 
 See the [POS printer sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/PosPrinter) for an example implementation.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | GetDeviceSelector(PosConnectionTypes) |
+| 1903 | 18362 | SupportedBarcodeSymbologies |
+
 ## -examples
 
 ## -see-also

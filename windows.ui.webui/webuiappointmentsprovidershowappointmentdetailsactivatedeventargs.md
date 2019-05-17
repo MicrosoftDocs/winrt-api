@@ -14,6 +14,12 @@ Provides data when an app is activated to show the details of an appointment.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | User |
+
 ## -examples
 
 ## -see-also

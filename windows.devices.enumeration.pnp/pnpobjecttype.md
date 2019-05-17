@@ -53,6 +53,12 @@ The [PnpObject](pnpobject.md) represents a device input panel.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1809 | 17763 | DevicePanel |
+
 ## -examples
 
 ## -see-also

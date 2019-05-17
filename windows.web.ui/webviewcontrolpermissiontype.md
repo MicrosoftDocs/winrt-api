@@ -37,6 +37,12 @@ Permission is for the ImmersiveView.
 ## -remarks
 This enumeration provides values for the [WebViewPermissionRequest.PermissionType](webviewcontrolpermissionrequest_permissiontype.md) and [WebViewDeferredPermissionRequest.PermissionType](webviewcontroldeferredpermissionrequest_permissiontype.md) properties.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1809 | 17763 | ImmersiveView |
+
 ## -see-also
 
 ## -examples

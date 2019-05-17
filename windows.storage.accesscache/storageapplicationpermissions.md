@@ -23,6 +23,13 @@ To learn about using the [FutureAccessList](storageapplicationpermissions_future
 
 To learn about what files and locations your app has permission to access, see [File access permissions](https://msdn.microsoft.com/library/3a404cc0-a997-45c8-b2e8-44745539759d).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1903 | 18362 | GetFutureAccessListForUser |
+| 1903 | 18362 | GetMostRecentlyUsedListForUser |
+
 ## -examples
 
 This example demonstrates how to add an item to the app's [FutureAccessList](storageapplicationpermissions_futureaccesslist.md) and [MostRecentlyUsedList](storageapplicationpermissions_mostrecentlyusedlist.md).

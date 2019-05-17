@@ -25,6 +25,21 @@ For sample code in C#/VB/C++ and XAML that shows how to use HttpClient to connec
 
 For sample code in JavaScript and HTML that shows how to use HttpClient to connect to an HTTP server, see [Connecting to an HTTP server using Windows.Web.Http](https://msdn.microsoft.com/library/dfc2a92c-e84a-4def-9203-e348e64befe5).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1903 | 18362 | TryDeleteAsync |
+| 1903 | 18362 | TryGetAsync(Uri) |
+| 1903 | 18362 | TryGetAsync(Uri,HttpCompletionOption) |
+| 1903 | 18362 | TryGetBufferAsync |
+| 1903 | 18362 | TryGetInputStreamAsync |
+| 1903 | 18362 | TryGetStringAsync |
+| 1903 | 18362 | TryPostAsync |
+| 1903 | 18362 | TryPutAsync |
+| 1903 | 18362 | TrySendRequestAsync(HttpRequestMessage) |
+| 1903 | 18362 | TrySendRequestAsync(HttpRequestMessage,HttpCompletionOption) |
+
 ## -examples
 
 The following sample code shows how to GET content from a Web server as a string.

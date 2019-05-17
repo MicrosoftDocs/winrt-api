@@ -15,6 +15,15 @@ Provides raw input data for a single point used in the construction of an [InkSt
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | InkPoint(Point,Single,Single,Single,UInt64) |
+| 1703 | 15063 | TiltX |
+| 1703 | 15063 | TiltY |
+| 1703 | 15063 | Timestamp |
+
 ## -examples
 
 ## -see-also

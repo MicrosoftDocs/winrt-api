@@ -30,7 +30,7 @@ The installation of the package has been paused.
 
 ### Version history
 
-| Version | SDK version | Value added |
+| Windows version | SDK version | Value added |
 | -- | -- | -- |
 | 1511 | 10586 | Paused |
 

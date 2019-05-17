@@ -122,7 +122,7 @@ The device chipset uses the ARM64 CPU architecture.
 
 ### Version history
 
-| Version | SDK version | Value added |
+| Windows version | SDK version | Value added |
 | -- | -- | -- |
 | 1607 | 14393 | Memory12GB |
 | 1607 | 14393 | Memory16GB |

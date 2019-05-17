@@ -19,14 +19,11 @@ The various properties defined by TextElement support a common API for classes i
 + [FontStretch](textelement_fontstretch.md)
 + [Foreground](textelement_foreground.md)
 
-
 By setting TextElement properties, you can apply common text formatting properties to text, both in blocks and in inlines. There are also additional ways to format text, but these aren't directly supported by TextElement. Instead, you can use the attached properties of the [Typography](typography.md) class. [Typography](typography.md) attached properties typically support advanced typographic features or conventions, such as accessing typographic features defined at the font level that are not necessarily supported by all fonts. For example, you could set [Typography.Variants](typography_variants.md) as an attached property on any text block or inline, and this would influence the font-variants behavior as enabled by the particular font you chose for setting [FontFamily](textelement_fontfamily.md) on that text element.
-
 
 TextElement doesn't inherently define a connection point to a XAML visual tree. In other words a TextElement defines text and text object model within that text, but it doesn't yet enable the display of that text within a UI. For that, you need to use one of the controls or elements that are descendants of [UIElement](../windows.ui.xaml/uielement.md) and can be connected to the XAML tree and the root visual of your app window. There are two such elements in the Windows Runtime:
 + [TextBlock](../windows.ui.xaml.controls/textblock.md): Supports a text object model of inlines only with its [Inlines](../windows.ui.xaml.controls/textblock_inlines.md) collection.
 + [RichTextBlock](../windows.ui.xaml.controls/richtextblock.md): Supports a block text object model with its [Blocks](../windows.ui.xaml.controls/richtextblock_blocks.md) collection. The blocks can contain blocks and inlines.
-
 
 > [!NOTE]
 > [PasswordBox](../windows.ui.xaml.controls/passwordbox.md), [RichEditBox](../windows.ui.xaml.controls/richeditbox.md) and [TextBox](../windows.ui.xaml.controls/textbox.md) don't support a text object model that's based on TextElement. [RichEditBox](../windows.ui.xaml.controls/richeditbox.md) does enable programmatic access to a different text object model through the [ITextDocument](../windows.ui.text/itextdocument.md) interface.
@@ -40,6 +37,24 @@ TextElement is a class derived from [DependencyObject](../windows.ui.xaml/depend
 ### **TextElement** derived classes
 
 TextElement is the parent class for two derived classes that split the text object model into two text usage conventions: [Block](block.md), and [Inline](inline.md). [Block](block.md) and [Inline](inline.md) are both considered base classes (you don't typically see a `<Block>` tag in XAML) and exist in the hierarchy mainly to be the parent class of other practical text elements. For example, [Block](block.md) is the parent class of [Paragraph](paragraph.md). For more info on how to use block and inline elements, see [Quickstart: Displaying text](https://msdn.microsoft.com/library/3efa9d2a-71a5-41d3-bba4-ec6cc356d47f).
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | AccessKey |
+| 1607 | 14393 | AllowFocusOnInteraction |
+| 1607 | 14393 | ExitDisplayModeOnAccessKeyInvoked |
+| 1703 | 15063 | AccessKeyDisplayDismissed |
+| 1703 | 15063 | AccessKeyDisplayRequested |
+| 1703 | 15063 | AccessKeyInvoked |
+| 1703 | 15063 | AccessKeyScopeOwner |
+| 1703 | 15063 | IsAccessKeyScope |
+| 1703 | 15063 | KeyTipHorizontalOffset |
+| 1703 | 15063 | KeyTipPlacementMode |
+| 1703 | 15063 | KeyTipVerticalOffset |
+| 1703 | 15063 | TextDecorations |
+| 1903 | 18362 | XamlRoot |
 
 ## -examples
 

@@ -119,6 +119,15 @@ This table shows the resources used by the CommandBar control.
    <tr><td>AppBarEllipsisButtonBorderBrushDisabled</td><td>Border color of ellipsis when disabled</td></tr>
 </table>
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | DefaultLabelPosition |
+| 1607 | 14393 | DynamicOverflowItemsChanging |
+| 1607 | 14393 | IsDynamicOverflowEnabled |
+| 1607 | 14393 | OverflowButtonVisibility |
+
 ## -examples
 
 > [!TIP]

@@ -51,6 +51,21 @@ void MyCoreWindowEvents::Run() // this is an implementation of IFrameworkView::R
 > [!NOTE]
 > : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1511 | 10586 | PointerRoutedAway |
+| 1511 | 10586 | PointerRoutedReleased |
+| 1511 | 10586 | PointerRoutedTo |
+| 1607 | 14393 | ClosestInteractiveBoundsRequested |
+| 1607 | 14393 | GetCurrentKeyEventDeviceId |
+| 1703 | 15063 | ResizeCompleted |
+| 1703 | 15063 | ResizeStarted |
+| 1709 | 16299 | ActivationMode |
+| 1709 | 16299 | DispatcherQueue |
+| 1903 | 18362 | UIContext |
+
 ## -examples
 
 ## -see-also

@@ -16,6 +16,17 @@ Represents the 3D model in a 3D Manufacturing Format (3MF) package.
 ## -remarks
 The Printing3DModel class corresponds to the `<model>` element in the 3D Manufacturing Format (3MF) specification. For more info, see the [3MF Specification](https://go.microsoft.com/fwlink/p/?LinkId=616252).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | RepairWithProgressAsync |
+| 1607 | 14393 | TryPartialRepairAsync |
+| 1607 | 14393 | TryPartialRepairAsync(TimeSpan) |
+| 1607 | 14393 | TryReduceFacesAsync |
+| 1607 | 14393 | TryReduceFacesAsync(Printing3DFaceReductionOptions) |
+| 1607 | 14393 | TryReduceFacesAsync(Printing3DFaceReductionOptions,TimeSpan) |
+
 ## -examples
 
 ## -see-also

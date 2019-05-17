@@ -79,6 +79,32 @@ This table shows the resources used by the RichEditBox control. Resources that s
    <tr><td>TextControlButtonForegroundPressed</td><td>Foreground color of delete button when pressed</td></tr>
 </table>
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1511 | 10586 | ClipboardCopyFormat |
+| 1511 | 10586 | GetLinguisticAlternativesAsync |
+| 1703 | 15063 | MaxLength |
+| 1703 | 15063 | SelectionHighlightColorWhenNotFocused |
+| 1709 | 16299 | CharacterCasing |
+| 1709 | 16299 | CopyingToClipboard |
+| 1709 | 16299 | CuttingToClipboard |
+| 1709 | 16299 | DisabledFormattingAccelerators |
+| 1709 | 16299 | HorizontalTextAlignment |
+| 1803 | 17134 | ContentLinkBackgroundColor |
+| 1803 | 17134 | ContentLinkChanged |
+| 1803 | 17134 | ContentLinkForegroundColor |
+| 1803 | 17134 | ContentLinkInvoked |
+| 1803 | 17134 | ContentLinkProviders |
+| 1803 | 17134 | HandwritingView |
+| 1803 | 17134 | IsHandwritingViewEnabled |
+| 1809 | 17763 | Description |
+| 1809 | 17763 | ProofingMenuFlyout |
+| 1809 | 17763 | SelectionChanging |
+| 1809 | 17763 | SelectionFlyout |
+| 1809 | 17763 | TextDocument |
+
 ## -examples
 
 > [!TIP]

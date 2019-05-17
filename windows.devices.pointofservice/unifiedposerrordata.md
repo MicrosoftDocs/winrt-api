@@ -16,6 +16,12 @@ Provides error information.
 ## -remarks
 This object is accessed when you retrieve the ErrorData property of the [BarcodeScannerErrorOccurredEventArgs](barcodescannererroroccurredeventargs.md) or [MagneticStripeReaderErrorOccurredEventArgs](magneticstripereadererroroccurredeventargs.md) object.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1803 | 17134 | UnifiedPosErrorData |
+
 ## -examples
 
 ## -see-also

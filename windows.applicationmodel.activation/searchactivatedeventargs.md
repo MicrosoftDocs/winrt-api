@@ -24,6 +24,12 @@ Learn how to let users search with your app in [Quickstart: Adding search](https
 
 All [Application](../windows.ui.xaml/application.md) overrides involved in an activation scenario should call [Window.Activate](../windows.ui.xaml/window_activate_1797342875.md) in their implementations.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | User |
+
 ## -examples
 The [Search contract sample](https://code.msdn.microsoft.com/windowsapps/Search-app-contract-sample-118a92f5) demonstrates how to respond to a **Search** activated event.
 

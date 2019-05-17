@@ -30,7 +30,7 @@ The operation failed because the media frame source device is unavailable.
 
 ### Version history
 
-| Version | SDK version | Value added |
+| Windows version | SDK version | Value added |
 | -- | -- | -- |
 | 1703 | 15063 | MaxPropertyValueSizeRequired |
 | 1703 | 15063 | MaxPropertyValueSizeTooSmall |

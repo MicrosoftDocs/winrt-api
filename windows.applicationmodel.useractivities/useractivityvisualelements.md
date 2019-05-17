@@ -15,6 +15,12 @@ Contains information, such as the description and icon, that can be shown in the
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1803 | 17134 | AttributionDisplayText |
+
 ## -see-also
 
 ## -examples

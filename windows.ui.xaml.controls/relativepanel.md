@@ -29,8 +29,6 @@ RelativePanel is a layout container that is useful for creating UI that do not h
 
 If your UI consists of multiple nested panels, RelativePanel is a good option to consider.
 
-
-
 Here's an example of a UI using a RelativePanel for its layout:
 
 <img alt="Relative panel control" src="images/controls/RelativePanelBasic.png" />
@@ -55,11 +53,6 @@ Here's an example of a UI using a RelativePanel for its layout:
 
 RelativePanel, used in conjunction with [AdaptiveTrigger](../windows.ui.xaml/adaptivetrigger.md) s, can be a powerful tool to create responsive UI that scales well across different screen sizes. For more examples, see the [XAML Responsive Techniques sample](https://go.microsoft.com/fwlink/p/?LinkId=620024&amp;amp;clcid=0x409).
 
-
-
-
-
-
 ### Default position
 
 By default, any unconstrained element declared as a child of the RelativePanel is given the entire available space and positioned at the (0, 0) coordinates (upper left corner) of the panel. So, if you are positioning a second element relative to an unconstrained element, keep in mind that the second element might get pushed out of the panel.
@@ -74,8 +67,6 @@ In this example, `RectA` doesn't have any constraints, so it's positioned at (0,
 </RelativePanel>
 ```
 
-
-
 ### Circular dependency
 
 A circular dependency occurs when two elements inside a RelativePanel declare relationships with each other in any direction. For example, this XAML results in a design-time exception, "RelativePanel error: Circular dependency detected. Layout could not complete."
@@ -89,15 +80,12 @@ A circular dependency occurs when two elements inside a RelativePanel declare re
 </RelativePanel>
 ```
 
-
-
 ### Conflicting relationships
 
 If you set multiple relationships that target the same edge of an element, you might have conflicting relationships in your layout as a result. When this happens, the relationships are applied in the following order of priority:
 + Panel alignment relationships ([AlignTopWithPanel](relativepanel_aligntopwithpanel.md), [AlignLeftWithPanel](relativepanel_alignleftwithpanel.md), …) are applied first.
 + Sibling alignment relationships ([AlignTopWith](relativepanel_aligntopwith.md), [AlignLeftWith](relativepanel_alignleftwith.md), …) are applied second.
 + Sibling positional relationships ([Above](relativepanel_above.md), [Below](relativepanel_below.md), [RightOf](relativepanel_rightof.md), [LeftOf](relativepanel_leftof.md)) are applied last.
-
 
 The panel-center alignment properties ([AlignVerticalCenterWith](relativepanel_alignverticalcenterwith.md), [AlignHorizontalCenterWithPanel](relativepanel_alignhorizontalcenterwithpanel.md), ...) are typically used independently of other constraints and are applied if there is no conflict.
 
@@ -138,6 +126,12 @@ In order to support XAML processor access to the attached properties, and also t
 | Below | Gets or sets a target element that this element is positioned below.<ul><li>Type: object</li><li>Identifier field: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.relativepanel.belowproperty">BelowProperty</a></li><li>Accessor methods: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.relativepanel.getbelow">GetBelow</a>, <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.relativepanel.setbelow">SetBelow</a></li></ul> |
 | LeftOf | Gets or sets a target element that this element is positioned to the left of.<ul><li>Type: object</li><li>Identifier field: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.relativepanel.leftofproperty">LeftOfProperty</a></li><li>Accessor methods: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.relativepanel.getleftof">GetLeftOf</a>, <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.relativepanel.setleftof">SetLeftOf</a></li></ul> |
 | RightOf | Gets or sets a target element that this element is positioned to the right of.<ul><li>Type: object</li><li>Identifier field: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.relativepanel.rightofproperty">RightOfProperty</a></li><li>Accessor methods: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.relativepanel.getrightof">GetRightOf</a>, <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.relativepanel.setrightof">SetRightOf</a></li></ul> |
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1809 | 17763 | BackgroundSizing |
 
 ## -examples
 

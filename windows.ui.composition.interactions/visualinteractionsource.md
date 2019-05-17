@@ -23,7 +23,6 @@ The rails configurations indicate how the gesture will be detected. Turning on r
 
 The chaining configuration indicates whether input that is processed by one VisualInteractionSource can flow to another entity when the InteractionTracker reaches the min or max in that direction. This configuration will allow input to chain to either another InteractionTracker via another VisualInteractionSource, or to a ScrollViewer if the VisualInteractionSource’s source visual is a child of the ScrollViewer.
 
-
 <!--
      <section><title>Compositor Hit-testing</title>
      
@@ -73,6 +72,24 @@ The chaining configuration indicates whether input that is processed by one Visu
     </sectioncontents>
 </section>
 -->
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | ConfigureCenterPointXModifiers |
+| 1703 | 15063 | ConfigureCenterPointYModifiers |
+| 1703 | 15063 | ConfigureDeltaPositionXModifiers |
+| 1703 | 15063 | ConfigureDeltaPositionYModifiers |
+| 1703 | 15063 | ConfigureDeltaScaleModifiers |
+| 1703 | 15063 | DeltaPosition |
+| 1703 | 15063 | DeltaScale |
+| 1703 | 15063 | Position |
+| 1703 | 15063 | PositionVelocity |
+| 1703 | 15063 | Scale |
+| 1703 | 15063 | ScaleVelocity |
+| 1809 | 17763 | PointerWheelConfig |
+| 1903 | 18362 | CreateFromIVisualElement |
 
 ## -examples
 ```csharp

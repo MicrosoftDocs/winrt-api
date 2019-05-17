@@ -14,7 +14,16 @@ Represents the mechanism for providing hardware supported for secure payment app
 
 ## -remarks
 
+### Version history
 
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | GetAllCryptogramMaterialCharacteristicsAsync |
+| 1703 | 15063 | GetAllCryptogramMaterialPackageCharacteristicsAsync |
+| 1703 | 15063 | GetAllCryptogramMaterialPackageCharacteristicsAsync(String) |
+| 1703 | 15063 | GetAllCryptogramStorageKeyCharacteristicsAsync |
+| 1703 | 15063 | ValidateRequestApduAsync |
+| 1709 | 16299 | IsSupported |
 
 ## -examples
 

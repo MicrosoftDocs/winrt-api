@@ -15,6 +15,12 @@ Represents a collection of certificate stores.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | GetUserStoreByName |
+
 ## -examples
 
 ## -see-also

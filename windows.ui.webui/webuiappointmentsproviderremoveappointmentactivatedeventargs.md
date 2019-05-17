@@ -15,12 +15,14 @@ Provides data when an app is activated to remove an appointment from the user’
 ## -remarks
 This object is accessed when you implement an event handler for the [WinJS.Application.Onactivated](https://msdn.microsoft.com/library/8b1cf913-a914-47d1-a690-bc3f0931e9d4) or the [Windows.UI.WebUI.WebUIApplication.activated](webuiapplication_activated.md) events when [ActivationKind](../windows.applicationmodel.activation/activationkind.md) is **appointmentsProvider**.
 
-
-
 > [!NOTE]
 > : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275).
 
+### Version history
 
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | User |
 
 ## -examples
 

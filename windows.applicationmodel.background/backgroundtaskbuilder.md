@@ -29,6 +29,12 @@ If your background task requires network connectivity, be aware of the following
 
 Regardless of the trigger you use, set [IsNetworkRequested](backgroundtaskbuilder_isnetworkrequested.md) on your background task to ensure that the network stays up while the background task runs. This tells the background task infrastructure to keep the network up while the task is executing, even if the device has entered Connected Standby mode. If your background task does not use **IsNetworkRequested**, then your background task will not be able to access the network when in Connected Standby mode (for example, when a phone's screen is turned off.)
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | TaskGroup |
+
 ## -examples
 
 ## -see-also

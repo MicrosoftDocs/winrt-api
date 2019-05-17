@@ -21,6 +21,12 @@ Note that when you call a file picker to let the user pick a folder, the file pi
 
 There is not currently a "MoveAsync" or similar method. One simple implementation of moving a folder might be to get the desired folder, copy it to the desired location, and then delete the original folder.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1803 | 17134 | TryGetChangeTracker |
+
 ## -examples
 
 ## -see-also

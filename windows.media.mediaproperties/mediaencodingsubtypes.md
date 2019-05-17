@@ -20,6 +20,19 @@ MediaEncodingSubtypes provides names for media subtypes which can be used to set
 
 For how-to guidance for setting the encoding properties for media, see [Set media encoding properties for MediaCapture](https://msdn.microsoft.com/windows/uwp/audio-video-camera/set-media-encoding-properties).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | Alac |
+| 1703 | 15063 | D16 |
+| 1703 | 15063 | Flac |
+| 1703 | 15063 | L16 |
+| 1703 | 15063 | L8 |
+| 1703 | 15063 | Vp9 |
+| 1803 | 17134 | P010 |
+| 1809 | 17763 | Heif |
+
 ## -examples
 
 ## -see-also

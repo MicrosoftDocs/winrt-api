@@ -28,7 +28,7 @@ Get the **AudioDecoderDegradation** value for an audio track by checking the [De
 
 ### Version history
 
-| Version | SDK version | Value added |
+| Windows version | SDK version | Value added |
 | -- | -- | -- |
 | 1703 | 15063 | SpatialAudioNotSupported |
 

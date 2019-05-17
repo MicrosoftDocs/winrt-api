@@ -17,6 +17,16 @@ Provides events that indicate the user has clicked on a business location or tra
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | BusinessLandmarkPointerEntered |
+| 1607 | 14393 | BusinessLandmarkPointerExited |
+| 1607 | 14393 | TransitFeaturePointerEntered |
+| 1607 | 14393 | TransitFeaturePointerExited |
+| 1709 | 16299 | CreateMapControl |
+
 ## -examples
 
 ## -see-also

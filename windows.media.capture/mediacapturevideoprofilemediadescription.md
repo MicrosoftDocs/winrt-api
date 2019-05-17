@@ -19,6 +19,13 @@ You configure the capture device to use a particular MediaCaptureVideoProfileMed
 
 For how-to guidance for working with video profiles, see [Discover and select camera capabilities with camera profiles](https://msdn.microsoft.com/windows/uwp/audio-video-camera/camera-profiles).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1803 | 17134 | Properties |
+| 1803 | 17134 | Subtype |
+
 ## -examples
 
 ## -see-also

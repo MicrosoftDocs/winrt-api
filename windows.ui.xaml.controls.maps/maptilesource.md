@@ -15,6 +15,18 @@ Represents a source of tiles to overlay on the [MapControl](mapcontrol.md).
 ## -remarks
 Tiles can also be animated on the [MapControl](mapcontrol.md) using a MapTileSource.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1809 | 17763 | AnimationState |
+| 1809 | 17763 | AutoPlay |
+| 1809 | 17763 | FrameCount |
+| 1809 | 17763 | FrameDuration |
+| 1809 | 17763 | Pause |
+| 1809 | 17763 | Play |
+| 1809 | 17763 | Stop |
+
 ## -examples
 
 This example overlays tiles from a fictitious web service on the map.

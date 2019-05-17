@@ -28,7 +28,7 @@ A stencil in the form of a protractor for drawing arcs and curves.
 
 ### Version history
 
-| Version | SDK version | Value added |
+| Windows version | SDK version | Value added |
 | -- | -- | -- |
 | 1703 | 15063 | Protractor |
 

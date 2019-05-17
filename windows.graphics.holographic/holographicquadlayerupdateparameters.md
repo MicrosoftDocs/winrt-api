@@ -19,6 +19,13 @@ To display quad layers, an application creates the necessary [HolographicQuadLay
 > [!NOTE]
 > The [AcquireBufferToUpdateContent](holographicquadlayerupdateparameters_acquirebuffertoupdatecontent_748006292.md) or [AcquireBufferToUpdateContentWithHardwareProtection](holographicquadlayerupdateparameters_acquirebuffertoupdatecontentwithhardwareprotection_809854092.md) method must be called when updating a **HolographicQuadLayer** object for the first time.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1809 | 17763 | AcquireBufferToUpdateContentWithHardwareProtection |
+| 1809 | 17763 | CanAcquireWithHardwareProtection |
+
 ## -see-also
 
 ## -examples

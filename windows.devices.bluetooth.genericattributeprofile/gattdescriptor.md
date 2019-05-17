@@ -15,6 +15,12 @@ Represents a Descriptor of a GATT Characteristic. The GattDescriptor object repr
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | WriteValueWithResultAsync |
+
 ## -examples
 
 ## -see-also

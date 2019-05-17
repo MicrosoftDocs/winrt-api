@@ -34,15 +34,11 @@ Grid is a layout panel that supports arranging child elements in rows and column
 > [!TIP]
 > Starting in Windows 10, Grid defines new border properties that let you draw a border around the Grid without using an additional [Border](border.md) element. The new properties are [Grid.BorderBrush](grid_borderbrush.md), [Grid.BorderThickness](grid_borderthickness.md), [Grid.CornerRadius](grid_cornerradius.md), and [Grid.Padding](grid_padding.md).
 
-
-
 ```xaml
 <Grid BorderBrush="Red" BorderThickness="2" CornerRadius="10" Padding="12">
     <TextBlock Text="Hello World!"/>
 </Grid>
 ```
-
-
 
 You typically define layout behavior for a Grid in XAML by providing one or more [RowDefinition](rowdefinition.md) elements as the value of [Grid.RowDefinitions](grid_rowdefinitions.md), and one or more [ColumnDefinition](columndefinition.md) elements as the value of [Grid.ColumnDefinitions](grid_columndefinitions.md). Then, you apply the [Grid.Row](grid_row.md) and [Grid.Column](grid_column.md) attached properties to each of the element children of the Grid, to indicate which row/column combination is used to position that element within the parent Grid.
 
@@ -93,6 +89,14 @@ In order to support XAML processor access to the attached properties, and also t
 | ColumnSpan | Gets or sets a value that indicates the total number of columns that the element content spans within a parent Grid.<ul><li>Type: int</li><li>Identifier field: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.grid.columnspanproperty">ColumnSpanProperty</a></li><li>Accessor methods: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.grid.getcolumnspan">GetColumnSpan</a>, <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.grid.setcolumnspan">SetColumnSpan</a></li></ul> Zero or negative integer values are not permitted. Values that are greater than the total number of columns are treated as if they specified the total number and will span all columns.|
 | Row | Gets or sets the row alignment of an element when child layout is processed by a parent Grid layout container.<ul><li>Type: int</li><li>Identifier field: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.grid.rowproperty">RowProperty</a></li><li>Accessor methods: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.grid.getrow">GetRow</a>, <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.grid.setrow">SetRow</a></li></ul>The value is the zero-based index of the Grid row that the element should appear within. Negative values are not permitted.|
 | RowSpan | Gets or sets a value that indicates the total number of rows that the element content spans within a parent Grid.<ul><li>Type: int</li><li>Identifier field: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.grid.rowspanproperty">RowSpanProperty</a></li><li>Accessor methods: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.grid.getrowspan">GetRowSpan</a>, <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.grid.setrowspan">SetRowSpan</a></li></ul> Zero or negative integer values are not permitted. Values that are greater than the total number of rows are treated as if they specified the total number and will span all rows.|
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1709 | 16299 | ColumnSpacing |
+| 1709 | 16299 | RowSpacing |
+| 1809 | 17763 | BackgroundSizing |
 
 ## -examples
 

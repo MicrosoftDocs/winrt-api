@@ -19,6 +19,16 @@ Items in a MediaPlaybackList are rendered using gapless playback. The system wil
 
 For how-to guidance for working with media items, see [Media items, playlists, and tracks](https://msdn.microsoft.com/windows/uwp/audio-video-camera/media-playback-with-mediasource).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1511 | 10586 | MaxPrefetchTime |
+| 1511 | 10586 | SetShuffledItems |
+| 1511 | 10586 | ShuffledItems |
+| 1511 | 10586 | StartingItem |
+| 1703 | 15063 | MaxPlayedItemsToKeepOpen |
+
 ## -examples
 
 ## -see-also

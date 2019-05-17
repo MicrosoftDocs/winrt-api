@@ -14,6 +14,16 @@ Handles a connection to the [Windows Device Portal](https://docs.microsoft.com/w
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1803 | 17134 | GetServerMessageWebSocketForRequest(HttpRequestMessage) |
+| 1803 | 17134 | GetServerMessageWebSocketForRequest(HttpRequestMessage,SocketMessageType,String) |
+| 1803 | 17134 | GetServerMessageWebSocketForRequest(HttpRequestMessage,SocketMessageType,String,UInt32,UInt32,MessageWebSocketReceiveMode) |
+| 1803 | 17134 | GetServerStreamWebSocketForRequest(HttpRequestMessage) |
+| 1803 | 17134 | GetServerStreamWebSocketForRequest(HttpRequestMessage,String,UInt32,Boolean) |
+
 ## -see-also
 
 ## -examples

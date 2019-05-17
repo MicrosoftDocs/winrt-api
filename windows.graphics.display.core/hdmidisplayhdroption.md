@@ -29,6 +29,12 @@ Specifies the low-latency profile for Dolby Vision.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1809 | 17763 | DolbyVisionLowLatency |
+
 ## -see-also
 
 ## -examples

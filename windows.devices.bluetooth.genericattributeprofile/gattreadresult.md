@@ -18,6 +18,12 @@ One of the [ReadValueAsync](gattcharacteristic_readvalueasync_2134129157.md) met
 
 The [Status](gattreadresult_status.md) property on the GattReadResult returned indicates if the result of the operation was successful.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | ProtocolError |
+
 ## -examples
 
 ## -see-also

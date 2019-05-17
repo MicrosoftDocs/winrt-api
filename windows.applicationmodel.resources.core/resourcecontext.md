@@ -20,6 +20,12 @@ Do not create an instance of ResourceContext using the constructor, as it is dep
 
 Except where otherwise noted, methods of this class can be called on any thread.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1903 | 18362 | GetForUIContext |
+
 ## -examples
 This example is based on scenario 13 of the [Application resources and localization sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/ApplicationResources). See the sample for the more complete solution.
 

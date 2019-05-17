@@ -109,6 +109,13 @@ socket.ConnectAsync(new HostName("contoso.com"), "xmpp-client._service01");
 These code snippets use [ConnectAsync](streamsocket_connectasync_1841953676.md).
 The [GetEndpointPairsAsync](streamsocket_getendpointpairsasync_1796487528.md) method supports similar usage to connect to services.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | GetEndpointPairsAsync(HostName,String) |
+| 1607 | 14393 | GetEndpointPairsAsync(HostName,String,HostNameSortOptions) |
+
 ## -examples
 
 ## -see-also

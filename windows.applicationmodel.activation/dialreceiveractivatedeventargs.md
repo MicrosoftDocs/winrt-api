@@ -15,6 +15,12 @@ Provides data when an app is activated from another app by using the DIAL protoc
 ## -remarks
 This class is instantiated by the operating system and passed as an argument to an event.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | User |
+
 ## -examples
 
 ## -see-also

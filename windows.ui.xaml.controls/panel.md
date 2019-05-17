@@ -25,6 +25,11 @@ Panel is the parent class for several immediately derived classes. Some of these
 + [VariableSizedWrapGrid](variablesizedwrapgrid.md)
 + [VirtualizingPanel](virtualizingpanel.md)
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1809 | 17763 | BackgroundTransition |
 
 ## -examples
 

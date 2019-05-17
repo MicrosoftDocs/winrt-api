@@ -18,8 +18,6 @@ The StandardPrintTaskOptions class provides the canonical names for the common p
 
 Here is a JavaScript code snippet that you could use, for example, to append the standard print task options to be displayed in the UI:
 
-
-
 ```javascript
 // Choose the printer options to be shown.
 // The order in which the options are appended determines the order in which they appear in the UI
@@ -30,7 +28,12 @@ printTask.options.displayedOptions.append(Windows.Graphics.Printing.StandardPrin
 printTask.options.displayedOptions.append(Windows.Graphics.Printing.StandardPrintTaskOptions.duplex);
 ```
 
+### Version history
 
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | Bordering |
+| 1803 | 17134 | CustomPageRanges |
 
 ## -examples
 

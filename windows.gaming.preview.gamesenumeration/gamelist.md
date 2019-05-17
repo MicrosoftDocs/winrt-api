@@ -14,6 +14,13 @@ This API is not available to all apps. Unless your developer account is speciall
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1709 | 16299 | MergeEntriesAsync |
+| 1709 | 16299 | UnmergeEntryAsync |
+
 ## -examples
 
 ## -see-also

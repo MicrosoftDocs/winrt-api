@@ -37,6 +37,13 @@ The Arm64 processor architecture emulating the X86 architecture
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1903 | 18362 | Arm64 |
+| 1903 | 18362 | X86OnArm64 |
+
 ## -examples
 
 ## -see-also

@@ -24,6 +24,12 @@ UWP app using C++, C#, or Visual Basic typically implement activation points by 
 
 All [Application](../windows.ui.xaml/application.md) overrides involved in an activation scenario should call [Window.Activate](../windows.ui.xaml/window_activate_1797342875.md) in their implementations.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | User |
+
 ## -examples
 
 The [OnActivated](../windows.ui.xaml/application_onactivated_603737819.md) event handler receives all activation events. The  property indicates the type of activation event. This example is set up to handle **URI** activation events.

@@ -34,6 +34,13 @@ This table shows the resources used by the AppBarSeparator control.
    <tr><td>AppBarSeparatorForeground</td><td>Foreground color at rest</td></tr>
 </table>
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | DynamicOverflowOrder |
+| 1607 | 14393 | IsInOverflow |
+
 ## -examples
 
 ## -see-also

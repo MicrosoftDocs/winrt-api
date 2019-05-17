@@ -15,6 +15,12 @@ Provides a property that lets the caller retrieve the advertising ID.
 ## -remarks
 AdvertisingManager is a static runtime object and does not need to be retrieved or created.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | GetForUser |
+
 ## -examples
 
 ## -see-also

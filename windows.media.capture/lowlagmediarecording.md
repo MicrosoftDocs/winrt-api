@@ -23,6 +23,13 @@ If the media type is changed or an effect is added, you must call [PrepareLowLag
 
 For how-to guidance for using **LowLagMediaCapture** to capture video, see [Basic photo, video, and audio capture with MediaCapture](https://msdn.microsoft.com/windows/uwp/audio-video-camera/basic-photo-video-and-audio-capture-with-mediacapture).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | PauseWithResultAsync |
+| 1607 | 14393 | StopWithResultAsync |
+
 ## -examples
 
 ## -see-also

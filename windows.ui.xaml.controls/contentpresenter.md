@@ -26,14 +26,10 @@ A ContentPresenter is often used to apply characteristics to text content, which
 > [!TIP]
 > Starting in Windows 10, ContentPresenter defines new border properties that let you draw a border around the ContentPresenter without using an additional [Border](border.md) element. The new properties are [ContentPresenter.BorderBrush](contentpresenter_borderbrush.md), [ContentPresenter.BorderThickness](contentpresenter_borderthickness.md), [ContentPresenter.CornerRadius](contentpresenter_cornerradius.md), and [ContentPresenter.Padding](contentpresenter_padding.md).
 
-
-
 ```xaml
 <ContentPresenter BorderBrush="Red" BorderThickness="2" CornerRadius="10" Padding="12">
 </ContentPresenter>
 ```
-
-
 
 A ContentPresenter can use a logic class to influence which template to use for templated data content at run-time. For more info, see the [ContentTemplateSelector](contentcontrol_contenttemplateselector.md) property.
 
@@ -46,6 +42,12 @@ ContentPresenter is the parent class for these classes:
 + [GridViewItemPresenter](../windows.ui.xaml.controls.primitives/gridviewitempresenter.md)
 + [ListViewItemPresenter](../windows.ui.xaml.controls.primitives/listviewitempresenter.md)
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1809 | 17763 | BackgroundSizing |
+| 1809 | 17763 | BackgroundTransition |
 
 ## -examples
 This example shows a typical placement of a ContentPresenter object element as part of the [ControlTemplate](controltemplate.md) for a [ContentControl](contentcontrol.md). This example is a simplification of the Windows Runtime XAML default style for [HyperlinkButton](hyperlinkbutton.md). One example [VisualState](../windows.ui.xaml/visualstate.md) is included to show how the ContentPresenter properties are changed based on state. The ContentPresenter is within a [Border](border.md) in the composition; it's common for content controls to have the ContentPresenter nested within one other parent element, and that parent element often template-binds some of the control properties that a ContentPresenter doesn't have. Note also how the ContentPresenter uses [{TemplateBinding} markup extension](https://msdn.microsoft.com/library/fde71086-9d42-4287-89ed-8fbfcdf169dc) to bind [HorizontalAlignment](../windows.ui.xaml/frameworkelement_horizontalalignment.md) / [VerticalAlignment](../windows.ui.xaml/frameworkelement_verticalalignment.md) values to the control properties of where the template is applied.

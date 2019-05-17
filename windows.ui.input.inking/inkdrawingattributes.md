@@ -19,6 +19,16 @@ InkDrawingAttributes can be set globally through the [SetDefaultDrawingAttribute
 > [!NOTE]
 > : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | CreateForPencil |
+| 1607 | 14393 | Kind |
+| 1607 | 14393 | PencilProperties |
+| 1703 | 15063 | IgnoreTilt |
+| 1803 | 17134 | ModelerAttributes |
+
 ## -examples
 The following example demonstrates how to set a default drawing attribute for all strokes managed by an [InkManager](inkmanager.md) object (`inkManager`).
 

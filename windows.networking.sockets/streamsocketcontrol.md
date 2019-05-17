@@ -84,6 +84,12 @@ clientSocket.control.noDelay = false;
 
 For more information on using StreamSocketControl, see [How to use advanced socket controls ](https://msdn.microsoft.com/library/2e1071d8-a1c7-44c0-b93a-31a701d431c4) and [How to use advanced socket controls ](https://msdn.microsoft.com/library/f2c5be73-3461-452e-a38f-d2ddef9b5682).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1709 | 16299 | MinProtectionLevel |
+
 ## -examples
 
 ## -see-also

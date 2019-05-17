@@ -15,6 +15,12 @@ public class ResourceCandidate : Windows.ApplicationModel.Resources.Core.IResour
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1903 | 18362 | Kind |
+
 ## -examples
 This example is based on scenario 13 of the [Application resources and localization sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/ApplicationResources). See the sample for the more complete solution.
 

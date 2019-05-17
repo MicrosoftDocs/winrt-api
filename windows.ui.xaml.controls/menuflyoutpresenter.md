@@ -25,8 +25,6 @@ You don't typically use a MenuFlyoutPresenter directly, either in XAML or code. 
 </MenuFlyout>
 ```
 
-
-
 The MenuFlyoutPresenter class is not a [ContentPresenter](contentpresenter.md) derived class, it's actually a control (derived from [ItemsControl](itemscontrol.md)) that plays a special role when creating the visual tree for a [MenuFlyout](menuflyout.md).
 
 ### Control style and template
@@ -42,6 +40,13 @@ This table shows the resources used by the MenuFlyoutPresenter control.
    <tr><td>MenuFlyoutPresenterBackground</td><td>Background color of entire control bounds</td></tr>
    <tr><td>MenuFlyoutPresenterBorderBrush</td><td>Border color of entire control bounds</td></tr>
 </table>
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1511 | 10586 | TemplateSettings |
+| 1903 | 18362 | IsDefaultShadowEnabled |
 
 ## -examples
 

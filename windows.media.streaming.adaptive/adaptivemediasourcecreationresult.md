@@ -17,6 +17,12 @@ This object is accessed when you call one of the [CreateFromStreamAsync](adaptiv
 
 For how-to guidance for using adaptive streaming in your app, see [Adaptive streaming](https://msdn.microsoft.com/windows/uwp/audio-video-camera/adaptive-streaming).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | ExtendedError |
+
 ## -examples
 
 ## -see-also

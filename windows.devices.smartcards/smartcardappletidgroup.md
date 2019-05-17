@@ -14,6 +14,15 @@ A class that represents a digitized card, which may either be self-managed (Host
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1809 | 17763 | Description |
+| 1809 | 17763 | Logo |
+| 1809 | 17763 | Properties |
+| 1809 | 17763 | SecureUserAuthenticationRequired |
+
 ## -examples
 
 ## -see-also

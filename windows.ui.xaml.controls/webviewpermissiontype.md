@@ -39,7 +39,7 @@ This enumeration provides values for the [WebViewPermissionRequest.PermissionTyp
 
 ### Version history
 
-| Version | SDK version | Value added |
+| Windows version | SDK version | Value added |
 | -- | -- | -- |
 | 1511 | 10586 | PointerLock |
 | 1607 | 14393 | WebNotifications |

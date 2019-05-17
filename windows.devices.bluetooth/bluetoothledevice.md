@@ -15,6 +15,29 @@ Represents a Bluetooth LE device.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1511 | 10586 | Appearance |
+| 1511 | 10586 | BluetoothAddressType |
+| 1511 | 10586 | DeviceInformation |
+| 1511 | 10586 | FromBluetoothAddressAsync(UInt64,BluetoothAddressType) |
+| 1511 | 10586 | GetDeviceSelectorFromAppearance |
+| 1511 | 10586 | GetDeviceSelectorFromBluetoothAddress(UInt64) |
+| 1511 | 10586 | GetDeviceSelectorFromBluetoothAddress(UInt64,BluetoothAddressType) |
+| 1511 | 10586 | GetDeviceSelectorFromConnectionStatus |
+| 1511 | 10586 | GetDeviceSelectorFromDeviceName |
+| 1511 | 10586 | GetDeviceSelectorFromPairingState |
+| 1703 | 15063 | DeviceAccessInformation |
+| 1703 | 15063 | GetGattServicesAsync |
+| 1703 | 15063 | GetGattServicesAsync(BluetoothCacheMode) |
+| 1703 | 15063 | GetGattServicesForUuidAsync(Guid) |
+| 1703 | 15063 | GetGattServicesForUuidAsync(Guid,BluetoothCacheMode) |
+| 1703 | 15063 | RequestAccessAsync |
+| 1709 | 16299 | BluetoothDeviceId |
+| 1803 | 17134 | WasSecureConnectionUsedForPairing |
+
 ## -examples
 
 ## -see-also

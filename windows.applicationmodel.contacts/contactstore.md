@@ -17,6 +17,12 @@ Represents a database that contains contacts.
 
 To get a ContactStore object, call the static utility method [ContactManager.RequestStoreAsync](contactmanager_requeststoreasync_112705385.md).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1709 | 16299 | GetChangeTracker |
+
 ## -examples
 
 ## -see-also

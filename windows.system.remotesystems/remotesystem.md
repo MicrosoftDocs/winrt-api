@@ -19,6 +19,21 @@ This class is instantiated whenever a remote system (device) is discovered, is u
 
 The properties of the RemoteSystem class are used to determine the operations that can be done on a given remote system.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | GetCapabilitySupportedAsync |
+| 1703 | 15063 | IsAuthorizationKindEnabled |
+| 1703 | 15063 | IsAvailableBySpatialProximity |
+| 1709 | 16299 | ManufacturerDisplayName |
+| 1709 | 16299 | ModelDisplayName |
+| 1803 | 17134 | Platform |
+| 1809 | 17763 | Apps |
+| 1903 | 18362 | CreateWatcherForUser(User) |
+| 1903 | 18362 | CreateWatcherForUser(User,IEnumerable<IRemoteSystemFilter>) |
+| 1903 | 18362 | User |
+
 ## -examples
 
 ## -see-also

@@ -24,6 +24,15 @@ The grip pose represents the location of either the palm of a hand detected by a
 
 The pointer pose represents the tip of a motion controller pointing forward.  This pose is best used to raycast when pointing at UI when you are rendering the controller model itself.  The pointer pose can be accessed through the SourcePointerPose property.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | Orientation |
+| 1709 | 16299 | AngularVelocity |
+| 1709 | 16299 | PositionAccuracy |
+| 1709 | 16299 | SourcePointerPose |
+
 ## -examples
 
 ## -see-also

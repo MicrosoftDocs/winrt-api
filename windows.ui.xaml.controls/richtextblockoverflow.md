@@ -21,6 +21,13 @@ Represents a rich text display overflow container. This element cannot have dire
 ## -remarks
 You can use a [RichTextBlock](richtextblock.md) with RichTextBlockOverflow elements to create advanced page layouts. The content for a RichTextBlockOverflow element always comes from a [RichTextBlock](richtextblock.md) element. You link RichTextBlockOverflow elements by setting them as the [OverflowContentTarget](richtextblock_overflowcontenttarget.md) of a [RichTextBlock](richtextblock.md) or another RichTextBlockOverflow.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1709 | 16299 | IsTextTrimmed |
+| 1709 | 16299 | IsTextTrimmedChanged |
+
 ## -examples
 Here, a [RichTextBlock](richtextblock.md) targets a RichTextBlockOverflow element to create a multi-column text layout. The first RichTextBlockOverflow element then targets a second RichTextBlockOverflow element that receives its content overflow. The controlling layout factor for how the text overflow is calculated is the constrained [Width](../windows.ui.xaml/frameworkelement_width.md) and [Height](../windows.ui.xaml/frameworkelement_height.md) of the parent [Grid](grid.md), and the [ColumnDefinition](columndefinition.md) settings that divide the [Grid](grid.md) into three equal columns of 300 pixels height/width. Overflow is also affected by [FontSize](richtextblock_fontsize.md) and many other text formatting properties that change characters in the text.
 

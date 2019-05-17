@@ -109,7 +109,7 @@ The companion device is unavailable. Use another sign-in option.
 
 ### Version history
 
-| Version | SDK version | Value added |
+| Windows version | SDK version | Value added |
 | -- | -- | -- |
 | 1803 | 17134 | CanceledByUser |
 | 1803 | 17134 | CenterHand |

@@ -44,7 +44,6 @@ Windows 8 permitted VisualTreeHelper function calls that were referencing objec
 
 Apps that were compiled for Windows 8 but running on Windows 8.1 use the Windows 8.1 behavior, and will throw specifically on the VisualTreeHelper function call rather than on any downstream app code that uses a cross-thread object.
 
-
 <!--The following remark is relevant for Windows 8 > 8.1 migration. See WBB 461907-->
 ### App UI for On-Screen Keyboard
 
@@ -55,6 +54,12 @@ Starting with Windows 8.1, the system still has UI/layout behavior when the On-
 Most aspects of this behavior change don't affect apps at all. However, your app might have anticipated this behavior, by providing an implicit [Style](../windows.ui.xaml/style.md) for [ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md) that's meant to change the layout, or by walking the tree with VisualTreeHelper to find this internally created [ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md) and alter it at run-time. For an app that is compiled for Windows 8.1 that code won't be useful.
 
 Apps that were compiled for Windows 8 but running on Windows 8.1 continue to use the Windows 8 behavior.
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1903 | 18362 | GetOpenPopupsForXamlRoot |
 
 ## -examples
 Here's an example of a utility function that can copy a list of child elements of a particular type from within a visual tree. It uses the basic traversal methods [GetChildrenCount](visualtreehelper_getchildrencount_1601318699.md) and [GetChild](visualtreehelper_getchild_2017450836.md). It uses recursion so that elements can be found no matter what level of nesting within intermediate containers exists. It also uses an **IsSubclassOf** extension method from [System.Reflection](https://msdn.microsoft.com/library/system.reflection.aspx) that extends the type comparison to consider subtypes as a match for a [Type](https://msdn.microsoft.com/library/system.type.aspx).

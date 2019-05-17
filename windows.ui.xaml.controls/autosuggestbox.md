@@ -41,7 +41,6 @@ To use an AutoSuggestBox, you need to respond to 3 user actions.
 + Suggestion chosen - When the user chooses a suggestion in the suggestion list, update the text box.
 + Query submitted - When the user submits a query, show the query results.
 
-
 ### Text changed
 
 The [TextChanged](autosuggestbox_textchanged.md) event occurs whenever the content of the text box is updated. Use the event args [Reason](autosuggestboxtextchangedeventargs_reason.md) property to determine whether the change was due to user input. If the change reason is **UserInput**, filter your data based on the input. Then, set the filtered data as the [ItemsSource](itemscontrol_itemssource.md) of the AutoSuggestBox to update the suggestion list.
@@ -143,6 +142,13 @@ This table shows the resources used by the AutoSuggestBox control. Resources tha
    <tr><td>TextControlButtonForegroundPointerOver</td><td>Foreground color of delete button on hover</td></tr>
    <tr><td>TextControlButtonForegroundPressed</td><td>Foreground color of delete button when pressed</td></tr>
 </table>
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | LightDismissOverlayMode |
+| 1809 | 17763 | Description |
 
 ## -examples
 

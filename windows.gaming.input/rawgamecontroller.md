@@ -23,6 +23,14 @@ You'll need to create these arrays yourself, and then populate them using [RawGa
 
 See [Raw game controller](https://docs.microsoft.com/windows/uwp/gaming/raw-game-controller) for information about how to use the **RawGameController** class.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1709 | 16299 | DisplayName |
+| 1709 | 16299 | NonRoamableId |
+| 1709 | 16299 | SimpleHapticsControllers |
+
 ## -see-also
 
 [Windows.Gaming.Input.IGameController interface](igamecontroller.md),

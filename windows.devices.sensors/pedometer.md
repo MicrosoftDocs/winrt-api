@@ -20,6 +20,13 @@ For an example implemenation, see the [pedometer sample](https://github.com/Micr
 > [!NOTE]
 > This class is not supported in JavaScript
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1511 | 10586 | GetCurrentReadings |
+| 1511 | 10586 | GetReadingsFromTriggerDetails |
+
 ## -examples
 
 ## -see-also

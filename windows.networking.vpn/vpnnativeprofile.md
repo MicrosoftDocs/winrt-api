@@ -14,6 +14,13 @@ Represents a profile for an OS Native/Inbox VPN protocol.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | ConnectionStatus |
+| 1607 | 14393 | RequireVpnClientAppUI |
+
 ## -examples
 
 ## -see-also

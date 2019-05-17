@@ -15,6 +15,12 @@ Performs GATT reliable writes on the Bluetooth LE device, in the form of a trans
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | CommitWithResultAsync |
+
 ## -examples
 
 ## -see-also

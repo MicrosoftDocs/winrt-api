@@ -25,6 +25,20 @@ The encoding quality **Auto** is a special preset that fills in the proper setti
 
 For how-to guidance for using **MediaEncodingProfile** to set the encoding properties for captured images, see [Basic photo, video, and audio capture with MediaCapture](/windows/uwp/audio-video-camera/basic-photo-video-and-audio-capture-with-mediacapture). For information on using **MediaEncodingProfile** when transcoding media files, see [Transcode media files](/windows/uwp/audio-video-camera/transcode-media-files).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | CreateAlac |
+| 1703 | 15063 | CreateFlac |
+| 1703 | 15063 | CreateHevc |
+| 1709 | 16299 | GetAudioTracks |
+| 1709 | 16299 | GetVideoTracks |
+| 1709 | 16299 | SetAudioTracks |
+| 1709 | 16299 | SetVideoTracks |
+| 1803 | 17134 | GetTimedMetadataTracks |
+| 1803 | 17134 | SetTimedMetadataTracks |
+
 ## -examples
 
 ## -see-also

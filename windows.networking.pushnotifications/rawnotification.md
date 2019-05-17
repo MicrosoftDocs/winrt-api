@@ -17,6 +17,13 @@ A RawNotification object is obtained through the [TriggerDetails](../windows.app
 
 A background task that is intended to run in response to a notification must be registered with a [PushNotificationTrigger](../windows.applicationmodel.background/pushnotificationtrigger.md). If it is not registered, the task will not run when a raw notification is received. For more info, see [Raw notification overview](https://msdn.microsoft.com/library/a867c75d-d16e-4ab5-8b44-614eeb9179c7).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | ChannelId |
+| 1703 | 15063 | Headers |
+
 ## -examples
 
 ## -see-also

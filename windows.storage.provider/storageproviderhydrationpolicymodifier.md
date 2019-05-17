@@ -28,6 +28,12 @@ Automatic file dehydration is allowed.
 ## -remarks
 ValidationRequired and StreamingAllowed are mutually exclusive fields.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1809 | 17763 | AutoDehydrationAllowed |
+
 ## -see-also
 
 ## -examples

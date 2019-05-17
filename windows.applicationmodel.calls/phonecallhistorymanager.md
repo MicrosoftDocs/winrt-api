@@ -14,6 +14,12 @@ Provides APIs for the application to get access to the [PhoneCallHistoryStore](p
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | GetForUser |
+
 ## -examples
 
 ## -see-also

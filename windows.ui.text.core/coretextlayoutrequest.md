@@ -17,6 +17,12 @@ Represents information about a [LayoutRequested](coretexteditcontext_layoutreque
 
 An object of this type can be obtained from the [CoreTextLayoutRequestedEventArgs.Request](coretextlayoutrequestedeventargs_request.md) property inside a handler for the [CoreTextEditContext.LayoutRequested](coretexteditcontext_layoutrequested.md) event handler.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1809 | 17763 | LayoutBoundsVisualPixels |
+
 ## -examples
 
 ## -see-also

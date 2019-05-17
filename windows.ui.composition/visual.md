@@ -44,6 +44,14 @@ Visual supports two forms of rotation:
 
     Rotation by orientation uses the [Orientation](visual_orientation.md) property to specify a quaternion describing an orientation and rotation in 3D space.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | ParentForTransform |
+| 1703 | 15063 | RelativeOffsetAdjustment |
+| 1703 | 15063 | RelativeSizeAdjustment |
+
 ## -examples
 
 ## -see-also

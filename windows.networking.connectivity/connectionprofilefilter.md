@@ -16,6 +16,12 @@ At least one property must be specified, otherwise the object is not used as for
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1803 | 17134 | PurposeGuid |
+
 ## -examples
 
 ## -see-also

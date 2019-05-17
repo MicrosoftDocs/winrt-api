@@ -21,6 +21,14 @@ Instances of the **Gamepad** class cannot be created directly; instead, instance
 
 **Gamepad** supports any Xbox One certified or Xbox 360 compatible gamepad.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | GetButtonLabel |
+| 1703 | 15063 | FromGameController |
+| 1703 | 15063 | TryGetBatteryReport |
+
 ## -examples
 
 The following code snippet shows how to loop through the **Gamepad.Gamepads** list and add each one to a vector. You'll need to put a lock on the vector, because things can change at any time (a controller might be disconnected or reconnected, for example).

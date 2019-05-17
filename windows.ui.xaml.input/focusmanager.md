@@ -51,6 +51,24 @@ An application can have multiple elements with logical focus (depending on the n
 
 There can be multiple elements with logical focus, but only one element with logical focus per focus scope. An element with logical focus does not necessarily have keyboard focus, but an element with keyboard focus does have logical focus.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | FindFirstFocusableElement |
+| 1703 | 15063 | FindLastFocusableElement |
+| 1703 | 15063 | FindNextElement(FocusNavigationDirection) |
+| 1703 | 15063 | FindNextElement(FocusNavigationDirection,FindNextElementOptions) |
+| 1703 | 15063 | TryMoveFocus(FocusNavigationDirection,FindNextElementOptions) |
+| 1803 | 17134 | TryFocusAsync |
+| 1803 | 17134 | TryMoveFocusAsync(FocusNavigationDirection) |
+| 1803 | 17134 | TryMoveFocusAsync(FocusNavigationDirection,FindNextElementOptions) |
+| 1809 | 17763 | GettingFocus |
+| 1809 | 17763 | GotFocus |
+| 1809 | 17763 | LosingFocus |
+| 1809 | 17763 | LostFocus |
+| 1903 | 18362 | GetFocusedElement(XamlRoot) |
+
 ## -examples
 
 Use [TryMoveFocus](/uwp/api/windows.ui.xaml.input.focusmanager.trymovefocus) to traverse between UI elements using the arrow keys.

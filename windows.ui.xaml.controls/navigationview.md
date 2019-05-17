@@ -21,6 +21,28 @@ Represents a container that enables navigation of app content. It has a header, 
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1803 | 17134 | BackRequested |
+| 1803 | 17134 | IsBackButtonVisible |
+| 1803 | 17134 | IsBackEnabled |
+| 1803 | 17134 | PaneClosed |
+| 1803 | 17134 | PaneClosing |
+| 1803 | 17134 | PaneOpened |
+| 1803 | 17134 | PaneOpening |
+| 1803 | 17134 | PaneTitle |
+| 1809 | 17763 | ContentOverlay |
+| 1809 | 17763 | IsPaneVisible |
+| 1809 | 17763 | OverflowLabelMode |
+| 1809 | 17763 | PaneCustomContent |
+| 1809 | 17763 | PaneDisplayMode |
+| 1809 | 17763 | PaneHeader |
+| 1809 | 17763 | SelectionFollowsFocus |
+| 1809 | 17763 | ShoulderNavigationEnabled |
+| 1809 | 17763 | TemplateSettings |
+
 ## -see-also
 [Guidelines for navigation view](https://docs.microsoft.com/windows/uwp/controls-and-patterns/navigationview), [Back button in NavigationView](https://docs.microsoft.com/windows/uwp/design/basics/navigation-history-and-backwards-navigation)
 

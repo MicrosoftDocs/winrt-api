@@ -16,6 +16,12 @@ Represents a web account authentication provider.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1803 | 17134 | IsSystemProvider |
+
 ## -examples
 
 ## -see-also

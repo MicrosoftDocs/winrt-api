@@ -74,7 +74,6 @@ The *clear all* button is not shown in any of these cases:
 + [AcceptsReturn](textbox_acceptsreturn.md) is **true**
 + [TextWrapping](textbox_textwrapping.md) is **Wrap**
 
-
 ### Make a TextBox read-only
 
 You can make a TextBox read-only by setting the [IsReadOnly](textbox_isreadonly.md) property to **true**. For example, you might have a TextBox for a user to enter comments that is enabled only under certain conditions. You can make the TextBox read-only until the conditions are met. If you need only to display text, consider using a [TextBlock](textblock.md) or [RichTextBlock](richtextblock.md) instead.
@@ -214,6 +213,34 @@ This table shows the resources used by the TextBox control. Resources that start
    <tr><td>TextControlButtonForegroundPointerOver</td><td>Foreground color of delete button on hover</td></tr>
    <tr><td>TextControlButtonForegroundPressed</td><td>Foreground color of delete button when pressed</td></tr>
 </table>
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1511 | 10586 | GetLinguisticAlternativesAsync |
+| 1703 | 15063 | SelectionHighlightColorWhenNotFocused |
+| 1709 | 16299 | BeforeTextChanging |
+| 1709 | 16299 | CharacterCasing |
+| 1709 | 16299 | CopyingToClipboard |
+| 1709 | 16299 | CuttingToClipboard |
+| 1709 | 16299 | HorizontalTextAlignment |
+| 1709 | 16299 | PlaceholderForeground |
+| 1803 | 17134 | HandwritingView |
+| 1803 | 17134 | IsHandwritingViewEnabled |
+| 1809 | 17763 | CanPasteClipboardContent |
+| 1809 | 17763 | CanRedo |
+| 1809 | 17763 | CanUndo |
+| 1809 | 17763 | ClearUndoRedoHistory |
+| 1809 | 17763 | CopySelectionToClipboard |
+| 1809 | 17763 | CutSelectionToClipboard |
+| 1809 | 17763 | Description |
+| 1809 | 17763 | PasteFromClipboard |
+| 1809 | 17763 | ProofingMenuFlyout |
+| 1809 | 17763 | Redo |
+| 1809 | 17763 | SelectionChanging |
+| 1809 | 17763 | SelectionFlyout |
+| 1809 | 17763 | Undo |
 
 ## -examples
 

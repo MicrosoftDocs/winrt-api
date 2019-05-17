@@ -36,6 +36,12 @@ Block is the parent class for [Paragraph](paragraph.md).
 
 The Windows Runtime XAML vocabulary doesn't support a **Section** class. If you're migrating XAML from Windows Presentation Foundation (WPF) or Microsoft Silverlight, use a [Paragraph](paragraph.md) block element instead.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1709 | 16299 | HorizontalTextAlignment |
+
 ## -examples
 
 ## -see-also

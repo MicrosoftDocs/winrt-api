@@ -15,6 +15,12 @@ Received by an application when it is launched by another application with the e
 ## -remarks
 You access a ProtocolForResultsActivatedEventArgs object when you implement an event handler that responds to [Activated](../windows.applicationmodel.core/coreapplicationview_activated.md) events when [ActivationKind](activationkind.md) is **ProtocolForResults**.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | User |
+
 ## -examples
 
 ## -see-also

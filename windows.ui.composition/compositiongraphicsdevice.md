@@ -14,6 +14,15 @@ Used to create all hardware bound resources for a given DirectX device on a comp
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | CreateDrawingSurface2 |
+| 1703 | 15063 | CreateVirtualDrawingSurface |
+| 1903 | 18362 | CreateMipmapSurface |
+| 1903 | 18362 | Trim |
+
 ## -examples
 
 ## -see-also

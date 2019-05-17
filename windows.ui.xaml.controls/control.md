@@ -128,6 +128,29 @@ In order to support XAML processor access to the attached properties, and also t
 | IsTemplateFocusTarget | Gets or sets a value that indicates whether this element is the part of a control template that has the focus visual.<ul><li>Type: Boolean</li><li>Identifier field: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.control.istemplatefocustargetproperty">IsTemplateFocusTargetProperty</a></li><li>Accessor methods: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.control.getistemplatefocustarget">GetIsTemplateFocusTarget</a>, <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.control.setistemplatefocustarget">SetIsTemplateFocusTarget</a></li></ul> This property is for use in a [ControlTemplate](controltemplate.md) only. If it's set outside of a ControlTemplate, it's ignored. If this attached property is set more than once in a ControlTemplate, an exception is thrown. |
 | IsTemplateKeyTipTarget | Gets or sets a value that indicates whether this element is the part of a control template where the KeyTip is placed.<ul><li>Type: Boolean</li><li>Identifier field: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.control.istemplatekeytiptargetproperty">IsTemplateKeyTipTargetProperty</a></li><li>Accessor methods: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.control.getistemplatekeytiptarget">GetIsTemplateKeyTipTarget</a>, <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.control.setistemplatekeytiptarget">SetIsTemplateKeyTipTarget</a></li></ul> This property is for use in a [ControlTemplate](controltemplate.md) only. If it's set outside of a ControlTemplate, it's ignored. If this attached property is set more than once in a ControlTemplate, an exception is thrown. |
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | ElementSoundMode |
+| 1607 | 14393 | FocusDisengaged |
+| 1607 | 14393 | FocusEngaged |
+| 1607 | 14393 | IsFocusEngaged |
+| 1607 | 14393 | IsFocusEngagementEnabled |
+| 1607 | 14393 | RemoveFocusEngagement |
+| 1607 | 14393 | RequiresPointer |
+| 1607 | 14393 | XYFocusDown |
+| 1607 | 14393 | XYFocusLeft |
+| 1607 | 14393 | XYFocusRight |
+| 1607 | 14393 | XYFocusUp |
+| 1703 | 15063 | DefaultStyleResourceUri |
+| 1703 | 15063 | GetIsTemplateKeyTipTarget |
+| 1703 | 15063 | SetIsTemplateKeyTipTarget |
+| 1709 | 16299 | OnCharacterReceived |
+| 1709 | 16299 | OnPreviewKeyDown |
+| 1709 | 16299 | OnPreviewKeyUp |
+| 1809 | 17763 | BackgroundSizing |
+| 1809 | 17763 | CornerRadius |
 
 ## -examples
 

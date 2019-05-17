@@ -24,6 +24,12 @@ CompositionTarget events are useful for rendering scenarios like:
 
 For scenarios that don't involve custom rendering or frame time measurement you probably won't need CompositionTarget and can just rely on the XAML rendering system running and performing all your composition and layout.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1803 | 17134 | Rendered |
+
 ## -examples
 
 ## -see-also

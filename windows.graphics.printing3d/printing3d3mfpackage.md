@@ -18,6 +18,12 @@ Represents a 3D Manufacturing Format (3MF) package.
 
 This API is designed for use with 3D Manufacturing Format (3MF) packages. For more info about 3MF, see the [3MF Specification](https://go.microsoft.com/fwlink/p/?LinkId=616252).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1709 | 16299 | Compression |
+
 ## -examples
 
 ## -see-also

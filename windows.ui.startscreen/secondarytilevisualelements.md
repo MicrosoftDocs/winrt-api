@@ -25,6 +25,12 @@ This class object is obtained by calling the [SecondaryTile.VisualElements](seco
 
 A logo image that is saved locally (ms-appdata://localfolder/) by the app to use in a secondary tile should not be deleted by the app. This prevents loss of the image if the cache is cleared.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1709 | 16299 | MixedRealityModel |
+
 ## -examples
 
 ## -see-also

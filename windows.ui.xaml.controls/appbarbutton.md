@@ -72,6 +72,16 @@ This table shows the resources used by the AppBarButton control.
    <tr><td>AppBarButtonBorderBrushDisabled</td><td>Border color when disabled</td></tr>
 </table>
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | DynamicOverflowOrder |
+| 1607 | 14393 | IsInOverflow |
+| 1607 | 14393 | LabelPosition |
+| 1803 | 17134 | KeyboardAcceleratorTextOverride |
+| 1803 | 17134 | TemplateSettings |
+
 ## -examples
 
 This example shows AppBarButton controls with each type of icon:

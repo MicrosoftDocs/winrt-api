@@ -21,6 +21,16 @@ Additional filters based on the [IHttpFilter](ihttpfilter.md) interface can be a
 
 The HttpBaseProtocolFilter object throws exceptions when sending HTTP requests or receiving response and network failures occur (loss of connectivity in airplane mode, for example). Developers using [HttpClient](../windows.web.http/httpclient.md) in apps may prefer to add a filter to catch these exceptions and convert them to HTTP response codes instead.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1511 | 10586 | CookieUsageBehavior |
+| 1607 | 14393 | ClearAuthenticationCache |
+| 1607 | 14393 | ServerCustomValidationRequested |
+| 1903 | 18362 | CreateForUser |
+| 1903 | 18362 | User |
+
 ## -examples
 
 ## -see-also

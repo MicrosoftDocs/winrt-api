@@ -15,6 +15,11 @@ Static methods for working with PerceptionTimestamp objects.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1809 | 17763 | FromSystemRelativeTargetTime |
 
 ## -examples
 

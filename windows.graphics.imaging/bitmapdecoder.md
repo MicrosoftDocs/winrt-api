@@ -32,6 +32,13 @@ For a list of decoding formats, see the [BitmapEncoder](bitmapencoder.md) topic.
 
 The BitmapDecoder class implements [IBitmapFrame](ibitmapframe.md). It provides access to container data as well as data from the first frame. This allows applications to accomplish most common scenarios without needing to retrieve a separate [BitmapFrame](bitmapframe.md).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1809 | 17763 | HeifDecoderId |
+| 1809 | 17763 | WebpDecoderId |
+
 ## -examples
 
 Here's a partial example of creating a decoder object. This example assumes you selected a file with [Windows.Storage.Pickers.FileOpenPicker](../windows.storage.pickers/fileopenpicker.md). For full instructions on selecting a file, creating an decoder, and decoding an image see [Imaging](https://msdn.microsoft.com/library/3fd2aa71-ef67-47b2-9332-3ffa5d3703ea)

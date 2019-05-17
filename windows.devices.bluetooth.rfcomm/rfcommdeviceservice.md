@@ -15,6 +15,17 @@ Represents an instance of a service on a Bluetooth BR device.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | DeviceAccessInformation |
+| 1607 | 14393 | GetDeviceSelectorForBluetoothDevice(BluetoothDevice) |
+| 1607 | 14393 | GetDeviceSelectorForBluetoothDevice(BluetoothDevice,BluetoothCacheMode) |
+| 1607 | 14393 | GetDeviceSelectorForBluetoothDeviceAndServiceId(BluetoothDevice,RfcommServiceId) |
+| 1607 | 14393 | GetDeviceSelectorForBluetoothDeviceAndServiceId(BluetoothDevice,RfcommServiceId,BluetoothCacheMode) |
+| 1607 | 14393 | RequestAccessAsync |
+
 ## -examples
 
 ## -see-also

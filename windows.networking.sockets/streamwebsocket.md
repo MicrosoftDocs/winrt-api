@@ -35,6 +35,12 @@ The Media Foundation feature can be enabled on Windows Server 2012 or Windows S
 
 `dism /online /enable-feature /featurename:ServerMediaFoundation `After the Media Foundation feature is enabled, the user is prompted to restart. Once the computer is restarted, classes for sockets and WebSockets in the [Windows.Networking.Sockets](windows_networking_sockets.md) namespace will work as expected.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | ServerCustomValidationRequested |
+
 ## -examples
 
 ## -see-also

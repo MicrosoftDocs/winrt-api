@@ -14,6 +14,11 @@ Represents arguments used when the lock screen is activated.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | User |
 
 ## -examples
 

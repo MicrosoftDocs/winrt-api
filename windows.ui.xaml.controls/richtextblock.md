@@ -51,6 +51,18 @@ You can use a RichTextBlock with [RichTextBlockOverflow](richtextblockoverflow.m
 
 The default [FontFamily](richtextblock_fontfamily.md) for RichTextBlock is Segoe UI and the default [FontSize](richtextblock_fontsize.md) is 15 device-independent pixel (DIP). By default, RichTextBlock utilizes a font fallback mechanism to show glyphs that are not included in the specified font. If the glyph that is needed in a RichTextBlock is not available in the specified font, the font fallback mechanism goes through a list of fonts on the system to try and display the required characters in a different font.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | TextDecorations |
+| 1709 | 16299 | HorizontalTextAlignment |
+| 1709 | 16299 | IsTextTrimmed |
+| 1709 | 16299 | IsTextTrimmedChanged |
+| 1709 | 16299 | TextHighlighters |
+| 1809 | 17763 | CopySelectionToClipboard |
+| 1809 | 17763 | SelectionFlyout |
+
 ## -examples
 
 > [!TIP]

@@ -15,6 +15,13 @@ Represents the container for an item in a [TreeView](treeview.md) control.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1809 | 17763 | HasUnrealizedChildren |
+| 1809 | 17763 | ItemsSource |
+
 ## -see-also
 
 ## -examples

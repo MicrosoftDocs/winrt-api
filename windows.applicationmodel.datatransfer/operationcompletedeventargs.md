@@ -15,6 +15,12 @@ Contains info about the action that a target app completed during a paste operat
 ## -remarks
 An [OperationCompleted](datapackage_operationcompleted.md) event occurs when the user pastes content.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1511 | 10586 | AcceptedFormatId |
+
 ## -examples
 
 ## -see-also

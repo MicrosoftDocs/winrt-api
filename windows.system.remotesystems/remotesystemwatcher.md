@@ -18,6 +18,14 @@ This class is instantiated when the static method [CreateWatcher](remotesystem_c
 > [!IMPORTANT]
 > You must confirm access to the remote system platform with a call to **[RemoteSystem.RequestAccessAsync](remotesystem_requestaccessasync_380675631.md)** before you instantiate this class.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1803 | 17134 | EnumerationCompleted |
+| 1803 | 17134 | ErrorOccurred |
+| 1903 | 18362 | User |
+
 ## -examples
 
 ## -see-also

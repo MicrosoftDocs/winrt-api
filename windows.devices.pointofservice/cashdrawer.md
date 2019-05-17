@@ -18,6 +18,12 @@ To get a CashDrawer object, use the [FromIdAsync](cashdrawer_fromidasync_1322863
 
 See the [cash drawer sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/CashDrawer) for an example implementation.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | GetDeviceSelector(PosConnectionTypes) |
+
 ## -examples
 
 ## -see-also

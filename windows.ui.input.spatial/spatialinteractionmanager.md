@@ -24,6 +24,12 @@ Spatial gestures are a key form of input for HoloLens. By routing the interactio
 
 Interactions are mostly opaque, with an event triggering only at the beginning, so the gesture recognizer you route it to can capture the interaction in its entirety. Apps can instead choose to use the low-level Source events or poll using [GetDetectedSourcesAtTimestamp](spatialinteractionmanager_getdetectedsourcesattimestamp_338728324.md) to manually process the Presses, Updates, and Releases surfaced by a given hand or controller.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1903 | 18362 | IsSourceKindSupported |
+
 ## -examples
 
 ## -see-also

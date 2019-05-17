@@ -14,6 +14,11 @@ Provides APIs for managing change tracking for appointments.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1709 | 16299 | IsTracking |
 
 ## -examples
 

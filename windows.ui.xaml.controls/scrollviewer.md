@@ -139,7 +139,6 @@ This table shows the resources used by the ScrollViewer control.
    <tr><td>ScrollViewerScrollBarSeparatorBackground</td><td>Background color of the scrollbar separator</td></tr>
 </table>
 
-
 <!--The following remark is relevant for Windows 8 > 8.1 migration. See WBB 462116-->
 ### Windows 8 behavior
 
@@ -149,7 +148,6 @@ For Windows 8, track pad device gestures that were input-handled by a ScrollVie
 If you migrate your app code from Windows 8 to Windows 8.1 you may want to account for this behavior change, because it results in [PointerWheelChanged](../windows.ui.xaml/uielement_pointerwheelchanged.md) being fired in fewer cases. Also, the behavior that's now built-in to ScrollViewer may be duplicating what your handler would have done.
 
 Apps that were compiled for Windows 8 but running on Windows 8.1 continue to use the Windows 8 behavior.
-
 
 <!--The following remark is relevant for Windows 8 > 8.1 migration. See WBB 461907-->
 ### App UI for On-Screen Keyboard
@@ -161,6 +159,21 @@ Starting with Windows 8.1, the system still has UI/layout behavior when the On-
 Most aspects of this behavior change don't affect apps at all. However, your app might have anticipated this behavior, by providing an implicit [Style](../windows.ui.xaml/style.md) for ScrollViewer that's meant to change the layout, or by walking the tree with [VisualTreeHelper](../windows.ui.xaml.media/visualtreehelper.md) to find this internally created ScrollViewer and alter it at run-time. For an app that is compiled for Windows 8.1 that code won't be useful.
 
 Apps that were compiled for Windows 8 but running on Windows 8.1 continue to use the Windows 8 behavior.
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1809 | 17763 | AnchorRequested |
+| 1809 | 17763 | CanContentRenderOutsideBounds |
+| 1809 | 17763 | CurrentAnchor |
+| 1809 | 17763 | GetCanContentRenderOutsideBounds |
+| 1809 | 17763 | HorizontalAnchorRatio |
+| 1809 | 17763 | ReduceViewportForCoreInputViewOcclusions |
+| 1809 | 17763 | RegisterAnchorCandidate |
+| 1809 | 17763 | SetCanContentRenderOutsideBounds |
+| 1809 | 17763 | UnregisterAnchorCandidate |
+| 1809 | 17763 | VerticalAnchorRatio |
 
 ## -examples
 

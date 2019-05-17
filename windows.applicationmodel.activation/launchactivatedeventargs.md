@@ -35,11 +35,16 @@ When testing your app, be aware that immediately reactivating an app that has ju
 
 If programming with JavaScript, launch is complete when your activated event handler returns successfully after executing your launch tasks. 
 
-
 ### .NET launch completion
 
 If programming with C#, VB, or C++, launch is complete when you activate an app window. 
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | TileActivatedInfo |
+| 1607 | 14393 | User |
 
 ## -examples
 

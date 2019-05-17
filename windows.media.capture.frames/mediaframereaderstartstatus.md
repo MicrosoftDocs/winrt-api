@@ -30,7 +30,7 @@ The operation failed because the requested output format is not supported by the
 
 ### Version history
 
-| Version | SDK version | Value added |
+| Windows version | SDK version | Value added |
 | -- | -- | -- |
 | 1703 | 15063 | ExclusiveControlNotAvailable |
 

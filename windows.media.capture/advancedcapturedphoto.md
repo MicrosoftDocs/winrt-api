@@ -17,6 +17,12 @@ Get an instance of this class by calling [AdvancedPhotoCapture.CaptureAsync](adv
 
 For how-to guidance for using [AdvancedPhotoCapture](advancedphotocapture.md), see [High dynamic range (HDR) and low-light photo capture](https://msdn.microsoft.com/windows/uwp/audio-video-camera/high-dynamic-range-hdr-photo-capture).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | FrameBoundsRelativeToReferencePhoto |
+
 ## -examples
 
 ## -see-also

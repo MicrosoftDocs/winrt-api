@@ -47,7 +47,7 @@ The set of pixel formats represented by BitmapPixelFormat is smaller than the se
 
 ### Version history
 
-| Version | SDK version | Value added |
+| Windows version | SDK version | Value added |
 | -- | -- | -- |
 | 1803 | 17134 | P010 |
 

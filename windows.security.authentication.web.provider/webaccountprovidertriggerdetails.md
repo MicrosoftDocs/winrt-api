@@ -14,6 +14,12 @@ Provides information about the trigger that started the web account provider tas
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | User |
+
 ## -examples
 
 ## -see-also

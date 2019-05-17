@@ -17,6 +17,12 @@ Represents a node in an audio graph node that outputs audio data from the graph 
 
 Get an instance of this class by calling [AudioGraph.CreateDeviceOutputNodeAsync](audiograph_createdeviceoutputnodeasync_954542725.md) and then accessing the [CreateAudioDeviceOutputNodeResult.DeviceOutputNode](createaudiodeviceoutputnoderesult_deviceoutputnode.md) property.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | Listener |
+
 ## -examples
 
 ## -see-also

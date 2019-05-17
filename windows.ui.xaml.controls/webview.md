@@ -82,7 +82,6 @@ You can load local content through a custom resolver using the [NavigateToLocalS
 
 WebView provides several events that you can use to respond to navigation and content loading states. The events occur in the following order for the root WebView content:
 
-
 + [NavigationStarting](webview_navigationstarting.md)- Occurs before the WebView navigates to new content. You can cancel navigation in a handler for this event by setting the [WebViewNavigationStartingEventArgs.Cancel](webviewnavigationstartingeventargs_cancel.md) property to **true**.
 
 ```csharp
@@ -441,6 +440,17 @@ If you want to display an interactive WebView that only occasionally has overlap
 > The "airspace problem" has been fixed starting with Windows 8.1 and does not apply for apps targeting Windows 8.1 or Windows 10.
 
 WebView always uses Internet Explorer 10 in document mode.
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | XYFocusDown |
+| 1607 | 14393 | XYFocusLeft |
+| 1607 | 14393 | XYFocusRight |
+| 1607 | 14393 | XYFocusUp |
+| 1803 | 17134 | SeparateProcessLost |
+| 1809 | 17763 | WebResourceRequested |
 
 ## -examples
 

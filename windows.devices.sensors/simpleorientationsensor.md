@@ -33,6 +33,13 @@ The following example contains the XAML code for the event handler which writes 
 
 [!code-csharp[ReadingChanged2CS](../windows.devices.sensors/code/simpleorientation/csharp/Scenario1.xaml.cs#SnippetReadingChanged2CS)]
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1809 | 17763 | FromIdAsync |
+| 1809 | 17763 | GetDeviceSelector |
+
 ## -examples
 
 ## -see-also

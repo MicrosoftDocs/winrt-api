@@ -17,7 +17,14 @@ StreamWebSocketInformation can be called any time after the [StreamWebSocket](st
 
 A StreamWebSocketInformation object is automatically created with the parent [StreamWebSocket](streamwebsocket.md) object. The [StreamWebSocket.Information](streamwebsocket_information.md) property provides access to the associated StreamWebSocketInformation object.
 
+### Version history
 
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | ServerCertificate |
+| 1607 | 14393 | ServerCertificateErrors |
+| 1607 | 14393 | ServerCertificateErrorSeverity |
+| 1607 | 14393 | ServerIntermediateCertificates |
 
 ## -examples
 

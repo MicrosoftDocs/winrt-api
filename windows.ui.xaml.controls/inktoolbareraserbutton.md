@@ -37,6 +37,12 @@ If your app overrides the default ink rendering behavior of the [InkPresenter](.
 
 For more info on custom drying, see [Pen interactions and Windows Ink in UWP apps](https://msdn.microsoft.com/windows/uwp/input-and-devices/pen-and-stylus-interactions#custom-ink-rendering).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | IsClearAllVisible |
+
 ## -examples
 
 ## -see-also

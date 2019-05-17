@@ -17,6 +17,12 @@ Provides members for managing license info for apps.
 > [!NOTE]
 > This class requires the **storeLicenseManagement** [restricted capability](https://msdn.microsoft.com/windows/uwp/packaging/app-capability-declarations).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | RefreshLicensesAsync |
+
 ## -examples
 
 ## -see-also

@@ -17,6 +17,12 @@ Create an instance of this class by calling [SwapChainBackgroundPanel.CreateCore
 
 The CoreIndependentInputSource class enables an app to handle input and rendering independent of the XAML UI thread, because you're intentionally providing the input processing logic on a background thread. You must call [CreateCoreIndependentInputSource](../windows.ui.xaml.controls/swapchainpanel_createcoreindependentinputsource_467679991.md) from a non-UI thread, otherwise the [CreateCoreIndependentInputSource](../windows.ui.xaml.controls/swapchainpanel_createcoreindependentinputsource_467679991.md) method call will fail.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1803 | 17134 | DispatcherQueue |
+
 ## -examples
 
 Initializing independent input.

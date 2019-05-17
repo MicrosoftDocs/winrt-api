@@ -15,6 +15,13 @@ Represents a single custom tool from the [RadialController](radialcontroller.md)
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | CreateFromFontGlyph(String,String,String) |
+| 1703 | 15063 | CreateFromFontGlyph(String,String,String,Uri) |
+
 ## -examples
 
 In this example, we add a custom tool (`Sample`) with a standard icon to the Surface Dial menu.

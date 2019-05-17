@@ -15,6 +15,20 @@ Represents a user data account used to access email, contacts, calendars, and so
 ## -remarks
 Call [UserDataAccountStore.GetAccountAsync](userdataaccountstore_getaccountasync_446150997.md) to get an instance of this class.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1511 | 10586 | EnterpriseId |
+| 1511 | 10586 | IsProtectedUnderLock |
+| 1607 | 14393 | DisplayName |
+| 1607 | 14393 | ExplictReadAccessPackageFamilyNames |
+| 1703 | 15063 | CanShowCreateContactGroup |
+| 1703 | 15063 | FindContactGroupsAsync |
+| 1703 | 15063 | FindUserDataTaskListsAsync |
+| 1703 | 15063 | ProviderProperties |
+| 1703 | 15063 | TryShowCreateContactGroupAsync |
+
 ## -examples
 
 ## -see-also

@@ -34,6 +34,12 @@ The resource is a cryptographic initialization vector.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1809 | 17763 | MediaSegmentIndex |
+
 ## -examples
 
 ## -see-also

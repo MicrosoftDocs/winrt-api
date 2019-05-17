@@ -14,6 +14,13 @@ Represents a registered group of applet IDs.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1809 | 17763 | SetPropertiesAsync |
+| 1809 | 17763 | SmartCardReaderId |
+
 ## -examples
 
 ## -see-also

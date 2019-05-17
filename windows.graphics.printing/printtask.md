@@ -32,10 +32,6 @@ When the user chooses to actually initiate printing by pressing Print in the pri
 
 Here is a JavaScript code snippet that shows how to indicate the order in which the default print settings should be displayed:
 
-
-
-
-
 ```javascript
     // Print event handler for printing via the PrintManager API.
     // printEvent contains the print task request object
@@ -60,6 +56,12 @@ Here is a JavaScript code snippet that shows how to indicate the order in which 
 ```
 
 To see the complete listing for this, and other printing scenarios using **PrintTask**, see [Printing](https://msdn.microsoft.com/library/windows/apps/hh465225.aspx).
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | IsPreviewEnabled |
 
 ## -examples
 

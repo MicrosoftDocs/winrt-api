@@ -16,6 +16,12 @@ Represents a color material used in the 3D model.
 ## -remarks
 The Printing3DColorMaterial class corresponds to the `<color>` element in the 3D Manufacturing Format (3MF) specification. For more info, see the [3MF Specification](https://go.microsoft.com/fwlink/p/?LinkId=616252).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1511 | 10586 | Color |
+
 ## -examples
 
 ## -see-also

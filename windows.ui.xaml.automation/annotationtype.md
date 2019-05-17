@@ -92,7 +92,7 @@ The values in AnnotationType parallel the values in the [Annotation Type Identif
 
 ### Version history
 
-| Version | SDK version | Value added |
+| Windows version | SDK version | Value added |
 | -- | -- | -- |
 | 1607 | 14393 | AdvancedProofingIssue |
 | 1607 | 14393 | Author |

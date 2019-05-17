@@ -14,6 +14,12 @@ Provides data for the [ActualCameraChanging](mapcontrol_actualcamerachanging.md)
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1511 | 10586 | ChangeReason |
+
 ## -examples
 
 ## -see-also

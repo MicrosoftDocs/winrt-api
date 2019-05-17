@@ -71,6 +71,12 @@ This table shows the resources used by the AppBar control.
    <tr><td>AppBarEllipsisButtonBorderBrushDisabled</td><td>Border color of ellipsis when disabled</td></tr>
 </table>
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | LightDismissOverlayMode |
+
 ## -examples
 
 This example shows a top app bar with a group of navigation buttons and a search box.

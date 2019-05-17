@@ -71,6 +71,19 @@ The rendered text looks like this:
 
 <img alt="Text block with color font" src="images/TextBlock_ColorFonts.png" />
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | GetAlphaMask |
+| 1703 | 15063 | TextDecorations |
+| 1709 | 16299 | HorizontalTextAlignment |
+| 1709 | 16299 | IsTextTrimmed |
+| 1709 | 16299 | IsTextTrimmedChanged |
+| 1709 | 16299 | TextHighlighters |
+| 1809 | 17763 | CopySelectionToClipboard |
+| 1809 | 17763 | SelectionFlyout |
+
 ## -examples
 
 > [!TIP]

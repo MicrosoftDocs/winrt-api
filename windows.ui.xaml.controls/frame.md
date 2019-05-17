@@ -30,6 +30,14 @@ By default, each navigation creates a new instance of the specific [Page](page.m
 
 The [INavigate](inavigate.md) interface is mainly infrastructure. It's not expected that typical app will implement this interface.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | SetNavigationState(String,Boolean) |
+| 1809 | 17763 | IsNavigationStackEnabled |
+| 1809 | 17763 | NavigateToType |
+
 ## -examples
 The following code example is from the Blank App template in Microsoft Visual Studio. This code shows how an [OnLaunched](../windows.ui.xaml/application_onlaunched_859642554.md) method override initializes the app window. If the app is resuming after being suspended, then the window might already be initialized. If not, this code sets the app window to a new Frame, then navigates the frame to the default initial page.
 

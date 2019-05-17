@@ -31,6 +31,12 @@ Shape is the parent class for several immediately derived classes that define pr
 + [Rectangle](rectangle.md)
 Of these, [Rectangle](rectangle.md), [Path](path.md) and [Ellipse](ellipse.md) are probably the most commonly used. [Rectangle](rectangle.md) is often used as part of control composition for drawing a focus rectangle. [Path](path.md) is used for control glyphs, and also for [PathIcon](../windows.ui.xaml.controls/pathicon.md) content. [Ellipse](ellipse.md) is used for control compositions that include a circle, particularly in progress controls.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | GetAlphaMask |
+
 ## -examples
 For example code of how to use Shape derived classes such as [Rectangle](rectangle.md) and [Path](path.md), see [XAML vector-based drawing sample](https://go.microsoft.com/fwlink/p/?linkid=226866).
 

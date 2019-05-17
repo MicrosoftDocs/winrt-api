@@ -14,6 +14,13 @@ Represents a request to an online identity provider for an authentication token.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1511 | 10586 | AppProperties |
+| 1703 | 15063 | CorrelationId |
+
 ## -examples
 
 ## -see-also

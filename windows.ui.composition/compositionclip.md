@@ -14,6 +14,18 @@ Base class for clipping objects such as [InsetClip](insetclip.md).
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | AnchorPoint |
+| 1607 | 14393 | CenterPoint |
+| 1607 | 14393 | Offset |
+| 1607 | 14393 | RotationAngle |
+| 1607 | 14393 | RotationAngleInDegrees |
+| 1607 | 14393 | Scale |
+| 1607 | 14393 | TransformMatrix |
+
 ## -examples
 
 ## -see-also

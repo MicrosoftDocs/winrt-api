@@ -15,6 +15,16 @@ Contains the calendar identifiers for the supported calendars, as static propert
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | ChineseLunar |
+| 1607 | 14393 | JapaneseLunar |
+| 1607 | 14393 | KoreanLunar |
+| 1607 | 14393 | TaiwanLunar |
+| 1607 | 14393 | VietnameseLunar |
+
 ## -examples
 
 ## -see-also

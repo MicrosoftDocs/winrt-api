@@ -28,10 +28,6 @@ An app may also use PrintTaskOptions to customize the options that appear in the
 
 Here is a JavaScript code snippet that you could use, for example, to set the printed output to color, and also to set the size of the media on which it can be printed:
 
-
-
-
-
 ```javascript
 // Set output to color
 printTaskOptions.colorMode = colorMode;
@@ -42,6 +38,15 @@ printTaskOptions.mediaSize = mediaSize;
 ```
 
 For more information about the allowed values for these print task options see [PrintColorMode](printcolormode.md) and [PrintMediaSize](printmediasize.md).
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | Bordering |
+| 1607 | 14393 | GetPagePrintTicket |
+| 1803 | 17134 | CustomPageRanges |
+| 1803 | 17134 | PageRangeOptions |
 
 ## -examples
 

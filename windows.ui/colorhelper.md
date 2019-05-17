@@ -17,6 +17,12 @@ Provides static helper methods for processing [Color](color.md) values. C# and M
 
 ColorHelper is one of several **Helper** classes that are intended to provide utility methods for Windows Runtime structure values. C# and Microsoft Visual Basic code can use methods of [Color](color.md) instead, because utility methods are available directly on the structure due to .NET Framework runtime support. C++ code including Visual C++ component extensions (C++/CX) can only access the data values on [Color](color.md), for example the **A** field value. For C++ developers, some of the utility features that C# and Microsoft Visual Basic can use directly on [Color](color.md) as nondata members are available from the ColorHelper class.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | ToDisplayName |
+
 ## -examples
 
 ## -see-also

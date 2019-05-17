@@ -15,6 +15,12 @@ Represents a node in an audio graph node that inputs audio data into the graph f
 ## -remarks
 Get an instance of this class by calling [CreateFrameInputNode](audiograph_createframeinputnode_2056779528.md).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | Emitter |
+
 ## -examples
 
 ## -see-also

@@ -32,7 +32,7 @@ There was a GATT communication protocol error.
 
 ### Version history
 
-| Version | SDK version | Value added |
+| Windows version | SDK version | Value added |
 | -- | -- | -- |
 | 1703 | 15063 | AccessDenied |
 | 1703 | 15063 | ProtocolError |

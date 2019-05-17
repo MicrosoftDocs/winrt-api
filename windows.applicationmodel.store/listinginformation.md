@@ -20,6 +20,15 @@ You access this object through the [LoadListingInformationAsync](currentappsimul
 > [!NOTE]
 > The [CurrentApp](currentapp.md) object obtains its data from the Microsoft Store, so you must have a Microsoft Store developer account and the app must be published in the Microsoft Store. If you don't have a Microsoft Store developer account, you can test the functions of this class by using the [CurrentAppSimulator](currentappsimulator.md).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1511 | 10586 | CurrencyCode |
+| 1511 | 10586 | FormattedBasePrice |
+| 1511 | 10586 | IsOnSale |
+| 1511 | 10586 | SaleEndDate |
+
 ## -examples
 This code example shows how to get the ListingInformation from simulated app data and then get the [ProductListing](productlisting.md) object for one of the features offered by the app.
 

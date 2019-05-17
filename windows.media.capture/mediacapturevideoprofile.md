@@ -23,6 +23,13 @@ Before using video profiles, you should check the value returned by [MediaCaptur
 
 For how-to guidance for working with video profiles, see [Discover and select camera capabilities with camera profiles](https://msdn.microsoft.com/windows/uwp/audio-video-camera/camera-profiles).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1803 | 17134 | FrameSourceInfos |
+| 1803 | 17134 | Properties |
+
 ## -examples
 
 ## -see-also

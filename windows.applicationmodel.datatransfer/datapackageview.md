@@ -21,6 +21,12 @@ Target apps can use the DataPackageView object to acquire the data being shared.
 
 Source apps have the option of using the [SetDataProvider](datapackage_setdataprovider_375548563.md) to assign a delegate to a **DataPackage**, instead of providing the data immediately. This process is useful in situations where the source app supports a given format but does not want to generate the data unless the target app requests it. For example, a source app might support a variety of image formats for sharing photos. Instead of creating multiple copies of each image using these formats, the source app can use a delegate that is called when the target app requests a specific format type.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1511 | 10586 | SetAcceptedFormatId |
+
 ## -examples
 
 The following code shows how you can use the DataPackageView to get the text being shared. For this example to work properly, you need to add code that detects if your app was launched in response to a share operation. See our topic, [How to receive text](https://msdn.microsoft.com/library/50ec164f-80eb-4b56-858b-caac47475c13) to learn more.

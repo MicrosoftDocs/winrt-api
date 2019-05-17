@@ -14,6 +14,11 @@ Allows an application to launch the email application with a new message display
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | GetForUser |
 
 ## -examples
 

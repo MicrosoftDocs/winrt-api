@@ -24,6 +24,13 @@ The InkPresenterRuler can be manipulated both programmatically and by the user. 
 ## -remarks
 The opacity of the stencil is set at 75% when static, and 50% during manipulation.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | AreTickMarksVisible |
+| 1703 | 15063 | IsCompassVisible |
+
 ## -examples
 
 ## -see-also

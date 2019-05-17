@@ -17,6 +17,12 @@ Contains information about an enterprise protected file.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1709 | 16299 | IsProtectWhileOpenSupported |
+
 ## -examples
 
 ## -see-also

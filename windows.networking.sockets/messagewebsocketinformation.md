@@ -17,7 +17,14 @@ Provides socket information on a [MessageWebSocket](messagewebsocket.md).
 
 A MessageWebSocketInformation object is automatically created with the parent [MessageWebSocket](messagewebsocket.md) object. The [MessageWebSocket.Information](messagewebsocket_information.md) property provides access to the associated MessageWebSocketInformation object.
 
+### Version history
 
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | ServerCertificate |
+| 1607 | 14393 | ServerCertificateErrors |
+| 1607 | 14393 | ServerCertificateErrorSeverity |
+| 1607 | 14393 | ServerIntermediateCertificates |
 
 ## -examples
 

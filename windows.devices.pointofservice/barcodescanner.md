@@ -18,6 +18,13 @@ This object is created when [GetDefaultAsync](barcodescanner_getdefaultasync_154
 
 See the [barcode scanner sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/BarcodeScanner) for an example implementation.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | VideoDeviceId |
+| 1703 | 15063 | GetDeviceSelector(PosConnectionTypes) |
+
 ## -examples
 
 ## -see-also

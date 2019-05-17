@@ -30,7 +30,7 @@ This enumeration provides values for the [SystemNavigationManager.AppViewBackBut
 
 ### Version history
 
-| Version | SDK version | Value added |
+| Windows version | SDK version | Value added |
 | -- | -- | -- |
 | 1803 | 17134 | Disabled |
 

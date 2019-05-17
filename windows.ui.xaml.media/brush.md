@@ -49,6 +49,12 @@ Brush is the parent class for several derived classes that either implement prac
 + [SolidColorBrush](solidcolorbrush.md): This is by far the most commonly used Brush.
 + [TileBrush](tilebrush.md): Intermediate base class for [ImageBrush](imagebrush.md).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1809 | 17763 | PopulatePropertyInfo |
+| 1809 | 17763 | PopulatePropertyInfoOverride |
 
 ## -examples
 

@@ -64,6 +64,20 @@ This table shows the resources used by the ContentDialog control.
    <tr><td>ContentDialogBorderBrush</td><td>Border color</td></tr>
 </table>
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | CloseButtonClick |
+| 1703 | 15063 | CloseButtonCommand |
+| 1703 | 15063 | CloseButtonCommandParameter |
+| 1703 | 15063 | CloseButtonStyle |
+| 1703 | 15063 | CloseButtonText |
+| 1703 | 15063 | DefaultButton |
+| 1703 | 15063 | PrimaryButtonStyle |
+| 1703 | 15063 | SecondaryButtonStyle |
+| 1709 | 16299 | ShowAsync(ContentDialogPlacement) |
+
 ## -examples
 
 > [!TIP]

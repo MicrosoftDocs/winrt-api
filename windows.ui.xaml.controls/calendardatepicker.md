@@ -18,8 +18,6 @@ CalendarDatePicker is a drop down control that’s optimized for picking a singl
 
 You can use the CalendarDatePicker control in its default form with a minimal amount of Extensible Application Markup Language (XAML) or other code, or you can customize it in various ways to suit your app. Here's a simple CalendarDatePicker created in Extensible Application Markup Language (XAML) and code.
 
-
-
 ```csharp
 CalendarDatePicker arrivalCalendarDatePicker = new CalendarDatePicker();
 ```
@@ -78,8 +76,6 @@ The default placeholder text is "**select a date** ". You can remove this by set
 <CalendarDatePicker x:Name="arrivalCalendarDatePicker" Header="Arrival date" PlaceholderText="Choose your arrival date"/>
 ```
 
-
-
 ### Globalization
 
 The CalendarDatePicker supports each of the calendar systems supported by Windows. These calendars are specified in the [Windows.Globalization.CalendarIdentifiers](../windows.globalization/calendaridentifiers.md) class. The CalendarDatePicker uses the correct calendar for your app's default language, or you can set the [CalendarIdentifier](calendarview_calendaridentifier.md) property to use a specific calendar system.
@@ -121,6 +117,13 @@ This table shows the resources used by the CalendarDatePicker control.
    <tr><td>CalendarDatePickerBorderBrushPressed</td><td>Border color when pressed</td></tr>
    <tr><td>CalendarDatePickerBorderBrushDisabled</td><td>Border color when disabled</td></tr>
 </table>
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | LightDismissOverlayMode |
+| 1809 | 17763 | Description |
 
 ## -examples
 

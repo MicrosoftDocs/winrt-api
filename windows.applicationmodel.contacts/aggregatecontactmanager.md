@@ -15,6 +15,12 @@ Provides functionality for linking individual (raw) contacts across services tog
 ## -remarks
 All relevant methods of this class are static methods.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | SetRemoteIdentificationInformationAsync |
+
 ## -examples
 
 ## -see-also

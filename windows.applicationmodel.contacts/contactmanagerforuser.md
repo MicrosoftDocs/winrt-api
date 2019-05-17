@@ -15,6 +15,12 @@ Represents a service that source apps can call to access contact data for a spec
 ## -remarks
 Call the [ContactManager.GetForUser](contactmanager_getforuser_2058550280.md) method to get an instance of this class.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | ShowFullContactCard |
+
 ## -examples
 
 ## -see-also

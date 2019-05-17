@@ -14,6 +14,12 @@ Provides data for the [TargetCameraChanged](mapcontrol_targetcamerachanged.md) e
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1511 | 10586 | ChangeReason |
+
 ## -examples
 
 ## -see-also

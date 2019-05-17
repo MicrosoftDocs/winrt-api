@@ -17,6 +17,12 @@ For example, if a file or folder is stored on Microsoft OneDrive, StorageProvide
 
 Typically, you access StorageProvider objects as the result of calls to asynchronous methods and functions.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1709 | 16299 | IsPropertySupportedForPartialFileAsync |
+
 ## -examples
 
 ## -see-also

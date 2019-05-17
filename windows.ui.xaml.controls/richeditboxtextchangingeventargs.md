@@ -15,6 +15,12 @@ Provides event data for the [RichEditBox.TextChanging](richeditbox_textchanging.
 ## -remarks
 An instance of this class is passed as a parameter to the [TextChanging](richeditbox_textchanging.md) event handler.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | IsContentChanging |
+
 ## -examples
 
 ## -see-also

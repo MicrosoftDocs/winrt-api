@@ -15,6 +15,12 @@ Stores frames captured by the application.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1809 | 17763 | CreateFreeThreaded |
+
 ## -see-also
 
 [Screen capture](https://docs.microsoft.com/windows/uwp/audio-video-camera/screen-capture)

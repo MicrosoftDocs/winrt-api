@@ -30,6 +30,13 @@ You can specify basic properties of a Border by setting its [Width](../windows.u
 
 A Border can contain only one child object. If you want to put a border around multiple objects, wrap them in a container object such as [StackPanel](stackpanel.md).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1809 | 17763 | BackgroundSizing |
+| 1809 | 17763 | BackgroundTransition |
+
 ## -examples
 
 > [!TIP]

@@ -17,6 +17,13 @@ Represents a UI element that lets the user choose and open files.
 
 To get started accessing files and folders file picker, see [Quickstart: Accessing files with File Pickers](https://docs.microsoft.com/windows/uwp/files/quickstart-using-file-and-folder-pickers).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1903 | 18362 | CreateForUser |
+| 1903 | 18362 | User |
+
 ## -examples
 
 The [File picker sample](https://go.microsoft.com/fwlink/p/?LinkId=619994) demonstrates how to check whether the app is snapped, how to set file picker properties, and how to show a file picker so that the user can pick one file.

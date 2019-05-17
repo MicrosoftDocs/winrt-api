@@ -33,6 +33,16 @@ The following example shows the [ReadingChanged](inclinometer_readingchanged.md)
 
 [!code-csharp[ReadingChangedCS](../windows.devices.sensors/code/inclinometer/csharp/Scenario1.xaml.cs#SnippetReadingChangedCS)]
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | GetDefault(SensorReadingType) |
+| 1709 | 16299 | FromIdAsync |
+| 1709 | 16299 | GetDeviceSelector |
+| 1709 | 16299 | MaxBatchSize |
+| 1709 | 16299 | ReportLatency |
+
 ## -examples
 
 ## -see-also

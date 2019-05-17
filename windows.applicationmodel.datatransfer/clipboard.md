@@ -22,6 +22,21 @@ Because the Clipboard class is a static class, you don't need to create an insta
 
 You can only access the clipboard when the calling application is in focus on the UI thread (e.g., when it's [CoreWindow](../windows.ui.core/corewindow.md) is active). Use the [CoreWindow.Activated](../windows.ui.core/corewindow_activated.md) event to track the state of the calling app.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1809 | 17763 | ClearHistory |
+| 1809 | 17763 | DeleteItemFromHistory |
+| 1809 | 17763 | GetHistoryItemsAsync |
+| 1809 | 17763 | HistoryChanged |
+| 1809 | 17763 | HistoryEnabledChanged |
+| 1809 | 17763 | IsHistoryEnabled |
+| 1809 | 17763 | IsRoamingEnabled |
+| 1809 | 17763 | RoamingEnabledChanged |
+| 1809 | 17763 | SetContentWithOptions |
+| 1809 | 17763 | SetHistoryItemAsContent |
+
 ## -examples
 
 The following sample shows how to track changes to the Clipboard. If the Clipboard has text, the code adds the text to an HTML page.

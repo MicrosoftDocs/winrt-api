@@ -17,6 +17,14 @@ All relevant methods of this class are static methods.
 
 For info about how to manage contacts, see [Managing contact cards ](https://msdn.microsoft.com/library/a0667d13-a274-4cb2-982a-5bfabb0488c2) and [Managing contact cards ](https://msdn.microsoft.com/library/364d763b-adf6-410e-a892-ba4af3799b93).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | GetForUser |
+| 1703 | 15063 | IncludeMiddleNameInSystemDisplayAndSort |
+| 1703 | 15063 | IsShowFullContactCardSupportedAsync |
+
 ## -examples
 
 ## -see-also

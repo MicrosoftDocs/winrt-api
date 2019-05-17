@@ -28,6 +28,12 @@ UWP app using C++, C#, or Visual Basic typically implement activation points by 
 
 All [Application](../windows.ui.xaml/application.md) overrides involved in an activation scenario should call [Window.Activate](../windows.ui.xaml/window_activate_1797342875.md) in their implementations.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | User |
+
 ## -examples
 
 The [File picker contracts sample](https://go.microsoft.com/fwlink/p/?linkid=231536) demonstrates how to respond to a **FileOpenPicker** activation point.

@@ -48,7 +48,7 @@ Use [FindKnownVideoProfiles](mediacapture_findknownvideoprofiles_875917242.md) t
 
 ### Version history
 
-| Version | SDK version | Value added |
+| Windows version | SDK version | Value added |
 | -- | -- | -- |
 | 1803 | 17134 | HdrWithWcgPhoto |
 | 1803 | 17134 | HdrWithWcgVideo |

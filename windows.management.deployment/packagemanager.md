@@ -14,6 +14,24 @@ Manages the software available to a user.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | GetPackageVolumesAsync |
+| 1703 | 15063 | AddPackageAsync(Uri,IEnumerable<Uri>,DeploymentOptions,PackageVolume,IEnumerable<String>,IEnumerable<Uri>) |
+| 1703 | 15063 | DebugSettings |
+| 1703 | 15063 | RegisterPackageByFamilyNameAsync |
+| 1703 | 15063 | StagePackageAsync(Uri,IEnumerable<Uri>,DeploymentOptions,PackageVolume,IEnumerable<String>,IEnumerable<Uri>) |
+| 1709 | 16299 | AddPackageAsync(Uri,IEnumerable<Uri>,DeploymentOptions,PackageVolume,IEnumerable<String>,IEnumerable<Uri>,IEnumerable<Uri>) |
+| 1709 | 16299 | AddPackageByAppInstallerFileAsync |
+| 1709 | 16299 | ProvisionPackageForAllUsersAsync |
+| 1709 | 16299 | RequestAddPackageAsync(Uri,IEnumerable<Uri>,DeploymentOptions,PackageVolume,IEnumerable<String>,IEnumerable<Uri>) |
+| 1709 | 16299 | RequestAddPackageByAppInstallerFileAsync |
+| 1709 | 16299 | StagePackageAsync(Uri,IEnumerable<Uri>,DeploymentOptions,PackageVolume,IEnumerable<String>,IEnumerable<Uri>,IEnumerable<Uri>) |
+| 1803 | 17134 | RequestAddPackageAsync(Uri,IEnumerable<Uri>,DeploymentOptions,PackageVolume,IEnumerable<String>,IEnumerable<Uri>,IEnumerable<Uri>) |
+| 1809 | 17763 | DeprovisionPackageForAllUsersAsync |
+
 ## -examples
 
 ## -see-also

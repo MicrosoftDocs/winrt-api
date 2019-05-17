@@ -88,6 +88,16 @@ clientWebSocket.control.messageType = Windows.Networking.Sockets.SocketMessageTy
 
 For more information on using MessageWebSocketControl, see [How to use advanced WebSocket controls ](https://msdn.microsoft.com/library/0a47f7c3-66f9-4315-886e-bd1afe77bf39) and [How to use advanced WebSocket controls ](https://msdn.microsoft.com/library/4ab9621e-90e5-420e-88d0-09f1c7239d7a).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | IgnorableServerCertificateErrors |
+| 1709 | 16299 | ActualUnsolicitedPongInterval |
+| 1709 | 16299 | ClientCertificate |
+| 1709 | 16299 | DesiredUnsolicitedPongInterval |
+| 1709 | 16299 | ReceiveMode |
+
 ## -examples
 
 ## -see-also

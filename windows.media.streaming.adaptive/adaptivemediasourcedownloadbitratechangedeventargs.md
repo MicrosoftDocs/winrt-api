@@ -15,6 +15,12 @@ Provides data for the [DownloadBitrateChanged](adaptivemediasource_downloadbitra
 ## -remarks
 Obtain an instance of this class by implementing a handler for the [DownloadBitrateChanged](adaptivemediasource_downloadbitratechanged.md) event.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | Reason |
+
 ## -examples
 
 ## -see-also

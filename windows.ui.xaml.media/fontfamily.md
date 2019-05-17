@@ -28,6 +28,12 @@ Represents a family of related fonts.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1511 | 10586 | XamlAutoFontFamily |
+
 ## -examples
 
 ## -see-also

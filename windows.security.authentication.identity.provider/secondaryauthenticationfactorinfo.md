@@ -17,6 +17,14 @@ Contains properties that provide information about a companion device.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | IsAuthenticationSupported |
+| 1703 | 15063 | PresenceMonitoringMode |
+| 1703 | 15063 | UpdateDevicePresenceAsync |
+
 ## -examples
 
 ## -see-also

@@ -14,6 +14,19 @@ This API is not available to all apps. Unless your developer account is speciall
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1709 | 16299 | GameModeConfiguration |
+| 1709 | 16299 | LaunchableState |
+| 1709 | 16299 | LauncherExecutable |
+| 1709 | 16299 | LaunchParameters |
+| 1709 | 16299 | SetLauncherExecutableFileAsync(IStorageFile) |
+| 1709 | 16299 | SetLauncherExecutableFileAsync(IStorageFile,String) |
+| 1709 | 16299 | SetTitleIdAsync |
+| 1709 | 16299 | TitleId |
+
 ## -examples
 
 ## -see-also

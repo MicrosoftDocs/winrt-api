@@ -21,6 +21,16 @@ To handle DisplayInformation events, use an event handler for the specific event
 
 Any property change event of DisplayInformation might trigger if your app is moved from one monitor to another monitor. [ColorProfileChanged](displayinformation_colorprofilechanged.md) is triggered when the display’s color profile changes. [DpiChanged](displayinformation_dpichanged.md) is triggered when the [LogicalDpi](displayinformation_logicaldpi.md), [ResolutionScale](displayinformation_resolutionscale.md), and [RawPixelsPerViewPixel](displayinformation_rawpixelsperviewpixel.md) properties change because a user selected a different zoom level or changed the screen resolution. [OrientationChanged](displayinformation_orientationchanged.md) is triggered if a user changes the screen orientation.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1511 | 10586 | DiagonalSizeInInches |
+| 1607 | 14393 | ScreenHeightInRawPixels |
+| 1607 | 14393 | ScreenWidthInRawPixels |
+| 1803 | 17134 | AdvancedColorInfoChanged |
+| 1803 | 17134 | GetAdvancedColorInfo |
+
 ## -examples
 
 ## -see-also

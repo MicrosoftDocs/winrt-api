@@ -14,6 +14,12 @@ Provides data for the [PairingRequested](deviceinformationcustompairing_pairingr
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1903 | 18362 | AcceptWithPasswordCredential |
+
 ## -examples
 
 ## -see-also

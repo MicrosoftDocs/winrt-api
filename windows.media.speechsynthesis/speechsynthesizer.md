@@ -31,6 +31,13 @@ Use a SpeechSynthesizer object to:
 - The generated audio stream is played through a [MediaElement](../windows.ui.xaml.controls/mediaelement.md) object), which lets you manage all media playback.
 - Control the speech output with the various [SpeechSynthesizerOptions](speechsynthesizeroptions.md) settings exposed through [SpeechSynthesizer.Options](speechsynthesizer_options.md).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | Options |
+| 1709 | 16299 | TrySetDefaultVoiceAsync |
+
 ## -examples
 
 The following example shows how to generate a speech audio stream from a basic text string.

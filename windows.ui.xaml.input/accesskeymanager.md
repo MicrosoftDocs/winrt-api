@@ -15,6 +15,12 @@ A helper class that enables access keys (mnemonics) for XAML user interfaces.
 ## -remarks
 Available starting in Windows 10, version 1607.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | AreKeyTipsEnabled |
+
 ## -examples
 
 ## -see-also

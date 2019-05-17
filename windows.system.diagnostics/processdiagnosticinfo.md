@@ -14,6 +14,14 @@ Provides diagnostic information about a process, such as CPU usage, disk usage, 
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1709 | 16299 | GetAppDiagnosticInfos |
+| 1709 | 16299 | IsPackaged |
+| 1709 | 16299 | TryGetForProcessId |
+
 ## -examples
 
 ## -see-also

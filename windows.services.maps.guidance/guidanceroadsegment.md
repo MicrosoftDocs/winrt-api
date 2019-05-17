@@ -17,6 +17,12 @@ Represents the road on a segment of the route.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1709 | 16299 | IsScenic |
+
 ## -examples
 
 ## -see-also

@@ -32,10 +32,14 @@ There are several types of keep-alive intervals that may relate to network apps.
 
 In the context of the ControlChannelTrigger class, there are two other keep-alive intervals that have an impact.
 
-
 + Server keep-alive interval - This refers to a keep-alive interval in minutes that the app registers with the system for how often to be woken up when the app has been suspended. The system will wake up the app based on the value set for this keep-alive interval. This value is represented by the [ServerKeepAliveIntervalInMinutes](controlchanneltrigger_serverkeepaliveintervalinminutes.md) property on a ControlChannelTrigger class and is set as an argument to the ControlChannelTrigger constructor. This value is considered a server keep-alive interval since a network app might normally set this based on known behavior of the server to which the app has established a TCP connection. For example, if it is known that a web server will disconnect and drop TCP connections if there is no data sent by the app for 30 minutes, the network app could set this server keep-alive interval to 25 minutes.
 + Network keep-alive interval - This refers to an internal keep-alive timer maintained by low-level network components in the TCP stack based on current network conditions. This value represents the value needed by network intermediaries to keep the TCP connection intact. These network intermediaries represent hardware and devices such as network proxies and network address translators. A network app cannot set this value, since this value is determined dynamically by low-level system components in the TCP stack. The internal calculation of the network keep-alive interval does take account of the server keep-alive interval. A network app can indicate to the system that the network keep-alive timer should be decreased if established TCP connections are regularly dropped by calling the [DecreaseNetworkKeepAliveInterval](controlchanneltrigger_decreasenetworkkeepaliveinterval_1909166565.md) method on a ControlChannelTrigger class.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | IsWakeFromLowPowerSupported |
 
 ## -examples
 

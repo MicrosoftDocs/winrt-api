@@ -26,6 +26,14 @@ The RadialController and related APIs (see end of topic) enable you to customize
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | ButtonHolding |
+| 1703 | 15063 | ButtonPressed |
+| 1703 | 15063 | ButtonReleased |
+
 ## -examples
 
 In this example, we add a custom tool to the Surface Dial menu and declare the RadialController input handlers.

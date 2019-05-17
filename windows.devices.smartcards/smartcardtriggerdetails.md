@@ -14,6 +14,11 @@ Provides details about a smart card trigger.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | SmartCard |
 
 ## -examples
 

@@ -19,6 +19,17 @@ Call one of the [CreateFromStreamAsync](adaptivemediasource_createfromstreamasyn
 
 For how-to guidance for using adaptive streaming in your app, see [Adaptive streaming](https://msdn.microsoft.com/windows/uwp/audio-video-camera/adaptive-streaming).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1511 | 10586 | AdvancedSettings |
+| 1703 | 15063 | DesiredSeekableWindowSize |
+| 1703 | 15063 | Diagnostics |
+| 1703 | 15063 | GetCorrelatedTimes |
+| 1703 | 15063 | MaxSeekableWindowSize |
+| 1703 | 15063 | MinLiveOffset |
+
 ## -examples
 
 ## -see-also

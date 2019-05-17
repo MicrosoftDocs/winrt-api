@@ -16,6 +16,12 @@ Contains the barcode scanner data.
 ## -remarks
 This object is accessed when you retrieve the [Report](barcodescannerdatareceivedeventargs_report.md) property of the [BarcodeScannerDataReceivedEventArgs](barcodescannerdatareceivedeventargs.md) object.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1803 | 17134 | BarcodeScannerReport |
+
 ## -examples
 
 ## -see-also

@@ -23,6 +23,14 @@ Represents the current state of the mobile broadband network device for the acco
 ## -remarks
 If you're trying to get information about a SIM card that uses CMDA, the device information may contain multiple lines. Typically, the first line is for data connection and the second line contains SIM device information.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | SimGid1 |
+| 1703 | 15063 | SimPnn |
+| 1703 | 15063 | SimSpn |
+
 ## -examples
 
 ## -see-also

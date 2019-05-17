@@ -14,6 +14,12 @@ Provides an app's display info such as its display name and description, and a m
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1709 | 16299 | AppUserModelId |
+| 1803 | 17134 | LaunchForUserAsync |
 
 ## -examples
 

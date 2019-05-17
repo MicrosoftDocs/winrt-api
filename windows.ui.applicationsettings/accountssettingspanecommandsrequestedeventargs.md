@@ -15,6 +15,12 @@ Provides data for the [AccountCommandsRequested](accountssettingspane_accountcom
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1803 | 17134 | User |
+
 ## -examples
 
 ## -see-also

@@ -28,6 +28,14 @@ PointLight is one of the four light types derived from [CompositionLight](compos
 > [!NOTE]
 > A Visual cannot be targeted by more than two non-ambient lights (PointLight, SpotLight or DistantLight).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1709 | 16299 | Intensity |
+| 1803 | 17134 | MaxAttenuationCutoff |
+| 1803 | 17134 | MinAttenuationCutoff |
+
 ## -examples
 
 ## -see-also

@@ -36,7 +36,7 @@ The app service failed to process the message because it is too large.
 
 ### Version history
 
-| Version | SDK version | Value added |
+| Windows version | SDK version | Value added |
 | -- | -- | -- |
 | 1607 | 14393 | MessageSizeTooLarge |
 | 1607 | 14393 | RemoteSystemUnavailable |

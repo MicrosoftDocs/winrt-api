@@ -16,6 +16,14 @@ Contains the XML that defines the toast notification that will display at the sc
 ## -remarks
 Create and initialize a new instance of this object by calling [ScheduledToastNotification](scheduledtoastnotification_scheduledtoastnotification_1365784316.md).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | NotificationMirroring |
+| 1607 | 14393 | RemoteId |
+| 1803 | 17134 | ExpirationTime |
+
 ## -examples
 The following example shows a toast notification scheduled to display in one hour.
 

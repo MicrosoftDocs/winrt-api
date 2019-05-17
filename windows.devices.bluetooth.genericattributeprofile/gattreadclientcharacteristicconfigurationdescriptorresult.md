@@ -18,6 +18,12 @@ The [ReadClientCharacteristicConfigurationDescriptorAsync](gattcharacteristic_re
 
 The [Status](gattreadclientcharacteristicconfigurationdescriptorresult_status.md) property on the GattReadClientCharacteristicConfigurationDescriptorResult returned indicates if the result of the operation was successful.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | ProtocolError |
+
 ## -examples
 
 ## -see-also

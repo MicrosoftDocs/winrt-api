@@ -26,6 +26,12 @@ AmbientLight is one of the four light types derived from [CompositionLight](comp
 > [!NOTE]
 > A Visual cannot be targeted by more than two non-ambient lights (PointLight, SpotLight or DistantLight).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1709 | 16299 | Intensity |
+
 ## -examples
 
 

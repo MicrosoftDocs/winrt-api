@@ -19,6 +19,12 @@ Get the format of a media frame represented by a [MediaFrameReference](mediafram
 
 Get the format of a video frame represented by a [VideoMediaFrame](videomediaframe.md) by accessing the [VideoFormat](depthmediaframeformat_videoformat.md) property and then using the returned object's MediaFrameFormat property.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1803 | 17134 | AudioEncodingProperties |
+
 ## -examples
 
 ## -see-also

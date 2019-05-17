@@ -95,6 +95,16 @@ In Windows, the user reveals the password by pressing and holding a button in th
 
 In Windows Phone, the user reveals the password by checking a checkbox, so the password can stay shown while the user in entering it. (For more info on implementing this behavior in Universal Windows Platform (UWP) apps, see [PasswordRevealMode](passwordbox_passwordrevealmode.md).)
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1709 | 16299 | PasswordChanging |
+| 1809 | 17763 | CanPasteClipboardContent |
+| 1809 | 17763 | Description |
+| 1809 | 17763 | PasteFromClipboard |
+| 1809 | 17763 | SelectionFlyout |
+
 ## -examples
 
 > [!TIP]

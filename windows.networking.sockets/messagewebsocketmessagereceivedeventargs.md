@@ -17,6 +17,12 @@ The MessageWebSocketMessageReceivedEventArgs is used to receive data on a [Messa
 
 A [MessageWebSocket.MessageReceived](messagewebsocket_messagereceived.md) event occurs on a [MessageWebSocket](messagewebsocket.md) when a message is received. A MessageWebSocketMessageReceivedEventArgs instance is created when the [MessageWebSocket.MessageReceived](messagewebsocket_messagereceived.md) event occurs.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1709 | 16299 | IsMessageComplete |
+
 ## -examples
 
 ## -see-also

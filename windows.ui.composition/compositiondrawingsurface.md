@@ -14,6 +14,17 @@ A drawing surface for interoperation with Direct2D or Direct3D.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | Resize |
+| 1703 | 15063 | Scroll(PointInt32) |
+| 1703 | 15063 | Scroll(PointInt32,RectInt32) |
+| 1703 | 15063 | ScrollWithClip(PointInt32,RectInt32) |
+| 1703 | 15063 | ScrollWithClip(PointInt32,RectInt32,RectInt32) |
+| 1703 | 15063 | SizeInt32 |
+
 ## -examples
 
 See the code example in [Composition native interoperation with DirectX and Direct2D](/windows/uwp/composition/composition-native-interop).

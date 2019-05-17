@@ -15,6 +15,12 @@ Represents a chat message.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | SyncId |
+
 ## -examples
 
 ## -see-also

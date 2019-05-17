@@ -42,7 +42,7 @@ A reader card was added event.
 
 ### Version history
 
-| Version | SDK version | Value added |
+| Windows version | SDK version | Value added |
 | -- | -- | -- |
 | 1607 | 14393 | ReaderCardAdded |
 

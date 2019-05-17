@@ -15,6 +15,14 @@ Provides data for the [Binding](mediabinder_binding.md) event and methods for bi
 ## -remarks
 Get an instance of this class by handling the [Binding](mediabinder_binding.md) event.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | SetAdaptiveMediaSource |
+| 1703 | 15063 | SetStorageFile |
+| 1803 | 17134 | SetDownloadOperation |
+
 ## -examples
 
 ## -see-also

@@ -43,6 +43,17 @@ If your app overrides the default ink rendering behavior of the [InkPresenter](.
 
 For more info on custom drying, see [Pen interactions and Windows Ink in UWP apps](https://msdn.microsoft.com/windows/uwp/input-and-devices/pen-and-stylus-interactions#custom-ink-rendering).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | ButtonFlyoutPlacement |
+| 1703 | 15063 | GetMenuButton |
+| 1703 | 15063 | IsStencilButtonChecked |
+| 1703 | 15063 | IsStencilButtonCheckedChanged |
+| 1703 | 15063 | Orientation |
+| 1903 | 18362 | TargetInkPresenter |
+
 ## -examples
 Here, we show a typical InkToolbar declaration and binding to an [InkCanvas](inkcanvas.md).
 

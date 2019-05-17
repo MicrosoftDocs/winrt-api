@@ -15,6 +15,12 @@ Provides event data for the [TreeView.Expanding](treeview_expanding.md) event.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1809 | 17763 | Item |
+
 ## -see-also
 
 ## -examples

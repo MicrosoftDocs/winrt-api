@@ -15,6 +15,13 @@ Represents the app view switching behaviors for an app.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | TryShowAsViewModeAsync(Int32,ApplicationViewMode) |
+| 1703 | 15063 | TryShowAsViewModeAsync(Int32,ApplicationViewMode,ViewModePreferences) |
+
 ## -examples
 
 ## -see-also

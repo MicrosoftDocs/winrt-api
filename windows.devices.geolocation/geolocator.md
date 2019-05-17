@@ -15,6 +15,14 @@ Provides access to the current geographic location.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | AllowFallbackToConsentlessPositions |
+| 1607 | 14393 | DefaultGeoposition |
+| 1607 | 14393 | IsDefaultGeopositionRecommended |
+
 ## -examples
 
 This example shows how to use the Geolocator class to retrieve the device's location. For more info, see [Get current location](https://msdn.microsoft.com/library/24dc9a41-8cc1-48b0-bc6d-24bf571afcc8).

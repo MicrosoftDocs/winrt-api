@@ -15,6 +15,12 @@ Provides access to APIs for handling Rich Communication Services (RCS) messages.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1809 | 17763 | TransportListChanged |
+
 ## -examples
 
 ## -see-also

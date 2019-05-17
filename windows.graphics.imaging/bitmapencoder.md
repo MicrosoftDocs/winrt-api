@@ -34,6 +34,12 @@ When you create a BitmapEncoder, it provides access to data on the container and
 
 If you want to encode an additional frame, call [GoToNextFrameAsync](bitmapencoder_gotonextframeasync_1063265177.md). This commits the data in the container and the first frame so you can't edit them anymore. At this point any actions you perform on the encoder will affect the second frame. After you are done with each frame, you can call [GoToNextFrameAsync](bitmapencoder_gotonextframeasync_1063265177.md) to commit and append a new frame, or call [FlushAsync](bitmapencoder_flushasync_491532439.md) to finish.Bitmap encoders may expose various encoding options that affect the quality, size and other properties of the encoded output file. For more info, see [Imaging](https://msdn.microsoft.com/library/3fd2aa71-ef67-47b2-9332-3ffa5d3703ea).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1809 | 17763 | HeifEncoderId |
+
 ## -examples
 
 Here's a partial example of creating an encoder object. This example assumes you selected a file with [Windows.Storage.Pickers.FileSavePicker](../windows.storage.pickers/filesavepicker.md). For full instructions on selecting a file, creating an encoder, and encoding an image see [Imaging](https://msdn.microsoft.com/library/3fd2aa71-ef67-47b2-9332-3ffa5d3703ea)

@@ -14,6 +14,12 @@ Controls the reflective properties of a SpriteVisual. A SceneLightingEffect will
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1709 | 16299 | ReflectanceModel |
+
 ## -examples
 
 

@@ -34,6 +34,12 @@ After you register to receive input pane notifications, the system calls your ev
 > [!NOTE]
 > This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1903 | 18362 | GetForUIContext |
+
 ## -examples
 
 ## -see-also

@@ -39,6 +39,12 @@ Here's how to access some other commonly used locations.
 
 To learn more about the locations that your app can access, see [File access permissions](https://msdn.microsoft.com/library/3a404cc0-a997-45c8-b2e8-44745539759d).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1511 | 10586 | GetFolderForUserAsync |
+
 ## -examples
 
 The [File access sample]( http://go.microsoft.com/fwlink/p/?linkid=231445) shows you how to use the [PicturesLibrary](knownfolders_pictureslibrary.md) property to create a new file in the Pictures library.

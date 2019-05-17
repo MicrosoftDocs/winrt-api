@@ -15,6 +15,13 @@ Specifies the options used to launch the default app for a file or URI.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | IgnoreAppUriHandlers |
+| 1703 | 15063 | LimitPickerToCurrentAppAndAppUriHandlers |
+
 ## -examples
 
 See the code example in the [LaunchUriAsync(Uri, LauncherOptions)](launcher_launchfileasync_1480137410.md) topic.

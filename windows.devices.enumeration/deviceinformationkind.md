@@ -79,6 +79,12 @@ The following diagram show how the different device types interact with each oth
 
 <img src="images/device_type_interaction.png" alt="DeviceInformationKind relationships" />
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1809 | 17763 | DevicePanel |
+
 ## -examples
 
 ## -see-also

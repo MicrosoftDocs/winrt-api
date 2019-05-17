@@ -16,6 +16,14 @@ Raises a toast notification to the specific app to which the ToastNotifier is bo
 ## -remarks
 When it is created, ToastNotifier is bound to a specific app, so the methods of this class affect only that app.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | Update(NotificationData,String,String) |
+| 1703 | 15063 | Update(NotificationData,String) |
+| 1809 | 17763 | ScheduledToastNotificationShowing |
+
 ## -examples
 The following example shows how to create and send a toast notification that includes text and images, including use of the [Show](toastnotifier_show_184420709.md) method.
 

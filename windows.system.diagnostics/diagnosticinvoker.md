@@ -14,6 +14,12 @@ Contains functionality for executing a diagnostics troubleshooting package.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1803 | 17134 | RunDiagnosticActionFromStringAsync |
+
 ## -see-also
 
 ## -examples

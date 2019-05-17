@@ -17,6 +17,12 @@ You access a FileOpenPickerContinuationEventArgs object when you implement an ev
 
 For an example that uses the FileOpenPickerContinuationEventArgs class, see [How to continue your Windows Phone 8.x app after calling an AndContinue method](https://msdn.microsoft.com/library/3398d631-ff80-4336-be45-8ee3ea96fbdb).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | User |
+
 ## -examples
 
 ## -see-also

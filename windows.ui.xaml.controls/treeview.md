@@ -15,6 +15,25 @@ Represents a hierarchical list with expanding and collapsing nodes that contain 
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1809 | 17763 | CanDragItems |
+| 1809 | 17763 | CanReorderItems |
+| 1809 | 17763 | ContainerFromItem |
+| 1809 | 17763 | ContainerFromNode |
+| 1809 | 17763 | DragItemsCompleted |
+| 1809 | 17763 | DragItemsStarting |
+| 1809 | 17763 | ItemContainerStyle |
+| 1809 | 17763 | ItemContainerStyleSelector |
+| 1809 | 17763 | ItemContainerTransitions |
+| 1809 | 17763 | ItemFromContainer |
+| 1809 | 17763 | ItemsSource |
+| 1809 | 17763 | ItemTemplate |
+| 1809 | 17763 | ItemTemplateSelector |
+| 1809 | 17763 | NodeFromContainer |
+
 ## -see-also
 
 ## -examples

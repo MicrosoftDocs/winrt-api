@@ -15,6 +15,13 @@ Provides data for the [NavigationView.SelectionChanged](navigationview_selection
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1809 | 17763 | RecommendedNavigationTransitionInfo |
+| 1809 | 17763 | SelectedItemContainer |
+
 ## -see-also
 
 ## -examples

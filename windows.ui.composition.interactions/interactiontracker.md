@@ -26,7 +26,6 @@ IneractionTracker is intended to be used for:
 + Input-driven animation of an effect, for example panning causes the screen to blur
 + Custom Controls, for example creating a custom implementation of a ScrollViewer with different panning speeds or the ability to be controlled programmatically
 
-
 ### InteractionTracker States and Transitions
 
 The InteractionTracker is a state machine with four states:
@@ -82,6 +81,19 @@ As mentioned above, the two most commonly used properties of the InteractionTrac
 ### Directing Input to the InteractionTracker
 
 After being configured, InteractionTracker still requires one last step to actually receive touch input and respond. Please see the documentation on VisualInteractionSource.[TryRedirectForManipulation](visualinteractionsource_tryredirectformanipulation_1406704629.md) for more information on configuring incoming input to flow into the InteractionTracker.
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | ConfigureCenterPointXInertiaModifiers |
+| 1703 | 15063 | ConfigureCenterPointYInertiaModifiers |
+| 1709 | 16299 | ConfigureVector2PositionInertiaModifiers |
+| 1809 | 17763 | IsInertiaFromImpulse |
+| 1809 | 17763 | TryUpdatePosition(Vector3,InteractionTrackerClampingOption) |
+| 1809 | 17763 | TryUpdatePositionBy(Vector3,InteractionTrackerClampingOption) |
+| 1903 | 18362 | GetBindingMode |
+| 1903 | 18362 | SetBindingMode |
 
 ## -examples
 

@@ -26,6 +26,12 @@ All [Application](../windows.ui.xaml/application.md) overrides involved in an ac
 
 Note that when your app is activated for the file contract you must access the data using the [StorageFile](../windows.storage/storagefile.md) objects passed to your app through the [Files](fileactivatedeventargs_files.md) property. You should not attempt to access the path of the file since your app may not have permission to the file’s location.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | User |
+
 ## -examples
 
 The [OnFileActivated](../windows.ui.xaml/application_onfileactivated_2046716329.md) event handler on the [Application](../windows.ui.xaml/application.md) object receives all file activation events.

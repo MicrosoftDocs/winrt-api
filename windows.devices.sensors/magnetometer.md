@@ -15,6 +15,15 @@ Represents a magnetic sensor.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1709 | 16299 | FromIdAsync |
+| 1709 | 16299 | GetDeviceSelector |
+| 1709 | 16299 | MaxBatchSize |
+| 1709 | 16299 | ReportLatency |
+
 ## -examples
 
 ## -see-also

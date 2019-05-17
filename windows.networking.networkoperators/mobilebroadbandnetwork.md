@@ -22,6 +22,12 @@ Represents a mobile broadband network and the current network state.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1709 | 16299 | GetCellsInfoAsync |
+
 ## -examples
 
 ## -see-also

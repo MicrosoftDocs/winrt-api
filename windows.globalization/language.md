@@ -21,6 +21,12 @@ Initialize this class with a [BCP-47](https://go.microsoft.com/fwlink/p/?linkid=
 
 **Starting in :** Language tags support the Unicode extensions "ca-" and "nu-". (See [Unicode Key/Type Definitions](https://go.microsoft.com/fwlink/p/?LinkId=308919).) Note that these extensions can affect the numeral system or calendar used by globalization objects.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1803 | 17134 | LayoutDirection |
+
 ## -examples
 
 ```javascript

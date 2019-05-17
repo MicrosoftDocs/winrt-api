@@ -14,6 +14,13 @@ Represents a trigger that launches a background task when an incoming change not
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | GattCharacteristicNotificationTrigger(GattCharacteristic,BluetoothEventTriggeringMode) |
+| 1703 | 15063 | EventTriggeringMode |
+
 ## -examples
 
 ## -see-also

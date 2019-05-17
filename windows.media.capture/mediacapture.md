@@ -53,6 +53,20 @@ MediaCapture only supports one pass CBR encoding.
 > [!NOTE]
 > : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | CreateFrameReaderAsync(MediaFrameSource) |
+| 1607 | 14393 | CreateFrameReaderAsync(MediaFrameSource,String) |
+| 1607 | 14393 | CreateFrameReaderAsync(MediaFrameSource,String,BitmapSize) |
+| 1607 | 14393 | FrameSources |
+| 1607 | 14393 | PauseRecordWithResultAsync |
+| 1607 | 14393 | RemoveEffectAsync |
+| 1607 | 14393 | StopRecordWithResultAsync |
+| 1703 | 15063 | CaptureDeviceExclusiveControlStatusChanged |
+| 1703 | 15063 | CreateMultiSourceFrameReaderAsync |
+
 ## -examples
 
 The following code sample shows how to create and initialize a **MediaCapture** object.

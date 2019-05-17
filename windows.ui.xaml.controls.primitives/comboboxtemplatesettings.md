@@ -17,6 +17,12 @@ Get instances of ComboBoxTemplateSettings by querying the value of [TemplateSett
 
 The values from ComboBoxTemplateSettings are typically used as either the **To** or **From** values of theme animations or transitions.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1511 | 10586 | DropDownContentMinWidth |
+
 ## -examples
 
 ## -see-also

@@ -44,7 +44,7 @@ Use the SHA-256 HMAC algorithm.
 
 ### Version history
 
-| Version | SDK version | Value added |
+| Windows version | SDK version | Value added |
 | -- | -- | -- |
 | 1703 | 15063 | Sha256Hmac |
 

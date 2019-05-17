@@ -35,7 +35,7 @@ The media frame source produces image data.
 
 ### Version history
 
-| Version | SDK version | Value added |
+| Windows version | SDK version | Value added |
 | -- | -- | -- |
 | 1803 | 17134 | Audio |
 | 1803 | 17134 | Image |

@@ -59,6 +59,12 @@ void MyCoreWindowEvents::SetWindow( // implementation called by CoreApplication:
 > [!NOTE]
 > : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | DeviceId |
+
 ## -examples
 
 ## -see-also

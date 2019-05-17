@@ -19,6 +19,12 @@ Get an instance of this class by calling [AudioGraph.CreateFileInputNodeAsync](a
 
 The [MediaSourceAudioInputNode](mediasourceaudioinputnode.md) is another way of inputing audio data from a file into a graph. The [MediaSource](../windows.media.core/mediasource.md) class also allows you to use other sources of audio, such as a network stream.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | Emitter |
+
 ## -examples
 
 ## -see-also

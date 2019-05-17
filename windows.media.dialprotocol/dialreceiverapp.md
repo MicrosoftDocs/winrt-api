@@ -15,6 +15,12 @@ Provides a mechanism for server apps to supply requested data to the DIAL REST s
 ## -remarks
 Get an instance of this class by accessing the **Current** property.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1803 | 17134 | GetUniqueDeviceNameAsync |
+
 ## -see-also
 
 ## -examples

@@ -16,6 +16,13 @@ Use this class to enumerate local Wi-Fi adapters, initiate Wi-Fi scans, enumerat
 ## -remarks
 Your code uses the static methods of this class.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1709 | 16299 | ConnectAsync(WiFiAvailableNetwork,WiFiReconnectionKind,PasswordCredential,String,WiFiConnectionMethod) |
+| 1709 | 16299 | GetWpsConfigurationAsync |
+
 ## -examples
 
 ## -see-also

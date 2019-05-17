@@ -15,6 +15,12 @@ Provides data for the [MediaPlaybackList.CurrentItemChanged](mediaplaybacklist_c
 ## -remarks
 Get an instance of this class by handling the [MediaPlaybackList.CurrentItemChanged](mediaplaybacklist_currentitemchanged.md) event.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | Reason |
+
 ## -examples
 
 ## -see-also

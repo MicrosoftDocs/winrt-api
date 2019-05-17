@@ -17,6 +17,13 @@ A phone line is a line on a device that can either receive incoming calls or pla
 
 Each PhoneLine instance has properties specific to that line.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1903 | 18362 | EnableTextReply |
+| 1903 | 18362 | TransportDeviceId |
+
 ## -examples
 
 ## -see-also

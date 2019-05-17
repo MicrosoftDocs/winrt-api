@@ -31,8 +31,6 @@ Use a ComboBox to present a list of items that a user can select from. When the 
 
 You populate the ComboBox by adding objects directly to the [Items](itemscontrol_items.md) collection or by binding the [ItemsSource](itemscontrol_itemssource.md) property to a data source. Items added to the ComboBox are wrapped in [ComboBoxItem](comboboxitem.md) containers.
 
-
-
 > [!NOTE]
 > ComboBox uses a [CarouselPanel](../windows.ui.xaml.controls.primitives/carouselpanel.md) as its [ItemsPanel](itemscontrol_itemspanel.md). Using a different panel as the [ItemsPanel](itemscontrol_itemspanel.md) is not supported and might result in undesired behavior.
 
@@ -71,6 +69,19 @@ This table shows the resources used by the ComboBox control.
    <tr><td>ComboBoxDropDownForeground</td><td>Not used</td></tr>
    <tr><td>ComboBoxDropDownBorderBrush</td><td>Border color around control's popup when selecting items</td></tr>
 </table>
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | IsTextSearchEnabled |
+| 1607 | 14393 | LightDismissOverlayMode |
+| 1703 | 15063 | SelectionChangedTrigger |
+| 1709 | 16299 | PlaceholderForeground |
+| 1809 | 17763 | Description |
+| 1809 | 17763 | Text |
+| 1809 | 17763 | TextBoxStyle |
+| 1809 | 17763 | TextSubmitted |
 
 ## -examples
 

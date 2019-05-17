@@ -47,6 +47,12 @@ ListBox has a dedicated control for its items, [ListBoxItem](listboxitem.md). Bu
 
 ListBox has many similarities with [ListView](listview.md) or [GridView](gridview.md) (they share the parent class [ItemsControl](itemscontrol.md)), but each control is oriented towards different scenarios. ListBox is best for general UI composition, particularly when the elements are always intended to be selectable, whereas [ListView](listview.md) or [GridView](gridview.md) are best for data binding scenarios, particularly if virtualization or large data sets are involved. For more info on virtualization, see [Using virtualization with a list or grid](https://msdn.microsoft.com/library/c6f8727a-2a3a-4f0d-9a5a-82780994839f).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | SingleSelectionFollowsFocus |
+
 ## -examples
 
 > [!TIP]

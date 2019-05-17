@@ -22,10 +22,15 @@ A CachedFileUpdaterActivatedEventArgs object is passed to the app's activated ev
 
 Apps written in JavaScript must listen for and handle [Windows.UI.WebUI.WebUIApplication.activated](../windows.ui.webui/webuiapplication_activated.md) events.
 
-
 UWP app using C++, C#, or Visual Basic typically implement activation points by overriding methods of the [Application](../windows.ui.xaml/application.md) object. The default template app.xaml code-behind files always include an override for [OnLaunched](../windows.ui.xaml/application_onlaunched_859642554.md), but defining overrides for other activation points such as [OnCachedFileUpdaterActivated](../windows.ui.xaml/application_oncachedfileupdateractivated_383584449.md) is up to your app code.
 
 All [Application](../windows.ui.xaml/application.md) overrides involved in an activation scenario should call [Window.Activate](../windows.ui.xaml/window_activate_1797342875.md) in their implementations.
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | User |
 
 ## -examples
 The [File picker contracts sample](https://go.microsoft.com/fwlink/p/?linkid=231536) demonstrates how to respond to a **CachedFileUpdater** activation point.

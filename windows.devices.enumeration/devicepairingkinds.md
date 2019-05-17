@@ -35,6 +35,12 @@ The application must request a user name and password from the user. With a valu
 ## -remarks
 This value is a collection of flags. It is possible to have multiple values set for a single pairing action.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1903 | 18362 | ProvidePasswordCredential |
+
 ## -examples
 
 ## -see-also

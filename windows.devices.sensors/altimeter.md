@@ -17,6 +17,13 @@ For an example implementation, see the [altimeter sample](https://github.com/Mic
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1709 | 16299 | MaxBatchSize |
+| 1709 | 16299 | ReportLatency |
+
 ## -examples
 
 ## -see-also

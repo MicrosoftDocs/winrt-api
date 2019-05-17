@@ -15,6 +15,12 @@ Provides data for the SpatialInteractionManager.InteractionDetected event.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | InteractionSource |
+
 ## -examples
 
 ## -see-also

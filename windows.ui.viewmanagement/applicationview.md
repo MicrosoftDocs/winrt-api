@@ -28,6 +28,22 @@ To obtain an object of this type, call [ApplicationView.GetForCurrentView](appli
 > [!NOTE]
 > Do not use the value returned in the [ ApplicationView.Value](applicationview_value.md) property when creating a page layout. This method is deprecated and may not be available in future releases.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | IsViewModeSupported |
+| 1703 | 15063 | TryConsolidateAsync |
+| 1703 | 15063 | TryEnterViewModeAsync(ApplicationViewMode) |
+| 1703 | 15063 | TryEnterViewModeAsync(ApplicationViewMode,ViewModePreferences) |
+| 1703 | 15063 | ViewMode |
+| 1903 | 18362 | ClearAllPersistedState |
+| 1903 | 18362 | ClearPersistedState |
+| 1903 | 18362 | GetDisplayRegions |
+| 1903 | 18362 | PersistedStateId |
+| 1903 | 18362 | UIContext |
+| 1903 | 18362 | WindowingEnvironment |
+
 ## -examples
 
 ## -see-also

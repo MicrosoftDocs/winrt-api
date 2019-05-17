@@ -31,7 +31,6 @@ A DataTemplate object is used as the value for these properties:
 + **HeaderTemplate** and **FooterTemplate** properties of text controls such as [RichEditBox](../windows.ui.xaml.controls/richeditbox.md), [TextBox](../windows.ui.xaml.controls/textbox.md)
 + **HeaderTemplate** property of controls such as [ComboBox](../windows.ui.xaml.controls/combobox.md), [DatePicker](../windows.ui.xaml.controls/datepicker.md), [Hub](../windows.ui.xaml.controls/hub.md), [HubSection](../windows.ui.xaml.controls/hubsection.md), [Pivot](../windows.ui.xaml.controls/pivot.md), [Slider](../windows.ui.xaml.controls/slider.md), [TimePicker](../windows.ui.xaml.controls/timepicker.md), [ToggleSwitch](../windows.ui.xaml.controls/toggleswitch.md); some of these also have **FooterTemplate**
 
-
 You typically use a DataTemplate to specify the visual representation of your data. DataTemplate objects are particularly useful when you are binding an [ItemsControl](../windows.ui.xaml.controls/itemscontrol.md) such as a [ListBox](../windows.ui.xaml.controls/listbox.md) to an entire collection. Without specific instructions, a [ListBox](../windows.ui.xaml.controls/listbox.md) displays the string representation of the objects in a collection. Use a DataTemplate to define the appearance of each of your data objects. The content of your DataTemplate becomes the visual structure of your data objects.
 
 You typically use data binding in a DataTemplate. For example, suppose that a [ListBox](../windows.ui.xaml.controls/listbox.md) is bound to a collection of `Customer` objects and has the [ItemTemplate](../windows.ui.xaml.controls/itemscontrol_itemtemplate.md) property set to a DataTemplate. When the [ListBox](../windows.ui.xaml.controls/listbox.md) is created, a [ListBoxItem](../windows.ui.xaml.controls/listboxitem.md) is created for each `Customer` in the collection, and the [DataContext](frameworkelement_datacontext.md) of the [ListBoxItem](../windows.ui.xaml.controls/listboxitem.md) is set to the appropriate customer. In other words, the [DataContext](frameworkelement_datacontext.md) of the first [ListBoxItem](../windows.ui.xaml.controls/listboxitem.md) is set to the first customer, the [DataContext](frameworkelement_datacontext.md) of the second [ListBoxItem](../windows.ui.xaml.controls/listboxitem.md) is set to the second customer, and so on. You can bind elements in the DataTemplate to show property values that come from each of the `Customer` objects.
@@ -53,6 +52,13 @@ In order to support XAML processor access to the attached properties, and also t
 | Attached property | Description |
 | - | - |
 | ExtensionInstance | Gets or sets an extension instance that defines helper methods for phased rendering of a data template.<ul><li>Type: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.idatatemplateextension">IDataTemplateExtension</a></li><li>Identifier field: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.datatemplate.extensioninstanceproperty">ExtensionInstanceProperty</a></li><li>Accessor methods: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.datatemplate.getextensioninstance">GetExtensionInstance</a>, <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.datatemplate.setextensioninstance">SetExtensionInstance</a></li></ul> |
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1809 | 17763 | GetElement |
+| 1809 | 17763 | RecycleElement |
 
 ## -examples
 The following example uses a DataTemplate to display the items of a [ListBox](../windows.ui.xaml.controls/listbox.md). In this example, the [ListBox](../windows.ui.xaml.controls/listbox.md) is bound to a collection of `Customer` objects. The DataTemplate contains [TextBlock](../windows.ui.xaml.controls/textblock.md) controls that bind to the `FirstName`, `LastName`, and `Address` properties. For more info on data binding, see [Data binding in depth](https://msdn.microsoft.com/library/41e1b4f1-6caf-4128-a61a-4e400b149011).

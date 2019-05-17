@@ -16,6 +16,15 @@ Represents an email message.
 
 For an example of using this class, see [Send email](https://docs.microsoft.com/windows/uwp/contacts-and-calendar/sending-email).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1511 | 10586 | SmimeData |
+| 1511 | 10586 | SmimeKind |
+| 1703 | 15063 | ReplyTo |
+| 1703 | 15063 | SentRepresenting |
+
 ## -examples
 
 ## -see-also

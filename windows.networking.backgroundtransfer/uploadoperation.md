@@ -15,7 +15,6 @@ Performs an asynchronous upload operation. For an overview of Background Transfe
 ## -remarks
 After app termination, an app should enumerate all existing UploadOperation instances at next start-up using [GetCurrentUploadsAsync](backgrounduploader_getcurrentuploadsasync_1938169689.md). When a UWP app using Background Transfer is terminated, incomplete uploads will persist in the background. If the app is restarted after termination and these incomplete operations are not enumerated and re-introduced to the current session, they will go stale and continue to occupy device resources.**Timeout considerations**
 
-
 + 1.) When establishing a new connection for an upload over TCP/SSL, the connection attempt is aborted if not established within five minutes.
 + 2.) After the connection has been established, an HTTP request message that has not received a response within two minutes is aborted.
 Assuming there is Internet connectivity, Background Transfer will retry an upload up to three times. In the event Internet connectivity is not detected, additional attempts will not be made until it is.
@@ -25,6 +24,12 @@ Assuming there is Internet connectivity, Background Transfer will retry an uploa
 Stopping a debugging session in Microsoft Visual Studio is comparable to closing your app; PUT uploads are paused and POST uploads are aborted. Even while debugging, your app should enumerate and then pause, restart, or cancel any persisted uploads.
 
 However, if Microsoft Visual Studio project updates, like changes to the app manifest, require that the app is uninstalled and re-deployed for debugging, [GetCurrentUploadsAsync](backgrounduploader_getcurrentuploadsasync_1938169689.md) cannot enumerate persisted operations created using the previous app deployment.
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1803 | 17134 | MakeCurrentInTransferGroup |
 
 ## -examples
 The following example demonstrates how to configure and begin a basic upload operation, and is based on the [Background Transfer sample](https://go.microsoft.com/fwlink/p/?linkid=245064) offered in the Windows Sample Gallery.

@@ -45,8 +45,29 @@ After you have a StoreContext object, you can start calling methods to purchase 
 + [Enable consumable add-on purchases](https://msdn.microsoft.com/windows/uwp/monetize/enable-consumable-add-on-purchases)
 + [Implement a trial version of your app](https://msdn.microsoft.com/windows/uwp/monetize/implement-a-trial-version-of-your-app)
 
-
 You can also use a StoreContext object to download and install package updates for the app. For more information, see [Download and install package updates for your app](https://msdn.microsoft.com/windows/uwp/packaging/self-install-package-updates).
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | FindStoreProductForPackageAsync |
+| 1803 | 17134 | CanAcquireStoreLicenseAsync |
+| 1803 | 17134 | CanAcquireStoreLicenseForOptionalPackageAsync |
+| 1803 | 17134 | CanSilentlyDownloadStorePackageUpdates |
+| 1803 | 17134 | DownloadAndInstallStorePackagesAsync |
+| 1803 | 17134 | GetAssociatedStoreQueueItemsAsync |
+| 1803 | 17134 | GetStoreProductsAsync(IEnumerable<String>,IEnumerable<String>,StoreProductOptions) |
+| 1803 | 17134 | GetStoreQueueItemsAsync |
+| 1803 | 17134 | RequestDownloadAndInstallStorePackagesAsync(IEnumerable<String>,StorePackageInstallOptions) |
+| 1803 | 17134 | RequestUninstallStorePackageAsync |
+| 1803 | 17134 | RequestUninstallStorePackageByStoreIdAsync |
+| 1803 | 17134 | TrySilentDownloadAndInstallStorePackageUpdatesAsync |
+| 1803 | 17134 | TrySilentDownloadStorePackageUpdatesAsync |
+| 1803 | 17134 | UninstallStorePackageAsync |
+| 1803 | 17134 | UninstallStorePackageByStoreIdAsync |
+| 1809 | 17763 | RequestRateAndReviewAppAsync |
+| 1809 | 17763 | SetInstallOrderForAssociatedStoreQueueItemsAsync |
 
 ## -examples
 

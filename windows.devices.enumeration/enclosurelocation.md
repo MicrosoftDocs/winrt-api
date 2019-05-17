@@ -17,6 +17,12 @@ The [EnclosureLocation](deviceinformation_enclosurelocation.md) property returns
 
 If the physical location of a device within its enclosure is unknown, the [inDock](enclosurelocation_indock.md) and [inLid](enclosurelocation_inlid.md) properties are false and the [Panel](enclosurelocation_panel.md) property has the value **Unknown**.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | RotationAngleInDegreesClockwise |
+
 ## -examples
 
 ## -see-also

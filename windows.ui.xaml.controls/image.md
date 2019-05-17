@@ -194,6 +194,12 @@ If you migrate your app code from Windows 8 to Windows 8.1 you may want to acc
 
 Apps that were compiled for Windows 8 but running on Windows 8.1 continue to use the Windows 8 behavior.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | GetAlphaMask |
+
 ## -examples
 
 > [!TIP]

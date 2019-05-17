@@ -17,6 +17,14 @@ Provides preview functionality that lets apps track spatial nodes, allowing the 
 > [!NOTE]
 > You generally won't write code against this type yourself.  Instead, you'll use a library designed for a given kind of spatial node, with that library calling into this type on your behalf.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1903 | 18362 | TryCreateFrameOfReference(SpatialCoordinateSystem) |
+| 1903 | 18362 | TryCreateFrameOfReference(SpatialCoordinateSystem,Vector3) |
+| 1903 | 18362 | TryCreateFrameOfReference(SpatialCoordinateSystem,Vector3,Quaternion) |
+
 ## -see-also
 
 ## -examples

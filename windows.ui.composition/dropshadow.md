@@ -17,6 +17,12 @@ DropShadows are a common way to provide an indication of depth in application UI
 
 Shadows are not clipped by the implicit clip set on the visual (based on size of the visual). However, shadows respect the explicit clip set on the visual using SpriteVisual.Clip Property.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1709 | 16299 | SourcePolicy |
+
 ## -examples
 Simple DropShadow
 

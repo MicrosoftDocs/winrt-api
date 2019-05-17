@@ -23,6 +23,13 @@ Make sure to call [Activate](window_activate_1797342875.md) on any Window you us
 
 The LayoutAwarePage class that is part of some application templates in Microsoft Visual Studio has handling for the [SizeChanged](window_sizechanged.md) event, which is used for keeping track of visual states that match values of [ApplicationViewState](../windows.ui.viewmanagement/applicationviewstate.md). LayoutAwarePage also has code that checks [Bounds](window_bounds.md) and uses this value to influence how page-wide input events are handled. 
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | Compositor |
+| 1903 | 18362 | UIContext |
+
 ## -examples
 The following code example shows the [OnLaunched](application_onlaunched_859642554.md) method override generated for the blank application template in Microsoft Visual Studio. This code demonstrates typical usage patterns for the [Current](window_current.md) and [Content](window_content.md) properties and the [Activate](window_activate_1797342875.md) method.
 

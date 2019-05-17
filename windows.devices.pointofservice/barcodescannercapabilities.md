@@ -16,6 +16,12 @@ Represents the barcode scanner capabilities.
 ## -remarks
 This object is accessed when you retrieve the [Capabilities](barcodescanner_capabilities.md) property of the [BarcodeScanner](barcodescanner.md) object.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1809 | 17763 | IsVideoPreviewSupported |
+
 ## -examples
 
 ## -see-also

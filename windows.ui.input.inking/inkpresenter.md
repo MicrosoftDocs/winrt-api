@@ -32,6 +32,13 @@ For complete control of ink input and to render it to the Direct2D device contex
 ## -remarks
 The InkPresenter class cannot be instantiated directly. It is returned as a property of an [InkCanvas](../windows.ui.xaml.controls/inkcanvas.md) object.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | HighContrastAdjustment |
+| 1803 | 17134 | InputConfiguration |
+
 ## -examples
 Here, we show how to overlay ink annotations on an image. For this example, ink data is not captured or saved by a corresponding InkPresenter.
 

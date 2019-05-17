@@ -29,6 +29,12 @@ This table shows the resources used by the DatePickerFlyoutPresenter control.
    <tr><td>DatePickerFlyoutPresenterHighlightFill</td><td>Highlight color</td></tr>
 </table>
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1903 | 18362 | IsDefaultShadowEnabled |
+
 ## -examples
 
 ## -see-also

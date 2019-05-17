@@ -16,6 +16,12 @@ Provides access to exclusive and privileged methods, properties, and events on a
 ## -remarks
 The user gets an instance of ClaimedCashDrawer from the [CashDrawer.ClaimDrawerAsync](cashdrawer_claimdrawerasync_887994265.md) method. Claim is cooperatively managed, so multiple concurrent apps can negotiate which app owns claim.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1809 | 17763 | Closed |
+
 ## -examples
 
 ## -see-also

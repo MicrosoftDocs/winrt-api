@@ -17,6 +17,14 @@ Get an instance of the MediaFrameSourceController class by accessing the [Contro
 
 For how-to guidance on using [MediaFrameSource](mediaframesource.md) to capture frames, see [Process media frames with MediaFrameReader](https://msdn.microsoft.com/windows/uwp/audio-video-camera/process-media-frames-with-mediaframereader).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | GetPropertyByExtendedIdAsync |
+| 1703 | 15063 | SetPropertyByExtendedIdAsync |
+| 1803 | 17134 | AudioDeviceController |
+
 ## -examples
 
 ## -see-also

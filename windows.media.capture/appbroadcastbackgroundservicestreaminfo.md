@@ -17,6 +17,12 @@ Manages the stream state of the app broadcast background service.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1709 | 16299 | ReportProblemWithStream |
+
 ## -see-also
 
 ## -examples

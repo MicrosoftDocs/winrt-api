@@ -50,6 +50,14 @@ The close request is accessed through the [MediaStreamSourceClosedEventArgs](med
    <tr><td>[MediaElement.SetMediaStreamSource](../windows.ui.xaml.controls/mediaelement_setmediastreamsource_1064978867.md)</td><td>Sets the source of the [MediaElement](../windows.ui.xaml.controls/mediaelement.md) to a MediaStreamSource.</td></tr>
 </table>
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | SampleRendered |
+| 1703 | 15063 | MaxSupportedPlaybackRate |
+| 1709 | 16299 | IsLive |
+
 ## -examples
 
 ## -see-also

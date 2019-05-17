@@ -35,6 +35,14 @@ The Popup can host input controls. When hosting input controls like [TextBox](..
 
 The Popup doesn't fire [RoutedEvents](../windows.ui.xaml/routedevent.md), for example KeyDown and PointerPressed. You can wire an event handler for these [RoutedEvents](../windows.ui.xaml/routedevent.md) on the child of the Popup.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | LightDismissOverlayMode |
+| 1903 | 18362 | IsConstrainedToRootBounds |
+| 1903 | 18362 | ShouldConstrainToRootBounds |
+
 ## -examples
 
 This example shows a simple Popup with content defined inline.

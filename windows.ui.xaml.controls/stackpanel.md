@@ -39,13 +39,19 @@ You can insert items into a StackPanel at a specific location using the [Insert]
 > [!TIP]
 > Starting in Windows 10, StackPanel defines new border properties that let you draw a border around the StackPanel without using an additional [Border](border.md) element. The new properties are [StackPanel.BorderBrush](stackpanel_borderbrush.md), [StackPanel.BorderThickness](stackpanel_borderthickness.md), [StackPanel.CornerRadius](stackpanel_cornerradius.md), and [StackPanel.Padding](stackpanel_padding.md).
 
-
-
 ```xaml
 <StackPanel BorderBrush="Red" BorderThickness="2" CornerRadius="10" Padding="12">
     <TextBlock Text="Hello World!"/>
 </StackPanel>
 ```
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | GetInsertionIndexes |
+| 1709 | 16299 | Spacing |
+| 1809 | 17763 | BackgroundSizing |
 
 ## -examples
 

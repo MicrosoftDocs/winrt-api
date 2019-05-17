@@ -45,7 +45,6 @@ A ToolTip must be assigned to another UI element that is its owner. The [ToolTip
 <Button Content="Submit" ToolTipService.ToolTip="Click to submit"/>
 ```
 
-
 + In code, use the [ToolTipService.SetToolTip](tooltipservice_settooltip_1924909593.md) method to assign the ToolTip to an owner.
 ```xaml
 <Button x:Name="submitButton" Content="Submit"/>
@@ -56,7 +55,6 @@ ToolTip toolTip = new ToolTip();
 toolTip.Content = "Click to submit";
 ToolTipService.SetToolTip(submitButton, toolTip);
 ```
-
 
 You can use any object as the [Content](contentcontrol_content.md) of a ToolTip. Here's an example of using an [Image](image.md) in a ToolTip.
 
@@ -95,6 +93,12 @@ This table shows the resources used by the ToolTip control.
 >   ToolTip is intended only for use in Windows. The ToolTip type is available in Windows Phone projects for compatibility with universal project templates, but the ToolTip is not shown in the Windows Phone  UI.
 
    ToolTip is displayed only within the bounds of the app window. It's placement might be adjusted to stay within those bounds.
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1809 | 17763 | PlacementRect |
 
 ## -examples
 

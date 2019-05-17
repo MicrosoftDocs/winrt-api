@@ -15,6 +15,12 @@ Paints an area with a semi-transparent material that uses multiple effects inclu
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1903 | 18362 | TintLuminosityOpacity |
+
 ## -see-also
 [Acrylic material overview](https://docs.microsoft.com/windows/uwp/design/style/acrylic)
 

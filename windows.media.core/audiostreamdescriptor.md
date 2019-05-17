@@ -17,6 +17,15 @@ When creating a [MediaEncodingProfile](../windows.media.mediaproperties/mediaenc
 
 See the [MediaStreamSource Sample](https://go.microsoft.com/fwlink/p/?LinkID=309021) for an example of using Media Stream Source in a UWP app.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | LeadingEncoderPadding |
+| 1607 | 14393 | TrailingEncoderPadding |
+| 1709 | 16299 | Label |
+| 1803 | 17134 | Copy |
+
 ## -examples
 
 ## -see-also
