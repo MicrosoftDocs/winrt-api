@@ -22,7 +22,7 @@ The default inclinometer or **null** if no inclinometers are found.
 ## -remarks
 This method only returns values for hardware that has been integrated into the computer by the manufacturer. (The inclinometer readings are derived from multiple sensors.) A **null** value will be returned if the specified sensor is not available in the system.
 
-When a system is in Connected Standby, a call to the [GetDefault](inclinometer_getdefault_2064571144.md) method will return immediately with a **null** result.
+When a system is in Connected Standby, a call to the GetDefault method will return immediately with a **null** result.
 
 ## -examples
 

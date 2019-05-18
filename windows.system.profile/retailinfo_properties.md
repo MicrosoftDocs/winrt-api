@@ -18,7 +18,7 @@ A read-only collection of key-value pairs, each pair representing an available r
 ## -remarks
 These properties include specific information that is useful for apps that are running or otherwise available as pre-installed demo apps in a retail setting. For example, you can get a [ManufacturerName](knownretailinfoproperties_manufacturername.md), [ScreenSize](knownretailinfoproperties_screensize.md), and so on.
 
-If [IsDemoModeEnabled](retailinfo_isdemomodeenabled.md) is **false**, [Properties](retailinfo_properties.md) might contain a zero-length collection or **null**. Verify that [IsDemoModeEnabled](retailinfo_isdemomodeenabled.md) is **true** before getting the [Properties](retailinfo_properties.md) value.
+If [IsDemoModeEnabled](retailinfo_isdemomodeenabled.md) is **false**, Properties might contain a zero-length collection or **null**. Verify that [IsDemoModeEnabled](retailinfo_isdemomodeenabled.md) is **true** before getting the Properties value.
 
 Once you have a valid collection, this collection is a map/dictionary where each property is identified by a property name. These property names are predefined, and each known property name is represented by a static string property of the [KnownRetailInfoProperties](knownretailinfoproperties.md) class. So whenever you attempt to get a specific property, use a [KnownRetailInfoProperties](knownretailinfoproperties.md) property to supply the string key value, rather than hard-coded strings. That will assure you aren't asking for values that don't exist in the collection.
 

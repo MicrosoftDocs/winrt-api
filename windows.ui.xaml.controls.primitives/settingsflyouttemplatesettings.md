@@ -13,7 +13,7 @@ public class SettingsFlyoutTemplateSettings : Windows.UI.Xaml.DependencyObject, 
 Provides calculated values that can be referenced as **TemplatedParent** sources when defining templates for a SettingsFlyout control. Not intended for general use.
 
 ## -remarks
-Get instances of [SettingsFlyoutTemplateSettings](settingsflyouttemplatesettings.md) by querying the value of [TemplateSettings](../windows.ui.xaml.controls/settingsflyout_templatesettings.md).
+Get instances of SettingsFlyoutTemplateSettings by querying the value of [TemplateSettings](../windows.ui.xaml.controls/settingsflyout_templatesettings.md).
 
 ## -examples
 

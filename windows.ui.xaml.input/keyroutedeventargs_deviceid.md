@@ -12,15 +12,15 @@ public string DeviceId { get; }
 ## -description
 Gets a unique ID for the input device that generated this key event.
 
-Use [DeviceId](keyroutedeventargs_deviceid.md) to differentiate between all connected devices that can generate key events, such as multiple Xbox controllers.
+Use DeviceId to differentiate between all connected devices that can generate key events, such as multiple Xbox controllers.
 
-> [DeviceId](keyroutedeventargs_deviceid.md) is not supported for all input devices.
+> DeviceId is not supported for all input devices.
 
 ## -property-value
 A unique identifier for the input device associated with the key event, or an empty string for an unsupported device. The same device can be assigned a different ID each time it is connected.
 
 ## -remarks
-Some devices, such as Xbox, permit multiple users to sign in for a single interactive session. This [DeviceId](keyroutedeventargs_deviceid.md) property is useful for retrieving info for a specific user account associated with the input device.
+Some devices, such as Xbox, permit multiple users to sign in for a single interactive session. This DeviceId property is useful for retrieving info for a specific user account associated with the input device.
 
 > In Windows 10 and later, Universal Windows Platform (UWP) app do not have access to user information without explicit user consent (unlike Windows 8, where permission is granted by default).
 

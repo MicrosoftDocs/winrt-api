@@ -16,7 +16,7 @@ Gets socket control data on a [MessageWebSocket](messagewebsocket.md) object.
 Socket control data on a [MessageWebSocket](messagewebsocket.md) object.
 
 ## -remarks
-The [Control](messagewebsocket_control.md) property gets the [MessageWebSocketControl](messagewebsocketcontrol.md) instance associated with a [MessageWebSocket](messagewebsocket.md) object.
+The Control property gets the [MessageWebSocketControl](messagewebsocketcontrol.md) instance associated with a [MessageWebSocket](messagewebsocket.md) object.
 
 A [MessageWebSocketControl](messagewebsocketcontrol.md) object is automatically created with the parent [MessageWebSocket](messagewebsocket.md) object. The [MessageWebSocketControl](messagewebsocketcontrol.md) instance can then be used to get or set control data used by the [MessageWebSocket](messagewebsocket.md) object. These properties on the [MessageWebSocketControl](messagewebsocketcontrol.md) instance include the following:
 

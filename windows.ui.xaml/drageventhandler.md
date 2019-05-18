@@ -20,7 +20,7 @@ The event data.
 
 
 ## -remarks
-[DragEventHandler](drageventhandler.md) is the delegate you implement to handle these events:
+DragEventHandler is the delegate you implement to handle these events:
 + [UIElement.DragEnter](uielement_drop.md)
 + [UIElement.DragLeave](uielement_dragleave.md)
 + [UIElement.DragOver](uielement_dragover.md)

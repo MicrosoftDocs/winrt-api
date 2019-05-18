@@ -24,7 +24,7 @@ The content is grouped by month.
 
 
 ## -remarks
-For example, if you create a [QueryOptions](queryoptions.md) object using [CommonFolderQuery.GroupByYear](commonfolderquery.md) the [DateStackOption](queryoptions_datestackoption.md) property will contain the [DateStackOption.Year](datestackoption.md) value.
+For example, if you create a [QueryOptions](queryoptions.md) object using [CommonFolderQuery.GroupByYear](commonfolderquery.md) the [DateStackOption](queryoptions_datestackoption.md) property will contain the DateStackOption.Year value.
 
 ## -examples
 

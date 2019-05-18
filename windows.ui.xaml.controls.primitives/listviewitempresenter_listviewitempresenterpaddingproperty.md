@@ -11,7 +11,7 @@ public Windows.UI.Xaml.DependencyProperty ListViewItemPresenterPaddingProperty {
 
 ## -description
 > [!NOTE]
-> [ListViewItemPresenterPaddingProperty](listviewitempresenter_listviewitempresenterpaddingproperty.md) may be altered or unavailable for releases after Windows 10. Instead, use [ContentPresenter.PaddingProperty](../windows.ui.xaml.controls/contentpresenter_paddingproperty.md).
+> ListViewItemPresenterPaddingProperty may be altered or unavailable for releases after Windows 10. Instead, use [ContentPresenter.PaddingProperty](../windows.ui.xaml.controls/contentpresenter_paddingproperty.md).
 
 Identifies the [ListViewItemPresenterPadding](listviewitempresenter_listviewitempresenterpadding.md) dependency property.
 

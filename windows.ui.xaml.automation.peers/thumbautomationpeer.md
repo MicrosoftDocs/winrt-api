@@ -13,11 +13,11 @@ public class ThumbAutomationPeer : Windows.UI.Xaml.Automation.Peers.FrameworkEle
 Exposes [Thumb](../windows.ui.xaml.controls.primitives/thumb.md) types to Microsoft UI Automation.
 
 ## -remarks
-The Windows Runtime  [Thumb](../windows.ui.xaml.controls.primitives/thumb.md) class creates a new [ThumbAutomationPeer](thumbautomationpeer.md) as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. [Thumb](../windows.ui.xaml.controls.primitives/thumb.md) is sealed, so the normal scenario of deriving from the [Thumb](../windows.ui.xaml.controls.primitives/thumb.md) class and its existing peer isn't applicable to [ThumbAutomationPeer](thumbautomationpeer.md).
+The Windows Runtime  [Thumb](../windows.ui.xaml.controls.primitives/thumb.md) class creates a new ThumbAutomationPeer as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. [Thumb](../windows.ui.xaml.controls.primitives/thumb.md) is sealed, so the normal scenario of deriving from the [Thumb](../windows.ui.xaml.controls.primitives/thumb.md) class and its existing peer isn't applicable to ThumbAutomationPeer.
 
 ### Default peer implementation and overrides in **ThumbAutomationPeer**
 
-[ThumbAutomationPeer](thumbautomationpeer.md) has overrides of **Core** methods such that the associated [AutomationPeer](automationpeer.md) methods provide peer-specific information to a Microsoft UI Automation client.
+ThumbAutomationPeer has overrides of **Core** methods such that the associated [AutomationPeer](automationpeer.md) methods provide peer-specific information to a Microsoft UI Automation client.
 
 + [GetPattern](automationpeer_getpattern_2046576749.md) reports no pattern support.
 + [GetClassName](automationpeer_getclassname_614238974.md) returns "Thumb".

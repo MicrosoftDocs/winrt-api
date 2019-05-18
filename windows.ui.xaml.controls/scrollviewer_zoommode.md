@@ -24,7 +24,7 @@ Gets or sets a value that indicates whether zoom behavior in the [ScrollViewer](
 A value of the enumeration.
 
 ## -remarks
-No default value is listed for this property. Controls that incorporate a [ScrollViewer](scrollviewer.md) in compositing often set a value for [ZoomMode](scrollviewer_zoommode.md) in the default template and starting visual states, and it is this templated value that you will typically start with. Controls with a [ScrollViewer](scrollviewer.md) as part of their composition typically use template binding such that setting the attached property at the level of the control will change the scroll behavior of the [ScrollViewer](scrollviewer.md) part within the control. Otherwise, it may be necessary to replace the template in order to change the scroll behavior of a [ScrollViewer](scrollviewer.md) part.
+No default value is listed for this property. Controls that incorporate a [ScrollViewer](scrollviewer.md) in compositing often set a value for ZoomMode in the default template and starting visual states, and it is this templated value that you will typically start with. Controls with a [ScrollViewer](scrollviewer.md) as part of their composition typically use template binding such that setting the attached property at the level of the control will change the scroll behavior of the [ScrollViewer](scrollviewer.md) part within the control. Otherwise, it may be necessary to replace the template in order to change the scroll behavior of a [ScrollViewer](scrollviewer.md) part.
 
 ## -examples
 

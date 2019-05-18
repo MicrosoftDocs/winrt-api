@@ -17,6 +17,11 @@ Passing one PerceptionTimestamp instance to multiple API calls ensures that they
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1809 | 17763 | SystemRelativeTargetTime |
 
 ## -examples
 

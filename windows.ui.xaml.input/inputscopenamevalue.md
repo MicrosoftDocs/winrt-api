@@ -158,7 +158,7 @@ Expected input does not include emoji. Advises input processors to not show the 
 
 ### Version history
 
-| Version | SDK version | Value added |
+| Windows version | SDK version | Value added |
 | -- | -- | -- |
 | 1607 | 14393 | ChatWithoutEmoji |
 

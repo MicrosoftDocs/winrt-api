@@ -14,6 +14,15 @@ Contains a set of common app user interface settings and operations.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | AdvancedEffectsEnabled |
+| 1703 | 15063 | AdvancedEffectsEnabledChanged |
+| 1903 | 18362 | AutoHideScrollBars |
+| 1903 | 18362 | AutoHideScrollBarsChanged |
+
 ## -examples
 
 ```cppwinrt

@@ -17,13 +17,13 @@ Represents an [InkToolbar](inktoolbar.md) button that activates the built-in bal
 
 The ballpoint pen draws a solid, opaque stroke with a [Circle](../windows.ui.input.inking/pentipshape.md) [PenTip](../windows.ui.input.inking/inkdrawingattributes_pentip.md). The stroke size varies with the active pen pressure detected (default size is 2x2 pixels).
 
-[InkToolbarBallpointPenButton](inktoolbarballpointpenbutton.md) inherits from [InkToolbarPenButton](inktoolbarpenbutton.md).
+InkToolbarBallpointPenButton inherits from [InkToolbarPenButton](inktoolbarpenbutton.md).
 
 This button is part of the default radio button group that enables a user to select a single ink feature from a mutually exclusive group of options.
 
 The [InkToolbar](inktoolbar.md) consists of two distinct groups of button types:
 
-+ One group of "tool" buttons containing the built-in drawing ([InkToolbarBallpointPenButton](inktoolbarballpointpenbutton.md), [InkToolbarPencilButton](inktoolbarpencilbutton.md)), erasing ([InkToolbarEraserButton](inktoolbareraserbutton.md)), and highlighting ([InkToolbarHighlighterButton](inktoolbarhighlighterbutton.md)) buttons. Custom tools ([InkToolbarCustomPenButton](inktoolbarcustompenbutton.md) and [InkToolbarCustomToolButton](inktoolbarcustomtoolbutton.md)) are added here.
++ One group of "tool" buttons containing the built-in drawing (InkToolbarBallpointPenButton, [InkToolbarPencilButton](inktoolbarpencilbutton.md)), erasing ([InkToolbarEraserButton](inktoolbareraserbutton.md)), and highlighting ([InkToolbarHighlighterButton](inktoolbarhighlighterbutton.md)) buttons. Custom tools ([InkToolbarCustomPenButton](inktoolbarcustompenbutton.md) and [InkToolbarCustomToolButton](inktoolbarcustomtoolbutton.md)) are added here.
 
     > Feature selection is mutually exclusive.
 

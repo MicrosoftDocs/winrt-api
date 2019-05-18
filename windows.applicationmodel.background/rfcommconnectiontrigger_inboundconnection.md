@@ -18,7 +18,7 @@ The [RfcommInboundConnectionInformation](../windows.devices.bluetooth.background
 ## -remarks
 If this property is null, the system will not listen for incoming connections.
 
-At least one of the [InboundConnection](rfcommconnectiontrigger_inboundconnection.md) and [OutboundConnection](rfcommconnectiontrigger_outboundconnection.md) properties must be non-null.
+At least one of the InboundConnection and [OutboundConnection](rfcommconnectiontrigger_outboundconnection.md) properties must be non-null.
 
 ## -examples
 

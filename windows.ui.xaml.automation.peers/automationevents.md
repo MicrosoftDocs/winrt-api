@@ -108,7 +108,7 @@ The event that is raised when the window layout has become invalidated. This eve
 
 ### Version history
 
-| Version | SDK version | Value added |
+| Windows version | SDK version | Value added |
 | -- | -- | -- |
 | 1607 | 14393 | LayoutInvalidated |
 

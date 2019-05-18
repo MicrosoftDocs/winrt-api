@@ -16,7 +16,7 @@ Gets socket control data on a [StreamWebSocket](streamwebsocket.md) object.
 Socket control data on a [StreamWebSocket](streamwebsocket.md) object.
 
 ## -remarks
-The [Control](streamwebsocket_control.md) property gets the [StreamWebSocketControl](streamwebsocketcontrol.md) instance associated with a [StreamWebSocket](streamwebsocket.md) object.
+The Control property gets the [StreamWebSocketControl](streamwebsocketcontrol.md) instance associated with a [StreamWebSocket](streamwebsocket.md) object.
 
 A [StreamWebSocketControl](streamwebsocketcontrol.md) object is automatically created with the parent [StreamWebSocket](streamwebsocket.md) object. The [StreamWebSocketControl](streamwebsocketcontrol.md) instance can then be used to get or set control data used by the [StreamWebSocket](streamwebsocket.md) object. These properties on the [MessageWebSocketControl](messagewebsocketcontrol.md) instance include the following:
 

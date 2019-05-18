@@ -16,11 +16,11 @@ Gets a font that is recommended for special UI elements, such as headings, that 
 The recommended [LanguageFont](languagefont.md).
 
 ## -remarks
-The [UIHeadingFont](languagefontgroup_uiheadingfont.md) property provides a font recommendation for special UI elements, such as headings, that are displayed at sizes somewhat larger than typical UI body text.
+The UIHeadingFont property provides a font recommendation for special UI elements, such as headings, that are displayed at sizes somewhat larger than typical UI body text.
 
 The font recommended for this usage case may be differentiated from other UI usage cases in font weight, style or stretch values. Those attributes are significant aspects of the font recommendation being provided.
 
-A [UIHeadingFont](languagefontgroup_uiheadingfont.md) recommendation is available for every supported language or script.
+A UIHeadingFont recommendation is available for every supported language or script.
 
 ## -examples
 

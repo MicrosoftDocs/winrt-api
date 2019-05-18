@@ -13,7 +13,7 @@ public class StorageItemContentProperties : Windows.Storage.FileProperties.IStor
 Provides access to the content-related properties of an item (like a file or folder).
 
 ## -remarks
-You can get a [StorageItemContentProperties](storageitemcontentproperties.md) object using the [Properties](../windows.storage/istorageitemproperties_properties.md) property that is available on the following objects:
+You can get a StorageItemContentProperties object using the [Properties](../windows.storage/istorageitemproperties_properties.md) property that is available on the following objects:
 
 + [StorageFile.Properties](../windows.storage/storagefile_properties.md) property
 + [StorageFolder.Properties](../windows.storage/storagefolder_properties.md) property

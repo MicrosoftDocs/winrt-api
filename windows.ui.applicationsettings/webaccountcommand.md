@@ -16,7 +16,7 @@ Associates a command with a [WebAccount](../windows.security.credentials/webacco
 
 ## -remarks
 
-Add instances of the [WebAccountCommand](webaccountcommand.md) class to the [WebAccountCommands](accountssettingspanecommandsrequestedeventargs_webaccountcommands.md) collection.
+Add instances of the WebAccountCommand class to the [WebAccountCommands](accountssettingspanecommandsrequestedeventargs_webaccountcommands.md) collection.
 
 ## -examples
 

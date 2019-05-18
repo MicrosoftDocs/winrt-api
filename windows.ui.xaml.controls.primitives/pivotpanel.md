@@ -19,7 +19,7 @@ Displays the items in a [Pivot](../windows.ui.xaml.controls/pivot.md) control.
 
 
 ## -remarks
-The XAML usage shown is for adjusting the XAML template for a [Pivot](../windows.ui.xaml.controls/pivot.md) control (or derived type). A [PivotPanel](pivotpanel.md) element is the main content area (wrapped by a [ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md)) in the default template XAML for [Pivot](../windows.ui.xaml.controls/pivot.md). [PivotPanel](pivotpanel.md) isn't typically used for general XAML UI composition.
+The XAML usage shown is for adjusting the XAML template for a [Pivot](../windows.ui.xaml.controls/pivot.md) control (or derived type). A PivotPanel element is the main content area (wrapped by a [ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md)) in the default template XAML for [Pivot](../windows.ui.xaml.controls/pivot.md). PivotPanel isn't typically used for general XAML UI composition.
 
 ## -examples
 

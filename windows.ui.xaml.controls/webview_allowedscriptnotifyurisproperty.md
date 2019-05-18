@@ -11,7 +11,7 @@ public Windows.UI.Xaml.DependencyProperty AllowedScriptNotifyUrisProperty { get;
 
 ## -description
 > [!NOTE]
-> [AllowedScriptNotifyUrisProperty](webview_allowedscriptnotifyurisproperty.md) is not supported in apps compiled for Windows 8.1. Instead, update the **ApplicationContentUriRules** section of the app manifest. For more info, see the Remarks section.
+> AllowedScriptNotifyUrisProperty is not supported in apps compiled for Windows 8.1. Instead, update the **ApplicationContentUriRules** section of the app manifest. For more info, see the Remarks section.
 
 Identifies the [AllowedScriptNotifyUris](webview_allowedscriptnotifyuris.md) dependency property.
 
@@ -21,7 +21,7 @@ The identifier for the [AllowedScriptNotifyUris](webview_allowedscriptnotifyuris
 ## -remarks
 ### Windows 8.1
 
-[AllowedScriptNotifyUrisProperty](webview_allowedscriptnotifyurisproperty.md) is not supported in apps compiled for Windows 8.1. To enable an external web page to fire the [ScriptNotify](webview_scriptnotify.md) event when calling **window.external.notify**, you must include the page's URI in the **ApplicationContentUriRules** section of the app manifest. (You can do this in Visual Studio on the Content URIs tab of the **Package.appxmanifest** designer.) The URIs in this list must use HTTPS, and may contain subdomain wildcards (for example, https://*.microsoft.com) but they cannot contain domain wildcards (for example, https://*.com and https://*.*). The manifest requirement does not apply to content that originates from the app package, uses an ms-local-stream:// URI, or is loaded using [NavigateToString](webview_navigatetostring_1924125949.md).
+AllowedScriptNotifyUrisProperty is not supported in apps compiled for Windows 8.1. To enable an external web page to fire the [ScriptNotify](webview_scriptnotify.md) event when calling **window.external.notify**, you must include the page's URI in the **ApplicationContentUriRules** section of the app manifest. (You can do this in Visual Studio on the Content URIs tab of the **Package.appxmanifest** designer.) The URIs in this list must use HTTPS, and may contain subdomain wildcards (for example, https://*.microsoft.com) but they cannot contain domain wildcards (for example, https://*.com and https://*.*). The manifest requirement does not apply to content that originates from the app package, uses an ms-local-stream:// URI, or is loaded using [NavigateToString](webview_navigatetostring_1924125949.md).
 
 ### Windows 8
 

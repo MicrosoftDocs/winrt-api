@@ -16,7 +16,7 @@ Gets a value that indicates whether this [Panel](panel.md) is a container for UI
 **true** if this instance of [Panel](panel.md) is an items host; otherwise, **false**. The default is **false**.
 
 ## -remarks
-[IsItemsHost](panel_isitemshost.md) is a calculated property where the value results from the system checking the parents of the [Panel](panel.md) for an [ItemsControl](itemscontrol.md) implementation. If one exists, then the value is **true**.
+IsItemsHost is a calculated property where the value results from the system checking the parents of the [Panel](panel.md) for an [ItemsControl](itemscontrol.md) implementation. If one exists, then the value is **true**.
 
 In previous frameworks this property was settable. It's not settable in the Windows Runtime, and there should be no need to set it because the system has the calculation behavior. If you want a different relationship between a panel and a parent items control, just create it that way in your XAML control compositing.
 

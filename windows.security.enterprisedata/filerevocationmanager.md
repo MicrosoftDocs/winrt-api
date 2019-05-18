@@ -11,7 +11,7 @@ public class FileRevocationManager
 
 ## -description
 > [!NOTE]
-> [FileRevocationManager](filerevocationmanager.md) may be unavailable for releases after Windows 10. Instead, use [FileProtectionManager](fileprotectionmanager.md).
+> FileRevocationManager may be unavailable for releases after Windows 10. Instead, use [FileProtectionManager](fileprotectionmanager.md).
 
 
 

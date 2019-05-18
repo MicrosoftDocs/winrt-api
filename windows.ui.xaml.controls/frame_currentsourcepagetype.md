@@ -16,7 +16,7 @@ Gets a type reference for the content that is currently displayed.
 A type reference for the content that is currently displayed.
 
 ## -remarks
-[CurrentSourcePageType](frame_currentsourcepagetype.md) and [SourcePageType](frame_sourcepagetype.md) are normally the same value. However, if the frame calls [Navigate](frame_navigate_1426351961.md) and the navigation is still in progress, the [CurrentSourcePageType](frame_currentsourcepagetype.md) is the value before the navigation and the [SourcePageType](frame_sourcepagetype.md) is the value being navigated to.
+CurrentSourcePageType and [SourcePageType](frame_sourcepagetype.md) are normally the same value. However, if the frame calls [Navigate](frame_navigate_1426351961.md) and the navigation is still in progress, the CurrentSourcePageType is the value before the navigation and the [SourcePageType](frame_sourcepagetype.md) is the value being navigated to.
 
 
 

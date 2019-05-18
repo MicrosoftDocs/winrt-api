@@ -18,7 +18,7 @@ The current state of this [MediaElement](mediaelement.md). The state can be one 
 ## -remarks
 
 ## -examples
-The following example demonstrates one way to display the [CurrentState](mediaelement_currentstate.md) of a [MediaElement](mediaelement.md). It creates a [MediaElement](mediaelement.md) and several buttons for controlling media playback. To display the current state of the [MediaElement](mediaelement.md), the example registers for the [CurrentStateChanged](mediaelement_currentstatechanged.md) event and uses an event handler to update a [TextBlock](textblock.md).
+The following example demonstrates one way to display the CurrentState of a [MediaElement](mediaelement.md). It creates a [MediaElement](mediaelement.md) and several buttons for controlling media playback. To display the current state of the [MediaElement](mediaelement.md), the example registers for the [CurrentStateChanged](mediaelement_currentstatechanged.md) event and uses an event handler to update a [TextBlock](textblock.md).
 
 
 

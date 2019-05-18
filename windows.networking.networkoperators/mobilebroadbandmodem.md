@@ -22,6 +22,15 @@ Represents a mobile broadband modem.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1709 | 16299 | GetIsPassthroughEnabledAsync |
+| 1709 | 16299 | SetIsPassthroughEnabledAsync |
+| 1803 | 17134 | IsInEmergencyCallMode |
+| 1803 | 17134 | IsInEmergencyCallModeChanged |
+| 1803 | 17134 | TryGetPcoAsync |
 
 ## -examples
 

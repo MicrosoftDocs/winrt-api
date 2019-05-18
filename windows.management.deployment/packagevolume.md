@@ -14,6 +14,14 @@ Represents a package storage volume.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | GetAvailableSpaceAsync |
+| 1607 | 14393 | IsAppxInstallSupported |
+| 1607 | 14393 | IsFullTrustPackageSupported |
+
 ## -examples
 
 ## -see-also

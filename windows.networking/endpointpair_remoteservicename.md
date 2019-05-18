@@ -16,15 +16,15 @@ Get or set the remote service name for the [EndpointPair](endpointpair.md) objec
 The remote service name for the [EndpointPair](endpointpair.md) object.
 
 ## -remarks
-The [RemoteServiceName](endpointpair_remoteservicename.md) property can contain a service name or a TCP or UDP port number for a remote network destination. The remote service name must be supplied for the remote endpoint of the [EndpointPair](endpointpair.md) object before a network connection can be established by a client app.
+The RemoteServiceName property can contain a service name or a TCP or UDP port number for a remote network destination. The remote service name must be supplied for the remote endpoint of the [EndpointPair](endpointpair.md) object before a network connection can be established by a client app.
 
-The [RemoteServiceName](endpointpair_remoteservicename.md) property can be set to one of the following:
+The RemoteServiceName property can be set to one of the following:
 
 
 + A numeric literal for a TCP or UDP port number (80 for the TCP port used for http, for example).
 + A string alias for a port number ("http", for example) that matches a string in the following file on the local computer: *%WINDIR%\system32\drivers\etc\services*
 + A service name that can be resolved by a namespace provider using a SRV record.
-It is an error to set the [RemoteServiceName](endpointpair_remoteservicename.md) property to null.
+It is an error to set the RemoteServiceName property to null.
 
 ## -examples
 

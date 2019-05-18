@@ -15,6 +15,12 @@ Provides event data for the [DragStarting](uielement_dragstarting.md) event.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | AllowedOperations |
+
 ## -examples
 
 ## -see-also

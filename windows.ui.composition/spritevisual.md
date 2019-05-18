@@ -14,6 +14,12 @@ Hosts 2D boxed content of type [CompositionBrush](compositionbrush.md). Any part
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | Shadow |
+
 ## -examples
 
 

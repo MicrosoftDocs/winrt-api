@@ -14,7 +14,7 @@ public class ClaimedSlipPrinter : Windows.Devices.PointOfService.IClaimedSlipPri
 Represents a slip printer station that has been claimed for use.
 
 ## -remarks
-To get a [ClaimedSlipPrinter ](claimedslipprinter.md) object, use the [ClaimedPosPrinter.Slip](claimedposprinter_slip.md) property.
+To get a [ClaimedSlipPrinter  object, use the [ClaimedPosPrinter.Slip](claimedposprinter_slip.md) property.
 
 ## -examples
 

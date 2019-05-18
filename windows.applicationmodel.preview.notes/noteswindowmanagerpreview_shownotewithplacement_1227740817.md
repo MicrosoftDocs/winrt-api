@@ -24,7 +24,7 @@ An array of bytes holding note placement data.
 Options for showing the note specified by the *noteViewId* parameter. For example, show the note with focus.
 
 ## -remarks
-[GetNotePlacement](noteswindowmanagerpreview_getnoteplacement_639894587.md) and [ShowNoteWithPlacement](noteswindowmanagerpreview_shownotewithplacement_1227740817.md) can be used together to store the placement of a note (say, while the application is exiting) and then restore the note to its previous placement on the screen (when the application is opened again).
+[GetNotePlacement](noteswindowmanagerpreview_getnoteplacement_639894587.md) and ShowNoteWithPlacement can be used together to store the placement of a note (say, while the application is exiting) and then restore the note to its previous placement on the screen (when the application is opened again).
 
 ## -see-also
 [NotesWindowManagerPreviewShowNoteOptions](noteswindowmanagerpreviewshownoteoptions.md)

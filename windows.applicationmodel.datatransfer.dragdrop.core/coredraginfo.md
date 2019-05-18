@@ -15,6 +15,12 @@ Gets information about an item being dragged.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1511 | 10586 | AllowedOperations |
+
 ## -examples
 
 ## -see-also

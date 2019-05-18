@@ -16,7 +16,7 @@ Gets the language used for speech recognition.
 The language used for speech recognition.
 
 ## -remarks
-[CurrentLanguage](speechrecognizer_currentlanguage.md) is initialized with the value specified in the [SpeechRecognizer(language)](speechrecognizer_speechrecognizer_938933992.md) constructor. If no language is specified in the [SpeechRecognizer()](speechrecognizer_speechrecognizer_1221375020.md) constructor, [CurrentLanguage](speechrecognizer_currentlanguage.md) is initialized with the value of [SystemSpeechLanguage](speechrecognizer_systemspeechlanguage.md).
+CurrentLanguage is initialized with the value specified in the [SpeechRecognizer(language)](speechrecognizer_speechrecognizer_938933992.md) constructor. If no language is specified in the [SpeechRecognizer()](speechrecognizer_speechrecognizer_1221375020.md) constructor, CurrentLanguage is initialized with the value of [SystemSpeechLanguage](speechrecognizer_systemspeechlanguage.md).
 
 
 ## -examples

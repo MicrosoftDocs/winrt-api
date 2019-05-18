@@ -16,7 +16,7 @@ Get or set the write behavior to use for cache control on the [HttpCacheControl]
 The read behavior to use for cache control.
 
 ## -remarks
-The [WriteBehavior](httpcachecontrol_writebehavior.md) property on the [HttpCacheControl](httpcachecontrol.md) object allows an app to get or set the write cache behavior to use on the [HttpBaseProtocolFilter](httpbaseprotocolfilter.md) object. Content returned by HTTP requests can be written to the local HTTP cache.
+The WriteBehavior property on the [HttpCacheControl](httpcachecontrol.md) object allows an app to get or set the write cache behavior to use on the [HttpBaseProtocolFilter](httpbaseprotocolfilter.md) object. Content returned by HTTP requests can be written to the local HTTP cache.
 
 ## -examples
 

@@ -14,6 +14,14 @@ Represents the smart card automatic response Application Protocol Data Unit (APD
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1511 | 10586 | InputState |
+| 1511 | 10586 | OutputState |
+| 1607 | 14393 | AllowWhenCryptogramGeneratorNotPrepared |
+
 ## -examples
 
 ## -see-also

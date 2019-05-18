@@ -31,7 +31,7 @@ The target item to copy the selective wipe protection status to.
 True if the copy operation was successful; otherwise false.
 
 ## -remarks
-If you save a new copy of a file as the result of a "save as" operation, the selective wipe protection status is not copied with the file. To protect the file, you must call the [CopyProtectionAsync](filerevocationmanager_copyprotectionasync_491662270.md) method to copy the existing protection status to the new file. If you copy a protected file using the [CopyAsync](../windows.storage/istoragefile_copyasync_1709017142.md) or [CopyAndReplaceAsync](../windows.storage/istoragefile_copyandreplaceasync_177558079.md) methods, the selective wipe protection status is copied with the file and you do not need to call the [CopyProtectionAsync](filerevocationmanager_copyprotectionasync_491662270.md) method. 
+If you save a new copy of a file as the result of a "save as" operation, the selective wipe protection status is not copied with the file. To protect the file, you must call the CopyProtectionAsync method to copy the existing protection status to the new file. If you copy a protected file using the [CopyAsync](../windows.storage/istoragefile_copyasync_1709017142.md) or [CopyAndReplaceAsync](../windows.storage/istoragefile_copyandreplaceasync_177558079.md) methods, the selective wipe protection status is copied with the file and you do not need to call the CopyProtectionAsync method. 
 
 
 
@@ -41,7 +41,7 @@ If you save a new copy of a file as the result of a "save as" operation, the sel
 
 
 
-The [CopyProtectionAsync](filerevocationmanager_copyprotectionasync_491662270.md) method requires exclusive access to the file or folder being encrypted, and will fail if another process is using has a handle open to the file or folder.
+The CopyProtectionAsync method requires exclusive access to the file or folder being encrypted, and will fail if another process is using has a handle open to the file or folder.
 
 ## -examples
 

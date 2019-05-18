@@ -14,7 +14,7 @@ public void Stop()
 Stops advertising for a peer connection.
 
 ## -remarks
-You can call the [Stop](peerfinder_stop_1201535524.md) method to stop the [PeerFinder](peerfinder.md) when you no longer want to advertise for or accept new triggered (tapped) or browsed connections. [Stop](peerfinder_stop_1201535524.md) does not close an existing connection. However, the [Stop](peerfinder_stop_1201535524.md) method will cancel outstanding calls to the [ConnectAsync](peerfinder_connectasync_380619906.md) method and triggered connection requests. The [Stop](peerfinder_stop_1201535524.md) method does not wait for the cancellation to complete.
+You can call the Stop method to stop the [PeerFinder](peerfinder.md) when you no longer want to advertise for or accept new triggered (tapped) or browsed connections. Stop does not close an existing connection. However, the Stop method will cancel outstanding calls to the [ConnectAsync](peerfinder_connectasync_380619906.md) method and triggered connection requests. The Stop method does not wait for the cancellation to complete.
 
 ## -examples
 

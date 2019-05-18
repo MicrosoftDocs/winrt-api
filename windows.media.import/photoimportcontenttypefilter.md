@@ -30,6 +30,12 @@ Include images and videos located in the Camera Roll directory or any of its sub
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1809 | 17763 | ImagesAndVideosFromCameraRoll |
+
 ## -examples
 
 ## -see-also

@@ -14,6 +14,14 @@ Describes a [DevicePortalConnection.RequestReceived](DevicePortalConnection_Requ
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1803 | 17134 | GetDeferral |
+| 1803 | 17134 | IsWebSocketUpgradeRequest |
+| 1803 | 17134 | WebSocketProtocolsRequested |
+
 ## -see-also
 
 ## -examples

@@ -11,7 +11,7 @@ public class VoiceCommandSet : Windows.Media.SpeechRecognition.IVoiceCommandSet
 
 ## -description
 > [!NOTE]
-> [VoiceCommandSet](voicecommandset.md) may be altered or unavailable for releases after Windows Phone 8.1. Instead, use [Windows.ApplicationModel.VoiceCommands.VoiceCommandDefinition](../windows.applicationmodel.voicecommands/voicecommanddefinition.md).
+> VoiceCommandSet may be altered or unavailable for releases after Windows Phone 8.1. Instead, use [Windows.ApplicationModel.VoiceCommands.VoiceCommandDefinition](../windows.applicationmodel.voicecommands/voicecommanddefinition.md).
 
 Enables operations on a specific installed command set.
 

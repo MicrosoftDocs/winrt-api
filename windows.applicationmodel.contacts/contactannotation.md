@@ -14,6 +14,12 @@ Provides a way to tag existing user contacts with additional information, specif
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | ContactListId |
+
 ## -examples
 
 ## -see-also

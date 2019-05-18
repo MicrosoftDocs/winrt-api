@@ -14,6 +14,12 @@ Provides response data for a request to download and install a package for the c
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1803 | 17134 | StoreQueueItems |
+
 ## -examples
 
 ## -see-also

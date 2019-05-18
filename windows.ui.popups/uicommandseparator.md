@@ -15,7 +15,7 @@ Represents a command separator in a context menu.
 ## -remarks
 You can use a command separator to create a visual separation between groups of items in a context menu.
 
-Setting properties on a [UICommandSeparator](uicommandseparator.md) object has no effect.
+Setting properties on a UICommandSeparator object has no effect.
 
 ## -examples
 

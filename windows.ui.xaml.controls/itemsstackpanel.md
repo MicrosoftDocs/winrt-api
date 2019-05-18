@@ -19,12 +19,12 @@ Arranges child elements of an [ItemsControl](itemscontrol.md) into a single line
 
 
 ## -remarks
-[ItemsStackPanel](itemsstackpanel.md) can be used only as the [ItemsPanel](itemscontrol_itemspanel.md) of an [ItemsControl](itemscontrol.md) that displays more than one item at a time. It can't be used with an [ItemsControl](itemscontrol.md) that displays only one item at a time, such as a [ComboBox](combobox.md) or [FlipView](flipview.md). [ItemsStackPanel](itemsstackpanel.md) is the default [ItemsPanel](itemscontrol_itemspanel.md) for [ListView](listview.md).
+ItemsStackPanel can be used only as the [ItemsPanel](itemscontrol_itemspanel.md) of an [ItemsControl](itemscontrol.md) that displays more than one item at a time. It can't be used with an [ItemsControl](itemscontrol.md) that displays only one item at a time, such as a [ComboBox](combobox.md) or [FlipView](flipview.md). ItemsStackPanel is the default [ItemsPanel](itemscontrol_itemspanel.md) for [ListView](listview.md).
 
-By default, the [ItemsStackPanel](itemsstackpanel.md) stacks items vertically from top to bottom. You can set the [Orientation](itemsstackpanel_orientation.md) property to **Horizontal** to stack items from left to right.
+By default, the ItemsStackPanel stacks items vertically from top to bottom. You can set the [Orientation](itemsstackpanel_orientation.md) property to **Horizontal** to stack items from left to right.
 
 ## -examples
-This example shows how to use an [ItemsStackPanel](itemsstackpanel.md) to display [ListView](listview.md) items stacked horizontally.
+This example shows how to use an ItemsStackPanel to display [ListView](listview.md) items stacked horizontally.
 
 ```xaml
 <ListView>

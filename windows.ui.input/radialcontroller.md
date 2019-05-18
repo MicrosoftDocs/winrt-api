@@ -22,18 +22,26 @@ With a form factor based on a rotate action (or gesture), the Surface Dial is in
 
 The Surface Dial also supports both a press and hold action and a click action. Press and hold has a single function: display a menu of commands. If the menu is active, the rotate and click input is processed by the menu. Otherwise, the input is passed to your app for processing.
 
-The [RadialController](radialcontroller.md) and related APIs (see end of topic) enable you to customize both the integrated command menu and the interaction experience supported by your app.
+The RadialController and related APIs (see end of topic) enable you to customize both the integrated command menu and the interaction experience supported by your app.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | ButtonHolding |
+| 1703 | 15063 | ButtonPressed |
+| 1703 | 15063 | ButtonReleased |
+
 ## -examples
 
-In this example, we add a custom tool to the Surface Dial menu and declare the [RadialController](radialcontroller.md) input handlers.
+In this example, we add a custom tool to the Surface Dial menu and declare the RadialController input handlers.
 
-1. First, we create a reference to the [RadialController](radialcontroller.md) object for the Surface Dial (`myController`) by calling [CreateForCurrentView](radialcontroller_createforcurrentview_1186319000.md).
+1. First, we create a reference to the RadialController object for the Surface Dial (`myController`) by calling [CreateForCurrentView](radialcontroller_createforcurrentview_1186319000.md).
 1. We then create an instance of a [RadialControllerMenuItem](radialcontrollermenuitem.md) (`myItem`) by calling [RadialControllerMenuItem.CreateFromIcon](radialcontrollermenuitem_createfromicon_2066467533.md).
 1. Next, we append that item to the collection of menu items.
-1. We declare the input event handlers ([ButtonClicked](radialcontroller_buttonclicked.md) and [RotationChanged](radialcontroller_rotationchanged.md)) for the [RadialController](radialcontroller.md) object.
+1. We declare the input event handlers ([ButtonClicked](radialcontroller_buttonclicked.md) and [RotationChanged](radialcontroller_rotationchanged.md)) for the RadialController object.
 1. Finally, we define the event handlers.
 
 ```csharp
@@ -90,7 +98,7 @@ public sealed partial class MainPage : Page
  }
 ```
 
-In the initialization function shown here, we declare the various input event handlers for the [RadialController](radialcontroller.md) object.
+In the initialization function shown here, we declare the various input event handlers for the RadialController object.
 
 [!code-csharp[SnippetInitializeController](../windows.ui.input/code/RadialController/csharp/MainPage.xaml.cs#SnippetInitializeController)]
 
@@ -104,4 +112,4 @@ In the [RotationChanged](radialcontroller_rotationchanged.md) handler, the inter
 
 ## -see-also
 
-[Windows.UI.Input Classes](windows_ui_input_classes.md), [RadialController class](radialcontroller.md), [RadialControllerButtonClickedEventArgs class](radialcontrollerbuttonclickedeventargs.md), [RadialControllerConfiguration class](radialcontrollerconfiguration.md), [RadialControllerControlAcquiredEventArgs class](radialcontrollercontrolacquiredeventargs.md), [RadialControllerMenu class](radialcontrollermenu.md), [RadialControllerMenuItem class](radialcontrollermenuitem.md), [RadialControllerRotationChangedEventArgs class](radialcontrollerrotationchangedeventargs.md), [RadialControllerScreenContact class](radialcontrollerscreencontact.md), [RadialControllerScreenContactContinuedEventArgs class](radialcontrollerscreencontactcontinuedeventargs.md), [RadialControllerScreenContactStartedEventArgs class](radialcontrollerscreencontactstartedeventargs.md), [RadialControllerMenuKnownIcon enum](radialcontrollermenuknownicon.md), [RadialControllerSystemMenuItemKind enum](radialcontrollersystemmenuitemkind.md), [Surface Dial interactions](https://msdn.microsoft.com/windows/uwp/input-and-devices/windows-wheel-interactions), [Universal Windows Platform samples (C# and C++)](https://go.microsoft.com/fwlink/?linkid=832713), [Windows classic desktop sample](https://aka.ms/radialcontrollerclassicsample), [Radial controller sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/RadialController)
+[Windows.UI.Input Classes](windows_ui_input_classes.md), [RadialController class, [RadialControllerButtonClickedEventArgs class](radialcontrollerbuttonclickedeventargs.md), [RadialControllerConfiguration class](radialcontrollerconfiguration.md), [RadialControllerControlAcquiredEventArgs class](radialcontrollercontrolacquiredeventargs.md), [RadialControllerMenu class](radialcontrollermenu.md), [RadialControllerMenuItem class](radialcontrollermenuitem.md), [RadialControllerRotationChangedEventArgs class](radialcontrollerrotationchangedeventargs.md), [RadialControllerScreenContact class](radialcontrollerscreencontact.md), [RadialControllerScreenContactContinuedEventArgs class](radialcontrollerscreencontactcontinuedeventargs.md), [RadialControllerScreenContactStartedEventArgs class](radialcontrollerscreencontactstartedeventargs.md), [RadialControllerMenuKnownIcon enum](radialcontrollermenuknownicon.md), [RadialControllerSystemMenuItemKind enum](radialcontrollersystemmenuitemkind.md), [Surface Dial interactions](https://msdn.microsoft.com/windows/uwp/input-and-devices/windows-wheel-interactions), [Universal Windows Platform samples (C# and C++)](https://go.microsoft.com/fwlink/?linkid=832713), [Windows classic desktop sample](https://aka.ms/radialcontrollerclassicsample), [Radial controller sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/RadialController)

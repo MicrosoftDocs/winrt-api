@@ -13,7 +13,7 @@ public class VoiceCommandResponse : Windows.ApplicationModel.VoiceCommands.IVoic
 The response from a background app service for progress, confirmation, disambiguation, completion, or failure screens displayed on the **Cortana** canvas.
 
 ## -remarks
-The background app service cannot use the [VoiceCommandResponse](voicecommandresponse.md) object to display anything on the **Cortana** canvas unless the app has access to a [VoiceCommandServiceConnection](voicecommandserviceconnection.md) object. A [VoiceCommandServiceConnection](voicecommandserviceconnection.md) object is created only when the background app service is invoked from **Cortana**.
+The background app service cannot use the VoiceCommandResponse object to display anything on the **Cortana** canvas unless the app has access to a [VoiceCommandServiceConnection](voicecommandserviceconnection.md) object. A [VoiceCommandServiceConnection](voicecommandserviceconnection.md) object is created only when the background app service is invoked from **Cortana**.
 
 ## -examples
 

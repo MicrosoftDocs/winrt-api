@@ -29,7 +29,7 @@ To get deep query results from a folder that's not a library folder, call the [C
 
 <table>
    <tr><th>Method</th><th>Create a shallow query that only returns items from the current folder</th><th>Create a deep query that returns items from the current folder and from its subfolders</th></tr>
-   <tr><td>[GetItemsAsync()](storagefolder_getitemsasync_1518547059.md)</td><td>Default behavior of this method.</td><td>N/A</td></tr>
+   <tr><td>GetItemsAsync()</td><td>Default behavior of this method.</td><td>N/A</td></tr>
    <tr><td>[GetItemsAsync(UInt32, UInt32)](storagefolder_getitemsasync_561011846.md)</td><td>Default behavior of this method.</td><td>N/A</td></tr>
    <tr><td>[CreateItemQuery()](storagefolder_createitemquery_543424716.md)</td><td>Default behavior of this method.</td><td>N/A</td></tr>
    <tr><td>[CreateItemQueryWithOptions(QueryOptions)](storagefolder_createitemquerywithoptions_1519361285.md)</td><td><ul><li>Default behavior of this method if none of the following options are specified.
@@ -44,7 +44,7 @@ To get deep query results from a folder that's not a library folder, call the [C
 To get only files, call the [GetFilesAsync](storagefolder_getfilesasync_1429382825.md) method. To get only folders, call the [GetFoldersAsync](storagefolder_getfoldersasync_592765033.md) method.
 
 ## -examples
-The following example shows how to get the files and subfolders in the current folder by calling the [GetItemsAsync()](storagefolder_getitemsasync_1518547059.md) method.
+The following example shows how to get the files and subfolders in the current folder by calling the GetItemsAsync() method.
 
 ```csharp
 using Windows.Storage;

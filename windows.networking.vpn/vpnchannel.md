@@ -14,6 +14,17 @@ Provides methods to create and destroy a VPN channel, and methods to perform buf
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1803 | 17134 | AddAndAssociateTransport |
+| 1803 | 17134 | CurrentRequestTransportContext |
+| 1803 | 17134 | GetSlotTypeForTransportContext |
+| 1803 | 17134 | ReplaceAndAssociateTransport |
+| 1803 | 17134 | StartReconnectingTransport |
+| 1803 | 17134 | StartWithTrafficFilter(IEnumerable<HostName>,IEnumerable<HostName>,VpnInterfaceId,VpnRouteAssignment,VpnDomainNameAssignment,UInt32,UInt32,Boolean,IEnumerable<Object>,VpnTrafficFilterAssignment) |
+
 ## -examples
 
 ## -see-also

@@ -26,10 +26,10 @@ This event occurs only when text is composed through an [Input Method Editor (IM
 + [TextChanging](richeditbox_textchanging.md)
 + [TextChanged](richeditbox_textchanged.md)
 + [TextCompositionChanged](richeditbox_textcompositionchanged.md)
-+ [TextCompositionEnded](richeditbox_textcompositionended.md)
++ TextCompositionEnded
 
 
-After the [TextCompositionStarted](richeditbox_textcompositionstarted.md) event, the [TextChanging](richeditbox_textchanging.md) &gt; [TextChanged](richeditbox_textchanged.md) &gt; [TextCompositionChanged](richeditbox_textcompositionchanged.md) event cycle can occur multiple times before the [TextCompositionEnded](richeditbox_textcompositionended.md) event occurs.
+After the [TextCompositionStarted](richeditbox_textcompositionstarted.md) event, the [TextChanging](richeditbox_textchanging.md) &gt; [TextChanged](richeditbox_textchanged.md) &gt; [TextCompositionChanged](richeditbox_textcompositionchanged.md) event cycle can occur multiple times before the TextCompositionEnded event occurs.
 
 
 

@@ -14,6 +14,12 @@ Represents data about how to display a mini contact card.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1511 | 10586 | ServerSearchContactListIds |
+
 ## -examples
 
 ## -see-also

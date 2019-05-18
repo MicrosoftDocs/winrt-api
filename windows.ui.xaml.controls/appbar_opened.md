@@ -19,7 +19,7 @@ Occurs when the [AppBar](appbar.md) changes from hidden to visible.
 
 
 ## -remarks
-You can respond to the app bar being opened by handling the [Opened](appbar_opened.md) event.
+You can respond to the app bar being opened by handling the Opened event.
 
 ## -examples
 

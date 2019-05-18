@@ -47,7 +47,7 @@ Given this XAML UI:
 </Canvas>
 ```
 
-Here are some example usages and results from [FindElementsInHostCoordinates](visualtreehelper_findelementsinhostcoordinates_1662522058.md), using different *subtree* values:
+Here are some example usages and results from FindElementsInHostCoordinates, using different *subtree* values:
 
 ```csharp
 private void Test(object sender, RoutedEventArgs e)

@@ -24,6 +24,12 @@ Low priority setting for an operation. Ensures that the operation doesn't get pl
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1809 | 17763 | Low |
+
 ## -examples
 
 ## -see-also

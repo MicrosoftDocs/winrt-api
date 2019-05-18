@@ -16,7 +16,7 @@ Gets the identifier for the currently shown app view.
 The identifier for the currently shown app view.
 
 ## -remarks
-When an app calls [CurrentlyShownApplicationViewId](webuilaunchactivatedeventargs_currentlyshownapplicationviewid.md) in the activated event handler of a secondary window (for example, **eventArgs.get_CurrentlyShownApplicationViewId**), it gets the view identifier of the child window.
+When an app calls CurrentlyShownApplicationViewId in the activated event handler of a secondary window (for example, **eventArgs.get_CurrentlyShownApplicationViewId**), it gets the view identifier of the child window.
 
 ## -examples
 

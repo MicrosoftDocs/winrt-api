@@ -16,7 +16,7 @@ Gets or sets the [DateTime](../windows.foundation/datetime.md) object that repre
 The object that represents the value of a **Date** HTTP header on an HTTP request. A **null** value means that the header is absent.
 
 ## -remarks
-The [Date](httpresponseheadercollection_date.md) property represents the value of a **Date** HTTP header on an HTTP response. The **Date** header is the date and time the message was sent.
+The Date property represents the value of a **Date** HTTP header on an HTTP response. The **Date** header is the date and time the message was sent.
 
 Javascript and .NET languages do not use the [DateTime](../windows.foundation/datetime.md) object directly. In Javascript a [DateTime](../windows.foundation/datetime.md) is projected as a  object, and in .NET it is projected as a [System.DateTimeOffset](https://msdn.microsoft.com/library/system.datetimeoffset.aspx). Each language transparently handles the conversion to the granularity and date ranges for the respective language.
 
@@ -26,7 +26,7 @@ For more detailed information, see the [Windows.Foundation.DateTime](../windows.
 
 
 
-The following sample code shows a method to get and set the **Date** header on an [HttpResponseMessage](../windows.web.http/httpresponsemessage.md) object using the [Date](httpresponseheadercollection_date.md) property on the [HttpResponseHeaderCollection](httpresponseheadercollection.md) object.
+The following sample code shows a method to get and set the **Date** header on an [HttpResponseMessage](../windows.web.http/httpresponsemessage.md) object using the Date property on the [HttpResponseHeaderCollection](httpresponseheadercollection.md) object.
 
 ```csharp
     public void DemonstrateHeaderResponseDate() {

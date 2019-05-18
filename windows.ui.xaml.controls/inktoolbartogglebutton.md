@@ -14,7 +14,7 @@ Represents an object that provides infrastructure for both built-in and custom t
 
 ## -remarks
 
-The [InkToolbarToggleButton](inktoolbartogglebutton.md) class cannot be instantiated directly. For user interface purposes, treat [InkToolbarToggleButton](inktoolbartogglebutton.md) as an abstract base class. Use the various built-in and custom [InkToolbar](inktoolbar.md) buttons instead.
+The InkToolbarToggleButton class cannot be instantiated directly. For user interface purposes, treat InkToolbarToggleButton as an abstract base class. Use the various built-in and custom [InkToolbar](inktoolbar.md) buttons instead.
 
 By default, the [InkToolbar](inktoolbar.md) contains the following built-in buttons:
 Radio group toggle buttons
@@ -31,7 +31,7 @@ Standalone toggle button
 
 ### **InkToolbarToggleButton** derived classes
 
-[InkToolbarToggleButton](inktoolbartogglebutton.md) is the base class for:
+InkToolbarToggleButton is the base class for:
 
 Standalone toggle button (built-in)
 

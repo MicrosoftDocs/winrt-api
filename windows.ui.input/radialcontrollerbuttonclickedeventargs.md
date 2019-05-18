@@ -24,6 +24,12 @@ Your app does not receive this event when:
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | SimpleHapticsController |
+
 ## -examples
 
 ## -see-also

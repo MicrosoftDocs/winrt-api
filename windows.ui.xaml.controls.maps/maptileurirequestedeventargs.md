@@ -14,6 +14,12 @@ Provides data for the [HttpMapTileDataSource.UriRequested](httpmaptiledatasource
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1809 | 17763 | FrameIndex |
+
 ## -examples
 
 ## -see-also

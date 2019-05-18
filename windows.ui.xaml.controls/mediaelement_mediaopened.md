@@ -21,7 +21,7 @@ Occurs when the media stream has been validated and opened, and the file headers
 ## -remarks
 Live media streams report a [NaturalDuration](mediaelement_naturalduration.md) of **Int64.MaxValue**.
 
-Any calls to [Play](mediaelement_play_848564459.md), [Pause](mediaelement_pause_1953642114.md), and [Stop](mediaelement_stop_1201535524.md) methods that occur before the [MediaOpened](mediaelement_mediaopened.md) event is raised are ignored.
+Any calls to [Play](mediaelement_play_848564459.md), [Pause](mediaelement_pause_1953642114.md), and [Stop](mediaelement_stop_1201535524.md) methods that occur before the MediaOpened event is raised are ignored.
 
 ## -examples
 The following code shows how to determine if a media stream is a live stream.

@@ -16,7 +16,7 @@ Used by a source app's deferral delegate to notify a [DataPackage](datapackage.m
 Source apps have the option of promising data formats to target apps, instead of supplying the format immediately. A common example is when a source app supports an image format, such as JPG, but doesn't create the format unless the target app requests it. You might want to download our [Sharing content source app sample](https://go.microsoft.com/fwlink/p/?linkid=231511). 
 
 ## -examples
-The following code shows how to use a [DataProviderDeferral](dataproviderdeferral.md) object to defer a request from a target app.
+The following code shows how to use a DataProviderDeferral object to defer a request from a target app.
 
 ```javascript
 async private void OnDeferredImageRequestedHandler(DataProviderRequest request)

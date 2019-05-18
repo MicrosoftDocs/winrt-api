@@ -24,16 +24,16 @@ Replace the existing item if the file or folder already exists.
 ### -field FailIfExists:2
 Raise an exception of type **System.Exception** if the file or folder already exists.
 
-Methods that don't explicitly pass a value from the [CreationCollisionOption](creationcollisionoption.md) enumeration use the **FailIfExists** value as the default when you try to create, rename, copy, or move a file or folder.
+Methods that don't explicitly pass a value from the CreationCollisionOption enumeration use the **FailIfExists** value as the default when you try to create, rename, copy, or move a file or folder.
 
 ### -field OpenIfExists:3
 Return the existing item if the file or folder already exists.
 
 
 ## -remarks
-Methods that don't explicitly pass a value from the [CreationCollisionOption](creationcollisionoption.md) enumeration use the **FailIfExists** value as the default when you create a file or folder.
+Methods that don't explicitly pass a value from the CreationCollisionOption enumeration use the **FailIfExists** value as the default when you create a file or folder.
 
-For example, the [CreateFileAsync](downloadsfolder_createfileasync_1058061470.md) method has one overload, [CreateFileAsync (String, .CreationCollisionOption)](downloadsfolder_createfileasync_1058061470.md), that explicitly passes a value from the [CreationCollisionOption](creationcollisionoption.md) enumeration. If you call the other overload, [CreateFileAsync (String)](downloadsfolder_createfileasync_644130808.md), the method uses the **FailIfExists** option as the default.
+For example, the [CreateFileAsync](downloadsfolder_createfileasync_1058061470.md) method has one overload, [CreateFileAsync (String, .CreationCollisionOption)](downloadsfolder_createfileasync_1058061470.md), that explicitly passes a value from the CreationCollisionOption enumeration. If you call the other overload, [CreateFileAsync (String)](downloadsfolder_createfileasync_644130808.md), the method uses the **FailIfExists** option as the default.
 
 ## -examples
 

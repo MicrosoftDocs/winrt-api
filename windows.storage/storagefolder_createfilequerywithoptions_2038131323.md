@@ -57,7 +57,7 @@ To get items that are files or folders, call the [CreateItemQueryWithOptions](st
 > You must install indexer components to use some [QueryOptions](../windows.storage.search/queryoptions.md) because indexer components are not installed by default.
 
 ## -examples
-The following example shows how to get the JPG files in the user's Pictures folder and its subfolders, sorted by date, by calling the [CreateFileQueryWithOptions(QueryOptions)](storagefolder_createfilequerywithoptions_2038131323.md) method. This query is a deep query because the folder is a library folder and a value other than **DefaultQuery** from the [CommonFileQuery](../windows.storage.search/commonfilequery.md) enumeration is specified.
+The following example shows how to get the JPG files in the user's Pictures folder and its subfolders, sorted by date, by calling the CreateFileQueryWithOptions(QueryOptions) method. This query is a deep query because the folder is a library folder and a value other than **DefaultQuery** from the [CommonFileQuery](../windows.storage.search/commonfilequery.md) enumeration is specified.
 
 Before you run the following example, enable the **Pictures Library** capability in the app manifest file.
 

@@ -19,7 +19,7 @@ Displays the header text of the items in a [Pivot](../windows.ui.xaml.controls/p
 
 
 ## -remarks
-The XAML usage shown is for adjusting the XAML template for a [Pivot](../windows.ui.xaml.controls/pivot.md) control (or derived type). A [PivotHeaderPanel](pivotheaderpanel.md) element is the first child of a [PivotPanel](pivotpanel.md) part in the default template XAML for [Pivot](../windows.ui.xaml.controls/pivot.md). [PivotHeaderPanel](pivotheaderpanel.md) isn't typically used for general XAML UI composition.
+The XAML usage shown is for adjusting the XAML template for a [Pivot](../windows.ui.xaml.controls/pivot.md) control (or derived type). A PivotHeaderPanel element is the first child of a [PivotPanel](pivotpanel.md) part in the default template XAML for [Pivot](../windows.ui.xaml.controls/pivot.md). PivotHeaderPanel isn't typically used for general XAML UI composition.
 
 ## -examples
 

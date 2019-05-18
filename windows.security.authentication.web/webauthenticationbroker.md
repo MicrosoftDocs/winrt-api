@@ -11,7 +11,7 @@ public class WebAuthenticationBroker
 
 ## -description
 
-Starts the authentication operation. You can call the methods of this class multiple times in a single application or across multiple applications at the same time. The [Web authentication broker sample](https://code.msdn.microsoft.com/windowsapps/Web-Authentication-d0485122) in the Samples gallery is an example of how to use the [WebAuthenticationBroker](webauthenticationbroker.md) class for single sign on (SSO) connections.
+Starts the authentication operation. You can call the methods of this class multiple times in a single application or across multiple applications at the same time. The [Web authentication broker sample](https://code.msdn.microsoft.com/windowsapps/Web-Authentication-d0485122) in the Samples gallery is an example of how to use the WebAuthenticationBroker class for single sign on (SSO) connections.
 
 ## -remarks
 

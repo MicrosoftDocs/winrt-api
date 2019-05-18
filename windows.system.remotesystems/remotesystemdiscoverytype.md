@@ -30,7 +30,7 @@ Remote systems are discoverable through a proximal connection and are expected t
 
 ### Version history
 
-| Version | SDK version | Value added |
+| Windows version | SDK version | Value added |
 | -- | -- | -- |
 | 1703 | 15063 | SpatiallyProximal |
 

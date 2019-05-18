@@ -13,9 +13,9 @@ public void Start()
 Starts a search for devices, and subscribes to device enumeration events.
 
 ## -remarks
-An app calls [Start](devicewatcher_start_1587696324.md) to begin the search for devices. During this initial enumeration, the [DeviceWatcher](devicewatcher.md) raises an [Added](devicewatcher_added.md) event for each device that's found, until all devices are found. The [DeviceWatcher](devicewatcher.md) raises an [EnumerationCompleted](devicewatcher_enumerationcompleted.md) event when the initial enumeration is complete, and continues to raise events if a device is added, updated, or removed.
+An app calls Start to begin the search for devices. During this initial enumeration, the [DeviceWatcher](devicewatcher.md) raises an [Added](devicewatcher_added.md) event for each device that's found, until all devices are found. The [DeviceWatcher](devicewatcher.md) raises an [EnumerationCompleted](devicewatcher_enumerationcompleted.md) event when the initial enumeration is complete, and continues to raise events if a device is added, updated, or removed.
 
-The [Start](devicewatcher_start_1587696324.md) method can only be called when the [DeviceWatcher](devicewatcher.md) is in the **Created**, **Stopped** or **Aborted** state. The [Status](devicewatcher_status.md) property indicates the [DeviceWatcher](devicewatcher.md) state. When re-starting the watcher, wait for the [Stopped](devicewatcher_stopped.md) event before calling [Start](devicewatcher_start_1587696324.md). The following diagram shows how the [DeviceWatcher](devicewatcher.md) transitions between the states represented by [DeviceWatcherStatus](devicewatcherstatus.md) enumeration.
+The Start method can only be called when the [DeviceWatcher](devicewatcher.md) is in the **Created**, **Stopped** or **Aborted** state. The [Status](devicewatcher_status.md) property indicates the [DeviceWatcher](devicewatcher.md) state. When re-starting the watcher, wait for the [Stopped](devicewatcher_stopped.md) event before calling Start. The following diagram shows how the [DeviceWatcher](devicewatcher.md) transitions between the states represented by [DeviceWatcherStatus](devicewatcherstatus.md) enumeration.
 
 <img src="images/statediagram.png" alt="state diagram of DeviceWatcher states"/>
 

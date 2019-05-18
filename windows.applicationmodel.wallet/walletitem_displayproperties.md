@@ -16,7 +16,7 @@ Gets the collection of [WalletItemCustomProperty](walletitemcustomproperty.md) o
 The collection of [WalletItemCustomProperty](walletitemcustomproperty.md) objects associated with the wallet item.
 
 ## -remarks
-The key for the [DisplayProperties](walletitem_displayproperties.md) map is typically not used for the user UI. It's a programming identifier that you use to distinguish the individual custom properties. That identifier isn't part of the construction of a [WalletItemCustomProperty](walletitemcustomproperty.md); you choose it when you add one of the custom properties to the [DisplayProperties](walletitem_displayproperties.md) collection.
+The key for the DisplayProperties map is typically not used for the user UI. It's a programming identifier that you use to distinguish the individual custom properties. That identifier isn't part of the construction of a [WalletItemCustomProperty](walletitemcustomproperty.md); you choose it when you add one of the custom properties to the DisplayProperties collection.
 
 ## -examples
 

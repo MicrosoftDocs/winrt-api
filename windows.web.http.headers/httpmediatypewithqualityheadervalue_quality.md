@@ -16,7 +16,7 @@ Get or set the **qvalue** or quality used in the **Accept** HTTP header.
 The **qvalue** or quality.
 
 ## -remarks
-The [Quality](httpmediatypewithqualityheadervalue_quality.md) property represents the quality factor that allows the user agent to indicate the relative degree of preference for the media type in a header. [Quality](httpmediatypewithqualityheadervalue_quality.md) uses a scale from 0 to 1. The default value is q=1.
+The Quality property represents the quality factor that allows the user agent to indicate the relative degree of preference for the media type in a header. Quality uses a scale from 0 to 1. The default value is q=1.
 
 ## -examples
 

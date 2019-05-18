@@ -41,7 +41,7 @@ This API is designed for use with 3D Manufacturing Format (3MF) packages. For mo
 
 ### Version history
 
-| Version | SDK version | Value added |
+| Windows version | SDK version | Value added |
 | -- | -- | -- |
 | 1511 | 10586 | Printing3DDouble |
 | 1511 | 10586 | Printing3DUInt |

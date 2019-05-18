@@ -13,11 +13,11 @@ public class HttpExpectationHeaderValueCollection : Windows.Foundation.Collectio
 Represents the value of the **Expect** HTTP header on an HTTP request.
 
 ## -remarks
-The [HttpExpectationHeaderValueCollection](httpexpectationheadervaluecollection.md) class represents the value of the **Expect** HTTP header on an HTTP request.
+The HttpExpectationHeaderValueCollection class represents the value of the **Expect** HTTP header on an HTTP request.
 
-The [HttpExpectationHeaderValueCollection](httpexpectationheadervaluecollection.md) provides a collection container for instances of the [HttpExpectationHeaderValue](httpexpectationheadervalue.md) class used for expect information in the **Expect** HTTP header.
+The HttpExpectationHeaderValueCollection provides a collection container for instances of the [HttpExpectationHeaderValue](httpexpectationheadervalue.md) class used for expect information in the **Expect** HTTP header.
 
-The [Expect](httprequestheadercollection_expect.md) property on the [HttpRequestHeaderCollection](httprequestheadercollection.md) returns an [HttpExpectationHeaderValueCollection](httpexpectationheadervaluecollection.md) object.
+The [Expect](httprequestheadercollection_expect.md) property on the [HttpRequestHeaderCollection](httprequestheadercollection.md) returns an HttpExpectationHeaderValueCollection object.
 
 ## -examples
 

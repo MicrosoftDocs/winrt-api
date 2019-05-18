@@ -33,6 +33,13 @@ The window is maximized.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1809 | 17763 | CompactOverlay |
+| 1809 | 17763 | Maximized |
+
 ## -examples
 
 ## -see-also

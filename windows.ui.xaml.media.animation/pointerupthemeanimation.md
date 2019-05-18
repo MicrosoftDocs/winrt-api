@@ -20,7 +20,7 @@ Represents a preconfigured animation that runs after a pointer down is detected 
 ## -remarks
 Setting the [Duration](timeline_duration.md) property has no effect on this object as the duration is preconfigured.
 
-[PointerUpThemeAnimation](pointerupthemeanimation.md) overrides the current values of [Projection](../windows.ui.xaml/uielement_projection.md) and [RenderTransform](../windows.ui.xaml/uielement_rendertransform.md) and sets them to their default values.
+PointerUpThemeAnimation overrides the current values of [Projection](../windows.ui.xaml/uielement_projection.md) and [RenderTransform](../windows.ui.xaml/uielement_rendertransform.md) and sets them to their default values.
 
 > **Windows 8.1 and prior**
 > [Projection](../windows.ui.xaml/uielement_projection.md) and [RenderTransform](../windows.ui.xaml/uielement_rendertransform.md) are not affected by [PointerDownThemeAnimation](pointerdownthemeanimation.md).

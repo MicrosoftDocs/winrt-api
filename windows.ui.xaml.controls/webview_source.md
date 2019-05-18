@@ -22,7 +22,7 @@ Gets or sets the Uniform Resource Identifier (URI) source of the HTML content to
 The Uniform Resource Identifier (URI) source of the HTML content to display in the [WebView](webview.md) control.
 
 ## -remarks
-The [Source](webview_source.md) property retains its old value during navigation until the navigation is complete. During navigation, you can get the new Uniform Resource Identifier (URI) through the event arguments for the navigation events.
+The Source property retains its old value during navigation until the navigation is complete. During navigation, you can get the new Uniform Resource Identifier (URI) through the event arguments for the navigation events.
 
 ## -examples
 

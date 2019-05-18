@@ -10,7 +10,7 @@ public class Canvas : Windows.UI.Xaml.Controls.Panel, Windows.UI.Xaml.Controls.I
 # Windows.UI.Xaml.Controls.Canvas
 
 ## -description
-Defines an area within which you can explicitly position child objects, using coordinates that are relative to the [Canvas](canvas.md) area.
+Defines an area within which you can explicitly position child objects, using coordinates that are relative to the Canvas area.
 
 ## -xaml-syntax
 ```xaml
@@ -24,30 +24,30 @@ Defines an area within which you can explicitly position child objects, using co
 
 ## -remarks
 
-[Canvas](canvas.md) is a layout panel that supports absolute positioning of child elements relative to the top left corner of the canvas.
+Canvas is a layout panel that supports absolute positioning of child elements relative to the top left corner of the canvas.
 
 <img alt="Canvas layout panel" src="images/controls/Canvas.png" />
 
-A [Canvas](canvas.md) is one of the [Panel](panel.md) elements that enable layout. [Canvas](canvas.md) uses absolute positioning as its layout technique for its contained child elements. Each child element is rendered within the [Canvas](canvas.md) area. You control the positioning of elements inside the [Canvas](canvas.md) by specifying x and y coordinates. These coordinates are in pixels. The x and y coordinates are often specified by using the [Canvas.Left](canvas_left.md) and [Canvas.Top](canvas_top.md) attached properties. [Canvas.Left](canvas_left.md) specifies the object's distance from the left side of the containing [Canvas](canvas.md) (the x-coordinate), and [Canvas.Top](canvas_top.md) specifies the object's distance from the top of the containing [Canvas](canvas.md) (the y-coordinate).
+A Canvas is one of the [Panel](panel.md) elements that enable layout. Canvas uses absolute positioning as its layout technique for its contained child elements. Each child element is rendered within the Canvas area. You control the positioning of elements inside the Canvas by specifying x and y coordinates. These coordinates are in pixels. The x and y coordinates are often specified by using the [Canvas.Left](canvas_left.md) and [Canvas.Top](canvas_top.md) attached properties. [Canvas.Left](canvas_left.md) specifies the object's distance from the left side of the containing Canvas (the x-coordinate), and [Canvas.Top](canvas_top.md) specifies the object's distance from the top of the containing Canvas (the y-coordinate).
 
 > [!NOTE]
-> Because absolute positioning does not take into account the size of the app window, scaling, or other user-selected sizing, using a container element that adapts to different orientations and screen settings, such as [Grid](grid.md) or [StackPanel](stackpanel.md), is often a better choice than using [Canvas](canvas.md). For more information, see [Define layouts with XAML](https://msdn.microsoft.com/library/8d4e4162-1c9c-48f4-8a94-34976fb17079).
+> Because absolute positioning does not take into account the size of the app window, scaling, or other user-selected sizing, using a container element that adapts to different orientations and screen settings, such as [Grid](grid.md) or [StackPanel](stackpanel.md), is often a better choice than using Canvas. For more information, see [Define layouts with XAML](https://msdn.microsoft.com/library/8d4e4162-1c9c-48f4-8a94-34976fb17079).
 
-You can nest [Canvas](canvas.md) objects. When you nest objects, the coordinates used by each object are relative to its immediate containing [Canvas](canvas.md).
+You can nest Canvas objects. When you nest objects, the coordinates used by each object are relative to its immediate containing Canvas.
 
-Each child object of a [Canvas](canvas.md) must be a [UIElement](../windows.ui.xaml/uielement.md). In XAML, you declare child objects as content of a [Canvas](canvas.md) object element. In code, you can manipulate the collection of [Canvas](canvas.md) child objects by getting the collection that is accessed by the [Children](panel_children.md) property.
+Each child object of a Canvas must be a [UIElement](../windows.ui.xaml/uielement.md). In XAML, you declare child objects as content of a Canvas object element. In code, you can manipulate the collection of Canvas child objects by getting the collection that is accessed by the [Children](panel_children.md) property.
 
-In many cases, a [Canvas](canvas.md) is used solely as a container for other objects and does not have any visible properties. A [Canvas](canvas.md) and its children (if any) are not visible if any of these conditions are true:
+In many cases, a Canvas is used solely as a container for other objects and does not have any visible properties. A Canvas and its children (if any) are not visible if any of these conditions are true:
 
 + The [Visibility](../windows.ui.xaml/uielement_visibility.md) property is set to **Collapsed**.
-+ The [Opacity](../windows.ui.xaml/uielement_opacity.md) property of the [Canvas](canvas.md) is 0.
++ The [Opacity](../windows.ui.xaml/uielement_opacity.md) property of the Canvas is 0.
 
-The children of a [Canvas](canvas.md) (if any) are still visible even if the [Canvas](canvas.md) has any of these conditions:
+The children of a Canvas (if any) are still visible even if the Canvas has any of these conditions:
 
-+ The [Background](panel_background.md) property of the [Canvas](canvas.md) is **null**.
-+ The [Height](../windows.ui.xaml/frameworkelement_height.md) or [Width](../windows.ui.xaml/frameworkelement_width.md) property of the [Canvas](canvas.md) is 0.
++ The [Background](panel_background.md) property of the Canvas is **null**.
++ The [Height](../windows.ui.xaml/frameworkelement_height.md) or [Width](../windows.ui.xaml/frameworkelement_width.md) property of the Canvas is 0.
 
-A [Canvas](canvas.md) with no children and with a default [Height](../windows.ui.xaml/frameworkelement_height.md) and [Width](../windows.ui.xaml/frameworkelement_width.md) of **Auto** doesn't have dimensions. This is also the case if the [Canvas](canvas.md) has children but all the children have [Visibility](../windows.ui.xaml/uielement_visibility.md) of **Collapsed**, or zero [Height](../windows.ui.xaml/frameworkelement_height.md) or [Width](../windows.ui.xaml/frameworkelement_width.md).
+A Canvas with no children and with a default [Height](../windows.ui.xaml/frameworkelement_height.md) and [Width](../windows.ui.xaml/frameworkelement_width.md) of **Auto** doesn't have dimensions. This is also the case if the Canvas has children but all the children have [Visibility](../windows.ui.xaml/uielement_visibility.md) of **Collapsed**, or zero [Height](../windows.ui.xaml/frameworkelement_height.md) or [Width](../windows.ui.xaml/frameworkelement_width.md).
 
 ### XAML attached properties
 
@@ -70,7 +70,7 @@ In order to support XAML processor access to the attached properties, and also t
 > + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
 > + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
 
-This example shows how to position a rectangle 30 pixels from the left and 30 pixels from the top of a [Canvas](canvas.md).
+This example shows how to position a rectangle 30 pixels from the left and 30 pixels from the top of a Canvas.
 
 [!code-xml[LayoutOvwCanvas1](../windows.ui.xaml/code/layout_ovw_all/CSharp/MainPage.xaml#SnippetLayoutOvwCanvas1)]
 <!--<desc><p xml:space="preserve">In the following example, the <xref targtype="class_winrt" rid="w_ui_xaml_ctrl.canvas">Canvas</xref> contains a red rectangle that has <xref targtype="property_winrt" rid="w_ui_xaml_ctrl.canvas_left">Canvas.Left</xref> and <xref targtype="property_winrt" rid="w_ui_xaml_ctrl.canvas_top">Canvas.Top</xref> values of 30.  </p></desc>

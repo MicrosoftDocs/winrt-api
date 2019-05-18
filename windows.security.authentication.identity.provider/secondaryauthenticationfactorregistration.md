@@ -17,6 +17,15 @@ Contains methods for registering companion devices.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | IsDevicePresenceMonitoringSupported |
+| 1703 | 15063 | RegisterDevicePresenceMonitoringAsync(String,String,SecondaryAuthenticationFactorDevicePresenceMonitoringMode) |
+| 1703 | 15063 | RegisterDevicePresenceMonitoringAsync(String,String,SecondaryAuthenticationFactorDevicePresenceMonitoringMode,String,String,IBuffer) |
+| 1703 | 15063 | UnregisterDevicePresenceMonitoringAsync |
+
 ## -examples
 
 ## -see-also

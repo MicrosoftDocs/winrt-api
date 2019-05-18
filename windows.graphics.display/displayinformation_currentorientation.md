@@ -16,7 +16,7 @@ Gets the current orientation of a rectangular monitor.
 The current orientation of a rectangular monitor.
 
 ## -remarks
-The value of the [DisplayInformation.CurrentOrientation](displayinformation_currentorientation.md) property corresponds to the orientation of the display or monitor and not necessarily to the orientation of your app. To determine the orientation of your app for layout purposes, use the [ApplicationView.Value](../windows.ui.viewmanagement/applicationview_value.md) property.
+The value of the DisplayInformation.CurrentOrientation property corresponds to the orientation of the display or monitor and not necessarily to the orientation of your app. To determine the orientation of your app for layout purposes, use the [ApplicationView.Value](../windows.ui.viewmanagement/applicationview_value.md) property.
 
 ## -examples
 

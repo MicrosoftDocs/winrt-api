@@ -16,7 +16,7 @@ Gets a set of parameters for a server behavior included in the **Expect** HTTP h
 A set of parameters for a server behavior.
 
 ## -remarks
-A given server behavior might not allow parameters and the [Parameters](httpexpectationheadervalue_parameters.md) property would be an empty list. For example, **100-continue** is never used with parameters.
+A given server behavior might not allow parameters and the Parameters property would be an empty list. For example, **100-continue** is never used with parameters.
 
 ## -examples
 

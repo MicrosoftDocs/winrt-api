@@ -13,9 +13,16 @@ public class DepthMediaFrame : Windows.Media.Capture.Frames.IDepthMediaFrame, Wi
 Represents a [VideoMediaFrame](videomediaframe.md) that contains depth video data.
 
 ## -remarks
-Get an instance of this class by accessing the [DepthMediaFrame](depthmediaframe.md) property of the [VideoMediaFrame](videomediaframe.md) class.
+Get an instance of this class by accessing the DepthMediaFrame property of the [VideoMediaFrame](videomediaframe.md) class.
 
 For how-to guidance on using [MediaFrameSource](mediaframesource.md) to capture frames, see [Process media frames with MediaFrameReader](https://msdn.microsoft.com/windows/uwp/audio-video-camera/process-media-frames-with-mediaframereader).
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | MaxReliableDepth |
+| 1703 | 15063 | MinReliableDepth |
 
 ## -examples
 

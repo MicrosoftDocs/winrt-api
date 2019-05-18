@@ -10,7 +10,7 @@ public class BitmapPropertiesView : Windows.Graphics.Imaging.IBitmapPropertiesVi
 # Windows.Graphics.Imaging.BitmapPropertiesView
 
 ## -description
-Provides read access to image properties and metadata. A particular instance of [BitmapPropertiesView](bitmappropertiesview.md) may represent the entire contents of the frame metadata, or any nested metadata block within the frame.
+Provides read access to image properties and metadata. A particular instance of BitmapPropertiesView may represent the entire contents of the frame metadata, or any nested metadata block within the frame.
 
 ## -remarks
 

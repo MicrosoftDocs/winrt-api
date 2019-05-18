@@ -24,7 +24,7 @@ This event provides access to the following objects:
 Features in this group are mutually exclusive: selecting a feature deselects the currently active feature.
 
 > [!NOTE]
-> [InkToolbarRulerButton](inktoolbarrulerbutton.md) and [InkToolbarCustomToggleButton](inktoolbarcustomtogglebutton.md) objects work in conjunction with the active feature and are not exposed to the [ActiveToolChanged](inktoolbar_activetoolchanged.md) event.
+> [InkToolbarRulerButton](inktoolbarrulerbutton.md) and [InkToolbarCustomToggleButton](inktoolbarcustomtogglebutton.md) objects work in conjunction with the active feature and are not exposed to the ActiveToolChanged event.
 
 ## -remarks
 

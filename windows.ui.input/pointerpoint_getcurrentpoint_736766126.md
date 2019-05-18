@@ -29,7 +29,7 @@ The transform to apply to the pointer.
 The pointer property values.
 
 ## -remarks
-[GetCurrentPoint](pointerpoint_getcurrentpoint_736766126.md) is a static method.
+GetCurrentPoint is a static method.
 
 This method is useful for getting pointer information relative to a specific element.
 

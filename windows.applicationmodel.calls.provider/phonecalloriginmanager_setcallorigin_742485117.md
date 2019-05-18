@@ -26,7 +26,7 @@ Before attempting to call this method, make sure of the following.
 + Your application is the active call origin application. You can use [IsCurrentAppActiveCallOriginApp](phonecalloriginmanager_iscurrentappactivecalloriginapp.md) to determine if this is true. If your app is not the currently active application, you can use [ShowPhoneCallOriginSettingsUI](phonecalloriginmanager_showphonecalloriginsettingsui_1617140504.md) to display a window to the user enabling them to change the currently active origin app.
 
 
-If any of these are not true, [SetCallOrigin](phonecalloriginmanager_setcallorigin_742485117.md) will return an access denied error.
+If any of these are not true, SetCallOrigin will return an access denied error.
 
 > [!IMPORTANT]
 > If your application uses the **phoneCall** capability, you must request a waiver if you want to publish your application in China. Contact your premier support representative if you need the waiver.

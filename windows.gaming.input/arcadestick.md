@@ -21,6 +21,13 @@ Instances of the **ArcadeStick** class cannot be created directly; instead, inst
 
 **ArcadeStick** supports any Xbox One-certified or Xbox 360-compatible arcade stick.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | FromGameController |
+| 1703 | 15063 | TryGetBatteryReport |
+
 ## -examples
 
 ## -see-also

@@ -13,11 +13,11 @@ public class AppBarToggleButtonAutomationPeer : Windows.UI.Xaml.Automation.Peers
 Exposes [AppBarToggleButton](../windows.ui.xaml.controls/appbartogglebutton.md) types to Microsoft UI Automation.
 
 ## -remarks
-The Windows Runtime  [AppBarToggleButton](../windows.ui.xaml.controls/appbartogglebutton.md) class creates a new [AppBarToggleButtonAutomationPeer](appbartogglebuttonautomationpeer.md) as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. Derive your automation peer from [AppBarToggleButtonAutomationPeer](appbartogglebuttonautomationpeer.md) if you are deriving a custom class from [AppBarToggleButton](../windows.ui.xaml.controls/appbartogglebutton.md) and want to add automation support for additional features that you enabled in your custom class. Then override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) so that it returns your custom peer.
+The Windows Runtime  [AppBarToggleButton](../windows.ui.xaml.controls/appbartogglebutton.md) class creates a new AppBarToggleButtonAutomationPeer as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. Derive your automation peer from AppBarToggleButtonAutomationPeer if you are deriving a custom class from [AppBarToggleButton](../windows.ui.xaml.controls/appbartogglebutton.md) and want to add automation support for additional features that you enabled in your custom class. Then override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) so that it returns your custom peer.
 
 ### Default peer implementation and overrides in **AppBarToggleButtonAutomationPeer**
 
-[AppBarToggleButtonAutomationPeer](appbartogglebuttonautomationpeer.md) has overrides of **Core** methods such that the associated [AutomationPeer](automationpeer.md) methods provide peer-specific information to a Microsoft UI Automation client.
+AppBarToggleButtonAutomationPeer has overrides of **Core** methods such that the associated [AutomationPeer](automationpeer.md) methods provide peer-specific information to a Microsoft UI Automation client.
 
 + [GetClassName](automationpeer_getclassname_614238974.md) returns "AppBarToggleButton".
 + [GetName](automationpeer_getname_1386609741.md) does not use the [ButtonBaseAutomationPeer](buttonbaseautomationpeer.md) behavior that returns a string based on **Content**. Instead, it looks for a label / **LabeledBy** value. Otherwise, values from apps should come from [AutomationProperties.Name](../windows.ui.xaml.automation/automationproperties_name.md) usages in XAML UI definitions, not from values forwarded from the control by the peer.

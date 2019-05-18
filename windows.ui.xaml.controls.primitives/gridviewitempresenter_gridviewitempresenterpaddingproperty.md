@@ -11,7 +11,7 @@ public Windows.UI.Xaml.DependencyProperty GridViewItemPresenterPaddingProperty {
 
 ## -description
 > [!NOTE]
-> [GridViewItemPresenterPaddingProperty](gridviewitempresenter_gridviewitempresenterpaddingproperty.md) may be altered or unavailable for releases after Windows 10. Instead, use [ContentPresenter.PaddingProperty](../windows.ui.xaml.controls/contentpresenter_paddingproperty.md).
+> GridViewItemPresenterPaddingProperty may be altered or unavailable for releases after Windows 10. Instead, use [ContentPresenter.PaddingProperty](../windows.ui.xaml.controls/contentpresenter_paddingproperty.md).
 
 Identifies the [GridViewItemPresenterPadding](gridviewitempresenter_gridviewitempresenterpadding.md) dependency property.
 

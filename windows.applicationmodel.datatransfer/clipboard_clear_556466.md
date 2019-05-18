@@ -13,7 +13,7 @@ public void Clear()
 Removes all data from the Clipboard.
 
 ## -remarks
-Use the [Clear](clipboard_clear_556466.md) method when you want to cancel an action that put data on the Clipboard.
+Use the Clear method when you want to cancel an action that put data on the Clipboard.
 
 ## -examples
 

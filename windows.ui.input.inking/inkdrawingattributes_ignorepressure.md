@@ -17,10 +17,10 @@ Gets or sets a value that indicates whether the pressure of the contact on the d
 **true** if pressure is ignored; otherwise **false**. The default value is **false**.
 
 ## -remarks
-If [IgnorePressure](inkdrawingattributes_ignorepressure.md) is set to false, the user can modify the thickness of a stroke by adjusting the amount of pressure applied to the digitizer surface while writing. 
+If IgnorePressure is set to false, the user can modify the thickness of a stroke by adjusting the amount of pressure applied to the digitizer surface while writing. 
 
 
-The following actions may be affected by the [IgnorePressure](inkdrawingattributes_ignorepressure.md) setting.<table>
+The following actions may be affected by the IgnorePressure setting.<table>
    <tr><th>IgnorePressure</th><th>True</th><th>False</th></tr>
    <tr><th>Copy</th><td>No effect. Pressure data, if present, is written to the Ink Serialized Format (ISF) stream.</td><td>No effect. Pressure data, if present, is written to the Ink Serialized Format (ISF) stream.</td></tr>
    <tr><th>Paste</th><td>Depending on the implementation, pressure data from Ink Serialized Format (ISF) stream may be ignored during rendering.</td><td>Depending on the implementation, pressure data from Ink Serialized Format (ISF) stream may be applied during rendering.</td></tr>
@@ -29,7 +29,7 @@ The following actions may be affected by the [IgnorePressure](inkdrawingattribut
 </table>
 
 ## -examples
-The following example demonstrates how to set the [IgnorePressure](inkdrawingattributes_ignorepressure.md) attribute for all strokes managed by this [InkManager](inkmanager.md) object (`inkManager`) that are created after the [SetDefaultDrawingAttributes](inkmanager_setdefaultdrawingattributes_1436218448.md) method call.
+The following example demonstrates how to set the IgnorePressure attribute for all strokes managed by this [InkManager](inkmanager.md) object (`inkManager`) that are created after the [SetDefaultDrawingAttributes](inkmanager_setdefaultdrawingattributes_1436218448.md) method call.
 
 ```
 

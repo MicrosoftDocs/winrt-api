@@ -16,9 +16,9 @@ The communication channel between the digital assistant and the Agent Activation
 
 ## -remarks
 
-The [ConversationalAgentSession](conversationalagentsession.md) is typically created through voice activation when a *wake* utterance such as "Hey Cortana" or "Alexa" is recognized.
+The ConversationalAgentSession is typically created through voice activation when a *wake* utterance such as "Hey Cortana" or "Alexa" is recognized.
 
-A [ConversationalAgentSession](conversationalagentsession.md) can be created in various other ways, including Bluetooth (when a *wake* utterance is transmitted through a headset or microphone), system keyboard accelerators (such as Win+C for Cortana), and initiation of speech interactions from within your app (perhaps through some kind of press-to-talk UI).
+A ConversationalAgentSession can be created in various other ways, including Bluetooth (when a *wake* utterance is transmitted through a headset or microphone), system keyboard accelerators (such as Win+C for Cortana), and initiation of speech interactions from within your app (perhaps through some kind of press-to-talk UI).
 
 ## -see-also
 

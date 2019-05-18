@@ -22,6 +22,6 @@ When this method completes successfully, it returns a collection of unique [Sign
 
 ## -see-also
 
-[Windows.ApplicationModel.ConversationalAgent.ConversationalAgentSession.GetSupportedSignalModelIdsAsync](conversationalagentsession_getsupportedsignalmodelidsasync_150685345.md)
+Windows.ApplicationModel.ConversationalAgent.ConversationalAgentSession.GetSupportedSignalModelIdsAsync
 
 ## -examples

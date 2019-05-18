@@ -21,7 +21,7 @@ Occurs when a user attempts to move focus (via tab or directional arrows), but f
 
 ## -remarks
 
-[NoFocusCandidateFound](uielement_nofocuscandidatefound.md) is a routed event. For more info on the routed event concept, see [Events and routed events overview](https://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
+NoFocusCandidateFound is a routed event. For more info on the routed event concept, see [Events and routed events overview](https://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
 
 ## -see-also
 

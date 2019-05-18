@@ -17,7 +17,7 @@ Revokes an existing sharing token.
 The sharing token to revoke.
 
 ## -remarks
-The source app can optionally call the [RemoveFile](sharedstorageaccessmanager_removefile_245169084.md) method to revoke a token that it obtained previously by calling the [AddFile](sharedstorageaccessmanager_addfile_731286892.md) method.
+The source app can optionally call the RemoveFile method to revoke a token that it obtained previously by calling the [AddFile](sharedstorageaccessmanager_addfile_731286892.md) method.
 
 ## -examples
 

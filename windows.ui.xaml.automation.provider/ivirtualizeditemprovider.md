@@ -15,9 +15,9 @@ Exposes a method to support the virtualized item control pattern. Implement this
 ## -remarks
 Controls that contain a large number of child items can use virtualization to efficiently manage the items. With virtualization, the control maintains full information in memory for only a subset of items at any given time. Typically, the subset includes only those items that are currently visible to the user. Full information about the remaining virtualized items is kept in storage and is loaded into memory, or realized, as the control needs it, for example, as new items become visible to the user. For more info on this pattern, see [VirtualizedItem Control Pattern](https://msdn.microsoft.com/library/7a95e92f-7ccb-4c9b-8986-1d2de7038e47).
 
-[IVirtualizedItemProvider](ivirtualizeditemprovider.md) is implemented by the Windows Runtime automation peer base class [ItemAutomationPeer](../windows.ui.xaml.automation.peers/itemautomationpeer.md).
+IVirtualizedItemProvider is implemented by the Windows Runtime automation peer base class [ItemAutomationPeer](../windows.ui.xaml.automation.peers/itemautomationpeer.md).
 
-The [IVirtualizedItemProvider](ivirtualizeditemprovider.md) pattern doesn't have a pattern property identifier class, the only API to implement is a method.
+The IVirtualizedItemProvider pattern doesn't have a pattern property identifier class, the only API to implement is a method.
 
 ## -examples
 

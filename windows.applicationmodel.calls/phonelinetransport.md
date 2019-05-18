@@ -25,6 +25,12 @@ The phone line uses a bluetooth transport.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1903 | 18362 | Bluetooth |
+
 ## -examples
 
 ## -see-also

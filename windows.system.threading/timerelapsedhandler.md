@@ -16,7 +16,7 @@ The timer to associate with this method. When this timer expires, the method is 
 
 
 ## -remarks
-When a timer is canceled, pending [TimerElapsedHandler](timerelapsedhandler.md) delegates are also canceled. [TimerElapsedHandler](timerelapsedhandler.md) delegates that are already running are allowed to finish.
+When a timer is canceled, pending TimerElapsedHandler delegates are also canceled. TimerElapsedHandler delegates that are already running are allowed to finish.
 
 ## -examples
 

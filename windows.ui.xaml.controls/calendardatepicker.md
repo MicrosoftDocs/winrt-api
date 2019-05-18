@@ -14,11 +14,9 @@ Represents a control that allows a user to pick a date from a calendar display.
 
 ## -remarks
 
-[CalendarDatePicker](calendardatepicker.md) is a drop down control that’s optimized for picking a single date from a calendar view where contextual information like the day of the week or fullness of the calendar is important. It’s similar to the [DatePicker](datepicker.md) control, but the [DatePicker](datepicker.md) is optimized for picking a known date, such as a date of birth, where the context of the calendar is not important.
+CalendarDatePicker is a drop down control that’s optimized for picking a single date from a calendar view where contextual information like the day of the week or fullness of the calendar is important. It’s similar to the [DatePicker](datepicker.md) control, but the [DatePicker](datepicker.md) is optimized for picking a known date, such as a date of birth, where the context of the calendar is not important.
 
-You can use the [CalendarDatePicker](calendardatepicker.md) control in its default form with a minimal amount of Extensible Application Markup Language (XAML) or other code, or you can customize it in various ways to suit your app. Here's a simple [CalendarDatePicker](calendardatepicker.md) created in Extensible Application Markup Language (XAML) and code.
-
-
+You can use the CalendarDatePicker control in its default form with a minimal amount of Extensible Application Markup Language (XAML) or other code, or you can customize it in various ways to suit your app. Here's a simple CalendarDatePicker created in Extensible Application Markup Language (XAML) and code.
 
 ```csharp
 CalendarDatePicker arrivalCalendarDatePicker = new CalendarDatePicker();
@@ -33,7 +31,7 @@ Here's what the control look like when it's closed and a date is not selected.
 <img src="images/Controls/CalendarDatePicker_Closed.png" alt="Closed calendar date picker" />
 Here's what it looks like with the calendar open and a date selected.
 
-<img src="images/Controls/CalendarDatePicker_Open.png" alt="Open calendar date picker" />[CalendarDatePicker](calendardatepicker.md) has an internal [CalendarView](calendarview.md) for picking a date. A subset of [CalendarView](calendarview.md) properties, like [IsTodayHighlighted](calendardatepicker_istodayhighlighted.md) and [FirstDayOfWeek](calendardatepicker_firstdayofweek.md), exist on [CalendarDatePicker](calendardatepicker.md) and are forwarded to the internal [CalendarView](calendarview.md) to let you modify it. However, you can't change the [SelectionMode](calendarview_selectionmode.md) of the internal [CalendarView](calendarview.md) to allow multiple selection. If you need to let a user pick multiple dates or need a calendar to be always visible, consider using a [CalendarView](calendarview.md) instead of a [CalendarDatePicker](calendardatepicker.md). See the [CalendarView](calendarview.md) class for more info on how you can modify the calendar display.
+<img src="images/Controls/CalendarDatePicker_Open.png" alt="Open calendar date picker" />CalendarDatePicker has an internal [CalendarView](calendarview.md) for picking a date. A subset of [CalendarView](calendarview.md) properties, like [IsTodayHighlighted](calendardatepicker_istodayhighlighted.md) and [FirstDayOfWeek](calendardatepicker_firstdayofweek.md), exist on CalendarDatePicker and are forwarded to the internal [CalendarView](calendarview.md) to let you modify it. However, you can't change the [SelectionMode](calendarview_selectionmode.md) of the internal [CalendarView](calendarview.md) to allow multiple selection. If you need to let a user pick multiple dates or need a calendar to be always visible, consider using a [CalendarView](calendarview.md) instead of a CalendarDatePicker. See the [CalendarView](calendarview.md) class for more info on how you can modify the calendar display.
 
 ### Selecting dates
 
@@ -51,7 +49,7 @@ You can handle the [DateChanged](calendardatepicker_datechanged.md) event to be 
 
 ### Formatting the selected date
 
-You can change the display format of the day, month, and year of the selected date. The string content of the [TextBox](textbox.md) portion of the [CalendarDatePicker](calendardatepicker.md) is created by a [DateTimeFormatter](../windows.globalization.datetimeformatting/datetimeformatter.md). You tell the [DateTimeFormatter](../windows.globalization.datetimeformatting/datetimeformatter.md) how to format the value by providing a string that is either a *format template* or a *format pattern*. For the complete list of format templates and format patterns, see the Remarks section of the [DateTimeFormatter](../windows.globalization.datetimeformatting/datetimeformatter.md) class documentation.
+You can change the display format of the day, month, and year of the selected date. The string content of the [TextBox](textbox.md) portion of the CalendarDatePicker is created by a [DateTimeFormatter](../windows.globalization.datetimeformatting/datetimeformatter.md). You tell the [DateTimeFormatter](../windows.globalization.datetimeformatting/datetimeformatter.md) how to format the value by providing a string that is either a *format template* or a *format pattern*. For the complete list of format templates and format patterns, see the Remarks section of the [DateTimeFormatter](../windows.globalization.datetimeformatting/datetimeformatter.md) class documentation.
 
 Here's how to specify a format in XAML and in code using format patterns.
 
@@ -70,7 +68,7 @@ The selected date looks like this with the date formatted.
 
 ### Setting a header and placeholder text
 
-You can add a [Header](calendardatepicker_header.md) (or label) and [PlaceholderText](calendardatepicker_placeholdertext.md) (or watermark) to the [CalendarDatePicker](calendardatepicker.md) to give the user an indication of what it's used for. To customize the look of the header, you can set the [HeaderTemplate](calendardatepicker_headertemplate.md) property instead of [Header](calendardatepicker_header.md). For design info, see [Guidelines for labels](https://msdn.microsoft.com/library/cfacccd4-749f-43fb-947e-2591ae673804).
+You can add a [Header](calendardatepicker_header.md) (or label) and [PlaceholderText](calendardatepicker_placeholdertext.md) (or watermark) to the CalendarDatePicker to give the user an indication of what it's used for. To customize the look of the header, you can set the [HeaderTemplate](calendardatepicker_headertemplate.md) property instead of [Header](calendardatepicker_header.md). For design info, see [Guidelines for labels](https://msdn.microsoft.com/library/cfacccd4-749f-43fb-947e-2591ae673804).
 
 The default placeholder text is "**select a date** ". You can remove this by setting the [PlaceholderText](calendardatepicker_placeholdertext.md) property to an empty string, or you can provide custom text as shown here.
 
@@ -78,15 +76,13 @@ The default placeholder text is "**select a date** ". You can remove this by set
 <CalendarDatePicker x:Name="arrivalCalendarDatePicker" Header="Arrival date" PlaceholderText="Choose your arrival date"/>
 ```
 
-
-
 ### Globalization
 
-The [CalendarDatePicker](calendardatepicker.md) supports each of the calendar systems supported by Windows. These calendars are specified in the [Windows.Globalization.CalendarIdentifiers](../windows.globalization/calendaridentifiers.md) class. The [CalendarDatePicker](calendardatepicker.md) uses the correct calendar for your app's default language, or you can set the [CalendarIdentifier](calendarview_calendaridentifier.md) property to use a specific calendar system.
+The CalendarDatePicker supports each of the calendar systems supported by Windows. These calendars are specified in the [Windows.Globalization.CalendarIdentifiers](../windows.globalization/calendaridentifiers.md) class. The CalendarDatePicker uses the correct calendar for your app's default language, or you can set the [CalendarIdentifier](calendarview_calendaridentifier.md) property to use a specific calendar system.
 
 ### DateTime and Calendar values
 
-The date objects used in a [CalendarDatePicker](calendardatepicker.md) have a different representation depending on your programming language. C# and Visual Basic use the [System.DateTimeOffset](https://msdn.microsoft.com/library/system.datetimeoffset.aspx) structure that is part of .NET. Visual C++ component extensions (C++/CX) uses the [Windows::Foundation::DateTime](https://msdn.microsoft.com/library/b5533002-8a72-438d-a3d3-0902ffc21830) structure. A related concept is the **Calendar** class, which influences how dates are interpreted in context. All Windows Runtime apps can use the [Windows.Globalization.Calendar](../windows.globalization/calendar.md) class. C# and Visual Basic apps can alternatively use the [System.Globalization.Calendar](https://msdn.microsoft.com/library/system.globalization.calendar.aspx) class, which has very similar functionality. (Windows Runtime app can use the base .NET [Calendar](https://msdn.microsoft.com/library/system.globalization.calendar.aspx) class but not the specific implementations for example **GregorianCalendar**.)
+The date objects used in a CalendarDatePicker have a different representation depending on your programming language. C# and Visual Basic use the [System.DateTimeOffset](https://msdn.microsoft.com/library/system.datetimeoffset.aspx) structure that is part of .NET. Visual C++ component extensions (C++/CX) uses the [Windows::Foundation::DateTime](https://msdn.microsoft.com/library/b5533002-8a72-438d-a3d3-0902ffc21830) structure. A related concept is the **Calendar** class, which influences how dates are interpreted in context. All Windows Runtime apps can use the [Windows.Globalization.Calendar](../windows.globalization/calendar.md) class. C# and Visual Basic apps can alternatively use the [System.Globalization.Calendar](https://msdn.microsoft.com/library/system.globalization.calendar.aspx) class, which has very similar functionality. (Windows Runtime app can use the base .NET [Calendar](https://msdn.microsoft.com/library/system.globalization.calendar.aspx) class but not the specific implementations for example **GregorianCalendar**.)
 
 .NET also supports a type named [DateTime](https://msdn.microsoft.com/library/system.datetime.aspx), which is implicitly convertible to a [DateTimeOffset](https://msdn.microsoft.com/library/system.datetimeoffset.aspx). So you might see a "DateTime" type being used in .NET code that's used to set values that are really [DateTimeOffset](https://msdn.microsoft.com/library/system.datetimeoffset.aspx). For more info on the difference between [DateTime](https://msdn.microsoft.com/library/system.datetime.aspx) and [DateTimeOffset](https://msdn.microsoft.com/library/system.datetimeoffset.aspx), see Remarks in [DateTimeOffset](https://msdn.microsoft.com/library/system.datetimeoffset.aspx).
 
@@ -99,7 +95,7 @@ You can modify the default [Style](../windows.ui.xaml/style.md) and [ControlTemp
 
 Starting in Windows 10, version 1607 (SDK 14393), generic.xaml includes resources that you can use to modify the colors of a control in different visual states without modifying the control template. In apps that target this software development kit (SDK) or later, modifying these resources is preferred to setting properties such as [Background](control_background.md) and [Foreground](control_foreground.md). For more info, see the [Light-weight styling](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) section of the [Styling controls](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) article.
 
-This table shows the resources used by the [CalendarDatePicker](calendardatepicker.md) control.
+This table shows the resources used by the CalendarDatePicker control.
 
 <table>
    <tr><th>Resource key</th><th>Description</th></tr>
@@ -121,6 +117,13 @@ This table shows the resources used by the [CalendarDatePicker](calendardatepick
    <tr><td>CalendarDatePickerBorderBrushPressed</td><td>Border color when pressed</td></tr>
    <tr><td>CalendarDatePickerBorderBrushDisabled</td><td>Border color when disabled</td></tr>
 </table>
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | LightDismissOverlayMode |
+| 1809 | 17763 | Description |
 
 ## -examples
 

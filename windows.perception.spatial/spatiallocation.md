@@ -15,6 +15,12 @@ Represents the location of the device in the user's surroundings at a point in t
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1809 | 17763 | AbsoluteAngularAccelerationAxisAngle |
+| 1809 | 17763 | AbsoluteAngularVelocityAxisAngle |
 
 ## -examples
 

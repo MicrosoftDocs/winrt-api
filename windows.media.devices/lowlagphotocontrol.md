@@ -13,7 +13,7 @@ public class LowLagPhotoControl : Windows.Media.Devices.ILowLagPhotoControl
 Provides functionality for managing the low shutter lag photo capture mode on the capture device.
 
 ## -remarks
-You can access the [LowLagPhotoControl](lowlagphotocontrol.md) for the capture device through [MediaCapture.VideoDeviceController](../windows.media.capture/mediacapture_videodevicecontroller.md).
+You can access the LowLagPhotoControl for the capture device through [MediaCapture.VideoDeviceController](../windows.media.capture/mediacapture_videodevicecontroller.md).
 
 Thumbnails are supported for a low shutter lag single photos and photo sequences.
 

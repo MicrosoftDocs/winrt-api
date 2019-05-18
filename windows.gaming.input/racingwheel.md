@@ -53,6 +53,13 @@ Note that to use the devices listed above you should include a HID (Human Interf
 
 ```
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | FromGameController |
+| 1703 | 15063 | TryGetBatteryReport |
+
 ## -examples
 
 ## -see-also

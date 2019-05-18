@@ -17,7 +17,7 @@ The [BackgroundTransferCompletionGroup](backgroundtransfercompletiongroup.md) cl
 
 The app must implement the [IBackgroundTask](../windows.applicationmodel.background/ibackgroundtask.md) to run that receives the completion notifications. The [IBackgroundTask](../windows.applicationmodel.background/ibackgroundtask.md) must be registered using the [BackgroundTaskBuilder](../windows.applicationmodel.background/backgroundtaskbuilder.md) class. The background task must be declared in the app manifest. The app does not require lock screen access to use a [BackgroundTransferCompletionGroup](backgroundtransfercompletiongroup.md).
 
-A [BackgroundTransferCompletionGroupTriggerDetails](backgroundtransfercompletiongrouptriggerdetails.md) instance is created when the background task for a [BackgroundTransferCompletionGroup](backgroundtransfercompletiongroup.md) has received a notification after background transfer operations are complete.
+A BackgroundTransferCompletionGroupTriggerDetails instance is created when the background task for a [BackgroundTransferCompletionGroup](backgroundtransfercompletiongroup.md) has received a notification after background transfer operations are complete.
 
 ## -examples
 

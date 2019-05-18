@@ -12,9 +12,9 @@ public event Windows.Foundation.TypedEventHandler PointerReleasing<Windows.UI.In
 ## -description
 Can occur as a pointer associated with a [PointerPressing](coreinkindependentinputsource_pointerpressing.md) event is lifted, or released, while within the hit test, or bounding, area of the [InkCanvas](../windows.ui.xaml.controls/inkcanvas.md) associated with the [InkPresenter](coreinkindependentinputsource_inkpresenter.md) object.
 
-[PointerReleasing](coreinkindependentinputsource_pointerreleasing.md) is not guaranteed to occur in concert with [PointerPressing](coreinkindependentinputsource_pointerpressing.md), as [PointerLost](coreinkindependentinputsource_pointerlost.md) or [PointerExiting](coreinkindependentinputsource_pointerexiting.md) might occur instead. You should handle all events that can conclude [PointerPressing](coreinkindependentinputsource_pointerpressing.md).
+PointerReleasing is not guaranteed to occur in concert with [PointerPressing](coreinkindependentinputsource_pointerpressing.md), as [PointerLost](coreinkindependentinputsource_pointerlost.md) or [PointerExiting](coreinkindependentinputsource_pointerexiting.md) might occur instead. You should handle all events that can conclude [PointerPressing](coreinkindependentinputsource_pointerpressing.md).
 
-Some reasons why [PointerReleasing](coreinkindependentinputsource_pointerreleasing.md) might not occur include: 
+Some reasons why PointerReleasing might not occur include: 
 + Differences in how specific hardware handles input
 + A programmatic pointer capture from a different pointer
 + User actions that change the relationship of the display area, such as changing resolution or monitor settings

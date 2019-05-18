@@ -13,7 +13,7 @@ public Windows.Foundation.DateTime Timestamp { get; }
 ## -description
 Gets the timestamp of the [SmsWapMessage](smswapmessage.md).
 
-The [Timestamp](smswapmessage_timestamp.md) property is determined locally for a constructed message instance or from the service center timestamp of a received message.
+The Timestamp property is determined locally for a constructed message instance or from the service center timestamp of a received message.
 
 ## -property-value
 The timestamp of the message.

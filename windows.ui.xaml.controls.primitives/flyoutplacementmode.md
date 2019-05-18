@@ -58,6 +58,20 @@ The preferred location of the flyout is centered on the screen.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1809 | 17763 | Auto |
+| 1809 | 17763 | BottomEdgeAlignedLeft |
+| 1809 | 17763 | BottomEdgeAlignedRight |
+| 1809 | 17763 | LeftEdgeAlignedBottom |
+| 1809 | 17763 | LeftEdgeAlignedTop |
+| 1809 | 17763 | RightEdgeAlignedBottom |
+| 1809 | 17763 | RightEdgeAlignedTop |
+| 1809 | 17763 | TopEdgeAlignedLeft |
+| 1809 | 17763 | TopEdgeAlignedRight |
+
 ## -examples
 
 ## -see-also

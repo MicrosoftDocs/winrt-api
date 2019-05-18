@@ -16,7 +16,7 @@ Gets or sets a token that represents a name for a server behavior used in the **
 A token that represents the name for a server behavior.
 
 ## -remarks
-An example of a [Name](httpexpectationheadervalue_name.md) property would be a string that contains **100-continue**, which repreesnts a server behavior that the client might depend on.
+An example of a Name property would be a string that contains **100-continue**, which repreesnts a server behavior that the client might depend on.
 
 ## -examples
 

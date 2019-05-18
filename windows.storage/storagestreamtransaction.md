@@ -16,7 +16,7 @@ Represents a write transaction for a random-access stream.
 
 
 ## -examples
-The [File Access sample]( http://go.microsoft.com/fwlink/p/?linkid=231445) shows you how to use a [StorageStreamTransaction](storagestreamtransaction.md) object to perform a transacted write operation on a file.
+The [File Access sample]( http://go.microsoft.com/fwlink/p/?linkid=231445) shows you how to use a StorageStreamTransaction object to perform a transacted write operation on a file.
 
 ```csharp
 

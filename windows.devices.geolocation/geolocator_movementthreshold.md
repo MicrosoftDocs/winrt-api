@@ -16,7 +16,7 @@ The distance of movement, in meters, relative to the coordinate from the last [P
 The distance of required movement, in meters, for location services to raise a [PositionChanged](geolocator_positionchanged.md) event. The default value is 0.
 
 ## -remarks
-The default report interval is 1 second or as frequent as the hardware can support – whichever is shorter. Location updates can be set to a different frequency if you specify a [MovementThreshold](geolocator_movementthreshold.md) or set [ReportInterval](geolocator_reportinterval.md) to a different value. If your app sets both [MovementThreshold](geolocator_movementthreshold.md) and [ReportInterval](geolocator_reportinterval.md), location will be updated according to [MovementThreshold](geolocator_movementthreshold.md).
+The default report interval is 1 second or as frequent as the hardware can support – whichever is shorter. Location updates can be set to a different frequency if you specify a MovementThreshold or set [ReportInterval](geolocator_reportinterval.md) to a different value. If your app sets both MovementThreshold and [ReportInterval](geolocator_reportinterval.md), location will be updated according to MovementThreshold.
 
 ## -examples
 

@@ -13,7 +13,7 @@ public void SignalDataChanged()
 Sends a [DataChanged](applicationdata_datachanged.md) event to all registered event handlers.
 
 ## -remarks
-You can use the [SignalDataChanged](applicationdata_signaldatachanged_600696899.md) method to fire a [DataChanged](applicationdata_datachanged.md) event that you can use to signal other code in your app to reload the local state.
+You can use the SignalDataChanged method to fire a [DataChanged](applicationdata_datachanged.md) event that you can use to signal other code in your app to reload the local state.
 
 The system automatically fires the [DataChanged](applicationdata_datachanged.md) event when the roaming state changes. After those changes are roamed to other devices, any instance of your app that is running on those devices will also be able to respond to the [DataChanged](applicationdata_datachanged.md) event by refreshing their roaming state.
 

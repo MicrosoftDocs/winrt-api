@@ -31,7 +31,7 @@ The enterprise id that the file or folder is protected for. The *enterpriseIdent
 An asynchronous operation that retrieves the selective wipe protection status for the *storageItem*.
 
 ## -remarks
-You can use the [ProtectAsync](filerevocationmanager_protectasync_1331169532.md) method to protect a file or folder using Selective Wipe. This identifies the file as protected for your enterprise identifier, such as "example.com", as shown in the previous code example. If you protect a folder using the [ProtectAsync](filerevocationmanager_protectasync_1331169532.md) method, then all files in that folder inherit the same protection.
+You can use the ProtectAsync method to protect a file or folder using Selective Wipe. This identifies the file as protected for your enterprise identifier, such as "example.com", as shown in the previous code example. If you protect a folder using the ProtectAsync method, then all files in that folder inherit the same protection.
 
 
 
@@ -43,7 +43,7 @@ You can use the [ProtectAsync](filerevocationmanager_protectasync_1331169532.md)
 
 [!code-js[_Protect_JS](../windows.security.enterprisedata/code/SelectiveWipeSnippets/js/default.js#Snippet_Protect_JS)]
 
-The [ProtectAsync](filerevocationmanager_protectasync_1331169532.md) method requires exclusive access to the file or folder being encrypted, and will fail if another process is using has a handle open to the file or folder.
+The ProtectAsync method requires exclusive access to the file or folder being encrypted, and will fail if another process is using has a handle open to the file or folder.
 
 ## -examples
 

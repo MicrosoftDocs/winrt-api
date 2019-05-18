@@ -17,6 +17,16 @@ Get an instance of this class by calling [MediaPlaybackVideoTrackList.GetAt](../
 
 For how-to guidance for working with **VideoTrack** objects, see [Media items, playlists, and tracks](https://msdn.microsoft.com/windows/uwp/audio-video-camera/media-playback-with-mediasource).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | GetEncodingProperties |
+| 1607 | 14393 | Name |
+| 1607 | 14393 | OpenFailed |
+| 1607 | 14393 | PlaybackItem |
+| 1607 | 14393 | SupportInfo |
+
 ## -examples
 
 ## -see-also

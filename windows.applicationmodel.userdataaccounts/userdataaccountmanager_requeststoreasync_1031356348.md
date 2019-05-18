@@ -26,9 +26,9 @@ In order to gain access to the [UserDataAccountStore](userdataaccountstore.md), 
 + contacts
 + appointments
 + email
-If none of these capabilities are declared, [RequestStoreAsync](userdataaccountmanager_requeststoreasync_1031356348.md) will throw an **AccessDeniedException**.
+If none of these capabilities are declared, RequestStoreAsync will throw an **AccessDeniedException**.
 
-If [RequestStoreAsync](userdataaccountmanager_requeststoreasync_1031356348.md) returns **null** it means that the user has turned off access in their privacy settings.
+If RequestStoreAsync returns **null** it means that the user has turned off access in their privacy settings.
 
 ## -examples
 

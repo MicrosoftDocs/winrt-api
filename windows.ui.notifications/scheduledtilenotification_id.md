@@ -17,13 +17,13 @@ Gets or sets the unique ID that is used to identify the scheduled tile in the sc
 The notification's identifier. This string is limited to 16 characters.
 
 ## -remarks
-[ScheduledTileNotification.tag](scheduledtilenotification_tag.md) and [ScheduledTileNotification.id](scheduledtilenotification_id.md) serve similar purposes: 
+[ScheduledTileNotification.tag](scheduledtilenotification_tag.md) and ScheduledTileNotification.id serve similar purposes: 
 + The [ScheduledTileNotification.tag](scheduledtilenotification_tag.md) property is used by Windows to prevent duplicate notification content from appearing in the queue at the same time. It allows the notification to be updated in-place in the queue to prevent it from containing out-of-date information.
-+ The [id](scheduledtilenotification_id.md) property identifies the notification in the schedule. This allows the notification to be identified or removed from the schedule.
++ The id property identifies the notification in the schedule. This allows the notification to be identified or removed from the schedule.
 
 
 ## -examples
-The following example, which shows a tile scheduled to display in one hour, includes the use of the [Id](scheduledtilenotification_id.md) property to label the scheduled notification.
+The following example, which shows a tile scheduled to display in one hour, includes the use of the Id property to label the scheduled notification.
 
 ```javascript
 

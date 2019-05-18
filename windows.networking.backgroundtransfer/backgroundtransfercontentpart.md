@@ -10,7 +10,7 @@ public class BackgroundTransferContentPart : Windows.Networking.BackgroundTransf
 # Windows.Networking.BackgroundTransfer.BackgroundTransferContentPart
 
 ## -description
-Represents a content part of a multi-part transfer request. Each [BackgroundTransferContentPart](backgroundtransfercontentpart.md) object can represent either a single string of text content or a single file payload, but not both.
+Represents a content part of a multi-part transfer request. Each BackgroundTransferContentPart object can represent either a single string of text content or a single file payload, but not both.
 
 ## -remarks
 

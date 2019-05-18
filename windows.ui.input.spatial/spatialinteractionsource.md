@@ -21,6 +21,19 @@ For hands and controllers, each detected hand or motion controller will get its 
 
 For speech, a single ID will be used for all speech input.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | Controller |
+| 1703 | 15063 | IsGraspSupported |
+| 1703 | 15063 | IsMenuSupported |
+| 1703 | 15063 | IsPointingSupported |
+| 1703 | 15063 | TryGetStateAtTimestamp |
+| 1709 | 16299 | Handedness |
+| 1903 | 18362 | TryCreateHandMeshObserver |
+| 1903 | 18362 | TryCreateHandMeshObserverAsync |
+
 ## -examples
 
 ## -see-also

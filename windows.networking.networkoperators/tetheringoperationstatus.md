@@ -46,7 +46,7 @@ The operation did not complete because of limited network connectivity.
 
 ### Version history
 
-| Version | SDK version | Value added |
+| Windows version | SDK version | Value added |
 | -- | -- | -- |
 | 1607 | 14393 | BluetoothDeviceOff |
 | 1607 | 14393 | NetworkLimitedConnectivity |

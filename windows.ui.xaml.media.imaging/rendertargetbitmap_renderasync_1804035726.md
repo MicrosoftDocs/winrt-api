@@ -22,7 +22,7 @@ When this method returns, an [IAsyncAction](../windows.foundation/iasyncaction.m
 ## -remarks
 The rendered image isn't returned by this method. But after it returns, so long as the async [Status](../windows.foundation/iasyncinfo_status.md) value doesn't indicate an error, the [RenderTargetBitmap](rendertargetbitmap.md) that called it will have valid image info. The [RenderTargetBitmap](rendertargetbitmap.md) can then be assigned in code as an image source for an [Image](../windows.ui.xaml.controls/image.md) control or [ImageBrush](../windows.ui.xaml.media/imagebrush.md) instance.
 
-If you need a pixel buffer representation of the rendered content and not just an image source, use [GetPixelsAsync](rendertargetbitmap_getpixelsasync_1480284075.md) after calling [RenderAsync](rendertargetbitmap_renderasync_1804035726.md).
+If you need a pixel buffer representation of the rendered content and not just an image source, use [GetPixelsAsync](rendertargetbitmap_getpixelsasync_1480284075.md) after calling RenderAsync.
 
 This is an async method, so there's no guarantee of exact frame synchronization with the UI source. See Remarks in [RenderTargetBitmap](rendertargetbitmap.md) for info on some other limitations.
 

@@ -13,7 +13,7 @@ public interface IContactInformation :
 Defines the interface for contact information.
 
 ## -remarks
-For most scenarios you should use the [ContactInformation](contactinformation.md) class, which provides the implementation for the [IContactInformation](icontactinformation.md) API.
+For most scenarios you should use the [ContactInformation](contactinformation.md) class, which provides the implementation for the IContactInformation API.
 
 ## -examples
 

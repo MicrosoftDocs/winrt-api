@@ -16,7 +16,7 @@ Gets the unique ID of the enterprise, as it appears on the enterprise certificat
 The unique ID of the enterprise, as it appears on the enterprise certificate.
 
 ## -remarks
-The [Id](enterprise_id.md) property and the [WorkplaceId](enterprise_workplaceid.md) property return the same ID value in different formats.
+The Id property and the [WorkplaceId](enterprise_workplaceid.md) property return the same ID value in different formats.
 
 ## -examples
 

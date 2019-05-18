@@ -24,7 +24,7 @@ Gets the message for the USSD response.
 The message for the USSD response.
 
 ## -remarks
-A message is present only if the [ResultCode](ussdreply_resultcode.md) property returns **ActionRequired** or **NoActionRequired**; otherwise the [Message](ussdreply_message.md) property returns **null**.
+A message is present only if the [ResultCode](ussdreply_resultcode.md) property returns **ActionRequired** or **NoActionRequired**; otherwise the Message property returns **null**.
 
 ## -examples
 

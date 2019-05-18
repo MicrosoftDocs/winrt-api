@@ -16,7 +16,7 @@ Provides data for the [GuidanceUpdated](guidancenavigator_guidanceupdated.md) ev
 > This API is not available to all Windows apps. Unless your developer account is specially provisioned by Microsoft, calls to this API will fail at runtime. For more information about the [Windows.Services.Maps.Guidance](windows_services_maps_guidance.md) namespace, please work with your Microsoft Account Team representative.
 
 ## -remarks
-During a guidance update, the geographic location returned by [GuidanceUpdatedEventArgs](guidanceupdatedeventargs.md) corresponds to the nearest point on the route near the user's actual geographic location. This helps compensate for GPS inaccuracies. If the route is not nearby, a point on the nearest road will be used. For example, if the user misses a turn.
+During a guidance update, the geographic location returned by GuidanceUpdatedEventArgs corresponds to the nearest point on the route near the user's actual geographic location. This helps compensate for GPS inaccuracies. If the route is not nearby, a point on the nearest road will be used. For example, if the user misses a turn.
 
 ## -examples
 

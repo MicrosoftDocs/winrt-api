@@ -40,7 +40,7 @@ Gets or sets the [Brush](../windows.ui.xaml.media/brush.md) to apply to the cont
 The brush that is applied to the text content. The default is a [SolidColorBrush](../windows.ui.xaml.media/solidcolorbrush.md) with [Color](../windows.ui.xaml.media/solidcolorbrush_color.md) value [Black](../windows.ui/colors_black.md).
 
 ## -remarks
-Setting [Foreground](textelement_foreground.md) has no visible effect for [LineBreak](linebreak.md) or [InlineUIContainer](inlineuicontainer.md) objects.
+Setting Foreground has no visible effect for [LineBreak](linebreak.md) or [InlineUIContainer](inlineuicontainer.md) objects.
 
 ## -examples
 

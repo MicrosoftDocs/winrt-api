@@ -16,7 +16,7 @@ The width of the frame in pixels, after any EXIF orientation has been applied to
 The width of the frame in pixels, after any EXIF orientation has been applied.
 
 ## -remarks
-Use this property in the same way as [OrientedPixelWidth](bitmapframe_orientedpixelwidth.md) is used if you need to know the width of an image or of pixel data.
+Use this property in the same way as OrientedPixelWidth is used if you need to know the width of an image or of pixel data.
 
 
 

@@ -20,7 +20,7 @@ The index at which to set the value.
 The value to set.
 
 ## -remarks
-[InsertAt](pointcollection_insertat_450968922.md) expands the collection and moves all subsequent index items by one.
+InsertAt expands the collection and moves all subsequent index items by one.
 
 In contrast, [SetAt](pointcollection_setat_1807637802.md) replaces the item at the index, and the collection count remains the same.
 

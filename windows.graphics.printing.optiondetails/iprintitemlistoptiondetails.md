@@ -16,7 +16,7 @@ Represents objects that list print task option items.
 ## -remarks
 ### Interface inheritance
 
-[IPrintItemListOptionDetails](iprintitemlistoptiondetails.md) inherits [IPrintOptionDetails](iprintoptiondetails.md). Types that implement [IPrintItemListOptionDetails](iprintitemlistoptiondetails.md) also implement the interface members of [IPrintOptionDetails](iprintoptiondetails.md).
+IPrintItemListOptionDetails inherits [IPrintOptionDetails](iprintoptiondetails.md). Types that implement IPrintItemListOptionDetails also implement the interface members of [IPrintOptionDetails](iprintoptiondetails.md).
 
 ## -examples
 

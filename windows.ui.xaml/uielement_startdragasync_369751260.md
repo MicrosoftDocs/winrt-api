@@ -20,7 +20,7 @@ The coordinates of the pointer where the user interacts with the screen, and whe
 A [DataPackageOperation](../windows.applicationmodel.datatransfer/datapackageoperation.md) value that indicates the type of drag-and-drop operation, and whether the operation was successful.
 
 ## -remarks
-If you implement custom gesture detection to initiate a drag operation, you can call the [StartDragAsync](uielement_startdragasync_369751260.md) method to programmatically initiate a drag operation on any [UIElement](uielement.md). Calling this method results in the [DragStarting](uielement_dragstarting.md) event being raised. Handle the [DragStarting](uielement_dragstarting.md) event to specify other properties of the operation, such as the data package and drag visual.
+If you implement custom gesture detection to initiate a drag operation, you can call the StartDragAsync method to programmatically initiate a drag operation on any [UIElement](uielement.md). Calling this method results in the [DragStarting](uielement_dragstarting.md) event being raised. Handle the [DragStarting](uielement_dragstarting.md) event to specify other properties of the operation, such as the data package and drag visual.
 
 The *pointerPoint* parameter is the point at which the user interacts with the screen using an input device (touch, mouse, or pen). The drag visual that is shown during the drag operation is attached to the pointer indicated in the caller-provided [PointerPoint](../windows.ui.input/pointerpoint.md).
 

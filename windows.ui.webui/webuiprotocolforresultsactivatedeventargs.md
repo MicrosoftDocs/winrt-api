@@ -14,6 +14,11 @@ Describes the activation arguments when an app is launched via [LaunchUriForResu
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | User |
 
 ## -examples
 

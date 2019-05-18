@@ -10,7 +10,7 @@ public Windows.UI.Xaml.DependencyProperty EasingFunctionProperty { get; }
 # Windows.UI.Xaml.Media.Animation.EasingColorKeyFrame.EasingFunctionProperty
 
 ## -description
-Identifies the [EasingFunction](easingcolorkeyframe_easingfunctionproperty.md) dependency property.
+Identifies the EasingFunction dependency property.
 
 ## -property-value
 The identifier for the [EasingFunction](easingcolorkeyframe_easingfunction.md) dependency property.

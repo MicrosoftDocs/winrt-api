@@ -19,7 +19,13 @@ This class directly supports several default properties, such as a [thumbnail](d
 
 ### Collection member lists
 
-For JavaScript, [DataPackagePropertySet](datapackagepropertyset.md) supports using an index to access items.
+For JavaScript, DataPackagePropertySet supports using an index to access items.
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1803 | 17134 | ContentSourceUserActivityJson |
 
 ## -examples
 

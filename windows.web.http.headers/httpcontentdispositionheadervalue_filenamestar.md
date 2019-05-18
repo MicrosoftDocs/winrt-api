@@ -16,7 +16,7 @@ Gets or sets the value of the **filename-parm** characteristic in the **Content-
 A suggested filename of the form filename*.
 
 ## -remarks
-The [FileNameStar](httpcontentdispositionheadervalue_filenamestar.md) property is a suggestion for how to construct filenames for storing message payloads to be used if the entities are detached and stored in a separate files.
+The FileNameStar property is a suggestion for how to construct filenames for storing message payloads to be used if the entities are detached and stored in a separate files.
 
 ## -examples
 

@@ -17,7 +17,7 @@ Gets the name of the [InkRecognizer](inkrecognizer.md) object.
 The name.
 
 ## -remarks
-The following table lists the languages supported by the [InkRecognizer](inkrecognizer.md) object. The second column contains the possible values for [Name](inkrecognizer_name.md).
+The following table lists the languages supported by the [InkRecognizer](inkrecognizer.md) object. The second column contains the possible values for Name.
 
 <table>
    <tr><th>IETF language tag</th><th>Name</th><th>Coverage</th></tr>

@@ -17,6 +17,12 @@ For an example implementation, see the [proximity sensor sample](https://github.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1511 | 10586 | GetReadingsFromTriggerDetails |
+
 ## -examples
 
 ## -see-also

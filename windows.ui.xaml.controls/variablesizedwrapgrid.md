@@ -24,11 +24,11 @@ Provides a grid-style layout panel where each tile/cell can be variable size bas
 
 ## -remarks
 
-[VariableSizedWrapGrid](variablesizedwrapgrid.md) is layout panel that supports arranging child elements in rows and columns. Each child element can span multiple rows and columns.
+VariableSizedWrapGrid is layout panel that supports arranging child elements in rows and columns. Each child element can span multiple rows and columns.
 
 <img alt="Variable sized wrap grid layout panel" src="images/controls/VariableSizedWrapGrid.png" />
 
-In a [VariableSizedWrapGrid](variablesizedwrapgrid.md), elements are arranged in rows or columns that automatically wrap to a new row or column when the [MaximumRowsOrColumns](variablesizedwrapgrid_maximumrowsorcolumns.md) value is reached. The [Orientation](wrapgrid_orientation.md) property specifies whether the grid adds its items in rows or columns before wrapping.
+In a VariableSizedWrapGrid, elements are arranged in rows or columns that automatically wrap to a new row or column when the [MaximumRowsOrColumns](variablesizedwrapgrid_maximumrowsorcolumns.md) value is reached. The [Orientation](wrapgrid_orientation.md) property specifies whether the grid adds its items in rows or columns before wrapping.
 
 When the value is **Vertical**, the grid adds items in columns from top to bottom, then wraps from left to right, like this:<table>
    <tr><td>Item 1</td><td>Item 4</td><td>Item 7</td></tr>
@@ -46,7 +46,7 @@ You can make items different sizes in the grid by making them span multiple rows
 
 ### RowSpan and ColumnSpan
 
-You can set either or both of the RowSpan and ColumnSpan attached properties on any child elements in the [VariableSizedWrapGrid](variablesizedwrapgrid.md) in order to have particular child elements use a spanning logic for layout. This is useful if an element has a notably larger size than other elements. For example, if one child element has a desired size that is about twice as large in both dimensions, and you don't want this large element to produce a lot of white space in the nearby cells of peer elements, then you might use markup like this:
+You can set either or both of the RowSpan and ColumnSpan attached properties on any child elements in the VariableSizedWrapGrid in order to have particular child elements use a spanning logic for layout. This is useful if an element has a notably larger size than other elements. For example, if one child element has a desired size that is about twice as large in both dimensions, and you don't want this large element to produce a lot of white space in the nearby cells of peer elements, then you might use markup like this:
 
 ```xaml
 <VariableSizedWrapGrid>
@@ -71,7 +71,7 @@ In order to support XAML processor access to the attached properties, and also t
 | RowSpan | Gets or sets a value that indicates the total number of rows that the element content spans within a parent VariableSizedWrapGrid.<ul><li>Type: int</li><li>Identifier field: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.variablesizedwrapgrid.rowspanproperty">RowSpanProperty</a></li><li>Accessor methods: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.variablesizedwrapgrid.getrowspan">GetRowSpan</a>, <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.variablesizedwrapgrid.setrowspan">SetRowSpan</a></li></ul> Zero or negative integer values are not permitted. Values that are greater than the total number of rows are treated as if they specified the total number and will span all rows.|
 
 > [!NOTE]
-> [VariableSizedWrapGrid](variablesizedwrapgrid.md) is not supported for use as the [ItemsPanel](itemscontrol_itemspanel.md) of a [ListView](listview.md) control. You can use it as the [ItemsPanel](itemscontrol_itemspanel.md) in a [GridView](gridview.md) or [ItemsControl](itemscontrol.md), but the content of a [VariableSizedWrapGrid](variablesizedwrapgrid.md) is not virtualized. This can reduce performance when you work with large data sets. For more info about virtualization, see [Optimize ListView and GridView](https://msdn.microsoft.com/library/26df15e8-2c05-4174-a714-7df2e8273d32).
+> VariableSizedWrapGrid is not supported for use as the [ItemsPanel](itemscontrol_itemspanel.md) of a [ListView](listview.md) control. You can use it as the [ItemsPanel](itemscontrol_itemspanel.md) in a [GridView](gridview.md) or [ItemsControl](itemscontrol.md), but the content of a VariableSizedWrapGrid is not virtualized. This can reduce performance when you work with large data sets. For more info about virtualization, see [Optimize ListView and GridView](https://msdn.microsoft.com/library/26df15e8-2c05-4174-a714-7df2e8273d32).
 
 ## -examples
 

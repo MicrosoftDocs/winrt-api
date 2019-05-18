@@ -25,11 +25,11 @@ Gets or sets the data source for the binding.
 The source object that contains the data for the binding.
 
 ## -remarks
-The [Source](binding_source.md) property is optional on a [Binding](binding.md) object. If the [Source](binding_source.md) property is set on a [Binding](binding.md) object, the data source applies only to the target properties that use that [Binding](binding.md) object.
+The Source property is optional on a [Binding](binding.md) object. If the Source property is set on a [Binding](binding.md) object, the data source applies only to the target properties that use that [Binding](binding.md) object.
 
-To create a data source that is inherited by all the child elements in the tree, instead set the [DataContext](../windows.ui.xaml/frameworkelement_datacontext.md) property on the parent element. Then the parent element and all its children look to the [DataContext](../windows.ui.xaml/frameworkelement_datacontext.md) as the source of their bindings. If the [Source](binding_source.md) is set for a child element, it will override the [DataContext](../windows.ui.xaml/frameworkelement_datacontext.md) inheritance in that instance.
+To create a data source that is inherited by all the child elements in the tree, instead set the [DataContext](../windows.ui.xaml/frameworkelement_datacontext.md) property on the parent element. Then the parent element and all its children look to the [DataContext](../windows.ui.xaml/frameworkelement_datacontext.md) as the source of their bindings. If the Source is set for a child element, it will override the [DataContext](../windows.ui.xaml/frameworkelement_datacontext.md) inheritance in that instance.
 
-The target can bind directly to the [Source](binding_source.md) object if the path is empty or to a property of the [Source](binding_source.md) object as defined by the path. The path is set either in XAML with the binding syntax or when the [Binding](binding.md) object is created.
+The target can bind directly to the Source object if the path is empty or to a property of the Source object as defined by the path. The path is set either in XAML with the binding syntax or when the [Binding](binding.md) object is created.
 
 You can't set the property values of a [Binding](binding.md) object after that binding has been attached to a target element and target property. If you attempt this you'll get a run-time exception.
 

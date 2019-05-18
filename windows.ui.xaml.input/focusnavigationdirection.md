@@ -56,7 +56,7 @@ No change in focus.
 
 ## -remarks
 
-[FocusNavigationDirection.Previous](focusnavigationdirection.md) and [FocusNavigationDirection.Next](focusnavigationdirection.md) cannot be used with [FindNextElementOptions](findnextelementoptions.md). Only [FocusNavigationDirection.Up](focusnavigationdirection.md), [FocusNavigationDirection.Down](focusnavigationdirection.md), [FocusNavigationDirection.Left](focusnavigationdirection.md), or [FocusNavigationDirection.Right](focusnavigationdirection.md) are valid.
+FocusNavigationDirection.Previous and FocusNavigationDirection.Next cannot be used with [FindNextElementOptions](findnextelementoptions.md). Only FocusNavigationDirection.Up, FocusNavigationDirection.Down, FocusNavigationDirection.Left, or FocusNavigationDirection.Right are valid.
 
 ## -examples
 

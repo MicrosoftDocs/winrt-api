@@ -13,9 +13,9 @@ public class DatagramSocketInformation : Windows.Networking.Sockets.IDatagramSoc
 Provides socket information on a [DatagramSocket](datagramsocket.md) object.
 
 ## -remarks
-The [DatagramSocketInformation](datagramsocketinformation.md) class provides information about a [DatagramSocket](datagramsocket.md). This class retrieves information on a [DatagramSocket](datagramsocket.md) and can be called any time after the [DatagramSocket](datagramsocket.md) has been created.
+The DatagramSocketInformation class provides information about a [DatagramSocket](datagramsocket.md). This class retrieves information on a [DatagramSocket](datagramsocket.md) and can be called any time after the [DatagramSocket](datagramsocket.md) has been created.
 
-A [DatagramSocketInformation](datagramsocketinformation.md) object is automatically created with the parent [DatagramSocket](datagramsocket.md) object . The [DatagramSocket.Information](datagramsocket_information.md) property provides access to the associated [DatagramSocketInformation](datagramsocketinformation.md) object.
+A DatagramSocketInformation object is automatically created with the parent [DatagramSocket](datagramsocket.md) object . The [DatagramSocket.Information](datagramsocket_information.md) property provides access to the associated DatagramSocketInformation object.
 
 ## -examples
 

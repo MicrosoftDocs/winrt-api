@@ -14,6 +14,12 @@ Contains information about the storage key so that apps can register and certify
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | OperationalRequirements |
+
 ## -examples
 
 ## -see-also

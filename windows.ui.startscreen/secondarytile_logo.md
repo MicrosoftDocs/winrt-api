@@ -12,7 +12,7 @@ public Windows.Foundation.Uri Logo { get;  set; }
 
 ## -description
 > [!NOTE]
-> [Logo](secondarytile_logo.md) may be altered or unavailable for releases after Windows 8.1. Instead, use [SecondaryTileVisualElements.Square150x150Logo](secondarytilevisualelements_square150x150logo.md).
+> Logo may be altered or unavailable for releases after Windows 8.1. Instead, use [SecondaryTileVisualElements.Square150x150Logo](secondarytilevisualelements_square150x150logo.md).
 
 Gets or sets the logo image used in a medium tile. This property is required when you create either a square or a wide tile.
 

@@ -17,7 +17,7 @@ Represents the base class for flyout controls, such as [Flyout](../windows.ui.xa
 
 ### **FlyoutBase** derived classes
 
-[FlyoutBase](flyoutbase.md) is the parent class for [Flyout](../windows.ui.xaml.controls/flyout.md) and [MenuFlyout](../windows.ui.xaml.controls/menuflyout.md).
+FlyoutBase is the parent class for [Flyout](../windows.ui.xaml.controls/flyout.md) and [MenuFlyout](../windows.ui.xaml.controls/menuflyout.md).
 
 ### XAML attached properties
 
@@ -28,6 +28,28 @@ In order to support XAML processor access to the attached properties, and also t
 | Attached property | Description |
 | - | - |
 | AttachedFlyout | Gets or sets the flyout attached to a [FrameworkElement](../windows.ui.xaml/frameworkelement.md).<ul><li>Type: FlyoutBase</li><li>Identifier field: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.primitives.flyoutbase.attachedflyoutproperty">AttachedFlyoutProperty</a></li><li>Accessor methods: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.primitives.flyoutbase.getattachedflyout">GetAttachedFlyout</a>, <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.primitives.flyoutbase.setattachedflyout">SetAttachedFlyout</a></li></ul>To attach a flyout to a Button, use [Button.Flyout](../windows.ui.xaml.controls/button_flyout.md) instead.|
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | AllowFocusOnInteraction |
+| 1607 | 14393 | AllowFocusWhenDisabled |
+| 1607 | 14393 | Closing |
+| 1607 | 14393 | ElementSoundMode |
+| 1607 | 14393 | LightDismissOverlayMode |
+| 1607 | 14393 | Target |
+| 1703 | 15063 | OverlayInputPassThroughElement |
+| 1709 | 16299 | OnProcessKeyboardAccelerators |
+| 1709 | 16299 | TryInvokeKeyboardAccelerator |
+| 1809 | 17763 | AreOpenCloseAnimationsEnabled |
+| 1809 | 17763 | InputDevicePrefersPrimaryCommands |
+| 1809 | 17763 | IsOpen |
+| 1809 | 17763 | ShowAt(DependencyObject,FlyoutShowOptions) |
+| 1809 | 17763 | ShowMode |
+| 1903 | 18362 | IsConstrainedToRootBounds |
+| 1903 | 18362 | ShouldConstrainToRootBounds |
+| 1903 | 18362 | XamlRoot |
 
 ## -examples
 

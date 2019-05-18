@@ -16,7 +16,7 @@ Gets a Boolean value that indicates whether the entered or selected value is val
 A Boolean value that indicates whether the entered or selected value is valid for the form rule associated with the automation element. The default return value is **true**.
 
 ## -remarks
-As an example, if the user entered "425-555-5555" for a zip code field that requires 5 or 9 digits, the [IsDataValidForForm](automationpeer_isdatavalidforform_1579318026.md) property can be set to **false** to indicate that the data is not valid.
+As an example, if the user entered "425-555-5555" for a zip code field that requires 5 or 9 digits, the IsDataValidForForm property can be set to **false** to indicate that the data is not valid.
 
 ## -examples
 

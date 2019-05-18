@@ -15,7 +15,7 @@ Base class that describes a way to paint a region. Parent of [ImageBrush](imageb
 ## -remarks
 ### **TileBrush** derived classes
 
-[TileBrush](tilebrush.md) is the parent class for [ImageBrush](imagebrush.md) and [WebViewBrush](../windows.ui.xaml.controls/webviewbrush.md). The Windows Runtime XAML vocabulary doesn't support **VideoBrush**. If you're porting Microsoft Silverlight XAML, [WebViewBrush](../windows.ui.xaml.controls/webviewbrush.md) approximately replaces **WebBrowserBrush**, but be aware that there are "airspace" improvements regarding [WebView](../windows.ui.xaml.controls/webview.md) render behavior that may obviate the need for a brush that draws HTML content.
+TileBrush is the parent class for [ImageBrush](imagebrush.md) and [WebViewBrush](../windows.ui.xaml.controls/webviewbrush.md). The Windows Runtime XAML vocabulary doesn't support **VideoBrush**. If you're porting Microsoft Silverlight XAML, [WebViewBrush](../windows.ui.xaml.controls/webviewbrush.md) approximately replaces **WebBrowserBrush**, but be aware that there are "airspace" improvements regarding [WebView](../windows.ui.xaml.controls/webview.md) render behavior that may obviate the need for a brush that draws HTML content.
 
 ## -examples
 

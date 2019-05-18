@@ -14,14 +14,14 @@ public event Windows.Foundation.TypedEventHandler FileUpdateRequested<Windows.St
 Fires when the Windows requests a file update. This event fires once for each requested update.
 
 ## -remarks
-If your app participates in the Cached File Updater contract, you must register for this event in your app's activated event handler where you check for [ActivationKind.CachedFileUpdater](../windows.applicationmodel.activation/activationkind.md). You must respond to this [FileUpdateRequested](cachedfileupdaterui_fileupdaterequested.md) event by updating the file and setting the [FileUpdateRequest.Status](fileupdaterequest_status.md) of the request. Use the [CachedFileUpdaterUI](cachedfileupdaterui.md).[UpdateTarget](cachedfileupdaterui_updatetarget.md) property to determine whether your app should update the version file in its repository or the locally cached copy of the file in response to the request.
+If your app participates in the Cached File Updater contract, you must register for this event in your app's activated event handler where you check for [ActivationKind.CachedFileUpdater](../windows.applicationmodel.activation/activationkind.md). You must respond to this FileUpdateRequested event by updating the file and setting the [FileUpdateRequest.Status](fileupdaterequest_status.md) of the request. Use the [CachedFileUpdaterUI](cachedfileupdaterui.md).[UpdateTarget](cachedfileupdaterui_updatetarget.md) property to determine whether your app should update the version file in its repository or the locally cached copy of the file in response to the request.
 
-You can access information about the requested update by using the [FileUpdateRequestedEventArgs.Request](fileupdaterequestedeventargs_request.md) property on the object that is passed to your [FileUpdateRequested](cachedfileupdaterui_fileupdaterequested.md) event handler. 
+You can access information about the requested update by using the [FileUpdateRequestedEventArgs.Request](fileupdaterequestedeventargs_request.md) property on the object that is passed to your FileUpdateRequested event handler. 
 
-If you need user input to complete the update, set the [FileUpdateRequest.Status](fileupdaterequest_status.md) to [FileUpdateStatus.UserInputNeeded](fileupdatestatus.md) and complete the request. If user interaction is available, another [FileUpdateRequested](cachedfileupdaterui_fileupdaterequested.md) will fire and your app can obtain user input and complete the request.
+If you need user input to complete the update, set the [FileUpdateRequest.Status](fileupdaterequest_status.md) to [FileUpdateStatus.UserInputNeeded](fileupdatestatus.md) and complete the request. If user interaction is available, another FileUpdateRequested will fire and your app can obtain user input and complete the request.
 
 ## -examples
-The [File picker contracts sample](https://go.microsoft.com/fwlink/p/?linkid=231536) demonstrates how to respond to a [FileUpdateRequested](cachedfileupdaterui_fileupdaterequested.md) event.
+The [File picker contracts sample](https://go.microsoft.com/fwlink/p/?linkid=231536) demonstrates how to respond to a FileUpdateRequested event.
 
 ```csharp
 

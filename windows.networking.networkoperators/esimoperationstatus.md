@@ -92,6 +92,22 @@ Indicates that no corresponding request could be found.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1809 | 17763 | CardGeneralFailure |
+| 1809 | 17763 | ConfirmationCodeMissing |
+| 1809 | 17763 | EidMismatch |
+| 1809 | 17763 | InvalidMatchingId |
+| 1809 | 17763 | NoCorrespondingRequest |
+| 1809 | 17763 | NoEligibleProfileForThisDevice |
+| 1809 | 17763 | OperationAborted |
+| 1809 | 17763 | OperationProhibitedByProfileClass |
+| 1809 | 17763 | ProfileNotAvailableForNewBinding |
+| 1809 | 17763 | ProfileNotPresent |
+| 1809 | 17763 | ProfileNotReleasedByOperator |
+
 ## -see-also
 
 ## -examples

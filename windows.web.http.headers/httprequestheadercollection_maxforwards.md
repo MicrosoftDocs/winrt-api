@@ -18,7 +18,7 @@ An integer value that represents the value of a **Max-Forwards** HTTP header on 
 ## -remarks
 
 
-The following sample code shows a method to set the **Max-Forwards** header on an [HttpRequestMessage](../windows.web.http/httprequestmessage.md) object using the [MaxForwards](httprequestheadercollection_maxforwards.md) property on the [HttpRequestHeaderCollection](httprequestheadercollection.md) object.
+The following sample code shows a method to set the **Max-Forwards** header on an [HttpRequestMessage](../windows.web.http/httprequestmessage.md) object using the MaxForwards property on the [HttpRequestHeaderCollection](httprequestheadercollection.md) object.
 
 ```csharp
     public void DemonstrateHeaderRequestMaxForwards() {

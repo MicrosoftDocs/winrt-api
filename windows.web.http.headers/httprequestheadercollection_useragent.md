@@ -18,7 +18,7 @@ The collection of [HttpProductInfoHeaderValue](httpproductinfoheadervalue.md) ob
 ## -remarks
 
 
-The following sample code shows a method to set the **User-Agent** header on an [HttpRequestMessage](../windows.web.http/httprequestmessage.md) object using the [UserAgent](httprequestheadercollection_useragent.md) property on the [HttpRequestHeaderCollection](httprequestheadercollection.md) object.
+The following sample code shows a method to set the **User-Agent** header on an [HttpRequestMessage](../windows.web.http/httprequestmessage.md) object using the UserAgent property on the [HttpRequestHeaderCollection](httprequestheadercollection.md) object.
 
 ```csharp
     void DemoUserAgent(HttpRequestMessage m) {

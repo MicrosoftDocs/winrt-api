@@ -22,7 +22,7 @@ When programming with .NET, this interface is hidden and developers should use t
 
 ### Interface inheritance
 
-[IBindableVector](ibindablevector.md) inherits [IBindableIterable](ibindableiterable.md). Types that implement [IBindableVector](ibindablevector.md) also implement the interface members of [IBindableIterable](ibindableiterable.md) for C++ usage.
+IBindableVector inherits [IBindableIterable](ibindableiterable.md). Types that implement IBindableVector also implement the interface members of [IBindableIterable](ibindableiterable.md) for C++ usage.
 
 ## -examples
 

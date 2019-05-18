@@ -71,7 +71,7 @@ If all hardware RTC slots are full at the time that the app is added to the lock
 
 ### Version history
 
-| Version | SDK version | Value added |
+| Windows version | SDK version | Value added |
 | -- | -- | -- |
 | 1607 | 14393 | AllowedSubjectToSystemPolicy |
 | 1607 | 14393 | AlwaysAllowed |

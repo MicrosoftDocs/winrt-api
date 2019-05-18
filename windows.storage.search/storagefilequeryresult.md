@@ -11,7 +11,7 @@ public class StorageFileQueryResult : Windows.Storage.Search.IStorageFileQueryRe
 
 ## -description
 
-Provides access to the results of a query of the files in the location that is represented by a [storageFolder](../windows.storage/storagefolder.md) object. You can use [storageFileQueryResult](storagefilequeryresult.md) to enumerate the files in that [storageFolder](../windows.storage/storagefolder.md) location.
+Provides access to the results of a query of the files in the location that is represented by a [storageFolder](../windows.storage/storagefolder.md) object. You can use storageFileQueryResult to enumerate the files in that [storageFolder](../windows.storage/storagefolder.md) location.
 
 ## -remarks
 
@@ -19,7 +19,7 @@ Provides access to the results of a query of the files in the location that is r
 > Although it's not attributed with `marshalling_behavior(agile)`, this class can be treated as agile.
 <!--W8B 988884 v2-->
 
-You can get a [storageFileQueryResult](storagefilequeryresult.md) object by calling the following methods from a [storageFolder](../windows.storage/storagefolder.md) or a [folderInformation](../windows.storage.bulkaccess/folderinformation.md) object:
+You can get a storageFileQueryResult object by calling the following methods from a [storageFolder](../windows.storage/storagefolder.md) or a [folderInformation](../windows.storage.bulkaccess/folderinformation.md) object:
 
 + [storageFolder.createFileQuery methods](istoragefolderqueryoperations_createfilequery_1641434999.md)
 + [storageFolder.createFileQueryWithOptions method](../windows.storage/storagefolder_createfilequerywithoptions_2038131323.md)
@@ -28,7 +28,7 @@ You can get a [storageFileQueryResult](storagefilequeryresult.md) object by call
 
 ## -examples
 
-This example demonstrates how to get a list of files from a [storageFileQueryResult](storagefilequeryresult.md) object.
+This example demonstrates how to get a list of files from a storageFileQueryResult object.
 
 ```csharp
 // Set query options with filter and sort order for results
@@ -65,7 +65,7 @@ query.getFilesAsync().done(function (files) {
 });
 ```
 
-The `query` variable gets the [storageFileQueryResult](storagefilequeryresult.md) that is used to retrieve files that meet the criteria of the query.
+The `query` variable gets the storageFileQueryResult that is used to retrieve files that meet the criteria of the query.
 
 > [!NOTE]
 > You need the Pictures library capability to access the library using [KnownFolders.PicturesLibrary](../windows.storage/knownfolders_pictureslibrary.md). To learn more about capabilities and file access, see [File access permissions](https://msdn.microsoft.com/library/3a404cc0-a997-45c8-b2e8-44745539759d).

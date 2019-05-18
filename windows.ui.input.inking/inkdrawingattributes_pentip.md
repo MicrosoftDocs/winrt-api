@@ -18,10 +18,10 @@ The shape of the pen/stylus tip. The default is [Circle](pentipshape.md).
 
 
 ## -remarks
-Support various calligraphic effects using the [PenTipShape](pentipshape.md) property with [PenTip](inkdrawingattributes_pentip.md).
+Support various calligraphic effects using the [PenTipShape](pentipshape.md) property with PenTip.
 
 ## -examples
-The following example demonstrates how to set the [PenTip](inkdrawingattributes_pentip.md) attribute for all strokes managed by an [InkManager](inkmanager.md) object (`inkManager`).
+The following example demonstrates how to set the PenTip attribute for all strokes managed by an [InkManager](inkmanager.md) object (`inkManager`).
 
 ```
 

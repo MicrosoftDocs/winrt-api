@@ -13,7 +13,7 @@ public interface IXamlMember :
 Provides the means to report XAML-type system specifics about XAML members. Using this interface contract, XAML parsers can load any custom types and members thereof that are defined in your app and are referenced in XAML files.
 
 ## -remarks
-For more info on [IXamlType](ixamltype.md) and [IXamlMember](ixamlmember.md) and how these are used for XAML custom types, see "Remarks" section of [IXamlType](ixamltype.md).
+For more info on [IXamlType](ixamltype.md) and IXamlMember and how these are used for XAML custom types, see "Remarks" section of [IXamlType](ixamltype.md).
 
 ## -examples
 

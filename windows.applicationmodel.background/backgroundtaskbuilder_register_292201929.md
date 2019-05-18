@@ -16,7 +16,7 @@ Registers a background task with the system.
 An instance of a [BackgroundTaskRegistration](backgroundtaskregistration.md) object.
 
 ## -remarks
-The task must have an event trigger and a task entry point for the [Register](backgroundtaskbuilder_register_292201929.md) method to succeed. The system schedules the background task when its trigger event occurs and all of its conditions have been met.
+The task must have an event trigger and a task entry point for the Register method to succeed. The system schedules the background task when its trigger event occurs and all of its conditions have been met.
 
 ### Background task parameter validation
 

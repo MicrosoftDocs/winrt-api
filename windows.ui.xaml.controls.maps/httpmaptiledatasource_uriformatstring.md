@@ -16,7 +16,7 @@ Gets or sets the format of the Uri for fetching tiles from an HTTP source.
 The format of the Uri for fetching tiles from an HTTP source.
 
 ## -remarks
-The [UriFormat](httpmaptiledatasource_uriformatstring.md) property accepts the following case-insensitive replacement strings:
+The UriFormat property accepts the following case-insensitive replacement strings:
 
 
 + *{x}*

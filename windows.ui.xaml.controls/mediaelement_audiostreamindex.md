@@ -25,7 +25,7 @@ The index in the media file of the audio component that plays along with the vid
 If you're programming using C#or Microsoft Visual Basic, the type of this property is projected as **int?**(a nullable integer).
 
 ## -remarks
-Setting [AudioStreamIndex](mediaelement_audiostreamindex.md) to **null** selects the default audio track, which is defined by the content.
+Setting AudioStreamIndex to **null** selects the default audio track, which is defined by the content.
 
 
 

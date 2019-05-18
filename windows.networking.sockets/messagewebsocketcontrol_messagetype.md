@@ -20,9 +20,9 @@ A WebSocket message on the [MessageWebSocket](messagewebsocket.md) object can be
 
 This property only affects write operations on [OutputStream](messagewebsocket_outputstream.md). It does not affect the format of received messages.
 
-The [MessageType](messagewebsocketcontrol_messagetype.md) property can be changed at any time. This allows an app to switch between binary and UTF-8 messages when needed.
+The MessageType property can be changed at any time. This allows an app to switch between binary and UTF-8 messages when needed.
 
-Before changing the [MessageType](messagewebsocketcontrol_messagetype.md) on a bound or connected [MessageWebSocket](messagewebsocket.md), any outgoing packets should first be flushed to ensure that all previously-written data is sent out with the previous message type
+Before changing the MessageType on a bound or connected [MessageWebSocket](messagewebsocket.md), any outgoing packets should first be flushed to ensure that all previously-written data is sent out with the previous message type
 
 
 

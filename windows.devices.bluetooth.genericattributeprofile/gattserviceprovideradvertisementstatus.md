@@ -31,6 +31,12 @@ Indicates that the system was successfully able to issue the advertisement reque
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1903 | 18362 | StartedWithoutAllAdvertisementData |
+
 ## -see-also
 
 ## -examples

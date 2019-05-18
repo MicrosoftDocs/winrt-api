@@ -26,7 +26,7 @@ How long the socket brokering service should monitor the socket for activity.
 Your app should call this method to transfer ownership of the [StreamSocket](streamsocket.md) to the socket brokering service when the app is about to be suspended, or at the end of a background task. Your app should not access the [StreamSocket](streamsocket.md) object after calling this method, except when responding to notifications from the socket brokering service.
 
 > [!NOTE]
-> This call fails if there is any pending I/O on the [StreamSocket](streamsocket.md). Your code should call [StreamSocket.CancelIOAsync](streamsocket_cancelioasync_169683529.md) to cancel any further new traffic, then handle all pending traffic, and then update the [SocketActivityContext](socketactivitycontext.md), before calling [StreamSocket.TransferOwnership](streamsocket_transferownership_821274176.md).
+> This call fails if there is any pending I/O on the [StreamSocket](streamsocket.md). Your code should call [StreamSocket.CancelIOAsync](streamsocket_cancelioasync_169683529.md) to cancel any further new traffic, then handle all pending traffic, and then update the [SocketActivityContext](socketactivitycontext.md), before calling StreamSocket.TransferOwnership.
 
 ## -examples
 

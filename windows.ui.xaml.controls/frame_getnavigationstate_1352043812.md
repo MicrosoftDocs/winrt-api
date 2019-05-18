@@ -16,9 +16,9 @@ Serializes the [Frame](frame.md) navigation history into a string.
 The string-form serialized navigation history. See Remarks.
 
 ## -remarks
-This method is useful to restore the navigation state of your app after it has been suspended and resumed. When your app is suspended, call [GetNavigationState](frame_getnavigationstate_1352043812.md) and save the return value. When your app is resumed, call [SetNavigationState](/uwp/api/windows.ui.xaml.controls.frame.setnavigationstate) and pass it the saved value.
+This method is useful to restore the navigation state of your app after it has been suspended and resumed. When your app is suspended, call GetNavigationState and save the return value. When your app is resumed, call [SetNavigationState](/uwp/api/windows.ui.xaml.controls.frame.setnavigationstate) and pass it the saved value.
 
-Calling this method will call [Page.OnNavigatedFrom](page_onnavigatedfrom_1389759661.md) for the current page using **NavigationMode.Forward**. [GetNavigationState](frame_getnavigationstate_1352043812.md) is usually called when the application is being suspended, so the current page is navigated away from.
+Calling this method will call [Page.OnNavigatedFrom](page_onnavigatedfrom_1389759661.md) for the current page using **NavigationMode.Forward**. GetNavigationState is usually called when the application is being suspended, so the current page is navigated away from.
 
 
 

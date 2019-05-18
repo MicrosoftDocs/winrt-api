@@ -29,9 +29,9 @@ The total amount by which the animation changes its starting value. The default 
 If you are programming using C#or Microsoft Visual Basic, the type of this property is projected as **Point?**(a nullable [Point](../windows.foundation/point.md)).
 
 ## -remarks
-A [PointAnimation](pointanimation.md) typically has at least one of the [From](pointanimation_from.md), [By](pointanimation_by.md) or [To](pointanimation_to.md) properties set, but never all three. For more info, see Remarks in [PointAnimation](pointanimation.md).
+A [PointAnimation](pointanimation.md) typically has at least one of the [From](pointanimation_from.md), By or [To](pointanimation_to.md) properties set, but never all three. For more info, see Remarks in [PointAnimation](pointanimation.md).
 
-The **null** default value indicates that the base non-animated value is the default value for [By](pointanimation_by.md), not that the animated value is literally **null**. The base non-animated value is determined at run time by the dependency property system. For more info, see [Dependency properties overview](https://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e).
+The **null** default value indicates that the base non-animated value is the default value for By, not that the animated value is literally **null**. The base non-animated value is determined at run time by the dependency property system. For more info, see [Dependency properties overview](https://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e).
 
 ## -examples
 

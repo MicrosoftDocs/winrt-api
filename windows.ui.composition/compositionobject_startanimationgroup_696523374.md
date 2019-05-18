@@ -21,7 +21,7 @@ The animation group to start.
 ## -remarks
 StartAnimationGroup takes [CompositionAnimationGroup](compositionanimationgroup.md) as a parameter to start all the animations in the group at the same time on the object. [CompositionAnimation](compositionanimation.md) in the group should have a value assigned to the [Target](compositionanimation_target.md) property.
 
-To get [Completed](compositionscopedbatch_completed.md) events for all the animations, [StartAnimationGroup](compositionobject_startanimationgroup_696523374.md) should be called from a [CompositionScopedBatch](compositionscopedbatch.md) with a registered [Completed](compositionscopedbatch_completed.md) event.
+To get [Completed](compositionscopedbatch_completed.md) events for all the animations, StartAnimationGroup should be called from a [CompositionScopedBatch](compositionscopedbatch.md) with a registered [Completed](compositionscopedbatch_completed.md) event.
 
 ## -examples
 ```csharp

@@ -18,7 +18,7 @@ The collection of [HttpChallengeHeaderValue](httpchallengeheadervalue.md) object
 ## -remarks
 
 
-The following sample code shows a method to get and set the **Proxy-Authenticate** header on an [HttpResponseMessage](../windows.web.http/httpresponsemessage.md) object using the [ProxyAuthenticate](httpresponseheadercollection_proxyauthenticate.md) property on the [HttpResponseHeaderCollection](httpresponseheadercollection.md) object.
+The following sample code shows a method to get and set the **Proxy-Authenticate** header on an [HttpResponseMessage](../windows.web.http/httpresponsemessage.md) object using the ProxyAuthenticate property on the [HttpResponseHeaderCollection](httpresponseheadercollection.md) object.
 
 ```csharp
 // Proxy-Authenticate: Basic

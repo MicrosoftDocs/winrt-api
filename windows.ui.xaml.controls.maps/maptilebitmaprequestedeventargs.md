@@ -15,6 +15,12 @@ Provides data for the [CustomMapTileDataSource.BitmapRequested](custommaptiledat
 ## -remarks
 For more info about using the [CustomMapTileDataSource](custommaptiledatasource_custommaptiledatasource_1221375020.md), see the [PixelData](maptilebitmaprequest_pixeldata.md) property of the [MapTileBitmapRequest](maptilebitmaprequest.md).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1809 | 17763 | FrameIndex |
+
 ## -examples
 
 ## -see-also

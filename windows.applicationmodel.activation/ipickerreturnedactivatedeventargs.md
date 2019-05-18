@@ -15,7 +15,7 @@ Provides data for the Activated event when it occurs after a picker returns.
 ## -remarks
 ### Interface inheritance
 
-[IPickerReturnedActivatedEventArgs](ipickerreturnedactivatedeventargs.md) inherits [IActivatedEventArgs](iactivatedeventargs.md). Types that implement [IPickerReturnedActivatedEventArgs](ipickerreturnedactivatedeventargs.md) also implement the interface members of [IActivatedEventArgs](iactivatedeventargs.md).
+IPickerReturnedActivatedEventArgs inherits [IActivatedEventArgs](iactivatedeventargs.md). Types that implement IPickerReturnedActivatedEventArgs also implement the interface members of [IActivatedEventArgs](iactivatedeventargs.md).
 
 ## -examples
 

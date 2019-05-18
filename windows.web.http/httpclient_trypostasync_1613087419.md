@@ -28,7 +28,7 @@ This operation will not throw an exception on network errors. Instead you should
 
 This operation will not block. The returned [IAsyncOperationWithProgress(HttpRequestResult,HttpProgress)](../windows.foundation/iasyncoperationwithprogress_2.md) object will complete after the whole response (including content) is read.
 
-The [TryPutAsync](httpclient_tryputasync_1991770449.md) and [TryPostAsync](httpclient_trypostasync_1613087419.md) methods only allow setting a limited number of HTTP content headers. In contrast, the [TrySendRequestAsync](httpclient_trysendrequestasync_1392908712.md) method allows setting headers on the request message as well as on the HTTP content to be sent.
+The [TryPutAsync](httpclient_tryputasync_1991770449.md) and TryPostAsync methods only allow setting a limited number of HTTP content headers. In contrast, the [TrySendRequestAsync](httpclient_trysendrequestasync_1392908712.md) method allows setting headers on the request message as well as on the HTTP content to be sent.
 
 ## -see-also
 [HttpRequestResult](httprequestresult.md), [IHttpContent](ihttpcontent.md), [HttpProgress](httpprogress.md), [HttpResponseMessage](httpresponsemessage.md)

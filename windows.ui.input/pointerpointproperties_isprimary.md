@@ -20,7 +20,7 @@ The primary pointer is a single pointer (touch, mouse, and pen/stylus) in the cu
 
 For mouse, the primary pointer is the only pointer for which mouse events can be generated.
 
-For touch (where there can be multiple concurrent pointers), the primary pointer is the first contact in an interaction. For any interaction after the first **[PointerPressed](..\windows.ui.xaml\uielement_pointerpressed.md)** event, [IsPrimary](pointerpointproperties_isprimary.md) returns false.
+For touch (where there can be multiple concurrent pointers), the primary pointer is the first contact in an interaction. For any interaction after the first **[PointerPressed](..\windows.ui.xaml\uielement_pointerpressed.md)** event, IsPrimary returns false.
 
 A new primary pointer is only registered when all contacts in that interaction are removed and a new contact is subsequently detected.
 

@@ -15,7 +15,7 @@ public byte MinPasswordLength { get;  set; }
 
 Gets or set the minimum length of password allowed. The MS-ASPROV name is MinPasswordLength.
 
-The [MinPasswordLength](easclientsecuritypolicy_minpasswordlength.md) property is superseded by the MS-ASPROV DevicePasswordEnabled policy. If the caller received DevicePasswordEnabled equal to FALSE, do not set the [MinPasswordLength](easclientsecuritypolicy_minpasswordlength.md) property for evaluation or application. If the caller received DevicePasswordEnabled equal to TRUE, you can set the [MinPasswordLength](easclientsecuritypolicy_minpasswordlength.md) property for evaluation or application.
+The MinPasswordLength property is superseded by the MS-ASPROV DevicePasswordEnabled policy. If the caller received DevicePasswordEnabled equal to FALSE, do not set the MinPasswordLength property for evaluation or application. If the caller received DevicePasswordEnabled equal to TRUE, you can set the MinPasswordLength property for evaluation or application.
 
 ## -property-value
 The range is between 1 and 16.

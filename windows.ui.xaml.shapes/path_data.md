@@ -54,7 +54,7 @@ The following example uses a [Path](path.md) to draw an ellipse.
       
       ge p8:href="F7350D28-90E9-4423-9027-0A1C013D8381" xmlns:p8="http://www.w3.org/1999/xlink" />
 -->
-In XAML, you can also use [Move and draw commands syntax](https://msdn.microsoft.com/library/7772bc3e-a631-46ff-9940-3dd5b9d0e0d9) as the value for the [Data](path_data.md) property. This example uses this syntax to specify the shape of a [Path](path.md).
+In XAML, you can also use [Move and draw commands syntax](https://msdn.microsoft.com/library/7772bc3e-a631-46ff-9940-3dd5b9d0e0d9) as the value for the Data property. This example uses this syntax to specify the shape of a [Path](path.md).
 
 ```xaml
 <Canvas>

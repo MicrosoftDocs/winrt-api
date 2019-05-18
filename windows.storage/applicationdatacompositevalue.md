@@ -17,7 +17,7 @@ A composite setting is serialized by inserting it into a settings map and deseri
 
 ### Collection member lists
 
-For JavaScript, [ApplicationDataCompositeValue](applicationdatacompositevalue.md) supports using an index to access items.
+For JavaScript, ApplicationDataCompositeValue supports using an index to access items.
 
 ## -examples
 This example creates and reads a composite setting named `exampleCompositeSetting`.

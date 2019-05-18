@@ -29,7 +29,7 @@ A value of the enumeration that indicates when the [Click](buttonbase_click.md) 
 ## -remarks
 
 ## -examples
-The following example shows three buttons that respond to clicks in three different ways based on their [ClickMode](buttonbase_clickmode.md) property value.
+The following example shows three buttons that respond to clicks in three different ways based on their ClickMode property value.
 
 
 + Hover - When the mouse pointer hovers over the first button, the foreground color of the button changes.

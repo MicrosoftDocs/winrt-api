@@ -18,10 +18,15 @@ Media files usually contain at least some of the following elements:
 + An index that enables random access to the content.
 + Metadata that describes the content (for example, the artist or title).
 
-
 The term *media container* describes the entire package of media data, file headers, indexes, and metadata. The reason for using the term *container* rather than *file* is that some container formats are designed for live broadcast. A container might be generated in real time, without ever being stored as a file.
 
 An early example of a media container is the AVI file format. Other examples include MP4 and Advanced Systems Format (ASF). Containers can be identified by file name extension (for example, ".mp4") or by MIME type.
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1803 | 17134 | Copy |
 
 ## -examples
 

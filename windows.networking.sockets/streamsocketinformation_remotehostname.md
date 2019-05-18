@@ -16,9 +16,9 @@ Get the hostname or IP address of the remote network destination associated with
 The hostname or IP address of the remote network destination.
 
 ## -remarks
-The [RemoteHostName](streamsocketinformation_remotehostname.md) property represents the remote hostname or IP address for the remote network destination associated with a [StreamSocket](streamsocket.md) object. The remote hostname or IP address that a [StreamSocket](streamsocket.md) object connects to is passed in the *remoteHostName* parameter to the [ConnectAsync](streamsocket_connectasync_13692504.md) method on the [StreamSocket](streamsocket.md).
+The RemoteHostName property represents the remote hostname or IP address for the remote network destination associated with a [StreamSocket](streamsocket.md) object. The remote hostname or IP address that a [StreamSocket](streamsocket.md) object connects to is passed in the *remoteHostName* parameter to the [ConnectAsync](streamsocket_connectasync_13692504.md) method on the [StreamSocket](streamsocket.md).
 
-The [RemoteHostName](streamsocketinformation_remotehostname.md) property can be one of the following:
+The RemoteHostName property can be one of the following:
 
 
 + The name of the local host that can be resolved by the Domain Name System (DNS) or by another namespace provider.

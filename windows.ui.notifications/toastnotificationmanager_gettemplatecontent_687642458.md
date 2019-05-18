@@ -26,7 +26,7 @@ Instead of creating the full XML payload yourself, you can get a template and th
 See [tile schema](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/schema-root) for an explanation of tile elements and attributes.
 
 ## -examples
-The following example shows how to create and send a toast notification that includes text and images, including the use of the [GetTemplateContent](toastnotificationmanager_gettemplatecontent_687642458.md) method.
+The following example shows how to create and send a toast notification that includes text and images, including the use of the GetTemplateContent method.
 
 ```javascript
 

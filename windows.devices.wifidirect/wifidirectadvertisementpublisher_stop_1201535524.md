@@ -14,7 +14,7 @@ public void Stop()
 Stops the Wi-Fi Direct advertisement.
 
 ## -remarks
-Calling the [Stop](wifidirectadvertisementpublisher_stop_1201535524.md) method in the **Stopped** or **Aborted** state has no effect.
+Calling the Stop method in the **Stopped** or **Aborted** state has no effect.
 
 ## -examples
 

@@ -32,7 +32,7 @@ The [Search contract sample](https://go.microsoft.com/fwlink/p/?linkid=234892) d
 
 
 [!code-js[lssettings_appendloc_js](../windows.applicationmodel.search/code/SearchContract/js/js/scenario4.js#Snippetlssettings_appendloc_js)]
-> If there is only one [storageFolder](../windows.storage/storagefolder.md) in the [locations](localcontentsuggestionsettings_locations.md) list, like the Music library in the example, the local files in that location only are used to provide suggestions in the search pane.
+> If there is only one [storageFolder](../windows.storage/storagefolder.md) in the locations list, like the Music library in the example, the local files in that location only are used to provide suggestions in the search pane.
 
 ## -see-also
 [Access to user resources using the Windows Runtime](https://msdn.microsoft.com/library/7b4402ea-55f6-438d-b9d1-8e65d56c8f42), [Quickstart: Adding search](https://msdn.microsoft.com/library/d412c562-22d2-41c4-9f27-27503b89b9e9), [Search contract sample](https://go.microsoft.com/fwlink/p/?linkid=234892), [Object class](https://msdn.microsoft.com/library/system.object.aspx), [LocalContentSuggestionSettings class](localcontentsuggestionsettings.md), [LocalContentSuggestionSettings.Enabled property](localcontentsuggestionsettings_enabled.md), [SearchPane.SetLocalContentSuggestionSettings method](searchpane_setlocalcontentsuggestionsettings_156524340.md), [Windows.Storage.KnownFolders class](../windows.storage/knownfolders.md), [Windows.Storage.StorageFolder class](../windows.storage/storagefolder.md)

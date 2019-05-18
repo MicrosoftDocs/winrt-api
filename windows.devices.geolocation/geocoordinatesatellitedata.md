@@ -15,7 +15,7 @@ Provides additional information about a [Geocoordinate](geocoordinate.md). This 
 
 ## -remarks
 
-You can use the [Geocoordinate.PositionSource](geocoordinate_positionsource.md) property to receive the [GeocoordinateSatelliteData](geocoordinatesatellitedata.md) information.
+You can use the [Geocoordinate.PositionSource](geocoordinate_positionsource.md) property to receive the GeocoordinateSatelliteData information.
 
 The properties of this class convey information about the satellite geometry with which the position was obtained. Their values indicate the level of confidence that the position provided is precise. Lower values for dilution of precision (DOP) indicate high confidence on the precision of the position obtained. Positions with a DOP of 5 or less are considered reliable. Positions with a DOP higher than 10 are low confidence and should generally be discarded other than for a rough position estimation. Positions with a DOP higher than 20 should always be discarded.
 

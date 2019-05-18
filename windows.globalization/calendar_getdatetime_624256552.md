@@ -18,7 +18,7 @@ The [DateTime](../windows.foundation/datetime.md) representing the date and time
 ## -remarks
 If you're using a .NET language (for example, C#, or Visual Basic), then use the Coordinated Universal Time (UTC) time zone with a **Calendar** object if you wish to follow this set of steps.
 - Call either **SetToMin** or [SetToMax](calendar_settomax_44967827.md), and then
-- Call [GetDateTime](calendar_getdatetime_624256552.md) to convert the **Calendar** to a .NET [System.DateTime](/dotnet/api/system.datetime) struct.
+- Call GetDateTime to convert the **Calendar** to a .NET [System.DateTime](/dotnet/api/system.datetime) struct.
 
 If you don't use the Coordinated Universal Time (UTC) time zone, then **GetDateTime** will throw an exception because the computed number of ticks will under- or overflow due to the timezone offset.
 

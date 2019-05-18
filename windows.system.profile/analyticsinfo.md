@@ -15,6 +15,12 @@ Provides information about the device for profiling purposes.
 ## -remarks
 This is a static class.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1803 | 17134 | GetSystemPropertiesAsync |
+
 ## -examples
 
 ## -see-also

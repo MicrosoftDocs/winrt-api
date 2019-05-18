@@ -11,7 +11,7 @@ public class BitmapImage : Windows.UI.Xaml.Media.Imaging.BitmapSource, Windows.U
 
 ## -description
 
-Provides the practical object source type for the [Image.Source](../windows.ui.xaml.controls/image_source.md) and [ImageBrush.ImageSource](../windows.ui.xaml.media/imagebrush_imagesource.md) properties. You can define a [BitmapImage](bitmapimage.md) by using a Uniform Resource Identifier (URI) that references an image source file, or by calling [SetSourceAsync](bitmapsource_setsourceasync_1118221574.md) and supplying a stream.
+Provides the practical object source type for the [Image.Source](../windows.ui.xaml.controls/image_source.md) and [ImageBrush.ImageSource](../windows.ui.xaml.media/imagebrush_imagesource.md) properties. You can define a BitmapImage by using a Uniform Resource Identifier (URI) that references an image source file, or by calling [SetSourceAsync](bitmapsource_setsourceasync_1118221574.md) and supplying a stream.
 
 ## -xaml-syntax
 
@@ -21,7 +21,7 @@ Provides the practical object source type for the [Image.Source](../windows.ui.x
 
 ## -remarks
 
-A [BitmapImage](bitmapimage.md) can be sourced from these image file formats:
+A BitmapImage can be sourced from these image file formats:
 
 + Joint Photographic Experts Group (JPEG)
 + Portable Network Graphics (PNG)
@@ -33,24 +33,24 @@ A [BitmapImage](bitmapimage.md) can be sourced from these image file formats:
 
 If the image source is a stream, that stream is expected to contain an image file in one of these formats.
 
-The [BitmapImage](bitmapimage.md) class represents an abstraction so that an image source can be set asynchronously but still be referenced in XAML markup as a property value, or in code as an object that doesn't use awaitable syntax. When you create a [BitmapImage](bitmapimage.md) object in code, it initially has no valid source. You should then set its source using one of these techniques:
+The BitmapImage class represents an abstraction so that an image source can be set asynchronously but still be referenced in XAML markup as a property value, or in code as an object that doesn't use awaitable syntax. When you create a BitmapImage object in code, it initially has no valid source. You should then set its source using one of these techniques:
 
-+ Use the [BitmapImage(Uri)](bitmapimage_bitmapimage_843413386.md) constructor rather than the default constructor. Although it's a constructor you can think of this as having an implicit asynchronous behavior: the [BitmapImage](bitmapimage.md) won't be ready for use until it raises an [ImageOpened](bitmapimage_imageopened.md) event that indicates a successful async source set operation.
-+ Set the [UriSource](bitmapimage_urisource.md) property. As with using the **Uri** constructor, this action is implicitly asynchronous, and the [BitmapImage](bitmapimage.md) won't be ready for use until it raises an [ImageOpened](bitmapimage_imageopened.md) event.
++ Use the [BitmapImage(Uri)](bitmapimage_bitmapimage_843413386.md) constructor rather than the default constructor. Although it's a constructor you can think of this as having an implicit asynchronous behavior: the BitmapImage won't be ready for use until it raises an [ImageOpened](bitmapimage_imageopened.md) event that indicates a successful async source set operation.
++ Set the [UriSource](bitmapimage_urisource.md) property. As with using the **Uri** constructor, this action is implicitly asynchronous, and the BitmapImage won't be ready for use until it raises an [ImageOpened](bitmapimage_imageopened.md) event.
 + Use [SetSourceAsync](bitmapsource_setsourceasync_1118221574.md). This method is explicitly asynchronous.
- The properties where you might use a [BitmapImage](bitmapimage.md), such as [Image.Source](../windows.ui.xaml.controls/image_source.md), are designed for this asynchronous behavior, and won't throw exceptions if they are set using a [BitmapImage](bitmapimage.md) that doesn't have a complete source yet. Rather than handling exceptions, you should handle [ImageOpened](bitmapimage_imageopened.md) or [ImageFailed](bitmapimage_imagefailed.md) events either on the [BitmapImage](bitmapimage.md) directly or on the control that uses the source (if those events are available on the control class).
+ The properties where you might use a BitmapImage, such as [Image.Source](../windows.ui.xaml.controls/image_source.md), are designed for this asynchronous behavior, and won't throw exceptions if they are set using a BitmapImage that doesn't have a complete source yet. Rather than handling exceptions, you should handle [ImageOpened](bitmapimage_imageopened.md) or [ImageFailed](bitmapimage_imagefailed.md) events either on the BitmapImage directly or on the control that uses the source (if those events are available on the control class).
 
-[ImageFailed](bitmapimage_imagefailed.md) and [ImageOpened](bitmapimage_imageopened.md) are mutually exclusive. One event or the other will always be raised whenever a [BitmapImage](bitmapimage.md) object has its source value set or reset.
+[ImageFailed](bitmapimage_imagefailed.md) and [ImageOpened](bitmapimage_imageopened.md) are mutually exclusive. One event or the other will always be raised whenever a BitmapImage object has its source value set or reset.
 
 ### BitmapImage and encoding
 
 The underlying codec support for image files is supplied by Windows Imaging Component (WIC)  API in Windows. For more info on specific image formats as documented for the codecs, see [Native WIC Codecs](https://msdn.microsoft.com/library/8d3e4b3a-fa39-475c-b177-61fc81e5ffcc). For more info on formats and how to use Uniform Resource Identifier (URI) to access image source files that come from app resources, see [Image and ImageBrush](https://msdn.microsoft.com/library/cea8780c-71a3-4168-a6e8-6361cdfb2faf).
 
-The API for [Image](../windows.ui.xaml.controls/image.md), [BitmapImage](bitmapimage.md) and [BitmapSource](bitmapsource.md) doesn't include any dedicated methods for encoding and decoding of media formats. All of the encode and decode operations are built-in, and at most will surface aspects of encode or decode as part of event data for load events. If you want to do any special work with image encode or decode, which you might use if your app is doing image conversions or manipulation, you should use the API that are available in the [Windows.Graphics.Imaging](../windows.graphics.imaging/windows_graphics_imaging.md) namespace. These imaging API can be used by either UWP app using C++, C#, or Visual Basic or Windows app using JavaScript. These APIs are also supported by the Windows Imaging Component (WIC) component of Windows 8.
+The API for [Image](../windows.ui.xaml.controls/image.md), BitmapImage and [BitmapSource](bitmapsource.md) doesn't include any dedicated methods for encoding and decoding of media formats. All of the encode and decode operations are built-in, and at most will surface aspects of encode or decode as part of event data for load events. If you want to do any special work with image encode or decode, which you might use if your app is doing image conversions or manipulation, you should use the API that are available in the [Windows.Graphics.Imaging](../windows.graphics.imaging/windows_graphics_imaging.md) namespace. These imaging API can be used by either UWP app using C++, C#, or Visual Basic or Windows app using JavaScript. These APIs are also supported by the Windows Imaging Component (WIC) component of Windows 8.
 
 ### Animated images
 
-Starting in Windows 10, version 1607, the XAML [Image](../windows.ui.xaml.controls/image.md) element supports animated GIF images. When you use a [BitmapImage](bitmapimage.md) as the image [Source](../windows.ui.xaml.controls/image_source.md), you can access [BitmapImage](bitmapimage.md)  API to control playback of the animated GIF image.
+Starting in Windows 10, version 1607, the XAML [Image](../windows.ui.xaml.controls/image.md) element supports animated GIF images. When you use a BitmapImage as the image [Source](../windows.ui.xaml.controls/image_source.md), you can access BitmapImage  API to control playback of the animated GIF image.
 
 + Use the [AutoPlay](bitmapimage_autoplay.md) property, which defaults to **true**, to specify whether or not an animated bitmap plays as soon as it loads.
 + Use the [IsAnimatedBitmap](bitmapimage_isanimatedbitmap.md) property to check whether a bitmap is animated.
@@ -126,9 +126,19 @@ void playButton_Click(object sender, RoutedEventArgs e)
 
 For more examples, see the [Animated GIF playback sample](https://go.microsoft.com/fwlink/p/?LinkId=624046).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | AutoPlay |
+| 1607 | 14393 | IsAnimatedBitmap |
+| 1607 | 14393 | IsPlaying |
+| 1607 | 14393 | Play |
+| 1607 | 14393 | Stop |
+
 ## -examples
 
-Here's an example of using a [BitmapImage](bitmapimage.md) object to set [Image.Source](../windows.ui.xaml.controls/image_source.md) in C#. In this example, the [Image](../windows.ui.xaml.controls/image.md) object was created in XAML but doesn't have a source or any other property values; instead these values are provided at run-time when the [Image](../windows.ui.xaml.controls/image.md) is loaded from XAML.
+Here's an example of using a BitmapImage object to set [Image.Source](../windows.ui.xaml.controls/image_source.md) in C#. In this example, the [Image](../windows.ui.xaml.controls/image.md) object was created in XAML but doesn't have a source or any other property values; instead these values are provided at run-time when the [Image](../windows.ui.xaml.controls/image.md) is loaded from XAML.
 
 ```xaml
 <Image Loaded="Image_Loaded"/>

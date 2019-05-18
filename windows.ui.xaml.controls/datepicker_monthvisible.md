@@ -22,7 +22,7 @@ Gets or sets a value that indicates whether the month selector is shown.
 **true** if the month selector is shown; otherwise, **false**. The default is **true**.
 
 ## -remarks
-By default, the [DatePicker](datepicker.md) shows [ComboBox](combobox.md) elements to select the month, day, and year. Set [MonthVisible](datepicker_monthvisible.md) to **false** to hide the [ComboBox](combobox.md) that displays or changes the month component of a date.
+By default, the [DatePicker](datepicker.md) shows [ComboBox](combobox.md) elements to select the month, day, and year. Set MonthVisible to **false** to hide the [ComboBox](combobox.md) that displays or changes the month component of a date.
 
 ## -examples
 

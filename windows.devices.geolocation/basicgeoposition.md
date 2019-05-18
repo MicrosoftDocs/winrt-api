@@ -25,7 +25,7 @@ The longitude of the geographic position. This can be any value. For values less
 ### -field Altitude
 The altitude of the geographic position in meters.
 >[!Note]
-This field has an effect only if you set the altitude reference system of class that you create by using this [BasicGeoPosition](basicgeoposition.md) (For example: The [AltitudeReferenceSystem](geopoint_altitudereferencesystem.md) property of a [Geopoint](geopoint.md)).
+This field has an effect only if you set the altitude reference system of class that you create by using this BasicGeoPosition (For example: The [AltitudeReferenceSystem](geopoint_altitudereferencesystem.md) property of a [Geopoint](geopoint.md)).
 
 ## -remarks
 

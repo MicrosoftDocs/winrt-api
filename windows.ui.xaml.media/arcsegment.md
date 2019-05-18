@@ -19,11 +19,11 @@ Represents an elliptical arc between two points.
 
 
 ## -remarks
-At a minimum each [ArcSegment](arcsegment.md) should have its [RotationAngle](arcsegment_rotationangle.md) and [Size](arcsegment_size.md) properties set, because these don't have useful defaults.
+At a minimum each ArcSegment should have its [RotationAngle](arcsegment_rotationangle.md) and [Size](arcsegment_size.md) properties set, because these don't have useful defaults.
 
 This class is relevant for setting the vector data for either a [Path](../windows.ui.xaml.shapes/path.md) or a [PathIcon](../windows.ui.xaml.controls/pathicon.md).
 
-Rather than creating an instance or an object element, you can also define an [ArcSegment](arcsegment.md) as part of a vector within the string for a [Move and draw commands syntax](https://msdn.microsoft.com/library/7772bc3e-a631-46ff-9940-3dd5b9d0e0d9).
+Rather than creating an instance or an object element, you can also define an ArcSegment as part of a vector within the string for a [Move and draw commands syntax](https://msdn.microsoft.com/library/7772bc3e-a631-46ff-9940-3dd5b9d0e0d9).
 
 ## -examples
 

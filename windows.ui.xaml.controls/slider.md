@@ -23,18 +23,18 @@ Represents a control that lets the user select from a range of values by moving 
 > [!TIP]
 > For more info, design guidance, and code examples, see [Sliders](/windows/uwp/design/controls-and-patterns/slider).
 
-[Slider](slider.md) is a control that lets the user select from a range of values by moving a [Thumb](../windows.ui.xaml.controls.primitives/thumb.md) control along a track.
+Slider is a control that lets the user select from a range of values by moving a [Thumb](../windows.ui.xaml.controls.primitives/thumb.md) control along a track.
 
 <img alt="Slider control" src="images/controls/Slider.png" />
 
-Use a [Slider](slider.md) control when you want your users to be able to set defined, contiguous values (such as volume or brightness) or a range of discrete values (such as screen resolution settings). [Slider](slider.md) s are for user interaction. If a user can't ever change the value, use read-only text instead. For more information on when to use a [Slider](slider.md), see [Guidelines for sliders](https://msdn.microsoft.com/library/7ec7ea33-be7e-4fd5-b205-b8fa7b729acc).
+Use a Slider control when you want your users to be able to set defined, contiguous values (such as volume or brightness) or a range of discrete values (such as screen resolution settings). Slider s are for user interaction. If a user can't ever change the value, use read-only text instead. For more information on when to use a Slider, see [Guidelines for sliders](https://msdn.microsoft.com/library/7ec7ea33-be7e-4fd5-b205-b8fa7b729acc).
 
 ### Binding Minimum and Maximum values
 
 When binding [Minimum](../windows.ui.xaml.controls.primitives/rangebase_minimum.md) and [Maximum](../windows.ui.xaml.controls.primitives/rangebase_maximum.md) values in Extensible Application Markup Language (XAML), declare the [Binding](../windows.ui.xaml.data/binding.md) for [Maximum](../windows.ui.xaml.controls.primitives/rangebase_maximum.md) first. If the [Binding](../windows.ui.xaml.data/binding.md) for [Maximum](../windows.ui.xaml.controls.primitives/rangebase_maximum.md) is declared after [Minimum](../windows.ui.xaml.controls.primitives/rangebase_minimum.md), the bound value for [Maximum](../windows.ui.xaml.controls.primitives/rangebase_maximum.md) is ignored and the following situations can occur: 
 
 + If the bound [Minimum](../windows.ui.xaml.controls.primitives/rangebase_minimum.md) value is negative, the [Maximum](../windows.ui.xaml.controls.primitives/rangebase_maximum.md) value is set to 0.
-+ If the bound [Minimum](../windows.ui.xaml.controls.primitives/rangebase_minimum.md) value is greater than the default [Maximum](../windows.ui.xaml.controls.primitives/rangebase_maximum.md) (100 for [Slider](slider.md) and [ProgressBar](progressbar.md)), the [Maximum](../windows.ui.xaml.controls.primitives/rangebase_maximum.md) value is set equal to the [Minimum](../windows.ui.xaml.controls.primitives/rangebase_minimum.md) value.
++ If the bound [Minimum](../windows.ui.xaml.controls.primitives/rangebase_minimum.md) value is greater than the default [Maximum](../windows.ui.xaml.controls.primitives/rangebase_maximum.md) (100 for Slider and [ProgressBar](progressbar.md)), the [Maximum](../windows.ui.xaml.controls.primitives/rangebase_maximum.md) value is set equal to the [Minimum](../windows.ui.xaml.controls.primitives/rangebase_minimum.md) value.
 
 To avoid this behavior, declare the [Binding](../windows.ui.xaml.data/binding.md) for [Maximum](../windows.ui.xaml.controls.primitives/rangebase_maximum.md) first in your Extensible Application Markup Language (XAML).
 
@@ -46,7 +46,7 @@ You can modify the default [Style](../windows.ui.xaml/style.md) and [ControlTemp
 
 Starting in Windows 10, version 1607 (SDK 14393), generic.xaml includes resources that you can use to modify the colors of a control in different visual states without modifying the control template. In apps that target this software development kit (SDK) or later, modifying these resources is preferred to setting properties such as [Background](control_background.md) and [Foreground](control_foreground.md). For more info, see the [Light-weight styling](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) section of the [Styling controls](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) article.
 
-This table shows the resources used by the [Slider](slider.md) control.
+This table shows the resources used by the Slider control.
 
 <table>
    <tr><th>Resource key</th><th>Description</th></tr>

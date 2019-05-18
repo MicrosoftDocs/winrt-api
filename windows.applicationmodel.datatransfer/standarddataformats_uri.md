@@ -11,7 +11,7 @@ public string Uri { get; }
 
 ## -description
 > [!NOTE]
-> [Uri](standarddataformats_uri.md) may be altered or unavailable for releases after Windows 8.1. Instead, use [ApplicationLink](standarddataformats_applicationlink.md) or [WebLink](standarddataformats_weblink.md).
+> Uri may be altered or unavailable for releases after Windows 8.1. Instead, use [ApplicationLink](standarddataformats_applicationlink.md) or [WebLink](standarddataformats_weblink.md).
 
 A read-only property that returns the format ID string value corresponding to the Uniform Resource Identifier (URI) format.
 

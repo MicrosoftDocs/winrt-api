@@ -49,6 +49,13 @@ Specifies a Wi-Fi Protected Access 3 Simultaneous Authentication of Equals (WPA3
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1903 | 18362 | Wpa3 |
+| 1903 | 18362 | Wpa3Sae |
+
 ## -examples
 
 ## -see-also

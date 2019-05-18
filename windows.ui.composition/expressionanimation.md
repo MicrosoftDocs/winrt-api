@@ -14,20 +14,20 @@ A Composition Animation that uses a mathematical equation to calculate the value
 
 ## -remarks
 
-The core of [ExpressionAnimation](expressionanimation.md)s allows a developer to define a mathematical equation that can be used to calculate the value of a targeted animating property each frame. This contrasts [KeyFrameAnimation](keyframeanimation.md) s, which use an interpolator to define how the animating property changes over time. The mathematical equation can be defined using references to properties of Composition objects, mathematical functions and operators and Input. Expression Animations open the door to making experiences such as sticky headers and parallax easily describable.
+The core of ExpressionAnimations allows a developer to define a mathematical equation that can be used to calculate the value of a targeted animating property each frame. This contrasts [KeyFrameAnimation](keyframeanimation.md) s, which use an interpolator to define how the animating property changes over time. The mathematical equation can be defined using references to properties of Composition objects, mathematical functions and operators and Input. Expression Animations open the door to making experiences such as sticky headers and parallax easily describable.
 
-For a detailed walkthrough of using Composition [ExpressionAnimation](expressionanimation.md), check out the [Animations Overview document](https://msdn.microsoft.com/windows/uwp/graphics/composition-animation).
+For a detailed walkthrough of using Composition ExpressionAnimation, check out the [Animations Overview document](https://msdn.microsoft.com/windows/uwp/graphics/composition-animation).
 
 Use the [CompostionObject.StartAnimation](compositionobject_startanimation_709050842.md) and [CompostionObject.StopAnimation](compositionobject_stopanimation_1075337060.md) methods to start and stop the animation.
 
 ### So why are Expression Animations useful?
 
-The real power of Expression Animations comes from their ability to create a mathematical relationship with references to properties on other objects. This means you can have an equation referencing property values on other Composition objects, local variables, or even shared values in Composition Property Sets. As these references change and update over time, your expression will as well. This opens up bigger possibilities beyond traditional KeyFrame Animations where values must be discrete and pre-defined – [ExpressionAnimation](expressionanimation.md) s can make more dynamic animation experiences.
+The real power of Expression Animations comes from their ability to create a mathematical relationship with references to properties on other objects. This means you can have an equation referencing property values on other Composition objects, local variables, or even shared values in Composition Property Sets. As these references change and update over time, your expression will as well. This opens up bigger possibilities beyond traditional KeyFrame Animations where values must be discrete and pre-defined – ExpressionAnimation s can make more dynamic animation experiences.
 
 ### Things to Note
 
 + ExpressionAnimation has an infinite lifetime – they will continue to run until they are explicitly stopped.
-+ The mathematical equation will be input into the expression as a string – this can be done when constructing the [ExpressionAnimation](expressionanimation.md) or separately by changing the property. If done during construction, the property will be set.    + ExpressionAnimation exp = _compositor.CreateExpressionAnimation(); exp.Expression = "this.Target.Offset.X / xWindowSize";
++ The mathematical equation will be input into the expression as a string – this can be done when constructing the ExpressionAnimation or separately by changing the property. If done during construction, the property will be set.    + ExpressionAnimation exp = _compositor.CreateExpressionAnimation(); exp.Expression = "this.Target.Offset.X / xWindowSize";
    + ExpressionAnimation exp = _compositor.CreateExpressionAnimation("this.Target.Offset.X / xWindowSize")
 
 + The mathematical equation will be used every frame to calculate the value of the animating property (this is in stark contrast to [KeyFrameAnimation](keyframeanimation.md) s that use an interpolator)

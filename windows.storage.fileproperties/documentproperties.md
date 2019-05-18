@@ -13,8 +13,8 @@ public class DocumentProperties : Windows.Storage.FileProperties.IDocumentProper
 Provides access to the document-related properties of an item (like a file or folder).
 
 ## -remarks
-You can access a [DocumentProperties](documentproperties.md) object asynchronously using the [GetDocumentPropertiesAsync](storageitemcontentproperties_getdocumentpropertiesasync_124814975.md) method from the [Properties](../windows.storage/istorageitemproperties_properties.md) property of an item (like a file of folder), or synchronously using the [DocumentProperties](../windows.storage.bulkaccess/istorageiteminformation_documentproperties.md) property if it is available.
-You can get a [DocumentProperties](documentproperties.md) object using any of the following methods and properties:
+You can access a DocumentProperties object asynchronously using the [GetDocumentPropertiesAsync](storageitemcontentproperties_getdocumentpropertiesasync_124814975.md) method from the [Properties](../windows.storage/istorageitemproperties_properties.md) property of an item (like a file of folder), or synchronously using the [DocumentProperties](../windows.storage.bulkaccess/istorageiteminformation_documentproperties.md) property if it is available.
+You can get a DocumentProperties object using any of the following methods and properties:
 
 + [FileInformation.documentProperties](../windows.storage.bulkaccess/fileinformation_documentproperties.md) property
 + [FolderInformation.documentProperties](../windows.storage.bulkaccess/folderinformation_documentproperties.md) property

@@ -10,7 +10,7 @@ public class HttpProductHeaderValue : Windows.Foundation.IStringable, Windows.We
 # Windows.Web.Http.Headers.HttpProductHeaderValue
 
 ## -description
-Represents product information used by the [HttpProductHeaderValue](httpproductheadervalue.md) and [HttpProductInfoHeaderValueCollection](httpproductinfoheadervaluecollection.md) classes in the **User-Agent** HTTP header.
+Represents product information used by the HttpProductHeaderValue and [HttpProductInfoHeaderValueCollection](httpproductinfoheadervaluecollection.md) classes in the **User-Agent** HTTP header.
 
 ## -remarks
 

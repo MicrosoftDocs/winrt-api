@@ -16,7 +16,7 @@ Gets the [IMediaStreamDescriptor](imediastreamdescriptor.md) interface of the st
 The stream for which the [MediaStreamSample](mediastreamsample.md) is being requested.
 
 ## -remarks
-The [Sample](mediastreamsourcesamplerequest_sample.md) property of the [MediaStreamSourceSampleRequest](mediastreamsourcesamplerequest.md) object should be assigned a [MediaStreamSample](mediastreamsample.md) belonging to the stream identified by the [StreamDescriptor](mediastreamsourcesamplerequest_streamdescriptor.md) property.
+The [Sample](mediastreamsourcesamplerequest_sample.md) property of the [MediaStreamSourceSampleRequest](mediastreamsourcesamplerequest.md) object should be assigned a [MediaStreamSample](mediastreamsample.md) belonging to the stream identified by the StreamDescriptor property.
 
 ## -examples
 

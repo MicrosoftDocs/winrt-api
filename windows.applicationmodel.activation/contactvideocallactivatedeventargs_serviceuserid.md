@@ -16,7 +16,7 @@ Gets the user identifier of the service used for the video call.
 The user identifier of the service used for the video call.
 
 ## -remarks
-The [ServiceUserId](contactvideocallactivatedeventargs_serviceuserid.md) property is set to the contact’s user id for the service that is being video called over.
+The ServiceUserId property is set to the contact’s user id for the service that is being video called over.
 
 ## -examples
 

@@ -15,7 +15,7 @@ Exposes [ListViewBaseHeaderItem](../windows.ui.xaml.controls/listviewbaseheaderi
 ## -remarks
 ### **ListViewBaseHeaderItemAutomationPeer** derived classes
 
-[ListViewBaseHeaderItemAutomationPeer](listviewbaseheaderitemautomationpeer.md) is the parent class for [GridViewHeaderItemAutomationPeer](gridviewheaderitemautomationpeer.md) and [ListViewHeaderItemAutomationPeer](listviewheaderitemautomationpeer.md).
+ListViewBaseHeaderItemAutomationPeer is the parent class for [GridViewHeaderItemAutomationPeer](gridviewheaderitemautomationpeer.md) and [ListViewHeaderItemAutomationPeer](listviewheaderitemautomationpeer.md).
 
 ## -examples
 

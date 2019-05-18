@@ -16,6 +16,12 @@ Represents a conversation in a chat client.
 ## -remarks
 Call the [ChatMessageStore.GetConversationAsync](/uwp/api/windows.applicationmodel.chat.chatmessagestore.getconversationasync) or [ChatMessageStore.GetConversationFromThreadingInfoAsync](chatmessagestore_getconversationfromthreadinginfoasync_896256404.md) method to get an instance of this class.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1511 | 10586 | CanModifyParticipants |
+
 ## -examples
 
 ## -see-also

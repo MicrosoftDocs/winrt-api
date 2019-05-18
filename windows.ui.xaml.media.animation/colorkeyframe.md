@@ -15,7 +15,7 @@ Provides a base class for specific animation key-frame techniques that define an
 ## -remarks
 ### **ColorKeyFrame** derived classes
 
-[ColorKeyFrame](colorkeyframe.md) is the parent class for several immediately derived classes that define the interpolation behavior for the typed keyframe.
+ColorKeyFrame is the parent class for several immediately derived classes that define the interpolation behavior for the typed keyframe.
 
 + [DiscreteColorKeyFrame](discretecolorkeyframe.md)
 + [EasingColorKeyFrame](easingcolorkeyframe.md)

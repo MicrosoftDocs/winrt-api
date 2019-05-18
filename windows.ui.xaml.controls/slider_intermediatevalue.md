@@ -18,7 +18,7 @@ A temporary value.
 ## -remarks
 Set the [SnapsTo](slider_snapsto.md) property to specify whether the [Slider](slider.md) snaps to tick marks or step values. Set the [TickFrequency](slider_tickfrequency.md) or [StepFrequency](slider_stepfrequency.md) property to specify the interval between snap points.
 
-This property isn't typically set in XAML. It could be useful though as an element binding source for another XAML UI element that displays the [IntermediateValue](slider_intermediatevalue.md) value.
+This property isn't typically set in XAML. It could be useful though as an element binding source for another XAML UI element that displays the IntermediateValue value.
 
 ## -examples
 

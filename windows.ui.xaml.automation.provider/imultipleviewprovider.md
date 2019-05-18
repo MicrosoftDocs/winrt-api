@@ -15,7 +15,7 @@ Exposes methods and properties to support Microsoft UI Automation client access 
 ## -remarks
 This pattern has guidelines and conventions that aren't fully documented here. For more info on what this pattern is for, see [MultipleView Control Pattern](https://msdn.microsoft.com/library/c67e7e4f-d2c7-4fca-8e8a-9b6565afa4ed).
 
-[IMultipleViewProvider](imultipleviewprovider.md) isn't implemented by any existing Windows Runtime automation peers. Notably, [IMultipleViewProvider](imultipleviewprovider.md) doesn't exist for [SemanticZoom](../windows.ui.xaml.controls/semanticzoom.md). The interface exists so that custom control authors can support the automation pattern in a custom control, and implement their automation support using the same Windows Runtime managed or C++ API as they use to define control logic or other automation support.
+IMultipleViewProvider isn't implemented by any existing Windows Runtime automation peers. Notably, IMultipleViewProvider doesn't exist for [SemanticZoom](../windows.ui.xaml.controls/semanticzoom.md). The interface exists so that custom control authors can support the automation pattern in a custom control, and implement their automation support using the same Windows Runtime managed or C++ API as they use to define control logic or other automation support.
 
 Use [MultipleViewPatternIdentifiers](../windows.ui.xaml.automation/multipleviewpatternidentifiers.md) if you want to reference the [IGridProvider](igridprovider.md) pattern properties from control code when you fire automation events or call [RaisePropertyChangedEvent](../windows.ui.xaml.automation.peers/automationpeer_raisepropertychangedevent_715050195.md).
 

@@ -15,6 +15,12 @@ Represents an instance of a local RFCOMM service.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1511 | 10586 | StartAdvertising(StreamSocketListener,Boolean) |
+
 ## -examples
 
 ## -see-also

@@ -18,7 +18,7 @@ This interface provides access to the raw binary format of an SMS message. The m
 ## -remarks
 ### Interface inheritance
 
-[ISmsBinaryMessage](ismsbinarymessage.md) inherits [ISmsMessage](ismsmessage.md). Types that implement [ISmsBinaryMessage](ismsbinarymessage.md) also implement the interface members of [ISmsMessage](ismsmessage.md).
+ISmsBinaryMessage inherits [ISmsMessage](ismsmessage.md). Types that implement ISmsBinaryMessage also implement the interface members of [ISmsMessage](ismsmessage.md).
 
 ## -examples
 

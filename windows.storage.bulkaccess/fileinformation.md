@@ -13,7 +13,7 @@ public class FileInformation : Windows.Storage.BulkAccess.IStorageItemInformatio
 Provides synchronous access to the properties exposed off [StorageFile](../windows.storage/storagefile.md) and lets an app perform asynchronous file operations such as copy, delete, move, and rename.
 
 ## -remarks
-You can retrieve a list of [FileInformation](fileinformation.md) objects by calling one of the [fileInformationFactory.getFilesAsync](fileinformationfactory_getfilesasync_1261374131.md) methods.
+You can retrieve a list of FileInformation objects by calling one of the [fileInformationFactory.getFilesAsync](fileinformationfactory_getfilesasync_1261374131.md) methods.
 
 ## -examples
 

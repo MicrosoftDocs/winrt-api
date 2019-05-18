@@ -24,7 +24,7 @@ Speech languages are added from the **Settings &gt; Time &amp; Language &gt; Reg
 1. From the **Settings &gt; Time &amp; Language &gt; Region &amp; language** screen, select the language and click **Options**.
 1. If a speech language is available for the selected language and region, a **Download** button is displayed on the **Language options** screen. Click this button to download and install the speech language.
 
-If no language is specified in the [SpeechRecognizer()](speechrecognizer_speechrecognizer_1221375020.md) constructor, [CurrentLanguage](speechrecognizer_currentlanguage.md) is initialized with the value of [SystemSpeechLanguage](speechrecognizer_systemspeechlanguage.md).
+If no language is specified in the [SpeechRecognizer()](speechrecognizer_speechrecognizer_1221375020.md) constructor, [CurrentLanguage](speechrecognizer_currentlanguage.md) is initialized with the value of SystemSpeechLanguage.
 
 ## -examples
 

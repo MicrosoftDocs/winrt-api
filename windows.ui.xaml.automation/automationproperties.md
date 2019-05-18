@@ -59,6 +59,31 @@ For localization reasons, you should avoid hard-coded string values for the **Na
 | PositionInSet | Gets or sets a 1-based integer that describes the ordinal location of the element within a set of elements that are considered to be siblings.<ul><li>Type: int</li><li>Identifier field: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.automation.automationproperties.positioninsetproperty">PositionInSetProperty</a></li><li>Accessor methods: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.automation.automationproperties.getpositioninset">GetPositionInSet</a>, <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.automation.automationproperties.setpositioninset">SetPositionInSet</a></li></ul>|
 | SizeOfSet | Gets or sets the number of elements in a set of elements that are considered to be siblings.<ul><li>Type: int</li><li>Identifier field: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.automation.automationproperties.sizeofsetproperty">SizeOfSetProperty</a></li><li>Accessor methods: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.automation.automationproperties.getsizeofset">GetSizeOfSet</a>, <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.automation.automationproperties.setsizeofset">SetSizeOfSet</a></li></ul>|
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1511 | 10586 | GetLandmarkType |
+| 1511 | 10586 | GetLocalizedLandmarkType |
+| 1511 | 10586 | SetLandmarkType |
+| 1511 | 10586 | SetLocalizedLandmarkType |
+| 1607 | 14393 | GetDescribedBy |
+| 1607 | 14393 | GetFlowsFrom |
+| 1607 | 14393 | GetFlowsTo |
+| 1607 | 14393 | GetFullDescription |
+| 1607 | 14393 | GetIsDataValidForForm |
+| 1607 | 14393 | GetIsPeripheral |
+| 1607 | 14393 | GetLocalizedControlType |
+| 1607 | 14393 | SetFullDescription |
+| 1607 | 14393 | SetIsDataValidForForm |
+| 1607 | 14393 | SetIsPeripheral |
+| 1607 | 14393 | SetLocalizedControlType |
+| 1703 | 15063 | GetCulture |
+| 1703 | 15063 | SetCulture |
+| 1803 | 17134 | GetHeadingLevel |
+| 1803 | 17134 | SetHeadingLevel |
+| 1809 | 17763 | GetIsDialog |
+| 1809 | 17763 | SetIsDialog |
 
 ## -examples
 

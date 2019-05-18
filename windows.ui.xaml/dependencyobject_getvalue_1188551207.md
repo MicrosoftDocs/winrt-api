@@ -20,9 +20,9 @@ The [DependencyProperty](dependencyproperty.md) identifier of the property for w
 Returns the current effective value.
 
 ## -remarks
-[GetValue](dependencyobject_getvalue_1188551207.md) obtains the current effective value of a dependency property. The current effective value is determined by using rules of [Dependency properties overview](https://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e).
+GetValue obtains the current effective value of a dependency property. The current effective value is determined by using rules of [Dependency properties overview](https://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e).
 
-[GetValue](dependencyobject_getvalue_1188551207.md) is the API you want in most cases if you are using the property system API for obtaining property values. But sometimes you might want to examine other values to see how the dependency property precedence is acting for a given property. If so, you can use one of these API:
+GetValue is the API you want in most cases if you are using the property system API for obtaining property values. But sometimes you might want to examine other values to see how the dependency property precedence is acting for a given property. If so, you can use one of these API:
 
 
 + [GetAnimationBaseValue](dependencyobject_getanimationbasevalue_1072186849.md) to get values that might currently be animated but you want to know the value before the animation ran. Note that animations with [HoldEnd](../windows.ui.xaml.media.animation/fillbehavior.md) behavior might not have this same value. For more info on the [HoldEnd](../windows.ui.xaml.media.animation/fillbehavior.md) concept, see [Storyboarded animations](https://msdn.microsoft.com/library/0cbceea0-2b0e-44a1-a09a-f7a939632f3a).

@@ -23,9 +23,9 @@ Represents a single group of content in a [Hub](hub.md).
 
 
 ## -remarks
-You put the content of your [Hub](hub.md) in various [HubSection](hubsection.md) elements. Like the [Hub](hub.md), each [HubSection](hubsection.md) has a [Header](hubsection_header.md) and [HeaderTemplate](hubsection_headertemplate.md) property that you can use to set an optional header for the section. You can also make the section header interactive. Typically, the user can tap an interactive header to navigate to the corresponding app section page. When its [IsHeaderInteractive](hubsection_isheaderinteractive.md) property is **true**, the default header includes a chevron glyph, and "Hover" and "Pressed" visual states, and it raises a [SectionHeaderClick](hub_sectionheaderclick.md) event.
+You put the content of your [Hub](hub.md) in various HubSection elements. Like the [Hub](hub.md), each HubSection has a [Header](hubsection_header.md) and [HeaderTemplate](hubsection_headertemplate.md) property that you can use to set an optional header for the section. You can also make the section header interactive. Typically, the user can tap an interactive header to navigate to the corresponding app section page. When its [IsHeaderInteractive](hubsection_isheaderinteractive.md) property is **true**, the default header includes a chevron glyph, and "Hover" and "Pressed" visual states, and it raises a [SectionHeaderClick](hub_sectionheaderclick.md) event.
 
-You don't add content directly to a hub section; instead, you define the content of your [HubSection](hubsection.md) in a [DataTemplate](../windows.ui.xaml/datatemplate.md). Content can be defined inline, or bound to a data source. Any valid XAML can be used in a hub section.
+You don't add content directly to a hub section; instead, you define the content of your HubSection in a [DataTemplate](../windows.ui.xaml/datatemplate.md). Content can be defined inline, or bound to a data source. Any valid XAML can be used in a hub section.
 
 ### Control style and template
 
@@ -33,7 +33,7 @@ You can modify the default [Style](../windows.ui.xaml/style.md) and [ControlTemp
 
 Starting in Windows 10, version 1607 (SDK 14393), generic.xaml includes resources that you can use to modify the colors of a control in different visual states without modifying the control template. In apps that target this software development kit (SDK) or later, modifying these resources is preferred to setting properties such as [Background](control_background.md) and [Foreground](control_foreground.md). For more info, see the [Light-weight styling](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) section of the [Styling controls](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) article.
 
-This table shows the resources used by the [HubSection](hubsection.md) control.
+This table shows the resources used by the HubSection control.
 
 <table>
    <tr><th>Resource key</th><th>Description</th></tr>
@@ -45,7 +45,7 @@ This table shows the resources used by the [HubSection](hubsection.md) control.
 </table>
 
 ## -examples
-This example shows the basic XAML used to create a [Hub](hub.md) with 3 [HubSection](hubsection.md) s.
+This example shows the basic XAML used to create a [Hub](hub.md) with 3 HubSection s.
 
 ```xaml
 <Hub Header="News" SectionHeaderClick="SectionHeader_Click">

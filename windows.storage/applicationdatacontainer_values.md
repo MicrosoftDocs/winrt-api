@@ -16,7 +16,7 @@ Gets an object that represents the settings in this settings container.
 The settings map object.
 
 ## -remarks
-For an example of using an [ApplicationData](applicationdata.md) property to get its associated [ApplicationDataContainer.Values](applicationdatacontainer_values.md), see [LocalSettings](applicationdata_localsettings.md).
+For an example of using an [ApplicationData](applicationdata.md) property to get its associated ApplicationDataContainer.Values, see [LocalSettings](applicationdata_localsettings.md).
 
 ## -examples
 

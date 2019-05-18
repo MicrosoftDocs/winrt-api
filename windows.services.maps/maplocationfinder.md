@@ -17,6 +17,12 @@ Your [Universal Windows app](https://msdn.microsoft.com/windows/uwp/get-started/
 
 See [Request a maps authentication key](https://msdn.microsoft.com/windows/uwp/maps-and-location/authentication-key).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | FindLocationsAtAsync(Geopoint,MapLocationDesiredAccuracy) |
+
 ## -examples
 
 ## -see-also

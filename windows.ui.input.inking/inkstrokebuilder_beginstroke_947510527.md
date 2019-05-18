@@ -14,7 +14,7 @@ public void BeginStroke(Windows.UI.Input.PointerPoint pointerPoint)
 Starts building the ink stroke.
 
 > [!NOTE]
-> [BeginStroke](inkstrokebuilder_beginstroke_947510527.md) is not supported by [InkPresenter](inkpresenter.md). Use [CreateStrokeFromInkPoints](inkstrokebuilder_createstrokefrominkpoints_2009821049.md) and [SetDefaultDrawingAttributes](inkstrokebuilder_setdefaultdrawingattributes_1436218448.md) to programmatically build strokes for an [InkPresenter](inkpresenter.md).
+> BeginStroke is not supported by [InkPresenter](inkpresenter.md). Use [CreateStrokeFromInkPoints](inkstrokebuilder_createstrokefrominkpoints_2009821049.md) and [SetDefaultDrawingAttributes](inkstrokebuilder_setdefaultdrawingattributes_1436218448.md) to programmatically build strokes for an [InkPresenter](inkpresenter.md).
 
 ## -parameters
 ### -param pointerPoint

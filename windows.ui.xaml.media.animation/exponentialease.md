@@ -19,14 +19,14 @@ Represents an easing function that creates an animation that accelerates and/or 
 
 
 ## -remarks
-[ExponentialEase](exponentialease.md) is an easing function that has a function-over-time formula that uses an [Exponent](exponentialease_exponent.md) value to shape the function-over-time curve. The value used for [Exponent](exponentialease_exponent.md) changes the shape of the curve quite a bit. [Exponent](exponentialease_exponent.md) can be negative, if so the function acts a bit like changing the [EasingMode](easingfunctionbase_easingmode.md) to **EaseOut** with a positive value. You might want to experiment with different values for [Exponent](exponentialease_exponent.md) and [EasingMode](easingfunctionbase_easingmode.md) when using this easing function.
+ExponentialEase is an easing function that has a function-over-time formula that uses an [Exponent](exponentialease_exponent.md) value to shape the function-over-time curve. The value used for [Exponent](exponentialease_exponent.md) changes the shape of the curve quite a bit. [Exponent](exponentialease_exponent.md) can be negative, if so the function acts a bit like changing the [EasingMode](easingfunctionbase_easingmode.md) to **EaseOut** with a positive value. You might want to experiment with different values for [Exponent](exponentialease_exponent.md) and [EasingMode](easingfunctionbase_easingmode.md) when using this easing function.
 
 
 <!--The IMG for the Silverlight topic is wrong cannot use it here.-->
 An easing function can be applied to the **EasingFunction** properties of **From**/**To**/**By** animations, or to the **EasingFunction** properties of key-frame types used for the **Easing** variants of key-frame animations. For more info, see [Key-frame animations and easing function animations](https://msdn.microsoft.com/library/d8af24cd-f4c2-4562-afd7-25010955d677).
 
 ## -examples
-This XAML example applies a [ExponentialEase](exponentialease.md) easing function to a [DoubleAnimation](doubleanimation.md) to create a decelerating animation.
+This XAML example applies a ExponentialEase easing function to a [DoubleAnimation](doubleanimation.md) to create a decelerating animation.
 
 
 

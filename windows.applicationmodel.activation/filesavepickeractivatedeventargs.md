@@ -20,13 +20,19 @@ Provides information about an activated event that fires when the user saves a f
 
 Learn more about providing your app as a location where the user can save files in the [Windows.Storage.Pickers.Provider](../windows.storage.pickers.provider/windows_storage_pickers_provider.md) namespace reference.
 
-A [FileSavePickerActivatedEventArgs](filesavepickeractivatedeventargs.md) object is passed to the app's activation point handler when the user saves a file through the file picker and selects the app as the location. This type of activation is indicated by the [ActivationKind.FileSavePicker](activationkind.md) value returned by the [Kind](filesavepickeractivatedeventargs_kind.md) property.
+A FileSavePickerActivatedEventArgs object is passed to the app's activation point handler when the user saves a file through the file picker and selects the app as the location. This type of activation is indicated by the [ActivationKind.FileSavePicker](activationkind.md) value returned by the [Kind](filesavepickeractivatedeventargs_kind.md) property.
 
 Apps written in JavaScript must listen for and handle [Windows.UI.WebUI.webUIApplication.activated](../windows.ui.webui/webuiapplication_activated.md) events.
 
 UWP app using C++, C#, or Visual Basic typically implement activation points by overriding methods of the [Application](../windows.ui.xaml/application.md) object. The default template app.xaml code-behind files always include an override for [OnLaunched](../windows.ui.xaml/application_onlaunched_859642554.md), but defining overrides for other activation points such as [OnFileSavePickerActivated](../windows.ui.xaml/application_onfilesavepickeractivated_425940653.md) is up to your app code.
 
 All [Application](../windows.ui.xaml/application.md) overrides involved in an activation scenario should call [Window.Activate](../windows.ui.xaml/window_activate_1797342875.md) in their implementations.
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | User |
 
 ## -examples
 
@@ -55,7 +61,7 @@ internal void Activate(FileSavePickerActivatedEventArgs args)
 }
 ```
 
-For C#, `args` for an [OnFileSavePickerActivated](../windows.ui.xaml/application_onfilesavepickeractivated_425940653.md) override on the [Application](../windows.ui.xaml/application.md) object references a [FileSavePickerActivatedEventArgs](filesavepickeractivatedeventargs.md) object. The [OnFileSavePickerActivated](../windows.ui.xaml/application_onfilesavepickeractivated_425940653.md) override is in the App.xaml.cs file and the `Activate` method is in the FileSavePickerPage.xaml.cs file of the [File picker contracts sample](https://go.microsoft.com/fwlink/p/?linkid=231536).
+For C#, `args` for an [OnFileSavePickerActivated](../windows.ui.xaml/application_onfilesavepickeractivated_425940653.md) override on the [Application](../windows.ui.xaml/application.md) object references a FileSavePickerActivatedEventArgs object. The [OnFileSavePickerActivated](../windows.ui.xaml/application_onfilesavepickeractivated_425940653.md) override is in the App.xaml.cs file and the `Activate` method is in the FileSavePickerPage.xaml.cs file of the [File picker contracts sample](https://go.microsoft.com/fwlink/p/?linkid=231536).
 
 ## -see-also
 

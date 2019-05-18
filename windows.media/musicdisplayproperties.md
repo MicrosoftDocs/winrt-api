@@ -17,6 +17,12 @@ Starting with Windows 10, version 1607, UWP apps that use the [MediaPlayer](../
 
 When manually controlling the SMTC, get an instance of **MusicDisplayProperties** by using the [SystemMediaTransportControlsDisplayUpdater](systemmediatransportcontrolsdisplayupdater.md) class. For how-to guidance on manually controlling the SMTC, see [Manual control of the System Media Transport Controls](https://msdn.microsoft.com/windows/uwp/audio-video-camera/system-media-transport-controls).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | AlbumTrackCount |
+
 ## -examples
 
 ## -see-also

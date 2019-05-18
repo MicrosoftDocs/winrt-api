@@ -17,7 +17,7 @@ There are three elements that you can use to compose the menu items in a [MenuFl
 
 ### **MenuFlyoutItemBase** derived classes
 
-[MenuFlyoutItemBase](menuflyoutitembase.md) is the parent class for [MenuFlyoutItem](menuflyoutitem.md) and [MenuFlyoutSeparator](menuflyoutseparator.md).
+MenuFlyoutItemBase is the parent class for [MenuFlyoutItem](menuflyoutitem.md) and [MenuFlyoutSeparator](menuflyoutseparator.md).
 
 ## -examples
 

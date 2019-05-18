@@ -17,6 +17,12 @@ Get an instance of this class by handling the [SceneAnalysisEffect.SceneAnalyzed
 
 For how-to guidance on using the **SceneAnalysisEffect**, see [Scene anlysis for MediaCapture](https://msdn.microsoft.com/windows/uwp/audio-video-camera/scene-analysis-for-media-capture).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1709 | 16299 | AnalysisRecommendation |
+
 ## -examples
 
 ## -see-also

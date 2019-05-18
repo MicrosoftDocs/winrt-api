@@ -16,6 +16,12 @@ Contains the barcode symbology.
 ## -remarks
 This is a static class that contains the barcode symbologies.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | Gs1DWCode |
+
 ## -examples
 
 ## -see-also

@@ -32,7 +32,7 @@ The biometric verifier device is performing an operation and is unavailable.
 ## -remarks
 You can use the [CheckAvailabilityAsync](userconsentverifier_checkavailabilityasync_167910294.md) method to determine if fingerprint authentication is supported for the current computer.
 
-The following example shows a method that checks to see if fingerprint authentication is supported for the current computer and returns a message that describes the result based on the [UserConsentVerifierAvailability](userconsentverifieravailability.md) value.
+The following example shows a method that checks to see if fingerprint authentication is supported for the current computer and returns a message that describes the result based on the UserConsentVerifierAvailability value.
 
 
 

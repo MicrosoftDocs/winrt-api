@@ -16,11 +16,11 @@ Gets the [HttpMethodHeaderValueCollection](httpmethodheadervaluecollection.md) o
 The collection of [HttpMethod](../windows.web.http/httpmethod.md) objects that represent the value of an **Allow** HTTP header on an HTTP response. An empty collection means that the header is absent.
 
 ## -remarks
-The [Allow](httpresponseheadercollection_allow.md) property represents the value of an **Allow** HTTP header on an HTTP response. The **Allow** header is a list of HTTP methods (GET, PUT, and POST, for example) allowed by the HTTP server.
+The Allow property represents the value of an **Allow** HTTP header on an HTTP response. The **Allow** header is a list of HTTP methods (GET, PUT, and POST, for example) allowed by the HTTP server.
 
 
 
-The following sample code shows a method to get and set the **Allow** header on an [HttpResponseMessage](../windows.web.http/httpresponsemessage.md) object using the [Allow](httpresponseheadercollection_allow.md) property on the [HttpResponseHeaderCollection](httpresponseheadercollection.md) object.
+The following sample code shows a method to get and set the **Allow** header on an [HttpResponseMessage](../windows.web.http/httpresponsemessage.md) object using the Allow property on the [HttpResponseHeaderCollection](httpresponseheadercollection.md) object.
 
 ```csharp
     public void DemonstrateHeaderResponseAllow() {

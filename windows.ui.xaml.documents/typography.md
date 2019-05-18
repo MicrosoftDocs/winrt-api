@@ -13,19 +13,19 @@ public class Typography : Windows.UI.Xaml.Documents.ITypography
 Provides access to a set of Microsoft OpenType typography properties. These properties are implemented as XAML attached properties such that they can be set from text object model properties as well as from specific text controls.
 
 ## -remarks
-You typically use [Typography](typography.md) attached properties with the text of [TextBlock](../windows.ui.xaml.controls/textblock.md) or [RichTextBlock](../windows.ui.xaml.controls/richtextblock.md) controls. 
+You typically use Typography attached properties with the text of [TextBlock](../windows.ui.xaml.controls/textblock.md) or [RichTextBlock](../windows.ui.xaml.controls/richtextblock.md) controls. 
 
 > [!NOTE]
 > You cannot use these properties with the [TextBox](../windows.ui.xaml.controls/textbox.md) or [RichEditBox](../windows.ui.xaml.controls/richeditbox.md) controls. 
 
-The [Typography](typography.md) object exposes the set of features that the Microsoft OpenType font supports. By setting the properties of [Typography](typography.md) in markup or code, you can author documents that take advantage of Microsoft OpenType features, and turn those features on at a per-element level if desired.
+The Typography object exposes the set of features that the Microsoft OpenType font supports. By setting the properties of Typography in markup or code, you can author documents that take advantage of Microsoft OpenType features, and turn those features on at a per-element level if desired.
 
 Some fonts contain stylistic variant glyphs that correspond to portions of a character set. Glyphs in stylistic sets may be designed to harmonize visually, interact in particular ways, or work together in other ways. Some of these variants are identified by particular conventions, for example the font might have discretionary ligatures. In this example case, the typography behavior can be enabled by setting [Typography.DiscretionaryLigatures](typography_discretionaryligatures.md) to true. Other stylistic variants are not identified by any Microsoft OpenType set or convention, and are instead specific to that particular font's typography design. These variants can be accessed by setting any of the **StylisticSet#** attached properties to true.
 
 
 
 > [!NOTE]
-> Whenever possible, [TextBlock](../windows.ui.xaml.controls/textblock.md) renders text using an efficient *fast path*. Only the default values for the various [Typography](typography.md) attached properties are fast path. Non-default values require [TextBlock](../windows.ui.xaml.controls/textblock.md) to fall back to a more CPU intensive code path for text rendering. For more info, see the [TextBlock control guide](https://msdn.microsoft.com/library/da562509-d893-425a-aae6-b2ae9e9f8a19).
+> Whenever possible, [TextBlock](../windows.ui.xaml.controls/textblock.md) renders text using an efficient *fast path*. Only the default values for the various Typography attached properties are fast path. Non-default values require [TextBlock](../windows.ui.xaml.controls/textblock.md) to fall back to a more CPU intensive code path for text rendering. For more info, see the [TextBlock control guide](https://msdn.microsoft.com/library/da562509-d893-425a-aae6-b2ae9e9f8a19).
 
 ### XAML attached properties
 
@@ -80,7 +80,7 @@ In order to support XAML processor access to the attached properties, and also t
 | Variants | Gets or sets a FontVariants value that indicates a variation of the standard typographic form to be used.<ul><li>Type: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.fontvariants">FontVariants</a></li><li>Identifier field: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.documents.typography.variantsproperty">VariantsProperty</a></li><li>Accessor methods: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.documents.typography.getvariants">GetVariants</a>, <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.documents.typography.setvariants">SetVariants</a></li></ul> |
 ## -examples
 
-Here, [Typography](typography.md) values are set on a [TextBlock](../windows.ui.xaml.controls/textblock.md) to render the text in small caps using stylistic set 4.
+Here, Typography values are set on a [TextBlock](../windows.ui.xaml.controls/textblock.md) to render the text in small caps using stylistic set 4.
 
 ```xaml
 <TextBlock Text="Hello, world!"

@@ -56,7 +56,7 @@ Introduced in Windows.Foundation.UniversalApiContract v5. The **[AdaptiveMediaSo
 
 ### Version history
 
-| Version | SDK version | Value added |
+| Windows version | SDK version | Value added |
 | -- | -- | -- |
 | 1709 | 16299 | FatalMediaSourceError |
 

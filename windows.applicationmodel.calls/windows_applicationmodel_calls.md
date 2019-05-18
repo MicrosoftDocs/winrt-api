@@ -23,7 +23,7 @@ The telephony options and information classes use the **CallsPhoneContract**. In
 > [!IMPORTANT]
 > If your application uses the **phoneCall** capability, you must request a waiver if you want to publish your application in China. Contact your premier support representative if you need the waiver.
 
-An example that demonstrates how to use much of the functionality of the [Windows.ApplicationModel.Calls](windows_applicationmodel_calls.md) API can be found [here](https://go.microsoft.com/fwlink/p/?linkid=620586).
+An example that demonstrates how to use much of the functionality of the Windows.ApplicationModel.Calls API can be found [here](https://go.microsoft.com/fwlink/p/?linkid=620586).
 
 ## -examples
 

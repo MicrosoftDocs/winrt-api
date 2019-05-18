@@ -16,7 +16,7 @@ Gets the local IP address associated with a [DatagramSocket](datagramsocket.md) 
 The local IP address where the message was received by the [DatagramSocket](datagramsocket.md).
 
 ## -remarks
-The [DatagramSocketMessageReceivedEventArgs.LocalAddress](datagramsocketmessagereceivedeventargs_localaddress.md) property gets the local IP address where a message was received on a [DatagramSocket](datagramsocket.md). A message received event can only occur after a successful connect or bind operation on the [DatagramSocket](datagramsocket.md).
+The DatagramSocketMessageReceivedEventArgs.LocalAddress property gets the local IP address where a message was received on a [DatagramSocket](datagramsocket.md). A message received event can only occur after a successful connect or bind operation on the [DatagramSocket](datagramsocket.md).
 
 ## -examples
 

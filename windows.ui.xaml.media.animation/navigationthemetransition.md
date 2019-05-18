@@ -23,9 +23,9 @@ Provides page navigation animations.
 
 With Windows 10, version 1803, a Frame uses **NavigationThemeTransition** to animate navigation between Pages by default. 
 
-You can use [NavigationThemeTransition](navigationthemetransition.md) to add animated transitions when your app navigates between different pieces of content in a [Frame](../windows.ui.xaml.controls/frame.md). You can add [NavigationThemeTransition](navigationthemetransition.md) to the [Transitions](../windows.ui.xaml/uielement_transitions.md) collection of the [Page](../windows.ui.xaml.controls/page.md) that is being navigated to, or the [ContentTransitions](../windows.ui.xaml.controls/contentcontrol_contenttransitions.md) collection for the navigation [Frame](../windows.ui.xaml.controls/frame.md). In general, we recommend that you use the frame's [ContentTransitions](../windows.ui.xaml.controls/contentcontrol_contenttransitions.md) property to ensure that transitions occur for all navigation pages.
+You can use NavigationThemeTransition to add animated transitions when your app navigates between different pieces of content in a [Frame](../windows.ui.xaml.controls/frame.md). You can add NavigationThemeTransition to the [Transitions](../windows.ui.xaml/uielement_transitions.md) collection of the [Page](../windows.ui.xaml.controls/page.md) that is being navigated to, or the [ContentTransitions](../windows.ui.xaml.controls/contentcontrol_contenttransitions.md) collection for the navigation [Frame](../windows.ui.xaml.controls/frame.md). In general, we recommend that you use the frame's [ContentTransitions](../windows.ui.xaml.controls/contentcontrol_contenttransitions.md) property to ensure that transitions occur for all navigation pages.
 
-This example shows [NavigationThemeTransition](navigationthemetransition.md) added to the [ContentTransitions](../windows.ui.xaml.controls/contentcontrol_contenttransitions.md) collection of a [Frame](../windows.ui.xaml.controls/frame.md).
+This example shows NavigationThemeTransition added to the [ContentTransitions](../windows.ui.xaml.controls/contentcontrol_contenttransitions.md) collection of a [Frame](../windows.ui.xaml.controls/frame.md).
 
 ```xaml
 <Frame ...>
@@ -56,7 +56,7 @@ The page refresh animation is represented by the [EntranceNavigationTransitionIn
 
 The drill in animation is represented by the [DrillInNavigationTransitionInfo](drillinnavigationtransitioninfo.md) class.
 
-By default, [NavigationThemeTransition](navigationthemetransition.md) plays a page refresh animation. However, you can override this behavior by setting the [DefaultNavigationTransitionInfo](navigationthemetransition_defaultnavigationtransitioninfo.md) property of [NavigationThemeTransition](navigationthemetransition.md). The [NavigationTransitionInfo](navigationtransitioninfo.md) value of this property is used for all navigation by default.
+By default, NavigationThemeTransition plays a page refresh animation. However, you can override this behavior by setting the [DefaultNavigationTransitionInfo](navigationthemetransition_defaultnavigationtransitioninfo.md) property of NavigationThemeTransition. The [NavigationTransitionInfo](navigationtransitioninfo.md) value of this property is used for all navigation by default.
 
 You can specify the animation to use for a particular navigation by using the overload of [Frame.Navigate](../windows.ui.xaml.controls/frame_navigate_1426351961.md) that takes 3 parameters.
 

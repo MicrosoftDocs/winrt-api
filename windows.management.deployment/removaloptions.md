@@ -24,6 +24,12 @@ Removes a package for all users on the device.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1809 | 17763 | RemoveForAllUsers |
+
 ## -examples
 
 ## -see-also

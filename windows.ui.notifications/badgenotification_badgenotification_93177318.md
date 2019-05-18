@@ -21,7 +21,7 @@ The XML content that defines the badge update.
 The value attribute can be a number from 1-99 or a status glyph. See the [Badge overview](https://msdn.microsoft.com/library/a64c58bb-d9c9-4c09-a685-4df94fa7dfdd) for a complete list of available images.
 
 ## -examples
-The following example code uses the [BadgeNotification](badgenotification_badgenotification_93177318.md) method to create a numeric badge notification.
+The following example code uses the BadgeNotification method to create a numeric badge notification.
 
 ```javascript
 

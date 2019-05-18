@@ -57,7 +57,7 @@ To display a warning that the URI is potentially unsafe, set the [LauncherOption
 The URI is passed to the associated app. If the associated app is a desktop app, the URI is passed using shell execution mechanisms.
 
 ## -examples
-This sample uses [LaunchUriAsync(Uri, LauncherOptions)](launcher_launchuriasync_68890748.md) to launch a URI with a warning. The [TreatAsUntrusted](launcheroptions_treatasuntrusted.md) property indicates that the system should display a warning.
+This sample uses [LaunchUriAsync(Uri, LauncherOptions) to launch a URI with a warning. The [TreatAsUntrusted](launcheroptions_treatasuntrusted.md) property indicates that the system should display a warning.
 
 ```csharp
 // The URI to launch

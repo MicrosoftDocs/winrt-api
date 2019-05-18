@@ -14,7 +14,7 @@ public event Windows.Foundation.EventHandler ReleaseDeviceRequested<Windows.Devi
 Occurs when the device gets a request to release its exclusive claim.
 
 ## -remarks
-If your application receives a [ReleaseDeviceRequested](claimedbarcodescanner_releasedevicerequested.md) event from another application, it may lose its exclusive claim unless your application retains the device.
+If your application receives a ReleaseDeviceRequested event from another application, it may lose its exclusive claim unless your application retains the device.
 
 ## -examples
 The following example shows how to setup the event handler.

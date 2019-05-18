@@ -14,6 +14,11 @@ Represents a media source extensions (MSE) stream source.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1709 | 16299 | LiveSeekableRange |
 
 ## -examples
 

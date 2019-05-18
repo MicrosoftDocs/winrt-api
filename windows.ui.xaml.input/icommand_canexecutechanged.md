@@ -15,7 +15,7 @@ Occurs whenever something happens that affects whether the command can execute.
 
 ## -remarks
 
-Call [CanExecute](icommand_canexecutechanged.md) on the command element when this event occurs.
+Call CanExecute on the command element when this event occurs.
 
 A command element typically disables itself if the command it is associated with cannot execute. For example, a MenuItem associated with the Paste command is disabled when the there is nothing on the clipboard to paste.
 

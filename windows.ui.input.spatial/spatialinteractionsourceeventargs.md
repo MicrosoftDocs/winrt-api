@@ -15,6 +15,12 @@ Provides data for the SpatialInteractionSource Source events.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | PressKind |
+
 ## -examples
 
 ## -see-also

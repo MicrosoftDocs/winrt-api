@@ -24,7 +24,7 @@ The notification to remove from the schedule.
 If you want to cancel one or more scheduled toast notifications, you can use the [GetScheduledToastNotifications](toastnotifier_getscheduledtoastnotifications_1959697028.md) method to get the full list.
 
 ## -examples
-The following example shows the use of the [RemoveFromSchedule](toastnotifier_removefromschedule_833207209.md) method.
+The following example shows the use of the RemoveFromSchedule method.
 
 ```javascript
 var notifier = Notifications.ToastNotificationManager.createToastNotifier();

@@ -19,7 +19,7 @@ When this method completes successfully, it returns the basic properties of the 
 This method will return E_ILLEGAL_METHOD_CALL if there are other async operations in progress on the same StorageItem instance. Make sure that another thread isn't modifying the StorageItem at the same time.  
 
 ## -examples
-This example shows you how to access basic properties of a file using the [storageFile.getBasicPropertiesAsync](storagefile_getbasicpropertiesasync_375277280.md) method.
+This example shows you how to access basic properties of a file using the storageFile.getBasicPropertiesAsync method.
 
 ```javascript
 storageFile.getBasicPropertiesAsync().then(
@@ -29,6 +29,6 @@ storageFile.getBasicPropertiesAsync().then(
 );
 ```
 
-You must have a [StorageFile](storagefile.md) object (`storageFile` in the example) that represents your file in order to use the [storageFile.getBasicPropertiesAsync](storagefile_getbasicpropertiesasync_375277280.md) method.
+You must have a [StorageFile](storagefile.md) object (`storageFile` in the example) that represents your file in order to use the storageFile.getBasicPropertiesAsync method.
 
 ## -see-also

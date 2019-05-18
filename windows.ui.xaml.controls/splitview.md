@@ -32,15 +32,15 @@ Represents a container with two views; one view for the main content and another
 > [!TIP]
 > For more info, design guidance, and code examples, see [Split view](/windows/uwp/design/controls-and-patterns/split-view).
 
-The [SplitView](splitview.md) control presents two areas of content: a [Pane](splitview_pane.md) and the main [Content](splitview_content.md). You typically use a [SplitView](splitview.md) to create a top-level navigation experience that adapts to different screen widths following the [nav pane pattern](https://msdn.microsoft.com/library/8fb52f5e-8e72-4604-9222-0b0ec6a97541) or the [master/details pattern](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/master-details), but it's not strictly limited to use for navigation.
+The SplitView control presents two areas of content: a [Pane](splitview_pane.md) and the main [Content](splitview_content.md). You typically use a SplitView to create a top-level navigation experience that adapts to different screen widths following the [nav pane pattern](https://msdn.microsoft.com/library/8fb52f5e-8e72-4604-9222-0b0ec6a97541) or the [master/details pattern](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/master-details), but it's not strictly limited to use for navigation.
 
-The XAML for this [SplitView](splitview.md) is shown in the Examples section.
+The XAML for this SplitView is shown in the Examples section.
 
 <img alt="Split view control" src="images/controls/SplitViewBasic.png" />
 
 The [Content](splitview_content.md) area is always present and can contain a single child element, which is typically a [Panel](panel.md) derived container that contains additional child elements. Although the [Content](splitview_content.md) is always present, it can be completely covered by the [Pane](splitview_pane.md).
 
-There are several properties you can set to control the appearance and behavior of the [Pane](splitview_pane.md). Set the [IsPaneOpen](splitview_ispaneopen.md) property to open or close the [Pane](splitview_pane.md). The [SplitView](splitview.md) does not include a built-in affordance for users to toggle the state of the [Pane](splitview_pane.md), like a menu (or “hamburger”) button. You must provide this affordance and the code to toggle the [IsPaneOpen](splitview_ispaneopen.md) property.
+There are several properties you can set to control the appearance and behavior of the [Pane](splitview_pane.md). Set the [IsPaneOpen](splitview_ispaneopen.md) property to open or close the [Pane](splitview_pane.md). The SplitView does not include a built-in affordance for users to toggle the state of the [Pane](splitview_pane.md), like a menu (or “hamburger”) button. You must provide this affordance and the code to toggle the [IsPaneOpen](splitview_ispaneopen.md) property.
 
 To specify the length of the open pane, set the [OpenPaneLength](splitview_openpanelength.md) property. You can set the [PanePlacement](splitview_paneplacement.md) property to have the [Pane](splitview_pane.md) appear on either the left or right side of the [Content](splitview_content.md).
 
@@ -48,6 +48,13 @@ Although the appearance of the control is largely based on the elements assigned
 
 Set the [DisplayMode](splitview_displaymode.md) property to configure the interaction of the [Pane](splitview_pane.md) with the [Content](splitview_content.md). By default, the [Pane](splitview_pane.md) overlays the [Content](splitview_content.md) and disappears completely when closed. You can use one of the "inline" modes to show the [Pane](splitview_pane.md) side-by-side with the [Content](splitview_content.md). You can use the "compact" modes to make a narrow section of the [Pane](splitview_pane.md) remain visible even when the [Pane](splitview_pane.md) is closed. See the [SplitViewDisplayMode](splitviewdisplaymode.md) enumeration for more info about the supported modes.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | LightDismissOverlayMode |
+| 1709 | 16299 | PaneOpened |
+| 1709 | 16299 | PaneOpening |
 
 ## -examples
 
@@ -58,7 +65,7 @@ Set the [DisplayMode](splitview_displaymode.md) property to configure the intera
 > + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
 > + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
 
-Here's a [SplitView](splitview.md) control with an open [Pane](splitview_pane.md) appearing inline next to the [Content](splitview_content.md).
+Here's a SplitView control with an open [Pane](splitview_pane.md) appearing inline next to the [Content](splitview_content.md).
 
 ```xaml
 <SplitView IsPaneOpen="True"

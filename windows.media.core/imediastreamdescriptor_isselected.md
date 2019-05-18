@@ -16,7 +16,7 @@ Specifies whether the stream is currently in use by the [MediaStreamSource](medi
 **true** if the stream is currently in use by the [MediaStreamSource](mediastreamsource.md); otherwise, **false**.
 
 ## -remarks
-[IsSelected](imediastreamdescriptor_isselected.md) is **true** if the stream represented by the stream descriptor is currently selected by the media pipeline. For example, if it is currently in use by the [MediaStreamSource](mediastreamsource.md). Otherwise, the value is **false**.
+IsSelected is **true** if the stream represented by the stream descriptor is currently selected by the media pipeline. For example, if it is currently in use by the [MediaStreamSource](mediastreamsource.md). Otherwise, the value is **false**.
 
 The [MediaStreamSource](mediastreamsource.md) only raises the [SampleRequested](mediastreamsource_samplerequested.md) event for streams which are selected.
 

@@ -16,10 +16,10 @@ Fires when the user submits the text in the search box and the app needs to disp
 > [!NOTE]
 > An app can't use both the search box ([Windows.UI.Xaml.Controls.SearchBox](../windows.ui.xaml.controls/searchbox.md) for UWP app using C++, C#, or Visual Basic, [WinJS.UI.SearchBox](https://msdn.microsoft.com/library/58f5cea3-a19b-48a8-abcc-17f38d8fa886) for Windows app using JavaScript) and the [SearchPane](searchpane.md). Using both the search box and the search pane in the same app causes the app to throw an exception with this message: "Cannot create instance of type 'Windows.UI.Xaml.Controls.SearchBox.'"
 
-If your app participates in the Search contract, register an event handler to respond when this event fires. In your [QuerySubmitted](searchpane_querysubmitted.md) event handler, respond by taking the user to your search results page and populating it with results based on the [SearchPaneQuerySubmittedEventArgs](searchpanequerysubmittedeventargs.md).[QueryText](searchpanequerysubmittedeventargs_querytext.md).
+If your app participates in the Search contract, register an event handler to respond when this event fires. In your QuerySubmitted event handler, respond by taking the user to your search results page and populating it with results based on the [SearchPaneQuerySubmittedEventArgs](searchpanequerysubmittedeventargs.md).[QueryText](searchpanequerysubmittedeventargs_querytext.md).
 
 ## -examples
-**For C#/C++/VB:** This example demonstrates how to ensure that your app can respond to user queries at any time by overriding [OnWindowCreated](../windows.ui.xaml/application_onwindowcreated_1983609380.md) in App.xaml.cs/App.xaml.cpp/App.xaml.vb to access the [SearchPane](searchpane.md) object and register handlers for [SearchPane](searchpane.md) events (like [QuerySubmitted](searchpane_querysubmitted.md)).
+**For C#/C++/VB:** This example demonstrates how to ensure that your app can respond to user queries at any time by overriding [OnWindowCreated](../windows.ui.xaml/application_onwindowcreated_1983609380.md) in App.xaml.cs/App.xaml.cpp/App.xaml.vb to access the [SearchPane](searchpane.md) object and register handlers for [SearchPane](searchpane.md) events (like QuerySubmitted).
 
 ```csharp
 protected override void OnWindowCreated(WindowCreatedEventArgs args)
@@ -41,7 +41,7 @@ protected override void OnWindowCreated(WindowCreatedEventArgs args)
 }
 ```
 
-**For JavaScript:** This example demonstrates how to access the [searchPane](searchpane.md) to register a [querysubmitted](searchpane_querysubmitted.md) event handler.
+**For JavaScript:** This example demonstrates how to access the [searchPane](searchpane.md) to register a querysubmitted event handler.
 
 > [!NOTE]
 > To ensure that your app can respond to user queries at any time, make sure your [searchPane](searchpane.md) event handlers are registered in your app's global scope.

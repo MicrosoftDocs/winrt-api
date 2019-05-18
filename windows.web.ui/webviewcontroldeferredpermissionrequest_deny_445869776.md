@@ -13,7 +13,7 @@ public void WebViewControlDeferredPermissionRequest.Deny()
 Denies the requested permission.
 
 ## -remarks
-When you allow the requested permission, subsequent calls to **Allow** or [Deny](webviewcontroldeferredpermissionrequest_deny_445869776.md) the permission request result in an error.
+When you allow the requested permission, subsequent calls to **Allow** or Deny the permission request result in an error.
 
 ## -see-also
 

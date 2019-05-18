@@ -26,6 +26,12 @@ All [Application](../windows.ui.xaml/application.md) overrides involved in an ac
 
 For example code, see [Share target activation sample](https://go.microsoft.com/fwlink/p/?LinkID=231519).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | User |
+
 ## -examples
 
 ## -see-also

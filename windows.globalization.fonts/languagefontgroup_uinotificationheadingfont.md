@@ -16,11 +16,11 @@ Gets a font that is recommended for special UI elements, such as headings in not
 The recommended [LanguageFont](languagefont.md).
 
 ## -remarks
-The [UINotificationHeadingFont](languagefontgroup_uinotificationheadingfont.md) property provides a font recommendation for special UI elements, such as headings in notifications or other app messages, that are displayed at UI body text size or only slightly larger yet need to be differentiated from UI body text.
+The UINotificationHeadingFont property provides a font recommendation for special UI elements, such as headings in notifications or other app messages, that are displayed at UI body text size or only slightly larger yet need to be differentiated from UI body text.
 
 The font recommended for this usage case may be differentiated from other UI usage cases in font weight, style or stretch values. Those attributes are significant aspects of the font recommendation being provided.
 
-A [UINotificationHeadingFont](languagefontgroup_uinotificationheadingfont.md) recommendation is available for every supported language or script.
+A UINotificationHeadingFont recommendation is available for every supported language or script.
 
 ## -examples
 

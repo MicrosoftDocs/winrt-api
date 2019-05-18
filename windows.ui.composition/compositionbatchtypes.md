@@ -31,6 +31,13 @@ The batch contains effects.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1809 | 17763 | AllAnimations |
+| 1809 | 17763 | InfiniteAnimation |
+
 ## -examples
 
 ## -see-also

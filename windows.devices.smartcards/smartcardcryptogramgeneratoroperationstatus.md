@@ -59,7 +59,7 @@ The operation is not supported.
 
 ### Version history
 
-| Version | SDK version | Value added |
+| Windows version | SDK version | Value added |
 | -- | -- | -- |
 | 1703 | 15063 | ValidationFailed |
 | 1709 | 16299 | NotSupported |

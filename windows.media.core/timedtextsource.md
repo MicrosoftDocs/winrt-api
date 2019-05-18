@@ -17,6 +17,15 @@ Get an instance of **TimedTextSource** from one of the factory methods, [CreateF
 
 For how-to guidance for working with external timed text sources, see [Media items, playlists, and tracks](https://msdn.microsoft.com/windows/uwp/audio-video-camera/media-playback-with-mediasource).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | CreateFromStreamWithIndex(IRandomAccessStream,IRandomAccessStream) |
+| 1703 | 15063 | CreateFromStreamWithIndex(IRandomAccessStream,IRandomAccessStream,String) |
+| 1703 | 15063 | CreateFromUriWithIndex(Uri,Uri) |
+| 1703 | 15063 | CreateFromUriWithIndex(Uri,Uri,String) |
+
 ## -examples
 
 ## -see-also

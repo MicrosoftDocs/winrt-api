@@ -16,7 +16,7 @@ This namespace enables hardware manufactures to expose sensors that don’t have
 
 ### Custom sensors
 
-This namespace includes the new [CustomSensor](customsensor.md), [CustomSensorReadingChangedEventArgs](customsensorreadingchangedeventargs.md), and [CustomSensorReading](customsensorreading.md) classes that are modeled on the [Windows.Devices.Sensors](windows_devices_sensors_custom.md) classes ([Accelerometer](../windows.devices.sensors/accelerometer.md), [Gyrometer](../windows.devices.sensors/gyrometer.md), [Magnetometer](../windows.devices.sensors/magnetometer.md), and so on).
+This namespace includes the new [CustomSensor](customsensor.md), [CustomSensorReadingChangedEventArgs](customsensorreadingchangedeventargs.md), and [CustomSensorReading](customsensorreading.md) classes that are modeled on the Windows.Devices.Sensors classes ([Accelerometer](../windows.devices.sensors/accelerometer.md), [Gyrometer](../windows.devices.sensors/gyrometer.md), [Magnetometer](../windows.devices.sensors/magnetometer.md), and so on).
 
 ### Native sensors extensibility
 

@@ -30,7 +30,7 @@ A parameter to be passed to the [Converter](binding_converter.md). This can be u
 ## -remarks
 Passing parameters to a converter is a relatively advanced and uncommon scenarios. Most converters used for data binding simply type-convert a source object to a desired target type based solely on the characteristics of the source object, and knowing what the intended destination type is for a particular binding scenario.
 
-If a value for [ConverterParameter](binding_converterparameter.md) is specified, this value is used for the *parameter* value when invoking the converter logic. Specifically, this provides the value of the *parameter* parameter of the [Convert](ivalueconverter_convert_101701969.md) or [ConvertBack](ivalueconverter_convertback_2106225504.md) methods of the specific converter that is requested with the [Converter](binding_converter.md) property.
+If a value for ConverterParameter is specified, this value is used for the *parameter* value when invoking the converter logic. Specifically, this provides the value of the *parameter* parameter of the [Convert](ivalueconverter_convert_101701969.md) or [ConvertBack](ivalueconverter_convertback_2106225504.md) methods of the specific converter that is requested with the [Converter](binding_converter.md) property.
 
 You can't set the property values of a [Binding](binding.md) object after that binding has been attached to a target element and target property. If you attempt this you'll get a run-time exception.
 

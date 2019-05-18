@@ -15,7 +15,7 @@ Occurs before the IWebViewControl navigates to new content.
 ## -remarks
 WebView navigation events occur in the following order:
 
-- [NavigationStarting](iwebviewcontrol_navigationstarting.md)
+- NavigationStarting
 - [ContentLoading](iwebviewcontrol_contentloading.md)
 - **DOMContentLoaded**
 - [NavigationCompleted](iwebviewcontrol_navigationcompleted.md)

@@ -16,7 +16,7 @@ Gets the WebSocket sub-protocol negotiated with the server during WebSocket hand
 The sub-protocol negotiated with the server during WebSocket handshake.
 
 ## -remarks
-Both a WebSocket client and a WebSocket server may support multiple sub-protocols. During the WebSocket handshake, the server will select one of the sub-protocols from the mutually supported sub-protocols and reply in the "Sec-WebSocket-Protocol" header. The [Protocol](iwebsocketinformation_protocol.md) property will contain the selected sub-protocol string.
+Both a WebSocket client and a WebSocket server may support multiple sub-protocols. During the WebSocket handshake, the server will select one of the sub-protocols from the mutually supported sub-protocols and reply in the "Sec-WebSocket-Protocol" header. The Protocol property will contain the selected sub-protocol string.
 
 Before the [IWebSocket](iwebsocket.md) is connected, this property is null.
 

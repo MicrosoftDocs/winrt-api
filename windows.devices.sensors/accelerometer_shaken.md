@@ -13,7 +13,7 @@ public event Windows.Foundation.TypedEventHandler Shaken<Windows.Devices.Sensors
 Occurs when the accelerometer detects that the PC has been shaken.
 
 ## -remarks
-Use this event to receive notification that the device containing the accelerometer has been shaken. The app is not required to set a report interval prior to registering for [Shaken](accelerometer_shaken.md) events.
+Use this event to receive notification that the device containing the accelerometer has been shaken. The app is not required to set a report interval prior to registering for Shaken events.
 
 The following example demonstrates how a UWP app built with C# and XAML registers its **Shaken** event handler.
 
@@ -21,7 +21,7 @@ The following example demonstrates how a UWP app built with C# and XAML register
 
 [!code-csharp[EnableShakenCS](../windows.devices.sensors/code/Accelerometer/cs/Scenario2.xaml.cs#SnippetEnableShakenCS)]
 
-The following example shows the [Shaken](accelerometer_shaken.md) event handler.
+The following example shows the Shaken event handler.
 
 
 
@@ -33,7 +33,7 @@ The following example demonstrates how a UWP app built with JavaScript registers
 
 [!code-js[EnableShakenJS](../windows.devices.sensors/code/Accelerometer/javascript/scenario2.js#SnippetEnableShakenJS)]
 
-The following example shows the [Shaken](accelerometer_shaken.md) event handler.
+The following example shows the Shaken event handler.
 
 
 

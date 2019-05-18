@@ -14,7 +14,7 @@ public class CameraCaptureUI : Windows.Media.Capture.ICameraCaptureUI
 Provides a full window UI for capturing audio, video, and photos from a camera. As well as controls for trimming video, time delayed capture, and camera settings.
 
 ## -remarks
-[CameraCaptureUI](cameracaptureui.md) provides a full window UI experience for capturing audio, video, and images. It provides controls for setting a time delay on photo captures, trimming video, and for adjusting the camera's settings such as video resolution, the audio device, brightness, and contrast.
+CameraCaptureUI provides a full window UI experience for capturing audio, video, and images. It provides controls for setting a time delay on photo captures, trimming video, and for adjusting the camera's settings such as video resolution, the audio device, brightness, and contrast.
 
 Call [CaptureFileAsync](cameracaptureui_capturefileasync_1903527183.md) to launch the UI. The user has control over when to start the capture. When the asynchronous [CaptureFileAsync](cameracaptureui_capturefileasync_1903527183.md) operation completes, a [StorageFile](../windows.storage/storagefile.md) object is returned. For how-to guidance for using **CameraCaptureUI**, see [Capture photos and video with Windows built-in camera UI](https://msdn.microsoft.com/windows/uwp/audio-video-camera/capture-photos-and-video-with-cameracaptureui)
 

@@ -6,7 +6,7 @@
 # Windows.Phone.Media.Devices
 
 ## -description
-The [Windows.Phone.Media.Devices](windows_phone_media_devices.md) namespace provides functionality that lets Voice over IP applications route audio to endpoints other than the speakerphone.
+The Windows.Phone.Media.Devices namespace provides functionality that lets Voice over IP applications route audio to endpoints other than the speakerphone.
 
 ## -remarks
 

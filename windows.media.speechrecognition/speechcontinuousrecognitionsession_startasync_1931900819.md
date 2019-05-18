@@ -18,7 +18,7 @@ Asynchronously begin a continuous speech recognition session with a [SpeechConti
 An asynchronous handler called when the operation is complete.
 
 ## -remarks
-[CompileConstraintsAsync](speechrecognizer_compileconstraintsasync_1901700993.md) must always be called before [StartAsync](speechcontinuousrecognitionsession_startasync_1931900819.md), even if no constraints are specified in the [Constraints](speechrecognizer_constraints.md) property.
+[CompileConstraintsAsync](speechrecognizer_compileconstraintsasync_1901700993.md) must always be called before StartAsync, even if no constraints are specified in the [Constraints](speechrecognizer_constraints.md) property.
 
 ## -examples
 

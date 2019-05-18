@@ -17,11 +17,11 @@ Represents a Universal Windows app control containing a customizable and extensi
 > [!TIP]
 > For more info, design guidance, and code examples, see [Inking controls](/windows/uwp/design/controls-and-patterns/inking-controls).
 
-Associate an [InkToolbar](inktoolbar.md) with an [InkCanvas](inkcanvas.md) control through the [TargetInkCanvas](inktoolbar_targetinkcanvas.md) property.
+Associate an InkToolbar with an [InkCanvas](inkcanvas.md) control through the [TargetInkCanvas](inktoolbar_targetinkcanvas.md) property.
 
 By default, the toolbar includes buttons for drawing, erasing, highlighting, and displaying a ruler. Depending on the feature, other settings and commands, such as ink color, stroke thickness, erase all, are provided in a flyout. An "extension glyph" is displayed on the button to indicate the existence of the flyout.
 
-The [InkToolbar](inktoolbar.md) consists of two distinct groups of button types:
+The InkToolbar consists of two distinct groups of button types:
 
 + One group of "tool" buttons containing the built-in drawing ([InkToolbarBallpointPenButton](inktoolbarballpointpenbutton.md), [InkToolbarPencilButton](inktoolbarpencilbutton.md)), erasing ([InkToolbarEraserButton](inktoolbareraserbutton.md)), and highlighting ([InkToolbarHighlighterButton](inktoolbarhighlighterbutton.md)) buttons. Custom tools ([InkToolbarCustomPenButton](inktoolbarcustompenbutton.md) and [InkToolbarCustomToolButton](inktoolbarcustomtoolbutton.md)) are added here.
 
@@ -39,12 +39,23 @@ You cannot change the display order of the built-in buttons. The default display
 
 By default, ink input is processed on a low-latency background thread and rendered "wet" as it is drawn. When the stroke is completed (pen or finger lifted, or mouse button released), the stroke is processed on the UI thread and rendered "dry" to the [InkCanvas](inkcanvas.md) layer (above the application content and replacing the wet ink). The ink platform enables you to override this behavior and completely customize the inking experience by custom drying the ink input.
 
-If your app overrides the default ink rendering behavior of the [InkPresenter](../windows.ui.input.inking/inkpresenter.md) with a custom drying implementation, the rendered ink strokes are no longer available to the [InkToolbar](inktoolbar.md) and the built-in erase commands of the [InkToolbar](inktoolbar.md) do not work as expected. To provide erase functionality, you must handle all pointer events, perform hit-testing on each stroke, and override the built-in "Erase all ink" command.
+If your app overrides the default ink rendering behavior of the [InkPresenter](../windows.ui.input.inking/inkpresenter.md) with a custom drying implementation, the rendered ink strokes are no longer available to the InkToolbar and the built-in erase commands of the InkToolbar do not work as expected. To provide erase functionality, you must handle all pointer events, perform hit-testing on each stroke, and override the built-in "Erase all ink" command.
 
 For more info on custom drying, see [Pen interactions and Windows Ink in UWP apps](https://msdn.microsoft.com/windows/uwp/input-and-devices/pen-and-stylus-interactions#custom-ink-rendering).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | ButtonFlyoutPlacement |
+| 1703 | 15063 | GetMenuButton |
+| 1703 | 15063 | IsStencilButtonChecked |
+| 1703 | 15063 | IsStencilButtonCheckedChanged |
+| 1703 | 15063 | Orientation |
+| 1903 | 18362 | TargetInkPresenter |
+
 ## -examples
-Here, we show a typical [InkToolbar](inktoolbar.md) declaration and binding to an [InkCanvas](inkcanvas.md).
+Here, we show a typical InkToolbar declaration and binding to an [InkCanvas](inkcanvas.md).
 
 
 

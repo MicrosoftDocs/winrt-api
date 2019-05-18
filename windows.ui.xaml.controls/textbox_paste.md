@@ -19,14 +19,14 @@ Occurs when text is pasted into the control.
 
 
 ## -remarks
-The [Paste](textbox_paste.md) event occurs before any content is inserted into the control. You can handle this event to check the contents of the clipboard and perform any actions on the content before it's inserted. If you perform any action, set the [Handled](textcontrolpasteeventargs_handled.md) property of the event args to **true**; otherwise, the default paste action is performed. If you mark the event as handled, then it's assumed the app has handled the paste operation, and no default action is performed. You are responsible for determining the insertion point and clipboard content to insert, and inserting the content.
+The Paste event occurs before any content is inserted into the control. You can handle this event to check the contents of the clipboard and perform any actions on the content before it's inserted. If you perform any action, set the [Handled](textcontrolpasteeventargs_handled.md) property of the event args to **true**; otherwise, the default paste action is performed. If you mark the event as handled, then it's assumed the app has handled the paste operation, and no default action is performed. You are responsible for determining the insertion point and clipboard content to insert, and inserting the content.
 
 You should set the [Handled](textcontrolpasteeventargs_handled.md) property to **true** in your handler before the code to perform a custom paste action. Otherwise, the default paste action is performed, and then the custom action is performed. The user can see the content changing in the [TextBox](textbox.md).
 
 
 
 ## -examples
-This example shows how to handle the [Paste](textbox_paste.md) event to replace line breaks with commas when pasting into an address field. Otherwise, pasting an address copied from multiple lines would cause data loss.
+This example shows how to handle the Paste event to replace line breaks with commas when pasting into an address field. Otherwise, pasting an address copied from multiple lines would cause data loss.
 
 ```xaml
 <TextBox Header="Address" Paste="AddressTextBox_Paste"/>
@@ -67,7 +67,7 @@ private async void AddressTextBox_Paste(object sender, TextControlPasteEventArgs
 }
 ```
 
-This example shows how to handle the [Paste](textbox_paste.md) event to limit the number of characters pasted into the [TextBox](textbox.md). If the length of the text on the clipboard exceeds the [MaxLength](textbox_maxlength.md) of the [TextBox](textbox.md), a message is shown to the user. The user has the option to continue with the text truncated, or cancel the paste operation.
+This example shows how to handle the Paste event to limit the number of characters pasted into the [TextBox](textbox.md). If the length of the text on the clipboard exceeds the [MaxLength](textbox_maxlength.md) of the [TextBox](textbox.md), a message is shown to the user. The user has the option to continue with the text truncated, or cancel the paste operation.
 
 ```xaml
 <TextBox Paste="TextBox_Paste" MaxLength="10"/>

@@ -11,7 +11,7 @@ public bool IsFullScreen { get; }
 
 ## -description
 > [!NOTE]
-> [IsFullScreen](applicationview_isfullscreen.md) may be altered or unavailable for releases after Windows 10. Instead, use [IsFullScreenMode](applicationview_isfullscreenmode.md).
+> IsFullScreen may be altered or unavailable for releases after Windows 10. Instead, use [IsFullScreenMode](applicationview_isfullscreenmode.md).
 
 Gets a value that indicates whether the window touches both the left and right sides of the display.
 

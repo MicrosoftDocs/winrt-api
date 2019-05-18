@@ -20,7 +20,7 @@ The error encountered by a WebSocket operation represented as an **HRESULT**.
 The socket error status value for a WebSocket operation.
 
 ## -remarks
-An error encountered on a WebSocket operation is returned as **HRESULT** value. The [GetStatus](websocketerror_getstatus_1856274933.md) method is used to convert an error from a WebSocket operation to a [WebErrorStatus](../windows.web/weberrorstatus.md) enumeration value. This can be useful for handling errors programmatically.
+An error encountered on a WebSocket operation is returned as **HRESULT** value. The GetStatus method is used to convert an error from a WebSocket operation to a [WebErrorStatus](../windows.web/weberrorstatus.md) enumeration value. This can be useful for handling errors programmatically.
 
 ## -examples
 

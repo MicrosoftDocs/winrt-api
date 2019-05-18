@@ -17,7 +17,7 @@ You describe the color composition of a [LinearGradientBrush](lineargradientbrus
 
 ### **GradientBrush** derived classes
 
-[GradientBrush](gradientbrush.md) is the parent class for [LinearGradientBrush](lineargradientbrush.md). The Windows Runtime XAML vocabulary doesn't support **RadialGradientBrush**.
+GradientBrush is the parent class for [LinearGradientBrush](lineargradientbrush.md). The Windows Runtime XAML vocabulary doesn't support **RadialGradientBrush**.
 
 ## -examples
 

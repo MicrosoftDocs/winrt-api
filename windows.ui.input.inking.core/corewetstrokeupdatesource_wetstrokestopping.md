@@ -15,7 +15,7 @@ Occurs when the [InkPresenter](../windows.ui.input.inking/inkpresenter.md) stops
 ## -remarks
 [NewInkPoints](corewetstrokeupdateeventargs_newinkpoints.md) is always empty for the [WetStrokeCompleted](corewetstrokeupdatesource_wetstrokecompleted.md) and [WetStrokeCanceled](corewetstrokeupdatesource_wetstrokecanceled.md) events.
 
-[NewInkPoints](corewetstrokeupdateeventargs_newinkpoints.md) might be empty for the [WetStrokeStopping](corewetstrokeupdatesource_wetstrokestopping.md) event.
+[NewInkPoints](corewetstrokeupdateeventargs_newinkpoints.md) might be empty for the WetStrokeStopping event.
 
 ## -examples
 

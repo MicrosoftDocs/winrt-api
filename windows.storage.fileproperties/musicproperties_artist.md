@@ -16,7 +16,7 @@ Gets the artists that contributed to the song.
 The names of the song's artists.
 
 ## -remarks
-This is how the value returned by the [Artist](musicproperties_artist.md) property is determined:
+This is how the value returned by the Artist property is determined:
 
 1. If the [AlbumArtist](musicproperties_albumartist.md) property of the song contains a value, the value of the [AlbumArtist](musicproperties_albumartist.md) property is returned.
 1. If the [AlbumArtist](musicproperties_albumartist.md) property of the song does not contain a value, and the song is marked as part of a compilation, the value "Various Artists" is returned.

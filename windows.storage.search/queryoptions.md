@@ -17,11 +17,11 @@ Specifies the parameters of a search query for enumerating the contents of stora
 
 You can create a file query for any folder you have access to and that you can get as a [StorageFolder](../windows.storage/storagefolder.md).
 
-You can use [QueryOptions](queryoptions.md) and [CreateFileQueryWithOptions](../windows.storage/storagefolder_createfilequerywithoptions_2038131323.md) to create an indexed backed file query that lets you get properties that rely on another app's property handler.
+You can use QueryOptions and [CreateFileQueryWithOptions](../windows.storage/storagefolder_createfilequerywithoptions_2038131323.md) to create an indexed backed file query that lets you get properties that rely on another app's property handler.
 
 ## -examples
 
-This example demonstrates how to use [QueryOptions](queryoptions.md) to query files in a location.
+This example demonstrates how to use QueryOptions to query files in a location.
 
 ```csharp
 // Set query options with filter and sort order for results

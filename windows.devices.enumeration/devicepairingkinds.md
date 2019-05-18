@@ -21,7 +21,7 @@ No pairing is supported.
 The application must confirm they wish to perform the pairing action. You can present an optional confirmation dialog to the user. With a value of **ConfirmOnly**, call [Accept](devicepairingrequestedeventargs_accept_1944939200.md) from the event args of the [PairingRequested](deviceinformationcustompairing_pairingrequested.md) event handler if you want the pairing to complete.
 
 ### -field DisplayPin:2
-The application must display the given PIN to the user. The user will then need to enter or confirm that PIN on the device that is being paired. With a value of **DisplayPin**, call [Accept](devicepairingrequestedeventargs_accept_1944939200.md) from the event args of the [PairingRequested](deviceinformationcustompairing_pairingrequested.md) event handler if you want the pairing to complete. If your application cancels the pairing at this point, the device might still be paired. This is because the system and the target device don't need any confirmation for this [DevicePairingKinds](devicepairingkinds.md) value.
+The application must display the given PIN to the user. The user will then need to enter or confirm that PIN on the device that is being paired. With a value of **DisplayPin**, call [Accept](devicepairingrequestedeventargs_accept_1944939200.md) from the event args of the [PairingRequested](deviceinformationcustompairing_pairingrequested.md) event handler if you want the pairing to complete. If your application cancels the pairing at this point, the device might still be paired. This is because the system and the target device don't need any confirmation for this DevicePairingKinds value.
 
 ### -field ProvidePin:4
 The application must request a PIN from the user. The PIN will typically be displayed on the target device. With a value of **ProvidePin**, call [Accept](/uwp/api/windows.devices.enumeration.devicepairingrequestedeventargs.accept) from the event args of the [PairingRequested](deviceinformationcustompairing_pairingrequested.md) event handler if you want the pairing to complete. Pass in the PIN as a parameter.
@@ -34,6 +34,12 @@ The application must request a user name and password from the user. With a valu
 
 ## -remarks
 This value is a collection of flags. It is possible to have multiple values set for a single pairing action.
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1903 | 18362 | ProvidePasswordCredential |
 
 ## -examples
 

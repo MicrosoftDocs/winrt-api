@@ -24,14 +24,14 @@ Processes position and state properties, such as pressure and tilt, for the spec
 The input pointer for which updates are to be processed.
 
 ## -returns
-When the current [InkManipulationMode](inkmanipulationmode.md) is **Inking** or **Selecting**, this method returns the [Point](../windows.foundation/point.md) (screen position in ink space) associated with the last [ProcessPointerUpdate](inkmanager_processpointerupdate_416065930.md) of *pointerPoint*.
+When the current [InkManipulationMode](inkmanipulationmode.md) is **Inking** or **Selecting**, this method returns the [Point](../windows.foundation/point.md) (screen position in ink space) associated with the last ProcessPointerUpdate of *pointerPoint*.
 
 ## -remarks
 
 ## -examples
 The following example demonstrates a handler for a [PointerMoved](..\windows.ui.xaml\uielement_pointermoved.md) event on an InkCanvas.
 
-Here, the intermediate points (`intermediatePoints`) unprocessed since the last update are processed by the [InkManager](inkmanager.md) (`inkManager`) in the [ProcessPointerUpdate](inkmanager_processpointerupdate_416065930.md) call.
+Here, the intermediate points (`intermediatePoints`) unprocessed since the last update are processed by the [InkManager](inkmanager.md) (`inkManager`) in the ProcessPointerUpdate call.
 
 ```csharp
 void InkingArea_PointerMoved(object sender, Windows.UI.Xaml.Input.PointerRoutedEventArgs e)

@@ -11,7 +11,7 @@ public Windows.UI.Xaml.Thickness GridViewItemPresenterPadding { get;  set; }
 
 ## -description
 > [!NOTE]
-> [GridViewItemPresenterPadding](gridviewitempresenter_gridviewitempresenterpadding.md) may be altered or unavailable for releases after Windows 10. Instead, use [ContentPresenter.Padding](../windows.ui.xaml.controls/contentpresenter_padding.md).
+> GridViewItemPresenterPadding may be altered or unavailable for releases after Windows 10. Instead, use [ContentPresenter.Padding](../windows.ui.xaml.controls/contentpresenter_padding.md).
 
 Gets or sets the padding between the presenter and the [GridView](../windows.ui.xaml.controls/gridview.md).
 
@@ -20,7 +20,7 @@ A [Thickness](../windows.ui.xaml/thickness.md) value.
 
 ## -remarks
 > [!IMPORTANT]
-> [GridViewItemPresenterPadding](gridviewitempresenter_gridviewitempresenterpadding.md) may be altered or unavailable for releases after Windows 10. Instead, use [ContentPresenter.Padding](../windows.ui.xaml.controls/contentpresenter_padding.md).
+> GridViewItemPresenterPadding may be altered or unavailable for releases after Windows 10. Instead, use [ContentPresenter.Padding](../windows.ui.xaml.controls/contentpresenter_padding.md).
 
 ## -examples
 

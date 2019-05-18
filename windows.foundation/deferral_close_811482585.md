@@ -13,7 +13,7 @@ public void Close()
 If the [DeferralCompletedHandler](deferralcompletedhandler.md) has not yet been invoked, this will call it and drop the reference to the delegate.
 
 ## -remarks
-If the [DeferralCompletedHandler](deferralcompletedhandler.md) has not yet been invoked, this will call it and drop the reference to the delegate. Otherwise, since [Close](deferral_close_811482585.md) must be safe to call multiple times, this will simply succeed without doing anything.
+If the [DeferralCompletedHandler](deferralcompletedhandler.md) has not yet been invoked, this will call it and drop the reference to the delegate. Otherwise, since Close must be safe to call multiple times, this will simply succeed without doing anything.
 
 ## -examples
 

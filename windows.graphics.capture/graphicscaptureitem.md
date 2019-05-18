@@ -15,6 +15,12 @@ The target of the capture, chosen with the picker control.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1809 | 17763 | CreateFromVisual |
+
 ## -see-also
 
 [Screen capture](https://docs.microsoft.com/windows/uwp/audio-video-camera/screen-capture)

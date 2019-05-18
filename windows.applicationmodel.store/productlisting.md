@@ -15,8 +15,17 @@ Provides localized information that details an add-on (also called an in-app pro
 ## -remarks
 You access this object by picking an element of the collection that the [ProductListings](listinginformation_productlistings.md) property of the [ListingInformation](listinginformation.md) object returns.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1511 | 10586 | CurrencyCode |
+| 1511 | 10586 | FormattedBasePrice |
+| 1511 | 10586 | IsOnSale |
+| 1511 | 10586 | SaleEndDate |
+
 ## -examples
-This code example here shows how to get the [ListingInformation](listinginformation.md) from simulated app data and then get the [ProductListing](productlisting.md) object an add-on.
+This code example here shows how to get the [ListingInformation](listinginformation.md) from simulated app data and then get the ProductListing object an add-on.
 
 ```javascript
 // get current app object using the simulator interface

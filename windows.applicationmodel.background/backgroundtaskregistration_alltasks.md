@@ -18,7 +18,7 @@ A view into a map of registered background tasks consisting of the task ID and a
 ## -remarks
 
 ## -examples
-The following example shows how to use the [AllTasks](backgroundtaskregistration_alltasks.md) property of the [BackgroundTaskRegistration](backgroundtaskregistration.md) class to retrieve the existing background task registration object for your app's background task (if the task is currently registered).
+The following example shows how to use the AllTasks property of the [BackgroundTaskRegistration](backgroundtaskregistration.md) class to retrieve the existing background task registration object for your app's background task (if the task is currently registered).
 
 ```csharp
 // The name of the background task for your app.

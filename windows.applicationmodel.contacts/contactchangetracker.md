@@ -15,6 +15,12 @@ Provides functionality for monitoring changes to [Contact](contact.md) objects i
 ## -remarks
 Use [ContactStore.ChangeTracker](contactstore_changetracker.md) or [ContactList.ChangeTracker](contactlist_changetracker.md) to get an instance of this class.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1709 | 16299 | IsTracking |
+
 ## -examples
 
 ## -see-also

@@ -16,7 +16,7 @@ Get a collection of content headers set on the [IHttpContent](ihttpcontent.md).
 A collection of content headers set on the [IHttpContent](ihttpcontent.md).
 
 ## -remarks
-The [Headers](ihttpcontent_headers.md) property returns an [HttpContentHeaderCollection](../windows.web.http.headers/httpcontentheadercollection.md) object that can be used to get or set the specific headers on the HTTP content in an HTTP request or HTTP response.
+The Headers property returns an [HttpContentHeaderCollection](../windows.web.http.headers/httpcontentheadercollection.md) object that can be used to get or set the specific headers on the HTTP content in an HTTP request or HTTP response.
 
 ## -examples
 

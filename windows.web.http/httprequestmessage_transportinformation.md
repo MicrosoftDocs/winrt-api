@@ -16,7 +16,7 @@ Get information about the underlying transport socket used by an HTTP connection
 Information about the underlying transport socket used by an HTTP connection.
 
 ## -remarks
-The primary use of the [TransportInformation](httprequestmessage_transportinformation.md) property is to get SSL information when SSL is used for the HTTP connection. This is commonly used to get the SSL certificate from the server or to view a list of errors that occurred when making an SSL connection.
+The primary use of the TransportInformation property is to get SSL information when SSL is used for the HTTP connection. This is commonly used to get the SSL certificate from the server or to view a list of errors that occurred when making an SSL connection.
 
 ## -examples
 

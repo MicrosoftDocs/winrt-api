@@ -13,11 +13,11 @@ public class RepeatButtonAutomationPeer : Windows.UI.Xaml.Automation.Peers.Butto
 Exposes [RepeatButton](../windows.ui.xaml.controls.primitives/repeatbutton.md) types to Microsoft UI Automation.
 
 ## -remarks
-The Windows Runtime  [RepeatButton](../windows.ui.xaml.controls.primitives/repeatbutton.md) class creates a new [RepeatButtonAutomationPeer](repeatbuttonautomationpeer.md) as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. [RepeatButton](../windows.ui.xaml.controls.primitives/repeatbutton.md) is sealed, so the normal scenario of deriving from the [RepeatButton](../windows.ui.xaml.controls.primitives/repeatbutton.md) class and its existing peer isn't applicable to [RepeatButtonAutomationPeer](repeatbuttonautomationpeer.md).
+The Windows Runtime  [RepeatButton](../windows.ui.xaml.controls.primitives/repeatbutton.md) class creates a new RepeatButtonAutomationPeer as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. [RepeatButton](../windows.ui.xaml.controls.primitives/repeatbutton.md) is sealed, so the normal scenario of deriving from the [RepeatButton](../windows.ui.xaml.controls.primitives/repeatbutton.md) class and its existing peer isn't applicable to RepeatButtonAutomationPeer.
 
 ### Default peer implementation and overrides in **RepeatButtonAutomationPeer**
 
-[RepeatButtonAutomationPeer](repeatbuttonautomationpeer.md) has overrides of **Core** methods such that the associated [AutomationPeer](automationpeer.md) methods provide peer-specific information to a Microsoft UI Automation client.
+RepeatButtonAutomationPeer has overrides of **Core** methods such that the associated [AutomationPeer](automationpeer.md) methods provide peer-specific information to a Microsoft UI Automation client.
 
 + [GetPattern](automationpeer_getpattern_2046576749.md) reports that the peer provides pattern support for [PatternInterface.Invoke](patterninterface.md) ([IInvokeProvider](../windows.ui.xaml.automation.provider/iinvokeprovider.md)).
 + [GetClassName](automationpeer_getclassname_614238974.md) returns "RepeatButton".

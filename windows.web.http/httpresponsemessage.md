@@ -13,7 +13,7 @@ public class HttpResponseMessage : Windows.Foundation.IClosable, Windows.Foundat
 Represents an HTTP response message including headers, the status code, and data.
 
 ## -remarks
-A common way to get an [HttpResponseMessage](httpresponsemessage.md) is the from the return value for one of the [DeleteAsync](httpclient_deleteasync_820543917.md), [GetAsync](httpclient_getasync_1105627628.md), [PostAsync](httpclient_postasync_1466488101.md) , [PutAsync](httpclient_putasync_552115331.md), or [SendRequestAsync](httpclient_sendrequestasync_234300504.md) methods on the [HttpClient](httpclient.md) object.
+A common way to get an HttpResponseMessage is the from the return value for one of the [DeleteAsync](httpclient_deleteasync_820543917.md), [GetAsync](httpclient_getasync_1105627628.md), [PostAsync](httpclient_postasync_1466488101.md) , [PutAsync](httpclient_putasync_552115331.md), or [SendRequestAsync](httpclient_sendrequestasync_234300504.md) methods on the [HttpClient](httpclient.md) object.
 
 ## -examples
 

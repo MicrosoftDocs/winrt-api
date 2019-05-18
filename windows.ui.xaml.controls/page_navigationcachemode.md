@@ -22,14 +22,14 @@ Gets or sets the navigation mode that indicates whether this [Page](page.md) is 
 A value of the enumeration. The default is **Disabled**.
 
 ## -remarks
-To enable a page to be cached, set [NavigationCacheMode](page_navigationcachemode.md) to either **Enabled** or **Required**. The difference in behavior is that **Enabled** might not be cached if the frame's cache size limit ([CacheSize](frame_cachesize.md)) is exceeded, whereas **Required** always generates an entry no matter the size limit.
+To enable a page to be cached, set NavigationCacheMode to either **Enabled** or **Required**. The difference in behavior is that **Enabled** might not be cached if the frame's cache size limit ([CacheSize](frame_cachesize.md)) is exceeded, whereas **Required** always generates an entry no matter the size limit.
 
-If you want to change the value of [NavigationCacheMode](page_navigationcachemode.md) programmatically to **Enabled** or **Required**, you can only set these values in the constructor for the page.
+If you want to change the value of NavigationCacheMode programmatically to **Enabled** or **Required**, you can only set these values in the constructor for the page.
 
-If you change the value of [NavigationCacheMode](page_navigationcachemode.md) from **Required** or **Enabled** to **Disabled**, the page is flushed from the cache. The page is not simply marked as available to be flushed when the configured [CacheSize](frame_cachesize.md) is exceeded.
+If you change the value of NavigationCacheMode from **Required** or **Enabled** to **Disabled**, the page is flushed from the cache. The page is not simply marked as available to be flushed when the configured [CacheSize](frame_cachesize.md) is exceeded.
 
 ## -examples
-For example code that uses [NavigationCacheMode](page_navigationcachemode.md), see [Navigation](https://msdn.microsoft.com/library/742c1c18-c7b1-47b7-866c-726eeb8235ec). For a complete sample that uses many of the [Page](page.md) and [Frame](frame.md) features together, see [XAML Navigation sample](https://go.microsoft.com/fwlink/p/?LinkID=330214).
+For example code that uses NavigationCacheMode, see [Navigation](https://msdn.microsoft.com/library/742c1c18-c7b1-47b7-866c-726eeb8235ec). For a complete sample that uses many of the [Page](page.md) and [Frame](frame.md) features together, see [XAML Navigation sample](https://go.microsoft.com/fwlink/p/?LinkID=330214).
 
 ## -see-also
 [Frame](frame.md), [Frame.CacheSize](frame_cachesize.md), [NavigationCacheMode](../windows.ui.xaml.navigation/navigationcachemode.md), [Navigation](https://msdn.microsoft.com/library/742c1c18-c7b1-47b7-866c-726eeb8235ec), [XAML Navigation sample](https://go.microsoft.com/fwlink/p/?LinkID=330214)

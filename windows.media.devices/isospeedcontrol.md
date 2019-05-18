@@ -15,9 +15,9 @@ Provides functionality for controlling the ISO film speed settings on a capture 
 ## -remarks
 You can find out if a device supports this control by checking [IsoSpeedControl.Supported](isospeedcontrol_supported.md).
 
-You can access the [IsoSpeedControl](isospeedcontrol.md) for the capture device through [MediaCapture.VideoDeviceController](../windows.media.capture/mediacapture_videodevicecontroller.md).
+You can access the IsoSpeedControl for the capture device through [MediaCapture.VideoDeviceController](../windows.media.capture/mediacapture_videodevicecontroller.md).
 
-The [IsoSpeedControl](isospeedcontrol.md) enables apps to manage the ISO speed settings on a device. For example, in low-light conditions, apps may prefer higher noise level in return for higher overall brightness. The ISO speed control lets apps adjust tradeoffs such as this.
+The IsoSpeedControl enables apps to manage the ISO speed settings on a device. For example, in low-light conditions, apps may prefer higher noise level in return for higher overall brightness. The ISO speed control lets apps adjust tradeoffs such as this.
 
 Use [SetPresetAsync](isospeedcontrol_setpresetasync_1340401685.md) to set the ISO level to one of the [IsoSpeedPreset](isospeedpreset.md) values.
 

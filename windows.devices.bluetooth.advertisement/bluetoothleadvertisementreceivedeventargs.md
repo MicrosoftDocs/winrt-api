@@ -11,7 +11,7 @@ public class BluetoothLEAdvertisementReceivedEventArgs : Windows.Devices.Bluetoo
 # Windows.Devices.Bluetooth.Advertisement.BluetoothLEAdvertisementReceivedEventArgs
 
 ## -description
-Provides data for a [Received](bluetoothleadvertisementwatcher_received.md) event on a [BluetoothLEAdvertisementWatcher](bluetoothleadvertisementwatcher.md). A [BluetoothLEAdvertisementReceivedEventArgs](bluetoothleadvertisementreceivedeventargs.md) instance is created when the [Received](bluetoothleadvertisementwatcher_received.md) event occurs on a [BluetoothLEAdvertisementWatcher](bluetoothleadvertisementwatcher.md) object.
+Provides data for a [Received](bluetoothleadvertisementwatcher_received.md) event on a [BluetoothLEAdvertisementWatcher](bluetoothleadvertisementwatcher.md). A BluetoothLEAdvertisementReceivedEventArgs instance is created when the [Received](bluetoothleadvertisementwatcher_received.md) event occurs on a [BluetoothLEAdvertisementWatcher](bluetoothleadvertisementwatcher.md) object.
 
 ## -remarks
 

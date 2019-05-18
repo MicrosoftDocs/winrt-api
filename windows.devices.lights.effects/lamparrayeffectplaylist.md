@@ -14,7 +14,7 @@ public class LampArrayEffectPlaylist : IIterable<ILampArrayEffect>, IVectorView<
 Used to either chain multiple effects together or start effects simultaneously.
 
 ## -remarks
-An effect must be [Appended](lamparrayeffectplaylist_append_292269384.md) to a [LampArrayEffectPlaylist](lamparrayeffectplaylist.md) before it can be played.
+An effect must be [Appended](lamparrayeffectplaylist_append_292269384.md) to a LampArrayEffectPlaylist before it can be played.
 
 ## -see-also
 

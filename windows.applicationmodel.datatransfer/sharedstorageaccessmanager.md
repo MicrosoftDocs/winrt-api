@@ -21,7 +21,7 @@ Here is the sequence of steps that enables an app to share a file with another a
 + Optionally, the source app can call the [RemoveFile](sharedstorageaccessmanager_removefile_245169084.md) method to revoke a token that it obtained previously by calling the [AddFile](sharedstorageaccessmanager_addfile_731286892.md) method.
 For more info about Uri activation, see [Launch the default app for a URI](https://msdn.microsoft.com/library/7b0d0af5-d89e-4db0-9b79-90201d79974f).
 
-The use of the [SharedStorageAccessManager](sharedstorageaccessmanager.md) class and of sharing tokens is subject to the following requirements and restrictions.
+The use of the SharedStorageAccessManager class and of sharing tokens is subject to the following requirements and restrictions.
 
 
 + A sharing token can only be redeemed one time. After that, the token is no longer valid.

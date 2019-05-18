@@ -17,6 +17,12 @@ Each key is a string that represents a [PROPERTYKEY](https://msdn.microsoft.com/
 ## -remarks
 This object is accessed when you call the [GetCurrentReading](customsensor_getcurrentreading_1416488181.md) method; and, it is accessed when you retrieve the [Reading](customsensorreadingchangedeventargs_reading.md) property of the [CustomSensorReadingChangedEventArgs](customsensorreadingchangedeventargs.md) object in the event callback method.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1709 | 16299 | PerformanceCount |
+
 ## -examples
 
 ## -see-also

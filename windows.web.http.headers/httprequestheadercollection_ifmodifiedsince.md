@@ -16,7 +16,7 @@ Gets or sets the [DateTime](../windows.foundation/datetime.md) object that repre
 The [DateTime](../windows.foundation/datetime.md) object that represents the value of an **If-Modified-Since** HTTP header on an HTTP request. A null value means that the header is absent.
 
 ## -remarks
-The [IfModifiedSince](httprequestheadercollection_ifmodifiedsince.md) property represents the value of an **If-Modified-Since** HTTP header on an HTTP request message. The **If-Modified-Since** header is the date and time the content was modified since.
+The IfModifiedSince property represents the value of an **If-Modified-Since** HTTP header on an HTTP request message. The **If-Modified-Since** header is the date and time the content was modified since.
 
 Javascript and .NET languages do not use the [DateTime](../windows.foundation/datetime.md) object directly. In Javascript a [DateTime](../windows.foundation/datetime.md) is projected as a  object, and in .NET it is projected as a [System.DateTimeOffset](https://msdn.microsoft.com/library/system.datetimeoffset.aspx). Each language transparently handles the conversion to the granularity and date ranges for the respective language.
 
@@ -26,7 +26,7 @@ For more detailed information, see the [Windows.Foundation.DateTime](../windows.
 
 
 
-The following sample code shows a method to set the **If-Modified-Since** header on an [HttpRequestMessage](../windows.web.http/httprequestmessage.md) object using the [IfModifiedSince](httprequestheadercollection_ifmodifiedsince.md) property on the [HttpRequestHeaderCollection](httprequestheadercollection.md) object.
+The following sample code shows a method to set the **If-Modified-Since** header on an [HttpRequestMessage](../windows.web.http/httprequestmessage.md) object using the IfModifiedSince property on the [HttpRequestHeaderCollection](httprequestheadercollection.md) object.
 
 ```csharp
     public void DemonstrateHeaderRequestIfModifiedSince() {

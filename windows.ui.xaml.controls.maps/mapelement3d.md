@@ -13,7 +13,7 @@ public class MapElement3D : MapElement, MapElement
 Represents a 3D element displayed on a [MapControl](mapcontrol.md).
 
 ## -remarks
-To display the 3D object on a map control, add the [MapElement3D](mapelement3d.md) to the [MapElements](mapelementslayer_mapelements.md) collection of a [MapElementsLayer](mapelementslayer.md). Then, add the [MapElementsLayer](mapelementslayer.md) to the [Layers](mapcontrol_layers.md) collection of the map.
+To display the 3D object on a map control, add the MapElement3D to the [MapElements](mapelementslayer_mapelements.md) collection of a [MapElementsLayer](mapelementslayer.md). Then, add the [MapElementsLayer](mapelementslayer.md) to the [Layers](mapcontrol_layers.md) collection of the map.
 
 ## -see-also
 

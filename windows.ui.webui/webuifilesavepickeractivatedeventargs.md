@@ -27,6 +27,12 @@ This object is accessed when you implement an event handler for the [WinJS.Appli
 <!--[jjacks - removed this link (https://go.microsoft.com/fwlink/p/?linkid=258277 404->http://msdn.microsoft.com/library/windows/apps/jj157115.aspx) because it doesn't work] and Using Windows Runtime objects in a multithreaded environment (.NET)-->
 .
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | User |
+
 ## -examples
 
 The [File picker sample](https://go.microsoft.com/fwlink/p/?linkid=234890) demonstrates how to respond to a [fileSavePicker](../windows.applicationmodel.activation/activationkind.md) activated event.
@@ -55,7 +61,7 @@ function activated(eventObject) {
 WinJS.Application.addEventListener("activated", activated, false);
 ```
 
-For JavaScript, `eventObject` contains a [webUIFileSavePickerActivatedEventArgs](webuifilesavepickeractivatedeventargs.md) object.
+For JavaScript, `eventObject` contains a webUIFileSavePickerActivatedEventArgs object.
 
 ## -see-also
 

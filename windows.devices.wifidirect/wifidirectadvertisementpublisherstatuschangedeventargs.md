@@ -14,7 +14,7 @@ public class WiFiDirectAdvertisementPublisherStatusChangedEventArgs : Windows.De
 Provides data for a [StatusChanged](wifidirectadvertisementpublisher_statuschanged.md) event on a [WiFiDirectAdvertisementPublisher](wifidirectadvertisementpublisher.md).
 
 ## -remarks
-A [WiFiDirectAdvertisementPublisherStatusChangedEventArgs](wifidirectadvertisementpublisherstatuschangedeventargs.md) instance is created when the [StatusChanged](wifidirectadvertisementpublisher_statuschanged.md) event occurs on a [WiFiDirectAdvertisementPublisher](wifidirectadvertisementpublisher.md) object.
+A WiFiDirectAdvertisementPublisherStatusChangedEventArgs instance is created when the [StatusChanged](wifidirectadvertisementpublisher_statuschanged.md) event occurs on a [WiFiDirectAdvertisementPublisher](wifidirectadvertisementpublisher.md) object.
 
 ## -examples
 

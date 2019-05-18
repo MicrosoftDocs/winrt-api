@@ -16,7 +16,7 @@ Gets or sets a Boolean value indicating whether the drop-down portion of the [Au
 A Boolean value indicating whether the drop-down portion of the [AutoSuggestBox](autosuggestbox.md) is open.
 
 ## -remarks
-Do not set [IsSuggestionListOpen](autosuggestbox_issuggestionlistopen.md) in XAML. It's a state property for runtime interactions, and values set in XAML are ignored.
+Do not set IsSuggestionListOpen in XAML. It's a state property for runtime interactions, and values set in XAML are ignored.
 
 ## -examples
 

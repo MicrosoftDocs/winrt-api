@@ -13,14 +13,14 @@ public class HttpMediaTypeWithQualityHeaderValueCollection : Windows.Foundation.
 Represents the value of the **Accept** HTTP header on an HTTP request.
 
 ## -remarks
-The [HttpMediaTypeWithQualityHeaderValueCollection](httpmediatypewithqualityheadervaluecollection.md) represents the value of the **Accept** HTTP header on an HTTP request.
+The HttpMediaTypeWithQualityHeaderValueCollection represents the value of the **Accept** HTTP header on an HTTP request.
 
-The [HttpMediaTypeWithQualityHeaderValueCollection](httpmediatypewithqualityheadervaluecollection.md) is a collection of [HttpMediaTypeWithQualityHeaderValue](httpmediatypewithqualityheadervalue.md) objects used for accept information in the HTTP **Accept** header.
+The HttpMediaTypeWithQualityHeaderValueCollection is a collection of [HttpMediaTypeWithQualityHeaderValue](httpmediatypewithqualityheadervalue.md) objects used for accept information in the HTTP **Accept** header.
 
-The [Accept](httprequestheadercollection_accept.md) property on the [HttpRequestHeaderCollection](httprequestheadercollection.md) returns an [HttpMediaTypeWithQualityHeaderValueCollection](httpmediatypewithqualityheadervaluecollection.md) object.
+The [Accept](httprequestheadercollection_accept.md) property on the [HttpRequestHeaderCollection](httprequestheadercollection.md) returns an HttpMediaTypeWithQualityHeaderValueCollection object.
 
 ## -examples
-The following sample code shows a method to get and set the **Accept** HTTP header on an [HttpRequestMessage](../windows.web.http/httprequestmessage.md) object using the properties and methods on the [HttpMediaTypeWithQualityHeaderValueCollection](httpmediatypewithqualityheadervaluecollection.md) and [HttpMediaTypeWithQualityHeaderValue](httpmediatypewithqualityheadervalue.md) classes.
+The following sample code shows a method to get and set the **Accept** HTTP header on an [HttpRequestMessage](../windows.web.http/httprequestmessage.md) object using the properties and methods on the HttpMediaTypeWithQualityHeaderValueCollection and [HttpMediaTypeWithQualityHeaderValue](httpmediatypewithqualityheadervalue.md) classes.
 
 ```csharp
 using System;

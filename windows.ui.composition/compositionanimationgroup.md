@@ -12,14 +12,14 @@ public class CompositionAnimationGroup : Windows.UI.Composition.CompositionObjec
 ## -description
 Defines a group of animations.
 
-[CompositionAnimationGroup](compositionanimationgroup.md) provides a way to group [CompositionAnimation](compositionanimation.md)s in a list which will be started at the same time when [StartAnimationGroup](compositionobject_startanimationgroup_696523374.md) is called on [CompositionObject](compositionobject.md). All CompositionAnimation in [CompositionAnimationGroup](compositionanimationgroup.md) need to assign a value to the [Target](compositionanimation_target.md) property in the animation itself. [CompositionAnimationGroup](compositionanimationgroup.md) can also be associated with [ImplicitAnimationCollection](implicitanimationcollection.md) as an animation that gets executed as a result of a trigger.
+CompositionAnimationGroup provides a way to group [CompositionAnimation](compositionanimation.md)s in a list which will be started at the same time when [StartAnimationGroup](compositionobject_startanimationgroup_696523374.md) is called on [CompositionObject](compositionobject.md). All CompositionAnimation in CompositionAnimationGroup need to assign a value to the [Target](compositionanimation_target.md) property in the animation itself. CompositionAnimationGroup can also be associated with [ImplicitAnimationCollection](implicitanimationcollection.md) as an animation that gets executed as a result of a trigger.
 
 ## -remarks
-[CompositionAnimationGroup](compositionanimationgroup.md) is a list of [CompositionAnimation](compositionanimation.md). Different [CompositionAnimation](compositionanimation.md)s can be added to the group and can be used in [ImplicitAnimationCollection](implicitanimationcollection.md) or start the group using Visual.StartAnimationGroup(CompositionAnimationGroup).
+CompositionAnimationGroup is a list of [CompositionAnimation](compositionanimation.md). Different [CompositionAnimation](compositionanimation.md)s can be added to the group and can be used in [ImplicitAnimationCollection](implicitanimationcollection.md) or start the group using Visual.StartAnimationGroup(CompositionAnimationGroup).
 
-All the [CompositionAnimation](compositionanimation.md)s in [CompositionAnimationGroup](compositionanimationgroup.md) should have target property assigned as part of animation template.
+All the [CompositionAnimation](compositionanimation.md)s in CompositionAnimationGroup should have target property assigned as part of animation template.
 
-If [CompositionAnimationGroup](compositionanimationgroup.md) is changed while iterating the animations in the group, an InvalidOperationException will be thrown.
+If CompositionAnimationGroup is changed while iterating the animations in the group, an InvalidOperationException will be thrown.
 
 Use the [CompostionObject.StartAnimationGroup](compositionobject_startanimationgroup_696523374.md) and [CompostionObject.StopAnimationGroup](compositionobject_stopanimationgroup_293483380.md) methods to start and stop the animation group.
 

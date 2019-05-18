@@ -11,7 +11,7 @@ public Windows.UI.Xaml.DependencyObject ContainerFromIndex(System.Int32 index)
 
 ## -description
 > [!NOTE]
-> [ContainerFromIndex](itemcontainergenerator_containerfromindex_1393457780.md) may be altered or unavailable for releases after Windows 8.1. Instead, use [ItemsControl.ContainerFromIndex](itemscontrol_containerfromindex_1393457780.md).
+> ContainerFromIndex may be altered or unavailable for releases after Windows 8.1. Instead, use [ItemsControl.ContainerFromIndex](itemscontrol_containerfromindex_1393457780.md).
 
 Returns the container for the item at the specified index within the [ItemCollection](itemcollection.md).
 

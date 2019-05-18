@@ -13,7 +13,13 @@ public class ProtocolForResultsActivatedEventArgs : Windows.ApplicationModel.Act
 Received by an application when it is launched by another application with the expectation that it will return results back to the caller.
 
 ## -remarks
-You access a [ProtocolForResultsActivatedEventArgs](protocolforresultsactivatedeventargs.md) object when you implement an event handler that responds to [Activated](../windows.applicationmodel.core/coreapplicationview_activated.md) events when [ActivationKind](activationkind.md) is **ProtocolForResults**.
+You access a ProtocolForResultsActivatedEventArgs object when you implement an event handler that responds to [Activated](../windows.applicationmodel.core/coreapplicationview_activated.md) events when [ActivationKind](activationkind.md) is **ProtocolForResults**.
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | User |
 
 ## -examples
 

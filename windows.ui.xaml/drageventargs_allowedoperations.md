@@ -18,9 +18,9 @@ The allowed data operations.
 ## -remarks
 For more info about the allowed data operations, see [DataPackageOperation](../windows.applicationmodel.datatransfer/datapackageoperation.md).
 
-This value is set in the [DragStarting](uielement_dragstarting.md) event handler. See the [DragStartingEventArgs.AllowedOperations](drageventargs_allowedoperations.md) property.
+This value is set in the [DragStarting](uielement_dragstarting.md) event handler. See the DragStartingEventArgs.AllowedOperations property.
 
 ## -examples
 
 ## -see-also
-[DragStarting](uielement_dragstarting.md), [DragStartingEventArgs.AllowedOperations](drageventargs_allowedoperations.md), [CoreDragOperation.AllowedOperations](../windows.applicationmodel.datatransfer.dragdrop.core/coredragoperation_allowedoperations.md)
+[DragStarting](uielement_dragstarting.md), DragStartingEventArgs.AllowedOperations, [CoreDragOperation.AllowedOperations](../windows.applicationmodel.datatransfer.dragdrop.core/coredragoperation_allowedoperations.md)

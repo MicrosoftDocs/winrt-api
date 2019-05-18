@@ -14,6 +14,11 @@ Provides information about the app capture feature.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1709 | 16299 | SetAllowedAsync |
 
 ## -examples
 

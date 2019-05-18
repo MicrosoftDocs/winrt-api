@@ -16,7 +16,7 @@ Gets the UDP port number of the remote sender of the datagram received on the [D
 The UDP port number of the remote network destination when a message is received on a [DatagramSocket](datagramsocket.md).
 
 ## -remarks
-The [DatagramSocketMessageReceivedEventArgs.RemotePort](datagramsocketmessagereceivedeventargs_remoteport.md) property gets the UDP port number of the remote sender when a datagram was received on a [DatagramSocket](datagramsocket.md). A message received event can only occur after a successful connect or bind operation on the [DatagramSocket](datagramsocket.md).
+The DatagramSocketMessageReceivedEventArgs.RemotePort property gets the UDP port number of the remote sender when a datagram was received on a [DatagramSocket](datagramsocket.md). A message received event can only occur after a successful connect or bind operation on the [DatagramSocket](datagramsocket.md).
 
 ## -examples
 

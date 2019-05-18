@@ -25,6 +25,13 @@ To get started accessing files and folders file picker, see [Files, folders, and
 > [!WARNING]
 > If you try to show the file picker while your app is snapped the file picker will not be shown and an exception will be thrown. You can avoid this by making sure your app is not snapped or by unsnapping it before you call the file picker. The following code examples and the [File picker sample](https://go.microsoft.com/fwlink/p/?linkid=234890) show you how.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1903 | 18362 | CreateForUser |
+| 1903 | 18362 | User |
+
 ## -examples
 
 The [File picker sample](https://go.microsoft.com/fwlink/p/?linkid=234890) demonstrates how to check whether the app is snapped, how to set file picker properties, and how to show a file picker so that the user can save a file.

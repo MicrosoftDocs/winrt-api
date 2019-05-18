@@ -15,6 +15,13 @@ Represents a controller of any type that can be used for UI navigation. Most gam
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | FromGameController |
+| 1703 | 15063 | TryGetBatteryReport |
+
 ## -examples
 
 ## -see-also

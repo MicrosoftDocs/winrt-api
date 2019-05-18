@@ -17,6 +17,23 @@ A **MediaPlaybackItem** can be passed directly to a player such as [MediaPlayer]
 
 For how-to guidance for working with media items, see [Media items, playlists, and tracks](https://msdn.microsoft.com/windows/uwp/audio-video-camera/media-playback-with-mediasource).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1511 | 10586 | FindFromMediaSource |
+| 1607 | 14393 | MediaPlaybackItem(MediaSource,TimeSpan) |
+| 1607 | 14393 | MediaPlaybackItem(MediaSource,TimeSpan,TimeSpan) |
+| 1607 | 14393 | ApplyDisplayProperties |
+| 1607 | 14393 | BreakSchedule |
+| 1607 | 14393 | CanSkip |
+| 1607 | 14393 | DurationLimit |
+| 1607 | 14393 | GetDisplayProperties |
+| 1607 | 14393 | StartTime |
+| 1703 | 15063 | AutoLoadedDisplayProperties |
+| 1703 | 15063 | IsDisabledInPlaybackList |
+| 1703 | 15063 | TotalDownloadProgress |
+
 ## -examples
 
 ## -see-also

@@ -15,6 +15,13 @@ Represents an application on a remote system.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1903 | 18362 | ConnectionToken |
+| 1903 | 18362 | User |
+
 ## -see-also
 
 ## -examples

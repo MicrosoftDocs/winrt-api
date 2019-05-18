@@ -18,6 +18,13 @@ Defines methods and properties you can use to get license and listing info about
 ## -remarks
 This object obtains its data from the Microsoft Store, so you must have a developer account and the app must be published in the Microsoft Store. Before submitting to the Microsoft Store, you can test your code with a simulated version of this class (whose state is initialized from an XML file). See [CurrentAppSimulator](currentappsimulator.md).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1511 | 10586 | GetCustomerCollectionsIdAsync |
+| 1511 | 10586 | GetCustomerPurchaseIdAsync |
+
 ## -examples
 
 ## -see-also

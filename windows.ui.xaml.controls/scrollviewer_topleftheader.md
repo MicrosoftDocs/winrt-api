@@ -28,7 +28,7 @@ Gets or sets the content of the top, left header.
 The content of the top, left header.
 
 ## -remarks
-The [LeftHeader](scrollviewer_leftheader.md), [TopHeader](scrollviewer_topheader.md), and [TopLeftHeader](scrollviewer_topleftheader.md) properties can be set only when [ScrollViewer](scrollviewer.md) content's [HorizontalAlignment](../windows.ui.xaml/frameworkelement_horizontalalignment.md) is **Left** and [VerticalAlignment](../windows.ui.xaml/frameworkelement_verticalalignment.md) is **Top**.
+The [LeftHeader](scrollviewer_leftheader.md), [TopHeader](scrollviewer_topheader.md), and TopLeftHeader properties can be set only when [ScrollViewer](scrollviewer.md) content's [HorizontalAlignment](../windows.ui.xaml/frameworkelement_horizontalalignment.md) is **Left** and [VerticalAlignment](../windows.ui.xaml/frameworkelement_verticalalignment.md) is **Top**.
 
 The top left header doesn't scroll in any direction.
 

@@ -26,6 +26,13 @@ CompositionPropertySet does not support a delete function – ensure you use Com
 > [!NOTE]
 > Inserting a new value into a CompositionPropertySet for a key that already exists with overwrite the old value with the new one.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | InsertBoolean |
+| 1607 | 14393 | TryGetBoolean |
+
 ## -examples
 
 

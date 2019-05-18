@@ -13,7 +13,7 @@ public class MediaDeviceControl : Windows.Media.Devices.IMediaDeviceControl
 Gets or sets a device setting on a camera.
 
 ## -remarks
-Various properties on the [VideoDeviceController](videodevicecontroller.md) object returns instances of the [MediaDeviceControl](mediadevicecontrol.md) object. Each [VideoDeviceController](videodevicecontroller.md) property represents a particular setting on the camera, such as brightness or focus. Use the [MediaDeviceControl](mediadevicecontrol.md) object to: 
+Various properties on the [VideoDeviceController](videodevicecontroller.md) object returns instances of the MediaDeviceControl object. Each [VideoDeviceController](videodevicecontroller.md) property represents a particular setting on the camera, such as brightness or focus. Use the MediaDeviceControl object to: 
 + Get or set the camera setting.
 + Enable automatic adjustment of the setting.
 + Get the range of values that the camera supports for the setting.

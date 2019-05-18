@@ -29,7 +29,7 @@ The mouse or pen/stylus contact is lifted and inertia has concluded.
 
 
 > [!NOTE]
-> There is no correlation between **Dragging** in [CrossSlidingState](crossslidingstate.md) (touch) and [DraggingState](draggingstate.md) (mouse or pen/stylus).
+> There is no correlation between **Dragging** in [CrossSlidingState](crossslidingstate.md) (touch) and DraggingState (mouse or pen/stylus).
 
 ## -examples
 

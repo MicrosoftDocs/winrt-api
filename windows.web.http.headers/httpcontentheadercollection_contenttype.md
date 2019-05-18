@@ -16,11 +16,11 @@ Gets or sets the [HttpMediaTypeHeaderValue](httpmediatypeheadervalue.md) object 
 The object that represent the value of an HTTP **Content-Type** header on the HTTP content. A **null** value means that the header is absent.
 
 ## -remarks
-The [ContentType](httpcontentheadercollection_contenttype.md) property represents the **Content-Type** header value on HTTP content. The **Content-Type** header is the MIME type of the content.
+The ContentType property represents the **Content-Type** header value on HTTP content. The **Content-Type** header is the MIME type of the content.
 
 
 
-The following sample code shows a method to get or set the **Content-Type** header value on HTTP content using the [ContentType](httpcontentheadercollection_contenttype.md) property on the [HttpContentHeaderCollection](httpcontentheadercollection.md) object.
+The following sample code shows a method to get or set the **Content-Type** header value on HTTP content using the ContentType property on the [HttpContentHeaderCollection](httpcontentheadercollection.md) object.
 
 ```csharp
     // Content-Type header

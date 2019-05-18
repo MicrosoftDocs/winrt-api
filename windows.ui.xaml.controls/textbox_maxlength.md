@@ -22,7 +22,7 @@ Gets or sets the value that specifies the maximum number of characters allowed f
 The maximum number of characters allowed for user input. The default is 0 (no limit).
 
 ## -remarks
-A [MaxLength](textbox_maxlength.md) value of 0 specifies that there is no limit on the number of characters allowed for user input.
+A MaxLength value of 0 specifies that there is no limit on the number of characters allowed for user input.
 
 ## -examples
 

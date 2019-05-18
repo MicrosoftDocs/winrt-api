@@ -34,7 +34,7 @@ Gets or sets the content for the control's header.
 The content of the control's header. The default is **null**.
 
 ## -remarks
-You can set a data template for the [Header](richeditbox_header.md) by using the [HeaderTemplate](richeditbox_headertemplate.md) property.
+You can set a data template for the Header by using the [HeaderTemplate](richeditbox_headertemplate.md) property.
 
 ## -examples
 

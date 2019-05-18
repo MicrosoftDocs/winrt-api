@@ -16,7 +16,7 @@ The credential to use to authenticate to the proxy server through HTTP header au
 The credential to use to authenticate to the proxy server through HTTP header authentication.
 
 ## -remarks
-The [ProxyCredential](messagewebsocketcontrol_proxycredential.md) property must be set before calling the [ConnectAsync](messagewebsocket_connectasync_682685111.md) method on the [MessageWebSocket](messagewebsocket.md) object. An attempt to set the [ProxyCredential](messagewebsocketcontrol_proxycredential.md) property after calling the [ConnectAsync](messagewebsocket_connectasync_682685111.md) method will result in an error.
+The ProxyCredential property must be set before calling the [ConnectAsync](messagewebsocket_connectasync_682685111.md) method on the [MessageWebSocket](messagewebsocket.md) object. An attempt to set the ProxyCredential property after calling the [ConnectAsync](messagewebsocket_connectasync_682685111.md) method will result in an error.
 
 ## -examples
 

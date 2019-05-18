@@ -38,6 +38,12 @@ The incoming call was dismissed. Currently limited to first party use only.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1903 | 18362 | IncomingCallDismissed |
+
 ## -examples
 
 ## -see-also

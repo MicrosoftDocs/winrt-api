@@ -11,7 +11,7 @@ public enum Windows.Security.ExchangeActiveSyncProvisioning.EasPasswordHistoryRe
 
 ## -description
 > [!NOTE]
-> [EasPasswordHistoryResult](easpasswordhistoryresult.md) may be unavailable for releases after Windows 10.
+> EasPasswordHistoryResult may be unavailable for releases after Windows 10.
 
 Represents the password history. These values are mapped against the HRESULT codes returned from the EAS policy engine.
 

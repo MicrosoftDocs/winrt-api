@@ -29,7 +29,7 @@ You can modify the default [Style](../windows.ui.xaml/style.md) and [ControlTemp
 
 Starting in Windows 10, version 1607 (SDK 14393), generic.xaml includes resources that you can use to modify the colors of a control in different visual states without modifying the control template. In apps that target this software development kit (SDK) or later, modifying these resources is preferred to setting properties such as [Background](control_background.md) and [Foreground](control_foreground.md). For more info, see the [Light-weight styling](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) section of the [Styling controls](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) article.
 
-This table shows the resources used by the [MenuFlyoutSubItem](menuflyoutsubitem.md) control.
+This table shows the resources used by the MenuFlyoutSubItem control.
 
 <table>
    <tr><th>Resource key</th><th>Description</th></tr>
@@ -47,6 +47,12 @@ This table shows the resources used by the [MenuFlyoutSubItem](menuflyoutsubitem
    <tr><td>MenuFlyoutSubItemChevronDisabled</td><td>Chevron color when disabled</td></tr>
    <tr><td>MenuFlyoutSubItemChevronSubMenuOpened</td><td>Chevron color when opened</td></tr>
 </table>
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | Icon |
 
 ## -examples
 

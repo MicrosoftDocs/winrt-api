@@ -22,7 +22,7 @@ Provides the animated transition behavior for a panel UI transition.
 ### **PaneThemeTransition** versus **EdgeUIThemeTransition**
 
 + Use edge UI animations ([EdgeUIThemeTransition](edgeuithemetransition.md)) to show or hide a custom message or error bar that does not extend far into the screen.
-+ Use panel animations ([PaneThemeTransition](panethemetransition.md)) to show UI that slides a significant distance into the screen, such as a task pane or a custom soft keyboard.
++ Use panel animations (PaneThemeTransition) to show UI that slides a significant distance into the screen, such as a task pane or a custom soft keyboard.
 
 
 ## -examples

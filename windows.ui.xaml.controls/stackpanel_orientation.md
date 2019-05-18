@@ -25,7 +25,7 @@ One of the enumeration values that specifies the orientation of child elements. 
 ## -remarks
 
 ## -examples
-The following example creates a horizontal list of items by setting the [Orientation](stackpanel_orientation.md) property to **Horizontal**.
+The following example creates a horizontal list of items by setting the Orientation property to **Horizontal**.
 
 [!code-xml[LayoutOvwStackPanel_2](../windows.ui.xaml/code/layout_ovw_all/CSharp/MainPage.xaml#SnippetLayoutOvwStackPanel_2)]
 

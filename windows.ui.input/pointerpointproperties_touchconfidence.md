@@ -16,7 +16,7 @@ Gets a value that indicates whether the pointer device rejected the touch contac
 True if the touch contact was accepted; otherwise false.
 
 ## -remarks
-A device rejects accidental touches and reports this information through the Human Interface Device (HID) confidence usage (see note above). [TouchConfidence](pointerpointproperties_touchconfidence.md) is set through the value of this usage.
+A device rejects accidental touches and reports this information through the Human Interface Device (HID) confidence usage (see note above). TouchConfidence is set through the value of this usage.
 
 The confidence usage helps improve the accuracy and reliability of accidental touch rejection. (In addition to confidence, additional heuristics are applied to the touch input stream to improve the accuracy of accidental touch rejection.)
 

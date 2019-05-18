@@ -26,10 +26,10 @@ This event occurs only when text is composed through an [Input Method Editor (IM
 + [TextChanging](textbox_textchanging.md)
 + [TextChanged](textbox_textchanged.md)
 + [TextCompositionChanged](textbox_textcompositionchanged.md)
-+ [TextCompositionEnded](textbox_textcompositionended.md)
++ TextCompositionEnded
 
 
-After the [TextCompositionStarted](textbox_textcompositionstarted.md) event, the [TextChanging](textbox_textchanging.md) &gt; [TextChanged](textbox_textchanged.md) &gt; [TextCompositionChanged](textbox_textcompositionchanged.md) event cycle can occur multiple times before the [TextCompositionEnded](textbox_textcompositionended.md) event occurs.
+After the [TextCompositionStarted](textbox_textcompositionstarted.md) event, the [TextChanging](textbox_textchanging.md) &gt; [TextChanged](textbox_textchanged.md) &gt; [TextCompositionChanged](textbox_textcompositionchanged.md) event cycle can occur multiple times before the TextCompositionEnded event occurs.
 
 
 

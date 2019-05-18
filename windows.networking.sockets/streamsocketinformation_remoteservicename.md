@@ -16,9 +16,9 @@ Get the service name or TCP port number of the remote network destination associ
 The service name or TCP port number of the remote network destination.
 
 ## -remarks
-The [RemoteServiceName](streamsocketinformation_remoteservicename.md) property represents the remote service name or TCP port number for the remote network destination associated with a [StreamSocket](streamsocket.md) object. The remote service name or TCP port that a [StreamSocket](streamsocket.md) object connects to is passed in the *remoteServiceName* parameter to the [ConnectAsync](streamsocket_connectasync_13692504.md) method on the [StreamSocket](streamsocket.md).
+The RemoteServiceName property represents the remote service name or TCP port number for the remote network destination associated with a [StreamSocket](streamsocket.md) object. The remote service name or TCP port that a [StreamSocket](streamsocket.md) object connects to is passed in the *remoteServiceName* parameter to the [ConnectAsync](streamsocket_connectasync_13692504.md) method on the [StreamSocket](streamsocket.md).
 
-The [RemoteServiceName](streamsocketinformation_remoteservicename.md) property can be one of the following:
+The RemoteServiceName property can be one of the following:
 
 
 + A numeric literal for a TCP port number (80 for the TCP port typically used for the HTTP protocol, for example).

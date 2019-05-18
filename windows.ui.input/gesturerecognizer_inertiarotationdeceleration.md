@@ -16,7 +16,7 @@ Gets or sets a value that indicates the rate of deceleration from the start of i
 The rate of deceleration, in degrees/ms<sup>2</sup>.
 
 ## -remarks
-If [InertiaRotationAngle](gesturerecognizer_inertiarotationangle.md) is assigned a value, [InertiaRotationDeceleration](gesturerecognizer_inertiarotationdeceleration.md) is ignored.
+If [InertiaRotationAngle](gesturerecognizer_inertiarotationangle.md) is assigned a value, InertiaRotationDeceleration is ignored.
 
 ## -examples
 

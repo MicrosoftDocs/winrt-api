@@ -18,6 +18,13 @@ An animation is associated with an object's property by calling [CompositionObje
 
 A KeyFrameAnimation does not stop automatically when an app's process is suspended. You must subscribe to app state events and stop or pause your animations before the app is suspended. For more info about app suspension, see [App lifecycle](/windows/uwp/launch-resume/app-lifecycle).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | Direction |
+| 1703 | 15063 | DelayBehavior |
+
 ## -examples
 
 ## -see-also

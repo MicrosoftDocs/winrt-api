@@ -23,7 +23,7 @@ Defines the PIN manager for a given mobile broadband modem and SIM Card.
 ## -remarks
 The usage and content of a Universal Integrated Circuit Card (UICC), normally called a SIM Card, can be protected by use of a code called the Personal Identification Number (PIN).
 
-A [MobileBroadbandPinManager](mobilebroadbandpinmanager.md) object is returned by the [PinManager](mobilebroadbanddeviceinformation_pinmanager.md) property on the [MobileBroadbandDeviceInformation](mobilebroadbanddeviceinformation.md).
+A MobileBroadbandPinManager object is returned by the [PinManager](mobilebroadbanddeviceinformation_pinmanager.md) property on the [MobileBroadbandDeviceInformation](mobilebroadbanddeviceinformation.md).
 
 ## -examples
 

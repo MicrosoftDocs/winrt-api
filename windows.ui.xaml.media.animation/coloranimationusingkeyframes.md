@@ -23,7 +23,7 @@ Animates the value of a [Color](../windows.ui/color.md) property along a set of 
 ## -remarks
 
 ## -examples
-The following example uses the [ColorAnimationUsingKeyFrames](coloranimationusingkeyframes.md) class to animate the [Background](../windows.ui.xaml.controls/panel_background.md) property of a [StackPanel](../windows.ui.xaml.controls/stackpanel.md). This animation uses three key frames in the following manner:
+The following example uses the ColorAnimationUsingKeyFrames class to animate the [Background](../windows.ui.xaml.controls/panel_background.md) property of a [StackPanel](../windows.ui.xaml.controls/stackpanel.md). This animation uses three key frames in the following manner:
 
 
 1. During the first two seconds, [LinearColorKeyFrame](linearcolorkeyframe.md) gradually changes the color from green to red. Linear key frames like [LinearColorKeyFrame](linearcolorkeyframe.md) create a smooth linear transition between values.

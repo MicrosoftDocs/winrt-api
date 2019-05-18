@@ -16,7 +16,7 @@ Gets the value that was passed to the *tag* parameter of the [AppendResultSugges
 The tag, or **null** if the search suggestion is not a **Result**.
 
 ## -remarks
-The [Tag](searchsuggestion_tag.md) property is an opaque value that the app uses to identify the result suggestions that it has added when the user selects a suggestion in the UI.
+The Tag property is an opaque value that the app uses to identify the result suggestions that it has added when the user selects a suggestion in the UI.
 
 ## -examples
 

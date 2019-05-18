@@ -10,7 +10,7 @@ public string Name { get; }
 # Windows.UI.Xaml.Documents.TextElement.Name
 
 ## -description
-Gets or sets a unique identification for the object. [Name](textelement_name.md) can only be set from initial parsing of XAML.
+Gets or sets a unique identification for the object. Name can only be set from initial parsing of XAML.
 
 ## -xaml-syntax
 ```xaml

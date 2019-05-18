@@ -11,7 +11,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Foundation.Collections.IVector
 
 ## -description
 > [!NOTE]
-> [GetCurrentUploadsAsync(group)](backgrounduploader_getcurrentuploadsasync_705160825.md) may be altered or unavailable for releases after Windows 8.1. Instead, use [GetCurrentUploadsForTransferGroupAsync](backgrounduploader_getcurrentuploadsfortransfergroupasync_467871446.md).
+> GetCurrentUploadsAsync(group) may be altered or unavailable for releases after Windows 8.1. Instead, use [GetCurrentUploadsForTransferGroupAsync](backgrounduploader_getcurrentuploadsfortransfergroupasync_467871446.md).
 
 Returns a collection of pending uploads for a specific [Group](backgrounddownloader_group.md).
 

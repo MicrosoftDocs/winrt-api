@@ -16,7 +16,7 @@ Gets the map packages returned by a call to the [FindPackagesAsync](offlinemappa
 The map packages returned by a call to the [FindPackagesAsync](offlinemappackage_findpackagesasync_1312242741.md), [FindPackagesInBoundingBoxAsync](offlinemappackage_findpackagesinboundingboxasync_121221617.md), and [FindPackagesInGeocircleAsync](offlinemappackage_findpackagesingeocircleasync_917543629.md) methods.
 
 ## -remarks
-Before using the [Packages](offlinemappackagequeryresult_packages.md) property, use the [Status](offlinemappackagequeryresult_status.md) to determine if the query is successful.
+Before using the Packages property, use the [Status](offlinemappackagequeryresult_status.md) to determine if the query is successful.
 ## -see-also
 
 ## -examples

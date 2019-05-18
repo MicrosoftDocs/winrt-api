@@ -30,7 +30,7 @@ Using input injection requires the following be added to the Package.appxmanifes
 
 ### Reference
 
-[InjectedInputGamepadInfo(GamepadReading reading)](injectedinputgamepadinfo_injectedinputgamepadinfo_1221375020.md)
+[InjectedInputGamepadInfo(GamepadReading reading)
 
 ### Conceptual
 

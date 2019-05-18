@@ -24,6 +24,12 @@ The phone call supports audio and realtime text.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | AudioAndRealTimeText |
+
 ## -examples
 
 ## -see-also

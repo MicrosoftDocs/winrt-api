@@ -10,10 +10,10 @@ public class OptionalReferencePhotoCapturedEventArgs : Windows.Media.Capture.IOp
 # Windows.Media.Capture.OptionalReferencePhotoCapturedEventArgs
 
 ## -description
-Provides data for the [AdvancedPhotoCapture.OptionalReferencePhotoCaptured](optionalreferencephotocapturedeventargs.md) event.
+Provides data for the AdvancedPhotoCapture.OptionalReferencePhotoCaptured event.
 
 ## -remarks
-Get an instance of this class by handling the [AdvancedPhotoCapture.OptionalReferencePhotoCaptured](optionalreferencephotocapturedeventargs.md) event.
+Get an instance of this class by handling the AdvancedPhotoCapture.OptionalReferencePhotoCaptured event.
 
 Some devices support returning a reference photo from the capture operation that can be consumed by the calling app before all image frames for the operation have been captured or processed. On devices that do not support returning a reference photo, this event is never raised.
 

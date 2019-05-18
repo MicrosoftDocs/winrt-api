@@ -16,7 +16,7 @@ Start advertising a Bluetooth LE advertisement payload.
 ## -remarks
 The status of the [BluetoothLEAdvertisementPublisher](bluetoothleadvertisementpublisher.md) will transition to **Started** or **Waiting** depending on whether the advertisement can be serviced or to the **Aborted** state if the request failed immediately due to error.
 
-If the [Start](bluetoothleadvertisementpublisher_start_1587696324.md) method is called in the **Stopping** state, the request will be pended and the state will remain in the **Stopping** state until the request completes, at which time a new request will be sent and the state will transition into **Started**.
+If the Start method is called in the **Stopping** state, the request will be pended and the state will remain in the **Stopping** state until the request completes, at which time a new request will be sent and the state will transition into **Started**.
 
 The [BluetoothLEAdvertisementPublisher](bluetoothleadvertisementpublisher.md) will be automatically stopped when an app is suspended.
 

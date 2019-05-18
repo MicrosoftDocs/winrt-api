@@ -22,6 +22,12 @@ Through the sensors on a device like HoloLens, Windows generates 3D triangle mes
 
 You access these surfaces by expressing interest in a volume of space, either a bounding box, bounding frustum, or bounding sphere. Windows updates you to let you know when the set of surfaces in that observed volume has changed, with each surface volume identified by an id and the time of its last update. By reasoning about changes to this set of observed surface metadata, you can detect new mesh, updated mesh, and removed mesh over time.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | IsSupported |
+
 ## -examples
 
 ## -see-also

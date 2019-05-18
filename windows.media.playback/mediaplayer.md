@@ -40,6 +40,39 @@ The following SDK samples demonstrate the media playback features available to U
 * [Background media playback sample](https://github.com/Microsoft/Windows-universal-samples/tree/dev/Samples/BackgroundMediaPlayback)
 * [Video playback synchronization sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/VideoPlaybackSynchronization)
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1511 | 10586 | AddAudioEffect |
+| 1511 | 10586 | RemoveAllEffects |
+| 1607 | 14393 | AddVideoEffect |
+| 1607 | 14393 | AudioBalance |
+| 1607 | 14393 | AudioDevice |
+| 1607 | 14393 | BreakManager |
+| 1607 | 14393 | CommandManager |
+| 1607 | 14393 | GetAsCastingSource |
+| 1607 | 14393 | GetSurface |
+| 1607 | 14393 | IsMutedChanged |
+| 1607 | 14393 | PlaybackSession |
+| 1607 | 14393 | RealTimePlayback |
+| 1607 | 14393 | SetSurfaceSize |
+| 1607 | 14393 | SourceChanged |
+| 1607 | 14393 | StepBackwardOneFrame |
+| 1607 | 14393 | StepForwardOneFrame |
+| 1607 | 14393 | StereoscopicVideoRenderMode |
+| 1607 | 14393 | TimelineController |
+| 1607 | 14393 | TimelineControllerPositionOffset |
+| 1703 | 15063 | CopyFrameToStereoscopicVideoSurfaces |
+| 1703 | 15063 | CopyFrameToVideoSurface(IDirect3DSurface) |
+| 1703 | 15063 | CopyFrameToVideoSurface(IDirect3DSurface,Rect) |
+| 1703 | 15063 | IsVideoFrameServerEnabled |
+| 1703 | 15063 | VideoFrameAvailable |
+| 1709 | 16299 | RenderSubtitlesToSurface(IDirect3DSurface) |
+| 1709 | 16299 | RenderSubtitlesToSurface(IDirect3DSurface,Rect) |
+| 1709 | 16299 | SubtitleFrameChanged |
+| 1803 | 17134 | AudioStateMonitor |
+
 ## -examples
 
 ## -see-also

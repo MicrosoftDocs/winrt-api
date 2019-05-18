@@ -16,6 +16,12 @@ Reverse-converts a Japanese string which is mix of phonetic and ideographic char
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | GetPhonemesAsync |
+
 ## -examples
 
 ## -see-also

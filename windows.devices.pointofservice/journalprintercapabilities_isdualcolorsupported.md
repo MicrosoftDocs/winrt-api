@@ -21,4 +21,4 @@ True if the journal printer station can print a dark color plus an alternate col
 ## -examples
 
 ## -see-also
-[ICommonPosPrintStationCapabilities.IsDualColorSupported](journalprintercapabilities_isdualcolorsupported.md)
+ICommonPosPrintStationCapabilities.IsDualColorSupported

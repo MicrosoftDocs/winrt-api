@@ -16,7 +16,7 @@ Gets or sets a value for a server behavior used in the **Expect** HTTP header.
 A value for a server behavior used in the **Expect** HTTP header.
 
 ## -remarks
-A given server behavior might not require a value and the [Value](httpexpectationheadervalue_value.md) property would be an empty string. For example, **100-continue** is never used with a value.
+A given server behavior might not require a value and the Value property would be an empty string. For example, **100-continue** is never used with a value.
 
 ## -examples
 

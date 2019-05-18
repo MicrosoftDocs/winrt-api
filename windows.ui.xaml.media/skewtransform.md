@@ -21,7 +21,7 @@ Represents a two-dimensional skew.
 ## -remarks
 
 ## -examples
-This example uses a [SkewTransform](skewtransform.md) to skew text. A *skew*, also known as a *shear*, is a transformation that stretches the coordinate space in a non-uniform manner. In this example, the two text strings are skewed -30 degrees and 30 degrees along the x-coordinate.
+This example uses a SkewTransform to skew text. A *skew*, also known as a *shear*, is a transformation that stretches the coordinate space in a non-uniform manner. In this example, the two text strings are skewed -30 degrees and 30 degrees along the x-coordinate.
 
 
 

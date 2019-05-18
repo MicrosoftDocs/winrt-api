@@ -16,14 +16,14 @@ Gets a collection of [StateTriggerBase](statetriggerbase.md) objects that indica
 A collection of [StateTriggerBase](statetriggerbase.md) objects. The default is an empty collection.
 
 ## -remarks
-Use this property to create rules in XAML that specify when a particular [VisualState](visualstate.md) is to be applied. You use [StateTriggers](visualstate_statetriggers.md) directly in your XAML markup instead of calling [VisualStateManager.GoToState](visualstatemanager_gotostate_443481648.md) in your code.
+Use this property to create rules in XAML that specify when a particular [VisualState](visualstate.md) is to be applied. You use StateTriggers directly in your XAML markup instead of calling [VisualStateManager.GoToState](visualstatemanager_gotostate_443481648.md) in your code.
 
-You can use the built-in [AdaptiveTrigger](adaptivetrigger.md) to create rules based on window size, which is useful for creating responsive UI. You can also extend [StateTriggerBase](statetriggerbase.md) to create your own custom triggers and use them within the [StateTriggers](visualstate_statetriggers.md) property.
+You can use the built-in [AdaptiveTrigger](adaptivetrigger.md) to create rules based on window size, which is useful for creating responsive UI. You can also extend [StateTriggerBase](statetriggerbase.md) to create your own custom triggers and use them within the StateTriggers property.
 
 For more examples, see the [XAML Responsive Techniques sample](https://go.microsoft.com/fwlink/p/?LinkId=620024&amp;amp;clcid=0x409) and the [State Triggers sample](https://go.microsoft.com/fwlink/p/?LinkId=620025&amp;amp;clcid=0x409).
 
 ## -examples
-This example shows how to use the [StateTriggers](visualstate_statetriggers.md) property with an [AdaptiveTrigger](adaptivetrigger.md) to create a declarative rule in XAML markup based on window size. By default, the [StackPanel](../windows.ui.xaml.controls/stackpanel.md) orientation is **Vertical**. When the window width is &gt;= 720 effective pixels, the [VisualState](visualstate.md) change is triggered, and the [StackPanel](../windows.ui.xaml.controls/stackpanel.md) orientation is changed to **Horizontal**.
+This example shows how to use the StateTriggers property with an [AdaptiveTrigger](adaptivetrigger.md) to create a declarative rule in XAML markup based on window size. By default, the [StackPanel](../windows.ui.xaml.controls/stackpanel.md) orientation is **Vertical**. When the window width is &gt;= 720 effective pixels, the [VisualState](visualstate.md) change is triggered, and the [StackPanel](../windows.ui.xaml.controls/stackpanel.md) orientation is changed to **Horizontal**.
 
 ```xaml
 <Page>

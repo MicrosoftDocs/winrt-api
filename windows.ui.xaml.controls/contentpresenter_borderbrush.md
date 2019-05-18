@@ -40,7 +40,7 @@ Gets or sets a brush that describes the border fill of the content presenter.
 The brush that is used to fill the content presenter's border. The default is **null**, (a null brush) which is evaluated as [Transparent](../windows.ui/colors_transparent.md) for rendering.
 
 ## -remarks
-The [BorderThickness](contentpresenter_borderthickness.md) value must be greater than 0 in order to see the [BorderBrush](contentpresenter_borderbrush.md) value take effect.
+The [BorderThickness](contentpresenter_borderthickness.md) value must be greater than 0 in order to see the BorderBrush value take effect.
 
 ## -examples
 

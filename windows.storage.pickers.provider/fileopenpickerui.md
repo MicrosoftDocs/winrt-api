@@ -18,7 +18,7 @@ Used to interact with the file picker if your app provides files with the File O
 
 If your app participates in the File Open Picker contract, you can retrieve this object using a FileOpenPickerUI property while you handle a [fileOpenPicker](../windows.applicationmodel.activation/activationkind.md) activated event.
 
-Use one of the following properties to access a [FileOpenPickerUI](fileopenpickerui.md):
+Use one of the following properties to access a FileOpenPickerUI:
 
 + > **JavaScript**
 > [Windows.UI.WebUI.webUIFileOpenPickerActivatedEventArgs.fileOpenPickerUI](../windows.ui.webui/webuifileopenpickeractivatedeventargs_fileopenpickerui.md)

@@ -18,9 +18,9 @@ Indicates whether a given qualifier for a given candidate matched the context wh
 ## -remarks
 If a [ResourceQualifier](resourcequalifier.md) is obtained in a scenario that does not involve resolving a named resource for some context, the value is **FALSE**. (For example, when all candidates are enumerated for a named resource and their qualifiers are inspected.)
 
-After resolving a named resource for some context, [IsMatch](resourcequalifier_ismatch.md) is **TRUE** if the qualifier matches the context on a non-default basis (that is, the qualifier value is not designated as the default value for that qualifier). The score is non-zero, and [IsDefault](resourcequalifier_isdefault.md) is **FALSE**.
+After resolving a named resource for some context, IsMatch is **TRUE** if the qualifier matches the context on a non-default basis (that is, the qualifier value is not designated as the default value for that qualifier). The score is non-zero, and [IsDefault](resourcequalifier_isdefault.md) is **FALSE**.
 
-After resolving a named resource for some context, [IsMatch](resourcequalifier_ismatch.md) is **FALSE** if the qualifier does not match the context on a non-default basis. (The qualifier value may or may not be the default value for that qualifier. The score may or may not be zero, according to whether the qualifier is the default value.)
+After resolving a named resource for some context, IsMatch is **FALSE** if the qualifier does not match the context on a non-default basis. (The qualifier value may or may not be the default value for that qualifier. The score may or may not be zero, according to whether the qualifier is the default value.)
 
 ## -examples
 

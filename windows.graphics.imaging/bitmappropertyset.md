@@ -13,11 +13,11 @@ public class BitmapPropertySet : Windows.Foundation.Collections.IIterable<Window
 Represents a property set of [BitmapTypedValue](bitmaptypedvalue.md) objects.
 
 ## -remarks
-[BitmapPropertySet](bitmappropertyset.md) is a map with keys of type String and values of type [BitmapTypedValue](bitmaptypedvalue.md). Each String key is either a Windows property key or native metadata query.
+BitmapPropertySet is a map with keys of type String and values of type [BitmapTypedValue](bitmaptypedvalue.md). Each String key is either a Windows property key or native metadata query.
 
 ### Collection member lists
 
-For JavaScript, [BitmapPropertySet](bitmappropertyset.md) supports using an index to access items.
+For JavaScript, BitmapPropertySet supports using an index to access items.
 
 ## -examples
 

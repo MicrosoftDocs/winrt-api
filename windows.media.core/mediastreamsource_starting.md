@@ -19,7 +19,7 @@ Upon receiving this event, the application must invoke the [SetActualStartPositi
 
 This event cancels any [SampleRequested](mediastreamsource_samplerequested.md) events the application has not delivered the requested [MediaStreamSample](mediastreamsample.md) for. However, application must still invoke the [Complete](mediastreamsourcesamplerequestdeferral_complete_1807836922.md) method on the [MediaStreamSourceSampleRequestDeferral](mediastreamsourcesamplerequestdeferral.md) object for any previous [SampleRequested](mediastreamsource_samplerequested.md) events.
 
-Applications are only required to have a handler for the [Starting](mediastreamsource_starting.md) event if [MediaStreamSource.CanSeek](mediastreamsource_canseek.md) is set to **true** and they support seeking.
+Applications are only required to have a handler for the Starting event if [MediaStreamSource.CanSeek](mediastreamsource_canseek.md) is set to **true** and they support seeking.
 
 ## -examples
 

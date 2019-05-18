@@ -16,7 +16,7 @@ Gets the native orientation of the display monitor, which is typically the orien
 The native orientation of the display monitor.
 
 ## -remarks
-[NativeOrientation](displayinformation_nativeorientation.md) returns only the **Landscape** or **Portrait** value. [NativeOrientation](displayinformation_nativeorientation.md) never returns the **LandscapeFlipped** or **PortraitFlipped** value.
+NativeOrientation returns only the **Landscape** or **Portrait** value. NativeOrientation never returns the **LandscapeFlipped** or **PortraitFlipped** value.
 
 ## -examples
 

@@ -34,7 +34,7 @@ The resize request has no effect and the method returns false in these cases:
 + This method is called while in while the app is running in Tablet Mode.
 
 
-We recommend that you not begin any layout work until the window's [SizeChanged](../windows.ui.core/corewindow_sizechanged.md) event occurs. This avoids two different layout passes (one that happens immediately after [TryResizeView](applicationview_tryresizeview_229045332.md) and then another when the [SizeChanged](../windows.ui.core/corewindow_sizechanged.md) event occurs).
+We recommend that you not begin any layout work until the window's [SizeChanged](../windows.ui.core/corewindow_sizechanged.md) event occurs. This avoids two different layout passes (one that happens immediately after TryResizeView and then another when the [SizeChanged](../windows.ui.core/corewindow_sizechanged.md) event occurs).
 
 ## -examples
 

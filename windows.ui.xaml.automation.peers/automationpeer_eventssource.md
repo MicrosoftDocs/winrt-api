@@ -16,7 +16,7 @@ Gets or sets an [AutomationPeer](automationpeer.md) that is reported to the auto
 The [AutomationPeer](automationpeer.md) that is the source of events.
 
 ## -remarks
-[EventsSource](automationpeer_eventssource.md) is typically set by [AutomationPeer](automationpeer.md) implementations in cases where the automation provider element is a child element of another element that also has a peer, and the best automation experience for clients is to treat the parent as the source for automation events. In such cases, the child element's peer implementation sets [EventsSource](automationpeer_eventssource.md) to return the [AutomationPeer](automationpeer.md) of the parent element.
+EventsSource is typically set by [AutomationPeer](automationpeer.md) implementations in cases where the automation provider element is a child element of another element that also has a peer, and the best automation experience for clients is to treat the parent as the source for automation events. In such cases, the child element's peer implementation sets EventsSource to return the [AutomationPeer](automationpeer.md) of the parent element.
 
 ## -examples
 

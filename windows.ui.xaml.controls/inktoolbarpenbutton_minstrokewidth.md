@@ -12,9 +12,9 @@ public double MinStrokeWidth { get;  set; }
 ## -description
 Gets or sets the minimum possible [Size](../windows.ui.input.inking/inkdrawingattributes_size.md) of an ink stroke.
 
-For ballpoint pen and pencil strokes, [MinStrokeWidth](inktoolbarpenbutton_minstrokewidth.md) specifies both the minimum [Height](../windows.foundation/size.md) and [Width](../windows.foundation/size.md) of a [Rectangle](../windows.ui.input.inking/pentipshape.md) pen tip.
+For ballpoint pen and pencil strokes, MinStrokeWidth specifies both the minimum [Height](../windows.foundation/size.md) and [Width](../windows.foundation/size.md) of a [Rectangle](../windows.ui.input.inking/pentipshape.md) pen tip.
 
-For highlighter strokes, [MinStrokeWidth](inktoolbarpenbutton_minstrokewidth.md) specifies the minimum height of a [Rectangle](../windows.ui.input.inking/pentipshape.md) pen tip, while [MinStrokeWidth](inktoolbarpenbutton_minstrokewidth.md)/3 specifies the minimum width.
+For highlighter strokes, MinStrokeWidth specifies the minimum height of a [Rectangle](../windows.ui.input.inking/pentipshape.md) pen tip, while MinStrokeWidth/3 specifies the minimum width.
 
 Custom pen stroke dimensions can be set as required.
 

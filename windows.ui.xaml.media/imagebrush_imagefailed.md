@@ -27,7 +27,7 @@ If this event fires, that means that the [ImageSource](imagebrush_imagesource.md
 + Unknown file format decoding error after upload
 An [ImageBrush](imagebrush.md) in this situation won't display anything. There is no default "missing image" placeholder image for app images as there might be when a browser can't resolve an image URI. If you want behavior like that you'll have to implement it.
 
-[ImageFailed](imagebrush_imagefailed.md) and [ImageOpened](imagebrush_imageopened.md) are mutually exclusive. One event or the other will always file whenever an [ImageBrush](imagebrush.md) has the [ImageSource](imagebrush_imagesource.md) value set or reset.
+ImageFailed and [ImageOpened](imagebrush_imageopened.md) are mutually exclusive. One event or the other will always file whenever an [ImageBrush](imagebrush.md) has the [ImageSource](imagebrush_imagesource.md) value set or reset.
 
 ## -examples
 

@@ -20,9 +20,9 @@ The encoding profile used for the image.
 When this method completes, a [LowLagPhotoCapture](lowlagphotocapture.md) object is returned which can be used to start the photo capture.
 
 ## -remarks
-Use [PrepareLowLagPhotoCaptureAsync](mediacapture_preparelowlagphotocaptureasync_1426375994.md) to initialize the capture. This is an asynchronous calls which returns a [LowLagPhotoCapture](lowlagphotocapture.md) object when it is finished, which is used to start the actual photo capture by calling [LowLagPhotoCapture.CaptureAsync](lowlagphotocapture_captureasync_2078018041.md).
+Use PrepareLowLagPhotoCaptureAsync to initialize the capture. This is an asynchronous calls which returns a [LowLagPhotoCapture](lowlagphotocapture.md) object when it is finished, which is used to start the actual photo capture by calling [LowLagPhotoCapture.CaptureAsync](lowlagphotocapture_captureasync_2078018041.md).
 
-[PrepareLowLagPhotoCaptureAsync](mediacapture_preparelowlagphotocaptureasync_1426375994.md) must be called before [LowLagPhotoCapture.CaptureAsync](lowlagphotocapture_captureasync_2078018041.md).
+PrepareLowLagPhotoCaptureAsync must be called before [LowLagPhotoCapture.CaptureAsync](lowlagphotocapture_captureasync_2078018041.md).
 
 For how-to guidance on using [LowLagPhotoCapture](lowlagphotocapture.md) to capture a photo, see [Basic photo, video, and audio capture with MediaCapture](https://msdn.microsoft.com/windows/uwp/audio-video-camera/basic-photo-video-and-audio-capture-with-mediacapture).
 

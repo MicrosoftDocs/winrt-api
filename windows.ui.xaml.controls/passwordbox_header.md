@@ -34,7 +34,7 @@ Gets or sets the content for the control's header.
 The content of the control's header. The default is **null**.
 
 ## -remarks
-You can set a data template for the [Header](passwordbox_header.md) value by using the [HeaderTemplate](passwordbox_headertemplate.md) property.
+You can set a data template for the Header value by using the [HeaderTemplate](passwordbox_headertemplate.md) property.
 
 ## -examples
 

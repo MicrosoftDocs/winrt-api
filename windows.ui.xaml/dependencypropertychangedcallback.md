@@ -26,7 +26,7 @@ Because the callback has the *dp* parameter that identifies which property value
 For performance reasons, you don't get an [OldValue](dependencypropertychangedeventargs_oldvalue.md) / [NewValue](dependencypropertychangedeventargs_newvalue.md) property pair from a [PropertyChangedCallback](propertychangedcallback.md) method like you do from [DependencyPropertyChangedEventArgs](dependencypropertychangedeventargs.md). The property value is changed before the callback, so once the method has been invoked, you can call [DependencyObject.GetValue](dependencyobject_getvalue_1188551207.md) to retrieve the new value.
 
 ## -examples
-This example shows how to use a [DependencyPropertyChangedCallback](dependencypropertychangedcallback.md) delegate to listen for changes to the [Tag](frameworkelement_tag.md) property on a [TextBlock](../windows.ui.xaml.controls/textblock.md).
+This example shows how to use a DependencyPropertyChangedCallback delegate to listen for changes to the [Tag](frameworkelement_tag.md) property on a [TextBlock](../windows.ui.xaml.controls/textblock.md).
 
 ```xaml
 <TextBlock x:Name="textBlock1" Text="Hello, world"/>

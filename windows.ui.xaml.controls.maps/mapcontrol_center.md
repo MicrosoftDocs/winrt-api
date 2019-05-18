@@ -16,7 +16,7 @@ Gets or sets the center of the map.
 The center of the map.
 
 ## -remarks
-Since a string can't be converted to a [Geopoint](../windows.devices.geolocation/geopoint.md), you can't specify a value for the [Center](mapcontrol_center.md) property in XAML markup unless you use data binding.
+Since a string can't be converted to a [Geopoint](../windows.devices.geolocation/geopoint.md), you can't specify a value for the Center property in XAML markup unless you use data binding.
 
 ## -examples
 

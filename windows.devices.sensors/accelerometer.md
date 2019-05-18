@@ -37,6 +37,15 @@ The following example shows the [ReadingChanged](accelerometer_readingchanged.md
 
 [!code-csharp[ReadingChangedCS](../windows.devices.sensors/code/Accelerometer/cs/Scenario1.xaml.cs#SnippetReadingChangedCS)]
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | GetDefault(AccelerometerReadingType) |
+| 1607 | 14393 | ReadingType |
+| 1709 | 16299 | FromIdAsync |
+| 1709 | 16299 | GetDeviceSelector |
+
 ## -examples
 
 ## -see-also

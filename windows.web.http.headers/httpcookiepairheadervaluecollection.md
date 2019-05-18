@@ -13,14 +13,14 @@ public class HttpCookiePairHeaderValueCollection : Windows.Foundation.Collection
 Represents the value of the **Cookie** HTTP header on an HTTP request.
 
 ## -remarks
-The [HttpCookiePairHeaderValueCollection](httpcookiepairheadervaluecollection.md) class represents the value of the **Cookie** HTTP header on an HTTP request.
+The HttpCookiePairHeaderValueCollection class represents the value of the **Cookie** HTTP header on an HTTP request.
 
-The [HttpCookiePairHeaderValueCollection](httpcookiepairheadervaluecollection.md) provides a collection container for instances of the [HttpCookiePairHeaderValue](httpcookiepairheadervalue.md) class used for cookie information in the **Cookie** HTTP header.
+The HttpCookiePairHeaderValueCollection provides a collection container for instances of the [HttpCookiePairHeaderValue](httpcookiepairheadervalue.md) class used for cookie information in the **Cookie** HTTP header.
 
-The [Cookie](httprequestheadercollection_cookie.md) property on the [HttpRequestHeaderCollection](httprequestheadercollection.md) returns an [HttpCookiePairHeaderValueCollection](httpcookiepairheadervaluecollection.md) object
+The [Cookie](httprequestheadercollection_cookie.md) property on the [HttpRequestHeaderCollection](httprequestheadercollection.md) returns an HttpCookiePairHeaderValueCollection object
 
 ## -examples
-The following sample code shows a method to get and set the **Cookie** HTTP header on an [HttpRequestMessage](../windows.web.http/httprequestmessage.md) object using the properties and methods on the [HttpCookiePairHeaderValueCollection](httpcookiepairheadervaluecollection.md) and [HttpCookiePairHeaderValue](httpcookiepairheadervalue.md) classes.
+The following sample code shows a method to get and set the **Cookie** HTTP header on an [HttpRequestMessage](../windows.web.http/httprequestmessage.md) object using the properties and methods on the HttpCookiePairHeaderValueCollection and [HttpCookiePairHeaderValue](httpcookiepairheadervalue.md) classes.
 
 ```csharp
 using System;

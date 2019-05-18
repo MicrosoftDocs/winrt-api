@@ -86,7 +86,7 @@ function onTargetFileRequested(e) {
 fileSavePickerUI.addEventListener("targetfilerequested", onTargetFileRequested, false);
 ```
 
-In the example, `e` contains a [TargetFileRequestedEventArgs](targetfilerequestedeventargs.md) object.
+In the example, `e` contains a TargetFileRequestedEventArgs object.
 
 ## -see-also
 [FileSavePickerUI.TargetFileRequested event](filesavepickerui_targetfilerequested.md), [TargetFileRequest class](targetfilerequest.md), [TargetFileRequest.TargetFile  property](targetfilerequest_targetfile.md), [TargetFileRequest.GetDeferral method](targetfilerequest_getdeferral_254836512.md), [TargetFileRequestDeferral class](targetfilerequestdeferral.md), [TargetFileRequestDeferral.Complete method](targetfilerequestdeferral_complete_1807836922.md), [Windows.Storage.StorageFile class](../windows.storage/storagefile.md)

@@ -15,7 +15,7 @@ An unchangeable view into a map of [ResourceQualifier](resourcequalifier.md) obj
 ## -remarks
 ### Collection member lists
 
-For JavaScript, [ResourceQualifierMapView](resourcequalifiermapview.md) supports using an index to access items.
+For JavaScript, ResourceQualifierMapView supports using an index to access items.
 
 ## -examples
 

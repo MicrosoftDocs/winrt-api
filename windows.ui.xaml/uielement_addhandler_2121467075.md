@@ -27,13 +27,13 @@ A reference to the handler implementation.
 Do not routinely ask to rehandle a routed event, because it interferes with the intended design of the Windows Runtime event system for control compositing.
 
 ## -remarks
-Don't try to use [AddHandler](uielement_addhandler_2121467075.md) as a general substitute for the language-specific syntax you normally use for wiring event handlers; it won't work, because not all events have an identifier you can pass as *routedEvent*. [AddHandler](uielement_addhandler_2121467075.md) is specifically for routed events, and intended mainly for the particular scenario enabled by passing *handledEventsToo* as **true**. For more info, see [Events and routed events overview](https://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
+Don't try to use AddHandler as a general substitute for the language-specific syntax you normally use for wiring event handlers; it won't work, because not all events have an identifier you can pass as *routedEvent*. AddHandler is specifically for routed events, and intended mainly for the particular scenario enabled by passing *handledEventsToo* as **true**. For more info, see [Events and routed events overview](https://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
 
 ### Routed event identifiers
 
 The routed event identifier is generally a static property member of [UIElement](uielement.md). For example, to add a handler for the [KeyUp](uielement_keyup.md) event, pass [KeyUpEvent](uielement_keyupevent.md) for this parameter. Only a small number of Windows Runtime events have this identifier; only routed events on [UIElement](uielement.md) have an identifier API available for this usage. These are generally events that are related to input actions at various levels: pointer level, gesture level, manipulation level. Also, the key input events can be handled this way.
 
-Here is a list of routed events that expose a routed event identifier, and thus can be processed by handlers that are registered by an [AddHandler](uielement_addhandler_2121467075.md) call:
+Here is a list of routed events that expose a routed event identifier, and thus can be processed by handlers that are registered by an AddHandler call:
 
 + [DoubleTapped](uielement_doubletapped.md)
 + [DragEnter](uielement_dragenter.md)
@@ -71,7 +71,7 @@ Processing low-level input events in a practical way is a complex task. Many con
 Another technique for avoiding a control's class-handling behavior is to subclass that control and override its **On*** methods, which are pre-configured overrides by which the control marks an event as handled. However, this too can be complex. You may have to reproduce a control's handling implementation without calling the base implementation, because the base implementation would mark the event as handled. For more info, see [Events and routed events overview](https://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
 
 ## -examples
-This example shows the basic syntax for wiring an event handler with [AddHandler](uielement_addhandler_2121467075.md) and *handledEventsToo* as **true**. In this case the event being wired is [Tapped](uielement_tapped.md). The typical place to wire handlers is either [Loaded](frameworkelement_loaded.md) for a page or [OnApplyTemplate](frameworkelement_onapplytemplate_1955470198.md) for a templated control.
+This example shows the basic syntax for wiring an event handler with AddHandler and *handledEventsToo* as **true**. In this case the event being wired is [Tapped](uielement_tapped.md). The typical place to wire handlers is either [Loaded](frameworkelement_loaded.md) for a page or [OnApplyTemplate](frameworkelement_onapplytemplate_1955470198.md) for a templated control.
 
 
 

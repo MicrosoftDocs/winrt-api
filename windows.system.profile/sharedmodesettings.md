@@ -15,6 +15,12 @@ Provides access to the settings for shared mode. For example, devices with large
 ## -remarks
  For more info on when **SharedModeSettings** is used on Desktop, see [Set up a shared or guest PC with Windows 10](https://technet.microsoft.com/itpro/windows/manage/set-up-shared-or-guest-pc).  
  
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | ShouldAvoidLocalStorage |
+
 ## -examples
 
 ## -see-also

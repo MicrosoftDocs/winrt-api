@@ -20,7 +20,7 @@ The object to set tooltip content on.
 The value to set for tooltip content.
 
 ## -remarks
-A [ToolTip](tooltip.md) must be assigned to another UI element that is its owner. In Extensible Application Markup Language (XAML), use the [ToolTipService.Tooltip](tooltipservice_tooltip.md) attached property to assign the [ToolTip](tooltip.md) to an owner. In code, use the [ToolTipService.SetToolTip](tooltipservice_settooltip_1924909593.md) method to assign the [ToolTip](tooltip.md) to an owner.
+A [ToolTip](tooltip.md) must be assigned to another UI element that is its owner. In Extensible Application Markup Language (XAML), use the [ToolTipService.Tooltip](tooltipservice_tooltip.md) attached property to assign the [ToolTip](tooltip.md) to an owner. In code, use the ToolTipService.SetToolTip method to assign the [ToolTip](tooltip.md) to an owner.
 
 See [ToolTipService.ToolTip](tooltipservice_tooltip.md) or [ToolTip](tooltip.md) to learn more about the object content or text that is appropriate to use as tooltip content.
 

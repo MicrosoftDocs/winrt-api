@@ -14,6 +14,12 @@ A class that contains information about a payment request. This class is reflect
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1709 | 16299 | PaymentRequest(PaymentDetails,IEnumerable<PaymentMethodData>,PaymentMerchantInfo,PaymentOptions,String) |
+| 1709 | 16299 | Id |
 
 ## -examples
 

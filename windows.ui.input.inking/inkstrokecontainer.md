@@ -23,6 +23,13 @@ The [StrokesCollected](inkpresenter_strokescollected.md) event is fired when ink
 > [!NOTE]
 > : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | GetStrokeById |
+| 1703 | 15063 | SaveAsync(IOutputStream,InkPersistenceFormat) |
+
 ## -examples
 
 ## -see-also

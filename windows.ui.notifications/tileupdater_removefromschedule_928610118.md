@@ -20,7 +20,7 @@ The notification to remove from the schedule.
 ## -remarks
 
 ## -examples
-The following example shows the use of the [RemoveFromSchedule](tileupdater_removefromschedule_928610118.md) method.
+The following example shows the use of the RemoveFromSchedule method.
 
 ```javascript
 

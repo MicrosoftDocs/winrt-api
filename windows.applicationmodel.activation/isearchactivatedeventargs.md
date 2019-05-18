@@ -15,7 +15,7 @@ Provides information about the activated event that fires when an app is used to
 ## -remarks
 ### Interface inheritance
 
-[ISearchActivatedEventArgs](isearchactivatedeventargs.md) inherits [IActivatedEventArgs](iactivatedeventargs.md). Types that implement [ISearchActivatedEventArgs](isearchactivatedeventargs.md) also implement the interface members of [IActivatedEventArgs](iactivatedeventargs.md).
+ISearchActivatedEventArgs inherits [IActivatedEventArgs](iactivatedeventargs.md). Types that implement ISearchActivatedEventArgs also implement the interface members of [IActivatedEventArgs](iactivatedeventargs.md).
 
 ## -examples
 

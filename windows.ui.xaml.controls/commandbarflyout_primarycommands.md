@@ -35,7 +35,7 @@ The collection of primary command elements for the [CommandBarFlyout](commandbar
 
 ## -remarks
 
-The [PrimaryCommands](commandbarflyout_primarycommands.md) collection can directly contain only [AppBarButton](appbarbutton.md), [AppBarToggleButton](appbartogglebutton.md), [AppBarSeparator](appbarseparator.md) command elements. Other elements must be wrapped in an [AppBarElementContainer](appbarelementcontainer.md).
+The PrimaryCommands collection can directly contain only [AppBarButton](appbarbutton.md), [AppBarToggleButton](appbartogglebutton.md), [AppBarSeparator](appbarseparator.md) command elements. Other elements must be wrapped in an [AppBarElementContainer](appbarelementcontainer.md).
 
 The primary commands are shown in the command bar portion of the flyout.
 

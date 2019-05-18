@@ -14,11 +14,11 @@ public class InfraredTorchControl
 Provides functionality for controlling the infrared torch LED settings on a capture device.
 
 ## -remarks
-The [InfraredTorchControl](infraredtorchcontrol.md) enables apps to control the power and behavior of the Infrared LED. 
+The InfraredTorchControl enables apps to control the power and behavior of the Infrared LED. 
 
 You can find out if a device supports this control by checking [InfraredTorchControl.IsSupported](infraredtorchcontrol_issupported.md).
 
-You can access the [InfraredTorchControl](infraredtorchcontrol.md) for the capture device through [MediaCapture.VideoDeviceController](../windows.media.capture/mediacapture_videodevicecontroller.md).
+You can access the InfraredTorchControl for the capture device through [MediaCapture.VideoDeviceController](../windows.media.capture/mediacapture_videodevicecontroller.md).
 
 ## -see-also
 [MediaCapture.VideoDeviceController](../windows.media.capture/mediacapture_videodevicecontroller.md)

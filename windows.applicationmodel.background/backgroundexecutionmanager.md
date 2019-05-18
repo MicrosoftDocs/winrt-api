@@ -14,6 +14,12 @@ Manage permission to run background tasks.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1803 | 17134 | RequestAccessKindAsync |
+
 ## -examples
 
 ## -see-also

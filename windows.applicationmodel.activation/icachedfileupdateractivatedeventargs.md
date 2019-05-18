@@ -15,7 +15,7 @@ Provides information about the activated event that fires when the user saves a 
 ## -remarks
 ### Interface inheritance
 
-[ICachedFileUpdaterActivatedEventArgs](icachedfileupdateractivatedeventargs.md) inherits [IActivatedEventArgs](iactivatedeventargs.md). Types that implement [ICachedFileUpdaterActivatedEventArgs](icachedfileupdateractivatedeventargs.md) also implement the interface members of [IActivatedEventArgs](iactivatedeventargs.md).
+ICachedFileUpdaterActivatedEventArgs inherits [IActivatedEventArgs](iactivatedeventargs.md). Types that implement ICachedFileUpdaterActivatedEventArgs also implement the interface members of [IActivatedEventArgs](iactivatedeventargs.md).
 
 ## -examples
 

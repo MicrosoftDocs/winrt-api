@@ -14,6 +14,11 @@ MDM (Mobile Device Management) policy.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | GetMessagingSyncPolicy |
 
 ## -examples
 

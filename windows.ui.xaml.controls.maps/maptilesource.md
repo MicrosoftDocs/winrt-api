@@ -13,7 +13,19 @@ public class MapTileSource : Windows.UI.Xaml.DependencyObject, Windows.UI.Xaml.C
 Represents a source of tiles to overlay on the [MapControl](mapcontrol.md).
 
 ## -remarks
-Tiles can also be animated on the [MapControl](mapcontrol.md) using a [MapTileSource](maptilesource.md).
+Tiles can also be animated on the [MapControl](mapcontrol.md) using a MapTileSource.
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1809 | 17763 | AnimationState |
+| 1809 | 17763 | AutoPlay |
+| 1809 | 17763 | FrameCount |
+| 1809 | 17763 | FrameDuration |
+| 1809 | 17763 | Pause |
+| 1809 | 17763 | Play |
+| 1809 | 17763 | Stop |
 
 ## -examples
 
@@ -42,7 +54,7 @@ This example overlays tiles from a fictitious web service on the map.
 
 ```
 
-This other example animates tiles from a fictitious web service on the map. The code creates a [MapTileSource](maptilesource.md) with the [AutoPlay](maptilesource_autoplay.md) property explicitly set to **true**.
+This other example animates tiles from a fictitious web service on the map. The code creates a MapTileSource with the [AutoPlay](maptilesource_autoplay.md) property explicitly set to **true**.
 
 ```cs
 

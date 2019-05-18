@@ -13,7 +13,7 @@ public class MouseWheelParameters : Windows.UI.Input.IMouseWheelParameters
 Provides properties associated with the button wheel of a mouse device.
 
 ## -remarks
-The properties exposed through [MouseWheelParameters](mousewheelparameters.md) are used in conjunction with the **Wheel** settings in the **Mouse** control panel to define the UI experience when using the button wheel.
+The properties exposed through MouseWheelParameters are used in conjunction with the **Wheel** settings in the **Mouse** control panel to define the UI experience when using the button wheel.
 
 The mouse wheel button has discrete, evenly spaced notches or distance thresholds (also called detents). When you rotate or tilt the wheel, a wheel message is sent as each detent is encountered.
 

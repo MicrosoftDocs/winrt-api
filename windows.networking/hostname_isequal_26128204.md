@@ -22,7 +22,7 @@ A Boolean value that indicates whether the specified [HostName](hostname.md) obj
 ## -remarks
 The [Equals](https://msdn.microsoft.com/library/bsc2ak47.aspx) method determines whether the [HostName](hostname.md) object specified by the *hostName* parameter is the same instance of the current [HostName](hostname.md) object.
 
-The [IsEqual](hostname_isequal_26128204.md) method determines whether the [HostName](hostname.md) object specified by the *hostName* parameter has an equivalent value to the current [HostName](hostname.md) object. Two [HostName](hostname.md) objects are considered to have the equivalent value if the [CanonicalName](hostname_canonicalname.md) property has the same value.
+The IsEqual method determines whether the [HostName](hostname.md) object specified by the *hostName* parameter has an equivalent value to the current [HostName](hostname.md) object. Two [HostName](hostname.md) objects are considered to have the equivalent value if the [CanonicalName](hostname_canonicalname.md) property has the same value.
 
 ## -examples
 

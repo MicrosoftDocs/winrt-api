@@ -18,7 +18,7 @@ The value of the HTTP **Content-MD5** header on the HTTP content. A **null** val
 ## -remarks
 
 
-The following sample code shows a method to get or set the **Content-MD5** header value on HTTP content using the [ContentMD5](httpcontentheadercollection_contentmd5.md) property on the [HttpContentHeaderCollection](httpcontentheadercollection.md) object.
+The following sample code shows a method to get or set the **Content-MD5** header value on HTTP content using the ContentMD5 property on the [HttpContentHeaderCollection](httpcontentheadercollection.md) object.
 
 ```csharp
     // Content-MD5 header

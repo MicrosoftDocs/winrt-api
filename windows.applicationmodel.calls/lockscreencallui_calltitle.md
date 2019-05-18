@@ -17,7 +17,7 @@ A brief description of the nature of the call, for example, "Video call with Jan
 
 ## -remarks
 
-An app can use the [CallTitle](lockscreencallui_calltitle.md) property to briefly describe the call. This call description is also called the accessible name and is provided to screen readers to describe your app when it runs on the lock screen. Don't include the name of your app in the accessible name; the operating system automatically includes the name of your app in the accessible name and provides that to the screen reader. The recommended form of the accessible name includes the mode of communication (video or audio) and the name of the other party. Here are some examples:
+An app can use the CallTitle property to briefly describe the call. This call description is also called the accessible name and is provided to screen readers to describe your app when it runs on the lock screen. Don't include the name of your app in the accessible name; the operating system automatically includes the name of your app in the accessible name and provides that to the screen reader. The recommended form of the accessible name includes the mode of communication (video or audio) and the name of the other party. Here are some examples:
 
 + Video call with Jane Doe
 + Audio call with Jane Doe

@@ -15,6 +15,13 @@ Provides event data for the [NavigationView.ItemInvoked](navigationview_iteminvo
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1809 | 17763 | InvokedItemContainer |
+| 1809 | 17763 | RecommendedNavigationTransitionInfo |
+
 ## -see-also
 
 [RoutedEventArgs](../windows.ui.xaml/routedeventargs.md)

@@ -13,11 +13,11 @@ public void Show()
 Opens the Settings flyout, and returns the user to the Settings pane after the flyout is dismissed.
 
 ## -remarks
-If a [SettingsFlyout](settingsflyout.md) is shown by calling the [Show](settingsflyout_show_392493604.md) method, then clicking the Back button reopens the [SettingsPane](../windows.ui.applicationsettings/settingspane.md) after the [SettingsFlyout](settingsflyout.md) dismisses. If a [SettingsFlyout](settingsflyout.md) is shown by calling [ShowIndependent](settingsflyout_showindependent_61271159.md), then clicking the Back button dismisses the [SettingsFlyout](settingsflyout.md) and returns the user to the app; the [SettingsPane](../windows.ui.applicationsettings/settingspane.md) is not reopened.
+If a [SettingsFlyout](settingsflyout.md) is shown by calling the Show method, then clicking the Back button reopens the [SettingsPane](../windows.ui.applicationsettings/settingspane.md) after the [SettingsFlyout](settingsflyout.md) dismisses. If a [SettingsFlyout](settingsflyout.md) is shown by calling [ShowIndependent](settingsflyout_showindependent_61271159.md), then clicking the Back button dismisses the [SettingsFlyout](settingsflyout.md) and returns the user to the app; the [SettingsPane](../windows.ui.applicationsettings/settingspane.md) is not reopened.
 
-Call the [Show](settingsflyout_show_392493604.md) method in your [CommandsRequested](../windows.ui.applicationsettings/settingspane_commandsrequested.md) event handler. This code is invoked when the user opens the [SettingsFlyout](settingsflyout.md) from the [SettingsPane](../windows.ui.applicationsettings/settingspane.md), so you should return the user to the [SettingsPane](../windows.ui.applicationsettings/settingspane.md) when they click the Back button.
+Call the Show method in your [CommandsRequested](../windows.ui.applicationsettings/settingspane_commandsrequested.md) event handler. This code is invoked when the user opens the [SettingsFlyout](settingsflyout.md) from the [SettingsPane](../windows.ui.applicationsettings/settingspane.md), so you should return the user to the [SettingsPane](../windows.ui.applicationsettings/settingspane.md) when they click the Back button.
 
-Only one [SettingsFlyout](settingsflyout.md) is shown at a time. Calling [Show](settingsflyout_show_392493604.md) on a [SettingsFlyout](settingsflyout.md) closes any other [SettingsFlyout](settingsflyout.md) currently shown. The [SettingsFlyout](settingsflyout.md) being closed completes its close animation before the new [SettingsFlyout](settingsflyout.md) begins its show animation.
+Only one [SettingsFlyout](settingsflyout.md) is shown at a time. Calling Show on a [SettingsFlyout](settingsflyout.md) closes any other [SettingsFlyout](settingsflyout.md) currently shown. The [SettingsFlyout](settingsflyout.md) being closed completes its close animation before the new [SettingsFlyout](settingsflyout.md) begins its show animation.
 
 ## -examples
 ```csharp

@@ -19,7 +19,7 @@ If the method succeeds, an enumerable collection of package objects is returned.
 This method requires administrative privileges. Otherwise, an **AccessDeniedException** is thrown.
 
 ## -examples
-This example uses [FindPackages()](packagemanager_findpackages_1246181969.md) to enumerate the installed packages for all users.
+This example uses FindPackages() to enumerate the installed packages for all users.
 
 ```csharp
 using Windows.Management.Deployment;

@@ -16,9 +16,9 @@ Gets a set of name/value pairs included in the **Authorization** or **Proxy-Auth
 A set of name/value pairs.
 
 ## -remarks
-The [Parameters](httpcredentialsheadervalue_parameters.md) property gets a set of name/value pairs of the credentials containing the authentication information of the user agent for the resource being requested.
+The Parameters property gets a set of name/value pairs of the credentials containing the authentication information of the user agent for the resource being requested.
 
-An [HttpCredentialsHeaderValue](httpcredentialsheadervalue.md) object has a [Scheme](httpcredentialsheadervalue_scheme.md) and either a [Token](httpcredentialsheadervalue_token.md) or a [Parameters](httpcredentialsheadervalue_parameters.md) list. So either the [Parameters](httpcredentialsheadervalue_parameters.md) property is an empty collection or the [Token](httpcredentialsheadervalue_token.md) property is an empty string.
+An [HttpCredentialsHeaderValue](httpcredentialsheadervalue.md) object has a [Scheme](httpcredentialsheadervalue_scheme.md) and either a [Token](httpcredentialsheadervalue_token.md) or a Parameters list. So either the Parameters property is an empty collection or the [Token](httpcredentialsheadervalue_token.md) property is an empty string.
 
 ## -examples
 

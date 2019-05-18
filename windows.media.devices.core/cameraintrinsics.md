@@ -15,6 +15,16 @@ Represents the intrinsics that describe the camera distortion model.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | DistortPoint |
+| 1607 | 14393 | DistortPoints |
+| 1607 | 14393 | UndistortedProjectionTransform |
+| 1607 | 14393 | UndistortPoint |
+| 1607 | 14393 | UndistortPoints |
+
 ## -examples
 
 ## -see-also

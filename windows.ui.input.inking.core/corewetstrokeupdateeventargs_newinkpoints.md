@@ -16,9 +16,9 @@ Gets the collection of [InkPoint](../windows.ui.input.inking/inkpoint.md) object
 The collection of [InkPoint](../windows.ui.input.inking/inkpoint.md) objects.
 
 ## -remarks
-[NewInkPoints](corewetstrokeupdateeventargs_newinkpoints.md) is always empty for the [WetStrokeCompleted](corewetstrokeupdatesource_wetstrokecompleted.md) and [WetStrokeCanceled](corewetstrokeupdatesource_wetstrokecanceled.md) events.
+NewInkPoints is always empty for the [WetStrokeCompleted](corewetstrokeupdatesource_wetstrokecompleted.md) and [WetStrokeCanceled](corewetstrokeupdatesource_wetstrokecanceled.md) events.
 
-[NewInkPoints](corewetstrokeupdateeventargs_newinkpoints.md) might be empty for the [WetStrokeStopping](corewetstrokeupdatesource_wetstrokestopping.md) event.
+NewInkPoints might be empty for the [WetStrokeStopping](corewetstrokeupdatesource_wetstrokestopping.md) event.
 
 ## -examples
 

@@ -26,7 +26,7 @@ This method passes the toast notification to the schedule but doesn't specify th
 If your call to this method returns a failure code, examine these possible causes: 
 + **Possible cause**: You've exceeded the maximum allowed number of scheduled notifications.
 
-**Fix**: [ToastNotifier.addToSchedule](toastnotifier_addtoschedule_1355516744.md) will fail if you attempt to schedule more than 4096 notifications. Reduce your number of scheduled notifications.
+**Fix**: ToastNotifier.addToSchedule will fail if you attempt to schedule more than 4096 notifications. Reduce your number of scheduled notifications.
 + **Possible cause**: Your notification is scheduled for a time in the past relative to the current system clock time.
 
 **Fix**: Make sure that the scheduled notification time specified in your [ScheduledToastNotification](scheduledtoastnotification.md) is in the future. Examine the system clock time.

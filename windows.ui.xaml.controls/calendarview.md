@@ -17,9 +17,9 @@ Represents a control that enables a user to select a date by using a visual cale
 > [!TIP]
 > For more info, design guidance, and code examples, see [Calendar view](/windows/uwp/design/controls-and-patterns/calendar-view).
 
-The [CalendarView](calendarview.md) gives you a standardized way to let users view and interact with a calendar. If you need to let a user select multiple dates, you must use a [CalendarView](calendarview.md). If you need to let a user pick only a single date and don’t need a calendar to be always visible, consider using a [CalendarDatePicker](calendardatepicker.md) or [DatePicker](datepicker.md) control. You can use the [CalendarView](calendarview.md) control in its default form with a minimal amount of Extensible Application Markup Language (XAML) or other code, or you can customize it in various ways to suit your app.
+The CalendarView gives you a standardized way to let users view and interact with a calendar. If you need to let a user select multiple dates, you must use a CalendarView. If you need to let a user pick only a single date and don’t need a calendar to be always visible, consider using a [CalendarDatePicker](calendardatepicker.md) or [DatePicker](datepicker.md) control. You can use the CalendarView control in its default form with a minimal amount of Extensible Application Markup Language (XAML) or other code, or you can customize it in various ways to suit your app.
 
-The [CalendarView](calendarview.md) is made up of 3 separate views: the month view, year view, and decade view. By default, it starts with the month view open. You can specify a startup view by setting the [DisplayMode](calendarview_displaymode.md) property.
+The CalendarView is made up of 3 separate views: the month view, year view, and decade view. By default, it starts with the month view open. You can specify a startup view by setting the [DisplayMode](calendarview_displaymode.md) property.
 
 <img src="images/CalendarViews.png" alt="Calendar Month, Year, and Decade views" />
 Users click the header in the month view to open the year view, and click the header in the year view to open the decade view. Users pick a year in the decade view to return to the year view, and pick a month in the year view to return to the month view. The two arrows to the side of the header navigate forward or backward by month, by year, or by decade.
@@ -42,11 +42,11 @@ You can handle the [SelectedDatesChanged](calendarview_selecteddateschanged.md) 
 
 ### Globalization
 
-The [CalendarView](calendarview.md) supports each of the calendar systems supported by Windows. These calendars are specified in the [Windows.Globalization.CalendarIdentifiers](../windows.globalization/calendaridentifiers.md) class. The [CalendarView](calendarview.md) uses the correct calendar for your app's default language, or you can set the [CalendarIdentifier](calendarview_calendaridentifier.md) property to use a specific calendar system.
+The CalendarView supports each of the calendar systems supported by Windows. These calendars are specified in the [Windows.Globalization.CalendarIdentifiers](../windows.globalization/calendaridentifiers.md) class. The CalendarView uses the correct calendar for your app's default language, or you can set the [CalendarIdentifier](calendarview_calendaridentifier.md) property to use a specific calendar system.
 
 ### DateTime and Calendar values
 
-The date objects used in a [CalendarView](calendarview.md) have a different representation depending on your programming language. C# and Visual Basic use the [System.DateTimeOffset](https://msdn.microsoft.com/library/system.datetimeoffset.aspx) structure that is part of .NET. Visual C++ component extensions (C++/CX) uses the [Windows::Foundation::DateTime](https://msdn.microsoft.com/library/b5533002-8a72-438d-a3d3-0902ffc21830) structure. A related concept is the **Calendar** class, which influences how dates are interpreted in context. All Windows Runtime apps can use the [Windows.Globalization.Calendar](../windows.globalization/calendar.md) class. C# and Visual Basic apps can alternatively use the [System.Globalization.Calendar](https://msdn.microsoft.com/library/system.globalization.calendar.aspx) class, which has very similar functionality. (Windows Runtime app can use the base .NET [Calendar](https://msdn.microsoft.com/library/system.globalization.calendar.aspx) class but not the specific implementations for example **GregorianCalendar**.)
+The date objects used in a CalendarView have a different representation depending on your programming language. C# and Visual Basic use the [System.DateTimeOffset](https://msdn.microsoft.com/library/system.datetimeoffset.aspx) structure that is part of .NET. Visual C++ component extensions (C++/CX) uses the [Windows::Foundation::DateTime](https://msdn.microsoft.com/library/b5533002-8a72-438d-a3d3-0902ffc21830) structure. A related concept is the **Calendar** class, which influences how dates are interpreted in context. All Windows Runtime apps can use the [Windows.Globalization.Calendar](../windows.globalization/calendar.md) class. C# and Visual Basic apps can alternatively use the [System.Globalization.Calendar](https://msdn.microsoft.com/library/system.globalization.calendar.aspx) class, which has very similar functionality. (Windows Runtime app can use the base .NET [Calendar](https://msdn.microsoft.com/library/system.globalization.calendar.aspx) class but not the specific implementations for example **GregorianCalendar**.)
 
 .NET also supports a type named [DateTime](https://msdn.microsoft.com/library/system.datetime.aspx), which is implicitly convertible to a [DateTimeOffset](https://msdn.microsoft.com/library/system.datetimeoffset.aspx). So you might see a "DateTime" type being used in .NET code that's used to set values that are really [DateTimeOffset](https://msdn.microsoft.com/library/system.datetimeoffset.aspx). For more info on the difference between [DateTime](https://msdn.microsoft.com/library/system.datetime.aspx) and [DateTimeOffset](https://msdn.microsoft.com/library/system.datetimeoffset.aspx), see Remarks in [DateTimeOffset](https://msdn.microsoft.com/library/system.datetimeoffset.aspx).
 
@@ -55,7 +55,7 @@ The date objects used in a [CalendarView](calendarview.md) have a different repr
 
 ### Customizing the CalendarView's appearance
 
-The [CalendarView](calendarview.md) is composed of both Extensible Application Markup Language (XAML) elements defined in the [ControlTemplate](controltemplate.md) and visual elements rendered directly by the control. The Extensible Application Markup Language (XAML) elements defined in the control template include the border that encloses the control, the header, previous and next buttons, and DayOfWeek elements. You can style and re-template these elements like any Extensible Application Markup Language (XAML) control. The calendar grid is composed of [CalendarViewDayItem](calendarviewdayitem.md) objects. You can’t style or re-template these elements, but various properties are provided to let you to customize their appearance.
+The CalendarView is composed of both Extensible Application Markup Language (XAML) elements defined in the [ControlTemplate](controltemplate.md) and visual elements rendered directly by the control. The Extensible Application Markup Language (XAML) elements defined in the control template include the border that encloses the control, the header, previous and next buttons, and DayOfWeek elements. You can style and re-template these elements like any Extensible Application Markup Language (XAML) control. The calendar grid is composed of [CalendarViewDayItem](calendarviewdayitem.md) objects. You can’t style or re-template these elements, but various properties are provided to let you to customize their appearance.
 
 This diagram shows the elements that make up the month view of the calendar. For more info, see the Remarks on the [CalendarViewDayItem](calendarviewdayitem.md) class.
 
@@ -86,7 +86,7 @@ calendarView1.SetYearDecadeDisplayDimensions(3, 4);
 
 ```
 
-By default, the minimum date shown in the [CalendarView](calendarview.md) is 100 years prior to the current date, and the maximum date shown is 100 years past the current date. You can change the minimum and maximum dates that the calendar shows by setting the [MinDate](calendarview_mindate.md) and [MaxDate](calendarview_maxdate.md) properties.
+By default, the minimum date shown in the CalendarView is 100 years prior to the current date, and the maximum date shown is 100 years past the current date. You can change the minimum and maximum dates that the calendar shows by setting the [MinDate](calendarview_mindate.md) and [MaxDate](calendarview_maxdate.md) properties.
 
 ```csharp
 
@@ -101,14 +101,14 @@ calendarView1.MaxDate = new DateTime(2099, 12, 31);
 
 Each day in the calendar is represented by a [CalendarViewDayItem](calendarviewdayitem.md) object. To access an individual day item and use its properties and methods, handle the [CalendarViewDayItemChanging](calendarview_calendarviewdayitemchanging.md) event and use the [Item](calendarviewdayitemchangingeventargs_item.md) property of the event args to access the [CalendarViewDayItem](calendarviewdayitem.md).
 
-You can make a day not selectable in the [CalendarView](calendarview.md) by setting its [CalendarViewDayItem.IsBlackout](calendarviewdayitem_isblackout.md) property to **true**.
+You can make a day not selectable in the CalendarView by setting its [CalendarViewDayItem.IsBlackout](calendarviewdayitem_isblackout.md) property to **true**.
 
 You can show contextual information about the density of events in a day by calling the [CalendarViewDayItem.SetDensityColors](calendarviewdayitem_setdensitycolors_669941734.md) method. You can show from 0 to 10 density bars for each day, and set the color of each bar.
 
 Here are some day items in a calendar. Days 1 and 2 are blacked out. Days 2, 3, and 4 have various density bars set.
 
 <img src="images/CalendarView_density_bars.png" alt="Calendar days with density bars" />
-A [CalendarView](calendarview.md) can contain a large number of [CalendarViewDayItem](calendarviewdayitem.md) objects. To keep the UI responsive and enable smooth navigation through the calendar, [CalendarView](calendarview.md) supports phased rendering. This lets you break up processing of a day item into phases. If a day is moved out of view before all the phases are complete, no more time is used trying to process and render that item.
+A CalendarView can contain a large number of [CalendarViewDayItem](calendarviewdayitem.md) objects. To keep the UI responsive and enable smooth navigation through the calendar, CalendarView supports phased rendering. This lets you break up processing of a day item into phases. If a day is moved out of view before all the phases are complete, no more time is used trying to process and render that item.
 
 ### Control style and template
 
@@ -116,7 +116,7 @@ You can modify the default [Style](../windows.ui.xaml/style.md) and [ControlTemp
 
 Starting in Windows 10, version 1607 (SDK 14393), generic.xaml includes resources that you can use to modify the colors of a control in different visual states without modifying the control template. In apps that target this software development kit (SDK) or later, modifying these resources is preferred to setting properties such as [Background](control_background.md) and [Foreground](control_foreground.md). For more info, see the [Light-weight styling](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) section of the [Styling controls](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) article.
 
-This table shows the resources used by the [CalendarView](calendarview.md) control.
+This table shows the resources used by the CalendarView control.
 
 <table>
    <tr><th>Resource key</th><th>Description</th></tr>
@@ -153,7 +153,7 @@ This table shows the resources used by the [CalendarView](calendarview.md) contr
 > + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
 > + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
 
-This example shows phased rendering of a [CalendarView](calendarview.md) for scheduling appointments. In phase 0, the default day item is rendered. In phase 1, you blackout dates that can't be booked. This includes past dates, Sundays, and dates that are already fully booked. In phase 2, you check each appointment that's booked for the day. You show a green density bar for each confirmed appointment and a blue density bar for each tentative appointment. The `Bookings` class in this example is from a fictitious appointment booking app, and is not shown.
+This example shows phased rendering of a CalendarView for scheduling appointments. In phase 0, the default day item is rendered. In phase 1, you blackout dates that can't be booked. This includes past dates, Sundays, and dates that are already fully booked. In phase 2, you check each appointment that's booked for the day. You show a green density bar for each confirmed appointment and a blue density bar for each tentative appointment. The `Bookings` class in this example is from a fictitious appointment booking app, and is not shown.
 
 (To see this code running in a complete app sample, see the [Lunch scheduler sample](https://github.com/Microsoft/Windows-appsample-lunch-scheduler).)
 

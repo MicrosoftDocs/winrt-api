@@ -14,7 +14,7 @@ public void Stop()
 Stop the publisher and stop advertising a Bluetooth LE advertisement payload.
 
 ## -remarks
-The status of the [BluetoothLEAdvertisementPublisher](bluetoothleadvertisementpublisher.md) will transition to the **Stopping** state until the advertising is cancelled in which the state will transition to **Stopped** state. Calling the [Stop](bluetoothleadvertisementpublisher_stop_1201535524.md) method in the **Stopped** or **Aborted** state has no effect. Calling the [Stop](bluetoothleadvertisementpublisher_stop_1201535524.md) method in the **Stopping** state will overwrite any advertisements in the last [Start](bluetoothleadvertisementpublisher_start_1587696324.md) method call during that state.
+The status of the [BluetoothLEAdvertisementPublisher](bluetoothleadvertisementpublisher.md) will transition to the **Stopping** state until the advertising is cancelled in which the state will transition to **Stopped** state. Calling the Stop method in the **Stopped** or **Aborted** state has no effect. Calling the Stop method in the **Stopping** state will overwrite any advertisements in the last [Start](bluetoothleadvertisementpublisher_start_1587696324.md) method call during that state.
 
 The [BluetoothLEAdvertisementPublisher](bluetoothleadvertisementpublisher.md) will be automatically stopped when an app is suspended.
 

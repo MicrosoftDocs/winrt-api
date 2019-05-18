@@ -21,7 +21,7 @@ Scales an object in the two-dimensional x-y coordinate system.
 ## -remarks
 
 ## -examples
-This XAML example uses a [ScaleTransform](scaletransform.md) to scale text from its original size.
+This XAML example uses a ScaleTransform to scale text from its original size.
 
 [!code-xaml[ScaleTransform](../windows.ui.xaml/code/transforms/csharp/Scale_Transform.xaml#SnippetScaleTransform)]
 

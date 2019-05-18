@@ -62,6 +62,13 @@ void OnActivated(
 }
 ```
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | Properties |
+| 1709 | 16299 | DispatcherQueue |
+
 ## -examples
 
 ## -see-also

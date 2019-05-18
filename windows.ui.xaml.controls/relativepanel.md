@@ -25,13 +25,11 @@ Defines an area within which you can position and align child objects in relatio
 
 ## -remarks
 
-[RelativePanel](relativepanel.md) is a layout container that is useful for creating UI that do not have a clear linear pattern; that is, layouts that are not fundamentally stacked, wrapped, or tabular, where you might naturally use a [StackPanel](stackpanel.md) or [Grid](grid.md).
+RelativePanel is a layout container that is useful for creating UI that do not have a clear linear pattern; that is, layouts that are not fundamentally stacked, wrapped, or tabular, where you might naturally use a [StackPanel](stackpanel.md) or [Grid](grid.md).
 
-If your UI consists of multiple nested panels, [RelativePanel](relativepanel.md) is a good option to consider.
+If your UI consists of multiple nested panels, RelativePanel is a good option to consider.
 
-
-
-Here's an example of a UI using a [RelativePanel](relativepanel.md) for its layout:
+Here's an example of a UI using a RelativePanel for its layout:
 
 <img alt="Relative panel control" src="images/controls/RelativePanelBasic.png" />
 
@@ -53,16 +51,11 @@ Here's an example of a UI using a [RelativePanel](relativepanel.md) for its layo
 </RelativePanel>
 ```
 
-[RelativePanel](relativepanel.md), used in conjunction with [AdaptiveTrigger](../windows.ui.xaml/adaptivetrigger.md) s, can be a powerful tool to create responsive UI that scales well across different screen sizes. For more examples, see the [XAML Responsive Techniques sample](https://go.microsoft.com/fwlink/p/?LinkId=620024&amp;amp;clcid=0x409).
-
-
-
-
-
+RelativePanel, used in conjunction with [AdaptiveTrigger](../windows.ui.xaml/adaptivetrigger.md) s, can be a powerful tool to create responsive UI that scales well across different screen sizes. For more examples, see the [XAML Responsive Techniques sample](https://go.microsoft.com/fwlink/p/?LinkId=620024&amp;amp;clcid=0x409).
 
 ### Default position
 
-By default, any unconstrained element declared as a child of the [RelativePanel](relativepanel.md) is given the entire available space and positioned at the (0, 0) coordinates (upper left corner) of the panel. So, if you are positioning a second element relative to an unconstrained element, keep in mind that the second element might get pushed out of the panel.
+By default, any unconstrained element declared as a child of the RelativePanel is given the entire available space and positioned at the (0, 0) coordinates (upper left corner) of the panel. So, if you are positioning a second element relative to an unconstrained element, keep in mind that the second element might get pushed out of the panel.
 
 In this example, `RectA` doesn't have any constraints, so it's positioned at (0,0). `RectB` is not shown on the screen because it is declared to be [Above](relativepanel_above.md)  `RectA` and is therefore pushed out of the panel.
 
@@ -74,11 +67,9 @@ In this example, `RectA` doesn't have any constraints, so it's positioned at (0,
 </RelativePanel>
 ```
 
-
-
 ### Circular dependency
 
-A circular dependency occurs when two elements inside a [RelativePanel](relativepanel.md) declare relationships with each other in any direction. For example, this XAML results in a design-time exception, "RelativePanel error: Circular dependency detected. Layout could not complete."
+A circular dependency occurs when two elements inside a RelativePanel declare relationships with each other in any direction. For example, this XAML results in a design-time exception, "RelativePanel error: Circular dependency detected. Layout could not complete."
 
 ```xaml
 <RelativePanel>
@@ -89,8 +80,6 @@ A circular dependency occurs when two elements inside a [RelativePanel](relative
 </RelativePanel>
 ```
 
-
-
 ### Conflicting relationships
 
 If you set multiple relationships that target the same edge of an element, you might have conflicting relationships in your layout as a result. When this happens, the relationships are applied in the following order of priority:
@@ -98,14 +87,13 @@ If you set multiple relationships that target the same edge of an element, you m
 + Sibling alignment relationships ([AlignTopWith](relativepanel_aligntopwith.md), [AlignLeftWith](relativepanel_alignleftwith.md), …) are applied second.
 + Sibling positional relationships ([Above](relativepanel_above.md), [Below](relativepanel_below.md), [RightOf](relativepanel_rightof.md), [LeftOf](relativepanel_leftof.md)) are applied last.
 
-
 The panel-center alignment properties ([AlignVerticalCenterWith](relativepanel_alignverticalcenterwith.md), [AlignHorizontalCenterWithPanel](relativepanel_alignhorizontalcenterwithpanel.md), ...) are typically used independently of other constraints and are applied if there is no conflict.
 
 The [HorizontalAlignment](../windows.ui.xaml/frameworkelement_horizontalalignment.md) and [VerticalAlignment](../windows.ui.xaml/frameworkelement_verticalalignment.md) properties on UI elements are applied after relationship properties are evaluated and applied. These properties control the placement of the element within the available size for the element, if the desired size is smaller than the available size.
 
 ### Border properties
 
-[RelativePanel](relativepanel.md) defines border properties that let you draw a border around the [RelativePanel](relativepanel.md) without using an additional [Border](border.md) element. The properties are [RelativePanel.BorderBrush](relativepanel_borderbrush.md), [RelativePanel.BorderThickness](relativepanel_borderthickness.md), [RelativePanel.CornerRadius](relativepanel_cornerradius.md), and [RelativePanel.Padding](relativepanel_padding.md).
+RelativePanel defines border properties that let you draw a border around the RelativePanel without using an additional [Border](border.md) element. The properties are [RelativePanel.BorderBrush](relativepanel_borderbrush.md), [RelativePanel.BorderThickness](relativepanel_borderthickness.md), [RelativePanel.CornerRadius](relativepanel_cornerradius.md), and [RelativePanel.Padding](relativepanel_padding.md).
 
 ```xaml
 <RelativePanel BorderBrush="Red" BorderThickness="2" CornerRadius="10" Padding="12">
@@ -138,6 +126,12 @@ In order to support XAML processor access to the attached properties, and also t
 | Below | Gets or sets a target element that this element is positioned below.<ul><li>Type: object</li><li>Identifier field: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.relativepanel.belowproperty">BelowProperty</a></li><li>Accessor methods: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.relativepanel.getbelow">GetBelow</a>, <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.relativepanel.setbelow">SetBelow</a></li></ul> |
 | LeftOf | Gets or sets a target element that this element is positioned to the left of.<ul><li>Type: object</li><li>Identifier field: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.relativepanel.leftofproperty">LeftOfProperty</a></li><li>Accessor methods: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.relativepanel.getleftof">GetLeftOf</a>, <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.relativepanel.setleftof">SetLeftOf</a></li></ul> |
 | RightOf | Gets or sets a target element that this element is positioned to the right of.<ul><li>Type: object</li><li>Identifier field: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.relativepanel.rightofproperty">RightOfProperty</a></li><li>Accessor methods: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.relativepanel.getrightof">GetRightOf</a>, <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.relativepanel.setrightof">SetRightOf</a></li></ul> |
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1809 | 17763 | BackgroundSizing |
 
 ## -examples
 

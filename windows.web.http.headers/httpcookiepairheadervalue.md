@@ -13,9 +13,9 @@ public class HttpCookiePairHeaderValue : Windows.Foundation.IStringable, Windows
 Represents cookie information used in the **Cookie** HTTP header on an HTTP request.
 
 ## -remarks
-The [HttpCookiePairHeaderValue](httpcookiepairheadervalue.md) class represents cookie information used in the **Cookie** HTTP header on an HTTP request.
+The HttpCookiePairHeaderValue class represents cookie information used in the **Cookie** HTTP header on an HTTP request.
 
-The [Cookie](httprequestheadercollection_cookie.md) property on the [HttpRequestHeaderCollection](httprequestheadercollection.md) returns an [HttpCookiePairHeaderValueCollection](httpcookiepairheadervaluecollection.md) that contains [HttpCookiePairHeaderValue](httpcookiepairheadervalue.md) objects.
+The [Cookie](httprequestheadercollection_cookie.md) property on the [HttpRequestHeaderCollection](httprequestheadercollection.md) returns an [HttpCookiePairHeaderValueCollection](httpcookiepairheadervaluecollection.md) that contains HttpCookiePairHeaderValue objects.
 
 ## -examples
 

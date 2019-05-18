@@ -22,7 +22,7 @@ Gets or sets a value that indicates whether transition animations are always use
 **true** if transition animations are always used; **false** if transition animations are used only for touch navigation. The default is **true**.
 
 ## -remarks
-The XAML [FlipView](flipview.md) control supports three modes of navigation; touch-based, button-based and programmatic. When a user navigates by touch, the [FlipView](flipview.md) items scroll smoothly into view. When you set this property to **true**, the same navigation animation occurs whether the navigation is touch-based, button-based and programmatic. If [UseTouchAnimationsForAllNavigation](flipview_usetouchanimationsforallnavigation.md) is **false** and the user navigates by mouse, keyboard, or programmatically, the animation doesn't occur and items just pop into view.
+The XAML [FlipView](flipview.md) control supports three modes of navigation; touch-based, button-based and programmatic. When a user navigates by touch, the [FlipView](flipview.md) items scroll smoothly into view. When you set this property to **true**, the same navigation animation occurs whether the navigation is touch-based, button-based and programmatic. If UseTouchAnimationsForAllNavigation is **false** and the user navigates by mouse, keyboard, or programmatically, the animation doesn't occur and items just pop into view.
 
 <!--Windows Blue bug 467555-->
 > **Windows 8**

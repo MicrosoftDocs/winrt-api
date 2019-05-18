@@ -16,7 +16,7 @@ Gets or sets the [DateTime](../windows.foundation/datetime.md) object that repre
 The object that represents the value of an HTTP **Expires** header on the HTTP content. A **null** value means that the header is absent.
 
 ## -remarks
-The [Expires](httpcontentheadercollection_expires.md) property represents the value of the **Expires** header on HTTP content. The **Expires** header is the date and time after which the HTTP content is considered outdated.
+The Expires property represents the value of the **Expires** header on HTTP content. The **Expires** header is the date and time after which the HTTP content is considered outdated.
 
 Javascript and .NET languages do not use the [DateTime](../windows.foundation/datetime.md) object directly. In Javascript a [DateTime](../windows.foundation/datetime.md) is projected as a  object, and in .NET it is projected as a [System.DateTimeOffset](https://msdn.microsoft.com/library/system.datetimeoffset.aspx). Each language transparently handles the conversion to the granularity and date ranges for the respective language.
 
@@ -26,7 +26,7 @@ For more detailed information, see the [Windows.Foundation.DateTime](../windows.
 
 
 
-The following sample code shows a method to get or set the **Expires** header value on HTTP content using the [Expires](httpcontentheadercollection_expires.md) property on the [HttpContentHeaderCollection](httpcontentheadercollection.md) object.
+The following sample code shows a method to get or set the **Expires** header value on HTTP content using the Expires property on the [HttpContentHeaderCollection](httpcontentheadercollection.md) object.
 
 ```csharp
     // Expires header

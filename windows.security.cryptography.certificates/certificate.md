@@ -14,6 +14,14 @@ Represents a cryptography certificate.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | IsPerUser |
+| 1607 | 14393 | KeyStorageProviderName |
+| 1607 | 14393 | StoreName |
+
 ## -examples
 
 ## -see-also

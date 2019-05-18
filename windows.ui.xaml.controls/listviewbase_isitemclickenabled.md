@@ -24,7 +24,7 @@ Gets or sets a value that indicates whether items in the view fire an [ItemClick
 ## -remarks
 By default, a user can select items in the view by tapping or clicking on them. You can change this behavior to make the user interaction fire a click event instead of triggering item selection.
 
-If you set the [IsItemClickEnabled](listviewbase_isitemclickenabled.md) property to **true**, you must set the [SelectionMode](listviewbase_selectionmode.md) property to [ListViewSelectionMode.None](listviewselectionmode.md). Handle the [ItemClick](listviewbase_itemclick.md) event to respond to the user interaction.
+If you set the IsItemClickEnabled property to **true**, you must set the [SelectionMode](listviewbase_selectionmode.md) property to [ListViewSelectionMode.None](listviewselectionmode.md). Handle the [ItemClick](listviewbase_itemclick.md) event to respond to the user interaction.
 
 ## -examples
 

@@ -46,7 +46,7 @@ If both UseLf and UseCrLf are used an invalid argument exception is thrown.
 
 ### Version history
 
-| Version | SDK version | Value added |
+| Windows version | SDK version | Value added |
 | -- | -- | -- |
 | 1703 | 15063 | UseLf |
 

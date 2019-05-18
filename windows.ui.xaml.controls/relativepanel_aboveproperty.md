@@ -18,7 +18,7 @@ The identifier for the [RelativePanel.Above](relativepanel_above.md)  XAML atta
 ## -remarks
 This property is only an identifier for the property system, and isn't used in most app scenarios. In most cases you set the [RelativePanel.Above](relativepanel_above.md)  XAML attached property in XAML and won't need this identifier.
 
-To access the [RelativePanel.Above](relativepanel_above.md) attached property in code, you can use the dependency property system, calling either [GetValue](../windows.ui.xaml/dependencyobject_getvalue_1188551207.md) or [SetValue](../windows.ui.xaml/dependencyobject_setvalue_52578133.md) and passing [RelativePanel.AboveProperty](relativepanel_aboveproperty.md) as the dependency property identifier. Another way to get or set the value in code is to use [GetAbove](relativepanel_getabove_1952075081.md) and [SetAbove](relativepanel_setabove_833606851.md).
+To access the [RelativePanel.Above](relativepanel_above.md) attached property in code, you can use the dependency property system, calling either [GetValue](../windows.ui.xaml/dependencyobject_getvalue_1188551207.md) or [SetValue](../windows.ui.xaml/dependencyobject_setvalue_52578133.md) and passing RelativePanel.AboveProperty as the dependency property identifier. Another way to get or set the value in code is to use [GetAbove](relativepanel_getabove_1952075081.md) and [SetAbove](relativepanel_setabove_833606851.md).
 
 ## -examples
 ```csharp

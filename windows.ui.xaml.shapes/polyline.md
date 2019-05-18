@@ -21,7 +21,7 @@ Draws a series of connected straight lines.
 ## -remarks
 
 ## -examples
-This example shows how to use a [Polyline](polyline.md) to create a closed triangle.
+This example shows how to use a Polyline to create a closed triangle.
 
 ```xaml
 <Canvas>  

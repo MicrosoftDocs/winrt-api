@@ -16,7 +16,7 @@ Retrieves the GUID for the type of operation that the [IMediaProtectionServiceRe
 The GUID to retrieve.
 
 ## -remarks
-The possible values of [Type](imediaprotectionservicerequest_type.md) depend on the content protection system used for the content. This can be determined by context or by inspecting the [ProtectionSystem](imediaprotectionservicerequest_protectionsystem.md) property.
+The possible values of Type depend on the content protection system used for the content. This can be determined by context or by inspecting the [ProtectionSystem](imediaprotectionservicerequest_protectionsystem.md) property.
 
 ## -examples
 

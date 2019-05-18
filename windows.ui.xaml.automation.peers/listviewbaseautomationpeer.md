@@ -13,11 +13,11 @@ public class ListViewBaseAutomationPeer : Windows.UI.Xaml.Automation.Peers.Selec
 A base class that provides a Microsoft UI Automation peer implementation for types that derive from [ListViewBase](../windows.ui.xaml.controls/listviewbase.md).
 
 ## -remarks
- [ListViewBase](../windows.ui.xaml.controls/listviewbase.md) isn't used as a control class, because it is the base class for other controls. You could either derive from those other controls or derive from directly, but the latter means that you have to provide a template and a lot more behavior. If you derive from [ListViewBase](../windows.ui.xaml.controls/listviewbase.md), override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) so that it returns a custom peer that is based on [ListViewBaseAutomationPeer](listviewbaseautomationpeer.md).
+ [ListViewBase](../windows.ui.xaml.controls/listviewbase.md) isn't used as a control class, because it is the base class for other controls. You could either derive from those other controls or derive from directly, but the latter means that you have to provide a template and a lot more behavior. If you derive from [ListViewBase](../windows.ui.xaml.controls/listviewbase.md), override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) so that it returns a custom peer that is based on ListViewBaseAutomationPeer.
 
 ### Default peer implementation and overrides in **ListViewBaseAutomationPeer**
 
-[ListViewBaseAutomationPeer](listviewbaseautomationpeer.md) has overrides of **Core** methods such that the associated [AutomationPeer](automationpeer.md) methods provide peer-specific information to a Microsoft UI Automation client.
+ListViewBaseAutomationPeer has overrides of **Core** methods such that the associated [AutomationPeer](automationpeer.md) methods provide peer-specific information to a Microsoft UI Automation client.
 
 + [GetPattern](automationpeer_getpattern_2046576749.md) reports that the peer provides pattern support for [PatternInterface.DropTarget](patterninterface.md) ([IDropTargetProvider](../windows.ui.xaml.automation.provider/idroptargetprovider.md)). Pattern support for [PatternInterface.Selection](patterninterface.md) ([ISelectionProvider](../windows.ui.xaml.automation.provider/iselectionprovider.md)) and [PatternInterface.ItemContainer](patterninterface.md) ([IItemContainerProvider](../windows.ui.xaml.automation.provider/iitemcontainerprovider.md)) comes from peer base classes [SelectorAutomationPeer](selectorautomationpeer.md) and [ItemsControlAutomationPeer](itemscontrolautomationpeer.md).
 + [GetClassName](automationpeer_getclassname_614238974.md) and [GetAutomationControlType](automationpeer_getautomationcontroltype_1156384152.md) don't have implementations. It's expected that you will implement these. A typical [GetAutomationControlTypeCore](automationpeer_getautomationcontroltypecore_1718556232.md) implementation would return [AutomationControlType.List](automationcontroltype.md).
@@ -26,7 +26,7 @@ The peer also has other behaviors that are provided by the base [FrameworkElemen
 
 ### **ListViewBaseAutomationPeer** derived classes
 
-[ListViewBaseAutomationPeer](listviewbaseautomationpeer.md) is the parent class for [GridViewAutomationPeer](gridviewautomationpeer.md) and [ListViewAutomationPeer](listviewautomationpeer.md).
+ListViewBaseAutomationPeer is the parent class for [GridViewAutomationPeer](gridviewautomationpeer.md) and [ListViewAutomationPeer](listviewautomationpeer.md).
 
 ## -examples
 

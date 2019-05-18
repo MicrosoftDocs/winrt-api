@@ -16,11 +16,11 @@ Gets the video properties which are used for video related metadata.
 The video properties.
 
 ## -remarks
-[VideoProperties](mediastreamsource_videoproperties.md) is a video-oriented view of the [MediaStreamSource](mediastreamsource.md) properties.
+VideoProperties is a video-oriented view of the [MediaStreamSource](mediastreamsource.md) properties.
 
-Applications are allowed to modify the properties of [VideoProperties](mediastreamsource_videoproperties.md) at any time.
+Applications are allowed to modify the properties of VideoProperties at any time.
 
-Applications should be aware that there is overlap with [MusicProperties](mediastreamsource_musicproperties.md). A change to the [VideoProperties](mediastreamsource_videoproperties.md) may modify a similar property in the [MusicProperties](mediastreamsource_musicproperties.md) property, and vice versa.
+Applications should be aware that there is overlap with [MusicProperties](mediastreamsource_musicproperties.md). A change to the VideoProperties may modify a similar property in the [MusicProperties](mediastreamsource_musicproperties.md) property, and vice versa.
 
 ## -examples
 

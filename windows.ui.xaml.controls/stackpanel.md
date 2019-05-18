@@ -28,24 +28,30 @@ Arranges child elements into a single line that can be oriented horizontally or 
 > [!TIP]
 > For more info, design guidance, and code examples, see [Layout panels](/windows/uwp/design/layout/layout-panels#stackpanel).
 
-[StackPanel](stackpanel.md) is a layout panel that arranges child elements into a single line that can be oriented horizontally or vertically.
+StackPanel is a layout panel that arranges child elements into a single line that can be oriented horizontally or vertically.
 
 <img alt="Stack panel layout control" src="images/controls/StackPanel.png" />
 
-By default, [StackPanel](stackpanel.md) stacks items vertically from top to bottom in the order they are declared. You can set the [Orientation](stackpanel_orientation.md) property to **Horizontal** to stack items from left to right.
+By default, StackPanel stacks items vertically from top to bottom in the order they are declared. You can set the [Orientation](stackpanel_orientation.md) property to **Horizontal** to stack items from left to right.
 
-You can insert items into a [StackPanel](stackpanel.md) at a specific location using the [Insert](uielementcollection_insert.md) method in code-behind.
+You can insert items into a StackPanel at a specific location using the [Insert](uielementcollection_insert.md) method in code-behind.
 
 > [!TIP]
-> Starting in Windows 10, [StackPanel](stackpanel.md) defines new border properties that let you draw a border around the [StackPanel](stackpanel.md) without using an additional [Border](border.md) element. The new properties are [StackPanel.BorderBrush](stackpanel_borderbrush.md), [StackPanel.BorderThickness](stackpanel_borderthickness.md), [StackPanel.CornerRadius](stackpanel_cornerradius.md), and [StackPanel.Padding](stackpanel_padding.md).
-
-
+> Starting in Windows 10, StackPanel defines new border properties that let you draw a border around the StackPanel without using an additional [Border](border.md) element. The new properties are [StackPanel.BorderBrush](stackpanel_borderbrush.md), [StackPanel.BorderThickness](stackpanel_borderthickness.md), [StackPanel.CornerRadius](stackpanel_cornerradius.md), and [StackPanel.Padding](stackpanel_padding.md).
 
 ```xaml
 <StackPanel BorderBrush="Red" BorderThickness="2" CornerRadius="10" Padding="12">
     <TextBlock Text="Hello World!"/>
 </StackPanel>
 ```
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | GetInsertionIndexes |
+| 1709 | 16299 | Spacing |
+| 1809 | 17763 | BackgroundSizing |
 
 ## -examples
 
@@ -56,7 +62,7 @@ You can insert items into a [StackPanel](stackpanel.md) at a specific location u
 > + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
 > + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
 
-The following example shows how to create a [StackPanel](stackpanel.md) of items.
+The following example shows how to create a StackPanel of items.
 
 [!code-xml[LayoutOvwStackPanel_1](../windows.ui.xaml/code/layout_ovw_all/CSharp/MainPage.xaml#SnippetLayoutOvwStackPanel_1)]
 

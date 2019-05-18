@@ -20,9 +20,9 @@ Positions child elements sequentially from left to right or top to bottom in an 
 
 
 ## -remarks
-[ItemsWrapGrid](itemswrapgrid.md) can be used only as the [ItemsPanel](itemscontrol_itemspanel.md) of an [ItemsControl](itemscontrol.md) that displays more than one item at a time. It can't be used with an [ItemsControl](itemscontrol.md) that displays only one item at a time, such as a [ComboBox](combobox.md) or [FlipView](flipview.md). [ItemsWrapGrid](itemswrapgrid.md) is the default [ItemsPanel](itemscontrol_itemspanel.md) for [GridView](gridview.md).
+ItemsWrapGrid can be used only as the [ItemsPanel](itemscontrol_itemspanel.md) of an [ItemsControl](itemscontrol.md) that displays more than one item at a time. It can't be used with an [ItemsControl](itemscontrol.md) that displays only one item at a time, such as a [ComboBox](combobox.md) or [FlipView](flipview.md). ItemsWrapGrid is the default [ItemsPanel](itemscontrol_itemspanel.md) for [GridView](gridview.md).
 
-In an [ItemsWrapGrid](itemswrapgrid.md), elements are arranged in rows or columns that automatically wrap to a new row or column when the elements reach the container edge. If the [MaximumRowsOrColumns](itemswrapgrid_maximumrowsorcolumns.md) property is set, items wrap when the specified number of rows or columns is reached instead.
+In an ItemsWrapGrid, elements are arranged in rows or columns that automatically wrap to a new row or column when the elements reach the container edge. If the [MaximumRowsOrColumns](itemswrapgrid_maximumrowsorcolumns.md) property is set, items wrap when the specified number of rows or columns is reached instead.
 
 ### Orientation
 

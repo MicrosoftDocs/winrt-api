@@ -21,23 +21,31 @@ Displays content on top of existing content, within the bounds of the applicatio
 
 ## -remarks
 
-Do not use a [Popup](popup.md) if a [Flyout](../windows.ui.xaml.controls/flyout.md), [MenuFlyout](../windows.ui.xaml.controls/menuflyout.md), [ToolTip](../windows.ui.xaml.controls/tooltip.md) or [ContentDialog](../windows.ui.xaml.controls/contentdialog.md) ([MessageDialog](../windows.ui.popups/messagedialog.md) for a Windows 8 app) is more appropriate.
+Do not use a Popup if a [Flyout](../windows.ui.xaml.controls/flyout.md), [MenuFlyout](../windows.ui.xaml.controls/menuflyout.md), [ToolTip](../windows.ui.xaml.controls/tooltip.md) or [ContentDialog](../windows.ui.xaml.controls/contentdialog.md) ([MessageDialog](../windows.ui.popups/messagedialog.md) for a Windows 8 app) is more appropriate.
 
 <!--For more info, see Displaying popups. (Add this when the topic is created.)-->
 
-[Popup](popup.md) is a general purpose container for hosting [UIElement](../windows.ui.xaml/uielement.md) s on top of existing content. You typically use a [Popup](popup.md) to temporarily display content that accomplishes a particular task. The [Popup](popup.md) does not have a default visual template. Instead, you must set the content yourself by specifying a single [Child](popup_child.md) element as content. You can define the [Popup](popup.md) content inline, but it's common to define the content as a [UserControl](../windows.ui.xaml.controls/usercontrol.md), and then set the [UserControl](../windows.ui.xaml.controls/usercontrol.md) as the [Child](popup_child.md) of the [Popup](popup.md).
+Popup is a general purpose container for hosting [UIElement](../windows.ui.xaml/uielement.md) s on top of existing content. You typically use a Popup to temporarily display content that accomplishes a particular task. The Popup does not have a default visual template. Instead, you must set the content yourself by specifying a single [Child](popup_child.md) element as content. You can define the Popup content inline, but it's common to define the content as a [UserControl](../windows.ui.xaml.controls/usercontrol.md), and then set the [UserControl](../windows.ui.xaml.controls/usercontrol.md) as the [Child](popup_child.md) of the Popup.
 
-You position the [Popup](popup.md) by setting the [HorizontalOffset](popup_horizontaloffset.md) and [VerticalOffset](popup_verticaloffset.md) properties. The [Popup](popup.md) is offset relative to its immediate parent container. A [Popup](popup.md) is not modal, so input to the screen behind it is not blocked.
+You position the Popup by setting the [HorizontalOffset](popup_horizontaloffset.md) and [VerticalOffset](popup_verticaloffset.md) properties. The Popup is offset relative to its immediate parent container. A Popup is not modal, so input to the screen behind it is not blocked.
 
-To show a [Popup](popup.md), set its [IsOpen](popup_isopen.md) property to **true**. To hide the [Popup](popup.md), set [IsOpen](popup_isopen.md) to **false**. You can set [IsLightDismissEnabled](popup_islightdismissenabled.md) to make the [Popup](popup.md) hide automatically when a user taps anywhere away from it.
+To show a Popup, set its [IsOpen](popup_isopen.md) property to **true**. To hide the Popup, set [IsOpen](popup_isopen.md) to **false**. You can set [IsLightDismissEnabled](popup_islightdismissenabled.md) to make the Popup hide automatically when a user taps anywhere away from it.
 
-The [Popup](popup.md) can host input controls. When hosting input controls like [TextBox](../windows.ui.xaml.controls/textbox.md), the touch keyboard might slide into view when the user touches the input control. If the [Popup](popup.md) 's parent container is already in the visual tree, the [Popup](popup.md) automatically repositions itself when the touch keyboard is in view. Otherwise, the [Popup](popup.md) is not repositioned and the touch keyboard can cover it. This can happen if you create the [Popup](popup.md) in code and set [IsOpen](popup_isopen.md) to true without adding the [Popup](popup.md) as a child of an element in the visual tree.
+The Popup can host input controls. When hosting input controls like [TextBox](../windows.ui.xaml.controls/textbox.md), the touch keyboard might slide into view when the user touches the input control. If the Popup 's parent container is already in the visual tree, the Popup automatically repositions itself when the touch keyboard is in view. Otherwise, the Popup is not repositioned and the touch keyboard can cover it. This can happen if you create the Popup in code and set [IsOpen](popup_isopen.md) to true without adding the Popup as a child of an element in the visual tree.
 
-The [Popup](popup.md) doesn't fire [RoutedEvents](../windows.ui.xaml/routedevent.md), for example KeyDown and PointerPressed. You can wire an event handler for these [RoutedEvents](../windows.ui.xaml/routedevent.md) on the child of the [Popup](popup.md).
+The Popup doesn't fire [RoutedEvents](../windows.ui.xaml/routedevent.md), for example KeyDown and PointerPressed. You can wire an event handler for these [RoutedEvents](../windows.ui.xaml/routedevent.md) on the child of the Popup.
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | LightDismissOverlayMode |
+| 1903 | 18362 | IsConstrainedToRootBounds |
+| 1903 | 18362 | ShouldConstrainToRootBounds |
 
 ## -examples
 
-This example shows a simple [Popup](popup.md) with content defined inline.
+This example shows a simple Popup with content defined inline.
 
 ```xaml
 <Grid x:Name="Output" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="1">
@@ -74,7 +82,7 @@ private void ShowPopupOffsetClicked(object sender, RoutedEventArgs e)
 } 
 ```
 
-This example shows a [Popup](popup.md) that has a [UserControl](../windows.ui.xaml.controls/usercontrol.md) set as its [Child](popup_child.md) element. The [UserControl](../windows.ui.xaml.controls/usercontrol.md) defines the content of the [Popup](popup.md).
+This example shows a Popup that has a [UserControl](../windows.ui.xaml.controls/usercontrol.md) set as its [Child](popup_child.md) element. The [UserControl](../windows.ui.xaml.controls/usercontrol.md) defines the content of the Popup.
 
 ```xaml
 <Popup x:Name="ParentedPopup" HorizontalOffset="200" VerticalOffset="200">

@@ -16,9 +16,9 @@ Gets a value that indicates the relative confidence of the [SpeechRecognitionRes
 The confidence level of the result.
 
 ## -remarks
-[RawConfidence](speechrecognitionresult_rawconfidence.md) does not indicate the likelihood that a phrase was correctly recognized. Instead it provides a way to compare the relative accuracy of alternatives returned with the recognition result. For example, a [RawConfidence](speechrecognitionresult_rawconfidence.md) score of 0.8 does not mean that a result is 80% likely to be correct; it means the phrase is more likely than an alternative with a [RawConfidence](speechrecognitionresult_rawconfidence.md) of 0.7.
+RawConfidence does not indicate the likelihood that a phrase was correctly recognized. Instead it provides a way to compare the relative accuracy of alternatives returned with the recognition result. For example, a RawConfidence score of 0.8 does not mean that a result is 80% likely to be correct; it means the phrase is more likely than an alternative with a RawConfidence of 0.7.
 
-Do not use [RawConfidence](speechrecognitionresult_rawconfidence.md) to determine whether a result should be discarded. [RawConfidence](speechrecognitionresult_rawconfidence.md) values are unique to each recognition engine and can vary between sessions or devices. Instead, check the [Confidence](speechrecognitionresult_confidence.md) property, which indicates a [SpeechRecognitionConfidence](speechrecognitionconfidence.md) of High, Medium, Low or Rejected.
+Do not use RawConfidence to determine whether a result should be discarded. RawConfidence values are unique to each recognition engine and can vary between sessions or devices. Instead, check the [Confidence](speechrecognitionresult_confidence.md) property, which indicates a [SpeechRecognitionConfidence](speechrecognitionconfidence.md) of High, Medium, Low or Rejected.
 
 
 

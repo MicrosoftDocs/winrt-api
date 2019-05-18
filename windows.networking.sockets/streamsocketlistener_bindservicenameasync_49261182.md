@@ -23,11 +23,11 @@ The protection level for encryption to set on any bound sockets.
 The asynchronous bind operation on a [StreamSocketListener](streamsocketlistener.md) object.
 
 ## -remarks
-The [BindServiceNameAsync(String, SocketProtectionLevel)](streamsocketlistener_bindservicenameasync_49261182.md) method binds to the local IP addresses of all network interfaces on the local computer and to the local service name or TCP port specified in the *localServiceName* parameter. For Bluetooth RFCOMM, this method binds to the Bluetooth Service ID specified in the *localServiceName* parameter on all Bluetooth interfaces. This method sets the protection level for encryption on any bound sockets to the *protectionLevel* parameter.
+The [BindServiceNameAsync(String, SocketProtectionLevel) method binds to the local IP addresses of all network interfaces on the local computer and to the local service name or TCP port specified in the *localServiceName* parameter. For Bluetooth RFCOMM, this method binds to the Bluetooth Service ID specified in the *localServiceName* parameter on all Bluetooth interfaces. This method sets the protection level for encryption on any bound sockets to the *protectionLevel* parameter.
 
 If the *localServiceName* parameter is an empty string, then the system will select the local TCP port on which to bind. A Bluetooth Service ID must be supplied to bind for Bluetooth.
 
-The [BindServiceNameAsync(String, SocketProtectionLevel)](streamsocketlistener_bindservicenameasync_49261182.md) method will fail if another app (another [StreamSocketListener](streamsocketlistener.md), for example) has already been bound to the local TCP port or Bluetooth Service ID specified in the *localServiceName* parameter.
+The [BindServiceNameAsync(String, SocketProtectionLevel) method will fail if another app (another [StreamSocketListener](streamsocketlistener.md), for example) has already been bound to the local TCP port or Bluetooth Service ID specified in the *localServiceName* parameter.
 
 The *protectionLevel* parameter must be set to **PlainSocket** for all sockets except those used over Bluetooth. When the socket is to be used over Bluetooth, the *protectionLevel* parameter can be set to **PlainSocket**, **BluetoothEncryptionAllowNullAuthentication**, or **BluetoothEncryptionWithAuthentication**. For more information, see the [SocketProtectionLevel](socketprotectionlevel.md) enumeration.
 

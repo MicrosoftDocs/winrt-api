@@ -13,9 +13,9 @@ public class HttpContentCodingWithQualityHeaderValue : Windows.Foundation.IStrin
 Represents accept encoding information used in the **Accept-Encoding** HTTP header on an HTTP request.
 
 ## -remarks
-The [HttpContentCodingWithQualityHeaderValue](httpcontentcodingwithqualityheadervalue.md) class represents accept encoding information used in the **Accept-Encoding** HTTP header on an HTTP request.
+The HttpContentCodingWithQualityHeaderValue class represents accept encoding information used in the **Accept-Encoding** HTTP header on an HTTP request.
 
-The [AcceptEncoding](httprequestheadercollection_acceptencoding.md) property on the [HttpRequestHeaderCollection](httprequestheadercollection.md) returns an [HttpContentCodingWithQualityHeaderValueCollection](httpcontentcodingwithqualityheadervaluecollection.md) that contains [HttpContentCodingWithQualityHeaderValue](httpcontentcodingwithqualityheadervalue.md) objects.
+The [AcceptEncoding](httprequestheadercollection_acceptencoding.md) property on the [HttpRequestHeaderCollection](httprequestheadercollection.md) returns an [HttpContentCodingWithQualityHeaderValueCollection](httpcontentcodingwithqualityheadervaluecollection.md) that contains HttpContentCodingWithQualityHeaderValue objects.
 
 ## -examples
 

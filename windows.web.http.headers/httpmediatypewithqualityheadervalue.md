@@ -13,9 +13,9 @@ public class HttpMediaTypeWithQualityHeaderValue : Windows.Foundation.IStringabl
 Represents accept information used in the **Accept** HTTP header on an HTTP request.
 
 ## -remarks
-The [HttpMediaTypeWithQualityHeaderValue](httpmediatypewithqualityheadervalue.md) class represents accept information used in the **Accept** HTTP header on an HTTP request.
+The HttpMediaTypeWithQualityHeaderValue class represents accept information used in the **Accept** HTTP header on an HTTP request.
 
-The [Accept](httprequestheadercollection_accept.md) property on the [HttpRequestHeaderCollection](httprequestheadercollection.md) returns an [HttpMediaTypeWithQualityHeaderValueCollection](httpmediatypewithqualityheadervaluecollection.md) that contains [HttpMediaTypeWithQualityHeaderValue](httpmediatypewithqualityheadervalue.md) objects.
+The [Accept](httprequestheadercollection_accept.md) property on the [HttpRequestHeaderCollection](httprequestheadercollection.md) returns an [HttpMediaTypeWithQualityHeaderValueCollection](httpmediatypewithqualityheadervaluecollection.md) that contains HttpMediaTypeWithQualityHeaderValue objects.
 
 The [Quality](httpmediatypewithqualityheadervalue_quality.md) property represents the quality factor that allows the user agent to indicate the relative degree of preference for the media type in a header. [Quality](httpmediatypewithqualityheadervalue_quality.md) uses a scale from 0 to 1. The default value is q=1.
 

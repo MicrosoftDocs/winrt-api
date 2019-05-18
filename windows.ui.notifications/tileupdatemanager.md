@@ -16,6 +16,12 @@ Creates [TileUpdater](tileupdater.md) objects used to change and update **Start*
 ## -remarks
 This is a static factory class and requires no instantiation.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | GetForUser |
+
 ## -examples
 The following example shows [GetTemplateContent](tileupdatemanager_gettemplatecontent_43644918.md) used to retrieve the XML content of a tile template and [CreateTileUpdaterForApplication](tileupdatemanager_createtileupdaterforapplication_1541898748.md) to send the notification to the app's tile.
 

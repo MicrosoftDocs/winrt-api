@@ -25,7 +25,7 @@ Occurs when the [WebView](webview.md) has finished parsing the current HTML cont
 
 + [NavigationStarting](webview_navigationstarting.md)
 + [ContentLoading](webview_contentloading.md)
-+ [DOMContentLoaded](webview_domcontentloaded.md)
++ DOMContentLoaded
 + [NavigationCompleted](webview_navigationcompleted.md)
 
 

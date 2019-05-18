@@ -21,7 +21,7 @@ The URI of the [HttpCookie](httpcookie.md) instances desired.
 The [HttpCookieCollection](httpcookiecollection.md) that contains the [HttpCookie](httpcookie.md) instances that are associated with a specific URI.
 
 ## -remarks
-The [GetCookies](httpcookiemanager_getcookies_1465382103.md) method creates a new instance of an [HttpCookieCollection](httpcookiecollection.md). Then the [HttpCookie](httpcookie.md) instances in the internal collection that are associated with the specified URI are read out and added to the new [HttpCookieCollection](httpcookiecollection.md).
+The GetCookies method creates a new instance of an [HttpCookieCollection](httpcookiecollection.md). Then the [HttpCookie](httpcookie.md) instances in the internal collection that are associated with the specified URI are read out and added to the new [HttpCookieCollection](httpcookiecollection.md).
 
 Below are the exceptions that this function throws.
 ### E_INVALIDARG

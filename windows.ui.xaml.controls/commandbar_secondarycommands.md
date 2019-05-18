@@ -29,7 +29,7 @@ Gets the collection of secondary command elements for the [CommandBar](commandba
 The collection of secondary command elements for the [CommandBar](commandbar.md). The default is an empty collection.
 
 ## -remarks
-The [SecondaryCommands](commandbar_secondarycommands.md) collection can contain only [AppBarButton](appbarbutton.md), [AppBarToggleButton](appbartogglebutton.md), or [AppBarSeparator](appbarseparator.md) command elements. The secondary commands are shown in the overflow menu when the [CommandBar](commandbar.md) is open.
+The SecondaryCommands collection can contain only [AppBarButton](appbarbutton.md), [AppBarToggleButton](appbartogglebutton.md), or [AppBarSeparator](appbarseparator.md) command elements. The secondary commands are shown in the overflow menu when the [CommandBar](commandbar.md) is open.
 
 ## -examples
 

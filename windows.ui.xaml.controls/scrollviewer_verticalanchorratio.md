@@ -16,16 +16,16 @@ Determines the vertical position of the ScrollViewer's *anchor point* with respe
 
 ## -property-value
 
-A normalized value (0.0f to 1.0f). The default is 0.0f.
+A normalized value (0.0 to 1.0). The default is 0.0.
 
 ## -remarks
 
-A value of 0.0 represents the top-most point within the viewport. A value of 1.0f represents the bottom-most point within the viewport. A value of 0.5f represents the center-most point within the viewport.
+A value of 0.0 represents the top-most point within the viewport. A value of 1.0 represents the bottom-most point within the viewport. A value of 0.5f represents the center-most point within the viewport.
 
 When the value is 0.0 or 1.0, the ScrollViewer applies special behavior when the scroll position is at the start or end of the scrollable area.
 
 ## -see-also
 
-* [IScrollAnchorProvider](iscrollanchorprovider)
+[IScrollAnchorProvider](iscrollanchorprovider.md)
 
 ## -examples

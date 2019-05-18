@@ -14,7 +14,7 @@ Represents a custom picker control. (Not recommended for Universal Windows Platf
 
 ## -remarks
 > [!NOTE]
-> [PickerFlyout](pickerflyout.md) is not supported for use in Universal Windows Platform (UWP) app for Windows 10. Instead, use a [Flyout](flyout.md) with a custom UI to present a custom picker control.
+> PickerFlyout is not supported for use in Universal Windows Platform (UWP) app for Windows 10. Instead, use a [Flyout](flyout.md) with a custom UI to present a custom picker control.
 
 ## -examples
 

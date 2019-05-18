@@ -22,6 +22,12 @@ Media extensions have the following limitations.
 + The registration persists for the lifetime of the MediaExtensionManager instance. 
 <!--ie the app process lifetime. Need to figure out what that means exactly in a MoApp with MoLifetime MoState MoManagement.-->
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | RegisterMediaExtensionForAppService |
+
 ## -examples
 
 ## -see-also

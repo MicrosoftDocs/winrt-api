@@ -15,7 +15,7 @@ Provides basic properties for the input pointer associated with a single mouse, 
 
 ## -remarks
 
-The [PointerPoint](pointerpoint.md) class implements IPointerPoint.
+The PointerPoint class implements IPointerPoint.
 
 See [PointerPointProperties](pointerpointproperties.md) for extended properties accessible through [Properties](pointerpoint_properties.md).
 
@@ -23,14 +23,14 @@ In most cases, we recommend that you get pointer info through the event argument
 
 If the event argument doesn't intrinsically expose the pointer details required by your app, you can get access to extended pointer data through the [GetCurrentPoint](../windows.ui.xaml/input/pointerroutedeventargs_getcurrentpoint_1761708789.md) and [GetIntermediatePoints](../windows.ui.xaml/input/pointerroutedeventargs_getintermediatepoints_1716242609.md) methods of [PointerRoutedEventArgs](../windows.ui.xaml/input/pointerroutedeventargs.md). Use these methods to specify the context of the pointer data.
 
-The static [PointerPoint](pointerpoint.md) methods, [GetCurrentPoint](pointerpoint_getcurrentpoint_131721878.md) and [GetIntermediatePoints](pointerpoint_getintermediatepoints_143894736.md), always use the app context.
+The static PointerPoint methods, [GetCurrentPoint](pointerpoint_getcurrentpoint_131721878.md) and [GetIntermediatePoints](pointerpoint_getintermediatepoints_143894736.md), always use the app context.
 
 > [!NOTE]
 > : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
 
 ## -examples
 
-In the following example, we query various pointer properties using a [PointerPoint](pointerpoint.md) object.
+In the following example, we query various pointer properties using a PointerPoint object.
 
 [!code-js[QueryPointer](../windows.ui.input/code/PointerInput_JS_DOM/js/js/default.js#SnippetQueryPointer)]
 

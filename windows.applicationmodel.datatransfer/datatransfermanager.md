@@ -27,6 +27,14 @@ The **DataTransferManager** class also has a [TargetApplicationChosen](datatrans
 
 This API is supported in native apps only.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | IsSupported |
+| 1703 | 15063 | ShareProvidersRequested |
+| 1709 | 16299 | ShowShareUI(ShareUIOptions) |
+
 ## -examples
 This example shows a typical way of using the **DataTransferManager** object.
 

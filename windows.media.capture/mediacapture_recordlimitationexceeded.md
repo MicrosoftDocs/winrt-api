@@ -13,7 +13,7 @@ public event Windows.Media.Capture.RecordLimitationExceededEventHandler RecordLi
 Occurs when the record limit is exceeded.
 
 ## -remarks
-If an app receives a [RecordLimitationExceeded](mediacapture_recordlimitationexceeded.md) event, it is expected to finalize the file it is recording. If it does not finalize, the capture engine will stop sending samples to the file that the app was recording to.
+If an app receives a RecordLimitationExceeded event, it is expected to finalize the file it is recording. If it does not finalize, the capture engine will stop sending samples to the file that the app was recording to.
 
 In the current release, the record limit is three hours.
 

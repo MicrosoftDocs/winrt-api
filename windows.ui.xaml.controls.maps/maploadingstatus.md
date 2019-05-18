@@ -36,9 +36,10 @@ Downloaded maps manager is unavailable
 
 ### Version history
 
-| Version | SDK version | Value added |
+| Windows version | SDK version | Value added |
 | -- | -- | -- |
 | 1511 | 10586 | DataUnavailable |
+| 1903 | 18362 | DownloadedMapsManagerUnavailable |
 
 ## -examples
 

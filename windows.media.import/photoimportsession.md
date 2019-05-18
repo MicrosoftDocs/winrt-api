@@ -18,6 +18,13 @@ Get an instance of this class by accessing the [PhotoImportOperation.Session](ph
 
 For how-to guidance for adding media import to your app, see [Import media from a device](https://msdn.microsoft.com/windows/uwp/audio-video-camera/import-media-from-a-device).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | RememberDeselectedItems |
+| 1607 | 14393 | SubfolderDateFormat |
+
 ## -examples
 
 ## -see-also

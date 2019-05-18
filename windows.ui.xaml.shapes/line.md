@@ -22,7 +22,7 @@ Draws a straight line between two points.
 Set the [Stroke](shape_stroke.md) to specify the color of the line. Set the [StrokeThickness](shape_strokethickness.md) property to specify the thickness of the line.
 
 ## -examples
-This example shows how to use the [Line](line.md) class to create three lines.
+This example shows how to use the Line class to create three lines.
 
 ```xaml
 <Canvas Height="300" Width="300">

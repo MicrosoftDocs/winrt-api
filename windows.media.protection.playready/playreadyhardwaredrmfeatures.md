@@ -36,7 +36,7 @@ if (supportsAes128Cbc)
 
 ### Version history
 
-| Version | SDK version | Value added |
+| Windows version | SDK version | Value added |
 | -- | -- | -- |
 | 1709 | 16299 | Aes128Cbc |
 

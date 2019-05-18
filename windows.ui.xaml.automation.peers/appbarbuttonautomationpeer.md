@@ -13,11 +13,11 @@ public class AppBarButtonAutomationPeer : Windows.UI.Xaml.Automation.Peers.Butto
 Exposes [AppBarButton](../windows.ui.xaml.controls/appbarbutton.md) types to Microsoft UI Automation.
 
 ## -remarks
-The Windows Runtime  [AppBarButton](../windows.ui.xaml.controls/appbarbutton.md) class creates a new [AppBarButtonAutomationPeer](appbarbuttonautomationpeer.md) as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. Derive your automation peer from [AppBarButtonAutomationPeer](appbarbuttonautomationpeer.md) if you are deriving a custom class from [AppBarButton](../windows.ui.xaml.controls/appbarbutton.md) and want to add automation support for additional features that you enabled in your custom class. Then override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) so that it returns your custom peer.
+The Windows Runtime  [AppBarButton](../windows.ui.xaml.controls/appbarbutton.md) class creates a new AppBarButtonAutomationPeer as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. Derive your automation peer from AppBarButtonAutomationPeer if you are deriving a custom class from [AppBarButton](../windows.ui.xaml.controls/appbarbutton.md) and want to add automation support for additional features that you enabled in your custom class. Then override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) so that it returns your custom peer.
 
 ### Default peer implementation and overrides in **AppBarButtonAutomationPeer**
 
-[AppBarButtonAutomationPeer](appbarbuttonautomationpeer.md) has overrides of **Core** methods such that the associated [AutomationPeer](automationpeer.md) methods provide peer-specific information to a Microsoft UI Automation client.
+AppBarButtonAutomationPeer has overrides of **Core** methods such that the associated [AutomationPeer](automationpeer.md) methods provide peer-specific information to a Microsoft UI Automation client.
 
 + [GetClassName](automationpeer_getclassname_614238974.md) returns "AppBarButton".
 + [GetName](automationpeer_getname_1386609741.md) does not use the [ButtonBaseAutomationPeer](buttonbaseautomationpeer.md) behavior that returns a string based on **Content**. Instead, it looks for a label / **LabeledBy** value. Otherwise, values from apps should come from [AutomationProperties.Name](../windows.ui.xaml.automation/automationproperties_name.md) usages in XAML UI definitions, not from values forwarded from the control by the peer.

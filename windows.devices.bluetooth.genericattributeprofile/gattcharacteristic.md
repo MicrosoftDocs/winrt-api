@@ -15,6 +15,18 @@ Represents a Characteristic of a GATT service. The GattCharacteristic object rep
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | GetDescriptorsAsync |
+| 1703 | 15063 | GetDescriptorsAsync(BluetoothCacheMode) |
+| 1703 | 15063 | GetDescriptorsForUuidAsync(Guid) |
+| 1703 | 15063 | GetDescriptorsForUuidAsync(Guid,BluetoothCacheMode) |
+| 1703 | 15063 | WriteClientCharacteristicConfigurationDescriptorWithResultAsync |
+| 1703 | 15063 | WriteValueWithResultAsync(IBuffer) |
+| 1703 | 15063 | WriteValueWithResultAsync(IBuffer,GattWriteOption) |
+
 ## -examples
 
 ## -see-also

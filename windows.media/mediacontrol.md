@@ -11,7 +11,7 @@ public class MediaControl
 
 ## -description
 > [!NOTE]
-> [MediaControl](mediacontrol.md) may be altered or unavailable for releases after Windows 8.1. Instead, use [SystemMediaTransportControls](systemmediatransportcontrols.md).
+> MediaControl may be altered or unavailable for releases after Windows 8.1. Instead, use [SystemMediaTransportControls](systemmediatransportcontrols.md).
 
 Describes the object that applications register with, to receive media focus and transport control notifications.
 

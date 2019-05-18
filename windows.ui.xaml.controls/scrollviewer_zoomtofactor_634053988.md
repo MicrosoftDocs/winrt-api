@@ -11,7 +11,7 @@ public void ZoomToFactor(System.Single factor)
 
 ## -description
 > [!NOTE]
-> [ZoomToFactor](scrollviewer_zoomtofactor_634053988.md) may be altered or unavailable for releases after Windows 8.1. Instead, use [ChangeView](scrollviewer_changeview_1425504772.md).
+> ZoomToFactor may be altered or unavailable for releases after Windows 8.1. Instead, use [ChangeView](scrollviewer_changeview_1425504772.md).
 
 Sets the effective value of [ZoomFactor](scrollviewer_zoomfactor.md).
 

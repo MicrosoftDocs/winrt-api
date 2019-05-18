@@ -19,6 +19,11 @@ To read frames from one or more [MediaFrameSource](mediaframesource.md) objects 
 
 For how-to guidance on using [MediaFrameSource](mediaframesource.md) to capture frames, see [Process media frames with MediaFrameReader](https://msdn.microsoft.com/windows/uwp/audio-video-camera/process-media-frames-with-mediaframereader).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1709 | 16299 | AcquisitionMode |
 
 ## -see-also
 

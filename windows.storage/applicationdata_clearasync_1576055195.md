@@ -13,7 +13,7 @@ public Windows.Foundation.IAsyncAction ClearAsync(Windows.Storage.ApplicationDat
 Removes all application data from the specified app data store.
 
 > [!NOTE]
-> [ClearAsync(ApplicationDataLocality)](applicationdata_clearasync_1576055195.md) method encounters an error if there are any open file handles. You should take care to close all open files prior to calling ClearAsync.
+> ClearAsync(ApplicationDataLocality) method encounters an error if there are any open file handles. You should take care to close all open files prior to calling ClearAsync.
 
 ## -parameters
 ### -param locality

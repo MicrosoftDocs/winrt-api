@@ -36,7 +36,7 @@ See [Request a maps authentication key](https://msdn.microsoft.com/windows/uwp/m
 
 ### Version history
 
-| Version | SDK version | Value added |
+| Windows version | SDK version | Value added |
 | -- | -- | -- |
 | 1709 | 16299 | Scenic |
 

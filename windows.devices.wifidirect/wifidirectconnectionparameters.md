@@ -15,6 +15,14 @@ Used by an app to specify the connection parameters for a Wi-Fi Direct connect/p
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1511 | 10586 | GetDevicePairingKinds |
+| 1511 | 10586 | PreferenceOrderedConfigurationMethods |
+| 1511 | 10586 | PreferredPairingProcedure |
+
 ## -examples
 
 ## -see-also

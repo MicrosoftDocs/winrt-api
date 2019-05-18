@@ -16,7 +16,7 @@ Gets the name of the open asymmetric algorithm.
 Algorithm name.
 
 ## -remarks
-You must call [OpenAlgorithm](asymmetrickeyalgorithmprovider_openalgorithm_637226074.md) before calling the [AlgorithmName](asymmetrickeyalgorithmprovider_algorithmname.md) property.
+You must call [OpenAlgorithm](asymmetrickeyalgorithmprovider_openalgorithm_637226074.md) before calling the AlgorithmName property.
 
 ## -examples
 

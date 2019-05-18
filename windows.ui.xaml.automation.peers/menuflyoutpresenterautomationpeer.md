@@ -13,11 +13,11 @@ public class MenuFlyoutPresenterAutomationPeer : Windows.UI.Xaml.Automation.Peer
 Exposes [MenuFlyoutPresenter](../windows.ui.xaml.controls/menuflyoutpresenter.md) types to Microsoft UI Automation.
 
 ## -remarks
-The Windows Runtime  [MenuFlyoutPresenter](../windows.ui.xaml.controls/menuflyoutpresenter.md) class creates a new [MenuFlyoutPresenterAutomationPeer](menuflyoutpresenterautomationpeer.md) as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. Derive your automation peer from [MenuFlyoutPresenterAutomationPeer](menuflyoutpresenterautomationpeer.md) if you are deriving a custom class from [MenuFlyoutPresenter](../windows.ui.xaml.controls/menuflyoutpresenter.md) and want to add automation support for additional features that you enabled in your custom class. Then override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) so that it returns your custom peer.
+The Windows Runtime  [MenuFlyoutPresenter](../windows.ui.xaml.controls/menuflyoutpresenter.md) class creates a new MenuFlyoutPresenterAutomationPeer as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. Derive your automation peer from MenuFlyoutPresenterAutomationPeer if you are deriving a custom class from [MenuFlyoutPresenter](../windows.ui.xaml.controls/menuflyoutpresenter.md) and want to add automation support for additional features that you enabled in your custom class. Then override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) so that it returns your custom peer.
 
 ### Default peer implementation and overrides in **MenuFlyoutPresenterAutomationPeer**
 
-[MenuFlyoutPresenterAutomationPeer](menuflyoutpresenterautomationpeer.md) has overrides of **Core** methods such that the associated [AutomationPeer](automationpeer.md) methods provide peer-specific information to a Microsoft UI Automation client.
+MenuFlyoutPresenterAutomationPeer has overrides of **Core** methods such that the associated [AutomationPeer](automationpeer.md) methods provide peer-specific information to a Microsoft UI Automation client.
 
 + [GetClassName](automationpeer_getclassname_614238974.md) returns "MenuFlyout".
 + [GetAutomationControlType](automationpeer_getautomationcontroltype_1156384152.md) returns [AutomationControlType.Menu](automationcontroltype.md).

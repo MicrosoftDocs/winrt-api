@@ -21,7 +21,7 @@ Provides the animated transition behavior for when list-view controls items chan
 Note that setting the [Duration](timeline_duration.md) property has no effect on this object since the duration is preconfigured.
 
 ## -examples
-The following example applies a [ReorderThemeAnimation](reorderthemetransition.md) to a set of rectangles. As the new rectangles are added to the set, the other rectangles animate around the new one.
+The following example applies a ReorderThemeAnimation to a set of rectangles. As the new rectangles are added to the set, the other rectangles animate around the new one.
 
 ```xaml
 <StackPanel>

@@ -14,6 +14,13 @@ Contains event data for the [ControlAcquired](radialcontroller_controlacquired.m
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | IsButtonPressed |
+| 1703 | 15063 | SimpleHapticsController |
+
 ## -examples
 
 ## -see-also

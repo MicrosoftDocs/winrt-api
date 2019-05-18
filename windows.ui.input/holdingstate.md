@@ -31,7 +31,7 @@ To support [Holding](gesturerecognizer_holding.md) with touch and pen/stylus inp
 
 To support [Holding](gesturerecognizer_holding.md) with mouse input, specify [HoldWithMouse](gesturesettings.md) in the [GestureSettings](gesturerecognizer_gesturesettings.md) property.
 
-The [Holding](gesturerecognizer_holding.md) event is fired twice: Once when holding starts ([started](holdingstate.md)) and again when holding ends ([completed](holdingstate.md) or [canceled](holdingstate.md)).
+The [Holding](gesturerecognizer_holding.md) event is fired twice: Once when holding starts (started) and again when holding ends (completed or canceled).
 
 ## -examples
 

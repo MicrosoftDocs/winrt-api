@@ -18,7 +18,7 @@ The collection of [HttpContentCodingHeaderValue](httpcontentcodingheadervalue.md
 ## -remarks
 
 
-The following sample code shows a method to get or set the **Content-Encoding** header value on HTTP content using the [ContentEncoding](httpcontentheadercollection_contentencoding.md) property on the [HttpContentHeaderCollection](httpcontentheadercollection.md) object.
+The following sample code shows a method to get or set the **Content-Encoding** header value on HTTP content using the ContentEncoding property on the [HttpContentHeaderCollection](httpcontentheadercollection.md) object.
 
 ```csharp
     // Content-Encoding header

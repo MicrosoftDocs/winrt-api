@@ -20,7 +20,7 @@ The sharing token for the shared file.
 A wrapper object that contains the shared file.
 
 ## -remarks
-When a source app shares a file with a target app, the target app calls the [RedeemTokenForFileAsync](sharedstorageaccessmanager_redeemtokenforfileasync_2095026872.md) method to get the shared file.
+When a source app shares a file with a target app, the target app calls the RedeemTokenForFileAsync method to get the shared file.
 
 For a code sample, see [SharedStorageAccessManager](sharedstorageaccessmanager.md).
 

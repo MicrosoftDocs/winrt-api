@@ -14,6 +14,11 @@ Represents a smart card emulator device.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1709 | 16299 | IsSupported |
 
 ## -examples
 

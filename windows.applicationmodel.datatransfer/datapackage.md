@@ -23,6 +23,12 @@ Target apps can use the [DataPackageView](datapackageview.md) object to acquire 
 
 This API is supported in native apps only.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | ShareCompleted |
+
 ## -examples
 
 

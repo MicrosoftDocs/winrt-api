@@ -13,7 +13,7 @@ public class SyndicationContent : Windows.Web.Syndication.ISyndicationContent, W
 Represents feed content including Text, HTML, XHTML, URL, and XML. This object encapsulates the **atom:content** element in *Atom 1.0* and can contain a link to external content.
 
 ## -remarks
-The following table maps [SyndicationContent](syndicationcontent.md) properties to RSS and Atom feed elements.
+The following table maps SyndicationContent properties to RSS and Atom feed elements.
 
 <table>
    <tr><th>SyndicationContent</th><th>RSS</th><th>Atom</th></tr>

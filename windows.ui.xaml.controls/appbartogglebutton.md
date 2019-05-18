@@ -21,7 +21,7 @@ Represents a button control that can switch states and be displayed in an [AppBa
 
 ## -remarks
 
-An [AppBarToggleButton](appbartogglebutton.md) is similar to an [AppBarButton](appbarbutton.md) with an additional toggle state. When used inside a [CommandBar](commandbar.md). the visual appearance changes based on whether the control appears in the primary commands or the overflow menu. Here is an example of a toggled button as both a primary command and secondary command.
+An AppBarToggleButton is similar to an [AppBarButton](appbarbutton.md) with an additional toggle state. When used inside a [CommandBar](commandbar.md). the visual appearance changes based on whether the control appears in the primary commands or the overflow menu. Here is an example of a toggled button as both a primary command and secondary command.
 
 <img src="images/AppBarToggleButton_TwoModes.png" alt="App bar button icon examples." />
 
@@ -31,7 +31,7 @@ You can modify the default [Style](../windows.ui.xaml/style.md) and [ControlTemp
 
 Starting in Windows 10, version 1607 (SDK 14393), generic.xaml includes resources that you can use to modify the colors of a control in different visual states without modifying the control template. In apps that target this software development kit (SDK) or later, modifying these resources is preferred to setting properties such as [Background](control_background.md) and [Foreground](control_foreground.md). For more info, see the [Light-weight styling](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) section of the [Styling controls](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) article.
 
-This table shows the resources used by the [AppBarToggleButton](appbartogglebutton.md) control.
+This table shows the resources used by the AppBarToggleButton control.
 
 <table>
    <tr><th>Resource key</th><th>Description</th></tr>
@@ -77,6 +77,16 @@ This table shows the resources used by the [AppBarToggleButton](appbartogglebutt
    <tr><td>AppBarToggleButtonOverflowLabelForegroundCheckedPressed</td><td>Label text color when pressed and checked (in overflow)</td></tr>
    <tr><td>AppBarToggleButtonOverflowLabelForegroundCheckedDisabled</td><td>Label text color when disabled and checked (in overflow)</td></tr>
 </table>
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | DynamicOverflowOrder |
+| 1607 | 14393 | IsInOverflow |
+| 1607 | 14393 | LabelPosition |
+| 1803 | 17134 | KeyboardAcceleratorTextOverride |
+| 1803 | 17134 | TemplateSettings |
 
 ## -examples
 

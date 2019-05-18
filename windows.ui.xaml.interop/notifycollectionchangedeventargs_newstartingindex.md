@@ -18,7 +18,7 @@ The index at which the change occurred.
 ## -remarks
 When programming with .NET, this class is hidden and developers should use the [System.Collections.Specialized.NotifyCollectionChangedEventArgs](https://msdn.microsoft.com/library/system.collections.specialized.notifycollectionchangedeventargs.aspx) class.
 
-[NewStartingIndex](notifycollectionchangedeventargs_newstartingindex.md) will contain the following values, depending on the [Action](notifycollectionchangedeventargs_action.md) being reported in the event data. <table>
+NewStartingIndex will contain the following values, depending on the [Action](notifycollectionchangedeventargs_action.md) being reported in the event data. <table>
    <tr><th>Action</th><th>Value</th></tr>
    <tr><td>**Add**</td><td>The index of the newly added item.</td></tr>
    <tr><td>**Move**</td><td>The index of the newly added item. Because a **Move** can logically be considered a virtual **Remove** followed by a virtual **Add**, the index reported here might already be adjusted for the virtual **Remove**.</td></tr>

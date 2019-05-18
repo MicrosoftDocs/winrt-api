@@ -11,7 +11,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Foundation.Collections.IVector
 
 ## -description
 > [!NOTE]
-> [GetCurrentDownloadsAsync(group)](backgrounddownloader_getcurrentdownloadsasync_405117897.md) may be altered or unavailable for releases after Windows 8.1. Instead, use [GetCurrentDownloadsForTransferGroupAsync](backgrounddownloader_getcurrentdownloadsfortransfergroupasync_1466993145.md).
+> GetCurrentDownloadsAsync(group) may be altered or unavailable for releases after Windows 8.1. Instead, use [GetCurrentDownloadsForTransferGroupAsync](backgrounddownloader_getcurrentdownloadsfortransfergroupasync_1466993145.md).
 
 Returns a collection of pending downloads for a specific [Group](backgrounddownloader_group.md).
 

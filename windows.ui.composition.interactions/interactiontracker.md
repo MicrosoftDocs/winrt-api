@@ -26,7 +26,6 @@ IneractionTracker is intended to be used for:
 + Input-driven animation of an effect, for example panning causes the screen to blur
 + Custom Controls, for example creating a custom implementation of a ScrollViewer with different panning speeds or the ability to be controlled programmatically
 
-
 ### InteractionTracker States and Transitions
 
 The InteractionTracker is a state machine with four states:
@@ -75,13 +74,26 @@ By default, the minimum and maximum position channels are all 0, and the minimum
 
 ### InteractionTracker and ExpressionAnimations
 
-[InteractionTracker](interactiontracker.md) exposes a variety of properties that can be used in the context of [ExpressionAnimation](../windows.ui.composition/expressionanimation.md) s to drive updates to animatable properties of [CompositionObject](../windows.ui.composition/compositionobject.md) s. Due to the asynchronous nature of [InteractionTracker](interactiontracker.md), it is not advised to query these properties directly. Instead, you should use the properties delivered in callbacks for driving application logic, and to reference the values in an [ExpressionAnimation](../windows.ui.composition/expressionanimation.md) for updating animatable properties.
+InteractionTracker exposes a variety of properties that can be used in the context of [ExpressionAnimation](../windows.ui.composition/expressionanimation.md) s to drive updates to animatable properties of [CompositionObject](../windows.ui.composition/compositionobject.md) s. Due to the asynchronous nature of InteractionTracker, it is not advised to query these properties directly. Instead, you should use the properties delivered in callbacks for driving application logic, and to reference the values in an [ExpressionAnimation](../windows.ui.composition/expressionanimation.md) for updating animatable properties.
 
-As mentioned above, the two most commonly used properties of the [InteractionTracker](interactiontracker.md) are the [Position](interactiontracker_position.md) and Scale properties. These are the properties that will update in response to user input and Try* calls. Using these properties inside ExpressionAnimations will cause the animatable properties of CompositionObjects to update in response. For example, the InteractionTracker.position property may be tied to the Offset of a Visual. It is also common to use these properties to populate a CompositionPropertySet that tracks progress, which can in turn drive a series of coordinated animations.
+As mentioned above, the two most commonly used properties of the InteractionTracker are the [Position](interactiontracker_position.md) and Scale properties. These are the properties that will update in response to user input and Try* calls. Using these properties inside ExpressionAnimations will cause the animatable properties of CompositionObjects to update in response. For example, the InteractionTracker.position property may be tied to the Offset of a Visual. It is also common to use these properties to populate a CompositionPropertySet that tracks progress, which can in turn drive a series of coordinated animations.
 
 ### Directing Input to the InteractionTracker
 
-After being configured, [InteractionTracker](interactiontracker.md) still requires one last step to actually receive touch input and respond. Please see the documentation on VisualInteractionSource.[TryRedirectForManipulation](visualinteractionsource_tryredirectformanipulation_1406704629.md) for more information on configuring incoming input to flow into the InteractionTracker.
+After being configured, InteractionTracker still requires one last step to actually receive touch input and respond. Please see the documentation on VisualInteractionSource.[TryRedirectForManipulation](visualinteractionsource_tryredirectformanipulation_1406704629.md) for more information on configuring incoming input to flow into the InteractionTracker.
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | ConfigureCenterPointXInertiaModifiers |
+| 1703 | 15063 | ConfigureCenterPointYInertiaModifiers |
+| 1709 | 16299 | ConfigureVector2PositionInertiaModifiers |
+| 1809 | 17763 | IsInertiaFromImpulse |
+| 1809 | 17763 | TryUpdatePosition(Vector3,InteractionTrackerClampingOption) |
+| 1809 | 17763 | TryUpdatePositionBy(Vector3,InteractionTrackerClampingOption) |
+| 1903 | 18362 | GetBindingMode |
+| 1903 | 18362 | SetBindingMode |
 
 ## -examples
 

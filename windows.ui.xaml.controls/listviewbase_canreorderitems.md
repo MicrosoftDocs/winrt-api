@@ -22,14 +22,14 @@ Gets or sets a value that indicates whether items in the view can be reordered t
 **True** if items in the view can be reordered through user interaction; otherwise, **false**. The default is **false**.
 
 ## -remarks
-To enable users to reorder items using drag-and-drop interaction, you must set both the [CanReorderItems](listviewbase_canreorderitems.md) and [AllowDrop](../windows.ui.xaml/uielement_allowdrop.md) properties to **true**.
+To enable users to reorder items using drag-and-drop interaction, you must set both the CanReorderItems and [AllowDrop](../windows.ui.xaml/uielement_allowdrop.md) properties to **true**.
 
 Built in reordering is not supported when items are grouped, or when a [VariableSizedWrapGrid](variablesizedwrapgrid.md) is used as the [ItemsPanel](itemscontrol_itemspanel.md).
 
 Setting [IsSwipeEnabled](listviewbase_isswipeenabled.md) to **false** disables some default touch interactions, so it should be set to **true** when these interactions are needed. For example:
 + If item selection is enabled and you set [IsSwipeEnabled](listviewbase_isswipeenabled.md) to **false**, a user can deselect items by right-clicking with the mouse, but can't deselect an item with touch by using a *swipe* gesture.
 + If you set [CanDragItems](listviewbase_candragitems.md) to **true** and [IsSwipeEnabled](listviewbase_isswipeenabled.md) to **false**, a user can drag items with the mouse, but not with touch.
-+ If you set [CanReorderItems](listviewbase_canreorderitems.md) to **true** and [IsSwipeEnabled](listviewbase_isswipeenabled.md) to **false**, a user can reorder items with the mouse, but not with touch.
++ If you set CanReorderItems to **true** and [IsSwipeEnabled](listviewbase_isswipeenabled.md) to **false**, a user can reorder items with the mouse, but not with touch.
 
 
 ## -examples

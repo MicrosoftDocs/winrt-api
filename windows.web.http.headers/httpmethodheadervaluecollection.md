@@ -13,9 +13,9 @@ public class HttpMethodHeaderValueCollection : Windows.Foundation.Collections.II
 Represents the value of the **Allow** HTTP header on an HTTP response.
 
 ## -remarks
-The [HttpMethodHeaderValueCollection](httpmethodheadervaluecollection.md) class represents the **Allow** HTTP header on an HTTP response.
+The HttpMethodHeaderValueCollection class represents the **Allow** HTTP header on an HTTP response.
 
-The [Allow](httpresponseheadercollection_allow.md) property on the [HttpResponseHeaderCollection](httpresponseheadercollection.md) returns an [HttpMethodHeaderValueCollection](httpmethodheadervaluecollection.md) object.
+The [Allow](httpresponseheadercollection_allow.md) property on the [HttpResponseHeaderCollection](httpresponseheadercollection.md) returns an HttpMethodHeaderValueCollection object.
 
 ## -examples
 

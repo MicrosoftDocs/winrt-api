@@ -19,7 +19,7 @@ Represents an easing function that creates an animation that accelerates and/or 
 
 
 ## -remarks
-[CircleEase](circleease.md) is an easing function that has a function-over-time formula that resembles a cosine curve when represented as a function-time graph. When [EasingMode](easingfunctionbase_easingmode.md) is **EaseIn** (the default), this easing function starts slow and accelerates gradually as it reaches the end. It reaches about 15% value halfway through the duration.
+CircleEase is an easing function that has a function-over-time formula that resembles a cosine curve when represented as a function-time graph. When [EasingMode](easingfunctionbase_easingmode.md) is **EaseIn** (the default), this easing function starts slow and accelerates gradually as it reaches the end. It reaches about 15% value halfway through the duration.
 
 An easing function can be applied to the **EasingFunction** properties of **From**/**To**/**By** animations, or to the **EasingFunction** properties of key-frame types used for the **Easing** variants of key-frame animations. For more info, see [Key-frame animations and easing function animations](https://msdn.microsoft.com/library/d8af24cd-f4c2-4562-afd7-25010955d677).
 
@@ -30,7 +30,7 @@ The formula used for this function is:
 An easing function can be applied to the **EasingFunction** properties of **From**/**To**/**By** animations, or to the **EasingFunction** properties of key-frame types used for the **Easing** variants of key-frame animations. For more info, see [Key-frame animations and easing function animations](https://msdn.microsoft.com/library/d8af24cd-f4c2-4562-afd7-25010955d677).
 
 ## -examples
-This XAML example applies a [CircleEase](circleease.md) easing function to a [DoubleAnimation](doubleanimation.md) to create a decelerating animation.
+This XAML example applies a CircleEase easing function to a [DoubleAnimation](doubleanimation.md) to create a decelerating animation.
 
 
 

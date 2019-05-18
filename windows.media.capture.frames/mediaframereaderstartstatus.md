@@ -10,7 +10,7 @@ public enum Windows.Media.Capture.Frames.MediaFrameReaderStartStatus : int
 # MediaFrameReaderStartStatus
 
 ## -description
-Specifies the result of a call to [StartAsync](mediaframereader_startasync_1931900819.md) to start the reading of media frames by a [MediaFrameReader](mediaframereaderstartstatus.md).
+Specifies the result of a call to [StartAsync](mediaframereader_startasync_1931900819.md) to start the reading of media frames by a MediaFrameReader.
 
 ## -enum-fields
 ### -field Success:0
@@ -30,7 +30,7 @@ The operation failed because the requested output format is not supported by the
 
 ### Version history
 
-| Version | SDK version | Value added |
+| Windows version | SDK version | Value added |
 | -- | -- | -- |
 | 1703 | 15063 | ExclusiveControlNotAvailable |
 

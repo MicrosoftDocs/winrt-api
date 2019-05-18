@@ -13,11 +13,11 @@ public class ListBoxAutomationPeer : Windows.UI.Xaml.Automation.Peers.SelectorAu
 Exposes [ListBox](../windows.ui.xaml.controls/listbox.md) types to Microsoft UI Automation.
 
 ## -remarks
-The Windows Runtime  [ListBox](../windows.ui.xaml.controls/listbox.md) class creates a new [ListBoxAutomationPeer](listboxautomationpeer.md) as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. Derive your automation peer from [ListBoxAutomationPeer](listboxautomationpeer.md) if you are deriving a custom class from [ListBox](../windows.ui.xaml.controls/listbox.md) and want to add automation support for additional features that you enabled in your custom class. Then override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) so that it returns your custom peer.
+The Windows Runtime  [ListBox](../windows.ui.xaml.controls/listbox.md) class creates a new ListBoxAutomationPeer as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. Derive your automation peer from ListBoxAutomationPeer if you are deriving a custom class from [ListBox](../windows.ui.xaml.controls/listbox.md) and want to add automation support for additional features that you enabled in your custom class. Then override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) so that it returns your custom peer.
 
 ### Default peer implementation and overrides in **ListBoxAutomationPeer**
 
-[ListBoxAutomationPeer](listboxautomationpeer.md) has overrides of **Core** methods such that the associated [AutomationPeer](automationpeer.md) methods provide peer-specific information to a Microsoft UI Automation client.
+ListBoxAutomationPeer has overrides of **Core** methods such that the associated [AutomationPeer](automationpeer.md) methods provide peer-specific information to a Microsoft UI Automation client.
 
 + [GetPattern](automationpeer_getpattern_2046576749.md) reports that the peer provides pattern support for [PatternInterface.Selection](patterninterface.md) ([ISelectionProvider](../windows.ui.xaml.automation.provider/iselectionprovider.md)) and [PatternInterface.ItemContainer](patterninterface.md) ([IItemContainerProvider](../windows.ui.xaml.automation.provider/iitemcontainerprovider.md)). This comes from peer base classes.
 + [GetClassName](automationpeer_getclassname_614238974.md) returns "ListBox".

@@ -20,7 +20,7 @@ The ID of the pointer input.
 The [PointerDevice](pointerdevice.md) object that represents the associated pointer device.
 
 ## -remarks
-[GetPointerDevice](pointerdevice_getpointerdevice_227282961.md) is a static method.
+GetPointerDevice is a static method.
 
 The input pointer specified by *pointerId* must identify an active input.
 

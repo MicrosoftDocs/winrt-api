@@ -15,7 +15,7 @@ Contains information for the entire Document Object Model. This interface repres
 ## -remarks
 ### Interface inheritance
 
-[IXmlNode](ixmlnode.md) inherits [IXmlNodeSelector](ixmlnodeselector.md) and [IXmlNodeSerializer](ixmlnodeserializer.md). Types that implement [IXmlNode](ixmlnode.md) also implement the interface members of [IXmlNodeSelector](ixmlnodeselector.md) and [IXmlNodeSerializer](ixmlnodeserializer.md).
+IXmlNode inherits [IXmlNodeSelector](ixmlnodeselector.md) and [IXmlNodeSerializer](ixmlnodeserializer.md). Types that implement IXmlNode also implement the interface members of [IXmlNodeSelector](ixmlnodeselector.md) and [IXmlNodeSerializer](ixmlnodeserializer.md).
 
 ## -examples
 

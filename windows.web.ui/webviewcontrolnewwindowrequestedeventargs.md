@@ -14,6 +14,13 @@ Provides data for the [NewWindowRequested](iwebviewcontrol_newwindowrequested.md
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1809 | 17763 | GetDeferral |
+| 1809 | 17763 | NewWindow |
+
 ## -see-also
 
 ## -examples

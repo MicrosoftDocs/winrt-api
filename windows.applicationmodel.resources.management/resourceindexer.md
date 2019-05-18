@@ -16,7 +16,7 @@ Indexes source resource files or containers, and generates named resource candid
 > You can't use this class in a UWP app.
 
 ## -remarks
-[ResourceIndexer](resourceindexer.md) does not guarantee parity of discovered resource candidates with MakePRI.exe because MakePRI may have arbitrary configurations.
+ResourceIndexer does not guarantee parity of discovered resource candidates with MakePRI.exe because MakePRI may have arbitrary configurations.
 
 ## -examples
 

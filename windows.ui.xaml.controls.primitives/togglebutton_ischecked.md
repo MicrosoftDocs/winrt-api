@@ -32,9 +32,9 @@ If you are programming using C#or Microsoft Visual Basic, the type of this prope
 ## -remarks
 [ToggleButton](togglebutton.md) and can have three states: <table>
    <tr><th>State</th><th>Property</th><th>Value</th></tr>
-   <tr><td>checked</td><td>[  IsChecked](togglebutton_ischecked.md)</td><td>**true**</td></tr>
-   <tr><td>unchecked</td><td>[  IsChecked](togglebutton_ischecked.md)</td><td>**false**</td></tr>
-   <tr><td>indeterminate</td><td>[  IsChecked](togglebutton_ischecked.md)</td><td>**null**</td></tr>
+   <tr><td>checked</td><td>[  IsChecked</td><td>**true**</td></tr>
+   <tr><td>unchecked</td><td>[  IsChecked</td><td>**false**</td></tr>
+   <tr><td>indeterminate</td><td>[  IsChecked</td><td>**null**</td></tr>
 </table>
 
  For the [ToggleButton](togglebutton.md) to report the indeterminate state, you must set the [IsThreeState](togglebutton_isthreestate.md) property to **true**.

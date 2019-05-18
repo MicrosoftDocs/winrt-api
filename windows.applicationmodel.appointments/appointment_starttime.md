@@ -10,14 +10,14 @@ public Windows.Foundation.DateTime StartTime { get;  set; }
 # Windows.ApplicationModel.Appointments.Appointment.StartTime
 
 ## -description
-Gets or sets the starting time for the appointment. [StartTime](appointment_starttime.md) is of type [DateTime](../windows.foundation/datetime.md).
+Gets or sets the starting time for the appointment. StartTime is of type [DateTime](../windows.foundation/datetime.md).
 
 ## -property-value
 The date and time to use as the starting time for the appointment.
 
 ## -remarks
 This property uses an object representing date and time, and that object is represented differently depending on which language you are programming with.
-+ In JavaScript, set the [StartTime](appointment_starttime.md) value with a **Date** object. For example, this code sets a [StartTime](appointment_starttime.md) value to a specific date and time. ```javascript
++ In JavaScript, set the StartTime value with a **Date** object. For example, this code sets a StartTime value to a specific date and time. ```javascript
 appointment.startTime = new Date(2015, 9, 10, 9); // October 10th, 2015 at 9:00am
 ```
 

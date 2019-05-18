@@ -13,7 +13,7 @@ public event Windows.Foundation.TypedEventHandler Dismissed<Windows.ApplicationM
 Fires when the app's splash screen is dismissed.
 
 ## -remarks
-When the [dismissed](splashscreen_dismissed.md) event fires, the first view of your app is visible on the user's screen.
+When the dismissed event fires, the first view of your app is visible on the user's screen.
 
 Avoid increasing the time required to load your app by using this event as a trigger to perform loading tasks (like loading network data) and animations.
 

@@ -10,12 +10,12 @@ public class Panel : Windows.UI.Xaml.FrameworkElement, Windows.UI.Xaml.Controls.
 # Windows.UI.Xaml.Controls.Panel
 
 ## -description
-Provides a base class for all [Panel](panel.md) elements. Use [Panel](panel.md) elements to position and arrange child objects in a UI page.
+Provides a base class for all Panel elements. Use Panel elements to position and arrange child objects in a UI page.
 
 ## -remarks
 ### **Panel** derived classes
 
-[Panel](panel.md) is the parent class for several immediately derived classes. Some of these are practical layout containers/panels. Others are intermediate base classes for specialized panels.
+Panel is the parent class for several immediately derived classes. Some of these are practical layout containers/panels. Others are intermediate base classes for specialized panels.
 + [Canvas](canvas.md)
 + [Grid](grid.md)
 + [ItemsStackPanel](itemsstackpanel.md)
@@ -25,6 +25,11 @@ Provides a base class for all [Panel](panel.md) elements. Use [Panel](panel.md) 
 + [VariableSizedWrapGrid](variablesizedwrapgrid.md)
 + [VirtualizingPanel](virtualizingpanel.md)
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1809 | 17763 | BackgroundTransition |
 
 ## -examples
 

@@ -18,7 +18,7 @@ The pencil draws a soft-edged, textured, and semi-transparent stroke (useful for
 
 The [InkToolbar](inktoolbar.md) consists of two distinct groups of button types:
 
-+ One group of "tool" buttons containing the built-in drawing ([InkToolbarBallpointPenButton](inktoolbarballpointpenbutton.md), [InkToolbarPencilButton](inktoolbarpencilbutton.md)), erasing ([InkToolbarEraserButton](inktoolbareraserbutton.md)), and highlighting ([InkToolbarHighlighterButton](inktoolbarhighlighterbutton.md)) buttons. Custom tools ([InkToolbarCustomPenButton](inktoolbarcustompenbutton.md) and [InkToolbarCustomToolButton](inktoolbarcustomtoolbutton.md)) are added here.
++ One group of "tool" buttons containing the built-in drawing ([InkToolbarBallpointPenButton](inktoolbarballpointpenbutton.md), InkToolbarPencilButton), erasing ([InkToolbarEraserButton](inktoolbareraserbutton.md)), and highlighting ([InkToolbarHighlighterButton](inktoolbarhighlighterbutton.md)) buttons. Custom tools ([InkToolbarCustomPenButton](inktoolbarcustompenbutton.md) and [InkToolbarCustomToolButton](inktoolbarcustomtoolbutton.md)) are added here.
 
     > Feature selection is mutually exclusive.
 
@@ -27,7 +27,7 @@ The [InkToolbar](inktoolbar.md) consists of two distinct groups of button types:
     > Features are not mutually exclusive and can be used concurrently with other active tools.
 
 
-[InkToolbarPencilButton](inktoolbarpencilbutton.md) inherits from [InkToolbarPenButton](inktoolbarpenbutton.md).
+InkToolbarPencilButton inherits from [InkToolbarPenButton](inktoolbarpenbutton.md).
 
 ## -examples
 

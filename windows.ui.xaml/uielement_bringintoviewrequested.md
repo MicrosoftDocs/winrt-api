@@ -24,7 +24,7 @@ In general, the event data ([BringIntoViewRequestedEventArgs](bringintoviewreque
 
 The [OriginalSource](routedeventargs_originalsource.md) should be used to determine the element on which the event was originally raised given that the [TargetElement](bringintoviewrequestedeventargs_targetelement.md) may be modified as the event bubbles.
 
-[BringIntoViewRequested](uielement_bringintoviewrequested.md) is a routed event. For more info on the routed event concept, see [Events and routed events overview](https://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
+BringIntoViewRequested is a routed event. For more info on the routed event concept, see [Events and routed events overview](https://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
 
 ## -see-also
 

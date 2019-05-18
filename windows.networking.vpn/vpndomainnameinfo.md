@@ -14,6 +14,12 @@ Specifies the name policy for a specific namespace. It can specify the DNS serve
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | WebProxyUris |
+
 ## -examples
 
 ## -see-also

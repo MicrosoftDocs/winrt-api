@@ -16,7 +16,7 @@ Gets or sets the outer margin of the focus visual for a [FrameworkElement](frame
 Provides margin values for the focus visual. The default value is a default [Thickness](thickness.md) with all properties (dimensions) equal to 0.
 
 ## -remarks
-[FocusVisualMargin](frameworkelement_focusvisualmargin.md) values greater than 0 apply space outside the [ActualWidth](frameworkelement_actualwidth.md) and [ActualHeight](frameworkelement_actualheight.md) of the object.
+FocusVisualMargin values greater than 0 apply space outside the [ActualWidth](frameworkelement_actualwidth.md) and [ActualHeight](frameworkelement_actualheight.md) of the object.
 
 Negative values for margin dimensions are permitted, but should be used with caution. Negative margins can cause the content of the object to be clipped.
 

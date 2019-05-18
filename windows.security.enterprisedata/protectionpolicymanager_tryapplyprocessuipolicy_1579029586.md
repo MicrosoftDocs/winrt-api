@@ -13,7 +13,7 @@ public bool TryApplyProcessUIPolicy(System.String identity)
 > [!NOTE]
 > Windows Information Protection (WIP) policy cannot be applied on Windows 10, version 1511 (build 10586) or earlier.
 
-Enables UI policy enforcement for an enterprise identity. When an app is about to display a protected file (such as a PDF) or resource (buffer or stream) on its UI, it must enable UI policy enforcement based on the identity the file is protected to. A call to [TryApplyProcessUIPolicy](protectionpolicymanager_tryapplyprocessuipolicy_1579029586.md) ensures that the OS knows about the current context of the app.
+Enables UI policy enforcement for an enterprise identity. When an app is about to display a protected file (such as a PDF) or resource (buffer or stream) on its UI, it must enable UI policy enforcement based on the identity the file is protected to. A call to TryApplyProcessUIPolicy ensures that the OS knows about the current context of the app.
 
 ## -parameters
 ### -param identity

@@ -32,6 +32,12 @@ Do not download missing referenced packages
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1903 | 18362 | LimitToExistingPackages |
+
 ## -see-also
 [AddPackageByAppInstallerFileAsync()](packagemanager_addpackagebyappinstallerfileasync_1097728195.md)
 [RequestAddPackageByAppInstallerFileAsync](packagemanager_requestaddpackagebyappinstallerfileasync_1360655875.md)

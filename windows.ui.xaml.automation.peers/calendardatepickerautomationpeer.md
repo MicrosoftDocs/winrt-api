@@ -13,11 +13,11 @@ public class CalendarDatePickerAutomationPeer : FrameworkElementAutomationPeer, 
 Exposes [CalendarDatePicker](../windows.ui.xaml.controls/calendardatepicker.md) types to Microsoft UI Automation.
 
 ## -remarks
-The Windows Runtime [CalendarDatePicker](../windows.ui.xaml.controls/calendardatepicker.md) class creates a new [CalendarDatePickerAutomationPeer](calendardatepickerautomationpeer.md) as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. Derive your automation peer from [CalendarDatePickerAutomationPeer](calendardatepickerautomationpeer.md) if you are deriving a custom class from [CalendarDatePicker](../windows.ui.xaml.controls/calendardatepicker.md) and want to add automation support for additional features that you enabled in your custom class. Then override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) so that it returns your custom peer.
+The Windows Runtime [CalendarDatePicker](../windows.ui.xaml.controls/calendardatepicker.md) class creates a new CalendarDatePickerAutomationPeer as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. Derive your automation peer from CalendarDatePickerAutomationPeer if you are deriving a custom class from [CalendarDatePicker](../windows.ui.xaml.controls/calendardatepicker.md) and want to add automation support for additional features that you enabled in your custom class. Then override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) so that it returns your custom peer.
 
 ### Default peer implementation and overrides in **DatePickerAutomationPeer**
 
-[CalendarDatePickerAutomationPeer](calendardatepickerautomationpeer.md) has overrides of **Core** methods such that the associated [AutomationPeer](automationpeer.md) methods provide peer-specific information to a Microsoft UI Automation client.
+CalendarDatePickerAutomationPeer has overrides of **Core** methods such that the associated [AutomationPeer](automationpeer.md) methods provide peer-specific information to a Microsoft UI Automation client.
 
 + [GetClassName](automationpeer_getclassname_614238974.md) returns "CalendarDatePicker".
 + [GetAutomationControlType](automationpeer_getautomationcontroltype_1156384152.md) returns [AutomationControlType.Button](automationcontroltype.md).

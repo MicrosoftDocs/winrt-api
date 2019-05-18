@@ -16,7 +16,7 @@ Changes the content of the specific tile that the updater is bound to.
 ## -remarks
 To get an instance of this object, call the [TileUpdateManager.CreateTileUpdaterForApplication](tileupdatemanager_createtileupdaterforapplication_1541898748.md) or [TileUpdateManager.CreateTileUpdaterForSecondaryTile](tileupdatemanager_createtileupdaterforsecondarytile_445640521.md) method.
 
-When it is created, [TileUpdater](tileupdater.md) is bound to a specific app or secondary tile, so the methods of this class affect only the single tile that the object instance is bound to.
+When it is created, TileUpdater is bound to a specific app or secondary tile, so the methods of this class affect only the single tile that the object instance is bound to.
 
 ## -examples
 The following example shows [Update](tileupdater_update_673402202.md) used to send a notification to the app's tile.

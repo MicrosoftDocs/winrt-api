@@ -15,7 +15,7 @@ Provides information about the activated event that fires when the user tries to
 ## -remarks
 ### Interface inheritance
 
-[IFileOpenPickerActivatedEventArgs](ifileopenpickeractivatedeventargs.md) inherits [IActivatedEventArgs](iactivatedeventargs.md). Types that implement [IFileOpenPickerActivatedEventArgs](ifileopenpickeractivatedeventargs.md) also implement the interface members of [IActivatedEventArgs](iactivatedeventargs.md).
+IFileOpenPickerActivatedEventArgs inherits [IActivatedEventArgs](iactivatedeventargs.md). Types that implement IFileOpenPickerActivatedEventArgs also implement the interface members of [IActivatedEventArgs](iactivatedeventargs.md).
 
 ## -examples
 

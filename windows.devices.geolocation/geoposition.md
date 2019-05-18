@@ -13,7 +13,7 @@ public class Geoposition : Windows.Devices.Geolocation.IGeoposition, Windows.Dev
 Represents a location that may contain latitude and longitude data or venue data.
 
 ## -remarks
-Retrieve a [Geoposition](geoposition.md) object by using the [GetGeopositionAsync](geolocator_getgeopositionasync_189682258.md) method or handling the [PositionChanged](geolocator_positionchanged.md) event.
+Retrieve a Geoposition object by using the [GetGeopositionAsync](geolocator_getgeopositionasync_189682258.md) method or handling the [PositionChanged](geolocator_positionchanged.md) event.
 
 ## -examples
 

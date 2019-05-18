@@ -18,6 +18,12 @@ This object is created when [GetDefaultAsync](magneticstripereader_getdefaultasy
 
 See the [magnetic stripe reader sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/MagneticStripeReader) for an example implementation.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | GetDeviceSelector(PosConnectionTypes) |
+
 ## -examples
 
 ## -see-also

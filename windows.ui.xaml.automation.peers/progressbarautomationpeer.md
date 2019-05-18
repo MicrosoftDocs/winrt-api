@@ -13,11 +13,11 @@ public class ProgressBarAutomationPeer : Windows.UI.Xaml.Automation.Peers.RangeB
 Exposes [ProgressBar](../windows.ui.xaml.controls/progressbar.md) types to Microsoft UI Automation.
 
 ## -remarks
-The Windows Runtime  [ProgressBar](../windows.ui.xaml.controls/progressbar.md) class creates a new [ProgressBarAutomationPeer](progressbarautomationpeer.md) as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. Derive your automation peer from [ProgressBarAutomationPeer](progressbarautomationpeer.md) if you are deriving a custom class from [ProgressBar](../windows.ui.xaml.controls/progressbar.md) and want to add automation support for additional features that you enabled in your custom class. Then override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) so that it returns your custom peer.
+The Windows Runtime  [ProgressBar](../windows.ui.xaml.controls/progressbar.md) class creates a new ProgressBarAutomationPeer as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. Derive your automation peer from ProgressBarAutomationPeer if you are deriving a custom class from [ProgressBar](../windows.ui.xaml.controls/progressbar.md) and want to add automation support for additional features that you enabled in your custom class. Then override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) so that it returns your custom peer.
 
 ### Default peer implementation and overrides in **ProgressBarAutomationPeer**
 
-[ProgressBarAutomationPeer](progressbarautomationpeer.md) has overrides of **Core** methods such that the associated [AutomationPeer](automationpeer.md) methods provide peer-specific information to a Microsoft UI Automation client.
+ProgressBarAutomationPeer has overrides of **Core** methods such that the associated [AutomationPeer](automationpeer.md) methods provide peer-specific information to a Microsoft UI Automation client.
 
 + [GetPattern](automationpeer_getpattern_2046576749.md) defers to base peers. A [ProgressBar](../windows.ui.xaml.controls/progressbar.md) can be indeterminate ([IsIndeterminate](../windows.ui.xaml.controls/progressbar_isindeterminate.md) is **true**). If this is true of the owner control, [GetPattern](automationpeer_getpattern_2046576749.md) won't return a pattern for [IRangeValueProvider](../windows.ui.xaml.automation.provider/irangevalueprovider.md) even though the base [RangeBaseAutomationPeer](rangebaseautomationpeer.md) normally would.
 + [GetClassName](automationpeer_getclassname_614238974.md) returns "ProgressBar".

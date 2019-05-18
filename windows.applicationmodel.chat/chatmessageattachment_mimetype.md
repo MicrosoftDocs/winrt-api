@@ -17,7 +17,7 @@ Gets or sets the MIME type of the attachment.
 The MIME type of the attachment.
 
 ## -remarks
-A chat application handles an attachment based on the MIME type set in this property. Attachments for outgoing messages have [MimeType](chatmessageattachment_mimetype.md) set to a type string for recipient handling, such as “image/jpeg”.
+A chat application handles an attachment based on the MIME type set in this property. Attachments for outgoing messages have MimeType set to a type string for recipient handling, such as “image/jpeg”.
 
 ## -examples
 

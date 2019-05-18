@@ -14,6 +14,14 @@ Provides calculated values that can be referenced as **TemplatedParent** sources
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1903 | 18362 | NegativeCompactVerticalDelta |
+| 1903 | 18362 | NegativeHiddenVerticalDelta |
+| 1903 | 18362 | NegativeMinimalVerticalDelta |
+
 ## -examples
 
 ## -see-also

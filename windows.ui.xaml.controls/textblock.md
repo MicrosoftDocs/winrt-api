@@ -31,15 +31,15 @@ Provides a lightweight control for displaying small amounts of text.
 > [!TIP]
 > For more info, design guidance, and code examples, see [Text block](/windows/uwp/design/controls-and-patterns/text-block).
 
-[TextBlock](textblock.md) is the primary control for displaying read-only text in apps. You can use it to display single-line or multi-line text, inline hyperlinks, and text with formatting like bold, italic, or underlined.
+TextBlock is the primary control for displaying read-only text in apps. You can use it to display single-line or multi-line text, inline hyperlinks, and text with formatting like bold, italic, or underlined.
 
 <img alt="Text block control" src="images/controls/TextBlock.png" />
 
- [TextBlock](textblock.md) is typically easier to use and provides better text rendering performance than [RichTextBlock](richtextblock.md), so it's preferred for most app UI text. It also provides many of the same formatting options for customizing how your text is rendered. Although you can put line breaks in the text, [TextBlock](textblock.md) is designed to display a single paragraph and doesn’t support text indentation. Consider a [RichTextBlock](richtextblock.md) if you need support for multiple paragraphs, multi-column text, or inline UI elements like images.
+ TextBlock is typically easier to use and provides better text rendering performance than [RichTextBlock](richtextblock.md), so it's preferred for most app UI text. It also provides many of the same formatting options for customizing how your text is rendered. Although you can put line breaks in the text, TextBlock is designed to display a single paragraph and doesn’t support text indentation. Consider a [RichTextBlock](richtextblock.md) if you need support for multiple paragraphs, multi-column text, or inline UI elements like images.
 
 ### Text performance
 
-Starting in Windows 10, performance improvements were made to [TextBlock](textblock.md) that decrease overall memory use and greatly reduce the CPU time to do text measuring and arranging. To find out more about these performance improvements and how to make sure you are using them, see the Performance considerations section of the [TextBlock control guide](https://msdn.microsoft.com/library/da562509-d893-425a-aae6-b2ae9e9f8a19).
+Starting in Windows 10, performance improvements were made to TextBlock that decrease overall memory use and greatly reduce the CPU time to do text measuring and arranging. To find out more about these performance improvements and how to make sure you are using them, see the Performance considerations section of the [TextBlock control guide](https://msdn.microsoft.com/library/da562509-d893-425a-aae6-b2ae9e9f8a19).
 
 ### Built-in text styles
 
@@ -61,7 +61,7 @@ The rendered text looks like this:
 
 ### Color fonts
 
-By default [TextBlock](textblock.md) supports display color fonts. The default color font on the system is Segoe UI Emoji and the [TextBlock](textblock.md) will fall back to this font to display the glyphs in color. For more info, see the [IsColorFontEnabled](textblock_iscolorfontenabled.md) property.
+By default TextBlock supports display color fonts. The default color font on the system is Segoe UI Emoji and the TextBlock will fall back to this font to display the glyphs in color. For more info, see the [IsColorFontEnabled](textblock_iscolorfontenabled.md) property.
 
 ```xaml
 <TextBlock FontSize="30">Hello ☺⛄☂♨⛅</TextBlock>
@@ -70,6 +70,19 @@ By default [TextBlock](textblock.md) supports display color fonts. The default c
 The rendered text looks like this:
 
 <img alt="Text block with color font" src="images/TextBlock_ColorFonts.png" />
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | GetAlphaMask |
+| 1703 | 15063 | TextDecorations |
+| 1709 | 16299 | HorizontalTextAlignment |
+| 1709 | 16299 | IsTextTrimmed |
+| 1709 | 16299 | IsTextTrimmedChanged |
+| 1709 | 16299 | TextHighlighters |
+| 1809 | 17763 | CopySelectionToClipboard |
+| 1809 | 17763 | SelectionFlyout |
 
 ## -examples
 
@@ -81,7 +94,7 @@ The rendered text looks like this:
 > + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
 > + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
 
-This example demonstrates a [TextBlock](textblock.md) with text selection enabled and text wrapping enabled.
+This example demonstrates a TextBlock with text selection enabled and text wrapping enabled.
 
 > [!IMPORTANT]
 > If using a keyboard for text selection within a TextBlock, the user must first activate *Caret Browsing* (with the app in the foreground, press F7).
@@ -106,7 +119,7 @@ textBlock.TextWrapping = TextWrapping.Wrap;
 rootPanel.Children.Add(textBlock);
 ```
 
-This example shows how to customize the appearance of a [TextBlock](textblock.md) with a single [Run](../windows.ui.xaml.documents/run.md) of text. The [FontWeight](textblock_fontweight.md), [FontFamily](textblock_fontfamily.md), [FontStyle](textblock_fontstyle.md), [Foreground](textblock_foreground.md) color, and [SelectionHighlightColor](textblock_selectionhighlightcolor.md) properties are customized.
+This example shows how to customize the appearance of a TextBlock with a single [Run](../windows.ui.xaml.documents/run.md) of text. The [FontWeight](textblock_fontweight.md), [FontFamily](textblock_fontfamily.md), [FontStyle](textblock_fontstyle.md), [Foreground](textblock_foreground.md) color, and [SelectionHighlightColor](textblock_selectionhighlightcolor.md) properties are customized.
 
 The rendered text looks like this:
 
@@ -136,7 +149,7 @@ textBlock.FontStyle = Windows.UI.Text.FontStyle.Italic;
 rootPanel.Children.Add(textBlock);
 ```
 
-This example demonstrates customizing different inline elements within a [TextBlock](textblock.md).
+This example demonstrates customizing different inline elements within a TextBlock.
 
 The rendered text looks like this:
 
@@ -216,7 +229,7 @@ textBlock.Inlines.Add(hyperlink);
 rootPanel.Children.Add(textBlock);
 ```
 
-The following example shows how to use the [LineStackingStrategy](textblock_linestackingstrategy.md) property to determine how the line boxes are created for text lines of a [TextBlock](textblock.md). The first [TextBlock](textblock.md) has a [LineStackingStrategy](textblock_linestackingstrategy.md) value of **MaxHeight**,the second [TextBlock](textblock.md) has a value of **BlockLineHeight**, and the third [TextBlock](textblock.md) has a value of **BaselineToBaseline**.
+The following example shows how to use the [LineStackingStrategy](textblock_linestackingstrategy.md) property to determine how the line boxes are created for text lines of a TextBlock. The first TextBlock has a [LineStackingStrategy](textblock_linestackingstrategy.md) value of **MaxHeight**,the second TextBlock has a value of **BlockLineHeight**, and the third TextBlock has a value of **BaselineToBaseline**.
 
 The rendered text looks like this:
 

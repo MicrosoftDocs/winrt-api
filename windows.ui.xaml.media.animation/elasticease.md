@@ -19,18 +19,18 @@ Represents an easing function that creates an animation that resembles a spring 
 
 
 ## -remarks
-[ElasticEase](elasticease.md) is one of the two easing functions that can produce a value outside of the normal **From**/**To** range. (The other is [BackEase](backease.md).) As the easing function begins, the value oscillates positive and negative around the **From** value until it reaches an eventual positive amplitude that is the **To** value. The [Springiness](elasticease_springiness.md) property modifies the sinusoidal character of this oscillation. With [Springiness](elasticease_springiness.md) of 0, the oscillation is basically sinusoidal and resembles a typical diagram of a spring's motion. With larger [Springiness](elasticease_springiness.md) values, it's like dampening the spring's motion.
+ElasticEase is one of the two easing functions that can produce a value outside of the normal **From**/**To** range. (The other is [BackEase](backease.md).) As the easing function begins, the value oscillates positive and negative around the **From** value until it reaches an eventual positive amplitude that is the **To** value. The [Springiness](elasticease_springiness.md) property modifies the sinusoidal character of this oscillation. With [Springiness](elasticease_springiness.md) of 0, the oscillation is basically sinusoidal and resembles a typical diagram of a spring's motion. With larger [Springiness](elasticease_springiness.md) values, it's like dampening the spring's motion.
 
 The [Oscillations](elasticease_oscillations.md) property declares how many times the function oscillates and crosses into values that are actually below the starting **From** value.
 
 You might get best results by just experimenting with the [Springiness](elasticease_springiness.md), [Oscillations](elasticease_oscillations.md) and [EasingMode](easingfunctionbase_easingmode.md) properties until the animation is visually doing what you want for your animated property value scenario.
 
-[BounceEase](bounceease.md) is a similar easing function that works well for physics emulation in animations. The difference with [ElasticEase](elasticease.md) is that a [BounceEase](bounceease.md) won't ever go outside the **From**/**To** range. Another way to conceptualize the two easing functions is that [ElasticEase](elasticease.md) is what you might use to animate the plucking of a string, whereas [BounceEase](bounceease.md) is what you might use to show the bounce of a ball against a line or plane.
+[BounceEase](bounceease.md) is a similar easing function that works well for physics emulation in animations. The difference with ElasticEase is that a [BounceEase](bounceease.md) won't ever go outside the **From**/**To** range. Another way to conceptualize the two easing functions is that ElasticEase is what you might use to animate the plucking of a string, whereas [BounceEase](bounceease.md) is what you might use to show the bounce of a ball against a line or plane.
 
 An easing function can be applied to the **EasingFunction** properties of **From**/**To**/**By** animations, or to the **EasingFunction** properties of key-frame types used for the **Easing** variants of key-frame animations. For more info, see [Key-frame animations and easing function animations](https://msdn.microsoft.com/library/d8af24cd-f4c2-4562-afd7-25010955d677).
 
 ## -examples
-This XAML example applies an [ElasticEase](elasticease.md) easing function to a [DoubleAnimation](doubleanimation.md) to create an animation that resembles a spring oscillating back and forth until it comes to rest.
+This XAML example applies an ElasticEase easing function to a [DoubleAnimation](doubleanimation.md) to create an animation that resembles a spring oscillating back and forth until it comes to rest.
 
 
 

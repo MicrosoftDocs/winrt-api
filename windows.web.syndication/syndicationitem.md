@@ -15,7 +15,7 @@ Represents an item in the feed. This class encapsulates information in the **/rs
 
 ## -remarks
 
-The following code demonstrates how to access the property values of a [SyndicationItem](syndicationitem.md) object.
+The following code demonstrates how to access the property values of a SyndicationItem object.
 
 ```javascript
 
@@ -78,7 +78,7 @@ private void DisplayCurrentItem()
 
 For additional examples that demonstrate how this class is used to represent feed content, see [Quickstart: Accessing a web feed](https://msdn.microsoft.com/library/bde79bfb-f566-4dbe-b861-f849ab8bc574).
 
-The following table maps [SyndicationItem](syndicationitem.md) properties to RSS and Atom feed elements.
+The following table maps SyndicationItem properties to RSS and Atom feed elements.
 
 <table>
    <tr><th>SyndicationItem</th><th>RSS Channel/Item</th><th>Atom entry</th><th>[AtomPub](../windows.web.atompub/windows_web_atompub.md)</th></tr>

@@ -15,7 +15,7 @@ An unchangeable view into a map of [ResourceMap](resourcemap.md) objects.
 ## -remarks
 ### Collection member lists
 
-For JavaScript, [ResourceMapMapView](resourcemapmapview.md) supports using an index to access items.
+For JavaScript, ResourceMapMapView supports using an index to access items.
 
 ## -examples
 

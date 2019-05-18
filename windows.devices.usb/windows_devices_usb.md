@@ -7,7 +7,7 @@
 
 ## -description
 
-The [Windows.Devices.Usb](windows_devices_usb.md) defines Windows Runtime classes that a UWP app can use to communicate with a USB device that does not belong to a device class, or for which Microsoft does not provide an in-box driver.
+The Windows.Devices.Usb defines Windows Runtime classes that a UWP app can use to communicate with a USB device that does not belong to a device class, or for which Microsoft does not provide an in-box driver.
 
 <table>
    <tr><th>Resources</th><th>Description</th></tr>

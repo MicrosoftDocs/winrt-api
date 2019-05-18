@@ -16,7 +16,7 @@ Represents progress information for a task at the time a progress update notific
 The system generates this class and passes it as an argument to the application's [BackgroundTaskProgressEventHandler](backgroundtaskprogresseventhandler.md) handler.
 
 ## -examples
-The following example shows how to use the [BackgroundTaskProgressEventArgs](backgroundtaskprogresseventargs.md) class with a [BackgroundTaskProgressEventHandler](backgroundtaskprogresseventhandler.md) delegate to show background task progress while the app is in the foreground.
+The following example shows how to use the BackgroundTaskProgressEventArgs class with a [BackgroundTaskProgressEventHandler](backgroundtaskprogresseventhandler.md) delegate to show background task progress while the app is in the foreground.
 
 ```csharp
 

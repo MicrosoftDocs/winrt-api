@@ -17,7 +17,7 @@ Invoked when the application is activated due to an activation contract with [Ac
 Event data for the event.
 
 ## -remarks
-[OnFileOpenPickerActivated](application_onfileopenpickeractivated_101387531.md) is a pre-defined activation point handler that is invoked for a core [Activated](../windows.ui.core/corewindow_activated.md) event when the [ActivationKind](../windows.applicationmodel.activation/activationkind.md) is **CachedFileUpdater**. The default template app.xaml code-behind files always include an override for [OnLaunched](application_onlaunched_859642554.md), but defining overrides for other activation points such as [OnCachedFileUpdaterActivated](application_oncachedfileupdateractivated_383584449.md) is up to your app code.
+[OnFileOpenPickerActivated](application_onfileopenpickeractivated_101387531.md) is a pre-defined activation point handler that is invoked for a core [Activated](../windows.ui.core/corewindow_activated.md) event when the [ActivationKind](../windows.applicationmodel.activation/activationkind.md) is **CachedFileUpdater**. The default template app.xaml code-behind files always include an override for [OnLaunched](application_onlaunched_859642554.md), but defining overrides for other activation points such as OnCachedFileUpdaterActivated is up to your app code.
 
 All [Application](application.md) overrides involved in an activation scenario should call [Window.Activate](window_activate_1797342875.md) in their implementations.
 

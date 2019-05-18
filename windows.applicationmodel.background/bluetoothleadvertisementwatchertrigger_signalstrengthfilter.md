@@ -16,7 +16,7 @@ Gets or sets the configuration of Bluetooth LE advertisement filtering that uses
 The configuration of Bluetooth LE advertisement filtering that uses signal strength-based filtering.
 
 ## -remarks
-The [SignalStrengthFilter](bluetoothleadvertisementwatchertrigger_signalstrengthfilter.md) has additional limitations on its properties when used by the [BluetoothLEAdvertisementWatcherTrigger](bluetoothleadvertisementwatchertrigger.md) class. The trigger will fail to register if it contains parameters outside of the valid range. If the properties are left as `NULL`, a default value is selected.
+The SignalStrengthFilter has additional limitations on its properties when used by the [BluetoothLEAdvertisementWatcherTrigger](bluetoothleadvertisementwatchertrigger.md) class. The trigger will fail to register if it contains parameters outside of the valid range. If the properties are left as `NULL`, a default value is selected.
 
 
 The additional restrictions and default values are as follows:

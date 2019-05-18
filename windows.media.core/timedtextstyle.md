@@ -14,6 +14,15 @@ Defines the style of the rendered text in a [TimedTextCue](timedtextcue.md). You
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | FontStyle |
+| 1703 | 15063 | IsLineThroughEnabled |
+| 1703 | 15063 | IsOverlineEnabled |
+| 1703 | 15063 | IsUnderlineEnabled |
+
 ## -examples
 
 ## -see-also

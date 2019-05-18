@@ -11,7 +11,7 @@ public Windows.ApplicationModel.Resources.Core.ResourceCandidate GetValue(System
 
 ## -description
 > [!NOTE]
-> [GetValue(String)](resourcemap_getvalue_824525603.md) may be altered or unavailable for releases after Windows 8.1. Instead, use [GetValue(String, ResourceContext)](resourcemap_getvalue_1450213417.md).
+> GetValue(String) may be altered or unavailable for releases after Windows 8.1. Instead, use [GetValue(String, ResourceContext)](resourcemap_getvalue_1450213417.md).
 
 Returns the most appropriate candidate for a resource that is specified by a resource identifier within the default context.
 

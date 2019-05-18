@@ -21,7 +21,7 @@ Animates the value of an [Object](https://msdn.microsoft.com/library/system.obje
 ## -remarks
 
 ## -examples
-The following example uses the [ObjectAnimationUsingKeyFrames](objectanimationusingkeyframes.md) class to animate the [Fill](../windows.ui.xaml.shapes/shape_fill.md) property of a [Rectangle](../windows.ui.xaml.shapes/rectangle.md). This animation uses two key frames in the following manner:
+The following example uses the ObjectAnimationUsingKeyFrames class to animate the [Fill](../windows.ui.xaml.shapes/shape_fill.md) property of a [Rectangle](../windows.ui.xaml.shapes/rectangle.md). This animation uses two key frames in the following manner:
 
 
 1. Using a [DiscreteObjectKeyFrame](discreteobjectkeyframe.md), the [Fill](../windows.ui.xaml.shapes/shape_fill.md) property of the [Rectangle](../windows.ui.xaml.shapes/rectangle.md) suddenly changes to a [LinearGradientBrush](../windows.ui.xaml.media/lineargradientbrush.md) after the first two seconds of the animation.

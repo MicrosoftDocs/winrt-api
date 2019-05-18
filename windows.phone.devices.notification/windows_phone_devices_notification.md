@@ -6,7 +6,7 @@
 # Windows.Phone.Devices.Notification
 
 ## -description
-The [Windows.Phone.Devices.Notification](windows_phone_devices_notification.md) namespace provides a class that you can use to notify the user by vibrating the phone.
+The Windows.Phone.Devices.Notification namespace provides a class that you can use to notify the user by vibrating the phone.
 
 ## -remarks
 

@@ -19,7 +19,7 @@ Provides data for [ISmsBinaryMessage](ismsbinarymessage.md) event handlers.
 > Note that this class and its methods are supported for the maintenance of legacy desktop apps that used it in earlier versions of Windows; and if you do use this class, you must specify the **Windows.Devices.Sms.LegacySmsApiContract** in your app's manifest. Do not use this class if you are developing new apps for Windows 10. Instead, use the members of this namespace that do not require the **Windows.Devices.Sms.LegacySmsApiContract**.
 
 ## -remarks
-An instance of the [SmsMessageReceivedEventArgs](smsmessagereceivedeventargs.md) class can be retrieved from the [SmsMessageReceivedEventHandler](smsmessagereceivedeventhandler.md) delegate.
+An instance of the SmsMessageReceivedEventArgs class can be retrieved from the [SmsMessageReceivedEventHandler](smsmessagereceivedeventhandler.md) delegate.
 
 ## -examples
 

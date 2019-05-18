@@ -20,7 +20,7 @@ Defines constants that describe the location of the binding source relative to t
 
 ## -enum-fields
 ### -field None:0
-Don't use this value of [RelativeSourceMode](relativesourcemode.md); always use either **Self** or **TemplatedParent**.
+Don't use this value of RelativeSourceMode; always use either **Self** or **TemplatedParent**.
 
 ### -field TemplatedParent:1
 Refers to the element to which the template (in which the data-bound element exists) is applied. This is similar to setting a TemplateBinding Markup Extension and is only applicable if the [Binding](binding.md) is within a template.

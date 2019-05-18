@@ -18,6 +18,12 @@ Each composite material is defined by a mixture of base materials that are liste
 
 This class corresponds to the `<compositematerials>` element in the 3D Manufacturing Format (3MF) specification. For more info, see the [3MF Specification](https://go.microsoft.com/fwlink/p/?LinkId=616252).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | BaseMaterialGroup |
+
 ## -examples
 
 ## -see-also

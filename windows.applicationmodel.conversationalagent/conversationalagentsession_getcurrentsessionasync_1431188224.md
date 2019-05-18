@@ -22,6 +22,6 @@ The result of the asynchronous operation as a [ConversationalAgentSession](conve
 
 ## -see-also
 
-[GetCurrentSessionAsync](conversationalagentsession_getcurrentsessionasync_1431188224.md)
+GetCurrentSessionAsync
 
 ## -examples

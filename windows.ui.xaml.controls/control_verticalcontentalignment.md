@@ -27,7 +27,7 @@ One of the [VerticalAlignment](../windows.ui.xaml/verticalalignment.md) values. 
 ## -remarks
 Each control might apply this property differently based on the [Style](../windows.ui.xaml/style.md) setters for the control's implicit style, and its visual template. Also, the apparent "default value" of each individual control used in UI can be different. For example, a [Button](button.md) control starts with the value **Center**.
 
-A value for the [VerticalContentAlignment](control_verticalcontentalignment.md) property only affects layout behavior for a control when its template uses the [VerticalContentAlignment](control_verticalcontentalignment.md) property as the source of a [VerticalAlignment](../windows.ui.xaml/frameworkelement_verticalalignment.md) value for presenters or content areas within. On other controls, setting [VerticalContentAlignment](control_verticalcontentalignment.md) has no effect. For more info about visual templates for controls, see the reference for [Control.Template](control_template.md).
+A value for the VerticalContentAlignment property only affects layout behavior for a control when its template uses the VerticalContentAlignment property as the source of a [VerticalAlignment](../windows.ui.xaml/frameworkelement_verticalalignment.md) value for presenters or content areas within. On other controls, setting VerticalContentAlignment has no effect. For more info about visual templates for controls, see the reference for [Control.Template](control_template.md).
 <!--link to TBW Styles and Templates overview-->
 
 ## -examples

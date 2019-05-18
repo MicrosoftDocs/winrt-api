@@ -22,12 +22,12 @@ When this method completes successfully, it returns an [IStorageItem](istorageit
 To work with the returned item, call the [IsOfType](istorageitem_isoftype_1417811226.md) method of the [IStorageItem](istorageitem.md) interface to determine whether the item is a file or a folder. Then cast the item to a [StorageFolder](storagefolder.md) or [StorageFile](storagefile.md).
 
 ## -remarks
-Call the [TryGetItemAsync](storagefolder_trygetitemasync_1863649689.md) method to try to get a file or folder by name, or to check whether a file or folder exists, without the need to handle a **FileNotFoundException**. If the file or folder can't be found, [TryGetItemAsync](storagefolder_trygetitemasync_1863649689.md) returns **null** instead of raising an exception.
+Call the TryGetItemAsync method to try to get a file or folder by name, or to check whether a file or folder exists, without the need to handle a **FileNotFoundException**. If the file or folder can't be found, TryGetItemAsync returns **null** instead of raising an exception.
 
 Call the [IsOfType](istorageitem_isoftype_1417811226.md) method of the [IStorageItem](istorageitem.md) interface to determine whether the returned item is a file or a folder.
 
 ## -examples
-The following example shows how to try to get a single file or folder from the current folder, or to check whether the file or folder exists, by calling the [TryGetItemAsync](storagefolder_trygetitemasync_1863649689.md) method.
+The following example shows how to try to get a single file or folder from the current folder, or to check whether the file or folder exists, by calling the TryGetItemAsync method.
 
 ```csharp
 using Windows.Storage;

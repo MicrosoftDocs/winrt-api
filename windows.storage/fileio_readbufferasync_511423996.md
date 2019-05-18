@@ -22,7 +22,7 @@ When this method completes, it returns an object (type [IBuffer](../windows.stor
 ## -remarks
 
 ## -examples
-The [File Access sample]( http://go.microsoft.com/fwlink/p/?linkid=231445) shows you how to use [ReadBufferAsync](fileio_readbufferasync_511423996.md) to read the contents of a file and return a buffer, like this:
+The [File Access sample]( http://go.microsoft.com/fwlink/p/?linkid=231445) shows you how to use ReadBufferAsync to read the contents of a file and return a buffer, like this:
 
 ```csharp
 

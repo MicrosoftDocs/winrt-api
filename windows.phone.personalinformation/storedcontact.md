@@ -13,9 +13,9 @@ public class StoredContact : Windows.Phone.PersonalInformation.IContactInformati
 Represents a contact associated with a custom contact store.
 
 ## -remarks
-You must open your app's contact store in order to obtain a [StoredContact](storedcontact.md) object. To work with contact information that is not yet associated with a store or to parse contact information from a vCard, use the [ContactInformation](contactinformation.md) class.
+You must open your app's contact store in order to obtain a StoredContact object. To work with contact information that is not yet associated with a store or to parse contact information from a vCard, use the [ContactInformation](contactinformation.md) class.
 
-These APIs create or obtain a [StoredContact](storedcontact.md) object:
+These APIs create or obtain a StoredContact object:
 + [ContactStore.CreateMeContactAsync](contactstore_createmecontactasync_367847777.md)
 + [ContactStore.FindContactByIdAsync](contactstore_findcontactbyidasync_682238637.md)
 + [ContactStore.FindContactByRemoteIdAsync](contactstore_findcontactbyremoteidasync_1811337011.md)

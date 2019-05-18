@@ -17,6 +17,12 @@ Represents a trigger that launches a background task for handling socket activit
 
 For information about how to use this event and the socket broker with your app, see [Network communications in the background](https://msdn.microsoft.com/windows/uwp/networking/network-communications-in-the-background).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | IsWakeFromLowPowerSupported |
+
 ## -examples
 
 ## -see-also

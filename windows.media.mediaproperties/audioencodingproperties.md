@@ -20,6 +20,15 @@ The encoding quality **Auto** is a special preset that fills in the proper setti
 
 For how-to guidance for setting the encoding properties for captured audio, see [Basic photo, video, and audio capture with MediaCapture](https://msdn.microsoft.com/windows/uwp/audio-video-camera/basic-photo-video-and-audio-capture-with-mediacapture).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | CreateAlac |
+| 1703 | 15063 | CreateFlac |
+| 1703 | 15063 | IsSpatial |
+| 1803 | 17134 | Copy |
+
 ## -examples
 
 ## -see-also

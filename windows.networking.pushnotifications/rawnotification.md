@@ -13,9 +13,16 @@ public class RawNotification : Windows.Networking.PushNotifications.IRawNotifica
 Encapsulates the app-defined content of a raw notification (a push notification that does not involve UI). Its contents can be used in an app's background task, if the app has that capability, or otherwise consumed by the app and acted on as needed.
 
 ## -remarks
-A [RawNotification](rawnotification.md) object is obtained through the [TriggerDetails](../windows.applicationmodel.background/ibackgroundtaskinstance_triggerdetails.md) property.
+A RawNotification object is obtained through the [TriggerDetails](../windows.applicationmodel.background/ibackgroundtaskinstance_triggerdetails.md) property.
 
 A background task that is intended to run in response to a notification must be registered with a [PushNotificationTrigger](../windows.applicationmodel.background/pushnotificationtrigger.md). If it is not registered, the task will not run when a raw notification is received. For more info, see [Raw notification overview](https://msdn.microsoft.com/library/a867c75d-d16e-4ab5-8b44-614eeb9179c7).
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | ChannelId |
+| 1703 | 15063 | Headers |
 
 ## -examples
 

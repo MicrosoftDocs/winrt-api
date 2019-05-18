@@ -14,7 +14,7 @@ Represents the composited display surface for an app. This class provides applic
 
 ## -remarks
 
-[CompositionTarget](compositiontarget.md) events are useful for rendering scenarios like:
+CompositionTarget events are useful for rendering scenarios like:
 
 - synchronizing [DirectX interop rendering](https://docs.microsoft.com/windows/uwp/gaming/directx-and-xaml-interop) using the [Rendering](compositiontarget_rendering.md) event
 
@@ -22,7 +22,13 @@ Represents the composited display surface for an app. This class provides applic
 
 - regenerating custom visual content on screen in response to the [SurfaceContentsLost](compositiontarget_surfacecontentslost.md) event, for example regenerating a [RenderTargetBitmap](../windows.ui.xaml.media.imaging/rendertargetbitmap.md) or DirectX interop content in a [SurfaceImageSource](../windows.ui.xaml.media.imaging/surfaceimagesource.md) 
 
-For scenarios that don't involve custom rendering or frame time measurement you probably won't need [CompositionTarget](compositiontarget.md) and can just rely on the XAML rendering system running and performing all your composition and layout.
+For scenarios that don't involve custom rendering or frame time measurement you probably won't need CompositionTarget and can just rely on the XAML rendering system running and performing all your composition and layout.
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1803 | 17134 | Rendered |
 
 ## -examples
 

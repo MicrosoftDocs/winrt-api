@@ -20,7 +20,7 @@ This property is initialized to a default value of 1.
 
 If this property is 0, no rounding is performed by the [SignificantDigitsNumberRounder](significantdigitsnumberrounder.md) object.
 
-When rounding is performed, leading 0s in the input are not considered. Significant digits are counted beginning with the first non-zero digit until the number of [SignificantDigits](significantdigitsnumberrounder_significantdigits.md) occurs, and then [RoundingAlgorithm](significantdigitsnumberrounder_roundingalgorithm.md) is used to round at that position.
+When rounding is performed, leading 0s in the input are not considered. Significant digits are counted beginning with the first non-zero digit until the number of SignificantDigits occurs, and then [RoundingAlgorithm](significantdigitsnumberrounder_roundingalgorithm.md) is used to round at that position.
 
 ## -examples
 

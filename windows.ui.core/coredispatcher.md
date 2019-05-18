@@ -13,7 +13,7 @@ public class CoreDispatcher : Windows.UI.Core.ICoreAcceleratorKeys, Windows.UI.C
 Provides the Windows Runtime core event message dispatcher. Instances of this type are responsible for processing the window messages and dispatching the events to the client.
 
 ## -remarks
-Instances of this type can be obtained from the [CoreWindow.Dispatcher](coredispatcher.md) property. The current [CoreWindow](corewindow.md) instance can be obtained by calling [CoreWindow.GetForCurrentThread](corewindow_getforcurrentthread_1771949562.md).
+Instances of this type can be obtained from the CoreWindow.Dispatcher property. The current [CoreWindow](corewindow.md) instance can be obtained by calling [CoreWindow.GetForCurrentThread](corewindow_getforcurrentthread_1771949562.md).
 
 ```cppwinrt
 // App.cpp

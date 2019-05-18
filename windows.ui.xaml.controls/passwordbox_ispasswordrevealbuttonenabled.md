@@ -23,7 +23,7 @@ Gets or sets a value that specifies whether the visual UI of the [PasswordBox](p
 
 ## -remarks
 > **Windows 10**
-> [PasswordRevealMode](passwordbox_passwordrevealmode.md) replaces [IsPasswordRevealButtonEnabled](passwordbox_ispasswordrevealbuttonenabled.md) to give you more options for how the user is able to view their password. The [IsPasswordRevealButtonEnabled](passwordbox_ispasswordrevealbuttonenabled.md) property is ignored.
+> [PasswordRevealMode](passwordbox_passwordrevealmode.md) replaces IsPasswordRevealButtonEnabled to give you more options for how the user is able to view their password. The IsPasswordRevealButtonEnabled property is ignored.
 
 The value of this property is not the only factor that determines whether a password reveal button is visible to the user. Other factors include whether the control is displayed above a minimum width, whether the [PasswordBox](passwordbox.md) has focus, and whether the text entry field contains at least one character.
 

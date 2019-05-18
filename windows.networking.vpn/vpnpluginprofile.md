@@ -14,6 +14,13 @@ Represents a VPN plug-in profile.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | ConnectionStatus |
+| 1607 | 14393 | RequireVpnClientAppUI |
+
 ## -examples
 
 ## -see-also

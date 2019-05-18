@@ -12,7 +12,7 @@ public int TryUpdateScale(System.Single value, Windows.Foundation.Numerics.Vecto
 ## -description
 Tries to update the scale to the specified value.
 
-The [TryUpdateScale](interactiontracker_tryupdatescale_1382285002.md) method updates the scale location of [InteractionTracker](interactiontracker.md) to the Scale position and centerpoint specified as a parameter. [TryUpdateScale](interactiontracker_tryupdatescale_1382285002.md) is used to declaratively define the scale of [InteractionTracker](interactiontracker.md) at any point in time (either at start, from some state-entered event, etc.). [TryUpdateScale](interactiontracker_tryupdatescale_1382285002.md) can be called from either the Idle, CustomAnimation or Inertia state – doing so will move the scale position of [InteractionTracker](interactiontracker.md) to the defined position and enter the idle state.
+The TryUpdateScale method updates the scale location of [InteractionTracker](interactiontracker.md) to the Scale position and centerpoint specified as a parameter. TryUpdateScale is used to declaratively define the scale of [InteractionTracker](interactiontracker.md) at any point in time (either at start, from some state-entered event, etc.). TryUpdateScale can be called from either the Idle, CustomAnimation or Inertia state – doing so will move the scale position of [InteractionTracker](interactiontracker.md) to the defined position and enter the idle state.
 
 ## -parameters
 ### -param value
@@ -25,7 +25,7 @@ The new center point.
 Returns the request ID. On state transitions, the request which caused the change in state will be included in the args. These IDs will start at 1 and increase with each try call during the lifetime of the application.
 
 ## -remarks
-If [InteractionTracker](interactiontracker.md) is in its Interacting State (user actively manipulating), and [TryUpdateScale](interactiontracker_tryupdatescale_1382285002.md) is called, the system will ignore this request – an event gets fired when this occurs that can be listened for. If sent from one of the other states, listen for the event fired for IdleStateEntered and check the RequestID property that identifies which request triggered the callback.
+If [InteractionTracker](interactiontracker.md) is in its Interacting State (user actively manipulating), and TryUpdateScale is called, the system will ignore this request – an event gets fired when this occurs that can be listened for. If sent from one of the other states, listen for the event fired for IdleStateEntered and check the RequestID property that identifies which request triggered the callback.
 
 The table below summarizes the expected behavior when this method is called in a particular state:
 

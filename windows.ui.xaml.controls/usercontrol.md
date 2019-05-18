@@ -23,10 +23,10 @@ Provides the base class for defining a new control that encapsulates related exi
 
 
 ## -remarks
-Note that [UserControl](usercontrol.md) does not manifest the value of its  property in its control template. Instead, set the Background of the root element inside the [UserControl](usercontrol.md). For more info, see Remarks in [Control.Background](control_background.md).
+Note that UserControl does not manifest the value of its  property in its control template. Instead, set the Background of the root element inside the UserControl. For more info, see Remarks in [Control.Background](control_background.md).
 
 ## -examples
-The following examples demonstrate creating a [UserControl](usercontrol.md) and using it multiple times in an app. This first example creates a [UserControl](usercontrol.md) called `NameReporter` that asks for a name of a person, and reports it back to the user. `NameReporter` has several [TextBlock](textblock.md)  controls, two [TextBox](textbox.md) controls, and a [Button](button.md). The user enters a first and last name into the appropriate [TextBox](textbox.md), and then clicks the button. The control then displays a message box with the name that the user entered.
+The following examples demonstrate creating a UserControl and using it multiple times in an app. This first example creates a UserControl called `NameReporter` that asks for a name of a person, and reports it back to the user. `NameReporter` has several [TextBlock](textblock.md)  controls, two [TextBox](textbox.md) controls, and a [Button](button.md). The user enters a first and last name into the appropriate [TextBox](textbox.md), and then clicks the button. The control then displays a message box with the name that the user entered.
 
 
 

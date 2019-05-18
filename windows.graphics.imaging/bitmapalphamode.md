@@ -24,7 +24,7 @@ The alpha value is ignored.
 
 
 ## -remarks
-[BitmapAlphaMode](bitmapalphamode.md) is used in conjunction with [BitmapPixelFormat](bitmappixelformat.md) to describe the pixel data.
+BitmapAlphaMode is used in conjunction with [BitmapPixelFormat](bitmappixelformat.md) to describe the pixel data.
 
 Using the **Ignore** value effectively treats the pixel data as opaque by discarding the alpha channel data. For example, pixel data returned by a decoder with an alpha mode of **Ignore** and a pixel format of **Rgba8** will have alpha channel values of 0.
 

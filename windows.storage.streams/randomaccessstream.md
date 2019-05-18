@@ -13,7 +13,7 @@ public class RandomAccessStream
 Provides random access of data in input and output streams.
 
 ## -remarks
-For more info, see [Quickstart: Reading and writing a file](https://msdn.microsoft.com/library/bc062c66-ba64-4d1c-931d-6d88ac2fcf7c), which shows how to read and write bytes to a file by using a [RandomAccessStream](randomaccessstream.md). To encode an image by using a stream, see [Imaging](https://msdn.microsoft.com/library/3fd2aa71-ef67-47b2-9332-3ffa5d3703ea).
+For more info, see [Quickstart: Reading and writing a file](https://msdn.microsoft.com/library/bc062c66-ba64-4d1c-931d-6d88ac2fcf7c), which shows how to read and write bytes to a file by using a RandomAccessStream. To encode an image by using a stream, see [Imaging](https://msdn.microsoft.com/library/3fd2aa71-ef67-47b2-9332-3ffa5d3703ea).
 
 ## -examples
 

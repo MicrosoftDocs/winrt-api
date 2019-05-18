@@ -39,7 +39,7 @@ The keys to access the protected item have been dropped while the device is lock
 
 ### Version history
 
-| Version | SDK version | Value added |
+| Windows version | SDK version | Value added |
 | -- | -- | -- |
 | 1511 | 10586 | AccessSuspended |
 | 1511 | 10586 | LicenseExpired |

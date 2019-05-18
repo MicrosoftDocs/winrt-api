@@ -23,9 +23,9 @@ Represents the container for an item in a [ListView](listview.md) control.
 
 
 ## -remarks
-The [ListViewItem](listviewitem.md) class provides the container for items displayed in a [ListView](listview.md) control. You populate the [ListView](listview.md) by adding objects directly to its [Items](itemscontrol_items.md) collection or by binding its [ItemsSource](itemscontrol_itemssource.md) property to a data source. When items are added to the [ListView](listview.md), a [ListViewItem](listviewitem.md) container is created automatically for each item in the collection.
+The ListViewItem class provides the container for items displayed in a [ListView](listview.md) control. You populate the [ListView](listview.md) by adding objects directly to its [Items](itemscontrol_items.md) collection or by binding its [ItemsSource](itemscontrol_itemssource.md) property to a data source. When items are added to the [ListView](listview.md), a ListViewItem container is created automatically for each item in the collection.
 
-You can specify the look of the [ListViewItem](listviewitem.md) by setting the [ListView](listview.md) 's [ItemContainerStyle](itemscontrol_itemcontainerstyle.md) property to a [Style](../windows.ui.xaml/style.md) with a [TargetType](../windows.ui.xaml/style_targettype.md) of [ListViewItem](listviewitem.md).
+You can specify the look of the ListViewItem by setting the [ListView](listview.md) 's [ItemContainerStyle](itemscontrol_itemcontainerstyle.md) property to a [Style](../windows.ui.xaml/style.md) with a [TargetType](../windows.ui.xaml/style_targettype.md) of ListViewItem.
 
 ### Control style and template
 
@@ -35,7 +35,7 @@ If you style the control template, do not try to bind properties like [IsSelecte
 
 Starting in Windows 10, version 1607 (SDK 14393), generic.xaml includes resources that you can use to modify the colors of a control in different visual states without modifying the control template. In apps that target this software development kit (SDK) or later, modifying these resources is preferred to setting properties such as [Background](control_background.md) and [Foreground](control_foreground.md). For more info, see the [Light-weight styling](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) section of the [Styling controls](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) article.
 
-This table shows the resources used by the [ListViewItem](listviewitem.md) control.
+This table shows the resources used by the ListViewItem control.
 
 <table>
    <tr><th>Resource key</th><th>Description</th></tr>

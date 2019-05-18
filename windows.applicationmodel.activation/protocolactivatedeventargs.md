@@ -20,9 +20,15 @@ Provides data when an app is activated because it is the app associated with a U
 
 This object is accessed when you implement an event handler to respond to [Activated](../windows.applicationmodel.core/coreapplicationview_activated.md) events when [ActivationKind](activationkind.md) is **Protocol**.
 
-UWP app using C++, C#, or Visual Basic typically implement activation points by overriding methods of the [Application](../windows.ui.xaml/application.md) object. The default template app.xaml code-behind files always include an override for [OnLaunched](../windows.ui.xaml/application_onlaunched_859642554.md), but defining overrides for other activation points such as [OnActivated](../windows.ui.xaml/application_onactivated_603737819.md) is up to your app code. If [ActivationKind](activationkind.md) is **Protocol** then the interface-typed [IActivatedEventArgs](iactivatedeventargs.md) from [OnActivated](../windows.ui.xaml/application_onactivated_603737819.md) can be cast to [ProtocolActivatedEventArgs](protocolactivatedeventargs.md).
+UWP app using C++, C#, or Visual Basic typically implement activation points by overriding methods of the [Application](../windows.ui.xaml/application.md) object. The default template app.xaml code-behind files always include an override for [OnLaunched](../windows.ui.xaml/application_onlaunched_859642554.md), but defining overrides for other activation points such as [OnActivated](../windows.ui.xaml/application_onactivated_603737819.md) is up to your app code. If [ActivationKind](activationkind.md) is **Protocol** then the interface-typed [IActivatedEventArgs](iactivatedeventargs.md) from [OnActivated](../windows.ui.xaml/application_onactivated_603737819.md) can be cast to ProtocolActivatedEventArgs.
 
 All [Application](../windows.ui.xaml/application.md) overrides involved in an activation scenario should call [Window.Activate](../windows.ui.xaml/window_activate_1797342875.md) in their implementations.
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | User |
 
 ## -examples
 

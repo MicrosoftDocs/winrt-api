@@ -19,9 +19,9 @@ Transformation types include rotation ([RotateTransform](rotatetransform.md)), s
 
 [CompositeTransform](compositetransform.md) and [TransformGroup](transformgroup.md) both support specifying multiple transforms for a combined transformation logic.
 
-You can animate properties of a transform. For XAML syntaxes that take a [Transform](transform.md), you need to specify a nonabstract derived type of [Transform](transform.md) as an object element. Typically, this is one of: [MatrixTransform](matrixtransform.md), [RotateTransform](rotatetransform.md), [ScaleTransform](scaletransform.md), [SkewTransform](skewtransform.md), or [TranslateTransform](translatetransform.md). See the syntax sections on the appropriate class.
+You can animate properties of a transform. For XAML syntaxes that take a Transform, you need to specify a nonabstract derived type of Transform as an object element. Typically, this is one of: [MatrixTransform](matrixtransform.md), [RotateTransform](rotatetransform.md), [ScaleTransform](scaletransform.md), [SkewTransform](skewtransform.md), or [TranslateTransform](translatetransform.md). See the syntax sections on the appropriate class.
 
-Use the [MatrixTransform](matrixtransform.md) class to create custom transformations that are not provided by the other [Transform](transform.md) derived classes. A two-dimensional x-y plane uses a 3x3 matrix for transformations. 
+Use the [MatrixTransform](matrixtransform.md) class to create custom transformations that are not provided by the other Transform derived classes. A two-dimensional x-y plane uses a 3x3 matrix for transformations. 
 <!--You can multiply affine transformation matrices to form linear transformations, such as rotation and skew (shear) that are followed by translation. 
 
 An affine transformation matrix has its final column equal to (0, 0, 1); therefore, you only have to specify the members in the first two columns.
@@ -29,11 +29,11 @@ An affine transformation matrix has its final column equal to (0, 0, 1); therefo
 You cannot extract the matrix-specific information from the nonmatrix transformations. However you can adjust the nonmatrix transformations with their specific properties, or replace a transformation with a matrix transformation at run time.-->
 
 
-[Transform](transform.md) is the property type for [UIElement.RenderTransform](../windows.ui.xaml/uielement_rendertransform.md). With this property, you can apply any of the practical transforms to a [UIElement](../windows.ui.xaml/uielement.md) when it renders. Other less commonly used properties that take a [Transform](transform.md) are: [Brush.RelativeTransform](brush_relativetransform.md), [Brush.Transform](brush_transform.md), [Geometry.Transform](geometry_transform.md).
+Transform is the property type for [UIElement.RenderTransform](../windows.ui.xaml/uielement_rendertransform.md). With this property, you can apply any of the practical transforms to a [UIElement](../windows.ui.xaml/uielement.md) when it renders. Other less commonly used properties that take a Transform are: [Brush.RelativeTransform](brush_relativetransform.md), [Brush.Transform](brush_transform.md), [Geometry.Transform](geometry_transform.md).
 
 ### **Transform** derived classes
 
-[Transform](transform.md) is the parent class for several derived classes that define different categories of transformations:
+Transform is the parent class for several derived classes that define different categories of transformations:
 
 + [CompositeTransform](compositetransform.md)
 + [MatrixTransform](matrixtransform.md)

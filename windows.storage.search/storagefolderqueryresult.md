@@ -11,7 +11,7 @@ public class StorageFolderQueryResult : Windows.Storage.Search.IStorageFolderQue
 
 ## -description
 
-Provides access to the results of a query that lists the folder (or file groups) in the folder being queried (which is represented by a [storageFolder](../windows.storage/storagefolder.md)). You can use a [storageFolderQueryResult](storagefolderqueryresult.md) to enumerate folders or file groups in that folder.
+Provides access to the results of a query that lists the folder (or file groups) in the folder being queried (which is represented by a [storageFolder](../windows.storage/storagefolder.md)). You can use a storageFolderQueryResult to enumerate folders or file groups in that folder.
 
 ## -remarks
 
@@ -19,20 +19,20 @@ Provides access to the results of a query that lists the folder (or file groups)
 > Although it's not attributed with `marshalling_behavior(agile)`, this class can be treated as agile. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275).
 <!--W8B 988884 v2-->
 
-You can get a [storageFolderQueryResult](storagefolderqueryresult.md) object by calling the following methods from a [storageFolder](../windows.storage/storagefolder.md) or a [folderInformation](../windows.storage.bulkaccess/folderinformation.md) object:
+You can get a storageFolderQueryResult object by calling the following methods from a [storageFolder](../windows.storage/storagefolder.md) or a [folderInformation](../windows.storage.bulkaccess/folderinformation.md) object:
 
 + [storageFolder.createFolderQuery methods](../windows.storage/storagefolder_createfolderquery_325438332.md)
 + [storageFolder.createFolderQueryWithOptions method](../windows.storage/storagefolder_createfolderquerywithoptions_573382953.md)
 + [folderInformation.createFolderQuery methods](../windows.storage.bulkaccess/folderinformation_createfolderquery_325438332.md)
 + [folderInformation.createFolderQueryWithOptions method](../windows.storage.bulkaccess/folderinformation_createfolderquerywithoptions_573382953.md)
 
-For more code examples that show you how to use [storageFolderQueryResult](storagefolderqueryresult.md) objects, see the [Folder enumeration sample](https://go.microsoft.com/fwlink/p/?linkid=231512).
+For more code examples that show you how to use storageFolderQueryResult objects, see the [Folder enumeration sample](https://go.microsoft.com/fwlink/p/?linkid=231512).
 
-To get a [StorageFolderQueryResult](storagefolderqueryresult.md) object to enumerate the folders or file groups in a location, you must get a [storageFolder](../windows.storage/storagefolder.md) that represents the location and then create a folder query
+To get a StorageFolderQueryResult object to enumerate the folders or file groups in a location, you must get a [storageFolder](../windows.storage/storagefolder.md) that represents the location and then create a folder query
 
 ## -examples
 
-This example demonstrates how to get a list folders (or file groups) from a [storageFolderQueryResult](storagefolderqueryresult.md) object.
+This example demonstrates how to get a list folders (or file groups) from a storageFolderQueryResult object.
 
 ```csharp
 
@@ -95,7 +95,7 @@ queryResult.getFoldersAsync().done(function(folders) {
 });
 ```
 
-The `queryResult` variable gets the [storageFolderQueryResult](storagefolderqueryresult.md) that is used to retrieve file groups (or folders) that meet the criteria of the query.
+The `queryResult` variable gets the storageFolderQueryResult that is used to retrieve file groups (or folders) that meet the criteria of the query.
 
 > [!NOTE]
 > You need the Pictures library capability to access the library using [KnownFolders.PicturesLibrary](../windows.storage/knownfolders_pictureslibrary.md). To learn more about capabilities and file access, see [File access permissions](https://msdn.microsoft.com/library/3a404cc0-a997-45c8-b2e8-44745539759d).

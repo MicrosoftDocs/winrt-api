@@ -17,6 +17,17 @@ Represents a snapshot of the state of a spatial interaction source (hand, motion
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | ControllerProperties |
+| 1703 | 15063 | IsGrasped |
+| 1703 | 15063 | IsMenuPressed |
+| 1703 | 15063 | IsSelectPressed |
+| 1703 | 15063 | SelectPressedValue |
+| 1903 | 18362 | TryGetHandPose |
+
 ## -examples
 
 ## -see-also

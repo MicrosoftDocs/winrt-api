@@ -11,7 +11,7 @@ public event Windows.UI.Xaml.Controls.WebViewNavigationFailedEventHandler Naviga
 
 ## -description
 > [!NOTE]
-> [NavigationFailed](webview_navigationfailed.md) may be altered or unavailable for releases after Windows 8.1. Instead, use [NavigationCompleted](webview_navigationcompleted.md).
+> NavigationFailed may be altered or unavailable for releases after Windows 8.1. Instead, use [NavigationCompleted](webview_navigationcompleted.md).
 
 Occurs when the [WebView](webview.md) cannot complete the navigation attempt.
 

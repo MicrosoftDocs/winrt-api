@@ -13,7 +13,7 @@ public class HashAlgorithmProvider : Windows.Security.Cryptography.Core.IHashAlg
 Represents a cryptographic hash provider. For more information about hashes, see [MACs, hashes, and signatures](https://msdn.microsoft.com/library/e674312f-6678-44c5-91d9-b489f49c4d3c).
 
 ## -remarks
-You create a [HashAlgorithmProvider](hashalgorithmprovider.md) object by calling the static [OpenAlgorithm](hashalgorithmprovider_openalgorithm_637226074.md) method and specifying one of the following algorithm names:
+You create a HashAlgorithmProvider object by calling the static [OpenAlgorithm](hashalgorithmprovider_openalgorithm_637226074.md) method and specifying one of the following algorithm names:
 + MD5
 + SHA1
 + SHA256

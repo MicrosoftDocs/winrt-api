@@ -13,11 +13,11 @@ public class ListViewItemAutomationPeer : Windows.UI.Xaml.Automation.Peers.Frame
 Exposes a [ListViewItem](../windows.ui.xaml.controls/listviewitem.md) to Microsoft UI Automation.
 
 ## -remarks
-The Windows Runtime  [ListViewItem](../windows.ui.xaml.controls/listviewitem.md) class creates a new [ListViewItemAutomationPeer](listviewitemautomationpeer.md) as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. Derive your automation peer from [ListViewItemAutomationPeer](listviewitemautomationpeer.md) if you are deriving a custom class from [ListViewItem](../windows.ui.xaml.controls/listviewitem.md) and want to add automation support for additional features that you enabled in your custom class. Then override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) so that it returns your custom peer.
+The Windows Runtime  [ListViewItem](../windows.ui.xaml.controls/listviewitem.md) class creates a new ListViewItemAutomationPeer as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. Derive your automation peer from ListViewItemAutomationPeer if you are deriving a custom class from [ListViewItem](../windows.ui.xaml.controls/listviewitem.md) and want to add automation support for additional features that you enabled in your custom class. Then override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) so that it returns your custom peer.
 
 ### Default peer implementation and overrides in **ListViewItemAutomationPeer**
 
-[ListViewItemAutomationPeer](listviewitemautomationpeer.md) has overrides of **Core** methods such that the associated [AutomationPeer](automationpeer.md) methods provide peer-specific information to a Microsoft UI Automation client.
+ListViewItemAutomationPeer has overrides of **Core** methods such that the associated [AutomationPeer](automationpeer.md) methods provide peer-specific information to a Microsoft UI Automation client.
 
 + [GetPattern](automationpeer_getpattern_2046576749.md) defers to base peers. [GetPattern](automationpeer_getpattern_2046576749.md) returns a pattern for [IDragProvider](https://msdn.microsoft.com/library/fac4a56d-17bc-42e6-a03e-ee45d717de37) though an internal base class. The content of the [ListViewItem](../windows.ui.xaml.controls/listviewitem.md) might also have a specific peer, for example if it is a [TextBox](../windows.ui.xaml.controls/textbox.md). The parent [ListView](../windows.ui.xaml.controls/listview.md) has the support for any selection-related automation behavior.
 + [GetClassName](automationpeer_getclassname_614238974.md) returns "ListViewItem".

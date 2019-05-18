@@ -17,7 +17,13 @@ The [MediaFrameSource](mediaframesource.md) class uses this object to specify th
 
 Get the format of a media frame represented by a [MediaFrameReference](mediaframereference.md) by accessing the [Format](mediaframereference_format.md) property.
 
-Get the format of a video frame represented by a [VideoMediaFrame](videomediaframe.md) by accessing the [VideoFormat](depthmediaframeformat_videoformat.md) property and then using the returned object's [MediaFrameFormat](mediaframeformat.md) property.
+Get the format of a video frame represented by a [VideoMediaFrame](videomediaframe.md) by accessing the [VideoFormat](depthmediaframeformat_videoformat.md) property and then using the returned object's MediaFrameFormat property.
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1803 | 17134 | AudioEncodingProperties |
 
 ## -examples
 

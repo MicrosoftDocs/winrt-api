@@ -14,9 +14,15 @@ public class GattReadClientCharacteristicConfigurationDescriptorResult : Windows
 Represents the result of reading a GATT Client CharacteristicConfigurationClientDescriptor value.
 
 ## -remarks
-The [ReadClientCharacteristicConfigurationDescriptorAsync](gattcharacteristic_readclientcharacteristicconfigurationdescriptorasync_310627851.md) method is used to retrieve a [GattReadClientCharacteristicConfigurationDescriptorResult](gattreadclientcharacteristicconfigurationdescriptorresult.md) object.
+The [ReadClientCharacteristicConfigurationDescriptorAsync](gattcharacteristic_readclientcharacteristicconfigurationdescriptorasync_310627851.md) method is used to retrieve a GattReadClientCharacteristicConfigurationDescriptorResult object.
 
-The [Status](gattreadclientcharacteristicconfigurationdescriptorresult_status.md) property on the [GattReadClientCharacteristicConfigurationDescriptorResult](gattreadclientcharacteristicconfigurationdescriptorresult.md) returned indicates if the result of the operation was successful.
+The [Status](gattreadclientcharacteristicconfigurationdescriptorresult_status.md) property on the GattReadClientCharacteristicConfigurationDescriptorResult returned indicates if the result of the operation was successful.
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | ProtocolError |
 
 ## -examples
 

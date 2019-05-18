@@ -16,7 +16,7 @@ Gets or sets the server DNS name to use for SSL policy.
 The server DNS name to use for SSL policy.
 
 ## -remarks
-The [ServerDnsName](chainvalidationparameters_serverdnsname.md) property only applies when the [CertificateChainPolicy](chainvalidationparameters_certificatechainpolicy.md) property is set to **Ssl**.
+The ServerDnsName property only applies when the [CertificateChainPolicy](chainvalidationparameters_certificatechainpolicy.md) property is set to **Ssl**.
 
 ## -examples
 

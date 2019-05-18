@@ -13,7 +13,7 @@ public void Start()
 Starts the user watcher.
 
 ## -remarks
-You must add a handler for the [UserWatcher.Added](userwatcher_added.md) before event before calling [Start](userwatcher_start_1587696324.md).
+You must add a handler for the [UserWatcher.Added](userwatcher_added.md) before event before calling Start.
 
 ## -examples
 

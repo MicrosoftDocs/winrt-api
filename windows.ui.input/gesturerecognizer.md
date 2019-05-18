@@ -30,13 +30,13 @@ For more detail on how to use cross-slide functionality, see [Guidelines for cro
 
 The [PivotRadius](gesturerecognizer_pivotradius.md) and [PivotCenter](gesturerecognizer_pivotcenter.md) properties are used only when single pointer input is detected. They have no effect on multiple pointer input. The value for these properties should be updated regularly during the interaction.
 
-Rotation is supported by a [GestureRecognizer](gesturerecognizer.md) only when [manipulationRotate](gesturesettings.md) is set through the [GestureSettings](gesturerecognizer_gesturesettings.md) property.
+Rotation is supported by a GestureRecognizer only when [manipulationRotate](gesturesettings.md) is set through the [GestureSettings](gesturerecognizer_gesturesettings.md) property.
 
 Rotation is not supported for single pointer input if the value of [PivotRadius](gesturerecognizer_pivotradius.md) is set to 0.
 
 ## -examples
 
-Here we set up a [GestureRecognizer](gesturerecognizer.md) object with a collection of input event handlers for processing both pointer and gesture input. For more information on how to listen to and handle Windows Runtime events, see [https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview](https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview). See the [Basic input sample](https://go.microsoft.com/fwlink/p/?LinkId=620514) for the full implementation.
+Here we set up a GestureRecognizer object with a collection of input event handlers for processing both pointer and gesture input. For more information on how to listen to and handle Windows Runtime events, see [https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview](https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview). See the [Basic input sample](https://go.microsoft.com/fwlink/p/?LinkId=620514) for the full implementation.
 
 ```csharp
 class ManipulationInputProcessor

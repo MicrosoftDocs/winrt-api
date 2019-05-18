@@ -16,7 +16,7 @@ Gets the activation type.
 One of the enumeration values.
 
 ## -remarks
-If [Kind](camerasettingsactivatedeventargs_kind.md) is **CameraSettings**, the app should open using a flyout. If [Kind](camerasettingsactivatedeventargs_kind.md) is **Launched**, it should open full-screen.
+If Kind is **CameraSettings**, the app should open using a flyout. If Kind is **Launched**, it should open full-screen.
 
 
 

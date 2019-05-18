@@ -18,14 +18,19 @@ Provides information about the activated event that fires when the user saves or
 ## -remarks
 Learn more about providing updates for files that your app offers in the [Quickstart: Providing file services through ](https://msdn.microsoft.com/library/3a348fea-c4b3-4847-a350-a41a69441c00) and in the [Windows.Storage.Pickers.Provider](../windows.storage.pickers.provider/windows_storage_pickers_provider.md) namespace reference.
 
-A [CachedFileUpdaterActivatedEventArgs](cachedfileupdateractivatedeventargs.md) object is passed to the app's activated event handler when the user saves a file that requires content management from the app. This type of activation is indicated by the [ActivationKind.CachedFileUpdater](activationkind.md) value returned by the [Kind](cachedfileupdateractivatedeventargs_kind.md) property.
+A CachedFileUpdaterActivatedEventArgs object is passed to the app's activated event handler when the user saves a file that requires content management from the app. This type of activation is indicated by the [ActivationKind.CachedFileUpdater](activationkind.md) value returned by the [Kind](cachedfileupdateractivatedeventargs_kind.md) property.
 
 Apps written in JavaScript must listen for and handle [Windows.UI.WebUI.WebUIApplication.activated](../windows.ui.webui/webuiapplication_activated.md) events.
-
 
 UWP app using C++, C#, or Visual Basic typically implement activation points by overriding methods of the [Application](../windows.ui.xaml/application.md) object. The default template app.xaml code-behind files always include an override for [OnLaunched](../windows.ui.xaml/application_onlaunched_859642554.md), but defining overrides for other activation points such as [OnCachedFileUpdaterActivated](../windows.ui.xaml/application_oncachedfileupdateractivated_383584449.md) is up to your app code.
 
 All [Application](../windows.ui.xaml/application.md) overrides involved in an activation scenario should call [Window.Activate](../windows.ui.xaml/window_activate_1797342875.md) in their implementations.
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | User |
 
 ## -examples
 The [File picker contracts sample](https://go.microsoft.com/fwlink/p/?linkid=231536) demonstrates how to respond to a **CachedFileUpdater** activation point.
@@ -62,7 +67,7 @@ public void Activate(CachedFileUpdaterActivatedEventArgs args)
         }
 ```
 
-For C#, `args` for an [OnCachedFileUpdaterActivated](../windows.ui.xaml/application_oncachedfileupdateractivated_383584449.md) override on the [Application](../windows.ui.xaml/application.md) object references a [CachedFileUpdaterActivatedEventArgs](cachedfileupdateractivatedeventargs.md) object. The [OnCachedFileUpdaterActivated](../windows.ui.xaml/application_oncachedfileupdateractivated_383584449.md) override is in the App.xaml.cs file and the `Activate` method is in the CachedFileUpdaterPage.xaml.cs file of the [File picker contracts sample](https://go.microsoft.com/fwlink/p/?linkid=231536).
+For C#, `args` for an [OnCachedFileUpdaterActivated](../windows.ui.xaml/application_oncachedfileupdateractivated_383584449.md) override on the [Application](../windows.ui.xaml/application.md) object references a CachedFileUpdaterActivatedEventArgs object. The [OnCachedFileUpdaterActivated](../windows.ui.xaml/application_oncachedfileupdateractivated_383584449.md) override is in the App.xaml.cs file and the `Activate` method is in the CachedFileUpdaterPage.xaml.cs file of the [File picker contracts sample](https://go.microsoft.com/fwlink/p/?linkid=231536).
 
 ## -see-also
 [ActivationKind enumeration](activationkind.md), [Windows.Storage.Provider namespace](../windows.storage.provider/windows_storage_provider.md), [File picker contracts sample](https://go.microsoft.com/fwlink/p/?linkid=231536), [Windows.UI.Core.CoreApplicationView.Activated event](../windows.applicationmodel.core/coreapplicationview_activated.md), [OnCachedFileUpdaterActivated](../windows.ui.xaml/application_oncachedfileupdateractivated_383584449.md), [Application](../windows.ui.xaml/application.md)

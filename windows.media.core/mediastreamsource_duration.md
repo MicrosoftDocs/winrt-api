@@ -16,11 +16,11 @@ Gets or sets the duration of the media time-line.
 The duration of the media time-line. The default value is 0.
 
 ## -remarks
-Applications that support seeking and set [CanSeek](mediastreamsource_canseek.md) to **true** must also assign a value to the [Duration](mediastreamsource_duration.md) property.
+Applications that support seeking and set [CanSeek](mediastreamsource_canseek.md) to **true** must also assign a value to the Duration property.
 
-The default value is 0, which means that the duration is unspecified. Live media or media that is being generated in real-time might have a [Duration](mediastreamsource_duration.md) value of 0, since the actual duration is unknown.
+The default value is 0, which means that the duration is unspecified. Live media or media that is being generated in real-time might have a Duration value of 0, since the actual duration is unknown.
 
-Applications are allowed to change the value of this property at any time. For example, after a live broadcast has ended, the [Duration](mediastreamsource_duration.md) value can be updated from 0 to the actual length of the live broadcast.
+Applications are allowed to change the value of this property at any time. For example, after a live broadcast has ended, the Duration value can be updated from 0 to the actual length of the live broadcast.
 
 ## -examples
 

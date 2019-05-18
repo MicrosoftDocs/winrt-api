@@ -19,9 +19,9 @@ Represents the container for an item in a [FlipView](flipview.md) control.
 
 
 ## -remarks
-The [FlipViewItem](flipviewitem.md) class provides the container for items displayed in a [FlipView](flipview.md) control. You populate the [FlipView](flipview.md) by adding objects directly to its [Items](itemscontrol_items.md) collection or by binding its [ItemsSource](itemscontrol_itemssource.md) property to a data source. When items are added to the [FlipView](flipview.md), a [FlipViewItem](flipviewitem.md) container is created automatically for each item in the collection.
+The FlipViewItem class provides the container for items displayed in a [FlipView](flipview.md) control. You populate the [FlipView](flipview.md) by adding objects directly to its [Items](itemscontrol_items.md) collection or by binding its [ItemsSource](itemscontrol_itemssource.md) property to a data source. When items are added to the [FlipView](flipview.md), a FlipViewItem container is created automatically for each item in the collection.
 
-You can specify the look of the [FlipViewItem](flipviewitem.md) by setting the [FlipView](flipview.md) 's [ItemContainerStyle](itemscontrol_itemcontainerstyle.md) property to a [Style](../windows.ui.xaml/style.md) with a [TargetType](../windows.ui.xaml/style_targettype.md) of [FlipViewItem](flipviewitem.md).
+You can specify the look of the FlipViewItem by setting the [FlipView](flipview.md) 's [ItemContainerStyle](itemscontrol_itemcontainerstyle.md) property to a [Style](../windows.ui.xaml/style.md) with a [TargetType](../windows.ui.xaml/style_targettype.md) of FlipViewItem.
 
 ### Control style and template
 
@@ -29,7 +29,7 @@ You can modify the default [Style](../windows.ui.xaml/style.md) and [ControlTemp
 
 Starting in Windows 10, version 1607 (SDK 14393), generic.xaml includes resources that you can use to modify the colors of a control in different visual states without modifying the control template. In apps that target this software development kit (SDK) or later, modifying these resources is preferred to setting properties such as [Background](control_background.md) and [Foreground](control_foreground.md). For more info, see the [Light-weight styling](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) section of the [Styling controls](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) article.
 
-This table shows the resources used by the [FlipViewItem](flipviewitem.md) control.
+This table shows the resources used by the FlipViewItem control.
 
 <table>
    <tr><th>Resource key</th><th>Description</th></tr>
@@ -40,8 +40,8 @@ This table shows the resources used by the [FlipViewItem](flipviewitem.md) contr
 
 
 > [!NOTE]
-> In an app compiled for Windows 8.1, [FlipViewItem](flipviewitem.md) handles pointer focus differently than in an app compiled for Windows 8. + In an app compiled for Windows 8, the event order is [PointerPressed](../windows.ui.xaml/uielement_pointerpressed.md) &gt; [GotFocus](../windows.ui.xaml/uielement_gotfocus.md) &gt; [PointerReleased](../windows.ui.xaml/uielement_pointerreleased.md). [FlipViewItem](flipviewitem.md) does not mark the [PointerReleased](../windows.ui.xaml/uielement_pointerreleased.md) event as [Handled](../windows.ui.xaml.input/pointerroutedeventargs_handled.md).
-+ In an app compiled for Windows 8.1, the event order is [PointerPressed](../windows.ui.xaml/uielement_pointerpressed.md) &gt; [GotFocus](../windows.ui.xaml/uielement_gotfocus.md). [FlipViewItem](flipviewitem.md) marks the [PointerReleased](../windows.ui.xaml/uielement_pointerreleased.md) event as [Handled](../windows.ui.xaml.input/pointerroutedeventargs_handled.md).
+> In an app compiled for Windows 8.1, FlipViewItem handles pointer focus differently than in an app compiled for Windows 8. + In an app compiled for Windows 8, the event order is [PointerPressed](../windows.ui.xaml/uielement_pointerpressed.md) &gt; [GotFocus](../windows.ui.xaml/uielement_gotfocus.md) &gt; [PointerReleased](../windows.ui.xaml/uielement_pointerreleased.md). FlipViewItem does not mark the [PointerReleased](../windows.ui.xaml/uielement_pointerreleased.md) event as [Handled](../windows.ui.xaml.input/pointerroutedeventargs_handled.md).
++ In an app compiled for Windows 8.1, the event order is [PointerPressed](../windows.ui.xaml/uielement_pointerpressed.md) &gt; [GotFocus](../windows.ui.xaml/uielement_gotfocus.md). FlipViewItem marks the [PointerReleased](../windows.ui.xaml/uielement_pointerreleased.md) event as [Handled](../windows.ui.xaml.input/pointerroutedeventargs_handled.md).
 
 
 ## -examples

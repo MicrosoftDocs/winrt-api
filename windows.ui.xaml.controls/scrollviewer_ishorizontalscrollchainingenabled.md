@@ -25,7 +25,7 @@ Gets or sets a value that indicates whether scroll chaining is enabled from this
 **true** to enable horizontal scroll chaining from child to parent; otherwise, **false**.
 
 ## -remarks
-For XAML usage, [IsHorizontalScrollChainingEnabled](scrollviewer_ishorizontalscrollchainingenabled.md) can either be an attribute on an explicit [ScrollViewer](scrollviewer.md) element, or a **ScrollViewer.IsHorizontalScrollChainingEnabled** attached property usage on an element that is a child of a control that supports scrollview implicitly in its template.
+For XAML usage, IsHorizontalScrollChainingEnabled can either be an attribute on an explicit [ScrollViewer](scrollviewer.md) element, or a **ScrollViewer.IsHorizontalScrollChainingEnabled** attached property usage on an element that is a child of a control that supports scrollview implicitly in its template.
 <!--May not work because there is no apparent templatebinding linkage in most of the generic templates.-->
 
 ## -examples

@@ -20,7 +20,7 @@ The video frame into which the preview frame will be copied.
 An asynchronous operation that returns a [VideoFrame](../windows.media/videoframe.md) on successful completion.
 
 ## -remarks
-To get a preview frame without going through a copy or conversion operation, use the no argument overload of [GetPreviewFrameAsync](mediacapture_getpreviewframeasync_440877418.md).
+To get a preview frame without going through a copy or conversion operation, use the no argument overload of GetPreviewFrameAsync.
 
 For how-to guidance on preview frames, see [Get a preview frame](https://msdn.microsoft.com/windows/uwp/audio-video-camera/get-a-preview-frame).
 

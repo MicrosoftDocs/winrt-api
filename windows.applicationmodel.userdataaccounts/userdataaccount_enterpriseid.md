@@ -16,10 +16,10 @@ Gets the enterprise identity associated with the user account.
 The enterprise identity associated with the user account.
 
 ## -remarks
-The [EnterpriseId](userdataaccount_enterpriseid.md) is often a corporate email address and is used when encrypting or decrypting corporate data.
+The EnterpriseId is often a corporate email address and is used when encrypting or decrypting corporate data.
 
 > [!IMPORTANT]
-> If the [EnterpriseId](userdataaccount_enterpriseid.md) is **null** or empty then the account is not enterprise protected.
+> If the EnterpriseId is **null** or empty then the account is not enterprise protected.
 
 ## -examples
 

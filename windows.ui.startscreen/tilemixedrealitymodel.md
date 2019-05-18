@@ -17,6 +17,12 @@ Represents a 3D model asset for use as an app launcher in the Windows Mixed Real
 
 For more information, see [Implementing 3D app launchers](https://developer.microsoft.com/windows/mixed-reality/implementing_3d_app_launchers).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1803 | 17134 | ActivationBehavior |
+
 ## -see-also
 
 [Mixed Reality Model sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/MixedRealityModel)

@@ -14,7 +14,7 @@ public event Windows.Foundation.TypedEventHandler Stopped<Windows.Networking.Pro
 Occurs when the [PeerWatcher](peerwatcher.md) object has been stopped.
 
 ## -remarks
-You can call the [Stop](peerwatcher_stop_1201535524.md) method to stop the [PeerWatcher](peerwatcher.md) object. You can register for the [Stopped](peerwatcher_stopped.md) event to be informed when the [PeerWatcher](peerwatcher.md) has stopped. You must wait for the [Stopped](peerwatcher_stopped.md) event before you can call the [Start](peerwatcher_start_1587696324.md) method to restart the [PeerWatcher](peerwatcher.md).
+You can call the [Stop](peerwatcher_stop_1201535524.md) method to stop the [PeerWatcher](peerwatcher.md) object. You can register for the Stopped event to be informed when the [PeerWatcher](peerwatcher.md) has stopped. You must wait for the Stopped event before you can call the [Start](peerwatcher_start_1587696324.md) method to restart the [PeerWatcher](peerwatcher.md).
 
 
 

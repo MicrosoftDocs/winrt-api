@@ -24,7 +24,7 @@ We recommend that you include edge UI by adding an [AppBar](../windows.ui.xaml.c
 
 ### **PaneThemeTransition** versus **EdgeUIThemeTransition**
 
-+ Use edge UI animations ([EdgeUIThemeTransition](edgeuithemetransition.md)) to show or hide a custom message or error bar that does not extend far into the screen.
++ Use edge UI animations (EdgeUIThemeTransition) to show or hide a custom message or error bar that does not extend far into the screen.
 + Use panel animations ([PaneThemeTransition](panethemetransition.md)) to show UI that slides a significant distance into the screen, such as a task pane or a custom soft keyboard.
 
 

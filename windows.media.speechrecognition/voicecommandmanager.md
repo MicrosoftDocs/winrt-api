@@ -11,7 +11,7 @@ public class VoiceCommandManager
 
 ## -description
 > [!NOTE]
-> [VoiceCommandManager](voicecommandmanager.md) may be altered or unavailable for releases after Windows Phone 8.1. Instead, use [Windows.ApplicationModel.VoiceCommands.VoiceCommandDefinitionManager](../windows.applicationmodel.voicecommands/voicecommanddefinitionmanager.md).
+> VoiceCommandManager may be altered or unavailable for releases after Windows Phone 8.1. Instead, use [Windows.ApplicationModel.VoiceCommands.VoiceCommandDefinitionManager](../windows.applicationmodel.voicecommands/voicecommanddefinitionmanager.md).
 
 A static class that enables installing command sets from a [Voice Command Definition (VCD)](https://docs.microsoft.com/uwp/schemas/voicecommands/voice-command-elements-and-attributes-1-2.md) file, and accessing the installed command sets.
 

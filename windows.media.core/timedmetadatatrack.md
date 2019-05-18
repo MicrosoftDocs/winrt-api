@@ -15,6 +15,13 @@ Represents a timed metadata track. The track contains a list of [IMediaCue](imed
 ## -remarks
 For how-to guidance for working with timed metadata tracks, see [Media items, playlists, and tracks](https://msdn.microsoft.com/windows/uwp/audio-video-camera/media-playback-with-mediasource).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | Name |
+| 1607 | 14393 | PlaybackItem |
+
 ## -examples
 
 ## -see-also

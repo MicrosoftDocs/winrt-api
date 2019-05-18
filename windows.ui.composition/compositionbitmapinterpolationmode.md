@@ -52,6 +52,19 @@ When the bitmap contents of an [ICompositionSurface](icompositionsurface.md) are
 
 Conversely, when the bitmap contents of an [ICompositionSurface](icompositionsurface.md) are mapped to a [SpriteVisual](spritevisual.md) whose size is smaller than that of the bitmap, multiple pixels from the surface must be mapped to single pixels on screen.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1903 | 18362 | MagLinearMinLinearMipLinear |
+| 1903 | 18362 | MagLinearMinLinearMipNearest |
+| 1903 | 18362 | MagLinearMinNearestMipLinear |
+| 1903 | 18362 | MagLinearMinNearestMipNearest |
+| 1903 | 18362 | MagNearestMinLinearMipLinear |
+| 1903 | 18362 | MagNearestMinLinearMipNearest |
+| 1903 | 18362 | MagNearestMinNearestMipLinear |
+| 1903 | 18362 | MagNearestMinNearestMipNearest |
+
 ## -examples
 
 ## -see-also

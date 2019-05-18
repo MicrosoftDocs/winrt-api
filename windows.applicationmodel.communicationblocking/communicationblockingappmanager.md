@@ -19,6 +19,12 @@ A user can install multiple applications that are capable of filtering messages 
 
 When an application is selected to be the active call blocking app, it will be notified by [CommunicationBlockingAppSetAsActiveTrigger](../windows.applicationmodel.background/communicationblockingappsetasactivetrigger.md)
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | RequestSetAsActiveBlockingAppAsync |
+
 ## -examples
 
 ## -see-also

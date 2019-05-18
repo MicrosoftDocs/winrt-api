@@ -26,11 +26,11 @@ Defines an area that receives and displays all pen input as either an ink stroke
 
 An InkCanvas has default Height and Width properties of zero, unless it is the child of an element that automatically sizes its child elements, such as [StackPanel](stackpanel.md) or [Grid](grid.md) controls.
 
-By default, the [InkCanvas](inkcanvas.md) does not support ink input from devices other than pen. You must specify support for other devices through the [InputDeviceTypes](../windows.ui.input.inking/inkpresenter_inputdevicetypes.md) of an [InkPresenter](../windows.ui.input.inking/inkpresenter.md) object.
+By default, the InkCanvas does not support ink input from devices other than pen. You must specify support for other devices through the [InputDeviceTypes](../windows.ui.input.inking/inkpresenter_inputdevicetypes.md) of an [InkPresenter](../windows.ui.input.inking/inkpresenter.md) object.
 
-Associate an [InkToolbar](inktoolbar.md) with an [InkCanvas](inkcanvas.md) to provide a customizable and extensible collection of buttons that activate ink-related features in the [InkCanvas](inkcanvas.md). By default, the toolbar includes buttons for drawing, erasing, highlighting, and displaying a ruler.
+Associate an [InkToolbar](inktoolbar.md) with an InkCanvas to provide a customizable and extensible collection of buttons that activate ink-related features in the InkCanvas. By default, the toolbar includes buttons for drawing, erasing, highlighting, and displaying a ruler.
 
-An [InkCanvas](inkcanvas_inkcanvas_1221375020.md) control is bound to a single instance of an [InkPresenter](../windows.ui.input.inking/inkpresenter.md) object (exposed through the [InkPresenter](inkcanvas_inkpresenter.md) property). This object provides all default inking functionality exposed by the [InkCanvas](inkcanvas.md), along with a comprehensive set of APIs for additional customization.
+An [InkCanvas](inkcanvas_inkcanvas_1221375020.md) control is bound to a single instance of an [InkPresenter](../windows.ui.input.inking/inkpresenter.md) object (exposed through the [InkPresenter](inkcanvas_inkpresenter.md) property). This object provides all default inking functionality exposed by the InkCanvas, along with a comprehensive set of APIs for additional customization.
 
 The configuration of the [InkPresenter](../windows.ui.input.inking/inkpresenter.md) determines the pointer event handling behavior of the InkCanvas. You must set [InkPresenter.InputDeviceTypes](../windows.ui.input.inking/inkpresenter_inputdevicetypes.md) to [CoreInputDeviceTypes.None](../windows.ui.input.inking/coreinputdevicetypes.md) for the [InkCanvas](inkcanvas_inkcanvas_1221375020.md) to process pointer events, otherwise they are passed to the [InkPresenter](../windows.ui.input.inking/inkpresenter.md) object. 
 

@@ -19,7 +19,7 @@ The date and time that the notification should be removed.
 ## -remarks
 
 ## -examples
-The following example uses [ExpirationTime](tilenotification_expirationtime.md) to show a tile notification for 30 seconds.
+The following example uses ExpirationTime to show a tile notification for 30 seconds.
 
 ```javascript
 

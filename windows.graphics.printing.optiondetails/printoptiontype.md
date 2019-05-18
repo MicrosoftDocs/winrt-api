@@ -35,7 +35,7 @@ A type of option that is a toggle.
 
 ### Version history
 
-| Version | SDK version | Value added |
+| Windows version | SDK version | Value added |
 | -- | -- | -- |
 | 1803 | 17134 | Toggle |
 

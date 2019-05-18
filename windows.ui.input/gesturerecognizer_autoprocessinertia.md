@@ -16,7 +16,7 @@ Gets or sets a value that indicates whether manipulations during inertia are gen
 True if manipulations are generated automatically; otherwise false. The default value is true.
 
 ## -remarks
-If the value for [AutoProcessInertia](gesturerecognizer_autoprocessinertia.md) is set to false, applications must call [ProcessInertia](gesturerecognizer_processinertia_1198131147.md) to handle events during inertia.
+If the value for AutoProcessInertia is set to false, applications must call [ProcessInertia](gesturerecognizer_processinertia_1198131147.md) to handle events during inertia.
 
 ## -examples
 

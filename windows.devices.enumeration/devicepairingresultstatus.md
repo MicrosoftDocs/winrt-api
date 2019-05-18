@@ -78,7 +78,7 @@ An unknown failure occurred.
 
 ### Version history
 
-| Version | SDK version | Value added |
+| Windows version | SDK version | Value added |
 | -- | -- | -- |
 | 1511 | 10586 | Failed |
 | 1511 | 10586 | OperationAlreadyInProgress |

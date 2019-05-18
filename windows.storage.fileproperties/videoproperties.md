@@ -13,8 +13,8 @@ public class VideoProperties : Windows.Storage.FileProperties.IStorageItemExtraP
 Provides access to the video-related properties of an item (like a file or folder).
 
 ## -remarks
-You can access a [VideoProperties](videoproperties.md) object asynchronously using the [getVideoPropertiesAsync](storageitemcontentproperties_getvideopropertiesasync_1365065087.md) method from the [Properties](../windows.storage/istorageitemproperties_properties.md) property of an item (like a file of folder), or synchronously using the [VideoProperties](../windows.storage.bulkaccess/istorageiteminformation_videoproperties.md) property if it is available.
-You can get a [VideoProperties](videoproperties.md) object using any of the following methods and properties:
+You can access a VideoProperties object asynchronously using the [getVideoPropertiesAsync](storageitemcontentproperties_getvideopropertiesasync_1365065087.md) method from the [Properties](../windows.storage/istorageitemproperties_properties.md) property of an item (like a file of folder), or synchronously using the [VideoProperties](../windows.storage.bulkaccess/istorageiteminformation_videoproperties.md) property if it is available.
+You can get a VideoProperties object using any of the following methods and properties:
 
 + [StorageItemContentProperties.getVideoPropertiesAsync](storageitemcontentproperties_getvideopropertiesasync_1365065087.md) method, which can be accessed using the [Properties](../windows.storage/istorageitemproperties_properties.md) property, if it is available.
 + [FileInformation.videoProperties](../windows.storage.bulkaccess/fileinformation_videoproperties.md) property
@@ -69,7 +69,7 @@ if (file !== null) {
 }
 ```
 
-After [GetVideoPropertiesAsync](storageitemcontentproperties_getvideopropertiesasync_1365065087.md) completes, `videoProperties` gets a [VideoProperties](videoproperties.md) object.
+After [GetVideoPropertiesAsync](storageitemcontentproperties_getvideopropertiesasync_1365065087.md) completes, `videoProperties` gets a VideoProperties object.
 
 In the example, `file` contains a [StorageFile](../windows.storage/storagefile.md) that represents the file to retrieve properties for.
 

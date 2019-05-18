@@ -18,7 +18,7 @@ You can associate verbs, such as "register", "pay with" with an item in the wall
 > [!NOTE]
 > JavaScript apps use [WebUIWalletActionActivatedEventArgs](../windows.ui.webui/webuiwalletactionactivatedeventargs.md).
 
-A [WalletVerb](walletverb.md) object represents the individual items for the [WalletItem.Verbs](walletitem_verbs.md) property.
+A WalletVerb object represents the individual items for the [WalletItem.Verbs](walletitem_verbs.md) property.
 
 The verb is a cue to the app of which UI to display on activation, which might be specific to the verb that was chosen by the user.
 

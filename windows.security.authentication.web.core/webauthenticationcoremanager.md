@@ -14,6 +14,17 @@ Contains core methods for obtaining tokens from web account providers.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | CreateWebAccountMonitor |
+| 1803 | 17134 | FindAllAccountsAsync(WebAccountProvider) |
+| 1803 | 17134 | FindAllAccountsAsync(WebAccountProvider,String) |
+| 1803 | 17134 | FindSystemAccountProviderAsync(String) |
+| 1803 | 17134 | FindSystemAccountProviderAsync(String,String) |
+| 1803 | 17134 | FindSystemAccountProviderAsync(String,String,User) |
+
 ## -examples
 
 ## -see-also

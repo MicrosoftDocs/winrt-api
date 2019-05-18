@@ -16,7 +16,7 @@ Raised when the location is updated.
 You can access information about the event with the [PositionChangedEventArgs](positionchangedeventargs.md) object that is passed to your event handler.
 
 > [!TIP]
-> When using an emulator, you must manually change the emulated location in order to trigger the [PositionChanged](geolocator_positionchanged.md) event.
+> When using an emulator, you must manually change the emulated location in order to trigger the PositionChanged event.
 
 ## -examples
 

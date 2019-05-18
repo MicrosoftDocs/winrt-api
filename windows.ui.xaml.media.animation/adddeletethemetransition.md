@@ -21,7 +21,7 @@ Provides the animated transition behavior for when controls add or delete childr
 ## -remarks
 
 ## -examples
-The following example shows how to use the [AddDeleteThemeTransition](adddeletethemetransition.md) to animate rectangles as they are added and deleted from a panel. Notice how the other child elements of the panel re-flow when one of them is removed.
+The following example shows how to use the AddDeleteThemeTransition to animate rectangles as they are added and deleted from a panel. Notice how the other child elements of the panel re-flow when one of them is removed.
 
 
 <!--  

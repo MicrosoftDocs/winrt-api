@@ -15,6 +15,12 @@ Exposes unique name and transport information for an advertising app.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | FromIdAsync |
+
 ## -examples
 
 ## -see-also

@@ -23,6 +23,6 @@ The width (in logical pixels) to use for SVG decoding operations. The default is
 ## -remarks
 Since the units are logical pixels, the SVG is decoded using values that are pre-factored for the logical resolution, and it potentially won't use as much memory.
 
-If [RasterizePixelHeight](svgimagesource_rasterizepixelheight.md) and [RasterizePixelWidth](svgimagesource_rasterizepixelwidth.md) aren't explicitly set, then the application's layout will determine the decode size so that the [SvgImageSource](svgimagesource.md) fits
+If [RasterizePixelHeight](svgimagesource_rasterizepixelheight.md) and RasterizePixelWidth aren't explicitly set, then the application's layout will determine the decode size so that the [SvgImageSource](svgimagesource.md) fits
 in the available space.
 

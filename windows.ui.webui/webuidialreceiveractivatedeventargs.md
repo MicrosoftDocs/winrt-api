@@ -14,6 +14,11 @@ Provides data when an app is activated from another app by using the DIAL protoc
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | User |
 
 ## -examples
 

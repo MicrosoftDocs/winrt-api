@@ -44,7 +44,7 @@ Thrown when insufficient memory is available to complete the operation.
 
 Background transfer doesn't support concurrent downloads of the same [Uri](../windows.foundation/uri.md). So an app can download *http://example.com/myfile.wmv* once, or download it again after a previous download completed. An app shouldn't start two downloads of the same [Uri](../windows.foundation/uri.md) concurrently, since this may result in truncated files.
 
-A download operation must be scheduled using one of the [BackgroundDownloader.CreateDownload](backgrounddownloader_createdownload_1461958690.md) or [BackgroundDownloader.CreateDownloadAsync](backgrounddownloader_createdownloadasync_282410561.md) methods before the [StartAsync](downloadoperation_startasync_1931900819.md) method is called.
+A download operation must be scheduled using one of the [BackgroundDownloader.CreateDownload](backgrounddownloader_createdownload_1461958690.md) or [BackgroundDownloader.CreateDownloadAsync](backgrounddownloader_createdownloadasync_282410561.md) methods before the StartAsync method is called.
 
 > [!IMPORTANT]
 > Queuing up a large number of transfers on the main UI thread can result in degraded performance of your app's UI, even though the call is awaitable. If you are queuing up a large number of transfers, it is recommended that you call **StartAsync** on a background worker thread as in the following example.

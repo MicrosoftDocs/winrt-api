@@ -16,7 +16,7 @@ Gets the category of an error on an SSL connection.
 The category of error on an SSL connection.
 
 ## -remarks
-SSL server errors should only be ignored in advanced scenarios. Disregarding server certificate errors when the [ServerCertificateErrorSeverity](httptransportinformation_servercertificateerrorseverity.md) property is either **Ignorable** or **Fatal** may result in the loss of privacy or integrity of the content passed over the SSL session.
+SSL server errors should only be ignored in advanced scenarios. Disregarding server certificate errors when the ServerCertificateErrorSeverity property is either **Ignorable** or **Fatal** may result in the loss of privacy or integrity of the content passed over the SSL session.
 
 ## -examples
 

@@ -14,6 +14,15 @@ Allows an application to manage VoIP calls.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1709 | 16299 | SetupNewAcceptedCall |
+| 1803 | 17134 | RequestNewAppInitiatedCall |
+| 1803 | 17134 | RequestNewIncomingCall(String,String,String,Uri,String,Uri,String,Uri,VoipPhoneCallMedia,TimeSpan,String) |
+| 1809 | 17763 | ReserveCallResourcesAsync |
+
 ## -examples
 
 ## -see-also

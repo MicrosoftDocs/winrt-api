@@ -20,7 +20,7 @@ An app creates a background task by using the [BackgroundTaskBuilder](../windows
 
 The app must also specify the JavaScript file in the `<Extensions>` section of the app manifest. For example: `<Extension Category="windows.backgroundTasks" StartPage = "js\backgroundtask.js">.`.
 
-When a background task is run, it can use the object returned from the [Current](webuibackgroundtaskinstance_current.md) property to set the success or failure of the background task and to access properties of the task.
+When a background task is run, it can use the object returned from the Current property to set the success or failure of the background task and to access properties of the task.
 
 After the background task finishes its work, the task must call the Web Workers [close](https://go.microsoft.com/fwlink/p/?linkid=237467) method to terminate itself. This way it doesn't continue to consume the user's memory and battery. Additionally only one background task for the same trigger can run at a time so the previous task must be closed before a new one can be triggered. 
 

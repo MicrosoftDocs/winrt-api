@@ -16,10 +16,6 @@ Represents a custom print task option.
 ## -remarks
 Here is a JavaScript code snippet that shows how to retrieve the object:
 
-
-
-
-
 ```javascript
 // This code creates a new custom text option and returns a 
 // customTextOption is an object of type: PrintCustomTextOptionDetails 
@@ -35,7 +31,12 @@ var printCustomTextOptionDetails =
 
 ```
 
+### Version history
 
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1803 | 17134 | Description |
+| 1803 | 17134 | WarningText |
 
 ## -examples
 

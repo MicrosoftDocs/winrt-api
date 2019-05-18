@@ -13,7 +13,7 @@ public interface IPointerPointTransform :
 Provides generalized transformation functions.
 
 ## -remarks
-Do not call this interface directly. [IPointerPointTransform](ipointerpointtransform.md) is used by a [GestureRecognizer](gesturerecognizer.md) to get transformation information for an input pointer.
+Do not call this interface directly. IPointerPointTransform is used by a [GestureRecognizer](gesturerecognizer.md) to get transformation information for an input pointer.
 
 ## -examples
 

@@ -16,7 +16,7 @@ Updates a badge overlay on the specific tile that the updater is bound to.
 ## -remarks
 To get an instance of this object, call the [BadgeUpdateManager.CreateBadgeUpdaterForApplication](badgeupdatemanager_createbadgeupdaterforapplication_1263267855.md) or [BadgeUpdateManager.CreateBadgeUpdaterForSecondaryTile](badgeupdatemanager_createbadgeupdaterforsecondarytile_131286133.md) method.
 
-When it is created, [BadgeUpdater](badgeupdater.md) is bound to a specific app or secondary tile, so the methods of this class affect only the single tile that the object instance is bound to.
+When it is created, BadgeUpdater is bound to a specific app or secondary tile, so the methods of this class affect only the single tile that the object instance is bound to.
 
 ## -examples
 The following example shows the use of [Update](badgeupdater_update_1826834066.md) to send a numeric badge update to the calling app's tile.

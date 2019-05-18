@@ -15,6 +15,11 @@ Represents a customized printing experience for a 3D printer.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | PrinterChanged |
 
 ## -examples
 

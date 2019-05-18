@@ -13,6 +13,13 @@ public class StartScreenManager
 Represents a Start screen manager object.
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1809 | 17763 | ContainsSecondaryTileAsync |
+| 1809 | 17763 | TryRemoveSecondaryTileAsync |
+
 ## -see-also
 
 ## -examples

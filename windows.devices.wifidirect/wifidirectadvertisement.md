@@ -15,6 +15,11 @@ Represents a Wi-Fi Direct advertisement and allows the app to control the listen
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1511 | 10586 | SupportedConfigurationMethods |
 
 ## -examples
 

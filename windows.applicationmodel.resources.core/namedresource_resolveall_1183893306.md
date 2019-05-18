@@ -22,7 +22,7 @@ A list of [ResourceCandidate](resourcecandidate.md) objects, in order of prefere
 ## -remarks
 The resource management system for UWP apps supports the tailoring of resources for scale. Starting in Windows 8.1, different views owned by an app are able to display simultaneously on different display devices that may use different scales. In this way, scale is a per-view characteristic.
 
-Since the [ResolveAll](namedresource_resolveall_1183893306.md) method returns all candidates for a [NamedResource](namedresource.md) in relation to a runtime context, and since the scale qualifier of a [ResourceContext](resourcecontext.md) depends on the associated view, the [ResolveAll](namedresource_resolveall_1183893306.md) should always be called passing a [ResourceContext](resourcecontext.md) object obtained from the view in which the resource will be used.
+Since the ResolveAll method returns all candidates for a [NamedResource](namedresource.md) in relation to a runtime context, and since the scale qualifier of a [ResourceContext](resourcecontext.md) depends on the associated view, the ResolveAll should always be called passing a [ResourceContext](resourcecontext.md) object obtained from the view in which the resource will be used.
 
 See the [ResourceContext.GetForCurrentView](resourcecontext_getforcurrentview_1363600702.md) method.
 

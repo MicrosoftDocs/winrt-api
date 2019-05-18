@@ -19,7 +19,7 @@ Occurs when there is an error associated with image retrieval or format.
 
 
 ## -remarks
-One scenario for handling [ImageFailed](bitmapimage_imagefailed.md) is to set the [UriSource](bitmapimage_urisource.md) to a different local image file that can serve as a fallback value. For example, if you are trying to display an external image where it's possible that the source is no longer there, or for when the user has no Internet connection, you could set the [UriSource](bitmapimage_urisource.md) to reference a local fallback or placeholder image that's part of your app package and is always guaranteed to be available.
+One scenario for handling ImageFailed is to set the [UriSource](bitmapimage_urisource.md) to a different local image file that can serve as a fallback value. For example, if you are trying to display an external image where it's possible that the source is no longer there, or for when the user has no Internet connection, you could set the [UriSource](bitmapimage_urisource.md) to reference a local fallback or placeholder image that's part of your app package and is always guaranteed to be available.
 
 
 

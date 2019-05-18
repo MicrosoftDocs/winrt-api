@@ -27,7 +27,7 @@ A Bluetooth device is available.
 
 
 ## -remarks
-Note that the options in this list are not the same as in the [AudioRoutingEndpoints](availableaudioroutingendpoints.md) enumeration. Some audio endpoints, such as a wired headset, cannot be set by software.
+Note that the options in this list are not the same as in the AudioRoutingEndpoints enumeration. Some audio endpoints, such as a wired headset, cannot be set by software.
 
 ## -examples
 

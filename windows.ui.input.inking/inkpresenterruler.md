@@ -19,10 +19,17 @@ The stencil transforms how an ink stroke is rendered:
 + It acts as a mask and prevents the drawing of an ink stroke within the area obscured by the stencil.
 
 
-The [InkPresenterRuler](inkpresenterruler.md) can be manipulated both programmatically and by the user. It also scales and translates with the [InkCanvas](../windows.ui.xaml.controls/inkcanvas.md).
+The InkPresenterRuler can be manipulated both programmatically and by the user. It also scales and translates with the [InkCanvas](../windows.ui.xaml.controls/inkcanvas.md).
 
 ## -remarks
 The opacity of the stencil is set at 75% when static, and 50% during manipulation.
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | AreTickMarksVisible |
+| 1703 | 15063 | IsCompassVisible |
 
 ## -examples
 

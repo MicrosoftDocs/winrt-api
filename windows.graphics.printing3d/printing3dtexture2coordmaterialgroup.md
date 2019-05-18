@@ -14,7 +14,13 @@ public class Printing3DTexture2CoordMaterialGroup : Windows.Graphics.Printing3D.
 Represents a group of 2D texture materials used in the 3D model.
 
 ## -remarks
-The [Printing3DTexture2CoordMaterialGroup](printing3dtexture2coordmaterialgroup.md) class corresponds to the `<texture2dgroup>` element in the 3D Manufacturing Format (3MF) specification. For more info, see the [3MF Specification](https://go.microsoft.com/fwlink/p/?LinkId=616252).
+The Printing3DTexture2CoordMaterialGroup class corresponds to the `<texture2dgroup>` element in the 3D Manufacturing Format (3MF) specification. For more info, see the [3MF Specification](https://go.microsoft.com/fwlink/p/?LinkId=616252).
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1511 | 10586 | Texture |
 
 ## -examples
 

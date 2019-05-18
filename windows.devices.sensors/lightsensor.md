@@ -31,6 +31,15 @@ The following example shows the [ReadingChanged](lightsensor_readingchanged.md) 
 
 [!code-csharp[ReadingChangedCS](../windows.devices.sensors/code/lightsensor/csharp/Scenario1.xaml.cs#SnippetReadingChangedCS)]
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1709 | 16299 | FromIdAsync |
+| 1709 | 16299 | GetDeviceSelector |
+| 1709 | 16299 | MaxBatchSize |
+| 1709 | 16299 | ReportLatency |
+
 ## -examples
 
 ## -see-also

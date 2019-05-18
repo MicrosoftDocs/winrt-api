@@ -19,7 +19,7 @@ The event handler receives an [ApplicationData](applicationdata.md) object that 
 
 ## -examples
 
-This example registers for the [DataChanged](applicationdata_datachanged.md) event.
+This example registers for the DataChanged event.
 
 ```csharp
 void InitHandlers()

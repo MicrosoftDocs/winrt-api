@@ -24,7 +24,7 @@ You can cancel navigation in a handler for this event by setting the [WebViewNav
 [WebView](webview.md) navigation events occur in the following order:
 
 
-+ [NavigationStarting](webview_navigationstarting.md)
++ NavigationStarting
 + [ContentLoading](webview_contentloading.md)
 + [DOMContentLoaded](webview_domcontentloaded.md)
 + [NavigationCompleted](webview_navigationcompleted.md)

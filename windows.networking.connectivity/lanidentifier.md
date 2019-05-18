@@ -11,7 +11,7 @@ public class LanIdentifier : Windows.Networking.Connectivity.ILanIdentifier
 # Windows.Networking.Connectivity.LanIdentifier
 
 ## -description
-Represents physical identification data for a specific [NetworkAdapter](networkadapter.md) object. For a code example showing how to retrieve data represented by a [LanIdentifier](lanidentifier.md) object, see [How to retrieve network adapter and locality information (XAML)](https://msdn.microsoft.com/library/windows/apps/xaml/Hh465168).
+Represents physical identification data for a specific [NetworkAdapter](networkadapter.md) object. For a code example showing how to retrieve data represented by a LanIdentifier object, see [How to retrieve network adapter and locality information (XAML)](https://msdn.microsoft.com/library/windows/apps/xaml/Hh465168).
 
 
 ## -remarks

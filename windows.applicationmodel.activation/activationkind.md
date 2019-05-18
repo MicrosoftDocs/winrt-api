@@ -143,7 +143,7 @@ For more information about app activation, see the remarks on the [Application.O
 
 ### Version history
 
-| Version | SDK version | Value added |
+| Windows version | SDK version | Value added |
 | -- | -- | -- |
 | 1511 | 10586 | DevicePairing |
 | 1511 | 10586 | Print3DWorkflow |

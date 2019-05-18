@@ -13,11 +13,11 @@ public class GroupItemAutomationPeer : Windows.UI.Xaml.Automation.Peers.Framewor
 Exposes a [GroupItem](../windows.ui.xaml.controls/groupitem.md) to Microsoft UI Automation.
 
 ## -remarks
-The Windows Runtime  [GroupItem](../windows.ui.xaml.controls/groupitem.md) class creates a new [GroupItemAutomationPeer](groupitemautomationpeer.md) as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. Derive your automation peer from [GroupItemAutomationPeer](groupitemautomationpeer.md) if you are deriving a custom class from [GroupItem](../windows.ui.xaml.controls/groupitem.md) and want to add automation support for additional features that you enabled in your custom class. Then override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) so that it returns your custom peer.
+The Windows Runtime  [GroupItem](../windows.ui.xaml.controls/groupitem.md) class creates a new GroupItemAutomationPeer as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. Derive your automation peer from GroupItemAutomationPeer if you are deriving a custom class from [GroupItem](../windows.ui.xaml.controls/groupitem.md) and want to add automation support for additional features that you enabled in your custom class. Then override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) so that it returns your custom peer.
 
 ### Default peer implementation and overrides in **GroupItemAutomationPeer**
 
-[GroupItemAutomationPeer](groupitemautomationpeer.md) has overrides of **Core** methods such that the associated [AutomationPeer](automationpeer.md) methods provide peer-specific information to a Microsoft UI Automation client.
+GroupItemAutomationPeer has overrides of **Core** methods such that the associated [AutomationPeer](automationpeer.md) methods provide peer-specific information to a Microsoft UI Automation client.
 
 + [GetPattern](automationpeer_getpattern_2046576749.md) reports that the peer doesn't have any control pattern support. Items within the group contents might have their own peers.
 + [GetClassName](automationpeer_getclassname_614238974.md) returns "GroupItem".

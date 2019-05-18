@@ -15,6 +15,12 @@ An object that configures the connected animation to play using the gravity conf
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1903 | 18362 | IsShadowEnabled |
+
 ## -see-also
 
 ## -examples

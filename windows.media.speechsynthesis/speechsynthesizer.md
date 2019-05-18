@@ -19,17 +19,24 @@ Only Microsoft-signed voices installed on the system can be used to generate spe
 
 Windows includes various Microsoft-signed voices that can be used for a number of languages. Each voice generates synthesized speech in a single language, as spoken in a specific country/region.
 
-By default, a new [SpeechSynthesizer](speechsynthesizer.md) object uses the current system voice (call [DefaultVoice](speechsynthesizer_defaultvoice.md) to find out what the default voice is).
+By default, a new SpeechSynthesizer object uses the current system voice (call [DefaultVoice](speechsynthesizer_defaultvoice.md) to find out what the default voice is).
 
 To specify any of the other speech synthesis (text-to-speech) voices installed on the user's system, use the [Voice](speechsynthesizer_voice.md) method (to find out which [voices](voiceinformation.md) are installed on the system, call [AllVoices](speechsynthesizer_allvoices.md)).
 
 If you don't specify a language, the voice that most closely corresponds to the language selected in the Language control panel is loaded.
 
-Use a [SpeechSynthesizer](speechsynthesizer.md) object to:
+Use a SpeechSynthesizer object to:
 
 - Generate speech from plain text using [SynthesizeTextToStreamAsync](speechsynthesizer_synthesizetexttostreamasync_2010301348.md), or [Speech Synthesis Markup Language (SSML) Version 1.1](https://www.w3.org/TR/speech-synthesis/) using [SynthesizeSsmlToStreamAsync](speechsynthesizer_synthesizessmltostreamasync_1873155127.md) (
 - The generated audio stream is played through a [MediaElement](../windows.ui.xaml.controls/mediaelement.md) object), which lets you manage all media playback.
 - Control the speech output with the various [SpeechSynthesizerOptions](speechsynthesizeroptions.md) settings exposed through [SpeechSynthesizer.Options](speechsynthesizer_options.md).
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | Options |
+| 1709 | 16299 | TrySetDefaultVoiceAsync |
 
 ## -examples
 

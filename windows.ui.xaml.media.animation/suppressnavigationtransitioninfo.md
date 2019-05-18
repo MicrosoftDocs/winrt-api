@@ -15,7 +15,7 @@ Specifies that animations are suppressed during navigation.
 ## -remarks
 
 ## -examples
-You can use [SuppressNavigationTransitionInfo](suppressnavigationtransitioninfo.md) in the place of other [NavigationTransitionInfo](navigationtransitioninfo.md) subtypes when you want to avoid playing any animation during navigation.
+You can use SuppressNavigationTransitionInfo in the place of other [NavigationTransitionInfo](navigationtransitioninfo.md) subtypes when you want to avoid playing any animation during navigation.
 
 ```csharp
 // Navigate to your first page without a transition 

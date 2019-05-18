@@ -19,7 +19,7 @@ To create an app-defined pen and corresponding button on the [InkToolbar](inktoo
 Here's a definition of a custom calligraphic pen.
 
 
-1. In code-behind, we first create a custom pen class derived from [InkToolbarCustomPen](inktoolbarcustompen.md).
+1. In code-behind, we first create a custom pen class derived from InkToolbarCustomPen.
 
 A custom pen class must override the [CreateInkDrawingAttributesCore](inktoolbarcustompen_createinkdrawingattributescore_257776854.md) method and provide the [InkDrawingAttributes](../windows.ui.input.inking/inkdrawingattributes.md) for the custom configuration. 
 In this example, we customize the following [InkDrawingAttributes](../windows.ui.input.inking/inkdrawingattributes.md):

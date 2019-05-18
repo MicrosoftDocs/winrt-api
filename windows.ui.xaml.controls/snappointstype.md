@@ -31,7 +31,7 @@ Content always stops at the snap point closest to the release point along the di
 
 
 ## -remarks
-For panning actions, there are often natural stopping places. Snap points provide a way to indicate where these places are. Then, when a user swipes, the manipulation result favors that natural point using behavior as expressed by a [SnapPointsType](snappointstype.md) value. The proximity determination is made by the Direct Manipulation subsystem that supports the manipulation handling for a XAML [ScrollViewer](scrollviewer.md). The **Single** variations factor in both the inertia and the release point.
+For panning actions, there are often natural stopping places. Snap points provide a way to indicate where these places are. Then, when a user swipes, the manipulation result favors that natural point using behavior as expressed by a SnapPointsType value. The proximity determination is made by the Direct Manipulation subsystem that supports the manipulation handling for a XAML [ScrollViewer](scrollviewer.md). The **Single** variations factor in both the inertia and the release point.
 
 **Proximity points (****Optional**** and ****OptionalSingle****):
 ** When a user is going to naturally stop the manipulation in the proximity of a snap point, proximity points help the user land at the natural stopping place. Because the user has to land in proximity to the snap point to cause it to stop there, the user will sometimes have to perform another swipe to reach a snap point.
@@ -39,9 +39,9 @@ For panning actions, there are often natural stopping places. Snap points provid
 **Mandatory snap points (****Mandatory**** and ****MandatorySingle**)**:
 ** In contrast to proximity, mandatory snap points ensure that the content is adjusted to always land on a snap point. Even if the user releases the manipulation halfway between two snap-points, it will always move to one of the snap points.
 
-The [SnapPointsType](snappointstype.md) enumeration is used as a value for the [ScrollViewer.HorizontalSnapPointsType](scrollviewer_horizontalsnappointstype.md) and [ScrollViewer.VerticalSnapPointsType](scrollviewer_verticalsnappointstype.md) properties.
+The SnapPointsType enumeration is used as a value for the [ScrollViewer.HorizontalSnapPointsType](scrollviewer_horizontalsnappointstype.md) and [ScrollViewer.VerticalSnapPointsType](scrollviewer_verticalsnappointstype.md) properties.
 
-To see the effects of snap points on [ScrollViewer](scrollviewer.md) behavior yourself, get the [XAML scrolling, panning and zooming sample](https://go.microsoft.com/fwlink/p/?LinkID=242393). Run the sample on a touch device (not the simulator). Try out the [SnapPointsType](snappointstype.md) values when you view the "Panning with snap-points" example page of the sample.
+To see the effects of snap points on [ScrollViewer](scrollviewer.md) behavior yourself, get the [XAML scrolling, panning and zooming sample](https://go.microsoft.com/fwlink/p/?LinkID=242393). Run the sample on a touch device (not the simulator). Try out the SnapPointsType values when you view the "Panning with snap-points" example page of the sample.
 
 ## -examples
 

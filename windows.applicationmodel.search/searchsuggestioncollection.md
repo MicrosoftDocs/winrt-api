@@ -18,7 +18,7 @@ The search pane can display 5 suggestions, at most. Additionally, each separator
 An app retrieves this object through the [searchPaneSuggestionsRequest.searchSuggestionCollection](searchpanesuggestionsrequest_searchsuggestioncollection.md) property while handling a [suggestionsrequested](searchpane_suggestionsrequested.md) event.
 
 ## -examples
-The [Search contract sample](https://go.microsoft.com/fwlink/p/?linkid=234892) demonstrates how to respond to a [suggestionsrequested](searchpane_suggestionsrequested.md) event, including how to use the [searchSuggestionCollection](searchsuggestioncollection.md).
+The [Search contract sample](https://go.microsoft.com/fwlink/p/?linkid=234892) demonstrates how to respond to a [suggestionsrequested](searchpane_suggestionsrequested.md) event, including how to use the searchSuggestionCollection.
 
 
 

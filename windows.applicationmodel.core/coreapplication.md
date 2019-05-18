@@ -60,6 +60,17 @@ int main(Platform::Array<Platform::String^>^)
 
 This API is supported in native apps only, except for the [Properties](coreapplication_properties.md) property, which is always available.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | BackgroundActivated |
+| 1607 | 14393 | EnablePrelaunch |
+| 1607 | 14393 | EnteredBackground |
+| 1607 | 14393 | LeavingBackground |
+| 1709 | 16299 | RequestRestartAsync |
+| 1709 | 16299 | RequestRestartForUserAsync |
+
 ## -examples
 
 ## -see-also

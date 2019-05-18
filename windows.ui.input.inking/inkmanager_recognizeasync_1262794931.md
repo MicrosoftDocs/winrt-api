@@ -24,7 +24,7 @@ One of the values from the [InkRecognitionTarget](inkrecognitiontarget.md) enume
 The results of the recognition as a collection of [InkRecognitionResult](inkrecognitionresult.md) objects. Each item in the results returned by recognition represents one written word. Each word is associated with a ranked list of text strings (retrieved through a call to [GetTextCandidates](inkrecognitionresult_gettextcandidates_1780889583.md)) as potential matches for the word.
 
 ## -remarks
-Because [RecognizeAsync](inkmanager_recognizeasync_1262794931.md) does not automatically update the existing recognition results stored in the [InkManager](inkmanager.md), [UpdateRecognitionResults](inkmanager_updaterecognitionresults_1771366374.md) is typically called after [RecognizeAsync](inkmanager_recognizeasync_1262794931.md) has completed.
+Because RecognizeAsync does not automatically update the existing recognition results stored in the [InkManager](inkmanager.md), [UpdateRecognitionResults](inkmanager_updaterecognitionresults_1771366374.md) is typically called after RecognizeAsync has completed.
 
 ## -examples
 

@@ -13,12 +13,12 @@ public class HttpDateOrDeltaHeaderValue : Windows.Foundation.IStringable, Window
 Represents the value of the **Retry-After** HTTP header on an HTTP response.
 
 ## -remarks
-The [HttpDateOrDeltaHeaderValue](httpdateordeltaheadervalue.md) class represents the **Retry-After** HTTP header on an HTTP response.
+The HttpDateOrDeltaHeaderValue class represents the **Retry-After** HTTP header on an HTTP response.
 
-The [RetryAfter](httpresponseheadercollection_retryafter.md) property on the [HttpResponseHeaderCollection](httpresponseheadercollection.md) returns an [HttpDateOrDeltaHeaderValue](httpdateordeltaheadervalue.md) object.
+The [RetryAfter](httpresponseheadercollection_retryafter.md) property on the [HttpResponseHeaderCollection](httpresponseheadercollection.md) returns an HttpDateOrDeltaHeaderValue object.
 
 ## -examples
-The following sample code shows a method to get and set the **Retry-After** HTTP header on an [HttpResponseMessage](../windows.web.http/httpresponsemessage.md) object using the properties and methods on the [HttpDateOrDeltaHeaderValue](httpdateordeltaheadervalue.md) class.
+The following sample code shows a method to get and set the **Retry-After** HTTP header on an [HttpResponseMessage](../windows.web.http/httpresponsemessage.md) object using the properties and methods on the HttpDateOrDeltaHeaderValue class.
 
 ```csharp
 

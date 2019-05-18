@@ -13,7 +13,7 @@ public class Block : Windows.UI.Xaml.Documents.TextElement, Windows.UI.Xaml.Docu
 An abstract class that provides a base for all block-level content elements.
 
 ## -remarks
-[Block](block.md) defines text formatting properties that should apply to all types of [Block](block.md) content. These properties are: [LineHeight](block_lineheight.md), [LineStackingStrategy](block_linestackingstrategy.md), [Margin](block_margin.md), and [TextAlignment](block_textalignment.md). [Block](block.md) also inherits the text formatting properties and other API of [TextElement](textelement.md).
+Block defines text formatting properties that should apply to all types of Block content. These properties are: [LineHeight](block_lineheight.md), [LineStackingStrategy](block_linestackingstrategy.md), [Margin](block_margin.md), and [TextAlignment](block_textalignment.md). Block also inherits the text formatting properties and other API of [TextElement](textelement.md).
 
 In the Windows Runtime XAML vocabulary the only block type is [Paragraph](paragraph.md). You use [Paragraph](paragraph.md) to define the blocks of text to display within a [RichTextBlock](../windows.ui.xaml.controls/richtextblock.md) control. Every [RichTextBlock](../windows.ui.xaml.controls/richtextblock.md) should include at least one [Paragraph](paragraph.md).
 
@@ -30,11 +30,17 @@ In the Windows Runtime XAML vocabulary the only block type is [Paragraph](paragr
 
 ### **Block** derived classes
 
-[Block](block.md) is the parent class for [Paragraph](paragraph.md).
+Block is the parent class for [Paragraph](paragraph.md).
 
 ### Migration notes
 
 The Windows Runtime XAML vocabulary doesn't support a **Section** class. If you're migrating XAML from Windows Presentation Foundation (WPF) or Microsoft Silverlight, use a [Paragraph](paragraph.md) block element instead.
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1709 | 16299 | HorizontalTextAlignment |
 
 ## -examples
 

@@ -26,9 +26,9 @@ The sort order to use when returning the list.
 A list of [EndpointPair](../windows.networking/endpointpair.md) objects.
 
 ## -remarks
-The [GetEndpointPairsAsync](datagramsocket_getendpointpairsasync_903639760.md) method gets a list of possible [EndpointPair](../windows.networking/endpointpair.md) objects that can be used by a [DatagramSocket](datagramsocket.md) to connect to a remote network destination. The returned list is sorted based on the *sortOptions* parameter.
+The GetEndpointPairsAsync method gets a list of possible [EndpointPair](../windows.networking/endpointpair.md) objects that can be used by a [DatagramSocket](datagramsocket.md) to connect to a remote network destination. The returned list is sorted based on the *sortOptions* parameter.
 
-A [DatagramSocket](datagramsocket.md) can use the list returned by the [GetEndpointPairsAsync](datagramsocket_getendpointpairsasync_903639760.md) method to try and bind or connect to each [EndpointPair](../windows.networking/endpointpair.md) object until a remote destination can be reached. An [EndpointPair](../windows.networking/endpointpair.md) object from the list would be used with the [ConnectAsync(EndpointPair)](datagramsocket_connectasync_13692504.md) method.
+A [DatagramSocket](datagramsocket.md) can use the list returned by the GetEndpointPairsAsync method to try and bind or connect to each [EndpointPair](../windows.networking/endpointpair.md) object until a remote destination can be reached. An [EndpointPair](../windows.networking/endpointpair.md) object from the list would be used with the [ConnectAsync(EndpointPair)](datagramsocket_connectasync_13692504.md) method.
 
 ## -examples
 

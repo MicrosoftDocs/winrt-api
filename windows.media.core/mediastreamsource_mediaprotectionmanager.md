@@ -16,7 +16,7 @@ Gets or sets the Digital Rights Management (DRM)[MediaProtectionManager](../wind
 The media protection manager.
 
 ## -remarks
-If any of the streams are protected, the application must set the [MediaProtectionManager](mediastreamsource_mediaprotectionmanager.md) property on the [MediaStreamSource](mediastreamsource.md).
+If any of the streams are protected, the application must set the MediaProtectionManager property on the [MediaStreamSource](mediastreamsource.md).
 
 The [MediaStreamSource](mediastreamsource.md) requires that the following properties be present in the PropertySet object returned by [MediaProtectionManager.Properties](../windows.media.protection/mediaprotectionmanager_properties.md): 
 + [Windows.Media.Protection.MediaProtectionSystemId](../windows.media.protection/mediaprotectionmanager_properties.md)

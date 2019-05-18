@@ -18,7 +18,7 @@ The collection of [HttpChallengeHeaderValue](httpchallengeheadervalue.md) object
 ## -remarks
 
 
-The following sample code shows a method to get and set the **WWW-Authenticate** header on an [HttpResponseMessage](../windows.web.http/httpresponsemessage.md) object using the [WwwAuthenticate](httpresponseheadercollection_wwwauthenticate.md) property on the [HttpResponseHeaderCollection](httpresponseheadercollection.md) object.
+The following sample code shows a method to get and set the **WWW-Authenticate** header on an [HttpResponseMessage](../windows.web.http/httpresponsemessage.md) object using the WwwAuthenticate property on the [HttpResponseHeaderCollection](httpresponseheadercollection.md) object.
 
 ```csharp
 // WWW-Authenticate: Basic

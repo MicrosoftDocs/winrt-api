@@ -21,7 +21,7 @@ This interface manipulates a decoded SMS text message. It provides direct access
 ## -remarks
 ### Interface inheritance
 
-[ISmsTextMessage](ismstextmessage.md) inherits [ISmsMessage](ismsmessage.md). Types that implement [ISmsTextMessage](ismstextmessage.md) also implement the interface members of [ISmsMessage](ismsmessage.md).
+ISmsTextMessage inherits [ISmsMessage](ismsmessage.md). Types that implement ISmsTextMessage also implement the interface members of [ISmsMessage](ismsmessage.md).
 
 ## -examples
 

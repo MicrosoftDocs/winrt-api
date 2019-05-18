@@ -17,12 +17,12 @@ Gets or sets a value that indicates the color of an [InkStroke](inkstroke.md).
 The ink color as an ARGB value. The default is black (0, 0, 0, 0).
 
 ## -remarks
-The value of [Color](inkdrawingattributes_color.md) is an ARGB value. However, the value of the transparency component (A, or alpha channel) is ignored and the [InkStroke](inkstroke.md) is rendered at full opacity.
+The value of Color is an ARGB value. However, the value of the transparency component (A, or alpha channel) is ignored and the [InkStroke](inkstroke.md) is rendered at full opacity.
 
 The value of the transparency component is not discarded. It is stored with all other stroke data in the Ink Serialized Format (ISF) file when the [InkStroke](inkstroke.md) is saved.
 
 ## -examples
-The following example demonstrates how to set the [Color](inkdrawingattributes_color.md) property (`color`) of an [InkStroke](inkstroke.md) (`stroke`) using the [Windows.UI.ColorHelper.FromArgb](../windows.ui/colorhelper_fromargb_1449236110.md) method.
+The following example demonstrates how to set the Color property (`color`) of an [InkStroke](inkstroke.md) (`stroke`) using the [Windows.UI.ColorHelper.FromArgb](../windows.ui/colorhelper_fromargb_1449236110.md) method.
 
 ```
 
@@ -33,7 +33,7 @@ stroke.drawingAttributes = drawingAttributes;
 
 ```
 
-The following alternative demonstrates how to set the [Color](inkdrawingattributes_color.md) property (`color`) of an [InkStroke](inkstroke.md) (`stroke`) without using the [Windows.UI.ColorHelper.FromArgb](../windows.ui/colorhelper_fromargb_1449236110.md) method.
+The following alternative demonstrates how to set the Color property (`color`) of an [InkStroke](inkstroke.md) (`stroke`) without using the [Windows.UI.ColorHelper.FromArgb](../windows.ui/colorhelper_fromargb_1449236110.md) method.
 
 ```
 var drawingAttributes = stroke.drawingAttributes;

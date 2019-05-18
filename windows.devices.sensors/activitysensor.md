@@ -20,7 +20,7 @@ For an example implementation, see the [activity sensor sample](https://github.c
 > [!NOTE]
 > This class is not supported in JavaScript
 
-In order to use [ActivitySensor](activitysensor.md), you need to define the activity device capability in your app manifest file.
+In order to use ActivitySensor, you need to define the activity device capability in your app manifest file.
 
 ```
 <Capabilities>

@@ -44,7 +44,7 @@ You can use the [PublishMessage](proximitydevice_publishmessage_1881696512.md) m
 
 ### Message Types
 
-For details on the types of messages that you can publish with the [PublishBinaryMessage(String, IBuffer, MessageTransmittedHandler)](proximitydevice_publishbinarymessage_374148007.md) method, see the remarks in the [PublishBinaryMessage(String, IBuffer)](proximitydevice_publishbinarymessage_285088637.md) topic.
+For details on the types of messages that you can publish with the [PublishBinaryMessage(String, IBuffer, MessageTransmittedHandler) method, see the remarks in the [PublishBinaryMessage(String, IBuffer)](proximitydevice_publishbinarymessage_285088637.md) topic.
 
 ## -examples
 

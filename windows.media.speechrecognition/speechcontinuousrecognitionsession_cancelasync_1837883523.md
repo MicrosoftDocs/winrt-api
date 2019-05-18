@@ -16,7 +16,7 @@ Asynchronously cancel the continuous speech recognition session and discard all 
 An asynchronous handler called when the operation is complete.
 
 ## -remarks
-A [ResultGenerated](speechcontinuousrecognitionsession_resultgenerated.md) event can occur after a call to [CancelAsync](speechcontinuousrecognitionsession_cancelasync_1837883523.md) if it exists on the stack when the call is made.
+A [ResultGenerated](speechcontinuousrecognitionsession_resultgenerated.md) event can occur after a call to CancelAsync if it exists on the stack when the call is made.
 
 [StopAsync](speechcontinuousrecognitionsession_stopasync_1648475005.md) passes pending results to the [ResultGenerated](speechcontinuousrecognitionsession_resultgenerated.md) event.
 

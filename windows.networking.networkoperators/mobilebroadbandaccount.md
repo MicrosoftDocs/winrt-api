@@ -22,6 +22,12 @@ Represents a mobile broadband account and related information about the network 
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | AccountExperienceUrl |
+
 ## -examples
 
 ## -see-also

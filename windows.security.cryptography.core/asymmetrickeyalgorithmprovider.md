@@ -13,7 +13,7 @@ public class AsymmetricKeyAlgorithmProvider : Windows.Security.Cryptography.Core
 Represents a provider of asymmetric (public) key algorithms. For more information, see [Cryptographic keys](https://msdn.microsoft.com/library/f35bebdf-28c5-4f91-a94e-f7d862b6ed59).
 
 ## -remarks
-You create an [AsymmetricKeyAlgorithmProvider](asymmetrickeyalgorithmprovider.md) object by calling the static [OpenAlgorithm](asymmetrickeyalgorithmprovider_openalgorithm_637226074.md) method.
+You create an AsymmetricKeyAlgorithmProvider object by calling the static [OpenAlgorithm](asymmetrickeyalgorithmprovider_openalgorithm_637226074.md) method.
 
 ## -examples
 Because asymmetric cryptography is much slower than symmetric cryptography, it is seldom used to encrypt large amounts of data directly. Instead, it is typically used in the following manner to encrypt keys.

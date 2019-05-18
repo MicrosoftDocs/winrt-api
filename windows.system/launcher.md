@@ -19,6 +19,23 @@ Starts the default app associated with the specified file or URI.
 > [!NOTE]
 > : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | FindAppUriHandlersAsync |
+| 1607 | 14393 | LaunchUriForResultsForUserAsync(User,Uri,LauncherOptions) |
+| 1607 | 14393 | LaunchUriForResultsForUserAsync(User,Uri,LauncherOptions,ValueSet) |
+| 1607 | 14393 | LaunchUriForUserAsync(User,Uri) |
+| 1607 | 14393 | LaunchUriForUserAsync(User,Uri,LauncherOptions) |
+| 1607 | 14393 | LaunchUriForUserAsync(User,Uri,LauncherOptions,ValueSet) |
+| 1607 | 14393 | QueryAppUriSupportAsync(Uri) |
+| 1607 | 14393 | QueryAppUriSupportAsync(Uri,String) |
+| 1809 | 17763 | LaunchFolderPathAsync(String) |
+| 1809 | 17763 | LaunchFolderPathAsync(String,FolderLauncherOptions) |
+| 1809 | 17763 | LaunchFolderPathForUserAsync(User,String) |
+| 1809 | 17763 | LaunchFolderPathForUserAsync(User,String,FolderLauncherOptions) |
+
 ## -examples
 
 **Launch a file contained in the app package**

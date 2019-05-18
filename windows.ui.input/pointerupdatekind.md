@@ -14,7 +14,7 @@ Specifies the types of pointer updates that are supported by an application.
 
 ## -enum-fields
 ### -field Other:0
-Pointer updates not identified by other [PointerUpdateKind](pointerupdatekind.md) values.
+Pointer updates not identified by other PointerUpdateKind values.
 
 ### -field LeftButtonPressed:1
 Left button pressed.

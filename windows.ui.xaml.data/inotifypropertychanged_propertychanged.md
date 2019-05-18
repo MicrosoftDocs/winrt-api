@@ -15,10 +15,10 @@ Occurs when a property value changes.
 ## -remarks
 When building UWP app with the Microsoft .NET Framework, this interface is hidden and developers should use the [System.ComponentModel.INotifyPropertyChanged](https://msdn.microsoft.com/library/system.componentmodel.inotifypropertychanged.aspx) interface.
 
-The [PropertyChanged](inotifypropertychanged_propertychanged.md) event can indicate that all properties on the object have changed by using [String.Empty](https://msdn.microsoft.com/library/system.string.aspx) for the [PropertyName](propertychangedeventargs_propertyname.md) property of the [PropertyChangedEventArgs](propertychangedeventargs.md). Note that you cannot use **null** for this like you can in Windows Presentation Foundation (WPF) and Microsoft Silverlight.
+The PropertyChanged event can indicate that all properties on the object have changed by using [String.Empty](https://msdn.microsoft.com/library/system.string.aspx) for the [PropertyName](propertychangedeventargs_propertyname.md) property of the [PropertyChangedEventArgs](propertychangedeventargs.md). Note that you cannot use **null** for this like you can in Windows Presentation Foundation (WPF) and Microsoft Silverlight.
 
 ## -examples
-This example demonstrates how to implement the [INotifyPropertyChanged](inotifypropertychanged.md) interface and fire the [PropertyChanged](inotifypropertychanged_propertychanged.md) event whenever property values change. For the complete code listing, see the [XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854).
+This example demonstrates how to implement the [INotifyPropertyChanged](inotifypropertychanged.md) interface and fire the PropertyChanged event whenever property values change. For the complete code listing, see the [XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854).
 
 ```csharp
 using System;

@@ -17,9 +17,9 @@ Gets the amount of data the spatial anchor has gathered relative to the minimal 
 The amount of data gathered for this export.
 
 ## -remarks
-An anchor has gathered the minimal amount of data needed to export if it has a [SufficiencyLevel](spatialanchorexportsufficiency_sufficiencylevel.md) >= 1.0, also indicated by [IsMinimallySufficient](spatialanchorexportsufficiency_isminimallysufficient.md).
+An anchor has gathered the minimal amount of data needed to export if it has a SufficiencyLevel >= 1.0, also indicated by [IsMinimallySufficient](spatialanchorexportsufficiency_isminimallysufficient.md).
 
-An anchor has gathered the ideal amount of data needed to export if it has a [SufficiencyLevel](spatialanchorexportsufficiency_sufficiencylevel.md) >= [RecommendedSufficiencyLevel](spatialanchorexportsufficiency_recommendedsufficiencylevel.md).
+An anchor has gathered the ideal amount of data needed to export if it has a SufficiencyLevel >= [RecommendedSufficiencyLevel](spatialanchorexportsufficiency_recommendedsufficiencylevel.md).
 
 ## -see-also
 

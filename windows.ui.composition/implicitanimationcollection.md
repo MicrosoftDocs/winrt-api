@@ -70,7 +70,7 @@ Animations will support this.FinalValue keyword as a valid keyword to signify th
 
 ### Events and target properties for ImplicitAnimationCollection and CompositionAnimationGroup
 
-[ImplicitAnimationCollection](implicitanimationcollection.md) lets you add triggers which implicit animation will monitor for changes and kick off related animations as provided by the developer. [ImplicitAnimationCollection](implicitanimationcollection.md) supports all Visual animatable properties which are also used as target properties for animations. Target has to be defined on the animation or it will throw an exception.
+ImplicitAnimationCollection lets you add triggers which implicit animation will monitor for changes and kick off related animations as provided by the developer. ImplicitAnimationCollection supports all Visual animatable properties which are also used as target properties for animations. Target has to be defined on the animation or it will throw an exception.
 
 ```
 

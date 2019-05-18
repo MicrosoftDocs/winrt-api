@@ -18,7 +18,7 @@ The [MediaSource](../windows.media.core/mediasource.md) class provides a common 
 Get an instance of this class by calling [AudioGraph.CreateMediaSourceAudioInputNode](audiograph_createmediasourceaudioinputnodeasync_989225096.md) and then accessing the [CreateFileInputNodeResult.FileInputNode](createaudiofileinputnoderesult_fileinputnode.md) property.
 
 ## -see-also
-[MediaSourceAudioInputNode](mediasourceaudioinputnode.md)
+MediaSourceAudioInputNode
 [MediaSource](../windows.media.core/mediasource.md)
 [Media items, playlists, and tracks](https://docs.microsoft.com/windows/uwp/audio-video-camera/media-playback-with-mediasource)
 

@@ -21,7 +21,7 @@ Do not use "?" or "#" in resource identifiers, because they terminate the resour
 
 ### Collection member lists
 
-For JavaScript, [ResourceMap](resourcemap.md) supports using an index to access items.
+For JavaScript, ResourceMap supports using an index to access items.
 
 ## -examples
 This example is based on scenario 13 of the [Application resources and localization sample](https://go.microsoft.com/fwlink/p/?linkid=227301). See the sample for the more complete solution.

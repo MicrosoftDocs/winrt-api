@@ -48,7 +48,7 @@ The beginning of the text is aligned to the edge of the container.
 
 ### Version history
 
-| Version | SDK version | Value added |
+| Windows version | SDK version | Value added |
 | -- | -- | -- |
 | 1709 | 16299 | End |
 | 1709 | 16299 | Start |

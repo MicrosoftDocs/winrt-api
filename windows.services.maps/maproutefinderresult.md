@@ -13,7 +13,7 @@ public class MapRouteFinderResult : Windows.Services.Maps.IMapRouteFinderResult,
 Returns the result of a [MapRouteFinder](maproutefinder.md) query.
 
 ## -remarks
-A [MapRouteFinderResult](maproutefinderresult.md) is returned when you call the methods of the [MapRouteFinder](maproutefinder.md) class.
+A MapRouteFinderResult is returned when you call the methods of the [MapRouteFinder](maproutefinder.md) class.
 
 Your [Universal Windows app](https://msdn.microsoft.com/windows/uwp/get-started/universal-application-platform-guide) must be authenticated before it can use the [MapControl](../windows.ui.xaml.controls.maps/mapcontrol.md) and map services in the [Windows.Services.Maps](windows_services_maps.md) namespace. To authenticate your app, you must specify a maps authentication key.
 

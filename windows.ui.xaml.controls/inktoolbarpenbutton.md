@@ -14,7 +14,7 @@ Provides a base class for all built-in and custom pen buttons on an [InkToolbar]
 
 ## -remarks
 
-The [InkToolbarPenButton](inktoolbarpenbutton.md) class cannot be instantiated directly. Use the various built-in and custom [InkToolbar](inktoolbar.md) pen buttons instead.
+The InkToolbarPenButton class cannot be instantiated directly. Use the various built-in and custom [InkToolbar](inktoolbar.md) pen buttons instead.
 
 You must create an [InkDrawingAttributes](inktoolbar_inkdrawingattributes.md) object based on the current stroke [Size](../windows.ui.input.inking/inkdrawingattributes_size.md) and [Brush](../windows.ui.xaml.media/brush.md).
 
@@ -31,11 +31,11 @@ Radio group toggle buttons
 
 ### **InkToolbarPenButton** derived classes
 
-[InkToolbarPenButton](inktoolbarpenbutton.md) is the base class for:
+InkToolbarPenButton is the base class for:
 
 Pen buttons
 
-+ [InkToolbarPenButton](inktoolbarpenbutton.md)
++ InkToolbarPenButton
 
 Custom pen buttons
 

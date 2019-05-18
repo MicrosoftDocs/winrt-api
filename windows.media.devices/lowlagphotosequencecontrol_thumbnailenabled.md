@@ -18,7 +18,7 @@ Gets a value that enables and disables thumbnail support in photo sequence mode.
 ## -remarks
 Thumbnails are supported for a low shutter lag single photos and photo sequences.
 
-To enable thumbnails, set [ThumbnailEnabled](lowlagphotosequencecontrol_thumbnailenabled.md) to **true**.
+To enable thumbnails, set ThumbnailEnabled to **true**.
 
 You can set the desired thumbnail size through [DesiredThumbnailSize](lowlagphotosequencecontrol_desiredthumbnailsize.md) and set the thumbnail format through [ThumbnailFormat](lowlagphotosequencecontrol_thumbnailformat.md).
 
@@ -27,4 +27,4 @@ You can set the desired thumbnail size through [DesiredThumbnailSize](lowlagphot
 ## -examples
 
 ## -see-also
-[ThumbnailEnabled](lowlagphotosequencecontrol_thumbnailenabled.md), [DesiredThumbnailSize](lowlagphotosequencecontrol_desiredthumbnailsize.md), [ThumbnailFormat](lowlagphotosequencecontrol_thumbnailformat.md), [HardwareAcceleratedThumbnailSupported](lowlagphotosequencecontrol_hardwareacceleratedthumbnailsupported.md)
+ThumbnailEnabled, [DesiredThumbnailSize](lowlagphotosequencecontrol_desiredthumbnailsize.md), [ThumbnailFormat](lowlagphotosequencecontrol_thumbnailformat.md), [HardwareAcceleratedThumbnailSupported](lowlagphotosequencecontrol_hardwareacceleratedthumbnailsupported.md)

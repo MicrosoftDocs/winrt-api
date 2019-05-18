@@ -24,7 +24,7 @@ Gets or sets a value that indicates whether zoom actions should include inertia 
 **true** if zoom actions should include inertia in their behavior and value; otherwise, **false**.
 
 ## -remarks
-For XAML usage, [IsZoomInertiaEnabled](scrollviewer_iszoominertiaenabled.md) can either be an attribute on an explicit [ScrollViewer](scrollviewer.md) element, or a **ScrollViewer.IsZoomInertiaEnabled** attached property usage on an element that is a child of a control that supports scrollview implicitly in its template.
+For XAML usage, IsZoomInertiaEnabled can either be an attribute on an explicit [ScrollViewer](scrollviewer.md) element, or a **ScrollViewer.IsZoomInertiaEnabled** attached property usage on an element that is a child of a control that supports scrollview implicitly in its template.
 
 ## -examples
 

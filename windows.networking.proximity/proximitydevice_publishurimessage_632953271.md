@@ -23,7 +23,7 @@ The publication ID of the message.
 ## -remarks
 Only one URI can be published at a time for each proximity device.
 
-You can stop publishing a URI by passing the publication ID returned by the [PublishUriMessage](proximitydevice_publishurimessage_632953271.md) method to the [StopPublishingMessage](proximitydevice_stoppublishingmessage_1046474884.md) method.
+You can stop publishing a URI by passing the publication ID returned by the PublishUriMessage method to the [StopPublishingMessage](proximitydevice_stoppublishingmessage_1046474884.md) method.
 
 Unlike the other publish methods for a proximity device, URI publishing is handled by the default protocol handler for the URI. A subscription to a URI message publication is not required. You can receive URI messages by registering a default handler for a URI protocol such as the HTTP protocol.
 

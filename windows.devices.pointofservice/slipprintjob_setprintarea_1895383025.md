@@ -18,7 +18,7 @@ Sets the area of the page on which the slip printer station can print the job.
 The area of the page on which the slip printer station can print the job.
 
 ## -remarks
-When you call this method for a print job, all instructions in the print job run within the specified print area, including the instructions that you added to the job before you called [SlipPrintJob.SetPrintArea](slipprintjob_setprintarea_1895383025.md).
+When you call this method for a print job, all instructions in the print job run within the specified print area, including the instructions that you added to the job before you called SlipPrintJob.SetPrintArea.
 
 ## -examples
 

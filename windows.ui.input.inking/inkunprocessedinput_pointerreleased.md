@@ -13,9 +13,9 @@ public event Windows.Foundation.TypedEventHandler PointerReleased<Windows.UI.Inp
 ## -description
 Can occur when a pointer associated with a [PointerPressed](inkunprocessedinput_pointerpressed.md) event is lifted, or released, while within the hit test, or bounding, area of an [InkCanvas](../windows.ui.xaml.controls/inkcanvas.md) control.
 
-[PointerReleased](inkunprocessedinput_pointerreleased.md) is not guaranteed to occur in concert with [PointerPressed](inkunprocessedinput_pointerpressed.md), as [PointerLost](inkunprocessedinput_pointerlost.md) or [PointerExited](inkunprocessedinput_pointerexited.md) might occur instead. You should handle all events that can conclude [PointerPressed](inkunprocessedinput_pointerpressed.md).
+PointerReleased is not guaranteed to occur in concert with [PointerPressed](inkunprocessedinput_pointerpressed.md), as [PointerLost](inkunprocessedinput_pointerlost.md) or [PointerExited](inkunprocessedinput_pointerexited.md) might occur instead. You should handle all events that can conclude [PointerPressed](inkunprocessedinput_pointerpressed.md).
 
-Some reasons why [PointerReleased](inkunprocessedinput_pointerreleased.md) might not occur include: 
+Some reasons why PointerReleased might not occur include: 
 + Differences in how specific hardware handles input
 + A programmatic pointer capture from a different pointer
 + User actions that change the relationship of the display area, such as changing resolution or monitor settings

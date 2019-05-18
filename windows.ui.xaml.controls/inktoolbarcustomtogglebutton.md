@@ -20,7 +20,7 @@ The [InkToolbar](inktoolbar.md) consists of two distinct groups of button types:
 
     > Feature selection is mutually exclusive.
 
-+ A second group of "toggle" buttons containing the built-in ruler ([InkToolbarRulerButton](inktoolbarrulerbutton.md)) button. Custom toggles ([InkToolbarCustomToggleButton](inktoolbarcustomtogglebutton.md)) are added here.
++ A second group of "toggle" buttons containing the built-in ruler ([InkToolbarRulerButton](inktoolbarrulerbutton.md)) button. Custom toggles (InkToolbarCustomToggleButton) are added here.
 
     > Features are not mutually exclusive and can be used concurrently with other active tools.
 
@@ -37,7 +37,7 @@ When the app starts, only pen inking is supported, with touch used for panning o
 + If supporting inking with touch input, we recommend using the "ED5F" icon from the "Segoe MLD2 Assets" font for the toggle button, with a "Touch writing" tooltip.
 
 
-Here, we declare a [InkToolbarCustomToggleButton](inktoolbarcustomtogglebutton.md) element (`toggleButton`) with a [Click](../windows.ui.xaml.controls.primitives/buttonbase_click.md) event listener that specifies the event handler (`Toggle_Custom`).
+Here, we declare a InkToolbarCustomToggleButton element (`toggleButton`) with a [Click](../windows.ui.xaml.controls.primitives/buttonbase_click.md) event listener that specifies the event handler (`Toggle_Custom`).
 
 
 
