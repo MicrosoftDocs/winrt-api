@@ -58,7 +58,7 @@ int main(Platform::Array<Platform::String^>^)
 }
 ```
 
-```cs
+```csharp
 internal class ApplicationSource : IFrameworkViewSource
 {
 	public virtual IFrameworkView CreateView()
