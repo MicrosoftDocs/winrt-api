@@ -10,11 +10,11 @@ public void SetStylisticSet12(Windows.UI.Xaml.DependencyObject element, System.B
 # Windows.UI.Xaml.Documents.Typography.SetStylisticSet12
 
 ## -description
-Sets the value of the [StylisticSet12](typography_stylisticset12.md)  attached property for a specified dependency object.
+Sets the value of the [StylisticSet12](/uwp/api/windows.ui.xaml.documents.typography#xaml-attached-properties) attached property for a specified dependency object.
 
 ## -parameters
 ### -param element
-The dependency object for which to set the value of the [StylisticSet12](typography_stylisticset12.md) property.
+The dependency object for which to set the value of the [StylisticSet12](/uwp/api/windows.ui.xaml.documents.typography#xaml-attached-properties) property.
 
 ### -param value
 The new value to set the property to.

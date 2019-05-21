@@ -10,7 +10,7 @@ public enum Windows.UI.Xaml.FontFraction : int
 # FontFraction
 
 ## -description
-Describes a fraction style value for the [Typography.Fraction](../windows.ui.xaml.documents/typography_fraction.md) attached property.
+Describes a fraction style value for the [Typography.Fraction](/uwp/api/windows.ui.xaml.documents.typography#xaml-attached-properties) attached property.
 
 ## -xaml-syntax
 ```xaml
@@ -31,7 +31,7 @@ Stacked fraction style is used.
 
 
 ## -remarks
-This enumeration is used by the [Typography.Fraction](../windows.ui.xaml.documents/typography_fraction.md) attached property.
+This enumeration is used by the [Typography.Fraction](/uwp/api/windows.ui.xaml.documents.typography#xaml-attached-properties) attached property.
 
 Generally, Microsoft OpenType fonts support styles for fractions, including slashed and stacked.
 

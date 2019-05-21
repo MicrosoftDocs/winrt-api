@@ -40,7 +40,7 @@ For design guidelines, see [Guidelines for tooltips](https://msdn.microsoft.com/
 
 A ToolTip must be assigned to another UI element that is its owner. The [ToolTipService](tooltipservice.md) class provides static methods to display a ToolTip.
 
-+ In XAML, use the [ToolTipService.Tooltip](tooltipservice_tooltip.md) attached property to assign the ToolTip to an owner.
++ In XAML, use the [ToolTipService.Tooltip](/uwp/api/windows.ui.xaml.controls.tooltipservice#xaml-attached-properties) attached property to assign the ToolTip to an owner.
 ```xaml
 <Button Content="Submit" ToolTipService.ToolTip="Click to submit"/>
 ```
@@ -70,7 +70,7 @@ You can use any object as the [Content](contentcontrol_content.md) of a ToolTip.
 
 By default, a ToolTip is displayed centered above the pointer. The placement is not constrained by the app window, so the ToolTip might be displayed partially or completely outside of the app window bounds.
 
-If a ToolTip obscures the content it is referring to, you can adjust it's placement. Use the [Placement](tooltip_placement.md) property or [ToolTipService.Placement](tooltipservice_placement.md) attached property to place the ToolTip above, below, left, or right of the pointer. You can set the [VerticalOffset](tooltip_verticaloffset.md) and [HorizontalOffset](tooltip_horizontaloffset.md) properties to change the distance between the pointer and the ToolTip.
+If a ToolTip obscures the content it is referring to, you can adjust it's placement. Use the [Placement](tooltip_placement.md) property or [ToolTipService.Placement](/uwp/api/windows.ui.xaml.controls.tooltipservice#xaml-attached-properties) attached property to place the ToolTip above, below, left, or right of the pointer. You can set the [VerticalOffset](tooltip_verticaloffset.md) and [HorizontalOffset](tooltip_horizontaloffset.md) properties to change the distance between the pointer and the ToolTip.
 
 ### Control style and template
 

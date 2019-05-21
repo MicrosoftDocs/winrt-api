@@ -16,7 +16,7 @@ Provides the peer's behavior when a Microsoft UI Automation client calls [GetAut
 The automation identifier.
 
 ## -remarks
-Providing a class-based behavior for **AutomationId** is uncommon. Typically, app authors set values for elements in the app by setting the [AutomationProperties.AutomationId](../windows.ui.xaml.automation/automationproperties_automationid.md) attached property in the XAML UI definition.
+Providing a class-based behavior for **AutomationId** is uncommon. Typically, app authors set values for elements in the app by setting the [AutomationProperties.AutomationId](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties) attached property in the XAML UI definition.
 
 ## -examples
 

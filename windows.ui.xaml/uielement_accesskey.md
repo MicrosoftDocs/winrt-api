@@ -18,7 +18,7 @@ The access key (mnemonic) for this element.
 ## -remarks
 Setting this property enables the [AccessKeyDisplayRequested](uielement_accesskeydisplayrequested.md) event to be raised.
 
-If the [AutomationProperties.AccessKey](../windows.ui.xaml.automation/automationproperties_accesskey.md) attached property is not set, this property is used by the Automation framework instead. The value is used as case-insensitive, using the user language. It is used as text, so if an Input Method Editor (IME) is active the composed text is used.
+If the [AutomationProperties.AccessKey](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties) attached property is not set, this property is used by the Automation framework instead. The value is used as case-insensitive, using the user language. It is used as text, so if an Input Method Editor (IME) is active the composed text is used.
 
 ## -examples
 

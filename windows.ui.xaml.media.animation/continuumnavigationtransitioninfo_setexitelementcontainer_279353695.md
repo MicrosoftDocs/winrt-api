@@ -20,9 +20,9 @@ The element about which to set the exit element container indicator.
 Set this value to **true** if *element* is the exit element; otherwise set it to **false**.
 
 ## -remarks
-This method supports XAML usage of the [ContinuumNavigationTransitionInfo.ExitElementContainer](continuumnavigationtransitioninfo_exitelementcontainer.md) attached property.
+This method supports XAML usage of the [ContinuumNavigationTransitionInfo.ExitElementContainer](/uwp/api/windows.ui.xaml.media.animation.continuumnavigationtransitioninfo#xaml-attached-properties) attached property.
 
 ## -examples
 
 ## -see-also
-[ContinuumNavigationTransitionInfo.ExitElementContainer](continuumnavigationtransitioninfo_exitelementcontainer.md)
+[ContinuumNavigationTransitionInfo.ExitElementContainer](/uwp/api/windows.ui.xaml.media.animation.continuumnavigationtransitioninfo#xaml-attached-properties)

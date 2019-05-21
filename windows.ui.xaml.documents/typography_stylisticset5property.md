@@ -10,10 +10,10 @@ public Windows.UI.Xaml.DependencyProperty StylisticSet5Property { get; }
 # Windows.UI.Xaml.Documents.Typography.StylisticSet5Property
 
 ## -description
-Identifies the [StylisticSet5](typography_stylisticset5.md) attached property.
+Identifies the [StylisticSet5](/uwp/api/windows.ui.xaml.documents.typography#xaml-attached-properties) attached property.
 
 ## -property-value
-The identifier for the [StylisticSet5](typography_stylisticset5.md) attached property.
+The identifier for the [StylisticSet5](/uwp/api/windows.ui.xaml.documents.typography#xaml-attached-properties) attached property.
 
 ## -remarks
 

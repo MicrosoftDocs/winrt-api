@@ -10,10 +10,10 @@ public Windows.UI.Xaml.DependencyProperty SlashedZeroProperty { get; }
 # Windows.UI.Xaml.Documents.Typography.SlashedZeroProperty
 
 ## -description
-Identifies the [SlashedZero](typography_slashedzero.md) attached property.
+Identifies the [SlashedZero](/uwp/api/windows.ui.xaml.documents.typography#xaml-attached-properties) attached property.
 
 ## -property-value
-The identifier for the [SlashedZero](typography_slashedzero.md) attached property.
+The identifier for the [SlashedZero](/uwp/api/windows.ui.xaml.documents.typography#xaml-attached-properties) attached property.
 
 ## -remarks
 

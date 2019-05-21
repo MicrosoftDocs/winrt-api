@@ -10,7 +10,7 @@ public Windows.UI.Xaml.Automation.Peers.AccessibilityView GetAccessibilityView(W
 # Windows.UI.Xaml.Automation.AutomationProperties.GetAccessibilityView
 
 ## -description
-Gets the value of the [AutomationProperties.AccessibilityView](automationproperties_accessibilityview.md) attached property for the specified [DependencyObject](../windows.ui.xaml/dependencyobject.md).
+Gets the value of the [AutomationProperties.AccessibilityView](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties) attached property for the specified [DependencyObject](../windows.ui.xaml/dependencyobject.md).
 
 ## -parameters
 ### -param element

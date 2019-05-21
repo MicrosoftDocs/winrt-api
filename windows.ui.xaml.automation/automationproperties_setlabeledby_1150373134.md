@@ -10,7 +10,7 @@ public void SetLabeledBy(Windows.UI.Xaml.DependencyObject element, Windows.UI.Xa
 # Windows.UI.Xaml.Automation.AutomationProperties.SetLabeledBy
 
 ## -description
-Sets the value of the [AutomationProperties.LabeledBy](automationproperties_labeledby.md) attached property for the specified [DependencyObject](../windows.ui.xaml/dependencyobject.md).
+Sets the value of the [AutomationProperties.LabeledBy](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties) attached property for the specified [DependencyObject](../windows.ui.xaml/dependencyobject.md).
 
 ## -parameters
 ### -param element

@@ -20,4 +20,4 @@ The element that will fly between pages during a continuum navigation transition
 ## -examples
 
 ## -see-also
-[ContinuumNavigationTransitionInfo.IsExitElement attached property](continuumnavigationtransitioninfo_isexitelement.md)
+[ContinuumNavigationTransitionInfo.IsExitElement attached property](/uwp/api/windows.ui.xaml.media.animation.continuumnavigationtransitioninfo#xaml-attached-properties)

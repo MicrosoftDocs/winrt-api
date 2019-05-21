@@ -10,10 +10,10 @@ public Windows.UI.Xaml.DependencyProperty AccessibilityViewProperty { get; }
 # Windows.UI.Xaml.Automation.AutomationProperties.AccessibilityViewProperty
 
 ## -description
-Identifies the [AutomationProperties.AccessibilityView](automationproperties_accessibilityview.md) attached property. Set this attached property on individual elements in order to change their element visibility to specific modes requested by a UI Automation client.
+Identifies the [AutomationProperties.AccessibilityView](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties) attached property. Set this attached property on individual elements in order to change their element visibility to specific modes requested by a UI Automation client.
 
 ## -property-value
-The identifier for the [AutomationProperties.AccessibilityView](automationproperties_accessibilityview.md) attached property.
+The identifier for the [AutomationProperties.AccessibilityView](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties) attached property.
 
 ## -remarks
 

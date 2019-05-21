@@ -29,7 +29,7 @@ A [Transform](transform.md) is typically used to fill the [UIElement.RenderTrans
 
 [UIElement.RenderTransformOrigin](../windows.ui.xaml/uielement_rendertransformorigin.md) uses the logical point convention; [CenterX](rotatetransform_centerx.md) and [CenterY](rotatetransform_centery.md) don't use that convention, they use actual pixel values.
 
-The rendering position for an object can be offset on a [Canvas](../windows.ui.xaml.controls/canvas.md) using [Canvas.Left](../windows.ui.xaml.controls/canvas_left.md) and [Canvas.Top](../windows.ui.xaml.controls/canvas_top.md), but this does not count as a transformation; the object retains its own local (0,0) origin when it's positioned in a [Canvas](../windows.ui.xaml.controls/canvas.md).
+The rendering position for an object can be offset on a [Canvas](../windows.ui.xaml.controls/canvas.md) using [Canvas.Left](/uwp/api/windows.ui.xaml.controls.canvas#xaml-attached-properties) and [Canvas.Top](/uwp/api/windows.ui.xaml.controls.canvas#xaml-attached-properties), but this does not count as a transformation; the object retains its own local (0,0) origin when it's positioned in a [Canvas](../windows.ui.xaml.controls/canvas.md).
 
 There are other properties and relationships that can affect how the rotation appears. If there are multiple transformations applied by using a [TransformGroup](transformgroup.md), the order matters. The transformations are applied in the order that they appear in the [TransformCollection](transformcollection.md). Especially if one of the transformations is a [TranslateTransform](translatetransform.md), you might have to alter the order to get the rotation effect you want.
 
