@@ -10,10 +10,10 @@ public Windows.UI.Xaml.DependencyProperty TargetNameProperty { get; }
 # Windows.UI.Xaml.Media.Animation.Storyboard.TargetNameProperty
 
 ## -description
-Identifies the [Storyboard.TargetName](storyboard_targetname.md) XAML attached property.
+Identifies the [Storyboard.TargetName](/uwp/api/windows.ui.xaml.media.animation.storyboard#xaml-attached-properties) XAML attached property.
 
 ## -property-value
-The identifier for the [Storyboard.TargetName](storyboard_targetname.md) XAML attached property.
+The identifier for the [Storyboard.TargetName](/uwp/api/windows.ui.xaml.media.animation.storyboard#xaml-attached-properties) XAML attached property.
 
 ## -remarks
 

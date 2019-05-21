@@ -10,7 +10,7 @@ public int GetRowSpan(Windows.UI.Xaml.UIElement element)
 # Windows.UI.Xaml.Controls.VariableSizedWrapGrid.GetRowSpan
 
 ## -description
-Gets the value of the [VariableSizedWrapGrid.RowSpan](variablesizedwrapgrid_rowspan.md) XAML attached property from a target element.
+Gets the value of the [VariableSizedWrapGrid.RowSpan](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties) XAML attached property from a target element.
 
 ## -parameters
 ### -param element
@@ -20,9 +20,9 @@ The target element.
 The obtained value.
 
 ## -remarks
-For more info, see the [VariableSizedWrapGrid.RowSpan](variablesizedwrapgrid_rowspan.md) attached property.
+For more info, see the [VariableSizedWrapGrid.RowSpan](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties) attached property.
 
 ## -examples
 
 ## -see-also
-[VariableSizedWrapGrid.RowSpan](variablesizedwrapgrid_rowspan.md)
+[VariableSizedWrapGrid.RowSpan](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties)

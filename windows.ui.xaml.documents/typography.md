@@ -20,7 +20,7 @@ You typically use Typography attached properties with the text of [TextBlock](..
 
 The Typography object exposes the set of features that the Microsoft OpenType font supports. By setting the properties of Typography in markup or code, you can author documents that take advantage of Microsoft OpenType features, and turn those features on at a per-element level if desired.
 
-Some fonts contain stylistic variant glyphs that correspond to portions of a character set. Glyphs in stylistic sets may be designed to harmonize visually, interact in particular ways, or work together in other ways. Some of these variants are identified by particular conventions, for example the font might have discretionary ligatures. In this example case, the typography behavior can be enabled by setting [Typography.DiscretionaryLigatures](typography_discretionaryligatures.md) to true. Other stylistic variants are not identified by any Microsoft OpenType set or convention, and are instead specific to that particular font's typography design. These variants can be accessed by setting any of the **StylisticSet#** attached properties to true.
+Some fonts contain stylistic variant glyphs that correspond to portions of a character set. Glyphs in stylistic sets may be designed to harmonize visually, interact in particular ways, or work together in other ways. Some of these variants are identified by particular conventions, for example the font might have discretionary ligatures. In this example case, the typography behavior can be enabled by setting [Typography.DiscretionaryLigatures](/uwp/api/windows.ui.xaml.documents.typography#xaml-attached-properties) to true. Other stylistic variants are not identified by any Microsoft OpenType set or convention, and are instead specific to that particular font's typography design. These variants can be accessed by setting any of the **StylisticSet#** attached properties to true.
 
 
 
@@ -95,7 +95,7 @@ Windows.UI.Xaml.Documents.Typography.SetCapitals(textBlock1, FontCapitals.SmallC
 Windows.UI.Xaml.Documents.Typography.SetStylisticSet4(textBlock1, true);
 ```
 
-In this example, the [Typography.Fraction](typography_fraction.md) attached property is set on a [Run](run.md) in a [RichTextBlock](../windows.ui.xaml.controls/richtextblock.md).
+In this example, the [Typography.Fraction](/uwp/api/windows.ui.xaml.documents.typography#xaml-attached-properties) attached property is set on a [Run](run.md) in a [RichTextBlock](../windows.ui.xaml.controls/richtextblock.md).
 
 ```xaml
 <RichTextBlock>

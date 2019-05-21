@@ -10,10 +10,10 @@ public Windows.UI.Xaml.DependencyProperty NumeralAlignmentProperty { get; }
 # Windows.UI.Xaml.Documents.Typography.NumeralAlignmentProperty
 
 ## -description
-Identifies the [NumeralAlignment](typography_numeralalignment.md) attached property.
+Identifies the [NumeralAlignment](/uwp/api/windows.ui.xaml.documents.typography#xaml-attached-properties) attached property.
 
 ## -property-value
-The identifier for the [NumeralAlignment](typography_numeralalignment.md) attached property.
+The identifier for the [NumeralAlignment](/uwp/api/windows.ui.xaml.documents.typography#xaml-attached-properties) attached property.
 
 ## -remarks
 

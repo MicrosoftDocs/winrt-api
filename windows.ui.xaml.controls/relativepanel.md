@@ -57,7 +57,7 @@ RelativePanel, used in conjunction with [AdaptiveTrigger](../windows.ui.xaml/ada
 
 By default, any unconstrained element declared as a child of the RelativePanel is given the entire available space and positioned at the (0, 0) coordinates (upper left corner) of the panel. So, if you are positioning a second element relative to an unconstrained element, keep in mind that the second element might get pushed out of the panel.
 
-In this example, `RectA` doesn't have any constraints, so it's positioned at (0,0). `RectB` is not shown on the screen because it is declared to be [Above](relativepanel_above.md)  `RectA` and is therefore pushed out of the panel.
+In this example, `RectA` doesn't have any constraints, so it's positioned at (0,0). `RectB` is not shown on the screen because it is declared to be [Above](/uwp/api/windows.ui.xaml.controls.relativepanel#xaml-attached-properties)  `RectA` and is therefore pushed out of the panel.
 
 ```xaml
 <RelativePanel>
@@ -83,11 +83,11 @@ A circular dependency occurs when two elements inside a RelativePanel declare re
 ### Conflicting relationships
 
 If you set multiple relationships that target the same edge of an element, you might have conflicting relationships in your layout as a result. When this happens, the relationships are applied in the following order of priority:
-+ Panel alignment relationships ([AlignTopWithPanel](relativepanel_aligntopwithpanel.md), [AlignLeftWithPanel](relativepanel_alignleftwithpanel.md), …) are applied first.
-+ Sibling alignment relationships ([AlignTopWith](relativepanel_aligntopwith.md), [AlignLeftWith](relativepanel_alignleftwith.md), …) are applied second.
-+ Sibling positional relationships ([Above](relativepanel_above.md), [Below](relativepanel_below.md), [RightOf](relativepanel_rightof.md), [LeftOf](relativepanel_leftof.md)) are applied last.
++ Panel alignment relationships ([AlignTopWithPanel](/uwp/api/windows.ui.xaml.controls.relativepanel#xaml-attached-properties), [AlignLeftWithPanel](/uwp/api/windows.ui.xaml.controls.relativepanel#xaml-attached-properties), …) are applied first.
++ Sibling alignment relationships ([AlignTopWith](/uwp/api/windows.ui.xaml.controls.relativepanel#xaml-attached-properties), [AlignLeftWith](/uwp/api/windows.ui.xaml.controls.relativepanel#xaml-attached-properties), …) are applied second.
++ Sibling positional relationships ([Above](/uwp/api/windows.ui.xaml.controls.relativepanel#xaml-attached-properties), [Below](/uwp/api/windows.ui.xaml.controls.relativepanel#xaml-attached-properties), [RightOf](/uwp/api/windows.ui.xaml.controls.relativepanel#xaml-attached-properties), [LeftOf](/uwp/api/windows.ui.xaml.controls.relativepanel#xaml-attached-properties)) are applied last.
 
-The panel-center alignment properties ([AlignVerticalCenterWith](relativepanel_alignverticalcenterwith.md), [AlignHorizontalCenterWithPanel](relativepanel_alignhorizontalcenterwithpanel.md), ...) are typically used independently of other constraints and are applied if there is no conflict.
+The panel-center alignment properties ([AlignVerticalCenterWith](/uwp/api/windows.ui.xaml.controls.relativepanel#xaml-attached-properties), [AlignHorizontalCenterWithPanel](/uwp/api/windows.ui.xaml.controls.relativepanel#xaml-attached-properties), ...) are typically used independently of other constraints and are applied if there is no conflict.
 
 The [HorizontalAlignment](../windows.ui.xaml/frameworkelement_horizontalalignment.md) and [VerticalAlignment](../windows.ui.xaml/frameworkelement_verticalalignment.md) properties on UI elements are applied after relationship properties are evaluated and applied. These properties control the placement of the element within the available size for the element, if the desired size is smaller than the available size.
 

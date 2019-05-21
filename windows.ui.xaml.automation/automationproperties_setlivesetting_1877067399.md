@@ -10,7 +10,7 @@ public void SetLiveSetting(Windows.UI.Xaml.DependencyObject element, Windows.UI.
 # Windows.UI.Xaml.Automation.AutomationProperties.SetLiveSetting
 
 ## -description
-Sets the value of the [AutomationProperties.LiveSetting](automationproperties_livesetting.md) attached property for the specified [DependencyObject](../windows.ui.xaml/dependencyobject.md).
+Sets the value of the [AutomationProperties.LiveSetting](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties) attached property for the specified [DependencyObject](../windows.ui.xaml/dependencyobject.md).
 
 ## -parameters
 ### -param element

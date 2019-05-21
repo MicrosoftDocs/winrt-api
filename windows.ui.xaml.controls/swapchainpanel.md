@@ -21,7 +21,7 @@ Provides a hosting surface, where Microsoft DirectX swap chains provide content 
 
 ## -remarks
 
-A SwapChainPanel is a [Grid](grid.md) subclass, so you can use [ColumnDefinitions](grid_columndefinitions.md) and [RowDefinitions](grid_rowdefinitions.md) properties to declare the panel's characteristics, and the attached properties of [Grid](grid.md) such as [Grid.Row](grid_row.md) and [Grid.Column](grid_column.md) on child elements to position those child elements in the layout.
+A SwapChainPanel is a [Grid](grid.md) subclass, so you can use [ColumnDefinitions](grid_columndefinitions.md) and [RowDefinitions](grid_rowdefinitions.md) properties to declare the panel's characteristics, and the attached properties of [Grid](grid.md) such as [Grid.Row](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties) and [Grid.Column](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties) on child elements to position those child elements in the layout.
 
 For code examples that use SwapChainPanel, see [XAML SwapChainPanel DirectX interop sample](https://go.microsoft.com/fwlink/p/?LinkID=309155).
 

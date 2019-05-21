@@ -10,10 +10,10 @@ public Windows.UI.Xaml.DependencyProperty LocationProperty { get; }
 # Windows.UI.Xaml.Controls.Maps.MapControl.LocationProperty
 
 ## -description
-Identifies the [MapControl.Location](mapcontrol_location.md) XAML attached property.
+Identifies the [MapControl.Location](/uwp/api/windows.ui.xaml.controls.maps.mapcontrol#xaml-attached-properties) XAML attached property.
 
 ## -property-value
-The identifier for the [MapControl.Location](mapcontrol_location.md) XAML attached property.
+The identifier for the [MapControl.Location](/uwp/api/windows.ui.xaml.controls.maps.mapcontrol#xaml-attached-properties) XAML attached property.
 
 ## -remarks
 

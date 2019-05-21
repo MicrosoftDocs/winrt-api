@@ -20,9 +20,9 @@ The **UIElement** to check as being the entrance element.
 Returns **true** if *element* is the entrance element; otherwise **false**.
 
 ## -remarks
-This method supports XAML usage of the [ContinuumNavigationTransitionInfo.IsEntranceElement](continuumnavigationtransitioninfo_isentranceelement.md) attached property.
+This method supports XAML usage of the [ContinuumNavigationTransitionInfo.IsEntranceElement](/uwp/api/windows.ui.xaml.media.animation.continuumnavigationtransitioninfo#xaml-attached-properties) attached property.
 
 ## -examples
 
 ## -see-also
-[ContinuumNavigationTransitionInfo.IsEntranceElement](continuumnavigationtransitioninfo_isentranceelement.md)
+[ContinuumNavigationTransitionInfo.IsEntranceElement](/uwp/api/windows.ui.xaml.media.animation.continuumnavigationtransitioninfo#xaml-attached-properties)

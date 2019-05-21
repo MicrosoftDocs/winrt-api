@@ -10,11 +10,11 @@ public void SetNumeralStyle(Windows.UI.Xaml.DependencyObject element, Windows.UI
 # Windows.UI.Xaml.Documents.Typography.SetNumeralStyle
 
 ## -description
-Sets the value of the [NumeralStyle](typography_numeralstyle.md)  attached property for a specified dependency object.
+Sets the value of the [NumeralStyle](/uwp/api/windows.ui.xaml.documents.typography#xaml-attached-properties) attached property for a specified dependency object.
 
 ## -parameters
 ### -param element
-The dependency object for which to set the value of the [NumeralStyle](typography_numeralstyle.md) property.
+The dependency object for which to set the value of the [NumeralStyle](/uwp/api/windows.ui.xaml.documents.typography#xaml-attached-properties) property.
 
 ### -param value
 The new value to set the property to.

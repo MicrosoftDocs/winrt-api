@@ -10,10 +10,10 @@ public Windows.UI.Xaml.DependencyProperty IsEntranceElementProperty { get; }
 # Windows.UI.Xaml.Media.Animation.ContinuumNavigationTransitionInfo.IsEntranceElementProperty
 
 ## -description
-Identifies the [ContinuumNavigationTransitionInfo.IsEntranceElement](continuumnavigationtransitioninfo_isentranceelement.md) attached property.
+Identifies the [ContinuumNavigationTransitionInfo.IsEntranceElement](/uwp/api/windows.ui.xaml.media.animation.continuumnavigationtransitioninfo#xaml-attached-properties) attached property.
 
 ## -property-value
-The identifier for the [ContinuumNavigationTransitionInfo.IsEntranceElement](continuumnavigationtransitioninfo_isentranceelement.md) attached property.
+The identifier for the [ContinuumNavigationTransitionInfo.IsEntranceElement](/uwp/api/windows.ui.xaml.media.animation.continuumnavigationtransitioninfo#xaml-attached-properties) attached property.
 
 ## -remarks
 

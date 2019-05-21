@@ -10,7 +10,7 @@ public void SetPlacement(Windows.UI.Xaml.DependencyObject element, Windows.UI.Xa
 # Windows.UI.Xaml.Controls.ToolTipService.SetPlacement
 
 ## -description
-Sets the [ToolTipService.Placement](tooltipservice_placement.md) XAML attached property value for the specified target element.
+Sets the [ToolTipService.Placement](/uwp/api/windows.ui.xaml.controls.tooltipservice#xaml-attached-properties) XAML attached property value for the specified target element.
 
 ## -parameters
 ### -param element
@@ -20,7 +20,7 @@ The target element for the attached property value.
 One of the [PlacementMode](../windows.ui.xaml.controls.primitives/placementmode.md) values, which specifies where the tooltip should appear relative to the control that is the placement target.
 
 ## -remarks
-This method supports the [ToolTipService.Placement](tooltipservice_placement.md) attached property usage for Extensible Application Markup Language (XAML). The target element is not necessarily a [ToolTip](tooltip.md), it might be an element that owns an inferred tooltip through usage of [ToolTipService](tooltipservice.md) APIs. Also, the target element is not necessarily the final placement target, because that can be reset by setting the [ToolTipService.PlacementTarget](tooltipservice_placementtarget.md) attached property.
+This method supports the [ToolTipService.Placement](/uwp/api/windows.ui.xaml.controls.tooltipservice#xaml-attached-properties) attached property usage for Extensible Application Markup Language (XAML). The target element is not necessarily a [ToolTip](tooltip.md), it might be an element that owns an inferred tooltip through usage of [ToolTipService](tooltipservice.md) APIs. Also, the target element is not necessarily the final placement target, because that can be reset by setting the [ToolTipService.PlacementTarget](/uwp/api/windows.ui.xaml.controls.tooltipservice#xaml-attached-properties) attached property.
 
 ## -examples
 

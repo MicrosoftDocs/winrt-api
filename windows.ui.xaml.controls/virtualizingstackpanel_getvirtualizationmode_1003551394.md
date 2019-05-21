@@ -10,7 +10,7 @@ public Windows.UI.Xaml.Controls.VirtualizationMode GetVirtualizationMode(Windows
 # Windows.UI.Xaml.Controls.VirtualizingStackPanel.GetVirtualizationMode
 
 ## -description
-Gets the [VirtualizingStackPanel.VirtualizationMode](virtualizingstackpanel_virtualizationmode.md) XAML attached property value for the specified target element.
+Gets the [VirtualizingStackPanel.VirtualizationMode](/uwp/api/windows.ui.xaml.controls.virtualizingstackpanel#xaml-attached-properties) XAML attached property value for the specified target element.
 
 ## -parameters
 ### -param element
@@ -20,9 +20,9 @@ The object from which the [VirtualizationMode](virtualizationmode.md) is read.
 One of the enumeration values that specifies whether the object uses container recycling.
 
 ## -remarks
-For more info, see the [VirtualizingStackPanel.VirtualizationMode](virtualizingstackpanel_virtualizationmode.md) attached property.
+For more info, see the [VirtualizingStackPanel.VirtualizationMode](/uwp/api/windows.ui.xaml.controls.virtualizingstackpanel#xaml-attached-properties) attached property.
 
 ## -examples
 
 ## -see-also
-[VirtualizingStackPanel.VirtualizationMode](virtualizingstackpanel_virtualizationmode.md)
+[VirtualizingStackPanel.VirtualizationMode](/uwp/api/windows.ui.xaml.controls.virtualizingstackpanel#xaml-attached-properties)

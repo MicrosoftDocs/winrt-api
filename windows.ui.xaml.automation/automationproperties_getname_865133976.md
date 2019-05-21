@@ -10,7 +10,7 @@ public string GetName(Windows.UI.Xaml.DependencyObject element)
 # Windows.UI.Xaml.Automation.AutomationProperties.GetName
 
 ## -description
-Gets the value of the [AutomationProperties.Name](automationproperties_name.md) attached property for the specified [DependencyObject](../windows.ui.xaml/dependencyobject.md).
+Gets the value of the [AutomationProperties.Name](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties) attached property for the specified [DependencyObject](../windows.ui.xaml/dependencyobject.md).
 
 ## -parameters
 ### -param element

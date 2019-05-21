@@ -10,7 +10,7 @@ public enum Windows.UI.Xaml.Automation.Peers.AutomationLiveSetting : int
 # AutomationLiveSetting
 
 ## -description
-Describes the notification characteristics of a particular live region in an app UI. Used by [GetLiveSetting](automationpeer_getlivesetting_295263812.md) and [AutomationProperties.LiveSetting](../windows.ui.xaml.automation/automationproperties_livesetting.md).
+Describes the notification characteristics of a particular live region in an app UI. Used by [GetLiveSetting](automationpeer_getlivesetting_295263812.md) and [AutomationProperties.LiveSetting](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties).
 
 ## -xaml-syntax
 ```xaml
@@ -34,4 +34,4 @@ The element sends interruptive notifications if the content of the live region h
 ## -examples
 
 ## -see-also
-[AutomationProperties.LiveSetting](../windows.ui.xaml.automation/automationproperties_livesetting.md), [GetLiveSetting](automationpeer_getlivesetting_295263812.md), [GetLiveSettingCore](automationpeer_getlivesettingcore_2008424374.md), [Custom automation peers](https://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4), [Practices to avoid](https://msdn.microsoft.com/library/024a9b70-9821-45bb-93f1-61c0b2ecf53e)
+[AutomationProperties.LiveSetting](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties), [GetLiveSetting](automationpeer_getlivesetting_295263812.md), [GetLiveSettingCore](automationpeer_getlivesettingcore_2008424374.md), [Custom automation peers](https://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4), [Practices to avoid](https://msdn.microsoft.com/library/024a9b70-9821-45bb-93f1-61c0b2ecf53e)

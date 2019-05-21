@@ -10,7 +10,7 @@ public class Grid : Windows.UI.Xaml.Controls.Panel, Windows.UI.Xaml.Controls.IGr
 # Windows.UI.Xaml.Controls.Grid
 
 ## -description
-Defines a flexible grid area that consists of columns and rows. Child elements of the Grid are measured and arranged according to their row/column assignments (set by using [Grid.Row](grid_row.md) and [Grid.Column](grid_column.md) attached properties) and other logic.
+Defines a flexible grid area that consists of columns and rows. Child elements of the Grid are measured and arranged according to their row/column assignments (set by using [Grid.Row](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties) and [Grid.Column](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties) attached properties) and other logic.
 
 ## -xaml-syntax
 ```xaml
@@ -40,11 +40,11 @@ Grid is a layout panel that supports arranging child elements in rows and column
 </Grid>
 ```
 
-You typically define layout behavior for a Grid in XAML by providing one or more [RowDefinition](rowdefinition.md) elements as the value of [Grid.RowDefinitions](grid_rowdefinitions.md), and one or more [ColumnDefinition](columndefinition.md) elements as the value of [Grid.ColumnDefinitions](grid_columndefinitions.md). Then, you apply the [Grid.Row](grid_row.md) and [Grid.Column](grid_column.md) attached properties to each of the element children of the Grid, to indicate which row/column combination is used to position that element within the parent Grid.
+You typically define layout behavior for a Grid in XAML by providing one or more [RowDefinition](rowdefinition.md) elements as the value of [Grid.RowDefinitions](grid_rowdefinitions.md), and one or more [ColumnDefinition](columndefinition.md) elements as the value of [Grid.ColumnDefinitions](grid_columndefinitions.md). Then, you apply the [Grid.Row](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties) and [Grid.Column](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties) attached properties to each of the element children of the Grid, to indicate which row/column combination is used to position that element within the parent Grid.
 
 To set the height of rows and the width of columns, you set [RowDefinition.Height](rowdefinition_height.md) for each [RowDefinition](rowdefinition.md) and [ColumnDefinition.Width](columndefinition_width.md) for each [ColumnDefinition](columndefinition.md). By default, each row or column divides layout space equally. You can change this behavior either by providing absolute pixel values, or a **Star** sizing that divides available space using a weighted factor. For more info on how to use **Star** sizing in a Grid, see [Define layouts with XAML](https://msdn.microsoft.com/library/8d4e4162-1c9c-48f4-8a94-34976fb17079) or [GridLength](../windows.ui.xaml/gridlength.md). You also can use an **Auto** sizing that sizes to content.
 
-To indicate that an element child should span multiple rows or multiple columns in the Grid, you can apply the [Grid.RowSpan](grid_rowspan.md) or [Grid.ColumnSpan](grid_columnspan.md) attached properties to child elements of a Grid.
+To indicate that an element child should span multiple rows or multiple columns in the Grid, you can apply the [Grid.RowSpan](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties) or [Grid.ColumnSpan](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties) attached properties to child elements of a Grid.
 
 By default, a Grid contains one row and one column.
 
@@ -117,4 +117,4 @@ This XAML example shows how to design a layout by using a Grid.
 [!code-vb[GridClassCode](../windows.ui.xaml/code/GridReferenceSample/vbnet/Page.xaml.vb#SnippetGridClassCode)]
 
 ## -see-also
-[Panel](panel.md), [Grid.Row](grid_row.md), [Grid.Column](grid_column.md), [Define layouts](https://msdn.microsoft.com/library/8d4e4162-1c9c-48f4-8a94-34976fb17079), [Alignment, margin, and padding](https://msdn.microsoft.com/library/9412abd4-3674-4865-b07d-64c7c26e4842), [Attached properties overview](https://msdn.microsoft.com/library/098c1de0-d640-48b1-9961-d0adf33266e2), [Canvas](canvas.md), [StackPanel](stackpanel.md), [VariableSizedWrapGrid](variablesizedwrapgrid.md), [WrapGrid](wrapgrid.md), [Controls list](https://msdn.microsoft.com/library/11172840-a63d-4f48-9db4-7baca06308ee), [Controls by function](https://msdn.microsoft.com/library/8db4347b-91d6-4659-91f2-80ecf7bbb596)
+[Panel](panel.md), [Grid.Row](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties), [Grid.Column](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties), [Define layouts](https://msdn.microsoft.com/library/8d4e4162-1c9c-48f4-8a94-34976fb17079), [Alignment, margin, and padding](https://msdn.microsoft.com/library/9412abd4-3674-4865-b07d-64c7c26e4842), [Attached properties overview](https://msdn.microsoft.com/library/098c1de0-d640-48b1-9961-d0adf33266e2), [Canvas](canvas.md), [StackPanel](stackpanel.md), [VariableSizedWrapGrid](variablesizedwrapgrid.md), [WrapGrid](wrapgrid.md), [Controls list](https://msdn.microsoft.com/library/11172840-a63d-4f48-9db4-7baca06308ee), [Controls by function](https://msdn.microsoft.com/library/8db4347b-91d6-4659-91f2-80ecf7bbb596)

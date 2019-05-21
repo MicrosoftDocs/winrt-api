@@ -10,13 +10,13 @@ public Windows.UI.Xaml.DependencyProperty TopProperty { get; }
 # Windows.UI.Xaml.Controls.Canvas.TopProperty
 
 ## -description
-Identifies the [Canvas.Top](canvas_top.md)  XAML attached property.
+Identifies the [Canvas.Top](/uwp/api/windows.ui.xaml.controls.canvas#xaml-attached-properties) XAML attached property.
 
 ## -property-value
-The identifier for the [Canvas.Top](canvas_top.md)  XAML attached property.
+The identifier for the [Canvas.Top](/uwp/api/windows.ui.xaml.controls.canvas#xaml-attached-properties) XAML attached property.
 
 ## -remarks
-This property is only an identifier for the property system, and isn't used in most app scenarios. In most cases you set the [Canvas.Top](canvas_top.md)  XAML attached property in XAML and won't need this identifier.
+This property is only an identifier for the property system, and isn't used in most app scenarios. In most cases you set the [Canvas.Top](/uwp/api/windows.ui.xaml.controls.canvas#xaml-attached-properties) XAML attached property in XAML and won't need this identifier.
 
 ## -examples
 

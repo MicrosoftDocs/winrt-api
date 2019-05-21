@@ -10,10 +10,10 @@ public Windows.UI.Xaml.DependencyProperty CapitalsProperty { get; }
 # Windows.UI.Xaml.Documents.Typography.CapitalsProperty
 
 ## -description
-Identifies the [Capitals](typography_capitals.md) attached property.
+Identifies the [Capitals](/uwp/api/windows.ui.xaml.documents.typography#xaml-attached-properties) attached property.
 
 ## -property-value
-The identifier for the [Capitals](typography_capitals.md) attached property.
+The identifier for the [Capitals](/uwp/api/windows.ui.xaml.documents.typography#xaml-attached-properties) attached property.
 
 ## -remarks
 

@@ -10,10 +10,10 @@ public Windows.UI.Xaml.DependencyProperty PlacementProperty { get; }
 # Windows.UI.Xaml.Controls.ToolTipService.PlacementProperty
 
 ## -description
-Identifies the [ToolTipService.Placement](tooltipservice_placement.md) XAML attached property.
+Identifies the [ToolTipService.Placement](/uwp/api/windows.ui.xaml.controls.tooltipservice#xaml-attached-properties) XAML attached property.
 
 ## -property-value
-The identifier for the [ToolTipService.Placement](tooltipservice_placement.md) XAML attached property.
+The identifier for the [ToolTipService.Placement](/uwp/api/windows.ui.xaml.controls.tooltipservice#xaml-attached-properties) XAML attached property.
 
 ## -remarks
 

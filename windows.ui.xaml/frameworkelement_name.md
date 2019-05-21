@@ -32,7 +32,7 @@ Name should never be localized. Name is used as a field name variable in code-be
 
 ### Scenarios for Name
 
-Setting **x:Name** or Name in the XAML that defines UI elements supports several major scenarios: + **Animation targeting** To apply an animation to an object property, you must target a specific instance. You do that by setting the [Storyboard.TargetName](../windows.ui.xaml.media.animation/storyboard_targetname.md) attached property on any [Timeline](../windows.ui.xaml.media.animation/timeline.md). The value that you set here is the string that you assigned as the **x:Name** or Name. For more info, see [Storyboarded animations](https://msdn.microsoft.com/library/0cbceea0-2b0e-44a1-a09a-f7a939632f3a).
+Setting **x:Name** or Name in the XAML that defines UI elements supports several major scenarios: + **Animation targeting** To apply an animation to an object property, you must target a specific instance. You do that by setting the [Storyboard.TargetName](/uwp/api/windows.ui.xaml.media.animation.storyboard#xaml-attached-properties) attached property on any [Timeline](../windows.ui.xaml.media.animation/timeline.md). The value that you set here is the string that you assigned as the **x:Name** or Name. For more info, see [Storyboarded animations](https://msdn.microsoft.com/library/0cbceea0-2b0e-44a1-a09a-f7a939632f3a).
 + **Parts of a control template** In order to support the visual state model and control initialization, control authors should specify **Name** values for the key parts of a templated control. For more info see [Quickstart: Control templates](https://msdn.microsoft.com/library/67c424ae-afb1-4560-a6a8-4a3506775d77).
 + **General run time interaction** For example, code within an event handler might handle an event on an object that provides the change UI, but the change to properties occurs on another nearby UI element. The easiest way to write code for this situation is to use the field reference generated from a **Name**.
 
@@ -60,7 +60,7 @@ It can be difficult to know which Name values already exist in the XAML namescop
 Note that you can only set Name at run time for objects that are a [FrameworkElement](frameworkelement.md) or an [Inline](../windows.ui.xaml.documents/inline.md). If an object does not have a **Name** property, and setting the name in XAML would have required using the **x:Name** attribute rather than **Name**, there is no run-time API available for setting such an object's run-time name.
 
 ## -examples
-This example gets a value for Name from an existing object, and uses that name to retarget an animation. You target an animation by setting the [Storyboard.TargetName](../windows.ui.xaml.media.animation/storyboard_targetname.md) attached property.
+This example gets a value for Name from an existing object, and uses that name to retarget an animation. You target an animation by setting the [Storyboard.TargetName](/uwp/api/windows.ui.xaml.media.animation.storyboard#xaml-attached-properties) attached property.
 
 
 
@@ -69,5 +69,5 @@ This example gets a value for Name from an existing object, and uses that name t
 [!code-vb[Change_targetname_1_cs](../windows.ui.xaml/code/change_targetname_1/vbnet/Page.xaml.vb#SnippetChange_targetname_1_cs)]
 
 ## -see-also
-[x:Name attribute](https://msdn.microsoft.com/library/4ff1f3ed-903a-4305-b2bd-dcd29e0c9e6d), [FindName](frameworkelement_findname_634111277.md), [Storyboard.TargetName](../windows.ui.xaml.media.animation/storyboard_targetname.md), [XAML namescopes](https://msdn.microsoft.com/library/eb060cbd-a589-475e-b83d-b24068b54c21), [XAML overview](https://msdn.microsoft.com/library/48041b37-f1a8-44a4-bb8e-1d4de30e7823)
+[x:Name attribute](https://msdn.microsoft.com/library/4ff1f3ed-903a-4305-b2bd-dcd29e0c9e6d), [FindName](frameworkelement_findname_634111277.md), [Storyboard.TargetName](/uwp/api/windows.ui.xaml.media.animation.storyboard#xaml-attached-properties), [XAML namescopes](https://msdn.microsoft.com/library/eb060cbd-a589-475e-b83d-b24068b54c21), [XAML overview](https://msdn.microsoft.com/library/48041b37-f1a8-44a4-bb8e-1d4de30e7823)
 1b37-f1a8-44a4-bb8e-1d4de30e7823)
