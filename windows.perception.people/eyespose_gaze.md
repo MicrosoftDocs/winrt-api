@@ -14,10 +14,10 @@ public IReference<SpatialRay> Gaze { get; }
 Gets the user's eye gaze in the specified coordinate system.
 
 ## -property-value
-The eye gaze, if calibration is valid for the current user; otherwise, null.
+The eye gaze, if calibration is valid for the current user and their eyes are currently detected; otherwise, null.
 
 ## -remarks
-You should check [IsCalibrationValid](eyespose_iscalibrationvalid.md) first to determine if eye gaze calibration is valid for the current user in the headset.  If not, this property will return null.
+You should check [IsCalibrationValid](eyespose_iscalibrationvalid.md) first to determine if eye gaze calibration is valid for the current user in the headset.  If not, this property will always return null.
 
 ## -see-also
 
