@@ -21,14 +21,19 @@ Some apps do not need to understand a file format in order to process it - such 
 One display name as a classification of file types might have multiple file types that support it. For example, a display name of "HTML page" could be saved either with ".htm" or ".html" extension. That is why the value of each entry in a [FilePickerFileTypesOrderedMap](filepickerfiletypesorderedmap.md) is an ordered list (vector) of strings, displayed in the UI in the order that you place the extensions in the vector.
 
 ## -examples
-The [File picker sample](https://go.microsoft.com/fwlink/p/?linkid=234890) demonstrates how to add file type choices with a display name.
-
-
+The [File picker sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FilePicker) demonstrates how to add file type choices with a display name.
 
 [!code-csharp[all_savepicker_setprops](../windows.storage.pickers/code/FilePicker/CS/Scenario4.xaml.cs#Snippetall_savepicker_setprops)]
 
 [!code-js[all_savepicker_setprops](../windows.storage.pickers/code/FilePicker/js/js/scenario4.js#Snippetall_savepicker_setprops)]
 
+```cppwinrt
+auto plainTextExtensions{ winrt::single_threaded_vector<winrt::hstring>() };
+plainTextExtensions.Append(L".txt");
+
+savePicker.FileTypeChoices().Insert(L"Plain Text", plainTextExtensions);
+savePicker.SuggestedFileName(L"New Document");
+```
+
 ## -see-also
-[File picker sample](https://go.microsoft.com/fwlink/p/?linkid=234890), [FileSavePicker class](filesavepicker.md), [FilePickerFileTypesOrderedMap](filepickerfiletypesorderedmap.md)
-filepickerfiletypesorderedmap.md)
+[File picker sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FilePicker), [FileSavePicker class](filesavepicker.md), [FilePickerFileTypesOrderedMap](filepickerfiletypesorderedmap.md)
